@@ -23,6 +23,7 @@ semicolons as statement separators and statement terminators, complex exceptions
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
 In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
 In ruby, blocks end with <code>end</code>
+In python, pretty much anything (control structure, function, etc) that precedes a block ends with `:`. In Ruby by contrast (which otherwise may look pretty similar), nothing ends with `:`
 
 liquid|{% keyword %} ... {% endkeyword %}
 python|indentation
@@ -118,7 +119,8 @@ Count-controlled loops
 Count-controlled loops are loops that repeat a piece of code a certain number of times.
 Count-controlled loops are often started with the keyword for.
 Count-controlled loops are often called for-loops.
-
+The typical syntax for count-controlled loops inheriting from C (e.g. C#, Java, JS) is 
+for &lt;delimiter&gt; counter definition; counter end condition; counter change per loop &lt;delimiter&gt; block
 
 
 
@@ -143,7 +145,7 @@ Collection-controlled loops are commonly called foreach loops.
   Collection-controlled loops most commonly start with the keyword <code>for</code>, but then feature a different syntax than count-controlled loops. In perl, they instead start <code>foreach</code>.
   Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
   Lua: for &lt;expression&gt; do
-  Python, Ruby: for <expression> in <iterable> ...
+  Python, Ruby, Rust: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
 
 
@@ -200,6 +202,9 @@ Documentation
 for the following thing|///|Rust
 for the following thing|/**...*/|Java (Javadoc)
 for the thing we are in right now|//!|Rust
+for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function)
+
+Documentation comments often generate HTML documentation
 
 <h2>Identifiers</h2>
 
@@ -267,7 +272,10 @@ Datatypes implemented in a programming language can either be scalar or compound
 
 <h3>Types and type annotation</h3>
 
-Specifying the type of a thing by writing the type into the code is known as type annotation.
+Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
+In most (esp. C-influenced) languages, type annotation goes before the variable/constant.
+In Rust and TS, type annotation looks like so `: type`
+
 In general, certain types are generally indicated similarly across programming languages (though there is variation)
 Integers|int|not Rust
 Floating-point numbers|float|not Rust
@@ -276,10 +284,19 @@ Booleans|boolean|Java
 Characters|char|C#, Java, Rust
 Double-precision floating-point numbers|double|C#, Java
 
+In rust:
+Numeric types: &lt;type&gt;&lt;size&gt;
+signed integer|i|i16, i128, isize,...
+unsigned integer|u|u32, u64, usize,...
+floating-point|f|f32, f64
+size as part of the type annotation (usize, isize) indicates the system word size 
+
 <h4>primitive types in different languages</h4>
 
 C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
+Rust: 
+scalar: integer, floating-point numbers, booleans, chars
 
 <h3>Dynamic vs Static typing</h3>
 
@@ -287,7 +304,7 @@ Dynamic typigng: type checking at runtime ≈ values have type
 Static typing: type checking at compile time ≈ variables have type
 
 Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
-Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction)
+Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust
 
 <h3>Type inference/manifest</h3>
 
@@ -336,8 +353,9 @@ True/False|Python
 
 <h3>float and double</h3>
 
-In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be adouble
-
+In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
+Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
+TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
 
 Enum is short for enumeration or enumerated datatype.
 An enum is a datatype that can take on one of a finite set of values.
@@ -369,8 +387,8 @@ Clear a mutable linear collection|clear()|Python
 
 <h5>Sets</h5>
 
-ADT similar to sets in math.
-Python data structure: set (mutable), frozenset (immutable)
+ADT similar to sets in math = unique members, don't have order.
+Python data structure: set (mutable), frozenset (immutable).
 
 <h5>Associative collections</h5>
 
@@ -418,6 +436,7 @@ value?|Ruby
 
 get array/iterator of key, value tuple/array/whatever:
 pairs()|lua
+items()|Python
 
 get array/iterator of keys
 keys()|perl
@@ -511,7 +530,7 @@ Python has an immutable static array of different types, called a tuple and deli
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
-C#: List, defined over one generic. must be created via constructor.
+C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
 <h5>Streams</h5>
 
@@ -536,8 +555,8 @@ Integer literals generally not overtly marked
 <h3>Strings<h3>
 
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
-In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes.
-Some langauges differentiate between string literals with single and double quotes, some languages (lua, liquid) do not.
+In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
+Some langauges that don't have a char type differentiate between string literals with single and double quotes, some languages (lua, liquid, python, JS) do not.
 In many languages, single-quoted string literals act as raw string literals.
 In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
@@ -566,6 +585,11 @@ In JS, string interpolation can only be performed within template literals.
 \$variable|sh|only with variable names
 \${epxr}|sh|more feature-full
 
+Rust:
+Syntax|Trait
+{}|Display
+{:?}|Debug
+{:#?}|Debug, but pretty-print
 
 <h4>String multiplication</h4>
 
@@ -577,6 +601,14 @@ x|Perl
 ..|Lua
 +|Java|C#|Python|Ruby|Rust|JS
 .|Perl
+
+<h4>String replacement</h4>
+
+bash
+general pattern (replace first instance) ${SOME_STRING_VAR/find/replace}
+//find/replace|replace all instance
+/#find/replace|replace if at beginning of string
+/%find/replace|replace if at end of string
 
 <h4>common string methods</h4>
 
@@ -656,7 +688,8 @@ The increment and decrement operators behave differently based on their position
 <h3>comma</h3>
 
 In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type).
-
+In many languages, the comma can be used for multiple assignment, most commonly like so:
+a, b = 1, 2|Python
 
 <h3>element in collection/substring in string?</h3>
 
@@ -685,6 +718,7 @@ In most cases, omitting the start defaults to 0, and omitting the end defaults t
 [start,length]Ruby
 [start..end_excl]Rust
 [start..=end_inc]|Rust
+${STRING_VAR:start:length}|Bash
 
 Part delimiters
 :|Python
@@ -726,6 +760,14 @@ function|JS|Lua
 fn|Rust
 def|python|Ruby
 sub|perl
+
+Callable units can generally be split into method signature and method body. The method signature usually specifies at least return type, name, and parameters.
+In java, the method signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
+
+<h3>signatures</h3>
+
+Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
+void is commonly used for no return type.
 
 <h3>returning</h3>
 
@@ -793,7 +835,8 @@ Creating a new object via a constructor is done by the new operator in most lang
 
 A constructor is generally a callable unit and thus called with ()
 Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
-In C#, Java, the constructor has the same name as the class
+In C#, Java, the constructor has the same name as the class.
+Many languages allow us to declare many different constructors with different arguments.
 
 <h3>type parameters and generics</h3>
 
@@ -802,8 +845,12 @@ Generally, multiple type parameters are separated by ,
 
 <h3>Access modifier</h3>
 
-public|any code
-private|code within the class
+Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
+
+public|any code|Java|C#
+private|code within the class|Java|C#
+default||Java
+protected||Java
 
 
 <h3>Interfaces</h3>
@@ -812,6 +859,13 @@ If a given programming language has syntax for them, generally keyword interface
 Indicating that one follows an interface is generally done with the implements keyword.
 If something implements an interface, it generally must implement all methods of that interface.
 In the past, Java did not allow variables in interfaces. as of today, they are allowed, but subject to heavy restrictions.
+In interfaces in Java/C#, you most commonly merely specify method stubs. (in the past this is the only thing you could do, this is no longer true)
+Method stubs are method signatures without the implementation.
+
+
+<h3>OOP</h3>
+
+C#, Java
 
 <h2>IO</h2>
 
@@ -897,7 +951,10 @@ _|Python
 <h3>Indexing</h3>
 
 Most langauges I know start indices at 0, however lua starts them at 1
-Most languages I know allow indexing their 
+Square bracket notation: most commonly used for array/linear collection indexing or accessing members in associative collection
+any key in a table lua, Ruby, JS, Py, Rust
+In most languages, indexing a linear collection outside of its bounds produces an error, in JS it merely produces undefined
+
 
 
 
@@ -910,9 +967,6 @@ Associative arrays: names, literals, other construction methods, etc.
 
 
 
-Square bracket notation
-any key in a table lua
-Ruby, JS, Py, Rust
 
 dot notation: lua
 string keys of tables lua
