@@ -165,7 +165,7 @@ Collection-controlled loops
   Collection-controlled loops most commonly start with the keyword <code>for</code>, but then feature a different syntax than count-controlled loops. In perl, they instead start <code>foreach</code>.
   Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
   Lua: for &lt;expression&gt; do
-  Python: for <expression> in <iterable>:
+  Python, Ruby: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
 </section>
 
@@ -194,32 +194,9 @@ liquid|0|0|1
 
 Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
 
-<table>
-  <thead>
-    <tr>
-      <th>function</th>
-      <th>syntax</th>
-      <th>languages</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td><span class="c1-cloze">Empty statement</span></td>
-      <td><span class="c2-cloze">;</span></td>
-      <td><span class="c2-cloze">JS</span>, <span class="c-cloze">C#</span></td>
-    </tr>
-    <tr>
-      <td><span class="c1-cloze">Empty statement</span></td>
-      <td><span class="c2-cloze">pass</span></td>
-      <td><span class="c2-cloze">Python</span></td>
-    </tr>
-    <tr>
-      <td><span class="c1-cloze">Empty statement</span></td>
-      <td><span class="c2-cloze">:</span></td>
-      <td><span class="c2-cloze">(ba)sh</span></td>
-    </tr>
-  </tbody>
-</table>
+;|JS|C#
+pass|Python
+:|(ba)sh
 
 <h2>Comments</h2>
 
@@ -352,6 +329,10 @@ Something is falsy if it evaluates to false in a boolean context, and truthy if 
 Most langauges treat at least their null type and their false type as falsy.
 Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
 
+<h4>Conversion</h4>
+
+All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
+
 <h3>Firstclassness</h3>
 
 Lua: all values
@@ -397,6 +378,10 @@ Collections are an abstract data type that hold a number of data items.
 Python calls its data structures that represent collection ADTs, well, collections.
 Associative collections map keys to values. 
 
+<h4>Collection methods</h4>
+
+Clear a mutable linear collection|clear()|Python
+
 
 <h4>Non-linear collections</h4>
 
@@ -416,6 +401,7 @@ Some languages implement assoc arr via Objects, you then interact with them as y
 Some languages implement assoc arr as primitives, these then often have their own syntax for interaction.
 Java implements associative arrays via things implementing the <code>Map</code> interface, e.g. <code>HashMap</code>, both defined over two generics.
 JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. objects (esp. object literals) also perform many of the operations we would expect of associative arrays.
+In literals, key-value pairs are generally separated with , (e.g. keyval, keyval)
 Lua implements associative arrays via tables (in fact, tables are the only data structure in lua). 
 A lua table can be created the {} literal, like so {key = value, ...}
 A lua table can be accessed via dot and square bracket notation. (Perhaps move this to its own thing-access section)
@@ -462,6 +448,8 @@ commonly items are separated by ,
 Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
 
+<h5>Linear collection methods</h5>
+
 <h5>Array<h5>
 
 An array (type) is a abstract datatype of a collection of elemennts, selected by indices.
@@ -507,8 +495,6 @@ sequence|yaml
 array|liquid
 
 
-
-
 table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
 Array literals
@@ -517,7 +503,7 @@ In array literals, the invidual elements are generally separated by ',', except 
 
 dynamic
 ()|Perl (same as assoc. arr), Shell
-[]|YAML (if inline)
+[]|JS|Python|Ruby|YAML (if inline)
 
 static, one type only
 {}|C#|Java
@@ -534,6 +520,8 @@ YAML also has indentation delimited, newline separated, individual items marked 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
+
+Python has an immutable static array of different types, called a tuple and delimited by ()
 
 
 <h5>Lists</h5>
@@ -568,6 +556,7 @@ In many languages, especially those that do not have a char type, string literal
 In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes.
 Some langauges differentiate between string literals with single and double quotes, some languages (lua, liquid) do not.
 In many languages, single-quoted string literals act as raw string literals.
+In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 
 strings are immutable|python
@@ -583,14 +572,53 @@ Multiline string delimiters
 "containsnewlines"|Rust (all strings are multiline)
 """containsnewlines"""|Python
 
+<h4>String interpolation<h4>
+
+String interpolation is evaluating a string with placeholders and replacing them with their values
+String interpolation is a form of template processing (cf other cards)
+In JS, string interpolation can only be performed within template literals.
+
+\${expr}|JS|only in template literals
+\#{}|Ruby|SCSS/SASS
+\$variable|sh|only with variable names
+\${epxr}|sh|more feature-full
+
+
+<h4>String multiplication</h4>
+
+x|Perl
+*|Python|Ruby
+
+<h4>String concatenation</h4>
+
+..|Lua
++|Java|C#|Python|Ruby|Rust|JS
+.|Perl
+
+<h4>common string methods</h4>
+
+convert to uppercase|.upper()|Python
+convert to lowercase|.lower()|Python
+convert to uppercase|.toUpperCase()|JS
+convert to lowercase|.toLowerCase()|JS
+switch upper and lower case chars|.swapcase()|Python
+capitalize all first letters|.title()|Python
+capitalize the first letter of the string|.capitalize()|Python
+does a string start with?|startsWith()|JS
+remove whitespace from beginning and end of string|trim()|JS, Ruby
+split string on foo|.split(foo)|Python
+
+
 <h2>operators</h2>
 
 overloading
 In liquid, the order of operatons is right to left. Parentheses are forbidden.
+In Ruby, all operators are actually just syntactic sugar for methods. that is, + 3 is .+(3), somearr[1] is somearr.[](1), !3 is 3.! etc.
 
 <h3>assignment</h3>
 
 = is used as the assignment operator in most programming languages
+In most languages, assignment expressions evaluate to the value assigned.
 Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
 <h3>equality</h3>
@@ -689,55 +717,6 @@ Order/parts
 len(somestr)|Python
 #foo|lua
 
-<h3>String interpolation<h3>
-
-String interpolation is evaluating a string with placeholders and replacing them with their values
-String interpolation is a form of template processing (cf other cards)
-In JS, string interpolation can only be performed within template literals.
-
-\${expr}|JS|only in template literals
-\#{}|Ruby|SCSS/SASS
-\$variable|sh|only with variable names
-\${epxr}|sh|more feature-full
-
-
-<h3>String multiplication</h3>
-
-x|Perl
-*|Python
-
-<h3>String concatenation</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>syntax</th>
-      <th>languages</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td><span class="c2-cloze">..</span></td>
-      <td><span class="c3-cloze">Lua</span></td>
-    </tr>
-    +|Java|C#|Python|Ruby|Rust|JS
-    .|Perl
-  </tbody>
-</table>
-
-<h3>common string methods</h3>
-
-convert to uppercase|.upper()|Python
-convert to lowercase|.lower()|Python
-convert to uppercase|.toUpperCase()|JS
-convert to lowercase|.toLowerCase()|JS
-switch upper and lower case chars|.swapcase()|Python
-capitalize all first letters|.title()|Python
-capitalize the first letter of the string|.capitalize()|Python
-does a string start with?|startsWith()|JS
-remove whitespace from beginning and end of string|trim()|JS, Ruby
-split string on foo|.split(foo)|Python
-
 <h2>Error handling<h2>
 
 
@@ -747,10 +726,12 @@ keywords
 die|perl
 throw|JS|Java|C#
 error()|lua
+raise|Ruby
 
 <h3>Error handling control structures</h3>
 
 most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; [finally &lt;block&gt;]
+In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; [ensure &lt;block&gt;]
 Rust is notable for not having any error handling of this kind.
 
 <h2>Callable units</h2>
@@ -760,7 +741,7 @@ Callable units generally can take arguments if specified.
 Keyword to create a callable unit
 function|JS|Lua
 fn|Rust
-def|python
+def|python|Ruby
 sub|perl
 
 <h3>returning</h3>
@@ -889,11 +870,13 @@ help(foo)|Python
 
 Print functions in different languages
 
-print()|lua|perl|python
+print()|lua|perl|python|Ruby (no final newline)
+puts|Ruby (final newline)
 console.log()|JS
 System.out.prinln()|Java
 Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
+printf|(ba)sh
 
 <h3>Query for input</h3>
 
@@ -903,7 +886,7 @@ input(mesg)|Python
 
 <h3>ranges</h3>
 
-Ranges may be a syntax for generating iterators/arrays, or may be their own type
+Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
 
 range(start, stop, step)|python
 (start..stop)|liquid
@@ -918,6 +901,10 @@ Package manifest
 
 rust|Cargo.toml
 
+<h2>REPL</h2>
+
+the value of the last expression
+_|Python
 
 <h2>Misc/no place yet</h2>
 
@@ -939,6 +926,7 @@ Associative arrays: names, literals, other construction methods, etc.
 
 Square bracket notation
 any key in a table lua
+Ruby, JS, Py, Rust
 
 dot notation: lua
 string keys of tables lua
