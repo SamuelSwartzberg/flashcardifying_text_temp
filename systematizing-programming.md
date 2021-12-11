@@ -166,6 +166,7 @@ Collection-controlled loops
   Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
   Lua: for &lt;expression&gt; do
   Python: for <expression> in <iterable>:
+  Java: for (<type> <element> : <iterable>) ...
 </section>
 
 Infinite loop
@@ -242,6 +243,7 @@ Multiline:
 
 Documentation
 for the following thing|///|Rust
+for the following thing|/**...*/|Java (Javadoc)
 for the thing we are in right now|//!|Rust
 
 <h2>Identifiers</h2>
@@ -280,18 +282,47 @@ In ruby
 
 <h3>Declaring multiple variables</h3>
 
-a, b = 1, 2 (or e.g. returnTwoValues()) (lua)
+a, b = 1, 2 (or e.g. returnTwoValues()) (lua, python)
+
+<h3>Constants (and not)</h3>
+
+Mutability is whether something can be changed after inital creation. Something is mutable if it can be changed, and immutable if it can't.
+Different things can have mutability: Objects, variables, (though generally not primitves).
+Some languages make a difference in which keywords are used to declare constants and variables.
+Constants are immutable, while variables are mutable.
+
+Keyword for constants:
+const|JS|Rust
+final|Java
+
+Keyword for variables:
+let|Rust
+
+In rust, even variables are immutable by default, and the keyword mut makes them mutable.
 
 <h2>(Data) types</h2>
 
 An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
+If an abstract data type is a description of what something does, a data structure is how something does it.
 Lua boolean
 literals: true/false A null pointer/reference/type/value indicates that we're
 not referring to a valid thing
 Datatypes implemented in a programming language can either be scalar or compound/composite
 
 
-<h3>Keywords of specific languages</h3>
+<h3>Types and type annotation</h3>
+
+Specifying the type of a thing by writing the type into the code is known as type annotation.
+In general, certain types are generally indicated similarly across programming languages (though there is variation)
+Integers|int|not Rust
+Floating-point numbers|float|not Rust
+Booleans|bool|C#, Rust
+Booleans|boolean|Java
+Characters|char|C#, Java, Rust
+Double-precision floating-point numbers|double|C#, Java
+
+<h4>primitive types in different languages</h4>
+
 C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
 
@@ -312,6 +343,15 @@ Type inference is a rough synonym for implict/latent typing, but is often used i
 Only statically typed languages can usefully be explicitly/manifestly typed
 Type inference in C#: var 
 
+<h3>Conversion, coercion, casting and context (plus truthy/falsiness)</h3>
+
+Context is a term usely used in programming, and with much variation.
+We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
+In python, bool() is said to create a boolean context = convert a value to true or false depending on their truthy/falsiness.
+Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
+Most langauges treat at least their null type and their false type as falsy.
+Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
+
 <h3>Firstclassness</h3>
 
 Lua: all values
@@ -331,15 +371,9 @@ truth values.
 true/false|C#|Java|JavaScript|Lua
 True/False|Python
 
-<h3>float</h3>
+<h3>float and double</h3>
 
-In Java and C#, to indicate a float literal you must add f as a suffix.
-
-<h3>falsiness</h3>
-
-Something is falsy if it evaluates to false in a boolean context.
-Most langauges treat at least their null type and their false type as falsy.
-
+In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be adouble
 
 <section class="cloze-group-children hide-if-inactive-children">
   <span class="line">Enum is short for enumeration or enumerated datatype.</span>
@@ -360,9 +394,20 @@ In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum varian
 <h3>Collections</h3>
 
 Collections are an abstract data type that hold a number of data items.
+Python calls its data structures that represent collection ADTs, well, collections.
 Associative collections map keys to values. 
 
-<h4>Associative arary</h4>
+
+<h4>Non-linear collections</h4>
+
+<h5>Sets</h5>
+
+ADT similar to sets in math.
+Python data structure: set (mutable), frozenset (immutable)
+
+<h5>Associative collections</h5>
+
+<h6>Associative arary</h6>
 
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key).
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
@@ -384,6 +429,9 @@ Ruby: name hash table, {} literals, accessing [], keyval sep => if nonsymbol key
 Rust: HashMap or BTreeMap, defined over two generics. Has the entry() function go get a Entry
 C#: Dictionary, over two generics. Must be created via constructor.
 YAML: either {} literals and keyval sep : or no surrounding literals, newline between items, and further indented. Calls them mappings.
+
+adding a key, value pair
+.Add(key, value)|C#
 
 deleting key
 set it to null type|lua
@@ -409,7 +457,12 @@ values()|perl
 
 commonly items are separated by ,
 
-<h4>Array<h4>
+<h4>Linear collections/ADTs</h4>
+
+Linear collections/ADTs are a sequence of items.
+Python calls its data structres that are linear collections sequences.
+
+<h5>Array<h5>
 
 An array (type) is a abstract datatype of a collection of elemennts, selected by indices.
 
@@ -436,16 +489,23 @@ dynamic arrays
 array|perl|JS|ruby
 vector|rust
 ArrayList|Java
+List(yes, really)|C#
+list|python
 
-static arrays
+Vectors, ArrayLists and Lists are Objects/Structs and defined over a generic
+
+static arrays (one type only)
 
 array|C#|Java|Rust
-list|python
+
+static arrays (of diffent types)
+tuple|rust
 
 both/N/A
 
 sequence|yaml
 array|liquid
+
 
 
 
@@ -455,25 +515,34 @@ Array literals
 
 In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
 
+dynamic
 ()|Perl (same as assoc. arr), Shell
 []|YAML (if inline)
+
+static, one type only
 {}|C#|Java
 
+static arrays (of diffent types)
+()|rust
+
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
+In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
 YAML also has indentation delimited, newline separated, individual items marked by <code>- </code> version
 
-Array indexing
 
-Most langauges start array indices at 0, however lua starts them at 1
+In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
+in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
+When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 
-<h4>Lists</h4>
+
+<h5>Lists</h5>
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor.
 
-<h4>Streams</h4>
+<h5>Streams</h5>
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
 
@@ -496,8 +565,10 @@ Integer literals generally not overtly marked
 <h3>Strings<h3>
 
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
+In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes.
 Some langauges differentiate between string literals with single and double quotes, some languages (lua, liquid) do not.
 In many languages, single-quoted string literals act as raw string literals.
+JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 
 strings are immutable|python
 
@@ -520,11 +591,12 @@ In liquid, the order of operatons is right to left. Parentheses are forbidden.
 <h3>assignment</h3>
 
 = is used as the assignment operator in most programming languages
+Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
 <h3>equality</h3>
 
 ~=|not equals|lua
-!=|not equals|C#|Java
+!=|not equals|C#|Java|JS
 ==|equals|most programming languages
 <=|less than or equals|most programming languages
 &gt;=|greater than or equals|most programming languages
@@ -533,6 +605,8 @@ In liquid, the order of operatons is right to left. Parentheses are forbidden.
 <=>|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Ruby
 
 Python uses the `is` operator when comparing equality of location in memory
+
+JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons.
 
 <h3>logic</h3>
 
@@ -562,6 +636,11 @@ division|/|Python: always returns a float
 floor division|//
 remainder|%
 power|**
+increment|++
+decrement|--
+
+The increment and decrement operators do not exist in python.
+The increment and decrement operators behave differently based on their position in relation to the number in some languages: 
 
 <h3>comma</h3>
 
@@ -576,6 +655,11 @@ in|Python
 <h3>remove element from collection</h3>
 
 del|python
+
+<h3>Type of element</h3>
+
+typeof foo|JS
+type(foo)|Python
 
 <h3>Slicing</h3>
 
@@ -600,7 +684,8 @@ Order/parts
 
 <h3>Length of strings, arrays, etc.</h3>
 
-.length|C#|Java|JS|Ruby
+.length|Java|JS|Ruby
+.Length|C#
 len(somestr)|Python
 #foo|lua
 
@@ -608,6 +693,7 @@ len(somestr)|Python
 
 String interpolation is evaluating a string with placeholders and replacing them with their values
 String interpolation is a form of template processing (cf other cards)
+In JS, string interpolation can only be performed within template literals.
 
 \${expr}|JS|only in template literals
 \#{}|Ruby|SCSS/SASS
@@ -645,6 +731,11 @@ convert to uppercase|.upper()|Python
 convert to lowercase|.lower()|Python
 convert to uppercase|.toUpperCase()|JS
 convert to lowercase|.toLowerCase()|JS
+switch upper and lower case chars|.swapcase()|Python
+capitalize all first letters|.title()|Python
+capitalize the first letter of the string|.capitalize()|Python
+does a string start with?|startsWith()|JS
+remove whitespace from beginning and end of string|trim()|JS, Ruby
 split string on foo|.split(foo)|Python
 
 <h2>Error handling<h2>
@@ -656,6 +747,11 @@ keywords
 die|perl
 throw|JS|Java|C#
 error()|lua
+
+<h3>Error handling control structures</h3>
+
+most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; [finally &lt;block&gt;]
+Rust is notable for not having any error handling of this kind.
 
 <h2>Callable units</h2>
 
@@ -718,11 +814,22 @@ this|C#|Java|JS
 
 method in lua function object:method(...)
 
+in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
+
+<h3>abstract & static classes </h3>
+
+Abstract classes are generally declared with the abstract keyword.
+Both abstract and static classees are not instantiable.
+Abstract classes are designed mainly to be inherited from.
+
+
 <h3>Constructors/object creation</h3>
 
 Creating a new object via a constructor is done by the new operator in most languages.
+
 A constructor is generally a callable unit and thus called with ()
 Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
+In C#, Java, the constructor has the same name as the class
 
 <h3>type parameters and generics</h3>
 
@@ -731,11 +838,28 @@ Generally, multiple type parameters are separated by ,
 
 <h3>Access modifier</h3>
 
+public|any code
+private|code within the class
+
+
+<h3>Interfaces</h3>
+
+If a given programming language has syntax for them, generally keyword interface.
+Indicating that one follows an interface is generally done with the implements keyword.
+If something implements an interface, it generally must implement all methods of that interface.
+In the past, Java did not allow variables in interfaces. as of today, they are allowed, but subject to heavy restrictions.
+
 <h2>IO</h2>
 
 
 
 <h2>import/export</h2>
+
+<h2>lifecycle</h2>
+
+<h3>The main method</h3>
+
+public static void main(String[] args)|Java
 
 <h2>Standard library</h2>
 
@@ -747,6 +871,20 @@ get index of element
 foo.index(bar)|Python
 foo.indexOf(bar)|JS
 
+get a random number
+Math.random()|JS
+
+floor/ceiling function
+&lt;mathobj&gt;.floor()/.ceil()|Python|JS
+&lt;thingItself&gt;.floor()/.ceil()|Ruby
+
+Object/Struct/whatever for standard math operations
+Math|JS
+math
+
+Get documentation information on the thing
+help(foo)|Python
+
 <h3>Print</h3>
 
 Print functions in different languages
@@ -754,7 +892,14 @@ Print functions in different languages
 print()|lua|perl|python
 console.log()|JS
 System.out.prinln()|Java
+Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
+
+<h3>Query for input</h3>
+
+Generally, show a message, have a text input field, return the inputted text.
+
+input(mesg)|Python
 
 <h3>ranges</h3>
 
@@ -763,8 +908,23 @@ Ranges may be a syntax for generating iterators/arrays, or may be their own type
 range(start, stop, step)|python
 (start..stop)|liquid
 
+<h2>The universe</h2>
+
+Official package hub
+
+rust|crates.io
+
+Package manifest
+
+rust|Cargo.toml
 
 
+<h2>Misc/no place yet</h2>
+
+<h3>Indexing</h3>
+
+Most langauges I know start indices at 0, however lua starts them at 1
+Most languages I know allow indexing their 
 
 
 
