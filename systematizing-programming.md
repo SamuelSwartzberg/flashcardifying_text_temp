@@ -24,23 +24,8 @@ In some programming languages (JS, Lua, ...?) blocks can stand alone, merely cre
 In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
 In ruby, blocks end with <code>end</code>
 
-    liquid|{% keyword %} ... {% endkeyword %}
-  <table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Defines blocks how?</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td><span class="c26-cloze">Python</span></td>
-      <td><span class="c27-cloze">Indentation</span></td>
-    </tr></tbody>
-</table>
-
-</div>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
+liquid|{% keyword %} ... {% endkeyword %}
+python|indentation
 
 <h2> control flow</h2>
 The default control flow is linear from top to bottom, this is called sequencing.
@@ -48,78 +33,71 @@ The default control flow is linear from top to bottom, this is called sequencing
 <h2>control structures</h2>
 
 <span class='line'>A thing that modifies control flow is a control structure. 
-</span>
-<span class='line'>A control structure takes the normally linear flow of code and makes it somehow nonlinear.</span>
-<span class='line'>In javascript or JS, most control structures take one statement after it, which can either be a normal statement or a block statement. A statement that does nothing is an empty statement</span>
-If control structures have conditions, they are delimited by... 
 
-<table>
-  <thead>
-    <th></th>
-    <th></th>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td><span class="c1-cloze">()</span></td> <td><span class="c2-cloze">C</span></td> <td><span class="c3-cloze">JS</span></td> <td><span class="c4-cloze">Java</span></td> <td><span class="c5-cloze">C#</span></td> <td><span class="c6-cloze">Perl</span></td></tr>
-<tr><td><span class="c7-cloze">nothing</span></td> <td><span class="c8-cloze">Python</span></td> <td><span class="c9-cloze">Ruby</span></td> <td><span class="c10-cloze">Rust</span></td> <td><span class="c11-cloze">Lua</span></td></tr>
-<tr><td><span class="c12-cloze">[]</span></td> <td><span class="c13-cloze">Shell (is actually just test symlinked as  [)</span></td></tr>
-  </tbody>
-</table>
-<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+<span class='line'>A control structure takes the normally linear flow of code and makes it somehow nonlinear.
+<span class='line'>In javascript or JS, most control structures take one statement after it, which can either be a normal statement or a block statement. A statement that does nothing is an empty statement
+If control structures have conditions, they are delimited by...
+
+()|C|JS|Java|C#|Perl
+nothing|Python|Ruby|Rust|Lua
+[]|Shell (is actually just test symlinked as  [)
 
 <h3>choice/selection control structures</h3>
 
 <p>
-  <span class='line'>choice/selection control structures allows choosing between several alternatives based one or more conditons.</span>
-  <span class='line'>choice/selection control structures constructs are also just called conditionals.</span>
-  <span class='line'>In conditionals, any of the possible paths is called a branch.</span>
+choice/selection control structures allows choosing between several alternatives based one or more conditons.
+choice/selection control structures constructs are also just called conditionals.
+In conditionals, any of the possible paths is called a branch.
 </p>
 
-<section>
-  <span class='line'>  The most common conditional is if/then/else. 
-  </span>
-  <span class='line'>the if/then/(else) conditional is typically a statement (in rust, it's an expression).</span>
+
+The most common conditional is if/then/else. 
+  
+the if/then/(else) conditional is typically a statement (in rust, it's an expression).
   An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
   the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
   elsif|liquid|perl|ruby
   elif|Python
   elseif|lua
 
-</section>
-<section>
-  <span class='line'>  The ternary operator is a conditional which is typically an expression. 
-  </span>
-  <span class='line'>  The ternary operator is more properly called conditional operator. 
-  </span>
-  <span class='line'>The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. </span>
-  <span class='line'>The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. </span>
+
+
+The ternary operator is a conditional which is typically an expression. 
+  
+The ternary operator is more properly called conditional operator. 
+  
+The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. 
+The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. 
   Example in JS:
   <code
     >let attack = enemy.isFireType() ? this.attacks.thundershock :
     this.attacks.inferno;</code
   >
-  <span class='line'>Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.</span>
-</section>
-
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">An if statement/expression, but reversed in its truth value, is an unless statement/expression.</span>
-<span class="line">unless statements/expressions use the keyword unless.</span>
-<span class="line">unless statements exist in liquid, perl, ruby</span>
-</section>
+Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
 
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">switch is a type of conditional.</span>
-<span class="line">the switch conditional is generally a statement.</span>
-<span class="line">the switch conditional generally has one condition, and then n branches for possible values.</span>
-<span class="line">Besides the branches for possible values of the conditional, the switch conditional generally also allows for a default case.</span>
-<span class="line">The default for switch statements is optional in JS</span>
-<span class="line">In many languages switch conditionals feature fallthrough, which is where it will continue even after the case ends, until it hits a break/return statement.</span>
+An if statement/expression, but reversed in its truth value, is an unless statement/expression.
+unless statements/expressions use the keyword unless.
+unless statements exist in liquid, perl, ruby
+
+
+Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt;
+
+
+
+
+switch is a type of conditional.
+the switch conditional is generally a statement.
+the switch conditional generally has one condition, and then n branches for possible values.
+Besides the branches for possible values of the conditional, the switch conditional generally also allows for a default case.
+The default for switch statements is optional in JS
+In many languages switch conditionals feature fallthrough, which is where it will continue even after the case ends, until it hits a break/return statement.
 switch conditioals are generally started by the <code>case</code> keyword.
 Different cases for a switch conditional are started by <code>switch</code> in Java, JS and by <code>when</code> in liquid, ruby.
 In liquid, ruby, multiple cases are separated by commas.
 The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
-</section>
+
 
 
 JS Syntax examples:
@@ -135,39 +113,39 @@ JS Syntax examples:
 
 Control flow that repeats the code a number of times is called iteration/looping
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">Count-controlled loops</span>
-<span class="line">Count-controlled loops are loops that repeat a piece of code a certain number of times.</span>
-<span class="line">Count-controlled loops are often started with the keyword for.</span>
-<span class="line">Count-controlled loops are often called for-loops.</span>
-</section>
+
+Count-controlled loops
+Count-controlled loops are loops that repeat a piece of code a certain number of times.
+Count-controlled loops are often started with the keyword for.
+Count-controlled loops are often called for-loops.
+
 
 
 
 Condition-controlled loops
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">A condition-controlled loop is aloop that repeats until a condition changes.</span>
-<span class="line">condition-controlled loops can begin or end with their condtion, in which case they will run at least 0 or at least 1 time.</span>
-<span class="line">condition-controlled loops that test at the beginning of the loop are often started with the keyword <code>while</code> and are often called while-loops. </span>
-<span class="line">condition-controlled loops that test at the end of the loop are often started with the keyword do, then a block, then end with the keyword while followed by the condition and are often called do-while-loops.</span>
+
+A condition-controlled loop is aloop that repeats until a condition changes.
+condition-controlled loops can begin or end with their condtion, in which case they will run at least 0 or at least 1 time.
+condition-controlled loops that test at the beginning of the loop are often started with the keyword <code>while</code> and are often called while-loops. 
+condition-controlled loops that test at the end of the loop are often started with the keyword do, then a block, then end with the keyword while followed by the condition and are often called do-while-loops.
 Most programming languages I know have while and do-while loops.
 Perl has a while loop with an inverted condition (analogous to unless) called until.
 Lua has a while loop with an inverted condition that tests at the end of the loop with the syntax repeat ... until
-</section>
+
 
 
 Collection-controlled loops 
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">A collection-controlled loop is a loop that loops over all elements of a thing.</span>
-<span class="line">Collection-controlled loops are commonly called foreach loops.</span>
+
+A collection-controlled loop is a loop that loops over all elements of a thing.
+Collection-controlled loops are commonly called foreach loops.
   Collection-controlled loops most commonly start with the keyword <code>for</code>, but then feature a different syntax than count-controlled loops. In perl, they instead start <code>foreach</code>.
   Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
   Lua: for &lt;expression&gt; do
   Python, Ruby: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
-</section>
+
 
 Infinite loop
 
@@ -176,12 +154,12 @@ loop|Ruby|Ust
 
 
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">Many languages provide a statement which allows skipping the current (continuing with the next) iteration of a loop.</span>
-<span class="line">Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.</span>
-<span class="line">Many languages provide a statement which allows ending/exiting the loop.</span>
-<span class="line">Most languages use the break statement to end/exit the loop, Perl uses the last statement.</span>
-</section>
+
+Many languages provide a statement which allows skipping the current (continuing with the next) iteration of a loop.
+Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.
+Many languages provide a statement which allows ending/exiting the loop.
+Most languages use the break statement to end/exit the loop, Perl uses the last statement.
+
 
 Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
 
@@ -328,6 +306,8 @@ In python, bool() is said to create a boolean context = convert a value to true 
 Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
 Most langauges treat at least their null type and their false type as falsy.
 Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
+In perl, context is most often used with the scalar/list distinction.
+scalar() generates a scalar context
 
 <h4>Conversion</h4>
 
@@ -336,6 +316,8 @@ All pythons types, called as a function, convert to that type (e.g. list(), bool
 <h3>Firstclassness</h3>
 
 Lua: all values
+
+<h3>Symbols</h3>
 
 <h3>Null types</h3>
 
@@ -356,21 +338,21 @@ True/False|Python
 
 In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be adouble
 
-<section class="cloze-group-children hide-if-inactive-children">
-  <span class="line">Enum is short for enumeration or enumerated datatype.</span>
-<span class="line">An enum is a datatype that can take on one of a finite set of values.</span>
-<span class="line">In stats terms, an enum is a categorical variable.</span>
-<span class="line">We may want to consider the boolean type an enum of {true, false}</span>
-<span class="line">Of the languages I know, C#, Java and TS allow creation of enums via the enum keyword.</span>
-<span class="line">Rust also uses the enum keyword, but for things more like tagged unions.</span>
-<span class="line">Python allows using enums via an external module</span>
+
+Enum is short for enumeration or enumerated datatype.
+An enum is a datatype that can take on one of a finite set of values.
+In stats terms, an enum is a categorical variable.
+We may want to consider the boolean type an enum of {true, false}
+Of the languages I know, C#, Java and TS allow creation of enums via the enum keyword.
+Rust also uses the enum keyword, but for things more like tagged unions.
+Python allows using enums via an external module
 C#, Java enum syntax: enum &lt;name> {
   &lt;variant>,
   &lt;variant2>,
   ...
 }
 In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum variants
-</section>
+
 
 <h3>Collections</h3>
 
@@ -450,23 +432,24 @@ Python calls its data structres that are linear collections sequences.
 
 <h5>Linear collection methods</h5>
 
+sort the thing
+sort()|Perl|Python (in-place!)|Ruby
+
+reverse the thing
+reverse()|Perl|Python (in-place!)|Ruby
+
 <h5>Array<h5>
 
 An array (type) is a abstract datatype of a collection of elemennts, selected by indices.
 
-<table>
-  <thead>
-    <th></th>
-    <th></th>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-  <tr><td><span class="c1-cloze">no indices (one value only)</span></td> <td><span class="c2-cloze">zero-dimensional array (uncommon)</span></td> <td><span class="c3-cloze">scalar</span></td></tr>
-    <tr><td><span class="c1-cloze">one index</span></td> <td><span class="c2-cloze">(one-dimensional) array</span></td> <td><span class="c3-cloze">vector</span></td></tr>
-<tr><td><span class="c4-cloze">two indices</span></td> <td><span class="c5-cloze">two-dimensional array</span></td> <td><span class="c6-cloze">matrix</span></td></tr>
-<tr><td><span class="c7-cloze">n indices</span></td> <td><span class="c8-cloze">multidimensional array</span></td> <td><span class="c9-cloze">tensor</span></td></tr>
+
+  |no indices (one value only)|zero-dimensional array (uncommon)|scalar
+    |one index|(one-dimensional) array|vector
+|two indices|two-dimensional array|matrix
+|n indices|multidimensional array|tensor
   </tbody>
 </table>
-<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}
 
 Arrays may be dynamic = have variable size, or static = have fixed size.
 Dynamic arrays are sometimes called arraylists.
@@ -697,7 +680,7 @@ In most cases, omitting the start defaults to 0, and omitting the end defaults t
 
 [start:end_excl:step]|Python
 .slice(start, end_excl)|JS
-[start..end_incl]|Ruby
+[start..end_incl]|Ruby|Perl
 [start...end_excl]Ruby
 [start,length]Ruby
 [start..end_excl]Rust
@@ -833,6 +816,9 @@ In the past, Java did not allow variables in interfaces. as of today, they are a
 <h2>IO</h2>
 
 
+Perl
+open -> get a file handle
+
 
 <h2>import/export</h2>
 
@@ -918,7 +904,7 @@ Most languages I know allow indexing their
 
 
 
-<span class="line">https://en.wikipedia.org/wiki/Type_theory#History</span>
+https://en.wikipedia.org/wiki/Type_theory#History
 
 Associative arrays: names, literals, other construction methods, etc.
 
@@ -965,7 +951,6 @@ Newline may refer to the newline character or any newline
 
 even?|Is the thing even|Integer
 next|get the next element|Integer, String
-sort|sort the thing|
 class|get the class this is an object of|any object
 methods|get the methods the object has|any object
 
