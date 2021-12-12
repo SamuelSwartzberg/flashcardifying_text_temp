@@ -1,0 +1,24 @@
+Official package hub/repository
+
+rust|crates.io
+python|PyPI
+
+package manager
+
+rust|cargo
+JS|npm (technically for node, but commonly used for anything)
+Ubuntu|apt
+macOS|brew|port
+
+Package manifest
+
+rust|Cargo.toml
+
+update|update the package index|brew|npm
+upgrade|installs all available updates|brew|npm
+install PACKAGE|install a package|apt|brew|npm
+uninstall PACKAGE|uninstall a package|brew|npm
+remove PACKAGE|uninstall a package|apt
+ls/list|list installed packages|brew|npm
+outdated|show a list of outdated packages|brew|npm
+tap TAPNAME|add a repository|brew
