@@ -226,6 +226,10 @@ Documentation comments often generate HTML documentation
 
 <h2>Identifiers</h2>
 
+<h3>Scope</h3>
+
+
+
 <h3>Case</h3>
 
 snake_case|variables, methods (, symbols)|ruby
@@ -365,7 +369,8 @@ Context is a term usely used in programming, and with much variation.
 We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
 In python, bool() is said to create a boolean context = convert a value to true or false depending on their truthy/falsiness.
 Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
-Most langauges treat at least their null type and their false type as falsy.
+Most langauges treat at least their null type(s) and their false type as falsy.
+JS additionally treats empty strings, 0 and NaN as falsy.
 Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
 In perl, context is most often used with the scalar/list distinction.
 scalar() generates a scalar context
@@ -376,6 +381,11 @@ math context|$(()), (()) and the command let
 
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
+
+<h4>Casting</h4>
+
+!!type|YAML
+(type)|JS
 
 <h3>Firstclassness</h3>
 
@@ -593,7 +603,7 @@ In array literals, the invidual elements are generally separated by ',', except 
 
 dynamic (of whatever types)
 ()|Perl (same as assoc. arr)|Shell
-[]|JS|Python|Ruby|YAML (if inline)
+[]|JS|Python|Ruby
 
 static, one type only
 {}|C#|Java
@@ -604,7 +614,7 @@ static arrays (of diffent types)
 immutable static array (of whatever types)
 
 ()|SASS/Scss|Python
-[]|TOML
+[]|TOML|YAML (if inline)
 
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
@@ -645,6 +655,7 @@ Some langauges that don't have a char type differentiate between string literals
 In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
+YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
 
 strings are immutable|python
 
@@ -711,7 +722,7 @@ switch upper and lower case chars|.swapcase()|Python
 capitalize all first letters|.title()|Python
 capitalize the first letter of the string|.capitalize()|Python
 capitalize the first letter of the string| bar capitalize|Liquid
-does a string start with?|startsWith()|JS
+does a string start with?|somestr.startsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
 remove whitespace from beginning and end of string|trim()|JS, Ruby
 split string on foo|.split(foo)|Python
 
@@ -759,7 +770,7 @@ sh has a different set of operators for string equality:
 -eq|is equal to
 Perl uses sh-style comparison operator without the leading -
 
-<h3>logic</h3>
+<h3>boolean operators</h3>
 
 logical and|and|python|liquid|lua|Ruby (lower precedence)
 logical and|&&|C#|Java|JS|Ruby (higher precedence)|(ba)sh
@@ -769,9 +780,14 @@ logical not|not|python
 logical not|!|C#|Java|JS
 
 In ruby, between and/or and &&/|| the former have lower precedence, and even have lower precedence than the equality operator.
+Double not can generally be used to get the truthiness/falsiness of a thing, even outside of a boolean context.
 
 <h4>short-circuiting</h4>
 
+Short circuiting is more properly short-circuit evaluation.
+Short-circuit evaluation is the property of boolean operators in some/most programming languages in which the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
+Can be used to ensure a variable never gets assigned a falsy value by using logical/boolean or, since (only) if the first expression is falsy the second expression will be evaluated.
+It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
 
 <h3>bitwise</h3>
@@ -921,6 +937,7 @@ void is commonly used for no return type.
 <h3>returning</h3>
 
 Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
+In non-manifestly typed languages, the default return value of a function is the null type
 Multiple values: separated by comma|lua
 
 <h3>Closures</h3>
@@ -1101,6 +1118,9 @@ Object/Struct/whatever for standard math operations
 Math|JS
 math
 
+Is a thing an integer?
+Number.isInteger(foo)|JS
+
 get the smallest/largest of an amount of arguments
 min()/max()|Python (also accepts an iterable as an argument)
 
@@ -1120,6 +1140,9 @@ includes()|JS
 
 is x between foo and bar?
 x.between?(foo, bar)|Ruby
+
+Show an output popup
+window.alert("mesg")
 
 <h3>Print</h3>
 
@@ -1149,23 +1172,23 @@ range(start, stop, step)|python
 start..stop|Rust
 {start..stop..step}|bash
 
-<h2>The universe</h2>
-
-Official package hub/repository
-
-rust|crates.io
-python|PyPI
-
-Package manifest
-
-rust|Cargo.toml
 
 <h2>REPL</h2>
 
 the value of the last expression
 _|Python
 
+<h2>Boilerplate</h2>
+
+Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
+
+<h3>document start/end indicators</h3>
+
+--- the file ... |YAML (but optional, merely allow multiple documents per file)
+
 <h2>Misc/no place yet</h2>
+
+most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
 
 <h3>Indexing</h3>
 
@@ -1188,7 +1211,7 @@ Associative arrays: names, literals, other construction methods, etc.
 
 
 
-dot notation: lua
+dot notation: lua, TOML also 
 string keys of tables lua
 members of objects in lua
 but: not method calls, use : instead
