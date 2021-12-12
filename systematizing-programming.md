@@ -300,6 +300,10 @@ let|Rust
 
 In rust, even variables are immutable by default, and the keyword mut makes them mutable.
 
+<h3>Default variables</h3>
+
+In Perl there is a special variable $_. There are many places in programming language Perl where if you do not explicitly specify a variable, the variable will be used $_. There are key words that read the values from this variable, and there are those which set of values in this variable. (also sometimes exists as @_ and %_)
+
 <h2>(Data) types</h2>
 
 An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
@@ -389,6 +393,9 @@ Internally, symbols are often represented by a number.
 :name|Ruby
 Symbol("name")|JS
 
+<h3>Dates</h3>
+
+Most common format is RFC 3339 / ISO 8601
 
 <h3>Null types</h3>
 
@@ -404,10 +411,23 @@ Liquid has a special null-like type that is returned when accessing a deleted ob
 A boolean data type is a type that has one of two possible values, indicating
 truth values.
 
-true/false|C#|Java|JavaScript|Lua
-True/False|Python
+true/false|C#|Java|JavaScript|Lua|Ruby|TOML|YAML
+True/False|Python|(YAML)
+yes/no|YAML
+no boolean type, only truthy/falsiness|Python
 
-<h3>float and double</h3>
+YAML is not boolean keyword case sensitive
+
+<h3>Numeric types</h3>
+
+C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
+In some languages, multiples subsequent underscores within a numeric literals, or underscores at the beginning or end of literals are not allowed
+
+<h4>Integers</h4>
+
+Integer literals generally not overtly marked
+
+<h4>float and double</h4>
 
 In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
@@ -449,7 +469,7 @@ Python data structure: set (mutable), indicated by {}, frozenset (immutable).
 
 <h5>Associative collections</h5>
 
-<h6>Associative arary</h6>
+<h6>Associative array</h6>
 
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key).
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
@@ -472,6 +492,7 @@ Ruby: name hash table, {} literals, accessing [], keyval sep => if nonsymbol key
 Rust: HashMap or BTreeMap, defined over two generics. Has the entry() function go get a Entry
 C#: Dictionary, over two generics. Must be created via constructor.
 YAML: either {} literals and keyval sep : or no surrounding literals, newline between items, and further indented. Calls them mappings.
+TOML: keyval sep =, called tables, keys may be unquoted, or quoted if containing weird characters
 SCSS/SASS: Calls them maps, keyval sep :, () literals (same as arrays)
 
 adding a key, value pair
@@ -516,7 +537,8 @@ reverse the thing
 reverse()|Perl|Python (in-place!)|Ruby
 
 Append a linear collection to a different linear collection 
-col1 + col2|Python
+col1 + col2|Python (also works for strings)
+col1 << col2|Ruby (also works for strings)
 
 Repeat the contents of a linear collection n times
 col1 * n|Python
@@ -556,11 +578,12 @@ array|C#|Java|Rust
 static arrays (of whatever types)
 tuple|rust
 
-both/N/A
+immutable static array (of whatever types)
 
 sequence|yaml
-array|liquid
-
+array|liquid|TOML
+tuple|Python
+list|SASS/SCSS 
 
 table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
@@ -578,6 +601,11 @@ static, one type only
 static arrays (of diffent types)
 ()|rust
 
+immutable static array (of whatever types)
+
+()|SASS/Scss|Python
+[]|TOML
+
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
@@ -587,10 +615,6 @@ YAML also has indentation delimited, newline separated, individual items marked 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
-
-Python has an immutable static array of different types, called a tuple and delimited by ()
-SASS/SCSS also has an immutable static array of different types called a list and delimited by ()
-
 
 <h5>Lists</h5>
 
@@ -613,12 +637,6 @@ In ruby, iterables are called enumerables.
 
 A generator is a form of iterator. Generators are created via a generator function (thus you control what the next() method returns), but otherwise behave like any other iterator.
 
-<h3>Numbers<h3>
-
-<h4>Integers</h4>
-
-Integer literals generally not overtly marked
-
 <h3>Strings<h3>
 
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
@@ -633,13 +651,17 @@ strings are immutable|python
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
 r"foo"|Python|Rust
 String.raw`foo`|JS
-'foo'|sh|Perl|Ruby
+'foo'|sh|Perl|Ruby|TOML
 
 Multiline string delimiters
 `containsnewlines`|JS
 \[\[containsnewlines\]\]|Lua
 "containsnewlines"|Rust (all strings are multiline)
-"""containsnewlines"""|Python
+"""containsnewlines"""|Python|TOML
+|\nproper indentation|YAML
+
+Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
+>\nproper indentation|YAML
 
 <h4>String interpolation<h4>
 
@@ -845,6 +867,21 @@ len(somestr)|Python
 #foo|lua|sh (must be surrounded by ${})
 
 length() for strings in perl, merely generating a scalar context is enough for arrays
+
+<h3>Spread operator/Rest syntax</h3>
+
+Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
+Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
+
+...|JS
+*|Ruby
+
+In the context of callable unit parameters, JS rest syntax and Ruby's Splat both gather the remaining arguments into an array. the parameter so marked must be the last in the list.
+funcName(1,2,3)
+&lt;keyword&gt; funcName(... OR *foo)
+foo will now be [1,2,3]
+When not in callable unit parameters, JS spread and Ruby splat transform an array into its constituent members
+[... OR *[1,2,3], 4] == [1,2,3,4]
 
 <h2>Error handling<h2>
 
@@ -1080,6 +1117,9 @@ shift|Perl|sh
 does the thing contain the thing?
 include?|Ruby
 includes()|JS
+
+is x between foo and bar?
+x.between?(foo, bar)|Ruby
 
 <h3>Print</h3>
 
