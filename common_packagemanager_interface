@@ -8,7 +8,8 @@ package manager
 rust|cargo
 JS|npm (technically for node, but commonly used for anything)
 Ubuntu|apt
-macOS|brew|port
+macOS|homebrew (command: brew)|macports (command: port)
+(homebrew can also be used on linux, and is written in ruby)
 
 Package manifest
 
