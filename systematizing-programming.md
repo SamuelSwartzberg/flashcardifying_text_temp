@@ -234,7 +234,7 @@ Documentation comments often generate HTML documentation
 
 <h3>Case</h3>
 
-snake_case|variables, methods (, symbols)|ruby
+snake_case|variables, methods (, symbols)|ruby|python (use underscores sparingly)
 UpperCamelCase|classes|C#|Javaruby
 SCREAMING_SNAKE_CASE|constants|ruby
 camelCase
@@ -353,6 +353,7 @@ C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
 Rust: 
 scalar: integer, floating-point numbers, booleans, chars
+Python: integers, floats, complex numbers
 
 <h3>Dynamic vs Static typing</h3>
 
@@ -450,6 +451,10 @@ Some languages have specific keywords for Infinity (JS, Ruby) or NaN (JS). More 
 In some languages (JS, Ruby), you can recieve values such as Infinity or NaN via certain operations, e.g. dividing by zero. Other languages will throw errors in this case.
 In JS, you can generate NaN by trying to do math with a non-number and non-boolean (unless using +, which will concatenate), multiplying Infinity * 0 or * Infinity, using unary plus on a non-number and non-boolean.
 In JS, you can generate Infinity by dividing by zero
+checking for NaN
+Number.isNaN(num)|JS (true only for NaN)
+checking for finity
+Number.isFinite(num)|JS (false for all non-numbers and NaN/Infinity)
 
 <h4>Integers</h4>
 
@@ -545,8 +550,9 @@ pairs()|lua
 items()|Python
 
 get array/iterator of keys
-keys()|perl|Ruby|Python (returns a dict_keys object)
-values()|perl|Ruby|Python (returns a dict_values object)
+keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
+values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
+Object.keys(someobj)|JS
 
 commonly items are separated by ,
 
@@ -554,6 +560,7 @@ commonly items are separated by ,
 
 Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
+Python sequences: list, tuple, str
 
 <h5>Linear collection methods</h5>
 
@@ -561,7 +568,7 @@ sort the thing
 sort()|Perl|Python (in-place!)|Ruby
 
 reverse the thing
-reverse()|Perl|Python (in-place!)|Ruby
+reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 
 Append a linear collection to a different linear collection 
 col1 + col2|Python (also works for strings)
@@ -570,7 +577,9 @@ col1 << col2|Ruby (also works for strings)
 Repeat the contents of a linear collection n times
 col1 * n|Python
 
-The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS.
+The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
+Most commonly, pop returns the element removed, while push returns the new length.
+Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/push but for the beginning of the array.
 
 <h5>Array<h5>
 
@@ -675,7 +684,7 @@ peek: look a the next element that would be dequeued
 An iterator is an object (or similar) whose purpose is to iterate over some data. In general, an iterator has a next() method that returns the next element.
 An iterable is generally something that can create an iterator of itself.
 In ruby, iterables are called enumerables.
-In most languages that have iterables, most collections are iterable, as are strings. Java Strings are not, JS objects aren't either.
+In most languages that have iterables, most collections are iterable, as are strings and ranges. Java Strings are not, JS objects aren't either.
 
 <h4>Generators</h4>
 
@@ -685,7 +694,7 @@ A generator is a form of iterator. Generators are created via a generator functi
 
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
 In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
-Some langauges that don't have a char type differentiate between string literals with single and double quotes (e.g. treating single quote string literals as raw strings, e.g. sh, Perl, Ruby), some languages (lua, liquid, python, JS) do not.
+Some langauges that don't have a char type differentiate between string literals with single and double quotes (e.g. treating single quote string literals as raw strings, e.g. sh, Perl, Ruby), some languages (CSS, HTML, lua, liquid, python, JS) do not.
 In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
@@ -694,7 +703,7 @@ YAML accepts unquoted strings if they don't interfere with other syntax, of whic
 strings are immutable|python
 
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
-r"foo"|Python|Rust
+r or R"foo"|Python|Rust
 String.raw`foo`|JS
 'foo'|sh|Perl|Ruby|TOML
 
@@ -720,6 +729,10 @@ In JS, string interpolation can only be performed within template literals.
 \${epxr}|sh|more feature-full
 &lt;sigil&gt;{expr}|Perl
 &lt;sigil&gt;variable|Perl
+
+Python has three ways to perform string interpolation:
+old-style stirng formatting: Interpolate with % followed by a char or chars determining the format. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
+E.g. 'Error Code: %x' % errno
 
 Rust:
 Syntax|Trait
@@ -747,6 +760,8 @@ general pattern (replace first instance) ${SOME_STRING_VAR/find/replace}
 /#find/replace|replace if at beginning of string
 /%find/replace|replace if at end of string
 
+<h4>Regex matching</h4>
+
 <h4>common string methods</h4>
 
 convert to uppercase|.upper()|Python
@@ -757,8 +772,11 @@ switch upper and lower case chars|.swapcase()|Python
 capitalize all first letters|.title()|Python
 capitalize the first letter of the string|.capitalize()|Python
 capitalize the first letter of the string| bar capitalize|Liquid
-does a string start with?|somestr.startsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
+does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
+does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
 remove whitespace from beginning and end of string|trim()|JS, Ruby
+remove whitespace from beginning of string|trimStart()/trimLeft()|JS
+remove whitespace from end of string|trimStart()/trimLeft()|Ruby
 split string on foo|.split(foo)|Python
 
 <h4>Join to string</h4>
@@ -778,6 +796,7 @@ In Ruby, all operators are actually just syntactic sugar for methods. that is, +
 Operator precedence in programming mirrors the math concept of order of operations.
 Operator precedence / order of operations is in which order to apply operations.
 In most programming languages, math operations have the same operator precedence as they would in math itself.
+Parentheses can modify the order of operations just as in math.
 The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
 In liquid, the order of operatons is right to left, parentheses are forbidden.
 
@@ -878,8 +897,9 @@ a, b = 1, 2|Python
 
 <h3>element in collection/substring in string?</h3>
 
-contains|liquid
-in|Python|JS
+stringOrColl contains elem|liquid
+elem in stringOrColl|Python|JS
+stringOrColl.includes(elem, optionalSearchStartPos)
 
 `in` in JS works amusingly if used on arrays: it will look for integer keys, and not for values, so that it will return false for "foo" in ["foo"] but true for 0 in ["foo"] (this is because arrays are objects, and thus the integer keys are actually object keys)
 
@@ -922,6 +942,7 @@ In most cases, omitting the start defaults to 0, and omitting the end defaults t
 
 [start:end_excl:step]|Python
 .slice(start, end_excl)|JS
+.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
 [start..end_incl]|Ruby|Perl
 [start...end_excl]Ruby
 [start,length]Ruby
@@ -936,28 +957,28 @@ Part delimiters
 Order/parts
 (start,stop,step) (3-tuple)|Python
 
-<h3>Length of strings, arrays, etc.</h3>
+<h3>Length of strings, collections, etc.</h3>
 
-.length|Java|JS|Ruby
-.Length|C#
-len(somestr)|Python
+foo.length|Java|JS|Ruby
+foo.Length|C#
+len(foo)|Python
 #foo|lua|sh (must be surrounded by ${})
 
 length() for strings in perl, merely generating a scalar context is enough for arrays
 
 <h3>Spread operator/Rest syntax</h3>
 
-Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
+Both JS and Ruby have an operator that allows them to do similar things in relation t o arguments and arrays.
 Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
 
 ...|JS
-*|Ruby
+*|Ruby|python
 
-In the context of callable unit parameters, JS rest syntax and Ruby's Splat both gather the remaining arguments into an array. the parameter so marked must be the last in the list.
+In the context of callable unit parameters, JS rest syntax and Ruby/Pythons's Splat both gather the remaining arguments into an array. the parameter so marked must be the last in the list.
 funcName(1,2,3)
 &lt;keyword&gt; funcName(... OR *foo)
 foo will now be [1,2,3]
-When not in callable unit parameters, JS spread and Ruby splat transform an array into its constituent members
+When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
 [... OR *[1,2,3], 4] == [1,2,3,4]
 
 <h2>Error handling<h2>
@@ -1029,6 +1050,9 @@ In ruby and rust, blocks/closures are surrounded by {}
 {|params| code...}
 In ruby, blocks may also be surrounded by do ... end
 
+in ruby, to call a passed block, use the yield keyword. 
+Anything passed to the yield keyword will be available as arguments to the block
+
 In JS, there is a special type of first-class anonymous function called an arrow function.
 Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
@@ -1046,6 +1070,15 @@ In JS, the higher-order functions generally only work on Arrays, and always reci
 <h4>sort</h4>
 
 <h4>filter</h4>
+
+<h4>reduce</h4>
+
+The reduce function/method takes a function known as the reducer function
+The reducer function recieves the return value of the last execution of the reducer function, and the current element of the collection. 
+The reducer function return a single value.
+In effect, the reducer function applies an operation to the current element, and the accumulated result of all other elements.
+Many languages allow specifying a 'previous result' element for the first time the reducer function runs, as there will not be one.
+js has the variant reduceRight that starts from the end
 
 <h3>Arguments<h3>
 
@@ -1097,7 +1130,7 @@ Abstract classes are designed mainly to be inherited from.
 
 <h3>Constructors/object creation</h3>
 
-Creating a new object via a constructor is done by the new operator in most languages.
+Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
 
 A constructor is generally a callable unit and thus called with ()
 Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
@@ -1118,15 +1151,18 @@ Generally, multiple type parameters are separated by ,
 <h3>Access modifier</h3>
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
+In Java, members have default accessibility by default.
+In Python, members are public by default.
 
-public|any code|Java|C#
+public|any code|Java|C#|Python
 private|code within the class|Java|C#
 default||Java
 protected||Java
 
 <h3>Getters and setters</h3>
 
-
+Ruby syntax:
+def name=(value)...|setter
 
 <h3>Interfaces</h3>
 
@@ -1170,6 +1206,16 @@ Environment variables
 
 <h2>import/export</h2>
 
+Packages and modules are often synonyms.
+In python, a package is a collection of modules.
+In python, each .py file is a module.
+A package must contain a __init__.py file
+Import statements have the general syntax
+
+import <member> as <name> from <path>
+
+Python instead has the order from <path> import <member>
+
 <h2>lifecycle</h2>
 
 <h3>The main method</h3>
@@ -1187,7 +1233,7 @@ foo.index(bar, optionalStartIndex)|Python
 foo.indexOf(bar, optionalStartIndex)|JS
 
 get a random number
-Math.random()|JS
+&lt;mathobj&gt;.random()|JS
 
 floor/ceiling function
 &lt;mathobj&gt;.floor()/.ceil()|Python|JS
@@ -1204,14 +1250,18 @@ get the smallest/largest of an amount of arguments
 min()/max()|Python (also accepts an iterable as an argument)
 Math.min()/Math.max()|JS
 
-Round up/down
-Math.ceil(number)/Math.floor(number)|JS
+Truncate decimal places (not rounding)
+&lt;mathobj&gt;.trunc(num)|JS
+
+Round to fixed amount of decimal places
+somenumber.toFixed(num)|JS
 
 Round a number
-Math.round()
+&lt;mathobj&gt;.round()
 
 Get absolute value of something
-Math.abs()|JS
+&lt;mathobj&gt;.abs()|JS
+abs()|Python
 
 Get documentation information on the thing
 help(foo)|Python
@@ -1233,6 +1283,9 @@ x.between?(foo, bar)|Ruby
 Show an output popup
 window.alert("mesg")
 
+Concatenate multiple strings/ arrays at the end of an existing string/array
+stringOrArray.concat(stringsOrArrays)|JS|Ruby
+
 <h3>Print</h3>
 
 Print functions in different languages
@@ -1251,6 +1304,7 @@ printf|(ba)sh
 Generally, show a message, have a text input field, return the inputted text.
 
 input(mesg)|Python
+window.prompt(mesg, default)
 
 <h3>ranges</h3>
 
@@ -1264,6 +1318,7 @@ start..stop|Rust
 
 <h2>REPL</h2>
 
+Python calls being in the repl interactive mode
 the value of the last expression
 _|Python
 
@@ -1286,6 +1341,7 @@ In most languages, providing negative indices counts from the back, with -1 bein
 Square bracket notation: most commonly used for array/linear collection indexing or accessing members in associative collection, esp. if primitives in language. SCSS/Sass is special in that maps are primitive in the language, but neverthelesss square bracket notation does not work, one must use map-get() (also not map.get, which its documentation still falsely refers to)
 any key in a table lua, Ruby, JS, Py, Rust
 In most languages, indexing a linear collection outside of its bounds produces an error, in JS it merely produces undefined
+JS allows indexing strings via the charAt method.
 
 
 
