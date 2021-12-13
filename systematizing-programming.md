@@ -156,6 +156,8 @@ Collection-controlled loops are commonly called foreach loops.
   Lua: for &lt;expression&gt; do
   bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
+  JS: for (<expression> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+  for (<expression> of <iterable>) ...
 Some languages have collection-controlled loops that are called as methods on a collection or iterable
 iterable/enumerable.each(block)|Ruby
 somearr.forEach(anonFunc)|JS
@@ -242,6 +244,14 @@ _leading_underscore_snake_case|fake private variables|(ba)sh
 
 most programming languages are case-sensitive as regards identifiers.
 
+<h3>Naming</h3>
+
+While there is variety in what is allowed in a identifier name, most commonly it is [a-zA-Z0-9_]
+JS also allow $ in a non-sigil way in identifier names.
+JS identifiers may not start with a number, but with any other allowed character.
+In general, identifiers may not be keywords.
+
+
 <h2>Variables</h2>
 
 In lua, values are typed, but variables are not. 
@@ -263,11 +273,9 @@ declaring: var bla;
 initializing: bla = 5;
 declaring and initializing: var bla = 5;
 
-Trying to read from something undeclared in general produces an error in most programming languages, in sh however it merely produces an empty string
+Trying to read from something undeclared in general produces an error in most programming languages, in sh however it merely produces an empty string.
+In JS, a declared but unitialized variable has the value undefined. In most other languages, reading from an unitialized variable produces an error.
 
-<h3>Naming</h3>
-
-While there is variety in what is allowed in a variable name, most commonly it is [a-zA-Z0-9_]
 
 <h3>Sigils<h3>
 
@@ -382,6 +390,12 @@ math context|$(()), (()) and the command let
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
+<h4>Coercion</h4>
+
+JS will coerce extensively in the case of operations w/ mismatched types.
+Concatenation of non-string w/ string|coerces non-string to string
+use of booleans w/ math operators|coerce to 0/1
+
 <h4>Casting</h4>
 
 !!type|YAML
@@ -410,8 +424,8 @@ Most common format is RFC 3339 / ISO 8601
 <h3>Null types</h3>
 
 nil|lua|liquid|ruby
-null|C#|Java|JS
-undefined|JS
+null|C#|Java|JS (secondary)
+undefined|JS (primary)
 there isn't one|Rust
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
@@ -431,7 +445,11 @@ YAML is not boolean keyword case sensitive
 <h3>Numeric types</h3>
 
 C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
-In some languages, multiples subsequent underscores within a numeric literals, or underscores at the beginning or end of literals are not allowed
+In some languages, multiples subsequent underscores within a numeric literals, or underscores at the beginning or end of literals are not allowed]
+Some languages have specific keywords for Infinity (JS, Ruby) or NaN (JS). More commonly, values such as these exist as constants on the Number/relevant numberic type class/object/whatever.
+In some languages (JS, Ruby), you can recieve values such as Infinity or NaN via certain operations, e.g. dividing by zero. Other languages will throw errors in this case.
+In JS, you can generate NaN by trying to do math with a non-number and non-boolean (unless using +, which will concatenate), multiplying Infinity * 0 or * Infinity, using unary plus on a non-number and non-boolean.
+In JS, you can generate Infinity by dividing by zero
 
 <h4>Integers</h4>
 
@@ -476,6 +494,7 @@ clear()|Python
 
 ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
+JS: class Set, create via new Set(), add(), has(), .size, 
 
 <h5>Associative collections</h5>
 
@@ -487,7 +506,7 @@ Different programming language's implementations limit keys to only strings, str
 Some languages implement assoc arr via Objects, you then interact with them as you would with objects.
 Some languages implement assoc arr as primitives, these then often have their own syntax for interaction.
 Java implements associative arrays via things implementing the <code>Map</code> interface, e.g. <code>HashMap</code>, both defined over two generics.
-JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. objects (esp. object literals) also perform many of the operations we would expect of associative arrays.
+JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. objects (esp. object literals) also perform many of the operations we would expect of associative arrays. Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). Objects are primitives, Maps need to be created with the new Map() constructor. Operations on map: get(), set()
 In literals, key-value pairs are generally separated with , (e.g. keyval, keyval)
 Lua implements associative arrays via tables (in fact, tables are the only data structure in lua). 
 A lua table can be created the {} literal, like so {key = value, ...}
@@ -514,8 +533,6 @@ set it to null type|lua
 Retrieval function
 get()|Rust
 
-Array/Iterator of keys
-keys()|Ruby
 
 Has key? 
 key?|Ruby
@@ -528,8 +545,8 @@ pairs()|lua
 items()|Python
 
 get array/iterator of keys
-keys()|perl
-values()|perl
+keys()|perl|Ruby|Python (returns a dict_keys object)
+values()|perl|Ruby|Python (returns a dict_values object)
 
 commonly items are separated by ,
 
@@ -552,6 +569,8 @@ col1 << col2|Ruby (also works for strings)
 
 Repeat the contents of a linear collection n times
 col1 * n|Python
+
+The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS.
 
 <h5>Array<h5>
 
@@ -634,7 +653,21 @@ C#: List, defined over one generic. must be created via constructor. Add to end 
 
 <h5>Streams</h5>
 
-Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
+Lists/Sequences are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
+
+<h5>Stack</h5>
+
+A stack is a linear collection ADT with LIFO order, and the operations:
+push: add to the top of the stack
+pop: remove from top of the stack
+peek: loop at top of stack
+
+<h5>Queue</h5>
+
+A stack is a linear collection ADT with FIFO order, and the operations:
+enqueue: add to the end of the queue
+dequeue: remove from the front of the queue
+peek: look a the next element that would be dequeued
 
 
 <h3>Iterators</h3>
@@ -642,6 +675,7 @@ Lists/Sequences are an abstract data type (specifically a collection), in which 
 An iterator is an object (or similar) whose purpose is to iterate over some data. In general, an iterator has a next() method that returns the next element.
 An iterable is generally something that can create an iterator of itself.
 In ruby, iterables are called enumerables.
+In most languages that have iterables, most collections are iterable, as are strings. Java Strings are not, JS objects aren't either.
 
 <h4>Generators</h4>
 
@@ -681,7 +715,7 @@ String interpolation is a form of template processing (cf other cards)
 In JS, string interpolation can only be performed within template literals.
 
 \${expr}|JS|only in template literals
-\#{}|Ruby|SCSS/SASS
+\#{expr}|Ruby|SCSS/SASS
 \$variable|sh|only with variable names
 \${epxr}|sh|more feature-full
 &lt;sigil&gt;{expr}|Perl
@@ -695,8 +729,9 @@ Syntax|Trait
 
 <h4>String multiplication</h4>
 
-x|Perl
-*|Python|Ruby
+x n|Perl
+* n|Python|Ruby
+.repeat(n)|JS|Ruby
 
 <h4>String concatenation</h4>
 
@@ -726,6 +761,12 @@ does a string start with?|somestr.startsWith(searchstr)|JS (accepts an optional 
 remove whitespace from beginning and end of string|trim()|JS, Ruby
 split string on foo|.split(foo)|Python
 
+<h4>Join to string</h4>
+
+separator.join(iterable)|Python
+somearray.join(separator)|JS|Ruby
+
+separator defaults to , for JS and to nothing for Ruby
 
 <h2>operators</h2>
 
@@ -737,6 +778,7 @@ In Ruby, all operators are actually just syntactic sugar for methods. that is, +
 Operator precedence in programming mirrors the math concept of order of operations.
 Operator precedence / order of operations is in which order to apply operations.
 In most programming languages, math operations have the same operator precedence as they would in math itself.
+The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
 In liquid, the order of operatons is right to left, parentheses are forbidden.
 
 <h3>assignment</h3>
@@ -746,7 +788,9 @@ sh is special in its assignment operator, since it does not allows spaces on eit
 In most languages, assignment expressions evaluate to the value assigned.
 Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
-<h3>equality</h3>
+<h3>relational opearators</h3>
+
+In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
 
 ~=|not equals|lua
 !=|not equals|C#|Java|JS
@@ -759,7 +803,13 @@ Many languages have combinations of their math/string concat and assignment oper
 
 Python uses the `is` operator when comparing equality of location in memory
 
-JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons.
+JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing < or > coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
+
+For anything that is a data structure, there can be two kinds of equality (using Kotlin terminology)
+structural equality = equivalent content
+referential equality = same reference
+JS, Java, C# use referential equality on non-scalars
+Ruby and Python use structural equality on non-scalars (arrays and assoc. arrays)
 
 sh has a different set of operators for string equality:
 -ne|is not equal to
@@ -769,6 +819,8 @@ sh has a different set of operators for string equality:
 -ge|greater than or equal to
 -eq|is equal to
 Perl uses sh-style comparison operator without the leading -
+
+greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
 
 <h3>boolean operators</h3>
 
@@ -786,6 +838,8 @@ Double not can generally be used to get the truthiness/falsiness of a thing, eve
 
 Short circuiting is more properly short-circuit evaluation.
 Short-circuit evaluation is the property of boolean operators in some/most programming languages in which the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
+specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
+expr1 LOR expr2 will not evaluate expr2 if expr1 is true/truthy
 Can be used to ensure a variable never gets assigned a falsy value by using logical/boolean or, since (only) if the first expression is falsy the second expression will be evaluated.
 It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
@@ -795,21 +849,26 @@ It is possible to create a kind of if statement using only short-circuiting oper
 bitwise not|~
 left shift|&lt;&lt;
 right shift|>>
+bitwise XOR|^
 
 <h3>math</h3>
 
 addition|+
 multiplication|*
 subtraction|-
-division|/|Python: always returns a float
+division|/|Python: always returns a float, JS: it depends (but no distinction between floats and ints anyway)
 floor division|//
 remainder|%
 power|**
 increment|++
 decrement|--
 
+unary plus does different things in different languages: in some it does nothing (with numeric types) or throws an error (with non-numeric types). In JS it converts it to an number.
+
+
 The increment and decrement operators do not exist in python.
 The increment and decrement operators behave differently based on their position in relation to the number in some languages: 
+++somevar or --somevar will crement first, and then evaluate, somevar++ or somevar-- will evaluate first, and then crement
 
 <h3>comma</h3>
 
@@ -821,6 +880,8 @@ a, b = 1, 2|Python
 
 contains|liquid
 in|Python|JS
+
+`in` in JS works amusingly if used on arrays: it will look for integer keys, and not for values, so that it will return false for "foo" in ["foo"] but true for 0 in ["foo"] (this is because arrays are objects, and thus the integer keys are actually object keys)
 
 <h3>remove element from collection</h3>
 
@@ -912,9 +973,10 @@ raise|Ruby
 
 <h3>Error handling control structures</h3>
 
-most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; [finally &lt;block&gt;]
-In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; [ensure &lt;block&gt;]
+most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; finally &lt;block&gt;
+In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
 Rust is notable for not having any error handling of this kind.
+In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
 
 <h2>Callable units</h2>
 
@@ -938,6 +1000,7 @@ void is commonly used for no return type.
 
 Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
 In non-manifestly typed languages, the default return value of a function is the null type
+In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
 
 <h3>Closures</h3>
@@ -966,11 +1029,17 @@ In ruby and rust, blocks/closures are surrounded by {}
 {|params| code...}
 In ruby, blocks may also be surrounded by do ... end
 
+In JS, there is a special type of first-class anonymous function called an arrow function.
+Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
+Instead of a block, you may also specify a single expression, whose value will be returned. 
+The parentheses are optional if there is a single param
+
 <h3>Higher-order functions</h3>
 
 A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
 
-There are many standard types of higher order functions
+There are many standard types of higher order functions.
+In JS, the higher-order functions generally only work on Arrays, and always recieve the arguments value, index, wholeArray
 
 <h4>map</h4>
 
@@ -991,6 +1060,12 @@ Exceptions:
 1 arg doesn't need parens|lua
 always optional|ruby|perl
 never|sh
+
+<h4>Default parameters</h4>
+
+A default parameter is one which will take on a default value if no argument for it is specified in the call.
+In general, default parameters will also take on the default value if the argument passed is the language's null type. 
+In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 
 
 <h2>Classes & objects </h2>
@@ -1067,6 +1142,10 @@ Method stubs are method signatures without the implementation, in Java/C#, they 
 
 C#, Java
 
+<h3>is X an object of Y</h3>
+
+someobj instanceof class|JS
+
 <h2>Pragmas</h2>
 
 In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
@@ -1103,9 +1182,9 @@ count occurrences of element
 foo.count(bar)|Python|Ruby
 no easy way|JS
 
-get index of element
-foo.index(bar)|Python
-foo.indexOf(bar)|JS
+get index of element/substring in string or linear collection
+foo.index(bar, optionalStartIndex)|Python
+foo.indexOf(bar, optionalStartIndex)|JS
 
 get a random number
 Math.random()|JS
@@ -1123,6 +1202,16 @@ Number.isInteger(foo)|JS
 
 get the smallest/largest of an amount of arguments
 min()/max()|Python (also accepts an iterable as an argument)
+Math.min()/Math.max()|JS
+
+Round up/down
+Math.ceil(number)/Math.floor(number)|JS
+
+Round a number
+Math.round()
+
+Get absolute value of something
+Math.abs()|JS
 
 Get documentation information on the thing
 help(foo)|Python
