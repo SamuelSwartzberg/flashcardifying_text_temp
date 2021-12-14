@@ -1,2 +1,7 @@
 document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
+document.getElementById()
+
+element.innerHTML|content between the tags
+
+A NodeList is similar to an Array, but doesn't have

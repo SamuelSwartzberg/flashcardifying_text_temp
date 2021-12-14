@@ -1,0 +1,11 @@
+interact with nextjs|next
+interact with jekyll|jekyll
+
+build|build a production build|jekyll|next
+clean|remove generated files|jekyll
+lint|runs the relevant linter on the project (Nextjs: eslint)
+
+Hot reloading reloads a thing as you change the code etc.
+serve (for jekyll) and dev (for nextjs) serve your build with hot reloading 
+nextjs serves your app at port 3000 by default
+You can run a build you created with build (for nextjs) with start (for nextjs)

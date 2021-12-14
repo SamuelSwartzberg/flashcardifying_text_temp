@@ -192,6 +192,11 @@ Python|0|1|1
 JS|1|1|2
 SCSS|1|1|1
 
+<h3>Labels</h3>
+
+A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
+JS and C have labels.
+Labels can be used to break out of a loop that is
 
 <h2>other statements</h2>
 
@@ -239,7 +244,28 @@ Documentation comments often generate HTML documentation
 
 <h3>Scope</h3>
 
+<h4>Variable Keywords</h4>
 
+Block-scoped variables
+my|perl
+local|lua
+let|JS
+ø|Ruby
+
+Global variables
+ø|lua|perl
+$|Ruby
+
+Function-scoped variables
+var|JS
+
+Variable scope in python is not determined by keyword but by context.
+
+
+<h4>Hoisting</h4>
+
+Hoisting moves declarations but not initializations to the top of the scope.
+in JS, var variables and functions and hoisted.
 
 <h3>Case</h3>
 
@@ -260,23 +286,11 @@ JS also allow $ in a non-sigil way in identifier names.
 JS identifiers may not start with a number, but with any other allowed character.
 In general, identifiers may not be keywords.
 
-
 <h2>Variables</h2>
 
 In lua, values are typed, but variables are not. 
 
-Block-scoped variables
-my|perl
-local|lua
-let|JS
-ø|Ruby
 
-Global variables
-ø|lua|perl
-var|JS (are also hoisted)
-$|Ruby
-
-Variable scope in python is not determined by keyword but by context.
 
 <h3>Declaration and initialization</h3>
 
@@ -287,6 +301,7 @@ declaring and initializing: var bla = 5;
 Trying to read from something undeclared in general produces an error in most programming languages, in sh however it merely produces an empty string.
 In JS, a declared but unitialized variable has the value undefined. In most other languages, reading from an unitialized variable produces an error.
 In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
+Redeclaration may or may not produce an error. In JS, it does not produce an error for var, but does for const and let.
 
 
 <h3>Sigils<h3>
@@ -326,6 +341,8 @@ Keyword for variables:
 let|Rust
 
 In rust, even variables are immutable by default, and the keyword mut makes them mutable.
+In JS, consts are always block-scoped.
+In some languages (JS), consts must be initialized in the same statement as they are declared.
 
 <h3>Default variables</h3>
 
@@ -340,6 +357,7 @@ literals: true/false A null pointer/reference/type/value indicates that we're
 not referring to a valid thing
 Datatypes implemented in a programming language can either be scalar or compound/composite
 Bash is fun in that it does not have data types at all, in truth all values are strings
+
 
 <h3>Types and type annotation</h3>
 
@@ -445,9 +463,9 @@ nil|lua|liquid|ruby
 null|C#|Java|JS (secondary)
 undefined|JS (primary)
 there isn't one|Rust
-None|Python
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
+In JS a type is nullish if it is null or undefined.
 
 <h3>boolean</h3>
 
@@ -621,7 +639,7 @@ insert an element at a specific position
 somelincoll.insert(elem, index)|JS
 
 The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
-Most commonly, pop returns the element removed, while push returns the new length.
+Most commonly, pop/shift returns the element removed, while push/unshift returns the new length.
 Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/push but for the beginning of the array.
 Python extends the pop method to all collections, but it generally works weirdly, compared to other programming languages:
 someset.pop()|a random element
@@ -737,10 +755,22 @@ An iterator is an object (or similar) whose purpose is to iterate over some data
 An iterable is generally something that can create an iterator of itself.
 In ruby, iterables are called enumerables.
 In most languages that have iterables, most collections are iterable, as are strings and ranges. Java Strings are not, JS objects aren't either.
+in JS, the next() method returns an assoc array {
+  done: bool,
+  value: ...
+}
 
 <h4>Generators</h4>
 
 A generator is a form of iterator. Generators are created via a generator function (thus you control what the next() method returns), but otherwise behave like any other iterator.
+In JS, generators are indicated by a * after the function keyword.
+In JS at least, generators continue from where they left off after the last yield.
+In JS, returning or encountering an error ends the generator.
+In JS, the next() function of a generator's iterator can be passed an argument that will be assined to the yield expression.
+Returning the current iterator element 
+yield|JS
+
+yield another generator (JS) yield*
 
 <h3>Strings<h3>
 
@@ -814,6 +844,8 @@ x n|Perl
 .repeat(n)|JS|Ruby
 
 <h4>String concatenation</h4>
+
+string concatenation is joining strings together into a single string.
 
 ..|Lua
 +|Java|C#|Python|Ruby|Rust|JS
@@ -914,6 +946,8 @@ sh has a different set of operators for string equality:
 Perl uses sh-style comparison operator without the leading -
 
 greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
+Comparing a thing with itself is always true, except for: 
+in JS, NaN
 
 <h3>boolean operators</h3>
 
@@ -943,6 +977,9 @@ bitwise not|~
 left shift|&lt;&lt;
 right shift|>>
 bitwise XOR|^
+bitwise OR|bar
+bitwise AND|&
+
 
 <h3>math</h3>
 
@@ -1014,6 +1051,7 @@ Slicing is extracting a subset of elements from a data structure.
 Slicing is most commonly performed on linear collections or strings.
 In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
 In general, using a negative index for step will reverse the thing.
+In python you can assign to slices, delete them, etc.
 
 [start:end_excl:step]|Python
 .slice(start, end_excl)|JS
@@ -1057,6 +1095,8 @@ When not in callable unit parameters, JS spread and Ruby/Pythons splat transform
 
 
 <h3>Throwing errors</h3>
+
+Generally take an expression as arg.
 
 keywords
 die|perl
@@ -1144,6 +1184,9 @@ In ruby, higher-order functions generally take blocks/procs
 
 <h4>map</h4>
 
+In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
+.map(func)|JS|Python|Ruby
+
 <h4>sort</h4>
 
 <h4>filter</h4>
@@ -1207,6 +1250,7 @@ Only Ruby (of the languages I know) is quite pure enough to be called a pure obj
 
 Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
 
+A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
 
 reference to the current object/construct
 self|Ruby|Rust
@@ -1375,6 +1419,9 @@ get (first) index of element/substring in string or linear collection
 foo.index(bar, optionalStartIndex)|Python
 foo.indexOf(bar, optionalStartIndex)|JS
 
+get (last) index of element/substring in string or linear collection
+foo.lastIndexOf(bar, optionalStartIndex)|JS
+
 get list of all functions a module/package supports
 dir(foo)|Python
 
@@ -1403,7 +1450,13 @@ Round a number
 
 Get absolute value of something
 &lt;mathobj&gt;.abs()|JS
-abs()|Python
+abs()|Python (y, it's not on the math obj)
+
+Square root
+&lt;mathobj&gt;.sqrt()|JS|Python
+
+Is the thing an Integer?
+Number.isInteger(foo)|JS
 
 Get documentation information on the thing
 help(foo)|Python
