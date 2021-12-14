@@ -20,7 +20,7 @@ semicolons as statement separators and statement terminators, complex exceptions
 §§ ((c:11;::In/with)) ((c:11;::constructs)) or ((c:11;::languages)) that are ((c:12;::block-scoped)), ((c:13;::a block defines a scope)). §<br>
   §§ ((c:14;::Curly-brace/bracket languages))&nbsp;are defined as languages that ((c:15;::use curly-braces)) ((c:16;::to define blocks)). §<br>
   (ba)sh is not generally a curly-brace language, but it still allows creating block statements via {}
-§§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)). §<br>
+§§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)), SCSS (but not Sass). §<br>
 §§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
 In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
@@ -30,7 +30,7 @@ In python, pretty much anything (control structure, function, etc) that precedes
 In some languages, notably Ruby and Rust, block expression return the value of the last statement
 
 liquid|{% keyword %} ... {% endkeyword %}
-python|indentation
+python|Sass|indentation
 
 <h2> control flow</h2>
 The default control flow is linear from top to bottom, this is called sequencing.
@@ -67,7 +67,7 @@ the if/then/(else) conditional is typically a statement (in rust, it's an expres
   elsif|liquid|perl|ruby
   elif|Python|(ba)sh
   elseif|lua
-  else if|C#|Java|JS
+  else if|C#|Java|JS|SCSS?Ass
 
 
 
@@ -130,7 +130,7 @@ Count-controlled loops are often started with the keyword for.
 Count-controlled loops are often called for-loops.
 The typical syntax for count-controlled loops inheriting from C (e.g. C#, Java, JS, Perl) is 
 for &lt;delimiter&gt; counter initialization; counter end condition; counter change per loop &lt;delimiter&gt; block
-
+SCSS/Sass instead has the syntax @for <variable> from <lowerbound> to (excl)/through (incl) <upperbound>
 
 
 Condition-controlled loops
@@ -156,11 +156,14 @@ Collection-controlled loops are commonly called foreach loops.
   Lua: for &lt;expression&gt; do
   bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
-  JS: for (<expression> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
-  for (<expression> of <iterable>) ...
+  JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+  for (<variable> of <iterable>) ...
+  SCSS: @each <variable> in  <iterable>
 Some languages have collection-controlled loops that are called as methods on a collection or iterable
 iterable/enumerable.each(block)|Ruby
 somearr.forEach(anonFunc)|JS
+
+When iterating through something that returns multiple values, the expression may need to destructure the values out, or may just list n variables with commas, depending on the language
 
 bash for in is actually the only loop using for that it has. It's also weird in that what it loops through is an $IFS separated list
 
@@ -181,9 +184,13 @@ Most languages use the break statement to end/exit the loop, Perl uses the last 
 
 Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
 
+(loops with reversed condition do not count as separate kinds of loops)
 lang|count-cont|cond-cont|col-cont
 lua|1|2|1
 liquid|0|0|1
+Python|0|1|1
+JS|1|1|2
+SCSS|1|1|1
 
 
 <h2>other statements</h2>
@@ -269,6 +276,8 @@ Global variables
 var|JS (are also hoisted)
 $|Ruby
 
+Variable scope in python is not determined by keyword but by context.
+
 <h3>Declaration and initialization</h3>
 
 declaring: var bla;
@@ -277,6 +286,7 @@ declaring and initializing: var bla = 5;
 
 Trying to read from something undeclared in general produces an error in most programming languages, in sh however it merely produces an empty string.
 In JS, a declared but unitialized variable has the value undefined. In most other languages, reading from an unitialized variable produces an error.
+In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
 
 
 <h3>Sigils<h3>
@@ -294,6 +304,7 @@ In ruby
 @@|class variables
 
 in sh, referring to a variable outside of a ${} context requires the $ sigil, however assigning to a variable does not use the $ sigil
+In SCSS/Sass, any variable requires teh $ sigil
  
 
 <h3>Declaring multiple variables</h3>
@@ -401,6 +412,7 @@ Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert 
 JS will coerce extensively in the case of operations w/ mismatched types.
 Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
+In contrast, pythons operators rarely coerce.
 
 <h4>Casting</h4>
 
@@ -433,6 +445,7 @@ nil|lua|liquid|ruby
 null|C#|Java|JS (secondary)
 undefined|JS (primary)
 there isn't one|Rust
+None|Python
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 
@@ -496,10 +509,12 @@ Associative collections map keys to values.
 <h4>Collection methods</h4>
 
 Clear a mutable collection
-clear()|Python
+clear()|not JS|Python|Ruby
 
 
 <h4>Non-linear collections</h4>
+
+Python: dictionary, set (and frozenset)
 
 <h5>Sets</h5>
 
@@ -519,7 +534,7 @@ xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
 <h6>Associative array</h6>
 
-An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key).
+An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
 
 Some languages implement assoc arr via Objects, you then interact with them as you would with objects.
@@ -568,6 +583,9 @@ keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
 values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
 Object.keys(someobj)|JS
 
+merge two assoc. arrays
+map-merge(foo, bar)|SCSS/Sass
+
 commonly items are separated by ,
 
 <h4>Linear collections/ADTs</h4>
@@ -587,9 +605,20 @@ reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 Append a linear collection to a different linear collection 
 col1 + col2|Python (also works for strings)
 col1 << col2|Ruby (also works for strings)
+col1.extend(col2)|Python
 
 Repeat the contents of a linear collection n times
 col1 * n|Python
+
+append one element to end 
+push()|JS
+append()|Python
+
+remove an element from a lin coll by name
+somelincoll.remove(elem)|Python
+
+insert an element at a specific position
+somelincoll.insert(elem, index)|JS
 
 The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
 Most commonly, pop returns the element removed, while push returns the new length.
@@ -597,6 +626,7 @@ Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/pu
 Python extends the pop method to all collections, but it generally works weirdly, compared to other programming languages:
 someset.pop()|a random element
 someassocarray.pop(somekey)|the relevant value
+somearr.pop(index)
 
 <h5>Strings as linear collections</h5>
 
@@ -754,6 +784,11 @@ In JS, string interpolation can only be performed within template literals.
 
 Python has three ways to perform string interpolation:
 old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
+new-style string formatting:
+{} or {0}, {1} ... interpolates within the string, if calling format() on the string. Interpolated expressions are args to format method, format specifiers go within {}, if passing to format by name, refer to these things like so {name}. If combining w/ format specifiers {name:format_specifier}
+"Error code: {errno:x}".format(errno = ...
+f-strings: allow arbitrary expression within {}. String must be prefixed by f
+f"Hello, {name}"
 
 Rust:
 Syntax|Trait
@@ -769,6 +804,8 @@ Format specifier syntax: %[parameter][flags][width][.precision][length]type
 common types
 x|lowercase hex
 X|uppercase hex
+d or i|signed int
+f or F|decimal number
 
 <h4>String multiplication</h4>
 
@@ -781,6 +818,8 @@ x n|Perl
 ..|Lua
 +|Java|C#|Python|Ruby|Rust|JS
 .|Perl
+
+Adjacent string literals are automatically concatenated|Python|Ruby
 
 <h4>String replacement</h4>
 
@@ -809,6 +848,10 @@ remove whitespace from beginning of string|trimStart()/trimLeft()|JS
 remove whitespace from end of string|trimStart()/trimLeft()|Ruby
 split string on foo|.split(foo)|Python
 
+<h4>String replacement</h4>
+
+somestr.replace(foo, bar)|JS|Python
+
 <h4>Join to string</h4>
 
 separator.join(iterable)|Python
@@ -834,6 +877,7 @@ In liquid, the order of operatons is right to left, parentheses are forbidden.
 
 = is used as the assignment operator in most programming languages
 sh is special in its assignment operator, since it does not allows spaces on either side
+SCSS/Sass uses : as the assignment operator.
 In most languages, assignment expressions evaluate to the value assigned.
 Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
@@ -967,7 +1011,7 @@ Infinity|'number';
 <h3>Slicing</h3>
 
 Slicing is extracting a subset of elements from a data structure.
-Slicing is most commonly performed on arrays or strings.
+Slicing is most commonly performed on linear collections or strings.
 In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
 In general, using a negative index for step will reverse the thing.
 
@@ -1018,6 +1062,7 @@ keywords
 die|perl
 throw|JS|Java|C#
 error()|lua
+@error|SCSS?Sass
 raise|Ruby
 
 <h3>Error handling control structures</h3>
@@ -1032,7 +1077,7 @@ In general, having a try and either a catch or a finally block is necessary for 
 Callable units generally can take arguments if specified.
 
 Keyword to create a callable unit
-function|JS|Lua|sh
+function|JS|Lua|sh|SCSS/Sass (@function ofc)
 fn|Rust
 def|python|Ruby
 sub|perl
@@ -1132,11 +1177,16 @@ $@|(ba)sh
 In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
 $# gets the amount of arguments passed.
 
+<h4>Positional and named</h4>
+
+pass by name|Python
+
 <h4>Default parameters</h4>
 
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
+the general syntax is `paramname = defaultval` (within the parameter list)
 
 <h3>Methods</h3>
 
@@ -1262,26 +1312,42 @@ Strict mode pragmas cause programs to fail in certain cases.
 <h2>IO</h2>
 
 In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
-
+sys.stdin|python
 
 Command-line arguments
 @ARGV|Perl
 
 Environment variables
 %ENV|Perl
+process.env|Node
 
+<h2>Formatting</h2>
+
+Official style guide/best practices
+PEP 8|Python
 
 <h2>import/export</h2>
 
 Packages and modules are often synonyms.
-In python, a package is a collection of modules.
+In python, a package is a collection of modules (and perhaps other packages).
 In python, each .py file is a module.
 A package must contain a __init__.py file
+In most languages, import statements must be in the beginning of the file.
 Import statements have the general syntax
 
 import <member> as <name> from <path>
 
-Python instead has the order from <path> import <member>
+Python instead has the order from <path> import <member> as <name>
+
+Import anything|*|Python
+
+SCSS/Sass 
+
+Three keywords: @use, @import, @forward (@include is not an import statement!)
+Syntax alwas keyword <path> [as <name>]
+@forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
+
+CommonJS
 
 <h2>lifecycle</h2>
 
@@ -1295,9 +1361,12 @@ count occurrences of element
 foo.count(bar)|Python|Ruby
 no easy way|JS
 
-get index of element/substring in string or linear collection
+get (first) index of element/substring in string or linear collection
 foo.index(bar, optionalStartIndex)|Python
 foo.indexOf(bar, optionalStartIndex)|JS
+
+get list of all functions a module/package supports
+dir(foo)|Python
 
 get a random number
 &lt;mathobj&gt;.random()|JS
@@ -1305,10 +1374,6 @@ get a random number
 floor/ceiling function
 &lt;mathobj&gt;.floor()/.ceil()|Python|JS
 &lt;thingItself&gt;.floor()/.ceil()|Ruby
-
-Object/Struct/whatever for standard math operations
-Math|JS
-math
 
 Is a thing an integer?
 Number.isInteger(foo)|JS
@@ -1324,7 +1389,7 @@ Round to fixed amount of decimal places
 somenumber.toFixed(num)|JS
 
 Round a number
-&lt;mathobj&gt;.round()
+&lt;mathobj&gt;.round()|JS|Python
 
 Get absolute value of something
 &lt;mathobj&gt;.abs()|JS
@@ -1361,7 +1426,13 @@ all(iterable)|Python
 
 Sum up all the elements in an iterable
 sum(iterable)|Python
-enumerableWhichIsJustASynonymForIterable
+enumerableWhichIsJustASynonymForIterable.sum()|Ruby
+
+<h3>Modules/Objects/Namespaces</h3>
+
+Object/Struct/whatever for standard math operations
+Math|JS
+math|Python
 
 <h3>Print</h3>
 
@@ -1371,6 +1442,7 @@ print()|lua|perl (no final newline)|python|Ruby (no final newline)
 say()|perl (final newline)
 puts|Ruby (final newline)
 console.log()|JS
+@debug|SCSS/Sass
 System.out.prinln()|Java
 Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
@@ -1379,6 +1451,10 @@ Print functions using format strings
 printf|(ba)sh|C (ofc)|Perl|Ruby
 string.format|Lua
 % syntax|Python
+
+Print an error to console (but don't throw one)
+console.error()|JS
+@warn|SCSS/Sass
 
 <h3>Query for input</h3>
 
