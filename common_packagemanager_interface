@@ -3,6 +3,7 @@ Official package hub/repository
 rust|crates.io
 python|PyPI
 ruby|rubygems
+JS/node|npm Registry
 
 Name of a package
 
@@ -22,10 +23,10 @@ Package manifest
 Cargo.toml|cargo
 package.json|npm|yarn
 
-update|update the package index|brew|npm|DIFFERENT MEANING: bundler
-update|update all dependencies|bundler
+update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
+update|update all dependencies|bundler|npm
 exec|execute a script in the current bundle|bundler
-upgrade|installs all available updates|brew|npm
+upgrade|installs all available updates|apt|brew
 install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
 install|install all dependencies in package manifest|bundler
 uninstall PACKAGE|uninstall a package|brew|npm
@@ -36,11 +37,17 @@ tap TAPNAME|add a repository|brew
 init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
 show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
 show FOO version|show latest version of package foo|npm
+pack|create a tarball of a project/package|npm
+publish|publish to offical pagckage hub/repository|cargo|npm
+-g or --g|do whatever globally
 
+Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed
 
 A package manifest (though different languages call it different things) specifies metadata about your package/project as well as dependencies.
 In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
 While the package manifest or wherever is where you specify the versions of your dependencies you accept, the lockfile specifies the versions which are actually installed.
+package-lock.json|npm
+Gemfile.lock|bundler
 
 bundler is kinda weird, since it is a ruby gem itself.
 bundler manages the gemfile 

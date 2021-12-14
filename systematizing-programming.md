@@ -1316,6 +1316,7 @@ sys.stdin|python
 
 Command-line arguments
 @ARGV|Perl
+process.argv|node
 
 Environment variables
 %ENV|Perl
@@ -1348,6 +1349,15 @@ Syntax alwas keyword <path> [as <name>]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
 
 CommonJS
+
+CommonJS is {{c1::a module ecosystem}} mainly used by node
+
+let/var/const <name> = require(<path>)
+
+<h3>prelude</h3>
+
+Most languages have a number of things that are automatically imported. Rust calls this prelude.
+
 
 <h2>lifecycle</h2>
 
@@ -1503,7 +1513,9 @@ any key in a table lua, Ruby, JS, Py, Rust
 In most languages, indexing a linear collection outside of its bounds produces an error, in JS it merely produces undefined
 JS allows indexing strings via the charAt method.
 
+<h2>Things programming languages do especially well</h2>
 
+performance|rust
 
 
 
