@@ -1,0 +1,2 @@
+document.querySelector(selector)|get first element that matches selector
+document.querySelectorAll(selector)|get NodeList of elements that matches selector

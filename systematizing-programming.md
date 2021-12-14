@@ -24,7 +24,7 @@ semicolons as statement separators and statement terminators, complex exceptions
 §§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
 In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
-In bash, blocks for if are delimited by then ... (possible else etc.) fi, for for by do ... done, for case by in ... esac
+In bash, blocks for if are delimited by then ... (possible else etc.) fi, for for and while by do ... done, for case by in ... esac
 In ruby, blocks end with <code>end</code>. begin begins a dedicated block statement (and is the keyword for the error handling statement), but no other blocks
 In python, pretty much anything (control structure, function, etc) that precedes a block ends with `:`. In Ruby by contrast (which otherwise may look pretty similar), nothing ends with `:`
 In some languages, notably Ruby and Rust, block expression return the value of the last statement
@@ -65,7 +65,7 @@ the if/then/(else) conditional is typically a statement (in rust, it's an expres
   An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
   the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
   elsif|liquid|perl|ruby
-  elif|Python
+  elif|Python|(ba)sh
   elseif|lua
   else if|C#|Java|JS
 
@@ -194,6 +194,8 @@ Empty statements are useful if a statement is required syntactically, but there 
 pass|Python
 :|(ba)sh
 
+: is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
+
 <h2>Comments</h2>
 
 Comments in programming are (generally) ignored by compilers/interpreters.
@@ -291,6 +293,8 @@ In ruby
 @|instance variables
 @@|class variables
 
+in sh, referring to a variable outside of a ${} context requires the $ sigil, however assigning to a variable does not use the $ sigil
+ 
 
 <h3>Declaring multiple variables</h3>
 
@@ -384,6 +388,7 @@ Languages like JS or Python establish a boolean context (coerce to boolean) with
 In perl, context is most often used with the scalar/list distinction.
 scalar() generates a scalar context
 Since (ba)sh doesn't have any types but strings, it needs specific contexts to do certain tings
+math context is required to do math
 math context|$(()), (()) and the command let
 
 <h4>Conversion</h4>
@@ -445,6 +450,7 @@ YAML is not boolean keyword case sensitive
 
 <h3>Numeric types</h3>
 
+Languages generally have at least a type for Integers and a type for numbers with fractional parts, most commonly floats. JS combines these into a single type Number.
 C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
 In some languages, multiples subsequent underscores within a numeric literals, or underscores at the beginning or end of literals are not allowed]
 Some languages have specific keywords for Infinity (JS, Ruby) or NaN (JS). More commonly, values such as these exist as constants on the Number/relevant numberic type class/object/whatever.
@@ -500,6 +506,14 @@ clear()|Python
 ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
 JS: class Set, create via new Set(), add(), has(), .size, 
+
+<h3>Set operations</h3>
+
+Many languages/libraries have generalized set operations to something you can do to most/all collection types.
+Python has set methods, but only allows them on sets.
+JS has a Set class, which does not support set method
+
+xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
 <h5>Associative collections</h5>
 
@@ -580,10 +594,17 @@ col1 * n|Python
 The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
 Most commonly, pop returns the element removed, while push returns the new length.
 Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/push but for the beginning of the array.
+Python extends the pop method to all collections, but it generally works weirdly, compared to other programming languages:
+someset.pop()|a random element
+someassocarray.pop(somekey)|the relevant value
+
+<h5>Strings as linear collections</h5>
+
+Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
 
 <h5>Array<h5>
 
-An array (type) is a abstract datatype of a collection of elemennts, selected by indices.
+An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
 
   |no indices (one value only)|zero-dimensional array (uncommon)|scalar
@@ -649,6 +670,7 @@ In C# the type for multidimensional arrays (e.g. for a three-dimensional array) 
 
 YAML also has indentation delimited, newline separated, individual items marked by <code>- </code> version
 
+In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
@@ -717,7 +739,7 @@ Multiline string delimiters
 Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
 >\nproper indentation|YAML
 
-<h4>String interpolation<h4>
+<h4>String interpolation/String formatting<h4>
 
 String interpolation is evaluating a string with placeholders and replacing them with their values
 String interpolation is a form of template processing (cf other cards)
@@ -731,8 +753,7 @@ In JS, string interpolation can only be performed within template literals.
 &lt;sigil&gt;variable|Perl
 
 Python has three ways to perform string interpolation:
-old-style stirng formatting: Interpolate with % followed by a char or chars determining the format. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
-E.g. 'Error Code: %x' % errno
+old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
 
 Rust:
 Syntax|Trait
@@ -740,10 +761,19 @@ Syntax|Trait
 {:?}|Debug
 {:#?}|Debug, but pretty-print
 
+<h5>C style string formatting</h5>
+
+(C) format strings aka printf (print formatted) format strings are names for a specific type of string formatting syntax using % and originating from C.
+Interpolate with what is called a format specifier: % followed by a char or a few chars to indicate the format. Which strings to interpolate where is determined positionally (the first string is interpolated ).
+Format specifier syntax: %[parameter][flags][width][.precision][length]type
+common types
+x|lowercase hex
+X|uppercase hex
+
 <h4>String multiplication</h4>
 
 x n|Perl
-* n|Python|Ruby
+* n|Python (can also be used for arrays)|Ruby (can also be used for arrays)
 .repeat(n)|JS|Ruby
 
 <h4>String concatenation</h4>
@@ -893,7 +923,7 @@ The increment and decrement operators behave differently based on their position
 
 In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type).
 In many languages, the comma can be used for multiple assignment, most commonly like so:
-a, b = 1, 2|Python
+a, b = 1, 2|Python|Ruby
 
 <h3>element in collection/substring in string?</h3>
 
@@ -939,6 +969,7 @@ Infinity|'number';
 Slicing is extracting a subset of elements from a data structure.
 Slicing is most commonly performed on arrays or strings.
 In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
+In general, using a negative index for step will reverse the thing.
 
 [start:end_excl:step]|Python
 .slice(start, end_excl)|JS
@@ -954,15 +985,12 @@ Part delimiters
 :|Python
 ..|Perl
 
-Order/parts
-(start,stop,step) (3-tuple)|Python
-
 <h3>Length of strings, collections, etc.</h3>
 
 foo.length|Java|JS|Ruby
 foo.Length|C#
 len(foo)|Python
-#foo|lua|sh (must be surrounded by ${})
+#foo|lua|sh (must be surrounded by ${}, and followed by [@] if an array)
 
 length() for strings in perl, merely generating a scalar context is enough for arrays
 
@@ -1042,7 +1070,7 @@ However, often non-anonymous functions can also be first-class functions
 
 In ruby, anonymous first-class functions are called blocks.
 In rust, anonymous first-class functions are called closures.
-In JS, lua, all functions are first-class. 
+In JS, lua, python all functions are first-class. 
 In JS, anonymous functions have no special syntax, you merely leave out the identifier.
 
 In ruby and rust, parameters to blocks/closures are surrounded by |...|
@@ -1052,6 +1080,9 @@ In ruby, blocks may also be surrounded by do ... end
 
 in ruby, to call a passed block, use the yield keyword. 
 Anything passed to the yield keyword will be available as arguments to the block
+In ruby, the & operator converts a block to a proc object.
+Calling #call on a proc object is similar to yielding a block
+instead of a block with the syntax {|elem| elem.method} you can also pass &:method for the same effect
 
 In JS, there is a special type of first-class anonymous function called an arrow function.
 Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
@@ -1063,7 +1094,8 @@ The parentheses are optional if there is a single param
 A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
 
 There are many standard types of higher order functions.
-In JS, the higher-order functions generally only work on Arrays, and always recieve the arguments value, index, wholeArray
+In JS, the higher-order functions generally only work on Arrays, and the passed functions always recieve the arguments value, index, wholeArray.
+In ruby, higher-order functions generally take blocks/procs
 
 <h4>map</h4>
 
@@ -1094,12 +1126,32 @@ Exceptions:
 always optional|ruby|perl
 never|sh
 
+refer to all passed arguments as an array
+$@|(ba)sh
+
+In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
+$# gets the amount of arguments passed.
+
 <h4>Default parameters</h4>
 
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 
+<h3>Methods</h3>
+
+In ruby, methods that will return a boolean are marked by a ?
+In ruby, methods that do something destructive are marked by a !
+A pure object oriented language is one where everything is treated as an object.
+There is much discussion on what it means to be 'treated as an object' for pure OO languages, but most commonly, it is at least:
+1) Everything you operate on is a first-class Object
+2) The only thing you can do with an object is call a method on it.
+Therefore, 
+1) Methods may only return other objects.
+2) Operators (if they exist) are syntactic sugar for methods.
+It is a matter of debate which languages are sufficiently pure OO to qualify: 
+Ruby, Python, and JS allow methods to be called on pretty much anything, even primitives, since all primitves are boxed.
+Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
 
 <h2>Classes & objects </h2>
 
@@ -1164,8 +1216,11 @@ protected||Java
 Ruby syntax:
 def name=(value)...|setter
 
+You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
+
 <h3>Interfaces</h3>
 
+Traits and mixins are pretty similar concepts.
 If a given programming language has syntax for them, generally keyword interface.
 Indicating that one follows an interface is generally done with the implements keyword.
 If something implements an interface, it generally must implement all methods of that interface.
@@ -1173,6 +1228,7 @@ In the past, Java did not allow variables in interfaces. as of today, they are a
 In interfaces in Java/C#, you most commonly merely specify method stubs. (in the past this is the only thing you could do, this is no longer true)
 Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
 
+Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
 
 <h3>OOP</h3>
 
@@ -1181,6 +1237,16 @@ C#, Java
 <h3>is X an object of Y</h3>
 
 someobj instanceof class|JS
+
+<h3>Duplication/Replication</h3>
+
+
+shallow copy
+copy (module copy).copy(foo)|Python
+foo.copy()|Python (only collections)
+
+deep copy
+copy (module copy).deepcopy(foo)|Python
 
 <h2>Pragmas</h2>
 
@@ -1195,6 +1261,7 @@ Strict mode pragmas cause programs to fail in certain cases.
 
 <h2>IO</h2>
 
+In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
 
 
 Command-line arguments
@@ -1286,6 +1353,16 @@ window.alert("mesg")
 Concatenate multiple strings/ arrays at the end of an existing string/array
 stringOrArray.concat(stringsOrArrays)|JS|Ruby
 
+Is there a truthy value in an iterable
+any(iterable)|Python
+
+Are all the values in an iterable truthy 
+all(iterable)|Python
+
+Sum up all the elements in an iterable
+sum(iterable)|Python
+enumerableWhichIsJustASynonymForIterable
+
 <h3>Print</h3>
 
 Print functions in different languages
@@ -1297,7 +1374,11 @@ console.log()|JS
 System.out.prinln()|Java
 Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
-printf|(ba)sh
+
+Print functions using format strings
+printf|(ba)sh|C (ofc)|Perl|Ruby
+string.format|Lua
+% syntax|Python
 
 <h3>Query for input</h3>
 
@@ -1310,10 +1391,13 @@ window.prompt(mesg, default)
 
 Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
 
-range(start, stop, step)|python
-(start..stop)|liquid|perl
+range(start, stop, step)|python|lodash/underscore (js)
+(start..stop)|liquid|perl|ruby
 start..stop|Rust
 {start..stop..step}|bash
+seq start step stop|sh
+
+
 
 
 <h2>REPL</h2>

@@ -2,24 +2,51 @@ Official package hub/repository
 
 rust|crates.io
 python|PyPI
+ruby|rubygems
+
+Name of a package
+
+ruby|gem
 
 package manager
 
 rust|cargo
-JS|npm (technically for node, but commonly used for anything)
+JS|npm (technically for node, but commonly used for anything), yarn
 Ubuntu|apt
 macOS|homebrew (command: brew)|macports (command: port)
 (homebrew can also be used on linux, and is written in ruby)
+bundler|ruby (kinda)
 
 Package manifest
 
-rust|Cargo.toml
+Cargo.toml|cargo
+package.json|npm|yarn
 
-update|update the package index|brew|npm
+update|update the package index|brew|npm|DIFFERENT MEANING: bundler
+update|update all dependencies|bundler
+exec|execute a script in the current bundle|bundler
 upgrade|installs all available updates|brew|npm
-install PACKAGE|install a package|apt|brew|npm
+install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
+install|install all dependencies in package manifest|bundler
 uninstall PACKAGE|uninstall a package|brew|npm
 remove PACKAGE|uninstall a package|apt
 ls/list|list installed packages|brew|npm
-outdated|show a list of outdated packages|brew|npm
+outdated|show a list of outdated packages|brew|npm|bundler
 tap TAPNAME|add a repository|brew
+init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
+show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
+show FOO version|show latest version of package foo|npm
+
+
+A package manifest (though different languages call it different things) specifies metadata about your package/project as well as dependencies.
+In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
+While the package manifest or wherever is where you specify the versions of your dependencies you accept, the lockfile specifies the versions which are actually installed.
+
+bundler is kinda weird, since it is a ruby gem itself.
+bundler manages the gemfile 
+The gemfile contains dependencies
+the gemfile is just a ruby file
+In a gemfile, the first thing is a call to source, which establishes the global source
+source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
+within the gemfile, gem dependencies are defined by `gem <name>, <version>`
+
