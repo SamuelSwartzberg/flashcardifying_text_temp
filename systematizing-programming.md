@@ -1324,7 +1324,8 @@ $# gets the amount of arguments passed.
 
 <h4>Positional and named</h4>
 
-pass by name|Python
+named parameters|Python|JS|SCSS/Sass @mixin, @function
+positional parameters|pretty much all languages
 
 <h4>Default parameters</h4>
 
@@ -1332,6 +1333,7 @@ A default parameter is one which will take on a default value if no argument for
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 the general syntax is `paramname = defaultval` (within the parameter list)
+Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
 <h3>Asynchronous callable units</h3>
 
