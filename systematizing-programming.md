@@ -108,7 +108,7 @@ Different cases for a switch conditional are started by <code>switch</code> in J
 In liquid, ruby, multiple cases are separated by commas.
 The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
 Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
-
+Rust instead has match
 
 JS Syntax examples:
 
@@ -196,7 +196,8 @@ SCSS|1|1|1
 
 A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
 JS and C have labels.
-Labels can be used to break out of a loop that is
+JS label syntax: <name>:
+Labels can be used to break out of a loop that is not the enclosing one.
 
 <h2>other statements</h2>
 
@@ -265,7 +266,7 @@ Variable scope in python is not determined by keyword but by context.
 <h4>Hoisting</h4>
 
 Hoisting moves declarations but not initializations to the top of the scope.
-in JS, var variables and functions and hoisted.
+in JS, var variables and function declarations (but not function expressions) and hoisted.
 
 <h3>Case</h3>
 
@@ -285,6 +286,22 @@ While there is variety in what is allowed in a identifier name, most commonly it
 JS also allow $ in a non-sigil way in identifier names.
 JS identifiers may not start with a number, but with any other allowed character.
 In general, identifiers may not be keywords.
+
+<h3>Shadowing</h3>
+
+In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
+
+<h2>Values</h2>
+
+<h3>Memory-management</h3>
+
+<h4>Ownership</h4>
+
+In rust, eveary value has exactly one owner.
+Owners are variables(/constants).
+Assigning a value to a second variable invalidates the first reference.
+When we assign a value to something different, thus changing the owner and invalidating the first reference/owner, we call this moving.
+When a owner goes out of scope, a value is dropped.
 
 <h2>Variables</h2>
 
@@ -358,12 +375,69 @@ not referring to a valid thing
 Datatypes implemented in a programming language can either be scalar or compound/composite
 Bash is fun in that it does not have data types at all, in truth all values are strings
 
+<h3>primitives and composites</h3>
 
-<h3>Types and type annotation</h3>
+Primitive may refer to a data type that is provided in a programming language as a basic building block.
+Composite data types are built from primitive data types. 
+Primitive may also refer to a type that has built-in language support.
+
+<h5>primitive types in different languages</h5>
+
+C#: int, float, bool, string, char, double
+Java: byte, short, int, long, float, double, char, String, boolean
+JS: Number, boolean, null, undefined, string, object, array
+Rust: 
+scalar: integer, floating-point numbers, booleans, chars
+Python: integers, floats, complex numbers
+
+
+
+<h3>Type Systems</h3>
+
+
+<h4>Dynamic vs Static typing</h4>
+
+Dynamic typigng: type checking at runtime ≈ values have type
+Static typing: type checking at compile time ≈ variables have type
+
+Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
+Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust
+
+<h4>Type inference/manifest</h4>
+
+Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
+Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
+Implicit/latent typing  <-> Explicit/manifest typing 
+Type inference is a rough synonym for implict/latent typing, but is often used in contexts where the language is otherwise generally explicitly/manifestly typed.
+Only statically typed languages can usefully be explicitly/manifestly typed
+Type inference in C#: var 
+in TS and Rust, often type inference is possible automatically 
+
+Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
+
+<h5>Type annotatin</h5>
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
+Languages with manifest typing generally require type annotation for variable/constants/parameters as well as return types.
 In most (esp. C-influenced) languages, type annotation goes before the variable/constant.
 In Rust and TS, type annotation looks like so `: type`
+
+<h4>Conversion, coercion, casting and context (plus truthy/falsiness)</h4>
+
+Context is a term usely used in programming, and with much variation.
+We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
+In python, bool() is said to create a boolean context = convert a value to true or false depending on their truthy/falsiness.
+Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
+Most langauges treat at least their null type(s) and their false type as falsy.
+JS additionally treats empty strings, 0 and NaN as falsy.
+Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
+In perl, context is most often used with the scalar/list distinction.
+scalar() generates a scalar context
+Since (ba)sh doesn't have any types but strings, it needs specific contexts to do certain tings
+math context is required to do math
+math context|$(()), (()) and the command let
+
+<h6>Type annotation keywords</h6>
 
 In general, certain types are generally indicated similarly across programming languages (though there is variation)
 Integers|int|not Rust
@@ -380,66 +454,35 @@ unsigned integer|u|u32, u64, usize,...
 floating-point|f|f32, f64
 size as part of the type annotation (usize, isize) indicates the system word size 
 
-<h4>primitive types in different languages</h4>
-
-C#: int, float, bool, string, char, double
-Java: byte, short, int, long, float, double, char, String, boolean
-Rust: 
-scalar: integer, floating-point numbers, booleans, chars
-Python: integers, floats, complex numbers
-
-<h3>Dynamic vs Static typing</h3>
-
-Dynamic typigng: type checking at runtime ≈ values have type
-Static typing: type checking at compile time ≈ variables have type
-
-Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
-Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust
-
-<h3>Type inference/manifest</h3>
-
-Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
-Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
-Implicit/latent typing  <-> Explicit/manifest typing 
-Type inference is a rough synonym for implict/latent typing, but is often used in contexts where the language is otherwise generally explicitly/manifestly typed.
-Only statically typed languages can usefully be explicitly/manifestly typed
-Type inference in C#: var 
-
-<h3>Conversion, coercion, casting and context (plus truthy/falsiness)</h3>
-
-Context is a term usely used in programming, and with much variation.
-We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
-In python, bool() is said to create a boolean context = convert a value to true or false depending on their truthy/falsiness.
-Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
-Most langauges treat at least their null type(s) and their false type as falsy.
-JS additionally treats empty strings, 0 and NaN as falsy.
-Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
-In perl, context is most often used with the scalar/list distinction.
-scalar() generates a scalar context
-Since (ba)sh doesn't have any types but strings, it needs specific contexts to do certain tings
-math context is required to do math
-math context|$(()), (()) and the command let
-
-<h4>Conversion</h4>
+<h5>Conversion</h5>
 
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
-<h4>Coercion</h4>
+<h5>Coercion</h5>
 
 JS will coerce extensively in the case of operations w/ mismatched types.
 Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
 In contrast, pythons operators rarely coerce.
 
-<h4>Casting</h4>
+<h5>Casting</h5>
 
 !!type|YAML
 (type)|JS
 
-<h3>Firstclassness</h3>
+Type assertions in TS are the equivalent of type casting in other languages.
+In TS, if {{c2::you know something about a type that TS doesn't}}, you can use {{c1::type assertions}}
+TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1::as some_type}}
+
+
+<h4>Firstclassness</h4>
 
 Lua: all values
+
+
+
+
 
 <h3>Symbols</h3>
 
@@ -472,7 +515,7 @@ In JS a type is nullish if it is null or undefined.
 A boolean data type is a type that has one of two possible values, indicating
 truth values.
 
-true/false|C#|Java|JavaScript|Lua|Ruby|TOML|YAML
+true/false|C#|Java|JavaScript|Lua|Ruby|Rust|TOML|YAML
 True/False|Python|(YAML)
 yes/no|YAML
 no boolean type, only truthy/falsiness|Python
@@ -683,6 +726,7 @@ static arrays (one type only)
 array|C#|Java|Rust
 
 static arrays (of whatever types)
+
 tuple|rust
 
 immutable static array (of whatever types)
@@ -759,6 +803,7 @@ in JS, the next() method returns an assoc array {
   done: bool,
   value: ...
 }
+In JS, Array.from() transforms a given iterable into an array. (list() does the same in Python and foo.to_a does it in ruby)
 
 <h4>Generators</h4>
 
@@ -850,7 +895,8 @@ string concatenation is joining strings together into a single string.
 ..|Lua
 +|Java|C#|Python|Ruby|Rust|JS
 .|Perl
-
+.push_str()|Rust (for str + str)
+.push()|Rust (for str + cahar)
 Adjacent string literals are automatically concatenated|Python|Ruby
 
 <h4>String replacement</h4>
@@ -862,6 +908,37 @@ general pattern (replace first instance) ${SOME_STRING_VAR/find/replace}
 /%find/replace|replace if at end of string
 
 <h4>Regex matching</h4>
+
+JS has regex literals: /<regex>/<flags> (which creates a RegExp object)
+and a constructor: new RegExp("regex","flags"), often used if you need to construct the regex dynamically at runtime
+In JS, you can both use methods on strings which take regexes, or methods on RegExp objects which take strings
+The RegExp Object has a property lastIndex which indicates the offset that the RegExp will search for a match at next time (if the regex is global or sticky). This stays the same even if you switch the string in the meantime!
+
+Does the string match the regex?
+RegExpObject.test(string): boolean
+
+RegExpObject.exec(string): {
+  0: wholeMatch, 
+  1: captureGroup1, 
+  2: captureGroup2...,
+  index: indexAtWhichTheMatchBegan,
+  input: origialString
+}
+
+somestr.match() and .matchAll return string matches for a Regex.
+somestr.replace() and .replaceAll replace the regex they got as a first arg with whatever is specified as a second arg, be that a string (using $1 etc. optionally) or a replacerFunction
+The replacerFunction recieves the following arguments:
+match|The matched substring.
+p1, p2, ...|The nth string found by a parenthesized capture group
+offset|The offset of the matched substring within the whole string being examined
+string|The whole string being examined.
+groups|named capture groups
+
+the All() versions of the regex methods of strings both require the regex to be global and throw an error if it isn't.
+
+What somestr.match(regexp) returns depend on whether the regex is global (g) or not:
+If global, match() returns all matches, but no capturing groups. If not global, match() returns the same thing as RegExpObject.exec. matchAll() returns an iterator with individual things that are  the same thing as RegExpObject.exec returns.
+
 
 <h4>common string methods</h4>
 
@@ -890,6 +967,13 @@ separator.join(iterable)|Python
 somearray.join(separator)|JS|Ruby
 
 separator defaults to , for JS and to nothing for Ruby
+
+<h4>JS oddity: tag functions</h4>
+
+Tag functions are functions prefixed to template literals (but not called)
+Tag functions recieve a first argument an array of all constituent string parts of a template literal, and all interpolated values as following arguments.
+Whatever the tag function returns will be what the string evaluates to.
+Tag functions can return whatever.
 
 <h2>operators</h2>
 
@@ -1044,6 +1128,7 @@ Infinity|'number';
 !!342|'boolean';
 "1"|'string';
 
+To test whether sth is an array in JS, you need to use Array.isArray()
 
 <h3>Slicing</h3>
 
@@ -1078,7 +1163,7 @@ length() for strings in perl, merely generating a scalar context is enough for a
 
 <h3>Spread operator/Rest syntax</h3>
 
-Both JS and Ruby have an operator that allows them to do similar things in relation t o arguments and arrays.
+Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
 Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
 
 ...|JS
@@ -1124,6 +1209,13 @@ sub|perl
 
 Callable units can generally be split into method signature and method body. The method signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a method signature contains nothing but the keyword and name
 In java, the method signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
+In JS, function keyword defined callable units generate their own this, while arrow functions do not.
+
+<h3>Declaration</h3>
+
+In most languages, functions can only be declared in statements, however languages that have functions as first-class citizens often also allow declaration via expressions.
+function expressions are generally assigned to variables for later usage.
+JS calls function declarations that are statements function declarations, and function declarations that are expressions function expressions.
 
 <h3>signatures</h3>
 
@@ -1174,6 +1266,15 @@ Arrow functions function similarly to normal js functions, but have a shorter sy
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
 
+<h4>IIFE</h4>
+
+An immediately invoked function expression (IIFE) uses function scoping to create a fake block scope.
+IIFEs were used for the same reasons as block scope is used generally, and preventing hoisting.
+IIFEs generally use anonymous functions.
+in JS IIFEs need to force an expression to be able to immediately invoke it (since a declaration cannot be immediately invoked)
+The most common way to force functions to be expressions is via surrounding them in (), but other ways are possible.
+With the introduction ES6 let and const, IIFEs have become mostly irrelevant.
+
 <h3>Higher-order functions</h3>
 
 A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
@@ -1216,6 +1317,7 @@ never|sh
 
 refer to all passed arguments as an array
 $@|(ba)sh
+arguments|JS (not arrow functions)
 
 In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
 $# gets the amount of arguments passed.
@@ -1231,10 +1333,61 @@ In general, default parameters will also take on the default value if the argume
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 the general syntax is `paramname = defaultval` (within the parameter list)
 
+<h3>Asynchronous callable units</h3>
+
+<h2>Records</h2>
+
+A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. The fields of a record may also be called members.
+A type that defines a record is a record type.
+Most programming languages allow creation of instances of record types.
+
 <h3>Methods</h3>
+
+
+
+<h3>passive data structure</h3>
+
+Use of a data structure that contains fields w/ values, but no other object-oriented features
+
+
+<h3>Structs</h3>
+
+Struct is not an incredibly well-defined term, but is generally a record with the possibility for methods, but not the whole inheritance etc. stuff of classes.
+In rust, struct declarations use the keyword struct.
+Both struct delcarations and initializations in rust use a very assoc-array like syntax.
+struct User { username: String, ...}
+
+<h3>Tagged unions</h3>
+
+A tagged union can hold a value that could take on several different but fixed types.
+A tagged union can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
+What rust calls enums is more properly a tagged union
+
+<h3>Classes & objects </h3>
+
+An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
+
+Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
+
+A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
+A type that only allows one value (only allows a sigleton) is known as a unit type.
+
+reference to the current object/construct
+self|Ruby|Rust
+this|C#|Java|JS
+
+method in lua function object:method(...)
+
+in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
+
+
+<h4>Methods ruby</h4>
 
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
+
+<h4>pure OO</h4>
+
 A pure object oriented language is one where everything is treated as an object.
 There is much discussion on what it means to be 'treated as an object' for pure OO languages, but most commonly, it is at least:
 1) Everything you operate on is a first-class Object
@@ -1246,35 +1399,21 @@ It is a matter of debate which languages are sufficiently pure OO to qualify:
 Ruby, Python, and JS allow methods to be called on pretty much anything, even primitives, since all primitves are boxed.
 Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
 
-<h2>Classes & objects </h2>
-
-Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
-
-A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
-
-reference to the current object/construct
-self|Ruby|Rust
-this|C#|Java|JS
-
-method in lua function object:method(...)
-
-in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
-
-<h3>Inheritance</h3>
+<h4>Inheritance</h4>
 In most programming languages, you refer to your superclass=base class with the keyword <code>super</code>.
 In most programming languages, you specify a subclass/superclass relationship like so: Subclass extends Superclass
 In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
 In C#/Java, making a class final disallows a subclass from inheriting from it.
 In C#/Java, making a method/static function final disallows a subclass from overriding it it.
 
-<h3>abstract & static classes </h3>
+<h4>abstract & static classes </h4>
 
 Abstract classes are generally declared with the abstract keyword. Within abstract classes, methods are also declared with the abstract keyword.
 Both abstract and static classees are not instantiable.
 Abstract classes are designed mainly to be inherited from.
 
 
-<h3>Constructors/object creation</h3>
+<h4>Constructors/object creation</h4>
 
 Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
 
@@ -1282,19 +1421,21 @@ A constructor is generally a callable unit and thus called with ()
 Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
 In C#, Java, the constructor has the same name as the class.
 In Ruby, the constructor is defined by the initialize function within the class (class SomeClass\n  def initialize(...), and called by calling the new() method on the class (SomeClass.new())
+In JS, the constructor is named constructor
 Many languages allow us to declare many different constructors with different arguments.
 Most languages provide a default constructor if you don't provide one, which does nothing besides create the object.
+In JS, you may not use arrow functions as constructors
 
-<h3>static & not </h3>
+<h4>static & not </h4>
 
 static|Java|C#
 
-<h3>type parameters and generics</h3>
+<h4>type parameters and generics</h4>
 
 The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
 Generally, multiple type parameters are separated by , 
 
-<h3>Access modifier</h3>
+<h4>Access modifier</h4>
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
 In Java, members have default accessibility by default.
@@ -1305,14 +1446,14 @@ private|code within the class|Java|C#
 default||Java
 protected||Java
 
-<h3>Getters and setters</h3>
+<h4>Getters and setters</h4>
 
 Ruby syntax:
 def name=(value)...|setter
 
 You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
 
-<h3>Interfaces</h3>
+<h4>Interfaces</h4>
 
 Traits and mixins are pretty similar concepts.
 If a given programming language has syntax for them, generally keyword interface.
@@ -1324,23 +1465,32 @@ Method stubs are method signatures without the implementation, in Java/C#, they 
 
 Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
 
-<h3>OOP</h3>
+<h4>OOP</h4>
 
 C#, Java
 
-<h3>is X an object of Y</h3>
+<h4>is X an object of Y</h4>
 
 someobj instanceof class|JS
 
-<h3>Duplication/Replication</h3>
+<h4>Duplication/Replication</h4>
 
 
 shallow copy
 copy (module copy).copy(foo)|Python
-foo.copy()|Python (only collections)
+foo.copy()|Python (only collections)|Rust
 
 deep copy
 copy (module copy).deepcopy(foo)|Python
+foo.clone()|Rust
+
+<h4>toString()</h4>
+
+Most languages with objects have a tostring function to convert these to strings for debugging purposes.
+It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
+
+toString()|JS
+
 
 <h2>Pragmas</h2>
 
@@ -1352,6 +1502,9 @@ Perls pragma use warnings; causes the perl program to display warnings in certai
 
 Both perl and JS have a strict mode pragma.
 Strict mode pragmas cause programs to fail in certain cases.
+Start strict mode in JS: "use strict";
+in JS, non-strict mode code is called sloppy mode
+In JS, modules and classes are strict by default
 
 <h2>IO</h2>
 
@@ -1405,9 +1558,10 @@ Most languages have a number of things that are automatically imported. Rust cal
 
 <h2>lifecycle</h2>
 
-<h3>The main method</h3>
+<h3>The main function</h3>
 
 public static void main(String[] args)|Java
+main()|rust
 
 <h2>Standard library</h2>
 
@@ -1536,10 +1690,13 @@ start..stop|Rust
 {start..stop..step}|bash
 seq start step stop|sh
 
+<h2>Programming language implementation</h2>
 
+A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
 
+TS compiles to JS via the compiler, interfaced with the cli tsc.
 
-<h2>REPL</h2>
+<h3>REPL</h4>
 
 Python calls being in the repl interactive mode
 the value of the last expression
