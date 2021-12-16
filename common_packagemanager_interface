@@ -18,11 +18,14 @@ macOS|homebrew (command: brew)|macports (command: port)
 (homebrew can also be used on linux, and is written in ruby)
 ruby|bundler (kinda)|RubyGems (command gem)
 
-
 Package manifest
 
 Cargo.toml|cargo
 package.json|npm|yarn
+
+package manifest top-level keys
+dependencies|specify dependencies|Cargo.toml|package.json
+package|general package information|Cargo.toml
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies|bundler|npm
