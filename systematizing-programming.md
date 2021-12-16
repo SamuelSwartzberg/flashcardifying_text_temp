@@ -320,6 +320,48 @@ In JS, a declared but unitialized variable has the value undefined. In most othe
 In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
 Redeclaration may or may not produce an error. In JS, it does not produce an error for var, but does for const and let.
 
+<h3>assignment</h3>
+
+= is used as the assignment operator in most programming languages
+sh is special in its assignment operator, since it does not allows spaces on either side
+SCSS/Sass uses : as the assignment operator.
+In most languages, assignment expressions evaluate to the value assigned.
+Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
+
+<h4>Destructuring</h4>
+
+Destructuring is binding variables to values in a way that does not correspond to the 1 variable - 1 value pattern
+
+In many languages, the comma can be used for multiple assignment, most commonly like so:
+a, b = 1, 2|Python|Ruby
+This is often a form of destructuring under the hood.
+
+[var1, var2] = [value1, value2] or preexisting array|JS|Python
+var1, var2 = [value1, value2] or preexisting array |Python|Ruby
+
+In general, you can destructure that language's linear collections (esp. if primitive) and iterables.
+In JS you can also destructure the assoc array structure.
+Destructuring an array(like) requires array delimiters ([]) in JS, python doesn't want any delimiters, and python wants a tuple, which may mean no delimiters or () if needed for nesting etc.
+use normal default value syntax to assign default values in array destructuring|JS only
+combine spread syntax/splat operator w/ destructuring|JS|Ruby|Python
+var1, *var2 = [1,2,3]
+[var1, ...var2] = [1, 2, 3];
+=> var2 = [2, 3]
+Ignore a single value in destructuring
+, (e.g. var1,,var2)|JS
+_, (e.g. var1,_,var2)|Python|Ruby
+
+Ignore multiple values in destructuring
+*_, (e.g. var1,_*,var2 )|Python|ruby
+Not possible|JS
+
+nested destructuring
+((target, _), _) = [["foo", "bar"], "baz"]|Python
+[[target]] = [["foo", "bar"], "baz"] |JS
+not possible|ruby
+
+Destructuring can be a cheeky way to swap variables
+
 
 <h3>Sigils<h3>
 
@@ -388,6 +430,7 @@ Java: byte, short, int, long, float, double, char, String, boolean
 JS: Number, boolean, null, undefined, string, object, array
 Rust: 
 scalar: integer, floating-point numbers, booleans, chars
+nonscalar: tuple, array
 Python: integers, floats, complex numbers
 
 
@@ -536,6 +579,13 @@ Number.isNaN(num)|JS (true only for NaN)
 checking for finity
 Number.isFinite(num)|JS (false for all non-numbers and NaN/Infinity)
 
+<h4>Overflow</h4>
+
+If a numeric type has arbitrary precision, it can store (nearly) infinitely large numbers (it will in practice be limited by the memory the application can get from the OS)
+overflow/underflow occurs when a numeric value is to large/small for its container.
+Numeric types either have arbitrary precsion, are subject to overflow/underflow, or need to throw an error if a calculation exeeds the size limit of a numeric type.
+Rust throws an error in overflow/underflow scenarios when debugging, and wrap otherwise.
+
 <h4>Integers</h4>
 
 Integer literals generally not overtly marked
@@ -643,6 +693,8 @@ get array/iterator of keys
 keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
 values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
 Object.keys(someobj)|JS
+
+Amusingly, JS doesn't have the keys() and values() functions for its assoc array type (objects), but does have them for arrays
 
 merge two assoc. arrays
 map-merge(foo, bar)|SCSS/Sass
@@ -754,7 +806,7 @@ static arrays (of diffent types)
 
 immutable static array (of whatever types)
 
-()|SASS/Scss|Python
+()|SASS/Scss|Python (Though in python in reality it is the comma that creates a tuple. the parentheses are just often needed for grouping)
 []|TOML|YAML (if inline)
 
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
@@ -816,6 +868,10 @@ Returning the current iterator element
 yield|JS
 
 yield another generator (JS) yield*
+
+<h3>chars</h3>
+
+In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
 <h3>Strings<h3>
 
@@ -989,14 +1045,6 @@ Parentheses can modify the order of operations just as in math.
 The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
 In liquid, the order of operatons is right to left, parentheses are forbidden.
 
-<h3>assignment</h3>
-
-= is used as the assignment operator in most programming languages
-sh is special in its assignment operator, since it does not allows spaces on either side
-SCSS/Sass uses : as the assignment operator.
-In most languages, assignment expressions evaluate to the value assigned.
-Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
-
 <h3>relational opearators</h3>
 
 In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
@@ -1087,8 +1135,6 @@ The increment and decrement operators behave differently based on their position
 <h3>comma</h3>
 
 In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type).
-In many languages, the comma can be used for multiple assignment, most commonly like so:
-a, b = 1, 2|Python|Ruby
 
 <h3>element in collection/substring in string?</h3>
 
@@ -1290,7 +1336,19 @@ In many programming languages, map is the name of a higher-order function that a
 
 <h4>sort</h4>
 
+Sort is a higher-order function that takes a function which itself takes two arguments. Depending on the language, return values are handled differently.
+JS function must return value smaller 0 if the first argument is to be first, larger 0 if the second argument is to be first, and 0 if it should not reorder.
+The sort function passed must be deterministic.
+In many languages, sort sorts with a predefined sorting algorithm if no sorting function is provided
+In some languages sort does not take a sorting function, instead only using the predefined sorting algorithm, in those languages sort is not a higher-order function.
+
+sorted(foo)|Python (takes an iterable)
+foo.sort()|JS (takes an optional sort function, only Arrays)
+
 <h4>filter</h4>
+
+Filter is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
+filter()|JS
 
 <h4>reduce</h4>
 
@@ -1300,6 +1358,11 @@ The reducer function return a single value.
 In effect, the reducer function applies an operation to the current element, and the accumulated result of all other elements.
 Many languages allow specifying a 'previous result' element for the first time the reducer function runs, as there will not be one.
 js has the variant reduceRight that starts from the end
+reduce()|JS|Ruby|Python
+
+<h4>some/</h4>
+
+some is a higher order-function that takes a function and returns true if the passed function returns true even once.
 
 <h3>Arguments<h3>
 
@@ -1507,6 +1570,10 @@ Strict mode pragmas cause programs to fail in certain cases.
 Start strict mode in JS: "use strict";
 in JS, non-strict mode code is called sloppy mode
 In JS, modules and classes are strict by default
+In JS, strict mode applies to the whole file if it's the first statement if the file, and to the whole function if it's the first statement in the function
+
+Strict mode in JS:
+- reserves certain keywords (for future proofing)
 
 <h2>IO</h2>
 
@@ -1528,18 +1595,30 @@ PEP 8|Python
 
 <h2>import/export</h2>
 
-Packages and modules are often synonyms.
+A module is as self-contained set of code, most commonly in a single file of code.
+Packages and modules are sometimes synonyms.
+conta
 In python, a package is a collection of modules (and perhaps other packages).
 In python, each .py file is a module.
 A package must contain a __init__.py file
+
+If you want to import/export multiple members, most languages have the syntax {member1 [as name1], member2 [as name2], ...}
+Import/export anything uses * in most languages
+in JS, you can only import/export within modules.
+
+<h3> Importing</h3>
+
+In most languages, you can only import things that were first exported.
 In most languages, import statements must be in the beginning of the file.
+In most languages, you may only export top-level items.
 Import statements have the general syntax
 
-import <member> as <name> from <path>
+import <members> [as <name>] from <path>
+in JS you can leave out <members> from if you only want the side effects
 
-Python instead has the order from <path> import <member> as <name>
+Python instead has the order from <path> import <members> [as <name>]
 
-Import anything|*|Python
+
 
 SCSS/Sass 
 
@@ -1553,10 +1632,16 @@ CommonJS is {{c1::a module ecosystem}} mainly used by node
 
 let/var/const <name> = require(<path>)
 
-<h3>prelude</h3>
+<h4>prelude</h4>
 
-Most languages have a number of things that are automatically imported. Rust calls this prelude.
+Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
 
+<h3>exporting</h3>
+
+In most languages, exporting is required so they can then be imported.
+General syntax: export <members> [as <name>]
+
+<h4>default exports</h4>
 
 <h2>lifecycle</h2>
 
@@ -1617,9 +1702,8 @@ Number.isInteger(foo)|JS
 Get documentation information on the thing
 help(foo)|Python
 
-Sort the thing
-sorted(foo)|Python (takes an iterable)
-foo.sort()|JS (takes an optional sort function, only Arrays)
+Sort the thing 
+
 
 Move remove the first argument and shift all arguments one to the left
 shift|Perl|sh
@@ -1756,6 +1840,8 @@ In HTML, & acts as a/the escape character.
 Liquid is rare in that escape sequences don't exist at all.
 Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.
 Besides character quoting, escape sequences are often used for characters that cannot (easily) be typed on a keywboard.
+Escape sequences for unicode codepoints:
+\uXXXX|JS
 
 The most common escape sequences (not character quoting)
 \n|new line|LF|0x0A|any newline character
