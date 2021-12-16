@@ -1,0 +1,122 @@
+S ::= {<statement>}
+statement ::= <ruleset>|<at-rule>
+ruleset ::= <selector-group><declaration-block>
+rulesets are less properly but more commonly called rules
+selector-group ::= <selector>{,<selector>}
+declaration-block ::= \{{<declaration>}\}
+declaration :: <property>:<value>; // Technically, the ; is not a part of the declaration, since it only separates and does not terminate declarations. Therefore you can leave out the final semicolon of a declaration block, though this is generally not advised. This would overcomplicate the ENBF, so here this note.
+<img src="sm_tmpyk7c4jes.png">
+
+style as a HTML attribute takes n declarations
+
+## Selectors
+
+### Selectors
+
+#### Basic types
+
+Syntax of universal selector ::= *
+the universal selector matches everything
+Syntax of type selector ::= <name>
+the type selector matches any element with the given nodename (so foo will match any <foo>)
+Syntax of class selector ::= .<name>
+The class selector matches any element with the given class
+Syntax of id selector ::= #<name>
+The id selector matches any element with the given ID
+The attribute selector matches any element where a certain attribute is a certain way.
+Syntax of attribute selector ::= \[<attr>[<operator><alue>]\]
+no operator (and no value) [<attr>]|just elements with attribute present
+= [attr=value]|attr is exactly value
+~= [attr~=value]|attr is a whitespace-separated list of words, one of which is exactly value.
+bar= [attrbar=value]attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
+^= [attr^=value]| begins with value
+$= [attr$=value]|ends with value
+*= [attr*=value]|contains value at some point
+
+Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).
+
+#### Combinators
+
+#### The Grouping selector
+
+#### Pseudo-classes
+
+#### Pseudo-elements
+
+::after, ::before
+
+### 'Power'
+
+#### Source type
+
+#### Specificity
+
+Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
+Specificity is beaten by source type.
+Specificity is tiered. 
+Each specifier on a tier gains you one point on the specificity scale.
+
+3rd lowest|id selectors
+2nd lowest|class selectors|attribute selectors|pseudo-class selectors
+lowest|element selectors|pseudo-element selectors
+
+## Declarations
+
+### Properites and Values
+
+#### inherited, initial, etc.
+
+any property is inherited or not in its behavior when no value is assigned
+inherited properties default to inheriting
+non-inherited properties default to the initial value
+some initial values are unintuitive, since we rarely see them, as they are typically overwritten by UA stylesheets
+On the root element, even inherited properties recieve their initial values if not otherwise specified.
+Keyword inherit/initial to force the inherited/initial value.
+unset: choose between inherit and initial based on if the thing is inherited or non-inherited
+
+#### css variables
+
+Declaration: --var-name: value;
+Accessing: var(--var-name)
+
+#### Props
+
+`cursor` sets how the cursor looks when mousing over (generally irrelevant for touchscreens).
+`cursor` value syntax {<url> <x> <y>,} <keyword>
+When specifying an url() for cursor, the x and y values specify the offset in px of the hotspot of the cursor
+`cursor: none` hides the cursor.
+`cursor: default` shows the platform-default cursor.
+Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
+
+##### word-break, overflow-wrap
+
+##### width, height
+
+width and height each have corresponding min- and max- properties
+
+
+##### flexbox & grid
+
+Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
+The thing that has display:flex/inline-flex/grid/inline-grid is called flex/grid container.
+
+#### Values
+
+##### Functions
+
+CSS functional notation is a type of CSS value that can represent more complex data types or invoke special data processing or calculations.
+The syntax of CSS functional notation is: <name>\([<argument> {(,| ) <argument>}]\)
+
+url()
+
+##### offsets
+
+generally from the top left corner
+
+
+
+
+
+
+
+## at-rules
