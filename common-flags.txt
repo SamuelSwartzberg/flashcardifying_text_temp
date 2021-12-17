@@ -1,0 +1,25 @@
+-o PATH|generally short for/equiv to --out or --output
+-O|output to current directory with same name (curl, wget)
+-(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT)|curl, say, youtube-dl
+--progress|show an indicator of progress|say
+-f|generally short for/equiv to --file
+--file FILE|Use the file as input|say
+-t SECONDS|Specify a length of caffeination in seconds|caffeinate (macOs only)
+-r|generally short for/equiv to --recursive
+--recursive
+-v|generally short for/equiv to --verbose or --version more rarely for --voice
+--voice VOICE|speak whaterver with the relevant voice (generally only for things on mac that can use `say` in the background)
+--verbose|verbose output
+--version|show the version
+-h|generally short for/equiv to --human-readable
+--human-readable|human readable output
+-i|generally short for/equiv to --interactive, may also be short for --in-place or --include
+--include|
+--interactive|prompt before doing something
+--in-place|edit in-place, i.e. don't emit an extra file
+-n|amount of something
+-d|prevent display from sleeping|caffeinate (macOs only)
+
+In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
+In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
+{{c1::}}
