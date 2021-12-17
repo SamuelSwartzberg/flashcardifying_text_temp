@@ -1,0 +1,69 @@
+<table>
+  <thead>
+    <th>hiragana</th>
+    <th>IPA</th>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::あ))</td> <td>((c:2;::<span class="ipa">a</span>))</td></tr>
+<tr><td>((c:3;::あ (after <span class="ipa">a</span>)))</td> <td>((c:4;::<span class="ipa">a</span>))</td></tr>
+<tr><td>((c:5;::い))</td> <td>((c:6;::<span class="ipa">i</span>))</td></tr>
+<tr><td>((c:7;::い (after <span class="ipa">i</span>)))</td> <td>((c:8;::<span class="ipa">i</span>))</td></tr>
+<tr><td>((c:9;::う (after <span class="ipa">o</span>)))</td> <td>((c:10;::<span class="ipa">o</span>))</td></tr>
+<tr><td>((c:11;::う))</td> <td>((c:12;::<span class="ipa">u͍</span>))</td></tr>
+<tr><td>((c:13;::う (after <span class="ipa">u͍</span>)))</td> <td>((c:14;::<span class="ipa">u͍</span>))</td></tr>
+<tr><td>((c:15;::え))</td> <td>((c:16;::<span class="ipa">e</span>))</td></tr>
+<tr><td>((c:17;::お))</td> <td>((c:18;::<span class="ipa">o</span>))</td></tr>
+<tr><td>((c:19;::お (after <span class="ipa">o</span>)))</td> <td>((c:20;::<span class="ipa">o</span>))</td></tr>
+<tr><td>((c:21;::か))</td> <td>((c:22;::<span class="ipa">ka</span>))</td></tr>
+<tr><td>((c:23;::が))</td> <td>((c:24;::<span class="ipa">ga</span>))</td></tr>
+<tr><td>((c:25;::き))</td> <td>((c:26;::<span class="ipa">kʲi</span>))</td></tr>
+<tr><td>((c:27;::きょ))</td> <td>((c:28;::<span class="ipa">kʲo</span>))</td></tr>
+<tr><td>((c:29;::く))</td> <td>((c:30;::<span class="ipa">ku͍</span>))</td></tr>
+<tr><td>((c:31;::け))</td> <td>((c:32;::<span class="ipa">ke</span>))</td></tr>
+<tr><td>((c:33;::こ))</td> <td>((c:34;::<span class="ipa">ko</span>))</td></tr>
+<tr><td>((c:35;::さ))</td> <td>((c:36;::<span class="ipa">sa</span>))</td></tr>
+<tr><td>((c:37;::し))</td> <td>((c:38;::<span class="ipa">ɕi</span>))</td></tr>
+<tr><td>((c:39;::しゃ))</td> <td>((c:40;::<span class="ipa">ɕa</span>))</td></tr>
+<tr><td>((c:41;::じ))</td> <td>((c:42;::<span class="ipa">ʥi</span>))</td></tr>
+<tr><td>((c:43;::す))</td> <td>((c:44;::<span class="ipa">su͍</span>))</td></tr>
+<tr><td>((c:45;::せ))</td> <td>((c:46;::<span class="ipa">se</span>))</td></tr>
+<tr><td>((c:47;::そ))</td> <td>((c:48;::<span class="ipa">so</span>))</td></tr>
+<tr><td>((c:49;::た))</td> <td>((c:50;::<span class="ipa">ta</span>))</td></tr>
+<tr><td>((c:51;::ち))</td> <td>((c:52;::<span class="ipa">ʨi</span>))</td></tr>
+<tr><td>((c:53;::っ))</td> <td>((c:54;::<span class="ipa"></span>))</td></tr>
+<tr><td>((c:55;::つ))</td> <td>((c:56;::<span class="ipa">ʦu͍</span>))</td></tr>
+<tr><td>((c:57;::て))</td> <td>((c:58;::<span class="ipa">te</span>))</td></tr>
+<tr><td>((c:59;::と))</td> <td>((c:60;::<span class="ipa">to</span>))</td></tr>
+<tr><td>((c:61;::な))</td> <td>((c:62;::<span class="ipa">na</span>))</td></tr>
+<tr><td>((c:63;::に))</td> <td>((c:64;::<span class="ipa">nʲi</span>))</td></tr>
+<tr><td>((c:65;::ぬ))</td> <td>((c:66;::<span class="ipa">nu͍</span>))</td></tr>
+<tr><td>((c:67;::ね))</td> <td>((c:68;::<span class="ipa">ne</span>))</td></tr>
+<tr><td>((c:69;::の))</td> <td>((c:70;::<span class="ipa">no</span>))</td></tr>
+<tr><td>((c:71;::は))</td> <td>((c:72;::<span class="ipa">ha</span>))</td></tr>
+<tr><td>((c:73;::は (as a particle)))</td> <td>((c:74;::<span class="ipa">w͍a</span>))</td></tr>
+<tr><td>((c:75;::ひ))</td> <td>((c:76;::<span class="ipa">çi</span>))</td></tr>
+<tr><td>((c:77;::び))</td> <td>((c:78;::<span class="ipa">bʲi</span>))</td></tr>
+<tr><td>((c:79;::ふ))</td> <td>((c:80;::<span class="ipa">ɸu͍</span>))</td></tr>
+<tr><td>((c:81;::へ (as a particle)))</td> <td>((c:82;::<span class="ipa">e</span>))</td></tr>
+<tr><td>((c:83;::へ))</td> <td>((c:84;::<span class="ipa">he</span>))</td></tr>
+<tr><td>((c:85;::ほ))</td> <td>((c:86;::<span class="ipa">ho</span>))</td></tr>
+<tr><td>((c:87;::ぽ))</td> <td>((c:88;::<span class="ipa">po</span>))</td></tr>
+<tr><td>((c:89;::ま))</td> <td>((c:90;::<span class="ipa">ma</span>))</td></tr>
+<tr><td>((c:91;::み))</td> <td>((c:92;::<span class="ipa">mʲi</span>))</td></tr>
+<tr><td>((c:93;::む))</td> <td>((c:94;::<span class="ipa">mu͍</span>))</td></tr>
+<tr><td>((c:95;::め))</td> <td>((c:96;::<span class="ipa">me</span>))</td></tr>
+<tr><td>((c:97;::も))</td> <td>((c:98;::<span class="ipa">mo</span>))</td></tr>
+<tr><td>((c:99;::や))</td> <td>((c:100;::<span class="ipa">ja</span>))</td></tr>
+<tr><td>((c:101;::ゆ))</td> <td>((c:102;::<span class="ipa">ju͍</span>))</td></tr>
+<tr><td>((c:103;::よ))</td> <td>((c:104;::<span class="ipa">jo</span>))</td></tr>
+<tr><td>((c:105;::ら))</td> <td>((c:106;::<span class="ipa">ɽa</span>))</td></tr>
+<tr><td>((c:107;::り))</td> <td>((c:108;::<span class="ipa">ɽʲi</span>))</td></tr>
+<tr><td>((c:109;::る))</td> <td>((c:110;::<span class="ipa">ɽu͍</span>))</td></tr>
+<tr><td>((c:111;::れ))</td> <td>((c:112;::<span class="ipa">ɽe</span>))</td></tr>
+<tr><td>((c:113;::ろ))</td> <td>((c:114;::<span class="ipa">ɽo</span>))</td></tr>
+<tr><td>((c:115;::わ))</td> <td>((c:116;::<span class="ipa">w͍a</span>))</td></tr>
+<tr><td>((c:117;::を))</td> <td>((c:118;::<span class="ipa">o</span>))</td></tr>
+<tr><td>((c:119;::ん))</td> <td>((c:120;::<span class="ipa">ɴ</span>))</td></tr>
+  </tbody>
+</table>
+<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}</span>

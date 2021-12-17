@@ -1,0 +1,124 @@
+Katakana Hiragana Typical IPA reading Exceptions
+((c:1;::ア)) ((c:1;::あ)) ((c:2;::a))
+((c:3;::イ)) ((c:5;::い)) ((c:4;::i)) ((c:5;::イ)) ((c:6;::ij)) ((c:7;::between two vowels))
+((c:8;::ウ)) ((c:11;::う)) ((c:9;::u͍)) ((c:10;::ウ)) ((c:11;::w͍)) ((c:12;::sometimes after vowel in preceding word)) ((c:9;::う (after o))) ((c:10;::o))
+((c:13;::エ))((c:15;::え))  ((c:14;::e))
+((c:15;::オ)) ((c:17;::お)) ((c:16;::o))
+((c:17;::カ)) ((c:21;::か)) ((c:18;::ka))
+((c:19;::ガ)) ((c:23;::が)) ((c:20;::ga))
+((c:21;::キ)) ((c:25;::き)) ((c:22;::ki)) ((c:23;::キ)) ((c:24;::kʲi))
+((c:25;::キュ)) ((c:26;::kʲu))
+((c:27;::ギ)) ((c:28;::gi))
+((c:29;::ギャ)) ((c:30;::gʲa))
+   ((c:27;::きょ)) ((c:28;::kʲo))
+((c:34;::ク)) ((c:29;::く)) ((c:35;::ku͍))
+((c:36;::ケ)) ((c:31;::け)) ((c:37;::ke))
+((c:38;::コ)) ((c:33;::こ)) ((c:39;::ko))
+((c:40;::ゴ)) ((c:41;::go))
+((c:42;::サ)) ((c:35;::さ)) ((c:43;::sa))
+((c:44;::シ)) ((c:37;::し)) ((c:45;::ɕi))
+((c:46;::シェ)) ((c:47;::ɕe))
+((c:48;::シャ)) ((c:39;::しゃ)) ((c:49;::ɕa))
+((c:50;::ジ)) ((c:41;::じ)) ((c:51;::ʥi))
+((c:52;::ジャ)) ((c:53;::ʥa))
+((c:54;::ジョ)) ((c:55;::ʥo))
+((c:59;::ス)) ((c:43;::す)) ((c:60;::su͍)) 
+((c:61;::ズ)) ((c:62;::zu͍))
+((c:63;::セ)) ((c:45;::せ)) ((c:64;::se))
+((c:65;::ソ)) ((c:47;::そ)) ((c:66;::so))
+((c:67;::タ)) ((c:49;::た)) ((c:68;::ta))
+((c:69;::ダ)) ((c:70;::da))
+((c:71;::チ)) ((c:51;::ち)) ((c:72;::ʨi))
+((c:73;::チュ)) ((c:74;::ʨu͍))
+((c:75;::ヂ)) ((c:76;::ʥi))
+((c:77;::ッ)) ((c:53;::っ)) ((c:78;::reduplication)) ((c:79;::before consonant)) ((c:191;::ʔ)) ((c:192;::at the end of word))
+((c:121;::づ)) ((c:121::zu͍))
+((c:80;::ツ)) ((c:55;::つ)) ((c:81;::ʦu͍))
+((c:82;::ツァ)) ((c:83;::tsa))
+((c:84;::ツィ)) ((c:85;::tsi))
+((c:86;::テ)) ((c:57;::て)) ((c:87;::te))
+((c:88;::ト)) ((c:59;::と)) ((c:89;::to))
+((c:90;::トゥ)) ((c:91;::tu͍))
+((c:92;::ド)) ((c:93;::do))
+((c:94;::ナ)) ((c:61;::な)) ((c:95;::na))
+((c:96;::ニ)) ((c:63;::に)) ((c:97;::nʲi))
+((c:98;::ニュ)) ((c:99;::nʲu͍))
+((c:100;::ヌ)) ((c:65;::ぬ)) ((c:101;::nu͍))
+((c:102;::ネ)) ((c:67;::ね)) ((c:103;::ne))
+((c:104;::ノ)) ((c:69;::の)) ((c:105;::no))
+((c:106;::ハ)) ((c:71;::は)) ((c:107;::ha)) ((c:109;::w͍a)) ((c:110;::as topic marking particle))
+((c:111;::バ)) ((c:112;::ba))
+((c:113;::パ)) ((c:114;::pa))
+((c:115;::ヒ)) ((c:75;::ひ)) ((c:116;::çi))
+((c:117;::ヒュ)) ((c:118;::çu͍))
+((c:119;::ビ)) ((c:120;::bʲi))
+((c:121;::ビュ)) ((c:122;::bʲu͍))
+   ((c:77;::び))    
+((c:123;::ピュ)) ((c:124;::pʲu͍))
+((c:125;::フ)) ((c:79;::ふ)) ((c:126;::ɸu͍))
+((c:127;::フェ)) ((c:128;::ɸe))
+((c:129;::フォ)) ((c:130;::ɸo))
+((c:131;::ブ)) ((c:132;::bu͍))
+((c:133;::プ)) ((c:134;::pu͍))
+((c:138;::ヘ)) ((c:83;::へ)) ((c:139;::he)) ((c:136;::e)) ((c:137;::as direction marking particle))
+((c:140;::ペ)) ((c:141;::pe))
+((c:142;::ホ)) ((c:85;::ほ)) ((c:143;::ho))
+((c:144;::ボ)) ((c:87;::ぽ)) ((c:145;::bo))
+((c:146;::マ)) ((c:89;::ま)) ((c:147;::ma))
+((c:148;::ミ)) ((c:91;::み)) ((c:149;::mʲi))
+((c:150;::ミュ)) ((c:151;::mʲu͍))
+((c:152;::ム)) ((c:93;::む)) ((c:153;::mu͍))
+((c:154;::メ)) ((c:95;::め)) ((c:155;::me))
+((c:156;::モ)) ((c:97;::も)) ((c:157;::mo))
+((c:158;::ヤ)) ((c:99;::や)) ((c:159;::ja))
+((c:160;::ユ)) ((c:101;::ゆ)) ((c:161;::ju͍))
+((c:162;::ヨ)) ((c:103;::よ)) ((c:163;::jo))
+((c:164;::ラ)) ((c:105;::ら)) ((c:165;::ɽa))
+((c:166;::リ)) ((c:107;::り)) ((c:167;::ɽʲi))
+((c:168;::リュ)) ((c:169;::ɽʲu͍))
+((c:170;::ル)) ((c:109;::る)) ((c:171;::ɽu͍))
+((c:172;::レ)) ((c:111;::れ)) ((c:173;::ɽe))
+((c:174;::ロ)) ((c:113;::ろ)) ((c:175;::ɽo))
+((c:176;::ワ)) ((c:115;::わ)) ((c:177;::w͍a))
+((c:178;::ヲ)) ((c:117;::を)) ((c:179;::o))
+((c:180;::ン)) ((c:119;::ん)) n-like 
+((c:188;::ー)) ((c:189;::ː))
+
+
+What sound do japanese non-moraic n-syllables produce? (e.g. なねにのぬ）  [n] (exept for ni, which of course procudes [n<sup>j</sup>i], which is more properly [ɲ̟i])
+
+
+When can you devoice [i] or [u͍] (in japanese)? <span class="divider">-></span> {{c1::inbetween two voiceless consonants, and after a voiceless consonant at the end of a word}}
+ ((c:32;::ku̥)) ((c:33;::next syllable starts with voiceless consonant, or end of word)) ((c:57;::su̥)) ((c:58;::next syllable starts with voiceless consonant, or end of word))
+If two syllables are devoiceable in a row...  only the first one will devoice.
+
+Instead of using spellings with ヴ, what do words often use?   Spellings with /b/, e.g. バ, ビ, etc.
+When are spellings including ヴ used?  To emphasize that the word was spelled with V originally
+ヴ   vu
+ヴァ   va
+ヴィ   vi
+バイオリン   ヴァイオリン
+
+ん・ン 
+at the end of a word (and in isolation) [ɴ]
+before dentals/alveolars/postalveolars [n]
+before velars [ŋ]
+before bilabials [m]
+before dental affricates and itself  ɲ
+before anything else  a nasal semivowel ɰ̃ (Basically [ɴ] without the uvular close)
+
+
+Which consonant is not doubled by っ?  /n/
+
+
+FF claims that [e]+い doesn't produce [ee] in two mora words, but I'm not sure about that
+
+
+{{c2::Japanese and spanish}} {{c1::[o], [e], [i]}} {{c3::are quite similar}}
+
+
+
+
+
+
+

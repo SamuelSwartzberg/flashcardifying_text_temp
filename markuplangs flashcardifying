@@ -1,0 +1,37 @@
+bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
+italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
+emphasize (generally via italics)|\emph{}|&lt;em>|N/A
+underline|\underline{}|&lt;u>|N/A
+strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
+hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
+hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
+block quotation of foo||&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
+Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
+inline source code||&lt;code>|``
+create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
+Heading (level one) "foo"||&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"||&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"||&lt;h3>foo&lt;/h3>|### foo 
+Heading (level six) "foo"||&lt;h6>foo&lt;/h6>|###### foo 
+A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
+a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
+ordered list|enumerate environment|&lt;ol>
+unordered list|itemize environment|&lt;ul>
+list item|\item|&lt;li>
+description list|\description|&lt;dl>
+Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
+image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
+horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
+superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
+subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
+
+non-breaking space|\nonbreakspace or ~|&amp;nbsp;
+ampersand||&amp;amp;
+non-breaking hyphen|"~
+soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;
+"=
+
+hyperref|create links automatically and \href, \url commands
+
+
+nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
