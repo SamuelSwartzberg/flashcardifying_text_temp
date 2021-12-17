@@ -159,7 +159,7 @@ Collection-controlled loops are commonly called foreach loops.
   JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
   for (<variable> of <iterable>) ...
   SCSS: @each <variable> in  <iterable>
-Some languages have collection-controlled loops that are called as methods on a collection or iterable
+Some languages have collection-controlled loops that are called as methods on a collection or iterable (these are higher-order fucntions)
 iterable/enumerable.each(block)|Ruby
 somearr.forEach(anonFunc)|JS
 
@@ -301,6 +301,9 @@ the scope of a name binding is the part of a program where the name binding is v
 
 <h4>Shadowing</h4>
 
+Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
+Variable masking/shadowing is name shadowing involving variables
+
 <h4>Variable Keywords</h4>
 
 Block-scoped variables
@@ -317,6 +320,7 @@ Function-scoped variables
 var|JS
 
 Variable scope in python is not determined by keyword but by context.
+In JS, variables declared without a keyword become properties of the global object
 
 
 <h4>Hoisting</h4>
@@ -418,6 +422,11 @@ not possible|ruby
 
 Destructuring can be a cheeky way to swap variables
 
+When destructuring out of assoc arrays in js, this looks like
+
+{nameofkey: nameofvariableyouwantthevaluetoendupin} = {nameofkey: value}
+If the nameofkey and the nameovariableyouwantthevariabletoendupin are the same, you can do:
+{nameofkey} = {nameofkey:value}
 
 <h3>Sigils<h3>
 
@@ -610,6 +619,7 @@ A top type is the supertype of every othe type.
 Any value can be assigned to the top type.
 A bottom type is the subtype of every other type.
 No value can be assigned to the bottom type.
+Using the bottom type is useful when you want to specify a value with which you can do truly nothing.
 
 A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
 
@@ -710,6 +720,8 @@ In Java and C#, to indicate a float literal you must add f as a suffix. any numb
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
 TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
 
+<h3>enums</h3>
+
 Enum is short for enumeration or enumerated datatype.
 An enum is a datatype that can take on one of a finite set of values.
 In stats terms, an enum is a categorical variable.
@@ -723,6 +735,7 @@ C#, Java enum syntax: enum &lt;name> {
   ...
 }
 In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum variants
+We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
 
 
 <h3>Collections</h3>
@@ -730,12 +743,17 @@ In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum varian
 Collections are an abstract data type that hold a number of data items.
 Python calls its data structures that represent collection ADTs, well, collections.
 Associative collections map keys to values. 
+Js sets and maps use .size instead of .length
 
 <h4>Collection methods</h4>
 
 Clear a mutable collection
-clear()|not JS|Python|Ruby
+foo.clear()|not JS|Python|Ruby
 
+Flatten a nested thing ([[1]].flat() => [1])
+foo.flat(depth)|JS
+foo.flatten(dept)|Ruby
+nothing in py
 
 <h4>Non-linear collections</h4>
 
@@ -745,7 +763,7 @@ Python: dictionary, set (and frozenset)
 
 ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
-JS: class Set, create via new Set(), add(), has(), .size, 
+JS: class Set, create via new Set(), add(), has()
 
 <h3>Set operations</h3>
 
@@ -785,6 +803,7 @@ SCSS/SASS: Calls them maps, keyval sep :, () literals (same as arrays)
 
 adding a key, value pair
 .Add(key, value)|C#
+.set()|JS (map only)
 
 deleting key
 set it to null type|lua
@@ -792,6 +811,9 @@ set it to null type|lua
 Retrieval function
 get()|Rust
 
+Set a key to a value
+[key] = value|most languages if primitive
+insert(key, value)|Rust
 
 Has key? 
 key?|Ruby
@@ -802,19 +824,21 @@ value?|Ruby
 get array/iterator of key, value tuple/array/whatever:
 pairs()|lua
 items()|Python
+entries()|JS (map only)
 
 get array/iterator of keys
 keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
 values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
 Object.keys(someobj)|JS
 
-Amusingly, JS doesn't have the keys() and values() functions for its assoc array type (objects), but does have them for arrays
+Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
 
 merge two assoc. arrays
 map-merge(foo, bar)|SCSS/Sass
 
 commonly items are separated by ,
 
+Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
 
 <h4>Linear collections/ADTs</h4>
 
@@ -848,6 +872,10 @@ somelincoll.remove(elem)|Python
 insert an element at a specific position
 somelincoll.insert(elem, index)|JS
 
+Fill the thing with the specified element
+somelincol.fill(element[, start[, range]])|JS|Ruby
+In Ruby, fill also may take a block to calculate the element to fill it.
+
 The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
 Most commonly, pop/shift returns the element removed, while push/unshift returns the new length.
 Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/push but for the beginning of the array.
@@ -855,6 +883,8 @@ Python extends the pop method to all collections, but it generally works weirdly
 someset.pop()|a random element
 someassocarray.pop(somekey)|the relevant value
 somearr.pop(index)
+
+somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
 
 <h5>Strings as linear collections</h5>
 
@@ -935,6 +965,7 @@ In sh, referring to the whole array requires a special syntax my_array[@] which 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
+In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
 
 <h5>Lists</h5>
 
@@ -1127,7 +1158,7 @@ does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
 remove whitespace from beginning and end of string|trim()|JS, Ruby
 remove whitespace from beginning of string|trimStart()/trimLeft()|JS
 remove whitespace from end of string|trimStart()/trimLeft()|Ruby
-split string on foo|.split(foo)|Python
+split string on foo|.split(foo)|Python|JS(empty string for char array)
 
 <h4>String replacement</h4>
 
@@ -1351,6 +1382,7 @@ throw|JS|Java|C#
 error()|lua
 @error|SCSS?Sass
 raise|Ruby
+panic!()|Rust
 
 <h3>Error handling control structures</h3>
 
@@ -1358,6 +1390,15 @@ most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; f
 In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
+
+<h3>assert</h3>
+
+Assertions are predicates that deliberatly crash the program if the predicate is false.
+Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
+Assertions are typically only used during development.
+Rust implements assertions via macros.
+rusts {{c1::assert_eq!}} macro tests wheter {{c2::two expressions are equal}} (using the trait {{c2::PartialEq}}), and {{c3::panics if they are not}}
+rusts {{c1::assert!}} macro tests whether {{c2::something is true}}, and {{c3::panics if it is not}}
 
 <h2>Callable units</h2>
 
@@ -1397,7 +1438,10 @@ In Rust, using the return keyword is frowned upon, as blocks return their final 
 
 <h3>Closures</h3>
 
+A {{c1::closure}} is the combination of {{c2::a callable unit}} and {{c3::the lexical environment}} (= {{c4::any variables that were in scope}}) within which that function was declared.
+Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
+In rust, only closures create closures :P
 
 <h3>Call by...</h3>
 
@@ -1449,6 +1493,11 @@ There are many standard types of higher order functions.
 In JS, the higher-order functions generally only work on Arrays, and the passed functions always recieve the arguments value, index, wholeArray.
 In ruby, higher-order functions generally take blocks/procs
 
+In JS, any higher-order function can take a thisArg, which is then the final argument. This argument will be what the passed fucntion recieves as this.
+
+callable units passed to other functions are also known as callbacks 
+The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
+
 <h4>map</h4>
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
@@ -1480,9 +1529,20 @@ Many languages allow specifying a 'previous result' element for the first time t
 js has the variant reduceRight that starts from the end
 reduce()|JS|Ruby|Python
 
-<h4>some/</h4>
+<h4>some/every/</h4>
 
 some is a higher order-function that takes a function and returns true if the passed function returns true even once.
+every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
+JS
+
+<h4>find</h4>
+
+find is a higher-order function that takes a function and returns the first element for which the passed function returns true. findIndex instead returns the index.
+find()|JS|Ruby
+findIndex()|JS
+find_index()|Ruby
+
+
 
 <h3>Arguments<h3>
 
@@ -1520,12 +1580,53 @@ Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other
 
 <h3>Asynchronous callable units</h3>
 
+Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
+
+A promise is a proxy for a value that will eventually become available.
+In JS, a promise is an object
+You react to promises by calling the then() method on them.
+In JS, something you can call then() on is called a thenable.
+in JS, most interfaces for promises work on any thenables.
+A promise can have the states {{c1::pending}}, {{c2::fulfilled}}, or {{c3::rejected}}.
+A promise is called {{c1::settled}} if it is either {{c2::fulfilled}}, or {{c3::rejected}}.
+Ergo a promise is either settled or pending.
+We may return a rejected promise manually, additonally, if an error occurs in our async function, it will reject automatically.
+Once a promise has settled, the attached thens will run as soon as possible / awaits will resolve.
+If a promise is settled, and we then attach a then()/catch()/finally(), it will run immediately
+While a promise is pending, thens will not yet run / awaits will not yet resolve.
+A promise may have the fates resolved, unresolved.
+//generally true, not jus js
+
+In many languages, the async keyword marks the callable unit as asynchronous and allows it to call asynchronous functions.
+await is a keyword/function available in many programming languages that calls an asynchronous function and then returns the value the function returns once it does.
+In JS (and other languages w/ promises), await takes a promise (and is the rough equivalent of calling then() on it)
+
+In JS, then() takes two callbacks, one to run in case fullfilment and one to run in case rejection.
+then(), catch() and finally() themselves return thenables, which allow them to be chained.
+is the thing the last promise returned is what then(), catch(), and finally() get as an argument. What they get depends on if the callback running is one for rejection or one for fulfillment
+In JS, catch() is a version of then() with only the callback to run in case of rejection, finally() is a version whose callback will run no matter if rejeciton or fulfillment
+In JS, async functions always return promises.
+
+you can create promises in a number of ways
+create a promise that is already rejected: Promise.reject(reason)
+create a promise that is already resolved: Promise.resolve(value)
+If it is passed a non-promise, it will immediately be fulfilled w/ that value, if it is passed a promise it will be resolved to that promise
+
+creating a new promise (that is not auto-rejected/resolve)is done via the promise constructor.
+The promise constructor takes a callback known as the executor function.
+the executor function itself takes the arguments resolutionFunc, rejectionFunc.
+We do not implement resolutionFunc and rejectionFunc ourselves, the executor function will get them passed in when necessary.
+The only thing we do with the executor functions argumetns resolutionFunc and rejectionFunc is call them when we want to resolve/reject.
+As with the Promise.resolve and .reject, you pass the rejectionFunc the reason for rejecting, and the resolutionFunc the thing you want to fulfill with, or another promise
+
+
 <h3>Overloading</h3>
 
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
 In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
+In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
 <h2>Records</h2>
 
@@ -1538,13 +1639,15 @@ Most programming languages allow creation of instances of record types.
 To make an object B do something, an object A must send a message.
 A message in OOP consists of the target object, the name of the method to perform, and the argumetns passed.
 
+In Rust, Python, methods must take self as the first argument.
+
 <h4>Class methods</h4>
 
 A class method is a method called on a class rather than an instance.
 A class method may also be known as an associated function.
 In rust, a class method/associated function is called by using the :: operator
 
-static|Java|C#
+static|Java|C#|JS
 does not take self as argument|Rust
 
 <h3>passive data structure</h3>
@@ -1639,10 +1742,13 @@ Generally, multiple type parameters are separated by ,
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
 In Java, members have default accessibility by default.
-In Python, members are public by default.
+In Python, JS, members are public by default.
+Most language with any kind of access modifiers have at least a public private distinction
+public|any code
+private|code within the class
+Most languages with a public/private access modifier distinciton will use the public/private keyword to mark the one that is not the default anyway
+JS is an exception, it marks private members with #
 
-public|any code|Java|C#|Python
-private|code within the class|Java|C#
 default||Java
 protected||Java
 
@@ -1660,7 +1766,8 @@ You can only interact w/ ruby instance variables via getters and setters, trying
 
 <h4>Interfaces</h4>
 
-Traits and mixins are pretty similar concepts.
+mixins are pretty similar concepts.
+In OOP an interface is a set of methods that anything that implements that interface must also implement.
 If a given programming language has syntax for them, generally keyword interface.
 Indicating that one follows an interface is generally done with the implements keyword.
 If something implements an interface, it generally must implement all methods of that interface.
@@ -1669,6 +1776,13 @@ In interfaces in Java/C#, you most commonly merely specify method stubs. (in the
 Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
 
 Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
+
+<h5>Traits</h5>
+
+Traits in Rust are broadly similar to intefaces in other programming languages.
+Traits in Rust can be implemented for types you did not define.
+However, the trait ∨ the thing its implemented on must be local to the crate
+Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
 
 <h4>OOP</h4>
 
@@ -1803,7 +1917,7 @@ no easy way|JS
 
 get (first) index of element/substring in string or linear collection
 foo.index(bar, optionalStartIndex)|Python
-foo.indexOf(bar, optionalStartIndex)|JS
+foo.indexOf(bar, optionalStartIndex)|JS (returns -1 if ti could not be found)
 
 get (last) index of element/substring in string or linear collection
 foo.lastIndexOf(bar, optionalStartIndex)|JS
@@ -1930,7 +2044,11 @@ A programming language implementation is a system for executing computer program
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
 
-<h3>REPL</h4>
+<h3>Transpiling</h3>
+
+Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+
+<h3>REPL</h3>
 
 irb|ruby
 lua|lua
@@ -1973,10 +2091,11 @@ In most languages, referring to an associative array element that doesn't exist 
 TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
-dot notation: lua, TOML also 
+dot notation: TOML also 
 string keys of tables lua
 members of objects in lua
 but: not method calls, use : instead
+In Rust, of the collection types, tuples are accessed via dot notation, an arrays are accessed via square bracket notation
 
 While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
 In JS, the ?. is called the optional chaining operator.
