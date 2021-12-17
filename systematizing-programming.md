@@ -241,9 +241,63 @@ Rust documentation comments accept formatting in markdown. Code in code blocks t
 
 Documentation comments often generate HTML documentation
 
+<h2>Polymorphism</h2>
+
+something is monomorphic if it works for one type
+something is polymorphic if it works for several different types
+monomorphization is a compile-time process in which polymorphic code is transformed into n monomorphic variants
+
+ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
+-> callable unit overloading, operator overloading
+
+<h3>dispatch (prob belongs somewhere else)</h3>
+
+dispatch is choosing which method should be invoked in response to a method
+displatch is based on the type of the thing
+dispatch is only relevant if there are multiple implementations of a thing.
+
+<h4>static dispatch</h4>
+
+static dispatch is choosing an implementation of a polymorphic operation at compile time
+callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
+
+<h4>dynamic dispatch</h4>
+
+dynamic dispatch is choosing an implementation of a polymorphic operation at runtime
+both single dispatch and multiple dispatch are forms of dynamic dispatch
+
+single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
+
+multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on) as well as the method parameters is used to choose the implementation
+
+<h3>parametric polymorphism</h3>
+
+A generic is a stand-in for a type that is not yet specified or unknown. 
+A generic may be constrained in some way.
+Generics are most often specified via type parameters.
+Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
+
+<h3>subtyping</h3>
+
 <h2>Identifiers</h2>
 
+<h3>Name binding</h3>
+
+Name binding is the association of entities with identifiers.
+For an identifier to reference something is to the identifier bound to that thing.
+Binding is intimately connected with scoping, as scope determines which names bind to which objects.
+static = early binding is name binding during compile-time
+dynamic = late binding is name binding during runtime
+
+
+
 <h3>Scope</h3>
+
+the scope of a name binding is the part of a program where the name binding is valid.
+
+<h4>Lexical & dynamic</h4>
+
+<h4>Shadowing</h4>
 
 <h4>Variable Keywords</h4>
 
@@ -437,6 +491,9 @@ Python: integers, floats, complex numbers
 
 <h3>Type Systems</h3>
 
+A (data) type consists of a set of values that something with that type can assume.
+A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
+A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
 
 <h4>Dynamic vs Static typing</h4>
 
@@ -444,7 +501,8 @@ Dynamic typigng: type checking at runtime ≈ values have type
 Static typing: type checking at compile time ≈ variables have type
 
 Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
-Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust
+Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust, TS
+TS makes the normally dynamically typed JS statically typed
 
 <h4>Type inference/manifest</h4>
 
@@ -455,15 +513,25 @@ Type inference is a rough synonym for implict/latent typing, but is often used i
 Only statically typed languages can usefully be explicitly/manifestly typed
 Type inference in C#: var 
 in TS and Rust, often type inference is possible automatically 
+Type inference in TS/Rust is more likely to work for anonymous functions
 
 Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
 
-<h5>Type annotatin</h5>
+<h5>Type annotation</h5>
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
 Languages with manifest typing generally require type annotation for variable/constants/parameters as well as return types.
 In most (esp. C-influenced) languages, type annotation goes before the variable/constant.
-In Rust and TS, type annotation looks like so `: type`
+In Python, Rust and TS, type annotation looks like so `: type`
+Python supports type annotation since Python .35
+
+<h6>Type aliasees</h6>
+
+Type aliases are names for types thsat abbreviate longer type descriptions.
+Where type aliases exist, they generally use the type keyword.
+`type ID  = number | string`
+
+<h6>Interesting keywords</h6>
 
 <h4>Conversion, coercion, casting and context (plus truthy/falsiness)</h4>
 
@@ -523,8 +591,36 @@ TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1
 
 Lua: all values
 
+<h4>Union type</h4>
 
+A union type specifies a number of types that anything with the union type as type may take.
+with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
+Syntax in Python and TS: type1 | type2 ...
 
+<h4>Literal types</h4>
+
+A literal type is a type that can take on exactly one value which is specified via the literal of another type (e.g. 4 or true or "ara ara")
+A literal type is a type of unit type.
+
+<h4>Top types and bottom types</h4>
+
+A top type is the supertype of every othe type.
+Any value can be assigned to the top type.
+A bottom type is the subtype of every other type.
+No value can be assigned to the bottom type.
+
+A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
+
+no bottom type|most languages
+! (called the never type)|Rust
+never|TS
+
+object|Python
+unknown|TS
+UNIVERSAL|Perl
+java.lang.Object|Java
+System.Object|C#
+BasicObject|Ruby
 
 
 <h3>Symbols</h3>
@@ -701,6 +797,7 @@ map-merge(foo, bar)|SCSS/Sass
 
 commonly items are separated by ,
 
+
 <h4>Linear collections/ADTs</h4>
 
 Linear collections/ADTs are a sequence of items.
@@ -777,9 +874,9 @@ static arrays (one type only)
 
 array|C#|Java|Rust
 
-static arrays (of whatever types)
+static arrays (of different types), the compiler therefore knows the type of each index
 
-tuple|rust
+tuple|rust|TS
 
 immutable static array (of whatever types)
 
@@ -801,8 +898,9 @@ dynamic (of whatever types)
 static, one type only
 {}|C#|Java
 
-static arrays (of diffent types)
+static arrays (of diffent types), the compiler therefore knows the type of each index
 ()|rust
+[]|TS
 
 immutable static array (of whatever types)
 
@@ -1266,7 +1364,7 @@ JS calls function declarations that are statements function declarations, and fu
 <h3>signatures</h3>
 
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
-void is commonly used for no return type.
+void is commonly used for no return type in languages that require a return type to be specified.
 
 <h3>returning</h3>
 
@@ -1400,6 +1498,13 @@ Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other
 
 <h3>Asynchronous callable units</h3>
 
+<h3>Overloading</h3>
+
+Overloading of callable units is creating multiple callable units with different callable unit signatures.
+Languages I know that support overloading are C#, Java, TS.
+When overloading, each signature generally has its own implementation, exept in TS.
+In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
+
 <h2>Records</h2>
 
 A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. The fields of a record may also be called members.
@@ -1408,7 +1513,8 @@ Most programming languages allow creation of instances of record types.
 
 <h3>Methods</h3>
 
-
+To make an object B do something, an object A must send a message.
+A message in OOP consists of the target object, the name of the method to perform, and the argumetns passed.
 
 <h3>passive data structure</h3>
 
@@ -1532,7 +1638,7 @@ Things using the ruby mixin Comparable must define <=> operator, and then gain a
 
 <h4>OOP</h4>
 
-C#, Java
+C#, Javaf
 
 <h4>is X an object of Y</h4>
 
@@ -1784,9 +1890,23 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 
 <h3>REPL</h4>
 
+irb|ruby
+lua|lua
+node|JS
+python, python3|python
+tss-node|TS
+
 Python calls being in the repl interactive mode
 the value of the last expression
 _|Python
+
+<h3>Shebangs</h3>
+
+env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
+Using env in the shebang is to get the relevant executable on the path
+so in general, you can specify the language of a script by doing 
+#!/usr/bin/env language-command
+
 
 <h2>Boilerplate</h2>
 
@@ -1807,6 +1927,8 @@ In most languages, providing negative indices counts from the back, with -1 bein
 Square bracket notation: most commonly used for array/linear collection indexing or accessing members in associative collection, esp. if primitives in language. SCSS/Sass is special in that maps are primitive in the language, but neverthelesss square bracket notation does not work, one must use map-get() (also not map.get, which its documentation still falsely refers to)
 any key in a table lua, Ruby, JS, Py, Rust
 In most languages, indexing a linear collection outside of its bounds produces an error, in JS it merely produces undefined
+In most languages, referring to an associative array element that doesn't exist will get you an error, in Lua and JS you merely get undefined
+TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
 <h2>Things programming languages do especially well</h2>
