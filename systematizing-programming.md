@@ -180,17 +180,19 @@ Many languages provide a statement which allows skipping the current (continuing
 Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.
 Many languages provide a statement which allows ending/exiting the loop.
 Most languages use the break statement to end/exit the loop, Perl uses the last statement.
+In Rust, you can pass an argument to the break thing to have that be the return value of the block expression
 
 
 Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
 
 (loops with reversed condition do not count as separate kinds of loops)
-lang|count-cont|cond-cont|col-cont
-lua|1|2|1
-liquid|0|0|1
-Python|0|1|1
-JS|1|1|2
-SCSS|1|1|1
+lang|count-cont|cond-cont|col-cont|infinite
+lua|1|2|1|0
+liquid|0|0|1|0
+Python|0|1|1|0
+JS|1|1|2|0
+SCSS|1|1|1|0
+Rust|0|1|1|1
 
 <h3>Labels</h3>
 
@@ -541,7 +543,7 @@ In python, bool() is said to create a boolean context = convert a value to true 
 Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
 Most langauges treat at least their null type(s) and their false type as falsy.
 JS additionally treats empty strings, 0 and NaN as falsy.
-Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages treat using non-booleans in these situations as an error, i.e. not create a boolean context.
+Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages (C#, Java, Rust) treat using non-booleans in these situations as an error, i.e. not create a boolean context.
 In perl, context is most often used with the scalar/list distinction.
 scalar() generates a scalar context
 Since (ba)sh doesn't have any types but strings, it needs specific contexts to do certain tings
@@ -648,6 +650,22 @@ there isn't one|Rust
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 In JS a type is nullish if it is null or undefined.
+
+<h4> nullable</h34>
+Nullable types are a feature of some programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
+
+<h3>Option type</h3>
+
+An option type is a type that represents an optional value.
+An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
+In rust, the option type is implemented as an enum.
+In rust, the option type is 
+pub enum Option<T> {
+  None,
+  Some(T),
+}
+
+In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
 
 <h3>boolean</h3>
 
@@ -1345,11 +1363,12 @@ In general, having a try and either a catch or a finally block is necessary for 
 
 Callable units generally can take arguments if specified.
 
-Keyword to create a callable unit
+Keyword to start a callable unit
 function|JS|Lua|sh|SCSS/Sass (@function ofc)
 fn|Rust
 def|python|Ruby
 sub|perl
+no keyword|C#|Java
 
 Callable units can generally be split into method signature and method body. The method signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a method signature contains nothing but the keyword and name
 In java, the method signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
@@ -1365,6 +1384,8 @@ JS calls function declarations that are statements function declarations, and fu
 
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
 void is commonly used for no return type in languages that require a return type to be specified.
+return type is indicated:
+-> <type> at the end of signature|rust
 
 <h3>returning</h3>
 
@@ -1372,6 +1393,7 @@ Across most languages, the keyword to return whatever value is the <code>return<
 In non-manifestly typed languages, the default return value of a function is the null type
 In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
+In Rust, using the return keyword is frowned upon, as blocks return their final expression anyway.
 
 <h3>Closures</h3>
 
@@ -1516,6 +1538,15 @@ Most programming languages allow creation of instances of record types.
 To make an object B do something, an object A must send a message.
 A message in OOP consists of the target object, the name of the method to perform, and the argumetns passed.
 
+<h4>Class methods</h4>
+
+A class method is a method called on a class rather than an instance.
+A class method may also be known as an associated function.
+In rust, a class method/associated function is called by using the :: operator
+
+static|Java|C#
+does not take self as argument|Rust
+
 <h3>passive data structure</h3>
 
 Use of a data structure that contains fields w/ values, but no other object-oriented features
@@ -1597,9 +1628,7 @@ Many languages allow us to declare many different constructors with different ar
 Most languages provide a default constructor if you don't provide one, which does nothing besides create the object.
 In JS, you may not use arrow functions as constructors
 
-<h4>static & not </h4>
 
-static|Java|C#
 
 <h4>type parameters and generics</h4>
 
@@ -1621,6 +1650,11 @@ protected||Java
 
 Ruby syntax:
 def name=(value)...|setter
+
+JS:
+get foo()
+set foo()
+only within a class
 
 You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
 
@@ -1751,12 +1785,17 @@ General syntax: export <members> [as <name>]
 
 <h2>lifecycle</h2>
 
-<h3>The main function</h3>
+<h3>Entry point</h3>
 
+In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
+The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
 
 <h2>Standard library</h2>
+
+A software solution that has everything that it needs to run out of the box is said to be batteries included.
+A programming language that has a large standard library is said to be batteries included.
 
 count occurrences of element
 foo.count(bar)|Python|Ruby
@@ -1842,6 +1881,9 @@ enumerableWhichIsJustASynonymForIterable.sum()|Ruby
 Object/Struct/whatever for standard math operations
 Math|JS
 math|Python
+
+Filesystem handling
+fs|node
 
 <h3>Print</h3>
 
@@ -1931,6 +1973,17 @@ In most languages, referring to an associative array element that doesn't exist 
 TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
+dot notation: lua, TOML also 
+string keys of tables lua
+members of objects in lua
+but: not method calls, use : instead
+
+While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
+In JS, the ?. is called the optional chaining operator.
+In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
+the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
+The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
+
 <h2>Things programming languages do especially well</h2>
 
 performance|rust
@@ -1946,10 +1999,7 @@ Associative arrays: names, literals, other construction methods, etc.
 
 
 
-dot notation: lua, TOML also 
-string keys of tables lua
-members of objects in lua
-but: not method calls, use : instead
+
 
 
 
@@ -1980,6 +2030,41 @@ The most common escape sequences (not character quoting)
 CRLF|Windows|The Internet
 LF|Unixlike (Linux and modern mac)
 CR|older macs
+
+§§ HTML has ((c:1;::two ways)) of specifying ((c:2;::character escapes)). ((s:gb;::Both ((c:3;::start with an &amp;)) and ((c:4;::end with a semicolon ;)). They are both often used to ((c:5;::display reserved characters, invisible characters, or hard-to-type characters.))))  §<br>
+§§ Of these, ((c:6;::numeric character references)) ((c:7;::refer to the character position within character set (most commmonly UTF-8))), ((s:gb;::they start ((c:8;::with # (after &amp;))) and can be specified in decimal or hex. ((h:gb;::(for example ((c:9;::&amp;#8203;))))))) §<br>
+§§ ((c:10;::Character entity references)) ((c:11;::have a short, memorable name)) ((h:gb;::(for example ((c:12;::&amp;amp; or &amp;quot))))) §<br>
+§§ This distinction is however often not made, and often ((c:13;::any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity))) are used. §<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Character entity reference / Numeric character reference</th>
+    <th>Displays as / creates?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:16;::&amp;gt;))</td>
+      <td>((c:17;::&gt;))</td>
+    </tr>
+    <tr>
+      <td>((c:14;::&amp;lt;))</td>
+      <td>((c:15;::&lt;))</td>
+    </tr>
+     <tr>
+      <td>((c:18;::&amp;amp;))</td>
+      <td>((c:19;::&amp;))</td>
+    </tr>
+    <tr>
+      <td>((c:20;::&amp;shy;))</td>
+      <td>((c:21;::A hyphen that works as a line break, but is only displayed when necessary for wrapping.))</td>
+    </tr>
+    <tr>
+      <td>((c:22;::&amp;#8203;))</td>
+      <td>((c:23;::A zero-width space that allows the browser to break there, when necessary))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 Newline may refer to the newline character or any newline
 
