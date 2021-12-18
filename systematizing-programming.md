@@ -371,6 +371,11 @@ In lua, values are typed, but variables are not.
 
 <h3>Declaration and initialization</h3>
 
+Declaring something is saying what an identifier means.
+In most languages, but not in JS and Python, declaration at the very least fixes the kind of entity the identifier refers to. 
+In statically typed languages, declaration generally fixes the data type of an identifier.
+To initialize something is to assign a value for the first time.
+
 declaring: var bla;
 initializing: bla = 5;
 declaring and initializing: var bla = 5;
@@ -2126,7 +2131,7 @@ A metacharacter is a character that has a special meaning to a computer program,
 
 An escape character is a metacharacter that invokes an alternative interpretation of the following character(s)
 An escape sequence is the combination of an escape character and the subsequent characters that has a specific meaning.
-In most programming languages, \ acts as a/the escape character.
+In most programming languages, \ acts as a/the escape character, this includes latex, at least for basic things such as % and &.
 In HTML, & acts as a/the escape character.
 Liquid is rare in that escape sequences don't exist at all.
 Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.

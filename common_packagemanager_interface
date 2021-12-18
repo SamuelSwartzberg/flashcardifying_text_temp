@@ -4,10 +4,16 @@ rust|crates.io
 python|PyPI
 ruby|rubygems.org
 JS/node|npm Registry
+tex|CTAN
 
 Name of a package
 
 ruby|gem
+latex|package
+
+In latex the package manager is part of the tex distribution
+The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
+Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
 
 package manager
 
@@ -17,6 +23,8 @@ Ubuntu|apt
 macOS|homebrew (command: brew)|macports (command: port)
 (homebrew can also be used on linux, and is written in ruby)
 ruby|bundler (kinda)|RubyGems (command gem)
+latex|tlmgr (TeX Live distro only.)
+anaconda|conda
 
 Package manifest
 

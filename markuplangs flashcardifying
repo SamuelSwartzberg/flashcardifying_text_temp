@@ -5,14 +5,14 @@ underline|\underline{}|&lt;u>|N/A
 strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
 hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
 hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
-block quotation of foo||&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
+block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
 Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
 inline source code||&lt;code>|``
 create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
-Heading (level one) "foo"||&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"||&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"||&lt;h3>foo&lt;/h3>|### foo 
-Heading (level six) "foo"||&lt;h6>foo&lt;/h6>|###### foo 
+Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
+Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
 A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
 a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
 ordered list|enumerate environment|&lt;ol>
@@ -25,11 +25,21 @@ horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or mor
 superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
 subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
 
+using \url{} or \href{} requires the package hyperref in Latex
+package hyperref also does autolinking to things such as the TOC
+by default, latex only allows the nesting of lists to a depth of four
+Lists in latex are created by environment
+
+most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
+most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
+ 
+
 non-breaking space|\nonbreakspace or ~|&amp;nbsp;
 ampersand||&amp;amp;
 non-breaking hyphen|"~
 soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;
 "=
+if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
 
 hyperref|create links automatically and \href, \url commands
 
