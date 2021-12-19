@@ -120,3 +120,23 @@ generally from the top left corner
 
 
 ## at-rules
+
+
+## elements
+
+### replaced elements
+
+In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
+Typical replaced elements are:
+<iframe>
+<video>
+<embed>
+<img>
+
+Some elements are treated as replaced elements only in specific cases:
+
+<option>
+<audio>
+<canvas>
+<object>
+<applet>
