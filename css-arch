@@ -140,3 +140,7 @@ Some elements are treated as replaced elements only in specific cases:
 <canvas>
 <object>
 <applet>
+
+The only way CSS can style replaced elements is by controlling the positioning of the element's content within its box.
+
+The object-whatever properties target replaced elements.

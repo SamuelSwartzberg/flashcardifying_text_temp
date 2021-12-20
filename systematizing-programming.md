@@ -283,6 +283,9 @@ Parametric polymorphism is polymorphism that only uses one implementation, inste
 
 <h2>Identifiers</h2>
 
+An identifier is opaque if it provides no information about the thing it identifies
+A transparent identifier provides information about the thing it identifies.
+
 <h3>Name binding</h3>
 
 Name binding is the association of entities with identifiers.
