@@ -1,5 +1,15 @@
+<h2>Expressions</h2>
+
+An expression evaluates to = returns a value.
+e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
+
 <h2>Statements</h2>
 
+Statements are the fundamental unit of programming in imperative programming languages.
+Statements do not return a value.
+Since statements do not return a value, they either do nothing or cause side effects.
+var test = 2 + 6; -> side effect of initializing a variable test
+An expression statement is a statement that consists of a single expression.
 A statement separator is used to demarcate boundaries between two separate statements. A statement terminator is used to demarcate the end of an individual statement.
 Semicolons are used in programming languages for two things: statement separators and statement terminators. When a language uses semicolons as statement separators, this allows you to write more than one statement on the same line.
 Semicolons as statement terminators aren’t optional and are used to definitively mark the end of a statement.
@@ -37,11 +47,16 @@ The default control flow is linear from top to bottom, this is called sequencing
 
 <h2>control structures</h2>
 
-<span class='line'>A thing that modifies control flow is a control structure. 
 
-<span class='line'>A control structure takes the normally linear flow of code and makes it somehow nonlinear.
+A thing that modifies control flow is a control structure. 
+
+A control structure takes the normally linear flow of code and makes it somehow nonlinear.
+
+Programming languages that use control structures outside of GOTO are structured programming languages.
+Programming languages that do not use control structures or only use GOTO are non-structured programming languages, which are today quite rare.
+
 Control structures are typically statements, however in Ruby and Rust, they are expressions.
-<span class='line'>In javascript or JS, most control structures take one statement after it, which can either be a normal statement or a block statement. A statement that does nothing is an empty statement
+In javascript or JS, most control structures take one statement after it, which can either be a normal statement or a block statement. A statement that does nothing is an empty statement
 If control structures have conditions, they are delimited by...
 
 ()|C|JS|Java|C#|Perl
@@ -279,12 +294,16 @@ A generic may be constrained in some way.
 Generics are most often specified via type parameters.
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
 
+Interfaces/traits often enable parametric polymorphism.
+
 <h3>subtyping</h3>
 
 <h2>Identifiers</h2>
 
 An identifier is opaque if it provides no information about the thing it identifies
 A transparent identifier provides information about the thing it identifies.
+
+Aliasing is referring to the same location in memory by multiple different identifiers.
 
 <h3>Name binding</h3>
 
@@ -302,7 +321,15 @@ the scope of a name binding is the part of a program where the name binding is v
 
 <h4>Lexical & dynamic</h4>
 
+Static scope is another name for lexical scope.
+Lexical scope is where scope is determined by where in the source code (a reference to) a name binding is.
+Lexical/static scope is contrasted with dynamic scope
+Dynamic scope is where scope is determined by where on the stack something is.
 Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
+
+<h4>local scope</h4>
+
+for something to have x-scope is to only have the name binding be valid within x.
 
 <h4>Shadowing</h4>
 
@@ -369,6 +396,8 @@ When we assign a value to something different, thus changing the owner and inval
 When a owner goes out of scope, a value is dropped.
 
 <h2>Variables</h2>
+
+A variable is an identifier which is associated with a storage location which contains a value.
 
 In lua, values are typed, but variables are not. 
 
@@ -466,6 +495,7 @@ Mutability is whether something can be changed after inital creation. Something 
 Different things can have mutability: Objects, variables, (though generally not primitves).
 Some languages make a difference in which keywords are used to declare constants and variables.
 Constants are immutable, while variables are mutable.
+In most languages, constants are written in all upper case
 
 Keyword for constants:
 const|JS|Rust
@@ -477,6 +507,9 @@ let|Rust
 In rust, even variables are immutable by default, and the keyword mut makes them mutable.
 In JS, consts are always block-scoped.
 In some languages (JS), consts must be initialized in the same statement as they are declared.
+
+The term magic number or magic constant refers to the anti-pattern of using numbers directly in source code. 
+Instead of magic numbers (the antipattern), one should instead use constants.
 
 <h3>Default variables</h3>
 
@@ -588,11 +621,13 @@ size as part of the type annotation (usize, isize) indicates the system word siz
 
 <h5>Conversion</h5>
 
+Type conversion is explicitly using a function or the like to change the datatype of something.
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
 <h5>Coercion</h5>
 
+Type coercion is implicitly forcing a value to be treated as of a different datatype.
 JS will coerce extensively in the case of operations w/ mismatched types.
 Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
@@ -600,8 +635,11 @@ In contrast, pythons operators rarely coerce.
 
 <h5>Casting</h5>
 
-!!type|YAML
-(type)|JS
+Type casting is asking the programming language implementation to treat a value as a certain datatype temporarily.
+Casting will go wrong if the vlaue cannot be treated as teh casted type.
+
+!!type value|YAML
+(type) value|C#|Java
 
 Type assertions in TS are the equivalent of type casting in other languages.
 In TS, if {{c2::you know something about a type that TS doesn't}}, you can use {{c1::type assertions}}
@@ -610,6 +648,9 @@ TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1
 
 <h4>Firstclassness</h4>
 
+An entity is said to be first-class in programming if you can {{c1::Do most other things you can do with objects/values}}
+typical features of entities that are first-class in a certain language are e.g. {{c1::Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.}}
+An entity that is first-class is called a first-class citizen.
 Lua: all values
 
 <h4>Union type</h4>
@@ -754,6 +795,7 @@ Collections are an abstract data type that hold a number of data items.
 Python calls its data structures that represent collection ADTs, well, collections.
 Associative collections map keys to values. 
 Js sets and maps use .size instead of .length
+Java has the Collections Framework for collections 
 
 <h4>Collection methods</h4>
 
@@ -898,6 +940,7 @@ somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...)
 
 <h5>Strings as linear collections</h5>
 
+TODO string as iterable
 Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
 
 <h5>Array<h5>
@@ -1031,10 +1074,14 @@ yield another generator (JS) yield*
 
 <h3>chars</h3>
 
+The datatype storing a single character is generally called char.
 In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
 <h3>Strings<h3>
 
+A string type is generally a type for an arbitrary sequence of characters.
+Depending on the language, strings may be mutable or immutable (python, JS).
+If a language has immutable strings, string operations actually create a new string.
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
 In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
 Some langauges that don't have a char type differentiate between string literals with single and double quotes (e.g. treating single quote string literals as raw strings, e.g. sh, Perl, Ruby), some languages (CSS, HTML, lua, liquid, python, JS) do not.
@@ -1042,8 +1089,6 @@ In languages that have single-quoted string literals, interpolation is generally
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
 YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
-
-strings are immutable|python
 
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
 r or R"foo"|Python|Rust
@@ -1384,10 +1429,16 @@ foo will now be [1,2,3]
 When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
 [... OR *[1,2,3], 4] == [1,2,3,4]
 
-<h2>Error handling<h2>
+<h2>Errors<h2>
 
+Some languages distinguish between recoverable and unrecoverable errors.
+recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack overflow
+Java and C# call recoverable errors exceptions and unrecoverable errors errors.
+It can make sense to catch recoverable errors, but it is generally impossible to catch unrecoverable errors
 
-<h3>Throwing errors</h3>
+<h3>Error handling</h3>
+
+<h4>Throwing errors</h4>
 
 Generally take an expression as arg.
 
@@ -1399,14 +1450,14 @@ error()|lua
 raise|Ruby
 panic!()|Rust
 
-<h3>Error handling control structures</h3>
+<h4>Error handling control structures</h4>
 
 most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; finally &lt;block&gt;
 In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
 
-<h3>assert</h3>
+<h4>assert</h4>
 
 Assertions are predicates that deliberatly crash the program if the predicate is false.
 Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
@@ -1446,6 +1497,7 @@ return type is indicated:
 <h3>returning</h3>
 
 Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
+The datatype of the thing that is returned from a callable unit is known  {{c1::The return type}}
 In non-manifestly typed languages, the default return value of a function is the null type
 In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
@@ -1562,6 +1614,14 @@ find_index()|Ruby
 
 <h3>Arguments<h3>
 
+How are parameters and arguments are often used synonymously, although they are more properly not synonyms
+for a callable unit,  {{c1::parameters}} are the values you specify the function will be passed, most commonly in its signature.
+for a calllable unit, arguments are the values/variables you actually pass.
+When passing things, using a car metaphor, you can think of the {{c1::parameter}} as a {{c2::parking space}} and the {{c1::argument}} as an {{c2::automobile}}
+function foo(a, b){...
+foo(12, "whistles") 
+a, b are parameters, 12, "whistles" are arguments
+
 most languages require the possible parameters defined in a callable unit definition to be wrapped in parantheses.
 sh doesn't allow specifying parameters at all
 most languages require the arguments to a function call to be wrapped in parentheses.
@@ -1650,6 +1710,28 @@ A record is a collection of fields, possibly of different data types, typically 
 A type that defines a record is a record type.
 Most programming languages allow creation of instances of record types.
 
+<h3>Principles</h3>
+
+Encapsulation refers to grouping together related things somehow, e.g. within records.
+Information hiding is hiding the internals of a thing from the  outside.
+
+<h3>Class and instance entities</h3>
+
+A class x is a x operates on/is defined on a class rather than an instance.
+An instance x operates on/is defined on an instance of a record.
+A class x may also be known as an associated function.
+Class x ≈ static x
+generally, one mainly talks of class, instance methods, which operate on classes/instances, and class, instance variables
+class + instance variables = fields
+Members are generally all methods and fields of a record, no matter if class or instance
+A piece of data on a record is called a field
+
+In rust, a class method/associated function is called by using the :: operator
+
+static|Java|C#|JS
+does not take self as argument|Rust
+
+
 <h3>Methods</h3>
 
 To make an object B do something, an object A must send a message.
@@ -1657,17 +1739,28 @@ A message in OOP consists of the target object, the name of the method to perfor
 
 In Rust, Python, methods must take self as the first argument.
 
-<h4>Class methods</h4>
 
-A class method is a method called on a class rather than an instance.
-A class method may also be known as an associated function.
-In rust, a class method/associated function is called by using the :: operator
+<h4>Getters and setters</h4>
 
-static|Java|C#|JS
-does not take self as argument|Rust
+Also called accessors and getters.
+A getter returns a field of a record.
+A setter changes a field of a record.
+Setters are often used to perfrom some sort of validation before changing the field of a record.
+Getters and setters may help enforcing information hiding.
+
+Ruby syntax:
+def name=(value)...|setter
+
+JS:
+get foo()
+set foo()
+only within a class
+
+You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
 
 <h3>passive data structure</h3>
 
+AKA plain old data structure (PDS)
 Use of a data structure that contains fields w/ values, but no other object-oriented features
 
 
@@ -1693,7 +1786,7 @@ Keyword to declare a class is done by the keyword <code>class</code> in pretty m
 A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
 A type that only allows one value (only allows a sigleton) is known as a unit type.
 
-reference to the current object/construct
+reference to the current record/other thing
 self|Ruby|Rust
 this|C#|Java|JS
 
@@ -1756,6 +1849,8 @@ In JS, you may not use arrow functions as constructors
 
 The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
 Generally, multiple type parameters are separated by , 
+Type parameters are generally written in UpperCamelCase
+Generics are generally a single char only
 
 <h4>Access modifier</h4>
 
@@ -1769,26 +1864,13 @@ Most languages with a public/private access modifier distinciton will use the pu
 JS is an exception, it marks private members with #
 
 default||Java
-protected||Java
-
-<h4>Getters and setters</h4>
-
-Also called accessors and getters
-
-Ruby syntax:
-def name=(value)...|setter
-
-JS:
-get foo()
-set foo()
-only within a class
-
-You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
+protected|same mclass and subclasses|Java
 
 <h4>Interfaces</h4>
 
 mixins are pretty similar concepts.
 In OOP an interface is a set of methods that anything that implements that interface must also implement.
+Interfaces in programming standartize behavior
 If a given programming language has syntax for them, generally keyword interface.
 Indicating that one follows an interface is generally done with the implements keyword.
 If something implements an interface, it generally must implement all methods of that interface.
@@ -2118,6 +2200,7 @@ In most languages, referring to an associative array element that doesn't exist 
 TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
+Dot notation {{c1::object}}{{c1::.}}{{c1::member}}
 dot notation: TOML also 
 string keys of tables lua
 members of objects in lua
@@ -2221,3 +2304,4 @@ methods|get the methods the object has|any object
 
 
 
+Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
