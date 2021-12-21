@@ -5,3 +5,5 @@ document.getElementById()
 element.innerHTML|content between the tags
 
 A NodeList is similar to an Array, but doesn't have
+
+WebStorage API is proper place for storage
