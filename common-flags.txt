@@ -19,10 +19,12 @@
 --include|
 --interactive|prompt before doing something
 --in-place|edit in-place, i.e. don't emit an extra file
--n|amount of something
+-n NUMBER|amount of something
+-n|generally short for --number
 -d|prevent display from sleeping|caffeinate (macOs only)
 -s|generally short for/equiv to --set
 -u|generally short for/equiv to --unset
+--dry-run|show what would happen withou changing anything
 
 In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
 In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET

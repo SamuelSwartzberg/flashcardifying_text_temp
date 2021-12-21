@@ -421,6 +421,7 @@ Redeclaration may or may not produce an error. In JS, it does not produce an err
 
 <h3>assignment</h3>
 
+Setting a variable/constant to a value is known as assignment.
 = is used as the assignment operator in most programming languages
 sh is special in its assignment operator, since it does not allows spaces on either side
 SCSS/Sass uses : as the assignment operator.
@@ -568,13 +569,14 @@ Only statically typed languages can usefully be explicitly/manifestly typed
 Type inference in C#: var 
 in TS and Rust, often type inference is possible automatically 
 Type inference in TS/Rust is more likely to work for anonymous functions
+In languages with manifest typing, variable declarations require typea annotation.
 
 Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
 
 <h5>Type annotation</h5>
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
-Languages with manifest typing generally require type annotation for variable/constants/parameters as well as return types.
+Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
 In most (esp. C-influenced) languages, type annotation goes before the variable/constant.
 In Python, Rust and TS, type annotation looks like so `: type`
 Python supports type annotation since Python .35
@@ -896,6 +898,7 @@ Computed property names allows you to put any expression on the left-hand side o
 
 Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
+Linear collections are the equivalents of sequences in math.
 Python sequences: list, tuple, str
 
 <h5>Linear collection methods</h5>
@@ -1025,6 +1028,9 @@ In JS, one can create an array with a specfic size (and thus ergo empty slots) b
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
+
+A linked list is a data structure (implementing the ADT list) in which each element holds a reference to the next element.
+access|O(n)
 
 <h5>Streams</h5>
 
@@ -2155,14 +2161,21 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 
 Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
 
-<h3>REPL</h3>
+<h3>Language CLI</h3>
 
-REPL is short for read-eval-print looop
-{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
-irb|ruby
+most languages have a CLI tool to interface with them, esp. with implementations
+
 lua|lua
-node (no arguments)|JS
+node|JS
 python, python3|python
+
+<h4>REPL</h4>
+
+REPL is short for read-eval-print loop
+{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
+
+For most languages, invoking their CLI tool without arguments will open a REPL, if not
+irb|ruby
 tss-node|TS
 
 Python calls being in the repl interactive mode
