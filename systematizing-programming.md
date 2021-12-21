@@ -302,6 +302,8 @@ the scope of a name binding is the part of a program where the name binding is v
 
 <h4>Lexical & dynamic</h4>
 
+Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
+
 <h4>Shadowing</h4>
 
 Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
@@ -317,7 +319,7 @@ let|JS
 
 Global variables
 ø|lua|perl
-$|Ruby
+$|Rubyƒ>
 
 Function-scoped variables
 var|JS
@@ -987,10 +989,12 @@ Lists/Sequences are an abstract data type (specifically a linear collection), in
 
 <h5>Stack</h5>
 
+The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
 A stack is a linear collection ADT with LIFO order, and the operations:
 push: add to the top of the stack
 pop: remove from top of the stack
 peek: loop at top of stack
+<img src="sm_Data_stack.svg">
 
 <h5>Queue</h5>
 
@@ -998,6 +1002,7 @@ A stack is a linear collection ADT with FIFO order, and the operations:
 enqueue: add to the end of the queue
 dequeue: remove from the front of the queue
 peek: look a the next element that would be dequeued
+<img src="sm_450px-Data_Queue.svg.png">
 
 
 <h3>Iterators</h3>
@@ -1251,7 +1256,9 @@ Double not can generally be used to get the truthiness/falsiness of a thing, eve
 <h4>short-circuiting</h4>
 
 Short circuiting is more properly short-circuit evaluation.
-Short-circuit evaluation is the property of boolean operators in some/most programming languages in which the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
+Short-circuit evaluation  an expression stopping evaluating{{c1::as soon as it's outcome is determined}}
+Short-circuit evaluation is most commonly found in the boolean operators of most programming languages
+with short-circuiting of binary operators, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
 specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
 expr1 LOR expr2 will not evaluate expr2 if expr1 is true/truthy
 Can be used to ensure a variable never gets assigned a falsy value by using logical/boolean or, since (only) if the first expression is falsy the second expression will be evaluated.
@@ -1503,7 +1510,8 @@ In ruby, higher-order functions generally take blocks/procs
 
 In JS, any higher-order function can take a thisArg, which is then the final argument. This argument will be what the passed fucntion recieves as this.
 
-callable units passed to other functions are also known as callbacks 
+callable units passed to other callable units to be executed at some other point are also known as callbacks 
+
 The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
 
 <h4>map</h4>
@@ -1713,6 +1721,9 @@ Ruby, Python, and JS allow methods to be called on pretty much anything, even pr
 Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
 
 <h4>Inheritance</h4>
+
+Superclass aka base class
+subclass aka derived class
 In most programming languages, you refer to your superclass=base class with the keyword <code>super</code>.
 In most programming languages, you specify a subclass/superclass relationship like so: Subclass extends Superclass
 In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
@@ -1761,6 +1772,8 @@ default||Java
 protected||Java
 
 <h4>Getters and setters</h4>
+
+Also called accessors and getters
 
 Ruby syntax:
 def name=(value)...|setter
@@ -2052,15 +2065,21 @@ A programming language implementation is a system for executing computer program
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
 
+<h3>Compilation/Interpretation</h3>
+
+<h4>JIT</h4>
+
 <h3>Transpiling</h3>
 
 Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
 
 <h3>REPL</h3>
 
+REPL is short for read-eval-print looop
+{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
 irb|ruby
 lua|lua
-node|JS
+node (no arguments)|JS
 python, python3|python
 tss-node|TS
 
