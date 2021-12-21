@@ -1,4 +1,0 @@
-A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
-
-webpack is the most common bundler for the web
-metro is the bundler for React Native.

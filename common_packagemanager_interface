@@ -1,15 +1,11 @@
-Official package hub/repository
-
-rust|crates.io
-python|PyPI
-ruby|rubygems.org
-JS/node|npm Registry
-tex|CTAN
-
-Name of a package
-
-ruby|gem
-latex|package
+In general, a toolchain is a set of software tools used to do something.
+In software development, a toolchain is a set of tools used in combination to develop and deploy software.
+A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
+Build tools are the tools that create an executable application from source code.
+A bundler is sorta indistinguishable from a build tool.
+A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
+Most commonly, the CLI for a framework will also be a build tool.
+<what is a package manager>
 
 In latex the package manager is part of the tex distribution
 The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
@@ -17,14 +13,25 @@ Anaconda is a batteries-included distribution of Python and R and a bunch of ass
 
 package manager
 
-rust|cargo
-JS|npm (technically for node, but commonly used for anything), yarn
-Ubuntu|apt
-macOS|homebrew (command: brew)|macports (command: port)
-(homebrew can also be used on linux, and is written in ruby)
-ruby|bundler (kinda)|RubyGems (command gem)
-latex|tlmgr (TeX Live distro only.)
-anaconda|conda
+cargo is the package manager and build tool for rust.
+the official package repository for cargo is crates.io
+There is no official task runner for rust, but one commonly used is cargo-make.
+npm is the most common package manager for JS, followed by yarn. 
+The official package hub for npm is the npm Registry.
+npm scripts works as a task runner for JS.
+There are more JS build tools than you can shake a stick at. The most common is webpack.
+pip is the package manager for python.
+The official package hub for pip is PyPI.
+apt is the package manager for Ubuntu
+homebrew (command: brew) and macports (command: port) are package managers for macos.
+homebrew can also be used on linux, and is written in ruby.
+ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
+In ruby, packages are called gems.
+The official package hub for RubyGems is rubygems.org
+tlmgr is the package manager for tex if you are using the TeX Live distro.
+The official package hub for tex is CTAN.
+conda is the package manager for the anaconda software distribution.
+metro is the bundler for React Native.
 
 Package manifest
 
@@ -34,6 +41,8 @@ package.json|npm|yarn
 package manifest top-level keys
 dependencies|specify dependencies|Cargo.toml|package.json
 package|general package information|Cargo.toml
+
+package manager functionality 
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies|bundler|npm
@@ -69,3 +78,25 @@ In a gemfile, the first thing is a call to source, which establishes the global 
 source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
 within the gemfile, gem dependencies are defined by `gem <name>, <version>`
 
+
+
+
+interact with nextjs|next
+interact with jekyll|jekyll
+
+## build tool functionality 
+
+build builds a production build in cargo, jekyll, next
+test runs unit tests in cargo
+doc builds the packages documentation in cargo
+clean remove generated files in cargo, jekyll
+lint runs the relevant linter on the project (Nextjs: eslint)
+new foo creates a new project foo in cargo, jekyll
+
+Hot reloading reloads a thing as you change the code etc.
+serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
+nextjs serves your app at port 3000 by default
+You can run a build you created with build (for nextjs) with start (for nextjs)
+
+Most of the config for frameworks is done in a global config file, which is placed in the project root.
+_config.yml/.toml|Jekyll
