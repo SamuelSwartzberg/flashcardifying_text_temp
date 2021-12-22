@@ -318,6 +318,8 @@ dynamic = late binding is name binding during runtime
 <h3>Scope</h3>
 
 the scope of a name binding is the part of a program where the name binding is valid.
+for something to have x-scope is to only have the name binding be valid within x.
+a variable with x-scope is often called an x-variable
 
 <h4>Lexical & dynamic</h4>
 
@@ -327,33 +329,39 @@ Lexical/static scope is contrasted with dynamic scope
 Dynamic scope is where scope is determined by where on the stack something is.
 Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
 
-<h4>local scope</h4>
+<h4>global/local scope</h4>
 
-for something to have x-scope is to only have the name binding be valid within x.
+The scope that is the entire program is global scope.
+A variable that does not have global scope has local scope.
 
-<h4>Shadowing</h4>
+Local scope is often either block or function scope.
 
-Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
-Variable masking/shadowing is name shadowing involving variables
+<h5>Variable scope</h5>
 
-<h4>Variable Keywords</h4>
+In general, if you declare block- or function-scoped variables on the top level, these will be global or at the least, global to the module.
 
 Block-scoped variables
 my|perl
 local|lua
 let|JS
 ø|Ruby
-
-Global variables
-ø|lua|perl
-$|Rubyƒ>
+ones defined within a block|C#|Java|Python
 
 Function-scoped variables
 var|JS
 
+Global variables
+ø|lua|perl
+$|Ruby
+
 Variable scope in python is not determined by keyword but by context.
 In JS, variables declared without a keyword become properties of the global object
 
+
+<h4>Shadowing</h4>
+
+Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
+Variable masking/shadowing is name shadowing involving variables
 
 <h4>Hoisting</h4>
 
@@ -1023,14 +1031,33 @@ in languages with type annotation, the type of arrays is usually written as type
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
 
+access|O(1)
+iterating|O(n)
+
 <h5>Lists</h5>
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
-A linked list is a data structure (implementing the ADT list) in which each element holds a reference to the next element.
+<img src="sm_408px-Singly-linked-list.svg.png">
+A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
+To access a linked list, we merely need a reference to the first element.
+A linked list in which the only node/vertex is a reference to the next element is a singly-linked list
+<img src="sm_doubly_linked_list.svg">
+A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
+
+cons is short for construct function, and comes from lisp. 
+To {{c4::cons something onto something}} is to take a {{c1::container}}, add {{c2::an element in front of it}}, and {{c3::put this in another container}}.
+A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
+A cons list is a singly linked list constructed via nested ordered pairs.
+
+<h6>vs arrays</h6>
+
+slower access O(n) vs O(1)
+more space consumption if no empty spaces in array due to pointers.
+Re: modern CPUs, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of CPU cache as well (priniple of spatial locality)
 
 <h5>Streams</h5>
 
@@ -1039,6 +1066,8 @@ Lists/Sequences are an abstract data type (specifically a linear collection), in
 <h5>Stack</h5>
 
 The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
+In a stack, the element you remove will be {{c1::the one you added most recently}}
+LIFO = last in first out
 A stack is a linear collection ADT with LIFO order, and the operations:
 push: add to the top of the stack
 pop: remove from top of the stack
@@ -1047,6 +1076,7 @@ peek: loop at top of stack
 
 <h5>Queue</h5>
 
+FIFO = first in first out
 A stack is a linear collection ADT with FIFO order, and the operations:
 enqueue: add to the end of the queue
 dequeue: remove from the front of the queue
@@ -1518,8 +1548,23 @@ In rust, only closures create closures :P
 
 <h3>Call by...</h3>
 
+Call by x and pass by x are synonyms
+call by/pass by x is a distinction in how arguments are handled.
+Languages may be call by/pass by x for everything always, or have some way of indicating which semantics to use, or handle different values differently.
+
+call/pass-by-value|pass the value of the expression/variable (= copying)|changes to passed variable will be lost if not returned
+call/pass-by-reference|pass the reference of variable (i.e. the loc in memory)|changes to passed variable (incl reassignments) will be preserved even if not returned
+call/pass-by-sharing/object/object-reference|pass by value, but only the object reference for objects|changes to passed variables contents will be preserved even if not returned if object, reassignments will not.
+
+Most popular languages with objects that are said to be pass-by-value are actually pass-by-sharing.
+In purely functional languages, cb/pb value & reference are the same.
+In purely functional languages, everything is immutable, so while the semantics are similar to pb value fron the outside, inside actually only references are passed (since it's cheaper), thus it is actually pb reference
+Call by sharing is a term that is kinda rarely used.
+In call-by-sharing
 
 sharing|lua|JS|Java
+
+moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
 
 <h3>Anonymous functions</h3>
 
@@ -1648,6 +1693,10 @@ In sh, instead of parameters having names, you refer to them positionally via $0
 $# gets the amount of arguments passed.
 
 <h4>Positional and named</h4>
+
+A positional argument is one where the language knows which parameter to assign it to based on its position in the argument list.
+A named argument is one where the language knows which parameter to assign it to because it directly refers to the name of the parameter.
+Named arguments usually use normal assignment syntax
 
 named parameters|Python|JS|SCSS/Sass @mixin, @function
 positional parameters|pretty much all languages
@@ -2014,6 +2063,66 @@ In computer programming, an entry point is a point in a program where the execut
 The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
+
+<h2>Memory Management</h2>
+
+Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
+Memory deallocation is releasing previously allocated memory.
+
+The lifetime of a variable or object is the time where it has valid memory.
+
+<h3>The stack and the heap</h3>
+
+The call stack is often only called the stack.
+The call stack implements the stack ADT
+The call stack is made up of stack frames.
+The stack frame usually includes at least {{c1::the arguments}}, the {{c2::return address}}, and {{c3::local variables}}.
+When we call a callable unit, a new stack frame is pushed on the stack, and the stack pointer is updated.
+When we return from a callable unit, the stack frame at the top of the stack is popped, and the stack pointer is updated.
+The stack frame at the top of the stack is the stack frame of the currently executing callable unit.
+The stack pointer points at the most recently referenced location on the stack.
+The memory address at which the stack starts out when it is size 0 is the stack origin.
+If the stack has size 0, the stack pointer is (or better be :P) at the stack origin.
+The stack may grow upwards = larger memory addresses or downwards = smaller memory addresses (however this needs to be fixed in advanced)
+stack grows upwards|stack overflow|address > stack_origin_addr+ max_stack_size
+stack grows upwards|stack underflow|address < stack_origin_addr
+stack grows downwards|stack overflow|address < stack_origin_addr-max_stack_size
+stack grows downwards|stack underflow|address > stack_origin_addr
+Since each call to a callable unit adds a stack frame, infinite recursion causes a stack overflow (unless the compiler optimizes the recursion away)
+In most languages, records are kept on the stack.
+In most languages, since records are kept on the stack, a variable/constant merely stores a pointer to the record.
+The stack is significantly faster than the heap, since it's implementation is far simpler.
+The heap can become fragmented.
+The heap is managed much less strictly than the stack.
+
+In general, there is one stack per thread and one heap per process (instance of a program)
+
+<h3>static, automatic and dynamic variables</h3>
+
+An automatic variable is a variable that has its memory allocated and deallocated automatically when the program enters and leaves the variables scope.
+Automatic variables have a lifetime of the variables scope.
+Automatic variables are allocated on the stack, within a stack frame.
+Any automatic variable can go out of scope.
+A static variable is allocated for the entire lifetime of the program.
+Static variables fall outside of the clear stack heap distincition.
+Dynamic variables have a lifetime of your choosing: their memory is allocated and deallocated by you.
+Dynamic variables are stored on the stack.
+Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allocation.
+
+<h3>memory management</h3>
+
+Memory management is managing the memory of an application.
+One of the main jobs of memory management is memory allocation and deallocation.
+Memory management may be manual = performed by the programmer or automatic = performed by the programming language automatically.
+Dynamic variables are handled by manual memory management.
+Automatic variables are handled by automatic memory management.
+Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
+Most higher-level programming languages have no manual memory management at all.
+
+Garbage data is data that cannot be used anymore (e.g. reference out of scope)
+The opposite of garbage data is live data.
+Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
+
 
 <h2>Standard library</h2>
 
