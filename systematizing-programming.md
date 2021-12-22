@@ -1074,6 +1074,8 @@ pop: remove from top of the stack
 peek: loop at top of stack
 <img src="sm_Data_stack.svg">
 
+in nix, there is a stack of directories which you can push/pop with the commands pushd/popd
+
 <h5>Queue</h5>
 
 FIFO = first in first out
@@ -2264,6 +2266,10 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 
 <h3>Compilation/Interpretation</h3>
 
+A compiler translates one programming language into another in one step before execution.
+Most commonly, a compiler translates a programming language into machine code/assembler.
+An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
+
 <h4>JIT</h4>
 
 <h3>Transpiling</h3>
@@ -2277,6 +2283,10 @@ most languages have a CLI tool to interface with them, esp. with implementations
 lua|lua
 node|JS
 python, python3|python
+perl|perl
+
+-c STRING|read program from string
+-e STRING|read program from string|perl
 
 <h4>REPL</h4>
 
@@ -2286,6 +2296,9 @@ REPL is short for read-eval-print loop
 For most languages, invoking their CLI tool without arguments will open a REPL, if not
 irb|ruby
 tss-node|TS
+is none|perl
+jshell|java
+csharp|C# (provided by mono)
 
 Python calls being in the repl interactive mode
 the value of the last expression
