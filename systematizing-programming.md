@@ -2057,6 +2057,24 @@ General syntax: export <members> [as <name>]
 
 <h4>default exports</h4>
 
+<h2>APIs</h2>
+
+API = application programming interface
+an API is an interface for a piece of software/application/library/functionality etc.
+Glue code is code that is needed to make two things (mostly interfaces) which are not interoperable interoperable.
+A wrapper library is a library that contains one or more other libraries and transforms their interface into a different interface.
+wrapper libraries may be glue code, but also may be for abstraction or to improve a mediocre interface.
+API bindings are glue code to allow one to call a specific API.
+API bindings for libraries are generally wrapper libraries.
+A foreign function interface allows one to call functions of a different language from ones given language.
+A foreign function interface often calls C or C++ functions (due to their ubiquity).
+To use a foreign function using a foreign function interface often requires you to write some glue code (e.g. the signatures), though most of the glue code is handled by the language itself.
+ffis may be glue code. 
+One could write one's own API bindings or a wrapper library using a foreign function interface.
+A shim is a library that takes API calls for something else and then does something with them.
+A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
+A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
+
 <h2>lifecycle</h2>
 
 <h3>Entry point</h3>
