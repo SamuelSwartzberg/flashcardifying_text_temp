@@ -134,6 +134,9 @@ JS Syntax examples:
    {{c4::default:}}
 }</code></pre>
 
+guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
+Of the languages I know, Rust has guards, introduced by `if`.
+
 <h3>Iteration/Loop control structure </h3>
 
 Control flow that repeats the code a number of times is called iteration/looping
@@ -407,8 +410,7 @@ When a owner goes out of scope, a value is dropped.
 
 A variable is an identifier which is associated with a storage location which contains a value.
 
-In lua, values are typed, but variables are not. 
-
+In lua, values are typed, but variables are not. TODO: isn't this equivalent to dynamic typing? maybe I can elaborate on that, and also on the relationship to shell, where not even values are typed.
 
 
 <h3>Declaration and initialization</h3>
@@ -444,8 +446,9 @@ In many languages, the comma can be used for multiple assignment, most commonly 
 a, b = 1, 2|Python|Ruby
 This is often a form of destructuring under the hood.
 
-[var1, var2] = [value1, value2] or preexisting array|JS|Python
+[var1, var2] = [value1, value2] or preexisting array|JS|Python|Rust
 var1, var2 = [value1, value2] or preexisting array |Python|Ruby
+(var1, var2) = (value1, value2) or preexisting tuple|Rust
 
 In general, you can destructure that language's linear collections (esp. if primitive) and iterables.
 In JS you can also destructure the assoc array structure.
@@ -457,10 +460,11 @@ var1, *var2 = [1,2,3]
 => var2 = [2, 3]
 Ignore a single value in destructuring
 , (e.g. var1,,var2)|JS
-_, (e.g. var1,_,var2)|Python|Ruby
+_, (e.g. var1,_,var2)|Python|Ruby|Rust
 
 Ignore multiple values in destructuring
 *_, (e.g. var1,_*,var2 )|Python|ruby
+.. (e.g. var1, .., var2)|Rust
 Not possible|JS
 
 nested destructuring
@@ -476,6 +480,26 @@ When destructuring out of assoc arrays in js, this looks like
 If the nameofkey and the nameovariableyouwantthevariabletoendupin are the same, you can do:
 {nameofkey} = {nameofkey:value}
 
+In rust, there is a set of destructuring/pattern matching constructs that can only be used in enums or if let statements.
+
+putting an enum or struct with variable names inside in a match or on the left of an if-let will assign the variables to the values contained within.
+e.g. match { Some(foo) => ... } will match Some() containing some value and assign that to foo
+
+pattern matching checks if a thing matches a pattern.
+In rust, the destructuring syntax is part of the larger idea of pattern matching. (and the syntax that we use for destructuring is a subset of the syntax of patterns)
+Many pattern matching things can be used for destructuring (and are the equivalents of the destructuring constructs of other languages).
+Beyond or at the same time as destructuring, pattern matching is used for match and if let conditions. 
+In rust, patterns can either be
+refutable|pattern can fail to match|Some(x) (does not match if value is not Some)
+irrefutable|pattern cannot fail to match
+
+match is a conditional that uses pattern matching for its conditions, and forces checking to be exhaustive.
+Rust of the languages that I know has a match conditional (using the keyword match). Of the languages I don't know, the ML family and functional languages have match conditionals.
+
+pattern1 bar pattern2|pattern 1 or pattern 2
+
+Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let &foo = somereference
+
 <h3>Sigils<h3>
 
 In programming, a sigil is a symbol(s) affixed to a variable name.
@@ -490,7 +514,7 @@ In ruby
 @|instance variables
 @@|class variables
 
-in sh, referring to a variable outside of a ${} context requires the $ sigil, however assigning to a variable does not use the $ sigil
+In sh, $ is a sigil-like used for various kinds of expansion
 In SCSS/Sass, any variable requires teh $ sigil
  
 
@@ -1074,8 +1098,6 @@ pop: remove from top of the stack
 peek: loop at top of stack
 <img src="sm_Data_stack.svg">
 
-in nix, there is a stack of directories which you can push/pop with the commands pushd/popd
-
 <h5>Queue</h5>
 
 FIFO = first in first out
@@ -1151,11 +1173,10 @@ In JS, string interpolation can only be performed within template literals.
 
 \${expr}|JS|only in template literals
 \#{expr}|Ruby|SCSS/SASS
-\$variable|sh|only with variable names
-\${epxr}|sh|more feature-full
 &lt;sigil&gt;{expr}|Perl
 &lt;sigil&gt;variable|Perl
 
+sh's various $-introduced expressions are similar to string interpolation.
 Python has three ways to perform string interpolation:
 old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
 new-style string formatting:
@@ -1197,14 +1218,6 @@ string concatenation is joining strings together into a single string.
 .push_str()|Rust (for str + str)
 .push()|Rust (for str + cahar)
 Adjacent string literals are automatically concatenated|Python|Ruby
-
-<h4>String replacement</h4>
-
-bash
-general pattern (replace first instance) ${SOME_STRING_VAR/find/replace}
-//find/replace|replace all instance
-/#find/replace|replace if at beginning of string
-/%find/replace|replace if at end of string
 
 <h4>Regex matching</h4>
 
@@ -1324,6 +1337,17 @@ greater/smaller with strings is generally relative to their position in unicode,
 Comparing a thing with itself is always true, except for: 
 in JS, NaN
 
+<h4>string relational operators</h4>
+
+e.g. CSS attribute selectors, youtube-dl 
+
+^=|begins with value
+$=|ends with value
+*=|contains value at some point
+
+~=|attr is a whitespace-separated list of words, one of which is exactly value.
+bar=|attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
+
 <h3>boolean operators</h3>
 
 logical and|and|python|liquid|lua|Ruby (lower precedence)
@@ -1398,6 +1422,7 @@ delete|JS
 
 typeof foo|JS
 type(foo)|Python
+std::any::type_name(foo)|Rust
 
 typeof in JS returns a string, and can return 'number', 'string', 'boolean', 'undefined', 'object' or 'function'
 
@@ -1420,28 +1445,6 @@ Infinity|'number';
 "1"|'string';
 
 To test whether sth is an array in JS, you need to use Array.isArray()
-
-<h3>Slicing</h3>
-
-Slicing is extracting a subset of elements from a data structure.
-Slicing is most commonly performed on linear collections or strings.
-In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
-In general, using a negative index for step will reverse the thing.
-In python you can assign to slices, delete them, etc.
-
-[start:end_excl:step]|Python
-.slice(start, end_excl)|JS
-.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
-[start..end_incl]|Ruby|Perl
-[start...end_excl]Ruby
-[start,length]Ruby
-[start..end_excl]Rust
-[start..=end_inc]|Rust
-${STRING_VAR:start:length}|Bash
-
-Part delimiters
-:|Python
-..|Perl
 
 <h3>Length of strings, collections, etc.</h3>
 
@@ -1915,7 +1918,7 @@ Access modifiers (or access specifiers) are keywords in object-oriented language
 In Java, members have default accessibility by default.
 In Python, JS, members are public by default.
 Most language with any kind of access modifiers have at least a public private distinction
-public|any code
+public (most programming languages), pub (Rust)|any code
 private|code within the class
 Most languages with a public/private access modifier distinciton will use the public/private keyword to mark the one that is not the default anyway
 JS is an exception, it marks private members with #
@@ -2060,7 +2063,7 @@ General syntax: export <members> [as <name>]
 <h2>APIs</h2>
 
 API = application programming interface
-an API is an interface for a piece of software/application/library/functionality etc.
+an API is an interface for software to interact with a piece of software/application/library/functionality etc.
 Glue code is code that is needed to make two things (mostly interfaces) which are not interoperable interoperable.
 A wrapper library is a library that contains one or more other libraries and transforms their interface into a different interface.
 wrapper libraries may be glue code, but also may be for abstraction or to improve a mediocre interface.
@@ -2266,15 +2269,39 @@ Generally, show a message, have a text input field, return the inputted text.
 input(mesg)|Python
 window.prompt(mesg, default)
 
-<h3>ranges</h3>
+<h3>slicing and ranges</h3>
+
+Slice and range syntax is often similar.
+For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
+For ranges, different programming languages need them to be surrounded by () at different times.
+start..end_incl|Ruby|Perl|Liquid (range only)
+start..end_excl|Rust
+start...end_excl|Ruby
+start..=end_incl|Rust
+
+<h4>Slicing</h4>
+
+Slicing is extracting a subset of elements from a data structure.
+Slicing is most commonly performed on linear collections or strings.
+In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
+In general, using a negative index for step will reverse the thing.
+In python you can assign to slices, delete them, etc.
+
+[start:end_excl:step]|Python
+.slice(start, end_excl)|JS
+.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
+[start,length]Ruby
+
+<h4>ranges</h4>
 
 Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
+Step is pretty much always optional.
 
 range(start, stop, step)|python|lodash/underscore (js)
-(start..stop)|liquid|perl|ruby
-start..stop|Rust
-{start..stop..step}|bash
 seq start step stop|sh
+
+Bash calls its range syntax a <dfn>sequence expression</dfn>.
+Bash also supports characters as start and stop.
 
 <h2>Programming language implementation</h2>
 
@@ -2287,6 +2314,12 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 A compiler translates one programming language into another in one step before execution.
 Most commonly, a compiler translates a programming language into machine code/assembler.
 An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
+
+<h3>Compiling/Interpreting</h3>
+
+1. lexical analiysis = tokenization = lexing
+2. sytax analysis = parsing
+3. semantic analysis
 
 <h4>JIT</h4>
 
@@ -2369,6 +2402,172 @@ The optional chaining operator can be used instead of dot notation, and before [
 <h2>Things programming languages do especially well</h2>
 
 performance|rust
+
+<h2>Shell & Bash ideosyncraacies</h2>
+
+// all taken from bash manual, but generally should hold true for other shells
+
+<h3>The directory stack</h3>
+
+in nix, there is a stack of directories called the directory stack.
+in nix, you can push/pop from the directory stack with the commands pushd/popd.
+pushd not only pushes the specified directory to the stack, but also cds there.
+The dirs command shows the contents of the directory stack.
+dirs, pushd and popd all take a positional argument +/-<n>, which do something with the nth directory counting from zero and from the start/end respecitvely
+dirs +/-<n>|display the nth directory counting from the start/end
+pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
+popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
+
+<h3>Prepopulated shell variables</h3>
+
+PWD|current directory
+OLDPWD|directory before last pwd
+DIRSTACK|everything on the directory stack
+PAGER|set the d
+
+EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
+PATH is for where to find executables
+
+
+<h3>Pattern matching</h3>
+
+*|any string
+?|any single character
+
+<h3>Shell lifecycle</h3>
+
+0. The shell may get its input from a file, a string, or the terminal.
+1. the shell tokenizes and parses the input (as does any programming language)
+2. The shell performs expansions
+3. the shell performs redirections
+4. the commands are executed
+5. the shell waits for the commands to complete and collects its exit status
+
+<h3>Expansion</h3>
+
+Expansion is replacing a thing with another thing or things.
+
+Brace expansion
+
+Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
+Brace expansion is a mechanism for generating strings.
+Brace expansion syntax: [&lt;preamble&gt;]\{(&lt;comma-separated-strings&gt;|&lt;sequence-expression&gt;\}[&lt;postscript&gt;]
+comma-separated-strings: &lt;string&gt;{,&lt;string&gt;} 
+sequence-expression: &lt;start&gt;..&lt;stop&gt;[..&lt;step&gt;]
+Bash calls its range syntax a <dfn>sequence expression</dfn>.
+a{d,c,b}e results in ade ace abe
+For brace expansion, bash generates all string alternatives, separated by spaces.
+Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
+
+Tilde expansion
+
+tilde expansion is performed if a word begins with a tilde.
+tilde expansion takes an argument that is specified between the tilde and the next /
+With tilde expansion, if no argument is given, the tilde will merely evaluate to $HOME
+~foo|the home directory of the user with the name foo
+~+/foo|$PWD/foo
+~-/foo|$OLDPWD/foo
+~<n> as well as ~+<n>|what would be displayed by dirs +<n> (ie the nth directory on the directory stack)
+~-<n>|what would be displayed by dirs -<n> (ie the nth directory on the directory stack counting from the back)
+
+The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
+
+Shell parameter expansion
+
+In shell parameter expansion, the thing being expanded may be enclosed in curly braces, which is optional in some circumstances, and mandatory in others.
+Assinging to a variable does not require the $ character, but referring to a variable is a form of parameter expansion and therefore does.
+Bash supports a bunch of fancy parameter expansion features, which all require there to be {} surrounding them.
+
+Within parametere expansion, prefixing a parameter with ! indicates indirection.
+Indirection in parameter expansion means that if your parameter expands to another parameter name, it will then recursively expand this (to one level of depth)
+
+Within parameter expansion, * and @ are nearly equivalent.
+Within parameter expansion, to refer to an entire array, use arrayname[@/*]
+Within parameter expansion, to refer to the special parameters $* or *@, use just * or @.
+
+Bash allows specifying defaults for parameters within parameter expansion.
+Bash's two operators for specifying defaults within parameter expasion are :-, :+ and :=.
+Bash default for parameter syntax: parameter(:-|:+|:=)default
+:- and := within parameter expansion evaluate to the parameter if not unset or null, or to the alternative otherwise.
+The difference between :- and := is that :- will leave parameter unchanged, while := will substitute the value of parameter with the default.
+:+ is the exact inverse of :-, it will only evaluate to the default if it is not null or unset.
+
+Bash's slicing feature is performed within parameter expansion:
+Bash slice syntax: ${parameter:start:length}
+
+Many parameter expansions allow a pattern which is evaluated according to the usual pattern matching rules.
+
+Bash's replacing within string is performed within parameter expansion:
+general pattern (replace first instance) ${parameter/find/replace}
+//pattern/replace|replace all instance
+/#pattern/replace|replace if at beginning of string
+/%pattern/replace|replace if at end of string
+
+parameter#pattern get the shortest substring that matches pattern at the beginning
+parameter##pattern get the longest substring that matches pattern at the beginning
+parameter%pattern get the shortest substring that matches pattern at the end
+parameter%%pattern get the longest substring that matches pattern at the end
+parameter^pattern test each single character against the pattern, and uppercase the first one that matches
+parameter^^pattern test each single character against the pattern, and uppercase all that match
+parameter,pattern test each single character against the pattern, and lowercase the first one that matches
+parameter,,pattern test each single character against the pattern, and lowercase all that match
+
+parameter@operator do different things with the string depending on the operator
+parameter@U|uppercase the string
+parameter@u|uppercase the first character
+parameter@L|lowercase all characters
+parameter@Q|quote the parameter
+
+Getting the length of something is done within parameter expansion: #parameter
+
+Command substitution
+
+Command substitution takes a command and replaces it (and the syntax) with its output.
+Command substitution is performed in the modern syntax with $(command).
+Command substitution is performed in the older, deprected syntax with `command`.
+Command substitution may be nested.
+
+Arithmetic expansion
+
+Arithmetic expansion evaluates arithmetic and replaces it (and the syntax) with the result.
+Arithmetic expansion is performed by $(())
+
+Process substitution
+
+Process substitution allws referring to the in or output of another process as a file.
+To implement process substitution, bash creates a pipe with two file descriptors.
+Process substitution runs asynchronously.
+<(command) provides the output of command as a file for further use.
+\>(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
+command1 >(command2) is equivalent to command1 | command2 if command1 supoorts outputting to sdout
+e.g. a command doesn't output to stdout, but just a file
+<() is used more commonly than >() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
+
+Word splitting
+
+the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
+Word splitting means splitting the things mentioned above into words using $IFS
+
+File name expansion
+
+In the file name expansion stage, bash scans each word for a pattern and replaces it with an alphabetically sorted list of filenames matching the pattern.
+In the file name expansion stage, bash retains patterns that didn't match anything as-is by default.
+nullglob makes patterns disappear if they don't match anything
+failglob makes patterns fail if they don't match anything.
+When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
+
+<h3>Quote removal</h3>
+
+After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
+
+<h3>Redirection</h3>
+
+<h3>Parameters</h3>
+
+In bash, a parameter is an entity that stores a value.
+In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
+In bash, there is a special set of parameters that is auto-set.
+In bash, a variable is a type of parameter, specifically one denoted by a name.
 
 
 
