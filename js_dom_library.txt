@@ -1,9 +1,23 @@
 document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
+qs and qsa can be called on document for a global search, or on an element for a search only on that elements children.
+
+
 document.getElementById()
 
 element.innerHTML|content between the tags
 
-A NodeList is similar to an Array, but doesn't have
+A NodeList is similar to an Array, but doesn't have all the methods.
+A NodeList is a linear collection of nodes.
+NodeList has a foreach method
+NodeLists can be live or static.
 
 WebStorage API is proper place for storage
+Store data until page session ends<br/><pre><code>something = {{c1::sessionStorage}}.getItem(name);
+{{c1::sessionStorage}}.setItem(name,"");}</code></pre>
+
+classList interface
+
+Web Speech API: text to speech/speech to text
+
+{{c1::window}}.​setTimeout(function, delay, args);

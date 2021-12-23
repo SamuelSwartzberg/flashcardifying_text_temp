@@ -1,6 +1,6 @@
 -o PATH|generally short for/equiv to --out or --output
--O|output to current directory with same name (curl, wget)
--(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT)|curl, say, youtube-dl
+-O|output to current directory with same name. (curl, wget)
+-(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT). Mac accept some sort of string interpolation, e.g. via C format string|curl, say, youtube-dl
 --progress|show an indicator of progress|say
 -f THINGY|generally short for/equiv to --file, sometimes also --from
 --file FILE|Use the file as input|say
@@ -15,7 +15,7 @@
 --version|show the version
 -h|generally short for/equiv to --human-readable
 --human-readable|human readable output
--i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case
+-i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case/--case-insensitve
 --include|
 --interactive|prompt before doing something
 --in-place|edit in-place, i.e. don't emit an extra file
@@ -31,3 +31,5 @@ In general, mac only features short flags, while linux also has long ones (this 
 In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
 {{c1::}}
 -- normally ends the list of flag arguments and allows you to pass plain arguments
+
+Well-behaved shell programs take input from stdin (if there is data to operate on) and output to stdout (act as filters).
