@@ -15,7 +15,7 @@
 --version|show the version
 -h|generally short for/equiv to --human-readable
 --human-readable|human readable output
--i|generally short for/equiv to --interactive, may also be short for --in-place or --include
+-i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case
 --include|
 --interactive|prompt before doing something
 --in-place|edit in-place, i.e. don't emit an extra file

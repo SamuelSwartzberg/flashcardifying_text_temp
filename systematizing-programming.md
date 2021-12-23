@@ -1515,8 +1515,8 @@ def|python|Ruby
 sub|perl
 no keyword|C#|Java
 
-Callable units can generally be split into method signature and method body. The method signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a method signature contains nothing but the keyword and name
-In java, the method signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
+Callable units can generally be split into callable unit signature and callable unit body. The callable unit signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a callable unit signature contains nothing but the keyword and name
+In java, the callable unit signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
 In JS, function keyword defined callable units generate their own this, while arrow functions do not.
 
 <h3>Declaration</h3>
