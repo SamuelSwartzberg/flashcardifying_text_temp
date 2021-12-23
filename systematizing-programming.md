@@ -2594,7 +2594,10 @@ Liquid is rare in that escape sequences don't exist at all.
 Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.
 Besides character quoting, escape sequences are often used for characters that cannot (easily) be typed on a keywboard.
 Escape sequences for unicode codepoints:
-\uXXXX|JS
+\u + UTF-16 escape sequence (must be a set of two \u + UTF-16 escape  sequence if surrogate pair)|JS
+\<Unicode Code Point>|CSS
+\u{<Unicode Code Point>}|JS (ES 6 and beyond)
+can be directly input|most programming languages
 
 The most common escape sequences (not character quoting)
 \n|new line|LF|0x0A|any newline character
