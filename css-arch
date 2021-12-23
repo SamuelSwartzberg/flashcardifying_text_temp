@@ -27,11 +27,7 @@ The attribute selector matches any element where a certain attribute is a certai
 Syntax of attribute selector ::= \[<attr>[<operator><alue>]\]
 no operator (and no value) [<attr>]|just elements with attribute present
 = [attr=value]|attr is exactly value
-~= [attr~=value]|attr is a whitespace-separated list of words, one of which is exactly value.
-bar= [attrbar=value]attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
-^= [attr^=value]| begins with value
-$= [attr$=value]|ends with value
-*= [attr*=value]|contains value at some point
+
 
 Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).
 
