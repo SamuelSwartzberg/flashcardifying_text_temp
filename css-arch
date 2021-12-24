@@ -52,6 +52,8 @@ Adding an i (or I) before the closing bracket causes the value to be compared ca
 
 ::after, ::before
 content can only be usefully be used on ::after and ::before
+content syntax: normal|none|({<content-specifier>} / <alt-text>)
+the content-specifier can be a bunch of different things
 
 ### 'Power'
 
