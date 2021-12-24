@@ -116,6 +116,115 @@ Both orphans and widows take an <integer>
 orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
 widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
 
+##### Text
+
+The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
+
+##### Background
+
+The background: property is a shorthand for {{c1::background-clip}}, {{c2::background-color}}, {{c3::background-image}}, {{c4::background-origin}}, {{c5::background-position}}, {{c6::background-repeat}}, {{c7::background-size}} and {{c8::background-attachment}}
+background-repeat poss vals
+background-size poss vals
+background-attachment
+background-origin
+
+background-position takes a <position> value to position the background.
+
+##### edges
+
+Shorthand for edges in CSS use a consistent syntax:
+
+1 value|specifies all sides|<img src="sm_1_border.png">
+2 values|1st specifies top/bottom, 2nd specifies left/right|<img src="sm_2_border.png">
+3 values|1st specfies top, 2nd specfies left/right, 3rd specifies|<img src="sm_3_border.png">
+4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_border.png">
+
+Normally, instead of using the shorthand, you can also set the properties individually by using -top(-), -left(-), -bottom(-), -right(-) properties.
+
+###### Border
+
+border: border-width || border-style || border-color # shorthand for those three
+border can also be seen as a shorthand for border-top, border-right...
+border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
+border-width and subproperties take a <line-width>
+line-width ::= thin|medium|thick|<length>
+border-style and subproperties take a <line-style>
+
+line-style
+hidden|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em hidden black;">&nbsp;</div>
+dotted|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dotted black;">&nbsp;</div>
+dashed|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dashed black;">&nbsp;</div>
+solid|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em solid black;">&nbsp;</div>
+double|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em double black;">&nbsp;</div>
+groove|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em groove black;">&nbsp;</div>
+ridge|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em ridge black;">&nbsp;</div>
+inset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em inset black;">&nbsp;</div>
+outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black;">&nbsp;</div>
+
+##### Corners
+
+1 value|specifies all sides|<img src="sm_1_corner.png">
+2 values|1st specifies top/bottom, 2nd specifies left/right|<img src="sm_2_corner.png">
+3 values|1st specfies top, 2nd specfies left/right, 3rd specifies|<img src="sm_3_corner.png">
+4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_corner.png">
+
+##### Custom Counting
+
+counter-reset and counter-increment and the css functions counter() and counters() are used to defined custom counters for counting().
+counter-reset assigns a counter of name to value.
+counter-reset defaults a counter to 0 if no value is specified.
+counter-reset is also used initialize a counter.
+counter-reset: <counter-name> [<value>]{,<counter-name> [<value>]}
+counter-increment: <counter-name> [<value>]{<counter-name> [<value>]}
+counter-increment: increments the counter by value (default 1) for each time it is encountered.
+counter-reset on descendants creates a new counter, instead of assigning to the original counter.
+The css functions counter() and counters() takes a necessary first argument of the name of the counter. 
+The css functions counter() and counters() take an optional final argument of <counter-style>, which takes values of the css types <list-style-type>, <@counter-style> (or the ill-defined symbols function).
+counters() differs from counter() in that it takes a middle argument of a string, and separates multiple instances of the counter with the given string.
+
+<pre><code>ol {
+  counter-reset: section;                /* Creates a new instance of the
+                                            section counter with each ol
+                                            element */
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;            /* Increments only this instance
+                                            of the section counter */
+  content: counters(section, ".") " ";   /* Combines the values of all instances
+                                            of the section counter, separated
+                                            by a period */
+}</code></pre>
+
+<pre><code><ol>
+  <li>item</li>          <!-- 1     -->
+  <li>item               <!-- 2     -->
+    <ol>
+      <li>item</li>      <!-- 2.1   -->
+      <li>item</li>      <!-- 2.2   -->
+      <li>item           <!-- 2.3   -->
+        <ol>
+          <li>item</li>  <!-- 2.3.1 -->
+          <li>item</li>  <!-- 2.3.2 -->
+        </ol>
+        <ol>
+          <li>item</li>  <!-- 2.3.1 -->
+          <li>item</li>  <!-- 2.3.2 -->
+          <li>item</li>  <!-- 2.3.3 -->
+        </ol>
+      </li>
+      <li>item</li>      <!-- 2.4   -->
+    </ol>
+  </li>
+  <li>item</li>          <!-- 3     -->
+  <li>item</li>          <!-- 4     -->
+</ol>
+<ol>
+  <li>item</li>          <!-- 1     -->
+  <li>item</li>          <!-- 2     -->
+</ol></code></pre>
+
 #### Values
 
 ##### Functions
@@ -129,6 +238,26 @@ url()
 
 generally from the top left corner
 
+###### position
+
+<position> can take two kinds of values: keywords and values.
+Keywords for <position> are center, top, right, bottom and left.
+A value for <postion> can be a <percentage> or <length>.
+For <position>, specifying one value positions it exactly at that keyword (if keyword), or at value on the x axis and the y defaults to 50%.
+For <position>, specifying two values means that the first will apply to x positioning, and the second will apply to y positioning, unless it is two keywords.
+For <position>, a keyword followed by a value specifies the offset from the keyword.
+For <position>, if specifying two keywords or two keywords with values each, the order doesn't matter.
+The value described by <position> need not be inside the elements box.
+
+<img src="sm_position_value.png">
+
+##### color
+
+any property ending in -color: takes a <color> value
+
+##### length
+
+<length>
 
 
 
@@ -165,6 +294,8 @@ Some elements are treated as replaced elements only in specific cases:
 The only way CSS can style replaced elements is by controlling the positioning of the element's content within its box.
 
 The object-whatever properties target replaced elements.
+
+object-position takes a <position> value
 
 ## meida queries
 
