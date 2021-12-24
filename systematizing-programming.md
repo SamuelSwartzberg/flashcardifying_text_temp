@@ -1254,14 +1254,21 @@ If global, match() returns all matches, but no capturing groups. If not global, 
 
 <h4>common string methods</h4>
 
+Capitalizations
+
 convert to uppercase|.upper()|Python
 convert to lowercase|.lower()|Python
 convert to uppercase|.toUpperCase()|JS
 convert to lowercase|.toLowerCase()|JS
+convert to uppercase|text-transform: uppercase|CSS
+convert to lowercase|text-transform: lowercase|CSS
 switch upper and lower case chars|.swapcase()|Python
 capitalize all first letters|.title()|Python
+capitalize all the first letters|text-transform: capitalize|CSS
 capitalize the first letter of the string|.capitalize()|Python
 capitalize the first letter of the string| bar capitalize|Liquid
+
+
 does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
 does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
 remove whitespace from beginning and end of string|trim()|JS, Ruby
