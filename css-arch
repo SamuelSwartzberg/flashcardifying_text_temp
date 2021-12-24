@@ -51,6 +51,7 @@ Adding an i (or I) before the closing bracket causes the value to be compared ca
 #### Pseudo-elements
 
 ::after, ::before
+content can only be usefully be used on ::after and ::before
 
 ### 'Power'
 
@@ -145,6 +146,7 @@ widows says how many lines of a block container must appear at the top of a page
 ##### Text
 
 The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
+the color keyword sets the color of the text and text decorations and accpets a <color> value.
 
 ##### Background
 
@@ -155,6 +157,8 @@ repeat|repeat as much as needed to cover the whole painting area, clipping if ne
 space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
 round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left >= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
 no-repeat|do not repeat
+background-color: <color>
+background-color is rendered behind background-image
 
 background-size poss vals
 background-origin
@@ -175,12 +179,20 @@ Normally, instead of using the shorthand, you can also set the properties indivi
 
 ###### Border
 
-border: border-width || border-style || border-color # shorthand for those three
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
-border-width and subproperties take a <line-width>
+
+##### lines
+
+Line is not really an official css term.
+Lines: border, column-rule
+
+Lines have following shorthand and respective subproperties:
+foo: foo-width || foo-style || foo-color
+
+where foo-width takes a <line-width>
 line-width ::= thin|medium|thick|<length>
-border-style and subproperties take a <line-style>
+where foo-style takes a <line-style>
 
 line-style
 hidden|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em hidden black;">&nbsp;</div>
@@ -285,7 +297,19 @@ The value described by <position> need not be inside the elements box.
 
 ##### color
 
+All css color keywords are case-insensitive.
 any property ending in -color: takes a <color> value
+color  ::= transparent|currentColor|<color-keyword>|<hex-color>|<color-function>
+color keywords are things such as red, darkgrey, rebeccapurple 💜, which correspond to specific RGB values.
+the transparent keyword is a shortcut for rgba(0,0,0,0)
+The currentColor keyword represents the value of an element's color property, or the inherited value of the color property if specified as the color property. 
+color functions are a bunch of different CSS functions that take the components of a certain color model as arguments.
+most css color functions have a variant that ends a and accepts a fourth alpha value.
+CSS color functions: rgb/rgba, hsl/hsla
+for rgb()/rgba(), the color components can be <percentage>s from 0% to 100%, or <numbers> from 0 to 255
+for hsl()/hsla(), the h component is a <angle>, or a <number> between 0 and 360
+for hsl()/hsla(), s and l are <number-or-percentages> (how they work is specified in the general color flashcard)
+in css, the alpha channel takes a <number-or-percentage-0-1>
 
 ##### length
 
@@ -322,6 +346,8 @@ Some elements are treated as replaced elements only in specific cases:
 <canvas>
 <object>
 <applet>
+
+Objects inserted using the content property are anonymous replaced elements.
 
 The only way CSS can style replaced elements is by controlling the positioning of the element's content within its box.
 
