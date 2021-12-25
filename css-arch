@@ -1,6 +1,6 @@
 S ::= {<statement>}
 statement ::= <ruleset>|<at-rule>
-ruleset ::= <selector-group><declaration-block>
+ruleset ::= <selector-list><declaration-block>
 rulesets are less properly but more commonly called rules
 selector-group ::= <selector>{,<selector>}
 declaration-block ::= \{{<declaration>}\}
@@ -22,9 +22,30 @@ style as a HTML attribute takes n declarations
 
 ## Selectors
 
+A selector is a generic term that can refer to simple selector, compound selector, complex selector, or selector list.
+A simple selector is a single condition on an element.
+A type selector, universal selector, attribute selector, class selector, ID selector, or pseudo-class (pseudo-element is missing from the documentation, but I presume is part of this to) is a simple selector.
+A compound selectior is a sequence of one or more simple selectors that are not separated, and represent a set of simultaneous conditions on a single element.
+If a compound selector contains a type selector or universal selector, that must come first.
+A combinatior is a condition of the relationship between two compound selectors.
+A complex selector is a sequence of compound selectors separated by combinators.
+A complex selector represents a set of simultaneous conditions on element which are in the relationship described by the combinatiors.
+A selector list is a list of any or multiple types of selectors, separated by commas.
+A selector list most often means a list of complex selectors.
+A selector list is also called called selector group.
+
+selector-list (default complex selector meaning) ::= <complex-selector>{,<complex-selector>}
+complex-selector ::= <compound-selector>{[<combinator>]<compound-selector>}
+compound-selector ::= <simple-selector>{<simple-selector>}
+simple-selector ::= <type-selector>||<universal-selector>||<attribute-selector>||<class-selector>||<id-selector>||<pseudo-class-selector>||<pseudo-element-selector>
+
 ### Selectors
 
-#### Basic types
+#### Simple selectors
+
+
+
+##### Basic types
 
 Syntax of universal selector ::= *
 the universal selector matches everything
@@ -42,21 +63,29 @@ no operator (and no value) [<attr>]|just elements with attribute present
 
 Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).
 
-#### Combinators
-
-#### The Grouping selector
-
-#### Pseudo-classes
+##### Pseudo-classes
 
 A pseudo-class indicates a state of an element
+A pseudo-class is begun by a single colon
 
 :empty| matches an element that has no child **nodes** (including text nodes)
+:not(<selector-list>) matches elements that don't match selector-list.
+:not() is a pseudo-class, but has no influence on specificity
+:root selects the root element
+:indeterminate selects indeterminate element.
+An 
+input type="checkbox"|indeterminate when its indeterminate property is set to true via JS
+input type="radio"|indeterminate when no radio buttons with the same name are selected
+progress|indeterminate when no value attribute is present.
+:placeholder-shown selects an element whose placeholder is being shown (NOT the placeholder itself)
 
-#### Pseudo-elements
+##### Pseudo-elements
 
 A pseudo-element indicates a part of a element which isn't a real element.
+A pseudo-element is begun by two colons
 
 ::after, ::before
+In CSS, ::before/::after creates a pseudo-element that is the first/last child of the selected element. 
 content can only be usefully be used on ::after and ::before
 content syntax: normal|none|({<content-specifier>} / <alt-text>)
 the content-specifier can be a bunch of different things
@@ -68,6 +97,12 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 ::first-letter"matches the first letter of a block-level element
 ::first-line|matches the first line of a block-level element
 ::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath {{c1::any element that is in fullscreen}}
+
+
+#### Combinators
+
+#### The Grouping selector
+
 
 ### 'Power'
 
@@ -145,7 +180,8 @@ Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, cross
 ##### width, height
 
 width and height each have corresponding min- and max- properties
-
+power of width and height properties: min- > max- > ø
+width and height and corresponding min/max values take the following values: <length-percentage>|auto|min-content|max-content|fit-content(<length-percentage>)
 
 ##### flexbox & grid
 
@@ -192,6 +228,90 @@ The most common clearfix technique might be: ::after {
   clear: both;
 }
 
+##### display
+
+The display property controls two distinct-things: the outer and the inner display type.
+The outer display type of an element controls how it will praticipate in normal flow.
+The inner display type of an element controls the layout of the children.
+There is a two-value syntax for display describing the outer and inner display type separately, but it isn't well supported yet.
+The two-value syntax for display is <display-outside> <display-inside>
+In absence of the two-value syntax for display, most keywords control both the outer and the inner display type.
+The possible values for <display-outside> are the ways an element can participate in normal flow.
+There are two ways an element can participate in normal flow, block and inline.
+Some values for display do not set the outer or inner display type, instead they set a role within a complex layout model.
+The values for display that don't set the outer or inner display type, but instead their role within a complex layout have the type <display-internal>.
+The complex layout models that have display properties for their parts are table and ruby.
+the values with type <display-internal> are ruby-* and table-*
+
+legacy-1-value property|equivalent
+inline-block|inline flow-root
+inline-table|inline table
+inline-flex|inline flex
+inline-grid|inline grid
+
+Everything in CSS is within a certain formatting context.
+The best way of thinking of formatting contexts is as mini-layouts
+Most <display-inside> values establish a new formatting context, besides flow, which may not.
+The purpose of <display-inside> is to set new formatting contexts, unless we're using flow for compat.
+<display-inside>|establishes formatting context
+flow-root|block formatting context
+table|table formatting context
+ruby|ruby formatting context
+grid|grid formatting context
+flex|flex formatting context
+
+If only the <display-inside> value is set, the <display-outside> value will default to block.
+
+the value flow for <display-inside> makes the element participate in normal/flow layout as normal.
+if only <display-outside> is specified, <display-inside> will be set to flow for compatibility;
+
+display: list-item may be either a <display-outside> or a <display-inside> value.
+display: list-item may be combined with block/inline for <display-outside> and flow/flow-root for <display-inside>
+
+Elements within a block-formatting context are layed out according to normal flow.
+Normal flow may also be called flow layout.
+a block-formatting context, by establishing a new flow layout, has interesting effects.
+- they contain floats 
+the <html> element establishes a new block-formatting context.
+Block-formatting contexts are created explicitly with the <display-inside> value of flow-root.
+Block-formatting contexts are also created by a bunch of other properties, including but possibly not limited to:
+floating elements
+flex and grid items.
+elements with...
+column-span: all
+contain: layout|content|strict
+overflow: anything but vissible
+display: table-cell
+absolutely positioned elements
+
+a block-level element is an element with <display-outside> block
+a inline-level element is an element with <display-outside> inline
+Normal flow has two basic parameters: the <dfn>inline (base) direction</dfn> and the <dfn>block (flow) direction</dfn>.
+The inline base direction defines how content is ordered inline.
+The block flow direction defines how blocks are added.
+Generally, the inline base direction and block flow direction are perpendicular to one another.
+The inline base direction and block flow direction are mainly determined by writing-mode.
+any value for writing mode has the syntax (vertical|horizontal)-(lr|rl|tb).
+The default value for writing-mode (horizontal-tb) has a inline base direction of horizontal, and a block flow direction of top to bottom.
+By default, block-level elements are 100% width of the inline base direction axis.
+block-level elements can have their height and width set manually, while inline-level elements
+both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
+<img src="sm_inline_margins.png">
+Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
+inline-level elements and text nodes are actually handled by the browser via line boxes.
+the browser will fill a line box in the inline base direction with inline-level elements or text until it is full
+Once a line box is full, the browser will add a second line box, etc.
+A line box is as tall as its tallest content.
+If the browser encounters a block-level element while creating line boxes, it stops the line box, puts the block-level element on a line of itself, and then creates a new line box if there's more inline-level elements/text to be handled.
+line-height sets the minimum height of a line box.
+If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
+<img src="sm_line_height_overflow.png">
+vertical-align is relative to the line box for some properties, and to the font for others.
+
+if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
+mixed|rotate vertical scripts (e.g. japanese), but not non-vertical scripts (e.g. latin letters)
+upright|rotate all scripts
+sideways|don't rotate any scripts (not well supported atm)
 
 ##### Background
 
