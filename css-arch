@@ -3,7 +3,8 @@ statement ::= <ruleset>|<at-rule>
 ruleset ::= <selector-list><declaration-block>
 rulesets are less properly but more commonly called rules
 selector-group ::= <selector>{,<selector>}
-declaration-block ::= \{{<declaration>}\}
+declaration-block ::= \{<declaration-list>\}
+declaration-list ::= {<declaration>}
 declaration :: <property>:<value>; // Technically, the ; is not a part of the declaration, since it only separates and does not terminate declarations. Therefore you can leave out the final semicolon of a declaration block, though this is generally not advised. This would overcomplicate the ENBF, so here this note.
 
 at-rule ::= @<identifier> <prelude>[\{<block>\}]
@@ -175,6 +176,10 @@ When specifying an url() for cursor, the x and y values specify the offset in px
 `cursor: default` shows the platform-default cursor.
 Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
 
+##### Caret
+
+The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted. 
+
 ##### word-break, overflow-wrap
 
 ##### width, height
@@ -188,12 +193,9 @@ width and height and corresponding min/max values take the following values: <le
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
 The thing that has display:flex/inline-flex/grid/inline-grid is called flex/grid container.
 
-##### Orphans and Widows
+##### Pointer-events
 
-orphans and widows are two twin properties in CSS that apply only to pages or columns.
-Both orphans and widows take an <integer>
-orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
-widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
+pointer-events: {{c1::none}} makes a thing completely ininteractable with a mouse.
 
 ##### Text
 
@@ -202,6 +204,10 @@ the color keyword sets the color of the text and text decorations and accpets a 
 
 word-spacing sets the additional space between words beyond the space there by default. 
 word-spacing takes a <length-percentage>
+
+the quotes property sets the quotes that the open-quotes and close-quotes of content will evaluate to.
+the quotes property is inherited and so doesn't have to be set on the thing with the content property
+quotes takes two strings, the opening and the closing quote, it may also take two more strings, which are for when there are nested.
 
 ##### Scrolling
 
@@ -227,91 +233,6 @@ The most common clearfix technique might be: ::after {
   display: block;
   clear: both;
 }
-
-##### display
-
-The display property controls two distinct-things: the outer and the inner display type.
-The outer display type of an element controls how it will praticipate in normal flow.
-The inner display type of an element controls the layout of the children.
-There is a two-value syntax for display describing the outer and inner display type separately, but it isn't well supported yet.
-The two-value syntax for display is <display-outside> <display-inside>
-In absence of the two-value syntax for display, most keywords control both the outer and the inner display type.
-The possible values for <display-outside> are the ways an element can participate in normal flow.
-There are two ways an element can participate in normal flow, block and inline.
-Some values for display do not set the outer or inner display type, instead they set a role within a complex layout model.
-The values for display that don't set the outer or inner display type, but instead their role within a complex layout have the type <display-internal>.
-The complex layout models that have display properties for their parts are table and ruby.
-the values with type <display-internal> are ruby-* and table-*
-
-legacy-1-value property|equivalent
-inline-block|inline flow-root
-inline-table|inline table
-inline-flex|inline flex
-inline-grid|inline grid
-
-Everything in CSS is within a certain formatting context.
-The best way of thinking of formatting contexts is as mini-layouts
-Most <display-inside> values establish a new formatting context, besides flow, which may not.
-The purpose of <display-inside> is to set new formatting contexts, unless we're using flow for compat.
-<display-inside>|establishes formatting context
-flow-root|block formatting context
-table|table formatting context
-ruby|ruby formatting context
-grid|grid formatting context
-flex|flex formatting context
-
-If only the <display-inside> value is set, the <display-outside> value will default to block.
-
-the value flow for <display-inside> makes the element participate in normal/flow layout as normal.
-if only <display-outside> is specified, <display-inside> will be set to flow for compatibility;
-
-display: list-item may be either a <display-outside> or a <display-inside> value.
-display: list-item may be combined with block/inline for <display-outside> and flow/flow-root for <display-inside>
-
-Elements within a block-formatting context are layed out according to normal flow.
-Normal flow may also be called flow layout.
-a block-formatting context, by establishing a new flow layout, has interesting effects.
-- they contain floats 
-the <html> element establishes a new block-formatting context.
-Block-formatting contexts are created explicitly with the <display-inside> value of flow-root.
-Block-formatting contexts are also created by a bunch of other properties, including but possibly not limited to:
-floating elements
-flex and grid items.
-elements with...
-column-span: all
-contain: layout|content|strict
-overflow: anything but vissible
-display: table-cell
-absolutely positioned elements
-
-a block-level element is an element with <display-outside> block
-a inline-level element is an element with <display-outside> inline
-Normal flow has two basic parameters: the <dfn>inline (base) direction</dfn> and the <dfn>block (flow) direction</dfn>.
-The inline base direction defines how content is ordered inline.
-The block flow direction defines how blocks are added.
-Generally, the inline base direction and block flow direction are perpendicular to one another.
-The inline base direction and block flow direction are mainly determined by writing-mode.
-any value for writing mode has the syntax (vertical|horizontal)-(lr|rl|tb).
-The default value for writing-mode (horizontal-tb) has a inline base direction of horizontal, and a block flow direction of top to bottom.
-By default, block-level elements are 100% width of the inline base direction axis.
-block-level elements can have their height and width set manually, while inline-level elements
-both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
-<img src="sm_inline_margins.png">
-Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
-inline-level elements and text nodes are actually handled by the browser via line boxes.
-the browser will fill a line box in the inline base direction with inline-level elements or text until it is full
-Once a line box is full, the browser will add a second line box, etc.
-A line box is as tall as its tallest content.
-If the browser encounters a block-level element while creating line boxes, it stops the line box, puts the block-level element on a line of itself, and then creates a new line box if there's more inline-level elements/text to be handled.
-line-height sets the minimum height of a line box.
-If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
-<img src="sm_line_height_overflow.png">
-vertical-align is relative to the line box for some properties, and to the font for others.
-
-if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
-mixed|rotate vertical scripts (e.g. japanese), but not non-vertical scripts (e.g. latin letters)
-upright|rotate all scripts
-sideways|don't rotate any scripts (not well supported atm)
 
 ##### Background
 
@@ -372,10 +293,17 @@ outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black
 
 ##### Corners
 
-1 value|specifies all sides|<img src="sm_1_corner.png">
-2 values|1st specifies top/bottom, 2nd specifies left/right|<img src="sm_2_corner.png">
-3 values|1st specfies top, 2nd specfies left/right, 3rd specifies|<img src="sm_3_corner.png">
-4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_corner.png">
+1 value|specifies all corners|<img src="sm_1_corner.png">
+2 values|1st specifies topleft and bottomright, 2nd specifies topright and bottomleft|<img src="sm_2_corner.png">
+3 values|1st specfies topleft, 2nd specfies topright and bottomleft, 3rd bottomright|<img src="sm_3_corner.png">
+4 values|1,2,3,4 topleft topright bottomright bottomleft|<img src="sm_4_corner.png">
+
+Normally, instead of using the shorthand, you can also set the properties individually by using -top-left(-), -top-right(-), -bottom-right(-), -bottom-left(-) properties.
+
+things that take corners may also take two sets of corners specifiers, separated by a slash.
+If a thing takes two sets of corner specifiers, the first apply in x direction and the second in y direction.
+
+Things that specify corners are border-radius
 
 ##### Custom Counting
 
@@ -511,7 +439,27 @@ for @font-face, since you're specifying fonts and not font-families, for differe
 
 unicode-range: some-range will only load the font if the document uses the font for at least one character within the range
 
+#### @keyframes
 
+Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \}
+<keyframes-name> ::= <custom-ident>|<string>
+<keyframe-block-list> ::= {<keyframe-block>}
+<keyframe-block> ::= <keyframe-selector-list><declaration-block>
+<keyframes-selector-list>  ::= <keyframe-selector>{,<keyframe-selector>}
+<keyframe-selector> ::= from|to|<percentage>
+
+from is an alias of 0% and to is an alias of 100%
+Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
+
+#### @page
+
+@page syntax: @page <page-selector-list>\{<page-body>\}
+page-selector-list ::= <page-pseudo-class>{, <page-pseudo-class>} #maybe it's not a comma? I couldn't find any documentation this
+page-pseudo-class ::= :first|:blank|:left|:right
+page-body :: <page-declaration>;|<margin-at-rule>
+currently supported properties for the page declaration are margins, orphans, widows and break
+margin-at-rule = @<margin-at-rule-name><declaration-block>
+<img src="page_margin_at_rules.png">
 
 ### non-nested at-rules
 
@@ -544,6 +492,148 @@ The only way CSS can style replaced elements is by controlling the positioning o
 The object-whatever properties target replaced elements.
 
 object-position takes a <position> value
+
+## flow
+
+CSS takes as its input a tree of elements and text nodes, most commonly a pared-down DOM.
+CSS takes the DOM and converts it to an intermediary structure, the box tree.
+To create the box tree, CSS first gets the computed value for each CSS property for each element. Then CSS generates zero or more boxes for each element as specified by that elements display property.
+Typically, CSS generates one box per element, the principal box.
+CSS may generate more than one box for an element, or none at all.
+For example, display: list-item generates a principal block box and a child marker box.
+Boxes are often referred to by their display type—e.g. a box generated by an element with display: block is called a “block box” or just a “block”.
+Ergo, a block is just a box of an element with display: block.
+A box is assigned the same styles as its generating element, unless otherwise indicated.
+In constructing the box tree, boxes generated by an element are descendants of the principal box of any ancestor elements.
+In the general case, the direct parent box of an element’s principal box is the principal box of its parent element; however, there are some exceptions.
+An anonymous box is one not associated with any element.
+Unlike element-generated boxes, whose styles inherit strictly through the element tree, anonymous boxes (which only exist in the box tree) inherit through their box tree parentage.
+CSS outputs its output onto a canvas, which may be your screen, a piece of paper, an audio stream or something else.
+
+
+### display
+
+The display property controls two distinct-things: the outer and the inner display type.
+The outer display type of an element controls how it will praticipate in normal flow.
+The inner display type of an element controls the layout of the children.
+There is a two-value syntax for display describing the outer and inner display type separately, but it isn't well supported yet.
+The two-value syntax for display is <display-outside> <display-inside>
+In absence of the two-value syntax for display, most keywords control both the outer and the inner display type.
+The possible values for <display-outside> are the ways an element can participate in normal flow.
+There are two ways an element can participate in normal flow, block and inline.
+Some values for display do not set the outer or inner display type, instead they set a role within a complex layout model.
+The values for display that don't set the outer or inner display type, but instead their role within a complex layout have the type <display-internal>.
+The complex layout models that have display properties for their parts are table and ruby.
+the values with type <display-internal> are ruby-* and table-*
+
+legacy-1-value property|equivalent
+inline-block|inline flow-root
+inline-table|inline table
+inline-flex|inline flex
+inline-grid|inline grid
+
+Everything in CSS is within a certain formatting context.
+The best way of thinking of formatting contexts is as mini-layouts
+Most <display-inside> values establish a new formatting context, besides flow, which may not.
+The purpose of <display-inside> is to set new formatting contexts, unless we're using flow for compat.
+<display-inside>|establishes formatting context
+flow-root|block formatting context
+table|table formatting context
+ruby|ruby formatting context
+grid|grid formatting context
+flex|flex formatting context
+
+there is such a thing as a multi-column formatting context, but it is not established by a <display-inside> value, 
+instead any element with with column-width or colum-count not as auto establishes a multi-column container.
+Any fragmentainer created by the multicolumn fragmentation context is called a column box
+
+Elements establishing an x formatting context (except perhaps block formatting context) are called an x container. 
+For grid and flex, children of the grid/flex container are called grid/flex items.
+
+If only the <display-inside> value is set, the <display-outside> value will default to block.
+
+the value flow for <display-inside> makes the element participate in normal/flow layout as normal.
+if only <display-outside> is specified, <display-inside> will be set to flow for compatibility;
+
+display: list-item may be either a <display-outside> or a <display-inside> value.
+display: list-item may be combined with block/inline for <display-outside> and flow/flow-root for <display-inside>
+
+Elements within a block-formatting context are layed out according to normal flow.
+Normal flow may also be called flow layout.
+a block-formatting context, by establishing a new flow layout, has interesting effects.
+- they contain floats 
+the <html> element establishes a new block-formatting context.
+Block-formatting contexts are created explicitly with the <display-inside> value of flow-root.
+Block-formatting contexts are also created by a bunch of other properties, including but possibly not limited to:
+floating elements
+flex and grid items.
+elements with...
+column-span: all
+contain: layout|content|strict
+overflow: anything but vissible
+display: table-cell
+absolutely positioned elements
+
+a block-level element is an element with <display-outside> block
+a inline-level element is an element with <display-outside> inline
+Normal flow has two basic parameters: the <dfn>inline (base) direction</dfn> and the <dfn>block (flow) direction</dfn>.
+The inline base direction defines how content is ordered inline.
+The block flow direction defines how blocks are added.
+Generally, the inline base direction and block flow direction are perpendicular to one another.
+The inline base direction and block flow direction are mainly determined by writing-mode.
+any value for writing mode has the syntax (vertical|horizontal)-(lr|rl|tb).
+The default value for writing-mode (horizontal-tb) has a inline base direction of horizontal, and a block flow direction of top to bottom.
+By default, block-level elements are 100% width of the inline base direction axis.
+block-level elements can have their height and width set manually, while inline-level elements
+both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
+<img src="sm_inline_margins.png">
+Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
+inline-level elements and text nodes are actually handled by the browser via line boxes.
+the browser will fill a line box in the inline base direction with inline-level elements or text until it is full
+Once a line box is full, the browser will add a second line box, etc.
+A line box is as tall as its tallest content.
+If the browser encounters a block-level element while creating line boxes, it stops the line box, puts the block-level element on a line of itself, and then creates a new line box if there's more inline-level elements/text to be handled.
+line-height sets the minimum height of a line box.
+If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
+<img src="sm_line_height_overflow.png">
+vertical-align is relative to the line box for some properties, and to the font for others.
+
+if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
+mixed|rotate vertical scripts (e.g. japanese), but not non-vertical scripts (e.g. latin letters)
+upright|rotate all scripts
+sideways|don't rotate any scripts (not well supported atm)
+
+### fragmented flow
+
+CSS paged media and containers consist of a fragmentation flow.
+Inline flow is actually also fragemnted flow.
+A fragmented flow is made up of n fragmentainers.
+When breakable content would overflow a fragmentainer in the block dimension, it breaks into the next container in its fragmentation context instead.
+A fragmentainer establishes its own block-formatting context.
+A fragmentation context is a series of fragmentainers.
+A fragmentainer contains a portion of or all of a fragmented flow.
+In normal flow, a box may only consist of one box fragment.
+In fragmented flow, a box may consist of one or more box fragments.
+A (box) fragment is the part of a box that is in a given fragmentainer.
+Each box fragment has its own share of the box's padding, border, and margin. 
+
+#### Orphans and Widows
+
+orphans and widows are two twin properties in CSS that apply only to pages or columns.
+Both orphans and widows take an <integer>
+orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
+widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
+
+#### Break
+
+The break-before/break-after/break-inside properties apply to pages and collumns.
+The break-before/after/inside says how to break before/after/within a block-level element
+break-before/after/inside take a keyword called avoid which prevents breaking within (if possible).
+The avoid keyword for break-* is available as avoid-page and avoid-column to only apply to these, repsectively.
+break-before/after but not inside  take a keyword called page or column which forces breaking before/after/within the respective thing (if possible).
+break-before/after but not inside take the keywords left/right to force breaking before/after if the thing is a page that is a left/right page
+break-before/after/inside default to auto, which means a break is allowed but not mandatory.
+A break created by break-before and break-after is called a forced break.
 
 ## meida queries
 

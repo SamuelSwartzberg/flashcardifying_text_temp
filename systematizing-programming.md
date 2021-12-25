@@ -2048,7 +2048,7 @@ in JS you can leave out <members> from if you only want the side effects
 Python instead has the order from <path> import <members> [as <name>]
 
 In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
-@import syntax: @import <path> (<media-query>|<supports-query>);
+@import syntax: @import <path> (<media-query>|<feature-query>);
 For CSS, the <path> may be an <url> or a <string>
 
 SCSS/Sass 
