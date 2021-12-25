@@ -48,12 +48,26 @@ Adding an i (or I) before the closing bracket causes the value to be compared ca
 
 #### Pseudo-classes
 
+A pseudo-class indicates a state of an element
+
+:empty| matches an element that has no child **nodes** (including text nodes)
+
 #### Pseudo-elements
+
+A pseudo-element indicates a part of a element which isn't a real element.
 
 ::after, ::before
 content can only be usefully be used on ::after and ::before
 content syntax: normal|none|({<content-specifier>} / <alt-text>)
 the content-specifier can be a bunch of different things
+
+::placeholder|matches placeholder text
+In HTML/CSS, <input> and <textarea> can have placeholder text in form of a placeholder attribute.
+::selection|matches text currently selected/highlighted by the user via cursor/touch etc.
+::selection only supports a subset of properties, mainly color, background-color and text-shadow.
+::first-letter"matches the first letter of a block-level element
+::first-line|matches the first line of a block-level element
+::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath {{c1::any element that is in fullscreen}}
 
 ### 'Power'
 
@@ -149,6 +163,35 @@ widows says how many lines of a block container must appear at the top of a page
 
 The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
 the color keyword sets the color of the text and text decorations and accpets a <color> value.
+
+word-spacing sets the additional space between words beyond the space there by default. 
+word-spacing takes a <length-percentage>
+
+##### Scrolling
+
+overscrolling is what happens when you scroll further on something than that thing allows.
+on mobile browsers and some desktop browsers, there is a form of overscrolling where the site will rubberband
+when you overscroll a container, and this then starts scrolling the next-higher container, this is known as scroll chaining.
+overscroll-behavior is actually a shorthand for overscroll-behavior-x and overscroll-behavior-y
+overscroll-behavior: none prevents all overscrolling.
+overscroll-behavior: contain will prevent scroll chaining only
+
+##### float & clear
+
+float places an element at one side of the container or next to another floating element, allowing text/inline elements to wrap around it.
+float: left/right makes the element go to the left/right side of the container/the next float respectively.
+A floating element is where the (computed) value of float is not none.
+Float implies display: block, and converts it if required.
+The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. 
+the clear property applies to clearing all floats if set to both, or to only clearing left/right floats if set to left or right.
+If element contains only floated elements, its height will collapse to nothing.
+To prevent and element containing only floated elements height collapsing to nothing, a technique called a clearfix is used.
+The most common clearfix technique might be: ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 ##### Background
 
@@ -313,9 +356,18 @@ for hsl()/hsla(), the h component is a <angle>, or a <number> between 0 and 360
 for hsl()/hsla(), s and l are <number-or-percentages> (how they work is specified in the general color flashcard)
 in css, the alpha channel takes a <number-or-percentage-0-1>
 
+##### simple types
+
+the <url> datatype is a css function
+url ::= url(<string>) # where string must be a valid url or path or the ID of a SVG shape
+
 ##### length
 
-<length>
+<length> consists of a <number> followed by a <length-unit>.
+
+
+
+The <length-percentage> CSS data type represents a value that can be either a <length> or a <percentage>.
 
 
 
@@ -324,11 +376,27 @@ in css, the alpha channel takes a <number-or-percentage-0-1>
 
 ## at-rules
 
-###
+### nested at-rules
 
 #### @font-face
 
+@font-face defines a font face for use within the document.
+@font-face takes at least a font-family: foo, which is the name we will use to refer to it, and a src, which provides the file for the font itself.
+@font-faces src syntax: (<font-face-name>|<url> [format(<string>)]) {<url> [format(<string>)]}
+font-face-name: local(<string>) # where the string is the name of a locally-installed font.
+calls to local() for @font-faces src should go first since if it finds the font locally, it does not have to load it fron the URL.
+for @font-faces src, the first call to local() or url() that is usable will be used.
+For the @font-face src call, the format() function takes a string specifying the format of the font, where the font will only be loaded if the browser supports that format.
+for @font-face, since you're specifying fonts and not font-families, for different font-weights and font-styles, you must specify multiple @font-face declarations, and within those, specify which font-weight or font-style this is specifying. Only fonts actually used will be loaded. This does not apply to variable fonts.
+
 unicode-range: some-range will only load the font if the document uses the font for at least one character within the range
+
+
+
+### non-nested at-rules
+
+@charset "<charset>"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
+@charset must be the first statement in the document if present.
 
 ## elements
 
@@ -359,12 +427,16 @@ object-position takes a <position> value
 
 ## meida queries
 
+Media queries and feature queries have a fair amount of similarities.
 Media queries are boolean assertions if the current user's environment/device/UA is a certain way.
+Feature queries are boolean assertions if a browser supports a certain set of CSS properties with certain values.
 A media query is either true or false for the current user's combination of environment/device/UA.
+A feature query is either true or false for the current user's CSS feature set.
 Media queries are built from media types, media features, and logical operators.
 Media types describe the broad category of device or UA.
 Media features describe a specific feature of the environment/device/UA, which can be true or false.
 Media queries are most commonly used by @media at-rules, and less frequently by @import at-rules (specified after the meat and potatoes), the media attribute in HTML, and in JS by Window.matchMedia() and MediaQueryList.addListener().
+A feature query consists of "feature features" (my coinage) and logical operators.
 
 Media types
 
@@ -386,13 +458,15 @@ aspect-ratio tests for a certain aspect ratio
 hover testss whether the user's primary input mechanism can hover
 prefers-reduced-motion is used to detect if the user has requested that the system minimize the amount of non-essential motion it uses (this is often an OS-level toggle)
 
-Media features are specified in a (key: value) syntax (parentheses not optional)
+Media features as well as feature features are specified in a (key: value) syntax (parentheses not optional)
+for feature features for (key: value), key is a property and value is a possible value.
 Media features that are range features can take a min- and a max- version of that feature to specify a range of acceptable values
 Level 4 media queries support a more intuitive syntax for range features using &lt;, &gt;, = etc.
 Media featurs that are range features: color, resolution, height, width, aspect-ratio
 
 The logical operators that are valid within media queries are and and not (which work as expected), and the comma, which acts as an or, but cannot be nested (i.e. can only combine media queries at the top level). 
-In Level 3, the not keyword can't be used to negate an individual media feature expression, only an entire media query.
+as of Level 3 media queries (changes in level 4 media queries), the not keyword can't be used to negate an individual media feature expression, only an entire media query.
+feature queries supports similar logical operators to media queries, but instead of the comma, it has a normal or operator, and not can also invert parts of feature queries.
 The operator only is mainly useful for preventing browsers from matching if part of the media query applies, and there is another part that they don't understand (e.g. older browsers) and thus ignore.
 
 An @media at-rule is a conditional which takes a media query and executes the CSS contained within if the media query is true.
@@ -404,3 +478,5 @@ Syntax @media &lt;media-query&gt; &lt;block&gt;
     padding: 1rem 3rem;
   }
 }
+
+A @supports at-rule is a conditional which takes a feature query
