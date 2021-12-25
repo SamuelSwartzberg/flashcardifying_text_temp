@@ -1,6 +1,7 @@
 bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
 italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
 emphasize (generally via italics)|\emph{}|&lt;em>|N/A
+strongly emphasize||<strong>|N/A
 underline|\underline{}|&lt;u>|N/A
 strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
 hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
@@ -24,6 +25,7 @@ image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no al
 horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
 superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
 subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
+indicate a variable semantically||<var>
 
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
@@ -45,3 +47,106 @@ hyperref|create links automatically and \href, \url commands
 
 
 nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
+
+## HTML
+
+### General structure
+
+An HTML document is started by the &lt;html&gt; tag and ended by the &lt;/html&gt; tag.
+a &lt;html&gt; element consists of a &lt;head&gt; section and a &lt;body&gt;
+
+### <head>
+
+The &lt;head&gt; in HTML contains metadata about the document.
+it can contain:
+the &lt;title&gt; element, which defines the documents title
+the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, as well as search engines.
+the &lt;title&gt; element can only contain text, not tags.
+
+### Media
+
+&lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
+Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
+The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
+
+<table>
+<tbody>
+<tr>
+<td>((c:2;::muted))</td>
+<td>((c:7;::Indicates whether the audio is muted))</td>
+</tr>
+<tr>
+<td>((c:3;::paused))</td>
+<td>((c:8;::Indicates whether it is paused))</td>
+</tr>
+<tr>
+<td>((c:4;::ended))</td>
+<td>((c:9;::Indicates whether it has finished playing))</td>
+</tr>
+<tr>
+<td>((c:5;::loop))</td>
+<td>((c:10;::Indicates whether it will loop))</td>
+</tr>
+<tr>
+<td>((c:6;::playbackRate))</td>
+<td>((c:11;::Represents the speed at which the thing is playing))</td>
+</tr>
+</tbody>
+</table>
+
+You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
+You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
+&lt;track&gt; defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)
+
+### Headings
+
+&lt;h1&gt; to &lt;h6&gt; define headings.
+It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
+There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
+Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessibility and SEO heading levels
+
+### progress and meter
+
+<pre><code>&lt;<span class="c1-cloze">progress</span> id="file" <span class="c2-cloze">max</span>="100" <span class="c3-cloze">value</span>="70"&gt; 70% &lt;/<span class="c1-cloze">progress</span>&gt;
+</code></pre>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span><br><div class="sub">
+<div class="sub c1-f c2-b">
+<progress id="file" max="100" value="70"> 70% </progress>
+</div>
+</div>
+A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
+In HTML, a progress bar can be indicated by &lt;progress&gt;
+In HTML, meter generally displays as a bar of varying fullness.
+In HTML, meter supposedly represents a scalar value within a known range.
+In HTML, meter accepts min, max, low, high, optimum and value to specify the constraints of the scalar value defined.
+In HTML, progress only accepts max and value as attributes, reflecting the semantics of the completion of a task.
+In HTML both progress and meter support a fallback text value within their tags.
+
+### tables
+
+table > tbody/thead/tfoot (optional level, but if used, any tr must be within it)
+tbody/thead/tfoot > tr
+tr > th/td
+
+### input
+
+specifying the value property of an input element in HTML sets its initial value.
+As the state of <input>s changes, the value property in JS is updated.
+
+#### types
+
+##### radio 
+
+A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
+In HTML, a radio button is realized by <input type="radio">
+In HTML, multiple radio buttons are linked by assigning them the same number.
+
+Bootstrap:
+
+.form-check # set of radio buttons
+.form-check-label   define a label for a checkbox/radio button
+.form-check-input   define a checkbox/radio button
+
+### HTML interface
+
+any HTML element has a JS interface that is called HTMLSomeelementnameElement.
