@@ -787,6 +787,9 @@ checking for NaN
 Number.isNaN(num)|JS (true only for NaN)
 checking for finity
 Number.isFinite(num)|JS (false for all non-numbers and NaN/Infinity)
+In CSS, the general numeric type is <number>, which supports decimal numbers also. <integer> is a speialization for integers.
+In CSS, percentages are a special type, <percentage>. 
+In CSS, <percentage> consists of a <number> followed by a %
 
 <h4>Overflow</h4>
 
@@ -1164,6 +1167,8 @@ Multiline string delimiters
 
 Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
 >\nproper indentation|YAML
+
+The type for css strings is <string>
 
 <h4>String interpolation/String formatting<h4>
 
@@ -2042,7 +2047,9 @@ in JS you can leave out <members> from if you only want the side effects
 
 Python instead has the order from <path> import <members> [as <name>]
 
-
+In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
+@import syntax: @import <path> (<media-query>|<supports-query>);
+For CSS, the <path> may be an <url> or a <string>
 
 SCSS/Sass 
 
