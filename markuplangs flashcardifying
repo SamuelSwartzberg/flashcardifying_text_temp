@@ -16,11 +16,6 @@ Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo
 Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
 A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
 a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
-ordered list|enumerate environment|&lt;ol>
-unordered list|itemize environment|&lt;ul>
-list item|\item|&lt;li>
-description list|\description|&lt;dl>
-Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
 image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
 horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
 superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
@@ -29,11 +24,18 @@ indicate a variable semantically||<var>
 
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
-by default, latex only allows the nesting of lists to a depth of four
-Lists in latex are created by environment
+
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
+
+
+i|italic|conventionally italic
+em|italic|more important
+b|bold|conventionally bold
+strong|bold|super important
+u|underline|has non-textual annotation of some kind
+mark|yellow highlighter|highlighted ≈ area of interest
  
 
 non-breaking space|\nonbreakspace or ~|&amp;nbsp;
@@ -47,6 +49,56 @@ hyperref|create links automatically and \href, \url commands
 
 
 nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
+
+# SGML/XML/HTML
+
+SGML stands for Standard Generalized Markup Language.
+XML is a subset of SGML.
+HTML was originally based on SGML, though the relationship has sometimes been fraught.
+Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
+
+SGML/XML/HTML <dfn>tags</dfn> are delimited by &lt;...&gt;
+SGML/XML/HTML end tags additionally feature a / to look like &lt;.../&gt;
+An SGML/XML/HTML <dfn>element</dfn> is everything from an elements start tag to an elments end tag.
+An SGML/XML/HTML element has an <dfn>element name</dfn>.
+An SGML/XML/HTML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
+SGML/XML/HTML elements are begun by a <dfn>start tag</dfn> and ended by an <dfn>end tag</dfn>, unless they are self-closing.
+SGML/XML/HTML element consist of start tag, content, and end tag.
+SGML/XML/HTML elements' <dfn>content</dfn> is either text or other elements ('child elements').
+SGML/XML/HTML content goes between the start and the end tag.
+<dfn>Empty elments</dfn> are created by (or a synonym to) self-closing tags.
+Self-closing tags in SGML/XML/HTML only consist of a start tag.
+Self-closing tags must end /&gt; in XML.
+Self-closing tags may end /&gt; or merely &gt; in HTML.
+Using a closing tag for self-closing tags is usually invalid.
+Empty elements cannot have content, since there is nowhere to put it.
+
+Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
+an HTML element name may only 
+
+SGML/XML/HTML attributes are placed in the start tag.
+SGML/XML/HTML attributes have the syntax key="value".
+HTML attribute values may be unquoted if they do not feature whitespace and a few reserved characters.
+HTML features boolean attributes: attributes which <em>may not</em> take a value, but whose presence or absence represnets true or false.
+HTML also features enumerated attriubtes: attributes that take a fixed set of values.
+Confusingly, some HTML attributes with boolean semantics are not boolean attributes, but instead enumerated attributes, mostly with the possible values "yes" and "no" or "true" and "false".
+
+SGML/XML/HTML element names may be in any case.
+in HTML, putting element names in all lower case is common.
+XML element names may contain any unicode with the exception of some metacharacters.
+HTML and SVG built-in element names only contain characters a-z.
+HTML custom elements must start with a character a-z in lowercase, must contain at least a hyphen character, but otherwise may contain any unicode.
+
+SGML/XML/HTML documents contain exactly one root element. All other elements are contained in the root element.
+The SGML/XML/HTML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
+
+## doctype
+
+A document type declaration, or doctype, is an instruction that associates a particular XML or SGML document (for example, a webpage) with a document type definition (DTD).
+A document type declaration must be the first thing in the page if HTML.
+A document type declaration must be the first thing after the XML declaration if XML
+The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
+In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
 
 ## HTML
 
@@ -97,6 +149,11 @@ The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
 You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
 &lt;track&gt; defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)
+&lt;source&gt; elements for audio/video take their URL in a src attribute.
+
+### source
+
+the type of a &lt;source&gt; element is specified via the type attriube, or else the browser will check the MIME type in the HTTP header 
 
 ### Headings
 
@@ -104,6 +161,12 @@ You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt
 It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
 There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
 Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessibility and SEO heading levels
+
+### del and ins 
+
+The &lt;del&gt; HTML element represents text that has been deleted from a document.
+The &lt;ins&gt; HTML element represents text that has been added to the document.
+The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
 
 ### progress and meter
 
@@ -128,14 +191,18 @@ table > tbody/thead/tfoot (optional level, but if used, any tr must be within it
 tbody/thead/tfoot > tr
 tr > th/td
 
-### input
+### forms
+
+
+
+#### input
 
 specifying the value property of an input element in HTML sets its initial value.
 As the state of <input>s changes, the value property in JS is updated.
 
-#### types
+##### types
 
-##### radio 
+###### radio & checkbox
 
 A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
 In HTML, a radio button is realized by <input type="radio">
@@ -147,6 +214,169 @@ Bootstrap:
 .form-check-label   define a label for a checkbox/radio button
 .form-check-input   define a checkbox/radio button
 
+### Ruby 
+
+ruby text/characters are small annotative glosses placed on the top or to the right of characters.
+Ruby text/characters is called furigana in japanese.
+In HTML, ruby text is delimited by the &lt;ruby&gt; tag
+In HTML ruby annotation, the syntax is &lt;ruby&gt;lowertext&lt;rt&gt;uppertext&lt;/rt&gt;&lt;/ruby&gt;
+In HTML, one may designate fallback delimiters for the upper text. 
+Ruby fallback delimiters are enclosed in &lt;rp&gt; tags, and go before and after the &lt;rt&gt; delimited uppertext.
+
+### aside
+
+An aside (there is no agreed-upon term, so I'm using the term that HTML uses) is a part of the main content thats only partially related to the main content, and often placed outside of the main flow. 
+A pull quote is an aside that is a quote from the article.
+
+### figure
+
+In general, figures are images/diagrams/similar with a caption.
+In general, figures float (in the general sense).
+In HTML, the <figure> element specifies its caption with <figcaption>
+
+### float
+
+a float is across styling languages a thing that exists outside of the normal flow of text.
+
+float places an element at one side of the container or next to another floating element, allowing text/inline elements to wrap around it.
+float: left/right makes the element go to the left/right side of the container/the next float respectively.
+A floating element is where the (computed) value of float is not none.
+Float implies display: block, and converts it if required.
+The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. 
+the clear property applies to clearing all floats if set to both, or to only clearing left/right floats if set to left or right.
+If element contains only floated elements, its height will collapse to nothing.
+To prevent and element containing only floated elements height collapsing to nothing, a technique called a clearfix is used.
+The most common clearfix technique might be: ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+<br>---<br>
+  §§ In contrast to ((c:10;::CSS)), in ((c:10;::Latex)) ((c:11;::floats)) merely ((c:12;::move vertically and not horizontally)). §<br>
+§§ If possible, latex places ((c:13;::floats)) ((c:14;::close to where they appear in the source text)). §<br>
+§§ ((c:15;::Floats)) are relevant for ((c:9;::things that cannot be broken over a page (images, tables))). §<br>
+§§ To ((c:16;::uniquely identify)) ((c:17;::floats)) no ((c:18;::matter where they end up)), they are ((c:19;::numbered)) by latex. §<br>
+§§ By default, ((c:20;::table)) and ((c:21;::figure)) are the two ((c:22;::environments)) that are ((c:23;::floats)). §<br>
+§§ The ((c:24;::table environment)) is ((c:25;::functionally equivalent to)) the ((c:26;::figure environment)), but ((c:27;::has a separate index of numbering)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:28;::[option])) for ((c:29;::table, figure)) says ((c:30;::where roughly you would like the table/figure to float.)) §<br>
+§§ ((c:31;::the option for controlling where a floating element)) goes consists of ((c:32;::a list)) of specifiers, which are ((c:33;::single chars)) ((c:34;::one after the other)) without ((c:35;::separators)), indicating ((c:36;::relative preference)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::h))</td> <td>((c:2;::place where it appeared in the source text as much asp possible))</td></tr>
+<tr><td>((c:3;::H))</td> <td>((c:4;::force place where it appears (basically turn it into a nonfloat)))</td></tr>
+<tr><td>((c:5;::p))</td> <td>((c:6;::special page for floats only))</td></tr>
+<tr><td>((c:7;::t/b))</td> <td>((c:8;::place at top / bottom of page (respectively)))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ the ((c:37;::float)) package ((c:40;::improves)) ((c:38;::float handling)) and ((c:40;::defines)) ((c:39;::the float specifier H)) §<br>
+===<br>
+
+<br>---<br>
+  §§ If you have ((c:41;::a table (tabular))) where you want to make sure it ((c:42;::flows well and does not cause awkward page breaks)), you should ((c:43;::float it (surround it in a table env) )), but if ((c:44;::you care exactly where it appears in relation to the source text)), you should ((c:43;::not float it (not surround it in a table env))) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:45;::\caption{foo))} is there to ((c:46;::add a caption foo)) to ((c:47;::floating environments)). §<br>
+§§ ((c:48;::the optional argument [])) to ((c:49;::\caption)) takes ((c:50;::a short title)) for use ((c:51;::in the listoftables/figures)) §<br>
+§§ to ((c:52;::\label)) a ((c:53;::table/figure)), the ((c:52;::\label)) must go ((c:54;::directly after \caption)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}</span>
+
+### Lists
+
+In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
+Latex uses the same list items for description lists also, while HTML uses different elements for those.
+by default, latex only allows the nesting of lists to a depth of four
+
+ordered list|enumerate environment|&lt;ol>
+unordered list|itemize environment|&lt;ul>
+description list|description environment|&lt;dl>
+list item|\item|&lt;li>
+Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
+
+<br>---<br>
+  §§ In markdown ((c:1;::Lists items)) are each ((c:3;::started by)) ((c:2;::one or more symbols)), while lists themselves are delimited by nothing more than any block-level item.. §<br>
+§§ ((c:4;::ordered list items)) are started by ((c:5;::&lt;n&gt;. (e.g. 1. or 7.))). §<br>
+§§ it does not matter ((c:6;::with which digit you number list items with (e.g. even if you do <code>21. foo\n2. bar)</code>))&nbsp;they will ((c:7;::always start one and go from there (or whatever you then change it to via css))). §<br>
+§§ ((c:8;::unordered list items)) are started by ((c:9;::-)), ((c:9;::*)) or ((c:9;::+)), which can be ((c:10;::mixed and matched)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 ### HTML interface
 
 any HTML element has a JS interface that is called HTMLSomeelementnameElement.
+
+### Common attributes
+
+the <code>datetime</code> attribute specifies the date and time associated with the element
+<code>datetime</code> is an attribute taken by &lt;del&gt;, &lt;ins&gt;, and &lt;time&gt;
+
+The <code>cite</code> attribute provides an URI that points to the source of a quote or change.
+The <code>cite</code> attribute can be used on &lt;blockquote&gt;, &lt;q&gt;, &lt;ins&gt;, &lt;del&gt;
+
+rel
+target
+
+#### Global attributes
+
+Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.
+Kinds of global attributes:
+aria-*
+the onevent event handlers
+xml:lang/xml:base — these are inherited from the XHTML specifications and deprecated, but kept for compatibility purposes.
+
+class, id
+HTML Microdata properties: item*
+translate: an enumerated attribute whether the element should be translated, e.g. by tools such as google translate.
+
+tabindex:
+The tabindex attriubte indicates if and how an element can be focused by the keyboard.
+&nbsp;{{c1::tabindex}}{{c2::=0}} indicates that {{c3::an element can be focused}} (e.g.&nbsp;{{c4::by the tab key}})
+&nbsp;{{c1::tabindex}}{{c2::=-1}} indicates that {{c3::an element can <b>not&nbsp;</b>be focused}} (e.g. by {{c4::the tab key}})
+Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
+CSS inline styling with style.
+part and slot for the shadow DOM.
+`is` for custom elements.
+nonce
+lang
+hidden semantically indicates that the element is not relevant at the moment.
+hidden in fact just sets display to none.
+draggable is an enumerated attriubte w/ "true" and "false" which indicates whether the element can be dragged using the Drag and Drop API
+data-* 
+dir: enumerated attriubte ltr/rtl/auto
+contenteditable
+the title attribute is *generally* shown as a tooltip, unless the element implements title differently.
+
+##### text editing only
+
+spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
+there are three places where text can be inputed in HTML: <input type="text">, <textarea> and anything w/ contenteditable
+spellcheck: an enumerated attribute w/ "true" and "false" whether to check the spelling of the thing
+inputmode: specify the kind of text input that is required, thus allowing mobile devices to show appropriate soft keyboards
+inputmode is different from <input type="... in that it does not enforce any kind of validation, users *can* still input anything they want.
+inputmode value|shows|equivalent <input> type
+none|no virtual keyboard
+text|default virtual keyboard
+decimal|keyboard with digits and decimal separtors, perhaps a -
+numeric|keyboard with digits only, perhaps a -
+tel|a telephone keyboard: 0-9, *, and #|type="tel"
+search|return key may be labelled search, perhaps other changes|type="search"
+email|optimized for email entry, contains @ prominently|type="email"
+url|optimized for url entry|type="url"
+
+autofocus
+autocapitalize
+enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 

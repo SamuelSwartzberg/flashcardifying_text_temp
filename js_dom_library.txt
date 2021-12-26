@@ -21,3 +21,6 @@ classList interface
 Web Speech API: text to speech/speech to text
 
 {{c1::window}}.​setTimeout(function, delay, args);
+
+
+to turn a canvas into a data URI, use which function? <span class="divider">-&gt;</span> {{c1::toDataURI}}

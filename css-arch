@@ -218,22 +218,6 @@ overscroll-behavior is actually a shorthand for overscroll-behavior-x and oversc
 overscroll-behavior: none prevents all overscrolling.
 overscroll-behavior: contain will prevent scroll chaining only
 
-##### float & clear
-
-float places an element at one side of the container or next to another floating element, allowing text/inline elements to wrap around it.
-float: left/right makes the element go to the left/right side of the container/the next float respectively.
-A floating element is where the (computed) value of float is not none.
-Float implies display: block, and converts it if required.
-The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. 
-the clear property applies to clearing all floats if set to both, or to only clearing left/right floats if set to left or right.
-If element contains only floated elements, its height will collapse to nothing.
-To prevent and element containing only floated elements height collapsing to nothing, a technique called a clearfix is used.
-The most common clearfix technique might be: ::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 ##### Background
 
 The background: property is a shorthand for {{c1::background-clip}}, {{c2::background-color}}, {{c3::background-image}}, {{c4::background-origin}}, {{c5::background-position}}, {{c6::background-repeat}}, {{c7::background-size}} and {{c8::background-attachment}}
