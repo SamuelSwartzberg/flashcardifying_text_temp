@@ -1,0 +1,222 @@
+## synchronic
+
+### grammar
+
+#### syntax
+
+##### phrasees
+
+a phrase is a group of words which act together as a grammatical unit.
+The head of a phrase is the thing everything else in the phrase is about.
+In a phrase, everything that isn't the head is a dependent.
+In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
+head-initial|English (partially)
+
+###### X-bar framework-based
+
+The X-bar theory asserts that all phrases have the structure <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png">, which is called the X-bar schema.
+In the X-bar theory, each node is binary, i.e. has two children.
+In the X-bar theory, each phrase has a head.
+in the X-bar schema, there are four types of components in each schema.
+In the X-bar schema, arguments are necessary but may be empty.
+In the X-bar schema, the two types of arguments are complements and specifiers
+The difference between complements and specifiers is that the complement is a sister node to X, while the specifier is a sister node to X'.
+In the X-bar schema, anything that is not a head or an argument is an adjunct.
+Adjuncts may also be called modifiers.
+Adjuncts are optional, and adjoining them creates a phrase of the same type as it originally was.
+Adjunction can be recursive.
+
+<img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
+X|the head
+YP|the complement
+ZP|the specifier
+
+X|the minimum projection of X
+X'|neither the minimum nor the maximum projection of X
+X''/XP|the maximum projection of X
+
+In the X-bar schema, XP is theoretically X''.
+In the X-bar schema, X' and X'' (XP) are projections of X.
+
+
+In the X-bar framework, a phrase consists
+
+###### types of phrases
+
+The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
+An XP is a phrase with X as its head.
+
+Adjective phrases tend to describe nouns.
+
+#### grammatical category
+
+A grammatical category or grammatical feature is a property of items within the grammar of a language. 
+Common grammatical categories/features: tense, number, gender/noun class
+
+#### morphology
+
+<br>---<br>
+  §§ ((c:1;::Morphemes)) are the ((c:2;::smallest)) ((c:3;::unit of language)) that ((c:4;::has some sort of meaning)). §<br>
+§§ ((c:5;::Morphemes)) are studied in the field of ((c:6;::morphology)). §<br>
+§§ ((c:7;::Morphology)) generally deals with the ((c:8;::phonology)) and not ((c:8;::orthography)) of morphs/morphemes, as s((c:9;::peech is more basic to language than writing)). §<br>
+§§ A ((c:10;::morpheme)), bearing ((c:11;::a unit of meaning)), is made up of ((c:10;::allomorphs)), which are ((c:12;::the different phonetic realizations of that morpheme)). §<br>
+§§ The word ((c:13;::unbreakable)) consists of the morphemes&nbsp; ((c:14;::un, break, able.)) §<br>
+§§ ((c:15;::Morphs)) and ((c:15;::morphemes)) are generally written in ((c:16;::curly braces {))}. §<br>
+§§ {{c17::{/ s /}, {/ z /}, and {/ iz /}}} are all ((c:18;::allomorphs)) of {{c19::the morpheme {s} (plural s)}} §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+##### Inflection
+
+An <dfn>inflectional paradigm</dfn> is the complete set of forms that a class of words can assume {{c1::when inflecting}}
+An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
+
+A lexeme is the fundamental unit of the lexicon of a language.
+A lexeme is an abstract unit that underlies all its inflectional variants.
+A lexeme can be instantiated in different inflectional variants = words.
+By convention, lexemes are represented in all caps.
+Any lexeme belongs to a particular syntactic category/word class.
+A {{c1::lemma}} is the form that is chosen by {{c2::convention}} to represent the {{c3::lexeme}}.
+A lexical item/unit is like a lexeme, but can be {{c1::multiple words long}}
+
+An invariable word is a word that cannot be inflected.
+Inflection can be subdivided into {{c1::Declension and conjugation}}
+
+##### stem, base, root
+
+A base is any morphological unit to which affixes can be attached
+The part of a word that is commonly used as a starting point for inflections is called?  the stem
+The part of a word with lexical meaning that cannot be broken down any further is called what?  root
+How many roots does the word 'wheelchair' have?  2
+
+##### free and bound morphemes
+
+What type of affixes are there?  prefix, suffix, infix, circumfix
+
+##### compounds
+
+In linguistics, a compound is a lexeme that consists of more than one stem.
+The head of a compound is the stem that is the thing that is being modified by the other stem(s) in the compound.
+name|description|formalization, assuming head-final
+endocentric compound|the basic type of thing is indicated by the head, and the other stems describe that|A+B denotes a kind of b|smalltalk
+exocentric compound|s a hyponym of some unexpressed semantic category (such as a person, plant, or animal)|A+B denote a special kind of unexpressed thing|white-collar, scarecrow
+copulative compound|the word is what any of the stems is|A+B indicate the sum of A and B|bittersweet, sleepwalk
+appositional compound|all stems are equal attributes of a certain referent|A+B indicates something that is both A and B|hunter-gatherer
+A dvandva is or is a type of copulative compound
+
+###### english
+
+<br>---<br>
+  §§ In english, ((c:1;::compounds)) can be ((c:2;::open)) = ((c:3;::containing a space)), e.g. ((c:3;::real estate)), ((c:2;::closed)) = ((c:3;::not containing a space)), e.g. ((c:3;::waistcoat, bookstore)), or ((c:2;::hyphenated)) = ((c:3;::containing a hyphen)), e.g. ((c:3;::long-term)) §<br>
+§§ In english, ((c:4;::compounds)) generally ((c:5;::progress from open to closed)), sometimes ((c:6;::with a hyphenated form as an interim phase.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### parts of speech
+
+A part of speech/word class is a category of words with similar grammatical properties.
+Part of speech is synonymous with word class.
+Part of speech may be synonymous with lexcial category if we don't acknowledge functional categories.
+a closed word class is one that rarely or never accepts new members
+an open word class is one that can be extended without limit/readily accepts new members
+
+A|Adjective
+P|Adposition
+Adv|Adverb
+C|coordinating conjunction
+D|Determiner
+I|Interjection
+N|Noun
+V|Verb
+
+functional category|purely grammatical meaning|Det, Conj, Aux...
+lexical category|some sort of semanting content|V, N, A, Adv...
+
+An adposition may either be a preposition or a postposition.
+
+### phon
+
+#### phonology
+
+##### segmental phonology
+
+structure of the syllable
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan="3">((c:1;::σ/syllable))</th>
+    </tr>
+    <tr>
+      <td>((c:2;s:4-5;::Onset))</td>
+      <td colspan="2">((c:3;s:4-5;::Rhypme))</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>((c:4;s:2-3;::Nucleus))</td>
+      <td>((c:5;s:2-3;::Coda))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+##### suprasegmental phonology
+
+#### phonetics
+
+##### IPA
+
+###### Clicks
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::ʘ))</td>
+      <td>((c:6;::Bilabial))</td>
+    </tr>
+    <tr>
+      <td>((c:2;::ǀ))</td>
+      <td>((c:7;::Dental))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::ǃ))</td>
+      <td>((c:8;::(Post)alveolar))</td>
+    </tr>
+    <tr>
+      <td>((c:4;::ǂ))</td>
+      <td>((c:9;::Palatoalveolar))</td>
+    </tr>
+    <tr>
+      <td>((c:5;::ǁ))</td>
+      <td>((c:10;::Alveolar lateral))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+### Semantics
+
+#### Thematic/Semantic role
+
+Agent, patient, theme, instrument ... 
+AGENT   volitional initiator 
+INSTRUMENT   Means of action
+PATIENT   undergoes action, changes state
+THEME   undergoes action, does not change state<br/><div class="sub">
+
+## diachronic
+
+#### 
+
+## linguistic typology
+
+Linguistic typology (or language typology) is a field of linguistics that studies and classifies languages according to their structural features. 
+Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
+The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
+Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
+Synthetic languages contain a lot of inflection and thus have many morphemes per word.
+Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
+fusional languages merge many different inflectional categories into the same morpheme.
+analytic languages have different morphemes for different inflectional categories and glue those together.
+highly analytic|chinese, vietnamese
+highly synthetic|japanese, turkish
