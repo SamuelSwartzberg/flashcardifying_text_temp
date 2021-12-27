@@ -2674,3 +2674,7 @@ methods|get the methods the object has|any object
 
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
+
+An aspect is a cross-cutting concern.
+A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
+Examples for a cross-cutting concern might be logging.
