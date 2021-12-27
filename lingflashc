@@ -1,6 +1,40 @@
+## general
+
+Basically, when you're not sure which linguistic units you're dealing with (be it phonemes, morphemes etc.) or it is irrelevant to your research, you use the word "segment". 
+Thus, a segment is "any element, at any level of representation, which is described as forming sequences with others" (Matthews 2007).
+
+
+
+## structuralism
+
+<br>---<br>
+  §§ An ((c:10;::emic unit)) ((c:11;::reduces)) ((c:12;::a large number of variant forms)) to ((c:13;::a number of abstract units)). §<br>
+§§ ((c:14;::Etic units)) are ((c:15;::the large number of variant forms)) that ((c:16;::reduce to a certain number of emic units)). §<br>
+§§ ((c:17;::Etic units)) ((c:18;::reduced to the same emic unit)) are ((c:19;::prefixed with allo-)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>emic unit</th>
+    <th>etic unit</th>
+    <th>allo-</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::phoneme))</td> <td>((c:2;s:3;::phone))</td> <td>((c:3;s:2;::allophone))</td></tr>
+<tr><td>((c:4;::morpheme))</td> <td>((c:5;s:6;::morph))</td> <td>((c:6;s:5;::allomorph))</td></tr>
+<tr><td>((c:7;::grapheme))</td> <td>((c:8;s:9;::glyph))</td> <td>((c:9;s:8;::allograph))</td></tr>
+phraseme|phrase|allophrase
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
+
+
+
 ## synchronic
 
 ### grammar
+
+if something is empty or unpronounced, ø or <i>e</i> are often used
 
 #### syntax
 
@@ -25,6 +59,8 @@ In the X-bar schema, anything that is not a head or an argument is an adjunct.
 Adjuncts may also be called modifiers.
 Adjuncts are optional, and adjoining them creates a phrase of the same type as it originally was.
 Adjunction can be recursive.
+An adjunct can be any type of phrase.
+<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
 
 <img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
 X|the head
@@ -40,6 +76,16 @@ In the X-bar schema, X' and X'' (XP) are projections of X.
 
 
 In the X-bar framework, a phrase consists
+
+CP
+
+[CP [C] [IP]]
+CP may either be complement or adjunct to verb/VP
+to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
+
+DP hypothesis: 
+
+Often correlates with the idea that pronouns are determiners.
 
 ###### types of phrases
 
@@ -65,6 +111,8 @@ Common grammatical categories/features: tense, number, gender/noun class
 §§ {{c17::{/ s /}, {/ z /}, and {/ iz /}}} are all ((c:18;::allomorphs)) of {{c19::the morpheme {s} (plural s)}} §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+Alternation is a morpheme exhibiting variation in its phonological realization based on its phonological/morophological and/or syntactic environment. Variants are called alternants. TODO: is this equivalent to allomorphs?
 
 ##### Inflection
 
@@ -123,7 +171,7 @@ an open word class is one that can be extended without limit/readily accepts new
 A|Adjective
 P|Adposition
 Adv|Adverb
-C|coordinating conjunction
+Comp|coordinating conjunction
 D|Determiner
 I|Interjection
 N|Noun
@@ -132,13 +180,74 @@ V|Verb
 functional category|purely grammatical meaning|Det, Conj, Aux...
 lexical category|some sort of semanting content|V, N, A, Adv...
 
+A word that is a member of a functional category is called a function word.
+A word that is a member of a lexical category is called a content word.
+
 An adposition may either be a preposition or a postposition.
+
+#### det
+
+A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
+Often, for any given pronoun, there is a similar or identical determiner
+Types of determiners: Articles, Demonstratives, Quantifiers, distributive determiners, interrogative determiners
+
+##### Quantifier
+
+All, both, etc.
+
+##### Articles
+
+Examples of Articles in EN: the, an, a
+
+##### Demonstratives
+
+this, that, these, those, (yon, yonder)
+
+##### posessive determiners
+
+my, your, his, her, its, our, their
+
+#### conj
+
+There are two kind of conjunctions, coordinating and subordinating conjunctions.
+A coordinating conjunction links two conjuncts that are the same type of phrase.
+
+##### proforms
+
+Proforms are function words that stand in for another phrase.
+Noun|Pronouns
+Verb|do (so)
+
+#### verbs
+
+Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
+transitive|takes an object
+intransitive|doesn't take an object
+ditransitive|takes two objects
+ambitransitive|may take an object or not
+
+##### aux
+
+Non auxiliary verbs are called lexical verbs.
+auxiliary verb is frequenly abbreviated auxiliary.
+In English, sentences without auxiliars cannot have negation.
+In English, auxiliaries cannot take an object.
+Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
+In English, auxiliaries go before the subject NP in question inversion.
+have and do may or may not be auxiliary verbs.
+dummy do is do used as an auxiliary verb.
+using dummy do is called do-support
+do-support is used when an axuliary verb is syntactically required but none is present.
 
 ### phon
 
 #### phonology
 
+Phonology is a branch of linguistics that studies how lects organize their sounds.
+
 ##### segmental phonology
+
+Segmental phonology is concerned with the analysis of speech into phonemes.
 
 structure of the syllable
 
@@ -162,7 +271,44 @@ structure of the syllable
 
 ##### suprasegmental phonology
 
+prosody is concerned with elements of speech that are larger than the segment ≈ phoneme
+Suprasegmental phonology is also called prosody.
+prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
+
+###### Elision
+
+In linguistics, an elision or deletion is broadly defined as the omission of one or more sounds (such as a vowel, a consonant, or a whole syllable) in a word or phrase. However, it is also used to refer more narrowly to cases where two words are run together by the omission of a final sound.
+Syncope, apocope and apheresis are most commonly of unstressed vowels.
+
+Syncope is a form of elision which is the loss of a sound from the interior of a word
+Apocope is a form of elision which is the loss of a sound from the end of a word
+Apheresis is a form of elision which is the loss of a sound from the beginning of a word
+Haplology is a form of elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
+
+###### Epenthesis
+
+Epenthesis is the addition of a sound to the word.
+prothesis is epenthesis at the beginning of the word.
+paragoge is epenthesis at the end of the word.
+
+
+###### phonotactics
+
+Phonotactics is a branch of phonology that deals with the permissible combinations of phonemes.
+
 #### phonetics
+
+Phonetics is a branch of linguistics that studies how humans produce and perceive sounds, or in the case of sign languages, the equivalent aspects of sign.
+Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
+articulatory phonetics|production of speech sounds
+auditory phonetics|perception of speech sounds
+acoustic phonetics|acoustic effects on speech sounds
+
+Unit of interest: phones
+
+##### Vowels and consonants
+
+
 
 ##### IPA
 
@@ -196,21 +342,146 @@ structure of the syllable
 
 ### Semantics
 
+Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
+
 #### Thematic/Semantic role
 
 Agent, patient, theme, instrument ... 
 AGENT   volitional initiator 
 INSTRUMENT   Means of action
 PATIENT   undergoes action, changes state
-THEME   undergoes action, does not change state<br/><div class="sub">
+THEME   undergoes action, does not change state
+
+#### semantic relations
+
+A hypernym meant to be a hypernym for a specific set of terms   a cover term
+
+### Pragmatics
+
+#### Reference
+
+##### Deixis
+
+*phora is about the reference of an expression.
+*phora is a form of deixis.
+[ [exophora] [endophora [anaphora] [cataphora]]
+Exophora|reference of expression depends on outside of the text
+Endophora|reference of expression deptends on something in the text
+Anaphora|form of endophora where referent depends on something before it
+Cataphora|form of endophora where referent depends on something after it
+
+In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
+Most often, *phora is created by proforms.
+In linguistics, binding is the phenomenon in which anaphoric elements such as pronouns are grammatically associated with their antecedents.
+Anaphora is sometimes also used as a synonym to endophora.
+"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
+
+#### Hedge
+
+a hedge is a word or phrase used in a sentence to express ambiguity, probability, caution, or indecisiveness about the remainder of the sentence, rather than full accuracy, certainty, confidence, or decisiveness.
+
+### language grouping
+
+Cover term for language, dialect, lect, family, etc   Languoid
+
+### Psycholinguistics
+
+#### linguistic relativity
+
+linguistic relativity exists in a string and a weak version
+linguistic relativity is more commonly but misleadingly called the sapir-whorf hypothesis.
+The sapir-whorf hypothesis is misleading because sapir did not endorse it much at all, and whorf was not the first to endorse it
+strong version of linguistic relativity|language determines thought completely|linguistic determinism
+weak version of linguistic relativity|language influences thought to some ectent
+
+### phraseology
+
+### graphemics
+
+Graphemics is the study of writing systems.
+A digraph is using two graphs to write a single phoneme.
+Examples of digraphs are sh for /ʃ/ in english.
+Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
 
 ## diachronic
 
-#### 
+### language geneaology
+
+A Sprachbund is a set of geographically contiguous languages {{c1::that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness}}
+SAE (Standard Average European) is a sprachbund of extensive common features in europe.
+euroversal is a feature that exists in (almost) all SAE languages
+Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
+
+#### cognates
+
+Cognates are 2 or more words that have a common etymological origin.
+Cognates often but not always have a similar meaning and a similar pronunciation.
+False friends are words in different languages that look/sound similar and thus give off the impression of being cognates, but are unrelated.
+Cognates in the same language are called doublets.
+
+#### language families
+
+##### IE
+
+{{c1::Indo-European languages}} can be most basically divided into {{c2::centum languages}} and {{c3::satem languages}}.
+The {{c1::Germanic languages}} are subdivided into {{c2::east germanic languages}}, {{c3::north germanic languages}}, and {{c4::west germanic languages}}.
+
+### language change
+
+#### language contact
+
+Language convergence is a type of linguistic change in which languages come to structurally resemble one another why {{c1::due to prolonged language contact}}
+In a language shift, a speech community switches to a different language.
+
+##### dialects
+
+Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards {{c1::(more similarity with) the standard language}}
+Since the industrial revolution, dialect levelling has been ocurring to most languages.
+
+##### borrowing
+
+borrowing is the cover term for any kind of loan element.
+narrative word|not a borrwoing
+donor language   the language from which the word was borrowed
+
+#### Language death
+
+Speakers choosing to abandon a language and it thus dying   language/linguisitic suicide
+Causing languages to die out   linguicide
+
+## sociolinguistics
+
+A spr<b>e</b>chbund is a&nbsp;group that has {{c1::a shared way of speaking}} going beyond language boundaries
+
+note that unlike a sprachbund, this doesn't have to be geographically contiguous, and doesn't refer to whole languages, but just groups of speakers, and is generally not about vocabulary or grammar per se, but more about a more abstract manner
+What might hip-hop with the characteristics of rapping, rhyme, and human beatboxing be an example of, if they occur in different langauges?  A sprechbund
+
+### code switching
+
+Code-switching AKA language alternation
+Code-switching is when a speaker does alternates between two lects/languages in a single conversation
+
+### speech community
+
+A speech community is a group of people who share a common lect.
+The term speech community is generally used for groups which share a very specific lect, that is with precise norms, excpectations, etc.
+
+### language and social categories
+
+#### language and gender
+
+
+
+### value (?)
+
+## multilingualism
 
 ## linguistic typology
 
 Linguistic typology (or language typology) is a field of linguistics that studies and classifies languages according to their structural features. 
+
+### morphological typology 
+
 Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
 The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
 Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
@@ -220,3 +491,20 @@ fusional languages merge many different inflectional categories into the same mo
 analytic languages have different morphemes for different inflectional categories and glue those together.
 highly analytic|chinese, vietnamese
 highly synthetic|japanese, turkish
+
+### word order
+
+Word order is how a language orders the syntacic constituents of a language.
+Word order may be a distinguishing characteristic in linguistic typology.
+Even languages which typically allow large amounts of flexibility in word order generally have a typical word order, where having a different order is considered marked.
+
+#### constituent order
+
+the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
+SOV, SVO, etc
+
+Verb-final language place the verb at the end of a clause.
+
+V2 word order
+
+A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
