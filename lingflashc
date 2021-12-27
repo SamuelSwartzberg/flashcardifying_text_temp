@@ -99,11 +99,33 @@ Adjective phrases tend to describe nouns.
 A grammatical category or grammatical feature is a property of items within the grammar of a language. 
 Common grammatical categories/features: tense, number, gender/noun class, person
 
+##### syntactic
+
+##### mainly related to nouns
+
+##### mainly related to verbs
+
 {{c1::Grammatical person}} is the {{c2::deictical}}  distinction of {{c3::participants}} in an event. It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
 
 First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
+
+Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
+A feature that encodes evidentiality is known as an evidential or verificational/validational
+
+Mirativitiy is the grammatical feature, independent of evidentiality, encoding  the surprise/unpreparedness in relation to a given thing.
+
+Clusivity is the grammatical feature encoding the difference between inclusive and exclusive first-person plural reference.
+Inclusive first-person plural reference includes the adressee, exclusive first-person plural reference excludes the adressee.
+
+###### tense-aspect-mmod
+
+tense, aspect and mood are three grammatical features that are often strongly entangled in a given language and thus hard to separate.
+The marking of tense, aspect and mood is sometimes known as tense-aspect-mood
+tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
+
+Aspect is a grammatical feature that tells you how time flows within the process/event itself.
 
 #### morphology
 
@@ -241,7 +263,10 @@ ambitransitive|may take an object or not
 
 ##### dynstat
 
-A dynamic verb is a verb that describes an action
+Dynamic and static verbs are often contrasted.
+A dynamic verb is a verb that describes an action.
+A stative (unclear relation to stative aspect) verb is a verb that descirbes a state.
+setzen is a dynamic verb while sitzen is a dynamic verb.
 
 ##### aux
 
@@ -325,7 +350,45 @@ Unit of interest: phones
 
 ##### Vowels and consonants
 
+###### vowels
 
+Monopthong and dipthong are two kinds of vowels often distinguished.
+A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
+A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
+A monopthong may be called a pure, a dipthong an impure vowels.
+Since a dipthong changes from one vowel to another, it may also be called a glide.
+
+###### consonants
+
+##### mechanics
+
+Speech production is the process by which thoughts are translated into speech.
+Speech production is not the same as language production since language can also be produced manually by signs. 
+The phonetic part of speech production is divided into three parts, which are sequentially initiation, phonation and articulation.
+
+###### initiation
+
+Initation is the production of the airstream that will constitute the produced sound.
+The organ generating the airstream in initation is called the initiatior.
+There are three initiators commonly used in human language, the diaphragm+ribs+lungs. the glottis, and the tongue.
+Besides the three initators used in human speech, the cheeks may also be used, though no natural language does this, and the esophagus may be used in case of a laryngectomy.
+diaphragm+ribs+lungs|pulmonic mechanism
+glottis|glottalic mechanism
+tongue|lingual/velaric mechanism
+cheeks|buccal mechanism
+esophagus|esophageal mechanism
+
+There is also a category of consonants produced without any airstream mechanism, these are known as percussive consonants.
+
+Any initiator may in theory act by increasing or decreasing pressure to generate an airstream.
+In general, if an initiator increases the air pressure, the airflow will be outward, if an initiator decreases the air pressure, the airflow will be inward. 
+An initiator increasing the pressure is termed egressive, an initiator decreasing the pressure is termed ingressive.
+
+The combination of the three common initiators plus egressive/ingressive produces six possible combinations. However, lingual/velaric egressive and pulmonic ingressive are not commonly used.
+
+###### phonation
+
+###### articulation
 
 ##### IPA
 
@@ -371,7 +434,13 @@ THEME|undergoes action, does not change state
 
 #### semantic relations
 
+A hyponym is a more specific term than its hypernym.
+A hypernym ⊃ a hyponym 
+<div class="onion-box"><span>((c:2;::hypernym))</span><div class="onion-box"><span>((c:;::hyponym))</span></div></div>
+“Musical instrument” is a {{c1::hyper(o)nym}} of “guitar” because a guitar is a musical instrument.
+A hyponym that is the same word as its hypernym is {{c1::An autohyponym}}
 A hypernym meant to be a hypernym for a specific set of terms|a cover term
+A hypernym may also be called an umbrella term or a blanket term.
 
 ### Pragmatics
 
@@ -462,6 +531,33 @@ Cognates in the same language are called doublets.
 The {{c1::Germanic languages}} are subdivided into {{c2::east germanic languages}}, {{c3::north germanic languages}}, and {{c4::west germanic languages}}.
 
 ### language change
+
+#### semantic change
+
+there are {{c2::many different types}} of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}} (the exact amount of which depends on {{c7::which classification scheme you follow}}).
+Common types of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} are {{c3::semantic narrowing}} (also called {{c4::specialization}}), {{c5::semantic widening}} (also called {{c6::generalization}}), {{c8::amelioration/elevation}}, {{c9::pejoration}}
+
+##### types
+
+{{c2::pejoration}}/{{c4::degeneration}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more negative in meaning}}
+{{c1::villain}} used to mean {{c2::serf, peasant}} - this is an example of {{c3::perjoration/degeneration}}
+{{c1::knave}} used to mean {{c2::boy, child, servant}} - this is an example of {{c3::perjoration/degeneration}}
+
+{{c2::amelioration}}/{{c4::elevation}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more positive in meaning}}
+{{c1::pretty}} used to mean {{c2::tricky, crafty, sly}} - this is an example of {{c3::amelioration/elevation}}
+{{c1::Knight}} used to mean {{c2::boy, servant}} (thus cognate with german {{c2::knecht}})- this is an example of {{c3::amelioration/elevation}}
+
+{{c2::Semantic widening}} aka {{c2::generalization}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more general/less narrow in its meaning}} (often, {{c4::it takes on a meaning of one of its hypernyms}})
+{{c1::bird}} used to mean {{c2::young bird, chick}} - this is an example of {{c3::semantic widening / generalization}}
+{{c1::assassin}} used to mean {{c2::a member of the assassins chilling in the holy land}} - this is an example of {{c3::semantic widening / generalization}}
+
+{{c2::Semantic narrowing}} aka {{c2::specialization}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes less general/more narrow in its meaning}} (often, {{c4::it takes on a meaning of one of its hyponyms}})
+{{c1::to starve}} used to mean {{c2::to die}} (and thus is cognate with german {{c2::sterben}}) - this is an example of {{c3::semantic narrowing / specialization}}
+{{c1::Wife}} used to primarily mean {{c2::woman (of any sort)}} - this is an example of {{c3::semantic narrowing / specialization}}
+{{c1::Meat}} used to refer to {{c2::any food}} - this is an example of {{c3::semantic narrowing / specialization}}
+{{c1::Deer}} used to refer to {{c2::all (esp. quadrupedal mammals) animals}} (and thus is cognate with german {{c2::Tier}}) - this is an example of {{c3::semantic narrowing / specialization}}
+
+
 
 #### language contact
 
