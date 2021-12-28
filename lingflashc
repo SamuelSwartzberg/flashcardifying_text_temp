@@ -110,6 +110,13 @@ An XP is a phrase with X as its head.
 
 Adjective phrases tend to describe nouns.
 
+##### clauses
+
+###### subordinate clauses
+
+A {{c1::relative clause}} is a {{c3::subordinate clause}} which generally {{c2::describes the referent of its head}}.
+In indo-european languages, a relative clause is generally introduced by a relative pronoun.
+
 ##### movement
 
 ###### wh-movement
@@ -126,6 +133,7 @@ Common grammatical categories/features: tense, number, gender/noun class, person
 ##### mainly related to verbs
 
 {{c1::Grammatical person}} is the {{c2::deictical}}  distinction of {{c3::participants}} in an event. It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
+Most languages distinguish three forms of grammatical person.
 
 First person|The speaker
 Second person|The addressee
@@ -213,6 +221,7 @@ A portmanteu is where parts of multiple words are combined into a new word/morph
 A blend/blend word word/lexical blend is a portmanteu where at least one of the parts combined is not a morph.
 Sometimes, portmanteus and blends are considered synonyms, i.e. the restriction that a blend is a thing where one thing is not a morph is dropped.
 In linguistics, a portmanteu or portmanteu morph may also be the merger of multiple morphs into one morph.
+Examples of blend words are smog (smoke + fog) or brunch (breakfast + lunch)
 
 For example, -t in spanish might be a portmanteu morph of the morph for 3rd person and for singular, took may be considered a portmanteu morph of take + ed.
 
@@ -226,12 +235,15 @@ A hybrid word is a morphological derivation that derives from at least two diffe
 
 ###### nonmorphological
 
-Abbreviation
-An acronym is a nonmorphological derivation formed from the first letters of other words.
+An abbreviation is a nonmorphological derivation by shortening a word.
+
+An acronym is a type of abbreviation formed from the first letters of other words.
 Examples of acronyms include ATM for automated teller machine and SIA for singapore international airlines
 
-Examples of blend words are smog (smoke + fog) or brunch (breakfast + lunch)
-
+A numeronym at its most common is a word based on/using numbers.
+Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
+Numeronyms as abbreviations frequently either count the amount of letters in a word, have the numbers stand for words thus forming a weird acronym, or use the number metonymically.
+Examples for numeronums: 9/11 (date metonym), i18n (letter count), 4649 (weird syllablecronym)
 
 ###### Productivity
 
@@ -273,6 +285,8 @@ How many roots does the word 'wheelchair' have?  2
 
 ##### free and bound morphemes
 
+###### affixes
+
 What type of affixes are there?  prefix, suffix, infix, circumfix
 Affixes are bound morphemes attached to the stem for word formation.
 prefix|before the word|a- (e.g. atheist)
@@ -284,6 +298,9 @@ infix|affix inserted into a word stem
 Reduplication is the process in which a morpheme is repeated within a single word
 Japanese frequently does reduplication, mainly for the plural.
 In japanese, reduplication of a kanji is marked with 々.
+
+A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by {{c4::back-formation}}, which still {{c5::contains some of the original meaning of the word}}.
+{{c1::-gate, -cation, -tard, -verse}} are examples of {{c2::libfixes}}
 
 ##### compounds
 
@@ -619,6 +636,20 @@ The combination of the three common initiators plus egressive/ingressive produce
 
 Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
 
+#### figures of speech
+
+A metonym is when something is referred to by the name of something closely associated with that thing.
+Synechdoche is a form of metonymy where a part refers to a whole of something or a whole to one of its parts.
+Pars pro toto is synechdoche where a part refers to a whole.
+Individual body parts are often used to refer to an entire body, constituting a pars pro toto: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
+Totum pro parte is synechdoche where a whole refers to its part.
+An example for a totum pro parte is the word America for the United States.
+
+#### reference
+
+In semantics, a modifier is said to be restrictive if it restricts the reference of its head.
+Relative clauses generally are restrictive.
+
 #### Thematic/Semantic role
 
 Semantic role aka thematic role aka theta role.
@@ -734,6 +765,9 @@ weak version of linguistic relativity|language influences thought to some ectent
 
 Phraseology is the study of phrasemes and related phenomena.
 
+A {{c1::snowclone}} is a {{c2::cliche}} {{c3::phrase}} with {{c4::one or more blanks}} that {{c5::keeps getting}} reused.
+{{c1::&nbsp;In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful}} are examples of {{c2::snowclones}}
+
 ### graphemics
 
 Graphemics is the study of writing systems.
@@ -776,6 +810,12 @@ The higher th elinguistic distance, the lower the mutual intelligibility.
 Indo-European languages descend from Proto-Indo-European (PIE)
 {{c1::Indo-European languages}} can be most basically divided into {{c2::centum languages}} and {{c3::satem languages}}.
 The {{c1::Germanic languages}} are subdivided into {{c2::east germanic languages}}, {{c3::north germanic languages}}, and {{c4::west germanic languages}}.
+
+##### Altaic
+
+Most linguists consider altaic to be a sprachbund, some consider it to be a language family.
+The grouping of {{c4::Altaic}} languages (whether as a sprachbund or a language family) usually includes at least {{c1::Turkic}}, {{c2::Mongolic}}, and {{c3::Tongusic}} (this smaller grouping is sometimes called '{{c5::Micro}}-{{c4::altaic}}')
+{{c3::Macro}}-altaic as a ({c4::very fringe}}) hypothesis also includes {{c1::japonic}} and {{c2::koreanic}}
 
 ### language change
 
@@ -824,10 +864,22 @@ borrowing is the cover term for any kind of loan element.
 narrative word|not a borrwoing
 donor language|the language from which the word was borrowed
 
+While weekend -&gt; {{c2::Wochenende}} is a {{c1::loan translation}}, skyscraper -&gt; {{c2::Wolkenkratzer}} is a {{c1::loan rendition/rendering}}
+While a {{c1::loan translation}} / {{c1::calque}} {{c2::translates all the parts exactly}}, a {{c3::loan rendition/rendering}} {{c2::only uses approximate translation}}
+{{c1::loan formation}} is a term usually used to group {{c2::any borrowing that uses foregin structure}} (i.e. {{c3::loan translations}} and {{c4::renditions}}, and depending on how you see them {{c5::loan creations}} as well), but {{c6::by far not by every author}}
+{{c1::Loanblends}} can either be formed by {{c2::word with some semantic content}} + {{c2::some functional affix}} or {{c3::fusion of multiple words with semantic content}}. In the first case, they are seen to be {{c4::closer to loan words}}, in the other case they are seen to be {{c5::closer to loan translations/renditions (= loan formations)}}
+{{c1::Loan creation}} is a bit of a vague term, but basically means {{c2::creation of a word}} using {{c3::native means}}, either to {{c4::fill a lack in the language which another language does not have}} or to {{c5::replace a borrowing}}
+While I use {{c1::borrowing}} to mean {{c2::any sort of loaned thing}}, the term is {{c3::not always used in exactly this manner}}
+
 #### Language death
 
 Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
 Causing languages to die out|linguicide
+
+## discourse analysis
+
+{{c1::Discourse analysis}} is the study of {{c2::real language use}}, in chunks {{c3::larger than the sentence}}
+{{c1::Critical discourse analysis}} may be thought of {{c2::discourse analysis}} via / for use of {{c3::critical theory (lowercase)}}
 
 ## sociolinguistics
 
@@ -981,3 +1033,18 @@ V2 word order
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
 
 ## cross-cutting concerns
+
+### implicational scale
+
+{{c1::Implicational scale}} is a term that means if {{c2::one feature is present}}, {{c3::all the features}} {{c4::lower on the scale}} {{c5::will be as well}}
+<img class="c2-f c1-b" src="mplicational-scale-of-basic-color-terms.png"><br/>{{c1::}}   an <b>implicational scale </b>(of basic color terms)
+<img class="c2-f c1-b" src="sm_2021-10-21--08-21-02-screenshot.jpg"><br/>{{c1::}}   an <b>implicational scale </b> (of syntactic figures in Irish)
+If a thing is on an {{c1::implicational scale}}, and we find that {{c2::the e.g. 5th stage is present}}, we would expect to also find {{c3::all four lower stages to be present}}.
+{{c1::Most linguistic areas}} have things that can be on an implicational scale
+
+### feature
+
+In contemporary linguistics, the term feature is used in several ways. Two main uses can be distinguished:
+
+The term feature is sometimes used for a specific dimension of classification along which a given linguistic item is categorized. The specification of this dimension is then called a value. For example, the English noun bread carries the value '+' for the feature [countability].
+More generally, the term feature is also used as an equivalent of 'property', esp. when used for the classification of linguistic items. For example, the English phoneme /d/ can be said to have the feature [voiced] (i.e. the property of being voiced).
