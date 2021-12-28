@@ -452,7 +452,7 @@ Segmental phonology is concerned with the analysis of speech into phonemes.
 
 Phonemic contrast is the minimal phonetic difference to mark two phones as belonging to different phonemes.
 A difference marking phonemic contrast is said to be contrastive or phonemic.
-a minimal pair is two or more words that differ only in one regard (esp. in one phoneme, but sometimes also in tone, accent, other features) 
+a minimal pair is two or more words that differ only in one distinctive feature.
 In english phonology, rip and lip form a minimal pair.
 minimal pairs may also be used in syntax, where they differ in one word/branching structure.
 If two or more words form a minimal pair, the phones are proven to have phonemic contrast and thus be phonemes.
@@ -540,16 +540,19 @@ acoustic phonetics|acoustic effects on speech sounds
 
 Unit of interest: phones
 
-##### Sonorants and obstruents
 
-Speech sounds are either sonorants or obstruents.
-A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
-Sonorants that are not voiced are existant but rare.
-An obstruent is a speech sound that is produced by obstructing airflow.
-All obstruents are consonants, but consonants may also be sonorants
-All vowels are sonorants, but sonorants may also be consonants.
-Obstruents are either plosives,  fricatives or affricates.
-For obstruents, the vocal tract is either completely closed or closed enough to create turbulence
+##### distinctive feature
+
+distinctive features are features that describe binary phonetic values.
+Distinctive features are *relevant* for phonemic contrast in phonetics.
+In phonology, a natural class is a set of phonemes in a language that share certain distinctive features.
+When a phone has multiple feature specifications that we are interested in talking about, we produce a feature matrix. [g] could be [+voiced, +dorsal, +high]. 
+Distinctive features are typically grouped into major class features, manner features, place features, and laryngeal features.
+Major class features are a group of four features that share little in common phonetically, but describe the overall type of a phone.
+The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
+The laryngeal features are features that describe how the larynx is involved in speech production.
+The three laryngeal features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+
 
 ##### Vowels and consonants
 
@@ -561,6 +564,9 @@ A dipthong is a vowel sound that changes between two vowels during articulation 
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
 
+For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth
+
+
 ###### consonants
 
 Singleton and geminate are two types of consonates distinguished by consonant length.
@@ -571,6 +577,20 @@ In many alphabets, geminates are written with doubled letters.
 gemination is phonemic/contrastive in japanese but not in english, german or spanish.
 In japanese, gemination is marked by っ.
 In japanese, non-phonemic gemination implies emphasis.
+
+There exist voiceless nasals, but no extra IPA symbols for them (they must be diacriticized)
+Whether voiceless approximants exist is controversial
+
+##### anatomy
+
+The laryx containes the vocal cords/folds, the gap between which is called the glottis.
+The vocal tract is all the anatomy above the laryx used for speech production.
+The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities.
+The pharynx is the posterior part of the vocal tract, consisting of a tube of muscles sitting above the larynx.
+The pharynx describes the pharyngeal cavity.
+The buccal cavity is the space between the teeth and the cheeks.
+The oral cavity aka the mouth is the space between the pharynx and the lips.
+
 
 ##### mechanics
 
@@ -600,7 +620,39 @@ The combination of the three common initiators plus egressive/ingressive produce
 
 ###### phonation
 
+Phonation is any state of the larynx that modifies the airstream.
+Phonation may sometimes more narrowly refer to voicing.
+Voicing is the part of phonation where the vocal cords/folds vibrate (or not).
+Something voiced has the distinctive feature [+voice]
+Something unvoiced or voiceless has the distinctive feature [-voice]
+
+
+Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
+For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
+
+Glottalization is the partial or complete closure or constriction of the glottis.
+Glottalization as partial constriction results in creaky voice
+Glottalization as total constriction produces the glottal stop, or a glottalic consonant if together with a different closure, in this case, it is acting as an initiator.
+Glottalization as a laryngeal distinctive feature may be specified as [+/- glottalization or +/- constricted glottis]
+
 ###### articulation
+
+####### Sonorants and obstruents
+
+Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
+Speech sounds are either sonorants or obstruents.
+A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
+Sonorants that are not voiced are existant but rare.
+An obstruent is a speech sound that is produced by obstructing airflow.
+All obstruents are consonants, but consonants may also be sonorants
+All vowels are sonorants, but sonorants may also be consonants.
+Obstruents are either plosives,  fricatives or affricates.
+For obstruents, the vocal tract is either completely closed or closed enough to create turbulence
+
+######## Approximants
+
+An approximant is a distinctive feature that encompasses all sonorants except nasals.
+In a more narrow definition, approximants are speech sounds that involve the articulators approaching each other but not narrowly enough nor with enough articulatory precision to create turbulent airflow. 
 
 ##### IPA
 
