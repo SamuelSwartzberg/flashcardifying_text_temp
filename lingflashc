@@ -530,6 +530,13 @@ paragoge is epenthesis at the end of the word.
 
 Phonotactics is a branch of phonology that deals with the permissible combinations of phonemes.
 
+###### stress
+
+In linguistics, and particularly phonology, stress or accent is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
+The IPA distinguishes between primary and secondary stress, the symbol follows polish notation in both casees.
+primary stress|ˈ (ˈa; sɐˈbiɐ)
+secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
+
 #### phonetics
 
 Phonetics is a branch of linguistics that studies how humans produce and perceive sounds, or in the case of sign languages, the equivalent aspects of sign.
@@ -550,24 +557,30 @@ When a phone has multiple feature specifications that we are interested in talki
 Distinctive features are typically grouped into major class features, manner features, place features, and laryngeal features.
 Major class features are a group of four features that share little in common phonetically, but describe the overall type of a phone.
 The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
-The laryngeal features are features that describe how the larynx is involved in speech production.
-The three laryngeal features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+
+###### IPA
 
 
-##### Vowels and consonants
 
-###### vowels
+##### anatomy
 
-Monopthong and dipthong are two kinds of vowels often distinguished.
-A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
-A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
-A monopthong may be called a pure, a dipthong an impure vowels.
-Since a dipthong changes from one vowel to another, it may also be called a glide.
+The laryx containes the vocal cords/folds, the gap between which is called the glottis.
+The vocal tract is all the anatomy above the laryx used for speech production.
+The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities, and the articulators contained within.
+The pharynx is the posterior part of the vocal tract, consisting of a tube of muscles sitting above the larynx.
+The pharynx describes the pharyngeal cavity.
+The buccal cavity is the space between the teeth and the cheeks.
+The oral cavity aka the mouth is the space between the pharynx and the lips.
 
-For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth
+##### consonants
 
+The difference between consonants and vowels is that for vowels, the vocal tract is less narrowed than for consonants.
+Whether something is a consonant is described by the major class feature [+/- consonantal]
+There exist voiceless nasals, but no extra IPA symbols for them (they must be diacriticized)
+Whether voiceless approximants exist is controversial
+Consonants are traditionally categorized by their manner and place of articulation as well as their voicing.
 
-###### consonants
+###### signeltons and geminates
 
 Singleton and geminate are two types of consonates distinguished by consonant length.
 A geminate consonant is articulated for longer than a singleton.
@@ -575,22 +588,24 @@ A geminate consonant is also just called geminate.
 The process of a singleton becoming a geminate is called gemination.
 In many alphabets, geminates are written with doubled letters.
 gemination is phonemic/contrastive in japanese but not in english, german or spanish.
+For gemination, lengthened fricatives, nasals, laterals, approximants and trills are simply prolonged. In lengthened stops, the obstruction of the airway is prolonged, which delays release, and the "hold" is lengthened. 
 In japanese, gemination is marked by っ.
 In japanese, non-phonemic gemination implies emphasis.
 
-There exist voiceless nasals, but no extra IPA symbols for them (they must be diacriticized)
-Whether voiceless approximants exist is controversial
+###### Coarticulation
 
-##### anatomy
+Co-articulated consonants are consonants produced with two simultaneous places of articulation.
 
-The laryx containes the vocal cords/folds, the gap between which is called the glottis.
-The vocal tract is all the anatomy above the laryx used for speech production.
-The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities.
-The pharynx is the posterior part of the vocal tract, consisting of a tube of muscles sitting above the larynx.
-The pharynx describes the pharyngeal cavity.
-The buccal cavity is the space between the teeth and the cheeks.
-The oral cavity aka the mouth is the space between the pharynx and the lips.
+co-articulated consonants
+doubly articulated consonants|consonants with secondary articulation
 
+secondary articulation is the articulation that happens when a consonant has two or more places of articulation, at least one of which has the manner of approximant.
+Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter.
+It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
+
+###### IPA mnemonics
+
+Progression of voiceless stops (palatal, velar, uvular)?  ckq]
 
 ##### mechanics
 
@@ -620,41 +635,312 @@ The combination of the three common initiators plus egressive/ingressive produce
 
 ###### phonation
 
+The laryngeal features are features that describe how the larynx is involved in speech production.
+The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+
 Phonation is any state of the larynx that modifies the airstream.
 Phonation may sometimes more narrowly refer to voicing.
 Voicing is the part of phonation where the vocal cords/folds vibrate (or not).
 Something voiced has the distinctive feature [+voice]
 Something unvoiced or voiceless has the distinctive feature [-voice]
 
-
 Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
 For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
+Aspiration is indicated in the ipa via <span class='ipa'>◌ʰ</span>
+Aspiration seems like a little burst of air to the speaker.
+The burst of air for aspiration can be felt by putting ones hand in front of one's mouth while saying an aspirated thing.
 
 Glottalization is the partial or complete closure or constriction of the glottis.
 Glottalization as partial constriction results in creaky voice
 Glottalization as total constriction produces the glottal stop, or a glottalic consonant if together with a different closure, in this case, it is acting as an initiator.
 Glottalization as a laryngeal distinctive feature may be specified as [+/- glottalization or +/- constricted glottis]
+glottal consonants have the glottis as their articulatior, in a sense.
+There are two manners assoicated with glottal consonants, 'oral' stops and fricatives.
+the glottal stop has [+glottalization] [-voice]
+the voiceless glottal fricative has [-glottalization] [-voice]
+And then there's the breathy-voiced glottal fricative
 
 ###### articulation
 
-####### Sonorants and obstruents
+Articulation is the shaping of airflow to get a sound.
+An articulator is a feature within the vocal tract that is used for articulation.
+An active articulator moves to create a speech sound, a passive articulator stays put.
+Most often it is the combination of an active and a passive articulatior that performs articulation.
 
-Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
+####### Place of articulation
+
+The place of articulation is where the obstruction between the articulators occurs.
+While the glottis is often seen as a place of articulation, it is involved in phonation at the same time. 
+The place of articulation is described by the place distinctive features.
+
+######## Passive place of articulation
+
+The upper lip (labial)
+The upper teeth, either on the edge of the teeth or inner surface (dental)
+The alveolar ridge, the gum line just behind the teeth (alveolar)
+The back of the alveolar ridge (post-alveolar)
+The hard palate on the roof of the mouth (palatal)
+The soft palate further back on the roof of the mouth (velar)
+The uvula hanging down at the entrance to the throat (uvular)
+all uvular voiced sounds have small-caps IPA symbols
+The throat itself, a.k.a. the pharynx (pharyngeal)
+The epiglottis at the entrance to the windpipe, above the voice box (epiglottal)
+While pharyngeal and epiglottal sounds are sometimes distinguished, there seems to be no clear basis for distinction.
+Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
+
+######## Active place of articulation
+
+The lower lip (labial)
+Various parts of the front of the tongue (coronal):
+    The tip of the tongue (apical)
+    The upper front surface of the tongue just behind the tip, called the blade of the tongue (laminal)
+    The surface of the tongue under the tip (subapical)
+The body of the tongue (dorsal)
+The base a.k.a. root of the tongue and the throat (pharyngeal)
+The aryepiglottic fold inside the throat (aryepiglottal)
+
+####### Manner of articulation
+
+The manner of articulation is the configuration of articulators when producing a speech sound.
+The manner of articulation is described by the manner distinctive features [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release], plus the major class distinctive features.
+
+######## stops
+
+While stop or occlusive may often refer to merely the oral variety, nore properly they refer to any consonant where the airflow is blocked in the vocal tract, but not necessarily in the nasal tract.
+Oral occlusives/stops are occlusives/stops, but so are nasal stops, implosives, ejectives, click consonants and affricates to a certain extent.
+In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
+stops build up pressure, which needs to be released.
+The opposite of a stop or occulusive is a continuant.
+Whether something is a stop or continuant is indicated by the distinctive feature [+/- continuant]
+
+######## lateral consonants
+
+A lateral is a consonant in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
+Whether something is lateral is described by the feature [+/- lateral]
+
+######## Nasals 
+
+A nasal sound is one where velum is lowered to allow air to escape through the nose.
+Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
+To indicate a nasal sound for which there is no dedicated ipa letter, <span class='ipa'>◌̃</span> is used.
+A nasal stop is a nasal sound where there is an oral occlusion as well.
+Other nasal sounds are nasalized vowels as well as other non-stop nasal consonants.
+A nasal is generally though misleadingly used as a term for a nasal stop/nasal occlusive.
+
+
+
+While manner of articulation is typically only applied to consonants, the distinction between sonorants or obstruents also applies to vowels, which are sonorants.
 Speech sounds are either sonorants or obstruents.
+Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
+
+######## Sonorants
+
 A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
 Sonorants that are not voiced are existant but rare.
-An obstruent is a speech sound that is produced by obstructing airflow.
-All obstruents are consonants, but consonants may also be sonorants
-All vowels are sonorants, but sonorants may also be consonants.
-Obstruents are either plosives,  fricatives or affricates.
-For obstruents, the vocal tract is either completely closed or closed enough to create turbulence
+Sonorants may be said to be made up of approximants in the wide sense and nasals.
+Sonorants may be said to be made up of approximants in the narrow sense, vowels, and nasals.
 
 ######## Approximants
 
 An approximant is a distinctive feature that encompasses all sonorants except nasals.
 In a more narrow definition, approximants are speech sounds that involve the articulators approaching each other but not narrowly enough nor with enough articulatory precision to create turbulent airflow. 
+Therefore, approximants fall between fricatives, which do produce a turbulent airstream, and vowels, which produce no turbulence.
+Although "semivowel" and "approximant" are sometimes treated as synonymous, most authors use the term "semivowel" for a more restricted set; there is no universally agreed-upon definition, and the exact details may vary from author to author.
+Not only are semivowels not syllabic, they are are also closer/a type of approximant.
+
+
+####### vowels
+
+Monopthong and dipthong are two kinds of vowels often distinguished.
+A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
+A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
+A monopthong may be called a pure, a dipthong an impure vowels.
+Since a dipthong changes from one vowel to another, it may also be called a glide.
+
+<table class="blank-canvas">
+<tbody><tr>
+<th>
+</th>
+<th scope="col">((c:1;s:1-10;::Front))
+</th>
+<th scope="col">((c:2;s:1-10;::Central))
+</th>
+<th scope="col">((c:3;s:1-10;::Back))
+</th></tr>
+<tr>
+<th scope="row">((c:4;s:1-10;::Close))
+</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>((c:11;s:all;us:1-10;::i))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>((c:12;s:all;us:1-10;::y))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>((c:13;s:all;us:1-10;::ɨ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>((c:14;s:all;us:1-10;::ʉ))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>((c:15;s:all;us:1-10;::ɯ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>((c:16;s:all;us:1-10;::u))</span></div></div>
+</td></tr>
+<tr>
+<th scope="row" class="IPA-vowels-minorcaption">((c:5;s:1-10;::Near-close))
+</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>((c:17;s:all;us:1-10;::ɪ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>((c:18;s:all;us:1-10;::ʏ))</span></div></div>
+</td>
+<td>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"><span>((c:19;s:all;us:1-10;::ʊ))</span></div></div>
+</td></tr>
+<tr>
+<th scope="row">((c:6;s:1-10;::Close-mid))</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>((c:20;s:all;us:1-10;::e))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>((c:21;s:all;us:1-10;::ø))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>((c:22;s:all;us:1-10;::ɘ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>((c:23;s:all;us:1-10;::ɵ))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>((c:24;s:all;us:1-10;::ɤ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>((c:25;s:all;us:1-10;::o))</span></div></div>
+</td></tr>
+<tr>
+<th scope="row" class="IPA-vowels-minorcaption">((c:7;s:1-10;::Mid))
+</th>
+<td>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(25px, 2px); -webkit-transform: translate(25px, 2px); transform: translate(25px, 2px);">((c:26;s:all;us:1-10;::ə))</div></div>
+</td>
+<td>
+</td></tr>
+<tr>
+<th scope="row">((c:8;s:1-10;::Open-mid))</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>((c:27;s:all;us:1-10;::ɛ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>((c:28;s:all;us:1-10;::œ))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>((c:29;s:all;us:1-10;::ɜ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>((c:30;s:all;us:1-10;::ɞ))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>((c:31;s:all;us:1-10;::ʌ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>((c:32;s:all;us:1-10;::ɔ))</span></div></div>
+</td></tr>
+<tr>
+<th scope="row" class="IPA-vowels-minorcaption">((c:9;s:1-10;::Near-open))
+</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"><span>((c:33;s:all;us:1-10;::æ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(46px, -2px); -webkit-transform: translate(46px, -2px); transform: translate(46px, -2px);">((c:34;s:all;us:1-10;::ɐ))</div></div>
+</td>
+<td>
+</td></tr>
+<tr>
+<th scope="row">((c:10;s:1-10;::Open))</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>((c:35;s:all;us:1-10;::a))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>((c:36;s:all;us:1-10;::ɶ))</span></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"><span>((c:37;s:all;us:1-10;::ä))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"></div></div>
+</td>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>((c:38;s:all;us:1-10;::ɑ))</span></div>
+<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);">•</div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>((c:39;s:all;us:1-10;::ɒ))</span></div></div>
+</td></tr></tbody></table>
+<style>
+.IPA-vowels-container-left {
+    display: inline-block;
+}
+
+.IPA-vowels-container-dot {
+    display: inline-block;
+}
+
+.IPA-vowels-container-right {
+    display: inline-block;
+}
+  table {
+        
+    background-color: #fff8;
+    --font-size-retrievable: 16px;
+    transform: scale(1.2);
+}
+  table::after{
+     position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    background-image: url(320px-Blank_vowel_trapezoid.svg.png);
+        background-repeat: no-repeat;
+    background-size: 390px;
+    transform: scaleX(0.97);
+    background-position: bottom right;
+    opacity: 0.1;
+  }
+td {
+    width: 7.6em;
+    text-shadow: 0 0 10px white;
+    padding: 0 !important;
+  } td > div {  }</style>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}</span>
+
+For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth
+
+####### obstruents
+
+An obstruent is a speech sound that is produced by obstructing airflow.
+For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
+All obstruents are consonants, but consonants may also be sonorants
+Obstruents are either plosives,  fricatives or affricates.
+
+######## oral occlusives
+
+A plosive/oral occlusive/oral stop is an obstruent consonant in which an occlusion in the vocal tract is formed that stops all airflow.
+Plosives are also called oral occlusives or oral stops.
+While oral stop, plosive and oral occlusive are synonyms, the terms have different geneses: "Stop" refers to the airflow that is stopped. "Occlusive" refers to the articulation, which occludes (blocks) the vocal tract. "Plosive" refers to the release burst (plosion) of the consonant.
+The term plosive may be seen as inappropriate for plosives without an audible release, these are soemtimes called appolosives.
+
+Oral stops can be released in different ways:
+no audible release|<span class='ipa'>◌̚</span>, e.g. <span class='ipa'>p̚</span>
+nasal release|superscript of the relevant nasal stop, e.g. <span class='ipa'>◌ⁿ</span>
+lateral release|<span class='ipa'>◌ˡ</span>
+Oral stops/oral occlusives/plosives with no audible release release their occlusion with no audible burst.
+Oral stops with nasal release release the stop into some sort of nasal stop
+Oral stops with nasal release release the stop into some sort of lateral consonant
+
+
+
+######## fricatives
+
+A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
+The turulent airflow produced for the formation of fricatives is called frication.
+Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth, resulting in higher amplitude and pitch, sibilants are a further subset of these.
+Stridency is encoded in the distinctive feature [+/- strident]
+
+######## affricates
+
+An affricate is an obstruent consonant that begins as a stop and releases as a fricative, generally with the same place of articulation.
+Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
+p͡f, t͡ɕ etc.
+Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
 
 ##### IPA
+
+If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
+For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while <span class='ipa'>◌̆</span> indicates an extra-short vowel.
+For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
 
 ###### Clicks
 
