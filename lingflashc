@@ -469,7 +469,7 @@ structure of the syllable
 | </tr>
 | <tr>
 ||<td>((c:2;s:4-5;::Onset))</td>
-||<td colspan="2">((c:3;s:4-5;::Rhypme))</td>
+||<td colspan="2">((c:3;s:4-5;::Rhyme))</td>
 | </tr>
 | <tr>
 ||<td></td>
@@ -500,6 +500,8 @@ Syllable breaks are explicitly marked in teh IPA by <code>.</code> or when that 
 The stress and secondary stress marks also imply a syllable break.
 Using spaces in the IPA implies a syllable break, if you want to prevent this, use the ‿ symbol.
 
+The part of the syllable called the rhyme is called that because it's the part that's often used for rhymes.
+
 ##### suprasegmental phonology
 
 prosody is concerned with elements of speech that are larger than the segment ≈ phoneme
@@ -508,6 +510,10 @@ prosody is also sometimes used in a more narrow sense as a synonym to metre in p
 {{c1::Prosody/Suprasegmental phonology}} contains phenomena such as Intonation, Tempo, Stress, Rythm amongst others
 Many phenomena of prosody have to do with syllables.
 The basic rythmic unit of indo-european poetry is a foot.
+In the IPA, | and ‖ both mark prosodic breaks.
+In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
+In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
+In poetry, often the slash is used to mark line breaks.
 
 ###### Elision
 
@@ -1127,6 +1133,7 @@ The languages in a sprachbund may or may not be related (but if they are related
 SAE (Standard Average European) is a sprachbund of extensive common features in europe.
 euroversal is a feature that exists in (almost) all SAE languages
 Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
+An {{c1::areal feature}} is an element that is shared by languages in {{c2::a geographic area}} (but not explainable by {{c3::a common ancestor language}})
 
 #### cognates
 
@@ -1197,10 +1204,12 @@ Since the industrial revolution, dialect levelling has been ocurring to most lan
 
 ##### borrowing
 
+Borrowing is a process within contact linguistics = language contact.
 AN element that seems to be a borrowing but isn't is called a pseudo-loan/pseudo-borrowing/false borrowing.
 borrowing is the cover term for any kind of loan element.
 narrative word|not a borrwoing
 donor language|the language from which the word was borrowed
+{{c2::Categorization}} of the loan-related terminology is {{c1::hard}}, as {{c3::seemingly everyone uses their own, only slightly different categorization system}}
 
 While weekend -&gt; {{c2::Wochenende}} is a {{c1::loan translation}}, skyscraper -&gt; {{c2::Wolkenkratzer}} is a {{c1::loan rendition/rendering}}
 While a {{c1::loan translation}} / {{c1::calque}} {{c2::translates all the parts exactly}}, a {{c3::loan rendition/rendering}} {{c2::only uses approximate translation}}
@@ -1294,10 +1303,11 @@ A minority language is a language spoken by a minority of the population of an e
 
 ### language transfer
 
-Language transfer is the application of linguistic features from one language to another by {{c1::a bilingual or multilingual speaker}}
+Language transfer is the application of linguistic features from one language to another by {{c1::a bilingual or multilingual speaker}}, or to say it differently, two languages influencing each other within a speaker.
 CLI (crosslinguistic influence) is roughly synonymous to language transfer.
 negative language transfer is language transfer that results in errors
 positive language transfer is language transfer that results in easier language learning.
+While language transfer/cli is two languages influencing each other within a speaker, language contact is two languages themselves influencing each other.
 
 ### SLA
 
@@ -1305,6 +1315,12 @@ positive language transfer is language transfer that results in easier language 
 
 A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
 People may have varying degrees of fluency in their heritage language.
+
+### Attrition
+
+Language attrition is split up into first-language attrition and second-language attrition
+The process of losing language skills in a language   Language attritionThe process of losing language skills in a <b>second</b> language  Second-language attrition
+The process of losing language skills in a <b>native</b> language  First language attrition
 
 ### auxiliary languages
 
