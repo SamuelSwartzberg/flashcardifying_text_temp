@@ -4,7 +4,6 @@ Basically, when you're not sure which linguistic units you're dealing with (be i
 Thus, a segment is "any element, at any level of representation, which is described as forming sequences with others" (Matthews 2007).
 
 
-
 ## structuralism
 
 <br>---<br>
@@ -39,10 +38,21 @@ If we're being structuralist, a synchronic approach specifically consideres the 
 
 Most broadly, grammar is the sets of rules governing a lect.
 A reference work on the grammar of a language may also be known as a grammar.
+If a string conforms to the grammar of a lect, it is called grammatical.
+A grammaticality judgement is a judgement on the gramatticality of a string by a certain speaker.
+grammaticality judgements are often used as linguistic evidence, generative grammar also aims to predict them.
 * marks a thing that is ungrammatical.
 if something is empty or unpronounced, ø or <i>e</i> are often used
 
 #### syntax
+
+##### frameworks
+
+Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
+Generative semantics was a response to generative grammar developed in the 1960s.
+The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
+The proponents of generative semantics in the linguistics wars called themselves {{c1::the four horsemen of the apocalypse}}
+Generative semantics held that syntactic structures from meanings, rather than the other way around
 
 ##### phrasees
 
@@ -99,6 +109,10 @@ The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
 
 Adjective phrases tend to describe nouns.
+
+##### movement
+
+###### wh-movement
 
 #### grammatical category
 
@@ -260,6 +274,16 @@ How many roots does the word 'wheelchair' have?  2
 ##### free and bound morphemes
 
 What type of affixes are there?  prefix, suffix, infix, circumfix
+Affixes are bound morphemes attached to the stem for word formation.
+prefix|before the word|a- (e.g. atheist)
+suffix|after the word|-s (plural suffix)
+circumfix (more rarely confix or ambifix)|a affix that has a part that goes before and a part that goes after the word|o- ... -ni naru
+duplfix|synonym of reduplication
+infix|affix inserted into a word stem
+
+Reduplication is the process in which a morpheme is repeated within a single word
+Japanese frequently does reduplication, mainly for the plural.
+In japanese, reduplication of a kanji is marked with 々.
 
 ##### compounds
 
@@ -379,6 +403,14 @@ dummy do is do used as an auxiliary verb.
 using dummy do is called do-support
 do-support is used when an axuliary verb is syntactically required but none is present.
 
+#### changing parts of speech
+
+##### nominalization
+
+Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
+A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
+Japanese has three basic nominalizers: こと、もの、の
+
 ### phon
 
 #### phonology
@@ -456,6 +488,9 @@ Using spaces in the IPA implies a syllable break, if you want to prevent this, u
 prosody is concerned with elements of speech that are larger than the segment ≈ phoneme
 Suprasegmental phonology is also called prosody.
 prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
+{{c1::Prosody/Suprasegmental phonology}} contains phenomena such as Intonation, Tempo, Stress, Rythm amongst others
+Many phenomena of prosody have to do with syllables.
+The basic rythmic unit of indo-european poetry is a foot.
 
 ###### Elision
 
@@ -697,6 +732,8 @@ weak version of linguistic relativity|language influences thought to some ectent
 
 ### phraseology
 
+Phraseology is the study of phrasemes and related phenomena.
+
 ### graphemics
 
 Graphemics is the study of writing systems.
@@ -707,11 +744,14 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 ## diachronic
 
 A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
+Historical linguistics is mainly interested in language change.
 
 ### language geneaology
 
 * marks a form that is reconstructed (i.e. not attested)
 A Sprachbund is a set of geographically contiguous languages {{c1::that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness}}
+A sprachbund may also be called a linguistic area.
+The languages in a sprachbund may or may not be related (but if they are related, the similarity must be stronger than the relatedness would predict)
 SAE (Standard Average European) is a sprachbund of extensive common features in europe.
 euroversal is a feature that exists in (almost) all SAE languages
 Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
@@ -725,6 +765,7 @@ Cognates in the same language are called doublets.
 
 #### comparative linguistics
 
+Comparative linguistics is a branch of historical linguistics that compares language to establish how they are related
 Mutualll intelligibility is whether two speakers of different lects can understand each other {{c1::Without prior familiarity / special effort}}
 The higher th elinguistic distance, the lower the mutual intelligibility.
 
@@ -732,6 +773,7 @@ The higher th elinguistic distance, the lower the mutual intelligibility.
 
 ##### IE
 
+Indo-European languages descend from Proto-Indo-European (PIE)
 {{c1::Indo-European languages}} can be most basically divided into {{c2::centum languages}} and {{c3::satem languages}}.
 The {{c1::Germanic languages}} are subdivided into {{c2::east germanic languages}}, {{c3::north germanic languages}}, and {{c4::west germanic languages}}.
 
@@ -766,6 +808,7 @@ Common types of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} are 
 
 #### language contact
 
+The field that studies language contact is contact linguistics.
 Language convergence is a type of linguistic change in which languages come to structurally resemble one another why {{c1::due to prolonged language contact}}
 In a language shift, a speech community switches to a different language.
 
@@ -776,6 +819,7 @@ Since the industrial revolution, dialect levelling has been ocurring to most lan
 
 ##### borrowing
 
+AN element that seems to be a borrowing but isn't is called a pseudo-loan/pseudo-borrowing/false borrowing.
 borrowing is the cover term for any kind of loan element.
 narrative word|not a borrwoing
 donor language|the language from which the word was borrowed
@@ -795,13 +839,16 @@ What might hip-hop with the characteristics of rapping, rhyme, and human beatbox
 In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
 Backchannel responses are often phatic expressions.
 
-In sociolinguistics, an accent is a manner of pronunciation peculiar to a particular individual, location, or nation.
+In sociolinguistics, an accent is a manner of pronunciation peculiar to a particular individual, situation, or group.
 
 ### lects
 
 a lect or variety is a version of a language spoken by a certain speech community
 The term lect or variety avoids the term language, which people often associate with the idea of a standard variety.
 Roughly, lects are mutually intelligible, but languages are not.
+Register and style are both functional varieties.
+Register and style a synonyms.
+A register/style is a lect that is used for a particular purpose or in a particular communicative setting.
 
 
 ideolect|a specific person
@@ -815,10 +862,15 @@ Code-switching is when a speaker does alternates between two lects/languages in 
 
 A speech community is a group of people who share a common lect.
 The term speech community is generally used for groups which share a very specific lect, that is with precise norms, excpectations, etc.
+A focused speech community is one where there is agreement about the shared varieties features
+A diffuse speech community is one where there is less/little agreement about the shared varieties features
+Each person belongs to many speech communities.
 
 ### language and social categories
 
 #### language and gender
+
+The study of language and gender is said to have stared with Language and Women's Place by Lakoff (1793ish)
 
 ### standartization
 
@@ -846,6 +898,54 @@ In regions such as Italy, France and the Philippines separate but non-standard s
 In an academic setting, a dialect is either a synonym of variety/lect or for regiolect.
 
 ## multilingualism
+
+A majority language is a language spoken by the majority of the population of an entity.
+A minority language is a language spoken by a minority of the population of an entity.
+
+### language transfer
+
+Language transfer is the application of linguistic features from one language to another by {{c1::a bilingual or multilingual speaker}}
+CLI (crosslinguistic influence) is roughly synonymous to language transfer.
+negative language transfer is language transfer that results in errors
+positive language transfer is language transfer that results in easier language learning.
+
+### SLA
+
+#### Heritage language
+
+A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
+People may have varying degrees of fluency in their heritage language.
+
+### auxiliary languages
+
+international auxiliary language and auxiliary language are synonyms.
+IALs may also be called auxlangs.
+IALs (international ausiliary languages) may include or exclude natural languages that are lingua franca.
+Besides the case of natural languages that are lingua franca, IALs are constructed languages.
+Interlingua is a naturalistic IAL enabled in part by the existence of SAE.
+
+### Language birth
+
+A pidgin is a grammatically simplified means of communication that develops between two or more groups that do not have a language in common.
+Pidgins often develop in trade situations.
+Pidgins usually have a limited vocabulary and low presstige.
+A pidgin is never spoken as a native language. 
+The traditional view (has criticisms) is that a pidgin that is nativized becomes a creole.
+A language gaining native speakers (from 0 to > 0) is known as nativization.
+A mixed language is a language combining aspects of two or more languages but {{c1::not clearly deriving primarily from any single language&nbsp;}}
+
+#### conlangs
+
+Languages are either natural or constructed.
+A conlang (constructed language) is one which was constructed by humans.
+A natural language is one that has evolved naturally through human use.
+
+Naturalistic conlangs mimic existing real languages.
+
+### translingualism
+
+Translingual phenomena are features of language that are relevant in more than one language. 
+The International scientific vocabulary is the set fo science-related words that is  {{c1::used translingually}}
 
 ## linguistic typology
 
@@ -879,3 +979,5 @@ Verb-final language place the verb at the end of a clause.
 V2 word order
 
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
+
+## cross-cutting concerns
