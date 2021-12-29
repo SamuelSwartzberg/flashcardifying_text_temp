@@ -754,8 +754,11 @@ The four major class features are [+/- syllabic], [+/- approximant], [+/- conson
 The laryx containes the vocal cords/folds, the gap between which is called the glottis.
 The vocal tract is all the anatomy above the laryx used for speech production.
 The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities, and the articulators contained within.
+Soft palate = velum
 The pharynx is the posterior part of the vocal tract, consisting of a tube of muscles sitting above the larynx.
-The pharynx describes the pharyngeal cavity.
+The pharynx = pharyngeal cavity.
+the pharynx can be narrowed or closed by the epiglottis, a flap that is usually used to prevent food from entering the larynx.
+https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
 The buccal cavity is the space between the teeth and the cheeks.
 The oral cavity aka the mouth is the space between the pharynx and the lips.
 
@@ -789,6 +792,12 @@ doubly articulated consonants|consonants with secondary articulation
 secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
 Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter.
 It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
+In phonetics, vowel roundedness refers to the amount of rounding in the lips during the articulation of a vowel.
+Vowel roundedness is labialization of a vowel.
+Labialization is a form of secondary articulation involving the lips.
+There are two forms of labialization/rounding, protruded rounding anc compressed rounding.
+In protruded rounding, the lips push out to produce the rounding.
+In compressed rounding, the lip push onto each other and do not push out to produce rounding.
 
 Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
@@ -909,32 +918,216 @@ Most often it is the combination of an active and a passive articulatior that pe
 The place of articulation is where the obstruction between the articulators occurs.
 While the glottis is often seen as a place of articulation, it is involved in phonation at the same time. 
 The place of articulation is described by the place distinctive features.
+The place of articulation is in theory described by two positions, the position of the passive and the active articulator, however, most active/passive combinations have their own names.
 
 ######## Passive place of articulation
 
-The upper lip (labial)
-The upper teeth, either on the edge of the teeth or inner surface (dental)
-The alveolar ridge, the gum line just behind the teeth (alveolar)
-The back of the alveolar ridge (post-alveolar)
-The hard palate on the roof of the mouth (palatal)
-The soft palate further back on the roof of the mouth (velar)
-The uvula hanging down at the entrance to the throat (uvular)
+
+
+The upper lip
+The upper teeth, either on the edge of the teeth or inner surface 
+The alveolar ridge, the gum line just behind the teeth
+The back of the alveolar ridge
+The hard palate on the roof of the mouth 
+The soft palate further back on the roof of the mouth 
+The uvula hanging down at the entrance to the throat
+The throat itself, a.k.a. the pharynx
+The epiglottis at the entrance to the windpipe, above the voice box
 all uvular voiced sounds have small-caps IPA symbols
-The throat itself, a.k.a. the pharynx (pharyngeal)
-The epiglottis at the entrance to the windpipe, above the voice box (epiglottal)
 While pharyngeal and epiglottal sounds are sometimes distinguished, there seems to be no clear basis for distinction.
 Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
 
 ######## Active place of articulation
 
-The lower lip (labial)
-Various parts of the front of the tongue (coronal):
-    The tip of the tongue (apical)
-    The upper front surface of the tongue just behind the tip, called the blade of the tongue (laminal)
-    The surface of the tongue under the tip (subapical)
-The body of the tongue (dorsal)
-The base a.k.a. root of the tongue and the throat (pharyngeal)
-The aryepiglottic fold inside the throat (aryepiglottal)
+The active place of articulation is roughly divided into labial, coronal, dorsal, radical and laryngeal consonants.
+Labial consonants are consonants articulated with the lower lip as the active articulator.
+Coronal consonants are consonants articulated with the flexible front part of the tongue as the active articulator.
+Coronal consonants are further sudivided into laminal, apical and subapical consonants
+Laminal consonants are consonants articulated with the upper front surface of the tongue just behind the tip, called the blade of the tongue.
+Apical consonants are consonants articulated with the absolute tip of the tongue.
+Subapical consonants are consonants articulated with the underside of the tip of the tongue.
+Dorsal consonants are consonants articulated with the body of the tongue as the active articulator.
+Radical consonants are consonants articulated with the root/base of of the tongue as the active articulator.
+A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal consonants, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal consonants, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal consonants, with both movements being combined.
+
+####### mapping
+
+While the term retroflex implies that the tongue is actually curled back so that it is subapical at the hard palate, in fact it is often merely apical postalveolar.
+palato-alveolar also means the tongue is domed up
+Dental or denti-alveolar consonants are often not distinguished from alveolar consonants, as the difference is often not contrastive/phonemic, and this larger group may also be called alveolar.
+
+<table class="wikitable" style="text-align:center">
+<tbody>
+<tr>
+<th></th>
+<th></th>
+<th colspan="3">Coronal
+</th>
+<th colspan="3">
+</th></tr>
+<tr>
+<th>Active articulator →
+</th>
+<th rowspan="2">Lower lip<br>(Labial)
+</th>
+<th rowspan="2">Tongue blade<br>(Laminal)
+</th>
+<th rowspan="2">Tongue tip<br>(Apical)
+</th>
+<th rowspan="2">Underside of tongue<br>(Subapical)
+</th>
+<th rowspan="2">Tongue body<br>(Dorsal)
+</th>
+<th rowspan="2">Tongue root<br>(Radical)
+</th>
+<th rowspan="2">Aryepiglottic folds.
+</th></tr>
+<tr>
+<th>Passive articulator<br>↓
+</th></tr>
+<tr>
+<th>Upper lip
+</th>
+<td>bilabial</td>
+<td colspan="2">linguolabial</td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Upper teeth
+</th>
+<td>labiodental</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Upper teeth
+</th>
+<td class="inactive"></td>
+<td colspan="2">dental</td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Upper teeth/alveolar ridge (prealveolar)
+</th>
+<td class="inactive"></td>
+<td>denti-alveolar</td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Alveolar ridge
+</th>
+<td class="inactive"></td>
+<td colspan="2">alveolar</td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Back of alveolar ridge <br>(postalveolar)
+</th>
+<td class="inactive"></td>
+<td>palato-alveolar</td>
+<td>retroflex (more precisely: apical retroflex)</td>
+<td class="inactive">
+</td>
+<td>alveolo-palatal</td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Hard palate (front)
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td>retroflex (more precisely: true retroflex)
+</td>
+<td>palatal</td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Soft palate/velum
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td>subapical velar
+</td>
+<td>velar</td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Uvula
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td>uvular</td>
+<td class="inactive"></td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Pharynx
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td>pharyngeal</td>
+<td class="inactive">
+</td></tr>
+<tr>
+<th>Epiglottis
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td>(ary-)epiglottal
+</td></tr>
+<tr>
+<th>Glottis
+</th>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td class="inactive">
+</td>
+<td class="inactive"></td>
+<td class="inactive"></td>
+<td>glottal
+</td></tr>
+</tbody></table>
+<style>td{background-color: white;}td.inactive{background-color: var(--color-lighter)}</style>
 
 ####### Manner of articulation
 
@@ -988,11 +1181,18 @@ Not only are semivowels not syllabic, they are are also closer/a type of approxi
 
 ####### vowels
 
+The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true. 
+The IPA chart really shows formant frequencies.
+
+######## monopthongs/dipthongs
+
 Monopthong and dipthong are two kinds of vowels often distinguished.
 A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
 A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
+
+######## IPA chart
 
 <table class="blank-canvas">
 <tbody><tr>
@@ -1172,6 +1372,25 @@ An affricate is an obstruent consonant that begins as a stop and releases as a f
 Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
 p͡f, t͡ɕ etc.
 Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
+
+####### relative articulation
+
+In phonetics and phonology, relative articulation is description of the manner and place of articulation of a speech sound relative to some reference point. 
+Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized
+
+An advanced or fronted sound is one that is pronounced farther to the front of the vocal tract than some reference point. 
+a retracted or backed sound is one that is pronounced farther to the back of the vocal tract.
+A raised sound is articulated with the active articulator raised higher than some reference point
+A lowered sound is articulated with the active articulator lowered lower than some reference point
+A centralized vowel is a vowel that is more central (front-back) than some point of reference.
+Mid-centralized vowels are closer to the midpoint of the vowel space than their referent vowels. 
+
+advanced|◌̟ or ◌˖
+retracted|◌̠ or ◌˗
+raised|◌̝  or ◌˔
+lowered|◌̞ or ◌˕
+centered|<span class="ipa">◌̈</span>
+mid-centralized|<span class="ipa">◌̽</span>
 
 ##### IPA
 
