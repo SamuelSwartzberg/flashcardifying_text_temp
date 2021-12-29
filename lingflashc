@@ -781,14 +781,16 @@ In japanese, non-phonemic gemination implies emphasis.
 
 ###### Coarticulation
 
-Co-articulated consonants are consonants produced with two simultaneous places of articulation.
+Co-articulated consonants are consonants produced with two or more simultaneous places of articulation.
 
 co-articulated consonants
 doubly articulated consonants|consonants with secondary articulation
 
-secondary articulation is the articulation that happens when a consonant has two or more places of articulation, at least one of which has the manner of approximant.
+secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
 Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter.
 It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
+
+Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
 ###### IPA mnemonics
 
@@ -817,8 +819,56 @@ There is also a category of consonants produced without any airstream mechanism,
 Any initiator may in theory act by increasing or decreasing pressure to generate an airstream.
 In general, if an initiator increases the air pressure, the airflow will be outward, if an initiator decreases the air pressure, the airflow will be inward. 
 An initiator increasing the pressure is termed egressive, an initiator decreasing the pressure is termed ingressive.
+Outside of pulmonic consonants, to create an airflow, there needs to be two closures, one of which is released, producing sounds that are always obstruents.
 
 The combination of the three common initiators plus egressive/ingressive produces six possible combinations. However, lingual/velaric egressive and pulmonic ingressive are not commonly used.
+
+####### pulmonic
+
+Pulmonic egressive initiation is the most common form of initiation, and 75% of languages, including indo-european languages, only feature speech sounds with pulmonic egressive initiation.
+
+####### glottalic
+
+In glottalic initiation, the glottis is moved, a closure is produced at the desired place of articulation, the glottis is moved again to create pressure, and then the closure is released.
+For egressive glottalic initiation, the glottis is lowered, the closure is produced at the desired place of articulation, then the glottis is raised, building up pressure, and then the closure is released.
+For ingressive glottalic initiation, the glottis is raised, the closure is produced at the desired place of articulation, then the glottis is lowered, building up suction (low pressure), and then the closure is released.
+sounds produced by egressive glottalic initiation are called ejectives
+sounds produced by ingressive glottalic initiation are called implosives
+implosives are marked by the IPA via a right-facing hook on top, e.g. <span class='ipa'>ɓ</span> or <span class='ipa'>ɗ</span>
+implosives are marked by the IPA via <span class='ipa'>ʼ</span>, e.g. <span class='ipa'>qʼ</span>
+
+Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
+
+####### velaric
+
+In velaric/lingual (ingressive, egressive does not exist) initiation, a closure is produced at the velum, and then a second one at the desired place of articulation. the tongue's body is lowered, and thus suction is created. the frontmost closure is then released.
+lingual aka velaric ingressive initiation produces sounds known as clicks.
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+| <tr>
+||<td>((c:1;::ʘ))</td>
+||<td>((c:6;::Bilabial))</td>
+| </tr>
+| <tr>
+||<td>((c:2;::ǀ))</td>
+||<td>((c:7;::Dental))</td>
+| </tr>
+| <tr>
+||<td>((c:3;::ǃ))</td>
+||<td>((c:8;::(Post)alveolar))</td>
+| </tr>
+| <tr>
+||<td>((c:4;::ǂ))</td>
+||<td>((c:9;::Palatoalveolar))</td>
+| </tr>
+| <tr>
+||<td>((c:5;::ǁ))</td>
+||<td>((c:10;::Alveolar lateral))</td>
+| </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ###### phonation
 
@@ -1131,31 +1181,7 @@ For vowels and consonants both, <span class='ipa'>◌ː</span> indicates somethi
 
 ###### Clicks
 
-<table class="cloze-group hide-if-inactive">
-  <tbody class="cloze-group-children hide-if-inactive-children">
-| <tr>
-||<td>((c:1;::ʘ))</td>
-||<td>((c:6;::Bilabial))</td>
-| </tr>
-| <tr>
-||<td>((c:2;::ǀ))</td>
-||<td>((c:7;::Dental))</td>
-| </tr>
-| <tr>
-||<td>((c:3;::ǃ))</td>
-||<td>((c:8;::(Post)alveolar))</td>
-| </tr>
-| <tr>
-||<td>((c:4;::ǂ))</td>
-||<td>((c:9;::Palatoalveolar))</td>
-| </tr>
-| <tr>
-||<td>((c:5;::ǁ))</td>
-||<td>((c:10;::Alveolar lateral))</td>
-| </tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 
 ### Semantics
 
