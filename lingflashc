@@ -46,6 +46,17 @@ if something is empty or unpronounced, ø or <i>e</i> are often used
 
 #### syntax
 
+##### Expletives
+
+An {{c1::expletive}} is a {{c2::meaningless}} element put in some position to {{c3::fulfil a grammatical requirement}}. (Can also mean profanity, of course)
+E.g. <b>There</b> is someone helping us here.
+
+##### Grammatical relations
+
+Grammatical relations are subjects and objects (direct and indirect), and perhaps others depending on your theory.
+Grammatical relations are different things to different theorists.
+The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
+
 ##### labelled bracket
 
 Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
@@ -70,6 +81,8 @@ head-initial|English (partially)
 
 ###### X-bar framework-based
 
+In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
+
 The X-bar theory asserts that all phrases have the structure <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png">, which is called the X-bar schema.
 In the X-bar theory, each node is binary, i.e. has two children.
 In the X-bar theory, each phrase has a head.
@@ -80,6 +93,7 @@ The difference between complements and specifiers is that the complement is a si
 In the X-bar schema, anything that is not a head or an argument is an adjunct.
 Adjuncts may also be called modifiers.
 Adjuncts are optional, and adjoining them creates a phrase of the same type as it originally was.
+Ergo adjoining something to a YP results in a larger YP.
 Adjunction can be recursive.
 An adjunct can be any type of phrase.
 <img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
@@ -104,6 +118,10 @@ CP
 [CP [C] [IP]]
 CP may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
+
+####### VP-internal subject hypothesis
+
+Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
 
 ####### DP hypothesis: 
 
@@ -212,6 +230,18 @@ In indo-european languages, a relative clause is generally introduced by a relat
 
 ##### movement
 
+Syntactic movement is the means by which some theories of syntax address discontinuities.
+Two types of movement often distinguished are phrasal and head movement.
+In phrasal movement, an entire phrase moves.
+In head movement is when only a head of a phrase moves, leaving its dependents behind.
+
+In chomskyian theories, movement leaves behind an empty category called a trace.
+Traces are indicated by t and subscripted with a letter or  number indicating what moved.
+
+###### head movement 
+
+The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
+
 ###### wh-movement
 
 #### grammatical feature
@@ -255,6 +285,26 @@ In english, when an active sentence is transformed to a passive sentence, the fo
 In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
+
+##### transitivity
+
+Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
+transitive|takes an object
+intransitive|doesn't take an object
+ditransitive|takes two objects
+ambitransitive|may take an object or not
+
+###### ergativity
+
+an unergative verb is an intransitive verb whose argument is an agent.
+an unaccusative verb is an intransitive verb whose argument is not an agent.
+
+In linguistics, morphosyntactic alignment is the grammatical relationship between arguments—specifically, between the two arguments (in English, subject and object) of transitive verbs like the dog chased the cat, and the single argument of intransitive verbs like the cat ran away.
+The most common types of morphosyntactic alignment are nominative-accusative and ergative-absolutive, though there are others.
+All languages I speak are nominative-accusative languages.
+In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
+In a ergative-absolutive (or just ergative) language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
+
 
 ###### others
 
@@ -568,14 +618,6 @@ Personal pronouns are pronouns that are associated primarily with a particular g
 
 #### verbs
 
-##### transitivity
-
-Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
-transitive|takes an object
-intransitive|doesn't take an object
-ditransitive|takes two objects
-ambitransitive|may take an object or not
-
 ##### dynstat
 
 Dynamic and static verbs are often contrasted.
@@ -660,9 +702,12 @@ The syllable is typically represented by σ.
 Syllables must at least have a nucleus.
 The nuleus of a sullable is almost always a vowel, except in the case of syllabic consonants.
 When writing syllables, vowels are typically indicated V and consonants C.
-A vowel that forms a syllable boundary and thus not the nucleus is known as a semivowel.
+A semivowel is a vowel that forms a syllable boundary and thus not the nucleus.
+A semivowel is indicated by the IPA as <span class="ipa">◌̯</span>, sadly.
+A semivowel may be called a glide since they often act similar to a dipthong, but this term is ambiguous between any transitional sound.
 A consonant that forms the nucleus of a syllable is known as a syllabic consonant.
 Only consonants are explicitly marked as syllabic with the IPA symbol when necessary, as it is presumed that vowels are also syllable nuclei.
+syllabic consonants are marked by <span class="ipa">◌̩</span> or <span class="ipa">◌̍</span>}} in the IPA
 An open syllable is a syllable without a coda. (CV, V, ...) 
 A closed syllable is a syllable with a coda. (CVC, VC, ...) 
 In japanese most syllables are open syllables, either CV or V.
@@ -798,6 +843,8 @@ Labialization is a form of secondary articulation involving the lips.
 There are two forms of labialization/rounding, protruded rounding anc compressed rounding.
 In protruded rounding, the lips push out to produce the rounding.
 In compressed rounding, the lip push onto each other and do not push out to produce rounding.
+(lips that are) less rounded/labialized (than usual for that sound)   ◌̜
+(lips that are) more rounded/labialized (than usual for that sound)   <span class="ipa">◌̹</span>
 
 Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
@@ -889,6 +936,10 @@ Phonation may sometimes more narrowly refer to voicing.
 Voicing is the part of phonation where the vocal cords/folds vibrate (or not).
 Something voiced has the distinctive feature [+voice]
 Something unvoiced or voiceless has the distinctive feature [-voice]
+Something voiced becoming voiceless is known as devoicing.
+Somehthing voiceless becoming voiced is known as voicing.
+voicing|<span class="ipa">◌̬</span>
+devoicing|<span class="ipa">◌̥</span>
 
 Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
 For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
@@ -950,11 +1001,16 @@ Dorsal consonants are consonants articulated with the body of the tongue as the 
 Radical consonants are consonants articulated with the root/base of of the tongue as the active articulator.
 A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal consonants, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal consonants, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal consonants, with both movements being combined.
 
+marking a given sound as articulated with dental as its place of articulation   <span class="ipa">◌̪</span>
+marking a given sound as laminal   ◌̻ (a square is lame)
+marking a given sound as apical   <span class="ipa">◌̺</span>
+
 ####### mapping
 
 While the term retroflex implies that the tongue is actually curled back so that it is subapical at the hard palate, in fact it is often merely apical postalveolar.
 palato-alveolar also means the tongue is domed up
 Dental or denti-alveolar consonants are often not distinguished from alveolar consonants, as the difference is often not contrastive/phonemic, and this larger group may also be called alveolar.
+The larger grouping of alveolar including dental is what has unique IPA symbols - indicating a dental sound specifically must be diacriticised.
 
 <table class="wikitable" style="text-align:center">
 <tbody>
@@ -1181,8 +1237,9 @@ Not only are semivowels not syllabic, they are are also closer/a type of approxi
 
 ####### vowels
 
-The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true. 
-The IPA chart really shows formant frequencies.
+Vowels are classified {{c4::by the IPA}} by {{c1::tongue height}}, {{c2::tongue backness}}, and {{c3::lip rounding}}.
+The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
+the vowel written ə is called schwa
 
 ######## monopthongs/dipthongs
 
@@ -1333,7 +1390,50 @@ td {
   } td > div {  }</style>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}</span>
 
-For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth
+<table>
+  <thead>
+    <tr>
+      <th>Openness</th>
+      <th>Backness</th>
+      <th>Roundedness</th>
+      <th>IPA Symbol</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td><span class="c1-cloze">Close </span></td><td><span class="c29-cloze">Back</span></td><td><span class="c29-cloze">Rounded</span></td><td><span class="c29-cloze">u</span></td></tr>
+<tr><td><span class="c2-cloze">Close </span></td><td><span class="c30-cloze">Back</span></td><td><span class="c30-cloze">Unrounded</span></td><td><span class="c30-cloze">ɯ</span></td></tr>
+<tr><td><span class="c3-cloze">Close </span></td><td><span class="c31-cloze">Central</span></td><td><span class="c31-cloze">Rounded</span></td><td><span class="c31-cloze">ʉ</span></td></tr>
+<tr><td><span class="c4-cloze">Close </span></td><td><span class="c32-cloze">Central</span></td><td><span class="c32-cloze">Unrounded</span></td><td><span class="c32-cloze">ɨ</span></td></tr>
+<tr><td><span class="c5-cloze">Close </span></td><td><span class="c33-cloze">Front</span></td><td><span class="c33-cloze">Rounded</span></td><td><span class="c33-cloze">y</span></td></tr>
+<tr><td><span class="c6-cloze">Close-mid</span></td><td><span class="c34-cloze">Central</span></td><td><span class="c34-cloze">Unrounded</span></td><td><span class="c34-cloze"><span class="ipa">ɘ</span></span></td></tr>
+<tr><td><span class="c7-cloze">Close-mid</span></td><td><span class="c35-cloze">Back</span></td><td><span class="c35-cloze">Rounded</span></td><td><span class="c35-cloze">o</span></td></tr>
+<tr><td><span class="c8-cloze">Close-mid</span></td><td><span class="c36-cloze">Back</span></td><td><span class="c36-cloze">Unrounded</span></td><td><span class="c36-cloze">ɤ</span></td></tr>
+<tr><td><span class="c9-cloze">Close-mid</span></td><td><span class="c37-cloze">Central</span></td><td><span class="c37-cloze">Rounded</span></td><td><span class="c37-cloze">ɵ</span></td></tr>
+<tr><td><span class="c10-cloze">Close-mid</span></td><td><span class="c38-cloze">Front</span></td><td><span class="c38-cloze">Rounded</span></td><td><span class="c38-cloze">ø</span></td></tr>
+<tr><td><span class="c11-cloze">Close-mid</span></td><td><span class="c39-cloze">Front</span></td><td><span class="c39-cloze">Unrounded</span></td><td><span class="c39-cloze">e</span></td></tr>
+<tr><td><span class="c12-cloze">Close</span></td><td><span class="c40-cloze">Front</span></td><td><span class="c40-cloze">Unrounded</span></td><td><span class="c40-cloze">i</span></td></tr>
+<tr><td><span class="c13-cloze">Open-mid</span></td><td><span class="c41-cloze">Back</span></td><td><span class="c41-cloze">Rounded</span></td><td><span class="c41-cloze">ɔ</span></td></tr>
+<tr><td><span class="c14-cloze">Open-mid</span></td><td><span class="c42-cloze">Back</span></td><td><span class="c42-cloze">Unrounded</span></td><td><span class="c42-cloze">ʌ (not ^)</span></td></tr>
+<tr><td><span class="c15-cloze">Open-mid</span></td><td><span class="c43-cloze">Central</span></td><td><span class="c43-cloze">Rounded</span></td><td><span class="c43-cloze">ɞ</span></td></tr>
+<tr><td><span class="c16-cloze">Open-mid</span></td><td><span class="c44-cloze">Central</span></td><td><span class="c44-cloze">Unrounded</span></td><td><span class="c44-cloze">ɜ</span></td></tr>
+<tr><td><span class="c17-cloze">Open-mid</span></td><td><span class="c45-cloze">Front</span></td><td><span class="c45-cloze">Rounded</span></td><td><span class="c45-cloze">œ</span></td></tr>
+<tr><td><span class="c18-cloze">Open-mid</span></td><td><span class="c46-cloze">Front</span></td><td><span class="c46-cloze">Unrounded</span></td><td><span class="c46-cloze">ɛ</span></td></tr>
+<tr><td><span class="c19-cloze">Open</span></td><td><span class="c47-cloze">Back</span></td><td><span class="c47-cloze">Rounded</span></td><td><span class="c47-cloze">ɒ</span></td></tr>
+<tr><td><span class="c20-cloze">Open</span></td><td><span class="c48-cloze">Back</span></td><td><span class="c48-cloze">Unrounded</span></td><td><span class="c48-cloze">ɑ</span></td></tr>
+<tr><td><span class="c21-cloze">Open</span></td><td><span class="c49-cloze">Front</span></td><td><span class="c49-cloze">Rounded</span></td><td><span class="c49-cloze">ɶ</span></td></tr>
+<tr><td><span class="c22-cloze">Open</span></td><td><span class="c50-cloze">Front</span></td><td><span class="c50-cloze">Unrounded</span></td><td><span class="c50-cloze">a</span></td></tr>
+<tr><td><span class="c23-cloze">Mid</span></td><td><span class="c51-cloze">central</span></td><td><span class="c51-cloze">both unrounded and rounded</span></td><td><span class="c51-cloze">ə (=Schwa)</span></td></tr>
+<tr><td><span class="c24-cloze">Near-close</span></td><td><span class="c52-cloze">back (or near-back, debate exists)</span></td><td><span class="c52-cloze">rounded</span></td><td><span class="c52-cloze">ʊ</span></td></tr>
+<tr><td><span class="c25-cloze">Near-close</span></td><td><span class="c53-cloze">front (or near-front, debate exists)</span></td><td><span class="c53-cloze">rounded </span></td><td><span class="c53-cloze">ʏ</span></td></tr>
+<tr><td><span class="c26-cloze">Near-close</span></td><td><span class="c54-cloze">front (or near-front, debate exists)</span></td><td><span class="c54-cloze">unrounded</span></td><td><span class="c54-cloze">ɪ (sm. cap. i, often w serifs)</span></td></tr>
+<tr><td><span class="c27-cloze">Near-open</span></td><td><span class="c55-cloze">central</span></td><td><span class="c55-cloze">unrounded or rounded</span></td><td><span class="c55-cloze">ɐ</span></td></tr>
+<tr><td><span class="c28-cloze">Near-open</span></td><td><span class="c56-cloze">front</span></td><td><span class="c56-cloze">unrounded (sometimes also rounded)</span></td><td><span class="c56-cloze">æ</span></td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
+
+Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
+For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory
 
 ####### obstruents
 
@@ -1373,10 +1473,14 @@ Affricates in the IPA are indicated by two symbols united by a tie on top or mor
 p͡f, t͡ɕ etc.
 Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
 
+######## consonant IPA
+
+all retroflex sounds feature a right-facing bottom hook in their IPA symbol
+
 ####### relative articulation
 
 In phonetics and phonology, relative articulation is description of the manner and place of articulation of a speech sound relative to some reference point. 
-Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized
+Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
 
 An advanced or fronted sound is one that is pronounced farther to the front of the vocal tract than some reference point. 
 a retracted or backed sound is one that is pronounced farther to the back of the vocal tract.
@@ -1384,6 +1488,8 @@ A raised sound is articulated with the active articulator raised higher than som
 A lowered sound is articulated with the active articulator lowered lower than some reference point
 A centralized vowel is a vowel that is more central (front-back) than some point of reference.
 Mid-centralized vowels are closer to the midpoint of the vowel space than their referent vowels. 
+A sound with advanced or retracted tongue root has the base/root of the tongue move forward/backward, expanding/shringking the pharyngeal cavity.
+A sound with retracted tongue root may also be seen as pharyngealized.
 
 advanced|◌̟ or ◌˖
 retracted|◌̠ or ◌˗
@@ -1391,6 +1497,8 @@ raised|◌̝  or ◌˔
 lowered|◌̞ or ◌˕
 centered|<span class="ipa">◌̈</span>
 mid-centralized|<span class="ipa">◌̽</span>
+Advanced Tongue Root   <span class="ipa">◌̘</span>
+Retracted Tongue Root   <span class="ipa">◌̙</span>
 
 ##### IPA
 
@@ -1541,9 +1649,21 @@ A {{c1::snowclone}} is a {{c2::cliche}} {{c3::phrase}} with {{c4::one or more bl
 ### graphemics
 
 Graphemics is the study of writing systems.
+
+#### graphemes & graphs
+
+##### digraphs 
+
 A digraph is using two graphs to write a single phoneme.
 Examples of digraphs are sh for /ʃ/ in english.
 Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
+
+##### ligatures
+
+ɶ|oE
+œ|oe
+
+#### writing systems
 
 Digraphia is the situation of having more than one writing system for {{c1::the same language}}
 
@@ -1887,6 +2007,7 @@ Even languages which typically allow large amounts of flexibility in word order 
 #### constituent order
 
 the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
+German has verb-second order in main clauses and verb-final order in subordinate clauses.
 SOV, SVO, etc
 
 Verb-final language place the verb at the end of a clause.
