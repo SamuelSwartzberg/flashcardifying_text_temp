@@ -46,12 +46,18 @@ if something is empty or unpronounced, ø or <i>e</i> are often used
 
 #### syntax
 
+##### labelled bracket
+
+Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
+Labeled bracketing notation: tree ::= \[&lt;nodename> {&lt;tree>|&lt;leaf>}
+leaf ::= #somestring
+
 ##### frameworks
 
 Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
 Generative semantics was a response to generative grammar developed in the 1960s.
 The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
-The proponents of generative semantics in the linguistics wars called themselves {{c1::the four horsemen of the apocalypse}}
+The proponents of generative semantics in the linguistics wars called themselves {{c1::the four horsemen of the apocalypse}}, amongst which was george lakoff
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
 ##### phrasees
@@ -128,11 +134,23 @@ Common grammatical categories/features: tense, number, gender/noun class, person
 
 ##### syntactic
 
-##### mainly related to nouns
+##### phi-features
+
+phi-features is a group of grammatical features related to nouns.
+Phi-features include person, number, gender and case
+
+###### noun class
+
+Grammatical gender is a form of noun-class system.
+
+###### number
+
+###### case
 
 ##### mainly related to verbs
 
-{{c1::Grammatical person}} is the {{c2::deictical}}  distinction of {{c3::participants}} in an event. It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
+{{c1::Grammatical person}} is personal deixis encoded in language.
+It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
 Most languages distinguish three forms of grammatical person.
 
 First person|The speaker
@@ -207,6 +225,7 @@ Kinds of modality: epistemic, deontic
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
 
 Alternation is a morpheme exhibiting variation in its phonological realization based on its phonological/morophological and/or syntactic environment. Variants are called alternants. TODO: is this equivalent to allomorphs?
+A null/zero morpheme is a morpheme that has no phonetic form/realization.
 
 ##### Word formation
 
@@ -239,6 +258,9 @@ An abbreviation is a nonmorphological derivation by shortening a word.
 
 An acronym is a type of abbreviation formed from the first letters of other words.
 Examples of acronyms include ATM for automated teller machine and SIA for singapore international airlines
+A backgronym is a word that originally was not an acronym but is turned into one.
+Examples of backgronyms: SAD ("seasonal affective disorder")
+More recent examples include the brand name Adidas, named after company founder Adolf "Adi" Dassler but falsely believed to be an acronym for "All Day I Dream About Sport";[15] Wiki, said to stand for "What I Know Is",[16] but in fact derived from the Hawaiian phrase wiki-wiki meaning "fast";[17] or Yahoo!, sometimes claimed to mean "Yet Another Hierarchical Officious Oracle", but in fact chosen because Yahoo's founders liked the word's meaning of "rude, unsophisticated, uncouth" (taken from Jonathan Swift's book Gulliver's Travels).
 
 A numeronym at its most common is a word based on/using numbers.
 Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
@@ -253,6 +275,36 @@ Word formation processses that are applied very infrequently are likely unproduc
 In english, using ablauts to create preterite verbs is unproductive, while using -ed to create preterite verbs is productive.
 
 ##### Inflection
+
+Inflection is modifying a lexeme to reflect one or more gramattical features, thus creating a new word.
+Inflection is commonly done via affixation or apophony, but there are also other possible modifications.
+An invariable/invariant word is a word that cannot be inflected.
+Inflection can be subdivided into {{c1::Declension and conjugation}}
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Inflection of</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Conjugation))</td>
+      <td>((c:2;::Verbs))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::Declension))</td>
+      <td>((c:4;::Nouns or Adjectives))</td>
+    </tr>
+  </tbody>
+</table>
+
+###### Agreement
+
+Agreement is inflection caused by other words (or similar) in the sentence.
+
+###### Inflectional paradigm
 
 An <dfn>inflectional paradigm</dfn> is the complete set of forms that a class of words can assume {{c1::when inflecting}}
 An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
@@ -273,9 +325,6 @@ Lexical item and lexical unit are synonyms.
 The lexis of a language is, depending on your definition, either a subset (of words) grouped by a specific linguistic criteria or {{c1::the complete set of all possible words in a language}}
 Lexicon seems to be a synonym of lexis.
 
-An invariable word is a word that cannot be inflected.
-Inflection can be subdivided into {{c1::Declension and conjugation}}
-
 ##### stem, base, root
 
 A base is any morphological unit to which affixes can be attached
@@ -283,11 +332,16 @@ The part of a word that is commonly used as a starting point for inflections is 
 The part of a word with lexical meaning that cannot be broken down any further is called what?  root
 How many roots does the word 'wheelchair' have?  2
 
-##### free and bound morphemes
+##### free and bound forms
+
+A free form is one that can stand on its own as a word.
+'cat', 'fire'
+A bound form is a morpheme that onlly appears as part of a larger word.
+'-ment'
+A bound/free morpheme is a bound/free form that is a morpheme.
 
 ###### affixes
 
-What type of affixes are there?  prefix, suffix, infix, circumfix
 Affixes are bound morphemes attached to the stem for word formation.
 prefix|before the word|a- (e.g. atheist)
 suffix|after the word|-s (plural suffix)
@@ -301,6 +355,19 @@ In japanese, reduplication of a kanji is marked with 々.
 
 A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by {{c4::back-formation}}, which still {{c5::contains some of the original meaning of the word}}.
 {{c1::-gate, -cation, -tard, -verse}} are examples of {{c2::libfixes}}
+
+###### clitics
+
+Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
+When something is being attached as a clitic, it is {{c1::cliticising}}
+<pre><code data-codetype="text">It<mark>'s</mark> a boy!
+I<mark>'m</mark> terribly sorry.
+>The queen<mark>'s</mark> balls.
+I haven<mark>'t</mark> the faintest.
+Senatus Populus<mark>que</mark> Romanus</code></pre> 
+Enclitic   A clitic that appears after its host
+Mesoclitic   A clitic that appears between the stem of the host and other affixes
+Proclitic   A clitic that appears before its host
 
 ##### compounds
 
@@ -388,7 +455,15 @@ Verb|do (so)
 
 ##### pronouns
 
-personal pronouns = pronouns with personal deixis (?)
+Pronouns are proforms that stand for NPs, or DPs if we believe in them, not for nouns themselves.
+
+A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
+Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
+
+###### personal
+
+Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
+
 
 #### verbs
 
@@ -1119,6 +1194,20 @@ A digraph is using two graphs to write a single phoneme.
 Examples of digraphs are sh for /ʃ/ in english.
 Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
 
+Digraphia is the situation of having more than one writing system for {{c1::the same language}}
+
+### lexicography
+
+#### onomastics
+
+Onomastics is the study of proper names.
+
+##### epithets
+
+an epithet is a word/phrase that accompanies a name {{c1::as a matter of course}}
+Something that replaces a name can sometimes also be called an {{c1::epithet}}
+Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
+
 ## diachronic
 
 A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
@@ -1249,13 +1338,30 @@ Register and style are both functional varieties.
 Register and style a synonyms.
 A register/style is a lect that is used for a particular purpose or in a particular communicative setting.
 
-
 ideolect|a specific person
+sociolect|a social group
+
+#### slang, jargon, cant, argot ...
+
+It is hard to distinguish slang, jargon, argot, cant, etc. because they are {{c1::Often used interchangeably}}
+Slang is an informal register of an in-group that is not {{c1::in general common usage}}
+Jargon is the specialized language of a certain field.
+Cant ≈ argot
+Cant/argot is jargon with the purpose to exclude or mislead people outside the group
+
+### soclingvar
+
+In sociolinguistics, different ways of saying the same thing are known as variables.
+In sociolinguistics, socio-linguistic variable consists of all different variants for saying the same thing.
+In sociolinguistics, exchanging a variant for another of the same sociolinguistic variable has a social significance/meaning.
+In sociolinguistics, the existence of different variants is known as variation.
+The subfield of sociolinguistics that studies sociolinguistiv variables is variationist sociolinguistics.
 
 ### code switching
 
 Code-switching AKA language alternation
-Code-switching is when a speaker does alternates between two lects/languages in a single conversation
+Code-switching is when a speaker alternates between two+ lects/languages in a single conversation.
+Style-shifting is when a speaker alternates between two+ styles/registers in a single converation.
 
 ### speech community
 
@@ -1270,6 +1376,41 @@ Each person belongs to many speech communities.
 #### language and gender
 
 The study of language and gender is said to have stared with Language and Women's Place by Lakoff (1793ish)
+Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> {{c1::to see what they can teach us about patriarchy at large}}
+In robin lakoffs language and womens place, the method she uses is native speaker intuition
+
+##### approaches
+
+§§ The ((c:11;::deficit, dominance and difference approaches)) are all approaches to ((c:12;::explain differences between male and female language)) §<br>
+<table>
+  <thead>
+    <tr>
+      <th>approach</th>
+      <th>description</th>
+      <th>proponents</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::dominance approach))</td>
+      <td>((c:4;::powerless women's language)) ((c:5;::reflects (is caused by) male dominance more generally))</td>
+    </tr>
+    <tr>
+      <td>((c:2;::deficit approach))</td>
+      <td>((c:6;::women's language)) ((c:7;::is inferior to (= weaker than))) ((c:6;::men's language)) (and ((c:8;::this causes women's oppression, at least in part)))</td>
+      <td>((c:2;::Robin Lakoff}))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::difference approach))</td>
+      <td>((c:9;::women and men )) just ((c:10;::belong to different linguistic subcultures ('separate but equal')))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+##### gender in words
+
+
 
 ### standartization
 
@@ -1402,3 +1543,21 @@ In contemporary linguistics, the term feature is used in several ways. Two main 
 
 The term feature is sometimes used for a specific dimension of classification along which a given linguistic item is categorized. The specification of this dimension is then called a value. For example, the English noun bread carries the value '+' for the feature [countability].
 More generally, the term feature is also used as an equivalent of 'property', esp. when used for the classification of linguistic items. For example, the English phoneme /d/ can be said to have the feature [voiced] (i.e. the property of being voiced).
+
+### homo
+
+words that share a spelling but mean something different   homographs
+words that share a pronunciation but mean something different   homophones
+
+### markedness
+
+According to Haspelmath (2005), markedness has 12 distinctive senses, which makes it pretty hard to use unambiguously.
+Most but not all senses of markedness share a feeling of oddness, and the marked form is generally more rare.
+In semantics, a marked term is generally also more specific.
+In a morphosemantic sense, something coded through a zero morpheme is unmarked, something coded by a non-zero morpheme is marked.
+
+
+## semiotics
+
+Activity/process involving signs is called semiosis
+The study of sign processes (semiosis) is called semiotics
