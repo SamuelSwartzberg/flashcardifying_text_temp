@@ -105,9 +105,96 @@ CP
 CP may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
 
-DP hypothesis: 
+####### DP hypothesis: 
 
 Often correlates with the idea that pronouns are determiners.
+
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="2" class="inner"><span class="c1-cloze">DP</span></td>
+    </tr>
+    <tr>
+      <td class="inner"><span class="c2-cloze">AP</span></td>
+      <td colspan="2" class="inner"><span class="c3-cloze">NP</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="inner"><span class="c4-cloze">AP</span></td>
+      <td class="inner" colspan="2"><span class="c5-cloze">NP</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>      
+      <td class="inner"><span class="c6-cloze">N</span></td>
+      <td class="inner"><span class="c7-cloze">PP</span></td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="2" class="inner"><span class="c1-cloze">DP</span></td>
+    </tr>
+    <tr>
+      <td class="inner"><span class="c2-cloze">D</span></td>
+      <td colspan="2" class="inner"><span class="c3-cloze">NP</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="inner"><span class="c4-cloze">AP</span></td>
+      <td class="inner" colspan="2"><span class="c5-cloze">NP</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>      
+      <td class="inner"><span class="c6-cloze">N</span></td>
+      <td class="inner"><span class="c7-cloze">PP</span></td>
+    </tr>
+    <tr>
+      <td class="leaf">the</td>
+      <td class="leaf">best</td>
+      <td class="leaf">student</td>
+      <td class="leaf">of physics</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+####### NP hypothesis
+
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="2" class="inner"><span class="c1-cloze">NP</span></td>
+    </tr>
+    <tr>
+      <td class="inner"><span class="c2-cloze">D</span></td>
+      <td colspan="2" class="inner"><span class="c3-cloze">N'</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="inner"><span class="c4-cloze">AP</span></td>
+      <td class="inner" colspan="2"><span class="c5-cloze">N'</span></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>      
+      <td class="inner"><span class="c6-cloze">N</span></td>
+      <td class="inner"><span class="c7-cloze">PP</span></td>
+    </tr>
+    <tr>
+      <td class="leaf">the</td>
+      <td class="leaf">best</td>
+      <td class="leaf">student</td>
+      <td class="leaf">of physics</td>
+    </tr>
+  </tbody>
+
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ###### types of phrases
 
@@ -127,9 +214,9 @@ In indo-european languages, a relative clause is generally introduced by a relat
 
 ###### wh-movement
 
-#### grammatical category
+#### grammatical feature
 
-A grammatical category or grammatical feature is a property of items within the grammar of a language. 
+A grammatical feature (more rarely: grammatical category) is a property of items within the grammar of a language. 
 Common grammatical categories/features: tense, number, gender/noun class, person
 
 ##### syntactic
@@ -149,6 +236,8 @@ Grammatical gender is a form of noun-class system.
 
 ##### mainly related to verbs
 
+###### grammatical person
+
 {{c1::Grammatical person}} is personal deixis encoded in language.
 It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
 Most languages distinguish three forms of grammatical person.
@@ -156,6 +245,18 @@ Most languages distinguish three forms of grammatical person.
 First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
+
+###### grammatical voice
+
+Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles over grammatical relations.
+Subject is agent   active voice
+Subject is patient/theme (= not agent)   passive voice
+In english, when an active sentence is transformed to a passive sentence, the former object becomes the subject.
+In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
+In english, by-PPs realizing the agent are adjoined to the right of the VP.
+In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
+
+###### others
 
 Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
 A feature that encodes evidentiality is known as an evidential or verificational/validational
@@ -507,7 +608,7 @@ Japanese has three basic nominalizers: こと、もの、の
 
 #### phonology
 
-Phonology is a branch of linguistics that studies how lects organize their sounds.
+Phonology is a branch of linguistics that studies the sound systems of lects = how lects organize their sounds.
 
 ##### morphophonolgy
 
@@ -590,7 +691,9 @@ In the IPA, | is used to mark a longer break than ‖, but how long each of them
 In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
 In poetry, often the slash is used to mark line breaks.
 
-###### Elision
+###### MISSINGNAME: naively something like sound change
+
+####### Elision
 
 In linguistics, an elision or deletion is broadly defined as the omission of one or more sounds (such as a vowel, a consonant, or a whole syllable) in a word or phrase. However, it is also used to refer more narrowly to cases where two words are run together by the omission of a final sound.
 Syncope, apocope and apheresis are most commonly of unstressed vowels.
@@ -600,12 +703,15 @@ Apocope is a form of elision which is the loss of a sound from the end of a word
 Apheresis is a form of elision which is the loss of a sound from the beginning of a word
 Haplology is a form of elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
 
-###### Epenthesis
+####### Epenthesis
 
 Epenthesis is the addition of a sound to the word.
 prothesis is epenthesis at the beginning of the word.
 paragoge is epenthesis at the end of the word.
 
+####### Apophony
+
+Apophony is sound change within a word to indicate a grammatical feature ≈ sound change within a word due to inflection.
 
 ###### phonotactics
 
@@ -620,7 +726,7 @@ secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
 
 #### phonetics
 
-Phonetics is a branch of linguistics that studies how humans produce and perceive sounds, or in the case of sign languages, the equivalent aspects of sign.
+Phonetics is a branch of linguistics that studies the properties, production and perception of speech sounds, or in the case of sign languages, the equivalent aspects of sign.
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
 articulatory phonetics|production of speech sounds
 auditory phonetics|perception of speech sounds
@@ -1208,6 +1314,10 @@ an epithet is a word/phrase that accompanies a name {{c1::as a matter of course}
 Something that replaces a name can sometimes also be called an {{c1::epithet}}
 Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
 
+##### misc.
+
+A necronym may be the name of a person who has died, but more commonly is a substitute name used to refer to a person who has died (instead of the name the person had in life)
+
 ## diachronic
 
 A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
@@ -1452,6 +1562,11 @@ While language transfer/cli is two languages influencing each other within a spe
 
 ### SLA
 
+{{c2::Bilingualism}} is {{c1::The ability to speak two languages (or the state of being in two langauges)}}
+{{c2::Multilingualism}} is {{c1::The ability to speak multiple language (or the state of being in multiple langauges)}}
+Bi/multilingualism from birth   Simultaneous bi/multilingualism
+Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
+
 #### Heritage language
 
 A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
@@ -1463,13 +1578,21 @@ Language attrition is split up into first-language attrition and second-language
 The process of losing language skills in a language   Language attritionThe process of losing language skills in a <b>second</b> language  Second-language attrition
 The process of losing language skills in a <b>native</b> language  First language attrition
 
-### auxiliary languages
+### shared languages
+
+#### auxiliary languages
 
 international auxiliary language and auxiliary language are synonyms.
+IALs are languages meant for communication between people who do not share a first language.
+Conlang IALs (which is all IALs unless we include lingua franca) are mainly used to avoide linguistic dominance.
 IALs may also be called auxlangs.
 IALs (international ausiliary languages) may include or exclude natural languages that are lingua franca.
 Besides the case of natural languages that are lingua franca, IALs are constructed languages.
-Interlingua is a naturalistic IAL enabled in part by the existence of SAE.
+Interlingua is a naturalistic IAL that takes its grammar and vocab mainly from the romance languages.
+interlingua aims to be comprehensible to romance language native speakers without having learned it.
+Interlingua is enabled in part by the existence of SAE.
+
+#### lingua franca
 
 ### Language birth
 
