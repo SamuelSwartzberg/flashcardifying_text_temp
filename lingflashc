@@ -234,7 +234,13 @@ A clause links a predicand (expressed or not) with a predicate.
 A clause is a type of constituent.
 
 In linguistic typology, a null-subject language is a language whose grammar permits an independent clause to lack an explicit subject; such a clause is then said to have a null subject.
+An independent clause always features a subjecti or has a null subject.
 Languages I speak that are null-subject languages are spanish and japanese.
+
+Subordinate clause = dependent clause
+A subordinate/dependent clause cannot stand alone as a sentence.
+Independent clause = main clause ≈ root clause ≈ matrix clause
+A independent clause can stand alone as a sentence.
 
 ###### subordinate clauses
 
@@ -262,7 +268,16 @@ Traces are indicated by t and subscripted with a letter or  number indicating wh
 
 The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
 
+####### prepositions
+
+When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
+
 ###### wh-movement
+
+The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question.
+A wh in situ question is a wh-question where the wh-prhase does not move.
+A subject question in english is where the wh-phrase is the subject of the sentence.
+Of the wh-questions, subject questions are the only ones that don't feature I to C movement.
 
 #### grammatical feature
 
@@ -619,8 +634,10 @@ my, your, his, her, its, our, their
 
 #### conj
 
+
 There are two kind of conjunctions, coordinating and subordinating conjunctions.
 A coordinating conjunction links two conjuncts that are the same type of phrase.
+The two things linked by a coordinating conjunction are called conjuncts.
 
 #### proforms
 
