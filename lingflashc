@@ -126,8 +126,19 @@ CP
 CP may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
 
+####### IPs
+
+under the IP theory, the sentence is an IP headed by an I.
+in the IP theory, I stands for inflection.
+
+
 ####### VP-internal subject hypothesis
 
+According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
+According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
+The VP-internal subject hypothesis is desirable because it makes the VP consistent with the X-bar schema.
+The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
+The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
 Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
 
 ####### DP hypothesis: 
@@ -221,12 +232,16 @@ Often correlates with the idea that pronouns are determiners.
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
+####### IP hypothesis
+
+Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
+Multiple auxiliaries are adjoined as Vs to the VP.
+Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
+
 ###### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
-
-Adjective phrases tend to describe nouns.
 
 ##### clauses
 
@@ -256,6 +271,7 @@ Minor sentences generally do not allow substitution of items of the same word cl
 
 ##### movement
 
+discontinuity is the phenomenon where a constituent is split into two parts {{c1::due to the insertion of an element which is not part of it}}
 Syntactic movement is the means by which some theories of syntax address discontinuities.
 Two types of movement often distinguished are phrasal and head movement.
 In phrasal movement, an entire phrase moves.
@@ -590,13 +606,13 @@ Part of speech may be synonymous with lexcial category if we don't acknowledge f
 a closed word class is one that rarely or never accepts new members
 an open word class is one that can be extended without limit/readily accepts new members
 Clear distingction of word classes are difficult across languages.
+Often the things we think of a ertain word class doing is actually what a phrase headed by that thing does.
 
 A|Adjective
 P|Adposition
 Adv|Adverb
 Comp|coordinating conjunction
 D|Determiner
-I|Interjection
 N|Noun
 V|Verb
 
@@ -607,7 +623,24 @@ lexical category|some sort of semanting content|V, N, A, Adv...
 A word that is a member of a functional category is called a function word.
 A word that is a member of a lexical category is called a content word.
 
-An adposition may either be a preposition or a postposition.
+#### adjective
+
+An adjective (phrase) describes a thing or restricts its referent.
+An attributive adjective phrase is adjoined to an NP.
+A predicativea adjective phrase has the adjective phrase as the complement of the verb.
+A nominalized adjective works as the head of an NP.
+
+#### adverb
+
+In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
+Adverbial phrases describes the thing its modifying.
+Adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
+
+#### noun
+
+Nouns are heads of NPs.
+NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
+If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
 
 #### det
 
@@ -631,6 +664,12 @@ this, that, these, those, (yon, yonder)
 ##### posessive determiners
 
 my, your, his, her, its, our, their
+
+#### adpositions
+
+An adposition may either be a preposition, circumposition or a postposition.
+semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
+
 
 #### conj
 
@@ -1682,10 +1721,17 @@ weak version of linguistic relativity|language influences thought to some ectent
 
 ### phraseology
 
+In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 Phraseology is the study of phrasemes and related phenomena.
+Phrasemes are multi-word expressions of which their meaning is not completely deducable from their parts, i.e. that violate the principle of compositionality to a greater or lesser degree.
 
 A {{c1::snowclone}} is a {{c2::cliche}} {{c3::phrase}} with {{c4::one or more blanks}} that {{c5::keeps getting}} reused.
 {{c1::&nbsp;In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful}} are examples of {{c2::snowclones}}
+
+#### idioms
+
+An idiom is a type of phraseme which violates the principle of compositionality to a very high degree.
+Most commonly, idioms are either complement verb or subject complement verb.
 
 ### graphemics
 
@@ -1977,6 +2023,11 @@ Bi/multilingualism by learning a second language later   Sequential bi/multiling
 
 A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
 People may have varying degrees of fluency in their heritage language.
+
+#### Interlanguage
+
+An interlanguage is an idiolect that has been developed by a learner of a second language (or L2) which preserves some features of their first language (or L1) and/or overgeneralizes/misuses some L2 writing and speaking rules. 
+When an interlanguage ceases becoming similar to the L2, it has fossilized.
 
 ### Attrition
 
