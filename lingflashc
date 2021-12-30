@@ -53,7 +53,7 @@ E.g. <b>There</b> is someone helping us here.
 
 ##### Grammatical relations
 
-Grammatical relations are subjects and objects (direct and indirect), and perhaps others depending on your theory.
+Grammatical relations are subjects and objects, and perhaps others depending on your theory.
 Grammatical relations are different things to different theorists.
 The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
 
@@ -71,9 +71,16 @@ The conflict between propoonents of generative grammar and generative semantics 
 The proponents of generative semantics in the linguistics wars called themselves {{c1::the four horsemen of the apocalypse}}, amongst which was george lakoff
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
+##### constituents
+
+A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
+Phrases are constituents, but not all constituents are phrases.
+Constituents are identified by using constituent tests.
+There are many constituent tests in english, among which are: proform substitution
+
 ##### phrasees
 
-a phrase is a group of words which act together as a grammatical unit.
+a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
 The head of a phrase is the thing everything else in the phrase is about.
 In a phrase, everything that isn't the head is a dependent.
 In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
@@ -223,10 +230,23 @@ Adjective phrases tend to describe nouns.
 
 ##### clauses
 
+A clause links a predicand (expressed or not) with a predicate.
+A clause is a type of constituent.
+
+In linguistic typology, a null-subject language is a language whose grammar permits an independent clause to lack an explicit subject; such a clause is then said to have a null subject.
+Languages I speak that are null-subject languages are spanish and japanese.
+
 ###### subordinate clauses
 
 A {{c1::relative clause}} is a {{c3::subordinate clause}} which generally {{c2::describes the referent of its head}}.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
+
+##### sentences
+
+A sentence consists of one or more clausees.
+A sentence is a constituent cannot be further joined into larger constituents.
+A minor sentence is a sentence without the usual subject-predicate/constituent structure.
+Minor sentences generally do not allow substitution of items of the same word class: Merry Christmas!; *Merry Birthday!
 
 ##### movement
 
@@ -294,12 +314,16 @@ intransitive|doesn't take an object
 ditransitive|takes two objects
 ambitransitive|may take an object or not
 
+Ditransitive verbs take two objects, which in english may be termed the direct and indirect object.
+In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
+
 ###### ergativity
 
 an unergative verb is an intransitive verb whose argument is an agent.
 an unaccusative verb is an intransitive verb whose argument is not an agent.
 
-In linguistics, morphosyntactic alignment is the grammatical relationship between arguments—specifically, between the two arguments (in English, subject and object) of transitive verbs like the dog chased the cat, and the single argument of intransitive verbs like the cat ran away.
+In linguistics, morphosyntactic alignment is the grammatical relationship between arguments.
+Morphosyntactic alignment is more specifically used for the relationship between the two arguments (in English, subject and object) of transitive verbs like the dog chased the cat, and the single argument of intransitive verbs like the cat ran away.
 The most common types of morphosyntactic alignment are nominative-accusative and ergative-absolutive, though there are others.
 All languages I speak are nominative-accusative languages.
 In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
@@ -632,7 +656,7 @@ auxiliary verb is frequenly abbreviated auxiliary.
 In English, sentences without auxiliars cannot have negation.
 In English, auxiliaries cannot take an object.
 Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
-In English, auxiliaries go before the subject NP in question inversion.
+In English, auxiliaries go before the subject DP/NP in question inversion.
 have and do may or may not be auxiliary verbs.
 dummy do is do used as an auxiliary verb.
 using dummy do is called do-support
