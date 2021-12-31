@@ -774,6 +774,71 @@ Japanese endocentric compounds will generally display 連濁 if phonotactically 
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+### types of words
+
+#### numerals
+
+A numeral is a word or phrase that describes a numerical quantity.
+Numerals may be seen as their own part, or as an abstract concept that may be instantiated by different parts of speech.
+Across languages, numerals seem to be able to act as nouns, pronouns or adverbs.
+Numerals are generally based on one or more counting systems.
+In linguistics, measure words are words (or morphemes) that are used in combination with a numeral to indicate a semantically qualified amount.
+There are different kind of numerals (whether realized as words or phrases): 
+ordinal numerals|
+cardinal numerals| 
+multipliers|
+distributive numerals|
+collective numerals|
+Numerals are typically constructed via a counting system.
+Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
+due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
+
+##### japanese
+
+In japanese grammar, measure words are typically called counters.
+In japanese grammar, measure words are required for any numeral and when asking for quantities.
+In japanese grammar, numerals, measure words and optional indicators for cardinality form a phrase (which I will call Counter Phrase).
+Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
+
+The japanese counting system:
+number ::= {<myriad-unit>}[<place>][<place>][<place>]<place-when-base-1>
+myriad-unit ::= [<place>][<place>][<place>]<place-when-base-multiple-of-four >
+place ::= <digit><base-word>
+place-when-base-1 ::= <digit>
+place-when-base-multiple-of-four ::= <digit><base-multiple-of-four-word>
+
+Japanese digits:
+
+0|零・丸・ゼロ
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Japanese bases up to 1000
+
+10|
+100|百|ひゃく
+1000|千|せん
+
+Japanese base when multiple of four words:
+
+10^4|万|まん
+10^8|億|おく
+10^12|兆|ちょう
+
+
+#### interrogative word
+
+An interrogative word or particle is a word used to create a kind of interrogative sentence.
+Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
+An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
+
 ### parts of speech
 
 A part of speech/word class is a category of words with similar grammatical properties.
@@ -798,6 +863,7 @@ lexical category|some sort of semanting content|V, N, A, Adv...
 
 A word that is a member of a functional category is called a function word.
 A word that is a member of a lexical category is called a content word.
+
 
 #### adjective
 
@@ -826,8 +892,7 @@ Types of determiners: Articles, Demonstratives, Quantifiers, distributive determ
 
 ##### Quantifier
 
-All, both, etc.
-Quantifiers are a type of determiner.
+Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
 <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><th colspan="2">((c:1;::DP))</th></tr>
@@ -838,6 +903,7 @@ quantifiers are adjoined to the DP/NP to form a larger DP/NP.
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
 According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
+The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
 
 ##### Articles
 
