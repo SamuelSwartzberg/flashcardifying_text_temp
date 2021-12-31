@@ -364,6 +364,8 @@ Of the wh-questions, subject questions are the only ones that don't feature I to
 
 ####### adding constituents
 
+######## tag questsions
+
 A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
 A question tag is an interrogative fragment.
 Most languages have an (or multiple) simple question tag(s) allowing for tag question formation.
@@ -375,6 +377,15 @@ es|verdad?|no?
 ja|ね・な・でしょう・だろう|んじゃない・違う(?)
 English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
 English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
+
+######## interrogative words & particles
+
+Japanese:
+Japanese interrogative particles are sentence-final particles.
+
+Any question|か
+closed-ended questions|かい
+open-end|だい
 
 ##### sentences
 
@@ -524,7 +535,6 @@ Beyond evidential markers, らしい can also indicate typicality, while よう 
 
 ###### others
 
-Mirativitiy is the grammatical feature, independent of evidentiality, encoding  the surprise/unpreparedness in relation to a given thing.
 
 Clusivity is the grammatical feature encoding the difference between inclusive and exclusive first-person plural reference.
 Inclusive first-person plural reference includes the adressee, exclusive first-person plural reference excludes the adressee.
@@ -532,6 +542,7 @@ Inclusive first-person plural reference includes the adressee, exclusive first-p
 ###### tense-aspect-mmod
 
 tense, aspect and modality are three grammatical features that are often strongly entangled in a given language and thus hard to separate.
+for something to be a tense, aspect or modality it must be marked on the verb/vp.
 Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
 The marking of tense, aspect and modality is sometimes known as tense-aspect-mood
 tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
@@ -585,13 +596,67 @@ Telicity is most often considered an aspect.
 
 ####### modality
 
+modality is a grammatical feature used to discuss possible situations. 
 Different forms of modality are sometimes called flavors.
-Kinds of modality: epistemic, deontic
-kinds of deontic modality: desiderative
+Modalities are primarily distingished along two axes: deontic/epistemic and realis/irreals
+Deontic modality is modality that is concerned with how the world ought to be.
+Epistemic modality is modality that is concerned with knowledge, belief or credence.
+Realis moods/modalities are a set moods/modalities that indicate that something is the case.
+Irrealisa= moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
+Most languages have a single realis mood/modality called the indicative mood/modality, although some languages have additional realis moods, for example to express different levels of certainty.
+Distinction between different types of modality may not always be clear-cut, since different languages use different analyses.
 
-Desiderative modality is modality indicating that one wants something.
+Non-indicative realis moods are 
+energetic: emphasis or strong belief
+gnomic: general truths or aphorisms
+
+Types of epistemic irrealis modalities
+Subjunctive modality is a type of epistemic irrealis modality indicating that something is unlikely, this is generally used in subordinate clauses.
+Potential modality is a type of epistemic irrealis modality indicating that something is likely. This may also be called tentative when talking about japanese, as potential means something else.
+Dubitative modality is a type of epistemic irrealis modality indicating that something is dubious/doubtful or uncertain.
+Speculative modality is a type of epistemic irrealis modality indicating that something is mere speculation.
+Hypothetical modality is a type of epistemic irrealis modality indicating that while something did not happen, it could have happened.
+Assumptive modality is a type of epistemic irrealis modality indicating that something is true because it is usually true in similar circumstances.
+
+Types of deontic irrealis modalities
+
+Deontic modality may be roughly dividend into commissive, directive and volitive:
+commmissive|commital to something
+directive|commands, requests, etc.
+volitive|wishes, desires etc.
+
+Permissive modality is a type of directive modality indicating that something is permitted
+Imperative modality is a type of directive modality indicating a command.
+Hortative modality is a type of directive modality indicating one is trying to encourage or discourage an action.
+Prohibitive/vetative modality is a type of directive modality indicating that something is prohibited.
+Propositive modality is a type of directive modality indicating a proposal or suggestion.
+Propositive modality is a type of directive modality indicating that something should be brought about.
+
+Desiderative modality is a type of volitive deontic modality indicating that one wants something.
+Optative modality is a type of volitive deontic modality indicating Event is hoped/wished
+
+Types of irrealis modalities not clearly epistemic/deontic
+Conditional|Event depends on another condition
+
+mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
+Mirative|surprise/unpreparedness in relation to a given thing
+
+######## modality in japanese
+
+Deontic
+Deontic - directive
+
+Deontic - voltive
+Deontic - volitive: Desiderative
 たい・たがる
 
+Deontic - optative:
+The Japanese optative is formed by using a conditional such as ba (-ば) or tara (-たら). For example, "I wish there were more time" is expressed literally as "If there were time, it would be good." (時間があればいいのに jikan ga areba ii noni), where aru, the verb expressing existence, is in the ba conditional form areba. Ii is the present tense of "good," but if expressed in the past tense yokatta よかった, the sentence expresses regret instead of a wish or hope. The above example would become "If there had been time, it would have been good" 時間があればよかったのに, as might be said of an opportunity missed because of a lack of time.
+
+The optative mood can also be expressed by suffixing ように you ni to the verb, typically the polite form. For instance, "may you have a pleasant trip" 楽しい旅になりますように
+
+Epistemic - irrealis
+かな, かしら (female)、かも(しれない)
 
 #### morphology
 
@@ -801,7 +866,9 @@ In japanese grammar, numerals, measure words and optional indicators for cardina
 Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
 
 The japanese counting system:
-number ::= {<myriad-unit>}[<place>][<place>][<place>]<place-when-base-1>
+rational-number ::= [マイナス]<positive-rational-number>
+positive-rational-number ::- <integer>[<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby><digit>{<digit>}]
+integer ::= {<myriad-unit>}[<place>][<place>][<place>]<place-when-base-1>
 myriad-unit ::= [<place>][<place>][<place>]<place-when-base-multiple-of-four >
 place ::= <digit><base-word>
 place-when-base-1 ::= <digit>
@@ -810,28 +877,33 @@ place-when-base-multiple-of-four ::= <digit><base-multiple-of-four-word>
 Japanese digits:
 
 0|零・丸・ゼロ
-1
-2
-3
-4
-5
-6
-7
-8
-9
+
+
+1|一|いち|ひと
+2|二||ふた
+3|三||みっ
+4|四||よ(ん・っ)
+5|五||いつ
+6|六||むっ
+7|七||なな
+8|八||やっ
+9|九||ここの
 
 Japanese bases up to 1000
 
-10|
-100|百|ひゃく
-1000|千|せん
+10|十|じゅう|とお
+100|百|ひゃく|もも
+1000|千|せん|ち
 
 Japanese base when multiple of four words:
 
-10^4|万|まん
-10^8|億|おく
-10^12|兆|ちょう
+10^4|万|まん|よろず
+10^8|億|おく|none
+10^12|兆|ちょう|none
 
+Counters
+
+日|か|days|訓 (exception 一日：ついたち)
 
 #### interrogative word
 
@@ -864,6 +936,14 @@ lexical category|some sort of semanting content|V, N, A, Adv...
 A word that is a member of a functional category is called a function word.
 A word that is a member of a lexical category is called a content word.
 
+#### particle
+
+A particle is a function word (member of a functional category) which cannot be inflected.
+A particle occurring at the end of the sentence is a sentence-final particle.
+
+#### japanese sfps (until they have a better place)
+
+よ (similar but cool, masculine: ぞ, ぜ) (similar: わ)
 
 #### adjective
 
