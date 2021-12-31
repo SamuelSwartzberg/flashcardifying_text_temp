@@ -6,6 +6,8 @@ Thus, a segment is "any element, at any level of representation, which is descri
 
 ## structuralism
 
+### emic and etic units.
+
 <br>---<br>
   §§ An ((c:10;::emic unit)) ((c:11;::reduces)) ((c:12;::a large number of variant forms)) to ((c:13;::a number of abstract units)). §<br>
 §§ ((c:14;::Etic units)) are ((c:15;::the large number of variant forms)) that ((c:16;::reduce to a certain number of emic units)). §<br>
@@ -23,11 +25,17 @@ Thus, a segment is "any element, at any level of representation, which is descri
 <tr><td>((c:4;::morpheme))</td> <td>((c:5;s:6;::morph))</td> <td>((c:6;s:5;::allomorph))</td></tr>
 <tr><td>((c:7;::grapheme))</td> <td>((c:8;s:9;::glyph))</td> <td>((c:9;s:8;::allograph))</td></tr>
 phraseme|phrase|allophrase
+sememe|seme|alloseme
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
 
+The seme is the smallest unit of meaning in semantics.
 
+### homo
+
+words that share a spelling but mean something different   homographs
+words that share a pronunciation but mean something different   homophones
 
 ## synchronic
 
@@ -37,12 +45,13 @@ If we're being structuralist, a synchronic approach specifically consideres the 
 ### grammar
 
 Most broadly, grammar is the sets of rules governing a lect.
-A reference work on the grammar of a language may also be known as a grammar.
+A reference work on the grammar of a language may also be known as a grammar, more precisely as a reference grammar.
 If a string conforms to the grammar of a lect, it is called grammatical.
 A grammaticality judgement is a judgement on the gramatticality of a string by a certain speaker.
 grammaticality judgements are often used as linguistic evidence, generative grammar also aims to predict them.
 * marks a thing that is ungrammatical.
-if something is empty or unpronounced, ø or <i>e</i> are often used
+In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
+An empty category = something unpronounced is often indicated by ø or <i>e</i>
 
 #### syntax
 
@@ -88,7 +97,6 @@ head-initial|English (partially)
 
 ###### X-bar framework-based
 
-In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
 
 The X-bar theory asserts that all phrases have the structure <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png">, which is called the X-bar schema.
 In the X-bar theory, each node is binary, i.e. has two children.
@@ -117,6 +125,25 @@ X''/XP|the maximum projection of X
 In the X-bar schema, XP is theoretically X''.
 In the X-bar schema, X' and X'' (XP) are projections of X.
 
+In the X-bar schema, to indicate that foo is both a head and a complete phrase (both the minimal and the maximal projection), you can
+
+X/XP
+foo
+
+X(P)
+foo
+
+XP
+|
+X'
+|
+X
+foo
+
+XP
+|
+X
+foo
 
 In the X-bar framework, a phrase consists
 
@@ -126,10 +153,15 @@ CP
 CP may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
 
+The object is the thing that is the complement of the VP.
+
 ####### IPs
 
 under the IP theory, the sentence is an IP headed by an I.
+The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
 in the IP theory, I stands for inflection.
+under the IP theory, the subject is the thing that is in the specifier of the IP.
+under the IP theory, the complement of I is the VP.
 
 
 ####### VP-internal subject hypothesis
@@ -238,6 +270,13 @@ Auxiliaries actually start out as V, and then the top one (in the tree) moves to
 Multiple auxiliaries are adjoined as Vs to the VP.
 Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
 
+####### early modern english
+
+Lexical verbs could move to I, and thus to C, following the HMC.
+In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
+In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
+"What heards't thou?"
+
 ###### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
@@ -262,12 +301,49 @@ A independent clause can stand alone as a sentence.
 A {{c1::relative clause}} is a {{c3::subordinate clause}} which generally {{c2::describes the referent of its head}}.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
+###### interrogative
+
+In syntax, an interrogative clause has a particular type of syntax and/or prosoody, which is typically used to ask question (attach the illocutionary act/force of asking a question).
+Languages may have diffrent types of interrogative clauses (i.e. different syntaxes used to ask different types of questions).
+A question iteself is an illocutionary act/force seeking to obtain an answer.
+In many languages, besides syntax/prosody, written exchanges often indicate interrogatives by special punctuation.
+
+If syntax is used to indicate an interrogative, it may be in the form of conjugating the verb, changing the word order, adding interrogative words, particles, or other constituents, or often a combination of these.
+
+####### conjugation
+
+####### word order
+
+wh-movement is a form of head movement.
+The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question.
+A wh in situ question is a wh-question where the wh-prhase does not move.
+A subject question in english is where the wh-phrase is the subject of the sentence.
+Of the wh-questions, subject questions are the only ones that don't feature I to C movement.
+
+####### adding constituents
+
+A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
+A question tag is an interrogative fragment.
+Most languages have an (or multiple) simple question tag(s) allowing for tag question formation.
+question tags come in two basic flavors, asking one to confirm or asking one to deny.
+Examples of question tags:
+en|right?|no?, or no?
+de|stimmts?, gell?, wa?, ne?|nicht wahr?, oder nicht?
+es|verdad?|no?
+ja|ね・な・でしょう・だろう|んじゃない・違う(?)
+English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
+English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
+
 ##### sentences
 
 A sentence consists of one or more clausees.
+A simple sentence consists of one (main/independent) clause.
+A complex sentence consists of at least one main/independent clause and at least one dependent clause.
 A sentence is a constituent cannot be further joined into larger constituents.
+A major sentence we might consider a 'normal sentence' following the usual syntactic rules etc.
 A minor sentence is a sentence without the usual subject-predicate/constituent structure.
 Minor sentences generally do not allow substitution of items of the same word class: Merry Christmas!; *Merry Birthday!
+A sentence word (also called a one-word sentence) is a single word that forms a full sentence.
 
 ##### movement
 
@@ -288,13 +364,6 @@ The Head Movement Constraint (HMC) is the rule that a head H can only move to a 
 
 When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
 
-###### wh-movement
-
-The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question.
-A wh in situ question is a wh-question where the wh-prhase does not move.
-A subject question in english is where the wh-phrase is the subject of the sentence.
-Of the wh-questions, subject questions are the only ones that don't feature I to C movement.
-
 #### grammatical feature
 
 A grammatical feature (more rarely: grammatical category) is a property of items within the grammar of a language. 
@@ -314,6 +383,13 @@ Grammatical gender is a form of noun-class system.
 ###### number
 
 ###### case
+
+Lative case indicates a movement to a location.
+Ablative case indicates a movement away from a location.
+Locative case indicates a location.
+The terminative/terminalis case is a case specifying a limit in space/time and/or the goal/target of an action.
+In japanese, まで marks the terminative case.
+
 
 ##### mainly related to verbs
 
@@ -360,11 +436,45 @@ All languages I speak are nominative-accusative languages.
 In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
 In a ergative-absolutive (or just ergative) language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
 
-
-###### others
+###### evidentiality
 
 Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
 A feature that encodes evidentiality is known as an evidential or verificational/validational
+
+Following the typology of Alexandra Aikhenvald (2004, 2006), there are two broad types of evidential marking:
+
+indirectivity marking ("type I")
+evidential marking ("type II")
+
+The first type (indirectivity) indicates whether evidence exists for a given statement, but does not specify what kind of evidence. The second type (evidentiality proper) specifies the kind of evidence (such as whether the evidence is visual, reported, or inferred).
+
+type II evidentiality contains a bunch of distinctions, which may blend together:
+
+witness/nonwitness: whether the source is direct eyewitnessing or obtained otherwise (secondhand, inferral, logical deduction, etc.)
+firsthand/secondhand/thirdhand: may be orthogonal to witness/nonwitness since information may be firsthand but nonwitness (e.g. own inferral)
+sensory: Which senses does the information stem from
+inferential: Evidence was not personally experienced but inferred from indirect evidence.
+Reportative evidentials indicate that the information was reported to the speaker by another person. A few languages distinguish between hearsay evidentials and quotative evidentials. Hearsay indicates reported information that may or may not be accurate. A quotative indicates the information is accurate and not open to interpretation, i.e., is a direct quotation.
+
+Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
+
+####### japanese
+
+Japanese has evidential morphemes, namely heresay and inferential evidentials, as Narrog and Yang (2018) argue.
+
+Japanese inferential evidential morphemes are: そう、らしい、っぽい、よう、みたい
+
+Within the japanese inferential evidentials, そう is different from the rest in that it is future-oriented.
+The inferential evidential そう has a meanining in which it implies that there are two phases, one at a point in time 1, at which the state of affairs is not yet realized, and one at point in time 2, at which time it will be realized; the other evidentials do not.
+e.g. それは美味しそう！ "that looks tasty" => It is not yet tasty (since we're not eating it), but when and if we eat it, it will be tasty.
+The inferential evidential そう has a second meaning in which it indicates the inferred physical or mental state of a second or third person.
+Of the other four inferential evidential markers っぽい、よう、みたい act broadly similarly
+
+Japanese heresay evidential morphemes are: そう、らしい.
+
+Beyond evidential markers, らしい can also indicate typicality, while よう may also be used for similarity, comparison, category membership and as a complementizer.
+
+###### others
 
 Mirativitiy is the grammatical feature, independent of evidentiality, encoding  the surprise/unpreparedness in relation to a given thing.
 
@@ -378,7 +488,13 @@ Modality marked on a verb/VP is known as mood, however some authors also treat t
 The marking of tense, aspect and modality is sometimes known as tense-aspect-mood
 tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
 
-Aspect is a grammatical feature that tells you how time flows within the process/event itself.
+####### aspect
+
+Aspect is tells you how time flows within the process/event itself.
+Aspect may be divided into grammatical aspect, which is aspect indicated through inflection, and lexical aspect, which is inherent in a certain lexeme.
+Aspect encodes different distinctions:
+Perfective/Imperfective
+Inchoative/Cessative
 
 <table>
   <thead><tr><th colspan="3">Aspects (Selection)</th></tr></thead>
@@ -413,8 +529,20 @@ Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
+Inchoative aspect is aspect indicating that something is beginning (however not that something is about to begin).
+Cessative aspect is aspect indicating that something is ending.
+
+Telicity is the grammatical feature of whether something has a specific endpoint.
+Telicity is most often considered an aspect.
+
+####### modality
+
 Different forms of modality are sometimes called flavors.
 Kinds of modality: epistemic, deontic
+kinds of deontic modality: desiderative
+
+Desiderative modality is modality indicating that one wants something.
+たい・たがる
 
 
 #### morphology
@@ -669,7 +797,10 @@ my, your, his, her, its, our, their
 
 An adposition may either be a preposition, circumposition or a postposition.
 semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
-
+Adpositions may be transitive or intransitive.
+Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
+Intransitive adposition examples: here/everywhere/downstairs/ahead/outside/...
+Transitive adpositions may take other adpositions as complements.
 
 #### conj
 
@@ -678,11 +809,19 @@ There are two kind of conjunctions, coordinating and subordinating conjunctions.
 A coordinating conjunction links two conjuncts that are the same type of phrase.
 The two things linked by a coordinating conjunction are called conjuncts.
 
+##### subordinating conjunction
+
+≈ complementizer
+
 #### proforms
 
 Proforms are function words that stand in for another phrase.
-Noun|Pronouns
+DP/NP|Pronouns
+NP/N'|one
 Verb|do (so)
+Temporal adposition|then
+Spatial adposition|there
+other adposition|none exists
 
 ##### pronouns
 
@@ -710,7 +849,7 @@ setzen is a dynamic verb while sitzen is a dynamic verb.
 Non auxiliary verbs are called lexical verbs.
 auxiliary verb is frequenly abbreviated auxiliary.
 In English, sentences without auxiliars cannot have negation.
-In English, auxiliaries cannot take an object.
+In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
 Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
 In English, auxiliaries go before the subject DP/NP in question inversion.
 have and do may or may not be auxiliary verbs.
@@ -848,6 +987,33 @@ In linguistics, and particularly phonology, stress or accent is the relative emp
 The IPA distinguishes between primary and secondary stress, the symbol follows polish notation in both casees.
 primary stress|ˈ (ˈa; sɐˈbiɐ)
 secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
+
+###### tone
+
+Tone is the use of pitch in language to distinguish lexical or grammatical meaning.
+In linguistics, intonation is variation in spoken pitch when used, not for distinguishing words as sememes (a concept known as tone), but, rather, for a range of other functions.
+
+<div class="c2-f">
+What's the IPA diacritic for this?
+</div><div class="c1-f">
+What phenomenon is this IPA diacritic for?
+</div><br>{{c1::mid tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::<span class="ipa">ŋ̄ ē</span> or <span class="ipa">e˧</span>}}
+{{c1::low tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ̀ è] or [e˨]}}
+{{c1::high tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ́ é] or [e˦]}}
+{{c1::global rise (intonation, not tone) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::↗︎◌}}
+{{c1::global fall (intonation, not tone) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::↘︎◌}}
+{{c1::extra low/bottom tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ̏ ȅ] or [e˩]}}
+{{c1::extra high/top tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::<span class="ipa">ŋ̋ e̋ </span> or<span class="ipa">e˥</span>}}
+{{c1::Upstep (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ꜛ◌ or ꜞ◌}}
+{{c1::Generic rising tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ŋ̌ ě}}
+{{c1::Generic falling tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ŋ̂ ê}}
+{{c1::Downstep (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ꜜ◌ or ꜝ◌}}
+Why does it make sense to have a downstep at the end of a word? <span class="divider">-&gt;</span> {{c1::Because any attached morphemes will inherit the downstep}}
+What does the downstep arrow apply to? <span class="divider">-&gt;</span> {{c1::Everything after it}}<br><div class="sub">
+<div class="sub c2-b c1-f">
+lows are left
+</div>
+</div>
 
 #### phonetics
 
@@ -1611,11 +1777,12 @@ Relative clauses generally are restrictive.
 #### Thematic/Semantic role
 
 Semantic role aka thematic role aka theta role.
+In the grammar taught in school grammatical relations and semantic roles are often conflated, but in fact these are orthogonal to each other.
 
 Agent, patient, theme, instrument ... 
-AGENT|volitional initiator 
-INSTRUMENT|Means of action
-PATIENT|undergoes action, changes state
+AGENT|volitional initiator|RAM broke the window with a stone
+INSTRUMENT|Means of action|Ram broke the window with A STONE
+PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
 THEME|undergoes action, does not change state
 
 #### semantic relations
@@ -2124,11 +2291,6 @@ In contemporary linguistics, the term feature is used in several ways. Two main 
 
 The term feature is sometimes used for a specific dimension of classification along which a given linguistic item is categorized. The specification of this dimension is then called a value. For example, the English noun bread carries the value '+' for the feature [countability].
 More generally, the term feature is also used as an equivalent of 'property', esp. when used for the classification of linguistic items. For example, the English phoneme /d/ can be said to have the feature [voiced] (i.e. the property of being voiced).
-
-### homo
-
-words that share a spelling but mean something different   homographs
-words that share a pronunciation but mean something different   homophones
 
 ### markedness
 
