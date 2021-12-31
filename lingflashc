@@ -52,12 +52,19 @@ grammaticality judgements are often used as linguistic evidence, generative gram
 * marks a thing that is ungrammatical.
 In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
 An empty category = something unpronounced is often indicated by ø or <i>e</i>
+In linguistics, a string is a sequence of words/sounds that we don't want to put any deeper analytical category on just yet.
 
 #### syntax
+
+##### Information structure
+
+Information structure is the subfield of linguistics describing how information is organized within a sentence.
+Information structure mainly consists of the three oppoositions of focus/background, topic/comment, and givenness/new
 
 ##### Expletives
 
 An {{c1::expletive}} is a {{c2::meaningless}} element put in some position to {{c3::fulfil a grammatical requirement}}. (Can also mean profanity, of course)
+Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
 E.g. <b>There</b> is someone helping us here.
 
 ##### Grammatical relations
@@ -83,9 +90,23 @@ Generative semantics held that syntactic structures from meanings, rather than t
 ##### constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
+The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
 Phrases are constituents, but not all constituents are phrases.
 Constituents are identified by using constituent tests.
 There are many constituent tests in english, among which are: proform substitution
+proform test: Substitute the relevant proform, perform a grammaticality judgement
+<pre><code data-codetype="text">The lady running the group handed in her resignation at noon.
+The lady running the group did so at noon.</code></pre>
+cleft test: Move the string into the main clause of a cleft sentence (It was/is x that...)
+<pre><code data-codetype="text">The guests from overseas visited the best parts of the city on Monday
+It was the best parts of the city that the guests from overseas visited on Monday.</code></pre>
+question test: Ask for the string in question with a wh-question.
+<pre><code data-codetype="text">The lady running the group handed in her resignation at noon.
+What did the lady running the group hand in at noon?
+Her resignation.</code></pre>
+Movement test: move string to different position in sentence.
+<pre><code data-codetype="text">Gertrude wasn't interested in art.
+Interested in art, Gertrude wasn't.</code></pre>
 
 ##### phrasees
 
@@ -175,7 +196,13 @@ Evidence: The subject is an argument of the V, but it appears outside of the VP,
 
 ####### DP hypothesis: 
 
+The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
+The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
+Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
+Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
+The DP hypothesis is still a controversial hypothesis
 Often correlates with the idea that pronouns are determiners.
+In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 
 <table class="blank-canvas">
   <tbody>
@@ -277,6 +304,15 @@ In current english, wh-questions need do-support since something needs to fill t
 In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
 "What heards't thou?"
 
+####### german sentences
+
+The german main clause V2, subordinate clause V-final constituent order is explained as follows:
+In german, VP and IP are head-filnal
+All german clauses are CPs with pronouced Cs.
+Subordinate german clauses have their C positions filled by a complementizer as usual.
+If C is not filled by a complementizer, then V moves to I and then to C.
+Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
+
 ###### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
@@ -314,6 +350,12 @@ If syntax is used to indicate an interrogative, it may be in the form of conjuga
 
 ####### word order
 
+######## I-to-C movement
+
+In english, wh-questions and yes/no questions alike are marked by I-to-C movement
+
+######## wh-movement
+
 wh-movement is a form of head movement.
 The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question.
 A wh in situ question is a wh-question where the wh-prhase does not move.
@@ -345,6 +387,10 @@ A minor sentence is a sentence without the usual subject-predicate/constituent s
 Minor sentences generally do not allow substitution of items of the same word class: Merry Christmas!; *Merry Birthday!
 A sentence word (also called a one-word sentence) is a single word that forms a full sentence.
 
+A cleft sentence splits a simple sentence up into a complex sentence. 
+Cleft seentence typically put the constituent now in the independent clause into focus.
+Syntax of cleft sentences in english: it + conjugated form of to be + X + subordinate clause
+
 ##### movement
 
 discontinuity is the phenomenon where a constituent is split into two parts {{c1::due to the insertion of an element which is not part of it}}
@@ -354,11 +400,13 @@ In phrasal movement, an entire phrase moves.
 In head movement is when only a head of a phrase moves, leaving its dependents behind.
 
 In chomskyian theories, movement leaves behind an empty category called a trace.
-Traces are indicated by t and subscripted with a letter or  number indicating what moved.
+Traces are indicated by t and subscripted with a letter or  number indicating what moved, this is known as coindexing.
 
 ###### head movement 
 
 The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
+Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
+The head movement contraint only applies to head movement, obv.
 
 ####### prepositions
 
@@ -779,6 +827,17 @@ Types of determiners: Articles, Demonstratives, Quantifiers, distributive determ
 ##### Quantifier
 
 All, both, etc.
+Quantifiers are a type of determiner.
+quantifiers are adjoined to the DP/NP to form a larger DP/NP.
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><th colspan="2">((c:1;::DP))</th></tr>
+<tr><th>((c:2;::Q/D))</th> <th>((c:3;::DP))</th></tr>
+<tr><td><span>all</span></td> <td><span>the students</span></td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
+According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
 
 ##### Articles
 
@@ -812,10 +871,12 @@ The two things linked by a coordinating conjunction are called conjuncts.
 ##### subordinating conjunction
 
 ≈ complementizer
+In english, the complementizer 'that' sometimes is unpronounced
+Akane thought that Lilly was a いい子. => Akane thought Lilly was a いい子. 
 
 #### proforms
 
-Proforms are function words that stand in for another phrase.
+Proforms are function words that stand in for another constituent.
 DP/NP|Pronouns
 NP/N'|one
 Verb|do (so)
@@ -2266,12 +2327,13 @@ Even languages which typically allow large amounts of flexibility in word order 
 #### constituent order
 
 the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
-German has verb-second order in main clauses and verb-final order in subordinate clauses.
+German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
 SOV, SVO, etc
 
 Verb-final language place the verb at the end of a clause.
 
-V2 word order
+V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
+In V2 word order, the first constituent functions as the topic.
 
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
 
