@@ -39,6 +39,7 @@ words that share a pronunciation but mean something different   homophones
 
 ## synchronic
 
+The diachronic/synchronic distinction was coined by ferdinand de sussure.
 A <dfn>synchronic</dfn> viewpoint considers a language at a moment in time without taking its history into account. 
 If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a language.
 
@@ -56,6 +57,9 @@ In linguistics, a string is a sequence of words/sounds that we don't want to put
 
 #### syntax
 
+Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
+Morphosyntax is where morphology and syntax interset.
+
 ##### Information structure
 
 Information structure is the subfield of linguistics describing how information is organized within a sentence.
@@ -65,7 +69,7 @@ Information structure mainly consists of the three oppoositions of focus/backgro
 
 An {{c1::expletive}} is a {{c2::meaningless}} element put in some position to {{c3::fulfil a grammatical requirement}}. (Can also mean profanity, of course)
 Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
-E.g. <b>There</b> is someone helping us here.
+E.g. <b>There</b> is someone helping us here. <b>It</b> was raining, wasn't <b>it</b>?
 
 ##### Grammatical relations
 
@@ -201,7 +205,7 @@ The DP hypothesis argues that D can be seen as the head of a DP since the D pick
 Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
 Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
 The DP hypothesis is still a controversial hypothesis
-Often correlates with the idea that pronouns are determiners.
+The DP hypothesis often correlates with the idea that pronouns are determiners.
 In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 
 <table class="blank-canvas">
@@ -335,6 +339,11 @@ A independent clause can stand alone as a sentence.
 ###### subordinate clauses
 
 A {{c1::relative clause}} is a {{c3::subordinate clause}} which generally {{c2::describes the referent of its head}}.
+I met a furry who was passionate.
+
+####### relative clause
+
+A relative clause is a subordinate clause that describes a DP/NP
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
 ###### interrogative
@@ -352,15 +361,30 @@ If syntax is used to indicate an interrogative, it may be in the form of conjuga
 
 ######## I-to-C movement
 
-In english, wh-questions and yes/no questions alike are marked by I-to-C movement
+In english, wh-questions and yes/no questions alike are marked by I-to-C movement.
+In english interrogatives that are not subject questions, the sentence becomes a CP.
+In english interrogatives, the newly formed C position is filled by I moving to C.
+In english interrogatives, if there is no I to move to C, I is made pronounced via do-support.
 
 ######## wh-movement
 
+A wh-question is a interrogative sentence using a wh-word.
+Wh-questions typically feature wh-movement.
 wh-movement is a form of head movement.
-The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question.
+The wh-constituent moves from and therefore its trace is to be found in where it would be in an answer to the question, unless it is in situ.
 A wh in situ question is a wh-question where the wh-prhase does not move.
+She was reading what? They went where? She spoke to who(m)?
 A subject question in english is where the wh-phrase is the subject of the sentence.
-Of the wh-questions, subject questions are the only ones that don't feature I to C movement.
+Of the wh-questions, subject questions are the only ones that don't feature I to C movement, and thus also no do-support.
+the syntax of a subject question has the same syntax as a statement.
+
+Places out of which constituents for wh-questions are impossible to extract   islands
+There are a bunch of islands:
+- No extraction of one of the conjuncts of a coordinated phrase.
+- No extraction out of a CP inside a DP
+- No extraction out of a subject (for most English speakers)
+- No extraction out of adjuncts
+Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible.
 
 ####### adding constituents
 
@@ -380,12 +404,15 @@ English as welll as a few other languages have specific grammar for forming more
 
 ######## interrogative words & particles
 
+In english, interrogative words start with wh- and are thus known as wh-words.
 Japanese:
 Japanese interrogative particles are sentence-final particles.
 
 Any question|か
 closed-ended questions|かい
 open-end|だい
+
+The japanese interrogative particle か is relatively implication-free when used with $POLITE, but has certain implications when used $NONPOLITE.
 
 ##### sentences
 
@@ -412,6 +439,9 @@ In head movement is when only a head of a phrase moves, leaving its dependents b
 
 In chomskyian theories, movement leaves behind an empty category called a trace.
 Traces are indicated by t and subscripted with a letter or  number indicating what moved, this is known as coindexing.
+Some of the evidence of traces is that we can't contract over them.
+
+In syntax, something is "in situ" if it doesn't move, although it normally would.
 
 ###### head movement 
 
@@ -422,15 +452,16 @@ The head movement contraint only applies to head movement, obv.
 ####### prepositions
 
 When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
+An entire expression moves, instead of leaving something behind   Pied Piping
+A head moves and leaves behind a preposition   Preposition stranding
 
 #### grammatical feature
 
-A grammatical feature (more rarely: grammatical category) is a property of items within the grammar of a language. 
-Common grammatical categories/features: tense, number, gender/noun class, person
+A grammatical feature is more rarely called grammatical category.
+A grammatical feature is a property of items within the grammar of a language. 
+Within each grammatical feature there are two or more possible values (sometimes called grammemes), which are normally mutually exclusive.
 
-##### syntactic
-
-##### phi-features
+##### phi-features (noun-related)
 
 phi-features is a group of grammatical features related to nouns.
 Phi-features include person, number, gender and case
@@ -441,13 +472,91 @@ Grammatical gender is a form of noun-class system.
 
 ###### number
 
+Grammatical number is a grammatical feature distinguising amounts.
+Grammatical number is most often marked on things present in the DP/NP (Determiners, Nouns, Adjectives) and via verbal agreement.
+As regars grammatical number, most languages have a singular/plural distinction.
+In languages with a singular/plural distinction, the singular refers to one entity, and the plural refers to more than one entity.
+In languages with a singular/plural distinction, most often the singular is the unmarked form, and the plural is marked.
+Some languages have a singulative/collective distinction.
+In languages with a singulative/collective distinction, the collective refers to the item with no distinction into individual entities, and the singulative refers to a specific entity.
+In languages with a singulative/collective distinction, the collective form is generally the unmarked one, while the singulative form is marked.
+English, German and Spanish have grammatical number that distinguishes Singular and Plural, Japanese does not have grammatical number.
+
+Other grammatical numbers:
+Dual|two
+Trial|three
+Paucal|a few
+
 ###### case
 
+Grammatical case is a grammatical feature marking thematic relation or grammatical relation/morphosyntactic alignment.
+Grammatical case is mostly marked on things within the DP/NP.
+
+Accusative   object of a verb
+Nominative   Subject of a verb
+
+Dative case is sometimes said to mark the indirect object, but the indirect object is just an english construct for describing a certain kind of object of a verb. in this sense, many cases mark something that is an object or at least argument of a verb, not just dative.
+Dative indicates recipient or benificiary of an action.
 Lative case indicates a movement to a location.
 Ablative case indicates a movement away from a location.
 Locative case indicates a location.
-The terminative/terminalis case is a case specifying a limit in space/time and/or the goal/target of an action.
-In japanese, まで marks the terminative case.
+benefactive case indicates that something is done for the benefit someone/is intended for someone.
+Benefactive case is often included in the dative case.
+Terminative/terminalis case specifies a limit in space/time and/or the goal/target of an action.
+Genitive   posess<b>or</b>
+Instrumental   A means or tool used or companion present in/while performing an action	
+Abessive/caritive/privative absence of the thing.
+Comitative accompaniment
+Ornative endowed with, supplied with
+In english, the word with performs the function of both comitative and instrumental cases.
+Prolative/vialis/prosecutive/traversal/mediative by way of, via
+Inessive within
+Illative into
+Elative out of
+Superessive on top of, on the surface of.
+subessive below
+perlative through, across, along
+Vocative   adressee
+
+まで|terminative
+を|Accusative, Perlative
+の|Genitive   
+が|Nominative   
+よ|Vocative
+
+##### honorific
+
+A honorific is a grammatical feature that encodes social relationships.
+Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
+Honorifics may be encoded via a variety of linguistic devices.
+
+Japanese has three dimensions of honorifics: politeness, formality, and deference/humility & respect.
+Politeness|relationship to addressee
+Deference/humility & respect|relationship between people in sentence
+Formality|relationship to medium
+
+https://japanese.stackexchange.com/questions/68970/politeness-respectfulness-humility-formality
+
+Language encoding politeness in japanese is called 丁寧語.
+Politeness is encoded in verb/copular endings in japanese.
+Deference/humility & respect are encoded in different verbal conjugations, as well as conjugations of objects.
+Formality is encoded in different versions of the copula, as well as in certain word choices.
+
+Politness
+Copula: 
+|-POL, -FORM|+POL, -FORM|-POL, +FORM|+POL, +FORM
+positive polarity|だ|です|である|であります
+negative polarity|じゃない|じゃありません|ではない|ではありません
+
+
+##### polarity
+
+Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
+Positive polarity = affirmation
+Negative polarity = negation
+
+##### others
+
 
 
 ##### mainly related to verbs
@@ -472,16 +581,31 @@ In english, the AGENT of a passive sentence is realized in a by-pp or left out e
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
 
-##### transitivity
+###### transitivity
 
+Valency is the number of argument controlled by a thing, mainly by a verb.
 Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
-transitive|takes an object
+Valency is different from transitivity in that it counts arguments, and thus also the subject.
+In general, the valency of a verb or similar is one higher than its transitivity.
+
+0|impersonal/avalent
+1|monovalnet
+2|divalent
+...
+
 intransitive|doesn't take an object
+transitive|takes an object
 ditransitive|takes two objects
+tritransitive|takes three objects
 ambitransitive|may take an object or not
 
 Ditransitive verbs take two objects, which in english may be termed the direct and indirect object.
 In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
+
+###### causative
+
+A causative indicates that someone/thing causes someone/thing else to do/be something.
+A causative increases the valency of the verb involved.
 
 ###### ergativity
 
@@ -681,7 +805,7 @@ Word formation may either be the creation of variant forms of a lexeme via infle
 Word formation as the creation of new lexemes is known as derivation.
 Derivation may be morphological or nonmorphological.
 Morphological derivation is derviation by adding or removing morphemes.
-Nonmorphologiccal derivation is derivation that is not directly related to the morphemes in the base.
+Nonmorphological derivation is derivation that is not directly related to the morphemes in the base.
 
 A portmanteu is where parts of multiple words are combined into a new word/morph.
 A blend/blend word word/lexical blend is a portmanteu where at least one of the parts combined is not a morph.
@@ -698,6 +822,8 @@ Clipping: Coronavirus -> rona, refridgerator -> fridge, influenza -> flu
 Clipping is also different from back-formation, which proceeds by (pseudo-)morpheme rather than segment, and where the new word may differ in sense and word class from its source.
 
 A hybrid word is a morphological derivation that derives from at least two different languages. 
+The most common {{c3::hybrid words}} in {{c2::english}} consist of {{c1::one latin-derived and one greek-derived part}}
+{{c2::asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)}} are examples for {{c1::hybrid words}}
 
 ###### nonmorphological
 
@@ -719,6 +845,7 @@ Examples for numeronums: 9/11 (date metonym), i18n (letter count), 4649 (weird s
 productivity is the degree to which native speakers of a language use a particular grammatical process, especially in word formation.
 The polar ends of productivity are productive and unproductive.
 Word formation processses that are applied very infrequently are likely unproductive.
+If a word formation process can be applied to create new words, it is productive.
 In english, using ablauts to create preterite verbs is unproductive, while using -ed to create preterite verbs is productive.
 
 ##### Inflection
@@ -758,6 +885,12 @@ An inflectional category is a class of inflection pattern that have a common gra
 A lexeme that lacks some of the forms of its inflectional paradigm is defective.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
 
+A verb that follows a pattern of a typical inflectional category is called regular, else irregular.
+Inflectional categories of verb conjugations are called verb clasess.
+
+Modern japanese features two verb classes plus two common irregular verbs, plus some smaller exceptions.
+
+
 ##### Lexeme
 
 A lexeme is the fundamental unit of the lexicon of a language.
@@ -774,10 +907,13 @@ Lexicon seems to be a synonym of lexis.
 
 ##### stem, base, root
 
-A base is any morphological unit to which affixes can be attached
-The part of a word that is commonly used as a starting point for inflections is called?  the stem
-The part of a word with lexical meaning that cannot be broken down any further is called what?  root
-How many roots does the word 'wheelchair' have?  2
+The root is the irreducable morphological core of a word, with the core lexical meaning.
+The stem is the root plus any derivational changes (see derivation (word formation))
+The stem is the morpheme that is commonly used as a starting point for inflections.
+A base is any morphological unit to which affixes can be attached.
+
+###### japanese stems
+
 
 ##### free and bound forms
 
@@ -806,6 +942,7 @@ A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by
 ###### clitics
 
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
+The thing that a clitic attaches to is its host.
 When something is being attached as a clitic, it is {{c1::cliticising}}
 <pre><code data-codetype="text">It<mark>'s</mark> a boy!
 I<mark>'m</mark> terribly sorry.
@@ -839,6 +976,8 @@ Japanese endocentric compounds will generally display 連濁 if phonotactically 
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+An example of {{c2::the typical progression of english compounds}} is "T{{c1::o day" -&gt; "to-day" -&gt; "today"}}
+
 ### types of words
 
 #### numerals
@@ -849,8 +988,8 @@ Across languages, numerals seem to be able to act as nouns, pronouns or adverbs.
 Numerals are generally based on one or more counting systems.
 In linguistics, measure words are words (or morphemes) that are used in combination with a numeral to indicate a semantically qualified amount.
 There are different kind of numerals (whether realized as words or phrases): 
-ordinal numerals|
-cardinal numerals| 
+ordinal numerals|position in sequence
+cardinal numerals|amount/quantity
 multipliers|
 distributive numerals|
 collective numerals|
@@ -911,6 +1050,31 @@ An interrogative word or particle is a word used to create a kind of interrogati
 Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
 An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
 
+#### demonstratives
+
+demonstrative determiners usually map onto the spatial/discourse deixis distinction
+Demonstratives usually come in two flavors, demonstrative determiners and demonstrative pronouns, which may or may not be derminers depending on your theory.
+
+proximal|this
+medial/distal|that
+distal (rare)|yon(der)
+
+proximal|este, estos|esta, estas|esto
+medial|ese, esos|esa, esas|eso
+distal|aquel, aquellos|aquella, aquellas|aquello
+
+Neuter forms do not change for number.
+
+##### Japanese
+
+In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
+The japanese deictical morphemes collectively are known as こそあど.
+
+proximal|こ
+medial|そ
+distal|あ
+question|ど
+
 ### parts of speech
 
 A part of speech/word class is a category of words with similar grammatical properties.
@@ -948,9 +1112,15 @@ A particle occurring at the end of the sentence is a sentence-final particle.
 #### adjective
 
 An adjective (phrase) describes a thing or restricts its referent.
+Adjective phrases in english can exist syyntactically in three ways: an attributive adjective, a predicative adjective and a nominalized adjective.
 An attributive adjective phrase is adjoined to an NP.
-A predicativea adjective phrase has the adjective phrase as the complement of the verb.
+A predicative adjective phrase has the adjective phrase as the complement of the verb.
 A nominalized adjective works as the head of an NP.
+
+##### japanese
+
+Why is a na-adjective called a na-adjective?  Because you need to put a na between the adjective and the noun.
+All i-adjectives end with い, hence their name.
 
 #### adverb
 
@@ -964,11 +1134,24 @@ Nouns are heads of NPs.
 NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
 If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
 
+##### attribution
+
+In grammar, something attributive is a phrase within a NP/DP that modifies the head noun. 
+Adnnominal seems to be a synonym for attributive
+In english, relative clauses and attributive adjectives are the main things that act attributively.
+A verb that can be used attributively is known as an attributive verb.
+In japanese grammar, things that are in an adnominal form (even if they don't actually inflect) are said to be in the <ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>形<rp>(</rp><rt>けい</rt><rp>)</rp></ruby>.
+
+i-adjectives|no change
+na-adjectives|な
+copula|な
+verbs|no change
+
 #### det
 
 A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
 Often, for any given pronoun, there is a similar or identical determiner
-Types of determiners: Articles, Demonstratives, Quantifiers, distributive determiners, interrogative determiners
+Types of determiners: Articles, Demonstrative determiners, Quantifiers, distributive determiners, interrogative determiners
 
 ##### Quantifier
 
@@ -988,11 +1171,6 @@ The existence of floating quantifiers provides evidence for the VP-internal subj
 ##### Articles
 
 Examples of Articles in EN: the, an, a
-
-##### Demonstratives
-
-demonstrative determiners usually map onto the spatial deixis distinction
-this, that, these, those, (yon, yonder)
 
 ##### posessive determiners
 
@@ -1042,6 +1220,16 @@ Japanese and Spanish are pro-drop, German and English are, with rare exceptions,
 Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
 
 
+#### copula
+
+A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
+The tree **is** blue.
+Depending on the language, a copula may or may not be the copula.
+
+##### in japanese
+
+だ、な、で、です、である。。。
+
 #### verbs
 
 ##### dynstat
@@ -1080,6 +1268,8 @@ Phonology is a branch of linguistics that studies the sound systems of lects = h
 
 ##### morphophonolgy
 
+Morphophonology studies the interaction between morphology and phonology/phonetics.
+
 ###### sandhi
 
 Sandhi is a cover term for sound changes that happen at morpheme/word boundaries
@@ -1096,10 +1286,14 @@ Segmental phonology is concerned with the analysis of speech into phonemes.
 
 Phonemic contrast is the minimal phonetic difference to mark two phones as belonging to different phonemes.
 A difference marking phonemic contrast is said to be contrastive or phonemic.
+If in a certain phonotactic environment the difference between two phones is no longer contrastive , it is said to have been neutralized.
 a minimal pair is two or more words that differ only in one distinctive feature.
 In english phonology, rip and lip form a minimal pair.
 minimal pairs may also be used in syntax, where they differ in one word/branching structure.
 If two or more words form a minimal pair, the phones are proven to have phonemic contrast and thus be phonemes.
+
+####### Complementary dist, contrastive dist, free variation
+
 
 
 ###### the syllable
@@ -1148,6 +1342,10 @@ The stress and secondary stress marks also imply a syllable break.
 Using spaces in the IPA implies a syllable break, if you want to prevent this, use the ‿ symbol.
 
 The part of the syllable called the rhyme is called that because it's the part that's often used for rhymes.
+
+###### morae
+
+A mora is a unit of equal timing.
 
 ##### suprasegmental phonology
 
@@ -1278,7 +1476,10 @@ In many alphabets, geminates are written with doubled letters.
 gemination is phonemic/contrastive in japanese but not in english, german or spanish.
 For gemination, lengthened fricatives, nasals, laterals, approximants and trills are simply prolonged. In lengthened stops, the obstruction of the airway is prolonged, which delays release, and the "hold" is lengthened. 
 In japanese, gemination is marked by っ.
-In japanese, non-phonemic gemination implies emphasis.
+In japanese, non-phonemic gemination implies emphasis (not in all varieties though).
+すごい -> すっごい
+In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
+If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
 
 ###### Coarticulation
 
@@ -1410,12 +1611,25 @@ the glottal stop has [+glottalization] [-voice]
 the voiceless glottal fricative has [-glottalization] [-voice]
 And then there's the breathy-voiced glottal fricative
 
+Creaky voice has [+constricted glottis].
+Creaky voice is indicated in the IPA as <span class='ipa'>◌̰</span>
+
+Breathy voice is also called murmured voice.
+During breathy voice the vocal folds vibrate, but allow more air to escape.
+Breathy voice has [+spread glottis] [+voiced]
+Breathy voice is indicated in the IPA as <span class="ipa">◌̤</span>.
+
 ###### articulation
 
 Articulation is the shaping of airflow to get a sound.
 An articulator is a feature within the vocal tract that is used for articulation.
 An active articulator moves to create a speech sound, a passive articulator stays put.
 Most often it is the combination of an active and a passive articulatior that performs articulation.
+
+####### Liquids
+
+Which phoneme the japanese liquid is is completely unclear:
+Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
 
 ####### Place of articulation
 
@@ -1656,6 +1870,7 @@ Whether something is a stop or continuant is indicated by the distinctive featur
 
 A lateral is a consonant in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
 Whether something is lateral is described by the feature [+/- lateral]
+Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
 
 ######## Nasals 
 
@@ -1691,6 +1906,7 @@ Not only are semivowels not syllabic, they are are also closer/a type of approxi
 ####### vowels
 
 Vowels are classified {{c4::by the IPA}} by {{c1::tongue height}}, {{c2::tongue backness}}, and {{c3::lip rounding}}.
+The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
 The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
 the vowel written ə is called schwa
 
@@ -1958,6 +2174,7 @@ Retracted Tongue Root   <span class="ipa">◌̙</span>
 If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
 For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while <span class='ipa'>◌̆</span> indicates an extra-short vowel.
 For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
+Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are {{c1::happy}} <span class="ipa">◌̆</span>
 
 ###### Clicks
 
@@ -1966,6 +2183,15 @@ For vowels and consonants both, <span class='ipa'>◌ː</span> indicates somethi
 ### Semantics
 
 Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
+The capacity of something to have many meanings   Polysemy
+
+#### nouns
+
+As regards their referents, proper and common nouns are often contrasted.
+A proper nouns is a nouns that refers to a single entity or group of entities considered unique.
+A common noun is a noun that refers to a class of entities or a member of that class.
+In English, proper nouns generally but not always don't take an article, and generally but not always are singular.
+In English, proper nouns are capitalized.
 
 #### figures of speech
 
@@ -2039,6 +2265,22 @@ a locutionary, illocutionary or perlocutionary act has a locutionary, illocution
 Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
 Illocutionary and perlocutionary acts try to achieve some perlocutinary effect.
 
+#### implicature
+
+in the linguistic field of pragmatics, an {{c3::inference}} (generally an {{c3::implicature}}) is said to be {{c1::defeasible}} or {{c2::cancellable}} if {{c4::it can be made to disappear (e.g. by saying something contradictory}}.
+
+##### gricean
+
+###### quantity
+
+A {{c1::quantity implicature}} is often seen as a synonym with {{c2::scalar implicature}}, but may more properly be {{c3::a blanket/umbrella term}} for {{c4::all implicatures generated using the maxim of quantity}}, including {{c5::clausal implicatures}}.
+
+In the context of {{c1::pragmatics}}, {{c2::Implicational scale}} has a somewhat different meaning, referring to {{c3::the scales}} from {{c4::weaker to stronger}} statements that are used in {{c5::quantity implicatures}}
+<pre><code data-codetype="text">{all, most, many, some}
+{always, often, sometimes}
+{succeed in, try to, want to}
+{certain, probable, possible}</code></pre>
+
 #### Reference
 
 ##### Deixis
@@ -2083,7 +2325,13 @@ a hedge is a word or phrase used in a sentence to express ambiguity, probability
 
 Cover term for language, dialect, lect, family, etc|Languoid
 
+## Cognitive linguistics
+
+### conceptual metaphor
+
 ### Psycholinguistics
+
+Psycholinguistics or psychology of language is the study of the interrelation between linguistic factors and psychological aspects.[1] The discipline is mainly concerned with the mechanisms by which language is processed and represented in the mind and brain
 
 #### linguistic relativity
 
@@ -2129,6 +2377,20 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 Digraphia is the situation of having more than one writing system for {{c1::the same language}}
 
 ### lexicography
+
+Lexicography is the study of lexemes and lexica (collections of lexemes)
+
+#### practical lexicography
+
+Practical lexicography is compiling, writing and editing dictionaries.
+
+The headword is the word {{c1::under which dictionary entries appear}}
+The form of a lexeme used as a headword is usually its lemma.
+Sometimes lemma and headword are used synonymously.
+
+#### theoretical lexicography
+
+Theoretical lexicography is the study of features of lexemes and lexica.
 
 #### onomastics
 
@@ -2218,8 +2480,9 @@ Common types of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} are 
 
 #### language contact
 
+Language contact is when two or more languages influence each other.
 The field that studies language contact is contact linguistics.
-Language convergence is a type of linguistic change in which languages come to structurally resemble one another why {{c1::due to prolonged language contact}}
+Language convergence is a type of linguistic change in which languages come to structurally resemble one another {{c1::due to prolonged language contact}}
 In a language shift, a speech community switches to a different language.
 
 ##### dialects
@@ -2245,8 +2508,21 @@ While I use {{c1::borrowing}} to mean {{c2::any sort of loaned thing}}, the term
 
 #### Language death
 
+A language without any *native* speakers|dead language
+A language without *any* speakers|extinct language
 Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
 Causing languages to die out|linguicide
+
+### English
+
+Old English starts with the anglo-saxon setters/invaders in the 5th century, and ends with the norman conquest 1066 and more seriously by 1150, when middle english begins. 
+Middle english lasts until the begin of the tudor era in the late 15th century, when early modern english begiins.
+Early modern english lasts until the late 17th century, until the end of the reign of Charles II.
+Early modern english is the language of Shakespeare and the King's BIble.
+
+
+William Caxton: 1422 - 1491
+William Caxton introduced the printing press to england.
 
 ## discourse analysis
 
@@ -2277,6 +2553,8 @@ A register/style is a lect that is used for a particular purpose or in a particu
 ideolect|a specific person
 sociolect|a social group
 
+AAVE = African American Vernacular English
+
 #### slang, jargon, cant, argot ...
 
 It is hard to distinguish slang, jargon, argot, cant, etc. because they are {{c1::Often used interchangeably}}
@@ -2284,6 +2562,14 @@ Slang is an informal register of an in-group that is not {{c1::in general common
 Jargon is the specialized language of a certain field.
 Cant ≈ argot
 Cant/argot is jargon with the purpose to exclude or mislead people outside the group
+
+### accomodation
+
+Acommodation and thus convergence/divergence are studied in Speech/Communication Accommodation Theory.
+Accomodation is the process where participants change aspects of their language use according to the speech style of  {{c1::other participants in the conversation}}
+Acommodation (CAT) may be convergence or divergence.
+divergence   Making your speech more <b>dis</b>similar to the conversational partner's
+convergence   Making your speech more similar to the conversational partner's
 
 ### soclingvar
 
@@ -2307,6 +2593,9 @@ A focused speech community is one where there is agreement about the shared vari
 A diffuse speech community is one where there is less/little agreement about the shared varieties features
 Each person belongs to many speech communities.
 
+#### diglossia 
+
+
 ### language and social categories
 
 #### language and gender
@@ -2314,6 +2603,7 @@ Each person belongs to many speech communities.
 The study of language and gender is said to have stared with Language and Women's Place by Lakoff (1793ish)
 Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> {{c1::to see what they can teach us about patriarchy at large}}
 In robin lakoffs language and womens place, the method she uses is native speaker intuition
+Deborah tannen was a student of robin lakoff who initiated the difference approach to language and gender with her book You Just Don't understand (1990)
 
 ##### approaches
 
@@ -2339,6 +2629,7 @@ In robin lakoffs language and womens place, the method she uses is native speake
     <tr>
       <td>((c:3;::difference approach))</td>
       <td>((c:9;::women and men )) just ((c:10;::belong to different linguistic subcultures ('separate but equal')))</td>
+      <td>Deborah tannen</td>
     </tr>
   </tbody>
 </table>
@@ -2358,6 +2649,11 @@ Pluricentric language|English, German, Spanish
 The fact that english has BE and AE as well as many other standard forms of english makes it {{c1::a pluricentric language}}
 Some of the the different standard varieties of german are {{c1::Standard german german, standard swiss german, standard austrian german}}
 
+A variety of a language that is considered a subform of a standartized variety is heteronomous in relation to the standard variety.
+A non-heteronomous language is autonomous.
+Baviarian is heteronomous in relaiton to standard german.
+A heteronomous language will tend to change towards the standard variety. 
+
 ### value (?)
 
 Linguistic prescription is establishing rules for the correct or good use of a language.
@@ -2373,10 +2669,17 @@ People very confused may use dialect to mean accent.
 In regions such as Italy, France and the Philippines separate but non-standard sister languages to the standard variety are called and (falsely) considered to be dialects.
 In an academic setting, a dialect is either a synonym of variety/lect or for regiolect.
 
+### misc
+
+A pillow dictionary is a romantic partner that teaches you a foreign langauge.
+
 ## multilingualism
 
 A majority language is a language spoken by the majority of the population of an entity.
 A minority language is a language spoken by a minority of the population of an entity.
+
+A target language is a language being learnt or translated into.
+A source language is a langugage from which one is translating.
 
 ### language transfer
 
@@ -2411,6 +2714,8 @@ The process of losing language skills in a <b>native</b> language  First languag
 
 ### shared languages
 
+A koine is a standard language or lingua franca created by the contact of {{c1::Two or more mutually intelligible languages&nbsp;}}
+
 #### auxiliary languages
 
 international auxiliary language and auxiliary language are synonyms.
@@ -2424,6 +2729,8 @@ interlingua aims to be comprehensible to romance language native speakers withou
 Interlingua is enabled in part by the existence of SAE.
 
 #### lingua franca
+
+A lingua franca is a  lect that is used to communicate by groups who don't share a native language.
 
 ### Language birth
 
@@ -2447,6 +2754,17 @@ Naturalistic conlangs mimic existing real languages.
 
 Translingual phenomena are features of language that are relevant in more than one language. 
 The International scientific vocabulary is the set fo science-related words that is  {{c1::used translingually}}
+
+### translation
+
+{{c2::DE-EN / EN-DE translation}} is billed {{c1::by line}}, where a line is {{c3::55 characters}} ({{c4::including spaces}}) in {{c5::the target language.&nbsp;}}
+
+## language geography
+
+Language geography is the study of the geographic distribution of languages.
+
+A language border/boundary is boundary separating two areas where {{c1::different (mutually unintelligible) languages are spoken}}
+Sprachraum   A geographical region where a common L1 is spoken
 
 ## linguistic typology
 
@@ -2477,11 +2795,29 @@ German has verb-second constituent order in main clauses and verb-final constitu
 SOV, SVO, etc
 
 Verb-final language place the verb at the end of a clause.
+Completely verb-final: japanese
 
 V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
 In V2 word order, the first constituent functions as the topic.
 
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
+
+## corpora & collections
+
+{{c1::forvo.com}} is {{c2::the largest}} dictionary/library/archive for {{c3::pronunciations}}, it also has an AAPI
+{{c5::Tatoeba}} is a {{c1::large}} {{c2::corpus}} of {{c3::sentences}} and their {{c3::translations}} into {{c4::many other languages}}.
+
+### corpora
+
+#### parallel text
+
+§§ A ((c:1;::parallel text)) is a text ((c:2;::placed alongside)) ((c:3;::its translation(s)/transcriptions.)) §<br>
+§§ The ((c:4;::rosetta stone was)) ((c:5;::a parallel text)) with the text ((c:6;::in ancient egyptian)) written in both ((c:7;::hieroglyphic)) and ((c:7;::demotic)) ((c:7;::scripts)) as well as in ((c:8;::ancient greek)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+## theoretical linguistics
+
+Theoretical linguistics may just contrast with applied linguistics, or specifically be the area of linguistics that answers fundamental questions about the nature of language
 
 ## cross-cutting concerns
 
