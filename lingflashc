@@ -3080,6 +3080,24 @@ To get hooked on X: X｛が・は｝癖になる
 
 Words for good in order of politeness: いい＜よい＜よろしい
 
+### languages & nationalities
+
+Kanji|country
+日本|Japan
+<ruby><br>英<br><rp>(</rp><rt><br>えい</rt><rp>|England/lish
+<ruby>中国<rp>(</rp><rt>ちゅうごく</rt><rp>)</rp></ruby>|China
+アイヌ|Ainu
+スペイン|Spain
+フランス|France
+<ruby>韓国<rp>(</rp><rt>かんこく</rt><rp>)</rp></ruby>|Korea
+ドイツ|German
+
+Add a <ruby>語<rt>ご</rt></ruby> to any nationality to get the respective language
+Add a 国 to any nationality to get "the nation of"...
+Add a 語学 to any nationality to get "x linguistics"
+Add a 人 to any nationality to get "the people of"
+
+
 ## Word classes
 
 A fundamental distinction of words is 独立語 (lexical words) vs 付属語 (function words)
