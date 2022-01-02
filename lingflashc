@@ -627,22 +627,6 @@ Reportative evidentials indicate that the information was reported to the speake
 
 Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
 
-####### japanese
-
-Japanese has evidential morphemes, namely heresay and inferential evidentials, as Narrog and Yang (2018) argue.
-
-Japanese inferential evidential morphemes are: そう、らしい、っぽい、よう、みたい
-
-Within the japanese inferential evidentials, そう is different from the rest in that it is future-oriented.
-The inferential evidential そう has a meanining in which it implies that there are two phases, one at a point in time 1, at which the state of affairs is not yet realized, and one at point in time 2, at which time it will be realized; the other evidentials do not.
-e.g. それは美味しそう！ "that looks tasty" => It is not yet tasty (since we're not eating it), but when and if we eat it, it will be tasty.
-The inferential evidential そう has a second meaning in which it indicates the inferred physical or mental state of a second or third person.
-Of the other four inferential evidential markers っぽい、よう、みたい act broadly similarly
-
-Japanese heresay evidential morphemes are: そう、らしい.
-
-Beyond evidential markers, らしい can also indicate typicality, while よう may also be used for similarity, comparison, category membership and as a complementizer.
-
 ###### others
 
 
@@ -757,23 +741,6 @@ Conditional|Event depends on another condition
 
 mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
 Mirative|surprise/unpreparedness in relation to a given thing
-
-######## modality in japanese
-
-Deontic
-Deontic - directive
-
-Deontic - voltive
-Deontic - volitive: Desiderative
-たい・たがる
-
-Deontic - optative:
-The Japanese optative is formed by using a conditional such as ba (-ば) or tara (-たら). For example, "I wish there were more time" is expressed literally as "If there were time, it would be good." (時間があればいいのに jikan ga areba ii noni), where aru, the verb expressing existence, is in the ba conditional form areba. Ii is the present tense of "good," but if expressed in the past tense yokatta よかった, the sentence expresses regret instead of a wish or hope. The above example would become "If there had been time, it would have been good" 時間があればよかったのに, as might be said of an opportunity missed because of a lack of time.
-
-The optative mood can also be expressed by suffixing ように you ni to the verb, typically the polite form. For instance, "may you have a pleasant trip" 楽しい旅になりますように
-
-Epistemic - irrealis
-かな, かしら (female)、かも(しれない)
 
 #### morphology
 
@@ -1296,16 +1263,6 @@ do-support is used when an axuliary verb is syntactically required but none is p
 
 Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
 A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
-
-###### japanese
-
-Japanese has three basic nominalizers: こと、もの、の
-の|no special implication
-もの|thing
-こと|event
-Japanese nominalizers are suffixed to the attributive form of the relevant thing.
-In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it.
-
 ### phon
 
 #### phonology
@@ -3042,12 +2999,62 @@ In japanese relative clauses are merely normal clauses placed attributively.
 In japanese embeded questions are marked by the interrogative particle か.
 In japanese, embedded questions may be suffixed by どうか or the alternative itself to indicate "whether or not".
 
+### grammatical features
+
+
+#### Evidentiality
+
+Japanese has evidential morphemes, namely heresay and inferential evidentials, as Narrog and Yang (2018) argue.
+
+Japanese inferential evidential morphemes are: そう、らしい、っぽい、よう、みたい
+
+Within the japanese inferential evidentials, そう is different from the rest in that it is future-oriented.
+The inferential evidential そう has a meanining in which it implies that there are two phases, one at a point in time 1, at which the state of affairs is not yet realized, and one at point in time 2, at which time it will be realized; the other evidentials do not.
+e.g. それは美味しそう！ "that looks tasty" => It is not yet tasty (since we're not eating it), but when and if we eat it, it will be tasty.
+this そう not for 可愛い 
+The inferential evidential そう has a second meaning in which it indicates the inferred physical or mental state of a second or third person.
+Of the other four inferential evidential markers っぽい、よう、みたい act broadly similarly
+
+Japanese heresay evidential morphemes are: そう、らしい.
+
+Beyond evidential markers, らしい can also indicate typicality (e.g. someone is some way based on their behavior), while よう may also be used for similarity, comparison, category membership and as a complementizer.
+
+#### modality
+
+Deontic
+Deontic - directive
+
+Deontic - voltive
+Deontic - volitive: Desiderative
+たい・たがる
+
+Deontic - optative:
+The Japanese optative is formed by using a conditional such as ba (-ば) or tara (-たら). For example, "I wish there were more time" is expressed literally as "If there were time, it would be good." (時間があればいいのに jikan ga areba ii noni), where aru, the verb expressing existence, is in the ba conditional form areba. Ii is the present tense of "good," but if expressed in the past tense yokatta よかった, the sentence expresses regret instead of a wish or hope. The above example would become "If there had been time, it would have been good" 時間があればよかったのに, as might be said of an opportunity missed because of a lack of time.
+
+The optative mood can also be expressed by suffixing ように you ni to the verb, typically the polite form. For instance, "may you have a pleasant trip" 楽しい旅になりますように
+
+Epistemic - irrealis
+かな, かしら (female)、かも(しれない)
+
 ### coordination
 
 
 In japanese, what we might consider coordinating conjunctions are called 並立助詞 - while conjunctive particles are something else. However, they act similarly.
 
+### Morphology
 
+#### nominalizers
+
+Japanese has three basic nominalizers: こと、もの、の
+の|no special implication
+もの|thing
+こと|event
+Japanese nominalizers are suffixed to the attributive form of the relevant thing.
+In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it.
+
+方|manner ('way of')
+
+方がいい|better, should
 
 
 
@@ -3112,15 +3119,27 @@ Past forms of verbs ending in ます (ました etc.) are merely conjugations of
 未然形|ぬ|negative (older)
 未然形|ず|negative (older, is generally only used as adverbial today)
 未然形|せる・させる（さす）
-未然形|よう
-連用形|たい
-連用形|たがる
+連用形|たい (i-adj)/たがる (verb)|deontic modality
 連用形|ます|make the verb +polite
-連用形|やがる
-連用形|そう
+連用形|やがる|Hatred, contempt (maybe sometimes phonologically realized as あがる?)
+連用形・TRYK (single ない・いい get an additional さ)|そう|inferential evidential marker
+終止形|そう+copula|heresay evidential marker
 意志形|う・よう|Volitional
+連体形|よう|evidential marker
+連体形|はず (resulting construct is noun)|should be, supposed to, expected
+連体形・終止形(only of verbs)|べく|In order to
+連体形・終止形(only of verbs)|べき|Should (actions that are proper or to yourself, not others)
 
-Negative conjugations: ない (as i-adj) + normal conjugation patterns.
+べき/べし used to be a 助動詞 (auxiliary).
+This is the odd bit. べき behaves a lot like 同じ when connecting to things after it: For nominals, べき it connects directly. When concluding sentences, it takes the copula (which can be ∅ in informal speech, but I think most people think of the copula still being there).
+
+Most common negative conjugations: 未然形 + ない (as i-adj) + normal conjugation patterns.
+Less common negative conjugations: 未然形 + ぬ (助動詞) + normal conjugation patterns.
+Archaic negative conjugation: 未然形 + ず (助動詞) + normal conjugation patterns.
+Thus, the negative form of べき・べし: べからず　is just the 未然形 of an I adjective から + negative ず, but since it today acts as a noun it also can be negated like one, via the copula.
+なるべく "as much as possible" and なるべき "should be/become" are both derived from なる＋べく・べき
+
+In the past
 ます follows サ変　conjugation patterns.
 ます has an irregular conjugation in the negative: ません, from ませ＋ぬ.
 As an exeption, something that is polite, negative and past is ませんでした, not ませ（ん・な）かった.
@@ -3128,7 +3147,8 @@ To make an 形容詞 polite, a version of the polite copula です needs to be s
 
 #### 補助動詞
 
-補助動詞 either attach to the て form (the て particle/auxiliary) or the 連用形
+補助動詞 either attach to the て form (the て particle/auxiliary) or the 連用形.
+since 補助動詞 that attach to the て形 are the exception, it is generally safe to assume that 補助動詞 will attach to the 連用形. 
 
 ある|-te form|only for trans.|indicates state modification|開いてある 'opened and is still open'
 おく|-te form||"do something in advance"|食べておく 'eat in advance'
@@ -3144,7 +3164,6 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 
 始める|non-punctual|"V begins", "begin to V"|書き始める 'start to write'
 始める|punctual &amp; subj. must be plural|"V begins", "begin to V"|着き始める 'have all started to arrive'
-出す||"start to V"|輝き出す 'to start shining'
 なおす||"do V again, correcting mistakes"|書きなおす 'rewrite'
 あがる||"do V thoroughly" / "V happens upwards"|立ち上がる 'stand up'; 出来上がる 'be completed'
 得る|(see note at bottom)||indicates potential|あり得る 'is possible'
@@ -3164,6 +3183,8 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 忘れる||"to forget to V"|聞き忘れる 'to forget to ask'
 合う||"to do V to each other", "to do V together"|抱き合う 'to hug each other'
 
+出す is a 補助動詞 meaning start to V, or to V out of
+<ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す   sneak away, get away
 
 ### 助詞
 
@@ -3271,9 +3292,38 @@ The past of だ may seem irregular, but it is not: 連用形: でし + た => �
 
 #### 非活用語
 
+aka <ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>言<rp>(</rp><rt>げん</rt><rp>)</rp></ruby> (including uninflectable function words of course)
+
 ##### 副詞
 
 In japanese, the roles of adverbs are as in english (act as adjuncts for any number of phrases, but not NPs), they however cannot appear after the verb/copula.
+
+##### 連体詞
+
+<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>詞<rp>(</rp><rt>し</rt><rp>)</rp></ruby> are words stuck in the 連体形
+
+大きな
+小さな
+色んな
+おかしな
+<ruby>異<rp>(</rp><rt>い</rt><rp>)</rp></ruby>な|strange, odd, unusual
+
+<ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>ある|thoughtful, considerate
+
+<ruby>無理<rp>(</rp><rt>むり</rt><rp>)</rp></ruby>からぬ|reasonable, natural
+<ruby>素知<rp>(</rp><rt>そし</rt><rp>)</rp></ruby>らぬ|feigned; pretending (not to know)
+
+<ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>んの|remanining
+
+<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>の|little, slightly, mere, only
+
+大した
+<ruby>大<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>それた|absurd, outrageous
+
+ひょん|unexpected, strange, unusual
+
+とある|a certain
+ある|a certain
 
 
 #### 活用語
@@ -3281,12 +3331,6 @@ In japanese, the roles of adverbs are as in english (act as adjuncts for any num
 ##### stemforms
 
 Conjugable words can be conjugated into six basic stem forms in japanese:
-未然形|'irrealis'
-連用形|'continuative'
-終止形|'terminal'
-連体形|'attributive'
-仮定形|'hypothetical'
-命令形|'imperative'
 
 Japanese distinguishes an attributive form 連体形, which acts attriubtively, and a terminal form 終止形, which goes at the end of a clause.
 In modern japanese the 連体形 and 終止形 of verbs and adjectives are the same.
@@ -3313,37 +3357,21 @@ copula|だ (and derivatives)
 nouns|copula
 verbs|no change
 
-The 連用形 is the basis for most other affixes, if not otherwise indicated.
-The 連用形 of verbs is formed by removing the final vowel, and adding an i instead.
-The 連用形 of 形容詞 is formed by removing the final い, and adding かり or く.
+I-adjectives also had a 連体形 -i +かる
+
 For the 連用形 of 形容詞, かり is used before た・て・たり and く is used before ない。
 
-The 仮定形 is the basis for attaching the ば particle for the conditional/subjunctive.
-The 仮定形 of u-verbs formed by removing the final vowel, and adding an e instead.
-The 仮定形 of 形容詞 is formed by removing the final い, and adding けれ instead.
-
 The 未然形 of u-verbs is formed by removing the final vowel, and adding an a instead.
-The 未然形 of 形容詞 is formed by removing the final い, and adding から instead.
+The 未然形 of 形容詞 is formed by removing the final い, and adding  instead.
 The 未然形 of u-verbs ending う is わ
 
-The 命令形 is only used for forming commands, affixes do not attach to this form.
-The 命令形 is formed for u-verbs by removing the final vowel and adding an e.
 There are 2 命令形 for ru-verbs, one used whie speaking and one used while writing.
 the 命令形 for ru-verbs used while speaking is formed removing the る and adding ろ.
 the 命令形 for ru-verbs used while writing is formed removing the る and adding よ.
-The 命令形 of 形容詞 is formed by removing the final い, and adding かれ instead.
 
 The 連用形, 仮定形, 未然形, 意志形 for る-verbs all are formed by removing the る.
 
-Despite there being generally only 6 acknowledged bases, there are actually more:
-
-意志形|'volitional base'
-
-The 意志形 is mainly used for attaching the volitional auxiliary verb.
-The 意志形 of u-verbs is formed by removing the final vowel.
-The 意志形 of 形容詞 is formed by removing the final い, and adding かろ instead.
-
-##### 動詞
+Etymologically, the weird stem forms of 形容詞, たる, なる, だ come from the fact that they are contractions of く・て・に・で+ある・あり.
 
 Modern japanese features two verb classes plus two common irregular verb classes, plus some smaller exceptions.
 Japanese verb classes:
@@ -3351,16 +3379,23 @@ Japanese verb classes:
 う|五段動詞|consonant-stem
 ru-verbs are called vowel-stem because what we would call the stem (the thing to which inflections attach) in western linguistics ends with a vowel, and conversely for consonant-stem verbs.
 Other verb classes, for example 二段動詞 and 四段動詞 existed in classical japanese but are now archaic
-To change a ru-verb from the dictionary form into the past tense, you simply drop the 「る」 and add 「た」
 
 The verb する inhabits the verb class of サ変.
 The verb くる inhabits the verb class of カ変.
+The linguist Kunio Nishiyama argues that the true 連用形 of an i-adjective is without its final i, which I will call TRYK (true renyoukei)
+Many forms of consonant-stem verbs are actually based on just removing the vowel (just taking the consonant stem), which I will call CS
 
-未然形|さ・せ・し|こ
-連用形/意志形|し|き
-終止形/連体形|no change|no change
-仮定形|すれ|くれ
-命令形|しろ・せよ・せい|こい
+
+形|name|function|u-verb|i-adj 1|i-adj 2|サ変|カ変|copula (forms from なり)|たり|copula だ|copula である| copula です|classical verb あり
+未然形|irrealis|base for some affixes, esp. negative ones||probably none||さ・せ・し|こ|なら|たら|だら(?)|では (であら(?))|probably none|あら
+連用形|continuative|basis for most other affixes|CS+i|く|TRYK+かり|し|き|なり|たり|だり(though of course it often reduces to だっ due to 音便)|であり|でし|あり
+意志形|'volitional base'|attaching the volitional auxiliary verb|CS|probably none|TRYK+かろ|し|き|なろ（?)|たろ|だろ|であろ|でしょ|あろ
+終止形|terminal|clause-final form|no change|no change (past し)|TRYK+かり|no change|no change|なり|たり|だ|である|です|あり
+連体形|attributive|attributive form|no change|no change (past き)|TRYK+かる|no change|no change|なる|たる|な|である|???|ある
+仮定形|hypothetical|basis for attaching the ば particle for the conditional/subjunctive|CS+a||TRYK+から|すれ|くれ|なれ|たれ||であれ|probably none|あれ
+命令形|imperative|forming commands, never takes affixes|CS+e||TRYK+かれ|しろ・せよ・せい|こい|なれ|たれ||であれ(?)|probably none|あれ
+
+in the past, the 終止形 of verbs would have generally been -i, while the 連体形 would have been -u
 
 ##### 形容詞
 
@@ -3389,16 +3424,6 @@ naru-adjectives have the exclusive 連体形 of なる, but that's also generall
 
 ##### the copula
 
-形|basic|more related to なり|forms of です
-未然形|では(fake)|なら|でしょ
-連用形|で・だっ|なり|でし
-終止形|だ|なり|です
-連体形||な・なる (can generally only be used with 形容動詞)
-仮定形||なら・なれ
-命令形|であれ (cf であれば)|なれ
-意志形|だろ
-
-Most of the なる-based 形 survive from the time when なり was the copula.
 the copula なり can/could be spelled 也.
 For the positive copula, +formality is indicated by using the formal version of the copula, である.
 For the negative copula, -formality is indicated by contracting the では to じゃ, +formality is indicated by contracting it.
@@ -3417,17 +3442,8 @@ Copula (past)
 positive polarity|だった|でした|であった|でありました
 negative polarity|じゃなかった|じゃありませんでした|ではなかった|ではありませんでした
 
-##### たり
 
-未然形|たら
-連用形|たり
-終止形|たり
-連体形|たる
-仮定形|たれ
-命令形|たれ
-意志形|たろ
-
-Adverbial: と
+Adverbial of たり: と
 
 た and たり descend from たる.
 
@@ -3497,6 +3513,10 @@ Honorific/humble verbs such as くださる、なさる、ござる、いらっ�
 r<vowel>n|んn
 
 れば・れは|りゃs
+
+#### contractions
+
+するべき/剃るべく may be contracted to すべき・すべく
 
 ### other
 
