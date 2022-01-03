@@ -386,7 +386,7 @@ There are a bunch of islands:
 - No extraction out of a CP inside a DP
 - No extraction out of a subject (for most English speakers)
 - No extraction out of adjuncts
-Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible.
+Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible = there must not be a wh-element that would have to move less far.
 
 ####### adding constituents
 
@@ -646,12 +646,13 @@ tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
 Aspect is tells you how time flows within the process/event itself.
 Aspect may be divided into grammatical aspect, which is aspect indicated through inflection, and lexical aspect, which is inherent in a certain lexeme.
 Aspect encodes different distinctions:
-Perfective/Imperfective
-Inchoative/Cessative
+Eventive: Perfective/Imperfective
+Inchoative/Cessative/ø
+Prospective/Retrospective/ø
 Gnomic/anything else
 
 <table>
-  <thead><tr><th colspan="3">Aspects (Selection)</th></tr></thead>
+  <thead><tr><th colspan="3">Eventive</th></tr></thead>
   <tbody>
     <tr>
        <td colspan="1">((c:6;s:1-4;::Perfective))</td><td colspan="4">((c:5;s:1-4;::Imperfective))</td>
@@ -672,6 +673,8 @@ Gnomic/anything else
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
+Perfective and imperfective aspect together make up the eventive aspect
+
 perfective|event viewed in its entirety ( = without internal complexity)
 Imperfective|event viewed with some sort of internal complexity 
 Continuous|ongoing situation without interruption
@@ -687,13 +690,19 @@ Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
+The inchoative/cessative aspect indicates how the state is changing during the specified time.
 Inchoative aspect is aspect indicating that something is beginning (however not that something is about to begin).
 Cessative aspect is aspect indicating that something is ending.
 
-Telicity is the grammatical feature of whether something has a specific endpoint.
+The prospective/retrospective aspect indicates when an event takes place relative to the reference time.
+Prospective aspect is aspect indicating that an event occurs subsequent to a reference time.
+Retrospective aspect (commonly but confusingly also called perfect aspect, not to be confused with perfective aspect) is aspect indicating that an event occurs before a reference time.
+
+Telicity (telic/atelic) is the grammatical feature of whether something has a specific endpoint.
 Telicity is most often considered an aspect.
 
 Gnomic aspect is an apsect indicating general truths.
+The opposite of gnomic aspect is episodic aspect, truths that are temporally bounded.
 
 ####### modality
 
@@ -894,8 +903,6 @@ duplfix|synonym of reduplication
 infix|affix inserted into a word stem
 
 Reduplication is the process in which a morpheme is repeated within a single word
-Japanese frequently does reduplication, mainly for the plural.
-In japanese, reduplication of a kanji is marked with 々.
 
 A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by {{c4::back-formation}}, which still {{c5::contains some of the original meaning of the word}}.
 {{c1::-gate, -cation, -tard, -verse}} are examples of {{c2::libfixes}}
@@ -1048,11 +1055,37 @@ Many languages (of those I speak: en, de, es) indicate a posessive via a set of 
 Many languages also have a posessive verb, e.g. en/de have/haben, es tener.
 In japanese, the job of the posessive verb is done by extential verbs/clausees.
 
-### coordination
+### ordination
+
+Coordination/subordination may imply different semantic relationships between the conjuncts.
+illative|presents a consequence
+cumulative|adds more
+adversative|introduces a contrast
+disjunctive|selfexpl.
+
+causal|presents a reason
+purposive|
+conditional|
+concessional|
+comparative|
+temporal|
+
+In english, coordination/subordination is most often performed by conjunctions.
+
+#### coordination
 
 Coordination is the process of linking two things of the same type.
 The two things linked via coordination are called conjuncts.
 The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
+
+#### subordination
+
+Subordination is linking two things (maincly clauses), where one depends on the other.
+A complement clause is an argument of a predicate.
+A complementizer turns a clause into 
+A complementizer turns a clause into the subject or object of a sentence.
+In english, the complementizer 'that' sometimes is unpronounced
+Akane thought that Lilly was a いい子. => Akane thought Lilly was a いい子. 
 
 ### parts of speech
 
@@ -1181,22 +1214,7 @@ Transitive adpositions may take other adpositions as complements.
 
 #### conj
 
-
-There are two kind of conjunctions, coordinating and subordinating conjunctions.
-A coordinating conjunction is coordination performed by a conjunction
-
-Conjunctions may imply different semantic relationships between the conjuncts.
-illative|presents reason/consequence
-cumulative|non-contrasting adding
-adversative|contrast
-alternative|non-contrasting alternative
-
-
-##### subordinating conjunction
-
-≈ complementizer
-In english, the complementizer 'that' sometimes is unpronounced
-Akane thought that Lilly was a いい子. => Akane thought Lilly was a いい子. 
+Conjunctions either perform coordination or subordination.
 
 #### proforms
 
@@ -1294,6 +1312,7 @@ a minimal pair is two or more words that differ only in one distinctive feature.
 In english phonology, rip and lip form a minimal pair.
 minimal pairs may also be used in syntax, where they differ in one word/branching structure.
 If two or more words form a minimal pair, the phones are proven to have phonemic contrast and thus be phonemes.
+When do sounds without a minimal pair probably not belong to the same phoneme?  If they are very very dissimilar phonetically
 
 ####### Complementary dist, contrastive dist, free variation
 
@@ -1525,8 +1544,10 @@ In phonetics, vowel roundedness refers to the amount of rounding in the lips dur
 Vowel roundedness is labialization of a vowel.
 Labialization is a form of secondary articulation involving the lips.
 There are two forms of labialization/rounding, protruded rounding anc compressed rounding.
-In protruded rounding, the lips push out to produce the rounding.
+In protruded rounding, the lips push out of the face to produce the rounding.
 In compressed rounding, the lip push onto each other and do not push out to produce rounding.
+There are no dedicated IPA diacritics to represent the distinction, but the superscript IPA letter ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ can be used for compression[8] and ⟨◌ʷ⟩ for protrusion. 
+<img src="sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg"><img src="sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg">
 (lips that are) less rounded/labialized (than usual for that sound)   ◌̜
 (lips that are) more rounded/labialized (than usual for that sound)   <span class="ipa">◌̹</span>
 
@@ -1610,6 +1631,11 @@ lingual aka velaric ingressive initiation produces sounds known as clicks.
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
+Mnemonics/Rules
+
+The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
+
+
 ###### phonation
 
 The laryngeal features are features that describe how the larynx is involved in speech production.
@@ -1657,6 +1683,10 @@ An active articulator moves to create a speech sound, a passive articulator stay
 Most often it is the combination of an active and a passive articulatior that performs articulation.
 
 ####### Liquids
+
+rhotic consonants are r-like consonants.
+Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
+Liquid consonants are grouped because they often behave similar phonotactically.
 
 Which phoneme the japanese liquid is is completely unclear:
 Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
@@ -1938,6 +1968,11 @@ Not only are semivowels not syllabic, they are are also closer/a type of approxi
 Vowels are classified {{c4::by the IPA}} by {{c1::tongue height}}, {{c2::tongue backness}}, and {{c3::lip rounding}}.
 The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
 The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
+r-colored vowel = rhotic vowel = rhotacized vowel
+On a physical level, rhotacization is the lowering of the frenquency of the third formant.
+In american english, rs following vowels frequently only indicate the vowels rhotacization.
+r-colored vowels are uncommon crosslinguistically, but common in two of the most widely-spoken languages: american english and mandarin chinese.
+rhotatication is indicated <span class='ipa'>◌˞</span> or by a superscript turned r <span class='ipa'>ʴ</span>
 the vowel written ə is called schwa
 
 ######## monopthongs/dipthongs
@@ -2206,10 +2241,6 @@ For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while 
 For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
 Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are {{c1::happy}} <span class="ipa">◌̆</span>
 
-###### Clicks
-
-
-
 ### Semantics
 
 Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
@@ -2441,9 +2472,40 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 ɶ|oE
 œ|oe
 
+##### types of graphs
+
+logogram/graph <-> phonogram/graph
+logogram|character represents morpheme/word|Kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs 
+phonogram|character represents one or more phonemes|Latin letters, hangul, kana
+
+Different types of logograms: pictograms, ideograms
+Different types of phonographic writing systems: alphabets, syllabaries, abjads, abugidas
+Abjads and abugidas may be considered syllabaries (as there is generally a character per syllable) or not (as the characters do not actually repesent languages)
+
+A pictogram depicts the thing it represents by resemblance (or once did).
+Examples of pictogram kanji: 日, 月, 山, 木, 口 etc.
+An ideogram represents to a more abstract concept
+Many ideograms are derived from pictograms.
+
+A syllabogram is a character that (ideally) represents a syllable or mora.
+A letter is a character that (ideally) represents a single phoneme.
+
+
+writing system|consist of characters called|examples
+syllabary|syllabogram|hiragana, katakana
+alphabet|letters|latin alphabet, greek alphabet
+
 #### writing systems
 
+A writing system is a system to represent language visually.
+A writing system uses an inventory of characters.
+An orthography is a set of rules for writing a language.
 Digraphia is the situation of having more than one writing system for {{c1::the same language}}
+
+Orthographic depth is the degree of deviation from the ideal correspondence between one character and one referred item (morpheme, syllable, phoneme...)
+A phonemic orthography is the special case of an alphabet specifically having no or little orthographic depth.
+ortographically deep|English
+ortographically shallow|spanish, japanese
 
 #### punctuation
 
@@ -2632,6 +2694,8 @@ Early modern english is the language of Shakespeare and the King's BIble.
 William Caxton: 1422 - 1491
 William Caxton introduced the printing press to england.
 
+### etymology
+
 ## discourse analysis
 
 {{c1::Discourse analysis}} is the study of {{c2::real language use}}, in chunks {{c3::larger than the sentence}}
@@ -2710,6 +2774,11 @@ Each person belongs to many speech communities.
 
 #### diglossia 
 
+Diglossia is the situation where a speech community uses two (or more) lects for separate purposes.
+For diglossia usually a a vernacular (L) variant and a high/formal/literate variant (H) exist
+vernacular variant (L)|everyday situations|native speakers
+high variant (H)|formal situations, literature|no native speakers
+文語 (classical japanese) was a H variety during diglossia.
 
 ### language and social categories
 
@@ -2752,7 +2821,17 @@ Deborah tannen was a student of robin lakoff who initiated the difference approa
 
 ##### gender in words
 
+Words may have gender in various ways: lexical gender, grammatical gender, referential gender, social gender
+lexical, grammatical, referential and social gender may contradict each other.
 
+lexical gender|gender as inherent in the reference of words, most commonly in kinship terms|Mother, aunt, son, father
+social gender|words being gendered via their gender connotations|e.g. surgeon, lawyer is pronominalized by he even when gender is unknown
+referential gender|words being gendered via the gender of their deictic referent
+
+If a male person is called a "Mädchen für alles", Mädchen has...
+lexical gender|female (girl)
+grammatical gender|neuter (das Mädchen)
+referential gender|male (the deictic referent.)
 
 ### standartization
 
@@ -2944,6 +3023,28 @@ Theoretical linguistics may just contrast with applied linguistics, or specifica
 
 ## cross-cutting concerns
 
+### linguistic error
+
+Linguistic errors may be merely seen as errors, but may also change the accepted spelling, pronunciation, etc. of a word, or even act as word formation patterns.
+
+#### morphological
+
+A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
+
+reanalysis is a form of surface analysis, specifically an analysis of a lexeme into a different morphology than it originally had.
+juncture loss is the form of reananalysis where an article and a noun fuse.
+Juncture loss: al + chemy (from arabic) -&gt; alchemy
+
+Rebracketing is also sometimes known as resegmentation or metanalysis
+rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
+rebracketing: hamburger as ham + burger instead of hamburg + er
+
+#### etymological
+
+a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
+Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
+
+
 ### implicational scale
 
 {{c1::Implicational scale}} is a term that means if {{c2::one feature is present}}, {{c3::all the features}} {{c4::lower on the scale}} {{c5::will be as well}}
@@ -2989,6 +3090,14 @@ Any politeness marker in japanese is only allowed at the end of clauses
 Deference/humility & respect are encoded in different verbal conjugations, as well as conjugations of objects.
 Formality is encoded in different versions of the copula, as well as in certain word choices.
 
+## graphemics
+
+In japanese, reduplication of a kanji is marked with 々.
+
+## phon
+
+### phonology
+
 ## syntax
 
 ### clauses
@@ -3001,6 +3110,11 @@ In japanese, embedded questions may be suffixed by どうか or the alternative 
 
 ### grammatical features
 
+#### phi-features
+
+##### number
+
+Japanese frequently does reduplication, mainly for the plural.
 
 #### Evidentiality
 
@@ -3036,12 +3150,14 @@ The optative mood can also be expressed by suffixing ように you ni to the ver
 Epistemic - irrealis
 かな, かしら (female)、かも(しれない)
 
-### coordination
-
-
-In japanese, what we might consider coordinating conjunctions are called 並立助詞 - while conjunctive particles are something else. However, they act similarly.
-
 ### Morphology
+
+#### suffixes
+
+連用形 + <ruby>方<rp>(</rp><rt>かた</rt><rp>)</rp></ruby> = the way of verbing
+
+TRKY/na-adj/noun + がる = act like adjective
+
 
 #### nominalizers
 
@@ -3049,21 +3165,43 @@ Japanese has three basic nominalizers: こと、もの、の
 の|no special implication
 もの|thing
 こと|event
+まま|state (lack of change)
 Japanese nominalizers are suffixed to the attributive form of the relevant thing.
 In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it.
 
-方|manner ('way of')
+<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby> (noun)|manner ('way of')
 
-方がいい|better, should
+<foo>方が<bar>|foo is more bar
+for <foo>方が<bar>, using the past tense of a positive verb foo makes it more emphatic
+<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>がいい|better, should
 
 
+ということ|summarizing
+
+##### gramamr where the thing is a noun
+
+(た-form + )<ruby>途端<rp>(</rp><rt>とたん</rt><rp>)</rp></ruby>(に)|just as, the moment that (for things outside of the agents control)
+
+#### complementizers
+
+Most commonly, と acts as a complementizer in Japanese.
+Things complemenentized by と may be actual quotes or subordinate clauses.
+The nominalizers often also act as complementizers.
+と言う+nominalizer|generic complementizer ('that')
+と言う+noun|noun that is called...
+と言う意味|mean ...
+と言う|say that, to be called that
+と思う|think that
+と決める・決まる|decide/be decided that
+
+と[verb][particles] = って
 
 接続詞
 
 
 #### between clauses
 
-non-illiative & non-adversative: verbal morphology て形 (informal), 連用形 (formal)
+non-illiative & non-adversative clausal coordination: verbal morphology て形 (informal), 連用形 (formal)
 
 ## phrases
 
@@ -3075,6 +3213,33 @@ non-illiative & non-adversative: verbal morphology て形 (informal), 連用形 
 <adverbial>する = decide on
 if と instead of に in adverbial, the change is sudden.
 To get hooked on X: X｛が・は｝癖になる
+
+### よる
+
+the case particle より originally derives from the verb よる
+よる (が)
+因る, 由る|be based on
+拠る|be based at
+依る|depend on
+依る, 拠る|to be caused by
+寄る|approach, draw near; gather together, to meet, stop by; grow old, high, wrinkly; lean against, recline on
+よる（を）
+選る|choose, select
+
+xによって; xによる|depending on x; by x; by dint of x
+xによると|according to x
+
+### ことがある
+
+<clause>こと<kakari-joshi><form-of-aru>
+<clause-present-tense>こと<kakari-joshi><form-of-aru>: Event sometimes happens/never happens
+<clause-past-tense>こと<kakari-joshi><form-of-aru>: Event has happened/never happened
+
+### misc
+
+係助詞+おろか = not to metion, forget about x, not even...
+わけ(が)ない = There's no way/easy, simple
+わけにはいかない = cannot (due to external circumstances); cannot afford to; must not; impossible to; no way one can (do)​
 
 ## semantic/morphological relationships
 
@@ -3134,7 +3299,7 @@ Past forms of verbs ending in ます (ました etc.) are merely conjugations of
 
 未然形|れる・られる
 未然形|ない|negative
-未然形|ぬ|negative (older)
+未然形|ぬ|negative (older, precursor to modern ない, but still sometimes used)
 未然形|ず|negative (older, is generally only used as adverbial today)
 未然形|せる・させる（さす）
 連用形|たい (i-adj)/たがる (verb)|deontic modality
@@ -3157,18 +3322,37 @@ Archaic negative conjugation: 未然形 + ず (助動詞) + normal conjugation p
 Thus, the negative form of べき・べし: べからず　is just the 未然形 of an I adjective から + negative ず, but since it today acts as a noun it also can be negated like one, via the copula.
 なるべく "as much as possible" and なるべき "should be/become" are both derived from なる＋べく・べき
 
+ぬ as a 助動詞 is sometimes shortened to ん, making it more casual. It still can inflect as ぬ・ない would
+
 In the past
 ます follows サ変　conjugation patterns.
 ます has an irregular conjugation in the negative: ません, from ませ＋ぬ.
 As an exeption, something that is polite, negative and past is ませんでした, not ませ（ん・な）かった.
 To make an 形容詞 polite, a version of the polite copula です needs to be suffixed, one cannot apply the ます　助動詞 to 形容詞.
 
+
+The ず negative is today only ever used to mean without.
+Similar in meaning for using the ず 助動詞 to mean without is the ない+で
+
+The ず negative uses the せ  for 
+The  negative uses the せ 未然形 for サ変
+
+未然形
+
+|サ変
+ず|せ・ぬ
+ない、よう|し
+れる・せる|さ(せ more rarely)
+
 #### 補助動詞
 
 補助動詞 either attach to the て form (the て particle/auxiliary) or the 連用形.
 since 補助動詞 that attach to the て形 are the exception, it is generally safe to assume that 補助動詞 will attach to the 連用形. 
-
-ある|-te form|only for trans.|indicates state modification|開いてある 'opened and is still open'
+補助動詞 may be attachable to any verb, verbs with certain semantic constraints only, or only a fixed set of words, depending on the 補助動詞
+Some compounds resulting from 補助動詞 are more often or only used in the nominalized 連用形 form.
+おく
+ある is a 補助動詞 attached -te form of transitive verbs indicating perfect/retrospective (has been completed) stative (still is the case) aspect of something that was completed in preparation for something else.
+おく is a 補助動詞 attached -te form of transitive verbs indicating prospective aspect "doing in advance for something".
 おく|-te form||"do something in advance"|食べておく 'eat in advance'
 おく|-te form||"keep"|開けておく 'keep it open'
 行く|-te form||"goes on V-ing"|歩いて行く 'keep walking'
@@ -3177,9 +3361,13 @@ since 補助動詞 that attach to the て形 are the exception, it is generally 
 くる|-te form||conclusion, "come to V"|異なってくる 'come to differ'
 みる|-te form||"try to V"|してみる 'try to do'
 
+te-form + しまう indicates that something was done unintentonally or finished completely.
+
 -te form + the 補助動詞 いる indicates progressive (for verbs that describe an action) or stative aspect (for verbs that describe an event)
 verbs that do not indicate that they have progressive/stative aspect via ている must therefore have a different aspect.
 
+まくる as a verb by itself is transitive and means to to roll up (e.g. ones sleeves)
+まくる||to do over and over again; to do relentlessly; to do with reckless abandon
 始める|non-punctual|"V begins", "begin to V"|書き始める 'start to write'
 始める|punctual &amp; subj. must be plural|"V begins", "begin to V"|着き始める 'have all started to arrive'
 なおす||"do V again, correcting mistakes"|書きなおす 'rewrite'
@@ -3199,10 +3387,52 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 残る|only for intrans.|"be left behind, doing V"|生き残る 'to survive', lit: to be left alive
 分ける||"the proper way to V"|使い分ける 'to indicate the proper way to use'
 忘れる||"to forget to V"|聞き忘れる 'to forget to ask'
-合う||"to do V to each other", "to do V together"|抱き合う 'to hug each other'
+
+
+あう by itself is a intranstive verb meaning:
+合う|to meet/unite/merge, match/suit each other, to be equitable
+会う|to meet, encounter/see
+逢う|to meet (of people who are close)
+遭う|to encounter something bad, have an accident
+
+The 連用形 of あう may also be spelled 相 when used as a morpheme, generally word-inital, meaning mutual, together, each other.
+
+合う is a 補助動詞 meaning "to do V to each other/mutually/together"
+<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>し <ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|discuss, talk together を
+<ruby>向<rp>(</rp><rt>む</rt><rp>)</rp></ruby>き<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to face each other
+<ruby>似合<rp>(</rp><rt>にあ</rt><rp>)</rp></ruby>う|suit, look good on
+<ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|bite each other, to interlock
+<ruby>睨<rp>(</rp><rt>にら</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|glare at each other, face each other, be at loggerheads
+<ruby>譲<rp>(</rp><rt>ゆず</rt><rp>)</rp></ruby>り<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to give and take, to make mutual concessions, to compromise
+<ruby>述<rp>(</rp><rt>の</rt><rp>)</rp></ruby>べ<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to compare (e.g. notes); to exchange (e.g. views, opinions) を
+<ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby><br>う|to go out with; to keep in company with
+<ruby>組<rp>(</rp><rt>く</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|form a partnership, join together
+<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>り<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to get to know each other; to make acquaintance
+
+Nominalized
+<ruby>待合<rp>(</rp><rt>まちあい</rt><rp>)</rp></ruby>|rendezvous; meeting; assignation, also: waiting room (abbrev.)
+<ruby>相合<rp>(</rp><rt>あいあい</rt><rp>)</rp></ruby>|doing things together (archaism)|romantic implication due to pun with 愛
+<ruby>相合傘<rp>(</rp><rt>あいあいがさ</rt><rp>)</rp></ruby>|sharing an umbrella; under one umbrella
+<ruby>組合<rp>(</rp><rt>くみあい</rt><rp>)</rp></ruby>|(voluntary) association, union, guild
+
+あう as a 補助動詞 is less commonly spelled 会う, in which case it may mean "to V while/in the process of meeting"
+<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>う (less commonly 出合う)|meet by chance, for two roads to meet, to engage an enemy
+
+From the causative form of 合う descends 合わせる を: to put together/combine/fuse/merge/blend/mix/join in/match with, to tune music, radio, to check with/against, to adapt oneself to.
+合わさる が: to match, make a successful pairing
+合わせる is frequently used as a 補助動詞, but almost always only as a 連用形 nominalization.
+<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせ|advance arrangements; preparatory meeting; briefing session
+
+っぱなし|something was completed and left that way (probably due to neglect/oversight)
 
 出す is a 補助動詞 meaning start to V, or to V out of
 <ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す   sneak away, get away
+
+##### 形容詞　補助動詞
+
+sometimes, the 形容詞 suffixes to the 連用形 are also classified as 補助動詞:
+hard|づらい(--formality) / にくい(-formality) / がたい (+formality)
+easy|やすい
 
 ### 助詞
 
@@ -3220,8 +3450,12 @@ In japanese, case is marked by particles placed after the N/NP.
 に|Dative, Locative (only with states, not with actions)
 と|comitative
 より＆から|Ablative
+より|comparative ('rather', 'more')
 へ|Lative
 で|Instrumental, locative (only for actions)
+
+より can also be used as an adverb to indicate the same concept.
+より can be combined with も to mean 'more than anything'
 
 For the genitive particle, the posseed thing can be omitted if the context makes it clear.
 
@@ -3232,8 +3466,7 @@ For the genitive particle, the posseed thing can be omitted if the context makes
 In japanese 並立助詞 are coordinating conjunctions that link NPs.
 
 cumulative|and|と
-alternative|or
-alternative with vagueness||とか or や (more formal)
+disjunctive with vagueness||とか or や (more formal)
 
 #### Interjectory particles (間投助詞, kantō-joshi)
 
@@ -3258,7 +3491,7 @@ limit of scope|きり
 Binding particles mark what the sentence is about, or increase emphasis if at the end of the sentence.
 は is the stereotypical binding particle, marking the topic.
 こそ
-も
+も|inclusion, something is too much
 しか is theoretically also a binding particle, though at least in terms of its hosts and semantics, it acts more like a 副助詞.
 
 even|(で)すら (more archaic)・(で)さえ (less archaic) (adding で adds emphasis)
@@ -3275,16 +3508,15 @@ form that must be before it
 連用形|while|ながら
 連用形 of verbs only|while|つつ
 終止形/end of clause|illiative|から
-終止形/end of clause|illiative|し
+終止形/end of clause|illiative (non-exhaustive list)|し
 終止形 of verbs/auxiliaries|illiative|なり (not the copula)
-終止形/end of clause|adversative|が or けど・けれど・けれども (more but)
+終止形/end of clause|adversative (but not always)|が or けど・けれど・けれども (more but)
 終止形/end of clause|conditional|と
 終止形/end of clause|as soon as|や
 連体形 or の|illiative|ところで or 癖に (stronger, indicates disgust)
 連体形|illiative|のに
 連体形|illiative|ので (more formal than から)
 連体形|illiative|ものの
-連体形|state|まま
 仮定形||ば
 た-form|illiative|ところで
 |ても・でも|
@@ -3306,15 +3538,37 @@ The past of 形容詞 (かった) may seem irregular, but it is not: 連用形: 
 The past of です may seem irregular, but it is not: 連用形: でし + た => でした
 The past of だ may seem irregular, but it is not: 連用形: でし + た => でした
 
+#### who the fuck knows 2
+
+た-form+ば(っ)か(り)|action was just completed, behaves as noun
+
 ### 独立語
 
 #### 非活用語
 
-aka <ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>言<rp>(</rp><rt>げん</rt><rp>)</rp></ruby> (including uninflectable function words of course)
+<ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>言<rp>(</rp><rt>げん</rt><rp>)</rp></ruby>　(seems to be just nouns, pronouns, etc?)
 
 ##### 副詞
 
 In japanese, the roles of adverbs are as in english (act as adjuncts for any number of phrases, but not NPs), they however cannot appear after the verb/copula.
+
+##### 名詞
+
+Many nouns can be verbal nouns, which means をする can be attached to them to make them a verb. often, the を is elided, producing <noun>する
+
+##### 代名詞
+
+###### 人称代名詞
+
+Japanese is pro-drop, so less commonly used.
+
+1st person
+
+2nd person
+
+Most commonly: persons name
+
+3rd person
 
 ##### 連体詞
 
@@ -3343,6 +3597,12 @@ In japanese, the roles of adverbs are as in english (act as adjuncts for any num
 とある|a certain
 ある|a certain
 
+##### 接続詞
+
+Paraphrasing
+というか|"or rather"
+
+どころか|far from, let alone, to say nothing of
 
 #### 活用語
 
@@ -3393,8 +3653,8 @@ Etymologically, the weird stem forms of 形容詞, たる, なる, だ come from
 
 Modern japanese features two verb classes plus two common irregular verb classes, plus some smaller exceptions.
 Japanese verb classes:
-る|一段動詞|vowel-stem
-う|五段動詞|consonant-stem
+る|一段動詞|vowel-stem|end in る, preceeded by u/i
+う|五段動詞|consonant-stem|don't end in る or end in る preceded by a/u/o (and by u/i in rare cases)
 ru-verbs are called vowel-stem because what we would call the stem (the thing to which inflections attach) in western linguistics ends with a vowel, and conversely for consonant-stem verbs.
 Other verb classes, for example 二段動詞 and 四段動詞 existed in classical japanese but are now archaic
 
@@ -3414,6 +3674,10 @@ Many forms of consonant-stem verbs are actually based on just removing the vowel
 命令形|imperative|forming commands, never takes affixes|CS+e||TRYK+かれ|しろ・せよ・せい|こい|なれ|たれ||であれ(?)|probably none|あれ
 
 in the past, the 終止形 of verbs would have generally been -i, while the 連体形 would have been -u
+
+##### 動詞
+
+Verbs in japanese are often claimed to be a closed word class. While new 和語 based coinages indeed don't really happen, 片仮名-based coinages are actually not that rare.
 
 ##### 形容詞
 
