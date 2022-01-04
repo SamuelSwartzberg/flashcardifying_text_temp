@@ -516,21 +516,12 @@ Examples of question tags:
 en|right?|no?, or no?
 de|stimmts?, gell?, wa?, ne?|nicht wahr?, oder nicht?
 es|verdad?|no?
-ja|ね・な・でしょう・だろう|んじゃない・違う(?)
 English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
 English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
 
 ######## interrogative words & particles
 
 In english, interrogative words start with wh- and are thus known as wh-words.
-Japanese:
-Japanese interrogative particles are sentence-final particles.
-
-Any question|か
-closed-ended questions|かい
-open-end|だい
-
-The japanese interrogative particle か is relatively implication-free when used with $POLITE, but has certain implications when used $NONPOLITE.
 
 ##### sentences
 
@@ -1855,7 +1846,7 @@ Dental or denti-alveolar consonants are often not distinguished from alveolar co
 The larger grouping of alveolar including dental is what has unique IPA symbols - indicating a dental sound specifically must be diacriticised.
 
 
-<table class="wikitable" style="text-align:center">
+<table class="yesno" style="text-align:center">
 <tbody>
 <tr>
 <th rowspan="2">Active articulator →
@@ -1889,140 +1880,140 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 </th>
 <td>bilabial</td>
 <td colspan="2">linguolabial</td>
-<td class="inactive">
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Upper teeth
 </th>
 <td>labiodental</td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Upper teeth
 </th>
-<td class="inactive"></td>
+<td class="no"></td>
 <td colspan="2">dental</td>
-<td class="inactive">
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Upper teeth/&#8203;alveolar ridge (prealveolar)
 </th>
-<td class="inactive"></td>
+<td class="no"></td>
 <td>denti-alveolar</td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Alveolar ridge
 </th>
-<td class="inactive"></td>
+<td class="no"></td>
 <td colspan="2">alveolar</td>
-<td class="inactive">
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Back of alveolar ridge <br>(postalveolar)
 </th>
-<td class="inactive"></td>
+<td class="no"></td>
 <td>palato-alveolar</td>
 <td>retroflex (more precisely: apical postalveolar)</td>
-<td class="inactive">
+<td class="no">
 </td>
 <td>alveolo-palatal</td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Hard palate (front)
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
 <td>retroflex (more precisely: true retroflex)
 </td>
 <td>palatal</td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Soft palate/&#8203;velum
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
 <td>subapical velar
 </td>
 <td>velar</td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Uvula
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td>
 <td>uvular</td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no">
 </td></tr>
 <tr>
 <th>Pharynx
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td>
-<td class="inactive"></td>
+<td class="no"></td>
 <td>pharyngeal</td>
-<td class="inactive">
+<td class="no">
 </td></tr>
 <tr>
 <th>Epiglottis
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
+<td class="no"></td>
+<td class="no"></td>
 <td>(ary-)epiglottal
 </td></tr>
 <tr>
 <th>Glottis
 </th>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive"></td>
-<td class="inactive">
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no">
 </td>
-<td class="inactive"></td>
-<td class="inactive"></td>
+<td class="no"></td>
+<td class="no"></td>
 <td>glottal
 </td></tr>
 </tbody></table>
@@ -2329,7 +2320,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 
 ######## consonant IPA
 
-<table>
+<table class="yesno">
 <tbody>
 <tr>
 <th>Place (active) →</th>
@@ -2536,7 +2527,30 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 </tbody>
 </table>
 
-all retroflex sounds feature a right-facing bottom hook in their IPA symbol
+<table>
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:13;::ʍ))</td><td>((c:5;::voice​less))</td><td>((c:5;::labio​velar))</td><td>((c:5;::approxi​mant))</td></tr>
+    <tr><td>((c:9;::w ))</td><td>((c:1;::voiced))</td><td>((c:1;::labiovelar (labialized velar)))</td><td>((c:1;::approximant ))</td></tr>
+    <tr><td>((c:10;::ɕ))</td><td>((c:2;::voiceless))</td><td>((c:2;::aveolo-palatal))</td><td>((c:2;::fricative))</td></tr>
+    <tr><td>((c:11;::ɥ ))</td><td>((c:3;::voiced))</td><td>((c:3;::labio-palatal (=labialized palatal)))</td><td>((c:3;::approximant ))</td></tr>
+    <tr><td>((c:12;::ɺ (the long one)))</td><td>((c:4;::voiced))</td><td>((c:4;::alveolar))</td><td>((c:4;::lateral tap/flap ))</td></tr>
+    <tr><td>((c:14;::ʑ))</td><td>((c:6;::voiced))</td><td>((c:6;::aveolo-palatal))</td><td>((c:6;::fricative))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+
+all retroflex phones feature a right-facing bottom hook in their IPA symbol
+all phones written with variants of the small h in the IPA are either epiglottal/pharyngeal or glottal, and are fricatives.
+
+Both the velar and uvular voiceleess fricative are based in their IPA spelling on the x.
+Uvular trill and fricative both feature variants of the smallcaps R as their IPA symbols.
+phones with a c in their IPA symbol all have a passive place of articulation of palatal, and are voiceless.
+In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
 
 ####### relative articulation
 
@@ -3423,6 +3437,8 @@ Compared to most european langauges, japanese male and female registers (男性�
 
 ## grammatical features
 
+### honorifics
+
 Japanese has three dimensions of honorifics: politeness, formality, and deference/humility & respect.
 Politeness|relationship to addressee
 Deference/humility & respect|relationship between people in sentence
@@ -3433,8 +3449,22 @@ https://japanese.stackexchange.com/questions/68970/politeness-respectfulness-hum
 Language encoding politeness in japanese is called 丁寧語.
 Politeness is encoded in verb/copular endings in japanese.
 Any politeness marker in japanese is only allowed at the end of clauses
-Deference/humility & respect are encoded in different verbal conjugations, as well as conjugations of objects.
+Deference/humility & respect are encoded in different verbal conjugations, inflection of objects, and vocabulary choice.
 Formality is encoded in different versions of the copula, as well as in certain word choices.
+
+#### humility/respect
+
+尊敬語|honorific
+謙譲語|humble
+
+To be polite, one uses honorific grammatical features for the actions of others, and humble grammatical features for oneself.
+To be rude, one may use humble grammatical features for the actions of others.
+To be arrogant, one may use honorific grammatical features for oneself.
+
+尊敬語 conjugation: お連用形になる
+謙譲語 conjugation: お連用形する
+
+Requests for honorific verbs that change りー＞い then often use the 命令形 of ます: ませ, just the 連用形 of the verb is also used.
 
 ## graphemics
 
@@ -3445,6 +3475,23 @@ In japanese, reduplication of a kanji is marked with 々.
 ### phonology
 
 ## syntax
+
+### sentences
+
+#### interrogative
+
+question tags
+
+ja|ね・な・でしょう・だろう|んじゃない・違う(?)
+
+Japanese:
+Japanese interrogative particles are sentence-final particles.
+
+Any question|か
+closed-ended questions|かい
+open-end|だい
+
+The japanese interrogative particle か is relatively implication-free when used with +polite construction, but has certain implications when used with -polite constructions.
 
 ### clauses
 
@@ -3500,9 +3547,14 @@ Epistemic - irrealis
 
 #### suffixes
 
-連用形 + <ruby>方<rp>(</rp><rt>かた</rt><rp>)</rp></ruby> = the way of verbing
 
-TRKY/na-adj/noun + がる = act like adjective
+
+Of nouns only, resulting construct is still noun:
+
+だらけ|full of/riddled with (may be metaphorical)
+塗れ|covered in/by (fluids, not metaphorical)
+ずくめ|
+めく|showing signs of
 
 
 #### nominalizers
@@ -3513,7 +3565,8 @@ Japanese has three basic nominalizers: こと、もの、の
 こと|event
 まま|state (lack of change)
 Japanese nominalizers are suffixed to the attributive form of the relevant thing.
-In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it.
+
+In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it. Reversedly, nouns sometimes go in places where the 連用形 would normally, making these two a somewhat unified class
 
 <ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby> (noun)|manner ('way of')
 
@@ -3527,6 +3580,8 @@ for <foo>方が<bar>, using the past tense of a positive verb foo makes it more 
 ##### gramamr where the thing is a noun
 
 (た-form + )<ruby>途端<rp>(</rp><rt>とたん</rt><rp>)</rp></ruby>(に)|just as, the moment that (for things outside of the agents control)
+
+連体形+挙句|negative result
 
 #### complementizers
 
@@ -3586,6 +3641,9 @@ xによると|according to x
 係助詞+おろか = not to metion, forget about x, not even...
 わけ(が)ない = There's no way/easy, simple
 わけにはいかない = cannot (due to external circumstances); cannot afford to; must not; impossible to; no way one can (do)​
+つつ＋ある = trend, process
+ 嫌いがある = negative trend of...
+ぬ・ん + ばかり(に) =  as if to...
 
 ## semantic/morphological relationships
 
@@ -3647,17 +3705,23 @@ Past forms of verbs ending in ます (ました etc.) are merely conjugations of
 未然形|ない|negative
 未然形|ぬ|negative (older, precursor to modern ない, but still sometimes used)
 未然形|ず|negative (older, is generally only used as adverbial today)
+未然形|へん|negative (kansai)
+未然形|ざる|negative (older, barely used today)
 未然形|せる・させる（さす）
 連用形|たい (i-adj)/たがる (verb)|deontic modality
 連用形|ます|make the verb +polite
 連用形|やがる|Hatred, contempt (maybe sometimes phonologically realized as あがる?)
 連用形・TRYK (single ない・いい get an additional さ)|そう|inferential evidential marker
+連用形|得る (read 得る or うる)|indicates potential
 終止形|そう+copula|heresay evidential marker
-意志形|う・よう|Volitional
+意志形|よう (ru-verbs)・う(anything else)|Volitional
 連体形|よう|evidential marker
 連体形|はず (resulting construct is noun)|should be, supposed to, expected
 連体形・終止形(only of verbs)|べく|In order to
 連体形・終止形(only of verbs)|べき|Should (actions that are proper or to yourself, not others)
+終止形|まじ (archaic, whence まい)|negative (grammatically: negative volition; also: prohibition, impossibility)
+未然形・終止形|まい|negative (grammatically: negative volition; also: prohibition, impossibility)
+
 
 べき/べし used to be a 助動詞 (auxiliary).
 This is the odd bit. べき behaves a lot like 同じ when connecting to things after it: For nominals, べき it connects directly. When concluding sentences, it takes the copula (which can be ∅ in informal speech, but I think most people think of the copula still being there).
@@ -3665,6 +3729,7 @@ This is the odd bit. べき behaves a lot like 同じ when connecting to things 
 Most common negative conjugations: 未然形 + ない (as i-adj) + normal conjugation patterns.
 Less common negative conjugations: 未然形 + ぬ (助動詞) + normal conjugation patterns.
 Archaic negative conjugation: 未然形 + ず (助動詞) + normal conjugation patterns.
+
 Thus, the negative form of べき・べし: べからず　is just the 未然形 of an I adjective から + negative ず, but since it today acts as a noun it also can be negated like one, via the copula.
 なるべく "as much as possible" and なるべき "should be/become" are both derived from なる＋べく・べき
 
@@ -3676,12 +3741,12 @@ In the past
 As an exeption, something that is polite, negative and past is ませんでした, not ませ（ん・な）かった.
 To make an 形容詞 polite, a version of the polite copula です needs to be suffixed, one cannot apply the ます　助動詞 to 形容詞.
 
-
-The ず negative is today only ever used to mean without.
+Since the ず　did not have its own conjugation, it either was replaced with ず or ぬ.
+The ず negative is today only ever used to mean without, as an adverbial.
 Similar in meaning for using the ず 助動詞 to mean without is the ない+で
 
-The ず negative uses the せ  for 
-The  negative uses the せ 未然形 for サ変
+
+The ず negative uses the せ 未然形 for サ変
 
 未然形
 
@@ -3689,6 +3754,15 @@ The  negative uses the せ 未然形 for サ変
 ず|せ・ぬ
 ない、よう|し
 れる・せる|さ(せ more rarely)
+
+ましょう is used for the polite volitional form.
+ましょう is derivable from: ます -> 意志形=連用形 ましょ + う
+Other volitional derivation examples: よい -> 意志形 よかろ -> よかろう
+while まじ・まい is grammatically the negative volitional, it today most commmonly indicates strong denial.
+まじ・まい always comes last, even after ます.
+The two volitions give rise to the construction <volitional>が<negative-volitional>が = whether or not
+
+得る(える・うる) as a potential marker is less common today for anything but ある, which may not take the usual potential 助動詞
 
 #### 補助動詞
 
@@ -3718,7 +3792,6 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 始める|punctual &amp; subj. must be plural|"V begins", "begin to V"|着き始める 'have all started to arrive'
 なおす||"do V again, correcting mistakes"|書きなおす 'rewrite'
 あがる||"do V thoroughly" / "V happens upwards"|立ち上がる 'stand up'; 出来上がる 'be completed'
-得る|(see note at bottom)||indicates potential|あり得る 'is possible'
 かかる・かける|only for intrans., non-volit.|"about to V", "almost V",  -  "to start to V" |溺れかける 'about to drown'
 きる||"do V completely"|食べきる 'to eat it all'
 消す||"cancel by V" - "deny with V"|揉み消す 'to rub out, to extinguish'
@@ -3733,6 +3806,8 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 残る|only for intrans.|"be left behind, doing V"|生き残る 'to survive', lit: to be left alive
 分ける||"the proper way to V"|使い分ける 'to indicate the proper way to use'
 忘れる||"to forget to V"|聞き忘れる 'to forget to ask'
+兼ねる||be unable to V, find it difficult to V|
+兼ねる＋neg||possibility of V (which is negative)
 
 
 あう by itself is a intranstive verb meaning:
@@ -3774,11 +3849,21 @@ From the causative form of 合う descends 合わせる を: to put together/com
 出す is a 補助動詞 meaning start to V, or to V out of
 <ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す   sneak away, get away
 
+連用形 + <ruby>方<rp>(</rp><rt>かた</rt><rp>)</rp></ruby> = the way of verbing
+
 ##### 形容詞　補助動詞
 
 sometimes, the 形容詞 suffixes to the 連用形 are also classified as 補助動詞:
 hard|づらい(--formality) / にくい(-formality) / がたい (+formality)
 easy|やすい
+
+##### also for nouns
+
+Noun/連用形 + がち = tend tu, prone to, liable to
+
+##### not for verbs
+
+TRKY/na-adj/noun + がる = act like adjective
 
 ### 助詞
 
@@ -3834,14 +3919,22 @@ the SFPs that also are/contain nominalizers (もの・の・んだ・ので・�
 
 #### Adverbial particles (副助詞, fuku-joshi)
 
-Adverbial particles add a certain meaning, and cann be attached to pretty much anything.
-just|だけ (less formal)・のみ (more formal)
-anything but|しか (variants: っきゃ)
-nothing but|ば(っ)かり
+Adverbial particles add a certain meaning.
+Adverbial particles seem to be treated as nouns in what follows them.
+Adverbial particles seem to follow the 連用形/nouns plainly like other particles 係助詞、格助詞, acting like suffixes, other times they follow the 連体形.
+|だけ (less formal)・のみ (more formal)|just
+|ば(っ)かり|nothing but
 |ほど
 |くらい・ぐらい
 |など
-|がてら
+|きり
+かり
+ずつ
+など・なぞ・なんぞ
+か
+やら
+なり
+連用形/nouns|がてら|on the same occasion; at the same time; coincidentally; along with
 limit of scope|きり
 
 #### Binding particles (係助詞, kakari-joshi)
@@ -3850,7 +3943,8 @@ Binding particles mark what the sentence is about, or increase emphasis if at th
 は is the stereotypical binding particle, marking the topic.
 こそ
 も|inclusion, something is too much
-しか is theoretically also a binding particle, though at least in terms of its hosts and semantics, it acts more like a 副助詞.
+しか(variants: っきゃ)|anything but
+しか requires a negative in the following clause.
 
 even|(で)すら (more archaic)・(で)さえ (less archaic) (adding で adds emphasis)
 でさえ・ですら can only attach to nouns
@@ -3864,7 +3958,7 @@ In japanese 接続助詞 are coordinating・subordinating conjunctions that conn
 form that must be before it
 未然形|
 連用形|while|ながら
-連用形 of verbs only|while|つつ
+連用形 of verbs only|while (formal, equal weight)|つつ
 終止形/end of clause|illiative|から
 終止形/end of clause|illiative (non-exhaustive list)|し
 終止形 of verbs/auxiliaries|illiative|なり (not the copula)
@@ -3930,7 +4024,7 @@ Most commonly: persons name
 
 ##### 連体詞
 
-<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>詞<rp>(</rp><rt>し</rt><rp>)</rp></ruby> are words stuck in the 連体形
+<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>詞<rp>(</rp><rt>し</rt><rp>)</rp></ruby> are words stuck in the 連体形, thus unconjugable
 
 大きな
 小さな
@@ -3982,8 +4076,10 @@ While japanese does not consider nouns or the copula 活用語, we may still con
 i-adjectives|no change
 na-adjectives|な
 copula|な
-nouns|である・な
+nouns|である・な (sometimes)・の (subject to theoretical considerations)
 verbs|no change
+
+to a certain extent の can be understood as the 連体形 of nouns, since they can go where the language normally would expect 連体形. Thus, they are sometimes also called no-adjectives (since they use no where na-adj would use na.)
 
 終止形.
 
@@ -4007,7 +4103,7 @@ the 命令形 for ru-verbs used while writing is formed removing the る and add
 
 The 連用形, 仮定形, 未然形, 意志形 for る-verbs all are formed by removing the る.
 
-Etymologically, the weird stem forms of 形容詞, たる, なる, だ come from the fact that they are contractions of く・て・に・で+ある・あり.
+Etymologically, the weird stem forms of 形容詞, たる, なる, だ, ざる come from the fact that they are contractions of く・て・に・で・ず+ある・あり.
 
 Modern japanese features two verb classes plus two common irregular verb classes, plus some smaller exceptions.
 Japanese verb classes:
@@ -4025,7 +4121,7 @@ Many forms of consonant-stem verbs are actually based on just removing the vowel
 形|name|function|u-verb|i-adj 1|i-adj 2|サ変|カ変|copula (forms from なり)|たり|copula だ|copula である| copula です|classical verb あり
 未然形|irrealis|base for some affixes, esp. negative ones||probably none||さ・せ・し|こ|なら|たら|だら(?)|では (であら(?))|probably none|あら
 連用形|continuative|basis for most other affixes|CS+i|く|TRYK+かり|し|き|なり|たり|だり(though of course it often reduces to だっ due to 音便)|であり|でし|あり
-意志形|'volitional base'|attaching the volitional auxiliary verb|CS|probably none|TRYK+かろ|し|き|なろ（?)|たろ|だろ|であろ|でしょ|あろ
+意志形|'volitional base'|attaching the volitional auxiliary verb|CS+o|probably none|TRYK+かろ|連用形|連用形|なろ（?)|たろ|だろ|であろ|でしょ|あろ
 終止形|terminal|clause-final form|no change|no change (past し)|TRYK+かり|no change|no change|なり|たり|だ|である|です|あり
 連体形|attributive|attributive form|no change|no change (past き)|TRYK+かる|no change|no change|なる|たる|な|である|???|ある
 仮定形|hypothetical|basis for attaching the ば particle for the conditional/subjunctive|CS+a||TRYK+から|すれ|くれ|なれ|たれ||であれ|probably none|あれ
@@ -4069,6 +4165,8 @@ For the positive copula, +formality is indicated by using the formal version of 
 For the negative copula, -formality is indicated by contracting the では to じゃ, +formality is indicated by contracting it.
 For the positive polarity of the -formality copula, +politeness is indicated by using versions of です instead of versions of だ
 For the positive polarity of the +formality copula and any formality of the negative polarity copula, politeness is indicated by the ます　助動詞　as per usual.
+
+The te-form of だ is technically だって. However, it's often treated as で (probably a contraction of であって)
 
 Politness
 Copula (present)
