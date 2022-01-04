@@ -138,6 +138,26 @@ Adjunction can be recursive.
 An adjunct can be any type of phrase.
 <img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
 
+<table class="blank-canvas" style="table-layout: fixed">
+  <tbody>
+    <tr>
+      <td colspan="4" class="inner">((c:1;::XP))</td>
+    </tr>
+    <tr>
+      <td class="inner">((c:2;::ZP))</td>
+      <td></td>
+      <td class="inner" colspan="3">((c:3;::X'))</td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td class="inner">((c:4;::X))</td>
+      <td></td>
+      <td class="inner">((c:5;::YP))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 <img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
 X|the head
 YP|the complement
@@ -188,6 +208,29 @@ in the IP theory, I stands for inflection.
 under the IP theory, the subject is the thing that is in the specifier of the IP.
 under the IP theory, the complement of I is the VP.
 
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="3" class="inner">((c:1;::IP))</td>
+    </tr>
+    <tr>
+      <td class="inner">((c:2;::NP))</td>
+      <td colspan="2" class="inner">((c:3;::I'))</td>
+    </tr>
+    <tr>
+      <td class="inner"></td>
+      <td class="inner">((c:4;::I))</td>
+      <td class="inner">((c:5;::VP))</td>
+    </tr>
+    <tr>
+      <td class="leaf">somethin</td>
+      <td class="leaf">somethin</td>
+      <td class="leaf">somethin</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 
 ####### VP-internal subject hypothesis
 
@@ -197,6 +240,21 @@ The VP-internal subject hypothesis is desirable because it makes the VP consiste
 The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
 The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
 Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
+
+<img src="sm_Screenshot%202020-10-20%20at%2010.44.18.png"><br><table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td class="inner" colspan="3">((c:1;::IP))</td>
+    </tr>
+    <tr><td class="inner">((c:2;::DP))</td><td class="inner" colspan="3">((c:3;::I′))</td></tr>
+    <tr><td class="inner"></td><td class="inner">((c:9;::I))</td><td class="inner" colspan="3">((c:4;::VP))</td></tr>
+    <tr><td class="inner" colspan="2"></td><td class="inner">((c:5;::DP))</td> <td class="inner" colspan="3">((c:6;::V′))</td></tr>
+    <tr><td class="inner" colspan="3"></td><td class="inner">((c:7;::V))</td><td class="inner"></td><td class="inner">((c:8;::DP))</td></tr>
+    <tr><td>someone<sub><i>i</i></sub></td> <td>is</td> <td>t<sub><i>i</i></sub></td> <td>following</td> <td>us</td></tr>
+  </tbody>
+  </table>
+<style>td{width: 4ch}</style>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ####### DP hypothesis: 
 
@@ -262,6 +320,62 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
+######## posessive s
+
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="3" class="inner">((c:1;::DP))</td>
+    </tr>
+    <tr>
+      <td class="inner">((c:2;::DP))</td>
+      <td colspan="2" class="inner">((c:3;::D'))</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="inner">((c:4;::D))</td>
+      <td class="inner">((c:5;::NP))</td>
+    </tr>
+    <tr>
+      <td class="leaf">[Possessor]</td>
+      <td class="leaf">'s</td>
+      <td class="leaf">[Possessed entity]</td>
+    </tr>
+  </tbody>
+
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<table class="blank-canvas">
+  <tbody>
+    <tr>
+      <td colspan="3" class="inner">((c:1;::DP))</td>
+    </tr>
+    <tr>
+      <td class="inner">((c:2;::DP))</td>
+      <td colspan="2" class="inner">((c:3;::D'))</td>
+    </tr>
+    <tr>
+      <td rowspan="2"></td>
+      <td class="inner">((c:4;::D))</td>
+      <td class="inner" colspan="2">((c:5;::NP))</td>
+    </tr>
+    <tr>
+      <td></td>      
+      <td class="inner">((c:6;::N))</td>
+      <td class="inner">((c:7;::PP))</td>
+    </tr>
+    <tr>
+      <td class="leaf">that woman</td>
+      <td class="leaf">'s</td>
+      <td class="leaf">books</td>
+      <td class="leaf">on physics</td>
+    </tr>
+  </tbody>
+
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
 ####### NP hypothesis
 
 <table class="blank-canvas">
@@ -314,7 +428,9 @@ The german main clause V2, subordinate clause V-final constituent order is expla
 In german, VP and IP are head-filnal
 All german clauses are CPs with pronouced Cs.
 Subordinate german clauses have their C positions filled by a complementizer as usual.
-If C is not filled by a complementizer, then V moves to I and then to C.
+If C is not filled by a complementizer (mostly main clauses), then V moves to I and then to C.
+In german subordinate clauses, the V can't move to C, because that is typically already filled by a real complementizer.
+If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
 Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
 
 ###### types of phrases
@@ -1119,18 +1235,6 @@ A particle occurring at the end of the sentence is a sentence-final particle.
 Particles do not refer.
 Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
 
-##### japanese sfps (until they have a better place)
-
-よ: adding new if information (similar but cool, masculine: ぞ, ぜ) (similar: わ)
-Order is always （わ・よ・ぞ・…) + ね, not the other way around
-の may act as a interrogative particle, add emphasis, or explanatory tone.
-の sfp requires attributive before it.
-Variants of の (incl ので・のに・など): の+copula => ん+copula
-{{c3::conjugate}} {{c2::んだ}} {{c3::itself}} and {{c4::attach}} it to a {{c4::non}}-{{c4::conjugated}} element
-
-な na: emotion. Used when one wants to express a personal feeling. May be used to state a fact in which one has emotional investment, to express one's admiration or emotional excitement, to soften an imperative, or to encourage agreement, as a mild imperative. (or variant of ね)
-なあ nā: a lengthened version of the above, expresses strong emotion, either to encourage agreement, as above, or to express one's desires, e.g. 寿司を食べたいなぁ (sushi wo tabetai naa), "I want to eat sushi (so badly right now!)".
-
 #### Interjections
 
 An interjection is a lexical item that indicates a reaction. 
@@ -1305,18 +1409,23 @@ Segmental phonology is concerned with the analysis of speech into phonemes.
 
 ###### phonemic contrast
 
-Phonemic contrast is the minimal phonetic difference to mark two phones as belonging to different phonemes.
-A difference marking phonemic contrast is said to be contrastive or phonemic.
-If in a certain phonotactic environment the difference between two phones is no longer contrastive , it is said to have been neutralized.
-a minimal pair is two or more words that differ only in one distinctive feature.
-In english phonology, rip and lip form a minimal pair.
-minimal pairs may also be used in syntax, where they differ in one word/branching structure.
-If two or more words form a minimal pair, the phones are proven to have phonemic contrast and thus be phonemes.
-When do sounds without a minimal pair probably not belong to the same phoneme?  If they are very very dissimilar phonetically
+two phones (/etic units)...
+appear in the same phonetic (/emic) environment|don't appear in the same phonetic (/emic) environment
+free variation|contrastive distribution|complementary distribution
+changing between two phones (/etic units) doesn't change the meaning|changes the meaning|is impossible
+allophones (/alloetic units)|not allophones (/not alloetic units)|possibly allophones (/possibly alloetic units)
 
-####### Complementary dist, contrastive dist, free variation
+Two phones (/etic units) in contrastive distriibution have phonemic (emic) contrast = the difference between phones (/etic units) markes the phones (/etic units) as belonging to different phonemes (/emic units).
+Two phones  (/etic units) in contrastive distribution = with phonemic  (/whateveremic) contrast are said to be contrastive or phonemic (/whateveremic).
 
+A minimal pair is two or more words that only differ in only one distinctive feature, yet are not homophones  (/homoetic units).
+In a minimal pair, the set of phones (/etic units) that has the difference in one distinctive feature is in contrastive distribution (thus marking them as belonging to different phonemes (/emic units))
 
+Two phones wihtout phonemic  (/whateveremic) contrast = never appearing in contrastive distribution = not having a minimal pair may still be part of different phonemes (/emic units) if they are very dissimilar phonetically (/whateveremicaly).
+
+If two phones (/etic units) which normally are contrastive/phonemic occur in a phonemic (/whateveremic) environment where they no longer are contrastive/phonemic(/whateveremic), the phonemic (/whateveremic) contrast is said to have been neutralized.
+
+Free variation is free in the sense that it does not mark a difference in semantics/grammar, but not free in the sense that variants in free variation may have social significance, making them variants in a sociolinguistic variable.
 
 ###### the syllable
 
@@ -1538,7 +1647,13 @@ co-articulated consonants
 doubly articulated consonants|consonants with secondary articulation
 
 secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
-Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter.
+Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
+Therefore:
+labialization (AKA rounding) (secondary articulation)|<span class='ipa'>◌ʷ</span>
+pharyngealization (secondary articulation)|<span class='ipa'>◌ˤ</span>
+velarization (secondary articulation)|<span class='ipa'>◌ˠ</span>
+There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: <span class="ipa">◌̴ </span>, as in <span class='ipa'>ɫ</span>
+labialization (secondary articulation)|<span class='ipa'>◌ʷ</span>
 It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
 In phonetics, vowel roundedness refers to the amount of rounding in the lips during the articulation of a vowel.
 Vowel roundedness is labialization of a vowel.
@@ -1739,34 +1854,35 @@ palato-alveolar also means the tongue is domed up
 Dental or denti-alveolar consonants are often not distinguished from alveolar consonants, as the difference is often not contrastive/phonemic, and this larger group may also be called alveolar.
 The larger grouping of alveolar including dental is what has unique IPA symbols - indicating a dental sound specifically must be diacriticised.
 
+
 <table class="wikitable" style="text-align:center">
 <tbody>
 <tr>
-<th></th>
-<th></th>
+<th rowspan="2">Active articulator →
+</th>
+<th rowspan="3">Lower lip (Labial)
+</th>
 <th colspan="3">Coronal
 </th>
-<th colspan="3">
-</th></tr>
+<th rowspan="3">Tongue body (Dorsal)
+</th>
+<th rowspan="3">Tongue root (Radical)
+</th>
+<th rowspan="3">Aryepiglottic folds.</th>
+</tr>
 <tr>
-<th>Active articulator →
+
+
+<th rowspan="2">Tongue blade (Laminal)
 </th>
-<th rowspan="2">Lower lip<br>(Labial)
+<th rowspan="2">Tongue tip (Apical)
 </th>
-<th rowspan="2">Tongue blade<br>(Laminal)
+<th rowspan="2">Underside of tongue (Subapical)
 </th>
-<th rowspan="2">Tongue tip<br>(Apical)
-</th>
-<th rowspan="2">Underside of tongue<br>(Subapical)
-</th>
-<th rowspan="2">Tongue body<br>(Dorsal)
-</th>
-<th rowspan="2">Tongue root<br>(Radical)
-</th>
-<th rowspan="2">Aryepiglottic folds.
-</th></tr>
+
+</tr>
 <tr>
-<th>Passive articulator<br>↓
+<th>Passive articulator ↓
 </th></tr>
 <tr>
 <th>Upper lip
@@ -1803,7 +1919,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <td class="inactive">
 </td></tr>
 <tr>
-<th>Upper teeth/alveolar ridge (prealveolar)
+<th>Upper teeth/&#8203;alveolar ridge (prealveolar)
 </th>
 <td class="inactive"></td>
 <td>denti-alveolar</td>
@@ -1830,7 +1946,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 </th>
 <td class="inactive"></td>
 <td>palato-alveolar</td>
-<td>retroflex (more precisely: apical retroflex)</td>
+<td>retroflex (more precisely: apical postalveolar)</td>
 <td class="inactive">
 </td>
 <td>alveolo-palatal</td>
@@ -1850,7 +1966,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <td class="inactive">
 </td></tr>
 <tr>
-<th>Soft palate/velum
+<th>Soft palate/&#8203;velum
 </th>
 <td class="inactive"></td>
 <td class="inactive"></td>
@@ -2167,7 +2283,11 @@ td {
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
 
 Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
-For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory
+For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory.
+The unrounded version of the back closed vowel is double the u compared the rounded version of the back closed vowel.
+the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
+ɶ is lower in the vowel chart than œ.
+The rounded near-back near-close vowel looks like the ひ kana.
 
 ####### obstruents
 
@@ -2208,6 +2328,213 @@ p͡f, t͡ɕ etc.
 Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
 
 ######## consonant IPA
+
+<table>
+<tbody>
+<tr>
+<th>Place (active) →</th>
+<th colspan="4" scope="col">Labial</th>
+<th colspan="8" scope="col">Coronal</th>
+<th colspan="2" scope="col">Dorsal</th>
+<th colspan="2" scope="col">Dorsal (rarely coronal)</th>
+<th colspan="2" scope="col">Dorsal</th>
+<th colspan="2" scope="col">Radical/​Ary­epiglottal</th>
+<th colspan="2" scope="col">Ary­epiglottal</th>
+</tr>
+<tr>
+<th>Place (active + passive) →</th>
+<th colspan="2" rowspan="2" scope="col">Bi­labial</th>
+<th colspan="2" rowspan="2" scope="col">Labio­dental</th>
+<th colspan="6" rowspan="2" scope="col">Dental/&#8203;Alveolar/&#8203;Post­alveolar</th>
+<th colspan="2" rowspan="2" scope="col">Retro­flex</th>
+<th colspan="2" rowspan="2" scope="col">Palatal</th>
+<th colspan="2" rowspan="2" scope="col">Velar</th>
+<th colspan="2" rowspan="2" scope="col">Uvular</th>
+<th colspan="2" rowspan="2" scope="col">Pharyn­geal/​epi­glottal</th>
+<th colspan="2" rowspan="2" scope="col">Glottal</th>
+</tr>
+  <tr><th>Manner ↓</th>
+  </tr>
+<tr>
+<th scope="row">Plosive</th>
+<td>{{c1::p}}</td>
+<td>{{c2::b}}</td>
+<td></td>
+<td></td>
+<td colspan="3">{{c3::t}}</td>
+<td colspan="3">{{c4::d}}</td>
+<td>{{c5::ʈ}}</td>
+<td>{{c6::ɖ}}</td>
+<td>{{c7::c}}</td>
+<td>{{c8::ɟ}}</td>
+<td>{{c9::k}}</td>
+<td>{{c10::ɡ}}</td>
+<td>{{c11::q}}</td>
+<td>{{c12::ɢ}}</td>
+<td>{{c13::ʡ}}</td>
+<td class="no"></td>
+<td>{{c14::ʔ}}</td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Nasal</th>
+<td></td>
+<td>{{c15::m}}</td>
+<td></td>
+<td>{{c16::ɱ}}</td>
+<td colspan="3"></td>
+<td colspan="3">{{c17::n}}</td>
+<td></td>
+<td>{{c18::ɳ}}</td>
+<td></td>
+<td>{{c19::ɲ}}</td>
+<td></td>
+<td>{{c20::ŋ}}</td>
+<td></td>
+<td>{{c21::ɴ}}</td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Trill</th>
+<td></td>
+<td>{{c22::ʙ}}</td>
+<td></td>
+<td></td>
+<td colspan="3"></td>
+<td  colspan="3">{{c23::r}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+<td>{{c24::ʀ}}</td>
+<td>{{c25::ʜ}}</td>
+<td>{{c26::ʢ}}</td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Tap/flap</th>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="3"></td>
+<td  colspan="3">{{c27::ɾ}}</td>
+<td></td>
+<td>{{c28::ɽ}}</td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+  <tr>
+<th scope="row">Lateral approximant</th>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td colspan="3"></td>
+<td colspan="3">{{c58::l}}</td>
+<td></td>
+<td>{{c59::ɭ}}</td>
+<td></td>
+<td>{{c60::ʎ}}</td>
+<td></td>
+<td>{{c61::ʟ}}</td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+  <tr>
+<th scope="row">Lateral fricative</th>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td colspan="3">{{c51::ɬ}}</td>
+<td colspan="3">{{c52::ɮ}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>  
+<tr>
+<th scope="row">Approximant</th>
+<td></td>
+<td></td>
+<td></td>
+<td>{{c53::ʋ}}</td>
+<td  colspan="3"></td>
+<td colspan="3">{{c54::ɹ}}</td>
+<td>{{c55::ɻ}}</td>
+<td></td>
+<td>{{c56::j}}</td>
+<td></td>
+<td>{{c57::ɰ}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+</tr>
+  <tr><td colspan="5" class="no"></td>
+      <th colspan="2">Dental</th>
+<th colspan="2">Alveolar</th>
+<th colspan="2">Post­alveolar</th>
+  </tr>
+  <tr>
+<th scope="row">Fricative</th>
+<td>{{c29::ɸ}}</td>
+<td>{{c30::β}}</td>
+<td>{{c31::f}}</td>
+<td>{{c32::v}}</td>
+<td>{{c33::θ}}</td>
+<td>{{c34::ð}}</td>
+<td>{{c35::s}}</td>
+<td>{{c36::z}}</td>
+<td>{{c37::ʃ}}</td>
+<td>{{c38::ʒ}}</td>
+<td>{{c39::ʂ}}</td>
+<td>{{c40::ʐ}}</td>
+<td>{{c41::ç}}</td>
+<td>{{c42::ʝ}}</td>
+<td>{{c43::x}}</td>
+<td>{{c44::ɣ}}</td>
+<td>{{c45::χ}}</td>
+<td>{{c46::ʁ}}</td>
+<td>{{c47::ħ}}</td>
+<td>{{c48::ʕ}}</td>
+<td>{{c49::h}}</td>
+<td>{{c50::ɦ}}</td>
+</tr>
+
+
+</tbody>
+</table>
 
 all retroflex sounds feature a right-facing bottom hook in their IPA symbol
 
@@ -2863,6 +3190,8 @@ People very confused may use dialect to mean accent.
 In regions such as Italy, France and the Philippines separate but non-standard sister languages to the standard variety are called and (falsely) considered to be dialects.
 In an academic setting, a dialect is either a synonym of variety/lect or for regiolect.
 
+Language dominance is either the more frequent/ready use of or proficiency in one language more than another, either of a given speaker or within a speech community.
+
 #### power
 
 Linguistic hegemony is when a dominant group has created the idea that their language normas are standard/paradigmatic, and the failure to meet them is the failure of the language/language use of the failee.
@@ -3023,6 +3352,18 @@ Theoretical linguistics may just contrast with applied linguistics, or specifica
 
 ## cross-cutting concerns
 
+### quantitiative linguistics
+
+Quantitative linguistics investigates language using quantitative methods.
+A linguistic law is a phenomenon in quantitative linguistics which describes a statistical regularity in the relationship between scales (e.g. of phonemes, syllables, words).
+
+#### brevity law
+
+Brevity law = zipf's law of abbreviation
+Brevity law is a linguistic law that says the frequency of a words use is inversely proportional to its length: The shorter a word is, the more often it is used; the longer a word is, the less frequently it is used, and vice versa
+Brevity law can be found in all investigated natural languages (currently 1k languages of 80 language families), as well as in some other communication systems, such as that of primates.
+Brevity law was first described in 1945 in corpus work on American English by Ziph.
+
 ### linguistic error
 
 Linguistic errors may be merely seen as errors, but may also change the accepted spelling, pronunciation, etc. of a word, or even act as word formation patterns.
@@ -3072,8 +3413,13 @@ In a morphosemantic sense, something coded through a zero morpheme is unmarked, 
 
 Activity/process involving signs is called semiosis
 The study of sign processes (semiosis) is called semiotics
+Something being reduced to signification only (which is amplified) (rare word)   hypersignification
 
 # Japanese grammar
+
+## sociolinguistics
+
+Compared to most european langauges, japanese male and female registers (男性語・女言葉・女性語) are often characterized as More distinct/developed
 
 ## grammatical features
 
@@ -3473,6 +3819,18 @@ disjunctive with vagueness||とか or や (more formal)
 Interjectory particles are like sentence-final particles, just that they can  also occur at the end of clauses (or sometimes merely phrases).
 
 #### Sentence final particles (終助詞, shū-joshi)
+
+
+よ: adding new if information (similar but cool, masculine: ぞ, ぜ) (similar: わ)
+Order is always （わ・よ・ぞ・…) + ね, not the other way around
+の may act as a interrogative particle, add emphasis, or explanatory tone.
+Variants of の (incl ので・のに・など): の+copula => ん+copula
+{{c3::conjugate}} {{c2::んだ}} {{c3::itself}} and {{c4::attach}} it to a {{c4::non}}-{{c4::conjugated}} element or atatach a conjugated element to it
+the SFPs that also are/contain nominalizers (もの・の・んだ・ので・のに) do still nominalize the sentence grammatically, and thus require the attributive form in front of them.
+
+な na: emotion. Used when one wants to express a personal feeling. May be used to state a fact in which one has emotional investment, to express one's admiration or emotional excitement, to soften an imperative, or to encourage agreement, as a mild imperative. (or variant of ね)
+なあ nā: a lengthened version of the above, expresses strong emotion, either to encourage agreement, as above, or to express one's desires, e.g. 寿司を食べたいなぁ (sushi wo tabetai naa), "I want to eat sushi (so badly right now!)".
+
 
 #### Adverbial particles (副助詞, fuku-joshi)
 
