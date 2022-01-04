@@ -2652,26 +2652,6 @@ In linguistics, a phatic expression is communication which serves a social funct
 An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
 A discourse marker is not itself a part of speech, rather, other words or phrases, frequently though not always interjections take on the pragmatic form of a discourse marker.
 
-Yael Maschler divided discourse markers into four broad categories: interpersonal, referential, structural, and cognitive.
-
-Interpersonal markers are used to indicate the relationship between the speaker and the listener.
-  Perception: "look", "believe me"
-  Agreement: "exactly", or disagreement: "I'm not sure"
-  Amazement: "wow"
-  Surprise: え (えー)
-Referential markers, usually conjunctions, are used to indicate the sequence, causality, and coordination between statements.
-  Sequence: "now", "then"
-  Causality: "because"
-  Coordination: "and", or non-coordination: "but"
-Structural markers indicate the hierarchy of conversational actions at the time in which they are spoken. These markers indicate which statements the speaker believes to be most or least important.
-  Organization: "first of all"
-  Introduction: "so"
-  Summarization: "in the end"
-Cognitive markers reveal the speaker's thought process
-  Processing information: "uhh"
-  Realization: "oh!"
-  Rephrasing: "I mean"
-
 #### Speech acts
 
 Speech act theory is the field studying speech acts.
@@ -3457,12 +3437,14 @@ Formality is encoded in different versions of the copula, as well as in certain 
 尊敬語|honorific
 謙譲語|humble
 
-To be polite, one uses honorific grammatical features for the actions of others, and humble grammatical features for oneself.
+To be polite, one uses honorific grammatical features for the actions of others andor one's 外, and humble grammatical features for oneself andor one's 内.
 To be rude, one may use humble grammatical features for the actions of others.
 To be arrogant, one may use honorific grammatical features for oneself.
 
 尊敬語 conjugation: お連用形になる
 謙譲語 conjugation: お連用形する
+
+The passive may also be used as a light 尊敬語.
 
 Requests for honorific verbs that change りー＞い then often use the 命令形 of ます: ませ, just the 連用形 of the verb is also used.
 
@@ -3475,6 +3457,17 @@ In japanese, reduplication of a kanji is marked with 々.
 ### phonology
 
 ## syntax
+
+### semantics
+
+#### requests
+
+なさる is a 補助動詞 (attaching to the 連用形) that is used in the 連用形・ます imperative to make requests that sound firm but polite, like a teacher or parent
+なさい(ませ) after the 連用形 to make requests may be shortened to な
+くれる is a 補助動詞 attaching to the te-form that is used for making requests, most often in the negative.
+下さる is a 補助動詞 attaching to the te-form that is used in the 連用形・ます imperative to make requests that are polite
+for less polite requests, the て-form may also be used plainly.
+The imperative itself is rarely used, because it is quite impolite.
 
 ### sentences
 
@@ -3586,13 +3579,15 @@ for <foo>方が<bar>, using the past tense of a positive verb foo makes it more 
 #### complementizers
 
 Most commonly, と acts as a complementizer in Japanese.
-Things complemenentized by と may be actual quotes or subordinate clauses.
+Things complemenentized by と may be actual quotes, direct or indirect or subordinate clauses.
+For indirect quote, the sentence must have a pronounced verb/copula
 The nominalizers often also act as complementizers.
 と言う+nominalizer|generic complementizer ('that')
 と言う+noun|noun that is called...
 と言う意味|mean ...
 と言う|say that, to be called that
 と思う|think that
+と考える|to consider that
 と決める・決まる|decide/be decided that
 
 と[verb][particles] = って
@@ -3636,6 +3631,12 @@ xによると|according to x
 <clause-present-tense>こと<kakari-joshi><form-of-aru>: Event sometimes happens/never happens
 <clause-past-tense>こと<kakari-joshi><form-of-aru>: Event has happened/never happened
 
+### must not
+
+<if-not><what-happens>
+if-not::=なくては|なければ|ないと
+what-happens::=negative of 行ける|negative of なる|だめ
+
 ### misc
 
 係助詞+おろか = not to metion, forget about x, not even...
@@ -3644,6 +3645,10 @@ xによると|according to x
 つつ＋ある = trend, process
  嫌いがある = negative trend of...
 ぬ・ん + ばかり(に) =  as if to...
+で/て(も)+word for ok = it's okay ... 
+volitional + とする = try/attempt to ...
+
+conditional + どう = how about...
 
 ## semantic/morphological relationships
 
@@ -3701,13 +3706,13 @@ Past forms of verbs ending in ます (ました etc.) are merely conjugations of
 
 助動詞 are suffixed to whatever stem.
 
-未然形|れる・られる
+未然形|れる(u)・られる (ru, may also be shortened to れる)
 未然形|ない|negative
 未然形|ぬ|negative (older, precursor to modern ない, but still sometimes used)
 未然形|ず|negative (older, is generally only used as adverbial today)
 未然形|へん|negative (kansai)
 未然形|ざる|negative (older, barely used today)
-未然形|せる・させる（さす）
+未然形|せる (u-verbs)・させる（ru-verbs, or さす (casual)|causative = make, let
 連用形|たい (i-adj)/たがる (verb)|deontic modality
 連用形|ます|make the verb +polite
 連用形|やがる|Hatred, contempt (maybe sometimes phonologically realized as あがる?)
@@ -3721,6 +3726,13 @@ Past forms of verbs ending in ます (ました etc.) are merely conjugations of
 連体形・終止形(only of verbs)|べき|Should (actions that are proper or to yourself, not others)
 終止形|まじ (archaic, whence まい)|negative (grammatically: negative volition; also: prohibition, impossibility)
 未然形・終止形|まい|negative (grammatically: negative volition; also: prohibition, impossibility)
+音便形|た|past tense
+音便形|て|て形
+
+Exceptions: 問う, 請う: 連体形/終止形 + た/て
+The past of 形容詞 (かった) may seem irregular, but it is not: 連用形: かり; + 音便 => かっ; + た = かった
+The past of です may seem irregular, but it is not: 連用形: でし + た => でした
+The past of だ may seem irregular, but it is not: 連用形: でし + た => でした
 
 
 べき/べし used to be a 助動詞 (auxiliary).
@@ -3780,6 +3792,7 @@ Some compounds resulting from 補助動詞 are more often or only used in the no
 くる|-te form||perfection, "have V-ed" (only past-tense)|生きてきた 'have lived'
 くる|-te form||conclusion, "come to V"|異なってくる 'come to differ'
 みる|-te form||"try to V"|してみる 'try to do'
+欲しい|-te form||deontic modality, relatively rare
 
 te-form + しまう indicates that something was done unintentonally or finished completely.
 
@@ -3850,6 +3863,8 @@ From the causative form of 合う descends 合わせる を: to put together/com
 <ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す   sneak away, get away
 
 連用形 + <ruby>方<rp>(</rp><rt>かた</rt><rp>)</rp></ruby> = the way of verbing
+
+the 未然形 of た (but really of たる) is also used as a conditional.
 
 ##### 形容詞　補助動詞
 
@@ -3963,7 +3978,7 @@ form that must be before it
 終止形/end of clause|illiative (non-exhaustive list)|し
 終止形 of verbs/auxiliaries|illiative|なり (not the copula)
 終止形/end of clause|adversative (but not always)|が or けど・けれど・けれども (more but)
-終止形/end of clause|conditional|と
+終止形/end of clause|conditional (implies result is natural consequence)|と
 終止形/end of clause|as soon as|や
 連体形 or の|illiative|ところで or 癖に (stronger, indicates disgust)
 連体形|illiative|のに
@@ -3974,25 +3989,20 @@ form that must be before it
 |ても・でも|
 音便形|listing|たり (subject to similar constraints as た)
 
+In classical japanese, ba would have been attached to the 未然形 instead of the 仮定形, hence e.g. ならば・たらば and not なれば・たれば
+While not typically considered a conjunctive particle, なりの未然形 なら (alternatively analyzed as a shortened ならば) connects to the 終止形 to create the meaning of 'if given'
+In modern japanese, ならば・たらば is a bit more formal than なら・たら
+なければ: ない → 仮定形 = なけれ + ば
 
 illative|
 adversative|が or けど・けれど・けれども or ところが (more but) or 癖に or のに (more despite) # AN: but aren't tokoroga and kuseni acting as nouns here, not as clause-final particles (and thus are also subordinating)
 けど<けれど<けれども in formality
 けど<が in formality
 
-#### who the fuck knows
-
-音便形|た|past tense
-音便形|て|て形
-
-Exceptions: 問う, 請う: 連体形/終止形 + た/て
-The past of 形容詞 (かった) may seem irregular, but it is not: 連用形: かり; + 音便 => かっ; + た = かった
-The past of です may seem irregular, but it is not: 連用形: でし + た => でした
-The past of だ may seem irregular, but it is not: 連用形: でし + た => でした
-
 #### who the fuck knows 2
 
 た-form+ば(っ)か(り)|action was just completed, behaves as noun
+終止形・連体形 (verbs) + な|negative imperative
 
 ### 独立語
 
@@ -4003,6 +4013,8 @@ The past of だ may seem irregular, but it is not: 連用形: でし + た => �
 ##### 副詞
 
 In japanese, the roles of adverbs are as in english (act as adjuncts for any number of phrases, but not NPs), they however cannot appear after the verb/copula.
+
+もし: Make sentence more uncertain
 
 ##### 名詞
 
@@ -4056,6 +4068,30 @@ Paraphrasing
 
 どころか|far from, let alone, to say nothing of
 
+だって|contrastive, illiative|"but", "because"
+
+##### 感動詞 & discourse markers
+
+Yael Maschler divided discourse markers into four broad categories: interpersonal, referential, structural, and cognitive.
+
+Interpersonal markers are used to indicate the relationship between the speaker and the listener.
+  Perception: "look", "believe me"
+  Agreement: "exactly", or disagreement: "I'm not sure"
+  Amazement: "wow"
+  Surprise: え (えー)
+Referential markers, usually conjunctions, are used to indicate the sequence, causality, and coordination between statements.
+  Sequence: "now", "then"
+  Causality: "because"
+  Coordination: "and", or non-coordination: "but"
+Structural markers indicate the hierarchy of conversational actions at the time in which they are spoken. These markers indicate which statements the speaker believes to be most or least important.
+  Organization: "first of all"
+  Introduction: "so"
+  Summarization: "in the end"
+Cognitive markers reveal the speaker's thought process
+  Processing information: "uhh"
+  Realization: "oh!"
+  Rephrasing: "I mean"
+
 #### 活用語
 
 ##### stemforms
@@ -4105,6 +4141,11 @@ The 連用形, 仮定形, 未然形, 意志形 for る-verbs all are formed by r
 
 Etymologically, the weird stem forms of 形容詞, たる, なる, だ, ざる come from the fact that they are contractions of く・て・に・で・ず+ある・あり.
 
+たり in 文語 indicates the stative form of verbs.
+たり descend from たる.
+the 助動詞 た descends from たる・たり.
+た is the 終止形and 連体形, otherwises it uses the inflections of たる・たり when needed.
+
 Modern japanese features two verb classes plus two common irregular verb classes, plus some smaller exceptions.
 Japanese verb classes:
 る|一段動詞|vowel-stem|end in る, preceeded by u/i
@@ -4119,7 +4160,7 @@ Many forms of consonant-stem verbs are actually based on just removing the vowel
 
 
 形|name|function|u-verb|i-adj 1|i-adj 2|サ変|カ変|copula (forms from なり)|たり|copula だ|copula である| copula です|classical verb あり
-未然形|irrealis|base for some affixes, esp. negative ones||probably none||さ・せ・し|こ|なら|たら|だら(?)|では (であら(?))|probably none|あら
+未然形|irrealis|base for some affixes, esp. negative ones|CS+a|く(at least in some sense)|から(?)|さ・せ・し|こ|なら|たら|だら(?)|では (であら(?))|probably none|あら
 連用形|continuative|basis for most other affixes|CS+i|く|TRYK+かり|し|き|なり|たり|だり(though of course it often reduces to だっ due to 音便)|であり|でし|あり
 意志形|'volitional base'|attaching the volitional auxiliary verb|CS+o|probably none|TRYK+かろ|連用形|連用形|なろ（?)|たろ|だろ|であろ|でしょ|あろ
 終止形|terminal|clause-final form|no change|no change (past し)|TRYK+かり|no change|no change|なり|たり|だ|である|です|あり
@@ -4183,8 +4224,6 @@ negative polarity|じゃなかった|じゃありませんでした|ではなか
 
 Adverbial of たり: と
 
-た and たり descend from たる.
-
 ## sound changes
 
 ### 音便
@@ -4237,6 +4276,8 @@ Honorific/humble verbs such as くださる、なさる、ござる、いらっ�
 
 ては|ちゃ
 では|じゃ
+
+ちゃ・じゃ may sound girly
 
 てしま|ちゃ or ちま
 でしま|じゃ or じま
