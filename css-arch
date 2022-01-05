@@ -80,6 +80,7 @@ input type="radio"|indeterminate when no radio buttons with the same name are se
 progress|indeterminate when no value attribute is present.
 :placeholder-shown selects an element whose placeholder is being shown (NOT the placeholder itself)
 
+
 ##### Pseudo-elements
 
 A pseudo-element indicates a part of a element which isn't a real element.
@@ -101,6 +102,12 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 
 
 #### Combinators
+
+
++
+~
+>
+
 
 #### The Grouping selector
 
@@ -195,6 +202,8 @@ A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and
 In a grid layout, multiple adjacent cells (in CSS, forming a rectangle) are called a grid area.
 In a grid layout, the area between two adjacent grid lines is called a grid track.
 
+The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order.
+
 ###### box alignment properties
 
 The box alignment properties in CSS are a set of 6 properties that control alignment of boxes within other boxes. 
@@ -281,6 +290,7 @@ there are three grid-auto properties, grid-auto-column & -rows and grid-flow
 
 grid-template-columns & -rows define how many columns/rows of which size the explicit grid wil contain.
 grid-auto-columns & -rows define what size columns/rows the auto placement algorithm will add.
+specifying multiple values for grid-auto-columns & -rows specifies a pattern which to follow.
 grid-template-columns & rows take the same values, which i will call <grid-template-values>
 
 grid-template-rc-values ::= {[<line-names> ](<flex-l-p-min-max-auto-mm>|<repeat>)}[ <line-names>]
@@ -298,7 +308,7 @@ the auto-* keywords for repeat treat the track sizes of tracks that can shrink o
 the difference between the auto-fill and auto-fit keywords is that auto-fit will collapse any empty repeated tracks that still exist after grid-items re placed, while auto-fill will not.
 
 Using grid-template properties, you can assign line names to grid lines, to be used later for positioning.
-If the same name is used for multiple grid lines, they will be numbered starting at the second one.
+If the same name is used for multiple grid lines, they will be numbered by a so-called occurrence number starting at the second one, which is separated by a space
 Grid lines are numbered staring at 1
 
 repeat ::= repeat\((<integer>|<auto-keyword>), {<line-names-and-track-size>}[ <line-names>]\)
@@ -324,8 +334,8 @@ The dense keyword for grid-auto-flow makes it use the dense algorithm, otherwise
 dense algorithm|attempt to fill holes earlier in the grid
 sparse algorithm|never backtrack to fill holes
 
-specifying grid-lines with -start/-end that enclose a rectangle creates the relevant grid-area automatically # TODO check this
-specifying grid-areas creates the relevant grid lines with -start/-end automatically # TODO check this
+specifying grid-lines with -start/-end that enclose a rectangle creates the relevant grid-area automatically 
+specifying grid-areas creates the relevant grid lines with -start/-end automatically 
 
 the grid css property is a shorthand for grid-template-* and grid-auto-*, 6/7 properties in total
 
@@ -335,15 +345,31 @@ grid areas and grid lines
 grid-area allows placing an item at a grid-area created manually or automatically, taking up that space
 grid-area dots
 
-grid-column/row-start/end take the same set of values.
+grid-column/row-start/end take the same set of values, <grid-line>
 grid-column/row-start/end specify the edges of an items grid area
 Most basically, grid-column/row-start/end either position using an integer, or using a grid line name.
 specifying an integer for grid-column/row-start/end positions it at that number gridline.
 specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start).
 specifying an custom-ident while also specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start), counting only gri lines with the custom-ident
 specifying a custom-ident for grid-column/row-start/end positions it at <custom-ident>-start(if start)/-end(if end)
+grid-line ::= auto | <custom-ident> | [span] [<integer>] [<custom-ident>] # slightly simplified
+grid-row/column are shorthand for -start/-end
+grid-row-values, grid-column-values ::= <grid-line>[ / <grid-line>]
+grid-area basically takes two kind of values, the name of a grid area, or four specifiers for row/column start/end, specified in the order rs / cs / re / ce.
 
+grid items may be placed in the same area, i.e. they may overlap, even completely.
 
+###### flex
+
+flex-flow is a shorthand for flex-direction and flex-wrap
+flex-wrap may take the values nowrap, wrap, wrap-reverse.
+flex-direction may take the values row, row-reverse, column, column-reverse
+
+flex is a shorthand of flex-grow flex-shrink flex-basis (in that order)
+flex-grow and flex-shrink specify a factor, which specifies how fast that element should grow/shrink relative to other flex elements.
+flex-basis specifies the initial size of a flex item along its main axis.
+
+By default flex items don't shrink below their minimum content size. To change this, set the item's min-width or min-height.
 
 ##### Pointer-events
 
