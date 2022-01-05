@@ -1,3 +1,7 @@
+# CSS
+
+CSS = Cascading Style Sheet
+
 S ::= {<statement>}
 statement ::= <ruleset>|<at-rule>
 ruleset ::= <selector-list><declaration-block>
@@ -80,6 +84,55 @@ input type="radio"|indeterminate when no radio buttons with the same name are se
 progress|indeterminate when no value attribute is present.
 :placeholder-shown selects an element whose placeholder is being shown (NOT the placeholder itself)
 
+:target|element has the same id as the fragment in the url
+
+###### input pseudo-classes
+
+a number of pseudo-classes have to do with input
+:enabled/:disabled|HTML enabled attribute is specified, or specified on the parent fieldset (or not, for disabled)
+:read-write/:read-only|element is not disabled and is not readonly, or has the contenteditable attribute set to true/element has none of these things
+:in-range/:out-of-range|element is/is not within a specified range 
+:required/:optional|elements with the "required" attribute specified/not specified
+:valid/:invalid|element is valid/invalid according to properties specified in HTML
+:checked|selects a toggled radio button or checkbox
+
+
+###### Tree-structural pseudo-classes
+
+Tree-structural pseudo-classes are pseudo-classes that allow selection of elements based on information in the document tree
+
+:root  Selects the document's root element  
+:empty  Selects every &lt;p&gt; element that has no children (including text nodes)  
+
+Child-indexed pseudo-classes are tree-structural pseudo-classes that select elements based on their index among their siblings.
+Child-indexed pseudo-classes end -child
+For any child-indexed pseudo class there is an equivalent typed child-indexed pseudo-class that ends -of-type isntea of -child
+Typed child-indexed pseudo-classes are tree-structural pseudo-classes that select elements based on their index among siblings of the same type.
+
+:nth-child(<nth>)  Selects every &lt;p&gt; element that is the <nth> child of its parent  
+:nth-last-child(<nth>)  Selects every &lt;p&gt; element that is the <nth> child of its parent, counting from the last child  
+:first-child  Selects every &lt;p&gt; element that is the first child of its parent  
+:last-child  Selects every &lt;p&gt; element that is the last child of its parent  
+:only-child  Selects every &lt;p&gt; element that is the only child of its parent  
+
+nth ::= <an-plus-b>|even|odd
+an-plus-b ::= <integer>n+<integer>
+
+###### link-related pseudo-classes
+
+:any-link|All links: <a> and <area> elements
+:link|Selects all unvisited links  
+:visited|Selects all visited links  
+
+###### user action pseudo-classes
+
+user action pseudo-classes are pseudo-classes that allow you to react to user action
+
+:active|Selects the active link (when you click it/hold down the mouseclick on it)  
+:hover|Selects links on mouse over  
+:focus|element has the focus (accepts keyboard or mouse events, or other forms of input).
+The :focus-within CSS pseudo-class matches an element if the element or any of its descendants are focused. In other words, 
+The :focus-visible pseudo-class applies while an element matches the :focus pseudo-class and the UA (User Agent) determines via heuristics that the focus should be made evident on the element.
 
 ##### Pseudo-elements
 
@@ -96,7 +149,7 @@ the content-specifier can be a bunch of different things
 In HTML/CSS, <input> and <textarea> can have placeholder text in form of a placeholder attribute.
 ::selection|matches text currently selected/highlighted by the user via cursor/touch etc.
 ::selection only supports a subset of properties, mainly color, background-color and text-shadow.
-::first-letter"matches the first letter of a block-level element
+::first-letter|matches the first letter of a block-level element
 ::first-line|matches the first line of a block-level element
 ::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath {{c1::any element that is in fullscreen}}
 
@@ -145,6 +198,8 @@ unset: choose between inherit and initial based on if the thing is inherited or 
 
 Declaration: --var-name: value;
 Accessing: var(--var-name)
+
+
 
 #### Props
 
@@ -387,6 +442,17 @@ the quotes property sets the quotes that the open-quotes and close-quotes of con
 the quotes property is inherited and so doesn't have to be set on the thing with the content property
 quotes takes two strings, the opening and the closing quote, it may also take two more strings, which are for when there are nested.
 
+###### font
+
+font-family sets the font family = typeface of the text.
+font-family takes a font stack.
+A font stack comma-separated list of font family names or generic family names, which repesents a priority of which ones to use.
+generic family names are names like serif, sans-serif, monospace, cursive...
+generic family names are guaranteed to resolve to an existing font family, and thus a font stack should generallly end in one.
+It is good pracktice to quote font family names that contain whitespace, digits or punctuation characters.
+
+The font shorthand allows setting properties starting with font-, as well as line-height.1
+
 ##### Scrolling
 
 overscrolling is what happens when you scroll further on something than that thing allows.
@@ -416,6 +482,7 @@ background-position takes a <position> value to position the background.
 
 ##### edges
 
+Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding
 Shorthand for edges in CSS use a consistent syntax:
 
 1 value|specifies all sides|<img src="sm_1_border.png">
@@ -424,6 +491,26 @@ Shorthand for edges in CSS use a consistent syntax:
 4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_border.png">
 
 Normally, instead of using the shorthand, you can also set the properties individually by using -top(-), -left(-), -bottom(-), -right(-) properties.
+
+typically, any edge width is specified as a <length-percentage>
+<length-percentage-edges> ::= <length-percentage> [<length-percentage>] [<length-percentage>] [<length-percentage>]
+
+###### css box model
+
+<div class="onion-box">
+  <span>((c:1;s:all;::Margin))</span>
+  <div class="onion-box">
+    <span>((c:2;s:all;::Border))</span>
+    <div class="onion-box">
+      <span>((c:3;s:all;::Padding))</span>
+      <div class="onion-box">
+        <span>((c:4;s:all;::Content))<br><br></span>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+margin: auto can be used to center a thing horizontally, but not vertically
 
 ###### Border
 
@@ -465,7 +552,7 @@ Normally, instead of using the shorthand, you can also set the properties indivi
 things that take corners may also take two sets of corners specifiers, separated by a slash.
 If a thing takes two sets of corner specifiers, the first apply in x direction and the second in y direction.
 
-Things that specify corners are border-radius
+Data types that specify corners are <border-radius>
 
 ##### Custom Counting
 
@@ -524,6 +611,14 @@ li::before {
   <li>item</li>          <!-- 2     -->
 </ol></code></pre>
 
+##### misc
+
+The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
+clip-path-values ::= [<geometry-box>] [<basic-shape>]
+THe shape-outside property sets a shape around which inline elements will flow.
+shape-outside ::= <geometry-box>||<basic-shape>||<image>
+if you use an image for shape-outside, it will compute it based on that images alpha channel.
+
 #### Values
 
 ##### Functions
@@ -567,6 +662,54 @@ The value described by <position> need not be inside the elements box.
 
 <img src="sm_position_value.png">
 
+##### <image>
+
+The <image> CSS data type represents a two-dimensional image.
+While there are many kinds of things in the spec that an <image> could be, currently it can only be an <url> or a <gradient>
+
+###### <gradient>
+
+currently, there are three types of <gradient>s, <linear-gradient>, <radial-gradient>, and <conic-gradient>
+<linear-gradient> and <radial-gradient>s also exist as repeating versions, which repeat as much as necessary to fil a given area: <repeating-linear-gradient>, <repeating-radial-gradient>.
+Repeating gradients have the same syntax as the non-repeating variants, but if you size the final stop too large, there will be no palce for repeating.
+All gradients are specified via css functions.
+
+linear-gradient ::= linear-gradient\(<direction-specfier>, <color-stop-list>\)
+direction-specifier ::= <angle>|<side-or-corner>
+side-or-corner ::= to [<top-bottm>] [<left-right>]
+color-stop-list ::= <color-stop>{, <color-stop>}
+color-stop ::= [<color>] [<length-percentage>] [<length-percentage>]
+
+radial-gradient ::= radial-gradient\(<shape-specifier>, <color-stop-list>\)
+shape-specifier ::= <ending-shape> <size> at <position>
+ending-shape ::= circle|ellipse
+
+
+
+conic-gradient ::= conic-gradient\(<origin-specifier>, <color-stop-list-angular>\)
+origin-specifier ::= [from <angle>] [at <position>]
+color-stop-list ::= <color-stop-angle>{, <color-stop-angle>}
+color-stop ::= [<color>] [<angle>] [<angle>]
+
+When specifying color stops, if you don't specify a color it will use the middle between the preceeding and succeeding colors
+When specifying color stops, if you don't specify a <length-percentage>/<angle> it will use the middle between the preceeding and succeeding stops.
+Specifying two <length-percentage>/<angle> on a single color stop will make the color stay the same inbetween those two stops.
+
+##### <size>
+
+size ::= <length-percentage>|size-keyword
+size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
+closest-side	The gradient's ending shape meets the side of the box closest to its center (for circles) or meets both the vertical and horizontal sides closest to the center (for ellipses).
+closest-corner	The gradient's ending shape is sized so that it exactly meets the closest corner of the box from its center.
+farthest-side	Similar to closest-side, except the ending shape is sized to meet the side of the box farthest from its center (or vertical and horizontal sides).
+farthest-corner	The default value, the gradient's ending shape is sized so that it exactly meets the farthest corner of the box from its center.
+
+##### <basic-shape>
+
+basic-shape ::= <inset>|<circle>|<ellipse>|<polygon>|<path>
+inset ::= inset\{<length-percentage-edges>[ round <border-radius>]\}
+circle ::= circle\(<size>[at <position>]\)
+
 ##### color
 
 All css color keywords are case-insensitive.
@@ -607,6 +750,10 @@ turn  Represents an angle in a number of turns. One full circle is 1turn
 
 // <integer>, <number>, <percentage> defined elsewhere
 
+geometry-box ::= margin-box|border-box|padding-box|content-box
+clipping-box ::= border-box|padding-box|content-box|text
+box-sizing-box ::= border-box|content-box
+
 ##### length
 
 <length> consists of a <number> followed by a <length-unit>.
@@ -624,6 +771,16 @@ When not equal to auto, in general the max-content size is the size a box could 
 <flex> consists of a <number> followed by the unit fr.
 the fr unit represents a fraction of the leftover space in the grid container. 
 flex-l-p-min-max-auto :: <flex>|<l-p-min-max-auto>
+
+length-units
+<code>vw</code>|1% of the width of the viewport*
+<code>vmin</code>|1% of viewport's* smaller dimension
+<code>vmax</code>|1% of viewport's* larger dimension
+<code>vh</code>|1% of the height of the viewport*
+<code>rem</code>|font-size of the root element
+<code>ex</code>|the height of a lowercase x of the current font (rarely used)
+<code>em</code>|the font-size of the element
+<code>ch</code>|width of the "0" (zero)
 
 ## at-rules
 
@@ -695,6 +852,8 @@ The only way CSS can style replaced elements is by controlling the positioning o
 The object-whatever properties target replaced elements.
 
 object-position takes a <position> value
+
+object-fit
 
 ## flow
 
@@ -815,6 +974,8 @@ if writing-mode is vertical-??, the text-orientation property controls the rotat
 mixed|rotate vertical scripts (e.g. japanese), but not non-vertical scripts (e.g. latin letters)
 upright|rotate all scripts
 sideways|don't rotate any scripts (not well supported atm)
+
+Margin collapsing is the phenomenon where vertical margins of adjacent block-level elements merge to the longest common distance.
 
 ### fragmented flow
 
