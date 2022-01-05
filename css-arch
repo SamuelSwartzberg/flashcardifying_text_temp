@@ -191,7 +191,75 @@ width and height and corresponding min/max values take the following values: <le
 ##### flexbox & grid
 
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
-The thing that has display:flex/inline-flex/grid/inline-grid is called flex/grid container.
+A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) <dfn>grid lines</dfn> that intersect to define n <dfn>grid cells</dfn> 
+In a grid layout, multiple adjacent cells (in CSS, forming a rectangle) are called a grid area.
+In a grid layout, the area between two adjacent grid lines is called a grid track.
+
+In CSS, there are two kinds of ways to specify things for the grid, using the explicit or using the implicit grid.
+Many grid properties change the explicit grid, grid-auto-* change the implicit grid.
+
+###### box alignment properties
+
+The box alignment properties in CSS are a set of 6 properties that control alignment of boxes within other boxes. 
+The box alignment properties can be described along two metrics, which axis they apply to, and whose position they control.
+All six box alignment properties 
+Of the six box alignment properties, justify-self and justify-items have no effect in flexbox.
+Theoretically, all box alignment properties besides align-self and align-items should also work to position block containers, but this is unimplemented.
+
+justify-* adjusts things in the inline base direction (ltr in the default setup) (unless flexbox)
+align-* adjusts things in the block flow direction (top to bottom in the default setup) (unless flexbox)
+
+For flexbox, what justify-* and align-* align relative to are the main axis/cross axis, respectively.
+
+*-content adjusts foo's content within foo. https://drafts.csswg.org/css-align/images/content-example.svg
+*-self adjusts foo within foo's parent. https://drafts.csswg.org/css-align/images/self-example.svg
+*-items adjusts all of foo's children within their box. https://drafts.csswg.org/css-align/images/items-example.svg
+
+The alignment subject is the thing being aligned by the property:
+the alignment subject  for *-self is the margin box of foo.
+the alignment subject for *-content is defined by its layout mode/formatting context.
+
+the alignment container is the thing within which the alignment subject is a ligned with.
+the alignment container is generally the containing block container box.
+
+the box alignment properties take three types of keywords: positional alignment, baselinge alginement, distributed alignment
+type of keyword|function
+positional alignment|alignment to absolute position within alignment container
+baseline alignment|alignment as relationship between the baselines of multiple alignment subjects
+distributed alignment|alignment as distribution of space among/between alignment subjects
+
+positional-alignment keywords may be the simple center, start, and end, flex-start/flex-end, self-start/self-end, or left/right.
+flex-start and flex-end behave like start/end.
+the difference between start/end and left/right is that the former respect the inline base direction and the block flow direction, while the latter is always left/right no matter what.
+The start and end keywords use the inline base direction of the alignment container, the self-start and self-end keywords use the inline base direction of the alignment subject.
+
+
+baseline-alignment-keyword ::= [first|last] baseline
+specifying only baseline as a  baseline-alignment-keyword computes to first baseline
+
+A baseline-sharing group is composed of boxes that participate in baseline alignment together. 
+Boxes in a baseline-sharing group are aligned to each other using their alignment baselines. 
+A baseline set is a set of baselines, generally only one as long as you are not mixing writing systems.
+Each line has a baseline set.
+Each box potentially has a first/last baseline set which is the baseline set of the first/last line of box.
+The alignment baseline is a baseline in its baseline set, generally the dominant baseline (within a shared alignment context).
+Boxes have a <dfn>shared alignment context </dfn> when they are either (no mixing and matching) table cells, grid items and flex items of the same inline base axis (though not direction), or between grid items of the same block flow axis (though not direction)
+A baseline-sharing group where they share an alignment context, as long as they have compatible baseline alignment preferences.
+Two boxes have compatible baseline alignment preferences if they have the same block flow direction and the same baseline alignment preferences or opposite block flow direction and opposite baseline alignment preferences.
+The first and last values give a box a baseline alignment preference: either “first” or “last”, respectively.
+
+distributed-alignment-keyword ::= space-between|space-around|space-evenly|stretch
+space-between|space only between elements, no space at borders|[xxx      yy      zzzz]
+space-around|space on every side, space at borders is half size|[  xxx    yy    zzzz  ]
+space-evenly|space on every side, every space is the same size|[   xxx   yy   zzzz   ]
+stretch|no space, size is increased equally|[xxxxxxxyyyyyyyzzzzzzz]
+
+###### flexbox axes
+
+For flexbox, if flex-direction is row or row-reverse, the main axis corresponds to the inline base direction, and the cross axis corresponds to to the block flow direction.
+For flexbox, if flex-direction is column or column-reverse, the main axis corresponds to the block flow direction, and the cross axis corresponds to to the inline base direction.
+
+###### gaps
 
 ##### Pointer-events
 
@@ -485,8 +553,8 @@ To create the box tree, CSS first gets the computed value for each CSS property 
 Typically, CSS generates one box per element, the principal box.
 CSS may generate more than one box for an element, or none at all.
 For example, display: list-item generates a principal block box and a child marker box.
-Boxes are often referred to by their display type—e.g. a box generated by an element with display: block is called a “block box” or just a “block”.
-Ergo, a block is just a box of an element with display: block.
+A block box is a block-level box that is also a block container.
+A block may be short for block-level box, block container box, or both combined (ergo a block box in that case)
 A box is assigned the same styles as its generating element, unless otherwise indicated.
 In constructing the box tree, boxes generated by an element are descendants of the principal box of any ancestor elements.
 In the general case, the direct parent box of an element’s principal box is the principal box of its parent element; however, there are some exceptions.
@@ -527,11 +595,18 @@ ruby|ruby formatting context
 grid|grid formatting context
 flex|flex formatting context
 
+I think layout mode is a rough synonym for formatting context, but can't find a source either way
+
 there is such a thing as a multi-column formatting context, but it is not established by a <display-inside> value, 
 instead any element with with column-width or colum-count not as auto establishes a multi-column container.
 Any fragmentainer created by the multicolumn fragmentation context is called a column box
 
 Elements establishing an x formatting context (except perhaps block formatting context) are called an x container. 
+Ergo the thing that has display:flex/inline-flex/grid/inline-grid is called flex/grid container.
+A block container either contains only inline-level or only block-level boxes.
+A block container containing only inline-level boxes creates an inline formatting context
+A block container containing only inline elements and thus creating an inline formatting context also generates a root inline box to wrap all its inline content.
+A block container must establish a block formatting context if its parent formatting context is not a block formatting context.
 For grid and flex, children of the grid/flex container are called grid/flex items.
 
 If only the <display-inside> value is set, the <display-outside> value will default to block.
@@ -572,15 +647,18 @@ block-level elements can have their height and width set manually, while inline-
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
 <img src="sm_inline_margins.png">
 Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
-inline-level elements and text nodes are actually handled by the browser via line boxes.
-the browser will fill a line box in the inline base direction with inline-level elements or text until it is full
-Once a line box is full, the browser will add a second line box, etc.
+inline-level elements and text nodes are handled via an inline formatting context using line boxes.
+Whenever the browser encounters inline elements wiwthin a block container, it creates a new root inline box which establishes an inline formatting context.
+CSS fragments inline-level elements into a stack of fragmentainers called line boxes, which are inserted into the root inline box.
+the browser will fill a line box in the inline base direction with inline-level elements or text until it is full.
+Once a line box is full, the browser will create a second line box, etc.
 A line box is as tall as its tallest content.
-If the browser encounters a block-level element while creating line boxes, it stops the line box, puts the block-level element on a line of itself, and then creates a new line box if there's more inline-level elements/text to be handled.
+If the browser encounters a block-level element while creating line boxes, it stops the line box, closes the root inline box and thus the inline formatting context, puts the block-level element on a line of itself, and then creates a new root inline box with new line boxes etc. if there's more inline-level elements/text to be handled.
 line-height sets the minimum height of a line box.
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 <img src="sm_line_height_overflow.png">
 vertical-align is relative to the line box for some properties, and to the font for others.
+The dominant baseline is the one that is used to align inline text, and may be automatically determined or manually specified with the as-yet unimplemented dominant-baseline
 
 if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
 mixed|rotate vertical scripts (e.g. japanese), but not non-vertical scripts (e.g. latin letters)
