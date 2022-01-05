@@ -186,7 +186,7 @@ The caret-color CSS property sets the color of the insertion caret, the visible 
 
 width and height each have corresponding min- and max- properties
 power of width and height properties: min- > max- > ø
-width and height and corresponding min/max values take the following values: <length-percentage>|auto|min-content|max-content|fit-content(<length-percentage>)
+width and height and corresponding min/max values take the following values: <lpminmaxauto>|fit-content(<length-percentage>)
 
 ##### flexbox & grid
 
@@ -194,9 +194,6 @@ Flex or grid containers are declared by setting display to flex/inline-flex or g
 A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) <dfn>grid lines</dfn> that intersect to define n <dfn>grid cells</dfn> 
 In a grid layout, multiple adjacent cells (in CSS, forming a rectangle) are called a grid area.
 In a grid layout, the area between two adjacent grid lines is called a grid track.
-
-In CSS, there are two kinds of ways to specify things for the grid, using the explicit or using the implicit grid.
-Many grid properties change the explicit grid, grid-auto-* change the implicit grid.
 
 ###### box alignment properties
 
@@ -208,6 +205,7 @@ Theoretically, all box alignment properties besides align-self and align-items s
 
 justify-* adjusts things in the inline base direction (ltr in the default setup) (unless flexbox)
 align-* adjusts things in the block flow direction (top to bottom in the default setup) (unless flexbox)
+place-* is a shorthand for align-* justify*, if only one value is specified, it generally applies to both.
 
 For flexbox, what justify-* and align-* align relative to are the main axis/cross axis, respectively.
 
@@ -260,6 +258,92 @@ For flexbox, if flex-direction is row or row-reverse, the main axis corresponds 
 For flexbox, if flex-direction is column or column-reverse, the main axis corresponds to the block flow direction, and the cross axis corresponds to to the inline base direction.
 
 ###### gaps
+
+the gap, row-gap and column-gap specifiy gutters between items in a flex/multi-column/grid container.
+gap is a shorthand for row-gap and column-gap, if only one value is specified, it sets them to the same value.
+the three gap properties take a <length-percentage>
+For multi-column containers, row-gap currently does nothing.
+for flex containers, column-gap specifies minimum spacing between flex items, and row-gap specifies minimum spacing between flex lines if flex-direction is row or row-reverse, otherwise what column-gap and row-gap do is reversed.
+For the gap, row-gap and column-gap there exist the now archaic grid-* aliases.
+
+###### grid
+
+Fundamentally, the grid consists of two tasks: defining a grid & its sizes, and placing items within that grid.
+
+####### defining and sizing a grid
+
+In CSS, there are two kinds of ways to define the grid and its sizes, using the explicit or using the implicit grid.
+grid-auto*|implicit grid
+grid-template*|explicit grid
+
+there are four grid-template properties, grid-template-columns & -rows, grid-template-areas as well as the shorthand grid-template.
+there are three grid-auto properties, grid-auto-column & -rows and grid-flow
+
+grid-template-columns & -rows define how many columns/rows of which size the explicit grid wil contain.
+grid-auto-columns & -rows define what size columns/rows the auto placement algorithm will add.
+grid-template-columns & rows take the same values, which i will call <grid-template-values>
+
+grid-template-rc-values ::= {[<line-names> ](<flex-l-p-min-max-auto-mm>|<repeat>)}[ <line-names>]
+grid-auto-values ::= <flex-l-p-min-max-auto-mm> {<flex-l-p-min-max-auto-mm>}
+
+minmax ::= minmax\(<l-p-min-max-auto>|<flex-l-p-min-max-auto>\)
+The minmax() CSS function defines a size range greater than or equal to min and less than or equal to max. It is used with CSS Grids.
+l-p-mm ::= <length-percentage>|<minmax>
+flex-l-p-min-max-auto-mm ::= <flex-l-p-min-max-auto>|<minmax>
+line-names-and-track-size ::= [<line-names> ]<flex-l-p-min-max-auto-mm>
+
+the repeat() function repeats the pattern specified for the amount of times specified, or until something is full.
+the auto-* keywords for repeat creates rows until creating more would overflow.
+the auto-* keywords for repeat treat the track sizes of tracks that can shrink or grow as their maximum size, unless that maximum size is infinite/indefinite.
+the difference between the auto-fill and auto-fit keywords is that auto-fit will collapse any empty repeated tracks that still exist after grid-items re placed, while auto-fill will not.
+
+Using grid-template properties, you can assign line names to grid lines, to be used later for positioning.
+If the same name is used for multiple grid lines, they will be numbered starting at the second one.
+Grid lines are numbered staring at 1
+
+repeat ::= repeat\((<integer>|<auto-keyword>), {<line-names-and-track-size>}[ <line-names>]\)
+auto-keyword ::= auto-fill|auto-fit # my own name
+
+line-names ::= [<custom-ident>{ <custom-ident>}]
+
+grid-template-area manually created named grid areas made up of the specified cells.
+Within grid-template-areas . refers to an empty grid cell
+
+grid-template-area-values ::= <grid-string>{<grid-string>}
+grid-string ::= "<cell-specifier>{ { }<cell-specifier>}"
+cell-specifier ::= <string>|.{.}
+
+grid-template-values ::= <grid-template-row-columns>|<grid-template-row-coolumns-areas>
+grid-template-row-columns ::= <grid-template-rc-values> / <grid-template-rc-values>
+grid-template-row-coolumns-areas ::= {<grid-string> <flex-l-p-min-max-auto-mm>} / <grid-template-rc-values>
+
+grid-auto-flow-values ::= [row | column] [dense]
+grid-auto-flow: row makes it add auto-positioned elements to rows, adding new rows as necessary (and respectively for grid-auto-flow: column)
+The dense keyword for grid-auto-flow makes it use the dense algorithm, otherwise a sparse algorithm is used
+
+dense algorithm|attempt to fill holes earlier in the grid
+sparse algorithm|never backtrack to fill holes
+
+specifying grid-lines with -start/-end that enclose a rectangle creates the relevant grid-area automatically # TODO check this
+specifying grid-areas creates the relevant grid lines with -start/-end automatically # TODO check this
+
+the grid css property is a shorthand for grid-template-* and grid-auto-*, 6/7 properties in total
+
+####### placing items
+
+grid areas and grid lines
+grid-area allows placing an item at a grid-area created manually or automatically, taking up that space
+grid-area dots
+
+grid-column/row-start/end take the same set of values.
+grid-column/row-start/end specify the edges of an items grid area
+Most basically, grid-column/row-start/end either position using an integer, or using a grid line name.
+specifying an integer for grid-column/row-start/end positions it at that number gridline.
+specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start).
+specifying an custom-ident while also specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start), counting only gri lines with the custom-ident
+specifying a custom-ident for grid-column/row-start/end positions it at <custom-ident>-start(if start)/-end(if end)
+
+
 
 ##### Pointer-events
 
@@ -423,6 +507,23 @@ The syntax of CSS functional notation is: <name>\([<argument> {(,| ) <argument>}
 
 url()
 
+The calc() CSS function creates a math context, i.e. allows calculation as one would expect. 
+min(), max() and clamp() also creates math contexts.
+calc-sum ::= <calc-product>{ (+|-) <calc-product>}
+calc-product ::= <calc-value>{ * <calc-value>| / <number>}
+calc-value ::= <mathable>|\(<calc-sum>\)
++ and - operators must be surrounded by whitespace within CSS calc
+calc ::= calc(<calc-sum>)
+
+The min() CSS function evaluates to the smallest (most negative) value of a specified list.
+The max() CSS function evaluates to the largest (most positive) value of a specified list.
+list-of-calc-sums ::= <calc-sum>{, <calc-sum>}
+min ::= min(<list-of-calc-sums>)
+max ::= max(<list-of-calc-sums>)
+
+The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. 
+clamp ::= clamp(<list-of-calc-sums>, <list-of-calc-sums>, <list-of-calc-sums>)
+
 ##### offsets
 
 generally from the top left corner
@@ -461,18 +562,42 @@ in css, the alpha channel takes a <number-or-percentage-0-1>
 the <url> datatype is a css function
 url ::= url(<string>) # where string must be a valid url or path or the ID of a SVG shape
 
+dimension ::= <length>|<time>|<frequency>|<resolution>|<angle>
+
+CSS dimensions are always a number followed by a unit with no space inbetween
+
+mathable (not an official name) ::= <number>|<dimension>|<percentage> 
+resolution ::= <number><resolution-unit>
+resolution-unit ::= dpi|dpcm|dppx|x
+x is an alias for dppx
+frequency ::= <number><frequency-unit>
+frequency-unit ::= Hz|kHz
+angle ::= <number><angle-unit>
+angle-unit ::= deg|grad|rad|turn
+time ::= <number><time-unit>
+time-unit :: s|ms
+
+turn  Represents an angle in a number of turns. One full circle is 1turn
+
+// <integer>, <number>, <percentage> defined elsewhere
+
 ##### length
 
 <length> consists of a <number> followed by a <length-unit>.
-
-
-
 The <length-percentage> CSS data type represents a value that can be either a <length> or a <percentage>.
 
+lpminmaxauto ::= <length-percentage>|min-content|max-content|auto # this is a term I made up
+terms like auto, min-content and max-content depend on the current formatting context/layout mode
+an element with width/height = auto has a width/height of its automatic size
+an element with width/height = min-content has a width/height of its min-content size
+an element with width/height = max-content has a width/height of its max-content size
+An elements lengths min-content and max-content size are equivalent to its automatic size unless otherwise specified.
+When not equal to auto, in general the min-content size is the smallest size that doesn't lead to overflow which could be avoided by choosing a larger size
+When not equal to auto, in general the max-content size is the size a box could assume when given infinte space, while avoiding overflow.
 
-
-
-
+<flex> consists of a <number> followed by the unit fr.
+the fr unit represents a fraction of the leftover space in the grid container. 
+flex-l-p-min-max-auto :: <flex>|<l-p-min-max-auto>
 
 ## at-rules
 
@@ -752,3 +877,9 @@ Syntax @media &lt;media-query&gt; &lt;block&gt;
 }
 
 A @supports at-rule is a conditional which takes a feature query
+
+## misc
+
+In typography, a column is one or more vertical blocks of content positioned on a page, separated by gutters.
+Gutters are whitespace between two rows or columns.
+To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
