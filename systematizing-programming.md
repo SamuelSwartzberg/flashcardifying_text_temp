@@ -2339,6 +2339,8 @@ An interpreter translates the code into another language (most commonly machine 
 
 <h3>Transpiling</h3>
 
+A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
+While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
 Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
 
 <h3>Language CLI</h3>
