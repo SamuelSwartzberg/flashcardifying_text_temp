@@ -211,14 +211,14 @@ transition declarations > Important user agent declarations > Important user dec
 
 #### Specificity
 
-Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
-Specificity is beaten by source type.
-Specificity is tiered. 
+Specificity is the means by which browsers decide which CSS property values within a single source type are the most relevant to an element, based on selectors.
+Specificity is tiered, with lower tiers not being able to beat higher tiers.
 Each specifier on a tier gains you one point on the specificity scale.
 
 3rd lowest|id selectors
 2nd lowest|class selectors|attribute selectors|pseudo-class selectors
 lowest|element selectors|pseudo-element selectors
+no effect on specificity|:not(), universal selector
 
 ## Declarations
 
@@ -504,6 +504,11 @@ auto|language-dependent auto-hyphenation (may not work depending on platform or 
 text-indent takes a <length-percentage> which specifies how much to indent the first line box.
 tab-size accepts a <length> to specify the width of the tab character, or an <integer> to specify its width in multiples of the space character
 
+text-align aligns elements within line boxes along the inline base direction.
+vertical-align algins elements within line boxes along the block flow direction.
+vertical-align is relative to the line box for some properties, and to the font for others.
+
+
 ###### font
 
 font-family sets the font family = typeface of the text.
@@ -517,6 +522,8 @@ The font shorthand allows setting properties starting with font-, as well as lin
 
 font-variant is a shorthand property for a few low-level font features, which all start with font-variant-
 font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-capital letters, font-variant-caps: all-small-caps/all-petite-caps forces small caps for any letters, capital or not.
+
+It may seem that certain html form elements can't have their font styled {{c1::because by default, these elements don't inherit font properties}}
 
 ##### Scrolling
 
@@ -597,6 +604,7 @@ Outlines can be moved away from its box via outline-offset: <length>
 
 Line is not really an official css term.
 Lines: border, column-rule, outline
+text-decoration functions similar to 'lines', in that it is a shorhand for -width, -style, and -color, but 1) it's called -thickness, not -width; 2) -style only supports a subset of keywords; 3) included in the shorthand is a fourt property, text-decoration-line, which takes n of the keywords underline||overline||line-through.
 
 Lines have following shorthand and respective subproperties:
 foo: foo-width || foo-style || foo-color
@@ -780,6 +788,21 @@ ease-in|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
 ease|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
 ease-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
 
+##### tables
+
+The empty-cells CSS property sets whether borders and backgrounds appear around <table> cells that have no visible content.
+The border-collapse CSS property sets whether cells inside a <table> have shared or separate borders.
+The caption-side CSS property puts the content of a table's <caption> on the specified side. 
+The table-layout CSS property sets the algorithm used to lay out <table> cells, rows, and columns.
+auto
+By default, most browsers use an automatic table layout algorithm. The widths of the table and its cells are adjusted to fit the content.
+
+fixed
+Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. Cells in subsequent rows do not affect column widths.
+border-spacing is the equivalent of gap, but for tables. 
+border-spacing applies only when border-collapse is separate.
+visibility: collapse: For <table> rows, columns, column groups, and row groups, the row(s) or column(s) are hidden and the space they would have occupied is removed (as if display: none were applied to the column/row of the table). However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present. 
+
 ##### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
@@ -792,6 +815,22 @@ scroll-behavior: smooth makes scrolling a smooth animation instead of an instant
 
 appearance is a property to change the native styling of an element, or to remove it.
 appearance is often used prefixed, especially to target one of the many non-standard values for this property
+
+user-select controls whether/how the user can select text.
+user-select-values ::= none|auto|text|all
+
+resize controls whether/how an element is resizable, which generally only works on devices with pointing devices.
+resize-values ::= none|both|horizontal|vertical
+
+opacity: <number-or-percentage-0-1>
+
+overflow is a shorthand for overflow-x and overflow-y
+overflow-specifier-values ::= visible|hidden|clip|scroll|auto
+
+mix-blend-mode and background-blend-mode both take a <blend-mode>
+{{c4::Background-blend-mode}} regulates blending between ({{c3::a}}) {{c1::background-image}}({{c3::s}}) as well as the {{c2::background-color}}.
+{{c2::mix-blend-mode}} regulates blending between {{c1::the}} {{c1::element's}} {{c3::content}}, {{c1::the}} {{c1::element's}} {{c4::parents content}}, and {{c1::the}} {{c1::element's}} {{c5::background}}.
+css <blend-modes> are the usual blend modes
 
 #### Values
 
@@ -818,6 +857,9 @@ max ::= max(<list-of-calc-sums>)
 
 The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. 
 clamp ::= clamp(<list-of-calc-sums>, <list-of-calc-sums>, <list-of-calc-sums>)
+
+The attr() function takes the name of an attribute (of the HTML element) and resolves to its value as a string.
+Currently, attr() can only usefully be used as a value for content.
 
 ##### variables
 
@@ -1035,6 +1077,10 @@ Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \
 from is an alias of 0% and to is an alias of 100%
 Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
 
+if you mark something with !important in a keyframe,&nbsp;{{c1::That value will be ignored}} (since !important can't be used in keyframes)
+if you don't provide a from/0% andor a to/100% it will {{c1::Animate to/from the elements existing styles}}
+If you specify multiple @keyframes with the same name, {{c1::The last one encountered will be used}}
+
 #### @page
 
 @page syntax: @page <page-selector-list>\{<page-body>\}
@@ -1115,7 +1161,7 @@ In the general case, the direct parent box of an element’s principal box is th
 An anonymous box is one not associated with any element.
 Unlike element-generated boxes, whose styles inherit strictly through the element tree, anonymous boxes (which only exist in the box tree) inherit through their box tree parentage.
 CSS outputs its output onto a canvas, which may be your screen, a piece of paper, an audio stream or something else.
-
+Content that extends outside of a boxes edges or would do so is known as overflow
 
 ### display
 
@@ -1213,7 +1259,6 @@ line-height sets the minimum height of a line box.
 line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 <img src="sm_line_height_overflow.png">
-vertical-align is relative to the line box for some properties, and to the font for others.
 The dominant baseline is the one that is used to align inline text, and may be automatically determined or manually specified with the as-yet unimplemented dominant-baseline
 
 if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
@@ -1340,3 +1385,148 @@ To clamp a value is to specify an upper and a lower bound, and keep the number w
 
 ### Accessibility
 
+### system UI themes
+
+the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted spec for {{c3::a style object}} that stores things for {{c4::design systems}}, especially {{c5::scales}}
+at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} - 
+scales are {{c3::arrays}} or {{c3::objects}} of {{c4::predefined sets of values}}, for things such as {{c5::font sizes}}, {{c5::colors}}, etc.
+According to the {{c1::System UI Theme Specification}}, the {{c4::CSS properties}} that accept {{c2::only a small, finite number}} of valid CSS values {{c3::should not be included as a scale object}}.
+According to the {{c1::System UI Theme Specification}}, a {{c2::key}} defining a {{c2::scale}} should be called the {{c3::same thing as the css property}}, except {{c4::plural}} (except for the weirdly-named <code>{{c4::space}}</code>) and {{c5::camelCase}}, unless there are {{c6::multiple css properties it might be used for}}
+<pre><code>// example fontSizes scale as an array
+fontSizes: [
+  12, 14, 16, 20, 24, 32 
+]
+// example colors object
+colors: {
+  blue: '#07c',
+  green: '#0fa',
+}
+// example nested colors object
+colors: {
+  blue: '#07c',
+  blues: [
+    '#004170',
+    '#006fbe',
+    '#2d8fd5',
+    '#5aa7de',
+  ]
+}</code></pre>
+<table>
+  <thead>
+    <tr>
+      <th>scales</th>
+      <th>CSS Properties</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>space</code></td>
+      <td>
+        <code>margin</code>, <code>margin-top</code>, <code>margin-right</code>,
+        <code>margin-bottom</code>, <code>margin-left</code>,
+        <code>padding</code>, <code>padding-top</code>,
+        <code>padding-right</code>, <code>padding-bottom</code>,
+        <code>padding-left</code>, <code>grid-gap</code>,
+        <code>grid-column-gap</code>, <code>grid-row-gap</code>
+      </td>
+    </tr>
+    <tr>
+      <td><code>fontSizes</code></td>
+      <td><code>font-size</code></td>
+    </tr>
+    <tr>
+      <td><code>colors</code></td>
+      <td>
+        <code>color</code>, <code>background-color</code>,
+        <code>border-color</code>
+      </td>
+    </tr>
+    <tr>
+      <td><code>fonts</code></td>
+      <td><code>font-family</code></td>
+    </tr>
+    <tr>
+      <td><code>fontWeights</code></td>
+      <td><code>font-weight</code></td>
+    </tr>
+    <tr>
+      <td><code>lineHeights</code></td>
+      <td><code>line-height</code></td>
+    </tr>
+    <tr>
+      <td><code>letterSpacings</code></td>
+      <td><code>letter-spacing</code></td>
+    </tr>
+    <tr>
+      <td><code>sizes</code></td>
+      <td>
+        <code>width</code>, <code>height</code>, <code>min-width</code>,
+        <code>max-width</code>, <code>min-height</code>, <code>max-height</code>
+      </td>
+    </tr>
+    <tr>
+      <td><code>borders</code></td>
+      <td>
+        <code>border</code>, <code>border-top</code>, <code>border-right</code>,
+        <code>border-bottom</code>, <code>border-left</code>
+      </td>
+    </tr>
+    <tr>
+      <td><code>borderWidths</code></td>
+      <td><code>border-width</code></td>
+    </tr>
+    <tr>
+      <td><code>borderStyles</code></td>
+      <td><code>border-style</code></td>
+    </tr>
+    <tr>
+      <td><code>radii</code></td>
+      <td><code>border-radius</code></td>
+    </tr>
+    <tr>
+      <td><code>shadows</code></td>
+      <td><code>box-shadow</code>, <code>text-shadow</code></td>
+    </tr>
+    <tr>
+      <td><code>zIndices</code></td>
+      <td><code>z-index</code></td>
+    </tr>
+    <tr>
+      <td><code>transitions</code></td>
+      <td><code>transition</code></td>
+    </tr>
+  </tbody>
+</table>
+
+### CSS processing
+
+a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
+{{c3::Sass}} is a {{c4::CSS preprocessor}} that works with the two syntaxes {{c1::Sass (the syntax)}} and {{c2::SCSS}}
+Sass syntax that is indented rather than curly-braced   Sass
+Sass syntax that is a CSS superset   SCSS (Sassy CSS)
+PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by JS plugins.
+Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
+
+### CSS naming schemes
+
+# not css
+
+A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly&nbsp; visible with {{c2::no styling/browser default styling}}
+
+## blending
+
+Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
+Blend modes typically use values from 0 to 1 for the channels for the math.
+When describing blend modes, t denotes the top layer and b the bottom layer
+In general, when channel is specified, assume it is done to each channel.
+normal|use alpha compositing
+multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
+screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
+
+## placeholder images
+
+Placeholder images using kittens   placekitten.com
+Placeholder images using boring boxes   via.placeholder.com
+
+via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
+placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
