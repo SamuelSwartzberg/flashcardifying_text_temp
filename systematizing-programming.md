@@ -2349,6 +2349,7 @@ lua|lua
 node|JS
 python, python3|python
 perl|perl
+sass|sass/scss
 
 -c STRING|read program from string
 -e STRING|read program from string|perl

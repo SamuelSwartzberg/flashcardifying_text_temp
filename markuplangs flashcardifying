@@ -378,5 +378,5 @@ email|optimized for email entry, contains @ prominently|type="email"
 url|optimized for url entry|type="url"
 
 autofocus
-autocapitalize
+autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
