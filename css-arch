@@ -85,6 +85,7 @@ progress|indeterminate when no value attribute is present.
 :placeholder-shown selects an element whose placeholder is being shown (NOT the placeholder itself)
 
 :target|element has the same id as the fragment in the url
+:fullscreen|fullscreen element
 
 ###### input pseudo-classes
 
@@ -142,7 +143,8 @@ A pseudo-element is begun by two colons
 ::after, ::before
 In CSS, ::before/::after creates a pseudo-element that is the first/last child of the selected element. 
 content can only be usefully be used on ::after and ::before
-content syntax: normal|none|({<content-specifier>} / <alt-text>)
+content-values ::= normal|none|({<content-specifier>} / <alt-text>)
+alt-text ::= <string>|<counter>
 the content-specifier can be a bunch of different things
 
 ::placeholder|matches placeholder text
@@ -164,10 +166,48 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 
 #### The Grouping selector
 
+### value processing
 
-### 'Power'
+Once a user agent has parsed a document and constructed a document tree, it must assign, to every element in the flat tree, and correspondingly to every box in the formatting structure, a value to every property that applies to the target media type.
 
-#### Source type
+The final value of a CSS property for a given element or box is the result of a multi-step calculation:
+
+First, all the declared values applied to an element are collected, for each property on each element. There may be zero or many declared values applied to the element.
+Each property declaration applied to an element contributes a declared value for that property associated with the element.
+Cascading yields the cascaded value. There is at most one cascaded value per property per element.
+Defaulting yields the specified value. Every element has exactly one specified value per property.
+Resolving value dependencies yields the computed value. Every element has exactly one computed value per property.
+Formatting the document yields the used value. An element only has a used value for a given property if that property applies to the element.
+Finally, the used value is transformed to the actual value based on constraints of the display environment. As with the used value, there may or may not be an actual value for a given property on an element.
+
+### Cascading
+
+The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their precedence as determined below, and outputs a single cascaded value.
+
+The cascaded value is determined by their precedence, which is specified by the cascade sort order:
+origin & importance > context > specificity > order of appearance in source document.
+
+#### Cascade origin
+
+The three possible cascade origins are user-agent, user, or author.
+author stylesheet|applied by the website author
+user stylesheet|applied by the user, e.g. via addons
+user-agent stylesheet|applied by the user-agent = browser
+In addition, there are two virtual cascade origins, transition declarations and animation declarations.
+the weakest style in an element higher in the cascade origin hierarchy beats the strongest style in an element lower in the cascade origin hierarchy
+normal declarations|author>user>user-agent
+important declarations|user-agent>user>author
+
+#### important
+
+A declaration is important if it has a !important annotation as defined by [css-syntax-3], i.e. if the last two (non-whitespace, non-comment) tokens in its value are the delimiter token ! followed by the identifier token important. All other declarations are normal (non-important).
+An important declaration takes precedence over a normal declaration.
+
+Ergo, for cascade origin plus important there is the following hierarchy:
+
+transition declarations > Important user agent declarations > Important user declarations > Important author declarations > Animation declarations > Normal author declarations > Normal user declarations > Normal user agent declarations
+
+#### context
 
 #### Specificity
 
@@ -193,41 +233,37 @@ some initial values are unintuitive, since we rarely see them, as they are typic
 On the root element, even inherited properties recieve their initial values if not otherwise specified.
 Keyword inherit/initial to force the inherited/initial value.
 unset: choose between inherit and initial based on if the thing is inherited or non-inherited
+The revert CSS keyword reverts the cascaded value of the property from its current value to the value the property would have had if no changes had been made by the current cascade origin to the current element.
+If used by a site's own styles (the author origin), revert rolls back the property's cascaded value to the user's custom style, if one exists; otherwise, it rolls the style back to the user agent's default style.
+If used in a user's custom stylesheet, or if the style was applied by the user (the user origin), revert rolls back the cascaded value to the user agent's default style.
+If used within the user agent's default styles, this keyword is functionally equivalent to unset. 
+The revert keyword is mainly useful to revert to the user agents default style instead of the often-useless initial value.
+
+The all property takes one of initial|inherit|unset|revert to reset everything but direction and unicode-bidi
 
 #### css variables
 
 Declaration: --var-name: value;
 Accessing: var(--var-name)
 
+#### vendor prefixes
 
+vendor prefixes have the syntax -<vendorname>-<propertyname>
+webkit|any webkit-based (and thus also blink-based) browser besides edge
+moz|firefox
+o|pre-webkit opera
+ms|IE and edge
+
+vendor prefixes were designed to allow experimenting with experimental CSS features without having to worry about future changes to the standard creating breaking changes.
+The problem with vendor prefixes is that in fact, vendor-prefixed properties just got used in productio as well.
+As of ~2020, the trend is away from using vendor prefixes, and instead using user-controlled experimental flags.
 
 #### Props
 
-##### filters
-
-backdrop-filter applies a filter to the area behind an element.
-for backdrop-filter to apply, the element or its background must be at least partially transparent.
-backdrop-filter and filter take a <filter-function-list>
-filter-function-list ::= <filter-function>|<svg-filter>{ <filter-function>|<url>} # the URL is for a svg filter
-a <filter-function> is a <function> that applies a filter (i.e. changes the appearance of an image)
-filter-functions: 
-blur(): takes a blur-radius
-brightness(): <number-or-percentage-to-infinity>
-contrast(): <number-or-percentage-to-infinity>
-drop-shadow(): arguments are <code>offset-x offset-y [blur-radius] [color]</code>
-grayscale(): <number-or-percentage-0-1>
-hue-rotate(): takes an <angle> and rotates the hue by that angle
-invert(): <number-or-percentage-0-1>
-opacity(): <number-or-percentage-0-1>
-saturate(): <number-or-percentage-to-infinity>
-sepia(): <number-or-percentage-0-1>
-
-anywhere that takes a blur-radius generally takes a <length> which defines the standard deviation of the gaussian function
-
-There are a few places which accept a <number> or <percentage>. This is not an official CSS data type, but I will call this <number-or-percentage>.
-There are a few different sets of semantics for <number-or-percentage>
-<number-or-percentage-to-infinity>: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
-<number-or-percentage-0-1>: 0/0% is complete lack, 1/100% is complete application
+A shorthand property is a css property that allows setting multiple other properties at once.
+shorthand properties in css try to not force a specific order, where semantically possible.
+If a value is not set within a shorthand property, it is set to its initial value, overriding subvalues.
+Using inherit as a value of many within a shorthand property is invalid.
 
 ##### Cursor
 
@@ -250,7 +286,11 @@ width and height each have corresponding min- and max- properties
 power of width and height properties: min- > max- > ø
 width and height and corresponding min/max values take the following values: <lpminmaxauto>|fit-content(<length-percentage>)
 
-##### flexbox & grid
+What width and height size depends on the box-sizing property
+content-box|width and height size content-box
+border-box|width and height size border-box
+
+##### flexbox, grid and columns
 
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
 A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) <dfn>grid lines</dfn> that intersect to define n <dfn>grid cells</dfn> 
@@ -426,6 +466,19 @@ flex-basis specifies the initial size of a flex item along its main axis.
 
 By default flex items don't shrink below their minimum content size. To change this, set the item's min-width or min-height.
 
+###### columns
+
+The column-fill CSS property controls how an element's contents are balanced when broken into column fragmentainers (= column boxes)
+auto|fill column boxes sequentially in the inline base direction, until the column box is full
+balance|fill column boxes so that they have roughly the same height.
+
+columns is a shorthand for column-count and column-width.
+column-span: all transforms an element into a spanning element.
+A spanning element spans all columns.
+
+column-span specifies a maximum amount of columns
+column-width specifies a minimum width of columns
+
 ##### Pointer-events
 
 pointer-events: {{c1::none}} makes a thing completely ininteractable with a mouse.
@@ -437,10 +490,19 @@ the color keyword sets the color of the text and text decorations and accpets a 
 
 word-spacing sets the additional space between words beyond the space there by default. 
 word-spacing takes a <length-percentage>
+letter-spacing takes a <length> to add/subtract from the usual letter-spacing/tracking.
 
 the quotes property sets the quotes that the open-quotes and close-quotes of content will evaluate to.
 the quotes property is inherited and so doesn't have to be set on the thing with the content property
 quotes takes two strings, the opening and the closing quote, it may also take two more strings, which are for when there are nested.
+
+hyphens controls the behavior of hyphens.
+none|will not hyphenate, even if manually indicated via &shy;
+manual|only at places indicated via &shy;
+auto|language-dependent auto-hyphenation (may not work depending on platform or language)
+
+text-indent takes a <length-percentage> which specifies how much to indent the first line box.
+tab-size accepts a <length> to specify the width of the tab character, or an <integer> to specify its width in multiples of the space character
 
 ###### font
 
@@ -452,6 +514,9 @@ generic family names are guaranteed to resolve to an existing font family, and t
 It is good pracktice to quote font family names that contain whitespace, digits or punctuation characters.
 
 The font shorthand allows setting properties starting with font-, as well as line-height.1
+
+font-variant is a shorthand property for a few low-level font features, which all start with font-variant-
+font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-capital letters, font-variant-caps: all-small-caps/all-petite-caps forces small caps for any letters, capital or not.
 
 ##### Scrolling
 
@@ -473,9 +538,18 @@ round|As the allowed space increases in size, the repeated images will stretch (
 no-repeat|do not repeat
 background-color: <color>
 background-color is rendered behind background-image
+background-clip specifies where to clip the background, background-origin specifies from where the background should start, which may be the same, but often aren't
+background-clip: <b-p-c-box-text>
+background-origin: <b-p-c-box>
+background-image: <image>
 
-background-size poss vals
-background-origin
+background-size-values: contain|cover|auto|(<length-percentage> [<length-percentage>])
+background-size: contain/cover are similar in functionality to the object-fit values.
+background-size: auto behaves similarly to object-fit: none.
+giving background-size a length or percentage makes it exactly that wide if one value, or exactly that wide and high if two values.
+
+All background properties may take a CSL to specify multiple backgrounds.
+
 
 background-attachment specifies how the background interacts with scrolling (it has a bunch of keyword values that I can't remember)
 background-position takes a <position> value to position the background.
@@ -498,13 +572,13 @@ typically, any edge width is specified as a <length-percentage>
 ###### css box model
 
 <div class="onion-box">
-  <span>((c:1;s:all;::Margin))</span>
+  <span>((c:1;s:all;::Margin-box))</span>
   <div class="onion-box">
-    <span>((c:2;s:all;::Border))</span>
+    <span>((c:2;s:all;::Border-box))</span>
     <div class="onion-box">
-      <span>((c:3;s:all;::Padding))</span>
+      <span>((c:3;s:all;::Padding-box))</span>
       <div class="onion-box">
-        <span>((c:4;s:all;::Content))<br><br></span>
+        <span>((c:4;s:all;::Content-box))<br><br></span>
       </div>
     </div>
   </div>
@@ -512,15 +586,17 @@ typically, any edge width is specified as a <length-percentage>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 margin: auto can be used to center a thing horizontally, but not vertically
 
-###### Border
+###### Border & outline
 
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
+Notably, outline is similar to border in that it is composed of -width, -style, -color, but that in contrast to border, neither it itself nor its three subproperties are shorthands for the sides, nor are there individual properties for the sides - you either set the outline on all sides, or none at all.
+Outlines can be moved away from its box via outline-offset: <length>
 
 ##### lines
 
 Line is not really an official css term.
-Lines: border, column-rule
+Lines: border, column-rule, outline
 
 Lines have following shorthand and respective subproperties:
 foo: foo-width || foo-style || foo-color
@@ -553,6 +629,7 @@ things that take corners may also take two sets of corners specifiers, separated
 If a thing takes two sets of corner specifiers, the first apply in x direction and the second in y direction.
 
 Data types that specify corners are <border-radius>
+border-radius: <border-radius>
 
 ##### Custom Counting
 
@@ -564,8 +641,12 @@ counter-reset: <counter-name> [<value>]{,<counter-name> [<value>]}
 counter-increment: <counter-name> [<value>]{<counter-name> [<value>]}
 counter-increment: increments the counter by value (default 1) for each time it is encountered.
 counter-reset on descendants creates a new counter, instead of assigning to the original counter.
+counter-name ::= <custom-ident>
+counter ::= <counter()>|<counters()>
+counter() ::= counter\(<counter-name>[, <counter-style>]\)
+counters() ::= counters\(<counter-name>, <string> [, <counter-style>]\)
+counter-style ::= <list-style-type>|<@counter-style>
 The css functions counter() and counters() takes a necessary first argument of the name of the counter. 
-The css functions counter() and counters() take an optional final argument of <counter-style>, which takes values of the css types <list-style-type>, <@counter-style> (or the ill-defined symbols function).
 counters() differs from counter() in that it takes a middle argument of a string, and separates multiple instances of the counter with the given string.
 
 <pre><code>ol {
@@ -611,13 +692,106 @@ li::before {
   <li>item</li>          <!-- 2     -->
 </ol></code></pre>
 
+##### animations & transitions
+
+CSS transitions allow changing between two property values to be gradual.
+CSS animations allow animating between n property values arbitrarily complexly and potentially infinitely.
+
+CSS animations and transitions share the functionality of the properties *-delay, *-duration, *-timing-function.
+All properties related to CSS animations start animation-; all properties related to CSS transitions start transition-;
+Within the transition/animation shorthand, the first <time> is interpreted in as animation/transition-duration; the second as animation/transition-delay
+The four transition properties are the three also availabe for animations (transition-delay, -duration, -timing-function) plus transition-property.
+the transition property is a shorthand for the four transition properties.
+The 8 animation properties are the three also availabe for transitions (animation-delay, -duration, -timing-function) plus -direction, -fill-mode, -iteration-count, -name, -play-state.
+For the animation shorthand, it is common to place animation-name last, to avoid conflicts with other names.
+
+animation/transition-* accept a comma-separated list of values, where each value applies to a specific animation-name or transition-property 
+animation/transition-delay: CSL of <time>s to specify a delay before starting the animation. negative values will start that far into the animatin/transition
+animation/transition-duration: CSL of <time>s to specify how long the animation will take
+
+transition-property: CSL of <custom-ident>s (or all) to specify which properties to transitions
+
+animation-direction: CSL of normal|reverse|alternate|alternate-reverse:
+normal|f f f f f …
+reverse|b b b b b …
+alternate|f b f b f …
+alternate-reverse|b f b f b …
+
+animation-fill-mode controls if the animation will apply its beginning/end styles before/after/both/not at all
+animation-fill-mode gets its styles from the first/last keyframe encountered, which depends on animation-direction
+none|animation styles don't apply when not executing
+forwards|animation styles apply after animation is finished
+backwards|animation styles apply before animation is started (only applies if there is a animation-delay)
+both|animation styles apply before and after the animation
+
+animation-iteration-count: CSL of (<integer>|infinite)s to specify how many iterations the animation should play
+animation-name: CSL of <custom-ident>s which represent the names of @keyframes describing the animations to apply
+animation-play-state: CSL of (running|paused).
+
+###### timimg functions
+
+animation/transition-timing-function: CSL of <time>s to specify how long the animation will take
+
+easing-function ::= linear|<cubic-bezier-easing-function>|<step-easing-function>
+cubic-bezier-easing-function ::= <cubic-bezier-keyword>|<cubic-bezier-function>
+cubic-bezier-keyword ::= ease|ease-in|ease-out|ease-in-out
+cubic-bezier-function ::= cubic-bezier\(<number>, <number>, <number>, <number>\)
+step-easing-function ::= <step-keyword>|<step-function>
+step-keyword ::= step-start|step-end
+step-function ::= steps\(<integer>, <step-position>\)
+step-position ::= jump-start|jump-end|jump-none|jump-both|start|end
+
+The step keywords or function make the animation run in discrete steps, instead of continuously
+
+https://drafts.csswg.org/css-easing-1/step-easing-keyword-examples.svg
+
+step-start|only show the end state
+step-end|only show the start state
+
+https://drafts.csswg.org/css-easing-1/step-easing-func-examples.svg
+
+jump-start, start|first 'jump' happens at 0; last jump happens some time before end|ergo: 0 state will not be visible, 1 state will
+jump-end, end|first 'jump' happens at some time after 0; last jump happens at end|ergo: 0 state will be visible, 1 state will not
+jump-none|first 'jump' happens at some time after 0; last jump happens some time before end|ergo: 0 & 1 state will both be visible
+jump-both|first 'jump' happens at 0; last jump happens at 1|ergo: 0 & 1 state will both not be visible
+
+####### cubic-bezier
+
+Bezier curvers are frequently used for curves in computer graphics
+A bezier curve is constructed from two or more points.
+linear|2
+quadratic|3
+cubic|4
+To construct a bezier function, one connect the points until one has only a curve between two points left.
+To construct a linear bezier function, connect P0 and P1. You're done (it's a straight line).
+To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> from 0 to 1. This point describes the quadratic bezier curve.
+To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
+
+<img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
+
+The CSS cubic-beziers map the dependent variable (y) to change in property, and the independent variable (x) to change in time.
+For CSS, the x values of cubic-bezier must be between 0 and 1 (representing time), the y values are not limited in such a way
+For the CSS cubic beziers only two points matter, the other two are fixed at (0|0) and (1|1)
+For cubic-bezier(), the four parameters represent x1, y1; x2, y2
+
+linear|<img src="sm_Screenshot%202020-06-02%20at%2001.59.05.png">
+ease-in-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.45.png">
+ease-in|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
+ease|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
+ease-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
+
 ##### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
-clip-path-values ::= [<geometry-box>] [<basic-shape>]
+clip-path-values ::= [<m-b-p-c-box>] [<basic-shape>]
 THe shape-outside property sets a shape around which inline elements will flow.
-shape-outside ::= <geometry-box>||<basic-shape>||<image>
+shape-outside ::= <<m-b-p-c-box>||<basic-shape>||<image>
 if you use an image for shape-outside, it will compute it based on that images alpha channel.
+scroll-behavior only influences programmatic scrolling, i.e. not done by the user manually.
+scroll-behavior: smooth makes scrolling a smooth animation instead of an instant transition.
+
+appearance is a property to change the native styling of an element, or to remove it.
+appearance is often used prefixed, especially to target one of the many non-standard values for this property
 
 #### Values
 
@@ -645,9 +819,18 @@ max ::= max(<list-of-calc-sums>)
 The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. 
 clamp ::= clamp(<list-of-calc-sums>, <list-of-calc-sums>, <list-of-calc-sums>)
 
+##### variables
+
+custom properties are properties that start with -- and save their value, which then can be referred to with the var() function.
+custom properties have a scope of the variable they are declared on and all children, since they particpate in the cascade.
+The var() css function can be used instead of any part of a value of another property, and may even contain commas.
+var ::= var\(<custom-property-name>, <fallback-value>\)
+
 ##### offsets
 
 generally from the top left corner
+for <offset>, the first value is x and the second is y
+while offset is not a official datatype, I will define it as offset ::= <length> <length>
 
 ###### position
 
@@ -697,18 +880,21 @@ Specifying two <length-percentage>/<angle> on a single color stop will make the 
 
 ##### <size>
 
-size ::= <length-percentage>|size-keyword
+size ::= (<length-percentage>[ <length-percentage>])|size-keyword
 size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
 closest-side	The gradient's ending shape meets the side of the box closest to its center (for circles) or meets both the vertical and horizontal sides closest to the center (for ellipses).
 closest-corner	The gradient's ending shape is sized so that it exactly meets the closest corner of the box from its center.
 farthest-side	Similar to closest-side, except the ending shape is sized to meet the side of the box farthest from its center (or vertical and horizontal sides).
 farthest-corner	The default value, the gradient's ending shape is sized so that it exactly meets the farthest corner of the box from its center.
 
+For <size>, specifying two <length-percentages> applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a <size> for a circle may only recieve one <legnth-percentages>
+
 ##### <basic-shape>
 
 basic-shape ::= <inset>|<circle>|<ellipse>|<polygon>|<path>
 inset ::= inset\{<length-percentage-edges>[ round <border-radius>]\}
 circle ::= circle\(<size>[at <position>]\)
+ellipse ::= ellipse\(<size> [at <position>\)
 
 ##### color
 
@@ -750,9 +936,10 @@ turn  Represents an angle in a number of turns. One full circle is 1turn
 
 // <integer>, <number>, <percentage> defined elsewhere
 
-geometry-box ::= margin-box|border-box|padding-box|content-box
-clipping-box ::= border-box|padding-box|content-box|text
-box-sizing-box ::= border-box|content-box
+m-b-p-c-box ::= margin-box|border-box|padding-box|content-box
+b-p-c-box-text ::= border-box|padding-box|content-box|text
+b-p-c-box ::= border-box|padding-box|content-box
+b-c-box ::= border-box|content-box
 
 ##### length
 
@@ -781,6 +968,43 @@ length-units
 <code>ex</code>|the height of a lowercase x of the current font (rarely used)
 <code>em</code>|the font-size of the element
 <code>ch</code>|width of the "0" (zero)
+
+##### filters
+
+backdrop-filter applies a filter to the area behind an element.
+for backdrop-filter to apply, the element or its background must be at least partially transparent.
+backdrop-filter and filter take a <filter-function-list>
+filter-function-list ::= <filter-function>|<svg-filter>{ <filter-function>|<url>} # the URL is for a svg filter
+a <filter-function> is a <function> that applies a filter (i.e. changes the appearance of an image)
+filter-functions: 
+blur(): takes a blur-radius
+brightness(): <number-or-percentage-to-infinity>
+contrast(): <number-or-percentage-to-infinity>
+drop-shadow(): arguments are <code>offset-x offset-y [blur-radius] [color]</code>
+grayscale(): <number-or-percentage-0-1>
+hue-rotate(): takes an <angle> and rotates the hue by that angle
+invert(): <number-or-percentage-0-1>
+opacity(): <number-or-percentage-0-1>
+saturate(): <number-or-percentage-to-infinity>
+sepia(): <number-or-percentage-0-1>
+
+anywhere that takes a blur-radius generally takes a <length> which defines the standard deviation of the gaussian function
+
+There are a few places which accept a <number> or <percentage>. This is not an official CSS data type, but I will call this <number-or-percentage>.
+There are a few different sets of semantics for <number-or-percentage>
+<number-or-percentage-to-infinity>: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
+<number-or-percentage-0-1>: 0/0% is complete lack, 1/100% is complete application
+
+##### shadows
+
+The box-shadow property creates a rectangular shadow behind an element's entire box, while the drop-shadow() filter function creates a shadow that conforms to the shape (alpha channel) of the image itself.
+
+the first two <lengths> of text-shadow, box-shadow and drop-shadow() take a <offset> (two <length>s), the third <length> specifies the blur-radius
+for box-shadow, the fourth <length> specifies the spread-radius, for text-shadow and drop-shadow(), there is no way to specify a spread radius.
+for text-shadow, box-shadow and drop-shadow(), the non-length value specifies the color.
+box-shadow additionally may take the keyword inset, which specifies that the shadow should render inside the box instead of outside it.
+
+text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying multiple shadows.
 
 ## at-rules
 
@@ -821,6 +1045,11 @@ currently supported properties for the page declaration are margins, orphans, wi
 margin-at-rule = @<margin-at-rule-name><declaration-block>
 <img src="page_margin_at_rules.png">
 
+#### @counter-style
+
+@counter-style produces values of type <@counter-style>
+@namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet.
+
 ### non-nested at-rules
 
 @charset "<charset>"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
@@ -848,19 +1077,34 @@ Some elements are treated as replaced elements only in specific cases:
 Objects inserted using the content property are anonymous replaced elements.
 
 The only way CSS can style replaced elements is by controlling the positioning of the element's content within its box.
+for object-* to be relevant, the box of the replaced element must be of a different size than the replaced element
 
 The object-whatever properties target replaced elements.
 
-object-position takes a <position> value
+object-position takes a <position> value, and controls where the replaced element goes in its box
 
-object-fit
+object-fit|aspect-ratio|clipping/letterboxing/framing/none
+cover|preserve|letterboxing
+contain|preserve|clipping
+fill|stretch|none
+none|preserve|either clipping or framing (not resized at all)
+scale-down|perserve|letterbox or framing (contain or none, whichever is smaller)
+
+#### images
+
+image-rendering controls how an image upscales. 
+image-rendering: pixelated - image will seem to be composed of large pixels
+image-rendering: crisp-edges - preserve edges
+image-rendering: auto - browser-defined algorithm
 
 ## flow
 
 CSS takes as its input a tree of elements and text nodes, most commonly a pared-down DOM.
-CSS takes the DOM and converts it to an intermediary structure, the box tree.
+CSS converts the DOM to a flattened element tree, which is the same but has shadow trees merged back in.
+CSS takes the flattened element tree and converts it to an intermediary structure, the box tree.
 To create the box tree, CSS first gets the computed value for each CSS property for each element. Then CSS generates zero or more boxes for each element as specified by that elements display property.
 Typically, CSS generates one box per element, the principal box.
+Typically, CSS generates one text run per contiguous sequence of simbling text nodes.
 CSS may generate more than one box for an element, or none at all.
 For example, display: list-item generates a principal block box and a child marker box.
 A block box is a block-level box that is also a block container.
@@ -949,9 +1193,10 @@ Normal flow has two basic parameters: the <dfn>inline (base) direction</dfn> and
 The inline base direction defines how content is ordered inline.
 The block flow direction defines how blocks are added.
 Generally, the inline base direction and block flow direction are perpendicular to one another.
-The inline base direction and block flow direction are mainly determined by writing-mode.
+writing-mode determines the block flow direction
 any value for writing mode has the syntax (vertical|horizontal)-(lr|rl|tb).
-The default value for writing-mode (horizontal-tb) has a inline base direction of horizontal, and a block flow direction of top to bottom.
+The default value for writing-mode is horizontal-tb.
+The direction property as well as HTM:s dir attribute controls the inline base direction (either rtl or ltr)
 By default, block-level elements are 100% width of the inline base direction axis.
 block-level elements can have their height and width set manually, while inline-level elements
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
@@ -965,6 +1210,7 @@ Once a line box is full, the browser will create a second line box, etc.
 A line box is as tall as its tallest content.
 If the browser encounters a block-level element while creating line boxes, it stops the line box, closes the root inline box and thus the inline formatting context, puts the block-level element on a line of itself, and then creates a new root inline box with new line boxes etc. if there's more inline-level elements/text to be handled.
 line-height sets the minimum height of a line box.
+line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 <img src="sm_line_height_overflow.png">
 vertical-align is relative to the line box for some properties, and to the font for others.
@@ -976,6 +1222,27 @@ upright|rotate all scripts
 sideways|don't rotate any scripts (not well supported atm)
 
 Margin collapsing is the phenomenon where vertical margins of adjacent block-level elements merge to the longest common distance.
+
+Text overflowing a block container in inline base direction can be made to show an ellipsis by using text-overflow: ellipsis.
+
+display may also take a value of type <display-box>, which controls whether an element generates boxes at all.
+display-box ::= contents|none
+contents|The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes and text runs as normal. 
+none|this element and any of its descendants do not generate boxes or text runs
+
+To hide a box without influencing which boxes it generates (and thus also still taking up the space), use visibility: hidden
+
+#### display-internal
+
+behave as ...|<display-internal> value
+tbody|table-row-group
+thead|table-header-group
+tfoot|table-footer-group
+tr|table-row
+td|table-cell
+colgroup|table-column-group
+col|table-column
+caption|table-caption
 
 ### fragmented flow
 
@@ -1070,3 +1337,6 @@ A @supports at-rule is a conditional which takes a feature query
 In typography, a column is one or more vertical blocks of content positioned on a page, separated by gutters.
 Gutters are whitespace between two rows or columns.
 To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
+
+### Accessibility
+
