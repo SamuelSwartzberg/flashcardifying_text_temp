@@ -642,6 +642,13 @@ A honorific is a grammatical feature that encodes social relationships.
 Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
 Honorifics may be encoded via a variety of linguistic devices.
 
+###### T-V
+
+The T-V distinction is a honorific distinction encoded in pronouns.
+The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
+The T-V distinction is common in many Indo-European languages, but not english.
+The name T-V distinction comes from latin tu/vos.
+
 ##### polarity
 
 Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
@@ -3346,6 +3353,44 @@ A linguistic universal is a pattern that occurs systematically across (most ofte
 ## theoretical linguistics
 
 Theoretical linguistics may just contrast with applied linguistics, or specifically be the area of linguistics that answers fundamental questions about the nature of language
+
+## formal language
+
+### metalanguage
+
+A <dfn>metalanguage</dfn> is a language used {{c1::to describe another language}}
+The language being described by a metalanguage is an object language.
+Metasyntax is the syntax governing a meta-language.
+A placeholder/variable that is not part of a given language, but instead is used in a metalanguage way is known as a metasyntactic variable.
+The most common metasyntactic variables are foo, bar, quuz...
+
+#### BNF
+
+BNF = Backus-Naur-Form
+BNF is a metasyntax for context-free grammars.
+
+metacharacter/construct|BNF meaning
+definition   ::=
+alternation   |
+terminal (in this case with the name something)   "something" or 'something'
+non-terminal (in this case with the name something)   &lt;something&gt;
+concatenation   ␣
+
+EBNF = Extended Backus-Naur-Form
+EBNF is an extension (with some changes) to BNF, but there is no one EBNF, but a bunch of dialects.
+
+Possible ENBF syntax conventions:
+
+[]|optional
+{}|0 or more repetions
+bar|alternation
+= or : or ::=|definition
+; or ø|end of production rule
+()|grouping
+␣ or , or ø|concatenation
+barbar|'at least one of'
+
+In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as &lt;something&gt;, or both are explicitly indicated
 
 ## cross-cutting concerns
 

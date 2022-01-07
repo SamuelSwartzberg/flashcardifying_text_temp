@@ -2635,7 +2635,7 @@ The most common escape sequences (not character quoting)
 \r|carriage return|CR|0x0D
 \f|form feed|FF|0x0C
 \t|(horizontal) tab|HT|0x09
-\v|(vertical) tab|VT|0x0B
+\v|(vertical) tab (may also match any vertial whitespace in some langauges)|VT|0x0B
 \b|backspace|BS|0x08
 \a|bell|BEL|0x08
 \e|escape|ESC|0x1B
