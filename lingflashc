@@ -2757,6 +2757,41 @@ Cover term for language, dialect, lect, family, etc|Languoid
 
 ### conceptual metaphor
 
+set of correspondences make up what?  a mapping 
+A structural metaphor is one where we structure one concept in therms of another
+argument|<span class="conceptual-metaphor">Argument is war</span>
+time|<span class="conceptual-metaphor">time is money / a limited resource / a valuable commodity (all related)</span>
+Conceptual metaphor is said to be systematic because the structure of the source domain carries over into the target domain
+For Lakoff and Johnson, if we had different conceptual metaphors, our thoughts and the world  would be radically different
+For Lakoff and Johnson, if we instead had the conceptual metaphor <span class="conceptual-metaphor">Argument is a dance</span>, what would be different?  fundamentally, the experiences and outcomes of arguments
+For Lakoff and Johnson, if we visited a world that had radically different conceptual metaphors e.g. for arguing, we would look at them and... <span class="divider">-&gt;</span> {{c1::would not even recognize them as arguing}}
+For Lakoff and Johnson, of the two things in a conceptual metaphor, {{c1::one thing is <b>understood</b>&nbsp;in the terms of another}}
+For a mapping, what does it consist of, internally (waht makes up the thing that ends up being TARGET IS SOURCE)? <span class="divider">-&gt;</span> {{c1::a set of correspondences (the structure)}}
+For structural metaphors, in how far is one structured in terms of the other? <span class="divider">-&gt;</span> {{c1::only partially}}
+For structural metaphors, the fact that one thing only partially structures the other means that structural metaphor sneakily does what? <span class="divider">-&gt;</span> {{c1::hides part of the thing being structured}}
+For structural metaphors, what can one do, beside use the conventional structurings? <span class="divider">-&gt;</span> {{c1::extend the structure more fancifully}}
+For structural metaphors, what would be the case if one thing would be completely structured in terms of the other? <span class="divider">-&gt;</span> {{c1::they would just be the same}}
+In Metaphors We Live By, Lakoff and Johnson argue that our ordinary conceptual system is {{c1::fundamentally metaphorical}}
+The argument that Lakoff and Johnson make is based on {{c1::linguistic evidence, but is about how we think}}
+Conceptual metaphors are generally written  in {{c1::small caps}}
+{{c1::Your claims are idefensible, he attacked every weak point, I won on points, I tried to best to hold my ground, but I lost}} are all examples of the fact that argument is structured by the metaphor {{c2::<span class="conceptual-metaphor">Argument is war</span>}}
+In the metaphor <span class="conceptual-metaphor">love is is a journey</span>, what might some of the correspondences that make up this mapping be? <span class="divider">-&gt;</span> {{c1::The lovers correspond to travelers, the love relationship corresponds to the vehicle, the lovers common goals correspond to their common destinations on the journey...}}
+Structural metaphors are structured internally, but they are also structured how? <span class="divider">-&gt;</span> {{c1::in a system with other structureal metaphors (via entailment, etc.)}}
+The book Metaphors We Live By claims what by saying we live by them? <span class="divider">-&gt;</span> {{c1::Fundamentally, our life is structured by metaphor}}
+The fact that we can dress ideas up in fancy clothes, but this is not something we would conventionally say, proves that structural metaphors are what? <span class="divider">-&gt;</span> {{c1::extensible}}
+What does the fact that in an argument we can lose sight of the part of the argument where we're giving a valuable resource show about the structuring of structural metaphor? <span class="divider">-&gt;</span> {{c1::that its only partial (and thus hides things)}}
+What langauge did Lakoff and Johnson study for Metaphors We Live By? <span class="divider">-&gt;</span> {{c1::english}}
+for <span class="conceptual-metaphor">love is a journey</span>, the source domain is {{c1::journey}}, the target domain is love
+<pre><code>I don’t have the time to give you. 
+How do you spend your time these days? 
+That flat tire cost me an hour. 
+I’ve invested a lot of time in her. 
+I don’t have enough time to spare for that. </code></pre>   <span class="conceptual-metaphor">time is money / a limited resource / a valuable commodity (all related)</span>
+A single conceptual metaphor   a mapping
+One of the metaphors that underlie our conceptual system   A conceptual metaphor
+The thing that is mapped from (the thing that provides the structure)   the source domain
+The thing that is mapped to (the thing that is structured)   the target domain<div class="sub">
+
 ### Psycholinguistics
 
 Psycholinguistics or psychology of language is the study of the interrelation between linguistic factors and psychological aspects.[1] The discipline is mainly concerned with the mechanisms by which language is processed and represented in the mind and brain
