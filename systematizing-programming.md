@@ -239,7 +239,7 @@ Generally, single line comments go to the end of the line
 Single line:
 --|lua
 //|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
-\#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Ruby|sh|TOML|YAML
+\#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Regex (freespacing mode)|Ruby|sh|TOML|YAML
 %|Latex
 (?#foo)|Regex
 (* foo *)|ENBF
@@ -2612,9 +2612,23 @@ Generally, most languages will require using an escape sequence for their metach
 Besides character quoting, escape sequences are often used for characters that cannot (easily) be typed on a keywboard.
 Escape sequences for unicode codepoints:
 \u + UTF-16 escape sequence (must be a set of two \u + UTF-16 escape  sequence if surrogate pair)|JS
-\<Unicode Code Point>|CSS
-\u{<Unicode Code Point>}|JS (ES 6 and beyond)
+\<unicode-code-point>|CSS
+\u<unicode-code-point>|Regex (some flavors)
+\x{<unicode-code-point>}|Regex (other flavors)
+\u{<unicode-code-point>}|JS (ES 6 and beyond)
 can be directly input|most programming languages
+
+Escape sequences for ascii characters
+octal
+\0<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
+\<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
+\o\{<octal-digit><octal-digit><octal-digit>\}|Regex (some flavors)
+
+alphabetic
+\c<character> (ASCII control character (<character>-64))|Regex (some flavors)
+
+hexadecimal
+\x<hex-digit><hex-digit>|Regex (some flavors)
 
 The most common escape sequences (not character quoting)
 \n|new line|LF|0x0A|any newline character
