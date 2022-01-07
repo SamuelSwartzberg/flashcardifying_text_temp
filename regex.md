@@ -2,8 +2,9 @@
 
 regex ::= [^|\A]<expression>[$|\Z]
 expression ::= <alternative>{|<alternative>}
-alternative ::= {<quantifiable>[<quantifier>]}
-quantifiable ::= <character-class>|<group>|<character>|<reference>
+alternative ::= {<quantified>|<q-e-escape-sequence>}
+quantified ::= <quantifiable>[<quantifier>]
+quantifiable ::= <character-class>|<group>|<character>|<reference>|<recursion-token>
 
 | marks alternation, where one alternative must match
 
@@ -18,6 +19,13 @@ As the regex goes through the regex, it inserts a backtracking position at any p
 If a regex tries a certain match, and this fails at some point, it backtracks.
 Backtracking is when regex goes to the last backtracking position and tries a different alternative.
 
+### zero length
+
+In regex, some things, e.g. assertions as well as some quantifiers allow matching things of zero length. These are known as zero-length matches.
+Some flavors of regex always skip zero-legnth matches = don't return zero-length matches.
+When a regex engine can find multiple zero-length matches at the same position, it could concievably get stuck there forever.
+To prevent the regex engine from getting stuck matching zero-length matches at the same position until the heat death of the universe, there are two strategies: Either attempt the next match one character after the end of the previous match, or start the next match at the same position, but make note of the fact that the previous match was zero-length, and forces the thing to give up its zero-length match if it tries to match the same zero-length position agaoin.
+
 ## regex syntax
 
 ### characters
@@ -25,6 +33,7 @@ Backtracking is when regex goes to the last backtracking position and tries a di
 a literal character matches/represents itself (unless it is a metacharacter in that position, in which case it needs to be esxaped)
 The . character matches all characters (including newlines if the dotall flag is enabled, excluding newlines otherwise)
 It is often more sensible to use a negated character class instead of .
+The sequence q-e-escape-sequence ::= \Q{<character>}\E forces everything within to be treated as literal and not as metacharacters
 
 ### character class
 
@@ -32,7 +41,7 @@ A character class matches exactly one of several characters.
 There built-in character classes, or you may specify one with a character class literal.
 The character class literal may begin with ^ which matches any one character that is not the specified character
 Within the character class literal, <character>-<character> matches a range (if semantically sensible)
-character-class ::= \<built-in-character-class-character>|<character-class-literal>
+character-class ::= (\<built-in-character-class-character>)|<character-class-literal>|<escape-character-classes>
 character-class-literal ::= \[[^]<character>{<character>}\] # slight simplification
 built-in-character-class-character|meaning/equivalent character class literal
 d|[0-9]
@@ -41,10 +50,14 @@ w|[A-Za-zO-9_]
 W|[^A-Za-zO-9_]
 s|any number of different space characters
 S|^any number of different space characters
+X|a single unicode codepoint
 
 Whether built-in character classes such as \d and \w match non-ASCII characters/numbers depends on the regex flavor.
 
 Character classes that contain a built-in character class and its negation match everything, and are sometimes used when dotall is not available.
+
+There are a special kind of character class called a posix bracket expression, which has the syntax [:<name>:]
+In many langauges \p{} is a character class that takes an argument of a certain unicode category matches all relevant unicode characters. Java uses the same type of notation for posix bracket expressions 
 
 ### group
 
@@ -143,6 +156,7 @@ $|end of line with multiline flag, end of string without multiline flag
 \Z|end of string (always)
 \b|word boundary
 \B|not word boundary
+\G|end of previous match/start of string
 
 Notably, JS regex does not support \A and \Z.
 
@@ -170,11 +184,18 @@ greedy|get longest possible match|tries token as many times as possible, and gra
 lazy|get shortest possible match|tries token as few times as possible, and gradually expands match if backtracking
 posessive|get longest possible match, or none at all|tries token as many times as possible, does not backtrack
 
+### recursion tokens
+
+recursion-token ::= \(?(R|0)\)|\g&lt;0&gt;
+recursion tokens must be marked optional, or they will always reach a point where they have consumed the whole string and want more, and thus the regex will fail
+recursion in regex is most often used to match things that need to be balanced
+The recursion token basically says "go one level deeper and start the match from the start"
+Once the recursion token fails to match (assuming we have made it optional), the regex engine will backtrack back one level up the recursion hierarchy.
 
 ## flags
 
 m|multiline|make ^ and $ match line boundaries
 s|dotall/single-line mode|make . also match linebreaks
-x|free-spacing mode|
+x|free-spacing mode|ignore whitespace (to match, spaces must be escaped); enable # comments
 i|case-insensitive
 g|global|more than one match
