@@ -23,10 +23,18 @@ horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or mor
 superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
 subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
 indicate a variable semantically||<var>
+keyboard input||<kbd>
+sample output||<samp>
+title of a cited work||<cite>
+defining instance of a term||<dfn>
 
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
 
+strike is similar to <s>, but obsolete
+<tt> used to indicate teletype text, but is now obsolete
+<big> used to indicate big text, but is now obsolete; however <small> still works.
+<center> used to indicate centered text but is now obsolete
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
@@ -147,6 +155,7 @@ it can contain:
 the &lt;title&gt; element, which defines the documents title
 the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, as well as search engines.
 the &lt;title&gt; element can only contain text, not tags.
+the &lt;title&gt; element's content should change in response to major state changes.
 
 ##### <meta>
 
@@ -167,7 +176,8 @@ theme-color|indicates a suggested color that user agents should use to customize
 
 #### various inline text
 
-The abbr HTML element represents an acronym.
+The abbr HTML element represents an acronym or abbreviation.
+There used to be an <acronym> element which was obsoleted in favor of <abbr>
 The thing an abbr element is short for may either be explained in the text or specified in a title attribute.
 
 #### Media
@@ -229,6 +239,10 @@ track has a default attribute to indicate that this is a default track
 track has a kind attribute to indicate its purpose
 track kinds: captions, chapters, descriptions, metadata, subtitles
 
+#### img
+
+<img> is used for including images
+
 #### picture
 
 The picture element contains 0 - ∞ source elements and one <img> element.
@@ -258,13 +272,6 @@ The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tra
 
 #### progress and meter
 
-<pre><code>&lt;<span class="c1-cloze">progress</span> id="file" <span class="c2-cloze">max</span>="100" <span class="c3-cloze">value</span>="70"&gt; 70% &lt;/<span class="c1-cloze">progress</span>&gt;
-</code></pre>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span><br><div class="sub">
-<div class="sub c1-f c2-b">
-<progress id="file" max="100" value="70"> 70% </progress>
-</div>
-</div>
 A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
 In HTML, a progress bar can be indicated by &lt;progress&gt;
 In HTML, meter generally displays as a bar of varying fullness.
@@ -281,6 +288,14 @@ tbody/thead/tfoot > tr
 tr > th/td
 
 caption  optional child of table
+
+to make a td/th occupy multiple columns/rows, use colspan/rowspan="<integer>"
+HTML tables are for tabular data, not for layout
+
+The <colgroup> HTML element defines a group of columns within a table, e.g. for styling.
+The <colgroup> is made up of <col> elements
+The <col> element takes a span attribute indicating how many columns are being targeted.
+The <colgroup> element must be the first child of <table> (besides <caption>, if it is present)
 
 #### canvas
 
@@ -305,7 +320,18 @@ The rel attribute defines the relationship between a linked resource and the cur
 
 rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
 rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document.
-rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	
+rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
+
+##### <link>
+
+rel="icon"|specifies an icon representing the current document
+rel="stylesheet"|indicates a stylesheet for the document
+
+If rel="icon", the sizes attribute of link specifies which sizes are applicable.
+link-sizes-values ::= any|(<size-spec>{ <size-spec>})
+size-spec ::= <width>(x|X)<height>
+
+the type attribute of <link> specifies the mime type of the resource; however this is generally omitted except for rel="icon"
 
 ##### hyperlinks
 
@@ -374,6 +400,12 @@ The first child of a fieldset may be a <legend> (this is the only place it may a
 
 ##### button
 
+The <button> HTML element represents a clickable button
+the type attribute for <button> represents the default functionality
+submit|submit form data to server
+reset|reset form data
+button|no default behavior, must manually be implemented
+
 ##### textarea
 
 textarea represents a multiline text input field
@@ -391,6 +423,9 @@ As the state of <input>s changes, the value property in JS is updated.
 The validation states of an input are contained in the ValidationState API and corresponding property./
 
 ###### types
+
+type="color" for colors
+type="hidden" does not show the control, but still submits the data.
 
 ####### radio & checkbox
 
@@ -427,13 +462,15 @@ valid for the file input type only, the capture attribute defines which media—
 ####### image
 
 Input type image supports the attributes <img> supports, in addition to the usual ones of input.
-When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked
+When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
+The coordinates of an input type="image" will be submitted as <name>.x=<coord>&name.y=<coord>
 
 ####### submit
 
 ###### attributes
 
 the boolean multiple attribute may be set on input type email/file and <select> elements.
+When the multiple attribute is set for input type email, emails are separated with the comma.
 Any input may have a form attribute to associate it with the id of its form owner.
 The list attribute of most text-like input types plus range and color accepts an id of a <datalist>, which represents a list of predefined values.
 The <datalist> HTML element contains a set of <option> to indicate a predefined value each.
@@ -442,12 +479,19 @@ A checkbox or radio button with no value property will be sent as name=on.
 Radio buttons/checkbox inputs are only sent if they are checked.
 In a form, the name attribute becomes the key that the value being sent is associated with
 If the name of a thing in a form is not specified, the value is not sent.
+autofocus
+A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the <dialog> containing the element has been displayed).
 
 #### option
 
 The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
+
+#### script
+
+to include an external script, set the src attribute of the <script> element to its URL
+the <noscript> tag is for displaying content if the browser does not support JS
 
 #### select 
 
@@ -575,9 +619,9 @@ The dialog element has a boolean attribute open representing whether the dialog 
 Some HTML elements are functionally just containers with extra semantics attached (part of semantic html)
 HTML element|semantic container for
 header|heading-related content
-footer|
+footer|footer
 main|
-section|
+section|generic, but semantically meaningful section
 article|self-contained information which could be independently reused
 aside|content only indirectly related to main content
 address|contact information|may not contain heading/sectioning content
@@ -604,9 +648,17 @@ Sectoning content is a subset of flow content that was supposed to be relevant f
 
 Phrasing content is a subset of flow content that defines the text and the markup it contains, and can be used everywhere flow content is expected. 
 
+Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
+
+#### embedded content
+
 Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
 
-Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
+embedded cotnetn cotnains the media elements video and audio, image-related elements img, picture, and svg, math, iframe, plus the obsolete elements applet
+
+<applet> was used to embed java applets, but is now obsolete.
+
+&lt;math> and &lt;svg> embed content in HTML from MathML and SVG respectively
 
 ### JS interface
 
@@ -719,6 +771,70 @@ the Window object has a few properties representing certain UI elements (all bar
 BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
 # the DOM
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan="2">EventTarget</th>
+    </tr>
+    <tr>
+      <td>others...</td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="5"><span class="c9-cloze">Node</span></th>
+            </tr>
+            <tr>
+              <td>others...</td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <th colspan="3"><span class="c12-cloze">Element</span></th>
+                    </tr>
+                    <tr>
+                      <td>others...</td>
+                      <td><span class="c10-cloze c12-scr">HTMLElement</span></td>
+                      <td><span class="c11-cloze c12-scr">SVGElement</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <th colspan="2"><span class="c8-cloze">Document</span></th>
+                    </tr>
+                    <tr>
+                      <td><span class="c6-cloze c8-scr">HTMLDocument</span></td>
+                      <td><span class="c7-cloze c8-scr">XMLDocument</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td><table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table></td>
+              <td>
+                <table>
+                  <tbody><tr>
+                    <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
+                  </tr>
+                  <tr>
+                    <td><span class="c2-cloze c1-scr">Text</span></td>
+                    <td><span class="c3-cloze c1-scr">Comment</span></td>
+                    <td><span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 # other stuff
 
