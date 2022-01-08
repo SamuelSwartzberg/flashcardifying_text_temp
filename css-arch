@@ -1403,6 +1403,14 @@ To clamp a value is to specify an upper and a lower bound, and keep the number w
 
 ### Accessibility
 
+<br>---<br>
+§§ The ((c:2;::WCAG)) (((c:1;s:2;::Web Content Accessility guidelines))) defines amongst other things a number of ((c:3;::success criteria)) for ((c:4;::accesibility)). §<br>
+§§ WCAG published its ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish ((c:5;::2.2)) in ((c:6;::2021)) §<br>
+§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
+§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
 ### system UI themes
 
 the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted spec for {{c3::a style object}} that stores things for {{c4::design systems}}, especially {{c5::scales}}
