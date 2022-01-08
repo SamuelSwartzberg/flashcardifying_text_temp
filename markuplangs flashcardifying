@@ -1,3 +1,5 @@
+# across languages
+
 bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
 italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
 emphasize (generally via italics)|\emph{}|&lt;em>|N/A
@@ -72,6 +74,7 @@ Self-closing tags must end /&gt; in XML.
 Self-closing tags may end /&gt; or merely &gt; in HTML.
 Using a closing tag for self-closing tags is usually invalid.
 Empty elements cannot have content, since there is nowhere to put it.
+Some HTML elements that are not empty (not self-closing) nevertheless may omit their end tag, an end tag will instead be inserted automatically when necessary.
 
 Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
 an HTML element name may only 
@@ -92,6 +95,34 @@ HTML custom elements must start with a character a-z in lowercase, must contain 
 SGML/XML/HTML documents contain exactly one root element. All other elements are contained in the root element.
 The SGML/XML/HTML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
 
+The document prolog (if you use one) comes at the top of the document, before the root element. There are two parts (both optional): an XML declaration and a document type declaration.
+
+## declaration
+
+the {{c1::XML declaration}} {{c2::contains information about the coming xml document}}. 
+the {{c19::XML declaration}}  is {{c3::optional}}, {{c3::but if it appears}}, it must appear in {{c4::the first line of the document}}. 
+the {{c20::XML declaration}} takes {{c5::three}} parameters:
+<div class="c1-5-scr c12-18-scr">
+ <table>
+  <tbody><tr>
+    <td><code>{{c6::version}}</code></td>
+    <td>{{c9::The XML version the document is using}}</td>
+  </tr>
+  <tr>
+    <td><code>{{c7::encoding}}</code></td>
+    <td>{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
+  </tr>
+  <tr>
+    <td><code>{{c8::standalone}}</code></td>
+    <td>{{c11::Whether the document relies on an external source such as an external DTD}}</td>
+  </tr>
+  </tbody>
+  </table>
+</div>
+<p class="c1-11-scr">Of these, <code>{{c12::version}}</code> is {{c13::mandatory}}. It's syntax is:</p>
+<div class="c1-11-scr"><pre><code>{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
+</code></pre></div>
+
 ## doctype
 
 A document type declaration, or doctype, is an instruction that associates a particular XML or SGML document (for example, a webpage) with a document type definition (DTD).
@@ -107,7 +138,9 @@ In HTML 5, the doctype no longer actually references a DTD, but merely prevents 
 An HTML document is started by the &lt;html&gt; tag and ended by the &lt;/html&gt; tag.
 a &lt;html&gt; element consists of a &lt;head&gt; section and a &lt;body&gt;
 
-### <head>
+### elements
+
+#### <head>
 
 The &lt;head&gt; in HTML contains metadata about the document.
 it can contain:
@@ -115,7 +148,29 @@ the &lt;title&gt; element, which defines the documents title
 the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, as well as search engines.
 the &lt;title&gt; element can only contain text, not tags.
 
-### Media
+##### <meta>
+
+The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>.
+<meta> specifies the value in its content attribute
+
+The type of metadata provided by the <meta> element can be one of the following:
+
+If the name attribute is set, the <meta> element provides document-level metadata, applying to the whole page.
+If the http-equiv attribute is set, the <meta> element is a pragma directive, providing information equivalent to what can be given by a similarly-named HTTP header.
+If the charset attribute is set, the <meta> element is a charset declaration, giving the character encoding in which the document is encoded.
+If the itemprop attribute is set, the <meta> element provides user-defined metadata.
+
+meta name
+author|document author
+description|short blurb about website, may be used in search results
+theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS <color>.
+
+#### various inline text
+
+The abbr HTML element represents an acronym.
+The thing an abbr element is short for may either be explained in the text or specified in a title attribute.
+
+#### Media
 
 &lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
 Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
@@ -125,23 +180,38 @@ The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 <tbody>
 <tr>
 <td>((c:2;::muted))</td>
-<td>((c:7;::Indicates whether the audio is muted))</td>
+<td>((c:7;::audio is muted/mute audio))</td>
+<td>IDL & Content</td>
 </tr>
 <tr>
 <td>((c:3;::paused))</td>
-<td>((c:8;::Indicates whether it is paused))</td>
+<td>((c:8;::is paused/pause))</td>
+<td>IDL</td>
+</tr>
+<tr>
+<td>((c:5;::loop))</td>
+<td>((c:10;::will loop/loop))</td>
+<td>IDL & Content</td>
+</tr>
+<tr>
+<td>((c:5;::controls))</td>
+<td>((c:10;::is showing controls/show controls))</td>
+<td>IDL & Content</td>
+</tr>
+<tr>
+<td>((c:5;::autoplay))</td>
+<td>((c:10;::will autoplay/enable autoplay))</td>
+<td>IDL & Content</td>
 </tr>
 <tr>
 <td>((c:4;::ended))</td>
 <td>((c:9;::Indicates whether it has finished playing))</td>
-</tr>
-<tr>
-<td>((c:5;::loop))</td>
-<td>((c:10;::Indicates whether it will loop))</td>
+<td>IDL</td>
 </tr>
 <tr>
 <td>((c:6;::playbackRate))</td>
 <td>((c:11;::Represents the speed at which the thing is playing))</td>
+<td>JS</td>
 </tr>
 </tbody>
 </table>
@@ -149,26 +219,44 @@ The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
 You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
 &lt;track&gt; defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)
-&lt;source&gt; elements for audio/video take their URL in a src attribute.
 
-### source
+the poster attribute for video specifies a URL for an image to be shown while the video is downloading. 
+If the poster attribute for <video> isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
 
-the type of a &lt;source&gt; element is specified via the type attriube, or else the browser will check the MIME type in the HTTP header 
+##### track
 
-### Headings
+track has a default attribute to indicate that this is a default track
+track has a kind attribute to indicate its purpose
+track kinds: captions, chapters, descriptions, metadata, subtitles
+
+#### picture
+
+The picture element contains 0 - ∞ source elements and one <img> element.
+The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
+
+#### source
+
+the type (a MIME type) of a &lt;source&gt; element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
+The lists of <source>s for <picture>, <video> and <audio> represents a priority hierarchy - the browser will take the first one that matches.
+Conditions that <source>s may have are the type and media attributes
+&lt;source&gt; elements for audio/video take their URL in a src attribute; &lt;source&gt; elements for picture take their URL in a srcset attribute
+
+#### Headings
 
 &lt;h1&gt; to &lt;h6&gt; define headings.
 It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
 There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
 Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessibility and SEO heading levels
+Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
+There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
 
-### del and ins 
+#### del and ins 
 
 The &lt;del&gt; HTML element represents text that has been deleted from a document.
 The &lt;ins&gt; HTML element represents text that has been added to the document.
 The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
 
-### progress and meter
+#### progress and meter
 
 <pre><code>&lt;<span class="c1-cloze">progress</span> id="file" <span class="c2-cloze">max</span>="100" <span class="c3-cloze">value</span>="70"&gt; 70% &lt;/<span class="c1-cloze">progress</span>&gt;
 </code></pre>
@@ -181,32 +269,136 @@ A progress bar shows the progress of a task via a bar that becomes fuller as the
 In HTML, a progress bar can be indicated by &lt;progress&gt;
 In HTML, meter generally displays as a bar of varying fullness.
 In HTML, meter supposedly represents a scalar value within a known range.
-In HTML, meter accepts min, max, low, high, optimum and value to specify the constraints of the scalar value defined.
 In HTML, progress only accepts max and value as attributes, reflecting the semantics of the completion of a task.
+The min and max attributes specify the minimum/maximum value and are allowed on certain types of <input>s as well as <meter> and max also on <progress>
+The low, high and optimum attributes may only be specified on <meter>
 In HTML both progress and meter support a fallback text value within their tags.
 
-### tables
+#### tables
 
 table > tbody/thead/tfoot (optional level, but if used, any tr must be within it)
 tbody/thead/tfoot > tr
 tr > th/td
 
-### forms
+caption  optional child of table
+
+#### canvas
+
+The <canvas> element allows drawing graphics and animations via the canvas scripting API or the WebGL API
+Sizing the canvas using CSS versus HTML
+
+The displayed size of the canvas can be changed using CSS, but if you do this the image is scaled during rendering to fit the styled size, which can make the final graphics rendering end up being distorted.
+
+It is better to specify your canvas dimensions by setting the width and height attributes directly on the <canvas> elements, either directly in the HTML or by using JavaScript.
+
+#### map
 
 
 
-#### input
+#### links
+
+The content between the tags should be descriptive of what the link does.
+
+The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+
+The rel attribute defines the relationship between a linked resource and the current document. Valid on <link>, <a>, <area>, and <form>, the supported values depend on the element on which the attribute is found.
+
+rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
+rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document.
+rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	
+
+##### hyperlinks
+
+The two elements that create hyperlinks are <area> and <a>.
+use the attribute href for <area> and <a> to specify an URL of the links target.
+The target attribute of <area>/<a> specifies in which browsing context to open the link.
+_self|current browsing context
+_blank|new window/tab
+_parent|parent browsing context
+_top|root node browsing context
+for <form>, the target attribute represents where to display the response after submitting the form  
+
+###### a
+
+the download attribute of <a> Prompts the user to save the linked URL instead of navigating to it. 
+the download attribute of <a> Can be used with or without a value.
+the download attribute of <a> used without a value will prompt the browser to suggest a file type.
+the download attribute of <a> used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
+
+#### forms
+
+
+Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing <form> element or the element whose id is specified in the form attribute.
+
+<button>
+<fieldset>
+<input>
+<keygen>
+<label>
+<meter>
+<object>
+<output>
+<progress>
+<select>
+<textarea>
+
+Form-associated content does not necessarily always have to be within a form.
+
+This category contains several sub-categories:
+
+listed
+Elements that are listed in the form.elements and fieldset.elements IDL collections. Contains <button>, <fieldset>, <input>, <keygen>, <object>, <output>, <select>, and <textarea>.
+
+labelable
+Elements that can be associated with <label> elements. Contains <button>, <input>, <keygen>, <meter>, <output>, <progress>, <select>, and <textarea>.
+
+submittable
+Elements that can be used for constructing the form data set when the form is submitted. Contains <button>, <input>, <keygen>, <object>, <select>, and <textarea>.
+
+resettable
+Elements that can be affected when a form is reset. Contains <input>, <keygen>, <output>,<select>, and <textarea>.
+
+##### form itself
+
+A <form> element represents a form.
+the method attribute of form accepts post|get|dialog.
+post/get|use the POST/GET methods
+// for dialog see <dialog>
+The action attribute for form specifies the URL to which the form should be submitted.
+Forms may not be nested.
+
+##### fieldset
+
+A <fieldset> is an HTML element used to group multiple inputs (and their labels)
+The first child of a fieldset may be a <legend> (this is the only place it may appear), which captions its parent fieldset
+
+##### button
+
+##### textarea
+
+textarea represents a multiline text input field
+textarea is not an empty element, and in fact the content can be used to provide a default value.
+
+##### label
+
+A <label> provides a caption/label for a thing, most commonly an <input>
+There are two ways of associating an <input> with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
+
+##### input
 
 specifying the value property of an input element in HTML sets its initial value.
 As the state of <input>s changes, the value property in JS is updated.
+The validation states of an input are contained in the ValidationState API and corresponding property./
 
-##### types
+###### types
 
-###### radio & checkbox
+####### radio & checkbox
 
 A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
 In HTML, a radio button is realized by <input type="radio">
 In HTML, multiple radio buttons are linked by assigning them the same number.
+radio and checkbox input accept the attribute checked to specfiy if they are checked
+
 
 Bootstrap:
 
@@ -214,7 +406,54 @@ Bootstrap:
 .form-check-label   define a label for a checkbox/radio button
 .form-check-input   define a checkbox/radio button
 
-### Ruby 
+####### text
+
+&lt;input type="text"&gt; is single-line only
+There are a set of input types that act similarly text, but force a certain type of validation and change the soft keyboard/add input helpers, similar to inputmode:
+time-related: date, datetime-local, month, time, week
+number: number
+other: email, password, tel, search, url
+On any text-like input which is not time-related and not 'number' as well as on textarea, you may specify the minlength and maxlength attributes to contstrain the amount of UTF-16 code units.
+On any non-time-related, non-number text-like input, you may specify the attribute pattern, providing a regex against which to match the input.
+most text-only input fields may have the readonly attribute specfied, which shows the inital value but doesn't allow the user to modify it
+the time-related and number text-like inputs plus range accept a step argument.
+
+####### file
+
+inputs of type file accept an attribute accept (lol) which takes a CSL of unique file type specifiers
+an unique file type specfier is either a filename extension starting with a period, or a valid MIME type.
+valid for the file input type only, the capture attribute defines which media—microphone, video, or camera—should be used to capture a new file for upload with file upload control in supporting scenarios.
+
+####### image
+
+Input type image supports the attributes <img> supports, in addition to the usual ones of input.
+When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked
+
+####### submit
+
+###### attributes
+
+the boolean multiple attribute may be set on input type email/file and <select> elements.
+Any input may have a form attribute to associate it with the id of its form owner.
+The list attribute of most text-like input types plus range and color accepts an id of a <datalist>, which represents a list of predefined values.
+The <datalist> HTML element contains a set of <option> to indicate a predefined value each.
+For most input types, the value attribute merely indicates an initial default, for input type radio/checkbox/image, the value attribute specicifies the value that will be sent if that thing is checked
+A checkbox or radio button with no value property will be sent as name=on.
+Radio buttons/checkbox inputs are only sent if they are checked.
+In a form, the name attribute becomes the key that the value being sent is associated with
+If the name of a thing in a form is not specified, the value is not sent.
+
+#### option
+
+The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
+The <optgroup> HTML element creates a grouping of options within a <select> element.
+to set the default option, specify the selected attribute on the option.
+
+#### select 
+
+The <select> HTML element represents a control that provides a menu of options:
+
+#### Ruby 
 
 ruby text/characters are small annotative glosses placed on the top or to the right of characters.
 Ruby text/characters is called furigana in japanese.
@@ -223,18 +462,18 @@ In HTML ruby annotation, the syntax is &lt;ruby&gt;lowertext&lt;rt&gt;uppertext&
 In HTML, one may designate fallback delimiters for the upper text. 
 Ruby fallback delimiters are enclosed in &lt;rp&gt; tags, and go before and after the &lt;rt&gt; delimited uppertext.
 
-### aside
+#### aside
 
 An aside (there is no agreed-upon term, so I'm using the term that HTML uses) is a part of the main content thats only partially related to the main content, and often placed outside of the main flow. 
 A pull quote is an aside that is a quote from the article.
 
-### figure
+#### figure
 
 In general, figures are images/diagrams/similar with a caption.
 In general, figures float (in the general sense).
 In HTML, the <figure> element specifies its caption with <figcaption>
 
-### float
+#### float
 
 a float is across styling languages a thing that exists outside of the normal flow of text.
 
@@ -295,7 +534,12 @@ The most common clearfix technique might be: ::after {
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}</span>
 
-### Lists
+#### data
+
+<data> represents things that have a machine-readable translation
+<time> represents a time/date/duration.
+
+#### Lists
 
 In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
 Latex uses the same list items for description lists also, while HTML uses different elements for those.
@@ -315,9 +559,68 @@ Term in a description list with title foo and description/explanation bar|\iten[
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-### HTML interface
+#### containers
+
+div and span are 'pure' container without any semantics.
+the difference between div and span is that div is by default block-level (display: block flow) and that span is by default inline (display: inline flow)
+
+##### dialog
+
+The dialog element rerpesents a dialog box container semantically.
+The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
+<form> elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
+
+##### semantic containers
+
+Some HTML elements are functionally just containers with extra semantics attached (part of semantic html)
+HTML element|semantic container for
+header|heading-related content
+footer|
+main|
+section|
+article|self-contained information which could be independently reused
+aside|content only indirectly related to main content
+address|contact information|may not contain heading/sectioning content
+nav|navigation section
+
+#### inline nonhtml
+
+&lt;style> allows including CSS inline, by including it as content
+&lt;script> allows including JS or other scripting languages inline, by including it as content
+
+#### deprecated elements
+
+<menu> was supposed to be a semantic alternative to <ul>
+
+### content categories
+
+Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
+
+Flow content
+Flow content is a broad category that encompasses most elements that can go inside the &lt;body> element.
+
+Heading content is a subset of flow content that includes h1-h6, and theoretically though not relevantly the never-implemented the-spec-is-lying-about-it hgroup
+Sectoning content is a subset of flow content that was supposed to be relevant for the outline algorithm that was never implemented, and so is a somewhat-irrelevant category.
+
+Phrasing content is a subset of flow content that defines the text and the markup it contains, and can be used everywhere flow content is expected. 
+
+Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
+
+Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
+
+### JS interface
 
 any HTML element has a JS interface that is called HTMLSomeelementnameElement.
+
+An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
+
+In HTML, most attributes have two faces: the content attribute and the IDL attribute.
+
+The content attribute is the attribute as you set it from the content (the HTML code) and you can set it or get it via element.setAttribute() or element.getAttribute(). The content attribute is always a string even when the expected value should be of a different type.
+
+the IDL attribute may be accessed from js like element.foo.
+
+Any content attribute is also acessiable as an IDL attribute.
 
 ### Common attributes
 
@@ -327,8 +630,15 @@ the <code>datetime</code> attribute specifies the date and time associated with 
 The <code>cite</code> attribute provides an URI that points to the source of a quote or change.
 The <code>cite</code> attribute can be used on &lt;blockquote&gt;, &lt;q&gt;, &lt;ins&gt;, &lt;del&gt;
 
-rel
-target
+The HTML autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field.
+The autocomplete attribute can be used on inputs that take a text-like value, textarea elements, select elements and form elements.
+The Boolean disabled attribute, when present, makes the element not mutable, focusable, or even submitted (if in a form).
+The disabled attribute is supported by <button>, <command>, <fieldset>, <keygen>, <optgroup>, <option>, <select>, <textarea> and <input>.
+The value attribute specifies the value of a thing.
+If the value attribute of an element is pre-filled, it generally appears as a default.
+
+content within <video>/<audio>/<canvas> is shown as a fallback for browsers that don't support the element.
+
 
 #### Global attributes
 
@@ -357,7 +667,7 @@ hidden in fact just sets display to none.
 draggable is an enumerated attriubte w/ "true" and "false" which indicates whether the element can be dragged using the Drag and Drop API
 data-* 
 dir: enumerated attriubte ltr/rtl/auto
-contenteditable
+contenteditable|makes the content editable
 the title attribute is *generally* shown as a tooltip, unless the element implements title differently.
 
 ##### text editing only
@@ -366,8 +676,8 @@ spellchek and inputmode attributes that are global attributes, but only can usef
 there are three places where text can be inputed in HTML: <input type="text">, <textarea> and anything w/ contenteditable
 spellcheck: an enumerated attribute w/ "true" and "false" whether to check the spelling of the thing
 inputmode: specify the kind of text input that is required, thus allowing mobile devices to show appropriate soft keyboards
-inputmode is different from <input type="... in that it does not enforce any kind of validation, users *can* still input anything they want.
-inputmode value|shows|equivalent <input> type
+inputmode is different from <input type="..."> in that it does not enforce any kind of validation, users *can* still input anything they want.
+inputmode value|shows|equivalent <input> type, if extant
 none|no virtual keyboard
 text|default virtual keyboard
 decimal|keyboard with digits and decimal separtors, perhaps a -
@@ -380,3 +690,163 @@ url|optimized for url entry|type="url"
 autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
+
+# environment
+
+## browsing contexts
+
+A browsing context is the environment in which a browser displays a Document. 
+A browsing context may be a tab or a window as well as a frame (iframe/frame)
+A browsing context has a corresponding WindowProxy object.
+A WindowProxy object acts as a interface for the Window object of a browsing contexts active Document.
+A browsing context has an opener browsing context, which is null or a browsing context. It is initially null.
+A browsing context has a disowned boolean. It is initially false.
+A browsing context has an is closing boolean. It is initially false.
+
+It is possible to create new browsing contexts that are related to a top-level browsing context without being nested through an element. Such browsing contexts are called auxiliary browsing contexts. Auxiliary browsing contexts are always top-level browsing contexts.
+
+An auxiliary browsing context has an opener browsing context, which is the browsing context from which the auxiliary browsing context was created, and it has a furthest ancestor browsing context, which is the top-level browsing context of the opener browsing context when the auxiliary browsing context was created.
+The opener attribute of Window returns the WindowProxy object of the opener broswing context, if extant/available.
+
+## session history
+
+Each browsing context has a session history.
+A session history conttains the Document objects that the browsing context has presented, is presenting, or will present. 
+
+## window
+
+the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
+BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
+
+# the DOM
+
+# other stuff
+
+ISO dates
+
+# data
+
+open data is data available to everyone freely.
+linked data is data that is interlinked usefully.
+
+
+## data models
+
+A data model is a model that provides structure to data, and to their properties, how they relate amongst each other, and how they relate to RL.
+
+In computing, a database is an organized collection of data stored and accessed electronically. 
+A DBMS (database management system) is the software used to manage a database.
+
+A (data)(base) query language is a language used to query data in databases/information systems.
+
+Structured data is a data model used for describing web pages.
+Structured data is used by search engines to provide more rich results.
+Shema.org is a set of schemas for structured data.
+
+### relational data model
+
+https://upload.wikimedia.org/wikipedia/commons/7/7c/Relational_database_terms.svg
+
+in a relational data model, a tuple is an ordered set (lol) of attribute values
+in a relational data model, a relation is made up of a heading and body.
+in a relational data model, a heading is a set of attributes.
+The number of attributes constituting a heading is called the degree, which term also applies to tuples and relations. 
+in a relational data model, a body is a set of n-tuples of the length of the degree of the heading.
+The heading of the relation is also the heading of each of its tuples.
+in a relational data model, an attribute is an ordered pair of attribute name and type.
+A table is an accepted visual representation of a relation.
+relation|table
+tuple making up the body|collection of rows
+n-tuple|row
+attribute|column
+
+a relational database is a database with a relational data model.
+In a relationnship database each n-tuple/row has its own unique key known as the primary key.
+A foreign key is a column used in a relational database to link tables/relations by referencing a primary key of a row in a different relation/table.
+A child table uses a foreign key to reference a primary key in the parent table. (parent ← child)
+Foreign keys can be used for one-to-one or one-to-many relationships
+
+SQL is a language used to manage relational databases.
+SQL, despite its name, consists of a data query language, data definition language, data control langauge, and data manipulation language.
+
+### graph data models
+
+A graph data model is one that organizes entities and their relationships as a graph.
+A graph database is a database that uses a graph data model.
+
+A ontology languages is a language that describes an ontology. 
+
+The semantic web is sometimes known as web 3.0
+The goal of the samntic web is to make internet data machine readable
+A semantic query is a data query on the semantic web.
+the social graph is a graph that represents social relationship between entities.
+the open graph allows web pages to become objects in a social graph
+
+#### RDF
+
+RDF = resource description framework
+RDF is a technology meant to realize the semantic web.
+RDF implements a graph data model.
+semantic triple = RDF triple 
+semantic/rdf triple is sometimes shortened triple
+a semantic triple is the atomic data unit in the RDF data model
+a semantic triple has the three roles subject, predicate object
+a semantic triple encodes the three roles subject predicate object as a directed graph, with the subject and object being nodes, and the relationship as an edge.
+A named graph is a set of triples named by an URI
+
+In rdf, a node can be a IRI, literal, or blank node
+
+an RDF semantic triple indicating that art knows bob using the FOAF ontology might look like ex:art foaf:knows ex:bob
+
+##### sparql
+
+SPARQL = SPARQL Protocol and RDF Query Language
+SPARQL is proounced sparkle
+SPARQL is an RDF query language
+
+##### JSON-LD
+
+JSON-LD is an implementation of RDF
+JSON-LD is included via a script tag 
+Of the structured data formats, google prefers JSON-LD.
+
+#### Other implementations of structured data
+
+RDFa Lite is a minimal subset of RDFa that can be directly included in HTML.
+Microdata is a format to include metadata, including but not limited to RDF data, directly included in HTML.
+
+#### OWL
+
+OWL short for web ontology langauge
+OWL, RDFS and SHACL are ontology languages for RDF
+
+#### applications
+
+FOAF = friend of a friend
+FOAF is an ontology for people, their properties and their relations using RDF/OWL 
+
+##### open graph
+
+The Open Graph protocol enables any web page to become a rich object in a social graph.
+open graph is based on RDFa.
+Open graph metadata is specified within meta tags.
+There are four required properties for open graph, which are og:image, og:title, og:type and og:url.
+The property of the open graph metadata is specified within the property property, and the value of the open graph metadata is specified within the content property.
+
+# UI
+
+## disclosure widgets
+
+A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
+With a disclosure widget, the content contained within is shown if the heading is interacted with.
+With a disclosure widget, the heading often indicates that it can be expanded/shrunken either via ▼/▲ or via +/-
+In html, a disclosure widget is defined via a details element.
+In html, the header of a disclosure widget is defined by a summary element.
+An accordion is a set of multiple disclosure widgets.
+Most commonly, disclosure widgets start out in their collapsed state by default.
+In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
+<img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
+
+# todo
+
+add quick note about Web Audio APi
