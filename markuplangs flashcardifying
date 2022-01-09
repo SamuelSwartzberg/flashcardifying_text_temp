@@ -1000,6 +1000,9 @@ Modern CPUs are claimed to be VNA, but since they separate data and instructions
 An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
 The instruction set is the set of operations a processor supports, which bit sequences represent which instructions, and how the arguments are organized.
 Depending on the instruction set, machine langauge instructions may all be the same length or not.
+In a general sense, a word is how many bits a CPU may address at once.
+The length of a word is the word size
+In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
 
 #### RISC CISC
 
@@ -1007,7 +1010,7 @@ RISC  Reduced instruction set computer
 CISC  Complex instruction set computer
 x86 is a family of instruction set architectures
 x86 are the most common type of CISC architectures.
-x86 architectures with 64-bit word size are
+x86 architectures with 64-bit word size are called x86_64
 x86_64 may also be called AMD64 or Intel 64
 
 ### cache
@@ -1059,6 +1062,8 @@ GUID in GUID Partition Table  globally unique identifier
 
 The file system is the method/system/whatever that controls/specifies how {{c1::data is organized within a partition}}
 A flat file system is a file system with no {{c1::subdirectories}}
+Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
+Even non-case-sensitive file systems are almost always case-preserving.
 
 #### directory structure
 
@@ -1105,12 +1110,31 @@ Pixmap images are very large, since they don't have any compression.
 
 ### plaintext
 
+#### JSON
+
+JSON is a plaintext file format.
+JSON has the same syntax as JS object literals, with a few exceptions.
+In JSON but not JS object literals, keys must be quoted.
+In JSON but not JS object literals, functions are forbidden.
+In JSON, the top-level item can either be an object or an array.
+
 ### cross-cutting
 
 #### email
 
 In the mbox format, an entire mail directory is held in a single file.
+The mbox format consists of individual IMF messages.
+The fileformat for emails is generally IMF.
 The mbox format has problems with concurrency (safety and performance).
+mbox ::= <mbox-email>{<mbox-email>}
+mbox-email ::= <from-line><IMF-message><LF>
+from-line ::= From <sender-email> <utc-datetime><LF>
+IMF-message ::= <headers><body><LF>
+headers ::= {<key>: <value><LF>}
+body ::= <LF><body-contents>
+
+The IMF uses CRLF, however when stored in mbox, they use LF instead.
+
 The maildir format has three subdirectories (at least) for any directory
 
 # running the computer
