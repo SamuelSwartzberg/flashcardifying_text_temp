@@ -2877,6 +2877,11 @@ ortographically shallow|spanish, japanese
 
 In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
 
+#### encoding
+
+Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
+If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or questio mark.
+
 ### lexicography
 
 Lexicography is the study of lexemes and lexica (collections of lexemes)

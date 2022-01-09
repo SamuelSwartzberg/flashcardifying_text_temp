@@ -1159,6 +1159,7 @@ In languages that have single-quoted string literals, interpolation is generally
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
 YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
+In some languages, strings are ended by the NULL (0x00) character, these are known as null-terminated strings.
 
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
 r or R"foo"|Python|Rust
@@ -2623,7 +2624,7 @@ Associative arrays: names, literals, other construction methods, etc.
 
 
 
-
+<h2>Metacharacters & escapes </h2>
 
 A metacharacter is a character that has a special meaning to a computer program, such as a shell interpreter or a regular expression (regex) engine.
 
@@ -2654,21 +2655,8 @@ alphabetic
 hexadecimal
 \x<hex-digit><hex-digit>|Regex (some flavors)
 
-The most common escape sequences (not character quoting)
-\n|new line|LF|0x0A|any newline character
-\r|carriage return|CR|0x0D
-\f|form feed|FF|0x0C
-\t|(horizontal) tab|HT|0x09
-\v|(vertical) tab (may also match any vertial whitespace in some langauges)|VT|0x0B
-\b|backspace|BS|0x08
-\a|bell|BEL|0x08
-\e|escape|ESC|0x1B
-\0|null|NUL|0x00
-|end of transmission|EOT|0x04
 
-CRLF|Windows|The Internet
-LF|Unixlike (Linux and modern mac)
-CR|older macs
+
 
 §§ HTML has ((c:1;::two ways)) of specifying ((c:2;::character escapes)). ((s:gb;::Both ((c:3;::start with an &amp;)) and ((c:4;::end with a semicolon ;)). They are both often used to ((c:5;::display reserved characters, invisible characters, or hard-to-type characters.))))  §<br>
 §§ Of these, ((c:6;::numeric character references)) ((c:7;::refer to the character position within character set (most commmonly UTF-8))), ((s:gb;::they start ((c:8;::with # (after &amp;))) and can be specified in decimal or hex. ((h:gb;::(for example ((c:9;::&amp;#8203;))))))) §<br>
@@ -2705,7 +2693,109 @@ CR|older macs
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
+<h2>text encoding</h2>
+
+<h3>ASCII</h3>
+
+Control characters are also called non-printing characters.
+ASCII (no extension) takes up 7 bit.
+ASCII characters that are not control/non-printing characters are printing characters.
+Control characters as a term is generally reserved for the 65 characters defined in ASCII and extended ascii, other characters such as the zero-width non-joiner may be considered semantically similar, but are called formatting characters.
+the first 32 ASCII control characters are exactly 64 bit below the uppercase letters, and so may be represented by letters A-Z plus a few symbols.
+In the past the control key would have lowered the sent keycode by 64 to produce the first 32 ASCII control characters; this behavior still exists (albeit emulated) in terminals.
+Since the control character is often represented by a caret, and the control key plus letter was/is used to produce ASCII control characters, ASCII control characters are often indicated ^<letter>, this is called caret notation.
+In ASCII, the uppercase characters are 64 above their index in the alphabet.
+In ASCII, the lowercase characters are 96 above their index in the alphabet/32 above the relevant uppercase character.
+In ASCII the 7th bit will be set for any letter in the alphabet.
+In ASCII the 6th and 7th bit will be set for any lowercase letter in the alphabet.
+In ASCII the 6th and 7th bit will never be set for any control character within the 128 original characters besides DEL.
+0-31|control characters
+32-64|various symbols, numbers, etc.
+65-90|A-Z
+91-96|various symbols
+97-122|a-z
+123-126|various symbols
+127|DEL
+
+
+The most common escape sequences (not character quoting)
+\n|new line|LF|0x0A|any newline character
+\r|carriage return|CR|0x0D
+\f|form feed|FF|0x0C
+\t|(horizontal) tab|HT|0x09
+\v|(vertical) tab (may also match any vertial whitespace in some langauges)|VT|0x0B
+\b|backspace|BS|0x08
+\a|bell|BEL|0x08
+\e|escape|ESC|0x1B
+\0|null|NUL|0x00
+|end of transmission|EOT|0x04
+
+CRLF|Windows|The Internet
+LF|Unixlike (Linux and modern mac)
+CR|older macs
+
 The bell character is sometimes used in command-line utilities for a notiification sound
+
+<h3>ISO/IEC 8859</h3>
+
+The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
+
+Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp><rt>もじば</rt><rp>)</rp></ruby>け, which was common in japanese due to a number of incompatible encodings existing.
+
+<h3>Unicode</h3>
+
+Unicode is goverened by the unicode consortium.
+While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
+The fundamental unit in unicode is a codepoint.
+All unicode codepoints are contained in the unicode codespace.
+Currently, about 12% of the unicode codespace is used.
+The unicode codespace consists of 17 planes. 
+A unicode plane contains 2^16 = 65536 codepoints.
+0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems & symbols
+1|Supplementary Multilingual Plane|assortment of different characters and emoji
+2|Supplementary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
+3|Tertiary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
+4-13|Currently unassigned
+14|Supplementary Special-purpose plane
+15-16|Private Use Area planes
+A plane in unicode consists of one or more blocks.
+Since unicode blocks are contained within planes, they at most can be the size of a plane, i.e. 2^16=65536
+Unicode blocks always sized in multiples of 16, therefore the first hex digit in an unicode block will always end 0, and the last digit will always end F.
+Unicode blocks are always contiguous and disjoint with each other.
+In general, an unicode block should be united by a common purpose in some way.
+
+<h4>multiple characters
+
+A 'character' may consist of one or more (encoded) unicode code points.
+Some characters can be created both by combining a character with a combining character/mark, or by using an one-codepoint precomposed version.
+Combining characters/marks are unicode codepoints that modify other characters, instead of standing by themselves as characters.
+Combining characters/marks come after the thing they are modifying.
+You can attach many different combining characters to one character at the same time.
+Precomposed characters are characters that look like the combination of a character and a diacritic but actually occupy only one codepoint.
+é could be a character plus a combining character, or a precomposed character.
+Two unicode characters are compatible if they share the same semantics in at least some situation.
+U+FB00 (the typographic ligature "ﬀ") and U+0066 U+0066 (two Latin "f" letters) are two characters that are compatible.
+Canonical equvalency is a subset of compatibility.
+two unicode characters are canonically equivalent if they display the same and have the same meaning.
+Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
+
+<h4>encodings
+
+There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
+UTF-32 encodes any codepoint as 4 bytes, and is thus very wasteful for something like latin text.
+UTF-16 encodes a codepint either as 2 or 4 bytes.
+UTF-8 may take 1-4 bytes to encode a cahracter.
+
+Today, most things default to UTF-8, however a few things such as JS default to UTF-16.
+
+<h5>UTF-8
+
+UTF-8 encodes the 128 ASCII characters the same way as ASCII, but with a leading zero (since 8 not 7 bit)
+First UTF-8 byte starts|character contains n bytes
+0|1
+110|2
+1110|3
+11110|4
 
 Newline may refer to the newline character or any newline
 
@@ -2721,3 +2811,6 @@ Self-documenting code is code that uses names of identifiers and strucutre (rath
 An aspect is a cross-cutting concern.
 A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
 Examples for a cross-cutting concern might be logging.
+
+Case-preservation is whether something {{c1::stores or disregards case information}}
+Case-sensitivity is whether something {{c1::differentiates based on case}}
