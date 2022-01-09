@@ -296,6 +296,8 @@ A generic is a stand-in for a type that is not yet specified or unknown.
 A generic may be constrained in some way.
 Generics are most often specified via type parameters.
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
+Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
+C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -620,6 +622,11 @@ Where type aliases exist, they generally use the type keyword.
 `type ID  = number | string`
 
 <h6>Interesting keywords</h6>
+
+<h4>Type errors</h4>
+
+Type safety is the dgree to which a programming language prevents logic-type type errors in favor of static-semantic type errors.
+A logic-type type error is caused by treating a value as the wrong type.
 
 <h4>Conversion, coercion, casting and context (plus truthy/falsiness)</h4>
 
@@ -1894,6 +1901,7 @@ In most programming languages, you specify a subclass/superclass relationship li
 In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
 In C#/Java, making a class final disallows a subclass from inheriting from it.
 In C#/Java, making a method/static function final disallows a subclass from overriding it it.
+Most languages only support single inheritance, some languages (among those I know Perl and Python) also allow multiple inheritance
 
 <h4>abstract & static classes </h4>
 
@@ -1945,10 +1953,12 @@ In OOP an interface is a set of methods that anything that implements that inter
 Interfaces in programming standartize behavior
 If a given programming language has syntax for them, generally keyword interface.
 Indicating that one follows an interface is generally done with the implements keyword.
+Something conforming to an interface is generally said to implememnt it.
 If something implements an interface, it generally must implement all methods of that interface.
 In the past, Java did not allow variables in interfaces. as of today, they are allowed, but subject to heavy restrictions.
 In interfaces in Java/C#, you most commonly merely specify method stubs. (in the past this is the only thing you could do, this is no longer true)
 Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
+In most languages, a record may implement multiple interfaces/traits.
 
 Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
 
@@ -1985,6 +1995,12 @@ It can often be useful to overwrite the default tostring implementation for more
 
 toString()|JS
 
+<h4>Boxing</h4>
+
+Memory-wise, since boxes are objects, boxed data will be stored on the heap.
+Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO. 
+Autoboxing is the conversion of primitves to boxed types when relevant.
+Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
 
 <h2>Pragmas</h2>
 
@@ -2329,7 +2345,7 @@ A compiler translates one programming language into another in one step before e
 Most commonly, a compiler translates a programming language into machine code/assembler.
 An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
 
-<h3>Compiling/Interpreting</h3>
+<h4>Compiling/Interpreting</h4>
 
 1. lexical analiysis = tokenization = lexing
 2. sytax analysis = parsing
