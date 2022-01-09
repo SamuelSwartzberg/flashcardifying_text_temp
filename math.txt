@@ -3,3 +3,6 @@
 # coordinate sys
 
 The origin is the point where the axes in a cartesian coordinate system intersect
+
+# positional 
+

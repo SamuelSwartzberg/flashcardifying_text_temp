@@ -968,7 +968,9 @@ In html, you can force a disclosure widget to start in its open state by specify
 
 URLS locate resources on the internet
 
-## the web
+## layer 7
+
+### the web
 
 WWW = World Wide Web
 The WWW runs on the internet, using the protocol HTTP(S)
@@ -978,6 +980,9 @@ The first web browser was written in 1990, the WWW was released in 1991.
 The main organization working on web standards is the W3C.
 A web site is a collection of web pages, generally one that share a domain name/FQDN
 
+## layer 4
+
+The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
 
 # hardware
 
@@ -1050,9 +1055,39 @@ Today, partition tables are generally GPT, since MBR was limited to addressing 2
 GPT  GUID Partition Table
 GUID in GUID Partition Table  globally unique identifier
 
-#### filesystems
+#### file system
+
+The file system is the method/system/whatever that controls/specifies how {{c1::data is organized within a partition}}
+A flat file system is a file system with no {{c1::subdirectories}}
+
+#### directory structure
+
+{{c1::the directory structure}} is the way data is organized in a file system using directories
 
 ##### FHS
+
+FHS  Filesystem Hierarchy Standard
+FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
+
+###### /sys
+
+/sys provides a window to the kernel
+
+###### /var
+
+/var/mail/   MBOXes for each user
+/var/spool/   data awaiting processing
+
+###### /dev
+
+####### not real devices
+
+/dev/random and /dev/urandom are CSPRNGs of nix* systems
+the difference between /dev/random and /dev/urandom is that the former blocks to wait for more entropy if necessary, the latter does not.
+the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/urandom for anything else.
+/dev/full is  always full
+/dev/zero returns as many 0x00 as you like.
+anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
 
 ## files
 
@@ -1066,7 +1101,17 @@ While in the technical definition, a pixmap is a hyponym of bitmap, they also ma
 The common file format for a pixmap image is BMP.
 Pixmap images are very large, since they don't have any compression.
 
-### images
+#### images
+
+### plaintext
+
+### cross-cutting
+
+#### email
+
+In the mbox format, an entire mail directory is held in a single file.
+The mbox format has problems with concurrency (safety and performance).
+The maildir format has three subdirectories (at least) for any directory
 
 # running the computer
 
@@ -1097,6 +1142,15 @@ UEFI is controlled by a large set of industry stakeholders known as teh UEFI for
 CSM (UEFI context)  Compatibility Support Mode
 CSM is the mode of UEFI that makes it similar to BIOS by loading MBR or something from the first-stage boot loader.
 
+#### SMBIOS
+
+DMI  Desktop Management Interface
+The original common inteface for managing components of a computer was teh DMI, but it was end-of-lifed in 2005
+SMBIOS  System Management BIOS
+Originally, the SMBIOS interacted with the DMi
+The SMBIOS provides an interface for accessing BIOS/hardware info.
+CLI command for interacting with SMBIOS (formerly with the DMI): dmidecode
+
 ### boot loader
 
 MBR  Master boot record
@@ -1118,15 +1172,58 @@ Instead of doing stuff in kernel space, mircokernels provide servers that do thi
 
 ### the init process
 
+# crypt
+
+## random numbers
+
+C(S)PRNG  Cryptographically (secure) pseudorandom number generator
+PRNG  pseudorandom number generator
+RNG  random number generator
+
 # *nix
 
 ## command-line tools
 
+mail or the older mailx are *nix builtins to manage mail.
+
 ### fs navigation
 
 grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
+There are tons of grep variants:
+agrep|grep with fuzzy matches
 
+There are also many alternative variants of grep using more modern regexes, and also significantly faster:
+speed: rg > ag > ack
 
+### file manipulation
+
+#### editors
+
+a stream editor is a filter used to do text transformations
+The most common stream editor is sed。
+sed <options> <command> {<file>}
+command ::= [<addr>]<command-char>[<options>]
+addr ::= <int-or-regex>[,<int-w-op-or-regex>[!]]
+int-or-regex ::= <int>|/<regex>/
+int-w-op-or-regex ::= ([<operator>]<int>)|(<regex-delim-start><regex><regex-delim-end>)
+regex-delim-start ::= /|\\<char>
+regex-delim-emd ::= /|<char>
+
+sed command-char|function|options
+s|regex
+y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
+
+For sed, specifying a regex within an addr selects lines that match the regex
+For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
+
+### internet
+
+### hardware info
+
+lspci   list pci devices
+lshw   list hardware config
+lsblk   list block devices
+lsusb   list USB devices
 
 # connectors
 

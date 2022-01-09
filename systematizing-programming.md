@@ -2697,6 +2697,8 @@ CR|older macs
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
+The bell character is sometimes used in command-line utilities for a notiification sound
+
 Newline may refer to the newline character or any newline
 
 even?|Is the thing even|Integer

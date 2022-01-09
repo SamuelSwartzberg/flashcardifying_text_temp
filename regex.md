@@ -199,3 +199,14 @@ s|dotall/single-line mode|make . also match linebreaks
 x|free-spacing mode|ignore whitespace (to match, spaces must be escaped); enable # comments
 i|case-insensitive
 g|global|more than one match
+
+## flavors
+
+BRE treats most characters that would be metacharacters in other flavors as literals and as metacharacters only when escaped.
+ERE does not have BRE's weird metacharacter behavior.
+Both ERE and BRE are feature-poor compared to modern regex flavors.
+both sed and grep default to BRE.
+
+## the whole regex
+
+Often, regexes are given in the pattern /<regex>/<replacement>/<flags>
