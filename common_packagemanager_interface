@@ -1,3 +1,5 @@
+A dependency is a piece of software another piece of software relies on.
+
 In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
 A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
@@ -5,13 +7,16 @@ Build tools are the tools that create an executable application from source code
 A bundler is sorta indistinguishable from a build tool.
 A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 Most commonly, the CLI for a framework will also be a build tool.
-<what is a package manager>
+A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
+A package manager typically can manage packages from many different developers.
+A package is a file in a package format.
+A package unsually is made up of an archive (format) of some kind and some metadata.
 
 In latex the package manager is part of the tex distribution
 The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
 Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
 
-package manager
+## package managers
 
 cargo is the package manager and build tool for rust.
 the official package repository for cargo is crates.io

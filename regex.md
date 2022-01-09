@@ -210,3 +210,4 @@ both sed and grep default to BRE.
 ## the whole regex
 
 Often, regexes are given in the pattern /<regex>/<replacement>/<flags>
+sed uses the

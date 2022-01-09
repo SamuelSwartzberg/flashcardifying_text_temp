@@ -2595,6 +2595,14 @@ After the preceding expansions, all unquoted occurrences of the characters â€˜\â
 
 <h3>Redirection</h3>
 
+Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
+
+redirecting input [<n>]<[&]<word>
+redirecting output [<n>]>[\||>][&]<word>
+
+1> may be abbreviated > 
+0< may be abbreviated <
+
 <h3>Parameters</h3>
 
 In bash, a parameter is an entity that stores a value.

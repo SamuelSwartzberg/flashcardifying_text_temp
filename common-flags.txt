@@ -26,6 +26,7 @@
 -u|generally short for/equiv to --unset
 --dry-run|show what would happen withou changing anything
 -a|show dotfiles
+-E|use ERE instead of BRE (Only where applicable, obv)
 
 In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
 In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
