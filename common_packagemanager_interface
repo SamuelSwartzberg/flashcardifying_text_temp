@@ -16,6 +16,14 @@ In latex the package manager is part of the tex distribution
 The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
 Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
 
+## contaienrs
+
+Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
+A container often also includes software's dependencies within the container.
+An application being contained in a container is said to be containerized.
+Containerization improves security and portability.
+Containerization is the standard for most mobile operating systems.
+
 ## package managers
 
 cargo is the package manager and build tool for rust.

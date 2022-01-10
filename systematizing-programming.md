@@ -73,23 +73,28 @@ choice/selection control structures constructs are also just called conditionals
 In conditionals, any of the possible paths is called a branch.
 </p>
 
+<h4>if
 
 The most common conditional is if/then/else. 
   
 the if/then/(else) conditional is typically a statement (in rust, it's an expression).
-  An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
-  the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
-  elsif|liquid|perl|ruby
-  elif|Python|(ba)sh
-  elseif|lua
-  else if|C#|Java|JS|SCSS?Ass
+An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
+the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
 
+else if|C#|Java|JS|SCSS/Sass
+elseif|lua
+elsif|liquid|perl|ruby
+elif|Python|(ba)sh
+  
+Anki has a if-like conditional to show something only if a field has content, indicated like: 
+<pre><code data-codetype="text">{{c1::{​{}}{{c2::#FieldName}}{{c1::}​}}}
+	Lorem Ipsum
+{{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}</code></pre>
 
+<h4>conditional operator
 
 The ternary operator is a conditional which is typically an expression. 
-  
 The ternary operator is more properly called conditional operator. 
-  
 The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. 
 The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. 
   Example in JS:
@@ -99,7 +104,7 @@ The conditional operator comes from C (more properly an early ancestor of C), th
   >
 Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
-
+<h4>others
 
 An if statement/expression, but reversed in its truth value, is an unless statement/expression.
 unless statements/expressions use the keyword unless.
@@ -109,8 +114,7 @@ unless statements exist in liquid, perl, ruby
 Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
 for the postfix conditionals in perl, ruby
 
-
-
+<h4>switch
 
 switch is a type of conditional.
 the switch conditional is generally a statement.
@@ -133,6 +137,8 @@ JS Syntax examples:
    //Statements;
    {{c4::default:}}
 }</code></pre>
+
+<h4>guards
 
 guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
 Of the languages I know, Rust has guards, introduced by `if`.

@@ -952,6 +952,8 @@ The property of the open graph metadata is specified within the property propert
 
 # UI
 
+WIMP = Windows, icons, menus, pointer
+
 ## disclosure widgets
 
 A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
@@ -967,8 +969,27 @@ In html, you can force a disclosure widget to start in its open state by specify
 # the internet
 
 URLS locate resources on the internet
+The OSI model remains useful, but unimplemented.
+In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
+Internet protocol suite = TCP/IP
+Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
 
 ## layer 7
+
+HTTP, SMTP, POP, SSH, telnet...
+
+### telnet/ssh
+
+SSH = secure shell
+Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
+the SSH protocol, in contrast to the telnet protocol and the various rsh commands/protocols, is encrypted (via public-key cryptography).
+SSH is a protocol whose main purpose is accessing the shell on other computers.
+In accessing the shell on other computers, the SSH protocol has replaced rsh/telnet.
+Besides accessing the shell on other computers, the SSH protocol allows for other network services, such as data transfer.
+The berkeley r-commands are a suite of commands and associated protocols that are variants of well-known commands, but may be run remotely.
+In doing various things on remote hosts, SSh has replaced the various berkeley r-command.
+Specifically, to copy data between remote hosts, the scp command running over SSH has replaced rcp.
+The berkeley r-commands, telnet and now SSH all have a client-server architecture.
 
 ### the web
 
@@ -986,21 +1007,50 @@ The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to eli
 
 # hardware
 
+## circuits
+
+A combinatorial logic circuit is one whose output only depends on its input.
+A sequential logic circut is one whose output depends on its input, and the previous state.
+
 ## processors
 
 ### architecture
 
 The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
-Modern CPUs are claimed to be VNA, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent
+Modern CPUs are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
 
+In the VNA, the CPU, memory and IO are connected to/via the bus.
+<img src="sm_tmp_xpihn7q.png">
 
+### CPU
+
+#### ALU
+
+ALU  Arithmetic logic unit
+https://upload.wikimedia.org/wikipedia/commons/0/0f/ALU_block.gif
+The ALU performs arithmetic and bitwise operations.
+A basic ALU takes two imputs and returns an output, generally all of the word size of the encapsulating CPU.
+A basic ALU, besides its two inputs and an output, has a status flag input and output as well as an opcode input.
+
+##### Adders
+
+An adder is a logic circuit (I think?) that chains logic gate to perform addition.
+Adders are used within the ALU.
+A half-adder adds two binary digits and outputs a sum and a carry.
+A full adder is like a half-adder, but also takes a carry-in.
+A half and a full-adder ouptuts an output of size 2 bit.
+Chaining full adders allow us to do arbitrary large binary addition.
+
+### CU
+
+CU  Control Unit
 
 ### instruction set
 
 An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
 The instruction set is the set of operations a processor supports, which bit sequences represent which instructions, and how the arguments are organized.
 Depending on the instruction set, machine langauge instructions may all be the same length or not.
-In a general sense, a word is how many bits a CPU may address at once.
+In a general sense, a word is how many bits a  PU may address at once.
 The length of a word is the word size
 In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
 
@@ -1017,6 +1067,14 @@ x86_64 may also be called AMD64 or Intel 64
 
 CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
 
+### clocking
+
+A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the thing it's governing.
+A clock signal is usually a square wave with a high and low state.
+In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
+{{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
+{{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
+
 ## chipset
 
 <img src="sm_chipset.svg">
@@ -1031,6 +1089,9 @@ Today, assembler/machine code is almost always generated by compilers/interprete
 # data storage
 
 ## memory
+
+ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
+ROM was used to store games on game cartidges, for example.
 
 ### primary memory
 
@@ -1069,6 +1130,10 @@ Even non-case-sensitive file systems are almost always case-preserving.
 
 {{c1::the directory structure}} is the way data is organized in a file system using directories
 
+##### XDG Base Directory Specification
+
+Spec governing the organization of files in your home directory   XDG Base DIrectory Specification
+
 ##### FHS
 
 FHS  Filesystem Hierarchy Standard
@@ -1096,6 +1161,10 @@ anything written to /dev/null discards the data, whence its nicknames bit-bucket
 
 ## files
 
+### principle types
+
+folder (windows) = directory (*nix)
+
 ### binary
 
 #### bitmaps
@@ -1122,10 +1191,16 @@ In JSON, the top-level item can either be an object or an array.
 
 #### email
 
+Fundamentallly, all emails in an email account (generally associated with a single email address, but not necessarily) are stored in an an (email) mailbox
+Message/mail delivery agents are programs that deliver emails to a mailbox.
+
+##### mbox & imf
+
 In the mbox format, an entire mail directory is held in a single file.
 The mbox format consists of individual IMF messages.
 The fileformat for emails is generally IMF.
 The mbox format has problems with concurrency (safety and performance).
+To prevent corruption, mbox files generally need to use file locking to prevent problems arising from concurrency.
 mbox ::= <mbox-email>{<mbox-email>}
 mbox-email ::= <from-line><IMF-message><LF>
 from-line ::= From <sender-email> <utc-datetime><LF>
@@ -1135,9 +1210,24 @@ body ::= <LF><body-contents>
 
 The IMF uses CRLF, however when stored in mbox, they use LF instead.
 
-The maildir format has three subdirectories (at least) for any directory
+##### maildir
+
+The maildir format is a format to store mailboxes and mail directories.
+The maildir format has three subdirectories (at least) for any directory.
+The three mandatory directories for any subdirectory in maildir are cur, new, and tmp.
+Using maildir, an arriving message will be sorted into tmp until it is processed completely, then it is inserted into new.
+Using maildir, once a mail in new has been read, it si sorted into cur.
 
 # running the computer
+
+## hardware interfaces
+
+ACPI  advanced configuration and power interface
+ACPI is a low-level interface to the power hardware of the computer, allowing for power management; it is currently the standard for that purpose.
+ACPI executes the requests it gets as bytecode, acting like black box, and thus presenting a built-in security risk.
+The ACPI exposes its interface as ACPI tables.
+The Windows Platform Binary Table is an ACPI tible that allows software to persist even beyond reinstalls.
+The Superfish vulnerability was enabled by the Windows Platform Binary Table.
 
 ## booting
 
@@ -1206,11 +1296,20 @@ RNG  random number generator
 
 # *nix
 
+## GNU/Linux
+
+GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
+GNU = GNU's not unix
+The GPL was originally created for GNU
+(GNU) GPL = GNU General Public License
+
 ## command-line tools
 
 mail or the older mailx are *nix builtins to manage mail.
 
 ### fs navigation
+
+#### grep
 
 grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
 There are tons of grep variants:
@@ -1219,7 +1318,12 @@ agrep|grep with fuzzy matches
 There are also many alternative variants of grep using more modern regexes, and also significantly faster:
 speed: rg > ag > ack
 
-### file manipulation
+#### file info
+
+od|output files in octal, but also in other repreesentations
+od -x|hex dump
+
+### text manipulation
 
 #### editors
 
@@ -1240,7 +1344,23 @@ y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with t
 For sed, specifying a regex within an addr selects lines that match the regex
 For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
 
+original line editor for linux: ed
+
+#### basic filters
+
+lolcat   make output rainbowy
+cowsay   make an ascii cow say the specific thing
+
+#### generation
+
+
 ### internet
+
+### UI
+
+#### X
+
+wmctrl   Manage an X window manager
 
 ### hardware info
 
@@ -1249,11 +1369,47 @@ lshw   list hardware config
 lsblk   list block devices
 lsusb   list USB devices
 
-# connectors
+# communication
 
-## usb
+## serial and parallel
+
+Serial communication sends its bits one after another over the channel.
+Parallel communication sends multiple bits simultaneously over multiple subchannels.
+One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
+Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
+
+## connectors
+
+Crosstalk is a signal transmitted on one circuit or channel causing an undesired effect {{c1:: on another circuit or channel}}
+
+### PCI
+
+PCI is a parallel bus, PCIe is a serial bus
+PCI, AGP (older), PCIe (today) are the protocols/connectors that were/are used to connect things on the motherbord, especially PC expansion cards but also some of the things oldered on.
+
+### usb
 
 USB can transmit both data of various kinds as well as power.
+
+## protocols
+
+pulling is where the request initiates from the client, and is responded to by the server
+pushing is where a request is initiated by a server.
+polling is frequently checking whether a thing is in a certain state
+polling may be used to simulate push protocols.
+
+# principles
+
+GIGO   Garbage In, Garbage Out
+Garbage in, garbage out claims that if the input data is somehow bad {{c1::the output data will be too}}
+Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
+"Anything that can go wrong will go wrong"   Murphy's law
+
+# licenses
+
+Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
+GPL is a type of copyleft license.
+Share-alike is a type of copyleft license.
 
 # todo
 

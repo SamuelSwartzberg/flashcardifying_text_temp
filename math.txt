@@ -4,5 +4,74 @@
 
 The origin is the point where the axes in a cartesian coordinate system intersect
 
+# units
+
+A metric prefix aka SI prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. 
+All metric prefixes used today are decadic. 
+A metric prefix is a unit prefix that precedes bits/bytes to indicate a multiple or submultiple.
+When contrasted with binary prefixes, metric prefixes may also be known as decimal prefixes.
+Binary prefixes are base-2, most commonly multiples of 1024.
+binary-prefix-symbol ::= <metric-prefix-symbol>i
+binary-prefix-name ::= <metric-prefix-name-first-2-chars>bi
+Sometimes, metric(=decimal) prefixes are used as binary prefixes, however this is incorrect usage 
+metric/decimal prefixes refer to increases of 1000, even when used on bits or bytes.
+
+b|bit
+B|byte
+
+# bitwise logic
+
+AND|0|0|0
+AND|1|1|1
+AND|0|1|0
+AND|1|0|0
+OR|0|0|0
+OR|0|1|1
+OR|1|0|1
+OR|1|1|1
+XOR|0|0|0
+XOR|0|1|1
+XOR|1|0|1
+XOR|1|1|0
+
 # positional 
 
+## systems
+
+### hex
+
+In hexadeximal, to represent digits beyond 9, a-f are used.
+
+## conv
+
+### dec-hex
+
+<table>
+  <thead>
+    <tr><th>Decimal number</th>
+    <th>Hexadecimal number</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::1342<sub>10</sub>))</td> <td>((c:2;::53E<sub>16</sub>))</td></tr>
+<tr><td>((c:3;::13<sub>10</sub>))</td> <td>((c:4;::D<sub>16</sub>))</td></tr>
+<tr><td>((c:5;::233<sub>10</sub>))</td> <td>((c:6;::E9<sub>16</sub>))</td></tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr><th>Decimal digit</th>
+    <th>Hexadecimal digit</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:7;::decimal 10))</td> <td>((c:8;::hexadecimal A))</td></tr>
+<tr><td>((c:9;::decimal 15))</td> <td>((c:10;::hexadecimal F))</td></tr>
+<tr><td>((c:11;::decimal 6))</td> <td>((c:12;::hexadecimal 6))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+
+
+Parity is the property of being even or odd.
+Something has a parity of even if it is divisible by two, and odd otherwise.
+A number in a positional numeral system will be even if its final digit is even.
