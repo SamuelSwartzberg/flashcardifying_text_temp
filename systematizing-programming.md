@@ -745,6 +745,12 @@ Internally, symbols are often represented by a number.
 :name|Ruby
 Symbol("name")|JS
 
+<h3>references
+
+A reference is a value that allows indirect access to another value.
+A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
+Handle is an ambiguous concept, but is most commonly seem as a synonym to reference.
+
 <h3>Dates</h3>
 
 Most common format is RFC 3339 / ISO 8601
@@ -847,6 +853,15 @@ Associative collections map keys to values.
 Js sets and maps use .size instead of .length
 Java has the Collections Framework for collections 
 
+<h4>Access
+
+Random access might be clearer if it was called direct access.
+Random access allows access to arbitrary elements at will.
+Sequential access only allows access in a certain sort of order.
+<img src="sm_rand_seq_acc.svg">
+book|random access (to pages)
+scroll|sequential access
+
 <h4>Collection methods</h4>
 
 Clear a mutable collection
@@ -948,6 +963,8 @@ Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
 Linear collections are the equivalents of sequences in math.
 Python sequences: list, tuple, str
+
+It seems to me that all non-array linear collections only allow sequential access.
 
 <h5>Linear collection methods</h5>
 
@@ -1101,7 +1118,7 @@ Re: modern CPUs, linked lists have the problem that they are stored non-contiguo
 
 <h5>Streams</h5>
 
-Lists/Sequences are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
+Streams are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
 
 <h5>Stack</h5>
 
@@ -2029,6 +2046,8 @@ Strict mode in JS:
 
 <h2>IO</h2>
 
+<h3>the enviornment
+
 In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
 sys.stdin|python
 
@@ -2039,6 +2058,36 @@ process.argv|node
 Environment variables
 %ENV|Perl
 process.env|Node
+
+<h3>Print</h3>
+
+Print functions in different languages
+
+print()|lua|perl (no final newline)|python|Ruby (no final newline)
+say()|perl (final newline)
+puts|Ruby (final newline)
+console.log()|JS
+@debug|SCSS/Sass
+System.out.prinln()|Java
+Console.WriteLine|C#
+echo|liquid (within liquid block)|(ba)sh
+
+Print functions using format strings
+printf|(ba)sh|C (ofc)|Perl|Ruby
+string.format|Lua
+% syntax|Python
+
+Print an error to console (but don't throw one)
+console.error()|JS
+@warn|SCSS/Sass
+
+<h3>visual
+
+<h4>UI
+
+widget tookit   library for creating UIs
+gtk   GNU widget toolkit
+qt (read cute)   cross-platform widget toolkit
 
 <h2>Formatting</h2>
 
@@ -2276,28 +2325,6 @@ math|Python
 
 Filesystem handling
 fs|node
-
-<h3>Print</h3>
-
-Print functions in different languages
-
-print()|lua|perl (no final newline)|python|Ruby (no final newline)
-say()|perl (final newline)
-puts|Ruby (final newline)
-console.log()|JS
-@debug|SCSS/Sass
-System.out.prinln()|Java
-Console.WriteLine|C#
-echo|liquid (within liquid block)|(ba)sh
-
-Print functions using format strings
-printf|(ba)sh|C (ofc)|Perl|Ruby
-string.format|Lua
-% syntax|Python
-
-Print an error to console (but don't throw one)
-console.error()|JS
-@warn|SCSS/Sass
 
 <h3>Query for input</h3>
 

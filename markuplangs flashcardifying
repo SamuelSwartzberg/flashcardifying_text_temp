@@ -1150,6 +1150,9 @@ FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory struct
 
 ###### /dev
 
+/dev contains device files.
+device files are files that are interfaces to device drivers (or more rarely other things).
+
 ####### not real devices
 
 /dev/random and /dev/urandom are CSPRNGs of nix* systems
@@ -1159,6 +1162,20 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 /dev/zero returns as many 0x00 as you like.
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
 
+####### block device files
+
+The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
+Originally, the /dev/sd<char>[<number>] was only used for block devices using SCSI.
+Because ATA/SATA/PATA devices suppoort a subset of the commands of SCSI, linux decided to also handle them by the kernel's SCSI driver subsystem, therefore their device files also use the  /dev/sd<char>[<number>] naming scheme.
+For the devices handled by the kernel's SCSI subsystem and thus named  /dev/sd<char>[<number>], the character is assigned depending on which device is descovered first, starting from a. The number indicates the number of the partition.
+/dev/fd/<n> are device files representing the file descriptors of the current process, however /dev/fd<n> (notice the difference!) indicates the nth floppy disk connected.
+/dev/hd<n> are device files representing entire, raw hard disks (not commonly used today)
+/dev/input contains device files for
+
+####### character device files
+
+/dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
+
 ## files
 
 ### principle types
@@ -1166,6 +1183,9 @@ anything written to /dev/null discards the data, whence its nicknames bit-bucket
 folder (windows) = directory (*nix)
 
 ### binary
+
+Binary files without a specification/documentation/parser are basically meaningless/unreadable.
+What the binary files contents mean is defined by the file format.
 
 #### bitmaps
 
@@ -1186,6 +1206,15 @@ JSON has the same syntax as JS object literals, with a few exceptions.
 In JSON but not JS object literals, keys must be quoted.
 In JSON but not JS object literals, functions are forbidden.
 In JSON, the top-level item can either be an object or an array.
+
+### container
+
+A container format is a file format that contains different parts.
+The component parts of a container format may be called chunks, segments, streams, or something else.
+In general, the component parts of a container format have some kind of header aand a body.
+IFF is a chunk-based file format.
+IFF chunks begin with a type ID, followed with a specifier of the length of the chunk.
+RIFF and AIFF are file formats based on IFF, but TIFF (surprisingly) isn't 
 
 ### cross-cutting
 
@@ -1303,13 +1332,68 @@ GNU = GNU's not unix
 The GPL was originally created for GNU
 (GNU) GPL = GNU General Public License
 
+### linux
+
+#### input
+
+On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
+libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
+
+#### X
+
+
+
+## files
+
+linux: "Everything is a file"
+Plan 9: "Really everything is a file"
+
+### 7 types of files
+
+In unix, there are 7 types of files.
+Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
+
+#### links
+
+ln creates hardlinks by default, and symlinks with -/--symbolic.
+symlink is short for symbolic link.
+A symbolic link is a file that is a reference to another file in form of a path.
+If the file a symbolic link points to is moved, the symbolic link now points to nothing.
+since links exist, the file system isn't actually a tree, but a directed graph.
+most programs treat symlinks transparently, however rm/mv/... edit the symlink file itself.
+A hard link is a reference to an inode.
+A hard link only exists as a directory entry, in fact, all directory entries are hard links.
+To use a hard link, the file must be on the same filesystem.
+If a file moves, a hard link will still be pointing to it.
+
+#### directories
+
+dentry = directroy entry.
+in the ext filesystem, a directory file is made up of a list of directory entries.
+In the ext filesystem, a directory entry contains the inode number, file name and file name length.
+Within the ext filesystem, the first entry in any directory file is the . entry.
+Within the ext filesystem, the second entry in any directory file is the .. entry.
+If there is an inode not referenced by any directory entry, it will be placed in lost+found.
+
+#### device files
+
+two of the seven types of files are device files.
+Block device files grant random access.
+Character device files grant sequential access.
+
+A file descriptor is a reference to a file or file-like things
+
+
+
 ## command-line tools
 
 mail or the older mailx are *nix builtins to manage mail.
 
-### fs navigation
+### fs
 
-#### grep
+##### search
+
+###### grep
 
 grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
 There are tons of grep variants:
@@ -1322,6 +1406,10 @@ speed: rg > ag > ack
 
 od|output files in octal, but also in other repreesentations
 od -x|hex dump
+
+#### changing
+
+dd   copying (similar to cat/cp) with some low-level options
 
 ### text manipulation
 
@@ -1368,6 +1456,10 @@ lspci   list pci devices
 lshw   list hardware config
 lsblk   list block devices
 lsusb   list USB devices
+
+### sub management
+
+podboat   podcast management for newsboat
 
 # communication
 

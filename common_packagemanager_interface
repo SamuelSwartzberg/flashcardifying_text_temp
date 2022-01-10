@@ -23,6 +23,7 @@ A container often also includes software's dependencies within the container.
 An application being contained in a container is said to be containerized.
 Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
+Containerization may limit functionality and increase size (since dependencies cannot be shared)
 
 ## package managers
 
@@ -35,7 +36,9 @@ npm scripts works as a task runner for JS.
 There are more JS build tools than you can shake a stick at. The most common is webpack.
 pip is the package manager for python.
 The official package hub for pip is PyPI.
-apt is the package manager for Ubuntu
+apt is the package manager for Ubuntu.
+dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
+apt uses dpkg in the background.
 homebrew (command: brew) and macports (command: port) are package managers for macos.
 homebrew can also be used on linux, and is written in ruby.
 ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
@@ -45,6 +48,12 @@ tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
 conda is the package manager for the anaconda software distribution.
 metro is the bundler for React Native.
+snap is the package manager for snaps, which are mainly used in Ubuntu, but can be used on many *nixlikes.
+snap packages = snaps
+snaps are containerized
+snaps are maintained by the snapd daemon.
+snap calls its updates refreshes.
+snap auto-refreshes four times a day by default.
 
 Package manifest
 
@@ -58,7 +67,8 @@ package|general package information|Cargo.toml
 package manager functionality 
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
-update|update all dependencies|bundler|npm
+update|update all dependencies/installed packages|bundler|npm
+refresh|update all installed packages|snap
 exec|execute a script in the current bundle|bundler
 upgrade|installs all available updates|apt|brew
 install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
@@ -67,13 +77,14 @@ uninstall PACKAGE|uninstall a package|brew|npm
 remove PACKAGE|uninstall a package|apt
 ls/list|list installed packages|brew|npm
 outdated|show a list of outdated packages|brew|npm|bundler
-tap TAPNAME|add a repository|brew
 init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
 show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
 show FOO version|show latest version of package foo|npm
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
 -g or --g|do whatever globally
+
+tap TAPNAME|add a repository|brew
 
 Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed
 
