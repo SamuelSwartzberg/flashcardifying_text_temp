@@ -5,7 +5,8 @@ e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
 
 <h2>Statements</h2>
 
-Statements are the fundamental unit of programming in imperative programming languages.
+Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
+Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
 Statements do not return a value.
 Since statements do not return a value, they either do nothing or cause side effects.
 var test = 2 + 6; -> side effect of initializing a variable test
@@ -28,8 +29,10 @@ semicolons as statement separators and statement terminators, complex exceptions
 
 §§ ((c:7;::Blocks)) ((c:8;::contain/consist of)) ((c:9;::one or more)) ((c:10;::statements)). §<br>
 §§ ((c:11;::In/with)) ((c:11;::constructs)) or ((c:11;::languages)) that are ((c:12;::block-scoped)), ((c:13;::a block defines a scope)). §<br>
-  §§ ((c:14;::Curly-brace/bracket languages))&nbsp;are defined as languages that ((c:15;::use curly-braces)) ((c:16;::to define blocks)). §<br>
-  (ba)sh is not generally a curly-brace language, but it still allows creating block statements via {}
+§§ ((c:14;::Curly-brace/bracket languages))&nbsp;are defined as languages that ((c:15;::use curly-braces)) ((c:16;::to define blocks)). §<br>
+Many programming languages have been influenced by C, sometimes called C-family languages.
+C was a curly-brace language, and so many C-family language are curly-brace languages.
+(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {}
 §§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)), SCSS (but not Sass). §<br>
 §§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
@@ -536,7 +539,7 @@ Mutability is whether something can be changed after inital creation. Something 
 Different things can have mutability: Objects, variables, (though generally not primitves).
 Some languages make a difference in which keywords are used to declare constants and variables.
 Constants are immutable, while variables are mutable.
-In most languages, constants are written in all upper case
+In most languages, constants are written in all upper case.
 
 Keyword for constants:
 const|JS|Rust
@@ -587,6 +590,8 @@ Python: integers, floats, complex numbers
 <h3>Type Systems</h3>
 
 A (data) type consists of a set of values that something with that type can assume.
+In implementation, each value of a type has a unique (within the type) binary representation.
+Typing can also be understood as how to interpret a series of bits.
 A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
 A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
 
@@ -617,7 +622,7 @@ Manifestly and statically typed languages can be more effort to write, but also 
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
 Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
-In most (esp. C-influenced) languages, type annotation goes before the variable/constant.
+In most (esp. C-family) languages, type annotation goes before the variable/constant.
 In Python, Rust and TS, type annotation looks like so `: type`
 Python supports type annotation since Python .35
 
@@ -1417,6 +1422,9 @@ It is possible to create a kind of if statement using only short-circuiting oper
 
 <h3>bitwise</h3>
 
+Bitwise operations operate on the underlying binary value (regardless of type in the programming language).
+Most C-family languages support bitwise operations.
+
 bitwise not|~
 left shift|&lt;&lt;
 right shift|>>
@@ -1520,6 +1528,18 @@ recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack over
 Java and C# call recoverable errors exceptions and unrecoverable errors errors.
 It can make sense to catch recoverable errors, but it is generally impossible to catch unrecoverable errors
 
+<h3>types
+
+Errors can on one level be divided into {{c1::syntax}}, {{c2::static semantic,}} and {{c3::logic errors}}.
+
+A syntax error is an expression which violates the syntax of the language (will be detected during syntax analysis)
+forgetting a parenthesis
+A static semantic error is an expression which is syntactically correct but semantically meaningless. (will be detected during semantic analysis)
+3/"kawaisa"
+A logic error is an error where the program runs without problems, but produces an unintended result. (will only be detected on running the program, generally)
+
+Based on when they occur, we separate compile-time and runtime errors
+
 <h3>Error handling</h3>
 
 <h4>Throwing errors</h4>
@@ -1552,6 +1572,8 @@ rusts {{c1::assert!}} macro tests whether {{c2::something is true}}, and {{c3::p
 
 <h2>Callable units</h2>
 
+Callable unit is a cover term for anything that can be called, be that functions, methods, procedures...
+A call is a thing that executes a callable unit.
 Callable units generally can take arguments if specified.
 
 Keyword to start a callable unit
@@ -1561,7 +1583,8 @@ def|python|Ruby
 sub|perl
 no keyword|C#|Java
 
-Callable units can generally be split into callable unit signature and callable unit body. The callable unit signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a callable unit signature contains nothing but the keyword and name
+Callable units can generally be split into callable unit signature and callable unit body. The callable unit signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a callable unit signature contains nothing but the keyword and name/
+The body of the callablue unit contains the code to execute.
 In java, the callable unit signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
 In JS, function keyword defined callable units generate their own this, while arrow functions do not.
 
@@ -1586,6 +1609,15 @@ In non-manifestly typed languages, the default return value of a function is the
 In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
 In Rust, using the return keyword is frowned upon, as blocks return their final expression anyway.
+
+<h4>returning and side effects
+
+A side effect is a modification of the state of something that is outside of the local environment the operation is performed in.
+A callable unit must return something or have side effects, else it does nothing.
+A procedure (using a narrow definition) is a callable unit that does not return a value, instead causing side effects.
+A function is a callable unit that returns a value.
+A pure function is idempotent and has no side effects.
+
 
 <h3>Closures</h3>
 
@@ -1809,7 +1841,7 @@ In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
 <h2>Records</h2>
 
-A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. The fields of a record may also be called members.
+A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
 A type that defines a record is a record type.
 Most programming languages allow creation of instances of record types.
 
@@ -1825,8 +1857,9 @@ An instance x operates on/is defined on an instance of a record.
 A class x may also be known as an associated function.
 Class x ≈ static x
 generally, one mainly talks of class, instance methods, which operate on classes/instances, and class, instance variables
-class + instance variables = fields
-Members are generally all methods and fields of a record, no matter if class or instance
+class variables + instance variables = fields
+Members are generally all methods and fields of a record, no matter if class or instance.
+ergo: members = member fields + member bariables
 A piece of data on a record is called a field
 
 In rust, a class method/associated function is called by using the :: operator
@@ -1837,6 +1870,7 @@ does not take self as argument|Rust
 
 <h3>Methods</h3>
 
+A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
 A message in OOP consists of the target object, the name of the method to perform, and the argumetns passed.
 
@@ -2021,8 +2055,12 @@ toString()|JS
 
 <h4>Boxing</h4>
 
+A box is a minimal object wrapper around another type.
+The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
+putting values into a box is called boxing, the opposite unboxing
+A wrapper is any entity that encapsulates/wraps around another thing.
 Memory-wise, since boxes are objects, boxed data will be stored on the heap.
-Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO. 
+Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO, consequently most primitives are boxed in languages aspiring to pure OO such as Python, JS, Ruby...
 Autoboxing is the conversion of primitves to boxed types when relevant.
 Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
 
@@ -2372,6 +2410,9 @@ Bash also supports characters as start and stop.
 A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
+
+$Something that happens during execution   runtime $something
+$Something that happens during compiling   compile-time $something
 
 <h3>Compilation/Interpretation</h3>
 

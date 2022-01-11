@@ -966,17 +966,77 @@ Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
 <img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
 
+## status bar
+
+<div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
+<br>---<br>
+  §§ On ((c:1;::desktop)), a ((c:2;::status bar)) is a ((c:3;::horizontal)) ((c:4;::bar)) generally at ((c:5;::the bottom of a window)). §<br>
+  §§ A ((c:15;::status bar)) on desktop displays ((c:6;::various kinds of information)), often used when ((c:7;::editing documents ((n)vi(m), vscode, various office programs, etc.))). §<br>
+  §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
+  §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
+
 # the internet
 
 URLS locate resources on the internet
+
+## models
+
 The OSI model remains useful, but unimplemented.
 In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
 Internet protocol suite = TCP/IP
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
 
+<table>
+<thead>
+<tr>
+<th>OSI Model</th>
+<th>TCP/IP Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>((c:1;::Application))</td>
+<td rowspan="3">((c:10;::Application))</td>
+</tr>
+<tr>
+<td>((c:2;::Presentation))</td>
+</tr>
+<tr>
+<td>((c:3;::Session))</td>
+</tr>
+<tr>
+<td>((c:4;::Transport))</td>
+<td>((c:5;::Transport))</td>
+</tr>
+<tr>
+<td>((c:6;::Network))</td>
+<td>((c:7;::Network/Internet))</td>
+</tr>
+<tr>
+<td>((c:8;::Data Link))</td>
+<td rowspan="2">((c:11;::Link))</td>
+</tr>
+<tr>
+<td>((c:9;::Physical))</td>
+</tr>
+</tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ## layer 7
 
 HTTP, SMTP, POP, SSH, telnet...
+
+### URLS & Hyperlinks
+
+#### hotlinks, deeplinks
+
+hotlinking = inline linking
+Hotlinking is embedding a resource from {{c1::another fqdn}}
+A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
+A link to the homepage of a page is called a surface link
 
 ### telnet/ssh
 
@@ -1024,6 +1084,14 @@ In the VNA, the CPU, memory and IO are connected to/via the bus.
 
 ### CPU
 
+#### registers
+
+A processor generally has between 10-100 registers.
+There are many different kinds of registers:
+register|contains
+General Purpose Registers|mostly whatever you like
+Register: Stack Pointer|stack pointer
+
 #### ALU
 
 ALU  Arithmetic logic unit
@@ -1054,18 +1122,39 @@ In a general sense, a word is how many bits a  PU may address at once.
 The length of a word is the word size
 In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
 
+A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
+For a load-store architecture, all things being operated on must be in registers.
+
 #### RISC CISC
 
 RISC  Reduced instruction set computer
 CISC  Complex instruction set computer
+
+##### CISC
+
 x86 is a family of instruction set architectures
 x86 are the most common type of CISC architectures.
 x86 architectures with 64-bit word size are called x86_64
 x86_64 may also be called AMD64 or Intel 64
 
+##### RISC
+
+ARM is a family of instruction set architectures
+ARM ISAs are the most common type of RISC arcchitectures.
+While PowerPC was also a RISC ISA and was widely used in all sorts of products, RISC largely became mobile/embedded-only in the mid 2000s until 2021, with apple's switch to ARM RISC processors and their use in in e.g. the worlds most powerfull supercomputer 富岳.
+RISC chips generally have far lower power consumption than CISC chips.
+Most RISC ISAs are also load-store ISAs.
+CPI = clocks/cycles per instruction
+In general, a RISC ISA has 1 CPI, with fixed-length instructions.
+
 ### cache
 
 CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
+The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
+processor finds memory location in cache   cache hit
+processor does not find memory location in cache   cache miss
+When a cache miss occurs, the processor generally needs to wait while the data is being fetched
+the {{c1::Cache replacement policy}} is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
 
 ### clocking
 
@@ -1073,6 +1162,7 @@ A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the
 A clock signal is usually a square wave with a high and low state.
 In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
 {{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
+DDR  Double data rate
 {{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
 
 ## chipset
@@ -1086,10 +1176,24 @@ Today, assembler/machine code is almost always generated by compilers/interprete
 
 # topologies
 
+A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
+
 # data storage
 
 ## memory
 
+### addressing
+
+Logical Address = Virtual Address
+Virtual memory is addresed vy virtual addresses.
+For primary memory, virtual addresses are mapped to physical addresses in the page table.
+The MMU (Memory management unit) is a hardware device typically used to handle the page table/mapping of log to phys addr.
+Virtual memory will appear to an application to be continuous, though the physical memory it occupies may be discontinous.
+Today, modern OSs only expose virtual memory to user-level programs.
+
+### rom
+
+ROM  Read only memory
 ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
 ROM was used to store games on game cartidges, for example.
 
@@ -1101,8 +1205,13 @@ Nonvolatile RAM   NVRAM
 
 #### drives
 
+##### HDD
+
 a HDD is made up of clusters which are made up of sectors.
 A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
+<img src="sm_hdd_w_labels.svg">
+
+##### SSD
 
 an SSD chip is made up of blocks which are made up of pages
 To write new data on an SSD, first you need to erase the old data.
@@ -1130,6 +1239,11 @@ Even non-case-sensitive file systems are almost always case-preserving.
 
 {{c1::the directory structure}} is the way data is organized in a file system using directories
 
+##### home dir
+
+Generally one home directory per user.
+On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
+
 ##### XDG Base Directory Specification
 
 Spec governing the organization of files in your home directory   XDG Base DIrectory Specification
@@ -1137,7 +1251,7 @@ Spec governing the organization of files in your home directory   XDG Base DIrec
 ##### FHS
 
 FHS  Filesystem Hierarchy Standard
-FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
+FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}\
 
 ###### /sys
 
@@ -1152,6 +1266,17 @@ FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory struct
 
 /dev contains device files.
 device files are files that are interfaces to device drivers (or more rarely other things).
+
+###### bins
+
+whatever/bin is generally for executables
+Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
+today, /bin often just is a symlink to /usr/bin (and analogously for lib)
+whatever/lib generally conains libraries for whatever/bin
+
+###### /tmp
+
+/tmp is sometimes emptied on process exit or on boot.
 
 ####### not real devices
 
@@ -1175,6 +1300,11 @@ For the devices handled by the kernel's SCSI subsystem and thus named  /dev/sd<c
 ####### character device files
 
 /dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
+
+##### Mac
+
+((h:all;::<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">))((c:2;::macOs))'s ((c:1;::/private)) folder contains ((c:3;::a few directories that would have been found in / on FHS-compliant devices)), namely ((s:1-3;::((c:4;::etc)), ((c:5;::tmp)), and ((c:6;::var))))
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## files
 
@@ -1206,6 +1336,56 @@ JSON has the same syntax as JS object literals, with a few exceptions.
 In JSON but not JS object literals, keys must be quoted.
 In JSON but not JS object literals, functions are forbidden.
 In JSON, the top-level item can either be an object or an array.
+
+#### ICAL/VCARD
+
+ical|text/calendar|calendar information|RFC 5545|.ics
+vcard|text/vcard|contact information|RFC 6350|.vcf
+The iCalendar object is organized into individual lines of text, called content lines. 
+Any content lines not acting as delimiters are called properties.
+Rough general ENBF:
+ical, vcard ::= {<contentline>}
+contentline ::= <name>{;<param>}:<value><CRLF>
+name ::= <iana-token>|<x-name>
+param ::= <param-name>=<param-value>{,<param-value>}
+
+The iana-tokens "BEGIN" and "END" signify the beginning and end of an icalendar or vcard object, or a component/subcomponent in the case of Ical.
+There is currently only one subcomponent, VALARM
+BEGIN and END take a value of VCALENDAR for an ical object and VCARD for an vcard object
+
+ical-object ::= <ical-begin-line><version-line><prodid-line>{<ical-component>}<ical-end-line>
+ical-begin-line ::= BEGIN:VCALENDAR<CRLF>
+ical-end-line ::= END:VCALENDAR<CRLF>
+version-line ::= VERSION:2.0<CRLF>
+prodid-line ::= PRODID:<string><CRLF> # UID of creator
+ical-component ::= <begin-line>{<contentline>|<ical-component>}<end-line>
+begin-line ::= BEGIN:<component-name><CRLF>
+end-line ::= END:<component-name><CRLF>
+
+In vCard, properties are direct children of the {{c1::the vCard object}}
+In general, an .ics contains one ical object, however a .vcf may contain multiple ical objects
+
+vcard-object ::= <ical-begin-line><version-line>{<contentline>}<ical-end-line> # no prodid
+cal-begin-line ::= BEGIN:VCARD<CRLF>
+ical-end-line ::= END:VCARD<CRLF>
+version-line ::= VERSION:4.0<CRLF>
+
+icalendar lines may be a maximum of 75 octets long. If they are longer, they are broken up into multiple lines, where a leading space/tab on the new line indicates it is a continuation.
+
+ical/vcard property names
+ATTENDEE   the users attending/assigned a task
+DTEND   end time
+DTSTART   start time
+ORGANIZER   the organizer of the event
+RRULE   rules for repeating
+SUMMARY   title/summary
+VALARM   Alarm/Reminder
+VEVENT   Event
+VFREEBUSY   free/busy time
+VJOURNAL   Journal entry
+VTIMEZONE   timezone definition
+VTODO   Task/Todo
+
 
 ### container
 
@@ -1345,6 +1525,7 @@ libinput is native in wayland, but optional in X, which can also manage input de
 
 ## files
 
+Dotfiles are files that start with a dot, these are generally hidden by default.
 linux: "Everything is a file"
 Plan 9: "Really everything is a file"
 
@@ -1461,6 +1642,24 @@ lsusb   list USB devices
 
 podboat   podcast management for newsboat
 
+## processes
+
+On unix systems, a process is an (instance of a) program that is {{c1::running}}
+
+### termianl system
+
+physical teriminal: <img src="sm_screen1.png">
+terminal emulator: <img src="sm_screen2.png"/>
+<img src="sm_screen3.png" />
+
+### process relationships
+
+## users and groups
+
+GID|group id
+UID|user id
+groups/users on nix are uniquely identified by their user or group ID.
+
 # communication
 
 ## serial and parallel
@@ -1476,19 +1675,194 @@ Crosstalk is a signal transmitted on one circuit or channel causing an undesired
 
 ### PCI
 
+PCI   Peripheral Component Interconnect
+PCIe  Peripheral Component Interconnect Express
 PCI is a parallel bus, PCIe is a serial bus
-PCI, AGP (older), PCIe (today) are the protocols/connectors that were/are used to connect things on the motherbord, especially PC expansion cards but also some of the things oldered on.
+PCI, AGP (older), PCIe (today) are the protocols/connectors that were/are used to connect things on the motherbord, especially PC expansion cards but also some of the things soldered on.
+
+### thunderbolt
+
+Thunderbolt 1 and 2 are transmitted via the MiniDisplayPort connector.
+Thunderbolt 3 and 4 are transmitted via the USB C connector.
+Apple and Intel co-developed Thunderbolt around 2011.
+Thunderbolt was designed to run over optic fiber cables, but actually generally runs over copper.
+
+### DP
+
+Mini and nonmini {{c4::DisplayPort}} is mainly for {{c1::video / audio}}, but can also carry {{c2::USB}} and {{c3::other data (e.g. thunderbolt)}}
 
 ### usb
 
+USB   Universal serial bus
 USB can transmit both data of various kinds as well as power.
+The speed of USB depends on the version of USB, indicated with a number.
+The role in the master/slave architecture of USB is indicated by a letter.
+The connector type of USB depends on the letter indicating its role within the master/slave system, as well as the size specifier.
+
+A|Master
+B|Slave
+AB|complicated
+C|Either Master or Slave dynamically
+
+Size specifiers: ø, mini, micro.
+
+USB C only exists as a single size.
+
+USB versions: 1.0, 1.1, 2.0, 2.0 revised, 3.0, 3.1, 3.2, 4.0
+
+Within USB 3, usb 3.1 and 3.2 were renamed
+
+<table class="yesno"><tbody><tr>
+  <th>Standard
+  </th>
+  <th>USB 1.0
+  </th>
+  <th>USB 1.1
+  </th>
+  <th>USB 2.0
+  </th>
+  <th>USB 2.0 Revised
+  </th>
+  <th>USB 3.0
+  </th>
+  <th>USB 3.1
+  </th>
+  <th>USB 3.2
+  </th>
+  <th>USB4
+  </th></tr>
+  <tr>
+  <th>Maximum transfer rate
+  </th>
+  <td colspan="2">12 Mbps
+  </td>
+  <td colspan="2">480 Mbps
+  </td>
+  <td>5 Gbps
+  </td>
+  <td>10 Gbps
+  </td>
+  <td>20 Gbps
+  </td>
+  <td>40 Gbps
+  </td></tr>
+  <tr>
+  <th>Type A
+  </th>
+  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
+  </td>
+  <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67">
+  </td>
+  <td colspan="2" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Type B
+  </th>
+  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
+  </td>
+  <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75">
+  </td>
+  <td colspan="2" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>USB-C
+  </th>
+  <td colspan="3" class="no">N/A
+  </td>
+  <td colspan="5"><img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">
+  </td></tr>
+  <tr>
+  <th>Mini-A
+  </th>
+  <td class="no">N/A
+  </td>
+  <td colspan="3"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50">
+  </td>
+  <td colspan="5" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Mini-B
+  </th>
+  <td class="no">N/A
+  </td>
+  <td colspan="3"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50">
+  </td>
+  <td colspan="5" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Mini-AB
+  </th>
+  <td colspan="3" class="no">N/A
+  </td>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40">
+  </td>
+  <td colspan="5" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Micro-A
+  </th>
+  <td colspan="3" class="no">N/A
+  </td>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50">
+  </td>
+  <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50">
+  </td>
+  <td colspan="2" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Micro-B
+  </th>
+  <td colspan="3" class="no">N/A
+  </td>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42">
+  </td>
+  <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50">
+  </td>
+  <td colspan="2" class="no">Deprecated
+  </td></tr>
+  <tr>
+  <th>Micro-AB
+  </th>
+  <td colspan="3" class="no">N/A
+  </td>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50">
+  </td>
+  <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69">
+  </td>
+  <td colspan="2" class="no">Deprecated
+  </td></tr></tbody></table>
+
+USB has a tree (bus + star) topology 
+
+
+#### usb 4
+
+USB 4 was released in 2019.
+As of USB 4, the only connector type is USB C.
 
 ## protocols
+
+Protocols are often {{c1::layered}} to produce a {{c2::protocol stack}}
+
+### pushpullpoll
 
 pulling is where the request initiates from the client, and is responded to by the server
 pushing is where a request is initiated by a server.
 polling is frequently checking whether a thing is in a certain state
 polling may be used to simulate push protocols.
+
+### OAuth
+
+OAuth 2.0 (grant type: Authorization code)
+<img src="tmp7t5et6aw.png" />
+
+# webadmin
+
+Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
+
+# applications
+
+{{c1::Photoscape X}} is notable for being a {{c2::GUI}} program that has {{c3::batch editing of photos}}
 
 # principles
 
@@ -1496,12 +1870,19 @@ GIGO   Garbage In, Garbage Out
 Garbage in, garbage out claims that if the input data is somehow bad {{c1::the output data will be too}}
 Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
 "Anything that can go wrong will go wrong"   Murphy's law
+{{c1::an anti-pattern}} is a pattern (intentional or not) that is ineffective/counter-productive 
 
 # licenses
 
 Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
 GPL is a type of copyleft license.
 Share-alike is a type of copyleft license.
+
+# automation
+
+The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
+The Amazon Mechanical Turk pays way below the minimum wage.
+The Amazon Mechanical Turk is sometimes used for study subjects.
 
 # todo
 

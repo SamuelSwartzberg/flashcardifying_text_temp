@@ -36,6 +36,14 @@ XOR|1|1|0
 
 # positional 
 
+## in programming
+
+in programming, the base of the number is often indicated by a prefix
+
+0b|binary
+0|octal
+0o|octal
+
 ## systems
 
 ### hex

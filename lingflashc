@@ -2824,6 +2824,14 @@ Most commonly, idioms are either complement verb or subject complement verb.
 ### graphemics
 
 Graphemics is the study of writing systems.
+A blank line is two newlines.
+
+#### typography
+
+Serifs are these little bits sticking out of some letters.
+<img src="sm_tmprdkiv_z1.jpg">
+One major axis along which font families are distinguished is if they have serifs or not.
+{{c1::installing custom font families}} is possible on {{c2::most desktop os}}, but not on {{c3::android}} (and ofc not on {{c4::ios}})
 
 #### graphemes & graphs
 
