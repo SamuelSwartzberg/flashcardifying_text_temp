@@ -2405,6 +2405,12 @@ seq start step stop|sh
 Bash calls its range syntax a <dfn>sequence expression</dfn>.
 Bash also supports characters as start and stop.
 
+<h2>Programming languages I don't know
+
+COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
+C was created in 1972.
+*nix OSs are famously written in C.
+
 <h2>Programming language implementation</h2>
 
 A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
@@ -2425,6 +2431,11 @@ An interpreter translates the code into another language (most commonly machine 
 1. lexical analiysis = tokenization = lexing
 2. sytax analysis = parsing
 3. semantic analysis
+
+<h4>lexical analysis
+
+Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
+In the context of compiling/interpreting, identifier/name is a synonym for symbol.
 
 <h4>JIT</h4>
 
