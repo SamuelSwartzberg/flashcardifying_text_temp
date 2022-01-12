@@ -2643,6 +2643,8 @@ THEME|undergoes action, does not change state
 
 #### semantic relations
 
+##### hyper hypo
+
 A hyponym is a more specific term than its hypernym.
 A hypernym ⊃ a hyponym 
 <div class="onion-box"><span>((c:2;::hypernym))</span><div class="onion-box"><span>((c:;::hyponym))</span></div></div>
@@ -2650,6 +2652,13 @@ A hypernym ⊃ a hyponym
 A hyponym that is the same word as its hypernym is {{c1::An autohyponym}}
 A hypernym meant to be a hypernym for a specific set of terms|a cover term
 A hypernym may also be called an umbrella term or a blanket term.
+
+##### holo mero
+
+A holonym denotes a whole.
+A meronym denotes a part.
+seatbelt is a meronym of (e.g.) car which is its holonym.
+A holonym can be explained by listing its meronyms unless it is a gestalt.
 
 ### Pragmatics
 
@@ -2764,9 +2773,65 @@ a hedge is a word or phrase used in a sentence to express ambiguity, probability
 
 Cover term for language, dialect, lect, family, etc|Languoid
 
+### lexicography
+
+Lexicography is the study of lexemes and lexica (collections of lexemes)
+
+#### practical lexicography
+
+Practical lexicography is compiling, writing and editing dictionaries.
+
+The headword is the word {{c1::under which dictionary entries appear}}
+The form of a lexeme used as a headword is usually its lemma.
+Sometimes lemma and headword are used synonymously.
+
+#### theoretical lexicography
+
+Theoretical lexicography is the study of features of lexemes and lexica.
+
+#### terminology
+
+##### kinship terminology
+
+###### english
+
+<br>---<br>
+  §§ ((c:7;::Your parent's siblings)) are called ((c:8;::parsib))/((c:9;::pibling))/((c:10;::auncle)). §<br>
+§§ ((c:11;::Your siblings children))  are called ((c:12;::niblings)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>family term</th>
+    <th>female</th>
+    <th>male</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Parsib/pibling/auncle))</td> <td>((c:2;::aunt))</td> <td>((c:3;::uncle))</td></tr>
+<tr><td>((c:4;::nibling))</td> <td>((c:5;::niece))</td> <td>((c:6;::nephew))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+#### onomastics
+
+Onomastics is the study of proper names.
+
+##### epithets
+
+an epithet is a word/phrase that accompanies a name {{c1::as a matter of course}}
+Something that replaces a name can sometimes also be called an {{c1::epithet}}
+Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
+
+##### misc.
+
+A necronym may be the name of a person who has died, but more commonly is a substitute name used to refer to a person who has died (instead of the name the person had in life)
+
 ## Cognitive linguistics
 
 ### conceptual metaphor
+
+The idea of conceptual metaphor was coined by Lakoff & Johnson in their seminal book Metaphors We Live By (1980)
 
 set of correspondences make up what?  a mapping 
 A structural metaphor is one where we structure one concept in therms of another
@@ -2901,36 +2966,6 @@ In japanese, using a question mark is optional when ending a sentence with the i
 Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
 If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or questio mark.
 
-### lexicography
-
-Lexicography is the study of lexemes and lexica (collections of lexemes)
-
-#### practical lexicography
-
-Practical lexicography is compiling, writing and editing dictionaries.
-
-The headword is the word {{c1::under which dictionary entries appear}}
-The form of a lexeme used as a headword is usually its lemma.
-Sometimes lemma and headword are used synonymously.
-
-#### theoretical lexicography
-
-Theoretical lexicography is the study of features of lexemes and lexica.
-
-#### onomastics
-
-Onomastics is the study of proper names.
-
-##### epithets
-
-an epithet is a word/phrase that accompanies a name {{c1::as a matter of course}}
-Something that replaces a name can sometimes also be called an {{c1::epithet}}
-Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
-
-##### misc.
-
-A necronym may be the name of a person who has died, but more commonly is a substitute name used to refer to a person who has died (instead of the name the person had in life)
-
 ## diachronic
 
 A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
@@ -3023,6 +3058,7 @@ In a language shift, a speech community switches to a different language.
 
 Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards {{c1::(more similarity with) the standard language}}
 Since the industrial revolution, dialect levelling has been ocurring to most languages.
+an aphorism sometimes applied to indicate that the difference between language and "mere dialect" is the embrace by state power: A language is a dialect with an army and navy
 
 ##### borrowing
 
@@ -3068,6 +3104,7 @@ realize (make happen, become aware of) / realisieren (make happen) -&gt; realize
 
 #### Language death
 
+A language with at least one native speaker|living language
 A language without any *native* speakers|dead language
 A language without *any* speakers|extinct language
 Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
@@ -3121,6 +3158,8 @@ A register/style is a lect that is used for a particular purpose or in a particu
 
 ideolect|a specific person
 sociolect|a social group
+regiolect, geolect, topolect|a specific area
+ethnolect|ethnic group
 
 AAVE = African American Vernacular English
 
@@ -3174,7 +3213,8 @@ high variant (H)|formal situations, literature|no native speakers
 
 #### language and gender
 
-The study of language and gender is said to have stared with Language and Women's Place by Lakoff (1793ish)
+The study of language and gender is said to have stared with Language and Women's Place by Robin Lakoff (1973 or 1975, its unclear to me)
+Robin Lakoff was married to the (arguably) more famous Lakoff (of Metaphors We Live By fame)
 Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> {{c1::to see what they can teach us about patriarchy at large}}
 In robin lakoffs language and womens place, the method she uses is native speaker intuition
 Deborah tannen was a student of robin lakoff who initiated the difference approach to language and gender with her book You Just Don't understand (1990)
@@ -3267,6 +3307,11 @@ A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
 ## multilingualism
 
+A language that a speaker speaks is either a L1, L2, or heritage language.
+
+L1|first language = native language
+L2|second language
+
 A majority language is a language spoken by the majority of the population of an entity.
 A minority language is a language spoken by a minority of the population of an entity.
 
@@ -3341,6 +3386,7 @@ Relexification is the process of replacing (all or a large number of) the words 
 Languages are either natural or constructed.
 A conlang (constructed language) is one which was constructed by humans.
 A natural language is one that has evolved naturally through human use.
+To an overwhelming extent, the languages that are spoken in the 21st century are natural languages.
 
 Naturalistic conlangs mimic existing real languages.
 
