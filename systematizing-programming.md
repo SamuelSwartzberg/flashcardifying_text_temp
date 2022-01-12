@@ -3,7 +3,15 @@
 An expression evaluates to = returns a value.
 e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
 
-<h2>Statements</h2>
+<h2>imperativeness</h2>
+
+Imperative vs. declarative may be understood as a spectrum.
+If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
+If imperative/declarative is understood as a spectrum, the more declarative something is, the more you're merely specifying what you want to happen, unconcerned about the steps.
+On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
+Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
+
+<h3>Statements</h3>
 
 Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
 Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
