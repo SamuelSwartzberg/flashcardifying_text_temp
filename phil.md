@@ -2,6 +2,12 @@
 
 ## epistemology
 
+Epistemology is the branch of theoretical philosophy concerned with knowledge.
+in general: 
+epistemological   (adj) related to epistemology (as a field of study)
+epistemic   (adj) related to knowledge
+however, in some cases the meanings of epistemic and epistemological are mixed up.
+
 ### evidence
 
 #### ravens
@@ -50,6 +56,9 @@ Epistemological {{c1::internalism}}/{{c1::externalism}} is the claim that  {{c3:
 
 ##### T
 
+Correspondence theory of truth: Truth consists in a relation to reality.
+Coherence theory of truth: Truth consists in the coherence of a set of propositions
+
 ##### B (doxastic attitudes)
 
 doxastic attitudes are attitudes about belief
@@ -66,10 +75,19 @@ It is doubtful that JTB was in fact the dominant account of knowledge before Get
 The kinds of knowledge that are often distinguished are imperative/procedural knowledge, descriptive/declarative/propositional knowledge, and aquaintance knowledge
 imperative knowledge = procedural knowledge
 Synonyms: {{c1::descriptive}} knowlege, {{c2::declarative}} knowledge, {{c3::propositional}} knowledge.
-Descriptive knowlege, Declarative knowledge, and propositional knowledge all express "knowing-that" Procedural knowledge and imperative knowledge express "knowing-how"
+Descriptive/Declarativ/propositional knowledge|"knowing-that"|The capital of Uzbekistan is Tashkent
+Procedural/imperative knowledge|"knowing-how"|Adding numbers
+
 Imperative and declarative programming are terms roughly correlated without imperative/declarative knowledge.
 often, when we talk about knowledge in philosophy, what we really mean is descriptive/declarative/propositional knowledge, e.g. most theories of knowledge are really about propositional knowledge
 Aquaintance knowledge is a kind of familiarity with the object.
+
+### philosophy of science
+
+{{c1::Verificationism}} ≈ {{c2::Verification Principle}} ≈ {{c3::Verfiability criterion of meaning}}
+{{c1::Logical empiricism}} = {{c2::Logical positivism}}
+Logical positivism/empiricism was a movement popular in the early-mid 20th century made up in part by the berlin circle and vienna circle
+The main position of logical positivism/empiricism is the verfication priciple.
 
 #### standpoint theory
 
@@ -157,7 +175,11 @@ Examples of willful hermeneutical ignorance might be the refusal to use/consider
 
 ## metaphysics
 
+The philosophical area of metaphysics is named after aristotles work metaphysics.
+
 ### ontology
+
+Ontology is the branch of metaphysics concerned with existence/being/becoming broadly.
 
 #### qualities
 
@@ -169,14 +191,30 @@ prototypical secondary qualities: color, smell, etc.
 
 #### mereology
 
-Mereology is the study of parts and wholes
+Mereology is the study of parts and wholes.
+A gestalt is a thing that is {{c1::more than the sum of its parts}}
+
+#### universals
+
+Universals are the kind of entities that can  be instatiated by many different things, if one thinks they exist.
+The problem of whether universals have an independent existance   The problem of universals
+
+(universal) realism|universals exist
+nominalism|universals are merely names for sets
+
+#### amount
+
+all forms of monism claim that for whatever they are about, there is only one of that thing
+all forms of dualism claim that for whatever they are about, there are two fundamental kinds of things
 
 #### reality
 
-{{c1::subjective idealism}} is the idea that only minds/mental contents of individual percievers exist.
-objective idealism is the idea that only one mind exists, which does all the percieving.
+##### realism
 
-#### social construction
+{{c1::(Metaphysical) realism}} is the view that objects exist independently of our thoughts.
+While subjective idealism is metaphysically anti-realist, objective realis is metaphysically idealist.
+
+#### social ontology
 
 Ásta, in her book <cite>Categories we live by</cite> investigates social properties/categories.
 For Ásta, a social property/status consists of certain constraints and enablements in a certain context.
@@ -239,9 +277,38 @@ While social properties are aquired by virtue of something about other people (e
 conferral aspect|conferralism offers a story of the aquisition of a property (not just an outcome
 perception aspect|conferralism cares about the perception of the base property and not its actual presence
 
+##### mega social roles
+
+A mega social role (coined by Charlotte WItt) is a social role which unifies other social roles and serves as their foundation (inflects them).
+Charlotte Witt argues that the only mega social role is gender (-.-)
+
 ## philosophy of mind
 
 Philosophy of Mind is the branch of philosophy that studies the nature of the mind and its relationship to the physical body.
+
+
+### dualism
+
+mind-body dualism claims that mind and body are radically different types of things
+
+### monism
+
+https://commons.wikimedia.org/wiki/File:Dualism-vs-Monism.png
+
+In the philosphy of mind, physicalism/materialism, idealism and neutral monism all are monistic theories
+idealism claims that only mind and mental contents exist and that matter is reducible to it.
+{{c1::subjective idealism}} is the idea that only minds/mental contents of individual percievers exist.
+George berkeley was the main proponent of subjective idealism.
+objective idealism is the idea that only one mind exists, which does all the percieving.
+{{c1::Neutral monism}} claims that ultimate reality is neither mental nor physical and both mental and physical states are derived from a neutral entity.
+neutral monism occupies a middle position between {{c1::idealism (only minds and mental contents exist) and Physicalism (only matter exists)}}
+{{c1::materialism/physicalism}} holds that only matter exists and that mental states are reducible to it.
+
+#### transcendental idealism
+
+The noumenon/phenomenon distinction goes back to kant.
+Something whose existance is in some way dependent human senses/perceptions   Phenomenon
+Something that exists <b>independent</b> of human senses/perceptions   Noumenon
 
 ## philosophy of language
 
@@ -258,7 +325,46 @@ We put things in a shopping cart based on what's on our shopping list   world-to
 
 A ((c:2;::loaded question)) is a question that ((c:1;::contains a controversial assumption (presupposition))) (e.g. ((c:3;s:2;::have you stopped beating your wife)))
 
+## logic
+
+### modality
+
+necessarily true   If it can't be false
+necessarily false   If it can't be true
+A proposition is contingent if it is neither necessarily true nor necessarily false.
+Counterfactual conditionals are conditional sentences which discuss what would have been true under different circumstances.
+
 # practical philosophy
+
+deontic   (adj) related to necessity/duty/obligation/morality = "should"
+In a wide sense, deontology is synonymous with ethics, and in a narrow sense it is an ethical position.
+
+## ethics
+
+### ethical hedonism
+
+Ethical hedonism claims that increasing pleasure and decreasing pain determines goodness/value.
+
+#### experience machine
+
+Nozick's <cite>Anarchy, State, and Utopia</cite> (1974) contains the famous experience machine thought experiment.
+Nozick's <cite>Anarchy, State, and Utopia</cite> is said to be responding to Rawls' {{c1::A Theory of Justice}} (1971)
+The Experience machine is a thought experiment against ethical hedonism.
+For the experience machine thought experiment, one is offered to enter a machnine, which, while floating within it, would give us pleasurable experiences. We would not know we were in the machine (it would seem like real life to us), and the machine could not fail. 
+Nozick argues one would not want to enter the experience machine, for example because it would limit us to a man-made reality, we want to be a certain sort of person, etc.
+
+## demands
+
+<br>---<br>
+the original ((c:9;::catch-22)) (since ((c:10;::it's used in many different ways later in the book))): ((c:1;::If you're declared insane, you get sent home from fighting)):
+-&gt; ((c:11;s:13-14;::If you say you're insane (or apply for insanity))), that ((c:12;s:13-14;::makes you sane, and so you still have to fight.))
+-&gt; And ((c:13;s:11-12;::if you don't say you're insane (or apply for insanity))) ((c:14;s:11-12;::you still have to fight)). 
+===<br>
+§§ The ((c:2;::original)) ((c:3;::catch-22)) ((c:2;::from the book)) is ((c:4;::just a constructive dilemma)). §<br>
+§§ The term ((c:5;::catch-22)) is also often used as ((c:6;::a synonym for deadlock (in the CS sense))). §<br>
+§§ The term ((c:7;::catch-22)) may at its most broad just refer to ((c:8;::a kind of contradiction or problem involving 2 things.)) §
+A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 # continental philosopy
 
@@ -281,6 +387,43 @@ Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt
 In ((c:1;::2017)), the journal ((c:2;::hypatia)) published an article by ((c:3;::rebecca tuvel)) in favor of ((c:4;::transracialism)) (which led to a large controversy). ((s:1-4;::After it was released, an ((c:5;::open letter)) was ((c:5;::written)) requesting ((c:6;::the article be retracted)), signed by ((c:7;::800)) scholars. ((s:5-7;::The criticisms  related to tuvel herself were  ((c:8;::an alleged immersion in white and cisgender privilege)), related to the journal ((c:9;::an alleged mishandling of the review process)). ((s:8-9;::The ((c:10;::wider academic community)) reacted to ((c:11;::the open letter)) with ((c:12;::an outporing of support for Tuvel)). After the affair, the journal ((c:13;::was thrown into crisis)).))))))
 The tuvel affair was seen by those who wanted to see it as such as a clash between analytic and continental philosophy.
 
+## turns
+
+spatial turn|include space in analysis
+
 # cross-cutting concerns
 
+## intext
+
 Across philosohpical subdisciplines, {{c1::internalism}} / {{c1::externalism}} assert that a particular phenomenon {{c2::has a basis / depends on factors}} that is/are {{c4::internal}}/{{c4::external}} to the {{c3::subject}}
+
+## real
+
+In general, if one is realist about something, one thinks {{c1::That it has an existence beyond the mind of the observer}}
+In general, if one is anti-realist about something, one thinks {{c1::that it does not have an existence beyond the mind of the observer}}
+
+
+## resources
+
+philpapers.org is the main online index for philosophy papers
+Stanford Encyclopedia of Philosophy (SEP) is the (arguably) best online philosophy encyclopedia.
+
+# misc
+
+autonomous   self-controlled
+heteronomous   other-controlled
+
+## Kundera
+
+In "The Unbearable Lightness of Being", Milan Kundera argues there are four audiences that people need (in different degrees) to look at them:
+- Many anonymous people
+- Many known people
+- The person they love
+- An imaginary audience
+Drawing on Nietsche, in "The Unbearable Lightness of Being" Milan Kundera ponders whether life is light or heavy.
+To say life is heavy is to say that every decision and existence is incredibly meaningful, because there will never be an opportunity to redo it.
+To say life is light is to say that every decision and existence is without meaning, because it will not recur and will therefore be lost to the eternal flow of time.
+
+Utopia and dystopia both describe imaginary societies.
+utopia|is great/nearly perfect
+dystopia|is terrible, oppressive
