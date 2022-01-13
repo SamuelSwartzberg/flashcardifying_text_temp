@@ -200,6 +200,8 @@ x|free-spacing mode|ignore whitespace (to match, spaces must be escaped); enable
 i|case-insensitive
 g|global|more than one match
 
+c|confirm before replacing|vim
+
 ## flavors
 
 BRE treats most characters that would be metacharacters in other flavors as literals and as metacharacters only when escaped.
