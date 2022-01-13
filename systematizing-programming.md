@@ -322,6 +322,10 @@ Interfaces/traits often enable parametric polymorphism.
 
 <h2>Identifiers</h2>
 
+In a wide sense, "name" is synonymous to identifier, in a narrow sense it is an identifier
+An identifier is a thing that refers to/labels an object or class/set/collection of objects.
+a unique identifier is an identifier that labels a thing uniquely in a given context.
+UID   unique identifier
 An identifier is opaque if it provides no information about the thing it identifies
 A transparent identifier provides information about the thing it identifies.
 
