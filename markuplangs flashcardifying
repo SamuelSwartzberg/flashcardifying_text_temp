@@ -1334,6 +1334,8 @@ Even non-case-sensitive file systems are almost always case-preserving.
 
 Generally one home directory per user.
 On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
+FHS: Home directories live in /home/
+
 
 ##### XDG Base Directory Specification
 
@@ -1348,15 +1350,22 @@ FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory struct
 
 /sys provides a window to the kernel
 
+###### /proc
+
+/proc contains information for each process and a lot of runtime system info.
+
 ###### /var
 
 /var/mail/   MBOXes for each user
 /var/spool/   data awaiting processing
 
-###### /dev
+###### /opt
 
-/dev contains device files.
-device files are files that are interfaces to device drivers (or more rarely other things).
+/opt   software packages (complete and kind of foreign)
+
+###### /usr
+
+Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr
 
 ###### bins
 
@@ -1364,10 +1373,23 @@ whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
 today, /bin often just is a symlink to /usr/bin (and analogously for lib)
 whatever/lib generally conains libraries for whatever/bin
+/sbin is for binaries needing superuser priviledges/for system administration
 
 ###### /tmp
 
+/tmp is for temporary files.
 /tmp is sometimes emptied on process exit or on boot.
+
+###### /etc
+
+/etc contains confi files for all the programs that run on your Linux/Unix system
+hosts
+
+###### /dev
+
+/dev contains device files.
+It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
+device files are files that are interfaces to device drivers (or more rarely other things).
 
 ####### not real devices
 
@@ -1613,8 +1635,15 @@ When using GRUB, the boot menu that allows you to choose the os is loaded in the
 
 Monolithic kernels do more stuff in kernel space than micokernels.
 Instead of doing stuff in kernel space, mircokernels provide servers that do things in userspace.
+The daemon responsible for paging (swapper/sched) is the process with PID 0.
 
 ### the init process
+
+In unix, the init process is the first processes that launches when a computer boots.
+The init process is a daemon and has PID 1.
+older *nixes|init
+newer linuxes|systemd
+macOs|launchd
 
 # crypt
 
@@ -1638,8 +1667,15 @@ GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
 GNU = GNU's not unix
 The GPL was originally created for GNU
 (GNU) GPL = GNU General Public License
+Linux technically refers to the Linux kernel.
+GNU software set + Linux kernel = GNU/Linux
+Often, Linux alone is used (technically incorrectly) to refer to GNU/LInyx
 
 ### linux
+
+#### distros
+
+A Linux distribution is GNU/Linux plus a set of other stuff, which depends on the flavor.
 
 #### input
 
@@ -1648,7 +1684,9 @@ libinput is native in wayland, but optional in X, which can also manage input de
 
 #### X
 
+#### systemd
 
+within the relevant systemd folder (/var/systemd or /etc/systemd), system is the directory that contains the unit files
 
 ## files
 
@@ -1669,6 +1707,7 @@ A symbolic link is a file that is a reference to another file in form of a path.
 If the file a symbolic link points to is moved, the symbolic link now points to nothing.
 since links exist, the file system isn't actually a tree, but a directed graph.
 most programs treat symlinks transparently, however rm/mv/... edit the symlink file itself.
+if using rm or mv on a symlink to a directory, if you don't include the trailing slash, they will act on the symlik like normal, if you do include the trailing slash, they will try to remove the directory itself.
 A hard link is a reference to an inode.
 A hard link only exists as a directory entry, in fact, all directory entries are hard links.
 To use a hard link, the file must be on the same filesystem.
@@ -1699,9 +1738,9 @@ mail or the older mailx are *nix builtins to manage mail.
 
 ### fs
 
-##### search
+#### search
 
-###### grep
+##### grep
 
 grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
 There are tons of grep variants:
@@ -1718,6 +1757,7 @@ od -x|hex dump
 #### changing
 
 dd   copying (similar to cat/cp) with some low-level options
+shred overwrites a file multiple times so it is difficult to recover, however this interacts badly with SSDs
 
 ### text manipulation
 
@@ -1752,11 +1792,15 @@ cowsay   make an ascii cow say the specific thing
 jq|process JSON
 yq|process YAML & convert to/from JSON
 yq -y/-Y roundtrip back to YAML
+<code>yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}</code>
+<code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
 
 #### generation
 
 
-### internet
+### viewers
+
+lynx|text-based browser
 
 ### UI
 
@@ -1775,23 +1819,68 @@ lsusb   list USB devices
 
 podboat   podcast management for newsboat
 
+### man
+
+Most CLI commands have a manual page, which can be diplayd with man.
+When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
+The numbers in parenthesis after the names of things (xterm(1), efence(3)) come from sections of the manual
+The standard sections of the manual include:
+1      User Commands
+2      System Calls
+3      C Library Functions
+4      Devices and Special Files
+5      File Formats and Conventions
+6      Games et. Al.
+7      Miscellanea
+8      System Administration tools and Deamons
+
 ## processes
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
 
-### termianl system
+### file descriptors
+
+A file descriptor is a positive integer that uniquely identifies a file (or file-like) things.
+Each process has its own file descriptors.
+The file descriptiors of a single process are stored in their own file descriptor table.
+The kernel maps the file descriptors the file descriptor table of a single process to the file table.
+The file table is a system-wide table of all open files.
+The file table contains reference to the relevant inodes.
+Each process has three file descriptors allocated automatically, namely for the standard streams.
+stdin   0
+stdout   1
+stderr   2
+
+### daemons
+
+A daemon is a process running in the background, not under the direct control of a user.
+In *nix, a daemon is generally a process which is a child of the init process.
+A daemon is usually created either by a process forking a child process and then immediately exiting, thus causing init to adopt the child process, or by the init process directly launching the daemon. 
+The names of daemons generally end with d.
+
+### terminal system
 
 physical teriminal: <img src="sm_screen1.png">
 terminal emulator: <img src="sm_screen2.png"/>
 <img src="sm_screen3.png" />
 
+#### fg bg
+
+the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
+
 ### process relationships
+
+A session is a collection of process groups.
 
 ## users and groups
 
 GID|group id
 UID|user id
 groups/users on nix are uniquely identified by their user or group ID.
+
+# VCS
+
+
 
 # communication
 
