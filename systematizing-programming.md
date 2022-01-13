@@ -1,9 +1,9 @@
-<h2>Expressions</h2>
+## Expressions
 
 An expression evaluates to = returns a value.
 e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
 
-<h2>imperativeness</h2>
+## imperativeness
 
 Imperative vs. declarative may be understood as a spectrum.
 If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
@@ -11,7 +11,7 @@ If imperative/declarative is understood as a spectrum, the more declarative some
 On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
 Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
 
-<h3>Statements</h3>
+### Statements
 
 Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
 Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
@@ -29,7 +29,7 @@ semicolons as statement separators and statement terminators|C#|Java|Perl|Rust
 semicolons as statement separators, no statement terminators exist in language|Lua|Python|Ruby
 semicolons as statement separators and statement terminators, complex exceptions apply|JS
 
-<h3>Blocks</h3>
+### Blocks
 
 <div class="cloze-group-children hide-if-inactive-children">
   §§ In ((c:3;::most programming languages)), a ((c:2;::block)) is a ((c:1;::statement)).  §<br>
@@ -53,10 +53,10 @@ In some languages, notably Ruby and Rust, block expression return the value of t
 liquid|{% keyword %} ... {% endkeyword %}
 python|Sass|indentation
 
-<h2> control flow</h2>
+##  control flow
 The default control flow is linear from top to bottom, this is called sequencing.
 
-<h2>control structures</h2>
+## control structures
 
 
 A thing that modifies control flow is a control structure. 
@@ -76,7 +76,7 @@ nothing|Python|Ruby|Rust|Lua
 
 (ba)sh requires all operators and the [] themselves to be separated by spaces, since [ is actually just a symlink for test, and thus all of these are actually arguments for a command.
 
-<h3>choice/selection control structures</h3>
+### choice/selection control structures
 
 <p>
 choice/selection control structures allows choosing between several alternatives based one or more conditons.
@@ -84,7 +84,7 @@ choice/selection control structures constructs are also just called conditionals
 In conditionals, any of the possible paths is called a branch.
 </p>
 
-<h4>if
+#### if
 
 The most common conditional is if/then/else. 
   
@@ -102,7 +102,7 @@ Anki has a if-like conditional to show something only if a field has content, in
 	Lorem Ipsum
 {{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}</code></pre>
 
-<h4>conditional operator
+#### conditional operator
 
 The ternary operator is a conditional which is typically an expression. 
 The ternary operator is more properly called conditional operator. 
@@ -115,7 +115,7 @@ The conditional operator comes from C (more properly an early ancestor of C), th
   >
 Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
-<h4>others
+#### others
 
 An if statement/expression, but reversed in its truth value, is an unless statement/expression.
 unless statements/expressions use the keyword unless.
@@ -125,7 +125,7 @@ unless statements exist in liquid, perl, ruby
 Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
 for the postfix conditionals in perl, ruby
 
-<h4>switch
+#### switch
 
 switch is a type of conditional.
 the switch conditional is generally a statement.
@@ -142,19 +142,19 @@ Rust instead has match
 
 JS Syntax examples:
 
-<h2>switch</h2>
+## switch
 <pre><code>switch (expression) {
   {{c1::case}} {{c2::}}value1{{c2::}}{{c3:::}}
    //Statements;
    {{c4::default:}}
 }</code></pre>
 
-<h4>guards
+#### guards
 
 guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
 Of the languages I know, Rust has guards, introduced by `if`.
 
-<h3>Iteration/Loop control structure </h3>
+### Iteration/Loop control structure 
 
 Control flow that repeats the code a number of times is called iteration/looping
 
@@ -229,14 +229,14 @@ JS|1|1|2|0
 SCSS|1|1|1|0
 Rust|0|1|1|1
 
-<h3>Labels</h3>
+### Labels
 
 A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
 JS and C have labels.
 JS label syntax: <name>:
 Labels can be used to break out of a loop that is not the enclosing one.
 
-<h2>other statements</h2>
+## other statements
 
 Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
 
@@ -246,7 +246,7 @@ pass|Python
 
 : is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
 
-<h2>Comments</h2>
+## Comments
 
 Comments in programming are (generally) ignored by compilers/interpreters.
 But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
@@ -278,7 +278,7 @@ Rust documentation comments accept formatting in markdown. Code in code blocks t
 
 Documentation comments often generate HTML documentation
 
-<h2>Polymorphism</h2>
+## Polymorphism
 
 something is monomorphic if it works for one type
 something is polymorphic if it works for several different types
@@ -287,18 +287,18 @@ monomorphization is a compile-time process in which polymorphic code is transfor
 ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
 -> callable unit overloading, operator overloading
 
-<h3>dispatch (prob belongs somewhere else)</h3>
+### dispatch (prob belongs somewhere else)
 
 dispatch is choosing which method should be invoked in response to a method
 displatch is based on the type of the thing
 dispatch is only relevant if there are multiple implementations of a thing.
 
-<h4>static dispatch</h4>
+#### static dispatch
 
 static dispatch is choosing an implementation of a polymorphic operation at compile time
 callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
 
-<h4>dynamic dispatch</h4>
+#### dynamic dispatch
 
 dynamic dispatch is choosing an implementation of a polymorphic operation at runtime
 both single dispatch and multiple dispatch are forms of dynamic dispatch
@@ -307,7 +307,7 @@ single dispatch is where only the type of one parameter (the reciever of the mes
 
 multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on) as well as the method parameters is used to choose the implementation
 
-<h3>parametric polymorphism</h3>
+### parametric polymorphism
 
 A generic is a stand-in for a type that is not yet specified or unknown. 
 A generic may be constrained in some way.
@@ -318,9 +318,9 @@ C# List and rusts vec are monomorphosized for each type usedas a generic; Javas 
 
 Interfaces/traits often enable parametric polymorphism.
 
-<h3>subtyping</h3>
+### subtyping
 
-<h2>Identifiers</h2>
+## Identifiers
 
 In a wide sense, "name" is synonymous to identifier, in a narrow sense it is an identifier
 An identifier is a thing that refers to/labels an object or class/set/collection of objects.
@@ -331,7 +331,7 @@ A transparent identifier provides information about the thing it identifies.
 
 Aliasing is referring to the same location in memory by multiple different identifiers.
 
-<h3>Name binding</h3>
+### Name binding
 
 Name binding is the association of entities with identifiers.
 For an identifier to reference something is to the identifier bound to that thing.
@@ -341,13 +341,13 @@ dynamic = late binding is name binding during runtime
 
 
 
-<h3>Scope</h3>
+### Scope
 
 the scope of a name binding is the part of a program where the name binding is valid.
 for something to have x-scope is to only have the name binding be valid within x.
 a variable with x-scope is often called an x-variable
 
-<h4>Lexical & dynamic</h4>
+#### Lexical & dynamic
 
 Static scope is another name for lexical scope.
 Lexical scope is where scope is determined by where in the source code (a reference to) a name binding is.
@@ -355,14 +355,14 @@ Lexical/static scope is contrasted with dynamic scope
 Dynamic scope is where scope is determined by where on the stack something is.
 Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
 
-<h4>global/local scope</h4>
+#### global/local scope
 
 The scope that is the entire program is global scope.
 A variable that does not have global scope has local scope.
 
 Local scope is often either block or function scope.
 
-<h5>Variable scope</h5>
+##### Variable scope
 
 In general, if you declare block- or function-scoped variables on the top level, these will be global or at the least, global to the module.
 
@@ -384,17 +384,17 @@ Variable scope in python is not determined by keyword but by context.
 In JS, variables declared without a keyword become properties of the global object
 
 
-<h4>Shadowing</h4>
+#### Shadowing
 
 Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
 Variable masking/shadowing is name shadowing involving variables
 
-<h4>Hoisting</h4>
+#### Hoisting
 
 Hoisting moves declarations but not initializations to the top of the scope.
 in JS, var variables and function declarations (but not function expressions) and hoisted.
 
-<h3>Case</h3>
+### Case
 
 snake_case|variables, methods (, symbols)|ruby|python (use underscores sparingly)
 UpperCamelCase|classes|C#|Javaruby
@@ -406,22 +406,22 @@ _leading_underscore_snake_case|fake private variables|(ba)sh
 
 most programming languages are case-sensitive as regards identifiers.
 
-<h3>Naming</h3>
+### Naming
 
 While there is variety in what is allowed in a identifier name, most commonly it is [a-zA-Z0-9_]
 JS also allow $ in a non-sigil way in identifier names.
 JS identifiers may not start with a number, but with any other allowed character.
 In general, identifiers may not be keywords.
 
-<h3>Shadowing</h3>
+### Shadowing
 
 In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
 
-<h2>Values</h2>
+## Values
 
-<h3>Memory-management</h3>
+### Memory-management
 
-<h4>Ownership</h4>
+#### Ownership
 
 In rust, eveary value has exactly one owner.
 Owners are variables(/constants).
@@ -429,14 +429,14 @@ Assigning a value to a second variable invalidates the first reference.
 When we assign a value to something different, thus changing the owner and invalidating the first reference/owner, we call this moving.
 When a owner goes out of scope, a value is dropped.
 
-<h2>Variables</h2>
+## Variables
 
 A variable is an identifier which is associated with a storage location which contains a value.
 
 In lua, values are typed, but variables are not. TODO: isn't this equivalent to dynamic typing? maybe I can elaborate on that, and also on the relationship to shell, where not even values are typed.
 
 
-<h3>Declaration and initialization</h3>
+### Declaration and initialization
 
 Declaring something is saying what an identifier means.
 In most languages, but not in JS and Python, declaration at the very least fixes the kind of entity the identifier refers to. 
@@ -452,7 +452,7 @@ In JS, a declared but unitialized variable has the value undefined. In most othe
 In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
 Redeclaration may or may not produce an error. In JS, it does not produce an error for var, but does for const and let.
 
-<h3>assignment</h3>
+### assignment
 
 Setting a variable/constant to a value is known as assignment.
 = is used as the assignment operator in most programming languages
@@ -461,7 +461,7 @@ SCSS/Sass uses : as the assignment operator.
 In most languages, assignment expressions evaluate to the value assigned.
 Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
-<h4>Destructuring</h4>
+#### Destructuring
 
 Destructuring is binding variables to values in a way that does not correspond to the 1 variable - 1 value pattern
 
@@ -523,7 +523,7 @@ pattern1 bar pattern2|pattern 1 or pattern 2
 
 Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let &foo = somereference
 
-<h3>Sigils<h3>
+### Sigils### 
 
 In programming, a sigil is a symbol(s) affixed to a variable name.
 Sigils are generally used to show that something is a variable, show its type, or ts scope.
@@ -541,11 +541,11 @@ In sh, $ is a sigil-like used for various kinds of expansion
 In SCSS/Sass, any variable requires teh $ sigil
  
 
-<h3>Declaring multiple variables</h3>
+### Declaring multiple variables
 
 a, b = 1, 2 (or e.g. returnTwoValues()) (lua, python)
 
-<h3>Constants (and not)</h3>
+### Constants (and not)
 
 Mutability is whether something can be changed after inital creation. Something is mutable if it can be changed, and immutable if it can't.
 Different things can have mutability: Objects, variables, (though generally not primitves).
@@ -567,27 +567,26 @@ In some languages (JS), consts must be initialized in the same statement as they
 The term magic number or magic constant refers to the anti-pattern of using numbers directly in source code. 
 Instead of magic numbers (the antipattern), one should instead use constants.
 
-<h3>Default variables</h3>
+### Default variables
 
 In Perl there is a special variable $_. There are many places in programming language Perl where if you do not explicitly specify a variable, the variable will be used $_. There are key words that read the values from this variable, and there are those which set of values in this variable. (also sometimes exists as @_ and %_)
 
-<h2>(Data) types</h2>
+## (Data) types
 
 An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
 If an abstract data type is a description of what something does, a data structure is how something does it.
-Lua boolean
-literals: true/false A null pointer/reference/type/value indicates that we're
-not referring to a valid thing
+
+A null pointer/reference/type/value indicates that we're not referring to a valid thing
 Datatypes implemented in a programming language can either be scalar or compound/composite
 Bash is fun in that it does not have data types at all, in truth all values are strings
 
-<h3>primitives and composites</h3>
+### primitives and composites
 
 Primitive may refer to a data type that is provided in a programming language as a basic building block.
 Composite data types are built from primitive data types. 
 Primitive may also refer to a type that has built-in language support.
 
-<h5>primitive types in different languages</h5>
+##### primitive types in different languages
 
 C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
@@ -599,7 +598,7 @@ Python: integers, floats, complex numbers
 
 
 
-<h3>Type Systems</h3>
+### Type Systems
 
 A (data) type consists of a set of values that something with that type can assume.
 In implementation, each value of a type has a unique (within the type) binary representation.
@@ -607,7 +606,7 @@ Typing can also be understood as how to interpret a series of bits.
 A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
 A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
 
-<h4>Dynamic vs Static typing</h4>
+#### Dynamic vs Static typing
 
 Dynamic typigng: type checking at runtime ≈ values have type
 Static typing: type checking at compile time ≈ variables have type
@@ -616,7 +615,7 @@ Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
 Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust, TS
 TS makes the normally dynamically typed JS statically typed
 
-<h4>Type inference/manifest</h4>
+#### Type inference/manifest
 
 Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
 Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
@@ -630,7 +629,7 @@ In languages with manifest typing, variable declarations require typea annotatio
 
 Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
 
-<h5>Type annotation</h5>
+##### Type annotation
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
 Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
@@ -638,20 +637,20 @@ In most (esp. C-family) languages, type annotation goes before the variable/cons
 In Python, Rust and TS, type annotation looks like so `: type`
 Python supports type annotation since Python .35
 
-<h6>Type aliasees</h6>
+###### Type aliasees
 
 Type aliases are names for types thsat abbreviate longer type descriptions.
 Where type aliases exist, they generally use the type keyword.
 `type ID  = number | string`
 
-<h6>Interesting keywords</h6>
+###### Interesting keywords
 
-<h4>Type errors</h4>
+#### Type errors
 
 Type safety is the dgree to which a programming language prevents logic-type type errors in favor of static-semantic type errors.
 A logic-type type error is caused by treating a value as the wrong type.
 
-<h4>Conversion, coercion, casting and context (plus truthy/falsiness)</h4>
+#### Conversion, coercion, casting and context (plus truthy/falsiness)
 
 Context is a term usely used in programming, and with much variation.
 We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
@@ -666,7 +665,7 @@ Since (ba)sh doesn't have any types but strings, it needs specific contexts to d
 math context is required to do math
 math context|$(()), (()) and the command let
 
-<h6>Type annotation keywords</h6>
+###### Type annotation keywords
 
 In general, certain types are generally indicated similarly across programming languages (though there is variation)
 Integers|int|not Rust
@@ -683,13 +682,13 @@ unsigned integer|u|u32, u64, usize,...
 floating-point|f|f32, f64
 size as part of the type annotation (usize, isize) indicates the system word size 
 
-<h5>Conversion</h5>
+##### Conversion
 
 Type conversion is explicitly using a function or the like to change the datatype of something.
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
-<h5>Coercion</h5>
+##### Coercion
 
 Type coercion is implicitly forcing a value to be treated as of a different datatype.
 JS will coerce extensively in the case of operations w/ mismatched types.
@@ -697,7 +696,7 @@ Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
 In contrast, pythons operators rarely coerce.
 
-<h5>Casting</h5>
+##### Casting
 
 Type casting is asking the programming language implementation to treat a value as a certain datatype temporarily.
 Casting will go wrong if the vlaue cannot be treated as teh casted type.
@@ -710,25 +709,25 @@ In TS, if {{c2::you know something about a type that TS doesn't}}, you can use {
 TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1::as some_type}}
 
 
-<h4>Firstclassness</h4>
+#### Firstclassness
 
 An entity is said to be first-class in programming if you can {{c1::Do most other things you can do with objects/values}}
 typical features of entities that are first-class in a certain language are e.g. {{c1::Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.}}
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
-<h4>Union type</h4>
+#### Union type
 
 A union type specifies a number of types that anything with the union type as type may take.
 with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
 Syntax in Python and TS: type1 | type2 ...
 
-<h4>Literal types</h4>
+#### Literal types
 
 A literal type is a type that can take on exactly one value which is specified via the literal of another type (e.g. 4 or true or "ara ara")
 A literal type is a type of unit type.
 
-<h4>Top types and bottom types</h4>
+#### Top types and bottom types
 
 A top type is the supertype of every othe type.
 Any value can be assigned to the top type.
@@ -750,7 +749,7 @@ System.Object|C#
 BasicObject|Ruby
 
 
-<h3>Symbols</h3>
+### Symbols
 
 Symbols as a datatype are guaranteed to be unique, and generally have a human-readable representation.
 The fact that symbols are guaranteed to be uniqe mean that they are equal only to themselves.
@@ -762,17 +761,17 @@ Internally, symbols are often represented by a number.
 :name|Ruby
 Symbol("name")|JS
 
-<h3>references
+### references
 
 A reference is a value that allows indirect access to another value.
 A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
 Handle is an ambiguous concept, but is most commonly seem as a synonym to reference.
 
-<h3>Dates</h3>
+### Dates
 
 Most common format is RFC 3339 / ISO 8601
 
-<h3>Null types</h3>
+### Null types
 
 nil|lua|liquid|ruby
 null|C#|Java|JS (secondary)
@@ -782,10 +781,10 @@ there isn't one|Rust
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 In JS a type is nullish if it is null or undefined.
 
-<h4> nullable</h34>
+####  nullable</h34>
 Nullable types are a feature of some programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
 
-<h3>Option type</h3>
+### Option type
 
 An option type is a type that represents an optional value.
 An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
@@ -798,7 +797,7 @@ pub enum Option<T> {
 
 In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
 
-<h3>boolean</h3>
+### boolean
 
 A boolean data type is a type that has one of two possible values, indicating
 truth values.
@@ -810,7 +809,7 @@ no boolean type, only truthy/falsiness|Python
 
 YAML is not boolean keyword case sensitive
 
-<h3>Numeric types</h3>
+### Numeric types
 
 Languages generally have at least a type for Integers and a type for numbers with fractional parts, most commonly floats. JS combines these into a single type Number.
 C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
@@ -827,24 +826,24 @@ In CSS, the general numeric type is <number>, which supports decimal numbers als
 In CSS, percentages are a special type, <percentage>. 
 In CSS, <percentage> consists of a <number> followed by a %
 
-<h4>Overflow</h4>
+#### Overflow
 
 If a numeric type has arbitrary precision, it can store (nearly) infinitely large numbers (it will in practice be limited by the memory the application can get from the OS)
 overflow/underflow occurs when a numeric value is to large/small for its container.
 Numeric types either have arbitrary precsion, are subject to overflow/underflow, or need to throw an error if a calculation exeeds the size limit of a numeric type.
 Rust throws an error in overflow/underflow scenarios when debugging, and wrap otherwise.
 
-<h4>Integers</h4>
+#### Integers
 
 Integer literals generally not overtly marked
 
-<h4>float and double</h4>
+#### float and double
 
 In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
 TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
 
-<h3>enums</h3>
+### enums
 
 Enum is short for enumeration or enumerated datatype.
 An enum is a datatype that can take on one of a finite set of values.
@@ -862,7 +861,7 @@ In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum varian
 We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
 
 
-<h3>Collections</h3>
+### Collections
 
 Collections are an abstract data type that hold a number of data items.
 Python calls its data structures that represent collection ADTs, well, collections.
@@ -870,7 +869,7 @@ Associative collections map keys to values.
 Js sets and maps use .size instead of .length
 Java has the Collections Framework for collections 
 
-<h4>Access
+#### Access
 
 Random access might be clearer if it was called direct access.
 Random access allows access to arbitrary elements at will.
@@ -879,7 +878,7 @@ Sequential access only allows access in a certain sort of order.
 book|random access (to pages)
 scroll|sequential access
 
-<h4>Collection methods</h4>
+#### Collection methods
 
 Clear a mutable collection
 foo.clear()|not JS|Python|Ruby
@@ -889,17 +888,17 @@ foo.flat(depth)|JS
 foo.flatten(dept)|Ruby
 nothing in py
 
-<h4>Non-linear collections</h4>
+#### Non-linear collections
 
 Python: dictionary, set (and frozenset)
 
-<h5>Sets</h5>
+##### Sets
 
 ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
 JS: class Set, create via new Set(), add(), has()
 
-<h3>Set operations</h3>
+### Set operations
 
 Many languages/libraries have generalized set operations to something you can do to most/all collection types.
 Python has set methods, but only allows them on sets.
@@ -907,9 +906,9 @@ JS has a Set class, which does not support set method
 
 xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
-<h5>Associative collections</h5>
+##### Associative collections
 
-<h6>Associative array</h6>
+###### Associative array
 
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
@@ -974,7 +973,7 @@ commonly items are separated by ,
 
 Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
 
-<h4>Linear collections/ADTs</h4>
+#### Linear collections/ADTs
 
 Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
@@ -983,7 +982,7 @@ Python sequences: list, tuple, str
 
 It seems to me that all non-array linear collections only allow sequential access.
 
-<h5>Linear collection methods</h5>
+##### Linear collection methods
 
 sort the thing
 sort()|Perl|Python (in-place!)|Ruby
@@ -1023,12 +1022,12 @@ somearr.pop(index)
 
 somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
 
-<h5>Strings as linear collections</h5>
+##### Strings as linear collections
 
 TODO string as iterable
 Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
 
-<h5>Array<h5>
+##### Array##### 
 
 An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
@@ -1108,7 +1107,7 @@ In JS, one can create an array with a specfic size (and thus ergo empty slots) b
 access|O(1)
 iterating|O(n)
 
-<h5>Lists</h5>
+##### Lists
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
@@ -1127,17 +1126,17 @@ To {{c4::cons something onto something}} is to take a {{c1::container}}, add {{c
 A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
 A cons list is a singly linked list constructed via nested ordered pairs.
 
-<h6>vs arrays</h6>
+###### vs arrays
 
 slower access O(n) vs O(1)
 more space consumption if no empty spaces in array due to pointers.
 Re: modern CPUs, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of CPU cache as well (priniple of spatial locality)
 
-<h5>Streams</h5>
+##### Streams
 
 Streams are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
 
-<h5>Stack</h5>
+##### Stack
 
 The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
 In a stack, the element you remove will be {{c1::the one you added most recently}}
@@ -1148,7 +1147,7 @@ pop: remove from top of the stack
 peek: loop at top of stack
 <img src="sm_Data_stack.svg">
 
-<h5>Queue</h5>
+##### Queue
 
 FIFO = first in first out
 A stack is a linear collection ADT with FIFO order, and the operations:
@@ -1158,7 +1157,7 @@ peek: look a the next element that would be dequeued
 <img src="sm_450px-Data_Queue.svg.png">
 
 
-<h3>Iterators</h3>
+### Iterators
 
 An iterator is an object (or similar) whose purpose is to iterate over some data. In general, an iterator has a next() method that returns the next element.
 An iterable is generally something that can create an iterator of itself.
@@ -1170,7 +1169,7 @@ in JS, the next() method returns an assoc array {
 }
 In JS, Array.from() transforms a given iterable into an array. (list() does the same in Python and foo.to_a does it in ruby)
 
-<h4>Generators</h4>
+#### Generators
 
 A generator is a form of iterator. Generators are created via a generator function (thus you control what the next() method returns), but otherwise behave like any other iterator.
 In JS, generators are indicated by a * after the function keyword.
@@ -1182,12 +1181,12 @@ yield|JS
 
 yield another generator (JS) yield*
 
-<h3>chars</h3>
+### chars
 
 The datatype storing a single character is generally called char.
 In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
-<h3>Strings<h3>
+### Strings### 
 
 A string type is generally a type for an arbitrary sequence of characters.
 Depending on the language, strings may be mutable or immutable (python, JS).
@@ -1218,7 +1217,7 @@ Strings that stretch over multiple lines in source code but are actually folded 
 
 The type for css strings is <string>
 
-<h4>String interpolation/String formatting<h4>
+#### String interpolation/String formatting#### 
 
 String interpolation is evaluating a string with placeholders and replacing them with their values
 String interpolation is a form of template processing (cf other cards)
@@ -1244,7 +1243,7 @@ Syntax|Trait
 {:?}|Debug
 {:#?}|Debug, but pretty-print
 
-<h5>C style string formatting</h5>
+##### C style string formatting
 
 (C) format strings aka printf (print formatted) format strings are names for a specific type of string formatting syntax using % and originating from C.
 Interpolate with what is called a format specifier: % followed by a char or a few chars to indicate the format. Which strings to interpolate where is determined positionally (the first string is interpolated ).
@@ -1255,13 +1254,13 @@ X|uppercase hex
 d or i|signed int
 f or F|decimal number
 
-<h4>String multiplication</h4>
+#### String multiplication
 
 x n|Perl
 * n|Python (can also be used for arrays)|Ruby (can also be used for arrays)
 .repeat(n)|JS|Ruby
 
-<h4>String concatenation</h4>
+#### String concatenation
 
 string concatenation is joining strings together into a single string.
 
@@ -1272,7 +1271,7 @@ string concatenation is joining strings together into a single string.
 .push()|Rust (for str + cahar)
 Adjacent string literals are automatically concatenated|Python|Ruby
 
-<h4>Regex matching</h4>
+#### Regex matching
 
 JS has regex literals: /<regex>/<flags> (which creates a RegExp object)
 and a constructor: new RegExp("regex","flags"), often used if you need to construct the regex dynamically at runtime
@@ -1305,7 +1304,7 @@ What somestr.match(regexp) returns depend on whether the regex is global (g) or 
 If global, match() returns all matches, but no capturing groups. If not global, match() returns the same thing as RegExpObject.exec. matchAll() returns an iterator with individual things that are  the same thing as RegExpObject.exec returns.
 
 
-<h4>common string methods</h4>
+#### common string methods
 
 Capitalizations
 
@@ -1329,30 +1328,30 @@ remove whitespace from beginning of string|trimStart()/trimLeft()|JS
 remove whitespace from end of string|trimStart()/trimLeft()|Ruby
 split string on foo|.split(foo)|Python|JS(empty string for char array)
 
-<h4>String replacement</h4>
+#### String replacement
 
 somestr.replace(foo, bar)|JS|Python
 
-<h4>Join to string</h4>
+#### Join to string
 
 separator.join(iterable)|Python
 somearray.join(separator)|JS|Ruby
 
 separator defaults to , for JS and to nothing for Ruby
 
-<h4>JS oddity: tag functions</h4>
+#### JS oddity: tag functions
 
 Tag functions are functions prefixed to template literals (but not called)
 Tag functions recieve a first argument an array of all constituent string parts of a template literal, and all interpolated values as following arguments.
 Whatever the tag function returns will be what the string evaluates to.
 Tag functions can return whatever.
 
-<h2>operators</h2>
+## operators
 
 overloading
 In Ruby, all operators are actually just syntactic sugar for methods. that is, + 3 is .+(3), somearr[1] is somearr.[](1), !3 is 3.! etc.
 
-<h3>precedence</h3>
+### precedence
 
 Operator precedence in programming mirrors the math concept of order of operations.
 Operator precedence / order of operations is in which order to apply operations.
@@ -1361,7 +1360,7 @@ Parentheses can modify the order of operations just as in math.
 The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
 In liquid, the order of operatons is right to left, parentheses are forbidden.
 
-<h3>relational opearators</h3>
+### relational opearators
 
 In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
 
@@ -1397,7 +1396,7 @@ greater/smaller with strings is generally relative to their position in unicode,
 Comparing a thing with itself is always true, except for: 
 in JS, NaN
 
-<h4>string relational operators</h4>
+#### string relational operators
 
 e.g. CSS attribute selectors, youtube-dl 
 
@@ -1408,7 +1407,7 @@ $=|ends with value
 ~=|attr is a whitespace-separated list of words, one of which is exactly value.
 bar=|attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
 
-<h3>boolean operators</h3>
+### boolean operators
 
 logical and|and|python|liquid|lua|Ruby (lower precedence)
 logical and|&&|C#|Java|JS|Ruby (higher precedence)|(ba)sh
@@ -1420,7 +1419,7 @@ logical not|!|C#|Java|JS
 In ruby, between and/or and &&/|| the former have lower precedence, and even have lower precedence than the equality operator.
 Double not can generally be used to get the truthiness/falsiness of a thing, even outside of a boolean context.
 
-<h4>short-circuiting</h4>
+#### short-circuiting
 
 Short circuiting is more properly short-circuit evaluation.
 Short-circuit evaluation  an expression stopping evaluating{{c1::as soon as it's outcome is determined}}
@@ -1432,7 +1431,7 @@ Can be used to ensure a variable never gets assigned a falsy value by using logi
 It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
 
-<h3>bitwise</h3>
+### bitwise
 
 Bitwise operations operate on the underlying binary value (regardless of type in the programming language).
 Most C-family languages support bitwise operations.
@@ -1445,7 +1444,7 @@ bitwise OR|bar
 bitwise AND|&
 
 
-<h3>math</h3>
+### math
 
 addition|+
 multiplication|*
@@ -1464,11 +1463,11 @@ The increment and decrement operators do not exist in python.
 The increment and decrement operators behave differently based on their position in relation to the number in some languages: 
 ++somevar or --somevar will crement first, and then evaluate, somevar++ or somevar-- will evaluate first, and then crement
 
-<h3>comma</h3>
+### comma
 
 In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type).
 
-<h3>element in collection/substring in string?</h3>
+### element in collection/substring in string?
 
 stringOrColl contains elem|liquid
 elem in stringOrColl|Python|JS
@@ -1476,12 +1475,12 @@ stringOrColl.includes(elem, optionalSearchStartPos)
 
 `in` in JS works amusingly if used on arrays: it will look for integer keys, and not for values, so that it will return false for "foo" in ["foo"] but true for 0 in ["foo"] (this is because arrays are objects, and thus the integer keys are actually object keys)
 
-<h3>remove element from collection</h3>
+### remove element from collection
 
 del|python
 delete|JS
 
-<h3>Type of element</h3>
+### Type of element
 
 typeof foo|JS
 type(foo)|Python
@@ -1509,7 +1508,7 @@ Infinity|'number';
 
 To test whether sth is an array in JS, you need to use Array.isArray()
 
-<h3>Length of strings, collections, etc.</h3>
+### Length of strings, collections, etc.
 
 foo.length|Java|JS|Ruby
 foo.Length|C#
@@ -1518,7 +1517,7 @@ len(foo)|Python
 
 length() for strings in perl, merely generating a scalar context is enough for arrays
 
-<h3>Spread operator/Rest syntax</h3>
+### Spread operator/Rest syntax
 
 Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
 Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
@@ -1533,14 +1532,14 @@ foo will now be [1,2,3]
 When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
 [... OR *[1,2,3], 4] == [1,2,3,4]
 
-<h2>Errors<h2>
+## Errors## 
 
 Some languages distinguish between recoverable and unrecoverable errors.
 recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack overflow
 Java and C# call recoverable errors exceptions and unrecoverable errors errors.
 It can make sense to catch recoverable errors, but it is generally impossible to catch unrecoverable errors
 
-<h3>types
+### types
 
 Errors can on one level be divided into {{c1::syntax}}, {{c2::static semantic,}} and {{c3::logic errors}}.
 
@@ -1552,9 +1551,9 @@ A logic error is an error where the program runs without problems, but produces 
 
 Based on when they occur, we separate compile-time and runtime errors
 
-<h3>Error handling</h3>
+### Error handling
 
-<h4>Throwing errors</h4>
+#### Throwing errors
 
 Generally take an expression as arg.
 
@@ -1566,14 +1565,14 @@ error()|lua
 raise|Ruby
 panic!()|Rust
 
-<h4>Error handling control structures</h4>
+#### Error handling control structures
 
 most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; finally &lt;block&gt;
 In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
 
-<h4>assert</h4>
+#### assert
 
 Assertions are predicates that deliberatly crash the program if the predicate is false.
 Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
@@ -1582,7 +1581,7 @@ Rust implements assertions via macros.
 rusts {{c1::assert_eq!}} macro tests wheter {{c2::two expressions are equal}} (using the trait {{c2::PartialEq}}), and {{c3::panics if they are not}}
 rusts {{c1::assert!}} macro tests whether {{c2::something is true}}, and {{c3::panics if it is not}}
 
-<h2>Callable units</h2>
+## Callable units
 
 Callable unit is a cover term for anything that can be called, be that functions, methods, procedures...
 A call is a thing that executes a callable unit.
@@ -1600,20 +1599,20 @@ The body of the callablue unit contains the code to execute.
 In java, the callable unit signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
 In JS, function keyword defined callable units generate their own this, while arrow functions do not.
 
-<h3>Declaration</h3>
+### Declaration
 
 In most languages, functions can only be declared in statements, however languages that have functions as first-class citizens often also allow declaration via expressions.
 function expressions are generally assigned to variables for later usage.
 JS calls function declarations that are statements function declarations, and function declarations that are expressions function expressions.
 
-<h3>signatures</h3>
+### signatures
 
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
 void is commonly used for no return type in languages that require a return type to be specified.
 return type is indicated:
 -> <type> at the end of signature|rust
 
-<h3>returning</h3>
+### returning
 
 Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
 The datatype of the thing that is returned from a callable unit is known  {{c1::The return type}}
@@ -1622,7 +1621,7 @@ In general, using the return keyword without a value returns the languages null 
 Multiple values: separated by comma|lua
 In Rust, using the return keyword is frowned upon, as blocks return their final expression anyway.
 
-<h4>returning and side effects
+#### returning and side effects
 
 A side effect is a modification of the state of something that is outside of the local environment the operation is performed in.
 A callable unit must return something or have side effects, else it does nothing.
@@ -1631,14 +1630,14 @@ A function is a callable unit that returns a value.
 A pure function is idempotent and has no side effects.
 
 
-<h3>Closures</h3>
+### Closures
 
 A {{c1::closure}} is the combination of {{c2::a callable unit}} and {{c3::the lexical environment}} (= {{c4::any variables that were in scope}}) within which that function was declared.
 Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 In rust, only closures create closures :P
 
-<h3>Call by...</h3>
+### Call by...
 
 Call by x and pass by x are synonyms
 call by/pass by x is a distinction in how arguments are handled.
@@ -1658,7 +1657,7 @@ sharing|lua|JS|Java
 
 moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
 
-<h3>Anonymous functions</h3>
+### Anonymous functions
 
 A callable unit not bound to an identifier is an anonymous function/callable unit.
 First-class functions/callable units are callable units that are first-class citizens.
@@ -1686,7 +1685,7 @@ Arrow functions function similarly to normal js functions, but have a shorter sy
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
 
-<h4>IIFE</h4>
+#### IIFE
 
 An immediately invoked function expression (IIFE) uses function scoping to create a fake block scope.
 IIFEs were used for the same reasons as block scope is used generally, and preventing hoisting.
@@ -1695,7 +1694,7 @@ in JS IIFEs need to force an expression to be able to immediately invoke it (sin
 The most common way to force functions to be expressions is via surrounding them in (), but other ways are possible.
 With the introduction ES6 let and const, IIFEs have become mostly irrelevant.
 
-<h3>Higher-order functions</h3>
+### Higher-order functions
 
 A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
 
@@ -1709,12 +1708,12 @@ callable units passed to other callable units to be executed at some other point
 
 The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
 
-<h4>map</h4>
+#### map
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
 .map(func)|JS|Python|Ruby
 
-<h4>sort</h4>
+#### sort
 
 Sort is a higher-order function that takes a function which itself takes two arguments. Depending on the language, return values are handled differently.
 JS function must return value smaller 0 if the first argument is to be first, larger 0 if the second argument is to be first, and 0 if it should not reorder.
@@ -1725,12 +1724,12 @@ In some languages sort does not take a sorting function, instead only using the 
 sorted(foo)|Python (takes an iterable)
 foo.sort()|JS (takes an optional sort function, only Arrays)
 
-<h4>filter</h4>
+#### filter
 
 Filter is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
 filter()|JS
 
-<h4>reduce</h4>
+#### reduce
 
 The reduce function/method takes a function known as the reducer function
 The reducer function recieves the return value of the last execution of the reducer function, and the current element of the collection. 
@@ -1740,13 +1739,13 @@ Many languages allow specifying a 'previous result' element for the first time t
 js has the variant reduceRight that starts from the end
 reduce()|JS|Ruby|Python
 
-<h4>some/every/</h4>
+#### some/every/
 
 some is a higher order-function that takes a function and returns true if the passed function returns true even once.
 every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
 JS
 
-<h4>find</h4>
+#### find
 
 find is a higher-order function that takes a function and returns the first element for which the passed function returns true. findIndex instead returns the index.
 find()|JS|Ruby
@@ -1755,7 +1754,7 @@ find_index()|Ruby
 
 
 
-<h3>Arguments<h3>
+### Arguments### 
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
 for a callable unit,  {{c1::parameters}} are the values you specify the function will be passed, most commonly in its signature.
@@ -1784,7 +1783,7 @@ arguments|JS (not arrow functions)
 In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
 $# gets the amount of arguments passed.
 
-<h4>Positional and named</h4>
+#### Positional and named
 
 A positional argument is one where the language knows which parameter to assign it to based on its position in the argument list.
 A named argument is one where the language knows which parameter to assign it to because it directly refers to the name of the parameter.
@@ -1793,7 +1792,7 @@ Named arguments usually use normal assignment syntax
 named parameters|Python|JS|SCSS/Sass @mixin, @function
 positional parameters|pretty much all languages
 
-<h4>Default parameters</h4>
+#### Default parameters
 
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
@@ -1801,7 +1800,7 @@ In JS, the default parameter will take on the default value if undefined is pass
 the general syntax is `paramname = defaultval` (within the parameter list)
 Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
-<h3>Asynchronous callable units</h3>
+### Asynchronous callable units
 
 Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
 
@@ -1843,7 +1842,7 @@ The only thing we do with the executor functions argumetns resolutionFunc and re
 As with the Promise.resolve and .reject, you pass the rejectionFunc the reason for rejecting, and the resolutionFunc the thing you want to fulfill with, or another promise
 
 
-<h3>Overloading</h3>
+### Overloading
 
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
@@ -1851,18 +1850,18 @@ When overloading, each signature generally has its own implementation, exept in 
 In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
 In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
-<h2>Records</h2>
+## Records
 
 A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
 A type that defines a record is a record type.
 Most programming languages allow creation of instances of record types.
 
-<h3>Principles</h3>
+### Principles
 
 Encapsulation refers to grouping together related things somehow, e.g. within records.
 Information hiding is hiding the internals of a thing from the  outside.
 
-<h3>Class and instance entities</h3>
+### Class and instance entities
 
 A class x is a x operates on/is defined on a class rather than an instance.
 An instance x operates on/is defined on an instance of a record.
@@ -1880,7 +1879,7 @@ static|Java|C#|JS
 does not take self as argument|Rust
 
 
-<h3>Methods</h3>
+### Methods
 
 A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
@@ -1889,7 +1888,7 @@ A message in OOP consists of the target object, the name of the method to perfor
 In Rust, Python, methods must take self as the first argument.
 
 
-<h4>Getters and setters</h4>
+#### Getters and setters
 
 Also called accessors and getters.
 A getter returns a field of a record.
@@ -1907,26 +1906,26 @@ only within a class
 
 You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
 
-<h3>passive data structure</h3>
+### passive data structure
 
 AKA plain old data structure (PDS)
 Use of a data structure that contains fields w/ values, but no other object-oriented features
 
 
-<h3>Structs</h3>
+### Structs
 
 Struct is not an incredibly well-defined term, but is generally a record with the possibility for methods, but not the whole inheritance etc. stuff of classes.
 In rust, struct declarations use the keyword struct.
 Both struct delcarations and initializations in rust use a very assoc-array like syntax.
 struct User { username: String, ...}
 
-<h3>Tagged unions</h3>
+### Tagged unions
 
 A tagged union can hold a value that could take on several different but fixed types.
 A tagged union can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
 What rust calls enums is more properly a tagged union
 
-<h3>Classes & objects </h3>
+### Classes & objects 
 
 An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
 
@@ -1944,12 +1943,12 @@ method in lua function object:method(...)
 in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
 
 
-<h4>Methods ruby</h4>
+#### Methods ruby
 
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
 
-<h4>pure OO</h4>
+#### pure OO
 
 A pure object oriented language is one where everything is treated as an object.
 There is much discussion on what it means to be 'treated as an object' for pure OO languages, but most commonly, it is at least:
@@ -1962,7 +1961,7 @@ It is a matter of debate which languages are sufficiently pure OO to qualify:
 Ruby, Python, and JS allow methods to be called on pretty much anything, even primitives, since all primitves are boxed.
 Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
 
-<h4>Inheritance</h4>
+#### Inheritance
 
 Superclass aka base class
 subclass aka derived class
@@ -1973,14 +1972,14 @@ In C#/Java, making a class final disallows a subclass from inheriting from it.
 In C#/Java, making a method/static function final disallows a subclass from overriding it it.
 Most languages only support single inheritance, some languages (among those I know Perl and Python) also allow multiple inheritance
 
-<h4>abstract & static classes </h4>
+#### abstract & static classes 
 
 Abstract classes are generally declared with the abstract keyword. Within abstract classes, methods are also declared with the abstract keyword.
 Both abstract and static classees are not instantiable.
 Abstract classes are designed mainly to be inherited from.
 
 
-<h4>Constructors/object creation</h4>
+#### Constructors/object creation
 
 Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
 
@@ -1995,14 +1994,14 @@ In JS, you may not use arrow functions as constructors
 
 
 
-<h4>type parameters and generics</h4>
+#### type parameters and generics
 
 The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
 Generally, multiple type parameters are separated by , 
 Type parameters are generally written in UpperCamelCase
 Generics are generally a single char only
 
-<h4>Access modifier</h4>
+#### Access modifier
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
 In Java, members have default accessibility by default.
@@ -2016,7 +2015,7 @@ JS is an exception, it marks private members with #
 default||Java
 protected|same mclass and subclasses|Java
 
-<h4>Interfaces</h4>
+#### Interfaces
 
 mixins are pretty similar concepts.
 In OOP an interface is a set of methods that anything that implements that interface must also implement.
@@ -2032,22 +2031,22 @@ In most languages, a record may implement multiple interfaces/traits.
 
 Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
 
-<h5>Traits</h5>
+##### Traits
 
 Traits in Rust are broadly similar to intefaces in other programming languages.
 Traits in Rust can be implemented for types you did not define.
 However, the trait ∨ the thing its implemented on must be local to the crate
 Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
 
-<h4>OOP</h4>
+#### OOP
 
 C#, Javaf
 
-<h4>is X an object of Y</h4>
+#### is X an object of Y
 
 someobj instanceof class|JS
 
-<h4>Duplication/Replication</h4>
+#### Duplication/Replication
 
 
 shallow copy
@@ -2058,14 +2057,14 @@ deep copy
 copy (module copy).deepcopy(foo)|Python
 foo.clone()|Rust
 
-<h4>toString()</h4>
+#### toString()
 
 Most languages with objects have a tostring function to convert these to strings for debugging purposes.
 It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
 
 toString()|JS
 
-<h4>Boxing</h4>
+#### Boxing
 
 A box is a minimal object wrapper around another type.
 The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
@@ -2076,13 +2075,13 @@ Boxing primitives allows us to interact with them using a similar interface as o
 Autoboxing is the conversion of primitves to boxed types when relevant.
 Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
 
-<h2>Pragmas</h2>
+## Pragmas
 
 In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
 Perls pragmas have the syntax use &lt;name&gt;;
 Perls pragma use warnings; causes the perl program to display warnings in certain circumstances.
 
-<h3>Strict mode</h3>
+### Strict mode
 
 Both perl and JS have a strict mode pragma.
 Strict mode pragmas cause programs to fail in certain cases.
@@ -2094,9 +2093,9 @@ In JS, strict mode applies to the whole file if it's the first statement if the 
 Strict mode in JS:
 - reserves certain keywords (for future proofing)
 
-<h2>IO</h2>
+## IO
 
-<h3>the enviornment
+### the enviornment
 
 In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
 sys.stdin|python
@@ -2109,7 +2108,7 @@ Environment variables
 %ENV|Perl
 process.env|Node
 
-<h3>Print</h3>
+### Print
 
 Print functions in different languages
 
@@ -2131,20 +2130,20 @@ Print an error to console (but don't throw one)
 console.error()|JS
 @warn|SCSS/Sass
 
-<h3>visual
+### visual
 
-<h4>UI
+#### UI
 
 widget tookit   library for creating UIs
 gtk   GNU widget toolkit
 qt (read cute)   cross-platform widget toolkit
 
-<h2>Formatting</h2>
+## Formatting
 
 Official style guide/best practices
 PEP 8|Python
 
-<h2>import/export</h2>
+## import/export
 
 A module is as self-contained set of code, most commonly in a single file of code.
 Packages and modules are sometimes synonyms.
@@ -2157,7 +2156,7 @@ If you want to import/export multiple members, most languages have the syntax {m
 Import/export anything uses * in most languages
 in JS, you can only import/export within modules.
 
-<h3> Importing</h3>
+###  Importing
 
 In most languages, you can only import things that were first exported.
 In most languages, import statements must be in the beginning of the file.
@@ -2185,18 +2184,18 @@ CommonJS is {{c1::a module ecosystem}} mainly used by node
 
 let/var/const <name> = require(<path>)
 
-<h4>prelude</h4>
+#### prelude
 
 Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
 
-<h3>exporting</h3>
+### exporting
 
 In most languages, exporting is required so they can then be imported.
 General syntax: export <members> [as <name>]
 
-<h4>default exports</h4>
+#### default exports
 
-<h2>APIs</h2>
+## APIs
 
 API = application programming interface
 an API is an interface for software to interact with a piece of software/application/library/functionality etc.
@@ -2214,23 +2213,23 @@ A shim is a library that takes API calls for something else and then does someth
 A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
 A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
 
-<h2>lifecycle</h2>
+## lifecycle
 
-<h3>Entry point</h3>
+### Entry point
 
 In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
 The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
 
-<h2>Memory Management</h2>
+## Memory Management
 
 Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
 Memory deallocation is releasing previously allocated memory.
 
 The lifetime of a variable or object is the time where it has valid memory.
 
-<h3>The stack and the heap</h3>
+### The stack and the heap
 
 The call stack is often only called the stack.
 The call stack implements the stack ADT
@@ -2256,7 +2255,7 @@ The heap is managed much less strictly than the stack.
 
 In general, there is one stack per thread and one heap per process (instance of a program)
 
-<h3>static, automatic and dynamic variables</h3>
+### static, automatic and dynamic variables
 
 An automatic variable is a variable that has its memory allocated and deallocated automatically when the program enters and leaves the variables scope.
 Automatic variables have a lifetime of the variables scope.
@@ -2268,7 +2267,7 @@ Dynamic variables have a lifetime of your choosing: their memory is allocated an
 Dynamic variables are stored on the stack.
 Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allocation.
 
-<h3>memory management</h3>
+### memory management
 
 Memory management is managing the memory of an application.
 One of the main jobs of memory management is memory allocation and deallocation.
@@ -2283,7 +2282,7 @@ The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
 
-<h2>Standard library</h2>
+## Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
@@ -2367,7 +2366,7 @@ Sum up all the elements in an iterable
 sum(iterable)|Python
 enumerableWhichIsJustASynonymForIterable.sum()|Ruby
 
-<h3>Modules/Objects/Namespaces</h3>
+### Modules/Objects/Namespaces
 
 Object/Struct/whatever for standard math operations
 Math|JS
@@ -2376,14 +2375,14 @@ math|Python
 Filesystem handling
 fs|node
 
-<h3>Query for input</h3>
+### Query for input
 
 Generally, show a message, have a text input field, return the inputted text.
 
 input(mesg)|Python
 window.prompt(mesg, default)
 
-<h3>slicing and ranges</h3>
+### slicing and ranges
 
 Slice and range syntax is often similar.
 For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
@@ -2393,7 +2392,7 @@ start..end_excl|Rust
 start...end_excl|Ruby
 start..=end_incl|Rust
 
-<h4>Slicing</h4>
+#### Slicing
 
 Slicing is extracting a subset of elements from a data structure.
 Slicing is most commonly performed on linear collections or strings.
@@ -2406,7 +2405,7 @@ In python you can assign to slices, delete them, etc.
 .substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
 [start,length]Ruby
 
-<h4>ranges</h4>
+#### ranges
 
 Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
 Step is pretty much always optional.
@@ -2417,13 +2416,13 @@ seq start step stop|sh
 Bash calls its range syntax a <dfn>sequence expression</dfn>.
 Bash also supports characters as start and stop.
 
-<h2>Programming languages I don't know
+## Programming languages I don't know
 
 COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
 C was created in 1972.
 *nix OSs are famously written in C.
 
-<h2>Programming language implementation</h2>
+## Programming language implementation
 
 A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
 
@@ -2432,32 +2431,32 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 $Something that happens during execution   runtime $something
 $Something that happens during compiling   compile-time $something
 
-<h3>Compilation/Interpretation</h3>
+### Compilation/Interpretation
 
 A compiler translates one programming language into another in one step before execution.
 Most commonly, a compiler translates a programming language into machine code/assembler.
 An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
 
-<h4>Compiling/Interpreting</h4>
+#### Compiling/Interpreting
 
 1. lexical analiysis = tokenization = lexing
 2. sytax analysis = parsing
 3. semantic analysis
 
-<h4>lexical analysis
+#### lexical analysis
 
 Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
 In the context of compiling/interpreting, identifier/name is a synonym for symbol.
 
-<h4>JIT</h4>
+#### JIT
 
-<h3>Transpiling</h3>
+### Transpiling
 
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
 Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
 
-<h3>Language CLI</h3>
+### Language CLI
 
 most languages have a CLI tool to interface with them, esp. with implementations
 
@@ -2470,7 +2469,7 @@ sass|sass/scss
 -c STRING|read program from string
 -e STRING|read program from string|perl
 
-<h4>REPL</h4>
+#### REPL
 
 REPL is short for read-eval-print loop
 {{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
@@ -2486,7 +2485,7 @@ Python calls being in the repl interactive mode
 the value of the last expression
 _|Python
 
-<h3>Shebangs</h3>
+### Shebangs
 
 env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
 Using env in the shebang is to get the relevant executable on the path
@@ -2494,19 +2493,19 @@ so in general, you can specify the language of a script by doing
 #!/usr/bin/env language-command
 
 
-<h2>Boilerplate</h2>
+## Boilerplate
 
 Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
 
-<h3>document start/end indicators</h3>
+### document start/end indicators
 
 --- the file ... |YAML (but optional, merely allow multiple documents per file)
 
-<h2>Misc/no place yet</h2>
+## Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
 
-<h3>Indexing</h3>
+### Indexing
 
 Most langauges I know start linear collection indices at 0, however lua starts them at 1
 In most languages, providing negative indices counts from the back, with -1 being the last element.
@@ -2530,15 +2529,15 @@ In JS, the optional chaining operator works like dot notation, except that if us
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
 The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
 
-<h2>Things programming languages do especially well</h2>
+## Things programming languages do especially well
 
 performance|rust
 
-<h2>Shell & Bash ideosyncraacies</h2>
+## Shell & Bash ideosyncraacies
 
 // all taken from bash manual, but generally should hold true for other shells
 
-<h3>The directory stack</h3>
+### The directory stack
 
 in nix, there is a stack of directories called the directory stack.
 in nix, you can push/pop from the directory stack with the commands pushd/popd.
@@ -2549,7 +2548,7 @@ dirs +/-<n>|display the nth directory counting from the start/end
 pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
 popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
 
-<h3>Prepopulated shell variables</h3>
+### Prepopulated shell variables
 
 PWD|current directory
 OLDPWD|directory before last pwd
@@ -2560,12 +2559,12 @@ EDITOR and VISUAL are shell environement variables {{c1::setting the default edi
 PATH is for where to find executables
 
 
-<h3>Pattern matching</h3>
+### Pattern matching
 
 *|any string
 ?|any single character
 
-<h3>Shell lifecycle</h3>
+### Shell lifecycle
 
 0. The shell may get its input from a file, a string, or the terminal.
 1. the shell tokenizes and parses the input (as does any programming language)
@@ -2574,7 +2573,7 @@ PATH is for where to find executables
 4. the commands are executed
 5. the shell waits for the commands to complete and collects its exit status
 
-<h3>Expansion</h3>
+### Expansion
 
 Expansion is replacing a thing with another thing or things.
 
@@ -2686,12 +2685,13 @@ In the file name expansion stage, bash retains patterns that didn't match anythi
 nullglob makes patterns disappear if they don't match anything
 failglob makes patterns fail if they don't match anything.
 When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
+To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
 
-<h3>Quote removal</h3>
+### Quote removal
 
 After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
 
-<h3>Redirection</h3>
+### Redirection
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
@@ -2701,7 +2701,7 @@ redirecting output [<n>]>[\||>][&]<word>
 1> may be abbreviated > 
 0< may be abbreviated <
 
-<h3>Parameters</h3>
+### Parameters
 
 In bash, a parameter is an entity that stores a value.
 In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
@@ -2721,7 +2721,7 @@ Associative arrays: names, literals, other construction methods, etc.
 
 
 
-<h2>Metacharacters & escapes </h2>
+## Metacharacters & escapes 
 
 A metacharacter is a character that has a special meaning to a computer program, such as a shell interpreter or a regular expression (regex) engine.
 
@@ -2790,9 +2790,9 @@ hexadecimal
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
-<h2>text encoding</h2>
+## text encoding
 
-<h3>ASCII</h3>
+### ASCII
 
 Control characters are also called non-printing characters.
 ASCII (no extension) takes up 7 bit.
@@ -2833,13 +2833,13 @@ CR|older macs
 
 The bell character is sometimes used in command-line utilities for a notiification sound
 
-<h3>ISO/IEC 8859</h3>
+### ISO/IEC 8859
 
 The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
 
 Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp><rt>もじば</rt><rp>)</rp></ruby>け, which was common in japanese due to a number of incompatible encodings existing.
 
-<h3>Unicode</h3>
+### Unicode
 
 Unicode is goverened by the unicode consortium.
 While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
@@ -2861,7 +2861,7 @@ Unicode blocks always sized in multiples of 16, therefore the first hex digit in
 Unicode blocks are always contiguous and disjoint with each other.
 In general, an unicode block should be united by a common purpose in some way.
 
-<h4>multiple characters
+#### multiple characters
 
 A 'character' may consist of one or more (encoded) unicode code points.
 Some characters can be created both by combining a character with a combining character/mark, or by using an one-codepoint precomposed version.
@@ -2876,7 +2876,7 @@ Canonical equvalency is a subset of compatibility.
 two unicode characters are canonically equivalent if they display the same and have the same meaning.
 Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
 
-<h4>encodings
+#### encodings
 
 There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
 UTF-32 encodes any codepoint as 4 bytes, and is thus very wasteful for something like latin text.
@@ -2885,7 +2885,7 @@ UTF-8 may take 1-4 bytes to encode a cahracter.
 
 Today, most things default to UTF-8, however a few things such as JS default to UTF-16.
 
-<h5>UTF-8
+##### UTF-8
 
 UTF-8 encodes the 128 ASCII characters the same way as ASCII, but with a leading zero (since 8 not 7 bit)
 First UTF-8 byte starts|character contains n bytes
