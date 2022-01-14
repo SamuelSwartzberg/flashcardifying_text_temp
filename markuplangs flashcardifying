@@ -1747,9 +1747,15 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+### misc
+
+When config files are split up into multiple files, .d directory names are often used
+
 ## command-line 
 
 ### meta
+
+most configurable commands are done so by a config file, either at .commandname or better XDG_CONFIG_HOME/commandname, some also read from a global config file generally in /etc
 
 #### common syntax considerations
 
@@ -1881,13 +1887,18 @@ cd|move to specified directory
 cd without an argument moves back to your home directory
 cd - moves back to previous directory (not parent directory)
 
-#### changing
+#### changing files
 
 mv will silently overwrite if moving to something that already exists.
 dd   copying (similar to cat/cp) with some low-level options
 shred overwrites a file multiple times so it is difficult to recover, however this interacts badly with SSDs
 touch|create emtpy file
 mkdir|create empty directory
+
+#### managing fs
+
+<code>mount</code>|mounting a device
+<code>umount</code>|unmount something
 
 ### text
 
@@ -1969,8 +1980,50 @@ ffmpeg media player   <code>ffplay</code>
 mpv
 
 Play a playlist<filename>   --playlist=&lt;filename&gt;
+don't open a new video window<filename></filename>   --no-video
+
+##### mpd mpc
+
+mpd is short for Music Player Daemon.
+mpd acts as a server, which you can start via the <code>mpd</code> command (either directly or via a service)
+As a proper server, mpd occupies a port on the host.
+You can interface with the mpd server with a number of clients, e.g. mpc
+
+mpc -p port or --port=port|connect to mpd at the specified port
+<code>mpc queue(d)</code>|<b>show</b> next song
+<code>mpc current</code>|show currently playing songm<br><div class="sub">
+<code>mpc update</code>|update collectiion by scanning for changed files
+<code>mpc stats</code>|display mpd playing info such as total play time up until now, etc.
+<code>mpc rescan</code>|rescan whole music directory
+<code>mpc lsplaylists</code>|list all current playlists
+<code>mpc ls</code>|list the contents of the music directory
+<code>mpc load &lt;name&gt;</code>|load a certain playlist
+<code>mpc clear</code>|clear queue
+<code>mpc shuffle</code>|reshuffle the playlist
+<code>mpc single</code>|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
+<code>mpc repeat</code>|toggle repeat
+<code>mpc random</code>|toggle random playback (that is, pick songs from the queue at random)
+<code>mpc prev</code>|go to previous song
+<code>mpc playlist</code>|show the current playlist
+<code>mpc pause</code>|pause
+<code>mpc next</code>|go to next song
+<code>mpc toggle</code>|play if paused, pause if playing</div>
+
+### online data fetching
+
+<code>urban</code>|Terminal urban dictionary browser
+<code>trans</code>|Use google translate to translate text
+<code>deepl</code>|Use deepl to translate text
+
+lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} # leave out first arg for detection
+
 
 ### sysadmin
+
+#### arch
+
+arch with no args prints the current system architecture
+the arch command can be made to run programs on other architectures via arguments.
 
 #### hardware info
 
@@ -1985,9 +2038,30 @@ lsusb   list USB devices
 
 wmctrl   Manage an X window manager
 
+#### state change
 
+<code>shutdown</code>|shutting your system down
 
+### misc
 
+<code>redshift</code>|make screen red/yellowish (linux)
+
+set color temperature    <code>-O temp </code>
+reset color temp   <code>-P</code>
+
+<code>nightlight</code>|make screen red/yellowish (mac)
+
+<code>nightlight status</code>|show <code>nightlight</code> status   
+<code>nightlight on</code>|enable <code>nightlight</code>   
+<code>nightlight schedule</code>|manage <code>nightlight</code> schedule   
+<code>nightlight temp</code>|show current <code>nightlight</code> color temperature (with arg: set it)
+
+CLI tool for managing displays|<code>display_manager.py</code>
+<code>display_manager.py res</code>|manage resolutions (display_manager.py)
+<code>display_manager.py res width height</code>|Set the resolution to width * height (display_manager.py)
+
+date is a tool for showing, formatting or changing date and time
+If run without arguments, date gets the current date and time
 
 ## processes
 
