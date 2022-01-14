@@ -40,7 +40,10 @@ semicolons as statement separators and statement terminators, complex exceptions
 §§ ((c:14;::Curly-brace/bracket languages))&nbsp;are defined as languages that ((c:15;::use curly-braces)) ((c:16;::to define blocks)). §<br>
 Many programming languages have been influenced by C, sometimes called C-family languages.
 C was a curly-brace language, and so many C-family language are curly-brace languages.
-(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {}
+(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {} (but also via `()`)
+bash calls its block statements command grouping.
+bash block statements/command grouping is what is used by bash functions.
+The difference between bash block statements using () and using {} is that () spawns a subshell and thus a new scope, while {} executes the commands in the current shell.
 §§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)), SCSS (but not Sass). §<br>
 §§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
@@ -72,17 +75,19 @@ If control structures have conditions, they are delimited by...
 
 ()|C|JS|Java|C#|Perl
 nothing|Python|Ruby|Rust|Lua
-[]|Shell (is actually just test symlinked as  [)
+is complicated|shell
 
+Conditions for control structures in ba(sh) are actually (a) command(s)
+If the command(s) that make up the condition for a control structure return a zero exit code, they will be treated as true, and false otherwise.
+Ergo, one can use the `test` command in the condition of a (ba)sh control structure, but one can also use any other command and rely on its exit status.
+test is also available under the name `[` but requires a closing `]` in this case.
 (ba)sh requires all operators and the [] themselves to be separated by spaces, since [ is actually just a symlink for test, and thus all of these are actually arguments for a command.
 
 ### choice/selection control structures
 
-<p>
 choice/selection control structures allows choosing between several alternatives based one or more conditons.
 choice/selection control structures constructs are also just called conditionals.
 In conditionals, any of the possible paths is called a branch.
-</p>
 
 #### if
 
@@ -142,7 +147,6 @@ Rust instead has match
 
 JS Syntax examples:
 
-## switch
 <pre><code>switch (expression) {
   {{c1::case}} {{c2::}}value1{{c2::}}{{c3:::}}
    //Statements;
@@ -176,7 +180,7 @@ condition-controlled loops can begin or end with their condtion, in which case t
 condition-controlled loops that test at the beginning of the loop are often started with the keyword <code>while</code> and are often called while-loops. 
 condition-controlled loops that test at the end of the loop are often started with the keyword do, then a block, then end with the keyword while followed by the condition and are often called do-while-loops.
 Most programming languages I know have while and do-while loops, in fact I don't think I know a programming language that doesn't have a while loop.
-Perl has a while loop with an inverted condition (analogous to unless) called until.
+Perl and bash have an until loop: a while loop with an inverted condition (analogous to unless).
 Lua also has a while loop with an inverted condition that tests at the end of the loop with the syntax repeat ... until
 
 
@@ -345,7 +349,7 @@ dynamic = late binding is name binding during runtime
 
 the scope of a name binding is the part of a program where the name binding is valid.
 for something to have x-scope is to only have the name binding be valid within x.
-a variable with x-scope is often called an x-variable
+a variable with foo-scope is often called an foo-variable
 
 #### Lexical & dynamic
 
@@ -383,11 +387,19 @@ $|Ruby
 Variable scope in python is not determined by keyword but by context.
 In JS, variables declared without a keyword become properties of the global object
 
+#### shell scope
+
+In (ba)sh, the thing that determines scope is the shell.
+environment variables have a scope that allows access in current shells and subshells.
+
+env|show all environment variables
 
 #### Shadowing
 
 Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
 Variable masking/shadowing is name shadowing involving variables
+In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
+
 
 #### Hoisting
 
@@ -412,10 +424,6 @@ While there is variety in what is allowed in a identifier name, most commonly it
 JS also allow $ in a non-sigil way in identifier names.
 JS identifiers may not start with a number, but with any other allowed character.
 In general, identifiers may not be keywords.
-
-### Shadowing
-
-In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
 
 ## Values
 
@@ -1757,7 +1765,7 @@ find_index()|Ruby
 
 
 
-### Arguments### 
+### Arguments
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
 for a callable unit,  {{c1::parameters}} are the values you specify the function will be passed, most commonly in its signature.
@@ -1886,7 +1894,8 @@ does not take self as argument|Rust
 
 A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
-A message in OOP consists of the target object, the name of the method to perform, and the argumetns passed.
+in OOP, a method call is the way to send of message: The originator object is implicit, the target is specified manually, the method called is the message, and the arguments are well the arguments.
+Ergo, in OOP objects generally use message passing to communicate.
 
 In Rust, Python, methods must take self as the first argument.
 
@@ -2097,6 +2106,12 @@ In JS, strict mode applies to the whole file if it's the first statement if the 
 Strict mode in JS:
 - reserves certain keywords (for future proofing)
 
+### shebangs
+
+An interpreter directive is a type of pragma that specifies which interpreter to use for a thing.
+On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
+The shebang consists of the characters #!.
+
 ## IO
 
 ### the enviornment
@@ -2226,6 +2241,17 @@ The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
 
+## communication
+
+To share data between entities, one can use message passing or shared memory.
+Shared memory is having a fixed storage location which both entities can access to read/write the data.
+
+### messages
+
+Message passing is communicating between two things by sending messages.
+A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
+IPC is just message passing between two processes.
+
 ## Memory Management
 
 Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
@@ -2284,6 +2310,39 @@ Most higher-level programming languages have no manual memory management at all.
 Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
+
+## multithreading
+
+Threads can be divided into kernel and green/virtual/user threads.
+green thread = virtual thread = user thread.
+kernel threads are those managed by the kernel to be scheduled for some CPU time.
+user threads are those threads managed by a user process.
+N:1 Threading   all threads of the program map onto one kernel thread
+M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
+1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
+
+### thread pools
+
+A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
+A thread pool typically processes a queue of tasks waiting for processing.
+
+### workers
+
+Web Workers are threadlike things in JS.
+Web Workers come in two flavors, dedicated workers and shared workers.
+While a {{c2::dedicated worker}} is accessible from {{c3::a single script only}}, a {{c2::shared worker}} is accessible from {{c4::multiple scripts}}, even if {{c1::within different windows or frames}}
+Because many JS APIs are not {{c2::threadsafe}}, {{c3::Web Workers}} have access to {{c1:: only a limited subset}}
+
+Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
+Web Workers as well as the main thread communicate via message passing.
+For Web Workers, messages are sent by using the method postMessage and recieved via the message event.
+For Web Workers, messages always send a copy of the data.
+To handle events in Web Workers, use the error event.
+To stop a Web Worker, call the terminate() method on it.
+
+### thread-safety
+
+Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
 
 ## libraries
 
@@ -2436,6 +2495,154 @@ COBOL is a programming language introduced in 1959 with an englisy-like syntax t
 C was created in 1972.
 *nix OSs are famously written in C.
 
+## toolchains
+
+In general, a toolchain is a set of software tools used to do something.
+In software development, a toolchain is a set of tools used in combination to develop and deploy software.
+A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
+
+### dependencies
+
+A dependency is a piece of software another piece of software relies on.
+
+### packages & package managers
+
+A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
+A package manager typically can manage packages from many different developers.
+A package is a file in a package format.
+A package unsually is made up of an archive (format) of some kind and some metadata.
+Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed
+
+update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
+update|update all dependencies/installed packages|bundler|npm
+refresh|update all installed packages|snap
+exec|execute a script in the current bundle|bundler
+upgrade|installs all available updates|apt|brew
+install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
+install|install all dependencies in package manifest|bundler|gem
+uninstall PACKAGE|uninstall a package|brew|npm
+remove PACKAGE|uninstall a package|apt
+ls/list|list installed packages|brew|npm
+outdated|show a list of outdated packages|brew|npm|bundler
+init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
+show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
+show FOO version|show latest version of package foo|npm
+pack|create a tarball of a project/package|npm
+publish|publish to offical pagckage hub/repository|cargo|npm
+-g or --g|do whatever globally
+
+#### package manifest
+
+A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
+In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
+While the package manifest or wherever is where you specify the versions of your dependencies you accept, the lockfile specifies the versions which are actually installed.
+
+Cargo.toml|cargo
+package.json|npm|yarn
+
+package manifest top-level keys
+dependencies|specify dependencies|Cargo.toml|package.json
+package|general package information|Cargo.toml
+
+package-lock.json|npm
+Gemfile.lock|bundler
+
+### build tools
+
+Build tools are the tools that create an executable application from source code.
+A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
+A bundler is a type of build tool.
+
+### contaienrs
+
+Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
+A container often also includes software's dependencies within the container.
+An application being contained in a container is said to be containerized.
+Containerization improves security and portability.
+Containerization is the standard for most mobile operating systems.
+Containerization may limit functionality and increase size (since dependencies cannot be shared)
+
+### mapping
+
+different tools may perform one or more roles within a toolchain.
+
+In latex the package manager is part of the tex distribution
+The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
+Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
+
+Most commonly, the CLI for a framework will also be a build tool.
+
+cargo is the package manager and build tool for rust.
+the official package repository for cargo is crates.io
+There is no official task runner for rust, but one commonly used is cargo-make.
+npm is the most common package manager for JS, followed by yarn. 
+The official package hub for npm is the npm Registry.
+npm scripts works as a task runner for JS.
+There are more JS build tools than you can shake a stick at. The most common is webpack.
+pip is the package manager for python.
+The official package hub for pip is PyPI.
+apt is the package manager for Ubuntu.
+dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
+apt uses dpkg in the background.
+homebrew (command: brew) and macports (command: port) are package managers for macos.
+homebrew can also be used on linux, and is written in ruby.
+ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
+In ruby, packages are called gems.
+The official package hub for RubyGems is rubygems.org
+tlmgr is the package manager for tex if you are using the TeX Live distro.
+The official package hub for tex is CTAN.
+conda is the package manager for the anaconda software distribution.
+metro is the bundler for React Native.
+snap is the package manager for snaps.
+snaps are mainly used in Ubuntu, but can be used on many *nixlikes.
+snap packages = snaps
+snaps are containerized.
+snaps are maintained by the snapd daemon.
+snap calls its updates refreshes.
+snap auto-refreshes four times a day by default.
+
+
+
+
+
+tap TAPNAME|add a repository|brew
+
+
+
+
+bundler is kinda weird, since it is a ruby gem itself.
+bundler manages the gemfile 
+The gemfile contains dependencies
+the gemfile is just a ruby file
+In a gemfile, the first thing is a call to source, which establishes the global source
+source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
+within the gemfile, gem dependencies are defined by `gem <name>, <version>`
+
+tools to interact with framewokrs
+
+interact with nextjs|next
+interact with jekyll|jekyll
+
+### build tool functionality 
+
+build builds a production build in cargo, jekyll, next
+test runs unit tests in cargo
+doc builds the packages documentation in cargo
+clean remove generated files in cargo, jekyll
+lint runs the relevant linter on the project (Nextjs: eslint)
+new foo creates a new project foo in cargo, jekyll
+
+Hot reloading reloads a thing as you change the code etc.
+serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
+nextjs serves your app at port 3000 by default
+You can run a build you created with build (for nextjs) with start (for nextjs)
+
+Most of the config for frameworks is done in a global config file, which is placed in the project root.
+_config.yml/.toml|Jekyll
+
+Browserslist is a tool to define target browsers.
+Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
+
 ## Programming language implementation
 
 A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
@@ -2525,6 +2732,9 @@ coupling is the degree of interdependence between software modules.
 In general, cohesion is good and coupling is bad.
 high coupling generally implies loose cohesion and v.v. 
 
+A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
+The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
+
 ## Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
@@ -2580,7 +2790,9 @@ DIRSTACK|everything on the directory stack
 PAGER|set the d
 
 EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
-PATH is for where to find executables
+PATH is for where to find executables.
+PATH contains, well, paths, separated by colons.
+For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
 
 
 ### Pattern matching
@@ -2704,12 +2916,21 @@ Word splitting means splitting the things mentioned above into words using $IFS
 
 File name expansion
 
+filename expansion is perfomed using an utility/syntax known as glob.
+The process of filename expansion is also known as globbing.
+globbing recognizes wildcards, which expand to something else but their literal value.
+a word containing a wildcard is known as a pattern
+
 In the file name expansion stage, bash scans each word for a pattern and replaces it with an alphabetically sorted list of filenames matching the pattern.
 In the file name expansion stage, bash retains patterns that didn't match anything as-is by default.
 nullglob makes patterns disappear if they don't match anything
 failglob makes patterns fail if they don't match anything.
 When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
 To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
+
+wildcard|matches
+*|matches 0-n arbitrary characters
+?|matches 1 arbitrary character
 
 ### Quote removal
 
@@ -2825,6 +3046,7 @@ Control characters as a term is generally reserved for the 65 characters defined
 the first 32 ASCII control characters are exactly 64 bit below the uppercase letters, and so may be represented by letters A-Z plus a few symbols.
 In the past the control key would have lowered the sent keycode by 64 to produce the first 32 ASCII control characters; this behavior still exists (albeit emulated) in terminals.
 Since the control character is often represented by a caret, and the control key plus letter was/is used to produce ASCII control characters, ASCII control characters are often indicated ^<letter>, this is called caret notation.
+Caret notation is commonly used in *nix contexts.
 In ASCII, the uppercase characters are 64 above their index in the alphabet.
 In ASCII, the lowercase characters are 96 above their index in the alphabet/32 above the relevant uppercase character.
 In ASCII the 7th bit will be set for any letter in the alphabet.
