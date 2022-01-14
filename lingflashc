@@ -2957,6 +2957,12 @@ A phonemic orthography is the special case of an alphabet specifically having no
 ortographically deep|English
 ortographically shallow|spanish, japanese
 
+##### whitespace
+
+whitespace is any character or series of characters that represent horizontal or vertical space.
+Multiple spaces used as 'tabs'   Soft tabs
+ASCII tab character   hard tabs
+
 #### punctuation
 
 In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.

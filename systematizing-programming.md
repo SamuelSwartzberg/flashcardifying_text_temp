@@ -419,6 +419,8 @@ In rust, shadowing allows for 'changing' tye type of the variable (really merely
 
 ## Values
 
+A literal is a value which is written into the source code as-is and therefore is fixed.
+
 ### Memory-management
 
 #### Ownership
@@ -770,6 +772,7 @@ Handle is an ambiguous concept, but is most commonly seem as a synonym to refere
 ### Dates
 
 Most common format is RFC 3339 / ISO 8601
+RFC 3339 is almost the same as ISO 8601
 
 ### Null types
 
@@ -1532,7 +1535,7 @@ foo will now be [1,2,3]
 When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
 [... OR *[1,2,3], 4] == [1,2,3,4]
 
-## Errors## 
+## Errors
 
 Some languages distinguish between recoverable and unrecoverable errors.
 recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack overflow
@@ -2062,7 +2065,8 @@ foo.clone()|Rust
 Most languages with objects have a tostring function to convert these to strings for debugging purposes.
 It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
 
-toString()|JS
+toString()|Java|JS
+ToStrng()|C#
 
 #### Boxing
 
@@ -2281,8 +2285,9 @@ Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
+## libraries
 
-## Standard library
+### Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
@@ -2366,7 +2371,7 @@ Sum up all the elements in an iterable
 sum(iterable)|Python
 enumerableWhichIsJustASynonymForIterable.sum()|Ruby
 
-### Modules/Objects/Namespaces
+#### Modules/Objects/Namespaces
 
 Object/Struct/whatever for standard math operations
 Math|JS
@@ -2375,14 +2380,14 @@ math|Python
 Filesystem handling
 fs|node
 
-### Query for input
+#### Query for input
 
 Generally, show a message, have a text input field, return the inputted text.
 
 input(mesg)|Python
 window.prompt(mesg, default)
 
-### slicing and ranges
+#### slicing and ranges
 
 Slice and range syntax is often similar.
 For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
@@ -2392,7 +2397,7 @@ start..end_excl|Rust
 start...end_excl|Ruby
 start..=end_incl|Rust
 
-#### Slicing
+##### Slicing
 
 Slicing is extracting a subset of elements from a data structure.
 Slicing is most commonly performed on linear collections or strings.
@@ -2405,7 +2410,7 @@ In python you can assign to slices, delete them, etc.
 .substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
 [start,length]Ruby
 
-#### ranges
+##### ranges
 
 Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
 Step is pretty much always optional.
@@ -2415,6 +2420,15 @@ seq start step stop|sh
 
 Bash calls its range syntax a <dfn>sequence expression</dfn>.
 Bash also supports characters as start and stop.
+
+### other libraries
+
+#### presentations
+
+complexity|write in|name|converts to
+fancy|js|reveal.js
+simple|md|remarkjs
+simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
 ## Programming languages I don't know
 
@@ -2500,6 +2514,16 @@ Boilerplate code is repetitive code that is reused often, often also implying th
 ### document start/end indicators
 
 --- the file ... |YAML (but optional, merely allow multiple documents per file)
+
+## software architecture
+
+### coupling & cohesion
+
+https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
+cohesion is the degree to which the elements inside a module belong together.
+coupling is the degree of interdependence between software modules.
+In general, cohesion is good and coupling is bad.
+high coupling generally implies loose cohesion and v.v. 
 
 ## Misc/no place yet
 

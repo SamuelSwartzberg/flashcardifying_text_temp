@@ -69,6 +69,7 @@ pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
 
 SGML stands for Standard Generalized Markup Language.
 XML is a subset of SGML.
+XML|Extensible Markup language
 HTML was originally based on SGML, though the relationship has sometimes been fraught.
 Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
 
@@ -841,6 +842,83 @@ BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
+# JS web technologies
+
+## web workers
+
+## webVTT
+
+<br>---<br>
+  §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
+§§ ((c:35;::WebVTT)) is ((c:36;::based on)) and ((c:36;::similar to)) ((c:37;::.srt)) §<br>
+§§ ((c:38;::.srt)) is ((c:39;::more common)) than ((c:38;::WebVTT)), but ((c:38;::WebVTT)) is ((c:40;::more new/featurefu))l. §<br>
+§§ ((c:41;::Youtube)) amongst others does not support ((c:42;::srt or WebVTT tag formatting)), and ((c:43;::pretty much nothing)) supports ((c:44;::most of WebVTT's most advanced features)). §<br>
+§§ ((c:45;::WebVTT and .srt)) mark up their payload with ((c:46;::HTML/XML-style tags)). §<br>
+§§ Things in ((c:47;::WebVTT/.srt)) are ((c:48;::generally separated)) by ((c:49;::a blank line (i.e. two newlines))) §<br>
+===<br>
+
+<br>---<br>
+  §§ WebVTT delimits ((c:51;::major sections)) with ((c:50;::allcaps words)): §<br>
+  <table>
+  <thead>
+    <tr><th>section name</th>
+    <th>section semantics/function</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::WEBVTT))</td> <td>((c:2;s:32;::Begin WebVTT document)) ((h:2;::(may be followed by ((c:32;::text header on the same line)))))</td></tr>
+<tr><td>((c:3;::STYLE))</td> <td>((c:4;::inline styling section))</td></tr>
+<tr><td>((c:5;::NOTE))</td> <td>((c:6;::comment))</td></tr>
+  </tbody>
+</table>
+===<br>
+
+
+<br>---<br>
+  §§ A ((c:52;::cue)) is ((c:53;::the main unit of information)) in ((c:54;::WebVTT/.srt.)) §<br>
+§§ ((c:55;::A cue)) ((c:56;::starts (.srt)/may start (WebVTT))) with ((c:57;::a header line)). §<br>
+§§ ((c:58;::The header line that starts a cue)) must be ((c:59;::a running number indicator)) in ((c:60;::.srt)), this is ((c:61;::optional)) in ((c:60;::WebVTT)) §<br>
+§§ ((c:62;::The line after the header line if it exists or the first line of a WebVTT/.srt)) ((c:63;::cue)) contains ((c:64;::the time to show the text)), consisting of ((c:65;::two timestamps (RFC 3339 (hh):mm:ss.ttt))) ((c:66;::separated by <code> -&gt; </code> (notice the spaces).))((c:67;::&nbsp;Every line of a cue after the line specifying the time)) specifies ((c:68;::text to be shown.)) Together, these are known as ((c:69;::the payload)). §<br>
+§§ Every line of a cue may optionally be ((c:70;::started by <code>- </code>)), this will ((c:71;::not be displayed)) §<br>
+===<br>
+
+
+<table>
+  <thead>
+    <tr><th colspan="2">WebVTT-specific properties</th></tr>
+    <tr><th>CSS property syntax</th>
+    <th>CSS function</th></tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:7;::vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg)))</td></tr>
+<tr><td>((c:8;::line:0-100%))</td> <td>((c:9;::display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no <code>vertical</code>)))</td></tr>
+<tr><td>((c:10;::position:0-100%))</td> <td>((c:11;::display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no <code>vertical</code>)))</td></tr>
+<tr><td>((c:12;::size:0-100%))</td> <td>((c:13;::set the width of the cue to %))</td></tr>
+<tr><td>((c:14;::&lt;c.foo&gt;content&lt;/c&gt;))</td> <td>((c:15;::specify a class foo to target))</td></tr>
+<tr><td>((c:16;::&lt;ruby&gt;...))</td> <td>((c:17;::add furigana etc.))</td></tr>
+<tr><td>((c:18;::&lt;v foo&gt;))</td> <td>((c:19;::indicate that foo is speaking))</td></tr>
+<tr><td>((c:20;::align:start/end...))</td> <td>((c:21;::align the captions along the x-axis (if not <code>vertical</code>), i.e. the same axis as the position property))</td></tr>
+<tr><td>((c:22;::&lt;font color="...))</td> <td>((c:23;::Set the text to a certain color))</td></tr>
+<tr><td>((c:24;::&lt;b&gt;, &lt;i&gt;, &lt;u&gt;))</td> <td>((c:25;::make the text bold, italic or underlined))</td></tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr><th colspan="2">WebVTT-specific selectors</th></tr>
+    <tr><th>CSS Selector</th>
+    <th>Selects</th></tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:26;::::cue(.foo)))</td> <td>((c:27;::Target a cue with class foo (&lt;c.foo&gt;)))</td></tr>
+<tr><td>((c:28;::::cue))</td> <td>((c:29;::Target any WebVTT cue (shown subtitle)))</td></tr>
+<tr><td>((c:30;::::cue(b)))</td> <td>((c:31;::Target a &lt;b&gt; tag within WebVTT))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ If you ((c:72;::specify timestamp text (WebVTT only))), then ((c:73;::any text before a timestamp text whose time you are at or after)) is ((c:74;::previous text)), ((c:75;::the text from the current to the next timestamp tag)) is ((c:76;::active text)) and ((c:77;::text after the next timestamp tag)) is ((c:78;::future text)). §<br>
+§§ If we specify ((c:79;::&lt;track kind="chapters"&gt;)), cues ((c:80;::may not overlap time-wise)), and payloads ((c:81;::may not contain tags)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
+
 # other stuff
 
 ISO dates
@@ -989,6 +1067,10 @@ Objects in UML object diagrams at least contain a top field with the object name
 
 WIMP = Windows, icons, menus, pointer
 
+## breadcrumbs
+
+In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
+
 ## disclosure widgets
 
 A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
@@ -1016,6 +1098,10 @@ In html, you can force a disclosure widget to start in its open state by specify
 
 On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
 The internet runs on the internet protocol suite.
+
+## standards
+
+IANA  Internet Assigned Numbers Authority
 
 ## models
 
@@ -1344,7 +1430,8 @@ Spec governing the organization of files in your home directory   XDG Base DIrec
 ##### FHS
 
 FHS  Filesystem Hierarchy Standard
-FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}\
+FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
+source code should be in src for reference only
 
 ###### /sys
 
@@ -1867,6 +1954,7 @@ terminal emulator: <img src="sm_screen2.png"/>
 #### fg bg
 
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
+{{c1::&amp;}} at the {{c2::end of an command}} {{c3::puts it in the backround}} (but it {{c3::still continues running}})
 
 ### process relationships
 
@@ -2093,6 +2181,9 @@ Garbage in, garbage out claims that if the input data is somehow bad {{c1::the o
 Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
 "Anything that can go wrong will go wrong"   Murphy's law
 {{c1::an anti-pattern}} is a pattern (intentional or not) that is ineffective/counter-productive 
+YAGNI  You/ya ain't gonna need it
+In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
+While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 
 # licenses
 
