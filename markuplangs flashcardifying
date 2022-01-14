@@ -776,7 +776,7 @@ A session history conttains the Document objects that the browsing context has p
 the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
 BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
-# the DOM
+## the DOM
 
 <table>
   <tbody>
@@ -842,13 +842,12 @@ BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
-# JS web technologies
+# web technologies
 
 ## web workers
 
 ## webVTT
 
-<br>---<br>
   §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
 §§ ((c:35;::WebVTT)) is ((c:36;::based on)) and ((c:36;::similar to)) ((c:37;::.srt)) §<br>
 §§ ((c:38;::.srt)) is ((c:39;::more common)) than ((c:38;::WebVTT)), but ((c:38;::WebVTT)) is ((c:40;::more new/featurefu))l. §<br>
@@ -1063,270 +1062,8 @@ Answer messages   dashed arrows
 <img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
 
-# UI
 
-WIMP = Windows, icons, menus, pointer
 
-## breadcrumbs
-
-<img src="sm_2021-06-26--14-46-16-screenshot.png">
-A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
-A breadcrumb trail most commonly represents a hierarchical structure.
-Each breadcrumb is usually a minimal element containing text only.
-In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
-
-## disclosure widgets
-
-A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
-With a disclosure widget, the content contained within is shown if the heading is interacted with.
-With a disclosure widget, the heading often indicates that it can be expanded/shrunken either via ▼/▲ or via +/-
-In html, a disclosure widget is defined via a details element.
-In html, the header of a disclosure widget is defined by a summary element.
-An accordion is a set of multiple disclosure widgets.
-Most commonly, disclosure widgets start out in their collapsed state by default.
-In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
-<img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
-
-## status bar
-
-<div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
-<br>---<br>
-  §§ On ((c:1;::desktop)), a ((c:2;::status bar)) is a ((c:3;::horizontal)) ((c:4;::bar)) generally at ((c:5;::the bottom of a window)). §<br>
-  §§ A ((c:15;::status bar)) on desktop displays ((c:6;::various kinds of information)), often used when ((c:7;::editing documents ((n)vi(m), vscode, various office programs, etc.))). §<br>
-  §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
-  §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
-
-# the internet
-
-On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
-The internet runs on the internet protocol suite.
-
-## standards
-
-IANA  Internet Assigned Numbers Authority
-
-## models
-
-The OSI model remains useful, but unimplemented.
-In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
-Internet protocol suite = TCP/IP
-The internet protocol suite is a protocol stack
-Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
-One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one of the precursors to {{c2::the internet}} was {{c3::ARPANET}}
-
-<table>
-<thead>
-<tr>
-<th>OSI Model</th>
-<th>TCP/IP Model</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>((c:1;::Application))</td>
-<td rowspan="3">((c:10;::Application))</td>
-</tr>
-<tr>
-<td>((c:2;::Presentation))</td>
-</tr>
-<tr>
-<td>((c:3;::Session))</td>
-</tr>
-<tr>
-<td>((c:4;::Transport))</td>
-<td>((c:5;::Transport))</td>
-</tr>
-<tr>
-<td>((c:6;::Network))</td>
-<td>((c:7;::Network/Internet))</td>
-</tr>
-<tr>
-<td>((c:8;::Data Link))</td>
-<td rowspan="2">((c:11;::Link))</td>
-</tr>
-<tr>
-<td>((c:9;::Physical))</td>
-</tr>
-</tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
-
-## layer 7
-
-HTTP, SMTP, POP, SSH, telnet...
-
-### URLS & Hyperlinks
-
-#### URI
-
-URN|Uniform Resource Name
-URLs generally locate things on the internet, generally on the application layer.
-URIs used to be subdivided into URLs and URNs.
-Mainly historically, URLs were FOOBAR, and URNs were unique identifiers of a resource.
-Today, URNs are merely another FOOBAR, urn:
-
-#### domains
-
-TLD
-foo.bar.net  .net
-
-#### hotlinks, deeplinks
-
-hotlinking = inline linking
-Hotlinking is embedding a resource from {{c1::another fqdn}}
-A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
-A link to the homepage of a page is called a surface link
-
-### telnet/ssh
-
-SSH = secure shell
-Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
-the SSH protocol, in contrast to the telnet protocol and the various rsh commands/protocols, is encrypted (via public-key cryptography).
-SSH is a protocol whose main purpose is accessing the shell on other computers.
-In accessing the shell on other computers, the SSH protocol has replaced rsh/telnet.
-Besides accessing the shell on other computers, the SSH protocol allows for other network services, such as data transfer.
-The berkeley r-commands are a suite of commands and associated protocols that are variants of well-known commands, but may be run remotely.
-The berkeley r-commands all start r.
-In doing various things on remote hosts, SSh has replaced the various berkeley r-command.
-Specifically, to copy data between remote hosts, the scp command running over SSH has replaced rcp.
-The berkeley r-commands, telnet and now SSH all have a client-server architecture.
-
-SSH allows using a short user@hostname form.
-scp is cp (same syntax etc.) but remotely using SSH.
-For scp, when using user@hostname, add the file with :filename to the end\
-
-ssh-keygen manages keys for SSH.
-
-### the web
-
-WWW = World Wide Web
-The WWW runs on the internet, using the protocol HTTP(S).
-The WWW is only one of many technologies running on the internet.
-A web browser is a program to access the WWW.
-The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
-The first web browser was written in 1990, the WWW was released in 1991.
-The main organization working on web standards is the W3C.
-World Wide Web Consortium = W3C
-A web site is a collection of web pages, generally one that share a domain name/FQDN
-
-## layer 4
-
-The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
-
-# hardware
-
-## circuits
-
-A combinatorial logic circuit is one whose output only depends on its input.
-A sequential logic circut is one whose output depends on its input, and the previous state.
-
-## processors
-
-### architecture
-
-The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
-Modern CPUs are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
-
-In the VNA, the CPU, memory and IO are connected to/via the bus.
-<img src="sm_tmp_xpihn7q.png">
-
-### CPU
-
-#### registers
-
-A processor generally has between 10-100 registers.
-There are many different kinds of registers:
-register|contains
-General Purpose Registers|mostly whatever you like
-Register: Stack Pointer|stack pointer
-
-#### ALU
-
-ALU  Arithmetic logic unit
-https://upload.wikimedia.org/wikipedia/commons/0/0f/ALU_block.gif
-The ALU performs arithmetic and bitwise operations.
-A basic ALU takes two imputs and returns an output, generally all of the word size of the encapsulating CPU.
-A basic ALU, besides its two inputs and an output, has a status flag input and output as well as an opcode input.
-
-##### Adders
-
-An adder is a logic circuit (I think?) that chains logic gate to perform addition.
-Adders are used within the ALU.
-A half-adder adds two binary digits and outputs a sum and a carry.
-A full adder is like a half-adder, but also takes a carry-in.
-A half and a full-adder ouptuts an output of size 2 bit.
-Chaining full adders allow us to do arbitrary large binary addition.
-
-### CU
-
-CU  Control Unit
-
-### instruction set
-
-An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
-The instruction set is the set of operations a processor supports, which bit sequences represent which instructions, and how the arguments are organized.
-Depending on the instruction set, machine langauge instructions may all be the same length or not.
-In a general sense, a word is how many bits a  PU may address at once.
-The length of a word is the word size
-In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
-
-A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
-For a load-store architecture, all things being operated on must be in registers.
-
-#### RISC CISC
-
-RISC  Reduced instruction set computer
-CISC  Complex instruction set computer
-
-##### CISC
-
-x86 is a family of instruction set architectures
-x86 are the most common type of CISC architectures.
-x86 architectures with 64-bit word size are called x86_64
-x86_64 may also be called AMD64 or Intel 64
-
-##### RISC
-
-ARM is a family of instruction set architectures
-ARM ISAs are the most common type of RISC arcchitectures.
-While PowerPC was also a RISC ISA and was widely used in all sorts of products, RISC largely became mobile/embedded-only in the mid 2000s until 2021, with apple's switch to ARM RISC processors and their use in in e.g. the worlds most powerfull supercomputer 富岳.
-RISC chips generally have far lower power consumption than CISC chips.
-Most RISC ISAs are also load-store ISAs.
-CPI = clocks/cycles per instruction
-In general, a RISC ISA has 1 CPI, with fixed-length instructions.
-
-### cache
-
-CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
-The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
-processor finds memory location in cache   cache hit
-processor does not find memory location in cache   cache miss
-When a cache miss occurs, the processor generally needs to wait while the data is being fetched
-the {{c1::Cache replacement policy}} is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
-
-### clocking
-
-A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the thing it's governing.
-A clock signal is usually a square wave with a high and low state.
-In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
-{{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
-DDR  Double data rate
-{{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
-
-## chipset
-
-<img src="sm_chipset.svg">
-
-## assembler
-
-Why don't we just write programs in machine code/assembler?  extremely mühselig and error-prone
-Today, assembler/machine code is almost always generated by compilers/interpreters/etc.
-
-# topologies
-
-A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
 
 # HCI
 
@@ -1344,6 +1081,43 @@ A pointing device is an input device that allows a user to input spatial informa
 Examples of pointing devices are mice, trackpads, trackballs, pointing sticks aka trackpoints.
 Pointing devices are governed by fitts law
 Fitts law says that the time required to rapidly move move to a target area, e.g. by a pointing device, is a function of the ratio between the distance to the target and teh widht of the target.
+
+## UI
+
+WIMP = Windows, icons, menus, pointer
+
+### elements
+
+#### breadcrumbs
+
+<img src="sm_2021-06-26--14-46-16-screenshot.png">
+A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
+A breadcrumb trail most commonly represents a hierarchical structure.
+Each breadcrumb is usually a minimal element containing text only.
+In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
+
+#### disclosure widgets
+
+A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
+With a disclosure widget, the content contained within is shown if the heading is interacted with.
+With a disclosure widget, the heading often indicates that it can be expanded/shrunken either via ▼/▲ or via +/-
+In html, a disclosure widget is defined via a details element.
+In html, the header of a disclosure widget is defined by a summary element.
+An accordion is a set of multiple disclosure widgets.
+Most commonly, disclosure widgets start out in their collapsed state by default.
+In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
+<img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
+
+#### status bar
+
+<div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
+<br>---<br>
+  §§ On ((c:1;::desktop)), a ((c:2;::status bar)) is a ((c:3;::horizontal)) ((c:4;::bar)) generally at ((c:5;::the bottom of a window)). §<br>
+  §§ A ((c:15;::status bar)) on desktop displays ((c:6;::various kinds of information)), often used when ((c:7;::editing documents ((n)vi(m), vscode, various office programs, etc.))). §<br>
+  §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
+  §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
 
 # data storage
 
@@ -1675,9 +1449,120 @@ The three mandatory directories for any subdirectory in maildir are cur, new, an
 Using maildir, an arriving message will be sorted into tmp until it is processed completely, then it is inserted into new.
 Using maildir, once a mail in new has been read, it si sorted into cur.
 
-# running the computer
+# hardware/low-level
 
-## hardware interfaces
+## hardware only
+
+### circuits
+
+A combinatorial logic circuit is one whose output only depends on its input.
+A sequential logic circut is one whose output depends on its input, and the previous state.
+
+### processors
+
+#### architecture
+
+The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
+Modern CPUs are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
+
+In the VNA, the CPU, memory and IO are connected to/via the bus.
+<img src="sm_tmp_xpihn7q.png">
+
+#### CPU
+
+##### registers
+
+A processor generally has between 10-100 registers.
+There are many different kinds of registers:
+register|contains
+General Purpose Registers|mostly whatever you like
+Register: Stack Pointer|stack pointer
+
+##### ALU
+
+ALU  Arithmetic logic unit
+https://upload.wikimedia.org/wikipedia/commons/0/0f/ALU_block.gif
+The ALU performs arithmetic and bitwise operations.
+A basic ALU takes two imputs and returns an output, generally all of the word size of the encapsulating CPU.
+A basic ALU, besides its two inputs and an output, has a status flag input and output as well as an opcode input.
+
+###### Adders
+
+An adder is a logic circuit (I think?) that chains logic gate to perform addition.
+Adders are used within the ALU.
+A half-adder adds two binary digits and outputs a sum and a carry.
+A full adder is like a half-adder, but also takes a carry-in.
+A half and a full-adder ouptuts an output of size 2 bit.
+Chaining full adders allow us to do arbitrary large binary addition.
+
+#### CU
+
+CU  Control Unit
+
+#### instruction set
+
+An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
+The instruction set is the set of operations a processor supports, which bit sequences represent which instructions, and how the arguments are organized.
+Depending on the instruction set, machine langauge instructions may all be the same length or not.
+In a general sense, a word is how many bits a  PU may address at once.
+The length of a word is the word size
+In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
+
+A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
+For a load-store architecture, all things being operated on must be in registers.
+
+##### RISC CISC
+
+RISC  Reduced instruction set computer
+CISC  Complex instruction set computer
+
+###### CISC
+
+x86 is a family of instruction set architectures
+x86 are the most common type of CISC architectures.
+x86 architectures with 64-bit word size are called x86_64
+x86_64 may also be called AMD64 or Intel 64
+
+###### RISC
+
+ARM is a family of instruction set architectures
+ARM ISAs are the most common type of RISC arcchitectures.
+While PowerPC was also a RISC ISA and was widely used in all sorts of products, RISC largely became mobile/embedded-only in the mid 2000s until 2021, with apple's switch to ARM RISC processors and their use in in e.g. the worlds most powerfull supercomputer 富岳.
+RISC chips generally have far lower power consumption than CISC chips.
+Most RISC ISAs are also load-store ISAs.
+CPI = clocks/cycles per instruction
+In general, a RISC ISA has 1 CPI, with fixed-length instructions.
+
+#### cache
+
+CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
+The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
+processor finds memory location in cache   cache hit
+processor does not find memory location in cache   cache miss
+When a cache miss occurs, the processor generally needs to wait while the data is being fetched
+the {{c1::Cache replacement policy}} is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
+
+#### clocking
+
+A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the thing it's governing.
+A clock signal is usually a square wave with a high and low state.
+In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
+{{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
+DDR  Double data rate
+{{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
+
+### chipset
+
+<img src="sm_chipset.svg">
+
+### assembler
+
+Why don't we just write programs in machine code/assembler?  extremely mühselig and error-prone
+Today, assembler/machine code is almost always generated by compilers/interpreters/etc.
+
+## layering on hardware 
+
+### hardware interfaces
 
 ACPI  advanced configuration and power interface
 ACPI is a low-level interface to the power hardware of the computer, allowing for power management; it is currently the standard for that purpose.
@@ -1686,7 +1571,7 @@ The ACPI exposes its interface as ACPI tables.
 The Windows Platform Binary Table is an ACPI tible that allows software to persist even beyond reinstalls.
 The Superfish vulnerability was enabled by the Windows Platform Binary Table.
 
-## booting
+### booting
 
 Booting is initializing the computer.
 The difficulty of booting is how do you get the computer into a state where it can execute stuff without being able to execute stuff.
@@ -1694,7 +1579,7 @@ has ended when the OS has reached a certain state.
 When the user presses the power button, the computer, and especially the CPU gets power, and executes a hardcoded JUMP fo a place in ROM (or a specific place in normal secondary memory) where the BIOS/UEFI sits (though some non-x86 ISAs may do it differently)
 All x86 processors start in real mode, which has the features the intel 8086 had, with 20 bit addresses addressing memory non-virtually - this allows for backwards compatibility.
 
-### BIOS/UEFI
+#### BIOS/UEFI
 
 UEFI  Unified Extensible Firmware Interface
 BIOS  Basic Input/Output System
@@ -1713,7 +1598,7 @@ UEFI is controlled by a large set of industry stakeholders known as teh UEFI for
 CSM (UEFI context)  Compatibility Support Mode
 CSM is the mode of UEFI that makes it similar to BIOS by loading MBR or something from the first-stage boot loader.
 
-#### SMBIOS
+##### SMBIOS
 
 DMI  Desktop Management Interface
 The original common inteface for managing components of a computer was teh DMI, but it was end-of-lifed in 2005
@@ -1722,7 +1607,7 @@ Originally, the SMBIOS interacted with the DMi
 The SMBIOS provides an interface for accessing BIOS/hardware info.
 CLI command for interacting with SMBIOS (formerly with the DMI): dmidecode
 
-### boot loader
+#### boot loader
 
 MBR  Master boot record
 The boot sector is typically one sector large
@@ -1734,15 +1619,15 @@ THe second-stage boot loader, perhaps after some user choosing, loads the kernel
 When using GRUB, all the boot sector contains is a pointer to the next boot stage.
 When using GRUB, the boot menu that allows you to choose the os is loaded in the second stage of the bootloader.
 
-## the OS
+### the OS
 
-### the kernel
+#### the kernel
 
 Monolithic kernels do more stuff in kernel space than micokernels.
 Instead of doing stuff in kernel space, mircokernels provide servers that do things in userspace.
 The daemon responsible for paging (swapper/sched) is the process with PID 0.
 
-### the init process
+#### the init process
 
 In unix, the init process is the first processes that launches when a computer boots.
 The init process is a daemon and has PID 1.
@@ -1792,6 +1677,14 @@ libinput is native in wayland, but optional in X, which can also manage input de
 #### systemd
 
 within the relevant systemd folder (/var/systemd or /etc/systemd), system is the directory that contains the unit files
+
+##### units
+
+###### CLI
+
+starting/stopping an unit for systemd does that {{c1::right now}} but temporarily
+enabling/disabling an unit for systemd does that {{c1::next reboot/session (by default)}} but permanently.
+To both start and enable/stop and disable, use enable/disable --now.
 
 ## files
 
@@ -1856,7 +1749,9 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 
 ## command-line 
 
-### common syntax considerations
+### meta
+
+#### common syntax considerations
 
 -o PATH|generally short for/equiv to --out or --output
 -O|output to current directory with same name. (curl, wget)
@@ -1873,8 +1768,9 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 --voice VOICE|speak whaterver with the relevant voice (generally only for things on mac that can use `say` in the background)
 --verbose|verbose output
 --version|show the version
--h|generally short for/equiv to --human-readable
+-h|generally short for/equiv to --human-readable or --help
 --human-readable|human readable output
+--help|show a short set of info/options, generally shorter than man
 -i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case/--case-insensitve
 --include|
 --interactive|prompt before doing something
@@ -1899,9 +1795,44 @@ In general commands that do something from a source to a target (e.g. cp, mv) ha
 
 Well-behaved shell programs take input from stdin (if there is data to operate on) and output to stdout (act as filters).
 
-### mail
+#### man
+
+Most CLI commands have a manual page, which can be diplayd with man.
+When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
+The numbers in parenthesis after the names of things (xterm(1), efence(3)) come from sections of the manual
+The standard sections of the manual include:
+1      User Commands
+2      System Calls
+3      C Library Functions
+4      Devices and Special Files
+5      File Formats and Conventions
+6      Games et. Al.
+7      Miscellanea
+8      System Administration tools and Deamons
+
+### full-on programs
+
+#### subscriptions
+
+podboat   podcast management for newsboat
+
+#### mail
 
 mail or the older mailx are *nix builtins to manage mail.
+
+#### termdown
+
+termdown is a terminal timer utility.
+termdown [OPTIONS] [TIME]
+You can specify the time for termdown in a variety of formats.
+SPACE|Pause
+R|Reset
+Q|Quit
+L|Lap
+-|subtract 10s
++|add 10s
+
+--critical SECONDS|Draw final N seconds in red and announce them individually with --voice
 
 ### fs
 
@@ -1940,6 +1871,9 @@ od -x|hex dump
 cat|output a file
 wc|count words, characters and lines
 
+wc output ordering
+{{c1::lines}} {{c2::words}} {{c3::characters}}
+
 ##### traversal
 
 cd|move to specified directory
@@ -1955,7 +1889,7 @@ shred overwrites a file multiple times so it is difficult to recover, however th
 touch|create emtpy file
 mkdir|create empty directory
 
-### text manipulation
+### text
 
 #### editors
 
@@ -1986,6 +1920,9 @@ lolcat   make output rainbowy
 cowsay   make an ascii cow say the specific thing
 sort|sort file line by line
 uniq|remove adjacent (!) matching lines
+cut|extract specific sections of each line based on delimiters
+-f <list>|only extract fields <list>
+-d <char>|treat <char> as delimiter
 
 #### format-specific filters
 
@@ -1998,46 +1935,69 @@ yq -y/-Y roundtrip back to YAML
 #### generation
 
 
-### viewers
+### media
+
+#### generation
+
+Default mac japanese voice is  Kyoko
+
+#### processing
+
+##### ffmpeg
+
+ffmpeg is mainly a video/audio converter
+
+ffmpeg-command ::= ffmpeg <global-options> <input-specifier>{ <input-specifier>} <output-specifier>{ <output-specifier>}
+input-specifier ::= [<input-options>] -i <url>
+output-specifier ::= [<output-options>] <url>
+input-options ::= {<input-only-option><input-output-option>}
+output-options ::= {<output-only-option><input-output-option>}
+input-file-option-specifier ::= <input-index>:<stream-index>
+
+ffmpeg input and stream index are zero-based
+
+input-output-options
+-ss <position>|seek to position
+-to <position>|stop at position
+
+#### display 
 
 lynx|text-based browser
+ffmpeg media player   <code>ffplay</code>
 
-### UI
 
-#### X
+mpv
 
-wmctrl   Manage an X window manager
+Play a playlist<filename>   --playlist=&lt;filename&gt;
 
-### hardware info
+### sysadmin
+
+#### hardware info
 
 lspci   list pci devices
 lshw   list hardware config
 lsblk   list block devices
 lsusb   list USB devices
 
-### sub management
+#### GUI
 
-podboat   podcast management for newsboat
+##### X
 
-### man
+wmctrl   Manage an X window manager
 
-Most CLI commands have a manual page, which can be diplayd with man.
-When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
-The numbers in parenthesis after the names of things (xterm(1), efence(3)) come from sections of the manual
-The standard sections of the manual include:
-1      User Commands
-2      System Calls
-3      C Library Functions
-4      Devices and Special Files
-5      File Formats and Conventions
-6      Games et. Al.
-7      Miscellanea
-8      System Administration tools and Deamons
+
+
+
 
 ## processes
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
 ps|list of processes
+
+### process management
+
+kill kills a process, given its PID
+killall kills a n processes, given a string that their name contains
 
 ### file descriptors
 
@@ -2100,12 +2060,21 @@ groups/users on nix are uniquely identified by their user or group ID.
 
 # communication
 
-## serial and parallel
+## concepts
+
+### serial and parallel
 
 Serial communication sends its bits one after another over the channel.
 Parallel communication sends multiple bits simultaneously over multiple subchannels.
 One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
 Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
+
+### topologies
+
+A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
+
+
+## hardware protocols
 
 ## connectors
 
@@ -2293,6 +2262,124 @@ polling may be used to simulate push protocols.
 
 OAuth 2.0 (grant type: Authorization code)
 <img src="tmp7t5et6aw.png" />
+
+
+## the internet
+
+On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
+The internet runs on the internet protocol suite.
+
+### standards
+
+IANA  Internet Assigned Numbers Authority
+
+## models
+
+The OSI model remains useful, but unimplemented.
+In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
+Internet protocol suite = TCP/IP
+The internet protocol suite is a protocol stack
+Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
+One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one of the precursors to {{c2::the internet}} was {{c3::ARPANET}}
+
+<table>
+<thead>
+<tr>
+<th>OSI Model</th>
+<th>TCP/IP Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>((c:1;::Application))</td>
+<td rowspan="3">((c:10;::Application))</td>
+</tr>
+<tr>
+<td>((c:2;::Presentation))</td>
+</tr>
+<tr>
+<td>((c:3;::Session))</td>
+</tr>
+<tr>
+<td>((c:4;::Transport))</td>
+<td>((c:5;::Transport))</td>
+</tr>
+<tr>
+<td>((c:6;::Network))</td>
+<td>((c:7;::Network/Internet))</td>
+</tr>
+<tr>
+<td>((c:8;::Data Link))</td>
+<td rowspan="2">((c:11;::Link))</td>
+</tr>
+<tr>
+<td>((c:9;::Physical))</td>
+</tr>
+</tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+### layer 7
+
+HTTP, SMTP, POP, SSH, telnet...
+
+#### URLS & Hyperlinks
+
+##### URI
+
+URN|Uniform Resource Name
+URLs generally locate things on the internet, generally on the application layer.
+URIs used to be subdivided into URLs and URNs.
+Mainly historically, URLs were FOOBAR, and URNs were unique identifiers of a resource.
+Today, URNs are merely another FOOBAR, urn:
+
+##### domains
+
+TLD
+foo.bar.net  .net
+
+##### hotlinks, deeplinks
+
+hotlinking = inline linking
+Hotlinking is embedding a resource from {{c1::another fqdn}}
+A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
+A link to the homepage of a page is called a surface link
+
+#### telnet/ssh
+
+SSH = secure shell
+Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
+the SSH protocol, in contrast to the telnet protocol and the various rsh commands/protocols, is encrypted (via public-key cryptography).
+SSH is a protocol whose main purpose is accessing the shell on other computers.
+In accessing the shell on other computers, the SSH protocol has replaced rsh/telnet.
+Besides accessing the shell on other computers, the SSH protocol allows for other network services, such as data transfer.
+The berkeley r-commands are a suite of commands and associated protocols that are variants of well-known commands, but may be run remotely.
+The berkeley r-commands all start r.
+In doing various things on remote hosts, SSh has replaced the various berkeley r-command.
+Specifically, to copy data between remote hosts, the scp command running over SSH has replaced rcp.
+The berkeley r-commands, telnet and now SSH all have a client-server architecture.
+
+SSH allows using a short user@hostname form.
+scp is cp (same syntax etc.) but remotely using SSH.
+For scp, when using user@hostname, add the file with :filename to the end\
+
+ssh-keygen manages keys for SSH.
+
+#### the web
+
+WWW = World Wide Web
+The WWW runs on the internet, using the protocol HTTP(S).
+The WWW is only one of many technologies running on the internet.
+A web browser is a program to access the WWW.
+The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
+The first web browser was written in 1990, the WWW was released in 1991.
+The main organization working on web standards is the W3C.
+World Wide Web Consortium = W3C
+A web site is a collection of web pages, generally one that share a domain name/FQDN
+
+### layer 4
+
+The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
 
 # webadmin
 

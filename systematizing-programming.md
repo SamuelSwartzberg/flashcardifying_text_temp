@@ -391,8 +391,14 @@ In JS, variables declared without a keyword become properties of the global obje
 
 In (ba)sh, the thing that determines scope is the shell.
 environment variables have a scope that allows access in current shells and subshells.
+shell variables have a scope of the current shell only.
+Variables are shell variables by default.
+Exporting a variable turns it from a shell variable to a environment variables.
 
 env|show all environment variables
+
+
+export -n|unexport a variable
 
 #### Shadowing
 
