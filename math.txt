@@ -34,9 +34,11 @@ XOR|0|1|1
 XOR|1|0|1
 XOR|1|1|0
 
-# positional 
+# numeral system 
 
-## in programming
+## positional 
+
+### in programming
 
 in programming, the base of the number is often indicated by a prefix
 
@@ -44,15 +46,15 @@ in programming, the base of the number is often indicated by a prefix
 0|octal
 0o|octal
 
-## systems
+### systems
 
-### hex
+#### hex
 
 In hexadeximal, to represent digits beyond 9, a-f are used.
 
-## conv
+### conv
 
-### dec-hex
+#### dec-hex
 
 <table>
   <thead>
@@ -83,3 +85,58 @@ In hexadeximal, to represent digits beyond 9, a-f are used.
 Parity is the property of being even or odd.
 Something has a parity of even if it is divisible by two, and odd otherwise.
 A number in a positional numeral system will be even if its final digit is even.
+
+# algebra
+
+In mathematics, an algebraic structure consists of a nonempty set A (called the underlying set, carrier set or domain), a collection of operations on A of finite arity (typically binary operations), and a finite set of identities, known as axioms, that these operations must satisfy.
+abstract algebra (occasionally called modern algebra) is the study of algebraic structures.
+An algebraic structure may be based on other algebraic structures with operations and axioms involving several structures. 
+
+## arguments
+
+
+The arity of something specifies how many operands or arguments are involved. 
+Arity is a property of operations or functions.
+arity and adicity are rough synonyms
+The arity is specified in latinate numbers
+adicity is specified in greek-derived numbers.
+adicity: monadic, dyadic, triadic, tetradic, pentadic, hexadic...
+there is an adicity for every arity.
+A function with an arity of 1 takes one argument.
+A ternary operator takes 3 operands.
+(arg1, arg2, arg3, arg4)add has an arity of {{c1::4}}
+Something with indefinite arity is called {{c1::variadic}}
+
+A n-ary function takes n arguments.
+3+6=9 is a binary operation.
+<table>
+  <thead>
+    <tr>
+      <th>Arity of...</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::0))</td>
+      <td>((c:2;::nullary))</td>
+    </tr>
+    <tr>
+      <td>((c:1;::1))</td>
+      <td>((c:2;::unary))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::2))</td>
+      <td>((c:4;::binary))</td>
+    </tr>
+    <tr>
+      <td>((c:5;::3))</td>
+      <td>((c:6;::ternary))</td>
+    </tr>
+    <tr>
+      <td>((c:5;::n))</td>
+      <td>((c:6;::n-ary))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
