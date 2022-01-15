@@ -1651,6 +1651,11 @@ RNG  random number generator
 
 # *nix
 
+## POSIX
+
+The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
+POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
+
 ## GNU/Linux
 
 GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
@@ -1676,15 +1681,46 @@ libinput is native in wayland, but optional in X, which can also manage input de
 
 #### systemd
 
-within the relevant systemd folder (/var/systemd or /etc/systemd), system is the directory that contains the unit files
+In SystemV style init, the init process was actually called init.
+In SystemV style init, the device starts by executing numbered startup scripts one at a time.
+SystemV style init has largely been replaced by systemd, though the switch was recieved largely negatively.
+In contrast to SystemV init, systemd is not composed of scripts, but of large, precompiled binaries.
+In contrast to SystemV init, which was just the init process, systemd is a huge architecture managing may parts of the OS.
+systemd targets replaced SystemV runlevels.
+
+within the relevant systemd folder (/var/systemd, /etc/systemd, /run/systemd), system is the directory that contains the unit files.
+There are different systemd folders depending on the persistence that is desired.
+/run/systemd|lost at reboot
+/etc/system|persistent (device admin)
 
 ##### units
+
+systemd units contain dependencies to tell us what we need to do next.
+
+.timer   timed functionality similar to cron
+.target   a state to be reached
+.socket   sockets
+.service   Managing some kind of service
+.mount   predefined mount points
+.automount   .mounts that will be automatically managed
+.path   notifying when a path becomes available
+
+
+###### targets
+
+reboot.target   The target for rebooting
+poweroff.target   The target for turning off the computer
+multi-user.target   multiuser (but no GUI)
+graphical.target   multiuser <b>with GUI</b>
+default.target   what the machine should try and aim for when booting (another target generally)
 
 ###### CLI
 
 starting/stopping an unit for systemd does that {{c1::right now}} but temporarily
 enabling/disabling an unit for systemd does that {{c1::next reboot/session (by default)}} but permanently.
 To both start and enable/stop and disable, use enable/disable --now.
+syntax: systemctl (start|stop|enable|disable) <unit>
+The systemctl subcommands list-* lists relevant systemd-related things
 
 ## files
 
@@ -1763,7 +1799,7 @@ most configurable commands are done so by a config file, either at .commandname 
 -O|output to current directory with same name. (curl, wget)
 -(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT). Mac accept some sort of string interpolation, e.g. via C format string|curl, say, youtube-dl
 --progress|show an indicator of progress|say
--f THINGY|generally short for/equiv to --file, sometimes also --from
+-f THINGY|generally short for/equiv to --file, sometimes also --from or --format
 --file FILE|Use the file as input|say
 -t SECONDS|Specify a length of caffeination in seconds|caffeinate (macOs only)
 -t THINGY|Generally short for --to
@@ -1930,10 +1966,14 @@ nano|basic cmd-line text editor
 lolcat   make output rainbowy
 cowsay   make an ascii cow say the specific thing
 sort|sort file line by line
+-n sort by order of magnitude
 uniq|remove adjacent (!) matching lines
 cut|extract specific sections of each line based on delimiters
 -f <list>|only extract fields <list>
 -d <char>|treat <char> as delimiter
+
+The commands head and tail print the first/last few lines of a file.
+The amount of lines printed by head/tail defaults to 10
 
 #### format-specific filters
 
@@ -2041,6 +2081,12 @@ wmctrl   Manage an X window manager
 #### state change
 
 <code>shutdown</code>|shutting your system down
+reboot|restart your computer
+
+caffeinate creates assertions to alter system sleep behavior. 
+If no assertion flags are specified, caffeinate creates an assertion to prevent idle sleep.  
+If a utility is specified with -u, the caffeinate assertions will persist for the duration of the utility's execution. 
+if no utility is specified with -u, caffeinate creates the assertions directly, and those assertions will persist until caffeinate exits, or until the timeout specfied w/ -t.
 
 ### misc
 
@@ -2061,7 +2107,30 @@ CLI tool for managing displays|<code>display_manager.py</code>
 <code>display_manager.py res width height</code>|Set the resolution to width * height (display_manager.py)
 
 date is a tool for showing, formatting or changing date and time
-If run without arguments, date gets the current date and time
+If run without arguments, date gets the current date and time.
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>option</th>
+    <th>does</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::-u / --utc / --universal))</td> <td>((c:2;::use UTC))</td></tr>
+<tr><td>((c:3;::-d date / --date=date))</td> <td>((c:4;::calculate the date for the specific date))</td></tr>
+<tr><td>((c:5;::-I/--iso-8601))</td> <td>((c:6;::output the date as ISO 8601))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+Sleep is a command that waits for the specified time.
+sleep-command ::= sleep{ <number><suffix>}
+suffix ::= s|m|h|d
+for sleep, multiple number-suffix specifier waits for their sum
+
+recode - converts files between character sets
+insect - shell scientific calculator
+
+unoconv is a CLI util to convert files using libreoffice in the background.
 
 ## processes
 
@@ -2346,6 +2415,13 @@ The internet runs on the internet protocol suite.
 ### standards
 
 IANA  Internet Assigned Numbers Authority
+IETF  Internet Engineering Task Force
+BCP   Best current practice
+RFC   Request For Comment
+
+RFCs are generally published by the IETFs.
+RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
+BCPs are a subset of RFCs.
 
 ## models
 
@@ -2397,9 +2473,11 @@ One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one
 
 HTTP, SMTP, POP, SSH, telnet...
 
-#### URLS & Hyperlinks
+#### common concepts
 
-##### URI
+##### URLS & Hyperlinks
+
+###### URI
 
 URN|Uniform Resource Name
 URLs generally locate things on the internet, generally on the application layer.
@@ -2407,19 +2485,33 @@ URIs used to be subdivided into URLs and URNs.
 Mainly historically, URLs were FOOBAR, and URNs were unique identifiers of a resource.
 Today, URNs are merely another FOOBAR, urn:
 
-##### domains
+###### domains
 
 TLD
 foo.bar.net  .net
 
-##### hotlinks, deeplinks
+###### hotlinks, deeplinks
 
 hotlinking = inline linking
 Hotlinking is embedding a resource from {{c1::another fqdn}}
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
-#### telnet/ssh
+##### the web
+
+WWW = World Wide Web
+The WWW runs on the internet, using the protocol HTTP(S).
+The WWW is only one of many technologies running on the internet.
+A web browser is a program to access the WWW.
+The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
+The first web browser was written in 1990, the WWW was released in 1991.
+The main organization working on web standards is the W3C.
+World Wide Web Consortium = W3C
+A web site is a collection of web pages, generally one that share a domain name/FQDN
+
+#### protocols
+
+##### telnet/ssh
 
 SSH = secure shell
 Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
@@ -2439,17 +2531,23 @@ For scp, when using user@hostname, add the file with :filename to the end\
 
 ssh-keygen manages keys for SSH.
 
-#### the web
+##### DNS
 
-WWW = World Wide Web
-The WWW runs on the internet, using the protocol HTTP(S).
-The WWW is only one of many technologies running on the internet.
-A web browser is a program to access the WWW.
-The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
-The first web browser was written in 1990, the WWW was released in 1991.
-The main organization working on web standards is the W3C.
-World Wide Web Consortium = W3C
-A web site is a collection of web pages, generally one that share a domain name/FQDN
+dig is a CLI utility to look up DNS records.
+dig-command ::= dig {<option>}[ <DNS-server>][ <resource-name>][ <record-type>]{ <query-option>}
+query-option ::= +<query-option-name>
+
+dig defaults to the DNS specified in /etc/resolv.conf if none is specified.
+dig defaults to type of A if the record type is not specified
+
+query option names
+short|very short output
+noall|don't show any of the sections
+answer|show the answer part of the response (only has an effect if answer has been hidden e.g. with noall)
+
+In digs output, non-records begin with ;;, non-records do not.
+
+8.8.8.8|Google DNS nameserver
 
 ### layer 4
 
@@ -2474,7 +2572,78 @@ YAGNI  You/ya ain't gonna need it
 In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 
-# licenses
+# identifiers
+
+## language
+
+The locale of a user is a set of values for a set of parameters related to language and region.
+The locale is generally specified as an identifier.
+On POSIX platforms, locales are specified as environment variables with a certain syntax.
+posix-locale-identifier ::= language[_location][.charset][@modifier]
+the environment variables for locales are LANG as well as various LC_*.
+All LC_* locale variables are overwritten with LC_ALL.
+
+the locale command shows the currently specfied locales.
+
+### BCP47
+
+<br>---<br>
+  §§ A ((c:17;::IETF language tag)) indicates exactly ((c:18;::in which language a thing is)). §<br>
+§§ Currently, the standard for ((c:19;::IETF language tags)) on the internet is ((c:20;::BCP47)). §<br>
+§§ BCP 47: ((c:21;::&lt;primary-language&gt;))((c:22;::[-&lt;extended-language&gt;]))((c:23;::[-&lt;script&gt;]))((c:24;::[-&lt;region&gt;]))((c:25;::[-&lt;variant&gt;]))((c:26;::[-&lt;extension&gt;]))((c:27;::[-&lt;privateuse&gt;])) §<br>
+§§ BCP 47 language tags should be kept ((c:28;::as short as possible)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:29;::primary language)) subtag of ((c:30;::BCP 47)) is specified as ((c:31;::a language code)). §<br>
+§§ A ((c:32;::language code)) consists of ((c:33;::2 or 3 letters)). §<br>
+§§ ((c:34;::Language codes)) are standartized in ((c:35;::ISO 639.)) §<br>
+§§ ((c:36;::3-letter language codes)) are standartized ((c:37;::in ISO 639-2 and -3)). §<br>
+§§ ((c:38;::2-letter language codes)) are standartized ((c:39;::in ISO 639-1)). §<br>
+§§ ((c:41;::extlang (extended language))) subtags are for ((c:42;::sublanguages of a given language (e.g. hakka chinese, the variants of arabic))) §<br>
+§§ ((c:43;::script)) subtags&nbsp;are for ((c:40;::writing systems)), and always ((c:44;::4 characters long)) §<br>
+§§ ((c:45;::region)) subtags are for ((c:46;::locations (countries, other geo regions))) §<br>
+§§ ((c:47;::variant)) subtags&nbsp;are for ((c:48;::dialects or other variations (however, use other tags if possible))) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>BCP 47 language tag</th>
+    <th>meaning</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::en))</td> <td>((c:2;::english (no further info)))</td></tr>
+<tr><td>((c:3;::zh-hak))</td> <td>((c:4;::hakka chinese))</td></tr>
+<tr><td>((c:5;::zh-Hans))</td> <td>((c:6;::Chinese written in hanzi (simplified)))</td></tr>
+<tr><td>((c:7;::en-GB))</td> <td>((c:8;::english as spoken in great britain))</td></tr>
+<tr><td>((c:9;::az-Latn))</td> <td>((c:10;::azerbaijani, written in latin script))</td></tr>
+<tr><td>((c:11;::ast))</td> <td>((c:12;::asturian (no further info)))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>tag</th>
+    <th>problem</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:15;::it-IT))</td> <td>((c:16;::unneccesary specification of IT (italian as spoken where else?)))</td></tr>
+<tr><td>((c:13;::es-Latn))</td> <td>((c:14;::Unneccesary Latn (As opposed to spanish written in kanji? :P)))</td></tr>
+  </tbody>
+</table>
+
+
+<br>---<br>
+  §§ In HTML, the ((c:50;::language of the document)) should be indicated with ((c:51;::a lang attribute)) ((c:52;::on &lt;html&gt;))o §<br>
+§§ In HTML, ((c:49;::anything that is not in the language indicated on &lt;html&gt;)) should be ((c:53;::indicated by an element with a lang attribute.)) §<br>
+§§ In HTML, the ((c:54;::lang attribute)) takes ((c:55;::BCP 47 language tags)). §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}</span>
+
+
+
+## licenses
 
 Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
 GPL is a type of copyleft license.

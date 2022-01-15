@@ -19,6 +19,9 @@ Statements do not return a value.
 Since statements do not return a value, they either do nothing or cause side effects.
 var test = 2 + 6; -> side effect of initializing a variable test
 An expression statement is a statement that consists of a single expression.
+
+#### statement separators and terminators
+
 A statement separator is used to demarcate boundaries between two separate statements. A statement terminator is used to demarcate the end of an individual statement.
 Semicolons are used in programming languages for two things: statement separators and statement terminators. When a language uses semicolons as statement separators, this allows you to write more than one statement on the same line.
 Semicolons as statement terminators aren’t optional and are used to definitively mark the end of a statement.
@@ -26,8 +29,12 @@ Semicolons as statement terminators aren’t optional and are used to definitive
 Typically, even if programming languages have semicolons as statement terminators, they don't go after block statements. JS is the exception to this, where you can but don't have to do this.
 
 semicolons as statement separators and statement terminators|C#|Java|Perl|Rust
-semicolons as statement separators, no statement terminators exist in language|Lua|Python|Ruby
+semicolons as statement separators, newlines as statement terminators|Lua|Python|Ruby|sh
 semicolons as statement separators and statement terminators, complex exceptions apply|JS
+
+In languages which have newlines as statement terminators, typically the statement-terminating newlines can be escaped (generally by \ ) 
+e.g. print("foo" + \
+"bar")
 
 ### Blocks
 
@@ -390,6 +397,9 @@ In JS, variables declared without a keyword become properties of the global obje
 #### shell scope
 
 In (ba)sh, the thing that determines scope is the shell.
+
+running a script spawns a new subshell, unless you source it.
+Sourcing a thing is done by `source` or by `.`
 environment variables have a scope that allows access in current shells and subshells.
 shell variables have a scope of the current shell only.
 Variables are shell variables by default.
@@ -397,8 +407,10 @@ Exporting a variable turns it from a shell variable to a environment variables.
 
 env|show all environment variables
 
-
+export|export a variable
 export -n|unexport a variable
+
+exit allows you to exit the current (sub)shell, optionally specifying an exit code.
 
 #### Shadowing
 
@@ -1203,7 +1215,7 @@ yield another generator (JS) yield*
 The datatype storing a single character is generally called char.
 In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
-### Strings### 
+### Strings
 
 A string type is generally a type for an arbitrary sequence of characters.
 Depending on the language, strings may be mutable or immutable (python, JS).
@@ -1400,7 +1412,9 @@ referential equality = same reference
 JS, Java, C# use referential equality on non-scalars
 Ruby and Python use structural equality on non-scalars (arrays and assoc. arrays)
 
-sh has a different set of operators for string equality:
+since relational operators are handled by test in sh, they are actually all arguments to test.
+
+test uses the normal equality operators for strings, but has a different set of operators for integer equality:
 -ne|is not equal to
 -lt|is less than
 -le|less than or equal to
@@ -1408,6 +1422,12 @@ sh has a different set of operators for string equality:
 -ge|greater than or equal to
 -eq|is equal to
 Perl uses sh-style comparison operator without the leading -
+
+test has a number of options/operators for file existence and type
+
+-e foo|foo exists and is a file
+-d foo|foo exists and is a directory
+-r foo|allowed to read foo
 
 greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
 Comparing a thing with itself is always true, except for: 
@@ -2155,6 +2175,8 @@ Print an error to console (but don't throw one)
 console.error()|JS
 @warn|SCSS/Sass
 
+the sh printing commands all don't read from STDIN
+
 ### visual
 
 #### UI
@@ -2809,17 +2831,32 @@ For anything in PATH we can execute it by just using its name, to execute anythi
 ### Shell lifecycle
 
 0. The shell may get its input from a file, a string, or the terminal.
-1. the shell tokenizes and parses the input (as does any programming language)
-2. The shell performs expansions
-3. the shell performs redirections
-4. the commands are executed
-5. the shell waits for the commands to complete and collects its exit status
+1. the shell tokenizes the input
+2. the shell parses the input into commands
+3. The shell performs expansions
+4. the shell performs redirections
+5. the commands are executed
+6. the shell waits for the commands to complete and collects its exit status
 
-### Expansion
+#### tokenization
+
+to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’. (this has nothing to do with IFS)
+
+#### parsing (quoting)
+
+since bash allows strings without quotes, double quotes actually perform a function somewhat similar to raw strings/escaping, except that the constructions starting with the metacharacters $, `, and ! still work.
+In bash, $'...' treats the contents as raw strings, but allows for C-style escape seuqences.
+In bash, $"..." translates the string according to the current locale settings
+
+#### Expansion
 
 Expansion is replacing a thing with another thing or things.
 
-Brace expansion
+Expansions are performed in the order: brace > tilde > parameter > command substitution > arithmetic > process substitution > word splitting > filename expansion > quote removal 
+
+Only brace expansion, word splitting, and filename expansion can increase the number of words of the expansion; other expansions expand a single word to a single word. The only exceptions to this are the expansions of "$@" and $* (see Special Parameters), and "${name[@]}" and ${name[*]} (see Arrays).
+
+##### Brace expansion
 
 Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
 Brace expansion is a mechanism for generating strings.
@@ -2831,7 +2868,7 @@ a{d,c,b}e results in ade ace abe
 For brace expansion, bash generates all string alternatives, separated by spaces.
 Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
 
-Tilde expansion
+##### Tilde expansion
 
 tilde expansion is performed if a word begins with a tilde.
 tilde expansion takes an argument that is specified between the tilde and the next /
@@ -2844,8 +2881,9 @@ With tilde expansion, if no argument is given, the tilde will merely evaluate to
 
 The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
 
-Shell parameter expansion
+##### Shell parameter expansion
 
+While parameter expansion is disabled within '', it works in "", but also in unquoted strings.
 In shell parameter expansion, the thing being expanded may be enclosed in curly braces, which is optional in some circumstances, and mandatory in others.
 Assinging to a variable does not require the $ character, but referring to a variable is a form of parameter expansion and therefore does.
 Bash supports a bunch of fancy parameter expansion features, which all require there to be {} surrounding them.
@@ -2855,7 +2893,7 @@ Indirection in parameter expansion means that if your parameter expands to anoth
 
 Within parameter expansion, * and @ are nearly equivalent.
 Within parameter expansion, to refer to an entire array, use arrayname[@/*]
-Within parameter expansion, to refer to the special parameters $* or *@, use just * or @.
+Within parameter expansion, to refer to the special parameters $* or $@, use just * or @.
 
 Bash allows specifying defaults for parameters within parameter expansion.
 Bash's two operators for specifying defaults within parameter expasion are :-, :+ and :=.
@@ -2892,19 +2930,19 @@ parameter@Q|quote the parameter
 
 Getting the length of something is done within parameter expansion: #parameter
 
-Command substitution
+##### Command substitution
 
 Command substitution takes a command and replaces it (and the syntax) with its output.
 Command substitution is performed in the modern syntax with $(command).
 Command substitution is performed in the older, deprected syntax with `command`.
 Command substitution may be nested.
 
-Arithmetic expansion
+##### Arithmetic expansion
 
 Arithmetic expansion evaluates arithmetic and replaces it (and the syntax) with the result.
 Arithmetic expansion is performed by $(())
 
-Process substitution
+##### Process substitution
 
 Process substitution allws referring to the in or output of another process as a file.
 To implement process substitution, bash creates a pipe with two file descriptors.
@@ -2915,12 +2953,13 @@ command1 >(command2) is equivalent to command1 | command2 if command1 supoorts o
 e.g. a command doesn't output to stdout, but just a file
 <() is used more commonly than >() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
 
-Word splitting
+##### Word splitting
 
+Word Splitting	  	How the results of expansion are split into separate arguments.
 the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
 Word splitting means splitting the things mentioned above into words using $IFS
 
-File name expansion
+##### File name expansion
 
 filename expansion is perfomed using an utility/syntax known as glob.
 The process of filename expansion is also known as globbing.
@@ -2938,11 +2977,11 @@ wildcard|matches
 *|matches 0-n arbitrary characters
 ?|matches 1 arbitrary character
 
-### Quote removal
+##### Quote removal
 
 After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
 
-### Redirection
+##### Redirection
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
@@ -2952,12 +2991,31 @@ redirecting output [<n>]>[\||>][&]<word>
 1> may be abbreviated > 
 0< may be abbreviated <
 
-### Parameters
+### concepts
+
+#### Parameters
 
 In bash, a parameter is an entity that stores a value.
 In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
 In bash, there is a special set of parameters that is auto-set.
 In bash, a variable is a type of parameter, specifically one denoted by a name.
+In bash, a parameter may be indicated by a name (names are the usual type of [a-zA-Z0-9_]), by a number, or by a special character.
+In bash assignment statements, only some forms of expansion are performed, specificaly tilde, parameter, command and arithmetic (ergo not brace and filename)
+Bash assignmet statements may appear as arguments to the declaration commands
+In the context where an assignment statement is assigning a value to a shell variable or array index (see Arrays), the ‘+=’ operator can be used to append to or add to the variable’s previous value.
++= in bash may add, append to array or append to string depending on the context.
+
+Besides the positional parameters, shell has a set of special parameters which are auto-populated, but to which cannot be assigned.
+*/@|expands to all positional parameters. They are the same when unquoted, when quoted $* expands to a single word separated by IFS, and $@ expands to separate words "$1" "$2"...
+#|amount of positional parameters
+?|exit status of most recent command/pipeline (foreground)
+$|PID of shell, except in (), where it still has the PID of the shell and not the subshell
+!|PID of job in background
+0|name of shell or shell script
+
+#### declaration commands
+
+declaration commands = {alias, declare, typeset, export, readonly, local}
 
 
 
@@ -2978,7 +3036,8 @@ A metacharacter is a character that has a special meaning to a computer program,
 
 An escape character is a metacharacter that invokes an alternative interpretation of the following character(s)
 An escape sequence is the combination of an escape character and the subsequent characters that has a specific meaning.
-In most programming languages, \ acts as a/the escape character, this includes latex, at least for basic things such as % and &.
+In C, \ acts as a/the escape character, with many programming languages having copied this, this includes latex, at least for basic things such as % and &.
+C pioneered a set of escape sequences starting with the escape character \ and certan chars/sequences afterwards, which have been widely adopted.
 In HTML, & acts as a/the escape character.
 Liquid is rare in that escape sequences don't exist at all.
 Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.
@@ -2987,14 +3046,16 @@ Escape sequences for unicode codepoints:
 \u + UTF-16 escape sequence (must be a set of two \u + UTF-16 escape  sequence if surrogate pair)|JS
 \<unicode-code-point>|CSS
 \u<unicode-code-point>|Regex (some flavors)
-\x{<unicode-code-point>}|Regex (other flavors)
-\u{<unicode-code-point>}|JS (ES 6 and beyond)
+\u<four-hex-digits>|C-style escape sequence
+\U<eight-hex-digits>|C-style escape sequence
+\x\{<unicode-code-point>\}|Regex (other flavors)
+\u\{<unicode-code-point>\}|JS (ES 6 and beyond)
 can be directly input|most programming languages
 
 Escape sequences for ascii characters
 octal
 \0<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
-\<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
+\<octal-digit><octal-digit><octal-digit>|C-style escape sequence, Regex (some flavors)
 \o\{<octal-digit><octal-digit><octal-digit>\}|Regex (some flavors)
 
 alphabetic
@@ -3068,6 +3129,7 @@ In ASCII the 6th and 7th bit will never be set for any control character within 
 
 
 The most common escape sequences (not character quoting)
+C escape sequence|name|short|hex|alternative meaning
 \n|new line|LF|0x0A|any newline character
 \r|carriage return|CR|0x0D
 \f|form feed|FF|0x0C
