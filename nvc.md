@@ -20,6 +20,7 @@ The NVC process allows us to percieve and express things as life-affirming commu
 The NVC process consists of two halves: recieving and expressing.
 Both halves of the NVC process are performed through the four components.
 For NVC to work, the NVC process is required, as well as maintaining a certain mental state: Being (mentally, emotionally) present with a spirit of compassion.
+Being present for NVC requires us to listen 100%.
 
 ## 2 parts
 
@@ -30,7 +31,12 @@ the expressing half of NVC may be to other people, or to ourselves.
 
 the recieving half of NVC can be done silently or verbally.
 Recieving a message through the four components can be done whether the message itself is life-alienated or life-affirming, since as we know a life-alienated version hides a life-affirming version underneath.
- 
+Paraphrasing is the recieving half of NVC, if done verbally.
+The standard formula for NVC paraphrasing is like: Are you sensing A and feeling B because you are needing C. Would D meet your need?
+Paraphrasing in particular may either cause the other person to confirm and/or dive more deeply if we are right, or the person to correct us if we are wrong (but this isn't bad either!).
+Instead of recieving the message through the four components at all, we may also hear the message in a life-alienated way, by focusing on its intellectual content.
+
+### expressing
 
 ## reactions
 
@@ -57,9 +63,9 @@ no.|about|component (life-affirming version)|component (life-alienating version)
 
 observations trigger needs to be met/unmet, which cause certain feelings. As a consequence, we may or may not make a request.
 All four components are completely internal to each person. The life-affirming version clarifies this, while the life-alienating version tries to place the cause of the component outside of the relvant person.
-When using the NVC process, leaving out one or more components may be done, but may also work to imply that the causes for the components expressed/recieved are outside of the relevant person, thus becoming (more) life-alienated.
-when engaging in the NVC process, for all four components, NVC encourages us to be as specific as possible.
-The standard formula for including all four NVC components is When I sense A I feel B because I need C. Would you be willing to do D?  or Are you sensing A and feeling B because you are needing C. Would D meet your need?
+When using the NVC process (both during expressing and recieving), leaving out one or more components may be done, but may also work to imply that the causes for the components expressed/recieved are outside of the relevant person, thus becoming (more) life-alienated.
+when engaging in the NVC process, for any of the four components, NVC encourages us to be as specific as possible.
+The standard formula for including all four NVC components is When I sense A I feel B because I need C. Would you be willing to do D?  or 
 NVC argues that the set of feelings and needs are (nearly) universal.
 
 ### observations
@@ -85,9 +91,15 @@ While there's a somewhat-limited set of needs, the amount of possible strategies
  
 #### requests
 
-Demands accept only submission or rebellion as a reaction.
+Demands & requests are ways to realize the strategies to meet our needs.
+Demands want the strategy to happen no matter the persons reaction to the request, enacting sanctions such as criticism, anger, guilt-tripping etc. if not met, ergo accept only submission or rebellion as a reaction.
 Requests require the requestee to engage in an NVC process with the persons reaction to the request, even if negative
 In addtion, requests may fail if they are not positive (i.e. not don't do X), clear&precise, and actionable.
+
+##### reflection
+
+If you are not sure what the person heard you say (it may be different from what you think you said), requesting a reflection is often useful.
+A reflection takes the form "What did you just hear me say?" or similar.
 
 ## too charged
 
@@ -102,7 +114,8 @@ Everyone involved in violent communication pays dearly for it, including society
 NVC encourages acting in a way that satisfies both your and other's needs, by arriving a strategy that does that, called giving from the heart.
 Hearing both our and other people's needs at the same time, and people may be used to acting to satisfy other people's needs without listening to their needs due to thinking they are responsible for the feeling of others, called acting from guilt.
 Marshall suggests that there is a three-step progression from acting from guilt to giving from the heart: Emotional slavery (only acting from guilt) > the obnoxious stage (overcompensating, being unable to recieve other people's needs) > emotional liberation. (giving from the heart)
-
+Being what society deems a "good X" (good mother, good employee, good black person ...) generally requires you to deny your own needs.
+Having often been subjected to more/more extreme life-alienating communication may make it harder to hear life-affirming communication as such.
 
 # animals
 
@@ -110,7 +123,13 @@ Using a metaphor, people who are engaged in compassionate communication are some
 Using a metaphor, people who not are engaged in compassionate communication are sometimes called jackals.
 The reason for the giraffe metaphor in NVC is that giraffes are the land anima with the largest heart, also their long neck symbolizes awareness.
 
-# common confusions
+# details
+
+## anger
+
+In NVC, anger as an emotion is treated somewhat differently: Marshall argues that anger always also has an other, deeper emotion that causes it.
+
+## common confusions
 
 It is important to realize that positive messages (you're good) are as life-alienating as negative messages (you're bad). Positive and negative messages alike benefit from using the NVC process.
 NVC may not always feel good, especially since it often requires us to be emotionally vulnerable.
