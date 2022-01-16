@@ -26,7 +26,7 @@ indicate a variable semantically||<var>
 keyboard input||<kbd>
 sample output||<samp>
 title of a cited work||<cite>
-defining instance of a term||<dfn>
+preformatted text that is to be presented exactly as written||<pre>
 
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
@@ -163,6 +163,10 @@ the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, 
 the &lt;title&gt; element can only contain text, not tags.
 the &lt;title&gt; element's content should change in response to major state changes.
 
+the <base> element specifies the base URL for the document with its href attribute.
+The <abse> element optionally accepts a target argument to choose the browsing context links open in by default.
+The <basefont> element used to specify the default font (color, fontface etc.) but is now deprecated.
+
 ##### <meta>
 
 The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>.
@@ -185,6 +189,11 @@ theme-color|indicates a suggested color that user agents should use to customize
 The abbr HTML element represents an acronym or abbreviation.
 There used to be an <acronym> element which was obsoleted in favor of <abbr>
 The thing an abbr element is short for may either be explained in the text or specified in a title attribute.
+<dfn> represents defining instance of a term
+The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.
+If the <dfn> element has a title attribute, the value of the title attribute is considered to be the term being defined. The element must still have text within it, but that text may be an abbreviation (perhaps using <abbr>) or another form of the term.
+If the <dfn> contains a single child element and does not have any text content of its own, and the child element is an <abbr> element with a title attribute itself, then the exact value of the <abbr> element's title is the term being defined.
+Otherwise, the text content of the <dfn> element is the term being defined. 
 
 #### Media
 
@@ -245,14 +254,22 @@ track has a default attribute to indicate that this is a default track
 track has a kind attribute to indicate its purpose
 track kinds: captions, chapters, descriptions, metadata, subtitles
 
-#### img
+#### images
 
 <img> is used for including images
 
-#### picture
-
 The picture element contains 0 - ∞ source elements and one <img> element.
 The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
+
+##### srcset 
+
+srcset-values ::=  <srcset-specifier>{, <srcset-specifier>}
+srcset-specifier ::= <url> <integer>w
+sizes-values ::= <sizes-specifier>{, <sizes-specifier>}
+sizes-specifier ::= <media-query> <resolution-length-percentage>
+
+scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the image should be in that case (width as in resolution, not width of the  box). The browser then picks the closest one, but preferring ones that are too large than too small.
+If no sizes is provided, the browser chooses one of scrset based on which is closest to the viewport width (essentially just assuming that the image wlll be 100 vw)
 
 #### source
 
@@ -314,7 +331,10 @@ It is better to specify your canvas dimensions by setting the width and height a
 
 #### map
 
-
+<map> defines an image map, within which <area> defines clickable areas.
+<map> takes a shape attribute with the possible values circle, poly, rect.
+The shape of a map with a given shape attribute is specified by the coords attribute
+You refer to a map via its name attribute included in an <img> usemap attribute prefixed by #
 
 #### links
 
@@ -488,20 +508,22 @@ If the name of a thing in a form is not specified, the value is not sent.
 autofocus
 A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the <dialog> containing the element has been displayed).
 
-#### option
+#### select, option
 
+The <select> HTML element represents a control that provides a menu of options:
 The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
+
+#### output
+
+The <output> HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
+<output> are often used within forms, however tehy are not submitted with the form.
 
 #### script
 
 to include an external script, set the src attribute of the <script> element to its URL
 the <noscript> tag is for displaying content if the browser does not support JS
-
-#### select 
-
-The <select> HTML element represents a control that provides a menu of options:
 
 #### Ruby 
 
@@ -640,7 +662,11 @@ nav|navigation section
 
 #### deprecated elements
 
-<menu> was supposed to be a semantic alternative to <ul>
+<menu> was supposed to be a semantic alternative to <ul> for menus, but is now deprecated
+<menuitem> was meant to be a child of <menu> if <menu> was a context menu, but is now deprecated.
+<dir> was supposed to be a semantic alternative to <ul> for directories of files and folders, but is now deprecated.
+<keygen> was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
+<font> was an element to style text, but is now deprecated.
 
 ### content categories
 
@@ -660,9 +686,12 @@ Content is palpable when it's neither empty or hidden; it is content that is ren
 
 Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
 
-embedded cotnetn cotnains the media elements video and audio, image-related elements img, picture, and svg, math, iframe, plus the obsolete elements applet
+embedded cotnetn cotnains the media elements video and audio, image-related elements img, picture, and svg, math, frames, canvas, object, embed plus the obsolete elements applet
 
 <applet> was used to embed java applets, but is now obsolete.
+The <object> HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
+The <param> HTML element defines parameters for an <object> element.
+The <embed> HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
 
 &lt;math> and &lt;svg> embed content in HTML from MathML and SVG respectively
 
@@ -1212,11 +1241,20 @@ A relative path begins at the current working directory.
 Generally one home directory per user.
 On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
 FHS: Home directories live in /home/
-
+$XDG_CONFIG_HOME/autostart contains .desktop files to run on system start
+$XDG_DATA_HOME/fonts contains fonts for a specific user
 
 ##### XDG Base Directory Specification
 
-Spec governing the organization of files in your home directory   XDG Base DIrectory Specification
+XDG Base DIrectory Specification is the spec governing the organization of files in your home directory   
+
+XDG Base Dir Var|default|global equivalent
+$XDG_DATA_HOME|$HOME/.local/share|/usr(local/)share
+|$HOME/.local|/usr/local
+|$HOME/.local/lib|/usr/local/lib
+|$HOME/.local/bin|/usr/local/bin
+$XDG_CONFIG_HOME|$HOME/.config|/etc
+$XDG_CACHE_HOME|$HOME/.cache|/var/cache
 
 ##### FHS
 
@@ -1330,6 +1368,12 @@ Pixmap images are very large, since they don't have any compression.
 Markup files are subset of plaintext files.
 Markup files are written in markup languages.
 markup languages consist of normal text and specific markup, which are intermingled.
+
+#### toml xdg systemd
+
+INI files inspired XDG desktop files.
+XDG desktop files inspired systemd unit files.
+TOML was inspired by INI, XDG and systemd unit files.
 TOML|Tom's obvious, minimal language
 
 #### m3u
@@ -1629,6 +1673,7 @@ The daemon responsible for paging (swapper/sched) is the process with PID 0.
 
 #### the init process
 
+The init process is launched by the kernel.
 In unix, the init process is the first processes that launches when a computer boots.
 The init process is a daemon and has PID 1.
 older *nixes|init
@@ -1683,19 +1728,26 @@ libinput is native in wayland, but optional in X, which can also manage input de
 
 In SystemV style init, the init process was actually called init.
 In SystemV style init, the device starts by executing numbered startup scripts one at a time.
+Because SystemV executes startup scripts one at a time, it is relatively slow.
 SystemV style init has largely been replaced by systemd, though the switch was recieved largely negatively.
 In contrast to SystemV init, systemd is not composed of scripts, but of large, precompiled binaries.
-In contrast to SystemV init, which was just the init process, systemd is a huge architecture managing may parts of the OS.
+In contrast to SystemV init, which was just the init process, systemd is additionally a huge architecture managing may parts of the OS.
 systemd targets replaced SystemV runlevels.
+When systed has bootstrapped itself, it next looks at default.target
 
 within the relevant systemd folder (/var/systemd, /etc/systemd, /run/systemd), system is the directory that contains the unit files.
-There are different systemd folders depending on the persistence that is desired.
+There are different systemd folders depending on the persistence that is desired, and the origin of the modification.
 /run/systemd|lost at reboot
+/lib/systemd|persitent (package-manaed software, the os)
 /etc/system|persistent (device admin)
 
 ##### units
 
-systemd units contain dependencies to tell us what we need to do next.
+systemd deals with system units.
+A systemd unit represents any kind of system resource.
+systemd units contain dependencies to tell us what we need to load first.
+Systemd units end .unittype.
+Systemd units are stored in unit files.
 
 .timer   timed functionality similar to cron
 .target   a state to be reached
@@ -1705,6 +1757,9 @@ systemd units contain dependencies to tell us what we need to do next.
 .automount   .mounts that will be automatically managed
 .path   notifying when a path becomes available
 
+When a .path units path becomes available, {{c1::an associated .service}} is started.
+When a .socket unit has some activity, an associated service is started.
+When a .timer units time state is reached, an associated unit is started.
 
 ###### targets
 
@@ -1716,11 +1771,21 @@ default.target   what the machine should try and aim for when booting (another t
 
 ###### CLI
 
+The main command to administer systemd is systemctl
 starting/stopping an unit for systemd does that {{c1::right now}} but temporarily
 enabling/disabling an unit for systemd does that {{c1::next reboot/session (by default)}} but permanently.
 To both start and enable/stop and disable, use enable/disable --now.
 syntax: systemctl (start|stop|enable|disable) <unit>
-The systemctl subcommands list-* lists relevant systemd-related things
+To see if a thing is currently enabled or active, use is-enabled/is-active <unit>
+reload <unit> reloads a specific unit.
+reset-failed resets all failed units
+daemon-reload refreshes changed systemd settings
+The systemctl subcommands list-* lists relevant systemd-related things, however there is not a list-unit subcommand for every unit.
+list-sockets|list sockets and what happens
+list-jobs|list active systemd jobs
+list-units|list all units
+list-unit-files|list unit files
+
 
 ## files
 
@@ -1785,13 +1850,14 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 
 ### misc
 
-When config files are split up into multiple files, .d directory names are often used
+When config files are split up into multiple files, .d directory names are often used.
+.d directory names are often used to give them a different names from normal files doing something  similar.
 
 ## command-line 
 
 ### meta
 
-most configurable commands are done so by a config file, either at .commandname or better XDG_CONFIG_HOME/commandname, some also read from a global config file generally in /etc
+most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc
 
 #### common syntax considerations
 
@@ -2132,10 +2198,13 @@ insect - shell scientific calculator
 
 unoconv is a CLI util to convert files using libreoffice in the background.
 
+tee redirects a stream to stdout and to all listed files
+
 ## processes
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
 ps|list of processes
+pstree|processes as a tree
 
 ### process management
 

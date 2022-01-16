@@ -278,6 +278,24 @@ Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, cross
 
 The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted. 
 
+##### scroll-snap
+
+In a basic sense, CSS scroll snap is for snapping to specific scroll points
+For scroll snap to do anything, you have to specify scroll-snap-type and scroll-snap-align.
+For scroll snap, you specify scroll-snap-type on the parent and scroll-snap-align on the children.
+
+scroll-snap-type-values ::= <axis> [mandatory|proximity]
+axis ::= x|y|block|inline|both
+
+the axis part of scroll-snap-type determines along which axis to snap. Here, block and inline refer to the relevant axes.
+mandatory|must snap no matter what
+proximity|snap only when close to scroll point.
+
+scroll-snap-align ::= (start|end|center) [start|end|center]
+when two values set first is block, second inline
+
+While scroll-padding is set on the parent, scroll-margin is set on the child, and so allows different values for different children.
+
 ##### word-break, overflow-wrap
 
 ##### width, height
@@ -563,7 +581,7 @@ background-position takes a <position> value to position the background.
 
 ##### edges
 
-Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding
+Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
 Shorthand for edges in CSS use a consistent syntax:
 
 1 value|specifies all sides|<img src="sm_1_border.png">
@@ -749,6 +767,8 @@ step-keyword ::= step-start|step-end
 step-function ::= steps\(<integer>, <step-position>\)
 step-position ::= jump-start|jump-end|jump-none|jump-both|start|end
 
+cubic-bezier(x_p1, y_p1, x_p2, y_p2)
+
 The step keywords or function make the animation run in discrete steps, instead of continuously
 
 https://drafts.csswg.org/css-easing-1/step-easing-keyword-examples.svg
@@ -826,6 +846,8 @@ opacity: <number-or-percentage-0-1>
 
 overflow is a shorthand for overflow-x and overflow-y
 overflow-specifier-values ::= visible|hidden|clip|scroll|auto
+
+overflow-anchor determines if our scroll position is anchored to the scroll offset from the top (`none`) or to the current position in the content (`auto`), which is relevant when we add more content on top. 
 
 mix-blend-mode and background-blend-mode both take a <blend-mode>
 {{c4::Background-blend-mode}} regulates blending between ({{c3::a}}) {{c1::background-image}}({{c3::s}}) as well as the {{c2::background-color}}.
@@ -967,6 +989,8 @@ mathable (not an official name) ::= <number>|<dimension>|<percentage>
 resolution ::= <number><resolution-unit>
 resolution-unit ::= dpi|dpcm|dppx|x
 x is an alias for dppx
+dppx = dots per px
+In CSS, since 1 in is fixed as 96 px, 1dppx is 96 dpi.
 frequency ::= <number><frequency-unit>
 frequency-unit ::= Hz|kHz
 angle ::= <number><angle-unit>
@@ -985,8 +1009,9 @@ b-c-box ::= border-box|content-box
 
 ##### length
 
-<length> consists of a <number> followed by a <length-unit>.
-The <length-percentage> CSS data type represents a value that can be either a <length> or a <percentage>.
+length ::= <number><length-unit>
+length-percentage ::= <length>|<percentage>
+resolution-length-percentage ::= <resolution>|<length-percentage>
 
 lpminmaxauto ::= <length-percentage>|min-content|max-content|auto # this is a term I made up
 terms like auto, min-content and max-content depend on the current formatting context/layout mode
@@ -999,17 +1024,29 @@ When not equal to auto, in general the max-content size is the size a box could 
 
 <flex> consists of a <number> followed by the unit fr.
 the fr unit represents a fraction of the leftover space in the grid container. 
-flex-l-p-min-max-auto :: <flex>|<l-p-min-max-auto>
+flex-l-p-min-max-auto ::= <flex>|<l-p-min-max-auto>
 
-length-units
-<code>vw</code>|1% of the width of the viewport*
-<code>vmin</code>|1% of viewport's* smaller dimension
-<code>vmax</code>|1% of viewport's* larger dimension
-<code>vh</code>|1% of the height of the viewport*
+length-unit ::= <relative-length-unit>|<absolute-length-unit>
+relative-length-unit ::= <font-relative-length-unit>|<viewport-relative-length-unit>
+font-relative-length-units
 <code>rem</code>|font-size of the root element
 <code>ex</code>|the height of a lowercase x of the current font (rarely used)
 <code>em</code>|the font-size of the element
 <code>ch</code>|width of the "0" (zero)
+
+viewport-relative-length-units
+<code>vw</code>|1% of the width of the viewport*
+<code>vmin</code>|1% of viewport's* smaller dimension
+<code>vmax</code>|1% of viewport's* larger dimension
+<code>vh</code>|1% of the height of the viewport*
+
+absolute units in CSS may or may not refer to their real-world equivalent.
+On print media and similar situations, css absolute units refer to their real-world equivalent.
+For low dpi devices, absolute units are instead defined in reference to the reference pixel: 1 in = 96 px, thus `1in` may not correspond to 1 RL inch. 
+For high dpi devices, px are instead defined in reference to real-world units, so that 1 in is one 1 RL in, and 1px is 1/96in, no matter how many screen pixels that would actually correspond to on the device.
+absolute-length-unit ::= <metric-length-unit>|<imperial-length-unit>|px
+metric-length-unit ::= cm|mm|Q
+imperial-length-unit ::= in|pc|pt
 
 ##### filters
 
@@ -1403,6 +1440,10 @@ To clamp a value is to specify an upper and a lower bound, and keep the number w
 
 ### Accessibility
 
+Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
+
+#### WAI & WCAG basics
+
 {{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
 the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
 The WCAG consists of principles, guidelines, successs criteria, and techniques.
@@ -1418,6 +1459,24 @@ In some countries websites, especially those of public sector bodies must confor
 §§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+#### WCAG techniques
+
+##### Semantic HTML
+
+Semantic HTML is HTML where the tags contain semantic information about the content
+Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
+
+
+##### aria
+
+ARIA  Accessible Rich Internet Applications
+ARIA is mainly realized in HTML attributes.
+ARIA attributes change the accessibility tree, but nothing else.
+There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
+ARIA {{c1::states}} define some property {{c2::that can change}}
+ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
+ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
 
 ### system UI themes
 
