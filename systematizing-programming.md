@@ -2815,7 +2815,8 @@ popd +/-<n>|remove the nth directory counting from the start/end from the direct
 PWD|current directory
 OLDPWD|directory before last pwd
 DIRSTACK|everything on the directory stack
-PAGER|set the d
+PAGER|set the pager
+HOME|user home directory
 
 EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
 PATH is for where to find executables.
@@ -3207,6 +3208,13 @@ First UTF-8 byte starts|character contains n bytes
 110|2
 1110|3
 11110|4
+
+##### Percent
+
+(near) synonyms: {{c1::Percent encoding}}, {{c2::URL/I encoding}}
+
+To percent-encode a character, use the characters UTF-8 representation, and then percent-encode each byte.
+percent-encoded-byte ::= %<hex-digit><hex-digit>
 
 Newline may refer to the newline character or any newline
 

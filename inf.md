@@ -783,7 +783,7 @@ autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
-# environment
+# environment ≈ Web APIs
 
 ## browsing contexts
 
@@ -810,13 +810,29 @@ A session history conttains the Document objects that the browsing context has p
 the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
 BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
+### intervals
+
+{{c1::window}}.​setTimeout(function, delay, args);
+
+
 ## the DOM
 
+DOM|Document Object Model
 The DOM is a tree data structure that acts as an interface for a XML or HTML document.
 DOM vertices are `Node`s.
 `Node` implements the EventTarget interface, so all things inheriting from Node also do.
 
-### types of Nodes
+### Nodes
+
+#### NodeLists
+
+A NodeList is similar to an Array, but doesn't have all the methods.
+A NodeList is a linear collection of nodes.
+NodeList has a foreach method
+NodeLists can be live or static.
+
+#### types of
+
 <table>
   <tbody>
     <tr>
@@ -868,6 +884,38 @@ DOM vertices are `Node`s.
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+#### Elements
+
+element.innerHTML|content between the tags
+The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
+
+##### HTMLCanvasElement
+
+The HTMLCanvasElement.toDataURL(type) method returns a data URI containing a representation of the image in the format specified by the MIME type in the type parameter.
+
+### DOM traversal
+
+document.querySelector(selector)|get first element that matches selector
+document.querySelectorAll(selector)|get NodeList of elements that matches selector
+qs and qsa can be called on document for a global search, or on an element for a search only on that elements children.
+document.getElementById()
+
+
+### other interfaces & classes
+
+#### DOMTokenList
+
+The DOMTokenList interface represents a set of space-separated tokens. 
+
+## Web Storage API
+
+getItem(name)
+setItem(name,"")
+
+## Web Speech API
+
+Web Speech API: text to speech/speech to text
 
 # CSS
 
@@ -2995,6 +3043,15 @@ In JSON but not JS object literals, keys must be quoted.
 In JSON but not JS object literals, functions are forbidden.
 In JSON, the top-level item can either be an object or an array.
 
+##### Schema
+
+JSON schemas are schemas for json, usually written in JSON, though they can be written in different things.
+top-level keys
+title|title for the schema
+description|description for the schema
+$schema|URL of the version of JSON Schema this document adheres to 
+$id|base url for the document, similar to <base> in HTML
+
 #### ICAL/VCARD
 
 ical|text/calendar|calendar information|RFC 5545|.ics
@@ -3827,6 +3884,10 @@ If no assertion flags are specified, caffeinate creates an assertion to prevent 
 If a utility is specified with -u, the caffeinate assertions will persist for the duration of the utility's execution. 
 if no utility is specified with -u, caffeinate creates the assertions directly, and those assertions will persist until caffeinate exits, or until the timeout specfied w/ -t.
 
+### leaving the shell
+
+termux-open-url   open an url in its default application (termux)
+
 ### misc
 
 <code>redshift</code>|make screen red/yellowish (linux)
@@ -4148,6 +4209,18 @@ polling may be used to simulate push protocols.
 OAuth 2.0 (grant type: Authorization code)
 <img src="tmp7t5et6aw.png" />
 
+## APIs
+
+the point where one interfaces with an API is an endpoint
+For HTTP APIs, the endpoint is most commonly an URL + request verb.
+
+### REST
+
+#### HATEOAS
+
+in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
+in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
+
 
 ## the internet
 
@@ -4227,6 +4300,12 @@ URIs used to be subdivided into URLs and URNs.
 Mainly historically, URLs were FOOBAR, and URNs were unique identifiers of a resource.
 Today, URNs are merely another FOOBAR, urn:
 
+In URLs, Reserved characters and characters outside of the URL character set need to be URL/percent-encoded
+
+###### origins
+
+Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
+
 ###### domains
 
 TLD
@@ -4291,9 +4370,33 @@ In digs output, non-records begin with ;;, non-records do not.
 
 8.8.8.8|Google DNS nameserver
 
+##### WebSocket
+
+WebSocket is an application-layer communications protocol with client and server APIs.
+WebSocket, being an application-layer protocol, is distinct from HTTP, but uses the same TCP ports, mainly for firewall-related reasons
+WebSocket, in contrast to HTTP allows full-duplex communication and streams of data
+WebSocket use the scheme <code>ws:</code> (if unencrypted) or <code>wss:</code> (if encrypted)
+To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade header
+
+###### client
+
+on the client side, sockets are created via the <code>WebSocket</code> constructor
+the <code>WebSocket</code> constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
+to send data on a <code>WebSocket</code>, use the method <code>send()</code>
+To {{c3::react to incoming data}} {{c2::event handlers are registered}} on the WebSocket object
+the four common events a <code>WebSocket</code> might recieve client-side are open, message, close, error
+
+###### server 
+
+the most common node web sockets library is <code>ws</code>
+
 ### layer 4
 
 The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
+
+#### IP
+
+the {{c1::host URL element}} for the {{c2::loopback address}} is usually {{c3::localhost}}
 
 # webadmin
 
