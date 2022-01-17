@@ -2975,8 +2975,18 @@ When a pattern is used for filename expansion, the character ‘.’ at the star
 To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
 
 wildcard|matches
-*|matches 0-n arbitrary characters
+*|matches 0-n arbitrary characters, excluding directory separators
+**|0 - infinity characters, including directory separators
 ?|matches 1 arbitrary character
+@(foo|bar|baz)|one of the options foo, bar, baz
+?(foo|bar|baz)|zero or one of the options foo, bar, baz
++(foo|bar|baz)|one <b>or more</b> of the options foo, bar, baz
+!(foo|bar|baz)|none of the options foo, bar, baz
+*(foo|bar|baz)|zero or more of the options foo, bar, baz
+[^&lt;characters&gt;]   one character that is none of &lt;characters&gt;
+[!&lt;characters&gt;]   one character that is none of &lt;characters&gt;
+[aml]   one of the characters a, m, l
+[a-m]   one character in range of characters a-m
 
 ##### Quote removal
 
