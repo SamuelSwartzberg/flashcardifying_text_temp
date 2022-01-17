@@ -145,6 +145,11 @@ A document type declaration must be the first thing after the XML declaration if
 The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
 In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
 
+## PI
+
+PI|Processing instruction
+
+
 ## HTML
 
 ### General structure
@@ -807,10 +812,15 @@ BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
 ## the DOM
 
+The DOM is a tree data structure that acts as an interface for a XML or HTML document.
+DOM vertices are `Node`s.
+`Node` implements the EventTarget interface, 
+
+### types of Nodes
 <table>
   <tbody>
     <tr>
-      <th colspan="2">EventTarget</th>
+      <th colspan="5"><span class="c9-cloze">Node</span></th>
     </tr>
     <tr>
       <td>others...</td>
@@ -818,53 +828,41 @@ BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
         <table>
           <tbody>
             <tr>
-              <th colspan="5"><span class="c9-cloze">Node</span></th>
+              <th colspan="3"><span class="c12-cloze">Element</span></th>
             </tr>
             <tr>
               <td>others...</td>
-              <td>
-                <table>
-                  <tbody>
-                    <tr>
-                      <th colspan="3"><span class="c12-cloze">Element</span></th>
-                    </tr>
-                    <tr>
-                      <td>others...</td>
-                      <td><span class="c10-cloze c12-scr">HTMLElement</span></td>
-                      <td><span class="c11-cloze c12-scr">SVGElement</span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-              <td>
-                <table>
-                  <tbody>
-                    <tr>
-                      <th colspan="2"><span class="c8-cloze">Document</span></th>
-                    </tr>
-                    <tr>
-                      <td><span class="c6-cloze c8-scr">HTMLDocument</span></td>
-                      <td><span class="c7-cloze c8-scr">XMLDocument</span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </td>
-              <td><table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table></td>
-              <td>
-                <table>
-                  <tbody><tr>
-                    <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
-                  </tr>
-                  <tr>
-                    <td><span class="c2-cloze c1-scr">Text</span></td>
-                    <td><span class="c3-cloze c1-scr">Comment</span></td>
-                    <td><span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
-                  </tr>
-                </tbody></table>
-              </td>
+              <td><span class="c10-cloze c12-scr">HTMLElement</span></td>
+              <td><span class="c11-cloze c12-scr">SVGElement</span></td>
             </tr>
           </tbody>
         </table>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="2"><span class="c8-cloze">Document</span></th>
+            </tr>
+            <tr>
+              <td><span class="c6-cloze c8-scr">HTMLDocument</span></td>
+              <td><span class="c7-cloze c8-scr">XMLDocument</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td><table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table></td>
+      <td>
+        <table>
+          <tbody><tr>
+            <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
+          </tr>
+          <tr>
+            <td><span class="c2-cloze c1-scr">Text</span></td>
+            <td><span class="c3-cloze c1-scr">Comment</span></td>
+            <td><span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
+          </tr>
+        </tbody></table>
       </td>
     </tr>
   </tbody>
@@ -875,77 +873,9 @@ BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
 ## web workers
 
-## webVTT
+# web frameworks
 
-  §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
-§§ ((c:35;::WebVTT)) is ((c:36;::based on)) and ((c:36;::similar to)) ((c:37;::.srt)) §<br>
-§§ ((c:38;::.srt)) is ((c:39;::more common)) than ((c:38;::WebVTT)), but ((c:38;::WebVTT)) is ((c:40;::more new/featurefu))l. §<br>
-§§ ((c:41;::Youtube)) amongst others does not support ((c:42;::srt or WebVTT tag formatting)), and ((c:43;::pretty much nothing)) supports ((c:44;::most of WebVTT's most advanced features)). §<br>
-§§ ((c:45;::WebVTT and .srt)) mark up their payload with ((c:46;::HTML/XML-style tags)). §<br>
-§§ Things in ((c:47;::WebVTT/.srt)) are ((c:48;::generally separated)) by ((c:49;::a blank line (i.e. two newlines))) §<br>
-===<br>
-
-<br>---<br>
-  §§ WebVTT delimits ((c:51;::major sections)) with ((c:50;::allcaps words)): §<br>
-  <table>
-  <thead>
-    <tr><th>section name</th>
-    <th>section semantics/function</th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>((c:1;::WEBVTT))</td> <td>((c:2;s:32;::Begin WebVTT document)) ((h:2;::(may be followed by ((c:32;::text header on the same line)))))</td></tr>
-<tr><td>((c:3;::STYLE))</td> <td>((c:4;::inline styling section))</td></tr>
-<tr><td>((c:5;::NOTE))</td> <td>((c:6;::comment))</td></tr>
-  </tbody>
-</table>
-===<br>
-
-
-<br>---<br>
-  §§ A ((c:52;::cue)) is ((c:53;::the main unit of information)) in ((c:54;::WebVTT/.srt.)) §<br>
-§§ ((c:55;::A cue)) ((c:56;::starts (.srt)/may start (WebVTT))) with ((c:57;::a header line)). §<br>
-§§ ((c:58;::The header line that starts a cue)) must be ((c:59;::a running number indicator)) in ((c:60;::.srt)), this is ((c:61;::optional)) in ((c:60;::WebVTT)) §<br>
-§§ ((c:62;::The line after the header line if it exists or the first line of a WebVTT/.srt)) ((c:63;::cue)) contains ((c:64;::the time to show the text)), consisting of ((c:65;::two timestamps (RFC 3339 (hh):mm:ss.ttt))) ((c:66;::separated by <code> -&gt; </code> (notice the spaces).))((c:67;::&nbsp;Every line of a cue after the line specifying the time)) specifies ((c:68;::text to be shown.)) Together, these are known as ((c:69;::the payload)). §<br>
-§§ Every line of a cue may optionally be ((c:70;::started by <code>- </code>)), this will ((c:71;::not be displayed)) §<br>
-===<br>
-
-
-<table>
-  <thead>
-    <tr><th colspan="2">WebVTT-specific properties</th></tr>
-    <tr><th>CSS property syntax</th>
-    <th>CSS function</th></tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>((c:7;::vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg)))</td></tr>
-<tr><td>((c:8;::line:0-100%))</td> <td>((c:9;::display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no <code>vertical</code>)))</td></tr>
-<tr><td>((c:10;::position:0-100%))</td> <td>((c:11;::display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no <code>vertical</code>)))</td></tr>
-<tr><td>((c:12;::size:0-100%))</td> <td>((c:13;::set the width of the cue to %))</td></tr>
-<tr><td>((c:14;::&lt;c.foo&gt;content&lt;/c&gt;))</td> <td>((c:15;::specify a class foo to target))</td></tr>
-<tr><td>((c:16;::&lt;ruby&gt;...))</td> <td>((c:17;::add furigana etc.))</td></tr>
-<tr><td>((c:18;::&lt;v foo&gt;))</td> <td>((c:19;::indicate that foo is speaking))</td></tr>
-<tr><td>((c:20;::align:start/end...))</td> <td>((c:21;::align the captions along the x-axis (if not <code>vertical</code>), i.e. the same axis as the position property))</td></tr>
-<tr><td>((c:22;::&lt;font color="...))</td> <td>((c:23;::Set the text to a certain color))</td></tr>
-<tr><td>((c:24;::&lt;b&gt;, &lt;i&gt;, &lt;u&gt;))</td> <td>((c:25;::make the text bold, italic or underlined))</td></tr>
-  </tbody>
-</table>
-<table>
-  <thead>
-    <tr><th colspan="2">WebVTT-specific selectors</th></tr>
-    <tr><th>CSS Selector</th>
-    <th>Selects</th></tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>((c:26;::::cue(.foo)))</td> <td>((c:27;::Target a cue with class foo (&lt;c.foo&gt;)))</td></tr>
-<tr><td>((c:28;::::cue))</td> <td>((c:29;::Target any WebVTT cue (shown subtitle)))</td></tr>
-<tr><td>((c:30;::::cue(b)))</td> <td>((c:31;::Target a &lt;b&gt; tag within WebVTT))</td></tr>
-  </tbody>
-</table>
-<br>---<br>
-  §§ If you ((c:72;::specify timestamp text (WebVTT only))), then ((c:73;::any text before a timestamp text whose time you are at or after)) is ((c:74;::previous text)), ((c:75;::the text from the current to the next timestamp tag)) is ((c:76;::active text)) and ((c:77;::text after the next timestamp tag)) is ((c:78;::future text)). §<br>
-§§ If we specify ((c:79;::&lt;track kind="chapters"&gt;)), cues ((c:80;::may not overlap time-wise)), and payloads ((c:81;::may not contain tags)) §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
+## react
 
 # other stuff
 
@@ -973,6 +903,8 @@ Shema.org is a set of schemas for structured data.
 
 ### relational data model
 
+#### relational data model itself
+
 https://upload.wikimedia.org/wikipedia/commons/7/7c/Relational_database_terms.svg
 
 in a relational data model, a tuple is an ordered set (lol) of attribute values
@@ -982,7 +914,6 @@ The number of attributes constituting a heading is called the degree, which term
 in a relational data model, a body is a set of n-tuples of the length of the degree of the heading.
 The heading of the relation is also the heading of each of its tuples.
 in a relational data model, an attribute is an ordered pair of attribute name and type.
-A table is an accepted visual representation of a relation.
 relation|table
 tuple making up the body|collection of rows
 n-tuple|row
@@ -996,6 +927,42 @@ Foreign keys can be used for one-to-one or one-to-many relationships
 
 SQL is a language used to manage relational databases.
 SQL, despite its name, consists of a data query language, data definition language, data control langauge, and data manipulation language.
+
+#### tabular data
+
+A table is an accepted visual representation of a relation.
+TODO revise in light of above info
+tsv|tab-separated values
+csv|comma-separated values
+
+<br>---<br>
+  §§ ((c:5;::A table)) (e.g. in ((c:5;::database or spreadsheet)) contexts) is ((c:6;::a collection/sequence/whatever of)) ((c:7;::records)). §<br>
+§§ ((c:8;::A record)) is ((c:9;::a collection/sequence/whatever of)) ((c:10;::fields)), which ((c:10;::each contain an item of data)). §<br>
+§§ A ((c:11;::record)) is ((c:12;::more or less kinda)) synonymous to ((c:13;::row)). §<br>
+§§ ((c:14;::Field)) is ((c:15;::sometimes used)) as a synonym for ((c:16;::column)), though following ((c:17;::the above differentiation)), this is of course ((c:17;::incorrect)). §<br>
+§§ ((c:18;::csv)) and ((c:19;::tsv)) both store ((c:20;::tables/tabular data)). §<br>
+§§ ((c:21;::csv/tsv)) separate ((c:22;::records)) via ((c:23;::newlines (generally CRLF))) §<br>
+§§ The ((c:24;::first line)) of ((c:25;::csv/tsv)) may be ((c:26;::a header)). §<br>
+§§ ((c:27;::the csv/tsv header)) should have ((c:28;::as many fields)) ((c:29;::as the other records in the documents)). §<br>
+===<br>
+
+<table>
+  <thead>
+    <tr><th>name</th>
+    <th>separates fields how</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::csv))</td> <td>((c:2;::with commas)), sometimes also ((c:30;::arbitrary different characters))</td></tr>
+<tr><td>((c:3;::tsv))</td> <td>((c:4;::with tags))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ Neither ((c:30;::csv)) nor ((c:30;::tsv)) are ((c:31;::fully standardized)), or rather ((c:32;::the specs aren't always followed)). §<br>
+§§ In ((c:33;::csv/tsv)), ((c:34;::wrapping a field in double quotes)) commonly allows ((c:35;::the field separator to be included in the field)). §<br>
+§§ If in csv/tsv ((c:36;::a field is wrapped in double quotes to allow the field separator to be included in the fields)), ((c:37;::double qoutes)) are then excaped by ((c:38;::double double quotes)). §<br>
+§§ ((c:39;::Trailing newlines)) at the ((c:40;::end of documents)) are ((c:41;::optional)) for ((c:42;::csv/tsv)), ((c:43;::field separators)) at ((c:44;::the end of the line)) will ((c:45;::create empty fields)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
 ### graph data models
 
@@ -1393,6 +1360,7 @@ directive :: #<directivename>[:<argument>]
 
 #### JSON
 
+JSON|JavaScript Object Notation
 JSON is a plaintext file format.
 JSON has the same syntax as JS object literals, with a few exceptions.
 In JSON but not JS object literals, keys must be quoted.
@@ -1448,6 +1416,83 @@ VJOURNAL   Journal entry
 VTIMEZONE   timezone definition
 VTODO   Task/Todo
 
+#### YAML
+
+YAML|YAML Ain't Markup Language
+
+
+#### subtitles
+
+WebVTT|Web Video Text Tracks Formats
+  §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
+§§ ((c:35;::WebVTT)) is ((c:36;::based on)) and ((c:36;::similar to)) ((c:37;::.srt)) §<br>
+§§ ((c:38;::.srt)) is ((c:39;::more common)) than ((c:38;::WebVTT)), but ((c:38;::WebVTT)) is ((c:40;::more new/featurefu))l. §<br>
+§§ ((c:41;::Youtube)) amongst others does not support ((c:42;::srt or WebVTT tag formatting)), and ((c:43;::pretty much nothing)) supports ((c:44;::most of WebVTT's most advanced features)). §<br>
+§§ ((c:45;::WebVTT and .srt)) mark up their payload with ((c:46;::HTML/XML-style tags)). §<br>
+§§ Things in ((c:47;::WebVTT/.srt)) are ((c:48;::generally separated)) by ((c:49;::a blank line (i.e. two newlines))) §<br>
+===<br>
+
+<br>---<br>
+  §§ WebVTT delimits ((c:51;::major sections)) with ((c:50;::allcaps words)): §<br>
+  <table>
+  <thead>
+    <tr><th>section name</th>
+    <th>section semantics/function</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::WEBVTT))</td> <td>((c:2;s:32;::Begin WebVTT document)) ((h:2;::(may be followed by ((c:32;::text header on the same line)))))</td></tr>
+<tr><td>((c:3;::STYLE))</td> <td>((c:4;::inline styling section))</td></tr>
+<tr><td>((c:5;::NOTE))</td> <td>((c:6;::comment))</td></tr>
+  </tbody>
+</table>
+===<br>
+
+
+<br>---<br>
+  §§ A ((c:52;::cue)) is ((c:53;::the main unit of information)) in ((c:54;::WebVTT/.srt.)) §<br>
+§§ ((c:55;::A cue)) ((c:56;::starts (.srt)/may start (WebVTT))) with ((c:57;::a header line)). §<br>
+§§ ((c:58;::The header line that starts a cue)) must be ((c:59;::a running number indicator)) in ((c:60;::.srt)), this is ((c:61;::optional)) in ((c:60;::WebVTT)) §<br>
+§§ ((c:62;::The line after the header line if it exists or the first line of a WebVTT/.srt)) ((c:63;::cue)) contains ((c:64;::the time to show the text)), consisting of ((c:65;::two timestamps (RFC 3339 (hh):mm:ss.ttt))) ((c:66;::separated by <code> -&gt; </code> (notice the spaces).))((c:67;::&nbsp;Every line of a cue after the line specifying the time)) specifies ((c:68;::text to be shown.)) Together, these are known as ((c:69;::the payload)). §<br>
+§§ Every line of a cue may optionally be ((c:70;::started by <code>- </code>)), this will ((c:71;::not be displayed)) §<br>
+===<br>
+
+
+<table>
+  <thead>
+    <tr><th colspan="2">WebVTT-specific properties</th></tr>
+    <tr><th>CSS property syntax</th>
+    <th>CSS function</th></tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:7;::vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg)))</td></tr>
+<tr><td>((c:8;::line:0-100%))</td> <td>((c:9;::display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no <code>vertical</code>)))</td></tr>
+<tr><td>((c:10;::position:0-100%))</td> <td>((c:11;::display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no <code>vertical</code>)))</td></tr>
+<tr><td>((c:12;::size:0-100%))</td> <td>((c:13;::set the width of the cue to %))</td></tr>
+<tr><td>((c:14;::&lt;c.foo&gt;content&lt;/c&gt;))</td> <td>((c:15;::specify a class foo to target))</td></tr>
+<tr><td>((c:16;::&lt;ruby&gt;...))</td> <td>((c:17;::add furigana etc.))</td></tr>
+<tr><td>((c:18;::&lt;v foo&gt;))</td> <td>((c:19;::indicate that foo is speaking))</td></tr>
+<tr><td>((c:20;::align:start/end...))</td> <td>((c:21;::align the captions along the x-axis (if not <code>vertical</code>), i.e. the same axis as the position property))</td></tr>
+<tr><td>((c:22;::&lt;font color="...))</td> <td>((c:23;::Set the text to a certain color))</td></tr>
+<tr><td>((c:24;::&lt;b&gt;, &lt;i&gt;, &lt;u&gt;))</td> <td>((c:25;::make the text bold, italic or underlined))</td></tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr><th colspan="2">WebVTT-specific selectors</th></tr>
+    <tr><th>CSS Selector</th>
+    <th>Selects</th></tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:26;::::cue(.foo)))</td> <td>((c:27;::Target a cue with class foo (&lt;c.foo&gt;)))</td></tr>
+<tr><td>((c:28;::::cue))</td> <td>((c:29;::Target any WebVTT cue (shown subtitle)))</td></tr>
+<tr><td>((c:30;::::cue(b)))</td> <td>((c:31;::Target a &lt;b&gt; tag within WebVTT))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ If you ((c:72;::specify timestamp text (WebVTT only))), then ((c:73;::any text before a timestamp text whose time you are at or after)) is ((c:74;::previous text)), ((c:75;::the text from the current to the next timestamp tag)) is ((c:76;::active text)) and ((c:77;::text after the next timestamp tag)) is ((c:78;::future text)). §<br>
+§§ If we specify ((c:79;::&lt;track kind="chapters"&gt;)), cues ((c:80;::may not overlap time-wise)), and payloads ((c:81;::may not contain tags)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
 
 ### complex
 
@@ -2268,7 +2313,7 @@ groups/users on nix are uniquely identified by their user or group ID.
 
 # VCS
 
-
+VCS|Version Control System
 
 # communication
 
@@ -2640,6 +2685,8 @@ Syntactic sugar is syntax that makes a programming language easier to use, but {
 YAGNI  You/ya ain't gonna need it
 In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
+DRY   Don't repeat yourself
+KISS   Keep it simple stupid
 
 # identifiers
 
