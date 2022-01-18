@@ -34,6 +34,22 @@ XOR|0|1|1
 XOR|1|0|1
 XOR|1|1|0
 
+## bitmask
+
+
+
+# number theory
+
+## properties
+
+In mathematics, the sign of a real number is its property of being either positive, negative, or zero.
+A signed number is a number which can have its sign specified.
+Therefore, in computing a number is signed if it can take on negative values, and unsigned otehrwise.
+
+## elementary arithmetic
+
+### by hand
+
 # numeral system 
 
 ## positional 
@@ -47,6 +63,21 @@ in programming, the base of the number is often indicated by a prefix
 0o|octal
 
 ### systems
+
+#### binary
+
+##### signed numbers
+
+In computing, at the binary level, negative numbers cannot be represented by prefixing a minus sign, therefore one needs a different way to indicated signedness.
+There are three common ways to indicated signedness: one's complement, two's complement, sign and maginitude representation.
+Today, two's complement is by far the most common way to indicate signedness of integers.
+The problem with using sign bits is that there is both +0 and -0.
+one's complement is the result of performing bitwise NOT on a number.
+the two's complement is the one's complement + 1
+Sign and maginitude representation is using a sign bit to represent signedness.
+A sign bit is an extra bit that says whether a number is positive or negative.
+Generally, the most siginificant bit is used as the sign bit.
+Generally, for negative numbers, the sign bit is set, for positive numbers it is nunset.
 
 #### hex
 

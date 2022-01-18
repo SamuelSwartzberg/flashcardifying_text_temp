@@ -2379,6 +2379,12 @@ In some countries websites, especially those of public sector bodies must confor
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
+#### WCAG success critera
+
+##### Non-text content
+
+the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
+
 #### WCAG techniques
 
 ##### Semantic HTML
@@ -2396,6 +2402,8 @@ There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::
 ARIA {{c1::states}} define some property {{c2::that can change}}
 ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
 ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
+
+
 
 ### system UI themes
 
@@ -2558,6 +2566,7 @@ ISO dates
 The chrominum javascript engine is v8, d8 is the developer shell for v8
 A bricked device is one that no longer can function at all (has become as useful as a brick)
 SKU|Stock Keeping Unit
+An instance is something that has been created on some sort of model.
 
 # data
 
@@ -2754,6 +2763,17 @@ Examples of pointing devices are mice, trackpads, trackballs, pointing sticks ak
 Pointing devices are governed by fitts law
 Fitts law says that the time required to rapidly move move to a target area, e.g. by a pointing device, is a function of the ratio between the distance to the target and teh widht of the target.
 
+### text input
+
+#### autocomplete
+
+<br>---<br>
+  §§ <dfn>((c:1;::Autocomplete/word completion))</dfn> is a feature where ((c:2;::an application predicts the rest of something the user is typing)).  §<br> 
+  §§ <dfn>((c:3;::Autocomplete/word completion))</dfn> on ((c:4;::smartphone keyboards)) is called <dfn>((c:5;::predictive text))</dfn>, ((s:gb;::this used to refer to ((c:6;::the prediction of typing on numeric keypads (e.g. T9))))) §<br>
+  §§ <dfn>((c:7;::Autocomplete/word completion))</dfn> ((c:8;::in a command-line interface)) is called <dfn>((c:9;::command-line))</dfn> or <dfn>((c:9;::tab)) ((c:9;::completion))</dfn>, ((s:gb;::which generally uses ((c:10;::the tab key (whence the name))).)) §<br>
+  §§ <dfn>((c:11;::Autocomplete/word completion))</dfn> in ((c:12;::code editors)) is also known as <dfn>((c:13;::code completion))</dfn>. Examples include ((s:gb;::((c:14;::VS &amp; VS Code))'s ((c:15;::IntelliSense)), and ((c:16;::AI (modfied GPT-3)))-powered ((c:17;::GitHub Copilot)).)) §<br>
+===<br>
+
 ## UI
 
 WIMP = Windows, icons, menus, pointer
@@ -2801,12 +2821,30 @@ The difference between primary and secondary memory is that the CPU can address 
 
 ### addressing
 
+Memory is generally addressed via memory addresses.
+Physical addressing is addressing memory by using addresses corresponding to actual memory addreesses
 Logical Address = Virtual Address
-Virtual memory is addresed vy virtual addresses.
+Virtual/logical memory is addresed by virtual/logical addresses.
+Virtual memory & addresses are used by the OS for primary memory, but also may be used in other circumstances.
+Nearly all current implementations of virtual memory for primary memory divide virtual memory into pages.
+Pages of virtual memory typically have a fixed size or a few preditermined fixed lenths.
 For primary memory, virtual addresses are mapped to physical addresses in the page table.
 The MMU (Memory management unit) is a hardware device typically used to handle the page table/mapping of log to phys addr.
-Virtual memory will appear to an application to be continuous, though the physical memory it occupies may be discontinous.
+Each process has its own section in virtual memory.
+Virtual memory will appear to an application using it to be continuous, though the physical memory it occupies may be discontinous.
 Today, modern OSs only expose virtual memory to user-level programs.
+Virtual memory benefits security, as it means programs can't access each other's memory.
+
+#### memory management
+
+swap/page storage are virtual memory that is secondary memory used as an extension of primary memory
+swap/page storage may be a file(s) or a partition(s).
+managing virtual memory pages within primary memory|paging
+moving virtual memory from secondary to primary memory or v.v. (using pages)|swapping or paging
+moving virtual memory from secondary to primary memory or v.v. (without using pages)|swapping
+primary -> secondary memory|paged/swapped out
+secondary -> primary memory|paged/swapped in
+
 
 ### rom
 
@@ -3653,6 +3691,22 @@ The standard sections of the manual include:
 #### subscriptions
 
 podboat   podcast management for newsboat
+newsboat|good rss reader
+newsboat is the maintained fork of newsbeuter
+newsboat stores the things its subscribed to in an urls file.
+newsboat-subscription-file ::= {newsboat-subscription-line}
+newsboat-subscription-line ::= <url>{ <newsboat-tag>}
+newsboat-tag ::= <newsboat-tag-no-spaces>|<newsboat-tag-spaces>
+newsboat-tag-no-spaces ::= <operator-prefix><string>
+newsboat-tag-spaces ::= "<operator-prefix><string>"
+operator-prefix ::= ~|!
+
+~|make this the name of the feed
+!|hide the feed
+
+
+-x string, --execute=string   execute a command
+commands e.g. reload
 
 #### mail
 
@@ -3814,6 +3868,8 @@ ffmpeg media player   <code>ffplay</code>
 
 
 mpv
+
+mpv plays files, urls, and playlists.
 
 Play a playlist<filename>   --playlist=&lt;filename&gt;
 don't open a new video window<filename></filename>   --no-video
@@ -4294,19 +4350,56 @@ HTTP, SMTP, POP, SSH, telnet...
 
 ###### URI
 
+IRI   Internationalized Resource Identifier
+URI   Uniform Resource Identifier
 URN|Uniform Resource Name
 URLs generally locate things on the internet, generally on the application layer.
 URIs used to be subdivided into URLs and URNs.
-Mainly historically, URLs were FOOBAR, and URNs were unique identifiers of a resource.
-Today, URNs are merely another FOOBAR, urn:
+Mainly historically, URLs were for locating things, and URNs were unique identifiers of a resource.
+Today, URNs are merely another scheme of URIs, urn:
+URL and URI are often used synoynously even in expert circles, even RFCs disagree.
+URI can only use an ASCII-subsset.
+Within URIs ASCII subset, there is a distinction between reserved and unreserved characters.
+URI unreserved characters: {{c5::alphanumerical}}, {{c4::-}}, {{c3::_}}, {{c1::.}}, {{c2::~}} (the rest are reserved)
+IRIs are a superset of URIs that also allow for non-ASCII characters.
 
 In URLs, Reserved characters and characters outside of the URL character set need to be URL/percent-encoded
+
+uri ::= <scheme>:[//<authority>/]<path>[?<query>][#<fragment>]
+host ::= <ipv4-address>|<ipv6-address>|<FQDN>
+authority ::= [<userinfo>@]<host>[:<port>]
+userinfo ::= <username>[:<password>]
+query ::= <key>=<value>{<query-delimiter><key>=<value>}
+query-delimiter ::= &|;
+
+The password part of the userinfo component of an URI is deprecated (password inplaintext)
+For HTML, the fragment of an URI is often an ID
+
+URI schemes are generally the same as the application-level protocols they refer to, though there are schemes that do not correspond to protocols.
+file is a scheme that is not a protocol, it allows accessing local files.
+Most browsers have a scheme to navigate their own internal admin pages.
+apt|installing apt packages
+browsername|scheme for whatever browser-internal pages
+tel|phone numbers
+mailto|email messages
+
+mailto-url ::= mailto:[&lt;email-address&gt;{,&lt;email-address&gt;}][?&lt;email-key&gt;=&lt;value-percent-encoded&gt;{&amp;&lt;email-key&gt;=&lt;value-percent-encoded&gt;}]
+email-key ::= subject | cc | body | ...
+
+###### URN 
+
+the path of URN URIs can theoretically be anything, however it typically has the following syntax
+urn-path ::= <urn-namespace>:{<urn-subnamespace>:}<unique-id> 
+urn-namespace ::= ISBN|ISSN|UUID|...
+e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
 ###### origins
 
 Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
 
 ###### domains
+
+top-level domain   TLD
 
 TLD
 foo.bar.net  .net
@@ -4332,6 +4425,10 @@ A web site is a collection of web pages, generally one that share a domain name/
 
 #### protocols
 
+##### HTTP
+
+HTTP|HyperText Transfer Protocol
+
 ##### telnet/ssh
 
 SSH = secure shell
@@ -4353,6 +4450,10 @@ For scp, when using user@hostname, add the file with :filename to the end\
 ssh-keygen manages keys for SSH.
 
 ##### DNS
+
+DNS|Domain Name System
+
+###### dig
 
 dig is a CLI utility to look up DNS records.
 dig-command ::= dig {<option>}[ <DNS-server>][ <resource-name>][ <record-type>]{ <query-option>}

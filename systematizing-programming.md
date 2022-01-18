@@ -2752,7 +2752,11 @@ Boilerplate code is repetitive code that is reused often, often also implying th
 
 ## software architecture
 
-### coupling & cohesion
+Software architecture refers to the fundamental structures of software/development and creating those structures.
+
+### properties
+
+#### coupling & cohesion
 
 https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
 cohesion is the degree to which the elements inside a module belong together.
@@ -2762,6 +2766,18 @@ high coupling generally implies loose cohesion and v.v.
 
 A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
 The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
+
+### paradigms
+
+#### Agile
+
+#### Scrum
+
+### testing
+
+### documentation
+
+Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 
 ## Misc/no place yet
 
@@ -2790,6 +2806,11 @@ In JS, the ?. is called the optional chaining operator.
 In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
 The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
+
+### IDEs
+
+Integrated development environment   IDE
+An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
 
 ## Things programming languages do especially well
 
@@ -3232,10 +3253,6 @@ even?|Is the thing even|Integer
 next|get the next element|Integer, String
 class|get the class this is an object of|any object
 methods|get the methods the object has|any object
-
-
-
-Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 
 An aspect is a cross-cutting concern.
 A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
