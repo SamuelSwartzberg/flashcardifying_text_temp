@@ -3017,6 +3017,10 @@ whatever/lib generally conains libraries for whatever/bin
 /etc contains confi files for all the programs that run on your Linux/Unix system
 /etc/hosts
 /etc/motd|contains the message of the day
+/etc/machine-info contains machine metadata such as type of computer, deployment, location and pretty-printed hostname
+/etc/hostname contains the usesrs static hostname.
+hostnamectl administers the stuff in /etc/hostname and /etc/machine-info, i.e. all the hostnames and the machine metadata.
+hostname - show or set the system's host name
 
 ###### /dev
 
@@ -3036,12 +3040,19 @@ anything written to /dev/null discards the data, whence its nicknames bit-bucket
 ####### block device files
 
 The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
-Originally, the /dev/sd<char>[<number>] was only used for block devices using SCSI.
-Because ATA/SATA/PATA devices suppoort a subset of the commands of SCSI, linux decided to also handle them by the kernel's SCSI driver subsystem, therefore their device files also use the  /dev/sd<char>[<number>] naming scheme.
-For the devices handled by the kernel's SCSI subsystem and thus named  /dev/sd<char>[<number>], the character is assigned depending on which device is descovered first, starting from a. The number indicates the number of the partition.
+Originally, the /dev/sd<char> was only used for block devices using SCSI.
+Because ATA/SATA/PATA devices suppoort a subset of the commands of SCSI, linux decided to also handle them by the kernel's SCSI driver subsystem, therefore their device files also use the  /dev/sd<char> naming scheme. 
+/dev/nvme<n>n<n> represents devices attached via NVMe
+for /dev/nvme<n>n<n>, the first <n> represents the index of the controller, the second <n> represents the device on the controller.
+/dev/vd<char> represents devices attached to a virtio block device interface, which is an interface for virtual devices.
+/dev/mmcblk<n> represents devices handled by the kernels mmc driver, such as SD cards.
 /dev/fd/<n> are device files representing the file descriptors of the current process, however /dev/fd<n> (notice the difference!) indicates the nth floppy disk connected.
 /dev/hd<n> are device files representing entire, raw hard disks (not commonly used today)
 /dev/input contains device files for
+
+<char> and <n> as indices are genrally assigned based on which was discovered first
+to represent a partition, add <index> to the relevant device file if the name ends in a character, and p<index> if it ends in a number.
+e.g. /dev/sda1 or /dev/loop0p2
 
 ####### character device files
 
@@ -3508,6 +3519,8 @@ UEFI has largely replaced BIOS as of 2020.
 UEFI is controlled by a large set of industry stakeholders known as teh UEFI forum.
 CSM (UEFI context)  Compatibility Support Mode
 CSM is the mode of UEFI that makes it similar to BIOS by loading MBR or something from the first-stage boot loader.
+
+to manipulate the UEFI boot manager from linux, use the command efibootmgr
 
 ##### SMBIOS
 
@@ -4561,6 +4574,11 @@ top-level domain   TLD
 TLD
 foo.bar.net  .net
 
+Linux has three hostnames, static, transient, and pretty.
+The pretty hostname can be pretty much anything
+The static hostname is used for programmatic purposes, the transient hostname is used as a fallback.
+While the pretty hostname can be pretty much anything, static and transient hostname are limited to 64 characters.
+
 ###### hotlinks, deeplinks
 
 hotlinking = inline linking
@@ -4609,6 +4627,16 @@ scp is cp (same syntax etc.) but remotely using SSH.
 For scp, when using user@hostname, add the file with :filename to the end\
 
 ssh-keygen manages keys for SSH.
+
+##### NIS/YP
+
+YP = Yellow Pages
+NIS = Network Information Service
+NIS and YP are the same thing, just that YP was trademarked in GB and hence NIS.
+NIS/YP is a protocol for sharing configuration files between computers.
+domainname shows or sets the NIS/YP (!) domain nime
+aliases for domainname: nisdomainname, ypdomainname
+dnsdomainname shows the systems DNS domain name (the part of the FQDN)
 
 ##### DNS
 
