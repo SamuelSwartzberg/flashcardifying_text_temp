@@ -2774,13 +2774,19 @@ Fitts law says that the time required to rapidly move move to a target area, e.g
   §§ <dfn>((c:11;::Autocomplete/word completion))</dfn> in ((c:12;::code editors)) is also known as <dfn>((c:13;::code completion))</dfn>. Examples include ((s:gb;::((c:14;::VS &amp; VS Code))'s ((c:15;::IntelliSense)), and ((c:16;::AI (modfied GPT-3)))-powered ((c:17;::GitHub Copilot)).)) §<br>
 ===<br>
 
-## UI
+## shells
+
+A shell is a wrapper around the OS that humans or similar interact with.
+Types of shells: graphical, command-based
+Shell is often but kinda incorrectly used as a synonym to command-based shell
+
+### GUI
 
 WIMP = Windows, icons, menus, pointer
 
-### elements
+#### elements
 
-#### breadcrumbs
+##### breadcrumbs
 
 <img src="sm_2021-06-26--14-46-16-screenshot.png">
 A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
@@ -2788,7 +2794,7 @@ A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
 In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
-#### disclosure widgets
+##### disclosure widgets
 
 A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
 With a disclosure widget, the content contained within is shown if the heading is interacted with.
@@ -2800,7 +2806,7 @@ Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
 <img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
 
-#### status bar
+##### status bar
 
 <div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
 <br>---<br>
@@ -2863,6 +2869,7 @@ DRAM  dynamic random-access memory
 RAM random-access memory
 SRAM is faster than DRAM and is therefore used for the chace and internal registers.
 RAM is sometimes used as a catch-all for any primary memory.
+Principle of locality AKA locality of reference
 principle of locality = (Principle of) Temporal Locality &amp; Spatial Locality
 principle of locality relates to memory access, specifically it predicts what memory will be accessed next.
 principle of spatial locality = Memory that is close (to the currently accessed memory cell) will tend to be accessed again
@@ -2871,22 +2878,49 @@ Memory closer to the processor is faster but more expensive and smaller, memory 
 memory speed:
 registers > cpu cache > main memory > secondary memory
 
+### flash memory
+
+Solid state memory/storage in theory is any storage without any moving part.
+Flash memory is the most common type of solid state memory.
+
 ### secondary memory
 
 secondary meory is generally non-volatile memory
 
 #### drives
 
+HDD  Hard disk drive
+SSD  Solid state drive/device/disk
+
 ##### HDD
 
+HDDs store bits of data data via magnetic north/south.
+Physically, a HDD stores the data on rotating platters.
+A HDD usually includes a few platters.
+HDDs are thick even though individual platters are thin because HDDs generally contain multiple platters.
+HDD platters are discs usually made up of a aluminum/glass plate coated with a magnetic coating.
+in a HDD, the head performs read-writing.
+in a HDD, the head is mere nanometers from the platter.
+((h:1;::<img src="sm_250px-Samsung_Harddrive_headcrash_DSCN0124b.jpg">))
+A head crash is the head of a HDD making contact with its rotating platter, slashing the surface and causing disk damage/failure.
+Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
 a HDD is made up of clusters which are made up of sectors.
 A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
 <img src="sm_hdd_w_labels.svg">
+<img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
+as of 2020, HDDs usually spin at 5400 or 7200 RPM.
+as of 2020, HDDs are typically a few TB in size.
 
 ##### SSD
 
-an SSD chip is made up of blocks which are made up of pages
-To write new data on an SSD, first you need to erase the old data.
+A flash memory device typically consists of multiple flash chips and a controller.
+a flash chip is made up of blocks which are made up of pages
+To write new data on a flash memory device, first you need to erase the old data.
+Flash memory can either be NAND or NOR based.
+NAND flash can typically erase only whole blocks, but write pages too
+After a certain number of write cycles, flash memory begins to decay.
+Flash memory is typically faster than magnetic memory.
+SSDs are a type of flash memory device.
 
 <div class="onion-box"><span>((c:;::SSD chip))</span><div class="onion-box"><span>((c:;::block))</span><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div><div class="onion-box"><span>((c:;::block))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div>
 
@@ -2962,7 +2996,8 @@ source code should be in src for reference only
 
 ###### /usr
 
-Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr
+Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr.
+Data within /usr should be read-only
 
 ###### bins
 
@@ -2980,7 +3015,8 @@ whatever/lib generally conains libraries for whatever/bin
 ###### /etc
 
 /etc contains confi files for all the programs that run on your Linux/Unix system
-hosts
+/etc/hosts
+/etc/motd|contains the message of the day
 
 ###### /dev
 
@@ -3267,6 +3303,7 @@ Using maildir, once a mail in new has been read, it si sorted into cur.
 
 ### circuits
 
+A logic circuit consists of interconnected logic gates.
 A combinatorial logic circuit is one whose output only depends on its input.
 A sequential logic circut is one whose output depends on its input, and the previous state.
 
@@ -3289,6 +3326,23 @@ There are many different kinds of registers:
 register|contains
 General Purpose Registers|mostly whatever you like
 Register: Stack Pointer|stack pointer
+address register|memory addresses
+data register|binary data
+accumulator|intermediary results of a calculation
+status/flag register|status flags for the outcome of operations
+
+status register = flag register
+
+The flag/status register might hold flags such as 
+zero flag|ALU calculation was zero
+overflow flag|ALU calculation resulted in result larger than word size
+sign flag|ALU calculation resulted in negative number
+
+Program counter (PC) is also called Instruction Pinter (IP)
+The Instruction Pointer/Program counter is a register that contains the memory address of the next instruction.
+The instruction Register contains the current machine language instruction (opcode + operands)
+
+Instead of a single accumulator, modern processors generally have many registers that can be used as accumulators.
 
 ##### ALU
 
@@ -3311,22 +3365,60 @@ Chaining full adders allow us to do arbitrary large binary addition.
 
 CU  Control Unit
 
-#### instruction set
+#### machine code & instruction set
 
+Assembly language is syntactic sugar for machine code.
+Machine code consists of machine language instructions.
+Machine code and thus machine language instructions are what run directly on the CPU, at least in the classical model.
+In fact, by now, there is often a layer below machine code known as microcode.
+opcode is short for operation code
+Within a machine language, an instruction is defined by an opcode.
+Within a machine language, an instruction consists of the opcode it is defined by, plus zero or more operands.
 An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
-The instruction set is the set of operations a processor supports, which bit sequences represent which instructions, and how the arguments are organized.
+The instruction set is the set of operations a processor supports, which bit sequences represent which  machine language instructions, and how the arguments are organized.
 Depending on the instruction set, machine langauge instructions may all be the same length or not.
-In a general sense, a word is how many bits a  PU may address at once.
-The length of a word is the word size
-In a very general sense, what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the {{c1::the word size}}
+In a general sense, a word is the fundamental unit used by a processor of a given ISA ≈ how many bits a PU may address at once.
+The length of a word is the word size.
+In general, most registers are word-sized, as are memory cells.
+The largest possible memory address is also word-sized (since otherwise, how would you address them) .
+what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the size of memory addresses and thus the {{c1::the word size}}
 
 A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
 For a load-store architecture, all things being operated on must be in registers.
+
+##### Instruction-level parallelism
+
+Instruction-level parallelism is the parallel execution of instructions of a single thread (thus it is different from concurrency).
+In general, the goal of instruction-level parallelism is to keep all of the CPU busy
+fors of instruction-level parallelism include Instruction pipelining, Out-of-order execution + register renaming, speculative execution + branch prediction.
+Instruction pipelining attempts to keep every part of the processor busy with some instruction by dividing incoming instructions into a series of sequential steps (the eponymous "pipeline") performed by different processor units with different parts of instructions processed in parallel.
+Out-of-order execution executes instructions as resources are available, rather than the order in the program, if this is possible.
+register renaming is a technique that abstracts logical registers from physical registers.
+Register renaming allows us to eliminate false data dependencies coming from write after read dependencies, enabling more out-of-order execution.
+If compilers did not reuse registers, register renaming would not be necessary, however this is often difficult in practice.
+speculative execution is executing instructions before we know if they will be needed
+speculative execution is worthwhile if the cost of waiting until we know if the instructions will be needed to be executed is higher than the cost of speculatively executing.
+speculative execution is most commonly referred to in the case of instuction pipelining, but may also be performed in many higher-level tasks.
+speculative execution (in CPUs) is most often performed in the case of control flow, where branch prediction is often used to try and guess which branch is most likely.
+
+
+##### Hazards
+
+In CPUs, a hazard is when the next instruction cannot execute in the following cycle, or doing so would lead to an error.
+Data dependence is when an instruction depends on the data of the preceeding statement.
+Data hazards ocur when instructions exhibit data dependence modify data in different stages of a pipeline, potentially leading to race conditions.
+Three type of data hazards:
+read after write, write after read, write after write.
+read after write is a true dependency: it cannot be resolved.
+write after write is an output dependency: it can be resolved by just anulling the first write.
+write after read is an anti-dependency, it can be solved by register renaming.
 
 ##### RISC CISC
 
 RISC  Reduced instruction set computer
 CISC  Complex instruction set computer
+
+The design goals of RISC and CISC are different: while CISC tries to use as few lines of assembly as possible and thus uses more complex, featureful instructions that take multiple clock cycles, RISC uses simple instructions that only take a single clock cycle to be quick.
 
 ###### CISC
 
@@ -3334,6 +3426,8 @@ x86 is a family of instruction set architectures
 x86 are the most common type of CISC architectures.
 x86 architectures with 64-bit word size are called x86_64
 x86_64 may also be called AMD64 or Intel 64
+the architecture is called x86 b/c the first processor with it was the Intel 8086.
+CISC is the dominant architecture on desktop/laptops as of 2020, though it is slowly changing
 
 ###### RISC
 
@@ -3349,6 +3443,9 @@ In general, a RISC ISA has 1 CPI, with fixed-length instructions.
 
 CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
 The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
+L1 cache is the fastest cache level, and it goes downwards from there
+Multi-level caches are caches that are composed of different cache levels.
+The organization of multi-level caches into faster/slower cache levels is known as the cache hierarchy.
 processor finds memory location in cache   cache hit
 processor does not find memory location in cache   cache miss
 When a cache miss occurs, the processor generally needs to wait while the data is being fetched
@@ -3385,6 +3482,7 @@ The Superfish vulnerability was enabled by the Windows Platform Binary Table.
 
 ### booting
 
+Booting comes from bootstrap load, which itself comes from the idea of pulling yourself up by your bootstraps.
 Booting is initializing the computer.
 The difficulty of booting is how do you get the computer into a state where it can execute stuff without being able to execute stuff.
 has ended when the OS has reached a certain state.
@@ -3397,6 +3495,7 @@ UEFI  Unified Extensible Firmware Interface
 BIOS  Basic Input/Output System
 The BIOS/UEFI comes preinstalled.
 The BIOS stores its setting in nonvolatile BIOS Memory (also inaccurately called CMOS).
+One of the more important thing stored in nonvolatile bios memory is boot device priority.
 UEFI stores its settings in NVRAM.
 Once the BIOS/UEFI is loaded, it typically performs a POST
 POST = power-on self-test
@@ -3424,6 +3523,7 @@ CLI command for interacting with SMBIOS (formerly with the DMI): dmidecode
 MBR  Master boot record
 The boot sector is typically one sector large
 If boot sectors are still used, what sits in them is the first-stage boot loader.
+Boot sectors were/are usually in the beginning of the drive
 The MBR is 512 byte large, which used to be the size of the boot sector into which the MBR needed to fit.
 The main purpose of the first-stage boot loader is to load the second-stage bootloader.
 MBR consists both of a first-stage bootloader and a partitioning table.
@@ -3435,9 +3535,16 @@ When using GRUB, the boot menu that allows you to choose the os is loaded in the
 
 #### the kernel
 
+Primary memory is often divided into kernel space and user space, mainly for security.
+Kernel stuff runs in kernel space while user prcesses runs in userspace.
 Monolithic kernels do more stuff in kernel space than micokernels.
 Instead of doing stuff in kernel space, mircokernels provide servers that do things in userspace.
 The daemon responsible for paging (swapper/sched) is the process with PID 0.
+A system call is a request to the kernel of an OS.
+system call -> syscall. 
+
+Drivers run in kernal space.
+Drivers expose a well-defined interface of the hardware to the OS, but otherwise act as a black box.
 
 #### the init process
 
@@ -3557,7 +3664,6 @@ list-unit-files|list unit files
 
 ## files
 
-Dotfiles are files that start with a dot, these are generally hidden by default.
 linux: "Everything is a file"
 Plan 9: "Really everything is a file"
 
@@ -3565,6 +3671,12 @@ Plan 9: "Really everything is a file"
 
 In unix, there are 7 types of files.
 Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
+
+#### named pipe
+
+named pipe = FIFO
+mkfifo creates a new named pipe
+named pipes are deleted via rm
 
 #### links
 
@@ -3597,8 +3709,6 @@ two of the seven types of files are device files.
 Block device files grant random access.
 Character device files grant sequential access.
 
-A file descriptor is a reference to a file or file-like things
-
 ### permissions
 
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
@@ -3620,6 +3730,9 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 
 When config files are split up into multiple files, .d directory names are often used.
 .d directory names are often used to give them a different names from normal files doing something  similar.
+dotfiles are files starting with a dot.
+Dotfiles are generally hidden by default.
+Dotfiles are often used for config or metadata.
 
 ## command-line 
 
@@ -3734,6 +3847,8 @@ L|Lap
 
 pwd|print path of current directory
 ls|list file in directory
+tree|print a directory tree
+tree -L <n>|go to depth n
 
 -s|display files and directories with their sizes
 -S|sorting by size in output
@@ -3756,8 +3871,12 @@ agrep|grep with fuzzy matches
 There are also many alternative variants of grep using more modern regexes, and also significantly faster:
 speed: rg > ag > ack
 
+greps exit status if it finds a match is 0, if it does not find a match, it is 1.
+grep -c count the produced lines.
+
 ##### file info
 
+stat|info about file
 od|output files in octal, but also in other repreesentations
 od -x|hex dump
 cat|output a file
@@ -3844,6 +3963,8 @@ Default mac japanese voice is  Kyoko
 
 #### processing
 
+pdftk and qpdf are the most common CLI tools for pdf transformation
+
 ##### ffmpeg
 
 ffmpeg is mainly a video/audio converter
@@ -3865,9 +3986,11 @@ input-output-options
 
 lynx|text-based browser
 ffmpeg media player   <code>ffplay</code>
+feh|terminal-launched image viewer
+imgat|in-terminal image viewer
 
 
-mpv
+mpv|terminal based video player
 
 mpv plays files, urls, and playlists.
 
@@ -3911,6 +4034,14 @@ lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} # leave out first arg
 
 
 ### sysadmin
+
+uptime -  Print the current time, the length of time the system has been up, the number of users on the
+       system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
+
+#### users
+
+whoami|show current username
+login|login as user
 
 #### arch
 
@@ -3993,11 +4124,14 @@ tee redirects a stream to stdout and to all listed files
 ## processes
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
-ps|list of processes
-pstree|processes as a tree
+On unix, a process is the instance that has its own heap.
+On unix, every process has a parent.
+PPID|Parent Process ID
 
 ### process management
 
+ps|list of processes
+pstree|processes as a tree
 kill kills a process, given its PID
 killall kills a n processes, given a string that their name contains
 
@@ -4040,6 +4174,8 @@ jobs|show processes running in the background
 
 clear|clears the terminal window
 
+Alternative terminal window (mac)|iTerm2
+
 #### shell history
 
 history|list of past commands
@@ -4056,6 +4192,11 @@ GID|group id
 UID|user id
 groups/users on nix are uniquely identified by their user or group ID.
 
+## projects
+
+freedesktop.org was formerly called X Desktop Group (XDG)
+freedesktop.org governs projects such as the X Window System, wayland or systemd
+
 # VCS
 
 VCS|Version Control System
@@ -4071,9 +4212,25 @@ Parallel communication sends multiple bits simultaneously over multiple subchann
 One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
 Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
 
+### allow & deny
+
+an allowlist implies forbidding everything by default
+an allowlist enumerates a set of things that may pass
+a denylist implies allowing everything by default
+an denylist enumerates a set of things that may not pass
+allowlists were/are known as whitelists
+denylists were/are known as blacklists
+
 ### topologies
 
 A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
+In a bus, everyone attached recieves the transmission.
+In a bus, only one entity can send at a time
+A daisy chain is a topology where devices are linked in a line or ring.
+
+### master/slave
+
+master/slave is (problematically) a protocol where one thingy controls or serves as an exampleto a bunch of other thingys
 
 
 ## hardware protocols
@@ -4425,6 +4582,10 @@ A web site is a collection of web pages, generally one that share a domain name/
 
 #### protocols
 
+##### WHOIS
+
+whois is the command to query WHOIS.
+
 ##### HTTP
 
 HTTP|HyperText Transfer Protocol
@@ -4452,6 +4613,11 @@ ssh-keygen manages keys for SSH.
 ##### DNS
 
 DNS|Domain Name System
+DNS superceded the hosts file for the most part.
+Today, the hosts file is used in some network bootstrapping, but mainly as a resource for internet resource blocking/redirection
+To use the hosts file to block something, set its IP address to 0.0.0.0
+hosts-file ::= {<hosts-line><linebreak>}
+hosts-line ::= <ip-address> <hostname>{ <hostname>}
 
 ###### dig
 
@@ -4507,6 +4673,29 @@ Images used {{c3::on the web}} are typically {{c2::specifically compressed}} bef
 
 {{c1::Photoscape X}} is notable for being a {{c2::GUI}} program that has {{c3::batch editing of photos}}
 
+## media viewers
+
+### video 
+
+Common shortcuts
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::,))</td><td>((c:2;::one frame back))</td></tr>
+    <tr><td>((c:3;::.))</td><td>((c:4;::one frame forwards))</td></tr>
+    <tr><td>((c:5;:: <kbd>f</kbd> ))</td><td>((c:6;::go fullscreen))</td></tr>
+    <tr><td>((c:7;::esc))</td><td>((c:8;::Exit fullscreen))</td></tr>
+    <tr><td>((c:9;::space))</td><td>((c:10;::pause))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 # principles
 
 GIGO   Garbage In, Garbage Out
@@ -4519,6 +4708,12 @@ In computer programming, {{c1::code smell}} is a characteristic in code that ind
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 DRY   Don't repeat yourself
 KISS   Keep it simple stupid
+
+## mech pol
+
+the mechanism   what can be done
+the policy   what should be done
+separation of mechanism and policy.
 
 # identifiers
 
@@ -4606,3 +4801,9 @@ The Amazon Mechanical Turk is sometimes used for study subjects.
 # todo
 
 add quick note about Web Audio APi
+
+# culture
+
+## forum
+
+OP|Original Poster

@@ -342,6 +342,12 @@ A transparent identifier provides information about the thing it identifies.
 
 Aliasing is referring to the same location in memory by multiple different identifiers.
 
+UUIDs/GUIDs are formats for unique identifiers that make it very likely for them to be unique.
+UUID|Universally Unique Identifier
+GUID|Globally Unique Identifier
+UUID=GUID
+UUIDs/GUIDs are 128 bit long, which makes it very likely for them to be unique.
+
 ### Name binding
 
 Name binding is the association of entities with identifiers.
@@ -2339,7 +2345,9 @@ Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
-## multithreading
+## concurrency
+
+### multithreading
 
 Threads can be divided into kernel and green/virtual/user threads.
 green thread = virtual thread = user thread.
@@ -2349,12 +2357,12 @@ N:1 Threading   all threads of the program map onto one kernel thread
 M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
 1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
 
-### thread pools
+#### thread pools
 
 A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
 A thread pool typically processes a queue of tasks waiting for processing.
 
-### workers
+#### workers
 
 Web Workers are threadlike things in JS.
 Web Workers come in two flavors, dedicated workers and shared workers.
@@ -2368,7 +2376,7 @@ For Web Workers, messages always send a copy of the data.
 To handle events in Web Workers, use the error event.
 To stop a Web Worker, call the terminate() method on it.
 
-### thread-safety
+#### thread-safety
 
 Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
 
@@ -2517,11 +2525,20 @@ fancy|js|reveal.js
 simple|md|remarkjs
 simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
-## Programming languages I don't know
+## programming language categorization & history
+
+A high-level programming language is a programming language with strong abstraction from the details of the computer.
+A low-level programming language is a programming language with little to no abstraction from the details of the computer.
+
+### Programming languages I don't know
 
 COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
 C was created in 1972.
 *nix OSs are famously written in C.
+
+### Things programming languages do especially well
+
+performance|rust
 
 ## toolchains
 
@@ -2688,12 +2705,21 @@ An interpreter translates the code into another language (most commonly machine 
 
 #### Compiling/Interpreting
 
-1. lexical analiysis = tokenization = lexing
+1. lexical analiysis/tokenization/lexing
 2. sytax analysis = parsing
 3. semantic analysis
 
 #### lexical analysis
 
+lexical analiysis = tokenization = lexing
+Terminology around tokenization/lexical analysis is not always consistent.
+Lexical analysis is converting a sequence of characteres into a sequence of lexical tokens.
+Lexical tokens have some kind of meaning, relative to the language.
+Lexical token is often shortened to just token
+Tokens are lexical units/items in linguistic terms.
+Tokens have a certain value (a string), and a certain type.
+Token types that are common across programming languages are identifier, keywords, operator, literal ...
+The analogue of token type in linguistics might be word class/syntactic category/part of speech
 Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
 In the context of compiling/interpreting, identifier/name is a synonym for symbol.
 
@@ -2778,6 +2804,7 @@ The single-responsibility priinciple states that (the implementation of) a thing
 ### documentation
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
+In self-documenting code, identifiers indicate what the thing they are identifying does.
 
 ## Misc/no place yet
 
@@ -2811,10 +2838,6 @@ The optional chaining operator can be used instead of dot notation, and before [
 
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
-
-## Things programming languages do especially well
-
-performance|rust
 
 ## Shell & Bash ideosyncraacies
 
@@ -2983,9 +3006,11 @@ Word splitting means splitting the things mentioned above into words using $IFS
 
 ##### File name expansion
 
+filename expansion expands strings containing wildcards to pathnames.
 filename expansion is perfomed using an utility/syntax known as glob.
 The process of filename expansion is also known as globbing.
-globbing recognizes wildcards, which expand to something else but their literal value.
+globbing recognizes wildcards.
+a wildcard is a character(s) that expand to something else but their literal value.
 a word containing a wildcard is known as a pattern
 
 In the file name expansion stage, bash scans each word for a pattern and replaces it with an alphabetically sorted list of filenames matching the pattern.

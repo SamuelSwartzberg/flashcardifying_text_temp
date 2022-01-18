@@ -2950,18 +2950,9 @@ In latex, to {{c3::make chapters etc. always open on a right page}}&nbsp; includ
 
 #### graphemes & graphs
 
-##### digraphs 
-
-A digraph is using two graphs to write a single phoneme.
-Examples of digraphs are sh for /ʃ/ in english.
-Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
-
-##### ligatures
-
-ɶ|oE
-œ|oe
-
 ##### types of graphs
+
+###### logo, phono, and subtypes
 
 logogram/graph <-> phonogram/graph
 logogram|character represents morpheme/word|Kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs 
@@ -2984,6 +2975,35 @@ writing system|consist of characters called|examples
 syllabary|syllabogram|hiragana, katakana
 alphabet|letters|latin alphabet, greek alphabet
 
+###### typographical symbols
+
+~|tilde
+
+####### punctuation
+
+Punctuation is a subset of typographical symbols as well as spacing to indicate something (such as syntax,  pragmatics etc.).
+Most logographic systemss as well as japanese do not use whitespace for punctuation.
+In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
+
+####### whitespace
+
+whitespace is any character or series of characters that represent horizontal or vertical space.
+Multiple spaces used as 'tabs'   Soft tabs
+ASCII tab character   hard tabs
+
+##### two or more graphs
+
+###### digraphs 
+
+A digraph is using two graphs to write a single phoneme.
+Examples of digraphs are sh for /ʃ/ in english.
+Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
+
+###### ligatures
+
+ɶ|oE
+œ|oe
+
 #### writing systems
 
 A writing system is a system to represent language visually.
@@ -2996,15 +3016,6 @@ A phonemic orthography is the special case of an alphabet specifically having no
 ortographically deep|English
 ortographically shallow|spanish, japanese
 
-##### whitespace
-
-whitespace is any character or series of characters that represent horizontal or vertical space.
-Multiple spaces used as 'tabs'   Soft tabs
-ASCII tab character   hard tabs
-
-#### punctuation
-
-In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
 
 #### encoding
 
@@ -3526,6 +3537,8 @@ terminal (in this case with the name something)   "something" or 'something'
 non-terminal (in this case with the name something)   &lt;something&gt;
 concatenation   ␣
 
+##### EBNF
+
 EBNF = Extended Backus-Naur-Form
 EBNF is an extension (with some changes) to BNF, but there is no one EBNF, but a bunch of dialects.
 
@@ -3541,6 +3554,56 @@ bar|alternation
 barbar|'at least one of'
 
 In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as &lt;something&gt;, or both are explicitly indicated
+
+##### ABNF
+
+ABNF is standartized in an RFC, and often used for IETF documents.
+in ABNF, rules MAY be surrounded by <>.
+in ABNF, rules and terminals are are case-insensitve
+abnf-terminal ::= "{<characters>}"|<abnf-terminal-range>|<abnf-terminal-numeric>
+abnf-terminal-range ::= <abnf-base-specifier><abnf-character-digits>-<abnf-character-digits>
+abnf-terminal-numeric ::= <abnf-base-specifier><abnf-character-digits>{.<abnf-character-digits>}
+abnf-character-digits ::= <digit>{<digit>}
+abnf-base-specifier ::= %<base-char>
+base-char ::= b|d|x
+
+abnf-rule ::= <definition>[;<comment>]<CRLF>
+
+<n>*<m><rule>|repetitions from n to m
+<n><rule>|repetitions of n times
+()|group
+/|alternation
+
+=/|add alternatives to previous rule
+whitespace|concatenation
+; foo| a comment foo
+[]|optional
+
+for ABNF repetition, leaving out <n> or <m> implies 0 or infinity as per usual
+
+predefined rules
+LWSP = 	*(WSP / CRLF WSP)
+WSP = SP / HTAB	
+
+#### RFC 2119
+
+RFC 2119 = BCP 14
+RFC 2119 / BCP 14 defines a set of terms to indicate requirement levels.
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. indicates that RFC 2119 is being followed.
+when using RFC 2119, the words such as must are often allcaps.
+
+MUST = REQUIRED = SHALL
+MUST/REQUIRED/SHALL = absolute requirement of the specification
+MUST NOT = SHALL NOT
+MUST NOT/SHALL NOT = absolute prohibition of the specification
+SHOULD = RECOMMENDED
+SHOULD/RECOMMENDED = may exist valid reasons to ignore the thing, but full implications should be considered and carefully weighed beforehand
+SHOULD NOT = NOT RECOMMENDED
+SHOULD NOT/NOT RECOMMENDED = may exist valid reasons where behavior is acceptable or even useful, but full implications should be considered and carefully weighed beforehand
+MAY = OPTIONAL
+MAY/OPTIONAL = truly optional. however, An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides.)
+
 
 ## cross-cutting concerns
 
