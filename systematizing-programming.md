@@ -2182,6 +2182,7 @@ console.error()|JS
 @warn|SCSS/Sass
 
 the sh printing commands all don't read from STDIN
+besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
 
 ### visual
 
@@ -2557,6 +2558,9 @@ A package manager typically can manage packages from many different developers.
 A package is a file in a package format.
 A package unsually is made up of an archive (format) of some kind and some metadata.
 Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed
+Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
+
+#### package manager commands
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies/installed packages|bundler|npm
@@ -2627,6 +2631,8 @@ There are more JS build tools than you can shake a stick at. The most common is 
 pip is the package manager for python.
 The official package hub for pip is PyPI.
 apt is the package manager for Ubuntu.
+In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
+
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
 homebrew (command: brew) and macports (command: port) are package managers for macos.
@@ -2839,240 +2845,6 @@ The optional chaining operator can be used instead of dot notation, and before [
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
 
-## Shell & Bash ideosyncraacies
-
-// all taken from bash manual, but generally should hold true for other shells
-
-### The directory stack
-
-in nix, there is a stack of directories called the directory stack.
-in nix, you can push/pop from the directory stack with the commands pushd/popd.
-pushd not only pushes the specified directory to the stack, but also cds there.
-The dirs command shows the contents of the directory stack.
-dirs, pushd and popd all take a positional argument +/-<n>, which do something with the nth directory counting from zero and from the start/end respecitvely
-dirs +/-<n>|display the nth directory counting from the start/end
-pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
-popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
-
-### Prepopulated shell variables
-
-PWD|current directory
-OLDPWD|directory before last pwd
-DIRSTACK|everything on the directory stack
-PAGER|set the pager
-HOME|user home directory
-
-EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
-PATH is for where to find executables.
-PATH contains, well, paths, separated by colons.
-For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
-
-
-### Pattern matching
-
-*|any string
-?|any single character
-
-### Shell lifecycle
-
-0. The shell may get its input from a file, a string, or the terminal.
-1. the shell tokenizes the input
-2. the shell parses the input into commands
-3. The shell performs expansions
-4. the shell performs redirections
-5. the commands are executed
-6. the shell waits for the commands to complete and collects its exit status
-
-#### tokenization
-
-to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’. (this has nothing to do with IFS)
-
-#### parsing (quoting)
-
-since bash allows strings without quotes, double quotes actually perform a function somewhat similar to raw strings/escaping, except that the constructions starting with the metacharacters $, `, and ! still work.
-In bash, $'...' treats the contents as raw strings, but allows for C-style escape seuqences.
-In bash, $"..." translates the string according to the current locale settings
-
-#### Expansion
-
-Expansion is replacing a thing with another thing or things.
-
-Expansions are performed in the order: brace > tilde > parameter > command substitution > arithmetic > process substitution > word splitting > filename expansion > quote removal 
-
-Only brace expansion, word splitting, and filename expansion can increase the number of words of the expansion; other expansions expand a single word to a single word. The only exceptions to this are the expansions of "$@" and $* (see Special Parameters), and "${name[@]}" and ${name[*]} (see Arrays).
-
-##### Brace expansion
-
-Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
-Brace expansion is a mechanism for generating strings.
-Brace expansion syntax: [&lt;preamble&gt;]\{(&lt;comma-separated-strings&gt;|&lt;sequence-expression&gt;\}[&lt;postscript&gt;]
-comma-separated-strings: &lt;string&gt;{,&lt;string&gt;} 
-sequence-expression: &lt;start&gt;..&lt;stop&gt;[..&lt;step&gt;]
-Bash calls its range syntax a <dfn>sequence expression</dfn>.
-a{d,c,b}e results in ade ace abe
-For brace expansion, bash generates all string alternatives, separated by spaces.
-Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
-
-##### Tilde expansion
-
-tilde expansion is performed if a word begins with a tilde.
-tilde expansion takes an argument that is specified between the tilde and the next /
-With tilde expansion, if no argument is given, the tilde will merely evaluate to $HOME
-~foo|the home directory of the user with the name foo
-~+/foo|$PWD/foo
-~-/foo|$OLDPWD/foo
-~<n> as well as ~+<n>|what would be displayed by dirs +<n> (ie the nth directory on the directory stack)
-~-<n>|what would be displayed by dirs -<n> (ie the nth directory on the directory stack counting from the back)
-
-The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
-
-##### Shell parameter expansion
-
-While parameter expansion is disabled within '', it works in "", but also in unquoted strings.
-In shell parameter expansion, the thing being expanded may be enclosed in curly braces, which is optional in some circumstances, and mandatory in others.
-Assinging to a variable does not require the $ character, but referring to a variable is a form of parameter expansion and therefore does.
-Bash supports a bunch of fancy parameter expansion features, which all require there to be {} surrounding them.
-
-Within parametere expansion, prefixing a parameter with ! indicates indirection.
-Indirection in parameter expansion means that if your parameter expands to another parameter name, it will then recursively expand this (to one level of depth)
-
-Within parameter expansion, * and @ are nearly equivalent.
-Within parameter expansion, to refer to an entire array, use arrayname[@/*]
-Within parameter expansion, to refer to the special parameters $* or $@, use just * or @.
-
-Bash allows specifying defaults for parameters within parameter expansion.
-Bash's two operators for specifying defaults within parameter expasion are :-, :+ and :=.
-Bash default for parameter syntax: parameter(:-|:+|:=)default
-:- and := within parameter expansion evaluate to the parameter if not unset or null, or to the alternative otherwise.
-The difference between :- and := is that :- will leave parameter unchanged, while := will substitute the value of parameter with the default.
-:+ is the exact inverse of :-, it will only evaluate to the default if it is not null or unset.
-
-Bash's slicing feature is performed within parameter expansion:
-Bash slice syntax: ${parameter:start:length}
-
-Many parameter expansions allow a pattern which is evaluated according to the usual pattern matching rules.
-
-Bash's replacing within string is performed within parameter expansion:
-general pattern (replace first instance) ${parameter/find/replace}
-//pattern/replace|replace all instance
-/#pattern/replace|replace if at beginning of string
-/%pattern/replace|replace if at end of string
-
-parameter#pattern get the shortest substring that matches pattern at the beginning
-parameter##pattern get the longest substring that matches pattern at the beginning
-parameter%pattern get the shortest substring that matches pattern at the end
-parameter%%pattern get the longest substring that matches pattern at the end
-parameter^pattern test each single character against the pattern, and uppercase the first one that matches
-parameter^^pattern test each single character against the pattern, and uppercase all that match
-parameter,pattern test each single character against the pattern, and lowercase the first one that matches
-parameter,,pattern test each single character against the pattern, and lowercase all that match
-
-parameter@operator do different things with the string depending on the operator
-parameter@U|uppercase the string
-parameter@u|uppercase the first character
-parameter@L|lowercase all characters
-parameter@Q|quote the parameter
-
-Getting the length of something is done within parameter expansion: #parameter
-
-##### Command substitution
-
-Command substitution takes a command and replaces it (and the syntax) with its output.
-Command substitution is performed in the modern syntax with $(command).
-Command substitution is performed in the older, deprected syntax with `command`.
-Command substitution may be nested.
-
-##### Arithmetic expansion
-
-Arithmetic expansion evaluates arithmetic and replaces it (and the syntax) with the result.
-Arithmetic expansion is performed by $(())
-
-##### Process substitution
-
-Process substitution allws referring to the in or output of another process as a file.
-To implement process substitution, bash creates a pipe with two file descriptors.
-Process substitution runs asynchronously.
-<(command) provides the output of command as a file for further use.
-\>(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
-command1 >(command2) is equivalent to command1 | command2 if command1 supoorts outputting to sdout
-e.g. a command doesn't output to stdout, but just a file
-<() is used more commonly than >() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
-
-##### Word splitting
-
-Word Splitting	  	How the results of expansion are split into separate arguments.
-the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
-Word splitting means splitting the things mentioned above into words using $IFS
-
-##### File name expansion
-
-filename expansion expands strings containing wildcards to pathnames.
-filename expansion is perfomed using an utility/syntax known as glob.
-The process of filename expansion is also known as globbing.
-globbing recognizes wildcards.
-a wildcard is a character(s) that expand to something else but their literal value.
-a word containing a wildcard is known as a pattern
-
-In the file name expansion stage, bash scans each word for a pattern and replaces it with an alphabetically sorted list of filenames matching the pattern.
-In the file name expansion stage, bash retains patterns that didn't match anything as-is by default.
-nullglob makes patterns disappear if they don't match anything
-failglob makes patterns fail if they don't match anything.
-When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
-To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
-
-wildcard|matches
-*|matches 0-n arbitrary characters, excluding directory separators
-**|0 - infinity characters, including directory separators
-?|matches 1 arbitrary character
-@(foo|bar|baz)|one of the options foo, bar, baz
-?(foo|bar|baz)|zero or one of the options foo, bar, baz
-+(foo|bar|baz)|one <b>or more</b> of the options foo, bar, baz
-!(foo|bar|baz)|none of the options foo, bar, baz
-*(foo|bar|baz)|zero or more of the options foo, bar, baz
-[^&lt;characters&gt;]   one character that is none of &lt;characters&gt;
-[!&lt;characters&gt;]   one character that is none of &lt;characters&gt;
-[aml]   one of the characters a, m, l
-[a-m]   one character in range of characters a-m
-
-##### Quote removal
-
-After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
-
-##### Redirection
-
-Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
-
-redirecting input [<n>]<[&]<word>
-redirecting output [<n>]>[\||>][&]<word>
-
-1> may be abbreviated > 
-0< may be abbreviated <
-
-### concepts
-
-#### Parameters
-
-In bash, a parameter is an entity that stores a value.
-In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
-In bash, there is a special set of parameters that is auto-set.
-In bash, a variable is a type of parameter, specifically one denoted by a name.
-In bash, a parameter may be indicated by a name (names are the usual type of [a-zA-Z0-9_]), by a number, or by a special character.
-In bash assignment statements, only some forms of expansion are performed, specificaly tilde, parameter, command and arithmetic (ergo not brace and filename)
-Bash assignmet statements may appear as arguments to the declaration commands
-In the context where an assignment statement is assigning a value to a shell variable or array index (see Arrays), the ‘+=’ operator can be used to append to or add to the variable’s previous value.
-+= in bash may add, append to array or append to string depending on the context.
-
-Besides the positional parameters, shell has a set of special parameters which are auto-populated, but to which cannot be assigned.
-*/@|expands to all positional parameters. They are the same when unquoted, when quoted $* expands to a single word separated by IFS, and $@ expands to separate words "$1" "$2"...
-#|amount of positional parameters
-?|exit status of most recent command/pipeline (foreground)
-$|PID of shell, except in (), where it still has the PID of the shell and not the subshell
-!|PID of job in background
-0|name of shell or shell script
-
-#### declaration commands
-
-declaration commands = {alias, declare, typeset, export, readonly, local}
 
 
 
@@ -3160,6 +2932,10 @@ hexadecimal
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 ## text encoding
+
+Text encodings (simplified): Morse -(early 1900s)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+
+### Morse
 
 ### ASCII
 

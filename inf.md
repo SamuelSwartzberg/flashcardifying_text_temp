@@ -917,6 +917,8 @@ setItem(name,"")
 
 Web Speech API: text to speech/speech to text
 
+## web workers
+
 # CSS
 
 CSS = Cascading Style Sheet
@@ -2551,11 +2553,6 @@ Placeholder images using boring boxes   via.placeholder.com
 via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
 placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
 
-
-# web technologies
-
-## web workers
-
 # web frameworks
 
 ## react
@@ -2821,9 +2818,25 @@ In html, you can force a disclosure widget to start in its open state by specify
 
 ## memory
 
+### medium
+
+#### holes
+
+In punch card/punched tapes, the two states of binary data represent the presence or absence of holes.
+punched tape is like punched cards, but continuous
+
+#### flash memory
+
+Solid state memory/storage in theory is any storage without any moving part.
+Flash memory is the most common type of solid state memory.
+
+### mutability & volatility
+
+ROM  Read only memory
+ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
+ROM was used to store games on game cartidges, for example.
 Memory that retains information after power is removed   Non-volatile memory
 Memory that requires power to retain stored information   Volatile memory
-The difference between primary and secondary memory is that the CPU can address primary memory directly.
 
 ### addressing
 
@@ -2852,13 +2865,12 @@ primary -> secondary memory|paged/swapped out
 secondary -> primary memory|paged/swapped in
 
 
-### rom
 
-ROM  Read only memory
-ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
-ROM was used to store games on game cartidges, for example.
+### relation to CPU
 
-### primary memory/storage
+The difference between primary and secondary memory is that the CPU can address primary memory directly.
+
+#### primary memory/storage
 
 The terms primary storage/memory, internal storage/memory, and main storage/memory are often used interchangeably.
 As I will use the term, primary memory consists of CPU Registers and Cache as well as main memory.
@@ -2878,21 +2890,16 @@ Memory closer to the processor is faster but more expensive and smaller, memory 
 memory speed:
 registers > cpu cache > main memory > secondary memory
 
-### flash memory
-
-Solid state memory/storage in theory is any storage without any moving part.
-Flash memory is the most common type of solid state memory.
-
-### secondary memory
+#### secondary memory
 
 secondary meory is generally non-volatile memory
 
-#### drives
+##### drives
 
 HDD  Hard disk drive
 SSD  Solid state drive/device/disk
 
-##### HDD
+###### HDD
 
 HDDs store bits of data data via magnetic north/south.
 Physically, a HDD stores the data on rotating platters.
@@ -2911,7 +2918,7 @@ A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
 
-##### SSD
+###### SSD
 
 A flash memory device typically consists of multiple flash chips and a controller.
 a flash chip is made up of blocks which are made up of pages
@@ -2924,7 +2931,9 @@ SSDs are a type of flash memory device.
 
 <div class="onion-box"><span>((c:;::SSD chip))</span><div class="onion-box"><span>((c:;::block))</span><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div><div class="onion-box"><span>((c:;::block))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div>
 
-#### partitons
+## secondary memory organization
+
+### partitons
 
 A secondary memory device is divided into n partitions.
 How partitions are layed out on a secondary memory device is described by the partition table.
@@ -2934,14 +2943,14 @@ Today, partition tables are generally GPT, since MBR was limited to addressing 2
 GPT  GUID Partition Table
 GUID in GUID Partition Table  globally unique identifier
 
-#### file system
+### file system
 
 The file system is the method/system/whatever that controls/specifies how {{c1::data is organized within a partition}}
 A flat file system is a file system with no {{c1::subdirectories}}
 Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
 Even non-case-sensitive file systems are almost always case-preserving.
 
-#### directory structure
+### directory structure
 
 {{c1::the directory structure}} is the way data is organized in a file system using directories.
 In *nix-likes, the root directory is the directory all other directories descend from.
@@ -2951,7 +2960,7 @@ Windows drive letters have the syntax <letter>:
 An absolute path begins at the root directory.
 A relative path begins at the current working directory.
 
-##### home dir
+#### home dir
 
 Generally one home directory per user.
 On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
@@ -2959,7 +2968,7 @@ FHS: Home directories live in /home/
 $XDG_CONFIG_HOME/autostart contains .desktop files to run on system start
 $XDG_DATA_HOME/fonts contains fonts for a specific user
 
-##### XDG Base Directory Specification
+#### XDG Base Directory Specification
 
 XDG Base DIrectory Specification is the spec governing the organization of files in your home directory   
 
@@ -2971,35 +2980,35 @@ $XDG_DATA_HOME|$HOME/.local/share|/usr(local/)share
 $XDG_CONFIG_HOME|$HOME/.config|/etc
 $XDG_CACHE_HOME|$HOME/.cache|/var/cache
 
-##### FHS
+#### FHS
 
 FHS  Filesystem Hierarchy Standard
 FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
 source code should be in src for reference only
 
-###### /sys
+##### /sys
 
 /sys provides a window to the kernel
 
-###### /proc
+##### /proc
 
 /proc contains information for each process and a lot of runtime system info.
 
-###### /var
+##### /var
 
 /var/mail/   MBOXes for each user
 /var/spool/   data awaiting processing
 
-###### /opt
+##### /opt
 
 /opt   software packages (complete and kind of foreign)
 
-###### /usr
+##### /usr
 
 Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr.
 Data within /usr should be read-only
 
-###### bins
+##### bins
 
 whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
@@ -3007,12 +3016,12 @@ today, /bin often just is a symlink to /usr/bin (and analogously for lib)
 whatever/lib generally conains libraries for whatever/bin
 /sbin is for binaries needing superuser priviledges/for system administration
 
-###### /tmp
+##### /tmp
 
 /tmp is for temporary files.
 /tmp is sometimes emptied on process exit or on boot.
 
-###### /etc
+##### /etc
 
 /etc contains confi files for all the programs that run on your Linux/Unix system
 /etc/hosts
@@ -3022,13 +3031,13 @@ whatever/lib generally conains libraries for whatever/bin
 hostnamectl administers the stuff in /etc/hostname and /etc/machine-info, i.e. all the hostnames and the machine metadata.
 hostname - show or set the system's host name
 
-###### /dev
+##### /dev
 
 /dev contains device files.
 It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
 device files are files that are interfaces to device drivers (or more rarely other things).
 
-####### not real devices
+##### not real devices
 
 /dev/random and /dev/urandom are CSPRNGs of nix* systems
 the difference between /dev/random and /dev/urandom is that the former blocks to wait for more entropy if necessary, the latter does not.
@@ -3037,7 +3046,7 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 /dev/zero returns as many 0x00 as you like.
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
 
-####### block device files
+##### block device files
 
 The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
 Originally, the /dev/sd<char> was only used for block devices using SCSI.
@@ -3054,11 +3063,11 @@ for /dev/nvme<n>n<n>, the first <n> represents the index of the controller, the 
 to represent a partition, add <index> to the relevant device file if the name ends in a character, and p<index> if it ends in a number.
 e.g. /dev/sda1 or /dev/loop0p2
 
-####### character device files
+##### character device files
 
 /dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
 
-##### Mac
+#### Mac
 
 ((h:all;::<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">))((c:2;::macOs))'s ((c:1;::/private)) folder contains ((c:3;::a few directories that would have been found in / on FHS-compliant devices)), namely ((s:1-3;::((c:4;::etc)), ((c:5;::tmp)), and ((c:6;::var))))
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
@@ -3119,24 +3128,6 @@ entry ::= [<resource-entry>|<directive>]<CRLF>
 resource-entry ::= (<path>|<URL>)[ #<string>]
 directive :: #<directivename>[:<argument>]
 
-#### JSON
-
-JSON|JavaScript Object Notation
-JSON is a plaintext file format.
-JSON has the same syntax as JS object literals, with a few exceptions.
-In JSON but not JS object literals, keys must be quoted.
-In JSON but not JS object literals, functions are forbidden.
-In JSON, the top-level item can either be an object or an array.
-
-##### Schema
-
-JSON schemas are schemas for json, usually written in JSON, though they can be written in different things.
-top-level keys
-title|title for the schema
-description|description for the schema
-$schema|URL of the version of JSON Schema this document adheres to 
-$id|base url for the document, similar to <base> in HTML
-
 #### ICAL/VCARD
 
 ical|text/calendar|calendar information|RFC 5545|.ics
@@ -3186,10 +3177,59 @@ VJOURNAL   Journal entry
 VTIMEZONE   timezone definition
 VTODO   Task/Todo
 
-#### YAML
+#### dictionary-based
+
+##### YAML
 
 YAML|YAML Ain't Markup Language
 
+##### JSON
+
+JSON|JavaScript Object Notation
+JSON is a plaintext file format.
+JSON has the same syntax as JS object literals, with a few exceptions.
+In JSON but not JS object literals, keys must be quoted.
+In JSON but not JS object literals, functions are forbidden.
+In JSON, the top-level item can either be an object or an array.
+
+##### Schema
+
+JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
+top-level keys
+title|title for the schema
+description|description for the schema
+$schema|URL of the version of JSON Schema this document adheres to 
+$id|base url for the document, similar to <base> in HTML
+
+##### jq yq
+
+jq|process JSON
+yq|process YAML & convert to/from JSON
+yq -y/-Y roundtrip back to YAML
+<code>yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}</code>
+<code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
+
+
+##### tex
+
+<br>---<br>
+  §§ ((c:3;::Tex)) consists of ((c:1;::tex-core)) and ((c:2;::plain-tex)) §<br>
+§§ ((c:4;::plain-tex)) is ((c:5;::the set of macros that the tex typsetting program uses)); ((c:6;::tex-core)) is ((c:7;::the typesetting program (that transforms it into output))) §<br>
+§§ ((c:8;::Tex)) and thus ((c:8;::latex)) is meant for ((c:9;::typesetting)) §<br>
+§§ ((c:13;::TeX)) and thus ((c:13;::LaTeX)) mainly work via ((c:14;::macros)) §<br>
+§§ ((c:15;::Mathjax)) renders ((c:16;::a subset of latex)) ((c:17;::in browsers (using js))) §<br>
+§§ ((c:18;::current)) latex version: ((c:19;::Latex 2e)) §<br>
+§§ ((c:20;::next)) latex version: ((c:21;::Latex 3)) §<br>
+§§ <q>latex</q> is properly capitalized ((c:22;::LaTeX)) §<br>
+§§ <q>tex</q> is properly capitalized ((c:23;::TeX)) §<br>
+§§ the x in ((c:24;::tex and latex)) is pronounced as ((c:25;::a voiceless velar fricative (e.g. loch, bach))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
+§§ ((c:10;::latex)) is ((c:11;::a set of tex macros)) that is supposed to be ((c:12;::more semantic)). §<br>
+texinfo is a set of macros for tex for generating hypertextual documentation
+
+info|read texinfo files
 
 #### subtitles
 
@@ -3307,6 +3347,10 @@ The maildir format has three subdirectories (at least) for any directory.
 The three mandatory directories for any subdirectory in maildir are cur, new, and tmp.
 Using maildir, an arriving message will be sorted into tmp until it is processed completely, then it is inserted into new.
 Using maildir, once a mail in new has been read, it si sorted into cur.
+
+## VCS
+
+VCS|Version Control System
 
 # hardware/low-level
 
@@ -3957,14 +4001,6 @@ cut|extract specific sections of each line based on delimiters
 The commands head and tail print the first/last few lines of a file.
 The amount of lines printed by head/tail defaults to 10
 
-#### format-specific filters
-
-jq|process JSON
-yq|process YAML & convert to/from JSON
-yq -y/-Y roundtrip back to YAML
-<code>yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}</code>
-<code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
-
 #### generation
 
 
@@ -4050,11 +4086,6 @@ lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} # leave out first arg
 
 uptime -  Print the current time, the length of time the system has been up, the number of users on the
        system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
-
-#### users
-
-whoami|show current username
-login|login as user
 
 #### arch
 
@@ -4170,10 +4201,6 @@ The names of daemons generally end with d.
 
 ### terminal system
 
-physical teriminal: <img src="sm_screen1.png">
-terminal emulator: <img src="sm_screen2.png"/>
-<img src="sm_screen3.png" />
-
 #### fg bg
 
 <pre><code>^Z</code></pre> (as keyboard input)   Stop (not kill) the current program
@@ -4183,17 +4210,300 @@ bg  resume stopped task in background
 {{c1::&amp;}} at the {{c2::end of an command}} {{c3::puts it in the backround}} (but it {{c3::still continues running}})
 jobs|show processes running in the background
 
-#### terminal window
+#### terminal
+
+A physical terminal is connected via cables to an UART driver.
+drivers for screen, keyboard etc. are connected to a terminal emulator (not a window).
+The UART driver or terminal emulator are connected to the line discipline.
+The line discipline may be disabled, in which case the characters are sent directly to the process, the so called cooked/canonical mode.
+the line discipline is connected to the tty driver.
+The tty driver is passive, while it has fields and methods, they need to be called from outside, e.g. via signals.
+
+To the terminal, the shell is just one more process running within it.
+
+Each physical terminal would have been its own separate thing, and so each terminal emulator is also its completely separate thing.
+terminal emulators are represented by /dev/tty<n> files
+terminal emulators are the things that are most often called ttys.
+Terminal emulators may also be called virtual terminals/consoles, mainly in contrast to physical terminals.
+virtual terminal = virtual console.
+vt/vc is short for virtual terminal/console.
+proper terminal emulators don't run within a GUI, but take over the whole screen (are the shell themselves, don't run within a shell)
+/dev/tty<n> files are provided by the kernel.
+/dev/tty0 represents the current controlling tty.
+When in a GUI, /dev/tty0 may be the terminal emulator the window server is running in.
+On linux, pressing ctrl + alt + f<number> switches to tty<number>
+Linux typically starts with 6 virtual consoles, and then one additional one (tty7) to run the window manager in.
+A terminal window is one level of emulation deeper than a terminal emulator, since it lives in a GUI which in linux at least itself lives within a terminal emulator.
+
+In the past, many hardware/physical terminals might have been connected to one computer.
+In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
+Today, the system console is merely the device file /dev/console.
+
+##### signals
+
+signals allow the kernel to communicate asynchronously with a process.
+In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
+
+##### terminal window
+
+A terminal emulated within a GUI is known as a terminal window
+Alternative terminal window (mac)|iTerm2
+
+##### shell commands for terminal management
+
+There are a number of shell commands that nevertheless still are concerned with terminals, and not with shells
+fgconsole   get the number of the current tty
+fgconsole --next-avaliable   get next unallocated vt
+deallocvt   remove unused virtual terminals
+chvt N   change to ttyN
+
+#### shell
+
+the shell is typically the foreground process, buty may be the background process e.g. if we're using a TUI 
+The shell is a special kind of program.
+The shell is the interpreter that executes the commands.
+
 
 clear|clears the terminal window
 
-Alternative terminal window (mac)|iTerm2
-
-#### shell history
+##### shell history
 
 history|list of past commands
 <pre><code>!index</code></pre>   Repeat the past command with index index
 indexes for ! for repeating start at 1 for the first command and go from there
+
+
+
+##### The directory stack
+
+in nix, there is a stack of directories called the directory stack.
+in nix, you can push/pop from the directory stack with the commands pushd/popd.
+pushd not only pushes the specified directory to the stack, but also cds there.
+The dirs command shows the contents of the directory stack.
+dirs, pushd and popd all take a positional argument +/-<n>, which do something with the nth directory counting from zero and from the start/end respecitvely
+dirs +/-<n>|display the nth directory counting from the start/end
+pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
+popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
+
+##### Prepopulated shell variables
+
+PWD|current directory
+OLDPWD|directory before last pwd
+DIRSTACK|everything on the directory stack
+PAGER|set the pager
+HOME|user home directory
+
+EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
+PATH is for where to find executables.
+PATH contains, well, paths, separated by colons.
+For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
+
+
+##### Pattern matching
+
+*|any string
+?|any single character
+
+##### Shell lifecycle
+
+0. The shell may get its input from a file, a string, or the terminal.
+1. the shell tokenizes the input
+2. the shell parses the input into commands
+3. The shell performs expansions
+4. the shell performs redirections
+5. the commands are executed
+6. the shell waits for the commands to complete and collects its exit status
+
+###### tokenization
+
+to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’. (this has nothing to do with IFS)
+
+###### parsing (quoting)
+
+since bash allows strings without quotes, double quotes actually perform a function somewhat similar to raw strings/escaping, except that the constructions starting with the metacharacters $, `, and ! still work.
+In bash, $'...' treats the contents as raw strings, but allows for C-style escape seuqences.
+In bash, $"..." translates the string according to the current locale settings
+
+###### Expansion
+
+Expansion is replacing a thing with another thing or things.
+
+Expansions are performed in the order: brace > tilde > parameter > command substitution > arithmetic > process substitution > word splitting > filename expansion > quote removal 
+
+Only brace expansion, word splitting, and filename expansion can increase the number of words of the expansion; other expansions expand a single word to a single word. The only exceptions to this are the expansions of "$@" and $* (see Special Parameters), and "${name[@]}" and ${name[*]} (see Arrays).
+
+####### Brace expansion
+
+Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
+Brace expansion is a mechanism for generating strings.
+Brace expansion syntax: [&lt;preamble&gt;]\{(&lt;comma-separated-strings&gt;|&lt;sequence-expression&gt;\}[&lt;postscript&gt;]
+comma-separated-strings: &lt;string&gt;{,&lt;string&gt;} 
+sequence-expression: &lt;start&gt;..&lt;stop&gt;[..&lt;step&gt;]
+Bash calls its range syntax a <dfn>sequence expression</dfn>.
+a{d,c,b}e results in ade ace abe
+For brace expansion, bash generates all string alternatives, separated by spaces.
+Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
+
+####### Tilde expansion
+
+tilde expansion is performed if a word begins with a tilde.
+tilde expansion takes an argument that is specified between the tilde and the next /
+With tilde expansion, if no argument is given, the tilde will merely evaluate to $HOME
+~foo|the home directory of the user with the name foo
+~+/foo|$PWD/foo
+~-/foo|$OLDPWD/foo
+~<n> as well as ~+<n>|what would be displayed by dirs +<n> (ie the nth directory on the directory stack)
+~-<n>|what would be displayed by dirs -<n> (ie the nth directory on the directory stack counting from the back)
+
+The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
+
+####### Shell parameter expansion
+
+While parameter expansion is disabled within '', it works in "", but also in unquoted strings.
+In shell parameter expansion, the thing being expanded may be enclosed in curly braces, which is optional in some circumstances, and mandatory in others.
+Assinging to a variable does not require the $ character, but referring to a variable is a form of parameter expansion and therefore does.
+Bash supports a bunch of fancy parameter expansion features, which all require there to be {} surrounding them.
+
+Within parametere expansion, prefixing a parameter with ! indicates indirection.
+Indirection in parameter expansion means that if your parameter expands to another parameter name, it will then recursively expand this (to one level of depth)
+
+Within parameter expansion, * and @ are nearly equivalent.
+Within parameter expansion, to refer to an entire array, use arrayname[@/*]
+Within parameter expansion, to refer to the special parameters $* or $@, use just * or @.
+
+Bash allows specifying defaults for parameters within parameter expansion.
+Bash's two operators for specifying defaults within parameter expasion are :-, :+ and :=.
+Bash default for parameter syntax: parameter(:-|:+|:=)default
+:- and := within parameter expansion evaluate to the parameter if not unset or null, or to the alternative otherwise.
+The difference between :- and := is that :- will leave parameter unchanged, while := will substitute the value of parameter with the default.
+:+ is the exact inverse of :-, it will only evaluate to the default if it is not null or unset.
+
+Bash's slicing feature is performed within parameter expansion:
+Bash slice syntax: ${parameter:start:length}
+
+Many parameter expansions allow a pattern which is evaluated according to the usual pattern matching rules.
+
+Bash's replacing within string is performed within parameter expansion:
+general pattern (replace first instance) ${parameter/find/replace}
+//pattern/replace|replace all instance
+/#pattern/replace|replace if at beginning of string
+/%pattern/replace|replace if at end of string
+
+parameter#pattern get the shortest substring that matches pattern at the beginning
+parameter##pattern get the longest substring that matches pattern at the beginning
+parameter%pattern get the shortest substring that matches pattern at the end
+parameter%%pattern get the longest substring that matches pattern at the end
+parameter^pattern test each single character against the pattern, and uppercase the first one that matches
+parameter^^pattern test each single character against the pattern, and uppercase all that match
+parameter,pattern test each single character against the pattern, and lowercase the first one that matches
+parameter,,pattern test each single character against the pattern, and lowercase all that match
+
+parameter@operator do different things with the string depending on the operator
+parameter@U|uppercase the string
+parameter@u|uppercase the first character
+parameter@L|lowercase all characters
+parameter@Q|quote the parameter
+
+Getting the length of something is done within parameter expansion: #parameter
+
+####### Command substitution
+
+Command substitution takes a command and replaces it (and the syntax) with its output.
+Command substitution is performed in the modern syntax with $(command).
+Command substitution is performed in the older, deprected syntax with `command`.
+Command substitution may be nested.
+
+####### Arithmetic expansion
+
+Arithmetic expansion evaluates arithmetic and replaces it (and the syntax) with the result.
+Arithmetic expansion is performed by $(())
+
+####### Process substitution
+
+Process substitution allws referring to the in or output of another process as a file.
+To implement process substitution, bash creates a pipe with two file descriptors.
+Process substitution runs asynchronously.
+<(command) provides the output of command as a file for further use.
+\>(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
+command1 >(command2) is equivalent to command1 | command2 if command1 supoorts outputting to sdout
+e.g. a command doesn't output to stdout, but just a file
+<() is used more commonly than >() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
+
+####### Word splitting
+
+Word Splitting	  	How the results of expansion are split into separate arguments.
+the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
+Word splitting means splitting the things mentioned above into words using $IFS
+
+####### File name expansion
+
+filename expansion expands strings containing wildcards to pathnames.
+filename expansion is perfomed using an utility/syntax known as glob.
+The process of filename expansion is also known as globbing.
+globbing recognizes wildcards.
+a wildcard is a character(s) that expand to something else but their literal value.
+a word containing a wildcard is known as a pattern
+
+In the file name expansion stage, bash scans each word for a pattern and replaces it with an alphabetically sorted list of filenames matching the pattern.
+In the file name expansion stage, bash retains patterns that didn't match anything as-is by default.
+nullglob makes patterns disappear if they don't match anything
+failglob makes patterns fail if they don't match anything.
+When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
+To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
+
+wildcard|matches
+*|matches 0-n arbitrary characters, excluding directory separators
+**|0 - infinity characters, including directory separators
+?|matches 1 arbitrary character
+@(foo|bar|baz)|one of the options foo, bar, baz
+?(foo|bar|baz)|zero or one of the options foo, bar, baz
++(foo|bar|baz)|one <b>or more</b> of the options foo, bar, baz
+!(foo|bar|baz)|none of the options foo, bar, baz
+*(foo|bar|baz)|zero or more of the options foo, bar, baz
+[^&lt;characters&gt;]   one character that is none of &lt;characters&gt;
+[!&lt;characters&gt;]   one character that is none of &lt;characters&gt;
+[aml]   one of the characters a, m, l
+[a-m]   one character in range of characters a-m
+
+####### Quote removal
+
+After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
+
+####### Redirection
+
+Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
+
+redirecting input [<n>]<[&]<word>
+redirecting output [<n>]>[\||>][&]<word>
+
+1> may be abbreviated > 
+0< may be abbreviated <
+
+##### concepts
+
+###### Parameters
+
+In bash, a parameter is an entity that stores a value.
+In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
+In bash, there is a special set of parameters that is auto-set.
+In bash, a variable is a type of parameter, specifically one denoted by a name.
+In bash, a parameter may be indicated by a name (names are the usual type of [a-zA-Z0-9_]), by a number, or by a special character.
+In bash assignment statements, only some forms of expansion are performed, specificaly tilde, parameter, command and arithmetic (ergo not brace and filename)
+Bash assignmet statements may appear as arguments to the declaration commands
+In the context where an assignment statement is assigning a value to a shell variable or array index (see Arrays), the ‘+=’ operator can be used to append to or add to the variable’s previous value.
++= in bash may add, append to array or append to string depending on the context.
+
+Besides the positional parameters, shell has a set of special parameters which are auto-populated, but to which cannot be assigned.
+*/@|expands to all positional parameters. They are the same when unquoted, when quoted $* expands to a single word separated by IFS, and $@ expands to separate words "$1" "$2"...
+#|amount of positional parameters
+?|exit status of most recent command/pipeline (foreground)
+$|PID of shell, except in (), where it still has the PID of the shell and not the subshell
+!|PID of job in background
+0|name of shell or shell script
+
+###### declaration commands
+
+declaration commands = {alias, declare, typeset, export, readonly, local}
 
 ### process relationships
 
@@ -4205,14 +4515,29 @@ GID|group id
 UID|user id
 groups/users on nix are uniquely identified by their user or group ID.
 
+### commands
+
+whoami|show current username
+login|login as user
+logout|logout of shell
+
+### superuser
+
+superuser = root = admin(istrator)
+OS-independently, the superuser/root/administrator is a user with large to unlimited power over the system.
+In unix, the superuser is the user with the UID 0.
+In unix, the three groups that hasve superuser/sudo-related priviledges are wheel, sudo and admin.
+sudo allows executing a single command with superuser priviledges.
+To use sudo you need to enter your own password, to use su you need the password of the relevant user, in this case the superuser password.
+Who can use sudo is managed in /etc/sudoers
+
+
 ## projects
 
 freedesktop.org was formerly called X Desktop Group (XDG)
 freedesktop.org governs projects such as the X Window System, wayland or systemd
 
-# VCS
 
-VCS|Version Control System
 
 # communication
 
@@ -4246,31 +4571,38 @@ A daisy chain is a topology where devices are linked in a line or ring.
 master/slave is (problematically) a protocol where one thingy controls or serves as an exampleto a bunch of other thingys
 
 
-## hardware protocols
+## hardware / low-level
 
-## connectors
+### concepts
 
 Crosstalk is a signal transmitted on one circuit or channel causing an undesired effect {{c1:: on another circuit or channel}}
+A telegraph is a system for communicating at a distiance via coded signals
 
-### PCI
+### media
+
+semaphore is telegraphy via visual signalling.
+
+### protocols & connectors
+
+#### PCI
 
 PCI   Peripheral Component Interconnect
 PCIe  Peripheral Component Interconnect Express
 PCI is a parallel bus, PCIe is a serial bus
 PCI, AGP (older), PCIe (today) are the protocols/connectors that were/are used to connect things on the motherbord, especially PC expansion cards but also some of the things soldered on.
 
-### thunderbolt
+#### thunderbolt
 
 Thunderbolt 1 and 2 are transmitted via the MiniDisplayPort connector.
 Thunderbolt 3 and 4 are transmitted via the USB C connector.
 Apple and Intel co-developed Thunderbolt around 2011.
 Thunderbolt was designed to run over optic fiber cables, but actually generally runs over copper.
 
-### DP
+#### DP
 
 Mini and nonmini {{c4::DisplayPort}} is mainly for {{c1::video / audio}}, but can also carry {{c2::USB}} and {{c3::other data (e.g. thunderbolt)}}
 
-### usb
+#### usb
 
 USB   Universal serial bus
 USB can transmit both data of various kinds as well as power.
@@ -4414,7 +4746,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
 USB has a tree (bus + star) topology 
 
 
-#### usb 4
+##### usb 4
 
 USB 4 was released in 2019.
 As of USB 4, the only connector type is USB C.
@@ -4447,13 +4779,34 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
 in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
 
+## networks
 
-## the internet
+### telegraphs
+
+The first type of telegraph was the optical telegraph.
+The electrical telegraph began to overtake optical telegraphs middle of the 19th century.
+electrical telegraph is often just shortened to telegraph.
+The electrical telegraph uses electrical pulses as a medium.
+Telegraph stations were connected by wires.
+The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
+((h:all;::<img src="morse-vail-telegraph-key-1844-science-source.jpg">))A {{c1::telegraph key}} was/is a electrical switch where {{c2::pressing it}} would {{c3::produce a signal}} (and {{c4::holding it}} would {{c5::produce a longer one}}).
+The telegraph sounder would have produced clicks from the electrical impulses.
+Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
+
+### telex
+
+Telex was the network of teleprinters common in a large part of the 20th century.
+Rough synonyms: {{c1::Teletype}}, {{c2::Teleprinter}}, {{c3::Telex <sub>theoretically the network standard, but in practice used mostly for the machine</sub>}}, {{c4::TTY}} (abk.), teletype(writer)
+Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer for output.
+Video terminals then came to replace teletypewriters especially for computer IO
+Teletypewriters + video terminals = physical/hardware terminals.
+
+### the internet
 
 On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
 The internet runs on the internet protocol suite.
 
-### standards
+#### standards
 
 IANA  Internet Assigned Numbers Authority
 IETF  Internet Engineering Task Force
@@ -4755,6 +5108,7 @@ the environment variables for locales are LANG as well as various LC_*.
 All LC_* locale variables are overwritten with LC_ALL.
 
 the locale command shows the currently specfied locales.
+/etc/locale.gen and the command locale-gen associated with it is used for generating locales
 
 ### BCP47
 
