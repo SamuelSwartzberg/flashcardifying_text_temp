@@ -2776,10 +2776,25 @@ Fitts law says that the time required to rapidly move move to a target area, e.g
 A shell is a wrapper around the OS that humans or similar interact with.
 Types of shells: graphical, command-based
 Shell is often but kinda incorrectly used as a synonym to command-based shell
+A TUI is a user interface that uses Text to render, but accept input like GUIs, and like GUIs they consume a fixed part of the screen.
+<img src="sm_Midnight_Commander_(2005)_en.png"><img rc="sm_1024px-Vim-(logiciel)-console.jpg">
+
+### CLI
+
+A command-line shell/interface is a type of shell (in the wide sense, it is decidedly not a type of shell in the sense of the interpreter such as bash, csh) where actions are accomplished by entering commands.
+The shell living within the terminal is interacted with via a CLI, but so does e.g. vim, or various cheat consoles in games.
 
 ### GUI
 
+A graphical shell/grapical user interface is a type of shell (in the wide sense) that allows accomplishing commands via interaction through visual elements.
+
 WIMP = Windows, icons, menus, pointer
+
+#### theming
+
+lxappearace is a gtk theme switcher
+
+#### widgeting toolkits
 
 #### elements
 
@@ -2949,18 +2964,96 @@ The file system is the method/system/whatever that controls/specifies how {{c1::
 A flat file system is a file system with no {{c1::subdirectories}}
 Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
 Even non-case-sensitive file systems are almost always case-preserving.
+fsck checks/repairs a linux filesystem.
+
+#### mounting
+
+mouting is associating a device with a location in the directory tree.
+/etc/fstab allows specifying default moun points for certain devices/partitions.
+mount and unmount are the commands to mount/unmount things in linux using sudo.
+mount may take both a device and a mountpoint.
+mount may take just a device or mountpoint, in which case it will try to mount this in the way specified in /etc/fstab.
+in contrast to mount, pmount allows one to mount a device without being root, but only if one conforms to a certain set of rules (its policy)
+
+#### file info
+
+stat|info about file
+file|get file type and related info
 
 ### directory structure
 
 {{c1::the directory structure}} is the way data is organized in a file system using directories.
 In *nix-likes, the root directory is the directory all other directories descend from.
+In *nix-likes, since all other directories descend from the root directory, *nix-likes only have a single directory tree.
 In *nix-likes, the root directory is `/`
 In windowslikes, each partition is its own root directory, with a drive letter assigned.
 Windows drive letters have the syntax <letter>:
 An absolute path begins at the root directory.
 A relative path begins at the current working directory.
 
-#### home dir
+In general on *nix systems, whatever/share contains architecture-independent data
+
+
+#### navigation
+
+
+##### traversal
+
+autojump is a tool that remembers which places you've navigated to, and allows quick jumping to the most commmonly used place.
+j foo| jump to most commonly used directory containing foo
+jc foo|jump to most commonly used **child** directory containing foo
+
+cd|move to specified directory
+
+cd without an argument moves back to your home directory
+cd - moves back to previous directory (not parent directory)
+
+mc ("midnight commander"), nnn are TUI file browsers.
+
+##### information
+
+pwd|print path of current directory
+tree|print a directory tree
+tree -L <n>|go to depth n
+ls|list file in directory
+
+-s|display files and directories with their sizes
+-S|sorting by size in output
+-F|list all files and directoreis annotated with /*@
+
+something/|directory
+something@|symlink
+something*|executable
+
+exa is a reinplementation of ls in rust with more features and opinionated defaults.
+
+fzf is a shell filter which takes an input of a list of files, allows interactive fuzzy search and selection, and outputs the selection.
+
+du & dust estimate storage usage of files in current directory.
+
+###### find
+
+find|find files
+find-command ::= find {<global-option>} {<starting-point-path>} {<expression>}
+If no starting point is specified for find, it takes the current working directory.
+fd is a simpler and faster version of find implemented in rust.
+fdupes finds duplicate files.
+
+###### grep
+
+grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
+There are tons of grep variants:
+agrep|grep with fuzzy matches
+
+There are also many alternative variants of grep using more modern regexes, and also significantly faster:
+speed: rg > ag > ack
+
+greps exit status if it finds a match is 0, if it does not find a match, it is 1.
+grep -c count the produced lines.
+
+#### directory structures
+
+##### home dir
 
 Generally one home directory per user.
 On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
@@ -2968,7 +3061,7 @@ FHS: Home directories live in /home/
 $XDG_CONFIG_HOME/autostart contains .desktop files to run on system start
 $XDG_DATA_HOME/fonts contains fonts for a specific user
 
-#### XDG Base Directory Specification
+##### XDG Base Directory Specification
 
 XDG Base DIrectory Specification is the spec governing the organization of files in your home directory   
 
@@ -2980,35 +3073,66 @@ $XDG_DATA_HOME|$HOME/.local/share|/usr(local/)share
 $XDG_CONFIG_HOME|$HOME/.config|/etc
 $XDG_CACHE_HOME|$HOME/.cache|/var/cache
 
-#### FHS
+##### FHS
 
 FHS  Filesystem Hierarchy Standard
 FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
 source code should be in src for reference only
 
-##### /sys
+###### /sys
 
-/sys provides a window to the kernel
+/sys provides a window to the kernel.
+/sys/class|contains (a view of) different types of devices
+/sys/class/power_supply|contains (a view of) the power supplies
+/sys/class/power_supply/BAT<n>|information about the nth battery
+/sys/class/backlight|contains (a view of) the screen backlights.
 
-##### /proc
+###### /proc
 
 /proc contains information for each process and a lot of runtime system info.
 
-##### /var
+###### /var
 
-/var/mail/   MBOXes for each user
+/var contains data likely to change often.
+the structure of /var is provided by the OS
+
+/var/mail/ and/or /var/spool/mail contain MBOXes for each user 
+Of /var/mail/ and /var/spool/mail, the semantics are the same, and thus one is most often a symlink to the other
 /var/spool/   data awaiting processing
+/var/cache/|cache data
+/var/backup/|backups of key system file
+/var/crash/ contains crash dumps of the system
 
-##### /opt
+###### /opt
 
 /opt   software packages (complete and kind of foreign)
 
-##### /usr
+###### /srv
+
+/srv is a directory for data served by the system
+/srv is often organized into subfolders by protocol (though this is not a requirement.)
+/srv is not used particularly commonly
+
+###### /mnt and /media
+
+/media is where the system mounts things automatically (e.g. removable media), and /mnt is where you mount things manually (with generic semantics)
+You are not forced to mount things in /mnt, you can mount them wherever you want.
+
+###### /opt
+
+/var/opt contains variable data of programs installed in /opt
+
+###### /run and /var/run
+
+today, /var/run is deprecated in favor of and a symlink to /run
+/run or /var/run contains runtime variable data that programs rely on that is cleaned or tirimmed at reboot
+
+###### /usr
 
 Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr.
 Data within /usr should be read-only
 
-##### bins
+###### bins
 
 whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
@@ -3016,12 +3140,13 @@ today, /bin often just is a symlink to /usr/bin (and analogously for lib)
 whatever/lib generally conains libraries for whatever/bin
 /sbin is for binaries needing superuser priviledges/for system administration
 
-##### /tmp
+###### /tmp
 
 /tmp is for temporary files.
 /tmp is sometimes emptied on process exit or on boot.
+/var/tmp is like /tmp, but meant to last longer and thus autocleaned less or not at all
 
-##### /etc
+###### /etc
 
 /etc contains confi files for all the programs that run on your Linux/Unix system
 /etc/hosts
@@ -3031,13 +3156,13 @@ whatever/lib generally conains libraries for whatever/bin
 hostnamectl administers the stuff in /etc/hostname and /etc/machine-info, i.e. all the hostnames and the machine metadata.
 hostname - show or set the system's host name
 
-##### /dev
+###### /dev
 
 /dev contains device files.
 It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
 device files are files that are interfaces to device drivers (or more rarely other things).
 
-##### not real devices
+####### not real devices
 
 /dev/random and /dev/urandom are CSPRNGs of nix* systems
 the difference between /dev/random and /dev/urandom is that the former blocks to wait for more entropy if necessary, the latter does not.
@@ -3046,7 +3171,7 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 /dev/zero returns as many 0x00 as you like.
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
 
-##### block device files
+####### block device files
 
 The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
 Originally, the /dev/sd<char> was only used for block devices using SCSI.
@@ -3063,11 +3188,11 @@ for /dev/nvme<n>n<n>, the first <n> represents the index of the controller, the 
 to represent a partition, add <index> to the relevant device file if the name ends in a character, and p<index> if it ends in a number.
 e.g. /dev/sda1 or /dev/loop0p2
 
-##### character device files
+####### character device files
 
 /dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
 
-#### Mac
+##### Mac
 
 ((h:all;::<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">))((c:2;::macOs))'s ((c:1;::/private)) folder contains ((c:3;::a few directories that would have been found in / on FHS-compliant devices)), namely ((s:1-3;::((c:4;::etc)), ((c:5;::tmp)), and ((c:6;::var))))
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
@@ -3076,17 +3201,32 @@ e.g. /dev/sda1 or /dev/loop0p2
 
 binary files are often contrasted with plaintext files
 
+### creation, modification
+
+mv will silently overwrite if moving to something that already exists.
+dd   copying (similar to cat/cp) with some low-level options
+shred overwrites a file multiple times so it is difficult to recover, however this interacts badly with SSDs
+touch|create emtpy file
+mkdir|create empty directory
+
+### binary view
+
+od|output files in octal, but also in other repreesentations
+od -x|hex dump
+
 ### principle types
 
 folder (windows) = directory (*nix)
 
-### binary
+### normal files
+
+#### binary
 
 Binary files without a specification/documentation/parser are basically meaningless/unreadable.
 What the binary files contents mean is defined by the file format.
 Binary files are generally smaller and quicker to process than plaintext files
 
-#### bitmaps
+##### bitmaps
 
 In the technical definition, a bitmap maps some domain to some bits.
 In the technical definition, a pixmap is a bitmap mapping a pixel to a set of bits.
@@ -3094,26 +3234,38 @@ While in the technical definition, a pixmap is a hyponym of bitmap, they also ma
 The common file format for a pixmap image is BMP.
 Pixmap images are very large, since they don't have any compression.
 
-#### multimedia
+##### multimedia
 
 (multi)media files are almost always binary files
 
-##### images
+###### images
 
-### plaintext
+#### plaintext
+
+##### utilities
+
+cat|output a file
+wc|count words, characters and lines
+
+wc output ordering
+{{c1::lines}} {{c2::words}} {{c3::characters}}
+
+bat is a more fancy version of cat with auto syntax highlighting, line numbers, git integration etc. implemented in rust.
+
+##### types
 
 Markup files are subset of plaintext files.
 Markup files are written in markup languages.
 markup languages consist of normal text and specific markup, which are intermingled.
 
-#### toml xdg systemd
+###### toml xdg systemd
 
 INI files inspired XDG desktop files.
 XDG desktop files inspired systemd unit files.
 TOML was inspired by INI, XDG and systemd unit files.
 TOML|Tom's obvious, minimal language
 
-#### m3u
+###### m3u
 
 m3u is a plain-text file format for playlists
 m3u merely has a de-facto standard.
@@ -3128,7 +3280,7 @@ entry ::= [<resource-entry>|<directive>]<CRLF>
 resource-entry ::= (<path>|<URL>)[ #<string>]
 directive :: #<directivename>[:<argument>]
 
-#### ICAL/VCARD
+###### ICAL/VCARD
 
 ical|text/calendar|calendar information|RFC 5545|.ics
 vcard|text/vcard|contact information|RFC 6350|.vcf
@@ -3177,13 +3329,13 @@ VJOURNAL   Journal entry
 VTIMEZONE   timezone definition
 VTODO   Task/Todo
 
-#### dictionary-based
+###### dictionary-based
 
-##### YAML
+####### YAML
 
 YAML|YAML Ain't Markup Language
 
-##### JSON
+####### JSON
 
 JSON|JavaScript Object Notation
 JSON is a plaintext file format.
@@ -3192,7 +3344,7 @@ In JSON but not JS object literals, keys must be quoted.
 In JSON but not JS object literals, functions are forbidden.
 In JSON, the top-level item can either be an object or an array.
 
-##### Schema
+####### Schema
 
 JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
 top-level keys
@@ -3201,7 +3353,7 @@ description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
 $id|base url for the document, similar to <base> in HTML
 
-##### jq yq
+####### jq yq
 
 jq|process JSON
 yq|process YAML & convert to/from JSON
@@ -3210,7 +3362,7 @@ yq -y/-Y roundtrip back to YAML
 <code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
 
 
-##### tex
+####### tex
 
 <br>---<br>
   §§ ((c:3;::Tex)) consists of ((c:1;::tex-core)) and ((c:2;::plain-tex)) §<br>
@@ -3231,7 +3383,7 @@ texinfo is a set of macros for tex for generating hypertextual documentation
 
 info|read texinfo files
 
-#### subtitles
+###### subtitles
 
 WebVTT|Web Video Text Tracks Formats
   §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
@@ -3304,11 +3456,11 @@ WebVTT|Web Video Text Tracks Formats
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
 
-### complex
+#### complex
 
 epub is a format for ebooks that is in essence just a zip wrapper + scaffolding around web technologies such as HTML, CSS, JS, SVG, etc.
 
-#### container
+##### container
 
 A container format is a file format that contains different parts.
 The component parts of a container format may be called chunks, segments, streams, or something else.
@@ -3317,14 +3469,28 @@ IFF is a chunk-based file format.
 IFF chunks begin with a type ID, followed with a specifier of the length of the chunk.
 RIFF and AIFF are file formats based on IFF, but TIFF (surprisingly) isn't 
 
-### cross-cutting
+##### archive
 
-#### email
+An archive file format generally wraps multiple files into one file, compresses a file, or does both at the same time.
+Archive file formats generally preserve directory structure and metadata
+zip is an archive file format that compresses and wraps multiple files into one file.
+tar is an archive file format that wraps multiple file, but does not compress them.
+gzip and bzip2 are archive file formats that compress but do not wrap multiple files.
+gzip or bzip2 are often applied after tar to achieve both wrapping and compression.
+A tarball may be a .tar file, or a .tar.gz/.tar.bz2 file
+gzip has the ending .gz
+
+tar is a command to manipulate tar files
+zip is the command to create zip files, unzip the command to unizp files
+
+#### cross-cutting
+
+##### email
 
 Fundamentallly, all emails in an email account (generally associated with a single email address, but not necessarily) are stored in an an (email) mailbox
 Message/mail delivery agents are programs that deliver emails to a mailbox.
 
-##### mbox & imf
+###### mbox & imf
 
 In the mbox format, an entire mail directory is held in a single file.
 The mbox format consists of individual IMF messages.
@@ -3340,7 +3506,7 @@ body ::= <LF><body-contents>
 
 The IMF uses CRLF, however when stored in mbox, they use LF instead.
 
-##### maildir
+###### maildir
 
 The maildir format is a format to store mailboxes and mail directories.
 The maildir format has three subdirectories (at least) for any directory.
@@ -3654,7 +3820,14 @@ A Linux distribution is GNU/Linux plus a set of other stuff, which depends on th
 On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
 libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
 
-#### X
+#### grapical display & related systems
+
+pango is a linux library for international text rednering.
+
+##### X
+
+xdotool allows automation of X windows
+xclip allows interaction with the X clipboard
 
 #### systemd
 
@@ -3718,6 +3891,21 @@ list-jobs|list active systemd jobs
 list-units|list all units
 list-unit-files|list unit files
 
+#### various subsystems & specs
+
+##### Desktop Notification Spec
+
+Spec for how notifications should work on linux   Desktop Notifications Specification
+libnotify is the most common implementation of the Desktop Notifications Specification
+
+##### bluetooth
+
+##### sound
+
+Linux's reasonably low-level sound interface is ALSA.
+ALSA|Adavance Linux Sound Architecture
+amixer is a command to control alsa.
+PulseAudio is often layered on top of ALSA
 
 ## files
 
@@ -3748,12 +3936,15 @@ A hard link is a reference to an inode.
 A hard link only exists as a directory entry, in fact, all directory entries are hard links.
 To use a hard link, the file must be on the same filesystem.
 If a file moves, a hard link will still be pointing to it.
+readlink prints the value of a symbolic link.
 
 #### directories
 
+In *nix, directories are nothing but a file, where the files 'contained' within are only associated with it via their directory entry.
 dentry = directroy entry.
 in the ext filesystem, a directory file is made up of a list of directory entries.
 In the ext filesystem, a directory entry contains the inode number, file name and file name length.
+the . and .. entries are maintained by the directory files themselves.
 Within the ext filesystem, the first entry in any directory file is the . entry.
 Within the ext filesystem, the second entry in any directory file is the .. entry.
 .|current directory
@@ -3895,73 +4086,6 @@ L|Lap
 +|add 10s
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
-
-### fs
-
-#### navigation
-
-##### information
-
-pwd|print path of current directory
-ls|list file in directory
-tree|print a directory tree
-tree -L <n>|go to depth n
-
--s|display files and directories with their sizes
--S|sorting by size in output
--F|list all files and directoreis annotated with /*@
-
-something/|directory
-something@|symlink
-something*|executable
-
-###### find
-
-find|find files
-
-###### grep
-
-grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
-There are tons of grep variants:
-agrep|grep with fuzzy matches
-
-There are also many alternative variants of grep using more modern regexes, and also significantly faster:
-speed: rg > ag > ack
-
-greps exit status if it finds a match is 0, if it does not find a match, it is 1.
-grep -c count the produced lines.
-
-##### file info
-
-stat|info about file
-od|output files in octal, but also in other repreesentations
-od -x|hex dump
-cat|output a file
-wc|count words, characters and lines
-
-wc output ordering
-{{c1::lines}} {{c2::words}} {{c3::characters}}
-
-##### traversal
-
-cd|move to specified directory
-
-cd without an argument moves back to your home directory
-cd - moves back to previous directory (not parent directory)
-
-#### changing files
-
-mv will silently overwrite if moving to something that already exists.
-dd   copying (similar to cat/cp) with some low-level options
-shred overwrites a file multiple times so it is difficult to recover, however this interacts badly with SSDs
-touch|create emtpy file
-mkdir|create empty directory
-
-#### managing fs
-
-<code>mount</code>|mounting a device
-<code>umount</code>|unmount something
-
 ### text
 
 #### editors
@@ -3997,6 +4121,7 @@ uniq|remove adjacent (!) matching lines
 cut|extract specific sections of each line based on delimiters
 -f <list>|only extract fields <list>
 -d <char>|treat <char> as delimiter
+nl|number lines
 
 The commands head and tail print the first/last few lines of a file.
 The amount of lines printed by head/tail defaults to 10
@@ -4086,6 +4211,9 @@ lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} # leave out first arg
 
 uptime -  Print the current time, the length of time the system has been up, the number of users on the
        system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
+
+top is a process viewer.
+htop is a more fancy version of top with a better TUI and interactivity.
 
 #### arch
 
@@ -4179,6 +4307,8 @@ pstree|processes as a tree
 kill kills a process, given its PID
 killall kills a n processes, given a string that their name contains
 
+procs is a more fancy version of ps written in rust
+
 ### file descriptors
 
 A file descriptor is a positive integer that uniquely identifies a file (or file-like) things.
@@ -4212,6 +4342,7 @@ jobs|show processes running in the background
 
 #### terminal
 
+A terminal may be a physical/hardware terminal, a terminal emulator = virtual terminal/console, or a terminal window.
 A physical terminal is connected via cables to an UART driver.
 drivers for screen, keyboard etc. are connected to a terminal emulator (not a window).
 The UART driver or terminal emulator are connected to the line discipline.
@@ -4229,15 +4360,18 @@ virtual terminal = virtual console.
 vt/vc is short for virtual terminal/console.
 proper terminal emulators don't run within a GUI, but take over the whole screen (are the shell themselves, don't run within a shell)
 /dev/tty<n> files are provided by the kernel.
-/dev/tty0 represents the current controlling tty.
+/dev/tty0 represents the current controlling tty (virtual terminal).
 When in a GUI, /dev/tty0 may be the terminal emulator the window server is running in.
 On linux, pressing ctrl + alt + f<number> switches to tty<number>
 Linux typically starts with 6 virtual consoles, and then one additional one (tty7) to run the window manager in.
 A terminal window is one level of emulation deeper than a terminal emulator, since it lives in a GUI which in linux at least itself lives within a terminal emulator.
 
+/dev/tty represents the current terminal, regardless of what kind of terminal it is
+
 In the past, many hardware/physical terminals might have been connected to one computer.
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
 Today, the system console is merely the device file /dev/console.
+In most modern systems /dev/console is merely a symlink to /dev/tty
 
 ##### signals
 
@@ -4252,19 +4386,36 @@ Alternative terminal window (mac)|iTerm2
 ##### shell commands for terminal management
 
 There are a number of shell commands that nevertheless still are concerned with terminals, and not with shells
+
+###### terminal emulator
+
 fgconsole   get the number of the current tty
 fgconsole --next-avaliable   get next unallocated vt
 deallocvt   remove unused virtual terminals
 chvt N   change to ttyN
 
+###### any terminal 
+
+clear|clears the terminal window
+
 #### shell
 
-the shell is typically the foreground process, buty may be the background process e.g. if we're using a TUI 
+the shell is typically the foreground process in a given terminal, buty may be the background process e.g. if we're using a TUI.
+The shell runs in the foreground of a terminal if its being used interactively.
 The shell is a special kind of program.
 The shell is the interpreter that executes the commands.
 
+##### variants
 
-clear|clears the terminal window
+The first shell, introduced in 1971, was called the thompson shell with the executable sh.
+the pwb/masey shell was introduced in 1977 and built on top of the thompson shell, keeping the executable sh.
+The bourne shell was introduced in 1979 and also had/has the executable sh.
+Today, the executable sh most often is a sym- or hardlink to a different shell, e.g. bash or csh.
+csh is a more c-like shell developed from the thompson shell.
+tcsh itself is a more advanced version csh.
+Today, csh is most often a sym- or hardlink to tcsh.
+ash, bash, ksh, and zsh are descendants of the bourne shell.
+bash is the shell of GNU, and perhaps the most common shell as of 2020.
 
 ##### shell history
 
@@ -4434,6 +4585,11 @@ e.g. a command doesn't output to stdout, but just a file
 Word Splitting	  	How the results of expansion are split into separate arguments.
 the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
 Word splitting means splitting the things mentioned above into words using $IFS
+IFS is a prepopulated environment variable specifying what counts as a word separator.
+IFS is used by a number of commands and control structures (e.g. looping) by default.
+IFS is short for internal field separator.
+The default value of IFS is whatespace.
+
 
 ####### File name expansion
 
@@ -4817,7 +4973,14 @@ RFCs are generally published by the IETFs.
 RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
 BCPs are a subset of RFCs.
 
-## models
+## OSI
+
+### network admin tools
+
+ifconfig is a linux tool to configure networke interfaces, though it is often deprecated in favor of iproute2.
+iproute2 collects a bunch of legacy networking commands into a few commands, the most important of which are ip and tc.
+
+### model comparison
 
 The OSI model remains useful, but unimplemented.
 In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
@@ -5039,6 +5202,12 @@ the four common events a <code>WebSocket</code> might recieve client-side are op
 the most common node web sockets library is <code>ws</code>
 
 ### layer 4
+
+nc as a command is read netcat
+nc allows you to make raw TCP/UDP connections.
+nc [<options>] [<hostname>] [<port>]
+
+### layer 3
 
 The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
 

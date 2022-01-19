@@ -2536,6 +2536,9 @@ A low-level programming language is a programming language with little to no abs
 COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
 C was created in 1972.
 *nix OSs are famously written in C.
+tcl is a programming language where everything is a command.
+tcl has a well-known widgeting toolkit known as tk.
+wish is a tcl interpreter including its widgeting toolkit tk.
 
 ### Things programming languages do especially well
 
@@ -2556,9 +2559,11 @@ A dependency is a piece of software another piece of software relies on.
 A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
 A package manager typically can manage packages from many different developers.
 A package is a file in a package format.
-A package unsually is made up of an archive (format) of some kind and some metadata.
-Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed
+A package format usually is made up of an archive (format) of some kind and some metadata.
+Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed with -g or --global.
+Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
 Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
+
 
 #### package manager commands
 
@@ -2578,7 +2583,6 @@ show FOO|shows information about a package foo (npm); shows path to gem foo (bun
 show FOO version|show latest version of package foo|npm
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
--g or --g|do whatever globally
 
 #### package manifest
 
@@ -2630,6 +2634,7 @@ npm scripts works as a task runner for JS.
 There are more JS build tools than you can shake a stick at. The most common is webpack.
 pip is the package manager for python.
 The official package hub for pip is PyPI.
+The package format for python format .whl ('wheel')
 apt is the package manager for Ubuntu.
 In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
 
@@ -2651,7 +2656,10 @@ snaps are containerized.
 snaps are maintained by the snapd daemon.
 snap calls its updates refreshes.
 snap auto-refreshes four times a day by default.
-
+snap stores most of its stuff in /snap.
+snaps are stored in /snap/<snapname>
+snaps variable data (such as log files) are stored in /var/snap
+snap has a second linux file system in /snap/core, which it mounts in specific places at runtime
 
 
 
@@ -2747,7 +2755,7 @@ python, python3|python
 perl|perl
 sass|sass/scss
 
--c STRING|read program from string
+-c STRING|read program from string|python
 -e STRING|read program from string|perl
 
 #### REPL
