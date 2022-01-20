@@ -2348,6 +2348,8 @@ Outside of programming, garbage data is sometimes used for data that is unusable
 
 ## concurrency
 
+Concurrency is executing multiple things at the same time.
+
 ### multithreading
 
 Threads can be divided into kernel and green/virtual/user threads.
@@ -2380,6 +2382,18 @@ To stop a Web Worker, call the terminate() method on it.
 #### thread-safety
 
 Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
+
+### concurrency control
+
+concurrency control ensures that correct results for concurrent operations are generated.
+Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
+lock = mutex
+A lock or mutex is a thing that enforces mutual exclusion.
+
+### classic problems
+
+A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
+A race condition is often a flaw that may cause bugs.
 
 ## libraries
 

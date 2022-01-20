@@ -783,6 +783,10 @@ autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
+## JSX
+
+{{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
+
 # environment ≈ Web APIs
 
 ## browsing contexts
@@ -1067,6 +1071,7 @@ content can only be usefully be used on ::after and ::before
 content-values ::= normal|none|({<content-specifier>} / <alt-text>)
 alt-text ::= <string>|<counter>
 the content-specifier can be a bunch of different things
+a ::before/::after pseudo-element will not display if it does not have content.
 
 ::placeholder|matches placeholder text
 In HTML/CSS, <input> and <textarea> can have placeholder text in form of a placeholder attribute.
@@ -2555,7 +2560,31 @@ placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
 
 # web frameworks
 
-## react
+A framework is a set of libraries where the framework itself has control by default, and only exposes an API.
+A framework: Don't call us, we'll call you.
+A web framework is a framework for use in web development.
+ME?N = MongoDB, Express.js, ?, Node.js
+MEAN includes Angular
+MERN includes React
+MEVN includes Vue.js
+
+## commonalities
+
+## JS
+
+Express is the most popular server-side web framework for node.
+Angular is the successor to AngularJS
+Angular is sometimes called Angular 2
+While AngularJS was written in JS, Angular (2) was written in typescript.
+Angular and Vue.js are the two most popular front-end frameworks that are clearly frameworks.
+React is often called a framework and would be the most popular front-end framework if it was, but is more like a library.
+Svelte works like a front-end framework, but actually compiles in advance.
+
+### react 
+
+## Python
+
+Flask and Django are the most popular web frameworks for Python.
 
 # other stuff
 
@@ -2760,9 +2789,66 @@ Examples of pointing devices are mice, trackpads, trackballs, pointing sticks ak
 Pointing devices are governed by fitts law
 Fitts law says that the time required to rapidly move move to a target area, e.g. by a pointing device, is a function of the ratio between the distance to the target and teh widht of the target.
 
-### text input
+### input
 
-#### autocomplete
+#### modes
+
+A mode is a state which is explictly entered and exited where the same input will produce different results than if it wasn't in that state.
+A quasimode is like a mode, but the state is only maintained as long as an action is performed.
+Keyboard keys that maintain a quasimode are shift, alt, control, option....
+
+#### text
+
+##### keyboards
+
+###### local variants
+
+Keyboards are often identified based on {{c1::their first few keys on the top letter row}}
+QUERTY|en
+QWERTZ|de
+AZERTY|fr
+
+Between english and german keyboards, the only difference in actual letters in that z and y are flipped.
+
+###### types of keys
+
+####### modifier keys
+
+modifier keys are keys that maintain a quasimode.
+modifier keys that are found on any hardware keyboard as of 2020 are shift, ctrl, alt/option/altgr, win/cmd/linux equivalent.
+On small layout keyboards, the additional modifier key function is often present.
+Windows and linux treat ctrl as their primary modifier key, while mac treats cmd as the primary modifier keys.
+Originally, super, meta and hyper keys were all dedicated modifier keys present on some keyboards.
+today, different linux distros treat meta or super as their equivalent to cmd/windows.
+today, since hyper keys are not really present anywhere, hyper key refers to a fictional modifier key created by simulating an insane number of modifier keys at the same time by pressing a different non-modifier key (often e.g. capslock)
+
+######## alt/option
+
+alt gr = alt graph
+alt gr was originally for producing box drawing characters.
+Despite having similar names, alt and alt gr generally share no functionality.
+alt gr produces a quasimode for alternative characters similar to shift. 
+US keyboards typically have two normal alt keys.
+European/international keyboards typcially have one alt and one alt gr key.
+The mac option key has functionality of both the alt and alt gr keys: it can be used as a key in key command like alt, but can also produce additional characters like alt gr.
+
+####### lock keys
+
+Lock keys are keys that enter/exit a mode.
+
+####### delete/backspace
+
+Delete key|Delete characters forwards (to the right)
+Backspace key|Delete characters backwards (to the left)
+
+###### key combinations & actions
+
+A keyboard shortcut some key input that performs an action different from its literal value.
+A key combination is the pressing of a key and one or more modifier keys to perform an action
+A key chord are two or more key combinations or key presses sequentially to perform an action.
+e.g. cmd k then m to select the document language in VSCode
+
+##### autocomplete
 
 <br>---<br>
   §§ <dfn>((c:1;::Autocomplete/word completion))</dfn> is a feature where ((c:2;::an application predicts the rest of something the user is typing)).  §<br> 
@@ -2859,6 +2945,7 @@ Memory is generally addressed via memory addresses.
 Physical addressing is addressing memory by using addresses corresponding to actual memory addreesses
 Logical Address = Virtual Address
 Virtual/logical memory is addresed by virtual/logical addresses.
+Logical/virtual addressing adds a layer of abstraction over physical addressing. 
 Virtual memory & addresses are used by the OS for primary memory, but also may be used in other circumstances.
 Nearly all current implementations of virtual memory for primary memory divide virtual memory into pages.
 Pages of virtual memory typically have a fixed size or a few preditermined fixed lenths.
@@ -2868,6 +2955,14 @@ Each process has its own section in virtual memory.
 Virtual memory will appear to an application using it to be continuous, though the physical memory it occupies may be discontinous.
 Today, modern OSs only expose virtual memory to user-level programs.
 Virtual memory benefits security, as it means programs can't access each other's memory.
+Logical block addressing is logical addressing for secondary memory using one or more blocks.
+A logical block contains its binary contents and a bit of metadata.
+With logical blocks addressing, a file will always be a multiple of the block size
+blocks are the smalles unit your file system can write in in.
+blocks are usuall between 0.5kiB and 8kiB as of 2020.
+Small blocks may cause storage overhead b/c the metadata to content ratio is smaller
+large blocks may cause storage wastage b/c small files still need at least a single block.
+
 
 #### memory management
 
@@ -2926,12 +3021,19 @@ in a HDD, the head is mere nanometers from the platter.
 ((h:1;::<img src="sm_250px-Samsung_Harddrive_headcrash_DSCN0124b.jpg">))
 A head crash is the head of a HDD making contact with its rotating platter, slashing the surface and causing disk damage/failure.
 Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
-a HDD is made up of clusters which are made up of sectors.
-A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
 <img src="sm_hdd_w_labels.svg">
 <img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
+
+a HDD is made up of clusters which are made up of sectors.
+A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
+
+((h:all;::<img src="sm_cyl_head_sect_dia.svg">))
+HDDs originally used a form of physical addressing known as CHS.
+CHS = Cylinder Head Sector
+CHS used the head, cylinder and sector (like coordinates) to specify a memory location.
+CHS was replaced in the mid-90s by logical block addressing.
 
 ###### SSD
 
@@ -2947,6 +3049,16 @@ SSDs are a type of flash memory device.
 <div class="onion-box"><span>((c:;::SSD chip))</span><div class="onion-box"><span>((c:;::block))</span><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::page))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div><div class="onion-box"><span>((c:;::block))</span></div><div class="onion-box"><span>((c:;::...))</span></div></div>
 
 ## secondary memory organization
+
+### devices
+
+RAID = Redundant Array of Inexpensive/Independent Disks
+SLED = Single Large Expensive disk
+RAID <-> SLED
+RAID uses multiple disks.
+RAID disks are in some sort of configuration which aims to achieve one or more of the three aims reliability/redundancy, performance, capacity
+RAID 0|Data is split among the drives (striped)|performance (r/w)
+RAID 1|data is mirrored on all drives|reliability & some read performance
 
 ### partitons
 
@@ -3097,15 +3209,18 @@ source code should be in src for reference only
 the structure of /var is provided by the OS
 
 /var/mail/ and/or /var/spool/mail contain MBOXes for each user 
-Of /var/mail/ and /var/spool/mail, the semantics are the same, and thus one is most often a symlink to the other
+Of /var/mail/ and /var/spool/mail, the semantics are the same, and thus one is most often a symlink to the other.
 /var/spool/   data awaiting processing
 /var/cache/|cache data
 /var/backup/|backups of key system file
 /var/crash/ contains crash dumps of the system
+/var/log|global log data
+/var/lock|global lock files (for mutexes)
 
 ###### /opt
 
 /opt   software packages (complete and kind of foreign)
+programs in /opt are usually more self-contained and system-fremd.
 
 ###### /srv
 
@@ -3170,6 +3285,7 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 /dev/full is  always full
 /dev/zero returns as many 0x00 as you like.
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
+/dev/video<n> represents attached cameras.
 
 ####### block device files
 
@@ -3361,6 +3477,9 @@ yq -y/-Y roundtrip back to YAML
 <code>yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}</code>
 <code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
 
+###### typesetting/just text
+
+RTF|Rich Text Format
 
 ####### tex
 
@@ -4346,9 +4465,13 @@ A terminal may be a physical/hardware terminal, a terminal emulator = virtual te
 A physical terminal is connected via cables to an UART driver.
 drivers for screen, keyboard etc. are connected to a terminal emulator (not a window).
 The UART driver or terminal emulator are connected to the line discipline.
-The line discipline may be disabled, in which case the characters are sent directly to the process, the so called cooked/canonical mode.
+The line discipline may be disabled, in which case the characters are sent directly and instantly to the process, the so called raw mode.
+cooked/canonical mode is when the line discipline is enabled, which means that text is only sent to the application after a newline is sent.
+cooked = canonical mode
+The line discipline is typically disabled for TUI applications or similar and for the shell, which implements its own line discipline.
 the line discipline is connected to the tty driver.
 The tty driver is passive, while it has fields and methods, they need to be called from outside, e.g. via signals.
+the tty driver seems to be the parent process of the session leader.
 
 To the terminal, the shell is just one more process running within it.
 
@@ -4378,10 +4501,16 @@ In most modern systems /dev/console is merely a symlink to /dev/tty
 signals allow the kernel to communicate asynchronously with a process.
 In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
 
+##### appearance
+
+Things such as color and cursor movement in the terminal are implemented via control characters.
+
 ##### terminal window
 
 A terminal emulated within a GUI is known as a terminal window
 Alternative terminal window (mac)|iTerm2
+xterm is the classic terminal window for the X window system.
+most terminal windows are based of xterm
 
 ##### shell commands for terminal management
 
@@ -4756,7 +4885,17 @@ Thunderbolt was designed to run over optic fiber cables, but actually generally 
 
 #### DP
 
+https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg|DisplayPort Connector
+<img src="sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg">|Mini DisplayPort Connector
 Mini and nonmini {{c4::DisplayPort}} is mainly for {{c1::video / audio}}, but can also carry {{c2::USB}} and {{c3::other data (e.g. thunderbolt)}}
+
+#### ATA
+
+ATA was renamed PATA after SATA was introduced.
+ATA/PATA|parallel
+SATA|serial
+PATA & SATA are interfaces for secondary storage
+SATA is the successor to PATA
 
 #### usb
 
@@ -4961,6 +5100,9 @@ Teletypewriters + video terminals = physical/hardware terminals.
 
 On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
 The internet runs on the internet protocol suite.
+
+An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
+An intranet that can be acessed from approved 3rd parties too is sometimes called  an extranet
 
 #### standards
 
@@ -5215,6 +5357,37 @@ The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to eli
 
 the {{c1::host URL element}} for the {{c2::loopback address}} is usually {{c3::localhost}}
 
+### layer 2
+
+### layer 2 & 1
+
+NIC = Network interface controller
+A NIC is a hardware component used to connect a computer to a computer network (layer 1 & 2 (physical and data link))
+MAC addresses identify NICs uniquely.
+MAC addresses are 48 bit long.
+MAC address = media access control address
+Mac addresses are most commonly used with IEEE 802 technologies.
+
+#### IEE 802
+
+IEEE 802 networking technologies contain technologies such as bluetooth (formerly, now managed/standartized by the bluetooth special interest group), ethernet, and WLAN
+IEEE 802.3|Ethernet
+IEEE 802.11|WLAN/WIFI
+
+##### WLAN
+
+WLAN may run in {{c1::infrastructure}} or {{c2::ad-hoc mode}}
+(WLAN) In infrastructure mode, clients connect to  {{c1::a central WAP (Wireless Access Point)}}
+(WLAN) In ad-hoc network mode, clients connect {{c1::to each other peer to peer}}
+
+### layer 1
+
+### low-level (unclear layers)
+
+NFC = Near field communication
+NFC works via induction.
+NFC works at a distance of up to ~4 cm
+
 # webadmin
 
 Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
@@ -5342,6 +5515,22 @@ the locale command shows the currently specfied locales.
 Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
 GPL is a type of copyleft license.
 Share-alike is a type of copyleft license.
+
+SPDX is a format for software licneses
+
+spdx-license-expression ::= <spdx-simple-expression>|(<spdx-license-expression> <operator> <spdx-license-expression>)|\(<spdx-license-expression>\) # slightly simplified
+spdx-simple-expression ::= (<license-name>-<license-version>)[+]
+Each SPDX license has a short and a long name.
+The + at the end of a SPDX license indicates this version or later.
+
+## versions
+
+semver = semantic versioning
+semantic-versioning-version ::= <major>.<minor>.<patch>
+semantic-versioning-version-part ::= [<operator]<major>.<minor>.<patch>
+semantic-versioning-version-specifier ::= 
+
+Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
 # automation
 
