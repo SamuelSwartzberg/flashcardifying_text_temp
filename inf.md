@@ -2774,7 +2774,7 @@ Objects in UML object diagrams at least contain a top field with the object name
 
 # HCI
 
-HCI = Human Computer 
+HCI = Human Computer Interaction
 The set of ways a human can interact with a computer   Interaction styles
 WYSIWYG   What you see is what you get
 
@@ -2820,7 +2820,7 @@ On small layout keyboards, the additional modifier key function is often present
 Windows and linux treat ctrl as their primary modifier key, while mac treats cmd as the primary modifier keys.
 Originally, super, meta and hyper keys were all dedicated modifier keys present on some keyboards.
 today, different linux distros treat meta or super as their equivalent to cmd/windows.
-today, since hyper keys are not really present anywhere, hyper key refers to a fictional modifier key created by simulating an insane number of modifier keys at the same time by pressing a different non-modifier key (often e.g. capslock)
+today, since hyper keys are not really present anywhere, hyper key refers to a fictional modifier key created by simulating an insane number of modifier keys at the same time by pressing a different non-modifier key (often e.g. capslock)f
 
 ######## alt/option
 
@@ -2831,6 +2831,7 @@ alt gr produces a quasimode for alternative characters similar to shift.
 US keyboards typically have two normal alt keys.
 European/international keyboards typcially have one alt and one alt gr key.
 The mac option key has functionality of both the alt and alt gr keys: it can be used as a key in key command like alt, but can also produce additional characters like alt gr.
+Due to historical reasons, emacs used to use the meta key as a modifier, but later switched to alt. However, it kept the label 'M' for this modifier key.
 
 ####### lock keys
 
@@ -2848,6 +2849,45 @@ A key combination is the pressing of a key and one or more modifier keys to perf
 A key chord are two or more key combinations or key presses sequentially to perform an action.
 e.g. cmd k then m to select the document language in VSCode
 
+####### keyboard shortcuts (mostly global)
+
+######## search 
+
+<br/><table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Find in project/ other larger scope))</td><td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ))</td></tr>
+<tr><td>((c:3;::Find next))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>g</kbd> ))</td></tr>
+<tr><td>((c:5;::Find previous))</td><td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>g</kbd> ))</td></tr>
+<tr><td>((c:7;::Open search in window/smaller scope))</td><td>((c:8;::<kbd class="modifier cmd"></kbd> <kbd>F</kbd> ))</td></tr>
+<tr><td>((c:9;::Open search in project/other large scope/advanced search))</td><td>((c:10;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ))</td></tr>
+    </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+######## text editing 
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Paste as plain text))</td><td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>v</kbd>))</td></tr>
+<tr><td>((c:3;::Select all))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>a</kbd> ))</td></tr>
+<tr><td>((c:5;::copy))</td><td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd>c</kbd> ))</td></tr>
+<tr><td>((c:7;::cut))</td><td>((c:8;::<kbd class="modifier cmd"></kbd> <kbd>x</kbd> ))</td></tr>
+<tr><td>((c:9;::paste))</td><td>((c:10;::<kbd class="modifier cmd"></kbd> <kbd>v</kbd> ))</td></tr>
+  </tbody>
+</table>
+
 ##### autocomplete
 
 <br>---<br>
@@ -2864,6 +2904,13 @@ Types of shells: graphical, command-based
 Shell is often but kinda incorrectly used as a synonym to command-based shell
 A TUI is a user interface that uses Text to render, but accept input like GUIs, and like GUIs they consume a fixed part of the screen.
 <img src="sm_Midnight_Commander_(2005)_en.png"><img rc="sm_1024px-Vim-(logiciel)-console.jpg">
+NUIs are (mostly theoretical/hypothesized) intefaces that are claimed to be natural to use in some way.
+
+UI|User interface
+NUI|natural user inteface
+GUI|graphical user interface
+TUI|Text-based user interface
+CLI|Command-line interface
 
 ### CLI
 
@@ -2883,6 +2930,60 @@ lxappearace is a gtk theme switcher
 #### widgeting toolkits
 
 #### elements
+
+##### menu
+
+A menu contains a lists of options or commands, one or more of which can be chosen or executed.
+
+###### text-based 
+
+A text-based menu is a type of menu that contains only text entries, most commonly as a list of one or more collumns.
+
+####### searchable 
+
+Many text-based menus are searchable by a type of fuzzy search.
+dmenu and its successor rofi are shell filters that act as a text-based fuzzily searchable menu.
+
+######## command palette / quick open menu
+
+((h:all;::<img src="Screenshot%202021-12-09%20at%2003.12.09.png">))
+<br>---<br>
+A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
+A quick open menu is a text-based fuzzily searchable menu containing navigation items.
+Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
+§§ A ((c:19;::Command Palette)) often also shows ((c:20;::the direct keyboard shortcuts)). §<br>
+§§ A ((c:21;::Command Palette)) generally appears as ((c:22;::a modal)) floating in ((c:23;::the upper center)) of the window. §<br>
+§§ Following ((c:24;::Sublime text and VSCode)), ((c:25;::many applications have adapted)) ((c:26;::the Command Palette)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Shortcut to open command palette</th>
+    <th>Platform</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> P))</td> <td>((c:12;::VSCode, Chrome Devtools))</td></tr>
+<tr><td>((c:13;::<kbd class="modifier cmd"></kbd> (<kbd class="modifier alt"></kbd>) K))</td> <td>((c:14;::GitHub))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ ((c:35;::Quick open menus)) are often entered via ((c:36;::<kbd class="key modifier cmd"></kbd> <kbd>P</kbd>.)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Possible prefixes in Quick Open menus</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::@somestring))</td> <td>((c:2;::go to symbol somestring))</td></tr>
+<tr><td>((c:3;:::somenumber))</td> <td>((c:4;::go to line somenumber))</td></tr>
+<tr><td>((c:5;::?))</td> <td>((c:6;::show suggestions what you can do with quick open))</td></tr>
+<tr><td>((c:7;::&gt;))</td> <td>((c:8;::enter command palette mode))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}</span>
+
 
 ##### breadcrumbs
 
@@ -3143,6 +3244,9 @@ fzf is a shell filter which takes an input of a list of files, allows interactiv
 
 du & dust estimate storage usage of files in current directory.
 
+realpath gets the absolute path for a file name
+basename strips the path and suffix from a file name
+
 ###### find
 
 find|find files
@@ -3315,9 +3419,7 @@ e.g. /dev/sda1 or /dev/loop0p2
 
 ## files
 
-binary files are often contrasted with plaintext files
-
-### creation, modification
+### file operations regardless of contents
 
 mv will silently overwrite if moving to something that already exists.
 dd   copying (similar to cat/cp) with some low-level options
@@ -3325,16 +3427,93 @@ shred overwrites a file multiple times so it is difficult to recover, however th
 touch|create emtpy file
 mkdir|create empty directory
 
-### binary view
+### files as binary
 
 od|output files in octal, but also in other repreesentations
 od -x|hex dump
 
-### principle types
+### file types by relation to OS
+
+linux: "Everything is a file"
+Plan 9: "Really everything is a file"
 
 folder (windows) = directory (*nix)
 
-### normal files
+#### permissions & owners
+
+The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
+chown changes the owner and/or group of the file
+chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
+The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c3::execute}}
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::x))</td> <td>((c:2;::execute))</td></tr>
+<tr><td>((c:3;::w))</td> <td>((c:4;::write))</td></tr>
+<tr><td>((c:5;::r))</td> <td>((c:6;::read))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+
+#### 7 types of files
+
+In unix, there are 7 types of files.
+Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
+
+##### named pipe
+
+named pipe = FIFO
+mkfifo creates a new named pipe
+named pipes are deleted via rm
+
+##### links
+
+ln creates hardlinks by default, and symlinks with -/--symbolic.
+symlink is short for symbolic link.
+A symbolic link is a file that is a reference to another file in form of a path.
+If the file a symbolic link points to is moved, the symbolic link now points to nothing.
+since links exist, the file system isn't actually a tree, but a directed graph.
+most programs treat symlinks transparently, however rm/mv/... edit the symlink file itself.
+if using rm or mv on a symlink to a directory, if you don't include the trailing slash, they will act on the symlik like normal, if you do include the trailing slash, they will try to remove the directory itself.
+A hard link is a reference to an inode.
+A hard link only exists as a directory entry, in fact, all directory entries are hard links.
+To use a hard link, the file must be on the same filesystem.
+If a file moves, a hard link will still be pointing to it.
+readlink prints the value of a symbolic link.
+
+##### directories
+
+In *nix, directories are nothing but a file, where the files 'contained' within are only associated with it via their directory entry.
+dentry = directroy entry.
+in the ext filesystem, a directory file is made up of a list of directory entries.
+In the ext filesystem, a directory entry contains the inode number, file name and file name length.
+the . and .. entries are maintained by the directory files themselves.
+Within the ext filesystem, the first entry in any directory file is the . entry.
+Within the ext filesystem, the second entry in any directory file is the .. entry.
+.|current directory
+..|parent directory
+If there is an inode not referenced by any directory entry, it will be placed in lost+found.
+
+##### device files
+
+two of the seven types of files are device files.
+Block device files grant random access.
+Character device files grant sequential access.
+
+#### special names
+
+When config files are split up into multiple files, .d directory names are often used.
+.d directory names are often used to give them a different names from normal files doing something  similar.
+dotfiles are files starting with a dot.
+Dotfiles are generally hidden by default.
+Dotfiles are often used for config or metadata.
+
+
+### file types by contents
 
 #### binary
 
@@ -3601,6 +3780,7 @@ gzip has the ending .gz
 
 tar is a command to manipulate tar files
 zip is the command to create zip files, unzip the command to unizp files
+bzip2 is the command to manipulate bzip3 files
 
 #### cross-cutting
 
@@ -3945,6 +4125,23 @@ pango is a linux library for international text rednering.
 
 ##### X
 
+###### Login
+
+A X display manager is a graphical login manager which starts a login session on an X server.
+the GNOME X display manager is gnome's display manager.
+GDM = GNOME display manager
+LightDM is the most common alternative to GDM.
+
+###### DE
+
+D-Bus is a protocol/interface/middleware for messaging between processes (IPC).
+AccountsService is a D-BUs service for accessing the list of user accounts and information attached to those accounts.
+
+What Desktop Environment you're using   XDG_CURRENT_DESKTOP
+What Desktop Environment you selected from the display manager (might be limited to gnome display manager)   GDMSESSION
+
+###### CLI
+
 xdotool allows automation of X windows
 xclip allows interaction with the X clipboard
 
@@ -4026,86 +4223,11 @@ ALSA|Adavance Linux Sound Architecture
 amixer is a command to control alsa.
 PulseAudio is often layered on top of ALSA
 
-## files
-
-linux: "Everything is a file"
-Plan 9: "Really everything is a file"
-
-### 7 types of files
-
-In unix, there are 7 types of files.
-Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
-
-#### named pipe
-
-named pipe = FIFO
-mkfifo creates a new named pipe
-named pipes are deleted via rm
-
-#### links
-
-ln creates hardlinks by default, and symlinks with -/--symbolic.
-symlink is short for symbolic link.
-A symbolic link is a file that is a reference to another file in form of a path.
-If the file a symbolic link points to is moved, the symbolic link now points to nothing.
-since links exist, the file system isn't actually a tree, but a directed graph.
-most programs treat symlinks transparently, however rm/mv/... edit the symlink file itself.
-if using rm or mv on a symlink to a directory, if you don't include the trailing slash, they will act on the symlik like normal, if you do include the trailing slash, they will try to remove the directory itself.
-A hard link is a reference to an inode.
-A hard link only exists as a directory entry, in fact, all directory entries are hard links.
-To use a hard link, the file must be on the same filesystem.
-If a file moves, a hard link will still be pointing to it.
-readlink prints the value of a symbolic link.
-
-#### directories
-
-In *nix, directories are nothing but a file, where the files 'contained' within are only associated with it via their directory entry.
-dentry = directroy entry.
-in the ext filesystem, a directory file is made up of a list of directory entries.
-In the ext filesystem, a directory entry contains the inode number, file name and file name length.
-the . and .. entries are maintained by the directory files themselves.
-Within the ext filesystem, the first entry in any directory file is the . entry.
-Within the ext filesystem, the second entry in any directory file is the .. entry.
-.|current directory
-..|parent directory
-If there is an inode not referenced by any directory entry, it will be placed in lost+found.
-
-#### device files
-
-two of the seven types of files are device files.
-Block device files grant random access.
-Character device files grant sequential access.
-
-### permissions
-
-The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
-The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c3::execute}}
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th></th>
-    <th></th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::x))</td> <td>((c:2;::execute))</td></tr>
-<tr><td>((c:3;::w))</td> <td>((c:4;::write))</td></tr>
-<tr><td>((c:5;::r))</td> <td>((c:6;::read))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
-
-### misc
-
-When config files are split up into multiple files, .d directory names are often used.
-.d directory names are often used to give them a different names from normal files doing something  similar.
-dotfiles are files starting with a dot.
-Dotfiles are generally hidden by default.
-Dotfiles are often used for config or metadata.
-
 ## command-line 
 
 ### meta
 
-most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc
+most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
 
 #### common syntax considerations
 
@@ -4205,6 +4327,7 @@ L|Lap
 +|add 10s
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
+
 ### text
 
 #### editors
@@ -4450,7 +4573,7 @@ The names of daemons generally end with d.
 
 ### terminal system
 
-#### fg bg
+#### job control
 
 <pre><code>^Z</code></pre> (as keyboard input)   Stop (not kill) the current program
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
@@ -4533,6 +4656,10 @@ the shell is typically the foreground process in a given terminal, buty may be t
 The shell runs in the foreground of a terminal if its being used interactively.
 The shell is a special kind of program.
 The shell is the interpreter that executes the commands.
+For bash, there are two commands that allow changing settings of the shell, set and shopt.
+The difference between set and shopt is that set is a POSIX-compliant command originally from the original bourne shell, while shopt is bash-only.
+SHELLOPTS|options set via set
+BASHOPTS|options set via shopt
 
 ##### variants
 
@@ -4546,15 +4673,28 @@ Today, csh is most often a sym- or hardlink to tcsh.
 ash, bash, ksh, and zsh are descendants of the bourne shell.
 bash is the shell of GNU, and perhaps the most common shell as of 2020.
 
-##### shell history
+##### history
 
-history|list of past commands
-<pre><code>!index</code></pre>   Repeat the past command with index index
-indexes for ! for repeating start at 1 for the first command and go from there
+history can be en/disabled via the history parameter of set.
+The history list is a list of commands that the shell internally stores.
+the HISTSIZE environment variable determines how much of a the history list will be saved on exit.
+the histfile stores the command history as a file. 
+The path of the histfile is determined by the HISTFILE environment variable.
+For bash, the default history path is ~/.pash_history.
+the HISTFILESIZE environment variable detrmines the maximum length of the histfile.
+When the shell starts up, the HISTFILE is truncated to HISTFILESIZE and then loaded into the bash history list.
+When the shell exits, it saves the last HISTSIZE lines of the history list to HISTFILE, either overwriting the contents, or appeding if the histappend option is set. afterwards, the HISTFILE is truncated to HISTFILESIZE.
+If the HISTTIMEFORMAT is set, the time stamp information associated with each history entry is written to the history file, marked with the history comment character. 
 
+The HISTCONTROL and HISTIGNORE variables may be set to cause the shell to save only a subset of the commands entered.
 
+The builtin command fc may be used to list or edit and re-execute a portion of the history list. 
+The history builtin may be used to display or modify the history list and manipulate the history file.
+With no options, history displays the history list with line numbers.
 
-##### The directory stack
+##### various features
+
+###### The directory stack
 
 in nix, there is a stack of directories called the directory stack.
 in nix, you can push/pop from the directory stack with the commands pushd/popd.
@@ -4578,21 +4718,74 @@ PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
 
-
-##### Pattern matching
-
-*|any string
-?|any single character
-
 ##### Shell lifecycle
 
-0. The shell may get its input from a file, a string, or the terminal.
-1. the shell tokenizes the input
-2. the shell parses the input into commands
-3. The shell performs expansions
-4. the shell performs redirections
-5. the commands are executed
-6. the shell waits for the commands to complete and collects its exit status
+0. The shell may get its input from a file, a string, or the terminal, and splits it into lines.
+1. The shell performs history expansion
+2. the shell tokenizes the input
+3. the shell parses the input into commands
+4. The shell performs expansions
+5. the shell performs redirections
+6. the commands are executed
+7. the shell waits for the commands to complete and collects its exit status
+
+###### whence commands?
+
+####### interactive shell
+
+Bash uses a simple heuristic to determine if the shell is interactive: (if neither an non-option argument nor -c or -s is specified and error/iput are connected to terminals) OR (-i is specified), it is interactive.
+While an interactive shell is meant to read/write to a terminal, there is no guarantee it is in a terminal if you force it with -i.
+if a shell is interactive, $- will contain i, and $PS1 will be set (otherwise unset).
+Interactive shells have a bunch of unique rules and semantics.
+
+######## readline
+
+An interactive shell will typically use the GNU readline library to allow line-editing of entered commands.
+While GNU readline is most commonly used in interactive shells, it may be used in may different places.
+GNU readline has both emacs and vi editing modes, with emacs editing mode enabled by default.
+The emacs and vi arguments for set allow switching between those two modes.
+
+####### noninteractive shell
+
+bash -s|read commands from standard input
+bash -c|read commands from following string
+
+###### history expansion
+
+history expansion allows us to splice parts of the history list into the current input stream
+In history expansion, the line from the history list that is used is called the event.
+In history expansion, the parts of the event that are included are the words (broken into words with normal bash tokenization & parsing).
+In history expasnion, various modifiers are available to modify words.
+history-expansion ::= !<event-designator>[<word-designator>]{:<modifier>}
+If the histverify shell option is enabled, and Readline is being used, history substitutions are not immediately passed to the shell parser. Instead, the expanded line is reloaded into the Readline editing buffer for further modification. If Readline is being used, and the histreedit shell option is enabled, a failed history expansion will be reloaded into the Readline editing buffer for correction.
+only ‘\’ and ‘'’ may be used to escape the history expansion character, but the history expansion character is also treated as quoted if it immediately precedes the closing double quote in a double-quoted string.
+Event designators allow the selection of the event for history expansion.
+<n>|nth command in history list
+-<n>|nth last command from current command
+!|last command (synonym for -1)
+<string>|most recent command preceding the current position in the history list starting with string.
+?<string>|most recent command with string before a newline
+?<string>?|most recent command containing string
+#|the entirety of the command line as typed so far
+word-designator ::= <positional-selector>|*|<integer>*
+positional-selector ::= <position>[-<position>]
+position ::= <integer>|$|^|%
+<integer> corresponds to an index of a word starting at zero
+^ and $ corresponding to the first and last argument (not words!)
+% corresponds to  first word matched by the most recent ‘?string?’ search
+
+the special word designator * corresponds to 1-$
+the special word designator <integer>* corresponds to <integer>-$
+
+modifiers for history expansion
+
+h & t remove everything from a pathname but the head/tail
+r / e remove a suffix .suffix / remove everything but the suffix
+p prints the new command but does not execute it
+s/old/new/ regex like substitution
+(more exist)
+
+indexes for ! for repeating start at 1 for the first command and go from there
 
 ###### tokenization
 
@@ -4854,6 +5047,14 @@ A daisy chain is a topology where devices are linked in a line or ring.
 ### master/slave
 
 master/slave is (problematically) a protocol where one thingy controls or serves as an exampleto a bunch of other thingys
+
+### state
+
+#### sessions
+
+In computer science, a {{c4::session}} is {{c2::started at some point}}, {{c3::ends at some point}}, and during this time {{c1::maintaines state}}.
+A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
+A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
 
 ## hardware / low-level
@@ -5227,10 +5428,26 @@ Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all o
 
 ###### domains
 
-top-level domain   TLD
+A domain consists of n labels separated by dots.
+The further right a label is in a domain name, the higher it is in the hierarchy.
+FQDN = fully qualified domain name
+PQDN = partially qualified domain name
+TLD = top-level domain
+The FQDN is the domain including all labels.
+The PQDN is a domain which only includes a part of the FQDN.
+The rightmost label of a FQDN is the TLD.
+the second-rightmost label of a FQDN is a second-level domain.
 
-TLD
-foo.bar.net  .net
+The leaf of a given FQDN is the host name
+Domains to the left of a domain label are subdomains of that label.
+Domain is a very ambiguous term: It may refer to everything but the hostname, any PQDN, or the FQDN.
+a public suffix is a domain under which one can or at one point could register a domain name.
+examples: .co.uk, .com, .tech
+Many public suffixes are TLDs, but e.g. .co.uk is a public suffix but not a TLD, while some country codes are TLDs but not public suffixes (since authorities of some country code TLDs (e.g argentinia in the past) only allow registrations on subdomains such as .com.ar)
+A registrable domain name consists of a single label plus a public suffix.
+A registrable domain name is so called because it is or at one point would have been registrable
+
+####### linux hostnames
 
 Linux has three hostnames, static, transient, and pretty.
 The pretty hostname can be pretty much anything

@@ -2545,6 +2545,10 @@ simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex be
 A high-level programming language is a programming language with strong abstraction from the details of the computer.
 A low-level programming language is a programming language with little to no abstraction from the details of the computer.
 
+### Programming paradigms
+
+Functional programming languages: {Haskell}
+
 ### Programming languages I don't know
 
 COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
@@ -2804,13 +2808,18 @@ Boilerplate code is repetitive code that is reused often, often also implying th
 
 --- the file ... |YAML (but optional, merely allow multiple documents per file)
 
-## software architecture
+## software engineering
+
+Software engineering is term where the definition is often fought over.
+Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
+
+### software architecture
 
 Software architecture refers to the fundamental structures of software/development and creating those structures.
 
-### properties
+#### properties
 
-#### coupling & cohesion
+##### coupling & cohesion
 
 https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
 cohesion is the degree to which the elements inside a module belong together.
@@ -2821,11 +2830,17 @@ high coupling generally implies loose cohesion and v.v.
 A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
 The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
 
-### paradigms
+### development practices
 
-#### Agile
+Rubber-duck debugging is problem-solving by explaining it out loud to an object or naive human.
+functional requirement|function (relation between input and output)|system must do x
+non-functional requirement|criteria of judgement, not specific behavior|system shall be x
 
-#### Scrum
+#### development paradigms
+
+##### Agile
+
+##### Scrum
 
 ### testing
 
@@ -2833,6 +2848,11 @@ The single-responsibility priinciple states that (the implementation of) a thing
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying does.
+
+### requirements engineering
+
+
+Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
 ## Misc/no place yet
 
