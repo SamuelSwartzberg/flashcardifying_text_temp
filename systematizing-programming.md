@@ -2771,7 +2771,11 @@ In self-documenting code, identifiers indicate what the thing they are identifyi
 
 A {{c1::user story}} is the {{c2::explanation of a feature}} {{c3::from the perspective of the user}}.
 Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
-
+Parkinsaw's Law: Work expands to fill the available time
+The law of triviality was originally developed as a corollary to parkinsons law.
+Law of triviality: people within an organization/community/project typically give disproportionate weight to trivial issues.
+Most common example of the law of triviality: the choice of materials for a bike shed taking up a disproportionate time during the construction of a nuclear power plant.
+Bike-shedding is discussion that conforms to the law of triviality: Disproportionate discussion about relatively irrellevant issues.
 
 ## toolchains
 
@@ -2779,11 +2783,11 @@ In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
 A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 
-## dependencies
+### dependencies
 
 A dependency is a piece of software another piece of software relies on.
 
-## packages & package managers
+### packages & package managers
 
 A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
 A package manager typically can manage packages from many different developers.
@@ -2794,7 +2798,7 @@ Package managers mainly for OS's typically install their packages for the whole 
 Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
 
 
-### package manager commands
+#### package manager commands
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies/installed packages|bundler|npm
@@ -2813,7 +2817,7 @@ show FOO version|show latest version of package foo|npm
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
 
-### package manifest
+#### package manifest
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
 In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
@@ -2829,13 +2833,13 @@ package|general package information|Cargo.toml
 package-lock.json|npm
 Gemfile.lock|bundler
 
-## build tools
+### build tools
 
 Build tools are the tools that create an executable application from source code.
 A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
 A bundler is a type of build tool.
 
-## contaienrs
+### contaienrs
 
 Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
 A container often also includes software's dependencies within the container.
@@ -2844,7 +2848,7 @@ Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 
-## mapping
+### mapping
 
 different tools may perform one or more roles within a toolchain.
 
@@ -2911,7 +2915,7 @@ tools to interact with framewokrs
 interact with nextjs|next
 interact with jekyll|jekyll
 
-## build tool functionality 
+### build tool functionality 
 
 build builds a production build in cargo, jekyll, next
 test runs unit tests in cargo

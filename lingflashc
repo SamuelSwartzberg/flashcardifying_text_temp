@@ -3575,7 +3575,7 @@ abnf-character-digits ::= <digit>{<digit>}
 abnf-base-specifier ::= %<base-char>
 base-char ::= b|d|x
 
-abnf-rule ::= <definition>[;<comment>]<CRLF>
+abnf-rule ::= rule = <definition> [; <comment>]<CRLF>
 
 <n>*<m><rule>|repetitions from n to m
 <n><rule>|repetitions of n times
@@ -3592,6 +3592,7 @@ for ABNF repetition, leaving out <n> or <m> implies 0 or infinity as per usual
 predefined rules
 LWSP = 	*(WSP / CRLF WSP)
 WSP = SP / HTAB	
+DIGIT = a digit 0 - 9
 
 #### RFC 2119
 

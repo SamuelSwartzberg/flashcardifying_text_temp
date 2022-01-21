@@ -2773,7 +2773,7 @@ Objects in UML object diagrams at least contain a top field with the object name
 
 # HCI
 
-HCI = Human Computer Interaction
+HCI = Human Computer Interaction/Interfaces
 The set of ways a human can interact with a computer   Interaction styles
 WYSIWYG   What you see is what you get
 
@@ -2848,7 +2848,7 @@ A key combination is the pressing of a key and one or more modifier keys to perf
 A key chord are two or more key combinations or key presses sequentially to perform an action.
 e.g. cmd k then m to select the document language in VSCode
 
-####### keyboard shortcuts (mostly global)
+####### keyboard shortcuts
 
 ######## search 
 
@@ -2887,6 +2887,13 @@ e.g. cmd k then m to select the document language in VSCode
   </tbody>
 </table>
 
+######## code editing
+
+rename a symbol|<kbd>f2</kbd>
+see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
+change (programming) language of current document|<kbd class='modifier cmd'></kbd><kbd>k</kbd>&nbsp;&nbsp;<kbd>m</kbd>
+show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`</kbd>
+
 ##### autocomplete
 
 <br>---<br>
@@ -2898,7 +2905,7 @@ e.g. cmd k then m to select the document language in VSCode
 
 ## shells
 
-A shell is a wrapper around the OS that humans or similar interact with.
+A shell is a wrapper around the OS that acts as an interface between it and humans.
 Types of shells: graphical, command-based
 Shell is often but kinda incorrectly used as a synonym to command-based shell
 A TUI is a user interface that uses Text to render, but accept input like GUIs, and like GUIs they consume a fixed part of the screen.
@@ -4103,7 +4110,17 @@ RNG  random number generator
 
 # *nix
 
-## POSIX
+## relationships & standards
+
+Different *nixes have different versions of different command-line tools, on account of having descended in different ways from the original unix.
+coreutils are the basic GNU file, shell and tex manipulation utilities.
+the GNU versions of basic command-line tools is generally more featureful than other versions.
+the GNU versions of basic command-line tools is generally the one that is assumed e.g. online.
+You can install the GNU coreutils on non-GNU systems via homebrew.
+If there is also a preexisting version of the command when the GNU coreutils are installed with homebrew, they are prefixed with g (e.g. gdir instead of dir).
+If you need the normal names of the GNU coreutils when installed with homebrew (e.g. because they're being used in a preexisting script etc, add the directory they're in (/opt/homebrew/opt/coreutils/libexec/gnubin) to your $PATH
+
+### POSIX
 
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
 POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
@@ -4255,6 +4272,7 @@ fcitx-configtool allows managing fcitx graphically.
 ### meta
 
 most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
+
 
 #### common syntax considerations
 
@@ -5040,6 +5058,8 @@ $|PID of shell, except in (), where it still has the PID of the shell and not th
 !|PID of job in background
 0|name of shell or shell script
 
+NOT CONTENT JUST STOPPING THE PARSER FROM FREAKING OUT $
+
 ###### declaration commands
 
 declaration commands = {alias, declare, typeset, export, readonly, local}
@@ -5100,10 +5120,15 @@ freedesktop.org governs projects such as the X Window System, wayland or systemd
 
 ## concepts
 
+A telegraph is a system for communicating at a distiance via coded signals
+semaphore is telegraphy via visual signalling.
+master/slave is (problematically) when one entity controls or serves as an example to other entity(s)
+Crosstalk is a signal transmitted on a channel causing an undesired effect on another circuit or channel
+
 ### serial and parallel
 
-Serial communication sends its bits one after another over the channel.
-Parallel communication sends multiple bits simultaneously over multiple subchannels.
+Serial communication sends its information one after another over the channel.
+Parallel communication sends multiple piecies of information simultaneously over multiple subchannels.
 One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
 Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
 
@@ -5116,16 +5141,12 @@ an denylist enumerates a set of things that may not pass
 allowlists were/are known as whitelists
 denylists were/are known as blacklists
 
-### topologies
+### pushpullpoll
 
-A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
-In a bus, everyone attached recieves the transmission.
-In a bus, only one entity can send at a time
-A daisy chain is a topology where devices are linked in a line or ring.
-
-### master/slave
-
-master/slave is (problematically) a protocol where one thingy controls or serves as an exampleto a bunch of other thingys
+pulling is where the request initiates from the client, and is responded to by the server
+pushing is where a request is initiated by a server.
+polling is frequently checking whether a thing is in a certain state
+polling may be used to simulate push protocols.
 
 ### state
 
@@ -5135,19 +5156,30 @@ In computer science, a {{c4::session}} is {{c2::started at some point}}, {{c3::e
 A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
 A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
+## interfaces 
 
-## hardware / low-level
+An interface is a shared boundary across which information flows.
 
-### concepts
+### API
 
-Crosstalk is a signal transmitted on one circuit or channel causing an undesired effect {{c1:: on another circuit or channel}}
-A telegraph is a system for communicating at a distiance via coded signals
+An API is an interface of a piece of software/module/web service/etc.
+the point where one interfaces with an API is an endpoint
 
-### media
+## protocols
 
-semaphore is telegraphy via visual signalling.
+A protocol is a set of rules that allows transmitting messages via a medium.
+Protocols are often layered to produce a protocol stack.
+While the medium over which a message may be transferred for a protocol may be an actual medium, in protocol stacks the medium is merely a lower protocol.
+A message in any protocol typically consists of some headers/metadata and a payload.
+A protocol data unit is the fundamental unit a protocol transmits, i.e. its message.
+If a protocol is acting as a medium for a higher layer in a protocol stack, a service data unit is the payload of the protocol data unit of the current protocol, which IS the protocol data unit of the higher layer.
 
-### protocols & connectors
+Protocols that are transferred over wires as a medium typically also define the characteristics of these wires and the eletrical connectors connecting them.
+
+PDU = Protocol data unit
+SDU = Service data unit
+
+### hardware / low-level
 
 #### PCI
 
@@ -5326,92 +5358,16 @@ USB has a tree (bus + star) topology
 USB 4 was released in 2019.
 As of USB 4, the only connector type is USB C.
 
-## protocols
+### Internet Protocols
 
-Protocols are often {{c1::layered}} to produce a {{c2::protocol stack}}
-A message in any networking protocol typically consists of some headers/metadata and a payload
-
-### pushpullpoll
-
-pulling is where the request initiates from the client, and is responded to by the server
-pushing is where a request is initiated by a server.
-polling is frequently checking whether a thing is in a certain state
-polling may be used to simulate push protocols.
-
-### OAuth
-
-OAuth 2.0 (grant type: Authorization code)
-<img src="tmp7t5et6aw.png" />
-
-### misc (not OSI/no clear layer)
-
-MTP  Media transfer protocol
-PTP  Picture transfer protocol
-
-## APIs
-
-the point where one interfaces with an API is an endpoint
-For HTTP APIs, the endpoint is most commonly an URL + request verb.
-
-### REST
-
-#### HATEOAS
-
-in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
-in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
-
-## networks
-
-### telegraphs
-
-The first type of telegraph was the optical telegraph.
-The electrical telegraph began to overtake optical telegraphs middle of the 19th century.
-electrical telegraph is often just shortened to telegraph.
-The electrical telegraph uses electrical pulses as a medium.
-Telegraph stations were connected by wires.
-The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
-((h:all;::<img src="morse-vail-telegraph-key-1844-science-source.jpg">))A {{c1::telegraph key}} was/is a electrical switch where {{c2::pressing it}} would {{c3::produce a signal}} (and {{c4::holding it}} would {{c5::produce a longer one}}).
-The telegraph sounder would have produced clicks from the electrical impulses.
-Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
-
-### telex
-
-Telex was the network of teleprinters common in a large part of the 20th century.
-Rough synonyms: {{c1::Teletype}}, {{c2::Teleprinter}}, {{c3::Telex <sub>theoretically the network standard, but in practice used mostly for the machine</sub>}}, {{c4::TTY}} (abk.), teletype(writer)
-Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer for output.
-Video terminals then came to replace teletypewriters especially for computer IO
-Teletypewriters + video terminals = physical/hardware terminals.
-
-### the internet
-
-On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
-The internet runs on the internet protocol suite.
-
-An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
-An intranet that can be acessed from approved 3rd parties too is sometimes called  an extranet
-
-#### standards
-
-IANA  Internet Assigned Numbers Authority
-IETF  Internet Engineering Task Force
-BCP   Best current practice
-RFC   Request For Comment
-
-RFCs are generally published by the IETFs.
-RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
-BCPs are a subset of RFCs.
-
-## OSI
-
-
-### network admin tools
+#### network admin tools
 
 ifconfig is a linux tool to configure networke interfaces, though it is often deprecated in favor of iproute2.
 iproute2 collects a bunch of legacy networking commands into a few commands, the most important of which are ip and tc.
 
-### model comparison
+#### model comparison
 
-#### models
+##### models
 
 The OSI model remains useful, but unimplemented.
 In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
@@ -5420,20 +5376,14 @@ The internet protocol suite is a protocol stack
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
 One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one of the precursors to {{c2::the internet}} was {{c3::ARPANET}}
 
-Whatever the {{c1::relevant layer/protocol}} transmits as its {{c2::unit}} is known as a {{c3::protocol data unit}}
-a service data unit is a unit of data that has been passed down from an OSI layer or sublayer to a lower layer.
-The SDU is the payload of the PDU.
-PDU = Protocol data unit
-SDU = Service data unit
-
-#### layers
+##### layers
 
 OSI Model|TCP/IP Model|PDU (TCP/IP)
 Applicatio|Application
 Presentation
 Session
 Transport|Transport|segment (TCP) / datagram (UDP)
-Network|Network/Internet|Packet
+Network|Internet|Packet
 Data Link|Link|frame
 Physical
 
@@ -5442,15 +5392,17 @@ Frame contains IP packets contains segment/datagram contains application protoco
 TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
-### layer 7
+#### layers
+
+##### layer 7
 
 HTTP, SMTP, POP, SSH, telnet...
 
-#### common concepts
+###### common concepts
 
-##### URLS & Hyperlinks
+####### URLS & Hyperlinks
 
-###### URI
+######## URI
 
 IRI   Internationalized Resource Identifier
 URI   Uniform Resource Identifier
@@ -5488,18 +5440,18 @@ mailto|email messages
 mailto-url ::= mailto:[&lt;email-address&gt;{,&lt;email-address&gt;}][?&lt;email-key&gt;=&lt;value-percent-encoded&gt;{&amp;&lt;email-key&gt;=&lt;value-percent-encoded&gt;}]
 email-key ::= subject | cc | body | ...
 
-###### URN 
+######## URN 
 
 the path of URN URIs can theoretically be anything, however it typically has the following syntax
 urn-path ::= <urn-namespace>:{<urn-subnamespace>:}<unique-id> 
 urn-namespace ::= ISBN|ISSN|UUID|...
 e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
-###### origins
+######## origins
 
 Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
 
-###### domains
+######## domains
 
 A domain consists of n labels separated by dots.
 The further right a label is in a domain name, the higher it is in the hierarchy.
@@ -5520,21 +5472,21 @@ Many public suffixes are TLDs, but e.g. .co.uk is a public suffix but not a TLD,
 A registrable domain name consists of a single label plus a public suffix.
 A registrable domain name is so called because it is or at one point would have been registrable
 
-####### linux hostnames
+######### linux hostnames
 
 Linux has three hostnames, static, transient, and pretty.
 The pretty hostname can be pretty much anything
 The static hostname is used for programmatic purposes, the transient hostname is used as a fallback.
 While the pretty hostname can be pretty much anything, static and transient hostname are limited to 64 characters.
 
-###### hotlinks, deeplinks
+######## hotlinks, deeplinks
 
 hotlinking = inline linking
 Hotlinking is embedding a resource from {{c1::another fqdn}}
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
-##### the web
+####### the web
 
 WWW = World Wide Web
 The WWW runs on the internet, using the protocol HTTP(S).
@@ -5546,13 +5498,13 @@ The main organization working on web standards is the W3C.
 World Wide Web Consortium = W3C
 A web site is a collection of web pages, generally one that share a domain name/FQDN
 
-#### protocols
+###### protocols
 
-##### WHOIS
+####### WHOIS
 
 whois is the command to query WHOIS.
 
-##### SMTP, IMAP, POP
+####### SMTP, IMAP, POP
 
 SMTP = Simple Mail Transfer Protocol
 IMAP = Internet Message Access Protocol
@@ -5563,11 +5515,11 @@ IMAP or POP3 are both used to retrieve email messages (though they can be used f
 IMAP keeps messages on the server while POP3 deletes them (by default)
 Between IMAP and POP3, IMAP is more feature-rich.
 
-##### HTTP
+####### HTTP
 
 HTTP|HyperText Transfer Protocol
 
-##### telnet/ssh
+####### telnet/ssh
 
 SSH = secure shell
 Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
@@ -5587,7 +5539,7 @@ For scp, when using user@hostname, add the file with :filename to the end\
 
 ssh-keygen manages keys for SSH.
 
-##### NIS/YP
+####### NIS/YP
 
 YP = Yellow Pages
 NIS = Network Information Service
@@ -5597,7 +5549,7 @@ domainname shows or sets the NIS/YP (!) domain nime
 aliases for domainname: nisdomainname, ypdomainname
 dnsdomainname shows the systems DNS domain name (the part of the FQDN)
 
-##### DNS
+####### DNS
 
 DNS|Domain Name System
 DNS superceded the hosts file for the most part.
@@ -5606,7 +5558,7 @@ To use the hosts file to block something, set its IP address to 0.0.0.0
 hosts-file ::= {<hosts-line><linebreak>}
 hosts-line ::= <ip-address> <hostname>{ <hostname>}
 
-###### dig
+######## dig
 
 dig is a CLI utility to look up DNS records.
 dig-command ::= dig {<option>}[ <DNS-server>][ <resource-name>][ <record-type>]{ <query-option>}
@@ -5624,7 +5576,7 @@ In digs output, non-records begin with ;;, non-records do not.
 
 8.8.8.8|Google DNS nameserver
 
-##### WebSocket
+####### WebSocket
 
 WebSocket is an application-layer communications protocol with client and server APIs.
 WebSocket, being an application-layer protocol, is distinct from HTTP, but uses the same TCP ports, mainly for firewall-related reasons
@@ -5632,7 +5584,7 @@ WebSocket, in contrast to HTTP allows full-duplex communication and streams of d
 WebSocket use the scheme <code>ws:</code> (if unencrypted) or <code>wss:</code> (if encrypted)
 To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade header
 
-###### client
+######## client
 
 on the client side, sockets are created via the <code>WebSocket</code> constructor
 the <code>WebSocket</code> constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
@@ -5640,27 +5592,31 @@ to send data on a <code>WebSocket</code>, use the method <code>send()</code>
 To {{c3::react to incoming data}} {{c2::event handlers are registered}} on the WebSocket object
 the four common events a <code>WebSocket</code> might recieve client-side are open, message, close, error
 
-###### server 
+######## server 
 
 the most common node web sockets library is <code>ws</code>
 
-##### DHCP
+####### DHCP
 
 DHCP = Dynamic Host Configuration Protocol
 
-### layer 4
+##### layer 4
 
-#### nc
+###### nc
 
 nc as a command is read netcat
 nc allows you to make raw TCP/UDP connections.
 nc [<options>] [<hostname>] [<port>]
 
-#### ports
+###### ports
 
 FTP|21
 
-#### UDP
+###### TCP
+
+TCP = Transmission Control Protocol
+
+###### UDP
 
 the UDP {{c1::datagram header}} consists of {{c2::4}} {{c3::fields}} of {{c2::2}} {{c3::bytes}} for a total of {{c2::8}} {{c3::bytes}} ({{c2::64}} {{c3::bit}})
 of the UDP datagram header's four fields: 
@@ -5690,17 +5646,18 @@ checksum|mandatory in IPv6
 <span class="cloze-dump">{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 the maximum size of a {{c2::UDP datagram}} is {{c1::2^16 bytes}} (although IPv6 {{c3::jumbograms}} do allow more, and {{c4::headers}} take up some of that)
 
-### layer 3
+##### layer 3
 
 The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
+the main protocol that lives on the network (OSI)/internet (TCP/IP) is IP.
 
-#### IP
+###### IP
 
 IP  Internet protocol
 the {{c1::host URL element}} for the {{c2::loopback address}} is usually {{c3::localhost}}
 the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
 
-##### address space
+####### address space
 
 ((h:all;::<img src="1024px-Regional_Internet_Registries_world_map.svg.png">))
 RIR = Regional Internet Registry
@@ -5709,28 +5666,85 @@ There are 5 RIRs.
 the 5 RIRs are affiliated via the NRO
 5 RIR areas:, one for Africa, most of NA, latin and central america + Mexico, Europe + Russia/West Asia, and one for most of Asia + Oceania
 
-##### headers
+####### headers
 
-TTL in IP contexts is short for {{c1::time to live}}
+the {{c3::IPv4 header}} consists of {{c1::14}} {{c2::different fields}}
+TTL = Time To Live
+TTL in IPv4 contexts was supposed to measure seconds, but was actually implemented as a hop count.
+TTL as hop count was implmeneted by an 8-bit integer, usually starting at 64. When it reached 0, the packet was discarded and an ICMP time exeeded message was typically sent.
+TTL exists amongst other reasons to prevent an infinite routing loop.
 {{c1::TTL}} is called {{c2::hop limit}} in {{c3::IPv6}}
 
-##### addr
+####### addr
 
-##### tracing
+######## IPv
+
+The first major version of IP was IPv4, which is being succeeded by IPv6
+The main reason IPv6 was introduced is that there are not enough IPv4 addresses
+
+IPv4|32
+IPv6|128
+
+IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
+
+######## division
+
+######### History
+
+IP addresses have always been divided between network prefix and host identifier.
+In the very beginning (until the 1980s) IP addresses were divided between the first octet as network prefix and the last 3 octets as host identifier.
+In the very beginning (until the 1980s) what we call network prefix was called network number, and what we call host identifier was called rest field.
+
+######### CIDR
+
+CIDR = Classless Inter-Domain Routing
+cidr-notation ::= [<IPv4-addr>]/<int-0-32>
+/24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
+
+######### broadcast & network identifier
+
+A {{c1::subnet}}'s {{c2::broadcast}} address is the {{c3::all-ones}} version of the {{c4::host (any relevant IP address)/network (all-zeroes) identifier}}
+Ergo, 255.255.255.255 (/0) is (theoretically) the broadcast address to all IP addresses in existence.
+A godzillagram is theoretically a message to 255.255.255.255, which should theoretically broadcast to all IP addresses in existence.
+Since gateways generally do not let godzillagrams pass, 255.255.255.255 generally merely boradcasts to your whole network.
+Since network identifier addresses are generally aliases to broadcast addresses, 0.0.0.0/0 is an alias to the broacast address 255.255.255.255/0.
+0.0.0.0/32 represents the undefined/NULL address, and may be used when one has not yet aquired an IP address or when accepting all incoming connections.
+
+######### special IP addresses
+
+of the IPv4 loopback addresses, generally 127.0.0.1 is used.
+localhost = 127.0.0.1 (IPv4)
+IPv6 reserves only a single loopback address, which is ­:­:1
+
+The private IPv4 address blocks sorted from largetst to smallest are: {{c1::10.0.0.0}}/{{c2::8}}, {{c3::172.16.0.0}}/{{c4::12}}, {{c5::192.168.0.0}}/{{c6::16}}
+(100000 = Prof X dual-wielding dual swords, 172160 = Android 17 outrunning a caravan of refugees, 192168 = Anakin skywalker outrunning a dragon)
+
+####### NAT
+
+NAT = Network Address Translation
+{{c1::NAT}} {{c2::maps one IP address space to another}} by {{c3::modifying the info in the IP header}}
+NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
+
+####### tracing
 
 traceroute and tracepathe are *nix utilities to measure IP paths and transit durations.
 {{c1::tracepath}} is a {{c2::non-superuser}} version of {{c3::traceroute}}
 tracepath/traceroute sends messages with adjusted TTL values and uses ICMP time exceeded messages to identify the routers traversed by packets from the source to the destination.
 
-##### ICMP
+####### ICMP
 
 ICMP = Internet Control Message Protocol
 ICMP is used to send IP/routing-related error/control message.
 ICMP messages are sent within an IP packet
 
-### layer 2
+##### layer 2 & 3 
 
-### layer 2 & 1 (TCP/IP Link layer)
+ARP = Address Resolution Protocol
+NDP
+
+##### layer 2
+
+##### layer 2 & 1 (TCP/IP Link layer)
 
 NIC = Network interface controller
 A NIC is a hardware component used to connect a computer to a computer network (layer 1 & 2 (physical and data link))
@@ -5739,25 +5753,111 @@ MAC addresses are 48 bit long.
 MAC address = media access control address
 Mac addresses are most commonly used with IEEE 802 technologies.
 
-#### IEE 802
+###### IEE 802
 
 IEEE 802 networking technologies contain technologies such as bluetooth (formerly, now managed/standartized by the bluetooth special interest group), ethernet, and WLAN
 IEEE 802.3|Ethernet
 IEEE 802.11|WLAN/WIFI
 
-##### WLAN
+####### WLAN
 
 WLAN may run in {{c1::infrastructure}} or {{c2::ad-hoc mode}}
 (WLAN) In infrastructure mode, clients connect to  {{c1::a central WAP (Wireless Access Point)}}
 (WLAN) In ad-hoc network mode, clients connect {{c1::to each other peer to peer}}
 
-##### Ethernet
+####### Ethernet
 
 The ethernet frame header contains quite a few fields, amonst which the most important might be destination MAC address and source mac address
 
-### layer 1
+IPoE is short for IP over Ethernet
+PPPoE is short for Point-to-Point Protocol over Ethernet
 
-### low-level (unclear layers)
+### protocols higher than the OSI/TCP/IP
+
+For HTTP APIs, the endpoint is most commonly an URL + request verb.
+
+#### REST
+
+##### HATEOAS
+
+in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
+in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
+
+#### OAuth
+
+OAuth 2.0 (grant type: Authorization code)
+<img src="tmp7t5et6aw.png" />
+
+### misc
+
+MTP  Media transfer protocol
+PTP  Picture transfer protocol
+
+## networks
+
+A network is a group of connected nodes that communicate via a medium, and almost always via a protocol.
+
+### concepts
+
+#### routing
+
+
+An address is the identifier of an entity(ies) in a network, often relevant to a specific protocol.
+A broadcast address is an address that identifies a subgroup of entities to target with a broacast transmission.
+
+##### routing schemes
+
+#### topologies
+
+A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
+In a bus, everyone attached recieves the transmission.
+In a bus, only one entity can send at a time
+A daisy chain is a topology where devices are linked in a line or ring.
+
+### types
+
+#### telegraphs
+
+The first type of telegraph was the optical telegraph.
+The electrical telegraph began to overtake optical telegraphs middle of the 19th century.
+electrical telegraph is often just shortened to telegraph.
+The electrical telegraph uses electrical pulses as a medium.
+Telegraph stations were connected by wires.
+The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
+((h:all;::<img src="morse-vail-telegraph-key-1844-science-source.jpg">))A {{c1::telegraph key}} was/is a electrical switch where {{c2::pressing it}} would {{c3::produce a signal}} (and {{c4::holding it}} would {{c5::produce a longer one}}).
+The telegraph sounder would have produced clicks from the electrical impulses.
+Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
+
+#### telex
+
+Telex was the network of teleprinters common in a large part of the 20th century.
+Rough synonyms: {{c1::Teletype}}, {{c2::Teleprinter}}, {{c3::Telex <sub>theoretically the network standard, but in practice used mostly for the machine</sub>}}, {{c4::TTY}} (abk.), teletype(writer)
+Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer for output.
+Video terminals then came to replace teletypewriters especially for computer IO
+Teletypewriters + video terminals = physical/hardware terminals.
+
+#### the internet
+
+On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
+The internet runs on the internet protocol suite.
+
+An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
+An intranet that can be acessed from approved 3rd parties too is sometimes called  an extranet
+
+##### standards
+
+IANA  Internet Assigned Numbers Authority
+IETF  Internet Engineering Task Force
+BCP   Best current practice
+RFC   Request For Comment
+
+RFCs are generally published by the IETFs.
+RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
+BCPs are a subset of RFCs.
+
+##### layer 1
+
+##### low-level (unclear layers)
 
 NFC = Near field communication
 NFC works via induction.
@@ -5773,7 +5873,7 @@ Images used {{c3::on the web}} are typically {{c2::specifically compressed}} bef
 
 ## media viewers
 
-### video 
+##### video 
 
 Common shortcuts
 
