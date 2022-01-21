@@ -1,3 +1,5 @@
+# programming (mostly)
+
 ## Expressions
 
 An expression evaluates to = returns a value.
@@ -356,7 +358,7 @@ Binding is intimately connected with scoping, as scope determines which names bi
 static = early binding is name binding during compile-time
 dynamic = late binding is name binding during runtime
 
-
+name resolution is the associating of identifiers with the correct things (e.g. variables)
 
 ### Scope
 
@@ -420,6 +422,7 @@ exit allows you to exit the current (sub)shell, optionally specifying an exit co
 
 #### Shadowing
 
+Masking = shadowing
 Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
 Variable masking/shadowing is name shadowing involving variables
 In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
@@ -428,6 +431,7 @@ In rust, shadowing allows for 'changing' tye type of the variable (really merely
 #### Hoisting
 
 Hoisting moves declarations but not initializations to the top of the scope.
+Hoisting is mainly a JS concept.
 in JS, var variables and function declarations (but not function expressions) and hoisted.
 
 ### Case
@@ -614,6 +618,8 @@ A null pointer/reference/type/value indicates that we're not referring to a vali
 Datatypes implemented in a programming language can either be scalar or compound/composite
 Bash is fun in that it does not have data types at all, in truth all values are strings
 
+To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
+
 ### primitives and composites
 
 Primitive may refer to a data type that is provided in a programming language as a basic building block.
@@ -683,6 +689,7 @@ Where type aliases exist, they generally use the type keyword.
 
 Type safety is the dgree to which a programming language prevents logic-type type errors in favor of static-semantic type errors.
 A logic-type type error is caused by treating a value as the wrong type.
+A type-safe language is a language that throws more static semantic type type errors instead of logic errors.
 
 #### Conversion, coercion, casting and context (plus truthy/falsiness)
 
@@ -800,11 +807,13 @@ Symbol("name")|JS
 A reference is a value that allows indirect access to another value.
 A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
 Handle is an ambiguous concept, but is most commonly seem as a synonym to reference.
+dangling reference/pointer = wild reference/pointer
+A dangling/wild reference is a reference
+Link rot is the process of links becoming dangling/wild references.
 
-### Dates
-
-Most common format is RFC 3339 / ISO 8601
-RFC 3339 is almost the same as ISO 8601
+Dereferencing takes a value that is a reference and returns the refernced value.
+In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
+In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing
 
 ### Null types
 
@@ -996,8 +1005,12 @@ entries()|JS (map only)
 
 get array/iterator of keys
 keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
-values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
 Object.keys(someobj)|JS
+
+get array/iterator of values
+
+values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
+Object.values(someObj)|JS
 
 Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
 
@@ -1893,6 +1906,10 @@ When overloading, each signature generally has its own implementation, exept in 
 In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
 In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
+### misc
+
+Memoization is the form of caching that caches the return value of a deterministic callable unit
+
 ## Records
 
 A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
@@ -2092,6 +2109,9 @@ someobj instanceof class|JS
 
 #### Duplication/Replication
 
+A deep copy is a copy of a data structure where things referenced in the original data structure are also copied.
+A shallow copy is a copy of a data structure where references in the original data structure are merely copied, and still refer to the same thing.
+Deep copying is recursive and more computationally expensive.
 
 shallow copy
 copy (module copy).copy(foo)|Python
@@ -2115,6 +2135,7 @@ A box is a minimal object wrapper around another type.
 The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
 putting values into a box is called boxing, the opposite unboxing
 A wrapper is any entity that encapsulates/wraps around another thing.
+Implementation-wise, it may be that the whole box is stored on the heap as an object would be, and we only have a pointer to the box, or as Rust seems to do it the Box may merely contain a pointer to whatever data, which is moved to the heap.
 Memory-wise, since boxes are objects, boxed data will be stored on the heap.
 Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO, consequently most primitives are boxed in languages aspiring to pure OO such as Python, JS, Ruby...
 Autoboxing is the conversion of primitves to boxed types when relevant.
@@ -2171,6 +2192,9 @@ console.log()|JS
 System.out.prinln()|Java
 Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
+
+echo options
+-n|no trailing newline
 
 Print functions using format strings
 printf|(ba)sh|C (ofc)|Perl|Ruby
@@ -2249,6 +2273,11 @@ General syntax: export <members> [as <name>]
 
 #### default exports
 
+## Events
+
+Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
+In casual use, event listener and event handler are synonyms.
+
 ## APIs
 
 API = application programming interface
@@ -2266,6 +2295,7 @@ One could write one's own API bindings or a wrapper library using a foreign func
 A shim is a library that takes API calls for something else and then does something with them.
 A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
 A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
+
 
 ## lifecycle
 
@@ -2287,7 +2317,7 @@ Message passing is communicating between two things by sending messages.
 A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
 IPC is just message passing between two processes.
 
-## Memory Management
+## Memory 
 
 Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
 Memory deallocation is releasing previously allocated memory.
@@ -2317,6 +2347,7 @@ In most languages, since records are kept on the stack, a variable/constant mere
 The stack is significantly faster than the heap, since it's implementation is far simpler.
 The heap can become fragmented.
 The heap is managed much less strictly than the stack.
+For things on the heap, you typically have a pointer.
 
 In general, there is one stack per thread and one heap per process (instance of a program)
 
@@ -2329,7 +2360,7 @@ Any automatic variable can go out of scope.
 A static variable is allocated for the entire lifetime of the program.
 Static variables fall outside of the clear stack heap distincition.
 Dynamic variables have a lifetime of your choosing: their memory is allocated and deallocated by you.
-Dynamic variables are stored on the stack.
+Dynamic variables are stored on the heap.
 Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allocation.
 
 ### memory management
@@ -2337,63 +2368,31 @@ Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allo
 Memory management is managing the memory of an application.
 One of the main jobs of memory management is memory allocation and deallocation.
 Memory management may be manual = performed by the programmer or automatic = performed by the programming language automatically.
-Dynamic variables are handled by manual memory management.
+Dynamic variables are handled by manual memory management or by automatic memory management.
 Automatic variables are handled by automatic memory management.
-Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
 Most higher-level programming languages have no manual memory management at all.
+
+#### types of data
 
 Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
-## concurrency
+#### garbage collection
 
-Concurrency is executing multiple things at the same time.
+Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
 
-### multithreading
+#### reference counting
 
-Threads can be divided into kernel and green/virtual/user threads.
-green thread = virtual thread = user thread.
-kernel threads are those managed by the kernel to be scheduled for some CPU time.
-user threads are those threads managed by a user process.
-N:1 Threading   all threads of the program map onto one kernel thread
-M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
-1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
+(manual) reference counting is a form of manual memory management
+automatic reference counting is a form of manual memory management
+In reference counting, when no more references to a certain object exist, then it is destroyed
+In reference counting, a thing as some kind of field indicating how many references to it exists.
+In manual reference counting, we call increment and decrement methods to indicate how many references there are.
+In automatic reference counting, increment/decrement methods for refrences are called automatically. 
+Circular set of references are called reference circles.
+reference circles can allow things in refrence counting to never reach reference count 0 and thus be destroyed.
 
-#### thread pools
-
-A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
-A thread pool typically processes a queue of tasks waiting for processing.
-
-#### workers
-
-Web Workers are threadlike things in JS.
-Web Workers come in two flavors, dedicated workers and shared workers.
-While a {{c2::dedicated worker}} is accessible from {{c3::a single script only}}, a {{c2::shared worker}} is accessible from {{c4::multiple scripts}}, even if {{c1::within different windows or frames}}
-Because many JS APIs are not {{c2::threadsafe}}, {{c3::Web Workers}} have access to {{c1:: only a limited subset}}
-
-Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
-Web Workers as well as the main thread communicate via message passing.
-For Web Workers, messages are sent by using the method postMessage and recieved via the message event.
-For Web Workers, messages always send a copy of the data.
-To handle events in Web Workers, use the error event.
-To stop a Web Worker, call the terminate() method on it.
-
-#### thread-safety
-
-Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
-
-### concurrency control
-
-concurrency control ensures that correct results for concurrent operations are generated.
-Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
-lock = mutex
-A lock or mutex is a thing that enforces mutual exclusion.
-
-### classic problems
-
-A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
-A race condition is often a flaw that may cause bugs.
 
 ## libraries
 
@@ -2540,6 +2539,7 @@ fancy|js|reveal.js
 simple|md|remarkjs
 simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
+
 ## programming language categorization & history
 
 A high-level programming language is a programming language with strong abstraction from the details of the computer.
@@ -2562,17 +2562,228 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 performance|rust
 
+# CompSci
+
+## concurrency
+
+Concurrency is executing multiple things at the same time.
+
+### multithreading
+
+Threads can be divided into kernel and green/virtual/user threads.
+green thread = virtual thread = user thread.
+kernel threads are those managed by the kernel to be scheduled for some CPU time.
+user threads are those threads managed by a user process.
+N:1 Threading   all threads of the program map onto one kernel thread
+M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
+1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
+
+#### thread pools
+
+A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
+A thread pool typically processes a queue of tasks waiting for processing.
+
+#### workers
+
+Web Workers are threadlike things in JS.
+Web Workers come in two flavors, dedicated workers and shared workers.
+While a {{c2::dedicated worker}} is accessible from {{c3::a single script only}}, a {{c2::shared worker}} is accessible from {{c4::multiple scripts}}, even if {{c1::within different windows or frames}}
+Because many JS APIs are not {{c2::threadsafe}}, {{c3::Web Workers}} have access to {{c1:: only a limited subset}}
+
+Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
+Web Workers as well as the main thread communicate via message passing.
+For Web Workers, messages are sent by using the method postMessage and recieved via the message event.
+For Web Workers, messages always send a copy of the data.
+To handle events in Web Workers, use the error event.
+To stop a Web Worker, call the terminate() method on it.
+
+#### thread-safety
+
+Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
+
+### concurrency control
+
+concurrency control ensures that correct results for concurrent operations are generated.
+Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
+lock = mutex
+A lock or mutex is a thing that enforces mutual exclusion.
+
+### classic problems
+
+A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
+A race condition is often a flaw that may cause bugs.
+
+## Programming language implementation
+
+A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
+
+TS compiles to JS via the compiler, interfaced with the cli tsc.
+
+$Something that happens during execution   runtime $something
+$Something that happens during compiling   compile-time $something
+
+### Compilation/Interpretation
+
+A compiler translates one programming language into another in one step before execution.
+Most commonly, a compiler translates a programming language into machine code/assembler.
+An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
+
+#### Compiling/Interpreting
+
+1. lexical analiysis/tokenization/lexing
+2. sytax analysis = parsing
+3. semantic analysis
+
+#### lexical analysis
+
+lexical analiysis = tokenization = lexing
+Terminology around tokenization/lexical analysis is not always consistent.
+Lexical analysis is converting a sequence of characteres into a sequence of lexical tokens.
+Lexical tokens have some kind of meaning, relative to the language.
+Lexical token is often shortened to just token
+Tokens are lexical units/items in linguistic terms.
+Tokens have a certain value (a string), and a certain type.
+Token types that are common across programming languages are identifier, keywords, operator, literal ...
+The analogue of token type in linguistics might be word class/syntactic category/part of speech
+Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
+In the context of compiling/interpreting, identifier/name is a synonym for symbol.
+
+#### JIT
+
+### Transpiling
+
+A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
+While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
+Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+
+### Language CLI
+
+most languages have a CLI tool to interface with them, esp. with implementations
+
+lua|lua
+node|JS
+python, python3|python
+perl|perl
+sass|sass/scss
+rustc|rust
+
+-c STRING|read program from string|python
+-e STRING|read program from string|perl
+
+#### REPL
+
+REPL is short for read-eval-print loop
+{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
+
+For most languages, invoking their CLI tool without arguments will open a REPL, if not
+irb|ruby
+tss-node|TS
+is none|perl
+jshell|java
+csharp|C# (provided by mono)
+
+Python calls being in the repl interactive mode
+the value of the last expression
+_|Python
+
+### Shebangs
+
+env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
+Using env in the shebang is to get the relevant executable on the path
+so in general, you can specify the language of a script by doing 
+#!/usr/bin/env language-command
+
+
+## Boilerplate
+
+Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
+
+### document start/end indicators
+
+--- the file ... |YAML (but optional, merely allow multiple documents per file)
+
+# software engineering
+
+Software engineering is term where the definition is often fought over.
+Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
+
+## software architecture
+
+Software architecture refers to the fundamental structures of software/development and creating those structures.
+
+### properties
+
+#### coupling & cohesion
+
+https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
+cohesion is the degree to which the elements inside a module belong together.
+coupling is the degree of interdependence between software modules.
+In general, cohesion is good and coupling is bad.
+high coupling generally implies loose cohesion and v.v. 
+
+A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
+The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
+
+## development practices
+
+Rubber-duck debugging is problem-solving by explaining it out loud to an object or naive human.
+functional requirement|function (relation between input and output)|system must do x
+non-functional requirement|criteria of judgement, not specific behavior|system shall be x
+
+### development paradigms
+
+#### Agile
+
+#### Scrum
+
+### CI/CD
+
+continuous delivery|software can be deployed on any commit
+continuous deployment|software is deployed on any commit
+{{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
+
+## QA
+
+### code review
+
+Code review may be by any other peer or by some authority related to the project (depending on the purpose)
+Code review is when another agent analyzes  the source code for bugs/errors/code quality
+Code review may be performed by human agents or automated code review tools
+
+### testing
+
+#### things used
+
+A test double is a thing that replaces a production thing in testing
+
+#### types of tests
+
+Unit tests test a unit of code (where that might be a module, function or record).
+Unit tests are generally quite fast.
+End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
+
+## documentation
+
+Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
+In self-documenting code, identifiers indicate what the thing they are identifying does.
+
+## requirements engineering
+
+A {{c1::user story}} is the {{c2::explanation of a feature}} {{c3::from the perspective of the user}}.
+Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
+
+
 ## toolchains
 
 In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
 A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 
-### dependencies
+## dependencies
 
 A dependency is a piece of software another piece of software relies on.
 
-### packages & package managers
+## packages & package managers
 
 A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
 A package manager typically can manage packages from many different developers.
@@ -2583,7 +2794,7 @@ Package managers mainly for OS's typically install their packages for the whole 
 Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
 
 
-#### package manager commands
+### package manager commands
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies/installed packages|bundler|npm
@@ -2602,7 +2813,7 @@ show FOO version|show latest version of package foo|npm
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
 
-#### package manifest
+### package manifest
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
 In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
@@ -2618,13 +2829,13 @@ package|general package information|Cargo.toml
 package-lock.json|npm
 Gemfile.lock|bundler
 
-### build tools
+## build tools
 
 Build tools are the tools that create an executable application from source code.
 A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
 A bundler is a type of build tool.
 
-### contaienrs
+## contaienrs
 
 Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
 A container often also includes software's dependencies within the container.
@@ -2633,7 +2844,7 @@ Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 
-### mapping
+## mapping
 
 different tools may perform one or more roles within a toolchain.
 
@@ -2700,7 +2911,7 @@ tools to interact with framewokrs
 interact with nextjs|next
 interact with jekyll|jekyll
 
-### build tool functionality 
+## build tool functionality 
 
 build builds a production build in cargo, jekyll, next
 test runs unit tests in cargo
@@ -2720,145 +2931,11 @@ _config.yml/.toml|Jekyll
 Browserslist is a tool to define target browsers.
 Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
 
-## Programming language implementation
-
-A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
-
-TS compiles to JS via the compiler, interfaced with the cli tsc.
-
-$Something that happens during execution   runtime $something
-$Something that happens during compiling   compile-time $something
-
-### Compilation/Interpretation
-
-A compiler translates one programming language into another in one step before execution.
-Most commonly, a compiler translates a programming language into machine code/assembler.
-An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
-
-#### Compiling/Interpreting
-
-1. lexical analiysis/tokenization/lexing
-2. sytax analysis = parsing
-3. semantic analysis
-
-#### lexical analysis
-
-lexical analiysis = tokenization = lexing
-Terminology around tokenization/lexical analysis is not always consistent.
-Lexical analysis is converting a sequence of characteres into a sequence of lexical tokens.
-Lexical tokens have some kind of meaning, relative to the language.
-Lexical token is often shortened to just token
-Tokens are lexical units/items in linguistic terms.
-Tokens have a certain value (a string), and a certain type.
-Token types that are common across programming languages are identifier, keywords, operator, literal ...
-The analogue of token type in linguistics might be word class/syntactic category/part of speech
-Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
-In the context of compiling/interpreting, identifier/name is a synonym for symbol.
-
-#### JIT
-
-### Transpiling
-
-A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
-While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
-
-### Language CLI
-
-most languages have a CLI tool to interface with them, esp. with implementations
-
-lua|lua
-node|JS
-python, python3|python
-perl|perl
-sass|sass/scss
-
--c STRING|read program from string|python
--e STRING|read program from string|perl
-
-#### REPL
-
-REPL is short for read-eval-print loop
-{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
-
-For most languages, invoking their CLI tool without arguments will open a REPL, if not
-irb|ruby
-tss-node|TS
-is none|perl
-jshell|java
-csharp|C# (provided by mono)
-
-Python calls being in the repl interactive mode
-the value of the last expression
-_|Python
-
-### Shebangs
-
-env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
-Using env in the shebang is to get the relevant executable on the path
-so in general, you can specify the language of a script by doing 
-#!/usr/bin/env language-command
-
-
-## Boilerplate
-
-Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
-
-### document start/end indicators
-
---- the file ... |YAML (but optional, merely allow multiple documents per file)
-
-## software engineering
-
-Software engineering is term where the definition is often fought over.
-Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
-
-### software architecture
-
-Software architecture refers to the fundamental structures of software/development and creating those structures.
-
-#### properties
-
-##### coupling & cohesion
-
-https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
-cohesion is the degree to which the elements inside a module belong together.
-coupling is the degree of interdependence between software modules.
-In general, cohesion is good and coupling is bad.
-high coupling generally implies loose cohesion and v.v. 
-
-A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
-The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
-
-### development practices
-
-Rubber-duck debugging is problem-solving by explaining it out loud to an object or naive human.
-functional requirement|function (relation between input and output)|system must do x
-non-functional requirement|criteria of judgement, not specific behavior|system shall be x
-
-#### development paradigms
-
-##### Agile
-
-##### Scrum
-
-### testing
-
-### documentation
-
-Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
-In self-documenting code, identifiers indicate what the thing they are identifying does.
-
-### requirements engineering
-
-
-Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
-
-## Misc/no place yet
+# Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
 
-### Indexing
+## Indexing
 
 Most langauges I know start linear collection indices at 0, however lua starts them at 1
 In most languages, providing negative indices counts from the back, with -1 being the last element.
@@ -2882,7 +2959,7 @@ In JS, the optional chaining operator works like dot notation, except that if us
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
 The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
 
-### IDEs
+## IDEs
 
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.

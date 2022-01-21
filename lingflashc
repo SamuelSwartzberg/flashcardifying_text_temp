@@ -926,6 +926,7 @@ Examples for numeronums: 9/11 (date metonym), i18n (letter count), 4649 (weird s
 a11y  accessibility
 g11n  globalization
 p13n   personalization
+i18n   internationalization
 
 ###### Productivity
 
@@ -2938,6 +2939,11 @@ One major axis along which font families are distinguished is if they have serif
 
 ##### macrotypography
 
+###### columns
+
+In typography, a column is one or more vertical blocks of content positioned on a page, separated by gutters.
+Gutters are whitespace between two rows or columns.
+
 ###### page
 
 We can divide pages into left and right pages depending on whether they will appear on the left or right first when reading the book in a normal direction.
@@ -2947,6 +2953,8 @@ in RtL media, the second page will be a right page, and hence the cover is a lef
 
 In latex, to {{c3::optimize a document for being two-sided}} (e.g. as in a {{c3::book}}), include {{c2::twoside}} in {{c1::the optional argument [] of documentclass}}
 In latex, to {{c3::make chapters etc. always open on a right page}}&nbsp; include {{c2::openright}} in {{c1::the options [] of documentclass}}
+
+pagination/paging is dividing a given document into discrete pages.
 
 #### graphemes & graphs
 

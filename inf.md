@@ -2358,59 +2358,7 @@ The media HTML attribute indicates when to load the specific resource.
 window.matchMedia() takes a media query and returns a MediaQueryList object, whose matches property indicates exactly that.
 To react to changes in media features/types, you can register the change event on the MediaQueryList boject.
 
-## misc
-
-In typography, a column is one or more vertical blocks of content positioned on a page, separated by gutters.
-Gutters are whitespace between two rows or columns.
-To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
-
-### Accessibility
-
-Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
-
-#### WAI & WCAG basics
-
-{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
-the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
-The WCAG consists of principles, guidelines, successs criteria, and techniques.
-WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
-Each WCAG principle is broken up into one or more guidlines.
-Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
-For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
-WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
-The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
-In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
-§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
-§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
-§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
-
-#### WCAG success critera
-
-##### Non-text content
-
-the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
-
-#### WCAG techniques
-
-##### Semantic HTML
-
-Semantic HTML is HTML where the tags contain semantic information about the content
-Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
-
-
-##### aria
-
-ARIA  Accessible Rich Internet Applications
-ARIA is mainly realized in HTML attributes.
-ARIA attributes change the accessibility tree, but nothing else.
-There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
-ARIA {{c1::states}} define some property {{c2::that can change}}
-ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
-ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
-
-
+## related technologies
 
 ### system UI themes
 
@@ -2536,28 +2484,6 @@ Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, i
 
 ### CSS naming schemes
 
-# not css
-
-A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly&nbsp; visible with {{c2::no styling/browser default styling}}
-
-## blending
-
-Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
-Blend modes typically use values from 0 to 1 for the channels for the math.
-When describing blend modes, t denotes the top layer and b the bottom layer
-In general, when channel is specified, assume it is done to each channel.
-normal|use alpha compositing
-multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
-screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
-
-## placeholder images
-
-Placeholder images using kittens   placekitten.com
-Placeholder images using boring boxes   via.placeholder.com
-
-via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
-placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
-
 # web frameworks
 
 A framework is a set of libraries where the framework itself has control by default, and only exposes an API.
@@ -2594,6 +2520,69 @@ A bricked device is one that no longer can function at all (has become as useful
 SKU|Stock Keeping Unit
 An instance is something that has been created on some sort of model.
 
+## placeholder images
+
+Placeholder images using kittens   placekitten.com
+Placeholder images using boring boxes   via.placeholder.com
+
+via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
+placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
+
+## non-humans
+
+### robots
+
+#### SEO
+
+related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
+
+### Accessibility
+
+Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
+
+#### WAI & WCAG basics
+
+{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
+the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
+The WCAG consists of principles, guidelines, successs criteria, and techniques.
+WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
+Each WCAG principle is broken up into one or more guidlines.
+Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
+For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
+WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
+The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
+In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
+§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
+§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
+§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+#### WCAG success critera
+
+##### Non-text content
+
+the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
+
+#### WCAG techniques
+
+##### Semantic HTML
+
+Semantic HTML is HTML where the tags contain semantic information about the content
+Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
+
+
+##### aria
+
+ARIA  Accessible Rich Internet Applications
+ARIA is mainly realized in HTML attributes.
+ARIA attributes change the accessibility tree, but nothing else.
+There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
+ARIA {{c1::states}} define some property {{c2::that can change}}
+ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
+ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
+
+
 # data
 
 open data is data available to everyone freely.
@@ -2602,8 +2591,9 @@ linked data is data that is interlinked usefully.
 ## data models
 
 A data model is a model that provides structure to data, and to their properties, how they relate amongst each other, and how they relate to RL.
+A database is an organized collection of data.
+Any database implements a data model.
 
-In computing, a database is an organized collection of data stored and accessed electronically. 
 A DBMS (database management system) is the software used to manage a database.
 
 A (data)(base) query language is a language used to query data in databases/information systems.
@@ -2675,7 +2665,11 @@ csv|comma-separated values
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
-### graph data models
+### non-relational data models
+
+A NoSQL database is really a misnomer, it refers to a non-relational database
+
+#### graph data models
 
 A graph data model is one that organizes entities and their relationships as a graph.
 A graph database is a database that uses a graph data model.
@@ -2688,7 +2682,7 @@ A semantic query is a data query on the semantic web.
 the social graph is a graph that represents social relationship between entities.
 the open graph allows web pages to become objects in a social graph
 
-#### RDF
+##### RDF
 
 RDF = resource description framework
 RDF is a technology meant to realize the semantic web.
@@ -2704,40 +2698,45 @@ In rdf, a node can be a IRI, literal, or blank node
 
 an RDF semantic triple indicating that art knows bob using the FOAF ontology might look like ex:art foaf:knows ex:bob
 
-##### sparql
+###### sparql
 
 SPARQL = SPARQL Protocol and RDF Query Language
 SPARQL is proounced sparkle
 SPARQL is an RDF query language
 
-##### JSON-LD
+###### JSON-LD
 
 JSON-LD is an implementation of RDF
 JSON-LD is included via a script tag 
 Of the structured data formats, google prefers JSON-LD.
 
-#### Other implementations of structured data
+##### Other implementations of structured data
 
 RDFa Lite is a minimal subset of RDFa that can be directly included in HTML.
 Microdata is a format to include metadata, including but not limited to RDF data, directly included in HTML.
 
-#### OWL
+##### OWL
 
 OWL short for web ontology langauge
 OWL, RDFS and SHACL are ontology languages for RDF
 
-#### applications
+##### applications
 
 FOAF = friend of a friend
 FOAF is an ontology for people, their properties and their relations using RDF/OWL 
 
-##### open graph
+###### open graph
 
 The Open Graph protocol enables any web page to become a rich object in a social graph.
 open graph is based on RDFa.
 Open graph metadata is specified within meta tags.
 There are four required properties for open graph, which are og:image, og:title, og:type and og:url.
 The property of the open graph metadata is specified within the property property, and the value of the open graph metadata is specified within the content property.
+
+#### document data model
+
+a document database implements a document datamodel.
+MongoDB is the most well known document database.
 
 # Modelling
 
@@ -2943,6 +2942,9 @@ A text-based menu is a type of menu that contains only text entries, most common
 
 Many text-based menus are searchable by a type of fuzzy search.
 dmenu and its successor rofi are shell filters that act as a text-based fuzzily searchable menu.
+rofi can similate dmenu with the -dmenu argument
+dmenu/rofi create a menu entry for each item in stdin, where newline is treated as the delimiter by default
+dmenu/rofi output the selected item to stdout
 
 ######## command palette / quick open menu
 
@@ -3015,6 +3017,14 @@ In html, you can force a disclosure widget to start in its open state by specify
   §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
+
+## user experience
+
+### waiting
+
+Waiting is less frustrating when there is an indication of progress and transparancy of how the progress relates to the whole (e.g. Kayak.com showing cheaper prices trundling in).
+Jason Farman (Delayed Response) argues that what really matters about if we leave a waiting situation satisified is if we waited less than we expected, rather than the whole wait time.
+The fact that our expectations are the thing that determines our assesment of waiting and progress bars has given rise to the progress bar that starts out slow and then speeds up towards the end (no matter if this is a correct interpretation)
 
 # data storage
 
@@ -4192,6 +4202,7 @@ default.target   what the machine should try and aim for when booting (another t
 
 ###### CLI
 
+Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
 starting/stopping an unit for systemd does that {{c1::right now}} but temporarily
 enabling/disabling an unit for systemd does that {{c1::next reboot/session (by default)}} but permanently.
@@ -4207,14 +4218,21 @@ list-jobs|list active systemd jobs
 list-units|list all units
 list-unit-files|list unit files
 
+loginctl controls the systemd login manager
+
 #### various subsystems & specs
 
 ##### Desktop Notification Spec
 
 Spec for how notifications should work on linux   Desktop Notifications Specification
 libnotify is the most common implementation of the Desktop Notifications Specification
+To use libnotify, you need to also install a notification server/daemon.
+dust is a minimal notification server/daemon.
 
 ##### bluetooth
+
+hcitool is a command allowing noninteractive bluetooth config.
+
 
 ##### sound
 
@@ -4222,6 +4240,15 @@ Linux's reasonably low-level sound interface is ALSA.
 ALSA|Adavance Linux Sound Architecture
 amixer is a command to control alsa.
 PulseAudio is often layered on top of ALSA
+pactl is a command to manage pulse audio
+in linux soudn jargon, an output is a sink
+
+##### language
+
+ibus and fcitx are linux frameworks for multilingual input
+mozc is a plugin for ibus/fcitx/whatever for japanese input.
+ibus-daemon is the command for managing ibus
+fcitx-configtool allows managing fcitx graphically.
 
 ## command-line 
 
@@ -4314,6 +4341,10 @@ commands e.g. reload
 
 mail or the older mailx are *nix builtins to manage mail.
 
+#### bacvkup
+
+borg, restic
+
 #### termdown
 
 termdown is a terminal timer utility.
@@ -4327,6 +4358,10 @@ L|Lap
 +|add 10s
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
+
+#### misc
+
+cal/ncal display a mini ascii calendar
 
 ### text
 
@@ -4370,6 +4405,7 @@ The amount of lines printed by head/tail defaults to 10
 
 #### generation
 
+fortune|display a random fortune
 
 ### media
 
@@ -4488,6 +4524,7 @@ if no utility is specified with -u, caffeinate creates the assertions directly, 
 ### leaving the shell
 
 termux-open-url   open an url in its default application (termux)
+termux-open   open something it its default application
 
 ### misc
 
@@ -4539,8 +4576,15 @@ tee redirects a stream to stdout and to all listed files
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
 On unix, a process is the instance that has its own heap.
-On unix, every process has a parent.
+
+### process relationshps
+
 PPID|Parent Process ID
+PID|Process ID
+PGID|Process group ID
+
+On unix, every process has a parent.
+
 
 ### process management
 
@@ -4610,7 +4654,6 @@ proper terminal emulators don't run within a GUI, but take over the whole screen
 When in a GUI, /dev/tty0 may be the terminal emulator the window server is running in.
 On linux, pressing ctrl + alt + f<number> switches to tty<number>
 Linux typically starts with 6 virtual consoles, and then one additional one (tty7) to run the window manager in.
-A terminal window is one level of emulation deeper than a terminal emulator, since it lives in a GUI which in linux at least itself lives within a terminal emulator.
 
 /dev/tty represents the current terminal, regardless of what kind of terminal it is
 
@@ -4618,6 +4661,10 @@ In the past, many hardware/physical terminals might have been connected to one c
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
 Today, the system console is merely the device file /dev/console.
 In most modern systems /dev/console is merely a symlink to /dev/tty
+
+the tty command tells us which device file is implementing the current terminal
+
+sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage.
 
 ##### signals
 
@@ -4628,12 +4675,22 @@ In the context of terminals, signals may be sent by/via TTY driver or some other
 
 Things such as color and cursor movement in the terminal are implemented via control characters.
 
-##### terminal window
+##### pseudo terminals
 
+pseudo-terminals are terminals which are simulated within environments, especially within some kind of terminal.
+A terminal window must be one level of emulation deeper than a terminal emulator, since it lives in a GUI which in linux at least itself lives within a terminal emulator.
+Termux is a terminal window for android.
+
+###### terminal window
+
+terminal windows are generally connected to pseudo-terminals
 A terminal emulated within a GUI is known as a terminal window
 Alternative terminal window (mac)|iTerm2
 xterm is the classic terminal window for the X window system.
 most terminal windows are based of xterm
+the default terminal window for gnome is gnome-terminal.
+all the various terminal windows generally have a command of the same name to launch them/specify options
+most terminal emulators take the -e argument to execute the command in the newly opened terminal window.
 
 ##### shell commands for terminal management
 
@@ -4744,6 +4801,10 @@ An interactive shell will typically use the GNU readline library to allow line-e
 While GNU readline is most commonly used in interactive shells, it may be used in may different places.
 GNU readline has both emacs and vi editing modes, with emacs editing mode enabled by default.
 The emacs and vi arguments for set allow switching between those two modes.
+
+######## tab completion
+
+compgen generates potential autocompletes for a certain string based on its option
 
 ####### noninteractive shell
 
@@ -4983,6 +5044,18 @@ $|PID of shell, except in (), where it still has the PID of the shell and not th
 
 declaration commands = {alias, declare, typeset, export, readonly, local}
 
+declare-command ::= declare {<option>} {<name>[=value]}
+
+-f|functions with definitions
+-F|functions without definitions
+-r|readonly
+
+in bash, declare prints the variables to which a given option applies if no names are given, or applies the option to the given names if some are given.
+Thus the declare builtin can be used for a light form of typing.
+for declare options, using + instead of - turns off the attribute instead (yes, really)
+The typeset command is supplied for compatibility with the Korn shell. It is a synonym for the declare builtin command.
+the type command indicates what it would be interpeted as if used as a command name (e.g. is a shell builtin, is a function, etc.).
+
 ### process relationships
 
 A session is a collection of process groups.
@@ -4992,6 +5065,12 @@ A session is a collection of process groups.
 GID|group id
 UID|user id
 groups/users on nix are uniquely identified by their user or group ID.
+groupadd is the command for creating new groups.
+gpasswd is the command for managing /etc/group and /etc/gshadow.
+id is the command for printing things like UID, GID, etc.
+the groups command lists the groups a user is in.
+/etc/groups defines the groups on the system:
+etc-groups ::= {<group-name>:<password-encrypted>:<GID>:<member_list><newline>}
 
 ### commands
 
@@ -5250,6 +5329,7 @@ As of USB 4, the only connector type is USB C.
 ## protocols
 
 Protocols are often {{c1::layered}} to produce a {{c2::protocol stack}}
+A message in any networking protocol typically consists of some headers/metadata and a payload
 
 ### pushpullpoll
 
@@ -5262,6 +5342,11 @@ polling may be used to simulate push protocols.
 
 OAuth 2.0 (grant type: Authorization code)
 <img src="tmp7t5et6aw.png" />
+
+### misc (not OSI/no clear layer)
+
+MTP  Media transfer protocol
+PTP  Picture transfer protocol
 
 ## APIs
 
@@ -5318,12 +5403,15 @@ BCPs are a subset of RFCs.
 
 ## OSI
 
+
 ### network admin tools
 
 ifconfig is a linux tool to configure networke interfaces, though it is often deprecated in favor of iproute2.
 iproute2 collects a bunch of legacy networking commands into a few commands, the most important of which are ip and tc.
 
 ### model comparison
+
+#### models
 
 The OSI model remains useful, but unimplemented.
 In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
@@ -5332,42 +5420,27 @@ The internet protocol suite is a protocol stack
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
 One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one of the precursors to {{c2::the internet}} was {{c3::ARPANET}}
 
-<table>
-<thead>
-<tr>
-<th>OSI Model</th>
-<th>TCP/IP Model</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>((c:1;::Application))</td>
-<td rowspan="3">((c:10;::Application))</td>
-</tr>
-<tr>
-<td>((c:2;::Presentation))</td>
-</tr>
-<tr>
-<td>((c:3;::Session))</td>
-</tr>
-<tr>
-<td>((c:4;::Transport))</td>
-<td>((c:5;::Transport))</td>
-</tr>
-<tr>
-<td>((c:6;::Network))</td>
-<td>((c:7;::Network/Internet))</td>
-</tr>
-<tr>
-<td>((c:8;::Data Link))</td>
-<td rowspan="2">((c:11;::Link))</td>
-</tr>
-<tr>
-<td>((c:9;::Physical))</td>
-</tr>
-</tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+Whatever the {{c1::relevant layer/protocol}} transmits as its {{c2::unit}} is known as a {{c3::protocol data unit}}
+a service data unit is a unit of data that has been passed down from an OSI layer or sublayer to a lower layer.
+The SDU is the payload of the PDU.
+PDU = Protocol data unit
+SDU = Service data unit
+
+#### layers
+
+OSI Model|TCP/IP Model|PDU (TCP/IP)
+Applicatio|Application
+Presentation
+Session
+Transport|Transport|segment (TCP) / datagram (UDP)
+Network|Network/Internet|Packet
+Data Link|Link|frame
+Physical
+
+Frame contains IP packets contains segment/datagram contains application protocol message
+
+TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
+IP packets are transfered in frames between routers.
 
 ### layer 7
 
@@ -5479,6 +5552,17 @@ A web site is a collection of web pages, generally one that share a domain name/
 
 whois is the command to query WHOIS.
 
+##### SMTP, IMAP, POP
+
+SMTP = Simple Mail Transfer Protocol
+IMAP = Internet Message Access Protocol
+POP = Post Office Protocol
+
+SMTP is used by mail servers for sending and recieving email, and by mail clients typically only for sending messages
+IMAP or POP3 are both used to retrieve email messages (though they can be used for other things)
+IMAP keeps messages on the server while POP3 deletes them (by default)
+Between IMAP and POP3, IMAP is more feature-rich.
+
 ##### HTTP
 
 HTTP|HyperText Transfer Protocol
@@ -5560,11 +5644,51 @@ the four common events a <code>WebSocket</code> might recieve client-side are op
 
 the most common node web sockets library is <code>ws</code>
 
+##### DHCP
+
+DHCP = Dynamic Host Configuration Protocol
+
 ### layer 4
+
+#### nc
 
 nc as a command is read netcat
 nc allows you to make raw TCP/UDP connections.
 nc [<options>] [<hostname>] [<port>]
+
+#### ports
+
+FTP|21
+
+#### UDP
+
+the UDP {{c1::datagram header}} consists of {{c2::4}} {{c3::fields}} of {{c2::2}} {{c3::bytes}} for a total of {{c2::8}} {{c3::bytes}} ({{c2::64}} {{c3::bit}})
+of the UDP datagram header's four fields: 
+source port|optional
+destination port|mandatory
+length|mandatory
+checksum|mandatory in IPv6
+<table>
+  <tbody>
+    <tr>
+      <th>octets</th>
+      <th>0 &amp; 1</th>
+      <th>2 &amp; 3</th>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td style="background-color: #fa9;">Source port</td>
+      <td >Destination port</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td >Length</td>
+      <td style="background-color: #fa9;">Checksum</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+the maximum size of a {{c2::UDP datagram}} is {{c1::2^16 bytes}} (although IPv6 {{c3::jumbograms}} do allow more, and {{c4::headers}} take up some of that)
 
 ### layer 3
 
@@ -5572,11 +5696,41 @@ The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to eli
 
 #### IP
 
+IP  Internet protocol
 the {{c1::host URL element}} for the {{c2::loopback address}} is usually {{c3::localhost}}
+the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
+
+##### address space
+
+((h:all;::<img src="1024px-Regional_Internet_Registries_world_map.svg.png">))
+RIR = Regional Internet Registry
+NRO = Number Resource Organization
+There are 5 RIRs.
+the 5 RIRs are affiliated via the NRO
+5 RIR areas:, one for Africa, most of NA, latin and central america + Mexico, Europe + Russia/West Asia, and one for most of Asia + Oceania
+
+##### headers
+
+TTL in IP contexts is short for {{c1::time to live}}
+{{c1::TTL}} is called {{c2::hop limit}} in {{c3::IPv6}}
+
+##### addr
+
+##### tracing
+
+traceroute and tracepathe are *nix utilities to measure IP paths and transit durations.
+{{c1::tracepath}} is a {{c2::non-superuser}} version of {{c3::traceroute}}
+tracepath/traceroute sends messages with adjusted TTL values and uses ICMP time exceeded messages to identify the routers traversed by packets from the source to the destination.
+
+##### ICMP
+
+ICMP = Internet Control Message Protocol
+ICMP is used to send IP/routing-related error/control message.
+ICMP messages are sent within an IP packet
 
 ### layer 2
 
-### layer 2 & 1
+### layer 2 & 1 (TCP/IP Link layer)
 
 NIC = Network interface controller
 A NIC is a hardware component used to connect a computer to a computer network (layer 1 & 2 (physical and data link))
@@ -5596,6 +5750,10 @@ IEEE 802.11|WLAN/WIFI
 WLAN may run in {{c1::infrastructure}} or {{c2::ad-hoc mode}}
 (WLAN) In infrastructure mode, clients connect to  {{c1::a central WAP (Wireless Access Point)}}
 (WLAN) In ad-hoc network mode, clients connect {{c1::to each other peer to peer}}
+
+##### Ethernet
+
+The ethernet frame header contains quite a few fields, amonst which the most important might be destination MAC address and source mac address
 
 ### layer 1
 
@@ -5748,6 +5906,174 @@ semantic-versioning-version-part ::= [<operator]<major>.<minor>.<patch>
 semantic-versioning-version-specifier ::= 
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
+
+## datetimes
+
+Most common format is RFC 3339 / ISO 8601
+RFC 3339 is almost the same as ISO 8601
+
+# computer graphcis
+
+A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly&nbsp; visible with {{c2::no styling/browser default styling}}
+
+## color
+
+<br>---<br>
+  §§ A ((c:17;::color model)) is a model of how ((c:18;::a set of channels)) ((c:19;::make up a color)). §<br>
+§§ A ((c:20;::color space)) is a ((c:21;::color model)) ((c:22;::associated with)) ((c:23;::how the results are to be interpreted (viewing conditions etc.))) §<br>
+§§ A ((c:24;::gamut)) is ((c:25;::a complete/'adjacent')) ((c:26;::subset of a colors)). §<br>
+§§ Often a ((c:27;::gamut)) refers specifically to ((c:28;::the subsset of colors)) that ((c:29;::can be displayed or represented by something)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:30;::Each pixel)) in a ((c:31;::color image)) is made up of ((c:32;::two or more channels)). §<br>
+§§ ((c:33;::Each channel)) in an image/pixel is ((c:34;::associated with a color)). §<br>
+§§ ((c:35;::channels)) of color may also be called ((c:36;::components)). §<br>
+§§ ((c:37;::A channel)) is ((c:38;::the value of a color)) for ((c:39;::a specific pixel, and thus the whole image)). §<br>
+§§ ((c:41;::Combining)) ((c:40;::the color channels)) of a pixel (and thus the image) ends you up with ((c:42;::the color of the pixel/image)). §<br>
+===<br>
+
+<br>---<br>
+  §§ In the ((c:43;::RGB)) ((c:44;::color model)) a thingy has the ((c:45;::three)) ((c:46;::channels)) ((c:47;::red, green and blue)). §<br>
+§§ In the ((c:48;::CMY)) ((c:49;::color model)) a thingy has the ((c:50;::three)) ((c:51;::channels)) ((c:52;::cyan, magenta and yellow)). §<br>
+§§ The ((c:53;::CMYK)) ((c:54;::color model)) ((c:56;::adds a channe))l of ((c:55;::key)) (= ((c:55;::black))). §<br>
+§§ The ((c:57;::key channel)) is ((c:58;::generally added to CMYK)) because ((c:59;::black ink is cheaper,)) and ((c:60;::producing black by mixing cyan, magenta and yellow is in practice quite hard)). §<br>
+§§ The ((c:61;::CMY)) and ((c:62;::RGB)) ((c:63;::color models)) are ((c:64;::the most common color models in use today)), in part because ((c:65;::they correspond roughly to human tricromatic color vision)). §<br>
+§§ An ((c:66;::additive color model)) is one where ((c:67;::colors)) ((c:68;::added together)) produce ((c:69;::progressively lighter colors)). §<br>
+§§ ((c:70;::Light emission)) follows ((c:71;::an addtive)) color model. §<br>
+§§ A ((c:72;::subtractive color model)) is one where ((c:73;::colors)) ((c:74;::added together)) produce ((c:75;::progressively darker colors)). §<br>
+§§ ((c:76;::Light absorption)) follows ((c:77;::a subtractive)) color model. §<br>
+§§ ((c:78;::RGB)), being ((c:79;::an additive color model)), is mainly used for ((c:80;::displays and other places where light is emitted)). §<br>
+§§ ((c:81;::CMYK)) being ((c:82;::a subtractive color model)) is mainly used for ((c:83;::printing and other places where light is absorbed.)) §<br>
+§§ ((c:84;::RYB)) is an alternative ((c:85;::subtractive)) ((c:86;::color model)) still used in the arts. It can however not ((c:87;::create black)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:88;::Color depth)) indicates ((c:89;::the amount of bits used)) for ((c:90;::color)) ((c:91;::per pixel)) or ((c:92;::per channel)) (since ((c:93;::these rarely overlap)), there is no ((c:93;::confusion)).) §<br>
+§§ ((c:94;::Color depth)) is more rarely also called ((c:95;::bit depth)). §<br>
+§§ Today, the ((c:96;::most common)) ((c:97;::color depth)) is ((c:98;::8 bit per channel)). §<br>
+===<br>
+
+<br>---<br>
+  §§ the ((c:99;::common color depth of 8 bit per channe))l means values from ((c:100;::0 - 255)) / ((c:101;::00 to ff)). §<br>
+§§ Most colors are specified by ((c:102;::specifying the color model)) and then ((c:103;::the components)) (e.g. ((c:104;::RGB 0, 120, 58))). §<br>
+§§ ((c:105;::RGB colors)) are also often displayed as ((c:106;::a hex triplet,)) which is generally ((c:107;::prefixed by a # character)). §<br>
+§§ In certain places, e.g. HTML/CSS, hex colors ((c:226;::with reduplicated digits only (e.g. 663399))) can ((c:227;::be shortened to three-digit variants (e.g. 639))) §<br>
+===<br>
+
+<br>---<br> 
+  §§ ((c:108;::A primary color)) is ((c:109;::a member of)) a ((c:110;::set of colors)) (all ((c:111;::defined to be primary))) that ((c:112;::can be combined in varying amounts)) to ((c:113;::create a gamut of colors)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:114;::CMY)) and ((c:114;::RGB)) are ((c:115;::complementary)) in such a way that ((c:116;::C+R)), ((c:116;::M+G)), and ((c:116;::Y+B)) are ((c:117;::all 100% (255 with an 8 bit color depth))). To ((c:118;::get one channel)), ((c:119;::the other is subtracted from 100%)). §<br>
+§§ To get ((c:120;::the K channel)) from ((c:120;::CMY)): K = ((c:121;::min(C, M, Y))) §<br>
+§§ After ((c:122;::getting the K channel)), to ((c:123;::convert CMY to CMYK)): ((c:125;::Channel_new)) =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">((c:124;::Channel - K))</div><div>((c:125;::1 - K))</div></div> §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:129;::Hue)) is what we might call ((c:130;::<i>color</i>))&nbsp;color. §<br>
+§§ ((c:131;::Hue)) is what ((c:132;::most languages)) ((c:133;::consider primary)) about ((c:134;::color)), with ((c:135;::other attributes such as light/dark/muddy/vivid/pastel)) ((c:136;::attached later)). §<br>
+§§ ((c:137;::Hue)) is often ((c:138;::generated from)) ((c:139;::RGB)), e.g. for ((c:140;::use in HSL &amp; HSV/HSB)). §<br>
+§§ If ((c:141;::Hue)) is ((c:142;::generated)) from ((c:142;::RGB)) for ((c:142;::HSL/HSV)), it is specified in ((c:143;::a degree from 0 to 360 deg)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">If Hue is specified in a degree measurement</th></tr>
+    <tr><th>degree</th>
+    <th>color</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:144;::0deg/360deg))</td> <td>((c:145;::red))</td></tr>
+<tr><td>((c:146;::120deg))</td> <td>((c:147;::green))</td></tr>
+<tr><td>((c:148;::240deg))</td> <td>((c:149;::blue))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ Commonly, ((c:156;::saturation)) ≈ ((c:157;::chroma)) refers to ((c:158;::the distance)) of ((c:159;::a color)) ((c:158;::from)) t((c:160;::he white-gray-black spectrum)). §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:161;::Lighntess)) attempts to model ((c:162;::adding white/black paint)) to ((c:163;::make the color white/black)). §<br>
+§§ ((c:164;::100%)) ((c:166;::lightness)) is ((c:165;::white)) for ((c:165;::any saturation/hue)). §<br>
+§§ ((c:167;::50%)) ((c:171;::lightness)) ((c:168;::allows for fully saturated colors)). §<br>
+§§ ((c:169;::0%)) ((c:172;::lightness)) is ((c:170;::black)) for ((c:170;::any saturation/hue)) §<br>
+§§ ((c:173;::Value/brightness)) attempts to model ((c:174;::how shining more/less light on a thing)) will ((c:175;::change the color)). §<br>
+§§ ((c:176;::100%)) ((c:181;::value/brightness)) ((c:177;::allows for fully saturated colors.)) §<br>
+§§ ((c:178;::0%)) ((c:179;::lightness)) is ((c:180;::black)) for ((c:180;::any saturation/hue)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:151;::tint))</td> <td>((c:152;::mixture of a color with white))</td></tr>
+<tr><td>((c:153;::tone))</td> <td>((c:154;::mixture of a color with gray))</td></tr>
+<tr><td>((c:155;::shade))</td> <td>((c:150;::mixture of a color with black))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ ((c:182;::HSL)) = ((c:186;::hue, saturation, lightness)). §<br>
+§§ ((c:183;::HSV)) = ((c:187;::hue, saturation, value)) ((c:190;::is the same as)) ((c:188;::HSB)) = ((c:189;::hue, saturation, brightness.)) §<br>
+§§ ((c:184;::HSL)) and ((c:184;::HSV/HSB)) are alternate ((c:191;::color models)), which are both ((c:192;::variants of/generated from)) ((c:193;::the RGB color model)). §<br>
+§§ ((c:185;::HSL)) and ((c:185;::HSV)) were created because ((c:194;::they are more natural to how we as humans understand color.)) §<br>
+§§ ((s:ga;::While ((c:195;::RGB)) and ((c:195;::CMY)) are most naturally represented as ((c:196;::cubes)))), ((s:gb;::((c:197;::HSL)) and ((c:197;::HSV/HSB)) are commonly represented as ((c:198;::cylinders)))). §<br>
+§§ Since ((c:199;::the top and bottom)) of ((c:200;::a ((s:202;::HSL)) cylinder)) ((c:201;::all approach the same color (white and black respectively))), ((s:gb;::((c:202;::HSL)) may also ((c:203;::be represented as a bicone)))). §<br>
+§§ Since the ((c:204;::bottom)) of ((c:205;::a HSV/HSB cylinder)) ((c:206;::approaches the same color (black))), ((s:gb;::HSV/HSB may more naturally be represented as a cone.)) §<br>
+§§ ((c:207;::HSL)) and ((c:208;::HSV/HSB)) both have ((s:211-212;::((c:209;::hue)) as ((c:210;::the degree)))), and ((s:209-210;::((c:211;::saturation)) as ((c:212;::the radius)).)) §<br>
+§§ ((c:213;::HSL)) has ((c:214;::lightness)) as ((c:215;::the height.)) §<br>
+§§ ((c:216;::HSV/HSB)) has v((c:217;::alue/brightness)) as ((c:218;::the height)).  §<br>
+§§ both ((c:219;::HSL)) and ((c:219;::HSV/B)) have the problem that ((c:220;::changing)) the ((c:221;::saturation)) and ((c:223;::to a certain extent)) ((c:222;::the hue)) ((c:220;::will change)) ((c:224;::the percieved lightness/brightness)), even when ((c:225;::they are supposed to be independent)). §<br>
+===<br>
+
+<div class="flex-container">((h:all;::<img src="sm_hsl_cylinder.png">))((h:all;::<img src="sm_hsv_cylinder.png">))</div>
+<div class="flex-container">((h:all;::<img src="sm_hsl_cone.png">))((h:all;::<img src="sm_hsv_cone.png">))
+</div>
+<br>---<br>
+For any given color model, to ((c:228;::specify transparency)), you ((c:229;::add another channel)), which is called the ((c:230;::alpha)) channel.
+For a color hex, you ((c:231;::specify the alpha channel)) by ((c:232;::adding another two-digit hex to the end)).
+  §§ ((c:126;::&lt;color-model&gt;-D)) is ((c:127;::just that color model)) with ((c:128;::an additional depth channel.)) §<br>
+===<br>
+
+<table>
+  <thead>
+    <tr><th>RGB 3-tuple notation</th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Rgb(0, 0, 0)))</td> <td>((c:2;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">))</td></tr>
+    <tr><td>((c:3;::Rgb(0, 0, 255)))</td> <td>((c:4;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">))</td></tr>
+    <tr><td>((c:5;::Rgb(0, 255, 0)))</td> <td>((c:6;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">))</td></tr>
+    <tr><td>((c:7;::Rgb(0, 255, 255)))</td> <td>((c:8;::<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">))</td></tr>
+    <tr><td>((c:9;::Rgb(255, 0, 0)))</td> <td>((c:10;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">))</td></tr>
+    <tr><td>((c:11;::Rgb(255, 0, 255)?))</td> <td>((c:12;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">))</td></tr>
+    <tr><td>((c:13;::Rgb(255, 255, 0)))</td> <td>((c:14;::<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">))</td></tr>
+    <tr><td>((c:15;::Rgb(255, 255, 255)?))</td> <td>((c:16;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">))</td></tr>
+<tr><td>((c:233;::#f2f12f))</td> <td>((c:234;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">))</td></tr>
+<tr><td>((c:235;::#e6281f))</td> <td>((c:236;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">))</td></tr>
+<tr><td>((c:237;::#e2e))</td> <td>((c:238;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">))</td></tr>
+<tr><td>((c:239;::#daefe4))</td> <td>((c:240;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">))</td></tr>
+<tr><td>((c:241;::#867d7e))</td> <td>((c:242;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">))</td></tr>
+<tr><td>((c:243;::#17F099))</td> <td>((c:244;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">))</td></tr>
+<tr><td>((c:245;::#132133))</td> <td>((c:246;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}</span>
+
+## blending
+
+Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
+Blend modes typically use values from 0 to 1 for the channels for the math.
+When describing blend modes, t denotes the top layer and b the bottom layer
+In general, when channel is specified, assume it is done to each channel.
+normal|use alpha compositing
+multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
+screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
 # automation
 
