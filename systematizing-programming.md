@@ -5,15 +5,7 @@
 An expression evaluates to = returns a value.
 e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
 
-## imperativeness
-
-Imperative vs. declarative may be understood as a spectrum.
-If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
-If imperative/declarative is understood as a spectrum, the more declarative something is, the more you're merely specifying what you want to happen, unconcerned about the steps.
-On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
-Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
-
-### Statements
+## Statements
 
 Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
 Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
@@ -22,7 +14,15 @@ Since statements do not return a value, they either do nothing or cause side eff
 var test = 2 + 6; -> side effect of initializing a variable test
 An expression statement is a statement that consists of a single expression.
 
-#### statement separators and terminators
+### imperativeness
+
+Imperative vs. declarative may be understood as a spectrum.
+If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
+If imperative/declarative is understood as a spectrum, the more declarative something is, the more you're merely specifying what you want to happen, unconcerned about the steps.
+On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
+Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
+
+### statement separators and terminators
 
 A statement separator is used to demarcate boundaries between two separate statements. A statement terminator is used to demarcate the end of an individual statement.
 Semicolons are used in programming languages for two things: statement separators and statement terminators. When a language uses semicolons as statement separators, this allows you to write more than one statement on the same line.
@@ -65,12 +65,9 @@ In some languages, notably Ruby and Rust, block expression return the value of t
 liquid|{% keyword %} ... {% endkeyword %}
 python|Sass|indentation
 
-##  control flow
+### control structures
+
 The default control flow is linear from top to bottom, this is called sequencing.
-
-## control structures
-
-
 A thing that modifies control flow is a control structure. 
 
 A control structure takes the normally linear flow of code and makes it somehow nonlinear.
@@ -92,13 +89,13 @@ Ergo, one can use the `test` command in the condition of a (ba)sh control struct
 test is also available under the name `[` but requires a closing `]` in this case.
 (ba)sh requires all operators and the [] themselves to be separated by spaces, since [ is actually just a symlink for test, and thus all of these are actually arguments for a command.
 
-### choice/selection control structures
+#### choice/selection control structures
 
 choice/selection control structures allows choosing between several alternatives based one or more conditons.
 choice/selection control structures constructs are also just called conditionals.
 In conditionals, any of the possible paths is called a branch.
 
-#### if
+##### if
 
 The most common conditional is if/then/else. 
   
@@ -116,7 +113,7 @@ Anki has a if-like conditional to show something only if a field has content, in
 	Lorem Ipsum
 {{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}</code></pre>
 
-#### conditional operator
+##### conditional operator
 
 The ternary operator is a conditional which is typically an expression. 
 The ternary operator is more properly called conditional operator. 
@@ -129,7 +126,7 @@ The conditional operator comes from C (more properly an early ancestor of C), th
   >
 Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
-#### others
+##### others
 
 An if statement/expression, but reversed in its truth value, is an unless statement/expression.
 unless statements/expressions use the keyword unless.
@@ -139,7 +136,7 @@ unless statements exist in liquid, perl, ruby
 Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
 for the postfix conditionals in perl, ruby
 
-#### switch
+##### switch
 
 switch is a type of conditional.
 the switch conditional is generally a statement.
@@ -162,12 +159,12 @@ JS Syntax examples:
    {{c4::default:}}
 }</code></pre>
 
-#### guards
+##### guards
 
 guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
 Of the languages I know, Rust has guards, introduced by `if`.
 
-### Iteration/Loop control structure 
+#### Iteration/Loop control structure 
 
 Control flow that repeats the code a number of times is called iteration/looping
 
@@ -249,7 +246,7 @@ JS and C have labels.
 JS label syntax: <name>:
 Labels can be used to break out of a loop that is not the enclosing one.
 
-## other statements
+### other statements
 
 Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
 
@@ -471,9 +468,6 @@ When a owner goes out of scope, a value is dropped.
 
 A variable is an identifier which is associated with a storage location which contains a value.
 
-In lua, values are typed, but variables are not. TODO: isn't this equivalent to dynamic typing? maybe I can elaborate on that, and also on the relationship to shell, where not even values are typed.
-
-
 ### Declaration and initialization
 
 Declaring something is saying what an identifier means.
@@ -645,6 +639,9 @@ In implementation, each value of a type has a unique (within the type) binary re
 Typing can also be understood as how to interpret a series of bits.
 A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
 A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
+A language may also be untyped: neither variables nor values have type.
+An example of an untyped language is bourne shell, which is completely untyped.
+Bash supports a very mediocre type of typing via builtins such as declare.
 
 #### Dynamic vs Static typing
 
@@ -1237,7 +1234,9 @@ In rust, a char contains a single UTF-32 encoded unicode codepoint.
 ### Strings
 
 A string type is generally a type for an arbitrary sequence of characters.
-Depending on the language, strings may be mutable or immutable (python, JS).
+Depending on the language, strings may be mutable or immutable.
+In general, more languages lean to the immutable string direction.
+Languages with mutable strings I know include Perl, Ruby.
 If a language has immutable strings, string operations actually create a new string.
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
 In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
@@ -2165,56 +2164,6 @@ An interpreter directive is a type of pragma that specifies which interpreter to
 On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
 The shebang consists of the characters #!.
 
-## IO
-
-### the enviornment
-
-In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
-sys.stdin|python
-
-Command-line arguments
-@ARGV|Perl
-process.argv|node
-
-Environment variables
-%ENV|Perl
-process.env|Node
-
-### Print
-
-Print functions in different languages
-
-print()|lua|perl (no final newline)|python|Ruby (no final newline)
-say()|perl (final newline)
-puts|Ruby (final newline)
-console.log()|JS
-@debug|SCSS/Sass
-System.out.prinln()|Java
-Console.WriteLine|C#
-echo|liquid (within liquid block)|(ba)sh
-
-echo options
--n|no trailing newline
-
-Print functions using format strings
-printf|(ba)sh|C (ofc)|Perl|Ruby
-string.format|Lua
-% syntax|Python
-
-Print an error to console (but don't throw one)
-console.error()|JS
-@warn|SCSS/Sass
-
-the sh printing commands all don't read from STDIN
-besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
-
-### visual
-
-#### UI
-
-widget tookit   library for creating UIs
-gtk   GNU widget toolkit
-qt (read cute)   cross-platform widget toolkit
 
 ## Formatting
 
@@ -2277,25 +2226,6 @@ General syntax: export <members> [as <name>]
 
 Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
 In casual use, event listener and event handler are synonyms.
-
-## APIs
-
-API = application programming interface
-an API is an interface for software to interact with a piece of software/application/library/functionality etc.
-Glue code is code that is needed to make two things (mostly interfaces) which are not interoperable interoperable.
-A wrapper library is a library that contains one or more other libraries and transforms their interface into a different interface.
-wrapper libraries may be glue code, but also may be for abstraction or to improve a mediocre interface.
-API bindings are glue code to allow one to call a specific API.
-API bindings for libraries are generally wrapper libraries.
-A foreign function interface allows one to call functions of a different language from ones given language.
-A foreign function interface often calls C or C++ functions (due to their ubiquity).
-To use a foreign function using a foreign function interface often requires you to write some glue code (e.g. the signatures), though most of the glue code is handled by the language itself.
-ffis may be glue code. 
-One could write one's own API bindings or a wrapper library using a foreign function interface.
-A shim is a library that takes API calls for something else and then does something with them.
-A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
-A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
-
 
 ## lifecycle
 
@@ -2396,6 +2326,93 @@ reference circles can allow things in refrence counting to never reach reference
 
 ## libraries
 
+
+### IO
+
+#### the enviornment
+
+In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
+sys.stdin|python
+
+Command-line arguments
+@ARGV|Perl
+process.argv|node
+
+Environment variables
+%ENV|Perl
+process.env|Node
+
+#### Print
+
+Print functions in different languages
+
+print()|lua|perl (no final newline)|python|Ruby (no final newline)
+say()|perl (final newline)
+puts|Ruby (final newline)
+console.log()|JS
+@debug|SCSS/Sass
+System.out.prinln()|Java
+Console.WriteLine|C#
+echo|liquid (within liquid block)|(ba)sh
+
+echo options
+-n|no trailing newline
+
+Print functions using format strings
+printf|(ba)sh|C (ofc)|Perl|Ruby
+string.format|Lua
+% syntax|Python
+
+Print an error to console (but don't throw one)
+console.error()|JS
+@warn|SCSS/Sass
+
+the sh printing commands all don't read from STDIN
+besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
+
+#### visual
+
+##### UI
+
+widget tookit   library for creating UIs
+gtk   GNU widget toolkit
+qt (read cute)   cross-platform widget toolkit
+
+### dispose
+
+The dispose pattern is a pattern for resource management.
+In the dispose pattern, a resource is held by an object.
+In the dispose pattern, a resource is typically aquired by calling a global function.
+In the dispose pattern, a resource is used by calling methods on it.
+In the dispose pattern, a resource is released by calling a method on the object.
+The dispose pattern is common for interacting with files, in which case the resource is a file handle.
+Dispose pattern for file handles:
+An open() function takes a path and returns a file handle.
+file handle methods
+write()|write argument to file
+read()|return whole file as string
+readline()|return next line as string
+close()|release the file handle
+
+Languages that handle files based  on the dispose pattern: Python
+For Python, the open method takes a named parameter mode:
+r|read
+w|overwrite (create if doesn't exit)
+x|create but don't overwrite
+a|append at end (create if doesn't exist)
+For Python, the open method takes a named parameter of encodding
+
+some languages have language constructs for the dispose pattern: 
+with|Python
+using|C#
+Languages that have language constructs for the dispose pattern typically require the things they act on to implement a certain inteface with methods for aquiring and releasing the resources, which will then be called automatically.
+The language constructs for the dispose pattern typically assign the resource to a local variable.
+The language constructs for the dispose pattern typically only execute their code if the resource could be successfully aquired.
+In python, the interface for the dispose pattern is a context manager object, which must have __enter__ and __exit__ methods.
+python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
+c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
+
+
 ### Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
@@ -2479,6 +2496,16 @@ all(iterable)|Python
 Sum up all the elements in an iterable
 sum(iterable)|Python
 enumerableWhichIsJustASynonymForIterable.sum()|Ruby
+
+#### assoc-array files
+
+typically, most languages have modules/libraries called json/yaml for json/yaml processing.
+JS calles its json/yaml libraries JSON/YAML.
+<j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
+<j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
+<j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
+
+to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
 
 #### Modules/Objects/Namespaces
 
@@ -2615,20 +2642,30 @@ A race condition is often a flaw that may cause bugs.
 
 ## Programming language implementation
 
-A programming language implementation is a system for executing computer programs. There are two general approaches to programming language implementation: interpretation and compilation
+A programming language implementation is a system for executing computer programs written in a given programming language (s). 
+There are two general approaches to programming language implementation: interpretation and compilation
+While we might talk about {{c2::programming languages}} being {{c1::compiled or interpreted}}, but actually it's {{c3::the relevant implementation}} that is {{c1::a compiler or an interpreter}}.
+A {{c1::reference implementation}} is an {{c2::implementation}} of a {{c2::specification}} generally written by {{c3::the creators}} of {{c5::the API/programming language/whatever}} to be {{c4::an example for other implementations}}
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
 
 $Something that happens during execution   runtime $something
 $Something that happens during compiling   compile-time $something
 
-### Compilation/Interpretation
+### Types
 
 A compiler translates one programming language into another in one step before execution.
 Most commonly, a compiler translates a programming language into machine code/assembler.
 An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
+JIT
 
-#### Compiling/Interpreting
+#### Transpiling
+
+A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
+While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
+Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+
+### Steps involved
 
 1. lexical analiysis/tokenization/lexing
 2. sytax analysis = parsing
@@ -2648,15 +2685,9 @@ The analogue of token type in linguistics might be word class/syntactic category
 Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
 In the context of compiling/interpreting, identifier/name is a synonym for symbol.
 
-#### JIT
+### interfaces for implementation
 
-### Transpiling
-
-A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
-While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
-
-### Language CLI
+#### Language CLI
 
 most languages have a CLI tool to interface with them, esp. with implementations
 
@@ -2670,7 +2701,7 @@ rustc|rust
 -c STRING|read program from string|python
 -e STRING|read program from string|perl
 
-#### REPL
+##### REPL
 
 REPL is short for read-eval-print loop
 {{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
@@ -2686,13 +2717,18 @@ Python calls being in the repl interactive mode
 the value of the last expression
 _|Python
 
-### Shebangs
+#### Shebangs
 
 env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
 Using env in the shebang is to get the relevant executable on the path
 so in general, you can specify the language of a script by doing 
 #!/usr/bin/env language-command
 
+### specific languages
+
+CPython is the most common and reference implementation for Python.
+CPython implicitly compiles Python to bytecode, and then runs the bytecode via an interpeter.
+Python bytecode files produced by CPython are .pyc files.
 
 ## Boilerplate
 
@@ -2742,6 +2778,11 @@ continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
 {{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
 
+### code writing enviroments
+
+Integrated development environment   IDE
+An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
+
 ## QA
 
 ### code review
@@ -2764,8 +2805,17 @@ End to end testing tests that with a given input, the program will flow correctl
 
 ## documentation
 
+### methods
+
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying does.
+
+### generation
+
+mdBook is a rust crate and command-line tool that produces books from markdown.
+mdBook produces books similar to the rust book.
+mdBook can easily be deployed to github pages.
+
 
 ## requirements engineering
 
@@ -2963,22 +3013,28 @@ In JS, the optional chaining operator works like dot notation, except that if us
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
 The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
 
-## IDEs
+## Project Jupyter
 
-Integrated development environment   IDE
-An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
+Jupyter notebooks are multimedia documents.
+Jupyter notebooks can contain code, markdown test, math, plots, media/images.
+Code within Jupyter notebooks are run by kernels.
+There Jupyter kernels for a bunch of different programming languages.
+The python kernel for Jupyter notebooks is the ipython kernel.
+Jupyter notebooks are in fact implemented via json files.
+The file type of {{c1::jupyter notebooks}} is {{c2::.ipynb}}
+The Jupyter Notebook App is a server-based application that allows editing and running notebook documents via a web browser.
+The Jupyter Notebook App can be executed locally or can be installed on a remote server and accessed through the internet.
+Jupyter Notebooks can be edited using many different programs, e.g. the official Jupyter Notebook App, but also VSCode
+The thing managing all the Jupyter stuff is Project Jupyter
 
 
 
 
-
+## misc
 
 https://en.wikipedia.org/wiki/Type_theory#History
 
 Associative arrays: names, literals, other construction methods, etc.
-
-
-
 
 
 

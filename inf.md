@@ -241,10 +241,15 @@ The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 <tr>
 <td>((c:6;::playbackRate))</td>
 <td>((c:11;::Represents the speed at which the thing is playing))</td>
-<td>JS</td>
+<td>IDL</td>
 </tr>
 </tbody>
 </table>
+
+the HTMLMediaElement has quite a few different events
+Attribute change:
+paused=false -> paused=true|pause
+paused=true -> paused=false|play
 
 You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
 You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
@@ -2889,10 +2894,15 @@ e.g. cmd k then m to select the document language in VSCode
 
 ######## code editing
 
+######### vscode
+
 rename a symbol|<kbd>f2</kbd>
 see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
 change (programming) language of current document|<kbd class='modifier cmd'></kbd><kbd>k</kbd>&nbsp;&nbsp;<kbd>m</kbd>
 show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`</kbd>
+fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
+copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
+move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 
 ##### autocomplete
 
@@ -2993,6 +3003,38 @@ Often (VSCode, Devltools) a command palette is merely a mode of a quick open men
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}</span>
 
+####### context menu
+
+((h:all;::<img src="Menu_key_screen.jpg">))((h:all;::<img src="Context_menu_windows.png">))((h:all;::<img src="Context_Menu_on_OS_X_10.9.png">))
+A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
+
+###### ambiguous
+
+####### task switcher
+
+A task/app(lication) switcher is a menu that allos switching between open programs or windows.
+A task switcher that allows switching between windows is more properly a window switcher.
+windows|alt+tab|windows
+mac|cmd+tab|applications
+
+####### hamburger 
+
+<img src="hamburger-menu-definition.png">
+A hamburger menu is a menu triggered by a hamburger button.
+A hamburger menu generally comes out from the side, contains a a list of navigation options, and covers between 70% - 100% of the screen
+A hamburger button is a three-line icon that contains 
+A hamburger menu most often refers to the menu you get when you click a hamburger button but also may refer to the button itself, or the whole package
+
+##### bar
+
+A bar is a long-ish rectangle found at the edge of an UI element.
+
+###### title bar
+
+A title bar is a bar that is typically located at the top of a window and contains the name of the application andor document/window, as well as the title bar buttons.
+the title bar buttons are most typically minimize, maximise and close.
+In most GUIs, you can move the window by grabbing the title bar and dragging.
+In most GUIs, you can expand the window to fill the screen by double-clicking the title bar.
 
 ##### breadcrumbs
 
@@ -3024,6 +3066,15 @@ In html, you can force a disclosure widget to start in its open state by specify
   §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
+
+#### actions
+
+##### window snapping
+
+Window snapping is making windows take up an exact area of the screen (most commonly halves, thirds, corners)
+Window snapping is most commonly performed by dragging them to edges/corners, via keyboard shortcuts or other buttons/automatic dialogs.
+Windows has had window snapping as of windows 7.
+Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now deprecated) or Rectangle
 
 ## user experience
 
@@ -3938,6 +3989,9 @@ speculative execution is worthwhile if the cost of waiting until we know if the 
 speculative execution is most commonly referred to in the case of instuction pipelining, but may also be performed in many higher-level tasks.
 speculative execution (in CPUs) is most often performed in the case of control flow, where branch prediction is often used to try and guess which branch is most likely.
 
+###### RISC instruciton pipelining
+
+Instruction fetch > Instruction decode and register fetch > Execute > Memory access > Register write back 
 
 ##### Hazards
 
@@ -3972,9 +4026,10 @@ ARM is a family of instruction set architectures
 ARM ISAs are the most common type of RISC arcchitectures.
 While PowerPC was also a RISC ISA and was widely used in all sorts of products, RISC largely became mobile/embedded-only in the mid 2000s until 2021, with apple's switch to ARM RISC processors and their use in in e.g. the worlds most powerfull supercomputer 富岳.
 RISC chips generally have far lower power consumption than CISC chips.
-Most RISC ISAs are also load-store ISAs.
+Most but not all RISC ISAs, including ARM and RISC-V, are also load-store ISAs.
 CPI = clocks/cycles per instruction
 In general, a RISC ISA has 1 CPI, with fixed-length instructions.
+{{c1::RISC-V}} is a {{c2::RISC}} instruction set architecture that is {{c3::open source}}.
 
 #### cache
 
@@ -4094,7 +4149,9 @@ older *nixes|init
 newer linuxes|systemd
 macOs|launchd
 
-# crypt
+# security
+
+## crypt
 
 {{c1::a cipher}} is an algorithm for performing encryption/decryption
 Ciphertext is the text that is the result of {{c1::using a cipher}}
@@ -4102,15 +4159,39 @@ A substitution cipher is a cipher where an unit of plaintext is replaced by an u
 The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
 A brute-force attack is an attack of something such as a password {{c1::By trying until successful}}
 
-## random numbers
+### random numbers
 
 C(S)PRNG  Cryptographically (secure) pseudorandom number generator
 PRNG  pseudorandom number generator
 RNG  random number generator
 
+## network 
+
+### DOS
+
+DoS = denial of service
+DDoS = distributed denial of service
+In a DoS, the goal is to make a network resource unavailable.
+In general, DoS succeed in making the network resource unavailable by taking up all its resources.
+DoS may be performed by flooding the target with requests, or with some more sophisticated techniques.
+A DDoS attack is a DoS performed from many different sources.
+
+#### Low and Slow
+
+##### Slow Loris
+
+
+
 # *nix
 
-## relationships & standards
+## different *nixes
+
+### POSIX
+
+The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
+POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
+
+### differences
 
 Different *nixes have different versions of different command-line tools, on account of having descended in different ways from the original unix.
 coreutils are the basic GNU file, shell and tex manipulation utilities.
@@ -4120,12 +4201,9 @@ You can install the GNU coreutils on non-GNU systems via homebrew.
 If there is also a preexisting version of the command when the GNU coreutils are installed with homebrew, they are prefixed with g (e.g. gdir instead of dir).
 If you need the normal names of the GNU coreutils when installed with homebrew (e.g. because they're being used in a preexisting script etc, add the directory they're in (/opt/homebrew/opt/coreutils/libexec/gnubin) to your $PATH
 
-### POSIX
+### what's in a *nix
 
-The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
-POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
-
-## GNU/Linux
+#### GNU/Linux
 
 GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
 GNU = GNU's not unix
@@ -4135,31 +4213,34 @@ Linux technically refers to the Linux kernel.
 GNU software set + Linux kernel = GNU/Linux
 Often, Linux alone is used (technically incorrectly) to refer to GNU/LInyx
 
-### linux
-
-#### distros
-
 A Linux distribution is GNU/Linux plus a set of other stuff, which depends on the flavor.
 
-#### input
+Android uses the Linux Kernel but not GNU or any of the other libraries.
+From {{c3::android}} {{c1::1.0}} until {{c2::9}}, {{c3::android}} versions had {{c4::sweets}}-based names, with each name {{c5::going one further in the alphabet}}
+
+### libraries & systems
+
+#### linux
+
+##### input
 
 On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
 libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
 
-#### grapical display & related systems
+##### grapical display & related systems
 
 pango is a linux library for international text rednering.
 
-##### X
+###### X
 
-###### Login
+####### Login
 
 A X display manager is a graphical login manager which starts a login session on an X server.
 the GNOME X display manager is gnome's display manager.
 GDM = GNOME display manager
 LightDM is the most common alternative to GDM.
 
-###### DE
+####### DE
 
 D-Bus is a protocol/interface/middleware for messaging between processes (IPC).
 AccountsService is a D-BUs service for accessing the list of user accounts and information attached to those accounts.
@@ -4167,12 +4248,12 @@ AccountsService is a D-BUs service for accessing the list of user accounts and i
 What Desktop Environment you're using   XDG_CURRENT_DESKTOP
 What Desktop Environment you selected from the display manager (might be limited to gnome display manager)   GDMSESSION
 
-###### CLI
+####### CLI
 
 xdotool allows automation of X windows
 xclip allows interaction with the X clipboard
 
-#### systemd
+##### systemd
 
 In SystemV style init, the init process was actually called init.
 In SystemV style init, the device starts by executing numbered startup scripts one at a time.
@@ -4189,7 +4270,7 @@ There are different systemd folders depending on the persistence that is desired
 /lib/systemd|persitent (package-manaed software, the os)
 /etc/system|persistent (device admin)
 
-##### units
+###### units
 
 systemd deals with system units.
 A systemd unit represents any kind of system resource.
@@ -4209,7 +4290,7 @@ When a .path units path becomes available, {{c1::an associated .service}} is sta
 When a .socket unit has some activity, an associated service is started.
 When a .timer units time state is reached, an associated unit is started.
 
-###### targets
+####### targets
 
 reboot.target   The target for rebooting
 poweroff.target   The target for turning off the computer
@@ -4217,7 +4298,7 @@ multi-user.target   multiuser (but no GUI)
 graphical.target   multiuser <b>with GUI</b>
 default.target   what the machine should try and aim for when booting (another target generally)
 
-###### CLI
+####### CLI
 
 Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
@@ -4237,21 +4318,21 @@ list-unit-files|list unit files
 
 loginctl controls the systemd login manager
 
-#### various subsystems & specs
+##### various subsystems & specs
 
-##### Desktop Notification Spec
+###### Desktop Notification Spec
 
 Spec for how notifications should work on linux   Desktop Notifications Specification
 libnotify is the most common implementation of the Desktop Notifications Specification
 To use libnotify, you need to also install a notification server/daemon.
 dust is a minimal notification server/daemon.
 
-##### bluetooth
+###### bluetooth
 
 hcitool is a command allowing noninteractive bluetooth config.
 
 
-##### sound
+###### sound
 
 Linux's reasonably low-level sound interface is ALSA.
 ALSA|Adavance Linux Sound Architecture
@@ -4260,7 +4341,7 @@ PulseAudio is often layered on top of ALSA
 pactl is a command to manage pulse audio
 in linux soudn jargon, an output is a sink
 
-##### language
+###### language
 
 ibus and fcitx are linux frameworks for multilingual input
 mozc is a plugin for ibus/fcitx/whatever for japanese input.
@@ -5156,14 +5237,36 @@ In computer science, a {{c4::session}} is {{c2::started at some point}}, {{c3::e
 A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
 A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
+### proxy
+
+((h:all;::<img src="Proxy_concept_en.svg">))
+A {{c1::proxy (server)}} is a {{c2::server/server application}} that {{c3::acts as an intermediary between}} {{c4::a client requesting a resource}} and {{c4::the server providing that resource.}}
+A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
+((h:all;::<img src="Reverse_proxy_h2g2bob.svg">))
+Reverse proxies are sometimes called surrogates or gateways.
+
 ## interfaces 
 
 An interface is a shared boundary across which information flows.
 
 ### API
 
+API = application programming interface
 An API is an interface of a piece of software/module/web service/etc.
 the point where one interfaces with an API is an endpoint
+Glue code is code that is needed to make two things (mostly interfaces) which are not interoperable interoperable.
+A wrapper library is a library that contains one or more other libraries and transforms their interface into a different interface.
+wrapper libraries may be glue code, but also may be for abstraction or to improve a mediocre interface.
+API bindings are glue code to allow one to call a specific API.
+API bindings for libraries are generally wrapper libraries.
+A foreign function interface allows one to call functions of a different language from ones given language.
+A foreign function interface often calls C or C++ functions (due to their ubiquity).
+To use a foreign function using a foreign function interface often requires you to write some glue code (e.g. the signatures), though most of the glue code is handled by the language itself.
+ffis may be glue code. 
+One could write one's own API bindings or a wrapper library using a foreign function interface.
+A shim is a library that takes API calls for something else and then does something with them.
+A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
+A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
 
 ## protocols
 
@@ -5181,6 +5284,12 @@ SDU = Service data unit
 
 ### hardware / low-level
 
+#### NFC
+
+NFC = Near field communication
+NFC works via induction.
+NFC works at a distance of up to ~4 cm
+
 #### PCI
 
 PCI   Peripheral Component Interconnect
@@ -5194,6 +5303,10 @@ Thunderbolt 1 and 2 are transmitted via the MiniDisplayPort connector.
 Thunderbolt 3 and 4 are transmitted via the USB C connector.
 Apple and Intel co-developed Thunderbolt around 2011.
 Thunderbolt was designed to run over optic fiber cables, but actually generally runs over copper.
+1|10 Gbit/s
+2|20 Gbit/s
+3|40 Gbit/s
+4|40 Gbit/s
 
 #### DP
 
@@ -5208,6 +5321,11 @@ ATA/PATA|parallel
 SATA|serial
 PATA & SATA are interfaces for secondary storage
 SATA is the successor to PATA
+SATA
+I|1.5Gb/s
+II|3Gb/s
+III|6Gb/s
+III Rev 3.2|16 Gb/s
 
 #### usb
 
@@ -5392,6 +5510,14 @@ Frame contains IP packets contains segment/datagram contains application protoco
 TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
+##### hardware
+
+3|Network/Internet|Router
+2|Data Link|Switch, Bridge, WAP
+
+A network switch is a multiport network bridge.
+Most commonly, a {{c1::(network) gateway}} is a {{c2::router}} that {{c3::provides access to (acts as a door to) a local network}}, but the term may also {{c4::refer to a bunch of other things}}
+
 #### layers
 
 ##### layer 7
@@ -5486,17 +5612,46 @@ Hotlinking is embedding a resource from {{c1::another fqdn}}
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
-####### the web
+###### applications
 
-WWW = World Wide Web
-The WWW runs on the internet, using the protocol HTTP(S).
-The WWW is only one of many technologies running on the internet.
-A web browser is a program to access the WWW.
-The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
-The first web browser was written in 1990, the WWW was released in 1991.
-The main organization working on web standards is the W3C.
-World Wide Web Consortium = W3C
-A web site is a collection of web pages, generally one that share a domain name/FQDN
+####### cURL
+
+<br>---<br>
+  §§ ((c:3;::cURL)) is a project for ((c:4;::transferring data)) using various ((c:5;::application protocols)). §<br>
+§§ one half of ((c:6;::cURL)) is ((c:7;::the command-line tool)) ((c:8;::curl)). §<br>
+§§ the other half of ((c:9;::cURL)) is ((c:10;::the library libcurl)) with ((c:11;::bindings for most major programming languages)). §<br>
+§§ curl syntax: ((c:12;::curl)) ((c:13;::[options])) ((c:14;::{URLs))} §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:15;s:16;::-i)) and ((c:16;s:15;::--include)) ((c:17;::show HTTP response headers)) §<br>
+§§ To ((c:18;::set custom headers)) in curl, use ((c:19;s:20;::-H))/((c:20;s:19;::--header)) ((c:21;::"My-Header: My value")) §<br>
+§§ To ((c:22;::set the query string)) to a certain value in curl, use ((c:23;s:44;::-d)) OR ((c:44;s:23;::--data)) ((c:24;::'key=value&amp;key2=value2')) §<br>
+§§ To ((c:25;::simulate a filled in form)) with curl, use ((c:26;s:45;::-f)) or ((c:45;s:26;::--form)) ((c:27;::"key=value")) (supports ((c:28;::more fancy syntax for files etc.)) )  §<br>
+§§ To make curl ((c:29;::fail on error)), use ((c:30;s:31;::-f)) or ((c:31;s:30;::--fail)) §<br>
+§§ To ((c:32;::make a HTTP HEAD request (instead of the default GET))) with curl, use ((c:33;s:34;::-I)) or ((c:34;s:33;::--head)). §<br>
+===<br>
+
+<br>---<br>
+  §§ To ((c:35;::make curl follow redirects (e.g. 301 Moved Permanently))), use ((c:36;s:37;::-L)) or ((c:37;s:36;::--location)) §<br>
+§§ If ((c:38;::you've specified -L/--location)) for curl, ((c:39;::--max-redirs)) sets ((c:40;::how many redirects you want to follow)). ((c:41;::-1)) means ((c:42;::infinite redirects)) §<br>
+===<br>
+
+<br>---<br>
+  §§ There are bunch of sites ((c:43;::designed to be <code>curl</code>ed)) to do something useful. §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Site</th>
+    <th>Does what when <code>curl</code>ed?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::wttr.in))</td> <td>((c:2;::get weather))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
+
 
 ###### protocols
 
@@ -5518,6 +5673,64 @@ Between IMAP and POP3, IMAP is more feature-rich.
 ####### HTTP
 
 HTTP|HyperText Transfer Protocol
+
+451|Unavailable For Legal Reasons (refrence to ray bradburry)
+
+######## cache
+
+<br>---<br>
+  §§ A ((c:9;::cache)) is a thing that ((c:10;::stores data)) so that ((c:11;::future requests for that data)) ((c:12;::can be served more quickly)). §<br>
+§§ With ((c:13;::caching and esp. with HTTP caching)), the guiding principle is that you want to ((c:14;::store the thing as long as possible)), but ((c:15;::update it as soon as it changes)). §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:16;::web cache)) AKA ((s:16;::((c:17;::HTTP cache)))) is ((c:18;::a cache for HTTP requests)). §<br>
+§§ ((c:19;::web/HTTP caches)) can either be ((c:20;::shared)) or ((c:21;::local/private)). §<br>
+§§ a ((c:22;::shared)) ((c:23;::HTTP cache)) sits ((c:24;::somewhere in the internet)) and ((c:25;::has many users)). §<br>
+§§ a ((c:26;::local/private)) ((c:27;::HTTP cache)) sits ((c:28;::in your web browser)) and ((c:29;::is only used by you)). §<br>
+§§ ((c:30;::Any HTTP request)) will ((c:31;::first be routed through)) ((c:32;::your browser cache)) and perhaps ((c:33;::a few network caches)) to see if ((c:34;::there is a fresh copy of the response available)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The main mechanism ((c:35;::HTTP caching)) uses is ((c:36;::the Cache-Control header)). §<br>
+§§ In the days of ((c:37;::HTTP 1.0)), the ((c:38;::Pragma header)) was used for ((c:39;::caching)). §<br>
+§§ The ((c:40;::Cache-Control header)) is sent ((c:41;::by the server)) and&nbsp;specifies ((c:44;::if a resource can be cached)), ((c:42;::who can cache it)), and ((c:43;::how long it can be cached)). §<br>
+§§ The ((c:45;::Cache-Control header::caching)) consists of ((c:46;::a comma-separated list)), with either ((c:47;::boolean keywords)) or ((c:48;::key=value pairs)) ((h:all;::(cookie e.g. has a ; separated list) )). §<br>
+§§ To specify ((c:49;::how long)) ((c:50;::a cache entry)) is ((c:49;::fresh (when it becomes stale))), one can either specify ((c:51;::max-age=value)) as ((c:52;::part of the Cache-Control header)) or ((c:53;::the separate Expires header)). §<br>
+§§ ((c:54;::Maximum value)) for ((c:55;::Cache-Control:)) ((c:56;::max-age)) is ((c:57;::1 year)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::public))</td> <td>((c:2;::Cache anything, even things that are not normally cached (weird HTTP status codes etc.)))</td></tr>
+<tr><td>((c:3;::private))</td> <td>((c:4;::Don't cache in shared cache, only in private cache (e.g. browser)))</td></tr>
+<tr><td>((c:5;::no-cache))</td> <td>((c:6;::Check with the server for change with each request (but don't redownload if unchanged)))</td></tr>
+<tr><td>((c:7;::no-store))</td> <td>((c:8;::Do not cache the resource in any way))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ an ((c:58;::ETag)) is a mechanism for ((c:59;::judging whether a resouce has changed)). §<br>
+§§ An ((c:60;::ETag)) is ((c:63;::a fingerprint)) for ((c:61;::a specific version)) of ((c:62;::a file)). §<br>
+§§ An ((c:64;::ETag)) is ((c:65;::opaque)) to ((c:66;::the client)) but ((c:65;::transparent)) to ((c:66;::the server)) §<br>
+§§ For ((c:72;::ETags)), the ((c:71;::server)) needs to decide on ((c:70;::a fingerprinting algorithm)) that ((c:68;::takes into account)) ((c:69;::the file and the version)) and ((c:68;::outputs)) ((c:67;::a fingerprint)). §<br>
+§§ The ((c:73;::ETag fingerprint)) is sent along by ((c:76;::the server)) as ((c:74;::a part of the response)) in ((c:75;::an ETag header)). §<br>
+§§ If we're using ((c:77;::ETags)) and ((c:78;::a resource expires)), the ((c:80;::client)) sends along the ((c:77;::ETag)) ((c:79;::fingerprint)) in ((c:79;::a If-None-Match header)). The ((c:80;::server)) uses this to check whether ((c:81;::the fingerprint)) still ((c:82;::corresponds to the current version of the file)), and returns ((c:83;::304 Not Modified)) if ((c:85;::true)), or ((c:85;::else)) a ((c:84;::normal 200 OK response)). §<br>
+===<br>
+
+<br>---<br>
+  §§ There's no ((c:88;::built-in/non-hacky way)) in ((c:87;::HTTP)) to ((c:86;::notify a client that a resource has expired)) if they don't ask for it. §<br>
+§§ ((c:89;::Cache busting)) AKA ((s:89;::((c:90;::revving)))) is a '((c:93;::hack))' to ((c:91;::force browsers to redownload new resources)) even if ((c:92;::they are not expired.)) §<br>
+§§ ((c:94;::Cache busting)) sets ((c:95;::the longest possible max-age)) on resources, and if ((c:96;::there are changes)), it ((c:97;::renames the file in some way (e.g. a hash suffix))), which ((c:98;::forces the browser to redownload)). §<br>
+§§ ((c:99;::Cache busting)) is generally done by ((c:100;::build tools such as Webpack automatically)) §<br>
+===<br>
+
+((h:all;::<img src="sm_tmpyvxwccqz.png">))
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}</span>
 
 ####### telnet/ssh
 
@@ -5615,6 +5828,13 @@ FTP|21
 ###### TCP
 
 TCP = Transmission Control Protocol
+
+####### handshake
+
+TCP three-step handshake
+Client --SYN--&gt; Server
+Client &lt;--SYN-ACK-- Server
+Client --ACK---&gt; Server
 
 ###### UDP
 
@@ -5778,6 +5998,15 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
 #### REST
 
+##### six principles (alphabetical)
+
+Cacheability
+Client-server achitecture/decoupling
+Code on demand
+Layered system architecture
+Statelessness
+Uniform interface
+
 ##### HATEOAS
 
 in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
@@ -5855,17 +6084,28 @@ RFCs are generally published by the IETFs.
 RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
 BCPs are a subset of RFCs.
 
-##### layer 1
+##### the web
 
-##### low-level (unclear layers)
+WWW = World Wide Web
+The WWW runs on the internet, using the protocol HTTP(S).
+The WWW is only one of many technologies running on the internet.
+A web browser is a program to access the WWW.
+The WWW was developed in CERN in 1989 by Timothy Berners-Lee.
+The first web browser was written in 1990, the WWW was released in 1991.
+The main organization working on web standards is the W3C.
+World Wide Web Consortium = W3C
+A web site is a collection of web pages, generally one that share a domain name/FQDN
 
-NFC = Near field communication
-NFC works via induction.
-NFC works at a distance of up to ~4 cm
-
-# webadmin
+###### performance
 
 Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
+
+####### PRPL
+
+Push/Preload the most important resources
+Render the initial route ASAP
+Pre-cache remaining assets
+Lazy-load other routes and non-critical assets
 
 # applications
 
