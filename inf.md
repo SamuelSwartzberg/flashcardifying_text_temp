@@ -2513,6 +2513,18 @@ Svelte works like a front-end framework, but actually compiles in advance.
 
 ### react 
 
+#### react native
+
+
+Native Components: React Components transformed into native views
+Core components: Native Components that are part of React Natives standard library
+React Native|HTML
+&lt;View&gt;|a non-scrolling &lt;div&gt;
+&lt;TextInput&gt;|&lt;input type="text"&gt;
+&lt;Text&gt;|&lt;p&gt;
+&lt;ScrollView&gt;|a scrolling &lt;div&gt;
+&lt;Image&gt;|&lt;img&gt;
+
 ## Python
 
 Flask and Django are the most popular web frameworks for Python.
@@ -2679,14 +2691,6 @@ A NoSQL database is really a misnomer, it refers to a non-relational database
 A graph data model is one that organizes entities and their relationships as a graph.
 A graph database is a database that uses a graph data model.
 
-A ontology languages is a language that describes an ontology. 
-
-The semantic web is sometimes known as web 3.0
-The goal of the samntic web is to make internet data machine readable
-A semantic query is a data query on the semantic web.
-the social graph is a graph that represents social relationship between entities.
-the open graph allows web pages to become objects in a social graph
-
 ##### RDF
 
 RDF = resource description framework
@@ -2742,6 +2746,26 @@ The property of the open graph metadata is specified within the property propert
 
 a document database implements a document datamodel.
 MongoDB is the most well known document database.
+
+## semantics
+
+### semantic web
+
+The semantic web is sometimes known as web 3.0
+The goal of the samntic web is to make internet data machine readable
+A semantic query is a data query on the semantic web.
+the social graph is a graph that represents social relationship between entities.
+the open graph allows web pages to become objects in a social graph
+
+A ontology languages is a language that describes an ontology. 
+
+### folksonomy
+
+booru: image site with foksonomical tags
+boorus: generally look similar to Danbooru, the original
+sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
+Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
+<img class="c2-f c1-b" src="sm_2021-10-19--03-12-32-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-11-46-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-10-58-screenshot.jpg">
 
 # Modelling
 
@@ -4765,6 +4789,8 @@ the tty command tells us which device file is implementing the current terminal
 
 sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage.
 
+The default size in many cases for {{c3::terminal windows}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
+
 ##### signals
 
 signals allow the kernel to communicate asynchronously with a process.
@@ -5316,6 +5342,7 @@ Mini and nonmini {{c4::DisplayPort}} is mainly for {{c1::video / audio}}, but ca
 
 #### ATA
 
+ATA is short for Advanced Technology Attachment, though due to IBM trademarks its officially short for nothing.
 ATA was renamed PATA after SATA was introduced.
 ATA/PATA|parallel
 SATA|serial
@@ -5512,11 +5539,30 @@ IP packets are transfered in frames between routers.
 
 ##### hardware
 
+layer no|layer name|device that moves things here
 3|Network/Internet|Router
 2|Data Link|Switch, Bridge, WAP
+1|Physical|hub
 
+
+Network hubs act to connect a network on the physical layer by mirroring an incoming signal to all other ports, thus seeming like a directly connected network on the data link layer.
+Network bridges/switches act to connect multiple link-layer network segments, which thus aggregates them to a single network on the network/internet layer.
+A wireless bridge is a network bridge used for wireless networks.
 A network switch is a multiport network bridge.
+A network switch uses the MAC addresses to make sure that the the frame is sent to only the host that needs it.
+Routers pack IP packets into frames and forwards those to the next router.
+A {{c1::wireless router}} performs the functions of {{c2::a router}} and of {{c2::a wireless acces point}} (and sometimes others as well)
 Most commonly, a {{c1::(network) gateway}} is a {{c2::router}} that {{c3::provides access to (acts as a door to) a local network}}, but the term may also {{c4::refer to a bunch of other things}}
+If a (normal office/home) computer user wants to load a web page, at least two network gateways are accessed—one to get from the office or home network to the Internet and one to get from the Internet to the computer that serves the web page.
+
+While you may have as many Switches, bridges, and hubs as you like, to connect to the internet at large, you'll need a router.
+
+Multilayer switches are switches that don't just operate on the data link layer, but also on higher layers (generally 3 and/or 4).
+Content switches are multilayer switches that operate up to layer 7, and are often used in CDNs
+
+###### alternative names
+
+a {{c1::network switch}} is more rarely also called a {{c2::bridging}}/{{c2::switching}} {{c3::hub}} or a {{c4::MAC bridge}}
 
 #### layers
 
@@ -5909,9 +5955,13 @@ IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 
 ######## division
 
+IP addresses have always been divided between network prefix and host identifier.
+network prefix is also called routing prefix
+host identifier is also called rest field or interface identifier
+
 ######### History
 
-IP addresses have always been divided between network prefix and host identifier.
+
 In the very beginning (until the 1980s) IP addresses were divided between the first octet as network prefix and the last 3 octets as host identifier.
 In the very beginning (until the 1980s) what we call network prefix was called network number, and what we call host identifier was called rest field.
 
@@ -6033,6 +6083,7 @@ A network is a group of connected nodes that communicate via a medium, and almos
 
 An address is the identifier of an entity(ies) in a network, often relevant to a specific protocol.
 A broadcast address is an address that identifies a subgroup of entities to target with a broacast transmission.
+Loopback is the routing of signals/streams back to their source without intentional processing/modification.
 
 ##### routing schemes
 
