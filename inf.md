@@ -195,6 +195,7 @@ If the poster attribute for <video> isn't specified, nothing is displayed until 
 
 ###### track
 
+track can ba a child of video or audio
 track has a default attribute to indicate that this is a default track
 track has a kind attribute to indicate its purpose
 track kinds: captions, chapters, descriptions, metadata, subtitles
@@ -2811,9 +2812,9 @@ e.g. cmd k then m to select the document language in VSCode
   </tbody>
 </table>
 
-######## code editing
+######### code editing
 
-######### vscode
+########## vscode
 
 rename a symbol|<kbd>f2</kbd>
 see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
@@ -2822,6 +2823,15 @@ show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`<
 fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
 copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
+
+######### navigatable
+
+Force/Hard Reload|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> <kbd>r</kbd>
+Reload|<kbd class='modifier cmd'></kbd> <kbd>r</kbd>
+
+######### zoomable
+
+Zoom in|<kbd class='modifier cmd'></kbd> <kbd>+</kbd>
 
 ##### autocomplete
 
