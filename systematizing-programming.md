@@ -150,6 +150,7 @@ In liquid, ruby, multiple cases are separated by commas.
 The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
 Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
 Rust instead has match
+In C-family languages, switch cases are generally syntactically equivalent to labels, and thus don't themselves create a new scope by default.
 
 JS Syntax examples:
 
@@ -169,16 +170,18 @@ Of the languages I know, Rust has guards, introduced by `if`.
 Control flow that repeats the code a number of times is called iteration/looping
 
 
-Count-controlled loops
+##### Count-controlled loops
+
 Count-controlled loops are loops that repeat a piece of code a certain number of times.
 Count-controlled loops are often started with the keyword for.
 Count-controlled loops are often called for-loops.
 The typical syntax for count-controlled loops inheriting from C (e.g. C#, Java, JS, Perl) is 
-for &lt;delimiter&gt; counter initialization; counter end condition; counter change per loop &lt;delimiter&gt; block
+for <delimiter>[<counter-initialization>];[<counter-end-condition>];[<counter-change-per-loop>]<delimiter><block>
+for (;;) ends up just being an infinite loop
 SCSS/Sass instead has the syntax @for <variable> from <lowerbound> to (excl)/through (incl) <upperbound>
 
 
-Condition-controlled loops
+##### Condition-controlled loops
 
 
 A condition-controlled loop is aloop that repeats until a condition changes.
@@ -191,7 +194,7 @@ Lua also has a while loop with an inverted condition that tests at the end of th
 
 
 
-Collection-controlled loops 
+##### Collection-controlled loops 
 
 
 A collection-controlled loop is a loop that loops over all elements of a thing.
@@ -202,6 +205,7 @@ Collection-controlled loops are commonly called foreach loops.
   bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
   Java: for (<type> <element> : <iterable>) ...
   JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+  In a JS forin loop, the thing assigned to the variable is the key, not the value.
   for (<variable> of <iterable>) ...
   SCSS: @each <variable> in  <iterable>
 Some languages have collection-controlled loops that are called as methods on a collection or iterable (these are higher-order fucntions)
@@ -1246,6 +1250,7 @@ A string type is generally a type for an arbitrary sequence of characters.
 Depending on the language, strings may be mutable or immutable.
 In general, more languages lean to the immutable string direction.
 Languages with mutable strings I know include Perl, Ruby.
+While it may be tempting to change strings by assigning to indices, in languages with immutable strings, it does not work. However, in JS in non-strict mode it will not trow an error
 If a language has immutable strings, string operations actually create a new string.
 In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
 In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
@@ -2213,8 +2218,24 @@ If you want to import/export multiple members, most languages have the syntax {m
 Import/export anything uses * in most languages
 in JS, you can only import/export within modules.
 
+### module systems
+
+#### JS
+
+##### CommonJS
+
+CommonJS is {{c1::a module ecosystem}} mainly used by node
+
+let/var/const <name> = require(<path>)
+
+##### ES Modules
+
+To contrast with module systems such as CommonJS, the official implementation of modules in JS are known as ES Modules.
+In JS, ES Module import/export statements can only be used within a module
+
 ###  Importing
 
+Import statements tell whatever's executing the program to act as if the specified entities were part of the file, potentially renaming them.
 In most languages, you can only import things that were first exported.
 In most languages, import statements must be in the beginning of the file.
 In most languages, you may only export top-level items.
@@ -2229,17 +2250,12 @@ In vanilla CSS, you can import other stylesheets via the non-nested at rule @imp
 @import syntax: @import <path> (<media-query>|<feature-query>);
 For CSS, the <path> may be an <url> or a <string>
 
-SCSS/Sass 
+#### SCSS/Sass 
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword <path> [as <name>]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
 
-CommonJS
-
-CommonJS is {{c1::a module ecosystem}} mainly used by node
-
-let/var/const <name> = require(<path>)
 
 #### prelude
 
@@ -2247,6 +2263,7 @@ Most languages have a number of things that are automatically imported. Rust (an
 
 ### exporting
 
+Exporting is selecting entities for potential import.
 In most languages, exporting is required so they can then be imported.
 General syntax: export <members> [as <name>]
 
@@ -2472,6 +2489,15 @@ c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-imple
 time|measure elapsed time in executing a command|sh
 console.time() & console.timeEnd()|measure elapsed time in running code.
 
+### dates
+
+most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
+In js, {{c2::Unix time}} is almost always interacted with in {{c1::milliseconds}}, 
+as opposed seconds, which is more standard
+the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common formats}} and outputs {{c3::Unix time (in millis, as is common in JS)}}
+<code>{{c1::new Date()}}</code> takes {{c2::Unix time milliseconds}} and returns {{c3::a <code>Date</code>}}
+<code>{{c1::someDate.toISOString()}} </code> returns the datetime {{c2::as ISO 8601}}
+
 ### Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
@@ -2646,7 +2672,15 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 ### programming language relationships
 
+#### ECMA
+
+JS = Javascript
+ES = ECMAScript
+JavaScript is a dialect/language that coforms to of the ECMAScript standard
+others languages that conform to the ECMAScript standard are ActionScript / JScript. 
+However, this distincition is often not made, and JavaScript and ECMAScript are often treated as synonyms. 
 CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
+ES2015|ES6
 
 ### Things programming languages do especially well
 
@@ -2789,9 +2823,15 @@ so in general, you can specify the language of a script by doing
 
 ### specific languages
 
+#### Python
+
 CPython is the most common and reference implementation for Python.
 CPython implicitly compiles Python to bytecode, and then runs the bytecode via an interpeter.
 Python bytecode files produced by CPython are .pyc files.
+
+#### JS
+
+JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.
 
 ## Boilerplate
 

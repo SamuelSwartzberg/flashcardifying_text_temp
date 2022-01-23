@@ -2605,7 +2605,7 @@ MEVN includes Vue.js
 
 ## commonalities
 
-## JS
+## front-end
 
 Express is the most popular server-side web framework for node.
 Angular is the successor to AngularJS
@@ -6344,6 +6344,20 @@ Between  the <code>defer</code> and <code>async</code> attributes, async execute
 
 to indicate a source map, at the bottom of the optimized file, add a magic comment or use the http header
 source map magic comment: //# sourceMappingURL=foo/bar.js.map 
+
+####### Google speed
+
+{{c1::Web Vitals}} are the stats that {{c2::google}} measures to judge {{c3::the user experience of your websites}}
+{{c1::Core Web Vitals}} are the subset of {{c2::Web Vitals}} that {{c3::apply to all web pages (and are thus considered very important)}}
+The current (2020 onwards) {{c4::Core Web Vitals}} are the {{c1::Largest Contentful Paint}}, the {{c2::First Input Delay}}, and the {{c3::Cumulative Layout Shift}}
+
+A {{c1::layout shift}} is when a {{c2::visible element}} {{c3::shifts position}} between {{c4::render frames}} (in bad cases causing users to e.g. {{c5::click the wrong button}})
+{{c1::Cumulative Layout Shift (CLS)}} is how google measures the {{c2::badness}} of the {{c3::layout shifts}} you've going on
+
+CLS  Cumulative Layout Shift 
+FCP  First Contentful Paint
+FID  First Input Delay
+LCP  Largest contentful paint
 
 # applications
 
