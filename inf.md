@@ -1,71 +1,6 @@
-# across languages
-
-bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
-italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
-emphasize (generally via italics)|\emph{}|&lt;em>|N/A
-strongly emphasize||<strong>|N/A
-underline|\underline{}|&lt;u>|N/A
-strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
-hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
-hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
-block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
-Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
-inline source code||&lt;code>|``
-create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
-Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
-Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
-A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
-a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
-image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
-horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
-superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
-subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
-indicate a variable semantically||<var>
-keyboard input||<kbd>
-sample output||<samp>
-title of a cited work||<cite>
-preformatted text that is to be presented exactly as written||<pre>
-
-using \url{} or \href{} requires the package hyperref in Latex
-package hyperref also does autolinking to things such as the TOC
-
-strike is similar to <s>, but obsolete
-<tt> used to indicate teletype text, but is now obsolete
-<big> used to indicate big text, but is now obsolete; however <small> still works.
-<center> used to indicate centered text but is now obsolete
-
-most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
-most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
-
-
-i|italic|conventionally italic
-em|italic|more important
-b|bold|conventionally bold
-strong|bold|super important
-u|underline|has non-textual annotation of some kind
-mark|yellow highlighter|highlighted ≈ area of interest
- 
-
-non-breaking space|\nonbreakspace or ~|&amp;nbsp;
-ampersand||&amp;amp;
-non-breaking hyphen|"~
-soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;
-"=
-if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
-
-hyperref|create links automatically and \href, \url commands
-
-
-nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
-
-Pandoc md is a superset of most other markdown flavors
-Pandoc md defaults to tilde-delimited code blocks.
-In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
-
 # SGML/XML/HTML
+
+## SGML/XML/HTML itself
 
 SGML stands for Standard Generalized Markup Language.
 XML is a subset of SGML.
@@ -111,7 +46,7 @@ The SGML/XML/HTML root element has the same name as the relevant language (i.e. 
 
 The document prolog (if you use one) comes at the top of the document, before the root element. There are two parts (both optional): an XML declaration and a document type declaration.
 
-## declaration
+### declaration
 
 the {{c1::XML declaration}} {{c2::contains information about the coming xml document}}. 
 the {{c19::XML declaration}}  is {{c3::optional}}, {{c3::but if it appears}}, it must appear in {{c4::the first line of the document}}. 
@@ -137,7 +72,7 @@ the {{c20::XML declaration}} takes {{c5::three}} parameters:
 <div class="c1-11-scr"><pre><code>{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
 </code></pre></div>
 
-## doctype
+### doctype
 
 A document type declaration, or doctype, is an instruction that associates a particular XML or SGML document (for example, a webpage) with a document type definition (DTD).
 A document type declaration must be the first thing in the page if HTML.
@@ -145,21 +80,21 @@ A document type declaration must be the first thing after the XML declaration if
 The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
 In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
 
-## PI
+### PI
 
 PI|Processing instruction
 
 
-## HTML
+### HTML
 
-### General structure
+#### General structure
 
 An HTML document is started by the &lt;html&gt; tag and ended by the &lt;/html&gt; tag.
 a &lt;html&gt; element consists of a &lt;head&gt; section and a &lt;body&gt;
 
-### elements
+#### elements
 
-#### <head>
+##### <head>
 
 The &lt;head&gt; in HTML contains metadata about the document.
 it can contain:
@@ -172,7 +107,7 @@ the <base> element specifies the base URL for the document with its href attribu
 The <abse> element optionally accepts a target argument to choose the browsing context links open in by default.
 The <basefont> element used to specify the default font (color, fontface etc.) but is now deprecated.
 
-##### <meta>
+###### <meta>
 
 The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>.
 <meta> specifies the value in its content attribute
@@ -189,7 +124,7 @@ author|document author
 description|short blurb about website, may be used in search results
 theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS <color>.
 
-#### various inline text
+##### various inline text
 
 The abbr HTML element represents an acronym or abbreviation.
 There used to be an <acronym> element which was obsoleted in favor of <abbr>
@@ -200,7 +135,7 @@ If the <dfn> element has a title attribute, the value of the title attribute is 
 If the <dfn> contains a single child element and does not have any text content of its own, and the child element is an <abbr> element with a title attribute itself, then the exact value of the <abbr> element's title is the term being defined.
 Otherwise, the text content of the <dfn> element is the term being defined. 
 
-#### Media
+##### Media
 
 &lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
 Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
@@ -258,20 +193,20 @@ You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt
 the poster attribute for video specifies a URL for an image to be shown while the video is downloading. 
 If the poster attribute for <video> isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
 
-##### track
+###### track
 
 track has a default attribute to indicate that this is a default track
 track has a kind attribute to indicate its purpose
 track kinds: captions, chapters, descriptions, metadata, subtitles
 
-#### images
+##### images
 
 <img> is used for including images
 
 The picture element contains 0 - ∞ source elements and one <img> element.
 The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
 
-##### srcset 
+###### srcset 
 
 srcset-values ::=  <srcset-specifier>{, <srcset-specifier>}
 srcset-specifier ::= <url> <integer>w
@@ -281,14 +216,14 @@ sizes-specifier ::= <media-query> <resolution-length-percentage>
 scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the image should be in that case (width as in resolution, not width of the  box). The browser then picks the closest one, but preferring ones that are too large than too small.
 If no sizes is provided, the browser chooses one of scrset based on which is closest to the viewport width (essentially just assuming that the image wlll be 100 vw)
 
-#### source
+##### source
 
 the type (a MIME type) of a &lt;source&gt; element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
 The lists of <source>s for <picture>, <video> and <audio> represents a priority hierarchy - the browser will take the first one that matches.
 Conditions that <source>s may have are the type and media attributes
 &lt;source&gt; elements for audio/video take their URL in a src attribute; &lt;source&gt; elements for picture take their URL in a srcset attribute
 
-#### Headings
+##### Headings
 
 &lt;h1&gt; to &lt;h6&gt; define headings.
 It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
@@ -297,13 +232,13 @@ Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessi
 Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
 There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
 
-#### del and ins 
+##### del and ins 
 
 The &lt;del&gt; HTML element represents text that has been deleted from a document.
 The &lt;ins&gt; HTML element represents text that has been added to the document.
 The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
 
-#### progress and meter
+##### progress and meter
 
 A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
 In HTML, a progress bar can be indicated by &lt;progress&gt;
@@ -314,7 +249,7 @@ The min and max attributes specify the minimum/maximum value and are allowed on 
 The low, high and optimum attributes may only be specified on <meter>
 In HTML both progress and meter support a fallback text value within their tags.
 
-#### tables
+##### tables
 
 table > tbody/thead/tfoot (optional level, but if used, any tr must be within it)
 tbody/thead/tfoot > tr
@@ -330,7 +265,7 @@ The <colgroup> is made up of <col> elements
 The <col> element takes a span attribute indicating how many columns are being targeted.
 The <colgroup> element must be the first child of <table> (besides <caption>, if it is present)
 
-#### canvas
+##### canvas
 
 The <canvas> element allows drawing graphics and animations via the canvas scripting API or the WebGL API
 Sizing the canvas using CSS versus HTML
@@ -339,14 +274,14 @@ The displayed size of the canvas can be changed using CSS, but if you do this th
 
 It is better to specify your canvas dimensions by setting the width and height attributes directly on the <canvas> elements, either directly in the HTML or by using JavaScript.
 
-#### map
+##### map
 
 <map> defines an image map, within which <area> defines clickable areas.
 <map> takes a shape attribute with the possible values circle, poly, rect.
 The shape of a map with a given shape attribute is specified by the coords attribute
 You refer to a map via its name attribute included in an <img> usemap attribute prefixed by #
 
-#### links
+##### links
 
 The content between the tags should be descriptive of what the link does.
 
@@ -358,7 +293,7 @@ rel=opener/noopener create a top-level browsing context that is/is not a auxilia
 rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document.
 rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
 
-##### <link>
+###### <link>
 
 rel="icon"|specifies an icon representing the current document
 rel="stylesheet"|indicates a stylesheet for the document
@@ -369,7 +304,7 @@ size-spec ::= <width>(x|X)<height>
 
 the type attribute of <link> specifies the mime type of the resource; however this is generally omitted except for rel="icon"
 
-##### hyperlinks
+###### hyperlinks
 
 The two elements that create hyperlinks are <area> and <a>.
 use the attribute href for <area> and <a> to specify an URL of the links target.
@@ -380,14 +315,14 @@ _parent|parent browsing context
 _top|root node browsing context
 for <form>, the target attribute represents where to display the response after submitting the form  
 
-###### a
+####### a
 
 the download attribute of <a> Prompts the user to save the linked URL instead of navigating to it. 
 the download attribute of <a> Can be used with or without a value.
 the download attribute of <a> used without a value will prompt the browser to suggest a file type.
 the download attribute of <a> used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
 
-#### forms
+##### forms
 
 
 Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing <form> element or the element whose id is specified in the form attribute.
@@ -420,7 +355,7 @@ Elements that can be used for constructing the form data set when the form is su
 resettable
 Elements that can be affected when a form is reset. Contains <input>, <keygen>, <output>,<select>, and <textarea>.
 
-##### form itself
+###### form itself
 
 A <form> element represents a form.
 the method attribute of form accepts post|get|dialog.
@@ -429,12 +364,12 @@ post/get|use the POST/GET methods
 The action attribute for form specifies the URL to which the form should be submitted.
 Forms may not be nested.
 
-##### fieldset
+###### fieldset
 
 A <fieldset> is an HTML element used to group multiple inputs (and their labels)
 The first child of a fieldset may be a <legend> (this is the only place it may appear), which captions its parent fieldset
 
-##### button
+###### button
 
 The <button> HTML element represents a clickable button
 the type attribute for <button> represents the default functionality
@@ -442,28 +377,28 @@ submit|submit form data to server
 reset|reset form data
 button|no default behavior, must manually be implemented
 
-##### textarea
+###### textarea
 
 textarea represents a multiline text input field
 textarea is not an empty element, and in fact the content can be used to provide a default value.
 
-##### label
+###### label
 
 A <label> provides a caption/label for a thing, most commonly an <input>
 There are two ways of associating an <input> with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
 
-##### input
+###### input
 
 specifying the value property of an input element in HTML sets its initial value.
 As the state of <input>s changes, the value property in JS is updated.
 The validation states of an input are contained in the ValidationState API and corresponding property./
 
-###### types
+####### types
 
 type="color" for colors
 type="hidden" does not show the control, but still submits the data.
 
-####### radio & checkbox
+######## radio & checkbox
 
 A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
 In HTML, a radio button is realized by <input type="radio">
@@ -473,11 +408,11 @@ radio and checkbox input accept the attribute checked to specfiy if they are che
 
 Bootstrap:
 
-.form-check # set of radio buttons
+.form-check ## set of radio buttons
 .form-check-label   define a label for a checkbox/radio button
 .form-check-input   define a checkbox/radio button
 
-####### text
+######## text
 
 &lt;input type="text"&gt; is single-line only
 There are a set of input types that act similarly text, but force a certain type of validation and change the soft keyboard/add input helpers, similar to inputmode:
@@ -489,21 +424,21 @@ On any non-time-related, non-number text-like input, you may specify the attribu
 most text-only input fields may have the readonly attribute specfied, which shows the inital value but doesn't allow the user to modify it
 the time-related and number text-like inputs plus range accept a step argument.
 
-####### file
+######## file
 
 inputs of type file accept an attribute accept (lol) which takes a CSL of unique file type specifiers
 an unique file type specfier is either a filename extension starting with a period, or a valid MIME type.
 valid for the file input type only, the capture attribute defines which media—microphone, video, or camera—should be used to capture a new file for upload with file upload control in supporting scenarios.
 
-####### image
+######## image
 
 Input type image supports the attributes <img> supports, in addition to the usual ones of input.
 When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
 The coordinates of an input type="image" will be submitted as <name>.x=<coord>&name.y=<coord>
 
-####### submit
+######## submit
 
-###### attributes
+####### attributes
 
 the boolean multiple attribute may be set on input type email/file and <select> elements.
 When the multiple attribute is set for input type email, emails are separated with the comma.
@@ -518,24 +453,24 @@ If the name of a thing in a form is not specified, the value is not sent.
 autofocus
 A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the <dialog> containing the element has been displayed).
 
-#### select, option
+##### select, option
 
 The <select> HTML element represents a control that provides a menu of options:
 The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-#### output
+##### output
 
 The <output> HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
 <output> are often used within forms, however tehy are not submitted with the form.
 
-#### script
+##### script
 
 to include an external script, set the src attribute of the <script> element to its URL
 the <noscript> tag is for displaying content if the browser does not support JS
 
-#### Ruby 
+##### Ruby 
 
 ruby text/characters are small annotative glosses placed on the top or to the right of characters.
 Ruby text/characters is called furigana in japanese.
@@ -544,18 +479,18 @@ In HTML ruby annotation, the syntax is &lt;ruby&gt;lowertext&lt;rt&gt;uppertext&
 In HTML, one may designate fallback delimiters for the upper text. 
 Ruby fallback delimiters are enclosed in &lt;rp&gt; tags, and go before and after the &lt;rt&gt; delimited uppertext.
 
-#### aside
+##### aside
 
 An aside (there is no agreed-upon term, so I'm using the term that HTML uses) is a part of the main content thats only partially related to the main content, and often placed outside of the main flow. 
 A pull quote is an aside that is a quote from the article.
 
-#### figure
+##### figure
 
 In general, figures are images/diagrams/similar with a caption.
 In general, figures float (in the general sense).
 In HTML, the <figure> element specifies its caption with <figcaption>
 
-#### float
+##### float
 
 a float is across styling languages a thing that exists outside of the normal flow of text.
 
@@ -616,12 +551,12 @@ The most common clearfix technique might be: ::after {
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}</span>
 
-#### data
+##### data
 
 <data> represents things that have a machine-readable translation
 <time> represents a time/date/duration.
 
-#### Lists
+##### Lists
 
 In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
 Latex uses the same list items for description lists also, while HTML uses different elements for those.
@@ -641,18 +576,18 @@ Term in a description list with title foo and description/explanation bar|\iten[
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-#### containers
+##### containers
 
 div and span are 'pure' container without any semantics.
 the difference between div and span is that div is by default block-level (display: block flow) and that span is by default inline (display: inline flow)
 
-##### dialog
+###### dialog
 
 The dialog element rerpesents a dialog box container semantically.
 The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
 <form> elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
-##### semantic containers
+###### semantic containers
 
 Some HTML elements are functionally just containers with extra semantics attached (part of semantic html)
 HTML element|semantic container for
@@ -665,12 +600,12 @@ aside|content only indirectly related to main content
 address|contact information|may not contain heading/sectioning content
 nav|navigation section
 
-#### inline nonhtml
+##### inline nonhtml
 
 &lt;style> allows including CSS inline, by including it as content
 &lt;script> allows including JS or other scripting languages inline, by including it as content
 
-#### deprecated elements
+##### deprecated elements
 
 <menu> was supposed to be a semantic alternative to <ul> for menus, but is now deprecated
 <menuitem> was meant to be a child of <menu> if <menu> was a context menu, but is now deprecated.
@@ -678,7 +613,7 @@ nav|navigation section
 <keygen> was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
 <font> was an element to style text, but is now deprecated.
 
-### content categories
+#### content categories
 
 Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
 
@@ -692,7 +627,7 @@ Phrasing content is a subset of flow content that defines the text and the marku
 
 Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
 
-#### embedded content
+##### embedded content
 
 Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
 
@@ -705,7 +640,7 @@ The <embed> HTML element embeds external content at the specified point in the d
 
 &lt;math> and &lt;svg> embed content in HTML from MathML and SVG respectively
 
-### JS interface
+#### JS interface
 
 any HTML element has a JS interface that is called HTMLSomeelementnameElement.
 
@@ -719,7 +654,7 @@ the IDL attribute may be accessed from js like element.foo.
 
 Any content attribute is also acessiable as an IDL attribute.
 
-### Common attributes
+#### Common attributes
 
 the <code>datetime</code> attribute specifies the date and time associated with the element
 <code>datetime</code> is an attribute taken by &lt;del&gt;, &lt;ins&gt;, and &lt;time&gt;
@@ -737,7 +672,7 @@ If the value attribute of an element is pre-filled, it generally appears as a de
 content within <video>/<audio>/<canvas> is shown as a fallback for browsers that don't support the element.
 
 
-#### Global attributes
+##### Global attributes
 
 Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.
 Kinds of global attributes:
@@ -767,7 +702,7 @@ dir: enumerated attriubte ltr/rtl/auto
 contenteditable|makes the content editable
 the title attribute is *generally* shown as a tooltip, unless the element implements title differently.
 
-##### text editing only
+###### text editing only
 
 spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
 there are three places where text can be inputed in HTML: <input type="text">, <textarea> and anything w/ contenteditable
@@ -788,13 +723,13 @@ autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
-## JSX
+### JSX
 
 {{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
 
-# environment ≈ Web APIs
+## environment ≈ Web APIs
 
-## browsing contexts
+### browsing contexts
 
 A browsing context is the environment in which a browser displays a Document. 
 A browsing context may be a tab or a window as well as a frame (iframe/frame)
@@ -826,20 +761,20 @@ It is possible to create new browsing contexts that are related to a top-level b
 An auxiliary browsing context has an opener browsing context, which is the browsing context from which the auxiliary browsing context was created, and it has a furthest ancestor browsing context, which is the top-level browsing context of the opener browsing context when the auxiliary browsing context was created.
 The opener attribute of Window returns the WindowProxy object of the opener broswing context, if extant/available.
 
-### secure contexts
+#### secure contexts
 
 Things that can only be used in secure contexts: Notifications
 A document is in a secure context if it is the active document of a secure top-level browsing context (i.e.a document within a theoretically secure iframe browsing context is not secure if it's top-level browsing context is not also secure)
 a resource is secure 
 
-## the DOM
+### the DOM
 
 DOM|Document Object Model
 The DOM is a tree data structure that acts as an interface for a XML (or XML-derived) or HTML document.
 DOM vertices are `Node`s (often subclasses of `Node`).
 `Node` implements the EventTarget interface, so all things inheriting from Node also do.
 
-### document
+#### document
 
 The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
 the root Node of the DOM tree is of type Document
@@ -847,17 +782,17 @@ Nodes of type Document are known as documents
 The Document interface describes the common properties and methods for any kind of document. Depending on the document's type (e.g. HTML, XML, SVG, …), a larger API is available: HTML documents, served with the "text/html" content type, also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.
 Document's browsing context is the browsing context whose session history contains the Document.
 
-### Node tree
+#### Node tree
 
 A node tree is a set of nodes arranged as a tree.
 A document tree is a node tree whose root is a document.
 A shadow tree is a node tree whose root is a shadow root.
 
-### Node
+#### Node
 
 a node has an associated document (essentially an owner), which is known as its 'node document'
 
-#### NodeLists
+##### NodeLists
 
 A NodeList is similar to an Array, but doesn't have all the methods.
 A NodeList is a linear collection of nodes.
@@ -867,7 +802,7 @@ A live NodeList (or similar) reflects changes in the DOM
 A static NodeList (or similar) does not reflect changes in the DOM
 `HTMLCollection`s are an interface similar to NodeLists, but may only contain elements, is live, and has a far less rich interface.
 
-#### types of
+##### types of
 
 <table>
   <tbody>
@@ -921,16 +856,16 @@ A static NodeList (or similar) does not reflect changes in the DOM
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
-#### Elements
+##### Elements
 
 element.innerHTML|content between the tags
 The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
 
-##### HTMLCanvasElement
+###### HTMLCanvasElement
 
 The HTMLCanvasElement.toDataURL(type) method returns a data URI containing a representation of the image in the format specified by the MIME type in the type parameter.
 
-### DOM traversal
+#### DOM traversal
 
 document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
@@ -939,20 +874,20 @@ qsa returns a static NodeList
 document.getElementBy<whatever>() returns HTMLCollections.
 document.getElementBy<whatever> has four variants ById, ByClassName, ByTagName
 
-### other interfaces & classes
+#### other interfaces & classes
 
-#### DOMTokenList
+##### DOMTokenList
 
 The DOMTokenList interface represents a set of space-separated tokens. 
 
 
-### visibilityState
+#### visibilityState
 
 visibilityState = whether the document is somehow in the background/not in a visible tab/minimized, etc.
 visibilityState = visible|hidden
 change of document.visibilityState fires visibilitychange
 
-## window
+### window
 
 The Window interface represents a window containing a Document (however, the window is not persistent, but changes during navigation as well. the browsing context is the persistent thing)
 A global variable, window, representing the window in which the script is running, is exposed to JavaScript code.
@@ -961,12 +896,12 @@ You can get the document associated with a window by window.document.
 The `Document` associated with a window only changes during navigation.
 Each Window has an associated `Navigator`.
 
-### bars
+#### bars
 
 the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
 BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
-### Web Storage API
+#### Web Storage API
 
 the Web Storage API is made up of sessionStorage and localStorage.
 sessionStorage and localStorage both implement the Storage inteface.
@@ -975,7 +910,7 @@ setItem(name,value)
 removeItem(name)
 clear()
 
-### notifications
+#### notifications
 
 Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
 Browsers increasingly don't even allow us to ask for notification permissione exept in response to user action.
@@ -985,15 +920,15 @@ the options object for the notification constructor as a bunch of properties tha
 .close()|closes the notification manually
 Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
 
-### intervals
+#### intervals
 
 {{c1::window}}.​setTimeout(function, delay, args);
 
-## navigator
+### navigator
 
 Instances of Navigator represent the identity and state of the user agent (the client).
 
-### Geolocation API
+#### Geolocation API
 
 the Geolocation API is used for location hadnling in the browser.
 you get an object of Geolocation from navigator.geolocation
@@ -1009,22 +944,22 @@ interface GeolocationPosition {
 
 
 
-## Web Speech API
+### Web Speech API
 
 Web Speech API: text to speech/speech to text
 
+### Web Audio API
 
+### web workers
 
-## web workers
+### data fetching after the site has loaded
 
-## data fetching after the site has loaded
-
-### XHR
+#### XHR
 
 XHR|XMLHttpRequest
 Ajax|Asynchronous JavaScript And XML
 
-### fetch
+#### fetch
 
 fetch is the new, modern method to fetch data via the interfet after a site has loaded.
 fetch(<resource-to-get>, [<options-object>])
@@ -1032,7 +967,7 @@ fetch() returns a Promise which itself resoves to a `Response`
 Response
 .json()|return promise with contents of response as parsed json
 
-# CSS
+## CSS
 
 CSS = Cascading Style Sheet
 
@@ -1059,7 +994,7 @@ The commmon conditional group at rules are @media and @supports.
 
 style as a HTML attribute takes n declarations
 
-## Selectors
+### Selectors
 
 A selector is a generic term that can refer to simple selector, compound selector, complex selector, or selector list.
 A simple selector is a single condition on an element.
@@ -1078,13 +1013,13 @@ complex-selector ::= <compound-selector>{[<combinator>]<compound-selector>}
 compound-selector ::= <simple-selector>{<simple-selector>}
 simple-selector ::= <type-selector>||<universal-selector>||<attribute-selector>||<class-selector>||<id-selector>||<pseudo-class-selector>||<pseudo-element-selector>
 
-### Selectors
+#### Selectors
 
-#### Simple selectors
+##### Simple selectors
 
 
 
-##### Basic types
+###### Basic types
 
 Syntax of universal selector ::= *
 the universal selector matches everything
@@ -1102,7 +1037,7 @@ no operator (and no value) [<attr>]|just elements with attribute present
 
 Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).
 
-##### Pseudo-classes
+###### Pseudo-classes
 
 A pseudo-class indicates a state of an element
 A pseudo-class is begun by a single colon
@@ -1121,7 +1056,7 @@ progress|indeterminate when no value attribute is present.
 :target|element has the same id as the fragment in the url
 :fullscreen|fullscreen element
 
-###### input pseudo-classes
+####### input pseudo-classes
 
 a number of pseudo-classes have to do with input
 :enabled/:disabled|HTML enabled attribute is specified, or specified on the parent fieldset (or not, for disabled)
@@ -1132,7 +1067,7 @@ a number of pseudo-classes have to do with input
 :checked|selects a toggled radio button or checkbox
 
 
-###### Tree-structural pseudo-classes
+####### Tree-structural pseudo-classes
 
 Tree-structural pseudo-classes are pseudo-classes that allow selection of elements based on information in the document tree
 
@@ -1153,13 +1088,13 @@ Typed child-indexed pseudo-classes are tree-structural pseudo-classes that selec
 nth ::= <an-plus-b>|even|odd
 an-plus-b ::= <integer>n+<integer>
 
-###### link-related pseudo-classes
+####### link-related pseudo-classes
 
 :any-link|All links: <a> and <area> elements
 :link|Selects all unvisited links  
 :visited|Selects all visited links  
 
-###### user action pseudo-classes
+####### user action pseudo-classes
 
 user action pseudo-classes are pseudo-classes that allow you to react to user action
 
@@ -1169,7 +1104,7 @@ user action pseudo-classes are pseudo-classes that allow you to react to user ac
 The :focus-within CSS pseudo-class matches an element if the element or any of its descendants are focused. In other words, 
 The :focus-visible pseudo-class applies while an element matches the :focus pseudo-class and the UA (User Agent) determines via heuristics that the focus should be made evident on the element.
 
-##### Pseudo-elements
+###### Pseudo-elements
 
 A pseudo-element indicates a part of a element which isn't a real element.
 A pseudo-element is begun by two colons
@@ -1191,7 +1126,7 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 ::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath {{c1::any element that is in fullscreen}}
 
 
-#### Combinators
+##### Combinators
 
 
 +
@@ -1199,9 +1134,9 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 >
 
 
-#### The Grouping selector
+##### The Grouping selector
 
-### value processing
+#### value processing
 
 Once a user agent has parsed a document and constructed a document tree, it must assign, to every element in the flat tree, and correspondingly to every box in the formatting structure, a value to every property that applies to the target media type.
 
@@ -1215,14 +1150,14 @@ Resolving value dependencies yields the computed value. Every element has exactl
 Formatting the document yields the used value. An element only has a used value for a given property if that property applies to the element.
 Finally, the used value is transformed to the actual value based on constraints of the display environment. As with the used value, there may or may not be an actual value for a given property on an element.
 
-### Cascading
+#### Cascading
 
 The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their precedence as determined below, and outputs a single cascaded value.
 
 The cascaded value is determined by their precedence, which is specified by the cascade sort order:
 origin & importance > context > specificity > order of appearance in source document.
 
-#### Cascade origin
+##### Cascade origin
 
 The three possible cascade origins are user-agent, user, or author.
 author stylesheet|applied by the website author
@@ -1233,7 +1168,7 @@ the weakest style in an element higher in the cascade origin hierarchy beats the
 normal declarations|author>user>user-agent
 important declarations|user-agent>user>author
 
-#### important
+##### important
 
 A declaration is important if it has a !important annotation as defined by [css-syntax-3], i.e. if the last two (non-whitespace, non-comment) tokens in its value are the delimiter token ! followed by the identifier token important. All other declarations are normal (non-important).
 An important declaration takes precedence over a normal declaration.
@@ -1242,9 +1177,9 @@ Ergo, for cascade origin plus important there is the following hierarchy:
 
 transition declarations > Important user agent declarations > Important user declarations > Important author declarations > Animation declarations > Normal author declarations > Normal user declarations > Normal user agent declarations
 
-#### context
+##### context
 
-#### Specificity
+##### Specificity
 
 Specificity is the means by which browsers decide which CSS property values within a single source type are the most relevant to an element, based on selectors.
 Specificity is tiered, with lower tiers not being able to beat higher tiers.
@@ -1255,11 +1190,11 @@ Each specifier on a tier gains you one point on the specificity scale.
 lowest|element selectors|pseudo-element selectors
 no effect on specificity|:not(), universal selector
 
-## Declarations
+### Declarations
 
-### Properites and Values
+#### Properites and Values
 
-#### inherited, initial, etc.
+##### inherited, initial, etc.
 
 any property is inherited or not in its behavior when no value is assigned
 inherited properties default to inheriting
@@ -1276,12 +1211,12 @@ The revert keyword is mainly useful to revert to the user agents default style i
 
 The all property takes one of initial|inherit|unset|revert to reset everything but direction and unicode-bidi
 
-#### css variables
+##### css variables
 
 Declaration: --var-name: value;
 Accessing: var(--var-name)
 
-#### vendor prefixes
+##### vendor prefixes
 
 vendor prefixes have the syntax -<vendorname>-<propertyname>
 webkit|any webkit-based (and thus also blink-based) browser besides edge
@@ -1293,14 +1228,14 @@ vendor prefixes were designed to allow experimenting with experimental CSS featu
 The problem with vendor prefixes is that in fact, vendor-prefixed properties just got used in productio as well.
 As of ~2020, the trend is away from using vendor prefixes, and instead using user-controlled experimental flags.
 
-#### Props
+##### Props
 
 A shorthand property is a css property that allows setting multiple other properties at once.
 shorthand properties in css try to not force a specific order, where semantically possible.
 If a value is not set within a shorthand property, it is set to its initial value, overriding subvalues.
 Using inherit as a value of many within a shorthand property is invalid.
 
-##### Cursor
+###### Cursor
 
 `cursor` sets how the cursor looks when mousing over (generally irrelevant for touchscreens).
 `cursor` value syntax {<url> <x> <y>,} <keyword>
@@ -1309,11 +1244,11 @@ When specifying an url() for cursor, the x and y values specify the offset in px
 `cursor: default` shows the platform-default cursor.
 Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
 
-##### Caret
+###### Caret
 
 The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted. 
 
-##### scroll-snap
+###### scroll-snap
 
 In a basic sense, CSS scroll snap is for snapping to specific scroll points
 For scroll snap to do anything, you have to specify scroll-snap-type and scroll-snap-align.
@@ -1331,9 +1266,9 @@ when two values set first is block, second inline
 
 While scroll-padding is set on the parent, scroll-margin is set on the child, and so allows different values for different children.
 
-##### word-break, overflow-wrap
+###### word-break, overflow-wrap
 
-##### width, height
+###### width, height
 
 width and height each have corresponding min- and max- properties
 power of width and height properties: min- > max- > ø
@@ -1343,7 +1278,7 @@ What width and height size depends on the box-sizing property
 content-box|width and height size content-box
 border-box|width and height size border-box
 
-##### flexbox, grid and columns
+###### flexbox, grid and columns
 
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
 A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) <dfn>grid lines</dfn> that intersect to define n <dfn>grid cells</dfn> 
@@ -1352,7 +1287,7 @@ In a grid layout, the area between two adjacent grid lines is called a grid trac
 
 The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order.
 
-###### box alignment properties
+####### box alignment properties
 
 The box alignment properties in CSS are a set of 6 properties that control alignment of boxes within other boxes. 
 The box alignment properties can be described along two metrics, which axis they apply to, and whose position they control.
@@ -1409,12 +1344,12 @@ space-around|space on every side, space at borders is half size|[  xxx    yy    
 space-evenly|space on every side, every space is the same size|[   xxx   yy   zzzz   ]
 stretch|no space, size is increased equally|[xxxxxxxyyyyyyyzzzzzzz]
 
-###### flexbox axes
+####### flexbox axes
 
 For flexbox, if flex-direction is row or row-reverse, the main axis corresponds to the inline base direction, and the cross axis corresponds to to the block flow direction.
 For flexbox, if flex-direction is column or column-reverse, the main axis corresponds to the block flow direction, and the cross axis corresponds to to the inline base direction.
 
-###### gaps
+####### gaps
 
 the gap, row-gap and column-gap specifiy gutters between items in a flex/multi-column/grid container.
 gap is a shorthand for row-gap and column-gap, if only one value is specified, it sets them to the same value.
@@ -1423,11 +1358,11 @@ For multi-column containers, row-gap currently does nothing.
 for flex containers, column-gap specifies minimum spacing between flex items, and row-gap specifies minimum spacing between flex lines if flex-direction is row or row-reverse, otherwise what column-gap and row-gap do is reversed.
 For the gap, row-gap and column-gap there exist the now archaic grid-* aliases.
 
-###### grid
+####### grid
 
 Fundamentally, the grid consists of two tasks: defining a grid & its sizes, and placing items within that grid.
 
-####### defining and sizing a grid
+######## defining and sizing a grid
 
 In CSS, there are two kinds of ways to define the grid and its sizes, using the explicit or using the implicit grid.
 grid-auto*|implicit grid
@@ -1487,7 +1422,7 @@ specifying grid-areas creates the relevant grid lines with -start/-end automatic
 
 the grid css property is a shorthand for grid-template-* and grid-auto-*, 6/7 properties in total
 
-####### placing items
+######## placing items
 
 grid areas and grid lines
 grid-area allows placing an item at a grid-area created manually or automatically, taking up that space
@@ -1507,7 +1442,7 @@ grid-area basically takes two kind of values, the name of a grid area, or four s
 
 grid items may be placed in the same area, i.e. they may overlap, even completely.
 
-###### flex
+####### flex
 
 flex-flow is a shorthand for flex-direction and flex-wrap
 flex-wrap may take the values nowrap, wrap, wrap-reverse.
@@ -1519,7 +1454,7 @@ flex-basis specifies the initial size of a flex item along its main axis.
 
 By default flex items don't shrink below their minimum content size. To change this, set the item's min-width or min-height.
 
-###### columns
+####### columns
 
 The column-fill CSS property controls how an element's contents are balanced when broken into column fragmentainers (= column boxes)
 auto|fill column boxes sequentially in the inline base direction, until the column box is full
@@ -1532,11 +1467,11 @@ A spanning element spans all columns.
 column-span specifies a maximum amount of columns
 column-width specifies a minimum width of columns
 
-##### Pointer-events
+###### Pointer-events
 
 pointer-events: {{c1::none}} makes a thing completely ininteractable with a mouse.
 
-##### Text
+###### Text
 
 The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
 the color keyword sets the color of the text and text decorations and accpets a <color> value.
@@ -1562,7 +1497,7 @@ vertical-align algins elements within line boxes along the block flow direction.
 vertical-align is relative to the line box for some properties, and to the font for others.
 
 
-###### font
+####### font
 
 font-family sets the font family = typeface of the text.
 font-family takes a font stack.
@@ -1578,7 +1513,7 @@ font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-
 
 It may seem that certain html form elements can't have their font styled {{c1::because by default, these elements don't inherit font properties}}
 
-##### Scrolling
+###### Scrolling
 
 overscrolling is what happens when you scroll further on something than that thing allows.
 on mobile browsers and some desktop browsers, there is a form of overscrolling where the site will rubberband
@@ -1587,7 +1522,7 @@ overscroll-behavior is actually a shorthand for overscroll-behavior-x and oversc
 overscroll-behavior: none prevents all overscrolling.
 overscroll-behavior: contain will prevent scroll chaining only
 
-##### Background
+###### Background
 
 The background: property is a shorthand for {{c1::background-clip}}, {{c2::background-color}}, {{c3::background-image}}, {{c4::background-origin}}, {{c5::background-position}}, {{c6::background-repeat}}, {{c7::background-size}} and {{c8::background-attachment}}
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
@@ -1614,7 +1549,7 @@ All background properties may take a CSL to specify multiple backgrounds.
 background-attachment specifies how the background interacts with scrolling (it has a bunch of keyword values that I can't remember)
 background-position takes a <position> value to position the background.
 
-##### edges
+###### edges
 
 Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
 Shorthand for edges in CSS use a consistent syntax:
@@ -1629,7 +1564,7 @@ Normally, instead of using the shorthand, you can also set the properties indivi
 typically, any edge width is specified as a <length-percentage>
 <length-percentage-edges> ::= <length-percentage> [<length-percentage>] [<length-percentage>] [<length-percentage>]
 
-###### css box model
+####### css box model
 
 <div class="onion-box">
   <span>((c:1;s:all;::Margin-box))</span>
@@ -1646,14 +1581,14 @@ typically, any edge width is specified as a <length-percentage>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 margin: auto can be used to center a thing horizontally, but not vertically
 
-###### Border & outline
+####### Border & outline
 
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
 Notably, outline is similar to border in that it is composed of -width, -style, -color, but that in contrast to border, neither it itself nor its three subproperties are shorthands for the sides, nor are there individual properties for the sides - you either set the outline on all sides, or none at all.
 Outlines can be moved away from its box via outline-offset: <length>
 
-##### lines
+###### lines
 
 Line is not really an official css term.
 Lines: border, column-rule, outline
@@ -1677,7 +1612,7 @@ ridge|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em ridge black;"
 inset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em inset black;">&nbsp;</div>
 outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black;">&nbsp;</div>
 
-##### Corners
+###### Corners
 
 1 value|specifies all corners|<img src="sm_1_corner.png">
 2 values|1st specifies topleft and bottomright, 2nd specifies topright and bottomleft|<img src="sm_2_corner.png">
@@ -1692,7 +1627,7 @@ If a thing takes two sets of corner specifiers, the first apply in x direction a
 Data types that specify corners are <border-radius>
 border-radius: <border-radius>
 
-##### Custom Counting
+###### Custom Counting
 
 counter-reset and counter-increment and the css functions counter() and counters() are used to defined custom counters for counting().
 counter-reset assigns a counter of name to value.
@@ -1753,7 +1688,7 @@ li::before {
   <li>item</li>          <!-- 2     -->
 </ol></code></pre>
 
-##### animations & transitions
+###### animations & transitions
 
 CSS transitions allow changing between two property values to be gradual.
 CSS animations allow animating between n property values arbitrarily complexly and potentially infinitely.
@@ -1789,7 +1724,7 @@ animation-iteration-count: CSL of (<integer>|infinite)s to specify how many iter
 animation-name: CSL of <custom-ident>s which represent the names of @keyframes describing the animations to apply
 animation-play-state: CSL of (running|paused).
 
-###### timimg functions
+####### timimg functions
 
 animation/transition-timing-function: CSL of <time>s to specify how long the animation will take
 
@@ -1818,7 +1753,7 @@ jump-end, end|first 'jump' happens at some time after 0; last jump happens at en
 jump-none|first 'jump' happens at some time after 0; last jump happens some time before end|ergo: 0 & 1 state will both be visible
 jump-both|first 'jump' happens at 0; last jump happens at 1|ergo: 0 & 1 state will both not be visible
 
-####### cubic-bezier
+######## cubic-bezier
 
 Bezier curvers are frequently used for curves in computer graphics
 A bezier curve is constructed from two or more points.
@@ -1843,7 +1778,7 @@ ease-in|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
 ease|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
 ease-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
 
-##### tables
+###### tables
 
 The empty-cells CSS property sets whether borders and backgrounds appear around <table> cells that have no visible content.
 The border-collapse CSS property sets whether cells inside a <table> have shared or separate borders.
@@ -1858,7 +1793,7 @@ border-spacing is the equivalent of gap, but for tables.
 border-spacing applies only when border-collapse is separate.
 visibility: collapse: For <table> rows, columns, column groups, and row groups, the row(s) or column(s) are hidden and the space they would have occupied is removed (as if display: none were applied to the column/row of the table). However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present. 
 
-##### misc
+###### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
 clip-path-values ::= [<m-b-p-c-box>] [<basic-shape>]
@@ -1889,9 +1824,9 @@ mix-blend-mode and background-blend-mode both take a <blend-mode>
 {{c2::mix-blend-mode}} regulates blending between {{c1::the}} {{c1::element's}} {{c3::content}}, {{c1::the}} {{c1::element's}} {{c4::parents content}}, and {{c1::the}} {{c1::element's}} {{c5::background}}.
 css <blend-modes> are the usual blend modes
 
-#### Values
+##### Values
 
-##### Functions
+###### Functions
 
 CSS functional notation is a type of CSS value that can represent more complex data types or invoke special data processing or calculations.
 The syntax of CSS functional notation is: <name>\([<argument> {(,| ) <argument>}]\)
@@ -1918,20 +1853,20 @@ clamp ::= clamp(<list-of-calc-sums>, <list-of-calc-sums>, <list-of-calc-sums>)
 The attr() function takes the name of an attribute (of the HTML element) and resolves to its value as a string.
 Currently, attr() can only usefully be used as a value for content.
 
-##### variables
+###### variables
 
 custom properties are properties that start with -- and save their value, which then can be referred to with the var() function.
 custom properties have a scope of the variable they are declared on and all children, since they particpate in the cascade.
 The var() css function can be used instead of any part of a value of another property, and may even contain commas.
 var ::= var\(<custom-property-name>, <fallback-value>\)
 
-##### offsets
+###### offsets
 
 generally from the top left corner
 for <offset>, the first value is x and the second is y
 while offset is not a official datatype, I will define it as offset ::= <length> <length>
 
-###### position
+####### position
 
 <position> can take two kinds of values: keywords and values.
 Keywords for <position> are center, top, right, bottom and left.
@@ -1944,12 +1879,12 @@ The value described by <position> need not be inside the elements box.
 
 <img src="sm_position_value.png">
 
-##### <image>
+###### <image>
 
 The <image> CSS data type represents a two-dimensional image.
 While there are many kinds of things in the spec that an <image> could be, currently it can only be an <url> or a <gradient>
 
-###### <gradient>
+####### <gradient>
 
 currently, there are three types of <gradient>s, <linear-gradient>, <radial-gradient>, and <conic-gradient>
 <linear-gradient> and <radial-gradient>s also exist as repeating versions, which repeat as much as necessary to fil a given area: <repeating-linear-gradient>, <repeating-radial-gradient>.
@@ -1977,7 +1912,7 @@ When specifying color stops, if you don't specify a color it will use the middle
 When specifying color stops, if you don't specify a <length-percentage>/<angle> it will use the middle between the preceeding and succeeding stops.
 Specifying two <length-percentage>/<angle> on a single color stop will make the color stay the same inbetween those two stops.
 
-##### <size>
+###### <size>
 
 size ::= (<length-percentage>[ <length-percentage>])|size-keyword
 size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
@@ -1988,14 +1923,14 @@ farthest-corner	The default value, the gradient's ending shape is sized so that 
 
 For <size>, specifying two <length-percentages> applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a <size> for a circle may only recieve one <legnth-percentages>
 
-##### <basic-shape>
+###### <basic-shape>
 
 basic-shape ::= <inset>|<circle>|<ellipse>|<polygon>|<path>
 inset ::= inset\{<length-percentage-edges>[ round <border-radius>]\}
 circle ::= circle\(<size>[at <position>]\)
 ellipse ::= ellipse\(<size> [at <position>\)
 
-##### color
+###### color
 
 All css color keywords are case-insensitive.
 any property ending in -color: takes a <color> value
@@ -2011,7 +1946,7 @@ for hsl()/hsla(), the h component is a <angle>, or a <number> between 0 and 360
 for hsl()/hsla(), s and l are <number-or-percentages> (how they work is specified in the general color flashcard)
 in css, the alpha channel takes a <number-or-percentage-0-1>
 
-##### simple types
+###### simple types
 
 the <url> datatype is a css function
 url ::= url(<string>) # where string must be a valid url or path or the ID of a SVG shape
@@ -2042,7 +1977,7 @@ b-p-c-box-text ::= border-box|padding-box|content-box|text
 b-p-c-box ::= border-box|padding-box|content-box
 b-c-box ::= border-box|content-box
 
-##### length
+###### length
 
 length ::= <number><length-unit>
 length-percentage ::= <length>|<percentage>
@@ -2083,7 +2018,7 @@ absolute-length-unit ::= <metric-length-unit>|<imperial-length-unit>|px
 metric-length-unit ::= cm|mm|Q
 imperial-length-unit ::= in|pc|pt
 
-##### filters
+###### filters
 
 backdrop-filter applies a filter to the area behind an element.
 for backdrop-filter to apply, the element or its background must be at least partially transparent.
@@ -2109,7 +2044,7 @@ There are a few different sets of semantics for <number-or-percentage>
 <number-or-percentage-to-infinity>: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
 <number-or-percentage-0-1>: 0/0% is complete lack, 1/100% is complete application
 
-##### shadows
+###### shadows
 
 The box-shadow property creates a rectangular shadow behind an element's entire box, while the drop-shadow() filter function creates a shadow that conforms to the shape (alpha channel) of the image itself.
 
@@ -2120,11 +2055,11 @@ box-shadow additionally may take the keyword inset, which specifies that the sha
 
 text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying multiple shadows.
 
-## at-rules
+### at-rules
 
-### nested at-rules
+#### nested at-rules
 
-#### @font-face
+##### @font-face
 
 @font-face defines a font face for use within the document.
 @font-face takes at least a font-family: foo, which is the name we will use to refer to it, and a src, which provides the file for the font itself.
@@ -2137,7 +2072,7 @@ for @font-face, since you're specifying fonts and not font-families, for differe
 
 unicode-range: some-range will only load the font if the document uses the font for at least one character within the range
 
-#### @keyframes
+##### @keyframes
 
 Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \}
 <keyframes-name> ::= <custom-ident>|<string>
@@ -2153,7 +2088,7 @@ if you mark something with !important in a keyframe,&nbsp;{{c1::That value will 
 if you don't provide a from/0% andor a to/100% it will {{c1::Animate to/from the elements existing styles}}
 If you specify multiple @keyframes with the same name, {{c1::The last one encountered will be used}}
 
-#### @page
+##### @page
 
 @page syntax: @page <page-selector-list>\{<page-body>\}
 page-selector-list ::= <page-pseudo-class>{, <page-pseudo-class>} #maybe it's not a comma? I couldn't find any documentation this
@@ -2163,19 +2098,19 @@ currently supported properties for the page declaration are margins, orphans, wi
 margin-at-rule = @<margin-at-rule-name><declaration-block>
 <img src="page_margin_at_rules.png">
 
-#### @counter-style
+##### @counter-style
 
 @counter-style produces values of type <@counter-style>
 @namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet.
 
-### non-nested at-rules
+#### non-nested at-rules
 
 @charset "<charset>"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
 @charset must be the first statement in the document if present.
 
-## elements
+### elements
 
-### replaced elements
+#### replaced elements
 
 In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
 Typical replaced elements are:
@@ -2208,14 +2143,14 @@ fill|stretch|none
 none|preserve|either clipping or framing (not resized at all)
 scale-down|perserve|letterbox or framing (contain or none, whichever is smaller)
 
-#### images
+##### images
 
 image-rendering controls how an image upscales. 
 image-rendering: pixelated - image will seem to be composed of large pixels
 image-rendering: crisp-edges - preserve edges
 image-rendering: auto - browser-defined algorithm
 
-## flow
+### flow
 
 CSS takes as its input a tree of elements and text nodes, most commonly a pared-down DOM.
 CSS converts the DOM to a flattened element tree, which is the same but has shadow trees merged back in.
@@ -2235,7 +2170,7 @@ Unlike element-generated boxes, whose styles inherit strictly through the elemen
 CSS outputs its output onto a canvas, which may be your screen, a piece of paper, an audio stream or something else.
 Content that extends outside of a boxes edges or would do so is known as overflow
 
-### display
+#### display
 
 The display property controls two distinct-things: the outer and the inner display type.
 The outer display type of an element controls how it will praticipate in normal flow.
@@ -2349,7 +2284,7 @@ none|this element and any of its descendants do not generate boxes or text runs
 
 To hide a box without influencing which boxes it generates (and thus also still taking up the space), use visibility: hidden
 
-#### display-internal
+##### display-internal
 
 behave as ...|<display-internal> value
 tbody|table-row-group
@@ -2361,7 +2296,7 @@ colgroup|table-column-group
 col|table-column
 caption|table-caption
 
-### fragmented flow
+#### fragmented flow
 
 CSS paged media and containers consist of a fragmentation flow.
 Inline flow is actually also fragemnted flow.
@@ -2375,14 +2310,14 @@ In fragmented flow, a box may consist of one or more box fragments.
 A (box) fragment is the part of a box that is in a given fragmentainer.
 Each box fragment has its own share of the box's padding, border, and margin. 
 
-#### Orphans and Widows
+##### Orphans and Widows
 
 orphans and widows are two twin properties in CSS that apply only to pages or columns.
 Both orphans and widows take an <integer>
 orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
 widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
 
-#### Break
+##### Break
 
 The break-before/break-after/break-inside properties apply to pages and collumns.
 The break-before/after/inside says how to break before/after/within a block-level element
@@ -2393,7 +2328,7 @@ break-before/after but not inside take the keywords left/right to force breaking
 break-before/after/inside default to auto, which means a break is allowed but not mandatory.
 A break created by break-before and break-after is called a forced break.
 
-## meida queries
+### meida queries
 
 Media queries and feature queries have a fair amount of similarities.
 Media queries are boolean assertions if the current user's environment/device/UA is a certain way.
@@ -2406,7 +2341,7 @@ Media features describe a specific feature of the environment/device/UA, which c
 Media queries are most commonly used by @media at-rules, and less frequently by @import at-rules (specified after the meat and potatoes), the media attribute in HTML, and in JS by Window.matchMedia() and MediaQueryList.addListener().
 A feature query consists of "feature features" (my coinage) and logical operators.
 
-### media types
+#### media types
 
 Media types
 
@@ -2417,7 +2352,7 @@ speech|intended for speech synthesizers/screen readers
 
 Media types are specified as boolean attributes, i.e. the presence of the keyword is enough
 
-### media features
+#### media features
 
 Media features
 orientation describes relationship of width and height of the viewport (not the device/screen!)
@@ -2436,14 +2371,14 @@ Media features that are range features can take a min- and a max- version of tha
 Level 4 media queries support a more intuitive syntax for range features using &lt;, &gt;, = etc.
 Media featurs that are range features: color, resolution, height, width, aspect-ratio
 
-### logical ops
+#### logical ops
 
 The logical operators that are valid within media queries are and and not (which work as expected), and the comma, which acts as an or, but cannot be nested (i.e. can only combine media queries at the top level). 
 as of Level 3 media queries (changes in level 4 media queries), the not keyword can't be used to negate an individual media feature expression, only an entire media query.
 feature queries supports similar logical operators to media queries, but instead of the comma, it has a normal or operator, and not can also invert parts of feature queries.
 The operator only is mainly useful for preventing browsers from matching if part of the media query applies, and there is another part that they don't understand (e.g. older browsers) and thus ignore.
 
-### atrules
+#### atrules
 
 An @media at-rule is a conditional which takes a media query and executes the CSS contained within if the media query is true.
 Multiple @media at-rules may apply at the same time
@@ -2457,19 +2392,19 @@ Syntax @media &lt;media-query&gt; &lt;block&gt;
 
 A @supports at-rule is a conditional which takes a feature query
 
-### in HTML
+#### in HTML
 
 The media HTML attribute may be applied to <link>, <source>, or <style>.
 The media HTML attribute indicates when to load the specific resource.
 
-### in JS
+#### in JS
 
 window.matchMedia() takes a media query and returns a MediaQueryList object, whose matches property indicates exactly that.
 To react to changes in media features/types, you can register the change event on the MediaQueryList boject.
 
-## related technologies
+### related technologies
 
-### system UI themes
+#### system UI themes
 
 the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted spec for {{c3::a style object}} that stores things for {{c4::design systems}}, especially {{c5::scales}}
 at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} - 
@@ -2582,7 +2517,7 @@ colors: {
   </tbody>
 </table>
 
-### CSS processing
+#### CSS processing
 
 a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
 {{c3::Sass}} is a {{c4::CSS preprocessor}} that works with the two syntaxes {{c1::Sass (the syntax)}} and {{c2::SCSS}}
@@ -2591,118 +2526,7 @@ Sass syntax that is a CSS superset   SCSS (Sassy CSS)
 PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by JS plugins.
 Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
 
-### CSS naming schemes
-
-# web frameworks
-
-A framework is a set of libraries where the framework itself has control by default, and only exposes an API.
-A framework: Don't call us, we'll call you.
-A web framework is a framework for use in web development.
-ME?N = MongoDB, Express.js, ?, Node.js
-MEAN includes Angular
-MERN includes React
-MEVN includes Vue.js
-
-## commonalities
-
-## front-end
-
-Express is the most popular server-side web framework for node.
-Angular is the successor to AngularJS
-Angular is sometimes called Angular 2
-While AngularJS was written in JS, Angular (2) was written in typescript.
-Angular and Vue.js are the two most popular front-end frameworks that are clearly frameworks.
-React is often called a framework and would be the most popular front-end framework if it was, but is more like a library.
-Svelte works like a front-end framework, but actually compiles in advance.
-
-### react 
-
-#### react native
-
-
-Native Components: React Components transformed into native views
-Core components: Native Components that are part of React Natives standard library
-React Native|HTML
-&lt;View&gt;|a non-scrolling &lt;div&gt;
-&lt;TextInput&gt;|&lt;input type="text"&gt;
-&lt;Text&gt;|&lt;p&gt;
-&lt;ScrollView&gt;|a scrolling &lt;div&gt;
-&lt;Image&gt;|&lt;img&gt;
-
-## Python
-
-Flask and Django are the most popular web frameworks for Python.
-
-# other stuff
-
-ISO dates
-The chrominum javascript engine is v8, d8 is the developer shell for v8
-A bricked device is one that no longer can function at all (has become as useful as a brick)
-SKU|Stock Keeping Unit
-An instance is something that has been created on some sort of model.
-
-## placeholder images
-
-Placeholder images using kittens   placekitten.com
-Placeholder images using boring boxes   via.placeholder.com
-
-via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
-placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
-
-## non-humans
-
-### robots
-
-#### SEO
-
-related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
-
-### Accessibility
-
-Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
-
-#### WAI & WCAG basics
-
-{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
-the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
-The WCAG consists of principles, guidelines, successs criteria, and techniques.
-WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
-Each WCAG principle is broken up into one or more guidlines.
-Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
-For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
-WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
-The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
-In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
-§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
-§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
-§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
-
-#### WCAG success critera
-
-##### Non-text content
-
-the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
-
-#### WCAG techniques
-
-##### Semantic HTML
-
-Semantic HTML is HTML where the tags contain semantic information about the content
-Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
-
-
-##### aria
-
-ARIA  Accessible Rich Internet Applications
-ARIA is mainly realized in HTML attributes.
-ARIA attributes change the accessibility tree, but nothing else.
-There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
-ARIA {{c1::states}} define some property {{c2::that can change}}
-ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
-ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
-
+#### CSS naming schemes
 
 # data
 
@@ -2870,39 +2694,6 @@ boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
 Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
 <img class="c2-f c1-b" src="sm_2021-10-19--03-12-32-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-11-46-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-10-58-screenshot.jpg">
-
-# Modelling
-
-UML  Unified Modeling Language
-UML is a general modelling language most commonly used in the field of software engineering.
-
-## class
-
-An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
-<img src="sm_220px-BankAccount1.svg.jpg">
-
-## sequence
-
-((h:all;::<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">))
-
-A sequencie diagram is an UML diagram showing object interactions as time flows.
-In a sequene diagram, the lifelines go from the objects downwards.
-In a sequence diagram, a thicker bar on the lifeline means the object is active.
-In a sequence diagram, messages between objects are indicated by horizontal lines between the lifelines.
-In a sequence diagram, the further down a message, the later it comes
-non-filled arrowheads   Async messages
-filled arrowheads   synchronous messages
-request messages   solid line arrows
-Answer messages   dashed arrows
-
-
-## object
-
-<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
-Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
-
-
-
 
 # HCI
 
@@ -3217,6 +3008,237 @@ Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now de
 Waiting is less frustrating when there is an indication of progress and transparancy of how the progress relates to the whole (e.g. Kayak.com showing cheaper prices trundling in).
 Jason Farman (Delayed Response) argues that what really matters about if we leave a waiting situation satisified is if we waited less than we expected, rather than the whole wait time.
 The fact that our expectations are the thing that determines our assesment of waiting and progress bars has given rise to the progress bar that starts out slow and then speeds up towards the end (no matter if this is a correct interpretation)
+
+## text markup across languages
+
+bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
+italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
+emphasize (generally via italics)|\emph{}|&lt;em>|N/A
+strongly emphasize||<strong>|N/A
+underline|\underline{}|&lt;u>|N/A
+strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
+hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
+hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
+block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
+Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
+inline source code||&lt;code>|``
+create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
+Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
+Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
+A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
+a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
+image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
+horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
+superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
+subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
+indicate a variable semantically||<var>
+keyboard input||<kbd>
+sample output||<samp>
+title of a cited work||<cite>
+preformatted text that is to be presented exactly as written||<pre>
+
+using \url{} or \href{} requires the package hyperref in Latex
+package hyperref also does autolinking to things such as the TOC
+
+strike is similar to <s>, but obsolete
+<tt> used to indicate teletype text, but is now obsolete
+<big> used to indicate big text, but is now obsolete; however <small> still works.
+<center> used to indicate centered text but is now obsolete
+
+most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
+most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
+
+
+i|italic|conventionally italic
+em|italic|more important
+b|bold|conventionally bold
+strong|bold|super important
+u|underline|has non-textual annotation of some kind
+mark|yellow highlighter|highlighted ≈ area of interest
+ 
+
+non-breaking space|\nonbreakspace or ~|&amp;nbsp;
+ampersand||&amp;amp;
+non-breaking hyphen|"~
+soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;
+"=
+if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
+
+hyperref|create links automatically and \href, \url commands
+
+
+nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
+
+Pandoc md is a superset of most other markdown flavors
+Pandoc md defaults to tilde-delimited code blocks.
+In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
+pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
+
+
+## computer graphcis
+
+A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly visible with {{c2::no styling/browser default styling}}
+
+### color
+
+<br>---<br>
+  §§ A ((c:17;::color model)) is a model of how ((c:18;::a set of channels)) ((c:19;::make up a color)). §<br>
+§§ A ((c:20;::color space)) is a ((c:21;::color model)) ((c:22;::associated with)) ((c:23;::how the results are to be interpreted (viewing conditions etc.))) §<br>
+§§ A ((c:24;::gamut)) is ((c:25;::a complete/'adjacent')) ((c:26;::subset of a colors)). §<br>
+§§ Often a ((c:27;::gamut)) refers specifically to ((c:28;::the subsset of colors)) that ((c:29;::can be displayed or represented by something)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:30;::Each pixel)) in a ((c:31;::color image)) is made up of ((c:32;::two or more channels)). §<br>
+§§ ((c:33;::Each channel)) in an image/pixel is ((c:34;::associated with a color)). §<br>
+§§ ((c:35;::channels)) of color may also be called ((c:36;::components)). §<br>
+§§ ((c:37;::A channel)) is ((c:38;::the value of a color)) for ((c:39;::a specific pixel, and thus the whole image)). §<br>
+§§ ((c:41;::Combining)) ((c:40;::the color channels)) of a pixel (and thus the image) ends you up with ((c:42;::the color of the pixel/image)). §<br>
+===<br>
+
+<br>---<br>
+  §§ In the ((c:43;::RGB)) ((c:44;::color model)) a thingy has the ((c:45;::three)) ((c:46;::channels)) ((c:47;::red, green and blue)). §<br>
+§§ In the ((c:48;::CMY)) ((c:49;::color model)) a thingy has the ((c:50;::three)) ((c:51;::channels)) ((c:52;::cyan, magenta and yellow)). §<br>
+§§ The ((c:53;::CMYK)) ((c:54;::color model)) ((c:56;::adds a channe))l of ((c:55;::key)) (= ((c:55;::black))). §<br>
+§§ The ((c:57;::key channel)) is ((c:58;::generally added to CMYK)) because ((c:59;::black ink is cheaper,)) and ((c:60;::producing black by mixing cyan, magenta and yellow is in practice quite hard)). §<br>
+§§ The ((c:61;::CMY)) and ((c:62;::RGB)) ((c:63;::color models)) are ((c:64;::the most common color models in use today)), in part because ((c:65;::they correspond roughly to human tricromatic color vision)). §<br>
+§§ An ((c:66;::additive color model)) is one where ((c:67;::colors)) ((c:68;::added together)) produce ((c:69;::progressively lighter colors)). §<br>
+§§ ((c:70;::Light emission)) follows ((c:71;::an addtive)) color model. §<br>
+§§ A ((c:72;::subtractive color model)) is one where ((c:73;::colors)) ((c:74;::added together)) produce ((c:75;::progressively darker colors)). §<br>
+§§ ((c:76;::Light absorption)) follows ((c:77;::a subtractive)) color model. §<br>
+§§ ((c:78;::RGB)), being ((c:79;::an additive color model)), is mainly used for ((c:80;::displays and other places where light is emitted)). §<br>
+§§ ((c:81;::CMYK)) being ((c:82;::a subtractive color model)) is mainly used for ((c:83;::printing and other places where light is absorbed.)) §<br>
+§§ ((c:84;::RYB)) is an alternative ((c:85;::subtractive)) ((c:86;::color model)) still used in the arts. It can however not ((c:87;::create black)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:88;::Color depth)) indicates ((c:89;::the amount of bits used)) for ((c:90;::color)) ((c:91;::per pixel)) or ((c:92;::per channel)) (since ((c:93;::these rarely overlap)), there is no ((c:93;::confusion)).) §<br>
+§§ ((c:94;::Color depth)) is more rarely also called ((c:95;::bit depth)). §<br>
+§§ Today, the ((c:96;::most common)) ((c:97;::color depth)) is ((c:98;::8 bit per channel)). §<br>
+===<br>
+
+<br>---<br>
+  §§ the ((c:99;::common color depth of 8 bit per channe))l means values from ((c:100;::0 - 255)) / ((c:101;::00 to ff)). §<br>
+§§ Most colors are specified by ((c:102;::specifying the color model)) and then ((c:103;::the components)) (e.g. ((c:104;::RGB 0, 120, 58))). §<br>
+§§ ((c:105;::RGB colors)) are also often displayed as ((c:106;::a hex triplet,)) which is generally ((c:107;::prefixed by a # character)). §<br>
+§§ In certain places, e.g. HTML/CSS, hex colors ((c:226;::with reduplicated digits only (e.g. 663399))) can ((c:227;::be shortened to three-digit variants (e.g. 639))) §<br>
+===<br>
+
+<br>---<br> 
+  §§ ((c:108;::A primary color)) is ((c:109;::a member of)) a ((c:110;::set of colors)) (all ((c:111;::defined to be primary))) that ((c:112;::can be combined in varying amounts)) to ((c:113;::create a gamut of colors)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:114;::CMY)) and ((c:114;::RGB)) are ((c:115;::complementary)) in such a way that ((c:116;::C+R)), ((c:116;::M+G)), and ((c:116;::Y+B)) are ((c:117;::all 100% (255 with an 8 bit color depth))). To ((c:118;::get one channel)), ((c:119;::the other is subtracted from 100%)). §<br>
+§§ To get ((c:120;::the K channel)) from ((c:120;::CMY)): K = ((c:121;::min(C, M, Y))) §<br>
+§§ After ((c:122;::getting the K channel)), to ((c:123;::convert CMY to CMYK)): ((c:125;::Channel_new)) =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">((c:124;::Channel - K))</div><div>((c:125;::1 - K))</div></div> §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:129;::Hue)) is what we might call ((c:130;::<i>color</i>))&nbsp;color. §<br>
+§§ ((c:131;::Hue)) is what ((c:132;::most languages)) ((c:133;::consider primary)) about ((c:134;::color)), with ((c:135;::other attributes such as light/dark/muddy/vivid/pastel)) ((c:136;::attached later)). §<br>
+§§ ((c:137;::Hue)) is often ((c:138;::generated from)) ((c:139;::RGB)), e.g. for ((c:140;::use in HSL &amp; HSV/HSB)). §<br>
+§§ If ((c:141;::Hue)) is ((c:142;::generated)) from ((c:142;::RGB)) for ((c:142;::HSL/HSV)), it is specified in ((c:143;::a degree from 0 to 360 deg)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">If Hue is specified in a degree measurement</th></tr>
+    <tr><th>degree</th>
+    <th>color</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:144;::0deg/360deg))</td> <td>((c:145;::red))</td></tr>
+<tr><td>((c:146;::120deg))</td> <td>((c:147;::green))</td></tr>
+<tr><td>((c:148;::240deg))</td> <td>((c:149;::blue))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ Commonly, ((c:156;::saturation)) ≈ ((c:157;::chroma)) refers to ((c:158;::the distance)) of ((c:159;::a color)) ((c:158;::from)) t((c:160;::he white-gray-black spectrum)). §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:161;::Lighntess)) attempts to model ((c:162;::adding white/black paint)) to ((c:163;::make the color white/black)). §<br>
+§§ ((c:164;::100%)) ((c:166;::lightness)) is ((c:165;::white)) for ((c:165;::any saturation/hue)). §<br>
+§§ ((c:167;::50%)) ((c:171;::lightness)) ((c:168;::allows for fully saturated colors)). §<br>
+§§ ((c:169;::0%)) ((c:172;::lightness)) is ((c:170;::black)) for ((c:170;::any saturation/hue)) §<br>
+§§ ((c:173;::Value/brightness)) attempts to model ((c:174;::how shining more/less light on a thing)) will ((c:175;::change the color)). §<br>
+§§ ((c:176;::100%)) ((c:181;::value/brightness)) ((c:177;::allows for fully saturated colors.)) §<br>
+§§ ((c:178;::0%)) ((c:179;::lightness)) is ((c:180;::black)) for ((c:180;::any saturation/hue)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:151;::tint))</td> <td>((c:152;::mixture of a color with white))</td></tr>
+<tr><td>((c:153;::tone))</td> <td>((c:154;::mixture of a color with gray))</td></tr>
+<tr><td>((c:155;::shade))</td> <td>((c:150;::mixture of a color with black))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ ((c:182;::HSL)) = ((c:186;::hue, saturation, lightness)). §<br>
+§§ ((c:183;::HSV)) = ((c:187;::hue, saturation, value)) ((c:190;::is the same as)) ((c:188;::HSB)) = ((c:189;::hue, saturation, brightness.)) §<br>
+§§ ((c:184;::HSL)) and ((c:184;::HSV/HSB)) are alternate ((c:191;::color models)), which are both ((c:192;::variants of/generated from)) ((c:193;::the RGB color model)). §<br>
+§§ ((c:185;::HSL)) and ((c:185;::HSV)) were created because ((c:194;::they are more natural to how we as humans understand color.)) §<br>
+§§ ((s:ga;::While ((c:195;::RGB)) and ((c:195;::CMY)) are most naturally represented as ((c:196;::cubes)))), ((s:gb;::((c:197;::HSL)) and ((c:197;::HSV/HSB)) are commonly represented as ((c:198;::cylinders)))). §<br>
+§§ Since ((c:199;::the top and bottom)) of ((c:200;::a ((s:202;::HSL)) cylinder)) ((c:201;::all approach the same color (white and black respectively))), ((s:gb;::((c:202;::HSL)) may also ((c:203;::be represented as a bicone)))). §<br>
+§§ Since the ((c:204;::bottom)) of ((c:205;::a HSV/HSB cylinder)) ((c:206;::approaches the same color (black))), ((s:gb;::HSV/HSB may more naturally be represented as a cone.)) §<br>
+§§ ((c:207;::HSL)) and ((c:208;::HSV/HSB)) both have ((s:211-212;::((c:209;::hue)) as ((c:210;::the degree)))), and ((s:209-210;::((c:211;::saturation)) as ((c:212;::the radius)).)) §<br>
+§§ ((c:213;::HSL)) has ((c:214;::lightness)) as ((c:215;::the height.)) §<br>
+§§ ((c:216;::HSV/HSB)) has v((c:217;::alue/brightness)) as ((c:218;::the height)).  §<br>
+§§ both ((c:219;::HSL)) and ((c:219;::HSV/B)) have the problem that ((c:220;::changing)) the ((c:221;::saturation)) and ((c:223;::to a certain extent)) ((c:222;::the hue)) ((c:220;::will change)) ((c:224;::the percieved lightness/brightness)), even when ((c:225;::they are supposed to be independent)). §<br>
+===<br>
+
+<div class="flex-container">((h:all;::<img src="sm_hsl_cylinder.png">))((h:all;::<img src="sm_hsv_cylinder.png">))</div>
+<div class="flex-container">((h:all;::<img src="sm_hsl_cone.png">))((h:all;::<img src="sm_hsv_cone.png">))
+</div>
+<br>---<br>
+For any given color model, to ((c:228;::specify transparency)), you ((c:229;::add another channel)), which is called the ((c:230;::alpha)) channel.
+For a color hex, you ((c:231;::specify the alpha channel)) by ((c:232;::adding another two-digit hex to the end)).
+  §§ ((c:126;::&lt;color-model&gt;-D)) is ((c:127;::just that color model)) with ((c:128;::an additional depth channel.)) §<br>
+===<br>
+
+<table>
+  <thead>
+    <tr><th>RGB 3-tuple notation</th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Rgb(0, 0, 0)))</td> <td>((c:2;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">))</td></tr>
+    <tr><td>((c:3;::Rgb(0, 0, 255)))</td> <td>((c:4;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">))</td></tr>
+    <tr><td>((c:5;::Rgb(0, 255, 0)))</td> <td>((c:6;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">))</td></tr>
+    <tr><td>((c:7;::Rgb(0, 255, 255)))</td> <td>((c:8;::<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">))</td></tr>
+    <tr><td>((c:9;::Rgb(255, 0, 0)))</td> <td>((c:10;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">))</td></tr>
+    <tr><td>((c:11;::Rgb(255, 0, 255)?))</td> <td>((c:12;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">))</td></tr>
+    <tr><td>((c:13;::Rgb(255, 255, 0)))</td> <td>((c:14;::<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">))</td></tr>
+    <tr><td>((c:15;::Rgb(255, 255, 255)?))</td> <td>((c:16;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">))</td></tr>
+<tr><td>((c:233;::#f2f12f))</td> <td>((c:234;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">))</td></tr>
+<tr><td>((c:235;::#e6281f))</td> <td>((c:236;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">))</td></tr>
+<tr><td>((c:237;::#e2e))</td> <td>((c:238;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">))</td></tr>
+<tr><td>((c:239;::#daefe4))</td> <td>((c:240;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">))</td></tr>
+<tr><td>((c:241;::#867d7e))</td> <td>((c:242;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">))</td></tr>
+<tr><td>((c:243;::#17F099))</td> <td>((c:244;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">))</td></tr>
+<tr><td>((c:245;::#132133))</td> <td>((c:246;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}</span>
+
+### blending
+
+Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
+Blend modes typically use values from 0 to 1 for the channels for the math.
+When describing blend modes, t denotes the top layer and b the bottom layer
+In general, when channel is specified, assume it is done to each channel.
+normal|use alpha compositing
+multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
+screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
 # data storage
 
@@ -6413,24 +6435,7 @@ Common shortcuts
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-# principles
 
-GIGO   Garbage In, Garbage Out
-Garbage in, garbage out claims that if the input data is somehow bad {{c1::the output data will be too}}
-Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
-"Anything that can go wrong will go wrong"   Murphy's law
-{{c1::an anti-pattern}} is a pattern (intentional or not) that is ineffective/counter-productive 
-YAGNI  You/ya ain't gonna need it
-In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
-While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
-DRY   Don't repeat yourself
-KISS   Keep it simple stupid
-
-## mech pol
-
-the mechanism   what can be done
-the policy   what should be done
-separation of mechanism and policy.
 
 # identifiers
 
@@ -6531,168 +6536,6 @@ Using semver, for each of major, minor or patch you can instead specify a * to i
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
 
-# computer graphcis
-
-A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly&nbsp; visible with {{c2::no styling/browser default styling}}
-
-## color
-
-<br>---<br>
-  §§ A ((c:17;::color model)) is a model of how ((c:18;::a set of channels)) ((c:19;::make up a color)). §<br>
-§§ A ((c:20;::color space)) is a ((c:21;::color model)) ((c:22;::associated with)) ((c:23;::how the results are to be interpreted (viewing conditions etc.))) §<br>
-§§ A ((c:24;::gamut)) is ((c:25;::a complete/'adjacent')) ((c:26;::subset of a colors)). §<br>
-§§ Often a ((c:27;::gamut)) refers specifically to ((c:28;::the subsset of colors)) that ((c:29;::can be displayed or represented by something)). §<br>
-===<br>
-
-<br>---<br>
-  §§ ((c:30;::Each pixel)) in a ((c:31;::color image)) is made up of ((c:32;::two or more channels)). §<br>
-§§ ((c:33;::Each channel)) in an image/pixel is ((c:34;::associated with a color)). §<br>
-§§ ((c:35;::channels)) of color may also be called ((c:36;::components)). §<br>
-§§ ((c:37;::A channel)) is ((c:38;::the value of a color)) for ((c:39;::a specific pixel, and thus the whole image)). §<br>
-§§ ((c:41;::Combining)) ((c:40;::the color channels)) of a pixel (and thus the image) ends you up with ((c:42;::the color of the pixel/image)). §<br>
-===<br>
-
-<br>---<br>
-  §§ In the ((c:43;::RGB)) ((c:44;::color model)) a thingy has the ((c:45;::three)) ((c:46;::channels)) ((c:47;::red, green and blue)). §<br>
-§§ In the ((c:48;::CMY)) ((c:49;::color model)) a thingy has the ((c:50;::three)) ((c:51;::channels)) ((c:52;::cyan, magenta and yellow)). §<br>
-§§ The ((c:53;::CMYK)) ((c:54;::color model)) ((c:56;::adds a channe))l of ((c:55;::key)) (= ((c:55;::black))). §<br>
-§§ The ((c:57;::key channel)) is ((c:58;::generally added to CMYK)) because ((c:59;::black ink is cheaper,)) and ((c:60;::producing black by mixing cyan, magenta and yellow is in practice quite hard)). §<br>
-§§ The ((c:61;::CMY)) and ((c:62;::RGB)) ((c:63;::color models)) are ((c:64;::the most common color models in use today)), in part because ((c:65;::they correspond roughly to human tricromatic color vision)). §<br>
-§§ An ((c:66;::additive color model)) is one where ((c:67;::colors)) ((c:68;::added together)) produce ((c:69;::progressively lighter colors)). §<br>
-§§ ((c:70;::Light emission)) follows ((c:71;::an addtive)) color model. §<br>
-§§ A ((c:72;::subtractive color model)) is one where ((c:73;::colors)) ((c:74;::added together)) produce ((c:75;::progressively darker colors)). §<br>
-§§ ((c:76;::Light absorption)) follows ((c:77;::a subtractive)) color model. §<br>
-§§ ((c:78;::RGB)), being ((c:79;::an additive color model)), is mainly used for ((c:80;::displays and other places where light is emitted)). §<br>
-§§ ((c:81;::CMYK)) being ((c:82;::a subtractive color model)) is mainly used for ((c:83;::printing and other places where light is absorbed.)) §<br>
-§§ ((c:84;::RYB)) is an alternative ((c:85;::subtractive)) ((c:86;::color model)) still used in the arts. It can however not ((c:87;::create black)). §<br>
-===<br>
-
-<br>---<br>
-  §§ ((c:88;::Color depth)) indicates ((c:89;::the amount of bits used)) for ((c:90;::color)) ((c:91;::per pixel)) or ((c:92;::per channel)) (since ((c:93;::these rarely overlap)), there is no ((c:93;::confusion)).) §<br>
-§§ ((c:94;::Color depth)) is more rarely also called ((c:95;::bit depth)). §<br>
-§§ Today, the ((c:96;::most common)) ((c:97;::color depth)) is ((c:98;::8 bit per channel)). §<br>
-===<br>
-
-<br>---<br>
-  §§ the ((c:99;::common color depth of 8 bit per channe))l means values from ((c:100;::0 - 255)) / ((c:101;::00 to ff)). §<br>
-§§ Most colors are specified by ((c:102;::specifying the color model)) and then ((c:103;::the components)) (e.g. ((c:104;::RGB 0, 120, 58))). §<br>
-§§ ((c:105;::RGB colors)) are also often displayed as ((c:106;::a hex triplet,)) which is generally ((c:107;::prefixed by a # character)). §<br>
-§§ In certain places, e.g. HTML/CSS, hex colors ((c:226;::with reduplicated digits only (e.g. 663399))) can ((c:227;::be shortened to three-digit variants (e.g. 639))) §<br>
-===<br>
-
-<br>---<br> 
-  §§ ((c:108;::A primary color)) is ((c:109;::a member of)) a ((c:110;::set of colors)) (all ((c:111;::defined to be primary))) that ((c:112;::can be combined in varying amounts)) to ((c:113;::create a gamut of colors)). §<br>
-===<br>
-
-<br>---<br>
-  §§ ((c:114;::CMY)) and ((c:114;::RGB)) are ((c:115;::complementary)) in such a way that ((c:116;::C+R)), ((c:116;::M+G)), and ((c:116;::Y+B)) are ((c:117;::all 100% (255 with an 8 bit color depth))). To ((c:118;::get one channel)), ((c:119;::the other is subtracted from 100%)). §<br>
-§§ To get ((c:120;::the K channel)) from ((c:120;::CMY)): K = ((c:121;::min(C, M, Y))) §<br>
-§§ After ((c:122;::getting the K channel)), to ((c:123;::convert CMY to CMYK)): ((c:125;::Channel_new)) =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">((c:124;::Channel - K))</div><div>((c:125;::1 - K))</div></div> §<br>
-===<br>
-
-<br>---<br>
-§§ ((c:129;::Hue)) is what we might call ((c:130;::<i>color</i>))&nbsp;color. §<br>
-§§ ((c:131;::Hue)) is what ((c:132;::most languages)) ((c:133;::consider primary)) about ((c:134;::color)), with ((c:135;::other attributes such as light/dark/muddy/vivid/pastel)) ((c:136;::attached later)). §<br>
-§§ ((c:137;::Hue)) is often ((c:138;::generated from)) ((c:139;::RGB)), e.g. for ((c:140;::use in HSL &amp; HSV/HSB)). §<br>
-§§ If ((c:141;::Hue)) is ((c:142;::generated)) from ((c:142;::RGB)) for ((c:142;::HSL/HSV)), it is specified in ((c:143;::a degree from 0 to 360 deg)) §<br>
-===<br>
-
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th colspan="2">If Hue is specified in a degree measurement</th></tr>
-    <tr><th>degree</th>
-    <th>color</th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:144;::0deg/360deg))</td> <td>((c:145;::red))</td></tr>
-<tr><td>((c:146;::120deg))</td> <td>((c:147;::green))</td></tr>
-<tr><td>((c:148;::240deg))</td> <td>((c:149;::blue))</td></tr>
-  </tbody>
-</table>
-
-<br>---<br>
-§§ Commonly, ((c:156;::saturation)) ≈ ((c:157;::chroma)) refers to ((c:158;::the distance)) of ((c:159;::a color)) ((c:158;::from)) t((c:160;::he white-gray-black spectrum)). §<br>
-===<br>
-
-<br>---<br>
-§§ ((c:161;::Lighntess)) attempts to model ((c:162;::adding white/black paint)) to ((c:163;::make the color white/black)). §<br>
-§§ ((c:164;::100%)) ((c:166;::lightness)) is ((c:165;::white)) for ((c:165;::any saturation/hue)). §<br>
-§§ ((c:167;::50%)) ((c:171;::lightness)) ((c:168;::allows for fully saturated colors)). §<br>
-§§ ((c:169;::0%)) ((c:172;::lightness)) is ((c:170;::black)) for ((c:170;::any saturation/hue)) §<br>
-§§ ((c:173;::Value/brightness)) attempts to model ((c:174;::how shining more/less light on a thing)) will ((c:175;::change the color)). §<br>
-§§ ((c:176;::100%)) ((c:181;::value/brightness)) ((c:177;::allows for fully saturated colors.)) §<br>
-§§ ((c:178;::0%)) ((c:179;::lightness)) is ((c:180;::black)) for ((c:180;::any saturation/hue)). §<br>
-===<br>
-
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th></th>
-    <th></th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:151;::tint))</td> <td>((c:152;::mixture of a color with white))</td></tr>
-<tr><td>((c:153;::tone))</td> <td>((c:154;::mixture of a color with gray))</td></tr>
-<tr><td>((c:155;::shade))</td> <td>((c:150;::mixture of a color with black))</td></tr>
-  </tbody>
-</table>
-
-<br>---<br>
-§§ ((c:182;::HSL)) = ((c:186;::hue, saturation, lightness)). §<br>
-§§ ((c:183;::HSV)) = ((c:187;::hue, saturation, value)) ((c:190;::is the same as)) ((c:188;::HSB)) = ((c:189;::hue, saturation, brightness.)) §<br>
-§§ ((c:184;::HSL)) and ((c:184;::HSV/HSB)) are alternate ((c:191;::color models)), which are both ((c:192;::variants of/generated from)) ((c:193;::the RGB color model)). §<br>
-§§ ((c:185;::HSL)) and ((c:185;::HSV)) were created because ((c:194;::they are more natural to how we as humans understand color.)) §<br>
-§§ ((s:ga;::While ((c:195;::RGB)) and ((c:195;::CMY)) are most naturally represented as ((c:196;::cubes)))), ((s:gb;::((c:197;::HSL)) and ((c:197;::HSV/HSB)) are commonly represented as ((c:198;::cylinders)))). §<br>
-§§ Since ((c:199;::the top and bottom)) of ((c:200;::a ((s:202;::HSL)) cylinder)) ((c:201;::all approach the same color (white and black respectively))), ((s:gb;::((c:202;::HSL)) may also ((c:203;::be represented as a bicone)))). §<br>
-§§ Since the ((c:204;::bottom)) of ((c:205;::a HSV/HSB cylinder)) ((c:206;::approaches the same color (black))), ((s:gb;::HSV/HSB may more naturally be represented as a cone.)) §<br>
-§§ ((c:207;::HSL)) and ((c:208;::HSV/HSB)) both have ((s:211-212;::((c:209;::hue)) as ((c:210;::the degree)))), and ((s:209-210;::((c:211;::saturation)) as ((c:212;::the radius)).)) §<br>
-§§ ((c:213;::HSL)) has ((c:214;::lightness)) as ((c:215;::the height.)) §<br>
-§§ ((c:216;::HSV/HSB)) has v((c:217;::alue/brightness)) as ((c:218;::the height)).  §<br>
-§§ both ((c:219;::HSL)) and ((c:219;::HSV/B)) have the problem that ((c:220;::changing)) the ((c:221;::saturation)) and ((c:223;::to a certain extent)) ((c:222;::the hue)) ((c:220;::will change)) ((c:224;::the percieved lightness/brightness)), even when ((c:225;::they are supposed to be independent)). §<br>
-===<br>
-
-<div class="flex-container">((h:all;::<img src="sm_hsl_cylinder.png">))((h:all;::<img src="sm_hsv_cylinder.png">))</div>
-<div class="flex-container">((h:all;::<img src="sm_hsl_cone.png">))((h:all;::<img src="sm_hsv_cone.png">))
-</div>
-<br>---<br>
-For any given color model, to ((c:228;::specify transparency)), you ((c:229;::add another channel)), which is called the ((c:230;::alpha)) channel.
-For a color hex, you ((c:231;::specify the alpha channel)) by ((c:232;::adding another two-digit hex to the end)).
-  §§ ((c:126;::&lt;color-model&gt;-D)) is ((c:127;::just that color model)) with ((c:128;::an additional depth channel.)) §<br>
-===<br>
-
-<table>
-  <thead>
-    <tr><th>RGB 3-tuple notation</th>
-    <th></th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::Rgb(0, 0, 0)))</td> <td>((c:2;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">))</td></tr>
-    <tr><td>((c:3;::Rgb(0, 0, 255)))</td> <td>((c:4;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">))</td></tr>
-    <tr><td>((c:5;::Rgb(0, 255, 0)))</td> <td>((c:6;::<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">))</td></tr>
-    <tr><td>((c:7;::Rgb(0, 255, 255)))</td> <td>((c:8;::<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">))</td></tr>
-    <tr><td>((c:9;::Rgb(255, 0, 0)))</td> <td>((c:10;::<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">))</td></tr>
-    <tr><td>((c:11;::Rgb(255, 0, 255)?))</td> <td>((c:12;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">))</td></tr>
-    <tr><td>((c:13;::Rgb(255, 255, 0)))</td> <td>((c:14;::<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">))</td></tr>
-    <tr><td>((c:15;::Rgb(255, 255, 255)?))</td> <td>((c:16;::<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">))</td></tr>
-<tr><td>((c:233;::#f2f12f))</td> <td>((c:234;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">))</td></tr>
-<tr><td>((c:235;::#e6281f))</td> <td>((c:236;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">))</td></tr>
-<tr><td>((c:237;::#e2e))</td> <td>((c:238;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">))</td></tr>
-<tr><td>((c:239;::#daefe4))</td> <td>((c:240;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">))</td></tr>
-<tr><td>((c:241;::#867d7e))</td> <td>((c:242;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">))</td></tr>
-<tr><td>((c:243;::#17F099))</td> <td>((c:244;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">))</td></tr>
-<tr><td>((c:245;::#132133))</td> <td>((c:246;::<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}</span>
-
-## blending
-
-Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
-Blend modes typically use values from 0 to 1 for the channels for the math.
-When describing blend modes, t denotes the top layer and b the bottom layer
-In general, when channel is specified, assume it is done to each channel.
-normal|use alpha compositing
-multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
-screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
 # automation
 
@@ -6700,12 +6543,3533 @@ The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
 The Amazon Mechanical Turk pays way below the minimum wage.
 The Amazon Mechanical Turk is sometimes used for study subjects.
 
-# todo
-
-add quick note about Web Audio APi
-
 # culture
 
 ## forum
 
 OP|Original Poster
+
+# programming (mostly)
+
+## Expressions
+
+An expression evaluates to = returns a value.
+e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
+
+## Statements
+
+Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
+Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
+Statements do not return a value.
+Since statements do not return a value, they either do nothing or cause side effects.
+var test = 2 + 6; -> side effect of initializing a variable test
+An expression statement is a statement that consists of a single expression.
+
+### imperativeness
+
+Imperative vs. declarative may be understood as a spectrum.
+If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
+If imperative/declarative is understood as a spectrum, the more declarative something is, the more you're merely specifying what you want to happen, unconcerned about the steps.
+On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
+Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
+
+### statement separators and terminators
+
+A statement separator is used to demarcate boundaries between two separate statements. A statement terminator is used to demarcate the end of an individual statement.
+Semicolons are used in programming languages for two things: statement separators and statement terminators. When a language uses semicolons as statement separators, this allows you to write more than one statement on the same line.
+Semicolons as statement terminators aren’t optional and are used to definitively mark the end of a statement.
+
+Typically, even if programming languages have semicolons as statement terminators, they don't go after block statements. JS is the exception to this, where you can but don't have to do this.
+
+semicolons as statement separators and statement terminators|C#|Java|Perl|Rust
+semicolons as statement separators, newlines as statement terminators|Lua|Python|Ruby|sh
+semicolons as statement separators and statement terminators, complex exceptions apply|JS
+
+In languages which have newlines as statement terminators, typically the statement-terminating newlines can be escaped (generally by \ ) 
+e.g. print("foo" + \
+"bar")
+
+### Blocks
+
+<div class="cloze-group-children hide-if-inactive-children">
+  §§ In ((c:3;::most programming languages)), a ((c:2;::block)) is a ((c:1;::statement)).  §<br>
+§§ However, in ((c:4;::Rust)) (and in ruby to, though its weird, as blocks have the same syntax/are merely anon functions w/o arguments), ((c:5;::blocks)) are ((c:6;::expressions)). §<br>
+
+§§ ((c:7;::Blocks)) ((c:8;::contain/consist of)) ((c:9;::one or more)) ((c:10;::statements)). §<br>
+§§ ((c:11;::In/with)) ((c:11;::constructs)) or ((c:11;::languages)) that are ((c:12;::block-scoped)), ((c:13;::a block defines a scope)). §<br>
+§§ ((c:14;::Curly-brace/bracket languages))&nbsp;are defined as languages that ((c:15;::use curly-braces)) ((c:16;::to define blocks)). §<br>
+Many programming languages have been influenced by C, sometimes called C-family languages.
+C was a curly-brace language, and so many C-family language are curly-brace languages.
+(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {} (but also via `()`)
+bash calls its block statements command grouping.
+bash block statements/command grouping is what is used by bash functions.
+The difference between bash block statements using () and using {} is that () spawns a subshell and thus a new scope, while {} executes the commands in the current shell.
+§§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)), SCSS (but not Sass). §<br>
+§§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
+In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
+In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
+In bash, blocks for if are delimited by then ... (possible else etc.) fi, for for and while by do ... done, for case by in ... esac
+In ruby, blocks end with <code>end</code>. begin begins a dedicated block statement (and is the keyword for the error handling statement), but no other blocks
+In python, pretty much anything (control structure, function, etc) that precedes a block ends with `:`. In Ruby by contrast (which otherwise may look pretty similar), nothing ends with `:`
+In some languages, notably Ruby and Rust, block expression return the value of the last statement
+
+liquid|{% keyword %} ... {% endkeyword %}
+python|Sass|indentation
+
+### control structures
+
+The default control flow is linear from top to bottom, this is called sequencing.
+A thing that modifies control flow is a control structure. 
+
+A control structure takes the normally linear flow of code and makes it somehow nonlinear.
+
+Programming languages that use control structures outside of GOTO are structured programming languages.
+Programming languages that do not use control structures or only use GOTO are non-structured programming languages, which are today quite rare.
+
+Control structures are typically statements, however in Ruby and Rust, they are expressions.
+In javascript or JS, most control structures take one statement after it, which can either be a normal statement or a block statement. A statement that does nothing is an empty statement
+If control structures have conditions, they are delimited by...
+
+()|C|JS|Java|C#|Perl
+nothing|Python|Ruby|Rust|Lua
+is complicated|shell
+
+Conditions for control structures in ba(sh) are actually (a) command(s)
+If the command(s) that make up the condition for a control structure return a zero exit code, they will be treated as true, and false otherwise.
+Ergo, one can use the `test` command in the condition of a (ba)sh control structure, but one can also use any other command and rely on its exit status.
+test is also available under the name `[` but requires a closing `]` in this case.
+(ba)sh requires all operators and the [] themselves to be separated by spaces, since [ is actually just a symlink for test, and thus all of these are actually arguments for a command.
+
+#### choice/selection control structures
+
+choice/selection control structures allows choosing between several alternatives based one or more conditons.
+choice/selection control structures constructs are also just called conditionals.
+In conditionals, any of the possible paths is called a branch.
+
+##### if
+
+The most common conditional is if/then/else. 
+  
+the if/then/(else) conditional is typically a statement (in rust, it's an expression).
+An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
+the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
+
+else if|C#|Java|JS|SCSS/Sass
+elseif|lua
+elsif|liquid|perl|ruby
+elif|Python|(ba)sh
+  
+Anki has a if-like conditional to show something only if a field has content, indicated like: 
+<pre><code data-codetype="text">{{c1::{​{}}{{c2::#FieldName}}{{c1::}​}}}
+	Lorem Ipsum
+{{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}</code></pre>
+
+##### conditional operator
+
+The ternary operator is a conditional which is typically an expression. 
+The ternary operator is more properly called conditional operator. 
+The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. 
+The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. 
+  Example in JS:
+  <code
+    >let attack = enemy.isFireType() ? this.attacks.thundershock :
+    this.attacks.inferno;</code
+  >
+Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
+
+##### others
+
+An if statement/expression, but reversed in its truth value, is an unless statement/expression.
+unless statements/expressions use the keyword unless.
+unless statements exist in liquid, perl, ruby
+
+
+Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
+for the postfix conditionals in perl, ruby
+
+##### switch
+
+switch is a type of conditional.
+the switch conditional is generally a statement.
+the switch conditional generally has one condition, and then n branches for possible values.
+Besides the branches for possible values of the conditional, the switch conditional generally also allows for a default case.
+The default for switch statements is optional in JS
+In many languages switch conditionals feature fallthrough, which is where it will continue even after the case ends, until it hits a break/return statement.
+switch conditioals are generally started by the <code>case</code> keyword.
+Different cases for a switch conditional are started by <code>switch</code> in Java, JS and by <code>when</code> in liquid, ruby.
+In liquid, ruby, multiple cases are separated by commas.
+The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
+Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
+Rust instead has match
+In C-family languages, switch cases are generally syntactically equivalent to labels, and thus don't themselves create a new scope by default.
+
+JS Syntax examples:
+
+<pre><code>switch (expression) {
+  {{c1::case}} {{c2::}}value1{{c2::}}{{c3:::}}
+   //Statements;
+   {{c4::default:}}
+}</code></pre>
+
+##### guards
+
+guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
+Of the languages I know, Rust has guards, introduced by `if`.
+
+#### Iteration/Loop control structure 
+
+Control flow that repeats the code a number of times is called iteration/looping
+
+
+##### Count-controlled loops
+
+Count-controlled loops are loops that repeat a piece of code a certain number of times.
+Count-controlled loops are often started with the keyword for.
+Count-controlled loops are often called for-loops.
+The typical syntax for count-controlled loops inheriting from C (e.g. C#, Java, JS, Perl) is 
+for <delimiter>[<counter-initialization>];[<counter-end-condition>];[<counter-change-per-loop>]<delimiter><block>
+for (;;) ends up just being an infinite loop
+SCSS/Sass instead has the syntax @for <variable> from <lowerbound> to (excl)/through (incl) <upperbound>
+
+
+##### Condition-controlled loops
+
+
+A condition-controlled loop is aloop that repeats until a condition changes.
+condition-controlled loops can begin or end with their condtion, in which case they will run at least 0 or at least 1 time.
+condition-controlled loops that test at the beginning of the loop are often started with the keyword <code>while</code> and are often called while-loops. 
+condition-controlled loops that test at the end of the loop are often started with the keyword do, then a block, then end with the keyword while followed by the condition and are often called do-while-loops.
+Most programming languages I know have while and do-while loops, in fact I don't think I know a programming language that doesn't have a while loop.
+Perl and bash have an until loop: a while loop with an inverted condition (analogous to unless).
+Lua also has a while loop with an inverted condition that tests at the end of the loop with the syntax repeat ... until
+
+
+
+##### Collection-controlled loops 
+
+
+A collection-controlled loop is a loop that loops over all elements of a thing.
+Collection-controlled loops are commonly called foreach loops.
+  Collection-controlled loops most commonly start with the keyword <code>for</code>, but then feature a different syntax than count-controlled loops. In perl, they instead start <code>foreach</code>.
+  Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
+  Lua: for &lt;expression&gt; do
+  bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
+  Java: for (<type> <element> : <iterable>) ...
+  JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+  In a JS forin loop, the thing assigned to the variable is the key, not the value.
+  for (<variable> of <iterable>) ...
+  SCSS: @each <variable> in  <iterable>
+Some languages have collection-controlled loops that are called as methods on a collection or iterable (these are higher-order fucntions)
+iterable/enumerable.each(block)|Ruby
+somearr.forEach(anonFunc)|JS
+
+When iterating through something that returns multiple values, the expression may need to destructure the values out, or may just list n variables with commas, depending on the language
+
+bash for in is actually the only loop using for that it has. It's also weird in that what it loops through is an $IFS separated list
+
+Infinite loop
+
+loop|Ruby|Rust
+
+takes a block in ruby
+
+
+
+
+Many languages provide a statement which allows skipping the current (continuing with the next) iteration of a loop.
+Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.
+Many languages provide a statement which allows ending/exiting the loop.
+Most languages use the break statement to end/exit the loop, Perl uses the last statement.
+In Rust, you can pass an argument to the break thing to have that be the return value of the block expression
+
+
+Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
+
+(loops with reversed condition do not count as separate kinds of loops)
+lang|count-cont|cond-cont|col-cont|infinite
+lua|1|2|1|0
+liquid|0|0|1|0
+Python|0|1|1|0
+JS|1|1|2|0
+SCSS|1|1|1|0
+Rust|0|1|1|1
+
+### Labels
+
+A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
+JS and C have labels.
+JS label syntax: <name>:
+Labels can be used to break out of a loop that is not the enclosing one.
+
+### other statements
+
+Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
+
+;|JS|C#
+pass|Python
+:|(ba)sh
+
+: is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
+
+## Comments
+
+Comments in programming are (generally) ignored by compilers/interpreters.
+But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
+Comments are written primarily for humans
+Generally, single line comments go to the end of the line
+
+Single line:
+--|lua
+//|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
+\#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Regex (freespacing mode)|Ruby|sh|TOML|YAML
+%|Latex
+(?#foo)|Regex
+(* foo *)|ENBF
+
+Multiline:
+--\[\[foo]]|lua
+/\*foo\*/|CSS|C#|Java|JS|Rust
+&lt;!-- foo -->|HTML
+=begin foo =end|Ruby
+{% comment %} ... {% endcomment %}|Liquid
+
+Documentation
+for the following thing|///|Rust
+for the following thing|/**...*/|Java (Javadoc)
+for the thing we are in right now|//!|Rust
+for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
+
+Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
+
+Documentation comments often generate HTML documentation
+
+## Polymorphism
+
+something is monomorphic if it works for one type
+something is polymorphic if it works for several different types
+monomorphization is a compile-time process in which polymorphic code is transformed into n monomorphic variants
+
+ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
+-> callable unit overloading, operator overloading
+
+### dispatch (prob belongs somewhere else)
+
+dispatch is choosing which method should be invoked in response to a method
+displatch is based on the type of the thing
+dispatch is only relevant if there are multiple implementations of a thing.
+
+#### static dispatch
+
+static dispatch is choosing an implementation of a polymorphic operation at compile time
+callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
+
+#### dynamic dispatch
+
+dynamic dispatch is choosing an implementation of a polymorphic operation at runtime
+both single dispatch and multiple dispatch are forms of dynamic dispatch
+
+single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
+
+multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on) as well as the method parameters is used to choose the implementation
+
+### parametric polymorphism
+
+A generic is a stand-in for a type that is not yet specified or unknown. 
+A generic may be constrained in some way.
+Generics are most often specified via type parameters.
+Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
+Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
+C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
+
+Interfaces/traits often enable parametric polymorphism.
+
+### subtyping
+
+## Identifiers
+
+In a wide sense, "name" is synonymous to identifier, in a narrow sense it is an identifier
+An identifier is a thing that refers to/labels an object or class/set/collection of objects.
+a unique identifier is an identifier that labels a thing uniquely in a given context.
+UID   unique identifier
+An identifier is opaque if it provides no information about the thing it identifies
+A transparent identifier provides information about the thing it identifies.
+
+Aliasing is referring to the same location in memory by multiple different identifiers.
+
+UUIDs/GUIDs are formats for unique identifiers that make it very likely for them to be unique.
+UUID|Universally Unique Identifier
+GUID|Globally Unique Identifier
+UUID=GUID
+UUIDs/GUIDs are 128 bit long, which makes it very likely for them to be unique.
+
+### Name binding
+
+Name binding is the association of entities with identifiers.
+For an identifier to reference something is to the identifier bound to that thing.
+Binding is intimately connected with scoping, as scope determines which names bind to which objects.
+static = early binding is name binding during compile-time
+dynamic = late binding is name binding during runtime
+
+name resolution is the associating of identifiers with the correct things (e.g. variables)
+
+### Scope
+
+the scope of a name binding is the part of a program where the name binding is valid.
+for something to have x-scope is to only have the name binding be valid within x.
+a variable with foo-scope is often called an foo-variable
+
+#### Lexical & dynamic
+
+Static scope is another name for lexical scope.
+Lexical scope is where scope is determined by where in the source code (a reference to) a name binding is.
+Lexical/static scope is contrasted with dynamic scope
+Dynamic scope is where scope is determined by where on the stack something is.
+Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
+
+#### global/local scope
+
+The scope that is the entire program is global scope.
+A variable that does not have global scope has local scope.
+
+Local scope is often either block or function scope.
+
+##### Variable scope
+
+In general, if you declare block- or function-scoped variables on the top level, these will be global or at the least, global to the module.
+
+Block-scoped variables
+my|perl
+local|lua
+let|JS
+ø|Ruby
+ones defined within a block|C#|Java|Python
+
+Function-scoped variables
+var|JS
+
+Global variables
+ø|lua|perl
+$|Ruby
+
+Variable scope in python is not determined by keyword but by context.
+In JS, variables declared without a keyword become properties of the global object
+
+#### shell scope
+
+In (ba)sh, the thing that determines scope is the shell.
+
+running a script spawns a new subshell, unless you source it.
+Sourcing a thing is done by `source` or by `.`
+environment variables have a scope that allows access in current shells and subshells.
+shell variables have a scope of the current shell only.
+Variables are shell variables by default.
+Exporting a variable turns it from a shell variable to a environment variables.
+
+env|show all environment variables
+
+export|export a variable
+export -n|unexport a variable
+
+exit allows you to exit the current (sub)shell, optionally specifying an exit code.
+
+#### Shadowing
+
+Masking = shadowing
+Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
+Variable masking/shadowing is name shadowing involving variables
+In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
+
+
+#### Hoisting
+
+Hoisting moves declarations but not initializations to the top of the scope.
+Hoisting is mainly a JS concept.
+in JS, var variables and function declarations (but not function expressions) and hoisted.
+
+### Case
+
+snake_case|variables, methods (, symbols)|ruby|python (use underscores sparingly)
+UpperCamelCase|classes|C#|Javaruby
+SCREAMING_SNAKE_CASE|constants|ruby
+camelCase
+snake_case|shell variables|(ba)sh
+SCREAMING_SNAKE_CASE|environment variables|(ba)sh
+_leading_underscore_snake_case|fake private variables|(ba)sh
+
+most programming languages are case-sensitive as regards identifiers.
+
+### Naming
+
+While there is variety in what is allowed in a identifier name, most commonly it is [a-zA-Z0-9_]
+JS also allow $ in a non-sigil way in identifier names.
+JS identifiers may not start with a number, but with any other allowed character.
+In general, identifiers may not be keywords.
+
+## Values
+
+A literal is a value which is written into the source code as-is and therefore is fixed.
+
+### Memory-management
+
+#### Ownership
+
+In rust, eveary value has exactly one owner.
+Owners are variables(/constants).
+Assigning a value to a second variable invalidates the first reference.
+When we assign a value to something different, thus changing the owner and invalidating the first reference/owner, we call this moving.
+When a owner goes out of scope, a value is dropped.
+
+## Variables
+
+A variable is an identifier which is associated with a storage location which contains a value.
+
+### Declaration and initialization
+
+Declaring something is saying what an identifier means.
+In most languages, but not in JS and Python, declaration at the very least fixes the kind of entity the identifier refers to. 
+In statically typed languages, declaration generally fixes the data type of an identifier.
+To initialize something is to assign a value for the first time.
+
+declaring: var bla;
+initializing: bla = 5;
+declaring and initializing: var bla = 5;
+
+Trying to read from something undeclared in general produces an error in most programming languages, in sh however it merely produces an empty string.
+In JS, a declared but unitialized variable has the value undefined. In most other languages, reading from an unitialized variable produces an error.
+In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
+Redeclaration may or may not produce an error. In JS, it does not produce an error for var, but does for const and let.
+
+### assignment
+
+Setting a variable/constant to a value is known as assignment.
+= is used as the assignment operator in most programming languages
+sh is special in its assignment operator, since it does not allows spaces on either side
+SCSS/Sass uses : as the assignment operator.
+In most languages, assignment expressions evaluate to the value assigned.
+Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
+
+#### Destructuring
+
+Destructuring is binding variables to values in a way that does not correspond to the 1 variable - 1 value pattern
+
+In many languages, the comma can be used for multiple assignment, most commonly like so:
+a, b = 1, 2|Python|Ruby
+This is often a form of destructuring under the hood.
+
+[var1, var2] = [value1, value2] or preexisting array|JS|Python|Rust
+var1, var2 = [value1, value2] or preexisting array |Python|Ruby
+(var1, var2) = (value1, value2) or preexisting tuple|Rust
+
+In general, you can destructure that language's linear collections (esp. if primitive) and iterables.
+In JS you can also destructure the assoc array structure.
+Destructuring an array(like) requires array delimiters ([]) in JS, python doesn't want any delimiters, and python wants a tuple, which may mean no delimiters or () if needed for nesting etc.
+use normal default value syntax to assign default values in array destructuring|JS only
+combine spread syntax/splat operator w/ destructuring|JS|Ruby|Python
+var1, *var2 = [1,2,3]
+[var1, ...var2] = [1, 2, 3];
+=> var2 = [2, 3]
+Ignore a single value in destructuring
+, (e.g. var1,,var2)|JS
+_, (e.g. var1,_,var2)|Python|Ruby|Rust
+
+Ignore multiple values in destructuring
+*_, (e.g. var1,_*,var2 )|Python|ruby
+.. (e.g. var1, .., var2)|Rust
+Not possible|JS
+
+nested destructuring
+((target, _), _) = [["foo", "bar"], "baz"]|Python
+[[target]] = [["foo", "bar"], "baz"] |JS
+not possible|ruby
+
+Destructuring can be a cheeky way to swap variables
+
+When destructuring out of assoc arrays in js, this looks like
+
+{nameofkey: nameofvariableyouwantthevaluetoendupin} = {nameofkey: value}
+If the nameofkey and the nameovariableyouwantthevariabletoendupin are the same, you can do:
+{nameofkey} = {nameofkey:value}
+
+In rust, there is a set of destructuring/pattern matching constructs that can only be used in enums or if let statements.
+
+putting an enum or struct with variable names inside in a match or on the left of an if-let will assign the variables to the values contained within.
+e.g. match { Some(foo) => ... } will match Some() containing some value and assign that to foo
+
+pattern matching checks if a thing matches a pattern.
+In rust, the destructuring syntax is part of the larger idea of pattern matching. (and the syntax that we use for destructuring is a subset of the syntax of patterns)
+Many pattern matching things can be used for destructuring (and are the equivalents of the destructuring constructs of other languages).
+Beyond or at the same time as destructuring, pattern matching is used for match and if let conditions. 
+In rust, patterns can either be
+refutable|pattern can fail to match|Some(x) (does not match if value is not Some)
+irrefutable|pattern cannot fail to match
+
+match is a conditional that uses pattern matching for its conditions, and forces checking to be exhaustive.
+Rust of the languages that I know has a match conditional (using the keyword match). Of the languages I don't know, the ML family and functional languages have match conditionals.
+
+pattern1 bar pattern2|pattern 1 or pattern 2
+
+Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let &foo = somereference
+
+### Sigils### 
+
+In programming, a sigil is a symbol(s) affixed to a variable name.
+Sigils are generally used to show that something is a variable, show its type, or ts scope.
+In perl
+\$|Scalars
+@|Arrays
+%|Associative Arrays (Perl calls them Hash)
+
+In ruby
+\$|global variables
+@|instance variables
+@@|class variables
+
+In sh, $ is a sigil-like used for various kinds of expansion
+In SCSS/Sass, any variable requires teh $ sigil
+ 
+
+### Declaring multiple variables
+
+a, b = 1, 2 (or e.g. returnTwoValues()) (lua, python)
+
+### Constants (and not)
+
+Mutability is whether something can be changed after inital creation. Something is mutable if it can be changed, and immutable if it can't.
+Different things can have mutability: Objects, variables, (though generally not primitves).
+Some languages make a difference in which keywords are used to declare constants and variables.
+Constants are immutable, while variables are mutable.
+In most languages, constants are written in all upper case.
+
+Keyword for constants:
+const|JS|Rust
+final|Java
+
+Keyword for variables:
+let|Rust
+
+In rust, even variables are immutable by default, and the keyword mut makes them mutable.
+In JS, consts are always block-scoped.
+In some languages (JS), consts must be initialized in the same statement as they are declared.
+
+The term magic number or magic constant refers to the anti-pattern of using numbers directly in source code. 
+Instead of magic numbers (the antipattern), one should instead use constants.
+
+### Default variables
+
+In Perl there is a special variable $_. There are many places in programming language Perl where if you do not explicitly specify a variable, the variable will be used $_. There are key words that read the values from this variable, and there are those which set of values in this variable. (also sometimes exists as @_ and %_)
+
+## (Data) types
+
+An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
+If an abstract data type is a description of what something does, a data structure is how something does it.
+
+A null pointer/reference/type/value indicates that we're not referring to a valid thing
+Datatypes implemented in a programming language can either be scalar or compound/composite
+Bash is fun in that it does not have data types at all, in truth all values are strings
+
+To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
+
+### primitives and composites
+
+Primitive may refer to a data type that is provided in a programming language as a basic building block.
+Composite data types are built from primitive data types. 
+Primitive may also refer to a type that has built-in language support.
+
+##### primitive types in different languages
+
+C#: int, float, bool, string, char, double
+Java: byte, short, int, long, float, double, char, String, boolean
+JS: Number, boolean, null, undefined, string, object, array
+Rust: 
+scalar: integer, floating-point numbers, booleans, chars
+nonscalar: tuple, array
+Python: integers, floats, complex numbers
+
+
+
+### Type Systems
+
+A (data) type consists of a set of values that something with that type can assume.
+In implementation, each value of a type has a unique (within the type) binary representation.
+Typing can also be understood as how to interpret a series of bits.
+A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
+A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
+A language may also be untyped: neither variables nor values have type.
+An example of an untyped language is bourne shell, which is completely untyped.
+Bash supports a very mediocre type of typing via builtins such as declare.
+
+#### Dynamic vs Static typing
+
+Dynamic typigng: type checking at runtime ≈ values have type
+Static typing: type checking at compile time ≈ variables have type
+
+Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
+Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust, TS
+TS makes the normally dynamically typed JS statically typed
+
+#### Type inference/manifest
+
+Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
+Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
+Implicit/latent typing  <-> Explicit/manifest typing 
+Type inference is a rough synonym for implict/latent typing, but is often used in contexts where the language is otherwise generally explicitly/manifestly typed.
+Only statically typed languages can usefully be explicitly/manifestly typed
+Type inference in C#: var 
+in TS and Rust, often type inference is possible automatically 
+Type inference in TS/Rust is more likely to work for anonymous functions
+In languages with manifest typing, variable declarations require typea annotation.
+
+Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
+
+##### Type annotation
+
+Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
+Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
+In most (esp. C-family) languages, type annotation goes before the variable/constant.
+In Python, Rust and TS, type annotation looks like so `: type`
+Python supports type annotation since Python .35
+
+###### Type aliasees
+
+Type aliases are names for types thsat abbreviate longer type descriptions.
+Where type aliases exist, they generally use the type keyword.
+`type ID  = number | string`
+
+###### Interesting keywords
+
+#### Type errors
+
+Type safety is the dgree to which a programming language prevents logic-type type errors in favor of static-semantic type errors.
+A logic-type type error is caused by treating a value as the wrong type.
+A type-safe language is a language that throws more static semantic type type errors instead of logic errors.
+
+#### Conversion, coercion, casting and context (plus truthy/falsiness)
+
+Context is a term usely used in programming, and with much variation.
+We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
+In python, bool() is said to create a boolean context = convert a value to true or false depending on their truthy/falsiness.
+Something is falsy if it evaluates to false in a boolean context, and truthy if it evaluates to true in a boolean context.
+Most langauges treat at least their null type(s) and their false type as falsy.
+JS additionally treats empty strings, 0 and NaN as falsy.
+Languages like JS or Python establish a boolean context (coerce to boolean) within their conditions for loops, conditionals, etc. Other languages (C#, Java, Rust) treat using non-booleans in these situations as an error, i.e. not create a boolean context.
+In perl, context is most often used with the scalar/list distinction.
+scalar() generates a scalar context
+Since (ba)sh doesn't have any types but strings, it needs specific contexts to do certain tings
+math context is required to do math
+math context|$(()), (()) and the command let
+
+###### Type annotation keywords
+
+In general, certain types are generally indicated similarly across programming languages (though there is variation)
+Integers|int|not Rust
+Floating-point numbers|float|not Rust
+Booleans|bool|C#, Rust
+Booleans|boolean|Java
+Characters|char|C#, Java, Rust
+Double-precision floating-point numbers|double|C#, Java
+
+##### Conversion
+
+Type conversion is explicitly using a function or the like to change the datatype of something.
+All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
+Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
+
+##### Coercion
+
+Type coercion is implicitly forcing a value to be treated as of a different datatype.
+JS will coerce extensively in the case of operations w/ mismatched types.
+Concatenation of non-string w/ string|coerces non-string to string
+use of booleans w/ math operators|coerce to 0/1
+In contrast, pythons operators rarely coerce.
+
+##### Casting
+
+Type casting is asking the programming language implementation to treat a value as a certain datatype temporarily.
+Casting will go wrong if the vlaue cannot be treated as teh casted type.
+
+!!type value|YAML
+(type) value|C#|Java
+
+Type assertions in TS are the equivalent of type casting in other languages.
+In TS, if {{c2::you know something about a type that TS doesn't}}, you can use {{c1::type assertions}}
+TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1::as some_type}}
+
+
+#### Firstclassness
+
+An entity is said to be first-class in programming if you can {{c1::Do most other things you can do with objects/values}}
+typical features of entities that are first-class in a certain language are e.g. {{c1::Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.}}
+An entity that is first-class is called a first-class citizen.
+Lua: all values
+
+#### Union type
+
+A union type specifies a number of types that anything with the union type as type may take.
+with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
+Syntax in Python and TS: type1 | type2 ...
+
+#### Literal types
+
+A literal type is a type that can take on exactly one value which is specified via the literal of another type (e.g. 4 or true or "ara ara")
+A literal type is a type of unit type.
+
+#### Top types and bottom types
+
+A top type is the supertype of every othe type.
+Any value can be assigned to the top type.
+A bottom type is the subtype of every other type.
+No value can be assigned to the bottom type.
+Using the bottom type is useful when you want to specify a value with which you can do truly nothing.
+
+A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
+
+no bottom type|most languages
+! (called the never type)|Rust
+never|TS
+
+object|Python
+unknown|TS
+UNIVERSAL|Perl
+java.lang.Object|Java
+System.Object|C#
+BasicObject|Ruby
+
+
+### Symbols
+
+Symbols as a datatype are guaranteed to be unique, and generally have a human-readable representation.
+The fact that symbols are guaranteed to be uniqe mean that they are equal only to themselves.
+In some languages, two symbol literals with the same name are equal to each other, for example in Ruby (:foo == :foo # true)
+In some languages, two symbol literals with the same name are not equal to each other, for example in JS (Symbol("foo") === Symbol("foo") // false). Even in those languages, the same instance of a symbol is always equal to itself
+Often, the main use of symbols is as object keys to avoid key collisons, or to act as alternatives to enums
+Internally, symbols are often represented by a number.
+
+:name|Ruby
+Symbol("name")|JS
+
+### references
+
+A reference is a value that allows indirect access to another value.
+A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
+Handle is an ambiguous concept, but is most commonly seem as a synonym to reference.
+dangling reference/pointer = wild reference/pointer
+A dangling/wild reference is a reference
+Link rot is the process of links becoming dangling/wild references.
+
+Dereferencing takes a value that is a reference and returns the refernced value.
+In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
+In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing
+
+### Null types
+
+nil|lua|liquid|ruby
+null|C#|Java|JS (secondary)
+undefined|JS (primary)
+there isn't one|Rust
+
+Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
+In JS a type is nullish if it is null or undefined.
+
+####  nullable</h34>
+Nullable types are a feature of some programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
+
+### Option type
+
+An option type is a type that represents an optional value.
+An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
+In rust, the option type is implemented as an enum.
+In rust, the option type is 
+pub enum Option<T> {
+  None,
+  Some(T),
+}
+
+In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
+
+### boolean
+
+A boolean data type is a type that has one of two possible values, indicating
+truth values.
+
+true/false|C#|Java|JavaScript|Lua|Ruby|Rust|TOML|YAML
+True/False|Python|(YAML)
+yes/no|YAML
+no boolean type, only truthy/falsiness|Python
+
+YAML is not boolean keyword case sensitive
+
+### Numeric types
+
+Languages generally have at least a type for Integers and a type for numbers with fractional parts, most commonly floats. JS combines these into a single type Number.
+C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
+In some languages, multiples subsequent underscores within a numeric literals, or underscores at the beginning or end of literals are not allowed]
+Some languages have specific keywords for Infinity (JS, Ruby) or NaN (JS). More commonly, values such as these exist as constants on the Number/relevant numberic type class/object/whatever.
+In some languages (JS, Ruby), you can recieve values such as Infinity or NaN via certain operations, e.g. dividing by zero. Other languages will throw errors in this case.
+In JS, you can generate NaN by trying to do math with a non-number and non-boolean (unless using +, which will concatenate), multiplying Infinity * 0 or * Infinity, using unary plus on a non-number and non-boolean.
+In JS, you can generate Infinity by dividing by zero
+checking for NaN
+Number.isNaN(num)|JS (true only for NaN)
+checking for finity
+Number.isFinite(num)|JS (false for all non-numbers and NaN/Infinity)
+In CSS, the general numeric type is <number>, which supports decimal numbers also. <integer> is a speialization for integers.
+In CSS, percentages are a special type, <percentage>. 
+In CSS, <percentage> consists of a <number> followed by a %
+
+#### Overflow
+
+If a numeric type has arbitrary precision, it can store (nearly) infinitely large numbers (it will in practice be limited by the memory the application can get from the OS)
+overflow/underflow occurs when a numeric value is to large/small for its container.
+Numeric types either have arbitrary precsion, are subject to overflow/underflow, or need to throw an error if a calculation exeeds the size limit of a numeric type.
+Rust throws an error in overflow/underflow scenarios when debugging, and wrap otherwise.
+
+#### size (not arbitrary precision)
+
+In rust:
+Numeric types: &lt;type&gt;&lt;size&gt;
+signed integer|i|i16, i128, isize,...
+unsigned integer|u|u32, u64, usize,...
+floating-point|f|f32, f64
+size as part of the type annotation (usize, isize) indicates the system word size 
+
+{{c2::ES2020}} introduces the {{c1::BigInt}} datatype for numbers {{c3::larger than the previous maximum size}}
+BigInt literal is indicated by ends in n
+
+#### Integers
+
+Integer literals generally not overtly marked
+
+#### float and double
+
+In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
+Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
+TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
+
+### enums
+
+Enum is short for enumeration or enumerated datatype.
+An enum is a datatype that can take on one of a finite set of values.
+In stats terms, an enum is a categorical variable.
+We may want to consider the boolean type an enum of {true, false}
+Of the languages I know, C#, Java and TS allow creation of enums via the enum keyword.
+Rust also uses the enum keyword, but for things more like tagged unions.
+Python allows using enums via an external module
+C#, Java enum syntax: enum &lt;name> {
+  &lt;variant>,
+  &lt;variant2>,
+  ...
+}
+In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum variants
+We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
+
+
+### Collections
+
+Collections are an abstract data type that hold a number of data items.
+Python calls its data structures that represent collection ADTs, well, collections.
+Associative collections map keys to values. 
+Js sets and maps use .size instead of .length
+Java has the Collections Framework for collections 
+
+#### Access
+
+Random access might be clearer if it was called direct access.
+Random access allows access to arbitrary elements at will.
+Sequential access only allows access in a certain sort of order.
+<img src="sm_rand_seq_acc.svg">
+book|random access (to pages)
+scroll|sequential access
+
+#### Collection methods
+
+Clear a mutable collection
+foo.clear()|not JS|Python|Ruby
+
+Flatten a nested thing ([[1]].flat() => [1])
+foo.flat(depth)|JS
+foo.flatten(dept)|Ruby
+nothing in py
+
+#### Non-linear collections
+
+Python: dictionary, set (and frozenset)
+
+##### Sets
+
+ADT similar to sets in math = unique members, don't have order.
+Python data structure: set (mutable), indicated by {}, frozenset (immutable).
+JS: class Set, create via new Set(), add(), has()
+
+### Set operations
+
+Many languages/libraries have generalized set operations to something you can do to most/all collection types.
+Python has set methods, but only allows them on sets.
+JS has a Set class, which does not support set method
+
+xor/union/intersection/difference(things...)|lodash/underscore(JS)
+
+##### Associative collections
+
+###### Associative array
+
+An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
+Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
+
+Some languages implement assoc arr via Objects, you then interact with them as you would with objects.
+Some languages implement assoc arr as primitives, these then often have their own syntax for interaction.
+Java implements associative arrays via things implementing the <code>Map</code> interface, e.g. <code>HashMap</code>, both defined over two generics.
+JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. objects (esp. object literals) also perform many of the operations we would expect of associative arrays. Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). Objects are primitives, Maps need to be created with the new Map() constructor. Operations on map: get(), set()
+In literals, key-value pairs are generally separated with , (e.g. keyval, keyval)
+Lua implements associative arrays via tables (in fact, tables are the only data structure in lua). 
+A lua table can be created the {} literal, like so {key = value, ...}
+A lua table can be accessed via dot and square bracket notation. (Perhaps move this to its own thing-access section)
+Perl implements and calls associative arrays as hashes. 
+In perl, hash variables are marked by the % sigil.
+In perl, keys and variables within hashes (perl assoc arr) can be separated by commas (as are the pairs, impairing readability), or separated by => for readability
+In perl, hashes use the () or {} literals (is a diff, somethims something reference), {} when accessing
+Python implements and calls associative arrays (as) dictionaries. 
+Literals {}, accessing [], keyval sep :
+Ruby: name hash table, {} literals, accessing [], keyval sep => if nonsymbol keys, : if symbol keys 
+Rust: HashMap or BTreeMap, defined over two generics. Has the entry() function go get a Entry
+C#: Dictionary, over two generics. Must be created via constructor.
+YAML: either {} literals and keyval sep : or no surrounding literals, newline between items, and further indented. Calls them mappings.
+TOML: keyval sep =, called tables, keys may be unquoted, or quoted if containing weird characters
+SCSS/SASS: Calls them maps, keyval sep :, () literals (same as arrays)
+
+adding a key, value pair
+.Add(key, value)|C#
+.set()|JS (map only)
+
+deleting key
+set it to null type|lua
+
+Retrieval function
+get()|Rust
+
+Set a key to a value
+[key] = value|most languages if primitive
+insert(key, value)|Rust
+
+Has key? 
+key?|Ruby
+
+Has value?
+value?|Ruby
+
+get array/iterator of key, value tuple/array/whatever:
+pairs()|lua
+items()|Python
+entries()|JS (map only)
+
+get array/iterator of keys
+keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
+Object.keys(someobj)|JS
+
+get array/iterator of values
+
+values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
+Object.values(someObj)|JS
+
+Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
+
+merge two assoc. arrays
+map-merge(foo, bar)|SCSS/Sass
+
+commonly items are separated by ,
+
+Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
+
+#### Linear collections/ADTs
+
+Linear collections/ADTs are a sequence of items.
+Python calls its data structres that are linear collections sequences.
+Linear collections are the equivalents of sequences in math.
+Python sequences: list, tuple, str
+
+It seems to me that all non-array linear collections only allow sequential access.
+
+##### Linear collection methods
+
+sort the thing
+sort()|Perl|Python (in-place!)|Ruby
+
+reverse the thing
+reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
+
+Append a linear collection to a different linear collection 
+col1 + col2|Python (also works for strings)
+col1 << col2|Ruby (also works for strings)
+col1.extend(col2)|Python
+
+Repeat the contents of a linear collection n times
+col1 * n|Python
+
+append one element to end 
+push()|JS
+append()|Python
+
+remove an element from a lin coll by name
+somelincoll.remove(elem)|Python
+
+insert an element at a specific position
+somelincoll.insert(elem, index)|JS
+
+Fill the thing with the specified element
+somelincol.fill(element[, start[, range]])|JS|Ruby
+In Ruby, fill also may take a block to calculate the element to fill it.
+
+JS
+Array() and Array.of() will create an array of a list of arguments.
+The difference between Array.of() and Array() is in the handling of integer arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7 (Note: this implies an array of 7 empty slots, not slots with actual undefined values).
+
+The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
+Most commonly, pop/shift returns the element removed, while push/unshift returns the new length.
+Shift and unshift are methods in JS, Ruby, Perl, Java that do the same as pop/push but for the beginning of the array.
+Python extends the pop method to all collections, but it generally works weirdly, compared to other programming languages:
+someset.pop()|a random element
+someassocarray.pop(somekey)|the relevant value
+somearr.pop(index)
+
+somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
+
+##### Strings as linear collections
+
+TODO string as iterable
+Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
+
+##### Array##### 
+
+An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
+
+
+  |no indices (one value only)|zero-dimensional array (uncommon)|scalar
+    |one index|(one-dimensional) array|vector
+|two indices|two-dimensional array|matrix
+|n indices|multidimensional array|tensor
+
+
+Arrays may be dynamic = have variable size, or static = have fixed size.
+Dynamic arrays are sometimes called arraylists.
+Arrays are generally primitives in different programming languages, though they differ on syntax and what they call them.
+
+dynamic arrays (one type only)
+
+vector|rust
+ArrayList|Java
+List(yes, really)|C#
+
+dynamic arrays (of whatever types)
+
+list|python
+array|perl|JS|ruby
+
+Vectors, ArrayLists and Lists are Objects/Structs and defined over a generic
+
+static arrays (one type only)
+
+array|C#|Java|Rust
+
+static arrays (of different types), the compiler therefore knows the type of each index
+
+tuple|rust|TS
+
+immutable static array (of whatever types)
+
+sequence|yaml
+array|liquid|TOML
+tuple|Python
+list|SASS/SCSS 
+
+table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
+
+Array literals
+
+In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
+
+dynamic (of whatever types)
+()|Perl (same as assoc. arr)|Shell
+[]|JS|Python|Ruby
+
+static, one type only
+{}|C#|Java
+
+static arrays (of diffent types), the compiler therefore knows the type of each index
+()|rust
+[]|TS
+
+immutable static array (of whatever types)
+
+()|SASS/Scss|Python (Though in python in reality it is the comma that creates a tuple. the parentheses are just often needed for grouping)
+[]|TOML|YAML (if inline)
+
+Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
+In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
+
+YAML also has indentation delimited, newline separated, individual items marked by <code>- </code> version
+
+In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
+
+In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
+in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
+When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
+In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
+
+access|O(1)
+iterating|O(n)
+
+##### Lists
+
+Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
+Lists are always dynamically sized
+C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
+
+<img src="sm_408px-Singly-linked-list.svg.png">
+A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
+To access a linked list, we merely need a reference to the first element.
+A linked list in which the only node/vertex is a reference to the next element is a singly-linked list
+<img src="sm_doubly_linked_list.svg">
+A linked list with a backward reference too is a doubly-linked list.
+access|O(n)
+
+cons is short for construct function, and comes from lisp. 
+To {{c4::cons something onto something}} is to take a {{c1::container}}, add {{c2::an element in front of it}}, and {{c3::put this in another container}}.
+A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
+A cons list is a singly linked list constructed via nested ordered pairs.
+
+###### vs arrays
+
+slower access O(n) vs O(1)
+more space consumption if no empty spaces in array due to pointers.
+Re: modern CPUs, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of CPU cache as well (priniple of spatial locality)
+
+##### Streams
+
+Streams are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
+
+##### Stack
+
+The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
+In a stack, the element you remove will be {{c1::the one you added most recently}}
+LIFO = last in first out
+A stack is a linear collection ADT with LIFO order, and the operations:
+push: add to the top of the stack
+pop: remove from top of the stack
+peek: loop at top of stack
+<img src="sm_Data_stack.svg">
+
+##### Queue
+
+FIFO = first in first out
+A stack is a linear collection ADT with FIFO order, and the operations:
+enqueue: add to the end of the queue
+dequeue: remove from the front of the queue
+peek: look a the next element that would be dequeued
+<img src="sm_450px-Data_Queue.svg.png">
+
+
+### Iterators
+
+An iterator is an object (or similar) whose purpose is to iterate over some data. In general, an iterator has a next() method that returns the next element.
+An iterable is generally something that can create an iterator of itself.
+In ruby, iterables are called enumerables.
+In most languages that have iterables, most collections are iterable, as are strings and ranges. Java Strings are not, JS objects aren't either.
+in JS, the next() method returns an assoc array {
+  done: bool,
+  value: ...
+}
+In JS, Array.from() transforms a given iterable into an array. (list() does the same in Python and foo.to_a does it in ruby)
+
+#### Generators
+
+A generator is a form of iterator. Generators are created via a generator function (thus you control what the next() method returns), but otherwise behave like any other iterator.
+In JS, generators are indicated by a * after the function keyword.
+In JS at least, generators continue from where they left off after the last yield.
+In JS, returning or encountering an error ends the generator.
+In JS, the next() function of a generator's iterator can be passed an argument that will be assined to the yield expression.
+Returning the current iterator element 
+yield|JS
+
+yield another generator (JS) yield*
+
+### chars
+
+The datatype storing a single character is generally called char.
+In rust, a char contains a single UTF-32 encoded unicode codepoint.
+
+### Strings
+
+A string type is generally a type for an arbitrary sequence of characters.
+Depending on the language, strings may be mutable or immutable.
+In general, more languages lean to the immutable string direction.
+Languages with mutable strings I know include Perl, Ruby.
+While it may be tempting to change strings by assigning to indices, in languages with immutable strings, it does not work. However, in JS in non-strict mode it will not trow an error
+If a language has immutable strings, string operations actually create a new string.
+In many languages, especially those that do not have a char type, string literals can be indicated either with single or double quotes.
+In languages that have a char type, the char type is generally indicated with single quotes, and the string type with double quotes. Examples: C#, Java, Rust
+Some langauges that don't have a char type differentiate between string literals with single and double quotes (e.g. treating single quote string literals as raw strings, e.g. sh, Perl, Ruby), some languages (CSS, HTML, lua, liquid, python, JS) do not.
+In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
+JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
+sh is a little special in that it accepts strings with no surrounding quotes in some cases.
+YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
+In some languages, strings are ended by the NULL (0x00) character, these are known as null-terminated strings.
+
+A raw string is a string literal where character escapes have been disabled and so everything is a literal.
+r or R"foo"|Python|Rust
+String.raw`foo`|JS
+'foo'|sh|Perl|Ruby|TOML
+
+Multiline string delimiters
+`containsnewlines`|JS
+\[\[containsnewlines\]\]|Lua
+"containsnewlines"|Rust (all strings are multiline)
+"""containsnewlines"""|Python|TOML
+|\nproper indentation|YAML
+
+Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
+>\nproper indentation|YAML
+
+The type for css strings is <string>
+
+#### String interpolation/String formatting#### 
+
+String interpolation is evaluating a string with placeholders and replacing them with their values
+String interpolation is a form of template processing (cf other cards)
+In JS, string interpolation can only be performed within template literals.
+
+\${expr}|JS|only in template literals
+\#{expr}|Ruby|SCSS/SASS
+&lt;sigil&gt;{expr}|Perl
+&lt;sigil&gt;variable|Perl
+
+sh's various $-introduced expressions are similar to string interpolation.
+Python has three ways to perform string interpolation:
+old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
+new-style string formatting:
+{} or {0}, {1} ... interpolates within the string, if calling format() on the string. Interpolated expressions are args to format method, format specifiers go within {}, if passing to format by name, refer to these things like so {name}. If combining w/ format specifiers {name:format_specifier}
+"Error code: {errno:x}".format(errno = ...
+f-strings: allow arbitrary expression within {}. String must be prefixed by f
+f"Hello, {name}"
+
+Rust:
+Syntax|Trait
+{}|Display
+{:?}|Debug
+{:#?}|Debug, but pretty-print
+
+##### C style string formatting
+
+(C) format strings aka printf (print formatted) format strings are names for a specific type of string formatting syntax using % and originating from C.
+Interpolate with what is called a format specifier: % followed by a char or a few chars to indicate the format. Which strings to interpolate where is determined positionally (the first string is interpolated ).
+Format specifier syntax: %[parameter][flags][width][.precision][length]type
+common types
+x|lowercase hex
+X|uppercase hex
+d or i|signed int
+f or F|decimal number
+
+#### String multiplication
+
+x n|Perl
+* n|Python (can also be used for arrays)|Ruby (can also be used for arrays)
+.repeat(n)|JS|Ruby
+
+#### String concatenation
+
+string concatenation is joining strings together into a single string.
+
+..|Lua
++|Java|C#|Python|Ruby|Rust|JS
+.|Perl
+.push_str()|Rust (for str + str)
+.push()|Rust (for str + cahar)
+Adjacent string literals are automatically concatenated|Python|Ruby
+
+#### Regex matching
+
+JS has regex literals: /<regex>/<flags> (which creates a RegExp object)
+and a constructor: new RegExp("regex","flags"), often used if you need to construct the regex dynamically at runtime
+In JS, you can both use methods on strings which take regexes, or methods on RegExp objects which take strings
+The RegExp Object has a property lastIndex which indicates the offset that the RegExp will search for a match at next time (if the regex is global or sticky). This stays the same even if you switch the string in the meantime!
+
+Does the string match the regex?
+RegExpObject.test(string): boolean
+
+RegExpObject.exec(string): {
+  0: wholeMatch, 
+  1: captureGroup1, 
+  2: captureGroup2...,
+  index: indexAtWhichTheMatchBegan,
+  input: origialString
+}
+
+somestr.match() and .matchAll return string matches for a Regex.
+somestr.replace() and .replaceAll replace the regex they got as a first arg with whatever is specified as a second arg, be that a string (using $1 etc. optionally) or a replacerFunction
+The replacerFunction recieves the following arguments:
+match|The matched substring.
+p1, p2, ...|The nth string found by a parenthesized capture group
+offset|The offset of the matched substring within the whole string being examined
+string|The whole string being examined.
+groups|named capture groups
+
+the All() versions of the regex methods of strings both require the regex to be global and throw an error if it isn't.
+
+What somestr.match(regexp) returns depend on whether the regex is global (g) or not:
+If global, match() returns all matches, but no capturing groups. If not global, match() returns the same thing as RegExpObject.exec. matchAll() returns an iterator with individual things that are  the same thing as RegExpObject.exec returns.
+
+
+#### common string methods
+
+Capitalizations
+
+convert to uppercase|.upper()|Python
+convert to lowercase|.lower()|Python
+convert to uppercase|.toUpperCase()|JS
+convert to lowercase|.toLowerCase()|JS
+convert to uppercase|text-transform: uppercase|CSS
+convert to lowercase|text-transform: lowercase|CSS
+switch upper and lower case chars|.swapcase()|Python
+capitalize all first letters|.title()|Python
+capitalize all the first letters|text-transform: capitalize|CSS
+capitalize the first letter of the string|.capitalize()|Python
+capitalize the first letter of the string| bar capitalize|Liquid
+pad stringth to specified length by adding to the left/right|.padStart/padEnd(<length>, <pad-string>)
+pad stringth to specified length by adding to the left/right|.rjust/ljust(<length>, <pad-string>)
+
+
+does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
+does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
+remove whitespace from beginning and end of string|trim()|JS, Ruby
+remove whitespace from beginning of string|trimStart()/trimLeft()|JS
+remove whitespace from end of string|trimStart()/trimLeft()|Ruby
+split string on foo|.split(foo)|Python|JS(empty string for char array)
+
+#### String replacement
+
+somestr.replace(foo, bar)|JS|Python
+
+#### Join to string
+
+separator.join(iterable)|Python
+somearray.join(separator)|JS|Ruby
+
+separator defaults to , for JS and to nothing for Ruby
+
+#### JS oddity: tag functions
+
+Tag functions are functions prefixed to template literals (but not called)
+Tag functions recieve a first argument an array of all constituent string parts of a template literal, and all interpolated values as following arguments.
+Whatever the tag function returns will be what the string evaluates to.
+Tag functions can return whatever.
+
+## operators
+
+overloading
+In Ruby, all operators are actually just syntactic sugar for methods. that is, + 3 is .+(3), somearr[1] is somearr.[](1), !3 is 3.! etc.
+
+### precedence
+
+Operator precedence in programming mirrors the math concept of order of operations.
+Operator precedence / order of operations is in which order to apply operations.
+In most programming languages, math operations have the same operator precedence as they would in math itself.
+Parentheses can modify the order of operations just as in math.
+The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
+In liquid, the order of operatons is right to left, parentheses are forbidden.
+
+### relational opearators
+
+In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
+
+~=|not equals|lua
+!=|not equals|C#|Java|JS
+==|equals|most programming languages
+<=|less than or equals|most programming languages
+&gt;=|greater than or equals|most programming languages
+&gt;|greater than|most programming languages
+&lt;|less than|most programming languages
+<=>|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
+
+Python uses the `is` operator when comparing equality of location in memory
+
+JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing < or > coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
+
+For anything that is a data structure, there can be two kinds of equality (using Kotlin terminology)
+structural equality = equivalent content
+referential equality = same reference
+JS, Java, C# use referential equality on non-scalars
+Ruby and Python use structural equality on non-scalars (arrays and assoc. arrays)
+
+since relational operators are handled by test in sh, they are actually all arguments to test.
+
+test uses the normal equality operators for strings, but has a different set of operators for integer equality:
+-ne|is not equal to
+-lt|is less than
+-le|less than or equal to
+-gt|is greater than
+-ge|greater than or equal to
+-eq|is equal to
+Perl uses sh-style comparison operator without the leading -
+
+test has a number of options/operators for file existence and type
+
+-e foo|foo exists and is a file
+-d foo|foo exists and is a directory
+-r foo|allowed to read foo
+
+greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
+Comparing a thing with itself is always true, except for: 
+in JS, NaN
+
+#### string relational operators
+
+e.g. CSS attribute selectors, youtube-dl 
+
+^=|begins with value
+$=|ends with value
+*=|contains value at some point
+
+~=|attr is a whitespace-separated list of words, one of which is exactly value.
+bar=|attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
+
+### boolean operators
+
+logical and|and|python|liquid|lua|Ruby (lower precedence)
+logical and|&&|C#|Java|JS|Ruby (higher precedence)|(ba)sh
+logical or|or|python|liquid|lua|Ruby (lower precedence)
+logical or|barbar|C#|Java|JS|Ruby (higher precedence)|(ba)sh
+logical not|not|python
+logical not|!|C#|Java|JS
+
+In ruby, between and/or and &&/|| the former have lower precedence, and even have lower precedence than the equality operator.
+Double not can generally be used to get the truthiness/falsiness of a thing, even outside of a boolean context.
+
+#### short-circuiting
+
+Short circuiting is more properly short-circuit evaluation.
+Short-circuit evaluation  an expression stopping evaluating{{c1::as soon as it's outcome is determined}}
+Short-circuit evaluation is most commonly found in the boolean operators of most programming languages
+with short-circuiting of binary operators, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
+specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
+expr1 LOR expr2 will not evaluate expr2 if expr1 is true/truthy
+Can be used to ensure a variable never gets assigned a falsy value by using logical/boolean or, since (only) if the first expression is falsy the second expression will be evaluated.
+It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
+(ba)sh
+
+### bitwise
+
+Bitwise operations operate on the underlying binary value (regardless of type in the programming language).
+Most C-family languages support bitwise operations.
+
+bitwise not|~
+left shift|&lt;&lt;
+right shift|>>
+bitwise XOR|^
+bitwise OR|bar
+bitwise AND|&
+
+
+### math
+
+addition|+
+multiplication|*
+subtraction|-
+division|/|Python: always returns a float, JS: it depends (but no distinction between floats and ints anyway)
+floor division|//
+remainder|%
+power|**
+increment|++
+decrement|--
+
+unary plus does different things in different languages: in some it does nothing (with numeric types) or throws an error (with non-numeric types). In JS it converts it to an number.
+
+
+The increment and decrement operators do not exist in python.
+The increment and decrement operators behave differently based on their position in relation to the number in some languages: 
+++somevar or --somevar will crement first, and then evaluate, somevar++ or somevar-- will evaluate first, and then crement
+
+### comma
+
+In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type). (this is distinct from the comma e.g. in parameter lists)
+
+A trailing comma is a comma at the end of a list of arguments, array elements, etc. 
+In most programming languages (all of them I know), trailing commas are ignored (do not produce an error or empty elements).
+In JS, trailing commas produced errors in some situations until recently (the newer ES versions such as 2017)
+
+### element in collection/substring in string?
+
+stringOrColl contains elem|liquid
+elem in stringOrColl|Python|JS
+stringOrColl.includes(elem, optionalSearchStartPos)
+
+`in` in JS works amusingly if used on arrays: it will look for integer keys, and not for values, so that it will return false for "foo" in ["foo"] but true for 0 in ["foo"] (this is because arrays are objects, and thus the integer keys are actually object keys)
+
+### remove element from collection
+
+del|python
+delete|JS
+
+### Type of element
+
+typeof foo|JS
+type(foo)|Python
+std::any::type_name(foo)|Rust
+
+typeof in JS returns a string, and can return 'number', 'string', 'boolean', 'undefined', 'object' or 'function'
+
+typeof...
+{a: 1}|'object';
+undefined|'undefined';
+true|'boolean';
+null|'object';
+new Date()|'object';
+function() {}|'function';
+[1, 2, 4]|'object';
+NaN|'number';
+Infinity|'number';
+37|'number';
+3.14|'number';
+/regex/|'object';
+"something"|'string';
+""|'string';
+!!342|'boolean';
+"1"|'string';
+
+To test whether sth is an array in JS, you need to use Array.isArray()
+
+### Length of strings, collections, etc.
+
+foo.length|Java|JS|Ruby
+foo.Length|C#
+len(foo)|Python
+#foo|lua|sh (must be surrounded by ${}, and followed by [@] if an array)
+
+length() for strings in perl, merely generating a scalar context is enough for arrays
+
+### Spread operator/Rest syntax
+
+Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
+Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
+
+...|JS
+*|Ruby|python
+
+In the context of callable unit parameters, JS rest syntax and Ruby/Pythons's Splat both gather the remaining arguments into an array. the parameter so marked must be the last in the list.
+funcName(1,2,3)
+&lt;keyword&gt; funcName(... OR *foo)
+foo will now be [1,2,3]
+When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
+[... OR *[1,2,3], 4] == [1,2,3,4]
+
+## Errors
+
+Some languages distinguish between recoverable and unrecoverable errors.
+recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack overflow
+Java and C# call recoverable errors exceptions and unrecoverable errors errors.
+It can make sense to catch recoverable errors, but it is generally impossible to catch unrecoverable errors
+
+### types
+
+Errors can on one level be divided into {{c1::syntax}}, {{c2::static semantic,}} and {{c3::logic errors}}.
+
+A syntax error is an expression which violates the syntax of the language (will be detected during syntax analysis)
+forgetting a parenthesis
+A static semantic error is an expression which is syntactically correct but semantically meaningless. (will be detected during semantic analysis)
+3/"kawaisa"
+A logic error is an error where the program runs without problems, but produces an unintended result. (will only be detected on running the program, generally)
+
+Based on when they occur, we separate compile-time and runtime errors
+
+### Error handling
+
+#### Throwing errors
+
+Generally take an expression as arg.
+
+keywords
+die|perl
+throw|JS|Java|C#
+error()|lua
+@error|SCSS?Sass
+raise|Ruby
+panic!()|Rust
+
+#### Error handling control structures
+
+most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; finally &lt;block&gt;
+In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
+Rust is notable for not having any error handling of this kind.
+In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
+In JS, the <error-specifier> for catch was necessary until ES2019, and has been optional since
+
+#### assert
+
+Assertions are predicates that deliberatly crash the program if the predicate is false.
+Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
+Assertions are typically only used during development.
+Rust implements assertions via macros.
+rusts {{c1::assert_eq!}} macro tests wheter {{c2::two expressions are equal}} (using the trait {{c2::PartialEq}}), and {{c3::panics if they are not}}
+rusts {{c1::assert!}} macro tests whether {{c2::something is true}}, and {{c3::panics if it is not}}
+
+## Callable units
+
+Callable unit is a cover term for anything that can be called, be that functions, methods, procedures...
+A call is a thing that executes a callable unit.
+Callable units generally can take arguments if specified.
+
+Keyword to start a callable unit
+function|JS|Lua|sh|SCSS/Sass (@function ofc)
+fn|Rust
+def|python|Ruby
+sub|perl
+no keyword|C#|Java
+
+Callable units can generally be split into callable unit signature and callable unit body. The callable unit signature usually specifies at least return type, name, and parameters, as well as the keyword if necessary. In sh, a callable unit signature contains nothing but the keyword and name/
+The body of the callablue unit contains the code to execute.
+In java, the callable unit signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
+In JS, function keyword defined callable units generate their own this, while arrow functions do not.
+
+### Declaration
+
+In most languages, functions can only be declared in statements, however languages that have functions as first-class citizens often also allow declaration via expressions.
+function expressions are generally assigned to variables for later usage.
+JS calls function declarations that are statements function declarations, and function declarations that are expressions function expressions.
+since classes in JS are merely syntactic sugar for functions, there are also class declarations and class expressions
+
+### signatures
+
+Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
+void is commonly used for no return type in languages that require a return type to be specified.
+return type is indicated:
+-> <type> at the end of signature|rust
+
+### returning
+
+Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
+The datatype of the thing that is returned from a callable unit is known  {{c1::The return type}}
+In non-manifestly typed languages, the default return value of a function is the null type
+In general, using the return keyword without a value returns the languages null type.
+Multiple values: separated by comma|lua
+In Rust, using the return keyword is frowned upon, as blocks return their final expression anyway.
+
+#### returning and side effects
+
+A side effect is a modification of the state of something that is outside of the local environment the operation is performed in.
+A callable unit must return something or have side effects, else it does nothing.
+A procedure (using a narrow definition) is a callable unit that does not return a value, instead causing side effects.
+A function is a callable unit that returns a value.
+A pure function is idempotent and has no side effects.
+
+
+### Closures
+
+A {{c1::closure}} is the combination of {{c2::a callable unit}} and {{c3::the lexical environment}} (= {{c4::any variables that were in scope}}) within which that function was declared.
+Closures are created when the functions are created.
+All callable units automatically create closures in JS, lua.
+In rust, only closures create closures :P
+
+### Call by...
+
+Call by x and pass by x are synonyms
+call by/pass by x is a distinction in how arguments are handled.
+Languages may be call by/pass by x for everything always, or have some way of indicating which semantics to use, or handle different values differently.
+
+call/pass-by-value|pass the value of the expression/variable (= copying)|changes to passed variable will be lost if not returned
+call/pass-by-reference|pass the reference of variable (i.e. the loc in memory)|changes to passed variable (incl reassignments) will be preserved even if not returned
+call/pass-by-sharing/object/object-reference|pass by value, but only the object reference for objects|changes to passed variables contents will be preserved even if not returned if object, reassignments will not.
+
+Most popular languages with objects that are said to be pass-by-value are actually pass-by-sharing.
+In purely functional languages, cb/pb value & reference are the same.
+In purely functional languages, everything is immutable, so while the semantics are similar to pb value fron the outside, inside actually only references are passed (since it's cheaper), thus it is actually pb reference
+Call by sharing is a term that is kinda rarely used.
+In call-by-sharing
+
+sharing|lua|JS|Java
+
+moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
+
+### Anonymous functions
+
+A callable unit not bound to an identifier is an anonymous function/callable unit.
+First-class functions/callable units are callable units that are first-class citizens.
+anonymous functios are almost always first-class functions, and are thus often passed as arguments, etc.
+However, often non-anonymous functions can also be first-class functions
+
+In ruby, anonymous first-class functions are called blocks.
+In rust, anonymous first-class functions are called closures.
+In JS, lua, python all functions are first-class. 
+In JS, anonymous functions have no special syntax, you merely leave out the identifier.
+
+In ruby and rust, parameters to blocks/closures are surrounded by |...|
+In ruby and rust, blocks/closures are surrounded by {}
+{|params| code...}
+In ruby, blocks may also be surrounded by do ... end
+
+in ruby, to call a passed block, use the yield keyword. 
+Anything passed to the yield keyword will be available as arguments to the block
+In ruby, the & operator converts a block to a proc object.
+Calling #call on a proc object is similar to yielding a block
+instead of a block with the syntax {|elem| elem.method} you can also pass &:method for the same effect
+
+In JS, there is a special type of first-class anonymous function called an arrow function.
+Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
+Instead of a block, you may also specify a single expression, whose value will be returned. 
+The parentheses are optional if there is a single param
+
+#### IIFE
+
+An immediately invoked function expression (IIFE) uses function scoping to create a fake block scope.
+IIFEs were used for the same reasons as block scope is used generally, and preventing hoisting.
+IIFEs generally use anonymous functions.
+in JS IIFEs need to force an expression to be able to immediately invoke it (since a declaration cannot be immediately invoked)
+The most common way to force functions to be expressions is via surrounding them in (), but other ways are possible.
+With the introduction ES6 let and const, IIFEs have become mostly irrelevant.
+
+### Higher-order functions
+
+A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
+
+There are many standard types of higher order functions.
+In JS, the higher-order functions generally only work on Arrays, and the passed functions always recieve the arguments value, index, wholeArray.
+In ruby, higher-order functions generally take blocks/procs
+
+In JS, any higher-order function can take a thisArg, which is then the final argument. This argument will be what the passed fucntion recieves as this.
+
+callable units passed to other callable units to be executed at some other point are also known as callbacks 
+
+The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
+
+Error-first callback look like  (err, value) => ...
+Node generally takes error-first callbacks.
+
+#### map
+
+In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
+.map(func)|JS|Python|Ruby
+
+#### sort
+
+Sort is a higher-order function that takes a function which itself takes two arguments. Depending on the language, return values are handled differently.
+JS function must return value smaller 0 if the first argument is to be first, larger 0 if the second argument is to be first, and 0 if it should not reorder.
+The sort function passed must be deterministic.
+In many languages, sort sorts with a predefined sorting algorithm if no sorting function is provided
+In some languages sort does not take a sorting function, instead only using the predefined sorting algorithm, in those languages sort is not a higher-order function.
+
+sorted(foo)|Python (takes an iterable)
+foo.sort()|JS (takes an optional sort function, only Arrays)
+
+#### filter
+
+Filter is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
+filter()|JS
+
+#### reduce
+
+The reduce function/method takes a function known as the reducer function
+The reducer function recieves the return value of the last execution of the reducer function, and the current element of the collection. 
+The reducer function return a single value.
+In effect, the reducer function applies an operation to the current element, and the accumulated result of all other elements.
+Many languages allow specifying a 'previous result' element for the first time the reducer function runs, as there will not be one.
+js has the variant reduceRight that starts from the end
+reduce()|JS|Ruby|Python
+
+#### some/every/
+
+some is a higher order-function that takes a function and returns true if the passed function returns true even once.
+every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
+JS
+
+#### find
+
+find is a higher-order function that takes a function and returns the first element for which the passed function returns true. findIndex instead returns the index.
+find()|JS|Ruby
+findIndex()|JS
+find_index()|Ruby
+
+
+
+### Arguments
+
+How are parameters and arguments are often used synonymously, although they are more properly not synonyms
+for a callable unit,  {{c1::parameters}} are the values you specify the function will be passed, most commonly in its signature.
+for a calllable unit, arguments are the values/variables you actually pass.
+When passing things, using a car metaphor, you can think of the {{c1::parameter}} as a {{c2::parking space}} and the {{c1::argument}} as an {{c2::automobile}}
+function foo(a, b){...
+foo(12, "whistles") 
+a, b are parameters, 12, "whistles" are arguments
+
+most languages require the possible parameters defined in a callable unit definition to be wrapped in parantheses.
+sh doesn't allow specifying parameters at all
+most languages require the arguments to a function call to be wrapped in parentheses.
+sh does not wrap arguments at all
+most languages separate both the parameteres and arguments with commas.
+sh separates arguments with space
+
+Exceptions:
+1 arg doesn't need parens|lua
+always optional|ruby|perl
+never|sh
+
+refer to all passed arguments as an array
+$@|(ba)sh
+arguments|JS (not arrow functions)
+
+In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
+$# gets the amount of arguments passed.
+
+#### Positional and named
+
+A positional argument is one where the language knows which parameter to assign it to based on its position in the argument list.
+A named argument is one where the language knows which parameter to assign it to because it directly refers to the name of the parameter.
+Named arguments usually use normal assignment syntax
+
+named parameters|Python|JS|SCSS/Sass @mixin, @function
+positional parameters|pretty much all languages
+
+#### Default parameters
+
+A default parameter is one which will take on a default value if no argument for it is specified in the call.
+In general, default parameters will also take on the default value if the argument passed is the language's null type. 
+In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
+the general syntax is `paramname = defaultval` (within the parameter list)
+Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
+
+### Asynchronous callable units
+
+Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
+
+A promise is a proxy for a value that will eventually become available.
+In JS, a promise is an object
+You react to promises by calling the then() method on them.
+In JS, something you can call then() on is called a thenable.
+in JS, most interfaces for promises work on any thenables.
+A promise can have the states {{c1::pending}}, {{c2::fulfilled}}, or {{c3::rejected}}.
+A promise is called {{c1::settled}} if it is either {{c2::fulfilled}}, or {{c3::rejected}}.
+Ergo a promise is either settled or pending.
+We may return a rejected promise manually, additonally, if an error occurs in our async function, it will reject automatically.
+Once a promise has settled, the attached thens will run as soon as possible / awaits will resolve.
+If a promise is settled, and we then attach a then()/catch()/finally(), it will run immediately
+While a promise is pending, thens will not yet run / awaits will not yet resolve.
+A promise may have the fates resolved, unresolved.
+//generally true, not jus js
+
+In many languages, the async keyword marks the callable unit as asynchronous and allows it to call asynchronous functions.
+await is a keyword/function available in many programming languages that calls an asynchronous function and then returns the value the function returns once it does.
+In JS (and other languages w/ promises), await takes a promise (and is the rough equivalent of calling then() on it)
+to handle errors resulting from await, use try/catch as normal.
+
+In JS, then() takes two callbacks, one to run in case fullfilment and one to run in case rejection.
+then(), catch() and finally() themselves return thenables, which allow them to be chained.
+is the thing the last promise returned is what then(), catch(), and finally() get as an argument. What they get depends on if the callback running is one for rejection or one for fulfillment
+In JS, catch() is a version of then() with only the callback to run in case of rejection, finally() is a version whose callback will run no matter if rejeciton or fulfillment
+In JS, async functions always return promises.
+
+you can create promises in a number of ways
+create a promise that is already rejected: Promise.reject(reason)
+create a promise that is already resolved: Promise.resolve(value)
+If it is passed a non-promise, it will immediately be fulfilled w/ that value, if it is passed a promise it will be resolved to that promise
+
+creating a new promise (that is not auto-rejected/resolve)is done via the promise constructor.
+The promise constructor takes a callback known as the executor function.
+the executor function itself takes the arguments resolutionFunc, rejectionFunc.
+We do not implement resolutionFunc and rejectionFunc ourselves, the executor function will get them passed in when necessary.
+The only thing we do with the executor functions argumetns resolutionFunc and rejectionFunc is call them when we want to resolve/reject.
+As with the Promise.resolve and .reject, you pass the rejectionFunc the reason for rejecting, and the resolutionFunc the thing you want to fulfill with, or another promise
+
+JS has a few methods for acting on multiple promises at once:
+Promise.race() takes n promises and runs the attached callback <b>once</b> the first promise resolves.
+Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
+{{c1::Promise.allSettled()}} is like {{c1::Promise.all()}}, but the {{c2::former}} will {{c3::continue even if one rejects}}, the {{c2::latter}} will {{c3::not}}
+
+in node, most functions are still designed for callbacks, however you can use util.promisify().
+util.promisif()y takes a function following with a error-first callback as the last argument, and returns a version that returns promises.
+
+Promisifying is making someting return a promise which wouldn't normally.
+
+### Overloading
+
+Overloading of callable units is creating multiple callable units with different callable unit signatures.
+Languages I know that support overloading are C#, Java, TS.
+When overloading, each signature generally has its own implementation, exept in TS.
+In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
+In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
+
+### misc
+
+Memoization is the form of caching that caches the return value of a deterministic callable unit
+
+## Records
+
+A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
+A type that defines a record is a record type.
+Most programming languages allow creation of instances of record types.
+
+### Principles
+
+Encapsulation refers to grouping together related things somehow, e.g. within records.
+Information hiding is hiding the internals of a thing from the  outside.
+
+### Class and instance entities
+
+A class x is a x operates on/is defined on a class rather than an instance.
+An instance x operates on/is defined on an instance of a record.
+A class x may also be known as an associated function.
+Class x ≈ static x
+generally, one mainly talks of class, instance methods, which operate on classes/instances, and class, instance variables
+class variables + instance variables = fields
+Members are generally all methods and fields of a record, no matter if class or instance.
+ergo: members = member fields + member bariables
+A piece of data on a record is called a field
+
+In rust, a class method/associated function is called by using the :: operator
+
+static|Java|C#|JS
+does not take self as argument|Rust
+
+
+### Methods
+
+A method is a callable unit that is a member of a record.
+To make an object B do something, an object A must send a message.
+in OOP, a method call is the way to send of message: The originator object is implicit, the target is specified manually, the method called is the message, and the arguments are well the arguments.
+Ergo, in OOP objects generally use message passing to communicate.
+
+In Rust, Python, methods must take self as the first argument.
+
+
+#### Getters and setters
+
+Also called accessors and getters.
+A getter returns a field of a record.
+A setter changes a field of a record.
+Setters are often used to perfrom some sort of validation before changing the field of a record.
+Getters and setters may help enforcing information hiding.
+
+Ruby syntax:
+def name=(value)...|setter
+
+JS:
+get foo()
+set foo()
+only within a class
+
+You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
+
+### passive data structure
+
+AKA plain old data structure (PDS)
+Use of a data structure that contains fields w/ values, but no other object-oriented features
+
+
+### Structs
+
+Struct is not an incredibly well-defined term, but is generally a record with the possibility for methods, but not the whole inheritance etc. stuff of classes.
+In rust, struct declarations use the keyword struct.
+Both struct delcarations and initializations in rust use a very assoc-array like syntax.
+struct User { username: String, ...}
+
+### Tagged unions
+
+A tagged union can hold a value that could take on several different but fixed types.
+A tagged union can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
+What rust calls enums is more properly a tagged union
+
+### Classes & objects 
+
+An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
+
+Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
+
+A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
+A type that only allows one value (only allows a sigleton) is known as a unit type.
+
+reference to the current record/other thing
+self|Ruby|Rust
+this|C#|Java|JS
+
+method in lua function object:method(...)
+
+in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
+
+
+#### Methods ruby
+
+In ruby, methods that will return a boolean are marked by a ?
+In ruby, methods that do something destructive are marked by a !
+
+#### pure OO
+
+A pure object oriented language is one where everything is treated as an object.
+There is much discussion on what it means to be 'treated as an object' for pure OO languages, but most commonly, it is at least:
+1) Everything you operate on is a first-class Object
+2) The only thing you can do with an object is call a method on it.
+Therefore, 
+1) Methods may only return other objects.
+2) Operators (if they exist) are syntactic sugar for methods.
+It is a matter of debate which languages are sufficiently pure OO to qualify: 
+Ruby, Python, and JS allow methods to be called on pretty much anything, even primitives, since all primitves are boxed.
+Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
+
+#### Inheritance
+
+Superclass aka base class
+subclass aka derived class
+In most programming languages, you refer to your superclass=base class with the keyword <code>super</code>.
+In most programming languages, you specify a subclass/superclass relationship like so: Subclass extends Superclass
+In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
+In C#/Java, making a class final disallows a subclass from inheriting from it.
+In C#/Java, making a method/static function final disallows a subclass from overriding it it.
+Most languages only support single inheritance, some languages (among those I know Perl and Python) also allow multiple inheritance
+
+#### abstract & static classes 
+
+Abstract classes are generally declared with the abstract keyword. Within abstract classes, methods are also declared with the abstract keyword.
+Both abstract and static classees are not instantiable.
+Abstract classes are designed mainly to be inherited from.
+
+
+#### Constructors/object creation
+
+Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
+
+A constructor is generally a callable unit and thus called with ()
+Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
+In C#, Java, the constructor has the same name as the class.
+In Ruby, the constructor is defined by the initialize function within the class (class SomeClass\n  def initialize(...), and called by calling the new() method on the class (SomeClass.new())
+In JS, the constructor is named constructor
+Many languages allow us to declare many different constructors with different arguments.
+Most languages provide a default constructor if you don't provide one, which does nothing besides create the object.
+In JS, you may not use arrow functions as constructors
+
+
+
+#### type parameters and generics
+
+The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
+Generally, multiple type parameters are separated by , 
+Type parameters are generally written in UpperCamelCase
+Generics are generally a single char only
+
+#### Access modifier
+
+Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
+In Java, members have default accessibility by default.
+In Python, JS, members are public by default.
+Most language with any kind of access modifiers have at least a public private distinction
+public (most programming languages), pub (Rust)|any code
+private|code within the class
+Most languages with a public/private access modifier distinciton will use the public/private keyword to mark the one that is not the default anyway
+JS is an exception, it marks private members with #
+
+default||Java
+protected|same mclass and subclasses|Java
+
+#### Interfaces
+
+mixins are pretty similar concepts.
+In OOP an interface is a set of methods that anything that implements that interface must also implement.
+Interfaces in programming standartize behavior
+If a given programming language has syntax for them, generally keyword interface.
+Indicating that one follows an interface is generally done with the implements keyword.
+Something conforming to an interface is generally said to implememnt it.
+If something implements an interface, it generally must implement all methods of that interface.
+In the past, Java did not allow variables in interfaces. as of today, they are allowed, but subject to heavy restrictions.
+In interfaces in Java/C#, you most commonly merely specify method stubs. (in the past this is the only thing you could do, this is no longer true)
+Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
+In most languages, a record may implement multiple interfaces/traits.
+
+Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
+
+##### Traits
+
+Traits in Rust are broadly similar to intefaces in other programming languages.
+Traits in Rust can be implemented for types you did not define.
+However, the trait ∨ the thing its implemented on must be local to the crate
+Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
+
+#### OOP
+
+C#, Javaf
+
+#### is X an object of Y
+
+someobj instanceof class|JS
+
+#### Duplication/Replication
+
+A deep copy is a copy of a data structure where things referenced in the original data structure are also copied.
+A shallow copy is a copy of a data structure where references in the original data structure are merely copied, and still refer to the same thing.
+Deep copying is recursive and more computationally expensive.
+
+shallow copy
+copy (module copy).copy(foo)|Python
+foo.copy()|Python (only collections)|Rust
+
+deep copy
+copy (module copy).deepcopy(foo)|Python
+foo.clone()|Rust
+
+#### toString()
+
+Most languages with objects have a tostring function to convert these to strings for debugging purposes.
+It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
+
+toString()|Java|JS
+ToStrng()|C#
+
+#### Boxing
+
+A box is a minimal object wrapper around another type.
+The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
+putting values into a box is called boxing, the opposite unboxing
+A wrapper is any entity that encapsulates/wraps around another thing.
+Implementation-wise, it may be that the whole box is stored on the heap as an object would be, and we only have a pointer to the box, or as Rust seems to do it the Box may merely contain a pointer to whatever data, which is moved to the heap.
+Memory-wise, since boxes are objects, boxed data will be stored on the heap.
+Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO, consequently most primitives are boxed in languages aspiring to pure OO such as Python, JS, Ruby...
+Autoboxing is the conversion of primitves to boxed types when relevant.
+Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
+
+## Pragmas
+
+In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
+Perls pragmas have the syntax use &lt;name&gt;;
+Perls pragma use warnings; causes the perl program to display warnings in certain circumstances.
+
+### Strict mode
+
+Both perl and JS have a strict mode pragma.
+Strict mode pragmas cause programs to fail in certain cases.
+Start strict mode in JS: "use strict";
+in JS, non-strict mode code is called sloppy mode
+In JS, modules and classes are strict by default
+In JS, strict mode applies to the whole file if it's the first statement if the file, and to the whole function if it's the first statement in the function
+
+Strict mode in JS:
+- reserves certain keywords (for future proofing)
+
+### shebangs
+
+An interpreter directive is a type of pragma that specifies which interpreter to use for a thing.
+On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
+The shebang consists of the characters #!.
+
+
+## Formatting
+
+Official style guide/best practices
+PEP 8|Python
+
+## import/export
+
+A module is as self-contained set of code, most commonly in a single file of code.
+Packages and modules are sometimes synonyms.
+conta
+In python, a package is a collection of modules (and perhaps other packages).
+In python, each .py file is a module.
+A package must contain a __init__.py file
+
+If you want to import/export multiple members, most languages have the syntax {member1 [as name1], member2 [as name2], ...}
+Import/export anything uses * in most languages
+in JS, you can only import/export within modules.
+
+### module systems
+
+#### JS
+
+##### CommonJS
+
+CommonJS is {{c1::a module ecosystem}} mainly used by node
+
+let/var/const <name> = require(<path>)
+
+##### ES Modules
+
+To contrast with module systems such as CommonJS, the official implementation of modules in JS are known as ES Modules.
+In JS, ES Module import/export statements can only be used within a module
+
+###  Importing
+
+Import statements tell whatever's executing the program to act as if the specified entities were part of the file, potentially renaming them.
+In most languages, you can only import things that were first exported.
+In most languages, import statements must be in the beginning of the file.
+In most languages, you may only export top-level items.
+Import statements have the general syntax
+
+import <members> [as <name>] from <path>
+in JS you can leave out <members> from if you only want the side effects
+
+Python instead has the order from <path> import <members> [as <name>]
+
+In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
+@import syntax: @import <path> (<media-query>|<feature-query>);
+For CSS, the <path> may be an <url> or a <string>
+
+#### SCSS/Sass 
+
+Three keywords: @use, @import, @forward (@include is not an import statement!)
+Syntax alwas keyword <path> [as <name>]
+@forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
+
+
+#### prelude
+
+Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
+
+### exporting
+
+Exporting is selecting entities for potential import.
+In most languages, exporting is required so they can then be imported.
+General syntax: export <members> [as <name>]
+
+#### default exports
+
+## Events
+
+Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
+In casual use, event listener and event handler are synonyms.
+
+## lifecycle
+
+### Entry point
+
+In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
+The entry point of many programming languages is the main function:
+public static void main(String[] args)|Java
+main()|rust
+
+## communication
+
+To share data between entities, one can use message passing or shared memory.
+Shared memory is having a fixed storage location which both entities can access to read/write the data.
+
+### messages
+
+Message passing is communicating between two things by sending messages.
+A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
+IPC is just message passing between two processes.
+
+## Memory 
+
+Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
+Memory deallocation is releasing previously allocated memory.
+
+The lifetime of a variable or object is the time where it has valid memory.
+
+### The stack and the heap
+
+The call stack is often only called the stack.
+The call stack implements the stack ADT
+The call stack is made up of stack frames.
+The stack frame usually includes at least {{c1::the arguments}}, the {{c2::return address}}, and {{c3::local variables}}.
+When we call a callable unit, a new stack frame is pushed on the stack, and the stack pointer is updated.
+When we return from a callable unit, the stack frame at the top of the stack is popped, and the stack pointer is updated.
+The stack frame at the top of the stack is the stack frame of the currently executing callable unit.
+The stack pointer points at the most recently referenced location on the stack.
+The memory address at which the stack starts out when it is size 0 is the stack origin.
+If the stack has size 0, the stack pointer is (or better be :P) at the stack origin.
+The stack may grow upwards = larger memory addresses or downwards = smaller memory addresses (however this needs to be fixed in advanced)
+stack grows upwards|stack overflow|address > stack_origin_addr+ max_stack_size
+stack grows upwards|stack underflow|address < stack_origin_addr
+stack grows downwards|stack overflow|address < stack_origin_addr-max_stack_size
+stack grows downwards|stack underflow|address > stack_origin_addr
+Since each call to a callable unit adds a stack frame, infinite recursion causes a stack overflow (unless the compiler optimizes the recursion away)
+In most languages, records are kept on the stack.
+In most languages, since records are kept on the stack, a variable/constant merely stores a pointer to the record.
+The stack is significantly faster than the heap, since it's implementation is far simpler.
+The heap can become fragmented.
+The heap is managed much less strictly than the stack.
+For things on the heap, you typically have a pointer.
+
+In general, there is one stack per thread and one heap per process (instance of a program)
+
+### static, automatic and dynamic variables
+
+An automatic variable is a variable that has its memory allocated and deallocated automatically when the program enters and leaves the variables scope.
+Automatic variables have a lifetime of the variables scope.
+Automatic variables are allocated on the stack, within a stack frame.
+Any automatic variable can go out of scope.
+A static variable is allocated for the entire lifetime of the program.
+Static variables fall outside of the clear stack heap distincition.
+Dynamic variables have a lifetime of your choosing: their memory is allocated and deallocated by you.
+Dynamic variables are stored on the heap.
+Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allocation.
+
+### memory management
+
+Memory management is managing the memory of an application.
+One of the main jobs of memory management is memory allocation and deallocation.
+Memory management may be manual = performed by the programmer or automatic = performed by the programming language automatically.
+Dynamic variables are handled by manual memory management or by automatic memory management.
+Automatic variables are handled by automatic memory management.
+Most higher-level programming languages have no manual memory management at all.
+
+#### types of data
+
+Garbage data is data that cannot be used anymore (e.g. reference out of scope)
+The opposite of garbage data is live data.
+Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
+
+#### garbage collection
+
+Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
+
+#### reference counting
+
+(manual) reference counting is a form of manual memory management
+automatic reference counting is a form of manual memory management
+In reference counting, when no more references to a certain object exist, then it is destroyed
+In reference counting, a thing as some kind of field indicating how many references to it exists.
+In manual reference counting, we call increment and decrement methods to indicate how many references there are.
+In automatic reference counting, increment/decrement methods for refrences are called automatically. 
+Circular set of references are called reference circles.
+reference circles can allow things in refrence counting to never reach reference count 0 and thus be destroyed.
+
+
+## libraries
+
+
+### web frameworks
+
+A framework is a set of libraries where the framework itself has control by default, and only exposes an API.
+A framework: Don't call us, we'll call you.
+A web framework is a framework for use in web development.
+
+#### commonalities
+
+#### front-end frameworks
+
+Express is the most popular server-side web framework for node.
+Angular is the successor to AngularJS
+Angular is sometimes called Angular 2
+While AngularJS was written in JS, Angular (2) was written in typescript.
+Angular and Vue.js are the two most popular front-end frameworks that are clearly frameworks.
+React is often called a framework and would be the most popular front-end framework if it was, but is more like a library.
+Svelte works like a front-end framework, but actually compiles in advance.
+
+##### react 
+
+###### react native
+
+
+Native Components: React Components transformed into native views
+Core components: Native Components that are part of React Natives standard library
+React Native|HTML
+&lt;View&gt;|a non-scrolling &lt;div&gt;
+&lt;TextInput&gt;|&lt;input type="text"&gt;
+&lt;Text&gt;|&lt;p&gt;
+&lt;ScrollView&gt;|a scrolling &lt;div&gt;
+&lt;Image&gt;|&lt;img&gt;
+
+#### server
+
+##### Python
+
+Flask and Django are the most popular web frameworks for Python.
+
+
+### IO
+
+#### the enviornment
+
+In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
+sys.stdin|python
+
+Command-line arguments
+@ARGV|Perl
+process.argv|node
+
+Environment variables
+%ENV|Perl
+process.env|Node
+
+#### Print
+
+Print functions in different languages
+the JS console library works both in the browser and in node.js
+
+print()|lua|perl (no final newline)|python|Ruby (no final newline)
+say()|perl (final newline)
+puts|Ruby (final newline)
+console.log()|JS
+@debug|SCSS/Sass
+System.out.prinln()|Java
+Console.WriteLine|C#
+echo|liquid (within liquid block)|(ba)sh
+
+echo options
+-n|no trailing newline
+
+Print functions using format strings
+printf|(ba)sh|C (ofc)|Perl|Ruby
+string.format|Lua
+% syntax|Python
+
+Print an error to console (but don't throw one)
+console.error()|JS
+@warn|SCSS/Sass
+
+clear the console/terminal window
+clear|sh
+console.clear()|js
+ø (no easy native solution)|python|ruby
+
+console.count(foo)   count how many times a string foo has been printed
+
+the sh printing commands all don't read from STDIN
+besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
+
+#### system
+
+module for os access (syscalls, shells, environment, etc)
+os|python
+
+Run things in a system shell
+system()|ruby
+<system-module>.system()
+
+#### visual
+
+##### UI
+
+widget tookit   library for creating UIs
+gtk   GNU widget toolkit
+qt (read cute)   cross-platform widget toolkit
+
+##### Data visualization
+
+d3 is a JS library for mainipulating/visualizing data
+
+#### scientific computing
+
+pandas|python
+
+### dispose
+
+The dispose pattern is a pattern for resource management.
+In the dispose pattern, a resource is held by an object.
+In the dispose pattern, a resource is typically aquired by calling a global function.
+In the dispose pattern, a resource is used by calling methods on it.
+In the dispose pattern, a resource is released by calling a method on the object.
+The dispose pattern is common for interacting with files, in which case the resource is a file handle.
+Dispose pattern for file handles:
+An open() function takes a path and returns a file handle.
+file handle methods
+write()|write argument to file
+read()|return whole file as string
+readline()|return next line as string
+close()|release the file handle
+
+Languages that handle files based  on the dispose pattern: Python
+For Python, the open method takes a named parameter mode:
+r|read
+w|overwrite (create if doesn't exit)
+x|create but don't overwrite
+a|append at end (create if doesn't exist)
+For Python, the open method takes a named parameter of encodding
+
+some languages have language constructs for the dispose pattern: 
+with|Python
+using|C#
+Languages that have language constructs for the dispose pattern typically require the things they act on to implement a certain inteface with methods for aquiring and releasing the resources, which will then be called automatically.
+The language constructs for the dispose pattern typically assign the resource to a local variable.
+The language constructs for the dispose pattern typically only execute their code if the resource could be successfully aquired.
+In python, the interface for the dispose pattern is a context manager object, which must have __enter__ and __exit__ methods.
+python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
+c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
+
+### performance monitoring
+
+time|measure elapsed time in executing a command|sh
+console.time() & console.timeEnd()|measure elapsed time in running code.
+
+### dates
+
+most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
+In js, {{c2::Unix time}} is almost always interacted with in {{c1::milliseconds}}, 
+as opposed seconds, which is more standard
+the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common formats}} and outputs {{c3::Unix time (in millis, as is common in JS)}}
+<code>{{c1::new Date()}}</code> takes {{c2::Unix time milliseconds}} and returns {{c3::a <code>Date</code>}}
+<code>{{c1::someDate.toISOString()}} </code> returns the datetime {{c2::as ISO 8601}}
+
+### Standard library
+
+A software solution that has everything that it needs to run out of the box is said to be batteries included.
+A programming language that has a large standard library is said to be batteries included.
+
+count occurrences of element
+foo.count(bar)|Python|Ruby
+no easy way|JS
+
+get (first) index of element/substring in string or linear collection
+foo.index(bar, optionalStartIndex)|Python
+foo.indexOf(bar, optionalStartIndex)|JS (returns -1 if ti could not be found)
+
+get (last) index of element/substring in string or linear collection
+foo.lastIndexOf(bar, optionalStartIndex)|JS
+
+get list of all functions a module/package supports
+dir(foo)|Python
+
+get a random number
+&lt;mathobj&gt;.random()|JS
+
+floor/ceiling function
+&lt;mathobj&gt;.floor()/.ceil()|Python|JS
+&lt;thingItself&gt;.floor()/.ceil()|Ruby
+
+Is a thing an integer?
+Number.isInteger(foo)|JS
+
+get the smallest/largest of an amount of arguments
+min()/max()|Python (also accepts an iterable as an argument)
+Math.min()/Math.max()|JS
+
+Truncate decimal places (not rounding)
+&lt;mathobj&gt;.trunc(num)|JS
+
+Round to fixed amount of decimal places
+somenumber.toFixed(num)|JS
+
+Round a number
+&lt;mathobj&gt;.round()|JS|Python
+
+Get absolute value of something
+&lt;mathobj&gt;.abs()|JS
+abs()|Python (y, it's not on the math obj)
+
+Square root
+&lt;mathobj&gt;.sqrt()|JS|Python
+
+Is the thing an Integer?
+Number.isInteger(foo)|JS
+
+Get documentation information on the thing
+help(foo)|Python
+
+Sort the thing 
+
+
+Move remove the first argument and shift all arguments one to the left
+shift|Perl|sh
+
+does the thing contain the thing?
+include?|Ruby
+includes()|JS
+
+is x between foo and bar?
+x.between?(foo, bar)|Ruby
+
+Show an output popup
+window.alert("mesg")
+
+Concatenate multiple strings/ arrays at the end of an existing string/array
+stringOrArray.concat(stringsOrArrays)|JS|Ruby
+
+Is there a truthy value in an iterable
+any(iterable)|Python
+
+Are all the values in an iterable truthy 
+all(iterable)|Python
+
+Sum up all the elements in an iterable
+sum(iterable)|Python
+enumerableWhichIsJustASynonymForIterable.sum()|Ruby
+
+#### assoc-array files
+
+typically, most languages have modules/libraries called json/yaml for json/yaml processing.
+JS calles its json/yaml libraries JSON/YAML.
+<j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
+<j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
+<j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
+
+to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
+
+#### Modules/Objects/Namespaces
+
+Object/Struct/whatever for standard math operations
+Math|JS
+math|Python
+
+Filesystem handling
+fs|node
+
+#### Query for input
+
+Generally, show a message, have a text input field, return the inputted text.
+
+input(mesg)|Python
+window.prompt(mesg, default)
+
+#### slicing and ranges
+
+Slice and range syntax is often similar.
+For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
+For ranges, different programming languages need them to be surrounded by () at different times.
+start..end_incl|Ruby|Perl|Liquid (range only)
+start..end_excl|Rust
+start...end_excl|Ruby
+start..=end_incl|Rust
+
+##### Slicing
+
+Slicing is extracting a subset of elements from a data structure.
+Slicing is most commonly performed on linear collections or strings.
+In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
+In general, using a negative index for step will reverse the thing.
+In python you can assign to slices, delete them, etc.
+
+[start:end_excl:step]|Python
+.slice(start, end_excl)|JS
+.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
+[start,length]Ruby
+
+##### ranges
+
+Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
+Step is pretty much always optional.
+
+range(start, stop, step)|python|lodash/underscore (js)
+seq start step stop|sh
+
+Bash calls its range syntax a <dfn>sequence expression</dfn>.
+Bash also supports characters as start and stop.
+
+### other libraries
+
+#### presentations
+
+complexity|write in|name|converts to
+fancy|js|reveal.js
+simple|md|remarkjs
+simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
+
+
+## programming language categorization & history
+
+A high-level programming language is a programming language with strong abstraction from the details of the computer.
+A low-level programming language is a programming language with little to no abstraction from the details of the computer.
+
+### Programming paradigms
+
+Functional programming languages: {Haskell}
+
+### Programming languages I don't know
+
+COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
+C was created in 1972.
+*nix OSs are famously written in C.
+tcl is a programming language where everything is a command.
+tcl has a well-known widgeting toolkit known as tk.
+wish is a tcl interpreter including its widgeting toolkit tk.
+
+### programming language relationships
+
+#### ECMA
+
+JS = Javascript
+ES = ECMAScript
+JavaScript is a dialect/language that coforms to of the ECMAScript standard
+others languages that conform to the ECMAScript standard are ActionScript / JScript. 
+However, this distincition is often not made, and JavaScript and ECMAScript are often treated as synonyms. 
+CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
+ES2015|ES6
+
+### Things programming languages do especially well
+
+performance|rust
+
+# CompSci
+
+## concurrency
+
+Concurrency is executing multiple things at the same time.
+
+### multithreading
+
+Threads can be divided into kernel and green/virtual/user threads.
+green thread = virtual thread = user thread.
+kernel threads are those managed by the kernel to be scheduled for some CPU time.
+user threads are those threads managed by a user process.
+N:1 Threading   all threads of the program map onto one kernel thread
+M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
+1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
+
+#### thread pools
+
+A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
+A thread pool typically processes a queue of tasks waiting for processing.
+
+#### workers
+
+Web Workers are threadlike things in JS.
+Web Workers come in two flavors, dedicated workers and shared workers.
+While a {{c2::dedicated worker}} is accessible from {{c3::a single script only}}, a {{c2::shared worker}} is accessible from {{c4::multiple scripts}}, even if {{c1::within different windows or frames}}
+Because many JS APIs are not {{c2::threadsafe}}, {{c3::Web Workers}} have access to {{c1:: only a limited subset}}
+
+Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
+Web Workers as well as the main thread communicate via message passing.
+For Web Workers, messages are sent by using the method postMessage and recieved via the message event.
+For Web Workers, messages always send a copy of the data.
+To handle events in Web Workers, use the error event.
+To stop a Web Worker, call the terminate() method on it.
+
+#### thread-safety
+
+Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
+
+### concurrency control
+
+concurrency control ensures that correct results for concurrent operations are generated.
+Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
+lock = mutex
+A lock or mutex is a thing that enforces mutual exclusion.
+
+### classic problems
+
+A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
+A race condition is often a flaw that may cause bugs.
+
+## Programming language implementation
+
+A programming language implementation is a system for executing computer programs written in a given programming language (s). 
+There are two general approaches to programming language implementation: interpretation and compilation
+While we might talk about {{c2::programming languages}} being {{c1::compiled or interpreted}}, but actually it's {{c3::the relevant implementation}} that is {{c1::a compiler or an interpreter}}.
+A {{c1::reference implementation}} is an {{c2::implementation}} of a {{c2::specification}} generally written by {{c3::the creators}} of {{c5::the API/programming language/whatever}} to be {{c4::an example for other implementations}}
+
+TS compiles to JS via the compiler, interfaced with the cli tsc.
+
+$Something that happens during execution   runtime $something
+$Something that happens during compiling   compile-time $something
+
+### Types
+
+A compiler translates one programming language into another in one step before execution.
+Most commonly, a compiler translates a programming language into machine code/assembler.
+An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
+JIT
+
+#### Transpiling
+
+A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
+While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
+Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+
+### Steps involved
+
+1. lexical analiysis/tokenization/lexing
+2. sytax analysis = parsing
+3. semantic analysis
+
+#### lexical analysis
+
+lexical analiysis = tokenization = lexing
+Terminology around tokenization/lexical analysis is not always consistent.
+Lexical analysis is converting a sequence of characteres into a sequence of lexical tokens.
+Lexical tokens have some kind of meaning, relative to the language.
+Lexical token is often shortened to just token
+Tokens are lexical units/items in linguistic terms.
+Tokens have a certain value (a string), and a certain type.
+Token types that are common across programming languages are identifier, keywords, operator, literal ...
+The analogue of token type in linguistics might be word class/syntactic category/part of speech
+Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
+In the context of compiling/interpreting, identifier/name is a synonym for symbol.
+
+### interfaces for implementation
+
+#### Language CLI
+
+most languages have a CLI tool to interface with them, esp. with implementations
+
+lua|lua
+node|JS
+python, python3|python
+perl|perl
+sass|sass/scss
+rustc|rust
+
+-c STRING|read program from string|python
+-e STRING|read program from string|perl
+
+##### REPL
+
+REPL is short for read-eval-print loop
+{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
+
+For most languages, invoking their CLI tool without arguments will open a REPL, if not
+irb|ruby
+tss-node|TS
+is none|perl
+jshell|java
+csharp|C# (provided by mono)
+
+Python calls being in the repl interactive mode
+the value of the last expression
+_|Python
+
+#### Shebangs
+
+env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
+Using env in the shebang is to get the relevant executable on the path
+so in general, you can specify the language of a script by doing 
+#!/usr/bin/env language-command
+
+### specific languages
+
+#### Python
+
+CPython is the most common and reference implementation for Python.
+CPython implicitly compiles Python to bytecode, and then runs the bytecode via an interpeter.
+Python bytecode files produced by CPython are .pyc files.
+
+#### JS
+
+JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.
+The chrominum javascript engine is v8, d8 is the developer shell for v8
+
+## Boilerplate
+
+Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
+
+### document start/end indicators
+
+--- the file ... |YAML (but optional, merely allow multiple documents per file)
+
+# software engineering
+
+Software engineering is term where the definition is often fought over.
+Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
+
+## software architecture
+
+Software architecture refers to the fundamental structures of software/development and creating those structures.
+
+### properties
+
+#### coupling & cohesion
+
+https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
+cohesion is the degree to which the elements inside a module belong together.
+coupling is the degree of interdependence between software modules.
+In general, cohesion is good and coupling is bad.
+high coupling generally implies loose cohesion and v.v. 
+
+A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
+The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
+
+### solution stack
+
+ME?N = MongoDB, Express.js, ?, Node.js
+MEAN includes Angular
+MERN includes React
+MEVN includes Vue.js
+
+## development practices
+
+Rubber-duck debugging is problem-solving by explaining it out loud to an object or naive human.
+functional requirement|function (relation between input and output)|system must do x
+non-functional requirement|criteria of judgement, not specific behavior|system shall be x
+
+### development paradigms
+
+#### Agile
+
+#### Scrum
+
+### CI/CD
+
+continuous delivery|software can be deployed on any commit
+continuous deployment|software is deployed on any commit
+{{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
+A nightly build is one that is built every night, generally automatically
+
+### code writing enviroments
+
+Integrated development environment   IDE
+An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
+
+## QA
+
+{{c1::wave a dead chicken (over it)}}: To perform a ritual over {{c4::crashed software or hardware}} which one {{c2::believes to be futile}} but is {{c3::nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.}}
+
+### code review
+
+Code review may be by any other peer or by some authority related to the project (depending on the purpose)
+Code review is when another agent analyzes  the source code for bugs/errors/code quality
+Code review may be performed by human agents or automated code review tools
+
+### testing
+
+#### things used
+
+A test double is a thing that replaces a production thing in testing
+
+#### types of tests
+
+Unit tests test a unit of code (where that might be a module, function or record).
+Unit tests are generally quite fast.
+End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
+
+## principles
+
+GIGO   Garbage In, Garbage Out
+Garbage in, garbage out claims that if the input data is somehow bad {{c1::the output data will be too}}
+Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
+"Anything that can go wrong will go wrong"   Murphy's law
+{{c1::an anti-pattern}} is a pattern (intentional or not) that is ineffective/counter-productive 
+YAGNI  You/ya ain't gonna need it
+In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
+While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
+DRY   Don't repeat yourself
+KISS   Keep it simple stupid
+
+### mech pol
+
+the mechanism   what can be done
+the policy   what should be done
+separation of mechanism and policy.
+
+## documentation
+
+### methods
+
+Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
+In self-documenting code, identifiers indicate what the thing they are identifying does.
+
+### generation
+
+mdBook is a rust crate and command-line tool that produces books from markdown.
+mdBook produces books similar to the rust book.
+mdBook can easily be deployed to github pages.
+
+
+## requirements engineering
+
+A {{c1::user story}} is the {{c2::explanation of a feature}} {{c3::from the perspective of the user}}.
+Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
+Parkinsaw's Law: Work expands to fill the available time
+The law of triviality was originally developed as a corollary to parkinsons law.
+Law of triviality: people within an organization/community/project typically give disproportionate weight to trivial issues.
+Most common example of the law of triviality: the choice of materials for a bike shed taking up a disproportionate time during the construction of a nuclear power plant.
+Bike-shedding is discussion that conforms to the law of triviality: Disproportionate discussion about relatively irrellevant issues.
+
+
+## Modelling
+
+### UML
+
+UML  Unified Modeling Language
+UML is a general modelling language most commonly used in the field of software engineering.
+
+#### class
+
+An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
+<img src="sm_220px-BankAccount1.svg.jpg">
+
+#### sequence
+
+((h:all;::<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">))
+
+A sequencie diagram is an UML diagram showing object interactions as time flows.
+In a sequene diagram, the lifelines go from the objects downwards.
+In a sequence diagram, a thicker bar on the lifeline means the object is active.
+In a sequence diagram, messages between objects are indicated by horizontal lines between the lifelines.
+In a sequence diagram, the further down a message, the later it comes
+non-filled arrowheads   Async messages
+filled arrowheads   synchronous messages
+request messages   solid line arrows
+Answer messages   dashed arrows
+
+
+#### object
+
+<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
+Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
+
+## toolchains
+
+In general, a toolchain is a set of software tools used to do something.
+In software development, a toolchain is a set of tools used in combination to develop and deploy software.
+A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
+
+### dependencies
+
+A dependency is a piece of software another piece of software relies on.
+
+### packages & package managers
+
+Package management is managing packages, i.e. handles installing, uninstalling, updating...
+A package manager is a program that does package management.
+A package manager typically can manage packages from many different developers.
+A package is a file in a package format.
+A package format usually is made up of an archive (format) of some kind and some metadata.
+Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed with -g or --global.
+Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
+Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
+
+
+#### package manager commands
+
+update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
+update|update all dependencies/installed packages|bundler|npm
+refresh|update all installed packages|snap
+exec|execute a script in the current bundle|bundler
+upgrade|installs all available updates|apt|brew
+install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
+install|install all dependencies in package manifest|bundler|gem
+uninstall PACKAGE|uninstall a package|brew|npm
+remove PACKAGE|uninstall a package|apt
+ls/list|list installed packages|brew|npm
+outdated|show a list of outdated packages|brew|npm|bundler
+init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
+show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
+show FOO version|show latest version of package foo|npm
+pack|create a tarball of a project/package|npm
+publish|publish to offical pagckage hub/repository|cargo|npm
+
+#### package manifest
+
+A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
+In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
+While the package manifest or wherever is where you specify the versions of your dependencies you accept, the lockfile specifies the versions which are actually installed.
+
+Cargo.toml|cargo
+package.json|npm|yarn
+
+package manifest top-level keys
+dependencies|specify dependencies|Cargo.toml|package.json
+package|general package information|Cargo.toml
+
+package-lock.json|npm
+Gemfile.lock|bundler
+
+#### repositories
+
+A repository is anything that stores software.
+Often, a repository either stores the code of a VCS, or packages of a certain type.
+
+### build tools
+
+Build tools are the tools that create an executable application from source code.
+A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
+A bundler is a type of build tool.
+There are more JS build tools than you can shake a stick at. The most common is webpack.
+webpack-cli is the command for administering webpack
+
+### contaienrs
+
+Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
+A container often also includes software's dependencies within the container.
+An application being contained in a container is said to be containerized.
+Containerization improves security and portability.
+Containerization is the standard for most mobile operating systems.
+Containerization may limit functionality and increase size (since dependencies cannot be shared)
+
+### mapping
+
+different tools may perform one or more roles within a toolchain.
+
+In latex the package manager is part of the tex distribution
+The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
+Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
+
+Most commonly, the CLI for a framework will also be a build tool.
+
+cargo is the package manager and build tool for rust.
+the official package repository for cargo is crates.io
+There is no official task runner for rust, but one commonly used is cargo-make.
+npm is the most common package manager for JS, followed by yarn. 
+The official package hub for npm is the npm Registry.
+npm scripts works as a task runner for JS.
+pip is the package manager for python.
+The official package hub for pip is PyPI.
+The package format for python format .whl ('wheel')
+apt is the package manager for Ubuntu.
+In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
+PPA = Personal Package Archive
+PPAs are repositories for apt pacakges that contain packages not dealt with by the official distro maintainers.
+to add/remove other repositories with apt use add-apt-repository (--remove for removing)
+dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
+apt uses dpkg in the background.
+homebrew (command: brew) and macports (command: port) are package managers for macos.
+homebrew can also be used on linux, and is written in ruby.
+ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
+In ruby, packages are called gems.
+The official package hub for RubyGems is rubygems.org
+tlmgr is the package manager for tex if you are using the TeX Live distro.
+The official package hub for tex is CTAN.
+conda is the package manager for the anaconda software distribution.
+metro is the bundler for React Native.
+snap is the package manager for snaps.
+snaps are mainly used in Ubuntu, but can be used on many *nixlikes.
+snap packages = snaps
+snaps are containerized.
+snaps are maintained by the snapd daemon.
+snap calls its updates refreshes.
+snap auto-refreshes four times a day by default.
+snap stores most of its stuff in /snap.
+snaps are stored in /snap/<snapname>
+snaps variable data (such as log files) are stored in /var/snap
+snap has a second linux file system in /snap/core, which it mounts in specific places at runtime
+
+
+
+
+tap TAPNAME|add a repository|brew
+
+
+
+
+bundler is kinda weird, since it is a ruby gem itself.
+bundler manages the gemfile 
+The gemfile contains dependencies
+the gemfile is just a ruby file
+In a gemfile, the first thing is a call to source, which establishes the global source
+source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
+within the gemfile, gem dependencies are defined by `gem <name>, <version>`
+
+tools to interact with framewokrs
+
+interact with nextjs|next
+interact with jekyll|jekyll
+
+### build tool functionality 
+
+build builds a production build in cargo, jekyll, next
+test runs unit tests in cargo
+doc builds the packages documentation in cargo
+clean remove generated files in cargo, jekyll
+lint runs the relevant linter on the project (Nextjs: eslint)
+new foo creates a new project foo in cargo, jekyll
+
+Hot reloading reloads a thing as you change the code etc.
+serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
+nextjs serves your app at port 3000 by default
+You can run a build you created with build (for nextjs) with start (for nextjs)
+
+Most of the config for frameworks is done in a global config file, which is placed in the project root.
+_config.yml/.toml|Jekyll
+
+Browserslist is a tool to define target browsers.
+Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
+
+# Misc/no place yet
+
+most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
+
+## Indexing
+
+Most langauges I know start linear collection indices at 0, however lua starts them at 1
+In most languages, providing negative indices counts from the back, with -1 being the last element.
+Square bracket notation: most commonly used for array/linear collection indexing or accessing members in associative collection, esp. if primitives in language. SCSS/Sass is special in that maps are primitive in the language, but neverthelesss square bracket notation does not work, one must use map-get() (also not map.get, which its documentation still falsely refers to)
+any key in a table lua, Ruby, JS, Py, Rust
+In most languages, indexing a linear collection outside of its bounds produces an error, in JS it merely produces undefined
+In most languages, referring to an associative array element that doesn't exist will get you an error, in Lua and JS you merely get undefined
+TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
+JS allows indexing strings via the charAt method.
+
+Dot notation {{c1::object}}{{c1::.}}{{c1::member}}
+dot notation: TOML also 
+string keys of tables lua
+members of objects in lua
+but: not method calls, use : instead
+In Rust, of the collection types, tuples are accessed via dot notation, an arrays are accessed via square bracket notation
+
+While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
+In JS, the ?. is called the optional chaining operator.
+In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
+the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
+The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
+
+## Project Jupyter
+
+Jupyter notebooks are multimedia documents.
+Jupyter notebooks can contain code, markdown test, math, plots, media/images.
+Code within Jupyter notebooks are run by kernels.
+There Jupyter kernels for a bunch of different programming languages.
+The python kernel for Jupyter notebooks is the ipython kernel.
+Jupyter notebooks are in fact implemented via json files.
+The file type of {{c1::jupyter notebooks}} is {{c2::.ipynb}}
+The Jupyter Notebook App is a server-based application that allows editing and running notebook documents via a web browser.
+The Jupyter Notebook App can be executed locally or can be installed on a remote server and accessed through the internet.
+Jupyter Notebooks can be edited using many different programs, e.g. the official Jupyter Notebook App, but also VSCode
+The thing managing all the Jupyter stuff is Project Jupyter
+
+
+
+
+## misc
+
+https://en.wikipedia.org/wiki/Type_theory#History
+
+Associative arrays: names, literals, other construction methods, etc.
+
+
+
+## Metacharacters & escapes 
+
+A metacharacter is a character that has a special meaning to a computer program, such as a shell interpreter or a regular expression (regex) engine.
+
+An escape character is a metacharacter that invokes an alternative interpretation of the following character(s)
+An escape sequence is the combination of an escape character and the subsequent characters that has a specific meaning.
+In C, \ acts as a/the escape character, with many programming languages having copied this, this includes latex, at least for basic things such as % and &.
+C pioneered a set of escape sequences starting with the escape character \ and certan chars/sequences afterwards, which have been widely adopted.
+In HTML, & acts as a/the escape character.
+Liquid is rare in that escape sequences don't exist at all.
+Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.
+Besides character quoting, escape sequences are often used for characters that cannot (easily) be typed on a keywboard.
+Escape sequences for unicode codepoints:
+\u + UTF-16 escape sequence (must be a set of two \u + UTF-16 escape  sequence if surrogate pair)|JS
+\<unicode-code-point>|CSS
+\u<unicode-code-point>|Regex (some flavors)
+\u<four-hex-digits>|C-style escape sequence
+\U<eight-hex-digits>|C-style escape sequence
+\x\{<unicode-code-point>\}|Regex (other flavors)
+\u\{<unicode-code-point>\}|JS (ES 6 and beyond)
+can be directly input|most programming languages
+
+Escape sequences for ascii characters
+octal
+\0<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
+\<octal-digit><octal-digit><octal-digit>|C-style escape sequence, Regex (some flavors)
+\o\{<octal-digit><octal-digit><octal-digit>\}|Regex (some flavors)
+
+alphabetic
+\c<character> (ASCII control character (<character>-64))|Regex (some flavors)
+
+hexadecimal
+\x<hex-digit><hex-digit>|Regex (some flavors)
+
+
+
+
+§§ HTML has ((c:1;::two ways)) of specifying ((c:2;::character escapes)). ((s:gb;::Both ((c:3;::start with an &amp;)) and ((c:4;::end with a semicolon ;)). They are both often used to ((c:5;::display reserved characters, invisible characters, or hard-to-type characters.))))  §<br>
+§§ Of these, ((c:6;::numeric character references)) ((c:7;::refer to the character position within character set (most commmonly UTF-8))), ((s:gb;::they start ((c:8;::with # (after &amp;))) and can be specified in decimal or hex. ((h:gb;::(for example ((c:9;::&amp;#8203;))))))) §<br>
+§§ ((c:10;::Character entity references)) ((c:11;::have a short, memorable name)) ((h:gb;::(for example ((c:12;::&amp;amp; or &amp;quot))))) §<br>
+§§ This distinction is however often not made, and often ((c:13;::any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity))) are used. §<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Character entity reference / Numeric character reference</th>
+    <th>Displays as / creates?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:16;::&amp;gt;))</td>
+      <td>((c:17;::&gt;))</td>
+    </tr>
+    <tr>
+      <td>((c:14;::&amp;lt;))</td>
+      <td>((c:15;::&lt;))</td>
+    </tr>
+     <tr>
+      <td>((c:18;::&amp;amp;))</td>
+      <td>((c:19;::&amp;))</td>
+    </tr>
+    <tr>
+      <td>((c:20;::&amp;shy;))</td>
+      <td>((c:21;::A hyphen that works as a line break, but is only displayed when necessary for wrapping.))</td>
+    </tr>
+    <tr>
+      <td>((c:22;::&amp;#8203;))</td>
+      <td>((c:23;::A zero-width space that allows the browser to break there, when necessary))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
+
+## text encoding
+
+Text encodings (simplified): Morse -(early 1900s)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+
+### Morse
+
+### ASCII
+
+Control characters are also called non-printing characters.
+ASCII (no extension) takes up 7 bit.
+ASCII characters that are not control/non-printing characters are printing characters.
+Control characters as a term is generally reserved for the 65 characters defined in ASCII and extended ascii, other characters such as the zero-width non-joiner may be considered semantically similar, but are called formatting characters.
+the first 32 ASCII control characters are exactly 64 bit below the uppercase letters, and so may be represented by letters A-Z plus a few symbols.
+In the past the control key would have lowered the sent keycode by 64 to produce the first 32 ASCII control characters; this behavior still exists (albeit emulated) in terminals.
+Since the control character is often represented by a caret, and the control key plus letter was/is used to produce ASCII control characters, ASCII control characters are often indicated ^<letter>, this is called caret notation.
+Caret notation is commonly used in *nix contexts.
+In ASCII, the uppercase characters are 64 above their index in the alphabet.
+In ASCII, the lowercase characters are 96 above their index in the alphabet/32 above the relevant uppercase character.
+In ASCII the 7th bit will be set for any letter in the alphabet.
+In ASCII the 6th and 7th bit will be set for any lowercase letter in the alphabet.
+In ASCII the 6th and 7th bit will never be set for any control character within the 128 original characters besides DEL.
+0-31|control characters
+32-64|various symbols, numbers, etc.
+65-90|A-Z
+91-96|various symbols
+97-122|a-z
+123-126|various symbols
+127|DEL
+
+
+The most common escape sequences (not character quoting)
+C escape sequence|name|short|hex|alternative meaning
+\n|new line|LF|0x0A|any newline character
+\r|carriage return|CR|0x0D
+\f|form feed|FF|0x0C
+\t|(horizontal) tab|HT|0x09
+\v|(vertical) tab (may also match any vertial whitespace in some langauges)|VT|0x0B
+\b|backspace|BS|0x08
+\a|bell|BEL|0x08
+\e|escape|ESC|0x1B
+\0|null|NUL|0x00
+|end of transmission|EOT|0x04
+
+CRLF|Windows|The Internet
+LF|Unixlike (Linux and modern mac)
+CR|older macs
+
+The bell character is sometimes used in command-line utilities for a notiification sound
+
+### ISO/IEC 8859
+
+The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
+
+Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp><rt>もじば</rt><rp>)</rp></ruby>け, which was common in japanese due to a number of incompatible encodings existing.
+
+### Unicode
+
+Unicode is goverened by the unicode consortium.
+While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
+The fundamental unit in unicode is a codepoint.
+All unicode codepoints are contained in the unicode codespace.
+Currently, about 12% of the unicode codespace is used.
+The unicode codespace consists of 17 planes. 
+A unicode plane contains 2^16 = 65536 codepoints.
+0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems & symbols
+1|Supplementary Multilingual Plane|assortment of different characters and emoji
+2|Supplementary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
+3|Tertiary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
+4-13|Currently unassigned
+14|Supplementary Special-purpose plane
+15-16|Private Use Area planes
+A plane in unicode consists of one or more blocks.
+Since unicode blocks are contained within planes, they at most can be the size of a plane, i.e. 2^16=65536
+Unicode blocks always sized in multiples of 16, therefore the first hex digit in an unicode block will always end 0, and the last digit will always end F.
+Unicode blocks are always contiguous and disjoint with each other.
+In general, an unicode block should be united by a common purpose in some way.
+
+#### multiple characters
+
+A 'character' may consist of one or more (encoded) unicode code points.
+Some characters can be created both by combining a character with a combining character/mark, or by using an one-codepoint precomposed version.
+Combining characters/marks are unicode codepoints that modify other characters, instead of standing by themselves as characters.
+Combining characters/marks come after the thing they are modifying.
+You can attach many different combining characters to one character at the same time.
+Precomposed characters are characters that look like the combination of a character and a diacritic but actually occupy only one codepoint.
+é could be a character plus a combining character, or a precomposed character.
+Two unicode characters are compatible if they share the same semantics in at least some situation.
+U+FB00 (the typographic ligature "ﬀ") and U+0066 U+0066 (two Latin "f" letters) are two characters that are compatible.
+Canonical equvalency is a subset of compatibility.
+two unicode characters are canonically equivalent if they display the same and have the same meaning.
+Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
+
+#### encodings
+
+There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
+UTF-32 encodes any codepoint as 4 bytes, and is thus very wasteful for something like latin text.
+UTF-16 encodes a codepint either as 2 or 4 bytes.
+UTF-8 may take 1-4 bytes to encode a cahracter.
+
+Today, most things default to UTF-8, however a few things such as JS default to UTF-16.
+
+##### UTF-8
+
+UTF-8 encodes the 128 ASCII characters the same way as ASCII, but with a leading zero (since 8 not 7 bit)
+First UTF-8 byte starts|character contains n bytes
+0|1
+110|2
+1110|3
+11110|4
+
+##### Percent
+
+(near) synonyms: {{c1::Percent encoding}}, {{c2::URL/I encoding}}
+
+To percent-encode a character, use the characters UTF-8 representation, and then percent-encode each byte.
+percent-encoded-byte ::= %<hex-digit><hex-digit>
+
+Newline may refer to the newline character or any newline
+
+even?|Is the thing even|Integer
+next|get the next element|Integer, String
+class|get the class this is an object of|any object
+methods|get the methods the object has|any object
+
+An aspect is a cross-cutting concern.
+A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
+Examples for a cross-cutting concern might be logging.
+
+Case-preservation is whether something {{c1::stores or disregards case information}}
+Case-sensitivity is whether something {{c1::differentiates based on case}}
+
+## more misc
+
+A bricked device is one that no longer can function at all (has become as useful as a brick)
+SKU|Stock Keeping Unit
+An instance is something that has been created on some sort of model.
+
+## placeholder images
+
+Placeholder images using kittens   placekitten.com
+Placeholder images using boring boxes   via.placeholder.com
+
+via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
+placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
+
+## non-humans
+
+### robots
+
+#### SEO
+
+related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
+
+### Accessibility
+
+Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
+
+#### WAI & WCAG basics
+
+{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
+the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
+The WCAG consists of principles, guidelines, successs criteria, and techniques.
+WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
+Each WCAG principle is broken up into one or more guidlines.
+Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
+For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
+WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
+The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
+In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
+§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
+§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
+§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+#### WCAG success critera
+
+##### Non-text content
+
+the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
+
+#### WCAG techniques
+
+##### Semantic HTML
+
+Semantic HTML is HTML where the tags contain semantic information about the content
+Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
+
+
+##### aria
+
+ARIA  Accessible Rich Internet Applications
+ARIA is mainly realized in HTML attributes.
+ARIA attributes change the accessibility tree, but nothing else.
+There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
+ARIA {{c1::states}} define some property {{c2::that can change}}
+ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
+ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
