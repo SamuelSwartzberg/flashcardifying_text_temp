@@ -52,19 +52,35 @@ Therefore, in computing a number is signed if it can take on negative values, an
 
 # numeral system 
 
-## positional 
+## positional
+
+### largest numbers
+
+the largest possible number in a number of n digits of a given positional numeral system is base^n - 1
+quick referene
+8-bit binary|255
 
 ### in programming
 
 in programming, the base of the number is often indicated by a prefix
 
-0b|binary
-0|octal
-0o|octal
+0b|binary|pretty much all programming languages
+0|octal|JS (non-strict)
+0o|octal|JS both strict and nonstrict
 
 ### systems
 
 #### binary
+
+nth digit|value
+1|1
+2|2
+3|4
+4|8
+5|16
+6|32
+7|64
+8|128
 
 ##### signed numbers
 

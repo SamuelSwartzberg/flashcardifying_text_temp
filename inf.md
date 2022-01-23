@@ -798,47 +798,74 @@ enterkeyhint: is an enumerated attribute defining what action label (or icon) to
 
 A browsing context is the environment in which a browser displays a Document. 
 A browsing context may be a tab or a window as well as a frame (iframe/frame)
+
 A browsing context has a corresponding WindowProxy object.
-A WindowProxy object acts as a interface for the Window object of a browsing contexts active Document.
-A browsing context has an opener browsing context, which is null or a browsing context. It is initially null.
-A browsing context has a disowned boolean. It is initially false.
-A browsing context has an is closing boolean. It is initially false.
+A WindowProxy object wraps the currently-being-viewed Window object.
+A WindowProxy objects [[Window]] represents the wrapped window.
+the Window WindowProxy is currently wrapping is called the active window, the document associated with that window the active document.
+When the browsing context is navigated, the Window wrapped by the WindowProxy object changes.
+
+A browsing context has an opener browsing context, representing the browsing context from which it was opened (subject to noopener etc.)
+
+Certain elements (for example, iframe elements) can instantiate further browsing contexts. These elements are called browsing context containers.
+a browsing context container (essentially an iframe) has a nested browsing context
+a nested browsing context has a `container` which is its browsing context container.
+a nested browsing context's container document, which is its containers node document.
+
+
+Browsing contexts may relate to each other in a tree w/ parents and children.
+A top-level browsing context has no parent browsign context.
+
+Each browsing context has a session history.
+A session history is a list of Document objects.
+The documents that make up a session history are those that the browsing context has presented, is presenting, or will present. 
+
 
 It is possible to create new browsing contexts that are related to a top-level browsing context without being nested through an element. Such browsing contexts are called auxiliary browsing contexts. Auxiliary browsing contexts are always top-level browsing contexts.
 
 An auxiliary browsing context has an opener browsing context, which is the browsing context from which the auxiliary browsing context was created, and it has a furthest ancestor browsing context, which is the top-level browsing context of the opener browsing context when the auxiliary browsing context was created.
 The opener attribute of Window returns the WindowProxy object of the opener broswing context, if extant/available.
 
-## session history
+### secure contexts
 
-Each browsing context has a session history.
-A session history conttains the Document objects that the browsing context has presented, is presenting, or will present. 
-
-## window
-
-the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
-BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
-
-### intervals
-
-{{c1::window}}.​setTimeout(function, delay, args);
-
+Things that can only be used in secure contexts: Notifications
+A document is in a secure context if it is the active document of a secure top-level browsing context (i.e.a document within a theoretically secure iframe browsing context is not secure if it's top-level browsing context is not also secure)
+a resource is secure 
 
 ## the DOM
 
 DOM|Document Object Model
-The DOM is a tree data structure that acts as an interface for a XML or HTML document.
-DOM vertices are `Node`s.
+The DOM is a tree data structure that acts as an interface for a XML (or XML-derived) or HTML document.
+DOM vertices are `Node`s (often subclasses of `Node`).
 `Node` implements the EventTarget interface, so all things inheriting from Node also do.
 
-### Nodes
+### document
+
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
+the root Node of the DOM tree is of type Document
+Nodes of type Document are known as documents
+The Document interface describes the common properties and methods for any kind of document. Depending on the document's type (e.g. HTML, XML, SVG, …), a larger API is available: HTML documents, served with the "text/html" content type, also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.
+Document's browsing context is the browsing context whose session history contains the Document.
+
+### Node tree
+
+A node tree is a set of nodes arranged as a tree.
+A document tree is a node tree whose root is a document.
+A shadow tree is a node tree whose root is a shadow root.
+
+### Node
+
+a node has an associated document (essentially an owner), which is known as its 'node document'
 
 #### NodeLists
 
 A NodeList is similar to an Array, but doesn't have all the methods.
 A NodeList is a linear collection of nodes.
-NodeList has a foreach method
+NodeList has a foreach method.
 NodeLists can be live or static.
+A live NodeList (or similar) reflects changes in the DOM
+A static NodeList (or similar) does not reflect changes in the DOM
+`HTMLCollection`s are an interface similar to NodeLists, but may only contain elements, is live, and has a far less rich interface.
 
 #### types of
 
@@ -908,8 +935,9 @@ The HTMLCanvasElement.toDataURL(type) method returns a data URI containing a rep
 document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
 qs and qsa can be called on document for a global search, or on an element for a search only on that elements children.
-document.getElementById()
-
+qsa returns a static NodeList
+document.getElementBy<whatever>() returns HTMLCollections.
+document.getElementBy<whatever> has four variants ById, ByClassName, ByTagName
 
 ### other interfaces & classes
 
@@ -917,16 +945,92 @@ document.getElementById()
 
 The DOMTokenList interface represents a set of space-separated tokens. 
 
-## Web Storage API
 
+### visibilityState
+
+visibilityState = whether the document is somehow in the background/not in a visible tab/minimized, etc.
+visibilityState = visible|hidden
+change of document.visibilityState fires visibilitychange
+
+## window
+
+The Window interface represents a window containing a Document (however, the window is not persistent, but changes during navigation as well. the browsing context is the persistent thing)
+A global variable, window, representing the window in which the script is running, is exposed to JavaScript code.
+A Window has an associated `Document`.
+You can get the document associated with a window by window.document.
+The `Document` associated with a window only changes during navigation.
+Each Window has an associated `Navigator`.
+
+### bars
+
+the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
+BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
+
+### Web Storage API
+
+the Web Storage API is made up of sessionStorage and localStorage.
+sessionStorage and localStorage both implement the Storage inteface.
 getItem(name)
-setItem(name,"")
+setItem(name,value)
+removeItem(name)
+clear()
+
+### notifications
+
+Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
+Browsers increasingly don't even allow us to ask for notification permissione exept in response to user action.
+After gaining permission, we can create notifications with the Notification() constructor.
+the {{c3::Notification() constructor}} takes two arguments, the {{c1::title of the notification}} and an {{c2::object of options}}
+the options object for the notification constructor as a bunch of properties that precisely configure the notification.
+.close()|closes the notification manually
+Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
+
+### intervals
+
+{{c1::window}}.​setTimeout(function, delay, args);
+
+## navigator
+
+Instances of Navigator represent the identity and state of the user agent (the client).
+
+### Geolocation API
+
+the Geolocation API is used for location hadnling in the browser.
+you get an object of Geolocation from navigator.geolocation
+inteface Geolocation {
+  getCurrentPosition(success: function, error?: function, options?: PositionOptions): void;
+  watchPosition(success: function, error?: function, options?: PositionOptions): Id;
+  clearWatch(Id): void;
+}
+interface GeolocationPosition {
+  coords: GeolocationCoordiantes;
+  timestamp: DOMTimeStamp;
+}
+
+
 
 ## Web Speech API
 
 Web Speech API: text to speech/speech to text
 
+
+
 ## web workers
+
+## data fetching after the site has loaded
+
+### XHR
+
+XHR|XMLHttpRequest
+Ajax|Asynchronous JavaScript And XML
+
+### fetch
+
+fetch is the new, modern method to fetch data via the interfet after a site has loaded.
+fetch(<resource-to-get>, [<options-object>])
+fetch() returns a Promise which itself resoves to a `Response`
+Response
+.json()|return promise with contents of response as parsed json
 
 # CSS
 
@@ -2937,6 +3041,12 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
   §§ <dfn>((c:11;::Autocomplete/word completion))</dfn> in ((c:12;::code editors)) is also known as <dfn>((c:13;::code completion))</dfn>. Examples include ((s:gb;::((c:14;::VS &amp; VS Code))'s ((c:15;::IntelliSense)), and ((c:16;::AI (modfied GPT-3)))-powered ((c:17;::GitHub Copilot)).)) §<br>
 ===<br>
 
+### Natural Language Processing
+
+NLP = Natural Language Processing
+Text to speech AKA Speech synthesis
+Speech to text AKA Speech recognition
+
 ## shells
 
 A shell is a wrapper around the OS that acts as an interface between it and humans.
@@ -4344,6 +4454,11 @@ loginctl controls the systemd login manager
 
 ##### various subsystems & specs
 
+###### NetworkManager
+
+NetworkManager aims to provide an 'it just works' type network epxerience for linux
+NetworkManager stores its saved connections in /etc/NetworkManager/system-connections/
+
 ###### Desktop Notification Spec
 
 Spec for how notifications should work on linux   Desktop Notifications Specification
@@ -4354,7 +4469,7 @@ dust is a minimal notification server/daemon.
 ###### bluetooth
 
 hcitool is a command allowing noninteractive bluetooth config.
-
+bluetoothctl is a command allowing interactive commincation with bluetooth.
 
 ###### sound
 
@@ -4538,6 +4653,7 @@ Default mac japanese voice is  Kyoko
 
 #### processing
 
+unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
 
 ##### ffmpeg
@@ -4791,10 +4907,23 @@ sometimes terminal emulator is used in the wider sense of 'any thing that emulat
 
 The default size in many cases for {{c3::terminal windows}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
 
+stty administers the options for the tty driver.
+
 ##### signals
 
 signals allow the kernel to communicate asynchronously with a process.
 In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
+In a terminal, any input, including stuff such as ^Z gets sent to the tty driver (or maybe the line discipline - I'm not quite sure, and people seem to be disagreeing). 
+For some key combinations, such as ^Z, the tty driver will not transmit the input, but instead turn this into a signal and send this to the foreground process group.
+For some key combinations, such as ^D, the tty driver will not transmit the input, but instead turn this into a different character and transmit this instead.
+Other key combinations, including some ^<char> combinations may merely be passed on to the application.
+Ergo some ^<char> combinations may always send the same signal (but leave it up to the application how to respond to the signal), some ^<char> combinations may send a different character (which will be treated by that application as that characer), and some ^<char> combinations will just send ^<char>, which the application may handle if it so chooses.
+You can change which ^<char> the terminal driver handles how via stty.
+^C|SIGINT|tty
+^\|SIGQUIT|tty
+^Z|SIGTSTP|tty
+^D|EOT/EOF|tty
+^L|FF|applications|often interpreted as 'clear the screen' (shells) or 'redraw the screen' (curses)
 
 ##### appearance
 
@@ -4830,7 +4959,6 @@ chvt N   change to ttyN
 
 ###### any terminal 
 
-clear|clears the terminal window
 
 #### shell
 
@@ -4854,6 +4982,7 @@ tcsh itself is a more advanced version csh.
 Today, csh is most often a sym- or hardlink to tcsh.
 ash, bash, ksh, and zsh are descendants of the bourne shell.
 bash is the shell of GNU, and perhaps the most common shell as of 2020.
+bash = bourne again shell
 
 ##### history
 
@@ -4900,6 +5029,23 @@ PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
 
+##### login shell
+
+A login shell is is the first shell that executes after you `login`.
+login indicates to the shell that the shell should be a login shell by prepending the name of the shell with a -, so that $0 will e.g. be -bash, not bash.
+-l/--login forces bash to be a login shell (in this case), $0 will not be prefixed with -)
+In bash, you can also use shopt login_shell to see if bash is a login shell.
+
+##### startup files
+
+pretty much all shells have a set of startup files that they run as normal shell code when starting a new shell.
+when bash starts non-interactively, it looks for startup files in the paths listed in BASH_ENV.
+when bash starts interactively, which files it reads from depends on if it thinks its a login shell.
+if bash is not a login shell, it reads from ~/.bashrc
+if bash is a login shell, it reads from /etc/profile, and then exactly one of ~/.bash_profile &gt; ~/.bash_login &gt; ~/.profile
+It may be advisable to have one of the files loaded when something is a login shell load .bashrc, to ensure consistent behavior.
+When an interactive login shell exits, or a non-interactive login shell executes the exit builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists.
+
 ##### Shell lifecycle
 
 0. The shell may get its input from a file, a string, or the terminal, and splits it into lines.
@@ -4910,6 +5056,9 @@ For anything in PATH we can execute it by just using its name, to execute anythi
 5. the shell performs redirections
 6. the commands are executed
 7. the shell waits for the commands to complete and collects its exit status
+
+since shell syntax (such as filename expansion) are performed far before something like sudo is executed, if you lack permission to see things those things will not work.
+To use shell syntax with sudo permissions, the easiest way is to create a sudoed subshell (sudo bash -c "command")
 
 ###### whence commands?
 
@@ -4935,6 +5084,8 @@ compgen generates potential autocompletes for a certain string based on its opti
 
 bash -s|read commands from standard input
 bash -c|read commands from following string
+shell scripts execute in their own shell by default
+Unless you force it, the shell a script will execute in is a noninteractive shell.
 
 ###### history expansion
 
@@ -5129,6 +5280,8 @@ wildcard|matches
 [aml]   one of the characters a, m, l
 [a-m]   one character in range of characters a-m
 
+.gitignore uses a similar syntax to globbing
+
 ####### Quote removal
 
 After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
@@ -5164,6 +5317,7 @@ Besides the positional parameters, shell has a set of special parameters which a
 $|PID of shell, except in (), where it still has the PID of the shell and not the subshell
 !|PID of job in background
 0|name of shell or shell script
+-|options the shell was launched with
 
 NOT CONTENT JUST STOPPING THE PARSER FROM FREAKING OUT $
 
@@ -5198,6 +5352,7 @@ id is the command for printing things like UID, GID, etc.
 the groups command lists the groups a user is in.
 /etc/groups defines the groups on the system:
 etc-groups ::= {<group-name>:<password-encrypted>:<GID>:<member_list><newline>}
+passwd – modify a user's password
 
 ### commands
 
@@ -5214,7 +5369,12 @@ In unix, the three groups that hasve superuser/sudo-related priviledges are whee
 sudo allows executing a single command with superuser priviledges.
 To use sudo you need to enter your own password, to use su you need the password of the relevant user, in this case the superuser password.
 Who can use sudo is managed in /etc/sudoers
-
+visudo edits the sudoers file in a safe fashion with your configured VISUAL/EDITOR.
+getpass is the C function that makes sure that password input is hidden (nothing is displayed) on the comamnd line
+sudo usually caches the entered credentials for a short while.
+The su utility requests appropriate user credentials and switches to that user ID (the default user is the superuser).  A shell is then executed.
+su = substitute (in the past super) user
+sudo = substitute (in the past super) user do
 
 ## projects
 
@@ -5509,6 +5669,7 @@ As of USB 4, the only connector type is USB C.
 
 ifconfig is a linux tool to configure networke interfaces, though it is often deprecated in favor of iproute2.
 iproute2 collects a bunch of legacy networking commands into a few commands, the most important of which are ip and tc.
+speedtest-cli test the speed of your connection
 
 #### model comparison
 
@@ -5778,6 +5939,13 @@ HTTP|HyperText Transfer Protocol
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}</span>
 
+######## CDN
+
+CDN = content delivery network or content distribution network
+A CDN, is a geographically distributed network of proxy servers and their data centers. 
+The goal of a CDN is to provide high availability and performance by distributing the service spatially relative to end users.
+unpkg is a free &amp; open source CDN for npm packages
+
 ####### telnet/ssh
 
 SSH = secure shell
@@ -5858,6 +6026,11 @@ the most common node web sockets library is <code>ws</code>
 ####### DHCP
 
 DHCP = Dynamic Host Configuration Protocol
+
+##### between application and transport
+
+TLS/SSL are on top on the transport layer, but beneath the application layer, and are used as if they were the transport layer.
+SSL is deprecated in favor of TLS, however TLS is often still called SSL
 
 ##### layer 4
 
@@ -6150,6 +6323,7 @@ A web site is a collection of web pages, generally one that share a domain name/
 ###### performance
 
 Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
+imageoptim exists as a GUI, a CLI (imageoptim-cli), and an API.
 
 ####### PRPL
 
@@ -6158,9 +6332,49 @@ Render the initial route ASAP
 Pre-cache remaining assets
 Lazy-load other routes and non-critical assets
 
+####### defer & async
+
+defer & async are two attriubtes for <script> that influence how it is loaded.
+Ignoring speculative parsing, when the browser hits a <script> tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
+Instead of the default behavior, the <code>defer</code> and <code>async</code> attribute of scripts tells the browser to load the script in the background.
+Between  the <code>defer</code> and <code>async</code> attributes, defer executes scripts loaded in the background {{c1::when the dom is fully built}}, in the order they were in the document
+Between  the <code>defer</code> and <code>async</code> attributes, async executes scripts loaded in the background {{c1::as soon as possible}}, in the order in which they load, no matter source order.
+
+####### minification
+
+to indicate a source map, at the bottom of the optimized file, add a magic comment or use the http header
+source map magic comment: //# sourceMappingURL=foo/bar.js.map 
+
 # applications
 
 {{c1::Photoscape X}} is notable for being a {{c2::GUI}} program that has {{c3::batch editing of photos}}
+
+## diff
+
+<br>---<br>
+  §§ ((c:4;::diff)) is a tool that ((c:5;::shows the differences between files)). §<br>
+§§ ((c:6;::diff)) is originally ((c:7;::a cli program of the same name)). §<br>
+§§ There are variants of ((c:8;::the original cli program diff)) that change how it work somewhat, e.g. ((c:9;::sdiff)) for ((c:10;::side-by-die diffs)) and ((c:11;::icdiff)) for ((c:12;::both colored and side-by-side diffs)) §<br>
+§§ ((c:13;::diff)) is now offered as ((c:14;::a subcommand of)) ((c:15;::many other tools)). §<br>
+§§ ((c:16;::npm)) ((c:2;::diff)) provides ((c:3;::diffs between packages)), some of which must be ((c:1;::published to the npm registry)) §<br>
+§§ ((c:17;::git diff)) shows the difference between things ((c:18;::in/related to a git repository)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:21;::no argument))</td> <td>((c:22;::show diff between unstaged and staged/committed))</td></tr>
+<tr><td>((c:23;::--staged/--cached (synonyms)))</td> <td>((c:24;::show diff of staged changes with latest commit (or specified commit)))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ further, ((c:19;::diff-like output)) is now used in ((c:20;::a wide variety of gui applications)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ## media viewers
 

@@ -713,13 +713,6 @@ Booleans|boolean|Java
 Characters|char|C#, Java, Rust
 Double-precision floating-point numbers|double|C#, Java
 
-In rust:
-Numeric types: &lt;type&gt;&lt;size&gt;
-signed integer|i|i16, i128, isize,...
-unsigned integer|u|u32, u64, usize,...
-floating-point|f|f32, f64
-size as part of the type annotation (usize, isize) indicates the system word size 
-
 ##### Conversion
 
 Type conversion is explicitly using a function or the like to change the datatype of something.
@@ -873,6 +866,18 @@ If a numeric type has arbitrary precision, it can store (nearly) infinitely larg
 overflow/underflow occurs when a numeric value is to large/small for its container.
 Numeric types either have arbitrary precsion, are subject to overflow/underflow, or need to throw an error if a calculation exeeds the size limit of a numeric type.
 Rust throws an error in overflow/underflow scenarios when debugging, and wrap otherwise.
+
+#### size (not arbitrary precision)
+
+In rust:
+Numeric types: &lt;type&gt;&lt;size&gt;
+signed integer|i|i16, i128, isize,...
+unsigned integer|u|u32, u64, usize,...
+floating-point|f|f32, f64
+size as part of the type annotation (usize, isize) indicates the system word size 
+
+{{c2::ES2020}} introduces the {{c1::BigInt}} datatype for numbers {{c3::larger than the previous maximum size}}
+BigInt literal is indicated by ends in n
 
 #### Integers
 
@@ -1056,6 +1061,10 @@ somelincoll.insert(elem, index)|JS
 Fill the thing with the specified element
 somelincol.fill(element[, start[, range]])|JS|Ruby
 In Ruby, fill also may take a block to calculate the element to fill it.
+
+JS
+Array() and Array.of() will create an array of a list of arguments.
+The difference between Array.of() and Array() is in the handling of integer arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7 (Note: this implies an array of 7 empty slots, not slots with actual undefined values).
 
 The push() and pop() methods were borrowed from the Stack ADT to describe inserting/taking from the end of the linear collection in some languages, e.g. JS. 
 Most commonly, pop/shift returns the element removed, while push/unshift returns the new length.
@@ -1366,6 +1375,8 @@ capitalize all first letters|.title()|Python
 capitalize all the first letters|text-transform: capitalize|CSS
 capitalize the first letter of the string|.capitalize()|Python
 capitalize the first letter of the string| bar capitalize|Liquid
+pad stringth to specified length by adding to the left/right|.padStart/padEnd(<length>, <pad-string>)
+pad stringth to specified length by adding to the left/right|.rjust/ljust(<length>, <pad-string>)
 
 
 does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
@@ -1520,7 +1531,11 @@ The increment and decrement operators behave differently based on their position
 
 ### comma
 
-In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type).
+In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type). (this is distinct from the comma e.g. in parameter lists)
+
+A trailing comma is a comma at the end of a list of arguments, array elements, etc. 
+In most programming languages (all of them I know), trailing commas are ignored (do not produce an error or empty elements).
+In JS, trailing commas produced errors in some situations until recently (the newer ES versions such as 2017)
 
 ### element in collection/substring in string?
 
@@ -1626,6 +1641,7 @@ most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; f
 In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
+In JS, the <error-specifier> for catch was necessary until ES2019, and has been optional since
 
 #### assert
 
@@ -1659,6 +1675,7 @@ In JS, function keyword defined callable units generate their own this, while ar
 In most languages, functions can only be declared in statements, however languages that have functions as first-class citizens often also allow declaration via expressions.
 function expressions are generally assigned to variables for later usage.
 JS calls function declarations that are statements function declarations, and function declarations that are expressions function expressions.
+since classes in JS are merely syntactic sugar for functions, there are also class declarations and class expressions
 
 ### signatures
 
@@ -1762,6 +1779,9 @@ In JS, any higher-order function can take a thisArg, which is then the final arg
 callable units passed to other callable units to be executed at some other point are also known as callbacks 
 
 The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
+
+Error-first callback look like  (err, value) => ...
+Node generally takes error-first callbacks.
 
 #### map
 
@@ -1877,6 +1897,7 @@ A promise may have the fates resolved, unresolved.
 In many languages, the async keyword marks the callable unit as asynchronous and allows it to call asynchronous functions.
 await is a keyword/function available in many programming languages that calls an asynchronous function and then returns the value the function returns once it does.
 In JS (and other languages w/ promises), await takes a promise (and is the rough equivalent of calling then() on it)
+to handle errors resulting from await, use try/catch as normal.
 
 In JS, then() takes two callbacks, one to run in case fullfilment and one to run in case rejection.
 then(), catch() and finally() themselves return thenables, which allow them to be chained.
@@ -1896,6 +1917,15 @@ We do not implement resolutionFunc and rejectionFunc ourselves, the executor fun
 The only thing we do with the executor functions argumetns resolutionFunc and rejectionFunc is call them when we want to resolve/reject.
 As with the Promise.resolve and .reject, you pass the rejectionFunc the reason for rejecting, and the resolutionFunc the thing you want to fulfill with, or another promise
 
+JS has a few methods for acting on multiple promises at once:
+Promise.race() takes n promises and runs the attached callback <b>once</b> the first promise resolves.
+Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
+{{c1::Promise.allSettled()}} is like {{c1::Promise.all()}}, but the {{c2::former}} will {{c3::continue even if one rejects}}, the {{c2::latter}} will {{c3::not}}
+
+in node, most functions are still designed for callbacks, however you can use util.promisify().
+util.promisif()y takes a function following with a error-first callback as the last argument, and returns a version that returns promises.
+
+Promisifying is making someting return a promise which wouldn't normally.
 
 ### Overloading
 
@@ -2345,6 +2375,7 @@ process.env|Node
 #### Print
 
 Print functions in different languages
+the JS console library works both in the browser and in node.js
 
 print()|lua|perl (no final newline)|python|Ruby (no final newline)
 say()|perl (final newline)
@@ -2367,8 +2398,24 @@ Print an error to console (but don't throw one)
 console.error()|JS
 @warn|SCSS/Sass
 
+clear the console/terminal window
+clear|sh
+console.clear()|js
+ø (no easy native solution)|python|ruby
+
+console.count(foo)   count how many times a string foo has been printed
+
 the sh printing commands all don't read from STDIN
 besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
+
+#### system
+
+module for os access (syscalls, shells, environment, etc)
+os|python
+
+Run things in a system shell
+system()|ruby
+<system-module>.system()
 
 #### visual
 
@@ -2377,6 +2424,14 @@ besides taking format strings, printf has exit codes other than 0 (echo always e
 widget tookit   library for creating UIs
 gtk   GNU widget toolkit
 qt (read cute)   cross-platform widget toolkit
+
+##### Data visualization
+
+d3 is a JS library for mainipulating/visualizing data
+
+#### scientific computing
+
+pandas|python
 
 ### dispose
 
@@ -2412,6 +2467,10 @@ In python, the interface for the dispose pattern is a context manager object, wh
 python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
 c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
 
+### performance monitoring
+
+time|measure elapsed time in executing a command|sh
+console.time() & console.timeEnd()|measure elapsed time in running code.
 
 ### Standard library
 
@@ -2584,6 +2643,10 @@ C was created in 1972.
 tcl is a programming language where everything is a command.
 tcl has a well-known widgeting toolkit known as tk.
 wish is a tcl interpreter including its widgeting toolkit tk.
+
+### programming language relationships
+
+CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
 
 ### Things programming languages do especially well
 
@@ -2777,6 +2840,7 @@ non-functional requirement|criteria of judgement, not specific behavior|system s
 continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
 {{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
+A nightly build is one that is built every night, generally automatically
 
 ### code writing enviroments
 
@@ -2784,6 +2848,8 @@ Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
 
 ## QA
+
+{{c1::wave a dead chicken (over it)}}: To perform a ritual over {{c4::crashed software or hardware}} which one {{c2::believes to be futile}} but is {{c3::nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.}}
 
 ### code review
 
@@ -2839,7 +2905,8 @@ A dependency is a piece of software another piece of software relies on.
 
 ### packages & package managers
 
-A package manager is a program that manages packages, i.e. handles installing, uninstalling, updating...
+Package management is managing packages, i.e. handles installing, uninstalling, updating...
+A package manager is a program that does package management.
 A package manager typically can manage packages from many different developers.
 A package is a file in a package format.
 A package format usually is made up of an archive (format) of some kind and some metadata.
@@ -2883,11 +2950,18 @@ package|general package information|Cargo.toml
 package-lock.json|npm
 Gemfile.lock|bundler
 
+#### repositories
+
+A repository is anything that stores software.
+Often, a repository either stores the code of a VCS, or packages of a certain type.
+
 ### build tools
 
 Build tools are the tools that create an executable application from source code.
 A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
 A bundler is a type of build tool.
+There are more JS build tools than you can shake a stick at. The most common is webpack.
+webpack-cli is the command for administering webpack
 
 ### contaienrs
 
@@ -2914,13 +2988,14 @@ There is no official task runner for rust, but one commonly used is cargo-make.
 npm is the most common package manager for JS, followed by yarn. 
 The official package hub for npm is the npm Registry.
 npm scripts works as a task runner for JS.
-There are more JS build tools than you can shake a stick at. The most common is webpack.
 pip is the package manager for python.
 The official package hub for pip is PyPI.
 The package format for python format .whl ('wheel')
 apt is the package manager for Ubuntu.
 In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
-
+PPA = Personal Package Archive
+PPAs are repositories for apt pacakges that contain packages not dealt with by the official distro maintainers.
+to add/remove other repositories with apt use add-apt-repository (--remove for removing)
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
 homebrew (command: brew) and macports (command: port) are package managers for macos.
