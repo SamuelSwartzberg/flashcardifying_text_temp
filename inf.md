@@ -3403,6 +3403,11 @@ For a color hex, you ((c:231;::specify the alpha channel)) by ((c:232;::adding a
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}</span>
 
+Color temperature is measured in Kelvin.
+incandescent lights|~2500K
+daylight|6000K+
+candles|1500-2000K
+
 ### blending
 
 Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
@@ -3593,6 +3598,8 @@ file|get file type and related info
 ### directory structure
 
 {{c1::the directory structure}} is the way data is organized in a file system using directories.
+If the directory structure is a tree, it is often called a/the directory tree.
+filesystem hierarchy is a rough synonym of directory structure
 In *nix-likes, the root directory is the directory all other directories descend from.
 In *nix-likes, since all other directories descend from the root directory, *nix-likes only have a single directory tree.
 In *nix-likes, the root directory is `/`
@@ -3703,6 +3710,10 @@ source code should be in src for reference only
 /sys/class/power_supply/BAT<n>|information about the nth battery
 /sys/class/backlight|contains (a view of) the screen backlights.
 
+###### /boot
+
+/boot contains things necessary for booting, most importantly the kernel.
+
 ###### /proc
 
 /proc contains information for each process and a lot of runtime system info.
@@ -3766,6 +3777,7 @@ whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
 today, /bin often just is a symlink to /usr/bin (and analogously for lib)
 whatever/lib generally conains libraries for whatever/bin
+whatever/lib32 and 64 are libraries for the architecture specifically, most commonly when two versions of the same library for different arches are installed.
 instead of whatever/bin, games may also go in whatever/games
 /sbin is for binaries needing superuser priviledges/for system administration
 sbin = superuser binary
@@ -3926,6 +3938,7 @@ If there is an inode not referenced by any directory entry, it will be placed in
 ##### device files
 
 two of the seven types of files are device files.
+The two types of device files are block device files and character device files.
 Block device files grant random access.
 Character device files grant sequential access.
 
@@ -4843,7 +4856,18 @@ cal/ncal display a mini ascii calendar
 ##### editors
 
 a stream editor is a filter used to do text transformations
-The most common stream editor is sed。
+a line editor is a stream editor that applies its commands to some or all of the lines.
+original line editor for linux: ed
+ex was a line editor then based on ed.
+In contrast to sed, ed -> ex could be used both interactively and noninteractively
+sed was based of the noninteractive features of ed.
+vi was based on the interactive features of ex.
+vim is a more-reature rich of vi.
+nvim is a refactor of vim which aims to be even more feature rich
+nvim = neovim
+
+sed claims to be a stream editor, but is more specifically a line editor.
+
 sed <options> <command> {<file>}
 command ::= [<addr>]<command-char>[<options>]
 addr ::= <int-or-regex>[,<int-w-op-or-regex>[!]]
@@ -4856,10 +4880,11 @@ sed command-char|function|options
 s|regex
 y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
 
+sed's y/... command is similar to the standalone program tr.
+Ruby and Perl have a string method tr that works similar to sed's y/... / the program tr.
+
 For sed, specifying a regex within an addr selects lines that match the regex
 For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
-
-original line editor for linux: ed
 
 nano|basic cmd-line text editor
 
@@ -4913,7 +4938,7 @@ input-output-options
 
 ##### display 
 
-lynx|text-based browser
+lynx, w3m|text-based browser
 ffmpeg media player   <code>ffplay</code>
 feh|terminal-launched image viewer
 imgat|in-terminal image viewer
@@ -6918,6 +6943,10 @@ The Amazon Mechanical Turk pays way below the minimum wage.
 The Amazon Mechanical Turk is sometimes used for study subjects.
 
 # culture
+
+## free culture
+
+FOSS|Free and open source software
 
 ## forum
 
@@ -10450,6 +10479,9 @@ C escape sequence|name|short|hex|alternative meaning
 \e|escape|ESC|0x1B
 \0|null|NUL|0x00
 |end of transmission|EOT|0x04
+
+EOT is often interpreted as EOF (which doesn't exist as a control sequence) in the contexts of files.
+EOF|end of file
 
 CRLF|Windows|The Internet
 LF|Unixlike (Linux and modern mac)
