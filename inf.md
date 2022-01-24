@@ -430,6 +430,7 @@ the time-related and number text-like inputs plus range accept a step argument.
 inputs of type file accept an attribute accept (lol) which takes a CSL of unique file type specifiers
 an unique file type specfier is either a filename extension starting with a period, or a valid MIME type.
 valid for the file input type only, the capture attribute defines which media—microphone, video, or camera—should be used to capture a new file for upload with file upload control in supporting scenarios.
+input type file return a `FileList`, which is a linear collection of `File`s
 
 ######## image
 
@@ -727,6 +728,7 @@ enterkeyhint: is an enumerated attribute defining what action label (or icon) to
 ### JSX
 
 {{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
+Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
 ## environment ≈ Web APIs
 
@@ -792,6 +794,10 @@ A shadow tree is a node tree whose root is a shadow root.
 #### Node
 
 a node has an associated document (essentially an owner), which is known as its 'node document'
+
+##### interface
+
+cloneNode(deep?: boolean)|returns a duplicate of the node
 
 ##### NodeLists
 
@@ -859,12 +865,28 @@ A static NodeList (or similar) does not reflect changes in the DOM
 
 ##### Elements
 
+###### IDL interface
+
 element.innerHTML|content between the tags
 The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
+element.requestFullscreen()  issues an asynchronous request to make the element be displayed in full-screen mode, and returns a Promise for the eventual sucess or failure of becoming fullscreen.
+requestFullscreen can only be called in response to user interaction or device orientation change
+Document.exitFullscreen()   exits fullscreen
+element.append takes n Node or DOMStrings
+element.append appends Node objects as, well, nodes
+element.append appends DOMStrings as Text nodes
+In contrast, Node.appendChild() can only append one Node, and does not take DOMString objects.
+However, Node.appendChild() returns the appended Node.
+document.createElement() takes a tagName and creates an element of that name (however, it does not yet have a place in the document tree)
+document.createElement optionaly takes an options object with a single key `is`, whose value is the tag name of a custom element previously defined via customElements.define().
 
-###### HTMLCanvasElement
+###### Types of elements (and their interfaces)
+
+####### HTMLCanvasElement
 
 The HTMLCanvasElement.toDataURL(type) method returns a data URI containing a representation of the image in the format specified by the MIME type in the type parameter.
+
+#### custom elements
 
 #### DOM traversal
 
@@ -880,7 +902,6 @@ document.getElementBy<whatever> has four variants ById, ByClassName, ByTagName
 ##### DOMTokenList
 
 The DOMTokenList interface represents a set of space-separated tokens. 
-
 
 #### visibilityState
 
@@ -921,9 +942,17 @@ the options object for the notification constructor as a bunch of properties tha
 .close()|closes the notification manually
 Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
 
+#### Intersection Observer API
+
+The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with other elements or the viewport.
+
 #### intervals
 
 {{c1::window}}.​setTimeout(function, delay, args);
+
+#### misc
+
+window.getComputedStyle(<element>) gets a read-only CSSStyleDeclaration.
 
 ### navigator
 
@@ -951,7 +980,16 @@ Web Speech API: text to speech/speech to text
 
 ### Web Audio API
 
-### web workers
+### PWA
+
+PWAs should work to some extent even when {{c1::there is no internet}}
+((h:all;::<img src="SpStAtUk8Zp5iwi9yqKP.jpg">)) the {{c1::screenshots}} property of a web app manifest allows for {{c2::previewing images of the web app when installing}}
+for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
+
+
+### service workers
+
+{{c1::Workbox}} is a library that {{c2::bakes in a set of best practices}} and {{c3::removes the boilerplate}} every developer writes when working with {{c4::service workers}}.
 
 ### data fetching after the site has loaded
 
@@ -1513,6 +1551,53 @@ font-variant is a shorthand property for a few low-level font features, which al
 font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-capital letters, font-variant-caps: all-small-caps/all-petite-caps forces small caps for any letters, capital or not.
 
 It may seem that certain html form elements can't have their font styled {{c1::because by default, these elements don't inherit font properties}}
+
+###### white-space
+
+The white-space CSS property sets how white space inside an element is handled.
+<table>
+  <thead>
+  <tr>
+  <th>&nbsp;</th>
+  <th>New lines</th>
+  <th>Spaces and tabs</th>
+  <th>Text wrapping</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <th>((c:1;s:1-5;::normal))</th>
+  <td>((c:6;s:6-20;::Collapse))</td>
+  <td>((c:7;s:6-20;::Collapse))</td>
+  <td>((c:8;s:6-20;::Wrap))</td>
+  </tr>
+  <tr>
+  <th>((c:2;s:1-5;::pre))</th>
+  <td>((c:9;s:6-20;::Preserve))</td>
+  <td>((c:10;s:6-20;::Preserve))</td>
+  <td>((c:11;s:6-20;::No wrap))</td>
+  </tr>
+  <tr>
+  <th>((c:3;s:1-5;::nowrap))</th>
+  <td>((c:12;s:6-20;::Collapse))</td>
+  <td>((c:13;s:6-20;::Collapse))</td>
+  <td>((c:14;s:6-20;::No wrap))</td>
+  </tr>
+  <tr>
+  <th>((c:4;s:1-5;::pre-wrap))</th>
+  <td>((c:15;s:6-20;::Preserve))</td>
+  <td>((c:16;s:6-20;::Preserve))</td>
+  <td>((c:17;s:6-20;::Wrap))</td>
+  </tr>
+  <tr>
+  <th>((c:5;s:1-5;::pre-line))</th>
+  <td>((c:18;s:6-20;::Preserve))</td>
+  <td>((c:19;s:6-20;::Collapse))</td>
+  <td>((c:20;s:6-20;::Wrap))</td>
+  </tr>
+  </tbody>
+  </table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ###### Scrolling
 
@@ -2329,7 +2414,7 @@ break-before/after but not inside take the keywords left/right to force breaking
 break-before/after/inside default to auto, which means a break is allowed but not mandatory.
 A break created by break-before and break-after is called a forced break.
 
-### meida queries
+### media queries
 
 Media queries and feature queries have a fair amount of similarities.
 Media queries are boolean assertions if the current user's environment/device/UA is a certain way.
@@ -2400,8 +2485,14 @@ The media HTML attribute indicates when to load the specific resource.
 
 #### in JS
 
+##### media queries
+
 window.matchMedia() takes a media query and returns a MediaQueryList object, whose matches property indicates exactly that.
 To react to changes in media features/types, you can register the change event on the MediaQueryList boject.
+
+##### CSSStyleDeclaration
+
+The CSSStyleDeclaration interface is an object that represents a CSS declaration block.
 
 ### related technologies
 
@@ -2528,6 +2619,24 @@ PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can b
 Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
 
 #### CSS naming schemes
+
+BEM = Block Element Modifier
+BEM is a CSS naming convention
+BEM uses kebap-case in naming individual things.
+BEM requires all our selectors to only use BEM classes and nothing else, with the possible exception of generated HTML we have no control over.
+in BEM, a block is a logically and functionally independent page component.
+in BEM, a block is the equivalent of a component in Web Components.
+BEM Blocks can be nested inside any other blocks.
+BEM Blocks can be moved or reused, as they are independent of their surroundings.
+in BEM, an element is a constituent part of a block that can't be used outside of it.
+in BEM, an element without a block has no meaning.
+in BEM, a modifier defines the appearance and/or behavior of a block or element
+BEM Entities = {block, element, modifier}
+in BEM, a mix is having multiple BEM entities on a single node
+bem-name ::= <block-name>[__<elememt-name>][_<modifier-name>[_<modifier-value>]]
+the modifier-value of BEM can be dropped if it's just a boolean value
+BEM names are set in classes
+It is important to keep in mind that a BEM entity is not a part of the name, rather one BEM name always refers to one entity, even if it includes the names of other entitites.
 
 # data
 
@@ -2675,6 +2784,9 @@ The property of the open graph metadata is specified within the property propert
 
 a document database implements a document datamodel.
 MongoDB is the most well known document database.
+IndexedDB = Indexed Database API.
+IndexedDB is a document database for client-side storage.
+Most document databases are based on a variant of JSON.
 
 ## semantics
 
@@ -2685,6 +2797,10 @@ The goal of the samntic web is to make internet data machine readable
 A semantic query is a data query on the semantic web.
 the social graph is a graph that represents social relationship between entities.
 the open graph allows web pages to become objects in a social graph
+
+A hyperlink is a reference to data which the user can follow by interacting with it.
+Hypertext is text connected by hyperlinks.
+Hypermedia is media connected by hyperlinks.
 
 A ontology languages is a language that describes an ontology. 
 
@@ -2734,6 +2850,8 @@ AZERTY|fr
 
 Between english and german keyboards, the only difference in actual letters in that z and y are flipped.
 
+strg   ctrl
+
 ###### types of keys
 
 ####### modifier keys
@@ -2775,6 +2893,24 @@ e.g. cmd k then m to select the document language in VSCode
 
 ####### keyboard shortcuts
 
+######## basic OS
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::Close tab/window))</td><td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>w</kbd> ))</td></tr>
+<tr><td>((c:3;::New tab))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ))</td></tr>
+<tr><td>((c:5;::Quit app))</td><td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd>q</kbd> ))</td></tr>
+<tr><td>((c:7;::Restore tab (editor in VS code)))</td><td>((c:8;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 ######## search 
 
 <br/><table>
@@ -2812,6 +2948,25 @@ e.g. cmd k then m to select the document language in VSCode
   </tbody>
 </table>
 
+######### video
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::,))</td><td>((c:2;::one frame back))</td></tr>
+    <tr><td>((c:3;::.))</td><td>((c:4;::one frame forwards))</td></tr>
+    <tr><td>((c:5;:: <kbd>f</kbd> ))</td><td>((c:6;::go fullscreen))</td></tr>
+    <tr><td>((c:7;::esc))</td><td>((c:8;::Exit fullscreen))</td></tr>
+    <tr><td>((c:9;::space))</td><td>((c:10;::pause))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 ######### code editing
 
 ########## vscode
@@ -2845,8 +3000,12 @@ Zoom in|<kbd class='modifier cmd'></kbd> <kbd>+</kbd>
 ### Natural Language Processing
 
 NLP = Natural Language Processing
+tts = text to speech
 Text to speech AKA Speech synthesis
 Speech to text AKA Speech recognition
+
+say|mac
+espeak|nix
 
 ## shells
 
@@ -3000,7 +3159,11 @@ In html, you can force a disclosure widget to start in its open state by specify
   §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
   §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+##### buttons
+
+App shortcuts is the webdev name for the set of actions that are shown e.g. when you long press on a launcher icon on android
 
 #### actions
 
@@ -3500,6 +3663,9 @@ speed: rg > ag > ack
 
 greps exit status if it finds a match is 0, if it does not find a match, it is 1.
 grep -c count the produced lines.
+grep -v = grep --invert-match
+grep -F/--fixed-strings interpet pattern as fixed string, not as regex
+<code>-C NUM/--context=NUM</code>   show this much context
 
 #### directory structures
 
@@ -3573,7 +3739,9 @@ You are not forced to mount things in /mnt, you can mount them wherever you want
 
 ###### /opt
 
+/opt contains fairly self-contained programs
 /var/opt contains variable data of programs installed in /opt
+today, usage of /opt is fairly rare
 
 ###### /run and /var/run
 
@@ -3582,8 +3750,15 @@ today, /var/run is deprecated in favor of and a symlink to /run
 
 ###### /usr
 
+/usr is called usr because it contains userland and not kernel land data
 Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr.
 Data within /usr should be read-only
+/usr is for programs installed by the OS/package manager, while /usr/local is for programs installed by the root user
+the structure of /usr/local mirrors the structure of /usr
+/usr(/local)/include is for C include files
+stuff in a share directory is data sharable sharable across all architectures of a given OS
+/usr(/local)/src contains source code of installed programs for reference only.
+typically, /usr and /usr/local include at least bin, lib, include and share
 
 ###### bins
 
@@ -3591,13 +3766,16 @@ whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
 today, /bin often just is a symlink to /usr/bin (and analogously for lib)
 whatever/lib generally conains libraries for whatever/bin
+instead of whatever/bin, games may also go in whatever/games
 /sbin is for binaries needing superuser priviledges/for system administration
+sbin = superuser binary
 
 ###### /tmp
 
 /tmp is for temporary files.
 /tmp is sometimes emptied on process exit or on boot.
 /var/tmp is like /tmp, but meant to last longer and thus autocleaned less or not at all
+Organization within /tmp is pretty hodgepodge.
 
 ###### /etc
 
@@ -3698,11 +3876,24 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 In unix, there are 7 types of files.
 Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
 
+The file type is one of the following characters:
+identifying characters (e.g. ls)|
+-|regular file
+b|block device
+c|character device
+d|directory
+l|symbolic link
+p|FIFO (named pipe)
+s|socket
+?|some other file type
+
 ##### named pipe
 
 named pipe = FIFO
+named pipes are functionally very similar to a temporary files.
+the use-case for using named pipes instead of anonymous pipes is that you don't need to read/write at the same time, that it persists and thus communication can happen multiple times, that processes that can read/write that aren't child processes of each other.
 mkfifo creates a new named pipe
-named pipes are deleted via rm
+named pipes must be deleted manually (via rm)
 
 ##### links
 
@@ -3745,6 +3936,10 @@ When config files are split up into multiple files, .d directory names are often
 dotfiles are files starting with a dot.
 Dotfiles are generally hidden by default.
 Dotfiles are often used for config or metadata.
+
+##### sockets
+
+/dev/log = socket for logging
 
 
 ### file types by contents
@@ -4346,18 +4541,20 @@ A DDoS attack is a DoS performed from many different sources.
 
 ##### Slow Loris
 
+# OSs
 
+## global
 
-# *nix
+## *nix
 
-## different *nixes
+### different *nixes
 
-### POSIX
+#### POSIX
 
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
 POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
 
-### differences
+#### differences
 
 Different *nixes have different versions of different command-line tools, on account of having descended in different ways from the original unix.
 coreutils are the basic GNU file, shell and tex manipulation utilities.
@@ -4367,9 +4564,9 @@ You can install the GNU coreutils on non-GNU systems via homebrew.
 If there is also a preexisting version of the command when the GNU coreutils are installed with homebrew, they are prefixed with g (e.g. gdir instead of dir).
 If you need the normal names of the GNU coreutils when installed with homebrew (e.g. because they're being used in a preexisting script etc, add the directory they're in (/opt/homebrew/opt/coreutils/libexec/gnubin) to your $PATH
 
-### what's in a *nix
+#### what's in a *nix
 
-#### GNU/Linux
+##### GNU/Linux
 
 GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
 GNU = GNU's not unix
@@ -4384,29 +4581,33 @@ A Linux distribution is GNU/Linux plus a set of other stuff, which depends on th
 Android uses the Linux Kernel but not GNU or any of the other libraries.
 From {{c3::android}} {{c1::1.0}} until {{c2::9}}, {{c3::android}} versions had {{c4::sweets}}-based names, with each name {{c5::going one further in the alphabet}}
 
-### libraries & systems
+#### libraries & systems
 
-#### linux
+##### linux
 
-##### input
+###### input
 
 On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
 libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
 
-##### grapical display & related systems
+###### grapical display & related systems
 
 pango is a linux library for international text rednering.
 
-###### X
+####### X
 
-####### Login
+X11 thingies installed by default live in /usr/share/X11
+X11 local config changes live in /etc/X11
+xorg is configured in X11/xorg.conf(.d)
+
+######## Login
 
 A X display manager is a graphical login manager which starts a login session on an X server.
 the GNOME X display manager is gnome's display manager.
 GDM = GNOME display manager
 LightDM is the most common alternative to GDM.
 
-####### DE
+######## DE
 
 D-Bus is a protocol/interface/middleware for messaging between processes (IPC).
 AccountsService is a D-BUs service for accessing the list of user accounts and information attached to those accounts.
@@ -4414,12 +4615,12 @@ AccountsService is a D-BUs service for accessing the list of user accounts and i
 What Desktop Environment you're using   XDG_CURRENT_DESKTOP
 What Desktop Environment you selected from the display manager (might be limited to gnome display manager)   GDMSESSION
 
-####### CLI
+######## CLI
 
 xdotool allows automation of X windows
 xclip allows interaction with the X clipboard
 
-##### systemd
+###### systemd
 
 In SystemV style init, the init process was actually called init.
 In SystemV style init, the device starts by executing numbered startup scripts one at a time.
@@ -4436,7 +4637,7 @@ There are different systemd folders depending on the persistence that is desired
 /lib/systemd|persitent (package-manaed software, the os)
 /etc/system|persistent (device admin)
 
-###### units
+####### units
 
 systemd deals with system units.
 A systemd unit represents any kind of system resource.
@@ -4456,7 +4657,7 @@ When a .path units path becomes available, {{c1::an associated .service}} is sta
 When a .socket unit has some activity, an associated service is started.
 When a .timer units time state is reached, an associated unit is started.
 
-####### targets
+######## targets
 
 reboot.target   The target for rebooting
 poweroff.target   The target for turning off the computer
@@ -4464,7 +4665,7 @@ multi-user.target   multiuser (but no GUI)
 graphical.target   multiuser <b>with GUI</b>
 default.target   what the machine should try and aim for when booting (another target generally)
 
-####### CLI
+######## CLI
 
 Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
@@ -4484,26 +4685,29 @@ list-unit-files|list unit files
 
 loginctl controls the systemd login manager
 
-##### various subsystems & specs
+###### various subsystems & specs
 
-###### NetworkManager
+####### NetworkManager
 
 NetworkManager aims to provide an 'it just works' type network epxerience for linux
 NetworkManager stores its saved connections in /etc/NetworkManager/system-connections/
 
-###### Desktop Notification Spec
+####### Desktop Notification Spec
 
 Spec for how notifications should work on linux   Desktop Notifications Specification
 libnotify is the most common implementation of the Desktop Notifications Specification
 To use libnotify, you need to also install a notification server/daemon.
 dust is a minimal notification server/daemon.
 
-###### bluetooth
+####### bluetooth
 
+The most common low-level bluetooth stack for linux is bluez
 hcitool is a command allowing noninteractive bluetooth config.
 bluetoothctl is a command allowing interactive commincation with bluetooth.
+As of 2021, bluetooth on linux is still pretty buggy.
+Bluetooth high-level-ish management software on linux: blueman, blueberry, bluedevil
 
-###### sound
+####### sound
 
 Linux's reasonably low-level sound interface is ALSA.
 ALSA|Adavance Linux Sound Architecture
@@ -4512,21 +4716,21 @@ PulseAudio is often layered on top of ALSA
 pactl is a command to manage pulse audio
 in linux soudn jargon, an output is a sink
 
-###### language
+####### language
 
 ibus and fcitx are linux frameworks for multilingual input
 mozc is a plugin for ibus/fcitx/whatever for japanese input.
 ibus-daemon is the command for managing ibus
 fcitx-configtool allows managing fcitx graphically.
 
-## command-line 
+### command-line 
 
-### meta
+#### meta
 
 most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
 
 
-#### common syntax considerations
+##### common syntax considerations
 
 -o PATH|generally short for/equiv to --out or --output
 -O|output to current directory with same name. (curl, wget)
@@ -4558,6 +4762,7 @@ most configurable commands are done so by a config file, either at ~/.commandnam
 --dry-run|show what would happen withou changing anything
 -a|show dotfiles
 -E|use ERE instead of BRE (Only where applicable, obv)
+--lines|count/specify the number of lines
 
 Options ≈ switches ≈ flags are indicated by hyphen(s) followed by characters
 By convention, an option started by a single hyphen is one character long.
@@ -4570,7 +4775,7 @@ In general commands that do something from a source to a target (e.g. cp, mv) ha
 
 Well-behaved shell programs take input from stdin (if there is data to operate on) and output to stdout (act as filters).
 
-#### man
+##### man
 
 Most CLI commands have a manual page, which can be diplayd with man.
 When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
@@ -4585,9 +4790,9 @@ The standard sections of the manual include:
 7      Miscellanea
 8      System Administration tools and Deamons
 
-### full-on programs
+#### full-on programs
 
-#### subscriptions
+##### subscriptions
 
 podboat   podcast management for newsboat
 newsboat|good rss reader
@@ -4607,15 +4812,15 @@ operator-prefix ::= ~|!
 -x string, --execute=string   execute a command
 commands e.g. reload
 
-#### mail
+##### mail
 
 mail or the older mailx are *nix builtins to manage mail.
 
-#### bacvkup
+##### bacvkup
 
 borg, restic
 
-#### termdown
+##### termdown
 
 termdown is a terminal timer utility.
 termdown [OPTIONS] [TIME]
@@ -4629,13 +4834,13 @@ L|Lap
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
 
-#### misc
+##### misc
 
 cal/ncal display a mini ascii calendar
 
-### text
+#### text
 
-#### editors
+##### editors
 
 a stream editor is a filter used to do text transformations
 The most common stream editor is sed。
@@ -4658,7 +4863,7 @@ original line editor for linux: ed
 
 nano|basic cmd-line text editor
 
-#### basic filters
+##### basic filters
 
 lolcat   make output rainbowy
 cowsay   make an ascii cow say the specific thing
@@ -4669,26 +4874,27 @@ cut|extract specific sections of each line based on delimiters
 -f <list>|only extract fields <list>
 -d <char>|treat <char> as delimiter
 nl|number lines
+rev|reverse each line of a file ('horizontally\)
 
 The commands head and tail print the first/last few lines of a file.
 The amount of lines printed by head/tail defaults to 10
 
-#### generation
+##### generation
 
 fortune|display a random fortune
 
-### media
+#### media
 
-#### generation
+##### generation
 
 Default mac japanese voice is  Kyoko
 
-#### processing
+##### processing
 
 unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
 
-##### ffmpeg
+###### ffmpeg
 
 ffmpeg is mainly a video/audio converter
 
@@ -4705,7 +4911,7 @@ input-output-options
 -ss <position>|seek to position
 -to <position>|stop at position
 
-#### display 
+##### display 
 
 lynx|text-based browser
 ffmpeg media player   <code>ffplay</code>
@@ -4720,7 +4926,7 @@ mpv plays files, urls, and playlists.
 Play a playlist<filename>   --playlist=&lt;filename&gt;
 don't open a new video window<filename></filename>   --no-video
 
-##### mpd mpc
+###### mpd mpc
 
 mpd is short for Music Player Daemon.
 mpd acts as a server, which you can start via the <code>mpd</code> command (either directly or via a service)
@@ -4747,16 +4953,16 @@ mpc -p port or --port=port|connect to mpd at the specified port
 <code>mpc next</code>|go to next song
 <code>mpc toggle</code>|play if paused, pause if playing</div>
 
-### online data fetching
+#### online data fetching
 
 <code>urban</code>|Terminal urban dictionary browser
 <code>trans</code>|Use google translate to translate text
 <code>deepl</code>|Use deepl to translate text
 
-lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} # leave out first arg for detection
+lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first arg for detection
 
 
-### sysadmin
+#### sysadmin
 
 uptime -  Print the current time, the length of time the system has been up, the number of users on the
        system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
@@ -4764,25 +4970,25 @@ uptime -  Print the current time, the length of time the system has been up, the
 top is a process viewer.
 htop is a more fancy version of top with a better TUI and interactivity.
 
-#### arch
+##### arch
 
 arch with no args prints the current system architecture
 the arch command can be made to run programs on other architectures via arguments.
 
-#### hardware info
+##### hardware info
 
 lspci   list pci devices
 lshw   list hardware config
 lsblk   list block devices
 lsusb   list USB devices
 
-#### GUI
+##### GUI
 
-##### X
+###### X
 
 wmctrl   Manage an X window manager
 
-#### state change
+##### state change
 
 <code>shutdown</code>|shutting your system down
 reboot|restart your computer
@@ -4792,12 +4998,12 @@ If no assertion flags are specified, caffeinate creates an assertion to prevent 
 If a utility is specified with -u, the caffeinate assertions will persist for the duration of the utility's execution. 
 if no utility is specified with -u, caffeinate creates the assertions directly, and those assertions will persist until caffeinate exits, or until the timeout specfied w/ -t.
 
-### leaving the shell
+#### leaving the shell
 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
 
-### misc
+#### misc
 
 <code>redshift</code>|make screen red/yellowish (linux)
 
@@ -4843,12 +5049,12 @@ unoconv is a CLI util to convert files using libreoffice in the background.
 
 tee redirects a stream to stdout and to all listed files
 
-## processes
+### processes
 
 On unix systems, a process is an (instance of a) program that is {{c1::running}}
 On unix, a process is the instance that has its own heap.
 
-### process relationshps
+#### process relationshps
 
 PPID|Parent Process ID
 PID|Process ID
@@ -4857,7 +5063,7 @@ PGID|Process group ID
 On unix, every process has a parent.
 
 
-### process management
+#### process management
 
 ps|list of processes
 pstree|processes as a tree
@@ -4866,7 +5072,7 @@ killall kills a n processes, given a string that their name contains
 
 procs is a more fancy version of ps written in rust
 
-### file descriptors
+#### file descriptors
 
 A file descriptor is a positive integer that uniquely identifies a file (or file-like) things.
 Each process has its own file descriptors.
@@ -4879,17 +5085,31 @@ stdin   0
 stdout   1
 stderr   2
 
-### daemons
+#### daemons
 
 A daemon is a process running in the background, not under the direct control of a user.
 In *nix, a daemon is generally a process which is a child of the init process.
 A daemon is usually created either by a process forking a child process and then immediately exiting, thus causing init to adopt the child process, or by the init process directly launching the daemon. 
 The names of daemons generally end with d.
 
+#### exit codes
+
+true|do nothing, sucessfully (exits 0)
+false|do nothing, unsuccessfully (exit non-0)
+
+#### process relationships
+
+A process group is a group of one or more processes.
+
+A session is a collection of process groups.
+
 ### terminal system
 
 #### job control
 
+job control is mainly performed by signals.
+A job is a shell concept, but generally corresponds to a process group.
+Jobs mainly exist to be siginalled by signals, all processes in a job are signalled at once.
 <pre><code>^Z</code></pre> (as keyboard input)   Stop (not kill) the current program
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
 fg  resume stopped task in foreground
@@ -4926,7 +5146,7 @@ When in a GUI, /dev/tty0 may be the terminal emulator the window server is runni
 On linux, pressing ctrl + alt + f<number> switches to tty<number>
 Linux typically starts with 6 virtual consoles, and then one additional one (tty7) to run the window manager in.
 
-/dev/tty represents the current terminal, regardless of what kind of terminal it is
+/dev/tty represents the current terminal, regardless of what kind of terminal it is (hardware, virtual, etc.)
 
 In the past, many hardware/physical terminals might have been connected to one computer.
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
@@ -5263,7 +5483,8 @@ Arithmetic expansion is performed by $(())
 ####### Process substitution
 
 Process substitution allws referring to the in or output of another process as a file.
-To implement process substitution, bash creates a pipe with two file descriptors.
+To implement process substitution, bash creates an anonymous pipe with two file descriptors.
+anonymous pipes file descriptors start at /dev/fd/63 and count downards
 Process substitution runs asynchronously.
 <(command) provides the output of command as a file for further use.
 \>(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
@@ -5318,7 +5539,7 @@ wildcard|matches
 
 After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
 
-####### Redirection
+###### Redirection
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
@@ -5327,6 +5548,41 @@ redirecting output [<n>]>[\||>][&]<word>
 
 1> may be abbreviated > 
 0< may be abbreviated <
+
+###### command execution
+
+####### pipelines
+
+the character indicating an anonymous pipe is |
+In a general sense, a {{c8::filter}} {{c9::takes some input}}, {{c10::transforms it}}, and {{c11::produces some output}}.
+In shell contexts, filters are combined with anonymous pipes.
+Multiple filters combinded by anonymous pipes are a pipeline.
+In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
+|& is the same as |, but it also outputs its standard error thrugh the pipe.
+While they are often called merely pipes, the pipes in pipelines are actually anonymous pipes.
+anonymous pipes <-> named pipes.
+
+Pipes, whether anonymous or named, basically consist of two file descriptors (one read, one write) and a buffer.
+pipes are simplex in direction.
+The default behavior in a pipe is for the writing and reading ends of a pipe is to exhibit blocking behavior. 
+When in a pipeline, the write file descriptor is connected to the stdout of the first process and the read file descriptor is connected to the stdin of the second process.
+
+######## liquid (semantically appropriate)
+
+Liquid also features filters prominently to transform values, and also uses the pipe | as a separator.
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>filter name (liquid)</th>
+    <th>filter action</th>
+      <th>constraints</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::date: "formatstring"))</td> <td>((c:2;::date formatting))</td></tr>
+<tr><td>((c:5;::markdownify))</td> <td>((c:6;::transform from markdown))</td> <td>((c:7;::jekyll only))</td></tr>
+    <tr><td>((c:25;::append: foo))</td> <td>((c:26;::append foo to the string))</td></tr>
+<tr><td>((c:3;::prepend: foo))</td> <td>((c:4;::prepend foo to the string))</td></tr>
+  </tbody>
+</table>
 
 ##### concepts
 
@@ -5369,11 +5625,7 @@ for declare options, using + instead of - turns off the attribute instead (yes, 
 The typeset command is supplied for compatibility with the Korn shell. It is a synonym for the declare builtin command.
 the type command indicates what it would be interpeted as if used as a command name (e.g. is a shell builtin, is a function, etc.).
 
-### process relationships
-
-A session is a collection of process groups.
-
-## users and groups
+### users and groups
 
 GID|group id
 UID|user id
@@ -5386,13 +5638,13 @@ the groups command lists the groups a user is in.
 etc-groups ::= {<group-name>:<password-encrypted>:<GID>:<member_list><newline>}
 passwd – modify a user's password
 
-### commands
+#### commands
 
 whoami|show current username
 login|login as user
 logout|logout of shell
 
-### superuser
+#### superuser
 
 superuser = root = admin(istrator)
 OS-independently, the superuser/root/administrator is a user with large to unlimited power over the system.
@@ -5408,7 +5660,7 @@ The su utility requests appropriate user credentials and switches to that user I
 su = substitute (in the past super) user
 sudo = substitute (in the past super) user do
 
-## projects
+### projects
 
 freedesktop.org was formerly called X Desktop Group (XDG)
 freedesktop.org governs projects such as the X Window System, wayland or systemd
@@ -5462,6 +5714,13 @@ A {{c1::proxy (server)}} is a {{c2::server/server application}} that {{c3::acts 
 A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
 ((h:all;::<img src="Reverse_proxy_h2g2bob.svg">))
 Reverse proxies are sometimes called surrogates or gateways.
+
+### directions
+
+simplex|one direction only
+duplex|bidirectional
+half duplex|bidirectional, but only one at a time
+full duplex|bidirectional, both simultaneously
 
 ## interfaces 
 
@@ -5828,7 +6087,10 @@ The PQDN is a domain which only includes a part of the FQDN.
 The rightmost label of a FQDN is the TLD.
 the second-rightmost label of a FQDN is a second-level domain.
 
-The leaf of a given FQDN is the host name
+A host is a device connected to a computer network.
+In technically correct usage, the leaf of a given FQDN is the hostname.
+hostname comes from it being the name of the host, a device connected to a network.
+frustratingly hostname is often also used as a synojym for PQDN or FQDN
 Domains to the left of a domain label are subdomains of that label.
 Domain is a very ambiguous term: It may refer to everything but the hostname, any PQDN, or the FQDN.
 a public suffix is a domain under which one can or at one point could register a domain name.
@@ -5837,12 +6099,16 @@ Many public suffixes are TLDs, but e.g. .co.uk is a public suffix but not a TLD,
 A registrable domain name consists of a single label plus a public suffix.
 A registrable domain name is so called because it is or at one point would have been registrable
 
+In the past, the www hostname was popular, since webservers might have had many different application-level services and thus there was a desire to enforce separation between them.
+
 ######### linux hostnames
 
 Linux has three hostnames, static, transient, and pretty.
 The pretty hostname can be pretty much anything
 The static hostname is used for programmatic purposes, the transient hostname is used as a fallback.
 While the pretty hostname can be pretty much anything, static and transient hostname are limited to 64 characters.
+
+the `hostname` command shows the hostname, which is the same for DNS, NIS and YP.
 
 ######## hotlinks, deeplinks
 
@@ -5913,7 +6179,73 @@ Between IMAP and POP3, IMAP is more feature-rich.
 
 HTTP|HyperText Transfer Protocol
 
-451|Unavailable For Legal Reasons (refrence to ray bradburry)
+{{c1::HTTPS}} is an {{c2::encrypted}} version of {{c3::HTTP}}
+
+When you navigate to a new URL, the browser sends an HTTP request
+The client sendds a HTTP request, and the server returns an HTTP response.
+http-request-message ::= <http-request-header-part><CRLF>[<http-request-body>]
+http-request-header-part ::= <http-request-line>{<http-request-header>}
+http-request-line ::= <request-verb> <path> <HTTP-version><CRLF>
+http-request-header ::= <key>: <value><CRLF>
+HTTP/2 did not change the HTTP semantics, merely stuff under the hood.
+
+in HTTP/1.1, in a request, besides the request line, a host header is necessary
+HTTP request verbs are case-sensitive
+If a form is submitted via POST, the query string ends up in the body of the request message
+If a form is submitted via GET, the query string ends up in the request url as the query element
+When you make a GET request to a directory, e.g. <code>/directory/</code>, it will return <code>/directory/index.html</code>, if extant, or possibly the directory listing if enabled, otherwise 404
+
+http-respose-message ::= <http-response-header-part><CRLF>[<http-response-body>]
+http-response-header-part ::= <http-status-line>{<http-response-header>}
+http-response-line ::= <<CRLF>
+http-reponse-header ::= <key>: <value><CRLF>
+
+######## request verbs
+
+TRACE   Ask the server to return a diagnostic trace
+PUT   Ask the server to store the data
+POST   Post data up on the web server
+OPTIONS   Ask the server to return the list of request methods it supports
+HEAD   Get the header that a GET request would have gotten
+GET   Get a resource from the server
+DELETE   Ask the server to delete the data
+CONNECT   Tell a proxy to connect to another host and simply reply the content
+
+######## status codes
+
+<table>
+  <thead>
+    <tr>
+      <th>((c:1;::Status-Code))</th>
+      <th>((c:2;::Reason-Phrase))</th>
+      <th>Further explanation
+      </th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:3;::1xx))</td><td>((c:4;::Informational))</td>
+    </tr><tr><td>((c:5;::100))</td><td>((c:6;::Continue))</td><td>((c:6;::The server is working on it, dammit!))</td></tr>
+    <tr><td>((c:7;::2xx))</td><td>((c:8;::Success))</td>
+    </tr><tr><td>((c:9;::200))</td><td>((c:10;::OK))</td><td>((c:10;::The request is fulfilled.))</td></tr>
+    <tr><td>((c:11;::3xx))</td><td>((c:21;::Redirection))</td>
+    </tr><tr><td>((c:12;::301))</td><td>((c:22;::Move Permanently))</td><td>((c:22;::The resource has moved permanently.))</td></tr>
+    <tr><td>((c:13;::302))</td><td>((c:23;::Move Temporarily))</td><td>((c:23;::The resource has moved temporarily.))</td></tr>
+    <tr><td>((c:14;::304))</td><td>((c:24;::Not Modified))</td><td>((c:24;::The resource has not been modified))</td></tr>
+    <tr><td>((c:15;::4xx))</td><td>((c:25;::Client Error))</td>
+    </tr><tr><td>((c:16;::400))</td><td>((c:26;::Bad request))</td><td>((c:26;::The server could not understand the request))</td></tr>
+    <tr><td>((c:17;::401))</td><td>((c:27;::Authentication Required))</td><td>((c:27;::Requires Username/Password))</td></tr>
+    <tr><td>((c:18;::403))</td><td>((c:28;::Forbidden))</td><td>((c:28;::Server refuses to supply the resource, regardless of identity of client))</td></tr>
+    <tr><td>((c:19;::404))</td><td>((c:29;::Not Found))</td><td>((c:29;::The requested resource cannot be found in the server))</td></tr>
+    <tr><td>((c:32;::405))</td><td>((c:20;::Method Not Allowed))</td><td>((c:20;::The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested))</td></tr>
+    <tr><td>((c:33;::451))</td><td>((c:30;::Unavailable For Legal Reasons (refrence to ray bradburry)))</td>
+    <tr><td>((c:33;::5xx))</td><td>((c:30;::Server Error))</td>
+    </tr><tr><td>((c:34;::500))</td><td>((c:31;::Internal Server Error))</td><td>((c:31;::Server is confused))</td></tr>
+    <tr><td>((c:35;::501))</td><td>((c:39;::Method not Implemented))</td><td>((c:39;::The method name is invalid (e.g. Get instead of GET)))</td></tr>
+   <tr><td>((c:36;::502))</td><td>((c:40;::Bad Gateway))</td><td>((c:40;::Proxy recieved bad response from upstream server))</td></tr>
+    <tr><td>((c:37;::503))</td><td>((c:41;::Service Unavailable))</td><td>((c:41;::Server cannot respond due to overloading or maintenance))</td></tr>
+    <tr><td>((c:38;::504))</td><td>((c:42;::Gateway timeout))</td><td>((c:42;::Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy)))</td></tr>
+  </tbody>
+</table>
 
 ######## cache
 
@@ -5970,6 +6302,10 @@ HTTP|HyperText Transfer Protocol
 ((h:all;::<img src="sm_tmpyvxwccqz.png">))
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}</span>
+
+######### cookies
+
+By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
 
 ######## CDN
 
@@ -6255,6 +6591,15 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
 ##### six principles (alphabetical)
 
+{{c1::REST}} is short for {{c2::Representational State Transfer}}
+{{c2::REST}} is a set of {{c1::constraints}}/{{c1::design principles}} for {{c3::APIs}}
+{{c1::REST}} as an idea was created in {{c2::2000}} by {{c3::Roy Fielding}} in his {{c4::doctoral dissertation}}
+On a theoretical level, {{c1::REST}} consists of {{c2::6}} {{c3::constraints/criteria}}.
+While REST is theoretically implementation-independent, REST APIs generally transmit their data over HTTP as JSON
+sometimes, HTTP APIs are called REST APIs even if they don't follow all constraints
+an API following REST is often called RESTful
+for the client-server constraint of REST to be met, client and server should be independent of each other, as long as the interface is not altered
+
 Cacheability
 Client-server achitecture/decoupling
 Code on demand
@@ -6264,6 +6609,9 @@ Uniform interface
 
 ##### HATEOAS
 
+HATEOAS = Hypermedia as the Engine of Application State
+HATEOAS(Hypermedia as the Engine of Application State) is part of the uniform interface constraint of REST
+HATEOAS requires the responses of an API to contain all the relevant hyperlinks for further requests/action
 in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
 in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
 
@@ -6298,6 +6646,23 @@ A tree network may consist of star networks connected {{c1::via a bus network}},
 In a bus, everyone attached recieves the transmission.
 In a bus, only one entity can send at a time
 A daisy chain is a topology where devices are linked in a line or ring.
+
+<table>
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::star))</td> <td>((c:2;::<img src="StarNetwork.svg">))</td></tr>
+<tr><td>((c:3;::ring))</td> <td>((c:4;::<img src="RingNetwork.svg">))</td></tr>
+<tr><td>((c:5;::fully connected mesh))</td> <td>((c:6;::<img src="FullyConnectedMeshNetwork.svg">))</td></tr>
+<tr><td>((c:7;::partially connected mesh))</td> <td>((c:8;::<img src="PartiallyConnectedMeshNetwork.svg">))</td></tr>
+<tr><td>((c:9;::bus))</td> <td>((c:10;::<img src="BusNetwork.svg">))</td></tr>
+<tr><td>((c:11;::line))</td> <td>((c:12;::<img src="BusNetwork.svg">))</td></tr>
+<tr><td>((c:13;::tree))</td> <td>((c:14;::<img src="TreeNetwork.svg">))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ### types
 
@@ -6340,6 +6705,13 @@ RFCs are generally published by the IETFs.
 RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
 BCPs are a subset of RFCs.
 
+<br>---<br>
+  §§ ((c:1;::W3Schools)) weirdly is ((c:2;::unaffiliated with the W3C)) §<br>
+§§ ((c:9;::W3Schools)) is a website for ((c:3;::documentation/information)) for ((c:4;::web technologies/languages)) as well as ((c:4;::other languages)). §<br>
+§§ In ((c:5;::the early 2010s)) ((c:10;::W3Schools)) was known to have ((c:6;::much low-quality information and errors)), leading to ((c:7;::the website w3fools pointing it out)). However, ((c:8;::today, most of it has been fixed)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 ##### the web
 
 WWW = World Wide Web
@@ -6355,7 +6727,12 @@ A web site is a collection of web pages, generally one that share a domain name/
 ###### performance
 
 Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
-imageoptim exists as a GUI, a CLI (imageoptim-cli), and an API.
+
+Image minification tools
+|GUI|CLI|API|other
+imageoptim|y|y|y
+squoosh|web|y|n
+sharp|n|n|n|npm module
 
 ####### PRPL
 
@@ -6379,12 +6756,16 @@ source map magic comment: //# sourceMappingURL=foo/bar.js.map
 
 ####### Google speed
 
+PageSpeed Insights|Lab data & realworld data|Web Vitals
+Lighthouse|only lab data|Web Vitals & other data
+
 {{c1::Web Vitals}} are the stats that {{c2::google}} measures to judge {{c3::the user experience of your websites}}
 {{c1::Core Web Vitals}} are the subset of {{c2::Web Vitals}} that {{c3::apply to all web pages (and are thus considered very important)}}
 The current (2020 onwards) {{c4::Core Web Vitals}} are the {{c1::Largest Contentful Paint}}, the {{c2::First Input Delay}}, and the {{c3::Cumulative Layout Shift}}
 
 A {{c1::layout shift}} is when a {{c2::visible element}} {{c3::shifts position}} between {{c4::render frames}} (in bad cases causing users to e.g. {{c5::click the wrong button}})
 {{c1::Cumulative Layout Shift (CLS)}} is how google measures the {{c2::badness}} of the {{c3::layout shifts}} you've going on
+The {{c1::largest contentful paint}} is when the {{c2::largest media/text block}} (which elements are exactly considered is more complicated) loaded, relative to {{c3::when the page first started loading}}
 
 CLS  Cumulative Layout Shift 
 FCP  First Contentful Paint
@@ -6422,28 +6803,11 @@ LCP  Largest contentful paint
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
-## media viewers
+## media 
 
 ##### video 
 
 Common shortcuts
-
-<table>
-  <thead>
-    <tr>
-      <th>Shortcut</th>
-      <th>Action</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::,))</td><td>((c:2;::one frame back))</td></tr>
-    <tr><td>((c:3;::.))</td><td>((c:4;::one frame forwards))</td></tr>
-    <tr><td>((c:5;:: <kbd>f</kbd> ))</td><td>((c:6;::go fullscreen))</td></tr>
-    <tr><td>((c:7;::esc))</td><td>((c:8;::Exit fullscreen))</td></tr>
-    <tr><td>((c:9;::space))</td><td>((c:10;::pause))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 
 
@@ -6943,6 +7307,12 @@ A variable that does not have global scope has local scope.
 
 Local scope is often either block or function scope.
 
+In some languages, things that live within global scope are properties of an object called a global object.
+In JS in browsers, generally, the global object is Window.
+within {{c2::workers}}, the {{c3::global scope}} is <code>{{c1::WorkerGlobalScope}}</code>
+within {{c2::service workers}}, the {{c3::global scope}} is <code>{{c1::ServiceWorkerGlobalScope}}</code>
+The mixin <code>{{c1::WindowOrWorkerGlobalScope}}</code> describes {{c3::the common features}} of <code>{{c2::Window}}</code> and <code>{{c2::WorkerGlobalScope}}</code>
+
 ##### Variable scope
 
 In general, if you declare block- or function-scoped variables on the top level, these will be global or at the least, global to the module.
@@ -7072,6 +7442,7 @@ var1, var2 = [value1, value2] or preexisting array |Python|Ruby
 
 In general, you can destructure that language's linear collections (esp. if primitive) and iterables.
 In JS you can also destructure the assoc array structure.
+
 Destructuring an array(like) requires array delimiters ([]) in JS, python doesn't want any delimiters, and python wants a tuple, which may mean no delimiters or () if needed for nesting etc.
 use normal default value syntax to assign default values in array destructuring|JS only
 combine spread syntax/splat operator w/ destructuring|JS|Ruby|Python
@@ -7120,7 +7491,7 @@ pattern1 bar pattern2|pattern 1 or pattern 2
 
 Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let &foo = somereference
 
-### Sigils### 
+### Sigils
 
 In programming, a sigil is a symbol(s) affixed to a variable name.
 Sigils are generally used to show that something is a variable, show its type, or ts scope.
@@ -7479,6 +7850,7 @@ Python calls its data structures that represent collection ADTs, well, collectio
 Associative collections map keys to values. 
 Js sets and maps use .size instead of .length
 Java has the Collections Framework for collections 
+Collections may be implemented in the language as primitives, but many are either transparently records or some syntactic sugar made up of literals over records; in some language everything is an object anyway and thus this distinction doesn't apply.
 
 #### Access
 
@@ -7521,43 +7893,72 @@ xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
 ###### Associative array
 
+####### General
+
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
+In programming languages, string assoc arr keys are generally quoted. In TOML they may be unquoted for simple alphabetic keys.
+across programing languages, a mapping is generally a a key-value set.
+Associative arrays are implemented as primitives in some languages, as records in others, or sometimes as both.
+Languages with no associative array primitives: C#, Java, Rust
+If languages implement assoc arr via records, you then interact with them as you would with records.
+If languages implement assoc arr as primitives, these then often have their own syntax for interaction.
 
-Some languages implement assoc arr via Objects, you then interact with them as you would with objects.
-Some languages implement assoc arr as primitives, these then often have their own syntax for interaction.
-Java implements associative arrays via things implementing the <code>Map</code> interface, e.g. <code>HashMap</code>, both defined over two generics.
-JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. objects (esp. object literals) also perform many of the operations we would expect of associative arrays. Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). Objects are primitives, Maps need to be created with the new Map() constructor. Operations on map: get(), set()
-In literals, key-value pairs are generally separated with , (e.g. keyval, keyval)
-Lua implements associative arrays via tables (in fact, tables are the only data structure in lua). 
-A lua table can be created the {} literal, like so {key = value, ...}
-A lua table can be accessed via dot and square bracket notation. (Perhaps move this to its own thing-access section)
-Perl implements and calls associative arrays as hashes. 
-In perl, hash variables are marked by the % sigil.
-In perl, keys and variables within hashes (perl assoc arr) can be separated by commas (as are the pairs, impairing readability), or separated by => for readability
-In perl, hashes use the () or {} literals (is a diff, somethims something reference), {} when accessing
-Python implements and calls associative arrays (as) dictionaries. 
-Literals {}, accessing [], keyval sep :
-Ruby: name hash table, {} literals, accessing [], keyval sep => if nonsymbol keys, : if symbol keys 
-Rust: HashMap or BTreeMap, defined over two generics. Has the entry() function go get a Entry
-C#: Dictionary, over two generics. Must be created via constructor.
-YAML: either {} literals and keyval sep : or no surrounding literals, newline between items, and further indented. Calls them mappings.
-TOML: keyval sep =, called tables, keys may be unquoted, or quoted if containing weird characters
-SCSS/SASS: Calls them maps, keyval sep :, () literals (same as arrays)
+####### JS
+
+JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. 
+In JS objects (esp. object literals) also perform many of the operations we would expect of associative arrays. 
+Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). 
+Objects are primitives, Maps need to be created with the new Map() constructor. 
+
+####### Literals
+
+no literals|C#|TOML
+{}|JS (objects)|Lua|Perl (1 of 2)|Python|Ruby|YAML
+()|Perl (1 of 2)|SCSS/Sass (same as arrays)
+newlines & indentation|YAML
+
+In associative array literals, the separator between 2 mappings is generally ,
+
+key-value separator
+=|lua|TOML
+:|python|Ruby (symbols)|YAML
+=>|Perl (1 of 2)|Ruby (non-symbols)
+, (yes, really)|Perl (1 of 2)
+
+names (only if literals)
+table|lua|TOML
+hash|perl
+dictionary|python
+hash table|Ruby
+map|SCSS/Sass
+
+In most languages with primitive associative arrays, accessing and assigning are handled by the usual indexing syntax also used for their primitive array type etc.
+
+####### Objects
+
+Dictionary<K, V>|C#
+HashMap<K, V>|Rust
+BTreeMap<K, V>|Rust
+Map<K, V> interface, e.g. HashMap<K, V>|Java
+
+######## assigning & Accessing
 
 adding a key, value pair
-.Add(key, value)|C#
-.set()|JS (map only)
+.Add(<key>, <value>)|C#
+.set(<key>, <value>)|JS (map only)
+.put(<key>, <value>)|Java
+.insert(<key>, <value>)|Rust
+
+Retrieval function
+get(<key>)|Java|JS(map only)|Rust
+[] indexing notation despite not being a primitive|C#
+
+####### methods
+
 
 deleting key
 set it to null type|lua
-
-Retrieval function
-get()|Rust
-
-Set a key to a value
-[key] = value|most languages if primitive
-insert(key, value)|Rust
 
 Has key? 
 key?|Ruby
@@ -7571,12 +7972,12 @@ items()|Python
 entries()|JS (map only)
 
 get array/iterator of keys
-keys()|JS(only Map)|perl|Ruby|Python (returns a dict_keys object)
+keys()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_keys object)
 Object.keys(someobj)|JS
 
 get array/iterator of values
 
-values()|JS(only Map)|perl|Ruby|Python (returns a dict_values object)
+values()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_values object)
 Object.values(someObj)|JS
 
 Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
@@ -7584,9 +7985,14 @@ Amusingly, JS doesn't have the keys(), values(), entries()... functions for its 
 merge two assoc. arrays
 map-merge(foo, bar)|SCSS/Sass
 
-commonly items are separated by ,
-
 Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
+
+Rust: Has the entry() function go get a Entry
+
+####### misc
+
+tables are actually the only data structure in lua
+
 
 #### Linear collections/ADTs
 
@@ -8165,8 +8571,10 @@ In the context of callable unit parameters, JS rest syntax and Ruby/Pythons's Sp
 funcName(1,2,3)
 &lt;keyword&gt; funcName(... OR *foo)
 foo will now be [1,2,3]
-When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members
+When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members, or in the case of assoc arrays into its constituent mappings.
+Ruby uses a double splat operator for associative array destructuring.
 [... OR *[1,2,3], 4] == [1,2,3,4]
+{**{:foo => 1, :bar => 2}, :quuz => 3} == {:foo=>1, :bar=>2, :quuz=>3} and {...{foo: 1, bar:2}, quuz:3} === { foo: 1, bar: 2, quuz: 3 }
 
 ## Errors
 
@@ -8352,7 +8760,22 @@ Node generally takes error-first callbacks.
 #### map
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
-.map(func)|JS|Python|Ruby
+thing.map(func)|Java|JS|Ruby|Rust
+map(func, iterator)|Perl (is list not iterator though)|Python
+Select(func)|C#
+no map function|sh|SCSS/Sass
+
+Thing map is called on
+arrays (or ggf. other iterables), not iterators|JS|Ruby|C#
+iterators, not arrays|Rust
+streams (whatever that is, but not the same as an iterator)|Java
+globally|Perl|Python
+
+##### flatmap
+
+A flatmap function is a map function which may return an array and which flattens all elements of the array into the resulting thing.
+effectively, flatmap is merely map with flat called on the array returned.
+Most languages that have map function have a flatmap (flatMap) version of it, except for Python,. C# calls it SelectMany. Perls ordinary map is actually a flatmap, so really perl doesn't have a map.
 
 #### sort
 
@@ -8367,7 +8790,7 @@ foo.sort()|JS (takes an optional sort function, only Arrays)
 
 #### filter
 
-Filter is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
+Filter in a narrow sense is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
 filter()|JS
 
 #### reduce
@@ -8441,6 +8864,13 @@ In JS, the default parameter will take on the default value if undefined is pass
 the general syntax is `paramname = defaultval` (within the parameter list)
 Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
+#### Binding
+
+Arguments are generally bound to parameters. 
+JS's bind() method has the potential to change the idea that arguments passed to a function call are bound to parameters.
+JS's bind() is called on a function.
+JS's bind() method binds the first argument that it is passed to the this of the function, and any following arguments to the parameters of the function it was called on.
+
 ### Asynchronous callable units
 
 Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
@@ -8458,6 +8888,10 @@ Once a promise has settled, the attached thens will run as soon as possible / aw
 If a promise is settled, and we then attach a then()/catch()/finally(), it will run immediately
 While a promise is pending, thens will not yet run / awaits will not yet resolve.
 A promise may have the fates resolved, unresolved.
+Whether a promise is resolved depends on whether we can still resolve it: If we can still resolve a promise, it is unresolved, otherwise resolved.
+A promise being resolved means that its outcome is already determined, even if we may not yet have the outcome.
+Promises with the states fulfilled or rejected also have the fate resolved.
+A promise with the state pending is resolved if it has been resolved to a itself pending Promise, else a promise that is pending is also unresovled.
 //generally true, not jus js
 
 In many languages, the async keyword marks the callable unit as asynchronous and allows it to call asynchronous functions.
@@ -8505,6 +8939,10 @@ In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
 Memoization is the form of caching that caches the return value of a deterministic callable unit
 
+#### recursion
+
+recursion ≈ self-inclusion
+
 ## Records
 
 A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
@@ -8533,6 +8971,18 @@ In rust, a class method/associated function is called by using the :: operator
 static|Java|C#|JS
 does not take self as argument|Rust
 
+### self-reference
+
+reference to the current record/other thing
+self|Python|Ruby|Rust
+this|C#|Java|JS
+
+Many languages bind self/this automatically in methods, all others typically bind self/this explicitly by taking self/this as their first arguments.
+In JS, any function binds this, even those that are not methods. Outside of a function, this refers to the global object.
+to refer to the this representing the global object even within places that bind this to something else, use `globalThis`.
+
+In Rust, Python, methods must take self as the first argument, else they are class methods/associated functions.
+
 
 ### Methods
 
@@ -8540,9 +8990,6 @@ A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
 in OOP, a method call is the way to send of message: The originator object is implicit, the target is specified manually, the method called is the message, and the arguments are well the arguments.
 Ergo, in OOP objects generally use message passing to communicate.
-
-In Rust, Python, methods must take self as the first argument.
-
 
 #### Getters and setters
 
@@ -8589,10 +9036,6 @@ Keyword to declare a class is done by the keyword <code>class</code> in pretty m
 
 A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
 A type that only allows one value (only allows a sigleton) is known as a unit type.
-
-reference to the current record/other thing
-self|Ruby|Rust
-this|C#|Java|JS
 
 method in lua function object:method(...)
 
@@ -8648,6 +9091,8 @@ Many languages allow us to declare many different constructors with different ar
 Most languages provide a default constructor if you don't provide one, which does nothing besides create the object.
 In JS, you may not use arrow functions as constructors
 
+A factory function is any callable unit which is not a class/constructor that returns a new object.
+Ergo, factory functions create things without using the new keyword.
 
 
 #### type parameters and generics
@@ -8792,7 +9237,8 @@ let/var/const <name> = require(<path>)
 ##### ES Modules
 
 To contrast with module systems such as CommonJS, the official implementation of modules in JS are known as ES Modules.
-In JS, ES Module import/export statements can only be used within a module
+In JS, ES Module import/export statements can only be used within a module.
+Modules are declared in script tags by adding type="module".
 
 ###  Importing
 
@@ -8803,13 +9249,16 @@ In most languages, you may only export top-level items.
 Import statements have the general syntax
 
 import <members> [as <name>] from <path>
-in JS you can leave out <members> from if you only want the side effects
+in JS you can leave out `<members> from` if you only want the side effects
 
 Python instead has the order from <path> import <members> [as <name>]
 
 In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
 @import syntax: @import <path> (<media-query>|<feature-query>);
 For CSS, the <path> may be an <url> or a <string>
+
+JS supports an import() function that allows dynamic runtime imports.
+import() returns a promise.
 
 #### SCSS/Sass 
 
@@ -8826,7 +9275,12 @@ Most languages have a number of things that are automatically imported. Rust (an
 
 Exporting is selecting entities for potential import.
 In most languages, exporting is required so they can then be imported.
-General syntax: export <members> [as <name>]
+General syntax: export <members> [as <name>] [from <path>]
+JS allows one default export per module. The default export is the only thing that may be imported without curly braces, and can be renamed without `as`.
+JS default exports are funtionality-wise not super useful, but be useful in indicating that it is the most important export / only relevant export.
+In JS, non-default exports are known as normal/named exports.
+In JS, using the from <path> component of exports allows for what JS calls re-exporting and one might also call forwarding.
+JS re-exporting allows aggregating exports in a single file
 
 #### default exports
 
@@ -8955,8 +9409,21 @@ Svelte works like a front-end framework, but actually compiles in advance.
 
 ##### react 
 
+###### react itself
+
+####### events
+
+React wraps browser events in `SyntheticEvent`s, which generally have the same interface but prevent browser inconsistencies.
+In react, you can't return false to prevent the browser default for an event, you actually have to call preventDefault
+
 ###### react native
 
+{{c1::React Native}} is a {{c2::framework}} for building native applications using {{c4::React}} and {{c4::the platforms native capabilities}}
+The most common targets for react native are android and iOS, but you can also target desktop OSs, qt, TVs and even the web.
+You can use react native for your {{c1::whole app}}, but you can also {{c2::integrate it into an existing project}}
+React Native implements a polyfill for WebSockets, initialized via importing React. Other modules using WebSockets therefore need to be imported after React.
+
+####### components
 
 Native Components: React Components transformed into native views
 Core components: Native Components that are part of React Natives standard library
@@ -8967,7 +9434,36 @@ React Native|HTML
 &lt;ScrollView&gt;|a scrolling &lt;div&gt;
 &lt;Image&gt;|&lt;img&gt;
 
+&lt;TextInput&gt; is a Core Component that allows the user to enter text.
+onChangeText|event when text is changed
+onSubmitEditing|event when text is submitted
+
+((h:all;::<img src="sm_2021-09-16--16-10-01-screenshot.png">))
+((h:all;::<img src="sm_2021-09-16--16-08-57-screenshot.png">))
+A list with {{c1::sections/headings}} should probably use the {{c2::&lt;SectionList&gt;}} component
+A list with {{c1::no sections/headings}} should probably use the {{c2::&lt;FlatList&gt;}} component
+
+All the elements and views of a ScrollView are rendered, even if they are not currently shown
+&lt;ScrollViews&gt; can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
+The &lt;ScrollView&gt; Core Component can scroll in y-direction and, if <code>horizontal</code> is specified, in x-direction.
+On iOS a ScrollView with a single item can be used to allow the user to zoom content. Set up the maximumZoomScale and minimumZoomScale props for that.
+
+####### switching based on platform
+
+Platform.version returns the os version (e.g. 10.1) on iOS and the API level on android
+Platform.OS returns the current os
+React Native supports two ways of generating plaform-specific code, the Platform module and platform-specific file extensions
+to target React Native files specifically to android or to iOS, use the file extensions .android.js and .ios.js respectively
+Platform.select takes an object with keys "ios", "android", "native", and "default", and runs the code contained in the relevant value
+As far as I can see, for Platform.select "native" will trigger on native targets, while "default" will trigger on all targets, including web
+
 #### server
+
+##### JS
+
+{{c1::Deno}} is a {{c2::perhaps-sucessor}} to {{c3::node}} by {{c4::the same creator}}.
+{{c5::Deno}} is wrtten in {{c1::rust}}, provides native {{c2::TS}} support, uses {{c3::ES}} modules, and {{c4::URLs}} for the location of dependencies
+
 
 ##### Python
 
@@ -9281,6 +9777,7 @@ others languages that conform to the ECMAScript standard are ActionScript / JScr
 However, this distincition is often not made, and JavaScript and ECMAScript are often treated as synonyms. 
 CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
 ES2015|ES6
+TypeScript is a superset of javascript.
 
 ### Things programming languages do especially well
 
@@ -9433,10 +9930,6 @@ Python bytecode files produced by CPython are .pyc files.
 
 JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.
 The chrominum javascript engine is v8, d8 is the developer shell for v8
-
-## Boilerplate
-
-Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
 
 ### document start/end indicators
 
@@ -9599,6 +10092,13 @@ In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
 A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 
+expo is a toolchain for react native that does a bunch of toolchainy stuff.
+expo is accessed via expo-cli
+expo's managed workflow handles pretty much everything but writing code
+expo's bare workflow allows you to pick and choose whichc parts of expo to use
+to test an app using expo on a phone, you need to install the expo client app on your device
+If you want to use the bare React Native workflow, you will have to set up your target's devtools
+
 ### dependencies
 
 A dependency is a piece of software another piece of software relies on.
@@ -9760,6 +10260,19 @@ _config.yml/.toml|Jekyll
 Browserslist is a tool to define target browsers.
 Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
 
+### boilerplate
+
+Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
+
+To set up a default repository with boilerplate, different frameworks/languages have different tools:
+react|create-react-app <name>
+react-native|expo init <name> 
+expo init creates a project using expo's managed workflow
+
+### Mobile development
+
+Mobile development is centered around a core IDE, Android Studio for android and XCode for iOs
+
 # Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
@@ -9788,6 +10301,10 @@ In JS, the optional chaining operator works like dot notation, except that if us
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
 The optional chaining operator can be used instead of dot notation, and before [] notation or method calls.
 
+A lua table can be accessed via dot and square bracket notation. (Perhaps move this to its own thing-access section)
+assoc array access []|Python|Ruby|
+{}|Perl
+
 ## Project Jupyter
 
 Jupyter notebooks are multimedia documents.
@@ -9811,7 +10328,13 @@ https://en.wikipedia.org/wiki/Type_theory#History
 
 Associative arrays: names, literals, other construction methods, etc.
 
+## server directory structure
 
+Jekyll & common
+
+./assets|assets
+./assets/css|css files
+./assets/js|js files
 
 ## Metacharacters & escapes 
 
@@ -10036,6 +10559,7 @@ placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
 
 #### SEO
 
+SEO|Search engine optimization
 related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
 
 ### Accessibility
@@ -10068,6 +10592,8 @@ the alt text should be blank if the image is merely presentational, don't just n
 
 #### WCAG techniques
 
+Based off {{c2::the DOM tree}}, the browser builds the {{c3::accessibility tree}} containing {{c1::all accessibility-relevant information}}
+
 ##### Semantic HTML
 
 Semantic HTML is HTML where the tags contain semantic information about the content
@@ -10076,10 +10602,14 @@ Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&g
 
 ##### aria
 
+ARIA attributes fall under the umbrella of WCAG techniques.
 ARIA  Accessible Rich Internet Applications
 ARIA is mainly realized in HTML attributes.
+{{c2::Where available}}, prefer {{c1::semantic HTML}} over {{c3::ARIA}}
 ARIA attributes change the accessibility tree, but nothing else.
 There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
+ARIA {{c1::roles}} define the {{c2::main type of component}}, e.g. {{c3::toolbar, banner}}
 ARIA {{c1::states}} define some property {{c2::that can change}}
-ARIA {{c1::roles}} define a {{c2::type of component}}, e.g. {{c3::toolbar, banner}}
 ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
+There are four types of aria {{c4::states}} &amp; {{c4::properties}}: {{c1::drag-and-drop}}, {{c2::live region}}, {{c3::relationship}}, and {{c5::widgets}}
+

@@ -73,6 +73,7 @@ group-specifier|meaning
 ø|capturing
 ?:|non-capturing
 ?>|atomic
+?\<<name>\>|named capturing (JS)
 ?<expression>|conditional group
 ?bar|branch reset groups
 ?<flags>|activates certain flags from within a regex
