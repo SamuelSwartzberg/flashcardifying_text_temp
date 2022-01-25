@@ -3186,6 +3186,17 @@ In html, you can force a disclosure widget to start in its open state by specify
 
 App shortcuts is the webdev name for the set of actions that are shown e.g. when you long press on a launcher icon on android
 
+##### icons
+
+Icon fonts map unicode characters from the private use areas to vectors/images
+Icon fonts are most often applied via css classes.
+the most common icon font is font awesome.
+
+###### icon packs
+
+An icon pack is a set of aesthetically united icons.
+octicons|icons used on github
+
 #### actions
 
 ##### window snapping
@@ -3211,6 +3222,14 @@ Something that has high usability is usable safely, effectively, easily.
 Usability engingeering is a field that is concerned with the usability of things, especially with human-computer interfaces.
 Perhaps the most well-known advocate/export for usability is Nielsen.
 A think-aloud protocol has users do a certain task and say whatever comes to mind as they are doing them.
+
+### responsive design
+
+responsive (web) design is (esp. web) design that adjusts to work {{c1::on a variety of different devices}}
+progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and {{c1::then building on top of that for other targets}}
+Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but {{c1::falls back on a good-enough experience}}
+progressive enhancement <-> graceful degradation
+Mobile first is building the mobile site first (and expanding on that for desktop users)
 
 ## text markup across languages
 
@@ -3447,6 +3466,11 @@ In general, when channel is specified, assume it is done to each channel.
 normal|use alpha compositing
 multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
 screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
+
+### image rendering
+
+Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
+The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
 
 # data storage
 
@@ -3761,6 +3785,8 @@ Of /var/mail/ and /var/spool/mail, the semantics are the same, and thus one is m
 /var/crash/ contains crash dumps of the system
 /var/log|global log data
 /var/lock|global lock files (for mutexes)
+/var/lib data to maintain program state that doesn't have  a better directory to be in. 
+/var/lib state information is valid even after reboot.
 
 ###### /opt
 
@@ -3821,13 +3847,14 @@ Organization within /tmp is pretty hodgepodge.
 
 ###### /etc
 
-/etc contains confi files for all the programs that run on your Linux/Unix system
+/etc contains global config files for all the programs that run on your Linux/Unix system
 /etc/hosts
 /etc/motd|contains the message of the day
 /etc/machine-info contains machine metadata such as type of computer, deployment, location and pretty-printed hostname
 /etc/hostname contains the usesrs static hostname.
 hostnamectl administers the stuff in /etc/hostname and /etc/machine-info, i.e. all the hostnames and the machine metadata.
 hostname - show or set the system's host name
+Instead of /etc, some programs stored in /usr/local store their config in /usr/local/etc
 
 ###### /dev
 
@@ -3865,6 +3892,7 @@ e.g. /dev/sda1 or /dev/loop0p2
 ####### character device files
 
 /dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
+piping to `source /dev/stdin` executes the text as a command
 
 ##### Mac
 
@@ -3880,6 +3908,10 @@ dd   copying (similar to cat/cp) with some low-level options
 shred overwrites a file multiple times so it is difficult to recover, however this interacts badly with SSDs
 touch|create emtpy file
 mkdir|create empty directory
+cp|coping stuff
+
+rsync is an improved version of rcp and shares much the same general interface, which is still often used for incremental backups, even if local.
+
 
 ### files as binary
 
@@ -4777,6 +4809,14 @@ A Linux distribution is GNU/Linux plus a set of other stuff, which depends on th
 Android uses the Linux Kernel but not GNU or any of the other libraries.
 From {{c3::android}} {{c1::1.0}} until {{c2::9}}, {{c3::android}} versions had {{c4::sweets}}-based names, with each name {{c5::going one further in the alphabet}}
 
+###### WSL
+
+WSL = Windows Subsystem for Linux
+The Windows Subsystem for Linux is a Linux VM/compatibility layer for Windows
+The Windows Subsystem for Linux allows you to do things like run a shell environment of linux on windows, and even X11 applications
+To install the Windows Subsystem for linux, turn it on in the "Turn windows features on or off" dialog, then download the distro from the windows store
+The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, /mnt/d ...
+
 #### libraries & systems
 
 ##### linux
@@ -4957,7 +4997,7 @@ The unix philosophy says each program should do one thing well and be designed t
 -s|generally short for/equiv to --set
 -u|generally short for/equiv to --unset
 --dry-run|show what would happen withou changing anything
--a|show dotfiles
+-a|show dotfiles or archive mode = preserve various attributes & structures
 -E|use ERE instead of BRE (Only where applicable, obv)
 --lines|count/specify the number of lines
 
@@ -4970,7 +5010,6 @@ In general commands that do something from a source to a target (e.g. cp, mv) ha
 {{c1::}}
 -- normally ends the list of flag arguments and allows you to pass plain arguments
 
-Well-behaved shell programs take input from stdin (if there is data to operate on) and output to stdout (act as filters).
 
 ##### man
 
@@ -5301,8 +5340,6 @@ PID|Process ID
 
 ps|list of processes
 pstree|processes as a tree
-kill kills a process, given its PID
-killall kills a n processes, given a string that their name contains
 
 procs is a more fancy version of ps written in rust
 
@@ -5368,7 +5405,6 @@ The tty driver is passive, while it has fields and methods, they need to be call
 the tty driver seems to be the parent process of the session leader.
 stty administers the options for the tty driver.
 The tty driver is the thing that has all all the processes living in a terminal as descendants (?)
-The relevant foreground process will generally have its in/output connected to the tty driver.
 
 ###### physical terminals and terminal emulators
 
@@ -5411,7 +5447,8 @@ The thing that creates the pseudo terminal slave on the remote machine is sshd.
 In the past, many hardware/physical terminals might have been connected to one computer.
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
 Today, the system console is merely the device file /dev/console.
-In most modern systems /dev/console is merely a symlink to /dev/tty
+In most modern systems /dev/console is merely a symlink to /dev/tty (however it may also point at something else)
+In any case /dev/console and /dev/tty have different major numbers.
 
 ##### terminal window
 
@@ -5428,6 +5465,7 @@ Termux is a terminal window for android.
 ##### process interaction with terminals
 
 PGID|Process group ID
+SID|Session ID
 
 On unix, every process has a parent.
 A process group is a collection of one or more processes.
@@ -5436,11 +5474,25 @@ Processes may not migrate between sessions.
 
 To the terminal, the shell is just one more process running within it.
 
+ctty = controlling terminal (doesn't have to be a tty)
+A session has one controling terminal.
+all processes within a session inherit the controlling terminal via fork()
+Signals can only be sent by/via the controlling terminal and only to its forground process group.
+The relevant foreground process will have its in/output connected to the tty driver of the controlling terminal.
+Any session has exactly one foreground process groups, all other process groups are in the background.
+Each session is managed by a session leader.
+the shell is the session leader, and is always the process group leader of its process group
+The session leader updates the tty driver and does some other admin stuff, e.g. creating new porcess groups for pipelines.
+for the process group leader, PGID == PID
+for the session leader, SID == PGID == PID
+
+
 ##### signals
 
 signals allow the kernel to communicate asynchronously with a process (group).
 The thing that is signalled when being singalled from a terminal is always an entire process group.
 In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
+signal names are all-caps and start SIG.
 In a terminal, any input, including stuff such as ^Z gets sent to the tty driver (or maybe the line discipline - I'm not quite sure, and people seem to be disagreeing). 
 For some key combinations, such as ^Z, the tty driver will not transmit the input, but instead turn this into a signal and send this to the foreground process group.
 For some key combinations, such as ^D, the tty driver will not transmit the input, but instead turn this into a different character and transmit this instead.
@@ -5452,6 +5504,10 @@ You can change which ^<char> the terminal driver handles how via stty.
 ^Z|SIGTSTP|tty driver
 ^D|EOT/EOF|tty driver
 ^L|FF|processs|often interpreted as 'clear the screen' (shells) or 'redraw the screen' (curses)
+
+kill sends a signal to a process, given its PID
+killall sends a signal to a n processes, given a string that their name contains
+by defaut, kill and killall send SIGTERM
 
 ##### appearance
 
@@ -5465,15 +5521,28 @@ There are a number of shell commands that nevertheless still are concerned with 
 
 fgconsole   get the number of the current tty
 fgconsole --next-avaliable   get next unallocated vt
+openvt|run a program on the next free vt.
 deallocvt   remove unused virtual terminals
 chvt N   change to ttyN
 
 ###### any terminal 
 
+the who utility displays all active terminal sessions and for each the users logged into them, datetime of login, and hostname if not local.
+    sam$ who
+    sam      console  Dec  4 01:44 
+    sam      ttys002  Jan  9 12:34 
+    sam      ttys007  Jan 24 23:26 
+w is an extended version of who, which shows everthing who does, plus what is currently running in the terminal and the time since the user last typed anything. w also shows general system stats: time of day, uptime, amount of users logged in, and load averages.
+    sam$ w
+    9:10  up 52 days,  7:26, 3 users, load averages: 2.10 2.05 2.01
+    USER     TTY      FROM              LOGIN@  IDLE WHAT
+    sam      console  -                04Dec21 52days -
+    sam      s002     -                09Jan22  3:34 -bas
+    sam      s007     -                Mon23    9:41 -bas
 
 #### shell
 
-the shell is typically the foreground process in a given terminal, buty may be the background process e.g. if we're using a TUI.
+the shell is typically the foreground process in a given terminal, but may be the background process e.g. if we're using a TUI.
 The shell runs in the foreground of a terminal if its being used interactively.
 The shell is a special kind of program.
 The shell is the interpreter that executes the commands.
@@ -5527,7 +5596,7 @@ dirs +/-<n>|display the nth directory counting from the start/end
 pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
 popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
 
-##### Prepopulated shell variables
+##### Prepopulated environment variables
 
 PWD|current directory
 OLDPWD|directory before last pwd
@@ -5539,6 +5608,17 @@ EDITOR and VISUAL are shell environement variables {{c1::setting the default edi
 PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
+
+command prompt is often just shortened to prompt.
+The command prompt is one or more characters indicating the command-line is ready to accept input.
+The PS<n> environment variables set the command promt in different circumstances.
+PS<n> exist from 1-4.
+PS1|default command prompt
+PS2|prompt for following lines for multiline commands
+PS3|options for `select`
+PS4|execution of shell script debugging trace (whatever that is)
+Bash additionally executes the content of the PROMPT_COMMAND just before displaying the PS1 variable.
+for PS<n>, ash supports a set of \ initiated special escape sequences for things such as the time, hostname, number of current jobs etc.
 
 ##### login shell
 
@@ -5792,6 +5872,8 @@ wildcard|matches
 [aml]   one of the characters a, m, l
 [a-m]   one character in range of characters a-m
 
+to activate bash wildcards using (), you have to enable extglob with shopt
+
 .gitignore uses a similar syntax to globbing
 
 ####### Quote removal
@@ -5817,6 +5899,7 @@ In a general sense, a {{c8::filter}} {{c9::takes some input}}, {{c10::transforms
 In shell contexts, filters are combined with anonymous pipes.
 Multiple filters combinded by anonymous pipes are a pipeline.
 In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
+Well-behaved programs should operate as filters inf possible.
 |& is the same as |, but it also outputs its standard error thrugh the pipe.
 While they are often called merely pipes, the pipes in pipelines are actually anonymous pipes.
 anonymous pipes <-> named pipes.
@@ -6573,9 +6656,10 @@ By default, HTTP is stateless, ergo technologies such as cookies exist to enable
 ######## CDN
 
 CDN = content delivery network or content distribution network
-A CDN, is a geographically distributed network of proxy servers and their data centers. 
+A CDN is a geographically distributed network of servers. 
 The goal of a CDN is to provide high availability and performance by distributing the service spatially relative to end users.
-unpkg is a free &amp; open source CDN for npm packages
+unpkg|FOSS|npm pacakges
+jsdelivr|FOSS|different platforms
 
 ####### telnet/ssh
 
@@ -6591,7 +6675,7 @@ In doing various things on remote hosts, SSh has replaced the various berkeley r
 Specifically, to copy data between remote hosts, the scp command running over SSH has replaced rcp.
 The berkeley r-commands, telnet and now SSH all have a client-server architecture.
 
-SSH allows using a short user@hostname form.
+SSH-commands allows using a short user@hostname form isntead of a full URL.
 scp is cp (same syntax etc.) but remotely using SSH.
 For scp, when using user@hostname, add the file with :filename to the end\
 
@@ -6991,9 +7075,16 @@ A web site is a collection of web pages, generally one that share a domain name/
 
 ###### performance
 
+####### minifcation
+
+{{c1::Minifying}} is {{c2::removing unnecessary characteristics}} (e.g. {{c2::longer names, whitespace}}) from {{c3::source code}} to {{c4::reduce size}}
+{{c1::minified files}} are commmonly indicated by {{c2::.min(.whatever)}}
+
+####### media compression
+
 Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
 
-Image minification tools
+Image compression tools
 |GUI|CLI|API|other
 imageoptim|y|y|y
 squoosh|web|y|n
@@ -10145,7 +10236,9 @@ $Something that happens during compiling   compile-time $something
 A compiler translates one programming language into another in one step before execution.
 Most commonly, a compiler translates a programming language into machine code/assembler.
 An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
-JIT
+JIT = Just in time (compilation)
+frequently when using JIT as a first step the code is compiled to bytecode
+when using JIT, the code(/bytecode) is initially executed by an interpreter, but there is a monitor/profiler that constantly analyizes the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code, and then compiles this on the fly.
 
 #### Transpiling
 
@@ -10222,8 +10315,9 @@ Python bytecode files produced by CPython are .pyc files.
 
 #### JS
 
-JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.
-The chrominum javascript engine is v8, d8 is the developer shell for v8
+JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.chromium|v8
+firefox|spidermonkey
+d8 is the developer shell for v8
 
 ### document start/end indicators
 
@@ -10506,7 +10600,14 @@ The package format for python format .whl ('wheel')
 apt is the package manager for Ubuntu.
 In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
 PPA = Personal Package Archive
-PPAs are repositories for apt pacakges that contain packages not dealt with by the official distro maintainers.
+apt can interact with the four official ubuntu repositories, with PPAs, or theoretically also with third-party repositories
+PPAs are repositiories in the conventional sense, but are distinguished by ubuntu from repositories proper in that they are repositories of a single developer published via launchpad (which means the dev doesn't need their own server).
+The four types of offical ubuntu repositories are main, universe, restricted and multiverse.
+main|canonical-supported FOSS
+universe|community maintained FOSS
+restricted|proprietary drivers
+multiverse|Software restricted by copyright or legal issues
+At least some of the repositories of ubuntu are only updated on OS updates, but I have no idea which ones.
 to add/remove other repositories with apt use add-apt-repository (--remove for removing)
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
