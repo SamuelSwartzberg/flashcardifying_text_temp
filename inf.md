@@ -3634,6 +3634,10 @@ A flat file system is a file system with no {{c1::subdirectories}}
 Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
 Even non-case-sensitive file systems are almost always case-preserving.
 fsck checks/repairs a linux filesystem.
+FUSE = Filesystem in userspace
+FUSE  is system that allows users to create their own filesystems without editing kernel code
+FUSE was originally developed for linux, but has been ported to other OSs such as win or mac
+fuse is configured in /etc/fuse.conf
 
 #### mounting
 
@@ -3679,7 +3683,10 @@ cd|move to specified directory
 cd without an argument moves back to your home directory
 cd - moves back to previous directory (not parent directory)
 
+file browser = file manager
+a file manager/browser is a program that provides an user interface for managing files and folders.
 mc ("midnight commander"), nnn are TUI file browsers.
+Nautilus is file manager for GNOME.
 
 ##### information
 
@@ -4854,6 +4861,8 @@ What Desktop Environment you selected from the display manager (might be limited
 ######## CLI
 
 xdotool allows automation of X windows
+xdpyinfo gets info about an x server
+xwininfo gets information about open windows
 xclip allows interaction with the X clipboard
 
 ###### systemd
@@ -4879,6 +4888,7 @@ systemd deals with system units.
 A systemd unit represents any kind of system resource.
 systemd units contain dependencies to tell us what we need to load first.
 Systemd units end .unittype.
+an instance of a systemd unit is denoted by <instance-name>@<unitname>.<unittype>
 Systemd units are stored in unit files.
 
 .timer   timed functionality similar to cron
@@ -4918,6 +4928,9 @@ list-sockets|list sockets and what happens
 list-jobs|list active systemd jobs
 list-units|list all units
 list-unit-files|list unit files
+
+when using systemctl, if not specifying a suffix, it will assume .service
+when using systemctl, for mount/device operations, besides using .mount and .device names,  you can use the respective paths (e.g. /dev/sda2)
 
 loginctl controls the systemd login manager
 
@@ -5266,6 +5279,7 @@ wmctrl   Manage an X window manager
 
 <code>shutdown</code>|shutting your system down
 reboot|restart your computer
+shutdown{ <option>}[ <shudown-time>][ <wall-message>]
 
 caffeinate creates assertions to alter system sleep behavior. 
 If no assertion flags are specified, caffeinate creates an assertion to prevent idle sleep.  
@@ -6003,6 +6017,11 @@ sudo usually caches the entered credentials for a short while.
 The su utility requests appropriate user credentials and switches to that user ID (the default user is the superuser).  A shell is then executed.
 su = substitute (in the past super) user
 sudo = substitute (in the past super) user do
+
+##### polkit
+
+polkit is a toolkit to allow finer-grained control than just running sudo.
+Polkit defines {{c1::actions}}, {{c2::who can use them (group/user)}}, and {{c3::under which circumstances}}.
 
 ### projects
 
