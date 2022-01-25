@@ -2840,8 +2840,6 @@ Keyboard keys that maintain a quasimode are shift, alt, control, option....
 
 #### text
 
-##### keyboards
-
 ###### local variants
 
 Keyboards are often identified based on {{c1::their first few keys on the top letter row}}
@@ -2852,6 +2850,17 @@ AZERTY|fr
 Between english and german keyboards, the only difference in actual letters in that z and y are flipped.
 
 strg   ctrl
+
+###### modes
+
+Lock keys are keys that enter/exit a mode.
+The insert key is a lock key that switches between insert and overtype mode.
+in the 2020s, insert mode is common, overtype is barely used.
+In overtype mode, typing replaces characters to the right
+In insert mode, typing moves the characters in the right further to the right.
+
+The cursor is reasonably wide   overtype mode
+The cursor is reasonably narrow   insert mode (the kind of thing that the ins key changes)
 
 ###### types of keys
 
@@ -2875,10 +2884,6 @@ US keyboards typically have two normal alt keys.
 European/international keyboards typcially have one alt and one alt gr key.
 The mac option key has functionality of both the alt and alt gr keys: it can be used as a key in key command like alt, but can also produce additional characters like alt gr.
 Due to historical reasons, emacs used to use the meta key as a modifier, but later switched to alt. However, it kept the label 'M' for this modifier key.
-
-####### lock keys
-
-Lock keys are keys that enter/exit a mode.
 
 ####### delete/backspace
 
@@ -5286,11 +5291,10 @@ On unix, a process is the instance that has its own heap.
 
 #### process relationshps
 
+IPC|inter-process communication.
+
 PPID|Parent Process ID
 PID|Process ID
-PGID|Process group ID
-
-On unix, every process has a parent.
 
 
 #### process management
@@ -5327,14 +5331,6 @@ The names of daemons generally end with d.
 true|do nothing, sucessfully (exits 0)
 false|do nothing, unsuccessfully (exit non-0)
 
-#### process relationships
-
-A process group is a group of one or more processes.
-
-A session is a collection of process groups.
-
-IPC|inter-process communication.
-
 ### terminal system
 
 #### job control
@@ -5351,10 +5347,18 @@ jobs|show processes running in the background
 
 #### terminal
 
-A terminal may be a physical/hardware terminal, a terminal emulator = virtual terminal/console, or a terminal window.
+A terminal may be a physical/hardware terminal, a virtual terminal/console, or a terminal window.
+/dev/tty represents the current terminal, regardless of what kind of terminal it is (hardware, virtual, etc.)
+the tty command tells us which device file is implementing the current terminal
+The default size in many cases for {{c3::terminal windows}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
+
+##### terminal architecture
+
+<img src="file://~/Downloads/terminalsys.svg">
+
 A physical terminal is connected via cables to an UART driver.
-drivers for screen, keyboard etc. are connected to a terminal emulator (not a window).
-The UART driver or terminal emulator are connected to the line discipline.
+screen, keyboard etc. are connected via drivers to a virtual terminal (not a window).
+The UART driver or virtual terminal are connected to the line discipline.
 The line discipline may be disabled, in which case the characters are sent directly and instantly to the process, the so called raw mode.
 cooked/canonical mode is when the line discipline is enabled, which means that text is only sent to the application after a newline is sent.
 cooked = canonical mode
@@ -5362,79 +5366,102 @@ The line discipline is typically disabled for TUI applications or similar and fo
 the line discipline is connected to the tty driver.
 The tty driver is passive, while it has fields and methods, they need to be called from outside, e.g. via signals.
 the tty driver seems to be the parent process of the session leader.
+stty administers the options for the tty driver.
+The tty driver is the thing that has all all the processes living in a terminal as descendants (?)
+The relevant foreground process will generally have its in/output connected to the tty driver.
 
-To the terminal, the shell is just one more process running within it.
+###### physical terminals and terminal emulators
 
-Each physical terminal would have been its own separate thing, and so each terminal emulator is also its completely separate thing.
-terminal emulators are represented by /dev/tty<n> files
-terminal emulators are the things that are most often called ttys.
-Terminal emulators may also be called virtual terminals/consoles, mainly in contrast to physical terminals.
+Terminal emulator is properly a synonym for virtual terminal/console, though sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage. Nevertheless, I wil use virtual terminal for this to avoid ambiguity. 
 virtual terminal = virtual console.
 vt/vc is short for virtual terminal/console.
-proper terminal emulators don't run within a GUI, but take over the whole screen (are the shell themselves, don't run within a shell)
+Virtual terminals are realized by a /dev/tty<n> file.
 /dev/tty<n> files are provided by the kernel.
-/dev/tty0 represents the current controlling tty (virtual terminal).
-When in a GUI, /dev/tty0 may be the terminal emulator the window server is running in.
+Hardware terminals are realized by /dev/ttyS<n> files (I think)
+tty may be a synonym for virtual terminal (since all virtual terminals are realized via /dev/tty<n>), or as a synonym for any non-pseudo-terminal terminal.
+Each physical terminal would have been its own separate thing, and so each virtual terminal is also its completely separate thing.
+Virtual terminals occupy the whole screen, they decidedly don't live within a GUI.
+/dev/tty0 represents the current controlling virtual terminal.
+When in a GUI, /dev/tty0 may be the virtual terminal the window server is running in.
 On linux, pressing ctrl + alt + f<number> switches to tty<number>
-Linux typically starts with 6 virtual consoles, and then one additional one (tty7) to run the window manager in.
+In linux, the window manager lives within a virtual terminal.
+Linux typically starts with 6 virtual ternubaks, and then one additional one (tty7) to run the window manager in.
+ttys (physical terminals and virtual terminals) are initialized by `getty`, which mainly calls `login`.
 
-/dev/tty represents the current terminal, regardless of what kind of terminal it is (hardware, virtual, etc.)
+each /dev/tty<n> has a corresponding /dev/vcs<n> (including /dev/tty0, which means that /dev/vcs0 corresponds to the memory of the current virtual terminal)
+the /dev/vcs<n> contains what is visible on the screen of a /dev/tty<n>
+
+###### pseudo terminals
+
+A pseudo-terminal consists of two device files, a master file and a slave file.
+In a pseudo-terminal, a terminal window such as xterm (or sth like ssh) replaces the virtual terminal. 
+In a pseudo-terminal, instead of being connected directly to the line discipline, the thing replacing the virtual terminal is connected to the pseudo-terminal master device file. 
+The kernel links the pseudo-terminal master device file (ggf. filtering through the line discipline) to the pseudo-terminal slave device.
+The link between pseudo-terminal master and pseudo-terminal slave is full duplex.
+The pseudo-terminal slave fulfilles the role that the tty driver would normally, e.g. holding on to processes.
+If you input something e.g. to a terminal window, it is written to the pseudo-terminal master device, which is transferred to the pseuod-terminal slave, which redirects it to the relevant process. 
+the file /dev/ptmx is the pseudo terminal master multiplexer, which spawns new pseudo terminals.
+Opening /dev/ptmx gives you a file descriptor for the master device and spawns a slave device in /dev/pts.
+/dev/pts/<n> represents a pseudo terminal slave.
+When sshing, the pseudo terminal master device is connected to your terminal/terminal window/virtual terminal, but the pseudo terminal slave is instead on the remote machine.
+The thing that creates the pseudo terminal slave on the remote machine is sshd.
+
+###### system console
 
 In the past, many hardware/physical terminals might have been connected to one computer.
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
 Today, the system console is merely the device file /dev/console.
 In most modern systems /dev/console is merely a symlink to /dev/tty
 
-the tty command tells us which device file is implementing the current terminal
+##### terminal window
 
-sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage.
-
-The default size in many cases for {{c3::terminal windows}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
-
-stty administers the options for the tty driver.
-
-##### signals
-
-signals allow the kernel to communicate asynchronously with a process.
-In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
-In a terminal, any input, including stuff such as ^Z gets sent to the tty driver (or maybe the line discipline - I'm not quite sure, and people seem to be disagreeing). 
-For some key combinations, such as ^Z, the tty driver will not transmit the input, but instead turn this into a signal and send this to the foreground process group.
-For some key combinations, such as ^D, the tty driver will not transmit the input, but instead turn this into a different character and transmit this instead.
-Other key combinations, including some ^<char> combinations may merely be passed on to the application.
-Ergo some ^<char> combinations may always send the same signal (but leave it up to the application how to respond to the signal), some ^<char> combinations may send a different character (which will be treated by that application as that characer), and some ^<char> combinations will just send ^<char>, which the application may handle if it so chooses.
-You can change which ^<char> the terminal driver handles how via stty.
-^C|SIGINT|tty
-^\|SIGQUIT|tty
-^Z|SIGTSTP|tty
-^D|EOT/EOF|tty
-^L|FF|applications|often interpreted as 'clear the screen' (shells) or 'redraw the screen' (curses)
-
-##### appearance
-
-Things such as color and cursor movement in the terminal are implemented via control characters.
-
-##### pseudo terminals
-
-pseudo-terminals are terminals which are simulated within environments, especially within some kind of terminal.
-A terminal window must be one level of emulation deeper than a terminal emulator, since it lives in a GUI which in linux at least itself lives within a terminal emulator.
-Termux is a terminal window for android.
-
-###### terminal window
-
-terminal windows are generally connected to pseudo-terminals
+A terminal window must be one level of emulation deeper than a virtual terminal, since it lives in a GUI which in linux at least itself lives within a virtual terminal.
 A terminal emulated within a GUI is known as a terminal window
 Alternative terminal window (mac)|iTerm2
 xterm is the classic terminal window for the X window system.
 most terminal windows are based of xterm
 the default terminal window for gnome is gnome-terminal.
 all the various terminal windows generally have a command of the same name to launch them/specify options
-most terminal emulators take the -e argument to execute the command in the newly opened terminal window.
+most terminal windows take the -e argument to execute the command in the newly opened terminal window.
+Termux is a terminal window for android.
+
+##### process interaction with terminals
+
+PGID|Process group ID
+
+On unix, every process has a parent.
+A process group is a collection of one or more processes.
+A session is a collection of one or more process groups.
+Processes may not migrate between sessions.
+
+To the terminal, the shell is just one more process running within it.
+
+##### signals
+
+signals allow the kernel to communicate asynchronously with a process (group).
+The thing that is signalled when being singalled from a terminal is always an entire process group.
+In the context of terminals, signals may be sent by/via TTY driver or some other part of the terminal subsystem.
+In a terminal, any input, including stuff such as ^Z gets sent to the tty driver (or maybe the line discipline - I'm not quite sure, and people seem to be disagreeing). 
+For some key combinations, such as ^Z, the tty driver will not transmit the input, but instead turn this into a signal and send this to the foreground process group.
+For some key combinations, such as ^D, the tty driver will not transmit the input, but instead turn this into a different character and transmit this instead.
+Other key combinations, including some ^<char> combinations may merely be passed on to the process.
+Ergo some ^<char> combinations may always send the same signal (but leave it up to the process how to respond to the signal), some ^<char> combinations may send a different character (which will be treated by that process as that characer), and some ^<char> combinations will just send ^<char>, which the process may handle if it so chooses.
+You can change which ^<char> the terminal driver handles how via stty.
+^C|SIGINT|tty  driver
+^\|SIGQUIT|tty driver
+^Z|SIGTSTP|tty driver
+^D|EOT/EOF|tty driver
+^L|FF|processs|often interpreted as 'clear the screen' (shells) or 'redraw the screen' (curses)
+
+##### appearance
+
+Things such as color and cursor movement in the terminal are implemented via control characters.
 
 ##### shell commands for terminal management
 
 There are a number of shell commands that nevertheless still are concerned with terminals, and not with shells
 
-###### terminal emulator
+###### virtual terminal
 
 fgconsole   get the number of the current tty
 fgconsole --next-avaliable   get next unallocated vt
@@ -7009,6 +7036,14 @@ CLS  Cumulative Layout Shift
 FCP  First Contentful Paint
 FID  First Input Delay
 LCP  Largest contentful paint
+
+##### infrastructure
+
+###### clients
+
+A thin client is a low-performance computer that mainly exists to connect with a server, which handles most of the computing & storage.
+A zero client is a thin client driven to extremes, so that it has no local storage and barely any computing ability of its own.
+a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
 
 # applications
 
@@ -10687,7 +10722,7 @@ hexadecimal
 
 ## text encoding
 
-Text encodings (simplified): Morse -(early 1900s)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+Text encodings (simplified): Morse -(end of the 19th century)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
 
 ### Morse
 
@@ -10707,7 +10742,11 @@ morse-code-sentence ::= <morse-code-word>{<word-space><morse-code-word>}
 morse-code-word ::= <morse-code-character>{<character-space><morse-code-character>}
 morse-code-character ::= (<dot>|<dash>)<dd-space>
 
+### baudot
 
+the baudot(-murray) code was a 5-bit binary encoding.
+the baudot(-murray) code was later extended to 6-bit (ish) via a FIGS (figure shift character).
+With the baudot murray code came the change to punched tape.
 
 ### ASCII
 
