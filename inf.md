@@ -2810,13 +2810,14 @@ booru: image site with foksonomical tags
 boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
 Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
-<img class="c2-f c1-b" src="sm_2021-10-19--03-12-32-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-11-46-screenshot.jpg"><img class="c2-f c1-b" src="sm_2021-10-19--03-10-58-screenshot.jpg">
+<img src="sm_2021-10-19--03-12-32-screenshot.jpg"><img src="sm_2021-10-19--03-11-46-screenshot.jpg"><img src="sm_2021-10-19--03-10-58-screenshot.jpg">
 
 # HCI
 
 HCI = Human Computer Interaction/Interfaces
 The set of ways a human can interact with a computer   Interaction styles
 WYSIWYG   What you see is what you get
+the problem with the term 'intuitive' in HCI is that to a certain extent, everything is learned.
 
 ## IO
 
@@ -2910,6 +2911,21 @@ e.g. cmd k then m to select the document language in VSCode
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+######## edit history
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::undo))</td> <td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>z</kbd>))</td></tr>
+<tr><td>((c:3;::redo))</td> <td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 
 ######## search 
 
@@ -3176,11 +3192,20 @@ Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now de
 
 ## user experience
 
+user experience is (the design of) the experience of an user interacting with something.
+
 ### waiting
 
 Waiting is less frustrating when there is an indication of progress and transparancy of how the progress relates to the whole (e.g. Kayak.com showing cheaper prices trundling in).
 Jason Farman (Delayed Response) argues that what really matters about if we leave a waiting situation satisified is if we waited less than we expected, rather than the whole wait time.
 The fact that our expectations are the thing that determines our assesment of waiting and progress bars has given rise to the progress bar that starts out slow and then speeds up towards the end (no matter if this is a correct interpretation)
+
+## usability
+
+Something that has high usability is usable safely, effectively, easily.
+Usability engingeering is a field that is concerned with the usability of things, especially with human-computer interfaces.
+Perhaps the most well-known advocate/export for usability is Nielsen.
+A think-aloud protocol has users do a certain task and say whatever comes to mind as they are doing them.
 
 ## text markup across languages
 
@@ -3479,14 +3504,14 @@ secondary -> primary memory|paged/swapped in
 
 
 
-### relation to CPU
+### relation to processor
 
-The difference between primary and secondary memory is that the CPU can address primary memory directly.
+The difference between primary and secondary memory is that the processor can address primary memory directly.
 
 #### primary memory/storage
 
 The terms primary storage/memory, internal storage/memory, and main storage/memory are often used interchangeably.
-As I will use the term, primary memory consists of CPU Registers and Cache as well as main memory.
+As I will use the term, primary memory consists of CPU core Registers and Cache as well as main memory.
 Both registers and cache are directly on the chip.
 Nonvolatile RAM   NVRAM
 SRAM  static random access memory
@@ -3501,7 +3526,7 @@ principle of spatial locality = Memory that is close (to the currently accessed 
 principle of spatial locality = Memory that has recently been referenced will be referenced again soon.
 Memory closer to the processor is faster but more expensive and smaller, memory further away from the processor is slower but cheaper and larger.
 memory speed:
-registers > cpu cache > main memory > secondary memory
+registers > processor cache > main memory > secondary memory
 
 #### secondary memory
 
@@ -3853,6 +3878,8 @@ mkdir|create empty directory
 
 ### files as binary
 
+A hex editor is an editor that allows you to edit the fundamental binary data of a file displayed as hex
+
 od|output files in octal, but also in other repreesentations
 od -x|hex dump
 
@@ -4068,9 +4095,45 @@ VTODO   Task/Todo
 
 ###### dictionary-based
 
+####### TOML
+
+<br>---<br>
+  §§ in ((c:1;::TOML)), ((c:2;::the top-level table)) starts at ((c:3;::the beginning of the document)) and ends before/at ((c:4;::the first table header)) §<br>
+§§ in ((c:5;::TOML)), a ((c:6;::header)) looks like ((c:7;::[foo])) §<br>
+§§ in TOML, ((c:8;::a header (on its own line))) ((c:9;::starts a table)) TOML: ((c:10;::standard tables)) continue until ((c:11;::the next table (or EOF))) §<br>
+§§ to ((c:12;::create subtables)) via the standard table syntax, you use ((c:13;::dot notation within the header)). §<br>
+§§ to create ((c:14;::an array of)) ((c:15;::standard tables,)) you ((c:16;::surround the header with double braces like so: [[header]])) §<br>
+§§ TOML also supports ((c:17;::JSON style tables)), (though ((c:18;::they use = instead of :))), but only if ((c:19;::they do not contain a newline)). §<br>
+§§ TOML: ((c:20;::fruit.apple.color = "red")) produces ((c:21;::a table named fruit that has a table named apple that has a key color with the value red)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
+
 ####### YAML
 
 YAML|YAML Ain't Markup Language
+
+######## Anchors & merge keys
+
+<br>---<br>
+  §§ YAML ((c:7;::anchors)) ((c:8;::save a reference to a value)), which ((c:9;::then can be included in a different location)) via ((c:10;::an alias.)) §<br>
+§§ ((c:11;::A merge key)) ((c:12;::merges the values of an anchor)) ((c:13;::into the current leve))l, thus allowing ((c:14;::overwriting some of the values if necessary)). §<br>
+§§ A YAML ((c:15;::alias)) goe((c:16;::s where a value would normally)) §<br>
+§§ A YAML ((c:17;::anchor)) goes ((c:18;::between key and value)) §<br>
+§§ A YAML ((c:19;::merge key)) goes ((c:20;::instead of a key)), and ((c:21;::takes an alias as a value)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::&amp;foo))</td> <td>((c:2;::anchor))</td></tr>
+<tr><td>((c:3;::*foo))</td> <td>((c:4;::alias))</td></tr>
+<tr><td>((c:5;::&lt;&lt;))</td> <td>((c:6;::Merge key))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
 ####### JSON
 
@@ -4263,23 +4326,112 @@ VCS|Version Control System
 
 ## hardware only
 
-### circuits
+### electrical connectors
+
+((h:all;::<img src="Connectors.jpg">))((h:all;::<img src="1280px-ConnectorSymbols.svg.png">))§§ An ((c:1;::electrical connector)) is a device that ((c:2;::joins electric conductors)) ((c:3;::mechanically)) and ((c:4;::electrically)). §<br>
+§§ In ((c:5;::electrical connectors)), the ((c:6;::mechanical connection)) is ((c:7;::to allow the electrical connecton to stay in place)) and thus ((c:8;::an electrical circuit to be created)). §<br>
+§§ Most ((c:9;::electrical connectors)) have ((c:10;::a gender (male or female :( ))) §<br>
+§§ An ((c:20;::electrical connector)) that is ((c:21;::a protusion)) is ((c:22;::male)). §<br>
+§§ An ((c:23;::electrical connector)) that is ((c:24;::a receptacle/indentation)) is ((c:25;::female)). §<br>
+§§ An ((c:11;::electrical connector)) with ((c:12;::male gender)) is also called ((c:13;::a plug.)) §<br>
+§§ An ((c:14;::electrical connector)) with ((c:15;::female gender)) is also called ((c:16;::a socket/jack)). §<br>
+§§ A ((c:17;::terminal)) is ((c:18;::the point where a conductor ends)). It may be ((c:19;::an electrical connector)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
+### transistor -> logic gate -> logic circut
+
+#### transistors
+
+A transistor has three terminals.
+In a transistor, if you apply power to two certain terminals, power can flow through two other terminals. (of course, between both of the sets of the terminals, one will be the same.
+
+((h:all;::<img src="sm_transistor-current-explanation.png">))
+BJT  Bipolar junction transistor
+The three terminals in a bipolar transistor are called {{c1::base}}, {{c2::collector}}, and {{c3::emitter}}.
+BJT are either PNP or NPN.
+NPN transistor  Negative Positive Negative transistor
+PNP transistor  Positive Negative Positive transistor
+for NPN transistors, applying power (at the base) allows the current to flow.
+for PNP transistors, applying negative/no power (at the base) allows the current to flow.
+For NPN BJT transistors, if you apply power to the base, it will flow to the emitter, allowing a stronger current to flow between collector and emitter.
+<img src="sm_tmpr_uvk0fj.png">
+
+<img src="sm_tmpadmp5k8t.png">
+The three terminals in a field-effect transistor (FET) transistor are called {{c1::gate}}, {{c2::source}}, and {{c3::drain}}.
+FET  Field-effect transistor
+MOSFET   metal–oxide–semiconductor field-effect transistor
+CMOS|Complementary metal–oxide–semiconductor
+MOSFET is the most common type of FET.
+most ICs that use MOSFETs are manufactured with CMOS
+
+today, most ICs are made with CMOS-manufactured MOSFETs
+
+#### logic gates
+
+Logic gates are made up of a few transistors in a specific arragnement (depending on the gate).
+
+XOR|<img src="sm_120px-XOR_ANSI_Labelled.svg.png">
+XNOR|<img src="sm_120px-XNOR_ANSI_Labelled.svg.png">
+OR|<img src="sm_120px-OR_ANSI_Labelled.svg.png">
+NOT|<img src="sm_120px-NOT_ANSI_Labelled.svg.png">
+NOR|<img src="sm_120px-NOR_ANSI_Labelled.svg.png">
+NAND|<img src="sm_120px-NAND_ANSI_Labelled.svg.png">
+AND|<img src="sm_120px-AND_ANSI_Labelled.svg.png">
+
+Either NAND or NOR gates could be used to create any possible logic circuit since they are functionally complete 
+Today, NAND is the most commonly used logic gate, since it's functionally complete and can be built with few trasnistors
+
+#### circuits
 
 A logic circuit consists of interconnected logic gates.
-A combinatorial logic circuit is one whose output only depends on its input.
+A combinatorial logic circuit is one whose output only¬ depends on its input.
 A sequential logic circut is one whose output depends on its input, and the previous state.
 
 ### processors
 
 #### architecture
 
-The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
-Modern CPUs are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
-
 In the VNA, the CPU, memory and IO are connected to/via the bus.
 <img src="sm_tmp_xpihn7q.png">
+In the (modern revisions of) von neumann architecture, the three buses are the {{c1::control bus}}, the {{c2::address bus}}, and the {{c3::data bus}}
+Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
+
+The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
+Modern processors are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
+
+#### electronics
+
+##### integrated & discrete circuits
+
+IC = integrated circuit
+an integrated circuit is a set of electronic circuit on a piece of semiconductor material.
+A chip is the piece of semiconductor material on which an integrated circuit is realized.
+Today, the chip is almost always made using silicon.
+The opposite of an integrated circuit is a discrete circuit.
+A discrete circuit is a 'traditional' circuit, i.e. a circuit made up of different parts.
+ICs are orders of magnitude faster, smaller, less power hungry, etc. than discrete circuits.
+
+##### processors
+
+A processor is any circuit that performs operations.
+A processor core is a self-contained processing unit.
+A processor can potentially consist of multiple processor cores.
+A microprocessor is a processor implemented on an IC.
+Almost all modern processors are microprorcessors.
+
+A SoC is a IC that doesn't just include the CPU, but also other components, such as the GPU, memory, radio modems, etc.
+As time has been progressing, more and more things have been moving onto the SoC.
+moore's law is the observation that the number of transistors in a IC doubles {{c1::every two years}}
 
 #### CPU
+
+CPU = central processing unit
+
+CPU is often used in three different senses: The whole unit executing instructions, potentially consisting of multiple CPU cores, a CPU core, or even the whole SOC, potentially containing the GPU, modems, etc.
+to differentiate, I will call CPUs in the sense of a self-contained processing unit CPU/processor cores.
+to differentiate, I will never call SOCs CPUs (if I can avoid it.).
+to differentiate, I will call the main processor, potentially consisting of multiple CPU cores, a CPU.
+A multi-core processor is when the chip contains multiple CPU cores.
 
 ##### registers
 
@@ -4310,6 +4462,7 @@ Instead of a single accumulator, modern processors generally have many registers
 
 ALU  Arithmetic logic unit
 https://upload.wikimedia.org/wikipedia/commons/0/0f/ALU_block.gif
+the ALU is a combinational logic circuit.
 The ALU performs arithmetic and bitwise operations.
 A basic ALU takes two imputs and returns an output, generally all of the word size of the encapsulating CPU.
 A basic ALU, besides its two inputs and an output, has a status flag input and output as well as an opcode input.
@@ -4323,20 +4476,20 @@ A full adder is like a half-adder, but also takes a carry-in.
 A half and a full-adder ouptuts an output of size 2 bit.
 Chaining full adders allow us to do arbitrary large binary addition.
 
-#### CU
+##### CU
 
 CU  Control Unit
 
 #### machine code & instruction set
 
-Assembly language is syntactic sugar for machine code.
+Assembly language is largely syntactic sugar for machine code.
 Machine code consists of machine language instructions.
-Machine code and thus machine language instructions are what run directly on the CPU, at least in the classical model.
+Machine code and thus machine language instructions are what run directly on the processor, at least in the classical model.
 In fact, by now, there is often a layer below machine code known as microcode.
 opcode is short for operation code
 Within a machine language, an instruction is defined by an opcode.
 Within a machine language, an instruction consists of the opcode it is defined by, plus zero or more operands.
-An instruction set architecture defines the instruction set plus a bunch of other CPU features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
+An instruction set architecture defines the instruction set plus a bunch of other processor features (such as registers, addressing, I/O) (however, the two terms are often also used interchangably)
 The instruction set is the set of operations a processor supports, which bit sequences represent which  machine language instructions, and how the arguments are organized.
 Depending on the instruction set, machine langauge instructions may all be the same length or not.
 In a general sense, a word is the fundamental unit used by a processor of a given ISA ≈ how many bits a PU may address at once.
@@ -4348,10 +4501,12 @@ what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the siz
 A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
 For a load-store architecture, all things being operated on must be in registers.
 
+The machine code of a program depends on the ISA, but also on other things about the computer (e.g. OS)
+
 ##### Instruction-level parallelism
 
 Instruction-level parallelism is the parallel execution of instructions of a single thread (thus it is different from concurrency).
-In general, the goal of instruction-level parallelism is to keep all of the CPU busy
+In general, the goal of instruction-level parallelism is to keep all of the processor busy
 fors of instruction-level parallelism include Instruction pipelining, Out-of-order execution + register renaming, speculative execution + branch prediction.
 Instruction pipelining attempts to keep every part of the processor busy with some instruction by dividing incoming instructions into a series of sequential steps (the eponymous "pipeline") performed by different processor units with different parts of instructions processed in parallel.
 Out-of-order execution executes instructions as resources are available, rather than the order in the program, if this is possible.
@@ -4361,7 +4516,7 @@ If compilers did not reuse registers, register renaming would not be necessary, 
 speculative execution is executing instructions before we know if they will be needed
 speculative execution is worthwhile if the cost of waiting until we know if the instructions will be needed to be executed is higher than the cost of speculatively executing.
 speculative execution is most commonly referred to in the case of instuction pipelining, but may also be performed in many higher-level tasks.
-speculative execution (in CPUs) is most often performed in the case of control flow, where branch prediction is often used to try and guess which branch is most likely.
+speculative execution (in processors) is most often performed in the case of control flow, where branch prediction is often used to try and guess which branch is most likely.
 
 ###### RISC instruciton pipelining
 
@@ -4369,7 +4524,7 @@ Instruction fetch > Instruction decode and register fetch > Execute > Memory acc
 
 ##### Hazards
 
-In CPUs, a hazard is when the next instruction cannot execute in the following cycle, or doing so would lead to an error.
+In processors, a hazard is when the next instruction cannot execute in the following cycle, or doing so would lead to an error.
 Data dependence is when an instruction depends on the data of the preceeding statement.
 Data hazards ocur when instructions exhibit data dependence modify data in different stages of a pipeline, potentially leading to race conditions.
 Three type of data hazards:
@@ -4407,7 +4562,7 @@ In general, a RISC ISA has 1 CPI, with fixed-length instructions.
 
 #### cache
 
-CPU caches are used to speed up memory access, which is especially important since CPU memory is orders of magnitude slower than processing speed.
+processor caches are used to speed up memory access, which is especially important since processor memory is orders of magnitude slower than processing speed.
 The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
 L1 cache is the fastest cache level, and it goes downwards from there
 Multi-level caches are caches that are composed of different cache levels.
@@ -4423,6 +4578,7 @@ A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the
 A clock signal is usually a square wave with a high and low state.
 In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
 {{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
+processors are (made of) synchronous circuits
 DDR  Double data rate
 {{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
 
@@ -4434,6 +4590,11 @@ DDR  Double data rate
 
 Why don't we just write programs in machine code/assembler?  extremely mühselig and error-prone
 Today, assembler/machine code is almost always generated by compilers/interpreters/etc.
+
+### scheduling
+
+scheduling is the action of assigning resources to perform tasks.
+In the context of processors, scheduling is the assigment of processor cores to execute threads.
 
 ## layering on hardware 
 
@@ -4557,6 +4718,23 @@ A DDoS attack is a DoS performed from many different sources.
 # OSs
 
 ## global
+
+### userland
+
+#### clipboard
+
+clipboard-cli is an npm package that exposes the command clipboard which works as a shell filter for the clipboard, copying or pasting as needed.
+
+### kernelland
+
+## windows
+
+### misc
+
+<br>---<br>
+  §§ Right-clicking the ((c:1;::windows start button)) brings up a ((c:2;::context menu)) with ((c:3;::a bunch of system tools)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ## *nix
 
@@ -4742,6 +4920,7 @@ fcitx-configtool allows managing fcitx graphically.
 
 most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
 
+The unix philosophy says each program should do one thing well and be designed to work together with other programs, most commonly by accepting text as IO.
 
 ##### common syntax considerations
 
@@ -4847,6 +5026,14 @@ L|Lap
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
 
+##### pass
+
+<code>pass</code> terminal-based password manager
+<code>pass</code> edit plaintext version of file  <code>pass edit somepassword</code>
+<code>pass</code> delete a password  <code>pass rm somepassword</code>
+<code>pass</code> command for listing the passwords  pass ls (or just pass)
+<code>pass</code> command for adding passwords  <code>pass insert/add</code>
+
 ##### misc
 
 cal/ncal display a mini ascii calendar
@@ -4903,6 +5090,24 @@ rev|reverse each line of a file ('horizontally\)
 
 The commands head and tail print the first/last few lines of a file.
 The amount of lines printed by head/tail defaults to 10
+
+##### pandoc
+
+Pandoc is a haskell-based powerful converter between text-based formats.
+By default, pandoc acts as a filter.
+Pandoc readers convert documents to an AST.
+Pandoc filters modify the AST.
+Pandoc writers convert its ASTs to a specific format.
+Only features supported by pandoc markdown are guaranteed to survive pandoc conversion
+
+The behavior of some of the readers and writers can be adjusted by enabling or disabling various extensions.
+for pandoc extensions, + enables it and - disables it.
+pandoc-format-specifier ::= <pandoc-format>{(+|-)<pandoc-extensions>}
+
+-s/--standalone produces valid standalone files such as HTML by adding header & footer material via a specified template.
+
+By default pandoc creates an output pdf by using latex as an intermediary, you can change this behavior with --pdf-engine.
+
 
 ##### generation
 
@@ -5127,6 +5332,8 @@ false|do nothing, unsuccessfully (exit non-0)
 A process group is a group of one or more processes.
 
 A session is a collection of process groups.
+
+IPC|inter-process communication.
 
 ### terminal system
 
@@ -5592,6 +5799,8 @@ pipes are simplex in direction.
 The default behavior in a pipe is for the writing and reading ends of a pipe is to exhibit blocking behavior. 
 When in a pipeline, the write file descriptor is connected to the stdout of the first process and the read file descriptor is connected to the stdin of the second process.
 
+When the second process reads from the buffer created by a pipe, this is called draining the pipe.
+
 ######## liquid (semantically appropriate)
 
 Liquid also features filters prominently to transform values, and also uses the pipe | as a separator.
@@ -5749,7 +5958,8 @@ full duplex|bidirectional, both simultaneously
 
 ## interfaces 
 
-An interface is a shared boundary across which information flows.
+At its most general interface is a shared boundary across which information flows.
+An interface specifies specific channels (endpoints, methods, ...) for the access of information.
 
 ### API
 
@@ -5775,6 +5985,7 @@ A polyfill is a shim for a browser API, which passes it through if available, an
 A protocol is a set of rules that allows transmitting messages via a medium.
 Protocols are often layered to produce a protocol stack.
 While the medium over which a message may be transferred for a protocol may be an actual medium, in protocol stacks the medium is merely a lower protocol.
+In protocol stacks, the only truly physical medium is the lowest layer.
 A message in any protocol typically consists of some headers/metadata and a payload.
 A protocol data unit is the fundamental unit a protocol transmits, i.e. its message.
 If a protocol is acting as a medium for a higher layer in a protocol stack, a service data unit is the payload of the protocol data unit of the current protocol, which IS the protocol data unit of the higher layer.
@@ -6667,9 +6878,11 @@ Loopback is the routing of signals/streams back to their source without intentio
 
 #### topologies
 
+The topology of a network is how its vertices are arranged.
 A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
 In a bus, everyone attached recieves the transmission.
-In a bus, only one entity can send at a time
+In a bus, only one entity can send at a time.
+Sometimes, bus is used to refer any connection between two points, even if it isn't a bus (this definition is nonsense)
 A daisy chain is a topology where devices are linked in a line or ring.
 
 <table>
@@ -7305,7 +7518,11 @@ GUID|Globally Unique Identifier
 UUID=GUID
 UUIDs/GUIDs are 128 bit long, which makes it very likely for them to be unique.
 
-### Name binding
+### name resolution
+
+name resolution is the associating of identifiers with the correct things (e.g. variables)
+
+#### Name binding
 
 Name binding is the association of entities with identifiers.
 For an identifier to reference something is to the identifier bound to that thing.
@@ -7313,7 +7530,14 @@ Binding is intimately connected with scoping, as scope determines which names bi
 static = early binding is name binding during compile-time
 dynamic = late binding is name binding during runtime
 
-name resolution is the associating of identifiers with the correct things (e.g. variables)
+#### namespaces
+
+a namespace is a context in which names are unique.
+Names within a namespace are sometimes called local names.
+a namespace itself generally has a name.
+Within a namespace, only the local name is needed to refer to a thing.
+Outside of the namespace, the namespace and the local name are needed to refer to the thing.
+In hierarchical namespaces, namespaces are nested.
 
 ### Scope
 
@@ -8184,7 +8408,7 @@ A cons list is a singly linked list constructed via nested ordered pairs.
 
 slower access O(n) vs O(1)
 more space consumption if no empty spaces in array due to pointers.
-Re: modern CPUs, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of CPU cache as well (priniple of spatial locality)
+Re: modern processors, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of processor cache as well (priniple of spatial locality)
 
 ##### Streams
 
@@ -8904,6 +9128,10 @@ JS's bind() method binds the first argument that it is passed to the this of the
 
 Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
 
+A process that is blocked is one that is waiting for some event, such as a resource becoming available or the completion of an I/O operation.
+A blocked process cannot do anything in the meantime.
+Asynchrony is a common way to deal with blocking.
+
 A promise is a proxy for a value that will eventually become available.
 In JS, a promise is an object
 You react to promises by calling the then() method on them.
@@ -9490,6 +9718,7 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 
 ##### JS
 
+Node.js was created in 2009.
 {{c1::Deno}} is a {{c2::perhaps-sucessor}} to {{c3::node}} by {{c4::the same creator}}.
 {{c5::Deno}} is wrtten in {{c1::rust}}, provides native {{c2::TS}} support, uses {{c3::ES}} modules, and {{c4::URLs}} for the location of dependencies
 
@@ -9820,6 +10049,7 @@ Concurrency is executing multiple things at the same time.
 
 ### multithreading
 
+A thread is the smallest sequence of instructions that can be independently managed by a scheduler.
 Threads can be divided into kernel and green/virtual/user threads.
 green thread = virtual thread = user thread.
 kernel threads are those managed by the kernel to be scheduled for some CPU time.
@@ -9964,6 +10194,24 @@ The chrominum javascript engine is v8, d8 is the developer shell for v8
 
 --- the file ... |YAML (but optional, merely allow multiple documents per file)
 
+## algorithms
+
+### complexity
+
+Computational complexity is the amount of resources necessary to run an algorithm.
+Computational complexity assumes the amount of resources to perform each operation are similar / average out.
+there are two types of computational complexity commonly used, depending on the case: worst-case and average-case.
+In general, if we only say 'complexity', worst case complexity is assumed.
+there are two types of computational complexity commonly used, depending on the resource: time and space
+Computational complexity is generally specified in Big O notation.
+Computational complexity is generally specified as a function of the input size n.
+Computational complexity/Big O notation only indicates orders of magnitude.
+
+O(1)   constant complexity/time|Accessing an element in an array
+O(n)   linear complexity/time|Iteratering over a one-dimensional array
+O(log n)   logarithmic time
+O(n<sup>2</sup>)   quadratic time
+
 # software engineering
 
 Software engineering is term where the definition is often fought over.
@@ -10063,7 +10311,7 @@ separation of mechanism and policy.
 ### methods
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
-In self-documenting code, identifiers indicate what the thing they are identifying does.
+In self-documenting code, identifiers indicate what the thing they are identifying is/does.
 
 ### generation
 
@@ -10442,6 +10690,24 @@ hexadecimal
 Text encodings (simplified): Morse -(early 1900s)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
 
 ### Morse
+
+The original morse code was meant for english speakers. 
+The morse code used today is an overhauled version of the original morse code called international/continental morse code.
+Morse code varies signal length to produce different units.
+In morse code, a space is signal absence.
+In morse code, signal presence may either be a dot or a dash.
+In morse code, length is measured relative to the dot length
+
+A dash   three dots
+A space (between words)   seven dots
+A space (between characters)   three dots
+A space (between dots/dashes)   one dot
+
+morse-code-sentence ::= <morse-code-word>{<word-space><morse-code-word>}
+morse-code-word ::= <morse-code-character>{<character-space><morse-code-character>}
+morse-code-character ::= (<dot>|<dash>)<dd-space>
+
+
 
 ### ASCII
 
