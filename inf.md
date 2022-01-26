@@ -291,7 +291,8 @@ The <link> HTML element specifies relationships between the current document and
 The rel attribute defines the relationship between a linked resource and the current document. Valid on <link>, <a>, <area>, and <form>, the supported values depend on the element on which the attribute is found.
 
 rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
-rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document.
+rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document, and thus doesn't confer some of your sites reputation onto the linked sites reputation.
+Comment sections may have rel=nofollow by default
 rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
 
 ###### <link>
@@ -304,6 +305,10 @@ link-sizes-values ::= any|(<size-spec>{ <size-spec>})
 size-spec ::= <width>(x|X)<height>
 
 the type attribute of <link> specifies the mime type of the resource; however this is generally omitted except for rel="icon"
+
+rel="alternate" indicates that the link is to an alternate version of your site, e.g. in a different language.
+if rel="alternate" is linking to a version in a different language, it should have a hreflang of whatever BCP 47 lang code
+rel="alternate" indicates a canonical URL for a page, useful if you have multiple urls for the same page and want crawlers etc. to use a specific one.
 
 ###### hyperlinks
 
@@ -990,6 +995,22 @@ for a PWA to be installable, you need to have the web app manifest (with require
 ### service workers
 
 {{c1::Workbox}} is a library that {{c2::bakes in a set of best practices}} and {{c3::removes the boilerplate}} every developer writes when working with {{c4::service workers}}.
+
+### wasm
+
+wasm = web assembly
+WebAssembly is a low-level assembly-like language with near-native performance.
+Most big compiled languages can compile to web-assembly.
+In essence, WebAssembly runs in a low-level virtual machine
+A WebAssembly binary is called a module
+A wasm Module itself is stateless, and uses a Memory and Table for state. 
+Together, a wasm module + memory + table are an Instance
+a wasm Table is a typed array of references (e.g. to functions) 
+a wasm Memory is a linear array of bytes used for storage
+
+wasm-bindgen for rust generates glue and polyfills things so that we can use a bunch of types of features that we couldn't otherwise.
+wasm-pack is a tool for helping integrating rust wasm with your webdev workflow.
+AssemblyScript is a TypeScript-based programming language that is compiled to WebAssembly.
 
 ### data fetching after the site has loaded
 
@@ -2869,6 +2890,7 @@ The cursor is reasonably narrow   insert mode (the kind of thing that the ins ke
 modifier keys are keys that maintain a quasimode.
 modifier keys that are found on any hardware keyboard as of 2020 are shift, ctrl, alt/option/altgr, win/cmd/linux equivalent.
 On small layout keyboards, the additional modifier key function is often present.
+the function key is often abbreviated fn.
 Windows and linux treat ctrl as their primary modifier key, while mac treats cmd as the primary modifier keys.
 Originally, super, meta and hyper keys were all dedicated modifier keys present on some keyboards.
 today, different linux distros treat meta or super as their equivalent to cmd/windows.
@@ -2889,6 +2911,103 @@ Due to historical reasons, emacs used to use the meta key as a modifier, but lat
 
 Delete key|Delete characters forwards (to the right)
 Backspace key|Delete characters backwards (to the left)
+
+####### navigation keys 
+
+navigation keys are keys that move the viewport or the cursor.
+
+######## pgupdown home end
+
+The ((c:6;::end, home and pgup/pgdown)) keys ((c:7;::move the cursor)) when ((c:8;::text-editing)), ((c:7;::and the view)) when ((c:8;::not)).
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Text-editing context</th>
+    </tr>
+    <tr>
+      <th>Key</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:16;::Home key))</td><td>((c:17;::Move the cursor to beginning of line))</td></tr>
+    <tr><td>((c:18;::End key))</td><td>((c:19;::Move the cursor to end of line))</td></tr>
+    <tr><td>((c:20;::Pg Up / Pg down))</td><td>((c:21;::Go up/down a page))</td></tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Non-text-editing context</th>
+    </tr>
+    <tr>
+      <th>Key</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:22;::Home key))</td><td>((c:23;::Go to beginning of document))</td></tr>
+    <tr><td>((c:24;::End key))</td><td>((c:25;::Go to end of document))</td></tr>
+    <tr><td>((c:26;::Pg Up / Pg down))</td><td>((c:27;::Go up/down a page))</td></tr>
+  </tbody>
+</table>
+
+§§ The ((c:9;::function key)) is used to ((c:10;::simulate home/end/pgup/pgdown)) via ((c:11;::the arrow keys)) on ((c:12;::smaller formfactors)). §<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Laptops and other small form factors</th>
+    </tr>
+    <tr>
+      <th>Is simulated by</th>
+      <th>Key combination</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:28;::Home key/End key))</td><td>((c:29;::fn left/right arrow))</td></tr>
+    <tr><td>((c:30;::Pg Up / Pg down))</td><td>((c:31;::fn + up/down arrow))</td></tr>
+  </tbody>
+</table>
+
+on ((c:13;::macOS)) ((c:14;::home, end, pgup, pgdown)) only ever ((c:15;::move the view.))</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>mac, instead of home, end, pgup, pgdown</th>
+    </tr>
+    <tr>
+      <th>Key</th>
+      <th>does</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:32;::cmd + left/right))</td><td>((c:33;::moves the cursor to the beginning/end of the line))</td></tr>
+    <tr><td>((c:34;::cmd + up/down))</td><td>((c:35;::oves the cursor to the beginning/end of the document))</td></tr>
+  </tbody>
+</table>
+
+######## navigation key combinations
+
+<table>
+  <thead>
+    <tr>
+      <th>Platform specific</th>
+    </tr>
+    <tr>
+      <th>Key</th>
+      <th>does</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:36;::alt + left/right))</td><td>((c:37;::go to beginning/end of word (mac)))</td></tr>
+    <tr><td>((c:38;::ctrl + up/down))</td><td>((c:39;::go to beginning/end of word (win/linux)))</td></tr>
+    <tr><td>((c:40;::alt + backspace/delete))</td><td>((c:41;::delete to beginning/end of word (mac)))</td></tr>
+    <tr><td>((c:42;::ctrl + backspace/delete))</td><td>((c:43;::delete to beginning/end of word (win/linux)))</td></tr>
+    <tr><td>((c:44;::cmd + backspace))</td><td>((c:45;::delete to beginning of line (mac)))</td></tr>
+  </tbody>
+</table>
 
 ###### key combinations & actions
 
@@ -3053,6 +3172,11 @@ The shell living within the terminal is interacted with via a CLI, but so does e
 A graphical shell/grapical user interface is a type of shell (in the wide sense) that allows accomplishing commands via interaction through visual elements.
 
 WIMP = Windows, icons, menus, pointer
+
+#### core concepts
+
+((h:a;::<img src="sm_220px-Webdesign_Viewport_Window_Screen.svg.png">))
+The viewport is the area (often rectangular) of a given thing that is currenty visible
 
 #### theming
 
@@ -3472,6 +3596,11 @@ screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
 The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
 
+## misc
+
+mentions indicate that a user is being addressed, often linking to that user and also sending a notification.
+On most platforms, mentions begin with @.
+
 # data storage
 
 ## memory
@@ -3643,6 +3772,7 @@ fuse is configured in /etc/fuse.conf
 
 mouting is associating a device with a location in the directory tree.
 /etc/fstab allows specifying default moun points for certain devices/partitions.
+/etc/fstab ensures that the same device will always be mounted inn the same way.
 mount and unmount are the commands to mount/unmount things in linux using sudo.
 mount may take both a device and a mountpoint.
 mount may take just a device or mountpoint, in which case it will try to mount this in the way specified in /etc/fstab.
@@ -3708,6 +3838,7 @@ exa is a reinplementation of ls in rust with more features and opinionated defau
 fzf is a shell filter which takes an input of a list of files, allows interactive fuzzy search and selection, and outputs the selection.
 
 du & dust estimate storage usage of files in current directory.
+<code>-d / --max-depth (for du) --depth (for dust)</code>   only go to the specified depth
 
 realpath gets the absolute path for a file name
 basename strips the path and suffix from a file name
@@ -3895,6 +4026,10 @@ for /dev/nvme<n>n<n>, the first <n> represents the index of the controller, the 
 <char> and <n> as indices are genrally assigned based on which was discovered first
 to represent a partition, add <index> to the relevant device file if the name ends in a character, and p<index> if it ends in a number.
 e.g. /dev/sda1 or /dev/loop0p2
+
+A loop device is a normal file mounted as a block device, which you then can use as part of a filesystem.
+.iso files might be good candidates for mounting as a loop device.
+loop devices are mounted at /dev/loop on linux
 
 ####### character device files
 
@@ -4303,6 +4438,12 @@ WebVTT|Web Video Text Tracks Formats
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
 
+###### misc
+
+Ignore files specify things which a given utility should ignore.
+Pretty much all VCSs have ignorefiles.
+prettierignore.
+
 #### complex
 
 epub is a format for ebooks that is in essence just a zip wrapper + scaffolding around web technologies such as HTML, CSS, JS, SVG, etc.
@@ -4365,6 +4506,42 @@ Using maildir, once a mail in new has been read, it si sorted into cur.
 ## VCS
 
 VCS|Version Control System
+
+### git 
+
+#### unifying
+
+to include changes from another branch into the current branch, one has two choices: rebase and merge
+Compared to merging, rebasing results in a more 'pretty' commit history
+
+##### merging
+
+two possible merges: fast-forward, three-way-merge
+In a fast-forward merge, the the HEAD is (pointing to) a direct ancestor of the commit we're merging in.
+In a fast-forward merge, it is merely the pointers that differ, so the merge merely moves the pointer forward
+Any merge that is not a fast-forward merge is a three-way merge
+a three way involves two different states and thus must create a merge commit.
+In a three-way merge, the merge is performed based on the diff with the common ancestor commit.
+In a three way merge, if the same section of the ancestor commit has been changed, it creates create a merge conflict.
+A merge conflict is indicated by special syntax within the file.
+merge-conflict ::= <seven-left-angle-brackets> <branch-name><newline><code-version-1><newline><seven-equals-sign><newline><code-version-3><newline><seven-right-angle-brackets> <branch-name><newline>
+After fixing a merge conflict, you need to commit again.
+
+##### rebasing
+
+Rebasing in git is taking the changes from somewhere (e.g. a branch) and applying them on another branch as if the changes had been made there originally
+
+#### github
+
+Github is a hosting service for git repositories.
+
+##### Issues & PRs
+
+Github issues track desired changes such as features, bugs, etc.
+A milestone is a set of github issues.
+PR = Pull Request
+A pull request is a request to merge the specified changes into the branch
+If you refer to an issue with {{c2::#number}} and a word such {{c3::as closes, fixes etc.}} within a {{c4::commit}}, it will {{c1::close the issue}} (or {{c1::close it}} once {{c5::merged into the default branch}})
 
 # hardware/low-level
 
@@ -4435,13 +4612,16 @@ A sequential logic circut is one whose output depends on its input, and the prev
 
 #### architecture
 
+A stored-program computer stores data and instructions in the same way.
+The VNA implements a stored-program computer.
+VNA: CPU = CU + ALU
 In the VNA, the CPU, memory and IO are connected to/via the bus.
 <img src="sm_tmp_xpihn7q.png">
 In the (modern revisions of) von neumann architecture, the three buses are the {{c1::control bus}}, the {{c2::address bus}}, and the {{c3::data bus}}
 Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
 
 The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
-Modern processors are claimed to be stored-program computers, but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
+Modern processors are claimed to be stored-program computers (specifically VNA), but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
 
 #### electronics
 
@@ -4681,6 +4861,7 @@ CSM (UEFI context)  Compatibility Support Mode
 CSM is the mode of UEFI that makes it similar to BIOS by loading MBR or something from the first-stage boot loader.
 
 to manipulate the UEFI boot manager from linux, use the command efibootmgr
+-o/--bootorder|change the boot order
 
 ##### SMBIOS
 
@@ -4746,6 +4927,16 @@ RNG  random number generator
 
 ## network 
 
+### MITM
+
+<img src="sm_mitm_illus.svg">
+A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}} into the {{c3::communication}} between {{c3::two parties}} believing {{c4::to be talking to each other directly}}.
+
+### XSS
+
+XSS  Cross-site scripting
+Cross-site scripting (XSS) is an attack where malicious client-side scripts are injected into web pages being viewed by users
+
 ### DOS
 
 DoS = denial of service
@@ -4768,6 +4959,15 @@ A DDoS attack is a DoS performed from many different sources.
 #### clipboard
 
 clipboard-cli is an npm package that exposes the command clipboard which works as a shell filter for the clipboard, copying or pasting as needed.
+xclip allows interaction with the X clipboard
+
+#### screenshots
+
+maim|screenshot-taking-utility
+
+#### backups/snapshots
+
+rsnapshot|Rsync based snapshot utility
 
 ### kernelland
 
@@ -4843,6 +5043,13 @@ X11 thingies installed by default live in /usr/share/X11
 X11 local config changes live in /etc/X11
 xorg is configured in X11/xorg.conf(.d)
 
+######## starting X
+
+startx is a wrapper around to xinit.
+xinit/startx source .xinitrc when run.
+.xprofile and /etc/xprofile is run by X before your window manager is run.
+.xsession is (at least in theory) only sourced when logging in from a display manager
+
 ######## Login
 
 A X display manager is a graphical login manager which starts a login session on an X server.
@@ -4863,7 +5070,7 @@ What Desktop Environment you selected from the display manager (might be limited
 xdotool allows automation of X windows
 xdpyinfo gets info about an x server
 xwininfo gets information about open windows
-xclip allows interaction with the X clipboard
+xev shows X events such as keyboard, resizing, clicking etc.
 
 ###### systemd
 
@@ -4933,6 +5140,7 @@ when using systemctl, if not specifying a suffix, it will assume .service
 when using systemctl, for mount/device operations, besides using .mount and .device names,  you can use the respective paths (e.g. /dev/sda2)
 
 loginctl controls the systemd login manager
+systemd-analyze allows for systemd debugging
 
 ###### various subsystems & specs
 
@@ -4946,7 +5154,7 @@ NetworkManager stores its saved connections in /etc/NetworkManager/system-connec
 Spec for how notifications should work on linux   Desktop Notifications Specification
 libnotify is the most common implementation of the Desktop Notifications Specification
 To use libnotify, you need to also install a notification server/daemon.
-dust is a minimal notification server/daemon.
+dunst is a minimal notification server/daemon.
 
 ####### bluetooth
 
@@ -5170,6 +5378,10 @@ By default pandoc creates an output pdf by using latex as an intermediary, you c
 
 fortune|display a random fortune
 
+yes[ <string>]
+yes outputs y or <string> until killed.
+yes can be used to e.g. provide always answer yes for whatever a script asks by using yes | ...
+
 #### media
 
 ##### generation
@@ -5267,6 +5479,7 @@ the arch command can be made to run programs on other architectures via argument
 lspci   list pci devices
 lshw   list hardware config
 lsblk   list block devices
+-f/--fs|list some extra info, esp. UUID
 lsusb   list USB devices
 
 ##### GUI
@@ -5311,6 +5524,8 @@ CLI tool for managing displays|<code>display_manager.py</code>
 
 date is a tool for showing, formatting or changing date and time
 If run without arguments, date gets the current date and time.
+date-command ::= date [<formatting-syntax>|<setting-syntax>|<dst-syntax>]
+formatting-syntax ::= {<option>}[ +<output-format-specifier>]
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -5480,6 +5695,7 @@ Termux is a terminal window for android.
 
 PGID|Process group ID
 SID|Session ID
+pgrp|process group
 
 On unix, every process has a parent.
 A process group is a collection of one or more processes.
@@ -5651,6 +5867,8 @@ if bash is a login shell, it reads from /etc/profile, and then exactly one of ~/
 It may be advisable to have one of the files loaded when something is a login shell load .bashrc, to ensure consistent behavior.
 When an interactive login shell exits, or a non-interactive login shell executes the exit builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists.
 
+There are other files for environment variables that may be read at different times unrelated to the shell: .pam_environment
+
 ##### Shell lifecycle
 
 0. The shell may get its input from a file, a string, or the terminal, and splits it into lines.
@@ -5663,7 +5881,7 @@ When an interactive login shell exits, or a non-interactive login shell executes
 7. the shell waits for the commands to complete and collects its exit status
 
 since shell syntax (such as filename expansion) are performed far before something like sudo is executed, if you lack permission to see things those things will not work.
-To use shell syntax with sudo permissions, the easiest way is to create a sudoed subshell (sudo bash -c "command")
+To use shell syntax/features with sudo permissions, the easiest way is to create a sudoed subshell (sudo bash -c "command")
 
 ###### whence commands?
 
@@ -5906,6 +6124,14 @@ redirecting output [<n>]>[\||>][&]<word>
 
 ###### command execution
 
+####### aliases
+
+alias-command ::= alias{ name=vale}
+the alias command with no arguments lists available aliases
+aliases are only replaced if they are the first word of a simple command.
+Aliases have very error-prone semantics, so using shell functions is almost always preferred.
+sometimes an extra file bash_aliases is created for storing aliases, however bash does not itself read from bash_aliases so it needs to be sourced from other files.
+
 ####### pipelines
 
 the character indicating an anonymous pipe is |
@@ -6018,10 +6244,13 @@ The su utility requests appropriate user credentials and switches to that user I
 su = substitute (in the past super) user
 sudo = substitute (in the past super) user do
 
+-E = --preserve-env
+
 ##### polkit
 
 polkit is a toolkit to allow finer-grained control than just running sudo.
 Polkit defines {{c1::actions}}, {{c2::who can use them (group/user)}}, and {{c3::under which circumstances}}.
+pkexec works like sudo, but instead opens a window for password entry (it also depends on polkit policies)
 
 ### projects
 
@@ -6438,7 +6667,13 @@ e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
 ######## origins
 
+The group of scheme/host/port making up a web resources origin are sometimes called the (scheme/host/port) tuple
+in a scheme, host, port tuple, host is actually the FQDN
+a web resources {{c1::origin}} is defined by its {{c2::scheme/protocol}}, {{c3::FQDN(often inaccurately just called host)}}, and {{c4::port}} tuple
 Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
+The {{c1::same-origin}} policy allows {{c2::same-origin}} access by {{c3::default}}, and {{c3::provides predefined channels and restrictions}} for {{c2::cross-origin}} access
+The {{c1::same-origin}} policy is relevant only when {{c2::two pages want to communicate}}
+The same-origin policy is {{c1::active}} ({{c1::in some shape or form}}) in {{c2::all modern browsers}}
 
 ######## domains
 
@@ -7094,6 +7329,8 @@ A web site is a collection of web pages, generally one that share a domain name/
 
 ###### performance
 
+lazy loading is loading things only when needed.
+
 ####### minifcation
 
 {{c1::Minifying}} is {{c2::removing unnecessary characteristics}} (e.g. {{c2::longer names, whitespace}}) from {{c3::source code}} to {{c4::reduce size}}
@@ -7192,11 +7429,14 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 
 Common shortcuts
 
+# standards
+
+unofficial extensions are generally indicated x-whatever
+
+## identifiers
 
 
-# identifiers
-
-## language
+### language
 
 The locale of a user is a set of values for a set of parameters related to language and region.
 The locale is generally specified as an identifier.
@@ -7208,7 +7448,7 @@ All LC_* locale variables are overwritten with LC_ALL.
 the locale command shows the currently specfied locales.
 /etc/locale.gen and the command locale-gen associated with it is used for generating locales
 
-### BCP47
+#### BCP47
 
 <br>---<br>
   §§ A ((c:17;::IETF language tag)) indicates exactly ((c:18;::in which language a thing is)). §<br>
@@ -7266,7 +7506,7 @@ the locale command shows the currently specfied locales.
 
 
 
-## licenses
+### licenses
 
 Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
 GPL is a type of copyleft license.
@@ -7279,7 +7519,7 @@ spdx-simple-expression ::= (<license-name>-<license-version>)[+]
 Each SPDX license has a short and a long name.
 The + at the end of a SPDX license indicates this version or later.
 
-## versions
+### versions
 
 semver = semantic versioning
 semantic-versioning-version ::= <major>.<minor>.<patch>
@@ -7288,17 +7528,10 @@ semantic-versioning-version-specifier ::=
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
-## datetimes
+### datetimes
 
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
-
-
-# automation
-
-The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
-The Amazon Mechanical Turk pays way below the minimum wage.
-The Amazon Mechanical Turk is sometimes used for study subjects.
 
 # culture
 
@@ -7572,38 +7805,6 @@ pass|Python
 
 : is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
 
-## Comments
-
-Comments in programming are (generally) ignored by compilers/interpreters.
-But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
-Comments are written primarily for humans
-Generally, single line comments go to the end of the line
-
-Single line:
---|lua
-//|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
-\#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Regex (freespacing mode)|Ruby|sh|TOML|YAML
-%|Latex
-(?#foo)|Regex
-(* foo *)|ENBF
-
-Multiline:
---\[\[foo]]|lua
-/\*foo\*/|CSS|C#|Java|JS|Rust
-&lt;!-- foo -->|HTML
-=begin foo =end|Ruby
-{% comment %} ... {% endcomment %}|Liquid
-
-Documentation
-for the following thing|///|Rust
-for the following thing|/**...*/|Java (Javadoc)
-for the thing we are in right now|//!|Rust
-for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
-
-Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
-
-Documentation comments often generate HTML documentation
-
 ## Polymorphism
 
 something is monomorphic if it works for one type
@@ -7641,6 +7842,7 @@ Generics are most often specified via type parameters.
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
 C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
+In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -8135,6 +8337,7 @@ dangling reference/pointer = wild reference/pointer
 A dangling/wild reference is a reference
 Link rot is the process of links becoming dangling/wild references.
 
+A smart pointer is a pointer with some other features (e.g. automatic memory management or bounds checking).
 Dereferencing takes a value that is a reference and returns the refernced value.
 In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
 In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing
@@ -9081,26 +9284,6 @@ Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 In rust, only closures create closures :P
 
-### Call by...
-
-Call by x and pass by x are synonyms
-call by/pass by x is a distinction in how arguments are handled.
-Languages may be call by/pass by x for everything always, or have some way of indicating which semantics to use, or handle different values differently.
-
-call/pass-by-value|pass the value of the expression/variable (= copying)|changes to passed variable will be lost if not returned
-call/pass-by-reference|pass the reference of variable (i.e. the loc in memory)|changes to passed variable (incl reassignments) will be preserved even if not returned
-call/pass-by-sharing/object/object-reference|pass by value, but only the object reference for objects|changes to passed variables contents will be preserved even if not returned if object, reassignments will not.
-
-Most popular languages with objects that are said to be pass-by-value are actually pass-by-sharing.
-In purely functional languages, cb/pb value & reference are the same.
-In purely functional languages, everything is immutable, so while the semantics are similar to pb value fron the outside, inside actually only references are passed (since it's cheaper), thus it is actually pb reference
-Call by sharing is a term that is kinda rarely used.
-In call-by-sharing
-
-sharing|lua|JS|Java
-
-moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
-
 ### Anonymous functions
 
 A callable unit not bound to an identifier is an anonymous function/callable unit.
@@ -9262,12 +9445,58 @@ In JS, the default parameter will take on the default value if undefined is pass
 the general syntax is `paramname = defaultval` (within the parameter list)
 Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
-#### Binding
+#### evaluation strategy
+
+An evaluation strategy is a set of rules for evaluating expressions.
+Evaluation is equivalent to reduction in math.
+The concern most of interest within the evaluation strategy is the parameter-passing strategy.
+The fundamental parameter passing strategy distinction is between strict/eager evaluation/applicative order and non-strict/lazy evaluation/normal order.
+The parameter passing strategy may be the same for all constructs in a language, there may be keywords or other constructs to indicate the parameter passing strategy, or the strategy may differ by context/value.
+Different implementations of parameter-passing strategies are often called call by x or pass by x.
 
 Arguments are generally bound to parameters. 
+
+A function is strict if it evaluates to ⊥ if one of its arguments evaluates to ⊥
+= A function is strict if it fails to evaluate/terminate if one of its arguments also fails to evaluate/terminate.
+Strict evaluation is evaluation that guarantees a function is stict.
+Applicative order makes sure a function is strict by evaluating its arguments before the function is applied.
+A function is non-strict if does not necessarily evaluate to ⊥ if one of its arguments evaluates to ⊥
+A function is non-strict if it does not necessarily fail to evaluate/terminate if one of its arguments also fails to evaluate/terminate.
+Non-strict evaluation is evaluation that does not guarantee that a function is strict
+Normal order implements non-strictness by evaluating its arguments only once they are used within the function.
+In math, strict reduction proceeds from the inside out, so that hitting a bottom type will always be encountered.
+In math, non-strict reduction proceeds from the outside in, so that something containing a bottom type may have already been eliminated by outer reductions.
+Applicative order is a rough synonym to eager evaluation.
+Normal order is a rough synonym to lazy evaluation
+
+Call-by name implemens normal order by substituting the arguments of a function into the function body.
+Call-by-need is a memoized version of call-by-name.
+
+###### extracurricular binding
+
 JS's bind() method has the potential to change the idea that arguments passed to a function call are bound to parameters.
 JS's bind() is called on a function.
 JS's bind() method binds the first argument that it is passed to the this of the function, and any following arguments to the parameters of the function it was called on.
+
+###### applicative order
+
+call/pass-by-value/-reference/sharing are all forms of strict evaluation.
+
+call/pass-by-value|pass the value of the expression/variable (= copying)|changes to passed variable will be lost if not returned
+call/pass-by-reference|pass the reference of variable (i.e. the loc in memory)|changes to passed variable (incl reassignments) will be preserved even if not returned
+call/pass-by-sharing/object/object-reference|pass by value, but only the object reference for objects|changes to passed variables contents will be preserved even if not returned if object, reassignments will not.
+
+Most popular languages with objects that are said to be pass-by-value are actually pass-by-sharing.
+In purely functional languages, cb/pb value & reference are the same.
+In purely functional languages, everything is immutable, so while the semantics are similar to pb value fron the outside, inside actually only references are passed (since it's cheaper), thus it is actually pb reference
+Call by sharing is a term that is kinda rarely used.
+In call-by-sharing
+
+sharing|lua|JS|Java
+
+moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
+
+###### non-strict binding
 
 ### Asynchronous callable units
 
@@ -9328,6 +9557,20 @@ in node, most functions are still designed for callbacks, however you can use ut
 util.promisif()y takes a function following with a error-first callback as the last argument, and returns a version that returns promises.
 
 Promisifying is making someting return a promise which wouldn't normally.
+
+#### asynchronous techniques
+
+hooks and event handlers are asynchronous programming techniqyes.
+
+##### hooks
+
+A hook is an action that is defined on a thing and is called when the thing is in a certain state, e.g. before a function call.
+
+##### Events
+
+Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
+In casual use, event listener and event handler are synonyms.
+
 
 ### Overloading
 
@@ -9475,10 +9718,12 @@ Most languages only support single inheritance, some languages (among those I kn
 
 #### abstract & static classes 
 
-Abstract classes are generally declared with the abstract keyword. Within abstract classes, methods are also declared with the abstract keyword.
-Both abstract and static classees are not instantiable.
-Abstract classes are designed mainly to be inherited from.
-
+Abstract classes are generally declared with the abstract keyword. 
+Within abstract classes, members are also declared with the abstract keyword.
+Both abstract and static classes/members are not instantiable.
+Abstract classes/members are designed mainly to be inherited from.
+Since abstract classes/members cannot be instantiated, they must be overriden to be used.
+JS does not support abstact things, however you can simulate it by using the @abstract/@virtual JSDoc tag.
 
 #### Constructors/object creation
 
@@ -9515,8 +9760,10 @@ private|code within the class
 Most languages with a public/private access modifier distinciton will use the public/private keyword to mark the one that is not the default anyway
 JS is an exception, it marks private members with #
 
-default||Java
-protected|same mclass and subclasses|Java
+protected|same class and subclasses|Java
+package|within the same package|Java
+in java, the package access modifier is the default
+JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
 
 #### Interfaces
 
@@ -9685,11 +9932,6 @@ In JS, using the from <path> component of exports allows for what JS calls re-ex
 JS re-exporting allows aggregating exports in a single file
 
 #### default exports
-
-## Events
-
-Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
-In casual use, event listener and event handler are synonyms.
 
 ## lifecycle
 
@@ -9867,10 +10109,13 @@ Node.js was created in 2009.
 {{c1::Deno}} is a {{c2::perhaps-sucessor}} to {{c3::node}} by {{c4::the same creator}}.
 {{c5::Deno}} is wrtten in {{c1::rust}}, provides native {{c2::TS}} support, uses {{c3::ES}} modules, and {{c4::URLs}} for the location of dependencies
 
-
 ##### Python
 
 Flask and Django are the most popular web frameworks for Python.
+
+#### both
+
+Jekyll|Ruby
 
 
 ### IO
@@ -9880,13 +10125,16 @@ Flask and Django are the most popular web frameworks for Python.
 In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
 sys.stdin|python
 
+argv = argument vector
 Command-line arguments
 @ARGV|Perl
 process.argv|node
+sys.argv|python
 
 Environment variables
 %ENV|Perl
 process.env|Node
+os.environ|python
 
 #### Print
 
@@ -10235,8 +10483,22 @@ A lock or mutex is a thing that enforces mutual exclusion.
 
 ### classic problems
 
+#### race condition
+
 A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
 A race condition is often a flaw that may cause bugs.
+
+#### deadlock
+
+<img src="1280px-Process_deadlock.svg.png"><img src="220px-Gridlock.svg.png">
+A ((c:2;::deadlock)) is a situation where ((c:3;::each member of  a group)) is ((c:4;::waiting on another member to do something)), and therefore ((c:1;::the system is stuck))
+((c:5;::Gridlock)) is a specific type of ((c:6;::deadlock)) that occurs ((c:7;::in a street network))
+
+## metaprogramming
+
+An eval is a keyword/function/which executes a passed string as if it had been an expression in the language.
+Using eval with data from an untrusted source is a huge security risk.
+eval is a function in bash, JS, Perl, Python, Ruby. a similar function load is availabe in lua
 
 ## Programming language implementation
 
@@ -10284,6 +10546,18 @@ Token types that are common across programming languages are identifier, keyword
 The analogue of token type in linguistics might be word class/syntactic category/part of speech
 Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
 In the context of compiling/interpreting, identifier/name is a synonym for symbol.
+
+#### syntax analysis
+
+#### semantic analysis
+
+#### compiler optimizations
+
+A compiler optmization is a feature of a compiler that tries to minimize or maximize some attributes of an executable computer program.
+Dead code is code which is never or not usefully used.
+Unreachable code is dead code which is dead because there is no control flow path that would lead to it.
+Dead code elimination is a compiler optimization involving the removal of dead code.
+In js, dead code elimination is kown as tree shaking.
 
 ### interfaces for implementation
 
@@ -10344,6 +10618,8 @@ d8 is the developer shell for v8
 
 ## algorithms
 
+a deterministic algorithim/callable unit will, given a particular input {{c1::always produce the same output}}
+
 ### complexity
 
 Computational complexity is the amount of resources necessary to run an algorithm.
@@ -10359,6 +10635,14 @@ O(1)   constant complexity/time|Accessing an element in an array
 O(n)   linear complexity/time|Iteratering over a one-dimensional array
 O(log n)   logarithmic time
 O(n<sup>2</sup>)   quadratic time
+
+## information theory
+
+### symbol rate
+
+baud   Bd
+baud   symbol rate (AKA baud rate, modulation rate)
+symbol rate   symbol changes per second
 
 # software engineering
 
@@ -10399,14 +10683,34 @@ non-functional requirement|criteria of judgement, not specific behavior|system s
 
 #### Agile
 
+##### lean
+
+###### kanban
+
+Kanban board tools: trello, github projects
+
 #### Scrum
 
-### CI/CD
+### CI/CD2
+
+CD|Continuous delivery OR deployment
+CI|Continuous Integration
+
+Before CI, integration would only happen once every few weeks or months
+Continuous Integration is a software development practice where members of a team integrate their work frequently, at least once a day
+The two main goals of CI are to reduce the pain of any integration, and to be able to deliver a product version at any moment
+
+If a build failure happens in CI, the build should be fixed before work continues.
 
 continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
 {{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
 A nightly build is one that is built every night, generally automatically
+
+CI/CD requires certain steps such as testing to happen on any integration.
+A CI/CD pipeline specifies the set of steps to happen on each integration.
+The most common tools to implement a CD/CI pipeline are Jenkins, CircleCI, Travis CI or github actions.
+
 
 ### code writing enviroments
 
@@ -10425,6 +10729,16 @@ Code review may be performed by human agents or automated code review tools
 
 ### testing
 
+#### TDD & self-testing code
+
+TDD|Test-driven development
+
+{{c1::TDD}} necessarily generates {{c2::self-testing code}}
+{{c1::Self-Testing code}} is {{c2::having built-in tests}} for {{c3:: anything in the codebase (added while writing the things)}}.
+{{c1::Code coverage}} is a measurement of {{c2::how much of $unit (e.g. lines, blocks)}} are run {{c3::when automated tests are executed}}
+for TDD, you first write a test that describes the feature you're wanting to implement
+If you want to fix a bug under TDD, first write a test exposing the defect
+
 #### things used
 
 A test double is a thing that replaces a production thing in testing
@@ -10433,7 +10747,11 @@ A test double is a thing that replaces a production thing in testing
 
 Unit tests test a unit of code (where that might be a module, function or record).
 Unit tests are generally quite fast.
+Unit tests should never require you to e.g. do special things to your environment.
 End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
+{{c3::Integration testing}} is testing whether {{c1::separate modules}} {{c2::work together as intended}}
+Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
+Unit tests may be narrowly defined as testing one unit only with test doubles, or more broadly as testing a few units, thus overlapping with the narrow definition of integration tests
 
 ## principles
 
@@ -10461,6 +10779,75 @@ separation of mechanism and policy.
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying is/does.
 
+
+#### Comments
+
+Comments in programming are (generally) ignored by compilers/interpreters.
+But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
+Comments are written primarily for humans
+Generally, single line comments go to the end of the line
+
+Single line:
+--|lua
+//|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
+\#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Regex (freespacing mode)|Ruby|sh|TOML|YAML
+%|Latex
+(?#foo)|Regex
+(* foo *)|ENBF
+
+Multiline:
+--\[\[foo]]|lua
+/\*foo\*/|CSS|C#|Java|JS|Rust
+&lt;!-- foo -->|HTML
+=begin foo =end|Ruby
+{% comment %} ... {% endcomment %}|Liquid
+
+#### Documentation generators
+
+A documentation generator is a tool that generates documentation from source code, most commonly taking into consideration the actual source code as well as a special documentation syntax.
+Documentation generator syntax is often in the form of a special kind of comment.
+Rustdoc is the built-in documentation generator syntax for Rust.
+Javadoc is a documentation generator syntax for Java.
+JSDoc is a documentation generator syntax based off of and very similar to JS.
+ESDoc is a variant of jsdoc that tries to guess more from existing source code.
+Assume whatever is true for JSDoc is probably also true for javadoc.
+Generally, you can build documentation using a documentation generator using its name as a CLI command.
+For rustdoc, you can also use the cargo subcommand doc.
+Generally, documentation generators generate HTML websites, often using a certain template as a basis.
+Documentation generator config
+name|CLI|Config file
+jsdoc|y|y
+
+Of the documentation generators, jsdoc also supports a plugin ecosystem.
+By default, jsdoc supports HTML in its annotation, with the markdown plugin it instead supports markdown.
+JSDOc supports inline tags for annotating things within a thing, however most jsdoc tags are block tags.
+
+jsdoc-comment ::= /** <jsdoc-comment-contents> */
+jsdoc-comment-contents ::= ([<jsdoc-description>] {<jsdoc-block-tag>})|<jsdoc-inline-tag>
+jsdoc-description ::= <jsdoc-text>{<newline><jsdoc-line-start><jsdoc-text>}
+jsdoc-block-tag ::= <jsdoc-line-start><jsdoc-tag><newline>
+jdoc-tag ::= @<jsdoc-tag-name>[ \{<jsdoc-parameter-list>\}][ - <jsdoc-description>]
+jsdoc-text ::= {<char>}
+jsdoc-line-start ::= * # notice the space
+
+jsdoc-inline-tag ::= {<jsdoc-tag>}
+
+In JSDoc, to refer to things that are not in the thing being documented, to prevent ambiguity, namepaths are used.
+jsdoc-namepath ::= <entity>{(#|.|-)<entity>}
+#|instance member
+.|static member
+~|inner member (member within an inner scope of something)
+
+@author <name> [\<<email>\>]|identifies the author
+
+Documentation
+for the following thing|///|Rust
+for the following thing|/**...*/|Java (Javadoc)
+for the thing we are in right now|//!|Rust
+for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
+
+Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
+
 ### generation
 
 mdBook is a rust crate and command-line tool that produces books from markdown.
@@ -10478,6 +10865,17 @@ Law of triviality: people within an organization/community/project typically giv
 Most common example of the law of triviality: the choice of materials for a bike shed taking up a disproportionate time during the construction of a nuclear power plant.
 Bike-shedding is discussion that conforms to the law of triviality: Disproportionate discussion about relatively irrellevant issues.
 
+
+### code quality
+
+#### code style
+
+nit = short for nitpick
+Generally, each project has a certain code style.
+A code style is a set of rules for how to format source code.
+A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
+Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
+A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
 
 ## Modelling
 
@@ -10510,6 +10908,18 @@ Answer messages   dashed arrows
 
 <img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
+
+## automation
+
+git supports hooks in the form of git hooks.
+husky allows easy interfacing with git hooks
+
+### misc
+
+The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
+The Amazon Mechanical Turk pays way below the minimum wage.
+The Amazon Mechanical Turk is sometimes used for study subjects.
+
 
 ## toolchains
 
@@ -10587,6 +10997,7 @@ A bundler is a tool that merges together all your JavaScript code and its depend
 A bundler is a type of build tool.
 There are more JS build tools than you can shake a stick at. The most common is webpack.
 webpack-cli is the command for administering webpack
+Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
 
 ### contaienrs
 
@@ -10628,6 +11039,7 @@ restricted|proprietary drivers
 multiverse|Software restricted by copyright or legal issues
 At least some of the repositories of ubuntu are only updated on OS updates, but I have no idea which ones.
 to add/remove other repositories with apt use add-apt-repository (--remove for removing)
+aptitude is a TUI for apt
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
 homebrew (command: brew) and macports (command: port) are package managers for macos.
@@ -10649,7 +11061,8 @@ snap auto-refreshes four times a day by default.
 snap stores most of its stuff in /snap.
 snaps are stored in /snap/<snapname>
 snaps variable data (such as log files) are stored in /var/snap
-snap has a second linux file system in /snap/core, which it mounts in specific places at runtime
+snap has a second linux file system in /snap/core, which it mounts in specific places at runtime.
+snaps are pacakged by snapcraft.
 
 
 
@@ -11014,7 +11427,9 @@ placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
 
 ### robots
 
-#### SEO
+#### search
+
+By linking to a site, you confer some of your sites reputation to that site
 
 SEO|Search engine optimization
 related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
