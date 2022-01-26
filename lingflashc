@@ -2998,6 +2998,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 whitespace is any character or series of characters that represent horizontal or vertical space.
 Multiple spaces used as 'tabs'   Soft tabs
 ASCII tab character   hard tabs
+In programming, the width of tabs is commonly 2 or 4 spaces.
 
 ##### two or more graphs
 
