@@ -1,66 +1,16 @@
-<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">
+# notation
 
-# coordinate sys
+## numeral system 
 
-The origin is the point where the axes in a cartesian coordinate system intersect
+### positional
 
-# units
-
-A metric prefix aka SI prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. 
-All metric prefixes used today are decadic. 
-A metric prefix is a unit prefix that precedes bits/bytes to indicate a multiple or submultiple.
-When contrasted with binary prefixes, metric prefixes may also be known as decimal prefixes.
-Binary prefixes are base-2, most commonly multiples of 1024.
-binary-prefix-symbol ::= <metric-prefix-symbol>i
-binary-prefix-name ::= <metric-prefix-name-first-2-chars>bi
-Sometimes, metric(=decimal) prefixes are used as binary prefixes, however this is incorrect usage 
-metric/decimal prefixes refer to increases of 1000, even when used on bits or bytes.
-
-b|bit
-B|byte
-
-# bitwise logic
-
-AND|0|0|0
-AND|1|1|1
-AND|0|1|0
-AND|1|0|0
-OR|0|0|0
-OR|0|1|1
-OR|1|0|1
-OR|1|1|1
-XOR|0|0|0
-XOR|0|1|1
-XOR|1|0|1
-XOR|1|1|0
-
-## bitmask
-
-
-
-# number theory
-
-## properties
-
-In mathematics, the sign of a real number is its property of being either positive, negative, or zero.
-A signed number is a number which can have its sign specified.
-Therefore, in computing a number is signed if it can take on negative values, and unsigned otehrwise.
-
-## elementary arithmetic
-
-### by hand
-
-# numeral system 
-
-## positional
-
-### largest numbers
+#### largest numbers
 
 the largest possible number in a number of n digits of a given positional numeral system is base^n - 1
 quick referene
 8-bit binary|255
 
-### in programming
+#### in programming
 
 in programming, the base of the number is often indicated by a prefix
 
@@ -68,9 +18,9 @@ in programming, the base of the number is often indicated by a prefix
 0|octal|JS (non-strict)
 0o|octal|JS both strict and nonstrict
 
-### systems
+#### systems
 
-#### binary
+##### binary
 
 nth digit|value
 1|1
@@ -82,7 +32,7 @@ nth digit|value
 7|64
 8|128
 
-##### signed numbers
+###### signed numbers
 
 In computing, at the binary level, negative numbers cannot be represented by prefixing a minus sign, therefore one needs a different way to indicated signedness.
 There are three common ways to indicated signedness: one's complement, two's complement, sign and maginitude representation.
@@ -95,13 +45,13 @@ A sign bit is an extra bit that says whether a number is positive or negative.
 Generally, the most siginificant bit is used as the sign bit.
 Generally, for negative numbers, the sign bit is set, for positive numbers it is nunset.
 
-#### hex
+##### hex
 
 In hexadeximal, to represent digits beyond 9, a-f are used.
 
-### conv
+#### conv
 
-#### dec-hex
+##### dec-hex
 
 <table>
   <thead>
@@ -132,6 +82,90 @@ In hexadeximal, to represent digits beyond 9, a-f are used.
 Parity is the property of being even or odd.
 Something has a parity of even if it is divisible by two, and odd otherwise.
 A number in a positional numeral system will be even if its final digit is even.
+
+
+<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">
+
+# Geometry
+
+## analytic
+
+analytic geometry = catesian geometry
+analytic geometry is the study of geometry using a coordinate system.
+
+### coordinate sys
+
+The origin is the point where the axes in a cartesian coordinate system intersect
+
+
+# number theory
+
+## properties
+
+In mathematics, the sign of a real number is its property of being either positive, negative, or zero.
+A signed number is a number which can have its sign specified.
+Therefore, in computing a number is signed if it can take on negative values, and unsigned otehrwise.
+
+## elementary arithmetic
+
+### by hand
+
+# discrete mathematics
+
+Discrete mathematics is the study of mathematical structures that can be considered "discrete" rather than "continuous".
+
+## combinatorics
+
+the factorial is indicated by !
+Factorials make sense for non-negative integers.
+The factorial is the product of all positive integers less than or equal to n. 
+
+## sets
+
+tuples use parentheses
+
+### combination
+
+A combination is an unordered subset of a given set.
+
+### permutation
+
+A permutation is an arrangement of a set in a certain order.
+The number of permutations of n distinct objects is n factorial.
+
+## graphs
+
+## logic
+
+### bitwise logic
+
+AND|0|0|0
+AND|1|1|1
+AND|0|1|0
+AND|1|0|0
+OR|0|0|0
+OR|0|1|1
+OR|1|0|1
+OR|1|1|1
+XOR|0|0|0
+XOR|0|1|1
+XOR|1|0|1
+XOR|1|1|0
+
+# analysis
+
+## real analysis
+
+### monotonic
+
+A function is monotonic if for all x_1, x_2: 
+montonically increasing|non-decreasing, weakly increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
+strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) < f(x_2)
+montonically decreasing|non-decreasing, weakly decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
+strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) > f(x_2)
+
+a function is monotonic if it is monotonically increasing or monotonically decresing
+a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
 
 # algebra
 
@@ -187,3 +221,25 @@ A n-ary function takes n arguments.
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+# applied
+
+
+## units
+
+A metric prefix aka SI prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. 
+All metric prefixes used today are decadic. 
+A metric prefix is a unit prefix that precedes bits/bytes to indicate a multiple or submultiple.
+When contrasted with binary prefixes, metric prefixes may also be known as decimal prefixes.
+Binary prefixes are base-2, most commonly multiples of 1024.
+binary-prefix-symbol ::= <metric-prefix-symbol>i
+binary-prefix-name ::= <metric-prefix-name-first-2-chars>bi
+Sometimes, metric(=decimal) prefixes are used as binary prefixes, however this is incorrect usage 
+metric/decimal prefixes refer to increases of 1000, even when used on bits or bytes.
+
+b|bit
+B|byte
+
+
+
+### bitmask

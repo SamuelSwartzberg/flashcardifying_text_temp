@@ -124,6 +124,19 @@ author|document author
 description|short blurb about website, may be used in search results
 theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS <color>.
 
+by defaults, narrow screen devices (e.g. mobiles) render pages in a virtual window or viewport, which is usually wider than the screen, and then shrink the rendered result down so it can all be seen at once, essentially lying about their viewport size, to make non-mobile-optimized pages not look terrible.
+without width=device-width, many media queries will never apply
+
+The meta tag with name viewport is used to customize/constrain the viewport.
+For the meta tag with name viewport, the content value has the following syntax: <key>=<value>{, <key>=<value>}
+width=<integer>|set size of the viewport to <integer> pixels
+width=device-width|prevent browser from lying about their width
+initial-scale=<integer>|set default zoom level on page
+user-scalable=("yes"|"no")|allow users to zoom or not
+maximum-scale=<integer>|set maximum zoom level
+
+
+
 ##### various inline text
 
 The abbr HTML element represents an acronym or abbreviation.
@@ -426,7 +439,7 @@ time-related: date, datetime-local, month, time, week
 number: number
 other: email, password, tel, search, url
 On any text-like input which is not time-related and not 'number' as well as on textarea, you may specify the minlength and maxlength attributes to contstrain the amount of UTF-16 code units.
-On any non-time-related, non-number text-like input, you may specify the attribute pattern, providing a regex against which to match the input.
+On any non-time-related, non-number text-like input, you may specify the attribute `pattern`, providing a regex against which to match the input.
 most text-only input fields may have the readonly attribute specfied, which shows the inital value but doesn't allow the user to modify it
 the time-related and number text-like inputs plus range accept a step argument.
 
@@ -466,6 +479,8 @@ The <select> HTML element represents a control that provides a menu of options:
 The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
+
+By default, {{c9::html <code>&lt;select&gt;</code>}}s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if <code>{{c11::multiple}}</code> ({{c12::allowing multiple selection::purpose}}) or <code>{{c13::size}}</code> ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
 
 ##### output
 
@@ -587,12 +602,6 @@ Term in a description list with title foo and description/explanation bar|\iten[
 
 div and span are 'pure' container without any semantics.
 the difference between div and span is that div is by default block-level (display: block flow) and that span is by default inline (display: inline flow)
-
-###### dialog
-
-The dialog element rerpesents a dialog box container semantically.
-The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
-<form> elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
 ###### semantic containers
 
@@ -937,6 +946,9 @@ setItem(name,value)
 removeItem(name)
 clear()
 
+sessionStorage lasts for a session, localStorage lasts until cleared.
+localStorage is larger than sessionStorage.
+
 #### notifications
 
 Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
@@ -987,13 +999,21 @@ Web Speech API: text to speech/speech to text
 
 ### PWA
 
+PWA|Progressive Web App
 PWAs should work to some extent even when {{c1::there is no internet}}
 ((h:all;::<img src="SpStAtUk8Zp5iwi9yqKP.jpg">)) the {{c1::screenshots}} property of a web app manifest allows for {{c2::previewing images of the web app when installing}}
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
+#### service workers
 
-### service workers
+{{c1::Service Workers}} are a type of {{c2::Web Worker}}
+The main problem {{c1::service workers}} are solving is handling {{c2::loss of connectivity}}
+The {{c2::service worker's}} {{c1::lifecycle}} is separate from {{c3::your webpage's}}
 
+The first step in a service workers lifetime is navigator.serviceWorker.register(path-to-service-worker.js), which returns a promise
+The service worker's scope ( which fetch events it reacts to) is determined by the directory the script implementing it is in 
+e.g. /sw.js has the scope of everything in the project, while /example/sw.js has the scope of everything in /example.
+The service worker adds event listeners like so: self.addEventListener...
 {{c1::Workbox}} is a library that {{c2::bakes in a set of best practices}} and {{c3::removes the boilerplate}} every developer writes when working with {{c4::service workers}}.
 
 ### wasm
@@ -2659,6 +2679,10 @@ the modifier-value of BEM can be dropped if it's just a boolean value
 BEM names are set in classes
 It is important to keep in mind that a BEM entity is not a part of the name, rather one BEM name always refers to one entity, even if it includes the names of other entitites.
 
+#### CSS frameworks
+
+next to its own technologies, bootstrap may require popper
+
 # data
 
 open data is data available to everyone freely.
@@ -3128,6 +3152,20 @@ Reload|<kbd class='modifier cmd'></kbd> <kbd>r</kbd>
 
 Zoom in|<kbd class='modifier cmd'></kbd> <kbd>+</kbd>
 
+##### caret
+
+cursor can be text or mouse
+mouse cursor = pointer
+text cursor = caret
+
+Some editors feature multi-cursors, which is where you can create multiple text cursors, which will perfom the edito at all places where there is a cursor.
+add text cursor above/below|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>↑/↓</kbd>
+add/remove text cursor at mouse cursor location|<kbd class='modifier alt'></kbd> <kbd>click</kbd>
+add text cursors to all occurences of current selection|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> <kbd>l</kbd>
+add text cursor to nex occurrence of selection|<kbd class='modifier cmd'></kbd> <kbd>d</kbd>
+
+If in VSCode you have {{c1::as many text cursors}} as {{c2::the thing you want to paste has lines}}, it will auto paste it there.
+
 ##### autocomplete
 
 <br>---<br>
@@ -3167,6 +3205,16 @@ CLI|Command-line interface
 A command-line shell/interface is a type of shell (in the wide sense, it is decidedly not a type of shell in the sense of the interpreter such as bash, csh) where actions are accomplished by entering commands.
 The shell living within the terminal is interacted with via a CLI, but so does e.g. vim, or various cheat consoles in games.
 
+#### syntax
+
+There seem to be roughly two kinds of CLIs, ones that do most of their stuff via --arguments, and ones that do most of their stuff with a sentence-like syntax.
+CLIs that have a sentence-like syntax have (after the command that indicates this is what we're interfacing with, perhaps roughly equivalent to a vocative) a syntax consisting of &lt;verb(s)&gt; and &lt;object(s)&gt;
+The most common forms a sentence-like cli syntax takes on is either a &lt;addressee&gt; &lt;object&gt; &lt;verb&gt; {&lt;objects&gt;} syntax or a &lt;addressee&gt; &lt;verb&gt; &lt;object&gt; {&lt;objects&gt;} syntax
+topic-object-verb-object CLIs
+gh|github|gh issue view 12
+nmcli|NetworkManager|nmcli con add type ethernet ...
+{{c1::}}
+
 ### GUI
 
 A graphical shell/grapical user interface is a type of shell (in the wide sense) that allows accomplishing commands via interaction through visual elements.
@@ -3185,6 +3233,8 @@ lxappearace is a gtk theme switcher
 #### widgeting toolkits
 
 #### elements
+
+A UI element that blocks interaction with the main program while it is visible is called modal, else it is modeless.
 
 ##### menu
 
@@ -3270,10 +3320,33 @@ A bar is a long-ish rectangle found at the edge of an UI element.
 
 ###### title bar
 
-A title bar is a bar that is typically located at the top of a window and contains the name of the application andor document/window, as well as the title bar buttons.
+A title bar is a horizontal bar that is typically located at the top of a window and contains the name of the application andor document/window, as well as the title bar buttons.
 the title bar buttons are most typically minimize, maximise and close.
 In most GUIs, you can move the window by grabbing the title bar and dragging.
 In most GUIs, you can expand the window to fill the screen by double-clicking the title bar.
+
+###### status bar
+
+<div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
+<br>---<br>
+  §§ On ((c:1;::desktop)), a ((c:2;::status bar)) is a ((c:3;::horizontal)) ((c:4;::bar)) generally at ((c:5;::the bottom of a window)). §<br>
+  §§ A ((c:15;::status bar)) on desktop displays ((c:6;::various kinds of information)), often used when ((c:7;::editing documents ((n)vi(m), vscode, various office programs, etc.))). §<br>
+  §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
+  §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+###### taskbar
+
+((h:all;uh:11-12;::<img src="Windows_XP_task_grouping_(Luna).png">))((h:all;::<img src="Windows_10_Taskbar.PNG">))((h:all;::<img src="1024px-MacOS_Sierra_dock.png">))((h:all;::<img src="1024px-Plasma_5.20_Taskbar.png">))
+<br>---<br>
+  §§ ((c:12;::The above)) are all examples of ((c:11;::taskbars)). §<br>
+§§ A ((c:1;::taskbar)) is a GUI element that typically shows ((c:2;::which programs are open)), and allows ((c:3;::pinning programs or other things for quick access)). 
+A taskbar generally positioned ((c:4;::as a strip along the edge of a screen)). 
+A taskbar, aside from programs may also have a ((c:5;::notification section)), ((c:6;::a search box)), ((c:7;::various tools)), etc. §<br>
+§§ Despite being called '((c:8;::Dock))', it's just ((c:9;::macOs))'s version of a ((c:10;::taskbar)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### breadcrumbs
 
@@ -3295,16 +3368,39 @@ Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
 <img src="disc.png"><img src="kfw-disclosure.jpg">((h:2;::<img src="sm_FAQ-Content-Style-Accordion.gif">))
 
-##### status bar
+##### dialog box
 
-<div class="flex-container">((h:all;::<img src="sb-paint.png">))((h:all;::<img src="460px-Emacs_statusline.png">))((h:all;::<img src="Gedit_3.11.92.png">))((h:all;::<img src="StatusBar_Light.png">))((h:all;::<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">))</div>
+A dialog box is a small window that appears in front of the main window due to some event or action and requires some sort of response.
+An alert box is a dialog box which contains important information and only accepts the response of ;close'.
+A modal dialog box is often just called a modal.
+zenity   create GUI (GTK) dialog boxes
+dialog   create TUI dialog boxes
+
+The dialog element rerpesents a dialog box container semantically.
+The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
+<form> elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
+
+##### tooltips & popovers
+
+<div class="flex-container">((h:all;::<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">))((h:a;::<img src="sm_220px-Mobile_URL_tooltip.png">))</div><div class="flex-container">((h:a;::<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">))((h:a;::<img src="sm_2021-06-24--02-37-46-screenshot.png">))</div>
 <br>---<br>
-  §§ On ((c:1;::desktop)), a ((c:2;::status bar)) is a ((c:3;::horizontal)) ((c:4;::bar)) generally at ((c:5;::the bottom of a window)). §<br>
-  §§ A ((c:15;::status bar)) on desktop displays ((c:6;::various kinds of information)), often used when ((c:7;::editing documents ((n)vi(m), vscode, various office programs, etc.))). §<br>
-  §§ On ((c:8;::mobile)), a ((c:9;::status bar)) is a ((c:10;::horizontal)) ((c:11;::bar)) at ((c:12;::the top of the screeen)). §<br>
-  §§ A ((c:16;::status bar)) on mobile contains ((c:13;::notification)) and ((c:13;::system)) ((c:13;::icons)) ((h:gb;::(such as ((c:14;::power, networks, time))))) §<br>
+  §§ ((c:2;::Tooltips)) and ((c:2;::popovers)) are similar in that ((c:3;::they both appear close to the thing that triggered them)). §<br>
+§§ A ((c:4;::tooltip)) is an element/component ((c:6;::with extra text)) which ((c:7;::appears)) when ((c:1;::when hovering over something)) §<br>
+§§ A ((c:5;::popover)) is a element/component that usually ((c:8;::appears)) when ((c:9;::interacting with something)) ((c:10;::directly adjacent to that thing)). it ((c:11;::is a modal (creates a mode))). §<br>
+§§ ((c:12;::Popper)) is a ((c:13;::JS)) library for ((c:14;::tooltips))/((c:14;::popovers)). §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+##### list box
+
+((h:all;::<img src="1-final-listbox-matrix">))((h:all;::<img src="List_example.PNG">))((h:all;::<img src="ctrl-list-boxes-image1.png">))
+A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
+
+##### dropdown list/menu
+
+((h:all;::<img src="1y2NriILZC8ujowKW4TWb2Q.png">))((h:all;::<img src="dropdown-example.jpg">))((h:all;::<img src="3-final-sidebyside-dropdowns">))
+dropdown is short for dropdown list/menu
+A dropwdown is a UI element that consists of {{c3::a box}} and {{c3::a downward arrow}} that {{c4::one can interact with}} to {{c5::show a list of options}}, {{c6::exactly one of which}} can be {{c7::selected}}. Often, larger ones will {{c8::scroll}}.
 
 ##### buttons
 
@@ -3600,6 +3696,82 @@ The two main advantages of sprites over multiple images is that  they can be eas
 
 mentions indicate that a user is being addressed, often linking to that user and also sending a notification.
 On most platforms, mentions begin with @.
+
+
+## non-standard humans or non-humans
+
+### either
+
+#### captions
+
+captions|transcribing audio content mainly for agents who can't hear (well)
+subtitles|translating foreign language content
+
+closed|can be en/disabled
+open|cannot be en/disabled
+
+### robots
+
+#### sitemap
+
+#### search
+
+By linking to a site, you confer some of your sites reputation to that site
+
+v
+SEO|Search engine optimization
+related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
+
+### Accessibility
+
+Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
+
+#### WAI & WCAG basics
+
+{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
+the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
+The WCAG consists of principles, guidelines, successs criteria, and techniques.
+WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
+Each WCAG principle is broken up into one or more guidlines.
+Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
+For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
+WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
+The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
+In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
+§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
+§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
+§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+#### WCAG success critera
+
+##### Non-text content
+
+the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
+
+#### WCAG techniques
+
+Based off {{c2::the DOM tree}}, the browser builds the {{c3::accessibility tree}} containing {{c1::all accessibility-relevant information}}
+
+##### Semantic HTML
+
+Semantic HTML is HTML where the tags contain semantic information about the content
+Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
+
+
+##### aria
+
+ARIA attributes fall under the umbrella of WCAG techniques.
+ARIA  Accessible Rich Internet Applications
+ARIA is mainly realized in HTML attributes.
+{{c2::Where available}}, prefer {{c1::semantic HTML}} over {{c3::ARIA}}
+ARIA attributes change the accessibility tree, but nothing else.
+There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
+ARIA {{c1::roles}} define the {{c2::main type of component}}, e.g. {{c3::toolbar, banner}}
+ARIA {{c1::states}} define some property {{c2::that can change}}
+ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
+There are four types of aria {{c4::states}} &amp; {{c4::properties}}: {{c1::drag-and-drop}}, {{c2::live region}}, {{c3::relationship}}, and {{c5::widgets}}
 
 # data storage
 
@@ -4000,6 +4172,17 @@ Instead of /etc, some programs stored in /usr/local store their config in /usr/l
 It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
 device files are files that are interfaces to device drivers (or more rarely other things).
 
+####### drivers
+
+on *nix, any device is identified by its major and minor number.
+on *nix, drivers generally should provide a mechanism but not a policy.
+
+|identifies
+major number|driver
+minor number|device of driver
+if two device files have the same major number, they are managed by the same driver
+if two device files have the same major and minor number, they are the same device
+
 ####### not real devices
 
 /dev/random and /dev/urandom are CSPRNGs of nix* systems
@@ -4054,6 +4237,33 @@ cp|coping stuff
 
 rsync is an improved version of rcp and shares much the same general interface, which is still often used for incremental backups, even if local.
 
+
+#### diff
+
+<br>---<br>
+  §§ ((c:4;::diff)) is a tool that ((c:5;::shows the differences between files)). §<br>
+§§ ((c:6;::diff)) is originally ((c:7;::a cli program of the same name)). §<br>
+§§ There are variants of ((c:8;::the original cli program diff)) that change how it work somewhat, e.g. ((c:9;::sdiff)) for ((c:10;::side-by-die diffs)) and ((c:11;::icdiff)) for ((c:12;::both colored and side-by-side diffs)) §<br>
+§§ ((c:13;::diff)) is now offered as ((c:14;::a subcommand of)) ((c:15;::many other tools)). §<br>
+§§ ((c:16;::npm)) ((c:2;::diff)) provides ((c:3;::diffs between packages)), some of which must be ((c:1;::published to the npm registry)) §<br>
+§§ ((c:17;::git diff)) shows the difference between things ((c:18;::in/related to a git repository)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:21;::no argument))</td> <td>((c:22;::show diff between unstaged and staged/committed))</td></tr>
+<tr><td>((c:23;::--staged/--cached (synonyms)))</td> <td>((c:24;::show diff of staged changes with latest commit (or specified commit)))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ further, ((c:19;::diff-like output)) is now used in ((c:20;::a wide variety of gui applications)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ### files as binary
 
@@ -4158,6 +4368,9 @@ Dotfiles are often used for config or metadata.
 
 ##### sockets
 
+Unix IPC sockets are distinct from network/internet sockets
+A socket in unix is realized as a file descriptor
+{{c1::Unix (domain) sockets}} are used for {{c2::bidirectional}} {{c3::IPC}}
 /dev/log = socket for logging
 
 
@@ -4168,6 +4381,21 @@ Dotfiles are often used for config or metadata.
 Binary files without a specification/documentation/parser are basically meaningless/unreadable.
 What the binary files contents mean is defined by the file format.
 Binary files are generally smaller and quicker to process than plaintext files
+
+##### encoding as text
+
+<br>---<br>
+  §§ ((c:2;::binary-to-text encodings)) represent ((c:1;::binary data)) with ((c:1;::plain text)) §<br>
+§§ ((c:3;::binary-to-text encoding)) is ((c:4;::inefficient)) but is ((c:4;::necessary)) to ((c:5;::send binary data over plaintext channels)), e.g. in ((c:6;::email)). §<br>
+§§ the most common ((c:7;::binary-to-text encoding)) is ((c:8;::base64)). §<br>
+§§ ((c:9;::base64)) uses ((c:10;::ASCII)) to ((c:11;::represent binary data)). §<br>
+§§ ((c:12;::base64)) can encode ((c:13;::6)) bit of ((c:14;::data)) in ((c:13;::8)) bit of ((c:14;::text)). §<br>
+§§ ((c:15;::data URIs)) are a type of URI defined by ((c:16;::the data scheme)) that provide a way to ((c:17;::include arbitrary data inline)). §<br>
+§§ ((c:18;::data URIs)) most commonly use the ((c:19;::binary-to-text encoding base64)) to ((c:20;::encode their data)). §<br>
+§§ data URI syntax <code>((c:21;::data:))((c:22;::[&lt;media type&gt;]))((c:23;::[;base64]))((c:24;::,&lt;data&gt;))</code> §<br>
+base64 is a command-line program to en/decode things as base64
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
 ##### bitmaps
 
@@ -4181,19 +4409,173 @@ Pixmap images are very large, since they don't have any compression.
 
 (multi)media files are almost always binary files
 
-###### images
+###### video/sound
+
+Default mac japanese voice is  Kyoko
+
+####### players
+
+ffmpeg media player   <code>ffplay</code>
+
+mpv|terminal based video player
+
+mpv plays files, urls, and playlists.
+
+Play a playlist<filename>   --playlist=&lt;filename&gt;
+don't open a new video window<filename></filename>   --no-video
+
+######## mpd mpc
+
+mpd is short for Music Player Daemon.
+mpd acts as a server, which you can start via the <code>mpd</code> command (either directly or via a service)
+As a proper server, mpd occupies a port on the host.
+You can interface with the mpd server with a number of clients, e.g. mpc
+
+mpc -p port or --port=port|connect to mpd at the specified port
+<code>mpc queue(d)</code>|<b>show</b> next song
+<code>mpc current</code>|show currently playing songm<br><div class="sub">
+<code>mpc update</code>|update collectiion by scanning for changed files
+<code>mpc stats</code>|display mpd playing info such as total play time up until now, etc.
+<code>mpc rescan</code>|rescan whole music directory
+<code>mpc lsplaylists</code>|list all current playlists
+<code>mpc ls</code>|list the contents of the music directory
+<code>mpc load &lt;name&gt;</code>|load a certain playlist
+<code>mpc clear</code>|clear queue
+<code>mpc shuffle</code>|reshuffle the playlist
+<code>mpc single</code>|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
+<code>mpc repeat</code>|toggle repeat
+<code>mpc random</code>|toggle random playback (that is, pick songs from the queue at random)
+<code>mpc prev</code>|go to previous song
+<code>mpc playlist</code>|show the current playlist
+<code>mpc pause</code>|pause
+<code>mpc next</code>|go to next song
+<code>mpc toggle</code>|play if paused, pause if playing</div>
+
+####### processing
+
+######## ffmpeg
+
+ffmpeg is mainly a video/audio converter
+
+ffmpeg-command ::= ffmpeg <global-options> <input-specifier>{ <input-specifier>} <output-specifier>{ <output-specifier>}
+input-specifier ::= [<input-options>] -i <url>
+output-specifier ::= [<output-options>] <url>
+input-options ::= {<input-only-option><input-output-option>}
+output-options ::= {<output-only-option><input-output-option>}
+input-file-option-specifier ::= <input-index>:<stream-index>
+
+ffmpeg input and stream index are zero-based
+
+input-output-options
+-ss <position>|seek to position
+-to <position>|stop at position
+
+###### images / combined
+
+####### viewers
+
+feh|terminal-launched image viewer
+imgcat|in-terminal image viewer
+
+####### processing
+
+unpaper cleans/post-processes scanned pages
+pdftk and qpdf are the most common CLI tools for pdf transformation
 
 #### plaintext
 
 ##### utilities
 
+###### output/info
+
 cat|output a file
+tac|cat, but reversed line-by-line
 wc|count words, characters and lines
 
 wc output ordering
 {{c1::lines}} {{c2::words}} {{c3::characters}}
 
 bat is a more fancy version of cat with auto syntax highlighting, line numbers, git integration etc. implemented in rust.
+
+###### editors
+
+a stream editor is a filter used to do text transformations
+a line editor is a stream editor that applies its commands to some or all of the lines.
+original line editor for linux: ed
+ex was a line editor then based on ed.
+In contrast to sed, ed -> ex could be used both interactively and noninteractively
+sed was based of the noninteractive features of ed.
+vi was based on the interactive features of ex.
+vim is a more-reature rich of vi.
+nvim is a refactor of vim which aims to be even more feature rich
+nvim = neovim
+To a large extent, nvim is backwards compatible with vim
+To a large extent, vim is backwards compatible with vi.
+vi/vim/nvim is largely mode-based.
+
+sed claims to be a stream editor, but is more specifically a line editor.
+
+sed <options> <command> {<file>}
+command ::= [<addr>]<command-char>[<options>]
+addr ::= <int-or-regex>[,<int-w-op-or-regex>[!]]
+int-or-regex ::= <int>|/<regex>/
+int-w-op-or-regex ::= ([<operator>]<int>)|(<regex-delim-start><regex><regex-delim-end>)
+regex-delim-start ::= /|\\<char>
+regex-delim-emd ::= /|<char>
+
+sed command-char|function|options
+s|regex
+y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
+
+sed's y/... command is similar to the standalone program tr.
+Ruby and Perl have a string method tr that works similar to sed's y/... / the program tr.
+
+For sed, specifying a regex within an addr selects lines that match the regex
+For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
+
+nano|basic cmd-line text editor
+
+###### basic filters
+
+lolcat   make output rainbowy
+cowsay   make an ascii cow say the specific thing
+sort|sort file line by line
+-n sort by order of magnitude
+uniq|remove adjacent (!) matching lines
+cut|extract specific sections of each line based on delimiters
+-f <list>|only extract fields <list>
+-d <char>|treat <char> as delimiter
+nl|number lines
+rev|reverse each line of a file ('horizontally\)
+
+The commands head and tail print the first/last few lines of a file.
+The amount of lines printed by head/tail defaults to 10
+
+###### pandoc
+
+Pandoc is a haskell-based powerful converter between text-based formats.
+By default, pandoc acts as a filter.
+Pandoc readers convert documents to an AST.
+Pandoc filters modify the AST.
+Pandoc writers convert its ASTs to a specific format.
+Only features supported by pandoc markdown are guaranteed to survive pandoc conversion
+
+The behavior of some of the readers and writers can be adjusted by enabling or disabling various extensions.
+for pandoc extensions, + enables it and - disables it.
+pandoc-format-specifier ::= <pandoc-format>{(+|-)<pandoc-extensions>}
+
+-s/--standalone produces valid standalone files such as HTML by adding header & footer material via a specified template.
+
+By default pandoc creates an output pdf by using latex as an intermediary, you can change this behavior with --pdf-engine.
+
+
+###### generation
+
+fortune|display a random fortune
+
+yes[ <string>]
+yes outputs y or <string> until killed.
+yes can be used to e.g. provide always answer yes for whatever a script asks by using yes | ...
 
 ##### types
 
@@ -4323,6 +4705,9 @@ In JSON but not JS object literals, keys must be quoted.
 In JSON but not JS object literals, functions are forbidden.
 In JSON, the top-level item can either be an object or an array.
 
+JSON Pointers allow referring to things within json
+JSON Pointers are paths starting with and separated by / (e.g. /foo/bar)
+
 ####### Schema
 
 JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
@@ -4331,6 +4716,15 @@ title|title for the schema
 description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
 $id|base url for the document, similar to <base> in HTML
+
+$ref allows you to refer to another schema to implement the element, rather than definining it here, by passing a JSON pointer.
+format|force string to have specific format (e.g. ISO 8061)
+format: date|time|datet-time|force string to be a valid date, time or datetime
+enum|specify an enum of allowed values 
+pattern|specify a regex that the value must conform to
+default|specify a default value that should be assumed if a value is missing
+
+in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
 
 ####### jq yq
 
@@ -4526,6 +4920,8 @@ In a three way merge, if the same section of the ancestor commit has been change
 A merge conflict is indicated by special syntax within the file.
 merge-conflict ::= <seven-left-angle-brackets> <branch-name><newline><code-version-1><newline><seven-equals-sign><newline><code-version-3><newline><seven-right-angle-brackets> <branch-name><newline>
 After fixing a merge conflict, you need to commit again.
+
+To abort a maerge during a merge conflict: git merge --abort
 
 ##### rebasing
 
@@ -4726,6 +5122,9 @@ A Load-store architecture is a type of instruction set architecture which only h
 For a load-store architecture, all things being operated on must be in registers.
 
 The machine code of a program depends on the ISA, but also on other things about the computer (e.g. OS)
+
+arch with no args prints the current ISA family
+the arch command can be made to run programs on other ISA families via arguments.
 
 ##### Instruction-level parallelism
 
@@ -4950,6 +5349,12 @@ A DDoS attack is a DoS performed from many different sources.
 
 ##### Slow Loris
 
+A {{c1::slowloris/slow loris}} is a type of {{c2::DoS (Denial of service)}} attack, more specifically a type of {{c3::Low and Slow}} attack.
+A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
+A slow loris works by opening as many connections to the server as possible, and sending a little bit of the header section every few seconds or so, so it doesn't time out, but never ending it.
+If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
+A slow loris is easy to pull off, because it needs very little bandwith and only a normal computer.
+
 # OSs
 
 ## global
@@ -4968,6 +5373,14 @@ maim|screenshot-taking-utility
 #### backups/snapshots
 
 rsnapshot|Rsync based snapshot utility
+
+#### notifications
+
+Spec for how notifications should work on linux   Desktop Notifications Specification
+libnotify is the most common implementation of the Desktop Notifications Specification
+To use libnotify, you need to also install a notification server/daemon.
+dunst is a minimal notification server/daemon.
+to send notifications on linux, you can use the CLI notify-send.
 
 ### kernelland
 
@@ -5149,13 +5562,6 @@ systemd-analyze allows for systemd debugging
 NetworkManager aims to provide an 'it just works' type network epxerience for linux
 NetworkManager stores its saved connections in /etc/NetworkManager/system-connections/
 
-####### Desktop Notification Spec
-
-Spec for how notifications should work on linux   Desktop Notifications Specification
-libnotify is the most common implementation of the Desktop Notifications Specification
-To use libnotify, you need to also install a notification server/daemon.
-dunst is a minimal notification server/daemon.
-
 ####### bluetooth
 
 The most common low-level bluetooth stack for linux is bluez
@@ -5179,308 +5585,6 @@ ibus and fcitx are linux frameworks for multilingual input
 mozc is a plugin for ibus/fcitx/whatever for japanese input.
 ibus-daemon is the command for managing ibus
 fcitx-configtool allows managing fcitx graphically.
-
-### command-line 
-
-#### meta
-
-most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
-
-The unix philosophy says each program should do one thing well and be designed to work together with other programs, most commonly by accepting text as IO.
-
-##### common syntax considerations
-
--o PATH|generally short for/equiv to --out or --output
--O|output to current directory with same name. (curl, wget)
--(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT). Mac accept some sort of string interpolation, e.g. via C format string|curl, say, youtube-dl
---progress|show an indicator of progress|say
--f THINGY|generally short for/equiv to --file, sometimes also --from or --format
---file FILE|Use the file as input|say
--t SECONDS|Specify a length of caffeination in seconds|caffeinate (macOs only)
--t THINGY|Generally short for --to
--r|generally short for/equiv to --recursive
--R|generally short for/equiv to --recursive|chown
---recursive
--v|generally short for/equiv to --verbose or --version more rarely for --voice
---voice VOICE|speak whaterver with the relevant voice (generally only for things on mac that can use `say` in the background)
---verbose|verbose output
---version|show the version
--h|generally short for/equiv to --human-readable or --help
---human-readable|human readable output
---help|show a short set of info/options, generally shorter than man
--i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case/--case-insensitve
---include|
---interactive|prompt before doing something
---in-place|edit in-place, i.e. don't emit an extra file
--n NUMBER|amount of something
--n|generally short for --number
--d|prevent display from sleeping|caffeinate (macOs only)
--s|generally short for/equiv to --set
--u|generally short for/equiv to --unset
---dry-run|show what would happen withou changing anything
--a|show dotfiles or archive mode = preserve various attributes & structures
--E|use ERE instead of BRE (Only where applicable, obv)
---lines|count/specify the number of lines
-
-Options ≈ switches ≈ flags are indicated by hyphen(s) followed by characters
-By convention, an option started by a single hyphen is one character long.
-By convention, an option started by two hyphens is multiple characters long.
-Generally, multiple single character flags can be joined into one: -h -a = -ha
-In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
-In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
-{{c1::}}
--- normally ends the list of flag arguments and allows you to pass plain arguments
-
-
-##### man
-
-Most CLI commands have a manual page, which can be diplayd with man.
-When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
-The numbers in parenthesis after the names of things (xterm(1), efence(3)) come from sections of the manual
-The standard sections of the manual include:
-1      User Commands
-2      System Calls
-3      C Library Functions
-4      Devices and Special Files
-5      File Formats and Conventions
-6      Games et. Al.
-7      Miscellanea
-8      System Administration tools and Deamons
-
-#### full-on programs
-
-##### subscriptions
-
-podboat   podcast management for newsboat
-newsboat|good rss reader
-newsboat is the maintained fork of newsbeuter
-newsboat stores the things its subscribed to in an urls file.
-newsboat-subscription-file ::= {newsboat-subscription-line}
-newsboat-subscription-line ::= <url>{ <newsboat-tag>}
-newsboat-tag ::= <newsboat-tag-no-spaces>|<newsboat-tag-spaces>
-newsboat-tag-no-spaces ::= <operator-prefix><string>
-newsboat-tag-spaces ::= "<operator-prefix><string>"
-operator-prefix ::= ~|!
-
-~|make this the name of the feed
-!|hide the feed
-
-
--x string, --execute=string   execute a command
-commands e.g. reload
-
-##### mail
-
-mail or the older mailx are *nix builtins to manage mail.
-
-##### bacvkup
-
-borg, restic
-
-##### termdown
-
-termdown is a terminal timer utility.
-termdown [OPTIONS] [TIME]
-You can specify the time for termdown in a variety of formats.
-SPACE|Pause
-R|Reset
-Q|Quit
-L|Lap
--|subtract 10s
-+|add 10s
-
---critical SECONDS|Draw final N seconds in red and announce them individually with --voice
-
-##### pass
-
-<code>pass</code> terminal-based password manager
-<code>pass</code> edit plaintext version of file  <code>pass edit somepassword</code>
-<code>pass</code> delete a password  <code>pass rm somepassword</code>
-<code>pass</code> command for listing the passwords  pass ls (or just pass)
-<code>pass</code> command for adding passwords  <code>pass insert/add</code>
-
-##### misc
-
-cal/ncal display a mini ascii calendar
-
-#### text
-
-##### editors
-
-a stream editor is a filter used to do text transformations
-a line editor is a stream editor that applies its commands to some or all of the lines.
-original line editor for linux: ed
-ex was a line editor then based on ed.
-In contrast to sed, ed -> ex could be used both interactively and noninteractively
-sed was based of the noninteractive features of ed.
-vi was based on the interactive features of ex.
-vim is a more-reature rich of vi.
-nvim is a refactor of vim which aims to be even more feature rich
-nvim = neovim
-
-sed claims to be a stream editor, but is more specifically a line editor.
-
-sed <options> <command> {<file>}
-command ::= [<addr>]<command-char>[<options>]
-addr ::= <int-or-regex>[,<int-w-op-or-regex>[!]]
-int-or-regex ::= <int>|/<regex>/
-int-w-op-or-regex ::= ([<operator>]<int>)|(<regex-delim-start><regex><regex-delim-end>)
-regex-delim-start ::= /|\\<char>
-regex-delim-emd ::= /|<char>
-
-sed command-char|function|options
-s|regex
-y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
-
-sed's y/... command is similar to the standalone program tr.
-Ruby and Perl have a string method tr that works similar to sed's y/... / the program tr.
-
-For sed, specifying a regex within an addr selects lines that match the regex
-For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
-
-nano|basic cmd-line text editor
-
-##### basic filters
-
-lolcat   make output rainbowy
-cowsay   make an ascii cow say the specific thing
-sort|sort file line by line
--n sort by order of magnitude
-uniq|remove adjacent (!) matching lines
-cut|extract specific sections of each line based on delimiters
--f <list>|only extract fields <list>
--d <char>|treat <char> as delimiter
-nl|number lines
-rev|reverse each line of a file ('horizontally\)
-
-The commands head and tail print the first/last few lines of a file.
-The amount of lines printed by head/tail defaults to 10
-
-##### pandoc
-
-Pandoc is a haskell-based powerful converter between text-based formats.
-By default, pandoc acts as a filter.
-Pandoc readers convert documents to an AST.
-Pandoc filters modify the AST.
-Pandoc writers convert its ASTs to a specific format.
-Only features supported by pandoc markdown are guaranteed to survive pandoc conversion
-
-The behavior of some of the readers and writers can be adjusted by enabling or disabling various extensions.
-for pandoc extensions, + enables it and - disables it.
-pandoc-format-specifier ::= <pandoc-format>{(+|-)<pandoc-extensions>}
-
--s/--standalone produces valid standalone files such as HTML by adding header & footer material via a specified template.
-
-By default pandoc creates an output pdf by using latex as an intermediary, you can change this behavior with --pdf-engine.
-
-
-##### generation
-
-fortune|display a random fortune
-
-yes[ <string>]
-yes outputs y or <string> until killed.
-yes can be used to e.g. provide always answer yes for whatever a script asks by using yes | ...
-
-#### media
-
-##### generation
-
-Default mac japanese voice is  Kyoko
-
-##### processing
-
-unpaper cleans/post-processes scanned pages
-pdftk and qpdf are the most common CLI tools for pdf transformation
-
-###### ffmpeg
-
-ffmpeg is mainly a video/audio converter
-
-ffmpeg-command ::= ffmpeg <global-options> <input-specifier>{ <input-specifier>} <output-specifier>{ <output-specifier>}
-input-specifier ::= [<input-options>] -i <url>
-output-specifier ::= [<output-options>] <url>
-input-options ::= {<input-only-option><input-output-option>}
-output-options ::= {<output-only-option><input-output-option>}
-input-file-option-specifier ::= <input-index>:<stream-index>
-
-ffmpeg input and stream index are zero-based
-
-input-output-options
--ss <position>|seek to position
--to <position>|stop at position
-
-##### display 
-
-lynx, w3m|text-based browser
-ffmpeg media player   <code>ffplay</code>
-feh|terminal-launched image viewer
-imgat|in-terminal image viewer
-
-
-mpv|terminal based video player
-
-mpv plays files, urls, and playlists.
-
-Play a playlist<filename>   --playlist=&lt;filename&gt;
-don't open a new video window<filename></filename>   --no-video
-
-###### mpd mpc
-
-mpd is short for Music Player Daemon.
-mpd acts as a server, which you can start via the <code>mpd</code> command (either directly or via a service)
-As a proper server, mpd occupies a port on the host.
-You can interface with the mpd server with a number of clients, e.g. mpc
-
-mpc -p port or --port=port|connect to mpd at the specified port
-<code>mpc queue(d)</code>|<b>show</b> next song
-<code>mpc current</code>|show currently playing songm<br><div class="sub">
-<code>mpc update</code>|update collectiion by scanning for changed files
-<code>mpc stats</code>|display mpd playing info such as total play time up until now, etc.
-<code>mpc rescan</code>|rescan whole music directory
-<code>mpc lsplaylists</code>|list all current playlists
-<code>mpc ls</code>|list the contents of the music directory
-<code>mpc load &lt;name&gt;</code>|load a certain playlist
-<code>mpc clear</code>|clear queue
-<code>mpc shuffle</code>|reshuffle the playlist
-<code>mpc single</code>|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
-<code>mpc repeat</code>|toggle repeat
-<code>mpc random</code>|toggle random playback (that is, pick songs from the queue at random)
-<code>mpc prev</code>|go to previous song
-<code>mpc playlist</code>|show the current playlist
-<code>mpc pause</code>|pause
-<code>mpc next</code>|go to next song
-<code>mpc toggle</code>|play if paused, pause if playing</div>
-
-#### online data fetching
-
-<code>urban</code>|Terminal urban dictionary browser
-<code>trans</code>|Use google translate to translate text
-<code>deepl</code>|Use deepl to translate text
-
-lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first arg for detection
-
-
-#### sysadmin
-
-uptime -  Print the current time, the length of time the system has been up, the number of users on the
-       system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
-
-top is a process viewer.
-htop is a more fancy version of top with a better TUI and interactivity.
-
-##### arch
-
-arch with no args prints the current system architecture
-the arch command can be made to run programs on other architectures via arguments.
-
-##### hardware info
-
-lspci   list pci devices
-lshw   list hardware config
-lsblk   list block devices
--f/--fs|list some extra info, esp. UUID
-lsusb   list USB devices
 
 ##### GUI
 
@@ -5596,6 +5700,11 @@ The names of daemons generally end with d.
 
 true|do nothing, sucessfully (exits 0)
 false|do nothing, unsuccessfully (exit non-0)
+
+#### process management tools
+
+top is a process viewer.
+htop is a more fancy version of top with a better TUI and interactivity.
 
 ### terminal system
 
@@ -5833,6 +5942,7 @@ OLDPWD|directory before last pwd
 DIRSTACK|everything on the directory stack
 PAGER|set the pager
 HOME|user home directory
+BROWSER|web browser
 
 EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
 PATH is for where to find executables.
@@ -5862,12 +5972,12 @@ In bash, you can also use shopt login_shell to see if bash is a login shell.
 pretty much all shells have a set of startup files that they run as normal shell code when starting a new shell.
 when bash starts non-interactively, it looks for startup files in the paths listed in BASH_ENV.
 when bash starts interactively, which files it reads from depends on if it thinks its a login shell.
-if bash is not a login shell, it reads from ~/.bashrc
+if bash is not a login shell, it reads from ~/.bashrc and on some versions of bash also from /etc/bash.bashrc
 if bash is a login shell, it reads from /etc/profile, and then exactly one of ~/.bash_profile &gt; ~/.bash_login &gt; ~/.profile
 It may be advisable to have one of the files loaded when something is a login shell load .bashrc, to ensure consistent behavior.
 When an interactive login shell exits, or a non-interactive login shell executes the exit builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists.
 
-There are other files for environment variables that may be read at different times unrelated to the shell: .pam_environment
+There are other files for environment variables that may be read at different times unrelated to the shell: .pam_environment, /etc/environment
 
 ##### Shell lifecycle
 
@@ -6122,6 +6232,8 @@ redirecting output [<n>]>[\||>][&]<word>
 1> may be abbreviated > 
 0< may be abbreviated <
 
+if a file is to be used as input to a command, there is often no reason to do cat file | command, since one could also do command < file
+
 ###### command execution
 
 ####### aliases
@@ -6209,6 +6321,71 @@ for declare options, using + instead of - turns off the attribute instead (yes, 
 The typeset command is supplied for compatibility with the Korn shell. It is a synonym for the declare builtin command.
 the type command indicates what it would be interpeted as if used as a command name (e.g. is a shell builtin, is a function, etc.).
 
+#### command conventions
+
+most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
+
+The unix philosophy says each program should do one thing well and be designed to work together with other programs, most commonly by accepting text as IO.
+
+##### common syntax considerations
+
+-o PATH|generally short for/equiv to --out or --output
+-O|output to current directory with same name. (curl, wget)
+-(-)out, --output PATH|Write the output to a path (presumably, instead of STDOUT). Mac accept some sort of string interpolation, e.g. via C format string|curl, say, youtube-dl
+--progress|show an indicator of progress|say
+-f THINGY|generally short for/equiv to --file, sometimes also --from or --format
+--file FILE|Use the file as input|say
+-t SECONDS|Specify a length of caffeination in seconds|caffeinate (macOs only)
+-t THINGY|Generally short for --to
+-r|generally short for/equiv to --recursive
+-R|generally short for/equiv to --recursive|chown
+--recursive
+-v|generally short for/equiv to --verbose or --version more rarely for --voice
+--voice VOICE|speak whaterver with the relevant voice (generally only for things on mac that can use `say` in the background)
+--verbose|verbose output
+--version|show the version
+-h|generally short for/equiv to --human-readable or --help
+--human-readable|human readable output
+--help|show a short set of info/options, generally shorter than man
+-i|generally short for/equiv to --interactive, may also be short for --in-place, --include, --ignore-case/--case-insensitve
+--include|
+--interactive|prompt before doing something
+--in-place|edit in-place, i.e. don't emit an extra file
+-n NUMBER|amount of something
+-n|generally short for --number
+-d|prevent display from sleeping|caffeinate (macOs only)
+-s|generally short for/equiv to --set
+-u|generally short for/equiv to --unset
+--dry-run|show what would happen withou changing anything
+-a|show dotfiles or archive mode = preserve various attributes & structures
+-E|use ERE instead of BRE (Only where applicable, obv)
+--lines|count/specify the number of lines
+
+Options ≈ switches ≈ flags are indicated by hyphen(s) followed by characters
+By convention, an option started by a single hyphen is one character long.
+By convention, an option started by two hyphens is multiple characters long.
+Generally, multiple single character flags can be joined into one: -h -a = -ha
+In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
+In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
+{{c1::}}
+-- normally ends the list of flag arguments and allows you to pass plain arguments
+
+
+##### man
+
+Most CLI commands have a manual page, which can be diplayd with man.
+When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
+The numbers in parenthesis after the names of things (xterm(1), efence(3)) come from sections of the manual
+The standard sections of the manual include:
+1      User Commands
+2      System Calls
+3      C Library Functions
+4      Devices and Special Files
+5      File Formats and Conventions
+6      Games et. Al.
+7      Miscellanea
+8      System Administration tools and Deamons
+
 ### users and groups
 
 GID|group id
@@ -6256,8 +6433,6 @@ pkexec works like sudo, but instead opens a window for password entry (it also d
 
 freedesktop.org was formerly called X Desktop Group (XDG)
 freedesktop.org governs projects such as the X Window System, wayland or systemd
-
-
 
 # communication
 
@@ -6590,6 +6765,7 @@ layer no|layer name|device that moves things here
 2|Data Link|Switch, Bridge, WAP
 1|Physical|hub
 
+WAP|Wireless Access Point
 
 Network hubs act to connect a network on the physical layer by mirroring an incoming signal to all other ports, thus seeming like a directly connected network on the data link layer.
 Network bridges/switches act to connect multiple link-layer network segments, which thus aggregates them to a single network on the network/internet layer.
@@ -6605,6 +6781,10 @@ While you may have as many Switches, bridges, and hubs as you like, to connect t
 
 Multilayer switches are switches that don't just operate on the data link layer, but also on higher layers (generally 3 and/or 4).
 Content switches are multilayer switches that operate up to layer 7, and are often used in CDNs
+
+The function of a firewall is to filter  incoming network traffic.
+a firewall filters network traffic according to a variety of rules, the most basic of which might be blocking most ports unless needed
+A firewall generally operates on the network/internet layer and up.
 
 ###### alternative names
 
@@ -6995,6 +7175,29 @@ the most common node web sockets library is <code>ws</code>
 ####### DHCP
 
 DHCP = Dynamic Host Configuration Protocol
+DHCP is a protocol used for automatically assigning IP addresses and other parameters.
+DHCP is an application-layer protocol using UDP as the transport layer
+DHCP follows a client-server model
+the four stages of DHCP operations are often abbreviated DORA
+DORA = {{c3::DISCOVER}}, {{c3::OFFER}}, {{c4::REQUEST}}, and {{c4::ACK(nowledge)}}
+The DHCP messages (e.g. DISCOVER) may also be referred to by prefixing  DHCP (e.g. DHCPDISOVER)
+In general, a {{c1::client}} sends a {{c2::DHCP}} {{c3::DISCOVER}} request {{c4::on startup}} and then {{c5::periodically before it expires}}
+The {{c3::DHCP}} client sends its {{c1::DISCOVER}} and {{c1::REQUEST}} messages as a {{c2::broadcast}} initiallty, for {{c4::renewal}} it may also use {{c2::unicast}}
+On recieving a {{c1::DISCOVER}} request, the {{c2::DHCP server}} uses {{c3::its policies}} to decide which if any {{c4::IP address to assign}}, and sends back an unicast message {{c5::OFFER}}
+A client can receive DHCP offers from {{c1::multiple servers}}, but it will {{c2::accept only one DHCP offer}}
+In response to the DHCPOFFER, the client replies with a DHCPREQUEST message, broadcast to the server (can be unicast if renewal), requesting the offered address.
+After the client {{c3::obtains an IP address via DHCP}}, it should {{c4::probe the newly received address}} (e.g. with {{c1::ARP/NDP}}) to prevent {{c2::address conflicts caused by overlapping addresses}}
+
+client         server
+  |               |
+  |---DISCOVER--->|
+  |               |
+  |<----OFFER-----|
+  |               |
+  |----REQUEST--->|
+  |               |
+  |<-ACKNOWLEDGE--|
+  |               |
 
 ##### between application and transport
 
@@ -7011,7 +7214,26 @@ nc [<options>] [<hostname>] [<port>]
 
 ###### ports
 
+preassigned
+
 FTP|21
+
+conventional
+
+HTTP dev servers|8080 or 8000
+
+ports below 1024 require root permission to open
+
+###### sockets
+
+TCP|stream sockets
+UDP|datagram sockets
+A socket is a software interface to handle incoming/outgoing network traffic.
+The most common type of socket is network/internet socket, and thus is often just called socket.
+A network/internet socket exists at the transport layer
+The socket address of a network/internet socket is the combination of IP address and port number.
+A network/internet socket is minimally identified by the combination of socket address and transport protocol
+A network/internet socket that has been connected to another socket (e.g. when using TCP), also is identified by the remote socket address.
 
 ###### TCP
 
@@ -7152,7 +7374,12 @@ ICMP messages are sent within an IP packet
 ##### layer 2 & 3 
 
 ARP = Address Resolution Protocol
-NDP
+NDP = Neigbor Discovery Protocol
+
+ARP|IPv4
+NDP|IPv6
+
+ARP/NDP is used to discover the link layer address associated with a given internet layer address
 
 ##### layer 2
 
@@ -7327,6 +7554,13 @@ The main organization working on web standards is the W3C.
 World Wide Web Consortium = W3C
 A web site is a collection of web pages, generally one that share a domain name/FQDN
 
+###### browsers
+
+lynx, w3m|text-based browser
+
+Qutebrowser is a vim-like browser written in python.
+In qutebrowser, quickmarks are bookmarks that have a short name
+
 ###### performance
 
 lazy loading is loading things only when needed.
@@ -7396,38 +7630,85 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 
 {{c1::Photoscape X}} is notable for being a {{c2::GUI}} program that has {{c3::batch editing of photos}}
 
-## diff
 
-<br>---<br>
-  §§ ((c:4;::diff)) is a tool that ((c:5;::shows the differences between files)). §<br>
-§§ ((c:6;::diff)) is originally ((c:7;::a cli program of the same name)). §<br>
-§§ There are variants of ((c:8;::the original cli program diff)) that change how it work somewhat, e.g. ((c:9;::sdiff)) for ((c:10;::side-by-die diffs)) and ((c:11;::icdiff)) for ((c:12;::both colored and side-by-side diffs)) §<br>
-§§ ((c:13;::diff)) is now offered as ((c:14;::a subcommand of)) ((c:15;::many other tools)). §<br>
-§§ ((c:16;::npm)) ((c:2;::diff)) provides ((c:3;::diffs between packages)), some of which must be ((c:1;::published to the npm registry)) §<br>
-§§ ((c:17;::git diff)) shows the difference between things ((c:18;::in/related to a git repository)). §<br>
-===<br>
+#### full-on programs
 
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th></th>
-    <th></th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:21;::no argument))</td> <td>((c:22;::show diff between unstaged and staged/committed))</td></tr>
-<tr><td>((c:23;::--staged/--cached (synonyms)))</td> <td>((c:24;::show diff of staged changes with latest commit (or specified commit)))</td></tr>
-  </tbody>
-</table>
+##### subscriptions
 
-<br>---<br>
-  §§ further, ((c:19;::diff-like output)) is now used in ((c:20;::a wide variety of gui applications)) §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+podboat   podcast management for newsboat
+newsboat|good rss reader
+newsboat is the maintained fork of newsbeuter
+newsboat stores the things its subscribed to in an urls file.
+newsboat-subscription-file ::= {newsboat-subscription-line}
+newsboat-subscription-line ::= <url>{ <newsboat-tag>}
+newsboat-tag ::= <newsboat-tag-no-spaces>|<newsboat-tag-spaces>
+newsboat-tag-no-spaces ::= <operator-prefix><string>
+newsboat-tag-spaces ::= "<operator-prefix><string>"
+operator-prefix ::= ~|!
 
-## media 
+~|make this the name of the feed
+!|hide the feed
 
-##### video 
 
-Common shortcuts
+-x string, --execute=string   execute a command
+commands e.g. reload
+
+##### mail
+
+mail or the older mailx are *nix builtins to manage mail.
+
+##### bacvkup
+
+borg, restic
+
+##### termdown
+
+termdown is a terminal timer utility.
+termdown [OPTIONS] [TIME]
+You can specify the time for termdown in a variety of formats.
+SPACE|Pause
+R|Reset
+Q|Quit
+L|Lap
+-|subtract 10s
++|add 10s
+
+--critical SECONDS|Draw final N seconds in red and announce them individually with --voice
+
+##### pass
+
+<code>pass</code> terminal-based password manager
+<code>pass</code> edit plaintext version of file  <code>pass edit somepassword</code>
+<code>pass</code> delete a password  <code>pass rm somepassword</code>
+<code>pass</code> command for listing the passwords  pass ls (or just pass)
+<code>pass</code> command for adding passwords  <code>pass insert/add</code>
+
+##### misc
+
+cal/ncal display a mini ascii calendar
+
+#### online data fetching
+
+<code>urban</code>|Terminal urban dictionary browser
+<code>trans</code>|Use google translate to translate text
+<code>deepl</code>|Use deepl to translate text
+
+lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first arg for detection
+
+
+#### sysadmin
+
+uptime -  Print the current time, the length of time the system has been up, the number of users on the
+       system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
+
+##### hardware info
+
+lspci   list pci devices
+lshw   list hardware config
+lsblk   list block devices
+-f/--fs|list some extra info, esp. UUID
+lsusb   list USB devices
+
 
 # standards
 
@@ -7522,9 +7803,19 @@ The + at the end of a SPDX license indicates this version or later.
 ### versions
 
 semver = semantic versioning
-semantic-versioning-version ::= <major>.<minor>.<patch>
-semantic-versioning-version-part ::= [<operator]<major>.<minor>.<patch>
-semantic-versioning-version-specifier ::= 
+semver is the most common way to specify version identifiers
+semantic-versioning-version ::= <semantic-versioning-version-specifier> {<connective> <semantic-versioning-version-specifier>}
+semantic-versioning-version-specifier ::= [<operator>]<major>.<minor>.<patch>
+operator ::= ~ | ^ | <relational-operator>
+connective ::= \|\| | && | - 
+
+patch|backwards-compatible bugfixes
+minor|new functionality in a backwards-incompatible manner
+major|incompatible changes to existing API
+
+~A.P.X|of the same A.P, but higher levels of the same patch are acceptable, i.e A.P.Y...
+^A.P.X|any that do not modify leftmost nonzero digit
+
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
@@ -7825,6 +8116,14 @@ dispatch is only relevant if there are multiple implementations of a thing.
 static dispatch is choosing an implementation of a polymorphic operation at compile time
 callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
 
+##### Overloading
+
+Overloading of callable units is creating multiple callable units with different callable unit signatures.
+Languages I know that support overloading are C#, Java, TS.
+When overloading, each signature generally has its own implementation, exept in TS.
+In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
+In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
+
 #### dynamic dispatch
 
 dynamic dispatch is choosing an implementation of a polymorphic operation at runtime
@@ -7912,6 +8211,7 @@ In JS in browsers, generally, the global object is Window.
 within {{c2::workers}}, the {{c3::global scope}} is <code>{{c1::WorkerGlobalScope}}</code>
 within {{c2::service workers}}, the {{c3::global scope}} is <code>{{c1::ServiceWorkerGlobalScope}}</code>
 The mixin <code>{{c1::WindowOrWorkerGlobalScope}}</code> describes {{c3::the common features}} of <code>{{c2::Window}}</code> and <code>{{c2::WorkerGlobalScope}}</code>
+The `self` property of a WorkerGlobalScope returns a reference to the WorkerGlobalScope itself.
 
 ##### Variable scope
 
@@ -9571,15 +9871,6 @@ A hook is an action that is defined on a thing and is called when the thing is i
 Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
 In casual use, event listener and event handler are synonyms.
 
-
-### Overloading
-
-Overloading of callable units is creating multiple callable units with different callable unit signatures.
-Languages I know that support overloading are C#, Java, TS.
-When overloading, each signature generally has its own implementation, exept in TS.
-In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
-In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
-
 ### misc
 
 Memoization is the form of caching that caches the return value of a deterministic callable unit
@@ -10103,6 +10394,8 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 
 #### server
 
+CMS|Content Management System
+
 ##### JS
 
 Node.js was created in 2009.
@@ -10523,9 +10816,11 @@ when using JIT, the code(/bytecode) is initially executed by an interpreter, but
 
 #### Transpiling
 
+Source-to-source translator/compiler    trans(com)piler
+A transpiler compiles one (programming) language into another (programming) language, though the target language is generally not assemly.
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-Babel is a transpiler that transpiles{{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+Babel is a transpiler that transpiles {{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
 
 ### Steps involved
 
@@ -10566,7 +10861,7 @@ In js, dead code elimination is kown as tree shaking.
 most languages have a CLI tool to interface with them, esp. with implementations
 
 lua|lua
-node|JS
+node|JS (using node)
 python, python3|python
 perl|perl
 sass|sass/scss
@@ -10574,6 +10869,8 @@ rustc|rust
 
 -c STRING|read program from string|python
 -e STRING|read program from string|perl
+
+npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 
 ##### REPL
 
@@ -10619,6 +10916,23 @@ d8 is the developer shell for v8
 ## algorithms
 
 a deterministic algorithim/callable unit will, given a particular input {{c1::always produce the same output}}
+static program analysis is reasoning about/analyzing the behavior of computer programs without actually running them
+Linting is probably the most common form of static program analysis.
+
+### types of
+
+#### sorting
+
+A sorting algorithm is an algorithm that sorts a linear collection.
+
+##### bubble
+
+<img src="sm_Bubble-sort-example-300px.gif">
+Bubble sort is called that because the largest elements will bubble to the right in a single pass.
+while true:
+  for all elements in the list: 
+    if currentElement > nextElement, swap them
+  if no swap occurred in the loop, stop.
 
 ### complexity
 
@@ -10644,6 +10958,12 @@ baud   Bd
 baud   symbol rate (AKA baud rate, modulation rate)
 symbol rate   symbol changes per second
 
+## AI
+
+### Computer vision
+
+{{c1::Computer vision (CV)}} is a field of study that aims to get {{c2::artificial systems / AI}} to get {{c3::meaningful information / understanding}} from {{c4::digital images/videos/whatever}}.
+
 # software engineering
 
 Software engineering is term where the definition is often fought over.
@@ -10668,10 +10988,34 @@ The single-responsibility priinciple states that (the implementation of) a thing
 
 ### solution stack
 
+A software/solution stack is the set of technologies that are layered/combined to run something (most often an application)
+A developer than can work with all layers in a solution stack is a full-stack developer
+
 ME?N = MongoDB, Express.js, ?, Node.js
 MEAN includes Angular
 MERN includes React
 MEVN includes Vue.js
+
+### design patterns
+
+#### MVC
+
+MVC = Model View Controller
+
+        ┌─────────────┐
+      ┌─┤    Model    │◄┐
+      │ └─────────────┘ │
+  Updates           Manipulates
+      ▼                 │
+┌─────────────┐ ┌───────┴─────┐
+│    View     │ │ Controller  │
+└──────┬──────┘ └─────────────┘
+       │              ▲
+       │              │
+     Sees           Uses
+       │   ┌──────┐   │
+       └──►│ User ├───┘
+           └──────┘
 
 ## development practices
 
@@ -10739,6 +11083,16 @@ TDD|Test-driven development
 for TDD, you first write a test that describes the feature you're wanting to implement
 If you want to fix a bug under TDD, first write a test exposing the defect
 
+TDD core loop: 
+
+<ol>
+<li>Write unit test for feature</li>
+<li>Run test, should fail (feature is not implemented)</li>
+<li>Write code</li>
+<li>Test should now succeed</li>
+<li>Refactor</li>
+</ol>
+
 #### things used
 
 A test double is a thing that replaces a production thing in testing
@@ -10748,6 +11102,7 @@ A test double is a thing that replaces a production thing in testing
 Unit tests test a unit of code (where that might be a module, function or record).
 Unit tests are generally quite fast.
 Unit tests should never require you to e.g. do special things to your environment.
+Unit tests often use test doubles.
 End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
 {{c3::Integration testing}} is testing whether {{c1::separate modules}} {{c2::work together as intended}}
 Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
@@ -10852,7 +11207,8 @@ Rust documentation comments accept formatting in markdown. Code in code blocks t
 
 mdBook is a rust crate and command-line tool that produces books from markdown.
 mdBook produces books similar to the rust book.
-mdBook can easily be deployed to github pages.
+mdBook and docusaurus can easily be deployed to github pages.
+docosaurus is a react-based solution for writing documentation via markdown
 
 
 ## requirements engineering
@@ -10868,6 +11224,26 @@ Bike-shedding is discussion that conforms to the law of triviality: Disproportio
 
 ### code quality
 
+Code quality tools such as linters and code formatters often have a CLI but are more commonly used as an extension in IDEs or as some sort of hook/CI pipeline step.
+
+#### linting
+
+A linter flags logic errors, suspicious constructs and violated conventions.
+A linter often also includes a code formatter.
+
+yaml|yamllint
+css|stylelint
+js|ESLint
+shell (bash/csh/ksh etc.)|shellcheck
+
+ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
+in ESlint, to {{c2::inherit configs from other files}}, specify the {{c1::extends}} key
+in ESlint, to use {{c2::the default rules}}, use {{c1::extends: eslint:recommended}}
+in ESlint, the things stored in the {{c2::settings}} key are {{c1::global to all ESLint rules}}
+To {{c2::extend}} ESLint, use {{c1::plugins}}
+
+To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
+
 #### code style
 
 nit = short for nitpick
@@ -10875,6 +11251,7 @@ Generally, each project has a certain code style.
 A code style is a set of rules for how to format source code.
 A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
 Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
+Prettier works for most languages relevant for web development.
 A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
 
 ## Modelling
@@ -11038,8 +11415,11 @@ universe|community maintained FOSS
 restricted|proprietary drivers
 multiverse|Software restricted by copyright or legal issues
 At least some of the repositories of ubuntu are only updated on OS updates, but I have no idea which ones.
-to add/remove other repositories with apt use add-apt-repository (--remove for removing)
+to add/remove other repositories/ppas with apt use add-apt-repository (--remove for removing)
+apt repositories/ppas are stored in /etc/apt/sources.list(.d)
 aptitude is a TUI for apt
+apt-cache can be used to query apt's package cache (the local record of packages)
+
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
 homebrew (command: brew) and macports (command: port) are package managers for macos.
@@ -11152,6 +11532,7 @@ assoc array access []|Python|Ruby|
 
 ## Project Jupyter
 
+{{c1::Jupyter Notebooks}} used to be called {{c2::IPython Notebooks}}
 Jupyter notebooks are multimedia documents.
 Jupyter notebooks can contain code, markdown test, math, plots, media/images.
 Code within Jupyter notebooks are run by kernels.
@@ -11336,12 +11717,23 @@ Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp
 ### Unicode
 
 Unicode is goverened by the unicode consortium.
+
+#### Codepoint subdivision 
+
 While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
 The fundamental unit in unicode is a codepoint.
 All unicode codepoints are contained in the unicode codespace.
 Currently, about 12% of the unicode codespace is used.
 The unicode codespace consists of 17 planes. 
 A unicode plane contains 2^16 = 65536 codepoints.
+A plane in unicode consists of one or more blocks.
+Since unicode blocks are contained within planes, they at most can be the size of a plane, i.e. 2^16=65536
+Unicode blocks always sized in multiples of 16, therefore the first hex digit in an unicode block will always end 0, and the last digit will always end F.
+Unicode blocks are always contiguous and disjoint with each other.
+In general, an unicode block should be united by a common purpose in some way.
+
+##### plane table
+
 0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems & symbols
 1|Supplementary Multilingual Plane|assortment of different characters and emoji
 2|Supplementary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
@@ -11349,11 +11741,8 @@ A unicode plane contains 2^16 = 65536 codepoints.
 4-13|Currently unassigned
 14|Supplementary Special-purpose plane
 15-16|Private Use Area planes
-A plane in unicode consists of one or more blocks.
-Since unicode blocks are contained within planes, they at most can be the size of a plane, i.e. 2^16=65536
-Unicode blocks always sized in multiples of 16, therefore the first hex digit in an unicode block will always end 0, and the last digit will always end F.
-Unicode blocks are always contiguous and disjoint with each other.
-In general, an unicode block should be united by a common purpose in some way.
+
+Unicode code points outside of the basic multilingual plane are sometimes called astral
 
 #### multiple characters
 
@@ -11374,10 +11763,18 @@ Unicode normalization takes two texts that are canonically equivalent or compati
 
 There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
 UTF-32 encodes any codepoint as 4 bytes, and is thus very wasteful for something like latin text.
-UTF-16 encodes a codepint either as 2 or 4 bytes.
 UTF-8 may take 1-4 bytes to encode a cahracter.
 
-Today, most things default to UTF-8, however a few things such as JS default to UTF-16.
+Today, most things default to UTF-8, however a few things such as JS and Java default to UTF-16.
+
+##### UTF-16
+
+UTF-16 consists of 16-bit code units.
+An unicode code point encoded with UTF-16 may consist of one or two code units
+UTF-16 requires one code unit(s) for things in the BMP, and two code unit(s) for anything else
+if UTF-16 needs {{c1::two code units}}, these {{c1::two code units}} are called {{c2::a surrogate pair}}
+In surrogate pairs (UTF-16) the code unit that should come {{c1::first}} is called the {{c2::high surrogate}}, the code unit that should come {{c1::second}} is called the {{c2::low surrogate}}
+{{c1::High-surrogate}} code units have a hex value {{c2::0xD800-0xDBFF}}
 
 ##### UTF-8
 
@@ -11423,65 +11820,4 @@ Placeholder images using boring boxes   via.placeholder.com
 via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
 placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
 
-## non-humans
-
-### robots
-
-#### search
-
-By linking to a site, you confer some of your sites reputation to that site
-
-SEO|Search engine optimization
-related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
-
-### Accessibility
-
-Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
-
-#### WAI & WCAG basics
-
-{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
-the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
-The WCAG consists of principles, guidelines, successs criteria, and techniques.
-WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
-Each WCAG principle is broken up into one or more guidlines.
-Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
-For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
-WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
-The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
-In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
-§§ the WAI published the WCAG ((c:5;::2.1)) version in ((c:6;::2018)), and is expected to publish WCAG ((c:5;::2.2)) in ((c:6;::2021)) §<br>
-§§ According to the WCAG ((c:7;::level AA)), color should have a ((c:8;::contrast ratio)) of at least ((c:9;::3:1)) for ((c:10;::large)) and ((c:9;::4.5:1)) for ((c:10;::normal)) text §<br>
-§§ According to the WCAG ((c:11;::level AAA)), color should have a ((c:12;::contrast ratio)) of at least ((c:13;::4.5:1)) for ((c:14;::large)) and ((c:13;::7:1)) for ((c:14;::normal)) text §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
-
-#### WCAG success critera
-
-##### Non-text content
-
-the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
-
-#### WCAG techniques
-
-Based off {{c2::the DOM tree}}, the browser builds the {{c3::accessibility tree}} containing {{c1::all accessibility-relevant information}}
-
-##### Semantic HTML
-
-Semantic HTML is HTML where the tags contain semantic information about the content
-Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
-
-
-##### aria
-
-ARIA attributes fall under the umbrella of WCAG techniques.
-ARIA  Accessible Rich Internet Applications
-ARIA is mainly realized in HTML attributes.
-{{c2::Where available}}, prefer {{c1::semantic HTML}} over {{c3::ARIA}}
-ARIA attributes change the accessibility tree, but nothing else.
-There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
-ARIA {{c1::roles}} define the {{c2::main type of component}}, e.g. {{c3::toolbar, banner}}
-ARIA {{c1::states}} define some property {{c2::that can change}}
-ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
-There are four types of aria {{c4::states}} &amp; {{c4::properties}}: {{c1::drag-and-drop}}, {{c2::live region}}, {{c3::relationship}}, and {{c5::widgets}}
 
