@@ -656,20 +656,6 @@ The <embed> HTML element embeds external content at the specified point in the d
 
 &lt;math> and &lt;svg> embed content in HTML from MathML and SVG respectively
 
-#### JS interface
-
-any HTML element has a JS interface that is called HTMLSomeelementnameElement.
-
-An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
-
-In HTML, most attributes have two faces: the content attribute and the IDL attribute.
-
-The content attribute is the attribute as you set it from the content (the HTML code) and you can set it or get it via element.setAttribute() or element.getAttribute(). The content attribute is always a string even when the expected value should be of a different type.
-
-the IDL attribute may be accessed from js like element.foo.
-
-Any content attribute is also acessiable as an IDL attribute.
-
 #### Common attributes
 
 the <code>datetime</code> attribute specifies the date and time associated with the element
@@ -686,7 +672,6 @@ The value attribute specifies the value of a thing.
 If the value attribute of an element is pre-filled, it generally appears as a default.
 
 content within <video>/<audio>/<canvas> is shown as a fallback for browsers that don't support the element.
-
 
 ##### Global attributes
 
@@ -739,10 +724,24 @@ autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
+#### tools
+
+##### emmet
+
+Emmet is a syntax mainly using CSS selectors for quickly generating html
+Emmet is or can be integrated into most code editors
+In VSCode, to use emmet with JSX, enable it in the settings
+
 ### JSX
 
 {{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
 Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
+$   running number indicator
+()   groups element
+*x   create x amount of elements
+@   change the number direction/offsett
+^   go up an element
+{something}   text (within the tag)
 
 ## environment ≈ Web APIs
 
@@ -878,6 +877,19 @@ A static NodeList (or similar) does not reflect changes in the DOM
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### Elements
+
+any HTML element has a JS interface that is called HTMLSomeelementnameElement.
+
+###### types of attribute
+
+An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
+In XMLHTML, most attributes have two faces: the content attribute and the IDL attribute.
+
+The content attribute is the attribute as you set it from the content (the HTML code) and you can set it or get it via element.setAttribute() or element.getAttribute(). The content attribute is always a string even when the expected value should be of a different type.
+
+the IDL attribute may be accessed from js like element.foo.
+
+Any content attribute is also acessiable as an IDL attribute.
 
 ###### IDL interface
 
@@ -2276,6 +2288,25 @@ image-rendering controls how an image upscales.
 image-rendering: pixelated - image will seem to be composed of large pixels
 image-rendering: crisp-edges - preserve edges
 image-rendering: auto - browser-defined algorithm
+
+##### frames
+
+<br>---<br>
+  §§ A ((c:1;::frame)) is ((c:2;::a part of a webpage)) which ((c:3;::displays a different webpage (or a part thereof))) within. §<br>
+§§ A ((c:4;::frame)) has ((c:5;::state)) ((c:6;::independent of its parent webpage)). §<br>
+§§ The ((c:7;::two types of frames)) that HTML has/had are ((c:8;::&lt;frame&gt;)) and ((c:9;::&lt;iframe&gt;)) §<br>
+§§ Both ((c:10;::&lt;frame&gt;)) and ((c:10;::&lt;iframe&gt;)) need(ed) a ((c:11;::src)) to be useful. §<br>
+§§ ((c:12;::&lt;frame&gt;s)) would have been ((c:13;::placed within)) a ((c:14;::&lt;frameset&gt;)). §<br>
+§§ ((c:15;::&lt;frameset&gt;)) would have ((c:16;::replaced)) ((c:17;::body)). §<br>
+§§ A site using ((c:18;::&lt;frameset&gt;)) was basically ((c:19;::made up of)) ((c:20;::many different HTML documents)). §<br>
+§§ A site using ((c:21;::&lt;frameset&gt;))  would have had the advantage tha((c:22;::t only a part of the site (e.g. the main content, but not headers and footers))) would ((c:23;::have to be fetched when navigating)). §<br>
+§§ The ((c:24;::&lt;noframes&gt;)) was provided for browsers that ((c:25;::did not support frames)). §<br>
+§§ As of ((c:28;::HTML5)), ((c:26;::&lt;frame&gt; and &lt;frameset&gt;)) are ((c:27;::deprecated)), but ((c:26;::iframe)) is not. §<br>
+§§ ((c:29;::&lt;frame&gt;s)) were ((c:32;::deprecated)) because&nbsp; ((c:30;::their intraction with the same-origin policy could be a nightmare)), because ((c:31;::copyright infringemenet was easy)), and because ((c:33;::of accesibility/usability problems)). §<br>
+§§ ((c:34;::iframe)) is short for ((c:35;::inline frame)) §<br>
+
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
 
 ### flow
 
@@ -3749,6 +3780,7 @@ In some countries websites, especially those of public sector bodies must confor
 ##### Non-text content
 
 the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
+iframes and frames should have a title (doing what alt text would do for images)
 
 #### WCAG techniques
 
@@ -3866,6 +3898,7 @@ secondary meory is generally non-volatile memory
 
 HDD  Hard disk drive
 SSD  Solid state drive/device/disk
+clonezilla is the standard FOSS program for cloning entire drives.
 
 ###### HDD
 
@@ -3918,7 +3951,7 @@ RAID disks are in some sort of configuration which aims to achieve one or more o
 RAID 0|Data is split among the drives (striped)|performance (r/w)
 RAID 1|data is mirrored on all drives|reliability & some read performance
 
-### partitons
+### partitions
 
 A secondary memory device is divided into n partitions.
 How partitions are layed out on a secondary memory device is described by the partition table.
@@ -3927,6 +3960,8 @@ the MBR partition table was limited to 64 byte, which allowed for up to four par
 Today, partition tables are generally GPT, since MBR was limited to addressing 2 TiB drives.
 GPT  GUID Partition Table
 GUID in GUID Partition Table  globally unique identifier
+
+gparted and gnome-disks are GUIs for partition/disk management
 
 ### file system
 
@@ -4020,6 +4055,14 @@ basename strips the path and suffix from a file name
 find|find files
 find-command ::= find {<global-option>} {<starting-point-path>} {<expression>}
 If no starting point is specified for find, it takes the current working directory.
+
+-type CHAR (e.g. b, c)   find files that are of one of the 7 unix file types 
+-size SIZE   find files that are larger than SIZE
+-name foo   find files that contain foo in their name (case-sensitive)
+-iname foo   find files that contain foo in their name (case-<b>insensitive</b>)
+! expression   true if expression is false 
+-printf PATTERN   print the filename according to PATTERN
+
 fd is a simpler and faster version of find implemented in rust.
 fdupes finds duplicate files.
 
@@ -4171,6 +4214,7 @@ Instead of /etc, some programs stored in /usr/local store their config in /usr/l
 /dev contains device files.
 It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
 device files are files that are interfaces to device drivers (or more rarely other things).
+udev is a system managing the /dev directory and userspace hardware events.
 
 ####### drivers
 
@@ -4236,6 +4280,8 @@ mkdir|create empty directory
 cp|coping stuff
 
 rsync is an improved version of rcp and shares much the same general interface, which is still often used for incremental backups, even if local.
+
+rnr   regex renaming utility that actually works well
 
 
 #### diff
@@ -4326,6 +4372,7 @@ named pipes must be deleted manually (via rm)
 ##### links
 
 ln creates hardlinks by default, and symlinks with -/--symbolic.
+ln orders its arguments the same way cp would.
 symlink is short for symbolic link.
 A symbolic link is a file that is a reference to another file in form of a path.
 If the file a symbolic link points to is moved, the symbolic link now points to nothing.
@@ -4469,6 +4516,7 @@ ffmpeg input and stream index are zero-based
 input-output-options
 -ss <position>|seek to position
 -to <position>|stop at position
+<code>-preset FOO</code>   set the speed (and thus the effectiveness) of the encoding (values such as veryfast, medium, slow...)
 
 ###### images / combined
 
@@ -4481,6 +4529,7 @@ imgcat|in-terminal image viewer
 
 unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
+gifsicle is a CLI program to manipulate gifs
 
 #### plaintext
 
@@ -5208,6 +5257,13 @@ DDR  Double data rate
 ### chipset
 
 <img src="sm_chipset.svg">
+The chipset is responsible for data flow between the processor, memory and other components
+In the past, the northbridge and southbridge made up the chipset.
+The northbridge controlled/connected the faster components such as the CPU, memory, PCIe.
+the southbridge controlled/connected IO, PCI/AGP.
+When they still existed northbridge and the southbridge were connected.
+Over time, more and more of especially northbridge chipset functions moved onto the SoC, and so the chipset is as of 2020 generally just one chip. 
+Slowly, even the functions of the one chip left of the chipset are moving onto the SoC itself.
 
 ### assembler
 
@@ -5220,6 +5276,9 @@ scheduling is the action of assigning resources to perform tasks.
 In the context of processors, scheduling is the assigment of processor cores to execute threads.
 
 ## layering on hardware 
+
+firmware is software that is hard to change, often because it's physically built in.
+BIOS and UEFI are both firmware, though BIOS is firmer.
 
 ### hardware interfaces
 
@@ -5310,6 +5369,32 @@ macOs|launchd
 
 # security
 
+## authentication
+
+Authentication is proving one's identity.
+
+### challenge-response
+
+challenge–response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
+
+#### passwords
+
+#### CAPTCHA
+
+Captcha is short for "completely automated public turing test (to tell) computers (and) humans apart"
+A CAPTCHA is a challenge-response test to prove that the user is a human.
+The requirement for a captcha is that computers should not be able to pass it, but should be able to grade it
+Captchas were invented around 2000
+The original generation of captchas used text
+Originally, the text of captchas was generated and distorted, later (e.g. in recaptha) hard-to-read text from scanning books was used
+Google's implementation of captcha is known as reCaptcha
+The first (v1) generation of ReCAPTCHA would show users one word that was known, and one word that was difficult to automatically OCR.
+in ReCAPTCHA v1 of the two words, if the known word was correct, the unknown one would be labelled as probably correct too
+ReCAPTCHA v1 was fed off of and used to scan books.
+reCAPTCHA v2 displays only a single checkbox, and uses behavioral analysis to check the risk of a bot. If high risk, an image captcha is displayed.
+ReCAPTCHA v2 is being used to train the image recognition of google's AI
+reCAPTCHA v3 checks if you are a bot purely based giving you a score in the background
+
 ## crypt
 
 {{c1::a cipher}} is an algorithm for performing encryption/decryption
@@ -5359,6 +5444,9 @@ A slow loris is easy to pull off, because it needs very little bandwith and only
 
 ## global
 
+OS|Operating System
+roughly, the OS could be considered the layer between hardware and programs
+
 ### userland
 
 #### clipboard
@@ -5383,6 +5471,32 @@ dunst is a minimal notification server/daemon.
 to send notifications on linux, you can use the CLI notify-send.
 
 ### kernelland
+
+### installation
+
+A live USB is a USB stick which contains an OS that can be booted grom.
+Many live USBs allow installation from them as well.
+Unetbootin is a cross-platform untility for creating bootable USBs
+
+### virtualization
+
+Virtualization is creating something virtual instead of something real.
+For the isolated execution of programs, generally either virtual-machine-based virtualization or os-level virtualiztion is used.
+A virtual machine is a form of virtualization where an entire operating system is virtualized.
+
+#### OS-level virtualization
+
+chroot changes the root directory of a process, preventing it from changing anything outside.
+A chroot jail is the environment set up by chroot.
+Often, the basis of OS-level virtualization is a chroot jail.
+OS-level virtualization is where multiple isolated user space instances exist on the same OS.
+Containerization is (is an implementation) of OS-level virtualization, which generally refers to specifically using OS-level virtualization for running one app, including all its dependencies and its own fs.
+Using OS-level virtualization/containerization, interactions with the larger OS is only allowed through limited, specified channels.
+An application being contained in a container is said to be containerized.
+Containerization improves security and portability.
+Containerization is the standard for most mobile operating systems.
+Containerization may limit functionality and increase size (since dependencies cannot be shared)
+Docker is the most common service for os-level virtualiztion/containerization.
 
 ## windows
 
@@ -5452,9 +5566,29 @@ pango is a linux library for international text rednering.
 
 ####### X
 
-X11 thingies installed by default live in /usr/share/X11
-X11 local config changes live in /etc/X11
+the X window system is the whole thing with X servers, X clients, an X server, X11, ...
+The core part of the X window system is the X server.
+the Xorg X server is the main implementation of the X Server
+by default, the X server handles displays and kb/mouse.
+When something of interest happens, the X server sends events to its clients.
+The X server handles the actual displaying to the display.
+If one wants to display something using X, one sends an request to the X Server.
+X11 is the communication protocol of the X window system.
+X clients are things such as individual applications.
+X clients may be anywhere, including on another computer.
+
+X thingies installed by default live in /usr/share/X11
+X local config changes live in /etc/X11
 xorg is configured in X11/xorg.conf(.d)
+
+######## window manager
+
+In Unix, a window manager handles window management.
+to the X window system, the window manager is just another client.
+A window manager does things such as resizing, minimizing, closing
+wmctrl   Manage an X window manager
+A desktop environment is a window manager plus a set of base applications and some other stuff such as a clipboard manager, toolbar, etc.
+Well-known desktop environments are GNOME, KDE, XFCE, Unity...
 
 ######## starting X
 
@@ -5586,12 +5720,6 @@ mozc is a plugin for ibus/fcitx/whatever for japanese input.
 ibus-daemon is the command for managing ibus
 fcitx-configtool allows managing fcitx graphically.
 
-##### GUI
-
-###### X
-
-wmctrl   Manage an X window manager
-
 ##### state change
 
 <code>shutdown</code>|shutting your system down
@@ -5685,9 +5813,13 @@ The kernel maps the file descriptors the file descriptor table of a single proce
 The file table is a system-wide table of all open files.
 The file table contains reference to the relevant inodes.
 Each process has three file descriptors allocated automatically, namely for the standard streams.
+the standard streams consist of stdin, stdout and stderr
+The standard streams different from other file descriptors is that they are always allocated automatically, and that many mechanisms will use them by default.
 stdin   0
 stdout   1
 stderr   2
+
+using `-` to refer to stdin or stdout is a common convention specified by posiz, but not a feature of the shell or anything else
 
 #### daemons
 
@@ -6226,8 +6358,23 @@ After the preceding expansions, all unquoted occurrences of the characters ‘\�
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
-redirecting input [<n>]<[&]<word>
-redirecting output [<n>]>[\||>][&]<word>
+redirecting input [<n>]<[&](<path>|<n>)
+redirecting output [<n>]>[>|\|][&](<path>|<n>)
+
+redirecting input opens the file for reading at file descriptor <n> (most commonly standard input)
+redirecting output opens the file for writing at file descriptor <n> (most commonly standard input)
+clobbering a file is to overwrite its contents.
+redirecting ouptut will clobber by default, unless noclobber is enabled, in which case > must be followed by | to force clobbering
+redirecting output will append instead of clobber if > is used instead of >>
+if one wants to redirect standard output and error at the same time, there is the short form &><path> or >&<path>, of which the first is preferred. adding another > appends instead, as per usual.
+<n><&<n> <n>>&<n> make the first file descriptor <n> refer to the same file as the second file descriptor <n> is pointing to.
+e.g. 1>out.txt 2>&1  make the file descriptor 1 refer to the same file as the file descriptor 2
+<n>>&- or <n><&- close the file descriptor <n>.
+<n>>&<n>- or <n><&<n>- make the first file descriptor <n> refer to the same file as the second file descriptor <n> is pointing to, and then close the second file descriptor <n> (basically a move)
+using <> instead of < or > opens the file in read&write mode
+using <> and & allows one to read from and write to the same file
+
+for redirecting, the <n> before the < or > may be the number of any file descriptor, though the standard streams are most common.
 
 1> may be abbreviated > 
 0< may be abbreviated <
@@ -6262,6 +6409,8 @@ The default behavior in a pipe is for the writing and reading ends of a pipe is 
 When in a pipeline, the write file descriptor is connected to the stdout of the first process and the read file descriptor is connected to the stdin of the second process.
 
 When the second process reads from the buffer created by a pipe, this is called draining the pipe.
+
+theoretically, any program that reads from stdin should read from terminal input if given no standard input (as cat does), however some programs don't.
 
 ######## liquid (semantically appropriate)
 
@@ -7417,8 +7566,6 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
 #### REST
 
-##### six principles (alphabetical)
-
 {{c1::REST}} is short for {{c2::Representational State Transfer}}
 {{c2::REST}} is a set of {{c1::constraints}}/{{c1::design principles}} for {{c3::APIs}}
 {{c1::REST}} as an idea was created in {{c2::2000}} by {{c3::Roy Fielding}} in his {{c4::doctoral dissertation}}
@@ -7427,6 +7574,11 @@ While REST is theoretically implementation-independent, REST APIs generally tran
 sometimes, HTTP APIs are called REST APIs even if they don't follow all constraints
 an API following REST is often called RESTful
 for the client-server constraint of REST to be met, client and server should be independent of each other, as long as the interface is not altered
+Code on demand as a REST API constraint means that a REST endpoint may return code to execcute
+RESTful APIs must be stateless, that is, the server does not have state, but rather any state information is transmitted by the client
+The thing a RESTful API returns is called aaresource
+
+##### six principles (alphabetical)
 
 Cacheability
 Client-server achitecture/decoupling
@@ -7442,6 +7594,7 @@ HATEOAS(Hypermedia as the Engine of Application State) is part of the uniform in
 HATEOAS requires the responses of an API to contain all the relevant hyperlinks for further requests/action
 in a RESTful API following HATEOAS, the API may change its URLs without creating incompatibilites
 in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
+Access in a RESTful API following HATEOAS is similar to a web-browsing user hitting a home page and finding their way from there
 
 #### OAuth
 
@@ -7510,8 +7663,10 @@ Telegraphs were operated by telegraph operators until the advent of teh writing 
 
 #### telex
 
+<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">
 Telex was the network of teleprinters common in a large part of the 20th century.
-Rough synonyms: {{c1::Teletype}}, {{c2::Teleprinter}}, {{c3::Telex <sub>theoretically the network standard, but in practice used mostly for the machine</sub>}}, {{c4::TTY}} (abk.), teletype(writer)
+Rough synonyms (not abbreviations): Teleprinter, Teletypewriter, Telex
+Abbreviations: teletypewriter -> teletype -> tty
 Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer for output.
 Video terminals then came to replace teletypewriters especially for computer IO
 Teletypewriters + video terminals = physical/hardware terminals.
@@ -7561,6 +7716,10 @@ lynx, w3m|text-based browser
 Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
 
+###### file-sharing
+
+ephemeral file-sharing sites allow you to upload files which expire after a while
+
 ###### performance
 
 lazy loading is loading things only when needed.
@@ -7597,21 +7756,34 @@ Between  the <code>defer</code> and <code>async</code> attributes, async execute
 
 ####### minification
 
+Source maps allow mapping minfied/compressed/otherwise transformed code back to the original source
 to indicate a source map, at the bottom of the optimized file, add a magic comment or use the http header
 source map magic comment: //# sourceMappingURL=foo/bar.js.map 
 
 ####### Google speed
 
-PageSpeed Insights|Lab data & realworld data|Web Vitals
-Lighthouse|only lab data|Web Vitals & other data
+PageSpeed Insights|Lab data & realworld data|Web Vitals|only website by default
+Lighthouse|only lab data|Web Vitals & other data|GUI (devtools & website), CLI, CI pipeline
+
+Lighthouse's Performance audits provides a grade consisting of (the scores of individual) metrics, but also offers opportunities and diagnostics::d... as ways to improve the metrics
+Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibility, and SEO.
 
 {{c1::Web Vitals}} are the stats that {{c2::google}} measures to judge {{c3::the user experience of your websites}}
 {{c1::Core Web Vitals}} are the subset of {{c2::Web Vitals}} that {{c3::apply to all web pages (and are thus considered very important)}}
-The current (2020 onwards) {{c4::Core Web Vitals}} are the {{c1::Largest Contentful Paint}}, the {{c2::First Input Delay}}, and the {{c3::Cumulative Layout Shift}}
+as of 2020, there are 3 core web vitals
+Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals & Lighthouse Metrics
+First Input Delay|Core Web Vitals 
+First Contentful Paint, Speed Index, Time to Interactive, Total Blocking Time|Lighthouse Metrics
 
 A {{c1::layout shift}} is when a {{c2::visible element}} {{c3::shifts position}} between {{c4::render frames}} (in bad cases causing users to e.g. {{c5::click the wrong button}})
 {{c1::Cumulative Layout Shift (CLS)}} is how google measures the {{c2::badness}} of the {{c3::layout shifts}} you've going on
 The {{c1::largest contentful paint}} is when the {{c2::largest media/text block}} (which elements are exactly considered is more complicated) loaded, relative to {{c3::when the page first started loading}}
+
+
+a {{c1::long task}} is when {{c2::the main JS thread}} is {{c3::blocked}} for more than {{c4::50ms}}
+{{c1::Total Blocking Time}} as a Lighthouse metric measures {{c2::cumulative length}} of {{c3::long tasks}} between {{c4::First Contentful Paint}} and {{c5::Time To Interactive}}
+the {{c1::Lighthouse Speed Index}} is how quickly {{c2::the viewport is visually populated with content}}
+{{c1::Time to Interactive}} as a {{c2::lighthouse}} metric is the time it takes for a page to {{c3::become fully interactive}}
 
 CLS  Cumulative Layout Shift 
 FCP  First Contentful Paint
@@ -7624,6 +7796,7 @@ LCP  Largest contentful paint
 
 A thin client is a low-performance computer that mainly exists to connect with a server, which handles most of the computing & storage.
 A zero client is a thin client driven to extremes, so that it has no local storage and barely any computing ability of its own.
+Hardware terminals are basically zero clients.
 a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
 
 # applications
@@ -7713,6 +7886,17 @@ lsusb   list USB devices
 # standards
 
 unofficial extensions are generally indicated x-whatever
+
+## licenses
+
+A rights managed license allows only specific uses.
+A royalty-free item is one with a license which allows unlimited uses without paying any more money.
+
+### CC
+
+The three attributes that a CC license can require (or not) are Attribution, Share Alike, No Derivates.
+As of 2013, the newest version of CC is 4.0
+CC0 releases the work into the public domain.
 
 ## identifiers
 
@@ -10395,6 +10579,9 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 #### server
 
 CMS|Content Management System
+SSR|Server-side Rendering
+{{c3::Routing}} is relating {{c1::paths}} to {{c2::what should be shown}}
+while {{c5::react}} is by default a {{c1::client-side-rendered}} thing, using {{c2::next.js}}, {{c3::gatsbyjs}} or {{c4::other custom tools}}, you can make it {{c1::SSR}}
 
 ##### JS
 
@@ -10447,7 +10634,7 @@ echo options
 -n|no trailing newline
 
 Print functions using format strings
-printf|(ba)sh|C (ofc)|Perl|Ruby
+printf|(ba)sh, but it doesn't take format strings any more than echo|C (ofc)|Perl|Ruby
 string.format|Lua
 % syntax|Python
 
@@ -10463,7 +10650,9 @@ console.clear()|js
 console.count(foo)   count how many times a string foo has been printed
 
 the sh printing commands all don't read from STDIN
-besides taking format strings, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
+besides taking more options, printf has exit codes other than 0 (echo always exits 0), echo adds a "\n" at the end while printf doesn't
+printf options
+-v foo|save the output in a variable foo
 
 #### system
 
@@ -10964,18 +11153,32 @@ symbol rate   symbol changes per second
 
 {{c1::Computer vision (CV)}} is a field of study that aims to get {{c2::artificial systems / AI}} to get {{c3::meaningful information / understanding}} from {{c4::digital images/videos/whatever}}.
 
+### safety
+
+#### technological singularity
+
+The technological singularity is a hypothetical point at which technological progress reaches critical mass and becomes uncontrollable, causing severe but unpredictable changes.
+Most commonly, the technological singularity is cashed out in terms of a intelligence explosion.
+An intelligence explosion posits that there willl be a runaway reaction of self-improvement cycles of an AI, thereby bringing about the technological singularity.
+
 # software engineering
 
 Software engineering is term where the definition is often fought over.
 Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
 
-## software architecture
+## software design
+
+### decomposition
+
+Decomposition is breaking down the problem into smaller parts.
+
+### software architecture
 
 Software architecture refers to the fundamental structures of software/development and creating those structures.
 
-### properties
+#### properties
 
-#### coupling & cohesion
+##### coupling & cohesion
 
 https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
 cohesion is the degree to which the elements inside a module belong together.
@@ -10986,7 +11189,7 @@ high coupling generally implies loose cohesion and v.v.
 A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
 The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
 
-### solution stack
+#### solution stack
 
 A software/solution stack is the set of technologies that are layered/combined to run something (most often an application)
 A developer than can work with all layers in a solution stack is a full-stack developer
@@ -10996,9 +11199,9 @@ MEAN includes Angular
 MERN includes React
 MEVN includes Vue.js
 
-### design patterns
+#### design patterns
 
-#### MVC
+##### MVC
 
 MVC = Model View Controller
 
@@ -11063,6 +11266,9 @@ An IDE is a software development tool that aims to include everything relevant t
 
 ## QA
 
+QA = Quality assurance
+QA are the activities done to make sure that the product meets certain standards.
+
 {{c1::wave a dead chicken (over it)}}: To perform a ritual over {{c4::crashed software or hardware}} which one {{c2::believes to be futile}} but is {{c3::nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.}}
 
 ### code review
@@ -11070,6 +11276,15 @@ An IDE is a software development tool that aims to include everything relevant t
 Code review may be by any other peer or by some authority related to the project (depending on the purpose)
 Code review is when another agent analyzes  the source code for bugs/errors/code quality
 Code review may be performed by human agents or automated code review tools
+
+### bugs
+
+A regression is something that used to work no longer working.
+
+### solutions
+
+Bodge ≈ kludge
+A bodge/kludge is a solution to a problem that is quick to implement but inelegant and hard to maintain.
 
 ### testing
 
@@ -11376,14 +11591,6 @@ There are more JS build tools than you can shake a stick at. The most common is 
 webpack-cli is the command for administering webpack
 Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
 
-### contaienrs
-
-Containerization isolates software from the rest of the environment it lives in, allowing interaction only through limited, specified channels.
-A container often also includes software's dependencies within the container.
-An application being contained in a container is said to be containerized.
-Containerization improves security and portability.
-Containerization is the standard for most mobile operating systems.
-Containerization may limit functionality and increase size (since dependencies cannot be shared)
 
 ### mapping
 
