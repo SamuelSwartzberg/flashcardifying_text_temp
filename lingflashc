@@ -2936,6 +2936,8 @@ Serifs are these little bits sticking out of some letters.
 <img src="sm_tmprdkiv_z1.jpg">
 One major axis along which font families are distinguished is if they have serifs or not.
 {{c1::installing custom font families}} is possible on {{c2::most desktop os}}, but not on {{c3::android}} (and ofc not on {{c4::ios}})
+A monospaced font where all characters occupy the same horizontal space.
+A font that is not monospaced is proportional-width.
 
 ##### macrotypography
 
@@ -3029,7 +3031,12 @@ ortographically shallow|spanish, japanese
 #### encoding
 
 Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
-If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or questio mark.
+If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or question mark.
+
+##### font
+
+a computer font is a file containing a set of glyphs for certain characters.
+There are two main types of computer fonts, based on how they store characters: bitmap and vector/outline, with the advantages and disadvatages you would expect.
 
 ## diachronic
 
