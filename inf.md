@@ -2315,7 +2315,7 @@ CSS converts the DOM to a flattened element tree, which is the same but has shad
 CSS takes the flattened element tree and converts it to an intermediary structure, the box tree.
 To create the box tree, CSS first gets the computed value for each CSS property for each element. Then CSS generates zero or more boxes for each element as specified by that elements display property.
 Typically, CSS generates one box per element, the principal box.
-Typically, CSS generates one text run per contiguous sequence of simbling text nodes.
+Typically, CSS generates one text run per contiguous sequence of sibling text nodes in the DOM tree.
 CSS may generate more than one box for an element, or none at all.
 For example, display: list-item generates a principal block box and a child marker box.
 A block box is a block-level box that is also a block container.
@@ -2413,7 +2413,7 @@ block-level elements can have their height and width set manually, while inline-
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
 <img src="sm_inline_margins.png">
 Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
-inline-level elements and text nodes are handled via an inline formatting context using line boxes.
+inline-level elements and text runs are handled via an inline formatting context using line boxes.
 Whenever the browser encounters inline elements wiwthin a block container, it creates a new root inline box which establishes an inline formatting context.
 CSS fragments inline-level elements into a stack of fragmentainers called line boxes, which are inserted into the root inline box.
 the browser will fill a line box in the inline base direction with inline-level elements or text until it is full.
@@ -3535,9 +3535,10 @@ mark|yellow highlighter|highlighted ≈ area of interest
 non-breaking space|\nonbreakspace or ~|&amp;nbsp;
 ampersand||&amp;amp;
 non-breaking hyphen|"~
-soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;
+soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
 "=
 if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
+zero-width space||<wbr> or &amp;#8203;
 
 hyperref|create links automatically and \href, \url commands
 
@@ -7236,6 +7237,11 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 
 By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
 
+######### Content Negotiation
+
+Content Negotiation is a mechanism of HTTP that allows serving different versions of a document at the same URI depending on the prefrences of the user agent.
+The headers for content negotiation are Accept and Accept-Language, Accept-Charset, Accept-Encoding
+
 ######## CDN
 
 CDN = content delivery network or content distribution network
@@ -7709,7 +7715,9 @@ The main organization working on web standards is the W3C.
 World Wide Web Consortium = W3C
 A web site is a collection of web pages, generally one that share a domain name/FQDN
 
-###### browsers
+###### user agents
+
+User agent may mean any device that accesses web services for an user, or autohyponymously to a web browser specifically, or to the HTTP header User-Agent.
 
 lynx, w3m|text-based browser
 
@@ -8018,6 +8026,10 @@ FOSS|Free and open source software
 
 OP|Original Poster
 
+## technology change
+
+<img src="gartner_hype.svg">|gartner's hype cycle (seems to hold relatively rarely)
+
 # programming (mostly)
 
 ## Expressions
@@ -8289,9 +8301,9 @@ monomorphization is a compile-time process in which polymorphic code is transfor
 ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
 -> callable unit overloading, operator overloading
 
-### dispatch (prob belongs somewhere else)
+### dispatch
 
-dispatch is choosing which method should be invoked in response to a method
+dispatch is choosing which method should be invoked in response to a method call.
 displatch is based on the type of the thing
 dispatch is only relevant if there are multiple implementations of a thing.
 
@@ -8315,7 +8327,8 @@ both single dispatch and multiple dispatch are forms of dynamic dispatch
 
 single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
 
-multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on) as well as the method parameters is used to choose the implementation
+multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on as well as the method parameters) is used to choose the implementation
+Overloading would be multiple dispatch if it was performed at runtime, but it isn't, so it isn't.
 
 ### parametric polymorphism
 
@@ -8359,6 +8372,8 @@ For an identifier to reference something is to the identifier bound to that thin
 Binding is intimately connected with scoping, as scope determines which names bind to which objects.
 static = early binding is name binding during compile-time
 dynamic = late binding is name binding during runtime
+dynamic/late binding enables duck typing
+duck typing is calling a method without caring about its type, and seeing if it works.
 
 #### namespaces
 
@@ -8910,6 +8925,41 @@ In Java and C#, to indicate a float literal you must add f as a suffix. any numb
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
 TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
 
+#### methods
+
+Object/Struct/whatever for standard math operations
+Math|JS
+math|Python
+
+get a random number
+&lt;mathobj&gt;.random()|JS
+
+floor/ceiling function
+&lt;mathobj&gt;.floor()/.ceil()|Python|JS
+&lt;thingItself&gt;.floor()/.ceil()|Ruby
+
+Is a thing an integer?
+Number.isInteger(foo)|JS
+
+Truncate decimal places (not rounding)
+&lt;mathobj&gt;.trunc(num)|JS
+
+Round to fixed amount of decimal places
+somenumber.toFixed(num)|JS
+
+Round a number
+&lt;mathobj&gt;.round()|JS|Python
+
+Get absolute value of something
+&lt;mathobj&gt;.abs()|JS
+abs()|Python (y, it's not on the math obj)
+
+Square root
+&lt;mathobj&gt;.sqrt()|JS|Python
+
+Is the thing an Integer?
+Number.isInteger(foo)|JS
+
 ### enums
 
 Enum is short for enumeration or enumerated datatype.
@@ -8966,7 +9016,7 @@ ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
 JS: class Set, create via new Set(), add(), has()
 
-### Set operations
+###### Set operations
 
 Many languages/libraries have generalized set operations to something you can do to most/all collection types.
 Python has set methods, but only allows them on sets.
@@ -9074,6 +9124,16 @@ Computed property names allows you to put any expression on the left-hand side o
 
 Rust: Has the entry() function go get a Entry
 
+####### assoc-array files
+
+typically, most languages have modules/libraries called json/yaml for json/yaml processing.
+JS calles its json/yaml libraries JSON/YAML.
+<j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
+<j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
+<j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
+
+to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
+
 ####### misc
 
 tables are actually the only data structure in lua
@@ -9136,8 +9196,21 @@ somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...)
 
 TODO string as iterable
 Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
+Since strings are semantically and often also by implementation similar to linear collections, their methods often are the same.
 
-##### Array##### 
+###### methods
+
+get (first) index of element/substring in string or linear collection
+foo.index(bar, optionalStartIndex)|Python
+foo.indexOf(bar, optionalStartIndex)|JS (returns -1 if ti could not be found)
+
+get (last) index of element/substring in string or linear collection
+foo.lastIndexOf(bar, optionalStartIndex)|JS
+
+Concatenate multiple strings/ arrays at the end of an existing string/array
+stringOrArray.concat(stringsOrArrays)|JS|Ruby
+
+##### Array
 
 An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
@@ -9266,6 +9339,62 @@ dequeue: remove from the front of the queue
 peek: look a the next element that would be dequeued
 <img src="sm_450px-Data_Queue.svg.png">
 
+### intersection of iterators, strings, linear collections
+
+#### slicing and ranges
+
+Slice and range syntax is often similar.
+For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
+For ranges, different programming languages need them to be surrounded by () at different times.
+start..end_incl|Ruby|Perl|Liquid (range only)
+start..end_excl|Rust
+start...end_excl|Ruby
+start..=end_incl|Rust
+
+##### Slicing
+
+Slicing is extracting a subset of elements from a data structure.
+Slicing is most commonly performed on linear collections or strings.
+In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
+In general, using a negative index for step will reverse the thing.
+In python you can assign to slices, delete them, etc.
+
+[start:end_excl:step]|Python
+.slice(start, end_excl)|JS
+.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
+[start,length]Ruby
+
+##### ranges
+
+Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
+Step is pretty much always optional.
+
+range(start, stop, step)|python|lodash/underscore (js)
+seq start step stop|sh
+
+Bash calls its range syntax a <dfn>sequence expression</dfn>.
+Bash also supports characters as start and stop.
+
+#### misc
+
+does the thing contain the thing?
+include?|Ruby (Array, String, Enumerable)
+includes()|JS (Array, String)
+
+Is there a truthy value in an iterable
+any(iterable)|Python
+
+Are all the values in an iterable truthy 
+all(iterable)|Python
+
+Sum up all the elements in an iterable
+sum(iterable)|Python
+enumerableWhichIsJustASynonymForIterable.sum()|Ruby
+
+
+count occurrences of element
+foo.count(bar)|Python|Ruby
+no easy way|JS
 
 ### Iterators
 
@@ -9290,11 +9419,6 @@ Returning the current iterator element
 yield|JS
 
 yield another generator (JS) yield*
-
-### chars
-
-The datatype storing a single character is generally called char.
-In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
 ### Strings
 
@@ -9330,7 +9454,12 @@ Strings that stretch over multiple lines in source code but are actually folded 
 
 The type for css strings is <string>
 
-#### String interpolation/String formatting#### 
+#### chars
+
+The datatype storing a single character is generally called char.
+In rust, a char contains a single UTF-32 encoded unicode codepoint.
+
+#### String interpolation/String formatting
 
 String interpolation is evaluating a string with placeholders and replacing them with their values
 String interpolation is a form of template processing (cf other cards)
@@ -9518,6 +9647,13 @@ test has a number of options/operators for file existence and type
 greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
 Comparing a thing with itself is always true, except for: 
 in JS, NaN
+
+##### interfaces
+
+Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
+
+is x between foo and bar?
+x.between?(foo, bar)|Ruby
 
 #### string relational operators
 
@@ -9921,6 +10057,9 @@ Named arguments usually use normal assignment syntax
 named parameters|Python|JS|SCSS/Sass @mixin, @function
 positional parameters|pretty much all languages
 
+Move remove the first positional argument and shift all arguments one to the left
+shift|Perl|sh
+
 #### Default parameters
 
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
@@ -10254,8 +10393,6 @@ In interfaces in Java/C#, you most commonly merely specify method stubs. (in the
 Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
 In most languages, a record may implement multiple interfaces/traits.
 
-Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
-
 ##### Traits
 
 Traits in Rust are broadly similar to intefaces in other programming languages.
@@ -10578,6 +10715,7 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 
 #### server
 
+Web servers provide web pages.
 CMS|Content Management System
 SSR|Server-side Rendering
 {{c3::Routing}} is relating {{c1::paths}} to {{c2::what should be shown}}
@@ -10732,100 +10870,21 @@ the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
 
-count occurrences of element
-foo.count(bar)|Python|Ruby
-no easy way|JS
-
-get (first) index of element/substring in string or linear collection
-foo.index(bar, optionalStartIndex)|Python
-foo.indexOf(bar, optionalStartIndex)|JS (returns -1 if ti could not be found)
-
-get (last) index of element/substring in string or linear collection
-foo.lastIndexOf(bar, optionalStartIndex)|JS
 
 get list of all functions a module/package supports
 dir(foo)|Python
-
-get a random number
-&lt;mathobj&gt;.random()|JS
-
-floor/ceiling function
-&lt;mathobj&gt;.floor()/.ceil()|Python|JS
-&lt;thingItself&gt;.floor()/.ceil()|Ruby
-
-Is a thing an integer?
-Number.isInteger(foo)|JS
 
 get the smallest/largest of an amount of arguments
 min()/max()|Python (also accepts an iterable as an argument)
 Math.min()/Math.max()|JS
 
-Truncate decimal places (not rounding)
-&lt;mathobj&gt;.trunc(num)|JS
-
-Round to fixed amount of decimal places
-somenumber.toFixed(num)|JS
-
-Round a number
-&lt;mathobj&gt;.round()|JS|Python
-
-Get absolute value of something
-&lt;mathobj&gt;.abs()|JS
-abs()|Python (y, it's not on the math obj)
-
-Square root
-&lt;mathobj&gt;.sqrt()|JS|Python
-
-Is the thing an Integer?
-Number.isInteger(foo)|JS
-
 Get documentation information on the thing
 help(foo)|Python
-
-Sort the thing 
-
-
-Move remove the first argument and shift all arguments one to the left
-shift|Perl|sh
-
-does the thing contain the thing?
-include?|Ruby
-includes()|JS
-
-is x between foo and bar?
-x.between?(foo, bar)|Ruby
 
 Show an output popup
 window.alert("mesg")
 
-Concatenate multiple strings/ arrays at the end of an existing string/array
-stringOrArray.concat(stringsOrArrays)|JS|Ruby
-
-Is there a truthy value in an iterable
-any(iterable)|Python
-
-Are all the values in an iterable truthy 
-all(iterable)|Python
-
-Sum up all the elements in an iterable
-sum(iterable)|Python
-enumerableWhichIsJustASynonymForIterable.sum()|Ruby
-
-#### assoc-array files
-
-typically, most languages have modules/libraries called json/yaml for json/yaml processing.
-JS calles its json/yaml libraries JSON/YAML.
-<j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
-<j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
-<j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
-
-to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
-
 #### Modules/Objects/Namespaces
-
-Object/Struct/whatever for standard math operations
-Math|JS
-math|Python
 
 Filesystem handling
 fs|node
@@ -10837,41 +10896,13 @@ Generally, show a message, have a text input field, return the inputted text.
 input(mesg)|Python
 window.prompt(mesg, default)
 
-#### slicing and ranges
-
-Slice and range syntax is often similar.
-For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
-For ranges, different programming languages need them to be surrounded by () at different times.
-start..end_incl|Ruby|Perl|Liquid (range only)
-start..end_excl|Rust
-start...end_excl|Ruby
-start..=end_incl|Rust
-
-##### Slicing
-
-Slicing is extracting a subset of elements from a data structure.
-Slicing is most commonly performed on linear collections or strings.
-In most cases, omitting the start defaults to 0, and omitting the end defaults to the maximum value (last element/slength)
-In general, using a negative index for step will reverse the thing.
-In python you can assign to slices, delete them, etc.
-
-[start:end_excl:step]|Python
-.slice(start, end_excl)|JS
-.substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
-[start,length]Ruby
-
-##### ranges
-
-Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
-Step is pretty much always optional.
-
-range(start, stop, step)|python|lodash/underscore (js)
-seq start step stop|sh
-
-Bash calls its range syntax a <dfn>sequence expression</dfn>.
-Bash also supports characters as start and stop.
-
 ### other libraries
+
+#### utility libraries
+
+An utility library is a library that adds a bunch of syntactic sugar methods for doing things.
+in JS, there is the tradition of importing the main utility library as `_`.
+As of 2021 the main js utility is lodash, before that it was underscore.
 
 #### presentations
 
@@ -11708,6 +11739,9 @@ Mobile development is centered around a core IDE, Android Studio for android and
 # Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
+hot whatever|doing whatever while the system is still running
+cold whatever|doing whatever while the system is not running
+hot swapping may be of components, or of software
 
 ## Indexing
 
@@ -11965,6 +11999,18 @@ U+FB00 (the typographic ligature "ﬀ") and U+0066 U+0066 (two Latin "f" letters
 Canonical equvalency is a subset of compatibility.
 two unicode characters are canonically equivalent if they display the same and have the same meaning.
 Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
+
+#### directionality
+
+In unicode, strongly typed characters have an associated direction (LTR or RTL)
+In unicode, characters are strongly typed, or are neutral/weak.
+The unicode-bidi algorithm produces directional runs of sequences of characters of contiguous characters with same directionality.
+neutral characters become part of the same directional run between two strongly typed characters of the same direction.
+In unicode, characters like punctuation, spaces and numbers are weak.
+neutral characters between two strongly typed characters of opposite directions become part of the directional run become part of the run in the inline base direction.
+<bdo> is for the cases in which you don't want the bidirectional algorithm to anything at all, e.g. if you want to show the order of characters in memory.
+<bdi> is for wrapping text whose directionality you can't predict, but which you don't want to absorb neutral characters on other sides.
+If one knows the directionality in advance, one doesn't need <bdi> to isolate an element from the bidi algorithm all, one can just add a span or whater with a dir attribute to force the directionality and isolate at the same time.
 
 #### encodings
 
