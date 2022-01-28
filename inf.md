@@ -396,6 +396,8 @@ submit|submit form data to server
 reset|reset form data
 button|no default behavior, must manually be implemented
 
+A button should have text content, or if not, it needs to be specified by aria-label
+
 ###### textarea
 
 textarea represents a multiline text input field
@@ -405,6 +407,7 @@ textarea is not an empty element, and in fact the content can be used to provide
 
 A <label> provides a caption/label for a thing, most commonly an <input>
 There are two ways of associating an <input> with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
+Any input should have exactly one <label>, or alternatively a non <label> referred to by aria-labelledby
 
 ###### input
 
@@ -731,17 +734,40 @@ enterkeyhint: is an enumerated attribute defining what action label (or icon) to
 Emmet is a syntax mainly using CSS selectors for quickly generating html
 Emmet is or can be integrated into most code editors
 In VSCode, to use emmet with JSX, enable it in the settings
-
-### JSX
-
-{{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
-Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
-$   running number indicator
+$   running number indicator  // $
 ()   groups element
 *x   create x amount of elements
 @   change the number direction/offsett
 ^   go up an element
 {something}   text (within the tag)
+
+### JSX
+
+{{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
+Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
+
+#### style props
+
+style props is using react props to change the style of a component
+style props are not enabled by default, but are used extensively in various react styling frameworks
+style props mostly are named as the css properties are, but in camelCase and often also have a few character shorthand 
+e.g. margin-top -> marginTop / mt
+<code>&lt;Box maxW="960px" mx="auto" /&gt;</code>   style props
+for style props, even in the unabbreviated camelCase spellings, some things are abbreviated, eg. background -> bg
+style props also offer some abbreviated values:
+linear/radial-gradient() -> linear/radial()
+to top, to top right, ... -> to-t, to-tr...
+using style props, we can also define 'states'. (not called that, this is my term)
+style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
+style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
+e.g. _hover={{ fontWeight: 'semibold' }}
+((h:all;::<img src="sm_2021-09-17--19-05-46-screenshot.jpg">))
+{{c1::chakra}} provides some {{c2::predefined shadows}} as style props with {{c3::boxShadow}}{{c4::="name"}}
+
+the sx prop is an escape hatch to CSS when style props are not enough.
+the sx prop takes an object whose keys can be CSS or the style prop superset.
+sx={{ filter: 'blur(8px)' }}
+use-cases for the sx prop are css variables, css properties for which there are no style props, nested selectors and custom media queries.
 
 ## environment ≈ Web APIs
 
@@ -1369,6 +1395,27 @@ shorthand properties in css try to not force a specific order, where semanticall
 If a value is not set within a shorthand property, it is set to its initial value, overriding subvalues.
 Using inherit as a value of many within a shorthand property is invalid.
 
+###### position
+
+position-values ::= static|relative|absolute|fixed|sticky.
+position: static is the default.
+A positioned element is an element with any position but static.
+A relatively positioned element is an element with position relative.
+An absolutely positioned element is an element with position relative or fixed.
+(only) for positioned elements, the `top`, `right`, `boottom`, `left` properties take effect
+position|top, right, bottom, left offset from|takes up how much space
+relative|where it would have been if it had position static|same as static
+absolute|closed positioned ancestor|none
+fixed|viewport or closest ancestor with tarnsform, perspective or filter set|none
+sticky|nearest scrolling and block-level ancestor|same as static
+
+top/right/bottom/left move the element away from the relevant edge, so that positive values for each have the effect of moving the element in the opposite direction
+between top and bottom, top wins.
+between left and right, the inline base direction wins.
+
+position: fixed will always be visible at the same position
+position: sticky will be in the flow of the document until scrolled to its offset specified by top, right, bottom, left, and then act like position: fixed
+
 ###### Cursor
 
 `cursor` sets how the cursor looks when mousing over (generally irrelevant for touchscreens).
@@ -1944,6 +1991,10 @@ cubic|4
 To construct a bezier function, one connect the points until one has only a curve between two points left.
 To construct a linear bezier function, connect P0 and P1. You're done (it's a straight line).
 To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> from 0 to 1. This point describes the quadratic bezier curve.
+
+<img src="sm_ZS4fP%20(1).png">
+<img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
+
 To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
 
 <img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
@@ -1954,10 +2005,10 @@ For the CSS cubic beziers only two points matter, the other two are fixed at (0|
 For cubic-bezier(), the four parameters represent x1, y1; x2, y2
 
 linear|<img src="sm_Screenshot%202020-06-02%20at%2001.59.05.png">
-ease-in-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.45.png">
-ease-in|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
-ease|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
-ease-out|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
+ease-in-out|cubic-bezier(0.42, 0, 0.58, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.03.45.png">
+ease-in|cubic-bezier(0.42, 0, 1.0, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
+ease|cubic-bezier(0.25, 0.1, 0.25, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
+ease-out|cubic-bezier(0, 0, 0.58, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
 
 ###### tables
 
@@ -2349,6 +2400,18 @@ image-rendering: auto - browser-defined algorithm
 
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
+
+### stacking changes
+
+Stacking contexts relate to each other in a tree.
+Only certain elements or elements with certain properties. establish a stacking context.
+The root element creates the root stacking context
+The hierarchy of stacking context is a subset of the hierarchy of HTML elements because only certain elements create stacking contexts.
+Within a stacking context, 
+stacking order: z-index beats 'is a positioned element' beats order of apperance in html
+stacking order of child stacking context is namespaced by the stacking order of parent stacking contexts, there is nothing a thing in a child stacking context can do to beat an aunt/uncle stacking order.
+z-index may only be applied to positioned elements.
+Isolation: isolate creates a new stacking context and prevents that element of being blended with mix-blend-mode.
 
 ### flow
 
@@ -2754,7 +2817,15 @@ It is important to keep in mind that a BEM entity is not a part of the name, rat
 
 #### CSS frameworks
 
+##### bootstrap
+
 next to its own technologies, bootstrap may require popper
+
+##### chakra
+
+{{c3::Chakra}} provides a sensible {{c2::default}} theme inspired by {{c1::Tailwind CSS}}
+
+###### components
 
 # data
 
@@ -3332,10 +3403,10 @@ A text-based menu is a type of menu that contains only text entries, most common
 ####### searchable 
 
 Many text-based menus are searchable by a type of fuzzy search.
-dmenu and its successor rofi are shell filters that act as a text-based fuzzily searchable menu.
+dmenu and its successor rofi as well as choose on mac are shell filters that act as a text-based fuzzily searchable menu.
 rofi can similate dmenu with the -dmenu argument
-dmenu/rofi create a menu entry for each item in stdin, where newline is treated as the delimiter by default
-dmenu/rofi output the selected item to stdout
+dmenu/rofi/choose create a menu entry for each item in stdin, where newline is treated as the delimiter by default
+dmenu/rofi/choose output the selected item to stdout
 
 ######## command palette / quick open menu
 
@@ -3805,17 +3876,20 @@ open|cannot be en/disabled
 
 #### sitemap
 
+sitemaps are XML, RSS/Atom, or .txt documents that describe the navigational structure of your site, and are often used by search engines
+
 #### search
 
-By linking to a site, you confer some of your sites reputation to that site
-
-v
+The most fundamental thing that influences your SEO is how many other links to your site exist, and who these sites linking to you are.
+By linking to a site, you confer some of your sites reputation to that site.
 SEO|Search engine optimization
 related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
+Google may penalize if you have a bunch of pages with basically the same content.
 
 ### Accessibility
 
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
+For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
 #### WAI & WCAG basics
 
@@ -3866,6 +3940,9 @@ ARIA {{c1::roles}} define the {{c2::main type of component}}, e.g. {{c3::toolbar
 ARIA {{c1::states}} define some property {{c2::that can change}}
 ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
 There are four types of aria {{c4::states}} &amp; {{c4::properties}}: {{c1::drag-and-drop}}, {{c2::live region}}, {{c3::relationship}}, and {{c5::widgets}}
+
+the {{c1::aria-label}} {{c2::attribute}} is for adding {{c3::a text description}} of {{c3::what something does}} where {{c4::the actual content doesn't suffice}}
+a reason for using aria-label might be e.g. because a close button is realized {{c4::with an icon font/an x}}
 
 # data storage
 
@@ -7038,6 +7115,42 @@ Frame contains IP packets contains segment/datagram contains application protoco
 TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
+<table style="table-layout: fixed">
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td style="background-color: palegreen;">Data</td>
+      <td></td>
+      <th><span class="all-scr c1-cloze">Application</span></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td style="background-color: #d8b;">UDP / TCP header</td>
+      <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data</td>
+      <td></td>
+      <th><span class="all-scr c2-cloze">Transport</span></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td style="background-color: #87e;">IP header</td>
+      <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data</td>
+      <td></td>
+      <th><span class="all-scr c3-cloze">Internet</span></th>
+    </tr>
+    <tr>
+      <td style="background-color: lightsalmon;">Frame header</td>
+      <td colspan="3" style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%); filter: brightness(0.8);">(Frame) data</td>
+      <td style="background-color: lightsalmon;">Frame footer</td>
+      <th><span class="all-scr c4-cloze">Link</span></th>
+    </tr>
+  </tbody>
+</table>
+<style> tr td {width: 15%} tr th {width: 40%} </style>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 ##### hardware
 
 layer no|layer name|device that moves things here
@@ -7737,8 +7850,26 @@ Access in a RESTful API following HATEOAS is similar to a web-browsing user hitt
 
 #### OAuth
 
+OAuth is short for Open Authorization
+The current version of OAuth  is OAuth 2
+Most APIs use OAuth for granting access to them, e.g. to monitor access and enforce API limits.
+OAuth is also commonly used to grant access to information of other accounts without giving up your password.
+OAuth is often used for logging in with Facebook, GitHub, Google, etc.
+In OAuth there are 4 roles/actors, the resource owner (= User), the client (= Application), Resource Server (= Where the accounts are located), and Authorization Server
+in OAuth, any client (= application) needs to register themselves with a resource server.
+When registering an application with a resource server, one needs to provide a callback URL, which is where the resource server will redirect users after registering. 
+After registering an applicationwith the resource server, it will issue a client ID and secret.
+the client ID is public, the secret must be kept private.
+client ID and secret are functionally the username and password of the application
+The permissions to be granted or not in OAuth are known as scopes.
+While the flow of OAuth using redirection etc. is the most common flow, there are others
+
 OAuth 2.0 (grant type: Authorization code)
 <img src="tmp7t5et6aw.png" />
+
+TODO transorm flow into ascii art maybe
+
+In general, when users want to sign in using OAuth:<ol><li>the application makes a request using its client id</li><li>The user sees a screen asking them to grant access</li><li>The user clicks ok (or not) and is redirected</li><li>We get an authorization code</li><li>We exchange the authorization code for an access token</li><li>We can now make API requests </li></ol>
 
 ### misc
 
@@ -7863,7 +7994,25 @@ ephemeral file-sharing sites allow you to upload files which expire after a whil
 
 ###### performance
 
+https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path
+https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
+TODO: More structure. How do these relate? WHat aspect of performance are they optimizing? Perhaps use PRPL as a structure, or something else, or a combination.
+
+####### speculative parsing
+
+Speculative parsing is that the browser will not block when hitting a script tag, but instead just continue parsing while fetching the script, and using the parsed DOM if the script hasn't modified it (which only really happens via document.write()).
+Speculative parsing does not apply to images/css/videos, which will not block even if speculative parsing is disabled (the fact that it doesn't is a common myth)
+
+####### lazy loading
+
 lazy loading is loading things only when needed.
+In general, one lazy-loads the things that are not critical to performance.
+To enable lazy loading for images and iframes, set loading="lazy", these images will only load once they are a specific distance away from the viewport.
+
+####### server push
+
+Server push allows the server to send along resources it knows the browser will need directly on the first HTTP request (without the browser having requested them)
+Server push is a feature of HTTP/2, used by specifying it in the HTTP header
 
 ####### minifcation
 
@@ -7887,10 +8036,14 @@ Render the initial route ASAP
 Pre-cache remaining assets
 Lazy-load other routes and non-critical assets
 
+the "render the initial route ASAP" of PRPL is basically "reduce time to first (contentful) paint"
+"render the initial route ASAP" can be achieved server-side by SSR/Static Generation, and client-side by stuff like async or defer (and maybe others)
+
 ######## P
 
 {{c1::&lt;link rel="preload"}} specifies that you {{c3::will need the resource very soon}}, and that it should be downloaded {{c2::asyncly}} with {{c2::high priority}}
 {{c1::&lt;link rel="preload"}} needs an {{c2::as=}}{{c3::"kind(e.g. style, script, image)"}}
+If you've specified a resource with &lt;link rel="preload", you still need to actually include it later
 
 ####### defer & async
 
@@ -7899,6 +8052,16 @@ Ignoring speculative parsing, when the browser hits a <script> tag, it blocks un
 Instead of the default behavior, the <code>defer</code> and <code>async</code> attribute of scripts tells the browser to load the script in the background.
 Between  the <code>defer</code> and <code>async</code> attributes, defer executes scripts loaded in the background {{c1::when the dom is fully built}}, in the order they were in the document
 Between  the <code>defer</code> and <code>async</code> attributes, async executes scripts loaded in the background {{c1::as soon as possible}}, in the order in which they load, no matter source order.
+
+####### RAIL
+
+RAIL is a performance model that centers on the user.
+RAIL is short for Response, Animation, Idle, Load.
+RAIL's perfomance model consists of goals for the four things of which it consists.
+Response|respond to user input within 100ms. To account for other background tasks, budget 50ms.
+Animation|provide an animation frame every 16ms (= 60FPS). Since browsers take about ~6ms to render a frame, budget max 10ms to calculate the frame. 
+Idle|Use idle time so that other goals are met. Perform work in idle time in bursts of 50ms or less so that the Response goal is met.
+Load|(subject to change with new technology) Load within 5s on first load and in 2s on subsequent loads on mobile.
 
 ####### minification
 
@@ -8152,6 +8315,20 @@ Using semver, for each of major, minor or patch you can instead specify a * to i
 
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
+
+## non-file formats
+
+### citations
+
+CSL|Citation Style Language 
+CSL is a standard for describing citations.
+CSL has XML, JSON, YAML realizations.
+The CSL-processor is citeproc.
+citation-js is a npm module and CLI for citation magic using various different formats.
+
+## misc
+
+Material design pioneered describing colors on the same 100 (or sometimes 50) to 900 scale as font weights, which has been adopted by other things such as bootstrap, chakra.
 
 # culture
 
@@ -11145,9 +11322,19 @@ A ((c:2;::deadlock)) is a situation where ((c:3;::each member of  a group)) is (
 
 ## metaprogramming
 
+metapgrogramming is programming that operates on other programs
 An eval is a keyword/function/which executes a passed string as if it had been an expression in the language.
 Using eval with data from an untrusted source is a huge security risk.
 eval is a function in bash, JS, Perl, Python, Ruby. a similar function load is availabe in lua
+
+### reflexion
+
+reflective programming is metaprogramming where the program operates on itself
+reflective programming is sometimes shortened to reflexion.
+
+### macros
+
+a macro is something that maps a input to a replacement output
 
 ## Programming language implementation
 
@@ -12006,10 +12193,13 @@ hexadecimal
 
 
 
-§§ HTML has ((c:1;::two ways)) of specifying ((c:2;::character escapes)). ((s:gb;::Both ((c:3;::start with an &amp;)) and ((c:4;::end with a semicolon ;)). They are both often used to ((c:5;::display reserved characters, invisible characters, or hard-to-type characters.))))  §<br>
+§§ HTML has ((c:1;::two ways)) of specifying ((c:2;::character escapes)). 
+Both ways HTML has for specifying character escapes ((c:3;::start with an &amp;)) and ((c:4;::end with a semicolon ;)).
 §§ Of these, ((c:6;::numeric character references)) ((c:7;::refer to the character position within character set (most commmonly UTF-8))), ((s:gb;::they start ((c:8;::with # (after &amp;))) and can be specified in decimal or hex. ((h:gb;::(for example ((c:9;::&amp;#8203;))))))) §<br>
 §§ ((c:10;::Character entity references)) ((c:11;::have a short, memorable name)) ((h:gb;::(for example ((c:12;::&amp;amp; or &amp;quot))))) §<br>
 §§ This distinction is however often not made, and often ((c:13;::any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity))) are used. §<br>
+
+to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
 <table class="cloze-group hide-if-inactive">
   <thead>
