@@ -922,6 +922,7 @@ qs and qsa can be called on document for a global search, or on an element for a
 qsa returns a static NodeList
 document.getElementBy<whatever>() returns HTMLCollections.
 document.getElementBy<whatever> has four variants ById, ByClassName, ByTagName
+Element.closest(selector)|get the closest ancestor element which matches the selector
 
 #### other interfaces & classes
 
@@ -1001,7 +1002,48 @@ interface GeolocationPosition {
   timestamp: DOMTimeStamp;
 }
 
+### events
 
+#### EventTarget
+
+The EventTarget interface is implemented by objects that can receive events and may have listeners for them.
+
+#### event handler registration
+
+event handler registration can be done via the content and IDL attribute on<event> or EventTarget.addEventListener()
+the on<event> attribute takes a function to call.
+on<event> doesn't work on non-`Elements`
+addEventListener allows for registration of more than one event handler for the same event on the same EventTarget.
+on<event> usage is not recommended, as it will overwrite other event handlers registered on the same element.
+event handlers get an `Event` as an argument.
+
+to work, we must pass removeEventListener the event as well as the <b>exact same function object</b>
+
+#### event capturing
+
+in the capturing phase, the browser goes from the root element up to the target downwards
+in the target phase, the browser triggers any event handlers on the target itself
+in the bubbling phase, the browser goes from the the target up to root element upwardswards
+capturing phase > target phase > bubbling phase
+capturing/bubbling event handlers trigger during the capturing/bubbling phase respectively, and both on the target phase
+Event.bubbles prevents bubbling
+
+#### Event
+
+Event.target returns a reference to the thing on which the Event was dispatched.
+Event.currentTarget / this returns a reference to the thing on which the Event is being handled.
+
+##### defaults
+
+calling Event.preventDefault() or returning false from an on<event> handler prevents the default
+touchstart, touchmove (FF, Chrome, Edge) have passive: true by default
+tell the browser that you won't call preventDefault()   3rd option of addEventListener {passive: true}
+Event.defaultPrevent|was a default prevented?
+
+#### patterns
+
+{{c1::event delegation}} is {{c3::handling events}} (that are {{c4::similar somehow}}) on {{c2::a common ancestor}}
+Event delegation only works due to event bubbling
 
 ### Web Speech API
 
@@ -2731,7 +2773,11 @@ A (data)(base) query language is a language used to query data in databases/info
 
 Structured data is a data model used for describing web pages.
 Structured data is used by search engines to provide more rich results.
-Shema.org is a set of schemas for structured data.
+Schema.org is a set of schemas for structured data.
+
+### general considerations
+
+A schema is a format that describes/constrains/validates data/data structures
 
 ### relational data model
 
@@ -2887,6 +2933,14 @@ boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
 Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
 <img src="sm_2021-10-19--03-12-32-screenshot.jpg"><img src="sm_2021-10-19--03-11-46-screenshot.jpg"><img src="sm_2021-10-19--03-10-58-screenshot.jpg">
+
+## extracting information
+
+At it's most general, a fingerprint is an unique combination of features that uniquely identify something.
+A fingerprinting algorithm reduces a data item to a much shorter unique identifier, often also called a fingerprint.
+Often, hashing algorithms are used as fingerprinting algorithms.
+A {{c2::checksum}} is a {{c1::small amount of data}}, derived by applying {{c3::a suitable algorithm}} the relevant data, used to {{c4::check whether errors have occurred}}, e.g. in {{c5::transmission}}, {{c5::storage}} or {{c5::data entry}}.
+Depending on its design goals, a good c{{c3::hecksum}} algorithm usually outputs {{c1::a significantly different value}}, even {{c2::for small changes made to the input}}. 
 
 # HCI
 
@@ -3457,6 +3511,11 @@ Window snapping is most commonly performed by dragging them to edges/corners, vi
 Windows has had window snapping as of windows 7.
 Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now deprecated) or Rectangle
 
+#### platforms
+
+<svg class="all-b" data-qb-2-tld="reactnative.dev" data-qb-domain="reactnative.dev" data-qb-url="https://reactnative.dev/docs/assets/diagram_ios-android-views.svg" viewBox="0 0 1221 828" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-16{fill:#99d5e7}.cls-3{fill:#d5e2f5}.cls-5{fill:#e9e8e8;mix-blend-mode:multiply}.cls-6{fill:#f29dc4}.cls-29,.cls-7{fill:#fff}.cls-17,.cls-20{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}.cls-10,.cls-12,.cls-17{font-size:28px}.cls-10{fill:#134484}.cls-10,.cls-12{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.cls-11,.cls-13,.cls-18,.cls-25{fill:none;stroke-miterlimit:10}.cls-11{stroke:#134484}.cls-11,.cls-13{stroke-width:3px}.cls-12,.cls-27{fill:#374d9c}.cls-13{stroke:#374d9c}.cls-14{fill:#71c9e4}.cls-15{fill:#09a5d3}.cls-18{stroke:#99d5e7}.cls-18,.cls-25{stroke-width:2px}.cls-19{fill:#0069ac}.cls-20{font-size:32px}.cls-23{fill:#1f2129}.cls-24{fill:#97aad8}.cls-25{stroke:#d5e2f5}.cls-26{fill:#5971b5}.cls-29{opacity:.7}</style></defs><g style="isolation:isolate"><g data-name="Layer 3" id="Layer_3"><g id="Example"><path d="M347 474h797v354H347z" fill="#99d5e7" opacity=".5"></path><path class="cls-3" d="M44 0h794v354H44z"></path><path d="M309 277h575v245H309z" fill="#e9e8e8"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-6" d="M309 277h575v245H309z"></path><path class="cls-7" d="M369 325.5h452v135H369z"></path><g id="Pouncival"><path d="M527.84 388.44s-13.09 4-18.12 27.17c0 0-5.6-3.18-18.19-2.46-.64 0-1.27.07-1.86.13l-.57.05-.92.1c-.53.05-1.05.1-1.61.17a22.35 22.35 0 00-6.86 2c-5-23.15-18.11-27.17-18.11-27.17-18.12 28.18-3 36.23-6 64.41-1.6 14.89 26.35 15.88 40 15.49 14.15.25 39.84-1.24 38.3-15.53-3.04-28.13 12.1-36.18-6.06-64.36z" fill="#d23c6f" transform="translate(-32 -38)"></path><text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="50.24" transform="translate(526.99 405.37)">Pouncival</text><circle class="cls-6" cx="477.9" cy="398.14" r="14.36"></circle></g></g><g data-name="iOS views" id="iOS_views"><text class="cls-10" transform="translate(544.05 651.5)">UIView</text><text class="cls-10" transform="translate(396.32 574.93)">UIImageView</text><text class="cls-10" transform="translate(624.8 578.93)">UITextView</text><path class="cls-11" d="M530 640.5l-148.69-.5V461.5M660.05 641.67l148.69-.5v-178.5M463.5 541v-93M696.5 541V424"></path></g><g data-name="Android views" id="Android_views"><text class="cls-12" transform="translate(517.85 156.5)">ViewGroup</text><text class="cls-12" transform="translate(393.13 233.93)">ImageView</text><text class="cls-12" transform="translate(641.04 233.93)">TextView</text><path class="cls-13" d="M463.5 340v-93M696.5 360V243"></path><path class="cls-11" d="M506.62 146.26l-127.69.5v178.5M680.67 145.09l125.69.5v179.5"></path></g></g><g id="ios"><path class="cls-14" d="M586.84 758.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.16 6.61-6.16 6.55 2.61 6.6 6.16zm-13.1 45.18v-35.42h13v35.42zM640.88 778.58c0 15.61-9.38 25.54-24.35 25.54s-23.32-11.28-23.32-24.77c0-14.13 9.26-25.34 24.13-25.34 15.6-.01 23.54 11.57 23.54 24.57zm-33.91.54c0 9.13 4 14.71 10.19 14.71s10-6.09 10-14.84c0-8.35-3.75-14.69-10-14.69-6.22 0-10.16 5.89-10.16 14.82zM648.67 790.41a29.89 29.89 0 0012.58 3c4.45 0 6.65-1.54 6.65-4s-2.18-3.69-7.67-5.57c-8.17-2.89-13.63-7.41-13.63-14.63 0-8.59 7.24-15.18 19.5-15.18a31.62 31.62 0 0113.12 2.49l-2.72 10.39a25.58 25.58 0 00-10.5-2.3c-4 0-6.14 1.46-6.14 3.58 0 2.47 2.58 3.46 8.7 5.75 8.75 3.2 12.65 7.88 12.65 14.63 0 8.39-6.51 15.52-20.68 15.52a34.76 34.76 0 01-14.27-3z" transform="translate(-32 -38)"></path><g id="app"><g id="nav"><path class="cls-7" d="M885 82h315v632H885z"></path><path class="cls-15" d="M892 677h305v68H892z"></path><path class="cls-16" d="M1078.76 738.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM1178.46 732s-4 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44zM978.31 755a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g><g id="Choupette"><path class="cls-16" d="M994.8 695.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.37c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69 43.85 43.85 0 00-4.86 0 25.44 25.44 0 00-2.05-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.34-7.58z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 657.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris"><path class="cls-18" d="M970 616h208"></path><path class="cls-15" d="M987 604.42s-4.7 1.45-8 8.71a35.16 35.16 0 012 11.87c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-16" d="M981 625a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C977 643.76 981 635 981 625z" transform="translate(-32 -38)"></path><circle class="cls-15" cx="924.5" cy="593.5" r="7.5"></circle><text class="cls-17" transform="translate(972.36 597.03)">Mrs. Norris</text></g><g id="Tuna"><path class="cls-18" d="M970 556h208"></path><path class="cls-19" d="M987 544.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 537.03)">Tuna</text></g><g id="Tabby"><path class="cls-18" d="M970 496h208"></path><path class="cls-15" d="M989.52 514a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-14" d="M969 506.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM955 513s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 01955 513zM982 513c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C984.93 518.16 982 513 982 513zM965.57 531.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29M959.87 522.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM959.84 522.49v-.1zM976 524l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 00976 524zM963 511c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41 0-.24-.12-.48-.18-.72-.6 9.7 3.4 12.09 3.4 12.09zM972.7 511.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM966.35 506.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 477.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger"><path class="cls-18" d="M970 436h208"></path><text class="cls-17" transform="translate(972.36 417.03)">Rum Tum Tugger</text><path class="cls-14" d="M994.64 455.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4a26.94 26.94 0 01-14.36 4.48 3.51 3.51 0 01-1.25 0H972c2.15-.32 7-2.24 13.9-11.86v-.42c.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.07-3.45 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2 18.43 18.43 0 006.81 4.76c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-15" d="M961.56 455.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM960.63 461.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M960.63 461.92a2 2 0 00.26-.43zM972 458.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-15" d="M972 458.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M989.5 464.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-15" d="M973.5 461.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-2"><path class="cls-18" d="M970 376h208"></path><path class="cls-15" d="M987 364.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H964.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 357.03)">Pouncival</text><circle class="cls-16" cx="945" cy="353" r="8"></circle></g><g id="Spot"><path class="cls-18" d="M970 316h208"></path><text class="cls-17" transform="translate(972.36 297.03)">Spot</text><path class="cls-14" d="M989.7 334.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37 12 12 0 008.18 13.37l6.92 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.25-13.38z" transform="translate(-32 -38)"></path></g><g id="Maru"><path class="cls-18" d="M970 256h208"></path><text class="cls-17" transform="translate(972.36 237.03)">Maru</text><path class="cls-14" d="M985 272a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06c-.51 10.51-7.89 18.85-17 18.85a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 01985 272z" transform="translate(-32 -38)"></path><path class="cls-15" d="M990.36 280.21a38.82 38.82 0 01-.13-7A12 12 0 00974 288.8c7.75-.36 17.05-2.12 16.36-8.59zM966 258.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5a15.76 15.76 0 002.02.23c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g id="header"><path class="cls-16" d="M888 85h312v104H888z"></path><text class="cls-20" transform="translate(918.19 163.12)">Cat Cafe Menu</text></g><circle cx="1147.5" cy="715.5" fill="#a21732" r="4.5"></circle></g><g id="device"><path d="M1197.9 100H955.1c-30.43 0-55.1 26.67-55.1 57.1v586.8a55.1 55.1 0 0055.1 55.1h242.8a55.1 55.1 0 0055.1-55.1V157.1c0-30.43-24.67-57.1-55.1-57.1zm26.84 643.79a29.21 29.21 0 01-29.21 29.21h-237a30.69 30.69 0 01-30.68-30.69v-588a29.34 29.34 0 0129.3-29.31h30.12a5.43 5.43 0 015.43 5.43v.57a18.73 18.73 0 0018.74 18.73h128.16a18.2 18.2 0 0018.2-18.2v.84a7.37 7.37 0 017.37-7.37h28.93a30.64 30.64 0 0130.64 30.64z" fill="#134484" transform="translate(-32 -38)"></path><rect class="cls-19" height="7.41" rx="3" width="42" x="1022" y="90.29"></rect><circle class="cls-23" cx="1076.5" cy="93.5" r="4.5"></circle><circle class="cls-14" cx="1076" cy="93" r="2"></circle></g></g><g id="Android"><g data-name="app" id="app-2"><path class="cls-7" d="M9 77h300v639H9z"></path><g data-name="Choupette" id="Choupette-2"><path class="cls-24" d="M107.8 727.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.4c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69A43.85 43.85 0 0079 710a25.44 25.44 0 00-2-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.31-7.7z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 689.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris-2"><path class="cls-25" d="M83 648h208"></path><path class="cls-26" d="M100 636.42s-4.7 1.45-8 8.71A35.16 35.16 0 0194 657c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-24" d="M94 657a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C90 675.76 94 667 94 657z" transform="translate(-32 -38)"></path><circle class="cls-26" cx="37.5" cy="625.5" r="7.5"></circle><text class="cls-17" transform="translate(85.36 629.03)">Mrs. Norris</text></g><g data-name="Tuna" id="Tuna-2"><path class="cls-25" d="M83 588h208"></path><path class="cls-27" d="M100 576.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 569.03)">Tuna</text></g><g data-name="Tabby" id="Tabby-2"><path class="cls-25" d="M83 528h208"></path><path class="cls-26" d="M102.52 546a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-24" d="M82 538.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM68 545s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 0168 545zM95 545c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C97.93 550.16 95 545 95 545zM78.57 563.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29" transform="translate(-32 -38)"></path><path class="cls-14" d="M72.87 554.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM72.84 554.49v-.1z" transform="translate(-32 -38)"></path><path class="cls-24" d="M89 556l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 0089 556zM76 543c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41-.05-.24-.12-.48-.18-.72C72 540.61 76 543 76 543zM85.7 543.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM79.35 538.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 509.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger-2"><path class="cls-25" d="M83 468h208"></path><text class="cls-17" transform="translate(85.36 449.03)">Rum Tum Tugger</text><path class="cls-24" d="M107.64 487.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4A26.94 26.94 0 0185 490.56a3.51 3.51 0 01-1.25 0H85c2.15-.32 7-2.24 13.9-11.86 0-.14 0-.28.05-.42.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.12-3.48 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2A18.43 18.43 0 0062 498.2c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-26" d="M74.56 487.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM73.63 493.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M73.63 493.92a2 2 0 00.26-.43zM85 490.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-26" d="M85 490.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M102.5 496.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-26" d="M86.5 493.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-3"><path class="cls-25" d="M83 408h208"></path><path class="cls-26" d="M100 396.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H77.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 389.03)">Pouncival</text><circle class="cls-24" cx="58" cy="385" r="8"></circle></g><g data-name="Spot" id="Spot-2"><path class="cls-25" d="M83 348h208"></path><text class="cls-17" transform="translate(85.36 329.03)">Spot</text><path class="cls-24" d="M102.7 366.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37A12 12 0 0068 379.52l7 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.17-13.38z" transform="translate(-32 -38)"></path></g><g data-name="Maru" id="Maru-2"><path class="cls-25" d="M83 288h208"></path><text class="cls-17" transform="translate(85.36 269.03)">Maru</text><path class="cls-24" d="M98 304a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06C78.44 300.66 71.06 309 62 309a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 0198 304z" transform="translate(-32 -38)"></path><path class="cls-26" d="M103.36 312.21a38.82 38.82 0 01-.13-7A12 12 0 0087 320.8c7.75-.36 17.05-2.12 16.36-8.59zM79 290.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5A15.76 15.76 0 0062 309c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g data-name="header" id="header-2"><path class="cls-3" d="M19.48 76h276.37A13.15 13.15 0 01309 89.15V180H5V90.48A14.48 14.48 0 0119.48 76z"></path><text class="cls-20" transform="translate(31.19 154.12)">Cat Cafe Menu</text></g><g data-name="nav" id="nav-2"><path class="cls-26" d="M7.18 177H310v46H5v-43.82A2.18 2.18 0 017.18 177z"></path><path class="cls-3" d="M191.76 232.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM291.46 226s-3.95 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44z" transform="translate(-32 -38)"></path><circle cx="260.5" cy="209.5" fill="#ee76ab" r="4.5"></circle><path class="cls-3" d="M91.31 249a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g></g><g data-name="device" id="device-2"><path class="cls-27" d="M314.08 104H66.92A34.91 34.91 0 0032 138.92v629.16A34.91 34.91 0 0066.92 803h247.16A34.91 34.91 0 00349 768.08V138.92A34.91 34.91 0 00314.08 104zM336 735.6a18.4 18.4 0 01-18.4 18.4H64.85A19.85 19.85 0 0145 734.15V139.67A23.67 23.67 0 0168.67 116h60.13a9.2 9.2 0 019.2 9.2v7a19.75 19.75 0 0019.75 19.8h64A19.23 19.23 0 00241 132.77v-7.63a9.14 9.14 0 019.14-9.14h62.32A23.54 23.54 0 01336 139.54z" transform="translate(-32 -38)"></path><rect class="cls-26" height="6" rx="3" width="93" x="111" y="738"></rect><rect class="cls-26" height="6" rx="3" width="34" x="140" y="97"></rect><circle class="cls-23" cx="123.5" cy="95.5" r="6.5"></circle><circle class="cls-23" cx="190.5" cy="95.5" r="4.5"></circle><circle class="cls-24" cx="122" cy="94" r="3"></circle><circle class="cls-24" cx="190" cy="95" r="2"></circle></g><path class="cls-24" d="M507.91 114.08l-2.73 11.25h-13.45l14.08-48.53h17.32l14.47 48.53h-14l-3.1-11.25zm10.77-9.59l-2.25-8.73c-.74-2.74-1.66-6.7-2.41-9.56h-.15c-.72 2.86-1.44 6.86-2.14 9.61l-2.09 8.68zM543.32 102c0-4.72-.15-8.79-.29-12.06h11.2l.57 4.51h.26a12.84 12.84 0 0110.62-5.31c8.24 0 12.76 5.64 12.76 15.32v20.9h-13V106c0-4.06-1.4-6.48-4.5-6.48a4.52 4.52 0 00-4.26 3.12 7 7 0 00-.36 2.61v20h-13zM622.34 74.21v39.92c0 4.4.15 8.86.29 11.2h-11.52l-.52-4.79h-.15c-2.34 4-6.64 5.58-10.69 5.58-8.26 0-15.09-7.14-15.09-18.27 0-11.91 7.48-18.74 15.83-18.74 3.92 0 7.14 1.14 8.73 3.42h.14V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.35 0-6.3 3.89-6.3 8.54 0 5.43 2.67 8.26 6.25 8.26a5.11 5.11 0 005.07-4.23 10.67 10.67 0 00.2-2.38zM630.37 101.86c0-5.64-.09-9-.29-12h11.09l.46 6.39h.29a10.18 10.18 0 019.44-7.19 10.3 10.3 0 012.59.22v12.19a14.91 14.91 0 00-3.31-.36c-3.84 0-6.41 1.6-7.1 4.46a12 12 0 00-.18 2.21v17.5h-13zM695.55 107.26c0 12.87-9.2 18.86-19.12 18.86-10.6 0-18.83-6.73-18.83-18.25 0-11.25 7.43-18.76 19.5-18.76 11.1 0 18.45 7.49 18.45 18.15zm-24.55.34c0 5.31 1.75 9.36 5.76 9.36 3.5 0 5.4-3.67 5.4-9.36 0-4.9-1.58-9.32-5.43-9.32-4.28 0-5.73 4.72-5.73 9.32zM714.89 80.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.15 6.61-6.15 6.55 2.6 6.6 6.15zm-13.1 45.18V89.91h13v35.42zM758.71 74.21v39.92c0 4.4.14 8.86.29 11.2h-11.53l-.52-4.79h-.14c-2.34 4-6.64 5.58-10.69 5.58-8.27 0-15.09-7.14-15.09-18.27 0-11.91 7.47-18.74 15.82-18.74 3.93 0 7.15 1.14 8.73 3.42h.15V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.36 0-6.3 3.89-6.3 8.54 0 5.43 2.66 8.26 6.24 8.26a5.12 5.12 0 005.08-4.23 11.3 11.3 0 00.2-2.38z" transform="translate(-32 -38)"></path></g><g data-name="Layer 4" id="Layer_4"><path class="cls-29" d="M291 348l78-23v135l-78-52V308M821 325l88-11v64l-88 82V325z"></path></g></g></svg>
+In {{c1::mobile/app}} development, a {{c2::view}} is {{c3::the basic building block of UI}}. They can be {{c4::nested}}, it is views {{c4::all the way down}}.
+
 ## user experience
 
 user experience is (the design of) the experience of an user interacting with something.
@@ -3777,6 +3836,8 @@ In some countries websites, especially those of public sector bodies must confor
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 #### WCAG success critera
+
+The text of a link should be descriptive of the purpose of the link, even out of context.
 
 ##### Non-text content
 
@@ -4521,6 +4582,18 @@ input-output-options
 
 ###### images / combined
 
+((h:all;::<img src="1280px-VectorBitmapExample.svg.png">))
+Vector images/graphics are images created directly from geometric shapes.
+Vector images are contrasted wtih raster images/graphics.
+Raster images are images created from a matrix/grid of square pixels. 
+The main advantage of vector images being that they are infinitely scalabe.
+The process of generating a raster image from a vector image is known as raserization.
+Vector images are most commonly edited in dedicated vector graphics editors or text editors.
+Adobe Illustrator|proprietary, desktop|.ai
+Affinity Designer|proprietary, desktop|.afdesign
+Inkscape|FOSS, desktop|SVG
+SVG-edit|FOSS, web|SVG
+
 ####### viewers
 
 feh|terminal-launched image viewer
@@ -4977,6 +5050,29 @@ To abort a maerge during a merge conflict: git merge --abort
 
 Rebasing in git is taking the changes from somewhere (e.g. a branch) and applying them on another branch as if the changes had been made there originally
 
+#### hooks
+
+git supports hooks in the form of git hooks.
+git hooks are stored in .git/hooks
+you can use any language for git hooks as long as you can specify it via a shebang
+by default, none of the git hooks run because they are postpended by .sample - removing this will make them run at the relevant time.
+git hooks are not synchronized between origins by default, to do that, you would have to store them in the repository themselves and symlink them or sth.
+there are 6 local and 3 server hooks.
+
+local hooks
+name|does|arguments passed to script|exiting non-0 does
+pre-commit|after git commit, but before prompting for message|none|aborts commit
+prepare-commit-msg|prepopulates text editor with commit message|name of temporary file with message, type of commit, hash of commit|aborts commit
+commit-msg|after commit message was entered (for validating commit message)|name of temporary file with message|aborts commit
+post-commit|after commit-msg hook (e.g. for notifications)|none|nothing
+post-checkout|after running git checkout|previous HEAD, new HEAD, branch or file checkout|nothing
+pre-rebase|called before git rebase|2, but I don't want to deal with them right now|aborts the rebase
+
+server hooks
+pre-recieve|when recieving commits from git push|none, but recieves commit reference via stdin|rejects the push
+update|
+post-recieve|after push has succeeded|none|nothing
+
 #### github
 
 Github is a hosting service for git repositories.
@@ -5410,19 +5506,34 @@ C(S)PRNG  Cryptographically (secure) pseudorandom number generator
 PRNG  pseudorandom number generator
 RNG  random number generator
 
-## network 
+## attacks
 
-### MITM
+### buffer overflow
+
+Buffer overflow is when a buffer of a specific size is written to with data larger than that buffer, thus writing to a different memory location.
+In a buffer overflow attack, a buffer overflow is intentionally produced (e.g. by entering too-long user input), with executable code in the overflown part (ergo a code injection attack), which may then be executed as normal code.
+C and C++ are well-known to be vulnerable to buffer overflow.
+
+
+### Injection
+
+Code injection is an attack vector where malicious code is injected due to some flaw.
+Code injection can often be prevented by sanitizing user input.
+Delimiter/terminater-based code injection uses delimiters, e.g. of strings or similar, to escape from string interpretation to code interpretation.
+
+### network 
+
+#### MITM
 
 <img src="sm_mitm_illus.svg">
 A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}} into the {{c3::communication}} between {{c3::two parties}} believing {{c4::to be talking to each other directly}}.
 
-### XSS
+#### XSS
 
 XSS  Cross-site scripting
-Cross-site scripting (XSS) is an attack where malicious client-side scripts are injected into web pages being viewed by users
+Cross-site scripting (XSS) is a code-inejction attack where malicious client-side scripts are injected into web pages being viewed by users
 
-### DOS
+#### DOS
 
 DoS = denial of service
 DDoS = distributed denial of service
@@ -5431,15 +5542,23 @@ In general, DoS succeed in making the network resource unavailable by taking up 
 DoS may be performed by flooding the target with requests, or with some more sophisticated techniques.
 A DDoS attack is a DoS performed from many different sources.
 
-#### Low and Slow
+##### Low and Slow
 
-##### Slow Loris
+###### Slow Loris
 
 A {{c1::slowloris/slow loris}} is a type of {{c2::DoS (Denial of service)}} attack, more specifically a type of {{c3::Low and Slow}} attack.
 A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
 A slow loris works by opening as many connections to the server as possible, and sending a little bit of the header section every few seconds or so, so it doesn't time out, but never ending it.
 If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
 A slow loris is easy to pull off, because it needs very little bandwith and only a normal computer.
+
+## privacy
+
+### device fingerprinting
+
+A device/browser fingerprint is the set of information about the device/browser that together renders it uniquely identifiable.
+since fingerprinting exists, a user can generally be tracked even without a cookie (or similar)
+Having social media buttons on your page generally enables the providers to track you (whether via fingerprint/cookies/whatever). Sometimes, a toggle button is added to prevent this.
 
 # OSs
 
@@ -5455,9 +5574,18 @@ roughly, the OS could be considered the layer between hardware and programs
 clipboard-cli is an npm package that exposes the command clipboard which works as a shell filter for the clipboard, copying or pasting as needed.
 xclip allows interaction with the X clipboard
 
-#### screenshots
+#### screen selection
 
+slop|queries for a selection from the user and prints the region to stdout
 maim|screenshot-taking-utility
+
+slop or maim -s 
+-t float / --tolerance=float   How far in pixels the mouse can move after clicking, and still be detected as a normal click instead of a click-and-drag
+-t 9 999 999 / --tolerance=9 999 999 (spaces only for readability)   force the selection of a window (by cursor)
+
+maim
+-i string / --window=string   cature the desired window (name could be gotten dynamically via various x utilities for example)
+-g string / --geometry=string   capture the selected geometry rect
 
 #### backups/snapshots
 
@@ -5996,6 +6124,7 @@ fgconsole --next-avaliable   get next unallocated vt
 openvt|run a program on the next free vt.
 deallocvt   remove unused virtual terminals
 chvt N   change to ttyN
+Couldn't get a file descriptor referring to the console is an error you encounter using commands meant for virtual terminals somewhere else
 
 ###### any terminal 
 
@@ -6004,7 +6133,8 @@ the who utility displays all active terminal sessions and for each the users log
     sam      console  Dec  4 01:44 
     sam      ttys002  Jan  9 12:34 
     sam      ttys007  Jan 24 23:26 
-w is an extended version of who, which shows everthing who does, plus what is currently running in the terminal and the time since the user last typed anything. w also shows general system stats: time of day, uptime, amount of users logged in, and load averages.
+uptime -  prints general system stats: time of day, uptime, amount of users logged in, and and the average number of jobs in the run queue over the last 1, 5 and 15 minutes.
+w is an extended version of who, which shows everthing who does, plus what is currently running in the terminal and the time since the user last typed anything. w also the stats that `uptime` shows.
     sam$ w
     9:10  up 52 days,  7:26, 3 users, load averages: 2.10 2.05 2.01
     USER     TTY      FROM              LOGIN@  IDLE WHAT
@@ -7110,6 +7240,7 @@ Between IMAP and POP3, IMAP is more feature-rich.
 HTTP|HyperText Transfer Protocol
 
 {{c1::HTTPS}} is an {{c2::encrypted}} version of {{c3::HTTP}}
+A {{c1::mixed content}} page is a {{c2::HTTPS}} page that {{c3::also includes content fetched over HTTP}}
 
 When you navigate to a new URL, the browser sends an HTTP request
 The client sendds a HTTP request, and the server returns an HTTP response.
@@ -7283,6 +7414,8 @@ dnsdomainname shows the systems DNS domain name (the part of the FQDN)
 ####### DNS
 
 DNS|Domain Name System
+the problem that both the hosts file and DNS want to solve is mapping hostnames/domain names to IP addresses.
+the hosts file came about in the ARPANET era, where it was manually shared and updated.
 DNS superceded the hosts file for the most part.
 Today, the hosts file is used in some network bootstrapping, but mainly as a resource for internet resource blocking/redirection
 To use the hosts file to block something, set its IP address to 0.0.0.0
@@ -7754,6 +7887,11 @@ Render the initial route ASAP
 Pre-cache remaining assets
 Lazy-load other routes and non-critical assets
 
+######## P
+
+{{c1::&lt;link rel="preload"}} specifies that you {{c3::will need the resource very soon}}, and that it should be downloaded {{c2::asyncly}} with {{c2::high priority}}
+{{c1::&lt;link rel="preload"}} needs an {{c2::as=}}{{c3::"kind(e.g. style, script, image)"}}
+
 ####### defer & async
 
 defer & async are two attriubtes for <script> that influence how it is loaded.
@@ -7879,8 +8017,7 @@ lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first ar
 
 #### sysadmin
 
-uptime -  Print the current time, the length of time the system has been up, the number of users on the
-       system, and the average number of jobs in the run queue over the last 1, 5 and 15 minutes. 
+powertop - cli program to analzye power consumption
 
 ##### hardware info
 
@@ -9435,7 +9572,7 @@ In languages that have single-quoted string literals, interpolation is generally
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
 YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
-In some languages, strings are ended by the NULL (0x00) character, these are known as null-terminated strings.
+In some languages, most notably C, strings are ended by the NULL (0x00) character, these are known as null-terminated strings.
 
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
 r or R"foo"|Python|Rust
@@ -10870,7 +11007,6 @@ the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
 
-
 get list of all functions a module/package supports
 dir(foo)|Python
 
@@ -11183,6 +11319,15 @@ symbol rate   symbol changes per second
 ### Computer vision
 
 {{c1::Computer vision (CV)}} is a field of study that aims to get {{c2::artificial systems / AI}} to get {{c3::meaningful information / understanding}} from {{c4::digital images/videos/whatever}}.
+
+#### depth
+
+{{c1::Stereopsis}/{{c2::stereo(scopic) vision}} is {{c3::the ability to percieve depth}} from {{c4::only two eyes/optical sensors}}.
+binocular disparity is the difference between the images that the optical sensors involved in stereopsis recieve due to them being positioned somewhat apart.
+stereo matching is matching the two images produced by stereopsis.
+After stereo matching, one can calculate the distance via trangulation.
+stereo matching is more difficult (esp. for computer sensors) if the thing is featureless (since it then has a harder time matching the relevant pixels)
+To improve stereo matching on featureless things, a device intended for depth calculation via stereopsis often will project a IR dot pattern, which is a pseudorandom but known pattern of dots in the infrared spectrum, which it then can use as the things to match.
 
 ### safety
 
@@ -11534,9 +11679,6 @@ Objects in UML object diagrams at least contain a top field with the object name
 
 ## automation
 
-git supports hooks in the form of git hooks.
-husky allows easy interfacing with git hooks
-
 ### misc
 
 The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
@@ -11736,6 +11878,30 @@ expo init creates a project using expo's managed workflow
 
 Mobile development is centered around a core IDE, Android Studio for android and XCode for iOs
 
+## deployment
+
+### preventing undesirable experiences
+
+#### canary
+
+Canary release/deployment is showing an early build of an application to only a small subset of users
+In canary releases/deployemnt, the users who get the early build are monitered for feedback or bugs.
+In canary realeases/deployment, after we've verified that everything's all right for the subset of users, we'll release it to a larger audience eventually if okay.
+Sometimes, the distinction is made between a canary release, which is a dedicated version of a program that users could choose to use (e.g. Chrome Canary), and a canary deployment, which is where it is just deployed to a group of people without their input, however, this distinction is often not made.
+canary releases/deployements get their name from the canary in the coalmine metaphor
+
+#### blue-green deployment
+
+In a blue-green deployment, there are two environments/servers, blue and green.
+blue|existing production environment
+green|new version
+In a blue-green deployment, initially all users are routed to the blue env. Once the green env is deployed, it undergoes a heavy set of tests. After these pass, the users are instead routed to the green env. The blue env remains on standby, and if there is a problem with the green env, users can get pushed back to the blue env.
+
+#### feature flags 
+
+feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
+Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
+
 # Misc/no place yet
 
 most languages allow an arbitrary amount of spaces and tabs as indentation, YAML however only allows spaces
@@ -11877,9 +12043,27 @@ hexadecimal
 
 ## text encoding
 
-Text encodings (simplified): Morse -(end of the 19th century)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+### theory
 
-### Morse
+A character is the fundamental unit of text in computing contexts.
+In practice, a character is 'anything that has an unicode code point'
+A character set is a set of characters grouped for some reason.
+A character encoding is a set of mappings of the characters in a character set to some sort of numeric representation.
+All character encodings before Unicode mapped characters directly to the binary encoding.
+Unicode is a character encoding that maps characters to an abstract unit known as a code point, and then any Unicode translation format are character encodings that map unicode code points to binary rperesentations.
+Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
+If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or question mark.
+
+#### font
+
+a computer font is a file containing a set of glyphs for certain characters.
+There are two main types of computer fonts, based on how they store characters: bitmap and vector/outline, with the advantages and disadvatages you would expect.
+
+### encodings
+
+character encodings (simplified): Morse -(end of the 19th century)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+
+#### Morse
 
 The original morse code was meant for english speakers. 
 The morse code used today is an overhauled version of the original morse code called international/continental morse code.
@@ -11897,13 +12081,13 @@ morse-code-sentence ::= <morse-code-word>{<word-space><morse-code-word>}
 morse-code-word ::= <morse-code-character>{<character-space><morse-code-character>}
 morse-code-character ::= (<dot>|<dash>)<dd-space>
 
-### baudot
+#### baudot
 
 the baudot(-murray) code was a 5-bit binary encoding.
 the baudot(-murray) code was later extended to 6-bit (ish) via a FIGS (figure shift character).
 With the baudot murray code came the change to punched tape.
 
-### ASCII
+#### ASCII
 
 Control characters are also called non-printing characters.
 ASCII (no extension) takes up 7 bit.
@@ -11949,20 +12133,21 @@ CR|older macs
 
 The bell character is sometimes used in command-line utilities for a notiification sound
 
-### ISO/IEC 8859
+#### ISO/IEC 8859
 
 The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
 
 Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp><rt>もじば</rt><rp>)</rp></ruby>け, which was common in japanese due to a number of incompatible encodings existing.
 
-### Unicode
+#### Unicode
 
 Unicode is goverened by the unicode consortium.
 
-#### Codepoint subdivision 
+##### Codepoint subdivision 
 
 While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
 The fundamental unit in unicode is a codepoint.
+Unicode codepoints are frequently written U+{<hex-digit>}
 All unicode codepoints are contained in the unicode codespace.
 Currently, about 12% of the unicode codespace is used.
 The unicode codespace consists of 17 planes. 
@@ -11973,7 +12158,7 @@ Unicode blocks always sized in multiples of 16, therefore the first hex digit in
 Unicode blocks are always contiguous and disjoint with each other.
 In general, an unicode block should be united by a common purpose in some way.
 
-##### plane table
+###### plane table
 
 0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems & symbols
 1|Supplementary Multilingual Plane|assortment of different characters and emoji
@@ -11983,9 +12168,10 @@ In general, an unicode block should be united by a common purpose in some way.
 14|Supplementary Special-purpose plane
 15-16|Private Use Area planes
 
+All planes beside the basic multilingual plane are supplementary.
 Unicode code points outside of the basic multilingual plane are sometimes called astral
 
-#### multiple characters
+##### multiple characters
 
 A 'character' may consist of one or more (encoded) unicode code points.
 Some characters can be created both by combining a character with a combining character/mark, or by using an one-codepoint precomposed version.
@@ -11998,9 +12184,10 @@ Two unicode characters are compatible if they share the same semantics in at lea
 U+FB00 (the typographic ligature "ﬀ") and U+0066 U+0066 (two Latin "f" letters) are two characters that are compatible.
 Canonical equvalency is a subset of compatibility.
 two unicode characters are canonically equivalent if they display the same and have the same meaning.
+Two canonically equivalent characters should be treated in the same way by (pretty much) every program.
 Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
 
-#### directionality
+##### directionality
 
 In unicode, strongly typed characters have an associated direction (LTR or RTL)
 In unicode, characters are strongly typed, or are neutral/weak.
@@ -12012,15 +12199,21 @@ neutral characters between two strongly typed characters of opposite directions 
 <bdi> is for wrapping text whose directionality you can't predict, but which you don't want to absorb neutral characters on other sides.
 If one knows the directionality in advance, one doesn't need <bdi> to isolate an element from the bidi algorithm all, one can just add a span or whater with a dir attribute to force the directionality and isolate at the same time.
 
-#### encodings
+##### policy
 
+Unicode follows a number of policies
+Unicode encoding stability policy|Once a character is encoded, it will not be moved or removed
+
+##### encodings
+
+UTF|Unicode Translation Formats
 There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
 UTF-32 encodes any codepoint as 4 bytes, and is thus very wasteful for something like latin text.
 UTF-8 may take 1-4 bytes to encode a cahracter.
 
 Today, most things default to UTF-8, however a few things such as JS and Java default to UTF-16.
 
-##### UTF-16
+###### UTF-16
 
 UTF-16 consists of 16-bit code units.
 An unicode code point encoded with UTF-16 may consist of one or two code units
@@ -12029,16 +12222,24 @@ if UTF-16 needs {{c1::two code units}}, these {{c1::two code units}} are called 
 In surrogate pairs (UTF-16) the code unit that should come {{c1::first}} is called the {{c2::high surrogate}}, the code unit that should come {{c1::second}} is called the {{c2::low surrogate}}
 {{c1::High-surrogate}} code units have a hex value {{c2::0xD800-0xDBFF}}
 
-##### UTF-8
+###### UTF-8
 
+UTF-8 guaranteees that there would never be 8 subsequent zeroes, as that could be interpreted as 0x00, which would end an null-terminated string (and thus could produce bugs or even allow injection attacks)
 UTF-8 encodes the 128 ASCII characters the same way as ASCII, but with a leading zero (since 8 not 7 bit)
 First UTF-8 byte starts|character contains n bytes
 0|1
 110|2
 1110|3
 11110|4
+Any UTF-8 byte but the first starts 10
+To encode a character in UTF-8, first we determine how many bit the character requires, then we set the appropriate first byte header, and then insert the binary code point starting from the less significant end, finally filling up empty spaces with 0s.
+7>|1
+8-11|2
+12-16|3
+17-21|4
 
-##### Percent
+
+###### Percent
 
 (near) synonyms: {{c1::Percent encoding}}, {{c2::URL/I encoding}}
 

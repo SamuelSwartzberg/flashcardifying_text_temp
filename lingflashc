@@ -3027,17 +3027,6 @@ A phonemic orthography is the special case of an alphabet specifically having no
 ortographically deep|English
 ortographically shallow|spanish, japanese
 
-
-#### encoding
-
-Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
-If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or question mark.
-
-##### font
-
-a computer font is a file containing a set of glyphs for certain characters.
-There are two main types of computer fonts, based on how they store characters: bitmap and vector/outline, with the advantages and disadvatages you would expect.
-
 ## diachronic
 
 A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
