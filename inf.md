@@ -80,10 +80,32 @@ A document type declaration must be the first thing after the XML declaration if
 The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
 In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
 
-### PI
+### XML
+
+#### PI
 
 PI|Processing instruction
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Begins a processing instruction))</td> <td>((c:2;::&lt;?))</td></tr>
+<tr><td>((c:3;::Ends a processing instruction))</td> <td>((c:4;::?&gt;))</td></tr>
+  </tbody>
+</table>
 
+<br>---<br>
+  §§ 'Tag name' of the ((c:6;::processing instruction)) to ((c:7;::link a stylesheet to an xml document)) is ((c:5;::xml-stylesheet)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+#### CDATA
+
+<br>---<br>
+  §§ ((c:1;::CDATA)) is short for ((c:2;::Character data))) §<br>
+§§ ((c:10;::CDATA)) ((c:3;::tells the parser not to parse the content as XML markup)) §<br>
+§§ ((c:11;::CDATA)) allows us to ((c:4;::use characters with a special meaning in XML)) without ((c:5;::confusing the parser)), for example, ((s:gb;::this would allow us to ((c:13;::include HTML within XML without a problem)).)) §<br>
+§§ ((c:12;::CDATA)) syntax: <code>((c:6;::&lt;![))((c:7;::CDATA))((c:8;::[))content...((c:9;::]]&gt;))</code> §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ### HTML
 
@@ -3250,6 +3272,21 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
+######## view
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Reset zoom level (most often)))</td> <td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>0</kbd>))</td></tr>
+<tr><td>((c:3;::Zoom out))</td> <td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>-</kbd>))</td></tr>
+<tr><td>((c:5;::Zoom in))</td> <td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd>=</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
 ######## text editing 
 
 <table>
@@ -3267,6 +3304,23 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>((c:9;::paste))</td><td>((c:10;::<kbd class="modifier cmd"></kbd> <kbd>v</kbd> ))</td></tr>
   </tbody>
 </table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>))</td> <td>((c:2;::Insert hyperlink))</td></tr>
+<tr><td>((c:3;::<kbd class="modifier cmd"></kbd> <kbd>b</kbd>))</td> <td>((c:4;::Bold text))</td></tr>
+<tr><td>((c:5;::<kbd class="modifier cmd"></kbd> <kbd>i</kbd>))</td> <td>((c:6;::Italic text))</td></tr>
+<tr><td>((c:7;::<kbd class="modifier cmd"></kbd> <kbd>u</kbd>))</td> <td>((c:8;::underlined text))</td></tr>
+<tr><td>((c:9;::<kbd class="modifier shift"></kbd> <kbd>tab</kbd>))</td> <td>((c:10;::unindent))</td></tr>
+<tr><td>((c:11;::<kbd>tab</kbd>))</td> <td>((c:12;::Indent))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
 
 ######### video
 
@@ -4560,7 +4614,55 @@ A socket in unix is realized as a file descriptor
 /dev/log = socket for logging
 
 
-### file types by contents
+### file formats
+
+#### indication
+
+<br>---<br>
+  §§ ((c:1;::File format)) and ((c:2;::file type)) are ((c:3;::basically synonyms)). §<br>
+§§ the ((c:4;::file format/type)) is ((c:5;::the structure/specification)) of what ((c:6;::the binary contents)) of ((c:5;::a file following this ((s:4;::file format)))) ((c:7;::mean/how they should be interpreted)). §<br>
+§§ There are ((c:8;::three common ways)) to specify ((c:9;::a file format)): ((s:8;::((c:10;::Filename extensions)), ((c:11;::internal metadata)), and ((c:12;::external metadata)).)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:13;::Windows)) and ((c:14;::Mac))  use ((c:15;::file extensions)) to ((c:16;::identify file type)). §<br>
+§§ ((c:17;::Linux)) generally uses ((c:18;::magic numbers)) to ((c:19;::identify file type)). §<br>
+§§ ((c:20;::File extensions)) can be ((c:21;::useful)) on ((c:22;::Linux)), but ((c:23;::are generally not necessary)). §<br>
+===<br>
+
+<br>---<br>
+  §§ Specifying ((c:28;::file format)) via ((c:26;::internal metadata)) is having some sort of information ((c:27;::as part of the file)) that specifies its ((c:28;::format)). §<br>
+§§ ((c:24;::Magic numbers)) are a form of ((c:25;::internal metadata)). §<br>
+§§ ((c:29;::magic numbers)) are ((c:30;::a byte/series of bytes)) (often at ((c:31;::the beginning of the file))) that ((c:32;::identify the file format)). §<br>
+===<br>
+
+<br>---<br>
+  §§ Specifying the ((c:33;::file format)) via ((c:34;::filename extensions)) involves ((c:35;::suffixing)) ((c:36;::the filename)) with ((c:37;::a dot)) and ((c:37;::some short name)). §<br>
+§§ many ((c:38;::file extensions)) are ((c:39;::three-letter)) because ((c:40;::dos did not allow for longer file extensions)) §<br>
+§§ ((c:41;::.htm)) is ((c:42;::a synonym for .html)) that only exists because ((c:43;::dos required 3 char file extensions)) §<br>
+===<br>
+
+<br>---<br>
+  §§ Specifying ((c:44;::file format)) via ((c:45;::external metadata)) is having some sort of information ((c:46;::as part of a message/protocol/file system)) that specifies its ((c:44;::format)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:47;::Media type)) is a way for ((c:49;::identifying the file format)) of a file via ((c:48;::external metadata)). §<br>
+§§ ((c:50;::Media type)) is ((c:51;::the most common way)) for identifying file format on ((c:52;::the internet)). §<br>
+§§ ((c:53;::Media type)) ((c:55;::used to)) be called ((c:54;::MIME type)). §<br>
+§§ ((c:56;::Media type)) syntax: ((c:57;::&lt;type&gt;/&lt;subtype&gt;))((c:58;::{+&lt;suffix&gt;))}((c:59;::[;&lt;parameter&gt;])) (((c:60;::&lt;tree&gt;)) left out because not commonly used) §<br>
+§§ Common types for media type's ((c:61;::type)) are a((c:62;::pplication, audio, video, image, text)) §<br>
+§§ Common ((c:63;::subtypes)) for ((c:64;::the type image)) might be ((c:65;::webp, png, svg+xml, jpeg)) §<br>
+§§ If a file is ((c:66;::XML)), its ((c:68;::media type)) gets ((c:67;::a suffix of xml (+xml))) §<br>
+§§ The ((c:69;::HTTP header)) for ((c:70;::media type)) is ((c:71;::Content-Type)). §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:72;::mailcap)) ((c:73;::file)) maps ((c:74;::media types)) to ((c:75;::applications to view/execute them.)) §<br>
+§§ ((c:76;::Mailcap files)) consist of ((c:77;::mappings)), with ((c:78;::one)) per ((c:78;::line)). §<br>
+§§ ((c:79;::Mailcap mapping)) syntax: ((c:80;::&lt;media-type&gt;))((c:81;::;))((c:82;::&lt;program-to-execute&gt;)) ((c:83;::%s)) §<br>
+§§ For ((c:84;::mailcap)), ((c:85;::%s)) represents ((c:86;::the file of the relevant MIME type)) that ((c:87;::the program gets passed)) §<br>
+===<br>
 
 #### binary
 
@@ -4659,6 +4761,8 @@ input-output-options
 
 ###### images / combined
 
+####### types
+
 ((h:all;::<img src="1280px-VectorBitmapExample.svg.png">))
 Vector images/graphics are images created directly from geometric shapes.
 Vector images are contrasted wtih raster images/graphics.
@@ -4670,6 +4774,22 @@ Adobe Illustrator|proprietary, desktop|.ai
 Affinity Designer|proprietary, desktop|.afdesign
 Inkscape|FOSS, desktop|SVG
 SVG-edit|FOSS, web|SVG
+
+######## SVG
+
+SVG is the standard format for vector images
+SVG files have the file extension of .svg
+SVG|Scalable Vector Graphics
+§§ Often, ((c:17;::SVG)) is ((c:10;::included in HTML)). This can be done by i((c:11;::ncluding it directly in the source)), r((c:12;::eferencing it in places the browser would normally take an image (<img>, background-image))), or ((c:13;::pointing to it within an <object> or an <iframe>)) §
+
+########## affinity designer
+
+((h:all;::<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">))
+<br>---<br>
+  §§ To ((c:2;::select a color in affinity designer)) (must be in ((c:3;::Pixel Persona))) ((c:1;::Select &gt; Select Sample Color)) §<br>
+§§ To ((c:4;::turn a color transparent)) in affinity designer ((c:5;::select a color, then delete it with backspace)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ####### viewers
 
@@ -5757,6 +5877,18 @@ The Windows Subsystem for Linux allows you to do things like run a shell environ
 To install the Windows Subsystem for linux, turn it on in the "Turn windows features on or off" dialog, then download the distro from the windows store
 The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, /mnt/d ...
 
+##### Android
+
+<br>---<br>
+  §§ ((c:2;::Android features)) depend on the relevant ((c:1;::API level)), which starts at ((c:3;::1)) and is at ((c:4;::30)) as of android ((c:5;::11)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<br>---<br>
+  §§ Curreny android has one ((c:1;::API level)) per ((c:2;::major version)) (e.g. ((c:2;::android 11))), but it used to be ((c:3;::multiple ones per version)) (bc in the past ((c:4;::minor versions)), e.g. ((c:4;::2.2.)) Gingerbread and even ((c:5;::patch versions)), e.g. ((c:5;::2.2.3)) Gingerbread ((c:6;::introduced new features))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
 #### libraries & systems
 
 ##### linux
@@ -6288,6 +6420,7 @@ EDITOR and VISUAL are shell environement variables {{c1::setting the default edi
 PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
+<code>{{c1::which}}</code> takes {{c2::a string}} and {{c3::searches}} {{c4::the PATH}} to see {{c5::what the path of the binary of this command is.}}
 
 command prompt is often just shortened to prompt.
 The command prompt is one or more characters indicating the command-line is ready to accept input.
@@ -6636,6 +6769,14 @@ Liquid also features filters prominently to transform values, and also uses the 
 <tr><td>((c:3;::prepend: foo))</td> <td>((c:4;::prepend foo to the string))</td></tr>
   </tbody>
 </table>
+
+####### exit status
+
+exit allows you to exit the current (sub)shell, optionally specifying an exit code.
+success|0 
+some kind of failure|not 0
+miscellaneous error|1
+(bash builtins) incorrect usage (invalid/missing arguments)|2
 
 ##### concepts
 
@@ -7101,13 +7242,13 @@ One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one
 
 ##### layers
 
-OSI Model|TCP/IP Model|PDU (TCP/IP)
-Applicatio|Application
+OSI Model|TCP/IP Model|PDU (TCP/IP)|Communicant identifier
+Application|Application||path of URL (I think)
 Presentation
 Session
-Transport|Transport|segment (TCP) / datagram (UDP)
-Network|Internet|Packet
-Data Link|Link|frame
+Transport|Transport|segment (TCP) / datagram (UDP)|Port
+Network|Internet|Packet|IP Address
+Data Link|Link|frame|MAC Address
 Physical
 
 Frame contains IP packets contains segment/datagram contains application protocol message
@@ -7607,6 +7748,10 @@ SSL is deprecated in favor of TLS, however TLS is often still called SSL
 
 ##### layer 4
 
+§§ The most common protocols in the ((c:24;::transport)) layer are ((c:25;::TCP)) and ((c:25;::UDP)). §<br>
+  §§ The ((c:25;::transport)) layer, directly beneath the ((c:26;::application)), but above the ((c:27;::internet)) layer is the ((c:28;::2nd)) layer from the top of the internet portocol suite. §<br>
+§§ ((c:29;::TCP)) is ((c:30;::more complex)) than ((c:31;::UDP)) (amongst other things) because it is ((c:32;::stateful)) §<br>
+
 ###### nc
 
 nc as a command is read netcat
@@ -7615,9 +7760,49 @@ nc [<options>] [<hostname>] [<port>]
 
 ###### ports
 
+§§ Ports exist only in software §<br>
+§§ A ((c:33;::port)) is ((c:34;::uniquely identified by)) a ((c:35;::port number)). §<br>
+§§ A ((c:37;::port number)) is a ((c:36;::16)) bit integer §<br>
+§§ Ports that are ((c:38;::only used for a short time)) to do something are known as ((c:39;::ephemeral)) ports, which are generally used for ((c:40;::clients)) (because ((c:40;::the port of the client can be anything anyway))) §<br>
+§§ the ((c:44;::dynamic)) or ((c:45;::private)) ports are often used as ((c:46;::ephemeral)) ports §<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Port range</th>
+    <th colspan="2">Is called</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:47;::&lt;1024))</td> <td>((c:48;::well-known))</td></tr>
+<tr><td>((c:49;::1024 - 49151 (2^15 + 2^14)))</td> <td>((c:50;::registered))</td></tr>
+<tr><td>((c:51;::49152 (2^15 + 2^14) - 2^16))</td> <td>((c:52;::dynamic))</td> <td>((c:53;::private))</td></tr>
+  </tbody>
+</table>
+
+
+<br>---<br>
+  §§ Generally, an ((c:54;::application protocol)) will have a ((c:55;::port number)) it ((c:56;::is associated with)) (esp. on ((c:57;::the server side))). §<br>
+===<br>
+
 preassigned
 
 FTP|21
+<table>
+  <thead>
+    <tr><th>Protocol</th>
+    <th>Port</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::SSH))</td> <td>((c:2;::22))</td></tr>
+<tr><td>((c:3;::telnet))</td> <td>((c:4;::23))</td></tr>
+<tr><td>((c:5;::SMTP (plaintext)))</td> <td>((c:6;::25))</td></tr>
+<tr><td>((c:7;::DNS))</td> <td>((c:8;::53))</td></tr>
+<tr><td>((c:9;::HTTP))</td> <td>((c:10;::80))</td></tr>
+<tr><td>((c:11;::IMAP (plaintext)))</td> <td>((c:12;::143))</td></tr>
+<tr><td>((c:13;::HTTPS))</td> <td>((c:14;::443))</td></tr>
+<tr><td>((c:15;::SMTP (encrypted)))</td> <td>((c:16;::587))</td></tr>
+<tr><td>((c:17;::IMAP (encrypted)))</td> <td>((c:18;::993))</td></tr>
+  </tbody>
+</table>
 
 conventional
 
@@ -7987,6 +8172,11 @@ lynx, w3m|text-based browser
 
 Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
+<br>---<br>
+  §§ For qutebrowser, you do ((c:1;::advanced config)) in ((c:2;::the config.py)) §<br>
+§§ In the config.py of qutebrowser, you ((c:3;::can change most settings)) ((c:4;::on the <code>c</code> object)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ###### file-sharing
 
@@ -8762,8 +8952,6 @@ env|show all environment variables
 
 export|export a variable
 export -n|unexport a variable
-
-exit allows you to exit the current (sub)shell, optionally specifying an exit code.
 
 #### Shadowing
 
@@ -10967,6 +11155,102 @@ A web framework is a framework for use in web development.
 
 #### commonalities
 
+##### templating
+
+<br>---<br>
+  §§ ((c:8;::a template engine/processor)) is something that ((c:9;::combines)) ((c:10;::a template)) and ((c:11;::data)) ((c:9;::into some kind of result)) §<br>
+§§ ((c:12;::templatees)) are written in ((c:13;::template languages)) §<br>
+===<br>
+
+####### Liquid
+
+
+§§ ((c:2;::liquid)) is ((c:1;::a template language))) §<br>
+§§ ((c:3;::Liquid)) was develped from ((c:7;::Embedded Ruby Templates (ERB))) §<br>
+§§ ((c:4;::Liquid)) is ((c:5;::kinda similar to Ruby)) due to ((c:6;::it being developed from Embedded Ruby Templates (ERB))) §<br>
+
+  §§ ((c:1;::Liquid)) ((c:2;::tags)) look like this ((c:3;::{% ... %))}. §<br>
+§§ Liquid ((c:4;::tags)) ((c:5;::surround)) ((c:6;::logic/control flow)). §<br>
+§§ In liquid, ((c:7;::outputting)) is generally done ((c:8;::within double curly braces {{ ... ))}} §<br>
+§§ <pre><code>{% if user %} §<br>
+§§ Hello {{ user.name }}! §<br>
+§§ {% endif %}</code></pre> §<br>
+§§ ((c:9;::adding a -)) ((c:10;::to {{ or {%)) ((h:9,10;::like {{-, {%-)) ((c:11;::strips whitespace from the relevant side)) §<br>
+
+<br>---<br>
+  §§ ((c:9;::Liquids)) ((c:10;::loops)) are odd in that the((c:11;::y accept a number of additional parameters)) ((c:12;::after the main condition)), in the format ((c:13;::key:value)) and separated by ((c:14;::spaces)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Liquid loop parameters</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::start where the previous loop of the same iterator left off))</td> <td>((c:2;::offset:continue))</td></tr>
+<tr><td>((c:3;::start at the offset/index n))</td> <td>((c:4;::offset:n))</td></tr>
+<tr><td>((c:6;::iterate through the array in reverse))</td><td>((c:5;::reversed))</td></tr>
+<tr><td>((c:7;::only do n iterations))</td> <td>((c:8;::limit:n))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+<pre><code>{% for item in array foo:bar foo2:bar2 %}
+  {{ item }}
+{% endfor %}</code></pre>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+<br>---<br>
+  §§ ((c:1;::cycle)) ((c:2;::takes n arguments)) and ((c:3;::prints the next one (from the last time this  was called))). §<br>
+§§ <pre><code>{% cycle item1, item2... %}</code></pre> §<br>
+§§ ((c:4;::Cycle)) can be used to apply classes for ((c:5;::even/odd elements)) or ((c:6;::to any nth elements)). §<br>
+§§ ((c:7;::Without the cycle group paramter)), ((c:8;::all cycles in the document)) ((c:9;::cycle the same thing)) §<br>
+§§ ((c:10;::if you want to cycle multiple things)) in ((c:11;::the same document)), you need to ((c:12;::use cycle group paramters)). §<br>
+§§ The syntax for the cycle ((c:13;::group parameter)) is <code> ((c:14;::"name":))</code>. §<br>
+§§ <pre><code>{% cycle "name": item1, item2... %}</code></pre> §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::{% liquid ... %}))</td> <td>((c:2;::write liquid logic in a single block))</td></tr>
+<tr><td>((c:3;::{% raw %} ... {% endraw %}))</td> <td>((c:4;::disable tag processing (different from comments in that non-liquid stuff will be rendered)))</td></tr>
+<tr><td>((c:5;::{% render "foo" %}))</td> <td>((c:6;::render another template foo))</td></tr>
+<tr><td>((c:7;::{% tablerow foo in bar ...))</td> <td>((c:8;::generate html tables))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+<br>---<br>
+<pre><code>{% liquid
+case section.blocks.size
+when 1
+  assign column_size = ''
+when 2
+  assign column_size = 'one-half'
+when 3
+  assign column_size = 'one-third'
+else
+  assign column_size = 'one-quarter'
+endcase %}</code></pre>
+===<br>
+
+<br>---<br>
+  §§ There are ((c:1;::two different namespaces)) for ((c:2;::variables)) in ((c:3;::liquid)): one for ((c:4;::assign/capture)) and one for ((c:5;::increment/decrement)) §<br>
+§§ ((c:6;::Normal variable assignment)) uses the ((c:7;::assign)) keyword §<br>
+<pre><code>{% assign my_variable = false %}</code></pre>
+§§ ((c:8;::{% increment / decrement foo %))} ((c:9;::increments/decrements)) a variable foo ((c:10;::increment)) ((c:12;::variables)) start at ((c:11;::0)) and ((c:10;::decrement)) ((c:12;::variables)) starts at ((c:11;::-1)) §<br>
+§§ ((c:13;::everything within)) ((c:14;::a capture block)) is ((c:15;::assigned to the specified variable)) §<br>
+§§ ((c:17;::capture)) captures ((c:16;::a whole string)) into ((c:18;::a new variable)), allowing ((c:19;::string interpolation)) or ((c:20;::other complex logic)) to generate the variable §<br>
+<pre><code>{% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}</code></pre> 
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
 #### front-end frameworks
 
 Express is the most popular server-side web framework for node.
@@ -11245,7 +11529,17 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 ### programming language relationships
 
-#### ECMA
+#### versions over time
+
+§§ Python ((c:1;::2)) and ((c:1;::3)) have ((c:2;::some syntactic differences.)) §<br>
+ES2015|ES6
+§§ The rust development cycle has the three release channels ((c:1;::Nightly)), ((c:2;::Beta)) and ((c:3;::Stable::S...)). ((s:gb;::((c:4;::Every six weeks)) ( = ((c:5;::1 cycle))), ((c:6;:: a release moves up one (beta -&gt; stable, nightly -&gt; beta) )). )) §<br>
+§§ Therefore, ((s:10-12;::((c:7;::what is beta now)) will be ((c:8;::stable)) in ((c:9;::a maximum of 6 weeks)))), and ((s:7-9;::((c:10;::what is nightly now)) will be ((c:11;::stable)) in ((c:12;::at most 12 weeks)).)) §<br>
+§§ ((c:17;::Breaking changes (such as reserving new features))) can only happen on ((c:18;::the highest rust versioning level)), which are ((c:19;::editions)). ((s:gb;::these are released ((c:20;::about every three years)), with the ones in existence as of writing being ((c:21;::2015, 2018, and 2021)))) §<br>
+
+#### dialects, influence, etc.
+
+##### ECMA
 
 JS = Javascript
 ES = ECMAScript
@@ -11253,7 +11547,6 @@ JavaScript is a dialect/language that coforms to of the ECMAScript standard
 others languages that conform to the ECMAScript standard are ActionScript / JScript. 
 However, this distincition is often not made, and JavaScript and ECMAScript are often treated as synonyms. 
 CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
-ES2015|ES6
 TypeScript is a superset of javascript.
 
 ### Things programming languages do especially well
@@ -11956,21 +12249,10 @@ Code splitting is the splitting of code into various bundles or components which
 
 different tools may perform one or more roles within a toolchain.
 
-In latex the package manager is part of the tex distribution
-The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
-Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
-
 Most commonly, the CLI for a framework will also be a build tool.
 
-cargo is the package manager and build tool for rust.
-the official package repository for cargo is crates.io
-There is no official task runner for rust, but one commonly used is cargo-make.
-npm is the most common package manager for JS, followed by yarn. 
-The official package hub for npm is the npm Registry.
-npm scripts works as a task runner for JS.
-pip is the package manager for python.
-The official package hub for pip is PyPI.
-The package format for python format .whl ('wheel')
+#### dpkg / apt
+
 apt is the package manager for Ubuntu.
 In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
 PPA = Personal Package Archive
@@ -11989,15 +12271,43 @@ apt-cache can be used to query apt's package cache (the local record of packages
 
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
-homebrew (command: brew) and macports (command: port) are package managers for macos.
-homebrew can also be used on linux, and is written in ruby.
-ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
-In ruby, packages are called gems.
-The official package hub for RubyGems is rubygems.org
+
+#### rust
+
+cargo is the package manager and build tool for rust.
+the official package repository for cargo is crates.io
+There is no official task runner for rust, but one commonly used is cargo-make.
+
+#### JS
+
+npm is the most common package manager for JS, followed by yarn. 
+The official package hub for npm is the npm Registry.
+npm scripts works as a task runner for JS.
+
+#### python
+
+pip is the package manager for python.
+The official package hub for pip is PyPI.
+The package format for python format .whl ('wheel')
+
+#### anaconda
+
+Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
+conda is the package manager for the anaconda software distribution.
+
+#### react antive
+
+metro is the bundler for React Native.
+
+#### Latex
+
+In latex the package manager is part of the tex distribution
+The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
 tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
-conda is the package manager for the anaconda software distribution.
-metro is the bundler for React Native.
+
+#### snap
+
 snap is the package manager for snaps.
 snaps are mainly used in Ubuntu, but can be used on many *nixlikes.
 snap packages = snaps
@@ -12011,14 +12321,55 @@ snaps variable data (such as log files) are stored in /var/snap
 snap has a second linux file system in /snap/core, which it mounts in specific places at runtime.
 snaps are pacakged by snapcraft.
 
+#### homebrew
 
-
-
+homebrew (command: brew) and macports (command: port) are package managers for macos.
+homebrew can also be used on linux, and is written in ruby.
 tap TAPNAME|add a repository|brew
 
+<br>---<br>
+  §§ in ((c:11;::homebrew)), a ((c:1;::formula)) ((c:2;::describes a package)). §<br>
+§§ A ((c:12;::formula)) is a ((c:3;::ruby (.rb))) file. §<br>
+§§ Each ((c:4;::tap)) has ((c:5;::its own list of formulae)), which you can find at ((s:4-5;::((c:6;::tap-name/Formula)).)) §<br>
+§§ A ((c:13;::formula)) contains ((c:7;::the location of the tarball of the source)), and  ((c:8;::a script that knows how to build the software from the source)). §<br>
+§§ A ((c:9;::precompiled formula)) is known as a ((c:10;::bottle)). §<br>
+§§ A ((c:14;::cask)) is like a ((c:15;::formula)), but ((c:16;::it's used to installed native .dmg mac apps instead of cli packages)) §<br>
+§§ In homebrew, ((c:17;::all formulae)) are contained in ((c:18;::taps)) (≈ ((c:19;::repositories))). §<br>
+§§ The ((c:20;::default)) ((c:21;::taps)) are ((c:22;::homebrew-core)) and ((c:23;::homebrew-cask)) (for ((c:24;::Casks))), and you can ((c:25;::add further 3rd party ones)) §<br>
+===<br>
 
+<br>---<br>
+  §§ In homebrew, according to the docs, a ((c:1;::Keg)) is ((c:2;::the path a formula is installed to)), including ((c:3;::the specific version)). §<br>
+§§ since ((c:4;::Kegs)) are ((c:5;::always installed)) to ((c:6;::the Cellar)) (path e.g. on apple silicon ((s:6;::((c:7;::/opt/homebrew/Cellar))))), ((s:8;::a Keg has the following syntax (on apple silicon ((c:8;::/opt/homebrew/Cellar/&lt;formulaname&gt;/&lt;version&gt;))&nbsp;)) §<br>
+§§ If something is ((c:9;::keg-only)), it is ((c:10;::installed into (/usr/local or /opt/homebrew/ or linux)/Cellar)) but ((c:11;::not symlinked anywhere else)), often because ((c:4;::the OS already ships with a version that this would conflict iwth)) §<br>
+===<br>
 
+<br>---<br>
+  §§ ((c:1;::homebrew)) installs ((c:12;::anything)) to ((c:2;::within its prefix)). §<br>
+===<br>
 
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">homebrew prefixes</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::macOS Intel))</td> <td>((c:2;::/usr/local))</td></tr>
+<tr><td>((c:3;::Apple Silicon))</td> <td>((c:4;::/opt/homebrew))</td></tr>
+<tr><td>((c:5;::Linux))</td> <td>((c:6;::/home/linuxbrew))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+<br>---<br>
+  §§ ((c:13;::Where homebrew has its prefixes)) mean you ((c:9;::don't need to sudo anything with brew)), which is also ((c:9;::highly discouraged.)) §<br>
+§§ If necessary, ((c:1;::homebrewbrew)) ((c:10;::links things)) ((c:14;::from its prefix)) ((c:11;::into directories such as /usr/local/bin, /usr/local/lib)) §<br>
+===<br>
+
+#### ruby
+
+ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
+In ruby, packages are called gems.
+The official package hub for RubyGems is rubygems.org
 bundler is kinda weird, since it is a ruby gem itself.
 bundler manages the gemfile 
 The gemfile contains dependencies
@@ -12027,7 +12378,7 @@ In a gemfile, the first thing is a call to source, which establishes the global 
 source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
 within the gemfile, gem dependencies are defined by `gem <name>, <version>`
 
-tools to interact with framewokrs
+#### tools to interact with framewokrs
 
 interact with nextjs|next
 interact with jekyll|jekyll
@@ -12088,6 +12439,7 @@ In a blue-green deployment, initially all users are routed to the blue env. Once
 
 feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
 Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
+§§ Rust hides ((c:13;::unstable/experimental)) ((c:13;::features)) behind ((c:14;::feature flags)), ((s:gb;::which you ((c:15;::can only activate)) on ((c:16;::nightly)))). §<br>
 
 # Misc/no place yet
 
