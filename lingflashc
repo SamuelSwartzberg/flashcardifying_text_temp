@@ -6,6 +6,58 @@ Thus, a segment is "any element, at any level of representation, which is descri
 
 ## structuralism
 
+### the sign
+
+<div class="sandbox">
+<div class="sign">
+  <div class="sign__sign">  ((c:1;::sign))  </div>
+  <div class="sign__bubble">
+    <div>((c:2;::signified))</div>
+    <div>((c:3;::signifier))</div>
+  </div>
+</div>
+  
+<style>
+  .sign {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    max-width: 15em;
+    margin: 0 auto;
+    height: 10em;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1em 2em;
+    border: 0.1em solid black;
+    color: black;
+    font-family: sans-serif;
+  }
+  .sign__sign {
+    flex: 1 1 20%;
+  }
+  .sign__bubble {
+    flex: 1 1 70%;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 50%;
+    border: 0.1em solid black;
+    width: 10em;
+  }
+  .sign__bubble > * {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign__bubble > *:first-child {
+    border-bottom: 0.1em solid black;
+  }
+</style>
+</div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+
 ### emic and etic units.
 
 <br>---<br>
