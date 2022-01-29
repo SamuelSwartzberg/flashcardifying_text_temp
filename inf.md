@@ -8685,7 +8685,6 @@ Different cases for a switch conditional are started by <code>switch</code> in J
 In liquid, ruby, multiple cases are separated by commas.
 The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
 Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
-Rust instead has match
 In C-family languages, switch cases are generally syntactically equivalent to labels, and thus don't themselves create a new scope by default.
 
 JS Syntax examples:
@@ -8765,7 +8764,7 @@ Many languages provide a statement which allows skipping the current (continuing
 Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.
 Many languages provide a statement which allows ending/exiting the loop.
 Most languages use the break statement to end/exit the loop, Perl uses the last statement.
-In Rust, you can pass an argument to the break thing to have that be the return value of the block expression
+In Rust, you can pass an argument to the break thing (break <something>) to have that be the return value of the block expression
 
 
 Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
@@ -8843,6 +8842,7 @@ Parametric polymorphism is polymorphism that only uses one implementation, inste
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
 C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
 In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64
+In rust, we may specify a list of traits that a generic must satisfy by indicating it within a type parameter as \<<generic>: <trait-name>{ + <ttrait-name>}\>
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -8996,8 +8996,11 @@ A literal is a value which is written into the source code as-is and therefore i
 
 In rust, eveary value has exactly one owner.
 Owners are variables(/constants).
-Assigning a value to a second variable invalidates the first reference.
-When we assign a value to something different, thus changing the owner and invalidating the first reference/owner, we call this moving.
+Moving happens when we assign a value to a different owner and thus the first owner is invalidated.
+Assigning a value to a second owner produces a move unless the type implements Copy, in which case it instead calls copy.
+Rust says values that are moved when reassigned (= which don't implement Copy) have move semantics, values that are copied (= which implement Copy) implement copy semantics.
+In rust, all primitves implement Copy
+Assigning as an operation that forces moving includes passing to a function and returning from a function.
 When a owner goes out of scope, a value is dropped.
 
 ## Variables
@@ -9087,6 +9090,7 @@ irrefutable|pattern cannot fail to match
 
 match is a conditional that uses pattern matching for its conditions, and forces checking to be exhaustive.
 Rust of the languages that I know has a match conditional (using the keyword match). Of the languages I don't know, the ML family and functional languages have match conditionals.
+in rusts's match, condition and expression are separated =>
 
 pattern1 bar pattern2|pattern 1 or pattern 2
 
@@ -9129,7 +9133,8 @@ final|Java
 Keyword for variables:
 let|Rust
 
-In rust, even variables are immutable by default, and the keyword mut makes them mutable.
+In rust, even variables are immutable by default, and the keyword mut makes them mutable, the difference to consts being that consts cannot be declared mutable.
+Rust requires its consts to always be type annotated.
 In JS, consts are always block-scoped.
 In some languages (JS), consts must be initialized in the same statement as they are declared.
 
@@ -9163,8 +9168,8 @@ C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
 JS: Number, boolean, null, undefined, string, object, array
 Rust: 
-scalar: integer, floating-point numbers, booleans, chars
-nonscalar: tuple, array
+  scalar: integer, floating-point numbers, booleans, chars
+  nonscalar: tuple, array
 Python: integers, floats, complex numbers
 
 
@@ -9209,7 +9214,7 @@ Specifying the type of a thing (esp. a variable/constant) by writing the type in
 Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
 In most (esp. C-family) languages, type annotation goes before the variable/constant.
 In Python, Rust and TS, type annotation looks like so `: type`
-Python supports type annotation since Python .35
+Python supports type annotation since Python 3.5
 
 ###### Type aliasees
 
@@ -9295,13 +9300,16 @@ Syntax in Python and TS: type1 | type2 ...
 A literal type is a type that can take on exactly one value which is specified via the literal of another type (e.g. 4 or true or "ara ara")
 A literal type is a type of unit type.
 
-#### Top types and bottom types
+#### type theory
 
 A top type is the supertype of every othe type.
 Any value can be assigned to the top type.
 A bottom type is the subtype of every other type.
 No value can be assigned to the bottom type.
 Using the bottom type is useful when you want to specify a value with which you can do truly nothing.
+
+A unit type is a type that only allows a single value.
+
 
 A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
 
@@ -9315,6 +9323,14 @@ UNIVERSAL|Perl
 java.lang.Object|Java
 System.Object|C#
 BasicObject|Ruby
+
+unit tye
+
+()|Rust
+
+Rust's () for the unit type is abstracted from the idea of a tuple with no elements.
+In Rust, things without a return value implicitly return ()
+In rust, a struct without fields is also an unit type, called the unit-like strct
 
 
 ### Symbols
@@ -9335,13 +9351,53 @@ A reference is a value that allows indirect access to another value.
 A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
 Handle is an ambiguous concept, but is most commonly seem as a synonym to reference.
 dangling reference/pointer = wild reference/pointer
-A dangling/wild reference is a reference
+A dangling/wild reference/pointer is a reference that doesn't reference/point to something valid
 Link rot is the process of links becoming dangling/wild references.
+Multiple indirection is having references to references (and so on).
 
 A smart pointer is a pointer with some other features (e.g. automatic memory management or bounds checking).
-Dereferencing takes a value that is a reference and returns the refernced value.
+A fat pointer is a pointer that stores some extra data besides the address.
+
+What Rust and C++ call references are probably more like pointers.
+In Rust and C++ the & operator takes a reference of something.
+In Rust, any references of a type have the type &<type>, while in C++ they have the type <type>&.
+In Rust, to take a reference, one must prefix the thing one is taking a reference of with &, while in C++ reference-taking is implied if one assigns to a reference-type variable.
+In Rust, references are immutable by default, and must explicitly be declared mutable with &mut.
+In Rust, the act of taking a reference is known as borrowing, since implements specific semantics/rules.
+In Rust, correct use of borrow semantics are checked at compile time by the borrow checker.
+Borrow rules:
+1) borrows cannot last for a larger scope than the owner
+2) you may only have n references to a resource or exactly one mutable reference to a resource, but not both at the same time.
+Only having either n references or exactly mutable reference to a resource implies that you cannot assign to a variable borrowed elsewhere, since assigning requires an implicit mutable borrow (!).
+x = 22 is equivalent to *(&mut x) = 22
+Dereferencing takes a thing that is a reference and returns the referenced thing, allowing you access to the value behind the reference.
+you can also dereference on the left-hand side of an assignment to assign to the referenced piece of memory.
 In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
-In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing
+In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing.
+
+In Rust, a slice is a fat pointer.
+In Rust, a slice is a view into a block of memory by means of a pointer that also stores a length.
+In Rust, any linear collection type can be sliced.
+In Rust, slices are considered a reference and have the same semantics as references do.
+Rust slices can bu used for the same reasons one would use slices in e.g. Python (though without the ability to step or reverse), but they are not copies, but fundamentally just views.
+getting a slice: &[mut] <thing-being-sliced>\[<n>(..|..=)<m>\]
+slices can be indexed just like anything else.
+Slices' length may not be known at compile time, and so rust can't guarantee that indexing into a slice will not produce an error.
+In rust, string literals are slices, specifically they are slices into the rodata section of the object file.
+this means that instead of being &str, string literals are in fact &'static str
+
+In rust, `String` and `str` are both UTF-8 byte sequences.
+Since `String`/`str` are UTF-8 byte sequences, they cannot be indexed, as they could be indexed on a non character boundary (does allow slicing however, slices always have this problem potentially).
+To get an iterator of the UTF-8 bytes of a String, use bytes().
+In rust `String` represents string data allocated on the heap, while `str` represents string data somewhere in memory.
+since rust's `String` is stored on the heap, it can be grown and shrunk.
+Since we don't know where the string data of `str` will be and what size it can or cannot have, `str` itself cannot be owned, but instead can only be referred to as a reference.
+A 'reference' &str is actually a slice, not just a mere reference. I presume that's because we need the feature of slices indicating the length, sice we need some way to know where the str stops (since `str`s can have any length, in contrast to other things like an array which we don't need to slice to reference it since we know where it ends at compile time)
+Rusts treats references to strings &String and &str as the same in most cases, since there is not much difference between a reference to a string stored on the heap whose length we know, and a slice to a string stored somewhere whose length we know by virtue of it being a slice.
+
+String.from() gets a String from an &str.
+String.new() creates a new empty string.
+the + operator for strings requres a `String` on the left and a `&str` on the right
 
 ### Null types
 
@@ -9353,13 +9409,15 @@ there isn't one|Rust
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 In JS a type is nullish if it is null or undefined.
 
-####  nullable</h34>
-Nullable types are a feature of some programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
+####  nullable
+
+Nullable types are a feature of some statically typed programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
 
 ### Option type
 
 An option type is a type that represents an optional value.
 An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
+In rust, the option type is its alternative for null, which it does not have.
 In rust, the option type is implemented as an enum.
 In rust, the option type is 
 pub enum Option<T> {
@@ -9368,6 +9426,11 @@ pub enum Option<T> {
 }
 
 In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
+
+### Result type 
+
+A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
+in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Err(E)}
 
 ### boolean
 
@@ -9488,6 +9551,9 @@ Associative collections map keys to values.
 Js sets and maps use .size instead of .length
 Java has the Collections Framework for collections 
 Collections may be implemented in the language as primitives, but many are either transparently records or some syntactic sugar made up of literals over records; in some language everything is an object anyway and thus this distinction doesn't apply.
+
+Rust only calls its non-primitive collections collections, which are stored in std::collections.
+Rust collections (as in non-primitve collections) are stored on the heap and are variable size, primitive data structures are stored on the stack and are fixed-size.
 
 #### Access
 
@@ -9679,6 +9745,8 @@ somelincoll.insert(elem, index)|JS
 Fill the thing with the specified element
 somelincol.fill(element[, start[, range]])|JS|Ruby
 In Ruby, fill also may take a block to calculate the element to fill it.
+[element; length]|Rust (Arrays)
+vec![element; length]|Rust (Vectors)
 
 JS
 Array() and Array.of() will create an array of a list of arguments.
@@ -9693,6 +9761,10 @@ someassocarray.pop(somekey)|the relevant value
 somearr.pop(index)
 
 somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
+
+###### Rust
+
+In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option<&T>
 
 ##### Strings as linear collections
 
@@ -9716,12 +9788,14 @@ stringOrArray.concat(stringsOrArrays)|JS|Ruby
 
 An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
+###### depth
 
-  |no indices (one value only)|zero-dimensional array (uncommon)|scalar
-    |one index|(one-dimensional) array|vector
-|two indices|two-dimensional array|matrix
-|n indices|multidimensional array|tensor
+no indices (one value only)|zero-dimensional array (uncommon)|scalar
+one index|(one-dimensional) array|vector
+two indices|two-dimensional array|matrix
+n indices|multidimensional array|tensor
 
+###### types & names
 
 Arrays may be dynamic = have variable size, or static = have fixed size.
 Dynamic arrays are sometimes called arraylists.
@@ -9729,16 +9803,16 @@ Arrays are generally primitives in different programming languages, though they 
 
 dynamic arrays (one type only)
 
-vector|rust
-ArrayList|Java
-List(yes, really)|C#
+Vec<T>|rust
+ArrayList<T>|Java
+List(yes, really)<T>|C#
 
 dynamic arrays (of whatever types)
 
 list|python
 array|perl|JS|ruby
 
-Vectors, ArrayLists and Lists are Objects/Structs and defined over a generic
+Rust Vectors, Java ArrayLists and C# Lists are Objects/Structs and defined over a generic
 
 static arrays (one type only)
 
@@ -9757,7 +9831,9 @@ list|SASS/SCSS
 
 table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
-Array literals
+for rust, to have things of different types in a vector, one would have to use something like enum or box.
+
+###### Array literals
 
 In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
 
@@ -9772,6 +9848,9 @@ static arrays (of diffent types), the compiler therefore knows the type of each 
 ()|rust
 []|TS
 
+dynamic (of a single type)
+vec![]|Rust (creation only)
+
 immutable static array (of whatever types)
 
 ()|SASS/Scss|Python (Though in python in reality it is the comma that creates a tuple. the parentheses are just often needed for grouping)
@@ -9785,7 +9864,8 @@ YAML also has indentation delimited, newline separated, individual items marked 
 In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
-in languages with type annotation, the type of arrays is usually written as type[], e.g. int[] or String[]
+in languages with type annotation, the type of dynamic arrays is usually written as type[], e.g. int[] or String[]
+In rust, the type of its (static) array is annotated as [<type>, <length>]
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
 
@@ -9981,6 +10061,8 @@ new-style string formatting:
 f-strings: allow arbitrary expression within {}. String must be prefixed by f
 f"Hello, {name}"
 
+rust allows its formatting syntax in its format! and println! macros, with the difference being that the former returns a string and the latter prints.
+
 Rust:
 Syntax|Trait
 {}|Display
@@ -10072,7 +10154,12 @@ does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
 remove whitespace from beginning and end of string|trim()|JS, Ruby
 remove whitespace from beginning of string|trimStart()/trimLeft()|JS
 remove whitespace from end of string|trimStart()/trimLeft()|Ruby
-split string on foo|.split(foo)|Python|JS(empty string for char array)
+split string on foo|.split(foo)|Python|JS(empty string for char array)|Rust
+split string on whitespace|.split_whitespace()|Rust
+split string on newlines|.lines()|Rust
+
+to char array/iterator
+chars()|Rust
 
 #### String replacement
 
@@ -10298,6 +10385,9 @@ When not in callable unit parameters, JS spread and Ruby/Pythons splat transform
 Ruby uses a double splat operator for associative array destructuring.
 [... OR *[1,2,3], 4] == [1,2,3,4]
 {**{:foo => 1, :bar => 2}, :quuz => 3} == {:foo=>1, :bar=>2, :quuz=>3} and {...{foo: 1, bar:2}, quuz:3} === { foo: 1, bar: 2, quuz: 3 }
+Rust's struct update syntax has some similarities to JS associative array destructuring
+Rust's struct update syntax uses the oparator ..
+for including all values of a struct instance into the current struct instance, use struct update sytnax.
 
 ## Errors
 
@@ -10331,6 +10421,8 @@ error()|lua
 @error|SCSS?Sass
 raise|Ruby
 panic!()|Rust
+
+for rust, panicking is throwing an unrecoverable error
 
 #### Error handling control structures
 
@@ -10719,7 +10811,7 @@ Information hiding is hiding the internals of a thing from the  outside.
 
 A class x is a x operates on/is defined on a class rather than an instance.
 An instance x operates on/is defined on an instance of a record.
-A class x may also be known as an associated function.
+A class function may also be known as an associated function.
 Class x ≈ static x
 generally, one mainly talks of class, instance methods, which operate on classes/instances, and class, instance variables
 class variables + instance variables = fields
@@ -10742,8 +10834,9 @@ Many languages bind self/this automatically in methods, all others typically bin
 In JS, any function binds this, even those that are not methods. Outside of a function, this refers to the global object.
 to refer to the this representing the global object even within places that bind this to something else, use `globalThis`.
 
-In Rust, Python, methods must take self as the first argument, else they are class methods/associated functions.
-
+In certain languages (Rust, Python), methods must take self as the first argument, else they are class methods/associated functions.
+In rust, taking `self` takes ownership and thus invalidates previous references, ergo one generally wants to take &self or &mut self.
+In rust, one uses :: instead of . to call associated functions
 
 ### Methods
 
@@ -10773,8 +10866,7 @@ You can only interact w/ ruby instance variables via getters and setters, trying
 ### passive data structure
 
 AKA plain old data structure (PDS)
-Use of a data structure that contains fields w/ values, but no other object-oriented features
-
+A passive data structure is a data structure, especially a record with fields but no other object-oriented features.
 
 ### Structs
 
@@ -10782,12 +10874,18 @@ Struct is not an incredibly well-defined term, but is generally a record with th
 In rust, struct declarations use the keyword struct.
 Both struct delcarations and initializations in rust use a very assoc-array like syntax.
 struct User { username: String, ...}
+Tuple structs are either 'tuples with a name which can be instantiated' or 'structs with anonymous but ordered fields'.
 
 ### Tagged unions
 
 A tagged union can hold a value that could take on several different but fixed types.
 A tagged union can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
-What rust calls enums is more properly a tagged union
+What rust calls enums is more properly a tagged union.
+
+### impl
+
+Rust allows implementing methods or associated functions for structs and tagged unions (enums) via the impl keyword
+For any impl block, we may indicate that we only want to implement it for something whose generics either are of a certain type or implement certain traits.
 
 ### Classes & objects 
 
@@ -10796,7 +10894,6 @@ An object in object-oriented language is essentially a record that contains proc
 Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
 
 A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
-A type that only allows one value (only allows a sigleton) is known as a unit type.
 
 method in lua function object:method(...)
 
@@ -10863,13 +10960,17 @@ Ergo, factory functions create things without using the new keyword.
 The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
 Generally, multiple type parameters are separated by , 
 Type parameters are generally written in UpperCamelCase
-Generics are generally a single char only
+Generics are generally a single char only.
+A type as a generic is typically indicated T.
 
 #### Access modifier
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
-In Java, members have default accessibility by default.
-In Python, JS, members are public by default.
+
+default accessibility|language
+default (= package)|Java
+public|Python, JS
+private|Rust
 Most language with any kind of access modifiers have at least a public private distinction
 public (most programming languages), pub (Rust)|any code
 private|code within the class
@@ -10880,6 +10981,8 @@ protected|same class and subclasses|Java
 package|within the same package|Java
 in java, the package access modifier is the default
 JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
+
+Rust descendant modules can access the private items of their parents.
 
 #### Interfaces
 
@@ -10901,10 +11004,11 @@ Traits in Rust are broadly similar to intefaces in other programming languages.
 Traits in Rust can be implemented for types you did not define.
 However, the trait ∨ the thing its implemented on must be local to the crate
 Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
+In rust, the keyword to declare a trait is `trait`.
 
 #### OOP
 
-C#, Javaf
+C#, Java
 
 #### is X an object of Y
 
@@ -10974,9 +11078,12 @@ The shebang consists of the characters #!.
 Official style guide/best practices
 PEP 8|Python
 
-## import/export
+## modules
 
-A module is as self-contained set of code, most commonly in a single file of code.
+The main purpose of modules is encapsulation.
+A module is as self-contained set of code.
+Most commonly, a module is defined by each code file.
+In Rust, modules are instead defined manually via mod <name> { ... }
 Packages and modules are sometimes synonyms.
 conta
 In python, a package is a collection of modules (and perhaps other packages).
@@ -10984,10 +11091,22 @@ In python, each .py file is a module.
 A package must contain a __init__.py file
 
 If you want to import/export multiple members, most languages have the syntax {member1 [as name1], member2 [as name2], ...}
+In some languages, when you're importin multiple members and want to bring the module itself into scope, you can include the keyword for self-reference (this or self) in the list of things to im-/export.
 Import/export anything uses * in most languages
 in JS, you can only import/export within modules.
 
+### prelude
+
+Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
+
 ### module systems
+
+#### Rust
+
+Rust allows nesting of modules in a module tree.
+In rust, the root node of the module tree `crate`, sometimes called the crate root.
+rust allows for both absolute and relative paths for the module tree, where absolute paths start at the crate root, and relative paths start at the current module.
+calling `mod` without arguments integrates an existing rust file as a child of the module we're currently in in the module tree, however the file structure must also reflect this.
 
 #### JS
 
@@ -11023,27 +11142,28 @@ For CSS, the <path> may be an <url> or a <string>
 JS supports an import() function that allows dynamic runtime imports.
 import() returns a promise.
 
+Rust uses `use` instead of import.
+
 #### SCSS/Sass 
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword <path> [as <name>]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
 
-
-#### prelude
-
-Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
-
 ### exporting
 
 Exporting is selecting entities for potential import.
 In most languages, exporting is required so they can then be imported.
 General syntax: export <members> [as <name>] [from <path>]
+re-exporting members is exporting members from a different (generally child) module.
+
 JS allows one default export per module. The default export is the only thing that may be imported without curly braces, and can be renamed without `as`.
 JS default exports are funtionality-wise not super useful, but be useful in indicating that it is the most important export / only relevant export.
 In JS, non-default exports are known as normal/named exports.
-In JS, using the from <path> component of exports allows for what JS calls re-exporting and one might also call forwarding.
-JS re-exporting allows aggregating exports in a single file
+In JS, using the from <path> component of exports allows for re-exporting.
+JS re-exporting allows aggregating exports in a single file.
+
+In rust, re-exporting works by making a `use` itself public.
 
 #### default exports
 
@@ -11103,24 +11223,47 @@ In general, there is one stack per thread and one heap per process (instance of 
 
 ### static, automatic and dynamic variables
 
+The lifetime of a variable is the time where it is in a valid state, which generally coincides with when it has memory.
+The lifetime of a value is the time where it occupies a certain region of memory.
+The lifetime of a variable cannot outlive the the lifetime of its value.
+
+A static variable is allocated for the entire lifetime of the program.
+Static variables fall outside of the clear stack heap distincition, as they are stored in a data segment.
+A data segment is a part of the object file (file of object code = compiler output, see compilers) that contains static variables.
+The read-only data segment is the part of the data segment (or an extra data segment) that contains read-only static variables (ergo static consonants)
+the read-only data segment may be called rodata.
+
+The terms automatic and dynamic variables/memory allocation are mainly used in C-style languages.
+
 An automatic variable is a variable that has its memory allocated and deallocated automatically when the program enters and leaves the variables scope.
 Automatic variables have a lifetime of the variables scope.
-Automatic variables are allocated on the stack, within a stack frame.
+In general, automatic variables are allocated on the stack, within a stack frame.
 Any automatic variable can go out of scope.
-A static variable is allocated for the entire lifetime of the program.
-Static variables fall outside of the clear stack heap distincition.
-Dynamic variables have a lifetime of your choosing: their memory is allocated and deallocated by you.
-Dynamic variables are stored on the heap.
-Def: Automatic/static/dynamic variables use automatic/static/dynamic memory allocation.
+
+Dynamic memory allocation creates lifetimes of your choosing: their memory is allocated and deallocated by you or a memory management system.
+Dynamic memory allocation generally stores things on the heap.
+(dynamic variable isn't a real term, I've introduced it here for terminological parallelism)
+Def: Automatic/static variables use automatic/static memory allocation.
+
+Use-after-free is a vulnerability where memory is used after it has been deallocated.
+Use-after-free can generally only occur to dynamically allocated memory.
+
+In lexical lifetimes, the lifetime of a value is until the end of its lexical scope
+In non-lexical lifetimes, the lifetime of a value is until it is last used within its lexical scope.
+In general, the difference between lexical and non-lexical lifetimes does not matter, however if the value is a reference Rust's borrow checker cares about if you're holding on to it. Hence, rust implements non-lexical lifetimes for references.
 
 ### memory management
 
 Memory management is managing the memory of an application.
 One of the main jobs of memory management is memory allocation and deallocation.
 Memory management may be manual = performed by the programmer or automatic = performed by the programming language automatically.
-Dynamic variables are handled by manual memory management or by automatic memory management.
+Dynamic memory allocation can be handled by manual memory management or by automatic memory management.
 Automatic variables are handled by automatic memory management.
+static variables are not subject to memory management.
 Most higher-level programming languages have no manual memory management at all.
+
+A destructor is a method which is envoked just before the memory of a thing is released.
+
 
 #### types of data
 
@@ -11128,21 +11271,40 @@ Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
-#### garbage collection
+#### manual memory management
+
+In C, dynamic memory allocation is done by manual memory allocation.
+malloc() allocates the specified number of bytes
+calloc() allocates the specified number of bytes, and sets them to 0
+free() releases teh specified block of memory back to the system.
+
+#### automatic memory management
+
+The three most common types of automatic memory management are garbage collection, automatic reference counting, and RAII.
+
+##### garbage collection
 
 Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
 
-#### reference counting
+##### reference counting
 
 (manual) reference counting is a form of manual memory management
-automatic reference counting is a form of manual memory management
-In reference counting, when no more references to a certain object exist, then it is destroyed
-In reference counting, a thing as some kind of field indicating how many references to it exists.
+automatic reference counting is a form of automatic memory management
+In reference counting, when no more references to a certain value exist, then it is destroyed
+In reference counting, a value (most commonly an object) as some kind of field indicating how many references to it exists.
 In manual reference counting, we call increment and decrement methods to indicate how many references there are.
 In automatic reference counting, increment/decrement methods for refrences are called automatically. 
 Circular set of references are called reference circles.
 reference circles can allow things in refrence counting to never reach reference count 0 and thus be destroyed.
 
+In rusts implementation of reference counting, dropping Rc<T> decreases the reference count.
+
+##### RAII
+
+RAII = resource acquisition is initialization
+In RAII, memory for a value is allocated by its constructor and deallocated by its destructor.
+In rust, the destructor for RAII is drop() of the Drop Trait.
+In rust, when a variable goes out of scope, the value it owns is dropped.
 
 ## libraries
 
@@ -11369,7 +11531,7 @@ echo|liquid (within liquid block)|(ba)sh
 echo options
 -n|no trailing newline
 
-Print functions using format strings
+Print functions using C format strings
 printf|(ba)sh, but it doesn't take format strings any more than echo|C (ofc)|Perl|Ruby
 string.format|Lua
 % syntax|Python
@@ -11468,6 +11630,8 @@ the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
 
+the standard library is often indicated by fs
+
 get list of all functions a module/package supports
 dir(foo)|Python
 
@@ -11484,7 +11648,7 @@ window.alert("mesg")
 #### Modules/Objects/Namespaces
 
 Filesystem handling
-fs|node
+fs|node|Rust
 
 #### Query for input
 
@@ -11657,6 +11821,11 @@ A transpiler compiles one (programming) language into another (programming) lang
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
 Babel is a transpiler that transpiles {{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+
+#### compilers
+
+Object code is the code that the compiler produces, generally machine code.
+The object file is the file containing object code.
 
 ### Steps involved
 
