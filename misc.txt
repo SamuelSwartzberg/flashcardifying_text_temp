@@ -1,0 +1,7 @@
+# econ
+
+## money
+
+### digital concurrency
+
+Double-spending is a potential flaw in a digital cash scheme in which the same single digital token can be spent more than once.
