@@ -3041,6 +3041,7 @@ A fingerprinting algorithm reduces a data item to a much shorter unique identifi
 Often, hashing algorithms are used as fingerprinting algorithms.
 A {{c2::checksum}} is a {{c1::small amount of data}}, derived by applying {{c3::a suitable algorithm}} the relevant data, used to {{c4::check whether errors have occurred}}, e.g. in {{c5::transmission}}, {{c5::storage}} or {{c5::data entry}}.
 Depending on its design goals, a good c{{c3::hecksum}} algorithm usually outputs {{c1::a significantly different value}}, even {{c2::for small changes made to the input}}. 
+A check digit is one or more digits or characters (but generally a small amount) used as a checksum.
 
 # HCI
 
@@ -5858,6 +5859,10 @@ macOs|launchd
 ## authentication
 
 Authentication is proving one's identity.
+
+### nonce
+
+((h:all;::<img src="300px-Replay_attack_on_hash.svg.png">))Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
 ### challenge-response
 
@@ -12328,6 +12333,12 @@ baud   Bd
 baud   symbol rate (AKA baud rate, modulation rate)
 symbol rate   symbol changes per second
 
+## coding theory
+
+The Hamming weight of a string is the number of symbols that are different from the zero-symbol (of the alphabet used).
+This means that the hammming weight of a binary number is its digit sum. 
+The hamming weight of 11101 is 4, the hamming weight of 60801 is 3
+
 ## AI
 
 ### Computer vision
@@ -12342,6 +12353,11 @@ stereo matching is matching the two images produced by stereopsis.
 After stereo matching, one can calculate the distance via trangulation.
 stereo matching is more difficult (esp. for computer sensors) if the thing is featureless (since it then has a harder time matching the relevant pixels)
 To improve stereo matching on featureless things, a device intended for depth calculation via stereopsis often will project a IR dot pattern, which is a pseudorandom but known pattern of dots in the infrared spectrum, which it then can use as the things to match.
+
+#### triangulation
+
+{{c1::Triangulation}} in surveying / computer vision / etc. is {{c2::determining the location}} of {{c3::a point C}} from {{c4::two points A and B}} by {{c5::forming a triangle}}.
+By knowing the {{c6::distance between A and B}} as well as {{c7::the angles at A and B}}, we can {{c8::reconstruct the distance.}}
 
 ### safety
 
