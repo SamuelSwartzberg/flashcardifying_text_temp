@@ -4,6 +4,32 @@
 
 ### positional
 
+A number written using a positional numeral system is said to be written in positional notation.
+significant figures are a function of a positional numeral system.
+figures ≈ digits
+zero is a digit prone to being insignificant.
+Leading zeroes are always insiginficant.
+trailing zeroes are insignificnat if they are not an indicator of precision.
+
+The most significant digit is the one with the the highest exponent value.
+The least signficcant digit has the one with the lowest exponent value.
+
+In normal positional numeral notation, the leftmost digit is the most significant.
+In normal positional numeral notation, the rightmost digit is the least significant.
+
+#### endianness
+
+Endianness is the order of most/least significant byte relative to the memory adress.
+least significant byte|byte that represents the lowest value
+most signifcant byte|byte that represents the highest value
+
+big-endian|most significant byte is at smallest memory address
+little-endian|least significant byte is at smallest memory address.
+
+If we write memory addresses from left to right, as is usual, then arabic numerals would be big endian.
+
+Modern processors are all little endian, the internet is big-endian.
+
 #### largest numbers
 
 the largest possible number in a number of n digits of a given positional numeral system is base^n - 1
@@ -97,6 +123,47 @@ analytic geometry is the study of geometry using a coordinate system.
 
 The origin is the point where the axes in a cartesian coordinate system intersect
 
+## angle
+
+https://upload.wikimedia.org/wikipedia/commons/2/21/Two_rays_and_one_vertex.png
+An angle is the figure between two rays sharing a common endpoint.
+The vertex of an angle is the common endpoint of the rays.
+If we look at the two rays forming an angle as being in two planes, then an angle is the the figure formed by the intersection of these two planes.
+A dihedral angle is the angle formed by the intersection of two planes at a line.
+The measure of an angle is often also called an angle.
+An angle (the measure) is the ratio of the length of the circular arc centered at the vertex that maps one of the rays into the other to the distance between the vertex and the intersection between the circular arc and one of the rays (the radius).
+
+## measure
+
+A measure is the indication of the size of something.
+
+## shapes
+
+### circle
+
+A circular arc is the arc of a circle between a pair of distinct points.
+
+## Area
+
+Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms, Rhombus, Dreiecks etc.}} herleiten {{c1::indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte}}
+
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Dreieck))</td> <td>((c:2;::\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]))</td></tr>|((h:all;::<img src="sm_dreieck.gif">))
+<tr><td>((c:3;::Kreis))</td> <td>((c:4;::\[A=r^2π\]))</td></tr>|((h:all;::<img src="sm_kreis.gif">))
+<tr><td>((c:5;::Parallelogramm))</td> <td>((c:6;::\[A=a*h_a=b*h_b\]))</td></tr>|((h:all;::<img src="sm_para.gif">))
+<tr><td>((c:7;::Quadrat))</td> <td>((c:8;::\[A=a^2\]))</td></tr>|((h:all;::<img src="sm_quadrat.gif">))
+<tr><td>((c:9;::Rechteck))</td> <td>((c:10;::\[A=a*b\]))</td></tr>|((h:all;::<img src="sm_rechteck.gif">))
+<tr><td>((c:11;::Rhombus/Deltoid))</td> <td>((c:12;::\[A=\frac{e*f}{2}\]))</td></tr>|((h:all;::<img src="sm_deltoid.gif">))
+<tr><td>((c:13;::Trapez))</td> <td>((c:14;::\[A=\frac{(a+c)*h}{2}\]))</td></tr>|((h:all;::<img src="sm_trapez.gif">))
+<tr><td>((c:15;::Kreissektor))</td> <td>((c:16;::\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]))</td></tr>|((h:all;::<img src="sm_sektor.gif">))
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
 
 # number theory
 
@@ -107,6 +174,12 @@ A signed number is a number which can have its sign specified.
 Therefore, in computing a number is signed if it can take on negative values, and unsigned otehrwise.
 
 ## elementary arithmetic
+
+### algorithms for
+
+## prime number
+
+prime factor = primfaktor
 
 ### by hand
 
@@ -124,6 +197,65 @@ The factorial is the product of all positive integers less than or equal to n.
 
 tuples use parentheses
 
+### types of sets
+
+#### number sets & blackboard bold
+
+<br>---<br>
+  §§ A <dfn>((c:15;::number set))</dfn> is ((c:16;::a set of numbers)) with ((c:17;::certain special properties)), e.g. ((c:18;::natural, rational, real etc)). §<br>
+§§ ((c:19;::number sets)) are usually written in ((c:20;::bold)) or ((c:20;::blackboard bold)) letters. §<br>
+§§ ((c:21;::number sets)) are called ((c:22;::Zahlenbereiche)) in German. §<br>
+===<br>
+
+
+<br>---<br>
+  §§ ((c:23;::Blackboard bold)) is a style of font that includes ((c:24;::double)) ((c:25;::vertical/near-vertical)) ((c:26;::lines)) §<br>
+§§ ((c:27;::𝔸, 𝔹, ℂ)) are examples for ((c:28;::Blackboard bold)) (letters) §<br>
+§§ ((c:29;::Blackboard bold)) letters are called ((c:30;::Buchstaben mit Doppelstrich)) in German. §<br>
+§§ ((c:31;::Blackboard bold)) letters are ((c:32;::called that and look like that)) because ((c:33;::drawing true bold letters on a blackboard would have been too time-consuming.)) §<br>
+===<br>
+
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Refers to?</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<b>N</b>/ℕ))</td><td>((c:2;::Set of all natural numbers))</td></tr>
+    <tr><td>((c:3;::<b>P</b>/ℙ))</td><td>((c:4;::Set of all primes))</td></tr>
+    <tr><td>((c:5;::<b>Q</b>/ℚ))</td><td>((c:6;::&gt;Set of all rational numbers))</td></tr>
+    <tr><td>((c:8;::<b>R</b>/ℝ))</td><td>((c:7;::Set of all real numbers))</td></tr>
+    <tr><td>((c:9;::<b>Z</b>/ℤ))</td><td>((c:10;::Set of all integers))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:34;::Integers)) are known as ((c:35;::ganze Zahlen)) in German. §<br>
+===<br>
+
+
+<br>---<br>
+<div class="onion-box">
+  <span>((c:11;s:all;::ℝ))</span>
+  <div class="onion-box">
+    <span>((c:12;s:all;::ℚ))</span>
+    <div class="onion-box">
+      <span>((c:13;s:all;::ℤ))</span>
+      <div class="onion-box">
+        <span>((c:14;s:all;::ℕ<br><br>))</span>
+      </div>
+    </div>
+  </div>
+</div>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
+
+
+
 ### combination
 
 A combination is an unordered subset of a given set.
@@ -133,7 +265,195 @@ A combination is an unordered subset of a given set.
 A permutation is an arrangement of a set in a certain order.
 The number of permutations of n distinct objects is n factorial.
 
+### functions
+
+the image of a function is the subset of the codomain that represents all values f(x) the function can produce
+the image of a subset of x is the subset of the codomain that represents all values f(x) (for the subset of x) the function can produce
+the preimage of a function is the subset of the domain that that map onto values that are part of the image.
+
+#### jective
+
+injective, surjective, bijective function = injection, surjection, byjection
+an injective function maps each x to a distinct f(x), i.e. f(x1) = f(x2) implies x1 = x2.
+a surjective function has at least one mapping that produces y (for every y, there is an x such that f(x) = y.
+a bijective function is a function that is both injective and surjective.
+In other words, a bijective function maps exactly one element of a set to exactly one element of another set.
+
+#### inverse
+
+the inverse of a function f is a function that undoes the operation of f
+the inverse of a function f only exists if f is bijective
+the inverse of a function f is denoted by f^{-1}
+
 ## graphs
+
+<img src="sm_220px-6n-graf.svg.png">
+
+<br>---<br>
+  §§ ((c:23;::Graphs)) are studied in ((c:24;::graph theory)) §<br>
+§§ A ((c:25;::graph)) consists of ((c:26;::a pair)). §<br>
+§§ In common language, a ((c:27;::graph)) is a structure that contains ((c:28;::a set of objects)) and ((c:29;::their relations to each other.)) §<br>
+§§ ((c:30;::The pair)) that ((c:30;::a graph consists)) of itself is made up of ((c:31;::a set of)) ((c:32;::vertices)), and ((c:31;::a set of)) ((c:33;::edges)). §<br>
+§§ In terms of comp. sci. a ((c:34;::graph)) is ((c:35;::an ADT)). §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:36;::Edges)) are described by ((c:37;::a pair of)) ((c:38;::vertices)) §<br>
+§§ For ((c:39;::an edge {x, y))}, ((c:40;::x and y)) are ((c:41;::the endpoints)). §<br>
+§§ For an ((c:42;::undirected graph)), an ((c:43;::edge)) is described by ((c:44;::an unordered pair)). §<br>
+§§ For an ((c:45;::directed graph)), the ((c:46;::edge)) is described by ((c:47;::a ordered pair.)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:48;::Graphs)) may be ((c:49;::directed)), that is ((c:50;::an edge has a direction)), or ((c:49;::undirected)), that is ((c:50;::an edge does not have a direction)). §<br>
+§§ ((c:51;::Graphs)) may be ((c:52;::simple)), where ((c:53;::two vertices may only be connected by a single edge)), or ((s:gb;:: ((c:54;::a multigraph)), where ((c:55;::two vertices may be connected by multiple edges)).)) §<br>
+§§ A ((c:56;::weighted)) ((c:57;::graph)) is a ((c:57;::graph)) in which ((c:58;::a number is assigned)) to ((c:59;::each edge)). §<br>
+§§ ((c:60;::Weighted graphs)) are relevant for ((c:61;::shortest path problems)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:62;::degree)) of a ((c:63;::vertex)) is ((c:64;::the amount of connected edges (in non-multigraphs equivalently: vertices))). §<br>
+§§ The ((c:65;::maximum/minimum degree)) of ((c:66;::a graph)) is ((c:67;::the maximum/minimum degree of all its vertices.)) §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:68;::regular graph)) is a graph where ((c:69;::each vertex)) ((c:70;::has the same amount of neighbors)). §<br>
+§§ Equivalently, a ((c:71;::regular graph)) is one where ((c:73;::each vertex)) has ((c:73;::the same)) ((c:72;::degree)). §<br>
+§§ A ((c:74;::complete graph)) is a ((c:75;::regular graph)) where ((c:76;::each vertex)) is ((c:77;::connected to each other vertex by a distinct edge. (= is adjacent to each other vertex))) §<br>
+§§ Equivalently, a ((c:78;::complete graph)) is a graph with a ((c:79;::degree)) of ((c:80;::amount of vertices n - 1)). §<br>
+===<br>
+
+<div class="flex-container">((h:all;::<img src="sm_directed_graph.svg">))((h:a;::<img src="sm_multigraph.svg">))((h:all;::<img src="sm_weighted_graph.svg">))</div>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Graph-related thing</th>
+    <th>alternative names</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::edges))</td> <td>((c:2;::links/lines))</td></tr>
+<tr><td>((c:3;::vertices))</td> <td>((c:4;::nodes/points))</td></tr>
+  </tbody>
+</table>
+
+<img src="sm_220px-6n-graf.svg.png">
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>In the image</th>
+    <th>name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:7;::the thing pictured))</td> <td>((c:8;::a graph))</td></tr>
+<tr><td>((c:9;::the lines))</td> <td>((c:10;::edges))</td></tr>
+<tr><td>((c:5;::the circles))</td> <td>((c:6;::vertices))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::E))</td> <td>((c:12;::The set of edges))</td></tr>
+<tr><td>((c:13;::G))</td> <td>((c:14;::the graph))</td></tr>
+<tr><td>((c:15;::V))</td> <td>((c:16;::The set of vertices))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:81;::Graph traversal)) is ((c:82;::visiting all vertices once)) §<br>
+§§ ((c:83;::Trees are a type of graph)), therefore ((c:84;::tree traversal)) is a type of ((c:84;::graph traversal)) §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:85;::walk)) is ((c:86;::an alternating sequence)) of ((c:87;::vertices and edges)). §<br>
+§§ A ((c:88;::trail)) is ((c:89;::a walk (an alternating sequence of vertices and edges))) ((c:90;::with no repeated edges)). §<br>
+§§ A ((c:91;::path)) is an ((c:92;::open)) ((c:93;::trail (an alternating seq of verts and edges w/ no repeated edges))) with ((c:94;::no repeated vertices.)) §<br>
+§§ ((c:95;::Walks)) and ((c:95;::trails)) (but by definition not ((c:95;::paths))) may be ((c:96;::closed)) = ((c:97;::the ending vertex is the same vertex as the starting vertex)) or ((c:96;::open)) = ((c:97;::the opposite)). §<br>
+§§ A ((c:98;::circuit)) is ((c:99;::a closed trail)). §<br>
+§§ A ((c:100;::cycle)) is ((c:101;::a circuit (a closed trail))) with ((c:102;::no repeated vertex besides the start/end vertex)). §<br>
+§§ A ((c:103;::graph)) ((c:104;::without cycles)) is called ((c:105;::acyclic)). §<br>
+§§ The ((c:106;::length)) ((c:107;::k)) of ((c:108;::walks/trails/paths/circuits/cycles)) are counted in ((c:109;::edges)). §<br>
+===<br>
+
+<div class="flex-container">((h:all;::<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">))((h:all;::<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">))((h:all;::<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">))((h:all;::<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">))((h:all;::<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">))</div>
+
+<br>---<br>
+  §§ ((c:113;::Two vertices)) are ((c:110;::connected)) if ((c:111;::there is a path between two vertices)), else ((s:110;::they are ((c:112;::disconnected)).)) §<br>
+§§ ((c:114;::A graph)) is ((c:115;::connected)) if ((c:116;::every pair of vertices are connected)), ergo ((c:117;::s:gb;there is a path between any two vertices)), else it is ((c:118;::s:gb;disconnected)). §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:119;::subgraph)) is a ((c:120;::graph)) made up of ((c:121;::a subset of)) ((c:122;::vertices)) and ((c:122;::edges)) of G. ((s:gb;::The ((c:123;::subset of vertices)) ((c:125;::must contain)) ((c:124;::all endpoints of the edges)).)) §<br>
+§§ A ((c:126;::subtree)) is a ((c:127;::subgraph)) of a ((c:128;::tree)). §<br>
+§§ A ((c:129;::proper subgraph)) is a ((c:130;::subgraph of the graph)) that ((c:131;::is not the current graph (and analogously for subtree))) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:132;::Two vertices)) are ((c:133;::adjacent)) if ((c:134;::they share an edge (an edge exists between them))) §<br>
+§§ Equivalently, ((c:135;::two vertices)) are ((c:136;::adjacent)) if ((c:137;::a path/walk/trail)) of ((c:138;::length 1)) ((c:139;::exists between them)). §<br>
+§§ ((c:140;::Two edges)) are ((c:141;::adjacent)) if ((c:142;::they share a vertex)) §<br>
+§§ The ((c:145;::neighborhood)) of ((c:146;::a vertex)) is t((c:147;::he subgraph)) ((c:148;::made up of all adjacent vertices)) and ((c:149;::the edges connecting it to those vertices)). §<br>
+§§ The ((c:143;::closed neighborhood of v)) is ((c:144;::the neighborhood)) ((c:150;::<b>not </b>containing  the vertex v itself)) §<br>
+§§ The ((c:151;::open neighborhood of v)) is ((c:152;::the neighborhood)) ((c:153;::containing the vertex v itself)) §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:154;::tree)) is an ((c:155;::undirected)) ((c:156;::connected)) ((c:157;::acyclic)) ((c:158;::graph)). §<br>
+§§ A ((c:159;::rooted tree)) is ((c:160;::a tree)) where ((c:161;::one vertex has been designated the root)). §<br>
+===<br>
+
+<br>---<br>
+  §§ In comp. sci., a ((c:162;::tree)) is ((c:163;::an ADT (or data structure, if implemented))) which is ((c:164;::a rooted tree)) with ((c:165;::an implied natural direction of downwards from the root)). §<br>
+§§ The ((c:166;::root path)) is the ((c:168;::path)) ((c:167;::from a vertex to the root vertex)). §<br>
+§§ The ((c:169;::depth)) of ((c:170;::a vertex)) in a tree (comp. sci. ADT) is ((c:171;::the length of the root path)). §<br>
+§§ Going ((c:172;::towards)) ((c:173;::vertices)) with ((c:174;::greater depth)) is known as ((c:175;::downward)), and going ((c:172;::towarrds)) ((c:173;::vertices)) with ((c:174;::smaller depth)) is known as ((c:175;::upwards)). §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:176;::child)) of a vertex in a tree (comp. sci. ADT) is ((c:177;::an adjacent vertex)) with ((c:178;::a depth)) ((c:179;::of one larger than the current vertex.)) §<br>
+§§ In ((c:180;::a tree (comp. sci. ADT))) each vertex has ((c:181;::0 - ∞)) ((c:182;::child vertices)). §<br>
+§§ A vertex ((c:183;::reachable by traversal through child vertices)) is ((c:184;::a descendant vertex)). §<br>
+§§ ((c:185;::A vertex without any child vertices)) is called ((c:186;::external))/((c:187;::outer))/((c:188;::terminal)) vertex or ((c:189;::leaf)). §<br>
+§§ ((c:190;::A vertex with child vertices)) is called ((c:191;::branch))/((c:192;::internal))/((c:193;::inner)) vertex. §<br>
+§§ The ((c:194;::parent of a vertex)) in a tree (comp. sci. ADT) is ((c:195;::an adjacent vertex)) with ((c:196;::a depth)) ((c:197;::of one less than the current vertex.)) §<br>
+§§ In ((c:198;::a tree (comp. sci. ADT))) ((c:199;::each vertex)) has ((c:201;::one)) ((c:200;::parent vertex)). §<br>
+§§ ((c:202;::A vertex)) ((c:203;::reachable by traversal through parent vertices)) is ((c:204;::an ancestor vertex)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:205;::The height of a vertex)) is ((c:206;::the length)) of ((c:207;::the longest downward path to a vertex)). §<br>
+§§ ((c:208;::The height of the root vertex)) is ((c:209;::the height of the tree)) §<br>
+§§ ((c:210;::A forest)) is ((c:211;::a set of unconnected trees)). §<br>
+§§ ((c:212;::The amount of child vertices)) in a tree is ((c:213;::the breadth of the tree)). §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:214;::tree (comp. sci. ADT))) ((c:215;::where any vertex has at most two child vertices)) is a ((c:216;::binary tree)). §<br>
+§§ A tree (comp. sci. ADT) that ((c:217;::can be used for searching)) is ((c:218;::a search tree)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:219;::Depth-first search)) is ((c:226;::a tree traversal algorithm)) that ((c:228;::visits)) ((c:224;::children vertices)) ((c:228;::before)) ((c:224;::sibling vertices)) §<br>
+§§ ((c:220;::Breadth-first search)) is ((c:227;::a tree traversal algorithm)) that ((c:229;::visits)) ((c:225;::sibling vertices)) ((c:229;::before)) ((c:225;::children vertices)) §<br>
+§§ ((c:221;::Depth-first search)) in the case of ((c:222;::binary trees)) is commonly ((c:223;::pre-order)), ((c:223;::inorder)), or ((c:223;::post-order)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>order</th>
+    <th>pattern</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:17;::Pre-order))</td> <td>((c:18;::Node - Left - Right))</td></tr>
+<tr><td>((c:19;::Inorder))</td> <td>((c:20;::Left - Node - Right))</td></tr>
+<tr><td>((c:21;::Post-order))</td> <td>((c:22;::Left  - Right - Node))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}</span>
+
 
 ## logic
 
@@ -156,7 +476,9 @@ XOR|1|1|0
 
 ## real analysis
 
-### monotonic
+### functions
+
+#### monotonic
 
 A function is monotonic if for all x_1, x_2: 
 montonically increasing|non-decreasing, weakly increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
@@ -167,13 +489,89 @@ strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) > f(x_2)
 a function is monotonic if it is monotonically increasing or monotonically decresing
 a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
 
+#### zero
+
+Zero = null = root
+Nullstelle = zero/null/root
+The zero is the point at which the graph of a function touches or intersects with the x-axis
+Per definition, any zero x has the property f(x)=0
+
 # algebra
 
 In mathematics, an algebraic structure consists of a nonempty set A (called the underlying set, carrier set or domain), a collection of operations on A of finite arity (typically binary operations), and a finite set of identities, known as axioms, that these operations must satisfy.
 abstract algebra (occasionally called modern algebra) is the study of algebraic structures.
 An algebraic structure may be based on other algebraic structures with operations and axioms involving several structures. 
 
-## arguments
+
+## formulae
+
+### Equation
+
+An {{c1::equation}} is a statement that {{c3::asserts the equality}} of {{c2::two expressions}}
+An {{c4::equation}} connects its {{c1::two}} {{c2::expressions}} via {{c3::an equals sign}}
+
+## expressions
+
+An {{c1::expression}} in math is {{c2::a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)}} including {{c3::at least one operator}}
+
+
+## operations
+
+An operation is a function which takes zero or more input values and produces a well-defined output value.
+In an operation, the zero or more input values are known as operands.
+In an operation, the symbol performing the operation is an operator.
+In 3+4, 3 and 4 are the operands.
+In 3+4, + is the operator.
+We might want to consider a constant to be an operation of arity 0.
+
+### types
+
+#### elementary
+
+#### non-elementary
+
+##### exponentiation
+
+exponentiation is a mathematical operation which is written as b^n and means \prod_{i=1}^{n}b
+For an exponentiation b^n, b is called the base, and n is called exponent.
+The logarithm is the inverse function to exponentiation.
+The logarithm of a number x is the exponent n that applied to a given base b would yield x.
+If no base is given for a logarithm, it is obvious or doesn't matter.
+The logarithm of x for a base b is denoted as \log_b(x) or \log_{b}x
+log_b(b^n) = n
+
+### properties
+
+#### idempotentitcity
+
+<br>---<br>
+  §§ A function/operation/etc. is ((c:1;::idempotent)) if ((c:2;::it can be applied mulitple times)) without ((c:3;::changing the result)) ((c:4;::beyond the initial application)). §<br>
+§§ Examples for i((c:5;::dempotent functions)) include ((c:1;::abs(x), floor(x), ceil(x) etc.)) §<br>
+===<br>
+
+<div class="flex-container">((h:all;uh:6-7;::<img src="sm_256-512.png">))((h:all;uh:6-7;::<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">))</div>
+<br>---<br>
+  §§ the ((c:6;::right image))'s button is ((c:7;::idempotent)), the ((c:6;::left image))'s is ((c:7;::not)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+#### commutative
+
+A commutative operation is one where changing the order of operands does not change the result.
+Addition and multiplication are commutative, subtraction and dicvision are noncommutative.
+
+#### associative
+
+An associative operation is one where rearranging parenthesis will not change the result.
+Addition and multiplication (if not mixed) are associative, subtraction and division are nonassociative.
+
+#### distributive
+
+an operation is distributive if it is both left- and right-distributive
+left-distributive|ζ * (x+y) = (ζ * x) + (ζ * y)
+right-distributive|(x+y) * ζ = (ζ * x) + (ζ * y)
+
+### arguments
 
 
 The arity of something specifies how many operands or arguments are involved. 
@@ -222,10 +620,48 @@ A n-ary function takes n arguments.
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+# statistics
+
+## populations & samples
+
+<br>---<br>
+  §§ A ((c:1;::parameter)) is a ((c:2;::truth)) about ((c:2;::the population)) §<br>
+§§ a ((c:3;::statistic)) is a ((c:4;::truth)) about ((c:4;::a sample)) §<br>
+§§ A ((c:5;::statistic)) that ((c:6;::is being used to estimate)) a ((c:7;::parameter)) is called an ((c:8;::estimator)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+## hypothesis testing
+
+### Types of errors
+
+<table class="cloze-group hide-if-inactive">
+  <tbody>
+    <tr>
+      <td></td>
+      <th>((c:7;s:5-8;::H<sub>0</sub> true))</th>
+      <th>((c:8;s:5-8;::H<sub>0</sub> false))</th>
+    </tr>
+    <tr>
+      <th>((c:5;s:5-8;::reject H<sub>0</sub>))</th>
+      <td>((c:1;s:1-4;::Type I error))</td>
+      <td>((c:2;s:1-4;::Correct Conclusion))</td>
+    </tr>
+    <tr>
+      <th>((c:6;s:5-8;::fail to reject H<sub>0</sub>))</th>
+      <td>((c:3;s:1-4;::Correct Conclusion))</td>
+      <td>((c:4;s:1-4;::Type II error))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 # applied
 
 
-## units
+## metric
+
+### SI prefix
 
 A metric prefix aka SI prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. 
 All metric prefixes used today are decadic. 
@@ -240,6 +676,40 @@ metric/decimal prefixes refer to increases of 1000, even when used on bits or by
 b|bit
 B|byte
 
+<table>
+  <thead>
+    <tr>
+      <th>prefix</th>
+      <th>10<sup>?</sup></th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td><span class="c5-cloze">femto</span></td><td><span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span></td></tr>
+    <tr><td><span class="c15-cloze">pico</span></td><td><span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span></td></tr>
+    <tr><td><span class="c13-cloze">nano</span></td><td><span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span></td></tr>
+    <tr><td><span class="c11-cloze">micro</span></td><td><span class="c27-cloze">10<sup>−6</sup> = 0.000001</span></td></tr>
+    <tr><td><span class="c12-cloze">milli</span></td><td><span class="c28-cloze">10<sup>−3</sup> = 0.001</span></td></tr>
+    <tr><td><span class="c1-cloze">centi</span></td><td><span class="c17-cloze">10<sup>−2</sup> = 0.01</span></td></tr>
+    <tr><td><span class="c3-cloze">deci</span></td><td><span class="c19-cloze">10<sup>−1</sup> = 0.1</span></td></tr>
+    1|1^0|ø
+    <tr><td><span class="c2-cloze">deca</span></td><td><span class="c18-cloze">10<sup>1</sup> = 10</span></td></tr>
+    <tr><td><span class="c7-cloze">hecto</span></td><td><span class="c23-cloze">10<sup>2</sup> = 100</span></td></tr>
+    <tr><td><span class="c9-cloze">kilo</span></td><td><span class="c25-cloze">10<sup>3</sup> = 1000</span></td></tr>
+    <tr><td><span class="c10-cloze">mega</span></td><td><span class="c26-cloze">10<sup>6</sup> = 1000000</span></td></tr>
+    <tr><td><span class="c6-cloze">giga</span></td><td><span class="c22-cloze">10<sup>9</sup> = 1000000000</span></td></tr>
+    <tr><td><span class="c16-cloze">tera</span></td><td><span class="c32-cloze">10<sup>12</sup> = 1000000000000</span></td></tr>
+    <tr><td><span class="c14-cloze">peta</span></td><td><span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span></td></tr>
+    <tr><td><span class="c4-cloze">exa</span></td><td><span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span></td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}</span>
 
 
 ### bitmask
+
+## pareto principle
+
+((h:all;::<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png">))((h:all;::<img src="Pareto_principle.png">))
+
+The ((c:1;::pareto distribution)) is a ((c:2;:: (family of) probability distributions)) that applies to a large set of ((c:3;::natural)) and ((c:3;::social)) phenomena. 
+A well-known ((s:1;::pareto distribution)) with ((c:4;::a specific parameter)) reflects the idea that ((c:5;::80% of outcomes are due to 20% of causes)), which has become known as ((c:6;::the pareto principle)) (Aka ((c:7;::the law of the vital few)), ((c:8;::the principle of factor sparsity))). 
