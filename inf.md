@@ -54,21 +54,21 @@ the {{c20::XML declaration}} takes {{c5::three}} parameters:
 <div class="c1-5-scr c12-18-scr">
  <table>
   <tbody><tr>
-    <td><code>{{c6::version}}</code></td>
+    <td>`{{c6::version}}`</td>
     <td>{{c9::The XML version the document is using}}</td>
   </tr>
   <tr>
-    <td><code>{{c7::encoding}}</code></td>
+    <td>`{{c7::encoding}}`</td>
     <td>{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
   </tr>
   <tr>
-    <td><code>{{c8::standalone}}</code></td>
+    <td>`{{c8::standalone}}`</td>
     <td>{{c11::Whether the document relies on an external source such as an external DTD}}</td>
   </tr>
   </tbody>
   </table>
 </div>
-<p class="c1-11-scr">Of these, <code>{{c12::version}}</code> is {{c13::mandatory}}. It's syntax is:</p>
+<p class="c1-11-scr">Of these, `{{c12::version}}` is {{c13::mandatory}}. It's syntax is:</p>
 <div class="c1-11-scr"><pre><code>{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
 </code></pre></div>
 
@@ -103,7 +103,7 @@ PI|Processing instruction
   §§ ((c:1;::CDATA)) is short for ((c:2;::Character data))) §<br>
 §§ ((c:10;::CDATA)) ((c:3;::tells the parser not to parse the content as XML markup)) §<br>
 §§ ((c:11;::CDATA)) allows us to ((c:4;::use characters with a special meaning in XML)) without ((c:5;::confusing the parser)), for example, ((s:gb;::this would allow us to ((c:13;::include HTML within XML without a problem)).)) §<br>
-§§ ((c:12;::CDATA)) syntax: <code>((c:6;::&lt;![))((c:7;::CDATA))((c:8;::[))content...((c:9;::]]&gt;))</code> §<br>
+§§ ((c:12;::CDATA)) syntax: `((c:6;::&lt;![))((c:7;::CDATA))((c:8;::[))content...((c:9;::]]&gt;))` §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
@@ -505,7 +505,7 @@ The <option> HTML element is used to define an item contained in a <select>, an 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-By default, {{c9::html <code>&lt;select&gt;</code>}}s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if <code>{{c11::multiple}}</code> ({{c12::allowing multiple selection::purpose}}) or <code>{{c13::size}}</code> ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
+By default, {{c9::html `&lt;select&gt;`}}s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if `{{c11::multiple}}` ({{c12::allowing multiple selection::purpose}}) or `{{c13::size}}` ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
 
 ##### output
 
@@ -618,7 +618,7 @@ Term in a description list with title foo and description/explanation bar|\iten[
 <br>---<br>
   §§ In markdown ((c:1;::Lists items)) are each ((c:3;::started by)) ((c:2;::one or more symbols)), while lists themselves are delimited by nothing more than any block-level item.. §<br>
 §§ ((c:4;::ordered list items)) are started by ((c:5;::&lt;n&gt;. (e.g. 1. or 7.))). §<br>
-§§ it does not matter ((c:6;::with which digit you number list items with (e.g. even if you do <code>21. foo\n2. bar)</code>))&nbsp;they will ((c:7;::always start one and go from there (or whatever you then change it to via css))). §<br>
+§§ it does not matter ((c:6;::with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`))&nbsp;they will ((c:7;::always start one and go from there (or whatever you then change it to via css))). §<br>
 §§ ((c:8;::unordered list items)) are started by ((c:9;::-)), ((c:9;::*)) or ((c:9;::+)), which can be ((c:10;::mixed and matched)). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
@@ -683,11 +683,11 @@ The <embed> HTML element embeds external content at the specified point in the d
 
 #### Common attributes
 
-the <code>datetime</code> attribute specifies the date and time associated with the element
-<code>datetime</code> is an attribute taken by &lt;del&gt;, &lt;ins&gt;, and &lt;time&gt;
+the `datetime` attribute specifies the date and time associated with the element
+`datetime` is an attribute taken by &lt;del&gt;, &lt;ins&gt;, and &lt;time&gt;
 
-The <code>cite</code> attribute provides an URI that points to the source of a quote or change.
-The <code>cite</code> attribute can be used on &lt;blockquote&gt;, &lt;q&gt;, &lt;ins&gt;, &lt;del&gt;
+The `cite` attribute provides an URI that points to the source of a quote or change.
+The `cite` attribute can be used on &lt;blockquote&gt;, &lt;q&gt;, &lt;ins&gt;, &lt;del&gt;
 
 The HTML autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field.
 The autocomplete attribute can be used on inputs that take a text-like value, textarea elements, select elements and form elements.
@@ -774,7 +774,7 @@ style props is using react props to change the style of a component
 style props are not enabled by default, but are used extensively in various react styling frameworks
 style props mostly are named as the css properties are, but in camelCase and often also have a few character shorthand 
 e.g. margin-top -> marginTop / mt
-<code>&lt;Box maxW="960px" mx="auto" /&gt;</code>   style props
+`&lt;Box maxW="960px" mx="auto" /&gt;`   style props
 for style props, even in the unabbreviated camelCase spellings, some things are abbreviated, eg. background -> bg
 style props also offer some abbreviated values:
 linear/radial-gradient() -> linear/radial()
@@ -1129,6 +1129,13 @@ A wasm Module itself is stateless, and uses a Memory and Table for state.
 Together, a wasm module + memory + table are an Instance
 a wasm Table is a typed array of references (e.g. to functions) 
 a wasm Memory is a linear array of bytes used for storage
+wasm page size = 64k
+wasm memory can only be grown by a multiple of the page size
+wasm memory cannot be shrunk
+By default, as of 2021, the wasm interface only accepts numbers (and pointers) as types
+
+wasm modules|.wasm
+wasm textual representation|.wat
 
 wasm-bindgen for rust generates glue and polyfills things so that we can use a bunch of types of features that we couldn't otherwise.
 wasm-pack is a tool for helping integrating rust wasm with your webdev workflow.
@@ -2253,16 +2260,16 @@ flex-l-p-min-max-auto ::= <flex>|<l-p-min-max-auto>
 length-unit ::= <relative-length-unit>|<absolute-length-unit>
 relative-length-unit ::= <font-relative-length-unit>|<viewport-relative-length-unit>
 font-relative-length-units
-<code>rem</code>|font-size of the root element
-<code>ex</code>|the height of a lowercase x of the current font (rarely used)
-<code>em</code>|the font-size of the element
-<code>ch</code>|width of the "0" (zero)
+`rem`|font-size of the root element
+`ex`|the height of a lowercase x of the current font (rarely used)
+`em`|the font-size of the element
+`ch`|width of the "0" (zero)
 
 viewport-relative-length-units
-<code>vw</code>|1% of the width of the viewport*
-<code>vmin</code>|1% of viewport's* smaller dimension
-<code>vmax</code>|1% of viewport's* larger dimension
-<code>vh</code>|1% of the height of the viewport*
+`vw`|1% of the width of the viewport*
+`vmin`|1% of viewport's* smaller dimension
+`vmax`|1% of viewport's* larger dimension
+`vh`|1% of the height of the viewport*
 
 absolute units in CSS may or may not refer to their real-world equivalent.
 On print media and similar situations, css absolute units refer to their real-world equivalent.
@@ -2283,7 +2290,7 @@ filter-functions:
 blur(): takes a blur-radius
 brightness(): <number-or-percentage-to-infinity>
 contrast(): <number-or-percentage-to-infinity>
-drop-shadow(): arguments are <code>offset-x offset-y [blur-radius] [color]</code>
+drop-shadow(): arguments are `offset-x offset-y [blur-radius] [color]`
 grayscale(): <number-or-percentage-0-1>
 hue-rotate(): takes an <angle> and rotates the hue by that angle
 invert(): <number-or-percentage-0-1>
@@ -2701,7 +2708,7 @@ the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted
 at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} - 
 scales are {{c3::arrays}} or {{c3::objects}} of {{c4::predefined sets of values}}, for things such as {{c5::font sizes}}, {{c5::colors}}, etc.
 According to the {{c1::System UI Theme Specification}}, the {{c4::CSS properties}} that accept {{c2::only a small, finite number}} of valid CSS values {{c3::should not be included as a scale object}}.
-According to the {{c1::System UI Theme Specification}}, a {{c2::key}} defining a {{c2::scale}} should be called the {{c3::same thing as the css property}}, except {{c4::plural}} (except for the weirdly-named <code>{{c4::space}}</code>) and {{c5::camelCase}}, unless there are {{c6::multiple css properties it might be used for}}
+According to the {{c1::System UI Theme Specification}}, a {{c2::key}} defining a {{c2::scale}} should be called the {{c3::same thing as the css property}}, except {{c4::plural}} (except for the weirdly-named `{{c4::space}}`) and {{c5::camelCase}}, unless there are {{c6::multiple css properties it might be used for}}
 <pre><code>// example fontSizes scale as an array
 fontSizes: [
   12, 14, 16, 20, 24, 32 
@@ -2730,80 +2737,80 @@ colors: {
   </thead>
   <tbody>
     <tr>
-      <td><code>space</code></td>
+      <td>`space`</td>
       <td>
-        <code>margin</code>, <code>margin-top</code>, <code>margin-right</code>,
-        <code>margin-bottom</code>, <code>margin-left</code>,
-        <code>padding</code>, <code>padding-top</code>,
-        <code>padding-right</code>, <code>padding-bottom</code>,
-        <code>padding-left</code>, <code>grid-gap</code>,
-        <code>grid-column-gap</code>, <code>grid-row-gap</code>
+        `margin`, `margin-top`, `margin-right`,
+        `margin-bottom`, `margin-left`,
+        `padding`, `padding-top`,
+        `padding-right`, `padding-bottom`,
+        `padding-left`, `grid-gap`,
+        `grid-column-gap`, `grid-row-gap`
       </td>
     </tr>
     <tr>
-      <td><code>fontSizes</code></td>
-      <td><code>font-size</code></td>
+      <td>`fontSizes`</td>
+      <td>`font-size`</td>
     </tr>
     <tr>
-      <td><code>colors</code></td>
+      <td>`colors`</td>
       <td>
-        <code>color</code>, <code>background-color</code>,
-        <code>border-color</code>
+        `color`, `background-color`,
+        `border-color`
       </td>
     </tr>
     <tr>
-      <td><code>fonts</code></td>
-      <td><code>font-family</code></td>
+      <td>`fonts`</td>
+      <td>`font-family`</td>
     </tr>
     <tr>
-      <td><code>fontWeights</code></td>
-      <td><code>font-weight</code></td>
+      <td>`fontWeights`</td>
+      <td>`font-weight`</td>
     </tr>
     <tr>
-      <td><code>lineHeights</code></td>
-      <td><code>line-height</code></td>
+      <td>`lineHeights`</td>
+      <td>`line-height`</td>
     </tr>
     <tr>
-      <td><code>letterSpacings</code></td>
-      <td><code>letter-spacing</code></td>
+      <td>`letterSpacings`</td>
+      <td>`letter-spacing`</td>
     </tr>
     <tr>
-      <td><code>sizes</code></td>
+      <td>`sizes`</td>
       <td>
-        <code>width</code>, <code>height</code>, <code>min-width</code>,
-        <code>max-width</code>, <code>min-height</code>, <code>max-height</code>
+        `width`, `height`, `min-width`,
+        `max-width`, `min-height`, `max-height`
       </td>
     </tr>
     <tr>
-      <td><code>borders</code></td>
+      <td>`borders`</td>
       <td>
-        <code>border</code>, <code>border-top</code>, <code>border-right</code>,
-        <code>border-bottom</code>, <code>border-left</code>
+        `border`, `border-top`, `border-right`,
+        `border-bottom`, `border-left`
       </td>
     </tr>
     <tr>
-      <td><code>borderWidths</code></td>
-      <td><code>border-width</code></td>
+      <td>`borderWidths`</td>
+      <td>`border-width`</td>
     </tr>
     <tr>
-      <td><code>borderStyles</code></td>
-      <td><code>border-style</code></td>
+      <td>`borderStyles`</td>
+      <td>`border-style`</td>
     </tr>
     <tr>
-      <td><code>radii</code></td>
-      <td><code>border-radius</code></td>
+      <td>`radii`</td>
+      <td>`border-radius`</td>
     </tr>
     <tr>
-      <td><code>shadows</code></td>
-      <td><code>box-shadow</code>, <code>text-shadow</code></td>
+      <td>`shadows`</td>
+      <td>`box-shadow`, `text-shadow`</td>
     </tr>
     <tr>
-      <td><code>zIndices</code></td>
-      <td><code>z-index</code></td>
+      <td>`zIndices`</td>
+      <td>`z-index`</td>
     </tr>
     <tr>
-      <td><code>transitions</code></td>
-      <td><code>transition</code></td>
+      <td>`transitions`</td>
+      <td>`transition`</td>
     </tr>
   </tbody>
 </table>
@@ -3063,7 +3070,7 @@ Keyboard keys that maintain a quasimode are shift, alt, control, option....
 
 #### text
 
-###### local variants
+##### local variants
 
 Keyboards are often identified based on {{c1::their first few keys on the top letter row}}
 QUERTY|en
@@ -3074,9 +3081,10 @@ Between english and german keyboards, the only difference in actual letters in t
 
 strg   ctrl
 
-###### modes
+##### modes
 
 Lock keys are keys that enter/exit a mode.
+Lock keys: {caps lock, shift lock, num lock, insert}
 The insert key is a lock key that switches between insert and overtype mode.
 in the 2020s, insert mode is common, overtype is barely used.
 In overtype mode, typing replaces characters to the right
@@ -3085,9 +3093,15 @@ In insert mode, typing moves the characters in the right further to the right.
 The cursor is reasonably wide   overtype mode
 The cursor is reasonably narrow   insert mode (the kind of thing that the ins key changes)
 
-###### types of keys
+caps lock|makes all latin characters generate uppercase characters but not alternate characters
+shift lock|acts as shift was continuously pressed, that is, generates both uppercase and alternate characters respectively
 
-####### modifier keys
+§§ On ((c:13;::windows)) under ((c:14;::certain keyboard layouts)), ((h:14;::e.g. ((c:15;::AZERTY and QWERTZ)),)) the ((c:16;::caps lock key)) ((c:17;::acts as shift lock)), ((h:gb;::however not on ((c:18;::mac)), and ((c:19;::there is no setting to make it so)), making ((c:20;::any solution requiring scripting via Hammerspoon or Karabiner)).)) §<br>
+  §§ Many operating systems support ((c:21;::typing 'normal' characters)) by ((c:22;::pressing shift)) when in ((c:23;::capslock / shiftlock mode))((h:gb;::, however, not ((c:24;::mac)))). §<br>
+
+##### types of keys
+
+###### modifier keys
 
 modifier keys are keys that maintain a quasimode.
 modifier keys that are found on any hardware keyboard as of 2020 are shift, ctrl, alt/option/altgr, win/cmd/linux equivalent.
@@ -3098,7 +3112,7 @@ Originally, super, meta and hyper keys were all dedicated modifier keys present 
 today, different linux distros treat meta or super as their equivalent to cmd/windows.
 today, since hyper keys are not really present anywhere, hyper key refers to a fictional modifier key created by simulating an insane number of modifier keys at the same time by pressing a different non-modifier key (often e.g. capslock)f
 
-######## alt/option
+####### alt/option
 
 alt gr = alt graph
 alt gr was originally for producing box drawing characters.
@@ -3109,16 +3123,16 @@ European/international keyboards typcially have one alt and one alt gr key.
 The mac option key has functionality of both the alt and alt gr keys: it can be used as a key in key command like alt, but can also produce additional characters like alt gr.
 Due to historical reasons, emacs used to use the meta key as a modifier, but later switched to alt. However, it kept the label 'M' for this modifier key.
 
-####### delete/backspace
+###### delete/backspace
 
 Delete key|Delete characters forwards (to the right)
 Backspace key|Delete characters backwards (to the left)
 
-####### navigation keys 
+###### navigation keys 
 
 navigation keys are keys that move the viewport or the cursor.
 
-######## pgupdown home end
+####### pgupdown home end
 
 The ((c:6;::end, home and pgup/pgdown)) keys ((c:7;::move the cursor)) when ((c:8;::text-editing)), ((c:7;::and the view)) when ((c:8;::not)).
 <table>
@@ -3190,7 +3204,7 @@ on ((c:13;::macOS)) ((c:14;::home, end, pgup, pgdown)) only ever ((c:15;::move t
   </tbody>
 </table>
 
-######## navigation key combinations
+####### navigation key combinations
 
 <table>
   <thead>
@@ -3211,16 +3225,16 @@ on ((c:13;::macOS)) ((c:14;::home, end, pgup, pgdown)) only ever ((c:15;::move t
   </tbody>
 </table>
 
-###### key combinations & actions
+##### key combinations & actions
 
 A keyboard shortcut some key input that performs an action different from its literal value.
 A key combination is the pressing of a key and one or more modifier keys to perform an action
 A key chord are two or more key combinations or key presses sequentially to perform an action.
 e.g. cmd k then m to select the document language in VSCode
 
-####### keyboard shortcuts
+###### keyboard shortcuts
 
-######## basic OS
+####### basic OS
 
 <table>
   <thead>
@@ -3238,7 +3252,7 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
-######## edit history
+####### edit history
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -3253,7 +3267,7 @@ e.g. cmd k then m to select the document language in VSCode
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
-######## search 
+####### search 
 
 <br/><table>
   <thead>
@@ -3272,7 +3286,7 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-######## view
+####### view
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -3287,7 +3301,7 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
-######## text editing 
+####### text editing 
 
 <table>
   <thead>
@@ -3322,7 +3336,7 @@ e.g. cmd k then m to select the document language in VSCode
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 
-######### video
+######## video
 
 <table>
   <thead>
@@ -3341,9 +3355,9 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-######### code editing
+######## code editing
 
-########## vscode
+######### vscode
 
 rename a symbol|<kbd>f2</kbd>
 see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
@@ -3353,12 +3367,12 @@ fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
 copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 
-######### navigatable
+######## navigatable
 
 Force/Hard Reload|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> <kbd>r</kbd>
 Reload|<kbd class='modifier cmd'></kbd> <kbd>r</kbd>
 
-######### zoomable
+######## zoomable
 
 Zoom in|<kbd class='modifier cmd'></kbd> <kbd>+</kbd>
 
@@ -3665,75 +3679,6 @@ progressive enhancement is the (esp. web) design philosophy that emphasizes  cre
 Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but {{c1::falls back on a good-enough experience}}
 progressive enhancement <-> graceful degradation
 Mobile first is building the mobile site first (and expanding on that for desktop users)
-
-## text markup across languages
-
-bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
-italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
-emphasize (generally via italics)|\emph{}|&lt;em>|N/A
-strongly emphasize||<strong>|N/A
-underline|\underline{}|&lt;u>|N/A
-strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
-hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
-hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
-block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|<code>>foo</code> or <code>> foo</code> (space after > is optional)
-Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
-inline source code||&lt;code>|``
-create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
-Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
-Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
-A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
-a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
-image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
-horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
-superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
-subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
-indicate a variable semantically||<var>
-keyboard input||<kbd>
-sample output||<samp>
-title of a cited work||<cite>
-preformatted text that is to be presented exactly as written||<pre>
-
-using \url{} or \href{} requires the package hyperref in Latex
-package hyperref also does autolinking to things such as the TOC
-
-strike is similar to <s>, but obsolete
-<tt> used to indicate teletype text, but is now obsolete
-<big> used to indicate big text, but is now obsolete; however <small> still works.
-<center> used to indicate centered text but is now obsolete
-
-most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
-most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
-
-
-i|italic|conventionally italic
-em|italic|more important
-b|bold|conventionally bold
-strong|bold|super important
-u|underline|has non-textual annotation of some kind
-mark|yellow highlighter|highlighted ≈ area of interest
- 
-
-non-breaking space|\nonbreakspace or ~|&amp;nbsp;
-ampersand||&amp;amp;
-non-breaking hyphen|"~
-soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
-"=
-if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
-zero-width space||<wbr> or &amp;#8203;
-
-hyperref|create links automatically and \href, \url commands
-
-
-nested blockquotes| <code>>></code> or <code>> > </code>(space after > to begin blockquotes is optional)
-
-Pandoc md is a superset of most other markdown flavors
-Pandoc md defaults to tilde-delimited code blocks.
-In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
-
 
 ## computer graphcis
 
@@ -4238,7 +4183,7 @@ exa is a reinplementation of ls in rust with more features and opinionated defau
 fzf is a shell filter which takes an input of a list of files, allows interactive fuzzy search and selection, and outputs the selection.
 
 du & dust estimate storage usage of files in current directory.
-<code>-d / --max-depth (for du) --depth (for dust)</code>   only go to the specified depth
+`-d / --max-depth (for du) --depth (for dust)`   only go to the specified depth
 
 realpath gets the absolute path for a file name
 basename strips the path and suffix from a file name
@@ -4272,7 +4217,7 @@ greps exit status if it finds a match is 0, if it does not find a match, it is 1
 grep -c count the produced lines.
 grep -v = grep --invert-match
 grep -F/--fixed-strings interpet pattern as fixed string, not as regex
-<code>-C NUM/--context=NUM</code>   show this much context
+`-C NUM/--context=NUM`   show this much context
 
 #### directory structures
 
@@ -4680,7 +4625,7 @@ Binary files are generally smaller and quicker to process than plaintext files
 §§ ((c:12;::base64)) can encode ((c:13;::6)) bit of ((c:14;::data)) in ((c:13;::8)) bit of ((c:14;::text)). §<br>
 §§ ((c:15;::data URIs)) are a type of URI defined by ((c:16;::the data scheme)) that provide a way to ((c:17;::include arbitrary data inline)). §<br>
 §§ ((c:18;::data URIs)) most commonly use the ((c:19;::binary-to-text encoding base64)) to ((c:20;::encode their data)). §<br>
-§§ data URI syntax <code>((c:21;::data:))((c:22;::[&lt;media type&gt;]))((c:23;::[;base64]))((c:24;::,&lt;data&gt;))</code> §<br>
+§§ data URI syntax `((c:21;::data:))((c:22;::[&lt;media type&gt;]))((c:23;::[;base64]))((c:24;::,&lt;data&gt;))` §<br>
 base64 is a command-line program to en/decode things as base64
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
@@ -4703,7 +4648,7 @@ Default mac japanese voice is  Kyoko
 
 ####### players
 
-ffmpeg media player   <code>ffplay</code>
+ffmpeg media player   `ffplay`
 
 mpv|terminal based video player
 
@@ -4715,29 +4660,29 @@ don't open a new video window<filename></filename>   --no-video
 ######## mpd mpc
 
 mpd is short for Music Player Daemon.
-mpd acts as a server, which you can start via the <code>mpd</code> command (either directly or via a service)
+mpd acts as a server, which you can start via the `mpd` command (either directly or via a service)
 As a proper server, mpd occupies a port on the host.
 You can interface with the mpd server with a number of clients, e.g. mpc
 
 mpc -p port or --port=port|connect to mpd at the specified port
-<code>mpc queue(d)</code>|<b>show</b> next song
-<code>mpc current</code>|show currently playing songm<br><div class="sub">
-<code>mpc update</code>|update collectiion by scanning for changed files
-<code>mpc stats</code>|display mpd playing info such as total play time up until now, etc.
-<code>mpc rescan</code>|rescan whole music directory
-<code>mpc lsplaylists</code>|list all current playlists
-<code>mpc ls</code>|list the contents of the music directory
-<code>mpc load &lt;name&gt;</code>|load a certain playlist
-<code>mpc clear</code>|clear queue
-<code>mpc shuffle</code>|reshuffle the playlist
-<code>mpc single</code>|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
-<code>mpc repeat</code>|toggle repeat
-<code>mpc random</code>|toggle random playback (that is, pick songs from the queue at random)
-<code>mpc prev</code>|go to previous song
-<code>mpc playlist</code>|show the current playlist
-<code>mpc pause</code>|pause
-<code>mpc next</code>|go to next song
-<code>mpc toggle</code>|play if paused, pause if playing</div>
+`mpc queue(d)`|<b>show</b> next song
+`mpc current`|show currently playing songm<br><div class="sub">
+`mpc update`|update collectiion by scanning for changed files
+`mpc stats`|display mpd playing info such as total play time up until now, etc.
+`mpc rescan`|rescan whole music directory
+`mpc lsplaylists`|list all current playlists
+`mpc ls`|list the contents of the music directory
+`mpc load &lt;name&gt;`|load a certain playlist
+`mpc clear`|clear queue
+`mpc shuffle`|reshuffle the playlist
+`mpc single`|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
+`mpc repeat`|toggle repeat
+`mpc random`|toggle random playback (that is, pick songs from the queue at random)
+`mpc prev`|go to previous song
+`mpc playlist`|show the current playlist
+`mpc pause`|pause
+`mpc next`|go to next song
+`mpc toggle`|play if paused, pause if playing</div>
 
 ####### processing
 
@@ -4757,7 +4702,7 @@ ffmpeg input and stream index are zero-based
 input-output-options
 -ss <position>|seek to position
 -to <position>|stop at position
-<code>-preset FOO</code>   set the speed (and thus the effectiveness) of the encoding (values such as veryfast, medium, slow...)
+`-preset FOO`   set the speed (and thus the effectiveness) of the encoding (values such as veryfast, medium, slow...)
 
 ###### images / combined
 
@@ -4801,6 +4746,25 @@ imgcat|in-terminal image viewer
 unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
 gifsicle is a CLI program to manipulate gifs
+
+<br>---<br>
+  §§ <code>((c:9;::ocrmypdf))</code> is a command line tool to ((c:10;::add OCR text to scanned PDF files)). §<br>
+§§ <pre><code>ocrmypdf ((c:11;::SOURCE DEST))</code></pre> §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::specify language))</td> <td>((c:2;::<code>-l deu/fra/deu+fra...</code>))</td></tr>
+<tr><td>((c:3;::correct slight skew))</td> <td>((c:4;::<code>--deskew</code>))</td></tr>
+<tr><td>((c:5;::clean pages before ocring))</td> <td>((c:6;::<code>--clean</code>))</td></tr>
+<tr><td>((c:7;::change/correct rotation (the one in steps of 90°)))</td> <td>((c:8;::<code>--rotate-pages</code>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 
 #### plaintext
 
@@ -4903,14 +4867,267 @@ Markup files are subset of plaintext files.
 Markup files are written in markup languages.
 markup languages consist of normal text and specific markup, which are intermingled.
 
-###### toml xdg systemd
+###### markup
+
+####### across languages
+
+bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
+italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
+emphasize (generally via italics)|\emph{}|&lt;em>|N/A
+strongly emphasize||<strong>|N/A
+underline|\underline{}|&lt;u>|N/A
+strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
+hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
+hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
+block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|`>foo` or `> foo` (space after > is optional)
+Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
+inline source code||&lt;code>|``
+create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
+Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
+Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
+A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
+a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
+image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
+horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
+superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
+subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
+indicate a variable semantically||<var>
+keyboard input||<kbd>
+sample output||<samp>
+title of a cited work||<cite>
+preformatted text that is to be presented exactly as written||<pre>
+
+using \url{} or \href{} requires the package hyperref in Latex
+package hyperref also does autolinking to things such as the TOC
+
+strike is similar to <s>, but obsolete
+<tt> used to indicate teletype text, but is now obsolete
+<big> used to indicate big text, but is now obsolete; however <small> still works.
+<center> used to indicate centered text but is now obsolete
+
+most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
+most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
+
+
+i|italic|conventionally italic
+em|italic|more important
+b|bold|conventionally bold
+strong|bold|super important
+u|underline|has non-textual annotation of some kind
+mark|yellow highlighter|highlighted ≈ area of interest
+ 
+
+non-breaking space|\nonbreakspace or ~|&amp;nbsp;
+ampersand||&amp;amp;
+non-breaking hyphen|"~
+soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
+"=
+if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
+zero-width space||<wbr> or &amp;#8203;
+
+hyperref|create links automatically and \href, \url commands
+
+
+nested blockquotes| `>>` or `> > `(space after > to begin blockquotes is optional)
+
+Pandoc md is a superset of most other markdown flavors
+Pandoc md defaults to tilde-delimited code blocks.
+In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
+pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
+
+
+RTF|Rich Text Format
+
+####### tex
+
+<br>---<br>
+  §§ ((c:3;::Tex)) consists of ((c:1;::tex-core)) and ((c:2;::plain-tex)) §<br>
+§§ ((c:4;::plain-tex)) is ((c:5;::the set of macros that the tex typsetting program uses)); ((c:6;::tex-core)) is ((c:7;::the typesetting program (that transforms it into output))) §<br>
+§§ ((c:8;::Tex)) and thus ((c:8;::latex)) is meant for ((c:9;::typesetting)) §<br>
+§§ ((c:13;::TeX)) and thus ((c:13;::LaTeX)) mainly work via ((c:14;::macros)) §<br>
+§§ ((c:15;::Mathjax)) renders ((c:16;::a subset of latex)) ((c:17;::in browsers (using js))) §<br>
+§§ ((c:18;::current)) latex version: ((c:19;::Latex 2e)) §<br>
+§§ ((c:20;::next)) latex version: ((c:21;::Latex 3)) §<br>
+§§ <q>latex</q> is properly capitalized ((c:22;::LaTeX)) §<br>
+§§ <q>tex</q> is properly capitalized ((c:23;::TeX)) §<br>
+§§ the x in ((c:24;::tex and latex)) is pronounced as ((c:25;::a voiceless velar fricative (e.g. loch, bach))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
+§§ ((c:10;::latex)) is ((c:11;::a set of tex macros)) that is supposed to be ((c:12;::more semantic)). §<br>
+texinfo is a set of macros for tex for generating hypertextual documentation
+
+info|read texinfo files
+
+######## Commands
+
+<br>---<br>
+  §§ A typical ((c:5;::command)) looks {{c1::}}((c:3;::name))((c:2;::{))((c:4;::argument)){{c2::} }} §<br>
+§§ a ((c:9;::command))'s ((c:10;::required arguments)) (AKA ((c:11;::arguments))) are ((c:12;::delimited by {))} §<br>
+§§ a ((c:6;::command's)) ((c:7;::optional arguments)) (AKA ((c:8;::options))) are ((c:13;::delimited by [])) §<br>
+§§ {{c14::}} ((c:15;::starts)) ((c:16;::a command)) §<br>
+§§ Generally, ((c:17;::commands)) take ((c:18;::the thing they act on)) ((c:19;::as a required argument)). §<br>
+§§ ((c:20;::Some commands)) instead ((c:21;::apply to anything)) ((c:22;::following the command)) ((c:23;::until the end of environment or group)), these are known as being in ((c:24;::declaration form)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:28;::The name)) ((c:29;::of a command)) ((c:30;::used as an environment)) is known as that commands ((c:31;::environment form)) §<br>
+§§ the ((c:26;::environment form)) of ((c:27;::\foo)) would look like {{c25::<code>\begin{command}...\end{command}</code>}} §<br>
+§§ ((c:32;::Most (afaik) commands)) in ((c:33;::declaration (\command (no args)))) form can also be used  ((c:26;::in an environment form)) §<br>
+§§ ((c:34;::The environment form)) of a command is based on ((c:35;::its declaration form.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
+
+######## Sections
+
+<br>---<br>
+  §§ Latex ((c:11;::sections)) ((c:12;::go until)) ((c:13;::the beginning of the next section)) §<br>
+§§ Latex sections are declared via ((c:14;::command. (e.g. \part))) §<br>
+§§ Latex ((c:15;::section commands)) take ((c:16;::the full section title)) as ((c:10;::a mandatory argument)) and ((c:16;::a short title (e.g. for TOC))) as ((c:10;::an optional argument)). §<br>
+± \subsection[shortitle]{This is the full title} ±<br>
+§§ ((c:8;::Article)) notably does not havet the ((c:9;::\chapter)) section command. §<br>
+===<br>
+
+<br>---<br>
+<h2>
+  Latex section hierarchy
+</h2>
+<ol>
+<li>((c:1;s:gb;::part))</li>
+<li>((c:2;s:gb;::chapter))</li>
+<li>((c:3;s:gb,6-7;::section))</li>
+<li>((c:4;s:gb,6-7;::subsection))</li>
+<li>((c:5;s:gb,7;::subsubsection))</li>
+<li>((c:6;s:gb;::paragraph))</li>
+<li>((c:7;s:gb;::subparagraph))</li>
+</ol>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+######## latex groups
+
+<br>---<br>
+  §§ in Latex, ((c:2;::groups)) ((c:1;::create a scope)) §<br>
+§§ <code>((c:3;::\bgroup ... \egroup))</code> or ((c:4;::<code>{ ... }</code>)) ((c:5;::delimit a group)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+######## latex labels and refs
+
+<br>---<br>
+  §§ In latex, using ((c:8;::\label)) you ((c:9;::define a marker)), which ((c:10;::you can then later reference)). §<br>
+§§ the main advantages of ((c:11;::using labels)) in latex instead of ((c:12;::manually referring to the indices of the things)) is that ((c:13;::they auto-update)) §<br>
+§§ ((c:19;::\label)) takes ((c:21;::an argument)) of ((c:20;::the name of the marker.)) §<br>
+§§ ((c:18;::\label)) goes ((c:14;::within)) ((c:16;::the thing being labeled)) as ((c:17;::the first thing)) if ((c:14;::there is a 'within')), and ((c:15;::after)) otherwise. §<br>
+§§ It is common practice to ((c:22;::prefix the name of the marker)) with a ((c:23;::most often 3-character)) ((c:24;::abbreviation)) of ((c:25;::the type of the marker)) plus ((c:26;::a colon)) §<br>
+± \label{sec:foo} ±<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>abbr</th>
+    <th>for</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::eq))</td> <td>((c:2;::equation))</td></tr>
+<tr><td>((c:3;::sec))</td> <td>((c:4;::section))</td></tr>
+<tr><td>((c:5;::fig))</td> <td>((c:6;::figure))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ In latex, you can ((c:27;::reference markers)) defined with ((c:28;::\label)) with ((c:29;::\ref)), ((c:30;::\pageref)) or ((c:31;::\eqref)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>command</th>
+    <th>refers to?</th>
+    <th>from package</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:7;::\ref{foo}))</td> <td>((c:8;::returns the index of foo))</td></tr>
+<tr><td>((c:9;::\pageref{foo}))</td> <td>((c:10;::returns the page on which foo is found))</td></tr>
+<tr><td>((c:11;::\eqref{foo}))</td> <td>((c:12;::returns the index of foo, but surrounded by parentheses))</td> <td>((c:13;::amsmath))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
+
+######## Lengths
+
+<br>---<br>
+  §§ The two types of lengths ((c:5;::latex)) has are ((c:6;::rigid lengths)) and ((c:6;::rubber lengths)). §<br>
+§§ a ((c:7;::rubber length)) is a length that ((c:8;::<b>can</b> shrink or grow)) §<br>
+§§ a ((c:9;::rigid length)) is a length that ((c:10;::will not shrink or grow)) §<br>
+§§ Lengths in latex are ((c:16;::rigid)) by ((c:17;::default)) §<br>
+§§ ((c:11;::rubber lengths)) can ((c:12;::only shrink or grow)) by ((c:13;::the length we specified)) §<br>
+§§ ((c:14;::plus &lt;length&gt; ∨ minus &lt;length&gt;)) indicate ((c:15;::a rubber length)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>indicator</th>
+    <th>meaning</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::plus &lt;length&gt;))</td> <td>((c:2;::length can grow by that amount))</td></tr>
+<tr><td>((c:3;::minus &lt;length&gt;))</td> <td>((c:4;::length can shrink by that amount))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+<br>---<br>
+<pre><code> \blackbar{101pt}\hspace{100pt minus 2pt}\blackbar{101pt}}YYY</code></pre>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
+
+######## 
+
+<br>---<br>
+  §§ the package ((c:1;::amsmath)) contains ((c:2;::a bunch more stuff related to math)). §<br>
+§§ the package ((c:3;::mathtools)) is ((c:4;::a superset of)) ((c:5;::amsmath)), and also ((c:6;::fixes some of its bugs)) §<br>
+§§ the package ((s:9-10;::((c:7;::amssymb)) ((c:8;::adds more math symbols)))); the package ((s:7-8;::((c:9;::amsthm)) ((c:10;::adds more theorem/proof related stuff)))). ((c:11;::these both)) ((c:12;::need to be separately loaded from amsmath/mathtools)) if desired. §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+######## Symbols
+
+<br>---<br>
+  §§ For arrows, if the ((c:1;::first letter)) is ((c:2;::lowercase)), it will render the ((c:3;::thin arrow (→))), if the ((c:1;::first letter)) is ((c:2;::uppercase)), it will render the ((c:3;::thick arrow (⇒))). §<br>
+§§ so <code>((c:9;::\rightarrow))</code> renders ((c:10;::a thin right arrow →)), and ((c:9;::\Rightarrow)) renders ((c:10;::a thick, double-line right arrow ⇒)). §<br>
+§§ ((c:11;::\rightarrow)) can also be created by ((c:12;::\in)) §<br>
+§§ ((c:13;::\Rightarrow)) can also be created by ((c:14;::\implies)) §<br>
+===<br>
+<br>---<br>
+  §§ For greek letters, if the ((c:4;::first letter)) is ((c:5;::lowercase)), it will render the ((c:6;::lowercase letter)), if the ((c:4;::first letter)) is ((c:5;::uppercase)), it will render the ((c:6;::uppercase letter)). §<br>
+§§ so ((c:7;::\pi)) ((c:8;::inserts a lowercase pi π)) and ((c:7;::\Pi)) ((c:8;::inserts an uppercase pi Π)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+####### MD
+
+######## GFM
+
+<br>---<br>
+  §§ ((c:1;::Github-flavored)) ((c:2;::markdown)) supports creating ((c:3;::task lists)) via the syntax ((c:4;::<code>- [ ]</code>)) §<br>
+§§ You ((c:5;::complete)) ((c:6;::github-flavored markdown task lists)) via the syntax <code>((c:7;::- [x]))</code> §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+###### non-markup
+
+####### toml xdg systemd
 
 INI files inspired XDG desktop files.
 XDG desktop files inspired systemd unit files.
 TOML was inspired by INI, XDG and systemd unit files.
 TOML|Tom's obvious, minimal language
 
-###### m3u
+####### m3u
 
 m3u is a plain-text file format for playlists
 m3u merely has a de-facto standard.
@@ -4925,7 +5142,7 @@ entry ::= [<resource-entry>|<directive>]<CRLF>
 resource-entry ::= (<path>|<URL>)[ #<string>]
 directive :: #<directivename>[:<argument>]
 
-###### ICAL/VCARD
+####### ICAL/VCARD
 
 ical|text/calendar|calendar information|RFC 5545|.ics
 vcard|text/vcard|contact information|RFC 6350|.vcf
@@ -4974,9 +5191,9 @@ VJOURNAL   Journal entry
 VTIMEZONE   timezone definition
 VTODO   Task/Todo
 
-###### dictionary-based
+####### dictionary-based
 
-####### TOML
+######## TOML
 
 <br>---<br>
   §§ in ((c:1;::TOML)), ((c:2;::the top-level table)) starts at ((c:3;::the beginning of the document)) and ends before/at ((c:4;::the first table header)) §<br>
@@ -4989,11 +5206,11 @@ VTODO   Task/Todo
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
-####### YAML
+######## YAML
 
 YAML|YAML Ain't Markup Language
 
-######## Anchors & merge keys
+######### Anchors & merge keys
 
 <br>---<br>
   §§ YAML ((c:7;::anchors)) ((c:8;::save a reference to a value)), which ((c:9;::then can be included in a different location)) via ((c:10;::an alias.)) §<br>
@@ -5016,7 +5233,7 @@ YAML|YAML Ain't Markup Language
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
-####### JSON
+######## JSON
 
 JSON|JavaScript Object Notation
 JSON is a plaintext file format.
@@ -5028,7 +5245,7 @@ In JSON, the top-level item can either be an object or an array.
 JSON Pointers allow referring to things within json
 JSON Pointers are paths starting with and separated by / (e.g. /foo/bar)
 
-####### Schema
+######## Schema
 
 JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
 top-level keys
@@ -5046,40 +5263,15 @@ default|specify a default value that should be assumed if a value is missing
 
 in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
 
-####### jq yq
+######## jq yq
 
 jq|process JSON
 yq|process YAML & convert to/from JSON
 yq -y/-Y roundtrip back to YAML
-<code>yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}</code>
-<code>yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...</code> {{c3::outputs the file as the specified file format}}
+`yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}`
+`yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...` {{c3::outputs the file as the specified file format}}
 
-###### typesetting/just text
-
-RTF|Rich Text Format
-
-####### tex
-
-<br>---<br>
-  §§ ((c:3;::Tex)) consists of ((c:1;::tex-core)) and ((c:2;::plain-tex)) §<br>
-§§ ((c:4;::plain-tex)) is ((c:5;::the set of macros that the tex typsetting program uses)); ((c:6;::tex-core)) is ((c:7;::the typesetting program (that transforms it into output))) §<br>
-§§ ((c:8;::Tex)) and thus ((c:8;::latex)) is meant for ((c:9;::typesetting)) §<br>
-§§ ((c:13;::TeX)) and thus ((c:13;::LaTeX)) mainly work via ((c:14;::macros)) §<br>
-§§ ((c:15;::Mathjax)) renders ((c:16;::a subset of latex)) ((c:17;::in browsers (using js))) §<br>
-§§ ((c:18;::current)) latex version: ((c:19;::Latex 2e)) §<br>
-§§ ((c:20;::next)) latex version: ((c:21;::Latex 3)) §<br>
-§§ <q>latex</q> is properly capitalized ((c:22;::LaTeX)) §<br>
-§§ <q>tex</q> is properly capitalized ((c:23;::TeX)) §<br>
-§§ the x in ((c:24;::tex and latex)) is pronounced as ((c:25;::a voiceless velar fricative (e.g. loch, bach))) §<br>
-===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
-
-§§ ((c:10;::latex)) is ((c:11;::a set of tex macros)) that is supposed to be ((c:12;::more semantic)). §<br>
-texinfo is a set of macros for tex for generating hypertextual documentation
-
-info|read texinfo files
-
-###### subtitles
+####### subtitles
 
 WebVTT|Web Video Text Tracks Formats
   §§ ((c:33;::WebVTT)) and ((c:33;::.srt)) are file formats for ((c:34;::subtitles)). §<br>
@@ -5110,8 +5302,8 @@ WebVTT|Web Video Text Tracks Formats
   §§ A ((c:52;::cue)) is ((c:53;::the main unit of information)) in ((c:54;::WebVTT/.srt.)) §<br>
 §§ ((c:55;::A cue)) ((c:56;::starts (.srt)/may start (WebVTT))) with ((c:57;::a header line)). §<br>
 §§ ((c:58;::The header line that starts a cue)) must be ((c:59;::a running number indicator)) in ((c:60;::.srt)), this is ((c:61;::optional)) in ((c:60;::WebVTT)) §<br>
-§§ ((c:62;::The line after the header line if it exists or the first line of a WebVTT/.srt)) ((c:63;::cue)) contains ((c:64;::the time to show the text)), consisting of ((c:65;::two timestamps (RFC 3339 (hh):mm:ss.ttt))) ((c:66;::separated by <code> -&gt; </code> (notice the spaces).))((c:67;::&nbsp;Every line of a cue after the line specifying the time)) specifies ((c:68;::text to be shown.)) Together, these are known as ((c:69;::the payload)). §<br>
-§§ Every line of a cue may optionally be ((c:70;::started by <code>- </code>)), this will ((c:71;::not be displayed)) §<br>
+§§ ((c:62;::The line after the header line if it exists or the first line of a WebVTT/.srt)) ((c:63;::cue)) contains ((c:64;::the time to show the text)), consisting of ((c:65;::two timestamps (RFC 3339 (hh):mm:ss.ttt))) ((c:66;::separated by ` -&gt; ` (notice the spaces).))((c:67;::&nbsp;Every line of a cue after the line specifying the time)) specifies ((c:68;::text to be shown.)) Together, these are known as ((c:69;::the payload)). §<br>
+§§ Every line of a cue may optionally be ((c:70;::started by `- `)), this will ((c:71;::not be displayed)) §<br>
 ===<br>
 
 
@@ -5123,13 +5315,13 @@ WebVTT|Web Video Text Tracks Formats
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 <tr><td>((c:7;::vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg)))</td></tr>
-<tr><td>((c:8;::line:0-100%))</td> <td>((c:9;::display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no <code>vertical</code>)))</td></tr>
-<tr><td>((c:10;::position:0-100%))</td> <td>((c:11;::display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no <code>vertical</code>)))</td></tr>
+<tr><td>((c:8;::line:0-100%))</td> <td>((c:9;::display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`)))</td></tr>
+<tr><td>((c:10;::position:0-100%))</td> <td>((c:11;::display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`)))</td></tr>
 <tr><td>((c:12;::size:0-100%))</td> <td>((c:13;::set the width of the cue to %))</td></tr>
 <tr><td>((c:14;::&lt;c.foo&gt;content&lt;/c&gt;))</td> <td>((c:15;::specify a class foo to target))</td></tr>
 <tr><td>((c:16;::&lt;ruby&gt;...))</td> <td>((c:17;::add furigana etc.))</td></tr>
 <tr><td>((c:18;::&lt;v foo&gt;))</td> <td>((c:19;::indicate that foo is speaking))</td></tr>
-<tr><td>((c:20;::align:start/end...))</td> <td>((c:21;::align the captions along the x-axis (if not <code>vertical</code>), i.e. the same axis as the position property))</td></tr>
+<tr><td>((c:20;::align:start/end...))</td> <td>((c:21;::align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property))</td></tr>
 <tr><td>((c:22;::&lt;font color="...))</td> <td>((c:23;::Set the text to a certain color))</td></tr>
 <tr><td>((c:24;::&lt;b&gt;, &lt;i&gt;, &lt;u&gt;))</td> <td>((c:25;::make the text bold, italic or underlined))</td></tr>
   </tbody>
@@ -5152,7 +5344,7 @@ WebVTT|Web Video Text Tracks Formats
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
 
-###### misc
+####### misc
 
 Ignore files specify things which a given utility should ignore.
 Pretty much all VCSs have ignorefiles.
@@ -6060,7 +6252,7 @@ fcitx-configtool allows managing fcitx graphically.
 
 ##### state change
 
-<code>shutdown</code>|shutting your system down
+`shutdown`|shutting your system down
 reboot|restart your computer
 shutdown{ <option>}[ <shudown-time>][ <wall-message>]
 
@@ -6076,21 +6268,21 @@ termux-open   open something it its default application
 
 #### misc
 
-<code>redshift</code>|make screen red/yellowish (linux)
+`redshift`|make screen red/yellowish (linux)
 
-set color temperature    <code>-O temp </code>
-reset color temp   <code>-P</code>
+set color temperature    `-O temp `
+reset color temp   `-P`
 
-<code>nightlight</code>|make screen red/yellowish (mac)
+`nightlight`|make screen red/yellowish (mac)
 
-<code>nightlight status</code>|show <code>nightlight</code> status   
-<code>nightlight on</code>|enable <code>nightlight</code>   
-<code>nightlight schedule</code>|manage <code>nightlight</code> schedule   
-<code>nightlight temp</code>|show current <code>nightlight</code> color temperature (with arg: set it)
+`nightlight status`|show `nightlight` status   
+`nightlight on`|enable `nightlight`   
+`nightlight schedule`|manage `nightlight` schedule   
+`nightlight temp`|show current `nightlight` color temperature (with arg: set it)
 
-CLI tool for managing displays|<code>display_manager.py</code>
-<code>display_manager.py res</code>|manage resolutions (display_manager.py)
-<code>display_manager.py res width height</code>|Set the resolution to width * height (display_manager.py)
+CLI tool for managing displays|`display_manager.py`
+`display_manager.py res`|manage resolutions (display_manager.py)
+`display_manager.py res width height`|Set the resolution to width * height (display_manager.py)
 
 date is a tool for showing, formatting or changing date and time
 If run without arguments, date gets the current date and time.
@@ -6183,7 +6375,7 @@ htop is a more fancy version of top with a better TUI and interactivity.
 job control is mainly performed by signals.
 A job is a shell concept, but generally corresponds to a process group.
 Jobs mainly exist to be siginalled by signals, all processes in a job are signalled at once.
-<pre><code>^Z</code></pre> (as keyboard input)   Stop (not kill) the current program
+<pre>`^Z`</pre> (as keyboard input)   Stop (not kill) the current program
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
 fg  resume stopped task in foreground
 bg  resume stopped task in background
@@ -6420,7 +6612,7 @@ EDITOR and VISUAL are shell environement variables {{c1::setting the default edi
 PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
-<code>{{c1::which}}</code> takes {{c2::a string}} and {{c3::searches}} {{c4::the PATH}} to see {{c5::what the path of the binary of this command is.}}
+`{{c1::which}}` takes {{c2::a string}} and {{c3::searches}} {{c4::the PATH}} to see {{c5::what the path of the binary of this command is.}}
 
 command prompt is often just shortened to prompt.
 The command prompt is one or more characters indicating the command-line is ready to accept input.
@@ -6671,7 +6863,7 @@ In the file name expansion stage, bash retains patterns that didn't match anythi
 nullglob makes patterns disappear if they don't match anything
 failglob makes patterns fail if they don't match anything.
 When a pattern is used for filename expansion, the character ‘.’ at the start of a filename or immediately following a slash must be matched explicitly, unless the shell option dotglob is set. The filenames ‘.’ and ‘..’ must always be matched explicitly, even if dotglob is set. 
-To see what a command will actually get from a file name expansion, you can prefix it with <code>echo</code>
+To see what a command will actually get from a file name expansion, you can prefix it with `echo`
 
 wildcard|matches
 *|matches 0-n arbitrary characters, excluding directory separators
@@ -7457,13 +7649,13 @@ A link to the homepage of a page is called a surface link
 ===<br>
 
 <br>---<br>
-  §§ There are bunch of sites ((c:43;::designed to be <code>curl</code>ed)) to do something useful. §<br>
+  §§ There are bunch of sites ((c:43;::designed to be `curl`ed)) to do something useful. §<br>
 ===<br>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th>Site</th>
-    <th>Does what when <code>curl</code>ed?</th>
+    <th>Does what when `curl`ed?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><td>((c:1;::wttr.in))</td> <td>((c:2;::get weather))</td></tr>
@@ -7508,7 +7700,7 @@ in HTTP/1.1, in a request, besides the request line, a host header is necessary
 HTTP request verbs are case-sensitive
 If a form is submitted via POST, the query string ends up in the body of the request message
 If a form is submitted via GET, the query string ends up in the request url as the query element
-When you make a GET request to a directory, e.g. <code>/directory/</code>, it will return <code>/directory/index.html</code>, if extant, or possibly the directory listing if enabled, otherwise 404
+When you make a GET request to a directory, e.g. `/directory/`, it will return `/directory/index.html`, if extant, or possibly the directory listing if enabled, otherwise 404
 
 http-respose-message ::= <http-response-header-part><CRLF>[<http-response-body>]
 http-response-header-part ::= <http-status-line>{<http-response-header>}
@@ -7699,20 +7891,20 @@ In digs output, non-records begin with ;;, non-records do not.
 WebSocket is an application-layer communications protocol with client and server APIs.
 WebSocket, being an application-layer protocol, is distinct from HTTP, but uses the same TCP ports, mainly for firewall-related reasons
 WebSocket, in contrast to HTTP allows full-duplex communication and streams of data
-WebSocket use the scheme <code>ws:</code> (if unencrypted) or <code>wss:</code> (if encrypted)
+WebSocket use the scheme `ws:` (if unencrypted) or `wss:` (if encrypted)
 To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade header
 
 ######## client
 
-on the client side, sockets are created via the <code>WebSocket</code> constructor
-the <code>WebSocket</code> constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
-to send data on a <code>WebSocket</code>, use the method <code>send()</code>
+on the client side, sockets are created via the `WebSocket` constructor
+the `WebSocket` constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
+to send data on a `WebSocket`, use the method `send()`
 To {{c3::react to incoming data}} {{c2::event handlers are registered}} on the WebSocket object
-the four common events a <code>WebSocket</code> might recieve client-side are open, message, close, error
+the four common events a `WebSocket` might recieve client-side are open, message, close, error
 
 ######## server 
 
-the most common node web sockets library is <code>ws</code>
+the most common node web sockets library is `ws`
 
 ####### DHCP
 
@@ -8174,7 +8366,7 @@ Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
 <br>---<br>
   §§ For qutebrowser, you do ((c:1;::advanced config)) in ((c:2;::the config.py)) §<br>
-§§ In the config.py of qutebrowser, you ((c:3;::can change most settings)) ((c:4;::on the <code>c</code> object)) §<br>
+§§ In the config.py of qutebrowser, you ((c:3;::can change most settings)) ((c:4;::on the `c` object)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
@@ -8239,9 +8431,9 @@ If you've specified a resource with &lt;link rel="preload", you still need to ac
 
 defer & async are two attriubtes for <script> that influence how it is loaded.
 Ignoring speculative parsing, when the browser hits a <script> tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
-Instead of the default behavior, the <code>defer</code> and <code>async</code> attribute of scripts tells the browser to load the script in the background.
-Between  the <code>defer</code> and <code>async</code> attributes, defer executes scripts loaded in the background {{c1::when the dom is fully built}}, in the order they were in the document
-Between  the <code>defer</code> and <code>async</code> attributes, async executes scripts loaded in the background {{c1::as soon as possible}}, in the order in which they load, no matter source order.
+Instead of the default behavior, the `defer` and `async` attribute of scripts tells the browser to load the script in the background.
+Between  the `defer` and `async` attributes, defer executes scripts loaded in the background {{c1::when the dom is fully built}}, in the order they were in the document
+Between  the `defer` and `async` attributes, async executes scripts loaded in the background {{c1::as soon as possible}}, in the order in which they load, no matter source order.
 
 ####### RAIL
 
@@ -8349,11 +8541,11 @@ L|Lap
 
 ##### pass
 
-<code>pass</code> terminal-based password manager
-<code>pass</code> edit plaintext version of file  <code>pass edit somepassword</code>
-<code>pass</code> delete a password  <code>pass rm somepassword</code>
-<code>pass</code> command for listing the passwords  pass ls (or just pass)
-<code>pass</code> command for adding passwords  <code>pass insert/add</code>
+`pass` terminal-based password manager
+`pass` edit plaintext version of file  `pass edit somepassword`
+`pass` delete a password  `pass rm somepassword`
+`pass` command for listing the passwords  pass ls (or just pass)
+`pass` command for adding passwords  `pass insert/add`
 
 ##### misc
 
@@ -8361,9 +8553,9 @@ cal/ncal display a mini ascii calendar
 
 #### online data fetching
 
-<code>urban</code>|Terminal urban dictionary browser
-<code>trans</code>|Use google translate to translate text
-<code>deepl</code>|Use deepl to translate text
+`urban`|Terminal urban dictionary browser
+`trans`|Use google translate to translate text
+`deepl`|Use deepl to translate text
 
 lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first arg for detection
 
@@ -8539,7 +8731,7 @@ OP|Original Poster
 ## Expressions
 
 An expression evaluates to = returns a value.
-e.g. <code>6</code>, <code>6 * 2</code>, <code>true ? "foo" : "bar"</code>
+e.g. `6`, `6 * 2`, `true ? "foo" : "bar"`
 
 ## Statements
 
@@ -8592,9 +8784,9 @@ The difference between bash block statements using () and using {} is that () sp
 §§ Examples of ((c:17;::curly-brace/bracket languages)) I can write are ((c:18;::C#)), ((c:19;::ECMAScript)) -&gt; {((c:19;::Javascript)), ((c:19;::TypeScript))}, ((c:20;::Java)), ((c:21;::Perl)), ((c:22;::Rust)), SCSS (but not Sass). §<br>
 §§ Most ((c:23;::curly-brace/bracket languages)) ((c:24;::are thus because they are strongly influenced by)) ((c:25;::C)). §<br>
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
-In lua, blocks end with <code>end</code> (outside of repeat...until). They are begun by <code>do</code> when standing alone, or when after a loop, by <code>then</code> after an if condition, and by nothing after a function signature
+In lua, blocks end with `end` (outside of repeat...until). They are begun by `do` when standing alone, or when after a loop, by `then` after an if condition, and by nothing after a function signature
 In bash, blocks for if are delimited by then ... (possible else etc.) fi, for for and while by do ... done, for case by in ... esac
-In ruby, blocks end with <code>end</code>. begin begins a dedicated block statement (and is the keyword for the error handling statement), but no other blocks
+In ruby, blocks end with `end`. begin begins a dedicated block statement (and is the keyword for the error handling statement), but no other blocks
 In python, pretty much anything (control structure, function, etc) that precedes a block ends with `:`. In Ruby by contrast (which otherwise may look pretty similar), nothing ends with `:`
 In some languages, notably Ruby and Rust, block expression return the value of the last statement
 
@@ -8636,8 +8828,8 @@ In conditionals, any of the possible paths is called a branch.
 The most common conditional is if/then/else. 
   
 the if/then/(else) conditional is typically a statement (in rust, it's an expression).
-An if/then(else) conditional is started by <code>if</code> in nearly all programming languages
-the else arm of an if/then(else) conditional is started by <code>else</code> in nearly all programming languages
+An if/then(else) conditional is started by `if` in nearly all programming languages
+the else arm of an if/then(else) conditional is started by `else` in nearly all programming languages
 
 else if|C#|Java|JS|SCSS/Sass
 elseif|lua
@@ -8680,10 +8872,10 @@ the switch conditional generally has one condition, and then n branches for poss
 Besides the branches for possible values of the conditional, the switch conditional generally also allows for a default case.
 The default for switch statements is optional in JS
 In many languages switch conditionals feature fallthrough, which is where it will continue even after the case ends, until it hits a break/return statement.
-switch conditioals are generally started by the <code>case</code> keyword.
-Different cases for a switch conditional are started by <code>switch</code> in Java, JS and by <code>when</code> in liquid, ruby.
+switch conditioals are generally started by the `case` keyword.
+Different cases for a switch conditional are started by `switch` in Java, JS and by `when` in liquid, ruby.
 In liquid, ruby, multiple cases are separated by commas.
-The default case for a switch conditional is <code>default</code>  in Java, JS, and <code>else</code> in liquid, ruby.
+The default case for a switch conditional is `default`  in Java, JS, and `else` in liquid, ruby.
 Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
 In C-family languages, switch cases are generally syntactically equivalent to labels, and thus don't themselves create a new scope by default.
 
@@ -8721,7 +8913,7 @@ SCSS/Sass instead has the syntax @for <variable> from <lowerbound> to (excl)/thr
 
 A condition-controlled loop is aloop that repeats until a condition changes.
 condition-controlled loops can begin or end with their condtion, in which case they will run at least 0 or at least 1 time.
-condition-controlled loops that test at the beginning of the loop are often started with the keyword <code>while</code> and are often called while-loops. 
+condition-controlled loops that test at the beginning of the loop are often started with the keyword `while` and are often called while-loops. 
 condition-controlled loops that test at the end of the loop are often started with the keyword do, then a block, then end with the keyword while followed by the condition and are often called do-while-loops.
 Most programming languages I know have while and do-while loops, in fact I don't think I know a programming language that doesn't have a while loop.
 Perl and bash have an until loop: a while loop with an inverted condition (analogous to unless).
@@ -8734,7 +8926,7 @@ Lua also has a while loop with an inverted condition that tests at the end of th
 
 A collection-controlled loop is a loop that loops over all elements of a thing.
 Collection-controlled loops are commonly called foreach loops.
-  Collection-controlled loops most commonly start with the keyword <code>for</code>, but then feature a different syntax than count-controlled loops. In perl, they instead start <code>foreach</code>.
+  Collection-controlled loops most commonly start with the keyword `for`, but then feature a different syntax than count-controlled loops. In perl, they instead start `foreach`.
   Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
   Lua: for &lt;expression&gt; do
   bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
@@ -8915,10 +9107,12 @@ Local scope is often either block or function scope.
 
 In some languages, things that live within global scope are properties of an object called a global object.
 In JS in browsers, generally, the global object is Window.
-within {{c2::workers}}, the {{c3::global scope}} is <code>{{c1::WorkerGlobalScope}}</code>
-within {{c2::service workers}}, the {{c3::global scope}} is <code>{{c1::ServiceWorkerGlobalScope}}</code>
-The mixin <code>{{c1::WindowOrWorkerGlobalScope}}</code> describes {{c3::the common features}} of <code>{{c2::Window}}</code> and <code>{{c2::WorkerGlobalScope}}</code>
+within {{c2::workers}}, the {{c3::global scope}} is `{{c1::WorkerGlobalScope}}`
+within {{c2::service workers}}, the {{c3::global scope}} is `{{c1::ServiceWorkerGlobalScope}}`
+The mixin `{{c1::WindowOrWorkerGlobalScope}}` describes {{c3::the common features}} of `{{c2::Window}}` and `{{c2::WorkerGlobalScope}}`
 The `self` property of a WorkerGlobalScope returns a reference to the WorkerGlobalScope itself.
+
+Without {{c3::crates/unsafe code/etc.}}, {{c2::globals}} in Rust can only be {{c1::constants}}.
 
 ##### Variable scope
 
@@ -9003,9 +9197,12 @@ Owners are variables(/constants).
 Moving happens when we assign a value to a different owner and thus the first owner is invalidated.
 Assigning a value to a second owner produces a move unless the type implements Copy, in which case it instead calls copy.
 Rust says values that are moved when reassigned (= which don't implement Copy) have move semantics, values that are copied (= which implement Copy) implement copy semantics.
+A type can implement Copy if all of its components (parts) implement Copy.
 In rust, all primitves implement Copy
 Assigning as an operation that forces moving includes passing to a function and returning from a function.
 When a owner goes out of scope, a value is dropped.
+
+to allow cloning(), implement the Trait `Clone`. This does not change the semantics, since clone() must be called manually
 
 ## Variables
 
@@ -9293,33 +9490,116 @@ typical features of entities that are first-class in a certain language are e.g.
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
-#### Union type
+### bottom type
 
-A union type specifies a number of types that anything with the union type as type may take.
-with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
-Syntax in Python and TS: type1 | type2 ...
-
-#### Literal types
-
-A literal type is a type that can take on exactly one value which is specified via the literal of another type (e.g. 4 or true or "ara ara")
-A literal type is a type of unit type.
-
-#### type theory
-
-A top type is the supertype of every othe type.
-Any value can be assigned to the top type.
 A bottom type is the subtype of every other type.
-No value can be assigned to the bottom type.
-Using the bottom type is useful when you want to specify a value with which you can do truly nothing.
-
-A unit type is a type that only allows a single value.
-
-
-A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
+A bottom type can take no value.
+A bottom type is used to indicate noncomputability.
 
 no bottom type|most languages
 ! (called the never type)|Rust
 never|TS
+
+### unit type
+
+A unit type is a type that only allows a single value.
+
+()|Rust
+
+Rust's () for the unit type is abstracted from the idea of a tuple with no elements.
+In Rust, things without a return value implicitly return ()
+In rust, a struct without fields is also an unit type, called the unit-like strct
+
+#### Literal types
+
+A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
+
+### Union type
+
+A union type specifies a number of types that anything with the union type as type may take.
+A union type can hold a value that could take on several different but fixed types.
+A union type can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
+
+with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
+Common syntax: type1 | type2 ...
+Syntax for creating arbitrary union types exist in Python and TS
+
+In type theory, a union type is a sum type.
+
+#### Tagged unions
+
+A tagged union type is a union type where each of the types has a tag, which is used to determine which type is currently in used.
+What rust calls enums is more properly a tagged union.
+
+##### Rust
+
+###### strum
+
+strum|enum &lt;-&gt; string manipulation
+
+to make enums ready for use with strum, one needs to derive the relevant trait onto it, and also use attributes on the enum or the variants.
+Strum attributes use strum()
+
+Enum -> str|derive strum_macros::ToString
+Enum -> str message|derive strum::EnumMessage|Enum.get_message() & Enum.get_detailed_message() (return options)
+str -> Enum|derive strum::EnumString|Enum::from_str()
+
+##### Types with two possible states
+
+###### Option type
+
+An option type is a type that represents an optional value.
+An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
+In rust, the option type is its alternative for null, which it does not have.
+In rust, the option type is implemented as an enum.
+In rust, the option type is 
+pub enum Option<T> {
+  None,
+  Some(T),
+}
+
+In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
+
+###### Result type 
+
+A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
+in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Err(E)}
+
+###### Commonalities
+
+|if None|if Some
+<OptionOrResult>.and(<AnotherOptionOrResult>)|None/Err|<AnotherOptionOrResult>
+<OptionOrResult>.and_then(<callback>)|None/Err|<callback>(<OptionOrResult>)
+<OptionOrResult>.or(<AnotherOptionOrResult>)|<AnotherOptionOrResult>|None/Err
+<OptionOrResult>.or_else(<callback>)|<callback>|None/Err
+<OptionOrResult>.map(<callback>)|None|call callback with contained value and return option with returned value
+<OptionOrResult>.map_or(<default>, <callback>)|<default>|call callback with contained value and return option with returned value
+
+the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option<T> or Result<T, E> by cloning/copying
+
+Result<T, E>.ok() -> Option<T>
+
+#### Nullable types
+
+Null is not typically its own type (since it would be a useless unit type), instead other types are generally nullable.
+A type being nullable means it can take a special value null/nil/undefined instead of the usual possible values.
+We can understand nullable types as an union type between usual type | null type
+
+nil|lua|liquid|ruby
+null|C#|Java|JS (secondary)
+undefined|JS (primary)
+None|Python
+there isn't one|Rust
+
+Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
+In JS a type is nullish if it is null or undefined.
+
+### top type
+
+A top type is the supertype of every othe type.
+A top type can take any possible value.
+
+A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
 
 object|Python
 unknown|TS
@@ -9328,14 +9608,20 @@ java.lang.Object|Java
 System.Object|C#
 BasicObject|Ruby
 
-unit tye
+In ruby Object inherits from BasicObject and generally acts as the top type for most purposes.
 
-()|Rust
 
-Rust's () for the unit type is abstracted from the idea of a tuple with no elements.
-In Rust, things without a return value implicitly return ()
-In rust, a struct without fields is also an unit type, called the unit-like strct
+### boolean
 
+A boolean data type is a type that has one of two possible values, indicating
+truth values.
+
+true/false|C#|Java|JavaScript|Lua|Ruby|Rust|TOML|YAML
+True/False|Python|(YAML)
+yes/no|YAML
+no boolean type, only truthy/falsiness|Python
+
+YAML is not boolean keyword case sensitive
 
 ### Symbols
 
@@ -9387,9 +9673,14 @@ Rust slices can bu used for the same reasons one would use slices in e.g. Python
 getting a slice: &[mut] <thing-being-sliced>\[<n>(..|..=)<m>\]
 slices can be indexed just like anything else.
 Slices' length may not be known at compile time, and so rust can't guarantee that indexing into a slice will not produce an error.
+
+when cloning a reference &T, rust will return T.
+to_owned() is part of the Trait ToOwned.
+there is a blanket implementation for ToOwned for anything that implements Clone.
+the reason to use to_owned() is for types where returning T of &T is not desirable, namely &str, hence to_owned() returns a String for str.
+
 In rust, string literals are slices, specifically they are slices into the rodata section of the object file.
 this means that instead of being &str, string literals are in fact &'static str
-
 In rust, `String` and `str` are both UTF-8 byte sequences.
 Since `String`/`str` are UTF-8 byte sequences, they cannot be indexed, as they could be indexed on a non character boundary (does allow slicing however, slices always have this problem potentially).
 To get an iterator of the UTF-8 bytes of a String, use bytes().
@@ -9402,51 +9693,6 @@ Rusts treats references to strings &String and &str as the same in most cases, s
 String.from() gets a String from an &str.
 String.new() creates a new empty string.
 the + operator for strings requres a `String` on the left and a `&str` on the right
-
-### Null types
-
-nil|lua|liquid|ruby
-null|C#|Java|JS (secondary)
-undefined|JS (primary)
-there isn't one|Rust
-
-Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
-In JS a type is nullish if it is null or undefined.
-
-####  nullable
-
-Nullable types are a feature of some statically typed programming languages which allow the value to be set to the special value NULL instead of the usual possible values of the data type.
-
-### Option type
-
-An option type is a type that represents an optional value.
-An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
-In rust, the option type is its alternative for null, which it does not have.
-In rust, the option type is implemented as an enum.
-In rust, the option type is 
-pub enum Option<T> {
-  None,
-  Some(T),
-}
-
-In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
-
-### Result type 
-
-A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
-in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Err(E)}
-
-### boolean
-
-A boolean data type is a type that has one of two possible values, indicating
-truth values.
-
-true/false|C#|Java|JavaScript|Lua|Ruby|Rust|TOML|YAML
-True/False|Python|(YAML)
-yes/no|YAML
-no boolean type, only truthy/falsiness|Python
-
-YAML is not boolean keyword case sensitive
 
 ### Numeric types
 
@@ -9613,7 +9859,7 @@ If languages implement assoc arr as primitives, these then often have their own 
 
 ####### JS
 
-JS implements associative arrays via the <code>Map</code> and <code>WeakMap</code> classes. 
+JS implements associative arrays via the `Map` and `WeakMap` classes. 
 In JS objects (esp. object literals) also perform many of the operations we would expect of associative arrays. 
 Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). 
 Objects are primitives, Maps need to be created with the new Map() constructor. 
@@ -9705,6 +9951,10 @@ JS calles its json/yaml libraries JSON/YAML.
 <j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
 
 to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
+
+######## Rust serde
+
+trying to use serde-related features with indexmap will fail if you haven't specified the feature "serde"
 
 ####### misc
 
@@ -9863,7 +10113,7 @@ immutable static array (of whatever types)
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
-YAML also has indentation delimited, newline separated, individual items marked by <code>- </code> version
+YAML also has indentation delimited, newline separated, individual items marked by `- ` version
 
 In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
 
@@ -10020,7 +10270,7 @@ Some langauges that don't have a char type differentiate between string literals
 In languages that have single-quoted string literals, interpolation is generally also not allowd in them.
 JS has a specific, especially featureful type of sting called a template literal, which are delimited by backticks (`foo`)
 sh is a little special in that it accepts strings with no surrounding quotes in some cases.
-YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing <code> :</code>
+YAML accepts unquoted strings if they don't interfere with other syntax, of which the most common case is them containing ` :`
 In some languages, most notably C, strings are ended by the NULL (0x00) character, these are known as null-terminated strings.
 
 A raw string is a string literal where character escapes have been disabled and so everything is a literal.
@@ -10212,6 +10462,9 @@ split string on newlines|.lines()|Rust
 
 to char array/iterator
 chars()|Rust
+
+parse sting to other type
+<string-object>.parse()|Rust (Returns a `Result`, often requires turbofish annotation.)
 
 #### String replacement
 
@@ -10441,6 +10694,10 @@ Rust's struct update syntax has some similarities to JS associative array destru
 Rust's struct update syntax uses the oparator ..
 for including all values of a struct instance into the current struct instance, use struct update sytnax.
 
+### traits/interfaces/methods that implement math operators
+
+Add|Rust
+
 ## Errors
 
 Some languages distinguish between recoverable and unrecoverable errors.
@@ -10527,7 +10784,7 @@ return type is indicated:
 
 ### returning
 
-Across most languages, the keyword to return whatever value is the <code>return</code> keyword.
+Across most languages, the keyword to return whatever value is the `return` keyword.
 The datatype of the thing that is returned from a callable unit is known  {{c1::The return type}}
 In non-manifestly typed languages, the default return value of a function is the null type
 In general, using the return keyword without a value returns the languages null type.
@@ -10928,12 +11185,6 @@ Both struct delcarations and initializations in rust use a very assoc-array like
 struct User { username: String, ...}
 Tuple structs are either 'tuples with a name which can be instantiated' or 'structs with anonymous but ordered fields'.
 
-### Tagged unions
-
-A tagged union can hold a value that could take on several different but fixed types.
-A tagged union can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
-What rust calls enums is more properly a tagged union.
-
 ### impl
 
 Rust allows implementing methods or associated functions for structs, tagged unions (enums) and traits via the impl keyword.
@@ -10946,7 +11197,7 @@ we may `impl` a Trait without any `for` clause to provide a default implementati
 
 An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
 
-Keyword to declare a class is done by the keyword <code>class</code> in pretty much all programming languages which have it.
+Keyword to declare a class is done by the keyword `class` in pretty much all programming languages which have it.
 
 A singleton (AKA the singleton pattern) is a class that can only have a single instance of that class. It is useful when you don't need multiple instances of a thing (the null object, a logger), or to coordinate states.
 
@@ -10977,7 +11228,7 @@ Only Ruby (of the languages I know) is quite pure enough to be called a pure obj
 
 Superclass aka base class
 subclass aka derived class
-In most programming languages, you refer to your superclass=base class with the keyword <code>super</code>.
+In most programming languages, you refer to your superclass=base class with the keyword `super`.
 In most programming languages, you specify a subclass/superclass relationship like so: Subclass extends Superclass
 In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
 In C#/Java, making a class final disallows a subclass from inheriting from it.
@@ -11060,7 +11311,10 @@ In most languages, a record may implement multiple interfaces/traits.
 Traits in Rust are broadly similar to intefaces in other programming languages.
 Traits in Rust can be implemented for types you did not define.
 However, the trait ∨ the thing its implemented on must be local to the crate
-Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
+Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits.
+impl<T> ToString for T where
+    T: Display + ?Sized,
+{ ... }
 In rust, the keyword to declare a trait is `trait`.
 In rust, deriving a trait is automaticallly generating trait implementations for a given thing.
 In rust, derive is implemented via an annotation that takes a list of Traits.
@@ -11089,11 +11343,19 @@ foo.clone()|Rust
 
 #### toString()
 
-Most languages with objects have a tostring function to convert these to strings for debugging purposes.
+Most languages with objects have a tostring method to convert these to strings for debugging purposes.
 It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
+tostring methods are often called implicitly during coercion.
 
-toString()|Java|JS
-ToStrng()|C#
+<thing>.toString()|Java|JS
+<thing>.ToString()|C#
+<thing>.to_string()|Rust
+<thing>.__str__(), called via str(<thing>)|Python
+<thing>.to_s() or .to_str()|Ruby
+
+The difference between Ruby's to_s() and to_str() is that to_s() is implemented in the (almost) top type (Object), and is called for some coercions only, while to_str() indicates that we want to treat the thing as a string in most cases, and thus allows for coercion in more circumstances.
+
+to_string() is part of the ToString trait.
 
 #### Boxing
 
@@ -11544,7 +11806,7 @@ A list with {{c1::no sections/headings}} should probably use the {{c2::&lt;FlatL
 
 All the elements and views of a ScrollView are rendered, even if they are not currently shown
 &lt;ScrollViews&gt; can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
-The &lt;ScrollView&gt; Core Component can scroll in y-direction and, if <code>horizontal</code> is specified, in x-direction.
+The &lt;ScrollView&gt; Core Component can scroll in y-direction and, if `horizontal` is specified, in x-direction.
 On iOS a ScrollView with a single item can be used to allow the user to zoom content. Set up the maximumZoomScale and minimumZoomScale props for that.
 
 ####### switching based on platform
@@ -11719,9 +11981,9 @@ console.time() & console.timeEnd()|measure elapsed time in running code.
 most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
 In js, {{c2::Unix time}} is almost always interacted with in {{c1::milliseconds}}, 
 as opposed seconds, which is more standard
-the <code>{{c1::Date.parse()}}</code> method takes {{c2::a date in a few common formats}} and outputs {{c3::Unix time (in millis, as is common in JS)}}
-<code>{{c1::new Date()}}</code> takes {{c2::Unix time milliseconds}} and returns {{c3::a <code>Date</code>}}
-<code>{{c1::someDate.toISOString()}} </code> returns the datetime {{c2::as ISO 8601}}
+the `{{c1::Date.parse()}}` method takes {{c2::a date in a few common formats}} and outputs {{c3::Unix time (in millis, as is common in JS)}}
+`{{c1::new Date()}}` takes {{c2::Unix time milliseconds}} and returns {{c3::a `Date`}}
+`{{c1::someDate.toISOString()}} ` returns the datetime {{c2::as ISO 8601}}
 
 ### Standard library
 
@@ -11756,10 +12018,6 @@ input(mesg)|Python
 window.prompt(mesg, default)
 
 ### other libraries
-
-#### strum
-
-
 
 #### utility libraries
 
@@ -12506,6 +12764,11 @@ package|general package information|Cargo.toml
 package-lock.json|npm
 Gemfile.lock|bundler
 
+##### rust
+
+specifying features of packages
+package-with-features ::= <package-name> = \{ version = "<semver-version-specifier>", features = \["<string>{, "<string>"}\]\}
+
 #### repositories
 
 A repository is anything that stores software.
@@ -12688,6 +12951,9 @@ react|create-react-app <name>
 react-native|expo init <name> 
 expo init creates a project using expo's managed workflow
 
+cargo-generate is a crate that allows using a pre-existing git repository as a template.
+the npm package create-wasm-app adds the command npm init wasm-app which allows us to set up an js app which consumes our rust-generated wasm
+
 ### Mobile development
 
 Mobile development is centered around a core IDE, Android Studio for android and XCode for iOs
@@ -12775,6 +13041,14 @@ The thing managing all the Jupyter stuff is Project Jupyter
 https://en.wikipedia.org/wiki/Type_theory#History
 
 Associative arrays: names, literals, other construction methods, etc.
+
+### Computer Ergonomics
+
+<br>---<br>
+  §§ Ideally, your ((c:2;::arm (elbow))) should have an angle of ((c:1;::90°)) while ((c:6;::touch typing)) §<br>
+§§ Ideally, ((c:3;::your wrist)) should be ((c:4;::hovering)) while ((c:5;::touch typing)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## server directory structure
 
