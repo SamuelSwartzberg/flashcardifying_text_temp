@@ -8825,8 +8825,9 @@ In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
 
 #### dynamic dispatch
 
-dynamic dispatch is choosing an implementation of a polymorphic operation at runtime
-both single dispatch and multiple dispatch are forms of dynamic dispatch
+dynamic dispatch is choosing an implementation of a polymorphic operation at runtime.
+In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
+both single dispatch and multiple dispatch are forms of dynamic dispatch.
 
 single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
 
@@ -8842,7 +8843,10 @@ Parametric polymorphism is polymorphism that only uses one implementation, inste
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
 C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
 In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64
-In rust, we may specify a list of traits that a generic must satisfy by indicating it within a type parameter as \<<generic>: <trait-name>{ + <ttrait-name>}\>
+Trait bounds are a set of traits that a generic must satisfy.
+In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-list>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
+trait-list ::= <trait-name>{ + <trait-name>}
+where-clause-syntax ::= where {<generic>: <trait-list><newline>}
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -10056,29 +10060,77 @@ sh's various $-introduced expressions are similar to string interpolation.
 Python has three ways to perform string interpolation:
 old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
 new-style string formatting:
-{} or {0}, {1} ... interpolates within the string, if calling format() on the string. Interpolated expressions are args to format method, format specifiers go within {}, if passing to format by name, refer to these things like so {name}. If combining w/ format specifiers {name:format_specifier}
+{} or {0}, {1} ... interpolates within the string, if calling format() on the string. Interpolated expressions are args to format method, format specifiers go within {}, if passing to format by name, refer to these things like so {name}. 
+If combining w/ format specifiers \{<name>[!<conversion>][:<format_specifier>]\}
 "Error code: {errno:x}".format(errno = ...
 f-strings: allow arbitrary expression within {}. String must be prefixed by f
 f"Hello, {name}"
 
-rust allows its formatting syntax in its format! and println! macros, with the difference being that the former returns a string and the latter prints.
-
-Rust:
-Syntax|Trait
-{}|Display
-{:?}|Debug
-{:#?}|Debug, but pretty-print
+rust defines its format syntax in std::fmt, which largely tracks python's str.format() specifier
+rust allows its std::fmt formatting syntax in its format! and println!/eprintln! macros, with the difference being that the former returns a string and the latter prints.
+specifying a ? as the final element in a rust formatting syntax specifier makes it use the trait `Debug`, otherwise it will use the trait `Display`
 
 ##### C style string formatting
 
 (C) format strings aka printf (print formatted) format strings are names for a specific type of string formatting syntax using % and originating from C.
-Interpolate with what is called a format specifier: % followed by a char or a few chars to indicate the format. Which strings to interpolate where is determined positionally (the first string is interpolated ).
-Format specifier syntax: %[parameter][flags][width][.precision][length]type
+C format strings specify the format of a given argument with a format specifier
+format specifier: % followed by a char or a few chars to indicate the format.
+Which strings to interpolate where is determined positionally (the first string is interpolated )
+Positional arguments to interpolate are specified after the string separated by a %
+c-format-string-format-specifier ::= %[<parameter>]{<flag>}[<width>][.<precision>][<length>]<type>
+parameter ::= <n>$
+flag ::= -|+| |0|'|#
+width ::= <positive-integer> # specifies minimum width.
+precision ::= <positive-integer> # specifies maximum width
+
+flag meaning
+-|left-align output
++|prepend a + sign for positive numbers
+ |prepend a space for positive numbers
+0|use zeroes when padding via width
+'|The integer or exponent of a decimal has the thousands grouping separator applied. 
+#|
+
+for the types in c-style format strings, if there is an uppercase variant this normally uppercases the cahracters
+
 common types
-x|lowercase hex
-X|uppercase hex
+x or X|hex (unsigned numbers only)
+o|octal (unsigned numbers only)
 d or i|signed int
+u|unsigned int
 f or F|decimal number
+e or E|use exponent based notation e±dd
+g or G|decide between e/E and f/F depending on maginitude
+s|string
+%|percentage (python .format() only)
+b|binary (python .format() only)
+
+##### python-style string formatting
+
+python's str.format() method takes a C format string inspired but somewhat different syntax.
+[[<fill>]<align>][<sign>][#][0][<width>][<group>][.<precision>][<type>]
+where width, precision and type are the same as with C format strings
+fill|what character to use to pad (takes a string)
+align|what direction to align
+sign|is a sign included for numeric values
+#|causes an explicit base indicator to be shown for binary, octal, and hex
+0|pads with 0
+group|indicates a separator character for groups of numbers
+
+align ::= \<|\>|^|=
+
+<|align left
+>|align right
+^|center
+=|place padding between number and sign
+
+sign ::= +| |-
+
++|+ for positive numbers, - for negative numbers
+-|nothing for positive numbers, - for negative numbers
+ |space for positive numbers, - for negative numbers
+
+
 
 #### String multiplication
 
@@ -10884,8 +10936,11 @@ What rust calls enums is more properly a tagged union.
 
 ### impl
 
-Rust allows implementing methods or associated functions for structs and tagged unions (enums) via the impl keyword
+Rust allows implementing methods or associated functions for structs, tagged unions (enums) and traits via the impl keyword.
 For any impl block, we may indicate that we only want to implement it for something whose generics either are of a certain type or implement certain traits.
+When we implement something, we can only rely on other things of the thing we're implementing existing, plus whatever trait bounds we've established.
+we may `impl` a Trait without any `for` clause to provide a default implementation.
+`impl <trait-list>` does not start an impl block and instead refers to a type that implements trait-list, with the advantage that this syntax can be used outside of a type parameter.
 
 ### Classes & objects 
 
@@ -10953,7 +11008,7 @@ In JS, you may not use arrow functions as constructors
 
 A factory function is any callable unit which is not a class/constructor that returns a new object.
 Ergo, factory functions create things without using the new keyword.
-
+in Rust, many things are created by a factory function `new()`, which is an associated function of the struct.
 
 #### type parameters and generics
 
@@ -10982,7 +11037,9 @@ package|within the same package|Java
 in java, the package access modifier is the default
 JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
 
-Rust descendant modules can access the private items of their parents.
+A {{c1::private item}} can be accessed by {{c2::its immediate parent module}} and {{c3::all its child modules}}
+A public item can be accessed as a private item can, and additionally also through a chain through its ancestors.
+In rust, each field of a struct has its own access modifier, which must be set to public if desired.
 
 #### Interfaces
 
@@ -11005,6 +11062,8 @@ Traits in Rust can be implemented for types you did not define.
 However, the trait ∨ the thing its implemented on must be local to the crate
 Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits
 In rust, the keyword to declare a trait is `trait`.
+In rust, deriving a trait is automaticallly generating trait implementations for a given thing.
+In rust, derive is implemented via an annotation that takes a list of Traits.
 
 #### OOP
 
@@ -11042,11 +11101,13 @@ A box is a minimal object wrapper around another type.
 The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
 putting values into a box is called boxing, the opposite unboxing
 A wrapper is any entity that encapsulates/wraps around another thing.
-Implementation-wise, it may be that the whole box is stored on the heap as an object would be, and we only have a pointer to the box, or as Rust seems to do it the Box may merely contain a pointer to whatever data, which is moved to the heap.
+Implementation-wise, it may be that the whole box is stored on the heap as an object would be, and we only have a pointer to the box, or as Rust seems to do it the Box may merely contain a pointer to whatever data, which is moved to the heap. (though I wonder if these are different)
 Memory-wise, since boxes are objects, boxed data will be stored on the heap.
 Boxing primitives allows us to interact with them using a similar interface as other objects; this enables the Everything you operate on is a first-class Object constraint of pure OO, consequently most primitives are boxed in languages aspiring to pure OO such as Python, JS, Ruby...
 Autoboxing is the conversion of primitves to boxed types when relevant.
 Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
+
+Rust's construct for boxing is Box<T>.
 
 ## Pragmas
 
@@ -11071,6 +11132,19 @@ Strict mode in JS:
 An interpreter directive is a type of pragma that specifies which interpreter to use for a thing.
 On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
 The shebang consists of the characters #!.
+
+### attributes
+
+Attributes are pragmas (mostly) for rust.
+attribute begins|applies to
+#!|whole crate
+#|next item
+
+attributes have four forms for taking arguments (or none)
+ø|no arg
+= "<value>"|one arg
+\(<value>{, <value>}\)|multiple unnamed args
+\(<key> = "<value>"{, <key> = "<value>"}\)|multiple named args
 
 
 ## Formatting
@@ -11192,8 +11266,6 @@ IPC is just message passing between two processes.
 Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
 Memory deallocation is releasing previously allocated memory.
 
-The lifetime of a variable or object is the time where it has valid memory.
-
 ### The stack and the heap
 
 The call stack is often only called the stack.
@@ -11252,6 +11324,15 @@ In lexical lifetimes, the lifetime of a value is until the end of its lexical sc
 In non-lexical lifetimes, the lifetime of a value is until it is last used within its lexical scope.
 In general, the difference between lexical and non-lexical lifetimes does not matter, however if the value is a reference Rust's borrow checker cares about if you're holding on to it. Hence, rust implements non-lexical lifetimes for references.
 
+lifetime-annotation ::= '<name>
+lifetime-annotations specify named lifetimes
+You must specify all lifetimes you are gonna use as type parameters.
+In rust, in theory all references used in callable units require a lifetime annotation, though in most cases it can be left out due to lifetime elision.
+lifetime annotations cannot be elided in cases where the compiler cannot figure out how parameters and return value relate.
+ergo, lifetimes cannot be elided if the function returns a reference, the function takes more than one reference as a input parameter, and the function is not a method.
+Importantly, lifetime annotations beside 'static do not change lifetimes, merely indicate how lifetimes of references relate (specifically, "treat all these lifetimes as the lifetime of the shortest one")
+Rust indicated static variables with a 'static lifetime annotation
+
 ### memory management
 
 Memory management is managing the memory of an application.
@@ -11297,6 +11378,8 @@ In automatic reference counting, increment/decrement methods for refrences are c
 Circular set of references are called reference circles.
 reference circles can allow things in refrence counting to never reach reference count 0 and thus be destroyed.
 
+In rust, reference counting is implemented by Rc<T>.
+Rc<T> allows multiple owners, where each call to clone() increases the reference count.
 In rusts implementation of reference counting, dropping Rc<T> decreases the reference count.
 
 ##### RAII
@@ -11500,19 +11583,32 @@ Jekyll|Ruby
 
 #### the enviornment
 
+Modules which contain most of the environment stuff, though they may contain other stuff
+
+std::env|rust
+sys|python
+process|node
+
 In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
-sys.stdin|python
+sys.stdin/.stdout/stderr|python (are `File` objects similar to what open() returns)
+$stdin/$stdout/$stderr|ruby (return steams)
+std::io::stdin/stdout/stderr|Rust (returns a handle of std::io::Stdin/Stdout/Stderr)
 
 argv = argument vector
 Command-line arguments
 @ARGV|Perl
 process.argv|node
 sys.argv|python
+std::env::args()|Rust
 
 Environment variables
 %ENV|Perl
 process.env|Node
 os.environ|python
+std::env::vars()|Rust
+
+A signle environment variable
+std::env::var(<name>)|Rust
 
 #### Print
 
@@ -11527,6 +11623,7 @@ console.log()|JS
 System.out.prinln()|Java
 Console.WriteLine|C#
 echo|liquid (within liquid block)|(ba)sh
+println!|Rust
 
 echo options
 -n|no trailing newline
@@ -11539,6 +11636,7 @@ string.format|Lua
 Print an error to console (but don't throw one)
 console.error()|JS
 @warn|SCSS/Sass
+eprintln!|Rust
 
 clear the console/terminal window
 clear|sh
@@ -11658,6 +11756,10 @@ input(mesg)|Python
 window.prompt(mesg, default)
 
 ### other libraries
+
+#### strum
+
+
 
 #### utility libraries
 
@@ -11791,7 +11893,10 @@ reflective programming is sometimes shortened to reflexion.
 
 ### macros
 
-a macro is something that maps a input to a replacement output
+a macro is something that maps a input to a replacement output.
+Rust supports macros as its main form of metaprogramming.
+Rust macros end in an !.
+
 
 ## Programming language implementation
 
@@ -11858,6 +11963,8 @@ Dead code is code which is never or not usefully used.
 Unreachable code is dead code which is dead because there is no control flow path that would lead to it.
 Dead code elimination is a compiler optimization involving the removal of dead code.
 In js, dead code elimination is kown as tree shaking.
+A call site is the place where a callable unit is called.
+Inlining is a compiler optimization that replaces a function call site with the body of the called function.
 
 ### interfaces for implementation
 
