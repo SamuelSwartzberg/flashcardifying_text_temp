@@ -3839,6 +3839,21 @@ incandescent lights|~2500K
 daylight|6000K+
 candles|1500-2000K
 
+#### color schemes
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+   <tr><td>((c:1,15;::analogous ))</td><td>((c:8;h:15-21;::Two or more colors that are all next to each other on the color wheel))</td><td>((c:22;h:8-14;::<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">))</td></tr>
+<tr><td>((c:2,16;::complementary ))</td><td>((c:9;h:15-21;::Two opposite colors on the color wheel))</td><td>((c:23;h:8-14;::<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">))</td></tr>
+<tr><td>((c:3,17;::monochromatic ))</td><td>((c:10;h:15-21;::A single color))</td><td>((c:24;h:8-14;::<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">))</td></tr>
+<tr><td>((c:4,18;::tetradic (more specif: double complementary) ))</td><td>((c:11;h:15-21;::two pairs of complementary colors ))</td><td>((c:25;h:8-14;::<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">))</td></tr>
+<tr><td>((c:5,19;::split complementary (is a form ))</td><td>((c:12;h:15-21;::A color and the colors adjacent to its complementary ))</td><td>((c:26;h:8-14;::<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">))</td></tr>
+<tr><td>((c:6,20;::tetradic (more specif. square)))</td><td>((c:13;h:15-21;::Four colors equally spaced on the color wheel))</td><td>((c:27;h:8-14;::<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">))</td></tr>
+<tr><td>((c:7,21;::triadic ))</td><td>((c:14;h:15-21;::Three colors equally spaced on the color wheel))</td><td>((c:28;h:8-14;::<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}))</span>
+
 ### blending
 
 Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
@@ -3853,6 +3868,26 @@ screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
 Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
 The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
+
+## design
+
+((h:all;::<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">))((h:all;::<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">))((h:all;::<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">))((h:all;::<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">))
+§§ It is often said (esp. in animation) that ((c:2;::good characters)) should ((c:3;::be recognizable by)) ((c:1;::their silhouette alone)) §<br>
+
+<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">
+((h:all;::<img src="sm_1280px-FedEx_Corporation_logo.svg.png">))
+<img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>{{c1::Negative space}} is {{c2::the area without subjects/areas of focus}}
+{{c3::Positive space}} is {{c4::the area with subjects/areas of focus}}
+In the image, if {{c5::you see a vase}}, the {{c6::black space}} is the {{c7::negative space}} and the {{c6::white space}} is the {{c7::positive space}}
+In the image, if {{c8::you see two faces}}, the {{c9::white space}} is the {{c10::negative space}} and the {{c9::black space}} is the {{c10::positive space}}
+In the image, the {{c11::positive space}} is (probably/arguably) {{c12::the woman.}}
+
+<span class="c1-f">What are these examples for?</span><br><img class="c1-f all-b" src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br><br>---<br>
+  §§ ((c:4;::hostile/defensive architecture/design)) is architecture that ((c:6;::restricts/guides behavior)) to ((c:5;::protect property)) or ((c:3;::prevent crime)) §<br>
+§§ hostile/defensive architecture might look like ((c:7;::&lt;image&gt;)) §<br>
+§§ The most common people targeted by ((c:8;::hostile/defensive architecture/design)) in the west are ((c:9;::the homeless)) and ((c:2;::young people)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ## misc
 
@@ -3872,6 +3907,27 @@ subtitles|translating foreign language content
 closed|can be en/disabled
 open|cannot be en/disabled
 
+#### curb cut effect
+
+((h:all;::<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">))
+((h:all;::<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">))((h:all;::<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">))<br><br>---<br>
+  §§ Only after ((c:1;::disabled people protested)) did ((c:2;::curb cuts begin to be instituted)). §<br>
+§§ ((c:3;::Curb cuts)) have only really ((c:4;::become common)) ((c:5;::in the last few decades)) §<br>
+§§ ((c:6;::Curb cuts)) had ((c:7;::many unexpected benefits)) besides ((c:8;::helping disabled people)), giving rise to the term ((c:9;::curb cut effect)). §<br>
+§§ ((c:10;::The curb cut effect)) states that ((c:11;::accessibility improvements)) provide ((c:12;::many and varied benefits for everyone)) besides ((c:13;::their initial aims)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+#### non-directive play
+
+((h:all;::<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">))((h:all;::<img src="sm_IMG_8551.jpg">))<br>---<br>
+  §§ ((c:1;::non-directive/self-directed play)) is play that ((c:2;::allows the players to do whatever they come up with)) §<br>
+§§ ((c:3;::self-directed play)) is easier to do when ((c:4;::the play tools are not designed with any particular end in mind)) §<br>
+§§ ((c:5;::self-directed play)) was advocated, especially in ((c:6;::playgrounds)), by ((c:7;::Isamu Noguchi)) §<br>
+§§ ((c:8;::Noguchi)) ((c:9;::long struggled)) to g((c:10;::et a self-directed play playground built)), but ((c:11;::one was eventually built in Sapporo)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ### robots
 
 #### sitemap
@@ -3888,6 +3944,7 @@ Google may penalize if you have a bunch of pages with basically the same content
 
 ### Accessibility
 
+((c:2;::Accessibility)) is ((c:3;::designing things)) ((c:1;::so as to be usable by people with disabilities (with a variety of bodies)))
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
 For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
