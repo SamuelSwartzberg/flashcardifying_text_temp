@@ -22,6 +22,12 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+#### magical thinking
+
+§§((c:6;::magical thinking)) is the way of thinking that posits ((c:7;::that two events are causally connected)), ((c:8;::even though there is no plausible causal link)).§ <br>
+§§An example of ((c:2;::magical thinking)) would be ((c:1;::Knocking on wood will prevent misfortune.)) §<br>
+§§((c:3;::Magical thinking)) is often ((c:4;::a symptom of OCD)) (however, ((c:5;::the cause of most)) ((c:3;::magical thinking)) in the world is ((c:5;::not)) ((c:4;::OCD)))§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}))</span>
 
 ## rational choice theory
 
@@ -87,7 +93,23 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 ## political communication
 
-### dogwhistle
+### medium
+
+#### pamphlet war
+
+<br>---<br>
+  §§ A ((c:1;::pamphlet)) is a ((c:2;::short)) ((c:3;::book/printed work)), often un((c:4;::bound)), generally ((c:5;::political)) in nature §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<br>---<br>
+  §§ A ((c:1;::Pamphlet war)) was a ((c:2;::protracted argument or discussion)) through ((c:3;::printed media)), especially via ((c:4;::pamphlets)), especially between the time ((c:5;::the printing press became common)), and the ((c:6;::beginning of the 1800s)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### message
+
+#### dogwhistle
 
 §§ A ((c:1;::dog whistle)) as a physical thing is ((c:2;::a whistle that can be heard by dogs but not humans)). §<br> 
 §§ By extension, a ((c:3;::dog whistle)) in politics is (the use of) ((c:4;::coded language)) which ((c:5;::sounds innocent to most people)) (or ((c:5;::at least allows plausible deniability))) but ((c:6;::is meant to communicate a specific thing to an intended audience)). §<br>
@@ -96,7 +118,21 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 ## political systems
 
-### US
+### types
+
+#### monarchy
+
+##### queens
+
+<br>---<br>
+  §§ ((c:5;::Queens)) may be ((c:5;::queens)) ((c:1;::regnant)), ((c:2;::with the power to govern the realm as a king would)). §<br>
+§§ ((c:6;::Queens)) may be ((c:6;::queens)) ((c:3;::consort)), ((c:4;::married to the king but having no formal power)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### place / time
+
+#### US
 
 <br>---<br>
   §§ In American politics, the ((c:1;::Southern strategy)) was a ((c:2;::Republican Party)) electoral strategy to increase political support ((c:3;::among white voters in the South)) by ((c:4;::appealing to racism against African Americans)) starting during (and exploiting the fears created by((c:5;:: the civil rights era of the 1950s and 1960s))), causing the ((s:2;::Republican party)) to end up ((c:6;::far further to the right and in roughly the same position as it has today)). Politicians most associated with this are ((c:7;::Richard Nixon)) and ((c:8;::Barry Goldwater.)) §<br>
@@ -118,7 +154,244 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 # art
 
-## gleaming star
+## textual
+
+### literary theory
+
+#### intent
+
+§§ ((c:1;::Authorial intent)) is ((c:2;::the intent of an author)) ((c:3;::as encoded in their work)) §<br>
+§§ ((c:4;::Authorial intentionalism)) presupposes that ((c:5;::the author has privileged understanding / insight of/into their text)). §<br>
+§§ The ((c:6;::death of the author)) pushes back against the idea of ((c:7;::authorial intentionalism)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+#### hermeneutics
+
+##### hermeneutic circle
+
+((h:all;::<img src="image7.jpg">))<br>---<br>
+  §§ The ((c:1;::hermeneutic circle)), across it's varied definitions, refers to the idea that ((c:2;::understanding)) of ((c:3;::a text/thing)) consists of ((c:9;::moving between)) ((c:4;::two things/states)). §<br>
+§§ In the hermeneutic circle, ((c:5;::moving between the two states)) ((c:6;::deepens or at least changes)) our ((c:10;::understanding)). §<br>
+§§ For the hermeneutic circle, since ((c:11;::our understanding at either step)) is ((c:7;::never exactly the same)) ("((c:7;::No person ever steps in the same river twice))"), it may be more apt to call it a ((c:8;::spiral)). §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::hermeneutic circle))</td> <td>((c:2;::gadamer))</td> <td>((c:3;::what I expect the text to say/something to be))</td> <td>((c:4;::what I read in the text/experience something to be))</td></tr>
+<tr><td>((c:5;::hermeneutic circle))</td> <td>((c:6;::???))</td> <td>((c:7;::what I know))</td> <td>((c:8;::What I read in the text))</td></tr>
+<tr><td>((c:9;::hermeneutic circle))</td> <td>((c:10;::Schleiermacher))</td> <td>((c:11;::part of the text))</td> <td>((c:12;::the whole text))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
+
+#### narrative
+
+##### trope
+
+###### types
+
+####### seinfeld is unfunny
+
+§§ The "((c:1;::Seinfeld is Unfunny))" effect is the effect where something ((c:2;::once revolutionary has now become standard/stale)), generally due to ((c:3;::imitation, often become woven into the genre.)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+### novels
+
+#### molloy pebble scene
+
+§§ The novel ((c:1;::Molloy)) is by ((c:2;::Samuel Beckett)), it features the (moderately) well-known '((c:3;::pebble scene))'. §<br>
+§§ In the pebble scene, the protagonist has ((c:5;::a jacket)) and ((c:5;::a pair of pants)) with ((c:5;::four pockets total)) and ((c:6;::16)) ((c:6;::pebbles)). §<br>
+§§ In the pebble scene, the protagonist wants to ((c:4;::suck all 16 pebbles)) without ((c:7;::repeating one)) §<br>
+§§ In the pebble scene, neither does the protagonist think it is possible ((c:8;::to have 16 pockets)), nor does he want to ((c:9;::have all 16 pebbles in one pocket, due to the imbalance)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+#### genres
+
+##### romance
+
+###### harlequin
+
+((h:all;::<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">))§§ ((c:1;::Harlequin Enterprises)) is a company that ((c:2;::publishes romance novels)), and reached a peak market domination (in NA) of ((c:3;::80-90%)) of sales in ((c:4;::the 1990s)). As of 2002, they publish about a ((c:5;::1k books)) a year. §<br>
+§§ ((c:6;::Harlequin)) sets ((c:7;::precise standards)) for their romance novels, with ((c:8;::restrictive contracts)) with ((c:9;::bad pay)) and ((c:10;::precise page counts)). §<br>
+§§ ((c:11;::Harlequin)) features different ((c:12;::series)) with different ((c:12;::themes)), which also vary things such as ((c:13;::sexual content)). §<br>
+§§ Harlequin series include <cite>((c:14;::Love Inspired))</cite> (((c:15;::Christian romances where faith is featured as prominently as passion))) and <cite>((c:16;::Harlequin Presents))</cite> ("a((c:17;::lpha males, decadent glamour and jet-set lifestyles))") §<br>
+§§ According to Radway (1984), ((c:18;::the harlequin hero)) is s((c:19;::pectacularly masculine, well-built, etc.)) in appearance, ((c:20;::indifferent/bad-tempered)) in personality, but ((c:21;::with a token indication of underlying softness (e.g. love of animals or children))) §<br>
+§§ According to Radway (1984), the ((c:22;::harlequin heroine)) is ((c:23;::young)),  has ((c:24;::extraordinary but unselfconscious beauty)), and is ((c:25;::inexperienced)) in love. §<br>
+§§ Harlequin romances generally feature a ((c:26;::clinch)) cover and have a ((c:27;::happy)) end. §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
+
+###### bodice-ripper
+
+§§ ((c:1;::bodice-ripper)) may refer to a ((c:2;::'historical'/gothic)) ((c:3;::novel)) with ((c:4;::explicit sex)) at ((c:5;::the edge of consentuality)), or be a pejorative for ((c:6;::(sexual) romance novels for women)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+###### clinch cover
+
+((h:all;::<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">))((h:all;::<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">))((h:all;::<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">))§§ Covers that feature ((c:1;::topless guys)) ((c:2;::clutching women)) to ((c:3;::their naked upper body))  are called ((c:4;::clinch covers)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### journalism
+
+#### newswriting
+
+##### structure
+
+§§ The ((c:1;::introductory section/opening paragraph)) is known as ((c:2;::the lede)), especially in ((c:3;::news writing)).  §<br>
+§§ In general, it is said the lede ((c:4;::should contain)) ((c:5;::the most newsworthy/interesting part)), and ((s:gb;::((c:6;::if an article does not have the most newsworthy part in the lede)), it is said to be ((c:7;::burying the lede)))). §<br>
+§§ If we're reporting a house fire, and we mention the location, time and cause of the fire before mentioning the two deaths, what are we probably doing?  ((c:8;::Burying the lede)) §<br>
+§§ Nora Ephron had an assignment to write a <b>opening</b> for a news story about t<b>eachers going to speak</b> in a neighboring city on <b>thursday</b> for the <b>school paper</b>. What (according to her teacher) is the <b>lede</b> for this story?  ((c:8;::There will be no school next thursday.)) §<br>
+§§ A doctor is giving a speech about fad diets and physical fitness to a group of local businesspeople. Midway through his speech, the good doctor collapses of a heart attack. He dies en route to the hospital. What should definitely be  in the lede? ((c:9;::the death (and prob the heartattack))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+### poetry
+
+#### properties
+
+##### metre
+
+###### number of feet
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>
+      Meter
+    </th>
+    <th>
+      Number of feet
+    </th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+   <tr>
+      <td>((c:1;::Trimeter))</td>
+      <td>((c:2;::3))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::Tetrameter))</td>
+      <td>((c:4;::4))</td>
+    </tr>
+    <tr>
+      <td>((c:5;::Pentameter))</td>
+      <td>((c:6;::5))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+###### type of feet
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>
+      Foot
+    </th>
+    <th>
+      Pattern
+    </th>
+    <th>
+      Mnemonic
+    </th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+   <tr>
+      <td>((c:1;::Iamb))</td>
+      <td>((c:2;::daDA))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::Trochee))</td>
+      <td>((c:4;::DAda))</td>
+      <td class="all-hide">
+        <b>Tro</b>chees; <b>tro</b>phies<br>
+<b>Dou</b>ble, <b>dou</b>ble, <b>toil</b> and <b>trou</b>ble;<b>Fi</b>re <b>burn</b> and <b>cauld</b>ron <b>bubb</b>le.
+      </td>
+    </tr>
+    <tr>
+      <td>((c:5;::Anapest))</td>
+      <td>((c:6;::dadaDA))</td>
+      <td class="all-hide">
+        Jeder dritte stirbt durch die pest.<br>
+Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte".
+Ana<b>pest</b><br>
+Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>house</b>
+      </td>
+    </tr>
+    <tr>
+      <td>((c:7;::Dactyl))</td>
+      <td>((c:8;::DAdada))</td>
+      <td class="all-hide"><b>Just</b> for a <b>hand</b>ful of <b>sil</b>ver he <b>left</b> us <br><b>Just</b> for a <b>rib</b>and to <b>stick</b> in his <b>coat</b></td>
+    </tr>
+    <tr>
+      <td>((c:9;::Choriamb))</td>
+      <td>((c:10;::DAdadaDA))</td>
+      <td class="all-hide">
+        A choriamb is an iamb that has been held up a mirror.<br>
+<b>Who</b> hath not <b>seen</b> thee oft amid thy store? <b>Some</b>times who<b>ev</b>er seeks abroad may find
+      </td>
+    </tr>
+    <tr>
+      <td>((c:11;::Molossus))</td>
+      <td>((c:12;::DA DA DA))</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>((c:13;::Amphibrach))</td>
+      <td>((c:14;::da DA da))</td>
+      <td class="all-hide">If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
+"There <b>once</b> was / a <b>girl</b> from / Nan<b>tuc</b>ket."</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+### drama
+
+#### works
+
+##### shakespeare
+
+<br>---<br>
+  §§ ((c:1;::Hamlet)), while ((c:2;::complaining about his moms remarriage)), exclaims "((c:3;::Frailty, thy name is woman.))" §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+### movements
+
+#### literary realism
+
+<br>---<br>
+  §§ ((c:2;::Literary realism)) tries to ((c:1;::represent the subject matter truthfully)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+
+### techniques
+
+#### writer-based prose
+
+§§ {{c1::writer-based prose}}  &lt;-&gt; {{c2::reader-based prose}} §<br>
+§§ To {{c3::write reader-based prose}}, you first need to have {{c1::an idea of your reader and their characteristics}} §<br>
+
+#### freewriting
+
+§§ ((c:2;::Freewriting)) involves ((c:3;::writing without stopping)) for ((c:1;::a preditermined period of time)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+#### stylistic devices
+
+##### semantics
+
+###### litotes
+
+{{c1::litotes}} is {{c2::saying something}} by {{c3::saying what it's not}}.
+Examples of {{c4::litotes}} include {{c5::<q>not bad</q>; <q>no small task</q>; <q>not the nicest person I know</q>}}
+
+## visual
+
+### effects & techiniques
+
+#### gleaming star
 
 ((h:all;::<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif">))
 ((h:all;::<img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg">))((h:all;::<img src="sm_nicegai.jpg">))
@@ -131,6 +404,127 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
+#### film
+
+##### history
+
+###### the kiss
+
+<br>---<br>
+  §§ <cite>((c:1;::The Kiss))</cite>, releaswed in ((c:2;::1896)), was ((c:3;::the first film containing a kiss)), ((c:4;::sparking outrage.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+##### footage
+
+###### A-roll, B-roll
+
+§§ ((c:1;::A-roll)) is ((c:3;::the main footage of the subjects))  §<br>
+  §§ ((c:3;::B-roll)) (sometimes also written ((c:4;::Broll))) is ((c:5;::extra footage)) not ((c:6;::shot with a specific purpose)) and then ((c:7;::cut in as needed in editing)) §<br>
+  §§ ((c:8;::alternate shots of people, the environment, closeups without a specifc purpose, people mentioned but not shown)) are examples of ((c:9;::b-roll)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+##### screenplay
+
+###### title page
+
+§§ In fountain, a ((c:1;::title page)) consists of ((c:2;::key-values pairs)), ((h:gb;::separated internally by ((c:3;:::)).)) §<br>
+§§ In fountain's title page you can have ((c:4;::multiple of the same key)). the value can ((c:5;::stretch over multiple lines)), ((h:gb;::if it does, ((c:6;::lines beyond the first)) should be ((c:7;::preceded by 3 or more spaces, or a tab)). )) §<br>
+§§ In fountain, the ((c:8;::title page)) is optional, but must be ((c:9;::the first thing in the document if it appears)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+###### parantheticals
+
+§§ In screenplays, ((c:1;::parantheticals)) are ((c:2;::the annotations in parentheses)), generally ((c:3;::between)) ((c:4;::a characters name)) and ((c:4;::their dialogue)). §<br>
+§§ ((c:5;::parathenticals)) are ((c:6;::centered)), as are ((c:7;::the character name)), and ((c:8;::the dialogue after.)) §<br>
+§§ In screenplays, ((c:9;::characters names)) are written in ((c:10;::all caps)) when ((c:11;::above dialogue elements)) and when ((c:12;::they first appear)), and ((c:13;::in normal case afterwards)). §<br>
+§§ In fountain, an ((c:14;::all-caps line)) automatically becomes ((c:15;::a charater element)) (((c:16;::a character name before dialogue))) unless ((c:17;::it has a good reason not to)). §<br>
+§§ In fountain, you indicate ((c:18;::a paranthetical)) by ((c:19;::surrounding it in ())). §<br>
+§§ In fountain, anything ((c:20;::after a paranthetical element)) or ((c:21;::after a character element)) ((c:22;::automatically becomes dialogue)). §<br>
+§§ In fountain. ((c:23;::a caret)) ((c:24;::after a character name)) indicates that ((c:25;::this is dialogue simultaneous/dual/parallel)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
+###### action text
+
+((h:all;::<img src="sm_paste-93acbcc29329144602ed62e027beb9100c001b91.jpg">))§§ In screenplays,  ((c:6;::text describing what is happening in a scene)) is called ((c:1;::action (text))). it is normally in ((c:7;::normal case.)) §<br>
+  §§ ((c:2;::Any text that fountain doesn't think is something else)) is ((c:3;::action text)).  §<br>
+  §§ Within ((c:4;::action text)), fountain ((c:5;::preserves your whitespace choices)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+###### scene headings
+
+<br>---<br>
+§§ The ((c:7;::line)) ((c:8;::starting a scene)) is called ((c:9;::a scene heading)). §<br>
+§§ A ((c:10;::scene heading)) is usually in ((c:11;::all caps)). §<br>
+§§ ((c:12;::Scene headings)) tell you ((c:13;::outsideness)), ((c:14;::location)), and ((c:15;::time)). §<br>===<br>
+<div class="cloze-group hide-if-inactive">A ((c:6;::scene heading)) usually looks sth like this:
+  <pre><code data-codetype="text">((c:1;::EXT or INT etc.))((c:3;::.)) ((c:2;::LOCATION)) ((c:4;::-)) ((c:5;::TIME))</code></pre></div>
+<br>---<br>
+§§ In fountain, ((c:16;::scene headings)) are ((c:17;::separated from the rest of the text)) by ((c:18;::blank lines)). §<br>
+§§ In fountain scene headings ((c:19;::must start with)) ((c:20;::EXT/INT etc.)) unless forced §<br>
+§§ In fountain, you can indicate ((c:21;::scene numbers)) by ((c:22;::wrapping them in #foo#)), they are placed at ((c:23;::the end of scene headings)) §<br>===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
+
+###### transitions
+
+((h:all;::<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">))§§ In screenplays, ((c:1;::transitions)) are in  ((c:2;::all caps)) and ((c:3;::right-aligned)). §<br>
+§§ In fountain, a ((c:4;::transition)) must be ((c:5;::separated from other content)) by ((c:6;::blank lines)), and end ((c:7;::TO: (unless forced))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+###### fountain
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Syntactic construct</th>
+      <th>function</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::_foo_))</td><td>((c:2;::underlined))</td></tr>
+    <tr><td>((c:3;::**foo**))</td><td>((c:4;::bold))</td></tr>
+    <tr><td>((c:5;::*foo*))</td><td>((c:6;::italics))</td></tr>
+    <tr><td>((c:7;::&gt; foo &lt;))</td><td>((c:8;::centered))</td></tr>
+        <tr><td>((c:9;::three or more =))</td><td>((c:10;::page break))</td></tr>
+    </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Syntactic construct</th>
+      <th>function</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::@foo))</td><td>((c:12;::force a character element))</td></tr>
+    <tr><td>((c:13;::line starts with ~))</td><td>((c:14;::lyrics))</td></tr>
+    <tr><td>((c:15;::&gt; foo))</td><td>((c:16;::force a transition))</td></tr>
+    <tr><td>((c:17;::.foo))</td><td>((c:18;::force scene heading))</td></tr>
+    <tr><td>((c:19;::!foo))</td><td>((c:20;::force action text))</td></tr>
+    </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Syntactic construct</th>
+      <th>function</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:21;::[[foo]]))</td><td>((c:22;::a note))</td></tr>
+    <tr><td>((c:23;::/*foo*/))</td><td>((c:24;::a comment))</td></tr>
+    </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
+
+####### whitespace
+
+§§ In ((c:3;::fountain)), ((c:1;::indentation)) ((c:2;::has no effect (besides organizing the source code document).))  §<br>
+§§ ((c:4;::Fointain)) (in contrast to ((c:4;::markdown))) preserves your ((c:5;::line breaks.)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 # makeup
 
 ## micellar water
@@ -139,6 +533,117 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
   §§ ((c:1;::Micellar water (mizellenwasser))) is a ((c:2;::makeup remover)) that has ((c:3;::produced good results for me)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+# anthropology
+
+## perspectives
+
+### high modernism
+
+§§<dfn>((c:2;::High Modernism))</dfn>, coined by ((c:1;:: James C. Scott )) ("((c:3;::Seeing Like a State))") is said to be a subperiod of ((c:4;::modernity/modernism)), mainly between((s:gb;:: ((c:5;::the late 1950s)) and ((c:6;::late 1970s)) ))§<br>
+§§((c:7;::High modernism)) is said to have been characterized by ((c:8;::strong confidence)) in ((c:9;::science)) and ((c:9;::technology)), ((s:gb;::to the point of ((c:10;::using science and technology)) to ((c:11;::master))/((c:11;::shape)) ((c:12;::society/humanity)) and ((c:13;::nature)))).§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+## sociocultural anthropology
+
+### social institutions
+
+#### religion
+
+##### totem
+
+§§((c:1;::A totem)) as an objects is a ((c:2;::thing)), ((c:3;::being)), or ((c:4;::symbol)) that ((c:5;::serves as an emblem of a group of people.))§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+### social relationships
+
+#### employment
+
+##### boreout
+
+§§((c:1;::Boreout)) is a term (coined in ((c:2;::2007))) for the symptoms similar to ((c:3;::burnout)) that are caused by ((c:4;::lack of challenge)), ((c:4;::pointless work)), and ((c:4;::disinterest in work))§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+#### ethnicity
+
+##### endo/exonyms
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;s:2;::endonym))</td> <td>((c:2;s:1;::autonym))</td> <td>((c:3;::name used by a group named by the name))</td> <td>((c:4;::Deutsche, 日本人 (not: Germans, Japanese)))</td></tr>
+<tr><td>((c:5;s:6;::exonym))</td> <td>((c:6;s:5;::xenonym))</td> <td>((c:7;::name used by foreginers, not people belonging to the group named))</td> <td>((c:8;::Germans instead of Deutsche, Japanese instead of 日本人))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+
+#### kinship
+
+§§Most often, ((c:4;::kinship)) is said to be established by ((c:1;::descent/'blood')), ((c:2;::marriage)), or ((c:3;::socialization (most often adoption))).§<br>
+§§However, there is ((c:5;::strong variation in)) the definition of ((c:6;::kinship)), and ((c:7;::how exactly you define it depends on your anthropological theory)).§<br>
+§§The ((c:8;::terminology we use to describe)) ((c:9;::kinship relationships)) is known as ((c:10;::kinship term(inology)))§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+##### marriage
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Endogamy))</td>
+      <td>((c:2;::The social norm/custom of)) ((c:3;::marrying within one's social group (whatever we define this as)))</td>
+    </tr>
+    <tr>
+      <td>((c:4;::Exogamy))</td>
+      <td>((c:5;::The social norm/custom of)) ((c:6;::marrying outside of one's social group (whatever we define this as)))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+§§Terms such as ((c:12;::matri/uxori/patri/viri/neolocal)) describe where ((c:13;::a newly married couple)) resides.§<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Name (using marriage-related terms)</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;s:2;::Matrilocal))</td>
+      <td>((c:2;s:1;::Uxorilocal))</td>
+      <td>Newly married couple ((c:3;::resides with or near))((c:4;::the wifes parents))</td>
+    </tr>
+        <tr>
+      <td>((c:5;s:6;::Patrilocal))</td>
+      <td>((c:6;s:5;::Virilocal))</td>
+      <td>Newly married couple ((c:7;::resides with or near))((c:8;::the wifes parents))</td>
+    </tr>
+           <tr>
+      <td>((c:9;::Neolocal))</td>
+      <td></td>
+      <td>Newly married couple ((c:10;::resides apart from))((c:11;::either family))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+### approaches
+
+#### structural anthropology
+
+##### the savage mind
+
+§§((c:2;::the savage mind)) is a book by ((c:3;::CLS)) published in ((c:1;::the early 1960s (1962))) ( after <cite>((c:4;::The Structural Study of Myth))</cite>)§<br>
+§§In ((c:5;::the beginning of the savage mind)),  CLS details ((c:6;::the richness of vocabularies/category systems (in areas of concern)))((c:6;::of indigenous cultures)), both for ((c:7;::the things they need to survive)), ((s:gb;::but then also for ((c:8;::things they don't need to survive)), ((s:gb;::according to CLS they have these categories ((c:9;::for intellectual reasons))))))§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 # geo
 
@@ -506,6 +1011,39 @@ Disasters<br/><br>---<br>
 §§ ((c:6;::Historism)) and ((c:6;::historicism)) may refer to ((c:7;::historical relativism)), ((c:7;::historical determinism)), an idea where ((c:8;::history should be priviledged as a cause)) for ((c:9;::society)), ((c:9;::culture)), or t((c:10;::he explanation of phenomena)). Thus ((c:11;::these terms are confused to the point of unusability.)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
+## history of ...
+
+### disease and medicine 
+
+#### miasma and germ theory
+
+§§ The theory that ((c:2;::bad air)) ((c:3;::causes illness)) is called ((c:1;::Miasma theory)) §<br>
+§§ The ((c:4;::miasma theory)) was popular until ((c:5;::the 1880s)), when it was superceded by ((c:6;::germ theory)). §<br>
+§§ ((c:7;::The air thought to cause diseases under the miasma theory)) was called ((c:8;::night air)) §<br>
+§§ The ((c:9;::miasma theory)) remains visible in the name of the illness ((c:10;::malaria)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+### slavery
+
+#### soujorner truth
+
+<br>---<br>
+  §§ ((c:31;::Soujorner Truth)) was a ((c:32;::former slave)) who became an ((c:33;::abolitionist)) and ((c:33;::women's right activist)) esp. ((c:34;::from the 1840s onwards::time)) §<br>
+§§ "((c:30;::Ain't I a Woman))" mainly reflects on the theme of ((c:35;::her being equal to men in any concievable way)), especially as regards ((c:36;::physical endowments)) and ((c:37;::the position in women in scripture)) (perhaps even ((c:38;::more than equal))) §<br>
+===<br>
+
+<br>---<br>
+  §§ The original version of "((c:1;::Ain't I a Woman))" was published a ((c:2;::few weeks)) after the speech and is probably ((c:3;::relatively close to the original)), amongst other things because it doesn't suffer from ((c:4;::imputing a southern accent to soujourner truth)), but was published in ((c:5;::an anti-slavery magazine)) and thus ((c:6;::had its own audience to consider)) §<br>
+§§ The more commonly known version of Soujourner Truths speech "((c:7;::Ain't I a woman))" was probably ((c:8;::significantly changed)) by ((c:9;::an abolition activist)) ((c:10;::12 years)) later. It ((c:11;::kept most of the substance)), but ((c:12;::invented)) ((c:13;::hostility from the audience:: attitude)), and ((c:14;::embellished)) ((c:15;::some details)) §<br>
+§§ the most common version of the famous speech "((c:16;::Ain't I a woman))" has the problem that ((c:17;::Soujourner Truth)) would not have ((c:18;::spoken in a southern dialect (having grown up in new york as a native dutch speaker))), that the ((c:19;::original transcript did not include the phrase "Ain't I a woman",)) and that ((c:20;::the speech was originally not titled at all)) §<br>
+  <br>---<br>
+
+===<br>
+ The most famous passage of the probably false rendition of "((c:21;::Ain't I a woman))":  
+§§ ((c:22;::That man over there)) ((c:23;::says that women need to be)) ((c:24;::helped into carriages)), ((c:25;::and lifted over ditches)), ((c:26;::and to have the best place everywhere)). ((c:27;::Nobody ever)) ((c:28;::helps me into carriages)), ((c:29;::or over mud-puddles)), or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?&nbsp; §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}</span>
+
 ### scales
 
 #### microhistory
@@ -572,9 +1110,13 @@ Disasters<br/><br>---<br>
 §§ The ((c:5;::panopticon)) was designed by ((c:6;::Jeremy Bentham)), and used as a metaphor most famously by ((c:7;::Foucault)). §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
-# feminism
+# gender studies
 
-## history & evolution
+## feminism
+
+### history & evolution
+
+#### waves
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -591,6 +1133,108 @@ Disasters<br/><br>---<br>
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+#### narration
+
+<br>---<br>
+  §§ ((c:1;::Protofeminism)) is a term for ((c:2;::activity or thought)) that is ((c:3;::seen to be similar to feminism)), but ((c:4;::before arrival of the movement itself)), i.e. ((c:5;::before the 20th century)), or sometimes ((c:5;::before the 18th century)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<br>---<br>
+  §§ ((c:1;::The Second Sex)) is often regarded as ((c:2;::the starting point/prefiguring)) of ((c:3;::second-wave feminism)) §<br>
+§§ From "((c:4;::The Second Sex))" by ((c:5;::Simone de Beavoir)), the famous statement "((c:6;::One is not born, but rather becomes, a woman))" is oftain said to prefigure the ((c:7;::Sex/Gender distinction)) (it's however not a perfect fit). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+<br>---<br>
+  §§ The ((c:1;::National Organization for Women)) (((c:1;::NOW))) was founded  in ((c:2;::1966)) and led by ((c:3;::Betty Friedan)) §<br>
+  §§ The ((c:1;::Feminine Mystique)) is a book by ((c:2;::Betty Friedan)) that is widely credited with ((c:3;::sparking the beginning of second-wave feminism)) in the United States. §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+<br>---<br>
+  §§ ((c:1;::Adrienne Rich)) was a influential ((c:2;::lesbian)) ((c:2;::feminist)) who wrote the ((c:4;::1980)) essay "((c:3;::Compulsory Heterosexuality and Lesbian Existence))", whence ((c:5;::the relevant concept)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+### branches
+
+#### ecofeminism
+
+<br>---<br>
+§§ ((c:1;::Ecofeminism)) is a branch of ((c:2;::feminism)) that sees ((c:3;::environmentalism)) as ((c:4;::integral to)) ((c:2;::feminism)) and the relationship between ((c:5;::gender)) and ((c:5;::the environment)) as somehow foundational. §<br>
+§§ ((c:7;::Ecofeminism)) is most often criticised for ((c:6;::using essential ideas of sex and gender)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+### feminism and social class
+
+#### double burden/second shoft
+
+<br>---<br>
+  §§ ((c:1;::The workload of people who work to earn money, but also have to spend time and effort on household work)) is known as ((c:2;::The double burden)) or ((c:3;::The second shift)) §<br>
+§§ The group most subject to ((c:4;::the double burden/The second shift)) is ((c:5;::women)) §<br>
+§§ ((c:6;::The campaign for payment for caring work/housework)) is ((c:7;::Wages for housework)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+## gender in language
+
+### german
+
+#### generic masculine
+
+<br>---<br>
+  §§ ((c:4;::Alle Schüler sind angehalten, ihre Hausaufgaben zu machen)) is an example of ((c:1;::Generic masculine)) §<br>
+§§ ((c:3;::the generic masculine)) is the use ((c:5;::of a masculine form)) as ((c:6;::a purportedly gender-neutral form)) of a word. §<br>
+§§ There is evidence that ((c:7;::using a generic masculine)) we are ((c:8;::less likely to see women as part of that term)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+#### gendering
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Instance</th>
+    <th>Name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:2;::MitarbeiterInnen))</td><td>((c:1;::Binnen-I))</td> </tr>
+<tr><td>((c:3;::Lehrer*innen))</td> <td>((c:4;::Genderstern(chen)))</td></tr>
+<tr><td>((c:5;::Lehrer_innen))</td> <td>((c:6;::Gender-gap))</td></tr>
+<tr><td>((c:7;::Liebe Mitarbeiterinnen und Mitarbeiter))</td> <td>((c:8;::Beidnennung / Doppelnennung))</td></tr>
+<tr><td>((c:9;::Mitarbeiter(innen)))</td> <td>((c:10;::(mit) Klammer))</td></tr>
+<tr><td>((c:11;::Mitarbeiter/innen))</td> <td>((c:12;::(mit) Schrägstrich))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ ((c:13;::gender-sternchen)) and the ((c:13;::gender-gap)) are mostly read ((c:14;::with a glottal stop)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+## trans
+
+### confusion
+
+<br>---<br>
+  §§ ((c:2;::Transgender OCD)) consists of obsessive thoughts of the kind ((c:1;::"What if I'm actually trans?" "What if I'm actually living a lie?")) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+### identities
+
+#### travesti
+
+<br>---<br>
+  §§ The term ((c:1;::travesti)) is used in ((c:2;::Latin American)) countries—especially ((c:3;::South American))—to designate people who were ((c:4;::assigned male at birth)), but develop a gender identity according to different expressions of ((c:4;::femininity)), §<br>
+§§ ((c:24;::Travesti)) ((c:25;::expression of femininity)) may be ((c:5;::limited to cross-dressing)), or ((c:5;::going whole hog with female names, cosmetic practises, hormone replacement therapy etc.)) §<br>
+§§ ((c:26;::Travesti)) may ((c:6;::identify)) as ((c:7;::men or women)), more often they ((c:6;::identify)) as ((c:7;::a third gender)) or otherwise ((c:8;::define their gender identity differently)). §<br>
+§§ ((c:27;::Travesti)) generally face ((c:28;::extreme marginalization)): Generally suffering ((c:9;::childhood sexual abuse)), ((c:10;::disowned from their families)) and ((c:11;::removed from the education system)), with ((c:12;::lack of access)) to ((c:12;::housing)) and ((c:12;::work)), they live in ((c:13;::deficient housing)) (((c:14;::50))%) and often work ((c:13;::as sex workers)) (((c:14;::70))%), often ((c:15;::contracting HIV/AIDS)). §<br>
+§§ ((c:29;::Travesti)) suffer from ((c:16;::extremely high rates)) of ((c:16;::hate crimes)) and ((c:16;::murder)) as well as ((c:17;::arbitrary detention)) up to ((c:17;::torture)), and have a life expectancy of ((c:18;::30 - 35)) years. §<br>
+§§ ((c:21;::Often)), travesti ((c:19;::use this term for themselves)) to ((c:20;::highlight their marginalization as well as their gender identity)), nevertheless, the term is ((c:21;::sometimes)) used ((c:22;::as a translation of english terms such as transgender/trans/etc)), in these cases, it is often a ((c:23;::slur)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span>
 
 # archives
 
@@ -1104,6 +1748,18 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 §§((c:7;::People engaged in a queerplatonic relationships)) are called ((c:8;::zucchinis)), the term was chosen ((c:9;::arbitrarily)). ( ((s:all;::"Are you guys dating!?" "No, we're zucchinis.")) )§<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
+## monogamy and non-monogamy
+
+### the relationship escalator
+
+<br>---<br>
+  §§ The ((c:1;::relationship escalator)) consists of ((c:2;::a set of steps)) in ((c:3;::a relationship)) that are claimed to constitute ((c:4;::progress)). §<br>
+§§ As of 2021, mainstream society sees ((c:5;::the relationship escalator)) as ((c:6;::the essence of)) ((c:7;::a romantic relationship)). §<br>
+§§ "((c:8;::Is this relationship going anywhere?))" presupposes the idea of ((c:9;::the relationship escalator)) §<br>
+§§ ((c:10;::Getting to know each other -&gt; dating -&gt; becoming a couple 'officially' -&gt; committing  &amp; future planning -&gt; merging lives -&gt; getting married -&gt; house, children etc.)) might be roughly the steps the west sees the ((c:11;::relationship escalator)) consisting of §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 # queer theory
 
 ## abbreviations
@@ -1179,7 +1835,13 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 
 # isms
 
-## normativity
+## structural system
+
+### + 
+
+#### normativity
+
+x normativity normalizes the + of the relevant ism
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -1216,6 +1878,38 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+### -
+
+#### pick me
+
+A pick me x (girl/gay/whatever) is a - person who tries to distinguish themselves from other - people by separating themselves from traits associated with - by treating those traits negatively, in order to gain approval from + people.
+By treating traits associated with - negatively, pick me x's strengthen the association of - with negative status.
+
+#### ceiling
+
+the x ceiling is the unofficial limit on career advancement that people with a certain - identity face.
+heterosexism|lavender ceiling
+sexism|glass ceiling
+
+##### cliff
+
+<br>---<br>
+  §§ the ((c:1;::x cliff)) is the idea that even if ((c:2;::people with a - identity))) ((s:4;s:5;::((c:3;::break through the glass ceiling)))), they are often given ((c:4;::executive positions)) during ((c:5;::periods of crisis/downturn)), where ((s:5;:: ((c:6;::the risk of failure is highest)), e.g. ((s:6;c:7;::Ellen Pao at reddit, Thresa May after brexit.)))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+## more than one identity
+
+### intersectionality
+
+<br>---<br>
+  §§ ((c:1;::intersectionality)) considers ((c:2;::social identities)) and concomittant ((c:3;::oppression/domination)) and ((c:3;::privilege)) in ((c:4;::combination)), rather than ((c:5;::considering each factor in isolation)). §<br>
+§§ ((c:16;::Intersectionality)) was coined by ((c:6;::Crenshaw)) in ((c:7;::1989)) and started ((c:8;::being popular as a framework)) in ((c:9;::the early 2000s)) §<br>
+§§ In 1989, Kimberlé Crenshaw coined the term "((c:10;::intersectionality))" in a paper as a way to help explain the ((c:11;::oppression of African-American women)). She argues the experience of being a ((c:12;::black woman)) ((c:13;::cannot be understood)) in terms ((c:14;::independent of either being black or a woman)). Rather, it must include ((c:15;::interactions between the two identities)), which, she adds, frequently reinforce one another. §<br>
+§§ ((c:17;::Tripple oppression)) is a term developed originally by ((c:18;::black socialists in the US)), which refers to (in our modern terminolgy) ((c:19;::the intersectional experience)) of ((c:20;::black women)) at the nexus of ((c:20;::classism, racism, and sexism)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 # theatre
 
