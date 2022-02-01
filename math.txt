@@ -981,7 +981,7 @@ B|byte
   </tbody>
 </table>
 
-##### non-base units
+##### by unit
 
 
 
@@ -1003,6 +1003,51 @@ B|byte
 ###### length
 
 The ((c:1;::quart)) (((c:3;s:1;::q))) is exactly ((c:2;::1/4 mm)). 
+
+###### temperature
+
+((c:1;::Kelvin)) (unit symbol ((c:2;::K)))
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Temperature (K)</th>
+    <th>Significance</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">    
+    <tr>
+      <td>
+        ((c:3;::0))
+      </td><td>
+        ((c:4;::Absolute zero))
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+<h2>
+   ((c:1;::Celsius)):
+</h2>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Temperature (°C)</th>
+    <th>Significance</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:2;::0))</td>
+      <td>((c:3;::water freezes (at 1 atm pressure)))</td>
+    </tr>
+    <tr>
+      <td>((c:4;::100))</td>
+      <td>((c:5;::water boils (at 1 atm pressure)))</td>
+    </tr>
+    <tr>
+      <td>((c:6;::-273.15))</td>
+      <td>((c:7;::absolute zero))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ### non-metric
 

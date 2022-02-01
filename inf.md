@@ -2702,7 +2702,9 @@ The CSSStyleDeclaration interface is an object that represents a CSS declaration
 
 ### related technologies
 
-#### system UI themes
+#### features
+
+##### system UI themes
 
 the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted spec for {{c3::a style object}} that stores things for {{c4::design systems}}, especially {{c5::scales}}
 at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} - 
@@ -2815,14 +2817,161 @@ colors: {
   </tbody>
 </table>
 
+##### nested rules
+
+<br>---<br>
+§§ In SCSS/Sass and other CSS preprocessors, to achieve ((c:2;::nested selectors)), you can ((c:3;::nest entire rules)). §<br>
+===<br>
+<br>---<br>
+<pre><code>nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}</code></pre>
+===<br>
+
+<br>---<br>
+  §§ In ((c:4;::nested rules))'s selectors, ((c:5;::&amp;)) refers to ((c:6;::the parent selector)). §<br>
+§§ In nested rules's selectors, ((c:7;::&amp;)) is useful if ((c:8;::you want to combine selectors in complex ways)) §<br>
+§§ In ((c:9;::nested rules))'s selectors, ((c:10;::@at-root)) ((c:11;::goes back up to the nesting tree.)) §<br>
+===<br>
+
+<br>---<br>
+<pre><code>.parent {
+  .child {
+    ((c:1;::&amp; div &amp; &amp; &gt; a)) {}
+  }
+}</code></pre>
+compiles to <code>((c:12;::.parent .child div .parent .child .parent .child &gt; a {))}</code>
+===<br>
+
+<br>---<br>
+<pre><code>.grand-parent {
+  .parent {
+    @at-root .child {}
+  }
+}</code></pre>
+compiles to <code>((c:13;::.child {}))</code>
+===<br>
+
+<br>---<br>
+<pre><code>.button {
+  &amp;:visited { }
+  &amp;:hover { }
+  &amp;:active { }
+}</code></pre> compiles to <code>((c:14;::.button:visited { } .button:hover { } .button:active { } ))</code>
+===<br>
+
+<br>---<br>
+<pre><code>.btn {
+  &amp;-primary {}
+  &amp;-secondary {}
+}</code></pre> compiles to <code>((c:15;::.btn-primary {} .btn-secondary {} ))</code>
+===<br>
+
 #### CSS processing
 
 a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
-{{c3::Sass}} is a {{c4::CSS preprocessor}} that works with the two syntaxes {{c1::Sass (the syntax)}} and {{c2::SCSS}}
-Sass syntax that is indented rather than curly-braced   Sass
-Sass syntax that is a CSS superset   SCSS (Sassy CSS)
+
+##### PostCSS
+
 PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by JS plugins.
 Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
+
+##### SCSS/Sass
+
+{{c3::Sass}} is a {{c4::CSS preprocessor}} that works with the two syntaxes {{c1::Sass (the syntax)}} and {{c2::SCSS}}
+§§ ((c:3;::SCSS/Sass))'s ((c:4;::scripting language)) which ((c:4;::is its syntax superset)) is called ((c:5;::SassScript)). §<br>
+Sass syntax that is indented rather than curly-braced   Sass
+Sass syntax that is a CSS superset   SCSS (Sassy CSS)
+
+§§ While ((c:1;::CSS)) will ((c:3;::recover)) if ((c:4;::an error is found)), ((c:2;::SCSS)) will ((c:3;::throw an error and refuse to compile)) §<br>
+
+###### @extend and placeholder classes
+
+<br>---<br>
+  §§ <code>((c:1;::@extend))</code> is the keyword ((c:2;::for inheriting styles of other selectors)). §<br>
+§§ In common language ((c:3;::<code>@extend foo</code>)) is saying ((c:4;::you want something to have the same declarations as foo)). §<br>
+§§ Internally, ((c:5;::<code>@extend</code>))&nbsp;works ((c:6;::on selectors (instead of copying declarations))) §<br>
+§§ A SCSS/Sass ((c:7;::placeholder selector)) has the syntax ((c:8;::<code>%foo</code>)). §<br>
+§§ You put SCSS/Sass ((c:9;::placeholder selector)) where ((c:10;::selectors)) would go. §<br>
+§§ An SCSS/sass ((c:11;::placeholder selector)) itself is a ((c:12;::selector)) that ((c:13;::doesn't select anything)). §<br>
+§§ An SCSS/sass ((c:14;::placeholder selector)) is designed to be ((c:15;::<code>@extend</code>ed)). §<br>
+===<br>
+<br>---<br>
+<pre><code>%toolbelt {
+  box-sizing: border-box;
+  border-top: 1px rgba(#000, .12) solid;
+  padding: 16px 0;
+  width: 100%;
+
+  &amp;:hover { border: 2px rgba(#000, .5) solid; }
+}
+
+.action-buttons {
+  @extend %toolbelt;
+  color: #4285f4;
+}
+
+.reset-buttons {
+  @extend %toolbelt;
+  color: #cddc39;
+}</code></pre>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
+###### mixins
+
+<br>---<br>
+  §§ ((c:1;::@mixin)) at its most simple defines ((c:2;::a set of styles that can be reused)). §<br>
+§§ ((c:3;::@include)) ((c:4;::copies the styles)) defined by ((c:5;::@mixin)) ((c:6;::into the current block)). §<br>
+§§ ((c:7;::@mixin)) can take ((c:8;::arguments)), both ((c:9;::sassscript)) and ((c:10;::a block of css)). §<br>
+§§ ((c:11;::@mixins)) and ((c:11;::@include)) have ((c:12;::functionally the same syntax)) as ((c:13;::declaring)) and ((c:13;::calling a function)) in other languages §<br>
+± though using the @mixin and @include keywords, as SCSS/Sass also has @function ±<br>
+§§ ((c:14;::@content)) refers to ((c:15;::a passed-in css block)) in @((c:16;::mixin)). §<br>
+===<br>
+
+<br>---<br>
+<pre><code>@mixin button() {
+    ...
+    @content;
+}
+
+.alert {
+    @include button {
+        color: #F00;
+    }
+}</code></pre>
+===<br>
+<br>---<br>
+<pre><code>@mixin replace-text($image, $x: 50%, $y: 50%) {
+  text-indent: -99999em;
+  overflow: hidden;
+  text-align: left;
+
+  background: {
+    image: $image;
+    repeat: no-repeat;
+    position: $x $y;
+  }
+}
+
+.mail-icon {
+  @include replace-text(url("/images/mail.svg"), 0);
+}</code></pre>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 #### CSS naming schemes
 
@@ -2855,6 +3004,28 @@ next to its own technologies, bootstrap may require popper
 {{c3::Chakra}} provides a sensible {{c2::default}} theme inspired by {{c1::Tailwind CSS}}
 
 ###### components
+
+##### tailwind
+
+<br>---<br>
+  §§ ((c:3;::Tailwind CSS))'s main idea is ((c:1;::using preexisting CSS classes)) for styling, instead of ((c:2;::switching to CSS)) §<br>
+§§ ((c:6;::Tailwind config)) is done in the ((c:4;::tailwind.config.js)) file, which works similarly to ((c:5;::the webpack config file)) §<br>
+===<br>
+<br>---<br>
+<h2>
+  Using ((c:7;::Tailwind CSS)), code might look like this:
+</h2>
+((c:8;h:8;::<pre><code data-codetype="html">&lt;div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"&gt;
+  &lt;div class="flex-shrink-0"&gt;
+    &lt;img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;div class="text-xl font-medium text-black"&gt;ChitChat&lt;/div&gt;
+    &lt;p class="text-gray-500"&gt;You have a new message!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>))
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 # data
 
@@ -3293,6 +3464,117 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
+####### form navigation
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<kbd>tab</kbd>))</td> <td>((c:2;::field forward))</td></tr>
+<tr><td>((c:3;::<kbd class="modifier shift"></kbd> <kbd>tab</kbd>))</td> <td>((c:4;::field back))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+####### weird mac
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Get info on item))</td><td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>i</kbd> ))</td></tr>
+    <tr><td>((c:3;::Preferences))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>,</kbd>))</td></tr>
+    <tr><td>((c:5;::Switch focus between windows of the same program))</td><td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd>`</kbd> ))</td></tr>
+    <tr><td>((c:8;::Show hidden files))</td><td>((c:7;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>.</kbd> ))</td></tr>
+    <tr><td>((c:9;::rename current item))</td> <td>((c:10;::{{c2::<kbd>enter</kbd>}))</td></tr>
+    <tr><td>((c:11;::Minimize))</td> <td>((c:12;::<kbd class="modifier cmd"></kbd> <kbd>m</kbd>))</td></tr>
+<tr><td>((c:13;::Fullscreen))</td> <td>((c:14;::<kbd class="key modifier cmd"></kbd> <kbd class="key modifier ctrl"></kbd><kbd>f</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<kbd class="modifier alt"></kbd> <kbd>space</kbd>))</td> <td>((c:2;::non-breaking space (on keyboard)))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::del key))</td> <td>((c:2;::<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+<br><table>
+  <thead>
+    <tr>
+      <th colspan="2">macOs Dialogs</th>
+    </tr>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::cancel))</td><td>((c:2;::<kbd>esc</kbd>))</td></tr>
+  <tr><td>((c:3;::don't save))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Magnifying glass</th>
+    </tr>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::toggle))</td><td>((c:2;::<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd><kbd>8</kbd>))</td></tr>
+<tr><td>((c:3;::zoom out))</td><td>((c:4;::<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>-</kbd>))</td></tr>
+<tr><td>((c:5;::zoom in))</td><td>((c:6;::<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>0</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+####### file-related
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Export))</td> <td>((c:2;::<kbd class="modifier shift"></kbd><kbd class="modifier cmd"></kbd> <kbd>E</kbd>))</td></tr>
+<tr><td>((c:3;::Import))</td> <td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>i</kbd>))</td></tr>
+<tr><td>((c:5;::Save as))</td> <td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>s</kbd>))</td></tr>
+<tr><td>((c:7;::Save))</td> <td>((c:8;::<kbd class="modifier cmd"></kbd> <kbd>s</kbd>))</td></tr>
+<tr><td>((c:9;::New thingy))</td> <td>((c:10;::<kbd class="modifier cmd"></kbd> <div class="key" style="grid-area: 2/5">n</div>))</td></tr>
+<tr><td>((c:11;::New alternative thing (window, folder, etc.)))</td> <td>((c:12;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>n</kbd>))</td></tr>
+<tr><td>((c:13;::Open))</td> <td>((c:14;::<kbd class="modifier cmd"></kbd> <kbd>o</kbd>))</td></tr>
+<tr><td>((c:15;::Duplicate current item))</td> <td>((c:16;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>))</td></tr>
+<tr><td>((c:17;::Print))</td> <td>((c:18;::<kbd class="modifier cmd"></kbd> <kbd>p</kbd> <br><div class="sub"></div>))</td></tr>
+<tr><td>((c:19;::delete thingy (if file, move to bin)))</td> <td>((c:20;::<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
 ####### view
 
 <table class="cloze-group hide-if-inactive">
@@ -3413,6 +3695,8 @@ tts = text to speech
 Text to speech AKA Speech synthesis
 Speech to text AKA Speech recognition
 
+TTS
+
 say|mac
 espeak|nix
 
@@ -3459,6 +3743,11 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 
 #### theming
 
+((h:all;::<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">))
+<br>---<br>
+§§ A ((c:1;s:2;::theme)) or ((c:2;s:1;::skin)) (some people differentiate, but the differences don't seem consistent) is ((c:3;::a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI)). ((h:gb;::It may also refer to ((c:4;::the set of files that define a theme/skin.)))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 lxappearace is a gtk theme switcher
 
 #### widgeting toolkits
@@ -3587,6 +3876,14 @@ A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
 In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
+##### sidebars
+
+<div class="flex-container">((h:all;::<img src="440eb7ec02550be3045c969dc02dc7f2.png">))((h:all;::<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">))((h:all;::<img src="ditch-sidebar-2016-2-fox.jpg">))((h:all;::<img src="ditch-sidebar-2016-4-washington.jpg">))((h:all;::<img src="sidebars.png">))</div>
+<br>---<br>
+§§ A ((c:1;::sidebar)) is an UI element that is displayed ((c:2;::to the side of)) ((c:3;::the main content)) or ((c:4;::of the screen)). ((h:gb;::Sidebars may be ((c:5;::navigation bars)), contain ((c:6;::tools)) or contain ((c:7;::further content)). ((h:gb;::Sidebars are generally ((c:8;::reasonably wide (i.e. not just icons).)))))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 ##### disclosure widgets
 
 A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
@@ -3627,6 +3924,12 @@ The dialog element has a boolean attribute open representing whether the dialog 
 ((h:all;::<img src="1-final-listbox-matrix">))((h:all;::<img src="List_example.PNG">))((h:all;::<img src="ctrl-list-boxes-image1.png">))
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
+##### corners
+
+###### hot corners
+
+§§ ((c:1;::hot corners)) are a feature of ((c:2;::mac)) and some ((c:3;::DEs on linux)) where ((c:4;::moving your mouse into a corner)) will ((c:5;::perform a certain action)) §<br>
+
 ##### dropdown list/menu
 
 ((h:all;::<img src="1y2NriILZC8ujowKW4TWb2Q.png">))((h:all;::<img src="dropdown-example.jpg">))((h:all;::<img src="3-final-sidebyside-dropdowns">))
@@ -3635,7 +3938,19 @@ A dropwdown is a UI element that consists of {{c3::a box}} and {{c3::a downward 
 
 ##### buttons
 
+###### app shortcuts
+
 App shortcuts is the webdev name for the set of actions that are shown e.g. when you long press on a launcher icon on android
+
+###### FAB
+
+<div class="flex-container">((h:a;::<img src="sm_fab.jpg">))((h:a;::<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">))</div>
+<br>---<br>
+  §§ A ((c:1;::FAB)) (((c:2;::floating action button))) is ((c:3;::a button)) that ((c:4;::is always visible)) and contains ((c:5;::the primary action for the application/view)). §<br>
+§§ A ((c:6;::FAB)) is typically located ((c:7;::in the bottom right)), is fairly ((c:8;::large)) and ((c:9;::round)). §<br>
+§§ A ((c:10;::FAB)) may ((c:11;::contain more actions)) when ((c:12;::pressed)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### icons
 
@@ -4206,6 +4521,27 @@ GPT  GUID Partition Table
 GUID in GUID Partition Table  globally unique identifier
 
 gparted and gnome-disks are GUIs for partition/disk management
+
+mac
+
+<br>---<br>
+  §§ On mac, ((c:7;::drutil)) is the ((c:8;::CLI)) utility for ((c:9;::interacting with burnable media)). §<br>
+§§ On mac, ((c:10;::diskutil)) is the ((c:11;::CLI)) utility for ((c:12;::interacting with harddrives.)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Verb</th>
+    <th>Function</th>
+    <th>Which of drutil/diskutil?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::list))</td> <td>((c:2;::list attached devices))</td> <td>((c:3;::drutil, diskutil))</td></tr>
+<tr><td>((c:4;::eject))</td> <td>((c:5;::ejecting a device))</td> <td>((c:6;::drutil, diskutil))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
 
 ### file system
 
@@ -6098,6 +6434,14 @@ To use libnotify, you need to also install a notification server/daemon.
 dunst is a minimal notification server/daemon.
 to send notifications on linux, you can use the CLI notify-send.
 
+#### fonts
+
+<br>---<br>
+  §§ ((c:1;::FontBook)) is the ((c:2;::mac)) GUI for ((c:3;::font handling)). §<br>
+§§ For ((c:4;::manual font installation)) on mac, you can ((c:5;::copy them)) to ((c:6;::/Library/Fonts)) or ((c:6;::~/Library/Fonts)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
 ### kernelland
 
 ### installation
@@ -6125,6 +6469,8 @@ Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 Docker is the most common service for os-level virtualiztion/containerization.
+
+## mac
 
 ## windows
 
@@ -6375,6 +6721,24 @@ if no utility is specified with -u, caffeinate creates the assertions directly, 
 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
+<br>---<br>
+  §§ <code>((c:11;::open))</code> ((c:12;::opens)) ((c:13;::files/folders)) and ((c:14;::urls)) with ((c:15;::the default application (or one you specify))) §<br>
+  §§ ((c:16;::xdg-open)) is then X equivalent of ((c:17;::macOs <code>open</code>)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2"><code>open</code></th></tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::-R))</td> <td>((c:2;::reveals the file in finder))</td></tr>
+<tr><td>((c:3;::-a someapplication))</td> <td>((c:4;::Specify the application to open with))</td></tr>
+<tr><td>((c:5;::-e))</td> <td>((c:6;::open the file with textedit))</td></tr>
+<tr><td>((c:7;::-f))</td> <td>((c:8;::reads from stdin))</td></tr>
+<tr><td>((c:9;::-t))</td> <td>((c:10;::open the file with your default text editor))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
 #### misc
 
@@ -7121,13 +7485,15 @@ for declare options, using + instead of - turns off the attribute instead (yes, 
 The typeset command is supplied for compatibility with the Korn shell. It is a synonym for the declare builtin command.
 the type command indicates what it would be interpeted as if used as a command name (e.g. is a shell builtin, is a function, etc.).
 
-#### command conventions
+#### conventions
+
+##### commands
 
 most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
 
 The unix philosophy says each program should do one thing well and be designed to work together with other programs, most commonly by accepting text as IO.
 
-##### common syntax considerations
+###### common syntax considerations
 
 -o PATH|generally short for/equiv to --out or --output
 -O|output to current directory with same name. (curl, wget)
@@ -7185,6 +7551,15 @@ The standard sections of the manual include:
 6      Games et. Al.
 7      Miscellanea
 8      System Administration tools and Deamons
+
+##### pagers
+
+<br>---<br>
+  §§ a ((c:1;::pager)) is ((c:2;::a terminal program)) that ((c:3;::paginates)) its input. §<br>
+§§ the ((c:5;::default pager)) for the terminal is set in the env variable ((c:4;::PAGER)). §<br>
+§§ <code>((c:6;::less))</code> is the most common ((c:7;::pager)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ### users and groups
 
@@ -7288,6 +7663,15 @@ simplex|one direction only
 duplex|bidirectional
 half duplex|bidirectional, but only one at a time
 full duplex|bidirectional, both simultaneously
+
+### fresh and stale
+
+<br>---<br>
+  §§ In technical contexts, ((c:1;::fresh)) and ((c:2;::stale)) are often contrasted. §<br>
+§§ In technical contexts, something ((c:3;::fresh)) is ((c:4;::still relevant/valid/useful)). §<br>
+§§ In technical contexts, something ((c:5;::stale)) is ((c:6;::no longer relevant/valid/useful)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## interfaces 
 
@@ -7773,6 +8157,50 @@ A link to the homepage of a page is called a surface link
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
+####### various data-fetching CLIs
+
+######## youtube-dl
+
+<br>---<br>
+  §§ ((c:1;::youtube-dl)) is a ((c:8;::CLI)) tool for ((c:2;::downloading from)) ((c:4;::mainly)) ((c:3;::youtube)), ((c:4;::but also from other platforms)). §<br>
+§§ basic syntax for youtube-dl: <code>((c:5;::youtube-dl)) ((c:6;::[OPTIONS])) ((c:7;::URL {URL))}</code> §<br>
+===<br>
+
+
+<br>---<br>
+  §§ youtube-dl: ((c:9;::don't actually download the video, just preview)), so to speak: ((c:10;::-s/--simulate)) §<br>
+===<br>
+
+<br>---<br>
+  §§ There is ((c:11;::a set of options)) for ((c:12;::youtube-dl)) that ((c:13;::start with --get-)) and ((c:14;::only return the requested information (e.g. id, format, filename, title, duration, etc.))) §<br>
+  ± --get-format, --get-title, etc. ±<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:15;::--format / -f FORMAT)) option of youtube-dl is for s((c:16;::electing the format you want to download the thing in)). §<br>
+§§ You can ((c:17;::list available formats for --format)) with ((c:18;::--list-formats/-F)) §<br>
+===<br>
+
+
+<br>---<br>
+--format accepts a sophisticated syntax as an argument: (it's actually slightly more complicated, but I've simplified a little)
+<pre><code>Format specifier syntax: ((c:19;::--format)) ((c:20;::&lt;format-specifier&gt;))((c:21;::{,&lt;format-specifier&gt;))}  # for ((c:22;::downloading mutliple formats at once))
+((c:23;::format-specifier)): ((c:24;::&lt;single-format&gt;))((c:25;::{/&lt;single-format&gt;))} # for ((c:26;::relative precedence of multiple formats, depending on what's available))
+((c:27;::single-format)): ((c:28;::&lt;single-format-selector&gt;[+&lt;single-format-selector&gt;])) # if ((c:29;::two are specified)), ((c:30;::the first one is for video and the second is for audio))
+((c:31;::single-format-selector)): ((c:32;::[&lt;general-quality&gt;]))((c:33;::{\[&lt;property&gt;&lt;operator&gt;&lt;value&gt;\]))}
+((c:34;::general-quality)): ((c:35;::&lt;file-extension&gt;|&lt;quality-keyword&gt;))
+((c:36;::file-extension)): # will ((c:37;::get the best format)) of ((c:38;::the given file extension, e.g. mp3))
+((c:39;::quality-keyword)): ((c:40;::best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |))
+((c:41;::property)): # things such as ((c:42;::filesize, width, height, tbr (total average bitrate), fps, ...))
+((c:43;::operator)): # things such as ((c:44;::=, !=, &gt;.... as well as ^=, $=, *= etc.))</code></pre>
+===<br>
+
+
+<br>---<br>
+  §§ The ((c:45;s:46;::-x))/((c:46;s:45;::--extract-audio)) option makes ((c:47;::youtube-dl extract the audio into its own file)). §<br>
+§§ If ((c:48;::using -x/--extract-audio)), you ((c:49;::can specify the format)) ((c:50;::with --audio-format FORMAT)), which ((c:51;::accepts the subset of things for --format FORMAT)) that ((c:52;::make sense for audio)). §<br>
+===<br>
+
 
 ###### protocols
 
@@ -7923,6 +8351,71 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 ######### cookies
 
 By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
+
+<br>---<br>
+  §§ ((c:1;::Cookies)) are a concept within ((c:2;::HTTP)). §<br>
+§§ ((c:3;::Cookies)) allow ((c:6;::the server)) to ((c:4;::keep track of state)) in ((c:5;::HTTP)), which is itself essentially ((c:4;::stateless)). §<br>
+§§ ((c:7;::Cookies)) are usually ((c:8;::first set)) by ((c:9;::the server)). §<br>
+§§ The ((c:10;::server)) ((c:13;::sets the cookies)) via the ((c:11;::<code>Set-Cookie</code>)) ((c:12;::HTTP Header.)) §<br>
+§§ The ((c:14;::browser)) ((c:17;::sends)) ((c:16;::all relevant cookies)) ((c:17;::back to the server)) ((c:15;::on each request)). §<br>
+§§ Syntax of the ((c:18;::<code>Set-Cookie</code> HTTP Header)): <code>((c:19;::Set-Cookie)): ((c:20;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:22;::{;)) ((c:21;::&lt;cookiepropertykey&gt;[=&lt;valuepropertykey&gt;]))((c:22;::} ))</code> §<br>
+§§ The ((c:23;::<code>Set-Cookie</code> HTTP Header)) typically contains ((c:24;::one cookie)) and ((c:24;::its properties)), to ((c:25;::set multiple cookies)) ((c:26;::set multiple headers)) (there is also a way of ((c:27;::separating them with commas)), but ((c:28;::this is nonstandard and often does not work))) §<br>
+§§ The browser ((c:29;::sends cookies back on request)) via ((c:30;::the <code>Cookie</code> HTTP header)). §<br>
+§§ The syntax of the <code>((c:31;::Cookie))</code> header: <code>((c:31;::Cookie:)) ((c:32;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:33;::{;)) ((c:34;::&lt;cookie2key&gt;=&lt;cookie2value&gt;))((c:33;::} ))</code> §<br>
+§§ Since ((c:35;::cookies are sent back on each request)) and since ((c:36;::there are spec-defined size constraints)), ((c:37;::the things sent in cookies)) are usually ((c:38;::quite small, often only a UID)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:39;::Session cookies)) are cookies that ((c:40;::only last until the browser is closed)), allthough ((c:41;::they can often be restored by the browser via session restoring)). §<br>
+§§ ((c:42;::Cookies)) without an ((c:43;::Expires)) or ((c:43;::Max-Age)) attribute are ((c:44;::session cookies)). §<br>
+§§ ((c:45;::Persistent cookies)) are ((c:46;::cookies that last for a specific time)). §<br>
+§§ ((c:47;::Cookies)) with an ((c:48;::Expires)) or ((c:48;::Max-Age)) attribute are ((c:49;::persistent cookies)). §<br>
+===<br>
+
+<br>---<br>
+  §§ Due to the ((c:53;::cookie spec)), one can usually rely on ((c:54;::cookies)) being able to hold at least ~((c:50;::4kb)) and at least ((c:51;::50)) ((c:52;::cookies per domain)), though ((c:55;::often the real limits are far higher)) §<br>
+===<br>
+
+<br>---<br>
+  §§ Since ((c:61;::persistent cookies)) are ((c:62;::deleted)) ((c:63;::after their Max-Age&gt;age or their Expires date has passed)), one can ((c:62;::delete)) them by ((c:64;::manually moving this into the past)). It is also common practice to ((c:65;::set their content to an empty string)). §<br>
+===<br>
+
+<br>---<br>
+  §§ By default, ((c:66;::cookies)) ((c:67;::are only sent)) for ((c:68;::requests)) for ((c:69;::the FQDN that the cookie was sent from)). §<br>
+§§ By default, ((c:70;::cookies)) ((c:71;::sent from a certain FQDN)) are ((c:72;::not included)) in ((c:73;::the browsers requests for subdomains)). §<br>
+§§ Specifying the ((c:74;::<code>Domain</code>)) property of a ((c:75;::cookie)) means ((c:76;::it will be sent)) for ((c:77;::requests for the specified FQDN)), and ((c:76;::all)) subdomains (thus being more permissive than the default!) §<br>
+§§ By default, ((c:78;::cookies)) are ((c:81;::sent by the browser)) ((c:80;::no matter)) ((c:79;::the path in the URL)) (((c:80;::only)) ((c:79;::the FQDN)) matters). §<br>
+§§ If the ((c:82;::Path)) attribute is ((c:83;::specified for a cookie)), ((c:84;::browsers will only sent the cookie)) on ((c:85;::requests for the specified path (or subpaths))). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:86;::Cookies)) that ((c:87;::originate from)) ((c:88;::the same domain as the current domain)) ((h:88;::(including ((c:89;::subdomains)) if ((c:89;::Domain is set))) )) are known as ((c:90;::first-party cookies)), all others are ((c:90;::third-party cookies)). §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:91;::Cookies)) ((c:92;::used to maintain the state of being logged)) in are known as ((c:93;::authentication cookies)) (the whole process is known as ((s:91-93;c:94;::cookie-based authentication)) ) §<br>
+§§ ((c:94;::Cookies)) used to ((c:95;::maintain the state of an unique user)) ((c:96;::with whom to associate browser histories)) are known as ((c:97;::tracking cookies)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:98;::Secure)) property of a cookie means ((c:101;::that it is only ever sent over HTTPS)). §<br>
+§§ The ((c:99;::HttpOnly)) property of a cookie ((c:102;::makes it inaccesible via JS)). §<br>
+§§ The ((c:100;::SameSite)) property of a cookie can take three values, ((c:103;::Strict)), ((c:103;::Lax)), or ((c:103;::None)). §<br>
+§§ The ((c:104;::SameSite)) property uses a definition of ((c:105;::Site)) which consists of ((c:106;::the registrable domain name)) and ((c:107;::scheme)) (which ((c:108;::can only be http or https anyway, since cookies are a HTTP-only concept.))) §<br>
+§§ Cookies with ((c:109;::SameSite=Strict)) are ((c:110;::only sent)) when ((c:111;::the site (registrable domain name + scheme))) ((c:112;::the request is being sent to)) is ((c:113;::the same as the site of the cookie)), i.e. ((c:114;::not on cross-site requests)). §<br>
+§§ Cookies with ((c:115;::SameSite=Lax)) are sent ((c:116;::in the same circumstances as SameStrict=Strict)), plus on ((c:117;::cross-site requests)), if ((c:118;::the request is a browser navigation one (not e.g. for resources only))). §<br>
+§§ Cookies with ((c:119;::SameSite=None)) have ((c:120;::no cross-site restrictions)), but ((c:121;::Secure must also be set)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The JS inteface for ((c:56;::cookies)) is ((c:57;::document.cookie)) §<br>
+===<br>
+
+<br>---<br>
+  §§ A ((c:58;::zombie cookie)) is a cookie that ((c:59;::is restored even when deleted)), by using ((c:60;::various nooks and crannies of different internet technologies.)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}</span>
 
 ######### Content Negotiation
 
@@ -8371,12 +8864,30 @@ A network is a group of connected nodes that communicate via a medium, and almos
 
 #### routing
 
+Routing is the process of selecting a path for traffic in a network or between or across multiple networks. 
+
+##### addresses
 
 An address is the identifier of an entity(ies) in a network, often relevant to a specific protocol.
 A broadcast address is an address that identifies a subgroup of entities to target with a broacast transmission.
 Loopback is the routing of signals/streams back to their source without intentional processing/modification.
 
-##### routing schemes
+##### routing schemes/architectures
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Routing architecture visualization</th>
+    <th>name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<img src="sm_unicast.svg">))</td> <td>((c:2;::Unicast))</td></tr>
+<tr><td>((c:3;::<img src="sm_multicast.svg">))</td> <td>((c:4;::multicast))</td></tr>
+<tr><td>((c:5;::<img src="sm_broadcast.svg">))</td> <td>((c:6;::broadcast))</td></tr>
+<tr><td>((c:7;::<img src="sm_anycast.svg">))</td> <td>((c:8;::anycast))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 
 #### topologies
 
@@ -8687,6 +9198,7 @@ lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first ar
 #### sysadmin
 
 powertop - cli program to analzye power consumption
+mac: system_profiler|report system hardware and software configuration (mac)
 
 ##### hardware info
 
@@ -10590,11 +11102,22 @@ chars()|Rust
 parse sting to other type
 <string-object>.parse()|Rust (Returns a `Result`, often requires turbofish annotation.)
 
-#### String replacement
+SCSS/Sass
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::unquote(foo) or string.unquote(foo)))</td> <td>((c:2;::unquote a string (so that css gets the value as the correct type, eg. when using maps)))</td></tr>
+<tr><td>((c:3;::quote(foo) or string.quote(foo)))</td> <td>((c:4;::return string, but quoted))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+##### String replacement
 
 somestr.replace(foo, bar)|JS|Python
 
-#### Join to string
+##### Join to string
 
 separator.join(iterable)|Python
 somearray.join(separator)|JS|Ruby
@@ -11334,6 +11857,18 @@ in languages with type annotation, the type annotation of an object is generally
 
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">In ((c:5;::documentation)), these methods are referenced...</th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::class methods))</td> <td>((c:2;::.method or :​:method))</td></tr>
+<tr><td>((c:3;::instance methods))</td> <td>((c:4;::#method))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 
 #### pure OO
 
@@ -11884,6 +12419,39 @@ endcase %}</code></pre>
 
 #### front-end frameworks
 
+##### types of web pages and their generation
+
+<br>---<br>
+  §§ Fundamentally, a ((c:16;::web page)) may either be ((c:17;::static)) or ((c:17;::dynamic)). §<br>
+§§ A ((c:18;::static)) web page is ((c:19;::delivered to the web browser)) ((c:20;::exactly as stored on the web server)). §<br>
+§§ A ((c:21;::dynamic)) web page is ((c:22;::generated in some way)). §<br>
+§§ ((c:23;::Static generation)) merely creates ((c:24;::static web pages)). However, since ((c:25;::they are often generated in a manner similar to dynamic web page)), ((c:23;::static generation)) is often seen as ((c:26;::something inbetween dynamic and static web pages)). §<br>
+§§ A ((c:27;::dynamic web page)) may be generated ((c:28;::client-side)) or ((c:28;::server-side)). §<br>
+§§ A ((c:29;::dynamic webpage)) ((c:30;::generated client-side/server-side)) is said to use ((c:31;::client-side/server-side rendering)). §<br>
+===<br>
+
+
+<br>---<br>
+  §§ ((c:4;::Client-side rendering)) (((c:34;s:4;::CSR))) generally involves only having ((c:5;::a minimal HTML page)) and ((c:5;::a JS bundle)), which then ((c:6;::handles everything elsee.)) §<br>
+§§ The pages ((c:32;::CSR)) produces are generally called ((c:33;::single-page applications)). §<br>
+§§ ((c:35;::Server-side rendering)) (((c:36;s:35;::SSR))) has ((c:37;::a server generate the web page)), generally using ((c:38;::a server-side programming language (in the past most commmonly PHP))), which is then ((c:39;::served to the user fully baked)). §<br>
+§§ ((c:40;::CSR)) only ((c:41;::needs to communicate w/ the server)) if ((c:42;::new data is needed)). §<br>
+§§ Whenever ((c:43;::the user navigates to a different page)), ((c:44;::CSR)) ((c:45;::can usually handle it internally)), while ((c:44;::SSR)) ((c:45;::needs to make a new request for a new page)). §<br>
+§§ ((c:1;::Client-side rendering)) has ((c:3;::longer)) ((c:2;::initial load times)) and ((c:3;::shorter)) ((c:2;::subsequent load times)) than ((c:1;::server-side rendering)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:7;::Client-side rendering)) often has ((c:8;::problems with SEO)), as ((c:9;::the original HTML basically contains nothing)) §<br>
+§§ The difference between ((c:10;::static generation)) and ((c:10;::server-side rendering)) is that ((c:10;::static generation)) ((c:12;::generates the HTML)) ((c:11;::at build time)), while ((c:10;::server-side rendering)) ((c:12;::generates the HTML)) ((c:11;::on each request)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:13;::Static-site generator)) by ((c:14;::github)): ((c:15;::Jekyll)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
+
+##### different products
+
 Express is the most popular server-side web framework for node.
 Angular is the successor to AngularJS
 Angular is sometimes called Angular 2
@@ -11960,9 +12528,115 @@ Node.js was created in 2009.
 
 Flask and Django are the most popular web frameworks for Python.
 
-#### both
+#### both (Static generation / hybrid between CSR and SSR)
+
+##### jekyll
 
 Jekyll|Ruby
+<br>---<br>
+  §§ ((c:4;::Jekyll)) uses ((c:5;::liquid)) as its ((c:6;::template language)) §<br>
+§§ You can write ((c:16;::Jekyll)) pages in ((c:7;::HTML)) or ((c:8;::Markdown)) §<br>
+§§ Jekyll pages/layouts/includes can have ((c:9;::metadata)) associated with them, which is specified in ((c:10;::the front matter)) §<br>
+§§ ((c:11;::Front matter)) in Jekyll ((c:12;::starts and ends)) with ((c:13;::three dashes ---)) §<br>
+§§ ((c:14;::Front matter)) in Jekyll is written in ((c:15;::YAML)) §<br>
+===<br>
+
+
+<br>---<br>
+  §§ for any page, the <code>((c:17;::page))</code> assoc array contains ((c:18;::the keys of that pages front matter)) §<br>
+§§ the <code>((c:19;::page))</code> assoc array is ((c:20;::autopopulated with certain keys)) beyond ((c:21;::the ones specified in the front matter)), amongst others the key ((c:22;::<code>url</code>)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:23;::Layouts)) ((c:24;::wrap around)) your content. §<br>
+§§ ((c:25;::Layouts)) are stored in the ((c:26;::_layouts directory)). §<br>
+§§ For a given post or other page, you specify ((c:28;::which layout it's using)) by using ((c:27;::the <code>layout</code> front matter key)). §<br>
+§§ Layouts can ((c:29;::inherit)) - you do this by ((c:30;::referring to the parent layout)) ((c:31;::within the child layout)) using ((c:32;::the <code>layout</code> front matter key.))&nbsp;§<br>
+§§ Within a layout, ((c:33;::<code>{{content))</code>}} refers to ((c:34;::the content of the post using)) the layout, or ((c:34;::the next-deeper child layout.)) §<br>
+§§ As a convention, ((c:35;::the root level layout)) is called ((c:36;::default.html)). §<br>
+§§ the <code>((c:37;::layout))</code> assoc arr contains ((c:38;::all metadata of the current layout)). §<br>
+§§ ((c:39;::<code>layout.foo</code>)) allows you to ((c:40;::access key foo of layout front matter)) §<br>
+===<br>
+
+
+<br>---<br>
+  §§ ((c:41;::Includes)) are basically ((c:42;::components)), you can ((c:43;::refer to and include from anywhere you like)). §<br>
+§§ ((c:44;::Includes)) are stored in ((c:45;::the _includes directory.)) §<br>
+§§ ((c:46;::Includes)) may take ((c:48;::arguments)) as ((c:47;::key=value)). §<br>
+§§ Within an include((c:49;::, a parameter foo)) is referred to as <code>((c:50;::include.foo))</code> §<br>
+§§ Include syntax: <code>((c:1;::{%)) ((c:2;::include)) ((c:3;::include-name.html)) ((c:1;::%}))</code> §<br>
+===<br>
+
+<br>---<br>
+  §§ the <code>((c:51;::site))</code> assoc arr contains ((c:52;::all global data)). §<br>
+===<br>
+
+<br>---<br>
+  §§ Syntax for jekyll ((c:53;::post)) ((c:54;::file names)): ((c:55;::YYYY-MM-DD))((c:56;::-title))((c:57;::.extension)) §<br>
+§§ Jekyll will ((c:62;::auto-generate)) ((c:58;::a <code>post.title</code>))&nbsp;from ((c:59;::the URL = file name)) if not specified §<br>
+§§ Jekyll will ((c:63;::auto generate)) ((c:60;::a <code>post.excerpt</code>))&nbsp;from ((c:61;::the first paragraph)) if not specified §<br>
+§§ ((c:64;::Posts)) are specified in ((c:65;::./_posts)) §<br>
+§§ <code>((c:66;::site.posts))</code> contains ((c:67;::an array)) of ((c:68;::all the posts in ./_posts)) §<br>
+===<br>
+
+
+<br>---<br>
+  §§ Jekylls supports keeping data stored in ((c:69;::./_data)) for ((c:70;::global use)) §<br>
+§§ Jekyll ((c:71;::data files)) may be specified in ((c:72;::yaml, json::2 similar ones)), ((c:73;::csv or tsv::2 similar ones)). §<br>
+§§ Jekyll ((c:74;::data files)) can be accessed via ((c:75;::<code>site.data.filename</code> (no extension)))&nbsp;§<br>
+§§ Jekyll supports keeping ((c:76;::small mini-posts)) in so-called ((c:77;::collections)). §<br>
+§§ ((c:78;::Any directory in the root folder)) ((c:79;::starting with _)), but not ((c:80;::being one of the predefined directory names (such as _data, _posts))) is considered ((c:81;::a collection)) of ((c:82;::the same name)). §<br>
+§§ Jekyll supports ((c:83;::designating a directory for collections)) instead o((c:84;::f specifying them in the project root in the config)), but this must then ((c:85;::also contain _drafts and _posts, if extant)). §<br>
+§§ Besides ((c:86;::creating a directory)), ((c:87;::collections)) must also be ((c:88;::referenced in the collections array in the config)). §<br>
+§§ ((c:89;::collections)) are ((c:90;::arrays)) available via ((c:91;::the <code>site.collectionname</code> propert))y §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}</span>
+
+###### themes
+
+<br>---<br>
+  §§ Jekyll ((c:2;::themes)) are often ((c:1;::gems)). §<br>
+§§ By default, if you use a ((c:3;::gem theme)), ((c:4;::some of the directories of your site)) are ((c:5;::in the gem itself)). §<br>
+§§ If you want to ((c:6;::edit things)) ((c:7;::in gem themes)), you need to ((c:8;::copy then out of the gem itself)), and ((c:9;::reference the gem's dependencies in your gemfile/config)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+###### plugins
+
+<br>---<br>
+  §§ ((c:9;::Jekyll plugins)) are specified within ((c:10;::the _config.yml)) and within ((c:11;::the gemfile)). §<br>
+§§ In the ((c:12;::gemfile)), ((c:13;::jekyll_plugin))s are specified within ((c:14;::the <code>group :jekyll_plugins</code>)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Jekyll Plugins</th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::jekyll-feed))</td> <td>((c:2;::Generating an RSS feed (jekyll)))</td></tr>
+<tr><td>((c:3;::jekyll-seo-tag))</td> <td>((c:4;::Generating a few SEO tags (jekyll)))</td></tr>
+<tr><td>((c:5;::jekyll-sitemap))</td> <td>((c:6;::Generating a sitemap))</td></tr>
+<tr><td>((c:7;::jekyll-paginate))</td> <td>((c:8;::allow pagination))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+###### config
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::defaults))</td> <td>((c:2;::default front matter))</td></tr>
+<tr><td>((c:3;::paginate: n))</td> <td>((c:4;::paginate with n pages))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+##### next.js
+
+
 
 
 ### IO
