@@ -2991,6 +2991,66 @@ One major axis along which font families are distinguished is if they have serif
 A monospaced font where all characters occupy the same horizontal space.
 A font that is not monospaced is proportional-width.
 
+###### fonts
+
+<br>---<br>
+  §§ A synonym of ((c:1;::typeface)) is ((c:2;::font family)). §<br>
+§§ A ((c:3;::typeface)) consists of ((c:4;::a set of glyphs)) with ((c:5;::a certain unified look)). §<br>
+§§ in technical usage, ((c:6;::a font)) is ((c:7;::a typeface)) ((c:8;::with certain characteristcs)). §<br>
+§§ Ergo, there are ((c:10;::many fonts)) of ((c:9;::a given typeface.)) §<br>
+§§ Properties that are ((c:12;::varied)) to ((c:11;::produce different fonts)) of ((c:11;::the same typeface)) are most commonly ((c:13;::weight)), ((c:14;::size)), and ((c:15;::slope)), though ((c:16;::other things can also be varied)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:17;::weight)) of a particular ((c:18;::font)) is ((c:19;::the thickness of the characters)) ((c:20;::relative to their height)). §<br>
+§§ The ((c:21;::TrueType)) font format introduced a ((c:23;::font weight)) scale ((c:22;::from 100 through 900)), which is also used in ((c:24;::CSS)) and ((c:25;::OpenType)), §<br>
+§§ in the 100 to 900 scale, ((c:26;::400)) is ((c:27;::regular)) §<br>
+§§ in the 100 to 900 scale, ((c:28;::700)) is ((c:29;::bold)) §<br>
+§§ Originally, any font-weight ((c:30;::in the 100 - 900 scale)) that was ((c:31;::not a multiple of 100)) was ((c:32;::meaningless)), but ((c:33;::variable-weight fonts)) ((c:34;::allow any number between 1 and 1000)). §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}</span>
+
+###### type
+
+<div class="flex-container">((h:all;::<img src="1280px-Typography_Line_Terms.svg.png">))((h:all;::<img src="decender.png">))((h:all;::<img src="1280px-Thank_You_(13824254433).jpg">))</div>
+<br>---<br>
+§§ The ((c:18;::body height)) when talking about ((c:19;::movable type)) is ((c:20;::the height of the sort)). §<br>
+§§ The ((c:21;::body height)) when talking about ((c:22;::digital typography)) is ((c:23;::the distance between)) ((c:24;::the top of the tallest letterform)) and ((c:24;::the bottom of the lowest one)). §<br>
+§§ Equivalently, we may also define ((c:26;::the body height)) as ((c:25;::the distance between)) ((c:27;::the ascender)) and ((c:27;::descender)) ((c:27;::line)). §<br>
+===<br>
+
+<br>---<br>
+§§ The ((c:18;::body height)) when talking about ((c:19;::movable type)) is ((c:20;::the height of the sort)). §<br>
+§§ The ((c:21;::body height)) when talking about ((c:22;::digital typography)) is ((c:23;::the distance between)) ((c:24;::the top of the tallest letterform)) and ((c:24;::the bottom of the lowest one)). §<br>
+§§ Equivalently, we may also define ((c:26;::the body height)) as ((c:25;::the distance between)) ((c:27;::the ascender)) and ((c:27;::descender)) ((c:27;::line)). §<br>
+===<br>
+
+<br>---<br>
+§§ the height of the ((c:28;::x-height)) typically corresponds to ((c:29;::the height of the x)), hence ((c:30;::the name)). §<br>
+§§ some letters are ((c:31;::a little higher)) than ((c:32;::the x-height)) (if ((c:33;::lowercase))) or ((c:32;::the cap height)) (if ((c:33;::uppercase))) and thus extend ((c:34;::slightly below)) ((c:35;::the baseline)) or ((c:34;::above)) ((c:35;::the x-height))/((c:35;::cap height)), this is called ((c:36;::overshoot)). §<br>
+§§ ((c:37;::Overshoot)) is generally used for ((c:38;::round letters)) to make them ((c:39;::appear the same size as square letters)). (Due to ((c:40;::quirks with our perception)) ) §<br>
+===<br>
+
+<br>---<br>
+§§ A ((c:41;::descender)) is ((c:42;::the portion of a letter)) which ((c:43;::extends below the baseline)). §<br>
+§§ Letters such as ((c:44;::lowercase y, g, and j)) typically have ((c:45;::descenders)). §<br>
+§§ ((c:46;::the descender depth)) is the ((c:48;::distance)) ((c:47;::the descender reaches below the baseline)) §<br>
+§§ A ((c:49;::ascender)) is ((c:50;::the portion of a letter)) which ((c:51;::extends above the baseline)). §<br>
+§§ Letters such as ((c:52;::lowercase f, h and uppercase letters (if we want to count them))) typically have ((c:53;::ascenders)). §<br>
+§§ The ((c:54;::ascender height)) is the ((c:55;::distance)) that ((c:56;::ascenders reach above the baseline)). §<br>
+§§ The ((c:57;::ascender height)) is generally ((c:58;::higher than)) ((c:59;::the cap-height)) §<br>
+§§ The ((c:60;::ascender line)) (or ((c:61;s:60;::topline)))/((c:60;::descender line)) is ((c:62;::the imaginary line)) ((c:63;::defined by)) ((c:64;::the ascender height))/((c:64;::descender depth)) §<br>
+§§ ((c:65;::Line spacing)) / ((c:66;s:65;::leading)) is ((c:67;::the distance between)) ((c:68;::the descender line)) and ((c:68;::the next ascender line)) §<br>
+===<br>
+
+((h:all;::<img src="220px-Metal_type.svg.png">))
+
+<br>---<br>
+§§ In ((c:69;::digital type)), letters are ((c:72;::designed around)) ((c:70;::an imaginary square)) called ((c:71;::the em square)). §<br>
+§§ ((c:73;::The relationship)) of ((c:74;::parts of letters)) to ((c:75;::the font size)) is determined by ((c:76;::the designer of the font)). However, as a very rough guideline, an ((c:77;::"average" font)) might have ((c:80;::a cap height)) of ((c:78;::0.7 em)), and an ((c:80;::x-height)) of ((c:79;::0.5 em)). §<br>
+===<br>
+
 ##### macrotypography
 
 ###### columns
@@ -3000,15 +3060,30 @@ Gutters are whitespace between two rows or columns.
 
 ###### page
 
+####### left and right
+
 We can divide pages into left and right pages depending on whether they will appear on the left or right first when reading the book in a normal direction.
 In all books, the first page is the cover.
 in LtR media, the second page will be a left page, and hence the cover is a right page
 in RtL media, the second page will be a right page, and hence the cover is a left page
 
+####### twosided
+
 In latex, to {{c3::optimize a document for being two-sided}} (e.g. as in a {{c3::book}}), include {{c2::twoside}} in {{c1::the optional argument [] of documentclass}}
 In latex, to {{c3::make chapters etc. always open on a right page}}&nbsp; include {{c2::openright}} in {{c1::the options [] of documentclass}}
 
+####### pagination
+
 pagination/paging is dividing a given document into discrete pages.
+
+####### orphans and widows
+
+((h:all;::<img src="sm_BdflVyb4vu7o0q5hCeBkmu09nMn21opE.jpg">))<br>---<br>
+  §§ ((c:1;::Widows)) and ((c:2;::orphans)) refer to ((c:3;::stranded things)). §<br>
+§§ ((c:4;::Widows and orphans)) may either refer to ((c:5;::stranded words)) at ((c:6;::the beginning/end of paragraphs)), or ((c:7;::stranded lines)) at ((c:8;::the beginning/end of pages)). §<br>
+§§ There is no agreement on whether ((c:9;::widows or orphans)) refers to the things occurring at ((c:10;::the beginnings or ends)), that is, ((c:11;::one persons orphan)) is ((c:12;::another persons widow)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 #### graphemes & graphs
 
@@ -3047,6 +3122,14 @@ Punctuation is a subset of typographical symbols as well as spacing to indicate 
 Most logographic systemss as well as japanese do not use whitespace for punctuation.
 In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
 
+<br>---<br>
+  §§ Calling the ((c:1;::exclamation point)) a ((c:2;::bang)) emerged from ((c:3;::printing slang in the 1950s)). §<br>
+§§ Off ((c:4;::the slang term bang for !)) was coined the ((c:5;::interrobang)) and the ((c:5;::shebang)) §<br>
+§§ T((c:6;::he combination of exclamation point and question mark)) is known as the ((c:7;::interrobang)). §<br>
+§§ ((c:8;::‽)) is called the ((c:9;::interrobang)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
 ####### whitespace
 
 whitespace is any character or series of characters that represent horizontal or vertical space.
@@ -3078,6 +3161,44 @@ Orthographic depth is the degree of deviation from the ideal correspondence betw
 A phonemic orthography is the special case of an alphabet specifically having no or little orthographic depth.
 ortographically deep|English
 ortographically shallow|spanish, japanese
+
+#### emoji & emoticons
+
+<br>---<br>
+  §§ An ((c:22;::emoticon)) represents ((c:23;::a face)) using  ((c:21;::typographical characters)) §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:24;::western)) ((c:25;::emoticons)) have ((c:26;::faces)) that are oriented ((c:20;::left-to-right)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>emoticon eyes</th>
+    <th>meaning</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;:::))</td> <td>((c:2;::default (more common)))</td></tr>
+<tr><td>((c:3;::=))</td> <td>((c:4;::default (less common)))</td></tr>
+<tr><td>((c:5;::8))</td> <td>((c:6;::default (super rare)))</td></tr>
+<tr><td>((c:7;::%))</td> <td>((c:8;::drunk/confused))</td></tr>
+<tr><td>((c:9;::X))</td> <td>((c:10;::equivalent of &gt;&lt; eyes, but more often used positively))</td></tr>
+<tr><td>((c:11;::;))</td> <td>((c:12;::wink))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ ((c:13;::顔文字)) (reading ((c:14;::かおもじ)) ) have ((c:15;::faces)) oriented how ((c:16;::top-to-bottom)) §<br>
+===<br>
+<br>---<br>
+General pattern for kaomoji:
+<pre><code>kaomoji ::= ((c:17;::[&lt;left-arm&gt;]))((c:27;::&lt;head&gt;))((c:17;::[&lt;right-arm&gt;]))
+((h:gb;::((c:30;::head)) ::= ((c:18;::[&lt;left-head&gt;]))((c:28;::&lt;face&gt;))((c:18;::[&lt;right-head&gt;]))
+((h:gb;::((c:31;::face)) ::= ((c:19;::[&lt;left-cheek&gt;]))((c:29;::&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;))((c:19;::[&lt;right-cheek&gt;]))))))</code></pre>
+§§ most common ((c:32;::head delimiters)): ((c:33;::())) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span>
+
 
 ## diachronic
 

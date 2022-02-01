@@ -3028,6 +3028,12 @@ A ontology languages is a language that describes an ontology.
 
 ### folksonomy
 
+<br>---<br>
+  §§ ((c:1;::Folksonomy)) is a system where ((c:2;::users)) apply ((c:3;::public tags)) to items, thus over time generating a sort of ((c:4;::taxonomy)). §<br>
+§§ Two types of ((c:5;::folksonomies)) are ((c:6;::broad)), where ((c:7;::multiple users can apply the same tag)), thus ((c:7;::showing which tags are the most popular)), and ((c:6;::narrow)), where ((c:7;::the same tag can only be applied once)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
 booru: image site with foksonomical tags
 boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
@@ -3889,6 +3895,27 @@ The two main advantages of sprites over multiple images is that  they can be eas
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### transparency & opacity
+
+<br>---<br>
+  §§ The ((c:11;::inverse of)) ((c:9;::transparency)) is ((c:10;::opacity)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>transparency/opacity</th>
+    <th>visibility</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::0% transparency / 100% opacity))</td> <td>((c:2;::completely visible))</td></tr>
+<tr><td>((c:3;::100% transparency / 0% opacity))</td> <td>((c:4;::completely invisible))</td></tr>
+<tr><td>((c:5;::30% transparency /70% opacity))</td> <td>((c:6;::70% visible))</td></tr>
+<tr><td>((c:7;::55% transparency /45% opacity))</td> <td>((c:8;::45% visible))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 
 ## design
 
@@ -8572,6 +8599,20 @@ A thin client is a low-performance computer that mainly exists to connect with a
 A zero client is a thin client driven to extremes, so that it has no local storage and barely any computing ability of its own.
 Hardware terminals are basically zero clients.
 a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
+
+## platforms
+
+### fora
+
+#### text & imageboards
+
+<br>---<br>
+  §§ A ((c:5;::textboard)) is a ((c:6;::simple)) kind of Internet ((c:7;::forum)); most require neither ((c:4;::registration)) nor ((c:4;::entry of a screen name)). §<br>
+§§ An ((c:8;::imageboard)) is like a ((c:9;::textboard)), just with ((c:10;::images)). §<br>
+§§ ((c:11;::Textboards)) as well as ((c:11;::imageboards)) were invented in ((c:12;::Japan)). §<br>
+§§ ((c:1;::Textboards)) such as ((c:2;::2channel)) are generally popular in ((c:3;::Japan only)), while ((c:1;::imageboards)) (e.g. in the form of ((c:2;::4chan))) are popular in ((c:3;::english-speaking countries too)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 # applications
 

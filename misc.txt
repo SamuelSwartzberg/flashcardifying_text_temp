@@ -346,6 +346,18 @@ as distinct from actually-extant humans
 §§((c:3;::Magical thinking)) is often ((c:4;::a symptom of OCD)) (however, ((c:5;::the cause of most)) ((c:3;::magical thinking)) in the world is ((c:5;::not)) ((c:4;::OCD)))§<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}))</span>
 
+#### statistical bias
+
+##### selection bias
+
+###### WEIRD
+
+<br>---<br>
+  §§ ((c:1;::WEIRD)) is short for ((c:2;::western)), ((c:3;::educated)), ((c:4;::industrialized)), ((c:5;::rich)), and ((c:6;::democratic)). §<br>
+§§ ((c:11;::WEIRD)) is the set of traits which describes ((c:7;::more than 90%)) of ((c:8;::study participants)), especially in ((c:9;::psychology)), being such, and thus results being ((c:10;::biased))/((c:10;::not generalizable)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ## rational choice theory
 
 <br>---<br>
@@ -360,6 +372,11 @@ as distinct from actually-extant humans
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ## demographics
+
+<br>---<br>
+  §§ ((c:2;::Demography)) is the statistical study of ((c:1;::populations and poplulation change)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 ### dependency
 
@@ -521,12 +538,32 @@ as distinct from actually-extant humans
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+### manner
+
 #### astroturfing
 
 <br>---<br>
   §§ ((c:1;::Astroturfing)) is the practice of making ((c:2;::advertisment of a product or message)) appear as though ((c:3;::it originates from and is supported by grassroots participants)). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+#### brigading
+
+<br>---<br>
+  §§ ((c:1;::Brigading)) is when ((c:2;::a large number of users)) ((c:3;::coordinate)) to ((c:4;::give a (generally negative) rating to something)), or ((c:5;::to vote in an online poll,)) or similar. §<br>
+§§ The goal of ((c:9;::brigading)) is often either ((c:6;::to harm the thing in question)), or ((c:7;::to give the idea of the genuine opinion of something being different than it  actually is)). §<br>
+§§ ((c:10;::Brigading)) may in a wider sense also refer to ((c:8;::all coordinated harmful online action)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+#### decieving
+
+##### sockpuppet
+
+<br>---<br>
+  §§ A ((c:1;::sockpuppet)) is ((c:2;::an alternative account)) used to ((c:3;::decieve or mislead in some way)).((s:1-3;::Originally this referred to ((c:4;::an account to talk about or to oneself while pretending to be another person)), ((s:4;::then expanded to ((c:5;::all uses of a second account pretending to be a second person while being the same as the first)), and now can also refer to ((s:5;::((c:6;::any (misleading) activity where a second account might be helpful)), such as ((c:7;::evading bans)), do ((c:8;::mass action such as brigading)), etc)))).)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ### message
 
@@ -575,25 +612,81 @@ as distinct from actually-extant humans
 
 # art
 
-## textual
+## the artist
 
-### literary theory
+### auteur theory
 
-#### intent
+An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::excercises a large amount of control}} over their work and/or {{c5::is credited for the artistic quality}} of the work.
+{{c6::Auteur theory}} either ({{c7::descriptively}}) says that films/other media are {{c8::most strongly influenced}} by {{c9::a single person}}, most commonly {{c9::the director}} (since they have strong control over {{c10::the audio-visual element}}) and thus {{c11::when looking at a film/piece of media}} we should see it {{c12::as the work of the directory,}} or ({{c7::prescriptively}}) that films/other media are {{c13::better}} when they {{c14::are directed by an auteur.}}
+
+## fandom
+
+### terminology
+
+<br><table>
+  <thead>
+    <tr><th>Term</th>
+    <th>Meaning</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Word of God))</td> <td>((c:2;::something that the creator said about one of their works, but isn't contained in the story itself))</td></tr>
+<tr><td>((c:3;::Lemon))</td> <td>((c:4;::Fanfiction with explicit sexual content))</td></tr>
+<tr><td>((c:5;::Lime))</td> <td>((c:6;::Fanfiction with mild sexual content))</td></tr>
+<tr><td>((c:7;::Slash))</td> <td>((c:8;::Fanfiction with gay relationships))</td></tr>
+<tr><td>((c:9;::WIP))</td> <td>((c:10;::Work In Progress))</td></tr>
+    <tr><td>((c:11;::RPF))</td> <td>((c:12;::real person (fan) fiction (fanfiction about real people)))</td></tr>
+<tr><td>((c:13;::fic))</td> <td>((c:14;::fanfiction))</td></tr>
+<tr><td>((c:15;::fanfic))</td> <td>((c:16;::fanfiction))</td></tr>
+<tr><td>((c:17;::stan))</td> <td>((c:18;::an exteremly obsessive fan, to act as such))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+### canon
+
+§§ Both ((c:1;::fanon)) and ((c:1;::headcanon)) are ((c:2;::elements/interpretations that are not part of the official canon)). §<br> 
+§§ Elements/interpretations that are ((c:3;::not part of the canon,)) but ((c:4;::accepted as canon by a group of  fans)) are called ((c:5;::fanon)). §<br> 
+§§ Elements/interpretations that are ((c:6;::not part of the canon)), but ((c:7;::accepted as canon by an individual fan are called headcanon)). §<br> ===<br> <
+
+### waifus & husbandos
+
+<br>---<br>
+  §§ A ((c:1;::waifu)), generally, is a ((c:2;::fictional character)) (((c:3;::female::gender))) to  ((c:4;:: which one is attracted.)) §<br>
+§§ The ((c:5;::male::gender)) version of a waifu is a ((c:6;::husbando)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+## literary theory
+
+### diagesis
+
+<br>---<br>
+  §§ Something ((c:1;::diegetic)) ((c:2;::exists within the fictional world.)) §<br>
+§§ Something ((c:3;::non-diegetic)) ((c:4;::only exists outside of the fictional world)). §<br>
+§§ Music that ((c:5;::can be heard by the characters in a film)) would be ((c:6;::diegetic music)). §<br>
+§§ ((c:7;::An UI)) that ((c:8;::is part of a game world itself)) would be ((c:9;::an (intra)diegetic UI)) §<br>
+===<br>
+<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">
+<br>---<br>
+  §§ Besides the meaning ((c:10;::of inside/outside of a text)), ((c:11;::diegesis/diegetic)) refers to ((c:12;::narration (as opposed to mimesis))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+### intent
 
 §§ ((c:1;::Authorial intent)) is ((c:2;::the intent of an author)) ((c:3;::as encoded in their work)) §<br>
 §§ ((c:4;::Authorial intentionalism)) presupposes that ((c:5;::the author has privileged understanding / insight of/into their text)). §<br>
 §§ The ((c:6;::death of the author)) pushes back against the idea of ((c:7;::authorial intentionalism)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
-#### hermeneutics
+### hermeneutics
 
 <br>---<br>
   §§ ((c:1;::Hermeneutics)) is ((c:2;::the study of interpretation.)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
-##### hermeneutic circle
+#### hermeneutic circle
 
 ((h:all;::<img src="image7.jpg">))<br>---<br>
   §§ The ((c:1;::hermeneutic circle)), across it's varied definitions, refers to the idea that ((c:2;::understanding)) of ((c:3;::a text/thing)) consists of ((c:9;::moving between)) ((c:4;::two things/states)). §<br>
@@ -613,20 +706,27 @@ as distinct from actually-extant humans
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
-#### narrative
+### narrative
 
-##### trope
+#### trope
 
-###### impact
+##### lampshading
 
-####### seinfeld is unfunny
+<br>---<br>
+  §§ ((c:1;::Lampshading)) is ((c:2;::the acknowledgment of)) ((c:3;::a flaw or trope)) ((c:4;::diegetically)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+##### impact
+
+###### seinfeld is unfunny
 
 §§ The "((c:1;::Seinfeld is Unfunny))" effect is the effect where something ((c:2;::once revolutionary has now become standard/stale)), generally due to ((c:3;::imitation, often become woven into the genre.)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
-###### character archetypes 
+##### character archetypes 
 
-####### MPDG
+###### MPDG
 
 <br>---<br>
   §§ A ((c:1;::manic pixie dream girl)) is a ((c:2;::energetic, whacky, playful)) and ((c:3;::attractive)) character (mostly ((c:4;::female))) who is paired with a ((c:5;::boring/cynical)) (mostly ((c:6;::male))) ((c:7;::main character)). Her ((c:8;::whole purpose)) (in terms of the story) is that she ((c:9;::teaches him)) to ((c:10;::live freely and love madly)). §<br>
@@ -634,9 +734,18 @@ as distinct from actually-extant humans
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
-###### plot development
+###### born sexy yeasterday
 
-####### heels & faces
+<br>---<br>
+  §§ ((c:1;::Born Sexy Yesterday)) is a trope, most commonly in ((c:2;::scifi)) settings to ((c:3;::make it more acceptable)), where a ((c:4;::naive)) and ((c:5;::childlike)) ((c:6;::female character)) is in a ((c:7;::mature, sexualized body)) for ((c:8;::plot reasons)). §<br>
+§§ In the ((c:9;::Born Sexy Yesterday trope)), the female character is ((c:10;::unaware of their sexiness)) and ((c:11;::general concepts of shame and sexuality)), and thus she will almost inevitably ((c:12;::undress in front of the male main character)). §<br>
+§§ In the ((c:13;::Born Sexy Yesterday trope)), the ((c:14;::male protagonist)) is ((c:15;::the first man who the female character has seen)); she f((c:16;::alls for him by default)), allowing ((c:17;::mens ordinariness to be special)), and soothing ((c:18;::mens fear)) of ((c:19;::women's independence)) and ((c:20;::independent sexual histories)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
+##### plot development
+
+###### heels & faces
 
 <br>---<br>
   §§ ((c:9;::(baby) faces and heels)) are terms from ((c:10;::wrestling)) §<br>
@@ -655,6 +764,10 @@ as distinct from actually-extant humans
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+
+## textual
+
 
 ### novels
 
@@ -1801,6 +1914,16 @@ Disasters<br/><br>---<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
+#### film
+
+<br>---<br>
+  §§ ((c:1;::<cite>Blue Movie (1969)</cite>)) by ((c:2;::Andy Warhol)) was ((c:3;::the first movie)) to ((c:4;::show explicit sex in a movie theater film)). §<br>
+§§ <cite>((c:5;::Blue Movie)) </cite> (((c:6;::1969))) helped inaugurate ((c:7;::the Golden Age of Porn)). §<br>
+§§ ((c:8;::The Golden Age of Porn)) (aka ((c:9;::porno chic))) lasted for ((c:10;::15 years)), until ((c:11;::1984)), probably brought down by ((c:12;::the increasing availability of VCR and concomittant home viewing ability)) §<br>
+§§ ((c:13;::The golden age of porn)) featured ((c:14;::sexually explicit content)) in ((c:16;::the movie theatre)), in films that were ((c:15;::high quality)) / ((c:15;::critically aclaimed)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
 # soc
 
 ## control
@@ -1890,6 +2013,22 @@ Disasters<br/><br>---<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
+### feminism and sexual abuse
+
+<br>---<br>
+  §§ Kate Manne defines ((c:1;::himpathy)) as the (((c:2;::disproportionate))) ((c:2;::sympathy)) ((c:3;::men)), especially ((c:4;::powerful)) ones, often enjoy in cases of ((c:5;::sexual assault/partner violence/other misogynistic behavior)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## gender legislation
+
+### argentinia
+
+<br>---<br>
+  §§ The ((c:1;::Gender Identity Law)) (es: ((c:1;::Ley de identidad de género))) (an ((c:2;::Argentinian:: Location/jurisidiction)) law) allows a person ((c:3;::to change)) their registered ((c:4;::name)), ((c:4;::image)), and ((c:4;::sex specifier)) for ((c:5;::free)) without ((c:5;::a lawyer)). Additionally, ((c:6;::hormone treatment)) and ((c:6;::surgery)) do not ((c:7;::require any kind of diganosis or referall letter)) and are made ((c:8;::free)). It was promulgated in ((c:9;::2012)) and is as of 2021 one of ((c:10;::the most progressive transgender rights laws in existence)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 ## gender in language
 
 ### german
@@ -1934,6 +2073,13 @@ Disasters<br/><br>---<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 ### identities
+
+#### transvestism
+
+<br>---<br>
+  §§ ((c:1;::Transvestism)) is an ((c:2;::older)) term (coined in ((c:2;::the 1910s))) today ((c:3;::more or less synonymous)) with ((c:4;::cross-dressing)), although in the past ((c:5;::it was also used for trans people (mirroring the general confusion about Transness))). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 #### travesti
 
@@ -1995,11 +2141,275 @@ Disasters<br/><br>---<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+## inspiration
+
+<br>---<br>
+  §§ ((c:1;::Designspiration)) is a pinterest-like website for ((c:2;::design inspiration)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
 # biology
 
 ## nutrition
 
+### nutrients
+
+<table class="cloze-group hide-if-inactive">
+  <tbody>
+    <tr>
+      <th>((c:1;::Macronutrient))</th>
+      <th>((c:2;::Micronutrient))</th>
+    </tr>
+    <tr>
+      <td>
+        <table class="cloze-group hide-if-inactive">
+          <tbody>
+            <tr>
+              <th>((c:3;::Does not provide energy))</th>
+              <th>((c:4;::Provides energy))</th>
+            </tr>
+            <tr>
+              <td>
+                <table class="cloze-group hide-if-inactive">
+                  <tbody>
+                    <tr>
+                      <td>((c:5;::Water))</td>
+                      <td>((c:6;::Fiber))</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td><table class="cloze-group hide-if-inactive">
+                  <tbody>
+                    <tr>
+                      <td>((c:7;::Alcohol))</td>
+                      <td>((c:8;::Fat))</td>
+                      <td>((c:9;::Carbohydrates))</td>
+                      <td>((c:10;::Protein))</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td>
+        <table class="cloze-group hide-if-inactive">
+          <tbody>
+            <tr>
+              <th>((c:11;::Minerals))</th>
+              <th>((c:12;::Vitamins))</th>
+            </tr>
+            <tr>
+              <td>
+                <table class="cloze-group hide-if-inactive">
+                  <tbody>
+                    <tr>
+                      <td>((c:13;::Macrominerals))</td>
+                      <td>((c:14;::Trace minerals))</td>
+                      <td>((c:15;::Ultratrace minerals))</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>
+                <table class="cloze-group hide-if-inactive">
+                  <tbody>
+                    <tr>
+                      <th>((c:16;::Fat-soluble))</th>
+                      <th>((c:17;::Water-soluble))</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="cloze-group hide-if-inactive">
+                          <tbody>
+                            <tr>
+                              <td>((c:18;::A))</td>
+                              <td>((c:19;::D))</td>
+                              <td>((c:20;::E))</td>
+                              <td>((c:21;::K))</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td>
+                        <table class="cloze-group hide-if-inactive">
+                          <tbody>
+                            <tr>
+                              <td>
+                                ((c:22;::the 8 B vitamins))
+                              </td>
+                              <td>((c:23;::C))</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### macro
+
+##### protein
+
+<br>---<br>
+  §§ ((c:20;::Proteins)) are made up of ((c:21;::amino acids)) §<br>
+  §§((c:1;::Amino acids)) are ((c:2;::organic)) compounds that contain ((c:3;::amino)) (–NH2) and ((c:4;::carboxyl)) (–COOH) ((c:5;::functional)) groups, along with a ((c:6;::side chain)) (((c:6;::R)) group) ((c:7;::specific to)) each ((c:1;::amino acid))§<br>
+§§The key elements of an ((c:8;::amino acid)) are ((c:9;::carbon)), ((c:10;::hydrogen)), ((c:11;::oxygen)), and ((c:12;::nitrogen)), although the ((c:13;::side chains)) sometimes ((c:14;::include others))§<br>
+§§of the ((c:15;::21)) ((c:17;::amino acids)) common to all life forms, for humans, ((c:16;::nine)) are ((c:18;::essential)), ((c:16;::six)) are ((c:18;::conditionally essential)) (((c:19;::synthesis may be limited by circumstances))), and ((c:16;::six)) are ((c:18;::non-essential))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
+
+##### fats
+
+###### health
+
+§§While the research is not completely settled, ((c:2;::saturated)) and ((c:2;::trans unsaturated fats)) are generally considered ((c:1;::unhealthy)) and ((c:2;::cis unsaturated fats)) considered ((c:1;::healthy))§<br>
+
+###### unsaturated
+
+####### omega
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::omega-3))</td> <td>fatty acids are</td> <td>((c:2;::polyunsaturated))</td> <td>fatty acids characterized by a</td> <td>((c:3;::C=C double bond))</td> <td>((c:4;::3 atoms))</td> <td> away from ((c:5;::the terminal methyl group))</td></tr>
+<tr><td>((c:6;::omega-6))</td> <td>fatty acids are</td> <td>((c:7;::polyunsaturated))</td> <td>fatty acids characterized by a</td> <td>((c:8;::C=C double bond))</td> <td>((c:9;::6 atoms))</td> <td> away from ((c:10;::the terminal methyl group))</td></tr>
+<tr><td>((c:11;::omega-7))</td> <td>fatty acids are</td> <td>((c:12;::monounsaturated))</td> <td>fatty acids characterized by a</td> <td>((c:13;::C=C double bond))</td> <td>((c:14;::7 atoms))</td> <td> away from ((c:15;::the terminal methyl group))</td></tr>
+<tr><td>((c:16;::omega-9))</td> <td>fatty acids are</td> <td>((c:17;::monounsaturated))</td> <td>fatty acids characterized by a</td> <td>((c:18;::C=C double bond))</td> <td>((c:19;::9 atoms))</td> <td> away from ((c:20;::the terminal methyl group))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+<style>table{white-space: pre}</style>
+
+######## omega-3
+
+<br>---<br>
+  §§There are three types of {{c17::omega-3}} fatty acids, {{c14::ALA}}, {{c15::EPA}}, and {{c16::DHA}}.§<br>
+§§of the {{c11::three}} types of {{c7::omega-3}} fatty acids relevant to human nutrition, only {{c18::ALA}} is {{c9::essential}}.§<br>
+===<br>
+
+<br>---<br>
+  §§Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be {{c8::synthesized from the former}}.§<br>
+§§{{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.§<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>abbreviation</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::α-linolenic acid ))</td> <td>((c:2;::ALA))</td></tr>
+<tr><td>((c:3;::eicosapentaenoic acid))</td> <td>((c:4;::EPA))</td></tr>
+<tr><td>((c:5;::docosahexaenoic acid))</td> <td>((c:6;::DHA))</td></tr>
+  </tbody>
+</table>
+
+
+<br>---<br>
+  §§Major {{c22::vegan}} sources of {{c23::ALA}}: are various form of {{c24::seeds}} and {{c24::nuts}}§<br>
+§§Major non-vegan sources of {{c25::ALA}}: {{c26::fish}} and {{c26::meat/eggs}} to some extent§<br>
+===<br>
+
+
+<br>---<br>
+  §§there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid}} is considered {{c29::essential}}§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span><br><div class="sub">
+<a href="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/">https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/</a>
+</div>
+
+#### micro
+
+##### vitamins
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Common Designation</th>
+    <th>More Properly</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Vitamin C))</td> <td>((c:2;::Ascorbic acid))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+###### vitamin B
+
+<table class="cloze-group hide-if-inactive">
+  
+  <thead> <tr>
+    <th>Vitamin B...</th>
+    <th>Name or name of vitamers (if it exists)</th>
+  </tr></thead>
+ <tbody>
+    <tr><td>((c:1;::1))</td><td>((c:13;::Thiamine))</td></tr>
+    <tr><td>((c:2;::2))</td><td>((c:14;::Riboflavin))</td></tr>
+    <tr><td>((c:3;::3))</td><td>((c:15;::vitamers w/ names similar to Niacin))</td></tr>
+    <tr><td>((c:4;::4))</td><td>((c:16;::Doesn't exist))</td></tr>
+    <tr><td>((c:5;::5))</td><td>((c:17;::Pantothenic acid))</td></tr>
+    <tr><td>((c:6;::6))</td><td>((c:18;::Consists of vitamers called Pyridox* (ine, amine, al)))</td></tr>
+    <tr><td>((c:7;::7))</td><td>((c:19;::Biotin))</td></tr>
+    <tr><td>((c:8;::8))</td><td>((c:20;::Doesn't exist))</td></tr>
+    <tr><td>((c:9;::9))</td><td>((c:21;::???))</td></tr>
+    <tr><td>((c:10;::10))</td><td>((c:22;::doesn't exist))</td></tr>
+    <tr><td>((c:11;::11))</td><td>((c:23;::Doesn't exist))</td></tr>
+    <tr><td>((c:12;::12))</td><td>((c:24;::Cobalamin))</td></tr>
+</tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
+
+
 ### food
+
+#### grains
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::rye))</td> <td>((c:2;::roggen))</td> <td>((s:all;::from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;))</td></tr>
+<tr><td>((c:4;::wheat))</td> <td>((c:5;::weizen))</td></tr>
+<tr><td>((c:6;::barley))</td> <td>((c:7;::gerste))</td></tr>
+<tr><td>((c:8;::oat))</td> <td>((c:9;::hafer))</td></tr>
+<tr><td>((c:10;::millet))</td> <td>((c:3;::hirse))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ Thus, ((c:12;::haferflocken)) = ((c:13;::rolled oats)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+<br><div class="sub">
+<div class="sub all-b">
+
+</div>
+</div>
+
+#### fruit & berries
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::blackcurrant))</td> <td>((c:2;::schwarze johannisbeere))</td></tr>
+<tr><td>((c:3;::currant))</td> <td>((c:4;::Johannisbeere))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 
 #### meals
 
@@ -2015,6 +2425,21 @@ Disasters<br/><br>---<br>
 ## anatomy
 
 ### directions
+
+<img src="directional-terms.jpg">((h:all;::<img src="directional-terms-labeled.jpg">))<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No. in diagram</th>
+      <th>Name</th>
+      <th>Alternative Name</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::3))</td> <td>((c:2;s:3;::dorsal))</td> <td>((c:3;s:2;::posterior))</td></tr>
+<tr><td>((c:4;::4))</td> <td>((c:5;s:6;::ventral))</td> <td>((c:6;s:5;::anterior))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 ### organs
 
@@ -2141,6 +2566,85 @@ Disasters<br/><br>---<br>
 
 ##### eyes
 
+###### constituent parts
+
+<img src="Schematic_diagram_of_the_human_eye.svg"><br/><br>---<br>
+  §§ The ((c:1;::cornea)) is ((c:2;::the transparent front part of the eye)) that ((c:3;::covers)) the ((c:4;::iris)), ((c:5;::pupil)), and ((c:6;::anterior chamber)). §<br>
+§§ The ((c:7;::anterior chamber)) is the part of the eye ((c:8;::between)) ((c:9;::the iris)) and ((c:10;::the cornea)) filled with ((c:11;::aqueous humour)). §<br>
+§§ The ((c:12;::iris)) controls the eyes ((c:13;::aperture)) = ((c:14;::the size of the pupil)). §<br>
+§§ The ((c:15;::iris)) is the thing that determines ((c:16;::eye color)). §<br>
+§§ The ((c:17;::pupil)) is a ((c:18;::hole)) through which ((c:19;::light travels into the eye)). §<br>
+§§ The ((c:20;::lens)) of the eye sits ((c:21;::behind the iris/pupil)). §<br>
+§§ The ((c:22;::vitreous body/humor)) is ((c:23;::a clear gel)). §<br>
+§§ The ((c:24;::optic nerve)) ((c:25;::connects the brain to the eye)). §<br>
+§§ We ((c:26;::can't see anything)) at ((c:27;::the blind spot)), since ((c:28;::we lack photoreceptor cells there)). §<br>
+§§ We require a ((c:29;::blind spot)) because ((c:30;::the optic nerve attaches there)). §<br>
+§§ Our brain ((c:31;::interpolates)) ((c:32;::the blind spot)) and ((c:31;::fills it in)). §<br>
+§§ The ((c:33;::retina)) is the  tissue ((c:34;::covering)) much of ((c:35;::the inner part of the eye)) and ((c:36;::transforms)) ((c:37;::light)) into ((c:37;::neural signals)) via ((c:38;::the photoreceptor cells)) ((c:39;::contained within)). §<br>
+§§ ((c:40;::Photoreceptor cells)) ((c:41;::transform light into biological signals.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}</span>
+
+((h:all;::<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">))
+
+<br>---<br>
+§§ The ((c:1;::anterior chamber of the eyeball)) lies ((c:2;::between)) ((c:3;::the cornea)) and ((c:4;::the iris/pupil)) §<br>
+§§ The ((c:5;::posterior chamber of the eyeball)) is ((c:6;::the narrow space between)) ((c:7;::the iris)) and ((c:8;::the suspensory ligament of the lens)) §<br>
+§§ the ((c:9;::aqueous humor)) and the ((c:10;::vitreous humor)) are ((c:11;::not the same thing)) §<br>
+§§ The ((c:12;::anterior chamber of the eyeball)) is ((c:13;::filled with)) ((c:14;::aqueous humor)) §<br>
+§§ The ((c:15;::space that fills most of they eye behind the lens)) is ((c:16;::filled by)) ((c:17;::vitreous body/humor)) §<br>
+§§ the ((c:18;::aqueous humour)) is ((c:19;::more fluid)) than the ((c:18;::vitreous humor)) §<br>
+===<br>
+
+<br>---<br>
+§§ The ((c:20;::white of the eye)) is more properly called the ((c:21;::sclera)). §<br>
+± This term 'sclera ±<br>
+§§ The ((c:22;::sclera)) ((c:23;::protecc)) your eye §<br>
+===<br>
+
+<br>---<br>
+§§ The ((c:24;::optic disc)) is the area where t((c:25;::he optic nerve 'enters'/connects with the eye)) §<br>
+§§ The ((c:26;::choroid)) is ((c:27;::the layer providing nourishment)) to the eye §<br>
+± In the middle between retina and sclera, there is a choir on steroids ±<br>
+§§ The ((c:28;::lens)) is ((c:29;::held in place by)) ((c:30;::the suspensory ligament of the lens)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>
+
+###### turnedness
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>definition</th>
+      <th>example image</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::upturned eyes))</td> <td>((c:2;s:3;::the outer corner is higher than the inner corner))</td> <td>((c:3;h:2;::<img src="sm_Screenshot%202020-07-27%20at%2015.11.11.png">))</td></tr>
+<tr><td>((c:4;::downturned eyes))</td> <td>((c:5;s:6;::the outer corner is at the same height as the inner corner, or lower))</td> <td>((c:6;h:5;::<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>definition</th>
+      <th>example image</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:7;::almond eyes))</td> <td>((c:8;s:9;::almost none or none of the iris is visible above your pupils))</td> <td>((c:9;h:8;::<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">))</td></tr>
+<tr><td>((c:10;::round eyes))</td> <td>((c:11;s:12;::almost all of the iris and perhaps some of the white is visible at the top))</td> <td>((c:12;h:11;::<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">))</td></tr>
+  </tbody>
+</table>
+---
+  <div class="flex-container">
+  <img class="width-50" src="sm_IMG_20200727_150936661.jpg">
+  </div>
+  
+  §§ ((c:15;::my eyes)) are ((c:13;::relatively almond::round/almondness)) and ((c:14;::relatively upturned::turnedness)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
 ###### eyelids
 
 <table class="cloze-group hide-if-inactive">
@@ -2193,7 +2697,77 @@ Disasters<br/><br>---<br>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
+#### digestive
+
+##### appendix & appendicitis
+
+§§ ((c:1;::Appendicitis)) is the english and formally correct name for ((c:2;::Blinddarmentzündung)). §<br>
+§§ Der ((c:3;::Wurmfortsatz des Blinddarms)) is the german name for ((c:4;::appendix)). §<br>
+§§ ((c:5;::appendicitis)) is ((c:6;::inflammation of)) ((c:7;::the appendix)) §<br>
+§§ ((c:8;::The inflammation of the appendix that is appendicitis)) is often caused by ((c:9;::a blockage of the appendix)). §<br>
+§§ ((c:10;::The blockage of the appendix leading to appendicitis)) is most commonly due to ((c:11;::a calcified 'stone' made of feces)). Due to this reason, ((c:12;::a high-fiber diet)) reduces ((c:13;::the long-term risk of appendicitis)). §<br>
+§§ The risk of getting ((c:14;::appendicitis)) at some point in your life is ((c:15;::7-8))%, most commonly in ((c:16;::those under 30)). §<br>
+§§ There is ((c:17;::a cluster ofsigns&amp;symptoms)) associated with ((c:18;::appendicitis)), but ((c:19;::a fairly high percentage (40%))) ((c:20;::do not present most/all of the typical symptoms)), and ((c:21;::a smaller percentage)) may have ((c:22;::their pain be located differently)), due to ((c:23;::the appendix itself being in a different location)). §<br>
+§§ The ((c:24;::pain)) for ((c:24;::appendicitis)) generally appears relatively ((c:25;::suddenly)) ((c:26;::near or above the belly button)), ((c:27;::from where it then moves)) ((c:28;::into the right lower belly)). §<br>
+§§ The ((c:29;::pain)) for ((c:29;::appendicitis)) is usually ((c:30;::strong)) and ((c:31;::gets worse)) with ((c:32;::(esp. jarring) movement)) (one can test for this by ((c:33;::jumping up or down))). §<br>
+§§ ((c:34;::The hamburger sign)) is used for ((c:35;::assessing if the person has appendicitis)): the person ((c:36;::is asked if they would like to eat their favorite food)): A ((c:37;::positive hamburger sign)) is ((c:38;::them declining the food)), with ((c:39;::a sensitivity (true postive rate))) of ((c:40;::80%)). §<br>
+§§ One of the symptoms of ((c:42;::appendicitis)) is ((c:41;::stiff)) ((c:43;::belly muscles)). Connected to this is ((c:44;::rebound tenderness)): If you ((c:45;::press on your belly for a while)), and then ((c:46;::suddenly release)), the ((c:47;::main pain)) will be ((c:47;::on release (though the initial press will also hurt))) §<br>
+§§ To determine the exisitence of ((c:48;::appendicitis)) with certainty, ((c:49;::CT/ultrasound)) is needed. §<br>
+§§ If ((c:50;::appendicitis is left untreated)), ((c:51;::the appendix may burst)), causing ((c:52;::the inflammation of the interior abdominal wall (peritonitis))). Once this has happened, there is ((c:53;::a high risk of death)). §<br>
+§§ ((c:54;::Appendicitis)) is also often accomodated by ((c:55;::nausea)) and ((c:55;::vomiting)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}</span>
+
+#### bloodstream
+
+##### emboli
+
+§§ An ((c:1;::embolus)) is ((c:2;::some kind of foreign object)) (amongst others: ((s:1-2;::((c:3;::thrombi)), ((c:4;::fat globules, gas bubbles, cholesterol plaque/crystals)))) ) that ((c:5;::travels through the bloodstream)). §<br>
+§§ If an ((c:11;::embolus)) ((c:6;::gets lodged)) and thus ((s:6;::((c:7;::blocks a blood vessel)))), this is known as an ((c:8;::embolism)). ((s:6-8;::If it's ((c:9;::a thrombus)) that ((c:9;::gets lodged)), it is known as a ((c:10;::thromboembolism)).)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ### muscles
+
+#### types of movement
+
+<table class="cloze-group hide-if-inactive">
+        <thead>
+          <tr><th>Image</th>
+      <th>Name of movement</th>
+        </tr></thead>
+        <tbody class="cloze-group-children hide-if-inactive-children">
+          <tr><td>((c:1;::<img src="eccentric-cont.png">))</td> <td>((c:2;::eccentric))</td></tr>
+      <tr><td>((c:3;::<img src="concentric-cont.png" ))<="" td=""> </td><td>((c:4;::concentric))</td></tr>
+      <tr><td>((c:5;::<img src="isometric-cont.png">))</td> <td>((c:6;::isometric))</td></tr>
+        </tbody>
+      </table>
+      <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+      
+
+#### naming & categorizing
+
+##### body
+
+<img src="muscle-anatomy-quiz.png"><br><table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No. in diagram</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::3))</td>
+      <td>((c:2;::Deltoids))</td>
+    </tr>
+    <tr>
+      <td>((c:1;::7))</td>
+      <td>((c:2;::Pecs))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+##### back
 
 <img src="sm_muscles_back.jpg">
 
@@ -2249,6 +2823,139 @@ Disasters<br/><br>---<br>
 §§The ((c:13;::opposite of)) ((c:14;::flexion)) is ((c:15;::extension)).§<br>
 §§((c:16;::Extension)) is ((c:17;::movement)) that ((c:18;::increases the angle between)) ((c:19;::things connecting at a joint (or similar point))).§<br>˛
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
+
+## beings
+
+### animals
+
+## genetics
+
+### genetic variety
+
+#### founder effect
+
+§§ The ((c:1;::founder effect)) is ((c:2;::the loss of genetic variation)) that occurs when ((c:3;::a new population is established)) by ((c:4;::a very small number of individuals from a larger population. (e.g. migrants)) §<br>
+§§ The ((c:5;::founder effect)) occurs due to ((c:6;::the reduced genetic diversity)) in ((c:7;::the founder population)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+## diseases
+
+### hansen's disease
+
+§§ ((c:1;::Hansen's disease)) is the proper name for ((c:2;::Leprosy)). §<br>
+§§ ((c:3;::Leprosy)) is spread  by ((c:4;::extensive contact of respiratory fluid)) §<br>
+§§ ((c:5;::95))% of people infected with  ((c:6;::Mycobacterium leprae or Mycobacterium lepromatosis)) ((c:7;::do not develop leprosy.)) §<br>
+§§ Signs of ((c:8;::leprosy)):  ((c:9;::Large discolored or pink patches on the skin)) §<br>
+§§ Symptoms of ((c:10;::leprosy)): ((c:11;::Poor eyesight)), ((c:12;::muscular atrophy)), ((c:13;::nerve damage)) -&gt; ((c:14;::lack of ability to feel pain)) -&gt; ((c:15;::more injuries)) §<br>
+§§ In the past, ((c:16;::leprosy)) was dealt with by ((c:17;::separating lepers into leper colonies/sanatoria.)) §<br>
+§§ Today, ((c:18;::leprosy)) can be ((c:19;::cured)) via ((c:20;::multidrug therapy)). §<br>
+§§ ((c:26;::Leprosy)) cases have been ((c:21;::decreasing rapidly)) - in the ((c:22;::1980s)), ((c:23;::5 million)) people were suffering from ((c:26;::leprosy)), by ((c:24;::2018)) that number ((c:25;::had fallen to 200k)) §<br>
+
+### benign paroxysmal positional vertigo
+
+{{c1::Benign paroxysmal positional vertigo}} is an illness that causes {{c2::vertigo (dizziness)}} upon {{c3::changes in the head position}}.
+Physiologically, {{c4::benign paroxysmal positional vertigo}} is caused by {{c5::dislocated crystals in the ear,}} however {{c6::the ultimate cause is often not clear}}.
+{{c7::Benign paroxysmal positional vertigo}} is more common in {{c8::the elderly}} and {{c9::women}}, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
+{{c12::Benign paroxysmal positional vertigo}} is often treated with {{c13::specific exercises}}.
+
+## pain
+
+### referred pain
+
+{{c1::referred pain}} is pain {{c2::felt somewhere else than the site of the stimulus}}.
+
+# cleaning
+
+## stains
+
+### gallseife
+
+§§ ((c:4;::Kernseife)) + ((c:5;::Rindergalle)) = ((c:6;::Gallseife)) §<br>
+§§ ((c:7;::gallseife)) kann ((c:8;::viele arten von flecken entfernen)) (((c:9;::fette, staerke, blut, obst, eiweiß))) §<br> 
+<div class="cloze-group hide-if-inactive">Flecken entfernen (Gallseife):
+<ol>
+  <li>((c:1;::Fleck anfeuchten))</li>
+  <li>((c:2;s:1;::Einreiben))</li>
+<li>((c:3;s:1-2;::Einige minuten (10-20 min) einwirken lassen))</li>
+  <li>((c:4;s:1-3;::Auswaschen / In die Waschmaschine))</li>
+</ol></div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+# massage
+
+## start to end
+
+### approaching
+
+§§ It is often said that you should ((c:1;::approach and depart from the other persons skin)) for the ((c:2;::massage (or other treatment))) ((c:3;::slowly)), ((s:gb;::so they can ((c:4;::get used to you coming / leaving)))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+## modalities
+
+### oil
+
+§§ ((c:1;::Massage)) can be performed ((c:2;::with or without)) ((c:3;::oil)). §<br> 
+§§ Using ((c:4;::oil)) during a massage makes it ((c:5;::glide more easily)), if you don't, ((s:gb;::((c:6;::quick / pressurefull / both movements)) might ((c:7;::irritate the skin)).)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+## techniques
+
+### tapotement
+
+((h:1;::<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">))\n((h:all;::<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">))\n((h:all;::<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">))\n((h:all;::<img src="sm_2021-06-23--02-10-23-screenshot.jpg">))§§ ((c:9;::Tapotement)) is massage with about ((c:10;::3-10 strokes per second)) performed ((c:11;::rythmically)) §<br>
+§§ What you do during ((c:9;::tapotement)) depends on ((c:12;::what variety you are using)) §<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Name of tapotement</th>
+      <th>Side of hand</th>
+      <th>the hand is...</th>
+      <th>the wrist is((h:all;::<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">))
+
+<br>---<br>
+§§ The ((c:1;::anterior chamber of the eyeball)) lies ((c:2;::between)) ((c:3;::the cornea)) and ((c:4;::the iris/pupil)) §<br>
+§§ The ((c:5;::posterior chamber of the eyeball)) is ((c:6;::the narrow space between)) ((c:7;::the iris)) and ((c:8;::the suspensory ligament of the lens)) §<br>
+§§ the ((c:9;::aqueous humor)) and the ((c:10;::vitreous humor)) are ((c:11;::not the same thing)) §<br>
+§§ The ((c:12;::anterior chamber of the eyeball)) is ((c:13;::filled with)) ((c:14;::aqueous humor)) §<br>
+§§ The ((c:15;::space that fills most of they eye behind the lens)) is ((c:16;::filled by)) ((c:17;::vitreous body/humor)) §<br>
+§§ the ((c:18;::aqueous humour)) is ((c:19;::more fluid)) than the ((c:18;::vitreous humor)) §<br>
+===<br>
+
+<br>---<br>
+§§ The ((c:20;::white of the eye)) is more properly called the ((c:21;::sclera)). §<br>
+± This term 'sclera ±<br>
+§§ The ((c:22;::sclera)) ((c:23;::protecc)) your eye §<br>
+===<br>
+
+<br>---<br>
+§§ The ((c:24;::optic disc)) is the area where t((c:25;::he optic nerve 'enters'/connects with the eye)) §<br>
+§§ The ((c:26;::choroid)) is ((c:27;::the layer providing nourishment)) to the eye §<br>
+± In the middle between retina and sclera, there is a choir on steroids ±<br>
+§§ The ((c:28;::lens)) is ((c:29;::held in place by)) ((c:30;::the suspensory ligament of the lens)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>...</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Pounding/beating/pumelling))</td><td>((c:2;::ulnar))</td><td>((c:2;::loose fist))</td><td>((c:2;::loose wrists))</td></tr>
+    <tr><td>((c:1;::Hacking))</td><td>((c:2;::ulnar))</td><td>((c:2;::fairly straight))</td><td>((c:2;::loose wrists))</td></tr>
+    <tr><td>((c:1;::Cupping))</td><td>((c:2;::palmar))</td><td>((c:2;::cupped/slightly gathered))</td><td></td></tr>
+    </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+## concepts
+
+### trigger points and myofascial release
+
+§§ ((c:2;::Trigger points)) are (at the very least) spots that feel ((c:1;::painful)). §<br>
+§§ ((c:3;::How much of a physiological reality)) ((c:4;::trigger points)) have is ((c:5;::a subject of ongoing controversy))((h:gb;::, amongst other things whether ((c:6;::they are or are not nodules)))). §<br> 
+§§ ((c:7;::Trigger points)) may also be referred to as ((c:8;::muscle knots)) ((h:gb;::(however, ((c:9;::they are definitley not knots in a muscle))))). §<br> 
+§§ Often other things ((c:10;::will be mistaken for trigger points)), such as ((c:11;::tendons or tensed-up muscles)). §<br>
+§§ ((c:12;s:13;::Myofascial release)) / ((c:13;s:12;::trigger point therapy)) is mainly concerned with ((c:14;::trigger points)).  §<br>
+§§ In ((c:15;::myofascial release/trigger point therapy)), you ((c:16;::compress a trigger point)) for ((c:17;::typically a minute or a few minutes)), without using ((c:18;::lubricants)). ((h:gb;::Trigger points may ((c:19;::twitch)) when ((c:20;::compressed)), and ((c:21;::refer pain)). ((h:gb;::There is not much evidence for trigger point therapy ((c:22;::providing any long-term medical benefits)), but ((c:23;::it does feel quite good and act as pain relief)).)))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}</span>
 
 # sexuality & attraction
 
@@ -2546,6 +3253,32 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 
 # isms
 
+## phenomena
+
+### violence
+
+#### behavioral and structural
+
+<br>---<br>
+  §§ ((c:1;::Structural violence)) is ((c:2;::the tangible harm)) done by ((c:3;::social structures)). §<br>
+§§ ((c:6;::behavioral violence)) is ((c:4;::the tangible harm)) done ((c:5;::by agents volitionally)) §<br>
+§§ ((c:7;::Structural violence)) is contrasted with ((c:8;::behavioral violence)). §<br>
+§§ However, in a second analysis, we might argue that ((c:9;::we can reduce behavioral violence to structural violence)), for example via the concepts of ((c:10;::stochastic/scripted terrorism/violence)) §<br>
+§§ ((c:11;::about 300k deaths in a year in the US are attributable to income inequality)) is an example of ((c:12;::structural violence)) §<br>
+§§ ((c:13;::"Over 20 years’ worth of studies show that people of color who arrive at a hospital while having a heart attack are significantly less likely to receive aspirin, beta-blocking drugs, clot-dissolving drugs, acute cardiac catheterization, angioplasty, or bypass surgery.")) is an example of ((c:14;::structural violence)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+##### stochastic violence
+
+<br>---<br>
+  §§ ((c:1;::Stochastic violence)) is the idea of ((c:2;::spreading a violent message via mass communication)), which ((c:3;::makes resulting acts of violence)) ((c:5;::probable)), but ((c:4;::the actual place and time of the occurrence are)) ((c:5;::random)). §<br>
+§§ ((c:6;::Stochastic violence)) used for ((c:7;::terrorism)) is called ((c:8;::stochastic terrorism)) §<br>
+§§ By ((c:9;::transforming)) ((c:10;::lone wolves)) ((c:9;::into)) ((c:10;::instances of larger patterns of violent messages)), ((c:11;::stochastic violence)) ((c:12;::unmasks behavioural violence)) as ((c:13;::structural violence)) (perhaps) §<br>
+§§ ((c:14;::Scripted violence)) is where ((c:15;::someone describes the kind of violence they want to be carried out)), and then ((c:16;::leaves it up to the audience to carry out this violence)). It may be seen as an instace of ((c:17;::attempted stochastic violence/terrorism)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
+
 ## structural system
 
 ### + 
@@ -2592,23 +3325,58 @@ x normativity normalizes the + of the relevant ism
 
 ### -
 
+#### chasers
+
+<br>---<br>
+  §§ A ((c:1;::chaser)) ((c:2;::fetishizes)) and thus ((c:3;::pursues)) ((c:4;::the - group of an ism)).˛ §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 #### pick me
 
 A pick me x (girl/gay/whatever) is a - person who tries to distinguish themselves from other - people by separating themselves from traits associated with - by treating those traits negatively, in order to gain approval from + people.
 By treating traits associated with - negatively, pick me x's strengthen the association of - with negative status.
 
-#### ceiling
+#### economics
 
-the x ceiling is the unofficial limit on career advancement that people with a certain - identity face.
+##### pay gap
+
+<br>---<br>
+  §§ The ((c:1;::x pay gap)) or ((c:1;::x wage gap)) is the ((c:2;::difference between the remuneration)) ((c:4;::for - group and + group of an ism)) for ((c:3;::work)). §<br>
+§§ There are two forms of ((c:5;::x pay/wage gap)), ((c:6;::non-adjusted)) and ((c:7;::adjusted.)) §<br>
+§§ The ((c:8;::non-adjusted)) ((c:10;::pay gap)) {{c11::just takes into account the difference in average pay} §<br>
+§§ The ((c:12;::adjusted)) ((c:9;::pay gap)) ((c:13;::adjusts for factors such as employee's age, education level, years of work experience, occupation, industry, location, company and job title)) §<br>
+§§ The pay gap that it was coined for was the ((c:14;::gender pay gap)), there is however also ((c:15;::strong evidence for pay gaps for other - groups,)) such as ((c:16;::the race pay)) gap. §<br>
+§§ For ((c:17;::intersectional identities)), ((c:18;::pay gaps)) can be ((c:19;::stark indeed)), for example, ((c:20;::black women)) are payed ((c:21;::63 cents)) and ((c:22;::latina women)) just ((c:23;::55 cents)) (both ((c:24;::non-adjusted) )) for ((c:25;::each dollar a white man makes.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
+##### ceiling
+
+the x ceiling is the unofficial/uncodified/'invisible' limit on career advancement that people with a certain - identity face.
 heterosexism|lavender ceiling
 sexism|glass ceiling
+racism (asian-american)|bamboo ceiling
+nativisim (refugees)|canvas ceiling
+classism|class ceiling
 
-##### cliff
+Importantly, the cotton ceiling is the exclusion of trans people from consideration as sexual partners, not anything to do with employment.
+
+###### cliff
 
 <br>---<br>
   §§ the ((c:1;::x cliff)) is the idea that even if ((c:2;::people with a - identity))) ((s:4;s:5;::((c:3;::break through the glass ceiling)))), they are often given ((c:4;::executive positions)) during ((c:5;::periods of crisis/downturn)), where ((s:5;:: ((c:6;::the risk of failure is highest)), e.g. ((s:6;c:7;::Ellen Pao at reddit, Thresa May after brexit.)))) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+#### culture
+
+x culture, where x is an aspect of the - experience is the pervasiveness and normalization of x.
+
+#### victim-blaming
+
+Victim blaming occurs when the victim of a crime or any wrongful act is held entirely or partially at fault for the harm that befell them.
+Victim blaming is common when someone has been victim of violence based on one's - experience.
 
 ## more than one identity
 
@@ -3469,6 +4237,471 @@ OCD|Obsessive-compulsive disorder.
 ===<br>
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}</span>
+
+# phys
+
+## thermodynamics
+
+§§ The ((c:1;::second law of thermodynamics)) states that ((c:2;::the total entropy)) of an ((c:2;::isolated system)) can ((c:3;::never decrease over time)). §<br>
+
+## optics
+
+§§ In optics, an ((c:1;::aperture)) is an ((c:2;::opening)) ((c:3;::through which light travels)), or ((c:4;::its size.)) §<br>
+
+## electromagnetism
+
+### electricity
+
+#### conductivity
+
+<br>---<br>
+  §§ Electrical conductivity: ((c:1;s:all;::Conductors)) &gt; ((c:2;s:all;::semiconductors)) &gt; ((c:3;s:all;::insulators)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+### magnetism
+
+#### magnetometers
+
+§§ A ((c:2;::magnetometer)) is ((c:3;::a device that measures)) ((c:1;::magnetism)). §<br>
+§§ A ((c:4;::compass)) is a form of ((c:5;::magnometer)), since/therefore ((c:6;::it's needle always points to (magnetic) north.)) §<br>
+
+## atomic physics
+
+§§ An ((c:2;::atom)) is made up of ((c:3;::a nucleus)) and ((c:1;::some electrons)) §<br>
+§§ The ((c:4;::nucleus)) of an atom is made up of ((c:5;::neutrons)) and ((c:6;::protons)). §<br>
+§§ Of ((c:7;::the parts of the atom)), ((c:8;::electrons)) are the easiest to ((c:9;::detach)). §<br>
+
+## mechanics
+
+### rotation
+
+§§ ((c:1;::rotational force))  is also called ((c:2;::torque)) §<br>
+
+### continuum mechanics
+
+#### fluid mechanics
+
+##### fluids
+
+§§ In ((c:1;::physics and related disciplines)), a ((c:2;::fluid)) is a ((c:3;::liquid)), ((c:3;::gas)), ((c:4;::plasma)) or ((c:5;::any other thing)) that ((c:6;::behaves as described in fluid mechanics ("will continually deform under an applied shear stress"))). §<br>
+
+# chem
+
+## general phenomena
+
+### reactions
+
+#### basic terminology
+
+<p>§§A ((c:1;::reagent)) is a substance ((c:2;::added to a system)) to ((c:3;::cause a chemical reaction)).§<br>
+§§A(n) ((c:4;::reagent)) that ((c:5;::is consumed in)) a chemical reaction is called a(n) ((c:6;::reactant)).§<br>
+§§((c:7;::The things)) ((c:8;::created in a(n) chemical reaction)) are known as ((c:9;::products)).§<br></p>
+<p>§§The ((c:10;::substrate)) is ((c:11;::the medium in which)) {{c12::a chemical reaction takes place}.§<br>
+§§The ((c:13;::substrate)) is also ((c:14;::the substance that is)) ((c:15;::transformed in a reaction)).§<br>
+§§In biology, an ((c:16;::enzym substrate)) is ((c:17;::the organic material)) that ((c:18;::is transformed in a reaction)).§<br></p>
+<p>§§((c:19;::Synthesis)) in chemistry is ((c:20;::performing one or more chemical reactions)) to ((c:21;::convert)) ((c:22;::any number of reagents/reactants)) into ((c:23;::any number of products)).§<br>
+§§In general, ((c:24;::synthesis)) produces ((c:25;::more complex compounds)) as ((c:26;::products (than its reagents/reactants)))§<br>
+§§((c:27;::Biosynthesis)) is ((c:28;::synthesis)) ((c:29;::within an organism)), using ((c:30;::enzyms as catalysts)).§<br></p>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>
+
+#### exothermic
+
+##### oxidation
+
+###### fire
+
+####### extinguishing
+
+######## brandklassen
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Brandklasse</th>
+    <th>Wofür?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Klasse A))</td> <td>((c:2;::Feste, glutbildende stoffe, z.B. Holz, Textilien))</td></tr>
+<tr><td>((c:3;::Klasse B))</td> <td>((c:4;::Flüssige oder flüssig werdende stoffe, z.B. Benzin, Öle))</td></tr>
+<tr><td>((c:5;::Klasse C))</td> <td>((c:6;::Gase))</td></tr>
+<tr><td>((c:7;::Klasse F))</td> <td>((c:8;::Fettbrände (Fettbrand braucht F, niemals mit A oder B löschen)))</td></tr>
+  </tbody>
+</table>
+
+######## extinguishers
+
+§§ ((c:2;::Pulver))löscher sollten nicht ((c:3;::in der wohnung)) verwendet werden, weil ((c:1;::sie elektronische geräte etc. zerstören)) §<br>
+
+######## stop drop roll
+
+<ol>
+  <li>((c:1;::Stop))</li>
+  <li>((c:2;s:1;::Drop to ground))</li>
+  <li>((c:3;s:1-2;::Cover your face w hands))</li>
+  <li>((c:4;s:1-3;::Roll back and forth))</li>
+  </ol>
+
+### bonds
+
+#### intramolecular
+
+##### covalent 
+
+<br>---<br>
+  §§A ((c:1;::covalent)) ((c:4;::bond)) is a ((c:4;::intra molecular bond)) that involves the ((c:2;::sharing)) of ((c:3;::electron pairs)) between atoms.§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+#### intermolecular
+
+## things
+
+### mixtures
+
+§§If multiple substances ((c:2;::can be mixed)), they are ((c:1;::miscible)), if they ((c:2;::cannot be mixed)), they are ((c:1;::immiscible)). §<br>
+§§An example of ((c:3;::immiscible)) liquids are ((c:4;::oil and water)).§<br>
+§§An ((c:5;::emulsfier)) allows two ((c:6;::normally)) ((c:7;::immiscible)) liquids to ((s:gb;::become ((c:8;::an emulsion)), that is, to ((c:9;s:gb;::become mixed)).))§<br>
+§§In german, an ((c:10;::emulsfier)) is called ((c:11;::Emulgator)), an ((c:10;::emulsion)) ((c:11;::Emulsion)).§<br>
+
+### molecules
+
+§§A ((c:1;::molecule)) is a ((c:2;::group of two or more)) ((c:3;::atoms)) ((c:4;::held together)) by ((c:5;::chemical bonds)). Sometimes the constraint is added that they must be ((c:6;::electrically neutral)), to distinguish them from ((c:7;::ions))§<br>
+
+#### moiety
+
+§§a ((c:1;::moiety)) is ((c:3;::a part)) of a ((c:2;::molecule)) that is ((c:4;::given a name)) because it is identified as ((c:5;::a part of other molecules as well)).§<br>
+
+#### functional groups
+
+§§The ((c:4;::same)) ((c:1;::functional group)) will undergo the ((c:4;::same or similar)) ((c:2;::chemical reactions)) regardless of ((c:3;::the rest of the molecule's composition)).§<br>
+§§a ((c:5;::functional group)) is a part of a ((c:6;::molecule)) that causes the ((c:6;::molecule))'s ((c:7;::characteristic chemical reactions))§<br>
+
+### atom
+
+#### elements
+
+##### chemical symbols
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>
+      Chemical Symbol
+    </th>
+    <th>
+      Name
+    </th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>
+        ((c:1;::Fe))
+      </td>
+      <td>
+        ((c:2;::Iron))
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+##### classes
+
+###### noble gases
+
+<br>---<br>
+  §§The ((c:4;::noble gases)) ((c:3;::outer shell of valence electrons)) is considered to be ((c:2;::"full")), giving them little tendency to ((c:1;::participate in chemical reactions))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+#### electrons
+
+##### shells
+
+<br>---<br>
+§§an ((c:3;::electron shell)) may be thought of as ((c:4;::an orbit)) of ((c:1;::electrons)) ((c:4;::around)) an atom's ((c:2;::nucleus)).§<br>
+§§Each ((c:4;::shell)) is composed of one or more ((c:5;::subshells)), which are themselves composed of ((c:6;::atomic orbitals)). §<br>
+===<br>
+<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Shell Number</th>
+    <th>Shell Letter</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td><span class="c7-cloze">1</span></td>
+      <td><span class="c8-cloze">K</span></td>
+    </tr>
+    <tr>
+      <td><span class="c9-cloze">2</span></td>
+      <td><span class="c10-cloze">L</span></td>
+    </tr>
+    <tr>
+      <td><span class="c11-cloze">3</span></td>
+      <td><span class="c12-cloze">M</span></td>
+    </tr>
+    <tr>
+      <td>etc...</td>
+      <td>etc...</td>
+    </tr>
+  </tbody>
+</table>
+<br>---<br>
+§§The ((c:13;::closer the shell to the nucleus)), the ((c:14;:: smaller its number / earlier to the alphabet its letter))§<br>
+§§the ((c:16;::nth)) ((c:15;::shell)) can in principle hold up to ((c:17;::2(n<sup>2</sup>))) electrons.§<br>===<br>
+<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Shell</th>
+    <th>Can hold this many electrons</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td><span class="c18-cloze">1 / K</span></td>
+      <td><span class="c19-cloze">2</span></td>
+    </tr>
+    <tr>
+      <td><span class="c20-cloze">2 / L</span></td>
+      <td><span class="c21-cloze">8 (2 + 6)</span></td>
+    </tr>
+    <tr>
+      <td><span class="c22-cloze">3 / M</span></td>
+      <td><span class="c23-cloze">18 (2 + 6 + 10)</span></td>
+    </tr>
+    <tr>
+      <td>etc...</td>
+      <td>etc...</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
+
+
+### elementary particles
+
+§§A ((c:1;::valence electron)) is an electron ((c:2;::in the outer shell of an atom))§<br>
+
+### more than one category
+
+#### radicals
+
+§§A ((c:1;::radical)) or ((c:1;::free radical)) is a(n) ((c:2;::atom/molecule/ion)) that has ((c:3;::an unpaired valence electron = unfilled valence shell)), which generally makes them ((c:4;::highly reactive)).§<br>
+
+#### ions
+
+<br>---<br>
+  §§An ((c:1;::ion)) is a particle, atom or molecule with a ((c:2;::net electrical charge)).§<br>
+§§A ((c:3;::cation)) is a ((c:4;::positively)) charged ion with ((c:5;::fewer)) ((c:6;::electrons)) ((c:5;::than)) ((c:6;::protons))§<br>
+§§A ((c:7;::anion)) is a ((c:8;::negatively)) charged ion with ((c:9;::more)) ((c:10;::electrons)) ((c:9;::than)) ((c:10;::protons))§<br>
+§§Because of ((c:11;::their opposite electric charges)), ((c:12;::cations)) and ((c:12;::anions)) ((c:13;::attract each other)) and readily form ((c:14;::ionic compounds)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+# lock-picking
+
+## lockpicking tools
+
+<br>---<br>
+  §§ In general, the three major types of lockpicking tools are ((c:1;::hooks)), ((c:2;::rakes)), and ((c:3;::tensioning tools)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+## basic lock model
+
+((h:all;::<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">))
+((h:all;::<img src="sm_Shear-Line-Lock-Picking-Theory.png">))<br>---<br>
+  §§ We can construct a basic sort of lock with ((c:1;::a pencil)) and ((c:2;::two pieces of paper.)) §<br>
+§§ The ((c:3;::gap between the two pieces of paper)) is ((c:4;::the shear line)), and ((c:5;::the pencil)) is ((c:6;::the pin)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+## lock externals
+
+((h:2;::<img src="sm_220px-Zylinderset.jpg">))
+<img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/><br>---<br>
+§§ Everything else in a ((c:7;::cylinder lock)) is ((c:8;::contained in)) ((c:9;::the cylinder(shell/casing/housing/body) )) §<br>
+§§ If we were to ((c:10;::cut apart an average door in europe or the US)) and ((c:11;::take the locking mechanism out)), we would be seeing ((c:12;::the cylinder (shell/casing/housing/body))). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::The keyway))</td> <td>((c:2;::the slit into which the key is inserted))</td> <td>((c:3;::<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">))</td></tr>
+<tr><td>((c:4;::The shoulder of a key))</td> <td>((c:5;::what prevents it from being inserted too far))</td> <td>((c:6;::<img src="sm_schlage-lock-diagram4.jpg">))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ The ((c:13;::cylinder)) of a lock is also called ((c:14;::shell/housing/casing/body)). §<br>
+§§ ((c:15;::A lock that is contained in a cylinder)) is known as ((c:16;::a cylinder lock)). §<br>
+§§ ((c:17;::Cylinder locks)) are i((c:18;::ndependent from the boltwork)), and so ((c:19;::allow easy maintenance)). §<br>
+§§ ((c:20;::Pin tumbler locks)) are the most common type of ((c:21;::mechanism)) for ((c:22;::cylinder locks)). §<br>
+§§ ((c:23;::A pin tumbler lock)) uses ((c:24;::pins)) ((c:25;::contained in a tumbler)) to ((c:26;::prevent locks from opening)). §<br>
+§§ ((c:27;::Pin tumbler locks)) are the ones we think of when we think of ((c:28;::locks and lock-picking)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}</span>
+
+## image labelling
+
+<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png"><br><table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>thing in the image</th>
+    <th>name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::the blue and red things))</td> <td>((c:12;::the pins))</td></tr>
+<tr><td>((c:13;::the blue pins))</td> <td>((c:14;::the driver pins))</td></tr>
+<tr><td>((c:9;::the red pins))</td> <td>((c:10;::the key pins))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:15;::the plug))</td> <td>((c:16;::yellow in the image))</td></tr>
+<tr><td>((c:17;::the casing))</td> <td>((c:18;::green in the image))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>current status</th>
+    <th>pin</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Overset))</td> <td>((c:2;::pin 4 (from front)))</td></tr>
+<tr><td>((c:3;::being picked))</td> <td>((c:4;::pin 5 (from front)))</td></tr>
+<tr><td>((c:5;::successfully picked))</td> <td>((c:6;::pin 1 and 3 (from front)))</td></tr>
+<tr><td>((c:7;::unpicked))</td> <td>((c:8;::pin 2 (from front)))</td></tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+## comb picks
+
+<span class="c1-f">
+What are these called?
+</span><br/><img class="c1-f all-b" src="sm_200px-Pin_tumbler_bypass.svg.png">
+<img class="c1-f all-b" src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/><br>---<br>
+  §§Some insecure locks allow us to unlock them by ((c:8;:: pushing both key and driver pins )) ((c:9;::past the shear line)) §<br>
+  §§ ((c:2;::comb picks)) ((c:3;::push)) ((c:4;::both driver and key pins)) ((c:3;::completely into the lock)) §<br>
+§§ comb picks might look like ((c:5;::&lt;image&gt;)) §<br>
+§§ What normally ((c:6;::prevents us from just pushing all pins completely above the shear line w/ comb picks)) is ((c:7;::that there isn't enough space in the lock)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+## shear line
+
+((h:1;::<img src="sm_200px-Pin_tumbler_bypass.svg.png">))
+((h:1;::<img src="sm_How-a-Lock-Works-Animation.gif">))
+<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
+
+<img src="Pin-Tumbler-Lock-Shear-Line.png"><br/><br>---<br>
+§§ The ((c:1;::shear line)) is ((c:2;::the gap between)) ((c:3;::the casing)) and ((c:3;::the plug)) §<br>
+§§ ((c:4;::the driver pins)) are the pins that ((c:5;::the springs are directly contactin))g §<br>
+§§ ((c:6;::the key pins)) are the pins that ((c:7;::the key will directly contact)) and that ((c:8;::thus 'read' the key)) §<br>
+§§ To ((c:9;::open a door)), ((c:10;::the plug)) ((c:11;::must be able to rotate)). §<br>
+§§ If a door is ((c:12;::locked)), ((c:13;::the pins)) are ((c:14;::preventing the plug from rotating)). §<br>
+§§ For the ((c:17;::plug to be able to rotate)), ((c:15;::the gaps between pins)) must ((c:16;::line up with the shear line.)) §<br>
+§§ If ((c:18;::the correct key is inserted)), it makes ((c:19;::the gaps between pins)) ((c:20;::line up with the shear line)). §<br>
+§§ To ((c:21;::prevent any old key to be used to open a lock)), ((c:22;::the key pins have different lengths)) §<br>
+§§ If you ((c:23;::insert the wrong key into a lock)), the lock will not open because ((c:24;::gaps between pins not in line with shear line)) §<br>
+§§ The part of the lock that we are exploiting to pick is ((c:25;::the shear line)) §<br>
+§§ The thing that ((c:26;::keeps the pins down in a lock)) are ((c:27;::the springs)). §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:28;::<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">))</td> <td>((c:29;::Locked))</td></tr>
+<tr><td>((c:30;::<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">))</td> <td>((c:31;::unlocked with a key))</td></tr>
+<tr><td>((c:32;::<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">))</td> <td>((c:33;::wrong key))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span>
+
+## manufacturing tolerances
+
+<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">
+((h:all;::<img src="sm_Real-Plug-Lock-Flaws.jpg">))<br>---<br>
+  §§ In a general sense, locks would ((c:4;::not be pickable)) if not for ((c:5;::manufacturing tolerances)). §<br>
+§§ The reason that ((c:6;::not all pins bind)) once you ((c:7;::apply rotational tension)) is tha((c:8;::t the holes are ever-so-slightly off-center)). §<br>
+§§ The pin that will ((c:1;::bind here first)) if we ((c:2;::rotate in the upwards direction)) is ((c:3;::the second or the fourth pin.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+## binding pins
+
+((h:all;::<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif">))
+((h:all;::<img src="sm_Lock-Picking-Single-Pin-Picking.gif">))
+((h:all;::<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">))<br>---<br>
+§§ A ((c:8;::bound)) pin is the one that if ((c:9;::rotational tension is being applied)) is ((c:10;::hard to move (won't slip))) §<br>
+§§ ((c:11;::Applying rotational tension)) allows ((c:12;::pins)) to ((c:13;::bind)), and thus ((c:14;::setting them)). §<br>
+§§ Pins can only ((c:15;::bind)) if ((c:16;::rotational tension is being applied)), otherwise ((c:17;::they won't get stuck)) and f((c:18;::all right back into the cylinder.)) §<br>
+§§ There is ((c:21;::most often (though not always))) ((c:19;::only one)) ((c:20;::binding pin)) at a time. §<br>
+§§ The ((c:22;::binding pin)) is ((c:23;::the pin)) that ((c:24;::is currently being bound)) (or ((c:24;::will be bound once rotational tension is applied))), and thus is ((c:25;::the next pin that can be set.)) §<br>===<br>
+
+
+<br>---<br>
+§§ ((c:26;::Single pin picking)) is ((c:27;::picking the pins one at a time)), which looks something like ((c:30;::&lt;image above&gt;)) §<br>
+§§ ((c:28;::Single pin picking)) uses ((c:29;::hooks)) as tools, which look something like ((c:31;::&lt;image&gt;)) §<br>
+§§ Core loop of ((c:32;::single pin picking)): ((c:33;::find binding pin)) -&gt; ((c:34;::set binding pin)) §<br>
+§§ To ((c:35;::test if)) ((c:36;::sth is a binding pin)), you ((c:37;::push it slightly)). §<br>
+§§ Compared to ((c:38;::non-binding pins)), if we push on ((c:38;::the binding pin)), it will feel ((c:39;::slightly stiffer and harder to lift)). §<br>
+§§ T((c:40;::o set the binding pin)), we ((c:41;::push on the pin)) until ((c:42;::we reach the shear line)). §<br>
+§§ Once ((c:43;::you've pushed the binding pin to the shear line)), if ((c:44;::you've set the pin)), ((c:45;::the driver pin will catch)) and t((c:46;::he key pin will fall into the plug)). §<br>
+§§ Once ((c:47;::you've pushed the binding pin to the shear line)), if y((c:48;::ou've set the pin)), you probably hear ((c:49;::a slight click)) or feel ((c:50;::a slight rotation)). §<br>
+§§ However, it is also possible to §<br>===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::push the binding pin in too far))</td> <td>((c:2;::overset))</td> <td>((c:3;::<img src="sm_overset_1130.jpg">))</td></tr>
+<tr><td>((c:4;::not push the binding pin in far enough))</td> <td>((c:5;::underset))</td> <td>((c:6;::<img src="sm_underset_1130.jpg">))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ If you ((c:51;::can no longer find a binding pin)), you have likely ((c:7;::overset or underset a pin)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}</span>
+
+## tensioning
+
+<span class="c1-f">What is this tool?</span><br><img class="c1-f all-b" src="sm_standard-tension-wrench.jpg"><br><br>---<br>
+  §§ ((c:3;::tensioning tools)) are for ((c:4;::applying tension to the lock (to bind the pins))) §<br>
+§§ The ((c:5;::tension wrench)) is ((c:6;::the most common type of)) ((c:7;::tensioning tool.)) §<br>
+§§ A tension wrench might look like ((c:2;::&lt;image&gt;)) §<br>
+§§ A ((c:8;::tension wrench)) has ((c:9;::a short end)) to ((c:10;::place in the keyway)) and ((c:9;::a long end)) to ((c:10;::act as a lever)). §<br>
+§§ You need to apply ((c:11;::very little tension)) with ((c:12;::the tension wrench)) to bind the pins. §<br>
+§§ ((c:13;::Letting go of the tension applied with the tension wrench)) ((c:14;::resets the lock)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+## raking
+
+<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img class="all-b c1-f" src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/><br>---<br>
+  §§ ((c:2;::Raking)) is ((c:3;::scrubbing the pins)) until we ((c:4;::happen to set all the pins)). §<br>
+§§ Raking might look like ((c:5;::&lt;image&gt;)) §<br>
+§§ ((c:6;::Raking)) has roughly the same motion as ((c:7;::brushing your teeth)). §<br>
+§§ In raking, we ((c:8;::add tension)) and then ((c:9;::scrub the pins)). §<br>
+§§ In raking, while ((c:10;::scrubbing the pins)), ((c:11;::vary)) things like ((c:12;::speed, tension, angle, height, etc)) ((c:11;::slightly)). §<br>
+§§ In raking, we ((c:13;::reset the lock)) by ((c:14;::removing tension.)) §<br>
+§§ In ((c:15;::raking)), we often have to ((c:16;::reset the lock a few times)) before it works §<br>
+§§ ((c:17;::Raking)) has the main advantage of ((c:18;::being fast (to open the lock))), but the disadvantage of ((c:19;::not working well for more difficult locks)). §<br>
+((c:23;::Raking)) uses ((c:22;::rakes)) as tools, which look like ((c:20;::&lt;image&gt;))
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 # knots
 
@@ -5410,7 +6643,31 @@ Alexander Hamilton
 
 # misc
 
+## thread postural technique
+
 <br>---<br>
   §§ A common ((c:5;::posture technique)) involves ((c:1;::imagining)) ((c:2;::a string)) ((c:3;::connected to the top of your head)) ((c:4;::pulling you upwards (straight))). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## screw direction
+
+<table class="cloze-group hide-if-inactive">
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Screws tighten))</td>
+      <td>((c:2;::clockwise))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::Screws loosen))</td>
+      <td>((c:4;::counterclockwise))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+## breath
+
+§§ ((c:1;::four-stage breathing techniques)) (roughly equivalent to ((c:2;::pranayama))) consists of the steps ((s:gb;::((c:3;::Breathe in)) ((s:gb;::((c:4;::Hold)) ((s:gb;::((c:5;::Breathe out)) ((s:gb;::((c:6;::hold)).))))))))  §<br>
+§§ Often, ((c:7;::the four steps of four-stage breathing/pranayama are the same length)), in that case, it is often called ((c:8;::box/square breath)). Commonly, each step is held for ((c:9;::4-5))s. §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
