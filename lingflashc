@@ -3298,6 +3298,8 @@ ortographically shallow|spanish, japanese
 
 #### emoji & emoticons
 
+##### emoticons
+
 <br>---<br>
   §§ An ((c:22;::emoticon)) represents ((c:23;::a face)) using  ((c:21;::typographical characters)) §<br>
 ===<br>
@@ -3646,9 +3648,9 @@ A non-heteronomous language is autonomous.
 Baviarian is heteronomous in relaiton to standard german.
 A heteronomous language will tend to change towards the standard variety. 
 
-### value (?)
+### value, correctness, power
 
-Linguistic prescription is establishing rules for the correct or good use of a language.
+#### prestige
 
 Prestige is the level of regard given to a thing within a given speech community
 A lect with high prestige is called a prestige variety.
@@ -3656,10 +3658,26 @@ Prestige may be applied to lects or to smaller units such as words or grammatica
 Most commonly, standard varieties are prestige varieties.
 Covert prestige is the situation in which a non-standard variety has high prestige
 
+#### linguistic prescriptivism
+
+Linguistic prescription is establishing rules for the correct or good use of a language.
+
+##### language academies
+
+<br>---<br>
+  §§ ((c:1;::Language academies)) are institutions ((c:2;::regulating standard languages)), generally following ((c:3;::linguistic prescriptivism)) §<br>
+§§ The ((c:4;::RAE)) (((c:5;::Real Academia Española))) is the ((c:6;::spanish)) ((c:7;::language academy)), generally ((c:8;::quite conservative)) in outlook §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+##### dialect
+
 Dialect as a term often implies negative value ('mere dialect').
 People very confused may use dialect to mean accent.
 In regions such as Italy, France and the Philippines separate but non-standard sister languages to the standard variety are called and (falsely) considered to be dialects.
 In an academic setting, a dialect is either a synonym of variety/lect or for regiolect.
+
+#### language dominance
 
 Language dominance is either the more frequent/ready use of or proficiency in one language more than another, either of a given speaker or within a speech community.
 
@@ -3817,11 +3835,56 @@ A linguistic universal is a pattern that occurs systematically across (most ofte
 
 ### corpora
 
+<br>---<br>
+  §§ A ((c:3;::corpus)) is a ((c:1;::set)) of ((c:4;::text/language)). §<br>
+§§ ((c:5;::Corpora)) are generally designed to be ((c:6;::machnine-readable)). §<br>
+§§ ((c:7;::Corpus linguistics)) studies ((c:8;::language)) ((c:9;::via corpora)). §<br>
+§§ The ((c:1;::corpus)) is a ((c:2;::sample)) of the ((c:2;::population (all relevant language))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
 #### parallel text
 
 §§ A ((c:1;::parallel text)) is a text ((c:2;::placed alongside)) ((c:3;::its translation(s)/transcriptions.)) §<br>
+§§ A ((c:10;::corpus)) of ((c:11;::parallel texts)) is ((c:12;::a parallel corpus)) §<br>
 §§ The ((c:4;::rosetta stone was)) ((c:5;::a parallel text)) with the text ((c:6;::in ancient egyptian)) written in both ((c:7;::hieroglyphic)) and ((c:7;::demotic)) ((c:7;::scripts)) as well as in ((c:8;::ancient greek)). §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+### collocations
+
+<br>---<br>
+  §§ A ((c:1;::collocation)) is a series of words or terms that ((c:2;::co-occur)) ((c:3;::more often than would be expected by chance)). §<br>
+§§ ((c:4;::Colligation)) is ((c:5;::collocation)) with ((c:6;::syntactic categories instead of specific words)). §<br>
+§§ ((c:7;::Semantic prosody)), also ((c:8;::discourse prosody)), describes ((c:9;::seemingly neutral words)) ((c:10;::gaining certain associations)) through ((c:11;::frequent occurrences with particular collocations)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+### concordances
+
+<img src="KWIC.png"><img src="KWOC.png"><img src="KWAC.png"><br/><br>---<br>
+  §§ A ((c:1;::concordance)) is ((c:2;::a listing)) of ((c:3;::each occurrence)) of ((c:4;::a word (or pattern))) in ((c:5;::a text or corpus)), presented ((c:6;::with the words surrounding it)). §<br>
+§§ ((c:7;::Key Word In Context)) is ((c:8;::the most common)) format for ((c:9;::concordances)). §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+<tbody class="cloze-group-children hide-if-inactive-children">
+  <tr>
+  <td>((c:16;::Key word in context (KWIC)))</td>
+  <td>((c:20;::Keyword)) appears ((c:14;::in the middle of concordance context))</td>
+  </tr>
+  <tr>
+  <td>((c:15;::Key word out of context (KWOC)))</td>
+  <td>((c:19;::Keyword)) appears ((c:13;::to the left)), with ((c:12;::the whole context including the word after it.))</td>
+  </tr>
+  <tr>
+  <td>((c:17;::Key word alongside/and/augmented in context (KWAC)))</td>
+  <td>((c:18;::Keyword)) appears ((c:20;::to the left)), with ((c:21;::the rest of the context (but not the word after it))), may also refer to ((c:22;::adding extra info to the collocation))</td>
+  </tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ ((c:10;::ptx)) is ((c:11;::a shell command)) that ((c:12;::produces a KWIC concordance)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}</span>
 
 ## theoretical linguistics
 
