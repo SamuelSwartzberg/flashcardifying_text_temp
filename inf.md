@@ -11413,6 +11413,7 @@ pad stringth to specified length by adding to the left/right|.rjust/ljust(<lengt
 does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
 does a string start with/end with?|somestr.startswith/endswith(searchstr)|Python
 remove whitespace from beginning and end of string|trim()|JS, Ruby
+remove whitespace from beginning and end of string|strip()|Python
 remove whitespace from beginning of string|trimStart()/trimLeft()|JS
 remove whitespace from end of string|trimStart()/trimLeft()|Ruby
 split string on foo|.split(foo)|Python|JS(empty string for char array)|Rust
@@ -13053,6 +13054,26 @@ qt (read cute)   cross-platform widget toolkit
 ##### Data visualization
 
 d3 is a JS library for mainipulating/visualizing data
+
+#### web requests
+
+web request library
+
+requests|python
+
+<request-library>.get()|Send a GET request|python (returns a `Response`)
+
+Response.status_code|HTTP status code
+Response.text|Returned HTML characters
+Response.encoding|Page encoding
+Response.content|Returned thing as binary
+
+TODO compare and merge (?) with node, fetch, etc
+
+TODO move
+
+Parsing HTML/XML|beautiful soup|python
+
 
 #### scientific computing
 
