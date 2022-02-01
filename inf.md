@@ -13064,7 +13064,7 @@ requests|python
 <request-library>.get()|Send a GET request|python (returns a `Response`)
 
 Response.status_code|HTTP status code
-Response.text|Returned HTML characters
+Response.text|Returned HTML
 Response.encoding|Page encoding
 Response.content|Returned thing as binary
 
