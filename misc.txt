@@ -1924,6 +1924,184 @@ Disasters<br/><br>---<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
+# phil
+
+## terminology
+
+<br>---<br>
+  §§ in generaly, ((c:1;::antinomy)) is ((c:2;::a paradox/contradiction)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+## misc
+
+### theories of humor/laughter
+
+§§ In ((c:1;::the incongruity theory of humor)), something is funny because ((c:2;::it somehow violates our expectations)) §<br>
+§§ In ((c:3;::the relief theory of laughter)), ((c:4;::laughter/humor is the release of pent-up nervous energy))/ §<br>
+§§ The ((c:5;::relief theory of laughter)) reliess (explicitly or implicitly) on the metaphor of ((c:6;::a steam valve)) §<br>
+§§ The problem with ((c:7;::the relief theory of laughter)) is that ((c:8;::nervous energy isn't a real thing that one would need to release.)) §<br>
+§§ ((c:9;::The superiority theory (of humor/laughter))) is the theory that ((c:10;::laughter expresses feelings of superiority)) over ((c:11;::other people)) or over ((c:11;::a former state of ourselves)) (main supporters (possibly, depending on how you read them): ((c:12;::Plato, Hobbes, Descartes)) ) §<br>
+<div class="cloze-group hide-if-inactive">
+  The problem with the ((c:13;::superoiority theory of humor/laughter:)) 
+<ol>
+<li>since there are cases in ((c:14;::which one feels superior to someone (i.e. a beggar))) but ((c:15;::feels pity rather than laughs)), ((c:16;::superiority is not sufficient to explain laughter))</li>
+<li>Since there are cases in which ((c:17;::one laughts but doesn't feel superior)), ((c:18;::superiority is not necessary to explain laughter))</li>
+</ol>
+</div>
+
+## analytic
+
+### theoretical
+
+#### epistemology
+
+##### situatedness
+
+<br>---<br>
+  §§ ((c:1;::Situatedness)) is the general idea that ((c:2;::our location in the social world)) ((c:3;::determines)) ((c:4;::things about us)), in particular our ((c:5;::understanding)) and ((c:5;::behaviors)). Connected to ((c:6;::standpoint theory)), but less rigorously defined. §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+##### distinctions
+
+###### a priori/a posteriori
+
+<img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/><br>---<br>
+  §§ ((c:5;::Erkenntnis / Urteile)) kann ((c:6;::a priori / a posteriori)) sein. §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Urteil a posteriori))</td> <td>((c:2;::Ein Urteil auf Basis von Erfahrung))</td></tr>
+<tr><td>((c:3;::Urteil a priori))</td> <td>((c:4;::Ein Urteil ohne die Basis der Erfahrung))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+
+#### Kant
+
+<br>---<br>
+  §§ Bei ((c:1;::Kant)) gibt es zwei Arten von Vernunfterkenntnis, ((c:2;::materiale Vernunfterkenntnis)), die sich ((c:4;::auf ein irgendwie geartetes Objekt)) bezieht, und ((c:3;::formale Vernunfterkenntnis)), die sich ((c:5;::auf kein objekt, sondern auf die Form des Verstandes selber bezieht)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <tbody>
+    <tr>
+      <th style="background-color: palegreen;">((c:1;s:all;::material (objekt-bezogen)))</th>
+      <th>((c:2;s:all;::formal (nicht-objektbezogen, rein verstandesbezogen)))</th>
+    </tr>
+    <tr>
+      <td>
+        <table class="cloze-group hide-if-inactive">
+          <tbody>
+            <tr>
+              <th colspan="2">((c:3;s:all;::Physik (Objekt: Natur)))</th>
+              <th colspan="2" style="background-color: palegreen;">((c:4;s:all;::Ethik (Objekt: Freiheit)))</th>
+            </tr>
+            <tr>
+              <td>((c:5;s:all;::empirisch))</td>
+              <td>((c:6;s:all;::a priori, rein))</td>
+              <td>((c:7;s:all;::empirisch))</td>
+              <td style="background-color: palegreen;">((c:8;s:all;::a priori, rein))</td>
+            </tr>
+            <tr>
+              <td>((c:9;s:all;::Physik (der Natur)))</td>
+              <td>((c:10;s:all;::Metaphysik (der Natur)))</td>
+              <td>((c:11;s:all;::praktische Anthropologie))</td>
+              <td style="background-color: palegreen;">((c:12;s:all;::Methaphysik der Sitten = Moral))</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td style="vertical-align: top">
+        <table class="cloze-group hide-if-inactive">
+          <tbody>
+            <tr>
+              <th>((c:13;s:all;:: Logik ))</th>
+            </tr>
+            <tr>
+              <td>((c:14;s:all;:: essenziell nicht-empirisch = a priori, rein ))</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+# myth
+
+## monomyth
+
+<br>---<br>
+  §§ ((c:21;::Campbell))'s ((c:22;::monomyth)) was influenced by ((c:23;::psychoanalytic theories)), ((c:25;::mainly)) ((c:24;::Jung)) and ((c:25;::to a certain extent)) ((c:24;::Freud)). §<br>
+§§ The ((c:26;::monomyth)) claims to be ((c:27;::descriptive)), specifically ((c:28;::a general structure that underlines all myths)), though ((c:29;::it, well, isn't)), and is often used ((c:30;::prescriptively/as a formula for writing)). §<br>
+§§ The ((c:31;::monomyth)) may also be called ((c:32;::the Hero's Journey)). The shape of the ((c:34;::monomyth)) is ((c:33;::circular)), the ((c:35;::Hero ends up in the same place they started)). §<br>
+===<br>
+<br>---<br>
+  <table class="cloze-group hide-if-inactive">
+  <tbody>
+    <tr><td rowspan="5">((c:1;::Departure))</td> <td>((c:2;::The Call to Adventure))</td></tr>
+<tr><td>((c:3;::Refusal of the Call))</td></tr>
+<tr><td>((c:4;::Supernatural Aid))</td></tr>
+<tr><td>((c:5;::The Crossing of the First Threshold))</td></tr>
+<tr><td>((c:6;::Belly of the Whale))</td></tr>
+<tr><td rowspan="6">((c:7;::Initiation))</td> <td>((c:8;::The Road of Trials))</td></tr>
+<tr><td>((c:9;::The Meeting with the Goddess))</td></tr>
+<tr><td>((c:10;::Woman as the Temptress))</td></tr>
+<tr><td>((c:11;::Atonement with the Father))</td></tr>
+<tr><td>((c:12;::Apotheosis))</td></tr>
+<tr><td>((c:13;::The Ultimate Boon))</td></tr>
+<tr><td rowspan="6">((c:14;::Return))</td> <td>((c:15;::Refusal of the Return))</td></tr>
+<tr><td>((c:16;::The Magic Flight))</td></tr>
+<tr><td>((c:17;::Rescue from Without))</td></tr>
+<tr><td>((c:18;::The Crossing of the Return Threshold))</td></tr>
+<tr><td>((c:19;::Master of the Two Worlds))</td></tr>
+<tr><td>((c:20;::Freedom to Live))</td></tr>
+  </tbody>
+</table>
+===<br>
+Campbell divides the monomyth into these parts (chronologically):
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
+
+## structuralism
+
+§§ ((c:1;::CLS)) elaborated his ((c:2;::structuralist)) approach to myth in  <cite>((c:3;::The Structural Study of Myth))</cite> (((c:4;::1955))) §<br>
+§§ The ((c:5;::paradox of myth according)) to CLS is that ((c:6;::anything can happen in a myth)), but that ((c:7;::myths are similar across cultures)). §<br>
+§§ According to CLS, ((c:8;::myth)) is its own form of ((c:9;::langue)), that is, its own ((c:10;::structuralist system)) §<br>
+§§ The ((c:11;::langue)) of ((c:12;::myth)) consists of ((c:13;::mythemes)) . §<br>
+§§ According to CLS, myths consist of ((c:14;::pairs of)) ((c:18;::mythemes)), generally ((c:15;::one)) ((c:14;s:15;::pair)) that is ((c:16;::contradictiory/irreconcilable)), and ((c:15;::one)) ((c:14;s:15;::pair)) that is ((c:17;::reconcilable)). §<br>
+§§ The ((c:19;::contradictory pair)) of mythemes ((c:20;::is equated with)) ((c:21;::the reconcilable pair,)) and so ((c:22;::the contradiction is dissolved/solved)), e.g. ((c:23;::life:death)) ((c:24;::↔)) ((c:25;::herbivore:hunter)) (which is ((c:26;::reconcilable)) via the ((c:26;::scavenger))); ((c:27;::life:death)) ((c:28;::↔)) ((c:29;::sky:earth)) (which is ((c:30;::reconcilable)) via ((c:30;::mist))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>
+
+<br>---<br>
+  §§ Both ((c:13;::mythical thought)) and ((c:13;::science)) are ((c:14;::equally)) ((c:15;::sophisticated)) ((c:20;::systems of thought)) according to ((c:16;::CLS)), however, ((c:17;::science)) is ((c:18;::more effective at)) ((c:19;::acquiring knowledge to harness the world)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Type of thought</th>
+    <th>Causality</th>
+    <th>Metaphor</th>
+    <th>Materials (physical)</th>
+    <th>Materials (thought)</th>
+    <th>Creates</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Mythical thought))</td> <td>((c:2;::Hypercausal (Everything must have a definite cause)))</td> <td>((c:3;::Bricolage))</td> <td>((c:4;::uses whatever is at hand))</td> <td>((c:5;::uses signs (which are limited)))</td> <td>((c:6;::creates structures))</td></tr>
+<tr><td>((c:7;::Scientific thought))</td> <td>((c:8;::Causal, but can accept uncertainty))</td> <td>((c:9;::Engineer))</td> <td>((c:10;::uses (within limit) the things it needs as materials))</td> <td>((c:11;::uses concepts (which can go beyond preexisting ideas)))</td> <td>((c:12;::creates changes in the world))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ The fact that ((c:21;::a granary killing a person)) is ((c:22;::not explained by chance + granary being unstable)) but by ((c:23;::witchcraft + granary being unstable)) is for CLS an example of ((c:24;::the hyperneed for causality)) in ((c:25;::mythical thought)) §<br>
+§§ According to ((c:26;::CLS)), in ((c:27;::mythical thought)) ((c:28;::intellectual drive)) leads to ((c:29;::more categorization/discovery)), and ((c:30;::need for causality)) makes these '((c:31;::do something))' §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
+
 # soc
 
 ## control
