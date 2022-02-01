@@ -3557,6 +3557,40 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+####### Anki
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Add new card))</td><td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>n</kbd> ))</td></tr>
+    <tr><td>((c:3;::Bury card))</td><td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>-</kbd> ))</td></tr>
+    <tr><td>((c:5;::Bury note))</td><td>((c:6;::<kbd class="modifier alt"></kbd> <kbd>-</kbd> ))</td></tr>
+    <tr><td>((c:7;::Edit html))</td><td>((c:8;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>x</kbd> ))</td></tr>
+    <tr><td>((c:9;::Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom)))</td><td>((c:10;::<kbd class="modifier alt"></kbd> <kbd>k</kbd> ))</td></tr>
+   <tr><td>((c:11;::Show deck options menu))</td><td>((c:12;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>,</kbd> ))</td></tr>
+    <tr><td>((c:13;::Study))</td><td>((c:14;::<kbd>L</kbd>))</td></tr>
+    <tr><td>((c:15;::Subscript))</td><td>((c:16;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>2</kbd> ))</td></tr>
+    <tr><td>((c:17;::Superscript))</td><td>((c:18;::<kbd class="modifier alt"></kbd> <kbd class="modifier cmd"></kbd> <kbd>2</kbd> ))</td></tr>
+    <tr><td>((c:19;::Suspend card))</td><td>((c:20;::<kbd class="modifier cmd"></kbd> <kbd>j</kbd> ))</td></tr>
+    <tr><td>((c:21;::Suspend note))</td><td>((c:22;::<kbd class="modifier alt"></kbd> <kbd>j</kbd> ))</td></tr>
+    <tr><td>((c:23;::add tag))</td><td>((c:24;::<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ))</td></tr>
+    <tr><td>((c:25;::remove tag))</td><td>((c:26;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ))</td></tr>
+    <tr><td>((c:27;::reposition))</td><td>((c:28;::<kbd class="modifier cmd"></kbd> <kbd>y</kbd> ))</td></tr>
+    <tr><td>((c:29;::reschedule))</td><td>((c:30;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>y</kbd> ))</td></tr>
+    <tr><td>((c:31;::add cloze (don't increment number)))</td><td>((c:32;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>c</kbd> ))</td></tr>
+    <tr><td>((c:33;::add cloze (increment number)))</td><td>((c:34;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>c</kbd> ))</td></tr>
+    <tr><td>((c:35;::submit something/new line))</td><td>((c:36;::<kbd class="modifier cmd"></kbd> <kbd>enter</kbd>))</td></tr>
+    <tr><td>((c:38;::Browse screen))</td><td>((c:37;::<kbd>B</kbd>))</td></tr>
+    <tr><td>((c:39;::X))</td> <td>((c:40;::Deck home screen))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}</span>
+
 ####### file-related
 
 <table class="cloze-group hide-if-inactive">
@@ -3644,6 +3678,52 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
+######## discord
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Shortcut
+      </th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+   <tr>
+  <td>((c:1;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>))</td><td>((c:2;::Toggle deafen))</td>
+</tr>
+<tr>
+  <td>((c:3;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ))</td><td>((c:4;::Upload file))</td>
+</tr>
+<tr>
+  <td>((c:5;::<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>))</td><td>((c:6;::Navigate between servers))</td>
+</tr>
+<tr>
+  <td>((c:7;::<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>))</td><td>((c:8;::navigate between channels (incl private messages)))</td>
+</tr>
+<tr>
+  <td>((c:9;::<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ))</td><td>((c:10;::toggle quickswitcher))</td>
+</tr>
+<tr>
+  <td>((c:11;::<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ))</td><td>((c:12;::start/accept call))</td>
+</tr>
+<tr>
+  <td>((c:13;::<kbd>e</kbd>))</td><td>((c:14;::edit message))</td>
+</tr>
+<tr>
+  <td>((c:15;::<kbd>r</kbd>))</td><td>((c:16;::reply))</td>
+</tr>
+<tr>
+  <td>((c:17;::<kbd>esc</kbd>))</td><td>((c:18;::decline incoming call))</td>
+</tr>
+   <tr>
+  <td>((c:19;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>))</td><td>((c:20;::toggle mute))</td>
+</tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
 ######## code editing
 
 ######### vscode
@@ -3655,6 +3735,127 @@ show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`<
 fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
 copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::Open IntelliSense))</td><td>((c:2;::<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>))</td></tr>
+  </tbody>
+</table>
+
+########### lines
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::ctrl j))</td><td>((c:2;::join lines))</td></tr>
+    <tr><td>((c:3;::cmd shift k))</td><td>((c:4;::delete line))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+########### jupyter
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">VScode Jupyter Shortcuts</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<kbd>f10</kbd>))</td> <td>((c:2;::execute next line of code))</td></tr>
+<tr><td>((c:3;::<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>))</td> <td>((c:4;::finish editing a cell/run a code block))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+######### increment/decrement via arrow keys
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Arrow up/down plus..</th>
+    <th>Increments by... (assumes base 10)</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::alt))</td> <td>((c:2;::0.1))</td></tr>
+<tr><td>((c:3;::ø))</td> <td>((c:4;::1))</td></tr>
+<tr><td>((c:5;::shift))</td> <td>((c:6;::10))</td></tr>
+<tr><td>((c:7;::command/ctrl))</td> <td>((c:8;::100+))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+######## vector editor
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Keyboard shortcut</th>
+    <th>action</th>
+    <th>programs</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::S))</td>
+      <td>((c:2;::Select tool))</td>
+      <td>((c:3;::Inkscape, SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:4;::G))</td>
+      <td>((c:5;::group/ungroup))</td>
+      <td>((c:6;::SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:7;::W))</td>
+      <td>((c:8;::Wireframe mode))</td>
+      <td>((c:9;::SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:10;::A))</td>
+      <td>((c:11;::Select everything))</td>
+      <td>((c:12;::SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:13;::D))</td>
+      <td>((c:14;::Duplicate))</td>
+      <td>((c:15;::SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:16;::alt-drag))</td>
+      <td>((c:17;::drag a duplicated shape (duplicate and then move)))</td>
+      <td>((c:18;::SVG-Edit))</td>
+    </tr>
+    <tr>
+      <td>((c:19;::cmd-drag))</td>
+      <td>((c:20;::drag a duplicated shape (duplicate and then move)))</td>
+      <td>((c:21;::Affinity designer))</td>
+    </tr>
+    <tr>
+      <td>((c:22;::tap spacebar while dragging))</td>
+      <td>((c:23;::drop a duplicate of the current shape at position))</td>
+      <td>((c:24;::Inkscape))</td>
+    </tr>
+    <tr>
+      <td>((c:25;::shift+click))</td>
+      <td>((c:26;::select multiple objects))</td>
+      <td>((c:27;::Inkscape, SVG-Edit, Affinity Designer))</td>
+    </tr>
+    <tr>
+      <td>((c:28;::F))</td>
+      <td>((c:29;::center canvas in frame))</td>
+      <td>((c:30;::SVG-Edit))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>
 
 ######## navigatable
 
@@ -3867,6 +4068,36 @@ A taskbar, aside from programs may also have a ((c:5;::notification section)), (
 §§ Despite being called '((c:8;::Dock))', it's just ((c:9;::macOs))'s version of a ((c:10;::taskbar)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+###### activity bar (vscode)
+
+((h:all;::<img class="c2-f c1-b" src="sm_toggle_side_bar.gif">))
+
+<br>---<br>
+  §§ VS Code's ((c:11;::activity bar)) is a ((c:12;::nav(igation) bar)) containing ((s:gb;::((c:13;::5 (by default) icons)) that ((c:14;::trigger sidebars)))). §<br>
+===<br>
+
+((h:all;uh:1-10;::<img class="all-f" src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">))
+
+<table>
+  <thead>
+    <tr>
+      <th>nth icon in activity bar</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::1st icon))</td><td>((c:2;::FIile explorer))</td></tr>
+    <tr><td>((c:3;::2nd icon))</td><td>((c:4;::Search))</td></tr>
+    <tr><td>((c:5;::3rd icon))</td><td>((c:6;::Source Control))</td></tr>
+    <tr><td>((c:7;::4th icon))</td><td>((c:8;::Run View))</td></tr>
+    <tr><td>((c:9;::5th icon))</td><td>((c:10;::Extensions View))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ ((c:15;::Extensions)) can ((c:16;::populate all of VS Code's bars)) with ((c:17;::more content)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
 ##### breadcrumbs
 
@@ -4293,6 +4524,22 @@ open|cannot be en/disabled
 
 ### robots
 
+#### robots/noindex
+
+<br>---<br>
+§§ There are two ways to ((c:5;::specify what crawlers such as those from search engines can crawl)), ((c:6;::the robots.txt)) and ((c:7;::the noindex tag)). §<br>
+§§ The ((c:8;::robots.txt)) follows/implements ((c:9;::the robots exclusion standard/protocol)). §<br>
+§§ ((c:10;::The robots.txt)) is a file with ((c:12;::a specific syntax)) to indicate ((c:11;::what can crawl sites how)). §<br>
+§§ ((c:13;::The robots.txt)) may not ((c:14;::always hide pages)), specifically, ((c:15;::the page may still display in search results)), but ((c:15;::lacking any descriptive content)). If you want ((c:16;::to hide the page completely)), use ((c:17;::a noindex tag or HTTP header)). §<br>
+§§ The ((c:18;::noindex tag)) is a ((c:19;::HTML meta tag)) that ((c:20;::tells crawlers how they should crawl the given page)). §<br>
+§§ Setting both ((c:21;::the robots.txt)) and ((c:22;::noindex tag)) for the same thing ((c:23;::can produce problems)) and ((c:23;::is not advised)). §<br>
+§§ While ((c:24;::you can tell what crawlers should crawl)) via ((c:25;::robots.txt/noindex)), ((c:26;::there is no reason they have to respect it.)) §<br>
+§§ ((c:27;::Pages that should be on the robots.txt/have a noindex tag)) are e.g. ((c:28;::internal search pages, pages that require a certain state.)) §<br>
+§§ If ((c:29;::a page should truly inaccessible to outside forces)), ((c:30;::using robots.txt/noindex tags is not enough)), it should then be ((c:31;::password-protected or similar.)) §<br>
+§§ Example noindex tag: <code>&lt;((c:1;::meta)) name="((c:2;::robots)) (all) / ((c:3;::googlebot)) (only google) content="((c:4;::noindex))"&gt;</code> §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
+
 #### sitemap
 
 sitemaps are XML, RSS/Atom, or .txt documents that describe the navigational structure of your site, and are often used by search engines
@@ -4304,6 +4551,9 @@ By linking to a site, you confer some of your sites reputation to that site.
 SEO|Search engine optimization
 related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
 Google may penalize if you have a bunch of pages with basically the same content.
+
+  §§ As of 2021, ((c:1;::stuffing keywords)) in places is ((c:2;::no longer effective)) for ((c:3;::SEO)) §<br>
+§§ As of 2021, for ((c:4;::SEO)), ((c:5;::a page title/ description)) should be ((c:1;::descriptive of the page content)) and ((c:6;::distinct from other page titles)). §<br>
 
 ### Accessibility
 
@@ -4600,10 +4850,17 @@ cd|move to specified directory
 cd without an argument moves back to your home directory
 cd - moves back to previous directory (not parent directory)
 
+###### file manager/browser
+
 file browser = file manager
 a file manager/browser is a program that provides an user interface for managing files and folders.
 mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
+
+((h:all;::<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">))
+<br>---<br>
+§§ For ((c:2;::Finder)), ((c:1;::whenever you search anything in the top right bar)), ((c:3;::a Searching/Find window opens)). ((h:gb;::To ((c:4;::add filters to the search)), ((c:5;::click the small plus in the top right corner)). ((h:gb;::You can use this to search ((c:6;::pretty much any of the files properties)) with ((c:7;::fine granularity)).)))) §<br>
+===<br>
 
 ##### information
 
@@ -5207,6 +5464,60 @@ gifsicle is a CLI program to manipulate gifs
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
+######## imagemagick
+
+<br>---<br>
+  §§ ((c:31;::Imagemagick)) is ((c:32;::a set of programs)) for ((c:33;::modifying images.)) §<br>
+§§ ((c:34;::Imagemagick)) mainly exists as ((c:35;::a cli)), has ((c:36;::a basic X window gui)), and ((c:37;::API bindings)) for ((c:38;::pretty much any programming language under the sun)). §<br>
+§§ ((c:39;::imagemagick)) contains ((c:40;::a bunch of subcommands)), which ((c:41;::do different things)) but ((c:42;::often accept similar arguments)) §<br>
+§§ imagemagick options/arguments ((c:43;::start with a single dash,)) regardless of length §<br>
+§§ All imagemagick subcommands may be ((c:44;::prefixed by magick (e.g. magick mogrify, magick animate))) or ((c:45;::not)). §<br>
+§§ The main two commands for ((c:46;::image conversion)) w/ ((c:47;::imagemagick)) are ((c:48;::mogrify)) (((c:49;::in-place))) and ((c:48;::convert)) (((c:49;::out-of-place))) §<br>
+§§ Many of imagemagicks arguments needing to specify ((c:50;::some kind of shape/size)) accept a ((c:51;::geometry)) argument with the syntax ((c:52;::&lt;size&gt;))((c:53;::[&lt;offset&gt;])) where the size specifier follows the syntax §<br>
+§§ ((c:54;::&lt;width&gt;))((c:55;::x))((c:54;::&lt;height&gt;))((c:56;::[&lt;operator&gt;])) §<br>
+===<br>
+
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Imagemagick subcommands</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<code>import</code>))</td> <td>((c:2;::Imagemagick screenshot utility))</td></tr>
+<tr><td>((c:3;::<code>identify</code>))</td> <td>((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
+Image: rose.jpg
+  Format: JPEG (Joint Photographic Experts Group JFIF format)
+  Mime type: image/jpeg
+  Class: DirectClass
+  Geometry: 70x46+0+0
+  Units: Undefined
+  Type: TrueColor
+...</code></pre>))</td></tr>
+<tr><td>((c:5;::<code>display</code>))</td> <td>((c:6;::Imagemagick image viewer))</td></tr>
+<tr><td>((c:7;::<code>animate</code>))</td> <td>((c:8;::Imagemagick animation creator))</td></tr>
+<tr><td>((c:9;::<code>compare</code>))</td> <td>((c:10;::Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">))</td></tr>
+<tr><td>((c:11;::<code>composite</code>))</td> <td>((c:12;::Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">))</td></tr>
+<tr><td>((c:13;::<code>convert</code>))</td> <td>((c:14;::Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">))</td></tr>
+<tr><td>((c:15;::<code>montage</code>::m))</td> <td>((c:16;::Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">))</td></tr>
+  </tbody>
+</table>
+
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Imagemagick options</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:17;::<code>-crop</code>))</td> <td>((c:18;::crop))</td></tr>
+<tr><td>((c:19;::<code>-trim</code>))</td> <td>((c:20;::remove borders around the image))</td></tr>
+<tr><td>((c:21;::<code>-resize SIZE-SPECIFIER</code>))</td> <td>((c:22;::resize the image to SIZE-SPECIFIER))</td></tr>
+<tr><td>((c:23;::<code>-quality QUALITY</code>))</td> <td>((c:24;::set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg)))</td></tr>
+<tr><td>((c:25;::<code>-fuzz distance</code>))</td> <td>((c:26;::make matching colors more, well, fuzzy))</td></tr>
+<tr><td>((c:27;::<code>-flop</code>))</td> <td>((c:28;::Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R)))</td></tr>
+<tr><td>((c:29;::<code>-flip</code>))</td> <td>((c:30;::Change to upside down))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
 
 #### plaintext
 
@@ -9334,6 +9645,18 @@ Using semver, for each of major, minor or patch you can instead specify a * to i
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
 
+### emoji shortcodes
+
+<section>
+  §§The ((c:1;::common syntax for emoji)) is sometimes called '((c:2;::emoji shortcodes))'§<br>
+§§((c:3;::emoji shortcodes)) are delimited by ((c:4;::colons)), and have names in ((c:5;::lowercase)) connected by ((c:6;::underscores)).§<br>
+§§The ((c:8;::emoji shortcode)) for ((c:7;::💙)) might be ((c:9;:::blue_heart:))§<br>
+§§The ((c:10;::emoji shorcodes)) don't have ((c:11;::a spec)), but you ((c:12;::can use them in many places)), including sites such as ((c:13;::Discord, GithHub, and Slack and a whole lot more))§<br>
+§§In ((c:14;::some places)) (e.g. ((c:14;::discord))), you can ((c:15;::prefix)) ((c:16;::emoji shortcodes)) with ((c:15;::+)) to ((c:17;::add a reaction)).§<br>
+ §§ I can ((c:20;::type emoji using emoji shortcodes)) but ((c:18;::using spaces instead of underscores)) anywhere using ((c:19;::espanso)). §<br>
+</section>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
 ## non-file formats
 
 ### citations
@@ -13269,6 +13592,73 @@ QA = Quality assurance
 QA are the activities done to make sure that the product meets certain standards.
 
 {{c1::wave a dead chicken (over it)}}: To perform a ritual over {{c4::crashed software or hardware}} which one {{c2::believes to be futile}} but is {{c3::nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.}}
+
+### debugging
+
+#### devtools (webkit)
+
+##### elements tab
+
+<br>---<br>
+  §§ ((c:1;::press del)) in the dom view of devtools to ((c:2;::delete the node)) §<br>
+§§ ((c:3;::<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>click</kbd>)) one of those ((c:4;::triangle arrows)) in devtools to ((c:5;::expand/collapse all children)) §<br>
+§§ ((c:6;::Expand and collapse)) DOM nodes in Chrome's devtools via the ((c:7;::right and left arrow )) keys. §<br>
+§§ to ((c:8;::search the DOM)) via ((c:9;::string)), ((c:10;::css selector)) or ((c:11;::xpath selector)), ((c:12;::ctrl/cmd+f)) in the DOM view in devtools §<br>
+§§ to ((c:13;::hide the DOM node you have focused)) in devtools, press ((c:14;::h)) §<br>
+§§ to edit the ((c:15;::attributes))/((c:16;::node type)) of a node while in devtools, press ((c:17;::enter)) and then ((c:18;::tab/shift tab around)) §<br>
+§§ Chrome's devtools feature an ((c:19;::element picker)), which can be toggled with ((c:20;::<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>C</kbd>)) §<br>
+§§ to have an ((c:21;::element that you select in your devtools be visible in your browser window)), ((c:22;::right-click)) and then ((c:23;::click <q>scroll into view</q>)) §<br>
+===<br>
+((h:all;::((h:all;::<img src="FBb3y3CzDXA5P0sNEuyd.png">))))
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
+
+##### styles tab
+
+<br>---<br>
+  §§ ((c:3;::navigate through)) ((c:1;::style declarations)) and ((c:1;::selectors)) in the styles panel with ((c:2;::tab/shift-tab)) §<br>
+§§ ((c:4;::control-clicking)) a ((c:5;::style declaration (e.g. margin: 0.5em))) in the styles panel devtools ((c:6;::goes to the line where it was declared)) §<br>
+§§ ((c:7;::shift-clicking)) ((c:8;::the box next to a color)) in the styles panel devtools ((c:9;::changes its color representation (RGB, HSLA, etc.))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+((h:all;::<img src="sm_2021-09-16--17-43-33-screenshot.jpg">))
+
+###### box model
+
+<div class="flex-container">((h:all;::<img src="sm_2021-09-16--18-04-22-screenshot.jpg">))((h:all;::<img src="sm_2021-09-16--18-03-06-screenshot.jpg">))</div>
+<br>---<br>
+  §§ Hovering over ((c:1;::a part of the box model)) in the styles tab will ((c:2;::higlight that relevant thing in the page)) §<br>
+§§ Besides by normal CSS declaration, you can ((c:3;::change any part)) of the CSS box model in devtools by ((c:4;::clicking on the relevant number and setting it)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+##### other tabs/panels
+
+<br>---<br>
+  §§ Use the ((c:1;::Media)) Panel in Chrome DevTools to view information and debug the ((c:2;::media players)) per browser tab. §<br>
+§§ The ((c:3;::Issues)) tab in Chrome DevTools moves the ((c:4;::issues messages)) that used to ((c:5;::appear in the console)) into their own tab §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+<br>---<br>
+  §§ The ((c:6;::Coverage)) tab in Chrome DevTools can ((c:5;::help you find unused JavaScript and CSS code)). §<br>
+§§ to use the ((c:1;::Coverage)) / ((c:2;::Network)) tab, click ((c:3;::the record button)), then ((c:4;::reload (or otherwise make network requests))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+##### tab management
+
+<br>---<br>
+  §§ to ((c:1;::close a tab)) ((c:2;::within)) e.g.&nbsp; the ((c:3;::sources)) tab, use ((c:4;::alt+w)) §<br>
+§§ next to the ((c:5;::styles)) tab in devtools, there are other tabs, showing you (in order) the elements ((c:6;::event listeners registered)), ((c:7;::DOM Breakpoints)),&nbsp; ((c:8;::JS properties)), and ((c:9;::accessibility information)) §<br>
+§§ Besides the DevTools tabs ((c:10;::active by default)), there are ((c:11;::a bunch more)) tabs, which you can ((c:12;::show)) via ((c:13;::the command palette)), or via ((c:14;::the overflow menu)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+##### global features
+
+<br>---<br>
+  §§ Whenever you get a ((c:1;::function)) in devtools, you can ((c:2;::go to the place where it's defined)) with ((c:3;::right click &gt; show function definition)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### code review
 

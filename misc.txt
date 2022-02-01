@@ -6849,3 +6849,18 @@ Alexander Hamilton
 §§ ((c:1;::four-stage breathing techniques)) (roughly equivalent to ((c:2;::pranayama))) consists of the steps ((s:gb;::((c:3;::Breathe in)) ((s:gb;::((c:4;::Hold)) ((s:gb;::((c:5;::Breathe out)) ((s:gb;::((c:6;::hold)).))))))))  §<br>
 §§ Often, ((c:7;::the four steps of four-stage breathing/pranayama are the same length)), in that case, it is often called ((c:8;::box/square breath)). Commonly, each step is held for ((c:9;::4-5))s. §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+## english words
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Word</th>
+    <th>Today more commonly</th>
+    <th>example</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::whither))</td> <td>((c:2;::to where))</td></tr>
+<tr><td>((c:3;::whence))</td> <td>((c:4;::from where))</td> <td>((c:5;s:3-4;::"Pork" comes from French, whence we get most of our modern cooking terms.))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
