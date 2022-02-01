@@ -1,12 +1,329 @@
 # econ
 
-## money
+## finance
 
-### digital concurrency
+### money
+
+#### digital concurrency
 
 Double-spending is a potential flaw in a digital cash scheme in which the same single digital token can be spent more than once.
 
+### stocks
+
+#### stock exchanges
+
+<br>---<br>
+  §§ ((c:1;::Main stock index for Japan))  = ((c:2;::Nikkei 225)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+### taxes
+
+#### income
+
+<br>---<br>
+  §§((c:1;::The income tax rate you (would) pay on the next dollar of income)) is called ((c:2;::marginal tax rate))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+##### ehegattensplitting
+
+<br>---<br>
+  §§ ((c:1;::Across many tax systems)), ((c:2;::the way income taxes are calculated)) within a ((c:3;::marriage)) often causes ((c:4;::the partner earning less)) to be ((c:5;::taxed with the maximum marginal tax rate immediately)), thus ((c:6;::disincentivizing working)). §<br>
+===<br>
+<br>---<br>
+  §§ Beim ((c:7;::Ehegattensplitting)) wird ein Ehepaar steuerlich als ((c:8;::ein*e Steuerpflichtige*r)) behandelt §<br>
+§§ Things like the ((c:9;::Ehegattensplitting)) result in a situation where ((c:10;::nonequally divided taxburden)) results in ((c:11;::better taxation)) than ((c:10;::more equally distributed income)) because ((c:12;::the tax rate of the smaller income)) has ((c:13;::an influence on half of the income)), and not ((c:13;::just the disproportionately smaller size of the smaller income)) §<br>
+===<br>
+
+<ol>
+<li>((c:1;::Einkommen des Paars wird zusammengerechnet))</li>
+<li>((c:2;s:1;::Beitrag wird halbiert))</li>
+<li>((c:3;s:1-2;::Einkommenssteuer fuer diese Haelfte wird berechnet))</li>
+<li>((c:4;s:1-3;::Errechnete einkommenssteuer wird verdoppelt))</li>
+</ol>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+## markets
+
+### market structure
+
+#### integration
+
+<br>---<br>
+  §§((c:2;::Horizontal integration)) is the process of ((c:1;::Controlling more of a specific part of the supply chain))§<br>
+§§((c:3;::Vertical integration)) is ((c:4;::Integrating more/all or large parts of the supply chain in a single company))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+## costs
+
+### opportunity
+
+<br>---<br>
+  §§ When doing a certain thing, that thing's ((c:1;::opportunity cost)) is ((c:2;::the loss of value/benefit)) from ((c:3;::anything one could do instead (and has to forgo)))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+### sunk
+
+<br>---<br>
+  §§A ((c:1;::sunk cost)) is a cost that ((c:2;::has already been incurred and cannot be recovered)), in contrast, ((s:1-2;::a ((c:3;::prospective cost)) is a cost that ((c:4;::can be avoided if action is taken))))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### other types
+
+<img src="240px-CVP-TC-FC-VC.svg.png">((h:all;::<img src="Marginal_cost1a.png">))
+<br><br>---<br>
+  §§((c:1;::Fixed costs)) ((c:2;::are the costs that are not dependent on the quantity of goods or services provided)).§<br>
+§§In contrast, ((c:3;::variable costs)) ((c:4;::increase as the quantity of goods or services produced/provided increase)).§<br>
+§§((c:5;::Together, fixed costs and variable costs make up)) ((c:6;::total cost)), which is ((c:7;::the cost of producing some quantity of output)).§<br>
+§§The ((c:8;::marginal cost)) of something is ((c:9;::the cost of producing additional quantity))§<br>
+§§((c:10;::Marginal cost)) is either measured in ((c:11;::one extra unit)), or in ((c:12;::a graph for infinitesimal amounts))§<br>
+§§The ((c:13;::marginal cost)) is calculated by ((c:14;::dividing)) ((c:15;::the change in total cost)) ((c:14;::by)) ((c:15;::the change in total quantity))§<br>
+§§The ((c:16;::average cost)) of something is ((c:17;::the total cost)) ((c:19;::divided by)) ((c:18;::the number of goods produced.))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
+
+### externalities
+
+<br>---<br>
+  §§An ((c:1;::externality)) is a ((c:2;s:3;::cost)) ( = ((c:3;s:2;::negative)) ((c:6;s:1;::externality))) or ((c:2;s:3;::benefit)) ( = ((c:3;s:2;::positive)) ((c:6;s:1;::externality))) caused by ((c:5;::a producer)) that is ((c:4;::not incurred or received by that producer.))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+## economies
+
+### economic sectors
+
+#### three-sector model
+
+<br>---<br>
+  §§TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, {{c8::secondary}}, and {{c8::tertiary}} sectors.§<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>sector</th>
+      <th>consists of</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:11;::Primary sector))</td>
+      <td>((c:12;::Resource extraction = extraction of raw materials))</td>
+    </tr>
+    <tr>
+      <td>((c:13;::Secondary sector))</td>
+      <td>((c:14;::Manufacturing = Raw materials -&gt; finished goods))</td>
+    </tr>
+    <tr>
+      <td>((c:15;::Tertiary sector))</td>
+      <td>((c:16;::Production of services))</td>
+    </tr>
+    <tr>
+      <td>((c:17;::Quarternar sector))</td>
+      <td>((c:18;::Production of knowledge))</td>
+      <td>not part of official model</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::A society dominated in economic output by the (primary sector and) secondary sector))</td> <td>((c:2;::Industrial society))</td></tr>
+<tr><td>((c:3;::A society dominated in economic output by the primary sector))</td> <td>((c:4;::Pre-industrial/agrarian (more rarely agricultural) society))</td></tr>
+<tr><td>((c:5;::A society dominated in economic output by the tertiary sector))</td> <td>((c:6;::Post-industrial society))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§According to {{c9::the three-sector model}} of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+## supply chains
+
+### inventory
+
+#### SKUs
+
+<br>---<br>
+  §§((c:3;::SKUs)) are ((c:4;::unique identifiers)) for ((c:5;::distinct salable items)).§<br>
+§§((c:1;::SKUs)) have ((c:2;::no specification or standard)), they are ((c:2;::arbitrarily specified by the seller.))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## goods and services
+
+### price
+
+#### asset price bubble
+
+<br>---<br>
+  §§((c:1;::Economic bubbles)) are about ((c:2;::asset prices)).§<br>
+§§In ((c:3;::an economic bubble)), ((c:4;::asset price)) ((c:5;::far exeeds)) ((c:4;::it's 'real' value)).§<br>
+§§An economic bubble ((c:6;::bursts)) when ((c:7;::the asset price crashes.))§<br>
+§§Both ((c:8;::the growth)) and ((c:8;::subsequent decline)) in asset prices in an economic bubble is usually ((c:9;::quite fast)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+### goods
+
+#### commodities
+
+Commodity is a term with three competing definitions:
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>field</th>
+    <th>definition</th>
+    <th>examples</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::commodity))</td> <td>((c:2;::economics))</td> <td>((c:3;::good with full/high degree of fungibility))</td> <td>((c:4;s:all;::wheat, petroleum, copper, rice, but not handmade bracelets))</td></tr>
+<tr><td>((c:5;::commodity))</td> <td>((c:6;::marxism))</td> <td>((c:7;::something with both use and exchange value))</td></tr>
+<tr><td>((c:8;::commodity))</td> <td>((c:9;::casual usage))</td> <td>((c:10;::any kind of market good))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§From these definitions, ((c:11;::commodification/commoditization)) may refer to ((c:12;::any of the three definitions of commodity (economics, marxism, casual usage)))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+#### fungibility
+
+<br>---<br>
+  §§If a good is ((c:1;::fungible)), it is ((c:2;::readily interchanged with others of its kind)) without ((c:3;::that making much of a difference)).§<br>
+§§((c:4;::Money, natural resources of the same grade, stocks of the same company)) all are examples for things with a high degree of ((c:5;::fungibility)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+#### distribution
+
+##### positional goods
+
+<br>---<br>
+  §§a ((c:1;::positional good)) is a good that is ((c:2;::only valued)) by ((c:3;::how it is distributed in a population)).§<br>
+§§((c:4;::Positional good)) is a term similar to ((c:5;::status symbol.))§<br>
+  {{c6::Conspicuous comsumption}} is consumption to {{c7::enhance social status/prestige}}, that is, consumption {{c8::of goods}} as {{c8::positional goods}}
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+#### durability
+
+<br>---<br>
+  §§A ((c:1;::durable)) or ((c:2;::hard)) good is a good that ((c:3;::does not quickly wear out or, more specifically, one that yields utility over time rather than being completely consumed in one use)) (Examples: ((c:4;s:3;::a bicycle, washing machine, or ring)) ).§<br>
+§§A ((c:5;::non-durable)) or ((c:6;::soft)) good is either defined as ((c:7;::a good that is either consumed in one use)) (Examples: ((c:8;s:7;::food, drinks, tissues)) ) or ((c:9;::a good that has a lifespan of less than three years)) (Examples: ((c:10;s:9;::cosmetics, medication, clothing))).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+#### excludability and rivalrousness
+
+##### excludability
+
+<br>---<br>
+  §§A good that is ((c:1;::excludable)) ((c:2;::can have its use limited to certain people)). Examples: ((c:3;s:2;::cinemas, food))§<br>
+§§examples for ((c:4;::non-excludable)) goods: ((c:5;::air, public roads)).§<br>
+§§As argued by ((c:6;::Ostrom)), in fact excludability is a ((c:7;::scale)) ((c:8;::from being able to fully limit people from its use to not at all.))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+##### rivalrousness
+
+<br>---<br>.
+  §§A good is ((c:1;::rival(rous))) if ((c:2;::consumption by one party prevents consumption by another))§<br>
+§§Examples for ((c:13;::rivalrous goods)) include ((c:3;::an item of food, a hammer, a domain name)).§<br>
+§§A good is ((c:4;::non-rival(rous))) if ((c:5;::consumption by another induces no additional cost))§<br>
+§§Examples for ((c:14;::non-rivalrous goods)) ((c:6;::a television broadcast, a scenic view, clean air)).§<br>
+§§A good is ((c:7;::anti-rival(rous))) if ((c:8;::consumption by another provides benefits to other consumers)), generally via ((c:9;::network effects)).§<br>
+§§Examples of ((c:15;::anti-rivalrous good))s include ((c:10;::FOSS software, social media, a specific language))§<br>
+§§We may want to define ((c:11;::a scale)) ((c:12;::from rival(rous) through non-rival(rous) to anti-rival(rous))).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
+<br>---<br>
+  §§A ((c:1;::network effect)) is when ((c:2;::the value of a good/service increases with the amount of users)). Examples: ((c:3;::Social networks, the phone or the internet)).§<br>
+§§The precise value of a ((c:8;::network effect)) is often stated in terms of ((c:4;::Metcalfe's law)): ((c:5;::value of network)) = ((c:6;::(amount of users)<sup>2</sup>)). This law has since recieved some ((c:7;::empirical validation)) for e.g. ((c:7;::facebook, bitcoin))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+##### goods with properties
+
+<table class="cloze-group hide-if-inactive">
+  <tbody>
+    <tr>
+      <th></th>
+      <th>((c:5;::excludable))</th>
+      <th>((c:5;::non-excludable))</th>
+    </tr>
+    <tr>
+      <th>((c:6;::rivalrous))</th>
+      <td>((c:1;s:1-4;::private good))</td>
+      <td>((c:4;s:1-4;::common(-pool) good))</td>
+    </tr>
+    <tr>
+      <th>((c:6;::non-rivalrous))</th>
+      <td>((c:2;s:1-4;::club/toll good))</td>
+      <td>((c:3;s:1-4;::public good))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+###### common pool resources
+
+<br>---<br>
+  §§A ((c:1;::common-pool resource)) is a good that is ((c:2;::non-excludable)) and ((c:2;::rivalrous)), e.g. ((c:3;::pasture)).§<br>
+§§A ((c:5;::common-pool resource)) may be subject to ((c:4;::the tragedy of the commons)) (however, not necessarily)§<br>
+§§In ((c:6;::the tragedy of the commons)), ((c:7;::any individual)) has ((c:7;::an incentive to)) {{c8::(over)exploit the resource}.§<br>
+§§In ((c:9;::the tragedy of the commons)), ((c:10;::the resource is depleted)) due the overexploitation.§<br>
+§§As proven by ((c:11;::Elinor Ostrom)) in the work that won her ((c:12;::the 2009 economics nobel prize)), ((c:13;::commons/common-pool resources)) can ((c:14;::effectively be managed by their communities)) if ((c:15;::certain rules/principles are followed)), preventing ((c:16;::the tragedy of the commons))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+###### public goods
+
+<br>---<br>
+  §§A good that is ((c:1;::non-excludable)) (= ((c:1;::use cannot be prevented))) and ((c:2;::non-rival(rous))) (= ((c:2;::use does not reduce availability))) is a ((c:3;::public good)).§<br>
+§§Examples of ((c:9;::public goods)) are ((c:4;::National security, lighthouses, knowledge))§<br>
+§§((c:10;::public goods)) are subject to the ((c:5;::free rider)) problems, where ((c:6;::free riders)) (((c:6;::people who use the good but don't contribute to it))) result in ((c:7;::the good being under-produced or overused and degraded)).§<br>
+§§Examples of public goods ((c:11;::subject to free rider problems)): ((c:8;::Herd immunity, grades of group-graded projects))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+<br>---<br>
+  §§A ((c:1;::free rider)) is someone who ((c:2;::recieves a benefit)) ((c:3;::without contributing adequately to its cost of production)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+###### excludable goods
+
+<br>---<br>
+  §§A ((c:1;::club good)) is a good that is ((c:2;::excludable)) and ((c:2;::non-rivalrous)), e.g. ((c:3;::toll roads))§<br>
+§§A ((c:4;::private good)) is a good that is ((c:5;::excludable)) and ((c:5;::rivalrous)), e.g. ((c:6;::cheese))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+
 ## behavioral economics
+
+### econs
+
+<br>---<br>
+  §§((c:1;::Econ)) is a term from ((c:2;::behavioral economics)) which describes ((c:3;::the beings)) that ((c:4;::classical economics)) ends up describing§<br>
+§§An ((c:5;::econ)) would always ((c:6;::make the best decision given a set of alternatives))§<br>
+§§((c:7;::Econs)), in contrast to humans, never fall prey to ((c:8;::biases))§<br>
+§§((c:9;::Econs)) are contrasted with (actual) ((c:10;::humans))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span><br/><div class="sub">
+as distinct from actually-extant humans
+</div>
 
 ### bias
 
@@ -31,11 +348,108 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 ## rational choice theory
 
+<br>---<br>
+  §§ ((c:1;::Rational choice theory)) is ((c:2;::the area of study / framework)) that arises from the idea that ((c:3;::an individual will)) ((c:4;::perform a cost-benefit analysis (e.g. use an utility maximization function))) ((c:5;::to choose an action)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 ### religious markets
 
 §§ ((c:1;::the idea of religious markets)) involves seeing religions ((c:3;::through the lens/metaphor of a capitalist market)), most commonly one based on ((c:4;::rational choice theory.)) ((h:gb;::Thus, ((c:5;::the market goods)) would be ((c:6;::religions)), which would ((c:7;::compete)) in such an environment.)) §<br>
 §§ Analogous to the idea of ((c:2;::religious markets)) ( = ((c:8;s:2,9;::seing competition of religions through the metaphor of a market)) ) there is ((h:gb;::the idea of the ((c:9;::dating market)) ( = ((c:10;s:9;::seeing competition between dating partners through the metaphor of a market) )))) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+## demographics
+
+### dependency
+
+#### definition of dependent
+
+<br>---<br>
+  §§In demographics/economics, a ((c:1;::dependent)) is someone ((c:2;::who relies on someone else for financial support.))§<br>
+§§For statistical purposes, it is generally assumed that ((c:3;::those aged 15-64)) are ((c:4;::non-dependents)), and ((c:3;::those aged 0-14 and 65-)) are ((c:4;::dependents)).§<br>
+§§The relationship of ((c:6;::dependents per non-dependent)) is expressed ((c:5;::in the dependency ratio)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+#### dependency ratio
+
+<br>---<br>
+  §§The ((c:1;::dependency ratio (amount of people who work divided by people who can't))) is used as a proxy for ((c:2;::pressure on the productive population)),§<br>
+§§A ((c:3;::lower)) ((c:20;::dependency ratio)) is generally better because it often results in ((c:4;::economic growth)).§<br>
+§§When ((c:5;::a change to a lower dependency ratio leads to economic growth)), which is most often caused when there is a ((c:6;::high fertility rate)), resulting in ((c:6;::a bunch of young people)), followed by ((c:7;::a decrease in fertility)), and often ((c:8;::augmented by an increase in life expectancy)), this is termed a ((c:9;::demographic dividend)).§<br>
+§§the idea of a ((c:21;::demographic dividend)) is used to explain e.g. ((c:10;::China's rapid economic growth)) - in ((c:11;::2010)) they had an unprecedented ((c:12;::dependency ratio)) of ((c:13;::35%)), at the a time where the world average was ((c:13;::53%)).§<br>
+§§Of course, ((c:14;::this large group of young people)) responsible for a ((c:23;::demographic dividend)) will ((c:22;::eventually grow old)), with ((c:14;::less young people to support them)), leading to ((c:15;::an increased dependency ratio)). this has been termed the ((c:16;::demographic tax)) or ((c:16;::demographic burden)).§<br>
+§§A ((c:24;::demographic burden/tax results)) in ((c:17;::lower economic growth)) - a fact ((c:18;::Japan)) ((c:19;::is currently experiencing)) and ((c:18;::China)) ((c:19;::probably will fall victim to as well)).§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
+
+### sex/gender
+
+#### missing women
+
+<br>---<br>
+  §§ The term "((c:1;::missing women))" (coined by ((c:8;::Amartya Sen))) indicates a shortfall in ((c:2;::the number of women)) relative to ((c:2;::the expected number of women)) in ((c:7;::a region or country)). §<br>
+§§ ((c:10;::missing women)) are often measured/discovered through ((c:3;::male-to-female sex ratios)), specifically via ((c:11;::the deviance from)) the ((c:12;::natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1))) §<br>
+§§ ((c:13;::Sen)) argued that there were about ((c:14;::100 million)) ((c:15;::"missing women")) in ((c:16;::Asia)). §<br>
+§§ The phenomenon of ((c:9;::missing women)) and is theorized to be caused by ((c:4;::sex-selective abortions)), ((c:5;::female infanticide)), and ((c:6;::inadequate healthcare and nutrition for female children)). §<br>
+§§ The fact of the existence of missing women is caused by ((c:17;::sexism)), and may be seen as a pretty direct expression of ((c:18;::their -value status.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+## marxist
+
+### universal equivalent
+
+<br>---<br>
+  §§To marx, ((c:1;::the measure)) by which ((c:2;::all commodities)) are ((c:3;::compared and exchanged)) is known as  ((c:4;::the universal equivalent.))§<br>
+§§To marx, ((c:5;::money)) is the thing that eventually takes over the role of ((c:6;::the universal equivalent)) in capitalism.§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### value
+
+<br>---<br>
+  §§To ((c:3;::marx)), the ((c:1;::exchange value)) of a good is ((c:2;::how it can be exchanged for other commodities))§<br>
+§§To ((c:4;::marx)), the ((c:5;::use value)) of a good is ((c:6;::its tangible features/physical properties)) that  ((c:7;::fulfill human needs/wants))§<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>form</th>
+    <th>corresp. value</th>
+    <th>explanation</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::natural form))</td> <td>((c:12;::use value))</td> <td>((c:13;::actual tangible form (the actual physical form, e.g. cloth, iron, etc.)))</td></tr>
+<tr><td>((c:8;::value form))</td> <td>((c:9;::exchange value))</td> <td>((c:10;::a good in relation to different commodities (e.g. 20 yards of linen = 1 coat)))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+## areas
+
+### real estate
+
+#### condominium
+
+<br>---<br>
+  §§ A ((c:1;::condominium)) (short: ((c:2;s:1;::condo))) is a ((c:3;::building)) (or ((c:4;s:3;::unit in such a building))) where ((c:5;s:7;::each unit)) is ((c:6;s:8;::owned spearately)), and ((c:7;s:5;::the grounds/structure)) are ((c:8;s:6;::owned jointly)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+### agricultural
+
+#### crops
+
+<br>---<br>
+  §§((c:1;::a cash crop)) (sometimes ((c:2;s:1;::profit crop))) is a crop that is ((c:3;::grown for sale -&gt; profit))§<br>
+§§((c:4;::cash crop)) is contrasted with ((c:5;::subsistence crop))§<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## law
+
+§§ In law, the ((c:1;::disposition)) of a case is ((c:2;::its final settlement/decision)) §<br>
 
 # political science
 
@@ -107,6 +521,13 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
+#### astroturfing
+
+<br>---<br>
+  §§ ((c:1;::Astroturfing)) is the practice of making ((c:2;::advertisment of a product or message)) appear as though ((c:3;::it originates from and is supported by grassroots participants)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
 ### message
 
 #### dogwhistle
@@ -167,6 +588,11 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 #### hermeneutics
 
+<br>---<br>
+  §§ ((c:1;::Hermeneutics)) is ((c:2;::the study of interpretation.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
 ##### hermeneutic circle
 
 ((h:all;::<img src="image7.jpg">))<br>---<br>
@@ -191,12 +617,44 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 ##### trope
 
-###### types
+###### impact
 
 ####### seinfeld is unfunny
 
 §§ The "((c:1;::Seinfeld is Unfunny))" effect is the effect where something ((c:2;::once revolutionary has now become standard/stale)), generally due to ((c:3;::imitation, often become woven into the genre.)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+###### character archetypes 
+
+####### MPDG
+
+<br>---<br>
+  §§ A ((c:1;::manic pixie dream girl)) is a ((c:2;::energetic, whacky, playful)) and ((c:3;::attractive)) character (mostly ((c:4;::female))) who is paired with a ((c:5;::boring/cynical)) (mostly ((c:6;::male))) ((c:7;::main character)). Her ((c:8;::whole purpose)) (in terms of the story) is that she ((c:9;::teaches him)) to ((c:10;::live freely and love madly)). §<br>
+§§ Examples of ((c:11;::manic pixie dream girls)) might be イエスタデイをうたって's ((c:12;::Haru)), subversions might be FLCS's ((c:13;::Haruko)) and Parika's ((c:14;::Paprika)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+###### plot development
+
+####### heels & faces
+
+<br>---<br>
+  §§ ((c:9;::(baby) faces and heels)) are terms from ((c:10;::wrestling)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>description</th>
+    <th>Term</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::a bad guy character in wrestling))</td> <td>((c:2;::heel))</td></tr>
+<tr><td>((c:3;::a good guy character in wrestling))</td> <td>((c:4;::a (baby) face))</td></tr>
+<tr><td>((c:5;::a bad guy turning good))</td> <td>((c:6;::heel(-face) turn))</td></tr>
+<tr><td>((c:7;::a good guy turning bad))</td> <td>((c:8;::face(-heel) turn))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ### novels
 
@@ -1004,45 +1462,50 @@ Disasters<br/><br>---<br>
 
 ## theories & approaches
 
-### relativisim & determinism
+### historical progress & value
+
+#### relativisim & determinism
 
 §§ ((c:1;::Historical relativism)) is the idea that ((c:2;::a period of / event in history)) can only be ((c:3;::understood in its own terms)). §<br>
 §§ ((c:4;::Historical determinism)) is the idea that ((c:5;::history is determined in some way, e.g. by rules)). §<br>
 §§ ((c:6;::Historism)) and ((c:6;::historicism)) may refer to ((c:7;::historical relativism)), ((c:7;::historical determinism)), an idea where ((c:8;::history should be priviledged as a cause)) for ((c:9;::society)), ((c:9;::culture)), or t((c:10;::he explanation of phenomena)). Thus ((c:11;::these terms are confused to the point of unusability.)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
-## history of ...
-
-### disease and medicine 
-
-#### miasma and germ theory
-
-§§ The theory that ((c:2;::bad air)) ((c:3;::causes illness)) is called ((c:1;::Miasma theory)) §<br>
-§§ The ((c:4;::miasma theory)) was popular until ((c:5;::the 1880s)), when it was superceded by ((c:6;::germ theory)). §<br>
-§§ ((c:7;::The air thought to cause diseases under the miasma theory)) was called ((c:8;::night air)) §<br>
-§§ The ((c:9;::miasma theory)) remains visible in the name of the illness ((c:10;::malaria)) §<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
-
-### slavery
-
-#### soujorner truth
+#### presentism
 
 <br>---<br>
-  §§ ((c:31;::Soujorner Truth)) was a ((c:32;::former slave)) who became an ((c:33;::abolitionist)) and ((c:33;::women's right activist)) esp. ((c:34;::from the 1840s onwards::time)) §<br>
-§§ "((c:30;::Ain't I a Woman))" mainly reflects on the theme of ((c:35;::her being equal to men in any concievable way)), especially as regards ((c:36;::physical endowments)) and ((c:37;::the position in women in scripture)) (perhaps even ((c:38;::more than equal))) §<br>
+  §§ In history, ((c:1;::presentism)) is the ((c:2;::judgement/interpretation)) of the ((c:2;::past)) in terms of ((c:3;::current)) ((c:4;::values)) and ((c:4;::concepts)) §<br>
 ===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+#### combination
+
+##### historical determinism
 
 <br>---<br>
-  §§ The original version of "((c:1;::Ain't I a Woman))" was published a ((c:2;::few weeks)) after the speech and is probably ((c:3;::relatively close to the original)), amongst other things because it doesn't suffer from ((c:4;::imputing a southern accent to soujourner truth)), but was published in ((c:5;::an anti-slavery magazine)) and thus ((c:6;::had its own audience to consider)) §<br>
-§§ The more commonly known version of Soujourner Truths speech "((c:7;::Ain't I a woman))" was probably ((c:8;::significantly changed)) by ((c:9;::an abolition activist)) ((c:10;::12 years)) later. It ((c:11;::kept most of the substance)), but ((c:12;::invented)) ((c:13;::hostility from the audience:: attitude)), and ((c:14;::embellished)) ((c:15;::some details)) §<br>
-§§ the most common version of the famous speech "((c:16;::Ain't I a woman))" has the problem that ((c:17;::Soujourner Truth)) would not have ((c:18;::spoken in a southern dialect (having grown up in new york as a native dutch speaker))), that the ((c:19;::original transcript did not include the phrase "Ain't I a woman",)) and that ((c:20;::the speech was originally not titled at all)) §<br>
-  <br>---<br>
+  §§ ((c:1;::Whig history)) at its most narrow sees ((c:2;::british history)) as the ((c:3;::inevitable)) ((c:3;::progress)) from ((c:4;::dark and despotic arbitrary tyranny)) to ((c:5;::enlightened british liberal democracy)). §<br>
+§§ ((c:6;::Whig history)) inbetween the most narrow and the most wide definitions sees ((c:7;::history)) as the ((c:8;::inevitable)) ((c:8;::progress)) from ((c:9;::a dark and terrible past of unfreedom)) to ((c:10;::a glorious present of freedom and democracy)). §<br>
+§§ ((c:11;::Whig history)) at its most broad sees ((c:12;::history)) as ((c:13;::the inevitable march of progress (where progress depends on the context it is used in, the author, etc.))). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
+
+
+### historiography
+
+<br>---<br>
+  §§ ((c:1;::Historiography)) is the study of ((c:2;::the way we write (and have written) history.)) §<br>
+§§ The ((c:3;::historiography)) of a specific thing is ((c:4;::how history has studied/seen a specific thing)) §<br>
 ===<br>
- The most famous passage of the probably false rendition of "((c:21;::Ain't I a woman))":  
-§§ ((c:22;::That man over there)) ((c:23;::says that women need to be)) ((c:24;::helped into carriages)), ((c:25;::and lifted over ditches)), ((c:26;::and to have the best place everywhere)). ((c:27;::Nobody ever)) ((c:28;::helps me into carriages)), ((c:29;::or over mud-puddles)), or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?&nbsp; §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+#### black legend
+
+<br>---<br>
+  §§ a ((c:2;::black legend)) is a ((c:3;::historiographical)) phenomenon where ((c:4;::an overly negative portrayal of something)) is created, often through ((c:1;::biased writing)) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}</span>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 
 ### scales
 
@@ -1099,6 +1562,245 @@ Disasters<br/><br>---<br>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}</span>
 
+## periodization
+
+### centuries
+
+<br>---<br>
+  §§ Sometimes, the terms ((c:7;::long 19th century)) and ((c:8;::short 20th century)) are used for a ((c:9;::more meaningful)) division of centuries. §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>start</th>
+    <th>end</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::long 19th century))</td> <td>((c:2;::french revolution 1989))</td> <td>((c:3;::world war 1 1914))</td></tr>
+<tr><td>((c:4;::short 20th century))</td> <td>((c:5;::world war 1 1914))</td> <td>((c:6;::dissolution of the soviet union ~1990))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+
+### periods
+
+#### eurocentric history
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>historical period</th>
+    <th>start</th>
+    <th>end</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::The early modern period))</td> <td>((c:2;::1450-1500))</td> <td>((c:3;::the french revolution 1789))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+
+## dates
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>event</th>
+    <th>date</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::French Revolution (begin)))</td> <td>((c:2;::1789))</td></tr>
+<tr><td>((c:3;::Fall of Constantinople))</td> <td>((c:4;::1453))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+## history of <location>
+
+### US
+
+#### periods
+
+((h:all;::<img src="sm_300px-CivilWarUSAColl.jpg">))
+((h:all;::<img src="sm_240px-ReconstructionEraColl.jpg">))<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Generation</th>
+      
+      <th>Start</th>
+      <th>End</th>
+      <th>Nicknames</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Civil War))</td>
+      <td>((c:2;::1861))</td>
+      <td>((c:2;::1865))</td>
+    </tr>
+        <tr>
+      <td>((c:3;::Reconstruction))</td>
+      <td>((c:4;::1865))</td>
+      <td>((c:4;::1877))</td>
+    </tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+## history of <person>
+
+### mary wolstonecraft
+
+<br>---<br>
+  §§ ((c:1;::Mary Wolstonecraft)), ((c:2;::frustrated)) by the ((c:3;::lack of opportunities)) for ((c:4;::educated women)) and after working ((c:5;::on-and-off)) as a ((c:6;::governess)), ((c:7;::caring for)) ((c:8;::a dying friend)) and ((c:9;::her dying mother)), and (((c:10;::unsuccessfully)) due to circumstances) ((c:11;::founding a school)), began ((c:12;::writing)), ((c:13;::assisted by)) a ((c:14;::liberal publisher)), and also ((c:15;::fell into his croud of political thinkers)). §<br>
+§§ ((c:16;::Wollstonecraft)) was ((c:17;::catapulted to fame)) after writing her ((c:18;::Vindication of the Rights of Men)) contra ((c:19;::Burke)) in ((c:20;::the Revolution Controversy,)) and ((c:21;::travelled to France during the Revolution)) soon after. She fell in with the ((c:22;::Girondins)) and had c((c:23;::lose brushes with death)) (((c:24;::some of her friends)) were not so lucky) during ((c:25;::the reign of terror)) §<br>
+§§ ((c:26;::Wollstonecraft)) argued contra Burke that ((c:27;::Marie Antoinette)) was not ((c:28;::a noble victim)) but a ((c:29;::femme fatale)), which was inevitable for one because MAs only function was ((c:30;::to produce sons)), which ((c:31;::corrupted)) her by ((c:32;::reducing her only to a womb)), and also that ((c:33;::queens (consort))) ((c:34;::needed to be manipulative)), since ((c:35;::the only way they could exercise influence)) was ((c:36;::via their husbands or sons)) §<br>
+§§ ((c:37;::Wollstonecraft)) had ((c:38;::a child by)) her ((c:39;::second lover)), who ((c:40;::left her)) and ((c:41;::for whom she pined long after)), eventually ((c:42;::driving her to a suicide attempt)) that she described after it failed as ((c:43;::completely rational)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}</span>
+
+## history of <event>
+
+### modernity 
+
+#### french revolution
+
+##### revolution controversy
+
+<br>---<br>
+  §§ The ((c:1;::Revolution Controversy)) was a ((c:2;::British:: location)) debate (mainly a {c5::pamphlet war}}) over ((c:3;::the French Revolution)) from ((c:4;::1789)) to ((c:4;::1795)). §<br>
+§§ The ((c:13;::Revolution Controversy)) began in earnest after the publication of ((c:6;::Edmund Burke))'s ((c:7;::Reflections on the Revolution in France)) (1790), which surprisingly supported ((c:8;::the French aristocracy)). Many writers responded to ((c:9;::defend the French Revolution)), such as ((c:10;::Thomas Paine)), ((c:11;::Mary Wollstonecraft)) and ((c:12;::William Godwin)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+#### liberation of the americas
+
+§§ ((c:8;::Símon Bolívar))'s life work was ((c:1;::To liberate south/central america)) from ((c:9;::Spain)). §<br>
+§§ ((c:7;::The countries Bolivar liberated)) today make up ((c:1;::Colombia)), ((c:2;::Venezuela)), ((c:3;::Bolivia)), ((c:4;::Ecuador)), ((c:5;::Panama)) and ((c:6;::Peru)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+#### industrial revolution
+
+##### Nord-Ostsee-Kanal
+
+§§ The ((c:1;::Nord-Ostsee-Kanal)) c((c:2;::onnects connects the north and the baltic sea)). §<br>
+§§ The ((c:3;::Nord-Ostsee-Kanal)) was built around ((c:4;::1900)) and may be said to be part of the larger trends of ((c:5;::the rise of the German nation-state and industrialization)). §<br>
+
+## history of <topic>
+
+### disease and medicine 
+
+#### epidemiology
+
+##### john snow's pump
+
+((h:1;::<img src="sm_paste-74d4ec6b145bf8a0a7c8b75525768ca3b64ee0b4.jpg">))§§ In response to ((c:1;::a cholera epidemic)) in ((c:13;::1854)), ((c:2;::John Snow)) ((c:3;::mapped)) ((c:4;::the place of residence of people who died)). §<br>
+§§ ((c:5;::The deaths that John Snow mapped)) ((c:6;::clustered around)) ((c:7;::a certain pump.)) §<br>
+§§ ((c:8;::The pump around which the deaths mapped by John Snow clustered's handle)) was then ((c:9;::removed)). §<br>
+§§ ((c:10;::John Snow's mapping effort)) is considered ((c:11;::one of the founding methods)) of ((c:12;::modern epidemioligy)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+#### miasma and germ theory
+
+§§ The theory that ((c:2;::bad air)) ((c:3;::causes illness)) is called ((c:1;::Miasma theory)) §<br>
+§§ The ((c:4;::miasma theory)) was popular until ((c:5;::the 1880s)), when it was superceded by ((c:6;::germ theory)). §<br>
+§§ ((c:7;::The air thought to cause diseases under the miasma theory)) was called ((c:8;::night air)) §<br>
+§§ The ((c:9;::miasma theory)) remains visible in the name of the illness ((c:10;::malaria)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+### art
+
+#### literature
+
+##### gone with the wind
+
+§§ <cite>((c:2;::Gone with the wind)) </cite>is a novel set in ((c:3;::the civil war and reconstruction)) era protaged by ((c:4;::Scarlett O'Hara)) published in the ((c:1;::1930s (1936))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### ideas
+
+#### emotions & experiences
+
+##### sensibility
+
+<br>---<br>
+  §§ ((c:1;::Sensibility)) as a term in ((c:2;::18th))-century ((c:2;::Britain)) refers to having a ((c:3;::strong emotional response)) to stimuli (often later criticised for 'being ((c:4;::overemotional))') §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### slavery
+
+#### soujorner truth
+
+<br>---<br>
+  §§ ((c:31;::Soujorner Truth)) was a ((c:32;::former slave)) who became an ((c:33;::abolitionist)) and ((c:33;::women's right activist)) esp. ((c:34;::from the 1840s onwards::time)) §<br>
+§§ "((c:30;::Ain't I a Woman))" mainly reflects on the theme of ((c:35;::her being equal to men in any concievable way)), especially as regards ((c:36;::physical endowments)) and ((c:37;::the position in women in scripture)) (perhaps even ((c:38;::more than equal))) §<br>
+===<br>
+
+<br>---<br>
+  §§ The original version of "((c:1;::Ain't I a Woman))" was published a ((c:2;::few weeks)) after the speech and is probably ((c:3;::relatively close to the original)), amongst other things because it doesn't suffer from ((c:4;::imputing a southern accent to soujourner truth)), but was published in ((c:5;::an anti-slavery magazine)) and thus ((c:6;::had its own audience to consider)) §<br>
+§§ The more commonly known version of Soujourner Truths speech "((c:7;::Ain't I a woman))" was probably ((c:8;::significantly changed)) by ((c:9;::an abolition activist)) ((c:10;::12 years)) later. It ((c:11;::kept most of the substance)), but ((c:12;::invented)) ((c:13;::hostility from the audience:: attitude)), and ((c:14;::embellished)) ((c:15;::some details)) §<br>
+§§ the most common version of the famous speech "((c:16;::Ain't I a woman))" has the problem that ((c:17;::Soujourner Truth)) would not have ((c:18;::spoken in a southern dialect (having grown up in new york as a native dutch speaker))), that the ((c:19;::original transcript did not include the phrase "Ain't I a woman",)) and that ((c:20;::the speech was originally not titled at all)) §<br>
+  <br>---<br>
+
+===<br>
+ The most famous passage of the probably false rendition of "((c:21;::Ain't I a woman))":  
+§§ ((c:22;::That man over there)) ((c:23;::says that women need to be)) ((c:24;::helped into carriages)), ((c:25;::and lifted over ditches)), ((c:26;::and to have the best place everywhere)). ((c:27;::Nobody ever)) ((c:28;::helps me into carriages)), ((c:29;::or over mud-puddles)), or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?&nbsp; §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}</span>
+
+### waste
+
+§§ ((c:1;::before the advent of sewer systems)) ((c:2;::human waste)) either went in ((c:3;::the river)) or in ((c:4;::cesspits or similar contraptions)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+§§ In ((c:2;::Berlin)), the instituted system for ((c:3;::the disposal of waste)) before ((c:4;::the 1860s)) was&nbsp;((c:1;::The Rinnsteine)) §<br>
+§§ The ((c:5;::Rinnsteine)) in Berlin were placed at ((c:11;::both sides)) of the streets, were ((c:6;::50cm)) deep and ((c:7;::50cm - 1m)) wide. §<br>
+§§ The ((c:8;::Rinnsteine)) were supposed to move the waste into ((c:9;::the spree)), but did not always succeed due to ((c:10;::having a geringes gefälle)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+### population (growth)
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>year</th>
+    <th>population of berlin</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::1830))</td> <td>((c:2;::squarter million))</td></tr>
+<tr><td>((c:3;::1850))</td> <td>((c:4;::shalf million))</td></tr>
+<tr><td>((c:5;::1877))</td> <td>((c:6;::one million))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### socialism
+
+§§ The ((c:2;::social question)) was the question of how to solve ((c:1;::The problems concomittant with the industrial revolution)), becoming a central question/topic around ((c:3;::the beginning/mid of the 19th century)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+### protest
+
+#### three-finger salute
+
+((h:1;::<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">))
+<img class="c1-f c2-b" src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img class="c1-f c2-b" src="sm_juaefdoclgyt9szmg35x.jpg"><br/><br>---<br>
+  §§ We associate the origin of ((c:2;::the  3 finger salute)) with the ((c:1;::The hunger games)) (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) §<br>
+§§ The ((c:3;::3-finger salute)) became ((c:4;::a symbol for democracy)) after it was used ((c:8;::in pro-democracy protests after a military coup)) in ((c:5;::thailand)) in ((c:6;::2014)), and was further used after ((c:7;::the 2021 myanmar military coup)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+### media
+
+#### printing
+
+<br>---<br>
+  §§ around ((c:1;::1440)), ((c:2;::Gutenberg)) invented ((c:3;::the movable type printing press.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
 # soc
 
 ## control
@@ -1140,6 +1842,15 @@ Disasters<br/><br>---<br>
   §§ ((c:1;::Protofeminism)) is a term for ((c:2;::activity or thought)) that is ((c:3;::seen to be similar to feminism)), but ((c:4;::before arrival of the movement itself)), i.e. ((c:5;::before the 20th century)), or sometimes ((c:5;::before the 18th century)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+§§ ((c:1;::Ada Lovelace)) was ((c:2;::the only child)) of ((c:3;::Lord Byron)) and ((c:4;::the mathematician Lady Byron)) §<br>
+§§ ((c:5;::Ada Lovelace)) was ((c:6;::the wife)) of ((c:7;::Charles Babbaage)) §<br>
+§§ The ((c:8;::programming language Ada)) is named after ((c:9;::Ada Lovelace)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+§§ ((c:1;::smoking)) by women was ((c:2;::seen as inappropriate/treated with disdain)) up to and including ((c:3;::the beginning of the 20th century (though I don't want to make a claim if this was always this way or only started with e.g. victorian social mores))) §<br>
+§§ ((c:4;::Torches of Freedom)) was a phrase used to ((c:5;::encourage Women's smoking)) by ((c:6;::connecting it with women's liberation)), promoted by both ((c:7;::cigarette companies)) and ((c:7;::feminist activists)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 <br>---<br>
   §§ ((c:1;::The Second Sex)) is often regarded as ((c:2;::the starting point/prefiguring)) of ((c:3;::second-wave feminism)) §<br>

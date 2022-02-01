@@ -3869,6 +3869,27 @@ screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
 The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
 
+### refresh rates
+
+<br>---<br>
+  §§ ((c:5;::FPS)) (computing context) is short for ((c:6;::frames per second)) §<br>
+§§ The most common ((c:7;::display refresh rate)) as of 2020 is ((c:8;::60fps/hz)) §<br>
+§§ Traditionally, it is said that ((c:9;::20-30 fps)) is ((c:10;::the minimum)) to see ((c:11;::smooth movement and not just a series of images)). §<br>
+§§ ((c:12;::1)) FPS = ((c:13;::1)) Hz §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>medium</th>
+    <th>FPS</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::video (traditional)))</td> <td>((c:2;::30fps))</td></tr>
+<tr><td>((c:3;::film))</td> <td>((c:4;::24fps))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 ## design
 
 ((h:all;::<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">))((h:all;::<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">))((h:all;::<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">))((h:all;::<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">))
@@ -12598,6 +12619,10 @@ In computer programming, {{c1::code smell}} is a characteristic in code that ind
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 DRY   Don't repeat yourself
 KISS   Keep it simple stupid
+<br>---<br>
+  §§ "((c:1;::a camel is a horse designed/made by committee))" is a ((c:2;::criticism of creating something by comittee)), since ((c:3;::the camel symbolises incorporating too many conflicting elements)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### mech pol
 
