@@ -2982,6 +2982,19 @@ A blank line is two newlines.
 
 #### typography
 
+§§ ((c:7;::Typography)) is the area concerned with ((c:8;::the properties/use of type and text (in a wide sense))) §<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Microtypography))</td> <td>((c:2;::Typography on the level of letters/words))</td> <td>((c:3;::Letter spacing, word spacing, ligatures, features of letters))</td></tr>
+<tr><td>((c:4;::Macrotypography))</td> <td>((c:5;::Typography on the level of the collumn/grid/page))</td> <td>((c:6;::Typographic hierarchy, typographic grid, page layout))</td></tr>
+  </tbody>
+</table>
+
 ##### microtypography
 
 Serifs are these little bits sticking out of some letters.
@@ -3012,6 +3025,42 @@ A font that is not monospaced is proportional-width.
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}</span>
 
 ###### type
+
+####### type, sort
+
+<div class="flex-container">((h:all;::<img src="sm_220px-Metal_movable_type.jpg">))</div>
+<br>---<br>
+§§ ((c:1;::Type)) is the ((c:2;::the pieces)) (normally of ((c:3;::metal))) with ((c:4;::a character on them)) used ((c:5;::for printing)). §<br>
+§§ A ((c:6;::piece of type)) for ((c:7;::a single character)) is called ((c:8;::a sort (or type, see below))). §<br>
+§§ ((c:9;::Type)) may be ((c:10;::synonymous to sort)), or may ((c:11;::refer to type/sort collectively)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+####### font size
+
+§§ The ((c:1;::font/point size)) is used to specify the ((c:2;::body height)). §<br>
+  §§ Thus, if using ((c:3;::movable type)), ((c:4;::the font/point size)) specifes ((c:5;::the physical height of the sort.)) §<br>
+  §§ Thus, if using ((c:6;::digital type)), ((c:7;::font/point size)) is ((c:8;::the height that the em square is scaled to)). §<br>
+  §§ Stated differently, in ((c:9;::digital type)), ((c:10;::setting a specific font size)) ((c:11;::scales up the em square)). §<br>
+  §§ ((c:12;::The font size)) is called ((c:13;::point size)) if ((c:14;::specified in point)), or ((c:15;::sometimes also if not)). §<br>
+  §§ The ((c:16;::font/point size)) is equal to ((c:17;::1em)) (by ((c:17;::definition))), i.e. ((c:18;::em is a measure relative to the body height)). §<br>
+  §§ Following the general definition of the font size, in css ((c:19;::the em)) i((c:20;::s equivalent to)) ((c:21;::the current font-size.)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
+
+####### point
+
+<div class="cloze-group-children hide-if-inactive-children">
+  §§ In typography, the ((c:1;::point)) is ((c:2;::the smallest)) ((c:3;::unit of measure)). §<br>
+  §§ With the advent of digital printing, ((c:4;::a standard point (for printing))) has emerged, known as the ((c:5;::DTP)) (((c:5;::DeskTop Publishing point))) §<br>
+  §§ the ((c:6;::DTP)) (((c:6;::DeskTop Publishing point))) is defined as ((c:7;::1/72)) of ((c:8;::an inch)) §<br>
+  §§ the ((c:9;::point)) is equivalent to ((c:10;::1/12)) of ((c:11;::a pica)). §<br>
+  §§ The ((c:13;::CSS)) ((c:12;::pt)) is ((c:14;::the same as the DTP point)), as is ((c:13;::TeX's)) ((c:12;::bp)). §<br>
+  §§ ((c:15;::TeX's)) ((c:16;::pt)) is ((c:17;::very slightly smaller than)) the ((c:18;::DTP point)). §<br>
+  §§ ((c:19;::point)) is often abbreviated ((c:20;::pt)) or ((c:20;::just p)). §<br>
+</div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
+####### properties
 
 <div class="flex-container">((h:all;::<img src="1280px-Typography_Line_Terms.svg.png">))((h:all;::<img src="decender.png">))((h:all;::<img src="1280px-Thank_You_(13824254433).jpg">))</div>
 <br>---<br>
@@ -3118,9 +3167,11 @@ alphabet|letters|latin alphabet, greek alphabet
 
 ####### punctuation
 
-Punctuation is a subset of typographical symbols as well as spacing to indicate something (such as syntax,  pragmatics etc.).
+Punctuation is a subset of typographical symbols as well as spacing used to indicate something (such as syntax, pragmatics etc.).
 Most logographic systemss as well as japanese do not use whitespace for punctuation.
 In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
+
+######## bangs
 
 <br>---<br>
   §§ Calling the ((c:1;::exclamation point)) a ((c:2;::bang)) emerged from ((c:3;::printing slang in the 1950s)). §<br>
@@ -3129,6 +3180,37 @@ In japanese, using a question mark is optional when ending a sentence with the i
 §§ ((c:8;::‽)) is called the ((c:9;::interrobang)). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+######## dashes
+
+  §§ There are two common ((c:4;::dashes)) (though there are more uncommon ones), the ((c:5;::en-dash)) and the ((c:5;::em-dash)). §<br>
+§§ ((c:11;::dashes)) are ((c:12;::longer)) than ((c:13;::the hyphen/minus sign)). §<br>
+
+########## english
+
+§§ You use ((c:1;::en dashes)) to ((c:2;::list things in a range)), and sometimes ((c:3;::for some more unwieldy prefixes (Elvis Presley–style, pre–World War II))) §<br>
+§§ You use ((c:7;::hyphens)) to ((c:8;::join))/((c:8;::separate)) words §<br>
+§§ You use ((c:6;::em dashes)) to ((c:9;::separate parts of sentences (The new house is said to be beautiful — though if beautiful is the right word, I am not so sure))), or ((c:10;::when someone is being interrupted (“Wait! I forgot to tell you—” The door slammed shut between us and I missed whatever she was trying to say.))) (and other minor usees) §<br>
+
+######## prime
+
+<br>---<br>
+  §§ The ((c:5;::prime)) looks similar to ((c:6;::an apostrophe)), but ((c:7;::angled to the right)). §<br>
+§§ The ((c:8;::prime)) is often used to ((c:9;::mark something derived from something)). §<br>
+§§ The ((c:10;::prime)) and ((c:10;::double prime)) can mark ((c:11;::(arc)minutes)) and ((c:11;::(arc)seconds)) respectively §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Symbol</th>
+    <th>Name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::′))</td> <td>((c:2;::Prime))</td></tr>
+<tr><td>((c:3;::″))</td> <td>((c:4;::Double prime))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
 ####### whitespace
 
@@ -3147,6 +3229,14 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 
 ###### ligatures
 
+((h:all;::<img src="sm_298px-Ligature_drawing.svg.png">))((h:all;::<img src="Typographic_ligature_st.png">))((h:all;::<img src="Th_Taumfel.jpg">))((h:all;::<img src="1024px-Ĳ_uppercase_ligature.svg.png">))<br>---<br>
+  §§ In writing, a ((c:1;::ligature)) is when ((c:2;::two or more characters)) are ((c:3;::fused to form a single character)). §<br>
+§§ Many ((c:4;::current symbols/characters/graphemes)) originated as ((c:5;::ligatures)), but are now ((c:6;::ordinary characters)). §<br>
+§§ ((c:7;::The ampersand &amp;)) originated as ((c:8;::a ligature)) of ((c:9;::et)). §<br>
+§§ ((c:10;::圕)) is ((c:11;::a rare ligature)) of ((c:12;::図書館)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
 ɶ|oE
 œ|oe
 
@@ -3154,6 +3244,7 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 
 A writing system is a system to represent language visually.
 A writing system uses an inventory of characters.
+A writing system may also be known as a script.
 An orthography is a set of rules for writing a language.
 Digraphia is the situation of having more than one writing system for {{c1::the same language}}
 
@@ -3161,6 +3252,49 @@ Orthographic depth is the degree of deviation from the ideal correspondence betw
 A phonemic orthography is the special case of an alphabet specifically having no or little orthographic depth.
 ortographically deep|English
 ortographically shallow|spanish, japanese
+
+##### letter case
+
+§§ ((c:1;::Letter case)) is ((c:2;::the distinction between)) ((c:3;::uppercase/capital/majuscle and lowercase/minuscle letters)). §<br>
+  §§ ((c:4;::uppercase letter)) = ((c:5;::captial letter)) = ((c:6;::majuscle)) §<br>
+§§ ((c:7;::lowercase letter)) = ((c:8;::minuscle))  §<br>
+  §§ ((c:9;::How)) ((c:10;::letter case)) ((c:9;::is applied to)) ((c:11;::a certain unit (sentences, words, etc))) is known as ((c:12;::capitalization)). §<br>
+  §§ ((c:13;::Capitalization)) is a feature of ((c:14;::(a) orthgraphy)). §<br>
+  §§ Writing systems that ((c:15;::have a letter case distinction)) are known as ((c:16;::bicameral)). §<br>
+  §§ In ((c:17;::bicameral)) writing systems, ((c:18;::the uppercase letters)) are ((c:19;::generally larger than)) ((c:18;::the lowercase letters)). §<br>
+
+    
+  <table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th colspan="3">Types of interesting capitalization</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Features</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:19;::Snake case))</td>  <td>((c:22;::lowercase text)) ((c:22;::separated by underscores _))</td>
+    </tr>
+    <tr><td>((c:20;::kebab case))</td>  <td>((c:23;::lowercase text)) ((c:23;::separated by hyphens -))</td>
+    </tr>
+    <tr><td>((c:21;::screaming snake case))</td> <td>((c:24;::all caps))((c:24;::separated by underscores))</td></tr>
+    <tr><td>((c:25;s:25-27;::alternating caps))/((c:26;s:25-27;::studly caps))/((c:27;s:25-27;::SpongeBob caps/case))</td> <td>((c:28;::rAndDOMLy DisTrIBUting CApitAL LEtteRS))</td> </tr>
+    <tr><td>((c:29;::camel case))</td> <td>((c:30;::words glued together)) with ((c:31;::each initial letter capitalized)); the ((c:32;::initial letter of the word)) ((c:33;::lowercase))</td></tr>
+<tr><td>((c:34;s:35;::upper camel case)) aka ((c:35;s:34;::pascal case))</td> <td>((c:36;::words glued together)) with ((c:37;::each initial letter capitalized)); the ((c:38;::initial letter of the word)) ((c:39;::also uppercase))</td></tr>
+    </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}</span>
+
+###### title case
+
+§§ ((c:1;::Title case)) AKA ((c:2;::headline case)) is a style of ((c:3;::capitalization)) used for ((c:4;::rendering the titles of published works or works of art)) in ((c:5;::English)). §<br>
+§§ In ((c:6;::title case)), ((c:7;::major words (subject to definition))) are ((c:8;::capitalized)), as are ((c:9;::the first and last word of the title)). §<br>
+§§ ((c:10;::Exact rules of capitalization)) in ((c:11;::title case)) ((c:12;::vary)). §<br>
+§§ Most commonly, ((c:13;::most words)) are considered ((c:14;::major words)) and thus ((c:14;::capitalized)), while ((s:13-14;::((c:15;::articles)), ((c:16;::conjunctions)) and ((c:17;::preposititons)) are considered ((c:18;::not major words)) and thus ((c:18;::not capitalized)) (though ((s:15-18;::((c:19;::some, e.g. the AP Style guide,)) recommend capitalizing them if ((c:19;::they are four characters or more) )))))) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
 
 #### emoji & emoticons
 
