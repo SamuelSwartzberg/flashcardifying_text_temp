@@ -3274,7 +3274,7 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 
 <table class="cloze-group hide-if-inactive">
   <tbody>
-  <tr><td colspan="3"><img src="Screenshot%202021-12-04%20at%2004.59.57.png">
+  <tr>|span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
 ⟮c:7;neutral pelvis⟯|⟮c:8;anterior pelvic tilt⟯|⟮c:9;posterior pelvic tilt⟯
   </tbody>
   

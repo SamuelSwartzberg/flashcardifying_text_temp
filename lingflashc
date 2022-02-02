@@ -231,7 +231,7 @@ An adjunct can be any type of phrase.
       <td class="inner" colspan="3">⟮c:3;X'⟯
 
     <tr>
-      <td colspan="2"></td>
+      |span=2;</td>
       <td class="inner">⟮c:4;X⟯|</td>
       <td class="inner">⟮c:5;YP⟯
 
@@ -823,10 +823,10 @@ Gnomic/anything else
   <thead><tr><th colspan="3">Eventive</th></tr></thead>
   <tbody>
     <tr>
-       <td colspan="1">⟮c:6;s:1-4;Perfective⟯</td><td colspan="4">⟮c:5;s:1-4;Imperfective⟯
+       |span=1;⟮c:6;s:1-4;Perfective⟯</td>|span=4;⟮c:5;s:1-4;Imperfective⟯
 </td>
-      <td colspan="2">⟮c:3;s:1-2;Habitual⟯</td>
-      <td colspan="2">⟮c:4;s:1-2;Continuous⟯
+      |span=2;⟮c:3;s:1-2;Habitual⟯</td>
+      |span=2;⟮c:4;s:1-2;Continuous⟯
 |||⟮c:1;s:3-5;Progressive⟯|⟮c:2;s:3-5;Stative⟯
 
   </tbody>
@@ -1472,7 +1472,7 @@ structure of the syllable
 | </tr>
 | <tr>
 ||<td>⟮c:2;s:4-5;Onset⟯</td>
-||<td colspan="2">⟮c:3;s:4-5;Rhyme⟯</td>
+|||span=2;⟮c:3;s:4-5;Rhyme⟯</td>
 | </tr>
 | <tr>
 ||<td></td>
@@ -1920,7 +1920,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <th>Upper lip
 </th>
 <td>bilabial</td>
-<td colspan="2">linguolabial</td>
+|span=2;linguolabial</td>
 <td class="no">
 </td>
 <td class="no"></td>
@@ -1943,7 +1943,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <th>Upper teeth
 </th>
 <td class="no"></td>
-<td colspan="2">dental</td>
+|span=2;dental</td>
 <td class="no">
 </td>
 <td class="no"></td>
@@ -1965,7 +1965,7 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <th>Alveolar ridge
 </th>
 <td class="no"></td>
-<td colspan="2">alveolar</td>
+|span=2;alveolar</td>
 <td class="no">
 </td>
 <td class="no"></td>
@@ -2362,16 +2362,16 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <tr>
 <th scope="row">Plosive</th>
 <td>{{c1::p}}|{{c2::b}}||</td>
-<td colspan="3">{{c3::t}}</td>
-<td colspan="3">{{c4::d}}|{{c5::ʈ}}|{{c6::ɖ}}|{{c7::c}}|{{c8::ɟ}}|{{c9::k}}|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}</td>
+|span=3;{{c3::t}}</td>
+|span=3;{{c4::d}}|{{c5::ʈ}}|{{c6::ɖ}}|{{c7::c}}|{{c8::ɟ}}|{{c9::k}}|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}</td>
 <td class="no">|{{c14::ʔ}}</td>
 <td class="no">
 
 <tr>
 <th scope="row">Nasal</th>
 <td>|{{c15::m}}||{{c16::ɱ}}</td>
-<td colspan="3"></td>
-<td colspan="3">{{c17::n}}||{{c18::ɳ}}||{{c19::ɲ}}||{{c20::ŋ}}||{{c21::ɴ}}</td>
+|span=3;</td>
+|span=3;{{c17::n}}||{{c18::ɳ}}||{{c19::ɲ}}||{{c20::ŋ}}||{{c21::ɴ}}</td>
 <td class="no"></td>
 <td class="no"></td>
 <td class="no"></td>
@@ -2380,7 +2380,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <tr>
 <th scope="row">Trill</th>
 <td>|{{c22::ʙ}}||</td>
-<td colspan="3"></td>
+|span=3;</td>
 <td  colspan="3">{{c23::r}}||||</td>
 <td class="no"></td>
 <td class="no">||{{c24::ʀ}}|{{c25::ʜ}}|{{c26::ʢ}}</td>
@@ -2390,7 +2390,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <tr>
 <th scope="row">Tap/flap</th>
 <td>|||</td>
-<td colspan="3"></td>
+|span=3;</td>
 <td  colspan="3">{{c27::ɾ}}||{{c28::ɽ}}||</td>
 <td class="no"></td>
 <td class="no">||||</td>
@@ -2403,8 +2403,8 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <td class="no"></td>
 <td class="no"></td>
 <td class="no"></td>
-<td colspan="3"></td>
-<td colspan="3">{{c58::l}}||{{c59::ɭ}}||{{c60::ʎ}}||{{c61::ʟ}}||</td>
+|span=3;</td>
+|span=3;{{c58::l}}||{{c59::ɭ}}||{{c60::ʎ}}||{{c61::ʟ}}||</td>
 <td class="no"></td>
 <td class="no"></td>
 <td class="no"></td>
@@ -2416,8 +2416,8 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <td class="no"></td>
 <td class="no"></td>
 <td class="no"></td>
-<td colspan="3">{{c51::ɬ}}</td>
-<td colspan="3">{{c52::ɮ}}||||||||</td>
+|span=3;{{c51::ɬ}}</td>
+|span=3;{{c52::ɮ}}||||||||</td>
 <td class="no"></td>
 <td class="no"></td>
 <td class="no"></td>
@@ -2427,7 +2427,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <th scope="row">Approximant</th>
 <td>|||{{c53::ʋ}}</td>
 <td  colspan="3"></td>
-<td colspan="3">{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}|||</td>
+|span=3;{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}|||</td>
 <td class="no"></td>
 <td class="no">|
 
@@ -3007,7 +3007,7 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
     <th colspan="2">What do you call these pages? (LtR)</th></tr></thead>
   <tbody>
     <tr>
-      <td colspan="2"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
+      |span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
       <stop offset="0" style="stop-color:#F8ECBC"></stop>
@@ -3062,7 +3062,7 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
     <th colspan="2">What do you call these pages? (RtL)</th></tr></thead>
   <tbody>
     <tr>
-      <td colspan="2"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
+      |span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
       <stop offset="0" style="stop-color:#F8ECBC"></stop>
