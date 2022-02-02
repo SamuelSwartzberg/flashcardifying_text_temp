@@ -8284,8 +8284,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <tr>
   <th>Maximum transfer rate
   </th>
-  |span=2;12 Mbps
-  </td>
+  <td colspan="2">12 Mbps
   |span=2;480 Mbps
   |5 Gbps
   |10 Gbps
@@ -8295,8 +8294,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <tr>
   <th>Type A
   </th>
-  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
-  </td>
+  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67">
   </td>
   <td colspan="2" class="no">Deprecated
@@ -8304,8 +8302,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <tr>
   <th>Type B
   </th>
-  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
-  </td>
+  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75">
   </td>
   <td colspan="2" class="no">Deprecated
@@ -8314,14 +8311,12 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>USB-C
   </th>
   <td colspan="3" class="no">N/A
-  </td>
   |span=5;<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">
 
   <tr>
   <th>Mini-A
   </th>
   <td class="no">N/A
-  </td>
   |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50">
   </td>
   <td colspan="5" class="no">Deprecated
@@ -8330,7 +8325,6 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>Mini-B
   </th>
   <td class="no">N/A
-  </td>
   |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50">
   </td>
   <td colspan="5" class="no">Deprecated
@@ -8348,7 +8342,6 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   </th>
   <td colspan="3" class="no">N/A
   |<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50">
-  </td>
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50">
   </td>
   <td colspan="2" class="no">Deprecated
@@ -8358,7 +8351,6 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   </th>
   <td colspan="3" class="no">N/A
   |<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42">
-  </td>
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50">
   </td>
   <td colspan="2" class="no">Deprecated
@@ -8368,7 +8360,6 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   </th>
   <td colspan="3" class="no">N/A
   |<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50">
-  </td>
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69">
   </td>
   <td colspan="2" class="no">Deprecated

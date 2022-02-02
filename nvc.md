@@ -170,8 +170,7 @@ The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its
 
 One possible grouping of clean language questions (there are others)
 <table class="cloze-group hide-if-inactive">
-  <tbody>⟮c:1;intention⟯|⟮c:2;sequence and source⟯</td>
-      |span=3;⟮c:3;developing⟯
+  <tbody>⟮c:1;intention⟯|⟮c:2;sequence and source⟯|span=3;⟮c:3;developing⟯
 ||
         ⟮c:6;name and address questions⟯<br>
         Purpose: ⟮c:23;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
