@@ -92,13 +92,11 @@ PI|Processing instruction
   </tbody>
 </table>
 
-<br>---<br>
 'Tag name' of the ⟮c:6;processing instruction⟯ to ⟮c:7;link a stylesheet to an xml document⟯ is ⟮c:5;xml-stylesheet⟯ 
 ===<br>
 
 #### CDATA
 
-<br>---<br>
 ⟮c:1;CDATA⟯ is short for ⟮c:2;Character data⟯) 
 ⟮c:10;CDATA⟯ ⟮c:3;tells the parser not to parse the content as XML markup⟯ 
 ⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:gb;this would allow us to ((c:13;::include HTML within XML without a problem⟯.)) 
@@ -553,7 +551,6 @@ The most common clearfix technique might be: ::after {
   clear: both;
 }
 
-<br>---<br>
 In contrast to ⟮c:10;CSS⟯, in ⟮c:10;Latex⟯ ⟮c:11;floats⟯ merely ⟮c:12;move vertically and not horizontally⟯. 
 If possible, latex places ⟮c:13;floats⟯ ⟮c:14;close to where they appear in the source text⟯. 
 ⟮c:15;Floats⟯ are relevant for ⟮c:9;things that cannot be broken over a page (images, tables⟯). 
@@ -562,7 +559,6 @@ By default, ⟮c:20;table⟯ and ⟮c:21;figure⟯ are the two ⟮c:22;environme
 The ⟮c:24;table environment⟯ is ⟮c:25;functionally equivalent to⟯ the ⟮c:26;figure environment⟯, but ⟮c:27;has a separate index of numbering⟯. 
 ===<br>
 
-<br>---<br>
 The ⟮c:28;[option]⟯ for ⟮c:29;table, figure⟯ says ⟮c:30;where roughly you would like the table/figure to float.⟯ 
 ⟮c:31;the option for controlling where a floating element⟯ goes consists of ⟮c:32;a list⟯ of specifiers, which are ⟮c:33;single chars⟯ ⟮c:34;one after the other⟯ without ⟮c:35;separators⟯, indicating ⟮c:36;relative preference⟯ 
 ===<br>
@@ -580,15 +576,12 @@ The ⟮c:28;[option]⟯ for ⟮c:29;table, figure⟯ says ⟮c:30;where roughly 
   </tbody>
 </table>
 
-<br>---<br>
 the ⟮c:37;float⟯ package ⟮c:40;improves⟯ ⟮c:38;float handling⟯ and ⟮c:40;defines⟯ ⟮c:39;the float specifier H⟯ 
 ===<br>
 
-<br>---<br>
 If you have ⟮c:41;a table (tabular⟯) where you want to make sure it ⟮c:42;flows well and does not cause awkward page breaks⟯, you should ⟮c:43;float it (surround it in a table env) ⟯, but if ⟮c:44;you care exactly where it appears in relation to the source text⟯, you should ⟮c:43;not float it (not surround it in a table env⟯) 
 ===<br>
 
-<br>---<br>
 ⟮c:45;\caption{foo⟯} is there to ⟮c:46;add a caption foo⟯ to ⟮c:47;floating environments⟯. 
 ⟮c:48;the optional argument []⟯ to ⟮c:49;\caption⟯ takes ⟮c:50;a short title⟯ for use ⟮c:51;in the listoftables/figures⟯ 
 to ⟮c:52;\label⟯ a ⟮c:53;table/figure⟯, the ⟮c:52;\label⟯ must go ⟮c:54;directly after \caption⟯ 
@@ -612,7 +605,6 @@ description list|description environment|&lt;dl>
 list item|\item|&lt;li>
 Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
 
-<br>---<br>
 In markdown ⟮c:1;Lists items⟯ are each ⟮c:3;started by⟯ ⟮c:2;one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
 ⟮c:4;ordered list items⟯ are started by ⟮c:5;&lt;n&gt;. (e.g. 1. or 7.⟯). 
 it does not matter ⟮c:6;with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮c:7;always start one and go from there (or whatever you then change it to via css⟯). 
@@ -764,7 +756,6 @@ $   running number indicator  // $
 
 #### attributes
 
-<br>---<br>
 it seems that ⟮c:4;SVG elements⟯ will have ⟮c:1;width⟯ and ⟮c:1;height⟯ of ⟮c:2;0⟯ and thus ⟮c:3;be invisble⟯ if ⟮c:5;not otherwise specified⟯ 
 ===<br>
 
@@ -774,7 +765,6 @@ In ⟮c:9;SVG⟯, you ⟮c:10;position things⟯ by ⟮c:11;specifying the x and
 
 ##### Basic shapes
 
-<br>---<br>
 You ⟮c:9;create basic shapes⟯ in SVG by using ⟮c:10;the SVG basic shapes⟯. 
 the ⟮c:1;SVG basic shapes⟯ are a grouping of⟮c:11;, well, basic shapes⟯ 
 SVG ⟮c:12;basic shapes⟯: ⟮c:2;&lt;circle&gt;⟯, ⟮c:3;&lt;ellipse&gt;⟯, ⟮c:4;&lt;line&gt;⟯, ⟮c:5;&lt;polygon&gt;⟯, ⟮c:6;&lt;polyline&gt;⟯, ⟮c:7;&lt;path&gt;⟯ and ⟮c:8;&lt;rect&gt;⟯ 
@@ -782,7 +772,6 @@ SVG ⟮c:12;basic shapes⟯: ⟮c:2;&lt;circle&gt;⟯, ⟮c:3;&lt;ellipse&gt;⟯
 
 ##### <text>
 
-<br>---<br>
 `the ⟮c:1;&lt;text&gt;⟯` element is ⟮c:2;the only place⟯ you can ⟮c:3;have text in SVG⟯ 
 In ⟮c:7;SVG⟯, ⟮c:8;text⟯ ⟮c:9;outside of a &lt;text&gt;⟯ ⟮c:4;will not be shown⟯ 
 ⟮c:10;&lt;text&gt;⟯ can contain ⟮c:5;`&lt;tspan&gt;`s⟯, which ⟮c:6;define subtext (lol) for further targeting⟯. 
@@ -790,7 +779,6 @@ In ⟮c:7;SVG⟯, ⟮c:8;text⟯ ⟮c:9;outside of a &lt;text&gt;⟯ ⟮c:4;will
 
 ##### <g>
 
-<br>---<br>
 the ⟮c:3;svg⟯ ⟮c:1;&lt;g&gt; element⟯ is used to ⟮c:2;group ofther elements⟯ 
 ===<br>
 
@@ -2442,7 +2430,6 @@ image-rendering: auto - browser-defined algorithm
 
 ##### frames
 
-<br>---<br>
 A ⟮c:1;frame⟯ is ⟮c:2;a part of a webpage⟯ which ⟮c:3;displays a different webpage (or a part thereof⟯) within. 
 A ⟮c:4;frame⟯ has ⟮c:5;state⟯ ⟮c:6;independent of its parent webpage⟯. 
 The ⟮c:7;two types of frames⟯ that HTML has/had are ⟮c:8;&lt;frame&gt;⟯ and ⟮c:9;&lt;iframe&gt;⟯ 
@@ -2847,10 +2834,8 @@ colors: {
 
 ##### nested rules
 
-<br>---<br>
 In SCSS/Sass and other CSS preprocessors, to achieve ⟮c:2;nested selectors⟯, you can ⟮c:3;nest entire rules⟯. 
 ===<br>
-<br>---<br>
 <pre><code>nav {
   ul {
     margin: 0;
@@ -2868,13 +2853,11 @@ In SCSS/Sass and other CSS preprocessors, to achieve ⟮c:2;nested selectors⟯,
 }</code></pre>
 ===<br>
 
-<br>---<br>
 In ⟮c:4;nested rules⟯'s selectors, ⟮c:5;&amp;⟯ refers to ⟮c:6;the parent selector⟯. 
 In nested rules's selectors, ⟮c:7;&amp;⟯ is useful if ⟮c:8;you want to combine selectors in complex ways⟯ 
 In ⟮c:9;nested rules⟯'s selectors, ⟮c:10;@at-root⟯ ⟮c:11;goes back up to the nesting tree.⟯ 
 ===<br>
 
-<br>---<br>
 <pre><code>.parent {
   .child {
     ⟮c:1;&amp; div &amp; &amp; &gt; a⟯ {}
@@ -2883,7 +2866,6 @@ In ⟮c:9;nested rules⟯'s selectors, ⟮c:10;@at-root⟯ ⟮c:11;goes back up 
 compiles to `⟮c:12;.parent .child div .parent .child .parent .child &gt; a {⟯}`
 ===<br>
 
-<br>---<br>
 <pre><code>.grand-parent {
   .parent {
     @at-root .child {}
@@ -2892,7 +2874,6 @@ compiles to `⟮c:12;.parent .child div .parent .child .parent .child &gt; a {�
 compiles to `⟮c:13;.child {}⟯`
 ===<br>
 
-<br>---<br>
 <pre><code>.button {
   &amp;:visited { }
   &amp;:hover { }
@@ -2900,7 +2881,6 @@ compiles to `⟮c:13;.child {}⟯`
 }</code></pre> compiles to `⟮c:14;.button:visited { } .button:hover { } .button:active { } ⟯`
 ===<br>
 
-<br>---<br>
 <pre><code>.btn {
   &amp;-primary {}
   &amp;-secondary {}
@@ -2927,7 +2907,6 @@ While ⟮c:1;CSS⟯ will ⟮c:3;recover⟯ if ⟮c:4;an error is found⟯, ⟮c:
 
 ###### @extend and placeholder classes
 
-<br>---<br>
 `⟮c:1;@extend⟯` is the keyword ⟮c:2;for inheriting styles of other selectors⟯. 
 In common language ⟮c:3;`@extend foo`⟯ is saying ⟮c:4;you want something to have the same declarations as foo⟯. 
 Internally, ⟮c:5;`@extend`⟯&nbsp;works ⟮c:6;on selectors (instead of copying declarations⟯) 
@@ -2936,7 +2915,6 @@ You put SCSS/Sass ⟮c:9;placeholder selector⟯ where ⟮c:10;selectors⟯ woul
 An SCSS/sass ⟮c:11;placeholder selector⟯ itself is a ⟮c:12;selector⟯ that ⟮c:13;doesn't select anything⟯. 
 An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`ed⟯. 
 ===<br>
-<br>---<br>
 <pre><code>%toolbelt {
   box-sizing: border-box;
   border-top: 1px rgba(#000, .12) solid;
@@ -2959,7 +2937,6 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
 
 ###### mixins
 
-<br>---<br>
 ⟮c:1;@mixin⟯ at its most simple defines ⟮c:2;a set of styles that can be reused⟯. 
 ⟮c:3;@include⟯ ⟮c:4;copies the styles⟯ defined by ⟮c:5;@mixin⟯ ⟮c:6;into the current block⟯. 
 ⟮c:7;@mixin⟯ can take ⟮c:8;arguments⟯, both ⟮c:9;sassscript⟯ and ⟮c:10;a block of css⟯. 
@@ -2968,7 +2945,6 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
 ⟮c:14;@content⟯ refers to ⟮c:15;a passed-in css block⟯ in @⟮c:16;mixin⟯. 
 ===<br>
 
-<br>---<br>
 <pre><code>@mixin button() {
     ...
     @content;
@@ -2980,7 +2956,6 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
     }
 }</code></pre>
 ===<br>
-<br>---<br>
 <pre><code>@mixin replace-text($image, $x: 50%, $y: 50%) {
   text-indent: -99999em;
   overflow: hidden;
@@ -3033,11 +3008,9 @@ next to its own technologies, bootstrap may require popper
 
 ##### tailwind
 
-<br>---<br>
 ⟮c:3;Tailwind CSS⟯'s main idea is ⟮c:1;using preexisting CSS classes⟯ for styling, instead of ⟮c:2;switching to CSS⟯ 
 ⟮c:6;Tailwind config⟯ is done in the ⟮c:4;tailwind.config.js⟯ file, which works similarly to ⟮c:5;the webpack config file⟯ 
 ===<br>
-<br>---<br>
 <h2>
   Using ⟮c:7;Tailwind CSS⟯, code might look like this:
 </h2>
@@ -3109,7 +3082,6 @@ TODO revise in light of above info
 tsv|tab-separated values
 csv|comma-separated values
 
-<br>---<br>
 ⟮c:5;A table⟯ (e.g. in ⟮c:5;database or spreadsheet⟯ contexts) is ⟮c:6;a collection/sequence/whatever of⟯ ⟮c:7;records⟯. 
 ⟮c:8;A record⟯ is ⟮c:9;a collection/sequence/whatever of⟯ ⟮c:10;fields⟯, which ⟮c:10;each contain an item of data⟯. 
 A ⟮c:11;record⟯ is ⟮c:12;more or less kinda⟯ synonymous to ⟮c:13;row⟯. 
@@ -3130,7 +3102,6 @@ The ⟮c:24;first line⟯ of ⟮c:25;csv/tsv⟯ may be ⟮c:26;a header⟯.
 <tr><td>⟮c:3;tsv⟯</td> <td>⟮c:4;with tags⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 Neither ⟮c:30;csv⟯ nor ⟮c:30;tsv⟯ are ⟮c:31;fully standardized⟯, or rather ⟮c:32;the specs aren't always followed⟯. 
 In ⟮c:33;csv/tsv⟯, ⟮c:34;wrapping a field in double quotes⟯ commonly allows ⟮c:35;the field separator to be included in the field⟯. 
 If in csv/tsv ⟮c:36;a field is wrapped in double quotes to allow the field separator to be included in the fields⟯, ⟮c:37;double qoutes⟯ are then excaped by ⟮c:38;double double quotes⟯. 
@@ -3223,7 +3194,6 @@ A ontology languages is a language that describes an ontology.
 
 ### folksonomy
 
-<br>---<br>
 ⟮c:1;Folksonomy⟯ is a system where ⟮c:2;users⟯ apply ⟮c:3;public tags⟯ to items, thus over time generating a sort of ⟮c:4;taxonomy⟯. 
 Two types of ⟮c:5;folksonomies⟯ are ⟮c:6;broad⟯, where ⟮c:7;multiple users can apply the same tag⟯, thus ⟮c:7;showing which tags are the most popular⟯, and ⟮c:6;narrow⟯, where ⟮c:7;the same tag can only be applied once⟯ 
 ===<br>
@@ -3835,7 +3805,6 @@ If in VSCode you have {{c1::as many text cursors}} as {{c2::the thing you want t
 
 ##### autocomplete
 
-<br>---<br>
 <dfn>⟮c:1;Autocomplete/word completion⟯</dfn> is a feature where ⟮c:2;an application predicts the rest of something the user is typing⟯.  
 <dfn>⟮c:3;Autocomplete/word completion⟯</dfn> on ⟮c:4;smartphone keyboards⟯ is called <dfn>⟮c:5;predictive text⟯</dfn>, ⟮s:gb;this used to refer to ((c:6;::the prediction of typing on numeric keypads (e.g. T9⟯))) 
 <dfn>⟮c:7;Autocomplete/word completion⟯</dfn> ⟮c:8;in a command-line interface⟯ is called <dfn>⟮c:9;command-line⟯</dfn> or <dfn>⟮c:9;tab⟯ ⟮c:9;completion⟯</dfn>, ⟮s:gb;which generally uses ((c:10;::the tab key (whence the name⟯).)) 
@@ -3898,7 +3867,6 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 #### theming
 
 ⟮h:all;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
-<br>---<br>
 A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ((c:4;::the set of files that define a theme/skin.⟯)) 
 ===<br>
 lxappearace is a gtk theme switcher
@@ -3928,7 +3896,6 @@ dmenu/rofi/choose output the selected item to stdout
 ######## command palette / quick open menu
 
 ⟮h:all;<img src="Screenshot%202021-12-09%20at%2003.12.09.png">⟯
-<br>---<br>
 A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
 A quick open menu is a text-based fuzzily searchable menu containing navigation items.
 Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
@@ -3948,7 +3915,6 @@ Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have ada
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:35;Quick open menus⟯ are often entered via ⟮c:36;<kbd class="key modifier cmd"></kbd> <kbd>P</kbd>.⟯ 
 ===<br>
 
@@ -4000,7 +3966,6 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 ###### status bar
 
 <div class="flex-container">⟮h:all;<img src="sb-paint.png">⟯⟮h:all;<img src="460px-Emacs_statusline.png">⟯⟮h:all;<img src="Gedit_3.11.92.png">⟯⟮h:all;<img src="StatusBar_Light.png">⟯⟮h:all;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯</div>
-<br>---<br>
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
 On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. 
@@ -4010,7 +3975,6 @@ A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;s
 ###### taskbar
 
 ⟮h:all;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h:all;<img src="Windows_10_Taskbar.PNG">⟯⟮h:all;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h:all;<img src="1024px-Plasma_5.20_Taskbar.png">⟯
-<br>---<br>
 ⟮c:12;The above⟯ are all examples of ⟮c:11;taskbars⟯. 
 §§ A ⟮c:1;taskbar⟯ is a GUI element that typically shows ⟮c:2;which programs are open⟯, and allows ⟮c:3;pinning programs or other things for quick access⟯. 
 A taskbar generally positioned ⟮c:4;as a strip along the edge of a screen⟯. 
@@ -4022,7 +3986,6 @@ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a 
 
 ⟮h:all;<img class="c2-f c1-b" src="sm_toggle_side_bar.gif">⟯
 
-<br>---<br>
 VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;((c:13;::5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯)). 
 ===<br>
 
@@ -4043,7 +4006,6 @@ VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing �
     <tr><td>⟮c:9;5th icon⟯</td><td>⟮c:10;Extensions View⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 ⟮c:15;Extensions⟯ can ⟮c:16;populate all of VS Code's bars⟯ with ⟮c:17;more content⟯ 
 ===<br>
 
@@ -4058,7 +4020,6 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 ##### sidebars
 
 <div class="flex-container">⟮h:all;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:all;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:all;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:all;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:all;<img src="sidebars.png">⟯</div>
-<br>---<br>
 A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ((c:5;::navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ((c:8;::reasonably wide (i.e. not just icons).⟯)))) 
 ===<br>
 
@@ -4089,7 +4050,6 @@ The dialog element has a boolean attribute open representing whether the dialog 
 ##### tooltips & popovers
 
 <div class="flex-container">⟮h:all;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮h:a;<img src="sm_220px-Mobile_URL_tooltip.png">⟯</div><div class="flex-container">⟮h:a;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮h:a;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯</div>
-<br>---<br>
 ⟮c:2;Tooltips⟯ and ⟮c:2;popovers⟯ are similar in that ⟮c:3;they both appear close to the thing that triggered them⟯. 
 A ⟮c:4;tooltip⟯ is an element/component ⟮c:6;with extra text⟯ which ⟮c:7;appears⟯ when ⟮c:1;when hovering over something⟯ 
 A ⟮c:5;popover⟯ is a element/component that usually ⟮c:8;appears⟯ when ⟮c:9;interacting with something⟯ ⟮c:10;directly adjacent to that thing⟯. it ⟮c:11;is a modal (creates a mode⟯). 
@@ -4122,7 +4082,6 @@ App shortcuts is the webdev name for the set of actions that are shown e.g. when
 ###### FAB
 
 <div class="flex-container">⟮h:a;<img src="sm_fab.jpg">⟯⟮h:a;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯</div>
-<br>---<br>
 A ⟮c:1;FAB⟯ ⟮(c:2;floating action button⟯) is ⟮c:3;a button⟯ that ⟮c:4;is always visible⟯ and contains ⟮c:5;the primary action for the application/view⟯. 
 A ⟮c:6;FAB⟯ is typically located ⟮c:7;in the bottom right⟯, is fairly ⟮c:8;large⟯ and ⟮c:9;round⟯. 
 A ⟮c:10;FAB⟯ may ⟮c:11;contain more actions⟯ when ⟮c:12;pressed⟯. 
@@ -4184,14 +4143,12 @@ A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content
 
 ### color
 
-<br>---<br>
 A ⟮c:17;color model⟯ is a model of how ⟮c:18;a set of channels⟯ ⟮c:19;make up a color⟯. 
 A ⟮c:20;color space⟯ is a ⟮c:21;color model⟯ ⟮c:22;associated with⟯ ⟮c:23;how the results are to be interpreted (viewing conditions etc.⟯) 
 A ⟮c:24;gamut⟯ is ⟮c:25;a complete/'adjacent'⟯ ⟮c:26;subset of a colors⟯. 
 Often a ⟮c:27;gamut⟯ refers specifically to ⟮c:28;the subsset of colors⟯ that ⟮c:29;can be displayed or represented by something⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:30;Each pixel⟯ in a ⟮c:31;color image⟯ is made up of ⟮c:32;two or more channels⟯. 
 ⟮c:33;Each channel⟯ in an image/pixel is ⟮c:34;associated with a color⟯. 
 ⟮c:35;channels⟯ of color may also be called ⟮c:36;components⟯. 
@@ -4199,7 +4156,6 @@ Often a ⟮c:27;gamut⟯ refers specifically to ⟮c:28;the subsset of colors⟯
 ⟮c:41;Combining⟯ ⟮c:40;the color channels⟯ of a pixel (and thus the image) ends you up with ⟮c:42;the color of the pixel/image⟯. 
 ===<br>
 
-<br>---<br>
 In the ⟮c:43;RGB⟯ ⟮c:44;color model⟯ a thingy has the ⟮c:45;three⟯ ⟮c:46;channels⟯ ⟮c:47;red, green and blue⟯. 
 In the ⟮c:48;CMY⟯ ⟮c:49;color model⟯ a thingy has the ⟮c:50;three⟯ ⟮c:51;channels⟯ ⟮c:52;cyan, magenta and yellow⟯. 
 The ⟮c:53;CMYK⟯ ⟮c:54;color model⟯ ⟮c:56;adds a channe⟯l of ⟮c:55;key⟯ (= ⟮c:55;black⟯). 
@@ -4214,13 +4170,11 @@ A ⟮c:72;subtractive color model⟯ is one where ⟮c:73;colors⟯ ⟮c:74;adde
 ⟮c:84;RYB⟯ is an alternative ⟮c:85;subtractive⟯ ⟮c:86;color model⟯ still used in the arts. It can however not ⟮c:87;create black⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:88;Color depth⟯ indicates ⟮c:89;the amount of bits used⟯ for ⟮c:90;color⟯ ⟮c:91;per pixel⟯ or ⟮c:92;per channel⟯ (since ⟮c:93;these rarely overlap⟯, there is no ⟮c:93;confusion⟯.) 
 ⟮c:94;Color depth⟯ is more rarely also called ⟮c:95;bit depth⟯. 
 Today, the ⟮c:96;most common⟯ ⟮c:97;color depth⟯ is ⟮c:98;8 bit per channel⟯. 
 ===<br>
 
-<br>---<br>
 the ⟮c:99;common color depth of 8 bit per channe⟯l means values from ⟮c:100;0 - 255⟯ / ⟮c:101;00 to ff⟯. 
 Most colors are specified by ⟮c:102;specifying the color model⟯ and then ⟮c:103;the components⟯ (e.g. ⟮c:104;RGB 0, 120, 58⟯). 
 ⟮c:105;RGB colors⟯ are also often displayed as ⟮c:106;a hex triplet,⟯ which is generally ⟮c:107;prefixed by a # character⟯. 
@@ -4231,13 +4185,11 @@ In certain places, e.g. HTML/CSS, hex colors ⟮c:226;with reduplicated digits o
 ⟮c:108;A primary color⟯ is ⟮c:109;a member of⟯ a ⟮c:110;set of colors⟯ (all ⟮c:111;defined to be primary⟯) that ⟮c:112;can be combined in varying amounts⟯ to ⟮c:113;create a gamut of colors⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:114;CMY⟯ and ⟮c:114;RGB⟯ are ⟮c:115;complementary⟯ in such a way that ⟮c:116;C+R⟯, ⟮c:116;M+G⟯, and ⟮c:116;Y+B⟯ are ⟮c:117;all 100% (255 with an 8 bit color depth⟯). To ⟮c:118;get one channel⟯, ⟮c:119;the other is subtracted from 100%⟯. 
 To get ⟮c:120;the K channel⟯ from ⟮c:120;CMY⟯: K = ⟮c:121;min(C, M, Y⟯) 
 After ⟮c:122;getting the K channel⟯, to ⟮c:123;convert CMY to CMYK⟯: ⟮c:125;Channel_new⟯ =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">⟮c:124;Channel - K⟯</div><div>⟮c:125;1 - K⟯</div></div> 
 ===<br>
 
-<br>---<br>
 ⟮c:129;Hue⟯ is what we might call ⟮c:130;<i>color</i>⟯&nbsp;color. 
 ⟮c:131;Hue⟯ is what ⟮c:132;most languages⟯ ⟮c:133;consider primary⟯ about ⟮c:134;color⟯, with ⟮c:135;other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮c:136;attached later⟯. 
 ⟮c:137;Hue⟯ is often ⟮c:138;generated from⟯ ⟮c:139;RGB⟯, e.g. for ⟮c:140;use in HSL &amp; HSV/HSB⟯. 
@@ -4257,11 +4209,9 @@ If ⟮c:141;Hue⟯ is ⟮c:142;generated⟯ from ⟮c:142;RGB⟯ for ⟮c:142;HS
   </tbody>
 </table>
 
-<br>---<br>
 Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the distance⟯ of ⟮c:159;a color⟯ ⟮c:158;from⟯ t⟮c:160;he white-gray-black spectrum⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:161;Lighntess⟯ attempts to model ⟮c:162;adding white/black paint⟯ to ⟮c:163;make the color white/black⟯. 
 ⟮c:164;100%⟯ ⟮c:166;lightness⟯ is ⟮c:165;white⟯ for ⟮c:165;any saturation/hue⟯. 
 ⟮c:167;50%⟯ ⟮c:171;lightness⟯ ⟮c:168;allows for fully saturated colors⟯. 
@@ -4283,7 +4233,6 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:182;HSL⟯ = ⟮c:186;hue, saturation, lightness⟯. 
 ⟮c:183;HSV⟯ = ⟮c:187;hue, saturation, value⟯ ⟮c:190;is the same as⟯ ⟮c:188;HSB⟯ = ⟮c:189;hue, saturation, brightness.⟯ 
 ⟮c:184;HSL⟯ and ⟮c:184;HSV/HSB⟯ are alternate ⟮c:191;color models⟯, which are both ⟮c:192;variants of/generated from⟯ ⟮c:193;the RGB color model⟯. 
@@ -4300,7 +4249,6 @@ both ⟮c:219;HSL⟯ and ⟮c:219;HSV/B⟯ have the problem that ⟮c:220;changi
 <div class="flex-container">⟮h:all;<img src="sm_hsl_cylinder.png">⟯⟮h:all;<img src="sm_hsv_cylinder.png">⟯</div>
 <div class="flex-container">⟮h:all;<img src="sm_hsl_cone.png">⟯⟮h:all;<img src="sm_hsv_cone.png">⟯
 </div>
-<br>---<br>
 For any given color model, to ⟮c:228;specify transparency⟯, you ⟮c:229;add another channel⟯, which is called the ⟮c:230;alpha⟯ channel.
 For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding another two-digit hex to the end⟯.
 ⟮c:126;&lt;color-model&gt;-D⟯ is ⟮c:127;just that color model⟯ with ⟮c:128;an additional depth channel.⟯ 
@@ -4366,7 +4314,6 @@ The two main advantages of sprites over multiple images is that  they can be eas
 
 ### refresh rates
 
-<br>---<br>
 ⟮c:5;FPS⟯ (computing context) is short for ⟮c:6;frames per second⟯ 
 The most common ⟮c:7;display refresh rate⟯ as of 2020 is ⟮c:8;60fps/hz⟯ 
 Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to see ⟮c:11;smooth movement and not just a series of images⟯. 
@@ -4385,7 +4332,6 @@ Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to 
 
 ### transparency & opacity
 
-<br>---<br>
 The ⟮c:11;inverse of⟯ ⟮c:9;transparency⟯ is ⟮c:10;opacity⟯ 
 ===<br>
 
@@ -4416,8 +4362,7 @@ In the image, if {{c5::you see a vase}}, the {{c6::black space}} is the {{c7::ne
 In the image, if {{c8::you see two faces}}, the {{c9::white space}} is the {{c10::negative space}} and the {{c9::black space}} is the {{c10::positive space}}
 In the image, the {{c11::positive space}} is (probably/arguably) {{c12::the woman.}}
 
-<span class="c1-f">What are these examples for?</span><br><img class="c1-f all-b" src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br><br>---<br>
-⟮c:4;hostile/defensive architecture/design⟯ is architecture that ⟮c:6;restricts/guides behavior⟯ to ⟮c:5;protect property⟯ or ⟮c:3;prevent crime⟯ 
+<span class="c1-f">What are these examples for?</span><br><img class="c1-f all-b" src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br>⟮c:4;hostile/defensive architecture/design⟯ is architecture that ⟮c:6;restricts/guides behavior⟯ to ⟮c:5;protect property⟯ or ⟮c:3;prevent crime⟯ 
 hostile/defensive architecture might look like ⟮c:7;&lt;image&gt;⟯ 
 The most common people targeted by ⟮c:8;hostile/defensive architecture/design⟯ in the west are ⟮c:9;the homeless⟯ and ⟮c:2;young people⟯ 
 ===<br>
@@ -4443,8 +4388,7 @@ open|cannot be en/disabled
 #### curb cut effect
 
 ⟮h:all;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
-⟮h:all;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:all;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯<br><br>---<br>
-Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be instituted⟯. 
+⟮h:all;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:all;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯<br>Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be instituted⟯. 
 ⟮c:3;Curb cuts⟯ have only really ⟮c:4;become common⟯ ⟮c:5;in the last few decades⟯ 
 ⟮c:6;Curb cuts⟯ had ⟮c:7;many unexpected benefits⟯ besides ⟮c:8;helping disabled people⟯, giving rise to the term ⟮c:9;curb cut effect⟯. 
 ⟮c:10;The curb cut effect⟯ states that ⟮c:11;accessibility improvements⟯ provide ⟮c:12;many and varied benefits for everyone⟯ besides ⟮c:13;their initial aims⟯ 
@@ -4452,8 +4396,7 @@ Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be 
 
 #### non-directive play
 
-⟮h:all;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:all;<img src="sm_IMG_8551.jpg">⟯<br>---<br>
-⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯ 
+⟮h:all;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:all;<img src="sm_IMG_8551.jpg">⟯⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯ 
 ⟮c:3;self-directed play⟯ is easier to do when ⟮c:4;the play tools are not designed with any particular end in mind⟯ 
 ⟮c:5;self-directed play⟯ was advocated, especially in ⟮c:6;playgrounds⟯, by ⟮c:7;Isamu Noguchi⟯ 
 ⟮c:8;Noguchi⟯ ⟮c:9;long struggled⟯ to g⟮c:10;et a self-directed play playground built⟯, but ⟮c:11;one was eventually built in Sapporo⟯ 
@@ -4463,7 +4406,6 @@ Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be 
 
 #### robots/noindex
 
-<br>---<br>
 There are two ways to ⟮c:5;specify what crawlers such as those from search engines can crawl⟯, ⟮c:6;the robots.txt⟯ and ⟮c:7;the noindex tag⟯. 
 The ⟮c:8;robots.txt⟯ follows/implements ⟮c:9;the robots exclusion standard/protocol⟯. 
 ⟮c:10;The robots.txt⟯ is a file with ⟮c:12;a specific syntax⟯ to indicate ⟮c:11;what can crawl sites how⟯. 
@@ -4610,7 +4552,6 @@ secondary -> primary memory|paged/swapped in
 
 ### fragmentation
 
-<br>---<br>
 ⟮c:2;Memory fragmentation⟯ is when memory is ⟮c:3;allocated in many non-contiguous blocks⟯, meaning it has ⟮c:1;small spaces that can't store anything useful⟯ 
 ⟮c:4;Memory fragmentation⟯ results in ⟮c:5;the wasting of storage⟯. 
 ===<br>
@@ -4714,7 +4655,6 @@ gparted and gnome-disks are GUIs for partition/disk management
 
 mac
 
-<br>---<br>
 On mac, ⟮c:7;drutil⟯ is the ⟮c:8;CLI⟯ utility for ⟮c:9;interacting with burnable media⟯. 
 On mac, ⟮c:10;diskutil⟯ is the ⟮c:11;CLI⟯ utility for ⟮c:12;interacting with harddrives.⟯ 
 ===<br>
@@ -4797,7 +4737,6 @@ mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
 ⟮h:all;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
-<br>---<br>
 For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:gb;To ((c:4;::add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:gb;You can use this to search ((c:6;::pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.)))) 
 ===<br>
 
@@ -5061,7 +5000,6 @@ rnr   regex renaming utility that actually works well
 
 #### diff
 
-<br>---<br>
 ⟮c:4;diff⟯ is a tool that ⟮c:5;shows the differences between files⟯. 
 ⟮c:6;diff⟯ is originally ⟮c:7;a cli program of the same name⟯. 
 There are variants of ⟮c:8;the original cli program diff⟯ that change how it work somewhat, e.g. ⟮c:9;sdiff⟯ for ⟮c:10;side-by-die diffs⟯ and ⟮c:11;icdiff⟯ for ⟮c:12;both colored and side-by-side diffs⟯ 
@@ -5081,7 +5019,6 @@ There are variants of ⟮c:8;the original cli program diff⟯ that change how it
   </tbody>
 </table>
 
-<br>---<br>
 further, ⟮c:19;diff-like output⟯ is now used in ⟮c:20;a wide variety of gui applications⟯ 
 ===<br>
 
@@ -5198,35 +5135,29 @@ A socket in unix is realized as a file descriptor
 
 #### indication
 
-<br>---<br>
 ⟮c:1;File format⟯ and ⟮c:2;file type⟯ are ⟮c:3;basically synonyms⟯. 
 the ⟮c:4;file format/type⟯ is ⟮c:5;the structure/specification⟯ of what ⟮c:6;the binary contents⟯ of ⟮c:5;a file following this ((s:4;::file format⟯)) ⟮c:7;mean/how they should be interpreted⟯. 
 There are ⟮c:8;three common ways⟯ to specify ⟮c:9;a file format⟯: ⟮s:8;((c:10;::Filename extensions⟯, ⟮c:11;internal metadata⟯, and ⟮c:12;external metadata⟯.)) 
 ===<br>
 
-<br>---<br>
 ⟮c:13;Windows⟯ and ⟮c:14;Mac⟯  use ⟮c:15;file extensions⟯ to ⟮c:16;identify file type⟯. 
 ⟮c:17;Linux⟯ generally uses ⟮c:18;magic numbers⟯ to ⟮c:19;identify file type⟯. 
 ⟮c:20;File extensions⟯ can be ⟮c:21;useful⟯ on ⟮c:22;Linux⟯, but ⟮c:23;are generally not necessary⟯. 
 ===<br>
 
-<br>---<br>
 Specifying ⟮c:28;file format⟯ via ⟮c:26;internal metadata⟯ is having some sort of information ⟮c:27;as part of the file⟯ that specifies its ⟮c:28;format⟯. 
 ⟮c:24;Magic numbers⟯ are a form of ⟮c:25;internal metadata⟯. 
 ⟮c:29;magic numbers⟯ are ⟮c:30;a byte/series of bytes⟯ (often at ⟮c:31;the beginning of the file⟯) that ⟮c:32;identify the file format⟯. 
 ===<br>
 
-<br>---<br>
 Specifying the ⟮c:33;file format⟯ via ⟮c:34;filename extensions⟯ involves ⟮c:35;suffixing⟯ ⟮c:36;the filename⟯ with ⟮c:37;a dot⟯ and ⟮c:37;some short name⟯. 
 many ⟮c:38;file extensions⟯ are ⟮c:39;three-letter⟯ because ⟮c:40;dos did not allow for longer file extensions⟯ 
 ⟮c:41;.htm⟯ is ⟮c:42;a synonym for .html⟯ that only exists because ⟮c:43;dos required 3 char file extensions⟯ 
 ===<br>
 
-<br>---<br>
 Specifying ⟮c:44;file format⟯ via ⟮c:45;external metadata⟯ is having some sort of information ⟮c:46;as part of a message/protocol/file system⟯ that specifies its ⟮c:44;format⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:47;Media type⟯ is a way for ⟮c:49;identifying the file format⟯ of a file via ⟮c:48;external metadata⟯. 
 ⟮c:50;Media type⟯ is ⟮c:51;the most common way⟯ for identifying file format on ⟮c:52;the internet⟯. 
 ⟮c:53;Media type⟯ ⟮c:55;used to⟯ be called ⟮c:54;MIME type⟯. 
@@ -5237,7 +5168,6 @@ If a file is ⟮c:66;XML⟯, its ⟮c:68;media type⟯ gets ⟮c:67;a suffix of 
 The ⟮c:69;HTTP header⟯ for ⟮c:70;media type⟯ is ⟮c:71;Content-Type⟯. 
 ===<br>
 
-<br>---<br>
 A ⟮c:72;mailcap⟯ ⟮c:73;file⟯ maps ⟮c:74;media types⟯ to ⟮c:75;applications to view/execute them.⟯ 
 ⟮c:76;Mailcap files⟯ consist of ⟮c:77;mappings⟯, with ⟮c:78;one⟯ per ⟮c:78;line⟯. 
 ⟮c:79;Mailcap mapping⟯ syntax: ⟮c:80;&lt;media-type&gt;⟯⟮c:81;;⟯⟮c:82;&lt;program-to-execute&gt;⟯ ⟮c:83;%s⟯ 
@@ -5289,7 +5219,6 @@ Binary files are generally smaller and quicker to process than plaintext files
 
 ##### encoding as text
 
-<br>---<br>
 ⟮c:2;binary-to-text encodings⟯ represent ⟮c:1;binary data⟯ with ⟮c:1;plain text⟯ 
 ⟮c:3;binary-to-text encoding⟯ is ⟮c:4;inefficient⟯ but is ⟮c:4;necessary⟯ to ⟮c:5;send binary data over plaintext channels⟯, e.g. in ⟮c:6;email⟯. 
 the most common ⟮c:7;binary-to-text encoding⟯ is ⟮c:8;base64⟯. 
@@ -5405,7 +5334,6 @@ Often, ⟮c:17;SVG⟯ is ⟮c:10;included in HTML⟯. This can be done by i⟮c:
 ########## affinity designer
 
 ⟮h:all;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
-<br>---<br>
 To ⟮c:2;select a color in affinity designer⟯ (must be in ⟮c:3;Pixel Persona⟯) ⟮c:1;Select &gt; Select Sample Color⟯ 
 To ⟮c:4;turn a color transparent⟯ in affinity designer ⟮c:5;select a color, then delete it with backspace⟯ 
 ===<br>
@@ -5421,7 +5349,6 @@ unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
 gifsicle is a CLI program to manipulate gifs
 
-<br>---<br>
 `⟮c:9;ocrmypdf⟯` is a command line tool to ⟮c:10;add OCR text to scanned PDF files⟯. 
 §§ ```
 ocrmypdf ⟮c:11;SOURCE DEST⟯
@@ -5442,7 +5369,6 @@ ocrmypdf ⟮c:11;SOURCE DEST⟯
 
 ######## imagemagick
 
-<br>---<br>
 ⟮c:31;Imagemagick⟯ is ⟮c:32;a set of programs⟯ for ⟮c:33;modifying images.⟯ 
 ⟮c:34;Imagemagick⟯ mainly exists as ⟮c:35;a cli⟯, has ⟮c:36;a basic X window gui⟯, and ⟮c:37;API bindings⟯ for ⟮c:38;pretty much any programming language under the sun⟯. 
 ⟮c:39;imagemagick⟯ contains ⟮c:40;a bunch of subcommands⟯, which ⟮c:41;do different things⟯ but ⟮c:42;often accept similar arguments⟯ 
@@ -5670,7 +5596,6 @@ RTF|Rich Text Format
 
 ####### tex, especially latex
 
-<br>---<br>
 ⟮c:3;Tex⟯ consists of ⟮c:1;tex-core⟯ and ⟮c:2;plain-tex⟯ 
 ⟮c:4;plain-tex⟯ is ⟮c:5;the set of macros that the tex typsetting program uses⟯; ⟮c:6;tex-core⟯ is ⟮c:7;the typesetting program (that transforms it into output⟯) 
 ⟮c:8;Tex⟯ and thus ⟮c:8;latex⟯ is meant for ⟮c:9;typesetting⟯ 
@@ -5690,7 +5615,6 @@ info|read texinfo files
 
 ######## Commands
 
-<br>---<br>
 A typical ⟮c:5;command⟯ looks {{c1::}}⟮c:3;name⟯⟮c:2;{⟯⟮c:4;argument⟯{{c2::} }} 
 a ⟮c:9;command⟯'s ⟮c:10;required arguments⟯ (AKA ⟮c:11;arguments⟯) are ⟮c:12;delimited by {⟯} 
 a ⟮c:6;command's⟯ ⟮c:7;optional arguments⟯ (AKA ⟮c:8;options⟯) are ⟮c:13;delimited by []⟯ 
@@ -5699,7 +5623,6 @@ Generally, ⟮c:17;commands⟯ take ⟮c:18;the thing they act on⟯ ⟮c:19;as 
 ⟮c:20;Some commands⟯ instead ⟮c:21;apply to anything⟯ ⟮c:22;following the command⟯ ⟮c:23;until the end of environment or group⟯, these are known as being in ⟮c:24;declaration form⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:28;The name⟯ ⟮c:29;of a command⟯ ⟮c:30;used as an environment⟯ is known as that commands ⟮c:31;environment form⟯ 
 the ⟮c:26;environment form⟯ of ⟮c:27;\foo⟯ would look like {{c25::`\begin{command}...\end{command}`}} 
 ⟮c:32;Most (afaik) commands⟯ in ⟮c:33;declaration (\command (no args⟯)) form can also be used  ⟮c:26;in an environment form⟯ 
@@ -5708,13 +5631,11 @@ the ⟮c:26;environment form⟯ of ⟮c:27;\foo⟯ would look like {{c25::`\begi
 
 ######### new commands
 
-<br>---<br>
 To ⟮c:1;create a new command⟯, use ⟮c:2;\newcommand⟯, which goes in ⟮c:3;the preamble⟯ 
 ⟮c:4;\newcommand⟯ has the syntax: ⟮c:4;\newcommand⟯⟮c:9;{&lt;name&gt;⟯}⟮c:10;[&lt;number-of-arguments&gt;]⟯⟮c:11;{&lt;latex-code-to-execute&gt;⟯} 
 Within ⟮c:7;\newcommand⟯, you ⟮c:8;refer to arguments⟯ ⟮c:6;positionally⟯ with ⟮c:5;#n⟯ 
 ⟮c:12;\newcommand{\euler}{\mathrm{e}⟯ makes ⟮c:13;\euler output \mathrm{e}⟯ 
 ===<br>
-<br>---<br>
 ```
 \newcommand{\abs}[1]{\left|#1\right|}
 ```
@@ -5722,7 +5643,6 @@ Within ⟮c:7;\newcommand⟯, you ⟮c:8;refer to arguments⟯ ⟮c:6;positional
 
 ######## Sections
 
-<br>---<br>
 Latex ⟮c:11;sections⟯ ⟮c:12;go until⟯ ⟮c:13;the beginning of the next section⟯ 
 Latex sections are declared via ⟮c:14;command. (e.g. \part⟯) 
 Latex ⟮c:15;section commands⟯ take ⟮c:16;the full section title⟯ as ⟮c:10;a mandatory argument⟯ and ⟮c:16;a short title (e.g. for TOC⟯) as ⟮c:10;an optional argument⟯. 
@@ -5730,7 +5650,6 @@ Latex ⟮c:15;section commands⟯ take ⟮c:16;the full section title⟯ as ⟮c
 ⟮c:8;Article⟯ notably does not havet the ⟮c:9;\chapter⟯ section command. 
 ===<br>
 
-<br>---<br>
 <h2>
   Latex section hierarchy
 </h2>
@@ -5748,14 +5667,12 @@ Latex ⟮c:15;section commands⟯ take ⟮c:16;the full section title⟯ as ⟮c
 
 ######## latex groups
 
-<br>---<br>
 in Latex, ⟮c:2;groups⟯ ⟮c:1;create a scope⟯ 
 `⟮c:3;\bgroup ... \egroup⟯` or ⟮c:4;`{ ... }`⟯ ⟮c:5;delimit a group⟯ 
 ===<br>
 
 ######## latex labels and refs
 
-<br>---<br>
 In latex, using ⟮c:8;\label⟯ you ⟮c:9;define a marker⟯, which ⟮c:10;you can then later reference⟯. 
 the main advantages of ⟮c:11;using labels⟯ in latex instead of ⟮c:12;manually referring to the indices of the things⟯ is that ⟮c:13;they auto-update⟯ 
 ⟮c:19;\label⟯ takes ⟮c:21;an argument⟯ of ⟮c:20;the name of the marker.⟯ 
@@ -5776,7 +5693,6 @@ It is common practice to ⟮c:22;prefix the name of the marker⟯ with a ⟮c:23
   </tbody>
 </table>
 
-<br>---<br>
 In latex, you can ⟮c:27;reference markers⟯ defined with ⟮c:28;\label⟯ with ⟮c:29;\ref⟯, ⟮c:30;\pageref⟯ or ⟮c:31;\eqref⟯. 
 ===<br>
 
@@ -5797,7 +5713,6 @@ In latex, you can ⟮c:27;reference markers⟯ defined with ⟮c:28;\label⟯ wi
 
 ######### rigid and rubber
 
-<br>---<br>
 The two types of lengths ⟮c:5;latex⟯ has are ⟮c:6;rigid lengths⟯ and ⟮c:6;rubber lengths⟯. 
 a ⟮c:7;rubber length⟯ is a length that ⟮c:8;<b>can</b> shrink or grow⟯ 
 a ⟮c:9;rigid length⟯ is a length that ⟮c:10;will not shrink or grow⟯ 
@@ -5817,7 +5732,6 @@ Lengths in latex are ⟮c:16;rigid⟯ by ⟮c:17;default⟯
   </tbody>
 </table>
 
-<br>---<br>
 ```
  \blackbar{101pt}\hspace{100pt minus 2pt}\blackbar{101pt}}YYY
 ```
@@ -5826,7 +5740,6 @@ Lengths in latex are ⟮c:16;rigid⟯ by ⟮c:17;default⟯
 
 ######### creating lengths
 
-<br>---<br>
 To ⟮c:1;create a length foo⟯, you first have to ⟮c:2;declare it⟯ with ⟮c:3;\newlength{\foo⟯} and then ⟮c:2;initialize it⟯&nbsp; {{c4::with \setlength{\foo}{bar}}}. 
 ⟮c:5;\setlength⟯ can also be used to ⟮c:6;change the value⟯ of ⟮c:7;preexisting length keywords⟯. 
 If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯, ⟮c:9;things that use these lengths itnernally⟯ will also change. 
@@ -5848,7 +5761,6 @@ If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯
 
 ######### packages
 
-<br>---<br>
 the package ⟮c:1;amsmath⟯ contains ⟮c:2;a bunch more stuff related to math⟯. 
 the package ⟮c:3;mathtools⟯ is ⟮c:4;a superset of⟯ ⟮c:5;amsmath⟯, and also ⟮c:6;fixes some of its bugs⟯ 
 the package ⟮s:9-10;((c:7;::amssymb⟯ ⟮c:8;adds more math symbols⟯)); the package ⟮s:7-8;((c:9;::amsthm⟯ ⟮c:10;adds more theorem/proof related stuff⟯)). ⟮c:11;these both⟯ ⟮c:12;need to be separately loaded from amsmath/mathtools⟯ if desired. 
@@ -5856,7 +5768,6 @@ the package ⟮s:9-10;((c:7;::amssymb⟯ ⟮c:8;adds more math symbols⟯)); the
 
 ######### environments
 
-<br>---<br>
 Fundamentally, ⟮c:7;math⟯ in LaTeX is always ⟮c:8;contained in its own environment.⟯ 
 There are ⟮c:9;two types of math environments⟯ in ⟮c:10;LaTeX⟯, ⟮c:11;displayed (block in CSS terms⟯) and ⟮c:12;inline⟯. 
 There exists ⟮c:15;a basic built-in environment⟯ for ⟮c:13;both&nbsp;types of math environments⟯, ⟮c:14;displayed⟯ and ⟮c:14;inline⟯. 
@@ -5878,7 +5789,6 @@ The ⟮c:25;LaTeX-exclusive⟯ ⟮c:26;shorthands⟯ for ⟮c:27;the built-in ma
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:29;amsmath/mathtools⟯ adds a bunch more ⟮c:30;displayed⟯ ⟮c:31;math environments⟯. 
 For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two versions⟯, ⟮s:34;one ((c:33;::with a star⟯ and ⟮c:33;one without⟯)). 
 ⟮c:35;amsmath/mathtools environments⟯ ⟮c:37;w/o a star⟯ are ⟮c:36;numbered⟯, ⟮c:37;w/ a star⟯ they are ⟮c:36;not numbered⟯. 
@@ -5897,12 +5807,10 @@ For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two ve
   </tbody>
 </table>
 
-<br>---<br>
 The ⟮c:38;align/align* environment⟯ aligns ⟮c:39;parts of the equation⟯ ⟮c:40;vertically⟯ in relation to ⟮c:41;the anchor⟯, which is the ⟮c:42;&amp; symbol⟯ 
 ⟮c:43;split⟯ is ⟮c:44;the same as⟯ ⟮c:45;the align environment⟯, but ⟮c:46;within the equation environment⟯&nbsp;
 ===<br>
 
-<br>---<br>
 the ⟮c:47;autobreak⟯ environment contained in ⟮c:49;the eponymous package⟯ ⟮c:48;auto inserts linebreaks into formulae⟯ 
 In ⟮c:50;the autobreak environment⟯, ⟮c:51;any newline⟯ is treated as ⟮c:52;a possible point to break⟯ 
 ⟮c:52;proof⟯ provides ⟮c:53;an environments for proofs⟯ 
@@ -5915,7 +5823,6 @@ the ⟮c:54;cases environment⟯ renders ⟮c:55;multiple lines⟯ with ⟮c:56;
 ######### newtheorem
 
 \newtheorem is used in the document preamble
-<br>---<br>
 ⟮c:7;\newtheorem⟯ ⟮c:8;creates a new theorem envronment⟯ 
 ⟮c:9;\newtheorem⟯ takes ⟮c:10;two arguments, and one option⟯. 
 ===<br>
@@ -5928,11 +5835,9 @@ the ⟮c:54;cases environment⟯ renders ⟮c:55;multiple lines⟯ with ⟮c:56;
   </tbody>
 </table>
 
-<br>---<br>
 For ⟮c:13;\newtheorem⟯, if ⟮c:12;[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮c:14;a reference to another theorem⟯ -&gt; ⟮c:14;with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮c:15;a reference to a section⟯ -&gt; ⟮c:15;under which it will be numbered⟯ 
 ===<br>
 
-<br>---<br>
 <pre><code>\newtheorem{theo}{Theorem}
 ...
 \begin{theo}</code></pre>
@@ -5943,13 +5848,11 @@ For ⟮c:13;\newtheorem⟯, if ⟮c:12;[foo]⟯ occurs {{c11::between the two {a
 
 ######### case-changed symbols
 
-<br>---<br>
 For arrows, if the ⟮c:1;first letter⟯ is ⟮c:2;lowercase⟯, it will render the ⟮c:3;thin arrow (→⟯), if the ⟮c:1;first letter⟯ is ⟮c:2;uppercase⟯, it will render the ⟮c:3;thick arrow (⇒⟯). 
 so `⟮c:9;\rightarrow⟯` renders ⟮c:10;a thin right arrow →⟯, and ⟮c:9;\Rightarrow⟯ renders ⟮c:10;a thick, double-line right arrow ⇒⟯. 
 ⟮c:11;\rightarrow⟯ can also be created by ⟮c:12;\in⟯ 
 ⟮c:13;\Rightarrow⟯ can also be created by ⟮c:14;\implies⟯ 
 ===<br>
-<br>---<br>
 For greek letters, if the ⟮c:4;first letter⟯ is ⟮c:5;lowercase⟯, it will render the ⟮c:6;lowercase letter⟯, if the ⟮c:4;first letter⟯ is ⟮c:5;uppercase⟯, it will render the ⟮c:6;uppercase letter⟯. 
 so ⟮c:7;\pi⟯ ⟮c:8;inserts a lowercase pi π⟯ and ⟮c:7;\Pi⟯ ⟮c:8;inserts an uppercase pi Π⟯ 
 ===<br>
@@ -5987,7 +5890,6 @@ symbol|command(s)|requires package
 <tr><td>⟮c:25;\o⟯</td> <td>⟮c:26;ø⟯</td></tr></tbody>
 </table>
 
-<br>---<br>
 ⟮c:9;\dots⟯ ⟮c:10;is equivalent to \ldots⟯ in ⟮c:11;vanilla latex⟯. 
 If using ⟮c:12;amsmath⟯ and ⟮c:13;within math mode⟯, ⟮c:14;\dots⟯ ⟮c:15;decides between \ldots and \cdots⟯ ⟮c:16;based on context⟯ 
 ===<br>
@@ -6008,11 +5910,9 @@ If using ⟮c:12;amsmath⟯ and ⟮c:13;within math mode⟯, ⟮c:14;\dots⟯ �
 
 ######## beginning of document
 
-<br>---<br>
 ⟮c:16;Latex commands⟯ are ⟮c:17;either defined in the .cls file⟯ (and thus ⟮c:18;you can use them by default⟯) or ⟮c:19;in packages⟯. 
 ===<br>
 
-<br>---<br>
 The ⟮c:20;first statement⟯ in a latex document must be  ⟮c:21;\documentclass⟯ 
 ⟮c:22;The required argument⟯ of ⟮c:23;\documentclass⟯ is ⟮c:24;the document clas⟯s 
 calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background 
@@ -6020,12 +5920,10 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
 ===<br>
 
 
-<br>---<br>
 ⟮c:31;Any \usepackage declarations⟯ must go in ⟮c:32;the preambl⟯e. 
 ⟮c:12;\RequirePackage⟯ is like ⟮c:13;\usepackage⟯, with the dif that it can be used ⟮c:1;before \documentclass⟯ and ⟮c:33;is really only used by people writing packages/classes⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:34;The document environment⟯ contains ⟮c:35;the entire document (anything that will be visible⟯) 
 ⟮c:36;after \begin{document⟯} there is often ⟮c:37;a set of commands⟯ setting ⟮c:38;metadata⟯ called ⟮c:39;the top matter/topmatter⟯ 
 ===<br>
@@ -6044,7 +5942,6 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:40;\maketitle⟯ then ⟮c:41;renders top matter⟯ into ⟮c:42;the title page⟯ 
 ===<br>
 
@@ -6055,7 +5952,6 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
 
 ######### beamer
 
-<br>---<br>
 The ⟮c:8;documentclass⟯ for ⟮c:7;creating presentations⟯ is ⟮c:9;beamer⟯. 
 The highest-level division of ⟮c:10;beamer⟯ is ⟮c:11;the frame⟯. 
 A beamer ⟮c:12;frame⟯ can be defined ⟮c:13;by command or as an environment⟯ 
@@ -6064,7 +5960,6 @@ A beamer ⟮c:12;frame⟯ can be defined ⟮c:13;by command or as an environment
 ⟮c:21;\frametitle{foo⟯} ⟮c:22;sets foo as the title of the frame⟯ 
 ===<br>
 
-<br>---<br>
 l⟮c:24;atex presentations⟯ are ⟮c:25;styled⟯ via ⟮c:23;themes⟯ 
 The kind of themes that latex presentations can have are ⟮c:31;presentation⟯, ⟮c:32;color⟯, ⟮c:33;font⟯, ⟮c:34;inner⟯, ⟮c:35;outer⟯ 
 ⟮c:26;the elements inside of a frame (enumerations, blocks, theorems, etc⟯) are styled via ⟮c:28;inner themes⟯ 
@@ -6072,7 +5967,6 @@ The kind of themes that latex presentations can have are ⟮c:31;presentation⟯
 ⟮c:30;Setting themes⟯ is done via ⟮c:36;the \usetheme command⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:37;Overlay specifications⟯ specify ⟮c:38;which slides⟯ to ⟮c:39;apply a command to⟯, or ⟮c:38;on which slides⟯ ⟮c:40;to show a thing⟯ 
 ⟮c:41;Overlay specifications⟯ are written ⟮c:42;&lt;some_number/list/range&gt;⟯ 
 ± \item&lt;-2,4-5,7&gt; ±<br>
@@ -6082,7 +5976,6 @@ The kind of themes that latex presentations can have are ⟮c:31;presentation⟯
 
 ⟮h:all;<img src="sm_L5.png">⟯
 
-<br>---<br>
 When using the ⟮c:54;beamer⟯ class, you can use ⟮c:52;modes⟯ to ⟮c:53;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56;&lt;⟯⟮c:59;certain_mode⟯⟮c:56;&gt;⟯⟮c:57;{⟯⟮c:58;things to do⟯⟮c:57;} ⟯ 
 ===<br>
@@ -6127,12 +6020,10 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:52;\institute⟯ ⟮c:53;sets document institute (e.g. TU Fak. 1⟯) (exclusive to ⟮c:54;beamer⟯) 
 
 ⟮c:61;\titlepage⟯ is ⟮c:62;functionally equivalent⟯ to ⟮c:63;\maketitle⟯, but ⟮c:60;will insert a missing frame if necessary⟯ 
 ===<br>
-<br>---<br>
 ⟮c:55;block⟯ is ⟮c:56;an environment⟯ representing ⟮c:57;a text box⟯ in latex ⟮c:58;beamer⟯, taking ⟮c:59;an additional argument⟯ of ⟮c:60;its title⟯ 
 the ⟮c:61;columns environment⟯ allows ⟮c:62;a multicolumn setup⟯ in latex ⟮c:70;beamer⟯  
 ⟮c:63;within the columns environment of beamer⟯, ⟮c:64;\column{foo⟯} ⟮c:65;inserts a column of width foo⟯. 
@@ -6142,13 +6033,11 @@ the ⟮c:61;columns environment⟯ allows ⟮c:62;a multicolumn setup⟯ in late
 
 ######### KOMAScript
 
-<br>---<br>
 ⟮c:9;KOMA-script⟯ is ⟮c:10;a bundle of classes⟯ generally more ⟮c:11;versatile⟯ than ⟮c:11;builtin equivalents⟯ (if ⟮c:12;even  extant⟯). 
 ⟮c:13;KOMAoptions⟯ allows you to ⟮c:14;set a bunch of options⟯ ⟮c:15;of koma script classes⟯ 
 variant of ⟮c:16;article class⟯ ⟮(c:18;KOMA-script⟯): ⟮c:17;scrartcl⟯ 
 ===<br>
 
-<br>---<br>
 class for ⟮c:20;letters⟯ ⟮(c:19;KOMA-script⟯):⟮c:21;scrlttr2⟯ 
 changing the scrlttr2 template can be can be done the option [] to \documentclass{scrlttr2} 
 ⟮c:25;Setting variables⟯ for ⟮c:23;koma script templates⟯ (but seemingly actually only used for ⟮c:24;scrlttr2⟯): ⟮c:25;setkomavar⟯{{c26::{key}{val} }} 
@@ -6175,14 +6064,12 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
 
 ######## inline text formatting
 
-<br>---<br>
 ⟮c:1;centering⟯ is a ⟮c:2;declaration form command⟯ that ⟮c:3;centers content⟯. 
 ⟮c:4;center⟯ is ⟮c:5;an environment⟯ that ⟮c:6;centers content⟯. 
 ===<br>
 
 ######## compilation
 
-<br>---<br>
 ⟮c:22;pdf(la)tex⟯ ⟮c:23;compiles⟯ ⟮c:24;(la)tex to pdf⟯ 
 ===<br>
 
@@ -6198,7 +6085,6 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
   </tbody>
 </table>
 
-<br>---<br>
 Whenever ⟮c:9;latex compiles⟯ and you ⟮c:7;have used one or more of \listoffigures, \listoftables, \tableofcontents⟯, it will ⟮c:8;emit a .lot, .lof, or .toc file⟯ respectively. 
 Latex constructs the ⟮c:10;.aux⟯ and ⟮c:11;.log, .lof, or .toc⟯ files by ⟮c:12;keeping account of anything that would be relevant⟯ for those ⟮c:13;while compiling⟯. 
 Latex uses ⟮c:14;the .lot, .lof, or .toc files⟯ on ⟮c:15;the next run⟯ ⟮c:16;to generate the actual listoffigures, listoftables or table of contents⟯. 
@@ -6208,7 +6094,6 @@ The ⟮c:20;aux⟯ file keeps track of ⟮c:21;various things relevant to latex 
 
 ######### logging
 
-<br>---<br>
 ⟮c:1;Logging⟯ is done to ⟮c:2;.log⟯ for ⟮c:4;latex itself⟯ and ⟮c:3;.blg⟯ for ⟮c:4;bibtex/biber⟯. 
 ===<br>
 
@@ -6220,16 +6105,13 @@ The ⟮c:20;aux⟯ file keeps track of ⟮c:21;various things relevant to latex 
 
 ######### headers and footers
 
-<br>---<br>
 ⟮c:10;\pagestyle{foo⟯} sets ⟮c:13;the style⟯ of ⟮c:11;your headers and footers⟯ to ⟮c:12;the format defined by foo⟯ 
 for ⟮c:14;anything more fancy⟯ with ⟮c:15;headers and footers⟯ than ⟮c:16;\pagestyle⟯ can do with ⟮c:17;builtin formats⟯, you need the package ⟮c:18;fancyhdr⟯ 
 ===<br>
-<br>---<br>
 ⟮c:19;\pagestyle{fancy⟯} activates a ⟮c:20;sensible default⟯ ⟮c:8;fancyhdr⟯ config 
 after&nbsp;⟮c:5;\pagestyle{fancy}⟯ you need ⟮c:9;\fancyhf{} ⟯ to ⟮c:7;remove the elements of the default page syle⟯ 
 ===<br>
 
-<br>---<br>
 §§ For more ⟮c:21;advanced header/footer config⟯ using ⟮c:22;fancyhdr⟯, use ⟮c:23;\(l/c/r)head{⟯} or ⟮c:23;\(l/c/r)foot{}⟯
  §<br>
 <table class="cloze-group hide-if-inactive">
@@ -6240,13 +6122,11 @@ after&nbsp;⟮c:5;\pagestyle{fancy}⟯ you need ⟮c:9;\fancyhf{} ⟯ to ⟮c:7;
 </table>
 ===<br>
 
-<br>---<br>
 to style headers and footers with ⟮c:24;fancyhdr⟯ in ⟮c:2;double-sided documents (e.g. books⟯) use ⟮c:6;\fancyhead⟯ and ⟮c:6;\fancyfoot⟯ 
 ===<br>
 
 ######### ending commands
 
-<br>---<br>
 {{c4::}} and ⟮c:5;\newline⟯ both ⟮c:8;generate a linebreak (/end the current line⟯) 
 ⟮c:2;\​⟯ but not ⟮c:2;\newline⟯ takes an ⟮c:3;option⟯ to specify how ⟮c:1;large the vertical gap to the new line⟯ should be 
 ⟮c:6;par⟯ ⟮c:7;generates a paragraph break (/end the current paragraph⟯) 
@@ -6257,7 +6137,6 @@ to style headers and footers with ⟮c:24;fancyhdr⟯ in ⟮c:2;double-sided doc
 
 ######### pdf metadata
 
-<br>---<br>
 the package ⟮c:5;hyperref⟯ also handles ⟮c:6;metadata⟯ via ⟮c:7;the \hypersetup command⟯. 
 The ⟮c:8;hypersetup⟯ command defines ⟮c:9;pdf metadata⟯ by taking ⟮c:10;keys⟯ with ⟮c:11;the syntax of pdf&lt;name&gt;, e.g. pdfauthor or pdftitle⟯ 
 ⟮c:1;pdfbookmark⟯ is a ⟮c:12;hyperref⟯ command that ⟮c:2;inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar⟯) 
@@ -6267,7 +6146,6 @@ Arguments to ⟮c:4;pdfbookmark⟯⟮c:3;[section]⟯{{c2::{Title} }}{{c1::{uid(
 
 ######### page geometry
 
-<br>---<br>
 ⟮c:1;layout⟯ is a package that allows you to ⟮c:2;show the setup of the page (how much spaces is being taken up by margins etc.⟯) 
 ⟮c:3;geometry⟯ is a package that allows you to ⟮c:4;change page layout (margins etc.⟯) 
 You can use ⟮c:5;the  geometry package⟯ to ⟮c:6;change the page layout globally⟯ by using ⟮c:7;the optional argument⟯ of ⟮c:8;the \usepackage call⟯. 
@@ -6277,14 +6155,12 @@ You can use ⟮c:9;\newgeometry{options⟯} to ⟮c:10;change the page layout⟯
 
 ########## lscape
 
-<br>---<br>
 using the package ⟮c:1;lscape⟯, you can use ⟮c:4;the landscape environment⟯ to make ⟮c:5;the thing go into landscape mode⟯ 
 If using ⟮c:2;pdflatex⟯, you use ⟮c:3;pdflscape⟯ instead of ⟮c:6;lscape⟯. 
 ===<br>
 
 ######### images
 
-<br>---<br>
 ⟮c:1;graphicx⟯ is a package that allows us to ⟮c:2;use images/graphics⟯ in ⟮c:3;latex⟯. 
 You define the ⟮c:4;root directory⟯ for where ⟮c:5;graphicx⟯ should ⟮c:6;look for images⟯ with ⟮c:7;\graphicspath{\foo⟯} 
 To ⟮c:8;include an actual image⟯ with ⟮c:9;graphicx⟯, use ⟮c:10;\includgraphics{path⟯}. 
@@ -6293,7 +6169,6 @@ To ⟮c:8;include an actual image⟯ with ⟮c:9;graphicx⟯, use ⟮c:10;\inclu
 
 ######### hyphenation
 
-<br>---<br>
 The ⟮c:14;hyphenation⟯ command takes a ⟮c:15;list of words⟯ as an ⟮c:16;argument⟯, which will ⟮c:17;only be hyphenated⟯ in ⟮c:18;the places indicated with dashes⟯ 
 ⟮c:19;hyphenat⟯ is a package to ⟮c:20;en/disable autohyphenation⟯, e.g. in ⟮c:21;words that contain hyphens or in monospaced fonts⟯ 
 in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;latex⟯ will only ever ⟮c:12;split the word on that hyphen⟯ 
@@ -6315,7 +6190,6 @@ in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;la
 
 ######### blockquotes
 
-<br>---<br>
 the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all ⟮c:10;indent the material, blockquote-style⟯. They ⟮c:11;differ in⟯ ⟮c:12;what they indent additionally, if anything⟯. 
 ===<br>
 
@@ -6348,7 +6222,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 
 ######### drawing (tikz)
 
-<br>---<br>
 ⟮c:1;tikz⟯ is a package for ⟮c:2;creating images⟯ based on ⟮c:3;LaTeXlike commands⟯ 
 ⟮c:4;TikZ⟯ is short for ⟮c:5;TikZ ist kein Zeichenprogramm⟯ 
 ⟮c:6;TikZ⟯ has ⟮c:7;its own pacakge/library system⟯, for which you ⟮c:8;import packages/libraries⟯ via ⟮c:9;\usetikzlibrary⟯ in ⟮c:10;the preamble⟯ 
@@ -6357,7 +6230,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 
 ######### resizing braces
 
-<br>---<br>
 In latex, ⟮c:1;parentheses⟯ and ⟮c:2;square brackets⟯ ⟮c:4;can just be inserted⟯, ⟮c:3;curly braces⟯ ⟮c:4;must be escaped⟯. 
 ⟮c:5;curly braces⟯ must ⟮c:6;be escaped even⟯ if ⟮c:7;as part of \left or \right⟯ 
 ± e.g. `\left\{` ±<br>
@@ -6369,7 +6241,6 @@ In latex, ⟮c:1;parentheses⟯ and ⟮c:2;square brackets⟯ ⟮c:4;can just be
 
 ######### including other pdfs
 
-<br>---<br>
 ⟮c:1;pdfpages⟯ is a ⟮c:2;package⟯ to ⟮c:3;include other pdfs within the latex documents⟯ 
 ⟮c:4;pdfpages⟯ mainly features the command ⟮c:5;\includepdf⟯ which ⟮c:6;allows include a pdf document in the latex document⟯ 
 ⟮c:7;\includepdf⟯ allows specifying ⟮c:8;how you want to include what⟯ in ⟮c:9;its options⟯ 
@@ -6378,7 +6249,6 @@ In latex, ⟮c:1;parentheses⟯ and ⟮c:2;square brackets⟯ ⟮c:4;can just be
 
 ######### color
 
-<br>---<br>
 the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using various color-related commands⟯. 
 ⟮c:10;xcolor⟯ is ⟮c:11;an extension/superset of⟯ ⟮c:12;color⟯. 
 ===<br>
@@ -6425,7 +6295,6 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
 
 ####### MD
 
-<br>---<br>
 In ⟮c:1;markdown⟯, you can include arbitrary ⟮c:2;HTML⟯. 
 In ⟮c:7;markdown⟯, you need to ⟮c:3;put blank lines⟯ ⟮c:4;before and after⟯ ⟮c:5;block-level⟯ elements, this includes ⟮c:6;HTML in markdown⟯. 
 To ⟮c:8;indent something under something else⟯ in md, ⟮c:9;indent the source code thing by four spaces⟯. 
@@ -6433,7 +6302,6 @@ To ⟮c:8;indent something under something else⟯ in md, ⟮c:9;indent the sour
 
 ######## GFM
 
-<br>---<br>
 ⟮c:1;Github-flavored⟯ ⟮c:2;markdown⟯ supports creating ⟮c:3;task lists⟯ via the syntax ⟮c:4;`- [ ]`⟯ 
 You ⟮c:5;complete⟯ ⟮c:6;github-flavored markdown task lists⟯ via the syntax `⟮c:7;- [x]⟯` 
 ===<br>
@@ -6515,7 +6383,6 @@ VTODO   Task/Todo
 
 ######## TOML
 
-<br>---<br>
 in ⟮c:1;TOML⟯, ⟮c:2;the top-level table⟯ starts at ⟮c:3;the beginning of the document⟯ and ends before/at ⟮c:4;the first table header⟯ 
 in ⟮c:5;TOML⟯, a ⟮c:6;header⟯ looks like ⟮c:7;[foo]⟯ 
 in TOML, ⟮c:8;a header (on its own line⟯) ⟮c:9;starts a table⟯ TOML: ⟮c:10;standard tables⟯ continue until ⟮c:11;the next table (or EOF⟯) 
@@ -6531,7 +6398,6 @@ YAML|YAML Ain't Markup Language
 
 ######### Anchors & merge keys
 
-<br>---<br>
 YAML ⟮c:7;anchors⟯ ⟮c:8;save a reference to a value⟯, which ⟮c:9;then can be included in a different location⟯ via ⟮c:10;an alias.⟯ 
 ⟮c:11;A merge key⟯ ⟮c:12;merges the values of an anchor⟯ ⟮c:13;into the current leve⟯l, thus allowing ⟮c:14;overwriting some of the values if necessary⟯. 
 A YAML ⟮c:15;alias⟯ goe⟮c:16;s where a value would normally⟯ 
@@ -6600,7 +6466,6 @@ WebVTT|Web Video Text Tracks Formats
 Things in ⟮c:47;WebVTT/.srt⟯ are ⟮c:48;generally separated⟯ by ⟮c:49;a blank line (i.e. two newlines⟯) 
 ===<br>
 
-<br>---<br>
 WebVTT delimits ⟮c:51;major sections⟯ with ⟮c:50;allcaps words⟯: 
   <table>
   <thead>
@@ -6616,7 +6481,6 @@ WebVTT delimits ⟮c:51;major sections⟯ with ⟮c:50;allcaps words⟯:
 ===<br>
 
 
-<br>---<br>
 A ⟮c:52;cue⟯ is ⟮c:53;the main unit of information⟯ in ⟮c:54;WebVTT/.srt.⟯ 
 ⟮c:55;A cue⟯ ⟮c:56;starts (.srt)/may start (WebVTT⟯) with ⟮c:57;a header line⟯. 
 ⟮c:58;The header line that starts a cue⟯ must be ⟮c:59;a running number indicator⟯ in ⟮c:60;.srt⟯, this is ⟮c:61;optional⟯ in ⟮c:60;WebVTT⟯ 
@@ -6656,7 +6520,6 @@ Every line of a cue may optionally be ⟮c:70;started by `- `⟯, this will ⟮c
 <tr><td>⟮c:30;::cue(b⟯)</td> <td>⟮c:31;Target a &lt;b&gt; tag within WebVTT⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 If you ⟮c:72;specify timestamp text (WebVTT only⟯), then ⟮c:73;any text before a timestamp text whose time you are at or after⟯ is ⟮c:74;previous text⟯, ⟮c:75;the text from the current to the next timestamp tag⟯ is ⟮c:76;active text⟯ and ⟮c:77;text after the next timestamp tag⟯ is ⟮c:78;future text⟯. 
 If we specify ⟮c:79;&lt;track kind="chapters"&gt;⟯, cues ⟮c:80;may not overlap time-wise⟯, and payloads ⟮c:81;may not contain tags⟯ 
 ===<br>
@@ -7215,14 +7078,12 @@ The caesar cipher is a kind of substitution cipher where the replacement is done
 Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
 
 <img src="sm_tmp51mx5j9z.png">
-<br>---<br>
 ⟮c:1;Symmetric key encryption⟯ is ⟮c:2;where both parties have the same key⟯. 
 ⟮c:3;In symmetric key encryption⟯, ⟮c:4;one party encrypts the data⟯, ⟮c:5;sends the cyphertext along⟯, and then the other party ⟮c:6;decrypts the data using the same key⟯. 
 The difficulty of ⟮c:7;symmetric key encryption⟯ is that ⟮c:8;you need to exchange the key securely, which is difficult.⟯ 
 ===<br>
 
 <img src="sm_tmp424stpwy.png">
-<br>---<br>
 ⟮c:9;In public key cryptography⟯ aka ⟮c:10;asymmetric cryptography⟯, ⟮c:12;both parties⟯ have ⟮c:11;two keys⟯, ⟮c:11;a public⟯ and ⟮c:11;a private key⟯. 
 In ⟮c:13;public key cryptography⟯, ⟮c:14;you publish⟯ ⟮c:15;your public key⟯ ⟮c:14;widely⟯, and ⟮c:14;keep⟯ ⟮c:15;your private key⟯ ⟮c:14;secret⟯. 
 If you want to ⟮c:16;encrypt a message⟯ in ⟮c:17;public key cryptogrpahy⟯, you ⟮c:18;apply your targets public key to it⟯. 
@@ -7230,7 +7091,6 @@ If you want to ⟮c:19;decrypt a message⟯ sent to you ⟮c:20;via public key c
 ===<br>
 
 <img src="1200px-Private_key_signing.svg.png">
-<br>---<br>
 For ⟮c:23;digital signing⟯, ⟮c:25;you⟯ ⟮c:24;encrypt it with your private key⟯. ⟮c:25;The recipient⟯ ⟮c:24;decrypts it with your public key.⟯ This proves ⟮c:26;that the message is from you⟯, since only ⟮c:27;your public key can decrypt things encrypted with your private key⟯. 
 ===<br>
 
@@ -7278,7 +7138,6 @@ A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}
 ⟮c:3;h:all;uh:4;<img src="sm_MitM4.jpg">⟯
 ⟮c:4;h:all;<img src="sm_MitM5.jpg">⟯
 
-<br>---<br>
 ⟮uh:all;After the MitM for public key encryption has been set up...⟯<br>
 ⟮c:12;the server⟯ and ⟮c:12;client⟯ <b>actually</b> have ⟮c:13;the MitMs public key⟯ 
 ⟮c:10;the server⟯ and ⟮c:10;client⟯ <b>think</b> they have ⟮c:11;each other's public key⟯ 
@@ -7286,7 +7145,6 @@ A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}
 ⟮c:8;the MitM⟯ looks like ⟮c:8;the client⟯ to ⟮c:9;the server⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:14;public key⟯ ⟮c:15;mitm attacks⟯ are countered with ⟮c:16;certificate authorities⟯ 
 ===<br>
 
@@ -7363,7 +7221,6 @@ to send notifications on linux, you can use the CLI notify-send.
 
 #### fonts
 
-<br>---<br>
 ⟮c:1;FontBook⟯ is the ⟮c:2;mac⟯ GUI for ⟮c:3;font handling⟯. 
 For ⟮c:4;manual font installation⟯ on mac, you can ⟮c:5;copy them⟯ to ⟮c:6;/Library/Fonts⟯ or ⟮c:6;~/Library/Fonts⟯ 
 ===<br>
@@ -7374,12 +7231,10 @@ Text expanders are programs which allow OS-wide macros.
 
 ##### espanso
 
-<br>---<br>
 ⟮c:2;Espanso variables⟯ are made available in the ⟮c:1;environment⟯ of the `shell` type. 
 An espanso var with `⟮c:3;name: foo⟯` will be available as `⟮c:4;$ESPANSO_FOO⟯` for any shell scripts. 
 ⟮c:5;fields within a form⟯ are available as `⟮c:6;$ESPANSO_FORMNAME_FIELDNAME⟯` for any espanso shell scripts 
 ===<br>
-<br>---<br>
 <pre><code data-codetype="yaml">- trigger: ":reversed"
   replace: "Reversed {{myshell}}"
   vars:
@@ -7394,10 +7249,8 @@ An espanso var with `⟮c:3;name: foo⟯` will be available as `⟮c:4;$ESPANSO_
 ===<br>
 
 
-<br>---<br>
 to ⟮c:2;insert a random choice of different options⟯ use the type ⟮c:1;random⟯, ⟮c:3;the options⟯ are specified ⟮c:4;in the choices sequence of params⟯ 
 ===<br>
-<br>---<br>
 <pre><code>  - trigger: ":quote"
     replace: "{{output}}"
     vars:
@@ -7444,7 +7297,6 @@ Docker is the most common service for os-level virtualiztion/containerization.
 
 ### misc
 
-<br>---<br>
 Right-clicking the ⟮c:1;windows start button⟯ brings up a ⟮c:2;context menu⟯ with ⟮c:3;a bunch of system tools⟯ 
 ===<br>
 
@@ -7494,11 +7346,9 @@ The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, 
 
 ##### Android
 
-<br>---<br>
 ⟮c:2;Android features⟯ depend on the relevant ⟮c:1;API level⟯, which starts at ⟮c:3;1⟯ and is at ⟮c:4;30⟯ as of android ⟮c:5;11⟯ 
 ===<br>
 
-<br>---<br>
 Curreny android has one ⟮c:1;API level⟯ per ⟮c:2;major version⟯ (e.g. ⟮c:2;android 11⟯), but it used to be ⟮c:3;multiple ones per version⟯ (bc in the past ⟮c:4;minor versions⟯, e.g. ⟮c:4;2.2.⟯ Gingerbread and even ⟮c:5;patch versions⟯, e.g. ⟮c:5;2.2.3⟯ Gingerbread ⟮c:6;introduced new features⟯) 
 ===<br>
 
@@ -7686,7 +7536,6 @@ if no utility is specified with -u, caffeinate creates the assertions directly, 
 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
-<br>---<br>
 `⟮c:11;open⟯` ⟮c:12;opens⟯ ⟮c:13;files/folders⟯ and ⟮c:14;urls⟯ with ⟮c:15;the default application (or one you specify⟯) 
 ⟮c:16;xdg-open⟯ is then X equivalent of ⟮c:17;macOs `open`⟯ 
 ===<br>
@@ -8516,7 +8365,6 @@ The standard sections of the manual include:
 
 ##### pagers
 
-<br>---<br>
 a ⟮c:1;pager⟯ is ⟮c:2;a terminal program⟯ that ⟮c:3;paginates⟯ its input. 
 the ⟮c:5;default pager⟯ for the terminal is set in the env variable ⟮c:4;PAGER⟯. 
 `⟮c:6;less⟯` is the most common ⟮c:7;pager⟯. 
@@ -8627,7 +8475,6 @@ full duplex|bidirectional, both simultaneously
 
 ### fresh and stale
 
-<br>---<br>
 In technical contexts, ⟮c:1;fresh⟯ and ⟮c:2;stale⟯ are often contrasted. 
 In technical contexts, something ⟮c:3;fresh⟯ is ⟮c:4;still relevant/valid/useful⟯. 
 In technical contexts, something ⟮c:5;stale⟯ is ⟮c:6;no longer relevant/valid/useful⟯. 
@@ -9093,14 +8940,12 @@ A link to the homepage of a page is called a surface link
 
 ####### cURL
 
-<br>---<br>
 ⟮c:3;cURL⟯ is a project for ⟮c:4;transferring data⟯ using various ⟮c:5;application protocols⟯. 
 one half of ⟮c:6;cURL⟯ is ⟮c:7;the command-line tool⟯ ⟮c:8;curl⟯. 
 the other half of ⟮c:9;cURL⟯ is ⟮c:10;the library libcurl⟯ with ⟮c:11;bindings for most major programming languages⟯. 
 curl syntax: ⟮c:12;curl⟯ ⟮c:13;[options]⟯ ⟮c:14;{URLs⟯} 
 ===<br>
 
-<br>---<br>
 ⟮c:15;s:16;-i⟯ and ⟮c:16;s:15;--include⟯ ⟮c:17;show HTTP response headers⟯ 
 To ⟮c:18;set custom headers⟯ in curl, use ⟮c:19;s:20;-H⟯/⟮c:20;s:19;--header⟯ ⟮c:21;"My-Header: My value"⟯ 
 To ⟮c:22;set the query string⟯ to a certain value in curl, use ⟮c:23;s:44;-d⟯ OR ⟮c:44;s:23;--data⟯ ⟮c:24;'key=value&amp;key2=value2'⟯ 
@@ -9109,12 +8954,10 @@ To make curl ⟮c:29;fail on error⟯, use ⟮c:30;s:31;-f⟯ or ⟮c:31;s:30;--
 To ⟮c:32;make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c:33;s:34;-I⟯ or ⟮c:34;s:33;--head⟯. 
 ===<br>
 
-<br>---<br>
 To ⟮c:35;make curl follow redirects (e.g. 301 Moved Permanently⟯), use ⟮c:36;s:37;-L⟯ or ⟮c:37;s:36;--location⟯ 
 If ⟮c:38;you've specified -L/--location⟯ for curl, ⟮c:39;--max-redirs⟯ sets ⟮c:40;how many redirects you want to follow⟯. ⟮c:41;-1⟯ means ⟮c:42;infinite redirects⟯ 
 ===<br>
 
-<br>---<br>
 There are bunch of sites ⟮c:43;designed to be `curl`ed⟯ to do something useful. 
 ===<br>
 
@@ -9132,28 +8975,23 @@ There are bunch of sites ⟮c:43;designed to be `curl`ed⟯ to do something usef
 
 ######## youtube-dl
 
-<br>---<br>
 ⟮c:1;youtube-dl⟯ is a ⟮c:8;CLI⟯ tool for ⟮c:2;downloading from⟯ ⟮c:4;mainly⟯ ⟮c:3;youtube⟯, ⟮c:4;but also from other platforms⟯. 
 basic syntax for youtube-dl: `⟮c:5;youtube-dl⟯ ⟮c:6;[OPTIONS]⟯ ⟮c:7;URL {URL⟯}` 
 ===<br>
 
 
-<br>---<br>
 youtube-dl: ⟮c:9;don't actually download the video, just preview⟯, so to speak: ⟮c:10;-s/--simulate⟯ 
 ===<br>
 
-<br>---<br>
 There is ⟮c:11;a set of options⟯ for ⟮c:12;youtube-dl⟯ that ⟮c:13;start with --get-⟯ and ⟮c:14;only return the requested information (e.g. id, format, filename, title, duration, etc.⟯) 
   ± --get-format, --get-title, etc. ±<br>
 ===<br>
 
-<br>---<br>
 The ⟮c:15;--format / -f FORMAT⟯ option of youtube-dl is for s⟮c:16;electing the format you want to download the thing in⟯. 
 You can ⟮c:17;list available formats for --format⟯ with ⟮c:18;--list-formats/-F⟯ 
 ===<br>
 
 
-<br>---<br>
 --format accepts a sophisticated syntax as an argument: (it's actually slightly more complicated, but I've simplified a little)
 <pre><code>Format specifier syntax: ⟮c:19;--format⟯ ⟮c:20;&lt;format-specifier&gt;⟯⟮c:21;{,&lt;format-specifier&gt;⟯}  # for ⟮c:22;downloading mutliple formats at once⟯
 ⟮c:23;format-specifier⟯: ⟮c:24;&lt;single-format&gt;⟯⟮c:25;{/&lt;single-format&gt;⟯} # for ⟮c:26;relative precedence of multiple formats, depending on what's available⟯
@@ -9167,7 +9005,6 @@ You can ⟮c:17;list available formats for --format⟯ with ⟮c:18;--list-forma
 ===<br>
 
 
-<br>---<br>
 The ⟮c:45;s:46;-x⟯/⟮c:46;s:45;--extract-audio⟯ option makes ⟮c:47;youtube-dl extract the audio into its own file⟯. 
 If ⟮c:48;using -x/--extract-audio⟯, you ⟮c:49;can specify the format⟯ ⟮c:50;with --audio-format FORMAT⟯, which ⟮c:51;accepts the subset of things for --format FORMAT⟯ that ⟮c:52;make sense for audio⟯. 
 ===<br>
@@ -9265,12 +9102,10 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 
 ######## cache
 
-<br>---<br>
 A ⟮c:9;cache⟯ is a thing that ⟮c:10;stores data⟯ so that ⟮c:11;future requests for that data⟯ ⟮c:12;can be served more quickly⟯. 
 With ⟮c:13;caching and esp. with HTTP caching⟯, the guiding principle is that you want to ⟮c:14;store the thing as long as possible⟯, but ⟮c:15;update it as soon as it changes⟯. 
 ===<br>
 
-<br>---<br>
 A ⟮c:16;web cache⟯ AKA ⟮s:16;((c:17;::HTTP cache⟯)) is ⟮c:18;a cache for HTTP requests⟯. 
 ⟮c:19;web/HTTP caches⟯ can either be ⟮c:20;shared⟯ or ⟮c:21;local/private⟯. 
 a ⟮c:22;shared⟯ ⟮c:23;HTTP cache⟯ sits ⟮c:24;somewhere in the internet⟯ and ⟮c:25;has many users⟯. 
@@ -9278,7 +9113,6 @@ a ⟮c:26;local/private⟯ ⟮c:27;HTTP cache⟯ sits ⟮c:28;in your web browse
 ⟮c:30;Any HTTP request⟯ will ⟮c:31;first be routed through⟯ ⟮c:32;your browser cache⟯ and perhaps ⟮c:33;a few network caches⟯ to see if ⟮c:34;there is a fresh copy of the response available⟯. 
 ===<br>
 
-<br>---<br>
 The main mechanism ⟮c:35;HTTP caching⟯ uses is ⟮c:36;the Cache-Control header⟯. 
 In the days of ⟮c:37;HTTP 1.0⟯, the ⟮c:38;Pragma header⟯ was used for ⟮c:39;caching⟯. 
 The ⟮c:40;Cache-Control header⟯ is sent ⟮c:41;by the server⟯ and&nbsp;specifies ⟮c:44;if a resource can be cached⟯, ⟮c:42;who can cache it⟯, and ⟮c:43;how long it can be cached⟯. 
@@ -9299,7 +9133,6 @@ To specify ⟮c:49;how long⟯ ⟮c:50;a cache entry⟯ is ⟮c:49;fresh (when i
   </tbody>
 </table>
 
-<br>---<br>
 an ⟮c:58;ETag⟯ is a mechanism for ⟮c:59;judging whether a resouce has changed⟯. 
 An ⟮c:60;ETag⟯ is ⟮c:63;a fingerprint⟯ for ⟮c:61;a specific version⟯ of ⟮c:62;a file⟯. 
 An ⟮c:64;ETag⟯ is ⟮c:65;opaque⟯ to ⟮c:66;the client⟯ but ⟮c:65;transparent⟯ to ⟮c:66;the server⟯ 
@@ -9308,7 +9141,6 @@ The ⟮c:73;ETag fingerprint⟯ is sent along by ⟮c:76;the server⟯ as ⟮c:7
 If we're using ⟮c:77;ETags⟯ and ⟮c:78;a resource expires⟯, the ⟮c:80;client⟯ sends along the ⟮c:77;ETag⟯ ⟮c:79;fingerprint⟯ in ⟮c:79;a If-None-Match header⟯. The ⟮c:80;server⟯ uses this to check whether ⟮c:81;the fingerprint⟯ still ⟮c:82;corresponds to the current version of the file⟯, and returns ⟮c:83;304 Not Modified⟯ if ⟮c:85;true⟯, or ⟮c:85;else⟯ a ⟮c:84;normal 200 OK response⟯. 
 ===<br>
 
-<br>---<br>
 There's no ⟮c:88;built-in/non-hacky way⟯ in ⟮c:87;HTTP⟯ to ⟮c:86;notify a client that a resource has expired⟯ if they don't ask for it. 
 ⟮c:89;Cache busting⟯ AKA ⟮s:89;((c:90;::revving⟯)) is a '⟮c:93;hack⟯' to ⟮c:91;force browsers to redownload new resources⟯ even if ⟮c:92;they are not expired.⟯ 
 ⟮c:94;Cache busting⟯ sets ⟮c:95;the longest possible max-age⟯ on resources, and if ⟮c:96;there are changes⟯, it ⟮c:97;renames the file in some way (e.g. a hash suffix⟯), which ⟮c:98;forces the browser to redownload⟯. 
@@ -9322,7 +9154,6 @@ There's no ⟮c:88;built-in/non-hacky way⟯ in ⟮c:87;HTTP⟯ to ⟮c:86;notif
 
 By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
 
-<br>---<br>
 ⟮c:1;Cookies⟯ are a concept within ⟮c:2;HTTP⟯. 
 ⟮c:3;Cookies⟯ allow ⟮c:6;the server⟯ to ⟮c:4;keep track of state⟯ in ⟮c:5;HTTP⟯, which is itself essentially ⟮c:4;stateless⟯. 
 ⟮c:7;Cookies⟯ are usually ⟮c:8;first set⟯ by ⟮c:9;the server⟯. 
@@ -9335,22 +9166,18 @@ The syntax of the `⟮c:31;Cookie⟯` header: `⟮c:31;Cookie:⟯ ⟮c:32;&lt;co
 Since ⟮c:35;cookies are sent back on each request⟯ and since ⟮c:36;there are spec-defined size constraints⟯, ⟮c:37;the things sent in cookies⟯ are usually ⟮c:38;quite small, often only a UID⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:39;Session cookies⟯ are cookies that ⟮c:40;only last until the browser is closed⟯, allthough ⟮c:41;they can often be restored by the browser via session restoring⟯. 
 ⟮c:42;Cookies⟯ without an ⟮c:43;Expires⟯ or ⟮c:43;Max-Age⟯ attribute are ⟮c:44;session cookies⟯. 
 ⟮c:45;Persistent cookies⟯ are ⟮c:46;cookies that last for a specific time⟯. 
 ⟮c:47;Cookies⟯ with an ⟮c:48;Expires⟯ or ⟮c:48;Max-Age⟯ attribute are ⟮c:49;persistent cookies⟯. 
 ===<br>
 
-<br>---<br>
 Due to the ⟮c:53;cookie spec⟯, one can usually rely on ⟮c:54;cookies⟯ being able to hold at least ~⟮c:50;4kb⟯ and at least ⟮c:51;50⟯ ⟮c:52;cookies per domain⟯, though ⟮c:55;often the real limits are far higher⟯ 
 ===<br>
 
-<br>---<br>
 Since ⟮c:61;persistent cookies⟯ are ⟮c:62;deleted⟯ ⟮c:63;after their Max-Age&gt;age or their Expires date has passed⟯, one can ⟮c:62;delete⟯ them by ⟮c:64;manually moving this into the past⟯. It is also common practice to ⟮c:65;set their content to an empty string⟯. 
 ===<br>
 
-<br>---<br>
 By default, ⟮c:66;cookies⟯ ⟮c:67;are only sent⟯ for ⟮c:68;requests⟯ for ⟮c:69;the FQDN that the cookie was sent from⟯. 
 By default, ⟮c:70;cookies⟯ ⟮c:71;sent from a certain FQDN⟯ are ⟮c:72;not included⟯ in ⟮c:73;the browsers requests for subdomains⟯. 
 Specifying the ⟮c:74;`Domain`⟯ property of a ⟮c:75;cookie⟯ means ⟮c:76;it will be sent⟯ for ⟮c:77;requests for the specified FQDN⟯, and ⟮c:76;all⟯ subdomains (thus being more permissive than the default!) 
@@ -9358,16 +9185,13 @@ By default, ⟮c:78;cookies⟯ are ⟮c:81;sent by the browser⟯ ⟮c:80;no mat
 If the ⟮c:82;Path⟯ attribute is ⟮c:83;specified for a cookie⟯, ⟮c:84;browsers will only sent the cookie⟯ on ⟮c:85;requests for the specified path (or subpaths⟯). 
 ===<br>
 
-<br>---<br>
 ⟮c:86;Cookies⟯ that ⟮c:87;originate from⟯ ⟮c:88;the same domain as the current domain⟯ ⟮h:88;(including ((c:89;::subdomains⟯ if ⟮c:89;Domain is set⟯) )) are known as ⟮c:90;first-party cookies⟯, all others are ⟮c:90;third-party cookies⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:91;Cookies⟯ ⟮c:92;used to maintain the state of being logged⟯ in are known as ⟮c:93;authentication cookies⟯ (the whole process is known as ⟮s:91-93;c:94;cookie-based authentication⟯ ) 
 ⟮c:94;Cookies⟯ used to ⟮c:95;maintain the state of an unique user⟯ ⟮c:96;with whom to associate browser histories⟯ are known as ⟮c:97;tracking cookies⟯. 
 ===<br>
 
-<br>---<br>
 The ⟮c:98;Secure⟯ property of a cookie means ⟮c:101;that it is only ever sent over HTTPS⟯. 
 The ⟮c:99;HttpOnly⟯ property of a cookie ⟮c:102;makes it inaccesible via JS⟯. 
 The ⟮c:100;SameSite⟯ property of a cookie can take three values, ⟮c:103;Strict⟯, ⟮c:103;Lax⟯, or ⟮c:103;None⟯. 
@@ -9377,11 +9201,9 @@ Cookies with ⟮c:115;SameSite=Lax⟯ are sent ⟮c:116;in the same circumstance
 Cookies with ⟮c:119;SameSite=None⟯ have ⟮c:120;no cross-site restrictions⟯, but ⟮c:121;Secure must also be set⟯. 
 ===<br>
 
-<br>---<br>
 The JS inteface for ⟮c:56;cookies⟯ is ⟮c:57;document.cookie⟯ 
 ===<br>
 
-<br>---<br>
 A ⟮c:58;zombie cookie⟯ is a cookie that ⟮c:59;is restored even when deleted⟯, by using ⟮c:60;various nooks and crannies of different internet technologies.⟯ 
 ===<br>
 
@@ -9543,7 +9365,6 @@ the ⟮c:44;dynamic⟯ or ⟮c:45;private⟯ ports are often used as ⟮c:46;eph
 </table>
 
 
-<br>---<br>
 Generally, an ⟮c:54;application protocol⟯ will have a ⟮c:55;port number⟯ it ⟮c:56;is associated with⟯ (esp. on ⟮c:57;the server side⟯). 
 ===<br>
 
@@ -9924,7 +9745,6 @@ RFCs are generally published by the IETFs.
 RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
 BCPs are a subset of RFCs.
 
-<br>---<br>
 ⟮c:1;W3Schools⟯ weirdly is ⟮c:2;unaffiliated with the W3C⟯ 
 ⟮c:9;W3Schools⟯ is a website for ⟮c:3;documentation/information⟯ for ⟮c:4;web technologies/languages⟯ as well as ⟮c:4;other languages⟯. 
 In ⟮c:5;the early 2010s⟯ ⟮c:10;W3Schools⟯ was known to have ⟮c:6;much low-quality information and errors⟯, leading to ⟮c:7;the website w3fools pointing it out⟯. However, ⟮c:8;today, most of it has been fixed⟯. 
@@ -9950,7 +9770,6 @@ lynx, w3m|text-based browser
 
 Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
-<br>---<br>
 For qutebrowser, you do ⟮c:1;advanced config⟯ in ⟮c:2;the config.py⟯ 
 In the config.py of qutebrowser, you ⟮c:3;can change most settings⟯ ⟮c:4;on the `c` object⟯ 
 ===<br>
@@ -10081,7 +9900,6 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 
 #### google
 
-<br>---<br>
 WIthin google search, ⟮c:1;tbm⟯ is the key of the query parameter that ⟮c:2;specifies the type of search (Image, News, Shopping etc.⟯) 
 For example, ⟮c:3;Specifying the search mode in google search as images⟯ is done by ⟮c:4;`tbm=ish`⟯ 
 Force google to ⟮c:5;only finde pages from a certain domain⟯ is done by ⟮c:6;site:foo.com⟯ 
@@ -10091,7 +9909,6 @@ Force google to ⟮c:5;only finde pages from a certain domain⟯ is done by ⟮c
 
 #### text & imageboards
 
-<br>---<br>
 A ⟮c:5;textboard⟯ is a ⟮c:6;simple⟯ kind of Internet ⟮c:7;forum⟯; most require neither ⟮c:4;registration⟯ nor ⟮c:4;entry of a screen name⟯. 
 An ⟮c:8;imageboard⟯ is like a ⟮c:9;textboard⟯, just with ⟮c:10;images⟯. 
 ⟮c:11;Textboards⟯ as well as ⟮c:11;imageboards⟯ were invented in ⟮c:12;Japan⟯. 
@@ -10214,14 +10031,12 @@ the locale command shows the currently specfied locales.
 
 #### BCP47
 
-<br>---<br>
 A ⟮c:17;IETF language tag⟯ indicates exactly ⟮c:18;in which language a thing is⟯. 
 Currently, the standard for ⟮c:19;IETF language tags⟯ on the internet is ⟮c:20;BCP47⟯. 
 BCP 47: ⟮c:21;&lt;primary-language&gt;⟯⟮c:22;[-&lt;extended-language&gt;]⟯⟮c:23;[-&lt;script&gt;]⟯⟮c:24;[-&lt;region&gt;]⟯⟮c:25;[-&lt;variant&gt;]⟯⟮c:26;[-&lt;extension&gt;]⟯⟮c:27;[-&lt;privateuse&gt;]⟯ 
 BCP 47 language tags should be kept ⟮c:28;as short as possible⟯. 
 ===<br>
 
-<br>---<br>
 The ⟮c:29;primary language⟯ subtag of ⟮c:30;BCP 47⟯ is specified as ⟮c:31;a language code⟯. 
 A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯. 
 ⟮c:34;Language codes⟯ are standartized in ⟮c:35;ISO 639.⟯ 
@@ -10260,7 +10075,6 @@ A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯.
 </table>
 
 
-<br>---<br>
 In HTML, the ⟮c:50;language of the document⟯ should be indicated with ⟮c:51;a lang attribute⟯ ⟮c:52;on &lt;html&gt;⟯o 
 In HTML, ⟮c:49;anything that is not in the language indicated on &lt;html&gt;⟯ should be ⟮c:53;indicated by an element with a lang attribute.⟯ 
 In HTML, the ⟮c:54;lang attribute⟯ takes ⟮c:55;BCP 47 language tags⟯. 
@@ -10319,7 +10133,6 @@ I can ⟮c:20;type emoji using emoji shortcodes⟯ but ⟮c:18;using spaces inst
 
 ### dice notation
 
-<br>---<br>
 ⟮c:6;Dice notation⟯: `⟮c:1;&lt;amount&gt;⟯⟮c:2;d⟯⟮c:3;&lt;sides&gt;⟯⟮c:4;+⟯⟮c:5;&lt;add-to-end-result&gt;⟯` 
 In ⟮c:8;dice notation⟯, you can leave out ⟮c:9;the amount of dice to roll⟯, if ⟮c:7;its one⟯. 
 ⟮c:11;4d10+3⟯ is an example of ⟮c:12;Dice notation⟯, it means ⟮c:13;roll 4 10-sided dice and add 3 to the overall result⟯ 
@@ -13138,7 +12951,6 @@ Syntax alwas keyword <path> [as <name>]
 
 #### latex
 
-<br>---<br>
 ⟮c:1;\input⟯ and ⟮c:2;\include⟯ both ⟮c:2;import latex code into the current file⟯. 
 ⟮c:3;\input, \include⟯ are useful if ⟮c:4;you want to split up you latex into multiple files⟯. 
 both ⟮c:5;\input⟯ and ⟮c:5;\include⟯ take ⟮c:6;a path of the file to import⟯. 
@@ -13324,7 +13136,6 @@ A web framework is a framework for use in web development.
 
 ##### templating
 
-<br>---<br>
 ⟮c:8;a template engine/processor⟯ is something that ⟮c:9;combines⟯ ⟮c:10;a template⟯ and ⟮c:11;data⟯ ⟮c:9;into some kind of result⟯ 
 ⟮c:12;templatees⟯ are written in ⟮c:13;template languages⟯ 
 ===<br>
@@ -13344,7 +13155,6 @@ Hello {{ user.name }}!
 {% endif %}</code></pre> 
 ⟮c:9;adding a -⟯ ⟮c:10;to {{ or {%⟯ ⟮h:9,10;like {{-, {%-⟯ ⟮c:11;strips whitespace from the relevant side⟯ 
 
-<br>---<br>
 ⟮c:9;Liquids⟯ ⟮c:10;loops⟯ are odd in that the⟮c:11;y accept a number of additional parameters⟯ ⟮c:12;after the main condition⟯, in the format ⟮c:13;key:value⟯ and separated by ⟮c:14;spaces⟯ 
 ===<br>
 
@@ -13360,14 +13170,12 @@ Hello {{ user.name }}!
   </tbody>
 </table>
 
-<br>---<br>
 <pre><code>{% for item in array foo:bar foo2:bar2 %}
   {{ item }}
 {% endfor %}</code></pre>
 ===<br>
 
 
-<br>---<br>
 ⟮c:1;cycle⟯ ⟮c:2;takes n arguments⟯ and ⟮c:3;prints the next one (from the last time this  was called⟯). 
 §§ ```
 {% cycle item1, item2... %}
@@ -13394,7 +13202,6 @@ The syntax for the cycle ⟮c:13;group parameter⟯ is ` ⟮c:14;"name":⟯`.
   </tbody>
 </table>
 
-<br>---<br>
 <pre><code>{% liquid
 case section.blocks.size
 when 1
@@ -13408,7 +13215,6 @@ else
 endcase %}</code></pre>
 ===<br>
 
-<br>---<br>
 There are ⟮c:1;two different namespaces⟯ for ⟮c:2;variables⟯ in ⟮c:3;liquid⟯: one for ⟮c:4;assign/capture⟯ and one for ⟮c:5;increment/decrement⟯ 
 ⟮c:6;Normal variable assignment⟯ uses the ⟮c:7;assign⟯ keyword 
 ```
@@ -13426,7 +13232,6 @@ There are ⟮c:1;two different namespaces⟯ for ⟮c:2;variables⟯ in ⟮c:3;l
 
 ##### types of web pages and their generation
 
-<br>---<br>
 Fundamentally, a ⟮c:16;web page⟯ may either be ⟮c:17;static⟯ or ⟮c:17;dynamic⟯. 
 A ⟮c:18;static⟯ web page is ⟮c:19;delivered to the web browser⟯ ⟮c:20;exactly as stored on the web server⟯. 
 A ⟮c:21;dynamic⟯ web page is ⟮c:22;generated in some way⟯. 
@@ -13436,7 +13241,6 @@ A ⟮c:29;dynamic webpage⟯ ⟮c:30;generated client-side/server-side⟯ is sai
 ===<br>
 
 
-<br>---<br>
 ⟮c:4;Client-side rendering⟯ ⟮(c:34;s:4;CSR⟯) generally involves only having ⟮c:5;a minimal HTML page⟯ and ⟮c:5;a JS bundle⟯, which then ⟮c:6;handles everything elsee.⟯ 
 The pages ⟮c:32;CSR⟯ produces are generally called ⟮c:33;single-page applications⟯. 
 ⟮c:35;Server-side rendering⟯ ⟮(c:36;s:35;SSR⟯) has ⟮c:37;a server generate the web page⟯, generally using ⟮c:38;a server-side programming language (in the past most commmonly PHP⟯), which is then ⟮c:39;served to the user fully baked⟯. 
@@ -13445,12 +13249,10 @@ Whenever ⟮c:43;the user navigates to a different page⟯, ⟮c:44;CSR⟯ ⟮c:
 ⟮c:1;Client-side rendering⟯ has ⟮c:3;longer⟯ ⟮c:2;initial load times⟯ and ⟮c:3;shorter⟯ ⟮c:2;subsequent load times⟯ than ⟮c:1;server-side rendering⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:7;Client-side rendering⟯ often has ⟮c:8;problems with SEO⟯, as ⟮c:9;the original HTML basically contains nothing⟯ 
 The difference between ⟮c:10;static generation⟯ and ⟮c:10;server-side rendering⟯ is that ⟮c:10;static generation⟯ ⟮c:12;generates the HTML⟯ ⟮c:11;at build time⟯, while ⟮c:10;server-side rendering⟯ ⟮c:12;generates the HTML⟯ ⟮c:11;on each request⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:13;Static-site generator⟯ by ⟮c:14;github⟯: ⟮c:15;Jekyll⟯ 
 ===<br>
 
@@ -13537,7 +13339,6 @@ Flask and Django are the most popular web frameworks for Python.
 ##### jekyll
 
 Jekyll|Ruby
-<br>---<br>
 ⟮c:4;Jekyll⟯ uses ⟮c:5;liquid⟯ as its ⟮c:6;template language⟯ 
 You can write ⟮c:16;Jekyll⟯ pages in ⟮c:7;HTML⟯ or ⟮c:8;Markdown⟯ 
 Jekyll pages/layouts/includes can have ⟮c:9;metadata⟯ associated with them, which is specified in ⟮c:10;the front matter⟯ 
@@ -13546,12 +13347,10 @@ Jekyll pages/layouts/includes can have ⟮c:9;metadata⟯ associated with them, 
 ===<br>
 
 
-<br>---<br>
 for any page, the `⟮c:17;page⟯` assoc array contains ⟮c:18;the keys of that pages front matter⟯ 
 the `⟮c:19;page⟯` assoc array is ⟮c:20;autopopulated with certain keys⟯ beyond ⟮c:21;the ones specified in the front matter⟯, amongst others the key ⟮c:22;`url`⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:23;Layouts⟯ ⟮c:24;wrap around⟯ your content. 
 ⟮c:25;Layouts⟯ are stored in the ⟮c:26;_layouts directory⟯. 
 For a given post or other page, you specify ⟮c:28;which layout it's using⟯ by using ⟮c:27;the `layout` front matter key⟯. 
@@ -13563,7 +13362,6 @@ the `⟮c:37;layout⟯` assoc arr contains ⟮c:38;all metadata of the current l
 ===<br>
 
 
-<br>---<br>
 ⟮c:41;Includes⟯ are basically ⟮c:42;components⟯, you can ⟮c:43;refer to and include from anywhere you like⟯. 
 ⟮c:44;Includes⟯ are stored in ⟮c:45;the _includes directory.⟯ 
 ⟮c:46;Includes⟯ may take ⟮c:48;arguments⟯ as ⟮c:47;key=value⟯. 
@@ -13571,11 +13369,9 @@ Within an include⟮c:49;, a parameter foo⟯ is referred to as `⟮c:50;include
 Include syntax: `⟮c:1;{%⟯ ⟮c:2;include⟯ ⟮c:3;include-name.html⟯ ⟮c:1;%}⟯` 
 ===<br>
 
-<br>---<br>
 the `⟮c:51;site⟯` assoc arr contains ⟮c:52;all global data⟯. 
 ===<br>
 
-<br>---<br>
 Syntax for jekyll ⟮c:53;post⟯ ⟮c:54;file names⟯: ⟮c:55;YYYY-MM-DD⟯⟮c:56;-title⟯⟮c:57;.extension⟯ 
 Jekyll will ⟮c:62;auto-generate⟯ ⟮c:58;a `post.title`⟯&nbsp;from ⟮c:59;the URL = file name⟯ if not specified 
 Jekyll will ⟮c:63;auto generate⟯ ⟮c:60;a `post.excerpt`⟯&nbsp;from ⟮c:61;the first paragraph⟯ if not specified 
@@ -13584,7 +13380,6 @@ Jekyll will ⟮c:63;auto generate⟯ ⟮c:60;a `post.excerpt`⟯&nbsp;from ⟮c:
 ===<br>
 
 
-<br>---<br>
 Jekylls supports keeping data stored in ⟮c:69;./_data⟯ for ⟮c:70;global use⟯ 
 Jekyll ⟮c:71;data files⟯ may be specified in ⟮c:72;yaml, json::2 similar ones⟯, ⟮c:73;csv or tsv::2 similar ones⟯. 
 Jekyll ⟮c:74;data files⟯ can be accessed via ⟮c:75;`site.data.filename` (no extension⟯)&nbsp;
@@ -13598,7 +13393,6 @@ Besides ⟮c:86;creating a directory⟯, ⟮c:87;collections⟯ must also be ⟮
 
 ###### themes
 
-<br>---<br>
 Jekyll ⟮c:2;themes⟯ are often ⟮c:1;gems⟯. 
 By default, if you use a ⟮c:3;gem theme⟯, ⟮c:4;some of the directories of your site⟯ are ⟮c:5;in the gem itself⟯. 
 If you want to ⟮c:6;edit things⟯ ⟮c:7;in gem themes⟯, you need to ⟮c:8;copy then out of the gem itself⟯, and ⟮c:9;reference the gem's dependencies in your gemfile/config⟯. 
@@ -13606,7 +13400,6 @@ If you want to ⟮c:6;edit things⟯ ⟮c:7;in gem themes⟯, you need to ⟮c:8
 
 ###### plugins
 
-<br>---<br>
 ⟮c:9;Jekyll plugins⟯ are specified within ⟮c:10;the _config.yml⟯ and within ⟮c:11;the gemfile⟯. 
 In the ⟮c:12;gemfile⟯, ⟮c:13;jekyll_plugin⟯s are specified within ⟮c:14;the `group :jekyll_plugins`⟯ 
 ===<br>
@@ -14129,12 +13922,10 @@ d8 is the developer shell for v8
 
 ### pseudocode
 
-<br>---<br>
 ⟮c:6;pseudocode⟯ is ⟮c:7;a plain-language description⟯ of ⟮c:8;an algorithm⟯. 
 ⟮c:9;Pseudocode⟯ generally ⟮c:10;uses (structural) conventions of⟯ ⟮c:11;programming languages⟯, but not ⟮c:10;specific syntax⟯. 
 ===<br>
 
-<br>---<br>
 <pre><code data-codetype="text">When a button is pressed:
   Get some memory, which will be used to remember the floor number
   Put the floor number into the memory
@@ -14160,7 +13951,6 @@ a deterministic algorithim/callable unit will, given a particular input {{c1::al
 ##### binary
 
 <img src="sm_1280px-Binary_Search_Depiction.svg.png">
-<br>---<br>
 ⟮c:1;Binary search⟯ 
 <pre><code>⟮c:2;take middle element⟯ 
 ⟮c:3;if equal, done⟯ 
@@ -14451,7 +14241,6 @@ QA are the activities done to make sure that the product meets certain standards
 
 ##### elements tab
 
-<br>---<br>
 ⟮c:1;press del⟯ in the dom view of devtools to ⟮c:2;delete the node⟯ 
 ⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯ one of those ⟮c:4;triangle arrows⟯ in devtools to ⟮c:5;expand/collapse all children⟯ 
 ⟮c:6;Expand and collapse⟯ DOM nodes in Chrome's devtools via the ⟮c:7;right and left arrow ⟯ keys. 
@@ -14465,7 +14254,6 @@ to have an ⟮c:21;element that you select in your devtools be visible in your b
 
 ##### styles tab
 
-<br>---<br>
 ⟮c:3;navigate through⟯ ⟮c:1;style declarations⟯ and ⟮c:1;selectors⟯ in the styles panel with ⟮c:2;tab/shift-tab⟯ 
 ⟮c:4;control-clicking⟯ a ⟮c:5;style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮c:6;goes to the line where it was declared⟯ 
 ⟮c:7;shift-clicking⟯ ⟮c:8;the box next to a color⟯ in the styles panel devtools ⟮c:9;changes its color representation (RGB, HSLA, etc.⟯) 
@@ -14474,39 +14262,33 @@ to have an ⟮c:21;element that you select in your devtools be visible in your b
 
 ##### elements+styles tab
 
-<br>---<br>
 You can ⟮c:1;force element state (such as hover, focus⟯) either by ⟮c:2;right-clicking the DOM node &gt; force state⟯ and then choosing the state, or by ⟮c:3;clicking the :hov button⟯ in the ⟮c:3;styles panel⟯ and choosing the state 
 ===<br>
 
 ###### box model
 
 <div class="flex-container">⟮h:all;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h:all;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯</div>
-<br>---<br>
 Hovering over ⟮c:1;a part of the box model⟯ in the styles tab will ⟮c:2;higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮c:3;change any part⟯ of the CSS box model in devtools by ⟮c:4;clicking on the relevant number and setting it⟯ 
 ===<br>
 
 ##### console
 
-<br>---<br>
 You can access ⟮c:2;the currently selected node in the elements inspector⟯ as ⟮c:1;$0⟯ in the console in devtools. 
 If you ⟮c:3;right-click &gt; store as global variable⟯, the DOM element becomes available ⟮c:4;as temp1, temp2, etc.⟯ ⟮c:5;in the console⟯ 
 ===<br>
 
 ##### other tabs/panels
 
-<br>---<br>
 Use the ⟮c:1;Media⟯ Panel in Chrome DevTools to view information and debug the ⟮c:2;media players⟯ per browser tab. 
 The ⟮c:3;Issues⟯ tab in Chrome DevTools moves the ⟮c:4;issues messages⟯ that used to ⟮c:5;appear in the console⟯ into their own tab 
 ===<br>
-<br>---<br>
 The ⟮c:6;Coverage⟯ tab in Chrome DevTools can ⟮c:5;help you find unused JavaScript and CSS code⟯. 
 to use the ⟮c:1;Coverage⟯ / ⟮c:2;Network⟯ tab, click ⟮c:3;the record button⟯, then ⟮c:4;reload (or otherwise make network requests⟯) 
 ===<br>
 
 ##### tab management
 
-<br>---<br>
 to ⟮c:1;close a tab⟯ ⟮c:2;within⟯ e.g.&nbsp; the ⟮c:3;sources⟯ tab, use ⟮c:4;alt+w⟯ 
 next to the ⟮c:5;styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮c:6;event listeners registered⟯, ⟮c:7;DOM Breakpoints⟯,&nbsp; ⟮c:8;JS properties⟯, and ⟮c:9;accessibility information⟯ 
 Besides the DevTools tabs ⟮c:10;active by default⟯, there are ⟮c:11;a bunch more⟯ tabs, which you can ⟮c:12;show⟯ via ⟮c:13;the command palette⟯, or via ⟮c:14;the overflow menu⟯ 
@@ -14514,7 +14296,6 @@ Besides the DevTools tabs ⟮c:10;active by default⟯, there are ⟮c:11;a bunc
 
 ##### global features
 
-<br>---<br>
 Whenever you get a ⟮c:1;function⟯ in devtools, you can ⟮c:2;go to the place where it's defined⟯ with ⟮c:3;right click &gt; show function definition⟯ 
 ===<br>
 
@@ -14582,7 +14363,6 @@ In computer programming, {{c1::code smell}} is a characteristic in code that ind
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 DRY   Don't repeat yourself
 KISS   Keep it simple stupid
-<br>---<br>
 "⟮c:1;a camel is a horse designed/made by committee⟯" is a ⟮c:2;criticism of creating something by comittee⟯, since ⟮c:3;the camel symbolises incorporating too many conflicting elements⟯ 
 ===<br>
 
@@ -14932,7 +14712,6 @@ homebrew (command: brew) and macports (command: port) are package managers for m
 homebrew can also be used on linux, and is written in ruby.
 tap TAPNAME|add a repository|brew
 
-<br>---<br>
 in ⟮c:11;homebrew⟯, a ⟮c:1;formula⟯ ⟮c:2;describes a package⟯. 
 A ⟮c:12;formula⟯ is a ⟮c:3;ruby (.rb⟯) file. 
 Each ⟮c:4;tap⟯ has ⟮c:5;its own list of formulae⟯, which you can find at ⟮s:4-5;((c:6;::tap-name/Formula⟯.)) 
@@ -14943,13 +14722,11 @@ In homebrew, ⟮c:17;all formulae⟯ are contained in ⟮c:18;taps⟯ (≈ ⟮c:
 The ⟮c:20;default⟯ ⟮c:21;taps⟯ are ⟮c:22;homebrew-core⟯ and ⟮c:23;homebrew-cask⟯ (for ⟮c:24;Casks⟯), and you can ⟮c:25;add further 3rd party ones⟯ 
 ===<br>
 
-<br>---<br>
 In homebrew, according to the docs, a ⟮c:1;Keg⟯ is ⟮c:2;the path a formula is installed to⟯, including ⟮c:3;the specific version⟯. 
 since ⟮c:4;Kegs⟯ are ⟮c:5;always installed⟯ to ⟮c:6;the Cellar⟯ (path e.g. on apple silicon ⟮s:6;((c:7;::/opt/homebrew/Cellar⟯))), ⟮s:8;a Keg has the following syntax (on apple silicon ((c:8;::/opt/homebrew/Cellar/&lt;formulaname&gt;/&lt;version&gt;⟯&nbsp;)) 
 If something is ⟮c:9;keg-only⟯, it is ⟮c:10;installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮c:11;not symlinked anywhere else⟯, often because ⟮c:4;the OS already ships with a version that this would conflict iwth⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:1;homebrew⟯ installs ⟮c:12;anything⟯ to ⟮c:2;within its prefix⟯. 
 ===<br>
 
@@ -14964,7 +14741,6 @@ If something is ⟮c:9;keg-only⟯, it is ⟮c:10;installed into (/usr/local or 
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:13;Where homebrew has its prefixes⟯ mean you ⟮c:9;don't need to sudo anything with brew⟯, which is also ⟮c:9;highly discouraged.⟯ 
 If necessary, ⟮c:1;homebrewbrew⟯ ⟮c:10;links things⟯ ⟮c:14;from its prefix⟯ ⟮c:11;into directories such as /usr/local/bin, /usr/local/lib⟯ 
 ===<br>
@@ -15057,7 +14833,6 @@ hot swapping may be of components, or of software
 
 ## resource leak
 
-<br>---<br>
 A ⟮c:1;resource leak⟯ occurs when a program ⟮c:2;does not release resources⟯ when ⟮c:3;it no longer nees them⟯. 
 A ⟮c:4;memory leak⟯ is ⟮c:5;a resource leak⟯ involving ⟮c:5;memory⟯. 
 ===<br>
@@ -15116,7 +14891,6 @@ Associative arrays: names, literals, other construction methods, etc.
 
 ### Computer Ergonomics
 
-<br>---<br>
 Ideally, your ⟮c:2;arm (elbow⟯) should have an angle of ⟮c:1;90°⟯ while ⟮c:6;touch typing⟯ 
 Ideally, ⟮c:3;your wrist⟯ should be ⟮c:4;hovering⟯ while ⟮c:5;touch typing⟯ 
 ===<br>

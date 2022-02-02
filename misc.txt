@@ -12,7 +12,6 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 #### stock exchanges
 
-<br>---<br>
 ⟮c:1;Main stock index for Japan⟯  = ⟮c:2;Nikkei 225⟯ 
 ===<br>
 
@@ -20,16 +19,13 @@ Double-spending is a potential flaw in a digital cash scheme in which the same s
 
 #### income
 
-<br>---<br>
 ⟮c:1;The income tax rate you (would) pay on the next dollar of income⟯ is called ⟮c:2;marginal tax rate⟯
 ===<br>
 
 ##### ehegattensplitting
 
-<br>---<br>
 ⟮c:1;Across many tax systems⟯, ⟮c:2;the way income taxes are calculated⟯ within a ⟮c:3;marriage⟯ often causes ⟮c:4;the partner earning less⟯ to be ⟮c:5;taxed with the maximum marginal tax rate immediately⟯, thus ⟮c:6;disincentivizing working⟯. 
 ===<br>
-<br>---<br>
 Beim ⟮c:7;Ehegattensplitting⟯ wird ein Ehepaar steuerlich als ⟮c:8;ein*e Steuerpflichtige*r⟯ behandelt 
 Things like the ⟮c:9;Ehegattensplitting⟯ result in a situation where ⟮c:10;nonequally divided taxburden⟯ results in ⟮c:11;better taxation⟯ than ⟮c:10;more equally distributed income⟯ because ⟮c:12;the tax rate of the smaller income⟯ has ⟮c:13;an influence on half of the income⟯, and not ⟮c:13;just the disproportionately smaller size of the smaller income⟯ 
 ===<br>
@@ -47,7 +43,6 @@ Things like the ⟮c:9;Ehegattensplitting⟯ result in a situation where ⟮c:10
 
 #### integration
 
-<br>---<br>
 ⟮c:2;Horizontal integration⟯ is the process of ⟮c:1;Controlling more of a specific part of the supply chain⟯
 ⟮c:3;Vertical integration⟯ is ⟮c:4;Integrating more/all or large parts of the supply chain in a single company⟯
 ===<br>
@@ -56,21 +51,18 @@ Things like the ⟮c:9;Ehegattensplitting⟯ result in a situation where ⟮c:10
 
 ### opportunity
 
-<br>---<br>
 When doing a certain thing, that thing's ⟮c:1;opportunity cost⟯ is ⟮c:2;the loss of value/benefit⟯ from ⟮c:3;anything one could do instead (and has to forgo⟯)
 ===<br>
 
 ### sunk
 
-<br>---<br>
 A ⟮c:1;sunk cost⟯ is a cost that ⟮c:2;has already been incurred and cannot be recovered⟯, in contrast, ⟮s:1-2;a ((c:3;::prospective cost⟯ is a cost that ⟮c:4;can be avoided if action is taken⟯))
 ===<br>
 
 ### other types
 
 <img src="240px-CVP-TC-FC-VC.svg.png">⟮h:all;<img src="Marginal_cost1a.png">⟯
-<br><br>---<br>
-⟮c:1;Fixed costs⟯ ⟮c:2;are the costs that are not dependent on the quantity of goods or services provided⟯.
+<br>⟮c:1;Fixed costs⟯ ⟮c:2;are the costs that are not dependent on the quantity of goods or services provided⟯.
 In contrast, ⟮c:3;variable costs⟯ ⟮c:4;increase as the quantity of goods or services produced/provided increase⟯.
 ⟮c:5;Together, fixed costs and variable costs make up⟯ ⟮c:6;total cost⟯, which is ⟮c:7;the cost of producing some quantity of output⟯.
 The ⟮c:8;marginal cost⟯ of something is ⟮c:9;the cost of producing additional quantity⟯
@@ -81,7 +73,6 @@ The ⟮c:16;average cost⟯ of something is ⟮c:17;the total cost⟯ ⟮c:19;di
 
 ### externalities
 
-<br>---<br>
 An ⟮c:1;externality⟯ is a ⟮c:2;s:3;cost⟯ ( = ⟮c:3;s:2;negative⟯ ⟮c:6;s:1;externality⟯) or ⟮c:2;s:3;benefit⟯ ( = ⟮c:3;s:2;positive⟯ ⟮c:6;s:1;externality⟯) caused by ⟮c:5;a producer⟯ that is ⟮c:4;not incurred or received by that producer.⟯
 ===<br>
 
@@ -91,7 +82,6 @@ An ⟮c:1;externality⟯ is a ⟮c:2;s:3;cost⟯ ( = ⟮c:3;s:2;negative⟯ ⟮c
 
 #### three-sector model
 
-<br>---<br>
 TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, {{c8::secondary}}, and {{c8::tertiary}} sectors.
 ===<br>
 
@@ -135,7 +125,6 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
   </tbody>
 </table>
 
-<br>---<br>
 According to {{c9::the three-sector model}} of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}
 ===<br>
 
@@ -145,7 +134,6 @@ According to {{c9::the three-sector model}} of economics, economies develop {{c1
 
 #### SKUs
 
-<br>---<br>
 ⟮c:3;SKUs⟯ are ⟮c:4;unique identifiers⟯ for ⟮c:5;distinct salable items⟯.
 ⟮c:1;SKUs⟯ have ⟮c:2;no specification or standard⟯, they are ⟮c:2;arbitrarily specified by the seller.⟯
 ===<br>
@@ -156,7 +144,6 @@ According to {{c9::the three-sector model}} of economics, economies develop {{c1
 
 #### asset price bubble
 
-<br>---<br>
 ⟮c:1;Economic bubbles⟯ are about ⟮c:2;asset prices⟯.
 In ⟮c:3;an economic bubble⟯, ⟮c:4;asset price⟯ ⟮c:5;far exeeds⟯ ⟮c:4;it's 'real' value⟯.
 An economic bubble ⟮c:6;bursts⟯ when ⟮c:7;the asset price crashes.⟯
@@ -181,13 +168,11 @@ Commodity is a term with three competing definitions:
 <tr><td>⟮c:8;commodity⟯</td> <td>⟮c:9;casual usage⟯</td> <td>⟮c:10;any kind of market good⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 From these definitions, ⟮c:11;commodification/commoditization⟯ may refer to ⟮c:12;any of the three definitions of commodity (economics, marxism, casual usage⟯)
 ===<br>
 
 #### fungibility
 
-<br>---<br>
 If a good is ⟮c:1;fungible⟯, it is ⟮c:2;readily interchanged with others of its kind⟯ without ⟮c:3;that making much of a difference⟯.
 ⟮c:4;Money, natural resources of the same grade, stocks of the same company⟯ all are examples for things with a high degree of ⟮c:5;fungibility⟯.
 ===<br>
@@ -196,7 +181,6 @@ If a good is ⟮c:1;fungible⟯, it is ⟮c:2;readily interchanged with others o
 
 ##### positional goods
 
-<br>---<br>
 a ⟮c:1;positional good⟯ is a good that is ⟮c:2;only valued⟯ by ⟮c:3;how it is distributed in a population⟯.
 ⟮c:4;Positional good⟯ is a term similar to ⟮c:5;status symbol.⟯
   {{c6::Conspicuous comsumption}} is consumption to {{c7::enhance social status/prestige}}, that is, consumption {{c8::of goods}} as {{c8::positional goods}}
@@ -204,7 +188,6 @@ a ⟮c:1;positional good⟯ is a good that is ⟮c:2;only valued⟯ by ⟮c:3;ho
 
 #### durability
 
-<br>---<br>
 A ⟮c:1;durable⟯ or ⟮c:2;hard⟯ good is a good that ⟮c:3;does not quickly wear out or, more specifically, one that yields utility over time rather than being completely consumed in one use⟯ (Examples: ⟮c:4;s:3;a bicycle, washing machine, or ring⟯ ).
 A ⟮c:5;non-durable⟯ or ⟮c:6;soft⟯ good is either defined as ⟮c:7;a good that is either consumed in one use⟯ (Examples: ⟮c:8;s:7;food, drinks, tissues⟯ ) or ⟮c:9;a good that has a lifespan of less than three years⟯ (Examples: ⟮c:10;s:9;cosmetics, medication, clothing⟯).
 ===<br>
@@ -213,7 +196,6 @@ A ⟮c:5;non-durable⟯ or ⟮c:6;soft⟯ good is either defined as ⟮c:7;a goo
 
 ##### excludability
 
-<br>---<br>
 A good that is ⟮c:1;excludable⟯ ⟮c:2;can have its use limited to certain people⟯. Examples: ⟮c:3;s:2;cinemas, food⟯
 examples for ⟮c:4;non-excludable⟯ goods: ⟮c:5;air, public roads⟯.
 As argued by ⟮c:6;Ostrom⟯, in fact excludability is a ⟮c:7;scale⟯ ⟮c:8;from being able to fully limit people from its use to not at all.⟯
@@ -231,7 +213,6 @@ Examples of ⟮c:15;anti-rivalrous good⟯s include ⟮c:10;FOSS software, socia
 We may want to define ⟮c:11;a scale⟯ ⟮c:12;from rival(rous) through non-rival(rous) to anti-rival(rous⟯).
 ===<br>
 
-<br>---<br>
 A ⟮c:1;network effect⟯ is when ⟮c:2;the value of a good/service increases with the amount of users⟯. Examples: ⟮c:3;Social networks, the phone or the internet⟯.
 The precise value of a ⟮c:8;network effect⟯ is often stated in terms of ⟮c:4;Metcalfe's law⟯: ⟮c:5;value of network⟯ = ⟮c:6;(amount of users)<sup>2</sup>⟯. This law has since recieved some ⟮c:7;empirical validation⟯ for e.g. ⟮c:7;facebook, bitcoin⟯
 ===<br>
@@ -260,7 +241,6 @@ The precise value of a ⟮c:8;network effect⟯ is often stated in terms of ⟮c
 
 ###### common pool resources
 
-<br>---<br>
 A ⟮c:1;common-pool resource⟯ is a good that is ⟮c:2;non-excludable⟯ and ⟮c:2;rivalrous⟯, e.g. ⟮c:3;pasture⟯.
 A ⟮c:5;common-pool resource⟯ may be subject to ⟮c:4;the tragedy of the commons⟯ (however, not necessarily)
 In ⟮c:6;the tragedy of the commons⟯, ⟮c:7;any individual⟯ has ⟮c:7;an incentive to⟯ {{c8::(over)exploit the resource}.
@@ -270,19 +250,16 @@ As proven by ⟮c:11;Elinor Ostrom⟯ in the work that won her ⟮c:12;the 2009 
 
 ###### public goods
 
-<br>---<br>
 A good that is ⟮c:1;non-excludable⟯ (= ⟮c:1;use cannot be prevented⟯) and ⟮c:2;non-rival(rous⟯) (= ⟮c:2;use does not reduce availability⟯) is a ⟮c:3;public good⟯.
 Examples of ⟮c:9;public goods⟯ are ⟮c:4;National security, lighthouses, knowledge⟯
 ⟮c:10;public goods⟯ are subject to the ⟮c:5;free rider⟯ problems, where ⟮c:6;free riders⟯ ⟮(c:6;people who use the good but don't contribute to it⟯) result in ⟮c:7;the good being under-produced or overused and degraded⟯.
 Examples of public goods ⟮c:11;subject to free rider problems⟯: ⟮c:8;Herd immunity, grades of group-graded projects⟯
 ===<br>
-<br>---<br>
 A ⟮c:1;free rider⟯ is someone who ⟮c:2;recieves a benefit⟯ ⟮c:3;without contributing adequately to its cost of production⟯.
 ===<br>
 
 ###### excludable goods
 
-<br>---<br>
 A ⟮c:1;club good⟯ is a good that is ⟮c:2;excludable⟯ and ⟮c:2;non-rivalrous⟯, e.g. ⟮c:3;toll roads⟯
 A ⟮c:4;private good⟯ is a good that is ⟮c:5;excludable⟯ and ⟮c:5;rivalrous⟯, e.g. ⟮c:6;cheese⟯
 ===<br>
@@ -292,7 +269,6 @@ A ⟮c:4;private good⟯ is a good that is ⟮c:5;excludable⟯ and ⟮c:5;rival
 
 ### econs
 
-<br>---<br>
 ⟮c:1;Econ⟯ is a term from ⟮c:2;behavioral economics⟯ which describes ⟮c:3;the beings⟯ that ⟮c:4;classical economics⟯ ends up describing
 An ⟮c:5;econ⟯ would always ⟮c:6;make the best decision given a set of alternatives⟯
 ⟮c:7;Econs⟯, in contrast to humans, never fall prey to ⟮c:8;biases⟯
@@ -309,7 +285,6 @@ as distinct from actually-extant humans
 
 #### bothsidesism
 
-<br>---<br>
 ⟮c:1;Bothsidesing⟯ is a term where you ⟮c:4;present both sides of an argument with equal weight⟯ (or ⟮c:4;assign both parties equal fault⟯), even if ⟮c:5;one does actually merits more weight⟯ (e.g. ⟮c:5;is true, is more representative⟯) or ⟮c:5;have more fault⟯ 
 ⟮c:3;Bothesidesing⟯ as a term is generally used as ⟮c:6;a criticsim⟯, especially ⟮c:2;of the media.⟯ 
 ===<br>
@@ -326,14 +301,12 @@ An example of ⟮c:2;magical thinking⟯ would be ⟮c:1;Knocking on wood will p
 
 ###### WEIRD
 
-<br>---<br>
 ⟮c:1;WEIRD⟯ is short for ⟮c:2;western⟯, ⟮c:3;educated⟯, ⟮c:4;industrialized⟯, ⟮c:5;rich⟯, and ⟮c:6;democratic⟯. 
 ⟮c:11;WEIRD⟯ is the set of traits which describes ⟮c:7;more than 90%⟯ of ⟮c:8;study participants⟯, especially in ⟮c:9;psychology⟯, being such, and thus results being ⟮c:10;biased⟯/⟮c:10;not generalizable⟯ 
 ===<br>
 
 ## rational choice theory
 
-<br>---<br>
 ⟮c:1;Rational choice theory⟯ is ⟮c:2;the area of study / framework⟯ that arises from the idea that ⟮c:3;an individual will⟯ ⟮c:4;perform a cost-benefit analysis (e.g. use an utility maximization function⟯) ⟮c:5;to choose an action⟯. 
 ===<br>
 
@@ -344,7 +317,6 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 
 ## demographics
 
-<br>---<br>
 ⟮c:2;Demography⟯ is the statistical study of ⟮c:1;populations and poplulation change⟯ 
 ===<br>
 
@@ -393,27 +365,22 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 
 ### birth rate/fertility
 
-<br>---<br>
 The ⟮c:5;different fertility rates are⟯ sometimes presented ⟮c:6;as-is⟯ (as ⟮c:6;a percentage⟯), or ⟮c:7;multiplied by 1000⟯, to ⟮c:7;present a number/index⟯ 
 ===<br>
 
-<br>---<br>
 What we often call ⟮c:8;birth rate⟯ is more properly called the ⟮c:9;crude birth rate⟯, because ⟮c:10;it isn't directly based on anything related to childbirth⟯ 
 The ⟮c:11;crude birth rate⟯ is ⟮c:12;the number of live births⟯ ⟮c:13;per person⟯ 
 To get ⟮c:14;the crude birth rate⟯ in practice, we ⟮c:15;divide the number of live births through the population size⟯ 
 ===<br>
 
-<br>---<br>
 The ⟮c:16;general fertility rate⟯ is ⟮c:17;the amount of live births⟯ ⟮c:18;per women aged 15 to 44 (women of childbearing age⟯) 
 ===<br>
 
-<br>---<br>
 The ⟮c:19;age-specific fertility rate⟯ is ⟮c:20;the number of births⟯ ⟮c:21;to women in a given age group⟯ ⟮c:22;divided by the number of women in a given age group⟯ 
 The ⟮c:23;ASFR⟯ is often ⟮c:24;grouped in groups of⟯ ⟮c:25;1⟯ or ⟮c:25;5⟯ ⟮c:25;years⟯. 
 In plain language, the ⟮c:26;ASFR⟯ e.g. for age 21 is ⟮c:27;the amount of children an average 21 y/o has in a year⟯ 
 ===<br>
 
-<br>---<br>
 The ⟮c:28;TFR⟯ measures ⟮c:29;babies per woman (in her lifetime⟯) (*) 
 Mathematically, the ⟮c:30;total fertility rate⟯ is ⟮c:31;the sum of all⟯ ⟮c:32;current age-specific fertility rates⟯ 
 In plain language, the ⟮c:33;TFR⟯ is ⟮c:34;the sum of⟯ ⟮c:35;the amount of chilren⟯ ⟮c:36;a women will have⟯ ⟮c:37;in any given year of her life⟯ 
@@ -423,7 +390,6 @@ If a ⟮c:44;woman dies before her reproductive period ends (lets say at 30),⟯
 ===<br>
 
 
-<br>---<br>
 The ⟮c:52;replacement rate / replacement-level fertility⟯ is ⟮c:53;the TFR⟯ ⟮c:54;needed to sustain population levels⟯ 
 A ⟮c:56;TFR⟯ ⟮c:55;below replacement rate⟯ is known as ⟮c:57;Sub-replacement fertility⟯ 
 Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement rate⟯ is additionally distorted by ⟮c:60;child mortality⟯. 
@@ -452,7 +418,6 @@ Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement ra
 #### japan
 
 ⟮h:all;<img src="821361.png">⟯
-<br>---<br>
 In japan, ⟮c:7;extramarital birth⟯ is ⟮c:8;extremely rare⟯ 
 In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯ 
 ===<br>
@@ -482,7 +447,6 @@ In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯
 
 #### definition of dependent
 
-<br>---<br>
 In demographics/economics, a ⟮c:1;dependent⟯ is someone ⟮c:2;who relies on someone else for financial support.⟯
 For statistical purposes, it is generally assumed that ⟮c:3;those aged 15-64⟯ are ⟮c:4;non-dependents⟯, and ⟮c:3;those aged 0-14 and 65-⟯ are ⟮c:4;dependents⟯.
 The relationship of ⟮c:6;dependents per non-dependent⟯ is expressed ⟮c:5;in the dependency ratio⟯.
@@ -490,7 +454,6 @@ The relationship of ⟮c:6;dependents per non-dependent⟯ is expressed ⟮c:5;i
 
 #### dependency ratio
 
-<br>---<br>
 The ⟮c:1;dependency ratio (amount of people who work divided by people who can't⟯) is used as a proxy for ⟮c:2;pressure on the productive population⟯,
 A ⟮c:3;lower⟯ ⟮c:20;dependency ratio⟯ is generally better because it often results in ⟮c:4;economic growth⟯.
 When ⟮c:5;a change to a lower dependency ratio leads to economic growth⟯, which is most often caused when there is a ⟮c:6;high fertility rate⟯, resulting in ⟮c:6;a bunch of young people⟯, followed by ⟮c:7;a decrease in fertility⟯, and often ⟮c:8;augmented by an increase in life expectancy⟯, this is termed a ⟮c:9;demographic dividend⟯.
@@ -503,7 +466,6 @@ A ⟮c:24;demographic burden/tax results⟯ in ⟮c:17;lower economic growth⟯ 
 
 #### missing women
 
-<br>---<br>
 The term "⟮c:1;missing women⟯" (coined by ⟮c:8;Amartya Sen⟯) indicates a shortfall in ⟮c:2;the number of women⟯ relative to ⟮c:2;the expected number of women⟯ in ⟮c:7;a region or country⟯. 
 ⟮c:10;missing women⟯ are often measured/discovered through ⟮c:3;male-to-female sex ratios⟯, specifically via ⟮c:11;the deviance from⟯ the ⟮c:12;natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1⟯) 
 ⟮c:13;Sen⟯ argued that there were about ⟮c:14;100 million⟯ ⟮c:15;"missing women"⟯ in ⟮c:16;Asia⟯. 
@@ -515,14 +477,12 @@ The fact of the existence of missing women is caused by ⟮c:17;sexism⟯, and m
 
 ### universal equivalent
 
-<br>---<br>
 To marx, ⟮c:1;the measure⟯ by which ⟮c:2;all commodities⟯ are ⟮c:3;compared and exchanged⟯ is known as  ⟮c:4;the universal equivalent.⟯
 To marx, ⟮c:5;money⟯ is the thing that eventually takes over the role of ⟮c:6;the universal equivalent⟯ in capitalism.
 ===<br>
 
 ### value
 
-<br>---<br>
 To ⟮c:3;marx⟯, the ⟮c:1;exchange value⟯ of a good is ⟮c:2;how it can be exchanged for other commodities⟯
 To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible features/physical properties⟯ that  ⟮c:7;fulfill human needs/wants⟯
 ===<br>
@@ -544,7 +504,6 @@ To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible feat
 
 #### condominium
 
-<br>---<br>
 A ⟮c:1;condominium⟯ (short: ⟮c:2;s:1;condo⟯) is a ⟮c:3;building⟯ (or ⟮c:4;s:3;unit in such a building⟯) where ⟮c:5;s:7;each unit⟯ is ⟮c:6;s:8;owned spearately⟯, and ⟮c:7;s:5;the grounds/structure⟯ are ⟮c:8;s:6;owned jointly⟯ 
 ===<br>
 
@@ -552,7 +511,6 @@ A ⟮c:1;condominium⟯ (short: ⟮c:2;s:1;condo⟯) is a ⟮c:3;building⟯ (or
 
 #### crops
 
-<br>---<br>
 ⟮c:1;a cash crop⟯ (sometimes ⟮c:2;s:1;profit crop⟯) is a crop that is ⟮c:3;grown for sale -&gt; profit⟯
 ⟮c:4;cash crop⟯ is contrasted with ⟮c:5;subsistence crop⟯
 ===<br>
@@ -567,8 +525,7 @@ In law, the ⟮c:1;disposition⟯ of a case is ⟮c:2;its final settlement/decis
 
 ### overton window
 
-⟮h:all;<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">⟯<br>---<br>
-⟮c:1;The overton window⟯ is the concept that there is ⟮c:4;a range of ideas/policies⟯ that are ⟮c:5;acceptable⟯ at ⟮c:6;any given time⟯, which then ⟮c:7;determines the acceptability/radicalness of other ideas⟯ ⟮c:8;in relation to it⟯. 
+⟮h:all;<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">⟯⟮c:1;The overton window⟯ is the concept that there is ⟮c:4;a range of ideas/policies⟯ that are ⟮c:5;acceptable⟯ at ⟮c:6;any given time⟯, which then ⟮c:7;determines the acceptability/radicalness of other ideas⟯ ⟮c:8;in relation to it⟯. 
 In the overton window concept, everything ⟮c:9;inside the window⟯ is considered to be ⟮c:2;acceptable/reasonable/sensible⟯ 
 In the overton window concept, everything ⟮c:10;outside the window⟯ is considered to be ⟮c:3;radical/unthinkable⟯ 
 ⟮c:11;Introducing radical ideas⟯ ⟮c:12;shifts the overton windon into that direction⟯. 
@@ -578,7 +535,6 @@ To make something ⟮c:13;viable/actual policy⟯, first ⟮c:14;the overton win
 ### horseshoe theory
 
 ⟮h:all;<img src="polspechorse.svg">⟯
-<br>---<br>
 Proponents of ⟮c:1;horseshoe⟯ theory argue that the ⟮c:2;extreme left⟯ and the ⟮c:2;extreme right⟯ are ⟮c:3;closer to each other than either is to the political center.⟯  
 ⟮c:4;Horseshoe⟯ theory is probably mostly ridiculous, since it's may generally be ⟮c:5;centrists⟯ who ⟮c:5;easily become swayed to support the rise of fascism⟯ 
 ===<br>
@@ -587,7 +543,6 @@ Proponents of ⟮c:1;horseshoe⟯ theory argue that the ⟮c:2;extreme left⟯ a
 
 ### irredentism & revanchism
 
-<br>---<br>
 {{c2::Irredentism}} is the movement to {{c3::'reclaim' territory}} that a group thinks {{c4::they have a claim to}} on a {{c5::ethno-historico-nationalist}} basis. 
 {{c6::Revanchism}} is the movement to {{c7::reclaim territory}} {{c8::lost to another}} due to {{c9::past events}}. 
 Both {{c10::irredentism}} and {{c10::revanchism}} see their {{c11::territorial claims}} as a {{c12::reclaiming}}, though the {{c13::motivation/ideology behind it}} differs. 
@@ -595,7 +550,6 @@ Both {{c10::irredentism}} and {{c10::revanchism}} see their {{c11::territorial c
 ===<br>
 
 
-<br>---<br>
 France ⟮c:17;claiming alsace-lorraine/wanting it back⟯ was both a ⟮c:18;irredentist⟯ and a ⟮c:19;revanchist⟯ claim. 
 An ⟮c:20;irredentist⟯ claim is often expressed as a claim for ⟮c:15;Greater X (Greater Serbia etc.⟯) 
 the ⟮c:21;Megali Idea (Great Idea⟯) was an ⟮c:22;irredentist (though probably not revanchist⟯) claim by ⟮c:23;greece⟯ 
@@ -607,7 +561,6 @@ The etymological roots of irredentism is that the territory is ⟮c:16;not redee
 
 ### gerrymandering
 
-<br>---<br>
 ⟮c:1;Gerrymandering⟯ is ⟮c:2;drawing the borders of electoral districts⟯ so as to ⟮c:3;favor a particular party or group⟯ 
 ===<br>
 
@@ -628,18 +581,15 @@ prison|for-profit prisons
 
 #### pamphlet war
 
-<br>---<br>
 A ⟮c:1;pamphlet⟯ is a ⟮c:2;short⟯ ⟮c:3;book/printed work⟯, often un⟮c:4;bound⟯, generally ⟮c:5;political⟯ in nature 
 ===<br>
 
-<br>---<br>
 A ⟮c:1;Pamphlet war⟯ was a ⟮c:2;protracted argument or discussion⟯ through ⟮c:3;printed media⟯, especially via ⟮c:4;pamphlets⟯, especially between the time ⟮c:5;the printing press became common⟯, and the ⟮c:6;beginning of the 1800s⟯ 
 ===<br>
 
 ### structure
 
-⟮h:all;<img src="sm_2021-06-27--09-51-54-screenshot.jpg">⟯<br>---<br>
-Someone ⟮c:15;doing something⟯ defined as ⟮c:16;the intended result⟯ of ⟮c:17;an ad or similar⟯ is known as a ⟮c:18;conversion⟯. 
+⟮h:all;<img src="sm_2021-06-27--09-51-54-screenshot.jpg">⟯Someone ⟮c:15;doing something⟯ defined as ⟮c:16;the intended result⟯ of ⟮c:17;an ad or similar⟯ is known as a ⟮c:18;conversion⟯. 
 ⟮c:19;A purchase, a click on a certain thing, subscribing to a newsletter⟯ might all be ⟮c:20;Conversions⟯ 
 The ⟮c:2;conversion rate⟯ measures ⟮c:22;conversions⟯ per ⟮c:21;site visitor (or similar⟯) 
 A ⟮c:1;sales/conversion funnel⟯ is the process where you repeatedly ⟮c:3;reduce the users options⟯ until ⟮c:4;a conversion⟯. 
@@ -653,13 +603,11 @@ The thing that ⟮c:12;gets people to the next step⟯ of ⟮c:13;the sales/conv
 
 #### astroturfing
 
-<br>---<br>
 ⟮c:1;Astroturfing⟯ is the practice of making ⟮c:2;advertisment of a product or message⟯ appear as though ⟮c:3;it originates from and is supported by grassroots participants⟯. 
 ===<br>
 
 #### brigading
 
-<br>---<br>
 ⟮c:1;Brigading⟯ is when ⟮c:2;a large number of users⟯ ⟮c:3;coordinate⟯ to ⟮c:4;give a (generally negative) rating to something⟯, or ⟮c:5;to vote in an online poll,⟯ or similar. 
 The goal of ⟮c:9;brigading⟯ is often either ⟮c:6;to harm the thing in question⟯, or ⟮c:7;to give the idea of the genuine opinion of something being different than it  actually is⟯. 
 ⟮c:10;Brigading⟯ may in a wider sense also refer to ⟮c:8;all coordinated harmful online action⟯. 
@@ -669,7 +617,6 @@ The goal of ⟮c:9;brigading⟯ is often either ⟮c:6;to harm the thing in ques
 
 ##### sockpuppet
 
-<br>---<br>
 A ⟮c:1;sockpuppet⟯ is ⟮c:2;an alternative account⟯ used to ⟮c:3;decieve or mislead in some way⟯.⟮s:1-3;Originally this referred to ((c:4;::an account to talk about or to oneself while pretending to be another person⟯, ⟮s:4;then expanded to ((c:5;::all uses of a second account pretending to be a second person while being the same as the first⟯, and now can also refer to ⟮s:5;((c:6;::any (misleading) activity where a second account might be helpful⟯, such as ⟮c:7;evading bans⟯, do ⟮c:8;mass action such as brigading⟯, etc)))).)) 
 ===<br>
 
@@ -685,7 +632,6 @@ Examples for ⟮c:9;dog whistles⟯ are ⟮c:7;"international bankers"⟯ to mea
 
 #### impressumspflicht
 
-<br>---<br>
 ⟮c:1;Impressumspflicht⟯ is generally only a thing in ⟮c:2;german-speaking countries⟯, containing ⟮c:3;the contact information⟯ of ⟮c:4;the person responsible for the content.⟯ 
 The main law ⟮c:5;requiring an Impressum⟯ in the Internet is ⟮c:6;the Telemediengesetz⟯, if ⟮c:7;you are offering services⟯, also ⟮c:8;the  Dienstleistungs-Informationspflichten-Verordnung⟯ 
 The main requirement for an ⟮c:9;impressum⟯ is "⟮c:10;leicht erkennbar⟯, ⟮c:11;unmittelbar erreichbar,⟯ ⟮c:12;ständig verfügbar⟯" 
@@ -700,7 +646,6 @@ The main requirement for an ⟮c:9;impressum⟯ is "⟮c:10;leicht erkennbar⟯,
 
 ##### queens
 
-<br>---<br>
 ⟮c:5;Queens⟯ may be ⟮c:5;queens⟯ ⟮c:1;regnant⟯, ⟮c:2;with the power to govern the realm as a king would⟯. 
 ⟮c:6;Queens⟯ may be ⟮c:6;queens⟯ ⟮c:3;consort⟯, ⟮c:4;married to the king but having no formal power⟯. 
 ===<br>
@@ -709,19 +654,15 @@ The main requirement for an ⟮c:9;impressum⟯ is "⟮c:10;leicht erkennbar⟯,
 
 #### US
 
-<br>---<br>
 In American politics, the ⟮c:1;Southern strategy⟯ was a ⟮c:2;Republican Party⟯ electoral strategy to increase political support ⟮c:3;among white voters in the South⟯ by ⟮c:4;appealing to racism against African Americans⟯ starting during (and exploiting the fears created by⟮c:5; the civil rights era of the 1950s and 1960s⟯), causing the ⟮s:2;Republican party⟯ to end up ⟮c:6;far further to the right and in roughly the same position as it has today⟯. Politicians most associated with this are ⟮c:7;Richard Nixon⟯ and ⟮c:8;Barry Goldwater.⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:1;Lee Atwater⟯ has a famous ⟮c:2;quote⟯ in which he describes the evolution of ⟮c:4;republican::whose?⟯ messaging in the context of the ⟮c:3;southern strategy⟯ from ⟮c:5;"Nigger"⟯ to ⟮c:6;dog-whistles⟯ such as ⟮c:6;forced busing⟯ and ⟮c:7;state's rights⟯ to ⟮c:8;supposedly economic issues⟯ such as ⟮c:8;cutting taxes⟯ that ⟮c:9;"just happen" to hurt black people more⟯. 
 ⟮c:11;Lee Atwater'⟯s famous quote is often understood as ⟮c:10;the intentional perfidiousness of hiding racism in structural violence not mentioning race⟯, but he actually believed that ⟮c:10;this would end up making race less important⟯. 
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span><br/><div class="sub">
-> You start out in 1954 by saying, "Nigger, nigger, nigger." By 1968, you can't say "nigger" – that hurts you. Backfires. So you say stuff like forced busing, states' rights and all that stuff. You're getting so abstract now, you're talking about cutting taxes. And all these things you're talking about are totally economic things and a byproduct of them is [that] blacks get hurt worse than whites. And subconsciously maybe that is part of it. I'm not saying that. But I'm saying that if it is getting that abstract, and that coded, that we are doing away with the racial problem one way or the other. You follow me – because obviously sitting around saying, "We want to cut this," is much more abstract than even the busing thing, and a hell of a lot more abstract than "Nigger, nigger."
-</div>
 
-<br>---<br>
+> You start out in 1954 by saying, "Nigger, nigger, nigger." By 1968, you can't say "nigger" – that hurts you. Backfires. So you say stuff like forced busing, states' rights and all that stuff. You're getting so abstract now, you're talking about cutting taxes. And all these things you're talking about are totally economic things and a byproduct of them is [that] blacks get hurt worse than whites. And subconsciously maybe that is part of it. I'm not saying that. But I'm saying that if it is getting that abstract, and that coded, that we are doing away with the racial problem one way or the other. You follow me – because obviously sitting around saying, "We want to cut this," is much more abstract than even the busing thing, and a hell of a lot more abstract than "Nigger, nigger."
+
 ARPA is short for ⟮c:1;Advanced Research Projects Agency⟯ (today called ⟮c:2;DARPA⟯), and is an agency that carries out ⟮c:3;R&amp;D⟯, directly subsidiary to the ⟮c:4;US Department of Defense⟯ 
 ===<br>
 
@@ -764,27 +705,23 @@ Elements/interpretations that are ⟮c:3;not part of the canon,⟯ but ⟮c:4;ac
 
 ### waifus & husbandos
 
-<br>---<br>
 A ⟮c:1;waifu⟯, generally, is a ⟮c:2;fictional character⟯ ⟮(c:3;female::gender⟯) to  ⟮c:4; which one is attracted.⟯ 
 The ⟮c:5;male::gender⟯ version of a waifu is a ⟮c:6;husbando⟯. 
 ===<br>
 
 ## literary theory
 
-<br>---<br>
 ⟮c:2;Metafiction⟯ is a form of fiction that ⟮c:1;emphasizes the constructedness of the work⟯ 
 ===<br>
 
 ### diagesis
 
-<br>---<br>
 Something ⟮c:1;diegetic⟯ ⟮c:2;exists within the fictional world.⟯ 
 Something ⟮c:3;non-diegetic⟯ ⟮c:4;only exists outside of the fictional world⟯. 
 Music that ⟮c:5;can be heard by the characters in a film⟯ would be ⟮c:6;diegetic music⟯. 
 ⟮c:7;An UI⟯ that ⟮c:8;is part of a game world itself⟯ would be ⟮c:9;an (intra)diegetic UI⟯ 
 ===<br>
 <img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">
-<br>---<br>
 Besides the meaning ⟮c:10;of inside/outside of a text⟯, ⟮c:11;diegesis/diegetic⟯ refers to ⟮c:12;narration (as opposed to mimesis⟯) 
 ===<br>
 
@@ -796,14 +733,12 @@ The ⟮c:6;death of the author⟯ pushes back against the idea of ⟮c:7;authori
 
 ### hermeneutics
 
-<br>---<br>
 ⟮c:1;Hermeneutics⟯ is ⟮c:2;the study of interpretation.⟯ 
 ===<br>
 
 #### hermeneutic circle
 
-⟮h:all;<img src="image7.jpg">⟯<br>---<br>
-The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
+⟮h:all;<img src="image7.jpg">⟯The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
 In the hermeneutic circle, ⟮c:5;moving between the two states⟯ ⟮c:6;deepens or at least changes⟯ our ⟮c:10;understanding⟯. 
 For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is ⟮c:7;never exactly the same⟯ ("⟮c:7;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c:8;spiral⟯. 
 ===<br>
@@ -825,7 +760,6 @@ For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is
 
 ##### lampshading
 
-<br>---<br>
 ⟮c:1;Lampshading⟯ is ⟮c:2;the acknowledgment of⟯ ⟮c:3;a flaw or trope⟯ ⟮c:4;diegetically⟯. 
 ===<br>
 
@@ -839,14 +773,12 @@ The "⟮c:1;Seinfeld is Unfunny⟯" effect is the effect where something ⟮c:2;
 
 ###### MPDG
 
-<br>---<br>
 A ⟮c:1;manic pixie dream girl⟯ is a ⟮c:2;energetic, whacky, playful⟯ and ⟮c:3;attractive⟯ character (mostly ⟮c:4;female⟯) who is paired with a ⟮c:5;boring/cynical⟯ (mostly ⟮c:6;male⟯) ⟮c:7;main character⟯. Her ⟮c:8;whole purpose⟯ (in terms of the story) is that she ⟮c:9;teaches him⟯ to ⟮c:10;live freely and love madly⟯. 
 Examples of ⟮c:11;manic pixie dream girls⟯ might be イエスタデイをうたって's ⟮c:12;Haru⟯, subversions might be FLCS's ⟮c:13;Haruko⟯ and Parika's ⟮c:14;Paprika⟯ 
 ===<br>
 
 ###### born sexy yeasterday
 
-<br>---<br>
 ⟮c:1;Born Sexy Yesterday⟯ is a trope, most commonly in ⟮c:2;scifi⟯ settings to ⟮c:3;make it more acceptable⟯, where a ⟮c:4;naive⟯ and ⟮c:5;childlike⟯ ⟮c:6;female character⟯ is in a ⟮c:7;mature, sexualized body⟯ for ⟮c:8;plot reasons⟯. 
 In the ⟮c:9;Born Sexy Yesterday trope⟯, the female character is ⟮c:10;unaware of their sexiness⟯ and ⟮c:11;general concepts of shame and sexuality⟯, and thus she will almost inevitably ⟮c:12;undress in front of the male main character⟯. 
 In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is ⟮c:15;the first man who the female character has seen⟯; she f⟮c:16;alls for him by default⟯, allowing ⟮c:17;mens ordinariness to be special⟯, and soothing ⟮c:18;mens fear⟯ of ⟮c:19;women's independence⟯ and ⟮c:20;independent sexual histories⟯. 
@@ -856,7 +788,6 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 
 ###### heels & faces
 
-<br>---<br>
 ⟮c:9;(baby) faces and heels⟯ are terms from ⟮c:10;wrestling⟯ 
 ===<br>
 
@@ -914,7 +845,6 @@ Harlequin romances generally feature a ⟮c:26;clinch⟯ cover and have a ⟮c:2
 
 ###### japanese
 
-<br>---<br>
 According to Shibamoto Smith 2004, in contrast to ⟮c:1;Harlequin translations⟯, the ⟮c:2;heroine⟯ of ⟮c:1;japanese romance novels⟯ looks ⟮c:3;reasonably pretty, but not a bombshell⟯, acts ⟮c:4;independently/competently⟯, is quite ⟮c:5;self-aware⟯, while the ⟮c:6;hero⟯ is ⟮c:7;ordinary, nice, somewhat awkward⟯. 
 In general, according to Shibamoto Smith 2004, ⟮c:8;japanese romance novels⟯ pay less heed to ⟮c:9;looks as a sign for attractiveness/love⟯ 
 ===<br>
@@ -1047,7 +977,6 @@ Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>hous
 
 ##### shakespeare
 
-<br>---<br>
 ⟮c:1;Hamlet⟯, while ⟮c:2;complaining about his moms remarriage⟯, exclaims "⟮c:3;Frailty, thy name is woman.⟯" 
 ===<br>
 
@@ -1055,7 +984,6 @@ Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>hous
 
 #### literary realism
 
-<br>---<br>
 ⟮c:2;Literary realism⟯ tries to ⟮c:1;represent the subject matter truthfully⟯ 
 ===<br>
 
@@ -1089,8 +1017,7 @@ Examples of {{c4::litotes}} include {{c5::<q>not bad</q>; <q>no small task</q>; 
 ⟮h:all;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif">⟯
 ⟮h:all;<img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg">⟯⟮h:all;<img src="sm_nicegai.jpg">⟯
 ⟮h:all;<img src="sm_1000.jpg">⟯
-⟮h:all;<img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯<br>---<br>
-⟮c:2;Shining or gleaming⟯ is often represented by ⟮c:3;a four- or eight-pointed long-ish star⟯, where ⟮c:4;the angles between all lines⟯ are ⟮c:5;generally equal⟯. 
+⟮h:all;<img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c:2;Shining or gleaming⟯ is often represented by ⟮c:3;a four- or eight-pointed long-ish star⟯, where ⟮c:4;the angles between all lines⟯ are ⟮c:5;generally equal⟯. 
 The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c:1;&lt;image&gt;⟯ 
 If there are ⟮c:6;many small lights⟯, often ⟮c:7;a large amount of  4/8p long-ish stars⟯ are used, whose ⟮c:9;lines⟯ are ⟮c:8;often (though not always⟯) then ⟮c:10;parallel⟯ 
 When using the ⟮c:11;eight-point version⟯ of the slender gleaming star, ⟮c:12;the second set of four points/lines⟯ are ⟮c:13;generally smaller⟯ 
@@ -1102,7 +1029,6 @@ When using the ⟮c:11;eight-point version⟯ of the slender gleaming star, ⟮c
 
 ###### the kiss
 
-<br>---<br>
 <cite>⟮c:1;The Kiss⟯</cite>, releaswed in ⟮c:2;1896⟯, was ⟮c:3;the first film containing a kiss⟯, ⟮c:4;sparking outrage.⟯ 
 ===<br>
 
@@ -1116,7 +1042,6 @@ When using the ⟮c:11;eight-point version⟯ of the slender gleaming star, ⟮c
 
 ##### screenplay
 
-<br>---<br>
 ⟮c:1;Fountain⟯ is  a markup language for ⟮c:3;screenplays⟯ inspired by ⟮c:2;markdown⟯ 
 ===<br>
 
@@ -1144,13 +1069,11 @@ Within ⟮c:4;action text⟯, fountain ⟮c:5;preserves your whitespace choices�
 
 ###### scene headings
 
-<br>---<br>
 The ⟮c:7;line⟯ ⟮c:8;starting a scene⟯ is called ⟮c:9;a scene heading⟯. 
 A ⟮c:10;scene heading⟯ is usually in ⟮c:11;all caps⟯. 
 §§ ⟮c:12;Scene headings⟯ tell you ⟮c:13;outsideness⟯, ⟮c:14;location⟯, and ⟮c:15;time⟯. §<br>===<br>
 <div class="cloze-group hide-if-inactive">A ⟮c:6;scene heading⟯ usually looks sth like this:
   <pre><code data-codetype="text">⟮c:1;EXT or INT etc.⟯⟮c:3;.⟯ ⟮c:2;LOCATION⟯ ⟮c:4;-⟯ ⟮c:5;TIME⟯</code></pre></div>
-<br>---<br>
 In fountain, ⟮c:16;scene headings⟯ are ⟮c:17;separated from the rest of the text⟯ by ⟮c:18;blank lines⟯. 
 In fountain scene headings ⟮c:19;must start with⟯ ⟮c:20;EXT/INT etc.⟯ unless forced 
 §§ In fountain, you can indicate ⟮c:21;scene numbers⟯ by ⟮c:22;wrapping them in #foo#⟯, they are placed at ⟮c:23;the end of scene headings⟯ §<br>===<br>
@@ -1216,7 +1139,6 @@ In ⟮c:3;fountain⟯, ⟮c:1;indentation⟯ ⟮c:2;has no effect (besides organ
 
 ## micellar water
 
-<br>---<br>
 ⟮c:1;Micellar water (mizellenwasser⟯) is a ⟮c:2;makeup remover⟯ that has ⟮c:3;produced good results for me⟯ 
 ===<br>
 
@@ -1245,7 +1167,6 @@ In ⟮c:3;fountain⟯, ⟮c:1;indentation⟯ ⟮c:2;has no effect (besides organ
 
 ##### presenteeism
 
-<br>---<br>
 ⟮c:1;Presenteeism⟯ is commonly ⟮c:2;being at work although sick⟯ 
 Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;presence at work qua presence at work (without economic benefit⟯) 
 ===<br>
@@ -1349,8 +1270,7 @@ In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness 
 ### cardinal directions & compasses
 
 <img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">
-<img src="sm_1280px-Windrose.svg.jpg"><br><br>---<br>
-A ⟮c:1;compass rose⟯ can be found on ⟮c:2;pretty much any compass⟯ and on ⟮c:3;many maps⟯. 
+<img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c:1;compass rose⟯ can be found on ⟮c:2;pretty much any compass⟯ and on ⟮c:3;many maps⟯. 
 The ⟮c:4;compas rose⟯ indicates ⟮c:5;where the cardinal directions are⟯, ⟮c:6;in relation to⟯ ⟮c:7;the thing on which it appears⟯. 
 The ⟮c:8;four⟯ ⟮c:10;main directions⟯, ⟮c:9;90 deg⟯ apart, that a compass rose has are ⟮c:11;the cardinal directions⟯. 
 The ⟮c:12;four⟯ directions e⟮c:13;xactly in the middle between the cardinal directions⟯ are the ⟮c:14;intercardinal directions⟯. 
@@ -1359,7 +1279,6 @@ The ⟮c:17;eight directions between the intercardinal directions⟯ I will term
 The ⟮c:19;interintercardinal directions⟯ have the syntax ⟮c:20;&lt;cardinal-direction&gt;&lt;intercardinal-direction&gt;⟯&nbsp;, where the intercardinal direction and the cardinal are ⟮c:21;those they are closest to⟯. 
 The sixteen directions ⟮c:22;between the interintercardinal directions⟯ I wil term ⟮c:23;interinterintercardinal directions⟯. 
 ===<br>
-<br>---<br>
 Generating the ⟮c:24;interinterintercardinal directions⟯ follows the following algorithm:
 <pre><code>let iiicString = ⟮c:25;iic.closest(cardinal or intercardinal direcction⟯)
 ⟮c:26;iicString += "by"⟯
@@ -1392,7 +1311,6 @@ compass rose
 
 ### GIS
 
-<br>---<br>
 A ⟮c:1;s:2;geographic information system⟯ ⟮(c:2;GIS⟯) is ⟮c:3;software⟯ that allows ⟮c:4;analysis/handling of geographic data digitally⟯ 
 ===<br>
 
@@ -1406,8 +1324,7 @@ A ⟮c:1;s:2;geographic information system⟯ ⟮(c:2;GIS⟯) is ⟮c:3;software
 
 ### disasters
 
-Disasters<br/><br>---<br>
-While it might seem obvious to ⟮c:1;evacuate⟯ in the face of a storm, it may be ⟮c:2;difficult⟯ due to ⟮c:3;traffic blockages⟯ or ⟮c:4;economic considerations⟯ 
+Disasters<br/>While it might seem obvious to ⟮c:1;evacuate⟯ in the face of a storm, it may be ⟮c:2;difficult⟯ due to ⟮c:3;traffic blockages⟯ or ⟮c:4;economic considerations⟯ 
 Since ⟮c:5;you may not be able to wash things for a while⟯ once a storm (e.g. hurricane, severe flooding, etc.) hits, ⟮c:6;wash/clean everything you can beforehand⟯ 
 Since ⟮c:7;ATMs and electronic payment may not work⟯, having ⟮c:8;enough cash⟯ is important in an emergency situation 
 Regardless of where you end up ⟮c:9;weathering a storm⟯, it's good to ⟮c:10;pack distractions⟯, especially ⟮c:11;non-electronic⟯ ones (or ⟮c:12;powerbanks⟯ etc.), to ⟮c:13;stave off boredom⟯ and ⟮c:14;keep stress-levels down⟯ 
@@ -1432,7 +1349,6 @@ After a major catastrope you may ⟮c:57;be full of adrenaline⟯, so you might 
 
 ##### hurricanes
 
-<br>---<br>
 If a hurricane or similar is ⟮c:1;going to hit your property⟯, to prevent damage ⟮c:2;remove⟯ or ⟮c:3;tie down⟯ ⟮c:4;anything that isn't niet und nagelfest⟯ 
 If a hurricane or similar is ⟮c:5;going to hit your property⟯, ⟮c:6;board up/protect⟯ ⟮c:7;your windows and doors⟯ 
 After a hurricane, Do not use ⟮c:8;phones⟯ exept for ⟮c:9;emergency services.⟯ (to keep the phone lines free) 
@@ -1443,7 +1359,6 @@ After a hurricane or flood, the ⟮c:10;tap water⟯ might be ⟮c:11;contaminat
 
 ### heterotopia
 
-<br>---<br>
 ⟮c:1;Heterotopia⟯ are ⟮c:4;similar to⟯ ⟮c:2;normal space⟯ in that they ⟮c:3;occupy space⟯, however they are ⟮c:4;different from⟯ ⟮c:2;normal space⟯ in a number of ways. 
 In a very general sense, in ⟮c:5;heterotopia⟯ ⟮c:6;normal space⟯ is simultaneusly ⟮c:7;represented⟯, ⟮c:8;contested⟯ and ⟮c:9;inverted⟯ 
 ⟮c:10;Heterotopia⟯ often (related to their epistemic relation to real space) either ⟮c:11;create a space of illusory order⟯, or ⟮c:12;expose real space by contrast⟯ 
@@ -1460,7 +1375,6 @@ All cultures have heterotopia, but ⟮c:35;the same heterotopia⟯ can have ⟮c
 
 #### military geography
 
-<br>---<br>
 The ⟮c:2;chinese⟯ efforts to ⟮c:3;establish a series of friendly ports owned or beholden to them⟯ is called ⟮c:1;the String of Pearls initiative⟯ 
 Some analysts have  alleged chinas true aims for ⟮c:5;the string of pearls initiative⟯ are ⟮c:4;Military bases⟯ 
 China most often ⟮c:6;gains control of the ports⟯ for ⟮c:7;the string of pearls initiative⟯ ⟮c:8;via loans and the ports as collateral, which they collect when the goverments default⟯ 
@@ -1468,7 +1382,6 @@ China most often ⟮c:6;gains control of the ports⟯ for ⟮c:7;the string of p
 
 #### nations & states
 
-<br>---<br>
 In general, for ⟮c:1;a state to be a state,⟯ it must be r⟮c:2;ecognized by other states⟯. 
 The common heuristic for ⟮c:3;something to be a state⟯ is ⟮c:4;if it is a member of the UN⟯. 
 Currently there are ⟮c:5;193⟯ UN member states. 
@@ -1478,7 +1391,6 @@ Currently there are ⟮c:5;193⟯ UN member states.
 
 ###### isolation and governance
 
-<br>---<br>
 According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a>, in ⟮c:1;authoritarian⟯ states ⟮c:2;capital cities⟯ being ⟮c:3;isolated⟯ correlates with ⟮c:4;worse quality of governance⟯ = ⟮c:4;more resource extraction (of the ruling elite from the country⟯). 
 <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a> argue the relationship ⟮c:8;capital cities being more isolated -&gt; worse quality of government⟯ is ⟮c:5;causal⟯, based on a more ⟮c:6;isolated⟯ ⟮c:7;capital city⟯ being ⟮c:5;less succeptible to revolution⟯. 
 ===<br>
@@ -1687,7 +1599,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 #### presentism
 
-<br>---<br>
 In history, ⟮c:1;presentism⟯ is the ⟮c:2;judgement/interpretation⟯ of the ⟮c:2;past⟯ in terms of ⟮c:3;current⟯ ⟮c:4;values⟯ and ⟮c:4;concepts⟯ 
 ===<br>
 
@@ -1695,7 +1606,6 @@ In history, ⟮c:1;presentism⟯ is the ⟮c:2;judgement/interpretation⟯ of th
 
 ##### historical determinism
 
-<br>---<br>
 ⟮c:1;Whig history⟯ at its most narrow sees ⟮c:2;british history⟯ as the ⟮c:3;inevitable⟯ ⟮c:3;progress⟯ from ⟮c:4;dark and despotic arbitrary tyranny⟯ to ⟮c:5;enlightened british liberal democracy⟯. 
 ⟮c:6;Whig history⟯ inbetween the most narrow and the most wide definitions sees ⟮c:7;history⟯ as the ⟮c:8;inevitable⟯ ⟮c:8;progress⟯ from ⟮c:9;a dark and terrible past of unfreedom⟯ to ⟮c:10;a glorious present of freedom and democracy⟯. 
 ⟮c:11;Whig history⟯ at its most broad sees ⟮c:12;history⟯ as ⟮c:13;the inevitable march of progress (where progress depends on the context it is used in, the author, etc.⟯). 
@@ -1705,14 +1615,12 @@ In history, ⟮c:1;presentism⟯ is the ⟮c:2;judgement/interpretation⟯ of th
 
 ### historiography
 
-<br>---<br>
 ⟮c:1;Historiography⟯ is the study of ⟮c:2;the way we write (and have written) history.⟯ 
 The ⟮c:3;historiography⟯ of a specific thing is ⟮c:4;how history has studied/seen a specific thing⟯ 
 ===<br>
 
 #### black legend
 
-<br>---<br>
 a ⟮c:2;black legend⟯ is a ⟮c:3;historiographical⟯ phenomenon where ⟮c:4;an overly negative portrayal of something⟯ is created, often through ⟮c:1;biased writing⟯ 
 ===<br>
 
@@ -1728,7 +1636,6 @@ The ⟮c:7;most famous work of microhistory⟯ is  ⟮c:8;The cheese and the wor
 
 #### macrohistory
 
-<br>---<br>
 ⟮c:1;macrohistory⟯ is the approach to history ⟮c:2;looking for large, long-term trends⟯ in world history 
 ===<br>
 
@@ -1773,7 +1680,6 @@ The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis
 
 ### centuries
 
-<br>---<br>
 Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century⟯ are used for a ⟮c:9;more meaningful⟯ division of centuries. 
 ===<br>
 
@@ -1866,7 +1772,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
   </tbody>
 </table>
 
-<br>---<br>
 In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c:3;平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
 ===<br>
 
@@ -1949,7 +1854,6 @@ the ⟮c:12;<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></r
 
 ##### 紫式部
 
-<br>---<br>
 ⟮c:2;紫式部⟯ (though ⟮c:3;there is some authorship dispute⟯) wrote ⟮c:1;源氏物語⟯ around ⟮c:4;1000ish⟯ 
 We ⟮c:5;don't know a huge amount⟯ about ⟮c:6;the original form⟯ of ⟮c:7;源氏物語⟯, since ⟮c:8;the original has long been lost.⟯ 
 ===<br>
@@ -1971,7 +1875,6 @@ The earthquake that caused the <ruby>東日本大震災<rp>(</rp><rt>ひがし�
 
 ##### 靖国神社
 
-<br>---<br>
 The ⟮c:2;<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>⟯is dedicated to ⟮c:1;Those died in service of Japan⟯ 
 The main problem with the ⟮c:3;<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>⟯ is that ⟮c:4;it holds over a thousand convicted war criminals⟯. 
 ⟮c:5;靖⟯ is generally read ⟮c:6;やす⟯ and means ⟮c:7;peaceful, calm, easygoing⟯. 
@@ -1981,8 +1884,7 @@ The main problem with the ⟮c:3;<ruby>靖国神社<rp>(</rp><rt>やすくにじ
 #### population
 
 ⟮h:all;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">⟯⟮h:all;<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">⟯
-⟮h:all;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h:all;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯<br>---<br>
-⟮c:1;<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>⟯ literally means ⟮c:2;of japanese descent⟯, though it can also be an abbreviation of ⟮c:3;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ 
+⟮h:all;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h:all;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c:1;<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>⟯ literally means ⟮c:2;of japanese descent⟯, though it can also be an abbreviation of ⟮c:3;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ 
 ⟮c:4;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ refers to  ⟮c:5;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
 The ⟮c:6;largest amount⟯ of ⟮c:7;日系（人）⟯ is in ⟮c:8;Brazil⟯ 
 ===<br>
@@ -2014,7 +1916,6 @@ The ⟮c:6;コギャル⟯ fashion/fashion was popular in the ⟮c:7;1990s⟯.
 
 ###### plaza accords
 
-<br>---<br>
 ⟮c:1;the plaza accords⟯ were an agreement in ⟮c:2;1985⟯ that ⟮c:3;changed the fundamental relationship between⟯ ⟮c:4;Dollar, DM and Yen.⟯ 
 ===<br>
 
@@ -2067,7 +1968,6 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 
 ### mary wolstonecraft
 
-<br>---<br>
 ⟮c:1;Mary Wolstonecraft⟯, ⟮c:2;frustrated⟯ by the ⟮c:3;lack of opportunities⟯ for ⟮c:4;educated women⟯ and after working ⟮c:5;on-and-off⟯ as a ⟮c:6;governess⟯, ⟮c:7;caring for⟯ ⟮c:8;a dying friend⟯ and ⟮c:9;her dying mother⟯, and ⟮(c:10;unsuccessfully⟯ due to circumstances) ⟮c:11;founding a school⟯, began ⟮c:12;writing⟯, ⟮c:13;assisted by⟯ a ⟮c:14;liberal publisher⟯, and also ⟮c:15;fell into his croud of political thinkers⟯. 
 ⟮c:16;Wollstonecraft⟯ was ⟮c:17;catapulted to fame⟯ after writing her ⟮c:18;Vindication of the Rights of Men⟯ contra ⟮c:19;Burke⟯ in ⟮c:20;the Revolution Controversy,⟯ and ⟮c:21;travelled to France during the Revolution⟯ soon after. She fell in with the ⟮c:22;Girondins⟯ and had c⟮c:23;lose brushes with death⟯ ⟮(c:24;some of her friends⟯ were not so lucky) during ⟮c:25;the reign of terror⟯ 
 ⟮c:26;Wollstonecraft⟯ argued contra Burke that ⟮c:27;Marie Antoinette⟯ was not ⟮c:28;a noble victim⟯ but a ⟮c:29;femme fatale⟯, which was inevitable for one because MAs only function was ⟮c:30;to produce sons⟯, which ⟮c:31;corrupted⟯ her by ⟮c:32;reducing her only to a womb⟯, and also that ⟮c:33;queens (consort⟯) ⟮c:34;needed to be manipulative⟯, since ⟮c:35;the only way they could exercise influence⟯ was ⟮c:36;via their husbands or sons⟯ 
@@ -2082,7 +1982,6 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 
 ##### revolution controversy
 
-<br>---<br>
 The ⟮c:1;Revolution Controversy⟯ was a ⟮c:2;British:: location⟯ debate (mainly a {c5::pamphlet war}}) over ⟮c:3;the French Revolution⟯ from ⟮c:4;1789⟯ to ⟮c:4;1795⟯. 
 The ⟮c:13;Revolution Controversy⟯ began in earnest after the publication of ⟮c:6;Edmund Burke⟯'s ⟮c:7;Reflections on the Revolution in France⟯ (1790), which surprisingly supported ⟮c:8;the French aristocracy⟯. Many writers responded to ⟮c:9;defend the French Revolution⟯, such as ⟮c:10;Thomas Paine⟯, ⟮c:11;Mary Wollstonecraft⟯ and ⟮c:12;William Godwin⟯. 
 ===<br>
@@ -2103,7 +2002,6 @@ The ⟮c:3;Nord-Ostsee-Kanal⟯ was built around ⟮c:4;1900⟯ and may be said 
 
 ### gender
 
-<br>---<br>
 Since the ⟮c:3;1940s⟯, ⟮c:1;blue⟯ has symobolized ⟮c:2;boys/masculinity⟯ and ⟮c:1;pink⟯ has symbolized ⟮c:2;girls/femininity⟯ 
 ===<br>
 
@@ -2117,7 +2015,6 @@ The ⟮c:1;Equal Employment Opportunity law⟯ (Japan, ⟮c:2;1986/87⟯) was th
 
 #### may you live in interesting times
 
-<br>---<br>
 ⟮c:1;May You Live In Interesting Times⟯ (or variants) is a supposedly ⟮c:2;chinese⟯ quote, supposedly ⟮c:3;a curse⟯ due to the fact that ⟮c:4;the most interesting times are also the most dangerous⟯. however, ⟮c:5;the origin is unclear⟯. It could be ⟮c:6;a change from the Chinese quote "Truly, better be a dog in days of peace than a human in times of war"⟯, or ⟮c:7;an original creation of the british diplomatic service in china⟯. 
 ===<br>
 
@@ -2153,7 +2050,6 @@ The ⟮c:9;miasma theory⟯ remains visible in the name of the illness ⟮c:10;m
 
 ##### sensibility
 
-<br>---<br>
 ⟮c:1;Sensibility⟯ as a term in ⟮c:2;18th⟯-century ⟮c:2;Britain⟯ refers to having a ⟮c:3;strong emotional response⟯ to stimuli (often later criticised for 'being ⟮c:4;overemotional⟯') 
 ===<br>
 
@@ -2161,17 +2057,14 @@ The ⟮c:9;miasma theory⟯ remains visible in the name of the illness ⟮c:10;m
 
 #### soujorner truth
 
-<br>---<br>
 ⟮c:31;Soujorner Truth⟯ was a ⟮c:32;former slave⟯ who became an ⟮c:33;abolitionist⟯ and ⟮c:33;women's right activist⟯ esp. ⟮c:34;from the 1840s onwards::time⟯ 
 "⟮c:30;Ain't I a Woman⟯" mainly reflects on the theme of ⟮c:35;her being equal to men in any concievable way⟯, especially as regards ⟮c:36;physical endowments⟯ and ⟮c:37;the position in women in scripture⟯ (perhaps even ⟮c:38;more than equal⟯) 
 ===<br>
 
-<br>---<br>
 The original version of "⟮c:1;Ain't I a Woman⟯" was published a ⟮c:2;few weeks⟯ after the speech and is probably ⟮c:3;relatively close to the original⟯, amongst other things because it doesn't suffer from ⟮c:4;imputing a southern accent to soujourner truth⟯, but was published in ⟮c:5;an anti-slavery magazine⟯ and thus ⟮c:6;had its own audience to consider⟯ 
 The more commonly known version of Soujourner Truths speech "⟮c:7;Ain't I a woman⟯" was probably ⟮c:8;significantly changed⟯ by ⟮c:9;an abolition activist⟯ ⟮c:10;12 years⟯ later. It ⟮c:11;kept most of the substance⟯, but ⟮c:12;invented⟯ ⟮c:13;hostility from the audience:: attitude⟯, and ⟮c:14;embellished⟯ ⟮c:15;some details⟯ 
 the most common version of the famous speech "⟮c:16;Ain't I a woman⟯" has the problem that ⟮c:17;Soujourner Truth⟯ would not have ⟮c:18;spoken in a southern dialect (having grown up in new york as a native dutch speaker⟯), that the ⟮c:19;original transcript did not include the phrase "Ain't I a woman",⟯ and that ⟮c:20;the speech was originally not titled at all⟯ 
-  <br>---<br>
-
+  
 ===<br>
  The most famous passage of the probably false rendition of "⟮c:21;Ain't I a woman⟯":  
 ⟮c:22;That man over there⟯ ⟮c:23;says that women need to be⟯ ⟮c:24;helped into carriages⟯, ⟮c:25;and lifted over ditches⟯, ⟮c:26;and to have the best place everywhere⟯. ⟮c:27;Nobody ever⟯ ⟮c:28;helps me into carriages⟯, ⟮c:29;or over mud-puddles⟯, or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?&nbsp; 
@@ -2212,8 +2105,7 @@ the ⟮c:2;Dungan revolt⟯ was a largely unknown rebellion featuring ⟮c:3;8-1
 #### three-finger salute
 
 ⟮h:1;<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">⟯
-<img class="c1-f c2-b" src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img class="c1-f c2-b" src="sm_juaefdoclgyt9szmg35x.jpg"><br/><br>---<br>
-We associate the origin of ⟮c:2;the  3 finger salute⟯ with the ⟮c:1;The hunger games⟯ (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) 
+<img class="c1-f c2-b" src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img class="c1-f c2-b" src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c:2;the  3 finger salute⟯ with the ⟮c:1;The hunger games⟯ (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) 
 The ⟮c:3;3-finger salute⟯ became ⟮c:4;a symbol for democracy⟯ after it was used ⟮c:8;in pro-democracy protests after a military coup⟯ in ⟮c:5;thailand⟯ in ⟮c:6;2014⟯, and was further used after ⟮c:7;the 2021 myanmar military coup⟯ 
 ===<br>
 
@@ -2221,7 +2113,6 @@ The ⟮c:3;3-finger salute⟯ became ⟮c:4;a symbol for democracy⟯ after it w
 
 #### printing
 
-<br>---<br>
 around ⟮c:1;1440⟯, ⟮c:2;Gutenberg⟯ invented ⟮c:3;the movable type printing press.⟯ 
 ===<br>
 
@@ -2229,7 +2120,6 @@ around ⟮c:1;1440⟯, ⟮c:2;Gutenberg⟯ invented ⟮c:3;the movable type prin
 
 ##### hays code
 
-<br>---<br>
 The ⟮c:1;Motion Picture Production Code⟯ was more commonly known as ⟮c:2;Hays Code⟯ 
 One of the  reasons the  ⟮c:3;Hays Code (Motion Picture Production Code⟯) was instituted was to ⟮c:4;avoid  government regulation/censorship⟯ 
 The ⟮c:5;Hays Code (Motion Picture Production Code⟯) ⟮c:6;self-censored⟯ ⟮c:7;the movie industry⟯ from ⟮c:8;the 1930s (1934⟯) through ⟮c:9;the 1960s (1968⟯) 
@@ -2237,7 +2127,6 @@ The ⟮c:5;Hays Code (Motion Picture Production Code⟯) ⟮c:6;self-censored⟯
 
 ##### golden age of porn
 
-<br>---<br>
 ⟮c:1;<cite>Blue Movie (1969)</cite>⟯ by ⟮c:2;Andy Warhol⟯ was ⟮c:3;the first movie⟯ to ⟮c:4;show explicit sex in a movie theater film⟯. 
 <cite>⟮c:5;Blue Movie⟯ </cite> ⟮(c:6;1969⟯) helped inaugurate ⟮c:7;the Golden Age of Porn⟯. 
 ⟮c:8;The Golden Age of Porn⟯ (aka ⟮c:9;porno chic⟯) lasted for ⟮c:10;15 years⟯, until ⟮c:11;1984⟯, probably brought down by ⟮c:12;the increasing availability of VCR and concomittant home viewing ability⟯ 
@@ -2246,7 +2135,6 @@ The ⟮c:5;Hays Code (Motion Picture Production Code⟯) ⟮c:6;self-censored⟯
 
 #### dorama
 
-<br>---<br>
 ⟮c:1;電車男⟯ was one of the biggest dramas of the ⟮c:2;2000s⟯, drawing ⟮c:3;25%⟯ of ⟮c:5;the national audience⟯ for its ⟮c:4;finale⟯ 
 In ⟮c:6;電車男⟯, through ⟮c:7;the development of his relationship with Hermès⟯, the main character ⟮c:8;grows out of being an otaku⟯ 
 ===<br>
@@ -2255,7 +2143,6 @@ In ⟮c:6;電車男⟯, through ⟮c:7;the development of his relationship with 
 
 ## terminology
 
-<br>---<br>
 in generaly, ⟮c:1;antinomy⟯ is ⟮c:2;a paradox/contradiction⟯ 
 ===<br>
 
@@ -2284,7 +2171,6 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 
 ##### situatedness
 
-<br>---<br>
 ⟮c:1;Situatedness⟯ is the general idea that ⟮c:2;our location in the social world⟯ ⟮c:3;determines⟯ ⟮c:4;things about us⟯, in particular our ⟮c:5;understanding⟯ and ⟮c:5;behaviors⟯. Connected to ⟮c:6;standpoint theory⟯, but less rigorously defined. 
 ===<br>
 
@@ -2292,8 +2178,7 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 
 ###### a priori/a posteriori
 
-<img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/><br>---<br>
-⟮c:5;Erkenntnis / Urteile⟯ kann ⟮c:6;a priori / a posteriori⟯ sein. 
+<img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c:5;Erkenntnis / Urteile⟯ kann ⟮c:6;a priori / a posteriori⟯ sein. 
 ===<br>
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2305,7 +2190,6 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 
 #### Kant
 
-<br>---<br>
 Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale Vernunfterkenntnis⟯, die sich ⟮c:4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c:3;formale Vernunfterkenntnis⟯, die sich ⟮c:5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
 ===<br>
 
@@ -2358,12 +2242,10 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 
 ## monomyth
 
-<br>---<br>
 ⟮c:21;Campbell⟯'s ⟮c:22;monomyth⟯ was influenced by ⟮c:23;psychoanalytic theories⟯, ⟮c:25;mainly⟯ ⟮c:24;Jung⟯ and ⟮c:25;to a certain extent⟯ ⟮c:24;Freud⟯. 
 The ⟮c:26;monomyth⟯ claims to be ⟮c:27;descriptive⟯, specifically ⟮c:28;a general structure that underlines all myths⟯, though ⟮c:29;it, well, isn't⟯, and is often used ⟮c:30;prescriptively/as a formula for writing⟯. 
 The ⟮c:31;monomyth⟯ may also be called ⟮c:32;the Hero's Journey⟯. The shape of the ⟮c:34;monomyth⟯ is ⟮c:33;circular⟯, the ⟮c:35;Hero ends up in the same place they started⟯. 
 ===<br>
-<br>---<br>
   <table class="cloze-group hide-if-inactive">
   <tbody>
     <tr><td rowspan="5">⟮c:1;Departure⟯</td> <td>⟮c:2;The Call to Adventure⟯</td></tr>
@@ -2397,7 +2279,6 @@ The ⟮c:11;langue⟯ of ⟮c:12;myth⟯ consists of ⟮c:13;mythemes⟯ .
 According to CLS, myths consist of ⟮c:14;pairs of⟯ ⟮c:18;mythemes⟯, generally ⟮c:15;one⟯ ⟮c:14;s:15;pair⟯ that is ⟮c:16;contradictiory/irreconcilable⟯, and ⟮c:15;one⟯ ⟮c:14;s:15;pair⟯ that is ⟮c:17;reconcilable⟯. 
 The ⟮c:19;contradictory pair⟯ of mythemes ⟮c:20;is equated with⟯ ⟮c:21;the reconcilable pair,⟯ and so ⟮c:22;the contradiction is dissolved/solved⟯, e.g. ⟮c:23;life:death⟯ ⟮c:24;↔⟯ ⟮c:25;herbivore:hunter⟯ (which is ⟮c:26;reconcilable⟯ via the ⟮c:26;scavenger⟯); ⟮c:27;life:death⟯ ⟮c:28;↔⟯ ⟮c:29;sky:earth⟯ (which is ⟮c:30;reconcilable⟯ via ⟮c:30;mist⟯) 
 
-<br>---<br>
 Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ ⟮c:15;sophisticated⟯ ⟮c:20;systems of thought⟯ according to ⟮c:16;CLS⟯, however, ⟮c:17;science⟯ is ⟮c:18;more effective at⟯ ⟮c:19;acquiring knowledge to harness the world⟯. 
 ===<br>
 
@@ -2416,7 +2297,6 @@ Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ �
   </tbody>
 </table>
 
-<br>---<br>
 The fact that ⟮c:21;a granary killing a person⟯ is ⟮c:22;not explained by chance + granary being unstable⟯ but by ⟮c:23;witchcraft + granary being unstable⟯ is for CLS an example of ⟮c:24;the hyperneed for causality⟯ in ⟮c:25;mythical thought⟯ 
 According to ⟮c:26;CLS⟯, in ⟮c:27;mythical thought⟯ ⟮c:28;intellectual drive⟯ leads to ⟮c:29;more categorization/discovery⟯, and ⟮c:30;need for causality⟯ makes these '⟮c:31;do something⟯' 
 ===<br>
@@ -2427,10 +2307,8 @@ According to ⟮c:26;CLS⟯, in ⟮c:27;mythical thought⟯ ⟮c:28;intellectual
 
 ### Social-Ecological Models
 
-<br>---<br>
 separate ⟮c:2;things that can affect an individual⟯ into categories. these are not always identical, but may roughly be ⟮c:3;Individual⟯, ⟮c:3;Interpersonal/Relationship⟯, (more frequently left out) ⟮c:4;Organizational⟯, ⟮c:4;Community⟯, ⟮c:5;Society/Policy⟯. 
 ===<br>
-<br>---<br>
 <div class="onion-box">
   <span>⟮c:6;s:all;Societal (Policy) ⟯</span>
   <div class="onion-box">
@@ -2459,7 +2337,6 @@ The ⟮c:5;panopticon⟯ was designed by ⟮c:6;Jeremy Bentham⟯, and used as a
 
 #### community of practice
 
-<br>---<br>
 ⟮c:2;a community of practice⟯ is ⟮c:3;a set of people⟯ who ⟮c:4;come together⟯ via ⟮c:5;mutual engagement⟯ ⟮c:1;in a common endeavor⟯ 
 In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a community of practice⟯ are ⟮c:8;Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
 ===<br>
@@ -2489,7 +2366,6 @@ In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a commun
 
 #### narration
 
-<br>---<br>
 ⟮c:1;Protofeminism⟯ is a term for ⟮c:2;activity or thought⟯ that is ⟮c:3;seen to be similar to feminism⟯, but ⟮c:4;before arrival of the movement itself⟯, i.e. ⟮c:5;before the 20th century⟯, or sometimes ⟮c:5;before the 18th century⟯ 
 ===<br>
 
@@ -2500,17 +2376,14 @@ The ⟮c:8;programming language Ada⟯ is named after ⟮c:9;Ada Lovelace⟯
 ⟮c:1;smoking⟯ by women was ⟮c:2;seen as inappropriate/treated with disdain⟯ up to and including ⟮c:3;the beginning of the 20th century (though I don't want to make a claim if this was always this way or only started with e.g. victorian social mores⟯) 
 ⟮c:4;Torches of Freedom⟯ was a phrase used to ⟮c:5;encourage Women's smoking⟯ by ⟮c:6;connecting it with women's liberation⟯, promoted by both ⟮c:7;cigarette companies⟯ and ⟮c:7;feminist activists⟯ 
 
-<br>---<br>
 ⟮c:1;The Second Sex⟯ is often regarded as ⟮c:2;the starting point/prefiguring⟯ of ⟮c:3;second-wave feminism⟯ 
 From "⟮c:4;The Second Sex⟯" by ⟮c:5;Simone de Beavoir⟯, the famous statement "⟮c:6;One is not born, but rather becomes, a woman⟯" is oftain said to prefigure the ⟮c:7;Sex/Gender distinction⟯ (it's however not a perfect fit). 
 ===<br>
 
-<br>---<br>
 The ⟮c:1;National Organization for Women⟯ ⟮(c:1;NOW⟯) was founded  in ⟮c:2;1966⟯ and led by ⟮c:3;Betty Friedan⟯ 
 The ⟮c:1;Feminine Mystique⟯ is a book by ⟮c:2;Betty Friedan⟯ that is widely credited with ⟮c:3;sparking the beginning of second-wave feminism⟯ in the United States. 
 ===<br>
 
-<br>---<br>
 ⟮c:1;Adrienne Rich⟯ was a influential ⟮c:2;lesbian⟯ ⟮c:2;feminist⟯ who wrote the ⟮c:4;1980⟯ essay "⟮c:3;Compulsory Heterosexuality and Lesbian Existence⟯", whence ⟮c:5;the relevant concept⟯ 
 ===<br>
 
@@ -2518,7 +2391,6 @@ The ⟮c:1;Feminine Mystique⟯ is a book by ⟮c:2;Betty Friedan⟯ that is wid
 
 #### ecofeminism
 
-<br>---<br>
 ⟮c:1;Ecofeminism⟯ is a branch of ⟮c:2;feminism⟯ that sees ⟮c:3;environmentalism⟯ as ⟮c:4;integral to⟯ ⟮c:2;feminism⟯ and the relationship between ⟮c:5;gender⟯ and ⟮c:5;the environment⟯ as somehow foundational. 
 ⟮c:7;Ecofeminism⟯ is most often criticised for ⟮c:6;using essential ideas of sex and gender⟯. 
 ===<br>
@@ -2527,7 +2399,6 @@ The ⟮c:1;Feminine Mystique⟯ is a book by ⟮c:2;Betty Friedan⟯ that is wid
 
 #### double burden/second shoft
 
-<br>---<br>
 ⟮c:1;The workload of people who work to earn money, but also have to spend time and effort on household work⟯ is known as ⟮c:2;The double burden⟯ or ⟮c:3;The second shift⟯ 
 The group most subject to ⟮c:4;the double burden/The second shift⟯ is ⟮c:5;women⟯ 
 ⟮c:6;The campaign for payment for caring work/housework⟯ is ⟮c:7;Wages for housework⟯ 
@@ -2535,7 +2406,6 @@ The group most subject to ⟮c:4;the double burden/The second shift⟯ is ⟮c:5
 
 ### feminism and sexual abuse
 
-<br>---<br>
 Kate Manne defines ⟮c:1;himpathy⟯ as the ⟮(c:2;disproportionate⟯) ⟮c:2;sympathy⟯ ⟮c:3;men⟯, especially ⟮c:4;powerful⟯ ones, often enjoy in cases of ⟮c:5;sexual assault/partner violence/other misogynistic behavior⟯ 
 ===<br>
 
@@ -2543,7 +2413,6 @@ Kate Manne defines ⟮c:1;himpathy⟯ as the ⟮(c:2;disproportionate⟯) ⟮c:2
 
 ### argentinia
 
-<br>---<br>
 The ⟮c:1;Gender Identity Law⟯ (es: ⟮c:1;Ley de identidad de género⟯) (an ⟮c:2;Argentinian:: Location/jurisidiction⟯ law) allows a person ⟮c:3;to change⟯ their registered ⟮c:4;name⟯, ⟮c:4;image⟯, and ⟮c:4;sex specifier⟯ for ⟮c:5;free⟯ without ⟮c:5;a lawyer⟯. Additionally, ⟮c:6;hormone treatment⟯ and ⟮c:6;surgery⟯ do not ⟮c:7;require any kind of diganosis or referall letter⟯ and are made ⟮c:8;free⟯. It was promulgated in ⟮c:9;2012⟯ and is as of 2021 one of ⟮c:10;the most progressive transgender rights laws in existence⟯. 
 ===<br>
 
@@ -2553,7 +2422,6 @@ The ⟮c:1;Gender Identity Law⟯ (es: ⟮c:1;Ley de identidad de género⟯) (a
 
 #### generic masculine
 
-<br>---<br>
 ⟮c:4;Alle Schüler sind angehalten, ihre Hausaufgaben zu machen⟯ is an example of ⟮c:1;Generic masculine⟯ 
 ⟮c:3;the generic masculine⟯ is the use ⟮c:5;of a masculine form⟯ as ⟮c:6;a purportedly gender-neutral form⟯ of a word. 
 There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less likely to see women as part of that term⟯ 
@@ -2575,7 +2443,6 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 <tr><td>⟮c:11;Mitarbeiter/innen⟯</td> <td>⟮c:12;(mit) Schrägstrich⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 ⟮c:13;gender-sternchen⟯ and the ⟮c:13;gender-gap⟯ are mostly read ⟮c:14;with a glottal stop⟯ 
 ===<br>
 
@@ -2583,7 +2450,6 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 
 ### confusion
 
-<br>---<br>
 ⟮c:2;Transgender OCD⟯ consists of obsessive thoughts of the kind ⟮c:1;"What if I'm actually trans?" "What if I'm actually living a lie?"⟯ 
 ===<br>
 
@@ -2591,13 +2457,11 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 
 #### transvestism
 
-<br>---<br>
 ⟮c:1;Transvestism⟯ is an ⟮c:2;older⟯ term (coined in ⟮c:2;the 1910s⟯) today ⟮c:3;more or less synonymous⟯ with ⟮c:4;cross-dressing⟯, although in the past ⟮c:5;it was also used for trans people (mirroring the general confusion about Transness⟯). 
 ===<br>
 
 #### travesti
 
-<br>---<br>
 The term ⟮c:1;travesti⟯ is used in ⟮c:2;Latin American⟯ countries—especially ⟮c:3;South American⟯—to designate people who were ⟮c:4;assigned male at birth⟯, but develop a gender identity according to different expressions of ⟮c:4;femininity⟯, 
 ⟮c:24;Travesti⟯ ⟮c:25;expression of femininity⟯ may be ⟮c:5;limited to cross-dressing⟯, or ⟮c:5;going whole hog with female names, cosmetic practises, hormone replacement therapy etc.⟯ 
 ⟮c:26;Travesti⟯ may ⟮c:6;identify⟯ as ⟮c:7;men or women⟯, more often they ⟮c:6;identify⟯ as ⟮c:7;a third gender⟯ or otherwise ⟮c:8;define their gender identity differently⟯. 
@@ -2612,25 +2476,21 @@ The term ⟮c:1;travesti⟯ is used in ⟮c:2;Latin American⟯ countries—espe
 
 ### internet archive
 
-<br>---<br>
 The ⟮c:1;Internet Archive⟯ is a ⟮c:6;digital::access modality⟯ ⟮c:6;library/archive::what?⟯, which has two main projects, the ⟮c:2;Wayback Machine⟯, which ⟮c:3;archives copies of websites⟯ and thus ⟮c:4;s:3;allows preserving and seeing sites as they appeared at a certain date⟯., and ⟮c:5;a large collection of all types of media.⟯ 
 ===<br>
 
 ### europeana
 
-<br>---<br>
 ⟮c:1;Europeana⟯ is a ⟮c:2;digital::access modality⟯ ⟮c:2;library/archive::what?⟯ by the ⟮c:3;European Union⟯ with a large collection of ⟮c:4;cultural and scientific artefacts⟯, many of them ⟮c:5;free to use.⟯ 
 ===<br>
 
 ### newspapers.com
 
-<br>---<br>
 ⟮c:1;newspapers.com⟯ is an ⟮c:3;onlinel::access modality⟯ ⟮c:3;library/archive⟯ of ⟮c:2; newspapers/newspaper articles⟯ ⟮c:4;from the 1700s to the 2000s(now)::time?⟯ 
 ===<br>
 
 ### maps
 
-<br>---<br>
 The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the world's largest private map collection, dating from the ⟮c:3;1550s⟯ to ⟮c:4;today⟯, of which ⟮c:5;~100k⟯ are available under a ⟮c:6;CC⟯ license on ⟮c:7;their website⟯. 
 ===<br>
 
@@ -2638,19 +2498,16 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### search
 
-<br>---<br>
 ⟮c:1;Semantic Scholar⟯ is a ⟮c:2;search engine⟯ for ⟮c:3;academic publications⟯ that uses ⟮c:4;AI⟯ and which has features such as that it ⟮c:5;auto-embeds abstracts⟯, and not only shows papers that cited the relevant paper, but also ⟮c:6;in which way⟯, and ⟮c:6;the context.⟯ 
 ===<br>
 
 ### modelling
 
-⟮h:all;<img src="share-preview-img.png">⟯<br>---<br>
-⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;((c:6;::co-citation⟯ and ⟮c:6;bibliographic coupling.⟯)) 
+⟮h:all;<img src="share-preview-img.png">⟯⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;((c:6;::co-citation⟯ and ⟮c:6;bibliographic coupling.⟯)) 
 ===<br>
 
 ## inspiration
 
-<br>---<br>
 ⟮c:1;Designspiration⟯ is a pinterest-like website for ⟮c:2;design inspiration⟯. 
 ===<br>
 
@@ -2668,7 +2525,6 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### practices
 
-<br>---<br>
 ⟮c:1;Veganism⟯ is the practice of ⟮c:2;abstaining from the use of animal products⟯, particularly in ⟮c:3;diet⟯ 
 ===<br>
 
@@ -2692,27 +2548,23 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
     </tr>
   </tbody>
 </table>
-<br>---<br>
 government organizations do not necessarily ⟮c:1;always agree⟯ on the ⟮c:2;amounts of nutrients⟯ needed to ⟮c:3;avoid deficiency⟯ or ⟮c:4;maximum amounts⟯ (however, ⟮c:5;the ballpark is often similar⟯ 
 ⟮c:6;RDAs⟯ are set higher than ⟮c:7;EARs⟯ to ⟮c:8;cover people with / situations where people have higher than average needs⟯. 
 ⟮c:9;chromium⟯ is designated an ⟮c:10;essential nutrient⟯ by the ⟮c:11;US⟯ and ⟮c:12;Japan⟯, but not the ⟮c:13;EU⟯ 
 most health authorities recommend ⟮c:14;supplementing⟯ at least ⟮c:15;vitamin b12⟯ in ⟮c:16;vegan diets⟯ 
 ===<br>
 
-<br>---<br>
 Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ===<br>
 
 ### antinutrients
 
-<br>---<br>
 ⟮c:6;Antinutrients⟯ are ⟮c:7;compounds⟯ that ⟮c:8;interfere with the absorption of nutrients⟯. 
 ⟮c:1;Phytate (=phytic acid⟯), which may be found in ⟮c:2;whole grains⟯, ⟮c:2;nuts/seeds⟯, and ⟮c:2;legumes⟯, is an ⟮c:5;antinutrient⟯ which may ⟮c:4;inhibit⟯ ⟮c:3;iron⟯ and ⟮c:3;zinc⟯ ⟮c:4;absorption⟯ (also calcium to a lesser extent), even severely. 
 ===<br>
 
 ### nutrients
 
-<br>---<br>
 A ⟮c:1;nutrient⟯ is a substance that an organism requires ⟮c:2;for good functioning / maintaining life⟯ 
 ⟮c:3;an essential nutrient⟯ is a nutrient that ⟮c:4;cannot be synthesized by the body (=&gt; must be consumed for survival⟯) 
 According to Marion Nestle, the ⟮c:5;list of essential nutrients⟯ is &nbsp;⟮c:6;almost certainly incomplete⟯ 
@@ -2729,7 +2581,6 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
 <tr><td>⟮c:3;A nutrient we require large amounts of⟯</td><td>⟮c:4;a macronutrient⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 ⟮c:6;Macronutrient⟯ is sometimes used in the more ⟮c:5;restricted⟯ sense  ⟮c:7;macronutrient that provides energy⟯ 
 ===<br>
 
@@ -2840,13 +2691,11 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
 
 ##### food energy
 
-<br>---<br>
 ⟮c:4;Food energy⟯ is ⟮c:5;energy⟯ derived from ⟮c:6;food⟯ 
 ⟮c:7;Food energy⟯ is generally measured in ⟮c:8;kilocalories⟯ 
 the ⟮c:9;calorie⟯, in its proper definition, is ⟮c:10;the amount of energy⟯&nbsp; ⟮c:11;needed to raise the temperature of one gram of water by one Kelvin / deg C⟯ 
 ===<br>
 
-<br>---<br>
 Foods by food energy per mass:
 1. ⟮c:1;fats⟯ 
 2. ⟮c:2;alcohol(ethanol⟯) 
@@ -2855,21 +2704,18 @@ Foods by food energy per mass:
 {{c1::calorie}} is also sometimes called {{c2::small calorie}}, {{c3::gram calorie}}
 {{c4::kilocalorie}} is also sometimes called {{c5::calorie (confusingly, and mainly in casual conversation)}} {{c6::large calorie}}, {{c7::food calorie}}
 
-<br>---<br>
 ⟮c:12;calorie⟯ is also sometimes nonstandardly called ⟮c:13;small calorie⟯, ⟮c:14;gram calorie⟯ 
 ⟮c:15;kilocalorie⟯ is also sometimes nonstandardly called ⟮c:16;calorie (confusingly, and mainly in casual conversation⟯) ⟮c:17;large calorie⟯, ⟮c:18;food calorie⟯ 
 ===<br>
 
 ###### carbs
 
-<br>---<br>
 ⟮c:4;Saccharide⟯ is as far as I know a synonym for ⟮c:5;Carbohydrate⟯ 
 Carbohydrates may be classified as ⟮c:1;monosaccharides⟯, ⟮c:2;disaccharides⟯ or ⟮c:3;polysaccharides⟯ 
 ===<br>
 
 ###### protein
 
-<br>---<br>
 ⟮c:20;Proteins⟯ are made up of ⟮c:21;amino acids⟯ 
 ⟮c:1;Amino acids⟯ are ⟮c:2;organic⟯ compounds that contain ⟮c:3;amino⟯ (–NH2) and ⟮c:4;carboxyl⟯ (–COOH) ⟮c:5;functional⟯ groups, along with a ⟮c:6;side chain⟯ ⟮(c:6;R⟯ group) ⟮c:7;specific to⟯ each ⟮c:1;amino acid⟯
 The key elements of an ⟮c:8;amino acid⟯ are ⟮c:9;carbon⟯, ⟮c:10;hydrogen⟯, ⟮c:11;oxygen⟯, and ⟮c:12;nitrogen⟯, although the ⟮c:13;side chains⟯ sometimes ⟮c:14;include others⟯
@@ -2878,7 +2724,6 @@ of the ⟮c:15;21⟯ ⟮c:17;amino acids⟯ common to all life forms, for humans
 
 ###### fats
 
-<br>---<br>
 ⟮c:1;Fat⟯ consists of (is an ester of, whatever that means) ⟮c:2;fatty acids⟯ 
 ⟮c:3;Fatty acids⟯ may either be ⟮c:4;saturated⟯ or ⟮c:5;unsaturated⟯. 
 ⟮c:6;Unsaturated⟯ ⟮c:7;fatty acids⟯ ones have ⟮c:8;one or more⟯ ⟮c:9;C=C double bonds⟯.⟮c:10;saturated⟯ factty acids have ⟮c:11;no⟯ ⟮c:12;C=C double bonds⟯. 
@@ -2911,12 +2756,10 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 
 ######### omega-3
 
-<br>---<br>
 There are three types of {{c17::omega-3}} fatty acids, {{c14::ALA}}, {{c15::EPA}}, and {{c16::DHA}}.
 of the {{c11::three}} types of {{c7::omega-3}} fatty acids relevant to human nutrition, only {{c18::ALA}} is {{c9::essential}}.
 ===<br>
 
-<br>---<br>
 Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be {{c8::synthesized from the former}}.
 {{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.
 ===<br>
@@ -2934,13 +2777,11 @@ Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} an
 </table>
 
 
-<br>---<br>
 Major {{c22::vegan}} sources of {{c23::ALA}}: are various form of {{c24::seeds}} and {{c24::nuts}}
 Major non-vegan sources of {{c25::ALA}}: {{c26::fish}} and {{c26::meat/eggs}} to some extent
 ===<br>
 
 
-<br>---<br>
 there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid}} is considered {{c29::essential}}
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span><br><div class="sub">
@@ -2951,7 +2792,6 @@ there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid
 
 ##### genesis
 
-<br>---<br>
 ⟮c:1;Minerals⟯ ⟮c:3;end up in food⟯ via ⟮c:2;rock, soil, and water,⟯ which are ⟮c:4;absorbed by plants as they grow (or e.g. by animals licking rocks⟯), and then ⟮c:5;passed further up the food chain⟯. 
 ⟮c:6;What minerals we get⟯ from plants/animals depends on ⟮c:7;which they can store⟯, but also ⟮c:8;what the soil/animals further down the food chain had in them⟯. 
 ⟮c:9;Vitamins⟯ are ⟮c:10;biosynthesized⟯ by ⟮c:11;plants/animals⟯ and then ⟮c:12;absorbed by us⟯. 
@@ -2960,13 +2800,11 @@ there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid
 
 ##### vitamins
 
-<br>---<br>
 Theoretically, all ⟮c:1;vitamins⟯ are defined to be ⟮c:2;essential nutrients⟯, however ⟮c:3;Vitamin D⟯ can be synthesized if ⟮c:4;exposed to sunlight (specifically UVB rays⟯), and is thus ⟮c:5;an exception⟯ 
 Most ⟮c:6;vitamins⟯ are not ⟮c:7;single molecules⟯, but ⟮c:8;groups of related molecules⟯ which are each called ⟮c:9;vitamers⟯ 
 Each ⟮c:10;vitamin⟯ is typically used in ⟮c:11;multiple reactions⟯, and therefore ⟮c:12;most have multiple functions⟯. 
 ⟮c:13;Vitamin B12⟯ is ⟮c:14;the only⟯ vitamin or nutrient ⟮c:15;not available from plant sources.⟯ 
 ===<br>
-<br>---<br>
 ⟮c:16;Vitamins⟯ are generally categorized as either ⟮c:17;water⟯- or ⟮c:18;fat⟯ soluble 
 The ⟮c:19;water-soluble vitamins (the 8 B vitamins and vitamin C⟯) are ⟮c:20;easily excreted from the body⟯, thus generally ⟮c:21;hypervitaminosis (if referring to high storage levels⟯) is not an issue, therefore, however, ⟮c:22;consistent consumption is required⟯. 
 Of the ⟮c:23;fat-soluble⟯ vitamins, ⟮c:24;A⟯ and ⟮c:25;D⟯ can ⟮c:26;accumulate in the body to a dangerous level⟯, resulting in ⟮c:27;hypervitaminosis⟯ 
@@ -2988,14 +2826,12 @@ In general, ⟮c:31;excess intake⟯ of vitamins is ⟮c:32;unlikely⟯ from ⟮
 
 ###### vitamin D
 
-<br>---<br>
 ⟮c:1;Vitamin D⟯ deficiency is common worldwide, occurring in about a ⟮c:2;1 billion⟯ people, and is surprisingly common in ⟮c:3;europe⟯. 
 ⟮c:4;Vitamin D⟯ has many function, amongst the most important being ⟮c:5;increasing the absorption⟯ of ⟮c:6;minerals⟯ such as ⟮c:7;calcium, magnesium, and phosphate⟯ 
 ⟮c:8;Vitamin D⟯ ⟮c:9;deficiency⟯ can cause or excarbate a wide variety of conditions, many featuring ⟮c:10;bone⟯ or ⟮c:11;muscle⟯ ⟮c:12;weakness⟯, and some ⟮c:13;respiratiory infections⟯ as well as ⟮c:14;mental illnesses⟯ 
 ⟮c:15;Rickets⟯ is a condition that results in ⟮c:16;weak⟯ and ⟮c:17;soft⟯ ⟮c:18;bones⟯ in ⟮c:19;children⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:20;Vitamin D⟯ occurs only ⟮c:21;rarely⟯ in food, specifically in ⟮c:22;oily fish⟯ such as ⟮c:23;salmon/herring/mackerel⟯ as well as ⟮c:24;mushrooms⟯ (if these have been ⟮c:25;exposed to UVB ligh ≈ been in the sun⟯) 
 While ⟮c:26;Vitamin D⟯ can be synthesized by contact with ⟮c:27;UVB⟯ rays from ⟮c:28;sunlight⟯, many people ⟮c:29;do not do this enough⟯, it is not necessarily possible in ⟮c:30;winter⟯, and may not be ⟮c:31;advisable⟯ due to ⟮c:32;skin cancer risk⟯ 
 In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk substitutes⟯ as well as ⟮c:36;breakfast cereals⟯ are fortified with ⟮c:37;Vitamin D⟯. 
@@ -3027,7 +2863,6 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 
 ##### minerals
 
-<br>---<br>
 ⟮c:36;Minerals⟯ are ⟮c:37;micronutrients⟯ that ⟮c:30;are inorganic chemical elements⟯ 
 ⟮c:34;Minerals⟯ as micronutrients are subcategorized (by ⟮c:35;amount necessary⟯) into ⟮c:31;macrominerals⟯, ⟮c:32;trace minerals⟯, and ⟮c:33;ultratrace minerals⟯. 
 There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested as essential⟯, such claims are ⟮c:29;difficult to reproduce⟯. 
@@ -3057,13 +2892,11 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:39;Calcium⟯ most famously exists in ⟮c:38;dairy⟯, but ⟮c:40;also in other things.⟯ 
 ===<br>
 
 ###### iron
 
-<br>---<br>
 ⟮c:1;Iron⟯ ⟮c:3;from food⟯ comes in two forms, ⟮c:2;heme⟯ ⟮c:1;iron⟯ which can only be gotten from ⟮c:4;animal flesh⟯, and ⟮c:2;non-heme⟯ ⟮c:1;iron⟯ which can also be gotten from ⟮c:5;other sources⟯ 
 ⟮c:6;Heme⟯ iron is ⟮c:7;better absorbed⟯ by the body than ⟮c:8;non-heme⟯ iron. 
 Iron from ⟮c:9;non-heme⟯ sources is ⟮c:10;more readily absorbed⟯ if ⟮c:11;consumed with foods⟯ that contain either ⟮c:12;heme-bound iron⟯ or ⟮c:13;vitamin C⟯. 
@@ -3071,7 +2904,6 @@ Iron from ⟮c:9;non-heme⟯ sources is ⟮c:10;more readily absorbed⟯ if ⟮c
 
 ###### iodine
 
-<br>---<br>
 ⟮c:1;Iodine⟯ ⟮c:2;deficiency⟯ leads to many bad outcomes, many due to the fact that ⟮c:3;iodine⟯ is necessary to ⟮c:4;make one of the thyroid hormones (thyroxine⟯), lack of which leads to ⟮c:5;high levels of thyroid stimulating hormone (TSH⟯), causing ⟮c:6;the thyroid to swell⟯ 
 in many countries, ⟮c:7;table salt⟯ is fortified with ⟮c:8;iodine⟯ in the form of ⟮c:9;iodine⟯ ⟮c:10;salts⟯, which has proved effective at preventing ⟮c:11;iodine⟯ ⟮c:12;deficiency⟯ 
 In Deutschland kommen Iodverbindungen ⟮c:13;in den Böden⟯ unverändert ⟮c:14;in zu geringen Mengen vor⟯. Durch ⟮c:15;die Iodierung von Speisesalz⟯ ist ⟮c:16;der Iodmangel in Deutschland verringert worden⟯, dennoch besteht in Deutschland bei ⟮c:17;36⟯ % der Bevölkerung ein ⟮c:18;milder⟯ und bei ⟮c:19;21⟯ % ein ⟮c:20;moderater bis schwerer⟯ ⟮c:21;Iodmangel⟯. 
@@ -3080,7 +2912,6 @@ In Deutschland kommen Iodverbindungen ⟮c:13;in den Böden⟯ unverändert ⟮c
 ##### choline
 
 Choline is a micronutrient that is neither a mineral nor a vitamin.
-<br>---<br>
 ⟮c:1;Choline⟯ is available in what feels like ⟮c:2;just about any food⟯, but is genrally highest in ⟮c:3;animal products (meat/fish/dairy/eggs⟯), which is why it is sometimes said ⟮c:4;vegans should pay some attention to it⟯ (prob not necessary tho). 
 ===<br>
 
@@ -3101,7 +2932,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 #### seeds
 
-<br>---<br>
 ⟮c:1;Flax⟯ (De: ⟮c:1;Flachs⟯) and ⟮c:2;Linseed⟯ (De: ⟮c:2;Lein⟯ (z.B. ⟮c:2;leinsamen⟯)) are ⟮c:3;the same thing⟯ 
 ===<br>
 
@@ -3109,7 +2939,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 ##### leafy greens
 
-<br>---<br>
 ⟮c:1;Leaf⟯⟮(c:1;y⟯) ⟮c:2;vegetables⟯/⟮c:2;greens⟯ are ⟮c:3;plant leaves⟯ eaten as ⟮c:6;a vegetable⟯, which are usually ⟮c:4;green⟯-colored and share ⟮c:5;many nutritional similarities⟯. 
 ===<br>
 
@@ -3128,7 +2957,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 <tr><td>⟮c:10;millet⟯</td> <td>⟮c:3;hirse⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯. 
 ===<br>
 <br><div class="sub">
@@ -3155,8 +2983,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 ##### porridge
 
-<img class="all-b c4-f" src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img class="all-b c4-f" src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/><br>---<br>
-You make ⟮c:3;porridge⟯ by ⟮c:1;cooking⟯ ⟮c:2;oats⟯, ⟮c:2;milk⟯ and ⟮c:2;water⟯ together. 
+<img class="all-b c4-f" src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img class="all-b c4-f" src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c:3;porridge⟯ by ⟮c:1;cooking⟯ ⟮c:2;oats⟯, ⟮c:2;milk⟯ and ⟮c:2;water⟯ together. 
 ⟮c:4;Porridge⟯ looks like ⟮c:5;&lt;image&gt;⟯ 
 ⟮c:7;Gruel⟯ is ⟮c:6;a thinner version⟯ of ⟮c:8;porridge⟯. 
 ===<br>
@@ -3310,13 +3137,11 @@ You make ⟮c:3;porridge⟯ by ⟮c:1;cooking⟯ ⟮c:2;oats⟯, ⟮c:2;milk⟯ 
 
 <div class="flex-container">⟮h:all;<img src="sm_194px-Epididymis-KDS.jpg">⟯</div>
 
-<br>---<br>
 The ⟮c:1;Epididymis⟯ are the ⟮c:2;highly coiled⟯ ⟮c:6;bumpy⟯-feeling ⟮c:3;tubes⟯ connecting ⟮c:4;the testes⟯ to ⟮c:5;the rest of the male reproductive system⟯. 
 ===<br>
 
 ###### testicular self-examination
 
-<br>---<br>
 General medical advice is to self-examine ⟮c:1;one's testicles⟯ ⟮c:2;once a month⟯ to check for ⟮c:3;testicular cancer.⟯ 
 When ⟮c:4;self-examining ones testicles,⟯ the two parts are to ⟮c:5;feel them once-over⟯ and to ⟮c:6;measure them⟯. 
 When measuring your testicles, having ⟮c:7;one testicle be larger than the other⟯ is ⟮c:8;normal⟯, what you want to look out for is ⟮c:9;size changes diachronically⟯. 
@@ -3386,7 +3211,6 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 
 ###### g-spot 
 
-<br>---<br>
 The ⟮c:1;g-spot⟯ is a ⟮c:2;hypothesized⟯ but ⟮c:2;probably nonexistant/socially constructed⟯ area ⟮c:3;within the vagina⟯ on the ⟮c:4;belly-wards⟯ side supposedly responsible for ⟮c:5;strong orgasms.⟯ 
 ===<br>
 
@@ -3394,7 +3218,6 @@ The ⟮c:1;g-spot⟯ is a ⟮c:2;hypothesized⟯ but ⟮c:2;probably nonexistant
 
 ####### pearl index
 
-<br>---<br>
 ⟮c:1;The pearl index⟯ is a method for reporting ⟮c:2;the effectiveness of a birth control method.⟯ 
 The pearl index is ⟮c:3;the number of pregnancies⟯ per ⟮c:4;100⟯ that ⟮c:5;the women participating in the trial⟯ experienced in ⟮c:6;a year⟯. 
 Specifically, the ⟮c:7;pearl index⟯ is calculated via ⟮c:10;(⟯⟮c:8;n_pregnancies⟯ ⟮c:9;* 12 * 100⟯⟮c:10;) / (⟯⟮c:11;n_women⟯ ⟮c:10;*⟯ ⟮c:11;n_months⟯⟮c:10;⟯) 
@@ -3473,8 +3296,7 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 
 ###### constituent parts
 
-<img src="Schematic_diagram_of_the_human_eye.svg"><br/><br>---<br>
-The ⟮c:1;cornea⟯ is ⟮c:2;the transparent front part of the eye⟯ that ⟮c:3;covers⟯ the ⟮c:4;iris⟯, ⟮c:5;pupil⟯, and ⟮c:6;anterior chamber⟯. 
+<img src="Schematic_diagram_of_the_human_eye.svg"><br/>The ⟮c:1;cornea⟯ is ⟮c:2;the transparent front part of the eye⟯ that ⟮c:3;covers⟯ the ⟮c:4;iris⟯, ⟮c:5;pupil⟯, and ⟮c:6;anterior chamber⟯. 
 The ⟮c:7;anterior chamber⟯ is the part of the eye ⟮c:8;between⟯ ⟮c:9;the iris⟯ and ⟮c:10;the cornea⟯ filled with ⟮c:11;aqueous humour⟯. 
 The ⟮c:12;iris⟯ controls the eyes ⟮c:13;aperture⟯ = ⟮c:14;the size of the pupil⟯. 
 The ⟮c:15;iris⟯ is the thing that determines ⟮c:16;eye color⟯. 
@@ -3491,7 +3313,6 @@ The ⟮c:33;retina⟯ is the  tissue ⟮c:34;covering⟯ much of ⟮c:35;the inn
 
 ⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
-<br>---<br>
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
 The ⟮c:5;posterior chamber of the eyeball⟯ is ⟮c:6;the narrow space between⟯ ⟮c:7;the iris⟯ and ⟮c:8;the suspensory ligament of the lens⟯ 
 the ⟮c:9;aqueous humor⟯ and the ⟮c:10;vitreous humor⟯ are ⟮c:11;not the same thing⟯ 
@@ -3500,13 +3321,11 @@ The ⟮c:15;space that fills most of they eye behind the lens⟯ is ⟮c:16;fill
 the ⟮c:18;aqueous humour⟯ is ⟮c:19;more fluid⟯ than the ⟮c:18;vitreous humor⟯ 
 ===<br>
 
-<br>---<br>
 The ⟮c:20;white of the eye⟯ is more properly called the ⟮c:21;sclera⟯. 
 ± This term 'sclera ±<br>
 The ⟮c:22;sclera⟯ ⟮c:23;protecc⟯ your eye 
 ===<br>
 
-<br>---<br>
 The ⟮c:24;optic disc⟯ is the area where t⟮c:25;he optic nerve 'enters'/connects with the eye⟯ 
 The ⟮c:26;choroid⟯ is ⟮c:27;the layer providing nourishment⟯ to the eye 
 ± In the middle between retina and sclera, there is a choir on steroids ±<br>
@@ -3573,7 +3392,6 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
   </tbody>
 </table>
 
-<br>---<br>
 My eyes are somewhat {{c13::hooded}}. 
 Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid space}} 
 ===<br>
@@ -3581,8 +3399,7 @@ Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid spac
 ###### deep-set/protruding
 
 ⟮h:all;<img src="sm_IMG_20200727_135717135.jpg">⟯
-<br><br>---<br>
-Viewed from ⟮c:5;the side⟯, eyes exist on a spectrum from ⟮c:6;deep-set⟯ to ⟮c:6;protruding⟯ 
+<br>Viewed from ⟮c:5;the side⟯, eyes exist on a spectrum from ⟮c:6;deep-set⟯ to ⟮c:6;protruding⟯ 
 The ⟮c:7;deep-set ... protruding⟯ eyes continuum refers to how ⟮c:8;far back or front⟯ your eye is in relation to ⟮c:9;your cheek bones and browbones⟯. 
 To test for ⟮c:10;deep-set eyes⟯ l⟮c:11;ay your fingers⟯ ⟮c:12;rigidly⟯ on the eye from ⟮c:13;brow⟯ to ⟮c:13;cheekbone⟯, if ⟮c:14;your hand touches your lid⟯, ⟮c:15;they are not deep-set⟯ 
 I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes 
@@ -3600,7 +3417,6 @@ I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes
 
 ###### retina
 
-<br>---<br>
 ⟮c:1;The macula⟯ is an are of ⟮c:2;the retina⟯. 
 ⟮c:3;The macula⟯ is the area of the eye/retina that is responsible for ⟮c:4;generally/kinda sharp central vision⟯. 
 ⟮c:5;Within⟯ ⟮c:6;the macula⟯ lies ⟮c:7;the fovea⟯, which is the area that is responsible for ⟮c:8;the most sharp central vision.⟯ 
@@ -3609,7 +3425,6 @@ The ⟮c:9;larger⟯ area ⟮c:10;around the fovea⟯ is ⟮c:11;the macula⟯
 
 ###### photoreceptor cells
 
-<br>---<br>
 Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮c:9;cones⟯. 
 ⟮c:30; All photoreceptor cells, i.e. cones and rods,⟯ lie in ⟮c:31;the retina⟯. 
 ===<br>
@@ -3626,7 +3441,6 @@ Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮
   </tbody>
 </table>
 ⟮h:all;<div class="flex-container"><img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp"></div>⟯
-<br>---<br>
 We distinguish ⟮c:10;3 types⟯ of ⟮c:11;cones⟯, based on ⟮c:12;what wavelength light they respond to⟯ 
 we normally say  we have ⟮c:13;cones⟯ for ⟮c:14;each of the R, G, B colors⟯, but in fact, we have ⟮c:15;one for blue⟯ and ⟮c:16;two which are very similar, both detecting green/yellow/red,⟯ only with ⟮c:17;one shifted slightly⟯. 
 Since ⟮c:18;cone sensitivity⟯ is ⟮c:19;a curve⟯, ⟮c:20;cones for a given color/wavelength⟯ also ⟮c:21;percieve other colors/wavelengths⟯&nbsp; Due to ⟮c:22;the two cones that both have peaks close to it⟯, we are very good at percieving ⟮c:23;shades of green⟯. 
@@ -3636,7 +3450,6 @@ We can see something like ⟮c:24;1-10 million⟯ ⟮c:25;different colors⟯, t
 
 ###### movement
 
-<br>---<br>
 humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ to ⟮c:10;build up an image⟯ 
 ===<br>
 <table class="cloze-group hide-if-inactive">
@@ -3651,7 +3464,6 @@ humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ t
   </tbody>
 </table>
 
-<br>---<br>
 When ⟮c:11;the human eye⟯ ⟮c:12;moves⟯, it either ⟮c:12;moves⟯ in ⟮c:13;saccades⟯ or ⟮c:14;smooth pursuit movement⟯. 
 If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to do ⟮c:16;catch-up saccades⟯ 
 ===<br>
@@ -3712,8 +3524,7 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 
 ##### pressure
 
-<span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br><br>---<br>
-⟮c:14;blood pressure⟯ is measured in ⟮c:15;mm Hg⟯ 
+<span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br>⟮c:14;blood pressure⟯ is measured in ⟮c:15;mm Hg⟯ 
 ===<br>
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -3741,7 +3552,6 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:1;Hypotension⟯ ⟮c:2;may be⟯ ⟮c:3;without symptoms⟯ 
 Common symptoms of ⟮c:4;hypotension⟯ are ⟮c:5;dizziness/lightheadedness⟯. 
 ⟮c:6;Hypotension⟯ may be caused by ⟮c:7;lack of nutrients (esp. anemia),⟯ ⟮c:8;dehydration (either via lack of water or lack of electrolytes⟯)⟮c:9;, certain medication⟯ or ⟮c:10;(if severe) an acute contion (esp. internal organ problems⟯) 
@@ -3756,7 +3566,6 @@ https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pres
 
 ##### thrombi
 
-<br>---<br>
 What we call ⟮c:3;a blood clot⟯ is more properly called ⟮c:4;thrombus⟯. 
 ⟮c:2;Thrombosis⟯ is the formation of ⟮c:12;a thrombus⟯ ⟮c:1;inside a blood vessel⟯ that ⟮c:5;obstructs the flow of blood⟯. 
 If ⟮c:7;the thrombus then breaks free⟯, it becomes an ⟮c:8;embolus⟯. 
@@ -3766,7 +3575,6 @@ Based on where they occur, ⟮c:15;thromboses⟯ are classified into ⟮c:6;veno
 
 ###### thromboses
 
-<br>---<br>
 ⟮c:3;Thromboses⟯ most often occur in ⟮c:2;the veins⟯ of ⟮c:1;the legs⟯, other bodyparts are ⟮c:4;affected far more rarely⟯. 
 If you have a ⟮c:5;thrombosis⟯, your limb, esp. your leg, will often become some of the following:&nbsp; ⟮c:7;swollen::size⟯, ⟮c:8;turn red or blue::color⟯, ⟮c:9;have more visible veins::appearance of thing⟯, ⟮c:10;be shiny due to taut::surface appearance⟯, ⟮c:11;may feel more heavy::feeling⟯, ⟮c:12;be warmer::feeling⟯, and ⟮c:13;hurt quite severely, especially while stepping::pain⟯. 
 ⟮c:6;Thromboses⟯ are often caused by ⟮c:14;not moving that bodypart for a while⟯, e.g. ⟮c:15;because of an illness that prevents it⟯ 
@@ -3780,7 +3588,6 @@ If an ⟮c:11;embolus⟯ ⟮c:6;gets lodged⟯ and thus ⟮s:6;((c:7;::blocks a 
 
 ###### pulmonary embolism
 
-<br>---<br>
 The ⟮c:1;severity of the effects⟯ of ⟮c:2;an embolism⟯ vary based on ⟮c:3;location (in the body⟯). 
 One of ⟮c:4;the most severe types⟯ of embolism is ⟮c:5;pulmonary embolism⟯, i.e. ⟮c:6;embolism in the lungs⟯. 
 If ⟮c:7;a pulmonary embolism⟯ ⟮c:8;is caused by thrombosis⟯ (as is ⟮c:9;common⟯), it is known as ⟮c:10;a pulmonary thromboembolism⟯. 
@@ -3867,7 +3674,6 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 #### reciprocal inhibition
 
-<br>---<br>
 ⟮c:1;Reciprocal inhibition⟯ describes the process of ⟮c:2;muscles⟯ on ⟮c:3;one side of a joint⟯ ⟮c:2;relaxing⟯ to ⟮c:4;accommodate contraction⟯ on ⟮c:3;the other side of that joint⟯. 
 ===<br>
 
@@ -3886,8 +3692,7 @@ The ⟮c:13;opposite of⟯ ⟮c:14;flexion⟯ is ⟮c:15;extension⟯.
 
 #### dermatomes
 
-<img class="all-b c1-f" src="sm_554px-Grant_1962_663.jpg"><br><br>---<br>
-⟮c:1;Dermatomes⟯ schematically might look like ⟮c:2;&lt;image&gt;⟯ 
+<img class="all-b c1-f" src="sm_554px-Grant_1962_663.jpg"><br>⟮c:1;Dermatomes⟯ schematically might look like ⟮c:2;&lt;image&gt;⟯ 
 Each ⟮c:3;dermatome⟯ is 'served' by ⟮c:4;a single spinal nerve⟯. 
 Your body has ⟮c:5;30⟯ ⟮c:6;dermatomes⟯. 
 In your ⟮c:7;limbs⟯, ⟮c:8;dermatomes⟯ run ⟮c:9;vertically⟯. 
@@ -3921,7 +3726,6 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
   
 </table>
 
-<br>---<br>
 An ⟮c:19;'ideal' pelvic tilt⟯ is ⟮c:20;very slightly anterior (5° or so⟯) 
 When ⟮c:21;sitting⟯ or ⟮c:21;standing⟯ with ⟮c:22;APT⟯, ⟮c:23;engage⟯ the ⟮c:24;glutes⟯ and the ⟮c:24;core⟯. You can test this by ⟮c:25;poking yourself with a finger.⟯ 
 When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying to ⟮c:27;distribute some of the laod to your abs and glutes.⟯ 
@@ -3948,7 +3752,6 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 
 ##### intersex
 
-<br>---<br>
 ⟮c:9;Intersex⟯ people are have ⟮c:10;a range of different variations⟯ that "⟮c:11;do not fit the typical definitions for male or female bodies⟯" 
 ⟮c:5;Depending on how you count⟯, ⟮c:6;0.02⟯% - ⟮c:7;2⟯% of people are ⟮c:8;intersex⟯ 
 ===<br>
@@ -4012,8 +3815,7 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
 
 ### signs and symptoms
 
-⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯<br>---<br>
-The difference between {{c6::signs}} and {{c6::symptoms}} is  {{c5::how they are perceptible}} 
+⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between {{c6::signs}} and {{c6::symptoms}} is  {{c5::how they are perceptible}} 
 ===<br>
 
 <table class="cloze-group hide-if-inactive">
@@ -4078,7 +3880,6 @@ A disorder might indicate that a specific disease is possible but there is not e
 
 #### CRSD
 
-<br>---<br>
 ⟮c:1;circadian rhythm sleep disorders⟯ ⟮(c:2;s:1;CRSD⟯) are a family of ⟮c:3;sleep disorders⟯ related to ⟮c:4;timing of sleep⟯. 
 ⟮c:5;Non-24-hour sleep–wake disorder⟯ ( ⟮c:6;s:5;non-24⟯ ) is a form of ⟮c:7;CRSD⟯. 
 ⟮c:8;Non-24-hour sleep–wake disorde⟯r involves having ⟮c:9;a circadian rythym⟯ that is ⟮c:10;longer or shorter than the typical 24 hours⟯. 
@@ -4089,7 +3890,6 @@ Medication for ⟮c:19;non-24⟯ generally is ⟮c:20;melatonin / melatonin-rece
 
 ### syndrome
 
-<br>---<br>
 A syndrome is some sort of disruption of regular functions with recgonizable signs and symptoms that are ⟮c:6;correlated with each other = that co-occur⟯, but ⟮c:9;for which we don't have a known cause.⟯
 A ⟮c:7;syndrome⟯ is ⟮c:8;a set of signs and symptoms⟯ 
 A ⟮c:4;syndrome⟯ with ⟮c:5;a cause⟯ is (properly) ⟮c:3;a disease⟯ 
@@ -4098,14 +3898,12 @@ Sudden infant death ⟮c:2;syndrome⟯ is a ⟮c:2;syndrome⟯ ⟮c:1;because we
 
 #### SIDS
 
-<br>---<br>
 ⟮c:2;Sudden infant death syndrome⟯ is the ⟮c:3;sudden unexplained death⟯ of ⟮c:1;a child less than one year old⟯. 
 ⟮c:4;Sudden infant death syndrome⟯ most often occurs ⟮c:5;when the infant is asleep⟯ 
 ===<br>
 
 #### CFS/ME
 
-<br>---<br>
 ⟮c:1;Chronic fatigue syndrome⟯ is also called ⟮c:2;myalgic encephalomyelitis⟯. 
 ⟮c:3;CFS⟯ is a syndrome with the main symptom of ⟮c:4;strong exaustion⟯ that ⟮c:5;becomes worse after any kind of physical or mental activity⟯. 
 ⟮c:6;CFS⟯ is ⟮c:7;severe⟯, with ⟮c:8;75%⟯ of people ⟮c:9;being unable to work⟯ after onset. 
@@ -4122,15 +3920,13 @@ Roughly ⟮c:10;1⟯% of the population have ⟮c:11;CFS⟯, with it occuring so
 
 #### misleading
 
-<br>---<br>
 ⟮c:1;Dissimulation⟯ is a word meaning  ⟮c:2;concealment of one's thoughts, feelings, or character; pretence⟯, but may more specifically mean ⟮c:3;hiding an illness to appear healthy (e.g. to be allowed to go on a class trip⟯) 
 ⟮c:4;Malinger⟯ is ⟮c:5;feigning illness⟯ to ⟮c:6;achieve a desired outcome⟯ 
 ===<br>
 
 ### first aid
 
-⟮h:all;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯<br>---<br>
-Beim Prüfen des Bewusstseins zuerst ⟮c:1;deutlich⟯ ⟮c:2;Ansprechen⟯, dann ⟮c:1;vorsichtig⟯ ⟮c:3;an den Schultern rütteln⟯. 
+⟮h:all;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯Beim Prüfen des Bewusstseins zuerst ⟮c:1;deutlich⟯ ⟮c:2;Ansprechen⟯, dann ⟮c:1;vorsichtig⟯ ⟮c:3;an den Schultern rütteln⟯. 
 ===<br>
 
 # cleaning
@@ -4178,7 +3974,6 @@ What you do during ⟮c:9;tapotement⟯ depends on ⟮c:12;what variety you are 
       <th>the hand is...</th>
       <th>the wrist is⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
-<br>---<br>
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
 The ⟮c:5;posterior chamber of the eyeball⟯ is ⟮c:6;the narrow space between⟯ ⟮c:7;the iris⟯ and ⟮c:8;the suspensory ligament of the lens⟯ 
 the ⟮c:9;aqueous humor⟯ and the ⟮c:10;vitreous humor⟯ are ⟮c:11;not the same thing⟯ 
@@ -4187,13 +3982,11 @@ The ⟮c:15;space that fills most of they eye behind the lens⟯ is ⟮c:16;fill
 the ⟮c:18;aqueous humour⟯ is ⟮c:19;more fluid⟯ than the ⟮c:18;vitreous humor⟯ 
 ===<br>
 
-<br>---<br>
 The ⟮c:20;white of the eye⟯ is more properly called the ⟮c:21;sclera⟯. 
 ± This term 'sclera ±<br>
 The ⟮c:22;sclera⟯ ⟮c:23;protecc⟯ your eye 
 ===<br>
 
-<br>---<br>
 The ⟮c:24;optic disc⟯ is the area where t⟮c:25;he optic nerve 'enters'/connects with the eye⟯ 
 The ⟮c:26;choroid⟯ is ⟮c:27;the layer providing nourishment⟯ to the eye 
 ± In the middle between retina and sclera, there is a choir on steroids ±<br>
@@ -4314,7 +4107,6 @@ the alternative to ⟮c:8;SSC⟯ is ⟮c:9;RACK (risk-aware consensual kink⟯)
 </table>
 
 
-<br>---<br>
 § Henceforth, I will abbreviate top/bottom, dom/sub, sadist/masochist, fem(me)/masc as TBDSSMFM. § <br>
 Generally, a ⟮c:36;person who will adopt either of the relevant binary roles of TBDSSMFM⟯ is known as ⟮c:27;a switch⟯, except for ⟮c:28;penentration⟯, where they are generally known ⟮c:29;as versatile⟯.
 ⟮c:30;TBDSSMFM⟯ may be used as ⟮c:31;any of the 'big' word types (lexical categories), i.e. noun, verb, adjective, adverb, etc.⟯
@@ -4322,7 +4114,6 @@ For ⟮c:32;any of TBDSSMFM⟯, different people may see these as having ⟮c:33
 For ⟮c:37;any of TBDSSMFM⟯, different people may see these as having ⟮c:38;a <b>duration</b>⟯ of ⟮c:39;a short while⟯ to ⟮c:40;ones whole life⟯.
 For ⟮c:41;any of TBDSSMFM⟯, some people may see it as an ( ⟮c:42;chosen⟯ or ⟮c:42;inborn = 'essentialized'⟯ ) ⟮c:43;identity⟯, ⟮c:44;a preference⟯, ⟮c:45;a role in the relationship⟯ or ⟮c:46;in a specific encounter/scene⟯ (or any combination).
 ===<br>
-<br>---<br>
 The ⟮c:47;distinction between the different parts of TBDSSMFM⟯ is ⟮c:48;most clear in the BDSM community⟯
 the distinction between parts of TBDSSMFM ⟮c:49;may be more vague⟯ ⟮c:50;in other communities⟯, especially in ⟮c:51;queer and fandom communities⟯.
 As of 2021, ⟮c:52;all the TBDSSMFM identities⟯ are often ⟮c:53;conflated into a giant superidentity⟯, most often ⟮c:54;just called top/bottom⟯ or ⟮c:54;masc(or butch)/femme⟯.
@@ -4330,7 +4121,6 @@ This ⟮c:55;top/bottom superidentity⟯ is then most often also seen as having 
 This is also supported by the fact that ⟮c:61;people⟯ (or ⟮c:61;fictional characters⟯) who ⟮c:62;subscribe to the top/bottom superidentity⟯ also ⟮c:63;then engage in misogynist/sexist practices/beliefs/etc.⟯
 ===<br>
 
-<br>---<br>
 § Further notes: §
 often in dominance and submission, the ⟮c:64;dominants⟯ ⟮c:65;name⟯, ⟮c:65;pronouns⟯ or ⟮c:56;the relevant letter⟯ will be ⟮c:66;capitalized⟯, while the ⟮c:64;submissives⟯ ⟮c:65;name⟯, ⟮c:65;pronouns⟯ or ⟮c:65;the relevant letter⟯ will be ⟮c:66;written in lower case⟯
 A ⟮c:67;pillow princess⟯ is a ⟮c:68;lesbian⟯ who is ⟮c:69;very bottom,⟯ to the point of ⟮c:70;not reciprocating⟯
@@ -4338,7 +4128,6 @@ a ⟮c:71;power bottom⟯ is most commonly just a misnomer for a ⟮c:72;dominan
 "⟮c:74;Topping from the bottom⟯" using the ⟮c:75;literal sense⟯ ⟮c:76;doesn't make sense⟯ and may refer to "⟮c:77;being a dom and a bottom AT THE SAME TIME :OOOOOOOOOOO⟯" or "⟮c:78;Being a sub in theory but a dom in practice⟯". It is also often just used for "⟮c:79;My sub is doing something and <i>I don't like it</i>⟯"
 ===<br>
 
-<br>---<br>
 In general, as of 2021, it seems that more "⟮c:1;masc⟯" gay identities are ⟮c:2;more highly valued⟯
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span><br/><div class="sub">
@@ -4428,7 +4217,6 @@ A ⟮c:5;queerplatonic relationship⟯ does not require ⟮c:6;the participants 
 
 ### the relationship escalator
 
-<br>---<br>
 The ⟮c:1;relationship escalator⟯ consists of ⟮c:2;a set of steps⟯ in ⟮c:3;a relationship⟯ that are claimed to constitute ⟮c:4;progress⟯. 
 As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c:6;the essence of⟯ ⟮c:7;a romantic relationship⟯. 
 "⟮c:8;Is this relationship going anywhere?⟯" presupposes the idea of ⟮c:9;the relationship escalator⟯ 
@@ -4523,7 +4311,6 @@ A ⟮c:2;mujaddid⟯ is a person who ⟮c:2;Brings renewal (Renews the faith, co
 
 #### behavioral and structural
 
-<br>---<br>
 ⟮c:1;Structural violence⟯ is ⟮c:2;the tangible harm⟯ done by ⟮c:3;social structures⟯. 
 ⟮c:6;behavioral violence⟯ is ⟮c:4;the tangible harm⟯ done ⟮c:5;by agents volitionally⟯ 
 ⟮c:7;Structural violence⟯ is contrasted with ⟮c:8;behavioral violence⟯. 
@@ -4534,7 +4321,6 @@ However, in a second analysis, we might argue that ⟮c:9;we can reduce behavior
 
 ##### stochastic violence
 
-<br>---<br>
 ⟮c:1;Stochastic violence⟯ is the idea of ⟮c:2;spreading a violent message via mass communication⟯, which ⟮c:3;makes resulting acts of violence⟯ ⟮c:5;probable⟯, but ⟮c:4;the actual place and time of the occurrence are⟯ ⟮c:5;random⟯. 
 ⟮c:6;Stochastic violence⟯ used for ⟮c:7;terrorism⟯ is called ⟮c:8;stochastic terrorism⟯ 
 By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instances of larger patterns of violent messages⟯, ⟮c:11;stochastic violence⟯ ⟮c:12;unmasks behavioural violence⟯ as ⟮c:13;structural violence⟯ (perhaps) 
@@ -4587,7 +4373,6 @@ By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instance
 
 ### archy miso ism
 
-<br>---<br>
 Philosopher ⟮c:1;Kate Manne⟯ in her book "⟮c:2;Down Girl⟯" ⟮(c:5;2017⟯) provides the most popular ⟮c:4;differentiation between⟯ ⟮c:3;sexism⟯, ⟮c:3;patriarchy⟯ and ⟮c:3;misogyny⟯ 
 Kate Manne, Down Girl: ⟮c:5;Patriarchy⟯ is ⟮c:8;the power structure⟯ that ⟮c:9;is justified by⟯ ⟮c:10;the ideology⟯ of ⟮c:5;sexism⟯ and ⟮c:6;enforced by⟯ ⟮c:7;the law enforcement arm⟯, ⟮c:5;misogyny⟯ 
 ===<br>
@@ -4664,7 +4449,6 @@ x normativity normalizes the + of the relevant ism
 
 #### chasers
 
-<br>---<br>
 A ⟮c:1;chaser⟯ ⟮c:2;fetishizes⟯ and thus ⟮c:3;pursues⟯ ⟮c:4;the - group of an ism⟯.˛ 
 ===<br>
 
@@ -4677,7 +4461,6 @@ By treating traits associated with - negatively, pick me x's strengthen the asso
 
 ##### pay gap
 
-<br>---<br>
 The ⟮c:1;x pay gap⟯ or ⟮c:1;x wage gap⟯ is the ⟮c:2;difference between the remuneration⟯ ⟮c:4;for - group and + group of an ism⟯ for ⟮c:3;work⟯. 
 There are two forms of ⟮c:5;x pay/wage gap⟯, ⟮c:6;non-adjusted⟯ and ⟮c:7;adjusted.⟯ 
 The ⟮c:8;non-adjusted⟯ ⟮c:10;pay gap⟯ {{c11::just takes into account the difference in average pay} 
@@ -4699,7 +4482,6 @@ Importantly, the cotton ceiling is the exclusion of trans people from considerat
 
 ###### cliff
 
-<br>---<br>
 the ⟮c:1;x cliff⟯ is the idea that even if ⟮c:2;people with a - identity⟯) ⟮s:4;s:5;((c:3;::break through the glass ceiling⟯)), they are often given ⟮c:4;executive positions⟯ during ⟮c:5;periods of crisis/downturn⟯, where ⟮s:5; ((c:6;::the risk of failure is highest⟯, e.g. ⟮s:6;c:7;Ellen Pao at reddit, Thresa May after brexit.⟯)) 
 ===<br>
 
@@ -4719,7 +4501,6 @@ Victim blaming is common when someone has been victim of violence based on one's
 
 ### intersectionality
 
-<br>---<br>
 ⟮c:1;intersectionality⟯ considers ⟮c:2;social identities⟯ and concomittant ⟮c:3;oppression/domination⟯ and ⟮c:3;privilege⟯ in ⟮c:4;combination⟯, rather than ⟮c:5;considering each factor in isolation⟯. 
 ⟮c:16;Intersectionality⟯ was coined by ⟮c:6;Crenshaw⟯ in ⟮c:7;1989⟯ and started ⟮c:8;being popular as a framework⟯ in ⟮c:9;the early 2000s⟯ 
 In 1989, Kimberlé Crenshaw coined the term "⟮c:10;intersectionality⟯" in a paper as a way to help explain the ⟮c:11;oppression of African-American women⟯. She argues the experience of being a ⟮c:12;black woman⟯ ⟮c:13;cannot be understood⟯ in terms ⟮c:14;independent of either being black or a woman⟯. Rather, it must include ⟮c:15;interactions between the two identities⟯, which, she adds, frequently reinforce one another. 
@@ -4739,7 +4520,6 @@ Often the ⟮c:10;school-to-prison pipeline⟯ refers to both ⟮c:4;the schools
 
 ### sanism 
 
-<br>---<br>
 ⟮c:1;Serious mental illnesses (shizophrenia, depression, the like⟯) ⟮c:2;reduce life expectancy⟯ by ⟮c:3;10~20 years⟯. We should take this with a dose of ⟮c:4;correlation/causation⟯ salt, but this might be in part an effect of ⟮c:5;sanism⟯. 
 ===<br>
 
@@ -4747,7 +4527,6 @@ Often the ⟮c:10;school-to-prison pipeline⟯ refers to both ⟮c:4;the schools
 
 #### inspiration porn
 
-<br>---<br>
 ⟮c:1;Inspiration porn⟯ is the portrayal of ⟮c:4;people with disabilities⟯ as ⟮c:2;inspirational⟯ solely or in part on the basis ⟮c:3;of their disability⟯. We should probably consider it a form of ⟮c:5;(dis)ablism⟯. 
 ===<br>
 
@@ -4760,13 +4539,11 @@ Often the ⟮c:10;school-to-prison pipeline⟯ refers to both ⟮c:4;the schools
 ### a boring dystipia
 
 ⟮h:all;<img src="Db82H6jV4AELsCZ.jpg">⟯⟮h:all;<img src="Db82JRwV4AEyXHz.jpg">⟯⟮h:all;<img src="Db82VUTVwAAiW7m.jpg">⟯
-<br>---<br>
 Mark Fisher coined the term "⟮c:1;a boring dystopia⟯" to describe the situation of the 21st-century where ⟮c:2;the casual perversity⟯ of ⟮c:3;capitalism⟯ ⟮c:4;isn't even interesting enough to get outraged⟯. 
 ===<br>
 
 ### x work/x-al labor
 
-<br>---<br>
 ⟮c:27;Hochschild⟯ coined the terms ⟮c:28;emotion work/emotional labor⟯. 
 On ⟮c:29;the model of⟯ emotion work/emotional labor, other ⟮c:30;more or less common terms have been coined⟯. 
 While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al labor⟯ as ⟮c:32;synonyms⟯, there is ⟮c:32;a clear distinction⟯. 
@@ -4808,7 +4585,6 @@ While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al lab
   </tbody>
 </table>
 
-<br>---<br>
 The two strategies people use in performing ⟮c:13;emotion work/labor (not sure in how far it applies to the family of similar concepts⟯ are  ⟮c:14;surface acting and deep acting⟯ 
 ⟮c:12;emotion work/labor⟯ by ⟮c:15;getting into a state where one genuinely feels the emotions⟯ is called ⟮c:21;deep acting⟯ 
 ⟮c:22;emotion work/labor ⟯ by ⟮c:23;pretending, without changing how one actually feels⟯ is called ⟮c:24;surface acting⟯ 
@@ -4821,7 +4597,6 @@ The two strategies people use in performing ⟮c:13;emotion work/labor (not sure
 
 ### digital
 
-<br>---<br>
 the ⟮c:1;application of computational technologies/digital resources⟯ in ⟮c:2;the humanities⟯ is known as ⟮c:3;digital humanities⟯ 
 ⟮c:4;digital history⟯ is ⟮c:5;the intersection of history and digital humanities⟯ (While a bunch of theorists have complaints about this definition, I think it's the only sensible one) 
 ===<br>
@@ -4974,7 +4749,6 @@ As far as I remember
 
 ### yes, and
 
-<br>---<br>
 ⟮c:9;"Yes, and..."⟯ originates from ⟮c:10;improv⟯.
 ⟮c:1;"Yes, and..."⟯, is both ⟮c:2;a phrase that can be said/used⟯, as well the ⟮c:4;the underlying rule-of-thumb⟯ that says that ⟮c:5;a participant should accept what another participant has stated⟯ ("⟮c:5;yes⟯") and ⟮c:6;then expand on that line of thinking⟯ ("⟮c:6;and⟯").
 ⟮c:11;"Yes, and..."⟯ is sometimes also expanded to ⟮c:7;a principle⟯ for ⟮c:8;communication⟯ or for ⟮c:8;life⟯.
@@ -4995,7 +4769,6 @@ In general, ⟮c:8;acroyoga⟯ includes the three roles ⟮c:4;base⟯, ⟮c:5;f
 
 ### memory
 
-<br>---<br>
 We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;how ⟮c:2;memory⟯ works, e.g. ⟮c:3;how much the LTM holds⟯, so it's ⟮c:4;fruitless to try and figure it out.⟯ 
 ===<br>
 
@@ -5499,8 +5272,7 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 #### exposure therapy
 
-⟮h:all;<img src="sm_2021-10-31--17-32-33-screenshot.jpg">⟯<br>---<br>
-A ⟮c:1;fear ladder⟯ is a technique within ⟮c:2;exposure therapy⟯. 
+⟮h:all;<img src="sm_2021-10-31--17-32-33-screenshot.jpg">⟯A ⟮c:1;fear ladder⟯ is a technique within ⟮c:2;exposure therapy⟯. 
 For any specific ⟮c:3;fear/anxiety/phobia⟯, a ⟮c:11;fear ladder⟯ consists of ⟮c:4;specific situations/steps⟯ and ⟮c:5;their associated fear ratings⟯ 
 ⟮c:12;Fear ratings⟯ for fears on ⟮c:12;the fear ladder⟯ generally are on ⟮c:6;a scale from 1 to 10⟯ 
 There should roughly be ⟮c:13;one situation/action⟯ on the fear ladder for ⟮c:14;each fear rating from 1 to 10⟯. 
@@ -5517,13 +5289,11 @@ A ⟮c:15;fear ladder⟯ should be applied ⟮c:16;regularly⟯ (e.g. ⟮s:16;((
 #### REM sleep & lucid dreaming
 
 REM|Rapid Eye Movement
-<br>---<br>
 ⟮c:22;Rapid eye movement (REM) sleep⟯ is the time where ⟮c:23;one dreams the weird kind of dreams we call dreams⟯. 
 The body is mostly ⟮c:24;paralyzed⟯ during ⟮c:25;REM sleep⟯, except for ⟮c:26;the eyes⟯. 
 The fact that ⟮c:27;eye movement can be controlled during REM sleep⟯ allows ⟮c:28;study participants to communicate with researchers⟯ during ⟮c:29;lucid dreaming.⟯ 
 ===<br>
 
-<br>---<br>
 the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;dreams⟯ is ⟮c:32;about the same⟯ as in ⟮c:31;RL⟯ 
 ===<br>
 
@@ -5546,7 +5316,6 @@ the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;drea
   </tbody>
 </table>
 
-<br>---<br>
 A ⟮c:34;lucid dream⟯ is one in which ⟮c:35;one is aware that one is dreaming⟯. 
 ⟮c:36;Often but not always⟯, ⟮c:37;lucid dreams⟯ allow ⟮c:38;some control over the events happneing in the dream⟯. 
 Evidence for ⟮c:39;lucid dreams existing⟯ is ⟮c:40;quite strong.⟯ 
@@ -5581,7 +5350,6 @@ The ⟮c:23;most common type⟯ of ⟮c:24;OCD obsession⟯ is ⟮c:25;fears rel
 
 ### learned helplessness
 
-<br>---<br>
 In aquiring ⟮c:1;learned helplessness⟯, agents are exposed to ⟮c:2;an averse stimulus⟯ that ⟮c:3;they cannot control/avoid⟯ ⟮c:4;repeatedly⟯ 
 With ⟮c:5;learned helplessness⟯, agents fail to f⟮c:6;ail to avoid the thingy⟯ after ⟮c:7;being exposed to an unavoidable averse stimulus⟯, even when ⟮c:8;they have control again (and this is indicated clearly⟯) 
 In fact, in contrast to the ⟮c:9;original idea of learned helplessness⟯, it seems that ⟮c:10;passivity is the default reaction⟯ and ⟮c:11;'helpfulness' is learned⟯ 
@@ -5589,10 +5357,8 @@ The ⟮c:12;original⟯ ⟮c:13;learned helplessness⟯ ⟮c:12;experiment⟯ fe
 In ⟮c:16;the original learned helplessness experiment⟯, one needed to ⟮c:17;physically show the dogs (by moving their limbs⟯) ⟮c:18;how to escape the shocks⟯ ⟮c:19;at least twice⟯ so ⟮c:20;they would relearn that they had control⟯ 
 The ⟮c:21;noise experiment⟯ is related to ⟮c:22;learned helplessness⟯ 
 ===<br>
-<br>---<br>
 ⟮c:36;Hiroto, D.S.; Seligman, M.E.P.⟯ ⟮(c:37;1975⟯), subjects were supposed to ⟮c:38;do mental tasks⟯ while ⟮c:39;a distracting sound played⟯. ⟮h:gb;((c:40;::One experimental group⟯ ⟮c:41;could (or thought they could) turn it off⟯, and ⟮c:42;the other⟯ ⟮c:43;couldn't⟯. ⟮h:gb;((c:44;::The ones that could turn of the noise⟯ ⟮c:45;did better on the task⟯ ⟮c:46;even if they didn't turn it off.⟯)))) 
 ===<br>
-<br>---<br>
 ⟮c:23;Self-efficacy⟯ is ⟮c:24;(The strength of) one's belief⟯ in ⟮c:25;one's own ability⟯ to ⟮c:26;complete asks in order to reach a goal⟯ 
 ⟮c:27;Veritasium⟯ argues students/employees will ⟮c:28;try their best(based on what they know⟯) when ⟮c:29;given a task⟯, but ⟮c:30;if they hit a roadblock⟯, they ⟮c:31;won't try anything else (but just ask the supervisor⟯) - even though t⟮c:32;hey could have probably figured out methods to overcome a roadblock⟯ - reflecting, according to Veritasium, ⟮c:33;learned helplessness⟯ 
 Veritasium argues besides the pracitcal reasons of connection and resources etc, ⟮c:34;self-efficacy⟯ is part of the reason ⟮c:35;children of people with a certain career take up that career.⟯ 
@@ -5602,7 +5368,6 @@ Veritasium argues besides the pracitcal reasons of connection and resources etc,
 
 ### gaslighting
 
-<br>---<br>
 We get the term ⟮c:1;gaslighting⟯ from ⟮c:2;the 1940s film Gaslight⟯ 
 In the film ⟮c:3;Gaslight⟯, the protagonist ⟮c:4;claims the gas lights were not dimmed⟯ after ⟮c:5;dimming them himself.⟯ 
 ⟮c:6;The protagonists goal⟯ in the film ⟮c:7;gaslight⟯ is ⟮c:8;to have his wife declared insane⟯. 
@@ -5618,7 +5383,6 @@ For example, someone ⟮c:21;gaslighting⟯ may ⟮c:22;make fun of someones nee
 
 #### cycle of abuse
 
-<br>---<br>
 The ⟮c:5;cycle of abuse⟯ is a ⟮c:6;common pattern⟯ for ⟮c:7;abusive relationships⟯. 
 The ⟮c:4;Cycle of abuse⟯: ⟮c:1;Tension building⟯ -&gt; ⟮c:2;Acute explosion/Incident⟯ -&gt; ⟮c:3;Honeymoon⟯ (repeat) 
 ===<br>
@@ -5627,26 +5391,22 @@ The ⟮c:4;Cycle of abuse⟯: ⟮c:1;Tension building⟯ -&gt; ⟮c:2;Acute expl
 
 #### narcissism
 
-<br>---<br>
 {{c1::<dfn>Narcissists</dfn>}} have an overriding desire to {{c2::protect/soothe/strengthen}} their {{c3::self-image.}} 
 {{c4::<dfn>Narcisstic supply</dfn>}} are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
 <dfn>{{c5::Narcisstic injury}}</dfn> is {{c6::damage}} that a narcisst takes {{c7::to their self-image.}} 
 ===<br>
 
-<br>---<br>
 In ⟮c:8;a family with a narcissist⟯, people end up ⟮c:9;being forced into roles⟯ - ⟮c:10;the whole construct⟯ is called the <dfn>⟮c:11;narcissistic family⟯</dfn>. 
 ⟮c:17;The narcisstic family⟯'s ⟮c:12;roles⟯ are ⟮c:13;structural⟯: ⟮c:14;The relationships between roles is what creates the structure, and makes it resilient to change.⟯ 
 ⟮c:16;The narcissistic family⟯ consists of different ⟮c:18;roles⟯: ⟮c:19;the narcissist⟯, ⟮c:20;the golden child⟯ and ⟮c:21;the scapegoat⟯ ⟮c:22;establish the structure⟯, butressed by ⟮c:23;flying monkeys⟯, ⟮c:24;neutral siblings/people.⟯ and sometimes also others (e.g. enablers)
 ⟮c:25;Roles⟯ in a ⟮c:26;narcissistic family⟯ may ⟮c:27;shift⟯ if ⟮c:28;they do not provide the function to the narcissist anymore.⟯ 
 ===<br>
 
-<br>---<br>
 In a narcissistic family the ⟮c:29;<dfn>golden child</dfn>⟯ is the person ⟮c:30;onto which the narcissist projects⟯ what ⟮c:31;they want to believe about themselves.⟯ 
 The ⟮c:32;golden child⟯ ⟮c:33;strengthens the narcissists self-image⟯ by ⟮c:34;projection⟯. 
 The ⟮c:35;golden child⟯'s ⟮c:36;achievements⟯ are ⟮c:37;highly rewarded⟯. 
 ===<br>
 
-<br>---<br>
 In a narcissistic family, the <dfn>⟮c:38;scapegoat⟯</dfn> is the person ⟮c:39;onto which the narcissist projects⟯ what t⟮c:40;hey don't want to believe about themselves.⟯ 
 The ⟮c:41;scapegoat⟯ ⟮c:42;strengthens the narcissists self-image⟯ by ⟮c:43;contrast⟯. 
 The ⟮c:44;scapegoat⟯'s ⟮c:45;achievements⟯ are ⟮c:46;not acknowledged⟯, and may ⟮c:46;even surreptitiosuly be punished⟯. 
@@ -5654,7 +5414,6 @@ Conversely, the ⟮c:47;scapegoat⟯'s ⟮c:48;failures⟯ may be ⟮c:49;reward
 However, the scapegoat may have an easier time ⟮c:50;breaking away from the narcisstic family structure⟯. 
 ===<br>
 
-<br>---<br>
 In a narcisstic family, the ⟮c:51;<dfn>neutral sibling/person</dfn>⟯ is said to be the sibling/person that ⟮c:52;always tries to mediate⟯, but ends up ⟮c:53;denying the reality of what's happening⟯. 
 In a narcisstic family, a <dfn>⟮c:54;flying monkey⟯</dfn> is person ⟮c:55;used by the narcissist⟯ as ⟮c:56;a proxy for their narcissist actions.⟯ 
 ===<br>
@@ -5676,7 +5435,6 @@ In optics, an ⟮c:1;aperture⟯ is an ⟮c:2;opening⟯ ⟮c:3;through which li
 
 #### conductivity
 
-<br>---<br>
 Electrical conductivity: ⟮c:1;s:all;Conductors⟯ &gt; ⟮c:2;s:all;semiconductors⟯ &gt; ⟮c:3;s:all;insulators⟯ 
 ===<br>
 
@@ -5767,7 +5525,6 @@ In general, ⟮c:24;synthesis⟯ produces ⟮c:25;more complex compounds⟯ as �
 
 ##### covalent 
 
-<br>---<br>
 A ⟮c:1;covalent⟯ ⟮c:4;bond⟯ is a ⟮c:4;intra molecular bond⟯ that involves the ⟮c:2;sharing⟯ of ⟮c:3;electron pairs⟯ between atoms.
 ===<br>
 
@@ -5826,7 +5583,6 @@ a ⟮c:5;functional group⟯ is a part of a ⟮c:6;molecule⟯ that causes the �
 
 ###### noble gases
 
-<br>---<br>
 The ⟮c:4;noble gases⟯ ⟮c:3;outer shell of valence electrons⟯ is considered to be ⟮c:2;"full"⟯, giving them little tendency to ⟮c:1;participate in chemical reactions⟯
 ===<br>
 
@@ -5834,7 +5590,6 @@ The ⟮c:4;noble gases⟯ ⟮c:3;outer shell of valence electrons⟯ is consider
 
 ##### shells
 
-<br>---<br>
 an ⟮c:3;electron shell⟯ may be thought of as ⟮c:4;an orbit⟯ of ⟮c:1;electrons⟯ ⟮c:4;around⟯ an atom's ⟮c:2;nucleus⟯.
 Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are themselves composed of ⟮c:6;atomic orbitals⟯. 
 ===<br>
@@ -5863,7 +5618,6 @@ Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are t
     </tr>
   </tbody>
 </table>
-<br>---<br>
 The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number / earlier to the alphabet its letter⟯
 §§the ⟮c:16;nth⟯ ⟮c:15;shell⟯ can in principle hold up to ⟮c:17;2(n<sup>2</sup>⟯) electrons.§<br>===<br>
 <br>
@@ -5905,7 +5659,6 @@ A ⟮c:1;radical⟯ or ⟮c:1;free radical⟯ is a(n) ⟮c:2;atom/molecule/ion�
 
 #### ions
 
-<br>---<br>
 An ⟮c:1;ion⟯ is a particle, atom or molecule with a ⟮c:2;net electrical charge⟯.
 A ⟮c:3;cation⟯ is a ⟮c:4;positively⟯ charged ion with ⟮c:5;fewer⟯ ⟮c:6;electrons⟯ ⟮c:5;than⟯ ⟮c:6;protons⟯
 A ⟮c:7;anion⟯ is a ⟮c:8;negatively⟯ charged ion with ⟮c:9;more⟯ ⟮c:10;electrons⟯ ⟮c:9;than⟯ ⟮c:10;protons⟯
@@ -5916,23 +5669,20 @@ Because of ⟮c:11;their opposite electric charges⟯, ⟮c:12;cations⟯ and �
 
 ## lockpicking tools
 
-<br>---<br>
 In general, the three major types of lockpicking tools are ⟮c:1;hooks⟯, ⟮c:2;rakes⟯, and ⟮c:3;tensioning tools⟯. 
 ===<br>
 
 ## basic lock model
 
 ⟮h:all;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">⟯
-⟮h:all;<img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯<br>---<br>
-We can construct a basic sort of lock with ⟮c:1;a pencil⟯ and ⟮c:2;two pieces of paper.⟯ 
+⟮h:all;<img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c:1;a pencil⟯ and ⟮c:2;two pieces of paper.⟯ 
 The ⟮c:3;gap between the two pieces of paper⟯ is ⟮c:4;the shear line⟯, and ⟮c:5;the pencil⟯ is ⟮c:6;the pin⟯. 
 ===<br>
 
 ## lock externals
 
 ⟮h:2;<img src="sm_220px-Zylinderset.jpg">⟯
-<img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/><br>---<br>
-Everything else in a ⟮c:7;cylinder lock⟯ is ⟮c:8;contained in⟯ ⟮c:9;the cylinder(shell/casing/housing/body) ⟯ 
+<img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/>Everything else in a ⟮c:7;cylinder lock⟯ is ⟮c:8;contained in⟯ ⟮c:9;the cylinder(shell/casing/housing/body) ⟯ 
 If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:11;take the locking mechanism out⟯, we would be seeing ⟮c:12;the cylinder (shell/casing/housing/body⟯). 
 ===<br>
 
@@ -5947,7 +5697,6 @@ If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:
   </tbody>
 </table>
 
-<br>---<br>
 The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/body⟯. 
 ⟮c:15;A lock that is contained in a cylinder⟯ is known as ⟮c:16;a cylinder lock⟯. 
 ⟮c:17;Cylinder locks⟯ are i⟮c:18;ndependent from the boltwork⟯, and so ⟮c:19;allow easy maintenance⟯. 
@@ -6000,8 +5749,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 <span class="c1-f">
 What are these called?
 </span><br/><img class="c1-f all-b" src="sm_200px-Pin_tumbler_bypass.svg.png">
-<img class="c1-f all-b" src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/><br>---<br>
-Some insecure locks allow us to unlock them by ⟮c:8; pushing both key and driver pins ⟯ ⟮c:9;past the shear line⟯ 
+<img class="c1-f all-b" src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c:8; pushing both key and driver pins ⟯ ⟮c:9;past the shear line⟯ 
 ⟮c:2;comb picks⟯ ⟮c:3;push⟯ ⟮c:4;both driver and key pins⟯ ⟮c:3;completely into the lock⟯ 
 comb picks might look like ⟮c:5;&lt;image&gt;⟯ 
 What normally ⟮c:6;prevents us from just pushing all pins completely above the shear line w/ comb picks⟯ is ⟮c:7;that there isn't enough space in the lock⟯ 
@@ -6013,8 +5761,7 @@ What normally ⟮c:6;prevents us from just pushing all pins completely above the
 ⟮h:1;<img src="sm_How-a-Lock-Works-Animation.gif">⟯
 <img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
 
-<img src="Pin-Tumbler-Lock-Shear-Line.png"><br/><br>---<br>
-The ⟮c:1;shear line⟯ is ⟮c:2;the gap between⟯ ⟮c:3;the casing⟯ and ⟮c:3;the plug⟯ 
+<img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c:1;shear line⟯ is ⟮c:2;the gap between⟯ ⟮c:3;the casing⟯ and ⟮c:3;the plug⟯ 
 ⟮c:4;the driver pins⟯ are the pins that ⟮c:5;the springs are directly contactin⟯g 
 ⟮c:6;the key pins⟯ are the pins that ⟮c:7;the key will directly contact⟯ and that ⟮c:8;thus 'read' the key⟯ 
 To ⟮c:9;open a door⟯, ⟮c:10;the plug⟯ ⟮c:11;must be able to rotate⟯. 
@@ -6041,8 +5788,7 @@ The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs�
 ## manufacturing tolerances
 
 <img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">
-⟮h:all;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯<br>---<br>
-In a general sense, locks would ⟮c:4;not be pickable⟯ if not for ⟮c:5;manufacturing tolerances⟯. 
+⟮h:all;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c:4;not be pickable⟯ if not for ⟮c:5;manufacturing tolerances⟯. 
 The reason that ⟮c:6;not all pins bind⟯ once you ⟮c:7;apply rotational tension⟯ is tha⟮c:8;t the holes are ever-so-slightly off-center⟯. 
 The pin that will ⟮c:1;bind here first⟯ if we ⟮c:2;rotate in the upwards direction⟯ is ⟮c:3;the second or the fourth pin.⟯ 
 ===<br>
@@ -6051,15 +5797,13 @@ The pin that will ⟮c:1;bind here first⟯ if we ⟮c:2;rotate in the upwards d
 
 ⟮h:all;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif">⟯
 ⟮h:all;<img src="sm_Lock-Picking-Single-Pin-Picking.gif">⟯
-⟮h:all;<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯<br>---<br>
-A ⟮c:8;bound⟯ pin is the one that if ⟮c:9;rotational tension is being applied⟯ is ⟮c:10;hard to move (won't slip⟯) 
+⟮h:all;<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c:8;bound⟯ pin is the one that if ⟮c:9;rotational tension is being applied⟯ is ⟮c:10;hard to move (won't slip⟯) 
 ⟮c:11;Applying rotational tension⟯ allows ⟮c:12;pins⟯ to ⟮c:13;bind⟯, and thus ⟮c:14;setting them⟯. 
 Pins can only ⟮c:15;bind⟯ if ⟮c:16;rotational tension is being applied⟯, otherwise ⟮c:17;they won't get stuck⟯ and f⟮c:18;all right back into the cylinder.⟯ 
 There is ⟮c:21;most often (though not always⟯) ⟮c:19;only one⟯ ⟮c:20;binding pin⟯ at a time. 
 §§ The ⟮c:22;binding pin⟯ is ⟮c:23;the pin⟯ that ⟮c:24;is currently being bound⟯ (or ⟮c:24;will be bound once rotational tension is applied⟯), and thus is ⟮c:25;the next pin that can be set.⟯ §<br>===<br>
 
 
-<br>---<br>
 ⟮c:26;Single pin picking⟯ is ⟮c:27;picking the pins one at a time⟯, which looks something like ⟮c:30;&lt;image above&gt;⟯ 
 ⟮c:28;Single pin picking⟯ uses ⟮c:29;hooks⟯ as tools, which look something like ⟮c:31;&lt;image&gt;⟯ 
 Core loop of ⟮c:32;single pin picking⟯: ⟮c:33;find binding pin⟯ -&gt; ⟮c:34;set binding pin⟯ 
@@ -6079,14 +5823,12 @@ Once ⟮c:47;you've pushed the binding pin to the shear line⟯, if y⟮c:48;ou'
 <tr><td>⟮c:4;not push the binding pin in far enough⟯</td> <td>⟮c:5;underset⟯</td> <td>⟮c:6;<img src="sm_underset_1130.jpg">⟯</td></tr>
   </tbody>
 </table>
-<br>---<br>
 If you ⟮c:51;can no longer find a binding pin⟯, you have likely ⟮c:7;overset or underset a pin⟯ 
 ===<br>
 
 ## tensioning
 
-<span class="c1-f">What is this tool?</span><br><img class="c1-f all-b" src="sm_standard-tension-wrench.jpg"><br><br>---<br>
-⟮c:3;tensioning tools⟯ are for ⟮c:4;applying tension to the lock (to bind the pins⟯) 
+<span class="c1-f">What is this tool?</span><br><img class="c1-f all-b" src="sm_standard-tension-wrench.jpg"><br>⟮c:3;tensioning tools⟯ are for ⟮c:4;applying tension to the lock (to bind the pins⟯) 
 The ⟮c:5;tension wrench⟯ is ⟮c:6;the most common type of⟯ ⟮c:7;tensioning tool.⟯ 
 A tension wrench might look like ⟮c:2;&lt;image&gt;⟯ 
 A ⟮c:8;tension wrench⟯ has ⟮c:9;a short end⟯ to ⟮c:10;place in the keyway⟯ and ⟮c:9;a long end⟯ to ⟮c:10;act as a lever⟯. 
@@ -6096,8 +5838,7 @@ You need to apply ⟮c:11;very little tension⟯ with ⟮c:12;the tension wrench
 
 ## raking
 
-<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img class="all-b c1-f" src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/><br>---<br>
-⟮c:2;Raking⟯ is ⟮c:3;scrubbing the pins⟯ until we ⟮c:4;happen to set all the pins⟯. 
+<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img class="all-b c1-f" src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c:2;Raking⟯ is ⟮c:3;scrubbing the pins⟯ until we ⟮c:4;happen to set all the pins⟯. 
 Raking might look like ⟮c:5;&lt;image&gt;⟯ 
 ⟮c:6;Raking⟯ has roughly the same motion as ⟮c:7;brushing your teeth⟯. 
 In raking, we ⟮c:8;add tension⟯ and then ⟮c:9;scrub the pins⟯. 
@@ -6110,8 +5851,7 @@ In ⟮c:15;raking⟯, we often have to ⟮c:16;reset the lock a few times⟯ bef
 
 # knots
 
-⟮ha;<img src="sm_Screenshot%202020-06-30%20at%2021.28.32.jpg">⟯⟮ha;<img src="sm_Screenshot%202019-08-19%20at%2001.13.22.jpg">⟯<br>---<br>
-§For the '⟮c2;many wrap⟯' technique for shortening cables, you start with ⟮c3;an overhand knot⟯ and then ⟮c1;Just continue wrapping⟯ <br>
+⟮ha;<img src="sm_Screenshot%202020-06-30%20at%2021.28.32.jpg">⟯⟮ha;<img src="sm_Screenshot%202019-08-19%20at%2001.13.22.jpg">⟯§For the '⟮c2;many wrap⟯' technique for shortening cables, you start with ⟮c3;an overhand knot⟯ and then ⟮c1;Just continue wrapping⟯ <br>
 ===<br>
 
 Three-Strand Braiding
@@ -6521,20 +6261,16 @@ Imperfect of ir
 </tbody>
 </table>
 
-<br>---<br>
 The ⟮c:1;teen ordinal numbers⟯ are normally written ⟮c:2;as a single word⟯, and they are formed according to the following formula: ⟮c:3;décimo⟯ + ⟮c:3;ordinal number ⟯ 
 ===<br>
 
-<br>---<br>
 Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subjectivity⟯ and ⟮c:5;incomplete actions⟯ commonly trigger the ⟮c:6;subjunctive⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:1;elle⟯ &amp; ⟮c:1;elles⟯ are neologisms that are the ⟮c:2;gender-neutral⟯ version of ⟮c:3;él⟯ &amp; ⟮c:3;ellos⟯ / ⟮c:3;ella⟯ 
 ⟮c:4;ellas⟯ ⟮c:4;elle⟯ is a neologism meant to parallel english ⟮c:5;singular they⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:1;Primero⟯ and ⟮c:1;tercero⟯ ⟮c:3;lose their o⟯ before ⟮c:2; singular masculine nouns⟯. 
 ===<br>
 
@@ -7556,7 +7292,6 @@ John Chivington, 1864, about indians
   <span class="line">⟮c:4;s:all;Kill and scalp all, big and little; nits make lice!⟯</span>
 </blockquote>
 
-<br>---<br>
 ⟮c:3;It is too rash, too unadvised, too sudden,⟯ ⟮c:2;Too like the lightning, which doth cease to be⟯ ⟮c:1;Ere one can say “It lightens.”⟯ 
 ===<br>
 
@@ -7891,8 +7626,7 @@ Alexander Hamilton
   <span class="line">⟮c:71;s:all;Alexander Hamilton!⟯</span>
   </p>
   
-<img class="c1-f c2-b" src="sm_paste-936b6b01e2b831a0ad7780367bf38f6ddc437b99.jpg"><br><br>---<br>
-The personal motto of ⟮c:3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c:1;Aut Caesar, aut nihil.⟯ / (in English)⟮c:2;(Either) Caesar or nothing.⟯ 
+<img class="c1-f c2-b" src="sm_paste-936b6b01e2b831a0ad7780367bf38f6ddc437b99.jpg"><br>The personal motto of ⟮c:3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c:1;Aut Caesar, aut nihil.⟯ / (in English)⟮c:2;(Either) Caesar or nothing.⟯ 
 ===<br>
 
 <cite> Not Waving but Drowning </cite> Stevie Smith 1972
@@ -7918,53 +7652,42 @@ The personal motto of ⟮c:3;Cesare Borgia⟯ (supposedly, though finding a sour
 <span class="line">⟮c:12;s:all;And not waving but drowning.⟯</span>
 </blockquote>
 
-<br>---<br>
 {{c2::My bounty is as boundless as the sea,} ⟮c:3;My love as deep. The more I give to thee,⟯ ⟮c:1;The more I have, for both are infinite.⟯ 
 ===<br>
 
-<br>---<br>
 the papal legate after the first conquest during the crusade against the cathars: ⟮c:1;Kill them all, let God sort them out.⟯ / ⟮c:2;Kill them all. God will know his own.⟯ 
 ===<br>
 
-<br>---<br>
 Marc Anthony after Caesars murder: Cry... ⟮c:1;'Havoc!,' and let slip the dogs of war.⟯ 
 ===<br>
 
-<br>---<br>
 Antonio José de Sucre to Simón Bolívar, after his exile: ⟮c:1;Goodbye, my general. Take as a measure of my fondness these flowing tears.⟯ 
 ===<br>
 
-<br>---<br>
 After his trial, ⟮c:2;Gallileo⟯ supposedly said: ⟮c:1;And yet it moves!⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:1;There are more things in heaven and earth, Horatio,⟯ ⟮c:2;than are dreamt of in your philosophy⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:1;Tell me, what is it you plan to do⟯ ⟮c:2;with your one wild and precious life?⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:1;It was the nightingale, and not the lark⟯, ⟮c:2;that pierced the fearful hollow of thine ear;⟯ 
 ===<br>
 
-⟮h:all;<img src="sm_paste-c3fb9f58b8eac4bf03833e00091214dfe7fdf33b.jpg">⟯<br>---<br>
-⟮c:1;I was supposed to be the one⟯ ⟮c:2;to fill your dark soul with light⟯! 
+⟮h:all;<img src="sm_paste-c3fb9f58b8eac4bf03833e00091214dfe7fdf33b.jpg">⟯⟮c:1;I was supposed to be the one⟯ ⟮c:2;to fill your dark soul with light⟯! 
 ===<br>
 
 # misc
 
 ## mental masturbation
 
-<br>---<br>
 ⟮c:1;mental masturbation⟯ is ⟮c:2;intellectually stimulating activity⟯ (or sometimes just ⟮c:2;any thoughts⟯) that serves ⟮c:3;no practical purpose⟯ or ⟮c:4;only to satisfy oneself⟯ 
 ===<br>
 
 ## thread postural technique
 
-<br>---<br>
 A common ⟮c:5;posture technique⟯ involves ⟮c:1;imagining⟯ ⟮c:2;a string⟯ ⟮c:3;connected to the top of your head⟯ ⟮c:4;pulling you upwards (straight⟯). 
 ===<br>
 
@@ -8002,7 +7725,6 @@ Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same leng
   </tbody>
 </table>
 
-<br>---<br>
 Something ⟮c:1;phallic⟯ is ⟮c:3;shaped like⟯ or ⟮c:3;otherwise like⟯ a ⟮c:2;penis⟯, something ⟮c:4;yonic⟯ is ⟮c:5;shaped like⟯ or ⟮c:5;otherwise like⟯ a ⟮c:6;vagina⟯ 
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>

@@ -355,7 +355,6 @@ Nozick argues one would not want to enter the experience machine, for example be
 
 ## demands
 
-<br>---<br>
 the original ⟮c:9;catch-22⟯ (since ⟮c:10;it's used in many different ways later in the book⟯): ⟮c:1;If you're declared insane, you get sent home from fighting⟯:
 -&gt; ⟮c:11;s:13-14;If you say you're insane (or apply for insanity⟯), that ⟮c:12;s:13-14;makes you sane, and so you still have to fight.⟯
 -&gt; And ⟮c:13;s:11-12;if you don't say you're insane (or apply for insanity⟯) ⟮c:14;s:11-12;you still have to fight⟯. 

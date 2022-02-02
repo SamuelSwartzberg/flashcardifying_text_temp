@@ -81,7 +81,6 @@ nth digit|value
 
 ###### bits and bytes
 
-<br>---<br>
 ⟮c:9;a byte⟯ ⟮c:11;traditionally⟯ ⟮c:10;contains 8 bits⟯, ⟮c:11;though there are rare variant definitions⟯. 
 unambiguously, ⟮c:12;8 bits⟯ are called ⟮c:13;an octet⟯. 
 ⟮c:14;4 bits⟯ are called ⟮c:15;a nibble⟯ (coined ⟮c:16;s:gb;by analogy to byte⟯). 
@@ -318,14 +317,12 @@ In a venn diagram, instead of placing elements, it instead can be used to indica
 
 #### number sets & blackboard bold
 
-<br>---<br>
 A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;certain special properties⟯, e.g. ⟮c:18;natural, rational, real etc⟯. 
 ⟮c:19;number sets⟯ are usually written in ⟮c:20;bold⟯ or ⟮c:20;blackboard bold⟯ letters. 
 ⟮c:21;number sets⟯ are called ⟮c:22;Zahlenbereiche⟯ in German. 
 ===<br>
 
 
-<br>---<br>
 ⟮c:23;Blackboard bold⟯ is a style of font that includes ⟮c:24;double⟯ ⟮c:25;vertical/near-vertical⟯ ⟮c:26;lines⟯ 
 ⟮c:27;𝔸, 𝔹, ℂ⟯ are examples for ⟮c:28;Blackboard bold⟯ (letters) 
 ⟮c:29;Blackboard bold⟯ letters are called ⟮c:30;Buchstaben mit Doppelstrich⟯ in German. 
@@ -349,12 +346,10 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:34;Integers⟯ are known as ⟮c:35;ganze Zahlen⟯ in German. 
 ===<br>
 
 
-<br>---<br>
 <div class="onion-box">
   <span>⟮c:11;s:all;ℝ⟯</span>
   <div class="onion-box">
@@ -441,7 +436,6 @@ Per definition, any zero x has the property f(x)=0
 
 <img src="sm_220px-6n-graf.svg.png">
 
-<br>---<br>
 ⟮c:23;Graphs⟯ are studied in ⟮c:24;graph theory⟯ 
 A ⟮c:25;graph⟯ consists of ⟮c:26;a pair⟯. 
 In common language, a ⟮c:27;graph⟯ is a structure that contains ⟮c:28;a set of objects⟯ and ⟮c:29;their relations to each other.⟯ 
@@ -449,26 +443,22 @@ In common language, a ⟮c:27;graph⟯ is a structure that contains ⟮c:28;a se
 In terms of comp. sci. a ⟮c:34;graph⟯ is ⟮c:35;an ADT⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:36;Edges⟯ are described by ⟮c:37;a pair of⟯ ⟮c:38;vertices⟯ 
 For ⟮c:39;an edge {x, y⟯}, ⟮c:40;x and y⟯ are ⟮c:41;the endpoints⟯. 
 For an ⟮c:42;undirected graph⟯, an ⟮c:43;edge⟯ is described by ⟮c:44;an unordered pair⟯. 
 For an ⟮c:45;directed graph⟯, the ⟮c:46;edge⟯ is described by ⟮c:47;a ordered pair.⟯ 
 ===<br>
 
-<br>---<br>
 ⟮c:48;Graphs⟯ may be ⟮c:49;directed⟯, that is ⟮c:50;an edge has a direction⟯, or ⟮c:49;undirected⟯, that is ⟮c:50;an edge does not have a direction⟯. 
 ⟮c:51;Graphs⟯ may be ⟮c:52;simple⟯, where ⟮c:53;two vertices may only be connected by a single edge⟯, or ⟮s:gb; ((c:54;::a multigraph⟯, where ⟮c:55;two vertices may be connected by multiple edges⟯.)) 
 A ⟮c:56;weighted⟯ ⟮c:57;graph⟯ is a ⟮c:57;graph⟯ in which ⟮c:58;a number is assigned⟯ to ⟮c:59;each edge⟯. 
 ⟮c:60;Weighted graphs⟯ are relevant for ⟮c:61;shortest path problems⟯. 
 ===<br>
 
-<br>---<br>
 The ⟮c:62;degree⟯ of a ⟮c:63;vertex⟯ is ⟮c:64;the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
 The ⟮c:65;maximum/minimum degree⟯ of ⟮c:66;a graph⟯ is ⟮c:67;the maximum/minimum degree of all its vertices.⟯ 
 ===<br>
 
-<br>---<br>
 A ⟮c:68;regular graph⟯ is a graph where ⟮c:69;each vertex⟯ ⟮c:70;has the same amount of neighbors⟯. 
 Equivalently, a ⟮c:71;regular graph⟯ is one where ⟮c:73;each vertex⟯ has ⟮c:73;the same⟯ ⟮c:72;degree⟯. 
 A ⟮c:74;complete graph⟯ is a ⟮c:75;regular graph⟯ where ⟮c:76;each vertex⟯ is ⟮c:77;connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
@@ -514,12 +504,10 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
   </tbody>
 </table>
 
-<br>---<br>
 ⟮c:81;Graph traversal⟯ is ⟮c:82;visiting all vertices once⟯ 
 ⟮c:83;Trees are a type of graph⟯, therefore ⟮c:84;tree traversal⟯ is a type of ⟮c:84;graph traversal⟯ 
 ===<br>
 
-<br>---<br>
 A ⟮c:85;walk⟯ is ⟮c:86;an alternating sequence⟯ of ⟮c:87;vertices and edges⟯. 
 A ⟮c:88;trail⟯ is ⟮c:89;a walk (an alternating sequence of vertices and edges⟯) ⟮c:90;with no repeated edges⟯. 
 A ⟮c:91;path⟯ is an ⟮c:92;open⟯ ⟮c:93;trail (an alternating seq of verts and edges w/ no repeated edges⟯) with ⟮c:94;no repeated vertices.⟯ 
@@ -532,18 +520,15 @@ The ⟮c:106;length⟯ ⟮c:107;k⟯ of ⟮c:108;walks/trails/paths/circuits/cyc
 
 <div class="flex-container">⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯</div>
 
-<br>---<br>
 ⟮c:113;Two vertices⟯ are ⟮c:110;connected⟯ if ⟮c:111;there is a path between two vertices⟯, else ⟮s:110;they are ((c:112;::disconnected⟯.)) 
 ⟮c:114;A graph⟯ is ⟮c:115;connected⟯ if ⟮c:116;every pair of vertices are connected⟯, ergo ⟮c:117;s:gb;there is a path between any two vertices⟯, else it is ⟮c:118;s:gb;disconnected⟯. 
 ===<br>
 
-<br>---<br>
 A ⟮c:119;subgraph⟯ is a ⟮c:120;graph⟯ made up of ⟮c:121;a subset of⟯ ⟮c:122;vertices⟯ and ⟮c:122;edges⟯ of G. ⟮s:gb;The ((c:123;::subset of vertices⟯ ⟮c:125;must contain⟯ ⟮c:124;all endpoints of the edges⟯.)) 
 A ⟮c:126;subtree⟯ is a ⟮c:127;subgraph⟯ of a ⟮c:128;tree⟯. 
 A ⟮c:129;proper subgraph⟯ is a ⟮c:130;subgraph of the graph⟯ that ⟮c:131;is not the current graph (and analogously for subtree⟯) 
 ===<br>
 
-<br>---<br>
 ⟮c:132;Two vertices⟯ are ⟮c:133;adjacent⟯ if ⟮c:134;they share an edge (an edge exists between them⟯) 
 Equivalently, ⟮c:135;two vertices⟯ are ⟮c:136;adjacent⟯ if ⟮c:137;a path/walk/trail⟯ of ⟮c:138;length 1⟯ ⟮c:139;exists between them⟯. 
 ⟮c:140;Two edges⟯ are ⟮c:141;adjacent⟯ if ⟮c:142;they share a vertex⟯ 
@@ -556,19 +541,16 @@ The ⟮c:151;open neighborhood of v⟯ is ⟮c:152;the neighborhood⟯ ⟮c:153;
 
 ===<br>
 
-<br>---<br>
 A ⟮c:154;tree⟯ is an ⟮c:155;undirected⟯ ⟮c:156;connected⟯ ⟮c:157;acyclic⟯ ⟮c:158;graph⟯. 
 A ⟮c:159;rooted tree⟯ is ⟮c:160;a tree⟯ where ⟮c:161;one vertex has been designated the root⟯. 
 ===<br>
 
-<br>---<br>
 In comp. sci., a ⟮c:162;tree⟯ is ⟮c:163;an ADT (or data structure, if implemented⟯) which is ⟮c:164;a rooted tree⟯ with ⟮c:165;an implied natural direction of downwards from the root⟯. 
 The ⟮c:166;root path⟯ is the ⟮c:168;path⟯ ⟮c:167;from a vertex to the root vertex⟯. 
 The ⟮c:169;depth⟯ of ⟮c:170;a vertex⟯ in a tree (comp. sci. ADT) is ⟮c:171;the length of the root path⟯. 
 Going ⟮c:172;towards⟯ ⟮c:173;vertices⟯ with ⟮c:174;greater depth⟯ is known as ⟮c:175;downward⟯, and going ⟮c:172;towarrds⟯ ⟮c:173;vertices⟯ with ⟮c:174;smaller depth⟯ is known as ⟮c:175;upwards⟯. 
 ===<br>
 
-<br>---<br>
 A ⟮c:176;child⟯ of a vertex in a tree (comp. sci. ADT) is ⟮c:177;an adjacent vertex⟯ with ⟮c:178;a depth⟯ ⟮c:179;of one larger than the current vertex.⟯ 
 In ⟮c:180;a tree (comp. sci. ADT⟯) each vertex has ⟮c:181;0 - ∞⟯ ⟮c:182;child vertices⟯. 
 A vertex ⟮c:183;reachable by traversal through child vertices⟯ is ⟮c:184;a descendant vertex⟯. 
@@ -579,19 +561,16 @@ In ⟮c:198;a tree (comp. sci. ADT⟯) ⟮c:199;each vertex⟯ has ⟮c:201;one�
 ⟮c:202;A vertex⟯ ⟮c:203;reachable by traversal through parent vertices⟯ is ⟮c:204;an ancestor vertex⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:205;The height of a vertex⟯ is ⟮c:206;the length⟯ of ⟮c:207;the longest downward path to a vertex⟯. 
 ⟮c:208;The height of the root vertex⟯ is ⟮c:209;the height of the tree⟯ 
 ⟮c:210;A forest⟯ is ⟮c:211;a set of unconnected trees⟯. 
 ⟮c:212;The amount of child vertices⟯ in a tree is ⟮c:213;the breadth of the tree⟯. 
 ===<br>
 
-<br>---<br>
 A ⟮c:214;tree (comp. sci. ADT⟯) ⟮c:215;where any vertex has at most two child vertices⟯ is a ⟮c:216;binary tree⟯. 
 A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a search tree⟯. 
 ===<br>
 
-<br>---<br>
 ⟮c:219;Depth-first search⟯ is ⟮c:226;a tree traversal algorithm⟯ that ⟮c:228;visits⟯ ⟮c:224;children vertices⟯ ⟮c:228;before⟯ ⟮c:224;sibling vertices⟯ 
 ⟮c:220;Breadth-first search⟯ is ⟮c:227;a tree traversal algorithm⟯ that ⟮c:229;visits⟯ ⟮c:225;sibling vertices⟯ ⟮c:229;before⟯ ⟮c:225;children vertices⟯ 
 ⟮c:221;Depth-first search⟯ in the case of ⟮c:222;binary trees⟯ is commonly ⟮c:223;pre-order⟯, ⟮c:223;inorder⟯, or ⟮c:223;post-order⟯. 
@@ -611,17 +590,14 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
 
 #### binary search trees
 
-<br>---<br>
 A ⟮c:9;binary search tree⟯ is ⟮c:10;a binary tree⟯ defined by ⟮c:11;the properties⟯ of ⟮c:12;the keys⟯ of ⟮c:12;the vertices⟯ in ⟮c:13;the left and right subtrees⟯. 
 In a ⟮c:14;binary search tree⟯, ⟮c:18;the key in the current vertex⟯ is ⟮c:16;larger than⟯ ⟮c:20;the key in any vertices in the left subtree⟯. 
 In a ⟮c:15;binary search tree⟯, ⟮c:19;the key in the current vertex⟯ is ⟮c:17;smaller than⟯ ⟮c:21;the key in any vertices in the right subtree⟯. 
 ===<br>
 
-<br>---<br>
 To ⟮c:22;insert a vertex in a binary search tree⟯, we ⟮c:23;traverse the tree⟯ as if we were ⟮c:24;searching for the vertex⟯, then, ⟮s:gb;when ((c:25;::we hit a leaf⟯, we ⟮c:26;insert it⟯ as ⟮c:26;left or right (as the case may be⟯).)) 
 ===<br>
 
-<br>---<br>
 In ⟮c:26;deleting a vertex⟯ in ⟮c:23;a binary search tree⟯, if ⟮c:24;the vertex has no children⟯, ⟮c:25;simply delete the vertex⟯ 
 In ⟮c:27;deleting a vertex⟯ in ⟮c:28;a binary search tree⟯, if ⟮c:29;the vertex has one child⟯, ⟮c:30;set the reference of the parent to that of the child⟯ 
 In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33;the vertex has two children⟯, first take ⟮c:34;the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮c:35;S's⟯ ⟮c:36;value⟯, and ⟮c:37;replace⟯ ⟮c:35;N's⟯ ⟮c:36;value⟯ ⟮c:37;with it⟯ and then ⟮c:38;delete S⟯ with ⟮c:39;the appropriate method for 0/1-child vertices⟯. 
@@ -771,13 +747,11 @@ b^-n = 1/(b^{-1})
 
 #### idempotentitcity
 
-<br>---<br>
 A function/operation/etc. is ⟮c:1;idempotent⟯ if ⟮c:2;it can be applied mulitple times⟯ without ⟮c:3;changing the result⟯ ⟮c:4;beyond the initial application⟯. 
 Examples for i⟮c:5;dempotent functions⟯ include ⟮c:1;abs(x), floor(x), ceil(x) etc.⟯ 
 ===<br>
 
 <div class="flex-container">⟮h:all;uh:6-7;<img src="sm_256-512.png">⟯⟮h:all;uh:6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯</div>
-<br>---<br>
 the ⟮c:6;right image⟯'s button is ⟮c:7;idempotent⟯, the ⟮c:6;left image⟯'s is ⟮c:7;not⟯ 
 ===<br>
 
@@ -907,7 +881,6 @@ Q3|75%
 
 ### populations & samples
 
-<br>---<br>
 A ⟮c:1;parameter⟯ is a ⟮c:2;truth⟯ about ⟮c:2;the population⟯ 
 a ⟮c:3;statistic⟯ is a ⟮c:4;truth⟯ about ⟮c:4;a sample⟯ 
 A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;parameter⟯ is called an ⟮c:8;estimator⟯. 

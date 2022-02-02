@@ -164,7 +164,6 @@ Since clean language is ⟮c:46;very powerful at shining a spotlight⟯, it may 
 
 ## symbols
 
-<br>---<br>
 ⟮c:34;The things in a persons metaphor world⟯ are called ⟮c:35;symbols⟯. 
 The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its name⟯. 
 ⟮c:39;Symbols⟯ start out ⟮c:40;vague and shadowy⟯, ⟮c:41;asking clean language questions⟯ ⟮c:42;increases clarity⟯. 
@@ -286,7 +285,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 ## holding space
 
-<br>---<br>
 ⟮c:1;holding space⟯ is to ⟮c:4;be with someone,⟯ as much as possible ⟮c:2;making it about them, not about you⟯ and   ⟮c:3;accepting that person unconditionally (no matter what they might say⟯) 
 ===<br>
 
