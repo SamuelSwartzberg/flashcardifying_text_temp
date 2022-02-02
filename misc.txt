@@ -5140,9 +5140,7 @@ Imperfect of ir
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive – haber</th>
+span=2;Present Subjunctive – haber</th>
 </tr>
 </thead>
 <tbody>⟮c:1;haya⟯|⟮c:4;hayamos⟯
@@ -5153,9 +5151,7 @@ Imperfect of ir
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Pluperfecto en español</th>
+span=2;Pluperfecto en español</th>
 </tr>
 </thead>
 <tbody>⟮c:1;Había vivido⟯|⟮c:4;Habíamos vivido⟯
@@ -5166,9 +5162,7 @@ Imperfect of ir
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Hablar - future </th>
+span=2;Hablar - future </th>
 </tr>
 </thead>
 <tbody>⟮c:1;hablaré⟯|⟮c:4;hablaremos⟯
@@ -5188,9 +5182,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 ⟮c:1;Primero⟯ and ⟮c:1;tercero⟯ ⟮c:3;lose their o⟯ before ⟮c:2; singular masculine nouns⟯. 
 
 <table>
-<thead>
-<tr>
-<th colspan="2">cerrar e:ie present indicative conjugation</th>
+span=2;cerrar e:ie present indicative conjugation</th>
 </tr>
 </thead>
 <tbody><span class="c1-cloze">cierro</span>|<span class="c4-cloze">cerramos</span>
@@ -5201,9 +5193,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">vivir present indicative</th>
+span=2;vivir present indicative</th>
 </tr>
 </thead>
 <tbody>⟮c:1;vivo⟯|⟮c:4;vivimos⟯
@@ -5214,9 +5204,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">venir present indicative conjugation</th>
+span=2;venir present indicative conjugation</th>
 </tr>
 </thead>
 <tbody>⟮c:1;vengo⟯|⟮c:4;venimos⟯
@@ -5227,9 +5215,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">tener present indicative conjugation</th>
+span=2;tener present indicative conjugation</th>
 </tr>
 </thead>
 <tbody>⟮c:1;tengo⟯|⟮c:4;tenemos⟯
@@ -5240,9 +5226,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">repetir e:i present indicative conjugation</th>
+span=2;repetir e:i present indicative conjugation</th>
 </tr>
 </thead>
 <tbody>⟮c:1;repito⟯|⟮c:4;repetimos⟯
@@ -5253,9 +5237,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">posessive adjectives</th>
+span=2;posessive adjectives</th>
 </tr>
 </thead>
 <tbody>⟮c:1;mi(s⟯)|⟮c:4;nuestro(-a, -os, -as⟯)
@@ -5266,9 +5248,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">o:u preterite (dormir)</th>
+span=2;o:u preterite (dormir)</th>
 </tr>
 </thead>
 <tbody>⟮c:1;dormí⟯|⟮c:4;dormimos⟯
@@ -5279,9 +5259,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">hablar present indicative</th>
+span=2;hablar present indicative</th>
 </tr>
 </thead>
 <tbody>⟮c:1;hablo⟯|⟮c:4;hablamos⟯
@@ -5292,9 +5270,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">escribir - future</th>
+span=2;escribir - future</th>
 </tr>
 </thead>
 <tbody>⟮c:1;escribiré⟯|⟮c:4;escribiremos⟯
@@ -5305,9 +5281,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">e:i preterite (preferir)</th>
+span=2;e:i preterite (preferir)</th>
 </tr>
 </thead>
 <tbody>⟮c:1;preferí⟯|⟮c:4;preferimos⟯
@@ -5318,9 +5292,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">dormir o:ue present indicative conjugation</th>
+span=2;dormir o:ue present indicative conjugation</th>
 </tr>
 </thead>
 <tbody>⟮c:1;duermo⟯|⟮c:4;dormimos⟯
@@ -5331,9 +5303,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">comer present indicative</th>
+span=2;comer present indicative</th>
 </tr>
 </thead>
 <tbody>⟮c:1;como⟯|⟮c:4;comemos⟯
@@ -5344,9 +5314,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">comer - future</th>
+span=2;comer - future</th>
 </tr>
 </thead>
 <tbody>⟮c:1;comeré⟯|⟮c:4;comeremos⟯
@@ -5357,9 +5325,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Subjunctive present hablar</th>
+span=2;Subjunctive present hablar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;hable⟯|⟮c:4;hablemos⟯
@@ -5370,9 +5336,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Subjunctive present escribir</th>
+span=2;Subjunctive present escribir</th>
 </tr>
 </thead>
 <tbody>⟮c:1;escriba⟯|⟮c:4;escribamos⟯
@@ -5383,9 +5347,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Subjunctive present comer</th>
+span=2;Subjunctive present comer</th>
 </tr>
 </thead>
 <tbody>⟮c:1;coma⟯|⟮c:4;comamos⟯
@@ -5396,9 +5358,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Preterite of ver</th>
+span=2;Preterite of ver</th>
 </tr>
 </thead>
 <tbody>⟮c:1;vi⟯|⟮c:4;vimos⟯
@@ -5409,9 +5369,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Preterite of traer</th>
+span=2;Preterite of traer</th>
 </tr>
 </thead>
 <tbody>⟮c:1;traje⟯|⟮c:4;trajimos⟯
@@ -5422,9 +5380,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Preterite of decir</th>
+span=2;Preterite of decir</th>
 </tr>
 </thead>
 <tbody>⟮c:1;dije⟯|⟮c:4;dijimos⟯
@@ -5435,9 +5391,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Preterite of -ucir verbs such as producir</th>
+span=2;Preterite of -ucir verbs such as producir</th>
 </tr>
 </thead>
 <tbody>⟮c:1;produje⟯|⟮c:4;produjimos⟯
@@ -5448,9 +5402,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive – ser</th>
+span=2;Present Subjunctive – ser</th>
 </tr>
 </thead>
 <tbody>⟮c:1;sea⟯|⟮c:4;seamos⟯
@@ -5461,9 +5413,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive – saber</th>
+span=2;Present Subjunctive – saber</th>
 </tr>
 </thead>
 <tbody>⟮c:1;sepa⟯|⟮c:4;sepamos⟯
@@ -5474,9 +5424,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive – ir</th>
+span=2;Present Subjunctive – ir</th>
 </tr>
 </thead>
 <tbody>⟮c:1;vaya⟯|⟮c:4;vayamos⟯
@@ -5487,9 +5435,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive – estar</th>
+span=2;Present Subjunctive – estar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;esté⟯|⟮c:4;estemos⟯
@@ -5500,9 +5446,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Present Subjunctive - dar</th>
+span=2;Present Subjunctive - dar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;dé⟯|⟮c:4;demos⟯
@@ -5513,9 +5457,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Imperfect subjunctive -se cantar</th>
+span=2;Imperfect subjunctive -se cantar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;cantase⟯|⟮c:4;cantásemos⟯
@@ -5526,9 +5468,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Imperfect subjunctive -a form for cantar</th>
+span=2;Imperfect subjunctive -a form for cantar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;cantara⟯|⟮c:4;cantáramos⟯
@@ -5539,9 +5479,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Conditional vivir</th>
+span=2;Conditional vivir</th>
 </tr>
 </thead>
 <tbody>⟮c:1;viviría⟯|⟮c:4;viviríamos⟯
@@ -5552,9 +5490,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Conditional hablar</th>
+span=2;Conditional hablar</th>
 </tr>
 </thead>
 <tbody>⟮c:1;hablaría⟯|⟮c:4;hablaríamos⟯
@@ -5565,9 +5501,7 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 </table>
 
 <table class="cloze-group hide-if-inactive">
-<thead>
-<tr>
-<th colspan="2">Conditional comer</th>
+span=2;Conditional comer</th>
 </tr>
 </thead>
 <tbody>⟮c:1;comería⟯|⟮c:4;comeríamos⟯

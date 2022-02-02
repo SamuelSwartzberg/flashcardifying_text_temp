@@ -3166,9 +3166,7 @@ navigation keys are keys that move the viewport or the cursor.
 
 The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c:8;text-editing⟯, ⟮c:7;and the view⟯ when ⟮c:8;not⟯.
 <table>
-  <thead>
-    <tr>
-      <th colspan="2">Text-editing context</th>
+  span=2;Text-editing context</th>
     </tr>
     <tr>
       <th>Key</th>
@@ -3182,9 +3180,7 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
   </tbody>
 </table>
 <table>
-  <thead>
-    <tr>
-      <th colspan="2">Non-text-editing context</th>
+  span=2;Non-text-editing context</th>
     </tr>
     <tr>
       <th>Key</th>
@@ -3201,9 +3197,7 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
 The ⟮c:9;function key⟯ is used to ⟮c:10;simulate home/end/pgup/pgdown⟯ via ⟮c:11;the arrow keys⟯ on ⟮c:12;smaller formfactors⟯. 
 
 <table>
-  <thead>
-    <tr>
-      <th colspan="2">Laptops and other small form factors</th>
+  span=2;Laptops and other small form factors</th>
     </tr>
     <tr>
       <th>Is simulated by</th>
@@ -3382,9 +3376,7 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 
 <br><table>
-  <thead>
-    <tr>
-      <th colspan="2">macOs Dialogs</th>
+  span=2;macOs Dialogs</th>
     </tr>
     <tr>
       <th>Action</th>
@@ -3398,9 +3390,7 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 
 <table>
-  <thead>
-    <tr>
-      <th colspan="2">Magnifying glass</th>
+  span=2;Magnifying glass</th>
     </tr>
     <tr>
       <th>Action</th>
@@ -8283,8 +8273,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   </th></tr>
   <tr>
   <th>Maximum transfer rate
-  </th>
-  <td colspan="2">12 Mbps
+  |span=2;12 Mbps
   |span=2;480 Mbps
   |5 Gbps
   |10 Gbps
@@ -8293,16 +8282,14 @@ Within USB 3, usb 3.1 and 3.2 were renamed
 
   <tr>
   <th>Type A
-  </th>
-  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
+  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67">
   </td>
   <td colspan="2" class="no">Deprecated
 
   <tr>
   <th>Type B
-  </th>
-  <td colspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
+  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
   |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75">
   </td>
   <td colspan="2" class="no">Deprecated

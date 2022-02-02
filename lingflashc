@@ -1465,7 +1465,7 @@ structure of the syllable
 | </tr>
 | <tr>
 ||<td>⟮c:2;s:4-5;Onset⟯</td>
-||<td colspan="2">⟮c:3;s:4-5;Rhyme⟯</td>
+|||span=2;⟮c:3;s:4-5;Rhyme⟯</td>
 | </tr>
 | <tr>
 ||<td></td>
@@ -2981,9 +2981,7 @@ There is no agreement on whether ⟮c:9;widows or orphans⟯ refers to the thing
 Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;verso⟯ is ⟮c:6;the back of the page⟯. 
 ⟮c:7;Recto⟯ is ⟮c:8;the front of the page⟯ since ⟮c:9;you will see it first if reading the book normally⟯, while ⟮c:7;verso⟯ is ⟮c:8;the back of the page⟯ since ⟮c:9;you will only see it once turning the page if reading the book normally⟯. 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-  <tr>
-    <th colspan="2">What do you call these pages? (LtR)</th></tr></thead>
+  span=2;What do you call these pages? (LtR)</th></tr></thead>
   <tbody>span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
@@ -3034,9 +3032,7 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
   </tbody>
 </table>
 <table class="cloze-group hide-if-inactive">
-    <thead>
-  <tr>
-    <th colspan="2">What do you call these pages? (RtL)</th></tr></thead>
+    span=2;What do you call these pages? (RtL)</th></tr></thead>
   <tbody>span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
@@ -3243,9 +3239,7 @@ In ⟮c:17;bicameral⟯ writing systems, ⟮c:18;the uppercase letters⟯ are �
 
     
   <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr>
-      <th colspan="3">Types of interesting capitalization</th>
+  span=3;Types of interesting capitalization</th>
     </tr>
     <tr>
       <th>Name</th>
