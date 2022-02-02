@@ -2801,7 +2801,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1⟯|⟮c:7;clitoris⟯
 ⟮c:2;2⟯|⟮c:8;clitoral hood⟯
-⟮c:3;3⟯|<span class="c9-cloze">labia minora</span>
+⟮c:3;3⟯|⟮c9;labia minora⟯
 ⟮c:4;4⟯|⟮c:10;urethra⟯
 ⟮c:5;5⟯|⟮c:11;vagina⟯
 ⟮c:6;6⟯|⟮c:12;labia majora⟯
@@ -4626,9 +4626,9 @@ Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are t
     <tr><th>Shell Number</th>
     <th>Shell Letter</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children"><span class="c7-cloze">1</span>|<span class="c8-cloze">K</span>
-<span class="c9-cloze">2</span>|<span class="c10-cloze">L</span>
-<span class="c11-cloze">3</span>|<span class="c12-cloze">M</span>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c7;1⟯|⟮c8;K⟯
+⟮c9;2⟯|⟮c10;L⟯
+⟮c11;3⟯|⟮c12;M⟯
 etc...|etc...
 
   </tbody>
@@ -4640,9 +4640,9 @@ The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number 
     <tr><th>Shell</th>
     <th>Can hold this many electrons</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children"><span class="c18-cloze">1 / K</span>|<span class="c19-cloze">2</span>
-<span class="c20-cloze">2 / L</span>|<span class="c21-cloze">8 (2 + 6)</span>
-<span class="c22-cloze">3 / M</span>|<span class="c23-cloze">18 (2 + 6 + 10)</span>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c18;1 / K⟯|⟮c19;2⟯
+⟮c20;2 / L⟯|⟮c21;8 (2 + 6)⟯
+⟮c22;3 / M⟯|⟮c23;18 (2 + 6 + 10)⟯
 etc...|etc...
 
   </tbody>
@@ -5185,9 +5185,9 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 span=2;cerrar e:ie present indicative conjugation</th>
 </tr>
 </thead>
-<tbody><span class="c1-cloze">cierro</span>|<span class="c4-cloze">cerramos</span>
-<span class="c2-cloze">cierras</span>|<span class="c5-cloze">cerráis</span>
-<span class="c3-cloze">cierra</span>|<span class="c6-cloze">cierran</span>
+<tbody>⟮c1;cierro⟯|⟮c4;cerramos⟯
+⟮c2;cierras⟯|⟮c5;cerráis⟯
+⟮c3;cierra⟯|⟮c6;cierran⟯
 
 </tbody>
 </table>

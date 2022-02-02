@@ -846,12 +846,12 @@ A static NodeList (or similar) does not reflect changes in the DOM
 <table>
   <tbody>
     <tr>
-      <th colspan="5"><span class="c9-cloze">Node</span></th>
+      <th colspan="5">⟮c9;Node⟯</th>
     </tr>others...|
         <table>
           <tbody>
             <tr>
-              <th colspan="3"><span class="c12-cloze">Element</span></th>
+              <th colspan="3">⟮c12;Element⟯</th>
             </tr>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
 
           </tbody>
@@ -860,15 +860,15 @@ A static NodeList (or similar) does not reflect changes in the DOM
         <table>
           <tbody>
             <tr>
-              <th colspan="2"><span class="c8-cloze">Document</span></th>
+              <th colspan="2">⟮c8;Document⟯</th>
             </tr><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
 
           </tbody>
         </table>
-      |<table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table>|
+      |<table><tbody><tr><th>⟮c5;DocumentFragment⟯</th></tr></tbody></table>|
         <table>
           <tbody><tr>
-            <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
+            <th colspan="3">⟮c1;CharacterData⟯</th>
           </tr><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
 
         </tbody></table>

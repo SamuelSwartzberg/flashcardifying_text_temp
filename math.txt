@@ -904,22 +904,22 @@ B|byte
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<span class="c5-cloze">femto</span>|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span>
-<span class="c15-cloze">pico</span>|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span>
-<span class="c13-cloze">nano</span>|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span>
-<span class="c11-cloze">micro</span>|<span class="c27-cloze">10<sup>−6</sup> = 0.000001</span>
-<span class="c12-cloze">milli</span>|<span class="c28-cloze">10<sup>−3</sup> = 0.001</span>
-<span class="c1-cloze">centi</span>|<span class="c17-cloze">10<sup>−2</sup> = 0.01</span>
-<span class="c3-cloze">deci</span>|<span class="c19-cloze">10<sup>−1</sup> = 0.1</span>
+⟮c5;femto⟯|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span>
+⟮c15;pico⟯|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span>
+⟮c13;nano⟯|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span>
+⟮c11;micro⟯|<span class="c27-cloze">10<sup>−6</sup> = 0.000001</span>
+⟮c12;milli⟯|<span class="c28-cloze">10<sup>−3</sup> = 0.001</span>
+⟮c1;centi⟯|<span class="c17-cloze">10<sup>−2</sup> = 0.01</span>
+⟮c3;deci⟯|<span class="c19-cloze">10<sup>−1</sup> = 0.1</span>
     1|1^0|ø
-<span class="c2-cloze">deca</span>|<span class="c18-cloze">10<sup>1</sup> = 10</span>
-<span class="c7-cloze">hecto</span>|<span class="c23-cloze">10<sup>2</sup> = 100</span>
-<span class="c9-cloze">kilo</span>|<span class="c25-cloze">10<sup>3</sup> = 1000</span>
-<span class="c10-cloze">mega</span>|<span class="c26-cloze">10<sup>6</sup> = 1000000</span>
-<span class="c6-cloze">giga</span>|<span class="c22-cloze">10<sup>9</sup> = 1000000000</span>
-<span class="c16-cloze">tera</span>|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span>
-<span class="c14-cloze">peta</span>|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span>
-<span class="c4-cloze">exa</span>|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span>
+⟮c2;deca⟯|<span class="c18-cloze">10<sup>1</sup> = 10</span>
+⟮c7;hecto⟯|<span class="c23-cloze">10<sup>2</sup> = 100</span>
+⟮c9;kilo⟯|<span class="c25-cloze">10<sup>3</sup> = 1000</span>
+⟮c10;mega⟯|<span class="c26-cloze">10<sup>6</sup> = 1000000</span>
+⟮c6;giga⟯|<span class="c22-cloze">10<sup>9</sup> = 1000000000</span>
+⟮c16;tera⟯|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span>
+⟮c14;peta⟯|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span>
+⟮c4;exa⟯|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span>
   </tbody>
 </table>
 

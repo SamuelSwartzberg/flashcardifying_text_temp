@@ -344,17 +344,17 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 <table class="blank-canvas">
   <tbody>
     <tr>
-      <td colspan="2" class="inner"><span class="c1-cloze">DP</span>
+      <td colspan="2" class="inner">⟮c1;DP⟯
 
     <tr>
-      <td class="inner"><span class="c2-cloze">AP</span></td>
-      <td colspan="2" class="inner"><span class="c3-cloze">NP</span>
+      <td class="inner">⟮c2;AP⟯</td>
+      <td colspan="2" class="inner">⟮c3;NP⟯
 </td>
-      <td class="inner"><span class="c4-cloze">AP</span></td>
-      <td class="inner" colspan="2"><span class="c5-cloze">NP</span>
+      <td class="inner">⟮c4;AP⟯</td>
+      <td class="inner" colspan="2">⟮c5;NP⟯
 |</td>      
-      <td class="inner"><span class="c6-cloze">N</span></td>
-      <td class="inner"><span class="c7-cloze">PP</span>
+      <td class="inner">⟮c6;N⟯</td>
+      <td class="inner">⟮c7;PP⟯
 
   </tbody>
 </table>
@@ -362,17 +362,17 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 <table class="blank-canvas">
   <tbody>
     <tr>
-      <td colspan="2" class="inner"><span class="c1-cloze">DP</span>
+      <td colspan="2" class="inner">⟮c1;DP⟯
 
     <tr>
-      <td class="inner"><span class="c2-cloze">D</span></td>
-      <td colspan="2" class="inner"><span class="c3-cloze">NP</span>
+      <td class="inner">⟮c2;D⟯</td>
+      <td colspan="2" class="inner">⟮c3;NP⟯
 </td>
-      <td class="inner"><span class="c4-cloze">AP</span></td>
-      <td class="inner" colspan="2"><span class="c5-cloze">NP</span>
+      <td class="inner">⟮c4;AP⟯</td>
+      <td class="inner" colspan="2">⟮c5;NP⟯
 |</td>      
-      <td class="inner"><span class="c6-cloze">N</span></td>
-      <td class="inner"><span class="c7-cloze">PP</span>
+      <td class="inner">⟮c6;N⟯</td>
+      <td class="inner">⟮c7;PP⟯
 
     <tr>
       <td class="leaf">the</td>
@@ -438,17 +438,17 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 <table class="blank-canvas">
   <tbody>
     <tr>
-      <td colspan="2" class="inner"><span class="c1-cloze">NP</span>
+      <td colspan="2" class="inner">⟮c1;NP⟯
 
     <tr>
-      <td class="inner"><span class="c2-cloze">D</span></td>
-      <td colspan="2" class="inner"><span class="c3-cloze">N'</span>
+      <td class="inner">⟮c2;D⟯</td>
+      <td colspan="2" class="inner">⟮c3;N'⟯
 </td>
-      <td class="inner"><span class="c4-cloze">AP</span></td>
-      <td class="inner" colspan="2"><span class="c5-cloze">N'</span>
+      <td class="inner">⟮c4;AP⟯</td>
+      <td class="inner" colspan="2">⟮c5;N'⟯
 |</td>      
-      <td class="inner"><span class="c6-cloze">N</span></td>
-      <td class="inner"><span class="c7-cloze">PP</span>
+      <td class="inner">⟮c6;N⟯</td>
+      <td class="inner">⟮c7;PP⟯
 
     <tr>
       <td class="leaf">the</td>
@@ -2245,34 +2245,34 @@ td {
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<span class="c1-cloze">Close </span>|<span class="c29-cloze">Back</span>|<span class="c29-cloze">Rounded</span>|<span class="c29-cloze">u</span>
-<span class="c2-cloze">Close </span>|<span class="c30-cloze">Back</span>|<span class="c30-cloze">Unrounded</span>|<span class="c30-cloze">ɯ</span>
-<span class="c3-cloze">Close </span>|<span class="c31-cloze">Central</span>|<span class="c31-cloze">Rounded</span>|<span class="c31-cloze">ʉ</span>
-<span class="c4-cloze">Close </span>|<span class="c32-cloze">Central</span>|<span class="c32-cloze">Unrounded</span>|<span class="c32-cloze">ɨ</span>
-<span class="c5-cloze">Close </span>|<span class="c33-cloze">Front</span>|<span class="c33-cloze">Rounded</span>|<span class="c33-cloze">y</span>
-<span class="c6-cloze">Close-mid</span>|<span class="c34-cloze">Central</span>|<span class="c34-cloze">Unrounded</span>|<span class="c34-cloze"><span class="ipa">ɘ</span></span>
-<span class="c7-cloze">Close-mid</span>|<span class="c35-cloze">Back</span>|<span class="c35-cloze">Rounded</span>|<span class="c35-cloze">o</span>
-<span class="c8-cloze">Close-mid</span>|<span class="c36-cloze">Back</span>|<span class="c36-cloze">Unrounded</span>|<span class="c36-cloze">ɤ</span>
-<span class="c9-cloze">Close-mid</span>|<span class="c37-cloze">Central</span>|<span class="c37-cloze">Rounded</span>|<span class="c37-cloze">ɵ</span>
-<span class="c10-cloze">Close-mid</span>|<span class="c38-cloze">Front</span>|<span class="c38-cloze">Rounded</span>|<span class="c38-cloze">ø</span>
-<span class="c11-cloze">Close-mid</span>|<span class="c39-cloze">Front</span>|<span class="c39-cloze">Unrounded</span>|<span class="c39-cloze">e</span>
-<span class="c12-cloze">Close</span>|<span class="c40-cloze">Front</span>|<span class="c40-cloze">Unrounded</span>|<span class="c40-cloze">i</span>
-<span class="c13-cloze">Open-mid</span>|<span class="c41-cloze">Back</span>|<span class="c41-cloze">Rounded</span>|<span class="c41-cloze">ɔ</span>
-<span class="c14-cloze">Open-mid</span>|<span class="c42-cloze">Back</span>|<span class="c42-cloze">Unrounded</span>|<span class="c42-cloze">ʌ (not ^)</span>
-<span class="c15-cloze">Open-mid</span>|<span class="c43-cloze">Central</span>|<span class="c43-cloze">Rounded</span>|<span class="c43-cloze">ɞ</span>
-<span class="c16-cloze">Open-mid</span>|<span class="c44-cloze">Central</span>|<span class="c44-cloze">Unrounded</span>|<span class="c44-cloze">ɜ</span>
-<span class="c17-cloze">Open-mid</span>|<span class="c45-cloze">Front</span>|<span class="c45-cloze">Rounded</span>|<span class="c45-cloze">œ</span>
-<span class="c18-cloze">Open-mid</span>|<span class="c46-cloze">Front</span>|<span class="c46-cloze">Unrounded</span>|<span class="c46-cloze">ɛ</span>
-<span class="c19-cloze">Open</span>|<span class="c47-cloze">Back</span>|<span class="c47-cloze">Rounded</span>|<span class="c47-cloze">ɒ</span>
-<span class="c20-cloze">Open</span>|<span class="c48-cloze">Back</span>|<span class="c48-cloze">Unrounded</span>|<span class="c48-cloze">ɑ</span>
-<span class="c21-cloze">Open</span>|<span class="c49-cloze">Front</span>|<span class="c49-cloze">Rounded</span>|<span class="c49-cloze">ɶ</span>
-<span class="c22-cloze">Open</span>|<span class="c50-cloze">Front</span>|<span class="c50-cloze">Unrounded</span>|<span class="c50-cloze">a</span>
-<span class="c23-cloze">Mid</span>|<span class="c51-cloze">central</span>|<span class="c51-cloze">both unrounded and rounded</span>|<span class="c51-cloze">ə (=Schwa)</span>
-<span class="c24-cloze">Near-close</span>|<span class="c52-cloze">back (or near-back, debate exists)</span>|<span class="c52-cloze">rounded</span>|<span class="c52-cloze">ʊ</span>
-<span class="c25-cloze">Near-close</span>|<span class="c53-cloze">front (or near-front, debate exists)</span>|<span class="c53-cloze">rounded </span>|<span class="c53-cloze">ʏ</span>
-<span class="c26-cloze">Near-close</span>|<span class="c54-cloze">front (or near-front, debate exists)</span>|<span class="c54-cloze">unrounded</span>|<span class="c54-cloze">ɪ (sm. cap. i, often w serifs)</span>
-<span class="c27-cloze">Near-open</span>|<span class="c55-cloze">central</span>|<span class="c55-cloze">unrounded or rounded</span>|<span class="c55-cloze">ɐ</span>
-<span class="c28-cloze">Near-open</span>|<span class="c56-cloze">front</span>|<span class="c56-cloze">unrounded (sometimes also rounded)</span>|<span class="c56-cloze">æ</span>
+⟮c1;Close ⟯|⟮c29;Back⟯|⟮c29;Rounded⟯|⟮c29;u⟯
+⟮c2;Close ⟯|⟮c30;Back⟯|⟮c30;Unrounded⟯|⟮c30;ɯ⟯
+⟮c3;Close ⟯|⟮c31;Central⟯|⟮c31;Rounded⟯|⟮c31;ʉ⟯
+⟮c4;Close ⟯|⟮c32;Central⟯|⟮c32;Unrounded⟯|⟮c32;ɨ⟯
+⟮c5;Close ⟯|⟮c33;Front⟯|⟮c33;Rounded⟯|⟮c33;y⟯
+⟮c6;Close-mid⟯|⟮c34;Central⟯|⟮c34;Unrounded⟯|<span class="c34-cloze"><span class="ipa">ɘ</span></span>
+⟮c7;Close-mid⟯|⟮c35;Back⟯|⟮c35;Rounded⟯|⟮c35;o⟯
+⟮c8;Close-mid⟯|⟮c36;Back⟯|⟮c36;Unrounded⟯|⟮c36;ɤ⟯
+⟮c9;Close-mid⟯|⟮c37;Central⟯|⟮c37;Rounded⟯|⟮c37;ɵ⟯
+⟮c10;Close-mid⟯|⟮c38;Front⟯|⟮c38;Rounded⟯|⟮c38;ø⟯
+⟮c11;Close-mid⟯|⟮c39;Front⟯|⟮c39;Unrounded⟯|⟮c39;e⟯
+⟮c12;Close⟯|⟮c40;Front⟯|⟮c40;Unrounded⟯|⟮c40;i⟯
+⟮c13;Open-mid⟯|⟮c41;Back⟯|⟮c41;Rounded⟯|⟮c41;ɔ⟯
+⟮c14;Open-mid⟯|⟮c42;Back⟯|⟮c42;Unrounded⟯|⟮c42;ʌ (not ^)⟯
+⟮c15;Open-mid⟯|⟮c43;Central⟯|⟮c43;Rounded⟯|⟮c43;ɞ⟯
+⟮c16;Open-mid⟯|⟮c44;Central⟯|⟮c44;Unrounded⟯|⟮c44;ɜ⟯
+⟮c17;Open-mid⟯|⟮c45;Front⟯|⟮c45;Rounded⟯|⟮c45;œ⟯
+⟮c18;Open-mid⟯|⟮c46;Front⟯|⟮c46;Unrounded⟯|⟮c46;ɛ⟯
+⟮c19;Open⟯|⟮c47;Back⟯|⟮c47;Rounded⟯|⟮c47;ɒ⟯
+⟮c20;Open⟯|⟮c48;Back⟯|⟮c48;Unrounded⟯|⟮c48;ɑ⟯
+⟮c21;Open⟯|⟮c49;Front⟯|⟮c49;Rounded⟯|⟮c49;ɶ⟯
+⟮c22;Open⟯|⟮c50;Front⟯|⟮c50;Unrounded⟯|⟮c50;a⟯
+⟮c23;Mid⟯|⟮c51;central⟯|⟮c51;both unrounded and rounded⟯|⟮c51;ə (=Schwa)⟯
+⟮c24;Near-close⟯|⟮c52;back (or near-back, debate exists)⟯|⟮c52;rounded⟯|⟮c52;ʊ⟯
+⟮c25;Near-close⟯|⟮c53;front (or near-front, debate exists)⟯|⟮c53;rounded ⟯|⟮c53;ʏ⟯
+⟮c26;Near-close⟯|⟮c54;front (or near-front, debate exists)⟯|⟮c54;unrounded⟯|⟮c54;ɪ (sm. cap. i, often w serifs)⟯
+⟮c27;Near-open⟯|⟮c55;central⟯|⟮c55;unrounded or rounded⟯|⟮c55;ɐ⟯
+⟮c28;Near-open⟯|⟮c56;front⟯|⟮c56;unrounded (sometimes also rounded)⟯|⟮c56;æ⟯
   </tbody>
 </table>
 
