@@ -274,9 +274,9 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
     <th>de</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;And is there anything else about X?⟯</td> <td>⟮c:2;Und ist da noch etwas ueber X?⟯</td></tr>
-<tr><td>⟮c:3;(And) where(abouts) is X?⟯</td> <td>⟮c:4;(und) wo (genau) ist X?⟯</td></tr>
-<tr><td>⟮c:5;(And) what kind of X (is that X?⟯)</td> <td>⟮c:6;(Und) was fuer eine Art von X (ist dieses X)?⟯</td></tr>
+    <tr><td>⟮c:1;And is there anything else about X?⟯|⟮c:2;Und ist da noch etwas ueber X?⟯</td></tr>
+<tr><td>⟮c:3;(And) where(abouts) is X?⟯|⟮c:4;(und) wo (genau) ist X?⟯</td></tr>
+<tr><td>⟮c:5;(And) what kind of X (is that X?⟯)|⟮c:6;(Und) was fuer eine Art von X (ist dieses X)?⟯</td></tr>
   </tbody>
 </table>
 
@@ -295,8 +295,8 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 <th>Examples</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;open(-ended) question⟯</td> <td>⟮c:2;A question that invites a detailed answer⟯</td> <td>⟮c:3;s:2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯</td></tr>
-<tr><td>⟮c:4;closed(-ended) question⟯</td> <td>⟮c:5;A question that can (only) be answered with yes or no⟯</td> <td>⟮c:6;s:5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯</td></tr>
+    <tr><td>⟮c:1;open(-ended) question⟯|⟮c:2;A question that invites a detailed answer⟯|⟮c:3;s:2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯</td></tr>
+<tr><td>⟮c:4;closed(-ended) question⟯|⟮c:5;A question that can (only) be answered with yes or no⟯|⟮c:6;s:5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯</td></tr>
   </tbody>
 </table>
 

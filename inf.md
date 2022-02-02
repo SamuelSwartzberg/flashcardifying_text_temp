@@ -87,8 +87,8 @@ In HTML 5, the doctype no longer actually references a DTD, but merely prevents 
 PI|Processing instruction
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Begins a processing instruction⟯</td> <td>⟮c:2;&lt;?⟯</td></tr>
-<tr><td>⟮c:3;Ends a processing instruction⟯</td> <td>⟮c:4;?&gt;⟯</td></tr>
+    <tr><td>⟮c:1;Begins a processing instruction⟯|⟮c:2;&lt;?⟯</td></tr>
+<tr><td>⟮c:3;Ends a processing instruction⟯|⟮c:4;?&gt;⟯</td></tr>
   </tbody>
 </table>
 
@@ -565,10 +565,10 @@ The ⟮c:28;[option]⟯ for ⟮c:29;table, figure⟯ says ⟮c:30;where roughly 
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;h⟯</td> <td>⟮c:2;place where it appeared in the source text as much asp possible⟯</td></tr>
-<tr><td>⟮c:3;H⟯</td> <td>⟮c:4;force place where it appears (basically turn it into a nonfloat⟯)</td></tr>
-<tr><td>⟮c:5;p⟯</td> <td>⟮c:6;special page for floats only⟯</td></tr>
-<tr><td>⟮c:7;t/b⟯</td> <td>⟮c:8;place at top / bottom of page (respectively⟯)</td></tr>
+    <tr><td>⟮c:1;h⟯|⟮c:2;place where it appeared in the source text as much asp possible⟯</td></tr>
+<tr><td>⟮c:3;H⟯|⟮c:4;force place where it appears (basically turn it into a nonfloat⟯)</td></tr>
+<tr><td>⟮c:5;p⟯|⟮c:6;special page for floats only⟯</td></tr>
+<tr><td>⟮c:7;t/b⟯|⟮c:8;place at top / bottom of page (respectively⟯)</td></tr>
   </tbody>
 </table>
 
@@ -3070,8 +3070,8 @@ The ⟮c:24;first line⟯ of ⟮c:25;csv/tsv⟯ may be ⟮c:26;a header⟯.
     <th>separates fields how</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;csv⟯</td> <td>⟮c:2;with commas⟯, sometimes also ⟮c:30;arbitrary different characters⟯</td></tr>
-<tr><td>⟮c:3;tsv⟯</td> <td>⟮c:4;with tags⟯</td></tr>
+    <tr><td>⟮c:1;csv⟯|⟮c:2;with commas⟯, sometimes also ⟮c:30;arbitrary different characters⟯</td></tr>
+<tr><td>⟮c:3;tsv⟯|⟮c:4;with tags⟯</td></tr>
   </tbody>
 </table>
 Neither ⟮c:30;csv⟯ nor ⟮c:30;tsv⟯ are ⟮c:31;fully standardized⟯, or rather ⟮c:32;the specs aren't always followed⟯. 
@@ -3289,9 +3289,9 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:16;Home key⟯</td><td>⟮c:17;Move the cursor to beginning of line⟯</td></tr>
-    <tr><td>⟮c:18;End key⟯</td><td>⟮c:19;Move the cursor to end of line⟯</td></tr>
-    <tr><td>⟮c:20;Pg Up / Pg down⟯</td><td>⟮c:21;Go up/down a page⟯</td></tr>
+    <tr><td>⟮c:16;Home key⟯|⟮c:17;Move the cursor to beginning of line⟯</td></tr>
+    <tr><td>⟮c:18;End key⟯|⟮c:19;Move the cursor to end of line⟯</td></tr>
+    <tr><td>⟮c:20;Pg Up / Pg down⟯|⟮c:21;Go up/down a page⟯</td></tr>
   </tbody>
 </table>
 <table>
@@ -3305,9 +3305,9 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:22;Home key⟯</td><td>⟮c:23;Go to beginning of document⟯</td></tr>
-    <tr><td>⟮c:24;End key⟯</td><td>⟮c:25;Go to end of document⟯</td></tr>
-    <tr><td>⟮c:26;Pg Up / Pg down⟯</td><td>⟮c:27;Go up/down a page⟯</td></tr>
+    <tr><td>⟮c:22;Home key⟯|⟮c:23;Go to beginning of document⟯</td></tr>
+    <tr><td>⟮c:24;End key⟯|⟮c:25;Go to end of document⟯</td></tr>
+    <tr><td>⟮c:26;Pg Up / Pg down⟯|⟮c:27;Go up/down a page⟯</td></tr>
   </tbody>
 </table>
 
@@ -3324,8 +3324,8 @@ The ⟮c:9;function key⟯ is used to ⟮c:10;simulate home/end/pgup/pgdown⟯ v
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:28;Home key/End key⟯</td><td>⟮c:29;fn left/right arrow⟯</td></tr>
-    <tr><td>⟮c:30;Pg Up / Pg down⟯</td><td>⟮c:31;fn + up/down arrow⟯</td></tr>
+    <tr><td>⟮c:28;Home key/End key⟯|⟮c:29;fn left/right arrow⟯</td></tr>
+    <tr><td>⟮c:30;Pg Up / Pg down⟯|⟮c:31;fn + up/down arrow⟯</td></tr>
   </tbody>
 </table>
 
@@ -3342,8 +3342,8 @@ on ⟮c:13;macOS⟯ ⟮c:14;home, end, pgup, pgdown⟯ only ever ⟮c:15;move th
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:32;cmd + left/right⟯</td><td>⟮c:33;moves the cursor to the beginning/end of the line⟯</td></tr>
-    <tr><td>⟮c:34;cmd + up/down⟯</td><td>⟮c:35;oves the cursor to the beginning/end of the document⟯</td></tr>
+    <tr><td>⟮c:32;cmd + left/right⟯|⟮c:33;moves the cursor to the beginning/end of the line⟯</td></tr>
+    <tr><td>⟮c:34;cmd + up/down⟯|⟮c:35;oves the cursor to the beginning/end of the document⟯</td></tr>
   </tbody>
 </table>
 
@@ -3360,11 +3360,11 @@ on ⟮c:13;macOS⟯ ⟮c:14;home, end, pgup, pgdown⟯ only ever ⟮c:15;move th
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:36;alt + left/right⟯</td><td>⟮c:37;go to beginning/end of word (mac⟯)</td></tr>
-    <tr><td>⟮c:38;ctrl + up/down⟯</td><td>⟮c:39;go to beginning/end of word (win/linux⟯)</td></tr>
-    <tr><td>⟮c:40;alt + backspace/delete⟯</td><td>⟮c:41;delete to beginning/end of word (mac⟯)</td></tr>
-    <tr><td>⟮c:42;ctrl + backspace/delete⟯</td><td>⟮c:43;delete to beginning/end of word (win/linux⟯)</td></tr>
-    <tr><td>⟮c:44;cmd + backspace⟯</td><td>⟮c:45;delete to beginning of line (mac⟯)</td></tr>
+    <tr><td>⟮c:36;alt + left/right⟯|⟮c:37;go to beginning/end of word (mac⟯)</td></tr>
+    <tr><td>⟮c:38;ctrl + up/down⟯|⟮c:39;go to beginning/end of word (win/linux⟯)</td></tr>
+    <tr><td>⟮c:40;alt + backspace/delete⟯|⟮c:41;delete to beginning/end of word (mac⟯)</td></tr>
+    <tr><td>⟮c:42;ctrl + backspace/delete⟯|⟮c:43;delete to beginning/end of word (win/linux⟯)</td></tr>
+    <tr><td>⟮c:44;cmd + backspace⟯|⟮c:45;delete to beginning of line (mac⟯)</td></tr>
   </tbody>
 </table>
 
@@ -3387,10 +3387,10 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;Close tab/window⟯</td><td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>w</kbd> ⟯</td></tr>
-<tr><td>⟮c:3;New tab⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯</td></tr>
-<tr><td>⟮c:5;Quit app⟯</td><td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>q</kbd> ⟯</td></tr>
-<tr><td>⟮c:7;Restore tab (editor in VS code⟯)</td><td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯</td></tr>
+<tr><td>⟮c:1;Close tab/window⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>w</kbd> ⟯</td></tr>
+<tr><td>⟮c:3;New tab⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯</td></tr>
+<tr><td>⟮c:5;Quit app⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>q</kbd> ⟯</td></tr>
+<tr><td>⟮c:7;Restore tab (editor in VS code⟯)|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯</td></tr>
   </tbody>
 </table>
 
@@ -3402,8 +3402,8 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;undo⟯</td> <td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>z</kbd>⟯</td></tr>
-<tr><td>⟮c:3;redo⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;undo⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>z</kbd>⟯</td></tr>
+<tr><td>⟮c:3;redo⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3415,10 +3415,10 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Switch to tab n⟯</td> <td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd>⟯</td></tr>
-<tr><td>⟮c:3;Focus address bar⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd><kbd>L</kbd>⟯</td></tr>
-<tr><td>⟮c:5;open link in new tab⟯</td> <td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>click</kbd>⟯</td></tr>
-<tr><td>⟮c:7;download link target⟯</td> <td>⟮c:8;<kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;Switch to tab n⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd>⟯</td></tr>
+<tr><td>⟮c:3;Focus address bar⟯|⟮c:4;<kbd class="modifier cmd"></kbd><kbd>L</kbd>⟯</td></tr>
+<tr><td>⟮c:5;open link in new tab⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>click</kbd>⟯</td></tr>
+<tr><td>⟮c:7;download link target⟯|⟮c:8;<kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3432,11 +3432,11 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Find in project/ other larger scope⟯</td><td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯</td></tr>
-<tr><td>⟮c:3;Find next⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>g</kbd> ⟯</td></tr>
-<tr><td>⟮c:5;Find previous⟯</td><td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>g</kbd> ⟯</td></tr>
-<tr><td>⟮c:7;Open search in window/smaller scope⟯</td><td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>F</kbd> ⟯</td></tr>
-<tr><td>⟮c:9;Open search in project/other large scope/advanced search⟯</td><td>⟮c:10;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯</td></tr>
+    <tr><td>⟮c:1;Find in project/ other larger scope⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯</td></tr>
+<tr><td>⟮c:3;Find next⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>g</kbd> ⟯</td></tr>
+<tr><td>⟮c:5;Find previous⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>g</kbd> ⟯</td></tr>
+<tr><td>⟮c:7;Open search in window/smaller scope⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>F</kbd> ⟯</td></tr>
+<tr><td>⟮c:9;Open search in project/other large scope/advanced search⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯</td></tr>
     </tbody>
 </table>
 
@@ -3448,8 +3448,8 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<kbd>tab</kbd>⟯</td> <td>⟮c:2;field forward⟯</td></tr>
-<tr><td>⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯</td> <td>⟮c:4;field back⟯</td></tr>
+    <tr><td>⟮c:1;<kbd>tab</kbd>⟯|⟮c:2;field forward⟯</td></tr>
+<tr><td>⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:4;field back⟯</td></tr>
   </tbody>
 </table>
 
@@ -3464,13 +3464,13 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Get info on item⟯</td><td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>i</kbd> ⟯</td></tr>
-    <tr><td>⟮c:3;Preferences⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>,</kbd>⟯</td></tr>
-    <tr><td>⟮c:5;Switch focus between windows of the same program⟯</td><td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>`</kbd> ⟯</td></tr>
-    <tr><td>⟮c:8;Show hidden files⟯</td><td>⟮c:7;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>.</kbd> ⟯</td></tr>
-    <tr><td>⟮c:9;rename current item⟯</td> <td>⟮c:10;{{c2::<kbd>enter</kbd>}⟯</td></tr>
-    <tr><td>⟮c:11;Minimize⟯</td> <td>⟮c:12;<kbd class="modifier cmd"></kbd> <kbd>m</kbd>⟯</td></tr>
-<tr><td>⟮c:13;Fullscreen⟯</td> <td>⟮c:14;<kbd class="key modifier cmd"></kbd> <kbd class="key modifier ctrl"></kbd><kbd>f</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;Get info on item⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>i</kbd> ⟯</td></tr>
+    <tr><td>⟮c:3;Preferences⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>,</kbd>⟯</td></tr>
+    <tr><td>⟮c:5;Switch focus between windows of the same program⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>`</kbd> ⟯</td></tr>
+    <tr><td>⟮c:8;Show hidden files⟯|⟮c:7;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>.</kbd> ⟯</td></tr>
+    <tr><td>⟮c:9;rename current item⟯|⟮c:10;{{c2::<kbd>enter</kbd>}⟯</td></tr>
+    <tr><td>⟮c:11;Minimize⟯|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd>m</kbd>⟯</td></tr>
+<tr><td>⟮c:13;Fullscreen⟯|⟮c:14;<kbd class="key modifier cmd"></kbd> <kbd class="key modifier ctrl"></kbd><kbd>f</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3480,7 +3480,7 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯</td> <td>⟮c:2;non-breaking space (on keyboard⟯)</td></tr>
+    <tr><td>⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯|⟮c:2;non-breaking space (on keyboard⟯)</td></tr>
   </tbody>
 </table>
 
@@ -3490,7 +3490,7 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;del key⟯</td> <td>⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;del key⟯|⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3505,8 +3505,8 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;cancel⟯</td><td>⟮c:2;<kbd>esc</kbd>⟯</td></tr>
-  <tr><td>⟮c:3;don't save⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;cancel⟯|⟮c:2;<kbd>esc</kbd>⟯</td></tr>
+  <tr><td>⟮c:3;don't save⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3521,9 +3521,9 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;toggle⟯</td><td>⟮c:2;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd><kbd>8</kbd>⟯</td></tr>
-<tr><td>⟮c:3;zoom out⟯</td><td>⟮c:4;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>-</kbd>⟯</td></tr>
-<tr><td>⟮c:5;zoom in⟯</td><td>⟮c:6;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>0</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;toggle⟯|⟮c:2;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd><kbd>8</kbd>⟯</td></tr>
+<tr><td>⟮c:3;zoom out⟯|⟮c:4;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>-</kbd>⟯</td></tr>
+<tr><td>⟮c:5;zoom in⟯|⟮c:6;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>0</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3537,26 +3537,26 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Add new card⟯</td><td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd> ⟯</td></tr>
-    <tr><td>⟮c:3;Bury card⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd> ⟯</td></tr>
-    <tr><td>⟮c:5;Bury note⟯</td><td>⟮c:6;<kbd class="modifier alt"></kbd> <kbd>-</kbd> ⟯</td></tr>
-    <tr><td>⟮c:7;Edit html⟯</td><td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>x</kbd> ⟯</td></tr>
-    <tr><td>⟮c:9;Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom⟯)</td><td>⟮c:10;<kbd class="modifier alt"></kbd> <kbd>k</kbd> ⟯</td></tr>
-   <tr><td>⟮c:11;Show deck options menu⟯</td><td>⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>,</kbd> ⟯</td></tr>
-    <tr><td>⟮c:13;Study⟯</td><td>⟮c:14;<kbd>L</kbd>⟯</td></tr>
-    <tr><td>⟮c:15;Subscript⟯</td><td>⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>2</kbd> ⟯</td></tr>
-    <tr><td>⟮c:17;Superscript⟯</td><td>⟮c:18;<kbd class="modifier alt"></kbd> <kbd class="modifier cmd"></kbd> <kbd>2</kbd> ⟯</td></tr>
-    <tr><td>⟮c:19;Suspend card⟯</td><td>⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>j</kbd> ⟯</td></tr>
-    <tr><td>⟮c:21;Suspend note⟯</td><td>⟮c:22;<kbd class="modifier alt"></kbd> <kbd>j</kbd> ⟯</td></tr>
-    <tr><td>⟮c:23;add tag⟯</td><td>⟮c:24;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯</td></tr>
-    <tr><td>⟮c:25;remove tag⟯</td><td>⟮c:26;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯</td></tr>
-    <tr><td>⟮c:27;reposition⟯</td><td>⟮c:28;<kbd class="modifier cmd"></kbd> <kbd>y</kbd> ⟯</td></tr>
-    <tr><td>⟮c:29;reschedule⟯</td><td>⟮c:30;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>y</kbd> ⟯</td></tr>
-    <tr><td>⟮c:31;add cloze (don't increment number⟯)</td><td>⟮c:32;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>c</kbd> ⟯</td></tr>
-    <tr><td>⟮c:33;add cloze (increment number⟯)</td><td>⟮c:34;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>c</kbd> ⟯</td></tr>
-    <tr><td>⟮c:35;submit something/new line⟯</td><td>⟮c:36;<kbd class="modifier cmd"></kbd> <kbd>enter</kbd>⟯</td></tr>
-    <tr><td>⟮c:38;Browse screen⟯</td><td>⟮c:37;<kbd>B</kbd>⟯</td></tr>
-    <tr><td>⟮c:39;X⟯</td> <td>⟮c:40;Deck home screen⟯</td></tr>
+    <tr><td>⟮c:1;Add new card⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd> ⟯</td></tr>
+    <tr><td>⟮c:3;Bury card⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd> ⟯</td></tr>
+    <tr><td>⟮c:5;Bury note⟯|⟮c:6;<kbd class="modifier alt"></kbd> <kbd>-</kbd> ⟯</td></tr>
+    <tr><td>⟮c:7;Edit html⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>x</kbd> ⟯</td></tr>
+    <tr><td>⟮c:9;Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom⟯)|⟮c:10;<kbd class="modifier alt"></kbd> <kbd>k</kbd> ⟯</td></tr>
+   <tr><td>⟮c:11;Show deck options menu⟯|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>,</kbd> ⟯</td></tr>
+    <tr><td>⟮c:13;Study⟯|⟮c:14;<kbd>L</kbd>⟯</td></tr>
+    <tr><td>⟮c:15;Subscript⟯|⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>2</kbd> ⟯</td></tr>
+    <tr><td>⟮c:17;Superscript⟯|⟮c:18;<kbd class="modifier alt"></kbd> <kbd class="modifier cmd"></kbd> <kbd>2</kbd> ⟯</td></tr>
+    <tr><td>⟮c:19;Suspend card⟯|⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>j</kbd> ⟯</td></tr>
+    <tr><td>⟮c:21;Suspend note⟯|⟮c:22;<kbd class="modifier alt"></kbd> <kbd>j</kbd> ⟯</td></tr>
+    <tr><td>⟮c:23;add tag⟯|⟮c:24;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯</td></tr>
+    <tr><td>⟮c:25;remove tag⟯|⟮c:26;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯</td></tr>
+    <tr><td>⟮c:27;reposition⟯|⟮c:28;<kbd class="modifier cmd"></kbd> <kbd>y</kbd> ⟯</td></tr>
+    <tr><td>⟮c:29;reschedule⟯|⟮c:30;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>y</kbd> ⟯</td></tr>
+    <tr><td>⟮c:31;add cloze (don't increment number⟯)|⟮c:32;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>c</kbd> ⟯</td></tr>
+    <tr><td>⟮c:33;add cloze (increment number⟯)|⟮c:34;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>c</kbd> ⟯</td></tr>
+    <tr><td>⟮c:35;submit something/new line⟯|⟮c:36;<kbd class="modifier cmd"></kbd> <kbd>enter</kbd>⟯</td></tr>
+    <tr><td>⟮c:38;Browse screen⟯|⟮c:37;<kbd>B</kbd>⟯</td></tr>
+    <tr><td>⟮c:39;X⟯|⟮c:40;Deck home screen⟯</td></tr>
   </tbody>
 </table>
 
@@ -3564,16 +3564,16 @@ e.g. cmd k then m to select the document language in VSCode
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Export⟯</td> <td>⟮c:2;<kbd class="modifier shift"></kbd><kbd class="modifier cmd"></kbd> <kbd>E</kbd>⟯</td></tr>
-<tr><td>⟮c:3;Import⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>i</kbd>⟯</td></tr>
-<tr><td>⟮c:5;Save as⟯</td> <td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>s</kbd>⟯</td></tr>
-<tr><td>⟮c:7;Save⟯</td> <td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>s</kbd>⟯</td></tr>
-<tr><td>⟮c:9;New thingy⟯</td> <td>⟮c:10;<kbd class="modifier cmd"></kbd> <div class="key" style="grid-area: 2/5">n</div>⟯</td></tr>
-<tr><td>⟮c:11;New alternative thing (window, folder, etc.⟯)</td> <td>⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>n</kbd>⟯</td></tr>
-<tr><td>⟮c:13;Open⟯</td> <td>⟮c:14;<kbd class="modifier cmd"></kbd> <kbd>o</kbd>⟯</td></tr>
-<tr><td>⟮c:15;Duplicate current item⟯</td> <td>⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯</td></tr>
-<tr><td>⟮c:17;Print⟯</td> <td>⟮c:18;<kbd class="modifier cmd"></kbd> <kbd>p</kbd> <br><div class="sub"></div>⟯</td></tr>
-<tr><td>⟮c:19;delete thingy (if file, move to bin⟯)</td> <td>⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;Export⟯|⟮c:2;<kbd class="modifier shift"></kbd><kbd class="modifier cmd"></kbd> <kbd>E</kbd>⟯</td></tr>
+<tr><td>⟮c:3;Import⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>i</kbd>⟯</td></tr>
+<tr><td>⟮c:5;Save as⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>s</kbd>⟯</td></tr>
+<tr><td>⟮c:7;Save⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>s</kbd>⟯</td></tr>
+<tr><td>⟮c:9;New thingy⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <div class="key" style="grid-area: 2/5">n</div>⟯</td></tr>
+<tr><td>⟮c:11;New alternative thing (window, folder, etc.⟯)|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>n</kbd>⟯</td></tr>
+<tr><td>⟮c:13;Open⟯|⟮c:14;<kbd class="modifier cmd"></kbd> <kbd>o</kbd>⟯</td></tr>
+<tr><td>⟮c:15;Duplicate current item⟯|⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯</td></tr>
+<tr><td>⟮c:17;Print⟯|⟮c:18;<kbd class="modifier cmd"></kbd> <kbd>p</kbd> <br><div class="sub"></div>⟯</td></tr>
+<tr><td>⟮c:19;delete thingy (if file, move to bin⟯)|⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3585,9 +3585,9 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Reset zoom level (most often⟯)</td> <td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>0</kbd>⟯</td></tr>
-<tr><td>⟮c:3;Zoom out⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd>⟯</td></tr>
-<tr><td>⟮c:5;Zoom in⟯</td> <td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>=</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;Reset zoom level (most often⟯)|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>0</kbd>⟯</td></tr>
+<tr><td>⟮c:3;Zoom out⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd>⟯</td></tr>
+<tr><td>⟮c:5;Zoom in⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>=</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -3601,11 +3601,11 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Paste as plain text⟯</td><td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>v</kbd>⟯</td></tr>
-<tr><td>⟮c:3;Select all⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>a</kbd> ⟯</td></tr>
-<tr><td>⟮c:5;copy⟯</td><td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>c</kbd> ⟯</td></tr>
-<tr><td>⟮c:7;cut⟯</td><td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>x</kbd> ⟯</td></tr>
-<tr><td>⟮c:9;paste⟯</td><td>⟮c:10;<kbd class="modifier cmd"></kbd> <kbd>v</kbd> ⟯</td></tr>
+    <tr><td>⟮c:1;Paste as plain text⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>v</kbd>⟯</td></tr>
+<tr><td>⟮c:3;Select all⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>a</kbd> ⟯</td></tr>
+<tr><td>⟮c:5;copy⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>c</kbd> ⟯</td></tr>
+<tr><td>⟮c:7;cut⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>x</kbd> ⟯</td></tr>
+<tr><td>⟮c:9;paste⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <kbd>v</kbd> ⟯</td></tr>
   </tbody>
 </table>
 
@@ -3615,12 +3615,12 @@ e.g. cmd k then m to select the document language in VSCode
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>⟯</td> <td>⟮c:2;Insert hyperlink⟯</td></tr>
-<tr><td>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd>b</kbd>⟯</td> <td>⟮c:4;Bold text⟯</td></tr>
-<tr><td>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd>i</kbd>⟯</td> <td>⟮c:6;Italic text⟯</td></tr>
-<tr><td>⟮c:7;<kbd class="modifier cmd"></kbd> <kbd>u</kbd>⟯</td> <td>⟮c:8;underlined text⟯</td></tr>
-<tr><td>⟮c:9;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯</td> <td>⟮c:10;unindent⟯</td></tr>
-<tr><td>⟮c:11;<kbd>tab</kbd>⟯</td> <td>⟮c:12;Indent⟯</td></tr>
+    <tr><td>⟮c:1;<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>⟯|⟮c:2;Insert hyperlink⟯</td></tr>
+<tr><td>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd>b</kbd>⟯|⟮c:4;Bold text⟯</td></tr>
+<tr><td>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd>i</kbd>⟯|⟮c:6;Italic text⟯</td></tr>
+<tr><td>⟮c:7;<kbd class="modifier cmd"></kbd> <kbd>u</kbd>⟯|⟮c:8;underlined text⟯</td></tr>
+<tr><td>⟮c:9;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:10;unindent⟯</td></tr>
+<tr><td>⟮c:11;<kbd>tab</kbd>⟯|⟮c:12;Indent⟯</td></tr>
   </tbody>
 </table>
 
@@ -3635,11 +3635,11 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;,⟯</td><td>⟮c:2;one frame back⟯</td></tr>
-    <tr><td>⟮c:3;.⟯</td><td>⟮c:4;one frame forwards⟯</td></tr>
-    <tr><td>⟮c:5; <kbd>f</kbd> ⟯</td><td>⟮c:6;go fullscreen⟯</td></tr>
-    <tr><td>⟮c:7;esc⟯</td><td>⟮c:8;Exit fullscreen⟯</td></tr>
-    <tr><td>⟮c:9;space⟯</td><td>⟮c:10;pause⟯</td></tr>
+    <tr><td>⟮c:1;,⟯|⟮c:2;one frame back⟯</td></tr>
+    <tr><td>⟮c:3;.⟯|⟮c:4;one frame forwards⟯</td></tr>
+    <tr><td>⟮c:5; <kbd>f</kbd> ⟯|⟮c:6;go fullscreen⟯</td></tr>
+    <tr><td>⟮c:7;esc⟯|⟮c:8;Exit fullscreen⟯</td></tr>
+    <tr><td>⟮c:9;space⟯|⟮c:10;pause⟯</td></tr>
   </tbody>
 </table>
 
@@ -3656,34 +3656,34 @@ e.g. cmd k then m to select the document language in VSCode
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
    <tr>
-  <td>⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯</td><td>⟮c:2;Toggle deafen⟯</td>
+  <td>⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯</td>
 </tr>
 <tr>
-  <td>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯</td><td>⟮c:4;Upload file⟯</td>
+  <td>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯</td>
 </tr>
 <tr>
-  <td>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯</td><td>⟮c:6;Navigate between servers⟯</td>
+  <td>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯</td>
 </tr>
 <tr>
-  <td>⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯</td><td>⟮c:8;navigate between channels (incl private messages⟯)</td>
+  <td>⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)</td>
 </tr>
 <tr>
-  <td>⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯</td><td>⟮c:10;toggle quickswitcher⟯</td>
+  <td>⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯</td>
 </tr>
 <tr>
-  <td>⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯</td><td>⟮c:12;start/accept call⟯</td>
+  <td>⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯</td>
 </tr>
 <tr>
-  <td>⟮c:13;<kbd>e</kbd>⟯</td><td>⟮c:14;edit message⟯</td>
+  <td>⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯</td>
 </tr>
 <tr>
-  <td>⟮c:15;<kbd>r</kbd>⟯</td><td>⟮c:16;reply⟯</td>
+  <td>⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯</td>
 </tr>
 <tr>
-  <td>⟮c:17;<kbd>esc</kbd>⟯</td><td>⟮c:18;decline incoming call⟯</td>
+  <td>⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯</td>
 </tr>
    <tr>
-  <td>⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯</td><td>⟮c:20;toggle mute⟯</td>
+  <td>⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯</td>
 </tr>
   </tbody>
 </table>
@@ -3877,8 +3877,8 @@ Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have ada
     <th>Platform</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:11;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> P⟯</td> <td>⟮c:12;VSCode, Chrome Devtools⟯</td></tr>
-<tr><td>⟮c:13;<kbd class="modifier cmd"></kbd> (<kbd class="modifier alt"></kbd>) K⟯</td> <td>⟮c:14;GitHub⟯</td></tr>
+    <tr><td>⟮c:11;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> P⟯|⟮c:12;VSCode, Chrome Devtools⟯</td></tr>
+<tr><td>⟮c:13;<kbd class="modifier cmd"></kbd> (<kbd class="modifier alt"></kbd>) K⟯|⟮c:14;GitHub⟯</td></tr>
   </tbody>
 </table>
 
@@ -3889,10 +3889,10 @@ Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have ada
     <tr><th colspan="2">Possible prefixes in Quick Open menus</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;@somestring⟯</td> <td>⟮c:2;go to symbol somestring⟯</td></tr>
-<tr><td>⟮c:3;:somenumber⟯</td> <td>⟮c:4;go to line somenumber⟯</td></tr>
-<tr><td>⟮c:5;?⟯</td> <td>⟮c:6;show suggestions what you can do with quick open⟯</td></tr>
-<tr><td>⟮c:7;&gt;⟯</td> <td>⟮c:8;enter command palette mode⟯</td></tr>
+    <tr><td>⟮c:1;@somestring⟯|⟮c:2;go to symbol somestring⟯</td></tr>
+<tr><td>⟮c:3;:somenumber⟯|⟮c:4;go to line somenumber⟯</td></tr>
+<tr><td>⟮c:5;?⟯|⟮c:6;show suggestions what you can do with quick open⟯</td></tr>
+<tr><td>⟮c:7;&gt;⟯|⟮c:8;enter command palette mode⟯</td></tr>
   </tbody>
 </table>
 
@@ -3962,11 +3962,11 @@ VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing �
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;1st icon⟯</td><td>⟮c:2;FIile explorer⟯</td></tr>
-    <tr><td>⟮c:3;2nd icon⟯</td><td>⟮c:4;Search⟯</td></tr>
-    <tr><td>⟮c:5;3rd icon⟯</td><td>⟮c:6;Source Control⟯</td></tr>
-    <tr><td>⟮c:7;4th icon⟯</td><td>⟮c:8;Run View⟯</td></tr>
-    <tr><td>⟮c:9;5th icon⟯</td><td>⟮c:10;Extensions View⟯</td></tr>
+    <tr><td>⟮c:1;1st icon⟯|⟮c:2;FIile explorer⟯</td></tr>
+    <tr><td>⟮c:3;2nd icon⟯|⟮c:4;Search⟯</td></tr>
+    <tr><td>⟮c:5;3rd icon⟯|⟮c:6;Source Control⟯</td></tr>
+    <tr><td>⟮c:7;4th icon⟯|⟮c:8;Run View⟯</td></tr>
+    <tr><td>⟮c:9;5th icon⟯|⟮c:10;Extensions View⟯</td></tr>
   </tbody>
 </table>
 ⟮c:15;Extensions⟯ can ⟮c:16;populate all of VS Code's bars⟯ with ⟮c:17;more content⟯ 
@@ -4154,9 +4154,9 @@ If ⟮c:141;Hue⟯ is ⟮c:142;generated⟯ from ⟮c:142;RGB⟯ for ⟮c:142;HS
     <th>color</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:144;0deg/360deg⟯</td> <td>⟮c:145;red⟯</td></tr>
-<tr><td>⟮c:146;120deg⟯</td> <td>⟮c:147;green⟯</td></tr>
-<tr><td>⟮c:148;240deg⟯</td> <td>⟮c:149;blue⟯</td></tr>
+    <tr><td>⟮c:144;0deg/360deg⟯|⟮c:145;red⟯</td></tr>
+<tr><td>⟮c:146;120deg⟯|⟮c:147;green⟯</td></tr>
+<tr><td>⟮c:148;240deg⟯|⟮c:149;blue⟯</td></tr>
   </tbody>
 </table>
 
@@ -4176,9 +4176,9 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:151;tint⟯</td> <td>⟮c:152;mixture of a color with white⟯</td></tr>
-<tr><td>⟮c:153;tone⟯</td> <td>⟮c:154;mixture of a color with gray⟯</td></tr>
-<tr><td>⟮c:155;shade⟯</td> <td>⟮c:150;mixture of a color with black⟯</td></tr>
+    <tr><td>⟮c:151;tint⟯|⟮c:152;mixture of a color with white⟯</td></tr>
+<tr><td>⟮c:153;tone⟯|⟮c:154;mixture of a color with gray⟯</td></tr>
+<tr><td>⟮c:155;shade⟯|⟮c:150;mixture of a color with black⟯</td></tr>
   </tbody>
 </table>
 
@@ -4207,21 +4207,21 @@ For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding an
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Rgb(0, 0, 0⟯)</td> <td>⟮c:2;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯</td></tr>
-    <tr><td>⟮c:3;Rgb(0, 0, 255⟯)</td> <td>⟮c:4;<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">⟯</td></tr>
-    <tr><td>⟮c:5;Rgb(0, 255, 0⟯)</td> <td>⟮c:6;<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">⟯</td></tr>
-    <tr><td>⟮c:7;Rgb(0, 255, 255⟯)</td> <td>⟮c:8;<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">⟯</td></tr>
-    <tr><td>⟮c:9;Rgb(255, 0, 0⟯)</td> <td>⟮c:10;<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">⟯</td></tr>
-    <tr><td>⟮c:11;Rgb(255, 0, 255)?⟯</td> <td>⟮c:12;<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">⟯</td></tr>
-    <tr><td>⟮c:13;Rgb(255, 255, 0⟯)</td> <td>⟮c:14;<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">⟯</td></tr>
-    <tr><td>⟮c:15;Rgb(255, 255, 255)?⟯</td> <td>⟮c:16;<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">⟯</td></tr>
-<tr><td>⟮c:233;#f2f12f⟯</td> <td>⟮c:234;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">⟯</td></tr>
-<tr><td>⟮c:235;#e6281f⟯</td> <td>⟮c:236;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">⟯</td></tr>
-<tr><td>⟮c:237;#e2e⟯</td> <td>⟮c:238;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">⟯</td></tr>
-<tr><td>⟮c:239;#daefe4⟯</td> <td>⟮c:240;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">⟯</td></tr>
-<tr><td>⟮c:241;#867d7e⟯</td> <td>⟮c:242;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">⟯</td></tr>
-<tr><td>⟮c:243;#17F099⟯</td> <td>⟮c:244;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">⟯</td></tr>
-<tr><td>⟮c:245;#132133⟯</td> <td>⟮c:246;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">⟯</td></tr>
+    <tr><td>⟮c:1;Rgb(0, 0, 0⟯)|⟮c:2;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯</td></tr>
+    <tr><td>⟮c:3;Rgb(0, 0, 255⟯)|⟮c:4;<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">⟯</td></tr>
+    <tr><td>⟮c:5;Rgb(0, 255, 0⟯)|⟮c:6;<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">⟯</td></tr>
+    <tr><td>⟮c:7;Rgb(0, 255, 255⟯)|⟮c:8;<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">⟯</td></tr>
+    <tr><td>⟮c:9;Rgb(255, 0, 0⟯)|⟮c:10;<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">⟯</td></tr>
+    <tr><td>⟮c:11;Rgb(255, 0, 255)?⟯|⟮c:12;<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">⟯</td></tr>
+    <tr><td>⟮c:13;Rgb(255, 255, 0⟯)|⟮c:14;<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">⟯</td></tr>
+    <tr><td>⟮c:15;Rgb(255, 255, 255)?⟯|⟮c:16;<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">⟯</td></tr>
+<tr><td>⟮c:233;#f2f12f⟯|⟮c:234;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">⟯</td></tr>
+<tr><td>⟮c:235;#e6281f⟯|⟮c:236;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">⟯</td></tr>
+<tr><td>⟮c:237;#e2e⟯|⟮c:238;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">⟯</td></tr>
+<tr><td>⟮c:239;#daefe4⟯|⟮c:240;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">⟯</td></tr>
+<tr><td>⟮c:241;#867d7e⟯|⟮c:242;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">⟯</td></tr>
+<tr><td>⟮c:243;#17F099⟯|⟮c:244;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">⟯</td></tr>
+<tr><td>⟮c:245;#132133⟯|⟮c:246;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">⟯</td></tr>
   </tbody>
 </table>
 
@@ -4234,13 +4234,13 @@ candles|1500-2000K
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-   <tr><td>⟮c:1,15;analogous ⟯</td><td>⟮c:8;h:15-21;Two or more colors that are all next to each other on the color wheel⟯</td><td>⟮c:22;h:8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯</td></tr>
-<tr><td>⟮c:2,16;complementary ⟯</td><td>⟮c:9;h:15-21;Two opposite colors on the color wheel⟯</td><td>⟮c:23;h:8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯</td></tr>
-<tr><td>⟮c:3,17;monochromatic ⟯</td><td>⟮c:10;h:15-21;A single color⟯</td><td>⟮c:24;h:8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯</td></tr>
-<tr><td>⟮c:4,18;tetradic (more specif: double complementary) ⟯</td><td>⟮c:11;h:15-21;two pairs of complementary colors ⟯</td><td>⟮c:25;h:8-14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯</td></tr>
-<tr><td>⟮c:5,19;split complementary (is a form ⟯</td><td>⟮c:12;h:15-21;A color and the colors adjacent to its complementary ⟯</td><td>⟮c:26;h:8-14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯</td></tr>
-<tr><td>⟮c:6,20;tetradic (more specif. square⟯)</td><td>⟮c:13;h:15-21;Four colors equally spaced on the color wheel⟯</td><td>⟮c:27;h:8-14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯</td></tr>
-<tr><td>⟮c:7,21;triadic ⟯</td><td>⟮c:14;h:15-21;Three colors equally spaced on the color wheel⟯</td><td>⟮c:28;h:8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯</td></tr>
+   <tr><td>⟮c:1,15;analogous ⟯|⟮c:8;h:15-21;Two or more colors that are all next to each other on the color wheel⟯|⟮c:22;h:8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯</td></tr>
+<tr><td>⟮c:2,16;complementary ⟯|⟮c:9;h:15-21;Two opposite colors on the color wheel⟯|⟮c:23;h:8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯</td></tr>
+<tr><td>⟮c:3,17;monochromatic ⟯|⟮c:10;h:15-21;A single color⟯|⟮c:24;h:8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯</td></tr>
+<tr><td>⟮c:4,18;tetradic (more specif: double complementary) ⟯|⟮c:11;h:15-21;two pairs of complementary colors ⟯|⟮c:25;h:8-14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯</td></tr>
+<tr><td>⟮c:5,19;split complementary (is a form ⟯|⟮c:12;h:15-21;A color and the colors adjacent to its complementary ⟯|⟮c:26;h:8-14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯</td></tr>
+<tr><td>⟮c:6,20;tetradic (more specif. square⟯)|⟮c:13;h:15-21;Four colors equally spaced on the color wheel⟯|⟮c:27;h:8-14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯</td></tr>
+<tr><td>⟮c:7,21;triadic ⟯|⟮c:14;h:15-21;Three colors equally spaced on the color wheel⟯|⟮c:28;h:8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -4271,8 +4271,8 @@ Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to 
     <th>FPS</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;video (traditional⟯)</td> <td>⟮c:2;30fps⟯</td></tr>
-<tr><td>⟮c:3;film⟯</td> <td>⟮c:4;24fps⟯</td></tr>
+    <tr><td>⟮c:1;video (traditional⟯)|⟮c:2;30fps⟯</td></tr>
+<tr><td>⟮c:3;film⟯|⟮c:4;24fps⟯</td></tr>
   </tbody>
 </table>
 
@@ -4286,10 +4286,10 @@ The ⟮c:11;inverse of⟯ ⟮c:9;transparency⟯ is ⟮c:10;opacity⟯
     <th>visibility</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;0% transparency / 100% opacity⟯</td> <td>⟮c:2;completely visible⟯</td></tr>
-<tr><td>⟮c:3;100% transparency / 0% opacity⟯</td> <td>⟮c:4;completely invisible⟯</td></tr>
-<tr><td>⟮c:5;30% transparency /70% opacity⟯</td> <td>⟮c:6;70% visible⟯</td></tr>
-<tr><td>⟮c:7;55% transparency /45% opacity⟯</td> <td>⟮c:8;45% visible⟯</td></tr>
+    <tr><td>⟮c:1;0% transparency / 100% opacity⟯|⟮c:2;completely visible⟯</td></tr>
+<tr><td>⟮c:3;100% transparency / 0% opacity⟯|⟮c:4;completely invisible⟯</td></tr>
+<tr><td>⟮c:5;30% transparency /70% opacity⟯|⟮c:6;70% visible⟯</td></tr>
+<tr><td>⟮c:7;55% transparency /45% opacity⟯|⟮c:8;45% visible⟯</td></tr>
   </tbody>
 </table>
 
@@ -4604,8 +4604,8 @@ On mac, ⟮c:10;diskutil⟯ is the ⟮c:11;CLI⟯ utility for ⟮c:12;interactin
     <th>Which of drutil/diskutil?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;list⟯</td> <td>⟮c:2;list attached devices⟯</td> <td>⟮c:3;drutil, diskutil⟯</td></tr>
-<tr><td>⟮c:4;eject⟯</td> <td>⟮c:5;ejecting a device⟯</td> <td>⟮c:6;drutil, diskutil⟯</td></tr>
+    <tr><td>⟮c:1;list⟯|⟮c:2;list attached devices⟯|⟮c:3;drutil, diskutil⟯</td></tr>
+<tr><td>⟮c:4;eject⟯|⟮c:5;ejecting a device⟯|⟮c:6;drutil, diskutil⟯</td></tr>
   </tbody>
 </table>
 
@@ -4950,8 +4950,8 @@ There are variants of ⟮c:8;the original cli program diff⟯ that change how it
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:21;no argument⟯</td> <td>⟮c:22;show diff between unstaged and staged/committed⟯</td></tr>
-<tr><td>⟮c:23;--staged/--cached (synonyms⟯)</td> <td>⟮c:24;show diff of staged changes with latest commit (or specified commit⟯)</td></tr>
+    <tr><td>⟮c:21;no argument⟯|⟮c:22;show diff between unstaged and staged/committed⟯</td></tr>
+<tr><td>⟮c:23;--staged/--cached (synonyms⟯)|⟮c:24;show diff of staged changes with latest commit (or specified commit⟯)</td></tr>
   </tbody>
 </table>
 
@@ -4983,9 +4983,9 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;x⟯</td> <td>⟮c:2;execute⟯</td></tr>
-<tr><td>⟮c:3;w⟯</td> <td>⟮c:4;write⟯</td></tr>
-<tr><td>⟮c:5;r⟯</td> <td>⟮c:6;read⟯</td></tr>
+    <tr><td>⟮c:1;x⟯|⟮c:2;execute⟯</td></tr>
+<tr><td>⟮c:3;w⟯|⟮c:4;write⟯</td></tr>
+<tr><td>⟮c:5;r⟯|⟮c:6;read⟯</td></tr>
   </tbody>
 </table>
 
@@ -5110,32 +5110,32 @@ For ⟮c:84;mailcap⟯, ⟮c:85;%s⟯ represents ⟮c:86;the file of the relevan
     <th>File extension</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;TypeScript source code⟯</td> <td>⟮c:2;.ts⟯</td></tr>
-    <tr><td>⟮c:3;M3U playlist⟯</td> <td>⟮c:4;.m3u⟯</td></tr>
-    <tr><td>⟮c:5;Tex source document⟯</td> <td>⟮c:6;.tex⟯</td></tr>
-    <tr><td>⟮c:7;WebVTT⟯</td> <td>⟮c:8;.vtt⟯</td></tr>
-    <tr><td>⟮c:9;JS Modules⟯</td> <td>⟮c:10;either .js or .mjs⟯</td></tr>
-    <tr><td>⟮c:11;Markdown source document⟯</td> <td>⟮c:12;.md⟯</td></tr>
-    <tr><td>⟮c:13;YAML source document (common but not advised⟯)</td> <td>⟮c:14;.yml⟯</td></tr>
-    <tr><td>⟮c:15;YAML source document (advised but less common⟯)</td> <td>⟮c:16;.yaml⟯</td></tr>
-    <tr><td>⟮c:17;bzip2 archive⟯</td> <td>⟮c:18;.bz2⟯</td></tr>
-    <tr><td>⟮c:19;class files (latex⟯)</td> <td>⟮c:20;.cls⟯</td></tr>
-    <tr><td>⟮c:21;windows executable⟯</td> <td>⟮c:22;.exe⟯</td></tr>
-    <tr><td>⟮c:23;iCalendar⟯</td> <td>⟮c:24;.ics⟯</td></tr>
-    <tr><td>⟮c:25;ruby source coude⟯</td> <td>⟮c:26;.rb⟯</td></tr>
-    <tr><td>⟮c:27;rust source code⟯</td> <td>⟮c:28;.rs⟯</td></tr>
-    <tr><td>⟮c:29;short for style / but are called packages⟯</td> <td>⟮c:30;.sty⟯</td></tr>
-    <tr><td>⟮c:31;plaintext files (arbitrary⟯)</td> <td>⟮c:32;.txt⟯</td></tr>
-    <tr><td>⟮c:33;vCard⟯</td> <td>⟮c:34;.vcf⟯</td></tr>
-    <tr><td>⟮c:35;Free/busy time (iCalendar⟯)</td> <td>⟮c:36;.ifb (or .ifbf on macOS⟯)</td></tr>
-    <tr><td>⟮c:37;BibTeX source file⟯</td> <td>⟮c:38;.bib⟯</td></tr>
-    <tr><td>⟮c:39;arbitrary binary data⟯</td> <td>⟮c:40;.bin⟯</td></tr>
-    <tr><td>⟮c:41;JSON document⟯</td> <td>⟮c:42;.json⟯</td></tr>
-    <tr><td>⟮c:43;SCSS syntax source file⟯</td> <td>⟮c:44;.scss⟯</td></tr>
-    <tr><td>⟮c:45;sass syntax source file⟯</td> <td>⟮c:46;.sass⟯</td></tr>
-    <tr><td>⟮c:47;XML document⟯</td> <td>⟮c:48;.xml⟯</td></tr>
-    <tr><td>⟮c:49;fountain source document⟯</td> <td>⟮c:50;.fountain⟯</td></tr>
-    <tr><td>⟮c:51;shell script⟯</td> <td>⟮c:52;.sh⟯</td></tr>
+    <tr><td>⟮c:1;TypeScript source code⟯|⟮c:2;.ts⟯</td></tr>
+    <tr><td>⟮c:3;M3U playlist⟯|⟮c:4;.m3u⟯</td></tr>
+    <tr><td>⟮c:5;Tex source document⟯|⟮c:6;.tex⟯</td></tr>
+    <tr><td>⟮c:7;WebVTT⟯|⟮c:8;.vtt⟯</td></tr>
+    <tr><td>⟮c:9;JS Modules⟯|⟮c:10;either .js or .mjs⟯</td></tr>
+    <tr><td>⟮c:11;Markdown source document⟯|⟮c:12;.md⟯</td></tr>
+    <tr><td>⟮c:13;YAML source document (common but not advised⟯)|⟮c:14;.yml⟯</td></tr>
+    <tr><td>⟮c:15;YAML source document (advised but less common⟯)|⟮c:16;.yaml⟯</td></tr>
+    <tr><td>⟮c:17;bzip2 archive⟯|⟮c:18;.bz2⟯</td></tr>
+    <tr><td>⟮c:19;class files (latex⟯)|⟮c:20;.cls⟯</td></tr>
+    <tr><td>⟮c:21;windows executable⟯|⟮c:22;.exe⟯</td></tr>
+    <tr><td>⟮c:23;iCalendar⟯|⟮c:24;.ics⟯</td></tr>
+    <tr><td>⟮c:25;ruby source coude⟯|⟮c:26;.rb⟯</td></tr>
+    <tr><td>⟮c:27;rust source code⟯|⟮c:28;.rs⟯</td></tr>
+    <tr><td>⟮c:29;short for style / but are called packages⟯|⟮c:30;.sty⟯</td></tr>
+    <tr><td>⟮c:31;plaintext files (arbitrary⟯)|⟮c:32;.txt⟯</td></tr>
+    <tr><td>⟮c:33;vCard⟯|⟮c:34;.vcf⟯</td></tr>
+    <tr><td>⟮c:35;Free/busy time (iCalendar⟯)|⟮c:36;.ifb (or .ifbf on macOS⟯)</td></tr>
+    <tr><td>⟮c:37;BibTeX source file⟯|⟮c:38;.bib⟯</td></tr>
+    <tr><td>⟮c:39;arbitrary binary data⟯|⟮c:40;.bin⟯</td></tr>
+    <tr><td>⟮c:41;JSON document⟯|⟮c:42;.json⟯</td></tr>
+    <tr><td>⟮c:43;SCSS syntax source file⟯|⟮c:44;.scss⟯</td></tr>
+    <tr><td>⟮c:45;sass syntax source file⟯|⟮c:46;.sass⟯</td></tr>
+    <tr><td>⟮c:47;XML document⟯|⟮c:48;.xml⟯</td></tr>
+    <tr><td>⟮c:49;fountain source document⟯|⟮c:50;.fountain⟯</td></tr>
+    <tr><td>⟮c:51;shell script⟯|⟮c:52;.sh⟯</td></tr>
     </tbody>
 </table>
 
@@ -5285,10 +5285,10 @@ ocrmypdf ⟮c:11;SOURCE DEST⟯
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;specify language⟯</td> <td>⟮c:2;`-l deu/fra/deu+fra...`⟯</td></tr>
-<tr><td>⟮c:3;correct slight skew⟯</td> <td>⟮c:4;`--deskew`⟯</td></tr>
-<tr><td>⟮c:5;clean pages before ocring⟯</td> <td>⟮c:6;`--clean`⟯</td></tr>
-<tr><td>⟮c:7;change/correct rotation (the one in steps of 90°⟯)</td> <td>⟮c:8;`--rotate-pages`⟯</td></tr>
+    <tr><td>⟮c:1;specify language⟯|⟮c:2;`-l deu/fra/deu+fra...`⟯</td></tr>
+<tr><td>⟮c:3;correct slight skew⟯|⟮c:4;`--deskew`⟯</td></tr>
+<tr><td>⟮c:5;clean pages before ocring⟯|⟮c:6;`--clean`⟯</td></tr>
+<tr><td>⟮c:7;change/correct rotation (the one in steps of 90°⟯)|⟮c:8;`--rotate-pages`⟯</td></tr>
   </tbody>
 </table>
 
@@ -5309,8 +5309,8 @@ Many of imagemagicks arguments needing to specify ⟮c:50;some kind of shape/siz
     <tr><th colspan="2">Imagemagick subcommands</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;`import`⟯</td> <td>⟮c:2;Imagemagick screenshot utility⟯</td></tr>
-<tr><td>⟮c:3;`identify`⟯</td> <td>((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
+    <tr><td>⟮c:1;`import`⟯|⟮c:2;Imagemagick screenshot utility⟯</td></tr>
+<tr><td>⟮c:3;`identify`⟯|((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
 Image: rose.jpg
   Format: JPEG (Joint Photographic Experts Group JFIF format)
   Mime type: image/jpeg
@@ -5319,12 +5319,12 @@ Image: rose.jpg
   Units: Undefined
   Type: TrueColor
 ...</code></pre>))</td></tr>
-<tr><td>⟮c:5;`display`⟯</td> <td>⟮c:6;Imagemagick image viewer⟯</td></tr>
-<tr><td>⟮c:7;`animate`⟯</td> <td>⟮c:8;Imagemagick animation creator⟯</td></tr>
-<tr><td>⟮c:9;`compare`⟯</td> <td>⟮c:10;Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">⟯</td></tr>
-<tr><td>⟮c:11;`composite`⟯</td> <td>⟮c:12;Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">⟯</td></tr>
-<tr><td>⟮c:13;`convert`⟯</td> <td>⟮c:14;Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">⟯</td></tr>
-<tr><td>⟮c:15;`montage`::m⟯</td> <td>⟮c:16;Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">⟯</td></tr>
+<tr><td>⟮c:5;`display`⟯|⟮c:6;Imagemagick image viewer⟯</td></tr>
+<tr><td>⟮c:7;`animate`⟯|⟮c:8;Imagemagick animation creator⟯</td></tr>
+<tr><td>⟮c:9;`compare`⟯|⟮c:10;Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">⟯</td></tr>
+<tr><td>⟮c:11;`composite`⟯|⟮c:12;Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">⟯</td></tr>
+<tr><td>⟮c:13;`convert`⟯|⟮c:14;Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">⟯</td></tr>
+<tr><td>⟮c:15;`montage`::m⟯|⟮c:16;Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -5334,13 +5334,13 @@ Image: rose.jpg
     <tr><th colspan="2">Imagemagick options</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:17;`-crop`⟯</td> <td>⟮c:18;crop⟯</td></tr>
-<tr><td>⟮c:19;`-trim`⟯</td> <td>⟮c:20;remove borders around the image⟯</td></tr>
-<tr><td>⟮c:21;`-resize SIZE-SPECIFIER`⟯</td> <td>⟮c:22;resize the image to SIZE-SPECIFIER⟯</td></tr>
-<tr><td>⟮c:23;`-quality QUALITY`⟯</td> <td>⟮c:24;set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg⟯)</td></tr>
-<tr><td>⟮c:25;`-fuzz distance`⟯</td> <td>⟮c:26;make matching colors more, well, fuzzy⟯</td></tr>
-<tr><td>⟮c:27;`-flop`⟯</td> <td>⟮c:28;Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R⟯)</td></tr>
-<tr><td>⟮c:29;`-flip`⟯</td> <td>⟮c:30;Change to upside down⟯</td></tr>
+    <tr><td>⟮c:17;`-crop`⟯|⟮c:18;crop⟯</td></tr>
+<tr><td>⟮c:19;`-trim`⟯|⟮c:20;remove borders around the image⟯</td></tr>
+<tr><td>⟮c:21;`-resize SIZE-SPECIFIER`⟯|⟮c:22;resize the image to SIZE-SPECIFIER⟯</td></tr>
+<tr><td>⟮c:23;`-quality QUALITY`⟯|⟮c:24;set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg⟯)</td></tr>
+<tr><td>⟮c:25;`-fuzz distance`⟯|⟮c:26;make matching colors more, well, fuzzy⟯</td></tr>
+<tr><td>⟮c:27;`-flop`⟯|⟮c:28;Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R⟯)</td></tr>
+<tr><td>⟮c:29;`-flip`⟯|⟮c:30;Change to upside down⟯</td></tr>
   </tbody>
 </table>
 
@@ -5602,9 +5602,9 @@ It is common practice to ⟮c:22;prefix the name of the marker⟯ with a ⟮c:23
     <th>for</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;eq⟯</td> <td>⟮c:2;equation⟯</td></tr>
-<tr><td>⟮c:3;sec⟯</td> <td>⟮c:4;section⟯</td></tr>
-<tr><td>⟮c:5;fig⟯</td> <td>⟮c:6;figure⟯</td></tr>
+    <tr><td>⟮c:1;eq⟯|⟮c:2;equation⟯</td></tr>
+<tr><td>⟮c:3;sec⟯|⟮c:4;section⟯</td></tr>
+<tr><td>⟮c:5;fig⟯|⟮c:6;figure⟯</td></tr>
   </tbody>
 </table>
 
@@ -5617,9 +5617,9 @@ In latex, you can ⟮c:27;reference markers⟯ defined with ⟮c:28;\label⟯ wi
     <th>from package</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:7;\ref{foo}⟯</td> <td>⟮c:8;returns the index of foo⟯</td></tr>
-<tr><td>⟮c:9;\pageref{foo}⟯</td> <td>⟮c:10;returns the page on which foo is found⟯</td></tr>
-<tr><td>⟮c:11;\eqref{foo}⟯</td> <td>⟮c:12;returns the index of foo, but surrounded by parentheses⟯</td> <td>⟮c:13;amsmath⟯</td></tr>
+    <tr><td>⟮c:7;\ref{foo}⟯|⟮c:8;returns the index of foo⟯</td></tr>
+<tr><td>⟮c:9;\pageref{foo}⟯|⟮c:10;returns the page on which foo is found⟯</td></tr>
+<tr><td>⟮c:11;\eqref{foo}⟯|⟮c:12;returns the index of foo, but surrounded by parentheses⟯|⟮c:13;amsmath⟯</td></tr>
   </tbody>
 </table>
 
@@ -5640,8 +5640,8 @@ Lengths in latex are ⟮c:16;rigid⟯ by ⟮c:17;default⟯
     <th>meaning</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;plus &lt;length&gt;⟯</td> <td>⟮c:2;length can grow by that amount⟯</td></tr>
-<tr><td>⟮c:3;minus &lt;length&gt;⟯</td> <td>⟮c:4;length can shrink by that amount⟯</td></tr>
+    <tr><td>⟮c:1;plus &lt;length&gt;⟯|⟮c:2;length can grow by that amount⟯</td></tr>
+<tr><td>⟮c:3;minus &lt;length&gt;⟯|⟮c:4;length can shrink by that amount⟯</td></tr>
   </tbody>
 </table>
 
@@ -5662,8 +5662,8 @@ If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:11;\parindent⟯</td> <td>⟮c:12;represents length of first line in paragraph indentation⟯</td></tr>
-<tr><td>⟮c:13;\parskip⟯</td> <td>⟮c:10;represenets the vertical distance between paragraphs⟯</td></tr>
+    <tr><td>⟮c:11;\parindent⟯|⟮c:12;represents length of first line in paragraph indentation⟯</td></tr>
+<tr><td>⟮c:13;\parskip⟯|⟮c:10;represenets the vertical distance between paragraphs⟯</td></tr>
   </tbody>
 </table>
 
@@ -5693,8 +5693,8 @@ The ⟮c:25;LaTeX-exclusive⟯ ⟮c:26;shorthands⟯ for ⟮c:27;the built-in ma
     <th>LaTeX shorthand</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;math⟯</td> <td>⟮c:2;$...$⟯</td> <td>⟮c:3;\​(...\​⟯)</td></tr>
-<tr><td>⟮c:4;displaymath⟯</td> <td>⟮c:5;$$...$$⟯</td> <td>⟮c:6;\​[...\​]⟯</td></tr>
+    <tr><td>⟮c:1;math⟯|⟮c:2;$...$⟯|⟮c:3;\​(...\​⟯)</td></tr>
+<tr><td>⟮c:4;displaymath⟯|⟮c:5;$$...$$⟯|⟮c:6;\​[...\​]⟯</td></tr>
   </tbody>
 </table>
 
@@ -5709,9 +5709,9 @@ For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two ve
       <th>image</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:41;equation/equation*⟯</td> <td>⟮c:42;same as displaymath (added to have numbered version⟯)</td></tr>
-    <tr><td>⟮c:38;gather/gather*⟯</td> <td>⟮c:39;center-align lines⟯</td><td>⟮h:39;<img src="sm_2021-05-18--15-11-30-screenshot.png">⟯</td></tr>
-<tr><td>⟮c:40;multline/multline*⟯</td> <td>⟮c:43;first line left-aligned, then all center-aligned, final line right-aligned⟯</td><td>⟮h:43;<img src="sm_2021-05-18--15-16-19-screenshot.png">⟯</td></tr>
+    <tr><td>⟮c:41;equation/equation*⟯|⟮c:42;same as displaymath (added to have numbered version⟯)</td></tr>
+    <tr><td>⟮c:38;gather/gather*⟯|⟮c:39;center-align lines⟯|⟮h:39;<img src="sm_2021-05-18--15-11-30-screenshot.png">⟯</td></tr>
+<tr><td>⟮c:40;multline/multline*⟯|⟮c:43;first line left-aligned, then all center-aligned, final line right-aligned⟯|⟮h:43;<img src="sm_2021-05-18--15-16-19-screenshot.png">⟯</td></tr>
   </tbody>
 </table>
 
@@ -5734,9 +5734,9 @@ the ⟮c:54;cases environment⟯ renders ⟮c:55;multiple lines⟯ with ⟮c:56;
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;The first argument to \newtheorem⟯</td> <td>⟮c:2;the name of the environment that we create by the call to \newtheorem (i.e. how we will refer to it later⟯)</td></tr>
-<tr><td>⟮c:3;The second argument to \newtheorem⟯</td> <td>⟮c:4;The heading that the environment that we create by the call to \newtheorem will have⟯</td></tr>
-<tr><td>⟮c:5;The option of \newtheorem⟯</td> <td>⟮c:6;based on what the theorem will be numbered⟯</td></tr>
+    <tr><td>⟮c:1;The first argument to \newtheorem⟯|⟮c:2;the name of the environment that we create by the call to \newtheorem (i.e. how we will refer to it later⟯)</td></tr>
+<tr><td>⟮c:3;The second argument to \newtheorem⟯|⟮c:4;The heading that the environment that we create by the call to \newtheorem will have⟯</td></tr>
+<tr><td>⟮c:5;The option of \newtheorem⟯|⟮c:6;based on what the theorem will be numbered⟯</td></tr>
   </tbody>
 </table>
 
@@ -5780,15 +5780,15 @@ symbol|command(s)|requires package
     <th>symbol</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\LaTeX⟯</td> <td>⟮c:2;insert the latexlogo⟯</td></tr>
-<tr><td>⟮c:3;\ldots⟯</td> <td>⟮c:4;an ellipsis on the baseline …⟯</td></tr>
-<tr><td>⟮c:5;\cdots⟯</td> <td>⟮c:6;an ellipsis slightly below the midline ⋯⟯</td></tr>
-<tr><td>⟮c:7;\in⟯</td> <td>⟮c:8;the element symbol (∈⟯)</td></tr>
-    <tr><td>⟮c:17;\leq⟯</td> <td>⟮c:18;≤⟯</td></tr>
-<tr><td>⟮c:19;\geq⟯</td> <td>⟮c:20;≥⟯</td></tr>
-<tr><td>⟮c:21;\approx⟯</td> <td>⟮c:22;≈⟯</td></tr>
-<tr><td>⟮c:23;\infty⟯</td> <td>⟮c:24;∞⟯</td></tr>
-<tr><td>⟮c:25;\o⟯</td> <td>⟮c:26;ø⟯</td></tr></tbody>
+    <tr><td>⟮c:1;\LaTeX⟯|⟮c:2;insert the latexlogo⟯</td></tr>
+<tr><td>⟮c:3;\ldots⟯|⟮c:4;an ellipsis on the baseline …⟯</td></tr>
+<tr><td>⟮c:5;\cdots⟯|⟮c:6;an ellipsis slightly below the midline ⋯⟯</td></tr>
+<tr><td>⟮c:7;\in⟯|⟮c:8;the element symbol (∈⟯)</td></tr>
+    <tr><td>⟮c:17;\leq⟯|⟮c:18;≤⟯</td></tr>
+<tr><td>⟮c:19;\geq⟯|⟮c:20;≥⟯</td></tr>
+<tr><td>⟮c:21;\approx⟯|⟮c:22;≈⟯</td></tr>
+<tr><td>⟮c:23;\infty⟯|⟮c:24;∞⟯</td></tr>
+<tr><td>⟮c:25;\o⟯|⟮c:26;ø⟯</td></tr></tbody>
 </table>
 
 ⟮c:9;\dots⟯ ⟮c:10;is equivalent to \ldots⟯ in ⟮c:11;vanilla latex⟯. 
@@ -5802,9 +5802,9 @@ If using ⟮c:12;amsmath⟯ and ⟮c:13;within math mode⟯, ⟮c:14;\dots⟯ �
     <th>Function</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;babel⟯</td> <td>⟮c:2;foreign language support⟯</td></tr>
-<tr><td>⟮c:3;fontenc⟯</td> <td>⟮c:4;output character encoding⟯</td></tr>
-<tr><td>⟮c:5;inputenc⟯</td> <td>⟮c:6;input character encoding⟯</td></tr>
+    <tr><td>⟮c:1;babel⟯|⟮c:2;foreign language support⟯</td></tr>
+<tr><td>⟮c:3;fontenc⟯|⟮c:4;output character encoding⟯</td></tr>
+<tr><td>⟮c:5;inputenc⟯|⟮c:6;input character encoding⟯</td></tr>
   </tbody>
 </table>
 
@@ -5830,11 +5830,11 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\abstract⟯</td> <td>⟮c:2;set the abstract of e.g. the paper⟯</td></tr>
-<tr><td>⟮c:3;\author⟯</td> <td>⟮c:4;set document author⟯</td></tr>
-<tr><td>⟮c:5;\date⟯</td> <td>⟮c:6;set document date⟯</td></tr>
-<tr><td>⟮c:7;\title⟯</td> <td>⟮c:8;set document title⟯</td></tr>
-<tr><td>⟮c:9;\and⟯</td> <td>⟮c:10;separating multiple authors within \author⟯</td></tr>
+    <tr><td>⟮c:1;\abstract⟯|⟮c:2;set the abstract of e.g. the paper⟯</td></tr>
+<tr><td>⟮c:3;\author⟯|⟮c:4;set document author⟯</td></tr>
+<tr><td>⟮c:5;\date⟯|⟮c:6;set document date⟯</td></tr>
+<tr><td>⟮c:7;\title⟯|⟮c:8;set document title⟯</td></tr>
+<tr><td>⟮c:9;\and⟯|⟮c:10;separating multiple authors within \author⟯</td></tr>
   </tbody>
 </table>
 
@@ -5941,10 +5941,10 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
     <th>effect</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\closing{foo}⟯</td> <td>⟮c:2;set the closing line (e.g. Best wishes, ) to foo⟯</td></tr>
-<tr><td>⟮c:3;\opening{foo}⟯</td> <td>⟮c:4;set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯</td></tr>
-<tr><td>⟮c:5;\encl{foo}⟯</td> <td>⟮c:6;define things that are enclosed (attachments⟯)</td></tr>
-<tr><td>⟮c:7;\ps⟯</td> <td>⟮c:8;define a postscript⟯</td></tr>
+    <tr><td>⟮c:1;\closing{foo}⟯|⟮c:2;set the closing line (e.g. Best wishes, ) to foo⟯</td></tr>
+<tr><td>⟮c:3;\opening{foo}⟯|⟮c:4;set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯</td></tr>
+<tr><td>⟮c:5;\encl{foo}⟯|⟮c:6;define things that are enclosed (attachments⟯)</td></tr>
+<tr><td>⟮c:7;\ps⟯|⟮c:8;define a postscript⟯</td></tr>
   </tbody>
 </table>
 
@@ -5964,9 +5964,9 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\listoffigures⟯</td> <td>⟮c:2;generate a list of figures⟯</td></tr>
-<tr><td>⟮c:3;\listoftables⟯</td> <td>⟮c:4;generate a list of `table`s⟯</td></tr>
-<tr><td>⟮c:5;\tableofcontents⟯</td> <td>⟮c:6;generate a table of contents⟯</td></tr>
+    <tr><td>⟮c:1;\listoffigures⟯|⟮c:2;generate a list of figures⟯</td></tr>
+<tr><td>⟮c:3;\listoftables⟯|⟮c:4;generate a list of `table`s⟯</td></tr>
+<tr><td>⟮c:5;\tableofcontents⟯|⟮c:6;generate a table of contents⟯</td></tr>
   </tbody>
 </table>
 
@@ -5997,8 +5997,8 @@ after&nbsp;⟮c:5;\pagestyle{fancy}⟯ you need ⟮c:9;\fancyhf{} ⟯ to ⟮c:7;
  §<br>
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\(l/c/r)foot{foo}⟯</td> <td>⟮c:2;insert an element foo at that position in the footer⟯</td></tr>
-<tr><td>⟮c:3;\(l/c/r)head{foo}⟯</td> <td>⟮c:4;insert an element foo at that position in the header⟯</td></tr>
+    <tr><td>⟮c:1;\(l/c/r)foot{foo}⟯|⟮c:2;insert an element foo at that position in the footer⟯</td></tr>
+<tr><td>⟮c:3;\(l/c/r)head{foo}⟯|⟮c:4;insert an element foo at that position in the header⟯</td></tr>
   </tbody>
 </table>
 
@@ -6053,11 +6053,11 @@ in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;la
     <th>Result</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;$-$ (or other inline math env notation⟯)</td> <td>⟮c:2;a mathematical minus⟯</td></tr>
-<tr><td>⟮c:3;---⟯</td> <td>⟮c:4;an em-dash⟯</td></tr>
-<tr><td>⟮c:5;--⟯</td> <td>⟮c:6;an en-dash⟯</td></tr>
-<tr><td>⟮c:7;{{c1::-{}-}}⟯</td> <td>⟮c:8;--⟯</td></tr>
-<tr><td>⟮c:9;-⟯</td> <td>⟮c:10;a hyphen⟯</td></tr>
+    <tr><td>⟮c:1;$-$ (or other inline math env notation⟯)|⟮c:2;a mathematical minus⟯</td></tr>
+<tr><td>⟮c:3;---⟯|⟮c:4;an em-dash⟯</td></tr>
+<tr><td>⟮c:5;--⟯|⟮c:6;an en-dash⟯</td></tr>
+<tr><td>⟮c:7;{{c1::-{}-}}⟯|⟮c:8;--⟯</td></tr>
+<tr><td>⟮c:9;-⟯|⟮c:10;a hyphen⟯</td></tr>
   </tbody>
 </table>
 
@@ -6071,9 +6071,9 @@ the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all �
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;quotation environment⟯</td> <td>⟮c:2;indents the beginning line of a paragraph additionally⟯</td></tr>
-<tr><td>⟮c:3;quote environment⟯</td> <td>⟮c:4;indents nothing additonally⟯</td></tr>
-<tr><td>⟮c:5;verse environment⟯</td> <td>⟮c:6;indents every line of a paragraph but the first one additionally⟯</td></tr>
+    <tr><td>⟮c:1;quotation environment⟯|⟮c:2;indents the beginning line of a paragraph additionally⟯</td></tr>
+<tr><td>⟮c:3;quote environment⟯|⟮c:4;indents nothing additonally⟯</td></tr>
+<tr><td>⟮c:5;verse environment⟯|⟮c:6;indents every line of a paragraph but the first one additionally⟯</td></tr>
   </tbody>
 </table>
 
@@ -6087,8 +6087,8 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
     <th>function</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;comment⟯</td> <td>⟮c:2;a block comment⟯</td></tr>
-<tr><td>⟮c:3;verbatim⟯</td> <td>⟮c:4;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)</td></tr>
+    <tr><td>⟮c:1;comment⟯|⟮c:2;a block comment⟯</td></tr>
+<tr><td>⟮c:3;verbatim⟯|⟮c:4;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)</td></tr>
   </tbody>
 </table>
 
@@ -6128,9 +6128,9 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
     <th>effect</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}⟯</td> <td>⟮c:2;define new colors⟯</td></tr>
-<tr><td>⟮c:3;\pagecolor{color}⟯</td> <td>⟮c:4;colors the background of a page in the specified way⟯</td></tr>
-<tr><td>⟮c:5;\textcolor{color}{text}⟯</td> <td>⟮c:6;colors the text in a specific color⟯</td></tr>
+    <tr><td>⟮c:1;\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}⟯|⟮c:2;define new colors⟯</td></tr>
+<tr><td>⟮c:3;\pagecolor{color}⟯|⟮c:4;colors the background of a page in the specified way⟯</td></tr>
+<tr><td>⟮c:5;\textcolor{color}{text}⟯|⟮c:6;colors the text in a specific color⟯</td></tr>
   </tbody>
 </table>
 
@@ -6142,10 +6142,10 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
     <th>Effect</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\noindent⟯</td> <td>⟮c:2;prevent the paragraph from being indented⟯</td></tr>
-<tr><td>⟮c:3;\nolinebreak / \nobreak⟯</td> <td>⟮c:4;prevent latex from breaking here⟯</td></tr>
-<tr><td>⟮c:5;\textwidth, \columnwith, \linewidth⟯</td> <td>⟮c:6;width of the current text (different variants for different circumstances⟯)</td></tr>
-<tr><td>⟮c:7;\neg&lt;whatever&gt;space (\negmedspace, \negthickspace⟯)</td> <td>⟮c:8;negative space (pulls things closer together⟯)</td></tr>
+    <tr><td>⟮c:1;\noindent⟯|⟮c:2;prevent the paragraph from being indented⟯</td></tr>
+<tr><td>⟮c:3;\nolinebreak / \nobreak⟯|⟮c:4;prevent latex from breaking here⟯</td></tr>
+<tr><td>⟮c:5;\textwidth, \columnwith, \linewidth⟯|⟮c:6;width of the current text (different variants for different circumstances⟯)</td></tr>
+<tr><td>⟮c:7;\neg&lt;whatever&gt;space (\negmedspace, \negthickspace⟯)|⟮c:8;negative space (pulls things closer together⟯)</td></tr>
   </tbody>
 </table>
 
@@ -6155,9 +6155,9 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
     <th>does</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;\today⟯</td> <td>⟮c:2;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)</td></tr>
-    <tr><td>⟮c:3;\bar{foo}⟯</td> <td>⟮c:4;bar above foo⟯</td></tr>
-<tr><td>⟮c:5;a' or a^{\prime}⟯</td> <td>⟮c:6;render an a with a prime⟯</td></tr>
+    <tr><td>⟮c:1;\today⟯|⟮c:2;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)</td></tr>
+    <tr><td>⟮c:3;\bar{foo}⟯|⟮c:4;bar above foo⟯</td></tr>
+<tr><td>⟮c:5;a' or a^{\prime}⟯|⟮c:6;render an a with a prime⟯</td></tr>
   </tbody>
 </table>
 
@@ -6275,9 +6275,9 @@ A YAML ⟮c:19;merge key⟯ goes ⟮c:20;instead of a key⟯, and ⟮c:21;takes 
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;&amp;foo⟯</td> <td>⟮c:2;anchor⟯</td></tr>
-<tr><td>⟮c:3;*foo⟯</td> <td>⟮c:4;alias⟯</td></tr>
-<tr><td>⟮c:5;&lt;&lt;⟯</td> <td>⟮c:6;Merge key⟯</td></tr>
+    <tr><td>⟮c:1;&amp;foo⟯|⟮c:2;anchor⟯</td></tr>
+<tr><td>⟮c:3;*foo⟯|⟮c:4;alias⟯</td></tr>
+<tr><td>⟮c:5;&lt;&lt;⟯|⟮c:6;Merge key⟯</td></tr>
   </tbody>
 </table>
 
@@ -6336,9 +6336,9 @@ WebVTT delimits ⟮c:51;major sections⟯ with ⟮c:50;allcaps words⟯:
     <th>section semantics/function</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;WEBVTT⟯</td> <td>⟮c:2;s:32;Begin WebVTT document⟯ ⟮h:2;(may be followed by ((c:32;::text header on the same line⟯)))</td></tr>
-<tr><td>⟮c:3;STYLE⟯</td> <td>⟮c:4;inline styling section⟯</td></tr>
-<tr><td>⟮c:5;NOTE⟯</td> <td>⟮c:6;comment⟯</td></tr>
+<tr><td>⟮c:1;WEBVTT⟯|⟮c:2;s:32;Begin WebVTT document⟯ ⟮h:2;(may be followed by ((c:32;::text header on the same line⟯)))</td></tr>
+<tr><td>⟮c:3;STYLE⟯|⟮c:4;inline styling section⟯</td></tr>
+<tr><td>⟮c:5;NOTE⟯|⟮c:6;comment⟯</td></tr>
   </tbody>
 </table>
 
@@ -6358,15 +6358,15 @@ Every line of a cue may optionally be ⟮c:70;started by `- `⟯, this will ⟮c
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 <tr><td>⟮c:7;vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg⟯)</td></tr>
-<tr><td>⟮c:8;line:0-100%⟯</td> <td>⟮c:9;display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)</td></tr>
-<tr><td>⟮c:10;position:0-100%⟯</td> <td>⟮c:11;display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)</td></tr>
-<tr><td>⟮c:12;size:0-100%⟯</td> <td>⟮c:13;set the width of the cue to %⟯</td></tr>
-<tr><td>⟮c:14;&lt;c.foo&gt;content&lt;/c&gt;⟯</td> <td>⟮c:15;specify a class foo to target⟯</td></tr>
-<tr><td>⟮c:16;&lt;ruby&gt;...⟯</td> <td>⟮c:17;add furigana etc.⟯</td></tr>
-<tr><td>⟮c:18;&lt;v foo&gt;⟯</td> <td>⟮c:19;indicate that foo is speaking⟯</td></tr>
-<tr><td>⟮c:20;align:start/end...⟯</td> <td>⟮c:21;align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯</td></tr>
-<tr><td>⟮c:22;&lt;font color="...⟯</td> <td>⟮c:23;Set the text to a certain color⟯</td></tr>
-<tr><td>⟮c:24;&lt;b&gt;, &lt;i&gt;, &lt;u&gt;⟯</td> <td>⟮c:25;make the text bold, italic or underlined⟯</td></tr>
+<tr><td>⟮c:8;line:0-100%⟯|⟮c:9;display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)</td></tr>
+<tr><td>⟮c:10;position:0-100%⟯|⟮c:11;display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)</td></tr>
+<tr><td>⟮c:12;size:0-100%⟯|⟮c:13;set the width of the cue to %⟯</td></tr>
+<tr><td>⟮c:14;&lt;c.foo&gt;content&lt;/c&gt;⟯|⟮c:15;specify a class foo to target⟯</td></tr>
+<tr><td>⟮c:16;&lt;ruby&gt;...⟯|⟮c:17;add furigana etc.⟯</td></tr>
+<tr><td>⟮c:18;&lt;v foo&gt;⟯|⟮c:19;indicate that foo is speaking⟯</td></tr>
+<tr><td>⟮c:20;align:start/end...⟯|⟮c:21;align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯</td></tr>
+<tr><td>⟮c:22;&lt;font color="...⟯|⟮c:23;Set the text to a certain color⟯</td></tr>
+<tr><td>⟮c:24;&lt;b&gt;, &lt;i&gt;, &lt;u&gt;⟯|⟮c:25;make the text bold, italic or underlined⟯</td></tr>
   </tbody>
 </table>
 <table>
@@ -6376,9 +6376,9 @@ Every line of a cue may optionally be ⟮c:70;started by `- `⟯, this will ⟮c
     <th>Selects</th></tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:26;::cue(.foo⟯)</td> <td>⟮c:27;Target a cue with class foo (&lt;c.foo&gt;⟯)</td></tr>
-<tr><td>⟮c:28;::cue⟯</td> <td>⟮c:29;Target any WebVTT cue (shown subtitle⟯)</td></tr>
-<tr><td>⟮c:30;::cue(b⟯)</td> <td>⟮c:31;Target a &lt;b&gt; tag within WebVTT⟯</td></tr>
+<tr><td>⟮c:26;::cue(.foo⟯)|⟮c:27;Target a cue with class foo (&lt;c.foo&gt;⟯)</td></tr>
+<tr><td>⟮c:28;::cue⟯|⟮c:29;Target any WebVTT cue (shown subtitle⟯)</td></tr>
+<tr><td>⟮c:30;::cue(b⟯)|⟮c:31;Target a &lt;b&gt; tag within WebVTT⟯</td></tr>
   </tbody>
 </table>
 If you ⟮c:72;specify timestamp text (WebVTT only⟯), then ⟮c:73;any text before a timestamp text whose time you are at or after⟯ is ⟮c:74;previous text⟯, ⟮c:75;the text from the current to the next timestamp tag⟯ is ⟮c:76;active text⟯ and ⟮c:77;text after the next timestamp tag⟯ is ⟮c:78;future text⟯. 
@@ -7391,11 +7391,11 @@ termux-open   open something it its default application
     <tr><th colspan="2">`open`</th></tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;-R⟯</td> <td>⟮c:2;reveals the file in finder⟯</td></tr>
-<tr><td>⟮c:3;-a someapplication⟯</td> <td>⟮c:4;Specify the application to open with⟯</td></tr>
-<tr><td>⟮c:5;-e⟯</td> <td>⟮c:6;open the file with textedit⟯</td></tr>
-<tr><td>⟮c:7;-f⟯</td> <td>⟮c:8;reads from stdin⟯</td></tr>
-<tr><td>⟮c:9;-t⟯</td> <td>⟮c:10;open the file with your default text editor⟯</td></tr>
+    <tr><td>⟮c:1;-R⟯|⟮c:2;reveals the file in finder⟯</td></tr>
+<tr><td>⟮c:3;-a someapplication⟯|⟮c:4;Specify the application to open with⟯</td></tr>
+<tr><td>⟮c:5;-e⟯|⟮c:6;open the file with textedit⟯</td></tr>
+<tr><td>⟮c:7;-f⟯|⟮c:8;reads from stdin⟯</td></tr>
+<tr><td>⟮c:9;-t⟯|⟮c:10;open the file with your default text editor⟯</td></tr>
   </tbody>
 </table>
 
@@ -7428,9 +7428,9 @@ formatting-syntax ::= {<option>}[ +<output-format-specifier>]
     <th>does</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;-u / --utc / --universal⟯</td> <td>⟮c:2;use UTC⟯</td></tr>
-<tr><td>⟮c:3;-d date / --date=date⟯</td> <td>⟮c:4;calculate the date for the specific date⟯</td></tr>
-<tr><td>⟮c:5;-I/--iso-8601⟯</td> <td>⟮c:6;output the date as ISO 8601⟯</td></tr>
+    <tr><td>⟮c:1;-u / --utc / --universal⟯|⟮c:2;use UTC⟯</td></tr>
+<tr><td>⟮c:3;-d date / --date=date⟯|⟮c:4;calculate the date for the specific date⟯</td></tr>
+<tr><td>⟮c:5;-I/--iso-8601⟯|⟮c:6;output the date as ISO 8601⟯</td></tr>
   </tbody>
 </table>
 
@@ -8086,10 +8086,10 @@ Liquid also features filters prominently to transform values, and also uses the 
       <th>constraints</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;date: "formatstring"⟯</td> <td>⟮c:2;date formatting⟯</td></tr>
-<tr><td>⟮c:5;markdownify⟯</td> <td>⟮c:6;transform from markdown⟯</td> <td>⟮c:7;jekyll only⟯</td></tr>
-    <tr><td>⟮c:25;append: foo⟯</td> <td>⟮c:26;append foo to the string⟯</td></tr>
-<tr><td>⟮c:3;prepend: foo⟯</td> <td>⟮c:4;prepend foo to the string⟯</td></tr>
+    <tr><td>⟮c:1;date: "formatstring"⟯|⟮c:2;date formatting⟯</td></tr>
+<tr><td>⟮c:5;markdownify⟯|⟮c:6;transform from markdown⟯|⟮c:7;jekyll only⟯</td></tr>
+    <tr><td>⟮c:25;append: foo⟯|⟮c:26;append foo to the string⟯</td></tr>
+<tr><td>⟮c:3;prepend: foo⟯|⟮c:4;prepend foo to the string⟯</td></tr>
   </tbody>
 </table>
 
@@ -8357,7 +8357,7 @@ A polyfill is a shim for a browser API, which passes it through if available, an
     <th>Interface</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;DWD open weather data⟯</td> <td>⟮c:2;Bright Sky⟯</td> <td>⟮c:3;JSON⟯</td></tr>
+    <tr><td>⟮c:1;DWD open weather data⟯|⟮c:2;Bright Sky⟯|⟮c:3;JSON⟯</td></tr>
   </tbody>
 </table>
 
@@ -8807,7 +8807,7 @@ There are bunch of sites ⟮c:43;designed to be `curl`ed⟯ to do something usef
     <th>Does what when `curl`ed?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;wttr.in⟯</td> <td>⟮c:2;get weather⟯</td></tr>
+    <tr><td>⟮c:1;wttr.in⟯|⟮c:2;get weather⟯</td></tr>
   </tbody>
 </table>
 
@@ -8910,27 +8910,27 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:3;1xx⟯</td><td>⟮c:4;Informational⟯</td>
-    </tr><tr><td>⟮c:5;100⟯</td><td>⟮c:6;Continue⟯</td><td>⟮c:6;The server is working on it, dammit!⟯</td></tr>
-    <tr><td>⟮c:7;2xx⟯</td><td>⟮c:8;Success⟯</td>
-    </tr><tr><td>⟮c:9;200⟯</td><td>⟮c:10;OK⟯</td><td>⟮c:10;The request is fulfilled.⟯</td></tr>
-    <tr><td>⟮c:11;3xx⟯</td><td>⟮c:21;Redirection⟯</td>
-    </tr><tr><td>⟮c:12;301⟯</td><td>⟮c:22;Move Permanently⟯</td><td>⟮c:22;The resource has moved permanently.⟯</td></tr>
-    <tr><td>⟮c:13;302⟯</td><td>⟮c:23;Move Temporarily⟯</td><td>⟮c:23;The resource has moved temporarily.⟯</td></tr>
-    <tr><td>⟮c:14;304⟯</td><td>⟮c:24;Not Modified⟯</td><td>⟮c:24;The resource has not been modified⟯</td></tr>
-    <tr><td>⟮c:15;4xx⟯</td><td>⟮c:25;Client Error⟯</td>
-    </tr><tr><td>⟮c:16;400⟯</td><td>⟮c:26;Bad request⟯</td><td>⟮c:26;The server could not understand the request⟯</td></tr>
-    <tr><td>⟮c:17;401⟯</td><td>⟮c:27;Authentication Required⟯</td><td>⟮c:27;Requires Username/Password⟯</td></tr>
-    <tr><td>⟮c:18;403⟯</td><td>⟮c:28;Forbidden⟯</td><td>⟮c:28;Server refuses to supply the resource, regardless of identity of client⟯</td></tr>
-    <tr><td>⟮c:19;404⟯</td><td>⟮c:29;Not Found⟯</td><td>⟮c:29;The requested resource cannot be found in the server⟯</td></tr>
-    <tr><td>⟮c:32;405⟯</td><td>⟮c:20;Method Not Allowed⟯</td><td>⟮c:20;The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯</td></tr>
-    <tr><td>⟮c:33;451⟯</td><td>⟮c:30;Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
-    <tr><td>⟮c:33;5xx⟯</td><td>⟮c:30;Server Error⟯</td>
-    </tr><tr><td>⟮c:34;500⟯</td><td>⟮c:31;Internal Server Error⟯</td><td>⟮c:31;Server is confused⟯</td></tr>
-    <tr><td>⟮c:35;501⟯</td><td>⟮c:39;Method not Implemented⟯</td><td>⟮c:39;The method name is invalid (e.g. Get instead of GET⟯)</td></tr>
-   <tr><td>⟮c:36;502⟯</td><td>⟮c:40;Bad Gateway⟯</td><td>⟮c:40;Proxy recieved bad response from upstream server⟯</td></tr>
-    <tr><td>⟮c:37;503⟯</td><td>⟮c:41;Service Unavailable⟯</td><td>⟮c:41;Server cannot respond due to overloading or maintenance⟯</td></tr>
-    <tr><td>⟮c:38;504⟯</td><td>⟮c:42;Gateway timeout⟯</td><td>⟮c:42;Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy⟯)</td></tr>
+    <tr><td>⟮c:3;1xx⟯|⟮c:4;Informational⟯</td>
+    </tr><tr><td>⟮c:5;100⟯|⟮c:6;Continue⟯|⟮c:6;The server is working on it, dammit!⟯</td></tr>
+    <tr><td>⟮c:7;2xx⟯|⟮c:8;Success⟯</td>
+    </tr><tr><td>⟮c:9;200⟯|⟮c:10;OK⟯|⟮c:10;The request is fulfilled.⟯</td></tr>
+    <tr><td>⟮c:11;3xx⟯|⟮c:21;Redirection⟯</td>
+    </tr><tr><td>⟮c:12;301⟯|⟮c:22;Move Permanently⟯|⟮c:22;The resource has moved permanently.⟯</td></tr>
+    <tr><td>⟮c:13;302⟯|⟮c:23;Move Temporarily⟯|⟮c:23;The resource has moved temporarily.⟯</td></tr>
+    <tr><td>⟮c:14;304⟯|⟮c:24;Not Modified⟯|⟮c:24;The resource has not been modified⟯</td></tr>
+    <tr><td>⟮c:15;4xx⟯|⟮c:25;Client Error⟯</td>
+    </tr><tr><td>⟮c:16;400⟯|⟮c:26;Bad request⟯|⟮c:26;The server could not understand the request⟯</td></tr>
+    <tr><td>⟮c:17;401⟯|⟮c:27;Authentication Required⟯|⟮c:27;Requires Username/Password⟯</td></tr>
+    <tr><td>⟮c:18;403⟯|⟮c:28;Forbidden⟯|⟮c:28;Server refuses to supply the resource, regardless of identity of client⟯</td></tr>
+    <tr><td>⟮c:19;404⟯|⟮c:29;Not Found⟯|⟮c:29;The requested resource cannot be found in the server⟯</td></tr>
+    <tr><td>⟮c:32;405⟯|⟮c:20;Method Not Allowed⟯|⟮c:20;The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯</td></tr>
+    <tr><td>⟮c:33;451⟯|⟮c:30;Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
+    <tr><td>⟮c:33;5xx⟯|⟮c:30;Server Error⟯</td>
+    </tr><tr><td>⟮c:34;500⟯|⟮c:31;Internal Server Error⟯|⟮c:31;Server is confused⟯</td></tr>
+    <tr><td>⟮c:35;501⟯|⟮c:39;Method not Implemented⟯|⟮c:39;The method name is invalid (e.g. Get instead of GET⟯)</td></tr>
+   <tr><td>⟮c:36;502⟯|⟮c:40;Bad Gateway⟯|⟮c:40;Proxy recieved bad response from upstream server⟯</td></tr>
+    <tr><td>⟮c:37;503⟯|⟮c:41;Service Unavailable⟯|⟮c:41;Server cannot respond due to overloading or maintenance⟯</td></tr>
+    <tr><td>⟮c:38;504⟯|⟮c:42;Gateway timeout⟯|⟮c:42;Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy⟯)</td></tr>
   </tbody>
 </table>
 
@@ -8957,10 +8957,10 @@ To specify ⟮c:49;how long⟯ ⟮c:50;a cache entry⟯ is ⟮c:49;fresh (when i
     <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;public⟯</td> <td>⟮c:2;Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)</td></tr>
-<tr><td>⟮c:3;private⟯</td> <td>⟮c:4;Don't cache in shared cache, only in private cache (e.g. browser⟯)</td></tr>
-<tr><td>⟮c:5;no-cache⟯</td> <td>⟮c:6;Check with the server for change with each request (but don't redownload if unchanged⟯)</td></tr>
-<tr><td>⟮c:7;no-store⟯</td> <td>⟮c:8;Do not cache the resource in any way⟯</td></tr>
+    <tr><td>⟮c:1;public⟯|⟮c:2;Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)</td></tr>
+<tr><td>⟮c:3;private⟯|⟮c:4;Don't cache in shared cache, only in private cache (e.g. browser⟯)</td></tr>
+<tr><td>⟮c:5;no-cache⟯|⟮c:6;Check with the server for change with each request (but don't redownload if unchanged⟯)</td></tr>
+<tr><td>⟮c:7;no-store⟯|⟮c:8;Do not cache the resource in any way⟯</td></tr>
   </tbody>
 </table>
 
@@ -9177,9 +9177,9 @@ the ⟮c:44;dynamic⟯ or ⟮c:45;private⟯ ports are often used as ⟮c:46;eph
     <th colspan="2">Is called</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:47;&lt;1024⟯</td> <td>⟮c:48;well-known⟯</td></tr>
-<tr><td>⟮c:49;1024 - 49151 (2^15 + 2^14⟯)</td> <td>⟮c:50;registered⟯</td></tr>
-<tr><td>⟮c:51;49152 (2^15 + 2^14) - 2^16⟯</td> <td>⟮c:52;dynamic⟯</td> <td>⟮c:53;private⟯</td></tr>
+    <tr><td>⟮c:47;&lt;1024⟯|⟮c:48;well-known⟯</td></tr>
+<tr><td>⟮c:49;1024 - 49151 (2^15 + 2^14⟯)|⟮c:50;registered⟯</td></tr>
+<tr><td>⟮c:51;49152 (2^15 + 2^14) - 2^16⟯|⟮c:52;dynamic⟯|⟮c:53;private⟯</td></tr>
   </tbody>
 </table>
 
@@ -9195,15 +9195,15 @@ FTP|21
     <th>Port</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;SSH⟯</td> <td>⟮c:2;22⟯</td></tr>
-<tr><td>⟮c:3;telnet⟯</td> <td>⟮c:4;23⟯</td></tr>
-<tr><td>⟮c:5;SMTP (plaintext⟯)</td> <td>⟮c:6;25⟯</td></tr>
-<tr><td>⟮c:7;DNS⟯</td> <td>⟮c:8;53⟯</td></tr>
-<tr><td>⟮c:9;HTTP⟯</td> <td>⟮c:10;80⟯</td></tr>
-<tr><td>⟮c:11;IMAP (plaintext⟯)</td> <td>⟮c:12;143⟯</td></tr>
-<tr><td>⟮c:13;HTTPS⟯</td> <td>⟮c:14;443⟯</td></tr>
-<tr><td>⟮c:15;SMTP (encrypted⟯)</td> <td>⟮c:16;587⟯</td></tr>
-<tr><td>⟮c:17;IMAP (encrypted⟯)</td> <td>⟮c:18;993⟯</td></tr>
+    <tr><td>⟮c:1;SSH⟯|⟮c:2;22⟯</td></tr>
+<tr><td>⟮c:3;telnet⟯|⟮c:4;23⟯</td></tr>
+<tr><td>⟮c:5;SMTP (plaintext⟯)|⟮c:6;25⟯</td></tr>
+<tr><td>⟮c:7;DNS⟯|⟮c:8;53⟯</td></tr>
+<tr><td>⟮c:9;HTTP⟯|⟮c:10;80⟯</td></tr>
+<tr><td>⟮c:11;IMAP (plaintext⟯)|⟮c:12;143⟯</td></tr>
+<tr><td>⟮c:13;HTTPS⟯|⟮c:14;443⟯</td></tr>
+<tr><td>⟮c:15;SMTP (encrypted⟯)|⟮c:16;587⟯</td></tr>
+<tr><td>⟮c:17;IMAP (encrypted⟯)|⟮c:18;993⟯</td></tr>
   </tbody>
 </table>
 
@@ -9487,10 +9487,10 @@ Loopback is the routing of signals/streams back to their source without intentio
     <th>name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<img src="sm_unicast.svg">⟯</td> <td>⟮c:2;Unicast⟯</td></tr>
-<tr><td>⟮c:3;<img src="sm_multicast.svg">⟯</td> <td>⟮c:4;multicast⟯</td></tr>
-<tr><td>⟮c:5;<img src="sm_broadcast.svg">⟯</td> <td>⟮c:6;broadcast⟯</td></tr>
-<tr><td>⟮c:7;<img src="sm_anycast.svg">⟯</td> <td>⟮c:8;anycast⟯</td></tr>
+    <tr><td>⟮c:1;<img src="sm_unicast.svg">⟯|⟮c:2;Unicast⟯</td></tr>
+<tr><td>⟮c:3;<img src="sm_multicast.svg">⟯|⟮c:4;multicast⟯</td></tr>
+<tr><td>⟮c:5;<img src="sm_broadcast.svg">⟯|⟮c:6;broadcast⟯</td></tr>
+<tr><td>⟮c:7;<img src="sm_anycast.svg">⟯|⟮c:8;anycast⟯</td></tr>
   </tbody>
 </table>
 
@@ -9510,13 +9510,13 @@ A daisy chain is a topology where devices are linked in a line or ring.
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;star⟯</td> <td>⟮c:2;<img src="StarNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:3;ring⟯</td> <td>⟮c:4;<img src="RingNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:5;fully connected mesh⟯</td> <td>⟮c:6;<img src="FullyConnectedMeshNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:7;partially connected mesh⟯</td> <td>⟮c:8;<img src="PartiallyConnectedMeshNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:9;bus⟯</td> <td>⟮c:10;<img src="BusNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:11;line⟯</td> <td>⟮c:12;<img src="BusNetwork.svg">⟯</td></tr>
-<tr><td>⟮c:13;tree⟯</td> <td>⟮c:14;<img src="TreeNetwork.svg">⟯</td></tr>
+    <tr><td>⟮c:1;star⟯|⟮c:2;<img src="StarNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:3;ring⟯|⟮c:4;<img src="RingNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:5;fully connected mesh⟯|⟮c:6;<img src="FullyConnectedMeshNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:7;partially connected mesh⟯|⟮c:8;<img src="PartiallyConnectedMeshNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:9;bus⟯|⟮c:10;<img src="BusNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:11;line⟯|⟮c:12;<img src="BusNetwork.svg">⟯</td></tr>
+<tr><td>⟮c:13;tree⟯|⟮c:14;<img src="TreeNetwork.svg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -9866,12 +9866,12 @@ A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯.
     <th>meaning</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;en⟯</td> <td>⟮c:2;english (no further info⟯)</td></tr>
-<tr><td>⟮c:3;zh-hak⟯</td> <td>⟮c:4;hakka chinese⟯</td></tr>
-<tr><td>⟮c:5;zh-Hans⟯</td> <td>⟮c:6;Chinese written in hanzi (simplified⟯)</td></tr>
-<tr><td>⟮c:7;en-GB⟯</td> <td>⟮c:8;english as spoken in great britain⟯</td></tr>
-<tr><td>⟮c:9;az-Latn⟯</td> <td>⟮c:10;azerbaijani, written in latin script⟯</td></tr>
-<tr><td>⟮c:11;ast⟯</td> <td>⟮c:12;asturian (no further info⟯)</td></tr>
+    <tr><td>⟮c:1;en⟯|⟮c:2;english (no further info⟯)</td></tr>
+<tr><td>⟮c:3;zh-hak⟯|⟮c:4;hakka chinese⟯</td></tr>
+<tr><td>⟮c:5;zh-Hans⟯|⟮c:6;Chinese written in hanzi (simplified⟯)</td></tr>
+<tr><td>⟮c:7;en-GB⟯|⟮c:8;english as spoken in great britain⟯</td></tr>
+<tr><td>⟮c:9;az-Latn⟯|⟮c:10;azerbaijani, written in latin script⟯</td></tr>
+<tr><td>⟮c:11;ast⟯|⟮c:12;asturian (no further info⟯)</td></tr>
   </tbody>
 </table>
 
@@ -9881,8 +9881,8 @@ A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯.
     <th>problem</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:15;it-IT⟯</td> <td>⟮c:16;unneccesary specification of IT (italian as spoken where else?⟯)</td></tr>
-<tr><td>⟮c:13;es-Latn⟯</td> <td>⟮c:14;Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)</td></tr>
+    <tr><td>⟮c:15;it-IT⟯|⟮c:16;unneccesary specification of IT (italian as spoken where else?⟯)</td></tr>
+<tr><td>⟮c:13;es-Latn⟯|⟮c:14;Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)</td></tr>
   </tbody>
 </table>
 
@@ -11722,8 +11722,8 @@ SCSS/Sass
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;unquote(foo) or string.unquote(foo⟯)</td> <td>⟮c:2;unquote a string (so that css gets the value as the correct type, eg. when using maps⟯)</td></tr>
-<tr><td>⟮c:3;quote(foo) or string.quote(foo⟯)</td> <td>⟮c:4;return string, but quoted⟯</td></tr>
+    <tr><td>⟮c:1;unquote(foo) or string.unquote(foo⟯)|⟮c:2;unquote a string (so that css gets the value as the correct type, eg. when using maps⟯)</td></tr>
+<tr><td>⟮c:3;quote(foo) or string.quote(foo⟯)|⟮c:4;return string, but quoted⟯</td></tr>
   </tbody>
 </table>
 
@@ -12478,8 +12478,8 @@ In ruby, methods that do something destructive are marked by a !
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;class methods⟯</td> <td>⟮c:2;.method or :​:method⟯</td></tr>
-<tr><td>⟮c:3;instance methods⟯</td> <td>⟮c:4;#method⟯</td></tr>
+    <tr><td>⟮c:1;class methods⟯|⟮c:2;.method or :​:method⟯</td></tr>
+<tr><td>⟮c:3;instance methods⟯|⟮c:4;#method⟯</td></tr>
   </tbody>
 </table>
 
@@ -12970,10 +12970,10 @@ Hello {{ user.name }}!
     <tr><th colspan="2">Liquid loop parameters</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;start where the previous loop of the same iterator left off⟯</td> <td>⟮c:2;offset:continue⟯</td></tr>
-<tr><td>⟮c:3;start at the offset/index n⟯</td> <td>⟮c:4;offset:n⟯</td></tr>
-<tr><td>⟮c:6;iterate through the array in reverse⟯</td><td>⟮c:5;reversed⟯</td></tr>
-<tr><td>⟮c:7;only do n iterations⟯</td> <td>⟮c:8;limit:n⟯</td></tr>
+    <tr><td>⟮c:1;start where the previous loop of the same iterator left off⟯|⟮c:2;offset:continue⟯</td></tr>
+<tr><td>⟮c:3;start at the offset/index n⟯|⟮c:4;offset:n⟯</td></tr>
+<tr><td>⟮c:6;iterate through the array in reverse⟯|⟮c:5;reversed⟯</td></tr>
+<tr><td>⟮c:7;only do n iterations⟯|⟮c:8;limit:n⟯</td></tr>
   </tbody>
 </table>
 
@@ -13000,10 +13000,10 @@ The syntax for the cycle ⟮c:13;group parameter⟯ is ` ⟮c:14;"name":⟯`.
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;{% liquid ... %}⟯</td> <td>⟮c:2;write liquid logic in a single block⟯</td></tr>
-<tr><td>⟮c:3;{% raw %} ... {% endraw %}⟯</td> <td>⟮c:4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)</td></tr>
-<tr><td>⟮c:5;{% render "foo" %}⟯</td> <td>⟮c:6;render another template foo⟯</td></tr>
-<tr><td>⟮c:7;{% tablerow foo in bar ...⟯</td> <td>⟮c:8;generate html tables⟯</td></tr>
+    <tr><td>⟮c:1;{% liquid ... %}⟯|⟮c:2;write liquid logic in a single block⟯</td></tr>
+<tr><td>⟮c:3;{% raw %} ... {% endraw %}⟯|⟮c:4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)</td></tr>
+<tr><td>⟮c:5;{% render "foo" %}⟯|⟮c:6;render another template foo⟯</td></tr>
+<tr><td>⟮c:7;{% tablerow foo in bar ...⟯|⟮c:8;generate html tables⟯</td></tr>
   </tbody>
 </table>
 
@@ -13200,10 +13200,10 @@ In the ⟮c:12;gemfile⟯, ⟮c:13;jekyll_plugin⟯s are specified within ⟮c:1
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;jekyll-feed⟯</td> <td>⟮c:2;Generating an RSS feed (jekyll⟯)</td></tr>
-<tr><td>⟮c:3;jekyll-seo-tag⟯</td> <td>⟮c:4;Generating a few SEO tags (jekyll⟯)</td></tr>
-<tr><td>⟮c:5;jekyll-sitemap⟯</td> <td>⟮c:6;Generating a sitemap⟯</td></tr>
-<tr><td>⟮c:7;jekyll-paginate⟯</td> <td>⟮c:8;allow pagination⟯</td></tr>
+    <tr><td>⟮c:1;jekyll-feed⟯|⟮c:2;Generating an RSS feed (jekyll⟯)</td></tr>
+<tr><td>⟮c:3;jekyll-seo-tag⟯|⟮c:4;Generating a few SEO tags (jekyll⟯)</td></tr>
+<tr><td>⟮c:5;jekyll-sitemap⟯|⟮c:6;Generating a sitemap⟯</td></tr>
+<tr><td>⟮c:7;jekyll-paginate⟯|⟮c:8;allow pagination⟯</td></tr>
   </tbody>
 </table>
 
@@ -13211,8 +13211,8 @@ In the ⟮c:12;gemfile⟯, ⟮c:13;jekyll_plugin⟯s are specified within ⟮c:1
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;defaults⟯</td> <td>⟮c:2;default front matter⟯</td></tr>
-<tr><td>⟮c:3;paginate: n⟯</td> <td>⟮c:4;paginate with n pages⟯</td></tr>
+    <tr><td>⟮c:1;defaults⟯|⟮c:2;default front matter⟯</td></tr>
+<tr><td>⟮c:3;paginate: n⟯|⟮c:4;paginate with n pages⟯</td></tr>
   </tbody>
 </table>
 
@@ -13447,7 +13447,7 @@ A low-level programming language is a programming language with little to no abs
     <th>Prononciation</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;C#⟯</td> <td>⟮c:2;C sharp⟯</td></tr>
+    <tr><td>⟮c:1;C#⟯|⟮c:2;C sharp⟯</td></tr>
   </tbody>
 </table>
 
@@ -13457,7 +13457,7 @@ A low-level programming language is a programming language with little to no abs
     <th>slang</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Rust users⟯</td> <td>⟮c:2;rustaceans⟯</td></tr>
+    <tr><td>⟮c:1;Rust users⟯|⟮c:2;rustaceans⟯</td></tr>
   </tbody>
 </table>
 
@@ -13953,7 +13953,7 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;Open IntelliSense⟯</td><td>⟮c:2;<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>⟯</td></tr>
+<tr><td>⟮c:1;Open IntelliSense⟯|⟮c:2;<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -13967,8 +13967,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;ctrl j⟯</td><td>⟮c:2;join lines⟯</td></tr>
-    <tr><td>⟮c:3;cmd shift k⟯</td><td>⟮c:4;delete line⟯</td></tr>
+    <tr><td>⟮c:1;ctrl j⟯|⟮c:2;join lines⟯</td></tr>
+    <tr><td>⟮c:3;cmd shift k⟯|⟮c:4;delete line⟯</td></tr>
   </tbody>
 </table>
 
@@ -13980,9 +13980,9 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;add line comment⟯</td> <td>⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>⟯</td></tr>
-<tr><td>⟮c:3;toggle line comment⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>/</kbd>⟯</td></tr>
-<tr><td>⟮c:5;toggle block comment⟯</td> <td>⟮c:6;<kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>a</kbd>⟯</td></tr>
+    <tr><td>⟮c:1;add line comment⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>⟯</td></tr>
+<tr><td>⟮c:3;toggle line comment⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>/</kbd>⟯</td></tr>
+<tr><td>⟮c:5;toggle block comment⟯|⟮c:6;<kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>a</kbd>⟯</td></tr>
   </tbody>
 </table>
 
@@ -13993,8 +13993,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     <tr><th colspan="2">VScode Jupyter Shortcuts</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<kbd>f10</kbd>⟯</td> <td>⟮c:2;execute next line of code⟯</td></tr>
-<tr><td>⟮c:3;<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>⟯</td> <td>⟮c:4;finish editing a cell/run a code block⟯</td></tr>
+    <tr><td>⟮c:1;<kbd>f10</kbd>⟯|⟮c:2;execute next line of code⟯</td></tr>
+<tr><td>⟮c:3;<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>⟯|⟮c:4;finish editing a cell/run a code block⟯</td></tr>
   </tbody>
 </table>
 
@@ -14007,10 +14007,10 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     <th>Increments by... (assumes base 10)</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;alt⟯</td> <td>⟮c:2;0.1⟯</td></tr>
-<tr><td>⟮c:3;ø⟯</td> <td>⟮c:4;1⟯</td></tr>
-<tr><td>⟮c:5;shift⟯</td> <td>⟮c:6;10⟯</td></tr>
-<tr><td>⟮c:7;command/ctrl⟯</td> <td>⟮c:8;100+⟯</td></tr>
+    <tr><td>⟮c:1;alt⟯|⟮c:2;0.1⟯</td></tr>
+<tr><td>⟮c:3;ø⟯|⟮c:4;1⟯</td></tr>
+<tr><td>⟮c:5;shift⟯|⟮c:6;10⟯</td></tr>
+<tr><td>⟮c:7;command/ctrl⟯|⟮c:8;100+⟯</td></tr>
   </tbody>
 </table>
 
@@ -14509,9 +14509,9 @@ If something is ⟮c:9;keg-only⟯, it is ⟮c:10;installed into (/usr/local or 
     <tr><th colspan="2">homebrew prefixes</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;macOS Intel⟯</td> <td>⟮c:2;/usr/local⟯</td></tr>
-<tr><td>⟮c:3;Apple Silicon⟯</td> <td>⟮c:4;/opt/homebrew⟯</td></tr>
-<tr><td>⟮c:5;Linux⟯</td> <td>⟮c:6;/home/linuxbrew⟯</td></tr>
+    <tr><td>⟮c:1;macOS Intel⟯|⟮c:2;/usr/local⟯</td></tr>
+<tr><td>⟮c:3;Apple Silicon⟯|⟮c:4;/opt/homebrew⟯</td></tr>
+<tr><td>⟮c:5;Linux⟯|⟮c:6;/home/linuxbrew⟯</td></tr>
   </tbody>
 </table>
 
