@@ -115,9 +115,9 @@ A hex digit is equivalent to 4 binary digits
     <th>Hexadecimal number</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;1342<sub>10</sub>⟯|⟮c:2;53E<sub>16</sub>⟯</td></tr>
-⟮c:3;13<sub>10</sub>⟯|⟮c:4;D<sub>16</sub>⟯</td></tr>
-⟮c:5;233<sub>10</sub>⟯|⟮c:6;E9<sub>16</sub>⟯</td></tr>
+⟮c:1;1342<sub>10</sub>⟯|⟮c:2;53E<sub>16</sub>⟯
+⟮c:3;13<sub>10</sub>⟯|⟮c:4;D<sub>16</sub>⟯
+⟮c:5;233<sub>10</sub>⟯|⟮c:6;E9<sub>16</sub>⟯
   </tbody>
 </table>
 <table>
@@ -126,9 +126,9 @@ A hex digit is equivalent to 4 binary digits
     <th>Hexadecimal digit</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:7;decimal 10⟯|⟮c:8;hexadecimal A⟯</td></tr>
-⟮c:9;decimal 15⟯|⟮c:10;hexadecimal F⟯</td></tr>
-⟮c:11;decimal 6⟯|⟮c:12;hexadecimal 6⟯</td></tr>
+⟮c:7;decimal 10⟯|⟮c:8;hexadecimal A⟯
+⟮c:9;decimal 15⟯|⟮c:10;hexadecimal F⟯
+⟮c:11;decimal 6⟯|⟮c:12;hexadecimal 6⟯
   </tbody>
 </table>
 
@@ -335,11 +335,11 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;<b>N</b>/ℕ⟯|⟮c:2;Set of all natural numbers⟯</td></tr>
-⟮c:3;<b>P</b>/ℙ⟯|⟮c:4;Set of all primes⟯</td></tr>
-⟮c:5;<b>Q</b>/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯</td></tr>
-⟮c:8;<b>R</b>/ℝ⟯|⟮c:7;Set of all real numbers⟯</td></tr>
-⟮c:9;<b>Z</b>/ℤ⟯|⟮c:10;Set of all integers⟯</td></tr>
+⟮c:1;<b>N</b>/ℕ⟯|⟮c:2;Set of all natural numbers⟯
+⟮c:3;<b>P</b>/ℙ⟯|⟮c:4;Set of all primes⟯
+⟮c:5;<b>Q</b>/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯
+⟮c:8;<b>R</b>/ℝ⟯|⟮c:7;Set of all real numbers⟯
+⟮c:9;<b>Z</b>/ℤ⟯|⟮c:10;Set of all integers⟯
   </tbody>
 </table>
 
@@ -463,8 +463,8 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
     <th>alternative names</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;edges⟯|⟮c:2;links/lines⟯</td></tr>
-⟮c:3;vertices⟯|⟮c:4;nodes/points⟯</td></tr>
+⟮c:1;edges⟯|⟮c:2;links/lines⟯
+⟮c:3;vertices⟯|⟮c:4;nodes/points⟯
   </tbody>
 </table>
 
@@ -476,9 +476,9 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
     <th>name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯</td></tr>
-⟮c:9;the lines⟯|⟮c:10;edges⟯</td></tr>
-⟮c:5;the circles⟯|⟮c:6;vertices⟯</td></tr>
+⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯
+⟮c:9;the lines⟯|⟮c:10;edges⟯
+⟮c:5;the circles⟯|⟮c:6;vertices⟯
   </tbody>
 </table>
 
@@ -488,9 +488,9 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:11;E⟯|⟮c:12;The set of edges⟯</td></tr>
-⟮c:13;G⟯|⟮c:14;the graph⟯</td></tr>
-⟮c:15;V⟯|⟮c:16;The set of vertices⟯</td></tr>
+⟮c:11;E⟯|⟮c:12;The set of edges⟯
+⟮c:13;G⟯|⟮c:14;the graph⟯
+⟮c:15;V⟯|⟮c:16;The set of vertices⟯
   </tbody>
 </table>
 
@@ -561,9 +561,9 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
     <th>pattern</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:17;Pre-order⟯|⟮c:18;Node - Left - Right⟯</td></tr>
-⟮c:19;Inorder⟯|⟮c:20;Left - Node - Right⟯</td></tr>
-⟮c:21;Post-order⟯|⟮c:22;Left  - Right - Node⟯</td></tr>
+⟮c:17;Pre-order⟯|⟮c:18;Node - Left - Right⟯
+⟮c:19;Inorder⟯|⟮c:20;Left - Node - Right⟯
+⟮c:21;Post-order⟯|⟮c:22;Left  - Right - Node⟯
   </tbody>
 </table>
 
@@ -587,10 +587,10 @@ In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33
     <th>where would it go?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;9⟯|⟮c:2;left of 10⟯</td></tr>
-⟮c:3;5⟯|⟮c:4;right of 4⟯</td></tr>
-⟮c:5;2⟯|⟮c:6;right of 1⟯</td></tr>
-⟮c:7;11-12⟯|⟮c:8;left of 13⟯</td></tr>
+⟮c:1;9⟯|⟮c:2;left of 10⟯
+⟮c:3;5⟯|⟮c:4;right of 4⟯
+⟮c:5;2⟯|⟮c:6;right of 1⟯
+⟮c:7;11-12⟯|⟮c:8;left of 13⟯
   </tbody>
 </table>
 
@@ -923,22 +923,22 @@ B|byte
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<span class="c5-cloze">femto</span>|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span></td></tr>
-<span class="c15-cloze">pico</span>|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span></td></tr>
-<span class="c13-cloze">nano</span>|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span></td></tr>
-<span class="c11-cloze">micro</span>|<span class="c27-cloze">10<sup>−6</sup> = 0.000001</span></td></tr>
-<span class="c12-cloze">milli</span>|<span class="c28-cloze">10<sup>−3</sup> = 0.001</span></td></tr>
-<span class="c1-cloze">centi</span>|<span class="c17-cloze">10<sup>−2</sup> = 0.01</span></td></tr>
-<span class="c3-cloze">deci</span>|<span class="c19-cloze">10<sup>−1</sup> = 0.1</span></td></tr>
+<span class="c5-cloze">femto</span>|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span>
+<span class="c15-cloze">pico</span>|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span>
+<span class="c13-cloze">nano</span>|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span>
+<span class="c11-cloze">micro</span>|<span class="c27-cloze">10<sup>−6</sup> = 0.000001</span>
+<span class="c12-cloze">milli</span>|<span class="c28-cloze">10<sup>−3</sup> = 0.001</span>
+<span class="c1-cloze">centi</span>|<span class="c17-cloze">10<sup>−2</sup> = 0.01</span>
+<span class="c3-cloze">deci</span>|<span class="c19-cloze">10<sup>−1</sup> = 0.1</span>
     1|1^0|ø
-<span class="c2-cloze">deca</span>|<span class="c18-cloze">10<sup>1</sup> = 10</span></td></tr>
-<span class="c7-cloze">hecto</span>|<span class="c23-cloze">10<sup>2</sup> = 100</span></td></tr>
-<span class="c9-cloze">kilo</span>|<span class="c25-cloze">10<sup>3</sup> = 1000</span></td></tr>
-<span class="c10-cloze">mega</span>|<span class="c26-cloze">10<sup>6</sup> = 1000000</span></td></tr>
-<span class="c6-cloze">giga</span>|<span class="c22-cloze">10<sup>9</sup> = 1000000000</span></td></tr>
-<span class="c16-cloze">tera</span>|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span></td></tr>
-<span class="c14-cloze">peta</span>|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span></td></tr>
-<span class="c4-cloze">exa</span>|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span></td></tr>
+<span class="c2-cloze">deca</span>|<span class="c18-cloze">10<sup>1</sup> = 10</span>
+<span class="c7-cloze">hecto</span>|<span class="c23-cloze">10<sup>2</sup> = 100</span>
+<span class="c9-cloze">kilo</span>|<span class="c25-cloze">10<sup>3</sup> = 1000</span>
+<span class="c10-cloze">mega</span>|<span class="c26-cloze">10<sup>6</sup> = 1000000</span>
+<span class="c6-cloze">giga</span>|<span class="c22-cloze">10<sup>9</sup> = 1000000000</span>
+<span class="c16-cloze">tera</span>|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span>
+<span class="c14-cloze">peta</span>|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span>
+<span class="c4-cloze">exa</span>|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span>
   </tbody>
 </table>
 
@@ -960,9 +960,9 @@ From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.�
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;kilogram⟯|⟮c:2;kg⟯|⟮c:3;mass⟯</td></tr>
-⟮c:4;metre⟯|⟮c:5;m⟯|⟮c:6;length⟯</td></tr>
-⟮c:7;second⟯|⟮c:8;s⟯|⟮c:9;time⟯</td></tr>
+⟮c:1;kilogram⟯|⟮c:2;kg⟯|⟮c:3;mass⟯
+⟮c:4;metre⟯|⟮c:5;m⟯|⟮c:6;length⟯
+⟮c:7;second⟯|⟮c:8;s⟯|⟮c:9;time⟯
   </tbody>
 </table>
 
@@ -980,7 +980,7 @@ From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.�
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:10;joule⟯|⟮c:11;J⟯|⟮c:12;energy⟯</td></tr>
+⟮c:10;joule⟯|⟮c:11;J⟯|⟮c:12;energy⟯
   </tbody>
 </table>
 
@@ -1040,9 +1040,9 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
       <th>in SI base units</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:1;′ (is the prime, not apostrophe⟯)|⟮c:2;foot⟯</td></tr>
-⟮c:3;″ (is the prime, not apostrophe⟯)|⟮c:4;inch⟯</td></tr>
-⟮c:5;t⟯|⟮c:6;tonne⟯|⟮c:7;1000kg⟯</td></tr>
+⟮c:1;′ (is the prime, not apostrophe⟯)|⟮c:2;foot⟯
+⟮c:3;″ (is the prime, not apostrophe⟯)|⟮c:4;inch⟯
+⟮c:5;t⟯|⟮c:6;tonne⟯|⟮c:7;1000kg⟯
   </tbody>
 </table>
 
