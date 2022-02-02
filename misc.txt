@@ -109,9 +109,9 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯</td></tr>
-<tr><td>⟮c:3;A society dominated in economic output by the primary sector⟯|⟮c:4;Pre-industrial/agrarian (more rarely agricultural) society⟯</td></tr>
-<tr><td>⟮c:5;A society dominated in economic output by the tertiary sector⟯|⟮c:6;Post-industrial society⟯</td></tr>
+⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯</td></tr>
+⟮c:3;A society dominated in economic output by the primary sector⟯|⟮c:4;Pre-industrial/agrarian (more rarely agricultural) society⟯</td></tr>
+⟮c:5;A society dominated in economic output by the tertiary sector⟯|⟮c:6;Post-industrial society⟯</td></tr>
   </tbody>
 </table>
 
@@ -150,9 +150,9 @@ Commodity is a term with three competing definitions:
     <th>examples</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:all;wheat, petroleum, copper, rice, but not handmade bracelets⟯</td></tr>
-<tr><td>⟮c:5;commodity⟯|⟮c:6;marxism⟯|⟮c:7;something with both use and exchange value⟯</td></tr>
-<tr><td>⟮c:8;commodity⟯|⟮c:9;casual usage⟯|⟮c:10;any kind of market good⟯</td></tr>
+⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:all;wheat, petroleum, copper, rice, but not handmade bracelets⟯</td></tr>
+⟮c:5;commodity⟯|⟮c:6;marxism⟯|⟮c:7;something with both use and exchange value⟯</td></tr>
+⟮c:8;commodity⟯|⟮c:9;casual usage⟯|⟮c:10;any kind of market good⟯</td></tr>
   </tbody>
 </table>
 From these definitions, ⟮c:11;commodification/commoditization⟯ may refer to ⟮c:12;any of the three definitions of commodity (economics, marxism, casual usage⟯)
@@ -452,8 +452,8 @@ To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible feat
     <th>explanation</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:11;natural form⟯|⟮c:12;use value⟯|⟮c:13;actual tangible form (the actual physical form, e.g. cloth, iron, etc.⟯)</td></tr>
-<tr><td>⟮c:8;value form⟯|⟮c:9;exchange value⟯|⟮c:10;a good in relation to different commodities (e.g. 20 yards of linen = 1 coat⟯)</td></tr>
+⟮c:11;natural form⟯|⟮c:12;use value⟯|⟮c:13;actual tangible form (the actual physical form, e.g. cloth, iron, etc.⟯)</td></tr>
+⟮c:8;value form⟯|⟮c:9;exchange value⟯|⟮c:10;a good in relation to different commodities (e.g. 20 yards of linen = 1 coat⟯)</td></tr>
   </tbody>
 </table>
 
@@ -626,15 +626,15 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
     <th>Meaning</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Word of God⟯|⟮c:2;something that the creator said about one of their works, but isn't contained in the story itself⟯</td></tr>
-<tr><td>⟮c:3;Lemon⟯|⟮c:4;Fanfiction with explicit sexual content⟯</td></tr>
-<tr><td>⟮c:5;Lime⟯|⟮c:6;Fanfiction with mild sexual content⟯</td></tr>
-<tr><td>⟮c:7;Slash⟯|⟮c:8;Fanfiction with gay relationships⟯</td></tr>
-<tr><td>⟮c:9;WIP⟯|⟮c:10;Work In Progress⟯</td></tr>
-    <tr><td>⟮c:11;RPF⟯|⟮c:12;real person (fan) fiction (fanfiction about real people⟯)</td></tr>
-<tr><td>⟮c:13;fic⟯|⟮c:14;fanfiction⟯</td></tr>
-<tr><td>⟮c:15;fanfic⟯|⟮c:16;fanfiction⟯</td></tr>
-<tr><td>⟮c:17;stan⟯|⟮c:18;an exteremly obsessive fan, to act as such⟯</td></tr>
+⟮c:1;Word of God⟯|⟮c:2;something that the creator said about one of their works, but isn't contained in the story itself⟯</td></tr>
+⟮c:3;Lemon⟯|⟮c:4;Fanfiction with explicit sexual content⟯</td></tr>
+⟮c:5;Lime⟯|⟮c:6;Fanfiction with mild sexual content⟯</td></tr>
+⟮c:7;Slash⟯|⟮c:8;Fanfiction with gay relationships⟯</td></tr>
+⟮c:9;WIP⟯|⟮c:10;Work In Progress⟯</td></tr>
+⟮c:11;RPF⟯|⟮c:12;real person (fan) fiction (fanfiction about real people⟯)</td></tr>
+⟮c:13;fic⟯|⟮c:14;fanfiction⟯</td></tr>
+⟮c:15;fanfic⟯|⟮c:16;fanfiction⟯</td></tr>
+⟮c:17;stan⟯|⟮c:18;an exteremly obsessive fan, to act as such⟯</td></tr>
   </tbody>
 </table>
 
@@ -683,9 +683,9 @@ For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯</td></tr>
-<tr><td>⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯</td></tr>
-<tr><td>⟮c:9;hermeneutic circle⟯|⟮c:10;Schleiermacher⟯|⟮c:11;part of the text⟯|⟮c:12;the whole text⟯</td></tr>
+⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯</td></tr>
+⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯</td></tr>
+⟮c:9;hermeneutic circle⟯|⟮c:10;Schleiermacher⟯|⟮c:11;part of the text⟯|⟮c:12;the whole text⟯</td></tr>
   </tbody>
 </table>
 
@@ -728,10 +728,10 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
     <th>Term</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;a bad guy character in wrestling⟯|⟮c:2;heel⟯</td></tr>
-<tr><td>⟮c:3;a good guy character in wrestling⟯|⟮c:4;a (baby) face⟯</td></tr>
-<tr><td>⟮c:5;a bad guy turning good⟯|⟮c:6;heel(-face) turn⟯</td></tr>
-<tr><td>⟮c:7;a good guy turning bad⟯|⟮c:8;face(-heel) turn⟯</td></tr>
+⟮c:1;a bad guy character in wrestling⟯|⟮c:2;heel⟯</td></tr>
+⟮c:3;a good guy character in wrestling⟯|⟮c:4;a (baby) face⟯</td></tr>
+⟮c:5;a bad guy turning good⟯|⟮c:6;heel(-face) turn⟯</td></tr>
+⟮c:7;a good guy turning bad⟯|⟮c:8;face(-heel) turn⟯</td></tr>
   </tbody>
 </table>
 
@@ -745,8 +745,8 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯</td></tr>
-    <tr><td>⟮c:3;RPG⟯|⟮c:4;Role-playing game⟯</td></tr>
+⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯</td></tr>
+⟮c:3;RPG⟯|⟮c:4;Role-playing game⟯</td></tr>
   </tbody>
 </table>
 
@@ -1016,11 +1016,11 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;_foo_⟯|⟮c:2;underlined⟯</td></tr>
-    <tr><td>⟮c:3;**foo**⟯|⟮c:4;bold⟯</td></tr>
-    <tr><td>⟮c:5;*foo*⟯|⟮c:6;italics⟯</td></tr>
-    <tr><td>⟮c:7;&gt; foo &lt;⟯|⟮c:8;centered⟯</td></tr>
-        <tr><td>⟮c:9;three or more =⟯|⟮c:10;page break⟯</td></tr>
+⟮c:1;_foo_⟯|⟮c:2;underlined⟯</td></tr>
+⟮c:3;**foo**⟯|⟮c:4;bold⟯</td></tr>
+⟮c:5;*foo*⟯|⟮c:6;italics⟯</td></tr>
+⟮c:7;&gt; foo &lt;⟯|⟮c:8;centered⟯</td></tr>
+⟮c:9;three or more =⟯|⟮c:10;page break⟯</td></tr>
     </tbody>
 </table>
 
@@ -1032,11 +1032,11 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:11;@foo⟯|⟮c:12;force a character element⟯</td></tr>
-    <tr><td>⟮c:13;line starts with ~⟯|⟮c:14;lyrics⟯</td></tr>
-    <tr><td>⟮c:15;&gt; foo⟯|⟮c:16;force a transition⟯</td></tr>
-    <tr><td>⟮c:17;.foo⟯|⟮c:18;force scene heading⟯</td></tr>
-    <tr><td>⟮c:19;!foo⟯|⟮c:20;force action text⟯</td></tr>
+⟮c:11;@foo⟯|⟮c:12;force a character element⟯</td></tr>
+⟮c:13;line starts with ~⟯|⟮c:14;lyrics⟯</td></tr>
+⟮c:15;&gt; foo⟯|⟮c:16;force a transition⟯</td></tr>
+⟮c:17;.foo⟯|⟮c:18;force scene heading⟯</td></tr>
+⟮c:19;!foo⟯|⟮c:20;force action text⟯</td></tr>
     </tbody>
 </table>
 
@@ -1048,8 +1048,8 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:21;[[foo]]⟯|⟮c:22;a note⟯</td></tr>
-    <tr><td>⟮c:23;/*foo*/⟯|⟮c:24;a comment⟯</td></tr>
+⟮c:21;[[foo]]⟯|⟮c:22;a note⟯</td></tr>
+⟮c:23;/*foo*/⟯|⟮c:24;a comment⟯</td></tr>
     </tbody>
 </table>
 
@@ -1106,8 +1106,8 @@ Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)</td></tr>
-<tr><td>⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯</td></tr>
+⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)</td></tr>
+⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯</td></tr>
   </tbody>
 </table>
 
@@ -1182,7 +1182,7 @@ In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness 
     <th>definition</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Toponym⟯|⟮c:2;A name for a place⟯</td></tr>
+⟮c:1;Toponym⟯|⟮c:2;A name for a place⟯</td></tr>
   </tbody>
 </table>
 
@@ -1311,99 +1311,99 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;United Arab Emirates⟯|⟮c:2;Abu Dhabi⟯</td></tr>
-    <tr><td>⟮c:3;Ethiopia⟯|⟮c:4;Addis Ababa (Abeba in german⟯)</td></tr>
-    <tr><td>⟮c:5;Netherlands⟯|⟮c:6;Amsterdam (via the constitution), The Hague (seat of some goverment organs⟯)</td></tr>
-    <tr><td>⟮c:7;Andorra⟯|⟮c:8;Andorra la Vella⟯</td></tr>
-    <tr><td>⟮c:9;Turkey⟯|⟮c:10;Ankara⟯</td></tr>
-    <tr><td>⟮c:11;Greece⟯|⟮c:12;Athens⟯</td></tr>
-    <tr><td>⟮c:13;Iraq⟯|⟮c:14;Baghdad⟯</td></tr>
-    <tr><td>⟮c:15;Azerbaijan⟯|⟮c:16;Baku⟯</td></tr>
-    <tr><td>⟮c:17;Thailand⟯|⟮c:18;Bangkok⟯</td></tr>
-    <tr><td>⟮c:19;China⟯|⟮c:20;Beijing⟯</td></tr>
-    <tr><td>⟮c:21;Lebanon⟯|⟮c:22;Beirut⟯</td></tr>
-    <tr><td>⟮c:23;Serbia⟯|⟮c:24;Belgrade⟯</td></tr>
-    <tr><td>⟮c:25;Germany⟯|⟮c:26;Berlin⟯</td></tr>
-    <tr><td>⟮c:27;Switzerland⟯|⟮c:28;Bern⟯</td></tr>
-    <tr><td>⟮c:29;Colombia⟯|⟮c:30;Bogotá⟯</td></tr>
-    <tr><td>⟮c:31;Brazil⟯|⟮c:32;Brasília⟯</td></tr>
-    <tr><td>⟮c:33;Slovakia⟯|⟮c:34;Bratislava⟯</td></tr>
-    <tr><td>⟮c:35;Belgium⟯|⟮c:36;Brussels⟯</td></tr>
-    <tr><td>⟮c:37;Romania⟯|⟮c:38;Bucharest⟯</td></tr>
-    <tr><td>⟮c:39;Hungary⟯|⟮c:40;Budapest⟯</td></tr>
-    <tr><td>⟮c:41;Argentina⟯|⟮c:42;Buenos Aires⟯</td></tr>
-    <tr><td>⟮c:43;Egypt⟯|⟮c:44;Cairo⟯</td></tr>
-    <tr><td>⟮c:45;Australia⟯|⟮c:46;Canberra⟯</td></tr>
-    <tr><td>⟮c:47;Denmark⟯|⟮c:48;Copenhagen⟯</td></tr>
-    <tr><td>⟮c:49;Syria⟯|⟮c:50;Damascus⟯</td></tr>
-    <tr><td>⟮c:51;Qatar⟯|⟮c:52;Doha⟯</td></tr>
-    <tr><td>⟮c:53;Ireland⟯|⟮c:54;Dublin⟯</td></tr>
-    <tr><td>⟮c:55;Vietnam⟯|⟮c:56;Hanoi⟯</td></tr>
-    <tr><td>⟮c:57;Cuba⟯|⟮c:58;Havana⟯</td></tr>
-    <tr><td>⟮c:59;Finland⟯|⟮c:60;Helsinki⟯</td></tr>
-    <tr><td>⟮c:61;Pakistan⟯|⟮c:62;Islamabad⟯</td></tr>
-    <tr><td>⟮c:63;Indonesia⟯|⟮c:64;Jakarta⟯</td></tr>
-    <tr><td>⟮c:65;Israel⟯|⟮c:66;Jerusalem⟯</td></tr>
-    <tr><td>⟮c:67;Afganistan⟯|⟮c:68;Kabul⟯</td></tr>
-    <tr><td>⟮c:69;Nepal⟯|⟮c:70;Kathmandu⟯</td></tr>
-    <tr><td>⟮c:71;Ukraine⟯|⟮c:72;Kiev⟯</td></tr>
-    <tr><td>⟮c:73;Jamaica⟯|⟮c:74;Kingston⟯</td></tr>
-    <tr><td>⟮c:75;Peru⟯|⟮c:76;Lima⟯</td></tr>
-    <tr><td>⟮c:77;Portugal⟯|⟮c:78;Lisbon⟯</td></tr>
-    <tr><td>⟮c:79;Slovenia⟯|⟮c:80;Ljubljana⟯</td></tr>
-    <tr><td>⟮c:81;United Kingdom⟯|⟮c:82;London⟯</td></tr>
-    <tr><td>⟮c:83;Luxembourg⟯|⟮c:84;Luxembourg (City⟯)</td></tr>
-    <tr><td>⟮c:85;Spain⟯|⟮c:86;Madrid⟯</td></tr>
-    <tr><td>⟮c:87;Philippines⟯|⟮c:88;Manila⟯</td></tr>
-    <tr><td>⟮c:89;Mexico⟯|⟮c:90;Mexico City⟯</td></tr>
-    <tr><td>⟮c:91;Belarus⟯|⟮c:92;Minsk⟯</td></tr>
-    <tr><td>⟮c:93;Monaco⟯|⟮c:94;Monaco⟯</td></tr>
-    <tr><td>⟮c:95;Uruguay⟯|⟮c:96;Montevideo⟯</td></tr>
-    <tr><td>⟮c:97;Russia⟯|⟮c:98;Moscow⟯</td></tr>
-    <tr><td>⟮c:99;Myanmar⟯|⟮c:100;Naypuidaw (planned city⟯)</td></tr>
-    <tr><td>⟮c:101;India⟯|⟮c:102;New Delhi⟯</td></tr>
-    <tr><td>⟮c:103;Norway⟯|⟮c:104;Oslo⟯</td></tr>
-    <tr><td>⟮c:105;Canada⟯|⟮c:106;Ottawa⟯</td></tr>
-    <tr><td>⟮c:107;France⟯|⟮c:108;Paris⟯</td></tr>
-    <tr><td>⟮c:109;Cambodia⟯|⟮c:110;Phnom Penh⟯</td></tr>
-    <tr><td>⟮c:111;Haiti⟯|⟮c:112;Port-au-Prince⟯</td></tr>
-    <tr><td>⟮c:113;Czech Republic⟯|⟮c:114;Prague⟯</td></tr>
-    <tr><td>⟮c:115;Kosovo⟯|⟮c:116;Pristina⟯</td></tr>
-    <tr><td>⟮c:117;North Korea⟯|⟮c:118;Pyongyang⟯</td></tr>
-    <tr><td>⟮c:119;Ecuador⟯|⟮c:120;Quito⟯</td></tr>
-    <tr><td>⟮c:121;Morocco⟯|⟮c:122;Rabat⟯</td></tr>
-    <tr><td>⟮c:123;Iceland⟯|⟮c:124;Reykjavík⟯</td></tr>
-    <tr><td>⟮c:125;Latvia⟯|⟮c:126;Riga⟯</td></tr>
-    <tr><td>⟮c:127;Saudi Arabia⟯|⟮c:128;Riyadh⟯</td></tr>
-    <tr><td>⟮c:129;Italy⟯|⟮c:130;Rome⟯</td></tr>
-    <tr><td>⟮c:131;San Marino⟯|⟮c:132;San Marino⟯</td></tr>
-    <tr><td>⟮c:133;El Salvador⟯|⟮c:134;San Salvador⟯</td></tr>
-    <tr><td>⟮c:135;Chile⟯|⟮c:136;Santiago (de Chile), Valparaíso⟯</td></tr>
-    <tr><td>⟮c:137;Bosnia and Herzegovina⟯|⟮c:138;Sarajevo⟯</td></tr>
-    <tr><td>⟮c:139;South Korea⟯|⟮c:140;Seoul⟯</td></tr>
-    <tr><td>⟮c:141;Singapore⟯|⟮c:142;Singapore⟯</td></tr>
-    <tr><td>⟮c:143;Skopje⟯|⟮c:144;North Macedonia⟯</td></tr>
-    <tr><td>⟮c:145;Bulgaria⟯|⟮c:146;Sofia⟯</td></tr>
-    <tr><td>⟮c:147;Sweden⟯|⟮c:148;Stockholm⟯</td></tr>
-    <tr><td>⟮c:149;Taiwan⟯|⟮c:150;Taipei⟯</td></tr>
-    <tr><td>⟮c:151;Estonia⟯|⟮c:152;Tallinn⟯</td></tr>
-    <tr><td>⟮c:153;Uzbekistan⟯|⟮c:154;Tashkent⟯</td></tr>
-    <tr><td>⟮c:155;Georgia⟯|⟮c:156;Tbilisi⟯</td></tr>
-    <tr><td>⟮c:157;Iran⟯|⟮c:158;Tehran⟯</td></tr>
-    <tr><td>⟮c:159;Albania⟯|⟮c:160;Tirana⟯</td></tr>
-    <tr><td>⟮c:161;Japan⟯|⟮c:162;Tokyo⟯</td></tr>
-    <tr><td>⟮c:163;Libya⟯|⟮c:164;Tripoli⟯</td></tr>
-    <tr><td>⟮c:165;Tunisia⟯|⟮c:166;Tunis⟯</td></tr>
-    <tr><td>⟮c:167;Mongolia⟯|⟮c:168;Ulaanbaatar⟯</td></tr>
-    <tr><td>⟮c:169;Liechtenstein⟯|⟮c:170;Vaduz⟯</td></tr>
-    <tr><td>⟮c:171;Malta⟯|⟮c:172;Valletta⟯</td></tr>
-    <tr><td>⟮c:173;Vatican City⟯|⟮c:174;Vatican City⟯</td></tr>
-    <tr><td>⟮c:175;Austria⟯|⟮c:176;Vienna⟯</td></tr>
-    <tr><td>⟮c:177;Lithuania⟯|⟮c:178;Vilnius⟯</td></tr>
-    <tr><td>⟮c:179;Poland⟯|⟮c:180;Warsaw⟯</td></tr>
-    <tr><td>⟮c:181;United States of America⟯|⟮c:182;Washington, D.C.⟯</td></tr>
-    <tr><td>⟮c:183;New Zealand⟯|⟮c:184;Wellington⟯</td></tr>
-    <tr><td>⟮c:185;Croatia⟯|⟮c:186;Zagreb⟯</td></tr>
+⟮c:1;United Arab Emirates⟯|⟮c:2;Abu Dhabi⟯</td></tr>
+⟮c:3;Ethiopia⟯|⟮c:4;Addis Ababa (Abeba in german⟯)</td></tr>
+⟮c:5;Netherlands⟯|⟮c:6;Amsterdam (via the constitution), The Hague (seat of some goverment organs⟯)</td></tr>
+⟮c:7;Andorra⟯|⟮c:8;Andorra la Vella⟯</td></tr>
+⟮c:9;Turkey⟯|⟮c:10;Ankara⟯</td></tr>
+⟮c:11;Greece⟯|⟮c:12;Athens⟯</td></tr>
+⟮c:13;Iraq⟯|⟮c:14;Baghdad⟯</td></tr>
+⟮c:15;Azerbaijan⟯|⟮c:16;Baku⟯</td></tr>
+⟮c:17;Thailand⟯|⟮c:18;Bangkok⟯</td></tr>
+⟮c:19;China⟯|⟮c:20;Beijing⟯</td></tr>
+⟮c:21;Lebanon⟯|⟮c:22;Beirut⟯</td></tr>
+⟮c:23;Serbia⟯|⟮c:24;Belgrade⟯</td></tr>
+⟮c:25;Germany⟯|⟮c:26;Berlin⟯</td></tr>
+⟮c:27;Switzerland⟯|⟮c:28;Bern⟯</td></tr>
+⟮c:29;Colombia⟯|⟮c:30;Bogotá⟯</td></tr>
+⟮c:31;Brazil⟯|⟮c:32;Brasília⟯</td></tr>
+⟮c:33;Slovakia⟯|⟮c:34;Bratislava⟯</td></tr>
+⟮c:35;Belgium⟯|⟮c:36;Brussels⟯</td></tr>
+⟮c:37;Romania⟯|⟮c:38;Bucharest⟯</td></tr>
+⟮c:39;Hungary⟯|⟮c:40;Budapest⟯</td></tr>
+⟮c:41;Argentina⟯|⟮c:42;Buenos Aires⟯</td></tr>
+⟮c:43;Egypt⟯|⟮c:44;Cairo⟯</td></tr>
+⟮c:45;Australia⟯|⟮c:46;Canberra⟯</td></tr>
+⟮c:47;Denmark⟯|⟮c:48;Copenhagen⟯</td></tr>
+⟮c:49;Syria⟯|⟮c:50;Damascus⟯</td></tr>
+⟮c:51;Qatar⟯|⟮c:52;Doha⟯</td></tr>
+⟮c:53;Ireland⟯|⟮c:54;Dublin⟯</td></tr>
+⟮c:55;Vietnam⟯|⟮c:56;Hanoi⟯</td></tr>
+⟮c:57;Cuba⟯|⟮c:58;Havana⟯</td></tr>
+⟮c:59;Finland⟯|⟮c:60;Helsinki⟯</td></tr>
+⟮c:61;Pakistan⟯|⟮c:62;Islamabad⟯</td></tr>
+⟮c:63;Indonesia⟯|⟮c:64;Jakarta⟯</td></tr>
+⟮c:65;Israel⟯|⟮c:66;Jerusalem⟯</td></tr>
+⟮c:67;Afganistan⟯|⟮c:68;Kabul⟯</td></tr>
+⟮c:69;Nepal⟯|⟮c:70;Kathmandu⟯</td></tr>
+⟮c:71;Ukraine⟯|⟮c:72;Kiev⟯</td></tr>
+⟮c:73;Jamaica⟯|⟮c:74;Kingston⟯</td></tr>
+⟮c:75;Peru⟯|⟮c:76;Lima⟯</td></tr>
+⟮c:77;Portugal⟯|⟮c:78;Lisbon⟯</td></tr>
+⟮c:79;Slovenia⟯|⟮c:80;Ljubljana⟯</td></tr>
+⟮c:81;United Kingdom⟯|⟮c:82;London⟯</td></tr>
+⟮c:83;Luxembourg⟯|⟮c:84;Luxembourg (City⟯)</td></tr>
+⟮c:85;Spain⟯|⟮c:86;Madrid⟯</td></tr>
+⟮c:87;Philippines⟯|⟮c:88;Manila⟯</td></tr>
+⟮c:89;Mexico⟯|⟮c:90;Mexico City⟯</td></tr>
+⟮c:91;Belarus⟯|⟮c:92;Minsk⟯</td></tr>
+⟮c:93;Monaco⟯|⟮c:94;Monaco⟯</td></tr>
+⟮c:95;Uruguay⟯|⟮c:96;Montevideo⟯</td></tr>
+⟮c:97;Russia⟯|⟮c:98;Moscow⟯</td></tr>
+⟮c:99;Myanmar⟯|⟮c:100;Naypuidaw (planned city⟯)</td></tr>
+⟮c:101;India⟯|⟮c:102;New Delhi⟯</td></tr>
+⟮c:103;Norway⟯|⟮c:104;Oslo⟯</td></tr>
+⟮c:105;Canada⟯|⟮c:106;Ottawa⟯</td></tr>
+⟮c:107;France⟯|⟮c:108;Paris⟯</td></tr>
+⟮c:109;Cambodia⟯|⟮c:110;Phnom Penh⟯</td></tr>
+⟮c:111;Haiti⟯|⟮c:112;Port-au-Prince⟯</td></tr>
+⟮c:113;Czech Republic⟯|⟮c:114;Prague⟯</td></tr>
+⟮c:115;Kosovo⟯|⟮c:116;Pristina⟯</td></tr>
+⟮c:117;North Korea⟯|⟮c:118;Pyongyang⟯</td></tr>
+⟮c:119;Ecuador⟯|⟮c:120;Quito⟯</td></tr>
+⟮c:121;Morocco⟯|⟮c:122;Rabat⟯</td></tr>
+⟮c:123;Iceland⟯|⟮c:124;Reykjavík⟯</td></tr>
+⟮c:125;Latvia⟯|⟮c:126;Riga⟯</td></tr>
+⟮c:127;Saudi Arabia⟯|⟮c:128;Riyadh⟯</td></tr>
+⟮c:129;Italy⟯|⟮c:130;Rome⟯</td></tr>
+⟮c:131;San Marino⟯|⟮c:132;San Marino⟯</td></tr>
+⟮c:133;El Salvador⟯|⟮c:134;San Salvador⟯</td></tr>
+⟮c:135;Chile⟯|⟮c:136;Santiago (de Chile), Valparaíso⟯</td></tr>
+⟮c:137;Bosnia and Herzegovina⟯|⟮c:138;Sarajevo⟯</td></tr>
+⟮c:139;South Korea⟯|⟮c:140;Seoul⟯</td></tr>
+⟮c:141;Singapore⟯|⟮c:142;Singapore⟯</td></tr>
+⟮c:143;Skopje⟯|⟮c:144;North Macedonia⟯</td></tr>
+⟮c:145;Bulgaria⟯|⟮c:146;Sofia⟯</td></tr>
+⟮c:147;Sweden⟯|⟮c:148;Stockholm⟯</td></tr>
+⟮c:149;Taiwan⟯|⟮c:150;Taipei⟯</td></tr>
+⟮c:151;Estonia⟯|⟮c:152;Tallinn⟯</td></tr>
+⟮c:153;Uzbekistan⟯|⟮c:154;Tashkent⟯</td></tr>
+⟮c:155;Georgia⟯|⟮c:156;Tbilisi⟯</td></tr>
+⟮c:157;Iran⟯|⟮c:158;Tehran⟯</td></tr>
+⟮c:159;Albania⟯|⟮c:160;Tirana⟯</td></tr>
+⟮c:161;Japan⟯|⟮c:162;Tokyo⟯</td></tr>
+⟮c:163;Libya⟯|⟮c:164;Tripoli⟯</td></tr>
+⟮c:165;Tunisia⟯|⟮c:166;Tunis⟯</td></tr>
+⟮c:167;Mongolia⟯|⟮c:168;Ulaanbaatar⟯</td></tr>
+⟮c:169;Liechtenstein⟯|⟮c:170;Vaduz⟯</td></tr>
+⟮c:171;Malta⟯|⟮c:172;Valletta⟯</td></tr>
+⟮c:173;Vatican City⟯|⟮c:174;Vatican City⟯</td></tr>
+⟮c:175;Austria⟯|⟮c:176;Vienna⟯</td></tr>
+⟮c:177;Lithuania⟯|⟮c:178;Vilnius⟯</td></tr>
+⟮c:179;Poland⟯|⟮c:180;Warsaw⟯</td></tr>
+⟮c:181;United States of America⟯|⟮c:182;Washington, D.C.⟯</td></tr>
+⟮c:183;New Zealand⟯|⟮c:184;Wellington⟯</td></tr>
+⟮c:185;Croatia⟯|⟮c:186;Zagreb⟯</td></tr>
   </tbody>
 </table>
 
@@ -1411,86 +1411,86 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<img src="sm_Afghanistan.png">⟯|⟮c:81;Afghanistan (pre-2021⟯)</td></tr>
-    <tr><td>⟮c:2;<img src="sm_Argentina.png">⟯|⟮c:82;Argentina⟯</td></tr>
-    <tr><td>⟮c:3;<img src="sm_Australia.png">⟯|⟮c:83;Australia⟯</td></tr>
-    <tr><td>⟮c:4;<img src="sm_Austria.png">⟯|⟮c:84;Austria⟯</td></tr>
-    <tr><td>⟮c:5;<img src="sm_Bangladesh.png">⟯|⟮c:85;Bangladesh⟯</td></tr>
-    <tr><td>⟮c:6;<img src="sm_Belarus.png">⟯|⟮c:86;Belarus⟯</td></tr>
-    <tr><td>⟮c:7;<img src="sm_Belgium.png">⟯|⟮c:87;Belgium⟯</td></tr>
-    <tr><td>⟮c:8;<img src="sm_Bosnia_and_Herzegovina.png">⟯|⟮c:88;Bosnia and Herzegovina⟯</td></tr>
-    <tr><td>⟮c:9;<img src="sm_Brazil.png">⟯|⟮c:89;Brazil⟯</td></tr>
-    <tr><td>⟮c:10;<img src="sm_Bulgaria.png">⟯|⟮c:90;Bulgaria⟯</td></tr>
-    <tr><td>⟮c:11;<img src="sm_Canada.png">⟯|⟮c:91;Canada⟯</td></tr>
-    <tr><td>⟮c:12;<img src="sm_Chad.png">⟯|⟮c:92;Chad⟯</td></tr>
-    <tr><td>⟮c:13;<img src="sm_Costa_Rica.png">⟯|⟮c:93;Costa Rica⟯</td></tr>
-    <tr><td>⟮c:14;<img src="sm_Cote_d_Ivoire.png">⟯|⟮c:94;Cote d'Ivoire⟯</td></tr>
-    <tr><td>⟮c:15;<img src="sm_Croatia.png">⟯|⟮c:95;Croatia⟯</td></tr>
-    <tr><td>⟮c:16;<img src="sm_Cyprus.png">⟯|⟮c:96;Cyprus⟯</td></tr>
-    <tr><td>⟮c:17;<img src="sm_Denmark.png">⟯|⟮c:97;Denmark⟯</td></tr>
-    <tr><td>⟮c:18;<img src="sm_Ecuador.png">⟯|⟮c:98;Ecuador⟯</td></tr>
-    <tr><td>⟮c:19;<img src="sm_Estonia.png">⟯|⟮c:99;Estonia⟯</td></tr>
-    <tr><td>⟮c:20;<img src="sm_Finland.png">⟯|⟮c:100;Finland⟯</td></tr>
-    <tr><td>⟮c:21;<img src="sm_France.png">⟯|⟮c:101;France⟯</td></tr>
-    <tr><td>⟮c:22;<img src="sm_Georgia.png">⟯|⟮c:102;Georgia⟯</td></tr>
-    <tr><td>⟮c:23;<img src="sm_Germany.png">⟯|⟮c:103;Germany⟯</td></tr>
-    <tr><td>⟮c:24;<img src="sm_Greece.png">⟯|⟮c:104;Greece⟯</td></tr>
-    <tr><td>⟮c:25;<img src="sm_Haiti.png">⟯|⟮c:105;Haiti⟯</td></tr>
-    <tr><td>⟮c:26;<img src="sm_Honduras.png">⟯|⟮c:106;Honduras⟯</td></tr>
-    <tr><td>⟮c:27;<img src="sm_Hungary.png">⟯|⟮c:107;Hungary⟯</td></tr>
-    <tr><td>⟮c:28;<img src="sm_Iceland.png">⟯|⟮c:108;Iceland⟯</td></tr>
-    <tr><td>⟮c:29;<img src="sm_India.png">⟯|⟮c:109;India⟯</td></tr>
-    <tr><td>⟮c:30;<img src="sm_Iran.png">⟯|⟮c:110;Iran⟯</td></tr>
-    <tr><td>⟮c:31;<img src="sm_Ireland.png">⟯|⟮c:111;Ireland⟯</td></tr>
-    <tr><td>⟮c:32;<img src="sm_Israel.png">⟯|⟮c:112;Israel⟯</td></tr>
-    <tr><td>⟮c:33;<img src="sm_Italy.png">⟯|⟮c:113;Italy⟯</td></tr>
-    <tr><td>⟮c:34;<img src="sm_Jamaica.png">⟯|⟮c:114;Jamaica⟯</td></tr>
-    <tr><td>⟮c:35;<img src="sm_Japan.png">⟯|⟮c:115;Japan⟯</td></tr>
-    <tr><td>⟮c:36;<img src="sm_Kosovo.png">⟯|⟮c:116;Kosovo⟯</td></tr>
-    <tr><td>⟮c:37;<img src="sm_Latvia.png">⟯|⟮c:117;Latvia⟯</td></tr>
-    <tr><td>⟮c:38;<img src="sm_Lebanon.png">⟯|⟮c:118;Lebanon⟯</td></tr>
-    <tr><td>⟮c:39;<img src="sm_Lesotho.png">⟯|⟮c:119;Lesotho⟯</td></tr>
-    <tr><td>⟮c:40;<img src="sm_Liberia.png">⟯|⟮c:120;Liberia⟯</td></tr>
-    <tr><td>⟮c:41;<img src="sm_Lithuania.png">⟯|⟮c:121;Lithuania⟯</td></tr>
-    <tr><td>⟮c:42;<img src="sm_FYROM.png">⟯|⟮c:122;Macedonia⟯</td></tr>
-    <tr><td>⟮c:43;<img src="sm_Malaysia.png">⟯|⟮c:123;Malaysia⟯</td></tr>
-    <tr><td>⟮c:44;<img src="sm_Malta.png">⟯|⟮c:124;Malta⟯</td></tr>
-    <tr><td>⟮c:45;<img src="sm_Mexico.png">⟯|⟮c:125;Mexico⟯</td></tr>
-    <tr><td>⟮c:46;<img src="sm_Moldova.png">⟯|⟮c:126;Moldova⟯</td></tr>
-    <tr><td>⟮c:47;<img src="sm_Nepal.png">⟯|⟮c:127;Nepal⟯</td></tr>
-    <tr><td>⟮c:48;<img src="sm_New_Zealand.png">⟯|⟮c:128;New Zealand⟯</td></tr>
-    <tr><td>⟮c:49;<img src="sm_Nicaragua.png">⟯|⟮c:129;Nicaragua⟯</td></tr>
-    <tr><td>⟮c:50;<img src="sm_Nigeria.png">⟯|⟮c:130;Nigeria⟯</td></tr>
-    <tr><td>⟮c:51;<img src="sm_North_Korea.png">⟯|⟮c:131;North Korea⟯</td></tr>
-    <tr><td>⟮c:52;<img src="sm_Norway.png">⟯|⟮c:132;Norway⟯</td></tr>
-    <tr><td>⟮c:53;<img src="sm_Pakistan.png">⟯|⟮c:133;Pakistan⟯</td></tr>
-    <tr><td>⟮c:54;<img src="sm_Peru.png">⟯|⟮c:134;Peru⟯</td></tr>
-    <tr><td>⟮c:55;<img src="sm_Poland.png">⟯|⟮c:135;Poland⟯</td></tr>
-    <tr><td>⟮c:56;<img src="sm_Portugal.png">⟯|⟮c:136;Portugal⟯</td></tr>
-    <tr><td>⟮c:57;<img src="sm_Romania.png">⟯|⟮c:137;Romania⟯</td></tr>
-    <tr><td>⟮c:58;<img src="sm_Russia.png">⟯|⟮c:138;Russia⟯</td></tr>
-    <tr><td>⟮c:59;<img src="sm_Saudi_Arabia.png">⟯|⟮c:139;Saudi Arabia⟯</td></tr>
-    <tr><td>⟮c:60;<img src="sm_Singapore.png">⟯|⟮c:140;Singapore⟯</td></tr>
-    <tr><td>⟮c:61;<img src="sm_Somalia.png">⟯|⟮c:141;Somalia⟯</td></tr>
-    <tr><td>⟮c:62;<img src="sm_South_Africa.png">⟯|⟮c:142;South Africa⟯</td></tr>
-    <tr><td>⟮c:63;<img src="sm_South_Korea.png">⟯|⟮c:143;South Korea⟯</td></tr>
-    <tr><td>⟮c:64;<img src="sm_South_Ossetia.png">⟯|⟮c:144;South Ossetia⟯</td></tr>
-    <tr><td>⟮c:65;<img src="sm_Spain.png">⟯|⟮c:145;Spain⟯</td></tr>
-    <tr><td>⟮c:66;<img src="sm_Sweden.png">⟯|⟮c:146;Sweden⟯</td></tr>
-    <tr><td>⟮c:67;<img src="sm_Switzerland.png">⟯|⟮c:147;Switzerland⟯</td></tr>
-    <tr><td>⟮c:68;<img src="sm_Syria.png">⟯|⟮c:148;Syria⟯</td></tr>
-    <tr><td>⟮c:69;<img src="sm_the_Czech_Republic.png">⟯|⟮c:149;the Czech Republic⟯</td></tr>
-    <tr><td>⟮c:70;<img src="sm_the_Netherlands.png">⟯|⟮c:150;the Netherlands⟯</td></tr>
-    <tr><td>⟮c:71;<img src="sm_the_People_s_Republic_of_China.png">⟯|⟮c:151;China⟯</td></tr>
-    <tr><td>⟮c:72;<img src="sm_the_Turkish_Republic_of_Northern_Cyprus.png">⟯|⟮c:152;the Turkish Republic of Northern Cyprus⟯</td></tr>
-    <tr><td>⟮c:73;<img src="sm_the_United_Kingdom.png">⟯|⟮c:153;the United Kingdom⟯</td></tr>
-    <tr><td>⟮c:74;<img src="sm_the_United_States.png">⟯|⟮c:154;the United States⟯</td></tr>
-    <tr><td>⟮c:75;<img src="sm_the_Vatican_City.png">⟯|⟮c:155;the Vatican City⟯</td></tr>
-    <tr><td>⟮c:76;<img src="sm_Transnistria.png">⟯|⟮c:156;Transnistria⟯</td></tr>
-    <tr><td>⟮c:77;<img src="sm_Turkey_1342703682212.png">⟯|⟮c:157;Turkey⟯</td></tr>
-    <tr><td>⟮c:78;<img src="sm_Ukraine.png">⟯|⟮c:158;Ukraine⟯</td></tr>
-    <tr><td>⟮c:79;<img src="sm_Uruguay.png">⟯|⟮c:159;Uruguay⟯</td></tr>
-    <tr><td>⟮c:80;<img src="sm_Vietnam.png">⟯|⟮c:160;Vietnam⟯</td></tr>
+⟮c:1;<img src="sm_Afghanistan.png">⟯|⟮c:81;Afghanistan (pre-2021⟯)</td></tr>
+⟮c:2;<img src="sm_Argentina.png">⟯|⟮c:82;Argentina⟯</td></tr>
+⟮c:3;<img src="sm_Australia.png">⟯|⟮c:83;Australia⟯</td></tr>
+⟮c:4;<img src="sm_Austria.png">⟯|⟮c:84;Austria⟯</td></tr>
+⟮c:5;<img src="sm_Bangladesh.png">⟯|⟮c:85;Bangladesh⟯</td></tr>
+⟮c:6;<img src="sm_Belarus.png">⟯|⟮c:86;Belarus⟯</td></tr>
+⟮c:7;<img src="sm_Belgium.png">⟯|⟮c:87;Belgium⟯</td></tr>
+⟮c:8;<img src="sm_Bosnia_and_Herzegovina.png">⟯|⟮c:88;Bosnia and Herzegovina⟯</td></tr>
+⟮c:9;<img src="sm_Brazil.png">⟯|⟮c:89;Brazil⟯</td></tr>
+⟮c:10;<img src="sm_Bulgaria.png">⟯|⟮c:90;Bulgaria⟯</td></tr>
+⟮c:11;<img src="sm_Canada.png">⟯|⟮c:91;Canada⟯</td></tr>
+⟮c:12;<img src="sm_Chad.png">⟯|⟮c:92;Chad⟯</td></tr>
+⟮c:13;<img src="sm_Costa_Rica.png">⟯|⟮c:93;Costa Rica⟯</td></tr>
+⟮c:14;<img src="sm_Cote_d_Ivoire.png">⟯|⟮c:94;Cote d'Ivoire⟯</td></tr>
+⟮c:15;<img src="sm_Croatia.png">⟯|⟮c:95;Croatia⟯</td></tr>
+⟮c:16;<img src="sm_Cyprus.png">⟯|⟮c:96;Cyprus⟯</td></tr>
+⟮c:17;<img src="sm_Denmark.png">⟯|⟮c:97;Denmark⟯</td></tr>
+⟮c:18;<img src="sm_Ecuador.png">⟯|⟮c:98;Ecuador⟯</td></tr>
+⟮c:19;<img src="sm_Estonia.png">⟯|⟮c:99;Estonia⟯</td></tr>
+⟮c:20;<img src="sm_Finland.png">⟯|⟮c:100;Finland⟯</td></tr>
+⟮c:21;<img src="sm_France.png">⟯|⟮c:101;France⟯</td></tr>
+⟮c:22;<img src="sm_Georgia.png">⟯|⟮c:102;Georgia⟯</td></tr>
+⟮c:23;<img src="sm_Germany.png">⟯|⟮c:103;Germany⟯</td></tr>
+⟮c:24;<img src="sm_Greece.png">⟯|⟮c:104;Greece⟯</td></tr>
+⟮c:25;<img src="sm_Haiti.png">⟯|⟮c:105;Haiti⟯</td></tr>
+⟮c:26;<img src="sm_Honduras.png">⟯|⟮c:106;Honduras⟯</td></tr>
+⟮c:27;<img src="sm_Hungary.png">⟯|⟮c:107;Hungary⟯</td></tr>
+⟮c:28;<img src="sm_Iceland.png">⟯|⟮c:108;Iceland⟯</td></tr>
+⟮c:29;<img src="sm_India.png">⟯|⟮c:109;India⟯</td></tr>
+⟮c:30;<img src="sm_Iran.png">⟯|⟮c:110;Iran⟯</td></tr>
+⟮c:31;<img src="sm_Ireland.png">⟯|⟮c:111;Ireland⟯</td></tr>
+⟮c:32;<img src="sm_Israel.png">⟯|⟮c:112;Israel⟯</td></tr>
+⟮c:33;<img src="sm_Italy.png">⟯|⟮c:113;Italy⟯</td></tr>
+⟮c:34;<img src="sm_Jamaica.png">⟯|⟮c:114;Jamaica⟯</td></tr>
+⟮c:35;<img src="sm_Japan.png">⟯|⟮c:115;Japan⟯</td></tr>
+⟮c:36;<img src="sm_Kosovo.png">⟯|⟮c:116;Kosovo⟯</td></tr>
+⟮c:37;<img src="sm_Latvia.png">⟯|⟮c:117;Latvia⟯</td></tr>
+⟮c:38;<img src="sm_Lebanon.png">⟯|⟮c:118;Lebanon⟯</td></tr>
+⟮c:39;<img src="sm_Lesotho.png">⟯|⟮c:119;Lesotho⟯</td></tr>
+⟮c:40;<img src="sm_Liberia.png">⟯|⟮c:120;Liberia⟯</td></tr>
+⟮c:41;<img src="sm_Lithuania.png">⟯|⟮c:121;Lithuania⟯</td></tr>
+⟮c:42;<img src="sm_FYROM.png">⟯|⟮c:122;Macedonia⟯</td></tr>
+⟮c:43;<img src="sm_Malaysia.png">⟯|⟮c:123;Malaysia⟯</td></tr>
+⟮c:44;<img src="sm_Malta.png">⟯|⟮c:124;Malta⟯</td></tr>
+⟮c:45;<img src="sm_Mexico.png">⟯|⟮c:125;Mexico⟯</td></tr>
+⟮c:46;<img src="sm_Moldova.png">⟯|⟮c:126;Moldova⟯</td></tr>
+⟮c:47;<img src="sm_Nepal.png">⟯|⟮c:127;Nepal⟯</td></tr>
+⟮c:48;<img src="sm_New_Zealand.png">⟯|⟮c:128;New Zealand⟯</td></tr>
+⟮c:49;<img src="sm_Nicaragua.png">⟯|⟮c:129;Nicaragua⟯</td></tr>
+⟮c:50;<img src="sm_Nigeria.png">⟯|⟮c:130;Nigeria⟯</td></tr>
+⟮c:51;<img src="sm_North_Korea.png">⟯|⟮c:131;North Korea⟯</td></tr>
+⟮c:52;<img src="sm_Norway.png">⟯|⟮c:132;Norway⟯</td></tr>
+⟮c:53;<img src="sm_Pakistan.png">⟯|⟮c:133;Pakistan⟯</td></tr>
+⟮c:54;<img src="sm_Peru.png">⟯|⟮c:134;Peru⟯</td></tr>
+⟮c:55;<img src="sm_Poland.png">⟯|⟮c:135;Poland⟯</td></tr>
+⟮c:56;<img src="sm_Portugal.png">⟯|⟮c:136;Portugal⟯</td></tr>
+⟮c:57;<img src="sm_Romania.png">⟯|⟮c:137;Romania⟯</td></tr>
+⟮c:58;<img src="sm_Russia.png">⟯|⟮c:138;Russia⟯</td></tr>
+⟮c:59;<img src="sm_Saudi_Arabia.png">⟯|⟮c:139;Saudi Arabia⟯</td></tr>
+⟮c:60;<img src="sm_Singapore.png">⟯|⟮c:140;Singapore⟯</td></tr>
+⟮c:61;<img src="sm_Somalia.png">⟯|⟮c:141;Somalia⟯</td></tr>
+⟮c:62;<img src="sm_South_Africa.png">⟯|⟮c:142;South Africa⟯</td></tr>
+⟮c:63;<img src="sm_South_Korea.png">⟯|⟮c:143;South Korea⟯</td></tr>
+⟮c:64;<img src="sm_South_Ossetia.png">⟯|⟮c:144;South Ossetia⟯</td></tr>
+⟮c:65;<img src="sm_Spain.png">⟯|⟮c:145;Spain⟯</td></tr>
+⟮c:66;<img src="sm_Sweden.png">⟯|⟮c:146;Sweden⟯</td></tr>
+⟮c:67;<img src="sm_Switzerland.png">⟯|⟮c:147;Switzerland⟯</td></tr>
+⟮c:68;<img src="sm_Syria.png">⟯|⟮c:148;Syria⟯</td></tr>
+⟮c:69;<img src="sm_the_Czech_Republic.png">⟯|⟮c:149;the Czech Republic⟯</td></tr>
+⟮c:70;<img src="sm_the_Netherlands.png">⟯|⟮c:150;the Netherlands⟯</td></tr>
+⟮c:71;<img src="sm_the_People_s_Republic_of_China.png">⟯|⟮c:151;China⟯</td></tr>
+⟮c:72;<img src="sm_the_Turkish_Republic_of_Northern_Cyprus.png">⟯|⟮c:152;the Turkish Republic of Northern Cyprus⟯</td></tr>
+⟮c:73;<img src="sm_the_United_Kingdom.png">⟯|⟮c:153;the United Kingdom⟯</td></tr>
+⟮c:74;<img src="sm_the_United_States.png">⟯|⟮c:154;the United States⟯</td></tr>
+⟮c:75;<img src="sm_the_Vatican_City.png">⟯|⟮c:155;the Vatican City⟯</td></tr>
+⟮c:76;<img src="sm_Transnistria.png">⟯|⟮c:156;Transnistria⟯</td></tr>
+⟮c:77;<img src="sm_Turkey_1342703682212.png">⟯|⟮c:157;Turkey⟯</td></tr>
+⟮c:78;<img src="sm_Ukraine.png">⟯|⟮c:158;Ukraine⟯</td></tr>
+⟮c:79;<img src="sm_Uruguay.png">⟯|⟮c:159;Uruguay⟯</td></tr>
+⟮c:80;<img src="sm_Vietnam.png">⟯|⟮c:160;Vietnam⟯</td></tr>
 
   </tbody>
 </table>
@@ -1596,8 +1596,8 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
     <th>end</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;long 19th century⟯|⟮c:2;french revolution 1989⟯|⟮c:3;world war 1 1914⟯</td></tr>
-<tr><td>⟮c:4;short 20th century⟯|⟮c:5;world war 1 1914⟯|⟮c:6;dissolution of the soviet union ~1990⟯</td></tr>
+⟮c:1;long 19th century⟯|⟮c:2;french revolution 1989⟯|⟮c:3;world war 1 1914⟯</td></tr>
+⟮c:4;short 20th century⟯|⟮c:5;world war 1 1914⟯|⟮c:6;dissolution of the soviet union ~1990⟯</td></tr>
   </tbody>
 </table>
 
@@ -1613,7 +1613,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
     <th>end</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;The early modern period⟯|⟮c:2;1450-1500⟯|⟮c:3;the french revolution 1789⟯</td></tr>
+⟮c:1;The early modern period⟯|⟮c:2;1450-1500⟯|⟮c:3;the french revolution 1789⟯</td></tr>
   </tbody>
 </table>
 
@@ -1626,8 +1626,8 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
     <th>date</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;French Revolution (begin⟯)|⟮c:2;1789⟯</td></tr>
-<tr><td>⟮c:3;Fall of Constantinople⟯|⟮c:4;1453⟯</td></tr>
+⟮c:1;French Revolution (begin⟯)|⟮c:2;1789⟯</td></tr>
+⟮c:3;Fall of Constantinople⟯|⟮c:4;1453⟯</td></tr>
   </tbody>
 </table>
 
@@ -1672,9 +1672,9 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
       <th>End</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Asuka⟯|⟮c:2;550⟯|⟮c:3;700⟯</td></tr>
-<tr><td>⟮c:4;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代⟯|⟮c:5;700⟯|⟮c:6;800⟯</td></tr>
-<tr><td>⟮c:7;平安時代⟯|⟮c:8;800⟯|⟮c:9;1200⟯</td></tr>
+⟮c:1;Asuka⟯|⟮c:2;550⟯|⟮c:3;700⟯</td></tr>
+⟮c:4;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代⟯|⟮c:5;700⟯|⟮c:6;800⟯</td></tr>
+⟮c:7;平安時代⟯|⟮c:8;800⟯|⟮c:9;1200⟯</td></tr>
   </tbody>
 </table>
 
@@ -1737,8 +1737,8 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
     <th>end</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯</td></tr>
-<tr><td>⟮c:4;later⟯|⟮c:5;s:6;end of the 2000s (2009⟯)|⟮c:6;s:5;2012⟯</td></tr>
+⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯</td></tr>
+⟮c:4;later⟯|⟮c:5;s:6;end of the 2000s (2009⟯)|⟮c:6;s:5;2012⟯</td></tr>
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span><br><div class="sub">
@@ -1979,9 +1979,9 @@ The ⟮c:8;Rinnsteine⟯ were supposed to move the waste into ⟮c:9;the spree�
     <th>population of berlin</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;1830⟯|⟮c:2;squarter million⟯</td></tr>
-<tr><td>⟮c:3;1850⟯|⟮c:4;shalf million⟯</td></tr>
-<tr><td>⟮c:5;1877⟯|⟮c:6;one million⟯</td></tr>
+⟮c:1;1830⟯|⟮c:2;squarter million⟯</td></tr>
+⟮c:3;1850⟯|⟮c:4;shalf million⟯</td></tr>
+⟮c:5;1877⟯|⟮c:6;one million⟯</td></tr>
   </tbody>
 </table>
 
@@ -2067,8 +2067,8 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 <img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c:5;Erkenntnis / Urteile⟯ kann ⟮c:6;a priori / a posteriori⟯ sein. 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Urteil a posteriori⟯|⟮c:2;Ein Urteil auf Basis von Erfahrung⟯</td></tr>
-<tr><td>⟮c:3;Urteil a priori⟯|⟮c:4;Ein Urteil ohne die Basis der Erfahrung⟯</td></tr>
+⟮c:1;Urteil a posteriori⟯|⟮c:2;Ein Urteil auf Basis von Erfahrung⟯</td></tr>
+⟮c:3;Urteil a priori⟯|⟮c:4;Ein Urteil ohne die Basis der Erfahrung⟯</td></tr>
   </tbody>
 </table>
 
@@ -2132,22 +2132,22 @@ The ⟮c:31;monomyth⟯ may also be called ⟮c:32;the Hero's Journey⟯. The sh
   <table class="cloze-group hide-if-inactive">
   <tbody>
     <tr><td rowspan="5">⟮c:1;Departure⟯|⟮c:2;The Call to Adventure⟯</td></tr>
-<tr><td>⟮c:3;Refusal of the Call⟯</td></tr>
-<tr><td>⟮c:4;Supernatural Aid⟯</td></tr>
-<tr><td>⟮c:5;The Crossing of the First Threshold⟯</td></tr>
-<tr><td>⟮c:6;Belly of the Whale⟯</td></tr>
+⟮c:3;Refusal of the Call⟯</td></tr>
+⟮c:4;Supernatural Aid⟯</td></tr>
+⟮c:5;The Crossing of the First Threshold⟯</td></tr>
+⟮c:6;Belly of the Whale⟯</td></tr>
 <tr><td rowspan="6">⟮c:7;Initiation⟯|⟮c:8;The Road of Trials⟯</td></tr>
-<tr><td>⟮c:9;The Meeting with the Goddess⟯</td></tr>
-<tr><td>⟮c:10;Woman as the Temptress⟯</td></tr>
-<tr><td>⟮c:11;Atonement with the Father⟯</td></tr>
-<tr><td>⟮c:12;Apotheosis⟯</td></tr>
-<tr><td>⟮c:13;The Ultimate Boon⟯</td></tr>
+⟮c:9;The Meeting with the Goddess⟯</td></tr>
+⟮c:10;Woman as the Temptress⟯</td></tr>
+⟮c:11;Atonement with the Father⟯</td></tr>
+⟮c:12;Apotheosis⟯</td></tr>
+⟮c:13;The Ultimate Boon⟯</td></tr>
 <tr><td rowspan="6">⟮c:14;Return⟯|⟮c:15;Refusal of the Return⟯</td></tr>
-<tr><td>⟮c:16;The Magic Flight⟯</td></tr>
-<tr><td>⟮c:17;Rescue from Without⟯</td></tr>
-<tr><td>⟮c:18;The Crossing of the Return Threshold⟯</td></tr>
-<tr><td>⟮c:19;Master of the Two Worlds⟯</td></tr>
-<tr><td>⟮c:20;Freedom to Live⟯</td></tr>
+⟮c:16;The Magic Flight⟯</td></tr>
+⟮c:17;Rescue from Without⟯</td></tr>
+⟮c:18;The Crossing of the Return Threshold⟯</td></tr>
+⟮c:19;Master of the Two Worlds⟯</td></tr>
+⟮c:20;Freedom to Live⟯</td></tr>
   </tbody>
 </table>
 Campbell divides the monomyth into these parts (chronologically):
@@ -2173,8 +2173,8 @@ Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ �
     <th>Creates</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Mythical thought⟯|⟮c:2;Hypercausal (Everything must have a definite cause⟯)|⟮c:3;Bricolage⟯|⟮c:4;uses whatever is at hand⟯|⟮c:5;uses signs (which are limited⟯)|⟮c:6;creates structures⟯</td></tr>
-<tr><td>⟮c:7;Scientific thought⟯|⟮c:8;Causal, but can accept uncertainty⟯|⟮c:9;Engineer⟯|⟮c:10;uses (within limit) the things it needs as materials⟯|⟮c:11;uses concepts (which can go beyond preexisting ideas⟯)|⟮c:12;creates changes in the world⟯</td></tr>
+⟮c:1;Mythical thought⟯|⟮c:2;Hypercausal (Everything must have a definite cause⟯)|⟮c:3;Bricolage⟯|⟮c:4;uses whatever is at hand⟯|⟮c:5;uses signs (which are limited⟯)|⟮c:6;creates structures⟯</td></tr>
+⟮c:7;Scientific thought⟯|⟮c:8;Causal, but can accept uncertainty⟯|⟮c:9;Engineer⟯|⟮c:10;uses (within limit) the things it needs as materials⟯|⟮c:11;uses concepts (which can go beyond preexisting ideas⟯)|⟮c:12;creates changes in the world⟯</td></tr>
   </tbody>
 </table>
 
@@ -2235,9 +2235,9 @@ In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a commun
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr> <td>⟮c:1;First-wave feminism⟯|⟮c:2;s:3;end of the 19th / beginning of the 20th century⟯|⟮c:2;s:3;women's suffrage⟯</td></tr> 
-<tr> <td>⟮c:4;second-wave feminism⟯|⟮c:5;1960s-1980s⟯</td></tr> 
-<tr> <td>⟮c:6;third-wave feminism⟯|⟮c:7;1990s-2000s (some authors) or 1990 - today (other authors⟯)</td></tr> 
+⟮c:1;First-wave feminism⟯|⟮c:2;s:3;end of the 19th / beginning of the 20th century⟯|⟮c:2;s:3;women's suffrage⟯</td></tr> 
+⟮c:4;second-wave feminism⟯|⟮c:5;1960s-1980s⟯</td></tr> 
+⟮c:6;third-wave feminism⟯|⟮c:7;1990s-2000s (some authors) or 1990 - today (other authors⟯)</td></tr> 
   </tbody>
 </table>
 
@@ -2303,12 +2303,12 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
     <th>Name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:2;MitarbeiterInnen⟯|⟮c:1;Binnen-I⟯</td> </tr>
-<tr><td>⟮c:3;Lehrer*innen⟯|⟮c:4;Genderstern(chen⟯)</td></tr>
-<tr><td>⟮c:5;Lehrer_innen⟯|⟮c:6;Gender-gap⟯</td></tr>
-<tr><td>⟮c:7;Liebe Mitarbeiterinnen und Mitarbeiter⟯|⟮c:8;Beidnennung / Doppelnennung⟯</td></tr>
-<tr><td>⟮c:9;Mitarbeiter(innen⟯)|⟮c:10;(mit) Klammer⟯</td></tr>
-<tr><td>⟮c:11;Mitarbeiter/innen⟯|⟮c:12;(mit) Schrägstrich⟯</td></tr>
+⟮c:2;MitarbeiterInnen⟯|⟮c:1;Binnen-I⟯</td> </tr>
+⟮c:3;Lehrer*innen⟯|⟮c:4;Genderstern(chen⟯)</td></tr>
+⟮c:5;Lehrer_innen⟯|⟮c:6;Gender-gap⟯</td></tr>
+⟮c:7;Liebe Mitarbeiterinnen und Mitarbeiter⟯|⟮c:8;Beidnennung / Doppelnennung⟯</td></tr>
+⟮c:9;Mitarbeiter(innen⟯)|⟮c:10;(mit) Klammer⟯</td></tr>
+⟮c:11;Mitarbeiter/innen⟯|⟮c:12;(mit) Schrägstrich⟯</td></tr>
   </tbody>
 </table>
 ⟮c:13;gender-sternchen⟯ and the ⟮c:13;gender-gap⟯ are mostly read ⟮c:14;with a glottal stop⟯ 
@@ -2374,7 +2374,7 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;vascular⟯|⟮c:2;related to the flow of fluds⟯</td></tr>
+⟮c:1;vascular⟯|⟮c:2;related to the flow of fluds⟯</td></tr>
   </tbody>
 </table>
 
@@ -2429,8 +2429,8 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-      <tr><td>⟮c:1;A nutrient we require small amounts of⟯|⟮c:2;a micronutrient⟯</td></tr>
-<tr><td>⟮c:3;A nutrient we require large amounts of⟯|⟮c:4;a macronutrient⟯</td></tr>
+⟮c:1;A nutrient we require small amounts of⟯|⟮c:2;a micronutrient⟯</td></tr>
+⟮c:3;A nutrient we require large amounts of⟯|⟮c:4;a macronutrient⟯</td></tr>
   </tbody>
 </table>
 ⟮c:6;Macronutrient⟯ is sometimes used in the more ⟮c:5;restricted⟯ sense  ⟮c:7;macronutrient that provides energy⟯ 
@@ -2591,10 +2591,10 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;omega-3⟯|fatty acids are|⟮c:2;polyunsaturated⟯|fatty acids characterized by a|⟮c:3;C=C double bond⟯|⟮c:4;3 atoms⟯| away from ⟮c:5;the terminal methyl group⟯</td></tr>
-<tr><td>⟮c:6;omega-6⟯|fatty acids are|⟮c:7;polyunsaturated⟯|fatty acids characterized by a|⟮c:8;C=C double bond⟯|⟮c:9;6 atoms⟯| away from ⟮c:10;the terminal methyl group⟯</td></tr>
-<tr><td>⟮c:11;omega-7⟯|fatty acids are|⟮c:12;monounsaturated⟯|fatty acids characterized by a|⟮c:13;C=C double bond⟯|⟮c:14;7 atoms⟯| away from ⟮c:15;the terminal methyl group⟯</td></tr>
-<tr><td>⟮c:16;omega-9⟯|fatty acids are|⟮c:17;monounsaturated⟯|fatty acids characterized by a|⟮c:18;C=C double bond⟯|⟮c:19;9 atoms⟯| away from ⟮c:20;the terminal methyl group⟯</td></tr>
+⟮c:1;omega-3⟯|fatty acids are|⟮c:2;polyunsaturated⟯|fatty acids characterized by a|⟮c:3;C=C double bond⟯|⟮c:4;3 atoms⟯| away from ⟮c:5;the terminal methyl group⟯</td></tr>
+⟮c:6;omega-6⟯|fatty acids are|⟮c:7;polyunsaturated⟯|fatty acids characterized by a|⟮c:8;C=C double bond⟯|⟮c:9;6 atoms⟯| away from ⟮c:10;the terminal methyl group⟯</td></tr>
+⟮c:11;omega-7⟯|fatty acids are|⟮c:12;monounsaturated⟯|fatty acids characterized by a|⟮c:13;C=C double bond⟯|⟮c:14;7 atoms⟯| away from ⟮c:15;the terminal methyl group⟯</td></tr>
+⟮c:16;omega-9⟯|fatty acids are|⟮c:17;monounsaturated⟯|fatty acids characterized by a|⟮c:18;C=C double bond⟯|⟮c:19;9 atoms⟯| away from ⟮c:20;the terminal methyl group⟯</td></tr>
   </tbody>
 </table>
 <style>table{white-space: pre}</style>
@@ -2613,9 +2613,9 @@ Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} an
     <th>abbreviation</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;α-linolenic acid ⟯|⟮c:2;ALA⟯</td></tr>
-<tr><td>⟮c:3;eicosapentaenoic acid⟯|⟮c:4;EPA⟯</td></tr>
-<tr><td>⟮c:5;docosahexaenoic acid⟯|⟮c:6;DHA⟯</td></tr>
+⟮c:1;α-linolenic acid ⟯|⟮c:2;ALA⟯</td></tr>
+⟮c:3;eicosapentaenoic acid⟯|⟮c:4;EPA⟯</td></tr>
+⟮c:5;docosahexaenoic acid⟯|⟮c:6;DHA⟯</td></tr>
   </tbody>
 </table>
 
@@ -2658,7 +2658,7 @@ In general, ⟮c:31;excess intake⟯ of vitamins is ⟮c:32;unlikely⟯ from ⟮
     <th>More Properly</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Vitamin C⟯|⟮c:2;Ascorbic acid⟯</td></tr>
+⟮c:1;Vitamin C⟯|⟮c:2;Ascorbic acid⟯</td></tr>
   </tbody>
 </table>
 
@@ -2682,18 +2682,18 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
     <th>Name or name of vitamers (if it exists)</th>
   </tr></thead>
  <tbody>
-    <tr><td>⟮c:1;1⟯|⟮c:13;Thiamine⟯</td></tr>
-    <tr><td>⟮c:2;2⟯|⟮c:14;Riboflavin⟯</td></tr>
-    <tr><td>⟮c:3;3⟯|⟮c:15;vitamers w/ names similar to Niacin⟯</td></tr>
-    <tr><td>⟮c:4;4⟯|⟮c:16;Doesn't exist⟯</td></tr>
-    <tr><td>⟮c:5;5⟯|⟮c:17;Pantothenic acid⟯</td></tr>
-    <tr><td>⟮c:6;6⟯|⟮c:18;Consists of vitamers called Pyridox* (ine, amine, al⟯)</td></tr>
-    <tr><td>⟮c:7;7⟯|⟮c:19;Biotin⟯</td></tr>
-    <tr><td>⟮c:8;8⟯|⟮c:20;Doesn't exist⟯</td></tr>
-    <tr><td>⟮c:9;9⟯|⟮c:21;???⟯</td></tr>
-    <tr><td>⟮c:10;10⟯|⟮c:22;doesn't exist⟯</td></tr>
-    <tr><td>⟮c:11;11⟯|⟮c:23;Doesn't exist⟯</td></tr>
-    <tr><td>⟮c:12;12⟯|⟮c:24;Cobalamin⟯</td></tr>
+⟮c:1;1⟯|⟮c:13;Thiamine⟯</td></tr>
+⟮c:2;2⟯|⟮c:14;Riboflavin⟯</td></tr>
+⟮c:3;3⟯|⟮c:15;vitamers w/ names similar to Niacin⟯</td></tr>
+⟮c:4;4⟯|⟮c:16;Doesn't exist⟯</td></tr>
+⟮c:5;5⟯|⟮c:17;Pantothenic acid⟯</td></tr>
+⟮c:6;6⟯|⟮c:18;Consists of vitamers called Pyridox* (ine, amine, al⟯)</td></tr>
+⟮c:7;7⟯|⟮c:19;Biotin⟯</td></tr>
+⟮c:8;8⟯|⟮c:20;Doesn't exist⟯</td></tr>
+⟮c:9;9⟯|⟮c:21;???⟯</td></tr>
+⟮c:10;10⟯|⟮c:22;doesn't exist⟯</td></tr>
+⟮c:11;11⟯|⟮c:23;Doesn't exist⟯</td></tr>
+⟮c:12;12⟯|⟮c:24;Cobalamin⟯</td></tr>
 </tbody>
 </table>
 
@@ -2711,9 +2711,9 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:21;Macrominerals⟯|⟮c:22;RDA &gt; 150-200mg/day⟯</td></tr>
-    <tr><td>⟮c:23;Trace minerals⟯|⟮c:24;RDA &gt; 150-200mg/day⟯</td></tr>
-    <tr><td>⟮c:25;ultratrace minerals⟯|⟮c:26;RDA of μg/day⟯</td></tr>
+⟮c:21;Macrominerals⟯|⟮c:22;RDA &gt; 150-200mg/day⟯</td></tr>
+⟮c:23;Trace minerals⟯|⟮c:24;RDA &gt; 150-200mg/day⟯</td></tr>
+⟮c:25;ultratrace minerals⟯|⟮c:26;RDA of μg/day⟯</td></tr>
   </tbody>
 </table>
 
@@ -2723,7 +2723,7 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
   </tr></thead>
   <tbody>
     <tr><th colspan="5">⟮c:1;Macrominerals⟯</th> <th colspan="11">⟮c:2;trace minerals⟯</th> <th>⟮c:3;ultratrace minerals⟯</th></tr>
-<tr><td>⟮c:4;calcium⟯|⟮c:5;magnesium⟯|⟮c:6;phosophorus⟯|⟮c:7;potassium⟯|⟮c:8;sodium⟯|⟮c:9;   chlorine⟯|⟮c:10;(chromium⟯)|⟮c:11;cobalt⟯|⟮c:12;copper⟯|⟮c:13;iodine⟯|⟮c:14;iron⟯|⟮c:15;manganese⟯|⟮c:16;molybdenum⟯|⟮c:17;selenium⟯|⟮c:18;sulfur⟯|⟮c:19;zinc⟯|⟮c:20;  unclear⟯</td></tr>
+⟮c:4;calcium⟯|⟮c:5;magnesium⟯|⟮c:6;phosophorus⟯|⟮c:7;potassium⟯|⟮c:8;sodium⟯|⟮c:9;   chlorine⟯|⟮c:10;(chromium⟯)|⟮c:11;cobalt⟯|⟮c:12;copper⟯|⟮c:13;iodine⟯|⟮c:14;iron⟯|⟮c:15;manganese⟯|⟮c:16;molybdenum⟯|⟮c:17;selenium⟯|⟮c:18;sulfur⟯|⟮c:19;zinc⟯|⟮c:20;  unclear⟯</td></tr>
   </tbody>
 </table>
 
@@ -2756,8 +2756,8 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;grünkohl⟯|⟮c:2;kale⟯</td></tr>
-    <tr><td>⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯</td></tr>
+⟮c:1;grünkohl⟯|⟮c:2;kale⟯</td></tr>
+⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯</td></tr>
   </tbody>
 </table>
 
@@ -2779,11 +2779,11 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯</td></tr>
-<tr><td>⟮c:4;wheat⟯|⟮c:5;weizen⟯</td></tr>
-<tr><td>⟮c:6;barley⟯|⟮c:7;gerste⟯</td></tr>
-<tr><td>⟮c:8;oat⟯|⟮c:9;hafer⟯</td></tr>
-<tr><td>⟮c:10;millet⟯|⟮c:3;hirse⟯</td></tr>
+⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯</td></tr>
+⟮c:4;wheat⟯|⟮c:5;weizen⟯</td></tr>
+⟮c:6;barley⟯|⟮c:7;gerste⟯</td></tr>
+⟮c:8;oat⟯|⟮c:9;hafer⟯</td></tr>
+⟮c:10;millet⟯|⟮c:3;hirse⟯</td></tr>
   </tbody>
 </table>
 Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯. 
@@ -2801,8 +2801,8 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯</td></tr>
-<tr><td>⟮c:3;currant⟯|⟮c:4;Johannisbeere⟯</td></tr>
+⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯</td></tr>
+⟮c:3;currant⟯|⟮c:4;Johannisbeere⟯</td></tr>
   </tbody>
 </table>
 
@@ -2828,8 +2828,8 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;3⟯|⟮c:2;s:3;dorsal⟯|⟮c:3;s:2;posterior⟯</td></tr>
-<tr><td>⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯</td></tr>
+⟮c:1;3⟯|⟮c:2;s:3;dorsal⟯|⟮c:3;s:2;posterior⟯</td></tr>
+⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯</td></tr>
   </tbody>
 </table>
 
@@ -2839,8 +2839,8 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     <th>Direction</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;dorsal⟯|⟮c:2;Towards the back (bodypart⟯)</td></tr>
-    <tr><td>⟮c:3;ventral⟯|⟮c:4;Towards the belly⟯</td></tr>
+⟮c:1;dorsal⟯|⟮c:2;Towards the back (bodypart⟯)</td></tr>
+⟮c:3;ventral⟯|⟮c:4;Towards the belly⟯</td></tr>
   </tbody>
 </table>
 
@@ -2850,8 +2850,8 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     <th>image</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;supine⟯|⟮c:2;<img src="Screenshot%202021-12-04%20at%2004.40.23.png">⟯</td></tr>
-<tr><td>⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯</td></tr>
+⟮c:1;supine⟯|⟮c:2;<img src="Screenshot%202021-12-04%20at%2004.40.23.png">⟯</td></tr>
+⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯</td></tr>
   </tbody>
 </table>
 
@@ -2863,9 +2863,9 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;the dorsal side of the hand⟯|⟮c:2;with knuckles etc.⟯</td>
-    </tr><tr><td>⟮c:3;the palmar side of the hand⟯|⟮c:4;the one that has your palm⟯</td>
-    </tr><tr><td>⟮c:5;the ulnar side of the hand⟯|⟮c:6;the side with your pinky finger⟯</td>
+⟮c:1;the dorsal side of the hand⟯|⟮c:2;with knuckles etc.⟯</td>
+    </tr>⟮c:3;the palmar side of the hand⟯|⟮c:4;the one that has your palm⟯</td>
+    </tr>⟮c:5;the ulnar side of the hand⟯|⟮c:6;the side with your pinky finger⟯</td>
   </tr></tbody>
 </table>
 
@@ -2908,23 +2908,23 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>1|bladder</td></tr>
-<tr><td>2|pubic bone</td></tr>
-<tr><td>3|penis</td></tr>
-<tr><td>4|corpus cavernosum</td></tr>
-<tr><td>⟮c:22;5⟯|⟮c:26;glans (penis⟯)|⟮c:22;the head of the penis⟯</td></tr>
-<tr><td>⟮c:21;6⟯|⟮c:25;foreskin⟯</td></tr>
-<tr><td>⟮c:20;7⟯|⟮c:24;urethral opening/external urethral orifice/urinary meatus⟯</td></tr>
-<tr><td>8|sigmoid colon</td></tr>
-<tr><td>9|rectum</td></tr>
-<tr><td>10|seminal vesicle</td></tr>
-<tr><td>11|ejacularory duct</td></tr>
-<tr><td>12|prostate gland</td></tr>
-<tr><td>14|anus</td></tr>
-<tr><td>15|vas deferens</td></tr>
-<tr><td>⟮c:19;16⟯|⟮c:23;epididymis⟯</td></tr>
-<tr><td>⟮c:18;17⟯|⟮c:16;testis/testicle (synonyms⟯)|⟮c:18;balls⟯</td></tr>
-<tr><td>⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯</td></tr>
+1|bladder</td></tr>
+2|pubic bone</td></tr>
+3|penis</td></tr>
+4|corpus cavernosum</td></tr>
+⟮c:22;5⟯|⟮c:26;glans (penis⟯)|⟮c:22;the head of the penis⟯</td></tr>
+⟮c:21;6⟯|⟮c:25;foreskin⟯</td></tr>
+⟮c:20;7⟯|⟮c:24;urethral opening/external urethral orifice/urinary meatus⟯</td></tr>
+8|sigmoid colon</td></tr>
+9|rectum</td></tr>
+10|seminal vesicle</td></tr>
+11|ejacularory duct</td></tr>
+12|prostate gland</td></tr>
+14|anus</td></tr>
+15|vas deferens</td></tr>
+⟮c:19;16⟯|⟮c:23;epididymis⟯</td></tr>
+⟮c:18;17⟯|⟮c:16;testis/testicle (synonyms⟯)|⟮c:18;balls⟯</td></tr>
+⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯</td></tr>
   </tbody>
 </table>
 <div class="flex-container">⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯</div>
@@ -2937,10 +2937,10 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:7;1⟯|⟮c:11;glans (penis) ⟯|⟮c:7;head of the penis⟯</td></tr>
-<tr><td>⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯</td></tr>
-<tr><td>⟮c:9;3⟯|⟮c:13;frenulum ⟯</td></tr>
-<tr><td>⟮c:10;4⟯|⟮c:14;shaft ⟯</td></tr>
+⟮c:7;1⟯|⟮c:11;glans (penis) ⟯|⟮c:7;head of the penis⟯</td></tr>
+⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯</td></tr>
+⟮c:9;3⟯|⟮c:13;frenulum ⟯</td></tr>
+⟮c:10;4⟯|⟮c:14;shaft ⟯</td></tr>
   </tbody>
 </table>
 
@@ -2954,11 +2954,11 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>1|prostatic urethra</td></tr>
-<tr><td>2|membranous urethra</td></tr>
-<tr><td>3|bulbar urethra</td></tr>
-<tr><td>4|penile urethra</td></tr>
-<tr><td>5|fossa navicularis</td></tr>
+1|prostatic urethra</td></tr>
+2|membranous urethra</td></tr>
+3|bulbar urethra</td></tr>
+4|penile urethra</td></tr>
+5|fossa navicularis</td></tr>
   </tbody>
 </table>
 
@@ -2995,11 +2995,11 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;1⟯|⟮c:2;fallopian tubes⟯</td></tr>
-<tr><td>⟮c:3;2⟯|⟮c:4;ovaries⟯</td></tr>
-<tr><td>⟮c:5;3⟯|⟮c:6;uterus⟯</td></tr>
-<tr><td>⟮c:7;4⟯|⟮c:8;cervix⟯</td></tr>
-<tr><td>⟮c:9;5⟯|⟮c:10;vagina⟯</td></tr>
+⟮c:1;1⟯|⟮c:2;fallopian tubes⟯</td></tr>
+⟮c:3;2⟯|⟮c:4;ovaries⟯</td></tr>
+⟮c:5;3⟯|⟮c:6;uterus⟯</td></tr>
+⟮c:7;4⟯|⟮c:8;cervix⟯</td></tr>
+⟮c:9;5⟯|⟮c:10;vagina⟯</td></tr>
   </tbody>
 </table>
 
@@ -3025,12 +3025,12 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;1⟯|⟮c:7;clitoris⟯</td></tr>
-<tr><td>⟮c:2;2⟯|⟮c:8;clitoral hood⟯</td></tr>
-<tr><td>⟮c:3;3⟯|<span class="c9-cloze">labia minora</span></td></tr>
-<tr><td>⟮c:4;4⟯|⟮c:10;urethra⟯</td></tr>
-<tr><td>⟮c:5;5⟯|⟮c:11;vagina⟯</td></tr>
-<tr><td>⟮c:6;6⟯|⟮c:12;labia majora⟯</td></tr>
+⟮c:1;1⟯|⟮c:7;clitoris⟯</td></tr>
+⟮c:2;2⟯|⟮c:8;clitoral hood⟯</td></tr>
+⟮c:3;3⟯|<span class="c9-cloze">labia minora</span></td></tr>
+⟮c:4;4⟯|⟮c:10;urethra⟯</td></tr>
+⟮c:5;5⟯|⟮c:11;vagina⟯</td></tr>
+⟮c:6;6⟯|⟮c:12;labia majora⟯</td></tr>
   </tbody>
 </table>
 
@@ -3051,8 +3051,8 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:10;Typical-use pearl index⟯|⟮c:12;pearl index including occasional mistakes etc.⟯</td></tr>
-<tr><td>⟮c:11;perfect-use pearl index⟯|⟮c:13;pearl index under ideal usage⟯</td></tr>
+⟮c:10;Typical-use pearl index⟯|⟮c:12;pearl index including occasional mistakes etc.⟯</td></tr>
+⟮c:11;perfect-use pearl index⟯|⟮c:13;pearl index under ideal usage⟯</td></tr>
   </tbody>
 </table>
 <table class="cloze-group hide-if-inactive">
@@ -3095,25 +3095,25 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
     <th>Name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;1⟯|⟮c:2;lens⟯</td></tr>
-<tr><td>⟮c:3;2⟯|⟮c:4;suspensory ligament⟯</td></tr>
-<tr><td>⟮c:5;3⟯|⟮c:6;posterior chamber and⟯</td></tr>
-<tr><td>⟮c:7;4⟯|⟮c:8;anterior chamber (filled with aqueous humour⟯)</td></tr>
-<tr><td>⟮c:9;5⟯|⟮c:10;cornea⟯</td></tr>
-<tr><td>⟮c:11;6⟯|⟮c:12;pupil⟯</td></tr>
-<tr><td>⟮c:13;7⟯|⟮c:14;iris⟯</td></tr>
-<tr><td>⟮c:15;8⟯|⟮c:16;Ciliary body⟯</td></tr>
-<tr><td>⟮c:17;9⟯|⟮c:18;choroid⟯</td></tr>
-<tr><td>⟮c:19;10⟯|⟮c:20;sclera⟯</td></tr>
-<tr><td>⟮c:21;11⟯|⟮c:22;retina⟯</td></tr>
-<tr><td>⟮c:23;12⟯|⟮c:24;fovea⟯</td></tr>
-<tr><td>⟮c:25;13⟯|⟮c:26;optic disc⟯</td></tr>
-<tr><td>⟮c:27;14⟯|⟮c:28;optic nerve⟯</td></tr>
-<tr><td>⟮c:29;15⟯|⟮c:30;vitreous humour⟯</td></tr>
-<tr><td>⟮c:31;16⟯|⟮c:32;Fovea⟯</td></tr>
-<tr><td>⟮c:33;17⟯|⟮c:34;Optic disc⟯</td></tr>
-<tr><td>⟮c:35;18⟯|⟮c:36;Optic nerve⟯</td></tr>
-<tr><td>⟮c:37;19⟯|⟮c:38;Retinal blood vessels⟯</td></tr>
+⟮c:1;1⟯|⟮c:2;lens⟯</td></tr>
+⟮c:3;2⟯|⟮c:4;suspensory ligament⟯</td></tr>
+⟮c:5;3⟯|⟮c:6;posterior chamber and⟯</td></tr>
+⟮c:7;4⟯|⟮c:8;anterior chamber (filled with aqueous humour⟯)</td></tr>
+⟮c:9;5⟯|⟮c:10;cornea⟯</td></tr>
+⟮c:11;6⟯|⟮c:12;pupil⟯</td></tr>
+⟮c:13;7⟯|⟮c:14;iris⟯</td></tr>
+⟮c:15;8⟯|⟮c:16;Ciliary body⟯</td></tr>
+⟮c:17;9⟯|⟮c:18;choroid⟯</td></tr>
+⟮c:19;10⟯|⟮c:20;sclera⟯</td></tr>
+⟮c:21;11⟯|⟮c:22;retina⟯</td></tr>
+⟮c:23;12⟯|⟮c:24;fovea⟯</td></tr>
+⟮c:25;13⟯|⟮c:26;optic disc⟯</td></tr>
+⟮c:27;14⟯|⟮c:28;optic nerve⟯</td></tr>
+⟮c:29;15⟯|⟮c:30;vitreous humour⟯</td></tr>
+⟮c:31;16⟯|⟮c:32;Fovea⟯</td></tr>
+⟮c:33;17⟯|⟮c:34;Optic disc⟯</td></tr>
+⟮c:35;18⟯|⟮c:36;Optic nerve⟯</td></tr>
+⟮c:37;19⟯|⟮c:38;Retinal blood vessels⟯</td></tr>
   </tbody>
 </table>
 
@@ -3161,8 +3161,8 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
       <th>example image</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;upturned eyes⟯|⟮c:2;s:3;the outer corner is higher than the inner corner⟯|⟮c:3;h:2;<img src="sm_Screenshot%202020-07-27%20at%2015.11.11.png">⟯</td></tr>
-<tr><td>⟮c:4;downturned eyes⟯|⟮c:5;s:6;the outer corner is at the same height as the inner corner, or lower⟯|⟮c:6;h:5;<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">⟯</td></tr>
+⟮c:1;upturned eyes⟯|⟮c:2;s:3;the outer corner is higher than the inner corner⟯|⟮c:3;h:2;<img src="sm_Screenshot%202020-07-27%20at%2015.11.11.png">⟯</td></tr>
+⟮c:4;downturned eyes⟯|⟮c:5;s:6;the outer corner is at the same height as the inner corner, or lower⟯|⟮c:6;h:5;<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">⟯</td></tr>
   </tbody>
 </table>
 
@@ -3173,8 +3173,8 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
       <th>example image</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:7;almond eyes⟯|⟮c:8;s:9;almost none or none of the iris is visible above your pupils⟯|⟮c:9;h:8;<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">⟯</td></tr>
-<tr><td>⟮c:10;round eyes⟯|⟮c:11;s:12;almost all of the iris and perhaps some of the white is visible at the top⟯|⟮c:12;h:11;<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">⟯</td></tr>
+⟮c:7;almond eyes⟯|⟮c:8;s:9;almost none or none of the iris is visible above your pupils⟯|⟮c:9;h:8;<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">⟯</td></tr>
+⟮c:10;round eyes⟯|⟮c:11;s:12;almost all of the iris and perhaps some of the white is visible at the top⟯|⟮c:12;h:11;<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">⟯</td></tr>
   </tbody>
 </table>
 ---
@@ -3192,9 +3192,9 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
     <th>examples</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:7;(eyelid) crease⟯|⟮c:8;<img src="sm_gr15a.jpg"><img class="c1-f c2-b" src="sm_Asian-bleph-before-and-after.jpg">⟯</td></tr>
-<tr><td>⟮c:9;multiple creases⟯|⟮c:10;<img src="sm_upper-eye12-before.jpg">⟯</td></tr>
-<tr><td>⟮c:11;eyelid space⟯|⟮c:12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯</td></tr>
+⟮c:7;(eyelid) crease⟯|⟮c:8;<img src="sm_gr15a.jpg"><img class="c1-f c2-b" src="sm_Asian-bleph-before-and-after.jpg">⟯</td></tr>
+⟮c:9;multiple creases⟯|⟮c:10;<img src="sm_upper-eye12-before.jpg">⟯</td></tr>
+⟮c:11;eyelid space⟯|⟮c:12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -3205,8 +3205,8 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
       <th>examples</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;hooded eye⟯|⟮c:2;skin that droops on eyelids⟯|⟮c:3;<img src="sm_Screenshot%202020-07-27%20at%2015.19.06.jpg"><img src="sm_What-Are-Hooded-Eyes-800x800.jpg">⟯</td></tr>
-<tr><td>⟮c:4;monolid⟯|⟮c:5;lack of an eyelid crease⟯|⟮c:6;<img src="sm_makeup-for-single-lid-or-monolid-or-hooded-eyes_estee-lauder-how-to-videojpg.jpg">⟯</td></tr>
+⟮c:1;hooded eye⟯|⟮c:2;skin that droops on eyelids⟯|⟮c:3;<img src="sm_Screenshot%202020-07-27%20at%2015.19.06.jpg"><img src="sm_What-Are-Hooded-Eyes-800x800.jpg">⟯</td></tr>
+⟮c:4;monolid⟯|⟮c:5;lack of an eyelid crease⟯|⟮c:6;<img src="sm_makeup-for-single-lid-or-monolid-or-hooded-eyes_estee-lauder-how-to-videojpg.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -3226,8 +3226,8 @@ I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes
     <th>image</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;protruding/bulging eyes⟯|⟮c:2;<img src="sm_Young-girl-with-inherited-bulgy-eyes-54e512549b9636a72d22820c97764663010cc613.jpg">⟯</td></tr>
-<tr><td>⟮c:3;deep-set⟯|⟮c:4;<img src="sm_Screenshot%202020-07-27%20at%2014.14.20.jpg">⟯</td></tr>
+⟮c:1;protruding/bulging eyes⟯|⟮c:2;<img src="sm_Young-girl-with-inherited-bulgy-eyes-54e512549b9636a72d22820c97764663010cc613.jpg">⟯</td></tr>
+⟮c:3;deep-set⟯|⟮c:4;<img src="sm_Screenshot%202020-07-27%20at%2014.14.20.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -3250,8 +3250,8 @@ Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮
       <th>occur where</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯</td></tr>
-<tr><td>⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯</td></tr>
+⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯</td></tr>
+⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯</td></tr>
   </tbody>
 </table>
 ⟮h:all;<div class="flex-container"><img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp"></div>⟯
@@ -3270,9 +3270,9 @@ humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ t
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯</td></tr>
-<tr><td>⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯</td></tr>
-<tr><td>⟮c:5;smooth pursuit (eye movement⟯)|⟮c:6;smooth movement tracking a thing⟯</td></tr>
+⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯</td></tr>
+⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯</td></tr>
+⟮c:5;smooth pursuit (eye movement⟯)|⟮c:6;smooth movement tracking a thing⟯</td></tr>
   </tbody>
 </table>
 
@@ -3288,10 +3288,10 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
     <th>deg</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;human vertical FOV⟯|⟮c:2;~130 - 150 deg⟯</td></tr>
-<tr><td>⟮c:3;human horizontal FOV⟯|⟮c:4;~210 deg⟯</td></tr>
-<tr><td>⟮c:5;human horizontal binocular FOV⟯|⟮c:6;~120 deg⟯</td></tr>
-    <tr><td>⟮c:7;foveal FOV⟯|⟮c:8;~ 2 deg⟯</td></tr>
+⟮c:1;human vertical FOV⟯|⟮c:2;~130 - 150 deg⟯</td></tr>
+⟮c:3;human horizontal FOV⟯|⟮c:4;~210 deg⟯</td></tr>
+⟮c:5;human horizontal binocular FOV⟯|⟮c:6;~120 deg⟯</td></tr>
+⟮c:7;foveal FOV⟯|⟮c:8;~ 2 deg⟯</td></tr>
   </tbody>
 </table>
 
@@ -3346,8 +3346,8 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 
-    <tr><td>⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯</td></tr>
-    <tr><td>⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯</td></tr>
+⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯</td></tr>
+⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯</td></tr>
   </tbody>
 </table>
 
@@ -3357,8 +3357,8 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯</td></tr>
-    <tr><td>⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯</td></tr>
+⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯</td></tr>
+⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯</td></tr>
   </tbody>
 </table>
 
@@ -3411,9 +3411,9 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
       <th>Name of movement</th>
         </tr></thead>
         <tbody class="cloze-group-children hide-if-inactive-children">
-          <tr><td>⟮c:1;<img src="eccentric-cont.png">⟯|⟮c:2;eccentric⟯</td></tr>
-      <tr><td>⟮c:3;<img src="concentric-cont.png" ⟯<="" td=""> |⟮c:4;concentric⟯</td></tr>
-      <tr><td>⟮c:5;<img src="isometric-cont.png">⟯|⟮c:6;isometric⟯</td></tr>
+⟮c:1;<img src="eccentric-cont.png">⟯|⟮c:2;eccentric⟯</td></tr>
+⟮c:3;<img src="concentric-cont.png" ⟯<="" td=""> |⟮c:4;concentric⟯</td></tr>
+⟮c:5;<img src="isometric-cont.png">⟯|⟮c:6;isometric⟯</td></tr>
         </tbody>
       </table>
             
@@ -3453,7 +3453,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;11⟯|⟮c:2;erector spinae⟯</td></tr>
+⟮c:1;11⟯|⟮c:2;erector spinae⟯</td></tr>
   </tbody>
 </table>
 
@@ -3516,16 +3516,16 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;butt⟯|⟮c:4;stick out back⟯</td></tr>
-<tr><td>⟮c:2;abdomen⟯|⟮c:5;stick out in front⟯</td></tr>
-<tr><td>⟮c:3;spine⟯|⟮c:6;excessively arched⟯</td></tr>
+⟮c:1;butt⟯|⟮c:4;stick out back⟯</td></tr>
+⟮c:2;abdomen⟯|⟮c:5;stick out in front⟯</td></tr>
+⟮c:3;spine⟯|⟮c:6;excessively arched⟯</td></tr>
   </tbody>
 </table>
 
 <table class="cloze-group hide-if-inactive">
   <tbody>
   <tr><td colspan="3"><img src="Screenshot%202021-12-04%20at%2004.59.57.png"></td></tr>
-    <tr><td>⟮c:7;neutral pelvis⟯|⟮c:8;anterior pelvic tilt⟯|⟮c:9;posterior pelvic tilt⟯</td></tr>
+⟮c:7;neutral pelvis⟯|⟮c:8;anterior pelvic tilt⟯|⟮c:9;posterior pelvic tilt⟯</td></tr>
   </tbody>
   
 </table>
@@ -3542,8 +3542,8 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:10;Weak⟯|⟮c:11;abdominals⟯|⟮c:12;glutes⟯||⟮c:13;stretch them⟯</td></tr>
-<tr><td>⟮c:14;Tight⟯|⟮c:15;hip flexors/quads⟯|⟮c:16;erector spinae⟯|⟮c:17;hamstrings⟯|⟮c:18;strengthen them⟯</td></tr>
+⟮c:10;Weak⟯|⟮c:11;abdominals⟯|⟮c:12;glutes⟯||⟮c:13;stretch them⟯</td></tr>
+⟮c:14;Tight⟯|⟮c:15;hip flexors/quads⟯|⟮c:16;erector spinae⟯|⟮c:17;hamstrings⟯|⟮c:18;strengthen them⟯</td></tr>
   </tbody>
 </table>
 
@@ -3564,8 +3564,8 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
     <th>sex chromosomes</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;human females⟯|⟮c:2;XX⟯</td></tr>
-<tr><td>⟮c:3;human males⟯|⟮c:4;XY⟯</td></tr>
+⟮c:1;human females⟯|⟮c:2;XX⟯</td></tr>
+⟮c:3;human males⟯|⟮c:4;XY⟯</td></tr>
   </tbody>
 </table>
 
@@ -3582,8 +3582,8 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
   </tr>
 </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
-  <tr><td>⟮c:1;Halter⟯|⟮c:2;Leading a horse while walking⟯</td></tr>
-  <tr><td>⟮c:3;Bridle⟯|⟮c:4;Controlling a horse while riding⟯</td></tr>
+⟮c:1;Halter⟯|⟮c:2;Leading a horse while walking⟯</td></tr>
+⟮c:3;Bridle⟯|⟮c:4;Controlling a horse while riding⟯</td></tr>
 </tbody>
 </table>
 
@@ -3789,9 +3789,9 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Pounding/beating/pumelling⟯|⟮c:2;ulnar⟯|⟮c:2;loose fist⟯|⟮c:2;loose wrists⟯</td></tr>
-    <tr><td>⟮c:1;Hacking⟯|⟮c:2;ulnar⟯|⟮c:2;fairly straight⟯|⟮c:2;loose wrists⟯</td></tr>
-    <tr><td>⟮c:1;Cupping⟯|⟮c:2;palmar⟯|⟮c:2;cupped/slightly gathered⟯|</td></tr>
+⟮c:1;Pounding/beating/pumelling⟯|⟮c:2;ulnar⟯|⟮c:2;loose fist⟯|⟮c:2;loose wrists⟯</td></tr>
+⟮c:1;Hacking⟯|⟮c:2;ulnar⟯|⟮c:2;fairly straight⟯|⟮c:2;loose wrists⟯</td></tr>
+⟮c:1;Cupping⟯|⟮c:2;palmar⟯|⟮c:2;cupped/slightly gathered⟯|</td></tr>
     </tbody>
 </table>
 
@@ -3926,10 +3926,10 @@ In general, as of 2021, it seems that more "⟮c:1;masc⟯" gay identities are �
 
 Types of crushes<br/><table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Friend crush⟯|⟮c:2;Wanting to be someone's friend very badly⟯</td></tr>
-<tr><td>⟮c:3;Smush⟯|⟮c:4;Sexual crush⟯</td></tr>
-<tr><td>⟮c:5;Squish⟯|⟮c:6;Non-romantic/platonic crush⟯</td></tr>
-<tr><td>⟮c:7;Swish⟯|⟮c:8;Aesthetic crush⟯</td></tr>
+⟮c:1;Friend crush⟯|⟮c:2;Wanting to be someone's friend very badly⟯</td></tr>
+⟮c:3;Smush⟯|⟮c:4;Sexual crush⟯</td></tr>
+⟮c:5;Squish⟯|⟮c:6;Non-romantic/platonic crush⟯</td></tr>
+⟮c:7;Swish⟯|⟮c:8;Aesthetic crush⟯</td></tr>
   </tbody>
 </table>
 
@@ -4058,9 +4058,9 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
       <td>⟮c:11;transbian⟯</td>
       <td>⟮c:12;trans lesbian⟯</td>
     </tr>
-    <tr><td>⟮c:19;SWERF⟯|⟮c:20;Sex Worker-Exclusionary Radical Feminist⟯</td></tr>
-    <tr><td>⟮c:21;ERA⟯|⟮c:22;Equal Rights Amendment⟯</td></tr>
-<tr><td>⟮c:23;TERF⟯|⟮c:24;trans-exclusionary radical feminist⟯</td></tr>
+⟮c:19;SWERF⟯|⟮c:20;Sex Worker-Exclusionary Radical Feminist⟯</td></tr>
+⟮c:21;ERA⟯|⟮c:22;Equal Rights Amendment⟯</td></tr>
+⟮c:23;TERF⟯|⟮c:24;trans-exclusionary radical feminist⟯</td></tr>
   </tbody>
 </table>
 
@@ -4068,7 +4068,7 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 
 <table>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;<img src="Transgender_Pride_flag.svg">⟯|⟮c:2;The transgender pride flag⟯</td></tr>
+⟮c:1;<img src="Transgender_Pride_flag.svg">⟯|⟮c:2;The transgender pride flag⟯</td></tr>
   </tbody>
 </table>
 
@@ -4126,33 +4126,33 @@ By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instance
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;Adultism⟯|+:⟮c:11;adult⟯, -:⟮c:11;child⟯</td></tr>
-<tr><td>⟮c:2;Carnism⟯|+:⟮c:12;using animals, esp. meat⟯, -:⟮c:12;not using animals/eating meat⟯</td></tr>
-<tr><td>⟮c:3;Cissexism⟯|+:⟮c:13;cisgender⟯, -:⟮c:13;transgender (or other noncisgender⟯)</td></tr>
-<tr><td>⟮c:4;Heightism⟯|+:⟮c:14;tall (to a point⟯), -:⟮c:14;short⟯|   for ⟮c:21;men⟯)</td></tr>
-<tr><td>⟮c:5;Heightism⟯|+:⟮c:15;short (to a point⟯), -:⟮c:15;tall⟯(but generally less strong)|(for ⟮c:22;women⟯)</td></tr>
-<tr><td>⟮c:6;Heterosexism⟯|+:⟮c:16;heterosexual⟯, -:⟮c:16;non-heterosexual⟯</td></tr>
-<tr><td>⟮c:7;Sexism⟯|+:⟮c:17;masculinity⟯, -:⟮c:17;femininity⟯|it's a little different ⟮c:58;s:7,17;in that here the words patriarchy and misogyny also exist, cashed out e.g. by Manne⟯</td></tr>
-<tr><td>⟮c:8;Speiciesism⟯|+:⟮c:18;a certain species (generally humans⟯), -:⟮c:18;other species⟯</td></tr>
-<tr><td>⟮c:9;Weightism⟯|+:⟮c:19;thin⟯, -:⟮c:19;fat⟯</td></tr>
-<tr><td>⟮c:10;Allosexism⟯|+:⟮c:20;allosexual⟯, -:⟮c:20;asexual spectrum⟯</td></tr>
-    <tr><td>⟮c:23;Homelessnessism⟯|+:⟮c:24;homeful⟯, -:⟮c:24;homeless⟯</td></tr>
-    <tr><td>⟮c:25;Monogamism⟯|+:⟮c:26;monogamous⟯, -:⟮c:26;nonmonogamous⟯</td></tr>
-    <tr><td>⟮c:27;handism⟯|⟮c:28; +: left-handed, -: right-handed⟯</td></tr>
-<tr><td>⟮c:29;ableism⟯|⟮c:30;+:being able/non-disabled (less focus: -:being disabled⟯)</td></tr>
-<tr><td>⟮c:31;ageism⟯|⟮c:32;+: adult, -: either old or non-adult young⟯</td></tr>
-<tr><td>⟮c:33;disablism ⟯|⟮c:34;-:being disabled (less focus: +:being able/non-disabled⟯)</td></tr>
-<tr><td>⟮c:35;classism⟯|⟮c:36;+: upper class, -: lower class⟯</td></tr>
-<tr><td>⟮c:37;colorism⟯|⟮c:38;+: lighter skin, -: darker skin⟯</td></tr>
-<tr><td>⟮c:39;sizeism⟯|⟮c:40;may refer to heightism or weightism⟯</td></tr>
-    <tr><td>⟮c:41;nativism⟯|⟮c:42;+:native-born inhabitants, -:non-native people, immigrants⟯|⟮s:41,42;Often, ((c:43;::what is native and what is not⟯ may be ⟮c:56;shifted⟯ and is ⟮c:57;correlated with racism⟯))</td></tr>
-<tr><td>⟮c:44;Orientalism⟯|⟮c:45;+:occidental, -:oriental⟯|⟮c:46;Coined by Said in 1978, large focus on this on a way of seeing⟯</td></tr>
-<tr><td>⟮c:47;workism⟯|⟮c:48;+:work, working, -:not working⟯|Alternate (original) definition: ⟮c:49;s:47,48;Work is the centerpiece of ones life, and the epitome of human wellfare⟯</td></tr>
-<tr><td>⟮c:50;rankism⟯|⟮c:51;+:higher rank, -:lower rank⟯|⟮s:50,51;Popularized by ((c:52;::Fuller⟯, who terms ⟮c:55;+ people somebodies and - people nobodies⟯))</td></tr>
-<tr><td>⟮c:53;sanism (or mentalism⟯)|⟮c:54;+:sane, -:neurodiversity/mental illness⟯</td></tr>
-    <tr><td>⟮c:55;personlityism⟯|⟮c:56;+:extroverted, -:interverted⟯</td></tr>
-<tr><td>⟮c:57;kinkism⟯|⟮c:58;+:vanilla, -:kinky⟯</td></tr>
-    <tr><td>⟮c:59;linguicism⟯|⟮c:60;+:certain speech use (generally standard language), -:other speech use (generally dialects, etc.⟯)</td></tr>
+⟮c:1;Adultism⟯|+:⟮c:11;adult⟯, -:⟮c:11;child⟯</td></tr>
+⟮c:2;Carnism⟯|+:⟮c:12;using animals, esp. meat⟯, -:⟮c:12;not using animals/eating meat⟯</td></tr>
+⟮c:3;Cissexism⟯|+:⟮c:13;cisgender⟯, -:⟮c:13;transgender (or other noncisgender⟯)</td></tr>
+⟮c:4;Heightism⟯|+:⟮c:14;tall (to a point⟯), -:⟮c:14;short⟯|   for ⟮c:21;men⟯)</td></tr>
+⟮c:5;Heightism⟯|+:⟮c:15;short (to a point⟯), -:⟮c:15;tall⟯(but generally less strong)|(for ⟮c:22;women⟯)</td></tr>
+⟮c:6;Heterosexism⟯|+:⟮c:16;heterosexual⟯, -:⟮c:16;non-heterosexual⟯</td></tr>
+⟮c:7;Sexism⟯|+:⟮c:17;masculinity⟯, -:⟮c:17;femininity⟯|it's a little different ⟮c:58;s:7,17;in that here the words patriarchy and misogyny also exist, cashed out e.g. by Manne⟯</td></tr>
+⟮c:8;Speiciesism⟯|+:⟮c:18;a certain species (generally humans⟯), -:⟮c:18;other species⟯</td></tr>
+⟮c:9;Weightism⟯|+:⟮c:19;thin⟯, -:⟮c:19;fat⟯</td></tr>
+⟮c:10;Allosexism⟯|+:⟮c:20;allosexual⟯, -:⟮c:20;asexual spectrum⟯</td></tr>
+⟮c:23;Homelessnessism⟯|+:⟮c:24;homeful⟯, -:⟮c:24;homeless⟯</td></tr>
+⟮c:25;Monogamism⟯|+:⟮c:26;monogamous⟯, -:⟮c:26;nonmonogamous⟯</td></tr>
+⟮c:27;handism⟯|⟮c:28; +: left-handed, -: right-handed⟯</td></tr>
+⟮c:29;ableism⟯|⟮c:30;+:being able/non-disabled (less focus: -:being disabled⟯)</td></tr>
+⟮c:31;ageism⟯|⟮c:32;+: adult, -: either old or non-adult young⟯</td></tr>
+⟮c:33;disablism ⟯|⟮c:34;-:being disabled (less focus: +:being able/non-disabled⟯)</td></tr>
+⟮c:35;classism⟯|⟮c:36;+: upper class, -: lower class⟯</td></tr>
+⟮c:37;colorism⟯|⟮c:38;+: lighter skin, -: darker skin⟯</td></tr>
+⟮c:39;sizeism⟯|⟮c:40;may refer to heightism or weightism⟯</td></tr>
+⟮c:41;nativism⟯|⟮c:42;+:native-born inhabitants, -:non-native people, immigrants⟯|⟮s:41,42;Often, ((c:43;::what is native and what is not⟯ may be ⟮c:56;shifted⟯ and is ⟮c:57;correlated with racism⟯))</td></tr>
+⟮c:44;Orientalism⟯|⟮c:45;+:occidental, -:oriental⟯|⟮c:46;Coined by Said in 1978, large focus on this on a way of seeing⟯</td></tr>
+⟮c:47;workism⟯|⟮c:48;+:work, working, -:not working⟯|Alternate (original) definition: ⟮c:49;s:47,48;Work is the centerpiece of ones life, and the epitome of human wellfare⟯</td></tr>
+⟮c:50;rankism⟯|⟮c:51;+:higher rank, -:lower rank⟯|⟮s:50,51;Popularized by ((c:52;::Fuller⟯, who terms ⟮c:55;+ people somebodies and - people nobodies⟯))</td></tr>
+⟮c:53;sanism (or mentalism⟯)|⟮c:54;+:sane, -:neurodiversity/mental illness⟯</td></tr>
+⟮c:55;personlityism⟯|⟮c:56;+:extroverted, -:interverted⟯</td></tr>
+⟮c:57;kinkism⟯|⟮c:58;+:vanilla, -:kinky⟯</td></tr>
+⟮c:59;linguicism⟯|⟮c:60;+:certain speech use (generally standard language), -:other speech use (generally dialects, etc.⟯)</td></tr>
     </tbody>
 </table>
 
@@ -4213,21 +4213,21 @@ x normativity normalizes the + of the relevant ism
     <th>aspect of ism</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>⟮c:1;Biphobia⟯|⟮c:2;s:all;us:1;bisexual people⟯|⟮c:3;s:all;us:1;heterosexism⟯</td></tr>
-<tr><td>⟮c:4;Ephebiphobia⟯|⟮c:5;s:all;us:4;young people, esp. adolescents⟯|⟮c:6;s:all;us:4;ageism, adultism⟯</td></tr>
-<tr><td>⟮c:7;Homophobia⟯|⟮c:8;s:all;us:7;LGBT people⟯|⟮c:9;s:all;us:7;heterosexism⟯</td></tr>
-<tr><td>⟮c:10;aphobia⟯|⟮c:11;s:all;us:10;a-spec people⟯|⟮c:12;s:all;us:10;doesn't seem to exist yet⟯</td></tr>
-<tr><td>⟮c:13;arophobia⟯|⟮c:14;s:all;us:13;aromantic people⟯|⟮c:15;s:all;us:13;doesn't seem to exist yet⟯</td></tr>
-<tr><td>⟮c:16;acephobia⟯|⟮c:17;s:all;us:16;asexual people⟯|⟮c:18;s:all;us:16;alloexism⟯</td></tr>
-<tr><td>⟮c:19;gayphobia⟯|⟮c:20;s:all;us:19;gay people⟯|⟮c:21;s:all;us:19;heterosexism⟯</td></tr>
-<tr><td>⟮c:22;lesbophobia⟯|⟮c:23;s:all;us:22;lesbian people⟯|⟮c:24;s:all;us:22;heterosexism⟯</td></tr>
-<tr><td>⟮c:25;Xenophobia⟯|⟮c:26;s:all;us:25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c:27;s:all;us:25;nativism⟯</td></tr>
-<tr><td>⟮c:28;Gerontophobia⟯|⟮c:29;s:all;us:28;the elderly⟯|⟮c:30;s:all;us:28;ageism⟯</td></tr>
-<tr><td>⟮c:31;Whorephobia⟯|⟮c:32;s:all;us:31;sex workers⟯|⟮c:33;s:all;us:31;sexworksim(???⟯)</td></tr>
-<tr><td>⟮c:34;transphobia⟯|⟮c:35;s:all;us:34;trans people⟯|⟮c:36;s:all;us:34;transsexism⟯</td></tr>
-<tr><td>⟮c:37;slavophobia⟯|⟮c:38;s:all;us:37;slavic people⟯|⟮c:39;s:all;us:37;xenophobia, racism⟯</td></tr>
-<tr><td>⟮c:40;vegaphobia⟯|⟮c:41;s:all;us:40;vegan people⟯|⟮c:42;s:all;us:40;carnism⟯</td></tr>
-<tr><td>⟮c:43;glottophobia⟯|⟮c:44;s:all;us:43;certain groups of language users⟯|⟮c:45;s:all;us:43;linguicism⟯</td></tr>
+⟮c:1;Biphobia⟯|⟮c:2;s:all;us:1;bisexual people⟯|⟮c:3;s:all;us:1;heterosexism⟯</td></tr>
+⟮c:4;Ephebiphobia⟯|⟮c:5;s:all;us:4;young people, esp. adolescents⟯|⟮c:6;s:all;us:4;ageism, adultism⟯</td></tr>
+⟮c:7;Homophobia⟯|⟮c:8;s:all;us:7;LGBT people⟯|⟮c:9;s:all;us:7;heterosexism⟯</td></tr>
+⟮c:10;aphobia⟯|⟮c:11;s:all;us:10;a-spec people⟯|⟮c:12;s:all;us:10;doesn't seem to exist yet⟯</td></tr>
+⟮c:13;arophobia⟯|⟮c:14;s:all;us:13;aromantic people⟯|⟮c:15;s:all;us:13;doesn't seem to exist yet⟯</td></tr>
+⟮c:16;acephobia⟯|⟮c:17;s:all;us:16;asexual people⟯|⟮c:18;s:all;us:16;alloexism⟯</td></tr>
+⟮c:19;gayphobia⟯|⟮c:20;s:all;us:19;gay people⟯|⟮c:21;s:all;us:19;heterosexism⟯</td></tr>
+⟮c:22;lesbophobia⟯|⟮c:23;s:all;us:22;lesbian people⟯|⟮c:24;s:all;us:22;heterosexism⟯</td></tr>
+⟮c:25;Xenophobia⟯|⟮c:26;s:all;us:25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c:27;s:all;us:25;nativism⟯</td></tr>
+⟮c:28;Gerontophobia⟯|⟮c:29;s:all;us:28;the elderly⟯|⟮c:30;s:all;us:28;ageism⟯</td></tr>
+⟮c:31;Whorephobia⟯|⟮c:32;s:all;us:31;sex workers⟯|⟮c:33;s:all;us:31;sexworksim(???⟯)</td></tr>
+⟮c:34;transphobia⟯|⟮c:35;s:all;us:34;trans people⟯|⟮c:36;s:all;us:34;transsexism⟯</td></tr>
+⟮c:37;slavophobia⟯|⟮c:38;s:all;us:37;slavic people⟯|⟮c:39;s:all;us:37;xenophobia, racism⟯</td></tr>
+⟮c:40;vegaphobia⟯|⟮c:41;s:all;us:40;vegan people⟯|⟮c:42;s:all;us:40;carnism⟯</td></tr>
+⟮c:43;glottophobia⟯|⟮c:44;s:all;us:43;certain groups of language users⟯|⟮c:45;s:all;us:43;linguicism⟯</td></tr>
   </tbody>
 </table>
 
@@ -4354,10 +4354,10 @@ While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al lab
       <th>example</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;emotion work/emotional labor⟯|⟮c:2;managing our own emotions⟯ (Hochschild (complementary but not equivalent): "⟮c:12;creating a publically observable display⟯")|⟮c:3;s:gb;a waiter gets insulted, goes through a ritual in his head and still appears friendly⟯</td></tr>
-<tr><td>⟮c:4;empathy work/empathical labor⟯|⟮c:5;creating the feeling of being understood in others⟯</td></tr>
-<tr><td>⟮c:6;conversation work/conversational labor⟯|⟮c:7;maintaining a conversation (if it has a purpose that both parties subscribe to⟯)|⟮c:8;s:gb;a person tries hard to come up with relevant topics and questions during a date/a meeting with a long-lost relative⟯</td></tr>
-<tr><td>⟮c:9;interpretion work/interpretive labor⟯|⟮c:10;modelling the others perspective⟯|⟮c:11;s:gb;A person gets handed a form with an ambiguous question and tries to understand what the institution wants from them.⟯</td></tr>
+⟮c:1;emotion work/emotional labor⟯|⟮c:2;managing our own emotions⟯ (Hochschild (complementary but not equivalent): "⟮c:12;creating a publically observable display⟯")|⟮c:3;s:gb;a waiter gets insulted, goes through a ritual in his head and still appears friendly⟯</td></tr>
+⟮c:4;empathy work/empathical labor⟯|⟮c:5;creating the feeling of being understood in others⟯</td></tr>
+⟮c:6;conversation work/conversational labor⟯|⟮c:7;maintaining a conversation (if it has a purpose that both parties subscribe to⟯)|⟮c:8;s:gb;a person tries hard to come up with relevant topics and questions during a date/a meeting with a long-lost relative⟯</td></tr>
+⟮c:9;interpretion work/interpretive labor⟯|⟮c:10;modelling the others perspective⟯|⟮c:11;s:gb;A person gets handed a form with an ambiguous question and tries to understand what the institution wants from them.⟯</td></tr>
   </tbody>
 </table>
 
@@ -4383,10 +4383,10 @@ the ⟮c:1;application of computational technologies/digital resources⟯ in ⟮
     <th>Name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;4th year of study⟯|⟮c:2;Senior⟯</td></tr>
-    <tr><td>⟮c:3;3nd year of study⟯|⟮c:4;Junior⟯</td></tr>
-<tr><td>⟮c:5;2nd year of study⟯|⟮c:6;Sophomore⟯</td></tr>
-<tr><td>⟮c:7;1st year of study⟯|⟮c:8;Freshman⟯</td></tr>
+⟮c:1;4th year of study⟯|⟮c:2;Senior⟯</td></tr>
+⟮c:3;3nd year of study⟯|⟮c:4;Junior⟯</td></tr>
+⟮c:5;2nd year of study⟯|⟮c:6;Sophomore⟯</td></tr>
+⟮c:7;1st year of study⟯|⟮c:8;Freshman⟯</td></tr>
   </tbody>
 </table>
 
@@ -4637,403 +4637,403 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;s:all;us:4;Kirito Kazuto⟯</td>
+⟮c:1;s:all;us:4;Kirito Kazuto⟯</td>
         <td>⟮c:2;s:all;us:4;dual-wielding⟯</td>
         <td>⟮c:3;s:all;us:4;Dual Swords⟯</td>
         <td>⟮c:4;00⟯</td></tr>
-    <tr><td>⟮c:5;s:all;us:8;Prof X (X=10⟯)</td>
+⟮c:5;s:all;us:8;Prof X (X=10⟯)</td>
         <td>⟮c:6;s:all;us:8;mindreading⟯</td>
         <td>⟮c:7;s:all;us:8;a school⟯</td>
         <td>⟮c:8;10⟯</td></tr>
-    <tr><td>⟮c:9;s:all;us:12;Ben Kenobi⟯</td>
+⟮c:9;s:all;us:12;Ben Kenobi⟯</td>
         <td>⟮c:10;s:all;us:12;mourning⟯</td>
         <td>⟮c:11;s:all;us:12;a burned corpse⟯</td>
         <td>⟮c:12;20⟯</td></tr>
-    <tr><td>⟮c:13;s:all;us:16;Makise Kurisu⟯</td>
+⟮c:13;s:all;us:16;Makise Kurisu⟯</td>
         <td>⟮c:14;s:all;us:16;tsundereing⟯</td>
         <td>⟮c:15;s:all;us:16;a labcoat⟯</td>
         <td>⟮c:16;30⟯</td></tr>
-    <tr><td>⟮c:17;s:all;us:20;Death Knight⟯</td>
+⟮c:17;s:all;us:20;Death Knight⟯</td>
         <td>⟮c:18;s:all;us:20;reanimating⟯</td>
         <td>⟮c:19;s:all;us:20;a ghoul⟯</td>
         <td>⟮c:20;40⟯</td></tr>
-    <tr><td>⟮c:21;s:all;us:24;Gilgamesh (Evil Knight⟯)</td>
+⟮c:21;s:all;us:24;Gilgamesh (Evil Knight⟯)</td>
         <td>⟮c:22;s:all;us:24;portal-summoning⟯</td>
         <td>⟮c:23;s:all;us:24;a thousand weapons⟯</td>
         <td>⟮c:24;50⟯</td></tr>
-    <tr><td>⟮c:25;s:all;us:28;Rook⟯</td>
+⟮c:25;s:all;us:28;Rook⟯</td>
         <td>⟮c:26;s:all;us:28;leading⟯</td>
         <td>⟮c:27;s:all;us:28;A caravan of refugees⟯</td>
         <td>⟮c:28;60⟯</td></tr>
-    <tr><td>⟮c:29;s:all;us:32;Genghis Khan⟯</td>
+⟮c:29;s:all;us:32;Genghis Khan⟯</td>
         <td>⟮c:30;s:all;us:32;conquering⟯</td>
         <td>⟮c:31;s:all;us:32;a horse⟯</td>
         <td>⟮c:32;70⟯</td></tr>
-    <tr><td>⟮c:33;s:all;us:36;HK-47⟯</td>
+⟮c:33;s:all;us:36;HK-47⟯</td>
         <td>⟮c:34;s:all;us:36;slaughtering⟯</td>
         <td>⟮c:35;s:all;us:36;some meatbags⟯</td>
         <td>⟮c:36;80⟯</td></tr>
-    <tr><td>⟮c:37;s:all;us:40;Shinichi Kudo⟯</td>
+⟮c:37;s:all;us:40;Shinichi Kudo⟯</td>
         <td>⟮c:38;s:all;us:40;deducing⟯</td>
         <td>⟮c:39;s:all;us:40;a fishing line⟯</td>
         <td>⟮c:40;90⟯</td></tr>
-    <tr><td>⟮c:41;s:all;us:44;B Franklin (The first american⟯)</td>
+⟮c:41;s:all;us:44;B Franklin (The first american⟯)</td>
         <td>⟮c:42;s:all;us:44;discovering⟯</td>
         <td>⟮c:43;s:all;us:44;A key and a kite⟯</td>
         <td>⟮c:44;01⟯</td></tr>
-    <tr><td>⟮c:45;s:all;us:48;Avatar Aang⟯</td>
+⟮c:45;s:all;us:48;Avatar Aang⟯</td>
         <td>⟮c:46;s:all;us:48;airbending⟯</td>
         <td>⟮c:47;s:all;us:48;A kitestaff⟯</td>
         <td>⟮c:48;11⟯</td></tr>
-    <tr><td>⟮c:49;s:all;us:52;Barry Allen⟯</td>
+⟮c:49;s:all;us:52;Barry Allen⟯</td>
         <td>⟮c:50;s:all;us:52;outrunning⟯</td>
         <td>⟮c:51;s:all;us:52;death⟯</td>
         <td>⟮c:52;21⟯</td></tr>
-    <tr><td>⟮c:53;s:all;us:56;Mikasa Ackerman⟯</td>
+⟮c:53;s:all;us:56;Mikasa Ackerman⟯</td>
         <td>⟮c:54;s:all;us:56;sacrificing⟯</td>
         <td>⟮c:55;s:all;us:56;AoT Swords⟯</td>
         <td>⟮c:56;31⟯</td></tr>
-    <tr><td>⟮c:57;s:all;us:60;Joan d'arc⟯</td>
+⟮c:57;s:all;us:60;Joan d'arc⟯</td>
         <td>⟮c:58;s:all;us:60;inspiring⟯</td>
         <td>⟮c:59;s:all;us:60;male armor⟯</td>
         <td>⟮c:60;41⟯</td></tr>
-    <tr><td>⟮c:61;s:all;us:64;EA⟯</td>
+⟮c:61;s:all;us:64;EA⟯</td>
         <td>⟮c:62;s:all;us:64;selling⟯</td>
         <td>⟮c:63;s:all;us:64;DLCs⟯</td>
         <td>⟮c:64;51⟯</td></tr>
-    <tr><td>⟮c:65;s:all;us:68;Rayquaza⟯</td>
+⟮c:65;s:all;us:68;Rayquaza⟯</td>
         <td>⟮c:66;s:all;us:68;electrocuting⟯</td>
         <td>⟮c:67;s:all;us:68;a pokeball⟯</td>
         <td>⟮c:68;61⟯</td></tr>
-    <tr><td>⟮c:69;s:all;us:72;Garrus⟯</td>
+⟮c:69;s:all;us:72;Garrus⟯</td>
         <td>⟮c:70;s:all;us:72;wisecracking⟯</td>
         <td>⟮c:71;s:all;us:72;their commanding officer⟯</td>
         <td>⟮c:72;71⟯</td></tr>
-    <tr><td>⟮c:73;s:all;us:76;Haibara, Ai⟯</td>
+⟮c:73;s:all;us:76;Haibara, Ai⟯</td>
         <td>⟮c:74;s:all;us:76;fleeing⟯</td>
         <td>⟮c:75;s:all;us:76;a shadowy organization⟯</td>
         <td>⟮c:76;81⟯</td></tr>
-    <tr><td>⟮c:77;s:all;us:80;SI7 Agent⟯</td>
+⟮c:77;s:all;us:80;SI7 Agent⟯</td>
         <td>⟮c:78;s:all;us:80;toasting⟯</td>
         <td>⟮c:79;s:all;us:80;a playing card⟯</td>
         <td>⟮c:80;91⟯</td></tr>
-    <tr><td>⟮c:81;s:all;us:84;King Bradley (Wrath⟯)</td>
+⟮c:81;s:all;us:84;King Bradley (Wrath⟯)</td>
         <td>⟮c:82;s:all;us:84;seething⟯</td>
         <td>⟮c:83;s:all;us:84;Philosophers stone⟯</td>
         <td>⟮c:84;02⟯</td></tr>
-    <tr><td>⟮c:85;s:all;us:88;Aaron Burr⟯</td>
+⟮c:85;s:all;us:88;Aaron Burr⟯</td>
         <td>⟮c:86;s:all;us:88;duelling⟯</td>
         <td>⟮c:87;s:all;us:88;A letter⟯</td>
         <td>⟮c:88;12⟯</td></tr>
-    <tr><td>⟮c:89;s:all;us:92;Bigby wolf⟯</td>
+⟮c:89;s:all;us:92;Bigby wolf⟯</td>
         <td>⟮c:90;s:all;us:92;beating ... to a pulp⟯</td>
         <td>⟮c:91;s:all;us:92;a toadman⟯</td>
         <td>⟮c:92;22⟯</td></tr>
-    <tr><td>⟮c:93;s:all;us:96;Majin Buu⟯</td>
+⟮c:93;s:all;us:96;Majin Buu⟯</td>
         <td>⟮c:94;s:all;us:96;exploding⟯</td>
         <td>⟮c:95;s:all;us:96;sweets⟯</td>
         <td>⟮c:96;32⟯|<img src="sm_latest"></td></tr>
-    <tr><td>⟮c:97;s:all;us:100;Darth Bane⟯</td>
+⟮c:97;s:all;us:100;Darth Bane⟯</td>
         <td>⟮c:98;s:all;us:100;establishing⟯</td>
         <td>⟮c:99;s:all;us:100;the rule of two⟯</td>
         <td>⟮c:100;42⟯</td></tr>
-    <tr><td>⟮c:101;s:all;us:104;Emperor Bonaparte⟯</td>
+⟮c:101;s:all;us:104;Emperor Bonaparte⟯</td>
         <td>⟮c:102;s:all;us:104;invading⟯</td>
         <td>⟮c:103;s:all;us:104;Russia⟯</td>
         <td>⟮c:104;52⟯</td></tr>
-    <tr><td>⟮c:105;s:all;us:108;Ramsay Bolton⟯</td>
+⟮c:105;s:all;us:108;Ramsay Bolton⟯</td>
         <td>⟮c:106;s:all;us:108;flaying⟯</td>
         <td>⟮c:107;s:all;us:108;someone on a St. Andrews Cross⟯</td>
         <td>⟮c:108;62⟯|<img src="sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg"><img src="sm_593fd808a09bd743c0ed6a80.jpg"></td></tr>
-    <tr><td>⟮c:109;s:all;us:112;Gaius Baltar⟯</td>
+⟮c:109;s:all;us:112;Gaius Baltar⟯</td>
         <td>⟮c:110;s:all;us:112;lying⟯</td>
         <td>⟮c:111;s:all;us:112;a imaginary friend⟯</td>
         <td>⟮c:112;72⟯</td></tr>
-    <tr><td>⟮c:113;s:all;us:116;HarBinger⟯</td>
+⟮c:113;s:all;us:116;HarBinger⟯</td>
         <td>⟮c:114;s:all;us:116;assuming direct control of⟯</td>
         <td>⟮c:115;s:all;us:116;a walking insect⟯</td>
         <td>⟮c:116;82⟯</td></tr>
-    <tr><td>⟮c:117;s:all;us:120;Símon Bolivar⟯</td>
+⟮c:117;s:all;us:120;Símon Bolivar⟯</td>
         <td>⟮c:118;s:all;us:120;liberating⟯</td>
         <td>⟮c:119;s:all;us:120;South america⟯</td>
         <td>⟮c:120;92⟯</td></tr>
-    <tr><td>⟮c:121;s:all;us:124;Kogoro Mouri⟯</td>
+⟮c:121;s:all;us:124;Kogoro Mouri⟯</td>
         <td>⟮c:122;s:all;us:124;sleeping⟯</td>
         <td>⟮c:123;s:all;us:124;A bottle of beer⟯</td>
         <td>⟮c:124;03⟯</td></tr>
-    <tr><td>⟮c:125;s:all;us:128;Angela Merkel⟯</td>
+⟮c:125;s:all;us:128;Angela Merkel⟯</td>
         <td>⟮c:126;s:all;us:128;mollifying⟯</td>
         <td>⟮c:127;s:all;us:128;a diamond⟯</td>
         <td>⟮c:128;13⟯</td></tr>
-    <tr><td>⟮c:129;s:all;us:132;Batman⟯</td>
+⟮c:129;s:all;us:132;Batman⟯</td>
         <td>⟮c:130;s:all;us:132;threatening⟯</td>
         <td>⟮c:131;s:all;us:132;batarangs⟯</td>
         <td>⟮c:132;23⟯</td></tr>
-    <tr><td>⟮c:133;s:all;us:136;Madoka Magica⟯</td>
+⟮c:133;s:all;us:136;Madoka Magica⟯</td>
         <td>⟮c:134;s:all;us:136;erasing⟯</td>
         <td>⟮c:135;s:all;us:136;all witches⟯</td>
         <td>⟮c:136;33⟯</td></tr>
-    <tr><td>⟮c:137;s:all;us:140;Darth Maul⟯</td>
+⟮c:137;s:all;us:140;Darth Maul⟯</td>
         <td>⟮c:138;s:all;us:140;hating⟯</td>
         <td>⟮c:139;s:all;us:140;a jedi⟯</td>
         <td>⟮c:140;43⟯</td></tr>
-    <tr><td>⟮c:141;s:all;us:144;Eminem⟯</td>
+⟮c:141;s:all;us:144;Eminem⟯</td>
         <td>⟮c:142;s:all;us:144;rapping⟯</td>
         <td>⟮c:143;s:all;us:144;a mixtape⟯</td>
         <td>⟮c:144;53⟯</td></tr>
-    <tr><td>⟮c:145;s:all;us:148;Roy Mustang⟯</td>
+⟮c:145;s:all;us:148;Roy Mustang⟯</td>
         <td>⟮c:146;s:all;us:148;incinerating⟯</td>
         <td>⟮c:147;s:all;us:148;Gloves⟯</td>
         <td>⟮c:148;63⟯</td></tr>
-    <tr><td>⟮c:149;s:all;us:152;GM⟯</td>
+⟮c:149;s:all;us:152;GM⟯</td>
         <td>⟮c:150;s:all;us:152;rolling⟯</td>
         <td>⟮c:151;s:all;us:152;5d20⟯</td>
         <td>⟮c:152;73⟯</td></tr>
-    <tr><td>⟮c:153;s:all;us:156;Her Majesty (Queen Eliz⟯)</td>
+⟮c:153;s:all;us:156;Her Majesty (Queen Eliz⟯)</td>
         <td>⟮c:154;s:all;us:156;scowling at⟯</td>
         <td>⟮c:155;s:all;us:156;the british isles⟯</td>
         <td>⟮c:156;83⟯</td></tr>
-    <tr><td>⟮c:157;s:all;us:160;Sade, Marquis de⟯</td>
+⟮c:157;s:all;us:160;Sade, Marquis de⟯</td>
         <td>⟮c:158;s:all;us:160;consuming⟯</td>
         <td>⟮c:159;s:all;us:160;a whip⟯</td>
         <td>⟮c:160;93⟯</td></tr>
-    <tr><td>⟮c:161;s:all;us:164;Khal Drogo⟯</td>
+⟮c:161;s:all;us:164;Khal Drogo⟯</td>
         <td>⟮c:162;s:all;us:164;riding⟯</td>
         <td>⟮c:163;s:all;us:164;A loincloth⟯</td>
         <td>⟮c:164;04⟯</td></tr>
-    <tr><td>⟮c:165;s:all;us:168;Artoo D2⟯</td>
+⟮c:165;s:all;us:168;Artoo D2⟯</td>
         <td>⟮c:166;s:all;us:168;beeping⟯</td>
         <td>⟮c:167;s:all;us:168;A torch⟯</td>
         <td>⟮c:168;14⟯</td></tr>
-    <tr><td>⟮c:169;s:all;us:172;Big Daddy⟯</td>
+⟮c:169;s:all;us:172;Big Daddy⟯</td>
         <td>⟮c:170;s:all;us:172;protecting⟯</td>
         <td>⟮c:171;s:all;us:172;Little Sisters⟯</td>
         <td>⟮c:172;24⟯</td></tr>
-    <tr><td>⟮c:173;s:all;us:176;Monkey D. Luffy⟯</td>
+⟮c:173;s:all;us:176;Monkey D. Luffy⟯</td>
         <td>⟮c:174;s:all;us:176;stretching⟯</td>
         <td>⟮c:175;s:all;us:176;Strawhat⟯</td>
         <td>⟮c:176;34⟯</td></tr>
-    <tr><td>⟮c:177;s:all;us:180;Didier Drogba⟯</td>
+⟮c:177;s:all;us:180;Didier Drogba⟯</td>
         <td>⟮c:178;s:all;us:180;scoring⟯</td>
         <td>⟮c:179;s:all;us:180;a hattrick⟯</td>
         <td>⟮c:180;44⟯</td></tr>
-    <tr><td>⟮c:181;s:all;us:184;Edda⟯</td>
+⟮c:181;s:all;us:184;Edda⟯</td>
         <td>⟮c:182;s:all;us:184;dating⟯</td>
         <td>⟮c:183;s:all;us:184;a philosophy paper⟯</td>
         <td>⟮c:184;54⟯</td></tr>
-    <tr><td>⟮c:185;s:all;us:188;Rick Deckard⟯</td>
+⟮c:185;s:all;us:188;Rick Deckard⟯</td>
         <td>⟮c:186;s:all;us:188;understanding⟯</td>
         <td>⟮c:187;s:all;us:188;a leather jacket⟯</td>
         <td>⟮c:188;64⟯</td></tr>
-    <tr><td>⟮c:189;s:all;us:192;God⟯</td>
+⟮c:189;s:all;us:192;God⟯</td>
         <td>⟮c:190;s:all;us:192;creating⟯</td>
         <td>⟮c:191;s:all;us:192;a man and a woman⟯</td>
         <td>⟮c:192;74⟯</td></tr>
-    <tr><td>⟮c:193;s:all;us:196;Hamlet (Denmark⟯)</td>
+⟮c:193;s:all;us:196;Hamlet (Denmark⟯)</td>
         <td>⟮c:194;s:all;us:196;soliloquizing⟯</td>
         <td>⟮c:195;s:all;us:196;a skull⟯</td>
         <td>⟮c:196;84⟯</td></tr>
-    <tr><td>⟮c:197;s:all;us:200;Satan / The Devil⟯</td>
+⟮c:197;s:all;us:200;Satan / The Devil⟯</td>
         <td>⟮c:198;s:all;us:200;seducing⟯</td>
         <td>⟮c:199;s:all;us:200;a woman⟯</td>
         <td>⟮c:200;94⟯|<img src="sm_1200px-022_devil_representation.JPG"></td></tr>
-    <tr><td>⟮c:201;s:all;us:204;Katniss Everdeen⟯</td>
+⟮c:201;s:all;us:204;Katniss Everdeen⟯</td>
         <td>⟮c:202;s:all;us:204;aiming⟯</td>
         <td>⟮c:203;s:all;us:204;A bow⟯</td>
         <td>⟮c:204;05⟯</td></tr>
-    <tr><td>⟮c:205;s:all;us:208;Albert Einstein⟯</td>
+⟮c:205;s:all;us:208;Albert Einstein⟯</td>
         <td>⟮c:206;s:all;us:208;theorizing about⟯</td>
         <td>⟮c:207;s:all;us:208;the fundamental forces of the universe⟯</td>
         <td>⟮c:208;15⟯|<img src="sm_mtkvx3rkucl01.jpg"></td></tr>
-    <tr><td>⟮c:209;s:all;us:212;Bernie Sanders⟯</td>
+⟮c:209;s:all;us:212;Bernie Sanders⟯</td>
         <td>⟮c:210;s:all;us:212;preaching⟯</td>
         <td>⟮c:211;s:all;us:212;socialism⟯</td>
         <td>⟮c:212;25⟯</td></tr>
-    <tr><td>⟮c:213;s:all;us:216;Menethil, Arthas⟯</td>
+⟮c:213;s:all;us:216;Menethil, Arthas⟯</td>
         <td>⟮c:214;s:all;us:216;betraying ⟯</td>
         <td>⟮c:215;s:all;us:216;Frostmorne/his father⟯</td>
         <td>⟮c:216;35⟯|<img src="sm_RashEverlastingGoat-size_restricted.gif"></td></tr>
-    <tr><td>⟮c:217;s:all;us:220;Death eater⟯</td>
+⟮c:217;s:all;us:220;Death eater⟯</td>
         <td>⟮c:218;s:all;us:220;sucking⟯</td>
         <td>⟮c:219;s:all;us:220;a soul⟯</td>
         <td>⟮c:220;45⟯</td></tr>
-    <tr><td>⟮c:221;s:all;us:224;Edward Elric⟯</td>
+⟮c:221;s:all;us:224;Edward Elric⟯</td>
         <td>⟮c:222;s:all;us:224;transmuting⟯</td>
         <td>⟮c:223;s:all;us:224;his dead mother⟯</td>
         <td>⟮c:224;55⟯</td></tr>
-    <tr><td>⟮c:225;s:all;us:228;Rem⟯</td>
+⟮c:225;s:all;us:228;Rem⟯</td>
         <td>⟮c:226;s:all;us:228;making a last stand with⟯</td>
         <td>⟮c:227;s:all;us:228;a huge flail⟯</td>
         <td>⟮c:228;65⟯</td></tr>
-    <tr><td>⟮c:229;s:all;us:232;Genji⟯</td>
+⟮c:229;s:all;us:232;Genji⟯</td>
         <td>⟮c:230;s:all;us:232;screaming in⟯</td>
         <td>⟮c:231;s:all;us:232;Japanese⟯</td>
         <td>⟮c:232;75⟯</td></tr>
-    <tr><td>⟮c:233;s:all;us:236;Helena (Orphan black⟯)</td>
+⟮c:233;s:all;us:236;Helena (Orphan black⟯)</td>
         <td>⟮c:234;s:all;us:236;mutilating⟯</td>
         <td>⟮c:235;s:all;us:236;a cage⟯</td>
         <td>⟮c:236;85⟯|<img src="sm_WildJampackedHapuku-small.gif"><img src="sm_FluidThinBluefish-small.gif"></td></tr>
-    <tr><td>⟮c:237;s:all;us:240;World Serpend Jörmungandr⟯</td>
+⟮c:237;s:all;us:240;World Serpend Jörmungandr⟯</td>
         <td>⟮c:238;s:all;us:240;devouring⟯</td>
         <td>⟮c:239;s:all;us:240;the world⟯</td>
         <td>⟮c:240;95⟯</td></tr>
-    <tr><td>⟮c:241;s:all;us:244;Kylo Ren⟯</td>
+⟮c:241;s:all;us:244;Kylo Ren⟯</td>
         <td>⟮c:242;s:all;us:244;rampaging⟯</td>
         <td>⟮c:243;s:all;us:244;Crossguard lightsaber⟯</td>
         <td>⟮c:244;06⟯</td></tr>
-    <tr><td>⟮c:245;s:all;us:248;Android 16⟯</td>
+⟮c:245;s:all;us:248;Android 16⟯</td>
         <td>⟮c:246;s:all;us:248;flirting with⟯</td>
         <td>⟮c:247;s:all;us:248;a tiny bald man⟯</td>
         <td>⟮c:248;16⟯</td></tr>
-    <tr><td>⟮c:249;s:all;us:252;Broly⟯</td>
+⟮c:249;s:all;us:252;Broly⟯</td>
         <td>⟮c:250;s:all;us:252;beating up⟯</td>
         <td>⟮c:251;s:all;us:252;Green Hair⟯</td>
         <td>⟮c:252;26⟯</td></tr>
-    <tr><td>⟮c:253;s:all;us:256;Maximilien Robespierre⟯</td>
+⟮c:253;s:all;us:256;Maximilien Robespierre⟯</td>
         <td>⟮c:254;s:all;us:256;guillotining⟯</td>
         <td>⟮c:255;s:all;us:256;the french king⟯</td>
         <td>⟮c:256;36⟯|<img src="sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg"></td></tr>
-    <tr><td>⟮c:257;s:all;us:260;Darth Revan⟯</td>
+⟮c:257;s:all;us:260;Darth Revan⟯</td>
         <td>⟮c:258;s:all;us:260;falling to⟯</td>
         <td>⟮c:259;s:all;us:260;the dark side⟯</td>
         <td>⟮c:260;46⟯</td></tr>
-    <tr><td>⟮c:261;s:all;us:264;Erasmus⟯</td>
+⟮c:261;s:all;us:264;Erasmus⟯</td>
         <td>⟮c:262;s:all;us:264;slinging mud at⟯</td>
         <td>⟮c:263;s:all;us:264;a bunch of academics⟯</td>
         <td>⟮c:264;56⟯|⟮h:all;<img src="sm_Holbein-erasmus.jpg">⟯</td></tr>
-    <tr><td>⟮c:265;s:all;us:268;Darth vader (Order 66⟯)</td>
+⟮c:265;s:all;us:268;Darth vader (Order 66⟯)</td>
         <td>⟮c:266;s:all;us:268;choking⟯</td>
         <td>⟮c:267;s:all;us:268;an innocent bystander⟯</td>
         <td>⟮c:268;66⟯</td></tr>
-    <tr><td>⟮c:269;s:all;us:272;Jefferson⟯</td>
+⟮c:269;s:all;us:272;Jefferson⟯</td>
         <td>⟮c:270;s:all;us:272;declaring⟯</td>
         <td>⟮c:271;s:all;us:272;slaves⟯</td>
         <td>⟮c:272;76⟯</td></tr>
-    <tr><td>⟮c:273;s:all;us:276;Harry Potter⟯</td>
+⟮c:273;s:all;us:276;Harry Potter⟯</td>
         <td>⟮c:274;s:all;us:276;hiding under⟯</td>
         <td>⟮c:275;s:all;us:276;a staircase⟯</td>
         <td>⟮c:276;86⟯</td></tr>
-    <tr><td>⟮c:277;s:all;us:280;Sukeroku⟯</td>
+⟮c:277;s:all;us:280;Sukeroku⟯</td>
         <td>⟮c:278;s:all;us:280;fucking⟯</td>
         <td>⟮c:279;s:all;us:280;his best friends crush⟯</td>
         <td>⟮c:280;96⟯</td></tr>
-    <tr><td>⟮c:281;s:all;us:284;King George III⟯</td>
+⟮c:281;s:all;us:284;King George III⟯</td>
         <td>⟮c:282;s:all;us:284;loosing⟯</td>
         <td>⟮c:283;s:all;us:284;America⟯</td>
         <td>⟮c:284;07⟯</td></tr>
-    <tr><td>⟮c:285;s:all;us:288;Android 17⟯</td>
+⟮c:285;s:all;us:288;Android 17⟯</td>
         <td>⟮c:286;s:all;us:288;mocking⟯</td>
         <td>⟮c:287;s:all;us:288;Some sick clothes⟯</td>
         <td>⟮c:288;17⟯</td></tr>
-    <tr><td>⟮c:289;s:all;us:292;Big Game Hunter⟯</td>
+⟮c:289;s:all;us:292;Big Game Hunter⟯</td>
         <td>⟮c:290;s:all;us:292;eliminating⟯</td>
         <td>⟮c:291;s:all;us:292;a dinosaur⟯</td>  
         <td>⟮c:292;27⟯|<img src="sm_340"></td></tr>
-    <tr><td>⟮c:293;s:all;us:296;Magneto⟯</td>
+⟮c:293;s:all;us:296;Magneto⟯</td>
         <td>⟮c:294;s:all;us:296;inciting ⟯</td>
         <td>⟮c:295;s:all;us:296;the mutant rebellion⟯</td>
         <td>⟮c:296;37⟯</td></tr>
-    <tr><td>⟮c:297;s:all;us:300;Diamond (Gem⟯)</td>
+⟮c:297;s:all;us:300;Diamond (Gem⟯)</td>
         <td>⟮c:298;s:all;us:300;caring for⟯</td>
         <td>⟮c:299;s:all;us:300;two arms⟯</td>
         <td>⟮c:300;47⟯</td></tr>
-    <tr><td>⟮c:301;s:all;us:304;Saphira (EGg and EraGon⟯)</td>
+⟮c:301;s:all;us:304;Saphira (EGg and EraGon⟯)</td>
         <td>⟮c:302;s:all;us:304;being born from⟯</td>
         <td>⟮c:303;s:all;us:304;an egg⟯</td>
         <td>⟮c:304;57⟯</td></tr>
-    <tr><td>⟮c:305;s:all;us:308;Ragnaros⟯</td>
+⟮c:305;s:all;us:308;Ragnaros⟯</td>
         <td>⟮c:306;s:all;us:308;magmablasting⟯</td>
         <td>⟮c:307;s:all;us:308;a firesnake⟯</td>
         <td>⟮c:308;67⟯</td></tr>
-    <tr><td>⟮c:309;s:all;us:312;Gogeta (SSJ 4⟯)</td>
+⟮c:309;s:all;us:312;Gogeta (SSJ 4⟯)</td>
         <td>⟮c:310;s:all;us:312;taunting⟯</td>
         <td>⟮c:311;s:all;us:312;a x100 Kamehameha⟯</td>
         <td>⟮c:312;77⟯</td></tr>
-    <tr><td>⟮c:313;s:all;us:316;Hermione granger⟯</td>
+⟮c:313;s:all;us:316;Hermione granger⟯</td>
         <td>⟮c:314;s:all;us:316;studying with⟯</td>
         <td>⟮c:315;s:all;us:316;a time-turner⟯</td>
         <td>⟮c:316;87⟯</td></tr>
-    <tr><td>⟮c:317;s:all;us:320;Son Goku⟯</td>
+⟮c:317;s:all;us:320;Son Goku⟯</td>
         <td>⟮c:318;s:all;us:320;spirit bombing⟯</td>
         <td>⟮c:319;s:all;us:320;a angry kid⟯</td>
         <td>⟮c:320;97⟯|<img src="sm_MintyDeficientAtlanticbluetang-size_restricted.gif"></td></tr>
-    <tr><td>⟮c:321;s:all;us:324;Kikuhiko⟯</td>
+⟮c:321;s:all;us:324;Kikuhiko⟯</td>
         <td>⟮c:322;s:all;us:324;regretting⟯</td>
         <td>⟮c:323;s:all;us:324;A fan⟯</td>
         <td>⟮c:324;08⟯</td></tr>
-    <tr><td>⟮c:325;s:all;us:328;Alexander Hamilton⟯</td>
+⟮c:325;s:all;us:328;Alexander Hamilton⟯</td>
         <td>⟮c:326;s:all;us:328;throwing away ⟯</td>
         <td>⟮c:327;s:all;us:328;his shot⟯</td>
         <td>⟮c:328;18⟯</td></tr>
-    <tr><td>⟮c:329;s:all;us:332;Bounty Hunter (Cad Bane⟯)</td>
+⟮c:329;s:all;us:332;Bounty Hunter (Cad Bane⟯)</td>
         <td>⟮c:330;s:all;us:332;hunting⟯</td>
         <td>⟮c:331;s:all;us:332;Wide-brim hat⟯</td>
         <td>⟮c:332;28⟯|<img src="FACadBane.jpg"></td></tr>
-    <tr><td>⟮c:333;s:all;us:336;Mata Hari⟯</td>
+⟮c:333;s:all;us:336;Mata Hari⟯</td>
         <td>⟮c:334;s:all;us:336;bellydancing⟯</td>
         <td>⟮c:335;s:all;us:336;the first world war⟯</td>
         <td>⟮c:336;38⟯</td></tr>
-    <tr><td>⟮c:337;s:all;us:340;David Hume⟯</td>
+⟮c:337;s:all;us:340;David Hume⟯</td>
         <td>⟮c:338;s:all;us:340;inducing⟯</td>
         <td>⟮c:339;s:all;us:340;causality⟯</td>
         <td>⟮c:340;48⟯</td></tr>
-    <tr><td>⟮c:341;s:all;us:344;Emperor Hirohito⟯</td>
+⟮c:341;s:all;us:344;Emperor Hirohito⟯</td>
         <td>⟮c:342;s:all;us:344;evading⟯</td>
         <td>⟮c:343;s:all;us:344;an atomic bomb⟯</td>
         <td>⟮c:344;58⟯</td></tr>
-    <tr><td>⟮c:345;s:all;us:348;Rubeus Hagrid⟯</td>
+⟮c:345;s:all;us:348;Rubeus Hagrid⟯</td>
         <td>⟮c:346;s:all;us:348;nurturing⟯</td>
         <td>⟮c:347;s:all;us:348;a dragon⟯</td>
         <td>⟮c:348;68⟯</td></tr>
-    <tr><td>⟮c:349;s:all;us:352;Griffth⟯</td>
+⟮c:349;s:all;us:352;Griffth⟯</td>
         <td>⟮c:350;s:all;us:352;striving⟯</td>
         <td>⟮c:351;s:all;us:352;a red pendant⟯</td>
         <td>⟮c:352;78⟯</td></tr>
-    <tr><td>⟮c:353;s:all;us:356;Hitler⟯</td>
+⟮c:353;s:all;us:356;Hitler⟯</td>
         <td>⟮c:354;s:all;us:356;screaming⟯</td>
         <td>⟮c:355;s:all;us:356;poison gas⟯</td>
         <td>⟮c:356;88⟯</td></tr>
-    <tr><td>⟮c:357;s:all;us:360;Sherlock holmes⟯</td>
+⟮c:357;s:all;us:360;Sherlock holmes⟯</td>
         <td>⟮c:358;s:all;us:360;showing off⟯</td>
         <td>⟮c:359;s:all;us:360;their sexy mind⟯</td>
         <td>⟮c:360;98⟯</td></tr>
-    <tr><td>⟮c:361;s:all;us:364;Kaelthas Sunstrider⟯</td>
+⟮c:361;s:all;us:364;Kaelthas Sunstrider⟯</td>
         <td>⟮c:362;s:all;us:364;conjuring⟯</td>
         <td>⟮c:363;s:all;us:364;Al'ar⟯</td>
         <td>⟮c:364;09⟯</td></tr>
-    <tr><td>⟮c:365;s:all;us:368;Anakin Skywalker⟯</td>
+⟮c:365;s:all;us:368;Anakin Skywalker⟯</td>
         <td>⟮c:366;s:all;us:368;rebelling against⟯</td>
         <td>⟮c:367;s:all;us:368;sand⟯</td>
         <td>⟮c:368;19⟯</td></tr>
-    <tr><td>⟮c:369;s:all;us:372;Belatrix LeStrange⟯</td>
+⟮c:369;s:all;us:372;Belatrix LeStrange⟯</td>
         <td>⟮c:370;s:all;us:372;splitting⟯</td>
         <td>⟮c:371;s:all;us:372;a houseelf⟯</td>
         <td>⟮c:372;29⟯</td></tr>
-    <tr><td>⟮c:373;s:all;us:376;Macbeth of Scotland⟯</td>
+⟮c:373;s:all;us:376;Macbeth of Scotland⟯</td>
         <td>⟮c:374;s:all;us:376;betraying ⟯</td>
         <td>⟮c:375;s:all;us:376;the former king⟯</td>
         <td>⟮c:376;39⟯</td></tr>
-    <tr><td>⟮c:377;s:all;us:380;Darth Sidious⟯</td>
+⟮c:377;s:all;us:380;Darth Sidious⟯</td>
         <td>⟮c:378;s:all;us:380;electrocuting⟯</td>
         <td>⟮c:379;s:all;us:380;a kid⟯</td>
         <td>⟮c:380;49⟯</td></tr>
-    <tr><td>⟮c:381;s:all;us:384;Eddard (Ned) Stark⟯</td>
+⟮c:381;s:all;us:384;Eddard (Ned) Stark⟯</td>
         <td>⟮c:382;s:all;us:384;trusting⟯</td>
         <td>⟮c:383;s:all;us:384;his severed head⟯</td>
         <td>⟮c:384;59⟯</td></tr>
-    <tr><td>⟮c:385;s:all;us:388;Rob Stark⟯</td>
+⟮c:385;s:all;us:388;Rob Stark⟯</td>
         <td>⟮c:386;s:all;us:388;marrying⟯</td>
         <td>⟮c:387;s:all;us:388;a groom's suit⟯</td>
         <td>⟮c:388;69⟯</td></tr>
-    <tr><td>⟮c:389;s:all;us:392;Guts⟯</td>
+⟮c:389;s:all;us:392;Guts⟯</td>
         <td>⟮c:390;s:all;us:392;confronting⟯</td>
         <td>⟮c:391;s:all;us:392;a demon⟯</td>
         <td>⟮c:392;79⟯</td></tr>
-    <tr><td>⟮c:393;s:all;us:396;Han Solo⟯</td>
+⟮c:393;s:all;us:396;Han Solo⟯</td>
         <td>⟮c:394;s:all;us:396;daring⟯</td>
         <td>⟮c:395;s:all;us:396;a blaster⟯</td>
         <td>⟮c:396;89⟯</td></tr>
-    <tr><td>⟮c:397;s:all;us:400;Severus Snape ⟯</td>
+⟮c:397;s:all;us:400;Severus Snape ⟯</td>
         <td>⟮c:398;s:all;us:400;cursing⟯</td>
         <td>⟮c:399;s:all;us:400;an old wizard⟯</td>
         <td>⟮c:400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif"></td></tr>
@@ -5076,12 +5076,12 @@ the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;drea
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;jumping⟯|⟮c:2;jump up⟯|⟮c:3;if you float or levitate⟯</td></tr>
-<tr><td>⟮c:4;levitating⟯|⟮c:5;try and levitate⟯|⟮c:6;if it works⟯</td></tr>
-<tr><td>⟮c:7;hands⟯|⟮c:8;check them⟯|⟮c:9;if you have extra fingers/nails/colors/etc.⟯</td></tr>
-<tr><td>⟮c:10;clock⟯|⟮c:11;check it⟯|⟮c:12;if it shows an illogical time, or it changes rapidly⟯</td></tr>
-<tr><td>⟮c:13;text⟯|⟮c:14;read some text⟯, ⟮c:19;s:14;look away⟯, and ⟮c:20;s:14,19;try and recall the text⟯. ⟮c:21;s:14,19-20;Look at the same text again⟯.))|⟮c:15;if it's changed⟯</td></tr>
-<tr><td>⟮c:16;magical powers⟯|⟮c:17;try and use them⟯|⟮c:18;if it works⟯</td></tr>
+⟮c:1;jumping⟯|⟮c:2;jump up⟯|⟮c:3;if you float or levitate⟯</td></tr>
+⟮c:4;levitating⟯|⟮c:5;try and levitate⟯|⟮c:6;if it works⟯</td></tr>
+⟮c:7;hands⟯|⟮c:8;check them⟯|⟮c:9;if you have extra fingers/nails/colors/etc.⟯</td></tr>
+⟮c:10;clock⟯|⟮c:11;check it⟯|⟮c:12;if it shows an illogical time, or it changes rapidly⟯</td></tr>
+⟮c:13;text⟯|⟮c:14;read some text⟯, ⟮c:19;s:14;look away⟯, and ⟮c:20;s:14,19;try and recall the text⟯. ⟮c:21;s:14,19-20;Look at the same text again⟯.))|⟮c:15;if it's changed⟯</td></tr>
+⟮c:16;magical powers⟯|⟮c:17;try and use them⟯|⟮c:18;if it works⟯</td></tr>
   </tbody>
 </table>
 
@@ -5256,10 +5256,10 @@ In general, ⟮c:24;synthesis⟯ produces ⟮c:25;more complex compounds⟯ as �
     <th>Wofür?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Klasse A⟯|⟮c:2;Feste, glutbildende stoffe, z.B. Holz, Textilien⟯</td></tr>
-<tr><td>⟮c:3;Klasse B⟯|⟮c:4;Flüssige oder flüssig werdende stoffe, z.B. Benzin, Öle⟯</td></tr>
-<tr><td>⟮c:5;Klasse C⟯|⟮c:6;Gase⟯</td></tr>
-<tr><td>⟮c:7;Klasse F⟯|⟮c:8;Fettbrände (Fettbrand braucht F, niemals mit A oder B löschen⟯)</td></tr>
+⟮c:1;Klasse A⟯|⟮c:2;Feste, glutbildende stoffe, z.B. Holz, Textilien⟯</td></tr>
+⟮c:3;Klasse B⟯|⟮c:4;Flüssige oder flüssig werdende stoffe, z.B. Benzin, Öle⟯</td></tr>
+⟮c:5;Klasse C⟯|⟮c:6;Gase⟯</td></tr>
+⟮c:7;Klasse F⟯|⟮c:8;Fettbrände (Fettbrand braucht F, niemals mit A oder B löschen⟯)</td></tr>
   </tbody>
 </table>
 
@@ -5441,8 +5441,8 @@ If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯</td></tr>
-<tr><td>⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯</td></tr>
+⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯</td></tr>
+⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯</td></tr>
   </tbody>
 </table>
 
@@ -5461,9 +5461,9 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
     <th>name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:11;the blue and red things⟯|⟮c:12;the pins⟯</td></tr>
-<tr><td>⟮c:13;the blue pins⟯|⟮c:14;the driver pins⟯</td></tr>
-<tr><td>⟮c:9;the red pins⟯|⟮c:10;the key pins⟯</td></tr>
+⟮c:11;the blue and red things⟯|⟮c:12;the pins⟯</td></tr>
+⟮c:13;the blue pins⟯|⟮c:14;the driver pins⟯</td></tr>
+⟮c:9;the red pins⟯|⟮c:10;the key pins⟯</td></tr>
   </tbody>
 </table>
 
@@ -5473,8 +5473,8 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯</td></tr>
-<tr><td>⟮c:17;the casing⟯|⟮c:18;green in the image⟯</td></tr>
+⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯</td></tr>
+⟮c:17;the casing⟯|⟮c:18;green in the image⟯</td></tr>
   </tbody>
 </table>
 
@@ -5484,10 +5484,10 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
     <th>pin</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;Overset⟯|⟮c:2;pin 4 (from front⟯)</td></tr>
-<tr><td>⟮c:3;being picked⟯|⟮c:4;pin 5 (from front⟯)</td></tr>
-<tr><td>⟮c:5;successfully picked⟯|⟮c:6;pin 1 and 3 (from front⟯)</td></tr>
-<tr><td>⟮c:7;unpicked⟯|⟮c:8;pin 2 (from front⟯)</td></tr>
+⟮c:1;Overset⟯|⟮c:2;pin 4 (from front⟯)</td></tr>
+⟮c:3;being picked⟯|⟮c:4;pin 5 (from front⟯)</td></tr>
+⟮c:5;successfully picked⟯|⟮c:6;pin 1 and 3 (from front⟯)</td></tr>
+⟮c:7;unpicked⟯|⟮c:8;pin 2 (from front⟯)</td></tr>
   </tbody>
 </table>
 
@@ -5525,9 +5525,9 @@ The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs�
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯</td></tr>
-<tr><td>⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯</td></tr>
-<tr><td>⟮c:32;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c:33;wrong key⟯</td></tr>
+⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯</td></tr>
+⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯</td></tr>
+⟮c:32;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c:33;wrong key⟯</td></tr>
   </tbody>
 </table>
 
@@ -5562,8 +5562,8 @@ Once ⟮c:47;you've pushed the binding pin to the shear line⟯, if y⟮c:48;ou'
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;push the binding pin in too far⟯|⟮c:2;overset⟯|⟮c:3;<img src="sm_overset_1130.jpg">⟯</td></tr>
-<tr><td>⟮c:4;not push the binding pin in far enough⟯|⟮c:5;underset⟯|⟮c:6;<img src="sm_underset_1130.jpg">⟯</td></tr>
+⟮c:1;push the binding pin in too far⟯|⟮c:2;overset⟯|⟮c:3;<img src="sm_overset_1130.jpg">⟯</td></tr>
+⟮c:4;not push the binding pin in far enough⟯|⟮c:5;underset⟯|⟮c:6;<img src="sm_underset_1130.jpg">⟯</td></tr>
   </tbody>
 </table>
 If you ⟮c:51;can no longer find a binding pin⟯, you have likely ⟮c:7;overset or underset a pin⟯ 
@@ -5773,16 +5773,16 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
     <th>Ordinal number</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;1st⟯|⟮c:2;primero/-a⟯</td></tr>
-<tr><td>⟮c:3;2nd⟯|⟮c:4;segundo/-a⟯</td></tr>
-<tr><td>⟮c:5;3rd⟯|⟮c:6;tercero/-a⟯</td></tr>
-<tr><td>⟮c:7;4th⟯|⟮c:8;cuarto/-a⟯</td></tr>
-<tr><td>⟮c:9;5th⟯|⟮c:10;quinto/-a⟯</td></tr>
-<tr><td>⟮c:11;6th⟯|⟮c:12;sexto/-a⟯</td></tr>
-<tr><td>⟮c:13;7th⟯|⟮c:14;séptimo/a⟯</td></tr>
-<tr><td>⟮c:15;8th⟯|⟮c:16;octavo/-a⟯</td></tr>
-<tr><td>⟮c:17;9th⟯|⟮c:18;noveno/a⟯</td></tr>
-<tr><td>⟮c:19;10th⟯|⟮c:20;décimo/-a⟯</td></tr>
+⟮c:1;1st⟯|⟮c:2;primero/-a⟯</td></tr>
+⟮c:3;2nd⟯|⟮c:4;segundo/-a⟯</td></tr>
+⟮c:5;3rd⟯|⟮c:6;tercero/-a⟯</td></tr>
+⟮c:7;4th⟯|⟮c:8;cuarto/-a⟯</td></tr>
+⟮c:9;5th⟯|⟮c:10;quinto/-a⟯</td></tr>
+⟮c:11;6th⟯|⟮c:12;sexto/-a⟯</td></tr>
+⟮c:13;7th⟯|⟮c:14;séptimo/a⟯</td></tr>
+⟮c:15;8th⟯|⟮c:16;octavo/-a⟯</td></tr>
+⟮c:17;9th⟯|⟮c:18;noveno/a⟯</td></tr>
+⟮c:19;10th⟯|⟮c:20;décimo/-a⟯</td></tr>
   </tbody>
 </table>
 
@@ -5792,14 +5792,14 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
     <th>Ordinal number</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:21;20<sup>th</sup>⟯|⟮c:22;vigésimo⟯</td></tr>
-<tr><td>⟮c:23;30<sup>th</sup>⟯|⟮c:24;trigésimo⟯</td></tr>
-<tr><td>⟮c:25;40<sup>th</sup>⟯|⟮c:26;cuadragésimo⟯|⟮c:27;You try on some CUbAn DRAG on for your fortieth birthday⟯</td></tr>
-<tr><td>⟮c:28;50<sup>th</sup>⟯|⟮c:29;quincuagésimo⟯</td></tr>
-<tr><td>⟮c:30;60<sup>th</sup>⟯|⟮c:31;sexagésimo⟯</td></tr>
-<tr><td>⟮c:32;70<sup>th</sup>⟯|⟮c:33;septuagésimo⟯</td></tr>
-<tr><td>⟮c:34;80<sup>th</sup> ⟯|⟮c:35;octogésimo⟯</td></tr>
-<tr><td>⟮c:36;90<sup>th</sup>⟯|⟮c:37;nonagésimo⟯</td></tr>
+⟮c:21;20<sup>th</sup>⟯|⟮c:22;vigésimo⟯</td></tr>
+⟮c:23;30<sup>th</sup>⟯|⟮c:24;trigésimo⟯</td></tr>
+⟮c:25;40<sup>th</sup>⟯|⟮c:26;cuadragésimo⟯|⟮c:27;You try on some CUbAn DRAG on for your fortieth birthday⟯</td></tr>
+⟮c:28;50<sup>th</sup>⟯|⟮c:29;quincuagésimo⟯</td></tr>
+⟮c:30;60<sup>th</sup>⟯|⟮c:31;sexagésimo⟯</td></tr>
+⟮c:32;70<sup>th</sup>⟯|⟮c:33;septuagésimo⟯</td></tr>
+⟮c:34;80<sup>th</sup> ⟯|⟮c:35;octogésimo⟯</td></tr>
+⟮c:36;90<sup>th</sup>⟯|⟮c:37;nonagésimo⟯</td></tr>
   </tbody>
 </table>
 
@@ -5809,16 +5809,16 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
     <th>Ordinal number</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:38;100<sup>th</sup>⟯|⟮c:39;centésimo⟯</td></tr>
-<tr><td>⟮c:40;200<sup>th</sup>⟯|⟮c:41;ducentésimo⟯</td></tr>
-<tr><td>⟮c:42;300<sup>th</sup>⟯|⟮c:43;tricentésimo⟯</td></tr>
-<tr><td>⟮c:44;400<sup>th</sup>⟯|⟮c:45;cuadringentésimo⟯</td></tr>
-<tr><td>⟮c:46;500<sup>th</sup>⟯|⟮c:47;quingentésimo⟯</td></tr>
-<tr><td>⟮c:48;600<sup>th</sup>⟯|⟮c:49;sexcentésimo⟯</td></tr>
-<tr><td>⟮c:50;700<sup>th</sup>⟯|⟮c:51;septingentésimo⟯</td></tr>
-<tr><td>⟮c:52;800<sup>th</sup>⟯|⟮c:53;octingentésimo⟯</td></tr>
-<tr><td>⟮c:54;900<sup>th</sup>⟯|⟮c:55;noningentésimo⟯</td></tr>
-<tr><td>⟮c:56;1000<sup>th</sup>⟯|⟮c:57;milésimo⟯</td></tr>
+⟮c:38;100<sup>th</sup>⟯|⟮c:39;centésimo⟯</td></tr>
+⟮c:40;200<sup>th</sup>⟯|⟮c:41;ducentésimo⟯</td></tr>
+⟮c:42;300<sup>th</sup>⟯|⟮c:43;tricentésimo⟯</td></tr>
+⟮c:44;400<sup>th</sup>⟯|⟮c:45;cuadringentésimo⟯</td></tr>
+⟮c:46;500<sup>th</sup>⟯|⟮c:47;quingentésimo⟯</td></tr>
+⟮c:48;600<sup>th</sup>⟯|⟮c:49;sexcentésimo⟯</td></tr>
+⟮c:50;700<sup>th</sup>⟯|⟮c:51;septingentésimo⟯</td></tr>
+⟮c:52;800<sup>th</sup>⟯|⟮c:53;octingentésimo⟯</td></tr>
+⟮c:54;900<sup>th</sup>⟯|⟮c:55;noningentésimo⟯</td></tr>
+⟮c:56;1000<sup>th</sup>⟯|⟮c:57;milésimo⟯</td></tr>
   </tbody>
 </table>
 
@@ -5829,8 +5829,8 @@ Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018ee
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯</td></tr>
-<tr><td>⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯</td></tr>
+⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯</td></tr>
+⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯</td></tr>
   </tbody>
 </table>
 
@@ -5840,97 +5840,97 @@ Spanish months<br/><table class="cloze-group hide-if-inactive">
     <th>name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;01⟯|⟮c:2;enero⟯</td></tr>
-<tr><td>⟮c:3;02⟯|⟮c:4;febrero⟯</td></tr>
-<tr><td>⟮c:5;03⟯|⟮c:6;marzo⟯</td></tr>
-<tr><td>⟮c:7;05⟯|⟮c:8;mayo⟯</td></tr>
-<tr><td>⟮c:9;04⟯|⟮c:10;abril⟯</td></tr>
-<tr><td>⟮c:11;06⟯|⟮c:12;junio⟯</td></tr>
-<tr><td>⟮c:13;07⟯|⟮c:14;julio⟯</td></tr>
-<tr><td>⟮c:15;08⟯|⟮c:16;agosto⟯</td></tr>
-<tr><td>⟮c:17;09⟯|⟮c:18;septiembre⟯</td></tr>
-<tr><td>⟮c:19;10⟯|⟮c:20;octubre⟯</td></tr>
-<tr><td>⟮c:21;11⟯|⟮c:22;noviembre⟯</td></tr>
-<tr><td>⟮c:23;12⟯|⟮c:24;diciembre⟯</td></tr>
+⟮c:1;01⟯|⟮c:2;enero⟯</td></tr>
+⟮c:3;02⟯|⟮c:4;febrero⟯</td></tr>
+⟮c:5;03⟯|⟮c:6;marzo⟯</td></tr>
+⟮c:7;05⟯|⟮c:8;mayo⟯</td></tr>
+⟮c:9;04⟯|⟮c:10;abril⟯</td></tr>
+⟮c:11;06⟯|⟮c:12;junio⟯</td></tr>
+⟮c:13;07⟯|⟮c:14;julio⟯</td></tr>
+⟮c:15;08⟯|⟮c:16;agosto⟯</td></tr>
+⟮c:17;09⟯|⟮c:18;septiembre⟯</td></tr>
+⟮c:19;10⟯|⟮c:20;octubre⟯</td></tr>
+⟮c:21;11⟯|⟮c:22;noviembre⟯</td></tr>
+⟮c:23;12⟯|⟮c:24;diciembre⟯</td></tr>
   </tbody>
 </table>
 
 Preterite of ser
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;fui⟯|⟮c:4;fuimos⟯</td></tr>
-<tr><td>⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯</td></tr>
-<tr><td>⟮c:3;fue⟯|⟮c:6;fueron⟯</td></tr>
+⟮c:1;fui⟯|⟮c:4;fuimos⟯</td></tr>
+⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯</td></tr>
+⟮c:3;fue⟯|⟮c:6;fueron⟯</td></tr>
 </tbody>
 </table>
 
 Preterite of ir
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;fui⟯|⟮c:4;fuimos⟯</td></tr>
-<tr><td>⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯</td></tr>
-<tr><td>⟮c:3;fue⟯|⟮c:6;fueron⟯</td></tr>
+⟮c:1;fui⟯|⟮c:4;fuimos⟯</td></tr>
+⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯</td></tr>
+⟮c:3;fue⟯|⟮c:6;fueron⟯</td></tr>
 </tbody>
 </table>
 
 Preterite of dar<br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;di⟯|⟮c:4;dimos⟯</td></tr>
-<tr><td>⟮c:2;diste⟯|⟮c:5;disteis⟯</td></tr>
-<tr><td>⟮c:3;dio⟯|⟮c:6;dieron⟯</td></tr>
+⟮c:1;di⟯|⟮c:4;dimos⟯</td></tr>
+⟮c:2;diste⟯|⟮c:5;disteis⟯</td></tr>
+⟮c:3;dio⟯|⟮c:6;dieron⟯</td></tr>
 </tbody>
 </table>
 
 Preterite de hacer
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;hice⟯|⟮c:4;hicimos⟯</td></tr>
-<tr><td>⟮c:2;hiciste⟯|⟮c:5;hicisteis⟯</td></tr>
-<tr><td>⟮c:3;hizo⟯|⟮c:6;hicieron⟯</td></tr>
+⟮c:1;hice⟯|⟮c:4;hicimos⟯</td></tr>
+⟮c:2;hiciste⟯|⟮c:5;hicisteis⟯</td></tr>
+⟮c:3;hizo⟯|⟮c:6;hicieron⟯</td></tr>
 </tbody>
 </table>
 
 In the preterite verbs that end in -uir are conjugated as follows (example: huir)
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;hui⟯|⟮c:4;huimos⟯</td></tr>
-<tr><td>⟮c:2;huiste⟯|⟮c:5;huisteis⟯</td></tr>
-<tr><td>⟮c:3;huyó⟯|⟮c:6;huyeron⟯</td></tr>
+⟮c:1;hui⟯|⟮c:4;huimos⟯</td></tr>
+⟮c:2;huiste⟯|⟮c:5;huisteis⟯</td></tr>
+⟮c:3;huyó⟯|⟮c:6;huyeron⟯</td></tr>
 </tbody>
 </table>
 
 In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as follows (example: creer)
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;creí⟯|⟮c:4;creímos⟯</td></tr>
-<tr><td>⟮c:2;creíste⟯|⟮c:5;creísteis⟯</td></tr>
-<tr><td>⟮c:3;creyó⟯|⟮c:6;creyeron⟯</td></tr>
+⟮c:1;creí⟯|⟮c:4;creímos⟯</td></tr>
+⟮c:2;creíste⟯|⟮c:5;creísteis⟯</td></tr>
+⟮c:3;creyó⟯|⟮c:6;creyeron⟯</td></tr>
 </tbody>
 </table>
 
 Imperfect of ver
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;veía⟯|⟮c:4;veíamos⟯</td></tr>
-<tr><td>⟮c:2;veías⟯|⟮c:5;veíais⟯</td></tr>
-<tr><td>⟮c:3;veía⟯|⟮c:6;veían⟯</td></tr>
+⟮c:1;veía⟯|⟮c:4;veíamos⟯</td></tr>
+⟮c:2;veías⟯|⟮c:5;veíais⟯</td></tr>
+⟮c:3;veía⟯|⟮c:6;veían⟯</td></tr>
 </tbody>
 </table>
 
 Imperfect of ser<br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;era⟯|⟮c:4;éramos⟯</td></tr>
-<tr><td>⟮c:2;eras⟯|⟮c:5;erais⟯</td></tr>
-<tr><td>⟮c:3;era⟯|⟮c:6;eran⟯</td></tr>
+⟮c:1;era⟯|⟮c:4;éramos⟯</td></tr>
+⟮c:2;eras⟯|⟮c:5;erais⟯</td></tr>
+⟮c:3;era⟯|⟮c:6;eran⟯</td></tr>
 </tbody>
 </table>
 
 Imperfect of ir
 <br/><table class="cloze-group hide-if-inactive">
 <tbody>
-<tr><td>⟮c:1;iba⟯|⟮c:4;íbamos⟯</td></tr>
-<tr><td>⟮c:2;ibas⟯|⟮c:5;ibais⟯</td></tr>
-<tr><td>⟮c:3;iba⟯|⟮c:6;iban⟯</td></tr>
+⟮c:1;iba⟯|⟮c:4;íbamos⟯</td></tr>
+⟮c:2;ibas⟯|⟮c:5;ibais⟯</td></tr>
+⟮c:3;iba⟯|⟮c:6;iban⟯</td></tr>
 </tbody>
 </table>
 
@@ -7442,8 +7442,8 @@ Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same leng
     <th>example</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>⟮c:1;whither⟯|⟮c:2;to where⟯</td></tr>
-<tr><td>⟮c:3;whence⟯|⟮c:4;from where⟯|⟮c:5;s:3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯</td></tr>
+⟮c:1;whither⟯|⟮c:2;to where⟯</td></tr>
+⟮c:3;whence⟯|⟮c:4;from where⟯|⟮c:5;s:3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯</td></tr>
   </tbody>
 </table>
 
