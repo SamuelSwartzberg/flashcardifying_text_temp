@@ -763,6 +763,45 @@ $   running number indicator  // $
 ^   go up an element
 {something}   text (within the tag)
 
+### SVG
+
+
+#### attributes
+
+<br>---<br>
+  §§ it seems that ((c:4;::SVG elements)) will have ((c:1;::width)) and ((c:1;::height)) of ((c:2;::0)) and thus ((c:3;::be invisble)) if ((c:5;::not otherwise specified)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+§§ In ((c:9;::SVG)), you ((c:10;::position things)) by ((c:11;::specifying the x and y properties)) ((c:12;::on the elements)). §<br>
+
+#### elements
+
+##### Basic shapes
+
+<br>---<br>
+  §§ You ((c:9;::create basic shapes)) in SVG by using ((c:10;::the SVG basic shapes)). §<br>
+§§ the ((c:1;::SVG basic shapes)) are a grouping of((c:11;::, well, basic shapes)) §<br>
+§§ SVG ((c:12;::basic shapes)): ((c:2;::&lt;circle&gt;)), ((c:3;::&lt;ellipse&gt;)), ((c:4;::&lt;line&gt;)), ((c:5;::&lt;polygon&gt;)), ((c:6;::&lt;polyline&gt;)), ((c:7;::&lt;path&gt;)) and ((c:8;::&lt;rect&gt;)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+##### <text>
+
+<br>---<br>
+  §§ <code>the ((c:1;::&lt;text&gt;))</code> element is ((c:2;::the only place)) you can ((c:3;::have text in SVG)) §<br>
+§§ In ((c:7;::SVG)), ((c:8;::text)) ((c:9;::outside of a &lt;text&gt;)) ((c:4;::will not be shown)) §<br>
+§§ ((c:10;::&lt;text&gt;)) can contain ((c:5;::<code>&lt;tspan&gt;</code>s)), which ((c:6;::define subtext (lol) for further targeting)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+##### <g>
+
+<br>---<br>
+  §§ the ((c:3;::svg)) ((c:1;::&lt;g&gt; element)) is used to ((c:2;::group ofther elements)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
 ### JSX
 
 {{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
@@ -2123,7 +2162,8 @@ var ::= var\(<custom-property-name>, <fallback-value>\)
 
 ###### offsets
 
-generally from the top left corner
+generally from the top left corner.
+Even when not using the <offset> syntax, offsets in HTML/SVG are often from the top left corner.
 for <offset>, the first value is x and the second is y
 while offset is not a official datatype, I will define it as offset ::= <length> <length>
 
@@ -3213,6 +3253,8 @@ Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime
 
 ## extracting information
 
+§§ ((c:1;::A hash function)) ((c:3;::maps)) ((c:2;::data of arbitrary size)) ((c:3;::to)) ((c:4;::fixed size-values)) ((c:5;::deterministically)). §<br>
+§§ ((c:6;::The result of a hash function)) is generally called ((c:7;::a hash)). §<br>
 At it's most general, a fingerprint is an unique combination of features that uniquely identify something.
 A fingerprinting algorithm reduces a data item to a much shorter unique identifier, often also called a fingerprint.
 Often, hashing algorithms are used as fingerprinting algorithms.
@@ -3444,6 +3486,21 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
+####### browser shortcuts
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Switch to tab n))</td> <td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>n</kbd>))</td></tr>
+<tr><td>((c:3;::Focus address bar))</td> <td>((c:4;::<kbd class="modifier cmd"></kbd><kbd>L</kbd>))</td></tr>
+<tr><td>((c:5;::open link in new tab))</td> <td>((c:6;::<kbd class="modifier cmd"></kbd> <kbd>click</kbd>))</td></tr>
+<tr><td>((c:7;::download link target))</td> <td>((c:8;::<kbd class="modifier alt"></kbd> <kbd>click</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ####### search 
 
@@ -3723,76 +3780,6 @@ e.g. cmd k then m to select the document language in VSCode
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
-
-######## code editing
-
-######### vscode
-
-rename a symbol|<kbd>f2</kbd>
-see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
-change (programming) language of current document|<kbd class='modifier cmd'></kbd><kbd>k</kbd>&nbsp;&nbsp;<kbd>m</kbd>
-show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`</kbd>
-fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
-copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
-move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
-
-<table>
-  <thead>
-    <tr>
-      <th>Action</th>
-      <th>Shortcut</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>((c:1;::Open IntelliSense))</td><td>((c:2;::<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>))</td></tr>
-  </tbody>
-</table>
-
-########### lines
-
-<table>
-  <thead>
-    <tr>
-      <th>Shortcut</th>
-      <th>Action</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::ctrl j))</td><td>((c:2;::join lines))</td></tr>
-    <tr><td>((c:3;::cmd shift k))</td><td>((c:4;::delete line))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
-
-########### jupyter
-
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th colspan="2">VScode Jupyter Shortcuts</th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::<kbd>f10</kbd>))</td> <td>((c:2;::execute next line of code))</td></tr>
-<tr><td>((c:3;::<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>))</td> <td>((c:4;::finish editing a cell/run a code block))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
-
-
-######### increment/decrement via arrow keys
-
-<table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>Arrow up/down plus..</th>
-    <th>Increments by... (assumes base 10)</th>
-  </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::alt))</td> <td>((c:2;::0.1))</td></tr>
-<tr><td>((c:3;::ø))</td> <td>((c:4;::1))</td></tr>
-<tr><td>((c:5;::shift))</td> <td>((c:6;::10))</td></tr>
-<tr><td>((c:7;::command/ctrl))</td> <td>((c:8;::100+))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ######## vector editor
 
@@ -4673,7 +4660,13 @@ moving virtual memory from secondary to primary memory or v.v. (without using pa
 primary -> secondary memory|paged/swapped out
 secondary -> primary memory|paged/swapped in
 
+### fragmentation
 
+<br>---<br>
+  §§ ((c:2;::Memory fragmentation)) is when memory is ((c:3;::allocated in many non-contiguous blocks)), meaning it has ((c:1;::small spaces that can't store anything useful)) §<br>
+§§ ((c:4;::Memory fragmentation)) results in ((c:5;::the wasting of storage)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ### relation to processor
 
@@ -5308,6 +5301,44 @@ A socket in unix is realized as a file descriptor
 §§ For ((c:84;::mailcap)), ((c:85;::%s)) represents ((c:86;::the file of the relevant MIME type)) that ((c:87;::the program gets passed)) §<br>
 ===<br>
 
+##### common file extensions
+
+<table>
+  <thead>
+    <tr><th>File format</th>
+    <th>File extension</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::TypeScript source code))</td> <td>((c:2;::.ts))</td></tr>
+    <tr><td>((c:3;::M3U playlist))</td> <td>((c:4;::.m3u))</td></tr>
+    <tr><td>((c:5;::Tex source document))</td> <td>((c:6;::.tex))</td></tr>
+    <tr><td>((c:7;::WebVTT))</td> <td>((c:8;::.vtt))</td></tr>
+    <tr><td>((c:9;::JS Modules))</td> <td>((c:10;::either .js or .mjs))</td></tr>
+    <tr><td>((c:11;::Markdown source document))</td> <td>((c:12;::.md))</td></tr>
+    <tr><td>((c:13;::YAML source document (common but not advised)))</td> <td>((c:14;::.yml))</td></tr>
+    <tr><td>((c:15;::YAML source document (advised but less common)))</td> <td>((c:16;::.yaml))</td></tr>
+    <tr><td>((c:17;::bzip2 archive))</td> <td>((c:18;::.bz2))</td></tr>
+    <tr><td>((c:19;::class files (latex)))</td> <td>((c:20;::.cls))</td></tr>
+    <tr><td>((c:21;::windows executable))</td> <td>((c:22;::.exe))</td></tr>
+    <tr><td>((c:23;::iCalendar))</td> <td>((c:24;::.ics))</td></tr>
+    <tr><td>((c:25;::ruby source coude))</td> <td>((c:26;::.rb))</td></tr>
+    <tr><td>((c:27;::rust source code))</td> <td>((c:28;::.rs))</td></tr>
+    <tr><td>((c:29;::short for style / but are called packages))</td> <td>((c:30;::.sty))</td></tr>
+    <tr><td>((c:31;::plaintext files (arbitrary)))</td> <td>((c:32;::.txt))</td></tr>
+    <tr><td>((c:33;::vCard))</td> <td>((c:34;::.vcf))</td></tr>
+    <tr><td>((c:35;::Free/busy time (iCalendar)))</td> <td>((c:36;::.ifb (or .ifbf on macOS)))</td></tr>
+    <tr><td>((c:37;::BibTeX source file))</td> <td>((c:38;::.bib))</td></tr>
+    <tr><td>((c:39;::arbitrary binary data))</td> <td>((c:40;::.bin))</td></tr>
+    <tr><td>((c:41;::JSON document))</td> <td>((c:42;::.json))</td></tr>
+    <tr><td>((c:43;::SCSS syntax source file))</td> <td>((c:44;::.scss))</td></tr>
+    <tr><td>((c:45;::sass syntax source file))</td> <td>((c:46;::.sass))</td></tr>
+    <tr><td>((c:47;::XML document))</td> <td>((c:48;::.xml))</td></tr>
+    <tr><td>((c:49;::fountain source document))</td> <td>((c:50;::.fountain))</td></tr>
+    <tr><td>((c:51;::shell script))</td> <td>((c:52;::.sh))</td></tr>
+    </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}</span>
+
 #### binary
 
 Binary files without a specification/documentation/parser are basically meaningless/unreadable.
@@ -5422,9 +5453,13 @@ SVG-edit|FOSS, web|SVG
 ######## SVG
 
 SVG is the standard format for vector images
+SVG is a subformat of XML.
 SVG files have the file extension of .svg
 SVG|Scalable Vector Graphics
+§§ The ((c:16;::current version of SVG)) is ((c:6;::1.1.)), with version ((c:6;::2)) being ((c:7;::in planning since forever)). §<br>
 §§ Often, ((c:17;::SVG)) is ((c:10;::included in HTML)). This can be done by i((c:11;::ncluding it directly in the source)), r((c:12;::eferencing it in places the browser would normally take an image (<img>, background-image))), or ((c:13;::pointing to it within an <object> or an <iframe>)) §
+§§ ((c:14;::&lt;foreignObject&gt;)) is an SVG element that allows you to ((c:15;::include non-SVG XML)), most commonly ((s:15;::((c:8;::HTML)))). §<br>
+
 
 ########## affinity designer
 
@@ -5693,7 +5728,7 @@ pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
 
 RTF|Rich Text Format
 
-####### tex
+####### tex, especially latex
 
 <br>---<br>
   §§ ((c:3;::Tex)) consists of ((c:1;::tex-core)) and ((c:2;::plain-tex)) §<br>
@@ -5732,6 +5767,19 @@ info|read texinfo files
 §§ ((c:34;::The environment form)) of a command is based on ((c:35;::its declaration form.)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
+
+######### new commands
+
+<br>---<br>
+  §§ To ((c:1;::create a new command)), use ((c:2;::\newcommand)), which goes in ((c:3;::the preamble)) §<br>
+§§ ((c:4;::\newcommand)) has the syntax: ((c:4;::\newcommand))((c:9;::{&lt;name&gt;))}((c:10;::[&lt;number-of-arguments&gt;]))((c:11;::{&lt;latex-code-to-execute&gt;))} §<br>
+§§ Within ((c:7;::\newcommand)), you ((c:8;::refer to arguments)) ((c:6;::positionally)) with ((c:5;::#n)) §<br>
+§§ ((c:12;::\newcommand{\euler}{\mathrm{e})) makes ((c:13;::\euler output \mathrm{e})) §<br>
+===<br>
+<br>---<br>
+<pre><code>\newcommand{\abs}[1]{\left|#1\right|}</code></pre>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ######## Sections
 
@@ -5811,6 +5859,8 @@ info|read texinfo files
 
 ######## Lengths
 
+######### rigid and rubber
+
 <br>---<br>
   §§ The two types of lengths ((c:5;::latex)) has are ((c:6;::rigid lengths)) and ((c:6;::rubber lengths)). §<br>
 §§ a ((c:7;::rubber length)) is a length that ((c:8;::<b>can</b> shrink or grow)) §<br>
@@ -5838,7 +5888,30 @@ info|read texinfo files
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
-######## 
+######### creating lengths
+
+<br>---<br>
+  §§ To ((c:1;::create a length foo)), you first have to ((c:2;::declare it)) with ((c:3;::\newlength{\foo))} and then ((c:2;::initialize it))&nbsp; {{c4::with \setlength{\foo}{bar}}}. §<br>
+§§ ((c:5;::\setlength)) can also be used to ((c:6;::change the value)) of ((c:7;::preexisting length keywords)). §<br>
+§§ If you ((c:8;::change the value of preexisting length keywords with \setlength)), ((c:9;::things that use these lengths itnernally)) will also change. §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:11;::\parindent))</td> <td>((c:12;::represents length of first line in paragraph indentation))</td></tr>
+<tr><td>((c:13;::\parskip))</td> <td>((c:10;::represenets the vertical distance between paragraphs))</td></tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+######## math
+
+######### packages
 
 <br>---<br>
   §§ the package ((c:1;::amsmath)) contains ((c:2;::a bunch more stuff related to math)). §<br>
@@ -5847,7 +5920,96 @@ info|read texinfo files
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
+######### environments
+
+<br>---<br>
+  §§ Fundamentally, ((c:7;::math)) in LaTeX is always ((c:8;::contained in its own environment.)) §<br>
+§§ There are ((c:9;::two types of math environments)) in ((c:10;::LaTeX)), ((c:11;::displayed (block in CSS terms))) and ((c:12;::inline)). §<br>
+§§ There exists ((c:15;::a basic built-in environment)) for ((c:13;::both&nbsp;types of math environments)), ((c:14;::displayed)) and ((c:14;::inline)). §<br>
+§§ The ((c:16;::basic built-in version)) of ((c:17;::both types of math environment)) has ((c:18;::a shorthand)) ((c:19;::derived from TeX)) which  is ((c:20;::now deprecated)). §<br>
+§§ The ((c:21;::TeX derived)) ((c:22;::shorthands)) for ((c:23;::the built-in math environments)) involves ((c:24;::using the $ character)). §<br>
+§§ The basic built-in version of both types of math environment has a shorthand exclusive to LaTeX whose use is encouraged. §<br>
+§§ The ((c:25;::LaTeX-exclusive)) ((c:26;::shorthands)) for ((c:27;::the built-in math environments)) involves ((c:28;::using escaped parentheses\bracket characters.)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>environment name</th>
+    <th>TeX shorthand</th>
+    <th>LaTeX shorthand</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::math))</td> <td>((c:2;::$...$))</td> <td>((c:3;::\​(...\​)))</td></tr>
+<tr><td>((c:4;::displaymath))</td> <td>((c:5;::$$...$$))</td> <td>((c:6;::\​[...\​]))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:29;::amsmath/mathtools)) adds a bunch more ((c:30;::displayed)) ((c:31;::math environments)). §<br>
+§§ For the ((c:32;::amsmath/mathtools environments)) there are often ((c:34;::two versions)), ((s:34;::one ((c:33;::with a star)) and ((c:33;::one without)))). §<br>
+§§ ((c:35;::amsmath/mathtools environments)) ((c:37;::w/o a star)) are ((c:36;::numbered)), ((c:37;::w/ a star)) they are ((c:36;::not numbered)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>environment</th>
+    <th>name</th>
+      <th>image</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:41;::equation/equation*))</td> <td>((c:42;::same as displaymath (added to have numbered version)))</td></tr>
+    <tr><td>((c:38;::gather/gather*))</td> <td>((c:39;::center-align lines))</td><td>((h:39;::<img src="sm_2021-05-18--15-11-30-screenshot.png">))</td></tr>
+<tr><td>((c:40;::multline/multline*))</td> <td>((c:43;::first line left-aligned, then all center-aligned, final line right-aligned))</td><td>((h:43;::<img src="sm_2021-05-18--15-16-19-screenshot.png">))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ The ((c:38;::align/align* environment)) aligns ((c:39;::parts of the equation)) ((c:40;::vertically)) in relation to ((c:41;::the anchor)), which is the ((c:42;::&amp; symbol)) §<br>
+§§ ((c:43;::split)) is ((c:44;::the same as)) ((c:45;::the align environment)), but ((c:46;::within the equation environment))&nbsp;§<br>
+===<br>
+
+<br>---<br>
+  §§ the ((c:47;::autobreak)) environment contained in ((c:49;::the eponymous package)) ((c:48;::auto inserts linebreaks into formulae)) §<br>
+§§ In ((c:50;::the autobreak environment)), ((c:51;::any newline)) is treated as ((c:52;::a possible point to break)) §<br>
+§§ ((c:52;::proof)) provides ((c:53;::an environments for proofs)) §<br>
+§§ the ((c:54;::cases environment)) renders ((c:55;::multiple lines)) with ((c:56;::an extensible left curly-brace)) for ((c:57;::piecewise-defined functions)) §<br>
+===<br>
+
+((h:all;::<img src="sm_CkJlF.png">))
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}</span>
+
+######### newtheorem
+
+\newtheorem is used in the document preamble
+<br>---<br>
+  §§ ((c:7;::\newtheorem)) ((c:8;::creates a new theorem envronment)) §<br>
+§§ ((c:9;::\newtheorem)) takes ((c:10;::two arguments, and one option)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::The first argument to \newtheorem))</td> <td>((c:2;::the name of the environment that we create by the call to \newtheorem (i.e. how we will refer to it later)))</td></tr>
+<tr><td>((c:3;::The second argument to \newtheorem))</td> <td>((c:4;::The heading that the environment that we create by the call to \newtheorem will have))</td></tr>
+<tr><td>((c:5;::The option of \newtheorem))</td> <td>((c:6;::based on what the theorem will be numbered))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ For ((c:13;::\newtheorem)), if ((c:12;::[foo])) occurs {{c11::between the two {args} }}, it is ((c:14;::a reference to another theorem)) -&gt; ((c:14;::with which it will share numbering)) , if it occurs {{c11::after the two {args} }}, it is ((c:15;::a reference to a section)) -&gt; ((c:15;::under which it will be numbered)) §<br>
+===<br>
+
+<br>---<br>
+<pre><code>\newtheorem{theo}{Theorem}
+...
+\begin{theo}</code></pre>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
 ######## Symbols
+
+######### case-changed symbols
 
 <br>---<br>
   §§ For arrows, if the ((c:1;::first letter)) is ((c:2;::lowercase)), it will render the ((c:3;::thin arrow (→))), if the ((c:1;::first letter)) is ((c:2;::uppercase)), it will render the ((c:3;::thick arrow (⇒))). §<br>
@@ -5861,7 +6023,506 @@ info|read texinfo files
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
+######### logic symbols
+
+symbol|command(s)|requires package
+⟮c1;∧⟯|⟮c4;s5;\land⟯ ⟮c5;s4;\wedge⟯
+⟮c2;∨⟯|⟮c3;s6;\lor⟯ ⟮c6;s3;\vee⟯
+⟮c3;¬⟯|⟮c7;s8;\lnot⟯ ⟮c8;s7;\neg⟯
+⟮c9;∴⟯|⟮c10;\therefore⟯|amssymb
+
+######### set symbols
+
+\supset|⊃
+\subset|⊂
+
+######### various symbols
+
+
+  <table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>command</th>
+    <th>symbol</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\LaTeX))</td> <td>((c:2;::insert the latexlogo))</td></tr>
+<tr><td>((c:3;::\ldots))</td> <td>((c:4;::an ellipsis on the baseline …))</td></tr>
+<tr><td>((c:5;::\cdots))</td> <td>((c:6;::an ellipsis slightly below the midline ⋯))</td></tr>
+<tr><td>((c:7;::\in))</td> <td>((c:8;::the element symbol (∈)))</td></tr>
+    <tr><td>((c:17;::\leq))</td> <td>((c:18;::≤))</td></tr>
+<tr><td>((c:19;::\geq))</td> <td>((c:20;::≥))</td></tr>
+<tr><td>((c:21;::\approx))</td> <td>((c:22;::≈))</td></tr>
+<tr><td>((c:23;::\infty))</td> <td>((c:24;::∞))</td></tr>
+<tr><td>((c:25;::\o))</td> <td>((c:26;::ø))</td></tr></tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:9;::\dots)) ((c:10;::is equivalent to \ldots)) in ((c:11;::vanilla latex)). §<br>
+§§ If using ((c:12;::amsmath)) and ((c:13;::within math mode)), ((c:14;::\dots)) ((c:15;::decides between \ldots and \cdots)) ((c:16;::based on context)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+######## language & encoding
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Package</th>
+    <th>Function</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::babel))</td> <td>((c:2;::foreign language support))</td></tr>
+<tr><td>((c:3;::fontenc))</td> <td>((c:4;::output character encoding))</td></tr>
+<tr><td>((c:5;::inputenc))</td> <td>((c:6;::input character encoding))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+######## beginning of document
+
+<br>---<br>
+  §§ ((c:16;::Latex commands)) are ((c:17;::either defined in the .cls file)) (and thus ((c:18;::you can use them by default))) or ((c:19;::in packages)). §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:20;::first statement)) in a latex document must be  ((c:21;::\documentclass)) §<br>
+§§ ((c:22;::The required argument)) of ((c:23;::\documentclass)) is ((c:24;::the document clas))s §<br>
+§§ calling {{c14::\documentclass{foo} }} ((c:15;::loads foo.cls)) in the background §<br>
+§§ ((c:25;::The optional argment)) of ((c:26;::\documentclass)) contains ((c:27;::global options such as font size, orientation, paper size...)) The part of the document between {{c11::\documentclass{...} and \begin{document}}} is ((c:28;::the preamble)) ((c:29;::\usepackage)) is used to ((c:30;::import a package and thus its commands)). §<br>
+===<br>
+
+
+<br>---<br>
+  §§ ((c:31;::Any \usepackage declarations)) must go in ((c:32;::the preambl))e. §<br>
+§§ ((c:12;::\RequirePackage)) is like ((c:13;::\usepackage)), with the dif that it can be used ((c:1;::before \documentclass)) and ((c:33;::is really only used by people writing packages/classes)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:34;::The document environment)) contains ((c:35;::the entire document (anything that will be visible))) §<br>
+§§ ((c:36;::after \begin{document))} there is often ((c:37;::a set of commands)) setting ((c:38;::metadata)) called ((c:39;::the top matter/topmatter)) §<br>
+===<br>
+ 
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\abstract))</td> <td>((c:2;::set the abstract of e.g. the paper))</td></tr>
+<tr><td>((c:3;::\author))</td> <td>((c:4;::set document author))</td></tr>
+<tr><td>((c:5;::\date))</td> <td>((c:6;::set document date))</td></tr>
+<tr><td>((c:7;::\title))</td> <td>((c:8;::set document title))</td></tr>
+<tr><td>((c:9;::\and))</td> <td>((c:10;::separating multiple authors within \author))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:40;::\maketitle)) then ((c:41;::renders top matter)) into ((c:42;::the title page)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}</span>
+
+
+
+######## document classes and their specific features
+
+######### beamer
+
+<br>---<br>
+  §§ The ((c:8;::documentclass)) for ((c:7;::creating presentations)) is ((c:9;::beamer)). §<br>
+§§ The highest-level division of ((c:10;::beamer)) is ((c:11;::the frame)). §<br>
+§§ A beamer ((c:12;::frame)) can be defined ((c:13;::by command or as an environment)) §<br>
+§§ ((c:14;::Frames)) ((c:15;::may consist of multiple)) ((c:16;::slides)). §<br>
+§§ ((c:17;::\pause)) inserts a ((c:18;::breakpoint)) into the frame, creating a ((c:20;::first slide)) ((c:19;::with all the content up to)) the ((c:18;::breakpoint)), and a ((c:20;::second slide)) ((c:19;::which also contains the contents after)) the ((c:18;::breakpoint)) §<br>
+§§ ((c:21;::\frametitle{foo))} ((c:22;::sets foo as the title of the frame)) §<br>
+===<br>
+
+<br>---<br>
+  §§ l((c:24;::atex presentations)) are ((c:25;::styled)) via ((c:23;::themes)) §<br>
+§§ The kind of themes that latex presentations can have are ((c:31;::presentation)), ((c:32;::color)), ((c:33;::font)), ((c:34;::inner)), ((c:35;::outer)) §<br>
+§§ ((c:26;::the elements inside of a frame (enumerations, blocks, theorems, etc))) are styled via ((c:28;::inner themes)) §<br>
+§§ ((c:27;::the elements outside of a frame (headers, footers, etc.))) are styled via ((c:29;::outer themes)) §<br>
+§§ ((c:30;::Setting themes)) is done via ((c:36;::the \usetheme command)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:37;::Overlay specifications)) specify ((c:38;::which slides)) to ((c:39;::apply a command to)), or ((c:38;::on which slides)) ((c:40;::to show a thing)) §<br>
+§§ ((c:41;::Overlay specifications)) are written ((c:42;::&lt;some_number/list/range&gt;)) §<br>
+± \item&lt;-2,4-5,7&gt; ±<br>
+§§ ((c:43;::\only))((c:44;::&lt;overlay-spec&gt;{text))}: ((c:47;::only render the text)) ((c:49;::on the specified slides)) §<br>
+§§ ((c:45;::\uncover))((c:46;::&lt;overlay-spec&gt;{text))}: ((c:48;::only render the text)) ((c:50;::on the specified slides,)) but<b>&nbsp;</b>((c:51;::still take up space on the other slides))&nbsp;§<br>
+===<br>
+
+((h:all;::<img src="sm_L5.png">))
+
+<br>---<br>
+  §§ When using the ((c:54;::beamer)) class, you can use ((c:52;::modes)) to ((c:53;::only do things in certain circumstances (handout, presentation, slide notes etc.))) §<br>
+§§ Command to ((c:71;::only do something in a certain mode)) ((c:55;::mode))((c:56;::&lt;))((c:59;::certain_mode))((c:56;::&gt;))((c:57;::{))((c:58;::things to do))((c:57;::} )) §<br>
+===<br>
+<table>
+  <thead><tr><th colspan="2"> Latex beamer modes</th></tr></thead>
+  <tbody>
+    <tr>
+      <th colspan="2">all</th>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="4">
+                <span class="c2-cloze">
+                  presentation
+                </span>
+              </th>
+            </tr>
+            <tr>
+              <td>((c:3;s:1-2;::beamer))</td>
+              <td>((c:4;s:1-2;::second))</td>
+              <td>((c:5;s:1-2;::handout))</td>
+              <td>((c:6;s:1-2;::trans))</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td style="vertical-align:top">
+        <table>
+          <tbody>
+            <tr>
+              <th>
+                ((c:1;::article))
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>---<br>
+§§ ((c:52;::\institute)) ((c:53;::sets document institute (e.g. TU Fak. 1))) (exclusive to ((c:54;::beamer))) §<br>
+
+  §§ ((c:61;::\titlepage)) is ((c:62;::functionally equivalent)) to ((c:63;::\maketitle)), but ((c:60;::will insert a missing frame if necessary)) §<br>
+===<br>
+<br>---<br>
+  §§ ((c:55;::block)) is ((c:56;::an environment)) representing ((c:57;::a text box)) in latex ((c:58;::beamer)), taking ((c:59;::an additional argument)) of ((c:60;::its title)) §<br>
+§§ the ((c:61;::columns environment)) allows ((c:62;::a multicolumn setup)) in latex ((c:70;::beamer))  §<br>
+§§ ((c:63;::within the columns environment of beamer)), ((c:64;::\column{foo))} ((c:65;::inserts a column of width foo)). §<br>
+§§ ((c:66;::theorem)) is an ((c:67;::environment)) that ((c:68;::delimits a theorem)) (((c:69;::beamer)) only) §<br>
+===<br>
+<div class="flex-container">((h:all;::<img src="sm_Beamerblock.png">))((h:all;::<img src="sm_Beamercolumns.png">))((h:all;::<img src="sm_Beamermaths.png"> ))</div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}</span>
+
+######### KOMAScript
+
+<br>---<br>
+  §§ ((c:9;::KOMA-script)) is ((c:10;::a bundle of classes)) generally more ((c:11;::versatile)) than ((c:11;::builtin equivalents)) (if ((c:12;::even  extant))). §<br>
+§§ ((c:13;::KOMAoptions)) allows you to ((c:14;::set a bunch of options)) ((c:15;::of koma script classes)) §<br>
+§§ variant of ((c:16;::article class)) (((c:18;::KOMA-script))): ((c:17;::scrartcl)) §<br>
+===<br>
+
+<br>---<br>
+  §§ class for ((c:20;::letters)) (((c:19;::KOMA-script))):((c:21;::scrlttr2)) §<br>
+§§ changing the scrlttr2 template can be can be done the option [] to \documentclass{scrlttr2} §<br>
+§§ ((c:25;::Setting variables)) for ((c:23;::koma script templates)) (but seemingly actually only used for ((c:24;::scrlttr2))): ((c:25;::setkomavar)){{c26::{key}{val} }} §<br>
+§§ ((c:22;::Set the date of a scrlttr2 letter to today)): {{c27::\setkomavar{date}{\today}}} §<br>
+§§ ((c:28;::Set the subject of a scrlttr2 letter to Ceterum censeo carthaginem...)):{{c29::\setkomavar{subject}{Ceterum censeo carthaginem...}}} §<br>
+§§ ((c:30;::.lco)) files are ((c:31;::regular .tex)) files, but are used as ((c:32;::scrlttr2 templates)) §<br>
+§§ The ((c:33;::actual body of a letter)) using ((c:34;::scrlttr2)) is indicated by ((c:35;::the letter environment)). It may ((c:36;::recieve a second argument)) of ((c:37;::the target address)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">Within the scrlttr2 letter environment</th></tr>
+    <tr><th>command</th>
+    <th>effect</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\closing{foo}))</td> <td>((c:2;::set the closing line (e.g. Best wishes, ) to foo))</td></tr>
+<tr><td>((c:3;::\opening{foo}))</td> <td>((c:4;::set the opening line (e.g. Dear Mrs. Soandso, ) to foo))</td></tr>
+<tr><td>((c:5;::\encl{foo}))</td> <td>((c:6;::define things that are enclosed (attachments)))</td></tr>
+<tr><td>((c:7;::\ps))</td> <td>((c:8;::define a postscript))</td></tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}</span>
+
+######## inline text formatting
+
+<br>---<br>
+  §§ ((c:1;::centering)) is a ((c:2;::declaration form command)) that ((c:3;::centers content)). §<br>
+§§ ((c:4;::center)) is ((c:5;::an environment)) that ((c:6;::centers content)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+######## compilation
+
+<br>---<br>
+  §§ ((c:22;::pdf(la)tex)) ((c:23;::compiles)) ((c:24;::(la)tex to pdf)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\listoffigures))</td> <td>((c:2;::generate a list of figures))</td></tr>
+<tr><td>((c:3;::\listoftables))</td> <td>((c:4;::generate a list of <code>table</code>s))</td></tr>
+<tr><td>((c:5;::\tableofcontents))</td> <td>((c:6;::generate a table of contents))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ Whenever ((c:9;::latex compiles)) and you ((c:7;::have used one or more of \listoffigures, \listoftables, \tableofcontents)), it will ((c:8;::emit a .lot, .lof, or .toc file)) respectively. §<br>
+§§ Latex constructs the ((c:10;::.aux)) and ((c:11;::.log, .lof, or .toc)) files by ((c:12;::keeping account of anything that would be relevant)) for those ((c:13;::while compiling)). §<br>
+§§ Latex uses ((c:14;::the .lot, .lof, or .toc files)) on ((c:15;::the next run)) ((c:16;::to generate the actual listoffigures, listoftables or table of contents)). §<br>
+§§ The reason ((c:17;::latex needs to compile at least twice)) is so ((c:18;::it can populate the references)) for things like ((c:19;::lot, lof, toc as well as various things in .aux)) correctly. §<br>
+§§ The ((c:20;::aux)) file keeps track of ((c:21;::various things relevant to latex compilation)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
+
+######### logging
+
+<br>---<br>
+  §§ ((c:1;::Logging)) is done to ((c:2;::.log)) for ((c:4;::latex itself)) and ((c:3;::.blg)) for ((c:4;::bibtex/biber)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+######### synctex
+
+{{c2::Synctex}} is the utility that {{c3::synchronizes changes between}} {{c1::source documents and pdf output}}
+
+######## additional functionality
+
+######### headers and footers
+
+<br>---<br>
+  §§ ((c:10;::\pagestyle{foo))} sets ((c:13;::the style)) of ((c:11;::your headers and footers)) to ((c:12;::the format defined by foo)) §<br>
+§§ for ((c:14;::anything more fancy)) with ((c:15;::headers and footers)) than ((c:16;::\pagestyle)) can do with ((c:17;::builtin formats)), you need the package ((c:18;::fancyhdr)) §<br>
+===<br>
+<br>---<br>
+  §§ ((c:19;::\pagestyle{fancy))} activates a ((c:20;::sensible default)) ((c:8;::fancyhdr)) config §<br>
+§§ after&nbsp;((c:5;::\pagestyle{fancy})) you need ((c:9;::\fancyhf{} )) to ((c:7;::remove the elements of the default page syle)) §<br>
+===<br>
+
+<br>---<br>
+§§ For more ((c:21;::advanced header/footer config)) using ((c:22;::fancyhdr)), use ((c:23;::\(l/c/r)head{))} or ((c:23;::\(l/c/r)foot{}))
+ §<br>
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\(l/c/r)foot{foo}))</td> <td>((c:2;::insert an element foo at that position in the footer))</td></tr>
+<tr><td>((c:3;::\(l/c/r)head{foo}))</td> <td>((c:4;::insert an element foo at that position in the header))</td></tr>
+  </tbody>
+</table>
+===<br>
+
+<br>---<br>
+  §§ to style headers and footers with ((c:24;::fancyhdr)) in ((c:2;::double-sided documents (e.g. books))) use ((c:6;::\fancyhead)) and ((c:6;::\fancyfoot)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
+
+######### ending commands
+
+<br>---<br>
+  §§ {{c4::}} and ((c:5;::\newline)) both ((c:8;::generate a linebreak (/end the current line))) §<br>
+§§ ((c:2;::\​)) but not ((c:2;::\newline)) takes an ((c:3;::option)) to specify how ((c:1;::large the vertical gap to the new line)) should be §<br>
+§§ ((c:6;::par)) ((c:7;::generates a paragraph break (/end the current paragraph))) §<br>
+§§ ((c:15;::a blank line)) is the construct most often used to ((c:16;::create a paragraph break)). §<br>
+§§ ((c:10;::\newpage)) and ((c:11;::\clearpage)) both ((c:9;::generate a new page (/end the current page))) §<br>
+§§ ((c:12;::\clearpage)) is like ((c:12;::\newpage)), but ((c:12;::\clearpage)) ((c:14;::forces floats to go on a new page)), while ((c:12;::\newpage)) will in multicollumn mode ((c:13;::actually just create a new column (not necessary a new page))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+######### pdf metadata
+
+<br>---<br>
+  §§ the package ((c:5;::hyperref)) also handles ((c:6;::metadata)) via ((c:7;::the \hypersetup command)). §<br>
+§§ The ((c:8;::hypersetup)) command defines ((c:9;::pdf metadata)) by taking ((c:10;::keys)) with ((c:11;::the syntax of pdf&lt;name&gt;, e.g. pdfauthor or pdftitle)) §<br>
+§§ ((c:1;::pdfbookmark)) is a ((c:12;::hyperref)) command that ((c:2;::inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar))) §<br>
+§§ Arguments to ((c:4;::pdfbookmark))((c:3;::[section])){{c2::{Title} }}{{c1::{uid(of some kind, no standard)} }} §<br>
+§§ ((c:12;::hypcap)) is a package extending ((c:14;::hyperref)) {{c13::make hyperref figure links link to the correct thing} §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+######### page geometry
+
+<br>---<br>
+  §§ ((c:1;::layout)) is a package that allows you to ((c:2;::show the setup of the page (how much spaces is being taken up by margins etc.))) §<br>
+§§ ((c:3;::geometry)) is a package that allows you to ((c:4;::change page layout (margins etc.))) §<br>
+§§ You can use ((c:5;::the  geometry package)) to ((c:6;::change the page layout globally)) by using ((c:7;::the optional argument)) of ((c:8;::the \usepackage call)). §<br>
+§§ You can use ((c:9;::\newgeometry{options))} to ((c:10;::change the page layout)) for ((c:11;::the following pages)), and §<br>
+§§ ((c:12;::\restoregeometry)) to ((c:13;::reset the page layout to the original state)) (both package ((c:14;::geometry))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
+
+########## lscape
+
+<br>---<br>
+  §§ using the package ((c:1;::lscape)), you can use ((c:4;::the landscape environment)) to make ((c:5;::the thing go into landscape mode)) §<br>
+§§ If using ((c:2;::pdflatex)), you use ((c:3;::pdflscape)) instead of ((c:6;::lscape)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+######### images
+
+<br>---<br>
+  §§ ((c:1;::graphicx)) is a package that allows us to ((c:2;::use images/graphics)) in ((c:3;::latex)). §<br>
+§§ You define the ((c:4;::root directory)) for where ((c:5;::graphicx)) should ((c:6;::look for images)) with ((c:7;::\graphicspath{\foo))} §<br>
+§§ To ((c:8;::include an actual image)) with ((c:9;::graphicx)), use ((c:10;::\includgraphics{path))}. §<br>
+§§ ((c:11;::Changing attributes of images)) included w/ graphics is done in ((c:12;::the optional argument)) of ((c:13;::\includegraphics)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+######### hyphenation
+
+<br>---<br>
+  §§ The ((c:14;::hyphenation)) command takes a ((c:15;::list of words)) as an ((c:16;::argument)), which will ((c:17;::only be hyphenated)) in ((c:18;::the places indicated with dashes)) §<br>
+§§ ((c:19;::hyphenat)) is a package to ((c:20;::en/disable autohyphenation)), e.g. in ((c:21;::words that contain hyphens or in monospaced fonts)) §<br>
+§§ in general, if a word ((c:11;::contains a non-alphabetic character)), ((c:13;::latex)) will only ever ((c:12;::split the word on that hyphen)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Latex</th>
+    <th>Result</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::$-$ (or other inline math env notation)))</td> <td>((c:2;::a mathematical minus))</td></tr>
+<tr><td>((c:3;::---))</td> <td>((c:4;::an em-dash))</td></tr>
+<tr><td>((c:5;::--))</td> <td>((c:6;::an en-dash))</td></tr>
+<tr><td>((c:7;::{{c1::-{}-}}))</td> <td>((c:8;::--))</td></tr>
+<tr><td>((c:9;::-))</td> <td>((c:10;::a hyphen))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
+
+######### blockquotes
+
+<br>---<br>
+  §§ the ((c:7;::quote)), ((c:8;::quotation)), and ((c:9;::verse)) environments all ((c:10;::indent the material, blockquote-style)). They ((c:11;::differ in)) ((c:12;::what they indent additionally, if anything)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::quotation environment))</td> <td>((c:2;::indents the beginning line of a paragraph additionally))</td></tr>
+<tr><td>((c:3;::quote environment))</td> <td>((c:4;::indents nothing additonally))</td></tr>
+<tr><td>((c:5;::verse environment))</td> <td>((c:6;::indents every line of a paragraph but the first one additionally))</td></tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+######### verbatim
+
+Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7::environments}}.
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>environment</th>
+    <th>function</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::comment))</td> <td>((c:2;::a block comment))</td></tr>
+<tr><td>((c:3;::verbatim))</td> <td>((c:4;::the text, exactly as you have inputted it (similar to &lt;pre&gt;)))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+######### drawing (tikz)
+
+<br>---<br>
+  §§ ((c:1;::tikz)) is a package for ((c:2;::creating images)) based on ((c:3;::LaTeXlike commands)) §<br>
+§§ ((c:4;::TikZ)) is short for ((c:5;::TikZ ist kein Zeichenprogramm)) §<br>
+§§ ((c:6;::TikZ)) has ((c:7;::its own pacakge/library system)), for which you ((c:8;::import packages/libraries)) via ((c:9;::\usetikzlibrary)) in ((c:10;::the preamble)) §<br>
+§§ ((c:11;::tikzpicture)) is the ((c:12;::environment)) that ((c:13;::delimits tikz commands to draw an image)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+######### resizing braces
+
+<br>---<br>
+  §§ In latex, ((c:1;::parentheses)) and ((c:2;::square brackets)) ((c:4;::can just be inserted)), ((c:3;::curly braces)) ((c:4;::must be escaped)). §<br>
+§§ ((c:5;::curly braces)) must ((c:6;::be escaped even)) if ((c:7;::as part of \left or \right)) §<br>
+± e.g. <code>\left\{</code> ±<br>
+§§ ((c:8;::prefixing)) ((c:9;::parentheses, square brackets or (escaped) curly brackets)) with ((c:10;::\left)) (if ((c:11;::opening))) or ((c:10;::\right)) (if ((c:11;::closing))) will ((c:12;::make them resize if around something larger (e.g. a fraction))) §<br>
+± e.g. <code>$$\left[\frac{foo}{bar}\right]$$</code> ±<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+######### links (hyperref)
+
+######### including other pdfs
+
+<br>---<br>
+  §§ ((c:1;::pdfpages)) is a ((c:2;::package)) to ((c:3;::include other pdfs within the latex documents)) §<br>
+§§ ((c:4;::pdfpages)) mainly features the command ((c:5;::\includepdf)) which ((c:6;::allows include a pdf document in the latex document)) §<br>
+§§ ((c:7;::\includepdf)) allows specifying ((c:8;::how you want to include what)) in ((c:9;::its options)) §<br>
+§§ ((c:10;::to control the pages that are included)), \includepdf((c:11;::[pages=foo])) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+######### color
+
+<br>---<br>
+  §§ the ((c:9;::packages)) ((c:7;::color)) and ((c:7;::xcolor)) allow ((c:8;::using various color-related commands)). §<br>
+§§ ((c:10;::xcolor)) is ((c:11;::an extension/superset of)) ((c:12;::color)). §<br>
+===<br>
+
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>command</th>
+    <th>effect</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}))</td> <td>((c:2;::define new colors))</td></tr>
+<tr><td>((c:3;::\pagecolor{color}))</td> <td>((c:4;::colors the background of a page in the specified way))</td></tr>
+<tr><td>((c:5;::\textcolor{color}{text}))</td> <td>((c:6;::colors the text in a specific color))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+######### misc
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>command</th>
+    <th>Effect</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\noindent))</td> <td>((c:2;::prevent the paragraph from being indented))</td></tr>
+<tr><td>((c:3;::\nolinebreak / \nobreak))</td> <td>((c:4;::prevent latex from breaking here))</td></tr>
+<tr><td>((c:5;::\textwidth, \columnwith, \linewidth))</td> <td>((c:6;::width of the current text (different variants for different circumstances)))</td></tr>
+<tr><td>((c:7;::\neg&lt;whatever&gt;space (\negmedspace, \negthickspace)))</td> <td>((c:8;::negative space (pulls things closer together)))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Command</th>
+    <th>does</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::\today))</td> <td>((c:2;::render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default)))</td></tr>
+    <tr><td>((c:3;::\bar{foo}))</td> <td>((c:4;::bar above foo))</td></tr>
+<tr><td>((c:5;::a' or a^{\prime}))</td> <td>((c:6;::render an a with a prime))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
 ####### MD
+
+<br>---<br>
+  §§ In ((c:1;::markdown)), you can include arbitrary ((c:2;::HTML)). §<br>
+§§ In ((c:7;::markdown)), you need to ((c:3;::put blank lines)) ((c:4;::before and after)) ((c:5;::block-level)) elements, this includes ((c:6;::HTML in markdown)). §<br>
+§§ To ((c:8;::indent something under something else)) in md, ((c:9;::indent the source code thing by four spaces)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ######## GFM
 
@@ -6640,11 +7301,37 @@ reCAPTCHA v3 checks if you are a bot purely based giving you a score in the back
 
 ## crypt
 
+### ciphers
+
 {{c1::a cipher}} is an algorithm for performing encryption/decryption
 Ciphertext is the text that is the result of {{c1::using a cipher}}
 A substitution cipher is a cipher where an unit of plaintext is replaced by an unit of cipher text
 The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
-A brute-force attack is an attack of something such as a password {{c1::By trying until successful}}
+
+### keys (symmetric and assymetric)
+
+Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
+
+<img src="sm_tmp51mx5j9z.png">
+<br>---<br>
+  §§ ((c:1;::Symmetric key encryption)) is ((c:2;::where both parties have the same key)). §<br>
+§§ ((c:3;::In symmetric key encryption)), ((c:4;::one party encrypts the data)), ((c:5;::sends the cyphertext along)), and then the other party ((c:6;::decrypts the data using the same key)). §<br>
+§§ The difficulty of ((c:7;::symmetric key encryption)) is that ((c:8;::you need to exchange the key securely, which is difficult.)) §<br>
+===<br>
+
+<img src="sm_tmp424stpwy.png">
+<br>---<br>
+  §§ ((c:9;::In public key cryptography)) aka ((c:10;::asymmetric cryptography)), ((c:12;::both parties)) have ((c:11;::two keys)), ((c:11;::a public)) and ((c:11;::a private key)). §<br>
+§§ In ((c:13;::public key cryptography)), ((c:14;::you publish)) ((c:15;::your public key)) ((c:14;::widely)), and ((c:14;::keep)) ((c:15;::your private key)) ((c:14;::secret)). §<br>
+§§ If you want to ((c:16;::encrypt a message)) in ((c:17;::public key cryptogrpahy)), you ((c:18;::apply your targets public key to it)). §<br>
+§§ If you want to ((c:19;::decrypt a message)) sent to you ((c:20;::via public key cryptography)) (which we assume ((c:21;::has been encrypted with your public key))), you ((c:22;::apply your private key to it.)) §<br>
+===<br>
+
+<img src="1200px-Private_key_signing.svg.png">
+<br>---<br>
+  §§ For ((c:23;::digital signing)), ((c:25;::you)) ((c:24;::encrypt it with your private key)). ((c:25;::The recipient)) ((c:24;::decrypts it with your public key.)) This proves ((c:26;::that the message is from you)), since only ((c:27;::your public key can decrypt things encrypted with your private key)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
 
 ### random numbers
 
@@ -6653,6 +7340,11 @@ PRNG  pseudorandom number generator
 RNG  random number generator
 
 ## attacks
+
+### brute-force
+
+A brute-force attack is an attack of something such as a password {{c1::By trying until successful}}
+
 
 ### buffer overflow
 
@@ -6673,6 +7365,30 @@ Delimiter/terminater-based code injection uses delimiters, e.g. of strings or si
 
 <img src="sm_mitm_illus.svg">
 A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}} into the {{c3::communication}} between {{c3::two parties}} believing {{c4::to be talking to each other directly}}.
+
+##### key exchange
+
+<h1>
+  ((c:5;::MitM attack))
+</h1>
+((h:all;uh:1;::<img src="sm_MitM1.jpg">))
+((c:1;h:all;uh:2;::<img src="sm_MitM2.jpg">))
+((c:2;h:all;uh:3;::<img src="sm_MitM3.jpg">))
+((c:3;h:all;uh:4;::<img src="sm_MitM4.jpg">))
+((c:4;h:all;::<img src="sm_MitM5.jpg">))
+
+<br>---<br>
+((uh:all;::After the MitM for public key encryption has been set up...))<br>
+§§ ((c:12;::the server)) and ((c:12;::client)) <b>actually</b> have ((c:13;::the MitMs public key)) §<br>
+§§ ((c:10;::the server)) and ((c:10;::client)) <b>think</b> they have ((c:11;::each other's public key)) §<br>
+§§ ((c:6;::the MitM)) looks like ((c:6;::the server)) to ((c:7;::the client)) §<br>
+§§ ((c:8;::the MitM)) looks like ((c:8;::the client)) to ((c:9;::the server)) §<br>
+===<br>
+
+<br>---<br>
+  §§ ((c:14;::public key)) ((c:15;::mitm attacks)) are countered with ((c:16;::certificate authorities)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 #### XSS
 
@@ -6752,6 +7468,50 @@ to send notifications on linux, you can use the CLI notify-send.
 §§ For ((c:4;::manual font installation)) on mac, you can ((c:5;::copy them)) to ((c:6;::/Library/Fonts)) or ((c:6;::~/Library/Fonts)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+#### text expanders
+
+Text expanders are programs which allow OS-wide macros.
+
+##### espanso
+
+<br>---<br>
+  §§ ((c:2;::Espanso variables)) are made available in the ((c:1;::environment)) of the <code>shell</code> type. §<br>
+§§ An espanso var with <code>((c:3;::name: foo))</code> will be available as <code>((c:4;::$ESPANSO_FOO))</code> for any shell scripts. §<br>
+§§ ((c:5;::fields within a form)) are available as <code>((c:6;::$ESPANSO_FORMNAME_FIELDNAME))</code> for any espanso shell scripts §<br>
+===<br>
+<br>---<br>
+<pre><code data-codetype="yaml">- trigger: ":reversed"
+  replace: "Reversed {{myshell}}"
+  vars:
+    - name: mytime
+      type: date
+      params:
+        format: "%H:%M"
+    - name: myshell
+      type: shell
+      params:
+        cmd: "echo $ESPANSO_MYTIME | rev"</code></pre>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+
+<br>---<br>
+  §§ to ((c:2;::insert a random choice of different options)) use the type ((c:1;::random)), ((c:3;::the options)) are specified ((c:4;::in the choices sequence of params)) §<br>
+===<br>
+<br>---<br>
+<pre><code>  - trigger: ":quote"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "Every moment is a fresh beginning."
+            - "Everything you can imagine is real."
+            - "Whatever you do, do it well."</code></pre>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ### kernelland
 
@@ -7172,7 +7932,6 @@ jobs|show processes running in the background
 A terminal may be a physical/hardware terminal, a virtual terminal/console, or a terminal window.
 /dev/tty represents the current terminal, regardless of what kind of terminal it is (hardware, virtual, etc.)
 the tty command tells us which device file is implementing the current terminal
-The default size in many cases for {{c3::terminal windows}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
 
 ##### terminal architecture
 
@@ -8007,6 +8766,20 @@ One could write one's own API bindings or a wrapper library using a foreign func
 A shim is a library that takes API calls for something else and then does something with them.
 A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
 A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
+
+#### APIs for certain purposes
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Data</th>
+    <th>Name</th>
+    <th>Interface</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::DWD open weather data))</td> <td>((c:2;::Bright Sky))</td> <td>((c:3;::JSON))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ## protocols
 
@@ -9422,7 +10195,18 @@ A zero client is a thin client driven to extremes, so that it has no local stora
 Hardware terminals are basically zero clients.
 a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
 
-## platforms
+## platforms running on the internet
+
+### search engines
+
+#### google
+
+<br>---<br>
+  §§ WIthin google search, ((c:1;::tbm)) is the key of the query parameter that ((c:2;::specifies the type of search (Image, News, Shopping etc.))) §<br>
+§§ For example, ((c:3;::Specifying the search mode in google search as images)) is done by ((c:4;::<code>tbm=ish</code>)) §<br>
+§§ Force google to ((c:5;::only finde pages from a certain domain)) is done by ((c:6;::site:foo.com)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ### fora
 
@@ -9656,6 +10440,16 @@ RFC 3339 is almost the same as ISO 8601
  §§ I can ((c:20;::type emoji using emoji shortcodes)) but ((c:18;::using spaces instead of underscores)) anywhere using ((c:19;::espanso)). §<br>
 </section>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
+### dice notation
+
+<br>---<br>
+  §§ ((c:6;::Dice notation)): <code>((c:1;::&lt;amount&gt;))((c:2;::d))((c:3;::&lt;sides&gt;))((c:4;::+))((c:5;::&lt;add-to-end-result&gt;))</code> §<br>
+§§ In ((c:8;::dice notation)), you can leave out ((c:9;::the amount of dice to roll)), if ((c:7;::its one)). §<br>
+§§ ((c:11;::4d10+3)) is an example of ((c:12;::Dice notation)), it means ((c:13;::roll 4 10-sided dice and add 3 to the overall result)) §<br>
+§§ the shell command ((c:10;::<code>roll</code>)) ((c:14;::rolls dice)), specified in ((c:15;::dice notation)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ## non-file formats
 
@@ -12441,7 +13235,7 @@ To contrast with module systems such as CommonJS, the official implementation of
 In JS, ES Module import/export statements can only be used within a module.
 Modules are declared in script tags by adding type="module".
 
-###  Importing
+### importing
 
 Import statements tell whatever's executing the program to act as if the specified entities were part of the file, potentially renaming them.
 In most languages, you can only import things that were first exported.
@@ -12468,6 +13262,17 @@ Rust uses `use` instead of import.
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword <path> [as <name>]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
+
+#### latex
+
+<br>---<br>
+  §§ ((c:1;::\input)) and ((c:2;::\include)) both ((c:2;::import latex code into the current file)). §<br>
+§§ ((c:3;::\input, \include)) are useful if ((c:4;::you want to split up you latex into multiple files)). §<br>
+§§ both ((c:5;::\input)) and ((c:5;::\include)) take ((c:6;::a path of the file to import)). §<br>
+§§ ((c:7;::\include)) but not ((c:7;::\import)) ((c:8;::adds a \clearpage when importing)), and thus ((c:9;::can't be used in the preamble)) §<br>
+§§ using ((c:10;::\include)) allows you to use ((c:11;::\includeonly)), which takes ((c:12;::an argument)) of ((c:13;::a list)) and will ((c:14;::only import the \includes listed within)), cutting down on ((c:15;::compile time)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ### exporting
 
@@ -13180,6 +13985,30 @@ simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex be
 A high-level programming language is a programming language with strong abstraction from the details of the computer.
 A low-level programming language is a programming language with little to no abstraction from the details of the computer.
 
+### names
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Name</th>
+    <th>Prononciation</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::C#))</td> <td>((c:2;::C sharp))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>thing</th>
+    <th>slang</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Rust users))</td> <td>((c:2;::rustaceans))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
 ### Programming paradigms
 
 Functional programming languages: {Haskell}
@@ -13427,11 +14256,50 @@ d8 is the developer shell for v8
 
 ## algorithms
 
-a deterministic algorithim/callable unit will, given a particular input {{c1::always produce the same output}}
-static program analysis is reasoning about/analyzing the behavior of computer programs without actually running them
-Linting is probably the most common form of static program analysis.
+§§ ((c:1;::An algorithm)) is a ((c:2;::finite)) ((c:3;::sequence)) (in the math sense) of ((c:4;::steps)) that ((c:5;::precisely defines an operation)). §<br>
 
-### types of
+### pseudocode
+
+<br>---<br>
+  §§ ((c:6;::pseudocode)) is ((c:7;::a plain-language description)) of ((c:8;::an algorithm)). §<br>
+§§ ((c:9;::Pseudocode)) generally ((c:10;::uses (structural) conventions of)) ((c:11;::programming languages)), but not ((c:10;::specific syntax)). §<br>
+===<br>
+
+<br>---<br>
+<pre><code data-codetype="text">When a button is pressed:
+  Get some memory, which will be used to remember the floor number
+  Put the floor number into the memory
+  Are we already on the target floor?
+    If so, we have nothing to do: finished
+    Otherwise:
+      Wait until the lift is idle
+      Go to the required floor
+      Release the memory we used to remember the floor number
+</code></pre>
+===<br>
+
+### properties
+
+#### determinism
+
+a deterministic algorithim/callable unit will, given a particular input {{c1::always produce the same output}}
+
+### for
+
+#### search
+
+##### binary
+
+<img src="sm_1280px-Binary_Search_Depiction.svg.png">
+<br>---<br>
+§§ ((c:1;::Binary search)) §<br>
+§§ <pre><code>((c:2;::take middle element)) §<br>
+§§ ((c:3;::if equal, done)) §<br>
+§§ ((c:4;::else take relevant half and repeat)) </code></pre> §<br>
+§§ ((c:5;::binary search)) has a ((c:7;::worst-case time complexity)) of ((c:6;::O(log n))) §<br>
+§§ ((c:8;::Binary)) search can only be done on something that is ((c:9;::sorted)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 #### sorting
 
@@ -13461,6 +14329,11 @@ O(1)   constant complexity/time|Accessing an element in an array
 O(n)   linear complexity/time|Iteratering over a one-dimensional array
 O(log n)   logarithmic time
 O(n<sup>2</sup>)   quadratic time
+
+### static program analysis
+
+static program analysis is reasoning about/analyzing the behavior of computer programs without actually running them
+Linting is probably the most common form of static program analysis.
 
 ## information theory
 
@@ -13607,6 +14480,100 @@ The most common tools to implement a CD/CI pipeline are Jenkins, CircleCI, Travi
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
 
+§§ The ((c:1;::standard length)) of ((c:2;::a line of code)) is ((c:3;::80 characters)). §<br>
+§§ ((c:6;::The standard length of a line of code being 80 characters)) originated ((c:4;::with IBM punch cards)) in ((c:4;::1928)), and later was ((c:5;::the standard width of a terminal)) §<br>
+The default size in many cases for {{c3::terminals}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
+
+#### code editor
+
+A (source-)code editor is a text editor designed for writing source code.
+
+##### keyboard shortcuts
+
+###### vscode
+
+rename a symbol|<kbd>f2</kbd>
+see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd><kbd>.</kbd>
+change (programming) language of current document|<kbd class='modifier cmd'></kbd><kbd>k</kbd>&nbsp;&nbsp;<kbd>m</kbd>
+show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) <kbd>`</kbd>
+fast scrolling|<kbd class='modifier alt'></kbd> <kbd>scroll</kbd>
+copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
+move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
+
+<table>
+  <thead>
+    <tr>
+      <th>Action</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::Open IntelliSense))</td><td>((c:2;::<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>))</td></tr>
+  </tbody>
+</table>
+
+######## lines
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::ctrl j))</td><td>((c:2;::join lines))</td></tr>
+    <tr><td>((c:3;::cmd shift k))</td><td>((c:4;::delete line))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+######## comments
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::add line comment))</td> <td>((c:2;::<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>))</td></tr>
+<tr><td>((c:3;::toggle line comment))</td> <td>((c:4;::<kbd class="modifier cmd"></kbd> <kbd>/</kbd>))</td></tr>
+<tr><td>((c:5;::toggle block comment))</td> <td>((c:6;::<kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>a</kbd>))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+######## jupyter
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="2">VScode Jupyter Shortcuts</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<kbd>f10</kbd>))</td> <td>((c:2;::execute next line of code))</td></tr>
+<tr><td>((c:3;::<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>))</td> <td>((c:4;::finish editing a cell/run a code block))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+
+###### increment/decrement via arrow keys
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Arrow up/down plus..</th>
+    <th>Increments by... (assumes base 10)</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::alt))</td> <td>((c:2;::0.1))</td></tr>
+<tr><td>((c:3;::ø))</td> <td>((c:4;::1))</td></tr>
+<tr><td>((c:5;::shift))</td> <td>((c:6;::10))</td></tr>
+<tr><td>((c:7;::command/ctrl))</td> <td>((c:8;::100+))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+
 ## QA
 
 QA = Quality assurance
@@ -13643,6 +14610,13 @@ QA are the activities done to make sure that the product meets certain standards
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 ((h:all;::<img src="sm_2021-09-16--17-43-33-screenshot.jpg">))
 
+##### elements+styles tab
+
+<br>---<br>
+  §§ You can ((c:1;::force element state (such as hover, focus))) either by ((c:2;::right-clicking the DOM node &gt; force state)) and then choosing the state, or by ((c:3;::clicking the :hov button)) in the ((c:3;::styles panel)) and choosing the state §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
 ###### box model
 
 <div class="flex-container">((h:all;::<img src="sm_2021-09-16--18-04-22-screenshot.jpg">))((h:all;::<img src="sm_2021-09-16--18-03-06-screenshot.jpg">))</div>
@@ -13651,6 +14625,14 @@ QA are the activities done to make sure that the product meets certain standards
 §§ Besides by normal CSS declaration, you can ((c:3;::change any part)) of the CSS box model in devtools by ((c:4;::clicking on the relevant number and setting it)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+##### console
+
+<br>---<br>
+  §§ You can access ((c:2;::the currently selected node in the elements inspector)) as ((c:1;::$0)) in the console in devtools. §<br>
+§§ If you ((c:3;::right-click &gt; store as global variable)), the DOM element becomes available ((c:4;::as temp1, temp2, etc.)) ((c:5;::in the console)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ##### other tabs/panels
 
@@ -13971,6 +14953,7 @@ show FOO|shows information about a package foo (npm); shows path to gem foo (bun
 show FOO version|show latest version of package foo|npm
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
+edit[ <name>]|open <name> in code editor, or default if none is provided|espanso
 
 #### package manifest
 
@@ -14068,6 +15051,11 @@ In latex the package manager is part of the tex distribution
 The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
 tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
+
+#### espanso
+
+for espanso, its package manager is under `espanso package`
+for espanso, `espanso package install` and `espanso package uninstall` may be abbreviated `espanso install` and `espanso uninstall`
 
 #### snap
 
@@ -14213,6 +15201,14 @@ most languages allow an arbitrary amount of spaces and tabs as indentation, YAML
 hot whatever|doing whatever while the system is still running
 cold whatever|doing whatever while the system is not running
 hot swapping may be of components, or of software
+
+## resource leak
+
+<br>---<br>
+  §§ A ((c:1;::resource leak)) occurs when a program ((c:2;::does not release resources)) when ((c:3;::it no longer nees them)). §<br>
+§§ A ((c:4;::memory leak)) is ((c:5;::a resource leak)) involving ((c:5;::memory)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ## Indexing
 

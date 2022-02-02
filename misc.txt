@@ -997,6 +997,11 @@ Examples of {{c4::litotes}} include {{c5::<q>not bad</q>; <q>no small task</q>; 
 
 ##### screenplay
 
+<br>---<br>
+  §§ ((c:1;::Fountain)) is  a markup language for ((c:3;::screenplays)) inspired by ((c:2;::markdown)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
 ###### title page
 
 §§ In fountain, a ((c:1;::title page)) consists of ((c:2;::key-values pairs)), ((h:gb;::separated internally by ((c:3;:::)).)) §<br>
