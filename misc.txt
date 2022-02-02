@@ -2335,7 +2335,51 @@ Campbell divides the monomyth into these parts (chronologically):
 
 ## nutrition
 
+### institutions
+
+<br>---<br>
+  §§ government organizations do not necessarily ((c:1;::always agree)) on the ((c:2;::amounts of nutrients)) needed to ((c:3;::avoid deficiency)) or ((c:4;::maximum amounts)) (however, ((c:5;::the ballpark is often similar)) §<br>
+§§ ((c:6;::RDAs)) are set higher than ((c:7;::EARs)) to ((c:8;::cover people with / situations where people have higher than average needs)). §<br>
+§§ ((c:9;::chromium)) is designated an ((c:10;::essential nutrient)) by the ((c:11;::US)) and ((c:12;::Japan)), but not the ((c:13;::EU)) §<br>
+§§ most health authorities recommend ((c:14;::supplementing)) at least ((c:15;::vitamin b12)) in ((c:16;::vegan diets)) §<br>
+===<br>
+
+<br>---<br>
+Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
+===<br>
+
+### antinutrients
+
+<br>---<br>
+  §§ ((c:6;::Antinutrients)) are ((c:7;::compounds)) that ((c:8;::interfere with the absorption of nutrients)). §<br>
+§§ ((c:1;::Phytate (=phytic acid))), which may be found in ((c:2;::whole grains)), ((c:2;::nuts/seeds)), and ((c:2;::legumes)), is an ((c:5;::antinutrient)) which may ((c:4;::inhibit)) ((c:3;::iron)) and ((c:3;::zinc)) ((c:4;::absorption)) (also calcium to a lesser extent), even severely. §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 ### nutrients
+
+<br>---<br>
+  §§ A ((c:1;::nutrient)) is a substance that an organism requires ((c:2;::for good functioning / maintaining life)) §<br>
+§§ ((c:3;::an essential nutrient)) is a nutrient that ((c:4;::cannot be synthesized by the body (=&gt; must be consumed for survival))) §<br>
+§§ According to Marion Nestle, the ((c:5;::list of essential nutrients)) is &nbsp;((c:6;::almost certainly incomplete)) §<br>
+§§ ((c:7;::Nutrient density)) is ((c:8;::the ratio)) of ((c:9;::nutrients)) to ((c:10;::energy content)) §<br>
+§§ An ((c:11;::empty calorie)) is one is one gained from food that ((c:12;::supplies energy)) but ((c:13;::(basically) no other nutrients)) §<br>
+§§ food ((c:14;::fortification)) / ((c:15;::enrichment)) is the process of ((c:16;::adding micronutrients)) to food. §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+#### classification
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+      <tr><td>((c:1;::A nutrient we require small amounts of))</td><td>((c:2;::a micronutrient))</td></tr>
+<tr><td>((c:3;::A nutrient we require large amounts of))</td><td>((c:4;::a macronutrient))</td></tr>
+  </tbody>
+</table>
+<br>---<br>
+  §§ ((c:6;::Macronutrient)) is sometimes used in the more ((c:5;::restricted)) sense  ((c:7;::macronutrient that provides energy)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <tbody>
@@ -2442,6 +2486,14 @@ Campbell divides the monomyth into these parts (chronologically):
 
 #### macro
 
+##### carbs
+
+<br>---<br>
+  §§ ((c:4;::Saccharide)) is as far as I know a synonym for ((c:5;::Carbohydrate)) §<br>
+§§ Carbohydrates may be classified as ((c:1;::monosaccharides)), ((c:2;::disaccharides)) or ((c:3;::polysaccharides)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
 ##### protein
 
 <br>---<br>
@@ -2453,6 +2505,20 @@ Campbell divides the monomyth into these parts (chronologically):
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
 ##### fats
+
+<br>---<br>
+  §§ ((c:1;::Fat)) consists of (is an ester of, whatever that means) ((c:2;::fatty acids)) §<br>
+§§ ((c:3;::Fatty acids)) may either be ((c:4;::saturated)) or ((c:5;::unsaturated)). §<br>
+§§ ((c:6;::Unsaturated)) ((c:7;::fatty acids)) ones have ((c:8;::one or more)) ((c:9;::C=C double bonds)).((c:10;::saturated)) factty acids have ((c:11;::no)) ((c:12;::C=C double bonds)). §<br>
+§§ ((c:13;::Saturated fats)) are called that because they have the ((c:14;::maximum possible number of hydrogen atoms)) attached to ((c:15;::every carbon atom)), and thus no ((c:16;::need (or possibility))) for ((c:17;::double C=C bonds)) §<br>
+§§ Unsaturated fats with ((c:18;::one)) ((c:19;::C=C double bond(s))) are called ((c:20;::monounsaturated)) §<br>
+§§ Unsaturated fats with ((c:21;::two or more)) ((c:22;::C=C double bond(s))) ((c:23;::polyunsaturated)) §<br>
+§§ Since ((c:24;::cis)) and ((c:25;::trans)) fats refer to the ((c:26;::configuration of the molecule)) ((c:27;::around the C=C double bond)), only ((c:28;::unsaturated)) fats can be ((c:29;::cis)) or ((c:30;::trans)). §<br>
+§§ since an ((c:31;::unsaturated fatty acid)) can have ((c:32;::more than one double bond)), it can be ((c:33;::both cis and trans)) §<br>
+§§ There are two ((c:34;::essential)) fatty acids (EFAs) in human nutrition: ((c:35;::alpha-linolenic acid)) (an ((c:36;::omega-3 fatty acid))) and ((c:37;::linoleic acid)) (an ((c:38;::omega-6 fatty acid))). ((c:39;::Other lipids needed by the body)) ((c:40;::can be synthesized from these and other fats.)) §<br>
+§§ Of the three main types of omega-3 fatty acids, ((c:41;::plant foods)) typically contain ((c:42;::only alpha-linolenic acid (ALA))). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}</span>
 
 ###### health
 
@@ -2513,6 +2579,16 @@ Campbell divides the monomyth into these parts (chronologically):
 
 #### micro
 
+##### genesis
+
+<br>---<br>
+  §§ ((c:1;::Minerals)) ((c:3;::end up in food)) via ((c:2;::rock, soil, and water,)) which are ((c:4;::absorbed by plants as they grow (or e.g. by animals licking rocks))), and then ((c:5;::passed further up the food chain)). §<br>
+§§ ((c:6;::What minerals we get)) from plants/animals depends on ((c:7;::which they can store)), but also ((c:8;::what the soil/animals further down the food chain had in them)). §<br>
+§§ ((c:9;::Vitamins)) are ((c:10;::biosynthesized)) by ((c:11;::plants/animals)) and then ((c:12;::absorbed by us)). §<br>
+§§ ((c:13;::Which vitamins)) are ((c:14;::contained in food)) depend on ((c:15;::what the relevant vegetable or animal can biosythesize)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
 ##### vitamins
 
 <table class="cloze-group hide-if-inactive">
@@ -2525,6 +2601,22 @@ Campbell divides the monomyth into these parts (chronologically):
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+###### vitamin D
+
+<br>---<br>
+§§ ((c:1;::Vitamin D)) deficiency is common worldwide, occurring in about a ((c:2;::1 billion)) people, and is surprisingly common in ((c:3;::europe)). §<br>
+§§ ((c:4;::Vitamin D)) has many function, amongst the most important being ((c:5;::increasing the absorption)) of ((c:6;::minerals)) such as ((c:7;::calcium, magnesium, and phosphate)) §<br>
+§§ ((c:8;::Vitamin D)) ((c:9;::deficiency)) can cause or excarbate a wide variety of conditions, many featuring ((c:10;::bone)) or ((c:11;::muscle)) ((c:12;::weakness)), and some ((c:13;::respiratiory infections)) as well as ((c:14;::mental illnesses)) §<br>
+§§ ((c:15;::Rickets)) is a condition that results in ((c:16;::weak)) and ((c:17;::soft)) ((c:18;::bones)) in ((c:19;::children)) §<br>
+===<br>
+
+<br>---<br>
+§§ ((c:20;::Vitamin D)) occurs only ((c:21;::rarely)) in food, specifically in ((c:22;::oily fish)) such as ((c:23;::salmon/herring/mackerel)) as well as ((c:24;::mushrooms)) (if these have been ((c:25;::exposed to UVB ligh ≈ been in the sun))) §<br>
+§§ While ((c:26;::Vitamin D)) can be synthesized by contact with ((c:27;::UVB)) rays from ((c:28;::sunlight)), many people ((c:29;::do not do this enough)), it is not necessarily possible in ((c:30;::winter)), and may not be ((c:31;::advisable)) due to ((c:32;::skin cancer risk)) §<br>
+§§ In the ((c:33;::US)) and some other countries, ((c:34;::milk)) and ((c:35;::milk substitutes)) as well as ((c:36;::breakfast cereals)) are fortified with ((c:37;::Vitamin D)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}</span>
 
 ###### vitamin B
 
@@ -2551,8 +2643,77 @@ Campbell divides the monomyth into these parts (chronologically):
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
+##### minerals
+
+<br>---<br>
+  §§ ((c:36;::Minerals)) are ((c:37;::micronutrients)) that ((c:30;::are inorganic chemical elements)) §<br>
+§§ ((c:34;::Minerals)) as micronutrients are subcategorized (by ((c:35;::amount necessary))) into ((c:31;::macrominerals)), ((c:32;::trace minerals)), and ((c:33;::ultratrace minerals)). §<br>
+§§ There are many ((c:27;::ultratrace)) elements that have been ((c:28;::suggested as essential)), such claims are ((c:29;::difficult to reproduce)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Mineral</th>
+      <th>Is defined by?</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:21;::Macrominerals))</td><td>((c:22;::RDA &gt; 150-200mg/day))</td></tr>
+    <tr><td>((c:23;::Trace minerals))</td><td>((c:24;::RDA &gt; 150-200mg/day))</td></tr>
+    <tr><td>((c:25;::ultratrace minerals))</td><td>((c:26;::RDA of μg/day))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th colspan="42">essential minerals (some variation between characters exist)</th>
+  </tr></thead>
+  <tbody>
+    <tr><th colspan="5">((c:1;::Macrominerals))</th> <th colspan="11">((c:2;::trace minerals))</th> <th>((c:3;::ultratrace minerals))</th></tr>
+<tr><td>((c:4;::calcium))</td> <td>((c:5;::magnesium))</td> <td>((c:6;::phosophorus))</td> <td>((c:7;::potassium))</td> <td>((c:8;::sodium))</td> <td>((c:9;::   chlorine))</td> <td>((c:10;::(chromium)))</td> <td>((c:11;::cobalt))</td> <td>((c:12;::copper))</td> <td>((c:13;::iodine))</td> <td>((c:14;::iron))</td> <td>((c:15;::manganese))</td> <td>((c:16;::molybdenum))</td> <td>((c:17;::selenium))</td> <td>((c:18;::sulfur))</td> <td>((c:19;::zinc))</td> <td>((c:20;::  unclear))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:39;::Calcium)) most famously exists in ((c:38;::dairy)), but ((c:40;::also in other things.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}</span>
+
+###### iron
+
+<br>---<br>
+  §§ ((c:1;::Iron)) ((c:3;::from food)) comes in two forms, ((c:2;::heme)) ((c:1;::iron)) which can only be gotten from ((c:4;::animal flesh)), and ((c:2;::non-heme)) ((c:1;::iron)) which can also be gotten from ((c:5;::other sources)) §<br>
+§§ ((c:6;::Heme)) iron is ((c:7;::better absorbed)) by the body than ((c:8;::non-heme)) iron. §<br>
+§§ Iron from ((c:9;::non-heme)) sources is ((c:10;::more readily absorbed)) if ((c:11;::consumed with foods)) that contain either ((c:12;::heme-bound iron)) or ((c:13;::vitamin C)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+
 
 ### food
+
+#### translations
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::grünkohl))</td> <td>((c:2;::kale))</td></tr>
+    <tr><td>((c:3;::hülsenfrucht))</td> <td>((c:4;::legume))</td></tr>
+  </tbody>
+</table>
+
+#### vegetables
+
+##### leafy greens
+
+<br>---<br>
+  §§ ((c:1;::Leaf))(((c:1;::y))) ((c:2;::vegetables))/((c:2;::greens)) are ((c:3;::plant leaves)) eaten as ((c:6;::a vegetable)), which are usually ((c:4;::green))-colored and share ((c:5;::many nutritional similarities)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 #### grains
 
@@ -2620,6 +2781,28 @@ Campbell divides the monomyth into these parts (chronologically):
 <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><td>((c:1;::3))</td> <td>((c:2;s:3;::dorsal))</td> <td>((c:3;s:2;::posterior))</td></tr>
 <tr><td>((c:4;::4))</td> <td>((c:5;s:6;::ventral))</td> <td>((c:6;s:5;::anterior))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+### regions
+
+<img src="body-regions-numbered.png">((h:all;::<img src="681px-Regions_of_Human_Body.jpg">))<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No. in diagram</th>
+      <th>Formal name (noun)</th>
+      <th>Formal name (adjective)</th>
+      <th>Alternative name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::28))</td>
+      <td>((c:2;::femur))</td>
+      <td>((c:2;::femoral))</td>
+      <td>((c:2;::thigh))</td>
+    </tr>
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
@@ -2880,7 +3063,75 @@ Campbell divides the monomyth into these parts (chronologically):
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
+###### photoreceptor cells
+
+<br>---<br>
+  §§ Our eyes have two kinds of ((c:7;::photoreceptor cells)), ((c:8;::rods)) and ((c:9;::cones)). §<br>
+  §§ ((c:30;:: All photoreceptor cells, i.e. cones and rods,)) lie in ((c:31;::the retina)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>can see</th>
+      <th>occur where</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::cones))</td> <td>((c:2;::color))</td> <td>((c:3;::the macula &amp; fovea))</td></tr>
+<tr><td>((c:4;::rods))</td> <td>((c:5;::B/W))</td> <td>((c:6;::everywhere but the macula/fovea))</td></tr>
+  </tbody>
+</table>
+((h:all;::<div class="flex-container"><img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp"></div>))
+<br>---<br>
+  §§ We distinguish ((c:10;::3 types)) of ((c:11;::cones)), based on ((c:12;::what wavelength light they respond to)) §<br>
+§§ we normally say  we have ((c:13;::cones)) for ((c:14;::each of the R, G, B colors)), but in fact, we have ((c:15;::one for blue)) and ((c:16;::two which are very similar, both detecting green/yellow/red,)) only with ((c:17;::one shifted slightly)). §<br>
+§§ Since ((c:18;::cone sensitivity)) is ((c:19;::a curve)), ((c:20;::cones for a given color/wavelength)) also ((c:21;::percieve other colors/wavelengths))&nbsp; Due to ((c:22;::the two cones that both have peaks close to it)), we are very good at percieving ((c:23;::shades of green)). §<br>
+§§ We can see something like ((c:24;::1-10 million)) ((c:25;::different colors)), though the exact amount is controversial §<br>
+§§ ((c:29;::Visible spectrum)): ((c:26;::380)) - ((c:27;::750)) ((c:28;::nm)) (though it varies somewhat depending on the human) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
+
+###### movement
+
+<br>---<br>
+  §§ humans ((c:7;::look at a scene)) in ((c:8;::saccades)) and ((c:9;::fixations)) to ((c:10;::build up an image)) §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Fixation))</td> <td>((c:2;::Maintaining the gaze on a single location))</td></tr>
+<tr><td>((c:3;::A saccade))</td> <td>((c:4;::Quick movement between fixations))</td></tr>
+<tr><td>((c:5;::smooth pursuit (eye movement)))</td> <td>((c:6;::smooth movement tracking a thing))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ When ((c:11;::the human eye)) ((c:12;::moves)), it either ((c:12;::moves)) in ((c:13;::saccades)) or ((c:14;::smooth pursuit movement)). §<br>
+§§ If our eye fails at ((c:15;::doing smooth pursuit eye movements)), it needs to do ((c:16;::catch-up saccades)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
 #### digestive
+
+##### diagram
+
+<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png"><br/><table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No. in diagram</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::5))</td>
+      <td>((c:2;::Appendix))</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### appendix & appendicitis
 
@@ -2901,6 +3152,51 @@ Campbell divides the monomyth into these parts (chronologically):
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}</span>
 
 #### bloodstream
+
+##### pressure
+
+<span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br><br>---<br>
+  §§ ((c:14;::blood pressure)) is measured in ((c:15;::mm Hg)) §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>definition</th>
+    <th>compares how to the other one</th>
+    <th>ideal value</th>
+    <th>which one in the image?</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+
+    <tr><td>((c:16;c:32;::diastolic pressure))</td> <td>((c:17;s:all;::blood pressure when your heart is between heartbeats))</td> <td>((c:18;s:all;::lower (than systolic)))</td> <td>((c:19;s:all;::less than 80mm Hg))</td> <td>((c:20;s:all;::71))</td></tr>
+    <tr><td>((c:21;c:31;::systolic pressure))</td> <td>((c:22;s:all;::blood pressure when your heart is contracting (during a heartbeat)))</td> <td>((c:23;s:all;::higher (than diastolic)))</td> <td>((c:24;s:all;::Less than 120mm HG))</td> <td>((c:25;s:all;::122))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:26;::Hypotension))</td> <td>((c:27;::Low blood pressure))</td> <td>((c:28;::less than 90 mm hg systolic / 60 mm hg diastolic))</td></tr>
+    <tr><td>((c:29;::Hypertension))</td> <td>((c:30;::High blood pressure))</td></tr>
+  </tbody>
+</table>
+
+<br>---<br>
+  §§ ((c:1;::Hypotension)) ((c:2;::may be)) ((c:3;::without symptoms)) §<br>
+§§ Common symptoms of ((c:4;::hypotension)) are ((c:5;::dizziness/lightheadedness)). §<br>
+§§ ((c:6;::Hypotension)) may be caused by ((c:7;::lack of nutrients (esp. anemia),)) ((c:8;::dehydration (either via lack of water or lack of electrolytes)))((c:9;::, certain medication)) or ((c:10;::(if severe) an acute contion (esp. internal organ problems))) §<br>
+§§ While it is commonly believed that ((c:11;::athletes)) have ((c:12;::low blood pressure)), research has mostly ((c:13;::failed to confirm this)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}</span>
+<br><div class="sub">
+<div class="sub all-b">
+https://www.livestrong.com/article/524559-blood-pressure-range-for-athletes/
+https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pressure-possibly/, https://pubmed.ncbi.nlm.nih.gov/25631543/
+</div>
+</div
 
 ##### emboli
 
@@ -3021,9 +3317,31 @@ Campbell divides the monomyth into these parts (chronologically):
 §§ The ((c:5;::founder effect)) occurs due to ((c:6;::the reduced genetic diversity)) in ((c:7;::the founder population)). §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
-## diseases
+## med
 
-### hansen's disease
+### ICD-10 codes
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Thingy</th>
+      <th>ICD-10 Code</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::OCD))</td>
+      <td>((c:2;::F42))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+### diseases
+
+A disease is some sort of disruption of regular functions with recgonizable signs and symptoms with a specific, known process in the body which is the cause.
+
+#### hansen's disease
 
 §§ ((c:1;::Hansen's disease)) is the proper name for ((c:2;::Leprosy)). §<br>
 §§ ((c:3;::Leprosy)) is spread  by ((c:4;::extensive contact of respiratory fluid)) §<br>
@@ -3034,16 +3352,61 @@ Campbell divides the monomyth into these parts (chronologically):
 §§ Today, ((c:18;::leprosy)) can be ((c:19;::cured)) via ((c:20;::multidrug therapy)). §<br>
 §§ ((c:26;::Leprosy)) cases have been ((c:21;::decreasing rapidly)) - in the ((c:22;::1980s)), ((c:23;::5 million)) people were suffering from ((c:26;::leprosy)), by ((c:24;::2018)) that number ((c:25;::had fallen to 200k)) §<br>
 
-### benign paroxysmal positional vertigo
+#### benign paroxysmal positional vertigo
 
 {{c1::Benign paroxysmal positional vertigo}} is an illness that causes {{c2::vertigo (dizziness)}} upon {{c3::changes in the head position}}.
 Physiologically, {{c4::benign paroxysmal positional vertigo}} is caused by {{c5::dislocated crystals in the ear,}} however {{c6::the ultimate cause is often not clear}}.
 {{c7::Benign paroxysmal positional vertigo}} is more common in {{c8::the elderly}} and {{c9::women}}, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
 {{c12::Benign paroxysmal positional vertigo}} is often treated with {{c13::specific exercises}}.
 
-## pain
+### disorder
 
-### referred pain
+A disorder is some sort of disruption of regular functions with recgonizable signs and symptoms with no statement of if we know the cause, if there are multiple causes, etc.
+A disorder might indicate that a specific disease is possible but there is not enough clinical evidence for diagnosis.
+
+#### CRSD
+
+<br>---<br>
+  §§ ((c:1;::circadian rhythm sleep disorders)) (((c:2;s:1;::CRSD))) are a family of ((c:3;::sleep disorders)) related to ((c:4;::timing of sleep)). §<br>
+§§ ((c:5;::Non-24-hour sleep–wake disorder)) ( ((c:6;s:5;::non-24)) ) is a form of ((c:7;::CRSD)). §<br>
+§§ ((c:8;::Non-24-hour sleep–wake disorde))r involves having ((c:9;::a circadian rythym)) that is ((c:10;::longer or shorter than the typical 24 hours)). §<br>
+§§ ((c:11;::non-24)) affects ((c:12;::0.03%)) of ((c:13;::the total population)) (though ((c:14;::there may be a large dunkelziffer))), but ((c:15;::70))% of ((c:16;::the totally blind population)). §<br>
+§§ On average, sufferers of ((c:17;::non-24)) have a circadian rythym roughly ((c:18;::25 hours)) long. §<br>
+§§ Medication for ((c:19;::non-24)) generally is ((c:20;::melatonin / melatonin-receptor-based)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
+### syndrome
+
+<br>---<br>
+A syndrome is some sort of disruption of regular functions with recgonizable signs and symptoms that are ((c:6;::correlated with each other = that co-occur)), but ((c:9;::for which we don't have a known cause.))
+  §§ A ((c:7;::syndrome)) is ((c:8;::a set of signs and symptoms)) §<br>
+§§ A ((c:4;::syndrome)) with ((c:5;::a cause)) is (properly) ((c:3;::a disease)) §<br>
+§§ Sudden infant death ((c:2;::syndrome)) is a ((c:2;::syndrome)) ((c:1;::because we know what happens, but not why)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+#### SIDS
+
+<br>---<br>
+  §§ ((c:2;::Sudden infant death syndrome)) is the ((c:3;::sudden unexplained death)) of ((c:1;::a child less than one year old)). §<br>
+§§ ((c:4;::Sudden infant death syndrome)) most often occurs ((c:5;::when the infant is asleep)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+#### CFS/ME
+
+<br>---<br>
+  §§ ((c:1;::Chronic fatigue syndrome)) is also called ((c:2;::myalgic encephalomyelitis)). §<br>
+§§ ((c:3;::CFS)) is a syndrome with the main symptom of ((c:4;::strong exaustion)) that ((c:5;::becomes worse after any kind of physical or mental activity)). §<br>
+§§ ((c:6;::CFS)) is ((c:7;::severe)), with ((c:8;::75%)) of people ((c:9;::being unable to work)) after onset. §<br>
+§§ Roughly ((c:10;::1))% of the population have ((c:11;::CFS)), with it occuring somewhat more frequently in ((c:12;::women)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+### pain
+
+#### referred pain
 
 {{c1::referred pain}} is pain {{c2::felt somewhere else than the site of the stimulus}}.
 
