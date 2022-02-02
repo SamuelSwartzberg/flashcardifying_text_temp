@@ -378,6 +378,139 @@ as distinct from actually-extant humans
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
+### generations
+
+<table>
+  <thead>
+    <tr>
+      <th>Generation</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Nicknames</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Baby boomers))</td>
+      <td>((c:2;::~1945))</td>
+      <td>((c:2;::~1965))</td>
+    </tr>
+    <tr>
+      <td>((c:1;::Generation X))</td>
+      <td>((c:2;::~1965))</td>
+      <td>((c:2;::~1980))</td>
+    </tr>
+        <tr>
+      <td>((c:3;::Millenials))</td>
+      <td>((c:4;::~1980))</td>
+      <td>((c:4;::~1995))</td>
+          <td>((c:10;s:all;::Generation Y))</td>
+    </tr>
+ <tr>
+      <td>((c:5;::Generation Z))</td>
+      <td>((c:6;::~1995))</td>
+      <td>((c:6;::~2010))</td>
+   <td>((c:9;s:all;::Zoomers))</td>
+    </tr>
+     <tr>
+      <td>((c:7;::Generation α))</td>
+      <td>((c:8;::~2010))</td>
+      <td>((s:8;::???))</td>
+    </tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
+### birth rate/fertility
+
+<br>---<br>
+  §§ The ((c:5;::different fertility rates are)) sometimes presented ((c:6;::as-is)) (as ((c:6;::a percentage))), or ((c:7;::multiplied by 1000)), to ((c:7;::present a number/index)) §<br>
+===<br>
+
+<br>---<br>
+  §§ What we often call ((c:8;::birth rate)) is more properly called the ((c:9;::crude birth rate)), because ((c:10;::it isn't directly based on anything related to childbirth)) §<br>
+§§ The ((c:11;::crude birth rate)) is ((c:12;::the number of live births)) ((c:13;::per person)) §<br>
+§§ To get ((c:14;::the crude birth rate)) in practice, we ((c:15;::divide the number of live births through the population size)) §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:16;::general fertility rate)) is ((c:17;::the amount of live births)) ((c:18;::per women aged 15 to 44 (women of childbearing age))) §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:19;::age-specific fertility rate)) is ((c:20;::the number of births)) ((c:21;::to women in a given age group)) ((c:22;::divided by the number of women in a given age group)) §<br>
+§§ The ((c:23;::ASFR)) is often ((c:24;::grouped in groups of)) ((c:25;::1)) or ((c:25;::5)) ((c:25;::years)). §<br>
+§§ In plain language, the ((c:26;::ASFR)) e.g. for age 21 is ((c:27;::the amount of children an average 21 y/o has in a year)) §<br>
+===<br>
+
+<br>---<br>
+  §§ The ((c:28;::TFR)) measures ((c:29;::babies per woman (in her lifetime))) (*) §<br>
+§§ Mathematically, the ((c:30;::total fertility rate)) is ((c:31;::the sum of all)) ((c:32;::current age-specific fertility rates)) §<br>
+§§ In plain language, the ((c:33;::TFR)) is ((c:34;::the sum of)) ((c:35;::the amount of chilren)) ((c:36;::a women will have)) ((c:37;::in any given year of her life)) §<br>
+§§ The thing the ((c:38;::total fertility rate)) is ((c:39;::trying to estimate)) is ((c:40;::the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions))) §<br>
+§§ The ((c:41;::total fertility rate)) assumes that ((c:42;::the woman will survive until the end of her reproductive life)) and that ((c:43;::she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime)) §<br>
+§§ If a ((c:44;::woman dies before her reproductive period ends (lets say at 30),)) she ((c:45;::will not impact ASFRs beyond 30)). This is not a problem until ((c:46;::we add them together to the TFR)) - since we are using the ASFRs to ((c:47;::estimate how many children a woman will have in her life)), ((c:48;::the ASFRs)) ((c:49;::should be impacted b))((c:50;::y the woman who died before the end of the reproductive period (the dead women should count as 0))). Therefore, ((c:51;::maternal mortality distorts the TFR)). §<br>
+===<br>
+
+
+<br>---<br>
+  §§ The ((c:52;::replacement rate / replacement-level fertility)) is ((c:53;::the TFR)) ((c:54;::needed to sustain population levels)) §<br>
+§§ A ((c:56;::TFR)) ((c:55;::below replacement rate)) is known as ((c:57;::Sub-replacement fertility)) §<br>
+§§ Beyond ((c:58;::the distorting factors for the TFR)), ((c:59;::the replacement rate)) is additionally distorted by ((c:60;::child mortality)). §<br>
+§§ ((c:61;::The replacement rate)) for countries ((c:62;::with low child and maternal mortality)) is ((c:63;::about 2.1)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>TFR</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::Japan))</td>
+      <td>((c:2;::~1.4))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::Korea))</td>
+      <td>((c:4;::~0.9))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}</span>
+
+#### japan
+
+((h:all;::<img src="821361.png">))
+<br>---<br>
+  §§ In japan, ((c:7;::extramarital birth)) is ((c:8;::extremely rare)) §<br>
+§§ In japan, marriages as of 2020 occurr ((c:9;::Less and later)) §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Average age for marriage (Japan)</th>
+      <th>Average age for birth of first child (Japan)</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+   <tr>
+      <td>((c:1;::1990))</td>
+      <td>((c:2;s:3;::26))</td>
+      <td>((c:3;s:2;::27))</td>
+    </tr>
+     <tr>
+      <td>((c:4;::2008))</td>
+      <td>((c:5;s:6;::30))</td>
+      <td>((c:6;s:5;::30))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
 ### dependency
 
 #### definition of dependent
@@ -522,6 +655,17 @@ as distinct from actually-extant humans
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
+## political power
+
+### political influence
+
+#### -industrial complex
+
+x-industrial complex is a snowclone attributing the entrenchment of the power of x and resulting bad effects to the political influence of the entrenched econmic interests of x.
+
+military|defense industry
+prison|for-profit prisons
+
 ## political communication
 
 ### medium
@@ -537,6 +681,20 @@ as distinct from actually-extant humans
   §§ A ((c:1;::Pamphlet war)) was a ((c:2;::protracted argument or discussion)) through ((c:3;::printed media)), especially via ((c:4;::pamphlets)), especially between the time ((c:5;::the printing press became common)), and the ((c:6;::beginning of the 1800s)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### structure
+
+((h:all;::<img src="sm_2021-06-27--09-51-54-screenshot.jpg">))<br>---<br>
+§§ Someone ((c:15;::doing something)) defined as ((c:16;::the intended result)) of ((c:17;::an ad or similar)) is known as a ((c:18;::conversion)). §<br>
+§§ ((c:19;::A purchase, a click on a certain thing, subscribing to a newsletter)) might all be ((c:20;::Conversions)) §<br>
+§§ The ((c:2;::conversion rate)) measures ((c:22;::conversions)) per ((c:21;::site visitor (or similar))) §<br>
+  §§ A ((c:1;::sales/conversion funnel)) is the process where you repeatedly ((c:3;::reduce the users options)) until ((c:4;::a conversion)). §<br>
+§§ A ((c:5;::call to action (CTA))) is something that is ((c:6;::designed to)) ((c:7;::prompt a a conversion)). §<br>
+§§ In general, ((c:8;::the CTA)) should be the thing with ((c:9;::the most visual focus)). §<br>
+§§ In web design, ((c:10;::a call to action)) is most often ((c:11;::some kind of button)). §<br>
+§§ The thing that ((c:12;::gets people to the next step)) of ((c:13;::the sales/conversion funnel)) is ((c:14;::a CTA)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}</span>
 
 ### manner
 
@@ -573,6 +731,18 @@ as distinct from actually-extant humans
 §§ By extension, a ((c:3;::dog whistle)) in politics is (the use of) ((c:4;::coded language)) which ((c:5;::sounds innocent to most people)) (or ((c:5;::at least allows plausible deniability))) but ((c:6;::is meant to communicate a specific thing to an intended audience)). §<br>
 §§ Examples for ((c:9;::dog whistles)) are ((c:7;::"international bankers")) to mean ((c:8;::jews)), or ((c:7;::states' rights)) as code for ((c:8;::segregation/racism/pro-slavery)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+### censorship
+
+#### impressumspflicht
+
+<br>---<br>
+  §§ ((c:1;::Impressumspflicht)) is generally only a thing in ((c:2;::german-speaking countries)), containing ((c:3;::the contact information)) of ((c:4;::the person responsible for the content.)) §<br>
+§§ The main law ((c:5;::requiring an Impressum)) in the Internet is ((c:6;::the Telemediengesetz)), if ((c:7;::you are offering services)), also ((c:8;::the  Dienstleistungs-Informationspflichten-Verordnung)) §<br>
+§§ The main requirement for an ((c:9;::impressum)) is "((c:10;::leicht erkennbar)), ((c:11;::unmittelbar erreichbar,)) ((c:12;::ständig verfügbar))" §<br>
+± Historically, the German impressum requirement has its roots in the censorship laws of 19th century and earlier monarchies, and has been criticized as illiberal and contrary to the principle of free speech; in most other countries there is no comparable requirement. ±<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ## political systems
 
@@ -657,6 +827,11 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## literary theory
+
+<br>---<br>
+  §§ ((c:2;::Metafiction)) is a form of fiction that ((c:1;::emphasizes the constructedness of the work)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 ### diagesis
 
@@ -765,8 +940,21 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
-
 ## textual
+
+### games
+
+<table>
+  <thead>
+    <tr><th></th>
+    <th></th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::MUD))</td> <td>((c:2;::Multi-user dungeon))</td></tr>
+    <tr><td>((c:3;::RPG))</td> <td>((c:4;::Role-playing game))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
 ### novels
@@ -793,6 +981,18 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 §§ According to Radway (1984), the ((c:22;::harlequin heroine)) is ((c:23;::young)),  has ((c:24;::extraordinary but unselfconscious beauty)), and is ((c:25;::inexperienced)) in love. §<br>
 §§ Harlequin romances generally feature a ((c:26;::clinch)) cover and have a ((c:27;::happy)) end. §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
+
+###### japanese
+
+<br>---<br>
+  §§ According to Shibamoto Smith 2004, in contrast to ((c:1;::Harlequin translations)), the ((c:2;::heroine)) of ((c:1;::japanese romance novels)) looks ((c:3;::reasonably pretty, but not a bombshell)), acts ((c:4;::independently/competently)), is quite ((c:5;::self-aware)), while the ((c:6;::hero)) is ((c:7;::ordinary, nice, somewhat awkward)). §<br>
+§§ In general, according to Shibamoto Smith 2004, ((c:8;::japanese romance novels)) pay less heed to ((c:9;::looks as a sign for attractiveness/love)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span><br/><div class="sub">
+<blockquote class="sub all-b">
+Japanese romances rarely have covers that depict the principal characters, and the text descriptions are by no means as detailed as in the Harlequin-style texts. Clothing is not, in my corpus, ever used as a tool of seduction, and no lovers’ furtive glances at escaping chest hair or heaving breasts or quick but intoxicating looks at glimpses of beautiful long legs through the slits of skirts help our Japanese lovers know that they have found Ms. or Mr. Right
+</blockquote>
+</div>
 
 ###### bodice-ripper
 
@@ -1134,6 +1334,14 @@ Examples of {{c4::litotes}} include {{c5::<q>not bad</q>; <q>no small task</q>; 
 ### social relationships
 
 #### employment
+
+##### presenteeism
+
+<br>---<br>
+  §§ ((c:1;::Presenteeism)) is commonly ((c:2;::being at work although sick)) §<br>
+§§ Hofbacher uses ((c:3;::presenteeism)) in its more uncommon definition of ((c:4;::presence at work qua presence at work (without economic benefit))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ##### boreout
 
@@ -1736,6 +1944,228 @@ Disasters<br/><br>---<br>
 
 ## history of <location>
 
+### china
+
+#### dynasties
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Dynasty</th>
+      <th>Start</th>
+      <th>End</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr>
+      <td>((c:1;::Western Han))</td>
+      <td>((c:2;::200BC))</td>
+      <td>((c:2;::0))</td>
+    </tr>
+        <tr>
+      <td>((c:3;::Eastern Han))</td>
+      <td>((c:4;::0))</td>
+      <td>((c:4;::200AD))</td>
+    </tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+### Japan
+
+#### eras
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Era</th>
+    <th>Start</th>
+      <th>End</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::Asuka))</td> <td>((c:2;::550))</td> <td>((c:3;::700))</td></tr>
+<tr><td>((c:4;::<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代))</td> <td>((c:5;::700))</td> <td>((c:6;::800))</td></tr>
+<tr><td>((c:7;::平安時代))</td> <td>((c:8;::800))</td> <td>((c:9;::1200))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+<br>---<br>
+  §§ In the ((c:2;::平安時代)), ((c:4;::the capital)) ((c:1;::was moved)) to ((c:3;::平安京::name then)) (((c:3;::京都::name now))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+{{c3::<ruby>大日本帝国<rp>(</rp><rt>だいにっぽんていこく</rt><rp>)</rp></ruby>}}: {{c1::1868}} - {{c2::1947}}
+
+#### reigns
+
+##### emperors
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Era</th>
+      <th>Start</th>
+      <th>End</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::明治))</td>
+      <td>historical: ((c:2;::1868)); accession to the throne: ((c:11;::1852))</td>
+      <td>((c:2;::1912))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::大正))</td>
+      <td>((c:4;::1912))</td>
+      <td>((c:4;::1926))</td>
+    </tr>
+    <tr>
+      <td>((c:5;::昭和))</td>
+      <td>((c:6;::1926))</td>
+      <td>((c:6;::1989))</td>
+    </tr>
+    <tr>
+      <td>((c:7;::平成))</td>
+      <td>((c:8;::1989))</td>
+      <td>((c:8;::2019))</td>
+    </tr>
+        <tr>
+      <td>((c:9;::令和))</td>
+      <td>((c:10;::2019))</td>
+      <td>???</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+##### politics
+
+((h:all;::<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">)){{c1::小泉純一郎}} served as {{c3::Japan's prime minister}} from {{c2::2001}} to {{c2::2006}}, coming in with an image of a {{c4::maverick}}
+
+<h2>
+  ((c:7;uh:all;::Non-LDP goverments in Japan)) since ((c:8;uh:all;::1948)):
+</h2>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>which</th>
+    <th>start</th>
+    <th>end</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::earlier))</td> <td>((c:2;s:3;::early 1990s (1993)))</td> <td>((c:3;s:2;::1996))</td></tr>
+<tr><td>((c:4;::later))</td> <td>((c:5;s:6;::end of the 2000s (2009)))</td> <td>((c:6;s:5;::2012))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span><br><div class="sub">
+<div class="sub all-b">
+more precisely since the 50s if we're talking specifically about the LDP, but the late 40s was its predecessors
+</div>
+</div>
+
+#### sources
+
+##### 万葉集
+
+§§ The ((c:1;::<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>))&nbsp;is ((c:2;::the oldest)) ((c:3;::collection of 和歌 poetry)) §<br>
+§§ The ((c:4;::<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>)) was ((c:5;::compiled in)) ((c:6;::the latter half of the 700s (nara period))) §<br>
+§§ The ((c:7;::<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>))&nbsp;is today considered ((c:8;::a revered piece of literature)) §<br>
+§§ While ((c:9;::the  <ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby> is from the latter 700s)), ((c:10;::some of the poems)) are from ((c:11;::far earlier (600ish))) §<br>
+§§ the ((c:12;::<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>))&nbsp;contains ((c:13;::4500ish))  和歌 poems §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+##### 紫式部
+
+<br>---<br>
+  §§ ((c:2;::紫式部)) (though ((c:3;::there is some authorship dispute))) wrote ((c:1;::源氏物語)) around ((c:4;::1000ish)) §<br>
+§§ We ((c:5;::don't know a huge amount)) about ((c:6;::the original form)) of ((c:7;::源氏物語)), since ((c:8;::the original has long been lost.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+#### events
+
+##### Russo-Japanese war
+
+The {{c3::Russo-Japanese war}} lasted from {{c1::1904-1905}} and ended with {{c2::The battle of tsushima (日本海海戦)}}
+
+##### 3.11
+
+§§ ((c:1;::The <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby> (amongst many other names))) was a disaster that hit ((c:2;::japan)) on the ((c:3;::11.03.2011)). §<br>
+§§ The ((c:4;::<ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>)) was caused by a ((c:5;::9.0-9.1)) magnitude ((c:6;::underwate earthquake)). §<br>
+§§ The earthquake that caused the <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby> subsequently caused ((c:7;::a tsunami)) and ((c:8;::nuclear meltdown)). ((c:9;::The <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>)) cost ((c:10;::around 200-400 billion 2018 US$)), making it ((c:11;::the most costly natural disaster in history)). §<br>
+§§ ((c:12;::<ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>)) is often just called ((c:13;::3.11)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
+
+#### places
+
+##### 靖国神社
+
+<br>---<br>
+  §§ The ((c:2;::<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>))is dedicated to ((c:1;::Those died in service of Japan)) §<br>
+§§ The main problem with the ((c:3;::<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>)) is that ((c:4;::it holds over a thousand convicted war criminals)). §<br>
+§§ ((c:5;::靖)) is generally read ((c:6;::やす)) and means ((c:7;::peaceful, calm, easygoing)). §<br>
+§§ ((c:8;::靖)) as a kanji is mainly used in ((c:9;::靖国神社)). §<br>
+===<br>
+
+#### population
+
+((h:all;::<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">))((h:all;::<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">))
+((h:all;::<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">))((h:all;::<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">))<br>---<br>
+  §§ ((c:1;::<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>)) literally means ((c:2;::of japanese descent)), though it can also be an abbreviation of ((c:3;::<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>)) §<br>
+§§ ((c:4;::<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>)) refers to  ((c:5;::japanese diaspora members (people are of japanese descent but are not japanese citizens))) §<br>
+§§ The ((c:6;::largest amount)) of ((c:7;::日系（人）)) is in ((c:8;::Brazil)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+#### topics
+
+##### religion
+
+§§ sometime between ((c:2;::450-550)), ((c:1;::Buddhism was introduced/popularized)) in ((c:3;::Japan)). §<br>
+
+##### subcultures
+
+###### モガ
+
+§§ ((c:1;::モダンガール)) were ((c:2;::young women)) characterized by ((c:3;::taking to western fashion and sensibilities)) in ((c:4;::the interwar years)) §<br>
+§§ ((c:5;::モダンガール)) is sometimes shortened to ((c:6;::モガ)) §<br>
+§§ ((c:7;::モダンガール)) are (said to be) similar to ((c:8;::Flappers (US))) §<br>
+
+###### コギャル
+
+((h:1;::<img src="sm_248px-制服_(5346443876).jpg">))((h:1;::<img src="sm_171px-ギリギリ短_(15580964194).jpg">))§§ The ((c:2;::コギャル)) fashion/fashion subculture involves: whole body: ((c:1;::School uniforms)); hip: ((c:3;::miniskirts)); feet: ((c:4;::loose socks)); neck: ((c:5;::scarves)) §<br>
+§§ The ((c:6;::コギャル)) fashion/fashion was popular in the ((c:7;::1990s)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
+
+##### the economy
+
+###### zaibatsu
+
+§§ ((c:1;::財閥)) ((c:2;::controlled large parts of the japanese economy)) between ((c:3;::the mid 明治 period)) and ((c:4;::the end of ww2 (though in a sence, they still exist))) §<br>
+
+###### plaza accords
+
+<br>---<br>
+  §§ ((c:1;::the plaza accords)) were an agreement in ((c:2;::1985)) that ((c:3;::changed the fundamental relationship between)) ((c:4;::Dollar, DM and Yen.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+###### bubble economy & lost decade
+
+§§ From ((c:1;::the end of the war)) until ((c:2;::the asset price crisis)), ((c:3;::Japan)) experienced ((c:4;::strong economic growth)). §<br>
+§§ In ((c:5;::pre-bubble))-era japan ((c:6;::wealth was high)), employment was mostly for life and so ((c:6;::conspicuous consumption was legion)) §<br>
+
+§§ ((c:1;::バブル<ruby>景気<rt>けいき</rt></ruby>))is the japanese term for what we call ((c:2;::the bubble economy/japanese asset price bubble.)). §<br>
+§§ The ((c:3;::バブル<ruby>景気<rp>(</rp><rt>けいき</rt><rp>)</rp></ruby>)) began in ((c:4;::1986)), following ((c:5;::the plaza accords)), and burst in ((c:6;::1991)). §<br>
+§§ The asset involved in ((c:13;::the japanese asset price bubble)) was ((c:14;::real estate)). §<br>
+§§ ((c:7;::The lost decade)) is the english translation for the japanese ((c:8;::失われた十年)). §<br>
+§§ The ((c:9;::japanese asset price bubble)) was followed by ((c:10;::the lost decade/失われた十年)). §<br>
+§§ Since ((c:11;::the economy hasnt really recovered since the lost decade/失われた十年)), it is sometimes expanded to ((c:12;::the lost 20/30 years.)) §<br>
+§§ The ((c:15;::employment ice age)) (ja((c:16;::: <ruby>就職氷河期<rp>(</rp><rt>しゅうしょくひょうがき</rt><rp>)</rp></ruby>))) was/is ((c:17;::the period following the asset price bubble)) with ((c:18;::unavailable or unstable employment)).  §<br>
+§§ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade(s).}} §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+
 ### US
 
 #### periods
@@ -1807,6 +2237,29 @@ Disasters<br/><br>---<br>
 §§ The ((c:3;::Nord-Ostsee-Kanal)) was built around ((c:4;::1900)) and may be said to be part of the larger trends of ((c:5;::the rise of the German nation-state and industrialization)). §<br>
 
 ## history of <topic>
+
+### gender
+
+<br>---<br>
+  §§ Since the ((c:3;::1940s)), ((c:1;::blue)) has symobolized ((c:2;::boys/masculinity)) and ((c:1;::pink)) has symbolized ((c:2;::girls/femininity)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
+
+#### in japan
+
+{{c1::Takarazuka Revue}} is {{c2::an all-female}} (and thus {{c2::cross-dressing}}) troupe playing {{c3::musicals}} founded {{c4::in the 1910s}} and {{c5::still running.}}
+
+§§ The ((c:1;::Equal Employment Opportunity law)) (Japan, ((c:2;::1986/87))) was the ((c:3;::first* (it actually implemented an earlier law))) ((c:4;::major)) though ((c:4;::largely ineffective)) ((c:5;::equal employment legislation in japan.)) §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+### quotes
+
+#### may you live in interesting times
+
+<br>---<br>
+  §§ ((c:1;::May You Live In Interesting Times)) (or variants) is a supposedly ((c:2;::chinese)) quote, supposedly ((c:3;::a curse)) due to the fact that ((c:4;::the most interesting times are also the most dangerous)). however, ((c:5;::the origin is unclear)). It could be ((c:6;::a change from the Chinese quote "Truly, better be a dog in days of peace than a human in times of war")), or ((c:7;::an original creation of the british diplomatic service in china)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ### disease and medicine 
 
@@ -1901,6 +2354,11 @@ Disasters<br/><br>---<br>
 
 ### protest
 
+#### dungan revolt
+
+the ((c:2;::Dungan revolt)) was a largely unknown rebellion featuring ((c:3;::8-10 million people)) in ((c:1;::around 1870)) in ((c:4;::china))
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 #### three-finger salute
 
 ((h:1;::<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">))
@@ -1921,6 +2379,17 @@ Disasters<br/><br>---<br>
 
 #### film
 
+##### hays code
+
+<br>---<br>
+  §§ The ((c:1;::Motion Picture Production Code)) was more commonly known as ((c:2;::Hays Code)) §<br>
+§§ One of the  reasons the  ((c:3;::Hays Code (Motion Picture Production Code))) was instituted was to ((c:4;::avoid  government regulation/censorship)) §<br>
+§§ The ((c:5;::Hays Code (Motion Picture Production Code))) ((c:6;::self-censored)) ((c:7;::the movie industry)) from ((c:8;::the 1930s (1934))) through ((c:9;::the 1960s (1968))) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
+##### golden age of porn
+
 <br>---<br>
   §§ ((c:1;::<cite>Blue Movie (1969)</cite>)) by ((c:2;::Andy Warhol)) was ((c:3;::the first movie)) to ((c:4;::show explicit sex in a movie theater film)). §<br>
 §§ <cite>((c:5;::Blue Movie)) </cite> (((c:6;::1969))) helped inaugurate ((c:7;::the Golden Age of Porn)). §<br>
@@ -1928,6 +2397,14 @@ Disasters<br/><br>---<br>
 §§ ((c:13;::The golden age of porn)) featured ((c:14;::sexually explicit content)) in ((c:16;::the movie theatre)), in films that were ((c:15;::high quality)) / ((c:15;::critically aclaimed)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+#### dorama
+
+<br>---<br>
+  §§ ((c:1;::電車男)) was one of the biggest dramas of the ((c:2;::2000s)), drawing ((c:3;::25%)) of ((c:5;::the national audience)) for its ((c:4;::finale)) §<br>
+§§ In ((c:6;::電車男)), through ((c:7;::the development of his relationship with Hermès)), the main character ((c:8;::grows out of being an otaku)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 # phil
 
@@ -2109,6 +2586,29 @@ Campbell divides the monomyth into these parts (chronologically):
 
 # soc
 
+## social models
+
+### Social-Ecological Models
+
+<br>---<br>
+§§ separate ((c:2;::things that can affect an individual)) into categories. these are not always identical, but may roughly be ((c:3;::Individual)), ((c:3;::Interpersonal/Relationship)), (more frequently left out) ((c:4;::Organizational)), ((c:4;::Community)), ((c:5;::Society/Policy)). §<br>
+===<br>
+<br>---<br>
+<div class="onion-box">
+  <span>((c:6;s:all;::Societal (Policy) ))</span>
+  <div class="onion-box">
+    <span>((c:7;s:all;::Community))</span>
+    <div class="onion-box">
+      <span>((c:8;s:all;::Relationship))</span>
+      <div class="onion-box">
+        <span>((c:9;s:all;::Individual))</span>
+      </div>
+    </div>
+  </div>
+</div>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
+
 ## control
 
 ### panopticon
@@ -2116,6 +2616,18 @@ Campbell divides the monomyth into these parts (chronologically):
 ((h:all;::<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">))((h:all;::<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">))§§ the word ((c:9;::panoptic)) means ((c:10;::all-seeing)) §<br>
 §§ The ((c:3;::panopticon)) (in theory) allowed ((c:4;::a single guard)) to ((c:2;::observe)) ((c:1;::all inmates)) ((c:2;::without them knowing that they were being watched)) §<br>
 §§ The ((c:5;::panopticon)) was designed by ((c:6;::Jeremy Bentham)), and used as a metaphor most famously by ((c:7;::Foucault)). §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+## units
+
+### community
+
+#### community of practice
+
+<br>---<br>
+  §§ ((c:2;::a community of practice)) is ((c:3;::a set of people)) who ((c:4;::come together)) via ((c:5;::mutual engagement)) ((c:1;::in a common endeavor)) §<br>
+§§ In ((c:6;::their engagement in their endeavor)), what emerges ((c:7;::in a community of practice)) are ((c:8;::Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices)) §<br>
+===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 # gender studies
@@ -2333,10 +2845,45 @@ Campbell divides the monomyth into these parts (chronologically):
 
 # biology
 
+## terminology
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::vascular))</td> <td>((c:2;::related to the flow of fluds))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
 ## nutrition
+
+### practices
+
+<br>---<br>
+  §§ ((c:1;::Veganism)) is the practice of ((c:2;::abstaining from the use of animal products)), particularly in ((c:3;::diet)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### institutions
 
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Abbreviation</th>
+      <th>Full</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::EAR))</td>
+      <td>((c:2;::Estimated Average Requirement))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::RDA))</td>
+      <td>((c:4;::Recommended Dietary Allowance))</td>
+    </tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 <br>---<br>
   §§ government organizations do not necessarily ((c:1;::always agree)) on the ((c:2;::amounts of nutrients)) needed to ((c:3;::avoid deficiency)) or ((c:4;::maximum amounts)) (however, ((c:5;::the ballpark is often similar)) §<br>
 §§ ((c:6;::RDAs)) are set higher than ((c:7;::EARs)) to ((c:8;::cover people with / situations where people have higher than average needs)). §<br>
@@ -2486,7 +3033,30 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 
 #### macro
 
-##### carbs
+##### food energy
+
+<br>---<br>
+  §§ ((c:4;::Food energy)) is ((c:5;::energy)) derived from ((c:6;::food)) §<br>
+§§ ((c:7;::Food energy)) is generally measured in ((c:8;::kilocalories)) §<br>
+§§ the ((c:9;::calorie)), in its proper definition, is ((c:10;::the amount of energy))&nbsp; ((c:11;::needed to raise the temperature of one gram of water by one Kelvin / deg C)) §<br>
+===<br>
+
+<br>---<br>
+Foods by food energy per mass:
+§§ 1. ((c:1;::fats)) §<br>
+§§ 2. ((c:2;::alcohol(ethanol))) §<br>
+§§ 3. ((c:3;::carbohydrates))/((c:3;::protein)) §<br>===<br>
+
+{{c1::calorie}} is also sometimes called {{c2::small calorie}}, {{c3::gram calorie}}
+{{c4::kilocalorie}} is also sometimes called {{c5::calorie (confusingly, and mainly in casual conversation)}} {{c6::large calorie}}, {{c7::food calorie}}
+
+<br>---<br>
+  §§ ((c:12;::calorie)) is also sometimes nonstandardly called ((c:13;::small calorie)), ((c:14;::gram calorie)) §<br>
+§§ ((c:15;::kilocalorie)) is also sometimes nonstandardly called ((c:16;::calorie (confusingly, and mainly in casual conversation))) ((c:17;::large calorie)), ((c:18;::food calorie)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
+
+###### carbs
 
 <br>---<br>
   §§ ((c:4;::Saccharide)) is as far as I know a synonym for ((c:5;::Carbohydrate)) §<br>
@@ -2494,7 +3064,7 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
-##### protein
+###### protein
 
 <br>---<br>
   §§ ((c:20;::Proteins)) are made up of ((c:21;::amino acids)) §<br>
@@ -2504,7 +3074,7 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
-##### fats
+###### fats
 
 <br>---<br>
   §§ ((c:1;::Fat)) consists of (is an ester of, whatever that means) ((c:2;::fatty acids)) §<br>
@@ -2520,13 +3090,13 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}</span>
 
-###### health
+####### health
 
 §§While the research is not completely settled, ((c:2;::saturated)) and ((c:2;::trans unsaturated fats)) are generally considered ((c:1;::unhealthy)) and ((c:2;::cis unsaturated fats)) considered ((c:1;::healthy))§<br>
 
-###### unsaturated
+####### unsaturated
 
-####### omega
+######## omega
 
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2539,7 +3109,7 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 <style>table{white-space: pre}</style>
 
-######## omega-3
+######### omega-3
 
 <br>---<br>
   §§There are three types of {{c17::omega-3}} fatty acids, {{c14::ALA}}, {{c15::EPA}}, and {{c16::DHA}}.§<br>
@@ -2590,6 +3160,23 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ##### vitamins
+
+<br>---<br>
+  §§ Theoretically, all ((c:1;::vitamins)) are defined to be ((c:2;::essential nutrients)), however ((c:3;::Vitamin D)) can be synthesized if ((c:4;::exposed to sunlight (specifically UVB rays))), and is thus ((c:5;::an exception)) §<br>
+§§ Most ((c:6;::vitamins)) are not ((c:7;::single molecules)), but ((c:8;::groups of related molecules)) which are each called ((c:9;::vitamers)) §<br>
+§§ Each ((c:10;::vitamin)) is typically used in ((c:11;::multiple reactions)), and therefore ((c:12;::most have multiple functions)). §<br>
+§§ ((c:13;::Vitamin B12)) is ((c:14;::the only)) vitamin or nutrient ((c:15;::not available from plant sources.)) §<br>
+===<br>
+<br>---<br>
+  §§ ((c:16;::Vitamins)) are generally categorized as either ((c:17;::water))- or ((c:18;::fat)) soluble §<br>
+§§ The ((c:19;::water-soluble vitamins (the 8 B vitamins and vitamin C))) are ((c:20;::easily excreted from the body)), thus generally ((c:21;::hypervitaminosis (if referring to high storage levels))) is not an issue, therefore, however, ((c:22;::consistent consumption is required)). §<br>
+§§ Of the ((c:23;::fat-soluble)) vitamins, ((c:24;::A)) and ((c:25;::D)) can ((c:26;::accumulate in the body to a dangerous level)), resulting in ((c:27;::hypervitaminosis)) §<br>
+§§ ((c:28;::Hypervitaminosis)) is a condition of abnormally high ((c:29;::storage levels (most of the time, although some sources also just use it for any overdose))) of ((c:30;::vitamins)) §<br>
+§§ In general, ((c:31;::excess intake)) of vitamins is ((c:32;::unlikely)) from ((c:33;::food sources)), but possible via ((c:34;::supplements)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}</span>
+
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -2689,7 +3276,22 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
+###### iodine
 
+<br>---<br>
+  §§ ((c:1;::Iodine)) ((c:2;::deficiency)) leads to many bad outcomes, many due to the fact that ((c:3;::iodine)) is necessary to ((c:4;::make one of the thyroid hormones (thyroxine))), lack of which leads to ((c:5;::high levels of thyroid stimulating hormone (TSH))), causing ((c:6;::the thyroid to swell)) §<br>
+§§ in many countries, ((c:7;::table salt)) is fortified with ((c:8;::iodine)) in the form of ((c:9;::iodine)) ((c:10;::salts)), which has proved effective at preventing ((c:11;::iodine)) ((c:12;::deficiency)) §<br>
+§§ In Deutschland kommen Iodverbindungen ((c:13;::in den Böden)) unverändert ((c:14;::in zu geringen Mengen vor)). Durch ((c:15;::die Iodierung von Speisesalz)) ist ((c:16;::der Iodmangel in Deutschland verringert worden)), dennoch besteht in Deutschland bei ((c:17;::36)) % der Bevölkerung ein ((c:18;::milder)) und bei ((c:19;::21)) % ein ((c:20;::moderater bis schwerer)) ((c:21;::Iodmangel)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
+
+##### choline
+
+Choline is a micronutrient that is neither a mineral nor a vitamin.
+<br>---<br>
+  §§ ((c:1;::Choline)) is available in what feels like ((c:2;::just about any food)), but is genrally highest in ((c:3;::animal products (meat/fish/dairy/eggs))), which is why it is sometimes said ((c:4;::vegans should pay some attention to it)) (prob not necessary tho). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ### food
 
@@ -2705,6 +3307,13 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
     <tr><td>((c:3;::hülsenfrucht))</td> <td>((c:4;::legume))</td></tr>
   </tbody>
 </table>
+
+#### seeds
+
+<br>---<br>
+  §§ ((c:1;::Flax)) (De: ((c:1;::Flachs))) and ((c:2;::Linseed)) (De: ((c:2;::Lein)) (z.B. ((c:2;::leinsamen)))) are ((c:3;::the same thing)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 #### vegetables
 
@@ -2785,6 +3394,44 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Name</th>
+    <th>Direction</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::dorsal))</td> <td>((c:2;::Towards the back (bodypart)))</td></tr>
+    <tr><td>((c:3;::ventral))</td> <td>((c:4;::Towards the belly))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>name</th>
+    <th>image</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::supine))</td> <td>((c:2;::<img src="Screenshot%202021-12-04%20at%2004.40.23.png">))</td></tr>
+<tr><td>((c:3;::prone))</td> <td>((c:4;::<img src="Screenshot%202021-12-04%20at%2004.40.18.png">))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
+((h:all;::<img src="sm_240px-Human-Hands-Front-Back.jpg">))<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description of side of hand</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::the dorsal side of the hand))</td><td>((c:2;::with knuckles etc.))</td>
+    </tr><tr><td>((c:3;::the palmar side of the hand))</td><td>((c:4;::the one that has your palm))</td>
+    </tr><tr><td>((c:5;::the ulnar side of the hand))</td><td>((c:6;::the side with your pinky finger))</td>
+  </tr></tbody>
+</table>
+
 ### regions
 
 <img src="body-regions-numbered.png">((h:all;::<img src="681px-Regions_of_Human_Body.jpg">))<table class="cloze-group hide-if-inactive">
@@ -2809,7 +3456,93 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 
 ### organs
 
-#### sexual
+#### sexual/reproductive
+
+##### 'male'
+
+###### map
+
+<div class="flex-container">((h:all;uh:15-26;::<img src="sm_male_anat_repr.svg">))</div>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Common Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>1</td> <td>bladder</td></tr>
+<tr><td>2</td> <td>pubic bone</td></tr>
+<tr><td>3</td> <td>penis</td></tr>
+<tr><td>4</td> <td>corpus cavernosum</td></tr>
+<tr><td>((c:22;::5))</td> <td>((c:26;::glans (penis)))</td> <td>((c:22;::the head of the penis))</td></tr>
+<tr><td>((c:21;::6))</td> <td>((c:25;::foreskin))</td></tr>
+<tr><td>((c:20;::7))</td> <td>((c:24;::urethral opening/external urethral orifice/urinary meatus))</td></tr>
+<tr><td>8</td> <td>sigmoid colon</td></tr>
+<tr><td>9</td> <td>rectum</td></tr>
+<tr><td>10</td> <td>seminal vesicle</td></tr>
+<tr><td>11</td> <td>ejacularory duct</td></tr>
+<tr><td>12</td> <td>prostate gland</td></tr>
+<tr><td>14</td> <td>anus</td></tr>
+<tr><td>15</td> <td>vas deferens</td></tr>
+<tr><td>((c:19;::16))</td> <td>((c:23;::epididymis))</td></tr>
+<tr><td>((c:18;::17))</td> <td>((c:16;::testis/testicle (synonyms)))</td> <td>((c:18;::balls))</td></tr>
+<tr><td>((c:17;::14))</td> <td>((c:15;::scrotum))</td> <td>((c:17;::ballsack))</td></tr>
+  </tbody>
+</table>
+<div class="flex-container">((h:all;uh:7-14;::<img src="sm_penis_underside.jpg">))</div>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Common Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:7;::1))</td>  <td>((c:11;::glans (penis) ))</td> <td>((c:7;::head of the penis))</td></tr>
+<tr><td>((c:8;::2))</td>  <td>((c:12;::corona of the glans penis ))</td> <td>((c:8;::lower border of the glans))</td></tr>
+<tr><td>((c:9;::3))</td>  <td>((c:13;::frenulum ))</td></tr>
+<tr><td>((c:10;::4))</td> <td>((c:14;::shaft ))</td></tr>
+  </tbody>
+</table>
+
+<div class="flex-container">((h:all;::<img src="urethra_view_side_3.jpg">))</div>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>1</td> <td>prostatic urethra</td></tr>
+<tr><td>2</td> <td>membranous urethra</td></tr>
+<tr><td>3</td> <td>bulbar urethra</td></tr>
+<tr><td>4</td> <td>penile urethra</td></tr>
+<tr><td>5</td> <td>fossa navicularis</td></tr>
+  </tbody>
+</table>
+
+<div class="flex-container">((h:all;::<img src="sm_194px-Epididymis-KDS.jpg">))</div>
+
+<br>---<br>
+§§ The ((c:1;::Epididymis)) are the ((c:2;::highly coiled)) ((c:6;::bumpy))-feeling ((c:3;::tubes)) connecting ((c:4;::the testes)) to ((c:5;::the rest of the male reproductive system)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}</span>
+
+###### testicular self-examination
+
+<br>---<br>
+  §§ General medical advice is to self-examine ((c:1;::one's testicles)) ((c:2;::once a month)) to check for ((c:3;::testicular cancer.)) §<br>
+§§ When ((c:4;::self-examining ones testicles,)) the two parts are to ((c:5;::feel them once-over)) and to ((c:6;::measure them)). §<br>
+§§ When measuring your testicles, having ((c:7;::one testicle be larger than the other)) is ((c:8;::normal)), what you want to look out for is ((c:9;::size changes diachronically)). §<br>
+§§ When ((c:10;::feeling your testicles)), you're feeling for ((c:11;::lumps/bumps or similar)), representing ((c:12;::possible tumors)). Generally, these are ((c:13;::painless)), though ((c:14;::a dull soreness)) in ((c:15;::your whole testicles)) is also ((c:16;::something to keep an eye out for)). §<br>
+§§ If you f((c:17;::ind  something unusal)) during testicular self-examination, ((c:18;::consult with your doctor)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}</span>
 
 ##### 'female'
 
@@ -2931,6 +3664,36 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 #### sense
 
 ##### eyes
+
+###### diagram
+
+<img src="Schematic_diagram_of_the_human_eye.svg"><br><table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>No.</th>
+    <th>Name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::1))</td> <td>((c:2;::lens))</td></tr>
+<tr><td>((c:3;::2))</td> <td>((c:4;::suspensory ligament))</td></tr>
+<tr><td>((c:5;::3))</td> <td>((c:6;::posterior chamber and))</td></tr>
+<tr><td>((c:7;::4))</td> <td>((c:8;::anterior chamber (filled with aqueous humour)))</td></tr>
+<tr><td>((c:9;::5))</td> <td>((c:10;::cornea))</td></tr>
+<tr><td>((c:11;::6))</td> <td>((c:12;::pupil))</td></tr>
+<tr><td>((c:13;::7))</td> <td>((c:14;::iris))</td></tr>
+<tr><td>((c:15;::8))</td> <td>((c:16;::Ciliary body))</td></tr>
+<tr><td>((c:17;::9))</td> <td>((c:18;::choroid))</td></tr>
+<tr><td>((c:19;::10))</td> <td>((c:20;::sclera))</td></tr>
+<tr><td>((c:21;::11))</td> <td>((c:22;::retina))</td></tr>
+<tr><td>((c:23;::12))</td> <td>((c:24;::fovea))</td></tr>
+<tr><td>((c:25;::13))</td> <td>((c:26;::optic disc))</td></tr>
+<tr><td>((c:27;::14))</td> <td>((c:28;::optic nerve))</td></tr>
+<tr><td>((c:29;::15))</td> <td>((c:30;::vitreous humour))</td></tr>
+<tr><td>((c:31;::16))</td> <td>((c:32;::Fovea))</td></tr>
+<tr><td>((c:33;::17))</td> <td>((c:34;::Optic disc))</td></tr>
+<tr><td>((c:35;::18))</td> <td>((c:36;::Optic nerve))</td></tr>
+<tr><td>((c:37;::19))</td> <td>((c:38;::Retinal blood vessels))</td></tr>
+  </tbody>
+</table>
 
 ###### constituent parts
 
@@ -3063,6 +3826,16 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
+###### retina
+
+<br>---<br>
+  §§ ((c:1;::The macula)) is an are of ((c:2;::the retina)). §<br>
+§§ ((c:3;::The macula)) is the area of the eye/retina that is responsible for ((c:4;::generally/kinda sharp central vision)). §<br>
+§§ ((c:5;::Within)) ((c:6;::the macula)) lies ((c:7;::the fovea)), which is the area that is responsible for ((c:8;::the most sharp central vision.)) §<br>
+§§ The ((c:9;::larger)) area ((c:10;::around the fovea)) is ((c:11;::the macula)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ###### photoreceptor cells
 
 <br>---<br>
@@ -3113,6 +3886,23 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 §§ If our eye fails at ((c:15;::doing smooth pursuit eye movements)), it needs to do ((c:16;::catch-up saccades)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
+
+###### FOV
+
+((h:all;::<img src="sm_220px-Vertical_FOV.svg.png">))
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>FOV</th>
+    <th>deg</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::human vertical FOV))</td> <td>((c:2;::~130 - 150 deg))</td></tr>
+<tr><td>((c:3;::human horizontal FOV))</td> <td>((c:4;::~210 deg))</td></tr>
+<tr><td>((c:5;::human horizontal binocular FOV))</td> <td>((c:6;::~120 deg))</td></tr>
+    <tr><td>((c:7;::foveal FOV))</td> <td>((c:8;::~ 2 deg))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 #### digestive
 
@@ -3198,11 +3988,43 @@ https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pres
 </div>
 </div
 
+##### thrombi
+
+<br>---<br>
+  §§ What we call ((c:3;::a blood clot)) is more properly called ((c:4;::thrombus)). §<br>
+§§ ((c:2;::Thrombosis)) is the formation of ((c:12;::a thrombus)) ((c:1;::inside a blood vessel)) that ((c:5;::obstructs the flow of blood)). §<br>
+§§ If ((c:7;::the thrombus then breaks free)), it becomes an ((c:8;::embolus)). §<br>
+§§ if ((c:13;::a thrombus)), after ((c:14;::breaking free and becoming an embolus)) ((c:9;::get lodged again)), that is a form ((c:10;::embolism)), specifically a ((s:10;::((c:11;::thromboembolism)))). §<br>
+§§ Based on where they occur, ((c:15;::thromboses)) are classified into ((c:6;::venous)) and ((c:6;::arterial)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
+
+###### thromboses
+
+<br>---<br>
+  §§ ((c:3;::Thromboses)) most often occur in ((c:2;::the veins)) of ((c:1;::the legs)), other bodyparts are ((c:4;::affected far more rarely)). §<br>
+§§ If you have a ((c:5;::thrombosis)), your limb, esp. your leg, will often become some of the following:&nbsp; ((c:7;::swollen::size)), ((c:8;::turn red or blue::color)), ((c:9;::have more visible veins::appearance of thing)), ((c:10;::be shiny due to taut::surface appearance)), ((c:11;::may feel more heavy::feeling)), ((c:12;::be warmer::feeling)), and ((c:13;::hurt quite severely, especially while stepping::pain)). §<br>
+§§ ((c:6;::Thromboses)) are often caused by ((c:14;::not moving that bodypart for a while)), e.g. ((c:15;::because of an illness that prevents it)) §<br>
+If ((c:17;::a thrombus blocks the blood vessel completely)), ((c:16;::the surrounding tissue will start to die)).
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
+
 ##### emboli
 
 §§ An ((c:1;::embolus)) is ((c:2;::some kind of foreign object)) (amongst others: ((s:1-2;::((c:3;::thrombi)), ((c:4;::fat globules, gas bubbles, cholesterol plaque/crystals)))) ) that ((c:5;::travels through the bloodstream)). §<br>
 §§ If an ((c:11;::embolus)) ((c:6;::gets lodged)) and thus ((s:6;::((c:7;::blocks a blood vessel)))), this is known as an ((c:8;::embolism)). ((s:6-8;::If it's ((c:9;::a thrombus)) that ((c:9;::gets lodged)), it is known as a ((c:10;::thromboembolism)).)) §<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+###### pulmonary embolism
+
+<br>---<br>
+  §§ The ((c:1;::severity of the effects)) of ((c:2;::an embolism)) vary based on ((c:3;::location (in the body))). §<br>
+§§ One of ((c:4;::the most severe types)) of embolism is ((c:5;::pulmonary embolism)), i.e. ((c:6;::embolism in the lungs)). §<br>
+§§ If ((c:7;::a pulmonary embolism)) ((c:8;::is caused by thrombosis)) (as is ((c:9;::common))), it is known as ((c:10;::a pulmonary thromboembolism)). §<br>
+§§ On average, the risk of experiencing a ((c:11;::pulmonary embolism)) is ((c:12;::0.1% in one year)), the ((c:13;::mortality)) is ((c:14;::10%)). It ((c:15;::gets more common)) with ((c:15;::age)). §<br>
+§§ ((c:16;::Pulmonary embolisms)) produce the symptoms of ((c:17;::rapid)) ((c:18;::breathing)) and ((c:18;::heartrate)), ((c:19;::general malaise/a light fever)), ((c:20;::shortness of breath)), ((c:21;::chest pain)), ((c:22;::coughing blood)) and up to ((c:23;::passing out.)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 ### muscles
 
@@ -3303,9 +4125,108 @@ https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pres
 §§((c:16;::Extension)) is ((c:17;::movement)) that ((c:18;::increases the angle between)) ((c:19;::things connecting at a joint (or similar point))).§<br>˛
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}</span>
 
+### nerves
+
+#### dermatomes
+
+<img class="all-b c1-f" src="sm_554px-Grant_1962_663.jpg"><br><br>---<br>
+  §§ ((c:1;::Dermatomes)) schematically might look like ((c:2;::&lt;image&gt;)) §<br>
+§§ Each ((c:3;::dermatome)) is 'served' by ((c:4;::a single spinal nerve)). §<br>
+§§ Your body has ((c:5;::30)) ((c:6;::dermatomes)). §<br>
+§§ In your ((c:7;::limbs)), ((c:8;::dermatomes)) run ((c:9;::vertically)). §<br>
+§§ In your ((c:10;::torso)), ((c:11;::dermatomes)) run ((c:12;::horizontally)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
+
+### alignment
+
+#### pelvic tilt
+
+((h:all;::<img src="sm_Untitled-design-25-e1568868179256.jpg">))
+<br/><table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Bodypart</th>
+      <th>APT symptom</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::butt))</td> <td>((c:4;::stick out back))</td></tr>
+<tr><td>((c:2;::abdomen))</td> <td>((c:5;::stick out in front))</td></tr>
+<tr><td>((c:3;::spine))</td> <td>((c:6;::excessively arched))</td></tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <tbody>
+  <tr><td colspan="3"><img src="Screenshot%202021-12-04%20at%2004.59.57.png"></td></tr>
+    <tr><td>((c:7;::neutral pelvis))</td> <td>((c:8;::anterior pelvic tilt))</td> <td>((c:9;::posterior pelvic tilt))</td></tr>
+  </tbody>
+  
+</table>
+
+<br>---<br>
+  §§ An ((c:19;::'ideal' pelvic tilt)) is ((c:20;::very slightly anterior (5° or so))) §<br>
+§§ When ((c:21;::sitting)) or ((c:21;::standing)) with ((c:22;::APT)), ((c:23;::engage)) the ((c:24;::glutes)) and the ((c:24;::core)). You can test this by ((c:25;::poking yourself with a finger.)) §<br>
+§§ When ((c:26;::combatting APT by engaging your glutes and core)), you are trying to ((c:27;::distribute some of the laod to your abs and glutes.)) §<br>
+===<br>
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th>Status</th>
+      <th colspan="3">Affected muscles</th>
+      <th>action</th>
+    </tr>
+  </thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:10;::Weak))</td> <td>((c:11;::abdominals))</td> <td>((c:12;::glutes))</td><td></td> <td>((c:13;::stretch them))</td></tr>
+<tr><td>((c:14;::Tight))</td> <td>((c:15;::hip flexors/quads))</td> <td>((c:16;::erector spinae))</td> <td>((c:17;::hamstrings))</td> <td>((c:18;::strengthen them))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
+
 ## beings
 
+### traits
+
+#### sex
+
+##### intersex
+
+<br>---<br>
+  §§ ((c:9;::Intersex)) people are have ((c:10;::a range of different variations)) that "((c:11;::do not fit the typical definitions for male or female bodies))" §<br>
+§§ ((c:5;::Depending on how you count)), ((c:6;::0.02))% - ((c:7;::2))% of people are ((c:8;::intersex)) §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>sex (and species)</th>
+    <th>sex chromosomes</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::human females))</td> <td>((c:2;::XX))</td></tr>
+<tr><td>((c:3;::human males))</td> <td>((c:4;::XY))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
 ### animals
+
+#### horses
+
+##### horse-human face-attached interfaces
+
+<thead>
+  <tr>
+    <th>Item</th>
+    <th>Function</th>
+  </tr>
+</thead>
+<tbody class="cloze-group-children hide-if-inactive-children">
+  <tr><td>((c:1;::Halter))</td><td>((c:2;::Leading a horse while walking))</td></tr>
+  <tr><td>((c:3;::Bridle))</td><td>((c:4;::Controlling a horse while riding))</td></tr>
+</tbody>
+</table>
 
 ## genetics
 
@@ -3337,6 +4258,25 @@ https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pres
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
+### signs and symptoms
+
+((h:all;::<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">))<br>---<br>
+  §§ The difference between {{c6::signs}} and {{c6::symptoms}} is  {{c5::how they are perceptible}} §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:1;::sign))</td>
+      <td>((c:2;::observable to others (not just the patient)))</td>
+    </tr>
+    <tr>
+      <td>((c:3;::symptom))</td>
+      <td>((c:4;::observable to the patent only))</td>
+    </tr>
+  </tbody>
+</table>
+
 ### diseases
 
 A disease is some sort of disruption of regular functions with recgonizable signs and symptoms with a specific, known process in the body which is the cause.
@@ -3358,6 +4298,27 @@ A disease is some sort of disruption of regular functions with recgonizable sign
 Physiologically, {{c4::benign paroxysmal positional vertigo}} is caused by {{c5::dislocated crystals in the ear,}} however {{c6::the ultimate cause is often not clear}}.
 {{c7::Benign paroxysmal positional vertigo}} is more common in {{c8::the elderly}} and {{c9::women}}, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
 {{c12::Benign paroxysmal positional vertigo}} is often treated with {{c13::specific exercises}}.
+
+#### by varicella-zoster
+
+((h:all;::<img src="sm_87316209681.jpg">))
+((h:all;::<img src="sm_300px-Herpes_zoster_neck.jpg">))
+((h:all;::<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">))§§ ((c:1;::Chickenpox)) is then english term for ((c:2;::Windpocken)) §<br>
+§§ ((c:3;::Herpes Zoster))  is the scientific term for ((c:4;::Shingles)), in german it is called ((c:5;::Gürtelrose)) §<br>
+§§ ((c:6;::Varicella-zoster virus))  causees ((c:7;::Chickenpox, Shingles)) §<br>
+§§ ((c:8;::After Chickenpox has healed)), often ((c:9;::the varicella-zoster virus)) ((c:10;::retreats into the nerves near the spine.)) §<br>
+§§ In general, one can have Chickenpox ((c:11;::once only)). §<br>
+§§ ((c:12;::Shingles)) is ((c:13;::a re-outbreak of the varicella-zoster virus)). §<br>
+§§ The risk factors for ((c:14;::shingles)) are ((c:15;::weakened immune system, age, stress)). §<br>
+§§ ((c:16;::Shingles)) can be prevented via ((c:17;::the shingles vaccine, of which the longest-lasting one is Shingrix)). §<br>
+§§ The main sign of ((c:18;::shingles)) is ((c:19;::a group of small blisters)) on ((c:20;::one side of the body)) within ((c:21;::a single dermatome)). §<br>
+§§ The ((c:22;::blisters of shingles)) can be ((c:23;::quite painful)), ((c:24;::itch)), and also ((c:25;::cause hyperesthesia (oversensitivity))). §<br>
+§§ ((c:27;::One of the first symptoms)) of ((c:26;::shingles)) is ((c:28;::general malaise/sick fealing)). §<br>
+§§ If you have {{c29::shingles (herpes zoster),}{{c30::} contact with the blisters}} ((c:31;::spreads the varicella-zoster virus)), but ((c:32;::will of course cause chickenpox, not shingles)). §<br>
+§§ The main risks of ((c:33;::shingles)) is if ((c:34;::it occurs near sense organs)), or that ((c:35;::it causes neuralgia)). §<br>
+§§ To ((c:36;::prevent neuralgia)), shingles is treated with ((c:37;::painkillers)). §<br>
+§§ During a ((c:38;::shingles)) infection, ((c:39;::stress)) and ((c:40;::physical activity)) should be avoided. §<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}</span>
 
 ### disorder
 
@@ -3409,6 +4370,23 @@ A syndrome is some sort of disruption of regular functions with recgonizable sig
 #### referred pain
 
 {{c1::referred pain}} is pain {{c2::felt somewhere else than the site of the stimulus}}.
+
+### errors & lies
+
+#### misleading
+
+<br>---<br>
+  §§ ((c:1;::Dissimulation)) is a word meaning  ((c:2;::concealment of one's thoughts, feelings, or character; pretence)), but may more specifically mean ((c:3;::hiding an illness to appear healthy (e.g. to be allowed to go on a class trip))) §<br>
+§§ ((c:4;::Malinger)) is ((c:5;::feigning illness)) to ((c:6;::achieve a desired outcome)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
+### first aid
+
+((h:all;::<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">))<br>---<br>
+  §§ Beim Prüfen des Bewusstseins zuerst ((c:1;::deutlich)) ((c:2;::Ansprechen)), dann ((c:1;::vorsichtig)) ((c:3;::an den Schultern rütteln)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 # cleaning
 
@@ -3779,6 +4757,16 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
+## flags
+
+<table>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::<img src="Transgender_Pride_flag.svg">))</td> <td>((c:2;::The transgender pride flag))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}</span>
+
+
 # religion
 
 ## religious studies
@@ -3827,6 +4815,57 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 
 ## structural system
 
+### isms
+
+
+<table>
+  <thead>
+    <tr>
+      <th>ism</th>
+      <th></th>
+      <th>additional constraints</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::Adultism))</td> <td>+:((c:11;::adult)), -:((c:11;::child))</td></tr>
+<tr><td>((c:2;::Carnism))</td> <td>+:((c:12;::using animals, esp. meat)), -:((c:12;::not using animals/eating meat))</td></tr>
+<tr><td>((c:3;::Cissexism))</td> <td>+:((c:13;::cisgender)), -:((c:13;::transgender (or other noncisgender)))</td></tr>
+<tr><td>((c:4;::Heightism))</td> <td>+:((c:14;::tall (to a point))), -:((c:14;::short))</td><td>   for ((c:21;::men)))</td></tr>
+<tr><td>((c:5;::Heightism))</td> <td>+:((c:15;::short (to a point))), -:((c:15;::tall))(but generally less strong)</td><td>(for ((c:22;::women)))</td></tr>
+<tr><td>((c:6;::Heterosexism))</td> <td>+:((c:16;::heterosexual)), -:((c:16;::non-heterosexual))</td></tr>
+<tr><td>((c:7;::Sexism))</td> <td>+:((c:17;::masculinity)), -:((c:17;::femininity))</td><td>it's a little different ((c:58;s:7,17;::in that here the words patriarchy and misogyny also exist, cashed out e.g. by Manne))</td></tr>
+<tr><td>((c:8;::Speiciesism))</td> <td>+:((c:18;::a certain species (generally humans))), -:((c:18;::other species))</td></tr>
+<tr><td>((c:9;::Weightism))</td> <td>+:((c:19;::thin)), -:((c:19;::fat))</td></tr>
+<tr><td>((c:10;::Allosexism))</td> <td>+:((c:20;::allosexual)), -:((c:20;::asexual spectrum))</td></tr>
+    <tr><td>((c:23;::Homelessnessism))</td> <td>+:((c:24;::homeful)), -:((c:24;::homeless))</td></tr>
+    <tr><td>((c:25;::Monogamism))</td> <td>+:((c:26;::monogamous)), -:((c:26;::nonmonogamous))</td></tr>
+    <tr><td>((c:27;::handism))</td> <td>((c:28;:: +: left-handed, -: right-handed))</td></tr>
+<tr><td>((c:29;::ableism))</td> <td>((c:30;::+:being able/non-disabled (less focus: -:being disabled)))</td></tr>
+<tr><td>((c:31;::ageism))</td> <td>((c:32;::+: adult, -: either old or non-adult young))</td></tr>
+<tr><td>((c:33;::disablism ))</td> <td>((c:34;::-:being disabled (less focus: +:being able/non-disabled)))</td></tr>
+<tr><td>((c:35;::classism))</td> <td>((c:36;::+: upper class, -: lower class))</td></tr>
+<tr><td>((c:37;::colorism))</td> <td>((c:38;::+: lighter skin, -: darker skin))</td></tr>
+<tr><td>((c:39;::sizeism))</td> <td>((c:40;::may refer to heightism or weightism))</td></tr>
+    <tr><td>((c:41;::nativism))</td> <td>((c:42;::+:native-born inhabitants, -:non-native people, immigrants))</td> <td>((s:41,42;::Often, ((c:43;::what is native and what is not)) may be ((c:56;::shifted)) and is ((c:57;::correlated with racism))))</td></tr>
+<tr><td>((c:44;::Orientalism))</td> <td>((c:45;::+:occidental, -:oriental))</td> <td>((c:46;::Coined by Said in 1978, large focus on this on a way of seeing))</td></tr>
+<tr><td>((c:47;::workism))</td> <td>((c:48;::+:work, working, -:not working))</td> <td>Alternate (original) definition: ((c:49;s:47,48;::Work is the centerpiece of ones life, and the epitome of human wellfare))</td></tr>
+<tr><td>((c:50;::rankism))</td> <td>((c:51;::+:higher rank, -:lower rank))</td> <td>((s:50,51;::Popularized by ((c:52;::Fuller)), who terms ((c:55;::+ people somebodies and - people nobodies))))</td></tr>
+<tr><td>((c:53;::sanism (or mentalism)))</td> <td>((c:54;::+:sane, -:neurodiversity/mental illness))</td></tr>
+    <tr><td>((c:55;::personlityism))</td> <td>((c:56;::+:extroverted, -:interverted))</td></tr>
+<tr><td>((c:57;::kinkism))</td> <td>((c:58;::+:vanilla, -:kinky))</td></tr>
+    <tr><td>((c:59;::linguicism))</td> <td>((c:60;::+:certain speech use (generally standard language), -:other speech use (generally dialects, etc.)))</td></tr>
+    </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}</span>
+
+### archy miso ism
+
+<br>---<br>
+  §§ Philosopher ((c:1;::Kate Manne)) in her book "((c:2;::Down Girl))" (((c:5;::2017))) provides the most popular ((c:4;::differentiation between)) ((c:3;::sexism)), ((c:3;::patriarchy)) and ((c:3;::misogyny)) §<br>
+§§ Kate Manne, Down Girl: ((c:5;::Patriarchy)) is ((c:8;::the power structure)) that ((c:9;::is justified by)) ((c:10;::the ideology)) of ((c:5;::sexism)) and ((c:6;::enforced by)) ((c:7;::the law enforcement arm)), ((c:5;::misogyny)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
+
 ### + 
 
 #### normativity
@@ -3870,6 +4909,34 @@ x normativity normalizes the + of the relevant ism
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ### -
+
+#### phobia
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>phobia</th>
+    <th>against</th>
+    <th>aspect of ism</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:1;::Biphobia))</td> <td>((c:2;s:all;us:1;::bisexual people))</td> <td>((c:3;s:all;us:1;::heterosexism))</td></tr>
+<tr><td>((c:4;::Ephebiphobia))</td> <td>((c:5;s:all;us:4;::young people, esp. adolescents))</td> <td>((c:6;s:all;us:4;::ageism, adultism))</td></tr>
+<tr><td>((c:7;::Homophobia))</td> <td>((c:8;s:all;us:7;::LGBT people))</td> <td>((c:9;s:all;us:7;::heterosexism))</td></tr>
+<tr><td>((c:10;::aphobia))</td> <td>((c:11;s:all;us:10;::a-spec people))</td> <td>((c:12;s:all;us:10;::doesn't seem to exist yet))</td></tr>
+<tr><td>((c:13;::arophobia))</td> <td>((c:14;s:all;us:13;::aromantic people))</td> <td>((c:15;s:all;us:13;::doesn't seem to exist yet))</td></tr>
+<tr><td>((c:16;::acephobia))</td> <td>((c:17;s:all;us:16;::asexual people))</td> <td>((c:18;s:all;us:16;::alloexism))</td></tr>
+<tr><td>((c:19;::gayphobia))</td> <td>((c:20;s:all;us:19;::gay people))</td> <td>((c:21;s:all;us:19;::heterosexism))</td></tr>
+<tr><td>((c:22;::lesbophobia))</td> <td>((c:23;s:all;us:22;::lesbian people))</td> <td>((c:24;s:all;us:22;::heterosexism))</td></tr>
+<tr><td>((c:25;::Xenophobia))</td> <td>((c:26;s:all;us:25;::the foregin, esp. foreginers (in relation to the state)))</td> <td>((c:27;s:all;us:25;::nativism))</td></tr>
+<tr><td>((c:28;::Gerontophobia))</td> <td>((c:29;s:all;us:28;::the elderly))</td> <td>((c:30;s:all;us:28;::ageism))</td></tr>
+<tr><td>((c:31;::Whorephobia))</td> <td>((c:32;s:all;us:31;::sex workers))</td> <td>((c:33;s:all;us:31;::sexworksim(???)))</td></tr>
+<tr><td>((c:34;::transphobia))</td> <td>((c:35;s:all;us:34;::trans people))</td> <td>((c:36;s:all;us:34;::transsexism))</td></tr>
+<tr><td>((c:37;::slavophobia))</td> <td>((c:38;s:all;us:37;::slavic people))</td> <td>((c:39;s:all;us:37;::xenophobia, racism))</td></tr>
+<tr><td>((c:40;::vegaphobia))</td> <td>((c:41;s:all;us:40;::vegan people))</td> <td>((c:42;s:all;us:40;::carnism))</td></tr>
+<tr><td>((c:43;::glottophobia))</td> <td>((c:44;s:all;us:43;::certain groups of language users))</td> <td>((c:45;s:all;us:43;::linguicism))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}))</span>
 
 #### chasers
 
@@ -3918,6 +4985,9 @@ Importantly, the cotton ceiling is the exclusion of trans people from considerat
 #### culture
 
 x culture, where x is an aspect of the - experience is the pervasiveness and normalization of x.
+x culture often gives rise to victim-blaming.
+
+similarly but slightly differently, ((c:1;::Car culture)) (when it doesn't just mean ((c:2;::an appreciation for cars))) refers to ((c:3;::a culture/environment/society which is designed for and around cars.))
 
 #### victim-blaming
 
@@ -3935,6 +5005,128 @@ Victim blaming is common when someone has been victim of violence based on one's
 §§ ((c:17;::Tripple oppression)) is a term developed originally by ((c:18;::black socialists in the US)), which refers to (in our modern terminolgy) ((c:19;::the intersectional experience)) of ((c:20;::black women)) at the nexus of ((c:20;::classism, racism, and sexism)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
+
+## specific isms
+
+### racism
+
+#### school to prison pipeline 
+
+the ((c:1;::school-to-prison pipeline)) in one definition is the ((c:7;::disproportionate tendency)) of minors and young adults from ((c:5;::disadvantaged backgrounds)) (generally ((c:5;::race))-related) to ((c:6;::become incarcerated)), often due to ((c:2;::educational discrimination)). §
+§§ the ((c:9;::school-to-prison pipeline)) may also reference the effects of ((c:3;::a slew of policies)) to ((c:8;::make school more 'tough on crime'/prison-like)). §
+§§ Often the ((c:10;::school-to-prison pipeline)) refers to both ((c:4;::the schools-as-prisons)) and ((c:11;::the generally race-related educational discrimination)) that ((c:12;::makes children more likely to end up in prison.)) §
+{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}
+
+### sanism 
+
+<br>---<br>
+  §§ ((c:1;::Serious mental illnesses (shizophrenia, depression, the like))) ((c:2;::reduce life expectancy)) by ((c:3;::10~20 years)). We should take this with a dose of ((c:4;::correlation/causation)) salt, but this might be in part an effect of ((c:5;::sanism)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+### (dis)ablism
+
+#### inspiration porn
+
+<br>---<br>
+  §§ ((c:1;::Inspiration porn)) is the portrayal of ((c:4;::people with disabilities)) as ((c:2;::inspirational)) solely or in part on the basis ((c:3;::of their disability)). We should probably consider it a form of ((c:5;::(dis)ablism)). §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## other associated concepts
+
+### Elaine Scarry, The Body In Pain
+
+> §§ ((c:1;::To have great pain)) ((c:2;::is to have certainty)). ((c:3;::To hear that another person has pain)) ((c:4;::is to have doubt.)) §<br>
+
+### a boring dystipia
+
+((h:all;::<img src="Db82H6jV4AELsCZ.jpg">))((h:all;::<img src="Db82JRwV4AEyXHz.jpg">))((h:all;::<img src="Db82VUTVwAAiW7m.jpg">))
+<br>---<br>
+  §§ Mark Fisher coined the term "((c:1;::a boring dystopia))" to describe the situation of the 21st-century where ((c:2;::the casual perversity)) of ((c:3;::capitalism)) ((c:4;::isn't even interesting enough to get outraged)). §<br>
+===<br>
+
+### x work/x-al labor
+
+<br>---<br>
+  §§ ((c:27;::Hochschild)) coined the terms ((c:28;::emotion work/emotional labor)). §<br>
+§§ On ((c:29;::the model of)) emotion work/emotional labor, other ((c:30;::more or less common terms have been coined)). §<br>
+§§ While ((c:33;::some people)) treat ((c:31;::emotion/x work and emotional/x-al labor)) as ((c:32;::synonyms)), there is ((c:32;::a clear distinction)). §<br>
+===<br>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr>
+      <th></th>
+      <th>value</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td>((c:16;::x work, e.g. emotion work))</td>
+      <td>((c:17;::use value only))</td>
+      <td>((c:18;s:16-17;::part of a job))</td>
+    </tr>
+    <tr>
+      <td>((c:19;::x-al labor, e.g. emotional labor))</td>
+      <td>((c:20;::use value and exchange value))</td>
+      <td>((c:21;s:19-20;::in an intimate relationship))</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>type of work/labor</th>
+    <th>involves</th>
+      <th>example</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::emotion work/emotional labor))</td> <td>((c:2;::managing our own emotions)) (Hochschild (complementary but not equivalent): "((c:12;::creating a publically observable display))")</td> <td>((c:3;s:gb;::a waiter gets insulted, goes through a ritual in his head and still appears friendly))</td></tr>
+<tr><td>((c:4;::empathy work/empathical labor))</td> <td>((c:5;::creating the feeling of being understood in others))</td></tr>
+<tr><td>((c:6;::conversation work/conversational labor))</td> <td>((c:7;::maintaining a conversation (if it has a purpose that both parties subscribe to)))</td> <td>((c:8;s:gb;::a person tries hard to come up with relevant topics and questions during a date/a meeting with a long-lost relative))</td></tr>
+<tr><td>((c:9;::interpretion work/interpretive labor))</td> <td>((c:10;::modelling the others perspective))</td> <td>((c:11;s:gb;::A person gets handed a form with an ambiguous question and tries to understand what the institution wants from them.))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
+
+<br>---<br>
+§§ The two strategies people use in performing ((c:13;::emotion work/labor (not sure in how far it applies to the family of similar concepts)) are  ((c:14;::surface acting and deep acting)) §<br>
+§§ ((c:12;::emotion work/labor)) by ((c:15;::getting into a state where one genuinely feels the emotions)) is called ((c:21;::deep acting)) §<br>
+§§ ((c:22;::emotion work/labor )) by ((c:23;::pretending, without changing how one actually feels)) is called ((c:24;::surface acting)) §<br>
+===<br>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span>
+
+# academia
+
+## humanities
+
+### digital
+
+<br>---<br>
+  §§ the ((c:1;::application of computational technologies/digital resources)) in ((c:2;::the humanities)) is known as ((c:3;::digital humanities)) §<br>
+§§ ((c:4;::digital history)) is ((c:5;::the intersection of history and digital humanities)) (While a bunch of theorists have complaints about this definition, I think it's the only sensible one) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+## year of study
+
+<table class="cloze-group hide-if-inactive">
+  <thead>
+    <tr><th>Year of study</th>
+    <th>Name</th>
+  </tr></thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr><td>((c:1;::4th year of study))</td> <td>((c:2;::Senior))</td></tr>
+    <tr><td>((c:3;::3nd year of study))</td> <td>((c:4;::Junior))</td></tr>
+<tr><td>((c:5;::2nd year of study))</td> <td>((c:6;::Sophomore))</td></tr>
+<tr><td>((c:7;::1st year of study))</td> <td>((c:8;::Freshman))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
 
 # theatre
 
@@ -7189,6 +8381,13 @@ Alexander Hamilton
 
 # misc
 
+## mental masturbation
+
+<br>---<br>
+  §§ ((c:1;::mental masturbation)) is ((c:2;::intellectually stimulating activity)) (or sometimes just ((c:2;::any thoughts))) that serves ((c:3;::no practical purpose)) or ((c:4;::only to satisfy oneself)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
+
 ## thread postural technique
 
 <br>---<br>
@@ -7232,3 +8431,8 @@ Alexander Hamilton
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<br>---<br>
+  §§ Something ((c:1;::phallic)) is ((c:3;::shaped like)) or ((c:3;::otherwise like)) a ((c:2;::penis)), something ((c:4;::yonic)) is ((c:5;::shaped like)) or ((c:5;::otherwise like)) a ((c:6;::vagina)) §<br>
+===<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>

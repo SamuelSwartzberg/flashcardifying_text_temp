@@ -863,6 +863,11 @@ The description "Polish" refers to the nationality of logician Jan Łukasiewicz,
 
 # probability
 
+## dice
+
+§§A ((c:1;::natural x)) (e.g. ((c:2;s:1,4-6;::natural 1, natural 20)) ) is a ((c:3;::roll)) that ((c:4;::has a specific number)) (most commonly ((c:5;s:4;::the highest/lowest of the die)) ) ((c:6;::without any modifiers)).§<br>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+
 ## terminology
 
 A variable may be coninous or discrete.
