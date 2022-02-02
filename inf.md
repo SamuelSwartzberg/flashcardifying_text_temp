@@ -53,14 +53,9 @@ the {{c19::XML declaration}}  is {{c3::optional}}, {{c3::but if it appears}}, it
 the {{c20::XML declaration}} takes {{c5::three}} parameters:
 <div class="c1-5-scr c12-18-scr">
  <table>
-  <tbody><tr>
-    <td>`{{c6::version}}`|{{c9::The XML version the document is using}}</td>
-  </tr>
-  <tr>
-    <td>`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
-  </tr>
-  <tr>
-    <td>`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}</td>
+  <tbody>`{{c6::version}}`|{{c9::The XML version the document is using}}</td>
+  </tr>`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
+  </tr>`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}</td>
   </tr>
   </tbody>
   </table>
@@ -168,27 +163,13 @@ Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 
 <table>
-<tbody>
-<tr>
-<td>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content</td>
-</tr>
-<tr>
-<td>⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL</td>
-</tr>
-<tr>
-<td>⟮c:5;loop⟯|⟮c:10;will loop/loop⟯|IDL & Content</td>
-</tr>
-<tr>
-<td>⟮c:5;controls⟯|⟮c:10;is showing controls/show controls⟯|IDL & Content</td>
-</tr>
-<tr>
-<td>⟮c:5;autoplay⟯|⟮c:10;will autoplay/enable autoplay⟯|IDL & Content</td>
-</tr>
-<tr>
-<td>⟮c:4;ended⟯|⟮c:9;Indicates whether it has finished playing⟯|IDL</td>
-</tr>
-<tr>
-<td>⟮c:6;playbackRate⟯|⟮c:11;Represents the speed at which the thing is playing⟯|IDL</td>
+<tbody>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content</td>
+</tr>⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL</td>
+</tr>⟮c:5;loop⟯|⟮c:10;will loop/loop⟯|IDL & Content</td>
+</tr>⟮c:5;controls⟯|⟮c:10;is showing controls/show controls⟯|IDL & Content</td>
+</tr>⟮c:5;autoplay⟯|⟮c:10;will autoplay/enable autoplay⟯|IDL & Content</td>
+</tr>⟮c:4;ended⟯|⟮c:9;Indicates whether it has finished playing⟯|IDL</td>
+</tr>⟮c:6;playbackRate⟯|⟮c:11;Represents the speed at which the thing is playing⟯|IDL</td>
 </tr>
 </tbody>
 </table>
@@ -866,16 +847,12 @@ A static NodeList (or similar) does not reflect changes in the DOM
   <tbody>
     <tr>
       <th colspan="5"><span class="c9-cloze">Node</span></th>
-    </tr>
-    <tr>
-      <td>others...|
+    </tr>others...|
         <table>
           <tbody>
             <tr>
               <th colspan="3"><span class="c12-cloze">Element</span></th>
-            </tr>
-            <tr>
-              <td>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span></td>
+            </tr>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span></td>
             </tr>
           </tbody>
         </table>
@@ -884,9 +861,7 @@ A static NodeList (or similar) does not reflect changes in the DOM
           <tbody>
             <tr>
               <th colspan="2"><span class="c8-cloze">Document</span></th>
-            </tr>
-            <tr>
-              <td><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span></td>
+            </tr><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span></td>
             </tr>
           </tbody>
         </table>
@@ -894,9 +869,7 @@ A static NodeList (or similar) does not reflect changes in the DOM
         <table>
           <tbody><tr>
             <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
-          </tr>
-          <tr>
-            <td><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
+          </tr><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
           </tr>
         </tbody></table>
       </td>
@@ -2703,9 +2676,7 @@ colors: {
       <th>CSS Properties</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>`space`|
+  <tbody>`space`|
         `margin`, `margin-top`, `margin-right`,
         `margin-bottom`, `margin-left`,
         `padding`, `padding-top`,
@@ -2713,57 +2684,29 @@ colors: {
         `padding-left`, `grid-gap`,
         `grid-column-gap`, `grid-row-gap`
       </td>
-    </tr>
-    <tr>
-      <td>`fontSizes`|`font-size`</td>
-    </tr>
-    <tr>
-      <td>`colors`|
+    </tr>`fontSizes`|`font-size`</td>
+    </tr>`colors`|
         `color`, `background-color`,
         `border-color`
       </td>
-    </tr>
-    <tr>
-      <td>`fonts`|`font-family`</td>
-    </tr>
-    <tr>
-      <td>`fontWeights`|`font-weight`</td>
-    </tr>
-    <tr>
-      <td>`lineHeights`|`line-height`</td>
-    </tr>
-    <tr>
-      <td>`letterSpacings`|`letter-spacing`</td>
-    </tr>
-    <tr>
-      <td>`sizes`|
+    </tr>`fonts`|`font-family`</td>
+    </tr>`fontWeights`|`font-weight`</td>
+    </tr>`lineHeights`|`line-height`</td>
+    </tr>`letterSpacings`|`letter-spacing`</td>
+    </tr>`sizes`|
         `width`, `height`, `min-width`,
         `max-width`, `min-height`, `max-height`
       </td>
-    </tr>
-    <tr>
-      <td>`borders`|
+    </tr>`borders`|
         `border`, `border-top`, `border-right`,
         `border-bottom`, `border-left`
       </td>
-    </tr>
-    <tr>
-      <td>`borderWidths`|`border-width`</td>
-    </tr>
-    <tr>
-      <td>`borderStyles`|`border-style`</td>
-    </tr>
-    <tr>
-      <td>`radii`|`border-radius`</td>
-    </tr>
-    <tr>
-      <td>`shadows`|`box-shadow`, `text-shadow`</td>
-    </tr>
-    <tr>
-      <td>`zIndices`|`z-index`</td>
-    </tr>
-    <tr>
-      <td>`transitions`|`transition`</td>
+    </tr>`borderWidths`|`border-width`</td>
+    </tr>`borderStyles`|`border-style`</td>
+    </tr>`radii`|`border-radius`</td>
+    </tr>`shadows`|`box-shadow`, `text-shadow`</td>
+    </tr>`zIndices`|`z-index`</td>
+    </tr>`transitions`|`transition`</td>
     </tr>
   </tbody>
 </table>
@@ -3603,36 +3546,16 @@ e.g. cmd k then m to select the document language in VSCode
       <th>Action</th>
     </tr>
   </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-   <tr>
-  <td>⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯</td>
-</tr>
-<tr>
-  <td>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯</td>
-</tr>
-<tr>
-  <td>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯</td>
-</tr>
-<tr>
-  <td>⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)</td>
-</tr>
-<tr>
-  <td>⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯</td>
-</tr>
-<tr>
-  <td>⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯</td>
-</tr>
-<tr>
-  <td>⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯</td>
-</tr>
-<tr>
-  <td>⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯</td>
-</tr>
-<tr>
-  <td>⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯</td>
-</tr>
-   <tr>
-  <td>⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯</td>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯</td>
+</tr>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯</td>
+</tr>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯</td>
+</tr>⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)</td>
+</tr>⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯</td>
+</tr>⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯</td>
+</tr>⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯</td>
+</tr>⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯</td>
+</tr>⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯</td>
+</tr>⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯</td>
 </tr>
   </tbody>
 </table>
@@ -3645,36 +3568,16 @@ e.g. cmd k then m to select the document language in VSCode
     <th>action</th>
     <th>programs</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td>⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:10;A⟯|⟮c:11;Select everything⟯|⟮c:12;SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:13;D⟯|⟮c:14;Duplicate⟯|⟮c:15;SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:16;alt-drag⟯|⟮c:17;drag a duplicated shape (duplicate and then move⟯)|⟮c:18;SVG-Edit⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:19;cmd-drag⟯|⟮c:20;drag a duplicated shape (duplicate and then move⟯)|⟮c:21;Affinity designer⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:22;tap spacebar while dragging⟯|⟮c:23;drop a duplicate of the current shape at position⟯|⟮c:24;Inkscape⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:25;shift+click⟯|⟮c:26;select multiple objects⟯|⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:28;F⟯|⟮c:29;center canvas in frame⟯|⟮c:30;SVG-Edit⟯</td>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯</td>
+    </tr>⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯</td>
+    </tr>⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯</td>
+    </tr>⟮c:10;A⟯|⟮c:11;Select everything⟯|⟮c:12;SVG-Edit⟯</td>
+    </tr>⟮c:13;D⟯|⟮c:14;Duplicate⟯|⟮c:15;SVG-Edit⟯</td>
+    </tr>⟮c:16;alt-drag⟯|⟮c:17;drag a duplicated shape (duplicate and then move⟯)|⟮c:18;SVG-Edit⟯</td>
+    </tr>⟮c:19;cmd-drag⟯|⟮c:20;drag a duplicated shape (duplicate and then move⟯)|⟮c:21;Affinity designer⟯</td>
+    </tr>⟮c:22;tap spacebar while dragging⟯|⟮c:23;drop a duplicate of the current shape at position⟯|⟮c:24;Inkscape⟯</td>
+    </tr>⟮c:25;shift+click⟯|⟮c:26;select multiple objects⟯|⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯</td>
+    </tr>⟮c:28;F⟯|⟮c:29;center canvas in frame⟯|⟮c:30;SVG-Edit⟯</td>
     </tr>
   </tbody>
 </table>
@@ -5805,8 +5708,6 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
     <tr>
       <th colspan="2">all</th>
     </tr>
-    <tr>
-      <td>
         <table>
           <tbody>
             <tr>
@@ -5815,9 +5716,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
                   presentation
                 </span>
               </th>
-            </tr>
-            <tr>
-              <td>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯</td>
+            </tr>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯</td>
             </tr>
           </tbody>
         </table>
@@ -8525,20 +8424,14 @@ TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
 <table style="table-layout: fixed">
-  <tbody>
-    <tr>
-      <td>||</td>
+  <tbody>||</td>
       <td style="background-color: palegreen;">Data|</td>
       <th><span class="all-scr c1-cloze">Application</span></th>
-    </tr>
-    <tr>
-      <td>|</td>
+    </tr>|</td>
       <td style="background-color: #d8b;">UDP / TCP header</td>
       <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data|</td>
       <th><span class="all-scr c2-cloze">Transport</span></th>
-    </tr>
-    <tr>
-      <td></td>
+    </tr></td>
       <td style="background-color: #87e;">IP header</td>
       <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data|</td>
       <th><span class="all-scr c3-cloze">Internet</span></th>
@@ -14636,21 +14529,11 @@ to en/decode html character escapes, the npm package and concomittant CLI he is 
     <tr><th>Character entity reference / Numeric character reference</th>
     <th>Displays as / creates?</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td>⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯</td>
-    </tr>
-     <tr>
-      <td>⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:20;&amp;shy;⟯|⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:22;&amp;#8203;⟯|⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯</td>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯</td>
+    </tr>⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯</td>
+    </tr>⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯</td>
+    </tr>⟮c:20;&amp;shy;⟯|⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯</td>
+    </tr>⟮c:22;&amp;#8203;⟯|⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯</td>
     </tr>
   </tbody>
 </table>

@@ -769,21 +769,11 @@ A n-ary function takes n arguments.
       <th>Name</th>
     </tr>
   </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td>⟮c:1;0⟯|⟮c:2;nullary⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:1;1⟯|⟮c:2;unary⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:3;2⟯|⟮c:4;binary⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:5;3⟯|⟮c:6;ternary⟯</td>
-    </tr>
-    <tr>
-      <td>⟮c:5;n⟯|⟮c:6;n-ary⟯</td>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:2;nullary⟯</td>
+    </tr>⟮c:1;1⟯|⟮c:2;unary⟯</td>
+    </tr>⟮c:3;2⟯|⟮c:4;binary⟯</td>
+    </tr>⟮c:5;3⟯|⟮c:6;ternary⟯</td>
+    </tr>⟮c:5;n⟯|⟮c:6;n-ary⟯</td>
     </tr>
   </tbody>
 </table>
@@ -859,9 +849,7 @@ A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;paramete
 #### Types of errors
 
 <table class="cloze-group hide-if-inactive">
-  <tbody>
-    <tr>
-      <td></td>
+  <tbody></td>
       <th>⟮c:7;s:5-8;H<sub>0</sub> true⟯</th>
       <th>⟮c:8;s:5-8;H<sub>0</sub> false⟯</th>
     </tr>
@@ -989,9 +977,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
     <tr><th>Temperature (K)</th>
     <th>Significance</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">    
-    <tr>
-      <td>
+  <tbody class="cloze-group-children hide-if-inactive-children">
         ⟮c:3;0⟯
       |
         ⟮c:4;Absolute zero⟯
@@ -1008,15 +994,9 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
     <tr><th>Temperature (°C)</th>
     <th>Significance</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td>⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)</td>
-    </tr>
-    <tr>
-      <td>⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)</td>
-    </tr>
-    <tr>
-      <td>⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯</td>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)</td>
+    </tr>⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)</td>
+    </tr>⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯</td>
     </tr>
   </tbody>
 </table>
