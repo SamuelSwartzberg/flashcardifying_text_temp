@@ -172,20 +172,15 @@ One possible grouping of clean language questions (there are others)
 <table class="cloze-group hide-if-inactive">
   <tbody>
     <tr>
-      <td>⟮c:1;intention⟯</td>
-      <td>⟮c:2;sequence and source⟯</td>
+      <td>⟮c:1;intention⟯|⟮c:2;sequence and source⟯</td>
       <td colspan="3">⟮c:3;developing⟯</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td>
+      <td>||
         ⟮c:6;name and address questions⟯<br>
         Purpose: ⟮c:23;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
         questions)) ⟮(c:25;2/3⟯ of questions asked)
-      </td>
-      <td>⟮c:7;asking for a metaphor⟯</td>
-      <td>
+      |⟮c:7;asking for a metaphor⟯|
         ⟮c:8;relationship between symbols⟯<br>Purpose: connecting symbols
       </td>
     </tr>
@@ -196,15 +191,13 @@ One possible grouping of clean language questions (there are others)
           <li>⟮c:5;(And) what needs to happen for X?⟯</li>
           <li>⟮(c:9;And) can X (happen)?⟯</li>
         </ol>
-      </td>
-      <td>
+      |
         <ol>
           <li>⟮c:10;(And) then what happens?⟯ or ⟮c:11;(And) what happens next?⟯</li>
           <li>⟮c:12;(And) what happens just before X?⟯</li>
           <li>⟮c:13;(And) where could X come from?⟯</li>
         </ol>
-      </td>
-      <td>
+      |
         <ol>
           <li>
             ⟮c:14;(And) what kind of X (is that X)?⟯ <br>
@@ -221,14 +214,12 @@ One possible grouping of clean language questions (there are others)
           Notes: ⟮c:22;can be used widely, since most metaphors have a spacial component⟯
           </li>
         </ol>
-      </td>
-      <td>
+      |
         ⟮c:26;(And) that's X like what?⟯ <br>
         If ⟮c:27;about everything that was jus said⟯: ⟮c:28;(And) (all of) that's like what?⟯ <br>
         Method of using: ⟮c:29;say it very slowly⟯ <br>
         Might not work if asked about ⟮c:30;things that are already metaphors⟯, ⟮c:31;abstract concepts⟯
-      </td>
-      <td>
+      |
         <ol>
           <li>⟮c:32;(And) is there a relationship between X and Y?⟯</li>
           <li>⟮c:33;(And) when X, what happens to Y?⟯</li>

@@ -54,16 +54,13 @@ the {{c20::XML declaration}} takes {{c5::three}} parameters:
 <div class="c1-5-scr c12-18-scr">
  <table>
   <tbody><tr>
-    <td>`{{c6::version}}`</td>
-    <td>{{c9::The XML version the document is using}}</td>
+    <td>`{{c6::version}}`|{{c9::The XML version the document is using}}</td>
   </tr>
   <tr>
-    <td>`{{c7::encoding}}`</td>
-    <td>{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
+    <td>`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
   </tr>
   <tr>
-    <td>`{{c8::standalone}}`</td>
-    <td>{{c11::Whether the document relies on an external source such as an external DTD}}</td>
+    <td>`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}</td>
   </tr>
   </tbody>
   </table>
@@ -173,39 +170,25 @@ The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 <table>
 <tbody>
 <tr>
-<td>⟮c:2;muted⟯</td>
-<td>⟮c:7;audio is muted/mute audio⟯</td>
-<td>IDL & Content</td>
+<td>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content</td>
 </tr>
 <tr>
-<td>⟮c:3;paused⟯</td>
-<td>⟮c:8;is paused/pause⟯</td>
-<td>IDL</td>
+<td>⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL</td>
 </tr>
 <tr>
-<td>⟮c:5;loop⟯</td>
-<td>⟮c:10;will loop/loop⟯</td>
-<td>IDL & Content</td>
+<td>⟮c:5;loop⟯|⟮c:10;will loop/loop⟯|IDL & Content</td>
 </tr>
 <tr>
-<td>⟮c:5;controls⟯</td>
-<td>⟮c:10;is showing controls/show controls⟯</td>
-<td>IDL & Content</td>
+<td>⟮c:5;controls⟯|⟮c:10;is showing controls/show controls⟯|IDL & Content</td>
 </tr>
 <tr>
-<td>⟮c:5;autoplay⟯</td>
-<td>⟮c:10;will autoplay/enable autoplay⟯</td>
-<td>IDL & Content</td>
+<td>⟮c:5;autoplay⟯|⟮c:10;will autoplay/enable autoplay⟯|IDL & Content</td>
 </tr>
 <tr>
-<td>⟮c:4;ended⟯</td>
-<td>⟮c:9;Indicates whether it has finished playing⟯</td>
-<td>IDL</td>
+<td>⟮c:4;ended⟯|⟮c:9;Indicates whether it has finished playing⟯|IDL</td>
 </tr>
 <tr>
-<td>⟮c:6;playbackRate⟯</td>
-<td>⟮c:11;Represents the speed at which the thing is playing⟯</td>
-<td>IDL</td>
+<td>⟮c:6;playbackRate⟯|⟮c:11;Represents the speed at which the thing is playing⟯|IDL</td>
 </tr>
 </tbody>
 </table>
@@ -885,44 +868,35 @@ A static NodeList (or similar) does not reflect changes in the DOM
       <th colspan="5"><span class="c9-cloze">Node</span></th>
     </tr>
     <tr>
-      <td>others...</td>
-      <td>
+      <td>others...|
         <table>
           <tbody>
             <tr>
               <th colspan="3"><span class="c12-cloze">Element</span></th>
             </tr>
             <tr>
-              <td>others...</td>
-              <td><span class="c10-cloze c12-scr">HTMLElement</span></td>
-              <td><span class="c11-cloze c12-scr">SVGElement</span></td>
+              <td>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span></td>
             </tr>
           </tbody>
         </table>
-      </td>
-      <td>
+      |
         <table>
           <tbody>
             <tr>
               <th colspan="2"><span class="c8-cloze">Document</span></th>
             </tr>
             <tr>
-              <td><span class="c6-cloze c8-scr">HTMLDocument</span></td>
-              <td><span class="c7-cloze c8-scr">XMLDocument</span></td>
+              <td><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span></td>
             </tr>
           </tbody>
         </table>
-      </td>
-      <td><table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table></td>
-      <td>
+      |<table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table>|
         <table>
           <tbody><tr>
             <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
           </tr>
           <tr>
-            <td><span class="c2-cloze c1-scr">Text</span></td>
-            <td><span class="c3-cloze c1-scr">Comment</span></td>
-            <td><span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
+            <td><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
           </tr>
         </tbody></table>
       </td>
@@ -1744,33 +1718,23 @@ The white-space CSS property sets how white space inside an element is handled.
   <tbody>
   <tr>
   <th>⟮c:1;s:1-5;normal⟯</th>
-  <td>⟮c:6;s:6-20;Collapse⟯</td>
-  <td>⟮c:7;s:6-20;Collapse⟯</td>
-  <td>⟮c:8;s:6-20;Wrap⟯</td>
+  <td>⟮c:6;s:6-20;Collapse⟯|⟮c:7;s:6-20;Collapse⟯|⟮c:8;s:6-20;Wrap⟯</td>
   </tr>
   <tr>
   <th>⟮c:2;s:1-5;pre⟯</th>
-  <td>⟮c:9;s:6-20;Preserve⟯</td>
-  <td>⟮c:10;s:6-20;Preserve⟯</td>
-  <td>⟮c:11;s:6-20;No wrap⟯</td>
+  <td>⟮c:9;s:6-20;Preserve⟯|⟮c:10;s:6-20;Preserve⟯|⟮c:11;s:6-20;No wrap⟯</td>
   </tr>
   <tr>
   <th>⟮c:3;s:1-5;nowrap⟯</th>
-  <td>⟮c:12;s:6-20;Collapse⟯</td>
-  <td>⟮c:13;s:6-20;Collapse⟯</td>
-  <td>⟮c:14;s:6-20;No wrap⟯</td>
+  <td>⟮c:12;s:6-20;Collapse⟯|⟮c:13;s:6-20;Collapse⟯|⟮c:14;s:6-20;No wrap⟯</td>
   </tr>
   <tr>
   <th>⟮c:4;s:1-5;pre-wrap⟯</th>
-  <td>⟮c:15;s:6-20;Preserve⟯</td>
-  <td>⟮c:16;s:6-20;Preserve⟯</td>
-  <td>⟮c:17;s:6-20;Wrap⟯</td>
+  <td>⟮c:15;s:6-20;Preserve⟯|⟮c:16;s:6-20;Preserve⟯|⟮c:17;s:6-20;Wrap⟯</td>
   </tr>
   <tr>
   <th>⟮c:5;s:1-5;pre-line⟯</th>
-  <td>⟮c:18;s:6-20;Preserve⟯</td>
-  <td>⟮c:19;s:6-20;Collapse⟯</td>
-  <td>⟮c:20;s:6-20;Wrap⟯</td>
+  <td>⟮c:18;s:6-20;Preserve⟯|⟮c:19;s:6-20;Collapse⟯|⟮c:20;s:6-20;Wrap⟯</td>
   </tr>
   </tbody>
   </table>
@@ -2741,8 +2705,7 @@ colors: {
   </thead>
   <tbody>
     <tr>
-      <td>`space`</td>
-      <td>
+      <td>`space`|
         `margin`, `margin-top`, `margin-right`,
         `margin-bottom`, `margin-left`,
         `padding`, `padding-top`,
@@ -2752,69 +2715,55 @@ colors: {
       </td>
     </tr>
     <tr>
-      <td>`fontSizes`</td>
-      <td>`font-size`</td>
+      <td>`fontSizes`|`font-size`</td>
     </tr>
     <tr>
-      <td>`colors`</td>
-      <td>
+      <td>`colors`|
         `color`, `background-color`,
         `border-color`
       </td>
     </tr>
     <tr>
-      <td>`fonts`</td>
-      <td>`font-family`</td>
+      <td>`fonts`|`font-family`</td>
     </tr>
     <tr>
-      <td>`fontWeights`</td>
-      <td>`font-weight`</td>
+      <td>`fontWeights`|`font-weight`</td>
     </tr>
     <tr>
-      <td>`lineHeights`</td>
-      <td>`line-height`</td>
+      <td>`lineHeights`|`line-height`</td>
     </tr>
     <tr>
-      <td>`letterSpacings`</td>
-      <td>`letter-spacing`</td>
+      <td>`letterSpacings`|`letter-spacing`</td>
     </tr>
     <tr>
-      <td>`sizes`</td>
-      <td>
+      <td>`sizes`|
         `width`, `height`, `min-width`,
         `max-width`, `min-height`, `max-height`
       </td>
     </tr>
     <tr>
-      <td>`borders`</td>
-      <td>
+      <td>`borders`|
         `border`, `border-top`, `border-right`,
         `border-bottom`, `border-left`
       </td>
     </tr>
     <tr>
-      <td>`borderWidths`</td>
-      <td>`border-width`</td>
+      <td>`borderWidths`|`border-width`</td>
     </tr>
     <tr>
-      <td>`borderStyles`</td>
-      <td>`border-style`</td>
+      <td>`borderStyles`|`border-style`</td>
     </tr>
     <tr>
-      <td>`radii`</td>
-      <td>`border-radius`</td>
+      <td>`radii`|`border-radius`</td>
     </tr>
     <tr>
-      <td>`shadows`</td>
-      <td>`box-shadow`, `text-shadow`</td>
+      <td>`shadows`|`box-shadow`, `text-shadow`</td>
     </tr>
     <tr>
-      <td>`zIndices`</td>
-      <td>`z-index`</td>
+      <td>`zIndices`|`z-index`</td>
     </tr>
     <tr>
-      <td>`transitions`</td>
-      <td>`transition`</td>
+      <td>`transitions`|`transition`</td>
     </tr>
   </tbody>
 </table>
@@ -3698,54 +3647,34 @@ e.g. cmd k then m to select the document language in VSCode
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
     <tr>
-      <td>⟮c:1;S⟯</td>
-      <td>⟮c:2;Select tool⟯</td>
-      <td>⟮c:3;Inkscape, SVG-Edit⟯</td>
+      <td>⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:4;G⟯</td>
-      <td>⟮c:5;group/ungroup⟯</td>
-      <td>⟮c:6;SVG-Edit⟯</td>
+      <td>⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:7;W⟯</td>
-      <td>⟮c:8;Wireframe mode⟯</td>
-      <td>⟮c:9;SVG-Edit⟯</td>
+      <td>⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:10;A⟯</td>
-      <td>⟮c:11;Select everything⟯</td>
-      <td>⟮c:12;SVG-Edit⟯</td>
+      <td>⟮c:10;A⟯|⟮c:11;Select everything⟯|⟮c:12;SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:13;D⟯</td>
-      <td>⟮c:14;Duplicate⟯</td>
-      <td>⟮c:15;SVG-Edit⟯</td>
+      <td>⟮c:13;D⟯|⟮c:14;Duplicate⟯|⟮c:15;SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:16;alt-drag⟯</td>
-      <td>⟮c:17;drag a duplicated shape (duplicate and then move⟯)</td>
-      <td>⟮c:18;SVG-Edit⟯</td>
+      <td>⟮c:16;alt-drag⟯|⟮c:17;drag a duplicated shape (duplicate and then move⟯)|⟮c:18;SVG-Edit⟯</td>
     </tr>
     <tr>
-      <td>⟮c:19;cmd-drag⟯</td>
-      <td>⟮c:20;drag a duplicated shape (duplicate and then move⟯)</td>
-      <td>⟮c:21;Affinity designer⟯</td>
+      <td>⟮c:19;cmd-drag⟯|⟮c:20;drag a duplicated shape (duplicate and then move⟯)|⟮c:21;Affinity designer⟯</td>
     </tr>
     <tr>
-      <td>⟮c:22;tap spacebar while dragging⟯</td>
-      <td>⟮c:23;drop a duplicate of the current shape at position⟯</td>
-      <td>⟮c:24;Inkscape⟯</td>
+      <td>⟮c:22;tap spacebar while dragging⟯|⟮c:23;drop a duplicate of the current shape at position⟯|⟮c:24;Inkscape⟯</td>
     </tr>
     <tr>
-      <td>⟮c:25;shift+click⟯</td>
-      <td>⟮c:26;select multiple objects⟯</td>
-      <td>⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯</td>
+      <td>⟮c:25;shift+click⟯|⟮c:26;select multiple objects⟯|⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯</td>
     </tr>
     <tr>
-      <td>⟮c:28;F⟯</td>
-      <td>⟮c:29;center canvas in frame⟯</td>
-      <td>⟮c:30;SVG-Edit⟯</td>
+      <td>⟮c:28;F⟯|⟮c:29;center canvas in frame⟯|⟮c:30;SVG-Edit⟯</td>
     </tr>
   </tbody>
 </table>
@@ -5888,10 +5817,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
               </th>
             </tr>
             <tr>
-              <td>⟮c:3;s:1-2;beamer⟯</td>
-              <td>⟮c:4;s:1-2;second⟯</td>
-              <td>⟮c:5;s:1-2;handout⟯</td>
-              <td>⟮c:6;s:1-2;trans⟯</td>
+              <td>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯</td>
             </tr>
           </tbody>
         </table>
@@ -8468,14 +8394,10 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <td colspan="2">12 Mbps
   </td>
   <td colspan="2">480 Mbps
-  </td>
-  <td>5 Gbps
-  </td>
-  <td>10 Gbps
-  </td>
-  <td>20 Gbps
-  </td>
-  <td>40 Gbps
+  |5 Gbps
+  |10 Gbps
+  |20 Gbps
+  |40 Gbps
 
   <tr>
   <th>Type A
@@ -8524,8 +8446,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>Mini-AB
   </th>
   <td colspan="3" class="no">N/A
-  </td>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40">
+  |<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40">
   </td>
   <td colspan="5" class="no">Deprecated
 
@@ -8533,8 +8454,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>Micro-A
   </th>
   <td colspan="3" class="no">N/A
-  </td>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50">
+  |<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50">
   </td>
   <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50">
   </td>
@@ -8544,8 +8464,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>Micro-B
   </th>
   <td colspan="3" class="no">N/A
-  </td>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42">
+  |<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42">
   </td>
   <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50">
   </td>
@@ -8555,8 +8474,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   <th>Micro-AB
   </th>
   <td colspan="3" class="no">N/A
-  </td>
-  <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50">
+  |<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50">
   </td>
   <td colspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69">
   </td>
@@ -8609,26 +8527,20 @@ IP packets are transfered in frames between routers.
 <table style="table-layout: fixed">
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td style="background-color: palegreen;">Data</td>
-      <td></td>
+      <td>||</td>
+      <td style="background-color: palegreen;">Data|</td>
       <th><span class="all-scr c1-cloze">Application</span></th>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>|</td>
       <td style="background-color: #d8b;">UDP / TCP header</td>
-      <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data</td>
-      <td></td>
+      <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data|</td>
       <th><span class="all-scr c2-cloze">Transport</span></th>
     </tr>
     <tr>
       <td></td>
       <td style="background-color: #87e;">IP header</td>
-      <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data</td>
-      <td></td>
+      <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data|</td>
       <th><span class="all-scr c3-cloze">Internet</span></th>
     </tr>
     <tr>
@@ -14726,24 +14638,19 @@ to en/decode html character escapes, the npm package and concomittant CLI he is 
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
     <tr>
-      <td>⟮c:16;&amp;gt;⟯</td>
-      <td>⟮c:17;&gt;⟯</td>
+      <td>⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯</td>
     </tr>
     <tr>
-      <td>⟮c:14;&amp;lt;⟯</td>
-      <td>⟮c:15;&lt;⟯</td>
+      <td>⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯</td>
     </tr>
      <tr>
-      <td>⟮c:18;&amp;amp;⟯</td>
-      <td>⟮c:19;&amp;⟯</td>
+      <td>⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯</td>
     </tr>
     <tr>
-      <td>⟮c:20;&amp;shy;⟯</td>
-      <td>⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯</td>
+      <td>⟮c:20;&amp;shy;⟯|⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯</td>
     </tr>
     <tr>
-      <td>⟮c:22;&amp;#8203;⟯</td>
-      <td>⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯</td>
+      <td>⟮c:22;&amp;#8203;⟯|⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯</td>
     </tr>
   </tbody>
 </table>
