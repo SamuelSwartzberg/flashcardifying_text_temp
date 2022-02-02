@@ -228,9 +228,7 @@ An adjunct can be any type of phrase.
 
     <tr>
       <td class="inner">⟮c:2;ZP⟯|</td>
-      <td class="inner" colspan="3">⟮c:3;X'⟯span=2;</td>
-      <td class="inner">⟮c:4;X⟯|</td>
-      <td class="inner">⟮c:5;YP⟯
+      <td class="inner" colspan="3">⟮c:3;X'⟯span=2;|class=inner;⟮c:4;X⟯||class=inner;⟮c:5;YP⟯
 
   </tbody>
 </table>
@@ -295,14 +293,10 @@ under the IP theory, the complement of I is the VP.
       <td colspan="2" class="inner">⟮c:3;I'⟯
 
     <tr>
-      <td class="inner"></td>
-      <td class="inner">⟮c:4;I⟯</td>
-      <td class="inner">⟮c:5;VP⟯
+      <td class="inner">|class=inner;⟮c:4;I⟯|class=inner;⟮c:5;VP⟯
 
     <tr>
-      <td class="leaf">somethin</td>
-      <td class="leaf">somethin</td>
-      <td class="leaf">somethin
+      <td class="leaf">somethin|class=leaf;somethin|class=leaf;somethin
 
   </tbody>
 </table>
@@ -323,9 +317,9 @@ Evidence: The subject is an argument of the V, but it appears outside of the VP,
       <td class="inner" colspan="3">⟮c:1;IP⟯
 
     <tr><td class="inner">⟮c:2;DP⟯</td><td class="inner" colspan="3">⟮c:3;I′⟯
-    <tr><td class="inner"></td><td class="inner">⟮c:9;I⟯</td><td class="inner" colspan="3">⟮c:4;VP⟯
-    <tr><td class="inner" colspan="2"></td><td class="inner">⟮c:5;DP⟯</td> <td class="inner" colspan="3">⟮c:6;V′⟯
-    <tr><td class="inner" colspan="3"></td><td class="inner">⟮c:7;V⟯</td><td class="inner"></td><td class="inner">⟮c:8;DP⟯
+    <tr><td class="inner">|class=inner;⟮c:9;I⟯</td><td class="inner" colspan="3">⟮c:4;VP⟯
+    <tr><td class="inner" colspan="2">|class=inner;⟮c:5;DP⟯</td> <td class="inner" colspan="3">⟮c:6;V′⟯
+    <tr><td class="inner" colspan="3">|class=inner;⟮c:7;V⟯|class=inner;|class=inner;⟮c:8;DP⟯
 someone<sub><i>i</i></sub>|is|t<sub><i>i</i></sub>|following|us
   </tbody>
   </table>
@@ -349,12 +343,9 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="inner">⟮c2;AP⟯</td>
       <td colspan="2" class="inner">⟮c3;NP⟯
-</td>
-      <td class="inner">⟮c4;AP⟯</td>
+|class=inner;⟮c4;AP⟯</td>
       <td class="inner" colspan="2">⟮c5;NP⟯
-|</td>      
-      <td class="inner">⟮c6;N⟯</td>
-      <td class="inner">⟮c7;PP⟯
+||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
   </tbody>
 </table>
@@ -367,18 +358,12 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="inner">⟮c2;D⟯</td>
       <td colspan="2" class="inner">⟮c3;NP⟯
-</td>
-      <td class="inner">⟮c4;AP⟯</td>
+|class=inner;⟮c4;AP⟯</td>
       <td class="inner" colspan="2">⟮c5;NP⟯
-|</td>      
-      <td class="inner">⟮c6;N⟯</td>
-      <td class="inner">⟮c7;PP⟯
+||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
     <tr>
-      <td class="leaf">the</td>
-      <td class="leaf">best</td>
-      <td class="leaf">student</td>
-      <td class="leaf">of physics
+      <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
   </tbody>
 </table>
@@ -393,14 +378,10 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="inner">⟮c:2;DP⟯</td>
       <td colspan="2" class="inner">⟮c:3;D'⟯
-</td>
-      <td class="inner">⟮c:4;D⟯</td>
-      <td class="inner">⟮c:5;NP⟯
+|class=inner;⟮c:4;D⟯|class=inner;⟮c:5;NP⟯
 
     <tr>
-      <td class="leaf">[Possessor]</td>
-      <td class="leaf">'s</td>
-      <td class="leaf">[Possessed entity]
+      <td class="leaf">[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
 
   </tbody>
 
@@ -416,18 +397,12 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
       <td colspan="2" class="inner">⟮c:3;D'⟯
 
     <tr>
-      <td rowspan="2"></td>
-      <td class="inner">⟮c:4;D⟯</td>
+      <td rowspan="2">|class=inner;⟮c:4;D⟯</td>
       <td class="inner" colspan="2">⟮c:5;NP⟯
-</td>      
-      <td class="inner">⟮c:6;N⟯</td>
-      <td class="inner">⟮c:7;PP⟯
+|class=inner;⟮c:6;N⟯|class=inner;⟮c:7;PP⟯
 
     <tr>
-      <td class="leaf">that woman</td>
-      <td class="leaf">'s</td>
-      <td class="leaf">books</td>
-      <td class="leaf">on physics
+      <td class="leaf">that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
   </tbody>
 
@@ -443,18 +418,12 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="inner">⟮c2;D⟯</td>
       <td colspan="2" class="inner">⟮c3;N'⟯
-</td>
-      <td class="inner">⟮c4;AP⟯</td>
+|class=inner;⟮c4;AP⟯</td>
       <td class="inner" colspan="2">⟮c5;N'⟯
-|</td>      
-      <td class="inner">⟮c6;N⟯</td>
-      <td class="inner">⟮c7;PP⟯
+||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
     <tr>
-      <td class="leaf">the</td>
-      <td class="leaf">best</td>
-      <td class="leaf">student</td>
-      <td class="leaf">of physics
+      <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
   </tbody>
 
@@ -1912,128 +1881,74 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <tr>
 <th>Upper lip
 </th>
-<td>bilabial|span=2;linguolabial</td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td>bilabial|span=2;linguolabial|class=no;
+|class=no;|class=no;|class=no;
 
 <tr>
 <th>Upper teeth
 </th>
-<td>labiodental</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td>labiodental|class=no;|class=no;|class=no;
+|class=no;|class=no;|class=no;
 
 <tr>
 <th>Upper teeth
 </th>
-<td class="no">|span=2;dental</td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|span=2;dental|class=no;
+|class=no;|class=no;|class=no;
 
 <tr>
 <th>Upper teeth/&#8203;alveolar ridge (prealveolar)
 </th>
-<td class="no">|denti-alveolar</td>
-<td class="no"></td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|denti-alveolar|class=no;|class=no;
+|class=no;|class=no;|class=no;
 
 <tr>
 <th>Alveolar ridge
 </th>
-<td class="no">|span=2;alveolar</td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|span=2;alveolar|class=no;
+|class=no;|class=no;|class=no;
 
 <tr>
 <th>Back of alveolar ridge <br>(postalveolar)
 </th>
-<td class="no">|palato-alveolar|retroflex (more precisely: apical postalveolar)</td>
-<td class="no">
-|alveolo-palatal</td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|palato-alveolar|retroflex (more precisely: apical postalveolar)|class=no;
+|alveolo-palatal|class=no;|class=no;
 
 <tr>
 <th>Hard palate (front)
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">|retroflex (more precisely: true retroflex)
-|palatal</td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|class=no;|class=no;|retroflex (more precisely: true retroflex)
+|palatal|class=no;|class=no;
 
 <tr>
 <th>Soft palate/&#8203;velum
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">|subapical velar
-|velar</td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|class=no;|class=no;|subapical velar
+|velar|class=no;|class=no;
 
 <tr>
 <th>Uvula
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
-|uvular</td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|class=no;|class=no;|class=no;
+|uvular|class=no;|class=no;
 
 <tr>
 <th>Pharynx
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
-</td>
-<td class="no">|pharyngeal</td>
-<td class="no">
+<td class="no">|class=no;|class=no;|class=no;
+|class=no;|pharyngeal|class=no;
 
 <tr>
 <th>Epiglottis
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no">|(ary-)epiglottal
+<td class="no">|class=no;|class=no;|class=no;
+|class=no;|class=no;|(ary-)epiglottal
 
 <tr>
 <th>Glottis
 </th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
-</td>
-<td class="no"></td>
-<td class="no">|glottal
+<td class="no">|class=no;|class=no;|class=no;
+|class=no;|class=no;|glottal
 
 </tbody></table>
 <style>td{background-color: white;}td.inactive{background-color: var(--color-lighter)}</style>
@@ -2351,64 +2266,34 @@ Affricates are distinguised from non-affricates in that they have the disinctive
   </tr>
 <tr>
 <th scope="row">Plosive</th>
-<td>{{c1::p}}|{{c2::b}}|||span=3;{{c3::t}}|span=3;{{c4::d}}|{{c5::ʈ}}|{{c6::ɖ}}|{{c7::c}}|{{c8::ɟ}}|{{c9::k}}|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}</td>
-<td class="no">|{{c14::ʔ}}</td>
-<td class="no">
+<td>{{c1::p}}|{{c2::b}}|||span=3;{{c3::t}}|span=3;{{c4::d}}|{{c5::ʈ}}|{{c6::ɖ}}|{{c7::c}}|{{c8::ɟ}}|{{c9::k}}|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}|class=no;|{{c14::ʔ}}|class=no;
 
 <tr>
 <th scope="row">Nasal</th>
-<td>|{{c15::m}}||{{c16::ɱ}}|span=3;|span=3;{{c17::n}}||{{c18::ɳ}}||{{c19::ɲ}}||{{c20::ŋ}}||{{c21::ɴ}}</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td>|{{c15::m}}||{{c16::ɱ}}|span=3;|span=3;{{c17::n}}||{{c18::ɳ}}||{{c19::ɲ}}||{{c20::ŋ}}||{{c21::ɴ}}|class=no;|class=no;|class=no;|class=no;
 
 <tr>
 <th scope="row">Trill</th>
 <td>|{{c22::ʙ}}|||span=3;</td>
-<td  colspan="3">{{c23::r}}||||</td>
-<td class="no"></td>
-<td class="no">||{{c24::ʀ}}|{{c25::ʜ}}|{{c26::ʢ}}</td>
-<td class="no"></td>
-<td class="no">
+<td  colspan="3">{{c23::r}}|||||class=no;|class=no;||{{c24::ʀ}}|{{c25::ʜ}}|{{c26::ʢ}}|class=no;|class=no;
 
 <tr>
 <th scope="row">Tap/flap</th>
 <td>||||span=3;</td>
-<td  colspan="3">{{c27::ɾ}}||{{c28::ɽ}}||</td>
-<td class="no"></td>
-<td class="no">||||</td>
-<td class="no"></td>
-<td class="no">
+<td  colspan="3">{{c27::ɾ}}||{{c28::ɽ}}|||class=no;|class=no;|||||class=no;|class=no;
 
   <tr>
 <th scope="row">Lateral approximant</th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">|span=3;|span=3;{{c58::l}}||{{c59::ɭ}}||{{c60::ʎ}}||{{c61::ʟ}}||</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|class=no;|class=no;|class=no;|span=3;|span=3;{{c58::l}}||{{c59::ɭ}}||{{c60::ʎ}}||{{c61::ʟ}}|||class=no;|class=no;|class=no;|class=no;
 
   <tr>
 <th scope="row">Lateral fricative</th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">|span=3;{{c51::ɬ}}|span=3;{{c52::ɮ}}||||||||</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no">
+<td class="no">|class=no;|class=no;|class=no;|span=3;{{c51::ɬ}}|span=3;{{c52::ɮ}}|||||||||class=no;|class=no;|class=no;|class=no;
   
 <tr>
 <th scope="row">Approximant</th>
 <td>|||{{c53::ʋ}}</td>
-<td  colspan="3">|span=3;{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}|||</td>
-<td class="no"></td>
-<td class="no">|
+<td  colspan="3">|span=3;{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}||||class=no;|class=no;|
 
   <tr><td colspan="5" class="no"></td>
       <th colspan="2">Dental</th>

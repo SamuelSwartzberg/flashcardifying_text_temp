@@ -792,25 +792,20 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
     </th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Iamb⟯|⟮c:2;daDA⟯
-⟮c:3;Trochee⟯|⟮c:4;DAda⟯</td>
-      <td class="all-hide">
+⟮c:3;Trochee⟯|⟮c:4;DAda⟯|class=all-hide;
         <b>Tro</b>chees; <b>tro</b>phies<br>
 <b>Dou</b>ble, <b>dou</b>ble, <b>toil</b> and <b>trou</b>ble;<b>Fi</b>re <b>burn</b> and <b>cauld</b>ron <b>bubb</b>le.
-⟮c:5;Anapest⟯|⟮c:6;dadaDA⟯</td>
-      <td class="all-hide">
+⟮c:5;Anapest⟯|⟮c:6;dadaDA⟯|class=all-hide;
         Jeder dritte stirbt durch die pest.<br>
 Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte".
 Ana<b>pest</b><br>
 Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>house</b>
-⟮c:7;Dactyl⟯|⟮c:8;DAdada⟯</td>
-      <td class="all-hide"><b>Just</b> for a <b>hand</b>ful of <b>sil</b>ver he <b>left</b> us <br><b>Just</b> for a <b>rib</b>and to <b>stick</b> in his <b>coat</b>
-⟮c:9;Choriamb⟯|⟮c:10;DAdadaDA⟯</td>
-      <td class="all-hide">
+⟮c:7;Dactyl⟯|⟮c:8;DAdada⟯|class=all-hide;<b>Just</b> for a <b>hand</b>ful of <b>sil</b>ver he <b>left</b> us <br><b>Just</b> for a <b>rib</b>and to <b>stick</b> in his <b>coat</b>
+⟮c:9;Choriamb⟯|⟮c:10;DAdadaDA⟯|class=all-hide;
         A choriamb is an iamb that has been held up a mirror.<br>
 <b>Who</b> hath not <b>seen</b> thee oft amid thy store? <b>Some</b>times who<b>ev</b>er seeks abroad may find
 ⟮c:11;Molossus⟯|⟮c:12;DA DA DA⟯|
-⟮c:13;Amphibrach⟯|⟮c:14;da DA da⟯</td>
-      <td class="all-hide">If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
+⟮c:13;Amphibrach⟯|⟮c:14;da DA da⟯|class=all-hide;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
 "There <b>once</b> was / a <b>girl</b> from / Nan<b>tuc</b>ket."
 
   </tbody>
