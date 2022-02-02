@@ -1569,7 +1569,7 @@ dibisyllable|Word that consists of two syllables
 trisyllable|Word that consists of three syllables
 polysyllable|Word that consists of either more than one or more than three syllables
 
-Syllable breaks are explicitly marked in teh IPA by <code>.</code> or when that would be too confusing by $
+Syllable breaks are explicitly marked in teh IPA by `.` or when that would be too confusing by $
 The stress and secondary stress marks also imply a syllable break.
 Using spaces in the IPA implies a syllable break, if you want to prevent this, use the ‿ symbol.
 

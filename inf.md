@@ -789,9 +789,9 @@ $   running number indicator  // $
 ##### <text>
 
 <br>---<br>
-  §§ <code>the ((c:1;::&lt;text&gt;))</code> element is ((c:2;::the only place)) you can ((c:3;::have text in SVG)) §<br>
+  §§ `the ((c:1;::&lt;text&gt;))` element is ((c:2;::the only place)) you can ((c:3;::have text in SVG)) §<br>
 §§ In ((c:7;::SVG)), ((c:8;::text)) ((c:9;::outside of a &lt;text&gt;)) ((c:4;::will not be shown)) §<br>
-§§ ((c:10;::&lt;text&gt;)) can contain ((c:5;::<code>&lt;tspan&gt;</code>s)), which ((c:6;::define subtext (lol) for further targeting)). §<br>
+§§ ((c:10;::&lt;text&gt;)) can contain ((c:5;::`&lt;tspan&gt;`s)), which ((c:6;::define subtext (lol) for further targeting)). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
@@ -2892,7 +2892,7 @@ colors: {
     ((c:1;::&amp; div &amp; &amp; &gt; a)) {}
   }
 }</code></pre>
-compiles to <code>((c:12;::.parent .child div .parent .child .parent .child &gt; a {))}</code>
+compiles to `((c:12;::.parent .child div .parent .child .parent .child &gt; a {))}`
 ===<br>
 
 <br>---<br>
@@ -2901,7 +2901,7 @@ compiles to <code>((c:12;::.parent .child div .parent .child .parent .child &gt;
     @at-root .child {}
   }
 }</code></pre>
-compiles to <code>((c:13;::.child {}))</code>
+compiles to `((c:13;::.child {}))`
 ===<br>
 
 <br>---<br>
@@ -2909,14 +2909,14 @@ compiles to <code>((c:13;::.child {}))</code>
   &amp;:visited { }
   &amp;:hover { }
   &amp;:active { }
-}</code></pre> compiles to <code>((c:14;::.button:visited { } .button:hover { } .button:active { } ))</code>
+}</code></pre> compiles to `((c:14;::.button:visited { } .button:hover { } .button:active { } ))`
 ===<br>
 
 <br>---<br>
 <pre><code>.btn {
   &amp;-primary {}
   &amp;-secondary {}
-}</code></pre> compiles to <code>((c:15;::.btn-primary {} .btn-secondary {} ))</code>
+}</code></pre> compiles to `((c:15;::.btn-primary {} .btn-secondary {} ))`
 ===<br>
 
 #### CSS processing
@@ -2940,13 +2940,13 @@ Sass syntax that is a CSS superset   SCSS (Sassy CSS)
 ###### @extend and placeholder classes
 
 <br>---<br>
-  §§ <code>((c:1;::@extend))</code> is the keyword ((c:2;::for inheriting styles of other selectors)). §<br>
-§§ In common language ((c:3;::<code>@extend foo</code>)) is saying ((c:4;::you want something to have the same declarations as foo)). §<br>
-§§ Internally, ((c:5;::<code>@extend</code>))&nbsp;works ((c:6;::on selectors (instead of copying declarations))) §<br>
-§§ A SCSS/Sass ((c:7;::placeholder selector)) has the syntax ((c:8;::<code>%foo</code>)). §<br>
+  §§ `((c:1;::@extend))` is the keyword ((c:2;::for inheriting styles of other selectors)). §<br>
+§§ In common language ((c:3;::`@extend foo`)) is saying ((c:4;::you want something to have the same declarations as foo)). §<br>
+§§ Internally, ((c:5;::`@extend`))&nbsp;works ((c:6;::on selectors (instead of copying declarations))) §<br>
+§§ A SCSS/Sass ((c:7;::placeholder selector)) has the syntax ((c:8;::`%foo`)). §<br>
 §§ You put SCSS/Sass ((c:9;::placeholder selector)) where ((c:10;::selectors)) would go. §<br>
 §§ An SCSS/sass ((c:11;::placeholder selector)) itself is a ((c:12;::selector)) that ((c:13;::doesn't select anything)). §<br>
-§§ An SCSS/sass ((c:14;::placeholder selector)) is designed to be ((c:15;::<code>@extend</code>ed)). §<br>
+§§ An SCSS/sass ((c:14;::placeholder selector)) is designed to be ((c:15;::`@extend`ed)). §<br>
 ===<br>
 <br>---<br>
 <pre><code>%toolbelt {
@@ -4523,7 +4523,7 @@ open|cannot be en/disabled
 §§ While ((c:24;::you can tell what crawlers should crawl)) via ((c:25;::robots.txt/noindex)), ((c:26;::there is no reason they have to respect it.)) §<br>
 §§ ((c:27;::Pages that should be on the robots.txt/have a noindex tag)) are e.g. ((c:28;::internal search pages, pages that require a certain state.)) §<br>
 §§ If ((c:29;::a page should truly inaccessible to outside forces)), ((c:30;::using robots.txt/noindex tags is not enough)), it should then be ((c:31;::password-protected or similar.)) §<br>
-§§ Example noindex tag: <code>&lt;((c:1;::meta)) name="((c:2;::robots)) (all) / ((c:3;::googlebot)) (only google) content="((c:4;::noindex))"&gt;</code> §<br>
+§§ Example noindex tag: `&lt;((c:1;::meta)) name="((c:2;::robots)) (all) / ((c:3;::googlebot)) (only google) content="((c:4;::noindex))"&gt;` §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
 
@@ -5482,7 +5482,7 @@ pdftk and qpdf are the most common CLI tools for pdf transformation
 gifsicle is a CLI program to manipulate gifs
 
 <br>---<br>
-  §§ <code>((c:9;::ocrmypdf))</code> is a command line tool to ((c:10;::add OCR text to scanned PDF files)). §<br>
+  §§ `((c:9;::ocrmypdf))` is a command line tool to ((c:10;::add OCR text to scanned PDF files)). §<br>
 §§ <pre><code>ocrmypdf ((c:11;::SOURCE DEST))</code></pre> §<br>
 ===<br>
 <table class="cloze-group hide-if-inactive">
@@ -5491,10 +5491,10 @@ gifsicle is a CLI program to manipulate gifs
     <th></th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::specify language))</td> <td>((c:2;::<code>-l deu/fra/deu+fra...</code>))</td></tr>
-<tr><td>((c:3;::correct slight skew))</td> <td>((c:4;::<code>--deskew</code>))</td></tr>
-<tr><td>((c:5;::clean pages before ocring))</td> <td>((c:6;::<code>--clean</code>))</td></tr>
-<tr><td>((c:7;::change/correct rotation (the one in steps of 90°)))</td> <td>((c:8;::<code>--rotate-pages</code>))</td></tr>
+    <tr><td>((c:1;::specify language))</td> <td>((c:2;::`-l deu/fra/deu+fra...`))</td></tr>
+<tr><td>((c:3;::correct slight skew))</td> <td>((c:4;::`--deskew`))</td></tr>
+<tr><td>((c:5;::clean pages before ocring))</td> <td>((c:6;::`--clean`))</td></tr>
+<tr><td>((c:7;::change/correct rotation (the one in steps of 90°)))</td> <td>((c:8;::`--rotate-pages`))</td></tr>
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
@@ -5518,8 +5518,8 @@ gifsicle is a CLI program to manipulate gifs
     <tr><th colspan="2">Imagemagick subcommands</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:1;::<code>import</code>))</td> <td>((c:2;::Imagemagick screenshot utility))</td></tr>
-<tr><td>((c:3;::<code>identify</code>))</td> <td>((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
+    <tr><td>((c:1;::`import`))</td> <td>((c:2;::Imagemagick screenshot utility))</td></tr>
+<tr><td>((c:3;::`identify`))</td> <td>((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
 Image: rose.jpg
   Format: JPEG (Joint Photographic Experts Group JFIF format)
   Mime type: image/jpeg
@@ -5528,12 +5528,12 @@ Image: rose.jpg
   Units: Undefined
   Type: TrueColor
 ...</code></pre>))</td></tr>
-<tr><td>((c:5;::<code>display</code>))</td> <td>((c:6;::Imagemagick image viewer))</td></tr>
-<tr><td>((c:7;::<code>animate</code>))</td> <td>((c:8;::Imagemagick animation creator))</td></tr>
-<tr><td>((c:9;::<code>compare</code>))</td> <td>((c:10;::Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">))</td></tr>
-<tr><td>((c:11;::<code>composite</code>))</td> <td>((c:12;::Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">))</td></tr>
-<tr><td>((c:13;::<code>convert</code>))</td> <td>((c:14;::Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">))</td></tr>
-<tr><td>((c:15;::<code>montage</code>::m))</td> <td>((c:16;::Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">))</td></tr>
+<tr><td>((c:5;::`display`))</td> <td>((c:6;::Imagemagick image viewer))</td></tr>
+<tr><td>((c:7;::`animate`))</td> <td>((c:8;::Imagemagick animation creator))</td></tr>
+<tr><td>((c:9;::`compare`))</td> <td>((c:10;::Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">))</td></tr>
+<tr><td>((c:11;::`composite`))</td> <td>((c:12;::Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">))</td></tr>
+<tr><td>((c:13;::`convert`))</td> <td>((c:14;::Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">))</td></tr>
+<tr><td>((c:15;::`montage`::m))</td> <td>((c:16;::Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">))</td></tr>
   </tbody>
 </table>
 
@@ -5543,13 +5543,13 @@ Image: rose.jpg
     <tr><th colspan="2">Imagemagick options</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><td>((c:17;::<code>-crop</code>))</td> <td>((c:18;::crop))</td></tr>
-<tr><td>((c:19;::<code>-trim</code>))</td> <td>((c:20;::remove borders around the image))</td></tr>
-<tr><td>((c:21;::<code>-resize SIZE-SPECIFIER</code>))</td> <td>((c:22;::resize the image to SIZE-SPECIFIER))</td></tr>
-<tr><td>((c:23;::<code>-quality QUALITY</code>))</td> <td>((c:24;::set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg)))</td></tr>
-<tr><td>((c:25;::<code>-fuzz distance</code>))</td> <td>((c:26;::make matching colors more, well, fuzzy))</td></tr>
-<tr><td>((c:27;::<code>-flop</code>))</td> <td>((c:28;::Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R)))</td></tr>
-<tr><td>((c:29;::<code>-flip</code>))</td> <td>((c:30;::Change to upside down))</td></tr>
+    <tr><td>((c:17;::`-crop`))</td> <td>((c:18;::crop))</td></tr>
+<tr><td>((c:19;::`-trim`))</td> <td>((c:20;::remove borders around the image))</td></tr>
+<tr><td>((c:21;::`-resize SIZE-SPECIFIER`))</td> <td>((c:22;::resize the image to SIZE-SPECIFIER))</td></tr>
+<tr><td>((c:23;::`-quality QUALITY`))</td> <td>((c:24;::set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg)))</td></tr>
+<tr><td>((c:25;::`-fuzz distance`))</td> <td>((c:26;::make matching colors more, well, fuzzy))</td></tr>
+<tr><td>((c:27;::`-flop`))</td> <td>((c:28;::Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R)))</td></tr>
+<tr><td>((c:29;::`-flip`))</td> <td>((c:30;::Change to upside down))</td></tr>
   </tbody>
 </table>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
@@ -5762,7 +5762,7 @@ info|read texinfo files
 
 <br>---<br>
   §§ ((c:28;::The name)) ((c:29;::of a command)) ((c:30;::used as an environment)) is known as that commands ((c:31;::environment form)) §<br>
-§§ the ((c:26;::environment form)) of ((c:27;::\foo)) would look like {{c25::<code>\begin{command}...\end{command}</code>}} §<br>
+§§ the ((c:26;::environment form)) of ((c:27;::\foo)) would look like {{c25::`\begin{command}...\end{command}`}} §<br>
 §§ ((c:32;::Most (afaik) commands)) in ((c:33;::declaration (\command (no args)))) form can also be used  ((c:26;::in an environment form)) §<br>
 §§ ((c:34;::The environment form)) of a command is based on ((c:35;::its declaration form.)) §<br>
 ===<br>
@@ -5812,7 +5812,7 @@ info|read texinfo files
 
 <br>---<br>
   §§ in Latex, ((c:2;::groups)) ((c:1;::create a scope)) §<br>
-§§ <code>((c:3;::\bgroup ... \egroup))</code> or ((c:4;::<code>{ ... }</code>)) ((c:5;::delimit a group)) §<br>
+§§ `((c:3;::\bgroup ... \egroup))` or ((c:4;::`{ ... }`)) ((c:5;::delimit a group)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
@@ -6013,7 +6013,7 @@ info|read texinfo files
 
 <br>---<br>
   §§ For arrows, if the ((c:1;::first letter)) is ((c:2;::lowercase)), it will render the ((c:3;::thin arrow (→))), if the ((c:1;::first letter)) is ((c:2;::uppercase)), it will render the ((c:3;::thick arrow (⇒))). §<br>
-§§ so <code>((c:9;::\rightarrow))</code> renders ((c:10;::a thin right arrow →)), and ((c:9;::\Rightarrow)) renders ((c:10;::a thick, double-line right arrow ⇒)). §<br>
+§§ so `((c:9;::\rightarrow))` renders ((c:10;::a thin right arrow →)), and ((c:9;::\Rightarrow)) renders ((c:10;::a thick, double-line right arrow ⇒)). §<br>
 §§ ((c:11;::\rightarrow)) can also be created by ((c:12;::\in)) §<br>
 §§ ((c:13;::\Rightarrow)) can also be created by ((c:14;::\implies)) §<br>
 ===<br>
@@ -6268,7 +6268,7 @@ symbol|command(s)|requires package
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><td>((c:1;::\listoffigures))</td> <td>((c:2;::generate a list of figures))</td></tr>
-<tr><td>((c:3;::\listoftables))</td> <td>((c:4;::generate a list of <code>table</code>s))</td></tr>
+<tr><td>((c:3;::\listoftables))</td> <td>((c:4;::generate a list of `table`s))</td></tr>
 <tr><td>((c:5;::\tableofcontents))</td> <td>((c:6;::generate a table of contents))</td></tr>
   </tbody>
 </table>
@@ -6447,9 +6447,9 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 <br>---<br>
   §§ In latex, ((c:1;::parentheses)) and ((c:2;::square brackets)) ((c:4;::can just be inserted)), ((c:3;::curly braces)) ((c:4;::must be escaped)). §<br>
 §§ ((c:5;::curly braces)) must ((c:6;::be escaped even)) if ((c:7;::as part of \left or \right)) §<br>
-± e.g. <code>\left\{</code> ±<br>
+± e.g. `\left\{` ±<br>
 §§ ((c:8;::prefixing)) ((c:9;::parentheses, square brackets or (escaped) curly brackets)) with ((c:10;::\left)) (if ((c:11;::opening))) or ((c:10;::\right)) (if ((c:11;::closing))) will ((c:12;::make them resize if around something larger (e.g. a fraction))) §<br>
-± e.g. <code>$$\left[\frac{foo}{bar}\right]$$</code> ±<br>
+± e.g. `$$\left[\frac{foo}{bar}\right]$$` ±<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
@@ -6527,8 +6527,8 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 ######## GFM
 
 <br>---<br>
-  §§ ((c:1;::Github-flavored)) ((c:2;::markdown)) supports creating ((c:3;::task lists)) via the syntax ((c:4;::<code>- [ ]</code>)) §<br>
-§§ You ((c:5;::complete)) ((c:6;::github-flavored markdown task lists)) via the syntax <code>((c:7;::- [x]))</code> §<br>
+  §§ ((c:1;::Github-flavored)) ((c:2;::markdown)) supports creating ((c:3;::task lists)) via the syntax ((c:4;::`- [ ]`)) §<br>
+§§ You ((c:5;::complete)) ((c:6;::github-flavored markdown task lists)) via the syntax `((c:7;::- [x]))` §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
@@ -7476,9 +7476,9 @@ Text expanders are programs which allow OS-wide macros.
 ##### espanso
 
 <br>---<br>
-  §§ ((c:2;::Espanso variables)) are made available in the ((c:1;::environment)) of the <code>shell</code> type. §<br>
-§§ An espanso var with <code>((c:3;::name: foo))</code> will be available as <code>((c:4;::$ESPANSO_FOO))</code> for any shell scripts. §<br>
-§§ ((c:5;::fields within a form)) are available as <code>((c:6;::$ESPANSO_FORMNAME_FIELDNAME))</code> for any espanso shell scripts §<br>
+  §§ ((c:2;::Espanso variables)) are made available in the ((c:1;::environment)) of the `shell` type. §<br>
+§§ An espanso var with `((c:3;::name: foo))` will be available as `((c:4;::$ESPANSO_FOO))` for any shell scripts. §<br>
+§§ ((c:5;::fields within a form)) are available as `((c:6;::$ESPANSO_FORMNAME_FIELDNAME))` for any espanso shell scripts §<br>
 ===<br>
 <br>---<br>
 <pre><code data-codetype="yaml">- trigger: ":reversed"
@@ -7793,13 +7793,13 @@ if no utility is specified with -u, caffeinate creates the assertions directly, 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
 <br>---<br>
-  §§ <code>((c:11;::open))</code> ((c:12;::opens)) ((c:13;::files/folders)) and ((c:14;::urls)) with ((c:15;::the default application (or one you specify))) §<br>
-  §§ ((c:16;::xdg-open)) is then X equivalent of ((c:17;::macOs <code>open</code>)) §<br>
+  §§ `((c:11;::open))` ((c:12;::opens)) ((c:13;::files/folders)) and ((c:14;::urls)) with ((c:15;::the default application (or one you specify))) §<br>
+  §§ ((c:16;::xdg-open)) is then X equivalent of ((c:17;::macOs `open`)) §<br>
 ===<br>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2"><code>open</code></th></tr>
+    <tr><th colspan="2">`open`</th></tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><td>((c:1;::-R))</td> <td>((c:2;::reveals the file in finder))</td></tr>
@@ -8627,7 +8627,7 @@ The standard sections of the manual include:
 <br>---<br>
   §§ a ((c:1;::pager)) is ((c:2;::a terminal program)) that ((c:3;::paginates)) its input. §<br>
 §§ the ((c:5;::default pager)) for the terminal is set in the env variable ((c:4;::PAGER)). §<br>
-§§ <code>((c:6;::less))</code> is the most common ((c:7;::pager)). §<br>
+§§ `((c:6;::less))` is the most common ((c:7;::pager)). §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
@@ -9247,7 +9247,7 @@ A link to the homepage of a page is called a surface link
 
 <br>---<br>
   §§ ((c:1;::youtube-dl)) is a ((c:8;::CLI)) tool for ((c:2;::downloading from)) ((c:4;::mainly)) ((c:3;::youtube)), ((c:4;::but also from other platforms)). §<br>
-§§ basic syntax for youtube-dl: <code>((c:5;::youtube-dl)) ((c:6;::[OPTIONS])) ((c:7;::URL {URL))}</code> §<br>
+§§ basic syntax for youtube-dl: `((c:5;::youtube-dl)) ((c:6;::[OPTIONS])) ((c:7;::URL {URL))}` §<br>
 ===<br>
 
 
@@ -9440,12 +9440,12 @@ By default, HTTP is stateless, ergo technologies such as cookies exist to enable
   §§ ((c:1;::Cookies)) are a concept within ((c:2;::HTTP)). §<br>
 §§ ((c:3;::Cookies)) allow ((c:6;::the server)) to ((c:4;::keep track of state)) in ((c:5;::HTTP)), which is itself essentially ((c:4;::stateless)). §<br>
 §§ ((c:7;::Cookies)) are usually ((c:8;::first set)) by ((c:9;::the server)). §<br>
-§§ The ((c:10;::server)) ((c:13;::sets the cookies)) via the ((c:11;::<code>Set-Cookie</code>)) ((c:12;::HTTP Header.)) §<br>
+§§ The ((c:10;::server)) ((c:13;::sets the cookies)) via the ((c:11;::`Set-Cookie`)) ((c:12;::HTTP Header.)) §<br>
 §§ The ((c:14;::browser)) ((c:17;::sends)) ((c:16;::all relevant cookies)) ((c:17;::back to the server)) ((c:15;::on each request)). §<br>
-§§ Syntax of the ((c:18;::<code>Set-Cookie</code> HTTP Header)): <code>((c:19;::Set-Cookie)): ((c:20;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:22;::{;)) ((c:21;::&lt;cookiepropertykey&gt;[=&lt;valuepropertykey&gt;]))((c:22;::} ))</code> §<br>
-§§ The ((c:23;::<code>Set-Cookie</code> HTTP Header)) typically contains ((c:24;::one cookie)) and ((c:24;::its properties)), to ((c:25;::set multiple cookies)) ((c:26;::set multiple headers)) (there is also a way of ((c:27;::separating them with commas)), but ((c:28;::this is nonstandard and often does not work))) §<br>
-§§ The browser ((c:29;::sends cookies back on request)) via ((c:30;::the <code>Cookie</code> HTTP header)). §<br>
-§§ The syntax of the <code>((c:31;::Cookie))</code> header: <code>((c:31;::Cookie:)) ((c:32;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:33;::{;)) ((c:34;::&lt;cookie2key&gt;=&lt;cookie2value&gt;))((c:33;::} ))</code> §<br>
+§§ Syntax of the ((c:18;::`Set-Cookie` HTTP Header)): `((c:19;::Set-Cookie)): ((c:20;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:22;::{;)) ((c:21;::&lt;cookiepropertykey&gt;[=&lt;valuepropertykey&gt;]))((c:22;::} ))` §<br>
+§§ The ((c:23;::`Set-Cookie` HTTP Header)) typically contains ((c:24;::one cookie)) and ((c:24;::its properties)), to ((c:25;::set multiple cookies)) ((c:26;::set multiple headers)) (there is also a way of ((c:27;::separating them with commas)), but ((c:28;::this is nonstandard and often does not work))) §<br>
+§§ The browser ((c:29;::sends cookies back on request)) via ((c:30;::the `Cookie` HTTP header)). §<br>
+§§ The syntax of the `((c:31;::Cookie))` header: `((c:31;::Cookie:)) ((c:32;::&lt;cookiekey&gt;=&lt;cookievalue&gt;))((c:33;::{;)) ((c:34;::&lt;cookie2key&gt;=&lt;cookie2value&gt;))((c:33;::} ))` §<br>
 §§ Since ((c:35;::cookies are sent back on each request)) and since ((c:36;::there are spec-defined size constraints)), ((c:37;::the things sent in cookies)) are usually ((c:38;::quite small, often only a UID)). §<br>
 ===<br>
 
@@ -9467,7 +9467,7 @@ By default, HTTP is stateless, ergo technologies such as cookies exist to enable
 <br>---<br>
   §§ By default, ((c:66;::cookies)) ((c:67;::are only sent)) for ((c:68;::requests)) for ((c:69;::the FQDN that the cookie was sent from)). §<br>
 §§ By default, ((c:70;::cookies)) ((c:71;::sent from a certain FQDN)) are ((c:72;::not included)) in ((c:73;::the browsers requests for subdomains)). §<br>
-§§ Specifying the ((c:74;::<code>Domain</code>)) property of a ((c:75;::cookie)) means ((c:76;::it will be sent)) for ((c:77;::requests for the specified FQDN)), and ((c:76;::all)) subdomains (thus being more permissive than the default!) §<br>
+§§ Specifying the ((c:74;::`Domain`)) property of a ((c:75;::cookie)) means ((c:76;::it will be sent)) for ((c:77;::requests for the specified FQDN)), and ((c:76;::all)) subdomains (thus being more permissive than the default!) §<br>
 §§ By default, ((c:78;::cookies)) are ((c:81;::sent by the browser)) ((c:80;::no matter)) ((c:79;::the path in the URL)) (((c:80;::only)) ((c:79;::the FQDN)) matters). §<br>
 §§ If the ((c:82;::Path)) attribute is ((c:83;::specified for a cookie)), ((c:84;::browsers will only sent the cookie)) on ((c:85;::requests for the specified path (or subpaths))). §<br>
 ===<br>
@@ -10203,7 +10203,7 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 
 <br>---<br>
   §§ WIthin google search, ((c:1;::tbm)) is the key of the query parameter that ((c:2;::specifies the type of search (Image, News, Shopping etc.))) §<br>
-§§ For example, ((c:3;::Specifying the search mode in google search as images)) is done by ((c:4;::<code>tbm=ish</code>)) §<br>
+§§ For example, ((c:3;::Specifying the search mode in google search as images)) is done by ((c:4;::`tbm=ish`)) §<br>
 §§ Force google to ((c:5;::only finde pages from a certain domain)) is done by ((c:6;::site:foo.com)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
@@ -10444,10 +10444,10 @@ RFC 3339 is almost the same as ISO 8601
 ### dice notation
 
 <br>---<br>
-  §§ ((c:6;::Dice notation)): <code>((c:1;::&lt;amount&gt;))((c:2;::d))((c:3;::&lt;sides&gt;))((c:4;::+))((c:5;::&lt;add-to-end-result&gt;))</code> §<br>
+  §§ ((c:6;::Dice notation)): `((c:1;::&lt;amount&gt;))((c:2;::d))((c:3;::&lt;sides&gt;))((c:4;::+))((c:5;::&lt;add-to-end-result&gt;))` §<br>
 §§ In ((c:8;::dice notation)), you can leave out ((c:9;::the amount of dice to roll)), if ((c:7;::its one)). §<br>
 §§ ((c:11;::4d10+3)) is an example of ((c:12;::Dice notation)), it means ((c:13;::roll 4 10-sided dice and add 3 to the overall result)) §<br>
-§§ the shell command ((c:10;::<code>roll</code>)) ((c:14;::rolls dice)), specified in ((c:15;::dice notation)) §<br>
+§§ the shell command ((c:10;::`roll`)) ((c:14;::rolls dice)), specified in ((c:15;::dice notation)) §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
@@ -13502,7 +13502,7 @@ A web framework is a framework for use in web development.
 §§ ((c:4;::Cycle)) can be used to apply classes for ((c:5;::even/odd elements)) or ((c:6;::to any nth elements)). §<br>
 §§ ((c:7;::Without the cycle group paramter)), ((c:8;::all cycles in the document)) ((c:9;::cycle the same thing)) §<br>
 §§ ((c:10;::if you want to cycle multiple things)) in ((c:11;::the same document)), you need to ((c:12;::use cycle group paramters)). §<br>
-§§ The syntax for the cycle ((c:13;::group parameter)) is <code> ((c:14;::"name":))</code>. §<br>
+§§ The syntax for the cycle ((c:13;::group parameter)) is ` ((c:14;::"name":))`. §<br>
 §§ <pre><code>{% cycle "name": item1, item2... %}</code></pre> §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
@@ -13672,19 +13672,19 @@ Jekyll|Ruby
 
 
 <br>---<br>
-  §§ for any page, the <code>((c:17;::page))</code> assoc array contains ((c:18;::the keys of that pages front matter)) §<br>
-§§ the <code>((c:19;::page))</code> assoc array is ((c:20;::autopopulated with certain keys)) beyond ((c:21;::the ones specified in the front matter)), amongst others the key ((c:22;::<code>url</code>)) §<br>
+  §§ for any page, the `((c:17;::page))` assoc array contains ((c:18;::the keys of that pages front matter)) §<br>
+§§ the `((c:19;::page))` assoc array is ((c:20;::autopopulated with certain keys)) beyond ((c:21;::the ones specified in the front matter)), amongst others the key ((c:22;::`url`)) §<br>
 ===<br>
 
 <br>---<br>
   §§ ((c:23;::Layouts)) ((c:24;::wrap around)) your content. §<br>
 §§ ((c:25;::Layouts)) are stored in the ((c:26;::_layouts directory)). §<br>
-§§ For a given post or other page, you specify ((c:28;::which layout it's using)) by using ((c:27;::the <code>layout</code> front matter key)). §<br>
-§§ Layouts can ((c:29;::inherit)) - you do this by ((c:30;::referring to the parent layout)) ((c:31;::within the child layout)) using ((c:32;::the <code>layout</code> front matter key.))&nbsp;§<br>
-§§ Within a layout, ((c:33;::<code>{{content))</code>}} refers to ((c:34;::the content of the post using)) the layout, or ((c:34;::the next-deeper child layout.)) §<br>
+§§ For a given post or other page, you specify ((c:28;::which layout it's using)) by using ((c:27;::the `layout` front matter key)). §<br>
+§§ Layouts can ((c:29;::inherit)) - you do this by ((c:30;::referring to the parent layout)) ((c:31;::within the child layout)) using ((c:32;::the `layout` front matter key.))&nbsp;§<br>
+§§ Within a layout, ((c:33;::`{{content))`}} refers to ((c:34;::the content of the post using)) the layout, or ((c:34;::the next-deeper child layout.)) §<br>
 §§ As a convention, ((c:35;::the root level layout)) is called ((c:36;::default.html)). §<br>
-§§ the <code>((c:37;::layout))</code> assoc arr contains ((c:38;::all metadata of the current layout)). §<br>
-§§ ((c:39;::<code>layout.foo</code>)) allows you to ((c:40;::access key foo of layout front matter)) §<br>
+§§ the `((c:37;::layout))` assoc arr contains ((c:38;::all metadata of the current layout)). §<br>
+§§ ((c:39;::`layout.foo`)) allows you to ((c:40;::access key foo of layout front matter)) §<br>
 ===<br>
 
 
@@ -13692,32 +13692,32 @@ Jekyll|Ruby
   §§ ((c:41;::Includes)) are basically ((c:42;::components)), you can ((c:43;::refer to and include from anywhere you like)). §<br>
 §§ ((c:44;::Includes)) are stored in ((c:45;::the _includes directory.)) §<br>
 §§ ((c:46;::Includes)) may take ((c:48;::arguments)) as ((c:47;::key=value)). §<br>
-§§ Within an include((c:49;::, a parameter foo)) is referred to as <code>((c:50;::include.foo))</code> §<br>
-§§ Include syntax: <code>((c:1;::{%)) ((c:2;::include)) ((c:3;::include-name.html)) ((c:1;::%}))</code> §<br>
+§§ Within an include((c:49;::, a parameter foo)) is referred to as `((c:50;::include.foo))` §<br>
+§§ Include syntax: `((c:1;::{%)) ((c:2;::include)) ((c:3;::include-name.html)) ((c:1;::%}))` §<br>
 ===<br>
 
 <br>---<br>
-  §§ the <code>((c:51;::site))</code> assoc arr contains ((c:52;::all global data)). §<br>
+  §§ the `((c:51;::site))` assoc arr contains ((c:52;::all global data)). §<br>
 ===<br>
 
 <br>---<br>
   §§ Syntax for jekyll ((c:53;::post)) ((c:54;::file names)): ((c:55;::YYYY-MM-DD))((c:56;::-title))((c:57;::.extension)) §<br>
-§§ Jekyll will ((c:62;::auto-generate)) ((c:58;::a <code>post.title</code>))&nbsp;from ((c:59;::the URL = file name)) if not specified §<br>
-§§ Jekyll will ((c:63;::auto generate)) ((c:60;::a <code>post.excerpt</code>))&nbsp;from ((c:61;::the first paragraph)) if not specified §<br>
+§§ Jekyll will ((c:62;::auto-generate)) ((c:58;::a `post.title`))&nbsp;from ((c:59;::the URL = file name)) if not specified §<br>
+§§ Jekyll will ((c:63;::auto generate)) ((c:60;::a `post.excerpt`))&nbsp;from ((c:61;::the first paragraph)) if not specified §<br>
 §§ ((c:64;::Posts)) are specified in ((c:65;::./_posts)) §<br>
-§§ <code>((c:66;::site.posts))</code> contains ((c:67;::an array)) of ((c:68;::all the posts in ./_posts)) §<br>
+§§ `((c:66;::site.posts))` contains ((c:67;::an array)) of ((c:68;::all the posts in ./_posts)) §<br>
 ===<br>
 
 
 <br>---<br>
   §§ Jekylls supports keeping data stored in ((c:69;::./_data)) for ((c:70;::global use)) §<br>
 §§ Jekyll ((c:71;::data files)) may be specified in ((c:72;::yaml, json::2 similar ones)), ((c:73;::csv or tsv::2 similar ones)). §<br>
-§§ Jekyll ((c:74;::data files)) can be accessed via ((c:75;::<code>site.data.filename</code> (no extension)))&nbsp;§<br>
+§§ Jekyll ((c:74;::data files)) can be accessed via ((c:75;::`site.data.filename` (no extension)))&nbsp;§<br>
 §§ Jekyll supports keeping ((c:76;::small mini-posts)) in so-called ((c:77;::collections)). §<br>
 §§ ((c:78;::Any directory in the root folder)) ((c:79;::starting with _)), but not ((c:80;::being one of the predefined directory names (such as _data, _posts))) is considered ((c:81;::a collection)) of ((c:82;::the same name)). §<br>
 §§ Jekyll supports ((c:83;::designating a directory for collections)) instead o((c:84;::f specifying them in the project root in the config)), but this must then ((c:85;::also contain _drafts and _posts, if extant)). §<br>
 §§ Besides ((c:86;::creating a directory)), ((c:87;::collections)) must also be ((c:88;::referenced in the collections array in the config)). §<br>
-§§ ((c:89;::collections)) are ((c:90;::arrays)) available via ((c:91;::the <code>site.collectionname</code> propert))y §<br>
+§§ ((c:89;::collections)) are ((c:90;::arrays)) available via ((c:91;::the `site.collectionname` propert))y §<br>
 ===<br>
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}</span>
@@ -13735,7 +13735,7 @@ Jekyll|Ruby
 
 <br>---<br>
   §§ ((c:9;::Jekyll plugins)) are specified within ((c:10;::the _config.yml)) and within ((c:11;::the gemfile)). §<br>
-§§ In the ((c:12;::gemfile)), ((c:13;::jekyll_plugin))s are specified within ((c:14;::the <code>group :jekyll_plugins</code>)) §<br>
+§§ In the ((c:12;::gemfile)), ((c:13;::jekyll_plugin))s are specified within ((c:14;::the `group :jekyll_plugins`)) §<br>
 ===<br>
 
 <table class="cloze-group hide-if-inactive">
