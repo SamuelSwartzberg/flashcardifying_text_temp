@@ -5483,7 +5483,9 @@ gifsicle is a CLI program to manipulate gifs
 
 <br>---<br>
   §§ `((c:9;::ocrmypdf))` is a command line tool to ((c:10;::add OCR text to scanned PDF files)). §<br>
-§§ <pre><code>ocrmypdf ((c:11;::SOURCE DEST))</code></pre> §<br>
+§§ ```
+ocrmypdf ((c:11;::SOURCE DEST))
+``` §<br>
 ===<br>
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -5777,7 +5779,9 @@ info|read texinfo files
 §§ ((c:12;::\newcommand{\euler}{\mathrm{e})) makes ((c:13;::\euler output \mathrm{e})) §<br>
 ===<br>
 <br>---<br>
-<pre><code>\newcommand{\abs}[1]{\left|#1\right|}</code></pre>
+```
+\newcommand{\abs}[1]{\left|#1\right|}
+```
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
@@ -5883,7 +5887,9 @@ info|read texinfo files
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 <br>---<br>
-<pre><code> \blackbar{101pt}\hspace{100pt minus 2pt}\blackbar{101pt}}YYY</code></pre>
+```
+ \blackbar{101pt}\hspace{100pt minus 2pt}\blackbar{101pt}}YYY
+```
 ===<br>
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
@@ -13498,12 +13504,16 @@ A web framework is a framework for use in web development.
 
 <br>---<br>
   §§ ((c:1;::cycle)) ((c:2;::takes n arguments)) and ((c:3;::prints the next one (from the last time this  was called))). §<br>
-§§ <pre><code>{% cycle item1, item2... %}</code></pre> §<br>
+§§ ```
+{% cycle item1, item2... %}
+``` §<br>
 §§ ((c:4;::Cycle)) can be used to apply classes for ((c:5;::even/odd elements)) or ((c:6;::to any nth elements)). §<br>
 §§ ((c:7;::Without the cycle group paramter)), ((c:8;::all cycles in the document)) ((c:9;::cycle the same thing)) §<br>
 §§ ((c:10;::if you want to cycle multiple things)) in ((c:11;::the same document)), you need to ((c:12;::use cycle group paramters)). §<br>
 §§ The syntax for the cycle ((c:13;::group parameter)) is ` ((c:14;::"name":))`. §<br>
-§§ <pre><code>{% cycle "name": item1, item2... %}</code></pre> §<br>
+§§ ```
+{% cycle "name": item1, item2... %}
+``` §<br>
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
@@ -13538,11 +13548,15 @@ endcase %}</code></pre>
 <br>---<br>
   §§ There are ((c:1;::two different namespaces)) for ((c:2;::variables)) in ((c:3;::liquid)): one for ((c:4;::assign/capture)) and one for ((c:5;::increment/decrement)) §<br>
 §§ ((c:6;::Normal variable assignment)) uses the ((c:7;::assign)) keyword §<br>
-<pre><code>{% assign my_variable = false %}</code></pre>
+```
+{% assign my_variable = false %}
+```
 §§ ((c:8;::{% increment / decrement foo %))} ((c:9;::increments/decrements)) a variable foo ((c:10;::increment)) ((c:12;::variables)) start at ((c:11;::0)) and ((c:10;::decrement)) ((c:12;::variables)) starts at ((c:11;::-1)) §<br>
 §§ ((c:13;::everything within)) ((c:14;::a capture block)) is ((c:15;::assigned to the specified variable)) §<br>
 §§ ((c:17;::capture)) captures ((c:16;::a whole string)) into ((c:18;::a new variable)), allowing ((c:19;::string interpolation)) or ((c:20;::other complex logic)) to generate the variable §<br>
-<pre><code>{% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}</code></pre> 
+```
+{% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}
+``` 
 ===<br>
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
