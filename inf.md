@@ -53,10 +53,10 @@ the {{c19::XML declaration}}  is {{c3::optional}}, {{c3::but if it appears}}, it
 the {{c20::XML declaration}} takes {{c5::three}} parameters:
 <div class="c1-5-scr c12-18-scr">
  <table>
-  <tbody>`{{c6::version}}`|{{c9::The XML version the document is using}}</td>
-  </tr>`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}</td>
-  </tr>`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}</td>
-  </tr>
+  <tbody>`{{c6::version}}`|{{c9::The XML version the document is using}}
+`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}
+`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}
+
   </tbody>
   </table>
 </div>
@@ -163,14 +163,14 @@ Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
 
 <table>
-<tbody>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content</td>
-</tr>⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL</td>
-</tr>⟮c:5;loop⟯|⟮c:10;will loop/loop⟯|IDL & Content</td>
-</tr>⟮c:5;controls⟯|⟮c:10;is showing controls/show controls⟯|IDL & Content</td>
-</tr>⟮c:5;autoplay⟯|⟮c:10;will autoplay/enable autoplay⟯|IDL & Content</td>
-</tr>⟮c:4;ended⟯|⟮c:9;Indicates whether it has finished playing⟯|IDL</td>
-</tr>⟮c:6;playbackRate⟯|⟮c:11;Represents the speed at which the thing is playing⟯|IDL</td>
-</tr>
+<tbody>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content
+⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL
+⟮c:5;loop⟯|⟮c:10;will loop/loop⟯|IDL & Content
+⟮c:5;controls⟯|⟮c:10;is showing controls/show controls⟯|IDL & Content
+⟮c:5;autoplay⟯|⟮c:10;will autoplay/enable autoplay⟯|IDL & Content
+⟮c:4;ended⟯|⟮c:9;Indicates whether it has finished playing⟯|IDL
+⟮c:6;playbackRate⟯|⟮c:11;Represents the speed at which the thing is playing⟯|IDL
+
 </tbody>
 </table>
 
@@ -852,8 +852,8 @@ A static NodeList (or similar) does not reflect changes in the DOM
           <tbody>
             <tr>
               <th colspan="3"><span class="c12-cloze">Element</span></th>
-            </tr>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span></td>
-            </tr>
+            </tr>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
+
           </tbody>
         </table>
       |
@@ -861,19 +861,18 @@ A static NodeList (or similar) does not reflect changes in the DOM
           <tbody>
             <tr>
               <th colspan="2"><span class="c8-cloze">Document</span></th>
-            </tr><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span></td>
-            </tr>
+            </tr><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
+
           </tbody>
         </table>
       |<table><tbody><tr><th><span class="c5-cloze">DocumentFragment</span></th></tr></tbody></table>|
         <table>
           <tbody><tr>
             <th colspan="3"><span class="c1-cloze">CharacterData</span></th>
-          </tr><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span></td>
-          </tr>
+          </tr><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
+
         </tbody></table>
-      </td>
-    </tr>
+
   </tbody>
 </table>
 
@@ -1691,24 +1690,24 @@ The white-space CSS property sets how white space inside an element is handled.
   <tbody>
   <tr>
   <th>⟮c:1;s:1-5;normal⟯</th>
-  <td>⟮c:6;s:6-20;Collapse⟯|⟮c:7;s:6-20;Collapse⟯|⟮c:8;s:6-20;Wrap⟯</td>
-  </tr>
+  <td>⟮c:6;s:6-20;Collapse⟯|⟮c:7;s:6-20;Collapse⟯|⟮c:8;s:6-20;Wrap⟯
+
   <tr>
   <th>⟮c:2;s:1-5;pre⟯</th>
-  <td>⟮c:9;s:6-20;Preserve⟯|⟮c:10;s:6-20;Preserve⟯|⟮c:11;s:6-20;No wrap⟯</td>
-  </tr>
+  <td>⟮c:9;s:6-20;Preserve⟯|⟮c:10;s:6-20;Preserve⟯|⟮c:11;s:6-20;No wrap⟯
+
   <tr>
   <th>⟮c:3;s:1-5;nowrap⟯</th>
-  <td>⟮c:12;s:6-20;Collapse⟯|⟮c:13;s:6-20;Collapse⟯|⟮c:14;s:6-20;No wrap⟯</td>
-  </tr>
+  <td>⟮c:12;s:6-20;Collapse⟯|⟮c:13;s:6-20;Collapse⟯|⟮c:14;s:6-20;No wrap⟯
+
   <tr>
   <th>⟮c:4;s:1-5;pre-wrap⟯</th>
-  <td>⟮c:15;s:6-20;Preserve⟯|⟮c:16;s:6-20;Preserve⟯|⟮c:17;s:6-20;Wrap⟯</td>
-  </tr>
+  <td>⟮c:15;s:6-20;Preserve⟯|⟮c:16;s:6-20;Preserve⟯|⟮c:17;s:6-20;Wrap⟯
+
   <tr>
   <th>⟮c:5;s:1-5;pre-line⟯</th>
-  <td>⟮c:18;s:6-20;Preserve⟯|⟮c:19;s:6-20;Collapse⟯|⟮c:20;s:6-20;Wrap⟯</td>
-  </tr>
+  <td>⟮c:18;s:6-20;Preserve⟯|⟮c:19;s:6-20;Collapse⟯|⟮c:20;s:6-20;Wrap⟯
+
   </tbody>
   </table>
 
@@ -2683,31 +2682,27 @@ colors: {
         `padding-right`, `padding-bottom`,
         `padding-left`, `grid-gap`,
         `grid-column-gap`, `grid-row-gap`
-      </td>
-    </tr>`fontSizes`|`font-size`</td>
-    </tr>`colors`|
+`fontSizes`|`font-size`
+`colors`|
         `color`, `background-color`,
         `border-color`
-      </td>
-    </tr>`fonts`|`font-family`</td>
-    </tr>`fontWeights`|`font-weight`</td>
-    </tr>`lineHeights`|`line-height`</td>
-    </tr>`letterSpacings`|`letter-spacing`</td>
-    </tr>`sizes`|
+`fonts`|`font-family`
+`fontWeights`|`font-weight`
+`lineHeights`|`line-height`
+`letterSpacings`|`letter-spacing`
+`sizes`|
         `width`, `height`, `min-width`,
         `max-width`, `min-height`, `max-height`
-      </td>
-    </tr>`borders`|
+`borders`|
         `border`, `border-top`, `border-right`,
         `border-bottom`, `border-left`
-      </td>
-    </tr>`borderWidths`|`border-width`</td>
-    </tr>`borderStyles`|`border-style`</td>
-    </tr>`radii`|`border-radius`</td>
-    </tr>`shadows`|`box-shadow`, `text-shadow`</td>
-    </tr>`zIndices`|`z-index`</td>
-    </tr>`transitions`|`transition`</td>
-    </tr>
+`borderWidths`|`border-width`
+`borderStyles`|`border-style`
+`radii`|`border-radius`
+`shadows`|`box-shadow`, `text-shadow`
+`zIndices`|`z-index`
+`transitions`|`transition`
+
   </tbody>
 </table>
 
@@ -3546,17 +3541,17 @@ e.g. cmd k then m to select the document language in VSCode
       <th>Action</th>
     </tr>
   </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯</td>
-</tr>⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯</td>
-</tr>⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯</td>
-</tr>⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)</td>
-</tr>⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯</td>
-</tr>⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯</td>
-</tr>⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯</td>
-</tr>⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯</td>
-</tr>⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯</td>
-</tr>⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯</td>
-</tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯
+⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯
+⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯
+⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)
+⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯
+⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯
+⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯
+⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯
+⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯
+⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯
+
   </tbody>
 </table>
 
@@ -3568,17 +3563,17 @@ e.g. cmd k then m to select the document language in VSCode
     <th>action</th>
     <th>programs</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯</td>
-    </tr>⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯</td>
-    </tr>⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯</td>
-    </tr>⟮c:10;A⟯|⟮c:11;Select everything⟯|⟮c:12;SVG-Edit⟯</td>
-    </tr>⟮c:13;D⟯|⟮c:14;Duplicate⟯|⟮c:15;SVG-Edit⟯</td>
-    </tr>⟮c:16;alt-drag⟯|⟮c:17;drag a duplicated shape (duplicate and then move⟯)|⟮c:18;SVG-Edit⟯</td>
-    </tr>⟮c:19;cmd-drag⟯|⟮c:20;drag a duplicated shape (duplicate and then move⟯)|⟮c:21;Affinity designer⟯</td>
-    </tr>⟮c:22;tap spacebar while dragging⟯|⟮c:23;drop a duplicate of the current shape at position⟯|⟮c:24;Inkscape⟯</td>
-    </tr>⟮c:25;shift+click⟯|⟮c:26;select multiple objects⟯|⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯</td>
-    </tr>⟮c:28;F⟯|⟮c:29;center canvas in frame⟯|⟮c:30;SVG-Edit⟯</td>
-    </tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯
+⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯
+⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯
+⟮c:10;A⟯|⟮c:11;Select everything⟯|⟮c:12;SVG-Edit⟯
+⟮c:13;D⟯|⟮c:14;Duplicate⟯|⟮c:15;SVG-Edit⟯
+⟮c:16;alt-drag⟯|⟮c:17;drag a duplicated shape (duplicate and then move⟯)|⟮c:18;SVG-Edit⟯
+⟮c:19;cmd-drag⟯|⟮c:20;drag a duplicated shape (duplicate and then move⟯)|⟮c:21;Affinity designer⟯
+⟮c:22;tap spacebar while dragging⟯|⟮c:23;drop a duplicate of the current shape at position⟯|⟮c:24;Inkscape⟯
+⟮c:25;shift+click⟯|⟮c:26;select multiple objects⟯|⟮c:27;Inkscape, SVG-Edit, Affinity Designer⟯
+⟮c:28;F⟯|⟮c:29;center canvas in frame⟯|⟮c:30;SVG-Edit⟯
+
   </tbody>
 </table>
 
@@ -5716,8 +5711,8 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
                   presentation
                 </span>
               </th>
-            </tr>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯</td>
-            </tr>
+            </tr>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯
+
           </tbody>
         </table>
       </td>
@@ -5731,8 +5726,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
             </tr>
           </tbody>
         </table>
-      </td>
-    </tr>
+
   </tbody>
 </table>
 
@@ -8715,23 +8709,23 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
-⟮c:3;1xx⟯|⟮c:4;Informational⟯</td>
-    </tr>⟮c:5;100⟯|⟮c:6;Continue⟯|⟮c:6;The server is working on it, dammit!⟯
-⟮c:7;2xx⟯|⟮c:8;Success⟯</td>
-    </tr>⟮c:9;200⟯|⟮c:10;OK⟯|⟮c:10;The request is fulfilled.⟯
-⟮c:11;3xx⟯|⟮c:21;Redirection⟯</td>
-    </tr>⟮c:12;301⟯|⟮c:22;Move Permanently⟯|⟮c:22;The resource has moved permanently.⟯
+⟮c:3;1xx⟯|⟮c:4;Informational⟯
+⟮c:5;100⟯|⟮c:6;Continue⟯|⟮c:6;The server is working on it, dammit!⟯
+⟮c:7;2xx⟯|⟮c:8;Success⟯
+⟮c:9;200⟯|⟮c:10;OK⟯|⟮c:10;The request is fulfilled.⟯
+⟮c:11;3xx⟯|⟮c:21;Redirection⟯
+⟮c:12;301⟯|⟮c:22;Move Permanently⟯|⟮c:22;The resource has moved permanently.⟯
 ⟮c:13;302⟯|⟮c:23;Move Temporarily⟯|⟮c:23;The resource has moved temporarily.⟯
 ⟮c:14;304⟯|⟮c:24;Not Modified⟯|⟮c:24;The resource has not been modified⟯
-⟮c:15;4xx⟯|⟮c:25;Client Error⟯</td>
-    </tr>⟮c:16;400⟯|⟮c:26;Bad request⟯|⟮c:26;The server could not understand the request⟯
+⟮c:15;4xx⟯|⟮c:25;Client Error⟯
+⟮c:16;400⟯|⟮c:26;Bad request⟯|⟮c:26;The server could not understand the request⟯
 ⟮c:17;401⟯|⟮c:27;Authentication Required⟯|⟮c:27;Requires Username/Password⟯
 ⟮c:18;403⟯|⟮c:28;Forbidden⟯|⟮c:28;Server refuses to supply the resource, regardless of identity of client⟯
 ⟮c:19;404⟯|⟮c:29;Not Found⟯|⟮c:29;The requested resource cannot be found in the server⟯
 ⟮c:32;405⟯|⟮c:20;Method Not Allowed⟯|⟮c:20;The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯
 ⟮c:33;451⟯|⟮c:30;Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
-⟮c:33;5xx⟯|⟮c:30;Server Error⟯</td>
-    </tr>⟮c:34;500⟯|⟮c:31;Internal Server Error⟯|⟮c:31;Server is confused⟯
+⟮c:33;5xx⟯|⟮c:30;Server Error⟯
+⟮c:34;500⟯|⟮c:31;Internal Server Error⟯|⟮c:31;Server is confused⟯
 ⟮c:35;501⟯|⟮c:39;Method not Implemented⟯|⟮c:39;The method name is invalid (e.g. Get instead of GET⟯)
 ⟮c:36;502⟯|⟮c:40;Bad Gateway⟯|⟮c:40;Proxy recieved bad response from upstream server⟯
 ⟮c:37;503⟯|⟮c:41;Service Unavailable⟯|⟮c:41;Server cannot respond due to overloading or maintenance⟯
@@ -9058,13 +9052,13 @@ checksum|mandatory in IPv6
     <tr>
       <th>0</th>
       <td style="background-color: #fa9;">Source port</td>
-      <td >Destination port</td>
-    </tr>
+      <td >Destination port
+
     <tr>
       <th>4</th>
       <td >Length</td>
-      <td style="background-color: #fa9;">Checksum</td>
-    </tr>
+      <td style="background-color: #fa9;">Checksum
+
   </tbody>
 </table>
 the maximum size of a {{c2::UDP datagram}} is {{c1::2^16 bytes}} (although IPv6 {{c3::jumbograms}} do allow more, and {{c4::headers}} take up some of that)
@@ -14529,12 +14523,12 @@ to en/decode html character escapes, the npm package and concomittant CLI he is 
     <tr><th>Character entity reference / Numeric character reference</th>
     <th>Displays as / creates?</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯</td>
-    </tr>⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯</td>
-    </tr>⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯</td>
-    </tr>⟮c:20;&amp;shy;⟯|⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯</td>
-    </tr>⟮c:22;&amp;#8203;⟯|⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯</td>
-    </tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯
+⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯
+⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯
+⟮c:20;&amp;shy;⟯|⟮c:21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
+⟮c:22;&amp;#8203;⟯|⟮c:23;A zero-width space that allows the browser to break there, when necessary⟯
+
   </tbody>
 </table>
 

@@ -769,12 +769,12 @@ A n-ary function takes n arguments.
       <th>Name</th>
     </tr>
   </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:2;nullary⟯</td>
-    </tr>⟮c:1;1⟯|⟮c:2;unary⟯</td>
-    </tr>⟮c:3;2⟯|⟮c:4;binary⟯</td>
-    </tr>⟮c:5;3⟯|⟮c:6;ternary⟯</td>
-    </tr>⟮c:5;n⟯|⟮c:6;n-ary⟯</td>
-    </tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:2;nullary⟯
+⟮c:1;1⟯|⟮c:2;unary⟯
+⟮c:3;2⟯|⟮c:4;binary⟯
+⟮c:5;3⟯|⟮c:6;ternary⟯
+⟮c:5;n⟯|⟮c:6;n-ary⟯
+
   </tbody>
 </table>
 
@@ -855,12 +855,12 @@ A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;paramete
     </tr>
     <tr>
       <th>⟮c:5;s:5-8;reject H<sub>0</sub>⟯</th>
-      <td>⟮c:1;s:1-4;Type I error⟯|⟮c:2;s:1-4;Correct Conclusion⟯</td>
-    </tr>
+      <td>⟮c:1;s:1-4;Type I error⟯|⟮c:2;s:1-4;Correct Conclusion⟯
+
     <tr>
       <th>⟮c:6;s:5-8;fail to reject H<sub>0</sub>⟯</th>
-      <td>⟮c:3;s:1-4;Correct Conclusion⟯|⟮c:4;s:1-4;Type II error⟯</td>
-    </tr>
+      <td>⟮c:3;s:1-4;Correct Conclusion⟯|⟮c:4;s:1-4;Type II error⟯
+
   </tbody>
 </table>
 
@@ -981,8 +981,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
         ⟮c:3;0⟯
       |
         ⟮c:4;Absolute zero⟯
-      </td>
-    </tr>
+
   </tbody>
 </table>
 
@@ -994,10 +993,10 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
     <tr><th>Temperature (°C)</th>
     <th>Significance</th>
   </tr></thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)</td>
-    </tr>⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)</td>
-    </tr>⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯</td>
-    </tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)
+⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)
+⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯
+
   </tbody>
 </table>
 

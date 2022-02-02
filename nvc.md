@@ -171,15 +171,14 @@ The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its
 One possible grouping of clean language questions (there are others)
 <table class="cloze-group hide-if-inactive">
   <tbody>⟮c:1;intention⟯|⟮c:2;sequence and source⟯</td>
-      <td colspan="3">⟮c:3;developing⟯</td>
-    </tr>||
+      <td colspan="3">⟮c:3;developing⟯
+||
         ⟮c:6;name and address questions⟯<br>
         Purpose: ⟮c:23;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
         questions)) ⟮(c:25;2/3⟯ of questions asked)
       |⟮c:7;asking for a metaphor⟯|
         ⟮c:8;relationship between symbols⟯<br>Purpose: connecting symbols
-      </td>
-    </tr>
+
         <ol>
           <li>⟮c:4;(And) what would X like to have happen?⟯</li>
           <li>⟮c:5;(And) what needs to happen for X?⟯</li>
@@ -218,8 +217,7 @@ One possible grouping of clean language questions (there are others)
           <li>⟮c:32;(And) is there a relationship between X and Y?⟯</li>
           <li>⟮c:33;(And) when X, what happens to Y?⟯</li>
         </ol>
-      </td>
-    </tr>
+
   </tbody>
 </table>
 
