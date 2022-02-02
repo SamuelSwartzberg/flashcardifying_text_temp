@@ -323,7 +323,7 @@ An utterance/text/whatever where the world is changed as a reaction to the text 
 We write down the things already in our shopping cart onto a piece of paper   word-to-world direction of fit
 We put things in a shopping cart based on what's on our shopping list   world-to-word direction of fit
 
-A ((c:2;::loaded question)) is a question that ((c:1;::contains a controversial assumption (presupposition))) (e.g. ((c:3;s:2;::have you stopped beating your wife)))
+A ⟮c:2;loaded question⟯ is a question that ⟮c:1;contains a controversial assumption (presupposition⟯) (e.g. ⟮c:3;s:2;have you stopped beating your wife⟯)
 
 ## logic
 
@@ -356,13 +356,13 @@ Nozick argues one would not want to enter the experience machine, for example be
 ## demands
 
 <br>---<br>
-the original ((c:9;::catch-22)) (since ((c:10;::it's used in many different ways later in the book))): ((c:1;::If you're declared insane, you get sent home from fighting)):
--&gt; ((c:11;s:13-14;::If you say you're insane (or apply for insanity))), that ((c:12;s:13-14;::makes you sane, and so you still have to fight.))
--&gt; And ((c:13;s:11-12;::if you don't say you're insane (or apply for insanity))) ((c:14;s:11-12;::you still have to fight)). 
+the original ⟮c:9;catch-22⟯ (since ⟮c:10;it's used in many different ways later in the book⟯): ⟮c:1;If you're declared insane, you get sent home from fighting⟯:
+-&gt; ⟮c:11;s:13-14;If you say you're insane (or apply for insanity⟯), that ⟮c:12;s:13-14;makes you sane, and so you still have to fight.⟯
+-&gt; And ⟮c:13;s:11-12;if you don't say you're insane (or apply for insanity⟯) ⟮c:14;s:11-12;you still have to fight⟯. 
 ===<br>
-§§ The ((c:2;::original)) ((c:3;::catch-22)) ((c:2;::from the book)) is ((c:4;::just a constructive dilemma)). §<br>
-§§ The term ((c:5;::catch-22)) is also often used as ((c:6;::a synonym for deadlock (in the CS sense))). §<br>
-§§ The term ((c:7;::catch-22)) may at its most broad just refer to ((c:8;::a kind of contradiction or problem involving 2 things.)) §
+§§ The ⟮c:2;original⟯ ⟮c:3;catch-22⟯ ⟮c:2;from the book⟯ is ⟮c:4;just a constructive dilemma⟯. §<br>
+§§ The term ⟮c:5;catch-22⟯ is also often used as ⟮c:6;a synonym for deadlock (in the CS sense⟯). §<br>
+§§ The term ⟮c:7;catch-22⟯ may at its most broad just refer to ⟮c:8;a kind of contradiction or problem involving 2 things.⟯ §
 A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
@@ -384,7 +384,7 @@ Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt
 
 #### the tuvel affair
 
-In ((c:1;::2017)), the journal ((c:2;::hypatia)) published an article by ((c:3;::rebecca tuvel)) in favor of ((c:4;::transracialism)) (which led to a large controversy). ((s:1-4;::After it was released, an ((c:5;::open letter)) was ((c:5;::written)) requesting ((c:6;::the article be retracted)), signed by ((c:7;::800)) scholars. ((s:5-7;::The criticisms  related to tuvel herself were  ((c:8;::an alleged immersion in white and cisgender privilege)), related to the journal ((c:9;::an alleged mishandling of the review process)). ((s:8-9;::The ((c:10;::wider academic community)) reacted to ((c:11;::the open letter)) with ((c:12;::an outporing of support for Tuvel)). After the affair, the journal ((c:13;::was thrown into crisis)).))))))
+In ⟮c:1;2017⟯, the journal ⟮c:2;hypatia⟯ published an article by ⟮c:3;rebecca tuvel⟯ in favor of ⟮c:4;transracialism⟯ (which led to a large controversy). ⟮s:1-4;After it was released, an ((c:5;::open letter⟯ was ⟮c:5;written⟯ requesting ⟮c:6;the article be retracted⟯, signed by ⟮c:7;800⟯ scholars. ⟮s:5-7;The criticisms  related to tuvel herself were  ((c:8;::an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c:9;an alleged mishandling of the review process⟯. ⟮s:8-9;The ((c:10;::wider academic community⟯ reacted to ⟮c:11;the open letter⟯ with ⟮c:12;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c:13;was thrown into crisis⟯.))))))
 The tuvel affair was seen by those who wanted to see it as such as a clash between analytic and continental philosophy.
 
 ## turns

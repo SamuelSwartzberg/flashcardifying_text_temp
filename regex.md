@@ -118,13 +118,13 @@ The index of the next group after the branch reset group is the maximum index th
     </tr>
     <tr>
       <th>Group index</th>
-      <td>((c:1;::1))</td>
-      <td>((c:2;::2))</td>
-      <td>((c:3;::2))</td>
-      <td>((c:4;::3))</td>
-      <td>((c:5;::2))</td>
-      <td>((c:6;::3))</td>
-      <td>((c:7;::4))</td>
+      <td>⟮c:1;1⟯</td>
+      <td>⟮c:2;2⟯</td>
+      <td>⟮c:3;2⟯</td>
+      <td>⟮c:4;3⟯</td>
+      <td>⟮c:5;2⟯</td>
+      <td>⟮c:6;3⟯</td>
+      <td>⟮c:7;4⟯</td>
     </tr>
   </tbody>
 </table>
