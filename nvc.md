@@ -148,26 +148,26 @@ People suffering from -isms such as sexism may face additional hurdles in commun
 
 # clean language
 
-§§ ⟮c:2;Clean language⟯ was created &nbsp;⟮c:1;turn of the 1990s⟯ by ⟮c:3;David Grove⟯ §<br>
-§§ ⟮c:4;Clean language argues⟯ (convincingly, to me, citing amongst others ⟮c:5;Metaphors we live by⟯) and relies on the fact that ⟮c:6;metaphors⟯ are the ⟮c:7;the fundamental matter of thought, what we're made of⟯. Thus they are also ⟮c:8;very important⟯ to us, and ⟮c:9;changing them⟯ is powerful at ⟮c:10;affecting change⟯. §<br>
-§§ ⟮c:11;Clean language⟯ assumes that besides ⟮c:12;the more general/culture-wide conceptual metaphors described by Lakoff and Johnson⟯, there are also ⟮c:13;personal metaphors⟯. §<br>
-§§ ⟮c:14;Clean language⟯ has two roles, the ⟮c:15;questioner⟯ and the ⟮c:16;speaker⟯. §<br>
-§§ The ⟮c:17;questioner⟯ in clean language ⟮c:18;listens⟯ and then ⟮c:19;asks more clean language questions⟯. §<br>
-§§ ⟮c:20;Clean language⟯ emphasizes that if ⟮c:21;you repeat the words of the other person⟯, you should ⟮c:22;parrot-phrase⟯, that is ⟮c:22;use exactly their words⟯. §<br>
-§§ ⟮c:23;Clean language⟯ consists of ⟮c:24;twelve questions⟯ and ⟮c:25;behaving cleanly⟯, which are both an attempt to ⟮c:26;avoid bringing anything that is the questioners⟯, esp. ⟮c:27;the questioners's own metaphors⟯ into the conversation. §<br>
-§§ The ⟮c:28;twelve questions⟯ of ⟮c:29;clean language⟯ have been ⟮c:30;cleansed of assumptions/metaphors (as far as possible⟯) §<br>
-§§ The ⟮c:31;twelve clean language questions⟯ are ⟮c:32;designed to be asked about metaphors⟯, but ⟮c:33;can be asked about anything⟯. §<br>
-§§ ⟮c:34;Behaving cleanly⟯ is acting in such a way to ⟮c:35;attempt to avoid bringing anything that is the questioners⟯, esp. ⟮c:36;the questioners's own metaphors⟯ into the conversation (this is a ⟮c:37;matter of degree⟯, it is ⟮c:38;impossible to behave completely cleanly⟯ ). §<br>
-§§ ⟮c:39;Clean language⟯ is designed to ⟮c:40;bring greater clarity⟯ and perhaps ⟮c:41;change metaphors⟯, and thus ⟮c:42;the person as a result of that⟯, however, it ⟮c:43;takes its time⟯, and is not designed to ⟮c:43;force change⟯. §<br>
-§§ Clean language can also be used in ⟮c:44;a more casual way⟯ for ⟮c:45;more enjoyable socializing⟯. §<br>
-§§ Since clean language is ⟮c:46;very powerful at shining a spotlight⟯, it may be ⟮c:48;better⟯ to ⟮c:47;only use it for positive stuff⟯ unless ⟮c:48;you know what you're doing⟯. §<br>
+⟮c:2;Clean language⟯ was created &nbsp;⟮c:1;turn of the 1990s⟯ by ⟮c:3;David Grove⟯ 
+⟮c:4;Clean language argues⟯ (convincingly, to me, citing amongst others ⟮c:5;Metaphors we live by⟯) and relies on the fact that ⟮c:6;metaphors⟯ are the ⟮c:7;the fundamental matter of thought, what we're made of⟯. Thus they are also ⟮c:8;very important⟯ to us, and ⟮c:9;changing them⟯ is powerful at ⟮c:10;affecting change⟯. 
+⟮c:11;Clean language⟯ assumes that besides ⟮c:12;the more general/culture-wide conceptual metaphors described by Lakoff and Johnson⟯, there are also ⟮c:13;personal metaphors⟯. 
+⟮c:14;Clean language⟯ has two roles, the ⟮c:15;questioner⟯ and the ⟮c:16;speaker⟯. 
+The ⟮c:17;questioner⟯ in clean language ⟮c:18;listens⟯ and then ⟮c:19;asks more clean language questions⟯. 
+⟮c:20;Clean language⟯ emphasizes that if ⟮c:21;you repeat the words of the other person⟯, you should ⟮c:22;parrot-phrase⟯, that is ⟮c:22;use exactly their words⟯. 
+⟮c:23;Clean language⟯ consists of ⟮c:24;twelve questions⟯ and ⟮c:25;behaving cleanly⟯, which are both an attempt to ⟮c:26;avoid bringing anything that is the questioners⟯, esp. ⟮c:27;the questioners's own metaphors⟯ into the conversation. 
+The ⟮c:28;twelve questions⟯ of ⟮c:29;clean language⟯ have been ⟮c:30;cleansed of assumptions/metaphors (as far as possible⟯) 
+The ⟮c:31;twelve clean language questions⟯ are ⟮c:32;designed to be asked about metaphors⟯, but ⟮c:33;can be asked about anything⟯. 
+⟮c:34;Behaving cleanly⟯ is acting in such a way to ⟮c:35;attempt to avoid bringing anything that is the questioners⟯, esp. ⟮c:36;the questioners's own metaphors⟯ into the conversation (this is a ⟮c:37;matter of degree⟯, it is ⟮c:38;impossible to behave completely cleanly⟯ ). 
+⟮c:39;Clean language⟯ is designed to ⟮c:40;bring greater clarity⟯ and perhaps ⟮c:41;change metaphors⟯, and thus ⟮c:42;the person as a result of that⟯, however, it ⟮c:43;takes its time⟯, and is not designed to ⟮c:43;force change⟯. 
+Clean language can also be used in ⟮c:44;a more casual way⟯ for ⟮c:45;more enjoyable socializing⟯. 
+Since clean language is ⟮c:46;very powerful at shining a spotlight⟯, it may be ⟮c:48;better⟯ to ⟮c:47;only use it for positive stuff⟯ unless ⟮c:48;you know what you're doing⟯. 
 
 ## symbols
 
 <br>---<br>
-  §§ ⟮c:34;The things in a persons metaphor world⟯ are called ⟮c:35;symbols⟯. §<br>
-§§ The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its name⟯. §<br>
-§§ ⟮c:39;Symbols⟯ start out ⟮c:40;vague and shadowy⟯, ⟮c:41;asking clean language questions⟯ ⟮c:42;increases clarity⟯. §<br>
+⟮c:34;The things in a persons metaphor world⟯ are called ⟮c:35;symbols⟯. 
+The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its name⟯. 
+⟮c:39;Symbols⟯ start out ⟮c:40;vague and shadowy⟯, ⟮c:41;asking clean language questions⟯ ⟮c:42;increases clarity⟯. 
 ===<br>
 
 One possible grouping of clean language questions (there are others)
@@ -287,7 +287,7 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 ## holding space
 
 <br>---<br>
-  §§ ⟮c:1;holding space⟯ is to ⟮c:4;be with someone,⟯ as much as possible ⟮c:2;making it about them, not about you⟯ and   ⟮c:3;accepting that person unconditionally (no matter what they might say⟯) §<br>
+⟮c:1;holding space⟯ is to ⟮c:4;be with someone,⟯ as much as possible ⟮c:2;making it about them, not about you⟯ and   ⟮c:3;accepting that person unconditionally (no matter what they might say⟯) 
 ===<br>
 
 ## types of questions

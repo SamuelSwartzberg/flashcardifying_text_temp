@@ -360,9 +360,9 @@ the original ⟮c:9;catch-22⟯ (since ⟮c:10;it's used in many different ways 
 -&gt; ⟮c:11;s:13-14;If you say you're insane (or apply for insanity⟯), that ⟮c:12;s:13-14;makes you sane, and so you still have to fight.⟯
 -&gt; And ⟮c:13;s:11-12;if you don't say you're insane (or apply for insanity⟯) ⟮c:14;s:11-12;you still have to fight⟯. 
 ===<br>
-§§ The ⟮c:2;original⟯ ⟮c:3;catch-22⟯ ⟮c:2;from the book⟯ is ⟮c:4;just a constructive dilemma⟯. §<br>
-§§ The term ⟮c:5;catch-22⟯ is also often used as ⟮c:6;a synonym for deadlock (in the CS sense⟯). §<br>
-§§ The term ⟮c:7;catch-22⟯ may at its most broad just refer to ⟮c:8;a kind of contradiction or problem involving 2 things.⟯ §
+The ⟮c:2;original⟯ ⟮c:3;catch-22⟯ ⟮c:2;from the book⟯ is ⟮c:4;just a constructive dilemma⟯. 
+The term ⟮c:5;catch-22⟯ is also often used as ⟮c:6;a synonym for deadlock (in the CS sense⟯). 
+The term ⟮c:7;catch-22⟯ may at its most broad just refer to ⟮c:8;a kind of contradiction or problem involving 2 things.⟯ 
 A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
 
 # continental philosopy
