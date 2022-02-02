@@ -128,7 +128,6 @@ The index of the next group after the branch reset group is the maximum index th
     </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ### reference
 

@@ -161,7 +161,6 @@ People suffering from -isms such as sexism may face additional hurdles in commun
 §§ ⟮c:39;Clean language⟯ is designed to ⟮c:40;bring greater clarity⟯ and perhaps ⟮c:41;change metaphors⟯, and thus ⟮c:42;the person as a result of that⟯, however, it ⟮c:43;takes its time⟯, and is not designed to ⟮c:43;force change⟯. §<br>
 §§ Clean language can also be used in ⟮c:44;a more casual way⟯ for ⟮c:45;more enjoyable socializing⟯. §<br>
 §§ Since clean language is ⟮c:46;very powerful at shining a spotlight⟯, it may be ⟮c:48;better⟯ to ⟮c:47;only use it for positive stuff⟯ unless ⟮c:48;you know what you're doing⟯. §<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}</span>
 
 ## symbols
 
@@ -241,7 +240,6 @@ One possible grouping of clean language questions (there are others)
   </tbody>
 </table>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}</span>
 
 ## flower & checking presumptions
 
@@ -259,7 +257,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 <li>⟮c:4;s:1-3;Remove one⟯</li>
 <li>⟮c:5;s:1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)</li>
 </ol>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ## breaking point story
 
@@ -292,7 +289,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 <br>---<br>
   §§ ⟮c:1;holding space⟯ is to ⟮c:4;be with someone,⟯ as much as possible ⟮c:2;making it about them, not about you⟯ and   ⟮c:3;accepting that person unconditionally (no matter what they might say⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ## types of questions
 
@@ -307,7 +303,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 <tr><td>⟮c:4;closed(-ended) question⟯</td> <td>⟮c:5;A question that can (only) be answered with yes or no⟯</td> <td>⟮c:6;s:5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 # ideas
 

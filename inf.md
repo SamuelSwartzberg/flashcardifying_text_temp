@@ -95,7 +95,6 @@ PI|Processing instruction
 <br>---<br>
   §§ 'Tag name' of the ⟮c:6;processing instruction⟯ to ⟮c:7;link a stylesheet to an xml document⟯ is ⟮c:5;xml-stylesheet⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 #### CDATA
 
@@ -105,7 +104,6 @@ PI|Processing instruction
 §§ ⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:gb;this would allow us to ((c:13;::include HTML within XML without a problem⟯.)) §<br>
 §§ ⟮c:12;CDATA⟯ syntax: `⟮c:6;&lt;![⟯⟮c:7;CDATA⟯⟮c:8;[⟯content...⟮c:9;]]&gt;⟯` §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ### HTML
 
@@ -596,7 +594,6 @@ The most common clearfix technique might be: ::after {
 §§ to ⟮c:52;\label⟯ a ⟮c:53;table/figure⟯, the ⟮c:52;\label⟯ must go ⟮c:54;directly after \caption⟯ §<br>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}</span>
 
 ##### data
 
@@ -621,7 +618,6 @@ Term in a description list with title foo and description/explanation bar|\iten[
 §§ it does not matter ⟮c:6;with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮c:7;always start one and go from there (or whatever you then change it to via css⟯). §<br>
 §§ ⟮c:8;unordered list items⟯ are started by ⟮c:9;-⟯, ⟮c:9;*⟯ or ⟮c:9;+⟯, which can be ⟮c:10;mixed and matched⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ##### containers
 
@@ -771,7 +767,6 @@ $   running number indicator  // $
 <br>---<br>
   §§ it seems that ⟮c:4;SVG elements⟯ will have ⟮c:1;width⟯ and ⟮c:1;height⟯ of ⟮c:2;0⟯ and thus ⟮c:3;be invisble⟯ if ⟮c:5;not otherwise specified⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 §§ In ⟮c:9;SVG⟯, you ⟮c:10;position things⟯ by ⟮c:11;specifying the x and y properties⟯ ⟮c:12;on the elements⟯. §<br>
 
@@ -784,7 +779,6 @@ $   running number indicator  // $
 §§ the ⟮c:1;SVG basic shapes⟯ are a grouping of⟮c:11;, well, basic shapes⟯ §<br>
 §§ SVG ⟮c:12;basic shapes⟯: ⟮c:2;&lt;circle&gt;⟯, ⟮c:3;&lt;ellipse&gt;⟯, ⟮c:4;&lt;line&gt;⟯, ⟮c:5;&lt;polygon&gt;⟯, ⟮c:6;&lt;polyline&gt;⟯, ⟮c:7;&lt;path&gt;⟯ and ⟮c:8;&lt;rect&gt;⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### <text>
 
@@ -793,14 +787,12 @@ $   running number indicator  // $
 §§ In ⟮c:7;SVG⟯, ⟮c:8;text⟯ ⟮c:9;outside of a &lt;text&gt;⟯ ⟮c:4;will not be shown⟯ §<br>
 §§ ⟮c:10;&lt;text&gt;⟯ can contain ⟮c:5;`&lt;tspan&gt;`s⟯, which ⟮c:6;define subtext (lol) for further targeting⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ##### <g>
 
 <br>---<br>
   §§ the ⟮c:3;svg⟯ ⟮c:1;&lt;g&gt; element⟯ is used to ⟮c:2;group ofther elements⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### JSX
 
@@ -961,7 +953,6 @@ A static NodeList (or similar) does not reflect changes in the DOM
     </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### Elements
 
@@ -1807,7 +1798,6 @@ The white-space CSS property sets how white space inside an element is handled.
   </tr>
   </tbody>
   </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ###### Scrolling
 
@@ -1874,7 +1864,6 @@ typically, any edge width is specified as a <length-percentage>
     </div>
   </div>
 </div>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 margin: auto can be used to center a thing horizontally, but not vertically
 
 ####### Border & outline
@@ -2468,7 +2457,6 @@ image-rendering: auto - browser-defined algorithm
 §§ ⟮c:34;iframe⟯ is short for ⟮c:35;inline frame⟯ §<br>
 
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
 
 ### stacking changes
 
@@ -2968,7 +2956,6 @@ Sass syntax that is a CSS superset   SCSS (Sassy CSS)
   color: #cddc39;
 }</code></pre>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ###### mixins
 
@@ -3011,7 +2998,6 @@ Sass syntax that is a CSS superset   SCSS (Sassy CSS)
 }</code></pre>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 #### CSS naming schemes
 
@@ -3065,7 +3051,6 @@ next to its own technologies, bootstrap may require popper
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>))
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 # data
 
@@ -3151,7 +3136,6 @@ csv|comma-separated values
 §§ If in csv/tsv ⟮c:36;a field is wrapped in double quotes to allow the field separator to be included in the fields⟯, ⟮c:37;double qoutes⟯ are then excaped by ⟮c:38;double double quotes⟯. §<br>
 §§ ⟮c:39;Trailing newlines⟯ at the ⟮c:40;end of documents⟯ are ⟮c:41;optional⟯ for ⟮c:42;csv/tsv⟯, ⟮c:43;field separators⟯ at ⟮c:44;the end of the line⟯ will ⟮c:45;create empty fields⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
 ### non-relational data models
 
@@ -3243,7 +3227,6 @@ A ontology languages is a language that describes an ontology.
   §§ ⟮c:1;Folksonomy⟯ is a system where ⟮c:2;users⟯ apply ⟮c:3;public tags⟯ to items, thus over time generating a sort of ⟮c:4;taxonomy⟯. §<br>
 §§ Two types of ⟮c:5;folksonomies⟯ are ⟮c:6;broad⟯, where ⟮c:7;multiple users can apply the same tag⟯, thus ⟮c:7;showing which tags are the most popular⟯, and ⟮c:6;narrow⟯, where ⟮c:7;the same tag can only be applied once⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 booru: image site with foksonomical tags
 boorus: generally look similar to Danbooru, the original
@@ -3470,7 +3453,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:7;Restore tab (editor in VS code⟯)</td><td>⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ####### edit history
 
@@ -3484,7 +3466,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:3;redo⟯</td> <td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ####### browser shortcuts
 
@@ -3500,7 +3481,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:7;download link target⟯</td> <td>⟮c:8;<kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ####### search 
 
@@ -3519,7 +3499,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:9;Open search in project/other large scope/advanced search⟯</td><td>⟮c:10;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯</td></tr>
     </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ####### form navigation
 
@@ -3533,7 +3512,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯</td> <td>⟮c:4;field back⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
 ####### weird mac
@@ -3555,7 +3533,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:13;Fullscreen⟯</td> <td>⟮c:14;<kbd class="key modifier cmd"></kbd> <kbd class="key modifier ctrl"></kbd><kbd>f</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -3566,7 +3543,6 @@ e.g. cmd k then m to select the document language in VSCode
     <tr><td>⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯</td> <td>⟮c:2;non-breaking space (on keyboard⟯)</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -3577,7 +3553,6 @@ e.g. cmd k then m to select the document language in VSCode
     <tr><td>⟮c:1;del key⟯</td> <td>⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 <br><table>
   <thead>
@@ -3594,7 +3569,6 @@ e.g. cmd k then m to select the document language in VSCode
   <tr><td>⟮c:3;don't save⟯</td><td>⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 <table>
   <thead>
@@ -3612,7 +3586,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:5;zoom in⟯</td><td>⟮c:6;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd> <kbd>0</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ####### Anki
 
@@ -3646,7 +3619,6 @@ e.g. cmd k then m to select the document language in VSCode
     <tr><td>⟮c:39;X⟯</td> <td>⟮c:40;Deck home screen⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}</span>
 
 ####### file-related
 
@@ -3664,7 +3636,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:19;delete thingy (if file, move to bin⟯)</td> <td>⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ####### view
 
@@ -3679,7 +3650,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:5;Zoom in⟯</td> <td>⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>=</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ####### text editing 
 
@@ -3713,7 +3683,6 @@ e.g. cmd k then m to select the document language in VSCode
 <tr><td>⟮c:11;<kbd>tab</kbd>⟯</td> <td>⟮c:12;Indent⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 
 ######## video
@@ -3733,7 +3702,6 @@ e.g. cmd k then m to select the document language in VSCode
     <tr><td>⟮c:9;space⟯</td><td>⟮c:10;pause⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ######## discord
 
@@ -3779,7 +3747,6 @@ e.g. cmd k then m to select the document language in VSCode
 </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ######## vector editor
 
@@ -3842,7 +3809,6 @@ e.g. cmd k then m to select the document language in VSCode
     </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>
 
 ######## navigatable
 
@@ -3935,7 +3901,6 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 <br>---<br>
 §§ A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ((c:4;::the set of files that define a theme/skin.⟯)) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 lxappearace is a gtk theme switcher
 
 #### widgeting toolkits
@@ -3998,7 +3963,6 @@ Often (VSCode, Devltools) a command palette is merely a mode of a quick open men
 <tr><td>⟮c:7;&gt;⟯</td> <td>⟮c:8;enter command palette mode⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}</span>
 
 ####### context menu
 
@@ -4042,7 +4006,6 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
   §§ On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. §<br>
   §§ A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;system⟯ ⟮c:13;icons⟯ ⟮h:gb;(such as ((c:14;::power, networks, time⟯))) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 ###### taskbar
 
@@ -4054,7 +4017,6 @@ A taskbar generally positioned ⟮c:4;as a strip along the edge of a screen⟯.
 A taskbar, aside from programs may also have a ⟮c:5;notification section⟯, ⟮c:6;a search box⟯, ⟮c:7;various tools⟯, etc. §<br>
 §§ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a ⟮c:10;taskbar⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ###### activity bar (vscode)
 
@@ -4084,7 +4046,6 @@ A taskbar, aside from programs may also have a ⟮c:5;notification section⟯, �
 <br>---<br>
   §§ ⟮c:15;Extensions⟯ can ⟮c:16;populate all of VS Code's bars⟯ with ⟮c:17;more content⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
 ##### breadcrumbs
 
@@ -4100,7 +4061,6 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 <br>---<br>
 §§ A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ((c:5;::navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ((c:8;::reasonably wide (i.e. not just icons).⟯)))) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 ##### disclosure widgets
 
@@ -4135,7 +4095,6 @@ The dialog element has a boolean attribute open representing whether the dialog 
 §§ A ⟮c:5;popover⟯ is a element/component that usually ⟮c:8;appears⟯ when ⟮c:9;interacting with something⟯ ⟮c:10;directly adjacent to that thing⟯. it ⟮c:11;is a modal (creates a mode⟯). §<br>
 §§ ⟮c:12;Popper⟯ is a ⟮c:13;JS⟯ library for ⟮c:14;tooltips⟯/⟮c:14;popovers⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ##### list box
 
@@ -4168,7 +4127,6 @@ App shortcuts is the webdev name for the set of actions that are shown e.g. when
 §§ A ⟮c:6;FAB⟯ is typically located ⟮c:7;in the bottom right⟯, is fairly ⟮c:8;large⟯ and ⟮c:9;round⟯. §<br>
 §§ A ⟮c:10;FAB⟯ may ⟮c:11;contain more actions⟯ when ⟮c:12;pressed⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ##### icons
 
@@ -4371,7 +4329,6 @@ For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding an
 <tr><td>⟮c:245;#132133⟯</td> <td>⟮c:246;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}</span>
 
 Color temperature is measured in Kelvin.
 incandescent lights|~2500K
@@ -4391,7 +4348,6 @@ candles|1500-2000K
 <tr><td>⟮c:7,21;triadic ⟯</td><td>⟮c:14;h:15-21;Three colors equally spaced on the color wheel⟯</td><td>⟮c:28;h:8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}))</span>
 
 ### blending
 
@@ -4416,7 +4372,6 @@ The two main advantages of sprites over multiple images is that  they can be eas
 §§ Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to see ⟮c:11;smooth movement and not just a series of images⟯. §<br>
 §§ ⟮c:12;1⟯ FPS = ⟮c:13;1⟯ Hz §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 <table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th>medium</th>
@@ -4427,7 +4382,6 @@ The two main advantages of sprites over multiple images is that  they can be eas
 <tr><td>⟮c:3;film⟯</td> <td>⟮c:4;24fps⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ### transparency & opacity
 
@@ -4447,7 +4401,6 @@ The two main advantages of sprites over multiple images is that  they can be eas
 <tr><td>⟮c:7;55% transparency /45% opacity⟯</td> <td>⟮c:8;45% visible⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
 
 ## design
@@ -4468,7 +4421,6 @@ In the image, the {{c11::positive space}} is (probably/arguably) {{c12::the woma
 §§ hostile/defensive architecture might look like ⟮c:7;&lt;image&gt;⟯ §<br>
 §§ The most common people targeted by ⟮c:8;hostile/defensive architecture/design⟯ in the west are ⟮c:9;the homeless⟯ and ⟮c:2;young people⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ## misc
 
@@ -4497,7 +4449,6 @@ open|cannot be en/disabled
 §§ ⟮c:6;Curb cuts⟯ had ⟮c:7;many unexpected benefits⟯ besides ⟮c:8;helping disabled people⟯, giving rise to the term ⟮c:9;curb cut effect⟯. §<br>
 §§ ⟮c:10;The curb cut effect⟯ states that ⟮c:11;accessibility improvements⟯ provide ⟮c:12;many and varied benefits for everyone⟯ besides ⟮c:13;their initial aims⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 #### non-directive play
 
@@ -4507,7 +4458,6 @@ open|cannot be en/disabled
 §§ ⟮c:5;self-directed play⟯ was advocated, especially in ⟮c:6;playgrounds⟯, by ⟮c:7;Isamu Noguchi⟯ §<br>
 §§ ⟮c:8;Noguchi⟯ ⟮c:9;long struggled⟯ to g⟮c:10;et a self-directed play playground built⟯, but ⟮c:11;one was eventually built in Sapporo⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
 ### robots
 
@@ -4525,7 +4475,6 @@ open|cannot be en/disabled
 §§ If ⟮c:29;a page should truly inaccessible to outside forces⟯, ⟮c:30;using robots.txt/noindex tags is not enough⟯, it should then be ⟮c:31;password-protected or similar.⟯ §<br>
 §§ Example noindex tag: `&lt;⟮c:1;meta⟯ name="⟮c:2;robots⟯ (all) / ⟮c:3;googlebot⟯ (only google) content="⟮c:4;noindex⟯"&gt;` §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
 
 #### sitemap
 
@@ -4564,7 +4513,6 @@ In some countries websites, especially those of public sector bodies must confor
 §§ According to the WCAG ⟮c:7;level AA⟯, color should have a ⟮c:8;contrast ratio⟯ of at least ⟮c:9;3:1⟯ for ⟮c:10;large⟯ and ⟮c:9;4.5:1⟯ for ⟮c:10;normal⟯ text §<br>
 §§ According to the WCAG ⟮c:11;level AAA⟯, color should have a ⟮c:12;contrast ratio⟯ of at least ⟮c:13;4.5:1⟯ for ⟮c:14;large⟯ and ⟮c:13;7:1⟯ for ⟮c:14;normal⟯ text §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 #### WCAG success critera
 
@@ -4666,7 +4614,6 @@ secondary -> primary memory|paged/swapped in
   §§ ⟮c:2;Memory fragmentation⟯ is when memory is ⟮c:3;allocated in many non-contiguous blocks⟯, meaning it has ⟮c:1;small spaces that can't store anything useful⟯ §<br>
 §§ ⟮c:4;Memory fragmentation⟯ results in ⟮c:5;the wasting of storage⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ### relation to processor
 
@@ -4783,7 +4730,6 @@ mac
 <tr><td>⟮c:4;eject⟯</td> <td>⟮c:5;ejecting a device⟯</td> <td>⟮c:6;drutil, diskutil⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 
 ### file system
@@ -5096,7 +5042,6 @@ piping to `source /dev/stdin` executes the text as a command
 ##### Mac
 
 ⟮h:all;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c:2;macOs⟯'s ⟮c:1;/private⟯ folder contains ⟮c:3;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s:1-3;((c:4;::etc⟯, ⟮c:5;tmp⟯, and ⟮c:6;var⟯))
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## files
 
@@ -5139,7 +5084,6 @@ rnr   regex renaming utility that actually works well
 <br>---<br>
   §§ further, ⟮c:19;diff-like output⟯ is now used in ⟮c:20;a wide variety of gui applications⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ### files as binary
 
@@ -5172,7 +5116,6 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 <tr><td>⟮c:5;r⟯</td> <td>⟮c:6;read⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 
 #### 7 types of files
@@ -5337,7 +5280,6 @@ A socket in unix is realized as a file descriptor
     <tr><td>⟮c:51;shell script⟯</td> <td>⟮c:52;.sh⟯</td></tr>
     </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}</span>
 
 #### binary
 
@@ -5358,7 +5300,6 @@ Binary files are generally smaller and quicker to process than plaintext files
 §§ data URI syntax `⟮c:21;data:⟯⟮c:22;[&lt;media type&gt;]⟯⟮c:23;[;base64]⟯⟮c:24;,&lt;data&gt;⟯` §<br>
 base64 is a command-line program to en/decode things as base64
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
 ##### bitmaps
 
@@ -5468,7 +5409,6 @@ SVG|Scalable Vector Graphics
   §§ To ⟮c:2;select a color in affinity designer⟯ (must be in ⟮c:3;Pixel Persona⟯) ⟮c:1;Select &gt; Select Sample Color⟯ §<br>
 §§ To ⟮c:4;turn a color transparent⟯ in affinity designer ⟮c:5;select a color, then delete it with backspace⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ####### viewers
 
@@ -5499,7 +5439,6 @@ ocrmypdf ⟮c:11;SOURCE DEST⟯
 <tr><td>⟮c:7;change/correct rotation (the one in steps of 90°⟯)</td> <td>⟮c:8;`--rotate-pages`⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
 ######## imagemagick
 
@@ -5554,7 +5493,6 @@ Image: rose.jpg
 <tr><td>⟮c:29;`-flip`⟯</td> <td>⟮c:30;Change to upside down⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
 
 #### plaintext
 
@@ -5744,7 +5682,6 @@ RTF|Rich Text Format
 §§ <q>tex</q> is properly capitalized ⟮c:23;TeX⟯ §<br>
 §§ the x in ⟮c:24;tex and latex⟯ is pronounced as ⟮c:25;a voiceless velar fricative (e.g. loch, bach⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
 
 §§ ⟮c:10;latex⟯ is ⟮c:11;a set of tex macros⟯ that is supposed to be ⟮c:12;more semantic⟯. §<br>
 texinfo is a set of macros for tex for generating hypertextual documentation
@@ -5768,7 +5705,6 @@ info|read texinfo files
 §§ ⟮c:32;Most (afaik) commands⟯ in ⟮c:33;declaration (\command (no args⟯)) form can also be used  ⟮c:26;in an environment form⟯ §<br>
 §§ ⟮c:34;The environment form⟯ of a command is based on ⟮c:35;its declaration form.⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}</span>
 
 ######### new commands
 
@@ -5783,7 +5719,6 @@ info|read texinfo files
 \newcommand{\abs}[1]{\left|#1\right|}
 ```
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ######## Sections
 
@@ -5810,7 +5745,6 @@ info|read texinfo files
 </ol>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 ######## latex groups
 
@@ -5818,7 +5752,6 @@ info|read texinfo files
   §§ in Latex, ⟮c:2;groups⟯ ⟮c:1;create a scope⟯ §<br>
 §§ `⟮c:3;\bgroup ... \egroup⟯` or ⟮c:4;`{ ... }`⟯ ⟮c:5;delimit a group⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ######## latex labels and refs
 
@@ -5859,7 +5792,6 @@ info|read texinfo files
 <tr><td>⟮c:11;\eqref{foo}⟯</td> <td>⟮c:12;returns the index of foo, but surrounded by parentheses⟯</td> <td>⟮c:13;amsmath⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}</span>
 
 ######## Lengths
 
@@ -5884,7 +5816,6 @@ info|read texinfo files
 <tr><td>⟮c:3;minus &lt;length&gt;⟯</td> <td>⟮c:4;length can shrink by that amount⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 <br>---<br>
 ```
@@ -5892,7 +5823,6 @@ info|read texinfo files
 ```
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
 ######### creating lengths
 
@@ -5913,7 +5843,6 @@ info|read texinfo files
   </tbody>
 </table>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ######## math
 
@@ -5924,7 +5853,6 @@ info|read texinfo files
 §§ the package ⟮c:3;mathtools⟯ is ⟮c:4;a superset of⟯ ⟮c:5;amsmath⟯, and also ⟮c:6;fixes some of its bugs⟯ §<br>
 §§ the package ⟮s:9-10;((c:7;::amssymb⟯ ⟮c:8;adds more math symbols⟯)); the package ⟮s:7-8;((c:9;::amsthm⟯ ⟮c:10;adds more theorem/proof related stuff⟯)). ⟮c:11;these both⟯ ⟮c:12;need to be separately loaded from amsmath/mathtools⟯ if desired. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ######### environments
 
@@ -5983,7 +5911,6 @@ info|read texinfo files
 
 ⟮h:all;<img src="sm_CkJlF.png">⟯
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}</span>
 
 ######### newtheorem
 
@@ -6011,7 +5938,6 @@ info|read texinfo files
 \begin{theo}</code></pre>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ######## Symbols
 
@@ -6027,7 +5953,6 @@ info|read texinfo files
   §§ For greek letters, if the ⟮c:4;first letter⟯ is ⟮c:5;lowercase⟯, it will render the ⟮c:6;lowercase letter⟯, if the ⟮c:4;first letter⟯ is ⟮c:5;uppercase⟯, it will render the ⟮c:6;uppercase letter⟯. §<br>
 §§ so ⟮c:7;\pi⟯ ⟮c:8;inserts a lowercase pi π⟯ and ⟮c:7;\Pi⟯ ⟮c:8;inserts an uppercase pi Π⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ######### logic symbols
 
@@ -6066,7 +5991,6 @@ symbol|command(s)|requires package
   §§ ⟮c:9;\dots⟯ ⟮c:10;is equivalent to \ldots⟯ in ⟮c:11;vanilla latex⟯. §<br>
 §§ If using ⟮c:12;amsmath⟯ and ⟮c:13;within math mode⟯, ⟮c:14;\dots⟯ ⟮c:15;decides between \ldots and \cdots⟯ ⟮c:16;based on context⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 ######## language & encoding
 
@@ -6081,7 +6005,6 @@ symbol|command(s)|requires package
 <tr><td>⟮c:5;inputenc⟯</td> <td>⟮c:6;input character encoding⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ######## beginning of document
 
@@ -6125,7 +6048,6 @@ symbol|command(s)|requires package
   §§ ⟮c:40;\maketitle⟯ then ⟮c:41;renders top matter⟯ into ⟮c:42;the title page⟯ §<br>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}</span>
 
 
 
@@ -6217,7 +6139,6 @@ symbol|command(s)|requires package
 §§ ⟮c:66;theorem⟯ is an ⟮c:67;environment⟯ that ⟮c:68;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) §<br>
 ===<br>
 <div class="flex-container">⟮h:all;<img src="sm_Beamerblock.png">⟯⟮h:all;<img src="sm_Beamercolumns.png">⟯⟮h:all;<img src="sm_Beamermaths.png"> ⟯</div>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}</span>
 
 ######### KOMAScript
 
@@ -6251,7 +6172,6 @@ symbol|command(s)|requires package
   </tbody>
 </table>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}</span>
 
 ######## inline text formatting
 
@@ -6259,7 +6179,6 @@ symbol|command(s)|requires package
   §§ ⟮c:1;centering⟯ is a ⟮c:2;declaration form command⟯ that ⟮c:3;centers content⟯. §<br>
 §§ ⟮c:4;center⟯ is ⟮c:5;an environment⟯ that ⟮c:6;centers content⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ######## compilation
 
@@ -6286,14 +6205,12 @@ symbol|command(s)|requires package
 §§ The reason ⟮c:17;latex needs to compile at least twice⟯ is so ⟮c:18;it can populate the references⟯ for things like ⟮c:19;lot, lof, toc as well as various things in .aux⟯ correctly. §<br>
 §§ The ⟮c:20;aux⟯ file keeps track of ⟮c:21;various things relevant to latex compilation⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
 ######### logging
 
 <br>---<br>
   §§ ⟮c:1;Logging⟯ is done to ⟮c:2;.log⟯ for ⟮c:4;latex itself⟯ and ⟮c:3;.blg⟯ for ⟮c:4;bibtex/biber⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ######### synctex
 
@@ -6326,7 +6243,6 @@ symbol|command(s)|requires package
 <br>---<br>
   §§ to style headers and footers with ⟮c:24;fancyhdr⟯ in ⟮c:2;double-sided documents (e.g. books⟯) use ⟮c:6;\fancyhead⟯ and ⟮c:6;\fancyfoot⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}</span>
 
 ######### ending commands
 
@@ -6338,7 +6254,6 @@ symbol|command(s)|requires package
 §§ ⟮c:10;\newpage⟯ and ⟮c:11;\clearpage⟯ both ⟮c:9;generate a new page (/end the current page⟯) §<br>
 §§ ⟮c:12;\clearpage⟯ is like ⟮c:12;\newpage⟯, but ⟮c:12;\clearpage⟯ ⟮c:14;forces floats to go on a new page⟯, while ⟮c:12;\newpage⟯ will in multicollumn mode ⟮c:13;actually just create a new column (not necessary a new page⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 ######### pdf metadata
 
@@ -6349,7 +6264,6 @@ symbol|command(s)|requires package
 §§ Arguments to ⟮c:4;pdfbookmark⟯⟮c:3;[section]⟯{{c2::{Title} }}{{c1::{uid(of some kind, no standard)} }} §<br>
 §§ ⟮c:12;hypcap⟯ is a package extending ⟮c:14;hyperref⟯ {{c13::make hyperref figure links link to the correct thing} §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ######### page geometry
 
@@ -6360,7 +6274,6 @@ symbol|command(s)|requires package
 §§ You can use ⟮c:9;\newgeometry{options⟯} to ⟮c:10;change the page layout⟯ for ⟮c:11;the following pages⟯, and §<br>
 §§ ⟮c:12;\restoregeometry⟯ to ⟮c:13;reset the page layout to the original state⟯ (both package ⟮c:14;geometry⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ########## lscape
 
@@ -6368,7 +6281,6 @@ symbol|command(s)|requires package
   §§ using the package ⟮c:1;lscape⟯, you can use ⟮c:4;the landscape environment⟯ to make ⟮c:5;the thing go into landscape mode⟯ §<br>
 §§ If using ⟮c:2;pdflatex⟯, you use ⟮c:3;pdflscape⟯ instead of ⟮c:6;lscape⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ######### images
 
@@ -6378,7 +6290,6 @@ symbol|command(s)|requires package
 §§ To ⟮c:8;include an actual image⟯ with ⟮c:9;graphicx⟯, use ⟮c:10;\includgraphics{path⟯}. §<br>
 §§ ⟮c:11;Changing attributes of images⟯ included w/ graphics is done in ⟮c:12;the optional argument⟯ of ⟮c:13;\includegraphics⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ######### hyphenation
 
@@ -6401,7 +6312,6 @@ symbol|command(s)|requires package
 <tr><td>⟮c:9;-⟯</td> <td>⟮c:10;a hyphen⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
 ######### blockquotes
 
@@ -6421,7 +6331,6 @@ symbol|command(s)|requires package
   </tbody>
 </table>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ######### verbatim
 
@@ -6436,7 +6345,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 <tr><td>⟮c:3;verbatim⟯</td> <td>⟮c:4;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ######### drawing (tikz)
 
@@ -6446,7 +6354,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 §§ ⟮c:6;TikZ⟯ has ⟮c:7;its own pacakge/library system⟯, for which you ⟮c:8;import packages/libraries⟯ via ⟮c:9;\usetikzlibrary⟯ in ⟮c:10;the preamble⟯ §<br>
 §§ ⟮c:11;tikzpicture⟯ is the ⟮c:12;environment⟯ that ⟮c:13;delimits tikz commands to draw an image⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}</span>
 
 ######### resizing braces
 
@@ -6457,7 +6364,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 §§ ⟮c:8;prefixing⟯ ⟮c:9;parentheses, square brackets or (escaped) curly brackets⟯ with ⟮c:10;\left⟯ (if ⟮c:11;opening⟯) or ⟮c:10;\right⟯ (if ⟮c:11;closing⟯) will ⟮c:12;make them resize if around something larger (e.g. a fraction⟯) §<br>
 ± e.g. `$$\left[\frac{foo}{bar}\right]$$` ±<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ######### links (hyperref)
 
@@ -6469,7 +6375,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 §§ ⟮c:7;\includepdf⟯ allows specifying ⟮c:8;how you want to include what⟯ in ⟮c:9;its options⟯ §<br>
 §§ ⟮c:10;to control the pages that are included⟯, \includepdf⟮c:11;[pages=foo]⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}</span>
 
 ######### color
 
@@ -6490,7 +6395,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 <tr><td>⟮c:5;\textcolor{color}{text}⟯</td> <td>⟮c:6;colors the text in a specific color⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 ######### misc
 
@@ -6506,7 +6410,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 <tr><td>⟮c:7;\neg&lt;whatever&gt;space (\negmedspace, \negthickspace⟯)</td> <td>⟮c:8;negative space (pulls things closer together⟯)</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -6519,7 +6422,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 <tr><td>⟮c:5;a' or a^{\prime}⟯</td> <td>⟮c:6;render an a with a prime⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ####### MD
 
@@ -6528,7 +6430,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
 §§ In ⟮c:7;markdown⟯, you need to ⟮c:3;put blank lines⟯ ⟮c:4;before and after⟯ ⟮c:5;block-level⟯ elements, this includes ⟮c:6;HTML in markdown⟯. §<br>
 §§ To ⟮c:8;indent something under something else⟯ in md, ⟮c:9;indent the source code thing by four spaces⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ######## GFM
 
@@ -6536,7 +6437,6 @@ Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7:
   §§ ⟮c:1;Github-flavored⟯ ⟮c:2;markdown⟯ supports creating ⟮c:3;task lists⟯ via the syntax ⟮c:4;`- [ ]`⟯ §<br>
 §§ You ⟮c:5;complete⟯ ⟮c:6;github-flavored markdown task lists⟯ via the syntax `⟮c:7;- [x]⟯` §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ###### non-markup
 
@@ -6624,7 +6524,6 @@ VTODO   Task/Todo
 §§ TOML also supports ⟮c:17;JSON style tables⟯, (though ⟮c:18;they use = instead of :⟯), but only if ⟮c:19;they do not contain a newline⟯. §<br>
 §§ TOML: ⟮c:20;fruit.apple.color = "red"⟯ produces ⟮c:21;a table named fruit that has a table named apple that has a key color with the value red⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
 ######## YAML
 
@@ -6651,7 +6550,6 @@ YAML|YAML Ain't Markup Language
 <tr><td>⟮c:5;&lt;&lt;⟯</td> <td>⟮c:6;Merge key⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}</span>
 
 ######## JSON
 
@@ -6762,7 +6660,6 @@ WebVTT|Web Video Text Tracks Formats
   §§ If you ⟮c:72;specify timestamp text (WebVTT only⟯), then ⟮c:73;any text before a timestamp text whose time you are at or after⟯ is ⟮c:74;previous text⟯, ⟮c:75;the text from the current to the next timestamp tag⟯ is ⟮c:76;active text⟯ and ⟮c:77;text after the next timestamp tag⟯ is ⟮c:78;future text⟯. §<br>
 §§ If we specify ⟮c:79;&lt;track kind="chapters"&gt;⟯, cues ⟮c:80;may not overlap time-wise⟯, and payloads ⟮c:81;may not contain tags⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}</span>
 
 ####### misc
 
@@ -6908,7 +6805,6 @@ If you refer to an issue with {{c2::#number}} and a word such {{c3::as closes, f
 §§ An ⟮c:11;electrical connector⟯ with ⟮c:12;male gender⟯ is also called ⟮c:13;a plug.⟯ §<br>
 §§ An ⟮c:14;electrical connector⟯ with ⟮c:15;female gender⟯ is also called ⟮c:16;a socket/jack⟯. §<br>
 §§ A ⟮c:17;terminal⟯ is ⟮c:18;the point where a conductor ends⟯. It may be ⟮c:19;an electrical connector⟯. §<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
 
 ### transistor -> logic gate -> logic circut
 
@@ -7337,7 +7233,6 @@ Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption 
 <br>---<br>
   §§ For ⟮c:23;digital signing⟯, ⟮c:25;you⟯ ⟮c:24;encrypt it with your private key⟯. ⟮c:25;The recipient⟯ ⟮c:24;decrypts it with your public key.⟯ This proves ⟮c:26;that the message is from you⟯, since only ⟮c:27;your public key can decrypt things encrypted with your private key⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}</span>
 
 ### random numbers
 
@@ -7394,7 +7289,6 @@ A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}
 <br>---<br>
   §§ ⟮c:14;public key⟯ ⟮c:15;mitm attacks⟯ are countered with ⟮c:16;certificate authorities⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}</span>
 
 #### XSS
 
@@ -7473,7 +7367,6 @@ to send notifications on linux, you can use the CLI notify-send.
   §§ ⟮c:1;FontBook⟯ is the ⟮c:2;mac⟯ GUI for ⟮c:3;font handling⟯. §<br>
 §§ For ⟮c:4;manual font installation⟯ on mac, you can ⟮c:5;copy them⟯ to ⟮c:6;/Library/Fonts⟯ or ⟮c:6;~/Library/Fonts⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 #### text expanders
 
@@ -7499,7 +7392,6 @@ Text expanders are programs which allow OS-wide macros.
       params:
         cmd: "echo $ESPANSO_MYTIME | rev"</code></pre>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 
 <br>---<br>
@@ -7517,7 +7409,6 @@ Text expanders are programs which allow OS-wide macros.
             - "Everything you can imagine is real."
             - "Whatever you do, do it well."</code></pre>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ### kernelland
 
@@ -7556,7 +7447,6 @@ Docker is the most common service for os-level virtualiztion/containerization.
 <br>---<br>
   §§ Right-clicking the ⟮c:1;windows start button⟯ brings up a ⟮c:2;context menu⟯ with ⟮c:3;a bunch of system tools⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ## *nix
 
@@ -7607,12 +7497,10 @@ The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, 
 <br>---<br>
   §§ ⟮c:2;Android features⟯ depend on the relevant ⟮c:1;API level⟯, which starts at ⟮c:3;1⟯ and is at ⟮c:4;30⟯ as of android ⟮c:5;11⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 <br>---<br>
   §§ Curreny android has one ⟮c:1;API level⟯ per ⟮c:2;major version⟯ (e.g. ⟮c:2;android 11⟯), but it used to be ⟮c:3;multiple ones per version⟯ (bc in the past ⟮c:4;minor versions⟯, e.g. ⟮c:4;2.2.⟯ Gingerbread and even ⟮c:5;patch versions⟯, e.g. ⟮c:5;2.2.3⟯ Gingerbread ⟮c:6;introduced new features⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 #### libraries & systems
 
@@ -7815,7 +7703,6 @@ termux-open   open something it its default application
 <tr><td>⟮c:9;-t⟯</td> <td>⟮c:10;open the file with your default text editor⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}</span>
 
 #### misc
 
@@ -7851,7 +7738,6 @@ formatting-syntax ::= {<option>}[ +<output-format-specifier>]
 <tr><td>⟮c:5;-I/--iso-8601⟯</td> <td>⟮c:6;output the date as ISO 8601⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 Sleep is a command that waits for the specified time.
 sleep-command ::= sleep{ <number><suffix>}
@@ -8635,7 +8521,6 @@ The standard sections of the manual include:
 §§ the ⟮c:5;default pager⟯ for the terminal is set in the env variable ⟮c:4;PAGER⟯. §<br>
 §§ `⟮c:6;less⟯` is the most common ⟮c:7;pager⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span>
 
 ### users and groups
 
@@ -8747,7 +8632,6 @@ full duplex|bidirectional, both simultaneously
 §§ In technical contexts, something ⟮c:3;fresh⟯ is ⟮c:4;still relevant/valid/useful⟯. §<br>
 §§ In technical contexts, something ⟮c:5;stale⟯ is ⟮c:6;no longer relevant/valid/useful⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## interfaces 
 
@@ -8785,7 +8669,6 @@ A polyfill is a shim for a browser API, which passes it through if available, an
     <tr><td>⟮c:1;DWD open weather data⟯</td> <td>⟮c:2;Bright Sky⟯</td> <td>⟮c:3;JSON⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ## protocols
 
@@ -9066,7 +8949,6 @@ IP packets are transfered in frames between routers.
   </tbody>
 </table>
 <style> tr td {width: 15%} tr th {width: 40%} </style>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ##### hardware
 
@@ -9245,7 +9127,6 @@ A link to the homepage of a page is called a surface link
     <tr><td>⟮c:1;wttr.in⟯</td> <td>⟮c:2;get weather⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
 ####### various data-fetching CLIs
 
@@ -9436,7 +9317,6 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 
 ⟮h:all;<img src="sm_tmpyvxwccqz.png">⟯
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}</span>
 
 ######### cookies
 
@@ -9505,7 +9385,6 @@ By default, HTTP is stateless, ergo technologies such as cookies exist to enable
   §§ A ⟮c:58;zombie cookie⟯ is a cookie that ⟮c:59;is restored even when deleted⟯, by using ⟮c:60;various nooks and crannies of different internet technologies.⟯ §<br>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}</span>
 
 ######### Content Negotiation
 
@@ -9744,7 +9623,6 @@ checksum|mandatory in IPv6
     </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 the maximum size of a {{c2::UDP datagram}} is {{c1::2^16 bytes}} (although IPv6 {{c3::jumbograms}} do allow more, and {{c4::headers}} take up some of that)
 
 ##### layer 3
@@ -9976,7 +9854,6 @@ Loopback is the routing of signals/streams back to their source without intentio
 <tr><td>⟮c:7;<img src="sm_anycast.svg">⟯</td> <td>⟮c:8;anycast⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 
 #### topologies
@@ -10003,7 +9880,6 @@ A daisy chain is a topology where devices are linked in a line or ring.
 <tr><td>⟮c:13;tree⟯</td> <td>⟮c:14;<img src="TreeNetwork.svg">⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ### types
 
@@ -10053,7 +9929,6 @@ BCPs are a subset of RFCs.
 §§ ⟮c:9;W3Schools⟯ is a website for ⟮c:3;documentation/information⟯ for ⟮c:4;web technologies/languages⟯ as well as ⟮c:4;other languages⟯. §<br>
 §§ In ⟮c:5;the early 2010s⟯ ⟮c:10;W3Schools⟯ was known to have ⟮c:6;much low-quality information and errors⟯, leading to ⟮c:7;the website w3fools pointing it out⟯. However, ⟮c:8;today, most of it has been fixed⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span>
 
 ##### the web
 
@@ -10079,7 +9954,6 @@ In qutebrowser, quickmarks are bookmarks that have a short name
   §§ For qutebrowser, you do ⟮c:1;advanced config⟯ in ⟮c:2;the config.py⟯ §<br>
 §§ In the config.py of qutebrowser, you ⟮c:3;can change most settings⟯ ⟮c:4;on the `c` object⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ###### file-sharing
 
@@ -10212,7 +10086,6 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 §§ For example, ⟮c:3;Specifying the search mode in google search as images⟯ is done by ⟮c:4;`tbm=ish`⟯ §<br>
 §§ Force google to ⟮c:5;only finde pages from a certain domain⟯ is done by ⟮c:6;site:foo.com⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ### fora
 
@@ -10224,7 +10097,6 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 §§ ⟮c:11;Textboards⟯ as well as ⟮c:11;imageboards⟯ were invented in ⟮c:12;Japan⟯. §<br>
 §§ ⟮c:1;Textboards⟯ such as ⟮c:2;2channel⟯ are generally popular in ⟮c:3;Japan only⟯, while ⟮c:1;imageboards⟯ (e.g. in the form of ⟮c:2;4chan⟯) are popular in ⟮c:3;english-speaking countries too⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}</span>
 
 # applications
 
@@ -10394,7 +10266,6 @@ the locale command shows the currently specfied locales.
 §§ In HTML, the ⟮c:54;lang attribute⟯ takes ⟮c:55;BCP 47 language tags⟯. §<br>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}</span>
 
 
 
@@ -10445,7 +10316,6 @@ RFC 3339 is almost the same as ISO 8601
 §§In ⟮c:14;some places⟯ (e.g. ⟮c:14;discord⟯), you can ⟮c:15;prefix⟯ ⟮c:16;emoji shortcodes⟯ with ⟮c:15;+⟯ to ⟮c:17;add a reaction⟯.§<br>
  §§ I can ⟮c:20;type emoji using emoji shortcodes⟯ but ⟮c:18;using spaces instead of underscores⟯ anywhere using ⟮c:19;espanso⟯. §<br>
 </section>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 ### dice notation
 
@@ -10455,7 +10325,6 @@ RFC 3339 is almost the same as ISO 8601
 §§ ⟮c:11;4d10+3⟯ is an example of ⟮c:12;Dice notation⟯, it means ⟮c:13;roll 4 10-sided dice and add 3 to the overall result⟯ §<br>
 §§ the shell command ⟮c:10;`roll`⟯ ⟮c:14;rolls dice⟯, specified in ⟮c:15;dice notation⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ## non-file formats
 
@@ -12234,7 +12103,6 @@ SCSS/Sass
 <tr><td>⟮c:3;quote(foo) or string.quote(foo⟯)</td> <td>⟮c:4;return string, but quoted⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
 ##### String replacement
@@ -12991,7 +12859,6 @@ In ruby, methods that do something destructive are marked by a !
 <tr><td>⟮c:3;instance methods⟯</td> <td>⟮c:4;#method⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 
 #### pure OO
@@ -13278,7 +13145,6 @@ Syntax alwas keyword <path> [as <name>]
 §§ ⟮c:7;\include⟯ but not ⟮c:7;\import⟯ ⟮c:8;adds a \clearpage when importing⟯, and thus ⟮c:9;can't be used in the preamble⟯ §<br>
 §§ using ⟮c:10;\include⟯ allows you to use ⟮c:11;\includeonly⟯, which takes ⟮c:12;an argument⟯ of ⟮c:13;a list⟯ and will ⟮c:14;only import the \includes listed within⟯, cutting down on ⟮c:15;compile time⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}</span>
 
 ### exporting
 
@@ -13500,7 +13366,6 @@ A web framework is a framework for use in web development.
 {% endfor %}</code></pre>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 <br>---<br>
   §§ ⟮c:1;cycle⟯ ⟮c:2;takes n arguments⟯ and ⟮c:3;prints the next one (from the last time this  was called⟯). §<br>
@@ -13515,7 +13380,6 @@ A web framework is a framework for use in web development.
 {% cycle "name": item1, item2... %}
 ``` §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -13529,7 +13393,6 @@ A web framework is a framework for use in web development.
 <tr><td>⟮c:7;{% tablerow foo in bar ...⟯</td> <td>⟮c:8;generate html tables⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 <br>---<br>
 <pre><code>{% liquid
@@ -13558,7 +13421,6 @@ endcase %}</code></pre>
 {% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}
 ``` 
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}</span>
 
 #### front-end frameworks
 
@@ -13591,7 +13453,6 @@ endcase %}</code></pre>
 <br>---<br>
   §§ ⟮c:13;Static-site generator⟯ by ⟮c:14;github⟯: ⟮c:15;Jekyll⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}</span>
 
 ##### different products
 
@@ -13734,7 +13595,6 @@ Jekyll|Ruby
 §§ ⟮c:89;collections⟯ are ⟮c:90;arrays⟯ available via ⟮c:91;the `site.collectionname` propert⟯y §<br>
 ===<br>
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}</span>
 
 ###### themes
 
@@ -13743,7 +13603,6 @@ Jekyll|Ruby
 §§ By default, if you use a ⟮c:3;gem theme⟯, ⟮c:4;some of the directories of your site⟯ are ⟮c:5;in the gem itself⟯. §<br>
 §§ If you want to ⟮c:6;edit things⟯ ⟮c:7;in gem themes⟯, you need to ⟮c:8;copy then out of the gem itself⟯, and ⟮c:9;reference the gem's dependencies in your gemfile/config⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 ###### plugins
 
@@ -13764,7 +13623,6 @@ Jekyll|Ruby
 <tr><td>⟮c:7;jekyll-paginate⟯</td> <td>⟮c:8;allow pagination⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ###### config
 
@@ -13774,7 +13632,6 @@ Jekyll|Ruby
 <tr><td>⟮c:3;paginate: n⟯</td> <td>⟮c:4;paginate with n pages⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
 ##### next.js
@@ -14010,7 +13867,6 @@ A low-level programming language is a programming language with little to no abs
     <tr><td>⟮c:1;C#⟯</td> <td>⟮c:2;C sharp⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -14021,7 +13877,6 @@ A low-level programming language is a programming language with little to no abs
     <tr><td>⟮c:1;Rust users⟯</td> <td>⟮c:2;rustaceans⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}</span>
 
 ### Programming paradigms
 
@@ -14313,7 +14168,6 @@ a deterministic algorithim/callable unit will, given a particular input {{c1::al
 §§ ⟮c:5;binary search⟯ has a ⟮c:7;worst-case time complexity⟯ of ⟮c:6;O(log n⟯) §<br>
 §§ ⟮c:8;Binary⟯ search can only be done on something that is ⟮c:9;sorted⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 
 #### sorting
 
@@ -14540,7 +14394,6 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
     <tr><td>⟮c:3;cmd shift k⟯</td><td>⟮c:4;delete line⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ######## comments
 
@@ -14555,7 +14408,6 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 <tr><td>⟮c:5;toggle block comment⟯</td> <td>⟮c:6;<kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>a</kbd>⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ######## jupyter
 
@@ -14568,7 +14420,6 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 <tr><td>⟮c:3;<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>⟯</td> <td>⟮c:4;finish editing a cell/run a code block⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 
 ###### increment/decrement via arrow keys
@@ -14585,7 +14436,6 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 <tr><td>⟮c:7;command/ctrl⟯</td> <td>⟮c:8;100+⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
 
 
 ## QA
@@ -14612,7 +14462,6 @@ QA are the activities done to make sure that the product meets certain standards
 §§ to have an ⟮c:21;element that you select in your devtools be visible in your browser window⟯, ⟮c:22;right-click⟯ and then ⟮c:23;click <q>scroll into view</q>⟯ §<br>
 ===<br>
 ⟮h:all;((h:all;::<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯))
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 ##### styles tab
 
@@ -14621,7 +14470,6 @@ QA are the activities done to make sure that the product meets certain standards
 §§ ⟮c:4;control-clicking⟯ a ⟮c:5;style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮c:6;goes to the line where it was declared⟯ §<br>
 §§ ⟮c:7;shift-clicking⟯ ⟮c:8;the box next to a color⟯ in the styles panel devtools ⟮c:9;changes its color representation (RGB, HSLA, etc.⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span>
 ⟮h:all;<img src="sm_2021-09-16--17-43-33-screenshot.jpg">⟯
 
 ##### elements+styles tab
@@ -14629,7 +14477,6 @@ QA are the activities done to make sure that the product meets certain standards
 <br>---<br>
   §§ You can ⟮c:1;force element state (such as hover, focus⟯) either by ⟮c:2;right-clicking the DOM node &gt; force state⟯ and then choosing the state, or by ⟮c:3;clicking the :hov button⟯ in the ⟮c:3;styles panel⟯ and choosing the state §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ###### box model
 
@@ -14638,7 +14485,6 @@ QA are the activities done to make sure that the product meets certain standards
   §§ Hovering over ⟮c:1;a part of the box model⟯ in the styles tab will ⟮c:2;higlight that relevant thing in the page⟯ §<br>
 §§ Besides by normal CSS declaration, you can ⟮c:3;change any part⟯ of the CSS box model in devtools by ⟮c:4;clicking on the relevant number and setting it⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}</span>
 
 ##### console
 
@@ -14646,7 +14492,6 @@ QA are the activities done to make sure that the product meets certain standards
   §§ You can access ⟮c:2;the currently selected node in the elements inspector⟯ as ⟮c:1;$0⟯ in the console in devtools. §<br>
 §§ If you ⟮c:3;right-click &gt; store as global variable⟯, the DOM element becomes available ⟮c:4;as temp1, temp2, etc.⟯ ⟮c:5;in the console⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ##### other tabs/panels
 
@@ -14654,12 +14499,10 @@ QA are the activities done to make sure that the product meets certain standards
   §§ Use the ⟮c:1;Media⟯ Panel in Chrome DevTools to view information and debug the ⟮c:2;media players⟯ per browser tab. §<br>
 §§ The ⟮c:3;Issues⟯ tab in Chrome DevTools moves the ⟮c:4;issues messages⟯ that used to ⟮c:5;appear in the console⟯ into their own tab §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 <br>---<br>
   §§ The ⟮c:6;Coverage⟯ tab in Chrome DevTools can ⟮c:5;help you find unused JavaScript and CSS code⟯. §<br>
 §§ to use the ⟮c:1;Coverage⟯ / ⟮c:2;Network⟯ tab, click ⟮c:3;the record button⟯, then ⟮c:4;reload (or otherwise make network requests⟯) §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ##### tab management
 
@@ -14668,14 +14511,12 @@ QA are the activities done to make sure that the product meets certain standards
 §§ next to the ⟮c:5;styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮c:6;event listeners registered⟯, ⟮c:7;DOM Breakpoints⟯,&nbsp; ⟮c:8;JS properties⟯, and ⟮c:9;accessibility information⟯ §<br>
 §§ Besides the DevTools tabs ⟮c:10;active by default⟯, there are ⟮c:11;a bunch more⟯ tabs, which you can ⟮c:12;show⟯ via ⟮c:13;the command palette⟯, or via ⟮c:14;the overflow menu⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 ##### global features
 
 <br>---<br>
   §§ Whenever you get a ⟮c:1;function⟯ in devtools, you can ⟮c:2;go to the place where it's defined⟯ with ⟮c:3;right click &gt; show function definition⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### code review
 
@@ -14744,7 +14585,6 @@ KISS   Keep it simple stupid
 <br>---<br>
   §§ "⟮c:1;a camel is a horse designed/made by committee⟯" is a ⟮c:2;criticism of creating something by comittee⟯, since ⟮c:3;the camel symbolises incorporating too many conflicting elements⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}</span>
 
 ### mech pol
 
@@ -15123,7 +14963,6 @@ tap TAPNAME|add a repository|brew
 <tr><td>⟮c:5;Linux⟯</td> <td>⟮c:6;/home/linuxbrew⟯</td></tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 <br>---<br>
   §§ ⟮c:13;Where homebrew has its prefixes⟯ mean you ⟮c:9;don't need to sudo anything with brew⟯, which is also ⟮c:9;highly discouraged.⟯ §<br>
@@ -15222,7 +15061,6 @@ hot swapping may be of components, or of software
   §§ A ⟮c:1;resource leak⟯ occurs when a program ⟮c:2;does not release resources⟯ when ⟮c:3;it no longer nees them⟯. §<br>
 §§ A ⟮c:4;memory leak⟯ is ⟮c:5;a resource leak⟯ involving ⟮c:5;memory⟯. §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
 ## Indexing
 
@@ -15282,7 +15120,6 @@ Associative arrays: names, literals, other construction methods, etc.
   §§ Ideally, your ⟮c:2;arm (elbow⟯) should have an angle of ⟮c:1;90°⟯ while ⟮c:6;touch typing⟯ §<br>
 §§ Ideally, ⟮c:3;your wrist⟯ should be ⟮c:4;hovering⟯ while ⟮c:5;touch typing⟯ §<br>
 ===<br>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
 
 ## server directory structure
 
@@ -15365,7 +15202,6 @@ to en/decode html character escapes, the npm package and concomittant CLI he is 
     </tr>
   </tbody>
 </table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span>
 
 ## text encoding
 

@@ -364,7 +364,6 @@ the original ⟮c:9;catch-22⟯ (since ⟮c:10;it's used in many different ways 
 §§ The term ⟮c:5;catch-22⟯ is also often used as ⟮c:6;a synonym for deadlock (in the CS sense⟯). §<br>
 §§ The term ⟮c:7;catch-22⟯ may at its most broad just refer to ⟮c:8;a kind of contradiction or problem involving 2 things.⟯ §
 A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
 
 # continental philosopy
 
