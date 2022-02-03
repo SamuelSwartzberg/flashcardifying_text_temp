@@ -50,7 +50,7 @@ When doing a certain thing, that thing's ⟮c:1;opportunity cost⟯ is ⟮c:2;th
 
 ### sunk
 
-A ⟮c:1;sunk cost⟯ is a cost that ⟮c:2;has already been incurred and cannot be recovered⟯, in contrast, ⟮s:1-2;a ((c:3;::prospective cost⟯ is a cost that ⟮c:4;can be avoided if action is taken⟯))
+A ⟮c:1;sunk cost⟯ is a cost that ⟮c:2;has already been incurred and cannot be recovered⟯, in contrast, ⟮s:1-2;a ⟮c:3;prospective cost⟯ is a cost that ⟮c:4;can be avoided if action is taken⟯⟯
 
 ### other types
 
@@ -203,7 +203,7 @@ as distinct from actually-extant humans
 
 ### bias
 
-⟮c:1;Bias⟯ is the ⟮c:2;inclination toward⟯ or ⟮c:2;weighting of⟯ something, most often in a way that is ⟮c:3;unfair⟯ and/or ⟮c:3;disproportionate/wrong⟯. Thus, ⟮s:1-3;((s:7-12;::((c:4;::cognitive bias⟯ is ⟮c:5;the disproportionate weighting⟯ / ⟮c:5;irrelevant inclusion⟯ of factors in a way that ⟮c:6;the resulting judgement departs from rationality⟯)); ⟮s:4-6,10-12;bias in ((c:7;::statistics⟯ is the tendency of ⟮c:8;a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮c:9;misestimate⟯ a ⟮c:8;parameter (a truth about the population) ⟯));⟮s:4-9; ((c:10;::implicit bias⟯ are ⟮c:11;pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮c:12;a social group⟯)))) 
+⟮c:1;Bias⟯ is the ⟮c:2;inclination toward⟯ or ⟮c:2;weighting of⟯ something, most often in a way that is ⟮c:3;unfair⟯ and/or ⟮c:3;disproportionate/wrong⟯. Thus, ⟮s:1-3;⟮s:7-12;⟮c:4;cognitive bias⟯ is ⟮c:5;the disproportionate weighting⟯ / ⟮c:5;irrelevant inclusion⟯ of factors in a way that ⟮c:6;the resulting judgement departs from rationality⟯⟯; ⟮s:4-6,10-12;bias in ⟮c:7;statistics⟯ is the tendency of ⟮c:8;a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮c:9;misestimate⟯ a ⟮c:8;parameter (a truth about the population) ⟯⟯;⟮s:4-9; ⟮c:10;implicit bias⟯ are ⟮c:11;pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮c:12;a social group⟯⟯⟯ 
 ⟮c:14;Status quo bias⟯ is a form of ⟮c:15;cognitive bias⟯, the bias towards ⟮c:13;The current state of affairs⟯ 
 
 #### bothsidesism
@@ -232,8 +232,8 @@ An example of ⟮c:2;magical thinking⟯ would be ⟮c:1;Knocking on wood will p
 
 ### religious markets
 
-⟮c:1;the idea of religious markets⟯ involves seeing religions ⟮c:3;through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮c:4;rational choice theory.⟯ ⟮h:gb;Thus, ((c:5;::the market goods⟯ would be ⟮c:6;religions⟯, which would ⟮c:7;compete⟯ in such an environment.)) 
-Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮h:gb;the idea of the ((c:9;::dating market⟯ ( = ⟮c:10;s:9;seeing competition between dating partners through the metaphor of a market) ⟯)) 
+⟮c:1;the idea of religious markets⟯ involves seeing religions ⟮c:3;through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮c:4;rational choice theory.⟯ ⟮h:gb;Thus, ⟮c:5;the market goods⟯ would be ⟮c:6;religions⟯, which would ⟮c:7;compete⟯ in such an environment.⟯ 
+Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮h:gb;the idea of the ⟮c:9;dating market⟯ ( = ⟮c:10;s:9;seeing competition between dating partners through the metaphor of a market) ⟯⟯ 
 
 ## demographics
 
@@ -442,7 +442,7 @@ The goal of ⟮c:9;brigading⟯ is often either ⟮c:6;to harm the thing in ques
 
 ##### sockpuppet
 
-A ⟮c:1;sockpuppet⟯ is ⟮c:2;an alternative account⟯ used to ⟮c:3;decieve or mislead in some way⟯.⟮s:1-3;Originally this referred to ((c:4;::an account to talk about or to oneself while pretending to be another person⟯, ⟮s:4;then expanded to ((c:5;::all uses of a second account pretending to be a second person while being the same as the first⟯, and now can also refer to ⟮s:5;((c:6;::any (misleading) activity where a second account might be helpful⟯, such as ⟮c:7;evading bans⟯, do ⟮c:8;mass action such as brigading⟯, etc)))).)) 
+A ⟮c:1;sockpuppet⟯ is ⟮c:2;an alternative account⟯ used to ⟮c:3;decieve or mislead in some way⟯.⟮s:1-3;Originally this referred to ⟮c:4;an account to talk about or to oneself while pretending to be another person⟯, ⟮s:4;then expanded to ⟮c:5;all uses of a second account pretending to be a second person while being the same as the first⟯, and now can also refer to ⟮s:5;⟮c:6;any (misleading) activity where a second account might be helpful⟯, such as ⟮c:7;evading bans⟯, do ⟮c:8;mass action such as brigading⟯, etc⟯⟯.⟯ 
 
 ### message
 
@@ -651,7 +651,7 @@ Japanese romances rarely have covers that depict the principal characters, and t
 ##### structure
 
 The ⟮c:1;introductory section/opening paragraph⟯ is known as ⟮c:2;the lede⟯, especially in ⟮c:3;news writing⟯.  
-In general, it is said the lede ⟮c:4;should contain⟯ ⟮c:5;the most newsworthy/interesting part⟯, and ⟮s:gb;((c:6;::if an article does not have the most newsworthy part in the lede⟯, it is said to be ⟮c:7;burying the lede⟯)). 
+In general, it is said the lede ⟮c:4;should contain⟯ ⟮c:5;the most newsworthy/interesting part⟯, and ⟮s:gb;⟮c:6;if an article does not have the most newsworthy part in the lede⟯, it is said to be ⟮c:7;burying the lede⟯⟯. 
 If we're reporting a house fire, and we mention the location, time and cause of the fire before mentioning the two deaths, what are we probably doing?  ⟮c:8;Burying the lede⟯ 
 Nora Ephron had an assignment to write a <b>opening</b> for a news story about t<b>eachers going to speak</b> in a neighboring city on <b>thursday</b> for the <b>school paper</b>. What (according to her teacher) is the <b>lede</b> for this story?  ⟮c:8;There will be no school next thursday.⟯ 
 A doctor is giving a speech about fad diets and physical fitness to a group of local businesspeople. Midway through his speech, the good doctor collapses of a heart attack. He dies en route to the hospital. What should definitely be  in the lede? ⟮c:9;the death (and prob the heartattack⟯) 
@@ -770,8 +770,8 @@ When using the ⟮c:11;eight-point version⟯ of the slender gleaming star, ⟮c
 
 ###### title page
 
-In fountain, a ⟮c:1;title page⟯ consists of ⟮c:2;key-values pairs⟯, ⟮h:gb;separated internally by ((c:3;:::⟯.)) 
-In fountain's title page you can have ⟮c:4;multiple of the same key⟯. the value can ⟮c:5;stretch over multiple lines⟯, ⟮h:gb;if it does, ((c:6;::lines beyond the first⟯ should be ⟮c:7;preceded by 3 or more spaces, or a tab⟯. )) 
+In fountain, a ⟮c:1;title page⟯ consists of ⟮c:2;key-values pairs⟯, ⟮h:gb;separated internally by ⟮c:3;:⟯.⟯ 
+In fountain's title page you can have ⟮c:4;multiple of the same key⟯. the value can ⟮c:5;stretch over multiple lines⟯, ⟮h:gb;if it does, ⟮c:6;lines beyond the first⟯ should be ⟮c:7;preceded by 3 or more spaces, or a tab⟯. ⟯ 
 In fountain, the ⟮c:8;title page⟯ is optional, but must be ⟮c:9;the first thing in the document if it appears⟯. 
 
 ###### parantheticals
@@ -846,8 +846,8 @@ In ⟮c:3;fountain⟯, ⟮c:1;indentation⟯ ⟮c:2;has no effect (besides organ
 
 ### high modernism
 
-<dfn>⟮c:2;High Modernism⟯</dfn>, coined by ⟮c:1; James C. Scott ⟯ ("⟮c:3;Seeing Like a State⟯") is said to be a subperiod of ⟮c:4;modernity/modernism⟯, mainly between⟮s:gb; ((c:5;::the late 1950s⟯ and ⟮c:6;late 1970s⟯ ))
-⟮c:7;High modernism⟯ is said to have been characterized by ⟮c:8;strong confidence⟯ in ⟮c:9;science⟯ and ⟮c:9;technology⟯, ⟮s:gb;to the point of ((c:10;::using science and technology⟯ to ⟮c:11;master⟯/⟮c:11;shape⟯ ⟮c:12;society/humanity⟯ and ⟮c:13;nature⟯)).
+<dfn>⟮c:2;High Modernism⟯</dfn>, coined by ⟮c:1; James C. Scott ⟯ ("⟮c:3;Seeing Like a State⟯") is said to be a subperiod of ⟮c:4;modernity/modernism⟯, mainly between⟮s:gb; ⟮c:5;the late 1950s⟯ and ⟮c:6;late 1970s⟯ ⟯
+⟮c:7;High modernism⟯ is said to have been characterized by ⟮c:8;strong confidence⟯ in ⟮c:9;science⟯ and ⟮c:9;technology⟯, ⟮s:gb;to the point of ⟮c:10;using science and technology⟯ to ⟮c:11;master⟯/⟮c:11;shape⟯ ⟮c:12;society/humanity⟯ and ⟮c:13;nature⟯⟯.
 
 ## sociocultural anthropology
 
@@ -907,7 +907,7 @@ Name|Name (using marriage-related terms)|Description
 ##### the savage mind
 
 ⟮c:2;the savage mind⟯ is a book by ⟮c:3;CLS⟯ published in ⟮c:1;the early 1960s (1962⟯) ( after <cite>⟮c:4;The Structural Study of Myth⟯</cite>)
-In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness of vocabularies/category systems (in areas of concern⟯)⟮c:6;of indigenous cultures⟯, both for ⟮c:7;the things they need to survive⟯, ⟮s:gb;but then also for ((c:8;::things they don't need to survive⟯, ⟮s:gb;according to CLS they have these categories ((c:9;::for intellectual reasons⟯))))
+In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness of vocabularies/category systems (in areas of concern⟯)⟮c:6;of indigenous cultures⟯, both for ⟮c:7;the things they need to survive⟯, ⟮s:gb;but then also for ⟮c:8;things they don't need to survive⟯, ⟮s:gb;according to CLS they have these categories ⟮c:9;for intellectual reasons⟯⟯⟯
 
 # geo
 
@@ -1887,7 +1887,7 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### modelling
 
-⟮h:all;<img src="share-preview-img.png">⟯⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;((c:6;::co-citation⟯ and ⟮c:6;bibliographic coupling.⟯)) 
+⟮h:all;<img src="share-preview-img.png">⟯⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;⟮c:6;co-citation⟯ and ⟮c:6;bibliographic coupling.⟯⟯ 
 
 ## inspiration
 
@@ -2551,7 +2551,7 @@ https://scopeblog.stanford.edu/2019/06/03/even-athletes-may-have-high-blood-pres
 What we call ⟮c:3;a blood clot⟯ is more properly called ⟮c:4;thrombus⟯. 
 ⟮c:2;Thrombosis⟯ is the formation of ⟮c:12;a thrombus⟯ ⟮c:1;inside a blood vessel⟯ that ⟮c:5;obstructs the flow of blood⟯. 
 If ⟮c:7;the thrombus then breaks free⟯, it becomes an ⟮c:8;embolus⟯. 
-if ⟮c:13;a thrombus⟯, after ⟮c:14;breaking free and becoming an embolus⟯ ⟮c:9;get lodged again⟯, that is a form ⟮c:10;embolism⟯, specifically a ⟮s:10;((c:11;::thromboembolism⟯)). 
+if ⟮c:13;a thrombus⟯, after ⟮c:14;breaking free and becoming an embolus⟯ ⟮c:9;get lodged again⟯, that is a form ⟮c:10;embolism⟯, specifically a ⟮s:10;⟮c:11;thromboembolism⟯⟯. 
 Based on where they occur, ⟮c:15;thromboses⟯ are classified into ⟮c:6;venous⟯ and ⟮c:6;arterial⟯. 
 
 ###### thromboses
@@ -2563,8 +2563,8 @@ If ⟮c:17;a thrombus blocks the blood vessel completely⟯, ⟮c:16;the surroun
 
 ##### emboli
 
-An ⟮c:1;embolus⟯ is ⟮c:2;some kind of foreign object⟯ (amongst others: ⟮s:1-2;((c:3;::thrombi⟯, ⟮c:4;fat globules, gas bubbles, cholesterol plaque/crystals⟯)) ) that ⟮c:5;travels through the bloodstream⟯. 
-If an ⟮c:11;embolus⟯ ⟮c:6;gets lodged⟯ and thus ⟮s:6;((c:7;::blocks a blood vessel⟯)), this is known as an ⟮c:8;embolism⟯. ⟮s:6-8;If it's ((c:9;::a thrombus⟯ that ⟮c:9;gets lodged⟯, it is known as a ⟮c:10;thromboembolism⟯.)) 
+An ⟮c:1;embolus⟯ is ⟮c:2;some kind of foreign object⟯ (amongst others: ⟮s:1-2;⟮c:3;thrombi⟯, ⟮c:4;fat globules, gas bubbles, cholesterol plaque/crystals⟯⟯ ) that ⟮c:5;travels through the bloodstream⟯. 
+If an ⟮c:11;embolus⟯ ⟮c:6;gets lodged⟯ and thus ⟮s:6;⟮c:7;blocks a blood vessel⟯⟯, this is known as an ⟮c:8;embolism⟯. ⟮s:6-8;If it's ⟮c:9;a thrombus⟯ that ⟮c:9;gets lodged⟯, it is known as a ⟮c:10;thromboembolism⟯.⟯ 
 
 ###### pulmonary embolism
 
@@ -2829,14 +2829,14 @@ Roughly ⟮c:10;1⟯% of the population have ⟮c:11;CFS⟯, with it occuring so
 
 ### approaching
 
-It is often said that you should ⟮c:1;approach and depart from the other persons skin⟯ for the ⟮c:2;massage (or other treatment⟯) ⟮c:3;slowly⟯, ⟮s:gb;so they can ((c:4;::get used to you coming / leaving⟯)) 
+It is often said that you should ⟮c:1;approach and depart from the other persons skin⟯ for the ⟮c:2;massage (or other treatment⟯) ⟮c:3;slowly⟯, ⟮s:gb;so they can ⟮c:4;get used to you coming / leaving⟯⟯ 
 
 ## modalities
 
 ### oil
 
 ⟮c:1;Massage⟯ can be performed ⟮c:2;with or without⟯ ⟮c:3;oil⟯. 
-Using ⟮c:4;oil⟯ during a massage makes it ⟮c:5;glide more easily⟯, if you don't, ⟮s:gb;((c:6;::quick / pressurefull / both movements⟯ might ⟮c:7;irritate the skin⟯.)) 
+Using ⟮c:4;oil⟯ during a massage makes it ⟮c:5;glide more easily⟯, if you don't, ⟮s:gb;⟮c:6;quick / pressurefull / both movements⟯ might ⟮c:7;irritate the skin⟯.⟯ 
 
 ## techniques
 
@@ -2873,11 +2873,11 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 ### trigger points and myofascial release
 
 ⟮c:2;Trigger points⟯ are (at the very least) spots that feel ⟮c:1;painful⟯. 
-⟮c:3;How much of a physiological reality⟯ ⟮c:4;trigger points⟯ have is ⟮c:5;a subject of ongoing controversy⟯⟮h:gb;, amongst other things whether ((c:6;::they are or are not nodules⟯)). 
-⟮c:7;Trigger points⟯ may also be referred to as ⟮c:8;muscle knots⟯ ⟮h:gb;(however, ((c:9;::they are definitley not knots in a muscle⟯))). 
+⟮c:3;How much of a physiological reality⟯ ⟮c:4;trigger points⟯ have is ⟮c:5;a subject of ongoing controversy⟯⟮h:gb;, amongst other things whether ⟮c:6;they are or are not nodules⟯⟯. 
+⟮c:7;Trigger points⟯ may also be referred to as ⟮c:8;muscle knots⟯ ⟮h:gb;(however, ⟮c:9;they are definitley not knots in a muscle⟯⟯). 
 Often other things ⟮c:10;will be mistaken for trigger points⟯, such as ⟮c:11;tendons or tensed-up muscles⟯. 
 ⟮c:12;s:13;Myofascial release⟯ / ⟮c:13;s:12;trigger point therapy⟯ is mainly concerned with ⟮c:14;trigger points⟯.  
-In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a trigger point⟯ for ⟮c:17;typically a minute or a few minutes⟯, without using ⟮c:18;lubricants⟯. ⟮h:gb;Trigger points may ((c:19;::twitch⟯ when ⟮c:20;compressed⟯, and ⟮c:21;refer pain⟯. ⟮h:gb;There is not much evidence for trigger point therapy ((c:22;::providing any long-term medical benefits⟯, but ⟮c:23;it does feel quite good and act as pain relief⟯.)))) 
+In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a trigger point⟯ for ⟮c:17;typically a minute or a few minutes⟯, without using ⟮c:18;lubricants⟯. ⟮h:gb;Trigger points may ⟮c:19;twitch⟯ when ⟮c:20;compressed⟯, and ⟮c:21;refer pain⟯. ⟮h:gb;There is not much evidence for trigger point therapy ⟮c:22;providing any long-term medical benefits⟯, but ⟮c:23;it does feel quite good and act as pain relief⟯.⟯⟯ 
 
 # sexuality & attraction
 
@@ -2911,8 +2911,8 @@ Name|Description|Notes
 ⟮c:11;sub⟯|⟮c:12;likes to (or does) be powerless/controlled⟯
 ⟮c:13;sadist⟯|⟮c:14;likes to (or does) give pain⟯
 ⟮c:15;masochist⟯|⟮c:16;likes to (or does) recieve pain⟯
-⟮c:17;s:18;masc⟯, ⟮c:18;s:17;butch::lesbian only⟯|⟮c:19;Exhibits more 'masculine' behavior⟯|⟮s:17-19;((c:20;::masc⟯ is used ⟮c:21;more commonly in gay contexts⟯, ⟮c:20;butch⟯ ⟮c:21;only in lesbian contexts⟯))
-⟮c:22;s:23;fem(me) ⟯, ⟮c:23;s:22;lipstick lesbian::lesbian only⟯|⟮c:24;Exhibits more 'feminine' behavior⟯|⟮s:22-24;More commonly ((c:25;::femme and not fem⟯ when ⟮c:26;in reference to lesbians⟯))
+⟮c:17;s:18;masc⟯, ⟮c:18;s:17;butch::lesbian only⟯|⟮c:19;Exhibits more 'masculine' behavior⟯|⟮s:17-19;⟮c:20;masc⟯ is used ⟮c:21;more commonly in gay contexts⟯, ⟮c:20;butch⟯ ⟮c:21;only in lesbian contexts⟯⟯
+⟮c:22;s:23;fem(me) ⟯, ⟮c:23;s:22;lipstick lesbian::lesbian only⟯|⟮c:24;Exhibits more 'feminine' behavior⟯|⟮s:22-24;More commonly ⟮c:25;femme and not fem⟯ when ⟮c:26;in reference to lesbians⟯⟯
 
 
 
@@ -3073,10 +3073,10 @@ ism||additional constraints
 ⟮c:35;classism⟯|⟮c:36;+: upper class, -: lower class⟯
 ⟮c:37;colorism⟯|⟮c:38;+: lighter skin, -: darker skin⟯
 ⟮c:39;sizeism⟯|⟮c:40;may refer to heightism or weightism⟯
-⟮c:41;nativism⟯|⟮c:42;+:native-born inhabitants, -:non-native people, immigrants⟯|⟮s:41,42;Often, ((c:43;::what is native and what is not⟯ may be ⟮c:56;shifted⟯ and is ⟮c:57;correlated with racism⟯))
+⟮c:41;nativism⟯|⟮c:42;+:native-born inhabitants, -:non-native people, immigrants⟯|⟮s:41,42;Often, ⟮c:43;what is native and what is not⟯ may be ⟮c:56;shifted⟯ and is ⟮c:57;correlated with racism⟯⟯
 ⟮c:44;Orientalism⟯|⟮c:45;+:occidental, -:oriental⟯|⟮c:46;Coined by Said in 1978, large focus on this on a way of seeing⟯
 ⟮c:47;workism⟯|⟮c:48;+:work, working, -:not working⟯|Alternate (original) definition: ⟮c:49;s:47,48;Work is the centerpiece of ones life, and the epitome of human wellfare⟯
-⟮c:50;rankism⟯|⟮c:51;+:higher rank, -:lower rank⟯|⟮s:50,51;Popularized by ((c:52;::Fuller⟯, who terms ⟮c:55;+ people somebodies and - people nobodies⟯))
+⟮c:50;rankism⟯|⟮c:51;+:higher rank, -:lower rank⟯|⟮s:50,51;Popularized by ⟮c:52;Fuller⟯, who terms ⟮c:55;+ people somebodies and - people nobodies⟯⟯
 ⟮c:53;sanism (or mentalism⟯)|⟮c:54;+:sane, -:neurodiversity/mental illness⟯
 ⟮c:55;personlityism⟯|⟮c:56;+:extroverted, -:interverted⟯
 ⟮c:57;kinkism⟯|⟮c:58;+:vanilla, -:kinky⟯
@@ -3158,7 +3158,7 @@ Importantly, the cotton ceiling is the exclusion of trans people from considerat
 
 ###### cliff
 
-the ⟮c:1;x cliff⟯ is the idea that even if ⟮c:2;people with a - identity⟯) ⟮s:4;s:5;((c:3;::break through the glass ceiling⟯)), they are often given ⟮c:4;executive positions⟯ during ⟮c:5;periods of crisis/downturn⟯, where ⟮s:5; ((c:6;::the risk of failure is highest⟯, e.g. ⟮s:6;c:7;Ellen Pao at reddit, Thresa May after brexit.⟯)) 
+the ⟮c:1;x cliff⟯ is the idea that even if ⟮c:2;people with a - identity⟯) ⟮s:4;s:5;⟮c:3;break through the glass ceiling⟯⟯, they are often given ⟮c:4;executive positions⟯ during ⟮c:5;periods of crisis/downturn⟯, where ⟮s:5; ⟮c:6;the risk of failure is highest⟯, e.g. ⟮s:6;c:7;Ellen Pao at reddit, Thresa May after brexit.⟯⟯ 
 
 #### culture
 
@@ -3278,11 +3278,11 @@ In einer ⟮c:10;(Impro)szene⟯ einigt man sich idealerweise nach ⟮c:11;dem E
 
 #### Das Totale Chaos
 
-<dfn>⟮c:1;Das totale chaos⟯</dfn>: ⟮c:2;alle im kreis⟯, außer ⟮c:3;eine person in der mitte⟯. ⟮c:3;Die Person in der Mitte⟯ ⟮c:4;sagt eine Wahrheit über sich⟯. ⟮s:gb;Falls ((c:5;::die Wahrheit auf einen zutrifft⟯, ⟮c:6;muss man sich eine neue Position im Kreis suchen⟯. ⟮s:gb;Die ((c:7;::Person die keinen mehr findet⟯, ist ⟮c:8;die neue Person in der Mitte⟯.)))) 
+<dfn>⟮c:1;Das totale chaos⟯</dfn>: ⟮c:2;alle im kreis⟯, außer ⟮c:3;eine person in der mitte⟯. ⟮c:3;Die Person in der Mitte⟯ ⟮c:4;sagt eine Wahrheit über sich⟯. ⟮s:gb;Falls ⟮c:5;die Wahrheit auf einen zutrifft⟯, ⟮c:6;muss man sich eine neue Position im Kreis suchen⟯. ⟮s:gb;Die ⟮c:7;Person die keinen mehr findet⟯, ist ⟮c:8;die neue Person in der Mitte⟯.⟯⟯ 
 
 #### Hey Baby
 
-<dfn>⟮c:8;Hey Baby⟯</dfn>: ⟮c:1;Alle Leute stehen im Kreis⟯. ⟮c:2;Eine Person geht in die Mitte⟯. ⟮s:gb;((c:3;::Die person in der mitte geht zu jemandem hin⟯ ⟮s:gb;((c:4;::und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c:5;Falls eine person lacht oder lächelt⟯, muss ⟮c:6;die Person in die mitte⟯, ⟮c:5;Falls nicht⟯, muss ⟮c:7;die Person (in der mitte) weitermachen bis es passiert⟯))))
+<dfn>⟮c:8;Hey Baby⟯</dfn>: ⟮c:1;Alle Leute stehen im Kreis⟯. ⟮c:2;Eine Person geht in die Mitte⟯. ⟮s:gb;⟮c:3;Die person in der mitte geht zu jemandem hin⟯ ⟮s:gb;⟮c:4;und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c:5;Falls eine person lacht oder lächelt⟯, muss ⟮c:6;die Person in die mitte⟯, ⟮c:5;Falls nicht⟯, muss ⟮c:7;die Person (in der mitte) weitermachen bis es passiert⟯⟯⟯
 
 #### Mirroring
 
@@ -3332,7 +3332,7 @@ In the game walking with speed levels, normally the levels are such that ⟮c:7;
 
 ⟮h:all;<img src="sm_your-drawing%20(1).png">⟯
 ⟮h:all;<img src="sm_your-drawing%20(2).png">⟯
-⟮h:all;<img src="sm_your-drawing%20(3).png">⟯§§ <cite>⟮c:1;Samurai⟯</cite>: The attacker ⟮c:5;raises their sword⟯ and ⟮h:gb; ((c:6;::cuts downwards⟯ while ⟮h:gb;((c:7;::emitting a sound (which one varies⟯) and ⟮h:gb;((c:8;::points at their target⟯. Their ⟮c:9;target⟯ ⟮c:10;cuts upwards⟯ while ⟮c:11;emitting a different sound.⟯ The ⟮h:gb;((c:12;::left and right neighbors⟯ ⟮c:13;cut from the side⟯ while ⟮c:14;emitting a third sound⟯.)))))))) §<br>
+⟮h:all;<img src="sm_your-drawing%20(3).png">⟯§§ <cite>⟮c:1;Samurai⟯</cite>: The attacker ⟮c:5;raises their sword⟯ and ⟮h:gb; ⟮c:6;cuts downwards⟯ while ⟮h:gb;⟮c:7;emitting a sound (which one varies⟯) and ⟮h:gb;⟮c:8;points at their target⟯. Their ⟮c:9;target⟯ ⟮c:10;cuts upwards⟯ while ⟮c:11;emitting a different sound.⟯ The ⟮h:gb;⟮c:12;left and right neighbors⟯ ⟮c:13;cut from the side⟯ while ⟮c:14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
 In the game <cite>Samurai</cite>, the ⟮c:2;sword⟯ is formed by ⟮c:3;palms together⟯, ⟮c:4;arms straight⟯. 
 
 ## acting
@@ -3548,8 +3548,8 @@ P|A|O|Number|Mnemonics
 For any specific ⟮c:3;fear/anxiety/phobia⟯, a ⟮c:11;fear ladder⟯ consists of ⟮c:4;specific situations/steps⟯ and ⟮c:5;their associated fear ratings⟯ 
 ⟮c:12;Fear ratings⟯ for fears on ⟮c:12;the fear ladder⟯ generally are on ⟮c:6;a scale from 1 to 10⟯ 
 There should roughly be ⟮c:13;one situation/action⟯ on the fear ladder for ⟮c:14;each fear rating from 1 to 10⟯. 
-A ⟮c:15;fear ladder⟯ should be applied ⟮c:16;regularly⟯ (e.g. ⟮s:16;((c:17;::daily, a few times a week⟯)) ). 
-⟮c:18;Each session of the application of a fear ladder⟯ should last until ⟮c:19;the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s:19;((c:20;::half⟯ is a good goal to short for)) ) (often ⟮c:21;30min +::length⟯ are necessary, ⟮c:7;relaxation excersizes such as breathing⟯ can help) 
+A ⟮c:15;fear ladder⟯ should be applied ⟮c:16;regularly⟯ (e.g. ⟮s:16;⟮c:17;daily, a few times a week⟯⟯ ). 
+⟮c:18;Each session of the application of a fear ladder⟯ should last until ⟮c:19;the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s:19;⟮c:20;half⟯ is a good goal to short for⟯ ) (often ⟮c:21;30min +::length⟯ are necessary, ⟮c:7;relaxation excersizes such as breathing⟯ can help) 
 ⟮c:22;Fear ladders &amp; exposure therapy⟯ work(s) because ⟮c:8;your anxiety basically "runs out of gas"⟯. For ⟮c:23;a fear ladder⟯, start with ⟮c:9;the lower items⟯ on ⟮c:23;the fear ladder,⟯ and ⟮c:9;work yourself up to the higher items⟯ as they ⟮c:10;become less frightening⟯. 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span><br/><div class="sub">
 <div class="sub all-b"><a href="https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/">alivecounselling/</a>, <a href="https://www.anxietycanada.com/articles/plan-exposure-exercises/">Planning exposures</a>, <a href="https://www.anxietycanada.com/articles/build-a-fear-ladder/">Building fear ladder</a></div>
@@ -3616,7 +3616,7 @@ In fact, in contrast to the ⟮c:9;original idea of learned helplessness⟯, it 
 The ⟮c:12;original⟯ ⟮c:13;learned helplessness⟯ ⟮c:12;experiment⟯ featured ⟮c:14;shocking dogs⟯ ⟮c:15;without them being able to do anything about it.⟯ 
 In ⟮c:16;the original learned helplessness experiment⟯, one needed to ⟮c:17;physically show the dogs (by moving their limbs⟯) ⟮c:18;how to escape the shocks⟯ ⟮c:19;at least twice⟯ so ⟮c:20;they would relearn that they had control⟯ 
 The ⟮c:21;noise experiment⟯ is related to ⟮c:22;learned helplessness⟯ 
-⟮c:36;Hiroto, D.S.; Seligman, M.E.P.⟯ ⟮(c:37;1975⟯), subjects were supposed to ⟮c:38;do mental tasks⟯ while ⟮c:39;a distracting sound played⟯. ⟮h:gb;((c:40;::One experimental group⟯ ⟮c:41;could (or thought they could) turn it off⟯, and ⟮c:42;the other⟯ ⟮c:43;couldn't⟯. ⟮h:gb;((c:44;::The ones that could turn of the noise⟯ ⟮c:45;did better on the task⟯ ⟮c:46;even if they didn't turn it off.⟯)))) 
+⟮c:36;Hiroto, D.S.; Seligman, M.E.P.⟯ ⟮(c:37;1975⟯), subjects were supposed to ⟮c:38;do mental tasks⟯ while ⟮c:39;a distracting sound played⟯. ⟮h:gb;⟮c:40;One experimental group⟯ ⟮c:41;could (or thought they could) turn it off⟯, and ⟮c:42;the other⟯ ⟮c:43;couldn't⟯. ⟮h:gb;⟮c:44;The ones that could turn of the noise⟯ ⟮c:45;did better on the task⟯ ⟮c:46;even if they didn't turn it off.⟯⟯⟯ 
 ⟮c:23;Self-efficacy⟯ is ⟮c:24;(The strength of) one's belief⟯ in ⟮c:25;one's own ability⟯ to ⟮c:26;complete asks in order to reach a goal⟯ 
 ⟮c:27;Veritasium⟯ argues students/employees will ⟮c:28;try their best(based on what they know⟯) when ⟮c:29;given a task⟯, but ⟮c:30;if they hit a roadblock⟯, they ⟮c:31;won't try anything else (but just ask the supervisor⟯) - even though t⟮c:32;hey could have probably figured out methods to overcome a roadblock⟯ - reflecting, according to Veritasium, ⟮c:33;learned helplessness⟯ 
 Veritasium argues besides the pracitcal reasons of connection and resources etc, ⟮c:34;self-efficacy⟯ is part of the reason ⟮c:35;children of people with a certain career take up that career.⟯ 
@@ -3778,7 +3778,7 @@ A ⟮c:1;covalent⟯ ⟮c:4;bond⟯ is a ⟮c:4;intra molecular bond⟯ that inv
 
 If multiple substances ⟮c:2;can be mixed⟯, they are ⟮c:1;miscible⟯, if they ⟮c:2;cannot be mixed⟯, they are ⟮c:1;immiscible⟯. 
 An example of ⟮c:3;immiscible⟯ liquids are ⟮c:4;oil and water⟯.
-An ⟮c:5;emulsfier⟯ allows two ⟮c:6;normally⟯ ⟮c:7;immiscible⟯ liquids to ⟮s:gb;become ((c:8;::an emulsion⟯, that is, to ⟮c:9;s:gb;become mixed⟯.))
+An ⟮c:5;emulsfier⟯ allows two ⟮c:6;normally⟯ ⟮c:7;immiscible⟯ liquids to ⟮s:gb;become ⟮c:8;an emulsion⟯, that is, to ⟮c:9;s:gb;become mixed⟯.⟯
 In german, an ⟮c:10;emulsfier⟯ is called ⟮c:11;Emulgator⟯, an ⟮c:10;emulsion⟯ ⟮c:11;Emulsion⟯.
 
 ### molecules
@@ -4440,7 +4440,7 @@ span=2;Conditional comer
 
 # poetry
 
-In rap, there are generally ⟮c:1;4 beats⟯ in ⟮c:2;a bar⟯, ⟮h:gb;and ((c:3;::4 bars⟯ in ⟮c:4;a verse⟯. the beats are generally spaced ⟮c:5;equally⟯, and ⟮c:6;the beats 2 and 4⟯ have ⟮c:7;the snares / hi-hats⟯.)) 
+In rap, there are generally ⟮c:1;4 beats⟯ in ⟮c:2;a bar⟯, ⟮h:gb;and ⟮c:3;4 bars⟯ in ⟮c:4;a verse⟯. the beats are generally spaced ⟮c:5;equally⟯, and ⟮c:6;the beats 2 and 4⟯ have ⟮c:7;the snares / hi-hats⟯.⟯ 
 
 Who Lives, Who Dies, Who Tells Your Story (extract of beginning)
 
@@ -5190,7 +5190,7 @@ A common ⟮c:5;posture technique⟯ involves ⟮c:1;imagining⟯ ⟮c:2;a strin
 
 ## breath
 
-⟮c:1;four-stage breathing techniques⟯ (roughly equivalent to ⟮c:2;pranayama⟯) consists of the steps ⟮s:gb;((c:3;::Breathe in⟯ ⟮s:gb;((c:4;::Hold⟯ ⟮s:gb;((c:5;::Breathe out⟯ ⟮s:gb;((c:6;::hold⟯.))))))))  
+⟮c:1;four-stage breathing techniques⟯ (roughly equivalent to ⟮c:2;pranayama⟯) consists of the steps ⟮s:gb;⟮c:3;Breathe in⟯ ⟮s:gb;⟮c:4;Hold⟯ ⟮s:gb;⟮c:5;Breathe out⟯ ⟮s:gb;⟮c:6;hold⟯.⟯⟯⟯⟯  
 Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same length⟯, in that case, it is often called ⟮c:8;box/square breath⟯. Commonly, each step is held for ⟮c:9;4-5⟯s. 
 
 ## english words

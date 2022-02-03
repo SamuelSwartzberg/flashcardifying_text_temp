@@ -383,7 +383,7 @@ Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt
 
 #### the tuvel affair
 
-In ⟮c:1;2017⟯, the journal ⟮c:2;hypatia⟯ published an article by ⟮c:3;rebecca tuvel⟯ in favor of ⟮c:4;transracialism⟯ (which led to a large controversy). ⟮s:1-4;After it was released, an ((c:5;::open letter⟯ was ⟮c:5;written⟯ requesting ⟮c:6;the article be retracted⟯, signed by ⟮c:7;800⟯ scholars. ⟮s:5-7;The criticisms  related to tuvel herself were  ((c:8;::an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c:9;an alleged mishandling of the review process⟯. ⟮s:8-9;The ((c:10;::wider academic community⟯ reacted to ⟮c:11;the open letter⟯ with ⟮c:12;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c:13;was thrown into crisis⟯.))))))
+In ⟮c:1;2017⟯, the journal ⟮c:2;hypatia⟯ published an article by ⟮c:3;rebecca tuvel⟯ in favor of ⟮c:4;transracialism⟯ (which led to a large controversy). ⟮s:1-4;After it was released, an ⟮c:5;open letter⟯ was ⟮c:5;written⟯ requesting ⟮c:6;the article be retracted⟯, signed by ⟮c:7;800⟯ scholars. ⟮s:5-7;The criticisms  related to tuvel herself were  ⟮c:8;an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c:9;an alleged mishandling of the review process⟯. ⟮s:8-9;The ⟮c:10;wider academic community⟯ reacted to ⟮c:11;the open letter⟯ with ⟮c:12;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c:13;was thrown into crisis⟯.⟯⟯⟯
 The tuvel affair was seen by those who wanted to see it as such as a clash between analytic and continental philosophy.
 
 ## turns

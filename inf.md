@@ -85,7 +85,7 @@ PI|Processing instruction
 
 ⟮c:1;CDATA⟯ is short for ⟮c:2;Character data⟯) 
 ⟮c:10;CDATA⟯ ⟮c:3;tells the parser not to parse the content as XML markup⟯ 
-⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:gb;this would allow us to ((c:13;::include HTML within XML without a problem⟯.)) 
+⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:gb;this would allow us to ⟮c:13;include HTML within XML without a problem⟯.⟯ 
 ⟮c:12;CDATA⟯ syntax: `⟮c:6;&lt;![⟯⟮c:7;CDATA⟯⟮c:8;[⟯content...⟮c:9;]]&gt;⟯` 
 
 ### HTML
@@ -3093,8 +3093,8 @@ The cursor is reasonably narrow   insert mode (the kind of thing that the ins ke
 caps lock|makes all latin characters generate uppercase characters but not alternate characters
 shift lock|acts as shift was continuously pressed, that is, generates both uppercase and alternate characters respectively
 
-On ⟮c:13;windows⟯ under ⟮c:14;certain keyboard layouts⟯, ⟮h:14;e.g. ((c:15;::AZERTY and QWERTZ⟯,)) the ⟮c:16;caps lock key⟯ ⟮c:17;acts as shift lock⟯, ⟮h:gb;however not on ((c:18;::mac⟯, and ⟮c:19;there is no setting to make it so⟯, making ⟮c:20;any solution requiring scripting via Hammerspoon or Karabiner⟯.)) 
-Many operating systems support ⟮c:21;typing 'normal' characters⟯ by ⟮c:22;pressing shift⟯ when in ⟮c:23;capslock / shiftlock mode⟯⟮h:gb;, however, not ((c:24;::mac⟯)). 
+On ⟮c:13;windows⟯ under ⟮c:14;certain keyboard layouts⟯, ⟮h:14;e.g. ⟮c:15;AZERTY and QWERTZ⟯,⟯ the ⟮c:16;caps lock key⟯ ⟮c:17;acts as shift lock⟯, ⟮h:gb;however not on ⟮c:18;mac⟯, and ⟮c:19;there is no setting to make it so⟯, making ⟮c:20;any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
+Many operating systems support ⟮c:21;typing 'normal' characters⟯ by ⟮c:22;pressing shift⟯ when in ⟮c:23;capslock / shiftlock mode⟯⟮h:gb;, however, not ⟮c:24;mac⟯⟯. 
 
 ##### types of keys
 
@@ -3374,9 +3374,9 @@ If in VSCode you have {{c1::as many text cursors}} as {{c2::the thing you want t
 ##### autocomplete
 
 <dfn>⟮c:1;Autocomplete/word completion⟯</dfn> is a feature where ⟮c:2;an application predicts the rest of something the user is typing⟯.  
-<dfn>⟮c:3;Autocomplete/word completion⟯</dfn> on ⟮c:4;smartphone keyboards⟯ is called <dfn>⟮c:5;predictive text⟯</dfn>, ⟮s:gb;this used to refer to ((c:6;::the prediction of typing on numeric keypads (e.g. T9⟯))) 
-<dfn>⟮c:7;Autocomplete/word completion⟯</dfn> ⟮c:8;in a command-line interface⟯ is called <dfn>⟮c:9;command-line⟯</dfn> or <dfn>⟮c:9;tab⟯ ⟮c:9;completion⟯</dfn>, ⟮s:gb;which generally uses ((c:10;::the tab key (whence the name⟯).)) 
-<dfn>⟮c:11;Autocomplete/word completion⟯</dfn> in ⟮c:12;code editors⟯ is also known as <dfn>⟮c:13;code completion⟯</dfn>. Examples include ⟮s:gb;((c:14;::VS &amp; VS Code⟯'s ⟮c:15;IntelliSense⟯, and ⟮c:16;AI (modfied GPT-3⟯)-powered ⟮c:17;GitHub Copilot⟯.)) 
+<dfn>⟮c:3;Autocomplete/word completion⟯</dfn> on ⟮c:4;smartphone keyboards⟯ is called <dfn>⟮c:5;predictive text⟯</dfn>, ⟮s:gb;this used to refer to ⟮c:6;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
+<dfn>⟮c:7;Autocomplete/word completion⟯</dfn> ⟮c:8;in a command-line interface⟯ is called <dfn>⟮c:9;command-line⟯</dfn> or <dfn>⟮c:9;tab⟯ ⟮c:9;completion⟯</dfn>, ⟮s:gb;which generally uses ⟮c:10;the tab key (whence the name⟯).⟯ 
+<dfn>⟮c:11;Autocomplete/word completion⟯</dfn> in ⟮c:12;code editors⟯ is also known as <dfn>⟮c:13;code completion⟯</dfn>. Examples include ⟮s:gb;⟮c:14;VS &amp; VS Code⟯'s ⟮c:15;IntelliSense⟯, and ⟮c:16;AI (modfied GPT-3⟯)-powered ⟮c:17;GitHub Copilot⟯.⟯ 
 
 ### Natural Language Processing
 
@@ -3434,7 +3434,7 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 #### theming
 
 ⟮h:all;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
-A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ((c:4;::the set of files that define a theme/skin.⟯)) 
+A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ⟮c:4;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
 #### widgeting toolkits
@@ -3525,7 +3525,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
 On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. 
-A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;system⟯ ⟮c:13;icons⟯ ⟮h:gb;(such as ((c:14;::power, networks, time⟯))) 
+A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;system⟯ ⟮c:13;icons⟯ ⟮h:gb;(such as ⟮c:14;power, networks, time⟯⟯) 
 
 ###### taskbar
 
@@ -3541,7 +3541,7 @@ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a 
 
 [[[⟮h:all;<img src="sm_toggle_side_bar.gif">⟯]]]
 
-VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;((c:13;::5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯)). 
+VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;⟮c:13;5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯⟯. 
 
 [[[⟮h:all;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
 
@@ -3566,7 +3566,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 ##### sidebars
 
 [[[⟮h:all;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:all;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:all;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:all;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:all;<img src="sidebars.png">⟯]]]
-A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ((c:5;::navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ((c:8;::reasonably wide (i.e. not just icons).⟯)))) 
+A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ⟮c:5;navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ⟮c:8;reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
 
@@ -3757,10 +3757,10 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
 ⟮c:183;HSV⟯ = ⟮c:187;hue, saturation, value⟯ ⟮c:190;is the same as⟯ ⟮c:188;HSB⟯ = ⟮c:189;hue, saturation, brightness.⟯ 
 ⟮c:184;HSL⟯ and ⟮c:184;HSV/HSB⟯ are alternate ⟮c:191;color models⟯, which are both ⟮c:192;variants of/generated from⟯ ⟮c:193;the RGB color model⟯. 
 ⟮c:185;HSL⟯ and ⟮c:185;HSV⟯ were created because ⟮c:194;they are more natural to how we as humans understand color.⟯ 
-⟮s:ga;While ((c:195;::RGB⟯ and ⟮c:195;CMY⟯ are most naturally represented as ⟮c:196;cubes⟯)), ⟮s:gb;((c:197;::HSL⟯ and ⟮c:197;HSV/HSB⟯ are commonly represented as ⟮c:198;cylinders⟯)). 
-Since ⟮c:199;the top and bottom⟯ of ⟮c:200;a ((s:202;::HSL⟯ cylinder)) ⟮c:201;all approach the same color (white and black respectively⟯), ⟮s:gb;((c:202;::HSL⟯ may also ⟮c:203;be represented as a bicone⟯)). 
+⟮s:ga;While ⟮c:195;RGB⟯ and ⟮c:195;CMY⟯ are most naturally represented as ⟮c:196;cubes⟯⟯, ⟮s:gb;⟮c:197;HSL⟯ and ⟮c:197;HSV/HSB⟯ are commonly represented as ⟮c:198;cylinders⟯⟯. 
+Since ⟮c:199;the top and bottom⟯ of ⟮c:200;a ⟮s:202;HSL⟯ cylinder⟯ ⟮c:201;all approach the same color (white and black respectively⟯), ⟮s:gb;⟮c:202;HSL⟯ may also ⟮c:203;be represented as a bicone⟯⟯. 
 Since the ⟮c:204;bottom⟯ of ⟮c:205;a HSV/HSB cylinder⟯ ⟮c:206;approaches the same color (black⟯), ⟮s:gb;HSV/HSB may more naturally be represented as a cone.⟯ 
-⟮c:207;HSL⟯ and ⟮c:208;HSV/HSB⟯ both have ⟮s:211-212;((c:209;::hue⟯ as ⟮c:210;the degree⟯)), and ⟮s:209-210;((c:211;::saturation⟯ as ⟮c:212;the radius⟯.)) 
+⟮c:207;HSL⟯ and ⟮c:208;HSV/HSB⟯ both have ⟮s:211-212;⟮c:209;hue⟯ as ⟮c:210;the degree⟯⟯, and ⟮s:209-210;⟮c:211;saturation⟯ as ⟮c:212;the radius⟯.⟯ 
 ⟮c:213;HSL⟯ has ⟮c:214;lightness⟯ as ⟮c:215;the height.⟯ 
 ⟮c:216;HSV/HSB⟯ has v⟮c:217;alue/brightness⟯ as ⟮c:218;the height⟯.  
 both ⟮c:219;HSL⟯ and ⟮c:219;HSV/B⟯ have the problem that ⟮c:220;changing⟯ the ⟮c:221;saturation⟯ and ⟮c:223;to a certain extent⟯ ⟮c:222;the hue⟯ ⟮c:220;will change⟯ ⟮c:224;the percieved lightness/brightness⟯, even when ⟮c:225;they are supposed to be independent⟯. 
@@ -4223,7 +4223,7 @@ mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
 ⟮h:all;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
-For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:gb;To ((c:4;::add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:gb;You can use this to search ((c:6;::pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.)))) 
+For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:gb;To ⟮c:4;add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:gb;You can use this to search ⟮c:6;pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.⟯⟯ 
 
 ##### information
 
@@ -4465,7 +4465,7 @@ piping to `source /dev/stdin` executes the text as a command
 
 ##### Mac
 
-⟮h:all;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c:2;macOs⟯'s ⟮c:1;/private⟯ folder contains ⟮c:3;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s:1-3;((c:4;::etc⟯, ⟮c:5;tmp⟯, and ⟮c:6;var⟯))
+⟮h:all;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c:2;macOs⟯'s ⟮c:1;/private⟯ folder contains ⟮c:3;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s:1-3;⟮c:4;etc⟯, ⟮c:5;tmp⟯, and ⟮c:6;var⟯⟯
 
 ## files
 
@@ -4604,8 +4604,8 @@ A socket in unix is realized as a file descriptor
 #### indication
 
 ⟮c:1;File format⟯ and ⟮c:2;file type⟯ are ⟮c:3;basically synonyms⟯. 
-the ⟮c:4;file format/type⟯ is ⟮c:5;the structure/specification⟯ of what ⟮c:6;the binary contents⟯ of ⟮c:5;a file following this ((s:4;::file format⟯)) ⟮c:7;mean/how they should be interpreted⟯. 
-There are ⟮c:8;three common ways⟯ to specify ⟮c:9;a file format⟯: ⟮s:8;((c:10;::Filename extensions⟯, ⟮c:11;internal metadata⟯, and ⟮c:12;external metadata⟯.)) 
+the ⟮c:4;file format/type⟯ is ⟮c:5;the structure/specification⟯ of what ⟮c:6;the binary contents⟯ of ⟮c:5;a file following this ⟮s:4;file format⟯⟯ ⟮c:7;mean/how they should be interpreted⟯. 
+There are ⟮c:8;three common ways⟯ to specify ⟮c:9;a file format⟯: ⟮s:8;⟮c:10;Filename extensions⟯, ⟮c:11;internal metadata⟯, and ⟮c:12;external metadata⟯.⟯ 
 
 ⟮c:13;Windows⟯ and ⟮c:14;Mac⟯  use ⟮c:15;file extensions⟯ to ⟮c:16;identify file type⟯. 
 ⟮c:17;Linux⟯ generally uses ⟮c:18;magic numbers⟯ to ⟮c:19;identify file type⟯. 
@@ -4782,7 +4782,7 @@ SVG files have the file extension of .svg
 SVG|Scalable Vector Graphics
 The ⟮c:16;current version of SVG⟯ is ⟮c:6;1.1.⟯, with version ⟮c:6;2⟯ being ⟮c:7;in planning since forever⟯. 
 Often, ⟮c:17;SVG⟯ is ⟮c:10;included in HTML⟯. This can be done by i⟮c:11;ncluding it directly in the source⟯, r⟮c:12;eferencing it in places the browser would normally take an image (<img>, background-image⟯), or ⟮c:13;pointing to it within an <object> or an <iframe>⟯ 
-⟮c:14;&lt;foreignObject&gt;⟯ is an SVG element that allows you to ⟮c:15;include non-SVG XML⟯, most commonly ⟮s:15;((c:8;::HTML⟯)). 
+⟮c:14;&lt;foreignObject&gt;⟯ is an SVG element that allows you to ⟮c:15;include non-SVG XML⟯, most commonly ⟮s:15;⟮c:8;HTML⟯⟯. 
 
 
 ########## affinity designer
@@ -5161,7 +5161,7 @@ If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯
 
 the package ⟮c:1;amsmath⟯ contains ⟮c:2;a bunch more stuff related to math⟯. 
 the package ⟮c:3;mathtools⟯ is ⟮c:4;a superset of⟯ ⟮c:5;amsmath⟯, and also ⟮c:6;fixes some of its bugs⟯ 
-the package ⟮s:9-10;((c:7;::amssymb⟯ ⟮c:8;adds more math symbols⟯)); the package ⟮s:7-8;((c:9;::amsthm⟯ ⟮c:10;adds more theorem/proof related stuff⟯)). ⟮c:11;these both⟯ ⟮c:12;need to be separately loaded from amsmath/mathtools⟯ if desired. 
+the package ⟮s:9-10;⟮c:7;amssymb⟯ ⟮c:8;adds more math symbols⟯⟯; the package ⟮s:7-8;⟮c:9;amsthm⟯ ⟮c:10;adds more theorem/proof related stuff⟯⟯. ⟮c:11;these both⟯ ⟮c:12;need to be separately loaded from amsmath/mathtools⟯ if desired. 
 
 ######### environments
 
@@ -5179,7 +5179,7 @@ environment name|TeX shorthand|LaTeX shorthand
 
 
 ⟮c:29;amsmath/mathtools⟯ adds a bunch more ⟮c:30;displayed⟯ ⟮c:31;math environments⟯. 
-For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two versions⟯, ⟮s:34;one ((c:33;::with a star⟯ and ⟮c:33;one without⟯)). 
+For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two versions⟯, ⟮s:34;one ⟮c:33;with a star⟯ and ⟮c:33;one without⟯⟯. 
 ⟮c:35;amsmath/mathtools environments⟯ ⟮c:37;w/o a star⟯ are ⟮c:36;numbered⟯, ⟮c:37;w/ a star⟯ they are ⟮c:36;not numbered⟯. 
 
 environment|name|image
@@ -5700,7 +5700,7 @@ Things in ⟮c:47;WebVTT/.srt⟯ are ⟮c:48;generally separated⟯ by ⟮c:49;a
 
 WebVTT delimits ⟮c:51;major sections⟯ with ⟮c:50;allcaps words⟯: 
 section name|section semantics/function
-⟮c:1;WEBVTT⟯|⟮c:2;s:32;Begin WebVTT document⟯ ⟮h:2;(may be followed by ((c:32;::text header on the same line⟯)))
+⟮c:1;WEBVTT⟯|⟮c:2;s:32;Begin WebVTT document⟯ ⟮h:2;(may be followed by ⟮c:32;text header on the same line⟯⟯)
 ⟮c:3;STYLE⟯|⟮c:4;inline styling section⟯
 ⟮c:5;NOTE⟯|⟮c:6;comment⟯
 
@@ -8187,7 +8187,7 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 A ⟮c:9;cache⟯ is a thing that ⟮c:10;stores data⟯ so that ⟮c:11;future requests for that data⟯ ⟮c:12;can be served more quickly⟯. 
 With ⟮c:13;caching and esp. with HTTP caching⟯, the guiding principle is that you want to ⟮c:14;store the thing as long as possible⟯, but ⟮c:15;update it as soon as it changes⟯. 
 
-A ⟮c:16;web cache⟯ AKA ⟮s:16;((c:17;::HTTP cache⟯)) is ⟮c:18;a cache for HTTP requests⟯. 
+A ⟮c:16;web cache⟯ AKA ⟮s:16;⟮c:17;HTTP cache⟯⟯ is ⟮c:18;a cache for HTTP requests⟯. 
 ⟮c:19;web/HTTP caches⟯ can either be ⟮c:20;shared⟯ or ⟮c:21;local/private⟯. 
 a ⟮c:22;shared⟯ ⟮c:23;HTTP cache⟯ sits ⟮c:24;somewhere in the internet⟯ and ⟮c:25;has many users⟯. 
 a ⟮c:26;local/private⟯ ⟮c:27;HTTP cache⟯ sits ⟮c:28;in your web browser⟯ and ⟮c:29;is only used by you⟯. 
@@ -8216,7 +8216,7 @@ The ⟮c:73;ETag fingerprint⟯ is sent along by ⟮c:76;the server⟯ as ⟮c:7
 If we're using ⟮c:77;ETags⟯ and ⟮c:78;a resource expires⟯, the ⟮c:80;client⟯ sends along the ⟮c:77;ETag⟯ ⟮c:79;fingerprint⟯ in ⟮c:79;a If-None-Match header⟯. The ⟮c:80;server⟯ uses this to check whether ⟮c:81;the fingerprint⟯ still ⟮c:82;corresponds to the current version of the file⟯, and returns ⟮c:83;304 Not Modified⟯ if ⟮c:85;true⟯, or ⟮c:85;else⟯ a ⟮c:84;normal 200 OK response⟯. 
 
 There's no ⟮c:88;built-in/non-hacky way⟯ in ⟮c:87;HTTP⟯ to ⟮c:86;notify a client that a resource has expired⟯ if they don't ask for it. 
-⟮c:89;Cache busting⟯ AKA ⟮s:89;((c:90;::revving⟯)) is a '⟮c:93;hack⟯' to ⟮c:91;force browsers to redownload new resources⟯ even if ⟮c:92;they are not expired.⟯ 
+⟮c:89;Cache busting⟯ AKA ⟮s:89;⟮c:90;revving⟯⟯ is a '⟮c:93;hack⟯' to ⟮c:91;force browsers to redownload new resources⟯ even if ⟮c:92;they are not expired.⟯ 
 ⟮c:94;Cache busting⟯ sets ⟮c:95;the longest possible max-age⟯ on resources, and if ⟮c:96;there are changes⟯, it ⟮c:97;renames the file in some way (e.g. a hash suffix⟯), which ⟮c:98;forces the browser to redownload⟯. 
 ⟮c:99;Cache busting⟯ is generally done by ⟮c:100;build tools such as Webpack automatically⟯ 
 
@@ -8253,7 +8253,7 @@ Specifying the ⟮c:74;`Domain`⟯ property of a ⟮c:75;cookie⟯ means ⟮c:76
 By default, ⟮c:78;cookies⟯ are ⟮c:81;sent by the browser⟯ ⟮c:80;no matter⟯ ⟮c:79;the path in the URL⟯ ⟮(c:80;only⟯ ⟮c:79;the FQDN⟯ matters). 
 If the ⟮c:82;Path⟯ attribute is ⟮c:83;specified for a cookie⟯, ⟮c:84;browsers will only sent the cookie⟯ on ⟮c:85;requests for the specified path (or subpaths⟯). 
 
-⟮c:86;Cookies⟯ that ⟮c:87;originate from⟯ ⟮c:88;the same domain as the current domain⟯ ⟮h:88;(including ((c:89;::subdomains⟯ if ⟮c:89;Domain is set⟯) )) are known as ⟮c:90;first-party cookies⟯, all others are ⟮c:90;third-party cookies⟯. 
+⟮c:86;Cookies⟯ that ⟮c:87;originate from⟯ ⟮c:88;the same domain as the current domain⟯ ⟮h:88;(including ⟮c:89;subdomains⟯ if ⟮c:89;Domain is set⟯) ⟯ are known as ⟮c:90;first-party cookies⟯, all others are ⟮c:90;third-party cookies⟯. 
 
 ⟮c:91;Cookies⟯ ⟮c:92;used to maintain the state of being logged⟯ in are known as ⟮c:93;authentication cookies⟯ (the whole process is known as ⟮s:91-93;c:94;cookie-based authentication⟯ ) 
 ⟮c:94;Cookies⟯ used to ⟮c:95;maintain the state of an unique user⟯ ⟮c:96;with whom to associate browser histories⟯ are known as ⟮c:97;tracking cookies⟯. 
@@ -12649,9 +12649,9 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 Python ⟮c:1;2⟯ and ⟮c:1;3⟯ have ⟮c:2;some syntactic differences.⟯ 
 ES2015|ES6
-The rust development cycle has the three release channels ⟮c:1;Nightly⟯, ⟮c:2;Beta⟯ and ⟮c:3;Stable::S...⟯. ⟮s:gb;((c:4;::Every six weeks⟯ ( = ⟮c:5;1 cycle⟯), ⟮c:6; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. )) 
-Therefore, ⟮s:10-12;((c:7;::what is beta now⟯ will be ⟮c:8;stable⟯ in ⟮c:9;a maximum of 6 weeks⟯)), and ⟮s:7-9;((c:10;::what is nightly now⟯ will be ⟮c:11;stable⟯ in ⟮c:12;at most 12 weeks⟯.)) 
-⟮c:17;Breaking changes (such as reserving new features⟯) can only happen on ⟮c:18;the highest rust versioning level⟯, which are ⟮c:19;editions⟯. ⟮s:gb;these are released ((c:20;::about every three years⟯, with the ones in existence as of writing being ⟮c:21;2015, 2018, and 2021⟯)) 
+The rust development cycle has the three release channels ⟮c:1;Nightly⟯, ⟮c:2;Beta⟯ and ⟮c:3;Stable::S...⟯. ⟮s:gb;⟮c:4;Every six weeks⟯ ( = ⟮c:5;1 cycle⟯), ⟮c:6; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
+Therefore, ⟮s:10-12;⟮c:7;what is beta now⟯ will be ⟮c:8;stable⟯ in ⟮c:9;a maximum of 6 weeks⟯⟯, and ⟮s:7-9;⟮c:10;what is nightly now⟯ will be ⟮c:11;stable⟯ in ⟮c:12;at most 12 weeks⟯.⟯ 
+⟮c:17;Breaking changes (such as reserving new features⟯) can only happen on ⟮c:18;the highest rust versioning level⟯, which are ⟮c:19;editions⟯. ⟮s:gb;these are released ⟮c:20;about every three years⟯, with the ones in existence as of writing being ⟮c:21;2015, 2018, and 2021⟯⟯ 
 
 #### dialects, influence, etc.
 
@@ -13176,7 +13176,7 @@ to ⟮c:13;hide the DOM node you have focused⟯ in devtools, press ⟮c:14;h⟯
 to edit the ⟮c:15;attributes⟯/⟮c:16;node type⟯ of a node while in devtools, press ⟮c:17;enter⟯ and then ⟮c:18;tab/shift tab around⟯ 
 Chrome's devtools feature an ⟮c:19;element picker⟯, which can be toggled with ⟮c:20;⟦⌘⟧ ⟦⇧⟧ <kbd>C</kbd>⟯ 
 to have an ⟮c:21;element that you select in your devtools be visible in your browser window⟯, ⟮c:22;right-click⟯ and then ⟮c:23;click <q>scroll into view</q>⟯ 
-⟮h:all;((h:all;::<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯))
+⟮h:all;<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯
 
 ##### styles tab
 
@@ -13633,7 +13633,7 @@ tap TAPNAME|add a repository|brew
 
 in ⟮c:11;homebrew⟯, a ⟮c:1;formula⟯ ⟮c:2;describes a package⟯. 
 A ⟮c:12;formula⟯ is a ⟮c:3;ruby (.rb⟯) file. 
-Each ⟮c:4;tap⟯ has ⟮c:5;its own list of formulae⟯, which you can find at ⟮s:4-5;((c:6;::tap-name/Formula⟯.)) 
+Each ⟮c:4;tap⟯ has ⟮c:5;its own list of formulae⟯, which you can find at ⟮s:4-5;⟮c:6;tap-name/Formula⟯.⟯ 
 A ⟮c:13;formula⟯ contains ⟮c:7;the location of the tarball of the source⟯, and  ⟮c:8;a script that knows how to build the software from the source⟯. 
 A ⟮c:9;precompiled formula⟯ is known as a ⟮c:10;bottle⟯. 
 A ⟮c:14;cask⟯ is like a ⟮c:15;formula⟯, but ⟮c:16;it's used to installed native .dmg mac apps instead of cli packages⟯ 
@@ -13641,7 +13641,7 @@ In homebrew, ⟮c:17;all formulae⟯ are contained in ⟮c:18;taps⟯ (≈ ⟮c:
 The ⟮c:20;default⟯ ⟮c:21;taps⟯ are ⟮c:22;homebrew-core⟯ and ⟮c:23;homebrew-cask⟯ (for ⟮c:24;Casks⟯), and you can ⟮c:25;add further 3rd party ones⟯ 
 
 In homebrew, according to the docs, a ⟮c:1;Keg⟯ is ⟮c:2;the path a formula is installed to⟯, including ⟮c:3;the specific version⟯. 
-since ⟮c:4;Kegs⟯ are ⟮c:5;always installed⟯ to ⟮c:6;the Cellar⟯ (path e.g. on apple silicon ⟮s:6;((c:7;::/opt/homebrew/Cellar⟯))), ⟮s:8;a Keg has the following syntax (on apple silicon ((c:8;::/opt/homebrew/Cellar/&lt;formulaname&gt;/&lt;version&gt;⟯&nbsp;)) 
+since ⟮c:4;Kegs⟯ are ⟮c:5;always installed⟯ to ⟮c:6;the Cellar⟯ (path e.g. on apple silicon ⟮s:6;⟮c:7;/opt/homebrew/Cellar⟯⟯), ⟮s:8;a Keg has the following syntax (on apple silicon ⟮c:8;/opt/homebrew/Cellar/&lt;formulaname&gt;/&lt;version&gt;⟯&nbsp;⟯ 
 If something is ⟮c:9;keg-only⟯, it is ⟮c:10;installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮c:11;not symlinked anywhere else⟯, often because ⟮c:4;the OS already ships with a version that this would conflict iwth⟯ 
 
 ⟮c:1;homebrew⟯ installs ⟮c:12;anything⟯ to ⟮c:2;within its prefix⟯. 
@@ -13733,7 +13733,7 @@ In a blue-green deployment, initially all users are routed to the blue env. Once
 
 feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
 Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
-Rust hides ⟮c:13;unstable/experimental⟯ ⟮c:13;features⟯ behind ⟮c:14;feature flags⟯, ⟮s:gb;which you ((c:15;::can only activate⟯ on ⟮c:16;nightly⟯)). 
+Rust hides ⟮c:13;unstable/experimental⟯ ⟮c:13;features⟯ behind ⟮c:14;feature flags⟯, ⟮s:gb;which you ⟮c:15;can only activate⟯ on ⟮c:16;nightly⟯⟯. 
 
 # Misc/no place yet
 
@@ -13851,8 +13851,8 @@ hexadecimal
 
 §§ HTML has ⟮c:1;two ways⟯ of specifying ⟮c:2;character escapes⟯. 
 Both ways HTML has for specifying character escapes ⟮c:3;start with an &amp;⟯ and ⟮c:4;end with a semicolon ;⟯.
-Of these, ⟮c:6;numeric character references⟯ ⟮c:7;refer to the character position within character set (most commmonly UTF-8⟯), ⟮s:gb;they start ((c:8;::with # (after &amp;⟯) and can be specified in decimal or hex. ⟮h:gb;(for example ((c:9;::&amp;#8203;⟯))))) 
-⟮c:10;Character entity references⟯ ⟮c:11;have a short, memorable name⟯ ⟮h:gb;(for example ((c:12;::&amp;amp; or &amp;quot⟯))) 
+Of these, ⟮c:6;numeric character references⟯ ⟮c:7;refer to the character position within character set (most commmonly UTF-8⟯), ⟮s:gb;they start ⟮c:8;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮h:gb;(for example ⟮c:9;&amp;#8203;⟯⟯⟯) 
+⟮c:10;Character entity references⟯ ⟮c:11;have a short, memorable name⟯ ⟮h:gb;(for example ⟮c:12;&amp;amp; or &amp;quot⟯⟯) 
 This distinction is however often not made, and often ⟮c:13;any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity⟯) are used. 
 
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
