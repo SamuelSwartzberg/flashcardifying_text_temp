@@ -168,7 +168,7 @@ A circular arc is the arc of a circle between a pair of distinct points.
 
 ## Area
 
-Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms, Rhombus, Dreiecks etc.}} herleiten {{c1::indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte}}
+Man kann sich die Formel des ⟮c2;Flächeninhalts⟯ eines ⟮c3;Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮c1;indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
 ⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_dreieck.gif">⟯
 ⟮c:3;Kreis⟯|⟮c:4;\[A=r^2π\]⟯</td></tr>|⟮h:all;<img src="sm_kreis.gif">⟯
 ⟮c:5;Parallelogramm⟯|⟮c:6;\[A=a*h_a=b*h_b\]⟯</td></tr>|⟮h:all;<img src="sm_para.gif">⟯
@@ -195,7 +195,7 @@ all rational numbers are by definition ocommensurable.
 
 ## factorization
 
-{{c1::Integer factorization}} is the {{c2::decomposition}} of an {{c2::integer}} (specifically {{c2::composite number}}) into {{c3::a product of smaller integers}}.
+⟮c1;Integer factorization⟯ is the ⟮c2;decomposition⟯ of an ⟮c2;integer⟯ (specifically ⟮c2;composite number⟯) into ⟮c3;a product of smaller integers⟯.
 a composite number is a natural number that is the product of two smaller natural numers
 any positive integer > 1 is either a composite number or a prime number.
 Prime factorization is a subtype of integer factorization.
@@ -354,8 +354,8 @@ the value a function yields for a given element of the domain x is often denoted
 The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
 The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
 The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
-The {{c1::value(s)}} that {{c2::must be provided}} to a {{c3::function}} to {{c4::obtain its result}} is/are known as {{c5::the/an argument(s)}}
-A mathematical {{c1::function}} must take {{c3::one or more}} {{c2::arguments}}
+The ⟮c1;value(s)⟯ that ⟮c2;must be provided⟯ to a ⟮c3;function⟯ to ⟮c4;obtain its result⟯ is/are known as ⟮c5;the/an argument(s)⟯
+A mathematical ⟮c1;function⟯ must take ⟮c3;one or more⟯ ⟮c2;arguments⟯
 
 #### notation
 
@@ -621,12 +621,12 @@ An algebraic structure may be based on other algebraic structures with operation
 ### Equation
 
 f+o+o = b+a+r
-An {{c1::equation}} is a statement that {{c3::asserts the equality}} of {{c2::two expressions}}
-An {{c4::equation}} connects its {{c1::two}} {{c2::expressions}} via {{c3::an equals sign}}
+An ⟮c1;equation⟯ is a statement that ⟮c3;asserts the equality⟯ of ⟮c2;two expressions⟯
+An ⟮c4;equation⟯ connects its ⟮c1;two⟯ ⟮c2;expressions⟯ via ⟮c3;an equals sign⟯
 
 ## expressions
 
-An {{c1::expression}} in math is {{c2::a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)}} including {{c3::at least one operator}}
+An ⟮c1;expression⟯ in math is ⟮c2;a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)⟯ including ⟮c3;at least one operator⟯
 
 
 ## operations
@@ -701,8 +701,8 @@ adicity: monadic, dyadic, triadic, tetradic, pentadic, hexadic...
 there is an adicity for every arity.
 A function with an arity of 1 takes one argument.
 A ternary operator takes 3 operands.
-(arg1, arg2, arg3, arg4)add has an arity of {{c1::4}}
-Something with indefinite arity is called {{c1::variadic}}
+(arg1, arg2, arg3, arg4)add has an arity of ⟮c1;4⟯
+Something with indefinite arity is called ⟮c1;variadic⟯
 
 A n-ary function takes n arguments.
 3+6=9 is a binary operation.

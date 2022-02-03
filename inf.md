@@ -48,13 +48,13 @@ The document prolog (if you use one) comes at the top of the document, before th
 
 ### declaration
 
-the {{c1::XML declaration}} {{c2::contains information about the coming xml document}}. 
-the {{c19::XML declaration}}  is {{c3::optional}}, {{c3::but if it appears}}, it must appear in {{c4::the first line of the document}}. 
-the {{c20::XML declaration}} takes {{c5::three}} parameters:
+the ⟮c1;XML declaration⟯ ⟮c2;contains information about the coming xml document⟯. 
+the {{c19::XML declaration}}  is ⟮c3;optional⟯, ⟮c3;but if it appears⟯, it must appear in ⟮c4;the first line of the document⟯. 
+the {{c20::XML declaration}} takes ⟮c5;three⟯ parameters:
 <div class="c1-5-scr c12-18-scr">
-   <tbody>`{{c6::version}}`|{{c9::The XML version the document is using}}
-`{{c7::encoding}}`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}
-`{{c8::standalone}}`|{{c11::Whether the document relies on an external source such as an external DTD}}
+   <tbody>`⟮c6;version⟯`|⟮c9;The XML version the document is using⟯
+`⟮c7;encoding⟯`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}
+`⟮c8;standalone⟯`|{{c11::Whether the document relies on an external source such as an external DTD}}
 
 </div>
 <p class="c1-11-scr">Of these, `{{c12::version}}` is {{c13::mandatory}}. It's syntax is:</p>
@@ -155,7 +155,7 @@ Otherwise, the text content of the <dfn> element is the term being defined.
 
 &lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
 Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
-The {{c1::HTMLMediaElement}} has a bunch of properties, amongs others
+The ⟮c1;HTMLMediaElement⟯ has a bunch of properties, amongs others
 
 <tbody>⟮c:2;muted⟯|⟮c:7;audio is muted/mute audio⟯|IDL & Content
 ⟮c:3;paused⟯|⟮c:8;is paused/pause⟯|IDL
@@ -455,7 +455,7 @@ The <option> HTML element is used to define an item contained in a <select>, an 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-By default, {{c9::html `&lt;select&gt;`}}s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if `{{c11::multiple}}` ({{c12::allowing multiple selection::purpose}}) or `{{c13::size}}` ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
+By default, ⟮c9;html `&lt;select&gt;`⟯s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if `{{c11::multiple}}` ({{c12::allowing multiple selection::purpose}}) or `{{c13::size}}` ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
 
 ##### output
 
@@ -640,8 +640,8 @@ translate: an enumerated attribute whether the element should be translated, e.g
 
 tabindex:
 The tabindex attriubte indicates if and how an element can be focused by the keyboard.
-&nbsp;{{c1::tabindex}}{{c2::=0}} indicates that {{c3::an element can be focused}} (e.g.&nbsp;{{c4::by the tab key}})
-&nbsp;{{c1::tabindex}}{{c2::=-1}} indicates that {{c3::an element can <b>not&nbsp;</b>be focused}} (e.g. by {{c4::the tab key}})
+&nbsp;⟮c1;tabindex⟯⟮c2;=0⟯ indicates that ⟮c3;an element can be focused⟯ (e.g.&nbsp;⟮c4;by the tab key⟯)
+&nbsp;⟮c1;tabindex⟯⟮c2;=-1⟯ indicates that ⟮c3;an element can <b>not&nbsp;</b>be focused⟯ (e.g. by ⟮c4;the tab key⟯)
 Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
 CSS inline styling with style.
 part and slot for the shadow DOM.
@@ -720,7 +720,7 @@ the ⟮c:3;svg⟯ ⟮c:1;&lt;g&gt; element⟯ is used to ⟮c:2;group ofther ele
 
 ### JSX
 
-{{c3::JSX}} is either said to be short for {{c2::JavaScript Syntax Extension}} or {{c1::JavaScript XML}}
+⟮c3;JSX⟯ is either said to be short for ⟮c2;JavaScript Syntax Extension⟯ or ⟮c1;JavaScript XML⟯
 Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
 #### style props
@@ -739,7 +739,7 @@ style props 'states' could be pseudo-classes, aria states or custom chakra 'stat
 style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
 e.g. _hover={{ fontWeight: 'semibold' }}
 ⟮h:all;<img src="sm_2021-09-17--19-05-46-screenshot.jpg">⟯
-{{c1::chakra}} provides some {{c2::predefined shadows}} as style props with {{c3::boxShadow}}{{c4::="name"}}
+⟮c1;chakra⟯ provides some ⟮c2;predefined shadows⟯ as style props with ⟮c3;boxShadow⟯⟮c4;="name"⟯
 
 the sx prop is an escape hatch to CSS when style props are not enough.
 the sx prop takes an object whose keys can be CSS or the style prop superset.
@@ -942,7 +942,7 @@ localStorage is larger than sessionStorage.
 Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
 Browsers increasingly don't even allow us to ask for notification permissione exept in response to user action.
 After gaining permission, we can create notifications with the Notification() constructor.
-the {{c3::Notification() constructor}} takes two arguments, the {{c1::title of the notification}} and an {{c2::object of options}}
+the ⟮c3;Notification() constructor⟯ takes two arguments, the ⟮c1;title of the notification⟯ and an ⟮c2;object of options⟯
 the options object for the notification constructor as a bunch of properties that precisely configure the notification.
 .close()|closes the notification manually
 Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
@@ -953,7 +953,7 @@ The Intersection Observer API provides a way to asynchronously observe changes i
 
 #### intervals
 
-{{c1::window}}.​setTimeout(function, delay, args);
+⟮c1;window⟯.​setTimeout(function, delay, args);
 
 #### misc
 
@@ -1017,7 +1017,7 @@ Event.defaultPrevent|was a default prevented?
 
 #### patterns
 
-{{c1::event delegation}} is {{c3::handling events}} (that are {{c4::similar somehow}}) on {{c2::a common ancestor}}
+⟮c1;event delegation⟯ is ⟮c3;handling events⟯ (that are ⟮c4;similar somehow⟯) on ⟮c2;a common ancestor⟯
 Event delegation only works due to event bubbling
 
 ### Web Speech API
@@ -1029,21 +1029,21 @@ Web Speech API: text to speech/speech to text
 ### PWA
 
 PWA|Progressive Web App
-PWAs should work to some extent even when {{c1::there is no internet}}
-⟮h:all;<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the {{c1::screenshots}} property of a web app manifest allows for {{c2::previewing images of the web app when installing}}
+PWAs should work to some extent even when ⟮c1;there is no internet⟯
+⟮h:all;<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c1;screenshots⟯ property of a web app manifest allows for ⟮c2;previewing images of the web app when installing⟯
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
 #### service workers
 
-{{c1::Service Workers}} are a type of {{c2::Web Worker}}
-The main problem {{c1::service workers}} are solving is handling {{c2::loss of connectivity}}
-The {{c2::service worker's}} {{c1::lifecycle}} is separate from {{c3::your webpage's}}
+⟮c1;Service Workers⟯ are a type of ⟮c2;Web Worker⟯
+The main problem ⟮c1;service workers⟯ are solving is handling ⟮c2;loss of connectivity⟯
+The ⟮c2;service worker's⟯ ⟮c1;lifecycle⟯ is separate from ⟮c3;your webpage's⟯
 
 The first step in a service workers lifetime is navigator.serviceWorker.register(path-to-service-worker.js), which returns a promise
 The service worker's scope ( which fetch events it reacts to) is determined by the directory the script implementing it is in 
 e.g. /sw.js has the scope of everything in the project, while /example/sw.js has the scope of everything in /example.
 The service worker adds event listeners like so: self.addEventListener...
-{{c1::Workbox}} is a library that {{c2::bakes in a set of best practices}} and {{c3::removes the boilerplate}} every developer writes when working with {{c4::service workers}}.
+⟮c1;Workbox⟯ is a library that ⟮c2;bakes in a set of best practices⟯ and ⟮c3;removes the boilerplate⟯ every developer writes when working with ⟮c4;service workers⟯.
 
 ### wasm
 
@@ -1240,7 +1240,7 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 ::selection only supports a subset of properties, mainly color, background-color and text-shadow.
 ::first-letter|matches the first letter of a block-level element
 ::first-line|matches the first line of a block-level element
-::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath {{c1::any element that is in fullscreen}}
+::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath ⟮c1;any element that is in fullscreen⟯
 
 
 ##### Combinators
@@ -1607,7 +1607,7 @@ column-width specifies a minimum width of columns
 
 ###### Pointer-events
 
-pointer-events: {{c1::none}} makes a thing completely ininteractable with a mouse.
+pointer-events: ⟮c1;none⟯ makes a thing completely ininteractable with a mouse.
 
 ###### Text
 
@@ -1649,7 +1649,7 @@ The font shorthand allows setting properties starting with font-, as well as lin
 font-variant is a shorthand property for a few low-level font features, which all start with font-variant-
 font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-capital letters, font-variant-caps: all-small-caps/all-petite-caps forces small caps for any letters, capital or not.
 
-It may seem that certain html form elements can't have their font styled {{c1::because by default, these elements don't inherit font properties}}
+It may seem that certain html form elements can't have their font styled ⟮c1;because by default, these elements don't inherit font properties⟯
 
 ###### white-space
 
@@ -1674,7 +1674,7 @@ overscroll-behavior: contain will prevent scroll chaining only
 
 ###### Background
 
-The background: property is a shorthand for {{c1::background-clip}}, {{c2::background-color}}, {{c3::background-image}}, {{c4::background-origin}}, {{c5::background-position}}, {{c6::background-repeat}}, {{c7::background-size}} and {{c8::background-attachment}}
+The background: property is a shorthand for ⟮c1;background-clip⟯, ⟮c2;background-color⟯, ⟮c3;background-image⟯, ⟮c4;background-origin⟯, ⟮c5;background-position⟯, ⟮c6;background-repeat⟯, ⟮c7;background-size⟯ and ⟮c8;background-attachment⟯
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
 while single values for background-repeat generally specify both x and y, there are the single values repeat-x and repeat-y that will only repeat in the specified ways.
 repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
@@ -1978,8 +1978,8 @@ overflow-specifier-values ::= visible|hidden|clip|scroll|auto
 overflow-anchor determines if our scroll position is anchored to the scroll offset from the top (`none`) or to the current position in the content (`auto`), which is relevant when we add more content on top. 
 
 mix-blend-mode and background-blend-mode both take a <blend-mode>
-{{c4::Background-blend-mode}} regulates blending between ({{c3::a}}) {{c1::background-image}}({{c3::s}}) as well as the {{c2::background-color}}.
-{{c2::mix-blend-mode}} regulates blending between {{c1::the}} {{c1::element's}} {{c3::content}}, {{c1::the}} {{c1::element's}} {{c4::parents content}}, and {{c1::the}} {{c1::element's}} {{c5::background}}.
+⟮c4;Background-blend-mode⟯ regulates blending between (⟮c3;a⟯) ⟮c1;background-image⟯(⟮c3;s⟯) as well as the ⟮c2;background-color⟯.
+⟮c2;mix-blend-mode⟯ regulates blending between ⟮c1;the⟯ ⟮c1;element's⟯ ⟮c3;content⟯, ⟮c1;the⟯ ⟮c1;element's⟯ ⟮c4;parents content⟯, and ⟮c1;the⟯ ⟮c1;element's⟯ ⟮c5;background⟯.
 css <blend-modes> are the usual blend modes
 
 ##### Values
@@ -2244,9 +2244,9 @@ Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \
 from is an alias of 0% and to is an alias of 100%
 Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
 
-if you mark something with !important in a keyframe,&nbsp;{{c1::That value will be ignored}} (since !important can't be used in keyframes)
-if you don't provide a from/0% andor a to/100% it will {{c1::Animate to/from the elements existing styles}}
-If you specify multiple @keyframes with the same name, {{c1::The last one encountered will be used}}
+if you mark something with !important in a keyframe,&nbsp;⟮c1;That value will be ignored⟯ (since !important can't be used in keyframes)
+if you don't provide a from/0% andor a to/100% it will ⟮c1;Animate to/from the elements existing styles⟯
+If you specify multiple @keyframes with the same name, ⟮c1;The last one encountered will be used⟯
 
 ##### @page
 
@@ -2605,11 +2605,11 @@ The CSSStyleDeclaration interface is an object that represents a CSS declaration
 
 ##### system UI themes
 
-the {{c1::System UI Theme Specification}} is a {{c2::reasonably widely}} adopted spec for {{c3::a style object}} that stores things for {{c4::design systems}}, especially {{c5::scales}}
-at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} - 
-scales are {{c3::arrays}} or {{c3::objects}} of {{c4::predefined sets of values}}, for things such as {{c5::font sizes}}, {{c5::colors}}, etc.
-According to the {{c1::System UI Theme Specification}}, the {{c4::CSS properties}} that accept {{c2::only a small, finite number}} of valid CSS values {{c3::should not be included as a scale object}}.
-According to the {{c1::System UI Theme Specification}}, a {{c2::key}} defining a {{c2::scale}} should be called the {{c3::same thing as the css property}}, except {{c4::plural}} (except for the weirdly-named `{{c4::space}}`) and {{c5::camelCase}}, unless there are {{c6::multiple css properties it might be used for}}
+the ⟮c1;System UI Theme Specification⟯ is a ⟮c2;reasonably widely⟯ adopted spec for ⟮c3;a style object⟯ that stores things for ⟮c4;design systems⟯, especially ⟮c5;scales⟯
+at the heart of the ⟮c1;System UI Theme Specification⟯ are ⟮c2;scales⟯ - 
+scales are ⟮c3;arrays⟯ or ⟮c3;objects⟯ of ⟮c4;predefined sets of values⟯, for things such as ⟮c5;font sizes⟯, ⟮c5;colors⟯, etc.
+According to the ⟮c1;System UI Theme Specification⟯, the ⟮c4;CSS properties⟯ that accept ⟮c2;only a small, finite number⟯ of valid CSS values ⟮c3;should not be included as a scale object⟯.
+According to the ⟮c1;System UI Theme Specification⟯, a ⟮c2;key⟯ defining a ⟮c2;scale⟯ should be called the ⟮c3;same thing as the css property⟯, except ⟮c4;plural⟯ (except for the weirdly-named `⟮c4;space⟯`) and ⟮c5;camelCase⟯, unless there are ⟮c6;multiple css properties it might be used for⟯
 ```
 // example fontSizes scale as an array
 fontSizes: [
@@ -2730,7 +2730,7 @@ Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, i
 
 ##### SCSS/Sass
 
-{{c3::Sass}} is a {{c4::CSS preprocessor}} that works with the two syntaxes {{c1::Sass (the syntax)}} and {{c2::SCSS}}
+⟮c3;Sass⟯ is a ⟮c4;CSS preprocessor⟯ that works with the two syntaxes ⟮c1;Sass (the syntax)⟯ and ⟮c2;SCSS⟯
 ⟮c:3;SCSS/Sass⟯'s ⟮c:4;scripting language⟯ which ⟮c:4;is its syntax superset⟯ is called ⟮c:5;SassScript⟯. 
 Sass syntax that is indented rather than curly-braced   Sass
 Sass syntax that is a CSS superset   SCSS (Sassy CSS)
@@ -2835,7 +2835,7 @@ next to its own technologies, bootstrap may require popper
 
 ##### chakra
 
-{{c3::Chakra}} provides a sensible {{c2::default}} theme inspired by {{c1::Tailwind CSS}}
+⟮c3;Chakra⟯ provides a sensible ⟮c2;default⟯ theme inspired by ⟮c1;Tailwind CSS⟯
 
 ###### components
 
@@ -3035,8 +3035,8 @@ Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime
 At it's most general, a fingerprint is an unique combination of features that uniquely identify something.
 A fingerprinting algorithm reduces a data item to a much shorter unique identifier, often also called a fingerprint.
 Often, hashing algorithms are used as fingerprinting algorithms.
-A {{c2::checksum}} is a {{c1::small amount of data}}, derived by applying {{c3::a suitable algorithm}} the relevant data, used to {{c4::check whether errors have occurred}}, e.g. in {{c5::transmission}}, {{c5::storage}} or {{c5::data entry}}.
-Depending on its design goals, a good c{{c3::hecksum}} algorithm usually outputs {{c1::a significantly different value}}, even {{c2::for small changes made to the input}}. 
+A ⟮c2;checksum⟯ is a ⟮c1;small amount of data⟯, derived by applying ⟮c3;a suitable algorithm⟯ the relevant data, used to ⟮c4;check whether errors have occurred⟯, e.g. in ⟮c5;transmission⟯, ⟮c5;storage⟯ or ⟮c5;data entry⟯.
+Depending on its design goals, a good c⟮c3;hecksum⟯ algorithm usually outputs ⟮c1;a significantly different value⟯, even ⟮c2;for small changes made to the input⟯. 
 A check digit is one or more digits or characters (but generally a small amount) used as a checksum.
 
 # HCI
@@ -3048,8 +3048,8 @@ the problem with the term 'intuitive' in HCI is that to a certain extent, everyt
 
 ## IO
 
-Input devices are devices that move/transform data from  {{c1::the world ≈ the user to the computer}}
-Output devices are devices that move/transform data from {{c1::the computer to the world ≈ the user}}
+Input devices are devices that move/transform data from  ⟮c1;the world ≈ the user to the computer⟯
+Output devices are devices that move/transform data from ⟮c1;the computer to the world ≈ the user⟯
 The most important input devices are probably mouse and keyboard, less common ones are gamepads, motion tracking devices, microphones, cameras, etc.
 Examples of output devices are screens, speakers, etc.
 A pointing device is an input device that allows a user to input spatial information.
@@ -3069,7 +3069,7 @@ Keyboard keys that maintain a quasimode are shift, alt, control, option....
 
 ##### local variants
 
-Keyboards are often identified based on {{c1::their first few keys on the top letter row}}
+Keyboards are often identified based on ⟮c1;their first few keys on the top letter row⟯
 QUERTY|en
 QWERTZ|de
 AZERTY|fr
@@ -3369,7 +3369,7 @@ add/remove text cursor at mouse cursor location|<kbd class='modifier alt'></kbd>
 add text cursors to all occurences of current selection|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> <kbd>l</kbd>
 add text cursor to nex occurrence of selection|<kbd class='modifier cmd'></kbd> <kbd>d</kbd>
 
-If in VSCode you have {{c1::as many text cursors}} as {{c2::the thing you want to paste has lines}}, it will auto paste it there.
+If in VSCode you have ⟮c1;as many text cursors⟯ as ⟮c2;the thing you want to paste has lines⟯, it will auto paste it there.
 
 ##### autocomplete
 
@@ -3418,7 +3418,7 @@ The most common forms a sentence-like cli syntax takes on is either a &lt;addres
 topic-object-verb-object CLIs
 gh|github|gh issue view 12
 nmcli|NetworkManager|nmcli con add type ethernet ...
-{{c1::}}
+⟮c1;⟯
 
 ### GUI
 
@@ -3615,7 +3615,7 @@ A listbox (or list box) is a UI element that contains a list of values within a 
 
 ⟮h:all;<img src="1y2NriILZC8ujowKW4TWb2Q.png">⟯⟮h:all;<img src="dropdown-example.jpg">⟯⟮h:all;<img src="3-final-sidebyside-dropdowns">⟯
 dropdown is short for dropdown list/menu
-A dropwdown is a UI element that consists of {{c3::a box}} and {{c3::a downward arrow}} that {{c4::one can interact with}} to {{c5::show a list of options}}, {{c6::exactly one of which}} can be {{c7::selected}}. Often, larger ones will {{c8::scroll}}.
+A dropwdown is a UI element that consists of ⟮c3;a box⟯ and ⟮c3;a downward arrow⟯ that ⟮c4;one can interact with⟯ to ⟮c5;show a list of options⟯, ⟮c6;exactly one of which⟯ can be ⟮c7;selected⟯. Often, larger ones will ⟮c8;scroll⟯.
 
 ##### buttons
 
@@ -3653,7 +3653,7 @@ Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now de
 #### platforms
 
 <svg class="all-b" data-qb-2-tld="reactnative.dev" data-qb-domain="reactnative.dev" data-qb-url="https://reactnative.dev/docs/assets/diagram_ios-android-views.svg" viewBox="0 0 1221 828" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-16{fill:#99d5e7}.cls-3{fill:#d5e2f5}.cls-5{fill:#e9e8e8;mix-blend-mode:multiply}.cls-6{fill:#f29dc4}.cls-29,.cls-7{fill:#fff}.cls-17,.cls-20{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}.cls-10,.cls-12,.cls-17{font-size:28px}.cls-10{fill:#134484}.cls-10,.cls-12{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.cls-11,.cls-13,.cls-18,.cls-25{fill:none;stroke-miterlimit:10}.cls-11{stroke:#134484}.cls-11,.cls-13{stroke-width:3px}.cls-12,.cls-27{fill:#374d9c}.cls-13{stroke:#374d9c}.cls-14{fill:#71c9e4}.cls-15{fill:#09a5d3}.cls-18{stroke:#99d5e7}.cls-18,.cls-25{stroke-width:2px}.cls-19{fill:#0069ac}.cls-20{font-size:32px}.cls-23{fill:#1f2129}.cls-24{fill:#97aad8}.cls-25{stroke:#d5e2f5}.cls-26{fill:#5971b5}.cls-29{opacity:.7}</style></defs><g style="isolation:isolate"><g data-name="Layer 3" id="Layer_3"><g id="Example"><path d="M347 474h797v354H347z" fill="#99d5e7" opacity=".5"></path><path class="cls-3" d="M44 0h794v354H44z"></path><path d="M309 277h575v245H309z" fill="#e9e8e8"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-6" d="M309 277h575v245H309z"></path><path class="cls-7" d="M369 325.5h452v135H369z"></path><g id="Pouncival"><path d="M527.84 388.44s-13.09 4-18.12 27.17c0 0-5.6-3.18-18.19-2.46-.64 0-1.27.07-1.86.13l-.57.05-.92.1c-.53.05-1.05.1-1.61.17a22.35 22.35 0 00-6.86 2c-5-23.15-18.11-27.17-18.11-27.17-18.12 28.18-3 36.23-6 64.41-1.6 14.89 26.35 15.88 40 15.49 14.15.25 39.84-1.24 38.3-15.53-3.04-28.13 12.1-36.18-6.06-64.36z" fill="#d23c6f" transform="translate(-32 -38)"></path><text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="50.24" transform="translate(526.99 405.37)">Pouncival</text><circle class="cls-6" cx="477.9" cy="398.14" r="14.36"></circle></g></g><g data-name="iOS views" id="iOS_views"><text class="cls-10" transform="translate(544.05 651.5)">UIView</text><text class="cls-10" transform="translate(396.32 574.93)">UIImageView</text><text class="cls-10" transform="translate(624.8 578.93)">UITextView</text><path class="cls-11" d="M530 640.5l-148.69-.5V461.5M660.05 641.67l148.69-.5v-178.5M463.5 541v-93M696.5 541V424"></path></g><g data-name="Android views" id="Android_views"><text class="cls-12" transform="translate(517.85 156.5)">ViewGroup</text><text class="cls-12" transform="translate(393.13 233.93)">ImageView</text><text class="cls-12" transform="translate(641.04 233.93)">TextView</text><path class="cls-13" d="M463.5 340v-93M696.5 360V243"></path><path class="cls-11" d="M506.62 146.26l-127.69.5v178.5M680.67 145.09l125.69.5v179.5"></path></g></g><g id="ios"><path class="cls-14" d="M586.84 758.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.16 6.61-6.16 6.55 2.61 6.6 6.16zm-13.1 45.18v-35.42h13v35.42zM640.88 778.58c0 15.61-9.38 25.54-24.35 25.54s-23.32-11.28-23.32-24.77c0-14.13 9.26-25.34 24.13-25.34 15.6-.01 23.54 11.57 23.54 24.57zm-33.91.54c0 9.13 4 14.71 10.19 14.71s10-6.09 10-14.84c0-8.35-3.75-14.69-10-14.69-6.22 0-10.16 5.89-10.16 14.82zM648.67 790.41a29.89 29.89 0 0012.58 3c4.45 0 6.65-1.54 6.65-4s-2.18-3.69-7.67-5.57c-8.17-2.89-13.63-7.41-13.63-14.63 0-8.59 7.24-15.18 19.5-15.18a31.62 31.62 0 0113.12 2.49l-2.72 10.39a25.58 25.58 0 00-10.5-2.3c-4 0-6.14 1.46-6.14 3.58 0 2.47 2.58 3.46 8.7 5.75 8.75 3.2 12.65 7.88 12.65 14.63 0 8.39-6.51 15.52-20.68 15.52a34.76 34.76 0 01-14.27-3z" transform="translate(-32 -38)"></path><g id="app"><g id="nav"><path class="cls-7" d="M885 82h315v632H885z"></path><path class="cls-15" d="M892 677h305v68H892z"></path><path class="cls-16" d="M1078.76 738.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM1178.46 732s-4 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44zM978.31 755a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g><g id="Choupette"><path class="cls-16" d="M994.8 695.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.37c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69 43.85 43.85 0 00-4.86 0 25.44 25.44 0 00-2.05-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.34-7.58z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 657.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris"><path class="cls-18" d="M970 616h208"></path><path class="cls-15" d="M987 604.42s-4.7 1.45-8 8.71a35.16 35.16 0 012 11.87c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-16" d="M981 625a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C977 643.76 981 635 981 625z" transform="translate(-32 -38)"></path><circle class="cls-15" cx="924.5" cy="593.5" r="7.5"></circle><text class="cls-17" transform="translate(972.36 597.03)">Mrs. Norris</text></g><g id="Tuna"><path class="cls-18" d="M970 556h208"></path><path class="cls-19" d="M987 544.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 537.03)">Tuna</text></g><g id="Tabby"><path class="cls-18" d="M970 496h208"></path><path class="cls-15" d="M989.52 514a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-14" d="M969 506.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM955 513s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 01955 513zM982 513c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C984.93 518.16 982 513 982 513zM965.57 531.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29M959.87 522.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM959.84 522.49v-.1zM976 524l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 00976 524zM963 511c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41 0-.24-.12-.48-.18-.72-.6 9.7 3.4 12.09 3.4 12.09zM972.7 511.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM966.35 506.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 477.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger"><path class="cls-18" d="M970 436h208"></path><text class="cls-17" transform="translate(972.36 417.03)">Rum Tum Tugger</text><path class="cls-14" d="M994.64 455.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4a26.94 26.94 0 01-14.36 4.48 3.51 3.51 0 01-1.25 0H972c2.15-.32 7-2.24 13.9-11.86v-.42c.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.07-3.45 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2 18.43 18.43 0 006.81 4.76c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-15" d="M961.56 455.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM960.63 461.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M960.63 461.92a2 2 0 00.26-.43zM972 458.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-15" d="M972 458.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M989.5 464.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-15" d="M973.5 461.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-2"><path class="cls-18" d="M970 376h208"></path><path class="cls-15" d="M987 364.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H964.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 357.03)">Pouncival</text><circle class="cls-16" cx="945" cy="353" r="8"></circle></g><g id="Spot"><path class="cls-18" d="M970 316h208"></path><text class="cls-17" transform="translate(972.36 297.03)">Spot</text><path class="cls-14" d="M989.7 334.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37 12 12 0 008.18 13.37l6.92 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.25-13.38z" transform="translate(-32 -38)"></path></g><g id="Maru"><path class="cls-18" d="M970 256h208"></path><text class="cls-17" transform="translate(972.36 237.03)">Maru</text><path class="cls-14" d="M985 272a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06c-.51 10.51-7.89 18.85-17 18.85a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 01985 272z" transform="translate(-32 -38)"></path><path class="cls-15" d="M990.36 280.21a38.82 38.82 0 01-.13-7A12 12 0 00974 288.8c7.75-.36 17.05-2.12 16.36-8.59zM966 258.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5a15.76 15.76 0 002.02.23c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g id="header"><path class="cls-16" d="M888 85h312v104H888z"></path><text class="cls-20" transform="translate(918.19 163.12)">Cat Cafe Menu</text></g><circle cx="1147.5" cy="715.5" fill="#a21732" r="4.5"></circle></g><g id="device"><path d="M1197.9 100H955.1c-30.43 0-55.1 26.67-55.1 57.1v586.8a55.1 55.1 0 0055.1 55.1h242.8a55.1 55.1 0 0055.1-55.1V157.1c0-30.43-24.67-57.1-55.1-57.1zm26.84 643.79a29.21 29.21 0 01-29.21 29.21h-237a30.69 30.69 0 01-30.68-30.69v-588a29.34 29.34 0 0129.3-29.31h30.12a5.43 5.43 0 015.43 5.43v.57a18.73 18.73 0 0018.74 18.73h128.16a18.2 18.2 0 0018.2-18.2v.84a7.37 7.37 0 017.37-7.37h28.93a30.64 30.64 0 0130.64 30.64z" fill="#134484" transform="translate(-32 -38)"></path><rect class="cls-19" height="7.41" rx="3" width="42" x="1022" y="90.29"></rect><circle class="cls-23" cx="1076.5" cy="93.5" r="4.5"></circle><circle class="cls-14" cx="1076" cy="93" r="2"></circle></g></g><g id="Android"><g data-name="app" id="app-2"><path class="cls-7" d="M9 77h300v639H9z"></path><g data-name="Choupette" id="Choupette-2"><path class="cls-24" d="M107.8 727.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.4c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69A43.85 43.85 0 0079 710a25.44 25.44 0 00-2-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.31-7.7z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 689.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris-2"><path class="cls-25" d="M83 648h208"></path><path class="cls-26" d="M100 636.42s-4.7 1.45-8 8.71A35.16 35.16 0 0194 657c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-24" d="M94 657a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C90 675.76 94 667 94 657z" transform="translate(-32 -38)"></path><circle class="cls-26" cx="37.5" cy="625.5" r="7.5"></circle><text class="cls-17" transform="translate(85.36 629.03)">Mrs. Norris</text></g><g data-name="Tuna" id="Tuna-2"><path class="cls-25" d="M83 588h208"></path><path class="cls-27" d="M100 576.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 569.03)">Tuna</text></g><g data-name="Tabby" id="Tabby-2"><path class="cls-25" d="M83 528h208"></path><path class="cls-26" d="M102.52 546a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-24" d="M82 538.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM68 545s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 0168 545zM95 545c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C97.93 550.16 95 545 95 545zM78.57 563.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29" transform="translate(-32 -38)"></path><path class="cls-14" d="M72.87 554.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM72.84 554.49v-.1z" transform="translate(-32 -38)"></path><path class="cls-24" d="M89 556l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 0089 556zM76 543c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41-.05-.24-.12-.48-.18-.72C72 540.61 76 543 76 543zM85.7 543.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM79.35 538.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 509.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger-2"><path class="cls-25" d="M83 468h208"></path><text class="cls-17" transform="translate(85.36 449.03)">Rum Tum Tugger</text><path class="cls-24" d="M107.64 487.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4A26.94 26.94 0 0185 490.56a3.51 3.51 0 01-1.25 0H85c2.15-.32 7-2.24 13.9-11.86 0-.14 0-.28.05-.42.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.12-3.48 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2A18.43 18.43 0 0062 498.2c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-26" d="M74.56 487.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM73.63 493.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M73.63 493.92a2 2 0 00.26-.43zM85 490.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-26" d="M85 490.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M102.5 496.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-26" d="M86.5 493.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-3"><path class="cls-25" d="M83 408h208"></path><path class="cls-26" d="M100 396.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H77.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 389.03)">Pouncival</text><circle class="cls-24" cx="58" cy="385" r="8"></circle></g><g data-name="Spot" id="Spot-2"><path class="cls-25" d="M83 348h208"></path><text class="cls-17" transform="translate(85.36 329.03)">Spot</text><path class="cls-24" d="M102.7 366.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37A12 12 0 0068 379.52l7 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.17-13.38z" transform="translate(-32 -38)"></path></g><g data-name="Maru" id="Maru-2"><path class="cls-25" d="M83 288h208"></path><text class="cls-17" transform="translate(85.36 269.03)">Maru</text><path class="cls-24" d="M98 304a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06C78.44 300.66 71.06 309 62 309a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 0198 304z" transform="translate(-32 -38)"></path><path class="cls-26" d="M103.36 312.21a38.82 38.82 0 01-.13-7A12 12 0 0087 320.8c7.75-.36 17.05-2.12 16.36-8.59zM79 290.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5A15.76 15.76 0 0062 309c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g data-name="header" id="header-2"><path class="cls-3" d="M19.48 76h276.37A13.15 13.15 0 01309 89.15V180H5V90.48A14.48 14.48 0 0119.48 76z"></path><text class="cls-20" transform="translate(31.19 154.12)">Cat Cafe Menu</text></g><g data-name="nav" id="nav-2"><path class="cls-26" d="M7.18 177H310v46H5v-43.82A2.18 2.18 0 017.18 177z"></path><path class="cls-3" d="M191.76 232.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM291.46 226s-3.95 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44z" transform="translate(-32 -38)"></path><circle cx="260.5" cy="209.5" fill="#ee76ab" r="4.5"></circle><path class="cls-3" d="M91.31 249a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g></g><g data-name="device" id="device-2"><path class="cls-27" d="M314.08 104H66.92A34.91 34.91 0 0032 138.92v629.16A34.91 34.91 0 0066.92 803h247.16A34.91 34.91 0 00349 768.08V138.92A34.91 34.91 0 00314.08 104zM336 735.6a18.4 18.4 0 01-18.4 18.4H64.85A19.85 19.85 0 0145 734.15V139.67A23.67 23.67 0 0168.67 116h60.13a9.2 9.2 0 019.2 9.2v7a19.75 19.75 0 0019.75 19.8h64A19.23 19.23 0 00241 132.77v-7.63a9.14 9.14 0 019.14-9.14h62.32A23.54 23.54 0 01336 139.54z" transform="translate(-32 -38)"></path><rect class="cls-26" height="6" rx="3" width="93" x="111" y="738"></rect><rect class="cls-26" height="6" rx="3" width="34" x="140" y="97"></rect><circle class="cls-23" cx="123.5" cy="95.5" r="6.5"></circle><circle class="cls-23" cx="190.5" cy="95.5" r="4.5"></circle><circle class="cls-24" cx="122" cy="94" r="3"></circle><circle class="cls-24" cx="190" cy="95" r="2"></circle></g><path class="cls-24" d="M507.91 114.08l-2.73 11.25h-13.45l14.08-48.53h17.32l14.47 48.53h-14l-3.1-11.25zm10.77-9.59l-2.25-8.73c-.74-2.74-1.66-6.7-2.41-9.56h-.15c-.72 2.86-1.44 6.86-2.14 9.61l-2.09 8.68zM543.32 102c0-4.72-.15-8.79-.29-12.06h11.2l.57 4.51h.26a12.84 12.84 0 0110.62-5.31c8.24 0 12.76 5.64 12.76 15.32v20.9h-13V106c0-4.06-1.4-6.48-4.5-6.48a4.52 4.52 0 00-4.26 3.12 7 7 0 00-.36 2.61v20h-13zM622.34 74.21v39.92c0 4.4.15 8.86.29 11.2h-11.52l-.52-4.79h-.15c-2.34 4-6.64 5.58-10.69 5.58-8.26 0-15.09-7.14-15.09-18.27 0-11.91 7.48-18.74 15.83-18.74 3.92 0 7.14 1.14 8.73 3.42h.14V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.35 0-6.3 3.89-6.3 8.54 0 5.43 2.67 8.26 6.25 8.26a5.11 5.11 0 005.07-4.23 10.67 10.67 0 00.2-2.38zM630.37 101.86c0-5.64-.09-9-.29-12h11.09l.46 6.39h.29a10.18 10.18 0 019.44-7.19 10.3 10.3 0 012.59.22v12.19a14.91 14.91 0 00-3.31-.36c-3.84 0-6.41 1.6-7.1 4.46a12 12 0 00-.18 2.21v17.5h-13zM695.55 107.26c0 12.87-9.2 18.86-19.12 18.86-10.6 0-18.83-6.73-18.83-18.25 0-11.25 7.43-18.76 19.5-18.76 11.1 0 18.45 7.49 18.45 18.15zm-24.55.34c0 5.31 1.75 9.36 5.76 9.36 3.5 0 5.4-3.67 5.4-9.36 0-4.9-1.58-9.32-5.43-9.32-4.28 0-5.73 4.72-5.73 9.32zM714.89 80.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.15 6.61-6.15 6.55 2.6 6.6 6.15zm-13.1 45.18V89.91h13v35.42zM758.71 74.21v39.92c0 4.4.14 8.86.29 11.2h-11.53l-.52-4.79h-.14c-2.34 4-6.64 5.58-10.69 5.58-8.27 0-15.09-7.14-15.09-18.27 0-11.91 7.47-18.74 15.82-18.74 3.93 0 7.15 1.14 8.73 3.42h.15V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.36 0-6.3 3.89-6.3 8.54 0 5.43 2.66 8.26 6.24 8.26a5.12 5.12 0 005.08-4.23 11.3 11.3 0 00.2-2.38z" transform="translate(-32 -38)"></path></g><g data-name="Layer 4" id="Layer_4"><path class="cls-29" d="M291 348l78-23v135l-78-52V308M821 325l88-11v64l-88 82V325z"></path></g></g></svg>
-In {{c1::mobile/app}} development, a {{c2::view}} is {{c3::the basic building block of UI}}. They can be {{c4::nested}}, it is views {{c4::all the way down}}.
+In ⟮c1;mobile/app⟯ development, a ⟮c2;view⟯ is ⟮c3;the basic building block of UI⟯. They can be ⟮c4;nested⟯, it is views ⟮c4;all the way down⟯.
 
 ## user experience
 
@@ -3674,15 +3674,15 @@ A think-aloud protocol has users do a certain task and say whatever comes to min
 
 ### responsive design
 
-responsive (web) design is (esp. web) design that adjusts to work {{c1::on a variety of different devices}}
-progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and {{c1::then building on top of that for other targets}}
-Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but {{c1::falls back on a good-enough experience}}
+responsive (web) design is (esp. web) design that adjusts to work ⟮c1;on a variety of different devices⟯
+progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮c1;then building on top of that for other targets⟯
+Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but ⟮c1;falls back on a good-enough experience⟯
 progressive enhancement <-> graceful degradation
 Mobile first is building the mobile site first (and expanding on that for desktop users)
 
 ## computer graphcis
 
-A {{c1::FOUC (Flash of unstyled content)}} is when a {{c3::page (or some content)}} is briefly visible with {{c2::no styling/browser default styling}}
+A ⟮c1;FOUC (Flash of unstyled content)⟯ is when a ⟮c3;page (or some content)⟯ is briefly visible with ⟮c2;no styling/browser default styling⟯
 
 ### color
 
@@ -3852,10 +3852,10 @@ It is often said (esp. in animation) that ⟮c:2;good characters⟯ should ⟮c:
 
 [[[<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">]]]
 ⟮h:all;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
-<img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>{{c1::Negative space}} is {{c2::the area without subjects/areas of focus}}
-{{c3::Positive space}} is {{c4::the area with subjects/areas of focus}}
-In the image, if {{c5::you see a vase}}, the {{c6::black space}} is the {{c7::negative space}} and the {{c6::white space}} is the {{c7::positive space}}
-In the image, if {{c8::you see two faces}}, the {{c9::white space}} is the {{c10::negative space}} and the {{c9::black space}} is the {{c10::positive space}}
+<img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c1;Negative space⟯ is ⟮c2;the area without subjects/areas of focus⟯
+⟮c3;Positive space⟯ is ⟮c4;the area with subjects/areas of focus⟯
+In the image, if ⟮c5;you see a vase⟯, the ⟮c6;black space⟯ is the ⟮c7;negative space⟯ and the ⟮c6;white space⟯ is the ⟮c7;positive space⟯
+In the image, if ⟮c8;you see two faces⟯, the ⟮c9;white space⟯ is the {{c10::negative space}} and the ⟮c9;black space⟯ is the {{c10::positive space}}
 In the image, the {{c11::positive space}} is (probably/arguably) {{c12::the woman.}}
 
 <span class="c1-f">What are these examples for?</span><br><img class="c1-f all-b" src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img class="c1-f all-b" src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br>⟮c:4;hostile/defensive architecture/design⟯ is architecture that ⟮c:6;restricts/guides behavior⟯ to ⟮c:5;protect property⟯ or ⟮c:3;prevent crime⟯ 
@@ -3922,7 +3922,7 @@ sitemaps are XML, RSS/Atom, or .txt documents that describe the navigational str
 The most fundamental thing that influences your SEO is how many other links to your site exist, and who these sites linking to you are.
 By linking to a site, you confer some of your sites reputation to that site.
 SEO|Search engine optimization
-related to navigation, google will reward a site that has a navigation that is {{c1::sensible}}, uses {{c2::text (or e.g. aria tags)}}, but {{c3::does not go overboard in its complexity}}
+related to navigation, google will reward a site that has a navigation that is ⟮c1;sensible⟯, uses ⟮c2;text (or e.g. aria tags)⟯, but ⟮c3;does not go overboard in its complexity⟯
 Google may penalize if you have a bunch of pages with basically the same content.
 
 As of 2021, ⟮c:1;stuffing keywords⟯ in places is ⟮c:2;no longer effective⟯ for ⟮c:3;SEO⟯ 
@@ -3936,7 +3936,7 @@ For accessibility purposes, audio/video should have captions, and lighthouse wil
 
 #### WAI & WCAG basics
 
-{{c1::the Web Accessibility Initiative (WAI)}} is the W3C initiative supporting accessibility.
+⟮c1;the Web Accessibility Initiative (WAI)⟯ is the W3C initiative supporting accessibility.
 the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
 The WCAG consists of principles, guidelines, successs criteria, and techniques.
 WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
@@ -3961,7 +3961,7 @@ iframes and frames should have a title (doing what alt text would do for images)
 
 #### WCAG techniques
 
-Based off {{c2::the DOM tree}}, the browser builds the {{c3::accessibility tree}} containing {{c1::all accessibility-relevant information}}
+Based off ⟮c2;the DOM tree⟯, the browser builds the ⟮c3;accessibility tree⟯ containing ⟮c1;all accessibility-relevant information⟯
 
 ##### Semantic HTML
 
@@ -3974,16 +3974,16 @@ Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&g
 ARIA attributes fall under the umbrella of WCAG techniques.
 ARIA  Accessible Rich Internet Applications
 ARIA is mainly realized in HTML attributes.
-{{c2::Where available}}, prefer {{c1::semantic HTML}} over {{c3::ARIA}}
+⟮c2;Where available⟯, prefer ⟮c1;semantic HTML⟯ over ⟮c3;ARIA⟯
 ARIA attributes change the accessibility tree, but nothing else.
-There are three types of attributes that {{c4::ARIA}} has: {{c1::Roles}}, {{c2::States}} and {{c3::Properties}}
-ARIA {{c1::roles}} define the {{c2::main type of component}}, e.g. {{c3::toolbar, banner}}
-ARIA {{c1::states}} define some property {{c2::that can change}}
-ARIA {{c1::properties}} define some property {{c2::that is expected to stay the same}}
-There are four types of aria {{c4::states}} &amp; {{c4::properties}}: {{c1::drag-and-drop}}, {{c2::live region}}, {{c3::relationship}}, and {{c5::widgets}}
+There are three types of attributes that ⟮c4;ARIA⟯ has: ⟮c1;Roles⟯, ⟮c2;States⟯ and ⟮c3;Properties⟯
+ARIA ⟮c1;roles⟯ define the ⟮c2;main type of component⟯, e.g. ⟮c3;toolbar, banner⟯
+ARIA ⟮c1;states⟯ define some property ⟮c2;that can change⟯
+ARIA ⟮c1;properties⟯ define some property ⟮c2;that is expected to stay the same⟯
+There are four types of aria ⟮c4;states⟯ &amp; ⟮c4;properties⟯: ⟮c1;drag-and-drop⟯, ⟮c2;live region⟯, ⟮c3;relationship⟯, and ⟮c5;widgets⟯
 
-the {{c1::aria-label}} {{c2::attribute}} is for adding {{c3::a text description}} of {{c3::what something does}} where {{c4::the actual content doesn't suffice}}
-a reason for using aria-label might be e.g. because a close button is realized {{c4::with an icon font/an x}}
+the ⟮c1;aria-label⟯ ⟮c2;attribute⟯ is for adding ⟮c3;a text description⟯ of ⟮c3;what something does⟯ where ⟮c4;the actual content doesn't suffice⟯
+a reason for using aria-label might be e.g. because a close button is realized ⟮c4;with an icon font/an x⟯
 
 # data storage
 
@@ -4160,8 +4160,8 @@ Verb|Function|Which of drutil/diskutil?
 
 ### file system
 
-The file system is the method/system/whatever that controls/specifies how {{c1::data is organized within a partition}}
-A flat file system is a file system with no {{c1::subdirectories}}
+The file system is the method/system/whatever that controls/specifies how ⟮c1;data is organized within a partition⟯
+A flat file system is a file system with no ⟮c1;subdirectories⟯
 Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
 Even non-case-sensitive file systems are almost always case-preserving.
 fsck checks/repairs a linux filesystem.
@@ -4187,7 +4187,7 @@ file|get file type and related info
 
 ### directory structure
 
-{{c1::the directory structure}} is the way data is organized in a file system using directories.
+⟮c1;the directory structure⟯ is the way data is organized in a file system using directories.
 If the directory structure is a tree, it is often called a/the directory tree.
 filesystem hierarchy is a rough synonym of directory structure
 In *nix-likes, the root directory is the directory all other directories descend from.
@@ -4306,7 +4306,7 @@ $XDG_CACHE_HOME|$HOME/.cache|/var/cache
 ##### FHS
 
 FHS  Filesystem Hierarchy Standard
-FHS (Filesystem Hierarchy Standard) is the Linux spec for {{c1::directory structure}}
+FHS (Filesystem Hierarchy Standard) is the Linux spec for ⟮c1;directory structure⟯
 source code should be in src for reference only
 
 ###### /sys
@@ -4516,7 +4516,7 @@ folder (windows) = directory (*nix)
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
 chown changes the owner and/or group of the file
 chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
-The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c3::execute}}
+The three permissions that unix tracks are ⟮c1;read⟯, ⟮c2;write⟯,, and ⟮c3;execute⟯
 ⟮c:1;x⟯|⟮c:2;execute⟯
 ⟮c:3;w⟯|⟮c:4;write⟯
 ⟮c:5;r⟯|⟮c:6;read⟯
@@ -4526,7 +4526,7 @@ The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c
 #### 7 types of files
 
 In unix, there are 7 types of files.
-Types of files in linux: {{c7::Regular file}} {{c6::Directory}} {{c5::Symlink}} {{c4::FIFO/named pipe}} {{c3::Socket}} {{c2::Device file (block)}} {{c1::Device file (character)}}
+Types of files in linux: ⟮c7;Regular file⟯ ⟮c6;Directory⟯ ⟮c5;Symlink⟯ ⟮c4;FIFO/named pipe⟯ ⟮c3;Socket⟯ ⟮c2;Device file (block)⟯ ⟮c1;Device file (character)⟯
 
 The file type is one of the following characters:
 identifying characters (e.g. ls)|
@@ -4595,7 +4595,7 @@ Dotfiles are often used for config or metadata.
 
 Unix IPC sockets are distinct from network/internet sockets
 A socket in unix is realized as a file descriptor
-{{c1::Unix (domain) sockets}} are used for {{c2::bidirectional}} {{c3::IPC}}
+⟮c1;Unix (domain) sockets⟯ are used for ⟮c2;bidirectional⟯ ⟮c3;IPC⟯
 /dev/log = socket for logging
 
 
@@ -4869,7 +4869,7 @@ tac|cat, but reversed line-by-line
 wc|count words, characters and lines
 
 wc output ordering
-{{c1::lines}} {{c2::words}} {{c3::characters}}
+⟮c1;lines⟯ ⟮c2;words⟯ ⟮c3;characters⟯
 
 bat is a more fancy version of cat with auto syntax highlighting, line numbers, git integration etc. implemented in rust.
 
@@ -5016,7 +5016,7 @@ ampersand||&amp;amp;
 non-breaking hyphen|"~
 soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
 "=
-if you want a word {{c3::with a hyphen}} to be {{c2::able to be split anywhere}} (using babel ngerman), use {{c1::"=}}
+if you want a word ⟮c3;with a hyphen⟯ to be ⟮c2;able to be split anywhere⟯ (using babel ngerman), use ⟮c1;"=⟯
 zero-width space||<wbr> or &amp;#8203;
 
 hyperref|create links automatically and \href, \url commands
@@ -5052,7 +5052,7 @@ info|read texinfo files
 
 ######## Commands
 
-A typical ⟮c:5;command⟯ looks {{c1::}}⟮c:3;name⟯⟮c:2;{⟯⟮c:4;argument⟯{{c2::} }} 
+A typical ⟮c:5;command⟯ looks ⟮c1;⟯⟮c:3;name⟯⟮c:2;{⟯⟮c:4;argument⟯⟮c2;} ⟯ 
 a ⟮c:9;command⟯'s ⟮c:10;required arguments⟯ (AKA ⟮c:11;arguments⟯) are ⟮c:12;delimited by {⟯} 
 a ⟮c:6;command's⟯ ⟮c:7;optional arguments⟯ (AKA ⟮c:8;options⟯) are ⟮c:13;delimited by []⟯ 
 {{c14::}} ⟮c:15;starts⟯ ⟮c:16;a command⟯ 
@@ -5143,7 +5143,7 @@ indicator|meaning
 
 ######### creating lengths
 
-To ⟮c:1;create a length foo⟯, you first have to ⟮c:2;declare it⟯ with ⟮c:3;\newlength{\foo⟯} and then ⟮c:2;initialize it⟯&nbsp; {{c4::with \setlength{\foo}{bar}}}. 
+To ⟮c:1;create a length foo⟯, you first have to ⟮c:2;declare it⟯ with ⟮c:3;\newlength{\foo⟯} and then ⟮c:2;initialize it⟯&nbsp; ⟮c4;with \setlength{\foo}{bar⟯}. 
 ⟮c:5;\setlength⟯ can also be used to ⟮c:6;change the value⟯ of ⟮c:7;preexisting length keywords⟯. 
 If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯, ⟮c:9;things that use these lengths itnernally⟯ will also change. 
 ⟮c:11;\parindent⟯|⟮c:12;represents length of first line in paragraph indentation⟯
@@ -5396,7 +5396,7 @@ The ⟮c:20;aux⟯ file keeps track of ⟮c:21;various things relevant to latex 
 
 ######### synctex
 
-{{c2::Synctex}} is the utility that {{c3::synchronizes changes between}} {{c1::source documents and pdf output}}
+⟮c2;Synctex⟯ is the utility that ⟮c3;synchronizes changes between⟯ ⟮c1;source documents and pdf output⟯
 
 ######## additional functionality
 
@@ -5417,7 +5417,7 @@ to style headers and footers with ⟮c:24;fancyhdr⟯ in ⟮c:2;double-sided doc
 
 ######### ending commands
 
-{{c4::}} and ⟮c:5;\newline⟯ both ⟮c:8;generate a linebreak (/end the current line⟯) 
+⟮c4;⟯ and ⟮c:5;\newline⟯ both ⟮c:8;generate a linebreak (/end the current line⟯) 
 ⟮c:2;\​⟯ but not ⟮c:2;\newline⟯ takes an ⟮c:3;option⟯ to specify how ⟮c:1;large the vertical gap to the new line⟯ should be 
 ⟮c:6;par⟯ ⟮c:7;generates a paragraph break (/end the current paragraph⟯) 
 ⟮c:15;a blank line⟯ is the construct most often used to ⟮c:16;create a paragraph break⟯. 
@@ -5429,7 +5429,7 @@ to style headers and footers with ⟮c:24;fancyhdr⟯ in ⟮c:2;double-sided doc
 the package ⟮c:5;hyperref⟯ also handles ⟮c:6;metadata⟯ via ⟮c:7;the \hypersetup command⟯. 
 The ⟮c:8;hypersetup⟯ command defines ⟮c:9;pdf metadata⟯ by taking ⟮c:10;keys⟯ with ⟮c:11;the syntax of pdf&lt;name&gt;, e.g. pdfauthor or pdftitle⟯ 
 ⟮c:1;pdfbookmark⟯ is a ⟮c:12;hyperref⟯ command that ⟮c:2;inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar⟯) 
-Arguments to ⟮c:4;pdfbookmark⟯⟮c:3;[section]⟯{{c2::{Title} }}{{c1::{uid(of some kind, no standard)} }} 
+Arguments to ⟮c:4;pdfbookmark⟯⟮c:3;[section]⟯⟮c2;{Title} ⟯⟮c1;{uid(of some kind, no standard)} ⟯ 
 ⟮c:12;hypcap⟯ is a package extending ⟮c:14;hyperref⟯ {{c13::make hyperref figure links link to the correct thing} 
 
 ######### page geometry
@@ -5462,7 +5462,7 @@ Latex|Result
 ⟮c:1;$-$ (or other inline math env notation⟯)|⟮c:2;a mathematical minus⟯
 ⟮c:3;---⟯|⟮c:4;an em-dash⟯
 ⟮c:5;--⟯|⟮c:6;an en-dash⟯
-⟮c:7;{{c1::-{}-}}⟯|⟮c:8;--⟯
+⟮c:7;⟮c1;-{}-⟯⟯|⟮c:8;--⟯
 ⟮c:9;-⟯|⟮c:10;a hyphen⟯
 
 
@@ -5477,7 +5477,7 @@ the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all �
 
 ######### verbatim
 
-Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7::environments}}.
+Package ⟮c5;verbatim⟯ contains the ⟮c6;verbatim⟯ and ⟮c6;comment⟯ ⟮c7;environments⟯.
 environment|function
 ⟮c:1;comment⟯|⟮c:2;a block comment⟯
 ⟮c:3;verbatim⟯|⟮c:4;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)
@@ -5594,7 +5594,7 @@ ical-component ::= <begin-line>{<contentline>|<ical-component>}<end-line>
 begin-line ::= BEGIN:<component-name><CRLF>
 end-line ::= END:<component-name><CRLF>
 
-In vCard, properties are direct children of the {{c1::the vCard object}}
+In vCard, properties are direct children of the ⟮c1;the vCard object⟯
 In general, an .ics contains one ical object, however a .vcf may contain multiple ical objects
 
 vcard-object ::= <ical-begin-line><version-line>{<contentline>}<ical-end-line> # no prodid
@@ -5681,8 +5681,8 @@ in JSON Schema, to specify that there are multiple relevant specifications for a
 jq|process JSON
 yq|process YAML & convert to/from JSON
 yq -y/-Y roundtrip back to YAML
-`yq {{c1::&lt;command&gt;}} {{c2::&lt;flags&gt;}} {{{c3::&lt;file&gt;}}}`
-`yq {{c2::-t/--to-type}} {{c1::yaml}}/{{c1::json}}/...` {{c3::outputs the file as the specified file format}}
+`yq ⟮c1;&lt;command&gt;⟯ ⟮c2;&lt;flags&gt;⟯ {⟮c3;&lt;file&gt;⟯}`
+`yq ⟮c2;-t/--to-type⟯ ⟮c1;yaml⟯/⟮c1;json⟯/...` ⟮c3;outputs the file as the specified file format⟯
 
 ####### subtitles
 
@@ -5861,7 +5861,7 @@ Github issues track desired changes such as features, bugs, etc.
 A milestone is a set of github issues.
 PR = Pull Request
 A pull request is a request to merge the specified changes into the branch
-If you refer to an issue with {{c2::#number}} and a word such {{c3::as closes, fixes etc.}} within a {{c4::commit}}, it will {{c1::close the issue}} (or {{c1::close it}} once {{c5::merged into the default branch}})
+If you refer to an issue with ⟮c2;#number⟯ and a word such ⟮c3;as closes, fixes etc.⟯ within a ⟮c4;commit⟯, it will ⟮c1;close the issue⟯ (or ⟮c1;close it⟯ once ⟮c5;merged into the default branch⟯)
 
 # hardware/low-level
 
@@ -5887,7 +5887,7 @@ In a transistor, if you apply power to two certain terminals, power can flow thr
 
 ⟮h:all;<img src="sm_transistor-current-explanation.png">⟯
 BJT  Bipolar junction transistor
-The three terminals in a bipolar transistor are called {{c1::base}}, {{c2::collector}}, and {{c3::emitter}}.
+The three terminals in a bipolar transistor are called ⟮c1;base⟯, ⟮c2;collector⟯, and ⟮c3;emitter⟯.
 BJT are either PNP or NPN.
 NPN transistor  Negative Positive Negative transistor
 PNP transistor  Positive Negative Positive transistor
@@ -5899,7 +5899,7 @@ For NPN BJT transistors, if you apply power to the base, it will flow to the emi
 
 
 [[[<img src="sm_tmpadmp5k8t.png">]]]
-The three terminals in a field-effect transistor (FET) transistor are called {{c1::gate}}, {{c2::source}}, and {{c3::drain}}.
+The three terminals in a field-effect transistor (FET) transistor are called ⟮c1;gate⟯, ⟮c2;source⟯, and ⟮c3;drain⟯.
 FET  Field-effect transistor
 MOSFET   metal–oxide–semiconductor field-effect transistor
 CMOS|Complementary metal–oxide–semiconductor
@@ -5939,7 +5939,7 @@ VNA: CPU = CU + ALU
 In the VNA, the CPU, memory and IO are connected to/via the bus.
 
 [[[<img src="sm_tmp_xpihn7q.png">]]]
-In the (modern revisions of) von neumann architecture, the three buses are the {{c1::control bus}}, the {{c2::address bus}}, and the {{c3::data bus}}
+In the (modern revisions of) von neumann architecture, the three buses are the ⟮c1;control bus⟯, the ⟮c2;address bus⟯, and the ⟮c3;data bus⟯
 Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
 
 The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
@@ -5967,7 +5967,7 @@ Almost all modern processors are microprorcessors.
 
 A SoC is a IC that doesn't just include the CPU, but also other components, such as the GPU, memory, radio modems, etc.
 As time has been progressing, more and more things have been moving onto the SoC.
-moore's law is the observation that the number of transistors in a IC doubles {{c1::every two years}}
+moore's law is the observation that the number of transistors in a IC doubles ⟮c1;every two years⟯
 
 #### CPU
 
@@ -6042,9 +6042,9 @@ In a general sense, a word is the fundamental unit used by a processor of a give
 The length of a word is the word size.
 In general, most registers are word-sized, as are memory cells.
 The largest possible memory address is also word-sized (since otherwise, how would you address them) .
-what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the size of memory addresses and thus the {{c1::the word size}}
+what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the size of memory addresses and thus the ⟮c1;the word size⟯
 
-A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation {{c1::access (load/store) memory}}, never at the same time.
+A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation ⟮c1;access (load/store) memory⟯, never at the same time.
 For a load-store architecture, all things being operated on must be in registers.
 
 The machine code of a program depends on the ISA, but also on other things about the computer (e.g. OS)
@@ -6107,7 +6107,7 @@ RISC chips generally have far lower power consumption than CISC chips.
 Most but not all RISC ISAs, including ARM and RISC-V, are also load-store ISAs.
 CPI = clocks/cycles per instruction
 In general, a RISC ISA has 1 CPI, with fixed-length instructions.
-{{c1::RISC-V}} is a {{c2::RISC}} instruction set architecture that is {{c3::open source}}.
+⟮c1;RISC-V⟯ is a ⟮c2;RISC⟯ instruction set architecture that is ⟮c3;open source⟯.
 
 #### cache
 
@@ -6119,17 +6119,17 @@ The organization of multi-level caches into faster/slower cache levels is known 
 processor finds memory location in cache   cache hit
 processor does not find memory location in cache   cache miss
 When a cache miss occurs, the processor generally needs to wait while the data is being fetched
-the {{c1::Cache replacement policy}} is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
+the ⟮c1;Cache replacement policy⟯ is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
 
 #### clocking
 
-A clock signal {{c1::coordinates/synchronizes the circuits}} the circuits of the thing it's governing.
+A clock signal ⟮c1;coordinates/synchronizes the circuits⟯ the circuits of the thing it's governing.
 A clock signal is usually a square wave with a high and low state.
-In relation to the clock signal's square wave the circuits activate on {{c1::on one (or both) of the (vertical-ish) edges}}, depending on the implementation
-{{c1::A synchronous circuit}} is a circuit where the changes are synchronized by a clock signal.
+In relation to the clock signal's square wave the circuits activate on ⟮c1;on one (or both) of the (vertical-ish) edges⟯, depending on the implementation
+⟮c1;A synchronous circuit⟯ is a circuit where the changes are synchronized by a clock signal.
 processors are (made of) synchronous circuits
 DDR  Double data rate
-{{c1::DDR (double data rate)}} is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
+⟮c1;DDR (double data rate)⟯ is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
 
 ### chipset
 
@@ -6281,8 +6281,8 @@ reCAPTCHA v3 checks if you are a bot purely based giving you a score in the back
 
 ### ciphers
 
-{{c1::a cipher}} is an algorithm for performing encryption/decryption
-Ciphertext is the text that is the result of {{c1::using a cipher}}
+⟮c1;a cipher⟯ is an algorithm for performing encryption/decryption
+Ciphertext is the text that is the result of ⟮c1;using a cipher⟯
 A substitution cipher is a cipher where an unit of plaintext is replaced by an unit of cipher text
 The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
 
@@ -6317,7 +6317,7 @@ RNG  random number generator
 
 ### brute-force
 
-A brute-force attack is an attack of something such as a password {{c1::By trying until successful}}
+A brute-force attack is an attack of something such as a password ⟮c1;By trying until successful⟯
 
 
 ### buffer overflow
@@ -6339,7 +6339,7 @@ Delimiter/terminater-based code injection uses delimiters, e.g. of strings or si
 
 
 [[[<img src="sm_mitm_illus.svg">]]]
-A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}} into the {{c3::communication}} between {{c3::two parties}} believing {{c4::to be talking to each other directly}}.
+A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves⟯ into the ⟮c3;communication⟯ between ⟮c3;two parties⟯ believing ⟮c4;to be talking to each other directly⟯.
 
 ##### key exchange
 
@@ -6378,7 +6378,7 @@ A DDoS attack is a DoS performed from many different sources.
 
 ###### Slow Loris
 
-A {{c1::slowloris/slow loris}} is a type of {{c2::DoS (Denial of service)}} attack, more specifically a type of {{c3::Low and Slow}} attack.
+A ⟮c1;slowloris/slow loris⟯ is a type of ⟮c2;DoS (Denial of service)⟯ attack, more specifically a type of ⟮c3;Low and Slow⟯ attack.
 A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
 A slow loris works by opening as many connections to the server as possible, and sending a little bit of the header section every few seconds or so, so it doesn't time out, but never ending it.
 If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
@@ -6544,7 +6544,7 @@ Often, Linux alone is used (technically incorrectly) to refer to GNU/LInyx
 A Linux distribution is GNU/Linux plus a set of other stuff, which depends on the flavor.
 
 Android uses the Linux Kernel but not GNU or any of the other libraries.
-From {{c3::android}} {{c1::1.0}} until {{c2::9}}, {{c3::android}} versions had {{c4::sweets}}-based names, with each name {{c5::going one further in the alphabet}}
+From ⟮c3;android⟯ ⟮c1;1.0⟯ until ⟮c2;9⟯, ⟮c3;android⟯ versions had ⟮c4;sweets⟯-based names, with each name ⟮c5;going one further in the alphabet⟯
 
 ###### WSL
 
@@ -6662,7 +6662,7 @@ Systemd units are stored in unit files.
 .automount   .mounts that will be automatically managed
 .path   notifying when a path becomes available
 
-When a .path units path becomes available, {{c1::an associated .service}} is started.
+When a .path units path becomes available, ⟮c1;an associated .service⟯ is started.
 When a .socket unit has some activity, an associated service is started.
 When a .timer units time state is reached, an associated unit is started.
 
@@ -6678,8 +6678,8 @@ default.target   what the machine should try and aim for when booting (another t
 
 Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
-starting/stopping an unit for systemd does that {{c1::right now}} but temporarily
-enabling/disabling an unit for systemd does that {{c1::next reboot/session (by default)}} but permanently.
+starting/stopping an unit for systemd does that ⟮c1;right now⟯ but temporarily
+enabling/disabling an unit for systemd does that ⟮c1;next reboot/session (by default)⟯ but permanently.
 To both start and enable/stop and disable, use enable/disable --now.
 syntax: systemctl (start|stop|enable|disable) <unit>
 To see if a thing is currently enabled or active, use is-enabled/is-active <unit>
@@ -6799,7 +6799,7 @@ tee redirects a stream to stdout and to all listed files
 
 ### processes
 
-On unix systems, a process is an (instance of a) program that is {{c1::running}}
+On unix systems, a process is an (instance of a) program that is ⟮c1;running⟯
 On unix, a process is the instance that has its own heap.
 
 #### process relationshps
@@ -6858,11 +6858,11 @@ htop is a more fancy version of top with a better TUI and interactivity.
 job control is mainly performed by signals.
 A job is a shell concept, but generally corresponds to a process group.
 Jobs mainly exist to be siginalled by signals, all processes in a job are signalled at once.
-<pre>`^Z`</pre> (as keyboard input)   Stop (not kill) the current program
+`^Z` (as keyboard input)   Stop (not kill) the current program
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
 fg  resume stopped task in foreground
 bg  resume stopped task in background
-{{c1::&amp;}} at the {{c2::end of an command}} {{c3::puts it in the backround}} (but it {{c3::still continues running}})
+⟮c1;&amp;⟯ at the ⟮c2;end of an command⟯ ⟮c3;puts it in the backround⟯ (but it ⟮c3;still continues running⟯)
 jobs|show processes running in the background
 
 #### terminal
@@ -7091,11 +7091,11 @@ PAGER|set the pager
 HOME|user home directory
 BROWSER|web browser
 
-EDITOR and VISUAL are shell environement variables {{c1::setting the default editors}}
+EDITOR and VISUAL are shell environement variables ⟮c1;setting the default editors⟯
 PATH is for where to find executables.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
-`{{c1::which}}` takes {{c2::a string}} and {{c3::searches}} {{c4::the PATH}} to see {{c5::what the path of the binary of this command is.}}
+`⟮c1;which⟯` takes ⟮c2;a string⟯ and ⟮c3;searches⟯ ⟮c4;the PATH⟯ to see ⟮c5;what the path of the binary of this command is.⟯
 
 command prompt is often just shortened to prompt.
 The command prompt is one or more characters indicating the command-line is ready to accept input.
@@ -7410,7 +7410,7 @@ sometimes an extra file bash_aliases is created for storing aliases, however bas
 ####### pipelines
 
 the character indicating an anonymous pipe is |
-In a general sense, a {{c8::filter}} {{c9::takes some input}}, {{c10::transforms it}}, and {{c11::produces some output}}.
+In a general sense, a ⟮c8;filter⟯ ⟮c9;takes some input⟯, {{c10::transforms it}}, and {{c11::produces some output}}.
 In shell contexts, filters are combined with anonymous pipes.
 Multiple filters combinded by anonymous pipes are a pipeline.
 In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
@@ -7535,7 +7535,7 @@ By convention, an option started by two hyphens is multiple characters long.
 Generally, multiple single character flags can be joined into one: -h -a = -ha
 In general, mac only features short flags, while linux also has long ones (this presumably has a deeper reason that I currently don't know)
 In general commands that do something from a source to a target (e.g. cp, mv) have the default syntax SOURCE TARGET
-{{c1::}}
+⟮c1;⟯
 -- normally ends the list of flag arguments and allows you to pass plain arguments
 
 
@@ -7600,7 +7600,7 @@ sudo = substitute (in the past super) user do
 ##### polkit
 
 polkit is a toolkit to allow finer-grained control than just running sudo.
-Polkit defines {{c1::actions}}, {{c2::who can use them (group/user)}}, and {{c3::under which circumstances}}.
+Polkit defines ⟮c1;actions⟯, ⟮c2;who can use them (group/user)⟯, and ⟮c3;under which circumstances⟯.
 pkexec works like sudo, but instead opens a window for password entry (it also depends on polkit policies)
 
 ### projects
@@ -7644,14 +7644,14 @@ polling may be used to simulate push protocols.
 
 #### sessions
 
-In computer science, a {{c4::session}} is {{c2::started at some point}}, {{c3::ends at some point}}, and during this time {{c1::maintaines state}}.
+In computer science, a ⟮c4;session⟯ is ⟮c2;started at some point⟯, ⟮c3;ends at some point⟯, and during this time ⟮c1;maintaines state⟯.
 A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
 A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
 ### proxy
 
 ⟮h:all;<img src="Proxy_concept_en.svg">⟯
-A {{c1::proxy (server)}} is a {{c2::server/server application}} that {{c3::acts as an intermediary between}} {{c4::a client requesting a resource}} and {{c4::the server providing that resource.}}
+A ⟮c1;proxy (server)⟯ is a ⟮c2;server/server application⟯ that ⟮c3;acts as an intermediary between⟯ ⟮c4;a client requesting a resource⟯ and ⟮c4;the server providing that resource.⟯
 A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
 ⟮h:all;<img src="Reverse_proxy_h2g2bob.svg">⟯
 Reverse proxies are sometimes called surrogates or gateways.
@@ -7744,7 +7744,7 @@ Thunderbolt was designed to run over optic fiber cables, but actually generally 
 
 https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg|DisplayPort Connector
 <img src="sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg">|Mini DisplayPort Connector
-Mini and nonmini {{c4::DisplayPort}} is mainly for {{c1::video / audio}}, but can also carry {{c2::USB}} and {{c3::other data (e.g. thunderbolt)}}
+Mini and nonmini ⟮c4;DisplayPort⟯ is mainly for ⟮c1;video / audio⟯, but can also carry ⟮c2;USB⟯ and ⟮c3;other data (e.g. thunderbolt)⟯
 
 #### ATA
 
@@ -7856,11 +7856,11 @@ speedtest-cli test the speed of your connection
 ##### models
 
 The OSI model remains useful, but unimplemented.
-In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the {{c1::top}} layer.
+In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the ⟮c1;top⟯ layer.
 Internet protocol suite = TCP/IP
 The internet protocol suite is a protocol stack
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
-One of the first networks to implement the {{c1::TCP/IP protocol suite}} and one of the precursors to {{c2::the internet}} was {{c3::ARPANET}}
+One of the first networks to implement the ⟮c1;TCP/IP protocol suite⟯ and one of the precursors to ⟮c2;the internet⟯ was ⟮c3;ARPANET⟯
 
 ##### layers
 
@@ -7914,8 +7914,8 @@ A wireless bridge is a network bridge used for wireless networks.
 A network switch is a multiport network bridge.
 A network switch uses the MAC addresses to make sure that the the frame is sent to only the host that needs it.
 Routers pack IP packets into frames and forwards those to the next router.
-A {{c1::wireless router}} performs the functions of {{c2::a router}} and of {{c2::a wireless acces point}} (and sometimes others as well)
-Most commonly, a {{c1::(network) gateway}} is a {{c2::router}} that {{c3::provides access to (acts as a door to) a local network}}, but the term may also {{c4::refer to a bunch of other things}}
+A ⟮c1;wireless router⟯ performs the functions of ⟮c2;a router⟯ and of ⟮c2;a wireless acces point⟯ (and sometimes others as well)
+Most commonly, a ⟮c1;(network) gateway⟯ is a ⟮c2;router⟯ that ⟮c3;provides access to (acts as a door to) a local network⟯, but the term may also ⟮c4;refer to a bunch of other things⟯
 If a (normal office/home) computer user wants to load a web page, at least two network gateways are accessed—one to get from the office or home network to the Internet and one to get from the Internet to the computer that serves the web page.
 
 While you may have as many Switches, bridges, and hubs as you like, to connect to the internet at large, you'll need a router.
@@ -7929,7 +7929,7 @@ A firewall generally operates on the network/internet layer and up.
 
 ###### alternative names
 
-a {{c1::network switch}} is more rarely also called a {{c2::bridging}}/{{c2::switching}} {{c3::hub}} or a {{c4::MAC bridge}}
+a ⟮c1;network switch⟯ is more rarely also called a ⟮c2;bridging⟯/⟮c2;switching⟯ ⟮c3;hub⟯ or a ⟮c4;MAC bridge⟯
 
 #### layers
 
@@ -7953,7 +7953,7 @@ Today, URNs are merely another scheme of URIs, urn:
 URL and URI are often used synoynously even in expert circles, even RFCs disagree.
 URI can only use an ASCII-subsset.
 Within URIs ASCII subset, there is a distinction between reserved and unreserved characters.
-URI unreserved characters: {{c5::alphanumerical}}, {{c4::-}}, {{c3::_}}, {{c1::.}}, {{c2::~}} (the rest are reserved)
+URI unreserved characters: ⟮c5;alphanumerical⟯, ⟮c4;-⟯, ⟮c3;_⟯, ⟮c1;.⟯, ⟮c2;~⟯ (the rest are reserved)
 IRIs are a superset of URIs that also allow for non-ASCII characters.
 
 In URLs, Reserved characters and characters outside of the URL character set need to be URL/percent-encoded
@@ -7990,11 +7990,11 @@ e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
 The group of scheme/host/port making up a web resources origin are sometimes called the (scheme/host/port) tuple
 in a scheme, host, port tuple, host is actually the FQDN
-a web resources {{c1::origin}} is defined by its {{c2::scheme/protocol}}, {{c3::FQDN(often inaccurately just called host)}}, and {{c4::port}} tuple
+a web resources ⟮c1;origin⟯ is defined by its ⟮c2;scheme/protocol⟯, ⟮c3;FQDN(often inaccurately just called host)⟯, and ⟮c4;port⟯ tuple
 Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
-The {{c1::same-origin}} policy allows {{c2::same-origin}} access by {{c3::default}}, and {{c3::provides predefined channels and restrictions}} for {{c2::cross-origin}} access
-The {{c1::same-origin}} policy is relevant only when {{c2::two pages want to communicate}}
-The same-origin policy is {{c1::active}} ({{c1::in some shape or form}}) in {{c2::all modern browsers}}
+The ⟮c1;same-origin⟯ policy allows ⟮c2;same-origin⟯ access by ⟮c3;default⟯, and ⟮c3;provides predefined channels and restrictions⟯ for ⟮c2;cross-origin⟯ access
+The ⟮c1;same-origin⟯ policy is relevant only when ⟮c2;two pages want to communicate⟯
+The same-origin policy is ⟮c1;active⟯ (⟮c1;in some shape or form⟯) in ⟮c2;all modern browsers⟯
 
 ######## domains
 
@@ -8034,7 +8034,7 @@ the `hostname` command shows the hostname, which is the same for DNS, NIS and YP
 ######## hotlinks, deeplinks
 
 hotlinking = inline linking
-Hotlinking is embedding a resource from {{c1::another fqdn}}
+Hotlinking is embedding a resource from ⟮c1;another fqdn⟯
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
@@ -8119,8 +8119,8 @@ Between IMAP and POP3, IMAP is more feature-rich.
 
 HTTP|HyperText Transfer Protocol
 
-{{c1::HTTPS}} is an {{c2::encrypted}} version of {{c3::HTTP}}
-A {{c1::mixed content}} page is a {{c2::HTTPS}} page that {{c3::also includes content fetched over HTTP}}
+⟮c1;HTTPS⟯ is an ⟮c2;encrypted⟯ version of ⟮c3;HTTP⟯
+A ⟮c1;mixed content⟯ page is a ⟮c2;HTTPS⟯ page that ⟮c3;also includes content fetched over HTTP⟯
 
 When you navigate to a new URL, the browser sends an HTTP request
 The client sendds a HTTP request, and the server returns an HTTP response.
@@ -8352,7 +8352,7 @@ To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade 
 on the client side, sockets are created via the `WebSocket` constructor
 the `WebSocket` constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
 to send data on a `WebSocket`, use the method `send()`
-To {{c3::react to incoming data}} {{c2::event handlers are registered}} on the WebSocket object
+To ⟮c3;react to incoming data⟯ ⟮c2;event handlers are registered⟯ on the WebSocket object
 the four common events a `WebSocket` might recieve client-side are open, message, close, error
 
 ######## server 
@@ -8366,14 +8366,14 @@ DHCP is a protocol used for automatically assigning IP addresses and other param
 DHCP is an application-layer protocol using UDP as the transport layer
 DHCP follows a client-server model
 the four stages of DHCP operations are often abbreviated DORA
-DORA = {{c3::DISCOVER}}, {{c3::OFFER}}, {{c4::REQUEST}}, and {{c4::ACK(nowledge)}}
+DORA = ⟮c3;DISCOVER⟯, ⟮c3;OFFER⟯, ⟮c4;REQUEST⟯, and ⟮c4;ACK(nowledge)⟯
 The DHCP messages (e.g. DISCOVER) may also be referred to by prefixing  DHCP (e.g. DHCPDISOVER)
-In general, a {{c1::client}} sends a {{c2::DHCP}} {{c3::DISCOVER}} request {{c4::on startup}} and then {{c5::periodically before it expires}}
-The {{c3::DHCP}} client sends its {{c1::DISCOVER}} and {{c1::REQUEST}} messages as a {{c2::broadcast}} initiallty, for {{c4::renewal}} it may also use {{c2::unicast}}
-On recieving a {{c1::DISCOVER}} request, the {{c2::DHCP server}} uses {{c3::its policies}} to decide which if any {{c4::IP address to assign}}, and sends back an unicast message {{c5::OFFER}}
-A client can receive DHCP offers from {{c1::multiple servers}}, but it will {{c2::accept only one DHCP offer}}
+In general, a ⟮c1;client⟯ sends a ⟮c2;DHCP⟯ ⟮c3;DISCOVER⟯ request ⟮c4;on startup⟯ and then ⟮c5;periodically before it expires⟯
+The ⟮c3;DHCP⟯ client sends its ⟮c1;DISCOVER⟯ and ⟮c1;REQUEST⟯ messages as a ⟮c2;broadcast⟯ initiallty, for ⟮c4;renewal⟯ it may also use ⟮c2;unicast⟯
+On recieving a ⟮c1;DISCOVER⟯ request, the ⟮c2;DHCP server⟯ uses ⟮c3;its policies⟯ to decide which if any ⟮c4;IP address to assign⟯, and sends back an unicast message ⟮c5;OFFER⟯
+A client can receive DHCP offers from ⟮c1;multiple servers⟯, but it will ⟮c2;accept only one DHCP offer⟯
 In response to the DHCPOFFER, the client replies with a DHCPREQUEST message, broadcast to the server (can be unicast if renewal), requesting the offered address.
-After the client {{c3::obtains an IP address via DHCP}}, it should {{c4::probe the newly received address}} (e.g. with {{c1::ARP/NDP}}) to prevent {{c2::address conflicts caused by overlapping addresses}}
+After the client ⟮c3;obtains an IP address via DHCP⟯, it should ⟮c4;probe the newly received address⟯ (e.g. with ⟮c1;ARP/NDP⟯) to prevent ⟮c2;address conflicts caused by overlapping addresses⟯
 
 client         server
   |               |
@@ -8466,7 +8466,7 @@ Client --ACK---&gt; Server
 
 ###### UDP
 
-the UDP {{c1::datagram header}} consists of {{c2::4}} {{c3::fields}} of {{c2::2}} {{c3::bytes}} for a total of {{c2::8}} {{c3::bytes}} ({{c2::64}} {{c3::bit}})
+the UDP ⟮c1;datagram header⟯ consists of ⟮c2;4⟯ ⟮c3;fields⟯ of ⟮c2;2⟯ ⟮c3;bytes⟯ for a total of ⟮c2;8⟯ ⟮c3;bytes⟯ (⟮c2;64⟯ ⟮c3;bit⟯)
 of the UDP datagram header's four fields: 
 source port|optional
 destination port|mandatory
@@ -8479,7 +8479,7 @@ checksum|mandatory in IPv6
       <td >Length</td>
       <td style="background-color: #fa9;">Checksum
 
-the maximum size of a {{c2::UDP datagram}} is {{c1::2^16 bytes}} (although IPv6 {{c3::jumbograms}} do allow more, and {{c4::headers}} take up some of that)
+the maximum size of a ⟮c2;UDP datagram⟯ is ⟮c1;2^16 bytes⟯ (although IPv6 ⟮c3;jumbograms⟯ do allow more, and ⟮c4;headers⟯ take up some of that)
 
 ##### layer 3
 
@@ -8489,7 +8489,7 @@ the main protocol that lives on the network (OSI)/internet (TCP/IP) is IP.
 ###### IP
 
 IP  Internet protocol
-the {{c1::host URL element}} for the {{c2::loopback address}} is usually {{c3::localhost}}
+the ⟮c1;host URL element⟯ for the ⟮c2;loopback address⟯ is usually ⟮c3;localhost⟯
 the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
 
 ####### address space
@@ -8503,12 +8503,12 @@ the 5 RIRs are affiliated via the NRO
 
 ####### headers
 
-the {{c3::IPv4 header}} consists of {{c1::14}} {{c2::different fields}}
+the ⟮c3;IPv4 header⟯ consists of ⟮c1;14⟯ ⟮c2;different fields⟯
 TTL = Time To Live
 TTL in IPv4 contexts was supposed to measure seconds, but was actually implemented as a hop count.
 TTL as hop count was implmeneted by an 8-bit integer, usually starting at 64. When it reached 0, the packet was discarded and an ICMP time exeeded message was typically sent.
 TTL exists amongst other reasons to prevent an infinite routing loop.
-{{c1::TTL}} is called {{c2::hop limit}} in {{c3::IPv6}}
+⟮c1;TTL⟯ is called ⟮c2;hop limit⟯ in ⟮c3;IPv6⟯
 
 ####### addr
 
@@ -8542,7 +8542,7 @@ cidr-notation ::= [<IPv4-addr>]/<int-0-32>
 
 ######### broadcast & network identifier
 
-A {{c1::subnet}}'s {{c2::broadcast}} address is the {{c3::all-ones}} version of the {{c4::host (any relevant IP address)/network (all-zeroes) identifier}}
+A ⟮c1;subnet⟯'s ⟮c2;broadcast⟯ address is the ⟮c3;all-ones⟯ version of the ⟮c4;host (any relevant IP address)/network (all-zeroes) identifier⟯
 Ergo, 255.255.255.255 (/0) is (theoretically) the broadcast address to all IP addresses in existence.
 A godzillagram is theoretically a message to 255.255.255.255, which should theoretically broadcast to all IP addresses in existence.
 Since gateways generally do not let godzillagrams pass, 255.255.255.255 generally merely boradcasts to your whole network.
@@ -8555,19 +8555,19 @@ of the IPv4 loopback addresses, generally 127.0.0.1 is used.
 localhost = 127.0.0.1 (IPv4)
 IPv6 reserves only a single loopback address, which is ­:­:1
 
-The private IPv4 address blocks sorted from largetst to smallest are: {{c1::10.0.0.0}}/{{c2::8}}, {{c3::172.16.0.0}}/{{c4::12}}, {{c5::192.168.0.0}}/{{c6::16}}
+The private IPv4 address blocks sorted from largetst to smallest are: ⟮c1;10.0.0.0⟯/⟮c2;8⟯, ⟮c3;172.16.0.0⟯/⟮c4;12⟯, ⟮c5;192.168.0.0⟯/⟮c6;16⟯
 (100000 = Prof X dual-wielding dual swords, 172160 = Android 17 outrunning a caravan of refugees, 192168 = Anakin skywalker outrunning a dragon)
 
 ####### NAT
 
 NAT = Network Address Translation
-{{c1::NAT}} {{c2::maps one IP address space to another}} by {{c3::modifying the info in the IP header}}
+⟮c1;NAT⟯ ⟮c2;maps one IP address space to another⟯ by ⟮c3;modifying the info in the IP header⟯
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
 
 ####### tracing
 
 traceroute and tracepathe are *nix utilities to measure IP paths and transit durations.
-{{c1::tracepath}} is a {{c2::non-superuser}} version of {{c3::traceroute}}
+⟮c1;tracepath⟯ is a ⟮c2;non-superuser⟯ version of ⟮c3;traceroute⟯
 tracepath/traceroute sends messages with adjusted TTL values and uses ICMP time exceeded messages to identify the routers traversed by packets from the source to the destination.
 
 ####### ICMP
@@ -8605,9 +8605,9 @@ IEEE 802.11|WLAN/WIFI
 
 ####### WLAN
 
-WLAN may run in {{c1::infrastructure}} or {{c2::ad-hoc mode}}
-(WLAN) In infrastructure mode, clients connect to  {{c1::a central WAP (Wireless Access Point)}}
-(WLAN) In ad-hoc network mode, clients connect {{c1::to each other peer to peer}}
+WLAN may run in ⟮c1;infrastructure⟯ or ⟮c2;ad-hoc mode⟯
+(WLAN) In infrastructure mode, clients connect to  ⟮c1;a central WAP (Wireless Access Point)⟯
+(WLAN) In ad-hoc network mode, clients connect ⟮c1;to each other peer to peer⟯
 
 ####### Ethernet
 
@@ -8622,10 +8622,10 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
 #### REST
 
-{{c1::REST}} is short for {{c2::Representational State Transfer}}
-{{c2::REST}} is a set of {{c1::constraints}}/{{c1::design principles}} for {{c3::APIs}}
-{{c1::REST}} as an idea was created in {{c2::2000}} by {{c3::Roy Fielding}} in his {{c4::doctoral dissertation}}
-On a theoretical level, {{c1::REST}} consists of {{c2::6}} {{c3::constraints/criteria}}.
+⟮c1;REST⟯ is short for ⟮c2;Representational State Transfer⟯
+⟮c2;REST⟯ is a set of ⟮c1;constraints⟯/⟮c1;design principles⟯ for ⟮c3;APIs⟯
+⟮c1;REST⟯ as an idea was created in ⟮c2;2000⟯ by ⟮c3;Roy Fielding⟯ in his ⟮c4;doctoral dissertation⟯
+On a theoretical level, ⟮c1;REST⟯ consists of ⟮c2;6⟯ ⟮c3;constraints/criteria⟯.
 While REST is theoretically implementation-independent, REST APIs generally transmit their data over HTTP as JSON
 sometimes, HTTP APIs are called REST APIs even if they don't follow all constraints
 an API following REST is often called RESTful
@@ -8716,7 +8716,7 @@ Routing architecture visualization|name
 #### topologies
 
 The topology of a network is how its vertices are arranged.
-A tree network may consist of star networks connected {{c1::via a bus network}}, or may be a tree just as a network.
+A tree network may consist of star networks connected ⟮c1;via a bus network⟯, or may be a tree just as a network.
 In a bus, everyone attached recieves the transmission.
 In a bus, only one entity can send at a time.
 Sometimes, bus is used to refer any connection between two points, even if it isn't a bus (this definition is nonsense)
@@ -8742,7 +8742,7 @@ electrical telegraph is often just shortened to telegraph.
 The electrical telegraph uses electrical pulses as a medium.
 Telegraph stations were connected by wires.
 The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
-⟮h:all;<img src="morse-vail-telegraph-key-1844-science-source.jpg">⟯A {{c1::telegraph key}} was/is a electrical switch where {{c2::pressing it}} would {{c3::produce a signal}} (and {{c4::holding it}} would {{c5::produce a longer one}}).
+⟮h:all;<img src="morse-vail-telegraph-key-1844-science-source.jpg">⟯A ⟮c1;telegraph key⟯ was/is a electrical switch where ⟮c2;pressing it⟯ would ⟮c3;produce a signal⟯ (and ⟮c4;holding it⟯ would ⟮c5;produce a longer one⟯).
 The telegraph sounder would have produced clicks from the electrical impulses.
 Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
 
@@ -8759,7 +8759,7 @@ Teletypewriters + video terminals = physical/hardware terminals.
 
 #### the internet
 
-On a basic level, the internet is a system of globally interconnected {{c1::computer}} {{c1::networks}}.
+On a basic level, the internet is a system of globally interconnected ⟮c1;computer⟯ ⟮c1;networks⟯.
 The internet runs on the internet protocol suite.
 
 An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
@@ -8831,12 +8831,12 @@ Server push is a feature of HTTP/2, used by specifying it in the HTTP header
 
 ####### minifcation
 
-{{c1::Minifying}} is {{c2::removing unnecessary characteristics}} (e.g. {{c2::longer names, whitespace}}) from {{c3::source code}} to {{c4::reduce size}}
-{{c1::minified files}} are commmonly indicated by {{c2::.min(.whatever)}}
+⟮c1;Minifying⟯ is ⟮c2;removing unnecessary characteristics⟯ (e.g. ⟮c2;longer names, whitespace⟯) from ⟮c3;source code⟯ to ⟮c4;reduce size⟯
+⟮c1;minified files⟯ are commmonly indicated by ⟮c2;.min(.whatever)⟯
 
 ####### media compression
 
-Images used {{c3::on the web}} are typically {{c2::specifically compressed}} beforehand, e.g. {{c1::by using programs such as imageoptim}}
+Images used ⟮c3;on the web⟯ are typically ⟮c2;specifically compressed⟯ beforehand, e.g. ⟮c1;by using programs such as imageoptim⟯
 
 Image compression tools
 |GUI|CLI|API|other
@@ -8856,8 +8856,8 @@ the "render the initial route ASAP" of PRPL is basically "reduce time to first (
 
 ######## P
 
-{{c1::&lt;link rel="preload"}} specifies that you {{c3::will need the resource very soon}}, and that it should be downloaded {{c2::asyncly}} with {{c2::high priority}}
-{{c1::&lt;link rel="preload"}} needs an {{c2::as=}}{{c3::"kind(e.g. style, script, image)"}}
+⟮c1;&lt;link rel="preload"⟯ specifies that you ⟮c3;will need the resource very soon⟯, and that it should be downloaded ⟮c2;asyncly⟯ with ⟮c2;high priority⟯
+⟮c1;&lt;link rel="preload"⟯ needs an ⟮c2;as=⟯⟮c3;"kind(e.g. style, script, image)"⟯
 If you've specified a resource with &lt;link rel="preload", you still need to actually include it later
 
 ####### defer & async
@@ -8865,8 +8865,8 @@ If you've specified a resource with &lt;link rel="preload", you still need to ac
 defer & async are two attriubtes for <script> that influence how it is loaded.
 Ignoring speculative parsing, when the browser hits a <script> tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
 Instead of the default behavior, the `defer` and `async` attribute of scripts tells the browser to load the script in the background.
-Between  the `defer` and `async` attributes, defer executes scripts loaded in the background {{c1::when the dom is fully built}}, in the order they were in the document
-Between  the `defer` and `async` attributes, async executes scripts loaded in the background {{c1::as soon as possible}}, in the order in which they load, no matter source order.
+Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮c1;when the dom is fully built⟯, in the order they were in the document
+Between  the `defer` and `async` attributes, async executes scripts loaded in the background ⟮c1;as soon as possible⟯, in the order in which they load, no matter source order.
 
 ####### RAIL
 
@@ -8892,22 +8892,22 @@ Lighthouse|only lab data|Web Vitals & other data|GUI (devtools & website), CLI, 
 Lighthouse's Performance audits provides a grade consisting of (the scores of individual) metrics, but also offers opportunities and diagnostics::d... as ways to improve the metrics
 Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibility, and SEO.
 
-{{c1::Web Vitals}} are the stats that {{c2::google}} measures to judge {{c3::the user experience of your websites}}
-{{c1::Core Web Vitals}} are the subset of {{c2::Web Vitals}} that {{c3::apply to all web pages (and are thus considered very important)}}
+⟮c1;Web Vitals⟯ are the stats that ⟮c2;google⟯ measures to judge ⟮c3;the user experience of your websites⟯
+⟮c1;Core Web Vitals⟯ are the subset of ⟮c2;Web Vitals⟯ that ⟮c3;apply to all web pages (and are thus considered very important)⟯
 as of 2020, there are 3 core web vitals
 Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals & Lighthouse Metrics
 First Input Delay|Core Web Vitals 
 First Contentful Paint, Speed Index, Time to Interactive, Total Blocking Time|Lighthouse Metrics
 
-A {{c1::layout shift}} is when a {{c2::visible element}} {{c3::shifts position}} between {{c4::render frames}} (in bad cases causing users to e.g. {{c5::click the wrong button}})
-{{c1::Cumulative Layout Shift (CLS)}} is how google measures the {{c2::badness}} of the {{c3::layout shifts}} you've going on
-The {{c1::largest contentful paint}} is when the {{c2::largest media/text block}} (which elements are exactly considered is more complicated) loaded, relative to {{c3::when the page first started loading}}
+A ⟮c1;layout shift⟯ is when a ⟮c2;visible element⟯ ⟮c3;shifts position⟯ between ⟮c4;render frames⟯ (in bad cases causing users to e.g. ⟮c5;click the wrong button⟯)
+⟮c1;Cumulative Layout Shift (CLS)⟯ is how google measures the ⟮c2;badness⟯ of the ⟮c3;layout shifts⟯ you've going on
+The ⟮c1;largest contentful paint⟯ is when the ⟮c2;largest media/text block⟯ (which elements are exactly considered is more complicated) loaded, relative to ⟮c3;when the page first started loading⟯
 
 
-a {{c1::long task}} is when {{c2::the main JS thread}} is {{c3::blocked}} for more than {{c4::50ms}}
-{{c1::Total Blocking Time}} as a Lighthouse metric measures {{c2::cumulative length}} of {{c3::long tasks}} between {{c4::First Contentful Paint}} and {{c5::Time To Interactive}}
-the {{c1::Lighthouse Speed Index}} is how quickly {{c2::the viewport is visually populated with content}}
-{{c1::Time to Interactive}} as a {{c2::lighthouse}} metric is the time it takes for a page to {{c3::become fully interactive}}
+a ⟮c1;long task⟯ is when ⟮c2;the main JS thread⟯ is ⟮c3;blocked⟯ for more than ⟮c4;50ms⟯
+⟮c1;Total Blocking Time⟯ as a Lighthouse metric measures ⟮c2;cumulative length⟯ of ⟮c3;long tasks⟯ between ⟮c4;First Contentful Paint⟯ and ⟮c5;Time To Interactive⟯
+the ⟮c1;Lighthouse Speed Index⟯ is how quickly ⟮c2;the viewport is visually populated with content⟯
+⟮c1;Time to Interactive⟯ as a ⟮c2;lighthouse⟯ metric is the time it takes for a page to ⟮c3;become fully interactive⟯
 
 CLS  Cumulative Layout Shift 
 FCP  First Contentful Paint
@@ -8944,7 +8944,7 @@ An ⟮c:8;imageboard⟯ is like a ⟮c:9;textboard⟯, just with ⟮c:10;images�
 
 # applications
 
-{{c1::Photoscape X}} is notable for being a {{c2::GUI}} program that has {{c3::batch editing of photos}}
+⟮c1;Photoscape X⟯ is notable for being a ⟮c2;GUI⟯ program that has ⟮c3;batch editing of photos⟯
 
 
 #### full-on programs
@@ -9290,9 +9290,9 @@ elif|Python|(ba)sh
   
 Anki has a if-like conditional to show something only if a field has content, indicated like: 
 ```lang=text;
-{{c1::{​{}}{{c2::#FieldName}}{{c1::}​}}}
+⟮c1;{​{⟯⟮c2;#FieldName⟯⟮c1;}​⟯}
 	Lorem Ipsum
-{{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}
+⟮c1;{​{⟯⟮c3;/FieldName⟯⟮c1;}​⟯}
 ```
 
 ##### conditional operator
@@ -9337,9 +9337,9 @@ JS Syntax examples:
 
 ```
 switch (expression) {
-  {{c1::case}} {{c2::}}value1{{c2::}}{{c3:::}}
+  ⟮c1;case⟯ ⟮c2;⟯value1⟮c2;⟯⟮c3;:⟯
    //Statements;
-   {{c4::default:}}
+   ⟮c4;default:⟯
 }
 ```
 
@@ -9468,8 +9468,8 @@ callable unit overloading and operator overloading are forms of static dispatch,
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
-In TS, function '{{c1::overloading}}' exists, but you specify {{c2::all possible signatures}} {{c3::first}}, and then the {{c4::implementation}} with a {{c5::signature}} that is {{c6::compatible with all the specified signature}} (e.g. using {{c7::optional parameters}}), and not compatible with {{c8::non-specified signatures}}
-In TS, in general: prefer {{c1::union types}} over {{c2::overloads}}
+In TS, function '⟮c1;overloading⟯' exists, but you specify ⟮c2;all possible signatures⟯ ⟮c3;first⟯, and then the ⟮c4;implementation⟯ with a ⟮c5;signature⟯ that is ⟮c6;compatible with all the specified signature⟯ (e.g. using ⟮c7;optional parameters⟯), and not compatible with ⟮c8;non-specified signatures⟯
+In TS, in general: prefer ⟮c1;union types⟯ over ⟮c2;overloads⟯
 
 #### dynamic dispatch
 
@@ -9563,12 +9563,12 @@ Local scope is often either block or function scope.
 
 In some languages, things that live within global scope are properties of an object called a global object.
 In JS in browsers, generally, the global object is Window.
-within {{c2::workers}}, the {{c3::global scope}} is `{{c1::WorkerGlobalScope}}`
-within {{c2::service workers}}, the {{c3::global scope}} is `{{c1::ServiceWorkerGlobalScope}}`
-The mixin `{{c1::WindowOrWorkerGlobalScope}}` describes {{c3::the common features}} of `{{c2::Window}}` and `{{c2::WorkerGlobalScope}}`
+within ⟮c2;workers⟯, the ⟮c3;global scope⟯ is `⟮c1;WorkerGlobalScope⟯`
+within ⟮c2;service workers⟯, the ⟮c3;global scope⟯ is `⟮c1;ServiceWorkerGlobalScope⟯`
+The mixin `⟮c1;WindowOrWorkerGlobalScope⟯` describes ⟮c3;the common features⟯ of `⟮c2;Window⟯` and `⟮c2;WorkerGlobalScope⟯`
 The `self` property of a WorkerGlobalScope returns a reference to the WorkerGlobalScope itself.
 
-Without {{c3::crates/unsafe code/etc.}}, {{c2::globals}} in Rust can only be {{c1::constants}}.
+Without ⟮c3;crates/unsafe code/etc.⟯, ⟮c2;globals⟯ in Rust can only be ⟮c1;constants⟯.
 
 ##### Variable scope
 
@@ -9935,14 +9935,14 @@ Casting will go wrong if the vlaue cannot be treated as teh casted type.
 (type) value|C#|Java
 
 Type assertions in TS are the equivalent of type casting in other languages.
-In TS, if {{c2::you know something about a type that TS doesn't}}, you can use {{c1::type assertions}}
-TS type assertion syntax: prepending {{c2::&lt;some_type&gt;}} or appending {{c1::as some_type}}
+In TS, if ⟮c2;you know something about a type that TS doesn't⟯, you can use ⟮c1;type assertions⟯
+TS type assertion syntax: prepending ⟮c2;&lt;some_type&gt;⟯ or appending ⟮c1;as some_type⟯
 
 
 #### Firstclassness
 
-An entity is said to be first-class in programming if you can {{c1::Do most other things you can do with objects/values}}
-typical features of entities that are first-class in a certain language are e.g. {{c1::Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.}}
+An entity is said to be first-class in programming if you can ⟮c1;Do most other things you can do with objects/values⟯
+typical features of entities that are first-class in a certain language are e.g. ⟮c1;Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.⟯
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
@@ -9976,7 +9976,7 @@ A union type specifies a number of types that anything with the union type as ty
 A union type can hold a value that could take on several different but fixed types.
 A union type can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
 
-with {{c1::union}} types, you can only use things that {{c2::all of the relevent types can do}}, unless you {{c3::narrow them down}}
+with ⟮c1;union⟯ types, you can only use things that ⟮c2;all of the relevent types can do⟯, unless you ⟮c3;narrow them down⟯
 Common syntax: type1 | type2 ...
 Syntax for creating arbitrary union types exist in Python and TS
 
@@ -10183,7 +10183,7 @@ unsigned integer|u|u32, u64, usize,...
 floating-point|f|f32, f64
 size as part of the type annotation (usize, isize) indicates the system word size 
 
-{{c2::ES2020}} introduces the {{c1::BigInt}} datatype for numbers {{c3::larger than the previous maximum size}}
+⟮c2;ES2020⟯ introduces the ⟮c1;BigInt⟯ datatype for numbers ⟮c3;larger than the previous maximum size⟯
 BigInt literal is indicated by ends in n
 
 #### Integers
@@ -10471,7 +10471,7 @@ someset.pop()|a random element
 someassocarray.pop(somekey)|the relevant value
 somearr.pop(index)
 
-somearray.splice({{c1::start}}, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
+somearray.splice(⟮c1;start⟯, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
 
 ###### Rust
 
@@ -10600,7 +10600,7 @@ A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
 cons is short for construct function, and comes from lisp. 
-To {{c4::cons something onto something}} is to take a {{c1::container}}, add {{c2::an element in front of it}}, and {{c3::put this in another container}}.
+To ⟮c4;cons something onto something⟯ is to take a ⟮c1;container⟯, add ⟮c2;an element in front of it⟯, and ⟮c3;put this in another container⟯.
 A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
 A cons list is a singly linked list constructed via nested ordered pairs.
 
@@ -10617,7 +10617,7 @@ Streams are an abstract data type (specifically a linear collection), in which e
 ##### Stack
 
 The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
-In a stack, the element you remove will be {{c1::the one you added most recently}}
+In a stack, the element you remove will be ⟮c1;the one you added most recently⟯
 LIFO = last in first out
 A stack is a linear collection ADT with LIFO order, and the operations:
 push: add to the top of the stack
@@ -11043,7 +11043,7 @@ Double not can generally be used to get the truthiness/falsiness of a thing, eve
 #### short-circuiting
 
 Short circuiting is more properly short-circuit evaluation.
-Short-circuit evaluation  an expression stopping evaluating{{c1::as soon as it's outcome is determined}}
+Short-circuit evaluation  an expression stopping evaluating⟮c1;as soon as it's outcome is determined⟯
 Short-circuit evaluation is most commonly found in the boolean operators of most programming languages
 with short-circuiting of binary operators, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
 specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
@@ -11175,7 +11175,7 @@ It can make sense to catch recoverable errors, but it is generally impossible to
 
 ### types
 
-Errors can on one level be divided into {{c1::syntax}}, {{c2::static semantic,}} and {{c3::logic errors}}.
+Errors can on one level be divided into ⟮c1;syntax⟯, ⟮c2;static semantic,⟯ and ⟮c3;logic errors⟯.
 
 A syntax error is an expression which violates the syntax of the language (will be detected during syntax analysis)
 forgetting a parenthesis
@@ -11215,8 +11215,8 @@ Assertions are predicates that deliberatly crash the program if the predicate is
 Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
 Assertions are typically only used during development.
 Rust implements assertions via macros.
-rusts {{c1::assert_eq!}} macro tests wheter {{c2::two expressions are equal}} (using the trait {{c2::PartialEq}}), and {{c3::panics if they are not}}
-rusts {{c1::assert!}} macro tests whether {{c2::something is true}}, and {{c3::panics if it is not}}
+rusts ⟮c1;assert_eq!⟯ macro tests wheter ⟮c2;two expressions are equal⟯ (using the trait ⟮c2;PartialEq⟯), and ⟮c3;panics if they are not⟯
+rusts ⟮c1;assert!⟯ macro tests whether ⟮c2;something is true⟯, and ⟮c3;panics if it is not⟯
 
 ## Callable units
 
@@ -11253,7 +11253,7 @@ return type is indicated:
 ### returning
 
 Across most languages, the keyword to return whatever value is the `return` keyword.
-The datatype of the thing that is returned from a callable unit is known  {{c1::The return type}}
+The datatype of the thing that is returned from a callable unit is known  ⟮c1;The return type⟯
 In non-manifestly typed languages, the default return value of a function is the null type
 In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
@@ -11270,7 +11270,7 @@ A pure function is idempotent and has no side effects.
 
 ### Closures
 
-A {{c1::closure}} is the combination of {{c2::a callable unit}} and {{c3::the lexical environment}} (= {{c4::any variables that were in scope}}) within which that function was declared.
+A ⟮c1;closure⟯ is the combination of ⟮c2;a callable unit⟯ and ⟮c3;the lexical environment⟯ (= ⟮c4;any variables that were in scope⟯) within which that function was declared.
 Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 In rust, only closures create closures :P
@@ -11393,9 +11393,9 @@ find_index()|Ruby
 ### Arguments
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
-for a callable unit,  {{c1::parameters}} are the values you specify the function will be passed, most commonly in its signature.
+for a callable unit,  ⟮c1;parameters⟯ are the values you specify the function will be passed, most commonly in its signature.
 for a calllable unit, arguments are the values/variables you actually pass.
-When passing things, using a car metaphor, you can think of the {{c1::parameter}} as a {{c2::parking space}} and the {{c1::argument}} as an {{c2::automobile}}
+When passing things, using a car metaphor, you can think of the ⟮c1;parameter⟯ as a ⟮c2;parking space⟯ and the ⟮c1;argument⟯ as an ⟮c2;automobile⟯
 function foo(a, b){...
 foo(12, "whistles") 
 a, b are parameters, 12, "whistles" are arguments
@@ -11505,8 +11505,8 @@ In JS, a promise is an object
 You react to promises by calling the then() method on them.
 In JS, something you can call then() on is called a thenable.
 in JS, most interfaces for promises work on any thenables.
-A promise can have the states {{c1::pending}}, {{c2::fulfilled}}, or {{c3::rejected}}.
-A promise is called {{c1::settled}} if it is either {{c2::fulfilled}}, or {{c3::rejected}}.
+A promise can have the states ⟮c1;pending⟯, ⟮c2;fulfilled⟯, or ⟮c3;rejected⟯.
+A promise is called ⟮c1;settled⟯ if it is either ⟮c2;fulfilled⟯, or ⟮c3;rejected⟯.
 Ergo a promise is either settled or pending.
 We may return a rejected promise manually, additonally, if an error occurs in our async function, it will reject automatically.
 Once a promise has settled, the attached thens will run as soon as possible / awaits will resolve.
@@ -11545,7 +11545,7 @@ As with the Promise.resolve and .reject, you pass the rejectionFunc the reason f
 JS has a few methods for acting on multiple promises at once:
 Promise.race() takes n promises and runs the attached callback <b>once</b> the first promise resolves.
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
-{{c1::Promise.allSettled()}} is like {{c1::Promise.all()}}, but the {{c2::former}} will {{c3::continue even if one rejects}}, the {{c2::latter}} will {{c3::not}}
+⟮c1;Promise.allSettled()⟯ is like ⟮c1;Promise.all()⟯, but the ⟮c2;former⟯ will ⟮c3;continue even if one rejects⟯, the ⟮c2;latter⟯ will ⟮c3;not⟯
 
 in node, most functions are still designed for callbacks, however you can use util.promisify().
 util.promisif()y takes a function following with a error-first callback as the last argument, and returns a version that returns promises.
@@ -11737,7 +11737,7 @@ in Rust, many things are created by a factory function `new()`, which is an asso
 
 #### type parameters and generics
 
-The things that define {{c1::the types}} a function/object/... is defined over, which usually go in {{c2::angle brackets}}, are across programing languages usually called {{c3::type parameters}}.
+The things that define ⟮c1;the types⟯ a function/object/... is defined over, which usually go in ⟮c2;angle brackets⟯, are across programing languages usually called ⟮c3;type parameters⟯.
 Generally, multiple type parameters are separated by , 
 Type parameters are generally written in UpperCamelCase
 Generics are generally a single char only.
@@ -11762,7 +11762,7 @@ package|within the same package|Java
 in java, the package access modifier is the default
 JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
 
-A {{c1::private item}} can be accessed by {{c2::its immediate parent module}} and {{c3::all its child modules}}
+A ⟮c1;private item⟯ can be accessed by ⟮c2;its immediate parent module⟯ and ⟮c3;all its child modules⟯
 A public item can be accessed as a private item can, and additionally also through a chain through its ancestors.
 In rust, each field of a struct has its own access modifier, which must be set to public if desired.
 
@@ -11922,7 +11922,7 @@ calling `mod` without arguments integrates an existing rust file as a child of t
 
 ##### CommonJS
 
-CommonJS is {{c1::a module ecosystem}} mainly used by node
+CommonJS is ⟮c1;a module ecosystem⟯ mainly used by node
 
 let/var/const <name> = require(<path>)
 
@@ -11958,7 +11958,7 @@ Rust uses `use` instead of import.
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword <path> [as <name>]
-@forward foo doesn't allow the current stylesheet bar to access the things in foo, but {{c1::allows anything @using bar to access them.}}
+@forward foo doesn't allow the current stylesheet bar to access the things in foo, but ⟮c1;allows anything @using bar to access them.⟯
 
 #### latex
 
@@ -12015,7 +12015,7 @@ Memory deallocation is releasing previously allocated memory.
 The call stack is often only called the stack.
 The call stack implements the stack ADT
 The call stack is made up of stack frames.
-The stack frame usually includes at least {{c1::the arguments}}, the {{c2::return address}}, and {{c3::local variables}}.
+The stack frame usually includes at least ⟮c1;the arguments⟯, the ⟮c2;return address⟯, and ⟮c3;local variables⟯.
 When we call a callable unit, a new stack frame is pushed on the stack, and the stack pointer is updated.
 When we return from a callable unit, the stack frame at the top of the stack is popped, and the stack pointer is updated.
 The stack frame at the top of the stack is the stack frame of the currently executing callable unit.
@@ -12271,9 +12271,9 @@ In react, you can't return false to prevent the browser default for an event, yo
 
 ###### react native
 
-{{c1::React Native}} is a {{c2::framework}} for building native applications using {{c4::React}} and {{c4::the platforms native capabilities}}
+⟮c1;React Native⟯ is a ⟮c2;framework⟯ for building native applications using ⟮c4;React⟯ and ⟮c4;the platforms native capabilities⟯
 The most common targets for react native are android and iOS, but you can also target desktop OSs, qt, TVs and even the web.
-You can use react native for your {{c1::whole app}}, but you can also {{c2::integrate it into an existing project}}
+You can use react native for your ⟮c1;whole app⟯, but you can also ⟮c2;integrate it into an existing project⟯
 React Native implements a polyfill for WebSockets, initialized via importing React. Other modules using WebSockets therefore need to be imported after React.
 
 ####### components
@@ -12293,8 +12293,8 @@ onSubmitEditing|event when text is submitted
 
 ⟮h:all;<img src="sm_2021-09-16--16-10-01-screenshot.png">⟯
 ⟮h:all;<img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
-A list with {{c1::sections/headings}} should probably use the {{c2::&lt;SectionList&gt;}} component
-A list with {{c1::no sections/headings}} should probably use the {{c2::&lt;FlatList&gt;}} component
+A list with ⟮c1;sections/headings⟯ should probably use the ⟮c2;&lt;SectionList&gt;⟯ component
+A list with ⟮c1;no sections/headings⟯ should probably use the ⟮c2;&lt;FlatList&gt;⟯ component
 
 All the elements and views of a ScrollView are rendered, even if they are not currently shown
 &lt;ScrollViews&gt; can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
@@ -12315,14 +12315,14 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 Web servers provide web pages.
 CMS|Content Management System
 SSR|Server-side Rendering
-{{c3::Routing}} is relating {{c1::paths}} to {{c2::what should be shown}}
-while {{c5::react}} is by default a {{c1::client-side-rendered}} thing, using {{c2::next.js}}, {{c3::gatsbyjs}} or {{c4::other custom tools}}, you can make it {{c1::SSR}}
+⟮c3;Routing⟯ is relating ⟮c1;paths⟯ to ⟮c2;what should be shown⟯
+while ⟮c5;react⟯ is by default a ⟮c1;client-side-rendered⟯ thing, using ⟮c2;next.js⟯, ⟮c3;gatsbyjs⟯ or ⟮c4;other custom tools⟯, you can make it ⟮c1;SSR⟯
 
 ##### JS
 
 Node.js was created in 2009.
-{{c1::Deno}} is a {{c2::perhaps-sucessor}} to {{c3::node}} by {{c4::the same creator}}.
-{{c5::Deno}} is wrtten in {{c1::rust}}, provides native {{c2::TS}} support, uses {{c3::ES}} modules, and {{c4::URLs}} for the location of dependencies
+⟮c1;Deno⟯ is a ⟮c2;perhaps-sucessor⟯ to ⟮c3;node⟯ by ⟮c4;the same creator⟯.
+⟮c5;Deno⟯ is wrtten in ⟮c1;rust⟯, provides native ⟮c2;TS⟯ support, uses ⟮c3;ES⟯ modules, and ⟮c4;URLs⟯ for the location of dependencies
 
 ##### Python
 
@@ -12418,7 +12418,7 @@ std::env|rust
 sys|python
 process|node
 
-In ruby, {{c1::$stdin}} {{c2::represents stdin}} and {{c1::$stdout}} {{c2::represents stdout}}. They are both {{c3::streams}}, which means we {{c4::use the read method}} to read input&nbsp;
+In ruby, ⟮c1;$stdin⟯ ⟮c2;represents stdin⟯ and ⟮c1;$stdout⟯ ⟮c2;represents stdout⟯. They are both ⟮c3;streams⟯, which means we ⟮c4;use the read method⟯ to read input&nbsp;
 sys.stdin/.stdout/stderr|python (are `File` objects similar to what open() returns)
 $stdin/$stdout/$stderr|ruby (return steams)
 std::io::stdin/stdout/stderr|Rust (returns a handle of std::io::Stdin/Stdout/Stderr)
@@ -12566,11 +12566,11 @@ console.time() & console.timeEnd()|measure elapsed time in running code.
 ### dates
 
 most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
-In js, {{c2::Unix time}} is almost always interacted with in {{c1::milliseconds}}, 
+In js, ⟮c2;Unix time⟯ is almost always interacted with in ⟮c1;milliseconds⟯, 
 as opposed seconds, which is more standard
-the `{{c1::Date.parse()}}` method takes {{c2::a date in a few common formats}} and outputs {{c3::Unix time (in millis, as is common in JS)}}
-`{{c1::new Date()}}` takes {{c2::Unix time milliseconds}} and returns {{c3::a `Date`}}
-`{{c1::someDate.toISOString()}} ` returns the datetime {{c2::as ISO 8601}}
+the `⟮c1;Date.parse()⟯` method takes ⟮c2;a date in a few common formats⟯ and outputs ⟮c3;Unix time (in millis, as is common in JS)⟯
+`⟮c1;new Date()⟯` takes ⟮c2;Unix time milliseconds⟯ and returns ⟮c3;a `Date`⟯
+`⟮c1;someDate.toISOString()⟯ ` returns the datetime ⟮c2;as ISO 8601⟯
 
 ### Standard library
 
@@ -12641,7 +12641,7 @@ Functional programming languages: {Haskell}
 
 ### Programming languages I don't know
 
-COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on {{c1::legacy mainframe computers}}
+COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on ⟮c1;legacy mainframe computers⟯
 C was created in 1972.
 *nix OSs are famously written in C.
 tcl is a programming language where everything is a command.
@@ -12700,8 +12700,8 @@ A thread pool typically processes a queue of tasks waiting for processing.
 
 Web Workers are threadlike things in JS.
 Web Workers come in two flavors, dedicated workers and shared workers.
-While a {{c2::dedicated worker}} is accessible from {{c3::a single script only}}, a {{c2::shared worker}} is accessible from {{c4::multiple scripts}}, even if {{c1::within different windows or frames}}
-Because many JS APIs are not {{c2::threadsafe}}, {{c3::Web Workers}} have access to {{c1:: only a limited subset}}
+While a ⟮c2;dedicated worker⟯ is accessible from ⟮c3;a single script only⟯, a ⟮c2;shared worker⟯ is accessible from ⟮c4;multiple scripts⟯, even if ⟮c1;within different windows or frames⟯
+Because many JS APIs are not ⟮c2;threadsafe⟯, ⟮c3;Web Workers⟯ have access to ⟮c1; only a limited subset⟯
 
 Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
 Web Workers as well as the main thread communicate via message passing.
@@ -12757,8 +12757,8 @@ Rust macros end in an !.
 
 A programming language implementation is a system for executing computer programs written in a given programming language (s). 
 There are two general approaches to programming language implementation: interpretation and compilation
-While we might talk about {{c2::programming languages}} being {{c1::compiled or interpreted}}, but actually it's {{c3::the relevant implementation}} that is {{c1::a compiler or an interpreter}}.
-A {{c1::reference implementation}} is an {{c2::implementation}} of a {{c2::specification}} generally written by {{c3::the creators}} of {{c5::the API/programming language/whatever}} to be {{c4::an example for other implementations}}
+While we might talk about ⟮c2;programming languages⟯ being ⟮c1;compiled or interpreted⟯, but actually it's ⟮c3;the relevant implementation⟯ that is ⟮c1;a compiler or an interpreter⟯.
+A ⟮c1;reference implementation⟯ is an ⟮c2;implementation⟯ of a ⟮c2;specification⟯ generally written by ⟮c3;the creators⟯ of ⟮c5;the API/programming language/whatever⟯ to be ⟮c4;an example for other implementations⟯
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
 
@@ -12780,7 +12780,7 @@ Source-to-source translator/compiler    trans(com)piler
 A transpiler compiles one (programming) language into another (programming) language, though the target language is generally not assemly.
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-Babel is a transpiler that transpiles {{c1::newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)}}
+Babel is a transpiler that transpiles ⟮c1;newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯
 
 #### compilers
 
@@ -12842,7 +12842,7 @@ npx <name> allows execuution of a binary <name> within an npm project without ha
 ##### REPL
 
 REPL is short for read-eval-print loop
-{{c3::REPLs}} are also called {{c1::interactive toplevel}} or {{c2::language shell}}
+⟮c3;REPLs⟯ are also called ⟮c1;interactive toplevel⟯ or ⟮c2;language shell⟯
 
 For most languages, invoking their CLI tool without arguments will open a REPL, if not
 irb|ruby
@@ -12905,7 +12905,7 @@ When a button is pressed:
 
 #### determinism
 
-a deterministic algorithim/callable unit will, given a particular input {{c1::always produce the same output}}
+a deterministic algorithim/callable unit will, given a particular input ⟮c1;always produce the same output⟯
 
 ### for
 
@@ -12977,11 +12977,11 @@ The hamming weight of 11101 is 4, the hamming weight of 60801 is 3
 
 ### Computer vision
 
-{{c1::Computer vision (CV)}} is a field of study that aims to get {{c2::artificial systems / AI}} to get {{c3::meaningful information / understanding}} from {{c4::digital images/videos/whatever}}.
+⟮c1;Computer vision (CV)⟯ is a field of study that aims to get ⟮c2;artificial systems / AI⟯ to get ⟮c3;meaningful information / understanding⟯ from ⟮c4;digital images/videos/whatever⟯.
 
 #### depth
 
-{{c1::Stereopsis}/{{c2::stereo(scopic) vision}} is {{c3::the ability to percieve depth}} from {{c4::only two eyes/optical sensors}}.
+⟮c1;Stereopsis}/{{c2::stereo(scopic) vision⟯ is ⟮c3;the ability to percieve depth⟯ from ⟮c4;only two eyes/optical sensors⟯.
 binocular disparity is the difference between the images that the optical sensors involved in stereopsis recieve due to them being positioned somewhat apart.
 stereo matching is matching the two images produced by stereopsis.
 After stereo matching, one can calculate the distance via trangulation.
@@ -12990,8 +12990,8 @@ To improve stereo matching on featureless things, a device intended for depth ca
 
 #### triangulation
 
-{{c1::Triangulation}} in surveying / computer vision / etc. is {{c2::determining the location}} of {{c3::a point C}} from {{c4::two points A and B}} by {{c5::forming a triangle}}.
-By knowing the {{c6::distance between A and B}} as well as {{c7::the angles at A and B}}, we can {{c8::reconstruct the distance.}}
+⟮c1;Triangulation⟯ in surveying / computer vision / etc. is ⟮c2;determining the location⟯ of ⟮c3;a point C⟯ from ⟮c4;two points A and B⟯ by ⟮c5;forming a triangle⟯.
+By knowing the ⟮c6;distance between A and B⟯ as well as ⟮c7;the angles at A and B⟯, we can ⟮c8;reconstruct the distance.⟯
 
 ### safety
 
@@ -13091,7 +13091,7 @@ If a build failure happens in CI, the build should be fixed before work continue
 
 continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
-{{c1::Continous deployment}} {{c3::relies on}} {{c2::continous delivery}}
+⟮c1;Continous deployment⟯ ⟮c3;relies on⟯ ⟮c2;continous delivery⟯
 A nightly build is one that is built every night, generally automatically
 
 CI/CD requires certain steps such as testing to happen on any integration.
@@ -13106,7 +13106,7 @@ An IDE is a software development tool that aims to include everything relevant t
 
 The ⟮c:1;standard length⟯ of ⟮c:2;a line of code⟯ is ⟮c:3;80 characters⟯. 
 ⟮c:6;The standard length of a line of code being 80 characters⟯ originated ⟮c:4;with IBM punch cards⟯ in ⟮c:4;1928⟯, and later was ⟮c:5;the standard width of a terminal⟯ 
-The default size in many cases for {{c3::terminals}} is {{c1::80 characters}} wide, and {{c2::24/25 lines}} high
+The default size in many cases for ⟮c3;terminals⟯ is ⟮c1;80 characters⟯ wide, and ⟮c2;24/25 lines⟯ high
 
 #### code editor
 
@@ -13165,7 +13165,7 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 QA = Quality assurance
 QA are the activities done to make sure that the product meets certain standards.
 
-{{c1::wave a dead chicken (over it)}}: To perform a ritual over {{c4::crashed software or hardware}} which one {{c2::believes to be futile}} but is {{c3::nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.}}
+⟮c1;wave a dead chicken (over it)⟯: To perform a ritual over ⟮c4;crashed software or hardware⟯ which one ⟮c2;believes to be futile⟯ but is ⟮c3;nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.⟯
 
 ### debugging
 
@@ -13243,9 +13243,9 @@ A bodge/kludge is a solution to a problem that is quick to implement but inelega
 
 TDD|Test-driven development
 
-{{c1::TDD}} necessarily generates {{c2::self-testing code}}
-{{c1::Self-Testing code}} is {{c2::having built-in tests}} for {{c3:: anything in the codebase (added while writing the things)}}.
-{{c1::Code coverage}} is a measurement of {{c2::how much of $unit (e.g. lines, blocks)}} are run {{c3::when automated tests are executed}}
+⟮c1;TDD⟯ necessarily generates ⟮c2;self-testing code⟯
+⟮c1;Self-Testing code⟯ is ⟮c2;having built-in tests⟯ for ⟮c3; anything in the codebase (added while writing the things)⟯.
+⟮c1;Code coverage⟯ is a measurement of ⟮c2;how much of $unit (e.g. lines, blocks)⟯ are run ⟮c3;when automated tests are executed⟯
 for TDD, you first write a test that describes the feature you're wanting to implement
 If you want to fix a bug under TDD, first write a test exposing the defect
 
@@ -13270,19 +13270,19 @@ Unit tests are generally quite fast.
 Unit tests should never require you to e.g. do special things to your environment.
 Unit tests often use test doubles.
 End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
-{{c3::Integration testing}} is testing whether {{c1::separate modules}} {{c2::work together as intended}}
+⟮c3;Integration testing⟯ is testing whether ⟮c1;separate modules⟯ ⟮c2;work together as intended⟯
 Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
 Unit tests may be narrowly defined as testing one unit only with test doubles, or more broadly as testing a few units, thus overlapping with the narrow definition of integration tests
 
 ## principles
 
 GIGO   Garbage In, Garbage Out
-Garbage in, garbage out claims that if the input data is somehow bad {{c1::the output data will be too}}
-Syntactic sugar is syntax that makes a programming language easier to use, but {{c1::doesn't expand it's functionality}}
+Garbage in, garbage out claims that if the input data is somehow bad ⟮c1;the output data will be too⟯
+Syntactic sugar is syntax that makes a programming language easier to use, but ⟮c1;doesn't expand it's functionality⟯
 "Anything that can go wrong will go wrong"   Murphy's law
-{{c1::an anti-pattern}} is a pattern (intentional or not) that is ineffective/counter-productive 
+⟮c1;an anti-pattern⟯ is a pattern (intentional or not) that is ineffective/counter-productive 
 YAGNI  You/ya ain't gonna need it
-In computer programming, {{c1::code smell}} is a characteristic in code that indicates a deeper problem.
+In computer programming, ⟮c1;code smell⟯ is a characteristic in code that indicates a deeper problem.
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 DRY   Don't repeat yourself
 KISS   Keep it simple stupid
@@ -13380,7 +13380,7 @@ docosaurus is a react-based solution for writing documentation via markdown
 
 ## requirements engineering
 
-A {{c1::user story}} is the {{c2::explanation of a feature}} {{c3::from the perspective of the user}}.
+A ⟮c1;user story⟯ is the ⟮c2;explanation of a feature⟯ ⟮c3;from the perspective of the user⟯.
 Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
 Parkinsaw's Law: Work expands to fill the available time
 The law of triviality was originally developed as a corollary to parkinsons law.
@@ -13404,10 +13404,10 @@ js|ESLint
 shell (bash/csh/ksh etc.)|shellcheck
 
 ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
-in ESlint, to {{c2::inherit configs from other files}}, specify the {{c1::extends}} key
-in ESlint, to use {{c2::the default rules}}, use {{c1::extends: eslint:recommended}}
-in ESlint, the things stored in the {{c2::settings}} key are {{c1::global to all ESLint rules}}
-To {{c2::extend}} ESLint, use {{c1::plugins}}
+in ESlint, to ⟮c2;inherit configs from other files⟯, specify the ⟮c1;extends⟯ key
+in ESlint, to use ⟮c2;the default rules⟯, use ⟮c1;extends: eslint:recommended⟯
+in ESlint, the things stored in the ⟮c2;settings⟯ key are ⟮c1;global to all ESLint rules⟯
+To ⟮c2;extend⟯ ESLint, use ⟮c1;plugins⟯
 
 To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
 
@@ -13606,7 +13606,7 @@ metro is the bundler for React Native.
 #### Latex
 
 In latex the package manager is part of the tex distribution
-The two most common latex distributions are {{c1::TeX Live}} and {{c1::MiKTeX}}
+The two most common latex distributions are ⟮c1;TeX Live⟯ and ⟮c1;MiKTeX⟯
 tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
 
@@ -13763,7 +13763,7 @@ In most languages, referring to an associative array element that doesn't exist 
 TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
-Dot notation {{c1::object}}{{c1::.}}{{c1::member}}
+Dot notation ⟮c1;object⟯⟮c1;.⟯⟮c1;member⟯
 dot notation: TOML also 
 string keys of tables lua
 members of objects in lua
@@ -13782,14 +13782,14 @@ assoc array access []|Python|Ruby|
 
 ## Project Jupyter
 
-{{c1::Jupyter Notebooks}} used to be called {{c2::IPython Notebooks}}
+⟮c1;Jupyter Notebooks⟯ used to be called ⟮c2;IPython Notebooks⟯
 Jupyter notebooks are multimedia documents.
 Jupyter notebooks can contain code, markdown test, math, plots, media/images.
 Code within Jupyter notebooks are run by kernels.
 There Jupyter kernels for a bunch of different programming languages.
 The python kernel for Jupyter notebooks is the ipython kernel.
 Jupyter notebooks are in fact implemented via json files.
-The file type of {{c1::jupyter notebooks}} is {{c2::.ipynb}}
+The file type of ⟮c1;jupyter notebooks⟯ is ⟮c2;.ipynb⟯
 The Jupyter Notebook App is a server-based application that allows editing and running notebook documents via a web browser.
 The Jupyter Notebook App can be executed locally or can be installed on a remote server and accessed through the internet.
 Jupyter Notebooks can be edited using many different programs, e.g. the official Jupyter Notebook App, but also VSCode
@@ -14047,9 +14047,9 @@ Today, most things default to UTF-8, however a few things such as JS and Java de
 UTF-16 consists of 16-bit code units.
 An unicode code point encoded with UTF-16 may consist of one or two code units
 UTF-16 requires one code unit(s) for things in the BMP, and two code unit(s) for anything else
-if UTF-16 needs {{c1::two code units}}, these {{c1::two code units}} are called {{c2::a surrogate pair}}
-In surrogate pairs (UTF-16) the code unit that should come {{c1::first}} is called the {{c2::high surrogate}}, the code unit that should come {{c1::second}} is called the {{c2::low surrogate}}
-{{c1::High-surrogate}} code units have a hex value {{c2::0xD800-0xDBFF}}
+if UTF-16 needs ⟮c1;two code units⟯, these ⟮c1;two code units⟯ are called ⟮c2;a surrogate pair⟯
+In surrogate pairs (UTF-16) the code unit that should come ⟮c1;first⟯ is called the ⟮c2;high surrogate⟯, the code unit that should come ⟮c1;second⟯ is called the ⟮c2;low surrogate⟯
+⟮c1;High-surrogate⟯ code units have a hex value ⟮c2;0xD800-0xDBFF⟯
 
 ###### UTF-8
 
@@ -14070,7 +14070,7 @@ To encode a character in UTF-8, first we determine how many bit the character re
 
 ###### Percent
 
-(near) synonyms: {{c1::Percent encoding}}, {{c2::URL/I encoding}}
+(near) synonyms: ⟮c1;Percent encoding⟯, ⟮c2;URL/I encoding⟯
 
 To percent-encode a character, use the characters UTF-8 representation, and then percent-encode each byte.
 percent-encoded-byte ::= %<hex-digit><hex-digit>
@@ -14086,8 +14086,8 @@ An aspect is a cross-cutting concern.
 A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
 Examples for a cross-cutting concern might be logging.
 
-Case-preservation is whether something {{c1::stores or disregards case information}}
-Case-sensitivity is whether something {{c1::differentiates based on case}}
+Case-preservation is whether something ⟮c1;stores or disregards case information⟯
+Case-sensitivity is whether something ⟮c1;differentiates based on case⟯
 
 ## more misc
 
@@ -14100,7 +14100,7 @@ An instance is something that has been created on some sort of model.
 Placeholder images using kittens   placekitten.com
 Placeholder images using boring boxes   via.placeholder.com
 
-via.placeholder.com/{{c1::width}}[{{c2::x}}{{c3::height}}]
-placekitten.com/{{c1::width}}{{c2::/}}{{c3::height}}
+via.placeholder.com/⟮c1;width⟯[⟮c2;x⟯⟮c3;height⟯]
+placekitten.com/⟮c1;width⟯⟮c2;/⟯⟮c3;height⟯
 
 

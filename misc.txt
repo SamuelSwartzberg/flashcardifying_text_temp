@@ -73,7 +73,7 @@ An ⟮c:1;externality⟯ is a ⟮c:2;s:3;cost⟯ ( = ⟮c:3;s:2;negative⟯ ⟮c
 
 #### three-sector model
 
-TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, {{c8::secondary}}, and {{c8::tertiary}} sectors.
+TThe ⟮c7;three-sector model⟯ divides economic activity into ⟮c8;primary⟯, ⟮c8;secondary⟯, and ⟮c8;tertiary⟯ sectors.
 
 sector|consists of
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:11;Primary sector⟯|⟮c:12;Resource extraction = extraction of raw materials⟯
@@ -85,7 +85,7 @@ sector|consists of
 ⟮c:5;A society dominated in economic output by the tertiary sector⟯|⟮c:6;Post-industrial society⟯
 
 
-According to {{c9::the three-sector model}} of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}
+According to ⟮c9;the three-sector model⟯ of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}
 
 ## supply chains
 
@@ -130,7 +130,7 @@ If a good is ⟮c:1;fungible⟯, it is ⟮c:2;readily interchanged with others o
 
 a ⟮c:1;positional good⟯ is a good that is ⟮c:2;only valued⟯ by ⟮c:3;how it is distributed in a population⟯.
 ⟮c:4;Positional good⟯ is a term similar to ⟮c:5;status symbol.⟯
-  {{c6::Conspicuous comsumption}} is consumption to {{c7::enhance social status/prestige}}, that is, consumption {{c8::of goods}} as {{c8::positional goods}}
+  ⟮c6;Conspicuous comsumption⟯ is consumption to ⟮c7;enhance social status/prestige⟯, that is, consumption ⟮c8;of goods⟯ as ⟮c8;positional goods⟯
 
 #### durability
 
@@ -197,7 +197,7 @@ A ⟮c:4;private good⟯ is a good that is ⟮c:5;excludable⟯ and ⟮c:5;rival
 An ⟮c:5;econ⟯ would always ⟮c:6;make the best decision given a set of alternatives⟯
 ⟮c:7;Econs⟯, in contrast to humans, never fall prey to ⟮c:8;biases⟯
 ⟮c:9;Econs⟯ are contrasted with (actual) ⟮c:10;humans⟯
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}</span><br/><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}</span><br/><div class="sub">
 as distinct from actually-extant humans
 </div>
 
@@ -376,10 +376,10 @@ Proponents of ⟮c:1;horseshoe⟯ theory argue that the ⟮c:2;extreme left⟯ a
 
 ### irredentism & revanchism
 
-{{c2::Irredentism}} is the movement to {{c3::'reclaim' territory}} that a group thinks {{c4::they have a claim to}} on a {{c5::ethno-historico-nationalist}} basis. 
-{{c6::Revanchism}} is the movement to {{c7::reclaim territory}} {{c8::lost to another}} due to {{c9::past events}}. 
+⟮c2;Irredentism⟯ is the movement to ⟮c3;'reclaim' territory⟯ that a group thinks ⟮c4;they have a claim to⟯ on a ⟮c5;ethno-historico-nationalist⟯ basis. 
+⟮c6;Revanchism⟯ is the movement to ⟮c7;reclaim territory⟯ ⟮c8;lost to another⟯ due to ⟮c9;past events⟯. 
 Both {{c10::irredentism}} and {{c10::revanchism}} see their {{c11::territorial claims}} as a {{c12::reclaiming}}, though the {{c13::motivation/ideology behind it}} differs. 
-{{c14::revanchism}} is like {{c14::irredentism}}, but generally the territory claimed {{c1::was once actually held}}, with less emphasis on {{c1::whether that territory is ethnically/'properly' part of the nation}} 
+{{c14::revanchism}} is like {{c14::irredentism}}, but generally the territory claimed ⟮c1;was once actually held⟯, with less emphasis on ⟮c1;whether that territory is ethnically/'properly' part of the nation⟯ 
 
 
 France ⟮c:17;claiming alsace-lorraine/wanting it back⟯ was both a ⟮c:18;irredentist⟯ and a ⟮c:19;revanchist⟯ claim. 
@@ -491,8 +491,8 @@ ARPA is short for ⟮c:1;Advanced Research Projects Agency⟯ (today called ⟮c
 
 ### auteur theory
 
-An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::excercises a large amount of control}} over their work and/or {{c5::is credited for the artistic quality}} of the work.
-{{c6::Auteur theory}} either ({{c7::descriptively}}) says that films/other media are {{c8::most strongly influenced}} by {{c9::a single person}}, most commonly {{c9::the director}} (since they have strong control over {{c10::the audio-visual element}}) and thus {{c11::when looking at a film/piece of media}} we should see it {{c12::as the work of the directory,}} or ({{c7::prescriptively}}) that films/other media are {{c13::better}} when they {{c14::are directed by an auteur.}}
+An ⟮c1;auteur⟯ is ⟮c2;an artist⟯ (esp. in ⟮c3;filmmaking⟯) who ⟮c4;excercises a large amount of control⟯ over their work and/or ⟮c5;is credited for the artistic quality⟯ of the work.
+⟮c6;Auteur theory⟯ either (⟮c7;descriptively⟯) says that films/other media are ⟮c8;most strongly influenced⟯ by ⟮c9;a single person⟯, most commonly ⟮c9;the director⟯ (since they have strong control over {{c10::the audio-visual element}}) and thus {{c11::when looking at a film/piece of media}} we should see it {{c12::as the work of the directory,}} or (⟮c7;prescriptively⟯) that films/other media are {{c13::better}} when they {{c14::are directed by an auteur.}}
 
 ## fandom
 
@@ -630,7 +630,7 @@ Harlequin romances generally feature a ⟮c:26;clinch⟯ cover and have a ⟮c:2
 
 According to Shibamoto Smith 2004, in contrast to ⟮c:1;Harlequin translations⟯, the ⟮c:2;heroine⟯ of ⟮c:1;japanese romance novels⟯ looks ⟮c:3;reasonably pretty, but not a bombshell⟯, acts ⟮c:4;independently/competently⟯, is quite ⟮c:5;self-aware⟯, while the ⟮c:6;hero⟯ is ⟮c:7;ordinary, nice, somewhat awkward⟯. 
 In general, according to Shibamoto Smith 2004, ⟮c:8;japanese romance novels⟯ pay less heed to ⟮c:9;looks as a sign for attractiveness/love⟯ 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}</span><br/><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯</span><br/><div class="sub">
 <blockquote class="sub all-b">
 Japanese romances rarely have covers that depict the principal characters, and the text descriptions are by no means as detailed as in the Harlequin-style texts. Clothing is not, in my corpus, ever used as a tool of seduction, and no lovers’ furtive glances at escaping chest hair or heaving breasts or quick but intoxicating looks at glimpses of beautiful long legs through the slits of skirts help our Japanese lovers know that they have found Ms. or Mr. Right
 </blockquote>
@@ -718,8 +718,8 @@ Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>hous
 
 #### writer-based prose
 
-{{c1::writer-based prose}}  &lt;-&gt; {{c2::reader-based prose}} 
-To {{c3::write reader-based prose}}, you first need to have {{c1::an idea of your reader and their characteristics}} 
+⟮c1;writer-based prose⟯  &lt;-&gt; ⟮c2;reader-based prose⟯ 
+To ⟮c3;write reader-based prose⟯, you first need to have ⟮c1;an idea of your reader and their characteristics⟯ 
 
 #### freewriting
 
@@ -731,8 +731,8 @@ To {{c3::write reader-based prose}}, you first need to have {{c1::an idea of you
 
 ###### litotes
 
-{{c1::litotes}} is {{c2::saying something}} by {{c3::saying what it's not}}.
-Examples of {{c4::litotes}} include {{c5::<q>not bad</q>; <q>no small task</q>; <q>not the nicest person I know</q>}}
+⟮c1;litotes⟯ is ⟮c2;saying something⟯ by ⟮c3;saying what it's not⟯.
+Examples of ⟮c4;litotes⟯ include ⟮c5;<q>not bad</q>; <q>no small task</q>; <q>not the nicest person I know</q>⟯
 
 ## visual
 
@@ -1321,7 +1321,7 @@ Era|Start|End
 
 In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c:3;平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
 
-{{c3::<ruby>大日本帝国<rp>(</rp><rt>だいにっぽんていこく</rt><rp>)</rp></ruby>}}: {{c1::1868}} - {{c2::1947}}
+⟮c3;<ruby>大日本帝国<rp>(</rp><rt>だいにっぽんていこく</rt><rp>)</rp></ruby>⟯: ⟮c1;1868⟯ - ⟮c2;1947⟯
 
 #### reigns
 
@@ -1337,7 +1337,7 @@ Era|Start|End
 
 ##### politics
 
-⟮h:all;<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">⟯{{c1::小泉純一郎}} served as {{c3::Japan's prime minister}} from {{c2::2001}} to {{c2::2006}}, coming in with an image of a {{c4::maverick}}
+⟮h:all;<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">⟯⟮c1;小泉純一郎⟯ served as ⟮c3;Japan's prime minister⟯ from ⟮c2;2001⟯ to ⟮c2;2006⟯, coming in with an image of a ⟮c4;maverick⟯
 
 <h2>
   ⟮c:7;uh:all;Non-LDP goverments in Japan⟯ since ⟮c:8;uh:all;1948⟯:
@@ -1346,7 +1346,7 @@ which|start|end
 ⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯
 ⟮c:4;later⟯|⟮c:5;s:6;end of the 2000s (2009⟯)|⟮c:6;s:5;2012⟯
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span><br><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯</span><br><div class="sub">
 <div class="sub all-b">
 more precisely since the 50s if we're talking specifically about the LDP, but the late 40s was its predecessors
 </div>
@@ -1371,7 +1371,7 @@ We ⟮c:5;don't know a huge amount⟯ about ⟮c:6;the original form⟯ of ⟮c:
 
 ##### Russo-Japanese war
 
-The {{c3::Russo-Japanese war}} lasted from {{c1::1904-1905}} and ended with {{c2::The battle of tsushima (日本海海戦)}}
+The ⟮c3;Russo-Japanese war⟯ lasted from ⟮c1;1904-1905⟯ and ended with ⟮c2;The battle of tsushima (日本海海戦)⟯
 
 ##### 3.11
 
@@ -1491,7 +1491,7 @@ Since the ⟮c:3;1940s⟯, ⟮c:1;blue⟯ has symobolized ⟮c:2;boys/masculinit
 
 #### in japan
 
-{{c1::Takarazuka Revue}} is {{c2::an all-female}} (and thus {{c2::cross-dressing}}) troupe playing {{c3::musicals}} founded {{c4::in the 1910s}} and {{c5::still running.}}
+⟮c1;Takarazuka Revue⟯ is ⟮c2;an all-female⟯ (and thus ⟮c2;cross-dressing⟯) troupe playing ⟮c3;musicals⟯ founded ⟮c4;in the 1910s⟯ and ⟮c5;still running.⟯
 
 The ⟮c:1;Equal Employment Opportunity law⟯ (Japan, ⟮c:2;1986/87⟯) was the ⟮c:3;first* (it actually implemented an earlier law⟯) ⟮c:4;major⟯ though ⟮c:4;largely ineffective⟯ ⟮c:5;equal employment legislation in japan.⟯ 
 
@@ -1978,8 +1978,8 @@ Foods by food energy per mass:
 1. ⟮c:1;fats⟯ 
 2. ⟮c:2;alcohol(ethanol⟯) 
 §§ 3. ⟮c:3;carbohydrates⟯/⟮c:3;protein⟯ §<br>
-{{c1::calorie}} is also sometimes called {{c2::small calorie}}, {{c3::gram calorie}}
-{{c4::kilocalorie}} is also sometimes called {{c5::calorie (confusingly, and mainly in casual conversation)}} {{c6::large calorie}}, {{c7::food calorie}}
+⟮c1;calorie⟯ is also sometimes called ⟮c2;small calorie⟯, ⟮c3;gram calorie⟯
+⟮c4;kilocalorie⟯ is also sometimes called ⟮c5;calorie (confusingly, and mainly in casual conversation)⟯ ⟮c6;large calorie⟯, ⟮c7;food calorie⟯
 
 ⟮c:12;calorie⟯ is also sometimes nonstandardly called ⟮c:13;small calorie⟯, ⟮c:14;gram calorie⟯ 
 ⟮c:15;kilocalorie⟯ is also sometimes nonstandardly called ⟮c:16;calorie (confusingly, and mainly in casual conversation⟯) ⟮c:17;large calorie⟯, ⟮c:18;food calorie⟯ 
@@ -2026,9 +2026,9 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 ######### omega-3
 
 There are three types of {{c17::omega-3}} fatty acids, {{c14::ALA}}, {{c15::EPA}}, and {{c16::DHA}}.
-of the {{c11::three}} types of {{c7::omega-3}} fatty acids relevant to human nutrition, only {{c18::ALA}} is {{c9::essential}}.
+of the {{c11::three}} types of ⟮c7;omega-3⟯ fatty acids relevant to human nutrition, only {{c18::ALA}} is ⟮c9;essential⟯.
 
-Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be {{c8::synthesized from the former}}.
+Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be ⟮c8;synthesized from the former⟯.
 {{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.
 
 name|abbreviation
@@ -2043,7 +2043,7 @@ Major non-vegan sources of {{c25::ALA}}: {{c26::fish}} and {{c26::meat/eggs}} to
 
 
 there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid}} is considered {{c29::essential}}
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span><br><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span><br><div class="sub">
 <a href="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/">https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/</a>
 </div>
 
@@ -2709,7 +2709,7 @@ Thingy|ICD-10 Code
 
 ### signs and symptoms
 
-⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between {{c6::signs}} and {{c6::symptoms}} is  {{c5::how they are perceptible}} 
+⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between ⟮c6;signs⟯ and ⟮c6;symptoms⟯ is  ⟮c5;how they are perceptible⟯ 
 
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;sign⟯|⟮c:2;observable to others (not just the patient⟯)
 ⟮c:3;symptom⟯|⟮c:4;observable to the patent only⟯
@@ -2732,9 +2732,9 @@ Today, ⟮c:18;leprosy⟯ can be ⟮c:19;cured⟯ via ⟮c:20;multidrug therapy�
 
 #### benign paroxysmal positional vertigo
 
-{{c1::Benign paroxysmal positional vertigo}} is an illness that causes {{c2::vertigo (dizziness)}} upon {{c3::changes in the head position}}.
-Physiologically, {{c4::benign paroxysmal positional vertigo}} is caused by {{c5::dislocated crystals in the ear,}} however {{c6::the ultimate cause is often not clear}}.
-{{c7::Benign paroxysmal positional vertigo}} is more common in {{c8::the elderly}} and {{c9::women}}, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
+⟮c1;Benign paroxysmal positional vertigo⟯ is an illness that causes ⟮c2;vertigo (dizziness)⟯ upon ⟮c3;changes in the head position⟯.
+Physiologically, ⟮c4;benign paroxysmal positional vertigo⟯ is caused by ⟮c5;dislocated crystals in the ear,⟯ however ⟮c6;the ultimate cause is often not clear⟯.
+⟮c7;Benign paroxysmal positional vertigo⟯ is more common in ⟮c8;the elderly⟯ and ⟮c9;women⟯, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
 {{c12::Benign paroxysmal positional vertigo}} is often treated with {{c13::specific exercises}}.
 
 #### by varicella-zoster
@@ -2794,7 +2794,7 @@ Roughly ⟮c:10;1⟯% of the population have ⟮c:11;CFS⟯, with it occuring so
 
 #### referred pain
 
-{{c1::referred pain}} is pain {{c2::felt somewhere else than the site of the stimulus}}.
+⟮c1;referred pain⟯ is pain ⟮c2;felt somewhere else than the site of the stimulus⟯.
 
 ### errors & lies
 
@@ -2862,7 +2862,7 @@ The ⟮c:26;choroid⟯ is ⟮c:27;the layer providing nourishment⟯ to the eye
 ± In the middle between retina and sclera, there is a choir on steroids ±<br>
 The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligament of the lens⟯ 
 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>...
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>...
 ⟮c:1;Pounding/beating/pumelling⟯|⟮c:2;ulnar⟯|⟮c:2;loose fist⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Hacking⟯|⟮c:2;ulnar⟯|⟮c:2;fairly straight⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Cupping⟯|⟮c:2;palmar⟯|⟮c:2;cupped/slightly gathered⟯|
@@ -2935,7 +2935,7 @@ a ⟮c:71;power bottom⟯ is most commonly just a misnomer for a ⟮c:72;dominan
 "⟮c:74;Topping from the bottom⟯" using the ⟮c:75;literal sense⟯ ⟮c:76;doesn't make sense⟯ and may refer to "⟮c:77;being a dom and a bottom AT THE SAME TIME :OOOOOOOOOOO⟯" or "⟮c:78;Being a sub in theory but a dom in practice⟯". It is also often just used for "⟮c:79;My sub is doing something and <i>I don't like it</i>⟯"
 
 In general, as of 2021, it seems that more "⟮c:1;masc⟯" gay identities are ⟮c:2;more highly valued⟯
-<span class="cloze-dump">{{c1::}}{{c2::}}</span><br/><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯</span><br/><div class="sub">
 <a href="https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/">https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/</a>
 </div>
 
@@ -3190,7 +3190,7 @@ In 1989, Kimberlé Crenshaw coined the term "⟮c:10;intersectionality⟯" in a 
 the ⟮c:1;school-to-prison pipeline⟯ in one definition is the ⟮c:7;disproportionate tendency⟯ of minors and young adults from ⟮c:5;disadvantaged backgrounds⟯ (generally ⟮c:5;race⟯-related) to ⟮c:6;become incarcerated⟯, often due to ⟮c:2;educational discrimination⟯. §
 the ⟮c:9;school-to-prison pipeline⟯ may also reference the effects of ⟮c:3;a slew of policies⟯ to ⟮c:8;make school more 'tough on crime'/prison-like⟯. 
 Often the ⟮c:10;school-to-prison pipeline⟯ refers to both ⟮c:4;the schools-as-prisons⟯ and ⟮c:11;the generally race-related educational discrimination⟯ that ⟮c:12;makes children more likely to end up in prison.⟯ 
-{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}
+⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}
 
 ### sanism 
 
@@ -3379,7 +3379,7 @@ When using ⟮c:1;gibberish/gromolo⟯, you ⟮c:2;speak with meaningless sounds
 
 "⟮c:2;der sprechbereite mund⟯" involves ⟮c:3;keeping your mouth open slightly all the time (during improv sessions etc.⟯) ⟮c:1;to be able to react quickly⟯ 
 The problem with sourcing "⟮c:4;der sprechbereite mund⟯" is that ⟮c:5;I can't find it on google⟯. 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span><br/><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯</span><br/><div class="sub">
 <div class="sub c1-f" >
 As far as I remember
 </div>
@@ -3551,7 +3551,7 @@ There should roughly be ⟮c:13;one situation/action⟯ on the fear ladder for �
 A ⟮c:15;fear ladder⟯ should be applied ⟮c:16;regularly⟯ (e.g. ⟮s:16;⟮c:17;daily, a few times a week⟯⟯ ). 
 ⟮c:18;Each session of the application of a fear ladder⟯ should last until ⟮c:19;the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s:19;⟮c:20;half⟯ is a good goal to short for⟯ ) (often ⟮c:21;30min +::length⟯ are necessary, ⟮c:7;relaxation excersizes such as breathing⟯ can help) 
 ⟮c:22;Fear ladders &amp; exposure therapy⟯ work(s) because ⟮c:8;your anxiety basically "runs out of gas"⟯. For ⟮c:23;a fear ladder⟯, start with ⟮c:9;the lower items⟯ on ⟮c:23;the fear ladder,⟯ and ⟮c:9;work yourself up to the higher items⟯ as they ⟮c:10;become less frightening⟯. 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span><br/><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}</span><br/><div class="sub">
 <div class="sub all-b"><a href="https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/">alivecounselling/</a>, <a href="https://www.anxietycanada.com/articles/plan-exposure-exercises/">Planning exposures</a>, <a href="https://www.anxietycanada.com/articles/build-a-fear-ladder/">Building fear ladder</a></div>
 </div>
 
@@ -3646,9 +3646,9 @@ The ⟮c:4;Cycle of abuse⟯: ⟮c:1;Tension building⟯ -&gt; ⟮c:2;Acute expl
 
 #### narcissism
 
-{{c1::<dfn>Narcissists</dfn>}} have an overriding desire to {{c2::protect/soothe/strengthen}} their {{c3::self-image.}} 
-{{c4::<dfn>Narcisstic supply</dfn>}} are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
-<dfn>{{c5::Narcisstic injury}}</dfn> is {{c6::damage}} that a narcisst takes {{c7::to their self-image.}} 
+⟮c1;<dfn>Narcissists</dfn>⟯ have an overriding desire to ⟮c2;protect/soothe/strengthen⟯ their ⟮c3;self-image.⟯ 
+⟮c4;<dfn>Narcisstic supply</dfn>⟯ are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
+<dfn>⟮c5;Narcisstic injury⟯</dfn> is ⟮c6;damage⟯ that a narcisst takes ⟮c7;to their self-image.⟯ 
 
 In ⟮c:8;a family with a narcissist⟯, people end up ⟮c:9;being forced into roles⟯ - ⟮c:10;the whole construct⟯ is called the <dfn>⟮c:11;narcissistic family⟯</dfn>. 
 ⟮c:17;The narcisstic family⟯'s ⟮c:12;roles⟯ are ⟮c:13;structural⟯: ⟮c:14;The relationships between roles is what creates the structure, and makes it resilient to change.⟯ 
@@ -4628,7 +4628,7 @@ Simon Bolivars Letter near the end of his life:
   <li>⟮c:5;s:all;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
   <li>⟮c:6;s:all;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
 </ol>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span><br><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯</span><br><div class="sub">
 <a href="https://en.wikiquote.org/wiki/Sim%C3%B3n_Bol%C3%ADvar#Letter_near_the_end_of_his_life_(November_9,_1830)">https://en.wikiquote.org/wiki/Simón_Bolívar#Letter_near_the_end_of_his_life_(November_9,_1830)</a>
 </div>
 
@@ -4934,7 +4934,7 @@ Gettysburg Address (1863)
   <span class="line">⟮c:32;s:all;for the people,⟯</span>
   <span class="line">⟮c:33;s:all;shall not perish from the earth.⟯</span>
   </p>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span><br><div class="sub">
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span><br><div class="sub">
 <div class="sub all-f">there are multiple versions, this is the 'canonical' one, although probably not the one he actually delivered</div>
 </div>
 
@@ -5201,4 +5201,4 @@ Word|Today more commonly|example
 
 
 Something ⟮c:1;phallic⟯ is ⟮c:3;shaped like⟯ or ⟮c:3;otherwise like⟯ a ⟮c:2;penis⟯, something ⟮c:4;yonic⟯ is ⟮c:5;shaped like⟯ or ⟮c:5;otherwise like⟯ a ⟮c:6;vagina⟯ 
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>
+<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯</span>

@@ -4,7 +4,7 @@
 
 NVC = nonviolent communication.
 Violence in NVC is not limited to physical violence.
-NVC was developed by {{c1::Marshall Rosenberg}}
+NVC was developed by ⟮c1;Marshall Rosenberg⟯
 Nonviolent Communication may also be callled Compassionate Communication.
 According to Marshall, NVC is useable in any relationship, from personal to world diplomacy.
 
@@ -220,9 +220,9 @@ One possible grouping of clean language questions (there are others)
 
 ## flower & checking presumptions
 
-{{c4::clean language}} practice exercise: {{c3::flower}} 1. {{c1::One person thinks of a flower for a short while}} -&gt; 2. {{c2::the other person asks clean language questions about it}}
-{{c5::The flower exercise}} tends to reveal that {{c6::people have many different flowers in their head}}.
-{{c7::The fact that people have many different flowers in their head}} should remind us of the fact that {{c8::other people may be operating with}} {{c9::very different metaphors}} and thus {{c9::presumptions}} as we are.
+⟮c4;clean language⟯ practice exercise: ⟮c3;flower⟯ 1. ⟮c1;One person thinks of a flower for a short while⟯ -&gt; 2. ⟮c2;the other person asks clean language questions about it⟯
+⟮c5;The flower exercise⟯ tends to reveal that ⟮c6;people have many different flowers in their head⟯.
+⟮c7;The fact that people have many different flowers in their head⟯ should remind us of the fact that ⟮c8;other people may be operating with⟯ ⟮c9;very different metaphors⟯ and thus ⟮c9;presumptions⟯ as we are.
 The fact that {{c10::people may be operating with different metaphors/presumptions}} may make it benefitial to {{c11::ask clean language questions}} about {{c12::banal things}}, esp. when {{c13::the stakes are high}}.
 
 ## coin metaphor

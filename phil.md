@@ -12,19 +12,19 @@ however, in some cases the meanings of epistemic and epistemological are mixed u
 
 #### ravens
 
-the {{c1::raven paradox}} is a paradox by {{c2::Hempel}} which arises from the question of {{c3::what constitutes evidence for a statement}}
-The issue at the heart of the {{c1::raven paradox}} is that objects that are {{c2::neither black nor ravens}} {{c3::increase the likelyhood}} that {{c4::all ravens are black}}, even though the intuition is that {{c5::these observations are unrelated}}.
+the ⟮c1;raven paradox⟯ is a paradox by ⟮c2;Hempel⟯ which arises from the question of ⟮c3;what constitutes evidence for a statement⟯
+The issue at the heart of the ⟮c1;raven paradox⟯ is that objects that are ⟮c2;neither black nor ravens⟯ ⟮c3;increase the likelyhood⟯ that ⟮c4;all ravens are black⟯, even though the intuition is that ⟮c5;these observations are unrelated⟯.
 Ravens paradox:
-{{c1::All ravens are black}} ( = {{c1::If something is a raven, then it is black}}).
-(via {{c2::contraposition}}) {{c3::If something is not black, then it is not a raven}}.
-{{c4::"My pet raven is black" should count as evidence for "If something is a raven, then it is black"}}
-{{c5::"This green apple is not black, and it is not a raven." should count as evidence for "If something is not black, then it is not a raven."}}
-Since {{c6::"If something is a raven, then it is black" is equivalent to "If something is not black, then it is not a raven."}}, {{c7::"This green apple is not black, and it is not a raven." counts as evicence for "My pet raven is black"}}.
-But {{c8::that's weird (maybe, it might also seem intuitive)}}!
+⟮c1;All ravens are black⟯ ( = ⟮c1;If something is a raven, then it is black⟯).
+(via ⟮c2;contraposition⟯) ⟮c3;If something is not black, then it is not a raven⟯.
+⟮c4;"My pet raven is black" should count as evidence for "If something is a raven, then it is black"⟯
+⟮c5;"This green apple is not black, and it is not a raven." should count as evidence for "If something is not black, then it is not a raven."⟯
+Since ⟮c6;"If something is a raven, then it is black" is equivalent to "If something is not black, then it is not a raven."⟯, ⟮c7;"This green apple is not black, and it is not a raven." counts as evicence for "My pet raven is black"⟯.
+But ⟮c8;that's weird (maybe, it might also seem intuitive)⟯!
 
 ### knowledge
 
-the {{c1::KK}} {{c1::thesis}}/{{c1::principle}} is the principle "{{c2::If you know that P}} {{c3::then you know that you know that P}}"
+the ⟮c1;KK⟯ ⟮c1;thesis⟯/⟮c1;principle⟯ is the principle "⟮c2;If you know that P⟯ ⟮c3;then you know that you know that P⟯"
 Relatively uncontroversially, (propositional/declarative) knowledge is seen to be at least true belief
 
 #### JTB
@@ -42,17 +42,17 @@ The coin toss experiment: We arbitrarily believe that the next coin toss will la
 
 ##### J
 
-{{c3::the regress argument (although this is also a type of argument)}} = {{c4::dialllelus/diallelon}} = {{c5::the (epistemic) regress problem}}
+⟮c3;the regress argument (although this is also a type of argument)⟯ = ⟮c4;dialllelus/diallelon⟯ = ⟮c5;the (epistemic) regress problem⟯
 The diallelus is one of the horns of the agrippa-trilemma, namely the idea that any proposition (premise, etc.) requires further justification and thus ends in an infinite regress.
 Infinitism is the idea that the diallelus horn is acceptable.
-Foundationalism is one of the horns of the agrippa-trilemma, states that {{c4::knowledge}} ultimately {{c3::rests on certain basic beliefs}}, which require no further justification.
-{{c1::Foundationalist}} theories mainly differ in {{c2::what sort of basic beliefs are posited}}
+Foundationalism is one of the horns of the agrippa-trilemma, states that ⟮c4;knowledge⟯ ultimately ⟮c3;rests on certain basic beliefs⟯, which require no further justification.
+⟮c1;Foundationalist⟯ theories mainly differ in ⟮c2;what sort of basic beliefs are posited⟯
 Things that are often posited as basic beliefs for foundationalism are: self-evident/incorrigible beliefs, beliefs from introspection, beliefs aquired via the senses, or an otherwise special kind of belief (such as decartes "clear and distinct" ideas)
-the problem with accepting {{c1::truthes of the senses}} as {{c2::basic beliefs}} is that {{c3::one might be mislead (e.g. descartes' demon)}}
+the problem with accepting ⟮c1;truthes of the senses⟯ as ⟮c2;basic beliefs⟯ is that ⟮c3;one might be mislead (e.g. descartes' demon)⟯
 
 ###### int/ext 
 
-Epistemological {{c1::internalism}}/{{c1::externalism}} is the claim that  {{c3::justification}} for knowledge depends on {{c5::factors that are}} {{c2::internal}}/{{c2::external}} to {{c4::a person}}
+Epistemological ⟮c1;internalism⟯/⟮c1;externalism⟯ is the claim that  ⟮c3;justification⟯ for knowledge depends on ⟮c5;factors that are⟯ ⟮c2;internal⟯/⟮c2;external⟯ to ⟮c4;a person⟯
 
 ##### T
 
@@ -62,8 +62,8 @@ Coherence theory of truth: Truth consists in the coherence of a set of propositi
 ##### B (doxastic attitudes)
 
 doxastic attitudes are attitudes about belief
-The {{c2::doxastic attitude}} of {{c1::belief}} is {{c3::holding a proposition to be true}}
-The {{c2::doxastic attitude}} of {{c1::disbelief}} is {{c3::holding a proposition to be false}}
+The ⟮c2;doxastic attitude⟯ of ⟮c1;belief⟯ is ⟮c3;holding a proposition to be true⟯
+The ⟮c2;doxastic attitude⟯ of ⟮c1;disbelief⟯ is ⟮c3;holding a proposition to be false⟯
 
 ##### gettier
 
@@ -74,7 +74,7 @@ It is doubtful that JTB was in fact the dominant account of knowledge before Get
 
 The kinds of knowledge that are often distinguished are imperative/procedural knowledge, descriptive/declarative/propositional knowledge, and aquaintance knowledge
 imperative knowledge = procedural knowledge
-Synonyms: {{c1::descriptive}} knowlege, {{c2::declarative}} knowledge, {{c3::propositional}} knowledge.
+Synonyms: ⟮c1;descriptive⟯ knowlege, ⟮c2;declarative⟯ knowledge, ⟮c3;propositional⟯ knowledge.
 Descriptive/Declarativ/propositional knowledge|"knowing-that"|The capital of Uzbekistan is Tashkent
 Procedural/imperative knowledge|"knowing-how"|Adding numbers
 
@@ -84,15 +84,15 @@ Aquaintance knowledge is a kind of familiarity with the object.
 
 ### philosophy of science
 
-{{c1::Verificationism}} ≈ {{c2::Verification Principle}} ≈ {{c3::Verfiability criterion of meaning}}
-{{c1::Logical empiricism}} = {{c2::Logical positivism}}
+⟮c1;Verificationism⟯ ≈ ⟮c2;Verification Principle⟯ ≈ ⟮c3;Verfiability criterion of meaning⟯
+⟮c1;Logical empiricism⟯ = ⟮c2;Logical positivism⟯
 Logical positivism/empiricism was a movement popular in the early-mid 20th century made up in part by the berlin circle and vienna circle
 The main position of logical positivism/empiricism is the verfication priciple.
 
 #### standpoint theory
 
 Standpoint theory = standpoint epistemology.
-{{c1::Standpoint theory (or epistemology)}} was founded by {{c2::Sandra Harding}}
+⟮c1;Standpoint theory (or epistemology)⟯ was founded by ⟮c2;Sandra Harding⟯
 Standpoint theory/epistemology makes two claims, the situated knowledge thesis and the inversion thesis
 The inversion thesis = people inhabiting a standpoint (which is, remember, membership in a group with shared poltical consciousness) have privileged (less distorted) epistemological access to certain knowledge
 the situated knowledge thesis = knowledge is socially situated
@@ -117,7 +117,7 @@ If abduction was deductive, it would be equivalent to the fehlschluss affirming 
 Grue and bleen were coined by goodman to exemplify the "new problem of induction"
 Something grue will be green if observed before a fixed time t and blue afterwards
 SOmething bleen will be blue if observed before a fixed time t and green afterwards
-The "{{c2::new problem of induction}}" may be explained like so: Imagine a statement like "{{c1::All emeralds are green}}" and a statement "{{c1::All emeralds are grue.}}" {{c3::Before time t}}, {{c4::both statements}} is/are {{c5::correct}}, but {{c3::after time t}}, {{c4::only the first}} is/are {{c5::correct}}, that is, {{c5::only the first statement}} is/are {{c6::projectable into the future}}. However, {{c7::before time t, we have no way to know this}}. Therefore, {{c8::we have no basis to know which claims are projectable into the future.}}
+The "⟮c2;new problem of induction⟯" may be explained like so: Imagine a statement like "⟮c1;All emeralds are green⟯" and a statement "⟮c1;All emeralds are grue.⟯" ⟮c3;Before time t⟯, ⟮c4;both statements⟯ is/are ⟮c5;correct⟯, but ⟮c3;after time t⟯, ⟮c4;only the first⟯ is/are ⟮c5;correct⟯, that is, ⟮c5;only the first statement⟯ is/are ⟮c6;projectable into the future⟯. However, ⟮c7;before time t, we have no way to know this⟯. Therefore, ⟮c8;we have no basis to know which claims are projectable into the future.⟯
 
 ### perspective
 
@@ -168,7 +168,7 @@ In a strawman argument, the pretense is that the new hypothesis Q is one someone
 
 #### hermeneutical injustice
 
-{{c1::Hermeneutical injustice}} occurs when {{c2::someone's experiences}} are n{{c3::ot well understood}} — by {{c4::themselves}} or by {{c4::others}} — because these {{c2::experiences}} do not {{c5::fit any concepts known to them (or known to others)}}.
+⟮c1;Hermeneutical injustice⟯ occurs when ⟮c2;someone's experiences⟯ are n⟮c3;ot well understood⟯ — by ⟮c4;themselves⟯ or by ⟮c4;others⟯ — because these ⟮c2;experiences⟯ do not ⟮c5;fit any concepts known to them (or known to others)⟯.
 Hermeneutical injustice often occurs to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences.
 A woman that was suffering from sexual harassment before the term was coined or without knowing about the term would have been suffering from hermeneutical injustice
 Willful hermeneutical ignorance was coined by pohlhaus.
@@ -194,7 +194,7 @@ prototypical secondary qualities: color, smell, etc.
 #### mereology
 
 Mereology is the study of parts and wholes.
-A gestalt is a thing that is {{c1::more than the sum of its parts}}
+A gestalt is a thing that is ⟮c1;more than the sum of its parts⟯
 
 #### universals
 
@@ -213,7 +213,7 @@ all forms of dualism claim that for whatever they are about, there are two funda
 
 ##### realism
 
-{{c1::(Metaphysical) realism}} is the view that objects exist independently of our thoughts.
+⟮c1;(Metaphysical) realism⟯ is the view that objects exist independently of our thoughts.
 While subjective idealism is metaphysically anti-realist, objective realis is metaphysically idealist.
 
 #### social ontology
@@ -227,13 +227,13 @@ Asta distinguishes two kinds of social properties: institutional properties and 
 
 ##### response-dependence
 
-response-dependent property formula: {{c1::P is Q}} {{c2::iff}} it {{c3::induces response R}} in {{c4::being B}} in {{c5::context C}}
+response-dependent property formula: ⟮c1;P is Q⟯ ⟮c2;iff⟯ it ⟮c3;induces response R⟯ in ⟮c4;being B⟯ in ⟮c5;context C⟯
 Response-dependent account of the property being-red: A thing is red iff it reduces the experience of looking red in a suitable subject in a suitable context.
 Response-dependent accounts of social properties face the criticism that they can't account for someone being mistaken in applying a property, which is particularly problematic in cases such as misgendering. A response by some has been to chagne "induces response" to "merits response", though it is unclear if this solves anything.
 
 ##### constitutivity
 
-What Ásta calls a constitutive account of social properties is {{c1::searles (early) account of a constitutive rule}}
+What Ásta calls a constitutive account of social properties is ⟮c1;searles (early) account of a constitutive rule⟯
 Constitutive account of a property: X counts as Y in context C.
 Constitutive account of being-a-paperweight: a stone smaller than 10cm in diameter counts as a paperweight in the context of my des
 The constitutive account makes finding out if something has a property a merely epistemic task (was Y X, and was there context C), and X is still Y even if no one ever tries to detect the property.
@@ -255,7 +255,7 @@ To Ásta, a certain conferred property can be conferred via radically different 
 To Ásta, gender is a property where people are tracking widely different base properties to confer the conferred property, but have the (often false) idea that tracking one thing tracks the other things automatically.
 Things that people may be tracking to confer gender: role in societal organization, in presentation of the body, in prepation of food, in biological reproduction, as sexual partner
 Since gender is tracked via a variety of different base properties, people may not always get conferred the same gender. E.g. if sexual availability is being tracked by men, a lesbian woman may not get conferred the social property of woman.
-If one is not eligible to marry, but the person marries one anyway without noticing (thus failing to track the base property), the conferralist account says one will be {{c1::married anyway (since conferral only relies on the perception of the property)}} - mirroring reality, where one would also be treated as married.
+If one is not eligible to marry, but the person marries one anyway without noticing (thus failing to track the base property), the conferralist account says one will be ⟮c1;married anyway (since conferral only relies on the perception of the property)⟯ - mirroring reality, where one would also be treated as married.
 
 ###### power to confer
 
@@ -299,12 +299,12 @@ https://commons.wikimedia.org/wiki/File:Dualism-vs-Monism.png
 
 In the philosphy of mind, physicalism/materialism, idealism and neutral monism all are monistic theories
 idealism claims that only mind and mental contents exist and that matter is reducible to it.
-{{c1::subjective idealism}} is the idea that only minds/mental contents of individual percievers exist.
+⟮c1;subjective idealism⟯ is the idea that only minds/mental contents of individual percievers exist.
 George berkeley was the main proponent of subjective idealism.
 objective idealism is the idea that only one mind exists, which does all the percieving.
-{{c1::Neutral monism}} claims that ultimate reality is neither mental nor physical and both mental and physical states are derived from a neutral entity.
-neutral monism occupies a middle position between {{c1::idealism (only minds and mental contents exist) and Physicalism (only matter exists)}}
-{{c1::materialism/physicalism}} holds that only matter exists and that mental states are reducible to it.
+⟮c1;Neutral monism⟯ claims that ultimate reality is neither mental nor physical and both mental and physical states are derived from a neutral entity.
+neutral monism occupies a middle position between ⟮c1;idealism (only minds and mental contents exist) and Physicalism (only matter exists)⟯
+⟮c1;materialism/physicalism⟯ holds that only matter exists and that mental states are reducible to it.
 
 #### transcendental idealism
 
@@ -314,7 +314,7 @@ Something that exists <b>independent</b> of human senses/perceptions   Noumenon
 
 ## philosophy of language
 
-{{c1::direction of fit}} is how words/speech acts/language and the world conform to each other.
+⟮c1;direction of fit⟯ is how words/speech acts/language and the world conform to each other.
 there are two sets of distinctions in direction of fit: mind-to-world/world-to-mind and word-to-world/world-to-word
 A mental state where the contents of the mental state are trying to model reality has mind-to-world direction of fit.
 Mind-to-world mental states: beliefs
@@ -350,7 +350,7 @@ Ethical hedonism claims that increasing pleasure and decreasing pain determines 
 #### experience machine
 
 Nozick's <cite>Anarchy, State, and Utopia</cite> (1974) contains the famous experience machine thought experiment.
-Nozick's <cite>Anarchy, State, and Utopia</cite> is said to be responding to Rawls' {{c1::A Theory of Justice}} (1971)
+Nozick's <cite>Anarchy, State, and Utopia</cite> is said to be responding to Rawls' ⟮c1;A Theory of Justice⟯ (1971)
 The Experience machine is a thought experiment against ethical hedonism.
 For the experience machine thought experiment, one is offered to enter a machnine, which, while floating within it, would give us pleasurable experiences. We would not know we were in the machine (it would seem like real life to us), and the machine could not fail. 
 Nozick argues one would not want to enter the experience machine, for example because it would limit us to a man-made reality, we want to be a certain sort of person, etc.
@@ -379,7 +379,7 @@ Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt
 
 ### contemporary
 
-{{c2::Hypatia}} is perhaps the {{c3::most famous/important}} journal about {{c1::feminist philosophy}}
+⟮c2;Hypatia⟯ is perhaps the ⟮c3;most famous/important⟯ journal about ⟮c1;feminist philosophy⟯
 
 #### the tuvel affair
 
@@ -394,12 +394,12 @@ spatial turn|include space in analysis
 
 ## intext
 
-Across philosohpical subdisciplines, {{c1::internalism}} / {{c1::externalism}} assert that a particular phenomenon {{c2::has a basis / depends on factors}} that is/are {{c4::internal}}/{{c4::external}} to the {{c3::subject}}
+Across philosohpical subdisciplines, ⟮c1;internalism⟯ / ⟮c1;externalism⟯ assert that a particular phenomenon ⟮c2;has a basis / depends on factors⟯ that is/are ⟮c4;internal⟯/⟮c4;external⟯ to the ⟮c3;subject⟯
 
 ## real
 
-In general, if one is realist about something, one thinks {{c1::That it has an existence beyond the mind of the observer}}
-In general, if one is anti-realist about something, one thinks {{c1::that it does not have an existence beyond the mind of the observer}}
+In general, if one is realist about something, one thinks ⟮c1;That it has an existence beyond the mind of the observer⟯
+In general, if one is anti-realist about something, one thinks ⟮c1;that it does not have an existence beyond the mind of the observer⟯
 
 
 ## resources

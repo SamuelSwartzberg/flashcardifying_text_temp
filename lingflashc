@@ -140,7 +140,7 @@ Information structure mainly consists of the three oppoositions of focus/backgro
 
 ##### Expletives
 
-An {{c1::expletive}} is a {{c2::meaningless}} element put in some position to {{c3::fulfil a grammatical requirement}}. (Can also mean profanity, of course)
+An ⟮c1;expletive⟯ is a ⟮c2;meaningless⟯ element put in some position to ⟮c3;fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
 Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
 E.g. <b>There</b> is someone helping us here. <b>It</b> was raining, wasn't <b>it</b>?
 
@@ -161,7 +161,7 @@ leaf ::= #somestring
 Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
 Generative semantics was a response to generative grammar developed in the 1960s.
 The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
-The proponents of generative semantics in the linguistics wars called themselves {{c1::the four horsemen of the apocalypse}}, amongst which was george lakoff
+The proponents of generative semantics in the linguistics wars called themselves ⟮c1;the four horsemen of the apocalypse⟯, amongst which was george lakoff
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
 ##### constituents
@@ -401,7 +401,7 @@ As CPs generally are, embedded questions are adjuncts of the VP or complements o
 ####### relative clause
 
 A relative clause is a subordinate clause that describes a DP/NP
-A {{c1::relative clause}} is a {{c3::subordinate clause}} which generally {{c2::describes the referent of its head}}.
+A ⟮c1;relative clause⟯ is a ⟮c3;subordinate clause⟯ which generally ⟮c2;describes the referent of its head⟯.
 I met a furry who was passionate.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
@@ -481,7 +481,7 @@ Syntax of cleft sentences in english: it + conjugated form of to be + X + subord
 
 ##### movement
 
-discontinuity is the phenomenon where a constituent is split into two parts {{c1::due to the insertion of an element which is not part of it}}
+discontinuity is the phenomenon where a constituent is split into two parts ⟮c1;due to the insertion of an element which is not part of it⟯
 Syntactic movement is the means by which some theories of syntax address discontinuities.
 Two types of movement often distinguished are phrasal and head movement.
 In phrasal movement, an entire phrase moves.
@@ -604,8 +604,8 @@ Negative polarity = negation
 
 ###### grammatical person
 
-{{c1::Grammatical person}} is personal deixis encoded in language.
-It is frequently realized in {{c4::personal pronouns}} and {{c5::verbs}} (but sometimes also in other places).
+⟮c1;Grammatical person⟯ is personal deixis encoded in language.
+It is frequently realized in ⟮c4;personal pronouns⟯ and ⟮c5;verbs⟯ (but sometimes also in other places).
 Most languages distinguish three forms of grammatical person.
 
 First person|The speaker
@@ -828,8 +828,8 @@ Clipping: Coronavirus -> rona, refridgerator -> fridge, influenza -> flu
 Clipping is also different from back-formation, which proceeds by (pseudo-)morpheme rather than segment, and where the new word may differ in sense and word class from its source.
 
 A hybrid word is a morphological derivation that derives from at least two different languages. 
-The most common {{c3::hybrid words}} in {{c2::english}} consist of {{c1::one latin-derived and one greek-derived part}}
-{{c2::asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)}} are examples for {{c1::hybrid words}}
+The most common ⟮c3;hybrid words⟯ in ⟮c2;english⟯ consist of ⟮c1;one latin-derived and one greek-derived part⟯
+⟮c2;asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)⟯ are examples for ⟮c1;hybrid words⟯
 
 ###### nonmorphological
 
@@ -863,7 +863,7 @@ In english, using ablauts to create preterite verbs is unproductive, while using
 Inflection is modifying a lexeme to reflect one or more gramattical features, thus creating a new word.
 Inflection is commonly done via affixation or apophony, but there are also other possible modifications.
 An invariable/invariant word is a word that cannot be inflected.
-Inflection can be subdivided into {{c1::Declension and conjugation}}
+Inflection can be subdivided into ⟮c1;Declension and conjugation⟯
 Name|Inflection of|
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
 ⟮c:3;Declension⟯|⟮c:4;Nouns or Adjectives⟯
@@ -875,7 +875,7 @@ Agreement is inflection caused by other words (or similar) in the sentence.
 
 ###### Inflectional paradigm
 
-An <dfn>inflectional paradigm</dfn> is the complete set of forms that a class of words can assume {{c1::when inflecting}}
+An <dfn>inflectional paradigm</dfn> is the complete set of forms that a class of words can assume ⟮c1;when inflecting⟯
 An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
 A lexeme that lacks some of the forms of its inflectional paradigm is defective.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
@@ -890,11 +890,11 @@ A lexeme is an abstract unit that underlies all its inflectional variants.
 A lexeme can be instantiated in different inflectional variants = words.
 By convention, lexemes are represented in all caps.
 Any lexeme belongs to a particular syntactic category/word class.
-A {{c1::lemma}} is the form that is chosen by {{c2::convention}} to represent the {{c3::lexeme}}.
-A lexical item/unit is like a lexeme, but can be {{c1::multiple words long}}
+A ⟮c1;lemma⟯ is the form that is chosen by ⟮c2;convention⟯ to represent the ⟮c3;lexeme⟯.
+A lexical item/unit is like a lexeme, but can be ⟮c1;multiple words long⟯
 Lexical item and lexical unit are synonyms.
 
-The lexis of a language is, depending on your definition, either a subset (of words) grouped by a specific linguistic criteria or {{c1::the complete set of all possible words in a language}}
+The lexis of a language is, depending on your definition, either a subset (of words) grouped by a specific linguistic criteria or ⟮c1;the complete set of all possible words in a language⟯
 Lexicon seems to be a synonym of lexis.
 
 ##### stem, base, root
@@ -929,14 +929,14 @@ infix|affix inserted into a word stem
 
 Reduplication is the process in which a morpheme is repeated within a single word
 
-A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by {{c4::back-formation}}, which still {{c5::contains some of the original meaning of the word}}.
-{{c1::-gate, -cation, -tard, -verse}} are examples of {{c2::libfixes}}
+A ⟮c1;libfix⟯ is a ⟮c2;productive⟯ ⟮c3;bound morpheme affix⟯ created by ⟮c4;back-formation⟯, which still ⟮c5;contains some of the original meaning of the word⟯.
+⟮c1;-gate, -cation, -tard, -verse⟯ are examples of ⟮c2;libfixes⟯
 
 ###### clitics
 
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
 The thing that a clitic attaches to is its host.
-When something is being attached as a clitic, it is {{c1::cliticising}}
+When something is being attached as a clitic, it is ⟮c1;cliticising⟯
 ```lang=text;
 It<mark>'s</mark> a boy!
 I<mark>'m</mark> terribly sorry.
@@ -968,7 +968,7 @@ Japanese endocentric compounds will generally display 連濁 if phonotactically 
 In english, ⟮c:1;compounds⟯ can be ⟮c:2;open⟯ = ⟮c:3;containing a space⟯, e.g. ⟮c:3;real estate⟯, ⟮c:2;closed⟯ = ⟮c:3;not containing a space⟯, e.g. ⟮c:3;waistcoat, bookstore⟯, or ⟮c:2;hyphenated⟯ = ⟮c:3;containing a hyphen⟯, e.g. ⟮c:3;long-term⟯ 
 In english, ⟮c:4;compounds⟯ generally ⟮c:5;progress from open to closed⟯, sometimes ⟮c:6;with a hyphenated form as an interim phase.⟯ 
 
-An example of {{c2::the typical progression of english compounds}} is "T{{c1::o day" -&gt; "to-day" -&gt; "today"}}
+An example of ⟮c2;the typical progression of english compounds⟯ is "T⟮c1;o day" -&gt; "to-day" -&gt; "today"⟯
 
 ### types of words
 
@@ -1386,7 +1386,7 @@ A mora is a unit of equal timing.
 prosody is concerned with elements of speech that are larger than the segment ≈ phoneme
 Suprasegmental phonology is also called prosody.
 prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
-{{c1::Prosody/Suprasegmental phonology}} contains phenomena such as Intonation, Tempo, Stress, Rythm amongst others
+⟮c1;Prosody/Suprasegmental phonology⟯ contains phenomena such as Intonation, Tempo, Stress, Rythm amongst others
 Many phenomena of prosody have to do with syllables.
 The basic rythmic unit of indo-european poetry is a foot.
 In the IPA, | and ‖ both mark prosodic breaks.
@@ -1463,19 +1463,19 @@ In linguistics, intonation is variation in spoken pitch when used, not for disti
 What's the IPA diacritic for this?
 </div><div class="c1-f">
 What phenomenon is this IPA diacritic for?
-</div><br>{{c1::mid tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::<span class="ipa">ŋ̄ ē</span> or <span class="ipa">e˧</span>}}
-{{c1::low tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ̀ è] or [e˨]}}
-{{c1::high tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ́ é] or [e˦]}}
-{{c1::global rise (intonation, not tone) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::↗︎◌}}
-{{c1::global fall (intonation, not tone) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::↘︎◌}}
-{{c1::extra low/bottom tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::[ŋ̏ ȅ] or [e˩]}}
-{{c1::extra high/top tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::<span class="ipa">ŋ̋ e̋ </span> or<span class="ipa">e˥</span>}}
-{{c1::Upstep (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ꜛ◌ or ꜞ◌}}
-{{c1::Generic rising tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ŋ̌ ě}}
-{{c1::Generic falling tone (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ŋ̂ ê}}
-{{c1::Downstep (not intonation) (suprasegmental)}}  <span class="divider">&lt;-&gt;</span> {{c2::ꜜ◌ or ꜝ◌}}
-Why does it make sense to have a downstep at the end of a word? <span class="divider">-&gt;</span> {{c1::Because any attached morphemes will inherit the downstep}}
-What does the downstep arrow apply to? <span class="divider">-&gt;</span> {{c1::Everything after it}}<br><div class="sub">
+</div><br>⟮c1;mid tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;<span class="ipa">ŋ̄ ē</span> or <span class="ipa">e˧</span>⟯
+⟮c1;low tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ̀ è] or [e˨]⟯
+⟮c1;high tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ́ é] or [e˦]⟯
+⟮c1;global rise (intonation, not tone) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;↗︎◌⟯
+⟮c1;global fall (intonation, not tone) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;↘︎◌⟯
+⟮c1;extra low/bottom tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ̏ ȅ] or [e˩]⟯
+⟮c1;extra high/top tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;<span class="ipa">ŋ̋ e̋ </span> or<span class="ipa">e˥</span>⟯
+⟮c1;Upstep (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ꜛ◌ or ꜞ◌⟯
+⟮c1;Generic rising tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ŋ̌ ě⟯
+⟮c1;Generic falling tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ŋ̂ ê⟯
+⟮c1;Downstep (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ꜜ◌ or ꜝ◌⟯
+Why does it make sense to have a downstep at the end of a word? <span class="divider">-&gt;</span> ⟮c1;Because any attached morphemes will inherit the downstep⟯
+What does the downstep arrow apply to? <span class="divider">-&gt;</span> ⟮c1;Everything after it⟯<br><div class="sub">
 <div class="sub c2-b c1-f">
 lows are left
 </div>
@@ -1871,7 +1871,7 @@ Not only are semivowels not syllabic, they are are also closer/a type of approxi
 
 ####### vowels
 
-Vowels are classified {{c4::by the IPA}} by {{c1::tongue height}}, {{c2::tongue backness}}, and {{c3::lip rounding}}.
+Vowels are classified ⟮c4;by the IPA⟯ by ⟮c1;tongue height⟯, ⟮c2;tongue backness⟯, and ⟮c3;lip rounding⟯.
 The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
 The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
 r-colored vowel = rhotic vowel = rhotacized vowel
@@ -2115,7 +2115,7 @@ Manner ↓
 
 <tr>
 <th scope="row">Plosive</th>
-<td>{{c1::p}}|{{c2::b}}|||span=3;{{c3::t}}|span=3;{{c4::d}}|{{c5::ʈ}}|{{c6::ɖ}}|{{c7::c}}|{{c8::ɟ}}|{{c9::k}}|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}|class=no;|{{c14::ʔ}}|class=no;
+<td>⟮c1;p⟯|⟮c2;b⟯|||span=3;⟮c3;t⟯|span=3;⟮c4;d⟯|⟮c5;ʈ⟯|⟮c6;ɖ⟯|⟮c7;c⟯|⟮c8;ɟ⟯|⟮c9;k⟯|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}|class=no;|{{c14::ʔ}}|class=no;
 
 <tr>
 <th scope="row">Nasal</th>
@@ -2196,7 +2196,7 @@ Retracted Tongue Root   <span class="ipa">◌̙</span>
 If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
 For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while <span class='ipa'>◌̆</span> indicates an extra-short vowel.
 For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
-Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are {{c1::happy}} <span class="ipa">◌̆</span>
+Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮c1;happy⟯ <span class="ipa">◌̆</span>
 
 ### Semantics
 
@@ -2251,8 +2251,8 @@ THEME|undergoes action, does not change state
 A hyponym is a more specific term than its hypernym.
 A hypernym ⊃ a hyponym 
 <div class="onion-box"><span>⟮c:2;hypernym⟯</span><div class="onion-box"><span>⟮c:;hyponym⟯</span></div></div>
-“Musical instrument” is a {{c1::hyper(o)nym}} of “guitar” because a guitar is a musical instrument.
-A hyponym that is the same word as its hypernym is {{c1::An autohyponym}}
+“Musical instrument” is a ⟮c1;hyper(o)nym⟯ of “guitar” because a guitar is a musical instrument.
+A hyponym that is the same word as its hypernym is ⟮c1;An autohyponym⟯
 A hypernym meant to be a hypernym for a specific set of terms|a cover term
 A hypernym may also be called an umbrella term or a blanket term.
 
@@ -2282,12 +2282,12 @@ The idea of speech acts was popularized by JL Austin in How to Do Things with Wo
 
 ##### Austins orig distinction
 
-The original distincition Austin made before he arrived at speech acts was between {{c1::constative and performative utterances}} utterances.
+The original distincition Austin made before he arrived at speech acts was between ⟮c1;constative and performative utterances⟯ utterances.
 constative utterances (=constatives)|have a truth value, state a fact
 performative utterances (=performatives)|do something else besides state a fact
 In austins original distinction, the hereby criterion was used to determine if something was a performative.
-An utterance is performative according to the hereby-criterion, if inserting the word hereby into the sentence {{c1::Basically preserves the meaning}}
-<q>I promise to pay you 50$ tomorrow.</q> is performative? {{c1::<q>I hereby promise to pay you 50$ tomorrow.</q> -&gt; works -&gt; performative}}
+An utterance is performative according to the hereby-criterion, if inserting the word hereby into the sentence ⟮c1;Basically preserves the meaning⟯
+<q>I promise to pay you 50$ tomorrow.</q> is performative? ⟮c1;<q>I hereby promise to pay you 50$ tomorrow.</q> -&gt; works -&gt; performative⟯
 <q>The cat is on the mat.</q> is not performative?  <q>The cat is hereby on the mat.</q> -&gt; has changed the meaning -&gt; not performative (constative)
 Problematically for austins original distinction, a sentence can both performative and constative.
 
@@ -2318,7 +2318,7 @@ regulating social relationships   behabitives|toasting, apologizing
 
 #### implicature
 
-in the linguistic field of pragmatics, an {{c3::inference}} (generally an {{c3::implicature}}) is said to be {{c1::defeasible}} or {{c2::cancellable}} if {{c4::it can be made to disappear (e.g. by saying something contradictory}}.
+in the linguistic field of pragmatics, an ⟮c3;inference⟯ (generally an ⟮c3;implicature⟯) is said to be ⟮c1;defeasible⟯ or ⟮c2;cancellable⟯ if ⟮c4;it can be made to disappear (e.g. by saying something contradictory⟯.
 
 ##### gricean
 
@@ -2347,11 +2347,11 @@ Grice does admit that there might be other maxims (e.g. politeness) besides his 
 
 ###### quantity
 
-A {{c1::quantity implicature}} is often seen as a synonym with {{c2::scalar implicature}}, but may more properly be {{c3::a blanket/umbrella term}} for {{c4::all implicatures generated using the maxim of quantity}}, including {{c5::clausal implicatures}}.
+A ⟮c1;quantity implicature⟯ is often seen as a synonym with ⟮c2;scalar implicature⟯, but may more properly be ⟮c3;a blanket/umbrella term⟯ for ⟮c4;all implicatures generated using the maxim of quantity⟯, including ⟮c5;clausal implicatures⟯.
 A scalar implicature is where a less informative statement implicates the deinial of a more informative statement.
 Scalar implicatuers are explained by grice via the violation of the maxim of quantity, and thus the supposion of the implicature is necessary to make it consistent with the CP.
 
-In the context of {{c1::pragmatics}}, {{c2::Implicational scale}} has a somewhat different meaning, referring to {{c3::the scales}} from {{c4::weaker to stronger}} statements that are used in {{c5::quantity implicatures}}
+In the context of ⟮c1;pragmatics⟯, ⟮c2;Implicational scale⟯ has a somewhat different meaning, referring to ⟮c3;the scales⟯ from ⟮c4;weaker to stronger⟯ statements that are used in ⟮c5;quantity implicatures⟯
 ```lang=text;
 {all, most, many, some}
 {always, often, sometimes}
@@ -2363,7 +2363,7 @@ In the context of {{c1::pragmatics}}, {{c2::Implicational scale}} has a somewhat
 
 ##### Deixis
 
-What is a word/phrase/inflection that depends on its context to be (fully) understood is called  {{c1::deictic}}
+What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮c1;deictic⟯
 Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
 
 Spatial deixis often as two or three distances, rdepending on the language.
@@ -2411,7 +2411,7 @@ Lexicography is the study of lexemes and lexica (collections of lexemes)
 
 Practical lexicography is compiling, writing and editing dictionaries.
 
-The headword is the word {{c1::under which dictionary entries appear}}
+The headword is the word ⟮c1;under which dictionary entries appear⟯
 The form of a lexeme used as a headword is usually its lemma.
 Sometimes lemma and headword are used synonymously.
 
@@ -2439,8 +2439,8 @@ Onomastics is the study of proper names.
 
 ##### epithets
 
-an epithet is a word/phrase that accompanies a name {{c1::as a matter of course}}
-Something that replaces a name can sometimes also be called an {{c1::epithet}}
+an epithet is a word/phrase that accompanies a name ⟮c1;as a matter of course⟯
+Something that replaces a name can sometimes also be called an ⟮c1;epithet⟯
 Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
 
 ##### misc.
@@ -2472,24 +2472,24 @@ time|<span class="conceptual-metaphor">time is money / a limited resource / a va
 Conceptual metaphor is said to be systematic because the structure of the source domain carries over into the target domain
 For Lakoff and Johnson, if we had different conceptual metaphors, our thoughts and the world  would be radically different
 For Lakoff and Johnson, if we instead had the conceptual metaphor <span class="conceptual-metaphor">Argument is a dance</span>, what would be different?  fundamentally, the experiences and outcomes of arguments
-For Lakoff and Johnson, if we visited a world that had radically different conceptual metaphors e.g. for arguing, we would look at them and... <span class="divider">-&gt;</span> {{c1::would not even recognize them as arguing}}
-For Lakoff and Johnson, of the two things in a conceptual metaphor, {{c1::one thing is <b>understood</b>&nbsp;in the terms of another}}
-For a mapping, what does it consist of, internally (waht makes up the thing that ends up being TARGET IS SOURCE)? <span class="divider">-&gt;</span> {{c1::a set of correspondences (the structure)}}
-For structural metaphors, in how far is one structured in terms of the other? <span class="divider">-&gt;</span> {{c1::only partially}}
-For structural metaphors, the fact that one thing only partially structures the other means that structural metaphor sneakily does what? <span class="divider">-&gt;</span> {{c1::hides part of the thing being structured}}
-For structural metaphors, what can one do, beside use the conventional structurings? <span class="divider">-&gt;</span> {{c1::extend the structure more fancifully}}
-For structural metaphors, what would be the case if one thing would be completely structured in terms of the other? <span class="divider">-&gt;</span> {{c1::they would just be the same}}
-In Metaphors We Live By, Lakoff and Johnson argue that our ordinary conceptual system is {{c1::fundamentally metaphorical}}
-The argument that Lakoff and Johnson make is based on {{c1::linguistic evidence, but is about how we think}}
-Conceptual metaphors are generally written  in {{c1::small caps}}
-{{c1::Your claims are idefensible, he attacked every weak point, I won on points, I tried to best to hold my ground, but I lost}} are all examples of the fact that argument is structured by the metaphor {{c2::<span class="conceptual-metaphor">Argument is war</span>}}
-In the metaphor <span class="conceptual-metaphor">love is is a journey</span>, what might some of the correspondences that make up this mapping be? <span class="divider">-&gt;</span> {{c1::The lovers correspond to travelers, the love relationship corresponds to the vehicle, the lovers common goals correspond to their common destinations on the journey...}}
-Structural metaphors are structured internally, but they are also structured how? <span class="divider">-&gt;</span> {{c1::in a system with other structureal metaphors (via entailment, etc.)}}
-The book Metaphors We Live By claims what by saying we live by them? <span class="divider">-&gt;</span> {{c1::Fundamentally, our life is structured by metaphor}}
-The fact that we can dress ideas up in fancy clothes, but this is not something we would conventionally say, proves that structural metaphors are what? <span class="divider">-&gt;</span> {{c1::extensible}}
-What does the fact that in an argument we can lose sight of the part of the argument where we're giving a valuable resource show about the structuring of structural metaphor? <span class="divider">-&gt;</span> {{c1::that its only partial (and thus hides things)}}
-What langauge did Lakoff and Johnson study for Metaphors We Live By? <span class="divider">-&gt;</span> {{c1::english}}
-for <span class="conceptual-metaphor">love is a journey</span>, the source domain is {{c1::journey}}, the target domain is love
+For Lakoff and Johnson, if we visited a world that had radically different conceptual metaphors e.g. for arguing, we would look at them and... <span class="divider">-&gt;</span> ⟮c1;would not even recognize them as arguing⟯
+For Lakoff and Johnson, of the two things in a conceptual metaphor, ⟮c1;one thing is <b>understood</b>&nbsp;in the terms of another⟯
+For a mapping, what does it consist of, internally (waht makes up the thing that ends up being TARGET IS SOURCE)? <span class="divider">-&gt;</span> ⟮c1;a set of correspondences (the structure)⟯
+For structural metaphors, in how far is one structured in terms of the other? <span class="divider">-&gt;</span> ⟮c1;only partially⟯
+For structural metaphors, the fact that one thing only partially structures the other means that structural metaphor sneakily does what? <span class="divider">-&gt;</span> ⟮c1;hides part of the thing being structured⟯
+For structural metaphors, what can one do, beside use the conventional structurings? <span class="divider">-&gt;</span> ⟮c1;extend the structure more fancifully⟯
+For structural metaphors, what would be the case if one thing would be completely structured in terms of the other? <span class="divider">-&gt;</span> ⟮c1;they would just be the same⟯
+In Metaphors We Live By, Lakoff and Johnson argue that our ordinary conceptual system is ⟮c1;fundamentally metaphorical⟯
+The argument that Lakoff and Johnson make is based on ⟮c1;linguistic evidence, but is about how we think⟯
+Conceptual metaphors are generally written  in ⟮c1;small caps⟯
+⟮c1;Your claims are idefensible, he attacked every weak point, I won on points, I tried to best to hold my ground, but I lost⟯ are all examples of the fact that argument is structured by the metaphor ⟮c2;<span class="conceptual-metaphor">Argument is war</span>⟯
+In the metaphor <span class="conceptual-metaphor">love is is a journey</span>, what might some of the correspondences that make up this mapping be? <span class="divider">-&gt;</span> ⟮c1;The lovers correspond to travelers, the love relationship corresponds to the vehicle, the lovers common goals correspond to their common destinations on the journey...⟯
+Structural metaphors are structured internally, but they are also structured how? <span class="divider">-&gt;</span> ⟮c1;in a system with other structureal metaphors (via entailment, etc.)⟯
+The book Metaphors We Live By claims what by saying we live by them? <span class="divider">-&gt;</span> ⟮c1;Fundamentally, our life is structured by metaphor⟯
+The fact that we can dress ideas up in fancy clothes, but this is not something we would conventionally say, proves that structural metaphors are what? <span class="divider">-&gt;</span> ⟮c1;extensible⟯
+What does the fact that in an argument we can lose sight of the part of the argument where we're giving a valuable resource show about the structuring of structural metaphor? <span class="divider">-&gt;</span> ⟮c1;that its only partial (and thus hides things)⟯
+What langauge did Lakoff and Johnson study for Metaphors We Live By? <span class="divider">-&gt;</span> ⟮c1;english⟯
+for <span class="conceptual-metaphor">love is a journey</span>, the source domain is ⟮c1;journey⟯, the target domain is love
 ```
 I don’t have the time to give you. 
 How do you spend your time these days? 
@@ -2520,10 +2520,10 @@ In semantics, mathematical logic and related disciplines, the principle of compo
 Phraseology is the study of phrasemes and related phenomena.
 Phrasemes are multi-word expressions of which their meaning is not completely deducable from their parts, i.e. that violate the principle of compositionality to a greater or lesser degree.
 
-A {{c1::snowclone}} is a {{c2::cliche}} {{c3::phrase}} with {{c4::one or more blanks}} that {{c5::keeps getting}} reused.
-{{c1::&nbsp;In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful}} are examples of {{c2::snowclones}}
+A ⟮c1;snowclone⟯ is a ⟮c2;cliche⟯ ⟮c3;phrase⟯ with ⟮c4;one or more blanks⟯ that ⟮c5;keeps getting⟯ reused.
+⟮c1;&nbsp;In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful⟯ are examples of ⟮c2;snowclones⟯
 
-A chunk is a sequence of two or more words that cooccur in language with high frequency but {{c1::are not idiomatic}} (this is more language-learning related terminology, in contrast to collocation)
+A chunk is a sequence of two or more words that cooccur in language with high frequency but ⟮c1;are not idiomatic⟯ (this is more language-learning related terminology, in contrast to collocation)
 
 
 #### idioms
@@ -2549,7 +2549,7 @@ Serifs are these little bits sticking out of some letters.
 
 [[[<img src="sm_tmprdkiv_z1.jpg">]]]
 One major axis along which font families are distinguished is if they have serifs or not.
-{{c1::installing custom font families}} is possible on {{c2::most desktop os}}, but not on {{c3::android}} (and ofc not on {{c4::ios}})
+⟮c1;installing custom font families⟯ is possible on ⟮c2;most desktop os⟯, but not on ⟮c3;android⟯ (and ofc not on ⟮c4;ios⟯)
 A monospaced font where all characters occupy the same horizontal space.
 A font that is not monospaced is proportional-width.
 
@@ -2797,8 +2797,8 @@ in RtL media, the second page will be a right page, and hence the cover is a lef
 
 ####### twosided
 
-In latex, to {{c3::optimize a document for being two-sided}} (e.g. as in a {{c3::book}}), include {{c2::twoside}} in {{c1::the optional argument [] of documentclass}}
-In latex, to {{c3::make chapters etc. always open on a right page}}&nbsp; include {{c2::openright}} in {{c1::the options [] of documentclass}}
+In latex, to ⟮c3;optimize a document for being two-sided⟯ (e.g. as in a ⟮c3;book⟯), include ⟮c2;twoside⟯ in ⟮c1;the optional argument [] of documentclass⟯
+In latex, to ⟮c3;make chapters etc. always open on a right page⟯&nbsp; include ⟮c2;openright⟯ in ⟮c1;the options [] of documentclass⟯
 
 #### graphemes & graphs
 
@@ -2914,7 +2914,7 @@ A writing system is a system to represent language visually.
 A writing system uses an inventory of characters.
 A writing system may also be known as a script.
 An orthography is a set of rules for writing a language.
-Digraphia is the situation of having more than one writing system for {{c1::the same language}}
+Digraphia is the situation of having more than one writing system for ⟮c1;the same language⟯
 
 Orthographic depth is the degree of deviation from the ideal correspondence between one character and one referred item (morpheme, syllable, phoneme...)
 A phonemic orthography is the special case of an alphabet specifically having no or little orthographic depth.
@@ -2987,13 +2987,13 @@ Historical linguistics is mainly interested in language change.
 ### language geneaology
 
 * marks a form that is reconstructed (i.e. not attested)
-A Sprachbund is a set of geographically contiguous languages {{c1::that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness}}
+A Sprachbund is a set of geographically contiguous languages ⟮c1;that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness⟯
 A sprachbund may also be called a linguistic area.
 The languages in a sprachbund may or may not be related (but if they are related, the similarity must be stronger than the relatedness would predict)
 SAE (Standard Average European) is a sprachbund of extensive common features in europe.
 euroversal is a feature that exists in (almost) all SAE languages
 Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
-An {{c1::areal feature}} is an element that is shared by languages in {{c2::a geographic area}} (but not explainable by {{c3::a common ancestor language}})
+An ⟮c1;areal feature⟯ is an element that is shared by languages in ⟮c2;a geographic area⟯ (but not explainable by ⟮c3;a common ancestor language⟯)
 
 #### cognates
 
@@ -3005,7 +3005,7 @@ Cognates in the same language are called doublets.
 #### comparative linguistics
 
 Comparative linguistics is a branch of historical linguistics that compares language to establish how they are related
-Mutualll intelligibility is whether two speakers of different lects can understand each other {{c1::Without prior familiarity / special effort}}
+Mutualll intelligibility is whether two speakers of different lects can understand each other ⟮c1;Without prior familiarity / special effort⟯
 The higher th elinguistic distance, the lower the mutual intelligibility.
 
 #### language families
@@ -3013,14 +3013,14 @@ The higher th elinguistic distance, the lower the mutual intelligibility.
 ##### IE
 
 Indo-European languages descend from Proto-Indo-European (PIE)
-{{c1::Indo-European languages}} can be most basically divided into {{c2::centum languages}} and {{c3::satem languages}}.
-The {{c1::Germanic languages}} are subdivided into {{c2::east germanic languages}}, {{c3::north germanic languages}}, and {{c4::west germanic languages}}.
+⟮c1;Indo-European languages⟯ can be most basically divided into ⟮c2;centum languages⟯ and ⟮c3;satem languages⟯.
+The ⟮c1;Germanic languages⟯ are subdivided into ⟮c2;east germanic languages⟯, ⟮c3;north germanic languages⟯, and ⟮c4;west germanic languages⟯.
 
 ##### Altaic
 
 Most linguists consider altaic to be a sprachbund, some consider it to be a language family.
-The grouping of {{c4::Altaic}} languages (whether as a sprachbund or a language family) usually includes at least {{c1::Turkic}}, {{c2::Mongolic}}, and {{c3::Tongusic}} (this smaller grouping is sometimes called '{{c5::Micro}}-{{c4::altaic}}')
-{{c3::Macro}}-altaic as a ({c4::very fringe}}) hypothesis also includes {{c1::japonic}} and {{c2::koreanic}}
+The grouping of ⟮c4;Altaic⟯ languages (whether as a sprachbund or a language family) usually includes at least ⟮c1;Turkic⟯, ⟮c2;Mongolic⟯, and ⟮c3;Tongusic⟯ (this smaller grouping is sometimes called '⟮c5;Micro⟯-⟮c4;altaic⟯')
+⟮c3;Macro⟯-altaic as a ({c4::very fringe}}) hypothesis also includes ⟮c1;japonic⟯ and ⟮c2;koreanic⟯
 
 ### language change
 
@@ -3035,28 +3035,28 @@ Forms of sound change:
 #### semantic change
 
 Semantic change is the diachronic chanage of meanings of a given lexical item over time.
-there are {{c2::many different types}} of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}} (the exact amount of which depends on {{c7::which classification scheme you follow}}).
-Common types of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} are {{c3::semantic narrowing}} (also called {{c4::specialization}}), {{c5::semantic widening}} (also called {{c6::generalization}}), {{c8::amelioration/elevation}}, {{c9::pejoration}}
+there are ⟮c2;many different types⟯ of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ (= ⟮c1;the change of the meanings of words over time⟯ (the exact amount of which depends on ⟮c7;which classification scheme you follow⟯).
+Common types of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ are ⟮c3;semantic narrowing⟯ (also called ⟮c4;specialization⟯), ⟮c5;semantic widening⟯ (also called ⟮c6;generalization⟯), ⟮c8;amelioration/elevation⟯, ⟮c9;pejoration⟯
 
 ##### types
 
-{{c2::pejoration}}/{{c4::degeneration}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more negative in meaning}}
-{{c1::villain}} used to mean {{c2::serf, peasant}} - this is an example of {{c3::perjoration/degeneration}}
-{{c1::knave}} used to mean {{c2::boy, child, servant}} - this is an example of {{c3::perjoration/degeneration}}
+⟮c2;pejoration⟯/⟮c4;degeneration⟯ is a form of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ (= ⟮c1;the change of the meanings of words over time⟯) where ⟮c3;a word becomes more negative in meaning⟯
+⟮c1;villain⟯ used to mean ⟮c2;serf, peasant⟯ - this is an example of ⟮c3;perjoration/degeneration⟯
+⟮c1;knave⟯ used to mean ⟮c2;boy, child, servant⟯ - this is an example of ⟮c3;perjoration/degeneration⟯
 
-{{c2::amelioration}}/{{c4::elevation}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more positive in meaning}}
-{{c1::pretty}} used to mean {{c2::tricky, crafty, sly}} - this is an example of {{c3::amelioration/elevation}}
-{{c1::Knight}} used to mean {{c2::boy, servant}} (thus cognate with german {{c2::knecht}})- this is an example of {{c3::amelioration/elevation}}
+⟮c2;amelioration⟯/⟮c4;elevation⟯ is a form of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ (= ⟮c1;the change of the meanings of words over time⟯) where ⟮c3;a word becomes more positive in meaning⟯
+⟮c1;pretty⟯ used to mean ⟮c2;tricky, crafty, sly⟯ - this is an example of ⟮c3;amelioration/elevation⟯
+⟮c1;Knight⟯ used to mean ⟮c2;boy, servant⟯ (thus cognate with german ⟮c2;knecht⟯)- this is an example of ⟮c3;amelioration/elevation⟯
 
-{{c2::Semantic widening}} aka {{c2::generalization}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes more general/less narrow in its meaning}} (often, {{c4::it takes on a meaning of one of its hypernyms}})
-{{c1::bird}} used to mean {{c2::young bird, chick}} - this is an example of {{c3::semantic widening / generalization}}
-{{c1::assassin}} used to mean {{c2::a member of the assassins chilling in the holy land}} - this is an example of {{c3::semantic widening / generalization}}
+⟮c2;Semantic widening⟯ aka ⟮c2;generalization⟯ is a form of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ (= ⟮c1;the change of the meanings of words over time⟯) where ⟮c3;a word becomes more general/less narrow in its meaning⟯ (often, ⟮c4;it takes on a meaning of one of its hypernyms⟯)
+⟮c1;bird⟯ used to mean ⟮c2;young bird, chick⟯ - this is an example of ⟮c3;semantic widening / generalization⟯
+⟮c1;assassin⟯ used to mean ⟮c2;a member of the assassins chilling in the holy land⟯ - this is an example of ⟮c3;semantic widening / generalization⟯
 
-{{c2::Semantic narrowing}} aka {{c2::specialization}} is a form of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} (= {{c1::the change of the meanings of words over time}}) where {{c3::a word becomes less general/more narrow in its meaning}} (often, {{c4::it takes on a meaning of one of its hyponyms}})
-{{c1::to starve}} used to mean {{c2::to die}} (and thus is cognate with german {{c2::sterben}}) - this is an example of {{c3::semantic narrowing / specialization}}
-{{c1::Wife}} used to primarily mean {{c2::woman (of any sort)}} - this is an example of {{c3::semantic narrowing / specialization}}
-{{c1::Meat}} used to refer to {{c2::any food}} - this is an example of {{c3::semantic narrowing / specialization}}
-{{c1::Deer}} used to refer to {{c2::all (esp. quadrupedal mammals) animals}} (and thus is cognate with german {{c2::Tier}}) - this is an example of {{c3::semantic narrowing / specialization}}
+⟮c2;Semantic narrowing⟯ aka ⟮c2;specialization⟯ is a form of ⟮c1;Semantic⟯ ⟮c1;change⟯/⟮c1;shift⟯/⟮c1;drift⟯ (= ⟮c1;the change of the meanings of words over time⟯) where ⟮c3;a word becomes less general/more narrow in its meaning⟯ (often, ⟮c4;it takes on a meaning of one of its hyponyms⟯)
+⟮c1;to starve⟯ used to mean ⟮c2;to die⟯ (and thus is cognate with german ⟮c2;sterben⟯) - this is an example of ⟮c3;semantic narrowing / specialization⟯
+⟮c1;Wife⟯ used to primarily mean ⟮c2;woman (of any sort)⟯ - this is an example of ⟮c3;semantic narrowing / specialization⟯
+⟮c1;Meat⟯ used to refer to ⟮c2;any food⟯ - this is an example of ⟮c3;semantic narrowing / specialization⟯
+⟮c1;Deer⟯ used to refer to ⟮c2;all (esp. quadrupedal mammals) animals⟯ (and thus is cognate with german ⟮c2;Tier⟯) - this is an example of ⟮c3;semantic narrowing / specialization⟯
 
 
 
@@ -3064,12 +3064,12 @@ Common types of {{c1::Semantic}} {{c1::change}}/{{c1::shift}}/{{c1::drift}} are 
 
 Language contact is when two or more languages influence each other.
 The field that studies language contact is contact linguistics.
-Language convergence is a type of linguistic change in which languages come to structurally resemble one another {{c1::due to prolonged language contact}}
+Language convergence is a type of linguistic change in which languages come to structurally resemble one another ⟮c1;due to prolonged language contact⟯
 In a language shift, a speech community switches to a different language.
 
 ##### dialects
 
-Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards {{c1::(more similarity with) the standard language}}
+Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards ⟮c1;(more similarity with) the standard language⟯
 Since the industrial revolution, dialect levelling has been ocurring to most languages.
 an aphorism sometimes applied to indicate that the difference between language and "mere dialect" is the embrace by state power: A language is a dialect with an army and navy
 
@@ -3081,22 +3081,22 @@ borrowing is the cover term for any kind of loan element.
 narrative word|not a borrwoing
 donor language|the language from which the word was borrowed
 recipient language   the language into which the word was borrowed
-{{c2::Categorization}} of the loan-related terminology is {{c1::hard}}, as {{c3::seemingly everyone uses their own, only slightly different categorization system}}
-While I use {{c1::borrowing}} to mean {{c2::any sort of loaned thing}}, the term is {{c3::not always used in exactly this manner}}
+⟮c2;Categorization⟯ of the loan-related terminology is ⟮c1;hard⟯, as ⟮c3;seemingly everyone uses their own, only slightly different categorization system⟯
+While I use ⟮c1;borrowing⟯ to mean ⟮c2;any sort of loaned thing⟯, the term is ⟮c3;not always used in exactly this manner⟯
 A foreign word|A word from another language used in the relevant language, but not integrated, that is, recognizably foregin|Gestalt, Pickelhaube, mutatis mutandis (in english)
 A loanword is a word loaned from another language which is recognizably now part of the recipient language
 
-While a {{c1::loan translation}} / {{c1::calque}} {{c2::translates all the parts exactly}}, a {{c3::loan rendition/rendering}} {{c2::only uses approximate translation}}
+While a ⟮c1;loan translation⟯ / ⟮c1;calque⟯ ⟮c2;translates all the parts exactly⟯, a ⟮c3;loan rendition/rendering⟯ ⟮c2;only uses approximate translation⟯
 <q>ça va sans dire</q> -> <q>it goes without saying</q> 
-{{c1::A calque (sometimes also loan translation)}} is a word or phrase borrowed from another language by literal word-for-word or root-for-root translation.
-While weekend -&gt; {{c2::Wochenende}} is a {{c1::loan translation}}, skyscraper -&gt; {{c2::Wolkenkratzer}} is a {{c1::loan rendition/rendering}}
+⟮c1;A calque (sometimes also loan translation)⟯ is a word or phrase borrowed from another language by literal word-for-word or root-for-root translation.
+While weekend -&gt; ⟮c2;Wochenende⟯ is a ⟮c1;loan translation⟯, skyscraper -&gt; ⟮c2;Wolkenkratzer⟯ is a ⟮c1;loan rendition/rendering⟯
 
-{{c1::Loan creation}} is a bit of a vague term, but basically means {{c2::creation of a word}} using {{c3::native means}}, either to {{c4::fill a lack in the language which another language does not have}} or to {{c5::replace a borrowing}}
+⟮c1;Loan creation⟯ is a bit of a vague term, but basically means ⟮c2;creation of a word⟯ using ⟮c3;native means⟯, either to ⟮c4;fill a lack in the language which another language does not have⟯ or to ⟮c5;replace a borrowing⟯
 
-{{c1::Loanblends}} can either be formed by {{c2::word with some semantic content}} + {{c2::some functional affix (of the recipient language)}} or {{c3::fusion of multiple words with semantic content}}. 
-If loanblends are formed by  {{c2::word with some semantic content}} + {{c2::some functional affix (of the recipient language)}}, they are seen to be {{c4::closer to loan words}}, if they are formed by {{c3::fusion of multiple words with semantic content}} they are seen to be {{c5::closer to loan translations/renditions (= loan formations)}}
+⟮c1;Loanblends⟯ can either be formed by ⟮c2;word with some semantic content⟯ + ⟮c2;some functional affix (of the recipient language)⟯ or ⟮c3;fusion of multiple words with semantic content⟯. 
+If loanblends are formed by  ⟮c2;word with some semantic content⟯ + ⟮c2;some functional affix (of the recipient language)⟯, they are seen to be ⟮c4;closer to loan words⟯, if they are formed by ⟮c3;fusion of multiple words with semantic content⟯ they are seen to be ⟮c5;closer to loan translations/renditions (= loan formations)⟯
 
-{{c1::loan formation}} is a term usually used to group {{c2::any borrowing that uses foregin structure}} (i.e. {{c3::loan translations}} and {{c4::renditions}}, and depending on how you see them {{c5::loan creations}} as well), but {{c6::by far not by every author}}
+⟮c1;loan formation⟯ is a term usually used to group ⟮c2;any borrowing that uses foregin structure⟯ (i.e. ⟮c3;loan translations⟯ and ⟮c4;renditions⟯, and depending on how you see them ⟮c5;loan creations⟯ as well), but ⟮c6;by far not by every author⟯
 
 A Semantic loan is when a word exists in two languages, but only has some senses in one language, and then aquires the senses that the other language has.
 realize (make happen, become aware of) / realisieren (make happen) -&gt; realize (make happen, become aware of) / realisieren (make happen, become aware of)
@@ -3138,12 +3138,12 @@ William Caxton introduced the printing press to england.
 
 ## discourse analysis
 
-{{c1::Discourse analysis}} is the study of {{c2::real language use}}, in chunks {{c3::larger than the sentence}}
-{{c1::Critical discourse analysis}} may be thought of {{c2::discourse analysis}} via / for use of {{c3::critical theory (lowercase)}}
+⟮c1;Discourse analysis⟯ is the study of ⟮c2;real language use⟯, in chunks ⟮c3;larger than the sentence⟯
+⟮c1;Critical discourse analysis⟯ may be thought of ⟮c2;discourse analysis⟯ via / for use of ⟮c3;critical theory (lowercase)⟯
 
 ## sociolinguistics
 
-A spr<b>e</b>chbund is a&nbsp;group that has {{c1::a shared way of speaking}} going beyond language boundaries
+A spr<b>e</b>chbund is a&nbsp;group that has ⟮c1;a shared way of speaking⟯ going beyond language boundaries
 
 note that unlike a sprachbund, this doesn't have to be geographically contiguous, and doesn't refer to whole languages, but just groups of speakers, and is generally not about vocabulary or grammar per se, but more about a more abstract manner
 What might hip-hop with the characteristics of rapping, rhyme, and human beatboxing be an example of, if they occur in different langauges?  A sprechbund
@@ -3178,8 +3178,8 @@ AAVE = African American Vernacular English
 
 #### slang, jargon, cant, argot ...
 
-It is hard to distinguish slang, jargon, argot, cant, etc. because they are {{c1::Often used interchangeably}}
-Slang is an informal register of an in-group that is not {{c1::in general common usage}}
+It is hard to distinguish slang, jargon, argot, cant, etc. because they are ⟮c1;Often used interchangeably⟯
+Slang is an informal register of an in-group that is not ⟮c1;in general common usage⟯
 Jargon is the specialized language of a certain field.
 Cant ≈ argot
 Cant/argot is jargon with the purpose to exclude or mislead people outside the group
@@ -3187,7 +3187,7 @@ Cant/argot is jargon with the purpose to exclude or mislead people outside the g
 ### accomodation
 
 Acommodation and thus convergence/divergence are studied in Speech/Communication Accommodation Theory.
-Accomodation is the process where participants change aspects of their language use according to the speech style of  {{c1::other participants in the conversation}}
+Accomodation is the process where participants change aspects of their language use according to the speech style of  ⟮c1;other participants in the conversation⟯
 Acommodation (CAT) may be convergence or divergence.
 divergence   Making your speech more <b>dis</b>similar to the conversational partner's
 convergence   Making your speech more similar to the conversational partner's
@@ -3228,7 +3228,7 @@ high variant (H)|formal situations, literature|no native speakers
 
 The study of language and gender is said to have stared with Language and Women's Place by Robin Lakoff (1973 or 1975, its unclear to me)
 Robin Lakoff was married to the (arguably) more famous Lakoff (of Metaphors We Live By fame)
-Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> {{c1::to see what they can teach us about patriarchy at large}}
+Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> ⟮c1;to see what they can teach us about patriarchy at large⟯
 In robin lakoffs language and womens place, the method she uses is native speaker intuition
 Deborah tannen was a student of robin lakoff who initiated the difference approach to language and gender with her book You Just Don't understand (1990)
 
@@ -3262,8 +3262,8 @@ A monocentric langauge is a language with one standard variety
 A pluricentric langauge is a language with multiple different standard varieties 
 Monocnetric language|Japanese
 Pluricentric language|English, German, Spanish  
-The fact that english has BE and AE as well as many other standard forms of english makes it {{c1::a pluricentric language}}
-Some of the the different standard varieties of german are {{c1::Standard german german, standard swiss german, standard austrian german}}
+The fact that english has BE and AE as well as many other standard forms of english makes it ⟮c1;a pluricentric language⟯
+Some of the the different standard varieties of german are ⟮c1;Standard german german, standard swiss german, standard austrian german⟯
 
 A variety of a language that is considered a subform of a standartized variety is heteronomous in relation to the standard variety.
 A non-heteronomous language is autonomous.
@@ -3325,7 +3325,7 @@ A source language is a langugage from which one is translating.
 
 ### language transfer
 
-Language transfer is the application of linguistic features from one language to another by {{c1::a bilingual or multilingual speaker}}, or to say it differently, two languages influencing each other within a speaker.
+Language transfer is the application of linguistic features from one language to another by ⟮c1;a bilingual or multilingual speaker⟯, or to say it differently, two languages influencing each other within a speaker.
 CLI (crosslinguistic influence) is roughly synonymous to language transfer.
 negative language transfer is language transfer that results in errors
 positive language transfer is language transfer that results in easier language learning.
@@ -3333,8 +3333,8 @@ While language transfer/cli is two languages influencing each other within a spe
 
 ### SLA
 
-{{c2::Bilingualism}} is {{c1::The ability to speak two languages (or the state of being in two langauges)}}
-{{c2::Multilingualism}} is {{c1::The ability to speak multiple language (or the state of being in multiple langauges)}}
+⟮c2;Bilingualism⟯ is ⟮c1;The ability to speak two languages (or the state of being in two langauges)⟯
+⟮c2;Multilingualism⟯ is ⟮c1;The ability to speak multiple language (or the state of being in multiple langauges)⟯
 Bi/multilingualism from birth   Simultaneous bi/multilingualism
 Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
 
@@ -3356,7 +3356,7 @@ The process of losing language skills in a <b>native</b> language  First languag
 
 ### shared languages
 
-A koine is a standard language or lingua franca created by the contact of {{c1::Two or more mutually intelligible languages&nbsp;}}
+A koine is a standard language or lingua franca created by the contact of ⟮c1;Two or more mutually intelligible languages&nbsp;⟯
 
 #### auxiliary languages
 
@@ -3382,7 +3382,7 @@ Pidgins usually have a limited vocabulary and low presstige.
 A pidgin is never spoken as a native language. 
 The traditional view (has criticisms) is that a pidgin that is nativized becomes a creole.
 A language gaining native speakers (from 0 to > 0) is known as nativization.
-A mixed language is a language combining aspects of two or more languages but {{c1::not clearly deriving primarily from any single language&nbsp;}}
+A mixed language is a language combining aspects of two or more languages but ⟮c1;not clearly deriving primarily from any single language&nbsp;⟯
 
 Relexification is the process of replacing (all or a large number of) the words of one language with the words from another language, while the grammar of the original language remains intact
 
@@ -3398,17 +3398,17 @@ Naturalistic conlangs mimic existing real languages.
 ### translingualism
 
 Translingual phenomena are features of language that are relevant in more than one language. 
-The International scientific vocabulary is the set fo science-related words that is  {{c1::used translingually}}
+The International scientific vocabulary is the set fo science-related words that is  ⟮c1;used translingually⟯
 
 ### translation
 
-{{c2::DE-EN / EN-DE translation}} is billed {{c1::by line}}, where a line is {{c3::55 characters}} ({{c4::including spaces}}) in {{c5::the target language.&nbsp;}}
+⟮c2;DE-EN / EN-DE translation⟯ is billed ⟮c1;by line⟯, where a line is ⟮c3;55 characters⟯ (⟮c4;including spaces⟯) in ⟮c5;the target language.&nbsp;⟯
 
 ## language geography
 
 Language geography is the study of the geographic distribution of languages.
 
-A language border/boundary is boundary separating two areas where {{c1::different (mutually unintelligible) languages are spoken}}
+A language border/boundary is boundary separating two areas where ⟮c1;different (mutually unintelligible) languages are spoken⟯
 Sprachraum   A geographical region where a common L1 is spoken
 
 ## linguistic typology
@@ -3449,8 +3449,8 @@ A linguistic universal is a pattern that occurs systematically across (most ofte
 
 ## corpora & collections
 
-{{c1::forvo.com}} is {{c2::the largest}} dictionary/library/archive for {{c3::pronunciations}}, it also has an AAPI
-{{c5::Tatoeba}} is a {{c1::large}} {{c2::corpus}} of {{c3::sentences}} and their {{c3::translations}} into {{c4::many other languages}}.
+⟮c1;forvo.com⟯ is ⟮c2;the largest⟯ dictionary/library/archive for ⟮c3;pronunciations⟯, it also has an AAPI
+⟮c5;Tatoeba⟯ is a ⟮c1;large⟯ ⟮c2;corpus⟯ of ⟮c3;sentences⟯ and their ⟮c3;translations⟯ into ⟮c4;many other languages⟯.
 
 ### corpora
 
@@ -3489,7 +3489,7 @@ Theoretical linguistics may just contrast with applied linguistics, or specifica
 
 ### metalanguage
 
-A <dfn>metalanguage</dfn> is a language used {{c1::to describe another language}}
+A <dfn>metalanguage</dfn> is a language used ⟮c1;to describe another language⟯
 The language being described by a metalanguage is an object language.
 Metasyntax is the syntax governing a meta-language.
 A placeholder/variable that is not part of a given language, but instead is used in a metalanguage way is known as a metasyntactic variable.
@@ -3614,11 +3614,11 @@ Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
 ### implicational scale
 
-{{c1::Implicational scale}} is a term that means if {{c2::one feature is present}}, {{c3::all the features}} {{c4::lower on the scale}} {{c5::will be as well}}
-<img class="c2-f c1-b" src="mplicational-scale-of-basic-color-terms.png"><br/>{{c1::}}   an <b>implicational scale </b>(of basic color terms)
-<img class="c2-f c1-b" src="sm_2021-10-21--08-21-02-screenshot.jpg"><br/>{{c1::}}   an <b>implicational scale </b> (of syntactic figures in Irish)
-If a thing is on an {{c1::implicational scale}}, and we find that {{c2::the e.g. 5th stage is present}}, we would expect to also find {{c3::all four lower stages to be present}}.
-{{c1::Most linguistic areas}} have things that can be on an implicational scale
+⟮c1;Implicational scale⟯ is a term that means if ⟮c2;one feature is present⟯, ⟮c3;all the features⟯ ⟮c4;lower on the scale⟯ ⟮c5;will be as well⟯
+<img class="c2-f c1-b" src="mplicational-scale-of-basic-color-terms.png"><br/>⟮c1;⟯   an <b>implicational scale </b>(of basic color terms)
+<img class="c2-f c1-b" src="sm_2021-10-21--08-21-02-screenshot.jpg"><br/>⟮c1;⟯   an <b>implicational scale </b> (of syntactic figures in Irish)
+If a thing is on an ⟮c1;implicational scale⟯, and we find that ⟮c2;the e.g. 5th stage is present⟯, we would expect to also find ⟮c3;all four lower stages to be present⟯.
+⟮c1;Most linguistic areas⟯ have things that can be on an implicational scale
 
 ### feature
 
@@ -3704,7 +3704,7 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 ⟮c:9;<ruby>隷<rp>(</rp><rt>れい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯|⟮c:10;<img src="sm_220px-LishuHuashanmiao.jpg"><img src="sm_kRVT4DEEnYOoWwjmAPA90uyI2idI4Qp1TayRhMqPMAHoyZuHYsiLwsCLv0OxoHEhRiPg0jkcB_6mA7xvP0QdQMOzW5G-LN0NBVV0z0bGXIPJVdIRJZWW.jpg">⟯
 
 
-What is now called (small) seal script is called what in japanese? <span class="divider">-></span> {{c1::<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>}}
+What is now called (small) seal script is called what in japanese? <span class="divider">-></span> ⟮c1;<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>⟯
 
 
 Cursive variants of 漢字 have way less strokes than non-cursive variants.
@@ -3712,7 +3712,7 @@ Often, cursive variants of 漢字 are nearly illegible, even for native speakers
 However, cursive variants are very quick to write.
 Cursive variants are generally generated by merging strokes.
 The easiest/most common way to merge strokes for 漢字 is to merge dots into a single stroke.
-The two scripts considered {{c3::cursive}} are {{c1::行書}} and {{c2::草書}}
+The two scripts considered ⟮c3;cursive⟯ are ⟮c1;行書⟯ and ⟮c2;草書⟯
 <ruby>行書<rp>(</rp><rt>ぎょうしょ</rt><rp>)</rp></ruby> is less cursive compared to <ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>.
 
 All hanzi evolved from the original form that we still have, which is oracle bone script.
@@ -4230,7 +4230,7 @@ Today, the most general/standard way to write 漢字 is <ruby>楷<rp>(</rp><rt>�
 ⟮c:497;eaves -&gt; counter for shops or houses⟯|⟮s:498;<img src="sm_paste-611fc817073df91e9b4d833f4f081d600d5dc670.jpg"><img src="sm_paste-36cd1da03c2f1e32bdca31c98e8b28fd8d822ee2.jpg">⟯|⟮c:998;軒⟯|⟮h:all;[車 (car)  , 干 (dry out)]⟯|⟮h:all;You can <b>dry out</b> your <b>car</b> under the <b>eaves</b>.⟯|⟮h:all;⟯
 ⟮c:498;proof⟯|⟮s:499;<img src="sm_paste-611bd28d8c7d0add1820a57009072ce8562a88e1.jpg">⟯|⟮c:999;証⟯|⟮h:all;[言 (say)  , 正 (correct)]⟯|⟮h:all;The cop said, "If you can <b>talk</b> to me and SHOW me <b>correct</b> <b>proof</b> , you're good to go. "⟯|⟮h:all;⟯
 ⟮c:499;medical patient⟯|⟮s:500;<img src="sm_paste-60f5e6e2cbeb8f561e891420bfebc3efb0bd6efa.jpg"><img src="sm_paste-c58af70f0caa36da32e08b11df8aa535d16a6c6b.jpg">⟯|⟮c:1000;患⟯|⟮h:all;忠 (loyalty) ⟯|⟮h:all;This is basically the <b>loyalty</b> kanji (忠)TWICE - one on top of the other.So you could say,Genghis KHAN was admitted as a <b>patient</b> to the hospital. Since he depended for his life on the doctor, he was DOUBLE <b>LOYAL</b> to the doctor.⟯|⟮h:all;⟯
-</tbody> </table> <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 1
+</tbody> </table> <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 1
 <table>   <thead>Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 </thead>   <tbody>⟮c:1;inspect⟯|⟮s:1;<img src="sm_paste-60d8406bf5516e187606751b5f90533d226473ce.jpg">⟯|⟮c:501;査⟯|⟮h:all;[木 (tree)  , <img src="sm_abelincolnshat.png"> (Abe Lincoln's Hat)]⟯|⟮h:all;The <b>tree</b> <b>inspects</b> <b>Abe's hat</b>, to see what it SAW on the night of the assassination (the hat was eventually cleared of all wrongdoing⟯)|⟮h:all;⟯
 ⟮c:2;sky/empty⟯|⟮s:2;<img src="sm_paste-60b0e40e519d59b9d00fcda8540fd428e52f29d0.jpg"><img src="sm_paste-7351d321429eb1a7b0e0713227a0186cfdd7529b.jpg">⟯|⟮c:502;空⟯|⟮h:all;[穴 (hole)  , 工 (craft or industry)]⟯|⟮h:all;If you are a crafty norse god, you can open a hole in the sky to summon your evil army.⟯|⟮h:all;⟯
@@ -4732,7 +4732,7 @@ Today, the most general/standard way to write 漢字 is <ruby>楷<rp>(</rp><rt>�
 ⟮c:498;pure⟯|⟮s:498;<img src="sm_paste-1ce6b3ec3322369b9eea10368c1e0a330bcaa2d4.jpg">⟯|⟮c:998;清⟯|⟮h:all;[<img src="sm_water.png"> (waterleft) , 青 (blue) Same-ON]⟯|⟮h:all;If you SAY the <b>water</b> is really <b>blue</b>, it must be <b>pure</b>!⟯|⟮h:all;⟯
 ⟮c:499;stringent/bitter flavor⟯|⟮s:499;<img src="sm_paste-1cbce5a2d6350dde137fba0e3f01bcef089b1eda.jpg">⟯|⟮c:999;渋⟯|⟮h:all;[<img src="sm_water.png"> (waterleft) , 止 (stop)  , <img src="sm_sparkle.png"> (Sparkles)]⟯|⟮h:all;This tastes so <b>astringently bitter</b> I have to <b>stop</b> and drink some <b>sparkling water </b>to wash out the taste.⟯|⟮h:all;⟯
 ⟮c:500;part of speech⟯|⟮s:500;<img src="sm_paste-1cb8e4a9b0cc5bb2022829511c5028a2d28a05df.jpg">⟯|⟮c:1000;詞⟯|⟮h:all;[言 (say)  , 司 (administer) Same-ON]⟯|⟮h:all;When we <b>say</b> things, <b>parts of speech </b><b>administer</b> the syntax.⟯|⟮h:all;⟯
-</tbody> </table> <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 2
+</tbody> </table> <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 2
 <table> <thead>Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 </thead> <tbody>⟮c:1;bee⟯|⟮s:1;⟯|⟮c:500;蜂⟯|⟮h:all;⟯|⟮h:all;The queen bee master-directors all the other bugs. not honey: 蜜⟯|⟮h:all;⟯
 ⟮c:2;yen (international shmbol not japanese currency⟯)|⟮s:2;⟯|⟮c:501;￥⟯|⟮h:all;⟯|⟮h:all;⟯|⟮h:all;⟯
@@ -5233,7 +5233,7 @@ Today, the most general/standard way to write 漢字 is <ruby>楷<rp>(</rp><rt>�
 ⟮c:497;reciprocal⟯|⟮s:497;<img src="sm_paste-b59e7640c3327cb53e0fb5f4ae81f4ee7e9b1eee.jpg">⟯|⟮c:996;互⟯|⟮h:all;五 (five) ⟯|⟮h:all;Two number 5s 五 , giving each other a <b>reciprocal</b> 69er!⟯|⟮h:all;⟯
 ⟮c:498;3rd class⟯|⟮s:498;<img src="sm_paste-b536fa69e8a1371e82d479d7e0393bef14a95a5a.jpg">⟯|⟮c:997;丙⟯|⟮h:all;[The inside  , line]⟯|⟮h:all;There is a <b>line</b> to get <b>in</b>, and you're in the <b>third</b> boarding <b>class</b>.⟯|⟮h:all;⟯
 ⟮c:499;recompensate⟯|⟮s:499;<img src="sm_paste-b535b5feaded445ca9e8f73921d76eb412a6922c.jpg">⟯|⟮c:998;償⟯|⟮h:all;[<img src="sm_man.png"> (personleft) , 賞 (prize) Same-ON]⟯|⟮h:all;Give a <b>person</b> a <b>prize</b> to <b>compensate</b> for having won the game.⟯|⟮h:all;⟯
-</tbody> </table> <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 3
+</tbody> </table> <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}{{c255::}}{{c256::}}{{c257::}}{{c258::}}{{c259::}}{{c260::}}{{c261::}}{{c262::}}{{c263::}}{{c264::}}{{c265::}}{{c266::}}{{c267::}}{{c268::}}{{c269::}}{{c270::}}{{c271::}}{{c272::}}{{c273::}}{{c274::}}{{c275::}}{{c276::}}{{c277::}}{{c278::}}{{c279::}}{{c280::}}{{c281::}}{{c282::}}{{c283::}}{{c284::}}{{c285::}}{{c286::}}{{c287::}}{{c288::}}{{c289::}}{{c290::}}{{c291::}}{{c292::}}{{c293::}}{{c294::}}{{c295::}}{{c296::}}{{c297::}}{{c298::}}{{c299::}}{{c300::}}{{c301::}}{{c302::}}{{c303::}}{{c304::}}{{c305::}}{{c306::}}{{c307::}}{{c308::}}{{c309::}}{{c310::}}{{c311::}}{{c312::}}{{c313::}}{{c314::}}{{c315::}}{{c316::}}{{c317::}}{{c318::}}{{c319::}}{{c320::}}{{c321::}}{{c322::}}{{c323::}}{{c324::}}{{c325::}}{{c326::}}{{c327::}}{{c328::}}{{c329::}}{{c330::}}{{c331::}}{{c332::}}{{c333::}}{{c334::}}{{c335::}}{{c336::}}{{c337::}}{{c338::}}{{c339::}}{{c340::}}{{c341::}}{{c342::}}{{c343::}}{{c344::}}{{c345::}}{{c346::}}{{c347::}}{{c348::}}{{c349::}}{{c350::}}{{c351::}}{{c352::}}{{c353::}}{{c354::}}{{c355::}}{{c356::}}{{c357::}}{{c358::}}{{c359::}}{{c360::}}{{c361::}}{{c362::}}{{c363::}}{{c364::}}{{c365::}}{{c366::}}{{c367::}}{{c368::}}{{c369::}}{{c370::}}{{c371::}}{{c372::}}{{c373::}}{{c374::}}{{c375::}}{{c376::}}{{c377::}}{{c378::}}{{c379::}}{{c380::}}{{c381::}}{{c382::}}{{c383::}}{{c384::}}{{c385::}}{{c386::}}{{c387::}}{{c388::}}{{c389::}}{{c390::}}{{c391::}}{{c392::}}{{c393::}}{{c394::}}{{c395::}}{{c396::}}{{c397::}}{{c398::}}{{c399::}}{{c400::}}{{c401::}}{{c402::}}{{c403::}}{{c404::}}{{c405::}}{{c406::}}{{c407::}}{{c408::}}{{c409::}}{{c410::}}{{c411::}}{{c412::}}{{c413::}}{{c414::}}{{c415::}}{{c416::}}{{c417::}}{{c418::}}{{c419::}}{{c420::}}{{c421::}}{{c422::}}{{c423::}}{{c424::}}{{c425::}}{{c426::}}{{c427::}}{{c428::}}{{c429::}}{{c430::}}{{c431::}}{{c432::}}{{c433::}}{{c434::}}{{c435::}}{{c436::}}{{c437::}}{{c438::}}{{c439::}}{{c440::}}{{c441::}}{{c442::}}{{c443::}}{{c444::}}{{c445::}}{{c446::}}{{c447::}}{{c448::}}{{c449::}}{{c450::}}{{c451::}}{{c452::}}{{c453::}}{{c454::}}{{c455::}}{{c456::}}{{c457::}}{{c458::}}{{c459::}}{{c460::}}{{c461::}}{{c462::}}{{c463::}}{{c464::}}{{c465::}}{{c466::}}{{c467::}}{{c468::}}{{c469::}}{{c470::}}{{c471::}}{{c472::}}{{c473::}}{{c474::}}{{c475::}}{{c476::}}{{c477::}}{{c478::}}{{c479::}}{{c480::}}{{c481::}}{{c482::}}{{c483::}}{{c484::}}{{c485::}}{{c486::}}{{c487::}}{{c488::}}{{c489::}}{{c490::}}{{c491::}}{{c492::}}{{c493::}}{{c494::}}{{c495::}}{{c496::}}{{c497::}}{{c498::}}{{c499::}}{{c500::}}{{c501::}}{{c502::}}{{c503::}}{{c504::}}{{c505::}}{{c506::}}{{c507::}}{{c508::}}{{c509::}}{{c510::}}{{c511::}}{{c512::}}{{c513::}}{{c514::}}{{c515::}}{{c516::}}{{c517::}}{{c518::}}{{c519::}}{{c520::}}{{c521::}}{{c522::}}{{c523::}}{{c524::}}{{c525::}}{{c526::}}{{c527::}}{{c528::}}{{c529::}}{{c530::}}{{c531::}}{{c532::}}{{c533::}}{{c534::}}{{c535::}}{{c536::}}{{c537::}}{{c538::}}{{c539::}}{{c540::}}{{c541::}}{{c542::}}{{c543::}}{{c544::}}{{c545::}}{{c546::}}{{c547::}}{{c548::}}{{c549::}}{{c550::}}{{c551::}}{{c552::}}{{c553::}}{{c554::}}{{c555::}}{{c556::}}{{c557::}}{{c558::}}{{c559::}}{{c560::}}{{c561::}}{{c562::}}{{c563::}}{{c564::}}{{c565::}}{{c566::}}{{c567::}}{{c568::}}{{c569::}}{{c570::}}{{c571::}}{{c572::}}{{c573::}}{{c574::}}{{c575::}}{{c576::}}{{c577::}}{{c578::}}{{c579::}}{{c580::}}{{c581::}}{{c582::}}{{c583::}}{{c584::}}{{c585::}}{{c586::}}{{c587::}}{{c588::}}{{c589::}}{{c590::}}{{c591::}}{{c592::}}{{c593::}}{{c594::}}{{c595::}}{{c596::}}{{c597::}}{{c598::}}{{c599::}}{{c600::}}{{c601::}}{{c602::}}{{c603::}}{{c604::}}{{c605::}}{{c606::}}{{c607::}}{{c608::}}{{c609::}}{{c610::}}{{c611::}}{{c612::}}{{c613::}}{{c614::}}{{c615::}}{{c616::}}{{c617::}}{{c618::}}{{c619::}}{{c620::}}{{c621::}}{{c622::}}{{c623::}}{{c624::}}{{c625::}}{{c626::}}{{c627::}}{{c628::}}{{c629::}}{{c630::}}{{c631::}}{{c632::}}{{c633::}}{{c634::}}{{c635::}}{{c636::}}{{c637::}}{{c638::}}{{c639::}}{{c640::}}{{c641::}}{{c642::}}{{c643::}}{{c644::}}{{c645::}}{{c646::}}{{c647::}}{{c648::}}{{c649::}}{{c650::}}{{c651::}}{{c652::}}{{c653::}}{{c654::}}{{c655::}}{{c656::}}{{c657::}}{{c658::}}{{c659::}}{{c660::}}{{c661::}}{{c662::}}{{c663::}}{{c664::}}{{c665::}}{{c666::}}{{c667::}}{{c668::}}{{c669::}}{{c670::}}{{c671::}}{{c672::}}{{c673::}}{{c674::}}{{c675::}}{{c676::}}{{c677::}}{{c678::}}{{c679::}}{{c680::}}{{c681::}}{{c682::}}{{c683::}}{{c684::}}{{c685::}}{{c686::}}{{c687::}}{{c688::}}{{c689::}}{{c690::}}{{c691::}}{{c692::}}{{c693::}}{{c694::}}{{c695::}}{{c696::}}{{c697::}}{{c698::}}{{c699::}}{{c700::}}{{c701::}}{{c702::}}{{c703::}}{{c704::}}{{c705::}}{{c706::}}{{c707::}}{{c708::}}{{c709::}}{{c710::}}{{c711::}}{{c712::}}{{c713::}}{{c714::}}{{c715::}}{{c716::}}{{c717::}}{{c718::}}{{c719::}}{{c720::}}{{c721::}}{{c722::}}{{c723::}}{{c724::}}{{c725::}}{{c726::}}{{c727::}}{{c728::}}{{c729::}}{{c730::}}{{c731::}}{{c732::}}{{c733::}}{{c734::}}{{c735::}}{{c736::}}{{c737::}}{{c738::}}{{c739::}}{{c740::}}{{c741::}}{{c742::}}{{c743::}}{{c744::}}{{c745::}}{{c746::}}{{c747::}}{{c748::}}{{c749::}}{{c750::}}{{c751::}}{{c752::}}{{c753::}}{{c754::}}{{c755::}}{{c756::}}{{c757::}}{{c758::}}{{c759::}}{{c760::}}{{c761::}}{{c762::}}{{c763::}}{{c764::}}{{c765::}}{{c766::}}{{c767::}}{{c768::}}{{c769::}}{{c770::}}{{c771::}}{{c772::}}{{c773::}}{{c774::}}{{c775::}}{{c776::}}{{c777::}}{{c778::}}{{c779::}}{{c780::}}{{c781::}}{{c782::}}{{c783::}}{{c784::}}{{c785::}}{{c786::}}{{c787::}}{{c788::}}{{c789::}}{{c790::}}{{c791::}}{{c792::}}{{c793::}}{{c794::}}{{c795::}}{{c796::}}{{c797::}}{{c798::}}{{c799::}}{{c800::}}{{c801::}}{{c802::}}{{c803::}}{{c804::}}{{c805::}}{{c806::}}{{c807::}}{{c808::}}{{c809::}}{{c810::}}{{c811::}}{{c812::}}{{c813::}}{{c814::}}{{c815::}}{{c816::}}{{c817::}}{{c818::}}{{c819::}}{{c820::}}{{c821::}}{{c822::}}{{c823::}}{{c824::}}{{c825::}}{{c826::}}{{c827::}}{{c828::}}{{c829::}}{{c830::}}{{c831::}}{{c832::}}{{c833::}}{{c834::}}{{c835::}}{{c836::}}{{c837::}}{{c838::}}{{c839::}}{{c840::}}{{c841::}}{{c842::}}{{c843::}}{{c844::}}{{c845::}}{{c846::}}{{c847::}}{{c848::}}{{c849::}}{{c850::}}{{c851::}}{{c852::}}{{c853::}}{{c854::}}{{c855::}}{{c856::}}{{c857::}}{{c858::}}{{c859::}}{{c860::}}{{c861::}}{{c862::}}{{c863::}}{{c864::}}{{c865::}}{{c866::}}{{c867::}}{{c868::}}{{c869::}}{{c870::}}{{c871::}}{{c872::}}{{c873::}}{{c874::}}{{c875::}}{{c876::}}{{c877::}}{{c878::}}{{c879::}}{{c880::}}{{c881::}}{{c882::}}{{c883::}}{{c884::}}{{c885::}}{{c886::}}{{c887::}}{{c888::}}{{c889::}}{{c890::}}{{c891::}}{{c892::}}{{c893::}}{{c894::}}{{c895::}}{{c896::}}{{c897::}}{{c898::}}{{c899::}}{{c900::}}{{c901::}}{{c902::}}{{c903::}}{{c904::}}{{c905::}}{{c906::}}{{c907::}}{{c908::}}{{c909::}}{{c910::}}{{c911::}}{{c912::}}{{c913::}}{{c914::}}{{c915::}}{{c916::}}{{c917::}}{{c918::}}{{c919::}}{{c920::}}{{c921::}}{{c922::}}{{c923::}}{{c924::}}{{c925::}}{{c926::}}{{c927::}}{{c928::}}{{c929::}}{{c930::}}{{c931::}}{{c932::}}{{c933::}}{{c934::}}{{c935::}}{{c936::}}{{c937::}}{{c938::}}{{c939::}}{{c940::}}{{c941::}}{{c942::}}{{c943::}}{{c944::}}{{c945::}}{{c946::}}{{c947::}}{{c948::}}{{c949::}}{{c950::}}{{c951::}}{{c952::}}{{c953::}}{{c954::}}{{c955::}}{{c956::}}{{c957::}}{{c958::}}{{c959::}}{{c960::}}{{c961::}}{{c962::}}{{c963::}}{{c964::}}{{c965::}}{{c966::}}{{c967::}}{{c968::}}{{c969::}}{{c970::}}{{c971::}}{{c972::}}{{c973::}}{{c974::}}{{c975::}}{{c976::}}{{c977::}}{{c978::}}{{c979::}}{{c980::}}{{c981::}}{{c982::}}{{c983::}}{{c984::}}{{c985::}}{{c986::}}{{c987::}}{{c988::}}{{c989::}}{{c990::}}{{c991::}}{{c992::}}{{c993::}}{{c994::}}{{c995::}}{{c996::}}{{c997::}}{{c998::}}{{c999::}}{{c1000::}}</span>"	Kanji Set 3
 <table> <thead>Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 </thead> <tbody>⟮c:1;forever⟯|⟮s:1;<img src="sm_paste-1c77af8c683cc536877881ef0c4a12a64a3b3eda.jpg"><img src="sm_paste-46da2a236b61f883de1b5de6c6f506f7603a2bfb.jpg">⟯|⟮c:267;永⟯|⟮h:all;[氷 (ice)  , 丶 (dot)]⟯|⟮h:all;This <b><b>Ice</b> age has lasted <b>forever</b>!⟯</b>|⟮h:all;⟯
 ⟮c:2;hug⟯|⟮s:2;<img src="sm_paste-1c744d1652a0ee98b96beaf5e786698580269195.jpg"><img src="sm_paste-97e933b68a728899b89cdfce39addfbb2e92b3b6.jpg">⟯|⟮c:268;抱⟯|⟮h:all;[<img src="sm_hand.png"> (handleft) , <img src="sm_wrap.png"> (wrap) Same-ON]⟯|⟮h:all;You <b>hug</b> by <b>wrapping</b> your <b>hands</b> around someone.⟯|⟮h:all;⟯
@@ -6045,7 +6045,7 @@ Interjectory particles are like sentence-final particles, just that they can  al
 Order is always （わ・よ・ぞ・…) + ね, not the other way around
 の may act as a interrogative particle, add emphasis, or explanatory tone.
 Variants of の (incl ので・のに・など): の+copula => ん+copula
-{{c3::conjugate}} {{c2::んだ}} {{c3::itself}} and {{c4::attach}} it to a {{c4::non}}-{{c4::conjugated}} element or atatach a conjugated element to it
+⟮c3;conjugate⟯ ⟮c2;んだ⟯ ⟮c3;itself⟯ and ⟮c4;attach⟯ it to a ⟮c4;non⟯-⟮c4;conjugated⟯ element or atatach a conjugated element to it
 the SFPs that also are/contain nominalizers (もの・の・んだ・ので・のに) do still nominalize the sentence grammatically, and thus require the attributive form in front of them.
 
 な na: emotion. Used when one wants to express a personal feeling. May be used to state a fact in which one has emotional investment, to express one's admiration or emotional excitement, to soften an imperative, or to encourage agreement, as a mild imperative. (or variant of ね)
