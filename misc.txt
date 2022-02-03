@@ -86,8 +86,7 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯
 ⟮c:3;A society dominated in economic output by the primary sector⟯|⟮c:4;Pre-industrial/agrarian (more rarely agricultural) society⟯
@@ -578,8 +577,7 @@ The ⟮c:6;death of the author⟯ pushes back against the idea of ⟮c:7;authori
 In the hermeneutic circle, ⟮c:5;moving between the two states⟯ ⟮c:6;deepens or at least changes⟯ our ⟮c:10;understanding⟯. 
 For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is ⟮c:7;never exactly the same⟯ ("⟮c:7;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c:8;spiral⟯. 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯
 ⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯
@@ -634,8 +632,7 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 ### games
 
 <table>
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯
 ⟮c:3;RPG⟯|⟮c:4;Role-playing game⟯
@@ -930,8 +927,7 @@ Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;
 ##### endo/exonyms
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)
 ⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯
@@ -2299,8 +2295,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 #### translations
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;grünkohl⟯|⟮c:2;kale⟯
 ⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯
@@ -2319,8 +2314,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 #### grains
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
 ⟮c:4;wheat⟯|⟮c:5;weizen⟯
@@ -2338,8 +2332,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 #### fruit & berries
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯
 ⟮c:3;currant⟯|⟮c:4;Johannisbeere⟯
@@ -2711,8 +2704,7 @@ We can see something like ⟮c:24;1-10 million⟯ ⟮c:25;different colors⟯, t
 
 humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ to ⟮c:10;build up an image⟯ 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯
 ⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯
@@ -2778,8 +2770,7 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯
 ⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯
@@ -4216,8 +4207,7 @@ The ⟮c:3;gap between the two pieces of paper⟯ is ⟮c:4;the shear line⟯, a
 If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:11;take the locking mechanism out⟯, we would be seeing ⟮c:12;the cylinder (shell/casing/housing/body⟯). 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯
 ⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯
@@ -4242,8 +4232,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯
 ⟮c:17;the casing⟯|⟮c:18;green in the image⟯
@@ -4288,8 +4277,7 @@ If you ⟮c:23;insert the wrong key into a lock⟯, the lock will not open becau
 The part of the lock that we are exploiting to pick is ⟮c:25;the shear line⟯ 
 The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs⟯. 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯
 ⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯
@@ -4322,8 +4310,7 @@ T⟮c:40;o set the binding pin⟯, we ⟮c:41;push on the pin⟯ until ⟮c:42;w
 Once ⟮c:43;you've pushed the binding pin to the shear line⟯, if ⟮c:44;you've set the pin⟯, ⟮c:45;the driver pin will catch⟯ and t⟮c:46;he key pin will fall into the plug⟯. 
 Once ⟮c:47;you've pushed the binding pin to the shear line⟯, if y⟮c:48;ou've set the pin⟯, you probably hear ⟮c:49;a slight click⟯ or feel ⟮c:50;a slight rotation⟯. 
 §§ However, it is also possible to §<br><table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;push the binding pin in too far⟯|⟮c:2;overset⟯|⟮c:3;<img src="sm_overset_1130.jpg">⟯
 ⟮c:4;not push the binding pin in far enough⟯|⟮c:5;underset⟯|⟮c:6;<img src="sm_underset_1130.jpg">⟯
@@ -4528,8 +4515,7 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 
 
 Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:all;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:all;<img src="sm_200w.webp">⟯<table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯
 ⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯

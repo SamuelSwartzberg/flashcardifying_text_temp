@@ -2213,8 +2213,7 @@ Manner ↓
 
 
 <table>
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:13;ʍ⟯|⟮c:5;voice​less⟯|⟮c:5;labio​velar⟯|⟮c:5;approxi​mant⟯
 ⟮c:9;w ⟯|⟮c:1;voiced⟯|⟮c:1;labiovelar (labialized velar⟯)|⟮c:1;approximant ⟯
@@ -2605,8 +2604,7 @@ A blank line is two newlines.
 ⟮c:7;Typography⟯ is the area concerned with ⟮c:8;the properties/use of type and text (in a wide sense⟯) 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Microtypography⟯|⟮c:2;Typography on the level of letters/words⟯|⟮c:3;Letter spacing, word spacing, ligatures, features of letters⟯
 ⟮c:4;Macrotypography⟯|⟮c:5;Typography on the level of the collumn/grid/page⟯|⟮c:6;Typographic hierarchy, typographic grid, page layout⟯

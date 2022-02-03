@@ -175,8 +175,6 @@ A circular arc is the arc of a circle between a pair of distinct points.
 
 Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms, Rhombus, Dreiecks etc.}} herleiten {{c1::indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte}}
 
-  <thead>|
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_dreieck.gif">⟯
 ⟮c:3;Kreis⟯|⟮c:4;\[A=r^2π\]⟯</td></tr>|⟮h:all;<img src="sm_kreis.gif">⟯
@@ -464,8 +462,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;E⟯|⟮c:12;The set of edges⟯
 ⟮c:13;G⟯|⟮c:14;the graph⟯

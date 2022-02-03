@@ -519,8 +519,7 @@ The ⟮c:28;[option]⟯ for ⟮c:29;table, figure⟯ says ⟮c:30;where roughly 
 ⟮c:31;the option for controlling where a floating element⟯ goes consists of ⟮c:32;a list⟯ of specifiers, which are ⟮c:33;single chars⟯ ⟮c:34;one after the other⟯ without ⟮c:35;separators⟯, indicating ⟮c:36;relative preference⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;h⟯|⟮c:2;place where it appeared in the source text as much asp possible⟯
 ⟮c:3;H⟯|⟮c:4;force place where it appears (basically turn it into a nonfloat⟯)
@@ -3208,8 +3207,7 @@ e.g. cmd k then m to select the document language in VSCode
 ####### edit history
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;undo⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>z</kbd>⟯
 ⟮c:3;redo⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯
@@ -3218,8 +3216,7 @@ e.g. cmd k then m to select the document language in VSCode
 ####### browser shortcuts
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Switch to tab n⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd>⟯
 ⟮c:3;Focus address bar⟯|⟮c:4;<kbd class="modifier cmd"></kbd><kbd>L</kbd>⟯
@@ -3244,8 +3241,7 @@ e.g. cmd k then m to select the document language in VSCode
 ####### form navigation
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd>tab</kbd>⟯|⟮c:2;field forward⟯
 ⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:4;field back⟯
@@ -3269,15 +3265,13 @@ e.g. cmd k then m to select the document language in VSCode
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯|⟮c:2;non-breaking space (on keyboard⟯)
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;del key⟯|⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯
 
@@ -3351,8 +3345,7 @@ Action|Shortcut
 ####### view
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Reset zoom level (most often⟯)|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>0</kbd>⟯
 ⟮c:3;Zoom out⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd>⟯
@@ -3374,8 +3367,7 @@ Action|Shortcut
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>⟯|⟮c:2;Insert hyperlink⟯
 ⟮c:3;<kbd class="modifier cmd"></kbd> <kbd>b</kbd>⟯|⟮c:4;Bold text⟯
@@ -3848,8 +3840,7 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
 ⟮c:178;0%⟯ ⟮c:179;lightness⟯ is ⟮c:180;black⟯ for ⟮c:180;any saturation/hue⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:151;tint⟯|⟮c:152;mixture of a color with white⟯
 ⟮c:153;tone⟯|⟮c:154;mixture of a color with gray⟯
@@ -4605,8 +4596,7 @@ There are variants of ⟮c:8;the original cli program diff⟯ that change how it
 ⟮c:17;git diff⟯ shows the difference between things ⟮c:18;in/related to a git repository⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:21;no argument⟯|⟮c:22;show diff between unstaged and staged/committed⟯
 ⟮c:23;--staged/--cached (synonyms⟯)|⟮c:24;show diff of staged changes with latest commit (or specified commit⟯)
@@ -4635,8 +4625,7 @@ chown changes the owner and/or group of the file
 chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
 The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c3::execute}}
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;x⟯|⟮c:2;execute⟯
 ⟮c:3;w⟯|⟮c:4;write⟯
@@ -4931,8 +4920,7 @@ gifsicle is a CLI program to manipulate gifs
 ocrmypdf ⟮c:11;SOURCE DEST⟯
 ``` §<br>
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;specify language⟯|⟮c:2;`-l deu/fra/deu+fra...`⟯
 ⟮c:3;correct slight skew⟯|⟮c:4;`--deskew`⟯
@@ -5293,8 +5281,7 @@ To ⟮c:1;create a length foo⟯, you first have to ⟮c:2;declare it⟯ with �
 If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯, ⟮c:9;things that use these lengths itnernally⟯ will also change. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;\parindent⟯|⟮c:12;represents length of first line in paragraph indentation⟯
 ⟮c:13;\parskip⟯|⟮c:10;represenets the vertical distance between paragraphs⟯
@@ -5444,8 +5431,7 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
 ⟮c:36;after \begin{document⟯} there is often ⟮c:37;a set of commands⟯ setting ⟮c:38;metadata⟯ called ⟮c:39;the top matter/topmatter⟯ 
  
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\abstract⟯|⟮c:2;set the abstract of e.g. the paper⟯
 ⟮c:3;\author⟯|⟮c:4;set document author⟯
@@ -5556,8 +5542,7 @@ command|effect
 ⟮c:22;pdf(la)tex⟯ ⟮c:23;compiles⟯ ⟮c:24;(la)tex to pdf⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\listoffigures⟯|⟮c:2;generate a list of figures⟯
 ⟮c:3;\listoftables⟯|⟮c:4;generate a list of `table`s⟯
@@ -5656,8 +5641,7 @@ in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;la
 the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all ⟮c:10;indent the material, blockquote-style⟯. They ⟮c:11;differ in⟯ ⟮c:12;what they indent additionally, if anything⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;quotation environment⟯|⟮c:2;indents the beginning line of a paragraph additionally⟯
 ⟮c:3;quote environment⟯|⟮c:4;indents nothing additonally⟯
@@ -5845,8 +5829,7 @@ A YAML ⟮c:17;anchor⟯ goes ⟮c:18;between key and value⟯
 A YAML ⟮c:19;merge key⟯ goes ⟮c:20;instead of a key⟯, and ⟮c:21;takes an alias as a value⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;&amp;foo⟯|⟮c:2;anchor⟯
 ⟮c:3;*foo⟯|⟮c:4;alias⟯
@@ -8952,8 +8935,7 @@ Sometimes, bus is used to refer any connection between two points, even if it is
 A daisy chain is a topology where devices are linked in a line or ring.
 
 <table>
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;star⟯|⟮c:2;<img src="StarNetwork.svg">⟯
 ⟮c:3;ring⟯|⟮c:4;<img src="RingNetwork.svg">⟯
@@ -12429,8 +12411,7 @@ The syntax for the cycle ⟮c:13;group parameter⟯ is ` ⟮c:14;"name":⟯`.
 ``` §<br>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;{% liquid ... %}⟯|⟮c:2;write liquid logic in a single block⟯
 ⟮c:3;{% raw %} ... {% endraw %}⟯|⟮c:4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
@@ -13389,8 +13370,7 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 ######## comments
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|
-</thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;add line comment⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>⟯
 ⟮c:3;toggle line comment⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>/</kbd>⟯
