@@ -3513,7 +3513,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 
 ###### status bar
 
-<div class="flex-container">⟮h:all;<img src="sb-paint.png">⟯⟮h:all;<img src="460px-Emacs_statusline.png">⟯⟮h:all;<img src="Gedit_3.11.92.png">⟯⟮h:all;<img src="StatusBar_Light.png">⟯⟮h:all;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯</div>
+[[[⟮h:all;<img src="sb-paint.png">⟯⟮h:all;<img src="460px-Emacs_statusline.png">⟯⟮h:all;<img src="Gedit_3.11.92.png">⟯⟮h:all;<img src="StatusBar_Light.png">⟯⟮h:all;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯]]]
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
 On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. 
@@ -3555,7 +3555,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
 ##### sidebars
 
-<div class="flex-container">⟮h:all;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:all;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:all;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:all;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:all;<img src="sidebars.png">⟯</div>
+[[[⟮h:all;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:all;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:all;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:all;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:all;<img src="sidebars.png">⟯]]]
 A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ((c:5;::navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ((c:8;::reasonably wide (i.e. not just icons).⟯)))) 
 
 ##### disclosure widgets
@@ -3584,7 +3584,7 @@ The dialog element has a boolean attribute open representing whether the dialog 
 
 ##### tooltips & popovers
 
-<div class="flex-container">⟮h:all;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮h:a;<img src="sm_220px-Mobile_URL_tooltip.png">⟯</div><div class="flex-container">⟮h:a;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮h:a;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯</div>
+[[[⟮h:all;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮h:a;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮h:a;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮h:a;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯]]]
 ⟮c:2;Tooltips⟯ and ⟮c:2;popovers⟯ are similar in that ⟮c:3;they both appear close to the thing that triggered them⟯. 
 A ⟮c:4;tooltip⟯ is an element/component ⟮c:6;with extra text⟯ which ⟮c:7;appears⟯ when ⟮c:1;when hovering over something⟯ 
 A ⟮c:5;popover⟯ is a element/component that usually ⟮c:8;appears⟯ when ⟮c:9;interacting with something⟯ ⟮c:10;directly adjacent to that thing⟯. it ⟮c:11;is a modal (creates a mode⟯). 
@@ -3615,7 +3615,7 @@ App shortcuts is the webdev name for the set of actions that are shown e.g. when
 
 ###### FAB
 
-<div class="flex-container">⟮h:a;<img src="sm_fab.jpg">⟯⟮h:a;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯</div>
+[[[⟮h:a;<img src="sm_fab.jpg">⟯⟮h:a;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯]]]
 A ⟮c:1;FAB⟯ ⟮(c:2;floating action button⟯) is ⟮c:3;a button⟯ that ⟮c:4;is always visible⟯ and contains ⟮c:5;the primary action for the application/view⟯. 
 A ⟮c:6;FAB⟯ is typically located ⟮c:7;in the bottom right⟯, is fairly ⟮c:8;large⟯ and ⟮c:9;round⟯. 
 A ⟮c:10;FAB⟯ may ⟮c:11;contain more actions⟯ when ⟮c:12;pressed⟯. 
@@ -3755,9 +3755,9 @@ Since the ⟮c:204;bottom⟯ of ⟮c:205;a HSV/HSB cylinder⟯ ⟮c:206;approach
 ⟮c:216;HSV/HSB⟯ has v⟮c:217;alue/brightness⟯ as ⟮c:218;the height⟯.  
 both ⟮c:219;HSL⟯ and ⟮c:219;HSV/B⟯ have the problem that ⟮c:220;changing⟯ the ⟮c:221;saturation⟯ and ⟮c:223;to a certain extent⟯ ⟮c:222;the hue⟯ ⟮c:220;will change⟯ ⟮c:224;the percieved lightness/brightness⟯, even when ⟮c:225;they are supposed to be independent⟯. 
 
-<div class="flex-container">⟮h:all;<img src="sm_hsl_cylinder.png">⟯⟮h:all;<img src="sm_hsv_cylinder.png">⟯</div>
-<div class="flex-container">⟮h:all;<img src="sm_hsl_cone.png">⟯⟮h:all;<img src="sm_hsv_cone.png">⟯
-</div>
+[[[⟮h:all;<img src="sm_hsl_cylinder.png">⟯⟮h:all;<img src="sm_hsv_cylinder.png">⟯]]]
+[[[⟮h:all;<img src="sm_hsl_cone.png">⟯⟮h:all;<img src="sm_hsv_cone.png">⟯]]]
+
 For any given color model, to ⟮c:228;specify transparency⟯, you ⟮c:229;add another channel⟯, which is called the ⟮c:230;alpha⟯ channel.
 For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding another two-digit hex to the end⟯.
 ⟮c:126;&lt;color-model&gt;-D⟯ is ⟮c:127;just that color model⟯ with ⟮c:128;an additional depth channel.⟯ 
@@ -3786,6 +3786,7 @@ daylight|6000K+
 candles|1500-2000K
 
 #### color schemes
+
 ⟮c:1,15;analogous ⟯|⟮c:8;h:15-21;Two or more colors that are all next to each other on the color wheel⟯|⟮c:22;h:8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
 ⟮c:2,16;complementary ⟯|⟮c:9;h:15-21;Two opposite colors on the color wheel⟯|⟮c:23;h:8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
 ⟮c:3,17;monochromatic ⟯|⟮c:10;h:15-21;A single color⟯|⟮c:24;h:8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
@@ -3870,15 +3871,18 @@ open|cannot be en/disabled
 
 #### curb cut effect
 
-⟮h:all;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
-⟮h:all;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:all;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯<br>Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be instituted⟯. 
+[[[⟮h:all;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
+⟮h:all;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:all;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯]]]
+
+Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be instituted⟯. 
 ⟮c:3;Curb cuts⟯ have only really ⟮c:4;become common⟯ ⟮c:5;in the last few decades⟯ 
 ⟮c:6;Curb cuts⟯ had ⟮c:7;many unexpected benefits⟯ besides ⟮c:8;helping disabled people⟯, giving rise to the term ⟮c:9;curb cut effect⟯. 
 ⟮c:10;The curb cut effect⟯ states that ⟮c:11;accessibility improvements⟯ provide ⟮c:12;many and varied benefits for everyone⟯ besides ⟮c:13;their initial aims⟯ 
 
 #### non-directive play
 
-⟮h:all;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:all;<img src="sm_IMG_8551.jpg">⟯⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯ 
+[[[⟮h:all;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:all;<img src="sm_IMG_8551.jpg">⟯⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯]]]
+
 ⟮c:3;self-directed play⟯ is easier to do when ⟮c:4;the play tools are not designed with any particular end in mind⟯ 
 ⟮c:5;self-directed play⟯ was advocated, especially in ⟮c:6;playgrounds⟯, by ⟮c:7;Isamu Noguchi⟯ 
 ⟮c:8;Noguchi⟯ ⟮c:9;long struggled⟯ to g⟮c:10;et a self-directed play playground built⟯, but ⟮c:11;one was eventually built in Sapporo⟯ 
@@ -5333,7 +5337,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
 the ⟮c:61;columns environment⟯ allows ⟮c:62;a multicolumn setup⟯ in latex ⟮c:70;beamer⟯  
 ⟮c:63;within the columns environment of beamer⟯, ⟮c:64;\column{foo⟯} ⟮c:65;inserts a column of width foo⟯. 
 ⟮c:66;theorem⟯ is an ⟮c:67;environment⟯ that ⟮c:68;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
-<div class="flex-container">⟮h:all;<img src="sm_Beamerblock.png">⟯⟮h:all;<img src="sm_Beamercolumns.png">⟯⟮h:all;<img src="sm_Beamermaths.png"> ⟯</div>
+[[[⟮h:all;<img src="sm_Beamerblock.png">⟯⟮h:all;<img src="sm_Beamercolumns.png">⟯⟮h:all;<img src="sm_Beamermaths.png"> ⟯]]]
 
 ######### KOMAScript
 
@@ -13158,7 +13162,7 @@ You can ⟮c:1;force element state (such as hover, focus⟯) either by ⟮c:2;ri
 
 ###### box model
 
-<div class="flex-container">⟮h:all;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h:all;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯</div>
+[[[⟮h:all;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h:all;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯]]]
 Hovering over ⟮c:1;a part of the box model⟯ in the styles tab will ⟮c:2;higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮c:3;change any part⟯ of the CSS box model in devtools by ⟮c:4;clicking on the relevant number and setting it⟯ 
 

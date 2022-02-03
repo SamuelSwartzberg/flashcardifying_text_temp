@@ -2225,7 +2225,7 @@ name|image
 
 ###### map
 
-<div class="flex-container">⟮h:all;uh:15-26;<img src="sm_male_anat_repr.svg">⟯</div>
+[[[⟮h:all;uh:15-26;<img src="sm_male_anat_repr.svg">⟯]]]
 No.|Name|Common Name
 1|bladder
 2|pubic bone
@@ -2245,7 +2245,7 @@ No.|Name|Common Name
 ⟮c:18;17⟯|⟮c:16;testis/testicle (synonyms⟯)|⟮c:18;balls⟯
 ⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯
 
-<div class="flex-container">⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯</div>
+[[[⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯]]]
 No.|Name|Common Name
 ⟮c:7;1⟯|⟮c:11;glans (penis) ⟯|⟮c:7;head of the penis⟯
 ⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯
@@ -2253,7 +2253,7 @@ No.|Name|Common Name
 ⟮c:10;4⟯|⟮c:14;shaft ⟯
 
 
-<div class="flex-container">⟮h:all;<img src="urethra_view_side_3.jpg">⟯</div>
+[[[⟮h:all;<img src="urethra_view_side_3.jpg">⟯]]]
 
 No.|Name
 1|prostatic urethra
@@ -2263,7 +2263,7 @@ No.|Name
 5|fossa navicularis
 
 
-<div class="flex-container">⟮h:all;<img src="sm_194px-Epididymis-KDS.jpg">⟯</div>
+[[[⟮h:all;<img src="sm_194px-Epididymis-KDS.jpg">⟯]]]
 
 The ⟮c:1;Epididymis⟯ are the ⟮c:2;highly coiled⟯ ⟮c:6;bumpy⟯-feeling ⟮c:3;tubes⟯ connecting ⟮c:4;the testes⟯ to ⟮c:5;the rest of the male reproductive system⟯. 
 
@@ -2468,7 +2468,7 @@ name|can see|occur where
 ⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯
 ⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯
 
-⟮h:all;<div class="flex-container"><img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp"></div>⟯
+⟮h:all;[[[<img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp">]]]⟯
 We distinguish ⟮c:10;3 types⟯ of ⟮c:11;cones⟯, based on ⟮c:12;what wavelength light they respond to⟯ 
 we normally say  we have ⟮c:13;cones⟯ for ⟮c:14;each of the R, G, B colors⟯, but in fact, we have ⟮c:15;one for blue⟯ and ⟮c:16;two which are very similar, both detecting green/yellow/red,⟯ only with ⟮c:17;one shifted slightly⟯. 
 Since ⟮c:18;cone sensitivity⟯ is ⟮c:19;a curve⟯, ⟮c:20;cones for a given color/wavelength⟯ also ⟮c:21;percieve other colors/wavelengths⟯&nbsp; Due to ⟮c:22;the two cones that both have peaks close to it⟯, we are very good at percieving ⟮c:23;shades of green⟯. 

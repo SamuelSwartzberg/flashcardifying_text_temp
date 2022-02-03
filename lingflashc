@@ -2578,7 +2578,7 @@ Original, the ⟮c:11;kern⟯ of ⟮c:12;a glyph or its sort⟯ was ⟮c:13;the 
 
 ####### type, sort
 
-<div class="flex-container">⟮h:all;<img src="sm_220px-Metal_movable_type.jpg">⟯</div>
+[[[⟮h:all;<img src="sm_220px-Metal_movable_type.jpg">⟯]]]
 ⟮c:1;Type⟯ is the ⟮c:2;the pieces⟯ (normally of ⟮c:3;metal⟯) with ⟮c:4;a character on them⟯ used ⟮c:5;for printing⟯. 
 A ⟮c:6;piece of type⟯ for ⟮c:7;a single character⟯ is called ⟮c:8;a sort (or type, see below⟯). 
 ⟮c:9;Type⟯ may be ⟮c:10;synonymous to sort⟯, or may ⟮c:11;refer to type/sort collectively⟯. 
@@ -2616,7 +2616,7 @@ The ⟮c:13;CSS⟯ ⟮c:12;pt⟯ is ⟮c:14;the same as the DTP point⟯, as is 
 
 ####### properties
 
-<div class="flex-container">⟮h:all;<img src="1280px-Typography_Line_Terms.svg.png">⟯⟮h:all;<img src="decender.png">⟯⟮h:all;<img src="1280px-Thank_You_(13824254433).jpg">⟯</div>
+[[[⟮h:all;<img src="1280px-Typography_Line_Terms.svg.png">⟯⟮h:all;<img src="decender.png">⟯⟮h:all;<img src="1280px-Thank_You_(13824254433).jpg">⟯]]]
 The ⟮c:18;body height⟯ when talking about ⟮c:19;movable type⟯ is ⟮c:20;the height of the sort⟯. 
 The ⟮c:21;body height⟯ when talking about ⟮c:22;digital typography⟯ is ⟮c:23;the distance between⟯ ⟮c:24;the top of the tallest letterform⟯ and ⟮c:24;the bottom of the lowest one⟯. 
 Equivalently, we may also define ⟮c:26;the body height⟯ as ⟮c:25;the distance between⟯ ⟮c:27;the ascender⟯ and ⟮c:27;descender⟯ ⟮c:27;line⟯. 
