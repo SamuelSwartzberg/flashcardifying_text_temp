@@ -738,7 +738,7 @@ using style props, we can also define 'states'. (not called that, this is my ter
 style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
 style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
 e.g. _hover={{ fontWeight: 'semibold' }}
-⟮h:all;<img src="sm_2021-09-17--19-05-46-screenshot.jpg">⟯
+⟮h:∞;<img src="sm_2021-09-17--19-05-46-screenshot.jpg">⟯
 ⟮c1;chakra⟯ provides some ⟮c2;predefined shadows⟯ as style props with ⟮c3;boxShadow⟯⟮c4;="name"⟯
 
 the sx prop is an escape hatch to CSS when style props are not enough.
@@ -1030,7 +1030,7 @@ Web Speech API: text to speech/speech to text
 
 PWA|Progressive Web App
 PWAs should work to some extent even when ⟮c1;there is no internet⟯
-⟮h:all;<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c1;screenshots⟯ property of a web app manifest allows for ⟮c2;previewing images of the web app when installing⟯
+⟮h:∞;<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c1;screenshots⟯ property of a web app manifest allows for ⟮c2;previewing images of the web app when installing⟯
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
 #### service workers
@@ -1717,13 +1717,13 @@ typically, any edge width is specified as a <length-percentage>
 ####### css box model
 
 <div class="onion-box">
-  <span>⟮c:1;s:all;Margin-box⟯</span>
+  <span>⟮c:1;s:∞;Margin-box⟯</span>
   <div class="onion-box">
-    <span>⟮c:2;s:all;Border-box⟯</span>
+    <span>⟮c:2;s:∞;Border-box⟯</span>
     <div class="onion-box">
-      <span>⟮c:3;s:all;Padding-box⟯</span>
+      <span>⟮c:3;s:∞;Padding-box⟯</span>
       <div class="onion-box">
-        <span>⟮c:4;s:all;Content-box⟯<br><br></span>
+        <span>⟮c:4;s:∞;Content-box⟯<br><br></span>
       </div>
     </div>
   </div>
@@ -3433,7 +3433,7 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 
 #### theming
 
-⟮h:all;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
+⟮h:∞;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
 A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ⟮c:4;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
@@ -3461,7 +3461,7 @@ dmenu/rofi/choose output the selected item to stdout
 
 ######## command palette / quick open menu
 
-⟮h:all;<img src="Screenshot%202021-12-09%20at%2003.12.09.png">⟯
+⟮h:∞;<img src="Screenshot%202021-12-09%20at%2003.12.09.png">⟯
 A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
 A quick open menu is a text-based fuzzily searchable menu containing navigation items.
 Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
@@ -3486,7 +3486,7 @@ Shortcut to open command palette|Platform
 
 ####### context menu
 
-⟮h:all;<img src="Menu_key_screen.jpg">⟯⟮h:all;<img src="Context_menu_windows.png">⟯⟮h:all;<img src="Context_Menu_on_OS_X_10.9.png">⟯
+⟮h:∞;<img src="Menu_key_screen.jpg">⟯⟮h:∞;<img src="Context_menu_windows.png">⟯⟮h:∞;<img src="Context_Menu_on_OS_X_10.9.png">⟯
 A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
 
 ###### ambiguous
@@ -3520,7 +3520,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 
 ###### status bar
 
-[[[⟮h:all;<img src="sb-paint.png">⟯⟮h:all;<img src="460px-Emacs_statusline.png">⟯⟮h:all;<img src="Gedit_3.11.92.png">⟯⟮h:all;<img src="StatusBar_Light.png">⟯⟮h:all;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯]]]
+[[[⟮h:∞;<img src="sb-paint.png">⟯⟮h:∞;<img src="460px-Emacs_statusline.png">⟯⟮h:∞;<img src="Gedit_3.11.92.png">⟯⟮h:∞;<img src="StatusBar_Light.png">⟯⟮h:∞;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯]]]
 
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
@@ -3529,7 +3529,7 @@ A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;s
 
 ###### taskbar
 
-[[[⟮h:all;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h:all;<img src="Windows_10_Taskbar.PNG">⟯⟮h:all;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h:all;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
+[[[⟮h:∞;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h:∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h:∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h:∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
 
 ⟮c:12;The above⟯ are all examples of ⟮c:11;taskbars⟯. 
 §§ A ⟮c:1;taskbar⟯ is a GUI element that typically shows ⟮c:2;which programs are open⟯, and allows ⟮c:3;pinning programs or other things for quick access⟯. 
@@ -3539,11 +3539,11 @@ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a 
 
 ###### activity bar (vscode)
 
-[[[⟮h:all;<img src="sm_toggle_side_bar.gif">⟯]]]
+[[[⟮h:∞;<img src="sm_toggle_side_bar.gif">⟯]]]
 
 VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;⟮c:13;5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯⟯. 
 
-[[[⟮h:all;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
+[[[⟮h:∞;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
 
 nth icon in activity bar|Purpose
 ⟮c:1;1st icon⟯|⟮c:2;FIile explorer⟯
@@ -3565,7 +3565,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
 ##### sidebars
 
-[[[⟮h:all;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:all;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:all;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:all;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:all;<img src="sidebars.png">⟯]]]
+[[[⟮h:∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:∞;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:∞;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:∞;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:∞;<img src="sidebars.png">⟯]]]
 A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ⟮c:5;navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ⟮c:8;reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
@@ -3594,7 +3594,7 @@ The dialog element has a boolean attribute open representing whether the dialog 
 
 ##### tooltips & popovers
 
-[[[⟮h:all;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮h:a;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮h:a;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮h:a;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯]]]
+[[[⟮h:∞;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮h:a;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮h:a;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮h:a;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯]]]
 ⟮c:2;Tooltips⟯ and ⟮c:2;popovers⟯ are similar in that ⟮c:3;they both appear close to the thing that triggered them⟯. 
 A ⟮c:4;tooltip⟯ is an element/component ⟮c:6;with extra text⟯ which ⟮c:7;appears⟯ when ⟮c:1;when hovering over something⟯ 
 A ⟮c:5;popover⟯ is a element/component that usually ⟮c:8;appears⟯ when ⟮c:9;interacting with something⟯ ⟮c:10;directly adjacent to that thing⟯. it ⟮c:11;is a modal (creates a mode⟯). 
@@ -3602,7 +3602,7 @@ A ⟮c:5;popover⟯ is a element/component that usually ⟮c:8;appears⟯ when �
 
 ##### list box
 
-⟮h:all;<img src="1-final-listbox-matrix">⟯⟮h:all;<img src="List_example.PNG">⟯⟮h:all;<img src="ctrl-list-boxes-image1.png">⟯
+⟮h:∞;<img src="1-final-listbox-matrix">⟯⟮h:∞;<img src="List_example.PNG">⟯⟮h:∞;<img src="ctrl-list-boxes-image1.png">⟯
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
 ##### corners
@@ -3613,7 +3613,7 @@ A listbox (or list box) is a UI element that contains a list of values within a 
 
 ##### dropdown list/menu
 
-⟮h:all;<img src="1y2NriILZC8ujowKW4TWb2Q.png">⟯⟮h:all;<img src="dropdown-example.jpg">⟯⟮h:all;<img src="3-final-sidebyside-dropdowns">⟯
+⟮h:∞;<img src="1y2NriILZC8ujowKW4TWb2Q.png">⟯⟮h:∞;<img src="dropdown-example.jpg">⟯⟮h:∞;<img src="3-final-sidebyside-dropdowns">⟯
 dropdown is short for dropdown list/menu
 A dropwdown is a UI element that consists of ⟮c3;a box⟯ and ⟮c3;a downward arrow⟯ that ⟮c4;one can interact with⟯ to ⟮c5;show a list of options⟯, ⟮c6;exactly one of which⟯ can be ⟮c7;selected⟯. Often, larger ones will ⟮c8;scroll⟯.
 
@@ -3765,8 +3765,8 @@ Since the ⟮c:204;bottom⟯ of ⟮c:205;a HSV/HSB cylinder⟯ ⟮c:206;approach
 ⟮c:216;HSV/HSB⟯ has v⟮c:217;alue/brightness⟯ as ⟮c:218;the height⟯.  
 both ⟮c:219;HSL⟯ and ⟮c:219;HSV/B⟯ have the problem that ⟮c:220;changing⟯ the ⟮c:221;saturation⟯ and ⟮c:223;to a certain extent⟯ ⟮c:222;the hue⟯ ⟮c:220;will change⟯ ⟮c:224;the percieved lightness/brightness⟯, even when ⟮c:225;they are supposed to be independent⟯. 
 
-[[[⟮h:all;<img src="sm_hsl_cylinder.png">⟯⟮h:all;<img src="sm_hsv_cylinder.png">⟯]]]
-[[[⟮h:all;<img src="sm_hsl_cone.png">⟯⟮h:all;<img src="sm_hsv_cone.png">⟯]]]
+[[[⟮h:∞;<img src="sm_hsl_cylinder.png">⟯⟮h:∞;<img src="sm_hsv_cylinder.png">⟯]]]
+[[[⟮h:∞;<img src="sm_hsl_cone.png">⟯⟮h:∞;<img src="sm_hsv_cone.png">⟯]]]
 
 For any given color model, to ⟮c:228;specify transparency⟯, you ⟮c:229;add another channel⟯, which is called the ⟮c:230;alpha⟯ channel.
 For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding another two-digit hex to the end⟯.
@@ -3846,12 +3846,12 @@ transparency/opacity|visibility
 
 ## design
 
-⟮h:all;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">⟯⟮h:all;<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">⟯⟮h:all;<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">⟯⟮h:all;<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
+⟮h:∞;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">⟯⟮h:∞;<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">⟯⟮h:∞;<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">⟯⟮h:∞;<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
 It is often said (esp. in animation) that ⟮c:2;good characters⟯ should ⟮c:3;be recognizable by⟯ ⟮c:1;their silhouette alone⟯ 
 
 
 [[[<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">]]]
-⟮h:all;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
+⟮h:∞;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
 <img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c1;Negative space⟯ is ⟮c2;the area without subjects/areas of focus⟯
 ⟮c3;Positive space⟯ is ⟮c4;the area with subjects/areas of focus⟯
 In the image, if ⟮c5;you see a vase⟯, the ⟮c6;black space⟯ is the ⟮c7;negative space⟯ and the ⟮c6;white space⟯ is the ⟮c7;positive space⟯
@@ -3882,8 +3882,8 @@ open|cannot be en/disabled
 
 #### curb cut effect
 
-[[[⟮h:all;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
-⟮h:all;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:all;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯]]]
+[[[⟮h:∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
+⟮h:∞;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h:∞;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯]]]
 
 Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be instituted⟯. 
 ⟮c:3;Curb cuts⟯ have only really ⟮c:4;become common⟯ ⟮c:5;in the last few decades⟯ 
@@ -3892,7 +3892,7 @@ Only after ⟮c:1;disabled people protested⟯ did ⟮c:2;curb cuts begin to be 
 
 #### non-directive play
 
-[[[⟮h:all;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:all;<img src="sm_IMG_8551.jpg">⟯⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯]]]
+[[[⟮h:∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h:∞;<img src="sm_IMG_8551.jpg">⟯⟮c:1;non-directive/self-directed play⟯ is play that ⟮c:2;allows the players to do whatever they come up with⟯]]]
 
 ⟮c:3;self-directed play⟯ is easier to do when ⟮c:4;the play tools are not designed with any particular end in mind⟯ 
 ⟮c:5;self-directed play⟯ was advocated, especially in ⟮c:6;playgrounds⟯, by ⟮c:7;Isamu Noguchi⟯ 
@@ -4104,7 +4104,7 @@ as of 2020, HDDs are typically a few TB in size.
 a HDD is made up of clusters which are made up of sectors.
 A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
 
-⟮h:all;<img src="sm_cyl_head_sect_dia.svg">⟯
+⟮h:∞;<img src="sm_cyl_head_sect_dia.svg">⟯
 HDDs originally used a form of physical addressing known as CHS.
 CHS = Cylinder Head Sector
 CHS used the head, cylinder and sector (like coordinates) to specify a memory location.
@@ -4222,7 +4222,7 @@ a file manager/browser is a program that provides an user interface for managing
 mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
-⟮h:all;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
+⟮h:∞;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
 For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:gb;To ⟮c:4;add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:gb;You can use this to search ⟮c:6;pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.⟯⟯ 
 
 ##### information
@@ -4465,7 +4465,7 @@ piping to `source /dev/stdin` executes the text as a command
 
 ##### Mac
 
-⟮h:all;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c:2;macOs⟯'s ⟮c:1;/private⟯ folder contains ⟮c:3;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s:1-3;⟮c:4;etc⟯, ⟮c:5;tmp⟯, and ⟮c:6;var⟯⟯
+⟮h:∞;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c:2;macOs⟯'s ⟮c:1;/private⟯ folder contains ⟮c:3;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s:1-3;⟮c:4;etc⟯, ⟮c:5;tmp⟯, and ⟮c:6;var⟯⟯
 
 ## files
 
@@ -4762,7 +4762,7 @@ input-output-options
 
 ####### types
 
-⟮h:all;<img src="1280px-VectorBitmapExample.svg.png">⟯
+⟮h:∞;<img src="1280px-VectorBitmapExample.svg.png">⟯
 Vector images/graphics are images created directly from geometric shapes.
 Vector images are contrasted wtih raster images/graphics.
 Raster images are images created from a matrix/grid of square pixels. 
@@ -4787,7 +4787,7 @@ Often, ⟮c:17;SVG⟯ is ⟮c:10;included in HTML⟯. This can be done by i⟮c:
 
 ########## affinity designer
 
-⟮h:all;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
+⟮h:∞;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
 To ⟮c:2;select a color in affinity designer⟯ (must be in ⟮c:3;Pixel Persona⟯) ⟮c:1;Select &gt; Select Sample Color⟯ 
 To ⟮c:4;turn a color transparent⟯ in affinity designer ⟮c:5;select a color, then delete it with backspace⟯ 
 
@@ -5192,7 +5192,7 @@ In ⟮c:50;the autobreak environment⟯, ⟮c:51;any newline⟯ is treated as �
 ⟮c:52;proof⟯ provides ⟮c:53;an environments for proofs⟯ 
 the ⟮c:54;cases environment⟯ renders ⟮c:55;multiple lines⟯ with ⟮c:56;an extensible left curly-brace⟯ for ⟮c:57;piecewise-defined functions⟯ 
 
-⟮h:all;<img src="sm_CkJlF.png">⟯
+⟮h:∞;<img src="sm_CkJlF.png">⟯
 
 
 ######### newtheorem
@@ -5314,7 +5314,7 @@ The kind of themes that latex presentations can have are ⟮c:31;presentation⟯
 ⟮c:43;\only⟯⟮c:44;&lt;overlay-spec&gt;{text⟯}: ⟮c:47;only render the text⟯ ⟮c:49;on the specified slides⟯ 
 ⟮c:45;\uncover⟯⟮c:46;&lt;overlay-spec&gt;{text⟯}: ⟮c:48;only render the text⟯ ⟮c:50;on the specified slides,⟯ but ⟮c:51;still take up space on the other slides⟯&nbsp;
 
-⟮h:all;<img src="sm_L5.png">⟯
+⟮h:∞;<img src="sm_L5.png">⟯
 
 When using the ⟮c:54;beamer⟯ class, you can use ⟮c:52;modes⟯ to ⟮c:53;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56;&lt;⟯⟮c:59;certain_mode⟯⟮c:56;&gt;⟯⟮c:57;{⟯⟮c:58;things to do⟯⟮c:57;} ⟯ 
@@ -5345,7 +5345,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
 the ⟮c:61;columns environment⟯ allows ⟮c:62;a multicolumn setup⟯ in latex ⟮c:70;beamer⟯  
 ⟮c:63;within the columns environment of beamer⟯, ⟮c:64;\column{foo⟯} ⟮c:65;inserts a column of width foo⟯. 
 ⟮c:66;theorem⟯ is an ⟮c:67;environment⟯ that ⟮c:68;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
-[[[⟮h:all;<img src="sm_Beamerblock.png">⟯⟮h:all;<img src="sm_Beamercolumns.png">⟯⟮h:all;<img src="sm_Beamermaths.png"> ⟯]]]
+[[[⟮h:∞;<img src="sm_Beamerblock.png">⟯⟮h:∞;<img src="sm_Beamercolumns.png">⟯⟮h:∞;<img src="sm_Beamermaths.png"> ⟯]]]
 
 ######### KOMAScript
 
@@ -5869,7 +5869,7 @@ If you refer to an issue with ⟮c2;#number⟯ and a word such ⟮c3;as closes, 
 
 ### electrical connectors
 
-⟮h:all;<img src="Connectors.jpg">⟯⟮h:all;<img src="1280px-ConnectorSymbols.svg.png">⟯§§ An ⟮c:1;electrical connector⟯ is a device that ⟮c:2;joins electric conductors⟯ ⟮c:3;mechanically⟯ and ⟮c:4;electrically⟯. §<br>
+⟮h:∞;<img src="Connectors.jpg">⟯⟮h:∞;<img src="1280px-ConnectorSymbols.svg.png">⟯§§ An ⟮c:1;electrical connector⟯ is a device that ⟮c:2;joins electric conductors⟯ ⟮c:3;mechanically⟯ and ⟮c:4;electrically⟯. §<br>
 In ⟮c:5;electrical connectors⟯, the ⟮c:6;mechanical connection⟯ is ⟮c:7;to allow the electrical connecton to stay in place⟯ and thus ⟮c:8;an electrical circuit to be created⟯. 
 Most ⟮c:9;electrical connectors⟯ have ⟮c:10;a gender (male or female :( ⟯) 
 An ⟮c:20;electrical connector⟯ that is ⟮c:21;a protusion⟯ is ⟮c:22;male⟯. 
@@ -5885,7 +5885,7 @@ A ⟮c:17;terminal⟯ is ⟮c:18;the point where a conductor ends⟯. It may be 
 A transistor has three terminals.
 In a transistor, if you apply power to two certain terminals, power can flow through two other terminals. (of course, between both of the sets of the terminals, one will be the same.
 
-⟮h:all;<img src="sm_transistor-current-explanation.png">⟯
+⟮h:∞;<img src="sm_transistor-current-explanation.png">⟯
 BJT  Bipolar junction transistor
 The three terminals in a bipolar transistor are called ⟮c1;base⟯, ⟮c2;collector⟯, and ⟮c3;emitter⟯.
 BJT are either PNP or NPN.
@@ -6253,7 +6253,7 @@ Authentication is proving one's identity.
 
 ### nonce
 
-⟮h:all;<img src="300px-Replay_attack_on_hash.svg.png">⟯Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
+⟮h:∞;<img src="300px-Replay_attack_on_hash.svg.png">⟯Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
 ### challenge-response
 
@@ -6346,13 +6346,13 @@ A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves
 <h1>
   ⟮c:5;MitM attack⟯
 </h1>
-⟮h:all;uh:1;<img src="sm_MitM1.jpg">⟯
-⟮c:1;h:all;uh:2;<img src="sm_MitM2.jpg">⟯
-⟮c:2;h:all;uh:3;<img src="sm_MitM3.jpg">⟯
-⟮c:3;h:all;uh:4;<img src="sm_MitM4.jpg">⟯
-⟮c:4;h:all;<img src="sm_MitM5.jpg">⟯
+⟮h:∞;uh:1;<img src="sm_MitM1.jpg">⟯
+⟮c:1;h:∞;uh:2;<img src="sm_MitM2.jpg">⟯
+⟮c:2;h:∞;uh:3;<img src="sm_MitM3.jpg">⟯
+⟮c:3;h:∞;uh:4;<img src="sm_MitM4.jpg">⟯
+⟮c:4;h:∞;<img src="sm_MitM5.jpg">⟯
 
-⟮uh:all;After the MitM for public key encryption has been set up...⟯<br>
+⟮uh:∞;After the MitM for public key encryption has been set up...⟯<br>
 ⟮c:12;the server⟯ and ⟮c:12;client⟯ ⁑actually⁑ have ⟮c:13;the MitMs public key⟯ 
 ⟮c:10;the server⟯ and ⟮c:10;client⟯ ⁑think⁑ they have ⟮c:11;each other's public key⟯ 
 ⟮c:6;the MitM⟯ looks like ⟮c:6;the server⟯ to ⟮c:7;the client⟯ 
@@ -7650,10 +7650,10 @@ A login session starts when a user logs in and ends when a user logs out or the 
 
 ### proxy
 
-⟮h:all;<img src="Proxy_concept_en.svg">⟯
+⟮h:∞;<img src="Proxy_concept_en.svg">⟯
 A ⟮c1;proxy (server)⟯ is a ⟮c2;server/server application⟯ that ⟮c3;acts as an intermediary between⟯ ⟮c4;a client requesting a resource⟯ and ⟮c4;the server providing that resource.⟯
 A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
-⟮h:all;<img src="Reverse_proxy_h2g2bob.svg">⟯
+⟮h:∞;<img src="Reverse_proxy_h2g2bob.svg">⟯
 Reverse proxies are sometimes called surrogates or gateways.
 
 ### directions
@@ -8192,7 +8192,7 @@ a ⟮c:26;local/private⟯ ⟮c:27;HTTP cache⟯ sits ⟮c:28;in your web browse
 The main mechanism ⟮c:35;HTTP caching⟯ uses is ⟮c:36;the Cache-Control header⟯. 
 In the days of ⟮c:37;HTTP 1.0⟯, the ⟮c:38;Pragma header⟯ was used for ⟮c:39;caching⟯. 
 The ⟮c:40;Cache-Control header⟯ is sent ⟮c:41;by the server⟯ and&nbsp;specifies ⟮c:44;if a resource can be cached⟯, ⟮c:42;who can cache it⟯, and ⟮c:43;how long it can be cached⟯. 
-The ⟮c:45;Cache-Control header::caching⟯ consists of ⟮c:46;a comma-separated list⟯, with either ⟮c:47;boolean keywords⟯ or ⟮c:48;key=value pairs⟯ ⟮h:all;(cookie e.g. has a ; separated list) ⟯. 
+The ⟮c:45;Cache-Control header::caching⟯ consists of ⟮c:46;a comma-separated list⟯, with either ⟮c:47;boolean keywords⟯ or ⟮c:48;key=value pairs⟯ ⟮h:∞;(cookie e.g. has a ; separated list) ⟯. 
 To specify ⟮c:49;how long⟯ ⟮c:50;a cache entry⟯ is ⟮c:49;fresh (when it becomes stale⟯), one can either specify ⟮c:51;max-age=value⟯ as ⟮c:52;part of the Cache-Control header⟯ or ⟮c:53;the separate Expires header⟯. 
 ⟮c:54;Maximum value⟯ for ⟮c:55;Cache-Control:⟯ ⟮c:56;max-age⟯ is ⟮c:57;1 year⟯ 
 
@@ -8216,7 +8216,7 @@ There's no ⟮c:88;built-in/non-hacky way⟯ in ⟮c:87;HTTP⟯ to ⟮c:86;notif
 ⟮c:94;Cache busting⟯ sets ⟮c:95;the longest possible max-age⟯ on resources, and if ⟮c:96;there are changes⟯, it ⟮c:97;renames the file in some way (e.g. a hash suffix⟯), which ⟮c:98;forces the browser to redownload⟯. 
 ⟮c:99;Cache busting⟯ is generally done by ⟮c:100;build tools such as Webpack automatically⟯ 
 
-⟮h:all;<img src="sm_tmpyvxwccqz.png">⟯
+⟮h:∞;<img src="sm_tmpyvxwccqz.png">⟯
 
 
 ######### cookies
@@ -8494,7 +8494,7 @@ the IP protocol data unit (the packet) is alternatively sometimes also called da
 
 ####### address space
 
-⟮h:all;<img src="1024px-Regional_Internet_Registries_world_map.svg.png">⟯
+⟮h:∞;<img src="1024px-Regional_Internet_Registries_world_map.svg.png">⟯
 RIR = Regional Internet Registry
 NRO = Number Resource Organization
 There are 5 RIRs.
@@ -8742,7 +8742,7 @@ electrical telegraph is often just shortened to telegraph.
 The electrical telegraph uses electrical pulses as a medium.
 Telegraph stations were connected by wires.
 The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
-⟮h:all;<img src="morse-vail-telegraph-key-1844-science-source.jpg">⟯A ⟮c1;telegraph key⟯ was/is a electrical switch where ⟮c2;pressing it⟯ would ⟮c3;produce a signal⟯ (and ⟮c4;holding it⟯ would ⟮c5;produce a longer one⟯).
+⟮h:∞;<img src="morse-vail-telegraph-key-1844-science-source.jpg">⟯A ⟮c1;telegraph key⟯ was/is a electrical switch where ⟮c2;pressing it⟯ would ⟮c3;produce a signal⟯ (and ⟮c4;holding it⟯ would ⟮c5;produce a longer one⟯).
 The telegraph sounder would have produced clicks from the electrical impulses.
 Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
 
@@ -12285,8 +12285,8 @@ React Native|HTML
 onChangeText|event when text is changed
 onSubmitEditing|event when text is submitted
 
-⟮h:all;<img src="sm_2021-09-16--16-10-01-screenshot.png">⟯
-⟮h:all;<img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
+⟮h:∞;<img src="sm_2021-09-16--16-10-01-screenshot.png">⟯
+⟮h:∞;<img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
 A list with ⟮c1;sections/headings⟯ should probably use the ⟮c2;&lt;SectionList&gt;⟯ component
 A list with ⟮c1;no sections/headings⟯ should probably use the ⟮c2;&lt;FlatList&gt;⟯ component
 
@@ -13175,14 +13175,14 @@ to ⟮c:13;hide the DOM node you have focused⟯ in devtools, press ⟮c:14;h⟯
 to edit the ⟮c:15;attributes⟯/⟮c:16;node type⟯ of a node while in devtools, press ⟮c:17;enter⟯ and then ⟮c:18;tab/shift tab around⟯ 
 Chrome's devtools feature an ⟮c:19;element picker⟯, which can be toggled with ⟮c:20;⟦⌘⟧ ⟦⇧⟧ <kbd>C</kbd>⟯ 
 to have an ⟮c:21;element that you select in your devtools be visible in your browser window⟯, ⟮c:22;right-click⟯ and then ⟮c:23;click <q>scroll into view</q>⟯ 
-⟮h:all;<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯
+⟮h:∞;<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯
 
 ##### styles tab
 
 ⟮c:3;navigate through⟯ ⟮c:1;style declarations⟯ and ⟮c:1;selectors⟯ in the styles panel with ⟮c:2;tab/shift-tab⟯ 
 ⟮c:4;control-clicking⟯ a ⟮c:5;style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮c:6;goes to the line where it was declared⟯ 
 ⟮c:7;shift-clicking⟯ ⟮c:8;the box next to a color⟯ in the styles panel devtools ⟮c:9;changes its color representation (RGB, HSLA, etc.⟯) 
-⟮h:all;<img src="sm_2021-09-16--17-43-33-screenshot.jpg">⟯
+⟮h:∞;<img src="sm_2021-09-16--17-43-33-screenshot.jpg">⟯
 
 ##### elements+styles tab
 
@@ -13190,7 +13190,7 @@ You can ⟮c:1;force element state (such as hover, focus⟯) either by ⟮c:2;ri
 
 ###### box model
 
-[[[⟮h:all;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h:all;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯]]]
+[[[⟮h:∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h:∞;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯]]]
 Hovering over ⟮c:1;a part of the box model⟯ in the styles tab will ⟮c:2;higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮c:3;change any part⟯ of the CSS box model in devtools by ⟮c:4;clicking on the relevant number and setting it⟯ 
 
@@ -13428,7 +13428,7 @@ An UML class diagram generally consists of three parts, a class name on top, mem
 
 #### sequence
 
-⟮h:all;<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">⟯
+⟮h:∞;<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">⟯
 
 A sequencie diagram is an UML diagram showing object interactions as time flows.
 In a sequene diagram, the lifelines go from the objects downwards.

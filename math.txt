@@ -169,14 +169,14 @@ A circular arc is the arc of a circle between a pair of distinct points.
 ## Area
 
 Man kann sich die Formel des ⟮c2;Flächeninhalts⟯ eines ⟮c3;Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮c1;indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
-⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_dreieck.gif">⟯
-⟮c:3;Kreis⟯|⟮c:4;\[A=r^2π\]⟯</td></tr>|⟮h:all;<img src="sm_kreis.gif">⟯
-⟮c:5;Parallelogramm⟯|⟮c:6;\[A=a*h_a=b*h_b\]⟯</td></tr>|⟮h:all;<img src="sm_para.gif">⟯
-⟮c:7;Quadrat⟯|⟮c:8;\[A=a^2\]⟯</td></tr>|⟮h:all;<img src="sm_quadrat.gif">⟯
-⟮c:9;Rechteck⟯|⟮c:10;\[A=a*b\]⟯</td></tr>|⟮h:all;<img src="sm_rechteck.gif">⟯
-⟮c:11;Rhombus/Deltoid⟯|⟮c:12;\[A=\frac{e*f}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_deltoid.gif">⟯
-⟮c:13;Trapez⟯|⟮c:14;\[A=\frac{(a+c)*h}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_trapez.gif">⟯
-⟮c:15;Kreissektor⟯|⟮c:16;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_sektor.gif">⟯
+⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:∞;<img src="sm_dreieck.gif">⟯
+⟮c:3;Kreis⟯|⟮c:4;\[A=r^2π\]⟯</td></tr>|⟮h:∞;<img src="sm_kreis.gif">⟯
+⟮c:5;Parallelogramm⟯|⟮c:6;\[A=a*h_a=b*h_b\]⟯</td></tr>|⟮h:∞;<img src="sm_para.gif">⟯
+⟮c:7;Quadrat⟯|⟮c:8;\[A=a^2\]⟯</td></tr>|⟮h:∞;<img src="sm_quadrat.gif">⟯
+⟮c:9;Rechteck⟯|⟮c:10;\[A=a*b\]⟯</td></tr>|⟮h:∞;<img src="sm_rechteck.gif">⟯
+⟮c:11;Rhombus/Deltoid⟯|⟮c:12;\[A=\frac{e*f}{2}\]⟯</td></tr>|⟮h:∞;<img src="sm_deltoid.gif">⟯
+⟮c:13;Trapez⟯|⟮c:14;\[A=\frac{(a+c)*h}{2}\]⟯</td></tr>|⟮h:∞;<img src="sm_trapez.gif">⟯
+⟮c:15;Kreissektor⟯|⟮c:16;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯</td></tr>|⟮h:∞;<img src="sm_sektor.gif">⟯
 
 
 
@@ -321,13 +321,13 @@ Symbol|Refers to?
 
 
 <div class="onion-box">
-  <span>⟮c:11;s:all;ℝ⟯</span>
+  <span>⟮c:11;s:∞;ℝ⟯</span>
   <div class="onion-box">
-    <span>⟮c:12;s:all;ℚ⟯</span>
+    <span>⟮c:12;s:∞;ℚ⟯</span>
     <div class="onion-box">
-      <span>⟮c:13;s:all;ℤ⟯</span>
+      <span>⟮c:13;s:∞;ℤ⟯</span>
       <div class="onion-box">
-        <span>⟮c:14;s:all;ℕ<br><br>⟯</span>
+        <span>⟮c:14;s:∞;ℕ<br><br>⟯</span>
       </div>
     </div>
   </div>
@@ -430,7 +430,7 @@ Equivalently, a ⟮c:71;regular graph⟯ is one where ⟮c:73;each vertex⟯ has
 A ⟮c:74;complete graph⟯ is a ⟮c:75;regular graph⟯ where ⟮c:76;each vertex⟯ is ⟮c:77;connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
 Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of ⟮c:80;amount of vertices n - 1⟯. 
 
-[[[⟮h:all;<img src="sm_directed_graph.svg">⟯⟮h:a;<img src="sm_multigraph.svg">⟯⟮h:all;<img src="sm_weighted_graph.svg">⟯]]]
+[[[⟮h:∞;<img src="sm_directed_graph.svg">⟯⟮h:a;<img src="sm_multigraph.svg">⟯⟮h:∞;<img src="sm_weighted_graph.svg">⟯]]]
 
 Graph-related thing|alternative names
 ⟮c:1;edges⟯|⟮c:2;links/lines⟯
@@ -461,7 +461,7 @@ A ⟮c:100;cycle⟯ is ⟮c:101;a circuit (a closed trail⟯) with ⟮c:102;no r
 A ⟮c:103;graph⟯ ⟮c:104;without cycles⟯ is called ⟮c:105;acyclic⟯. 
 The ⟮c:106;length⟯ ⟮c:107;k⟯ of ⟮c:108;walks/trails/paths/circuits/cycles⟯ are counted in ⟮c:109;edges⟯. 
 
-[[[⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h:all;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯]]]
+[[[⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯]]]
 
 ⟮c:113;Two vertices⟯ are ⟮c:110;connected⟯ if ⟮c:111;there is a path between two vertices⟯, else ⟮s:110;they are ⟮c:112;disconnected⟯.⟯ 
 ⟮c:114;A graph⟯ is ⟮c:115;connected⟯ if ⟮c:116;every pair of vertices are connected⟯, ergo ⟮c:117;s:gb;there is a path between any two vertices⟯, else it is ⟮c:118;s:gb;disconnected⟯. 
@@ -670,7 +670,7 @@ b^-n = 1/(b^{-1})
 A function/operation/etc. is ⟮c:1;idempotent⟯ if ⟮c:2;it can be applied mulitple times⟯ without ⟮c:3;changing the result⟯ ⟮c:4;beyond the initial application⟯. 
 Examples for i⟮c:5;dempotent functions⟯ include ⟮c:1;abs(x), floor(x), ceil(x) etc.⟯ 
 
-[[[⟮h:all;uh:6-7;<img src="sm_256-512.png">⟯⟮h:all;uh:6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯]]]
+[[[⟮h:∞;uh:6-7;<img src="sm_256-512.png">⟯⟮h:∞;uh:6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯]]]
 the ⟮c:6;right image⟯'s button is ⟮c:7;idempotent⟯, the ⟮c:6;left image⟯'s is ⟮c:7;not⟯ 
 
 #### commutative
@@ -750,7 +750,7 @@ min    ┏━━━━━┳━━━━━┓    max
 
 All the same: (confound|lurk)(er|ing (variable|factor))
 
-⟮h:all;<img src="sm_1000px-Simple_Confounding_Case.svg.jpg">⟯
+⟮h:∞;<img src="sm_1000px-Simple_Confounding_Case.svg.jpg">⟯
 am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
 A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
 Correlation is a statistical relationship between two random variables, whether causal or not.
@@ -900,7 +900,7 @@ Symbol|Unit|in SI base units
 
 ## pareto principle
 
-⟮h:all;<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png">⟯⟮h:all;<img src="Pareto_principle.png">⟯
+⟮h:∞;<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png">⟯⟮h:∞;<img src="Pareto_principle.png">⟯
 
 The ⟮c:1;pareto distribution⟯ is a ⟮c:2; (family of) probability distributions⟯ that applies to a large set of ⟮c:3;natural⟯ and ⟮c:3;social⟯ phenomena. 
 A well-known ⟮s:1;pareto distribution⟯ with ⟮c:4;a specific parameter⟯ reflects the idea that ⟮c:5;80% of outcomes are due to 20% of causes⟯, which has become known as ⟮c:6;the pareto principle⟯ (Aka ⟮c:7;the law of the vital few⟯, ⟮c:8;the principle of factor sparsity⟯). 

@@ -54,7 +54,7 @@ A ⟮c:1;sunk cost⟯ is a cost that ⟮c:2;has already been incurred and cannot
 
 ### other types
 
-<img src="240px-CVP-TC-FC-VC.svg.png">⟮h:all;<img src="Marginal_cost1a.png">⟯
+<img src="240px-CVP-TC-FC-VC.svg.png">⟮h:∞;<img src="Marginal_cost1a.png">⟯
 <br>⟮c:1;Fixed costs⟯ ⟮c:2;are the costs that are not dependent on the quantity of goods or services provided⟯.
 In contrast, ⟮c:3;variable costs⟯ ⟮c:4;increase as the quantity of goods or services produced/provided increase⟯.
 ⟮c:5;Together, fixed costs and variable costs make up⟯ ⟮c:6;total cost⟯, which is ⟮c:7;the cost of producing some quantity of output⟯.
@@ -113,7 +113,7 @@ Both ⟮c:8;the growth⟯ and ⟮c:8;subsequent decline⟯ in asset prices in an
 
 Commodity is a term with three competing definitions:
 name|field|definition|examples
-⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:all;wheat, petroleum, copper, rice, but not handmade bracelets⟯
+⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:∞;wheat, petroleum, copper, rice, but not handmade bracelets⟯
 ⟮c:5;commodity⟯|⟮c:6;marxism⟯|⟮c:7;something with both use and exchange value⟯
 ⟮c:8;commodity⟯|⟮c:9;casual usage⟯|⟮c:10;any kind of market good⟯
 
@@ -244,8 +244,8 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 Generation|Start|End|Nicknames
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Baby boomers⟯|⟮c:2;~1945⟯|⟮c:2;~1965⟯
 ⟮c:1;Generation X⟯|⟮c:2;~1965⟯|⟮c:2;~1980⟯
-⟮c:3;Millenials⟯|⟮c:4;~1980⟯|⟮c:4;~1995⟯|⟮c:10;s:all;Generation Y⟯
-⟮c:5;Generation Z⟯|⟮c:6;~1995⟯|⟮c:6;~2010⟯|⟮c:9;s:all;Zoomers⟯
+⟮c:3;Millenials⟯|⟮c:4;~1980⟯|⟮c:4;~1995⟯|⟮c:10;s:∞;Generation Y⟯
+⟮c:5;Generation Z⟯|⟮c:6;~1995⟯|⟮c:6;~2010⟯|⟮c:9;s:∞;Zoomers⟯
 ⟮c:7;Generation α⟯|⟮c:8;~2010⟯|⟮s:8;???⟯
 
 
@@ -284,7 +284,7 @@ Country|TFR
 
 #### japan
 
-⟮h:all;<img src="821361.png">⟯
+⟮h:∞;<img src="821361.png">⟯
 In japan, ⟮c:7;extramarital birth⟯ is ⟮c:8;extremely rare⟯ 
 In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯ 
 Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
@@ -360,7 +360,7 @@ In law, the ⟮c:1;disposition⟯ of a case is ⟮c:2;its final settlement/decis
 
 ### overton window
 
-⟮h:all;<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">⟯⟮c:1;The overton window⟯ is the concept that there is ⟮c:4;a range of ideas/policies⟯ that are ⟮c:5;acceptable⟯ at ⟮c:6;any given time⟯, which then ⟮c:7;determines the acceptability/radicalness of other ideas⟯ ⟮c:8;in relation to it⟯. 
+⟮h:∞;<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">⟯⟮c:1;The overton window⟯ is the concept that there is ⟮c:4;a range of ideas/policies⟯ that are ⟮c:5;acceptable⟯ at ⟮c:6;any given time⟯, which then ⟮c:7;determines the acceptability/radicalness of other ideas⟯ ⟮c:8;in relation to it⟯. 
 In the overton window concept, everything ⟮c:9;inside the window⟯ is considered to be ⟮c:2;acceptable/reasonable/sensible⟯ 
 In the overton window concept, everything ⟮c:10;outside the window⟯ is considered to be ⟮c:3;radical/unthinkable⟯ 
 ⟮c:11;Introducing radical ideas⟯ ⟮c:12;shifts the overton windon into that direction⟯. 
@@ -368,7 +368,7 @@ To make something ⟮c:13;viable/actual policy⟯, first ⟮c:14;the overton win
 
 ### horseshoe theory
 
-⟮h:all;<img src="polspechorse.svg">⟯
+⟮h:∞;<img src="polspechorse.svg">⟯
 Proponents of ⟮c:1;horseshoe⟯ theory argue that the ⟮c:2;extreme left⟯ and the ⟮c:2;extreme right⟯ are ⟮c:3;closer to each other than either is to the political center.⟯  
 ⟮c:4;Horseshoe⟯ theory is probably mostly ridiculous, since it's may generally be ⟮c:5;centrists⟯ who ⟮c:5;easily become swayed to support the rise of fascism⟯ 
 
@@ -417,7 +417,7 @@ A ⟮c:1;Pamphlet war⟯ was a ⟮c:2;protracted argument or discussion⟯ throu
 
 ### structure
 
-⟮h:all;<img src="sm_2021-06-27--09-51-54-screenshot.jpg">⟯Someone ⟮c:15;doing something⟯ defined as ⟮c:16;the intended result⟯ of ⟮c:17;an ad or similar⟯ is known as a ⟮c:18;conversion⟯. 
+⟮h:∞;<img src="sm_2021-06-27--09-51-54-screenshot.jpg">⟯Someone ⟮c:15;doing something⟯ defined as ⟮c:16;the intended result⟯ of ⟮c:17;an ad or similar⟯ is known as a ⟮c:18;conversion⟯. 
 ⟮c:19;A purchase, a click on a certain thing, subscribing to a newsletter⟯ might all be ⟮c:20;Conversions⟯ 
 The ⟮c:2;conversion rate⟯ measures ⟮c:22;conversions⟯ per ⟮c:21;site visitor (or similar⟯) 
 A ⟮c:1;sales/conversion funnel⟯ is the process where you repeatedly ⟮c:3;reduce the users options⟯ until ⟮c:4;a conversion⟯. 
@@ -547,7 +547,7 @@ The ⟮c:6;death of the author⟯ pushes back against the idea of ⟮c:7;authori
 
 #### hermeneutic circle
 
-⟮h:all;<img src="image7.jpg">⟯The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
+⟮h:∞;<img src="image7.jpg">⟯The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
 In the hermeneutic circle, ⟮c:5;moving between the two states⟯ ⟮c:6;deepens or at least changes⟯ our ⟮c:10;understanding⟯. 
 For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is ⟮c:7;never exactly the same⟯ ("⟮c:7;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c:8;spiral⟯. 
 ⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯
@@ -618,7 +618,7 @@ In the pebble scene, neither does the protagonist think it is possible ⟮c:8;to
 
 ###### harlequin
 
-⟮h:all;<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">⟯§§ ⟮c:1;Harlequin Enterprises⟯ is a company that ⟮c:2;publishes romance novels⟯, and reached a peak market domination (in NA) of ⟮c:3;80-90%⟯ of sales in ⟮c:4;the 1990s⟯. As of 2002, they publish about a ⟮c:5;1k books⟯ a year. §<br>
+⟮h:∞;<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">⟯§§ ⟮c:1;Harlequin Enterprises⟯ is a company that ⟮c:2;publishes romance novels⟯, and reached a peak market domination (in NA) of ⟮c:3;80-90%⟯ of sales in ⟮c:4;the 1990s⟯. As of 2002, they publish about a ⟮c:5;1k books⟯ a year. §<br>
 ⟮c:6;Harlequin⟯ sets ⟮c:7;precise standards⟯ for their romance novels, with ⟮c:8;restrictive contracts⟯ with ⟮c:9;bad pay⟯ and ⟮c:10;precise page counts⟯. 
 ⟮c:11;Harlequin⟯ features different ⟮c:12;series⟯ with different ⟮c:12;themes⟯, which also vary things such as ⟮c:13;sexual content⟯. 
 Harlequin series include <cite>⟮c:14;Love Inspired⟯</cite> ⟮(c:15;Christian romances where faith is featured as prominently as passion⟯) and <cite>⟮c:16;Harlequin Presents⟯</cite> ("a⟮c:17;lpha males, decadent glamour and jet-set lifestyles⟯") 
@@ -642,7 +642,7 @@ Japanese romances rarely have covers that depict the principal characters, and t
 
 ###### clinch cover
 
-⟮h:all;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">⟯⟮h:all;<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">⟯⟮h:all;<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯§§ Covers that feature ⟮c:1;topless guys⟯ ⟮c:2;clutching women⟯ to ⟮c:3;their naked upper body⟯  are called ⟮c:4;clinch covers⟯ §<br>
+⟮h:∞;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">⟯⟮h:∞;<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">⟯⟮h:∞;<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯§§ Covers that feature ⟮c:1;topless guys⟯ ⟮c:2;clutching women⟯ to ⟮c:3;their naked upper body⟯  are called ⟮c:4;clinch covers⟯ §<br>
 
 ### journalism
 
@@ -740,10 +740,10 @@ Examples of ⟮c4;litotes⟯ include ⟮c5;<q>not bad</q>; <q>no small task</q>;
 
 #### gleaming star
 
-⟮h:all;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif">⟯
-⟮h:all;<img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg">⟯⟮h:all;<img src="sm_nicegai.jpg">⟯
-⟮h:all;<img src="sm_1000.jpg">⟯
-⟮h:all;<img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c:2;Shining or gleaming⟯ is often represented by ⟮c:3;a four- or eight-pointed long-ish star⟯, where ⟮c:4;the angles between all lines⟯ are ⟮c:5;generally equal⟯. 
+⟮h:∞;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif">⟯
+⟮h:∞;<img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg">⟯⟮h:∞;<img src="sm_nicegai.jpg">⟯
+⟮h:∞;<img src="sm_1000.jpg">⟯
+⟮h:∞;<img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c:2;Shining or gleaming⟯ is often represented by ⟮c:3;a four- or eight-pointed long-ish star⟯, where ⟮c:4;the angles between all lines⟯ are ⟮c:5;generally equal⟯. 
 The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c:1;&lt;image&gt;⟯ 
 If there are ⟮c:6;many small lights⟯, often ⟮c:7;a large amount of  4/8p long-ish stars⟯ are used, whose ⟮c:9;lines⟯ are ⟮c:8;often (though not always⟯) then ⟮c:10;parallel⟯ 
 When using the ⟮c:11;eight-point version⟯ of the slender gleaming star, ⟮c:12;the second set of four points/lines⟯ are ⟮c:13;generally smaller⟯ 
@@ -786,7 +786,7 @@ In fountain. ⟮c:23;a caret⟯ ⟮c:24;after a character name⟯ indicates that
 
 ###### action text
 
-⟮h:all;<img src="sm_paste-93acbcc29329144602ed62e027beb9100c001b91.jpg">⟯§§ In screenplays,  ⟮c:6;text describing what is happening in a scene⟯ is called ⟮c:1;action (text⟯). it is normally in ⟮c:7;normal case.⟯ §<br>
+⟮h:∞;<img src="sm_paste-93acbcc29329144602ed62e027beb9100c001b91.jpg">⟯§§ In screenplays,  ⟮c:6;text describing what is happening in a scene⟯ is called ⟮c:1;action (text⟯). it is normally in ⟮c:7;normal case.⟯ §<br>
 ⟮c:2;Any text that fountain doesn't think is something else⟯ is ⟮c:3;action text⟯.  
 Within ⟮c:4;action text⟯, fountain ⟮c:5;preserves your whitespace choices⟯ 
 
@@ -803,7 +803,7 @@ In fountain scene headings ⟮c:19;must start with⟯ ⟮c:20;EXT/INT etc.⟯ un
 §§ In fountain, you can indicate ⟮c:21;scene numbers⟯ by ⟮c:22;wrapping them in #foo#⟯, they are placed at ⟮c:23;the end of scene headings⟯ §<br>
 ###### transitions
 
-⟮h:all;<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">⟯§§ In screenplays, ⟮c:1;transitions⟯ are in  ⟮c:2;all caps⟯ and ⟮c:3;right-aligned⟯. §<br>
+⟮h:∞;<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">⟯§§ In screenplays, ⟮c:1;transitions⟯ are in  ⟮c:2;all caps⟯ and ⟮c:3;right-aligned⟯. §<br>
 In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content⟯ by ⟮c:6;blank lines⟯, and end ⟮c:7;TO: (unless forced⟯) 
 
 ###### fountain
@@ -942,9 +942,9 @@ else
 ```
 compass rose
 
-  <tbody>|⟮c:1;s:all;N⟯|
-⟮c:2;s:all;N⟯||⟮c:3;s:all;E⟯
-|⟮c:4;s:all;S⟯|
+  <tbody>|⟮c:1;s:∞;N⟯|
+⟮c:2;s:∞;N⟯||⟮c:3;s:∞;E⟯
+|⟮c:4;s:∞;S⟯|
 
 
 ### GIS
@@ -1337,10 +1337,10 @@ Era|Start|End
 
 ##### politics
 
-⟮h:all;<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">⟯⟮c1;小泉純一郎⟯ served as ⟮c3;Japan's prime minister⟯ from ⟮c2;2001⟯ to ⟮c2;2006⟯, coming in with an image of a ⟮c4;maverick⟯
+⟮h:∞;<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">⟯⟮c1;小泉純一郎⟯ served as ⟮c3;Japan's prime minister⟯ from ⟮c2;2001⟯ to ⟮c2;2006⟯, coming in with an image of a ⟮c4;maverick⟯
 
 <h2>
-  ⟮c:7;uh:all;Non-LDP goverments in Japan⟯ since ⟮c:8;uh:all;1948⟯:
+  ⟮c:7;uh:∞;Non-LDP goverments in Japan⟯ since ⟮c:8;uh:∞;1948⟯:
 </h2>
 which|start|end
 ⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯
@@ -1391,8 +1391,8 @@ The main problem with the ⟮c:3;<ruby>靖国神社<rp>(</rp><rt>やすくにじ
 
 #### population
 
-⟮h:all;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">⟯⟮h:all;<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">⟯
-⟮h:all;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h:all;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c:1;<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>⟯ literally means ⟮c:2;of japanese descent⟯, though it can also be an abbreviation of ⟮c:3;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ 
+⟮h:∞;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">⟯⟮h:∞;<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">⟯
+⟮h:∞;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h:∞;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c:1;<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>⟯ literally means ⟮c:2;of japanese descent⟯, though it can also be an abbreviation of ⟮c:3;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ 
 ⟮c:4;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ refers to  ⟮c:5;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
 The ⟮c:6;largest amount⟯ of ⟮c:7;日系（人）⟯ is in ⟮c:8;Brazil⟯ 
 
@@ -1444,8 +1444,8 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 
 #### periods
 
-⟮h:all;<img src="sm_300px-CivilWarUSAColl.jpg">⟯
-⟮h:all;<img src="sm_240px-ReconstructionEraColl.jpg">⟯  <thead>Generation|Start|End|Nicknames
+⟮h:∞;<img src="sm_300px-CivilWarUSAColl.jpg">⟯
+⟮h:∞;<img src="sm_240px-ReconstructionEraColl.jpg">⟯  <thead>Generation|Start|End|Nicknames
 <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Civil War⟯|⟮c:2;1861⟯|⟮c:2;1865⟯
 ⟮c:3;Reconstruction⟯|⟮c:4;1865⟯|⟮c:4;1877⟯
 
@@ -1656,21 +1656,21 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 
   <tbody>
     <tr>
-      <th style="background-color: palegreen;">⟮c:1;s:all;material (objekt-bezogen⟯)|⟮c:2;s:all;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
+      <th style="background-color: palegreen;">⟮c:1;s:∞;material (objekt-bezogen⟯)|⟮c:2;s:∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
 
                   <tbody>
             <tr>
-              <th colspan="2">⟮c:3;s:all;Physik (Objekt: Natur⟯)</th>
-              <th colspan="2" style="background-color: palegreen;">⟮c:4;s:all;Ethik (Objekt: Freiheit⟯)
-⟮c:5;s:all;empirisch⟯|⟮c:6;s:all;a priori, rein⟯|⟮c:7;s:all;empirisch⟯</td>
-              <td style="background-color: palegreen;">⟮c:8;s:all;a priori, rein⟯
-⟮c:9;s:all;Physik (der Natur⟯)|⟮c:10;s:all;Metaphysik (der Natur⟯)|⟮c:11;s:all;praktische Anthropologie⟯</td>
-              <td style="background-color: palegreen;">⟮c:12;s:all;Methaphysik der Sitten = Moral⟯
+              <th colspan="2">⟮c:3;s:∞;Physik (Objekt: Natur⟯)</th>
+              <th colspan="2" style="background-color: palegreen;">⟮c:4;s:∞;Ethik (Objekt: Freiheit⟯)
+⟮c:5;s:∞;empirisch⟯|⟮c:6;s:∞;a priori, rein⟯|⟮c:7;s:∞;empirisch⟯</td>
+              <td style="background-color: palegreen;">⟮c:8;s:∞;a priori, rein⟯
+⟮c:9;s:∞;Physik (der Natur⟯)|⟮c:10;s:∞;Metaphysik (der Natur⟯)|⟮c:11;s:∞;praktische Anthropologie⟯</td>
+              <td style="background-color: palegreen;">⟮c:12;s:∞;Methaphysik der Sitten = Moral⟯
 
       </td>
       <td style="vertical-align: top">
-                  <tbody>⟮c:13;s:all; Logik ⟯
-⟮c:14;s:all; essenziell nicht-empirisch = a priori, rein ⟯
+                  <tbody>⟮c:13;s:∞; Logik ⟯
+⟮c:14;s:∞; essenziell nicht-empirisch = a priori, rein ⟯
 
 
 
@@ -1729,13 +1729,13 @@ According to ⟮c:26;CLS⟯, in ⟮c:27;mythical thought⟯ ⟮c:28;intellectual
 
 separate ⟮c:2;things that can affect an individual⟯ into categories. these are not always identical, but may roughly be ⟮c:3;Individual⟯, ⟮c:3;Interpersonal/Relationship⟯, (more frequently left out) ⟮c:4;Organizational⟯, ⟮c:4;Community⟯, ⟮c:5;Society/Policy⟯. 
 <div class="onion-box">
-  <span>⟮c:6;s:all;Societal (Policy) ⟯</span>
+  <span>⟮c:6;s:∞;Societal (Policy) ⟯</span>
   <div class="onion-box">
-    <span>⟮c:7;s:all;Community⟯</span>
+    <span>⟮c:7;s:∞;Community⟯</span>
     <div class="onion-box">
-      <span>⟮c:8;s:all;Relationship⟯</span>
+      <span>⟮c:8;s:∞;Relationship⟯</span>
       <div class="onion-box">
-        <span>⟮c:9;s:all;Individual⟯</span>
+        <span>⟮c:9;s:∞;Individual⟯</span>
       </div>
     </div>
   </div>
@@ -1745,7 +1745,7 @@ separate ⟮c:2;things that can affect an individual⟯ into categories. these a
 
 ### panopticon
 
-⟮h:all;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">⟯⟮h:all;<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯§§ the word ⟮c:9;panoptic⟯ means ⟮c:10;all-seeing⟯ §<br>
+⟮h:∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">⟯⟮h:∞;<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯§§ the word ⟮c:9;panoptic⟯ means ⟮c:10;all-seeing⟯ §<br>
 The ⟮c:3;panopticon⟯ (in theory) allowed ⟮c:4;a single guard⟯ to ⟮c:2;observe⟯ ⟮c:1;all inmates⟯ ⟮c:2;without them knowing that they were being watched⟯ 
 The ⟮c:5;panopticon⟯ was designed by ⟮c:6;Jeremy Bentham⟯, and used as a metaphor most famously by ⟮c:7;Foucault⟯. 
 
@@ -1887,7 +1887,7 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### modelling
 
-⟮h:all;<img src="share-preview-img.png">⟯⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;⟮c:6;co-citation⟯ and ⟮c:6;bibliographic coupling.⟯⟯ 
+⟮h:∞;<img src="share-preview-img.png">⟯⟮c:1;connectedpapers.com⟯ is a tool that builds ⟮c:2;a graph⟯ of ⟮c:3;related papers⟯ for ⟮c:3;a given paper⟯, allowing for ⟮c:4;finding similar papers⟯. Papers are grouped by ⟮c:5;similarity⟯ measured via ⟮s:5;⟮c:6;co-citation⟯ and ⟮c:6;bibliographic coupling.⟯⟯ 
 
 ## inspiration
 
@@ -2161,7 +2161,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 ⟮c:1;Leaf⟯⟮(c:1;y⟯) ⟮c:2;vegetables⟯/⟮c:2;greens⟯ are ⟮c:3;plant leaves⟯ eaten as ⟮c:6;a vegetable⟯, which are usually ⟮c:4;green⟯-colored and share ⟮c:5;many nutritional similarities⟯. 
 
 #### grains
-⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
+⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:∞;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
 ⟮c:4;wheat⟯|⟮c:5;weizen⟯
 ⟮c:6;barley⟯|⟮c:7;gerste⟯
 ⟮c:8;oat⟯|⟮c:9;hafer⟯
@@ -2192,7 +2192,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 ### directions
 
-<img src="directional-terms.jpg">⟮h:all;<img src="directional-terms-labeled.jpg">⟯  <thead>No. in diagram|Name|Alternative Name
+<img src="directional-terms.jpg">⟮h:∞;<img src="directional-terms-labeled.jpg">⟯  <thead>No. in diagram|Name|Alternative Name
 ⟮c:1;3⟯|⟮c:2;s:3;dorsal⟯|⟮c:3;s:2;posterior⟯
 ⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯
 
@@ -2207,7 +2207,7 @@ name|image
 ⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯
 
 
-⟮h:all;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯  <thead>Name|Description of side of hand
+⟮h:∞;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯  <thead>Name|Description of side of hand
 ⟮c:1;the dorsal side of the hand⟯|⟮c:2;with knuckles etc.⟯
 ⟮c:3;the palmar side of the hand⟯|⟮c:4;the one that has your palm⟯
 ⟮c:5;the ulnar side of the hand⟯|⟮c:6;the side with your pinky finger⟯
@@ -2215,7 +2215,7 @@ name|image
 
 ### regions
 
-<img src="body-regions-numbered.png">⟮h:all;<img src="681px-Regions_of_Human_Body.jpg">⟯  <thead>No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
+<img src="body-regions-numbered.png">⟮h:∞;<img src="681px-Regions_of_Human_Body.jpg">⟯  <thead>No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;28⟯|⟮c:2;femur⟯|⟮c:2;femoral⟯|⟮c:2;thigh⟯
 
 
@@ -2227,7 +2227,7 @@ name|image
 
 ###### map
 
-[[[⟮h:all;uh:15-26;<img src="sm_male_anat_repr.svg">⟯]]]
+[[[⟮h:∞;uh:15-26;<img src="sm_male_anat_repr.svg">⟯]]]
 No.|Name|Common Name
 1|bladder
 2|pubic bone
@@ -2247,7 +2247,7 @@ No.|Name|Common Name
 ⟮c:18;17⟯|⟮c:16;testis/testicle (synonyms⟯)|⟮c:18;balls⟯
 ⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯
 
-[[[⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯]]]
+[[[⟮h:∞;uh:7-14;<img src="sm_penis_underside.jpg">⟯]]]
 No.|Name|Common Name
 ⟮c:7;1⟯|⟮c:11;glans (penis) ⟯|⟮c:7;head of the penis⟯
 ⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯
@@ -2255,7 +2255,7 @@ No.|Name|Common Name
 ⟮c:10;4⟯|⟮c:14;shaft ⟯
 
 
-[[[⟮h:all;<img src="urethra_view_side_3.jpg">⟯]]]
+[[[⟮h:∞;<img src="urethra_view_side_3.jpg">⟯]]]
 
 No.|Name
 1|prostatic urethra
@@ -2265,7 +2265,7 @@ No.|Name
 5|fossa navicularis
 
 
-[[[⟮h:all;<img src="sm_194px-Epididymis-KDS.jpg">⟯]]]
+[[[⟮h:∞;<img src="sm_194px-Epididymis-KDS.jpg">⟯]]]
 
 The ⟮c:1;Epididymis⟯ are the ⟮c:2;highly coiled⟯ ⟮c:6;bumpy⟯-feeling ⟮c:3;tubes⟯ connecting ⟮c:4;the testes⟯ to ⟮c:5;the rest of the male reproductive system⟯. 
 
@@ -2389,7 +2389,7 @@ Our brain ⟮c:31;interpolates⟯ ⟮c:32;the blind spot⟯ and ⟮c:31;fills it
 The ⟮c:33;retina⟯ is the  tissue ⟮c:34;covering⟯ much of ⟮c:35;the inner part of the eye⟯ and ⟮c:36;transforms⟯ ⟮c:37;light⟯ into ⟮c:37;neural signals⟯ via ⟮c:38;the photoreceptor cells⟯ ⟮c:39;contained within⟯. 
 ⟮c:40;Photoreceptor cells⟯ ⟮c:41;transform light into biological signals.⟯ 
 
-⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
+⟮h:∞;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
 The ⟮c:5;posterior chamber of the eyeball⟯ is ⟮c:6;the narrow space between⟯ ⟮c:7;the iris⟯ and ⟮c:8;the suspensory ligament of the lens⟯ 
@@ -2444,7 +2444,7 @@ Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid spac
 
 ###### deep-set/protruding
 
-⟮h:all;<img src="sm_IMG_20200727_135717135.jpg">⟯
+⟮h:∞;<img src="sm_IMG_20200727_135717135.jpg">⟯
 <br>Viewed from ⟮c:5;the side⟯, eyes exist on a spectrum from ⟮c:6;deep-set⟯ to ⟮c:6;protruding⟯ 
 The ⟮c:7;deep-set ... protruding⟯ eyes continuum refers to how ⟮c:8;far back or front⟯ your eye is in relation to ⟮c:9;your cheek bones and browbones⟯. 
 To test for ⟮c:10;deep-set eyes⟯ l⟮c:11;ay your fingers⟯ ⟮c:12;rigidly⟯ on the eye from ⟮c:13;brow⟯ to ⟮c:13;cheekbone⟯, if ⟮c:14;your hand touches your lid⟯, ⟮c:15;they are not deep-set⟯ 
@@ -2470,7 +2470,7 @@ name|can see|occur where
 ⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯
 ⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯
 
-⟮h:all;[[[<img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp">]]]⟯
+⟮h:∞;[[[<img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp">]]]⟯
 We distinguish ⟮c:10;3 types⟯ of ⟮c:11;cones⟯, based on ⟮c:12;what wavelength light they respond to⟯ 
 we normally say  we have ⟮c:13;cones⟯ for ⟮c:14;each of the R, G, B colors⟯, but in fact, we have ⟮c:15;one for blue⟯ and ⟮c:16;two which are very similar, both detecting green/yellow/red,⟯ only with ⟮c:17;one shifted slightly⟯. 
 Since ⟮c:18;cone sensitivity⟯ is ⟮c:19;a curve⟯, ⟮c:20;cones for a given color/wavelength⟯ also ⟮c:21;percieve other colors/wavelengths⟯&nbsp; Due to ⟮c:22;the two cones that both have peaks close to it⟯, we are very good at percieving ⟮c:23;shades of green⟯. 
@@ -2490,7 +2490,7 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
 
 ###### FOV
 
-⟮h:all;<img src="sm_220px-Vertical_FOV.svg.png">⟯
+⟮h:∞;<img src="sm_220px-Vertical_FOV.svg.png">⟯
 FOV|deg
 ⟮c:1;human vertical FOV⟯|⟮c:2;~130 - 150 deg⟯
 ⟮c:3;human horizontal FOV⟯|⟮c:4;~210 deg⟯
@@ -2529,8 +2529,8 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 
 <span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br>⟮c:14;blood pressure⟯ is measured in ⟮c:15;mm Hg⟯ 
 name|definition|compares how to the other one|ideal value|which one in the image?
-⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯
-⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯
+⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:∞;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:∞;lower (than systolic⟯)|⟮c:19;s:∞;less than 80mm Hg⟯|⟮c:20;s:∞;71⟯
+⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:∞;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:∞;higher (than diastolic⟯)|⟮c:24;s:∞;Less than 120mm HG⟯|⟮c:25;s:∞;122⟯
 ⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯
 ⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯
 
@@ -2643,7 +2643,7 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 
 #### pelvic tilt
 
-⟮h:all;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
+⟮h:∞;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
 <br/>  <thead>Bodypart|APT symptom
 ⟮c:1;butt⟯|⟮c:4;stick out back⟯
 ⟮c:2;abdomen⟯|⟮c:5;stick out in front⟯
@@ -2709,7 +2709,7 @@ Thingy|ICD-10 Code
 
 ### signs and symptoms
 
-⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between ⟮c6;signs⟯ and ⟮c6;symptoms⟯ is  ⟮c5;how they are perceptible⟯ 
+⟮h:∞;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between ⟮c6;signs⟯ and ⟮c6;symptoms⟯ is  ⟮c5;how they are perceptible⟯ 
 
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;sign⟯|⟮c:2;observable to others (not just the patient⟯)
 ⟮c:3;symptom⟯|⟮c:4;observable to the patent only⟯
@@ -2739,9 +2739,9 @@ Physiologically, ⟮c4;benign paroxysmal positional vertigo⟯ is caused by ⟮c
 
 #### by varicella-zoster
 
-⟮h:all;<img src="sm_87316209681.jpg">⟯
-⟮h:all;<img src="sm_300px-Herpes_zoster_neck.jpg">⟯
-⟮h:all;<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯§§ ⟮c:1;Chickenpox⟯ is then english term for ⟮c:2;Windpocken⟯ §<br>
+⟮h:∞;<img src="sm_87316209681.jpg">⟯
+⟮h:∞;<img src="sm_300px-Herpes_zoster_neck.jpg">⟯
+⟮h:∞;<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯§§ ⟮c:1;Chickenpox⟯ is then english term for ⟮c:2;Windpocken⟯ §<br>
 ⟮c:3;Herpes Zoster⟯  is the scientific term for ⟮c:4;Shingles⟯, in german it is called ⟮c:5;Gürtelrose⟯ 
 ⟮c:6;Varicella-zoster virus⟯  causees ⟮c:7;Chickenpox, Shingles⟯ 
 ⟮c:8;After Chickenpox has healed⟯, often ⟮c:9;the varicella-zoster virus⟯ ⟮c:10;retreats into the nerves near the spine.⟯ 
@@ -2805,7 +2805,7 @@ Roughly ⟮c:10;1⟯% of the population have ⟮c:11;CFS⟯, with it occuring so
 
 ### first aid
 
-⟮h:all;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯Beim Prüfen des Bewusstseins zuerst ⟮c:1;deutlich⟯ ⟮c:2;Ansprechen⟯, dann ⟮c:1;vorsichtig⟯ ⟮c:3;an den Schultern rütteln⟯. 
+⟮h:∞;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯Beim Prüfen des Bewusstseins zuerst ⟮c:1;deutlich⟯ ⟮c:2;Ansprechen⟯, dann ⟮c:1;vorsichtig⟯ ⟮c:3;an den Schultern rütteln⟯. 
 
 # cleaning
 
@@ -2842,9 +2842,9 @@ Using ⟮c:4;oil⟯ during a massage makes it ⟮c:5;glide more easily⟯, if yo
 
 ### tapotement
 
-⟮h:1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h:all;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h:all;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h:all;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯§§ ⟮c:9;Tapotement⟯ is massage with about ⟮c:10;3-10 strokes per second⟯ performed ⟮c:11;rythmically⟯ §<br>
+⟮h:1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h:∞;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h:∞;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h:∞;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯§§ ⟮c:9;Tapotement⟯ is massage with about ⟮c:10;3-10 strokes per second⟯ performed ⟮c:11;rythmically⟯ §<br>
 What you do during ⟮c:9;tapotement⟯ depends on ⟮c:12;what variety you are using⟯ 
-Name of tapotement|Side of hand|the hand is...|the wrist is⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
+Name of tapotement|Side of hand|the hand is...|the wrist is⟮h:∞;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
 The ⟮c:5;posterior chamber of the eyeball⟯ is ⟮c:6;the narrow space between⟯ ⟮c:7;the iris⟯ and ⟮c:8;the suspensory ligament of the lens⟯ 
@@ -2887,8 +2887,8 @@ In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a t
 
 ⟮c:2;concubi⟯ are ⟮c:3;demons⟯ that are ⟮c:1;very sexual⟯. 
 gender|name|meaning of initial morpheme
- <tbody class="cloze-group-children hide-if-inactive-children">⟮c:8;Male⟯|⟮c:9;Incubus⟯|⟮c:10;s:all;In = on/in⟯
-⟮c:11;Female⟯|⟮c:12;Succubus⟯|⟮c:13;s:all;Sub = under⟯
+ <tbody class="cloze-group-children hide-if-inactive-children">⟮c:8;Male⟯|⟮c:9;Incubus⟯|⟮c:10;s:∞;In = on/in⟯
+⟮c:11;Female⟯|⟮c:12;Succubus⟯|⟮c:13;s:∞;Sub = under⟯
 
 in/con/succubus all originate from the ⟮c:4;latin⟯ root ⟮c:5;cubare⟯, which means ⟮c:6;to lie down⟯. They got gendered via ⟮c:7;the position the initial morpheme describes.⟯ 
 
@@ -2973,7 +2973,7 @@ Types of crushes<br/>  <tbody class="cloze-group-children hide-if-inactive-child
 
 A ⟮c:2;queerplatonic relationship⟯ is one that is ⟮c:1;More intense and intimate⟯ than ⟮c:3;traditional/current understandings of friendship allows⟯, but ⟮c:4;different somehow from a traditional coupled relationship⟯.
 A ⟮c:5;queerplatonic relationship⟯ does not require ⟮c:6;the participants to be queer in the sense of sexuality⟯.
-⟮c:7;People engaged in a queerplatonic relationships⟯ are called ⟮c:8;zucchinis⟯, the term was chosen ⟮c:9;arbitrarily⟯. ( ⟮s:all;"Are you guys dating!?" "No, we're zucchinis."⟯ )
+⟮c:7;People engaged in a queerplatonic relationships⟯ are called ⟮c:8;zucchinis⟯, the term was chosen ⟮c:9;arbitrarily⟯. ( ⟮s:∞;"Are you guys dating!?" "No, we're zucchinis."⟯ )
 
 ## monogamy and non-monogamy
 
@@ -3108,21 +3108,21 @@ Normativity|Normalizes
 #### phobia
 
 phobia|against|aspect of ism
-⟮c:1;Biphobia⟯|⟮c:2;s:all;us:1;bisexual people⟯|⟮c:3;s:all;us:1;heterosexism⟯
-⟮c:4;Ephebiphobia⟯|⟮c:5;s:all;us:4;young people, esp. adolescents⟯|⟮c:6;s:all;us:4;ageism, adultism⟯
-⟮c:7;Homophobia⟯|⟮c:8;s:all;us:7;LGBT people⟯|⟮c:9;s:all;us:7;heterosexism⟯
-⟮c:10;aphobia⟯|⟮c:11;s:all;us:10;a-spec people⟯|⟮c:12;s:all;us:10;doesn't seem to exist yet⟯
-⟮c:13;arophobia⟯|⟮c:14;s:all;us:13;aromantic people⟯|⟮c:15;s:all;us:13;doesn't seem to exist yet⟯
-⟮c:16;acephobia⟯|⟮c:17;s:all;us:16;asexual people⟯|⟮c:18;s:all;us:16;alloexism⟯
-⟮c:19;gayphobia⟯|⟮c:20;s:all;us:19;gay people⟯|⟮c:21;s:all;us:19;heterosexism⟯
-⟮c:22;lesbophobia⟯|⟮c:23;s:all;us:22;lesbian people⟯|⟮c:24;s:all;us:22;heterosexism⟯
-⟮c:25;Xenophobia⟯|⟮c:26;s:all;us:25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c:27;s:all;us:25;nativism⟯
-⟮c:28;Gerontophobia⟯|⟮c:29;s:all;us:28;the elderly⟯|⟮c:30;s:all;us:28;ageism⟯
-⟮c:31;Whorephobia⟯|⟮c:32;s:all;us:31;sex workers⟯|⟮c:33;s:all;us:31;sexworksim(???⟯)
-⟮c:34;transphobia⟯|⟮c:35;s:all;us:34;trans people⟯|⟮c:36;s:all;us:34;transsexism⟯
-⟮c:37;slavophobia⟯|⟮c:38;s:all;us:37;slavic people⟯|⟮c:39;s:all;us:37;xenophobia, racism⟯
-⟮c:40;vegaphobia⟯|⟮c:41;s:all;us:40;vegan people⟯|⟮c:42;s:all;us:40;carnism⟯
-⟮c:43;glottophobia⟯|⟮c:44;s:all;us:43;certain groups of language users⟯|⟮c:45;s:all;us:43;linguicism⟯
+⟮c:1;Biphobia⟯|⟮c:2;s:∞;us:1;bisexual people⟯|⟮c:3;s:∞;us:1;heterosexism⟯
+⟮c:4;Ephebiphobia⟯|⟮c:5;s:∞;us:4;young people, esp. adolescents⟯|⟮c:6;s:∞;us:4;ageism, adultism⟯
+⟮c:7;Homophobia⟯|⟮c:8;s:∞;us:7;LGBT people⟯|⟮c:9;s:∞;us:7;heterosexism⟯
+⟮c:10;aphobia⟯|⟮c:11;s:∞;us:10;a-spec people⟯|⟮c:12;s:∞;us:10;doesn't seem to exist yet⟯
+⟮c:13;arophobia⟯|⟮c:14;s:∞;us:13;aromantic people⟯|⟮c:15;s:∞;us:13;doesn't seem to exist yet⟯
+⟮c:16;acephobia⟯|⟮c:17;s:∞;us:16;asexual people⟯|⟮c:18;s:∞;us:16;alloexism⟯
+⟮c:19;gayphobia⟯|⟮c:20;s:∞;us:19;gay people⟯|⟮c:21;s:∞;us:19;heterosexism⟯
+⟮c:22;lesbophobia⟯|⟮c:23;s:∞;us:22;lesbian people⟯|⟮c:24;s:∞;us:22;heterosexism⟯
+⟮c:25;Xenophobia⟯|⟮c:26;s:∞;us:25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c:27;s:∞;us:25;nativism⟯
+⟮c:28;Gerontophobia⟯|⟮c:29;s:∞;us:28;the elderly⟯|⟮c:30;s:∞;us:28;ageism⟯
+⟮c:31;Whorephobia⟯|⟮c:32;s:∞;us:31;sex workers⟯|⟮c:33;s:∞;us:31;sexworksim(???⟯)
+⟮c:34;transphobia⟯|⟮c:35;s:∞;us:34;trans people⟯|⟮c:36;s:∞;us:34;transsexism⟯
+⟮c:37;slavophobia⟯|⟮c:38;s:∞;us:37;slavic people⟯|⟮c:39;s:∞;us:37;xenophobia, racism⟯
+⟮c:40;vegaphobia⟯|⟮c:41;s:∞;us:40;vegan people⟯|⟮c:42;s:∞;us:40;carnism⟯
+⟮c:43;glottophobia⟯|⟮c:44;s:∞;us:43;certain groups of language users⟯|⟮c:45;s:∞;us:43;linguicism⟯
 
 
 #### chasers
@@ -3210,7 +3210,7 @@ Often the ⟮c:10;school-to-prison pipeline⟯ refers to both ⟮c:4;the schools
 
 ### a boring dystipia
 
-⟮h:all;<img src="Db82H6jV4AELsCZ.jpg">⟯⟮h:all;<img src="Db82JRwV4AEyXHz.jpg">⟯⟮h:all;<img src="Db82VUTVwAAiW7m.jpg">⟯
+⟮h:∞;<img src="Db82H6jV4AELsCZ.jpg">⟯⟮h:∞;<img src="Db82JRwV4AEyXHz.jpg">⟯⟮h:∞;<img src="Db82VUTVwAAiW7m.jpg">⟯
 Mark Fisher coined the term "⟮c:1;a boring dystopia⟯" to describe the situation of the 21st-century where ⟮c:2;the casual perversity⟯ of ⟮c:3;capitalism⟯ ⟮c:4;isn't even interesting enough to get outraged⟯. 
 
 ### x work/x-al labor
@@ -3305,7 +3305,7 @@ Mirroring/Spiegeln: The ⟮c:11;harder⟯ variant has ⟮c:9;both people lead an
 
 #### Feind*in und Beschützer*in
 
-⟮h:all;<img src="sm_your-drawing.png">⟯§§ <cite>⟮c:1;Feind*in und Beschützer*in⟯</cite>: ⟮c:3;Jede*r Spieler*in⟯ sucht sich ⟮c:2;eine*n Feind*in⟯ und ⟮c:2;eine*n Beschützer*in⟯. §<br>
+⟮h:∞;<img src="sm_your-drawing.png">⟯§§ <cite>⟮c:1;Feind*in und Beschützer*in⟯</cite>: ⟮c:3;Jede*r Spieler*in⟯ sucht sich ⟮c:2;eine*n Feind*in⟯ und ⟮c:2;eine*n Beschützer*in⟯. §<br>
 <cite>⟮c:4;Feind*in und Beschützer*in⟯</cite>: Jede*r Spieler*in versucht, ⟮c:5;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
 
 #### assoziationsketten
@@ -3330,9 +3330,9 @@ In the game walking with speed levels, normally the levels are such that ⟮c:7;
 
 #### samurai
 
-⟮h:all;<img src="sm_your-drawing%20(1).png">⟯
-⟮h:all;<img src="sm_your-drawing%20(2).png">⟯
-⟮h:all;<img src="sm_your-drawing%20(3).png">⟯§§ <cite>⟮c:1;Samurai⟯</cite>: The attacker ⟮c:5;raises their sword⟯ and ⟮h:gb; ⟮c:6;cuts downwards⟯ while ⟮h:gb;⟮c:7;emitting a sound (which one varies⟯) and ⟮h:gb;⟮c:8;points at their target⟯. Their ⟮c:9;target⟯ ⟮c:10;cuts upwards⟯ while ⟮c:11;emitting a different sound.⟯ The ⟮h:gb;⟮c:12;left and right neighbors⟯ ⟮c:13;cut from the side⟯ while ⟮c:14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
+⟮h:∞;<img src="sm_your-drawing%20(1).png">⟯
+⟮h:∞;<img src="sm_your-drawing%20(2).png">⟯
+⟮h:∞;<img src="sm_your-drawing%20(3).png">⟯§§ <cite>⟮c:1;Samurai⟯</cite>: The attacker ⟮c:5;raises their sword⟯ and ⟮h:gb; ⟮c:6;cuts downwards⟯ while ⟮h:gb;⟮c:7;emitting a sound (which one varies⟯) and ⟮h:gb;⟮c:8;points at their target⟯. Their ⟮c:9;target⟯ ⟮c:10;cuts upwards⟯ while ⟮c:11;emitting a different sound.⟯ The ⟮h:gb;⟮c:12;left and right neighbors⟯ ⟮c:13;cut from the side⟯ while ⟮c:14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
 In the game <cite>Samurai</cite>, the ⟮c:2;sword⟯ is formed by ⟮c:3;palms together⟯, ⟮c:4;arms straight⟯. 
 
 ## acting
@@ -3438,113 +3438,113 @@ Digit|Letter
 ##### 1-100
 
 P|A|O|Number|Mnemonics
-⟮c:1;s:all;us:4;Kirito Kazuto⟯|⟮c:2;s:all;us:4;dual-wielding⟯|⟮c:3;s:all;us:4;Dual Swords⟯|⟮c:4;00⟯
-⟮c:5;s:all;us:8;Prof X (X=10⟯)|⟮c:6;s:all;us:8;mindreading⟯|⟮c:7;s:all;us:8;a school⟯|⟮c:8;10⟯
-⟮c:9;s:all;us:12;Ben Kenobi⟯|⟮c:10;s:all;us:12;mourning⟯|⟮c:11;s:all;us:12;a burned corpse⟯|⟮c:12;20⟯
-⟮c:13;s:all;us:16;Makise Kurisu⟯|⟮c:14;s:all;us:16;tsundereing⟯|⟮c:15;s:all;us:16;a labcoat⟯|⟮c:16;30⟯
-⟮c:17;s:all;us:20;Death Knight⟯|⟮c:18;s:all;us:20;reanimating⟯|⟮c:19;s:all;us:20;a ghoul⟯|⟮c:20;40⟯
-⟮c:21;s:all;us:24;Gilgamesh (Evil Knight⟯)|⟮c:22;s:all;us:24;portal-summoning⟯|⟮c:23;s:all;us:24;a thousand weapons⟯|⟮c:24;50⟯
-⟮c:25;s:all;us:28;Rook⟯|⟮c:26;s:all;us:28;leading⟯|⟮c:27;s:all;us:28;A caravan of refugees⟯|⟮c:28;60⟯
-⟮c:29;s:all;us:32;Genghis Khan⟯|⟮c:30;s:all;us:32;conquering⟯|⟮c:31;s:all;us:32;a horse⟯|⟮c:32;70⟯
-⟮c:33;s:all;us:36;HK-47⟯|⟮c:34;s:all;us:36;slaughtering⟯|⟮c:35;s:all;us:36;some meatbags⟯|⟮c:36;80⟯
-⟮c:37;s:all;us:40;Shinichi Kudo⟯|⟮c:38;s:all;us:40;deducing⟯|⟮c:39;s:all;us:40;a fishing line⟯|⟮c:40;90⟯
-⟮c:41;s:all;us:44;B Franklin (The first american⟯)|⟮c:42;s:all;us:44;discovering⟯|⟮c:43;s:all;us:44;A key and a kite⟯|⟮c:44;01⟯
-⟮c:45;s:all;us:48;Avatar Aang⟯|⟮c:46;s:all;us:48;airbending⟯|⟮c:47;s:all;us:48;A kitestaff⟯|⟮c:48;11⟯
-⟮c:49;s:all;us:52;Barry Allen⟯|⟮c:50;s:all;us:52;outrunning⟯|⟮c:51;s:all;us:52;death⟯|⟮c:52;21⟯
-⟮c:53;s:all;us:56;Mikasa Ackerman⟯|⟮c:54;s:all;us:56;sacrificing⟯|⟮c:55;s:all;us:56;AoT Swords⟯|⟮c:56;31⟯
-⟮c:57;s:all;us:60;Joan d'arc⟯|⟮c:58;s:all;us:60;inspiring⟯|⟮c:59;s:all;us:60;male armor⟯|⟮c:60;41⟯
-⟮c:61;s:all;us:64;EA⟯|⟮c:62;s:all;us:64;selling⟯|⟮c:63;s:all;us:64;DLCs⟯|⟮c:64;51⟯
-⟮c:65;s:all;us:68;Rayquaza⟯|⟮c:66;s:all;us:68;electrocuting⟯|⟮c:67;s:all;us:68;a pokeball⟯|⟮c:68;61⟯
-⟮c:69;s:all;us:72;Garrus⟯|⟮c:70;s:all;us:72;wisecracking⟯|⟮c:71;s:all;us:72;their commanding officer⟯|⟮c:72;71⟯
-⟮c:73;s:all;us:76;Haibara, Ai⟯|⟮c:74;s:all;us:76;fleeing⟯|⟮c:75;s:all;us:76;a shadowy organization⟯|⟮c:76;81⟯
-⟮c:77;s:all;us:80;SI7 Agent⟯|⟮c:78;s:all;us:80;toasting⟯|⟮c:79;s:all;us:80;a playing card⟯|⟮c:80;91⟯
-⟮c:81;s:all;us:84;King Bradley (Wrath⟯)|⟮c:82;s:all;us:84;seething⟯|⟮c:83;s:all;us:84;Philosophers stone⟯|⟮c:84;02⟯
-⟮c:85;s:all;us:88;Aaron Burr⟯|⟮c:86;s:all;us:88;duelling⟯|⟮c:87;s:all;us:88;A letter⟯|⟮c:88;12⟯
-⟮c:89;s:all;us:92;Bigby wolf⟯|⟮c:90;s:all;us:92;beating ... to a pulp⟯|⟮c:91;s:all;us:92;a toadman⟯|⟮c:92;22⟯
-⟮c:93;s:all;us:96;Majin Buu⟯|⟮c:94;s:all;us:96;exploding⟯|⟮c:95;s:all;us:96;sweets⟯|⟮c:96;32⟯|<img src="sm_latest">
-⟮c:97;s:all;us:100;Darth Bane⟯|⟮c:98;s:all;us:100;establishing⟯|⟮c:99;s:all;us:100;the rule of two⟯|⟮c:100;42⟯
-⟮c:101;s:all;us:104;Emperor Bonaparte⟯|⟮c:102;s:all;us:104;invading⟯|⟮c:103;s:all;us:104;Russia⟯|⟮c:104;52⟯
-⟮c:105;s:all;us:108;Ramsay Bolton⟯|⟮c:106;s:all;us:108;flaying⟯|⟮c:107;s:all;us:108;someone on a St. Andrews Cross⟯|⟮c:108;62⟯|<img src="sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg"><img src="sm_593fd808a09bd743c0ed6a80.jpg">
-⟮c:109;s:all;us:112;Gaius Baltar⟯|⟮c:110;s:all;us:112;lying⟯|⟮c:111;s:all;us:112;a imaginary friend⟯|⟮c:112;72⟯
-⟮c:113;s:all;us:116;HarBinger⟯|⟮c:114;s:all;us:116;assuming direct control of⟯|⟮c:115;s:all;us:116;a walking insect⟯|⟮c:116;82⟯
-⟮c:117;s:all;us:120;Símon Bolivar⟯|⟮c:118;s:all;us:120;liberating⟯|⟮c:119;s:all;us:120;South america⟯|⟮c:120;92⟯
-⟮c:121;s:all;us:124;Kogoro Mouri⟯|⟮c:122;s:all;us:124;sleeping⟯|⟮c:123;s:all;us:124;A bottle of beer⟯|⟮c:124;03⟯
-⟮c:125;s:all;us:128;Angela Merkel⟯|⟮c:126;s:all;us:128;mollifying⟯|⟮c:127;s:all;us:128;a diamond⟯|⟮c:128;13⟯
-⟮c:129;s:all;us:132;Batman⟯|⟮c:130;s:all;us:132;threatening⟯|⟮c:131;s:all;us:132;batarangs⟯|⟮c:132;23⟯
-⟮c:133;s:all;us:136;Madoka Magica⟯|⟮c:134;s:all;us:136;erasing⟯|⟮c:135;s:all;us:136;all witches⟯|⟮c:136;33⟯
-⟮c:137;s:all;us:140;Darth Maul⟯|⟮c:138;s:all;us:140;hating⟯|⟮c:139;s:all;us:140;a jedi⟯|⟮c:140;43⟯
-⟮c:141;s:all;us:144;Eminem⟯|⟮c:142;s:all;us:144;rapping⟯|⟮c:143;s:all;us:144;a mixtape⟯|⟮c:144;53⟯
-⟮c:145;s:all;us:148;Roy Mustang⟯|⟮c:146;s:all;us:148;incinerating⟯|⟮c:147;s:all;us:148;Gloves⟯|⟮c:148;63⟯
-⟮c:149;s:all;us:152;GM⟯|⟮c:150;s:all;us:152;rolling⟯|⟮c:151;s:all;us:152;5d20⟯|⟮c:152;73⟯
-⟮c:153;s:all;us:156;Her Majesty (Queen Eliz⟯)|⟮c:154;s:all;us:156;scowling at⟯|⟮c:155;s:all;us:156;the british isles⟯|⟮c:156;83⟯
-⟮c:157;s:all;us:160;Sade, Marquis de⟯|⟮c:158;s:all;us:160;consuming⟯|⟮c:159;s:all;us:160;a whip⟯|⟮c:160;93⟯
-⟮c:161;s:all;us:164;Khal Drogo⟯|⟮c:162;s:all;us:164;riding⟯|⟮c:163;s:all;us:164;A loincloth⟯|⟮c:164;04⟯
-⟮c:165;s:all;us:168;Artoo D2⟯|⟮c:166;s:all;us:168;beeping⟯|⟮c:167;s:all;us:168;A torch⟯|⟮c:168;14⟯
-⟮c:169;s:all;us:172;Big Daddy⟯|⟮c:170;s:all;us:172;protecting⟯|⟮c:171;s:all;us:172;Little Sisters⟯|⟮c:172;24⟯
-⟮c:173;s:all;us:176;Monkey D. Luffy⟯|⟮c:174;s:all;us:176;stretching⟯|⟮c:175;s:all;us:176;Strawhat⟯|⟮c:176;34⟯
-⟮c:177;s:all;us:180;Didier Drogba⟯|⟮c:178;s:all;us:180;scoring⟯|⟮c:179;s:all;us:180;a hattrick⟯|⟮c:180;44⟯
-⟮c:181;s:all;us:184;Edda⟯|⟮c:182;s:all;us:184;dating⟯|⟮c:183;s:all;us:184;a philosophy paper⟯|⟮c:184;54⟯
-⟮c:185;s:all;us:188;Rick Deckard⟯|⟮c:186;s:all;us:188;understanding⟯|⟮c:187;s:all;us:188;a leather jacket⟯|⟮c:188;64⟯
-⟮c:189;s:all;us:192;God⟯|⟮c:190;s:all;us:192;creating⟯|⟮c:191;s:all;us:192;a man and a woman⟯|⟮c:192;74⟯
-⟮c:193;s:all;us:196;Hamlet (Denmark⟯)|⟮c:194;s:all;us:196;soliloquizing⟯|⟮c:195;s:all;us:196;a skull⟯|⟮c:196;84⟯
-⟮c:197;s:all;us:200;Satan / The Devil⟯|⟮c:198;s:all;us:200;seducing⟯|⟮c:199;s:all;us:200;a woman⟯|⟮c:200;94⟯|<img src="sm_1200px-022_devil_representation.JPG">
-⟮c:201;s:all;us:204;Katniss Everdeen⟯|⟮c:202;s:all;us:204;aiming⟯|⟮c:203;s:all;us:204;A bow⟯|⟮c:204;05⟯
-⟮c:205;s:all;us:208;Albert Einstein⟯|⟮c:206;s:all;us:208;theorizing about⟯|⟮c:207;s:all;us:208;the fundamental forces of the universe⟯|⟮c:208;15⟯|<img src="sm_mtkvx3rkucl01.jpg">
-⟮c:209;s:all;us:212;Bernie Sanders⟯|⟮c:210;s:all;us:212;preaching⟯|⟮c:211;s:all;us:212;socialism⟯|⟮c:212;25⟯
-⟮c:213;s:all;us:216;Menethil, Arthas⟯|⟮c:214;s:all;us:216;betraying ⟯|⟮c:215;s:all;us:216;Frostmorne/his father⟯|⟮c:216;35⟯|<img src="sm_RashEverlastingGoat-size_restricted.gif">
-⟮c:217;s:all;us:220;Death eater⟯|⟮c:218;s:all;us:220;sucking⟯|⟮c:219;s:all;us:220;a soul⟯|⟮c:220;45⟯
-⟮c:221;s:all;us:224;Edward Elric⟯|⟮c:222;s:all;us:224;transmuting⟯|⟮c:223;s:all;us:224;his dead mother⟯|⟮c:224;55⟯
-⟮c:225;s:all;us:228;Rem⟯|⟮c:226;s:all;us:228;making a last stand with⟯|⟮c:227;s:all;us:228;a huge flail⟯|⟮c:228;65⟯
-⟮c:229;s:all;us:232;Genji⟯|⟮c:230;s:all;us:232;screaming in⟯|⟮c:231;s:all;us:232;Japanese⟯|⟮c:232;75⟯
-⟮c:233;s:all;us:236;Helena (Orphan black⟯)|⟮c:234;s:all;us:236;mutilating⟯|⟮c:235;s:all;us:236;a cage⟯|⟮c:236;85⟯|<img src="sm_WildJampackedHapuku-small.gif"><img src="sm_FluidThinBluefish-small.gif">
-⟮c:237;s:all;us:240;World Serpend Jörmungandr⟯|⟮c:238;s:all;us:240;devouring⟯|⟮c:239;s:all;us:240;the world⟯|⟮c:240;95⟯
-⟮c:241;s:all;us:244;Kylo Ren⟯|⟮c:242;s:all;us:244;rampaging⟯|⟮c:243;s:all;us:244;Crossguard lightsaber⟯|⟮c:244;06⟯
-⟮c:245;s:all;us:248;Android 16⟯|⟮c:246;s:all;us:248;flirting with⟯|⟮c:247;s:all;us:248;a tiny bald man⟯|⟮c:248;16⟯
-⟮c:249;s:all;us:252;Broly⟯|⟮c:250;s:all;us:252;beating up⟯|⟮c:251;s:all;us:252;Green Hair⟯|⟮c:252;26⟯
-⟮c:253;s:all;us:256;Maximilien Robespierre⟯|⟮c:254;s:all;us:256;guillotining⟯|⟮c:255;s:all;us:256;the french king⟯|⟮c:256;36⟯|<img src="sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg">
-⟮c:257;s:all;us:260;Darth Revan⟯|⟮c:258;s:all;us:260;falling to⟯|⟮c:259;s:all;us:260;the dark side⟯|⟮c:260;46⟯
-⟮c:261;s:all;us:264;Erasmus⟯|⟮c:262;s:all;us:264;slinging mud at⟯|⟮c:263;s:all;us:264;a bunch of academics⟯|⟮c:264;56⟯|⟮h:all;<img src="sm_Holbein-erasmus.jpg">⟯
-⟮c:265;s:all;us:268;Darth vader (Order 66⟯)|⟮c:266;s:all;us:268;choking⟯|⟮c:267;s:all;us:268;an innocent bystander⟯|⟮c:268;66⟯
-⟮c:269;s:all;us:272;Jefferson⟯|⟮c:270;s:all;us:272;declaring⟯|⟮c:271;s:all;us:272;slaves⟯|⟮c:272;76⟯
-⟮c:273;s:all;us:276;Harry Potter⟯|⟮c:274;s:all;us:276;hiding under⟯|⟮c:275;s:all;us:276;a staircase⟯|⟮c:276;86⟯
-⟮c:277;s:all;us:280;Sukeroku⟯|⟮c:278;s:all;us:280;fucking⟯|⟮c:279;s:all;us:280;his best friends crush⟯|⟮c:280;96⟯
-⟮c:281;s:all;us:284;King George III⟯|⟮c:282;s:all;us:284;loosing⟯|⟮c:283;s:all;us:284;America⟯|⟮c:284;07⟯
-⟮c:285;s:all;us:288;Android 17⟯|⟮c:286;s:all;us:288;mocking⟯|⟮c:287;s:all;us:288;Some sick clothes⟯|⟮c:288;17⟯
-⟮c:289;s:all;us:292;Big Game Hunter⟯|⟮c:290;s:all;us:292;eliminating⟯|⟮c:291;s:all;us:292;a dinosaur⟯|⟮c:292;27⟯|<img src="sm_340">
-⟮c:293;s:all;us:296;Magneto⟯|⟮c:294;s:all;us:296;inciting ⟯|⟮c:295;s:all;us:296;the mutant rebellion⟯|⟮c:296;37⟯
-⟮c:297;s:all;us:300;Diamond (Gem⟯)|⟮c:298;s:all;us:300;caring for⟯|⟮c:299;s:all;us:300;two arms⟯|⟮c:300;47⟯
-⟮c:301;s:all;us:304;Saphira (EGg and EraGon⟯)|⟮c:302;s:all;us:304;being born from⟯|⟮c:303;s:all;us:304;an egg⟯|⟮c:304;57⟯
-⟮c:305;s:all;us:308;Ragnaros⟯|⟮c:306;s:all;us:308;magmablasting⟯|⟮c:307;s:all;us:308;a firesnake⟯|⟮c:308;67⟯
-⟮c:309;s:all;us:312;Gogeta (SSJ 4⟯)|⟮c:310;s:all;us:312;taunting⟯|⟮c:311;s:all;us:312;a x100 Kamehameha⟯|⟮c:312;77⟯
-⟮c:313;s:all;us:316;Hermione granger⟯|⟮c:314;s:all;us:316;studying with⟯|⟮c:315;s:all;us:316;a time-turner⟯|⟮c:316;87⟯
-⟮c:317;s:all;us:320;Son Goku⟯|⟮c:318;s:all;us:320;spirit bombing⟯|⟮c:319;s:all;us:320;a angry kid⟯|⟮c:320;97⟯|<img src="sm_MintyDeficientAtlanticbluetang-size_restricted.gif">
-⟮c:321;s:all;us:324;Kikuhiko⟯|⟮c:322;s:all;us:324;regretting⟯|⟮c:323;s:all;us:324;A fan⟯|⟮c:324;08⟯
-⟮c:325;s:all;us:328;Alexander Hamilton⟯|⟮c:326;s:all;us:328;throwing away ⟯|⟮c:327;s:all;us:328;his shot⟯|⟮c:328;18⟯
-⟮c:329;s:all;us:332;Bounty Hunter (Cad Bane⟯)|⟮c:330;s:all;us:332;hunting⟯|⟮c:331;s:all;us:332;Wide-brim hat⟯|⟮c:332;28⟯|<img src="FACadBane.jpg">
-⟮c:333;s:all;us:336;Mata Hari⟯|⟮c:334;s:all;us:336;bellydancing⟯|⟮c:335;s:all;us:336;the first world war⟯|⟮c:336;38⟯
-⟮c:337;s:all;us:340;David Hume⟯|⟮c:338;s:all;us:340;inducing⟯|⟮c:339;s:all;us:340;causality⟯|⟮c:340;48⟯
-⟮c:341;s:all;us:344;Emperor Hirohito⟯|⟮c:342;s:all;us:344;evading⟯|⟮c:343;s:all;us:344;an atomic bomb⟯|⟮c:344;58⟯
-⟮c:345;s:all;us:348;Rubeus Hagrid⟯|⟮c:346;s:all;us:348;nurturing⟯|⟮c:347;s:all;us:348;a dragon⟯|⟮c:348;68⟯
-⟮c:349;s:all;us:352;Griffth⟯|⟮c:350;s:all;us:352;striving⟯|⟮c:351;s:all;us:352;a red pendant⟯|⟮c:352;78⟯
-⟮c:353;s:all;us:356;Hitler⟯|⟮c:354;s:all;us:356;screaming⟯|⟮c:355;s:all;us:356;poison gas⟯|⟮c:356;88⟯
-⟮c:357;s:all;us:360;Sherlock holmes⟯|⟮c:358;s:all;us:360;showing off⟯|⟮c:359;s:all;us:360;their sexy mind⟯|⟮c:360;98⟯
-⟮c:361;s:all;us:364;Kaelthas Sunstrider⟯|⟮c:362;s:all;us:364;conjuring⟯|⟮c:363;s:all;us:364;Al'ar⟯|⟮c:364;09⟯
-⟮c:365;s:all;us:368;Anakin Skywalker⟯|⟮c:366;s:all;us:368;rebelling against⟯|⟮c:367;s:all;us:368;sand⟯|⟮c:368;19⟯
-⟮c:369;s:all;us:372;Belatrix LeStrange⟯|⟮c:370;s:all;us:372;splitting⟯|⟮c:371;s:all;us:372;a houseelf⟯|⟮c:372;29⟯
-⟮c:373;s:all;us:376;Macbeth of Scotland⟯|⟮c:374;s:all;us:376;betraying ⟯|⟮c:375;s:all;us:376;the former king⟯|⟮c:376;39⟯
-⟮c:377;s:all;us:380;Darth Sidious⟯|⟮c:378;s:all;us:380;electrocuting⟯|⟮c:379;s:all;us:380;a kid⟯|⟮c:380;49⟯
-⟮c:381;s:all;us:384;Eddard (Ned) Stark⟯|⟮c:382;s:all;us:384;trusting⟯|⟮c:383;s:all;us:384;his severed head⟯|⟮c:384;59⟯
-⟮c:385;s:all;us:388;Rob Stark⟯|⟮c:386;s:all;us:388;marrying⟯|⟮c:387;s:all;us:388;a groom's suit⟯|⟮c:388;69⟯
-⟮c:389;s:all;us:392;Guts⟯|⟮c:390;s:all;us:392;confronting⟯|⟮c:391;s:all;us:392;a demon⟯|⟮c:392;79⟯
-⟮c:393;s:all;us:396;Han Solo⟯|⟮c:394;s:all;us:396;daring⟯|⟮c:395;s:all;us:396;a blaster⟯|⟮c:396;89⟯
-⟮c:397;s:all;us:400;Severus Snape ⟯|⟮c:398;s:all;us:400;cursing⟯|⟮c:399;s:all;us:400;an old wizard⟯|⟮c:400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif">
+⟮c:1;s:∞;us:4;Kirito Kazuto⟯|⟮c:2;s:∞;us:4;dual-wielding⟯|⟮c:3;s:∞;us:4;Dual Swords⟯|⟮c:4;00⟯
+⟮c:5;s:∞;us:8;Prof X (X=10⟯)|⟮c:6;s:∞;us:8;mindreading⟯|⟮c:7;s:∞;us:8;a school⟯|⟮c:8;10⟯
+⟮c:9;s:∞;us:12;Ben Kenobi⟯|⟮c:10;s:∞;us:12;mourning⟯|⟮c:11;s:∞;us:12;a burned corpse⟯|⟮c:12;20⟯
+⟮c:13;s:∞;us:16;Makise Kurisu⟯|⟮c:14;s:∞;us:16;tsundereing⟯|⟮c:15;s:∞;us:16;a labcoat⟯|⟮c:16;30⟯
+⟮c:17;s:∞;us:20;Death Knight⟯|⟮c:18;s:∞;us:20;reanimating⟯|⟮c:19;s:∞;us:20;a ghoul⟯|⟮c:20;40⟯
+⟮c:21;s:∞;us:24;Gilgamesh (Evil Knight⟯)|⟮c:22;s:∞;us:24;portal-summoning⟯|⟮c:23;s:∞;us:24;a thousand weapons⟯|⟮c:24;50⟯
+⟮c:25;s:∞;us:28;Rook⟯|⟮c:26;s:∞;us:28;leading⟯|⟮c:27;s:∞;us:28;A caravan of refugees⟯|⟮c:28;60⟯
+⟮c:29;s:∞;us:32;Genghis Khan⟯|⟮c:30;s:∞;us:32;conquering⟯|⟮c:31;s:∞;us:32;a horse⟯|⟮c:32;70⟯
+⟮c:33;s:∞;us:36;HK-47⟯|⟮c:34;s:∞;us:36;slaughtering⟯|⟮c:35;s:∞;us:36;some meatbags⟯|⟮c:36;80⟯
+⟮c:37;s:∞;us:40;Shinichi Kudo⟯|⟮c:38;s:∞;us:40;deducing⟯|⟮c:39;s:∞;us:40;a fishing line⟯|⟮c:40;90⟯
+⟮c:41;s:∞;us:44;B Franklin (The first american⟯)|⟮c:42;s:∞;us:44;discovering⟯|⟮c:43;s:∞;us:44;A key and a kite⟯|⟮c:44;01⟯
+⟮c:45;s:∞;us:48;Avatar Aang⟯|⟮c:46;s:∞;us:48;airbending⟯|⟮c:47;s:∞;us:48;A kitestaff⟯|⟮c:48;11⟯
+⟮c:49;s:∞;us:52;Barry Allen⟯|⟮c:50;s:∞;us:52;outrunning⟯|⟮c:51;s:∞;us:52;death⟯|⟮c:52;21⟯
+⟮c:53;s:∞;us:56;Mikasa Ackerman⟯|⟮c:54;s:∞;us:56;sacrificing⟯|⟮c:55;s:∞;us:56;AoT Swords⟯|⟮c:56;31⟯
+⟮c:57;s:∞;us:60;Joan d'arc⟯|⟮c:58;s:∞;us:60;inspiring⟯|⟮c:59;s:∞;us:60;male armor⟯|⟮c:60;41⟯
+⟮c:61;s:∞;us:64;EA⟯|⟮c:62;s:∞;us:64;selling⟯|⟮c:63;s:∞;us:64;DLCs⟯|⟮c:64;51⟯
+⟮c:65;s:∞;us:68;Rayquaza⟯|⟮c:66;s:∞;us:68;electrocuting⟯|⟮c:67;s:∞;us:68;a pokeball⟯|⟮c:68;61⟯
+⟮c:69;s:∞;us:72;Garrus⟯|⟮c:70;s:∞;us:72;wisecracking⟯|⟮c:71;s:∞;us:72;their commanding officer⟯|⟮c:72;71⟯
+⟮c:73;s:∞;us:76;Haibara, Ai⟯|⟮c:74;s:∞;us:76;fleeing⟯|⟮c:75;s:∞;us:76;a shadowy organization⟯|⟮c:76;81⟯
+⟮c:77;s:∞;us:80;SI7 Agent⟯|⟮c:78;s:∞;us:80;toasting⟯|⟮c:79;s:∞;us:80;a playing card⟯|⟮c:80;91⟯
+⟮c:81;s:∞;us:84;King Bradley (Wrath⟯)|⟮c:82;s:∞;us:84;seething⟯|⟮c:83;s:∞;us:84;Philosophers stone⟯|⟮c:84;02⟯
+⟮c:85;s:∞;us:88;Aaron Burr⟯|⟮c:86;s:∞;us:88;duelling⟯|⟮c:87;s:∞;us:88;A letter⟯|⟮c:88;12⟯
+⟮c:89;s:∞;us:92;Bigby wolf⟯|⟮c:90;s:∞;us:92;beating ... to a pulp⟯|⟮c:91;s:∞;us:92;a toadman⟯|⟮c:92;22⟯
+⟮c:93;s:∞;us:96;Majin Buu⟯|⟮c:94;s:∞;us:96;exploding⟯|⟮c:95;s:∞;us:96;sweets⟯|⟮c:96;32⟯|<img src="sm_latest">
+⟮c:97;s:∞;us:100;Darth Bane⟯|⟮c:98;s:∞;us:100;establishing⟯|⟮c:99;s:∞;us:100;the rule of two⟯|⟮c:100;42⟯
+⟮c:101;s:∞;us:104;Emperor Bonaparte⟯|⟮c:102;s:∞;us:104;invading⟯|⟮c:103;s:∞;us:104;Russia⟯|⟮c:104;52⟯
+⟮c:105;s:∞;us:108;Ramsay Bolton⟯|⟮c:106;s:∞;us:108;flaying⟯|⟮c:107;s:∞;us:108;someone on a St. Andrews Cross⟯|⟮c:108;62⟯|<img src="sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg"><img src="sm_593fd808a09bd743c0ed6a80.jpg">
+⟮c:109;s:∞;us:112;Gaius Baltar⟯|⟮c:110;s:∞;us:112;lying⟯|⟮c:111;s:∞;us:112;a imaginary friend⟯|⟮c:112;72⟯
+⟮c:113;s:∞;us:116;HarBinger⟯|⟮c:114;s:∞;us:116;assuming direct control of⟯|⟮c:115;s:∞;us:116;a walking insect⟯|⟮c:116;82⟯
+⟮c:117;s:∞;us:120;Símon Bolivar⟯|⟮c:118;s:∞;us:120;liberating⟯|⟮c:119;s:∞;us:120;South america⟯|⟮c:120;92⟯
+⟮c:121;s:∞;us:124;Kogoro Mouri⟯|⟮c:122;s:∞;us:124;sleeping⟯|⟮c:123;s:∞;us:124;A bottle of beer⟯|⟮c:124;03⟯
+⟮c:125;s:∞;us:128;Angela Merkel⟯|⟮c:126;s:∞;us:128;mollifying⟯|⟮c:127;s:∞;us:128;a diamond⟯|⟮c:128;13⟯
+⟮c:129;s:∞;us:132;Batman⟯|⟮c:130;s:∞;us:132;threatening⟯|⟮c:131;s:∞;us:132;batarangs⟯|⟮c:132;23⟯
+⟮c:133;s:∞;us:136;Madoka Magica⟯|⟮c:134;s:∞;us:136;erasing⟯|⟮c:135;s:∞;us:136;all witches⟯|⟮c:136;33⟯
+⟮c:137;s:∞;us:140;Darth Maul⟯|⟮c:138;s:∞;us:140;hating⟯|⟮c:139;s:∞;us:140;a jedi⟯|⟮c:140;43⟯
+⟮c:141;s:∞;us:144;Eminem⟯|⟮c:142;s:∞;us:144;rapping⟯|⟮c:143;s:∞;us:144;a mixtape⟯|⟮c:144;53⟯
+⟮c:145;s:∞;us:148;Roy Mustang⟯|⟮c:146;s:∞;us:148;incinerating⟯|⟮c:147;s:∞;us:148;Gloves⟯|⟮c:148;63⟯
+⟮c:149;s:∞;us:152;GM⟯|⟮c:150;s:∞;us:152;rolling⟯|⟮c:151;s:∞;us:152;5d20⟯|⟮c:152;73⟯
+⟮c:153;s:∞;us:156;Her Majesty (Queen Eliz⟯)|⟮c:154;s:∞;us:156;scowling at⟯|⟮c:155;s:∞;us:156;the british isles⟯|⟮c:156;83⟯
+⟮c:157;s:∞;us:160;Sade, Marquis de⟯|⟮c:158;s:∞;us:160;consuming⟯|⟮c:159;s:∞;us:160;a whip⟯|⟮c:160;93⟯
+⟮c:161;s:∞;us:164;Khal Drogo⟯|⟮c:162;s:∞;us:164;riding⟯|⟮c:163;s:∞;us:164;A loincloth⟯|⟮c:164;04⟯
+⟮c:165;s:∞;us:168;Artoo D2⟯|⟮c:166;s:∞;us:168;beeping⟯|⟮c:167;s:∞;us:168;A torch⟯|⟮c:168;14⟯
+⟮c:169;s:∞;us:172;Big Daddy⟯|⟮c:170;s:∞;us:172;protecting⟯|⟮c:171;s:∞;us:172;Little Sisters⟯|⟮c:172;24⟯
+⟮c:173;s:∞;us:176;Monkey D. Luffy⟯|⟮c:174;s:∞;us:176;stretching⟯|⟮c:175;s:∞;us:176;Strawhat⟯|⟮c:176;34⟯
+⟮c:177;s:∞;us:180;Didier Drogba⟯|⟮c:178;s:∞;us:180;scoring⟯|⟮c:179;s:∞;us:180;a hattrick⟯|⟮c:180;44⟯
+⟮c:181;s:∞;us:184;Edda⟯|⟮c:182;s:∞;us:184;dating⟯|⟮c:183;s:∞;us:184;a philosophy paper⟯|⟮c:184;54⟯
+⟮c:185;s:∞;us:188;Rick Deckard⟯|⟮c:186;s:∞;us:188;understanding⟯|⟮c:187;s:∞;us:188;a leather jacket⟯|⟮c:188;64⟯
+⟮c:189;s:∞;us:192;God⟯|⟮c:190;s:∞;us:192;creating⟯|⟮c:191;s:∞;us:192;a man and a woman⟯|⟮c:192;74⟯
+⟮c:193;s:∞;us:196;Hamlet (Denmark⟯)|⟮c:194;s:∞;us:196;soliloquizing⟯|⟮c:195;s:∞;us:196;a skull⟯|⟮c:196;84⟯
+⟮c:197;s:∞;us:200;Satan / The Devil⟯|⟮c:198;s:∞;us:200;seducing⟯|⟮c:199;s:∞;us:200;a woman⟯|⟮c:200;94⟯|<img src="sm_1200px-022_devil_representation.JPG">
+⟮c:201;s:∞;us:204;Katniss Everdeen⟯|⟮c:202;s:∞;us:204;aiming⟯|⟮c:203;s:∞;us:204;A bow⟯|⟮c:204;05⟯
+⟮c:205;s:∞;us:208;Albert Einstein⟯|⟮c:206;s:∞;us:208;theorizing about⟯|⟮c:207;s:∞;us:208;the fundamental forces of the universe⟯|⟮c:208;15⟯|<img src="sm_mtkvx3rkucl01.jpg">
+⟮c:209;s:∞;us:212;Bernie Sanders⟯|⟮c:210;s:∞;us:212;preaching⟯|⟮c:211;s:∞;us:212;socialism⟯|⟮c:212;25⟯
+⟮c:213;s:∞;us:216;Menethil, Arthas⟯|⟮c:214;s:∞;us:216;betraying ⟯|⟮c:215;s:∞;us:216;Frostmorne/his father⟯|⟮c:216;35⟯|<img src="sm_RashEverlastingGoat-size_restricted.gif">
+⟮c:217;s:∞;us:220;Death eater⟯|⟮c:218;s:∞;us:220;sucking⟯|⟮c:219;s:∞;us:220;a soul⟯|⟮c:220;45⟯
+⟮c:221;s:∞;us:224;Edward Elric⟯|⟮c:222;s:∞;us:224;transmuting⟯|⟮c:223;s:∞;us:224;his dead mother⟯|⟮c:224;55⟯
+⟮c:225;s:∞;us:228;Rem⟯|⟮c:226;s:∞;us:228;making a last stand with⟯|⟮c:227;s:∞;us:228;a huge flail⟯|⟮c:228;65⟯
+⟮c:229;s:∞;us:232;Genji⟯|⟮c:230;s:∞;us:232;screaming in⟯|⟮c:231;s:∞;us:232;Japanese⟯|⟮c:232;75⟯
+⟮c:233;s:∞;us:236;Helena (Orphan black⟯)|⟮c:234;s:∞;us:236;mutilating⟯|⟮c:235;s:∞;us:236;a cage⟯|⟮c:236;85⟯|<img src="sm_WildJampackedHapuku-small.gif"><img src="sm_FluidThinBluefish-small.gif">
+⟮c:237;s:∞;us:240;World Serpend Jörmungandr⟯|⟮c:238;s:∞;us:240;devouring⟯|⟮c:239;s:∞;us:240;the world⟯|⟮c:240;95⟯
+⟮c:241;s:∞;us:244;Kylo Ren⟯|⟮c:242;s:∞;us:244;rampaging⟯|⟮c:243;s:∞;us:244;Crossguard lightsaber⟯|⟮c:244;06⟯
+⟮c:245;s:∞;us:248;Android 16⟯|⟮c:246;s:∞;us:248;flirting with⟯|⟮c:247;s:∞;us:248;a tiny bald man⟯|⟮c:248;16⟯
+⟮c:249;s:∞;us:252;Broly⟯|⟮c:250;s:∞;us:252;beating up⟯|⟮c:251;s:∞;us:252;Green Hair⟯|⟮c:252;26⟯
+⟮c:253;s:∞;us:256;Maximilien Robespierre⟯|⟮c:254;s:∞;us:256;guillotining⟯|⟮c:255;s:∞;us:256;the french king⟯|⟮c:256;36⟯|<img src="sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg">
+⟮c:257;s:∞;us:260;Darth Revan⟯|⟮c:258;s:∞;us:260;falling to⟯|⟮c:259;s:∞;us:260;the dark side⟯|⟮c:260;46⟯
+⟮c:261;s:∞;us:264;Erasmus⟯|⟮c:262;s:∞;us:264;slinging mud at⟯|⟮c:263;s:∞;us:264;a bunch of academics⟯|⟮c:264;56⟯|⟮h:∞;<img src="sm_Holbein-erasmus.jpg">⟯
+⟮c:265;s:∞;us:268;Darth vader (Order 66⟯)|⟮c:266;s:∞;us:268;choking⟯|⟮c:267;s:∞;us:268;an innocent bystander⟯|⟮c:268;66⟯
+⟮c:269;s:∞;us:272;Jefferson⟯|⟮c:270;s:∞;us:272;declaring⟯|⟮c:271;s:∞;us:272;slaves⟯|⟮c:272;76⟯
+⟮c:273;s:∞;us:276;Harry Potter⟯|⟮c:274;s:∞;us:276;hiding under⟯|⟮c:275;s:∞;us:276;a staircase⟯|⟮c:276;86⟯
+⟮c:277;s:∞;us:280;Sukeroku⟯|⟮c:278;s:∞;us:280;fucking⟯|⟮c:279;s:∞;us:280;his best friends crush⟯|⟮c:280;96⟯
+⟮c:281;s:∞;us:284;King George III⟯|⟮c:282;s:∞;us:284;loosing⟯|⟮c:283;s:∞;us:284;America⟯|⟮c:284;07⟯
+⟮c:285;s:∞;us:288;Android 17⟯|⟮c:286;s:∞;us:288;mocking⟯|⟮c:287;s:∞;us:288;Some sick clothes⟯|⟮c:288;17⟯
+⟮c:289;s:∞;us:292;Big Game Hunter⟯|⟮c:290;s:∞;us:292;eliminating⟯|⟮c:291;s:∞;us:292;a dinosaur⟯|⟮c:292;27⟯|<img src="sm_340">
+⟮c:293;s:∞;us:296;Magneto⟯|⟮c:294;s:∞;us:296;inciting ⟯|⟮c:295;s:∞;us:296;the mutant rebellion⟯|⟮c:296;37⟯
+⟮c:297;s:∞;us:300;Diamond (Gem⟯)|⟮c:298;s:∞;us:300;caring for⟯|⟮c:299;s:∞;us:300;two arms⟯|⟮c:300;47⟯
+⟮c:301;s:∞;us:304;Saphira (EGg and EraGon⟯)|⟮c:302;s:∞;us:304;being born from⟯|⟮c:303;s:∞;us:304;an egg⟯|⟮c:304;57⟯
+⟮c:305;s:∞;us:308;Ragnaros⟯|⟮c:306;s:∞;us:308;magmablasting⟯|⟮c:307;s:∞;us:308;a firesnake⟯|⟮c:308;67⟯
+⟮c:309;s:∞;us:312;Gogeta (SSJ 4⟯)|⟮c:310;s:∞;us:312;taunting⟯|⟮c:311;s:∞;us:312;a x100 Kamehameha⟯|⟮c:312;77⟯
+⟮c:313;s:∞;us:316;Hermione granger⟯|⟮c:314;s:∞;us:316;studying with⟯|⟮c:315;s:∞;us:316;a time-turner⟯|⟮c:316;87⟯
+⟮c:317;s:∞;us:320;Son Goku⟯|⟮c:318;s:∞;us:320;spirit bombing⟯|⟮c:319;s:∞;us:320;a angry kid⟯|⟮c:320;97⟯|<img src="sm_MintyDeficientAtlanticbluetang-size_restricted.gif">
+⟮c:321;s:∞;us:324;Kikuhiko⟯|⟮c:322;s:∞;us:324;regretting⟯|⟮c:323;s:∞;us:324;A fan⟯|⟮c:324;08⟯
+⟮c:325;s:∞;us:328;Alexander Hamilton⟯|⟮c:326;s:∞;us:328;throwing away ⟯|⟮c:327;s:∞;us:328;his shot⟯|⟮c:328;18⟯
+⟮c:329;s:∞;us:332;Bounty Hunter (Cad Bane⟯)|⟮c:330;s:∞;us:332;hunting⟯|⟮c:331;s:∞;us:332;Wide-brim hat⟯|⟮c:332;28⟯|<img src="FACadBane.jpg">
+⟮c:333;s:∞;us:336;Mata Hari⟯|⟮c:334;s:∞;us:336;bellydancing⟯|⟮c:335;s:∞;us:336;the first world war⟯|⟮c:336;38⟯
+⟮c:337;s:∞;us:340;David Hume⟯|⟮c:338;s:∞;us:340;inducing⟯|⟮c:339;s:∞;us:340;causality⟯|⟮c:340;48⟯
+⟮c:341;s:∞;us:344;Emperor Hirohito⟯|⟮c:342;s:∞;us:344;evading⟯|⟮c:343;s:∞;us:344;an atomic bomb⟯|⟮c:344;58⟯
+⟮c:345;s:∞;us:348;Rubeus Hagrid⟯|⟮c:346;s:∞;us:348;nurturing⟯|⟮c:347;s:∞;us:348;a dragon⟯|⟮c:348;68⟯
+⟮c:349;s:∞;us:352;Griffth⟯|⟮c:350;s:∞;us:352;striving⟯|⟮c:351;s:∞;us:352;a red pendant⟯|⟮c:352;78⟯
+⟮c:353;s:∞;us:356;Hitler⟯|⟮c:354;s:∞;us:356;screaming⟯|⟮c:355;s:∞;us:356;poison gas⟯|⟮c:356;88⟯
+⟮c:357;s:∞;us:360;Sherlock holmes⟯|⟮c:358;s:∞;us:360;showing off⟯|⟮c:359;s:∞;us:360;their sexy mind⟯|⟮c:360;98⟯
+⟮c:361;s:∞;us:364;Kaelthas Sunstrider⟯|⟮c:362;s:∞;us:364;conjuring⟯|⟮c:363;s:∞;us:364;Al'ar⟯|⟮c:364;09⟯
+⟮c:365;s:∞;us:368;Anakin Skywalker⟯|⟮c:366;s:∞;us:368;rebelling against⟯|⟮c:367;s:∞;us:368;sand⟯|⟮c:368;19⟯
+⟮c:369;s:∞;us:372;Belatrix LeStrange⟯|⟮c:370;s:∞;us:372;splitting⟯|⟮c:371;s:∞;us:372;a houseelf⟯|⟮c:372;29⟯
+⟮c:373;s:∞;us:376;Macbeth of Scotland⟯|⟮c:374;s:∞;us:376;betraying ⟯|⟮c:375;s:∞;us:376;the former king⟯|⟮c:376;39⟯
+⟮c:377;s:∞;us:380;Darth Sidious⟯|⟮c:378;s:∞;us:380;electrocuting⟯|⟮c:379;s:∞;us:380;a kid⟯|⟮c:380;49⟯
+⟮c:381;s:∞;us:384;Eddard (Ned) Stark⟯|⟮c:382;s:∞;us:384;trusting⟯|⟮c:383;s:∞;us:384;his severed head⟯|⟮c:384;59⟯
+⟮c:385;s:∞;us:388;Rob Stark⟯|⟮c:386;s:∞;us:388;marrying⟯|⟮c:387;s:∞;us:388;a groom's suit⟯|⟮c:388;69⟯
+⟮c:389;s:∞;us:392;Guts⟯|⟮c:390;s:∞;us:392;confronting⟯|⟮c:391;s:∞;us:392;a demon⟯|⟮c:392;79⟯
+⟮c:393;s:∞;us:396;Han Solo⟯|⟮c:394;s:∞;us:396;daring⟯|⟮c:395;s:∞;us:396;a blaster⟯|⟮c:396;89⟯
+⟮c:397;s:∞;us:400;Severus Snape ⟯|⟮c:398;s:∞;us:400;cursing⟯|⟮c:399;s:∞;us:400;an old wizard⟯|⟮c:400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif">
 
 
 ### fear
 
 #### exposure therapy
 
-⟮h:all;<img src="sm_2021-10-31--17-32-33-screenshot.jpg">⟯A ⟮c:1;fear ladder⟯ is a technique within ⟮c:2;exposure therapy⟯. 
+⟮h:∞;<img src="sm_2021-10-31--17-32-33-screenshot.jpg">⟯A ⟮c:1;fear ladder⟯ is a technique within ⟮c:2;exposure therapy⟯. 
 For any specific ⟮c:3;fear/anxiety/phobia⟯, a ⟮c:11;fear ladder⟯ consists of ⟮c:4;specific situations/steps⟯ and ⟮c:5;their associated fear ratings⟯ 
 ⟮c:12;Fear ratings⟯ for fears on ⟮c:12;the fear ladder⟯ generally are on ⟮c:6;a scale from 1 to 10⟯ 
 There should roughly be ⟮c:13;one situation/action⟯ on the fear ladder for ⟮c:14;each fear rating from 1 to 10⟯. 
@@ -3603,7 +3603,7 @@ The ⟮c:23;most common type⟯ of ⟮c:24;OCD obsession⟯ is ⟮c:25;fears rel
 <ol>
 <li>⟮c:1;Ask relevant person to agree with a statement that saying something or thinking something doesn’t mean it will come true, that our thoughts are not magical and can’t make things happen⟯</li>
 <li>⟮c:2;s:1;Have them write down something terrible happen to a loved one⟯</li>
-<li>⟮c:3;s:all;Have them notice the distress they feel at something that will not do anything⟯</li>
+<li>⟮c:3;s:∞;Have them notice the distress they feel at something that will not do anything⟯</li>
 </ol>
 
 ## motivation
@@ -3685,7 +3685,7 @@ In optics, an ⟮c:1;aperture⟯ is an ⟮c:2;opening⟯ ⟮c:3;through which li
 
 #### conductivity
 
-Electrical conductivity: ⟮c:1;s:all;Conductors⟯ &gt; ⟮c:2;s:all;semiconductors⟯ &gt; ⟮c:3;s:all;insulators⟯ 
+Electrical conductivity: ⟮c:1;s:∞;Conductors⟯ &gt; ⟮c:2;s:∞;semiconductors⟯ &gt; ⟮c:3;s:∞;insulators⟯ 
 
 ### magnetism
 
@@ -3863,8 +3863,8 @@ In general, the three major types of lockpicking tools are ⟮c:1;hooks⟯, ⟮c
 
 ## basic lock model
 
-⟮h:all;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">⟯
-⟮h:all;<img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c:1;a pencil⟯ and ⟮c:2;two pieces of paper.⟯ 
+⟮h:∞;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">⟯
+⟮h:∞;<img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c:1;a pencil⟯ and ⟮c:2;two pieces of paper.⟯ 
 The ⟮c:3;gap between the two pieces of paper⟯ is ⟮c:4;the shear line⟯, and ⟮c:5;the pencil⟯ is ⟮c:6;the pin⟯. 
 
 ## lock externals
@@ -3938,15 +3938,15 @@ The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs�
 
 
 [[[<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">]]]
-⟮h:all;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c:4;not be pickable⟯ if not for ⟮c:5;manufacturing tolerances⟯. 
+⟮h:∞;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c:4;not be pickable⟯ if not for ⟮c:5;manufacturing tolerances⟯. 
 The reason that ⟮c:6;not all pins bind⟯ once you ⟮c:7;apply rotational tension⟯ is tha⟮c:8;t the holes are ever-so-slightly off-center⟯. 
 The pin that will ⟮c:1;bind here first⟯ if we ⟮c:2;rotate in the upwards direction⟯ is ⟮c:3;the second or the fourth pin.⟯ 
 
 ## binding pins
 
-⟮h:all;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif">⟯
-⟮h:all;<img src="sm_Lock-Picking-Single-Pin-Picking.gif">⟯
-⟮h:all;<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c:8;bound⟯ pin is the one that if ⟮c:9;rotational tension is being applied⟯ is ⟮c:10;hard to move (won't slip⟯) 
+⟮h:∞;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif">⟯
+⟮h:∞;<img src="sm_Lock-Picking-Single-Pin-Picking.gif">⟯
+⟮h:∞;<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c:8;bound⟯ pin is the one that if ⟮c:9;rotational tension is being applied⟯ is ⟮c:10;hard to move (won't slip⟯) 
 ⟮c:11;Applying rotational tension⟯ allows ⟮c:12;pins⟯ to ⟮c:13;bind⟯, and thus ⟮c:14;setting them⟯. 
 Pins can only ⟮c:15;bind⟯ if ⟮c:16;rotational tension is being applied⟯, otherwise ⟮c:17;they won't get stuck⟯ and f⟮c:18;all right back into the cylinder.⟯ 
 There is ⟮c:21;most often (though not always⟯) ⟮c:19;only one⟯ ⟮c:20;binding pin⟯ at a time. 
@@ -3993,94 +3993,94 @@ In ⟮c:15;raking⟯, we often have to ⟮c:16;reset the lock a few times⟯ bef
 
 Three-Strand Braiding
 
-1. ⟮c:1;s:all;<img src="sm__3strandbraid1.jpg">⟯
-2. ⟮c:2;s:all;<img src="sm__3strandbraid2.jpg">⟯
-3. ⟮c:3;s:all;<img src="sm__3strandbraid3.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm__3strandbraid4.jpg">⟯
-5. ⟮c:5;s:all;<img src="sm__3strandbraid5.jpg">⟯
-6. ⟮c:6;s:all;<img src="sm__3strandbraid6.jpg">⟯
-7. ⟮c:7;s:all;<img src="sm__3strandbraid7.jpg">⟯
-8. ⟮c:8;s:all;<img src="sm__3strandbraid8.jpg">⟯
-9. ⟮c:9;s:all;<img src="sm__3strandbraid9.jpg">⟯
-10. ⟮c:10;s:all;<img src="sm__3strandbraid10.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm__3strandbraid1.jpg">⟯
+2. ⟮c:2;s:∞;<img src="sm__3strandbraid2.jpg">⟯
+3. ⟮c:3;s:∞;<img src="sm__3strandbraid3.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm__3strandbraid4.jpg">⟯
+5. ⟮c:5;s:∞;<img src="sm__3strandbraid5.jpg">⟯
+6. ⟮c:6;s:∞;<img src="sm__3strandbraid6.jpg">⟯
+7. ⟮c:7;s:∞;<img src="sm__3strandbraid7.jpg">⟯
+8. ⟮c:8;s:∞;<img src="sm__3strandbraid8.jpg">⟯
+9. ⟮c:9;s:∞;<img src="sm__3strandbraid9.jpg">⟯
+10. ⟮c:10;s:∞;<img src="sm__3strandbraid10.jpg">⟯
 
 Lark's Head Single Collumn Tie
 
-1. ⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.05.jpg">⟯
-2. ⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.10.jpg">⟯
-3. ⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.34.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.03.jpg">⟯
-5. ⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.08.jpg">⟯
-6. ⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.20.jpg">⟯
-7. ⟮c:7;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.31.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.15.05.jpg">⟯
+2. ⟮c:2;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.15.10.jpg">⟯
+3. ⟮c:3;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.15.34.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.16.03.jpg">⟯
+5. ⟮c:5;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.16.08.jpg">⟯
+6. ⟮c:6;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.16.20.jpg">⟯
+7. ⟮c:7;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.16.31.jpg">⟯
 
 Double Coin Knot
 
-1. ⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.14.png">⟯
-2. ⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.26.png">⟯
-3. ⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.30.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.33.jpg">⟯
-5. ⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.36.jpg">⟯
-6. ⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.41.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.14.png">⟯
+2. ⟮c:2;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.26.png">⟯
+3. ⟮c:3;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.30.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.33.jpg">⟯
+5. ⟮c:5;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.36.jpg">⟯
+6. ⟮c:6;s:∞;<img src="sm_Screenshot%202019-09-24%20at%2017.11.41.jpg">⟯
 
-⟮c:12;s:all;Loop-chain leash⟯
+⟮c:12;s:∞;Loop-chain leash⟯
 
-1. ⟮c:1;s:all;<img src="sm_Neck-Lead-02.jpg">⟯
-2. ⟮c:2;s:all;<img src="sm_Neck-Lead-03.jpg">⟯
-3. ⟮c:3;s:all;<img src="sm_Neck-Lead-04.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm_Neck-Lead-05.jpg">⟯
-5. ⟮c:5;s:all;<img src="sm_Neck-Lead-06.jpg">⟯
-6. ⟮c:6;s:all;<img src="sm_Neck-Lead-07.jpg">⟯
-7. ⟮c:7;s:all;<img src="sm_Neck-Lead-08.jpg">⟯
-8. ⟮c:8;s:all;<img src="sm_Neck-Lead-09.jpg">⟯
-9. ⟮c:9;s:all;<img src="sm_Neck-Lead-10.jpg">⟯
-10. ⟮c:10;s:all;<img src="sm_Neck-Lead-11.jpg">⟯
-11. ⟮c:11;s:all;<img src="sm_Neck-Lead-12.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm_Neck-Lead-02.jpg">⟯
+2. ⟮c:2;s:∞;<img src="sm_Neck-Lead-03.jpg">⟯
+3. ⟮c:3;s:∞;<img src="sm_Neck-Lead-04.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm_Neck-Lead-05.jpg">⟯
+5. ⟮c:5;s:∞;<img src="sm_Neck-Lead-06.jpg">⟯
+6. ⟮c:6;s:∞;<img src="sm_Neck-Lead-07.jpg">⟯
+7. ⟮c:7;s:∞;<img src="sm_Neck-Lead-08.jpg">⟯
+8. ⟮c:8;s:∞;<img src="sm_Neck-Lead-09.jpg">⟯
+9. ⟮c:9;s:∞;<img src="sm_Neck-Lead-10.jpg">⟯
+10. ⟮c:10;s:∞;<img src="sm_Neck-Lead-11.jpg">⟯
+11. ⟮c:11;s:∞;<img src="sm_Neck-Lead-12.jpg">⟯
 
 ⟮c:5;Square Knot⟯
 
-1. ⟮c:1;s:all;<img src="sm_Square-Knot-01.jpg">⟯
-2. ⟮c:2;s:all;<img src="sm_Square-Knot-02.jpg">⟯
-3. ⟮c:3;s:all;<img src="sm_Square-Knot-03.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm_Square-Knot-04.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm_Square-Knot-01.jpg">⟯
+2. ⟮c:2;s:∞;<img src="sm_Square-Knot-02.jpg">⟯
+3. ⟮c:3;s:∞;<img src="sm_Square-Knot-03.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm_Square-Knot-04.jpg">⟯
 
-⟮c:1;uh:all;Hair tie⟯
+⟮c:1;uh:∞;Hair tie⟯
 
-1. ⟮c:2;s:all;<img src="sm_Prusik-Hair-Tie-05.jpg">⟯
-2. ⟮c:3;s:all;<img src="sm_Prusik-Hair-Tie-06.jpg">⟯
-3. ⟮c:4;s:all;<img src="sm_Prusik-Hair-Tie-07.jpg">⟯
-4. ⟮c:5;s:all;<img src="sm_Prusik-Hair-Tie-08.jpg">⟯
+1. ⟮c:2;s:∞;<img src="sm_Prusik-Hair-Tie-05.jpg">⟯
+2. ⟮c:3;s:∞;<img src="sm_Prusik-Hair-Tie-06.jpg">⟯
+3. ⟮c:4;s:∞;<img src="sm_Prusik-Hair-Tie-07.jpg">⟯
+4. ⟮c:5;s:∞;<img src="sm_Prusik-Hair-Tie-08.jpg">⟯
 
 ⟮c:1;Surgeons Knot⟯
 
-1. ⟮c:1;s:all;<img src="sm_Surgeons-Knot-01.jpg">⟯
-2. ⟮c:2;s:all;<img src="sm_Surgeons-Knot-02.jpg">⟯
-3. ⟮c:3;s:all;<img src="sm_Surgeons-Knot-03.jpg">⟯
-4. ⟮c:4;s:all;<img src="sm_Surgeons-Knot-04.jpg">⟯
+1. ⟮c:1;s:∞;<img src="sm_Surgeons-Knot-01.jpg">⟯
+2. ⟮c:2;s:∞;<img src="sm_Surgeons-Knot-02.jpg">⟯
+3. ⟮c:3;s:∞;<img src="sm_Surgeons-Knot-03.jpg">⟯
+4. ⟮c:4;s:∞;<img src="sm_Surgeons-Knot-04.jpg">⟯
 
 ⟮c:1;Prusik shackle⟯
 
-1. ⟮c:2;s:all;<img src="sm_Prusik-Shackle-01.jpg">⟯
-2. ⟮c:3;s:all;<img src="sm_Prusik-Shackle-02.jpg">⟯
-3. ⟮c:4;s:all;<img src="sm_Prusik-Shackle-04.jpg">⟯
-4. ⟮c:5;s:all;<img src="sm_Prusik-Shackle-05.jpg">⟯
+1. ⟮c:2;s:∞;<img src="sm_Prusik-Shackle-01.jpg">⟯
+2. ⟮c:3;s:∞;<img src="sm_Prusik-Shackle-02.jpg">⟯
+3. ⟮c:4;s:∞;<img src="sm_Prusik-Shackle-04.jpg">⟯
+4. ⟮c:5;s:∞;<img src="sm_Prusik-Shackle-05.jpg">⟯
 
 ⟮c:1;Prusik Cuffs⟯
 
-1. ⟮c:2;s:all;<img src="sm_Prusik-Handcuffs-01.jpg">⟯
-2. ⟮c:3;s:all;<img src="sm_Prusik-Handcuffs-03.jpg">⟯
-3. ⟮c:4;s:all;<img src="sm_Prusik-Handcuffs-06.jpg">⟯
-4. ⟮c:5;s:all;<img src="sm_Prusik-Handcuffs-08.jpg">⟯
+1. ⟮c:2;s:∞;<img src="sm_Prusik-Handcuffs-01.jpg">⟯
+2. ⟮c:3;s:∞;<img src="sm_Prusik-Handcuffs-03.jpg">⟯
+3. ⟮c:4;s:∞;<img src="sm_Prusik-Handcuffs-06.jpg">⟯
+4. ⟮c:5;s:∞;<img src="sm_Prusik-Handcuffs-08.jpg">⟯
 
 ⟮c:1;Prusic head⟯
 
-1. ⟮c:2;s:all;<img src="sm_Prusik-Head-1-01.jpg">⟯
-2. ⟮c:3;s:all;<img src="sm_Prusik-Head-1-03.jpg">⟯
-3. ⟮c:4;s:all;<img src="sm_Prusik-Head-1-04.jpg">⟯
-4. ⟮c:5;s:all;<img src="sm_Prusik-Head-1-05.jpg">⟯
-5. ⟮c:6;s:all;<img src="sm_Prusik-Head-1-06.jpg">⟯
-6. ⟮c:7;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯
-7. ⟮c:8;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯
+1. ⟮c:2;s:∞;<img src="sm_Prusik-Head-1-01.jpg">⟯
+2. ⟮c:3;s:∞;<img src="sm_Prusik-Head-1-03.jpg">⟯
+3. ⟮c:4;s:∞;<img src="sm_Prusik-Head-1-04.jpg">⟯
+4. ⟮c:5;s:∞;<img src="sm_Prusik-Head-1-05.jpg">⟯
+5. ⟮c:6;s:∞;<img src="sm_Prusik-Head-1-06.jpg">⟯
+6. ⟮c:7;s:∞;<img src="sm_Prusik-Head-1-07.jpg">⟯
+7. ⟮c:8;s:∞;<img src="sm_Prusik-Head-1-07.jpg">⟯
 
 # Spanish
 
@@ -4146,7 +4146,7 @@ Numeral|Ordinal number
 
 
 
-Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:all;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:all;<img src="sm_200w.webp">⟯  <tbody class="cloze-group-children hide-if-inactive-children">
+Spanish noun gender mnemonics<br/>⟮h:∞;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:∞;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:∞;<img src="sm_200w.webp">⟯  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯
 ⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯
 
@@ -4440,50 +4440,50 @@ In rap, there are generally ⟮c:1;4 beats⟯ in ⟮c:2;a bar⟯, ⟮h:gb;and �
 
 Who Lives, Who Dies, Who Tells Your Story (extract of beginning)
 
-<br><span class="line">⟮c:1;s:all;Let me tell you what I wish I’d known ⟯</span>
-<span class="line">⟮c:2;s:all;When I was young and dreamed of glory ⟯</span>
-<span class="line">⟮c:3;s:all;You have no control:⟯</span>
-<span class="line">⟮c:4;s:all;Who lives ⟯</span>
-<span class="line">⟮c:5;s:all;Who dies ⟯</span>
-<span class="line">⟮c:6;s:all;Who tells your story?⟯</span>
+<br><span class="line">⟮c:1;s:∞;Let me tell you what I wish I’d known ⟯</span>
+<span class="line">⟮c:2;s:∞;When I was young and dreamed of glory ⟯</span>
+<span class="line">⟮c:3;s:∞;You have no control:⟯</span>
+<span class="line">⟮c:4;s:∞;Who lives ⟯</span>
+<span class="line">⟮c:5;s:∞;Who dies ⟯</span>
+<span class="line">⟮c:6;s:∞;Who tells your story?⟯</span>
 
 Warming Her Pearls (by Carol Ann Duffy)
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Next to my own skin, her pearls. My mistress⟯</span>
-<span class="line">⟮c:2;s:all;bids me wear them, warm them, until evening⟯</span>
-<span class="line">⟮c:3;s:all;when I'll brush her hair. At six, I place them⟯</span>
-<span class="line">⟮c:4;s:all;round her cool, white throat. All day I think of her,⟯</span>
+  <span class="line">⟮c:1;s:∞;Next to my own skin, her pearls. My mistress⟯</span>
+<span class="line">⟮c:2;s:∞;bids me wear them, warm them, until evening⟯</span>
+<span class="line">⟮c:3;s:∞;when I'll brush her hair. At six, I place them⟯</span>
+<span class="line">⟮c:4;s:∞;round her cool, white throat. All day I think of her,⟯</span>
 </blockquote>
 <blockquote>
-<span class="line">⟮c:5;s:all;resting in the Yellow Room, contemplating silk⟯</span>
-<span class="line">⟮c:6;s:all;or taffeta, which gown tonight? She fans herself⟯</span>
-<span class="line">⟮c:7;s:all;whilst I work willingly, my slow heat entering⟯</span>
-<span class="line">⟮c:8;s:all;each pearl. Slack on my neck, her rope.⟯</span>
+<span class="line">⟮c:5;s:∞;resting in the Yellow Room, contemplating silk⟯</span>
+<span class="line">⟮c:6;s:∞;or taffeta, which gown tonight? She fans herself⟯</span>
+<span class="line">⟮c:7;s:∞;whilst I work willingly, my slow heat entering⟯</span>
+<span class="line">⟮c:8;s:∞;each pearl. Slack on my neck, her rope.⟯</span>
 </blockquote>
 <blockquote>
-<span class="line">⟮c:9;s:all;She's beautiful. I dream about her⟯</span>
-<span class="line">⟮c:10;s:all;in my attic bed; picture her dancing⟯</span>
-<span class="line">⟮c:11;s:all;with tall men, puzzled by my faint, persistent scent⟯</span>
-<span class="line">⟮c:12;s:all;beneath her French perfume, her milky stones.⟯</span>
+<span class="line">⟮c:9;s:∞;She's beautiful. I dream about her⟯</span>
+<span class="line">⟮c:10;s:∞;in my attic bed; picture her dancing⟯</span>
+<span class="line">⟮c:11;s:∞;with tall men, puzzled by my faint, persistent scent⟯</span>
+<span class="line">⟮c:12;s:∞;beneath her French perfume, her milky stones.⟯</span>
 </blockquote>
 <blockquote>
-<span class="line">⟮c:13;s:all;I dust her shoulders with a rabbit's foot,⟯</span>
-<span class="line">⟮c:14;s:all;watch the soft blush seep through her skin⟯</span>
-<span class="line">⟮c:15;s:all;like an indolent sigh. In her looking-glass⟯</span>
-<span class="line">⟮c:16;s:all;my red lips part as though I want to speak.⟯</span>
+<span class="line">⟮c:13;s:∞;I dust her shoulders with a rabbit's foot,⟯</span>
+<span class="line">⟮c:14;s:∞;watch the soft blush seep through her skin⟯</span>
+<span class="line">⟮c:15;s:∞;like an indolent sigh. In her looking-glass⟯</span>
+<span class="line">⟮c:16;s:∞;my red lips part as though I want to speak.⟯</span>
 </blockquote>
 <blockquote>
-<span class="line">⟮c:17;s:all;Full moon. Her carriage brings her home. I see⟯</span>
-<span class="line">⟮c:18;s:all;her every movement in my head.... Undressing,⟯</span>
-<span class="line">⟮c:19;s:all;taking off her jewels, her slim hand reaching⟯</span>
-<span class="line">⟮c:20;s:all;for the case, slipping naked into bed, the way⟯</span>
+<span class="line">⟮c:17;s:∞;Full moon. Her carriage brings her home. I see⟯</span>
+<span class="line">⟮c:18;s:∞;her every movement in my head.... Undressing,⟯</span>
+<span class="line">⟮c:19;s:∞;taking off her jewels, her slim hand reaching⟯</span>
+<span class="line">⟮c:20;s:∞;for the case, slipping naked into bed, the way⟯</span>
 </blockquote>
 <blockquote>
-<span class="line">⟮c:21;s:all;she always does.... And I lie here awake,⟯</span>
-<span class="line">⟮c:22;s:all;knowing the pearls are cooling even now⟯</span>
-<span class="line">⟮c:23;s:all;in the room where my mistress sleeps. All night⟯</span>
-<span class="line">⟮c:24;s:all;I feel their absence and I burn.⟯</span>
+<span class="line">⟮c:21;s:∞;she always does.... And I lie here awake,⟯</span>
+<span class="line">⟮c:22;s:∞;knowing the pearls are cooling even now⟯</span>
+<span class="line">⟮c:23;s:∞;in the room where my mistress sleeps. All night⟯</span>
+<span class="line">⟮c:24;s:∞;I feel their absence and I burn.⟯</span>
 </blockquote>
 
 
@@ -4491,138 +4491,138 @@ Warming Her Pearls (by Carol Ann Duffy)
 To be or not to be
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;To be, or not to be, that is the question:⟯</span>
-  <span class="line">⟮c:2;s:all;Whether 'tis nobler in the mind to suffer⟯</span>
-  <span class="line">⟮c:3;s:all;The slings and arrows of outrageous fortune,⟯</span>
-  <span class="line">⟮c:4;s:all;Or to take Arms against a Sea of troubles,⟯</span>
-  <span class="line">⟮c:5;s:all;And by opposing end them: to die, to sleep⟯</span>
-  <span class="line">⟮c:6;s:all;No more; and by a sleep, to say we end⟯</span>
-  <span class="line">⟮c:7;s:all;The heart-ache, and the thousand natural shocks⟯</span>
-  <span class="line">⟮c:8;s:all;That Flesh is heir to? 'Tis a consummation⟯</span>
-  <span class="line">⟮c:9;s:all;Devoutly to be wished. To die, to sleep,⟯</span>
-  <span class="line">⟮c:10;s:all;To sleep, perchance to Dream; aye, there's the rub,⟯</span>
-  <span class="line">⟮c:11;s:all;For in that sleep of death, what dreams may come,⟯</span>
-  <span class="line">⟮c:12;s:all;When we have shuffled off this mortal coil,⟯</span>
-  <span class="line">⟮c:13;s:all;Must give us pause. There's the respect⟯</span>
-  <span class="line">⟮c:14;s:all;That makes Calamity of so long life:⟯</span>
-  <span class="line">⟮c:15;s:all;For who would bear the Whips and Scorns of time,⟯</span>
-  <span class="line">⟮c:16;s:all;The Oppressor's wrong, the proud man's Contumely,⟯</span>
-  <span class="line">⟮c:17;s:all;The pangs of dispised Love, the Law’s delay,⟯</span>
-  <span class="line">⟮c:18;s:all;The insolence of Office, and the spurns⟯</span>
-  <span class="line">⟮c:19;s:all;That patient merit of th'unworthy takes,⟯</span>
-  <span class="line">⟮c:20;s:all;When he himself might his Quietus make⟯</span>
-  <span class="line">⟮c:21;s:all;With a bare Bodkin? Who would Fardels bear, [F: these Fardels]⟯</span>
-  <span class="line">⟮c:22;s:all;To grunt and sweat under a weary life,⟯</span>
-  <span class="line">⟮c:23;s:all;But that the dread of something after death,⟯</span>
-  <span class="line">⟮c:24;s:all;The undiscovered country, from whose bourn⟯</span>
-  <span class="line">⟮c:25;s:all;No traveller returns, puzzles the will,⟯</span>
-  <span class="line">⟮c:26;s:all;And makes us rather bear those ills we have,⟯</span>
-  <span class="line">⟮c:27;s:all;Than fly to others that we know not of?⟯</span>
-  <span class="line">⟮c:28;s:all;Thus conscience does make cowards of us all,⟯</span>
-  <span class="line">⟮c:29;s:all;And thus the native hue of Resolution⟯</span>
-  <span class="line">⟮c:30;s:all;Is sicklied o'er, with the pale cast of Thought,⟯</span>
-  <span class="line">⟮c:31;s:all;And enterprises of great pitch and moment, [F: pith]⟯</span>
-  <span class="line">⟮c:32;s:all;With this regard their Currents turn awry, [F: away]⟯</span>
-  <span class="line">⟮c:33;s:all;And lose the name of Action.⟯</span>
+  <span class="line">⟮c:1;s:∞;To be, or not to be, that is the question:⟯</span>
+  <span class="line">⟮c:2;s:∞;Whether 'tis nobler in the mind to suffer⟯</span>
+  <span class="line">⟮c:3;s:∞;The slings and arrows of outrageous fortune,⟯</span>
+  <span class="line">⟮c:4;s:∞;Or to take Arms against a Sea of troubles,⟯</span>
+  <span class="line">⟮c:5;s:∞;And by opposing end them: to die, to sleep⟯</span>
+  <span class="line">⟮c:6;s:∞;No more; and by a sleep, to say we end⟯</span>
+  <span class="line">⟮c:7;s:∞;The heart-ache, and the thousand natural shocks⟯</span>
+  <span class="line">⟮c:8;s:∞;That Flesh is heir to? 'Tis a consummation⟯</span>
+  <span class="line">⟮c:9;s:∞;Devoutly to be wished. To die, to sleep,⟯</span>
+  <span class="line">⟮c:10;s:∞;To sleep, perchance to Dream; aye, there's the rub,⟯</span>
+  <span class="line">⟮c:11;s:∞;For in that sleep of death, what dreams may come,⟯</span>
+  <span class="line">⟮c:12;s:∞;When we have shuffled off this mortal coil,⟯</span>
+  <span class="line">⟮c:13;s:∞;Must give us pause. There's the respect⟯</span>
+  <span class="line">⟮c:14;s:∞;That makes Calamity of so long life:⟯</span>
+  <span class="line">⟮c:15;s:∞;For who would bear the Whips and Scorns of time,⟯</span>
+  <span class="line">⟮c:16;s:∞;The Oppressor's wrong, the proud man's Contumely,⟯</span>
+  <span class="line">⟮c:17;s:∞;The pangs of dispised Love, the Law’s delay,⟯</span>
+  <span class="line">⟮c:18;s:∞;The insolence of Office, and the spurns⟯</span>
+  <span class="line">⟮c:19;s:∞;That patient merit of th'unworthy takes,⟯</span>
+  <span class="line">⟮c:20;s:∞;When he himself might his Quietus make⟯</span>
+  <span class="line">⟮c:21;s:∞;With a bare Bodkin? Who would Fardels bear, [F: these Fardels]⟯</span>
+  <span class="line">⟮c:22;s:∞;To grunt and sweat under a weary life,⟯</span>
+  <span class="line">⟮c:23;s:∞;But that the dread of something after death,⟯</span>
+  <span class="line">⟮c:24;s:∞;The undiscovered country, from whose bourn⟯</span>
+  <span class="line">⟮c:25;s:∞;No traveller returns, puzzles the will,⟯</span>
+  <span class="line">⟮c:26;s:∞;And makes us rather bear those ills we have,⟯</span>
+  <span class="line">⟮c:27;s:∞;Than fly to others that we know not of?⟯</span>
+  <span class="line">⟮c:28;s:∞;Thus conscience does make cowards of us all,⟯</span>
+  <span class="line">⟮c:29;s:∞;And thus the native hue of Resolution⟯</span>
+  <span class="line">⟮c:30;s:∞;Is sicklied o'er, with the pale cast of Thought,⟯</span>
+  <span class="line">⟮c:31;s:∞;And enterprises of great pitch and moment, [F: pith]⟯</span>
+  <span class="line">⟮c:32;s:∞;With this regard their Currents turn awry, [F: away]⟯</span>
+  <span class="line">⟮c:33;s:∞;And lose the name of Action.⟯</span>
 </blockquote>
 
 Thou knowst the mask of night...
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Thou know’st the mask of night is on my face,⟯</span>
-  <span class="line">⟮c:2;s:all;Else would a maiden blush bepaint my cheek⟯</span>
-  <span class="line">⟮c:3;s:all;For that which thou hast heard me speak tonight.⟯</span>
-  <span class="line">⟮c:4;s:all;Fain would I dwell on form. Fain, fain deny⟯</span>
-  <span class="line">⟮c:5;s:all;What I have spoke. But farewell compliment!⟯</span>
-  <span class="line">⟮c:6;s:all;Dost thou love me? I know thou wilt say “ay,”⟯</span>
-  <span class="line">⟮c:7;s:all;And I will take thy word. Yet if thou swear’st⟯</span>
-  <span class="line">⟮c:8;s:all;Thou mayst prove false. At lovers' perjuries,⟯</span>
-  <span class="line">⟮c:9;s:all;They say, Jove laughs. O gentle Romeo,⟯</span>
-  <span class="line">⟮c:10;s:all;If thou dost love, pronounce it faithfully.⟯</span>
-  <span class="line">⟮c:11;s:all;Or if thou think’st I am too quickly won,⟯</span>
-  <span class="line">⟮c:12;s:all;I’ll frown and be perverse and say thee nay,⟯</span>
-  <span class="line">⟮c:13;s:all;So thou wilt woo. But else, not for the world.⟯</span>
-  <span class="line">⟮c:14;s:all;In truth, fair Montague, I am too fond,⟯</span>
-  <span class="line">⟮c:15;s:all;And therefore thou mayst think my 'havior light.⟯</span>
-  <span class="line">⟮c:16;s:all;But trust me, gentleman, I’ll prove more true⟯</span>
-  <span class="line">⟮c:17;s:all;Than those that have more coying to be strange.⟯</span>
-  <span class="line">⟮c:18;s:all;I should have been more strange, I must confess,⟯</span>
-  <span class="line">⟮c:19;s:all;But that thou overheard’st, ere I was 'ware,⟯</span>
-  <span class="line">⟮c:20;s:all;My true love’s passion. Therefore pardon me,⟯</span>
-  <span class="line">⟮c:21;s:all;105And not impute this yielding to light love,⟯</span>
-  <span class="line">⟮c:22;s:all;Which the dark night hath so discovered.⟯</span>
+  <span class="line">⟮c:1;s:∞;Thou know’st the mask of night is on my face,⟯</span>
+  <span class="line">⟮c:2;s:∞;Else would a maiden blush bepaint my cheek⟯</span>
+  <span class="line">⟮c:3;s:∞;For that which thou hast heard me speak tonight.⟯</span>
+  <span class="line">⟮c:4;s:∞;Fain would I dwell on form. Fain, fain deny⟯</span>
+  <span class="line">⟮c:5;s:∞;What I have spoke. But farewell compliment!⟯</span>
+  <span class="line">⟮c:6;s:∞;Dost thou love me? I know thou wilt say “ay,”⟯</span>
+  <span class="line">⟮c:7;s:∞;And I will take thy word. Yet if thou swear’st⟯</span>
+  <span class="line">⟮c:8;s:∞;Thou mayst prove false. At lovers' perjuries,⟯</span>
+  <span class="line">⟮c:9;s:∞;They say, Jove laughs. O gentle Romeo,⟯</span>
+  <span class="line">⟮c:10;s:∞;If thou dost love, pronounce it faithfully.⟯</span>
+  <span class="line">⟮c:11;s:∞;Or if thou think’st I am too quickly won,⟯</span>
+  <span class="line">⟮c:12;s:∞;I’ll frown and be perverse and say thee nay,⟯</span>
+  <span class="line">⟮c:13;s:∞;So thou wilt woo. But else, not for the world.⟯</span>
+  <span class="line">⟮c:14;s:∞;In truth, fair Montague, I am too fond,⟯</span>
+  <span class="line">⟮c:15;s:∞;And therefore thou mayst think my 'havior light.⟯</span>
+  <span class="line">⟮c:16;s:∞;But trust me, gentleman, I’ll prove more true⟯</span>
+  <span class="line">⟮c:17;s:∞;Than those that have more coying to be strange.⟯</span>
+  <span class="line">⟮c:18;s:∞;I should have been more strange, I must confess,⟯</span>
+  <span class="line">⟮c:19;s:∞;But that thou overheard’st, ere I was 'ware,⟯</span>
+  <span class="line">⟮c:20;s:∞;My true love’s passion. Therefore pardon me,⟯</span>
+  <span class="line">⟮c:21;s:∞;105And not impute this yielding to light love,⟯</span>
+  <span class="line">⟮c:22;s:∞;Which the dark night hath so discovered.⟯</span>
 </blockquote>
 
 The Serenity Prayer
 
-<span class="line">⟮c:1;s:all;God, grant me the serenity to accept the things I cannot change,⟯</span>
-<span class="line">⟮c:2;s:all;courage to change the things I can,⟯</span>
-<span class="line">⟮c:3;s:all;and wisdom to know the difference.⟯</span>
+<span class="line">⟮c:1;s:∞;God, grant me the serenity to accept the things I cannot change,⟯</span>
+<span class="line">⟮c:2;s:∞;courage to change the things I can,⟯</span>
+<span class="line">⟮c:3;s:∞;and wisdom to know the difference.⟯</span>
 
 The Merchant of Venice: Act III, Scene 1, Shylock Monologue
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;To bait fish withal: if it will feed nothing else,⟯</span>
-  <span class="line">⟮c:2;s:all;it will feed my revenge. He hath disgraced me, ⟯</span>
-  <span class="line">⟮c:3;s:all;and hindered me half a million; laughed at my losses,⟯</span>
-  <span class="line">⟮c:4;s:all;mocked at my gains, scorned my nation, ⟯</span>
-  <span class="line">⟮c:5;s:all;thwarted my bargains, cooled my friends, ⟯</span>
-  <span class="line">⟮c:6;s:all;heated mine enemies; and what's his reason? ⟯</span>
-  <span class="line">⟮c:7;s:all;I am a Jew. Hath not a Jew eyes? ⟯</span>
-  <span class="line">⟮c:8;s:all;hath not a Jew hands, organs, dimensions, senses, affections, passions? ⟯</span>
-  <span class="line">⟮c:9;s:all;fed with the same food, hurt with the same weapons, ⟯</span>
-  <span class="line">⟮c:10;s:all;subject to the same diseases, healed by the same means,⟯</span>
-  <span class="line">⟮c:11;s:all;warmed and cooled by the same winter and summer, as⟯</span>
-  <span class="line">⟮c:12;s:all;a Christian is? If you prick us, do we not bleed?⟯</span>
-  <span class="line">⟮c:13;s:all;if you tickle us, do we not laugh? ⟯</span>
-  <span class="line">⟮c:14;s:all;if you poison us, do we not die? ⟯</span>
-  <span class="line">⟮c:15;s:all;and if you wrong us, shall we not revenge? ⟯</span>
-  <span class="line">⟮c:16;s:all;If we are like you in the rest, we will resemble you in that. ⟯</span>
-  <span class="line">⟮c:17;s:all;If a Jew wrong a Christian, what is his humility? Revenge. ⟯</span>
-  <span class="line">⟮c:18;s:all;If a Christian wrong a Jew, what should his sufferance be, ⟯</span>
-  <span class="line">⟮c:19;s:all;by Christian example? Why, revenge. ⟯</span>
-  <span class="line">⟮c:20;s:all;The villany you teach me, I will execute, ⟯</span>
-  <span class="line">⟮c:21;s:all;and it shall go hard but I will better the instruction.⟯</span>
+  <span class="line">⟮c:1;s:∞;To bait fish withal: if it will feed nothing else,⟯</span>
+  <span class="line">⟮c:2;s:∞;it will feed my revenge. He hath disgraced me, ⟯</span>
+  <span class="line">⟮c:3;s:∞;and hindered me half a million; laughed at my losses,⟯</span>
+  <span class="line">⟮c:4;s:∞;mocked at my gains, scorned my nation, ⟯</span>
+  <span class="line">⟮c:5;s:∞;thwarted my bargains, cooled my friends, ⟯</span>
+  <span class="line">⟮c:6;s:∞;heated mine enemies; and what's his reason? ⟯</span>
+  <span class="line">⟮c:7;s:∞;I am a Jew. Hath not a Jew eyes? ⟯</span>
+  <span class="line">⟮c:8;s:∞;hath not a Jew hands, organs, dimensions, senses, affections, passions? ⟯</span>
+  <span class="line">⟮c:9;s:∞;fed with the same food, hurt with the same weapons, ⟯</span>
+  <span class="line">⟮c:10;s:∞;subject to the same diseases, healed by the same means,⟯</span>
+  <span class="line">⟮c:11;s:∞;warmed and cooled by the same winter and summer, as⟯</span>
+  <span class="line">⟮c:12;s:∞;a Christian is? If you prick us, do we not bleed?⟯</span>
+  <span class="line">⟮c:13;s:∞;if you tickle us, do we not laugh? ⟯</span>
+  <span class="line">⟮c:14;s:∞;if you poison us, do we not die? ⟯</span>
+  <span class="line">⟮c:15;s:∞;and if you wrong us, shall we not revenge? ⟯</span>
+  <span class="line">⟮c:16;s:∞;If we are like you in the rest, we will resemble you in that. ⟯</span>
+  <span class="line">⟮c:17;s:∞;If a Jew wrong a Christian, what is his humility? Revenge. ⟯</span>
+  <span class="line">⟮c:18;s:∞;If a Christian wrong a Jew, what should his sufferance be, ⟯</span>
+  <span class="line">⟮c:19;s:∞;by Christian example? Why, revenge. ⟯</span>
+  <span class="line">⟮c:20;s:∞;The villany you teach me, I will execute, ⟯</span>
+  <span class="line">⟮c:21;s:∞;and it shall go hard but I will better the instruction.⟯</span>
 </blockquote>
 
 The Merchant of Venice, Act 1 Scene 3, Shylocks Monologue
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Signior Antonio, many a time and oft⟯</span>
-  <span class="line">⟮c:2;s:all;In the Rialto you have rated me⟯</span>
-  <span class="line">⟮c:3;s:all;About my moneys and my usances:⟯</span>
-  <span class="line">⟮c:4;s:all;Still have I borne it with a patient shrug,⟯</span>
-  <span class="line">⟮c:5;s:all;For sufferance is the badge of all our tribe.⟯</span>
-  <span class="line">⟮c:6;s:all;You call me misbeliever, cut-throat dog,⟯</span>
-  <span class="line">⟮c:7;s:all;And spit upon my Jewish gaberdine,⟯</span>
-  <span class="line">⟮c:8;s:all;And all for use of that which is mine own.⟯</span>
-  <span class="line">⟮c:9;s:all;Well then, it now appears you need my help:⟯</span>
-  <span class="line">⟮c:10;s:all;Go to, then; you come to me, and you say⟯</span>
-  <span class="line">⟮c:11;s:all;'Shylock, we would have moneys:' you say so;⟯</span>
-  <span class="line">⟮c:12;s:all;You, that did void your rheum upon my beard⟯</span>
-  <span class="line">⟮c:13;s:all;And foot me as you spurn a stranger cur⟯</span>
-  <span class="line">⟮c:14;s:all;Over your threshold: moneys is your suit⟯</span>
-  <span class="line">⟮c:15;s:all;What should I say to you? Should I not say⟯</span>
-  <span class="line">⟮c:16;s:all;'Hath a dog money? is it possible⟯</span>
-  <span class="line">⟮c:17;s:all;A cur can lend three thousand ducats?' Or⟯</span>
-  <span class="line">⟮c:18;s:all;Shall I bend low and in a bondman's key,⟯</span>
-  <span class="line">⟮c:19;s:all;With bated breath and whispering humbleness, Say this;⟯</span>
-  <span class="line">⟮c:20;s:all;'Fair sir, you spit on me on Wednesday last;⟯</span>
-  <span class="line">⟮c:21;s:all;You spurn'd me such a day; another time⟯</span>
-  <span class="line">⟮c:22;s:all;You call'd me dog; and for these courtesies⟯</span>
-  <span class="line">⟮c:23;s:all;I'll lend you thus much moneys'?⟯</span>
+  <span class="line">⟮c:1;s:∞;Signior Antonio, many a time and oft⟯</span>
+  <span class="line">⟮c:2;s:∞;In the Rialto you have rated me⟯</span>
+  <span class="line">⟮c:3;s:∞;About my moneys and my usances:⟯</span>
+  <span class="line">⟮c:4;s:∞;Still have I borne it with a patient shrug,⟯</span>
+  <span class="line">⟮c:5;s:∞;For sufferance is the badge of all our tribe.⟯</span>
+  <span class="line">⟮c:6;s:∞;You call me misbeliever, cut-throat dog,⟯</span>
+  <span class="line">⟮c:7;s:∞;And spit upon my Jewish gaberdine,⟯</span>
+  <span class="line">⟮c:8;s:∞;And all for use of that which is mine own.⟯</span>
+  <span class="line">⟮c:9;s:∞;Well then, it now appears you need my help:⟯</span>
+  <span class="line">⟮c:10;s:∞;Go to, then; you come to me, and you say⟯</span>
+  <span class="line">⟮c:11;s:∞;'Shylock, we would have moneys:' you say so;⟯</span>
+  <span class="line">⟮c:12;s:∞;You, that did void your rheum upon my beard⟯</span>
+  <span class="line">⟮c:13;s:∞;And foot me as you spurn a stranger cur⟯</span>
+  <span class="line">⟮c:14;s:∞;Over your threshold: moneys is your suit⟯</span>
+  <span class="line">⟮c:15;s:∞;What should I say to you? Should I not say⟯</span>
+  <span class="line">⟮c:16;s:∞;'Hath a dog money? is it possible⟯</span>
+  <span class="line">⟮c:17;s:∞;A cur can lend three thousand ducats?' Or⟯</span>
+  <span class="line">⟮c:18;s:∞;Shall I bend low and in a bondman's key,⟯</span>
+  <span class="line">⟮c:19;s:∞;With bated breath and whispering humbleness, Say this;⟯</span>
+  <span class="line">⟮c:20;s:∞;'Fair sir, you spit on me on Wednesday last;⟯</span>
+  <span class="line">⟮c:21;s:∞;You spurn'd me such a day; another time⟯</span>
+  <span class="line">⟮c:22;s:∞;You call'd me dog; and for these courtesies⟯</span>
+  <span class="line">⟮c:23;s:∞;I'll lend you thus much moneys'?⟯</span>
 </blockquote>
 
 Símon Bolivar's conclusion about the americas
 
 Simon Bolivars Letter near the end of his life:
 <ol>
-  <li>⟮c:1;s:all;America is ungovernable.⟯</li>
-  <li>⟮c:2;s:all;He who serves revolution plows the sea.⟯</li>
-  <li>⟮c:3;s:all;The only thing one can do in America is emigrate.⟯</li>
-  <li>⟮c:4;s:all;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯</li>
-  <li>⟮c:5;s:all;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
-  <li>⟮c:6;s:all;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
+  <li>⟮c:1;s:∞;America is ungovernable.⟯</li>
+  <li>⟮c:2;s:∞;He who serves revolution plows the sea.⟯</li>
+  <li>⟮c:3;s:∞;The only thing one can do in America is emigrate.⟯</li>
+  <li>⟮c:4;s:∞;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯</li>
+  <li>⟮c:5;s:∞;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
+  <li>⟮c:6;s:∞;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
 </ol>
 <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯</span><br><div class="sub">
 <a href="https://en.wikiquote.org/wiki/Sim%C3%B3n_Bol%C3%ADvar#Letter_near_the_end_of_his_life_(November_9,_1830)">https://en.wikiquote.org/wiki/Simón_Bolívar#Letter_near_the_end_of_his_life_(November_9,_1830)</a>
@@ -4632,164 +4632,164 @@ Speech: “Tomorrow, and tomorrow, and tomorrow
  (from Macbeth, spoken by Macbeth)
  
  <blockquote>
-  <span class="line">⟮c:1;s:all;Tomorrow, and tomorrow, and tomorrow,⟯</span>
-  <span class="line">⟮c:2;s:all;Creeps in this petty pace from day to day,⟯</span>
-  <span class="line">⟮c:3;s:all;To the last syllable of recorded time;⟯</span>
-  <span class="line">⟮c:4;s:all;And all our yesterdays have lighted fools⟯</span>
-  <span class="line">⟮c:5;s:all;The way to dusty death. Out, out, brief candle!⟯</span>
-  <span class="line">⟮c:6;s:all;Life's but a walking shadow, a poor player,⟯</span>
-  <span class="line">⟮c:7;s:all;That struts and frets his hour upon the stage,⟯</span>
-  <span class="line">⟮c:8;s:all;And then is heard no more. It is a tale⟯</span>
-  <span class="line">⟮c:9;s:all;Told by an idiot, full of sound and fury,⟯</span>
-  <span class="line">⟮c:10;s:all;Signifying nothing.⟯</span>
+  <span class="line">⟮c:1;s:∞;Tomorrow, and tomorrow, and tomorrow,⟯</span>
+  <span class="line">⟮c:2;s:∞;Creeps in this petty pace from day to day,⟯</span>
+  <span class="line">⟮c:3;s:∞;To the last syllable of recorded time;⟯</span>
+  <span class="line">⟮c:4;s:∞;And all our yesterdays have lighted fools⟯</span>
+  <span class="line">⟮c:5;s:∞;The way to dusty death. Out, out, brief candle!⟯</span>
+  <span class="line">⟮c:6;s:∞;Life's but a walking shadow, a poor player,⟯</span>
+  <span class="line">⟮c:7;s:∞;That struts and frets his hour upon the stage,⟯</span>
+  <span class="line">⟮c:8;s:∞;And then is heard no more. It is a tale⟯</span>
+  <span class="line">⟮c:9;s:∞;Told by an idiot, full of sound and fury,⟯</span>
+  <span class="line">⟮c:10;s:∞;Signifying nothing.⟯</span>
 </blockquote>
 
 Prometheus (Goethe)
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Bedecke deinen Himmel, Zeus,⟯</span>
-  <span class="line">⟮c:2;s:all;Mit Wolkendunst,⟯</span>
-  <span class="line">⟮c:3;s:all;Und übe, dem Knaben gleich,⟯</span>
-  <span class="line">⟮c:4;s:all;Der Disteln köpft,⟯</span>
-  <span class="line">⟮c:5;s:all;An Eichen dich und Bergeshöhn;⟯</span>
-  <span class="line">⟮c:6;s:all;Musst mir meine Erde⟯</span>
-  <span class="line">⟮c:7;s:all;Doch lassen stehn⟯</span>
-  <span class="line">⟮c:8;s:all;Und meine Hütte, die du nicht gebaut,⟯</span>
-  <span class="line">⟮c:9;s:all;Und meinen Herd,⟯</span>
-  <span class="line">⟮c:10;s:all;Um dessen Glut⟯</span>
-  <span class="line">⟮c:11;s:all;Du mich beneidest.⟯</span>
+  <span class="line">⟮c:1;s:∞;Bedecke deinen Himmel, Zeus,⟯</span>
+  <span class="line">⟮c:2;s:∞;Mit Wolkendunst,⟯</span>
+  <span class="line">⟮c:3;s:∞;Und übe, dem Knaben gleich,⟯</span>
+  <span class="line">⟮c:4;s:∞;Der Disteln köpft,⟯</span>
+  <span class="line">⟮c:5;s:∞;An Eichen dich und Bergeshöhn;⟯</span>
+  <span class="line">⟮c:6;s:∞;Musst mir meine Erde⟯</span>
+  <span class="line">⟮c:7;s:∞;Doch lassen stehn⟯</span>
+  <span class="line">⟮c:8;s:∞;Und meine Hütte, die du nicht gebaut,⟯</span>
+  <span class="line">⟮c:9;s:∞;Und meinen Herd,⟯</span>
+  <span class="line">⟮c:10;s:∞;Um dessen Glut⟯</span>
+  <span class="line">⟮c:11;s:∞;Du mich beneidest.⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:12;s:all;Ich kenne nichts Ärmeres⟯</span>
-  <span class="line">⟮c:13;s:all;Unter der Sonn' als euch, Götter!⟯</span>
-  <span class="line">⟮c:14;s:all;Ihr nähret kümmerlich⟯</span>
-  <span class="line">⟮c:15;s:all;Von Opfersteuern⟯</span>
-  <span class="line">⟮c:16;s:all;Und Gebetshauch⟯</span>
-  <span class="line">⟮c:17;s:all;Eure Majestät,⟯</span>
-  <span class="line">⟮c:18;s:all;Und darbtet, wären⟯</span>
-  <span class="line">⟮c:19;s:all;Nicht Kinder und Bettler⟯</span>
-  <span class="line">⟮c:20;s:all;Hoffnungsvolle Toren.⟯</span>
+  <span class="line">⟮c:12;s:∞;Ich kenne nichts Ärmeres⟯</span>
+  <span class="line">⟮c:13;s:∞;Unter der Sonn' als euch, Götter!⟯</span>
+  <span class="line">⟮c:14;s:∞;Ihr nähret kümmerlich⟯</span>
+  <span class="line">⟮c:15;s:∞;Von Opfersteuern⟯</span>
+  <span class="line">⟮c:16;s:∞;Und Gebetshauch⟯</span>
+  <span class="line">⟮c:17;s:∞;Eure Majestät,⟯</span>
+  <span class="line">⟮c:18;s:∞;Und darbtet, wären⟯</span>
+  <span class="line">⟮c:19;s:∞;Nicht Kinder und Bettler⟯</span>
+  <span class="line">⟮c:20;s:∞;Hoffnungsvolle Toren.⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:21;s:all;Da ich ein Kind war,⟯</span>
-  <span class="line">⟮c:22;s:all;Nicht wusste wo aus noch ein,⟯</span>
-  <span class="line">⟮c:23;s:all;Kehrt' ich mein verirrtes Auge⟯</span>
-  <span class="line">⟮c:24;s:all;Zur Sonne, als wenn drüber wär'⟯</span>
-  <span class="line">⟮c:25;s:all;Ein Ohr, zu hören meine Klage,⟯</span>
-  <span class="line">⟮c:26;s:all;Ein Herz, wie mein's,⟯</span>
-  <span class="line">⟮c:27;s:all;Sich des Bedrängten zu erbarmen.⟯</span>
+  <span class="line">⟮c:21;s:∞;Da ich ein Kind war,⟯</span>
+  <span class="line">⟮c:22;s:∞;Nicht wusste wo aus noch ein,⟯</span>
+  <span class="line">⟮c:23;s:∞;Kehrt' ich mein verirrtes Auge⟯</span>
+  <span class="line">⟮c:24;s:∞;Zur Sonne, als wenn drüber wär'⟯</span>
+  <span class="line">⟮c:25;s:∞;Ein Ohr, zu hören meine Klage,⟯</span>
+  <span class="line">⟮c:26;s:∞;Ein Herz, wie mein's,⟯</span>
+  <span class="line">⟮c:27;s:∞;Sich des Bedrängten zu erbarmen.⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:28;s:all;Wer half mir⟯</span>
-  <span class="line">⟮c:29;s:all;Wider der Titanen Übermut?⟯</span>
-  <span class="line">⟮c:30;s:all;Wer rettete vom Tode mich,⟯</span>
-  <span class="line">⟮c:31;s:all;Von Sklaverei?⟯</span>
-  <span class="line">⟮c:32;s:all;Hast du nicht alles selbst vollendet,⟯</span>
-  <span class="line">⟮c:33;s:all;Heilig glühend Herz?⟯</span>
-  <span class="line">⟮c:34;s:all;Und glühtest jung und gut,⟯</span>
-  <span class="line">⟮c:35;s:all;Betrogen, Rettungsdank⟯</span>
-  <span class="line">⟮c:36;s:all;Dem Schlafenden da droben?⟯</span>
+  <span class="line">⟮c:28;s:∞;Wer half mir⟯</span>
+  <span class="line">⟮c:29;s:∞;Wider der Titanen Übermut?⟯</span>
+  <span class="line">⟮c:30;s:∞;Wer rettete vom Tode mich,⟯</span>
+  <span class="line">⟮c:31;s:∞;Von Sklaverei?⟯</span>
+  <span class="line">⟮c:32;s:∞;Hast du nicht alles selbst vollendet,⟯</span>
+  <span class="line">⟮c:33;s:∞;Heilig glühend Herz?⟯</span>
+  <span class="line">⟮c:34;s:∞;Und glühtest jung und gut,⟯</span>
+  <span class="line">⟮c:35;s:∞;Betrogen, Rettungsdank⟯</span>
+  <span class="line">⟮c:36;s:∞;Dem Schlafenden da droben?⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:37;s:all;Ich dich ehren? Wofür?⟯</span>
-  <span class="line">⟮c:38;s:all;Hast du die Schmerzen gelindert⟯</span>
-  <span class="line">⟮c:39;s:all;Je des Beladenen?⟯</span>
-  <span class="line">⟮c:40;s:all;Hast du die Tränen gestillet⟯</span>
-  <span class="line">⟮c:41;s:all;Je des Geängsteten?⟯</span>
-  <span class="line">⟮c:42;s:all;Hat nicht mich zum Manne geschmiedet⟯</span>
-  <span class="line">⟮c:43;s:all;Die allmächtige Zeit⟯</span>
-  <span class="line">⟮c:44;s:all;Und das ewige Schicksal,⟯</span>
-  <span class="line">⟮c:45;s:all;Meine Herrn und deine?⟯</span>
+  <span class="line">⟮c:37;s:∞;Ich dich ehren? Wofür?⟯</span>
+  <span class="line">⟮c:38;s:∞;Hast du die Schmerzen gelindert⟯</span>
+  <span class="line">⟮c:39;s:∞;Je des Beladenen?⟯</span>
+  <span class="line">⟮c:40;s:∞;Hast du die Tränen gestillet⟯</span>
+  <span class="line">⟮c:41;s:∞;Je des Geängsteten?⟯</span>
+  <span class="line">⟮c:42;s:∞;Hat nicht mich zum Manne geschmiedet⟯</span>
+  <span class="line">⟮c:43;s:∞;Die allmächtige Zeit⟯</span>
+  <span class="line">⟮c:44;s:∞;Und das ewige Schicksal,⟯</span>
+  <span class="line">⟮c:45;s:∞;Meine Herrn und deine?⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:46;s:all;Wähntest du etwa,⟯</span>
-  <span class="line">⟮c:47;s:all;Ich sollte das Leben hassen,⟯</span>
-  <span class="line">⟮c:48;s:all;In Wüsten fliehen,⟯</span>
-  <span class="line">⟮c:49;s:all;Weil nicht alle⟯</span>
-  <span class="line">⟮c:50;s:all;Blütenträume reiften?⟯</span>
+  <span class="line">⟮c:46;s:∞;Wähntest du etwa,⟯</span>
+  <span class="line">⟮c:47;s:∞;Ich sollte das Leben hassen,⟯</span>
+  <span class="line">⟮c:48;s:∞;In Wüsten fliehen,⟯</span>
+  <span class="line">⟮c:49;s:∞;Weil nicht alle⟯</span>
+  <span class="line">⟮c:50;s:∞;Blütenträume reiften?⟯</span>
 </blockquote>
 <blockquote>
-  <span class="line">⟮c:51;s:all;Hier sitz' ich, forme Menschen⟯</span>
-  <span class="line">⟮c:52;s:all;Nach meinem Bilde,⟯</span>
-  <span class="line">⟮c:53;s:all;Ein Geschlecht, das mir gleich sei,⟯</span>
-  <span class="line">⟮c:54;s:all;Zu leiden, zu weinen,⟯</span>
+  <span class="line">⟮c:51;s:∞;Hier sitz' ich, forme Menschen⟯</span>
+  <span class="line">⟮c:52;s:∞;Nach meinem Bilde,⟯</span>
+  <span class="line">⟮c:53;s:∞;Ein Geschlecht, das mir gleich sei,⟯</span>
+  <span class="line">⟮c:54;s:∞;Zu leiden, zu weinen,⟯</span>
   <span class="line">Zu ⟮c:55;genießen⟯ ⟮c:56;und zu freuen sich,⟯</span>
-  <span class="line">⟮c:57;s:all;Und dein nicht zu achten,⟯</span>
-  <span class="line">⟮c:58;s:all;Wie ich!⟯</span>
+  <span class="line">⟮c:57;s:∞;Und dein nicht zu achten,⟯</span>
+  <span class="line">⟮c:58;s:∞;Wie ich!⟯</span>
 </blockquote>
 
 Once more unto the breach!
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Once more unto the breach, dear friends, once more;⟯</span>
-  <span class="line">⟮c:2;s:all;Or close the wall up with our English dead.⟯</span>
-  <span class="line">⟮c:3;s:all;In peace there's nothing so becomes a man⟯</span>
-  <span class="line">⟮c:4;s:all;As modest stillness and humility:⟯</span>
-  <span class="line">⟮c:5;s:all;But when the blast of war blows in our ears,⟯</span>
-  <span class="line">⟮c:6;s:all;Then imitate the action of the tiger;⟯</span>
-  <span class="line">⟮c:7;s:all;Stiffen the sinews, summon up the blood,⟯</span>
-  <span class="line">⟮c:8;s:all;Disguise fair nature with hard-favour'd rage;⟯</span>
-  <span class="line">⟮c:9;s:all;Then lend the eye a terrible aspect;⟯</span>
-  <span class="line">⟮c:10;s:all;Let pry through the portage of the head⟯</span>
-  <span class="line">⟮c:11;s:all;Like the brass cannon; let the brow o'erwhelm it⟯</span>
-  <span class="line">⟮c:12;s:all;As fearfully as doth a galled rock⟯</span>
-  <span class="line">⟮c:13;s:all;O'erhang and jutty his confounded base,⟯</span>
-  <span class="line">⟮c:14;s:all;Swill'd with the wild and wasteful ocean.⟯</span>
-  <span class="line">⟮c:15;s:all;Now set the teeth and stretch the nostril wide,⟯</span>
-  <span class="line">⟮c:16;s:all;Hold hard the breath and bend up every spirit⟯</span>
-  <span class="line">⟮c:17;s:all;To his full height. On, on, you noblest English.⟯</span>
-  <span class="line">⟮c:18;s:all;Whose blood is fet from fathers of war-proof!⟯</span>
-  <span class="line">⟮c:19;s:all;Fathers that, like so many Alexanders,⟯</span>
-  <span class="line">⟮c:20;s:all;Have in these parts from morn till even fought⟯</span>
-  <span class="line">⟮c:21;s:all;And sheathed their swords for lack of argument:⟯</span>
-  <span class="line">⟮c:22;s:all;Dishonour not your mothers; now attest⟯</span>
-  <span class="line">⟮c:23;s:all;That those whom you call'd fathers did beget you.⟯</span>
-  <span class="line">⟮c:24;s:all;Be copy now to men of grosser blood,⟯</span>
-  <span class="line">⟮c:25;s:all;And teach them how to war. And you, good yeoman,⟯</span>
-  <span class="line">⟮c:26;s:all;Whose limbs were made in England, show us here⟯</span>
-  <span class="line">⟮c:27;s:all;The mettle of your pasture; let us swear⟯</span>
-  <span class="line">⟮c:28;s:all;That you are worth your breeding; which I doubt not;⟯</span>
-  <span class="line">⟮c:29;s:all;For there is none of you so mean and base,⟯</span>
-  <span class="line">⟮c:30;s:all;That hath not noble lustre in your eyes.⟯</span>
-  <span class="line">⟮c:31;s:all;I see you stand like greyhounds in the slips,⟯</span>
-  <span class="line">⟮c:32;s:all;Straining upon the start. The game's afoot:⟯</span>
-  <span class="line">⟮c:33;s:all;Follow your spirit, and upon this charge⟯</span>
-  <span class="line">⟮c:34;s:all;Cry 'God for Harry, England, and Saint George!'⟯</span>
+  <span class="line">⟮c:1;s:∞;Once more unto the breach, dear friends, once more;⟯</span>
+  <span class="line">⟮c:2;s:∞;Or close the wall up with our English dead.⟯</span>
+  <span class="line">⟮c:3;s:∞;In peace there's nothing so becomes a man⟯</span>
+  <span class="line">⟮c:4;s:∞;As modest stillness and humility:⟯</span>
+  <span class="line">⟮c:5;s:∞;But when the blast of war blows in our ears,⟯</span>
+  <span class="line">⟮c:6;s:∞;Then imitate the action of the tiger;⟯</span>
+  <span class="line">⟮c:7;s:∞;Stiffen the sinews, summon up the blood,⟯</span>
+  <span class="line">⟮c:8;s:∞;Disguise fair nature with hard-favour'd rage;⟯</span>
+  <span class="line">⟮c:9;s:∞;Then lend the eye a terrible aspect;⟯</span>
+  <span class="line">⟮c:10;s:∞;Let pry through the portage of the head⟯</span>
+  <span class="line">⟮c:11;s:∞;Like the brass cannon; let the brow o'erwhelm it⟯</span>
+  <span class="line">⟮c:12;s:∞;As fearfully as doth a galled rock⟯</span>
+  <span class="line">⟮c:13;s:∞;O'erhang and jutty his confounded base,⟯</span>
+  <span class="line">⟮c:14;s:∞;Swill'd with the wild and wasteful ocean.⟯</span>
+  <span class="line">⟮c:15;s:∞;Now set the teeth and stretch the nostril wide,⟯</span>
+  <span class="line">⟮c:16;s:∞;Hold hard the breath and bend up every spirit⟯</span>
+  <span class="line">⟮c:17;s:∞;To his full height. On, on, you noblest English.⟯</span>
+  <span class="line">⟮c:18;s:∞;Whose blood is fet from fathers of war-proof!⟯</span>
+  <span class="line">⟮c:19;s:∞;Fathers that, like so many Alexanders,⟯</span>
+  <span class="line">⟮c:20;s:∞;Have in these parts from morn till even fought⟯</span>
+  <span class="line">⟮c:21;s:∞;And sheathed their swords for lack of argument:⟯</span>
+  <span class="line">⟮c:22;s:∞;Dishonour not your mothers; now attest⟯</span>
+  <span class="line">⟮c:23;s:∞;That those whom you call'd fathers did beget you.⟯</span>
+  <span class="line">⟮c:24;s:∞;Be copy now to men of grosser blood,⟯</span>
+  <span class="line">⟮c:25;s:∞;And teach them how to war. And you, good yeoman,⟯</span>
+  <span class="line">⟮c:26;s:∞;Whose limbs were made in England, show us here⟯</span>
+  <span class="line">⟮c:27;s:∞;The mettle of your pasture; let us swear⟯</span>
+  <span class="line">⟮c:28;s:∞;That you are worth your breeding; which I doubt not;⟯</span>
+  <span class="line">⟮c:29;s:∞;For there is none of you so mean and base,⟯</span>
+  <span class="line">⟮c:30;s:∞;That hath not noble lustre in your eyes.⟯</span>
+  <span class="line">⟮c:31;s:∞;I see you stand like greyhounds in the slips,⟯</span>
+  <span class="line">⟮c:32;s:∞;Straining upon the start. The game's afoot:⟯</span>
+  <span class="line">⟮c:33;s:∞;Follow your spirit, and upon this charge⟯</span>
+  <span class="line">⟮c:34;s:∞;Cry 'God for Harry, England, and Saint George!'⟯</span>
 </blockquote>
 
 Hamilton - Non-Stop (extract)
 
-<span class="line">⟮c:1;s:all;Alexander joins forces with James Madison and John Jay to write a series⟯</span>
-<span class="line">⟮c:2;s:all;of essays defending the new United States Constitution,⟯</span>
-<span class="line">⟮c:3;s:all;entitled The Federalist Papers.⟯</span>
-<span class="line">⟮c:4;s:all;The plan was to write a total of twenty-five essays,⟯</span>
-<span class="line">⟮c:5;s:all;the work divided evenly among the three men. In the end,⟯</span>
-<span class="line">⟮c:6;s:all;they wrote eighty-five essays,⟯</span>
-<span class="line">⟮c:7;s:all;in the span of six months. John Jay got sick after writing five.⟯</span>
-<span class="line">⟮c:8;s:all;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯</span>
+<span class="line">⟮c:1;s:∞;Alexander joins forces with James Madison and John Jay to write a series⟯</span>
+<span class="line">⟮c:2;s:∞;of essays defending the new United States Constitution,⟯</span>
+<span class="line">⟮c:3;s:∞;entitled The Federalist Papers.⟯</span>
+<span class="line">⟮c:4;s:∞;The plan was to write a total of twenty-five essays,⟯</span>
+<span class="line">⟮c:5;s:∞;the work divided evenly among the three men. In the end,⟯</span>
+<span class="line">⟮c:6;s:∞;they wrote eighty-five essays,⟯</span>
+<span class="line">⟮c:7;s:∞;in the span of six months. John Jay got sick after writing five.⟯</span>
+<span class="line">⟮c:8;s:∞;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯</span>
 
 Man'yōshū vol. 11, verse 2514 - 2513
 
 <p>
-  <span class="line">⟮c:1;s:all;A faint clap of thunder⟯</span>
-  <span class="line">⟮c:2;s:all;Clouded skies⟯</span>
-  <span class="line">⟮c:3;s:all;Perhaps rain comes⟯</span>
-  <span class="line">⟮c:4;s:all;If so, will you stay here with me?⟯</span>
+  <span class="line">⟮c:1;s:∞;A faint clap of thunder⟯</span>
+  <span class="line">⟮c:2;s:∞;Clouded skies⟯</span>
+  <span class="line">⟮c:3;s:∞;Perhaps rain comes⟯</span>
+  <span class="line">⟮c:4;s:∞;If so, will you stay here with me?⟯</span>
   </p>
   <p>
-  <span class="line">⟮c:5;s:all;A faint clap of thunder⟯</span>
-  <span class="line">⟮c:6;s:all;Even if rain comes not⟯</span>
-  <span class="line">⟮c:7;s:all;I will stay here⟯</span>
-  <span class="line">⟮c:8;s:all;Together with you⟯</span>
+  <span class="line">⟮c:5;s:∞;A faint clap of thunder⟯</span>
+  <span class="line">⟮c:6;s:∞;Even if rain comes not⟯</span>
+  <span class="line">⟮c:7;s:∞;I will stay here⟯</span>
+  <span class="line">⟮c:8;s:∞;Together with you⟯</span>
   </p>
 
 John Chivington, 1864, about indians
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;I have come to kill Indians,⟯</span>
-  <span class="line">⟮c:2;s:all;and believe it is right and honorable to use⟯</span>
-  <span class="line">⟮c:3;s:all;any means under God's heaven to kill Indians.⟯</span>
-  <span class="line">⟮c:4;s:all;Kill and scalp all, big and little; nits make lice!⟯</span>
+  <span class="line">⟮c:1;s:∞;I have come to kill Indians,⟯</span>
+  <span class="line">⟮c:2;s:∞;and believe it is right and honorable to use⟯</span>
+  <span class="line">⟮c:3;s:∞;any means under God's heaven to kill Indians.⟯</span>
+  <span class="line">⟮c:4;s:∞;Kill and scalp all, big and little; nits make lice!⟯</span>
 </blockquote>
 
 ⟮c:3;It is too rash, too unadvised, too sudden,⟯ ⟮c:2;Too like the lightning, which doth cease to be⟯ ⟮c:1;Ere one can say “It lightens.”⟯ 
@@ -4797,138 +4797,138 @@ John Chivington, 1864, about indians
 Helen of Troy Does Countertop Dancing (by Margaret Atwood)
 
 <blockquote> 
-  <span class="line">⟮c:1;s:all;The world is full of women⟯</span>
-  <span class="line">⟮c:2;s:all;who'd tell me I should be ashamed of myself⟯</span>
-  <span class="line">⟮c:3;s:all;if they had the chance. Quit dancing.⟯</span>
-  <span class="line">⟮c:4;s:all;Get some self-respect⟯</span>
-  <span class="line">⟮c:5;s:all;and a day job.⟯</span>
-  <span class="line">⟮c:6;s:all;Right. And minimum wage,⟯</span>
-  <span class="line">⟮c:7;s:all;and varicose veins, just standing⟯</span>
-  <span class="line">⟮c:8;s:all;in one place for eight hours⟯</span>
-  <span class="line">⟮c:9;s:all;behind a glass counter⟯</span>
-  <span class="line">⟮c:10;s:all;bundled up to the neck, instead of⟯</span>
-  <span class="line">⟮c:11;s:all;naked as a meat sandwich.⟯</span>
-  <span class="line">⟮c:12;s:all;Selling gloves, or something.⟯</span>
-  <span class="line">⟮c:13;s:all;Instead of what I do sell.⟯</span>
-  <span class="line">⟮c:14;s:all;You have to have talent⟯</span>
-  <span class="line">⟮c:15;s:all;to peddle a thing so nebulous⟯</span>
-  <span class="line">⟮c:16;s:all;and without material form.⟯</span>
-  <span class="line">⟮c:17;s:all;Exploited, they'd say. Yes, any way⟯</span>
-  <span class="line">⟮c:18;s:all;you cut it, but I've a choice⟯</span>
-  <span class="line">⟮c:19;s:all;of how, and I'll take the money.⟯</span>
+  <span class="line">⟮c:1;s:∞;The world is full of women⟯</span>
+  <span class="line">⟮c:2;s:∞;who'd tell me I should be ashamed of myself⟯</span>
+  <span class="line">⟮c:3;s:∞;if they had the chance. Quit dancing.⟯</span>
+  <span class="line">⟮c:4;s:∞;Get some self-respect⟯</span>
+  <span class="line">⟮c:5;s:∞;and a day job.⟯</span>
+  <span class="line">⟮c:6;s:∞;Right. And minimum wage,⟯</span>
+  <span class="line">⟮c:7;s:∞;and varicose veins, just standing⟯</span>
+  <span class="line">⟮c:8;s:∞;in one place for eight hours⟯</span>
+  <span class="line">⟮c:9;s:∞;behind a glass counter⟯</span>
+  <span class="line">⟮c:10;s:∞;bundled up to the neck, instead of⟯</span>
+  <span class="line">⟮c:11;s:∞;naked as a meat sandwich.⟯</span>
+  <span class="line">⟮c:12;s:∞;Selling gloves, or something.⟯</span>
+  <span class="line">⟮c:13;s:∞;Instead of what I do sell.⟯</span>
+  <span class="line">⟮c:14;s:∞;You have to have talent⟯</span>
+  <span class="line">⟮c:15;s:∞;to peddle a thing so nebulous⟯</span>
+  <span class="line">⟮c:16;s:∞;and without material form.⟯</span>
+  <span class="line">⟮c:17;s:∞;Exploited, they'd say. Yes, any way⟯</span>
+  <span class="line">⟮c:18;s:∞;you cut it, but I've a choice⟯</span>
+  <span class="line">⟮c:19;s:∞;of how, and I'll take the money.⟯</span>
 </blockquote>
 
 <blockquote>
-  <span class="line">⟮c:20;s:all;I do give value.⟯</span>
-  <span class="line">⟮c:21;s:all;Like preachers, I sell vision,⟯</span>
-  <span class="line">⟮c:22;s:all;like perfume ads, desire⟯</span>
-  <span class="line">⟮c:23;s:all;or its facsimile. Like jokes⟯</span>
-  <span class="line">⟮c:24;s:all;or war, it's all in the timing.⟯</span>
-  <span class="line">⟮c:25;s:all;I sell men back their worse suspicions:⟯</span>
-  <span class="line">⟮c:26;s:all;that everything's for sale,⟯</span>
-  <span class="line">⟮c:27;s:all;and piecemeal. They gaze at me and see⟯</span>
-  <span class="line">⟮c:28;s:all;a chain-saw murder just before it happens,⟯</span>
-  <span class="line">⟮c:29;s:all;when thigh, ass, inkblot, crevice, tit, and nipple⟯</span>
-  <span class="line">⟮c:30;s:all;are still connected.⟯</span>
-  <span class="line">⟮c:31;s:all;Such hatred leaps in them,⟯</span>
-  <span class="line">⟮c:32;s:all;my beery worshippers! That, or a bleary⟯</span>
-  <span class="line">⟮c:33;s:all;hopeless love. Seeing the rows of heads⟯</span>
-  <span class="line">⟮c:34;s:all;and upturned eyes, imploring⟯</span>
-  <span class="line">⟮c:35;s:all;but ready to snap at my ankles,⟯</span>
-  <span class="line">⟮c:36;s:all;I understand floods and earthquakes, and the urge⟯</span>
-  <span class="line">⟮c:37;s:all;to step on ants. I keep the beat,⟯</span>
-  <span class="line">⟮c:38;s:all;and dance for them because⟯</span>
-  <span class="line">⟮c:39;s:all;they can't. The music smells like foxes,⟯</span>
-  <span class="line">⟮c:40;s:all;crisp as heated metal⟯</span>
-  <span class="line">⟮c:41;s:all;searing the nostrils⟯</span>
-  <span class="line">⟮c:42;s:all;or humid as August, hazy and languorous⟯</span>
-  <span class="line">⟮c:43;s:all;as a looted city the day after,⟯</span>
-  <span class="line">⟮c:44;s:all;when all the rape's been done⟯</span>
-  <span class="line">⟮c:45;s:all;already, and the killing,⟯</span>
-  <span class="line">⟮c:46;s:all;and the survivors wander around⟯</span>
-  <span class="line">⟮c:47;s:all;looking for garbage⟯</span>
-  <span class="line">⟮c:48;s:all;to eat, and there's only a bleak exhaustion.⟯</span>
-  <span class="line">⟮c:49;s:all;Speaking of which, it's the smiling⟯</span>
-  <span class="line">⟮c:50;s:all;tires me out the most.⟯</span>
-  <span class="line">⟮c:51;s:all;This, and the pretence⟯</span>
-  <span class="line">⟮c:52;s:all;that I can't hear them.⟯</span>
-  <span class="line">⟮c:53;s:all;And I can't, because I'm after all⟯</span>
-  <span class="line">⟮c:54;s:all;a foreigner to them.⟯</span>
-  <span class="line">⟮c:55;s:all;The speech here is all warty gutturals,⟯</span>
-  <span class="line">⟮c:56;s:all;obvious as a slab of ham,⟯</span>
-  <span class="line">⟮c:57;s:all;but I come from the province of the gods⟯</span>
-  <span class="line">⟮c:58;s:all;where meanings are lilting and oblique.⟯</span>
-  <span class="line">⟮c:59;s:all;I don't let on to everyone,⟯</span>
-  <span class="line">⟮c:60;s:all;but lean close, and I'll whisper:⟯</span>
-  <span class="line">⟮c:61;s:all;My mother was raped by a holy swan.⟯</span>
-  <span class="line">⟮c:62;s:all;You believe that? You can take me out to dinner.⟯</span>
-  <span class="line">⟮c:63;s:all;That's what we tell all the husbands.⟯</span>
-  <span class="line">⟮c:64;s:all;There sure are a lot of dangerous birds around.⟯</span>
+  <span class="line">⟮c:20;s:∞;I do give value.⟯</span>
+  <span class="line">⟮c:21;s:∞;Like preachers, I sell vision,⟯</span>
+  <span class="line">⟮c:22;s:∞;like perfume ads, desire⟯</span>
+  <span class="line">⟮c:23;s:∞;or its facsimile. Like jokes⟯</span>
+  <span class="line">⟮c:24;s:∞;or war, it's all in the timing.⟯</span>
+  <span class="line">⟮c:25;s:∞;I sell men back their worse suspicions:⟯</span>
+  <span class="line">⟮c:26;s:∞;that everything's for sale,⟯</span>
+  <span class="line">⟮c:27;s:∞;and piecemeal. They gaze at me and see⟯</span>
+  <span class="line">⟮c:28;s:∞;a chain-saw murder just before it happens,⟯</span>
+  <span class="line">⟮c:29;s:∞;when thigh, ass, inkblot, crevice, tit, and nipple⟯</span>
+  <span class="line">⟮c:30;s:∞;are still connected.⟯</span>
+  <span class="line">⟮c:31;s:∞;Such hatred leaps in them,⟯</span>
+  <span class="line">⟮c:32;s:∞;my beery worshippers! That, or a bleary⟯</span>
+  <span class="line">⟮c:33;s:∞;hopeless love. Seeing the rows of heads⟯</span>
+  <span class="line">⟮c:34;s:∞;and upturned eyes, imploring⟯</span>
+  <span class="line">⟮c:35;s:∞;but ready to snap at my ankles,⟯</span>
+  <span class="line">⟮c:36;s:∞;I understand floods and earthquakes, and the urge⟯</span>
+  <span class="line">⟮c:37;s:∞;to step on ants. I keep the beat,⟯</span>
+  <span class="line">⟮c:38;s:∞;and dance for them because⟯</span>
+  <span class="line">⟮c:39;s:∞;they can't. The music smells like foxes,⟯</span>
+  <span class="line">⟮c:40;s:∞;crisp as heated metal⟯</span>
+  <span class="line">⟮c:41;s:∞;searing the nostrils⟯</span>
+  <span class="line">⟮c:42;s:∞;or humid as August, hazy and languorous⟯</span>
+  <span class="line">⟮c:43;s:∞;as a looted city the day after,⟯</span>
+  <span class="line">⟮c:44;s:∞;when all the rape's been done⟯</span>
+  <span class="line">⟮c:45;s:∞;already, and the killing,⟯</span>
+  <span class="line">⟮c:46;s:∞;and the survivors wander around⟯</span>
+  <span class="line">⟮c:47;s:∞;looking for garbage⟯</span>
+  <span class="line">⟮c:48;s:∞;to eat, and there's only a bleak exhaustion.⟯</span>
+  <span class="line">⟮c:49;s:∞;Speaking of which, it's the smiling⟯</span>
+  <span class="line">⟮c:50;s:∞;tires me out the most.⟯</span>
+  <span class="line">⟮c:51;s:∞;This, and the pretence⟯</span>
+  <span class="line">⟮c:52;s:∞;that I can't hear them.⟯</span>
+  <span class="line">⟮c:53;s:∞;And I can't, because I'm after all⟯</span>
+  <span class="line">⟮c:54;s:∞;a foreigner to them.⟯</span>
+  <span class="line">⟮c:55;s:∞;The speech here is all warty gutturals,⟯</span>
+  <span class="line">⟮c:56;s:∞;obvious as a slab of ham,⟯</span>
+  <span class="line">⟮c:57;s:∞;but I come from the province of the gods⟯</span>
+  <span class="line">⟮c:58;s:∞;where meanings are lilting and oblique.⟯</span>
+  <span class="line">⟮c:59;s:∞;I don't let on to everyone,⟯</span>
+  <span class="line">⟮c:60;s:∞;but lean close, and I'll whisper:⟯</span>
+  <span class="line">⟮c:61;s:∞;My mother was raped by a holy swan.⟯</span>
+  <span class="line">⟮c:62;s:∞;You believe that? You can take me out to dinner.⟯</span>
+  <span class="line">⟮c:63;s:∞;That's what we tell all the husbands.⟯</span>
+  <span class="line">⟮c:64;s:∞;There sure are a lot of dangerous birds around.⟯</span>
  </blockquote>
 
 <blockquote>
-  <span class="line">⟮c:65;s:all;Not that anyone here⟯</span>
-  <span class="line">⟮c:66;s:all;but you would understand.⟯</span>
-  <span class="line">⟮c:67;s:all;The rest of them would like to watch me⟯</span>
-  <span class="line">⟮c:68;s:all;and feel nothing. Reduce me to components⟯</span>
-  <span class="line">⟮c:69;s:all;as in a clock factory or abattoir.⟯</span>
-  <span class="line">⟮c:70;s:all;Crush out the mystery.⟯</span>
-  <span class="line">⟮c:71;s:all;Wall me up alive⟯</span>
-  <span class="line">⟮c:72;s:all;in my own body.⟯</span>
-  <span class="line">⟮c:73;s:all;They'd like to see through me,⟯</span>
-  <span class="line">⟮c:74;s:all;but nothing is more opaque⟯</span>
-  <span class="line">⟮c:75;s:all;than absolute transparency.⟯</span>
-  <span class="line">⟮c:76;s:all;Look--my feet don't hit the marble!⟯</span>
-  <span class="line">⟮c:77;s:all;Like breath or a balloon, I'm rising,⟯</span>
-  <span class="line">⟮c:78;s:all;I hover six inches in the air⟯</span>
-  <span class="line">⟮c:79;s:all;in my blazing swan-egg of light.⟯</span>
-  <span class="line">⟮c:80;s:all;You think I'm not a goddess?⟯</span>
-  <span class="line">⟮c:81;s:all;Try me.⟯</span>
-  <span class="line">⟮c:82;s:all;This is a torch song.⟯</span>
-  <span class="line">⟮c:83;s:all;Touch me and you'll burn.⟯</span>
+  <span class="line">⟮c:65;s:∞;Not that anyone here⟯</span>
+  <span class="line">⟮c:66;s:∞;but you would understand.⟯</span>
+  <span class="line">⟮c:67;s:∞;The rest of them would like to watch me⟯</span>
+  <span class="line">⟮c:68;s:∞;and feel nothing. Reduce me to components⟯</span>
+  <span class="line">⟮c:69;s:∞;as in a clock factory or abattoir.⟯</span>
+  <span class="line">⟮c:70;s:∞;Crush out the mystery.⟯</span>
+  <span class="line">⟮c:71;s:∞;Wall me up alive⟯</span>
+  <span class="line">⟮c:72;s:∞;in my own body.⟯</span>
+  <span class="line">⟮c:73;s:∞;They'd like to see through me,⟯</span>
+  <span class="line">⟮c:74;s:∞;but nothing is more opaque⟯</span>
+  <span class="line">⟮c:75;s:∞;than absolute transparency.⟯</span>
+  <span class="line">⟮c:76;s:∞;Look--my feet don't hit the marble!⟯</span>
+  <span class="line">⟮c:77;s:∞;Like breath or a balloon, I'm rising,⟯</span>
+  <span class="line">⟮c:78;s:∞;I hover six inches in the air⟯</span>
+  <span class="line">⟮c:79;s:∞;in my blazing swan-egg of light.⟯</span>
+  <span class="line">⟮c:80;s:∞;You think I'm not a goddess?⟯</span>
+  <span class="line">⟮c:81;s:∞;Try me.⟯</span>
+  <span class="line">⟮c:82;s:∞;This is a torch song.⟯</span>
+  <span class="line">⟮c:83;s:∞;Touch me and you'll burn.⟯</span>
 </blockquote>
 
 
 Gettysburg Address (1863)
 
 <p>
-  <span class="line">⟮c:1;s:all;Four score and seven years ago our fathers brought forth on this continent,⟯</span>
-  <span class="line">⟮c:2;s:all;a new nation, conceived in Liberty⟯</span>, 
-  <span class="line">⟮c:3;s:all;and dedicated to the proposition that all men are created equal.⟯</span>
+  <span class="line">⟮c:1;s:∞;Four score and seven years ago our fathers brought forth on this continent,⟯</span>
+  <span class="line">⟮c:2;s:∞;a new nation, conceived in Liberty⟯</span>, 
+  <span class="line">⟮c:3;s:∞;and dedicated to the proposition that all men are created equal.⟯</span>
   </p>
   <p>
-  <span class="line">⟮c:4;s:all;Now we are engaged in a great civil war,⟯</span>
-  <span class="line">⟮c:5;s:all;testing whether that nation,⟯</span>
-  <span class="line">⟮c:6;s:all;or any nation so conceived and so dedicated,⟯</span>
-  <span class="line">⟮c:7;s:all;can long endure.⟯</span>
-  <span class="line">⟮c:8;s:all;We are met on a great battle-field of that war.⟯</span>
-  <span class="line">⟮c:9;s:all;We have come to dedicate a portion of that field, as a final resting place⟯</span>
-  <span class="line">⟮c:10;s:all;for those who here gave their lives that that nation might live.⟯</span>
-  <span class="line">⟮c:11;s:all;It is altogether fitting and proper that we should do this. ⟯</span>
+  <span class="line">⟮c:4;s:∞;Now we are engaged in a great civil war,⟯</span>
+  <span class="line">⟮c:5;s:∞;testing whether that nation,⟯</span>
+  <span class="line">⟮c:6;s:∞;or any nation so conceived and so dedicated,⟯</span>
+  <span class="line">⟮c:7;s:∞;can long endure.⟯</span>
+  <span class="line">⟮c:8;s:∞;We are met on a great battle-field of that war.⟯</span>
+  <span class="line">⟮c:9;s:∞;We have come to dedicate a portion of that field, as a final resting place⟯</span>
+  <span class="line">⟮c:10;s:∞;for those who here gave their lives that that nation might live.⟯</span>
+  <span class="line">⟮c:11;s:∞;It is altogether fitting and proper that we should do this. ⟯</span>
   </p>
   <p>
-  <span class="line">⟮c:12;s:all;But, in a larger sense,⟯</span>
-  <span class="line">⟮c:13;s:all;we can not dedicate—⟯</span>
-  <span class="line">⟮c:14;s:all;we can not consecrate—⟯</span>
-  <span class="line">⟮c:15;s:all;we can not hallow—this ground. ⟯</span>
-  <span class="line">⟮c:16;s:all;The brave men, living and dead, ⟯</span>
-  <span class="line">⟮c:17;s:all;who struggled here, have consecrated it, ⟯</span>
-  <span class="line">⟮c:18;s:all;far above our poor power to add or detract. ⟯</span>
-  <span class="line">⟮c:19;s:all;The world will little note, nor long remember what we say here, ⟯</span>
-  <span class="line">⟮c:20;s:all;but it can never forget what they did here. ⟯</span>
-  <span class="line">⟮c:21;s:all;It is for us, the living, rather, ⟯</span>
-  <span class="line">⟮c:22;s:all;to be dedicated here to the unfinished work ⟯</span>
-  <span class="line">⟮c:23;s:all;which they who fought here have thus far so nobly advanced.⟯</span>
-  <span class="line">⟮c:24;s:all;It is rather for us to be here dedicated to the great task remaining before us—⟯</span>
-  <span class="line">⟮c:25;s:all;that from these honored dead we take increased devotion⟯</span>
-  <span class="line">⟮c:26;s:all;to that cause for which they gave the last full measure of devotion—⟯</span>
-  <span class="line">⟮c:27;s:all;that we here highly resolve that these dead shall not have died in vain—⟯</span>
-  <span class="line">⟮c:28;s:all;that this nation, under God,⟯</span>
-  <span class="line">⟮c:29;s:all;shall have a new birth of freedom—⟯</span>
-  <span class="line">⟮c:30;s:all;and that government of the people,⟯</span>
-  <span class="line">⟮c:31;s:all;by the people,⟯</span>
-  <span class="line">⟮c:32;s:all;for the people,⟯</span>
-  <span class="line">⟮c:33;s:all;shall not perish from the earth.⟯</span>
+  <span class="line">⟮c:12;s:∞;But, in a larger sense,⟯</span>
+  <span class="line">⟮c:13;s:∞;we can not dedicate—⟯</span>
+  <span class="line">⟮c:14;s:∞;we can not consecrate—⟯</span>
+  <span class="line">⟮c:15;s:∞;we can not hallow—this ground. ⟯</span>
+  <span class="line">⟮c:16;s:∞;The brave men, living and dead, ⟯</span>
+  <span class="line">⟮c:17;s:∞;who struggled here, have consecrated it, ⟯</span>
+  <span class="line">⟮c:18;s:∞;far above our poor power to add or detract. ⟯</span>
+  <span class="line">⟮c:19;s:∞;The world will little note, nor long remember what we say here, ⟯</span>
+  <span class="line">⟮c:20;s:∞;but it can never forget what they did here. ⟯</span>
+  <span class="line">⟮c:21;s:∞;It is for us, the living, rather, ⟯</span>
+  <span class="line">⟮c:22;s:∞;to be dedicated here to the unfinished work ⟯</span>
+  <span class="line">⟮c:23;s:∞;which they who fought here have thus far so nobly advanced.⟯</span>
+  <span class="line">⟮c:24;s:∞;It is rather for us to be here dedicated to the great task remaining before us—⟯</span>
+  <span class="line">⟮c:25;s:∞;that from these honored dead we take increased devotion⟯</span>
+  <span class="line">⟮c:26;s:∞;to that cause for which they gave the last full measure of devotion—⟯</span>
+  <span class="line">⟮c:27;s:∞;that we here highly resolve that these dead shall not have died in vain—⟯</span>
+  <span class="line">⟮c:28;s:∞;that this nation, under God,⟯</span>
+  <span class="line">⟮c:29;s:∞;shall have a new birth of freedom—⟯</span>
+  <span class="line">⟮c:30;s:∞;and that government of the people,⟯</span>
+  <span class="line">⟮c:31;s:∞;by the people,⟯</span>
+  <span class="line">⟮c:32;s:∞;for the people,⟯</span>
+  <span class="line">⟮c:33;s:∞;shall not perish from the earth.⟯</span>
   </p>
 <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}</span><br><div class="sub">
 <div class="sub all-f">there are multiple versions, this is the 'canonical' one, although probably not the one he actually delivered</div>
@@ -4937,192 +4937,192 @@ Gettysburg Address (1863)
 Friends, Romans, Countrymen
 
 <blockquote>
-  <span class="line">⟮c:1;s:all;Friends, Romans, countrymen, lend me your ears;⟯</span>
-  <span class="line">⟮c:2;s:all;I come to bury Caesar, not to praise him.⟯</span>
-  <span class="line">⟮c:3;s:all;The evil that men do lives after them;⟯</span>
-  <span class="line">⟮c:4;s:all;The good is oft interred with their bones;⟯</span>
-  <span class="line">⟮c:5;s:all;So let it be with Caesar. The noble Brutus⟯</span>
-  <span class="line">⟮c:6;s:all;Hath told you Caesar was ambitious:⟯</span>
-  <span class="line">⟮c:7;s:all;If it were so, it was a grievous fault,⟯</span>
-  <span class="line">⟮c:8;s:all;And grievously hath Caesar answer’d it.⟯</span>
-  <span class="line">⟮c:9;s:all;Here, under leave of Brutus and the rest–⟯</span>
-  <span class="line">⟮c:10;s:all;For Brutus is an honourable man;⟯</span>
-  <span class="line">⟮c:11;s:all;So are they all, all honourable men–⟯</span>
-  <span class="line">⟮c:12;s:all;Come I to speak in Caesar’s funeral.⟯</span>
-  <span class="line">⟮c:13;s:all;He was my friend, faithful and just to me:⟯</span>
-  <span class="line">⟮c:14;s:all;But Brutus says he was ambitious;⟯</span>
-  <span class="line">⟮c:15;s:all;And Brutus is an honourable man.⟯</span>
-  <span class="line">⟮c:16;s:all;He hath brought many captives home to Rome⟯</span>
-  <span class="line">⟮c:17;s:all;Whose ransoms did the general coffers fill:⟯</span>
-  <span class="line">⟮c:18;s:all;Did this in Caesar seem ambitious?⟯</span>
-  <span class="line">⟮c:19;s:all;When that the poor have cried, Caesar hath wept:⟯</span>
-  <span class="line">⟮c:20;s:all;Ambition should be made of sterner stuff:⟯</span>
-  <span class="line">⟮c:21;s:all;Yet Brutus says he was ambitious;⟯</span>
-  <span class="line">⟮c:22;s:all;And Brutus is an honourable man.⟯</span>
-  <span class="line">⟮c:23;s:all;You all did see that on the Lupercal⟯</span>
-  <span class="line">⟮c:24;s:all;I thrice presented him a kingly crown,⟯</span>
-  <span class="line">⟮c:25;s:all;Which he did thrice refuse: was this ambition?⟯</span>
-  <span class="line">⟮c:26;s:all;Yet Brutus says he was ambitious;⟯</span>
-  <span class="line">⟮c:27;s:all;And, sure, he is an honourable man.⟯</span>
-  <span class="line">⟮c:28;s:all;I speak not to disprove what Brutus spoke,⟯</span>
-  <span class="line">⟮c:29;s:all;But here I am to speak what I do know.⟯</span>
-  <span class="line">⟮c:30;s:all;You all did love him once, not without cause:⟯</span>
-  <span class="line">⟮c:31;s:all;What cause withholds you then, to mourn for him?⟯</span>
-  <span class="line">⟮c:32;s:all;O judgment! thou art fled to brutish beasts,⟯</span>
-  <span class="line">⟮c:33;s:all;And men have lost their reason. Bear with me;⟯</span>
-  <span class="line">⟮c:34;s:all;My heart is in the coffin there with Caesar,⟯</span>
-  <span class="line">⟮c:35;s:all;And I must pause till it come back to me.⟯</span>
+  <span class="line">⟮c:1;s:∞;Friends, Romans, countrymen, lend me your ears;⟯</span>
+  <span class="line">⟮c:2;s:∞;I come to bury Caesar, not to praise him.⟯</span>
+  <span class="line">⟮c:3;s:∞;The evil that men do lives after them;⟯</span>
+  <span class="line">⟮c:4;s:∞;The good is oft interred with their bones;⟯</span>
+  <span class="line">⟮c:5;s:∞;So let it be with Caesar. The noble Brutus⟯</span>
+  <span class="line">⟮c:6;s:∞;Hath told you Caesar was ambitious:⟯</span>
+  <span class="line">⟮c:7;s:∞;If it were so, it was a grievous fault,⟯</span>
+  <span class="line">⟮c:8;s:∞;And grievously hath Caesar answer’d it.⟯</span>
+  <span class="line">⟮c:9;s:∞;Here, under leave of Brutus and the rest–⟯</span>
+  <span class="line">⟮c:10;s:∞;For Brutus is an honourable man;⟯</span>
+  <span class="line">⟮c:11;s:∞;So are they all, all honourable men–⟯</span>
+  <span class="line">⟮c:12;s:∞;Come I to speak in Caesar’s funeral.⟯</span>
+  <span class="line">⟮c:13;s:∞;He was my friend, faithful and just to me:⟯</span>
+  <span class="line">⟮c:14;s:∞;But Brutus says he was ambitious;⟯</span>
+  <span class="line">⟮c:15;s:∞;And Brutus is an honourable man.⟯</span>
+  <span class="line">⟮c:16;s:∞;He hath brought many captives home to Rome⟯</span>
+  <span class="line">⟮c:17;s:∞;Whose ransoms did the general coffers fill:⟯</span>
+  <span class="line">⟮c:18;s:∞;Did this in Caesar seem ambitious?⟯</span>
+  <span class="line">⟮c:19;s:∞;When that the poor have cried, Caesar hath wept:⟯</span>
+  <span class="line">⟮c:20;s:∞;Ambition should be made of sterner stuff:⟯</span>
+  <span class="line">⟮c:21;s:∞;Yet Brutus says he was ambitious;⟯</span>
+  <span class="line">⟮c:22;s:∞;And Brutus is an honourable man.⟯</span>
+  <span class="line">⟮c:23;s:∞;You all did see that on the Lupercal⟯</span>
+  <span class="line">⟮c:24;s:∞;I thrice presented him a kingly crown,⟯</span>
+  <span class="line">⟮c:25;s:∞;Which he did thrice refuse: was this ambition?⟯</span>
+  <span class="line">⟮c:26;s:∞;Yet Brutus says he was ambitious;⟯</span>
+  <span class="line">⟮c:27;s:∞;And, sure, he is an honourable man.⟯</span>
+  <span class="line">⟮c:28;s:∞;I speak not to disprove what Brutus spoke,⟯</span>
+  <span class="line">⟮c:29;s:∞;But here I am to speak what I do know.⟯</span>
+  <span class="line">⟮c:30;s:∞;You all did love him once, not without cause:⟯</span>
+  <span class="line">⟮c:31;s:∞;What cause withholds you then, to mourn for him?⟯</span>
+  <span class="line">⟮c:32;s:∞;O judgment! thou art fled to brutish beasts,⟯</span>
+  <span class="line">⟮c:33;s:∞;And men have lost their reason. Bear with me;⟯</span>
+  <span class="line">⟮c:34;s:∞;My heart is in the coffin there with Caesar,⟯</span>
+  <span class="line">⟮c:35;s:∞;And I must pause till it come back to me.⟯</span>
 </blockquote>
 
 Extract from Meditations in an Emergency
 
-<span class="line">⟮c:1;s:all;I can't even enjoy a blade of grass ⟯</span>
-<span class="line">⟮c:2;s:all;unless I know there's a subway handy,⟯</span>
-<span class="line">⟮c:3;s:all;or a record store ⟯</span>
-<span class="line">⟮c:4;s:all;or some other sign that people do not totally regret life.⟯</span>
+<span class="line">⟮c:1;s:∞;I can't even enjoy a blade of grass ⟯</span>
+<span class="line">⟮c:2;s:∞;unless I know there's a subway handy,⟯</span>
+<span class="line">⟮c:3;s:∞;or a record store ⟯</span>
+<span class="line">⟮c:4;s:∞;or some other sign that people do not totally regret life.⟯</span>
 
 Do Not Go Gentle into that Good Night
 
-<span class="line">⟮c:1;s:all;Do not go gentle into that good night⟯</span>
-<span class="line">⟮c:2;s:all;Old age should burn and rave at close of day;⟯</span>
-<span class="line">⟮c:3;s:all;Rage, rage against the dying of the light.⟯</span>
-<span class="line">⟮c:4;s:all;Though wise men at their end know dark is right,⟯</span>
-<span class="line">⟮c:5;s:all;Because their words had forked no lightning they⟯</span>
-<span class="line">⟮c:6;s:all;Do not go gentle into that good night.⟯</span>
-<span class="line">⟮c:7;s:all;Good men, the last wave by, crying how bright⟯</span>
-<span class="line">⟮c:8;s:all;Their frail deeds might have danced in a green bay,⟯</span>
-<span class="line">⟮c:9;s:all;Rage, rage against the dying of the light.⟯</span>
-<span class="line">⟮c:10;s:all;Wild men who caught and sang the sun in flight,⟯</span>
-<span class="line">⟮c:11;s:all;And learn, too late, they grieved it on its way,⟯</span>
-<span class="line">⟮c:12;s:all;Do not go gentle into that good night.⟯</span>
-<span class="line">⟮c:13;s:all;Grave men, near death, who see with blinding sight⟯</span>
-<span class="line">⟮c:14;s:all;Blind eyes could blaze like meteors and be gay,⟯</span>
-<span class="line">⟮c:15;s:all;Rage, rage against the dying of the light.⟯</span>
-<span class="line">⟮c:16;s:all;And you, my father, there on the sad height,⟯</span>
-<span class="line">⟮c:17;s:all;Curse, bless, me now with your fierce tears, I pray.⟯</span>
-<span class="line">⟮c:18;s:all;Do not go gentle into that good night.⟯</span>
-<span class="line">⟮c:19;s:all;Rage, rage against the dying of the light.⟯</span>
+<span class="line">⟮c:1;s:∞;Do not go gentle into that good night⟯</span>
+<span class="line">⟮c:2;s:∞;Old age should burn and rave at close of day;⟯</span>
+<span class="line">⟮c:3;s:∞;Rage, rage against the dying of the light.⟯</span>
+<span class="line">⟮c:4;s:∞;Though wise men at their end know dark is right,⟯</span>
+<span class="line">⟮c:5;s:∞;Because their words had forked no lightning they⟯</span>
+<span class="line">⟮c:6;s:∞;Do not go gentle into that good night.⟯</span>
+<span class="line">⟮c:7;s:∞;Good men, the last wave by, crying how bright⟯</span>
+<span class="line">⟮c:8;s:∞;Their frail deeds might have danced in a green bay,⟯</span>
+<span class="line">⟮c:9;s:∞;Rage, rage against the dying of the light.⟯</span>
+<span class="line">⟮c:10;s:∞;Wild men who caught and sang the sun in flight,⟯</span>
+<span class="line">⟮c:11;s:∞;And learn, too late, they grieved it on its way,⟯</span>
+<span class="line">⟮c:12;s:∞;Do not go gentle into that good night.⟯</span>
+<span class="line">⟮c:13;s:∞;Grave men, near death, who see with blinding sight⟯</span>
+<span class="line">⟮c:14;s:∞;Blind eyes could blaze like meteors and be gay,⟯</span>
+<span class="line">⟮c:15;s:∞;Rage, rage against the dying of the light.⟯</span>
+<span class="line">⟮c:16;s:∞;And you, my father, there on the sad height,⟯</span>
+<span class="line">⟮c:17;s:∞;Curse, bless, me now with your fierce tears, I pray.⟯</span>
+<span class="line">⟮c:18;s:∞;Do not go gentle into that good night.⟯</span>
+<span class="line">⟮c:19;s:∞;Rage, rage against the dying of the light.⟯</span>
 
 Alexander Hamilton
 
 <p>AARON BURR
-  <span class="line">⟮c:1;s:all;How does a bastard, orphan, son of a whore and a⟯</span>
-  <span class="line">⟮c:2;s:all;Scotsman, dropped in the middle of a forgotten⟯</span>
-  <span class="line">⟮c:3;s:all;Spot in the Caribbean by Providence, impoverished, in squalor⟯</span>
-  <span class="line">⟮c:4;s:all;Grow up to be a hero and a scholar?⟯</span>
+  <span class="line">⟮c:1;s:∞;How does a bastard, orphan, son of a whore and a⟯</span>
+  <span class="line">⟮c:2;s:∞;Scotsman, dropped in the middle of a forgotten⟯</span>
+  <span class="line">⟮c:3;s:∞;Spot in the Caribbean by Providence, impoverished, in squalor⟯</span>
+  <span class="line">⟮c:4;s:∞;Grow up to be a hero and a scholar?⟯</span>
   </p>
   <p>JOHN LAURENS
-  <span class="line">⟮c:5;s:all;The ten-dollar Founding Father without a father⟯</span>
-  <span class="line">⟮c:6;s:all;Got a lot farther by workin’ a lot harder⟯</span>
-  <span class="line">⟮c:7;s:all;By bein’ a lot smarter⟯</span>
-  <span class="line">⟮c:8;s:all;By bein’ a self-starter⟯</span>
-  <span class="line">⟮c:9;s:all;By fourteen, they placed him in charge of a trading charter⟯</span>
+  <span class="line">⟮c:5;s:∞;The ten-dollar Founding Father without a father⟯</span>
+  <span class="line">⟮c:6;s:∞;Got a lot farther by workin’ a lot harder⟯</span>
+  <span class="line">⟮c:7;s:∞;By bein’ a lot smarter⟯</span>
+  <span class="line">⟮c:8;s:∞;By bein’ a self-starter⟯</span>
+  <span class="line">⟮c:9;s:∞;By fourteen, they placed him in charge of a trading charter⟯</span>
   </p>
   <p>THOMAS JEFFERSON
-  <span class="line">⟮c:10;s:all;And every day while slaves were being slaughtered and carted⟯</span>
-  <span class="line">⟮c:11;s:all;Away across the waves, he struggled and kept his guard up⟯</span>
-  <span class="line">⟮c:12;s:all;Inside, he was longing for something to be a part of⟯</span>
-  <span class="line">⟮c:13;s:all;The brother was ready to beg, steal, borrow, or barter⟯</span>
+  <span class="line">⟮c:10;s:∞;And every day while slaves were being slaughtered and carted⟯</span>
+  <span class="line">⟮c:11;s:∞;Away across the waves, he struggled and kept his guard up⟯</span>
+  <span class="line">⟮c:12;s:∞;Inside, he was longing for something to be a part of⟯</span>
+  <span class="line">⟮c:13;s:∞;The brother was ready to beg, steal, borrow, or barter⟯</span>
   </p>
   <p>JAMES MADISON
-  <span class="line">⟮c:14;s:all;Then a hurricane came, and devastation reigned⟯</span>
-  <span class="line">⟮c:15;s:all;Our man saw his future drip, drippin’ down the drain⟯</span>
-  <span class="line">⟮c:16;s:all;Put a pencil to his temple, connected it to his brain⟯</span>
-  <span class="line">⟮c:17;s:all;And he wrote his first refrain, a testament to his pain⟯</span>
+  <span class="line">⟮c:14;s:∞;Then a hurricane came, and devastation reigned⟯</span>
+  <span class="line">⟮c:15;s:∞;Our man saw his future drip, drippin’ down the drain⟯</span>
+  <span class="line">⟮c:16;s:∞;Put a pencil to his temple, connected it to his brain⟯</span>
+  <span class="line">⟮c:17;s:∞;And he wrote his first refrain, a testament to his pain⟯</span>
   </p>
   <p>BURR
-  <span class="line">⟮c:18;s:all;Well the word got around, they said, “This kid is insane, man!”⟯</span>
-  <span class="line">⟮c:19;s:all;Took up a collection just to send him to the mainland⟯</span>
-  <span class="line">⟮c:20;s:all;“Get your education, don’t forget from whence you came, and⟯</span>
-  <span class="line">⟮c:21;s:all;The world’s gonna know your name! What’s your name, man?"⟯</span>
+  <span class="line">⟮c:18;s:∞;Well the word got around, they said, “This kid is insane, man!”⟯</span>
+  <span class="line">⟮c:19;s:∞;Took up a collection just to send him to the mainland⟯</span>
+  <span class="line">⟮c:20;s:∞;“Get your education, don’t forget from whence you came, and⟯</span>
+  <span class="line">⟮c:21;s:∞;The world’s gonna know your name! What’s your name, man?"⟯</span>
   </p>
   <p>ALEXANDER HAMILTON
-  <span class="line">⟮c:22;s:all;Alexander Hamilton⟯</span>
-  <span class="line">⟮c:23;s:all;My name is Alexander Hamilton⟯</span>
-  <span class="line">⟮c:24;s:all;And there’s a million things I haven’t done⟯</span>
-  <span class="line">⟮c:25;s:all;But just you wait, just you wait⟯</span>
+  <span class="line">⟮c:22;s:∞;Alexander Hamilton⟯</span>
+  <span class="line">⟮c:23;s:∞;My name is Alexander Hamilton⟯</span>
+  <span class="line">⟮c:24;s:∞;And there’s a million things I haven’t done⟯</span>
+  <span class="line">⟮c:25;s:∞;But just you wait, just you wait⟯</span>
   </p>
   <p>ELIZA HAMILTON
-  <span class="line">⟮c:26;s:all;When he was ten, his father split, full of it, debt-ridden⟯</span>
-  <span class="line">⟮c:27;s:all;Two years later, see Alex and his mother, bed-ridden⟯</span>
-  <span class="line">⟮c:28;s:all;Half-dead, sittin’ in their own sick⟯</span>
-  <span class="line">⟮c:29;s:all;The scent thick⟯</span>
+  <span class="line">⟮c:26;s:∞;When he was ten, his father split, full of it, debt-ridden⟯</span>
+  <span class="line">⟮c:27;s:∞;Two years later, see Alex and his mother, bed-ridden⟯</span>
+  <span class="line">⟮c:28;s:∞;Half-dead, sittin’ in their own sick⟯</span>
+  <span class="line">⟮c:29;s:∞;The scent thick⟯</span>
   </p>
   <p>COMPANY
-  <span class="line">⟮c:30;s:all;And Alex got better but his mother went quick⟯</span>
+  <span class="line">⟮c:30;s:∞;And Alex got better but his mother went quick⟯</span>
   </p>
   <p>GEORGE WASHINGTON and (COMPANY)
-  <span class="line">⟮c:31;s:all;Moved in with a cousin, the cousin committed suicide⟯</span>
-  <span class="line">⟮c:32;s:all;Left him with nothin’ but ruined pride, somethin’ new inside⟯</span>
-  <span class="line">⟮c:33;s:all;A voice saying "(Alex) you gotta fend for yourself"⟯</span>
-  <span class="line">⟮c:34;s:all;He started retreatin’ and readin’ every treatise on the shelf⟯</span>
+  <span class="line">⟮c:31;s:∞;Moved in with a cousin, the cousin committed suicide⟯</span>
+  <span class="line">⟮c:32;s:∞;Left him with nothin’ but ruined pride, somethin’ new inside⟯</span>
+  <span class="line">⟮c:33;s:∞;A voice saying "(Alex) you gotta fend for yourself"⟯</span>
+  <span class="line">⟮c:34;s:∞;He started retreatin’ and readin’ every treatise on the shelf⟯</span>
   </p>
   <p>BURR and (COMPANY)
-  <span class="line">⟮c:35;s:all;There would’ve been nothin’ left to do⟯</span>
-  <span class="line">⟮c:36;s:all;For someone less astute⟯</span>
-  <span class="line">⟮c:37;s:all;He would’ve been dead or destitute⟯</span>
-  <span class="line">⟮c:38;s:all;Without a cent of restitution⟯</span>
-  <span class="line">⟮c:39;s:all;Started workin’, clerkin’ for his late mother’s landlord⟯</span>
-  <span class="line">⟮c:40;s:all;Tradin’ sugar cane and rum and other things he can’t afford⟯</span>
-  <span class="line">⟮c:41;s:all;(Scammin’) for every book he can get his hands on⟯</span>
-  <span class="line">⟮c:42;s:all;(Plannin’) for the future, see him now as he stands on (oooh⟯)</span>
-  <span class="line">⟮c:43;s:all;The bow of a ship headed for a new land⟯</span>
-  <span class="line">⟮c:44;s:all;In New York you can be a new man⟯</span>
+  <span class="line">⟮c:35;s:∞;There would’ve been nothin’ left to do⟯</span>
+  <span class="line">⟮c:36;s:∞;For someone less astute⟯</span>
+  <span class="line">⟮c:37;s:∞;He would’ve been dead or destitute⟯</span>
+  <span class="line">⟮c:38;s:∞;Without a cent of restitution⟯</span>
+  <span class="line">⟮c:39;s:∞;Started workin’, clerkin’ for his late mother’s landlord⟯</span>
+  <span class="line">⟮c:40;s:∞;Tradin’ sugar cane and rum and other things he can’t afford⟯</span>
+  <span class="line">⟮c:41;s:∞;(Scammin’) for every book he can get his hands on⟯</span>
+  <span class="line">⟮c:42;s:∞;(Plannin’) for the future, see him now as he stands on (oooh⟯)</span>
+  <span class="line">⟮c:43;s:∞;The bow of a ship headed for a new land⟯</span>
+  <span class="line">⟮c:44;s:∞;In New York you can be a new man⟯</span>
   </p>
   <p>COMPANY and (HAMILTON)
-  <span class="line">⟮c:45;s:all;In New York you can be a new man (Just you wait⟯)</span>
-  <span class="line">⟮c:46;s:all;In New York you can be a new man (Just you wait⟯)</span>
-  <span class="line">⟮c:47;s:all;In New York you can be a new man⟯</span>
+  <span class="line">⟮c:45;s:∞;In New York you can be a new man (Just you wait⟯)</span>
+  <span class="line">⟮c:46;s:∞;In New York you can be a new man (Just you wait⟯)</span>
+  <span class="line">⟮c:47;s:∞;In New York you can be a new man⟯</span>
   </p>
   <p>WOMEN
-  <span class="line">⟮c:48;s:all;In New York⟯</span>
+  <span class="line">⟮c:48;s:∞;In New York⟯</span>
   </p>
   <p>MEN
-  <span class="line">⟮c:49;s:all;New York⟯</span>
+  <span class="line">⟮c:49;s:∞;New York⟯</span>
   </p>
   <p>HAMILTON
-  <span class="line">⟮c:50;s:all;Just you wait⟯</span>
+  <span class="line">⟮c:50;s:∞;Just you wait⟯</span>
   </p>
   <p>COMPANY and (COMPANY)
-  <span class="line">⟮c:51;s:all;Alexander Hamilton (Alexander Hamilton⟯)</span>
-  <span class="line">⟮c:52;s:all;We are waiting in the wings for you (waiting in the wings for you⟯)</span>
-  <span class="line">⟮c:53;s:all;You could never back down⟯</span>
-  <span class="line">⟮c:54;s:all;You never learned to take your time⟯</span>
-  <span class="line">⟮c:55;s:all;Oh, Alexander Hamilton (Alexander Hamilton⟯)</span>
-  <span class="line">⟮c:56;s:all;When America sings for you⟯</span>
-  <span class="line">⟮c:57;s:all;Will they know what you overcame?⟯</span>
-  <span class="line">⟮c:58;s:all;Will they know you rewrote the game?⟯</span>
-  <span class="line">⟮c:59;s:all;The world will never be the same, oh⟯</span>
+  <span class="line">⟮c:51;s:∞;Alexander Hamilton (Alexander Hamilton⟯)</span>
+  <span class="line">⟮c:52;s:∞;We are waiting in the wings for you (waiting in the wings for you⟯)</span>
+  <span class="line">⟮c:53;s:∞;You could never back down⟯</span>
+  <span class="line">⟮c:54;s:∞;You never learned to take your time⟯</span>
+  <span class="line">⟮c:55;s:∞;Oh, Alexander Hamilton (Alexander Hamilton⟯)</span>
+  <span class="line">⟮c:56;s:∞;When America sings for you⟯</span>
+  <span class="line">⟮c:57;s:∞;Will they know what you overcame?⟯</span>
+  <span class="line">⟮c:58;s:∞;Will they know you rewrote the game?⟯</span>
+  <span class="line">⟮c:59;s:∞;The world will never be the same, oh⟯</span>
   </p>
   <p>BURR and (COMPANY)
-  <span class="line">⟮c:60;s:all;The ship is in the harbor now, see if you can spot him(Just you wait⟯)</span>
-  <span class="line">⟮c:61;s:all;Another immigrant comin’ up from the bottom(Just you wait⟯)</span>
-  <span class="line">⟮c:62;s:all;His enemies destroyed his rep, America forgot him⟯</span>
+  <span class="line">⟮c:60;s:∞;The ship is in the harbor now, see if you can spot him(Just you wait⟯)</span>
+  <span class="line">⟮c:61;s:∞;Another immigrant comin’ up from the bottom(Just you wait⟯)</span>
+  <span class="line">⟮c:62;s:∞;His enemies destroyed his rep, America forgot him⟯</span>
   </p>
   <p>MULLIGAN/MADISON AND LAFAYETTE/JEFFERSON
-  <span class="line">⟮c:63;s:all;We fought with him⟯</span>
+  <span class="line">⟮c:63;s:∞;We fought with him⟯</span>
   </p>
   <p>LAURENS/PHILLIP
-  <span class="line">⟮c:64;s:all;Me? I died for him⟯</span>
+  <span class="line">⟮c:64;s:∞;Me? I died for him⟯</span>
   </p>
   <p>WASHINGTON
-  <span class="line">⟮c:65;s:all;Me? I trusted him⟯</span>
+  <span class="line">⟮c:65;s:∞;Me? I trusted him⟯</span>
   </p>
   <p>ANGELICA SCHUYLER, ELIZA, MARIA REYNOLDS
-  <span class="line">⟮c:66;s:all;Me? I loved him⟯</span>
+  <span class="line">⟮c:66;s:∞;Me? I loved him⟯</span>
   </p>
   <p>BURR
-  <span class="line">⟮c:67;s:all;And me? I’m the damn fool that shot him⟯</span>
+  <span class="line">⟮c:67;s:∞;And me? I’m the damn fool that shot him⟯</span>
   </p>
   <p>COMPANY
-  <span class="line">⟮c:68;s:all;There’s a million things I haven’t done⟯</span>
-  <span class="line">⟮c:69;s:all;But just you wait⟯</span>
+  <span class="line">⟮c:68;s:∞;There’s a million things I haven’t done⟯</span>
+  <span class="line">⟮c:69;s:∞;But just you wait⟯</span>
   </p>
   <p>BURR
-  <span class="line">⟮c:70;s:all;What’s your name, man?⟯</span>
+  <span class="line">⟮c:70;s:∞;What’s your name, man?⟯</span>
   </p>
   <p>HAMILTON &amp; COMPANY
-  <span class="line">⟮c:71;s:all;Alexander Hamilton!⟯</span>
+  <span class="line">⟮c:71;s:∞;Alexander Hamilton!⟯</span>
   </p>
   
 <img class="c1-f c2-b" src="sm_paste-936b6b01e2b831a0ad7780367bf38f6ddc437b99.jpg"><br>The personal motto of ⟮c:3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c:1;Aut Caesar, aut nihil.⟯ / (in English)⟮c:2;(Either) Caesar or nothing.⟯ 
@@ -5130,24 +5130,24 @@ Alexander Hamilton
 <cite> Not Waving but Drowning </cite> Stevie Smith 1972
 
 <blockquote>
-<span class="line">⟮c:1;s:all;Nobody heard him, the dead man,   ⟯</span>
-<span class="line">⟮c:2;s:all;But still he lay moaning:⟯</span>
-<span class="line">⟮c:3;s:all;I was much further out than you thought   ⟯</span>
-<span class="line">⟮c:4;s:all;And not waving but drowning.⟯</span>
+<span class="line">⟮c:1;s:∞;Nobody heard him, the dead man,   ⟯</span>
+<span class="line">⟮c:2;s:∞;But still he lay moaning:⟯</span>
+<span class="line">⟮c:3;s:∞;I was much further out than you thought   ⟯</span>
+<span class="line">⟮c:4;s:∞;And not waving but drowning.⟯</span>
 </blockquote>
 
 <blockquote>
-<span class="line">⟮c:5;s:all;Poor chap, he always loved larking⟯</span>
-<span class="line">⟮c:6;s:all;And now he’s dead⟯</span>
-<span class="line">⟮c:7;s:all;It must have been too cold for him his heart gave way,   ⟯</span>
-<span class="line">⟮c:8;s:all;They said.⟯</span>
+<span class="line">⟮c:5;s:∞;Poor chap, he always loved larking⟯</span>
+<span class="line">⟮c:6;s:∞;And now he’s dead⟯</span>
+<span class="line">⟮c:7;s:∞;It must have been too cold for him his heart gave way,   ⟯</span>
+<span class="line">⟮c:8;s:∞;They said.⟯</span>
 </blockquote>
 
 <blockquote>
-<span class="line">⟮c:9;s:all;Oh, no no no, it was too cold always   ⟯</span>
-<span class="line">⟮c:10;s:all;(Still the dead one lay moaning)   ⟯</span>
-<span class="line">⟮c:11;s:all;I was much too far out all my life   ⟯</span>
-<span class="line">⟮c:12;s:all;And not waving but drowning.⟯</span>
+<span class="line">⟮c:9;s:∞;Oh, no no no, it was too cold always   ⟯</span>
+<span class="line">⟮c:10;s:∞;(Still the dead one lay moaning)   ⟯</span>
+<span class="line">⟮c:11;s:∞;I was much too far out all my life   ⟯</span>
+<span class="line">⟮c:12;s:∞;And not waving but drowning.⟯</span>
 </blockquote>
 
 {{c2::My bounty is as boundless as the sea,} ⟮c:3;My love as deep. The more I give to thee,⟯ ⟮c:1;The more I have, for both are infinite.⟯ 
@@ -5166,7 +5166,7 @@ After his trial, ⟮c:2;Gallileo⟯ supposedly said: ⟮c:1;And yet it moves!⟯
 
 ⟮c:1;It was the nightingale, and not the lark⟯, ⟮c:2;that pierced the fearful hollow of thine ear;⟯ 
 
-⟮h:all;<img src="sm_paste-c3fb9f58b8eac4bf03833e00091214dfe7fdf33b.jpg">⟯⟮c:1;I was supposed to be the one⟯ ⟮c:2;to fill your dark soul with light⟯! 
+⟮h:∞;<img src="sm_paste-c3fb9f58b8eac4bf03833e00091214dfe7fdf33b.jpg">⟯⟮c:1;I was supposed to be the one⟯ ⟮c:2;to fill your dark soul with light⟯! 
 
 # misc
 
