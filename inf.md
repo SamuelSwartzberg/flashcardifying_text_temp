@@ -641,7 +641,7 @@ translate: an enumerated attribute whether the element should be translated, e.g
 tabindex:
 The tabindex attriubte indicates if and how an element can be focused by the keyboard.
 &nbsp;⟮c1;tabindex⟯⟮c2;=0⟯ indicates that ⟮c3;an element can be focused⟯ (e.g.&nbsp;⟮c4;by the tab key⟯)
-&nbsp;⟮c1;tabindex⟯⟮c2;=-1⟯ indicates that ⟮c3;an element can <b>not&nbsp;</b>be focused⟯ (e.g. by ⟮c4;the tab key⟯)
+&nbsp;⟮c1;tabindex⟯⟮c2;=-1⟯ indicates that ⟮c3;an element can ⁑not&nbsp;⁑be focused⟯ (e.g. by ⟮c4;the tab key⟯)
 Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
 CSS inline styling with style.
 part and slot for the shadow DOM.
@@ -992,7 +992,7 @@ addEventListener allows for registration of more than one event handler for the 
 on<event> usage is not recommended, as it will overwrite other event handlers registered on the same element.
 event handlers get an `Event` as an argument.
 
-to work, we must pass removeEventListener the event as well as the <b>exact same function object</b>
+to work, we must pass removeEventListener the event as well as the ⁑exact same function object⁑
 
 #### event capturing
 
@@ -4259,7 +4259,7 @@ If no starting point is specified for find, it takes the current working directo
 -type CHAR (e.g. b, c)   find files that are of one of the 7 unix file types 
 -size SIZE   find files that are larger than SIZE
 -name foo   find files that contain foo in their name (case-sensitive)
--iname foo   find files that contain foo in their name (case-<b>insensitive</b>)
+-iname foo   find files that contain foo in their name (case-⁑insensitive⁑)
 ! expression   true if expression is false 
 -printf PATTERN   print the filename according to PATTERN
 
@@ -4719,7 +4719,7 @@ As a proper server, mpd occupies a port on the host.
 You can interface with the mpd server with a number of clients, e.g. mpc
 
 mpc -p port or --port=port|connect to mpd at the specified port
-`mpc queue(d)`|<b>show</b> next song
+`mpc queue(d)`|⁑show⁑ next song
 `mpc current`|show currently playing songm<br><div class="sub">
 `mpc update`|update collectiion by scanning for changed files
 `mpc stats`|display mpd playing info such as total play time up until now, etc.
@@ -5125,7 +5125,7 @@ command|refers to?|from package
 ######### rigid and rubber
 
 The two types of lengths ⟮c:5;latex⟯ has are ⟮c:6;rigid lengths⟯ and ⟮c:6;rubber lengths⟯. 
-a ⟮c:7;rubber length⟯ is a length that ⟮c:8;<b>can</b> shrink or grow⟯ 
+a ⟮c:7;rubber length⟯ is a length that ⟮c:8;⁑can⁑ shrink or grow⟯ 
 a ⟮c:9;rigid length⟯ is a length that ⟮c:10;will not shrink or grow⟯ 
 Lengths in latex are ⟮c:16;rigid⟯ by ⟮c:17;default⟯ 
 ⟮c:11;rubber lengths⟯ can ⟮c:12;only shrink or grow⟯ by ⟮c:13;the length we specified⟯ 
@@ -5312,7 +5312,7 @@ The kind of themes that latex presentations can have are ⟮c:31;presentation⟯
 ⟮c:41;Overlay specifications⟯ are written ⟮c:42;&lt;some_number/list/range&gt;⟯ 
 ± \item&lt;-2,4-5,7&gt; ±<br>
 ⟮c:43;\only⟯⟮c:44;&lt;overlay-spec&gt;{text⟯}: ⟮c:47;only render the text⟯ ⟮c:49;on the specified slides⟯ 
-⟮c:45;\uncover⟯⟮c:46;&lt;overlay-spec&gt;{text⟯}: ⟮c:48;only render the text⟯ ⟮c:50;on the specified slides,⟯ but<b>&nbsp;</b>⟮c:51;still take up space on the other slides⟯&nbsp;
+⟮c:45;\uncover⟯⟮c:46;&lt;overlay-spec&gt;{text⟯}: ⟮c:48;only render the text⟯ ⟮c:50;on the specified slides,⟯ but ⟮c:51;still take up space on the other slides⟯&nbsp;
 
 ⟮h:all;<img src="sm_L5.png">⟯
 
@@ -6353,8 +6353,8 @@ A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves
 ⟮c:4;h:all;<img src="sm_MitM5.jpg">⟯
 
 ⟮uh:all;After the MitM for public key encryption has been set up...⟯<br>
-⟮c:12;the server⟯ and ⟮c:12;client⟯ <b>actually</b> have ⟮c:13;the MitMs public key⟯ 
-⟮c:10;the server⟯ and ⟮c:10;client⟯ <b>think</b> they have ⟮c:11;each other's public key⟯ 
+⟮c:12;the server⟯ and ⟮c:12;client⟯ ⁑actually⁑ have ⟮c:13;the MitMs public key⟯ 
+⟮c:10;the server⟯ and ⟮c:10;client⟯ ⁑think⁑ they have ⟮c:11;each other's public key⟯ 
 ⟮c:6;the MitM⟯ looks like ⟮c:6;the server⟯ to ⟮c:7;the client⟯ 
 ⟮c:8;the MitM⟯ looks like ⟮c:8;the client⟯ to ⟮c:9;the server⟯ 
 
@@ -6671,7 +6671,7 @@ When a .timer units time state is reached, an associated unit is started.
 reboot.target   The target for rebooting
 poweroff.target   The target for turning off the computer
 multi-user.target   multiuser (but no GUI)
-graphical.target   multiuser <b>with GUI</b>
+graphical.target   multiuser ⁑with GUI⁑
 default.target   what the machine should try and aim for when booting (another target generally)
 
 ######## CLI
@@ -6859,7 +6859,7 @@ job control is mainly performed by signals.
 A job is a shell concept, but generally corresponds to a process group.
 Jobs mainly exist to be siginalled by signals, all processes in a job are signalled at once.
 `^Z` (as keyboard input)   Stop (not kill) the current program
-the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the <b>background</b>
+the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the ⁑background⁑
 fg  resume stopped task in foreground
 bg  resume stopped task in background
 ⟮c1;&amp;⟯ at the ⟮c2;end of an command⟯ ⟮c3;puts it in the backround⟯ (but it ⟮c3;still continues running⟯)
@@ -7354,7 +7354,7 @@ wildcard|matches
 ?|matches 1 arbitrary character
 @(foo|bar|baz)|one of the options foo, bar, baz
 ?(foo|bar|baz)|zero or one of the options foo, bar, baz
-+(foo|bar|baz)|one <b>or more</b> of the options foo, bar, baz
++(foo|bar|baz)|one ⁑or more⁑ of the options foo, bar, baz
 !(foo|bar|baz)|none of the options foo, bar, baz
 *(foo|bar|baz)|zero or more of the options foo, bar, baz
 [^&lt;characters&gt;]   one character that is none of &lt;characters&gt;
@@ -9134,14 +9134,12 @@ RFC 3339 is almost the same as ISO 8601
 
 ### emoji shortcodes
 
-<section>
 The ⟮c:1;common syntax for emoji⟯ is sometimes called '⟮c:2;emoji shortcodes⟯'
 ⟮c:3;emoji shortcodes⟯ are delimited by ⟮c:4;colons⟯, and have names in ⟮c:5;lowercase⟯ connected by ⟮c:6;underscores⟯.
 The ⟮c:8;emoji shortcode⟯ for ⟮c:7;💙⟯ might be ⟮c:9;:blue_heart:⟯
 The ⟮c:10;emoji shorcodes⟯ don't have ⟮c:11;a spec⟯, but you ⟮c:12;can use them in many places⟯, including sites such as ⟮c:13;Discord, GithHub, and Slack and a whole lot more⟯
 In ⟮c:14;some places⟯ (e.g. ⟮c:14;discord⟯), you can ⟮c:15;prefix⟯ ⟮c:16;emoji shortcodes⟯ with ⟮c:15;+⟯ to ⟮c:17;add a reaction⟯.
 I can ⟮c:20;type emoji using emoji shortcodes⟯ but ⟮c:18;using spaces instead of underscores⟯ anywhere using ⟮c:19;espanso⟯. 
-</section>
 
 ### dice notation
 
@@ -9220,7 +9218,6 @@ e.g. print("foo" + \
 
 ### Blocks
 
-<div class="cloze-group-children hide-if-inactive-children">
 In ⟮c:3;most programming languages⟯, a ⟮c:2;block⟯ is a ⟮c:1;statement⟯.  
 However, in ⟮c:4;Rust⟯ (and in ruby to, though its weird, as blocks have the same syntax/are merely anon functions w/o arguments), ⟮c:5;blocks⟯ are ⟮c:6;expressions⟯. 
 
@@ -9301,12 +9298,9 @@ The ternary operator is a conditional which is typically an expression.
 The ternary operator is more properly called conditional operator. 
 The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. 
 The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. 
-  Example in JS:
-  <code
-    >let attack = enemy.isFireType() ? this.attacks.thundershock :
-    this.attacks.inferno;</code
-  >
-Languages that I can write that <b>don't</b> have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
+Example in JS:
+`let attack = enemy.isFireType() ? this.attacks.thundershock : this.attacks.inferno;`
+Languages that I can write that ⁑don't⁑ have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
 ##### others
 
@@ -11543,7 +11537,7 @@ The only thing we do with the executor functions argumetns resolutionFunc and re
 As with the Promise.resolve and .reject, you pass the rejectionFunc the reason for rejecting, and the resolutionFunc the thing you want to fulfill with, or another promise
 
 JS has a few methods for acting on multiple promises at once:
-Promise.race() takes n promises and runs the attached callback <b>once</b> the first promise resolves.
+Promise.race() takes n promises and runs the attached callback ⁑once⁑ the first promise resolves.
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
 ⟮c1;Promise.allSettled()⟯ is like ⟮c1;Promise.all()⟯, but the ⟮c2;former⟯ will ⟮c3;continue even if one rejects⟯, the ⟮c2;latter⟯ will ⟮c3;not⟯
 

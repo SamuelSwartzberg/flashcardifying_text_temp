@@ -310,11 +310,11 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
 
 
 Symbol|Refers to?
-⟮c:1;<b>N</b>/ℕ⟯|⟮c:2;Set of all natural numbers⟯
-⟮c:3;<b>P</b>/ℙ⟯|⟮c:4;Set of all primes⟯
-⟮c:5;<b>Q</b>/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯
-⟮c:8;<b>R</b>/ℝ⟯|⟮c:7;Set of all real numbers⟯
-⟮c:9;<b>Z</b>/ℤ⟯|⟮c:10;Set of all integers⟯
+⟮c:1;⁑N⁑/ℕ⟯|⟮c:2;Set of all natural numbers⟯
+⟮c:3;⁑P⁑/ℙ⟯|⟮c:4;Set of all primes⟯
+⟮c:5;⁑Q⁑/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯
+⟮c:8;⁑R⁑/ℝ⟯|⟮c:7;Set of all real numbers⟯
+⟮c:9;⁑Z⁑/ℤ⟯|⟮c:10;Set of all integers⟯
 
 
 ⟮c:34;Integers⟯ are known as ⟮c:35;ganze Zahlen⟯ in German. 
@@ -474,7 +474,7 @@ A ⟮c:129;proper subgraph⟯ is a ⟮c:130;subgraph of the graph⟯ that ⟮c:1
 Equivalently, ⟮c:135;two vertices⟯ are ⟮c:136;adjacent⟯ if ⟮c:137;a path/walk/trail⟯ of ⟮c:138;length 1⟯ ⟮c:139;exists between them⟯. 
 ⟮c:140;Two edges⟯ are ⟮c:141;adjacent⟯ if ⟮c:142;they share a vertex⟯ 
 The ⟮c:145;neighborhood⟯ of ⟮c:146;a vertex⟯ is t⟮c:147;he subgraph⟯ ⟮c:148;made up of all adjacent vertices⟯ and ⟮c:149;the edges connecting it to those vertices⟯. 
-The ⟮c:143;closed neighborhood of v⟯ is ⟮c:144;the neighborhood⟯ ⟮c:150;<b>not </b>containing  the vertex v itself⟯ 
+The ⟮c:143;closed neighborhood of v⟯ is ⟮c:144;the neighborhood⟯ ⟮c:150;⁑not ⁑containing  the vertex v itself⟯ 
 The ⟮c:151;open neighborhood of v⟯ is ⟮c:152;the neighborhood⟯ ⟮c:153;containing the vertex v itself⟯ 
 
 ### trees

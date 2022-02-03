@@ -310,7 +310,7 @@ neutral monism occupies a middle position between ⟮c1;idealism (only minds and
 
 The noumenon/phenomenon distinction goes back to kant.
 Something whose existance is in some way dependent human senses/perceptions   Phenomenon
-Something that exists <b>independent</b> of human senses/perceptions   Noumenon
+Something that exists ⁑independent⁑ of human senses/perceptions   Noumenon
 
 ## philosophy of language
 

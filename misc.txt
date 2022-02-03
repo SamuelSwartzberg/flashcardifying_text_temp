@@ -653,7 +653,7 @@ Japanese romances rarely have covers that depict the principal characters, and t
 The ⟮c:1;introductory section/opening paragraph⟯ is known as ⟮c:2;the lede⟯, especially in ⟮c:3;news writing⟯.  
 In general, it is said the lede ⟮c:4;should contain⟯ ⟮c:5;the most newsworthy/interesting part⟯, and ⟮s:gb;⟮c:6;if an article does not have the most newsworthy part in the lede⟯, it is said to be ⟮c:7;burying the lede⟯⟯. 
 If we're reporting a house fire, and we mention the location, time and cause of the fire before mentioning the two deaths, what are we probably doing?  ⟮c:8;Burying the lede⟯ 
-Nora Ephron had an assignment to write a <b>opening</b> for a news story about t<b>eachers going to speak</b> in a neighboring city on <b>thursday</b> for the <b>school paper</b>. What (according to her teacher) is the <b>lede</b> for this story?  ⟮c:8;There will be no school next thursday.⟯ 
+Nora Ephron had an assignment to write a ⁑opening⁑ for a news story about t⁑eachers going to speak⁑ in a neighboring city on ⁑thursday⁑ for the ⁑school paper⁑. What (according to her teacher) is the ⁑lede⁑ for this story?  ⟮c:8;There will be no school next thursday.⟯ 
 A doctor is giving a speech about fad diets and physical fitness to a group of local businesspeople. Midway through his speech, the good doctor collapses of a heart attack. He dies en route to the hospital. What should definitely be  in the lede? ⟮c:9;the death (and prob the heartattack⟯) 
 
 ### poetry
@@ -683,20 +683,20 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
       Mnemonic
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Iamb⟯|⟮c:2;daDA⟯
 ⟮c:3;Trochee⟯|⟮c:4;DAda⟯|class=all-hide;
-        <b>Tro</b>chees; <b>tro</b>phies<br>
-<b>Dou</b>ble, <b>dou</b>ble, <b>toil</b> and <b>trou</b>ble;<b>Fi</b>re <b>burn</b> and <b>cauld</b>ron <b>bubb</b>le.
+        ⁑Tro⁑chees; ⁑tro⁑phies<br>
+⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.
 ⟮c:5;Anapest⟯|⟮c:6;dadaDA⟯|class=all-hide;
         Jeder dritte stirbt durch die pest.<br>
 Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte".
-Ana<b>pest</b><br>
-Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>house</b>
-⟮c:7;Dactyl⟯|⟮c:8;DAdada⟯|class=all-hide;<b>Just</b> for a <b>hand</b>ful of <b>sil</b>ver he <b>left</b> us <br><b>Just</b> for a <b>rib</b>and to <b>stick</b> in his <b>coat</b>
+Ana⁑pest⁑<br>
+Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑
+⟮c:7;Dactyl⟯|⟮c:8;DAdada⟯|class=all-hide;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us <br>⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑
 ⟮c:9;Choriamb⟯|⟮c:10;DAdadaDA⟯|class=all-hide;
         A choriamb is an iamb that has been held up a mirror.<br>
-<b>Who</b> hath not <b>seen</b> thee oft amid thy store? <b>Some</b>times who<b>ev</b>er seeks abroad may find
+⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find
 ⟮c:11;Molossus⟯|⟮c:12;DA DA DA⟯|
 ⟮c:13;Amphibrach⟯|⟮c:14;da DA da⟯|class=all-hide;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
-"There <b>once</b> was / a <b>girl</b> from / Nan<b>tuc</b>ket."
+"There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket."
 
 
 ### drama
@@ -2897,7 +2897,7 @@ in/con/succubus all originate from the ⟮c:4;latin⟯ root ⟮c:5;cubare⟯, wh
 ### principles
 
 ⟮c:1;SSC (Safe, sane and consensual⟯) is the most well-known ⟮c:3;set of principles⟯ for ⟮c:4;BDSM⟯. 
-Criticisms of ⟮c:7;SSC⟯ are ⟮c:5;"sane" imposing unexamined norms⟯, and ⟮c:6;no⟯ ⟮c:4;BDSM⟯ activity ⟮c:6;being completely safe (see also "saf<b>er</b>sex"⟯)
+Criticisms of ⟮c:7;SSC⟯ are ⟮c:5;"sane" imposing unexamined norms⟯, and ⟮c:6;no⟯ ⟮c:4;BDSM⟯ activity ⟮c:6;being completely safe (see also "saf⁑er⁑sex"⟯)
 the alternative to ⟮c:8;SSC⟯ is ⟮c:9;RACK (risk-aware consensual kink⟯)
 
 ## sexual roles
@@ -2919,8 +2919,8 @@ Name|Description|Notes
 § Henceforth, I will abbreviate top/bottom, dom/sub, sadist/masochist, fem(me)/masc as TBDSSMFM. § <br>
 Generally, a ⟮c:36;person who will adopt either of the relevant binary roles of TBDSSMFM⟯ is known as ⟮c:27;a switch⟯, except for ⟮c:28;penentration⟯, where they are generally known ⟮c:29;as versatile⟯.
 ⟮c:30;TBDSSMFM⟯ may be used as ⟮c:31;any of the 'big' word types (lexical categories), i.e. noun, verb, adjective, adverb, etc.⟯
-For ⟮c:32;any of TBDSSMFM⟯, different people may see these as having ⟮c:33;a <b>scope</b>⟯ ⟮c:34;limited to sex⟯, or ⟮c:35;encompassing a larger part of their life⟯.
-For ⟮c:37;any of TBDSSMFM⟯, different people may see these as having ⟮c:38;a <b>duration</b>⟯ of ⟮c:39;a short while⟯ to ⟮c:40;ones whole life⟯.
+For ⟮c:32;any of TBDSSMFM⟯, different people may see these as having ⟮c:33;a ⁑scope⁑⟯ ⟮c:34;limited to sex⟯, or ⟮c:35;encompassing a larger part of their life⟯.
+For ⟮c:37;any of TBDSSMFM⟯, different people may see these as having ⟮c:38;a ⁑duration⁑⟯ of ⟮c:39;a short while⟯ to ⟮c:40;ones whole life⟯.
 For ⟮c:41;any of TBDSSMFM⟯, some people may see it as an ( ⟮c:42;chosen⟯ or ⟮c:42;inborn = 'essentialized'⟯ ) ⟮c:43;identity⟯, ⟮c:44;a preference⟯, ⟮c:45;a role in the relationship⟯ or ⟮c:46;in a specific encounter/scene⟯ (or any combination).
 The ⟮c:47;distinction between the different parts of TBDSSMFM⟯ is ⟮c:48;most clear in the BDSM community⟯
 the distinction between parts of TBDSSMFM ⟮c:49;may be more vague⟯ ⟮c:50;in other communities⟯, especially in ⟮c:51;queer and fandom communities⟯.
@@ -3564,7 +3564,7 @@ REM|Rapid Eye Movement
 The body is mostly ⟮c:24;paralyzed⟯ during ⟮c:25;REM sleep⟯, except for ⟮c:26;the eyes⟯. 
 The fact that ⟮c:27;eye movement can be controlled during REM sleep⟯ allows ⟮c:28;study participants to communicate with researchers⟯ during ⟮c:29;lucid dreaming.⟯ 
 
-the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;dreams⟯ is ⟮c:32;about the same⟯ as in ⟮c:31;RL⟯ 
+the time that ⟮c:33;⁑intentional⁑ behaviour takes⟯&nbsp;in ⟮c:30;dreams⟯ is ⟮c:32;about the same⟯ as in ⟮c:31;RL⟯ 
 
 
     <tr><th colspan="3">Testing if one is dreaming
