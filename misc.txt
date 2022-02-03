@@ -3108,21 +3108,21 @@ Normativity|Normalizes
 #### phobia
 
 phobia|against|aspect of ism
-⟮c1;Biphobia⟯|⟮c2;s∞;us:1;bisexual people⟯|⟮c3;s∞;us:1;heterosexism⟯
-⟮c4;Ephebiphobia⟯|⟮c5;s∞;us:4;young people, esp. adolescents⟯|⟮c6;s∞;us:4;ageism, adultism⟯
-⟮c7;Homophobia⟯|⟮c8;s∞;us:7;LGBT people⟯|⟮c9;s∞;us:7;heterosexism⟯
-⟮c10;aphobia⟯|⟮c11;s∞;us:10;a-spec people⟯|⟮c12;s∞;us:10;doesn't seem to exist yet⟯
-⟮c13;arophobia⟯|⟮c14;s∞;us:13;aromantic people⟯|⟮c15;s∞;us:13;doesn't seem to exist yet⟯
-⟮c16;acephobia⟯|⟮c17;s∞;us:16;asexual people⟯|⟮c18;s∞;us:16;alloexism⟯
-⟮c19;gayphobia⟯|⟮c20;s∞;us:19;gay people⟯|⟮c21;s∞;us:19;heterosexism⟯
-⟮c22;lesbophobia⟯|⟮c23;s∞;us:22;lesbian people⟯|⟮c24;s∞;us:22;heterosexism⟯
-⟮c25;Xenophobia⟯|⟮c26;s∞;us:25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c27;s∞;us:25;nativism⟯
-⟮c28;Gerontophobia⟯|⟮c29;s∞;us:28;the elderly⟯|⟮c30;s∞;us:28;ageism⟯
-⟮c31;Whorephobia⟯|⟮c32;s∞;us:31;sex workers⟯|⟮c33;s∞;us:31;sexworksim(???⟯)
-⟮c34;transphobia⟯|⟮c35;s∞;us:34;trans people⟯|⟮c36;s∞;us:34;transsexism⟯
-⟮c37;slavophobia⟯|⟮c38;s∞;us:37;slavic people⟯|⟮c39;s∞;us:37;xenophobia, racism⟯
-⟮c40;vegaphobia⟯|⟮c41;s∞;us:40;vegan people⟯|⟮c42;s∞;us:40;carnism⟯
-⟮c43;glottophobia⟯|⟮c44;s∞;us:43;certain groups of language users⟯|⟮c45;s∞;us:43;linguicism⟯
+⟮c1;Biphobia⟯|⟮c2;s∞;us1;bisexual people⟯|⟮c3;s∞;us1;heterosexism⟯
+⟮c4;Ephebiphobia⟯|⟮c5;s∞;us4;young people, esp. adolescents⟯|⟮c6;s∞;us4;ageism, adultism⟯
+⟮c7;Homophobia⟯|⟮c8;s∞;us7;LGBT people⟯|⟮c9;s∞;us7;heterosexism⟯
+⟮c10;aphobia⟯|⟮c11;s∞;us10;a-spec people⟯|⟮c12;s∞;us10;doesn't seem to exist yet⟯
+⟮c13;arophobia⟯|⟮c14;s∞;us13;aromantic people⟯|⟮c15;s∞;us13;doesn't seem to exist yet⟯
+⟮c16;acephobia⟯|⟮c17;s∞;us16;asexual people⟯|⟮c18;s∞;us16;alloexism⟯
+⟮c19;gayphobia⟯|⟮c20;s∞;us19;gay people⟯|⟮c21;s∞;us19;heterosexism⟯
+⟮c22;lesbophobia⟯|⟮c23;s∞;us22;lesbian people⟯|⟮c24;s∞;us22;heterosexism⟯
+⟮c25;Xenophobia⟯|⟮c26;s∞;us25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c27;s∞;us25;nativism⟯
+⟮c28;Gerontophobia⟯|⟮c29;s∞;us28;the elderly⟯|⟮c30;s∞;us28;ageism⟯
+⟮c31;Whorephobia⟯|⟮c32;s∞;us31;sex workers⟯|⟮c33;s∞;us31;sexworksim(???⟯)
+⟮c34;transphobia⟯|⟮c35;s∞;us34;trans people⟯|⟮c36;s∞;us34;transsexism⟯
+⟮c37;slavophobia⟯|⟮c38;s∞;us37;slavic people⟯|⟮c39;s∞;us37;xenophobia, racism⟯
+⟮c40;vegaphobia⟯|⟮c41;s∞;us40;vegan people⟯|⟮c42;s∞;us40;carnism⟯
+⟮c43;glottophobia⟯|⟮c44;s∞;us43;certain groups of language users⟯|⟮c45;s∞;us43;linguicism⟯
 
 
 #### chasers
@@ -3438,106 +3438,106 @@ Digit|Letter
 ##### 1-100
 
 P|A|O|Number|Mnemonics
-⟮c1;s∞;us:4;Kirito Kazuto⟯|⟮c2;s∞;us:4;dual-wielding⟯|⟮c3;s∞;us:4;Dual Swords⟯|⟮c4;00⟯
-⟮c5;s∞;us:8;Prof X (X=10⟯)|⟮c6;s∞;us:8;mindreading⟯|⟮c7;s∞;us:8;a school⟯|⟮c8;10⟯
-⟮c9;s∞;us:12;Ben Kenobi⟯|⟮c10;s∞;us:12;mourning⟯|⟮c11;s∞;us:12;a burned corpse⟯|⟮c12;20⟯
-⟮c13;s∞;us:16;Makise Kurisu⟯|⟮c14;s∞;us:16;tsundereing⟯|⟮c15;s∞;us:16;a labcoat⟯|⟮c16;30⟯
-⟮c17;s∞;us:20;Death Knight⟯|⟮c18;s∞;us:20;reanimating⟯|⟮c19;s∞;us:20;a ghoul⟯|⟮c20;40⟯
-⟮c21;s∞;us:24;Gilgamesh (Evil Knight⟯)|⟮c22;s∞;us:24;portal-summoning⟯|⟮c23;s∞;us:24;a thousand weapons⟯|⟮c24;50⟯
-⟮c25;s∞;us:28;Rook⟯|⟮c26;s∞;us:28;leading⟯|⟮c27;s∞;us:28;A caravan of refugees⟯|⟮c28;60⟯
-⟮c29;s∞;us:32;Genghis Khan⟯|⟮c30;s∞;us:32;conquering⟯|⟮c31;s∞;us:32;a horse⟯|⟮c32;70⟯
-⟮c33;s∞;us:36;HK-47⟯|⟮c34;s∞;us:36;slaughtering⟯|⟮c35;s∞;us:36;some meatbags⟯|⟮c36;80⟯
-⟮c37;s∞;us:40;Shinichi Kudo⟯|⟮c38;s∞;us:40;deducing⟯|⟮c39;s∞;us:40;a fishing line⟯|⟮c40;90⟯
-⟮c41;s∞;us:44;B Franklin (The first american⟯)|⟮c42;s∞;us:44;discovering⟯|⟮c43;s∞;us:44;A key and a kite⟯|⟮c44;01⟯
-⟮c45;s∞;us:48;Avatar Aang⟯|⟮c46;s∞;us:48;airbending⟯|⟮c47;s∞;us:48;A kitestaff⟯|⟮c48;11⟯
-⟮c49;s∞;us:52;Barry Allen⟯|⟮c50;s∞;us:52;outrunning⟯|⟮c51;s∞;us:52;death⟯|⟮c52;21⟯
-⟮c53;s∞;us:56;Mikasa Ackerman⟯|⟮c54;s∞;us:56;sacrificing⟯|⟮c55;s∞;us:56;AoT Swords⟯|⟮c56;31⟯
-⟮c57;s∞;us:60;Joan d'arc⟯|⟮c58;s∞;us:60;inspiring⟯|⟮c59;s∞;us:60;male armor⟯|⟮c60;41⟯
-⟮c61;s∞;us:64;EA⟯|⟮c62;s∞;us:64;selling⟯|⟮c63;s∞;us:64;DLCs⟯|⟮c64;51⟯
-⟮c65;s∞;us:68;Rayquaza⟯|⟮c66;s∞;us:68;electrocuting⟯|⟮c67;s∞;us:68;a pokeball⟯|⟮c68;61⟯
-⟮c69;s∞;us:72;Garrus⟯|⟮c70;s∞;us:72;wisecracking⟯|⟮c71;s∞;us:72;their commanding officer⟯|⟮c72;71⟯
-⟮c73;s∞;us:76;Haibara, Ai⟯|⟮c74;s∞;us:76;fleeing⟯|⟮c75;s∞;us:76;a shadowy organization⟯|⟮c76;81⟯
-⟮c77;s∞;us:80;SI7 Agent⟯|⟮c78;s∞;us:80;toasting⟯|⟮c79;s∞;us:80;a playing card⟯|⟮c80;91⟯
-⟮c81;s∞;us:84;King Bradley (Wrath⟯)|⟮c82;s∞;us:84;seething⟯|⟮c83;s∞;us:84;Philosophers stone⟯|⟮c84;02⟯
-⟮c85;s∞;us:88;Aaron Burr⟯|⟮c86;s∞;us:88;duelling⟯|⟮c87;s∞;us:88;A letter⟯|⟮c88;12⟯
-⟮c89;s∞;us:92;Bigby wolf⟯|⟮c90;s∞;us:92;beating ... to a pulp⟯|⟮c91;s∞;us:92;a toadman⟯|⟮c92;22⟯
-⟮c93;s∞;us:96;Majin Buu⟯|⟮c94;s∞;us:96;exploding⟯|⟮c95;s∞;us:96;sweets⟯|⟮c96;32⟯|<img src="sm_latest">
-⟮c97;s∞;us:100;Darth Bane⟯|⟮c98;s∞;us:100;establishing⟯|⟮c99;s∞;us:100;the rule of two⟯|⟮c100;42⟯
-⟮c101;s∞;us:104;Emperor Bonaparte⟯|⟮c102;s∞;us:104;invading⟯|⟮c103;s∞;us:104;Russia⟯|⟮c104;52⟯
-⟮c105;s∞;us:108;Ramsay Bolton⟯|⟮c106;s∞;us:108;flaying⟯|⟮c107;s∞;us:108;someone on a St. Andrews Cross⟯|⟮c108;62⟯|<img src="sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg"><img src="sm_593fd808a09bd743c0ed6a80.jpg">
-⟮c109;s∞;us:112;Gaius Baltar⟯|⟮c110;s∞;us:112;lying⟯|⟮c111;s∞;us:112;a imaginary friend⟯|⟮c112;72⟯
-⟮c113;s∞;us:116;HarBinger⟯|⟮c114;s∞;us:116;assuming direct control of⟯|⟮c115;s∞;us:116;a walking insect⟯|⟮c116;82⟯
-⟮c117;s∞;us:120;Símon Bolivar⟯|⟮c118;s∞;us:120;liberating⟯|⟮c119;s∞;us:120;South america⟯|⟮c120;92⟯
-⟮c121;s∞;us:124;Kogoro Mouri⟯|⟮c122;s∞;us:124;sleeping⟯|⟮c123;s∞;us:124;A bottle of beer⟯|⟮c124;03⟯
-⟮c125;s∞;us:128;Angela Merkel⟯|⟮c126;s∞;us:128;mollifying⟯|⟮c127;s∞;us:128;a diamond⟯|⟮c128;13⟯
-⟮c129;s∞;us:132;Batman⟯|⟮c130;s∞;us:132;threatening⟯|⟮c131;s∞;us:132;batarangs⟯|⟮c132;23⟯
-⟮c133;s∞;us:136;Madoka Magica⟯|⟮c134;s∞;us:136;erasing⟯|⟮c135;s∞;us:136;all witches⟯|⟮c136;33⟯
-⟮c137;s∞;us:140;Darth Maul⟯|⟮c138;s∞;us:140;hating⟯|⟮c139;s∞;us:140;a jedi⟯|⟮c140;43⟯
-⟮c141;s∞;us:144;Eminem⟯|⟮c142;s∞;us:144;rapping⟯|⟮c143;s∞;us:144;a mixtape⟯|⟮c144;53⟯
-⟮c145;s∞;us:148;Roy Mustang⟯|⟮c146;s∞;us:148;incinerating⟯|⟮c147;s∞;us:148;Gloves⟯|⟮c148;63⟯
-⟮c149;s∞;us:152;GM⟯|⟮c150;s∞;us:152;rolling⟯|⟮c151;s∞;us:152;5d20⟯|⟮c152;73⟯
-⟮c153;s∞;us:156;Her Majesty (Queen Eliz⟯)|⟮c154;s∞;us:156;scowling at⟯|⟮c155;s∞;us:156;the british isles⟯|⟮c156;83⟯
-⟮c157;s∞;us:160;Sade, Marquis de⟯|⟮c158;s∞;us:160;consuming⟯|⟮c159;s∞;us:160;a whip⟯|⟮c160;93⟯
-⟮c161;s∞;us:164;Khal Drogo⟯|⟮c162;s∞;us:164;riding⟯|⟮c163;s∞;us:164;A loincloth⟯|⟮c164;04⟯
-⟮c165;s∞;us:168;Artoo D2⟯|⟮c166;s∞;us:168;beeping⟯|⟮c167;s∞;us:168;A torch⟯|⟮c168;14⟯
-⟮c169;s∞;us:172;Big Daddy⟯|⟮c170;s∞;us:172;protecting⟯|⟮c171;s∞;us:172;Little Sisters⟯|⟮c172;24⟯
-⟮c173;s∞;us:176;Monkey D. Luffy⟯|⟮c174;s∞;us:176;stretching⟯|⟮c175;s∞;us:176;Strawhat⟯|⟮c176;34⟯
-⟮c177;s∞;us:180;Didier Drogba⟯|⟮c178;s∞;us:180;scoring⟯|⟮c179;s∞;us:180;a hattrick⟯|⟮c180;44⟯
-⟮c181;s∞;us:184;Edda⟯|⟮c182;s∞;us:184;dating⟯|⟮c183;s∞;us:184;a philosophy paper⟯|⟮c184;54⟯
-⟮c185;s∞;us:188;Rick Deckard⟯|⟮c186;s∞;us:188;understanding⟯|⟮c187;s∞;us:188;a leather jacket⟯|⟮c188;64⟯
-⟮c189;s∞;us:192;God⟯|⟮c190;s∞;us:192;creating⟯|⟮c191;s∞;us:192;a man and a woman⟯|⟮c192;74⟯
-⟮c193;s∞;us:196;Hamlet (Denmark⟯)|⟮c194;s∞;us:196;soliloquizing⟯|⟮c195;s∞;us:196;a skull⟯|⟮c196;84⟯
-⟮c197;s∞;us:200;Satan / The Devil⟯|⟮c198;s∞;us:200;seducing⟯|⟮c199;s∞;us:200;a woman⟯|⟮c200;94⟯|<img src="sm_1200px-022_devil_representation.JPG">
-⟮c201;s∞;us:204;Katniss Everdeen⟯|⟮c202;s∞;us:204;aiming⟯|⟮c203;s∞;us:204;A bow⟯|⟮c204;05⟯
-⟮c205;s∞;us:208;Albert Einstein⟯|⟮c206;s∞;us:208;theorizing about⟯|⟮c207;s∞;us:208;the fundamental forces of the universe⟯|⟮c208;15⟯|<img src="sm_mtkvx3rkucl01.jpg">
-⟮c209;s∞;us:212;Bernie Sanders⟯|⟮c210;s∞;us:212;preaching⟯|⟮c211;s∞;us:212;socialism⟯|⟮c212;25⟯
-⟮c213;s∞;us:216;Menethil, Arthas⟯|⟮c214;s∞;us:216;betraying ⟯|⟮c215;s∞;us:216;Frostmorne/his father⟯|⟮c216;35⟯|<img src="sm_RashEverlastingGoat-size_restricted.gif">
-⟮c217;s∞;us:220;Death eater⟯|⟮c218;s∞;us:220;sucking⟯|⟮c219;s∞;us:220;a soul⟯|⟮c220;45⟯
-⟮c221;s∞;us:224;Edward Elric⟯|⟮c222;s∞;us:224;transmuting⟯|⟮c223;s∞;us:224;his dead mother⟯|⟮c224;55⟯
-⟮c225;s∞;us:228;Rem⟯|⟮c226;s∞;us:228;making a last stand with⟯|⟮c227;s∞;us:228;a huge flail⟯|⟮c228;65⟯
-⟮c229;s∞;us:232;Genji⟯|⟮c230;s∞;us:232;screaming in⟯|⟮c231;s∞;us:232;Japanese⟯|⟮c232;75⟯
-⟮c233;s∞;us:236;Helena (Orphan black⟯)|⟮c234;s∞;us:236;mutilating⟯|⟮c235;s∞;us:236;a cage⟯|⟮c236;85⟯|<img src="sm_WildJampackedHapuku-small.gif"><img src="sm_FluidThinBluefish-small.gif">
-⟮c237;s∞;us:240;World Serpend Jörmungandr⟯|⟮c238;s∞;us:240;devouring⟯|⟮c239;s∞;us:240;the world⟯|⟮c240;95⟯
-⟮c241;s∞;us:244;Kylo Ren⟯|⟮c242;s∞;us:244;rampaging⟯|⟮c243;s∞;us:244;Crossguard lightsaber⟯|⟮c244;06⟯
-⟮c245;s∞;us:248;Android 16⟯|⟮c246;s∞;us:248;flirting with⟯|⟮c247;s∞;us:248;a tiny bald man⟯|⟮c248;16⟯
-⟮c249;s∞;us:252;Broly⟯|⟮c250;s∞;us:252;beating up⟯|⟮c251;s∞;us:252;Green Hair⟯|⟮c252;26⟯
-⟮c253;s∞;us:256;Maximilien Robespierre⟯|⟮c254;s∞;us:256;guillotining⟯|⟮c255;s∞;us:256;the french king⟯|⟮c256;36⟯|<img src="sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg">
-⟮c257;s∞;us:260;Darth Revan⟯|⟮c258;s∞;us:260;falling to⟯|⟮c259;s∞;us:260;the dark side⟯|⟮c260;46⟯
-⟮c261;s∞;us:264;Erasmus⟯|⟮c262;s∞;us:264;slinging mud at⟯|⟮c263;s∞;us:264;a bunch of academics⟯|⟮c264;56⟯|⟮h∞;<img src="sm_Holbein-erasmus.jpg">⟯
-⟮c265;s∞;us:268;Darth vader (Order 66⟯)|⟮c266;s∞;us:268;choking⟯|⟮c267;s∞;us:268;an innocent bystander⟯|⟮c268;66⟯
-⟮c269;s∞;us:272;Jefferson⟯|⟮c270;s∞;us:272;declaring⟯|⟮c271;s∞;us:272;slaves⟯|⟮c272;76⟯
-⟮c273;s∞;us:276;Harry Potter⟯|⟮c274;s∞;us:276;hiding under⟯|⟮c275;s∞;us:276;a staircase⟯|⟮c276;86⟯
-⟮c277;s∞;us:280;Sukeroku⟯|⟮c278;s∞;us:280;fucking⟯|⟮c279;s∞;us:280;his best friends crush⟯|⟮c280;96⟯
-⟮c281;s∞;us:284;King George III⟯|⟮c282;s∞;us:284;loosing⟯|⟮c283;s∞;us:284;America⟯|⟮c284;07⟯
-⟮c285;s∞;us:288;Android 17⟯|⟮c286;s∞;us:288;mocking⟯|⟮c287;s∞;us:288;Some sick clothes⟯|⟮c288;17⟯
-⟮c289;s∞;us:292;Big Game Hunter⟯|⟮c290;s∞;us:292;eliminating⟯|⟮c291;s∞;us:292;a dinosaur⟯|⟮c292;27⟯|<img src="sm_340">
-⟮c293;s∞;us:296;Magneto⟯|⟮c294;s∞;us:296;inciting ⟯|⟮c295;s∞;us:296;the mutant rebellion⟯|⟮c296;37⟯
-⟮c297;s∞;us:300;Diamond (Gem⟯)|⟮c298;s∞;us:300;caring for⟯|⟮c299;s∞;us:300;two arms⟯|⟮c300;47⟯
-⟮c301;s∞;us:304;Saphira (EGg and EraGon⟯)|⟮c302;s∞;us:304;being born from⟯|⟮c303;s∞;us:304;an egg⟯|⟮c304;57⟯
-⟮c305;s∞;us:308;Ragnaros⟯|⟮c306;s∞;us:308;magmablasting⟯|⟮c307;s∞;us:308;a firesnake⟯|⟮c308;67⟯
-⟮c309;s∞;us:312;Gogeta (SSJ 4⟯)|⟮c310;s∞;us:312;taunting⟯|⟮c311;s∞;us:312;a x100 Kamehameha⟯|⟮c312;77⟯
-⟮c313;s∞;us:316;Hermione granger⟯|⟮c314;s∞;us:316;studying with⟯|⟮c315;s∞;us:316;a time-turner⟯|⟮c316;87⟯
-⟮c317;s∞;us:320;Son Goku⟯|⟮c318;s∞;us:320;spirit bombing⟯|⟮c319;s∞;us:320;a angry kid⟯|⟮c320;97⟯|<img src="sm_MintyDeficientAtlanticbluetang-size_restricted.gif">
-⟮c321;s∞;us:324;Kikuhiko⟯|⟮c322;s∞;us:324;regretting⟯|⟮c323;s∞;us:324;A fan⟯|⟮c324;08⟯
-⟮c325;s∞;us:328;Alexander Hamilton⟯|⟮c326;s∞;us:328;throwing away ⟯|⟮c327;s∞;us:328;his shot⟯|⟮c328;18⟯
-⟮c329;s∞;us:332;Bounty Hunter (Cad Bane⟯)|⟮c330;s∞;us:332;hunting⟯|⟮c331;s∞;us:332;Wide-brim hat⟯|⟮c332;28⟯|<img src="FACadBane.jpg">
-⟮c333;s∞;us:336;Mata Hari⟯|⟮c334;s∞;us:336;bellydancing⟯|⟮c335;s∞;us:336;the first world war⟯|⟮c336;38⟯
-⟮c337;s∞;us:340;David Hume⟯|⟮c338;s∞;us:340;inducing⟯|⟮c339;s∞;us:340;causality⟯|⟮c340;48⟯
-⟮c341;s∞;us:344;Emperor Hirohito⟯|⟮c342;s∞;us:344;evading⟯|⟮c343;s∞;us:344;an atomic bomb⟯|⟮c344;58⟯
-⟮c345;s∞;us:348;Rubeus Hagrid⟯|⟮c346;s∞;us:348;nurturing⟯|⟮c347;s∞;us:348;a dragon⟯|⟮c348;68⟯
-⟮c349;s∞;us:352;Griffth⟯|⟮c350;s∞;us:352;striving⟯|⟮c351;s∞;us:352;a red pendant⟯|⟮c352;78⟯
-⟮c353;s∞;us:356;Hitler⟯|⟮c354;s∞;us:356;screaming⟯|⟮c355;s∞;us:356;poison gas⟯|⟮c356;88⟯
-⟮c357;s∞;us:360;Sherlock holmes⟯|⟮c358;s∞;us:360;showing off⟯|⟮c359;s∞;us:360;their sexy mind⟯|⟮c360;98⟯
-⟮c361;s∞;us:364;Kaelthas Sunstrider⟯|⟮c362;s∞;us:364;conjuring⟯|⟮c363;s∞;us:364;Al'ar⟯|⟮c364;09⟯
-⟮c365;s∞;us:368;Anakin Skywalker⟯|⟮c366;s∞;us:368;rebelling against⟯|⟮c367;s∞;us:368;sand⟯|⟮c368;19⟯
-⟮c369;s∞;us:372;Belatrix LeStrange⟯|⟮c370;s∞;us:372;splitting⟯|⟮c371;s∞;us:372;a houseelf⟯|⟮c372;29⟯
-⟮c373;s∞;us:376;Macbeth of Scotland⟯|⟮c374;s∞;us:376;betraying ⟯|⟮c375;s∞;us:376;the former king⟯|⟮c376;39⟯
-⟮c377;s∞;us:380;Darth Sidious⟯|⟮c378;s∞;us:380;electrocuting⟯|⟮c379;s∞;us:380;a kid⟯|⟮c380;49⟯
-⟮c381;s∞;us:384;Eddard (Ned) Stark⟯|⟮c382;s∞;us:384;trusting⟯|⟮c383;s∞;us:384;his severed head⟯|⟮c384;59⟯
-⟮c385;s∞;us:388;Rob Stark⟯|⟮c386;s∞;us:388;marrying⟯|⟮c387;s∞;us:388;a groom's suit⟯|⟮c388;69⟯
-⟮c389;s∞;us:392;Guts⟯|⟮c390;s∞;us:392;confronting⟯|⟮c391;s∞;us:392;a demon⟯|⟮c392;79⟯
-⟮c393;s∞;us:396;Han Solo⟯|⟮c394;s∞;us:396;daring⟯|⟮c395;s∞;us:396;a blaster⟯|⟮c396;89⟯
-⟮c397;s∞;us:400;Severus Snape ⟯|⟮c398;s∞;us:400;cursing⟯|⟮c399;s∞;us:400;an old wizard⟯|⟮c400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif">
+⟮c1;s∞;us4;Kirito Kazuto⟯|⟮c2;s∞;us4;dual-wielding⟯|⟮c3;s∞;us4;Dual Swords⟯|⟮c4;00⟯
+⟮c5;s∞;us8;Prof X (X=10⟯)|⟮c6;s∞;us8;mindreading⟯|⟮c7;s∞;us8;a school⟯|⟮c8;10⟯
+⟮c9;s∞;us12;Ben Kenobi⟯|⟮c10;s∞;us12;mourning⟯|⟮c11;s∞;us12;a burned corpse⟯|⟮c12;20⟯
+⟮c13;s∞;us16;Makise Kurisu⟯|⟮c14;s∞;us16;tsundereing⟯|⟮c15;s∞;us16;a labcoat⟯|⟮c16;30⟯
+⟮c17;s∞;us20;Death Knight⟯|⟮c18;s∞;us20;reanimating⟯|⟮c19;s∞;us20;a ghoul⟯|⟮c20;40⟯
+⟮c21;s∞;us24;Gilgamesh (Evil Knight⟯)|⟮c22;s∞;us24;portal-summoning⟯|⟮c23;s∞;us24;a thousand weapons⟯|⟮c24;50⟯
+⟮c25;s∞;us28;Rook⟯|⟮c26;s∞;us28;leading⟯|⟮c27;s∞;us28;A caravan of refugees⟯|⟮c28;60⟯
+⟮c29;s∞;us32;Genghis Khan⟯|⟮c30;s∞;us32;conquering⟯|⟮c31;s∞;us32;a horse⟯|⟮c32;70⟯
+⟮c33;s∞;us36;HK-47⟯|⟮c34;s∞;us36;slaughtering⟯|⟮c35;s∞;us36;some meatbags⟯|⟮c36;80⟯
+⟮c37;s∞;us40;Shinichi Kudo⟯|⟮c38;s∞;us40;deducing⟯|⟮c39;s∞;us40;a fishing line⟯|⟮c40;90⟯
+⟮c41;s∞;us44;B Franklin (The first american⟯)|⟮c42;s∞;us44;discovering⟯|⟮c43;s∞;us44;A key and a kite⟯|⟮c44;01⟯
+⟮c45;s∞;us48;Avatar Aang⟯|⟮c46;s∞;us48;airbending⟯|⟮c47;s∞;us48;A kitestaff⟯|⟮c48;11⟯
+⟮c49;s∞;us52;Barry Allen⟯|⟮c50;s∞;us52;outrunning⟯|⟮c51;s∞;us52;death⟯|⟮c52;21⟯
+⟮c53;s∞;us56;Mikasa Ackerman⟯|⟮c54;s∞;us56;sacrificing⟯|⟮c55;s∞;us56;AoT Swords⟯|⟮c56;31⟯
+⟮c57;s∞;us60;Joan d'arc⟯|⟮c58;s∞;us60;inspiring⟯|⟮c59;s∞;us60;male armor⟯|⟮c60;41⟯
+⟮c61;s∞;us64;EA⟯|⟮c62;s∞;us64;selling⟯|⟮c63;s∞;us64;DLCs⟯|⟮c64;51⟯
+⟮c65;s∞;us68;Rayquaza⟯|⟮c66;s∞;us68;electrocuting⟯|⟮c67;s∞;us68;a pokeball⟯|⟮c68;61⟯
+⟮c69;s∞;us72;Garrus⟯|⟮c70;s∞;us72;wisecracking⟯|⟮c71;s∞;us72;their commanding officer⟯|⟮c72;71⟯
+⟮c73;s∞;us76;Haibara, Ai⟯|⟮c74;s∞;us76;fleeing⟯|⟮c75;s∞;us76;a shadowy organization⟯|⟮c76;81⟯
+⟮c77;s∞;us80;SI7 Agent⟯|⟮c78;s∞;us80;toasting⟯|⟮c79;s∞;us80;a playing card⟯|⟮c80;91⟯
+⟮c81;s∞;us84;King Bradley (Wrath⟯)|⟮c82;s∞;us84;seething⟯|⟮c83;s∞;us84;Philosophers stone⟯|⟮c84;02⟯
+⟮c85;s∞;us88;Aaron Burr⟯|⟮c86;s∞;us88;duelling⟯|⟮c87;s∞;us88;A letter⟯|⟮c88;12⟯
+⟮c89;s∞;us92;Bigby wolf⟯|⟮c90;s∞;us92;beating ... to a pulp⟯|⟮c91;s∞;us92;a toadman⟯|⟮c92;22⟯
+⟮c93;s∞;us96;Majin Buu⟯|⟮c94;s∞;us96;exploding⟯|⟮c95;s∞;us96;sweets⟯|⟮c96;32⟯|<img src="sm_latest">
+⟮c97;s∞;us100;Darth Bane⟯|⟮c98;s∞;us100;establishing⟯|⟮c99;s∞;us100;the rule of two⟯|⟮c100;42⟯
+⟮c101;s∞;us104;Emperor Bonaparte⟯|⟮c102;s∞;us104;invading⟯|⟮c103;s∞;us104;Russia⟯|⟮c104;52⟯
+⟮c105;s∞;us108;Ramsay Bolton⟯|⟮c106;s∞;us108;flaying⟯|⟮c107;s∞;us108;someone on a St. Andrews Cross⟯|⟮c108;62⟯|<img src="sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg"><img src="sm_593fd808a09bd743c0ed6a80.jpg">
+⟮c109;s∞;us112;Gaius Baltar⟯|⟮c110;s∞;us112;lying⟯|⟮c111;s∞;us112;a imaginary friend⟯|⟮c112;72⟯
+⟮c113;s∞;us116;HarBinger⟯|⟮c114;s∞;us116;assuming direct control of⟯|⟮c115;s∞;us116;a walking insect⟯|⟮c116;82⟯
+⟮c117;s∞;us120;Símon Bolivar⟯|⟮c118;s∞;us120;liberating⟯|⟮c119;s∞;us120;South america⟯|⟮c120;92⟯
+⟮c121;s∞;us124;Kogoro Mouri⟯|⟮c122;s∞;us124;sleeping⟯|⟮c123;s∞;us124;A bottle of beer⟯|⟮c124;03⟯
+⟮c125;s∞;us128;Angela Merkel⟯|⟮c126;s∞;us128;mollifying⟯|⟮c127;s∞;us128;a diamond⟯|⟮c128;13⟯
+⟮c129;s∞;us132;Batman⟯|⟮c130;s∞;us132;threatening⟯|⟮c131;s∞;us132;batarangs⟯|⟮c132;23⟯
+⟮c133;s∞;us136;Madoka Magica⟯|⟮c134;s∞;us136;erasing⟯|⟮c135;s∞;us136;all witches⟯|⟮c136;33⟯
+⟮c137;s∞;us140;Darth Maul⟯|⟮c138;s∞;us140;hating⟯|⟮c139;s∞;us140;a jedi⟯|⟮c140;43⟯
+⟮c141;s∞;us144;Eminem⟯|⟮c142;s∞;us144;rapping⟯|⟮c143;s∞;us144;a mixtape⟯|⟮c144;53⟯
+⟮c145;s∞;us148;Roy Mustang⟯|⟮c146;s∞;us148;incinerating⟯|⟮c147;s∞;us148;Gloves⟯|⟮c148;63⟯
+⟮c149;s∞;us152;GM⟯|⟮c150;s∞;us152;rolling⟯|⟮c151;s∞;us152;5d20⟯|⟮c152;73⟯
+⟮c153;s∞;us156;Her Majesty (Queen Eliz⟯)|⟮c154;s∞;us156;scowling at⟯|⟮c155;s∞;us156;the british isles⟯|⟮c156;83⟯
+⟮c157;s∞;us160;Sade, Marquis de⟯|⟮c158;s∞;us160;consuming⟯|⟮c159;s∞;us160;a whip⟯|⟮c160;93⟯
+⟮c161;s∞;us164;Khal Drogo⟯|⟮c162;s∞;us164;riding⟯|⟮c163;s∞;us164;A loincloth⟯|⟮c164;04⟯
+⟮c165;s∞;us168;Artoo D2⟯|⟮c166;s∞;us168;beeping⟯|⟮c167;s∞;us168;A torch⟯|⟮c168;14⟯
+⟮c169;s∞;us172;Big Daddy⟯|⟮c170;s∞;us172;protecting⟯|⟮c171;s∞;us172;Little Sisters⟯|⟮c172;24⟯
+⟮c173;s∞;us176;Monkey D. Luffy⟯|⟮c174;s∞;us176;stretching⟯|⟮c175;s∞;us176;Strawhat⟯|⟮c176;34⟯
+⟮c177;s∞;us180;Didier Drogba⟯|⟮c178;s∞;us180;scoring⟯|⟮c179;s∞;us180;a hattrick⟯|⟮c180;44⟯
+⟮c181;s∞;us184;Edda⟯|⟮c182;s∞;us184;dating⟯|⟮c183;s∞;us184;a philosophy paper⟯|⟮c184;54⟯
+⟮c185;s∞;us188;Rick Deckard⟯|⟮c186;s∞;us188;understanding⟯|⟮c187;s∞;us188;a leather jacket⟯|⟮c188;64⟯
+⟮c189;s∞;us192;God⟯|⟮c190;s∞;us192;creating⟯|⟮c191;s∞;us192;a man and a woman⟯|⟮c192;74⟯
+⟮c193;s∞;us196;Hamlet (Denmark⟯)|⟮c194;s∞;us196;soliloquizing⟯|⟮c195;s∞;us196;a skull⟯|⟮c196;84⟯
+⟮c197;s∞;us200;Satan / The Devil⟯|⟮c198;s∞;us200;seducing⟯|⟮c199;s∞;us200;a woman⟯|⟮c200;94⟯|<img src="sm_1200px-022_devil_representation.JPG">
+⟮c201;s∞;us204;Katniss Everdeen⟯|⟮c202;s∞;us204;aiming⟯|⟮c203;s∞;us204;A bow⟯|⟮c204;05⟯
+⟮c205;s∞;us208;Albert Einstein⟯|⟮c206;s∞;us208;theorizing about⟯|⟮c207;s∞;us208;the fundamental forces of the universe⟯|⟮c208;15⟯|<img src="sm_mtkvx3rkucl01.jpg">
+⟮c209;s∞;us212;Bernie Sanders⟯|⟮c210;s∞;us212;preaching⟯|⟮c211;s∞;us212;socialism⟯|⟮c212;25⟯
+⟮c213;s∞;us216;Menethil, Arthas⟯|⟮c214;s∞;us216;betraying ⟯|⟮c215;s∞;us216;Frostmorne/his father⟯|⟮c216;35⟯|<img src="sm_RashEverlastingGoat-size_restricted.gif">
+⟮c217;s∞;us220;Death eater⟯|⟮c218;s∞;us220;sucking⟯|⟮c219;s∞;us220;a soul⟯|⟮c220;45⟯
+⟮c221;s∞;us224;Edward Elric⟯|⟮c222;s∞;us224;transmuting⟯|⟮c223;s∞;us224;his dead mother⟯|⟮c224;55⟯
+⟮c225;s∞;us228;Rem⟯|⟮c226;s∞;us228;making a last stand with⟯|⟮c227;s∞;us228;a huge flail⟯|⟮c228;65⟯
+⟮c229;s∞;us232;Genji⟯|⟮c230;s∞;us232;screaming in⟯|⟮c231;s∞;us232;Japanese⟯|⟮c232;75⟯
+⟮c233;s∞;us236;Helena (Orphan black⟯)|⟮c234;s∞;us236;mutilating⟯|⟮c235;s∞;us236;a cage⟯|⟮c236;85⟯|<img src="sm_WildJampackedHapuku-small.gif"><img src="sm_FluidThinBluefish-small.gif">
+⟮c237;s∞;us240;World Serpend Jörmungandr⟯|⟮c238;s∞;us240;devouring⟯|⟮c239;s∞;us240;the world⟯|⟮c240;95⟯
+⟮c241;s∞;us244;Kylo Ren⟯|⟮c242;s∞;us244;rampaging⟯|⟮c243;s∞;us244;Crossguard lightsaber⟯|⟮c244;06⟯
+⟮c245;s∞;us248;Android 16⟯|⟮c246;s∞;us248;flirting with⟯|⟮c247;s∞;us248;a tiny bald man⟯|⟮c248;16⟯
+⟮c249;s∞;us252;Broly⟯|⟮c250;s∞;us252;beating up⟯|⟮c251;s∞;us252;Green Hair⟯|⟮c252;26⟯
+⟮c253;s∞;us256;Maximilien Robespierre⟯|⟮c254;s∞;us256;guillotining⟯|⟮c255;s∞;us256;the french king⟯|⟮c256;36⟯|<img src="sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg">
+⟮c257;s∞;us260;Darth Revan⟯|⟮c258;s∞;us260;falling to⟯|⟮c259;s∞;us260;the dark side⟯|⟮c260;46⟯
+⟮c261;s∞;us264;Erasmus⟯|⟮c262;s∞;us264;slinging mud at⟯|⟮c263;s∞;us264;a bunch of academics⟯|⟮c264;56⟯|⟮h∞;<img src="sm_Holbein-erasmus.jpg">⟯
+⟮c265;s∞;us268;Darth vader (Order 66⟯)|⟮c266;s∞;us268;choking⟯|⟮c267;s∞;us268;an innocent bystander⟯|⟮c268;66⟯
+⟮c269;s∞;us272;Jefferson⟯|⟮c270;s∞;us272;declaring⟯|⟮c271;s∞;us272;slaves⟯|⟮c272;76⟯
+⟮c273;s∞;us276;Harry Potter⟯|⟮c274;s∞;us276;hiding under⟯|⟮c275;s∞;us276;a staircase⟯|⟮c276;86⟯
+⟮c277;s∞;us280;Sukeroku⟯|⟮c278;s∞;us280;fucking⟯|⟮c279;s∞;us280;his best friends crush⟯|⟮c280;96⟯
+⟮c281;s∞;us284;King George III⟯|⟮c282;s∞;us284;loosing⟯|⟮c283;s∞;us284;America⟯|⟮c284;07⟯
+⟮c285;s∞;us288;Android 17⟯|⟮c286;s∞;us288;mocking⟯|⟮c287;s∞;us288;Some sick clothes⟯|⟮c288;17⟯
+⟮c289;s∞;us292;Big Game Hunter⟯|⟮c290;s∞;us292;eliminating⟯|⟮c291;s∞;us292;a dinosaur⟯|⟮c292;27⟯|<img src="sm_340">
+⟮c293;s∞;us296;Magneto⟯|⟮c294;s∞;us296;inciting ⟯|⟮c295;s∞;us296;the mutant rebellion⟯|⟮c296;37⟯
+⟮c297;s∞;us300;Diamond (Gem⟯)|⟮c298;s∞;us300;caring for⟯|⟮c299;s∞;us300;two arms⟯|⟮c300;47⟯
+⟮c301;s∞;us304;Saphira (EGg and EraGon⟯)|⟮c302;s∞;us304;being born from⟯|⟮c303;s∞;us304;an egg⟯|⟮c304;57⟯
+⟮c305;s∞;us308;Ragnaros⟯|⟮c306;s∞;us308;magmablasting⟯|⟮c307;s∞;us308;a firesnake⟯|⟮c308;67⟯
+⟮c309;s∞;us312;Gogeta (SSJ 4⟯)|⟮c310;s∞;us312;taunting⟯|⟮c311;s∞;us312;a x100 Kamehameha⟯|⟮c312;77⟯
+⟮c313;s∞;us316;Hermione granger⟯|⟮c314;s∞;us316;studying with⟯|⟮c315;s∞;us316;a time-turner⟯|⟮c316;87⟯
+⟮c317;s∞;us320;Son Goku⟯|⟮c318;s∞;us320;spirit bombing⟯|⟮c319;s∞;us320;a angry kid⟯|⟮c320;97⟯|<img src="sm_MintyDeficientAtlanticbluetang-size_restricted.gif">
+⟮c321;s∞;us324;Kikuhiko⟯|⟮c322;s∞;us324;regretting⟯|⟮c323;s∞;us324;A fan⟯|⟮c324;08⟯
+⟮c325;s∞;us328;Alexander Hamilton⟯|⟮c326;s∞;us328;throwing away ⟯|⟮c327;s∞;us328;his shot⟯|⟮c328;18⟯
+⟮c329;s∞;us332;Bounty Hunter (Cad Bane⟯)|⟮c330;s∞;us332;hunting⟯|⟮c331;s∞;us332;Wide-brim hat⟯|⟮c332;28⟯|<img src="FACadBane.jpg">
+⟮c333;s∞;us336;Mata Hari⟯|⟮c334;s∞;us336;bellydancing⟯|⟮c335;s∞;us336;the first world war⟯|⟮c336;38⟯
+⟮c337;s∞;us340;David Hume⟯|⟮c338;s∞;us340;inducing⟯|⟮c339;s∞;us340;causality⟯|⟮c340;48⟯
+⟮c341;s∞;us344;Emperor Hirohito⟯|⟮c342;s∞;us344;evading⟯|⟮c343;s∞;us344;an atomic bomb⟯|⟮c344;58⟯
+⟮c345;s∞;us348;Rubeus Hagrid⟯|⟮c346;s∞;us348;nurturing⟯|⟮c347;s∞;us348;a dragon⟯|⟮c348;68⟯
+⟮c349;s∞;us352;Griffth⟯|⟮c350;s∞;us352;striving⟯|⟮c351;s∞;us352;a red pendant⟯|⟮c352;78⟯
+⟮c353;s∞;us356;Hitler⟯|⟮c354;s∞;us356;screaming⟯|⟮c355;s∞;us356;poison gas⟯|⟮c356;88⟯
+⟮c357;s∞;us360;Sherlock holmes⟯|⟮c358;s∞;us360;showing off⟯|⟮c359;s∞;us360;their sexy mind⟯|⟮c360;98⟯
+⟮c361;s∞;us364;Kaelthas Sunstrider⟯|⟮c362;s∞;us364;conjuring⟯|⟮c363;s∞;us364;Al'ar⟯|⟮c364;09⟯
+⟮c365;s∞;us368;Anakin Skywalker⟯|⟮c366;s∞;us368;rebelling against⟯|⟮c367;s∞;us368;sand⟯|⟮c368;19⟯
+⟮c369;s∞;us372;Belatrix LeStrange⟯|⟮c370;s∞;us372;splitting⟯|⟮c371;s∞;us372;a houseelf⟯|⟮c372;29⟯
+⟮c373;s∞;us376;Macbeth of Scotland⟯|⟮c374;s∞;us376;betraying ⟯|⟮c375;s∞;us376;the former king⟯|⟮c376;39⟯
+⟮c377;s∞;us380;Darth Sidious⟯|⟮c378;s∞;us380;electrocuting⟯|⟮c379;s∞;us380;a kid⟯|⟮c380;49⟯
+⟮c381;s∞;us384;Eddard (Ned) Stark⟯|⟮c382;s∞;us384;trusting⟯|⟮c383;s∞;us384;his severed head⟯|⟮c384;59⟯
+⟮c385;s∞;us388;Rob Stark⟯|⟮c386;s∞;us388;marrying⟯|⟮c387;s∞;us388;a groom's suit⟯|⟮c388;69⟯
+⟮c389;s∞;us392;Guts⟯|⟮c390;s∞;us392;confronting⟯|⟮c391;s∞;us392;a demon⟯|⟮c392;79⟯
+⟮c393;s∞;us396;Han Solo⟯|⟮c394;s∞;us396;daring⟯|⟮c395;s∞;us396;a blaster⟯|⟮c396;89⟯
+⟮c397;s∞;us400;Severus Snape ⟯|⟮c398;s∞;us400;cursing⟯|⟮c399;s∞;us400;an old wizard⟯|⟮c400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif">
 
 
 ### fear

@@ -6347,9 +6347,9 @@ A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves
   ⟮c5;MitM attack⟯
 </h1>
 ⟮h∞;uh1;<img src="sm_MitM1.jpg">⟯
-⟮c1;h∞;uh:2;<img src="sm_MitM2.jpg">⟯
-⟮c2;h∞;uh:3;<img src="sm_MitM3.jpg">⟯
-⟮c3;h∞;uh:4;<img src="sm_MitM4.jpg">⟯
+⟮c1;h∞;uh2;<img src="sm_MitM2.jpg">⟯
+⟮c2;h∞;uh3;<img src="sm_MitM3.jpg">⟯
+⟮c3;h∞;uh4;<img src="sm_MitM4.jpg">⟯
 ⟮c4;h∞;<img src="sm_MitM5.jpg">⟯
 
 ⟮uh∞;After the MitM for public key encryption has been set up...⟯<br>
