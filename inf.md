@@ -524,8 +524,8 @@ The ⟮c:28;[option]⟯ for ⟮c:29;table, figure⟯ says ⟮c:30;where roughly 
 ⟮c:31;the option for controlling where a floating element⟯ goes consists of ⟮c:32;a list⟯ of specifiers, which are ⟮c:33;single chars⟯ ⟮c:34;one after the other⟯ without ⟮c:35;separators⟯, indicating ⟮c:36;relative preference⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;h⟯|⟮c:2;place where it appeared in the source text as much asp possible⟯
 ⟮c:3;H⟯|⟮c:4;force place where it appears (basically turn it into a nonfloat⟯)
@@ -844,13 +844,13 @@ A static NodeList (or similar) does not reflect changes in the DOM
 <table>
   <tbody>
     <tr>
-      <th colspan="5">⟮c9;Node⟯</th>
-    </tr>others...|
+      <th colspan="5">⟮c9;Node⟯
+others...|
         <table>
           <tbody>
             <tr>
-              <th colspan="3">⟮c12;Element⟯</th>
-            </tr>others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
+              <th colspan="3">⟮c12;Element⟯
+others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
 
           </tbody>
         </table>
@@ -858,16 +858,17 @@ A static NodeList (or similar) does not reflect changes in the DOM
         <table>
           <tbody>
             <tr>
-              <th colspan="2">⟮c8;Document⟯</th>
-            </tr><span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
+              <th colspan="2">⟮c8;Document⟯
+<span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
 
           </tbody>
         </table>
-      |<table><tbody>⟮c5;DocumentFragment⟯</th></tr></tbody></table>|
+      |<table><tbody>⟮c5;DocumentFragment⟯
+</tbody></table>|
         <table>
           <tbody><tr>
-            <th colspan="3">⟮c1;CharacterData⟯</th>
-          </tr><span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
+            <th colspan="3">⟮c1;CharacterData⟯
+<span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
 
         </tbody></table>
 
@@ -1677,8 +1678,8 @@ It may seem that certain html form elements can't have their font styled {{c1::b
 
 The white-space CSS property sets how white space inside an element is handled.
 <table>
-  <thead>&nbsp;|New lines|Spaces and tabs|Text wrapping</th>
-  </tr>
+  <thead>&nbsp;|New lines|Spaces and tabs|Text wrapping
+
   </thead>
   <tbody>⟮c:1;s:1-5;normal⟯</th>
   <td>⟮c:6;s:6-20;Collapse⟯|⟮c:7;s:6-20;Collapse⟯|⟮c:8;s:6-20;Wrap⟯⟮c:2;s:1-5;pre⟯</th>
@@ -2648,8 +2649,8 @@ colors: {
   ]
 }</code></pre>
 <table>
-  <thead>scales|CSS Properties</th>
-    </tr>
+  <thead>scales|CSS Properties
+
   </thead>
   <tbody>`space`|
         `margin`, `margin-top`, `margin-right`,
@@ -2928,8 +2929,8 @@ The ⟮c:24;first line⟯ of ⟮c:25;csv/tsv⟯ may be ⟮c:26;a header⟯.
 ⟮c:27;the csv/tsv header⟯ should have ⟮c:28;as many fields⟯ ⟮c:29;as the other records in the documents⟯. 
 
 <table>
-  <thead>name|separates fields how</th>
-  </tr></thead>
+  <thead>name|separates fields how
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;csv⟯|⟮c:2;with commas⟯, sometimes also ⟮c:30;arbitrary different characters⟯
 ⟮c:3;tsv⟯|⟮c:4;with tags⟯
@@ -3140,9 +3141,9 @@ navigation keys are keys that move the viewport or the cursor.
 
 The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c:8;text-editing⟯, ⟮c:7;and the view⟯ when ⟮c:8;not⟯.
 <table>
-  span=2;Text-editing context</th>
-    </tr>Key|Action</th>
-    </tr>
+  span=2;Text-editing context
+Key|Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:16;Home key⟯|⟮c:17;Move the cursor to beginning of line⟯
@@ -3151,9 +3152,9 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
   </tbody>
 </table>
 <table>
-  span=2;Non-text-editing context</th>
-    </tr>Key|Action</th>
-    </tr>
+  span=2;Non-text-editing context
+Key|Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:22;Home key⟯|⟮c:23;Go to beginning of document⟯
@@ -3165,9 +3166,9 @@ The ⟮c:6;end, home and pgup/pgdown⟯ keys ⟮c:7;move the cursor⟯ when ⟮c
 The ⟮c:9;function key⟯ is used to ⟮c:10;simulate home/end/pgup/pgdown⟯ via ⟮c:11;the arrow keys⟯ on ⟮c:12;smaller formfactors⟯. 
 
 <table>
-  span=2;Laptops and other small form factors</th>
-    </tr>Is simulated by|Key combination</th>
-    </tr>
+  span=2;Laptops and other small form factors
+Is simulated by|Key combination
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:28;Home key/End key⟯|⟮c:29;fn left/right arrow⟯
@@ -3178,9 +3179,9 @@ The ⟮c:9;function key⟯ is used to ⟮c:10;simulate home/end/pgup/pgdown⟯ v
 on ⟮c:13;macOS⟯ ⟮c:14;home, end, pgup, pgdown⟯ only ever ⟮c:15;move the view.⟯</p>
 
 <table>
-  <thead>mac, instead of home, end, pgup, pgdown</th>
-    </tr>Key|does</th>
-    </tr>
+  <thead>mac, instead of home, end, pgup, pgdown
+Key|does
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:32;cmd + left/right⟯|⟮c:33;moves the cursor to the beginning/end of the line⟯
@@ -3191,9 +3192,9 @@ on ⟮c:13;macOS⟯ ⟮c:14;home, end, pgup, pgdown⟯ only ever ⟮c:15;move th
 ####### navigation key combinations
 
 <table>
-  <thead>Platform specific</th>
-    </tr>Key|does</th>
-    </tr>
+  <thead>Platform specific
+Key|does
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:36;alt + left/right⟯|⟮c:37;go to beginning/end of word (mac⟯)
@@ -3216,8 +3217,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### basic OS
 
 <table>
-  <thead>Action|Shortcut</th>
-    </tr>
+  <thead>Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Close tab/window⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>w</kbd> ⟯
@@ -3230,8 +3231,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### edit history
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;undo⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>z</kbd>⟯
 ⟮c:3;redo⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯
@@ -3241,8 +3242,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### browser shortcuts
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Switch to tab n⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd>⟯
 ⟮c:3;Focus address bar⟯|⟮c:4;<kbd class="modifier cmd"></kbd><kbd>L</kbd>⟯
@@ -3254,8 +3255,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### search 
 
 <br/><table>
-  <thead>Action|Shortcut</th>
-    </tr>
+  <thead>Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Find in project/ other larger scope⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯
@@ -3269,8 +3270,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### form navigation
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd>tab</kbd>⟯|⟮c:2;field forward⟯
 ⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:4;field back⟯
@@ -3281,8 +3282,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### weird mac
 
 <table>
-  <thead>Action|Shortcut</th>
-    </tr>
+  <thead>Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Get info on item⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>i</kbd> ⟯
@@ -3296,25 +3297,25 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯|⟮c:2;non-breaking space (on keyboard⟯)
   </tbody>
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;del key⟯|⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯
   </tbody>
 </table>
 
 <br><table>
-  span=2;macOs Dialogs</th>
-    </tr>Action|Shortcut</th>
-    </tr>
+  span=2;macOs Dialogs
+Action|Shortcut
+
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;cancel⟯|⟮c:2;<kbd>esc</kbd>⟯
@@ -3323,9 +3324,9 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 
 <table>
-  span=2;Magnifying glass</th>
-    </tr>Action|Shortcut</th>
-    </tr>
+  span=2;Magnifying glass
+Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;toggle⟯|⟮c:2;<kbd class="key modifier cmd"></kbd><kbd class="key modifier alt"></kbd><kbd>8</kbd>⟯
@@ -3337,8 +3338,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### Anki
 
 <table>
-  <thead>Action|Shortcut</th>
-    </tr>
+  <thead>Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Add new card⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd> ⟯
@@ -3384,8 +3385,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### view
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Reset zoom level (most often⟯)|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>0</kbd>⟯
 ⟮c:3;Zoom out⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd>⟯
@@ -3396,8 +3397,8 @@ e.g. cmd k then m to select the document language in VSCode
 ####### text editing 
 
 <table>
-  <thead>Shortcut|Action</th>
-    </tr>
+  <thead>Shortcut|Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Paste as plain text⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>v</kbd>⟯
@@ -3409,8 +3410,8 @@ e.g. cmd k then m to select the document language in VSCode
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>⟯|⟮c:2;Insert hyperlink⟯
 ⟮c:3;<kbd class="modifier cmd"></kbd> <kbd>b</kbd>⟯|⟮c:4;Bold text⟯
@@ -3425,8 +3426,8 @@ e.g. cmd k then m to select the document language in VSCode
 ######## video
 
 <table>
-  <thead>Shortcut|Action</th>
-    </tr>
+  <thead>Shortcut|Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;,⟯|⟮c:2;one frame back⟯
@@ -3442,8 +3443,8 @@ e.g. cmd k then m to select the document language in VSCode
 <table>
   <thead>
         Shortcut
-      |Action</th>
-    </tr>
+      |Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯
 ⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯
@@ -3462,8 +3463,8 @@ e.g. cmd k then m to select the document language in VSCode
 ######## vector editor
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Keyboard shortcut|action|programs</th>
-  </tr></thead>
+  <thead>Keyboard shortcut|action|programs
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;S⟯|⟮c:2;Select tool⟯|⟮c:3;Inkscape, SVG-Edit⟯
 ⟮c:4;G⟯|⟮c:5;group/ungroup⟯|⟮c:6;SVG-Edit⟯
 ⟮c:7;W⟯|⟮c:8;Wireframe mode⟯|⟮c:9;SVG-Edit⟯
@@ -3600,8 +3601,8 @@ A ⟮c:21;Command Palette⟯ generally appears as ⟮c:22;a modal⟯ floating in
 Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have adapted⟯ ⟮c:26;the Command Palette⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Shortcut to open command palette|Platform</th>
-  </tr></thead>
+  <thead>Shortcut to open command palette|Platform
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> P⟯|⟮c:12;VSCode, Chrome Devtools⟯
 ⟮c:13;<kbd class="modifier cmd"></kbd> (<kbd class="modifier alt"></kbd>) K⟯|⟮c:14;GitHub⟯
@@ -3612,8 +3613,8 @@ Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have ada
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Possible prefixes in Quick Open menus</th>
-  </tr></thead>
+    <tr><th colspan="2">Possible prefixes in Quick Open menus
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;@somestring⟯|⟮c:2;go to symbol somestring⟯
 ⟮c:3;:somenumber⟯|⟮c:4;go to line somenumber⟯
@@ -3681,8 +3682,8 @@ VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing �
 ⟮h:all;uh:1-10;<img class="all-f" src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
 
 <table>
-  <thead>nth icon in activity bar|Purpose</th>
-    </tr>
+  <thead>nth icon in activity bar|Purpose
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1st icon⟯|⟮c:2;FIile explorer⟯
@@ -3872,8 +3873,9 @@ If ⟮c:141;Hue⟯ is ⟮c:142;generated⟯ from ⟮c:142;RGB⟯ for ⟮c:142;HS
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">If Hue is specified in a degree measurement</th></tr>degree|color</th>
-  </tr></thead>
+    <tr><th colspan="2">If Hue is specified in a degree measurement
+degree|color
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:144;0deg/360deg⟯|⟮c:145;red⟯
 ⟮c:146;120deg⟯|⟮c:147;green⟯
@@ -3892,8 +3894,8 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
 ⟮c:178;0%⟯ ⟮c:179;lightness⟯ is ⟮c:180;black⟯ for ⟮c:180;any saturation/hue⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:151;tint⟯|⟮c:152;mixture of a color with white⟯
 ⟮c:153;tone⟯|⟮c:154;mixture of a color with gray⟯
@@ -3921,8 +3923,8 @@ For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding an
 ⟮c:126;&lt;color-model&gt;-D⟯ is ⟮c:127;just that color model⟯ with ⟮c:128;an additional depth channel.⟯ 
 
 <table>
-  <thead>RGB 3-tuple notation|</th>
-  </tr></thead>
+  <thead>RGB 3-tuple notation|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Rgb(0, 0, 0⟯)|⟮c:2;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯
 ⟮c:3;Rgb(0, 0, 255⟯)|⟮c:4;<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">⟯
@@ -3983,8 +3985,8 @@ The most common ⟮c:7;display refresh rate⟯ as of 2020 is ⟮c:8;60fps/hz⟯
 Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to see ⟮c:11;smooth movement and not just a series of images⟯. 
 ⟮c:12;1⟯ FPS = ⟮c:13;1⟯ Hz 
 <table class="cloze-group hide-if-inactive">
-  <thead>medium|FPS</th>
-  </tr></thead>
+  <thead>medium|FPS
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;video (traditional⟯)|⟮c:2;30fps⟯
 ⟮c:3;film⟯|⟮c:4;24fps⟯
@@ -3996,8 +3998,8 @@ Traditionally, it is said that ⟮c:9;20-30 fps⟯ is ⟮c:10;the minimum⟯ to 
 The ⟮c:11;inverse of⟯ ⟮c:9;transparency⟯ is ⟮c:10;opacity⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>transparency/opacity|visibility</th>
-  </tr></thead>
+  <thead>transparency/opacity|visibility
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;0% transparency / 100% opacity⟯|⟮c:2;completely visible⟯
 ⟮c:3;100% transparency / 0% opacity⟯|⟮c:4;completely invisible⟯
@@ -4311,8 +4313,8 @@ On mac, ⟮c:7;drutil⟯ is the ⟮c:8;CLI⟯ utility for ⟮c:9;interacting wit
 On mac, ⟮c:10;diskutil⟯ is the ⟮c:11;CLI⟯ utility for ⟮c:12;interacting with harddrives.⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Verb|Function|Which of drutil/diskutil?</th>
-  </tr></thead>
+  <thead>Verb|Function|Which of drutil/diskutil?
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;list⟯|⟮c:2;list attached devices⟯|⟮c:3;drutil, diskutil⟯
 ⟮c:4;eject⟯|⟮c:5;ejecting a device⟯|⟮c:6;drutil, diskutil⟯
@@ -4655,8 +4657,8 @@ There are variants of ⟮c:8;the original cli program diff⟯ that change how it
 ⟮c:17;git diff⟯ shows the difference between things ⟮c:18;in/related to a git repository⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:21;no argument⟯|⟮c:22;show diff between unstaged and staged/committed⟯
 ⟮c:23;--staged/--cached (synonyms⟯)|⟮c:24;show diff of staged changes with latest commit (or specified commit⟯)
@@ -4686,8 +4688,8 @@ chown changes the owner and/or group of the file
 chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
 The three permissions that unix tracks are {{c1::read}}, {{c2::write}},, and {{c3::execute}}
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;x⟯|⟮c:2;execute⟯
 ⟮c:3;w⟯|⟮c:4;write⟯
@@ -4811,8 +4813,8 @@ For ⟮c:84;mailcap⟯, ⟮c:85;%s⟯ represents ⟮c:86;the file of the relevan
 ##### common file extensions
 
 <table>
-  <thead>File format|File extension</th>
-  </tr></thead>
+  <thead>File format|File extension
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;TypeScript source code⟯|⟮c:2;.ts⟯
 ⟮c:3;M3U playlist⟯|⟮c:4;.m3u⟯
@@ -4984,8 +4986,8 @@ gifsicle is a CLI program to manipulate gifs
 ocrmypdf ⟮c:11;SOURCE DEST⟯
 ``` §<br>
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;specify language⟯|⟮c:2;`-l deu/fra/deu+fra...`⟯
 ⟮c:3;correct slight skew⟯|⟮c:4;`--deskew`⟯
@@ -5008,8 +5010,8 @@ Many of imagemagicks arguments needing to specify ⟮c:50;some kind of shape/siz
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Imagemagick subcommands</th>
-  </tr></thead>
+    <tr><th colspan="2">Imagemagick subcommands
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;`import`⟯|⟮c:2;Imagemagick screenshot utility⟯
 ⟮c:3;`identify`⟯|((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
@@ -5033,8 +5035,8 @@ Image: rose.jpg
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Imagemagick options</th>
-  </tr></thead>
+    <tr><th colspan="2">Imagemagick options
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:17;`-crop`⟯|⟮c:18;crop⟯
 ⟮c:19;`-trim`⟯|⟮c:20;remove borders around the image⟯
@@ -5299,8 +5301,8 @@ It is common practice to ⟮c:22;prefix the name of the marker⟯ with a ⟮c:23
 ± \label{sec:foo} ±<br>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>abbr|for</th>
-  </tr></thead>
+  <thead>abbr|for
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;eq⟯|⟮c:2;equation⟯
 ⟮c:3;sec⟯|⟮c:4;section⟯
@@ -5311,8 +5313,8 @@ It is common practice to ⟮c:22;prefix the name of the marker⟯ with a ⟮c:23
 In latex, you can ⟮c:27;reference markers⟯ defined with ⟮c:28;\label⟯ with ⟮c:29;\ref⟯, ⟮c:30;\pageref⟯ or ⟮c:31;\eqref⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>command|refers to?|from package</th>
-  </tr></thead>
+  <thead>command|refers to?|from package
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:7;\ref{foo}⟯|⟮c:8;returns the index of foo⟯
 ⟮c:9;\pageref{foo}⟯|⟮c:10;returns the page on which foo is found⟯
@@ -5332,8 +5334,8 @@ Lengths in latex are ⟮c:16;rigid⟯ by ⟮c:17;default⟯
 ⟮c:14;plus &lt;length&gt; ∨ minus &lt;length&gt;⟯ indicate ⟮c:15;a rubber length⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>indicator|meaning</th>
-  </tr></thead>
+  <thead>indicator|meaning
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;plus &lt;length&gt;⟯|⟮c:2;length can grow by that amount⟯
 ⟮c:3;minus &lt;length&gt;⟯|⟮c:4;length can shrink by that amount⟯
@@ -5352,8 +5354,8 @@ To ⟮c:1;create a length foo⟯, you first have to ⟮c:2;declare it⟯ with �
 If you ⟮c:8;change the value of preexisting length keywords with \setlength⟯, ⟮c:9;things that use these lengths itnernally⟯ will also change. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;\parindent⟯|⟮c:12;represents length of first line in paragraph indentation⟯
 ⟮c:13;\parskip⟯|⟮c:10;represenets the vertical distance between paragraphs⟯
@@ -5380,8 +5382,8 @@ The basic built-in version of both types of math environment has a shorthand exc
 The ⟮c:25;LaTeX-exclusive⟯ ⟮c:26;shorthands⟯ for ⟮c:27;the built-in math environments⟯ involves ⟮c:28;using escaped parentheses\bracket characters.⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>environment name|TeX shorthand|LaTeX shorthand</th>
-  </tr></thead>
+  <thead>environment name|TeX shorthand|LaTeX shorthand
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;math⟯|⟮c:2;$...$⟯|⟮c:3;\​(...\​⟯)
 ⟮c:4;displaymath⟯|⟮c:5;$$...$$⟯|⟮c:6;\​[...\​]⟯
@@ -5393,8 +5395,8 @@ For the ⟮c:32;amsmath/mathtools environments⟯ there are often ⟮c:34;two ve
 ⟮c:35;amsmath/mathtools environments⟯ ⟮c:37;w/o a star⟯ are ⟮c:36;numbered⟯, ⟮c:37;w/ a star⟯ they are ⟮c:36;not numbered⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>environment|name|image</th>
-  </tr></thead>
+  <thead>environment|name|image
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:41;equation/equation*⟯|⟮c:42;same as displaymath (added to have numbered version⟯)
 ⟮c:38;gather/gather*⟯|⟮c:39;center-align lines⟯|⟮h:39;<img src="sm_2021-05-18--15-11-30-screenshot.png">⟯
@@ -5462,8 +5464,8 @@ symbol|command(s)|requires package
 
 
   <table class="cloze-group hide-if-inactive">
-  <thead>command|symbol</th>
-  </tr></thead>
+  <thead>command|symbol
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\LaTeX⟯|⟮c:2;insert the latexlogo⟯
 ⟮c:3;\ldots⟯|⟮c:4;an ellipsis on the baseline …⟯
@@ -5482,8 +5484,8 @@ If using ⟮c:12;amsmath⟯ and ⟮c:13;within math mode⟯, ⟮c:14;\dots⟯ �
 ######## language & encoding
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Package|Function</th>
-  </tr></thead>
+  <thead>Package|Function
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;babel⟯|⟮c:2;foreign language support⟯
 ⟮c:3;fontenc⟯|⟮c:4;output character encoding⟯
@@ -5508,8 +5510,8 @@ calling {{c14::\documentclass{foo} }} ⟮c:15;loads foo.cls⟯ in the background
 ⟮c:36;after \begin{document⟯} there is often ⟮c:37;a set of commands⟯ setting ⟮c:38;metadata⟯ called ⟮c:39;the top matter/topmatter⟯ 
  
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\abstract⟯|⟮c:2;set the abstract of e.g. the paper⟯
 ⟮c:3;\author⟯|⟮c:4;set document author⟯
@@ -5552,11 +5554,12 @@ The kind of themes that latex presentations can have are ⟮c:31;presentation⟯
 When using the ⟮c:54;beamer⟯ class, you can use ⟮c:52;modes⟯ to ⟮c:53;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56;&lt;⟯⟮c:59;certain_mode⟯⟮c:56;&gt;⟯⟮c:57;{⟯⟮c:58;things to do⟯⟮c:57;} ⟯ 
 <table>
-  <thead><tr><th colspan="2"> Latex beamer modes</th></tr></thead>
+  <thead><tr><th colspan="2"> Latex beamer modes
+</thead>
   <tbody>
     <tr>
-      <th colspan="2">all</th>
-    </tr>
+      <th colspan="2">all
+
         <table>
           <tbody>
             <tr>
@@ -5564,8 +5567,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
                 <span class="c2-cloze">
                   presentation
                 </span>
-              </th>
-            </tr>⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯
+⟮c:3;s:1-2;beamer⟯|⟮c:4;s:1-2;second⟯|⟮c:5;s:1-2;handout⟯|⟮c:6;s:1-2;trans⟯
 
           </tbody>
         </table>
@@ -5574,8 +5576,7 @@ Command to ⟮c:71;only do something in a certain mode⟯ ⟮c:55;mode⟯⟮c:56
         <table>
           <tbody>
                 ⟮c:1;article⟯
-              </th>
-            </tr>
+
           </tbody>
         </table>
 
@@ -5607,8 +5608,9 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Within the scrlttr2 letter environment</th></tr>command|effect</th>
-  </tr></thead>
+    <tr><th colspan="2">Within the scrlttr2 letter environment
+command|effect
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\closing{foo}⟯|⟮c:2;set the closing line (e.g. Best wishes, ) to foo⟯
 ⟮c:3;\opening{foo}⟯|⟮c:4;set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯
@@ -5628,8 +5630,8 @@ The ⟮c:33;actual body of a letter⟯ using ⟮c:34;scrlttr2⟯ is indicated by
 ⟮c:22;pdf(la)tex⟯ ⟮c:23;compiles⟯ ⟮c:24;(la)tex to pdf⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\listoffigures⟯|⟮c:2;generate a list of figures⟯
 ⟮c:3;\listoftables⟯|⟮c:4;generate a list of `table`s⟯
@@ -5715,8 +5717,8 @@ The ⟮c:14;hyphenation⟯ command takes a ⟮c:15;list of words⟯ as an ⟮c:1
 in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;latex⟯ will only ever ⟮c:12;split the word on that hyphen⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Latex|Result</th>
-  </tr></thead>
+  <thead>Latex|Result
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;$-$ (or other inline math env notation⟯)|⟮c:2;a mathematical minus⟯
 ⟮c:3;---⟯|⟮c:4;an em-dash⟯
@@ -5731,8 +5733,8 @@ in general, if a word ⟮c:11;contains a non-alphabetic character⟯, ⟮c:13;la
 the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all ⟮c:10;indent the material, blockquote-style⟯. They ⟮c:11;differ in⟯ ⟮c:12;what they indent additionally, if anything⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;quotation environment⟯|⟮c:2;indents the beginning line of a paragraph additionally⟯
 ⟮c:3;quote environment⟯|⟮c:4;indents nothing additonally⟯
@@ -5745,8 +5747,8 @@ the ⟮c:7;quote⟯, ⟮c:8;quotation⟯, and ⟮c:9;verse⟯ environments all �
 
 Package {{c5::verbatim}} contains the {{c6::verbatim}} and {{c6::comment}} {{c7::environments}}.
 <table class="cloze-group hide-if-inactive">
-  <thead>environment|function</th>
-  </tr></thead>
+  <thead>environment|function
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;comment⟯|⟮c:2;a block comment⟯
 ⟮c:3;verbatim⟯|⟮c:4;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)
@@ -5784,8 +5786,8 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>command|effect</th>
-  </tr></thead>
+  <thead>command|effect
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}⟯|⟮c:2;define new colors⟯
 ⟮c:3;\pagecolor{color}⟯|⟮c:4;colors the background of a page in the specified way⟯
@@ -5796,8 +5798,8 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
 ######### misc
 
 <table class="cloze-group hide-if-inactive">
-  <thead>command|Effect</th>
-  </tr></thead>
+  <thead>command|Effect
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\noindent⟯|⟮c:2;prevent the paragraph from being indented⟯
 ⟮c:3;\nolinebreak / \nobreak⟯|⟮c:4;prevent latex from breaking here⟯
@@ -5807,8 +5809,8 @@ the ⟮c:9;packages⟯ ⟮c:7;color⟯ and ⟮c:7;xcolor⟯ allow ⟮c:8;using v
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Command|does</th>
-  </tr></thead>
+  <thead>Command|does
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;\today⟯|⟮c:2;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)
 ⟮c:3;\bar{foo}⟯|⟮c:4;bar above foo⟯
@@ -5925,8 +5927,8 @@ A YAML ⟮c:17;anchor⟯ goes ⟮c:18;between key and value⟯
 A YAML ⟮c:19;merge key⟯ goes ⟮c:20;instead of a key⟯, and ⟮c:21;takes an alias as a value⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;&amp;foo⟯|⟮c:2;anchor⟯
 ⟮c:3;*foo⟯|⟮c:4;alias⟯
@@ -5984,8 +5986,8 @@ Things in ⟮c:47;WebVTT/.srt⟯ are ⟮c:48;generally separated⟯ by ⟮c:49;a
 
 WebVTT delimits ⟮c:51;major sections⟯ with ⟮c:50;allcaps words⟯: 
   <table>
-  <thead>section name|section semantics/function</th>
-  </tr></thead>
+  <thead>section name|section semantics/function
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;WEBVTT⟯|⟮c:2;s:32;Begin WebVTT document⟯ ⟮h:2;(may be followed by ((c:32;::text header on the same line⟯)))
 ⟮c:3;STYLE⟯|⟮c:4;inline styling section⟯
@@ -6003,7 +6005,9 @@ Every line of a cue may optionally be ⟮c:70;started by `- `⟯, this will ⟮c
 
 <table>
   <thead>
-    <tr><th colspan="2">WebVTT-specific properties</th></tr>CSS property syntax|CSS function</th></tr>
+    <tr><th colspan="2">WebVTT-specific properties
+CSS property syntax|CSS function
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:7;vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg⟯)
@@ -6020,7 +6024,9 @@ Every line of a cue may optionally be ⟮c:70;started by `- `⟯, this will ⟮c
 </table>
 <table>
   <thead>
-    <tr><th colspan="2">WebVTT-specific selectors</th></tr>CSS Selector|Selects</th></tr>
+    <tr><th colspan="2">WebVTT-specific selectors
+CSS Selector|Selects
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:26;::cue(.foo⟯)|⟮c:27;Target a cue with class foo (&lt;c.foo&gt;⟯)
@@ -7035,7 +7041,8 @@ termux-open   open something it its default application
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">`open`</th></tr>
+    <tr><th colspan="2">`open`
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;-R⟯|⟮c:2;reveals the file in finder⟯
@@ -7070,8 +7077,8 @@ date-command ::= date [<formatting-syntax>|<setting-syntax>|<dst-syntax>]
 formatting-syntax ::= {<option>}[ +<output-format-specifier>]
 
 <table class="cloze-group hide-if-inactive">
-  <thead>option|does</th>
-  </tr></thead>
+  <thead>option|does
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;-u / --utc / --universal⟯|⟮c:2;use UTC⟯
 ⟮c:3;-d date / --date=date⟯|⟮c:4;calculate the date for the specific date⟯
@@ -7725,8 +7732,8 @@ theoretically, any program that reads from stdin should read from terminal input
 
 Liquid also features filters prominently to transform values, and also uses the pipe | as a separator.
 <table class="cloze-group hide-if-inactive">
-  <thead>filter name (liquid)|filter action|constraints</th>
-  </tr></thead>
+  <thead>filter name (liquid)|filter action|constraints
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;date: "formatstring"⟯|⟮c:2;date formatting⟯
 ⟮c:5;markdownify⟯|⟮c:6;transform from markdown⟯|⟮c:7;jekyll only⟯
@@ -7993,8 +8000,8 @@ A polyfill is a shim for a browser API, which passes it through if available, an
 #### APIs for certain purposes
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Data|Name|Interface</th>
-  </tr></thead>
+  <thead>Data|Name|Interface
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;DWD open weather data⟯|⟮c:2;Bright Sky⟯|⟮c:3;JSON⟯
   </tbody>
@@ -8091,7 +8098,7 @@ Within USB 3, usb 3.1 and 3.2 were renamed
   |USB 3.1
   |USB 3.2
   |USB4
-  </th></tr>Maximum transfer rate
+Maximum transfer rate
   |span=2;12 Mbps
   |span=2;480 Mbps
   |5 Gbps
@@ -8182,22 +8189,22 @@ IP packets are transfered in frames between routers.
 <table style="table-layout: fixed">
   <tbody>||</td>
       <td style="background-color: palegreen;">Data|</td>
-      <th><span class="all-scr c1-cloze">Application</span></th>
-    </tr>|</td>
+      <th><span class="all-scr c1-cloze">Application</span>
+|</td>
       <td style="background-color: #d8b;">UDP / TCP header</td>
       <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data|</td>
-      <th><span class="all-scr c2-cloze">Transport</span></th>
-    </tr></td>
+      <th><span class="all-scr c2-cloze">Transport</span>
+</td>
       <td style="background-color: #87e;">IP header</td>
       <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data|</td>
-      <th><span class="all-scr c3-cloze">Internet</span></th>
-    </tr>
+      <th><span class="all-scr c3-cloze">Internet</span>
+
     <tr>
       <td style="background-color: lightsalmon;">Frame header</td>
       <td colspan="3" style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%); filter: brightness(0.8);">(Frame) data</td>
       <td style="background-color: lightsalmon;">Frame footer</td>
-      <th><span class="all-scr c4-cloze">Link</span></th>
-    </tr>
+      <th><span class="all-scr c4-cloze">Link</span>
+
   </tbody>
 </table>
 <style> tr td {width: 15%} tr th {width: 40%} </style>
@@ -8363,8 +8370,8 @@ If ⟮c:38;you've specified -L/--location⟯ for curl, ⟮c:39;--max-redirs⟯ s
 There are bunch of sites ⟮c:43;designed to be `curl`ed⟯ to do something useful. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Site|Does what when `curl`ed?</th>
-  </tr></thead>
+  <thead>Site|Does what when `curl`ed?
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;wttr.in⟯|⟮c:2;get weather⟯
   </tbody>
@@ -8461,8 +8468,7 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 
 <table>
   <thead>⟮c:1;Status-Code⟯|⟮c:2;Reason-Phrase⟯|Further explanation
-      </th>
-    </tr>
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:3;1xx⟯|⟮c:4;Informational⟯
@@ -8509,8 +8515,8 @@ To specify ⟮c:49;how long⟯ ⟮c:50;a cache entry⟯ is ⟮c:49;fresh (when i
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource</th>
-  </tr></thead>
+    <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;public⟯|⟮c:2;Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)
 ⟮c:3;private⟯|⟮c:4;Don't cache in shared cache, only in private cache (e.g. browser⟯)
@@ -8728,8 +8734,8 @@ the ⟮c:44;dynamic⟯ or ⟮c:45;private⟯ ports are often used as ⟮c:46;eph
 
 <table class="cloze-group hide-if-inactive">
   <thead>Port range</th>
-    <th colspan="2">Is called</th>
-  </tr></thead>
+    <th colspan="2">Is called
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:47;&lt;1024⟯|⟮c:48;well-known⟯
 ⟮c:49;1024 - 49151 (2^15 + 2^14⟯)|⟮c:50;registered⟯
@@ -8744,8 +8750,8 @@ preassigned
 
 FTP|21
 <table>
-  <thead>Protocol|Port</th>
-  </tr></thead>
+  <thead>Protocol|Port
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;SSH⟯|⟮c:2;22⟯
 ⟮c:3;telnet⟯|⟮c:4;23⟯
@@ -8796,8 +8802,8 @@ destination port|mandatory
 length|mandatory
 checksum|mandatory in IPv6
 <table>
-  <tbody>octets|0 &amp; 1|2 &amp; 3</th>
-    </tr>0</th>
+  <tbody>octets|0 &amp; 1|2 &amp; 3
+0</th>
       <td style="background-color: #fa9;">Source port</td>
       <td >Destination port4</th>
       <td >Length</td>
@@ -9025,8 +9031,8 @@ Loopback is the routing of signals/streams back to their source without intentio
 ##### routing schemes/architectures
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Routing architecture visualization|name</th>
-  </tr></thead>
+  <thead>Routing architecture visualization|name
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="sm_unicast.svg">⟯|⟮c:2;Unicast⟯
 ⟮c:3;<img src="sm_multicast.svg">⟯|⟮c:4;multicast⟯
@@ -9046,8 +9052,8 @@ Sometimes, bus is used to refer any connection between two points, even if it is
 A daisy chain is a topology where devices are linked in a line or ring.
 
 <table>
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;star⟯|⟮c:2;<img src="StarNetwork.svg">⟯
 ⟮c:3;ring⟯|⟮c:4;<img src="RingNetwork.svg">⟯
@@ -9400,8 +9406,8 @@ A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯.
 ⟮c:47;variant⟯ subtags&nbsp;are for ⟮c:48;dialects or other variations (however, use other tags if possible⟯) 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>BCP 47 language tag|meaning</th>
-  </tr></thead>
+  <thead>BCP 47 language tag|meaning
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;en⟯|⟮c:2;english (no further info⟯)
 ⟮c:3;zh-hak⟯|⟮c:4;hakka chinese⟯
@@ -9413,8 +9419,8 @@ A ⟮c:32;language code⟯ consists of ⟮c:33;2 or 3 letters⟯.
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>tag|problem</th>
-  </tr></thead>
+  <thead>tag|problem
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:15;it-IT⟯|⟮c:16;unneccesary specification of IT (italian as spoken where else?⟯)
 ⟮c:13;es-Latn⟯|⟮c:14;Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)
@@ -12009,8 +12015,8 @@ In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">In ⟮c:5;documentation⟯, these methods are referenced...|</th>
-  </tr></thead>
+    <tr><th colspan="2">In ⟮c:5;documentation⟯, these methods are referenced...|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;class methods⟯|⟮c:2;.method or :​:method⟯
 ⟮c:3;instance methods⟯|⟮c:4;#method⟯
@@ -12501,8 +12507,8 @@ Hello {{ user.name }}!
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Liquid loop parameters</th>
-  </tr></thead>
+    <tr><th colspan="2">Liquid loop parameters
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;start where the previous loop of the same iterator left off⟯|⟮c:2;offset:continue⟯
 ⟮c:3;start at the offset/index n⟯|⟮c:4;offset:n⟯
@@ -12529,8 +12535,8 @@ The syntax for the cycle ⟮c:13;group parameter⟯ is ` ⟮c:14;"name":⟯`.
 ``` §<br>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;{% liquid ... %}⟯|⟮c:2;write liquid logic in a single block⟯
 ⟮c:3;{% raw %} ... {% endraw %}⟯|⟮c:4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
@@ -12728,8 +12734,8 @@ In the ⟮c:12;gemfile⟯, ⟮c:13;jekyll_plugin⟯s are specified within ⟮c:1
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">Jekyll Plugins|</th>
-  </tr></thead>
+    <tr><th colspan="2">Jekyll Plugins|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;jekyll-feed⟯|⟮c:2;Generating an RSS feed (jekyll⟯)
 ⟮c:3;jekyll-seo-tag⟯|⟮c:4;Generating a few SEO tags (jekyll⟯)
@@ -12973,16 +12979,16 @@ A low-level programming language is a programming language with little to no abs
 ### names
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Name|Prononciation</th>
-  </tr></thead>
+  <thead>Name|Prononciation
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;C#⟯|⟮c:2;C sharp⟯
   </tbody>
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <thead>thing|slang</th>
-  </tr></thead>
+  <thead>thing|slang
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Rust users⟯|⟮c:2;rustaceans⟯
   </tbody>
@@ -13473,8 +13479,8 @@ copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'><
 move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 
 <table>
-  <thead>Action|Shortcut</th>
-    </tr>
+  <thead>Action|Shortcut
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Open IntelliSense⟯|⟮c:2;<kbd class="key modifier ctrl"></kbd> <kbd class="key space"></kbd>⟯
@@ -13484,8 +13490,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 ######## lines
 
 <table>
-  <thead>Shortcut|Action</th>
-    </tr>
+  <thead>Shortcut|Action
+
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;ctrl j⟯|⟮c:2;join lines⟯
@@ -13496,8 +13502,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 ######## comments
 
 <table class="cloze-group hide-if-inactive">
-  <thead>|</th>
-  </tr></thead>
+  <thead>|
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;add line comment⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>⟯
 ⟮c:3;toggle line comment⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>/</kbd>⟯
@@ -13509,8 +13515,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">VScode Jupyter Shortcuts</th>
-  </tr></thead>
+    <tr><th colspan="2">VScode Jupyter Shortcuts
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<kbd>f10</kbd>⟯|⟮c:2;execute next line of code⟯
 ⟮c:3;<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>⟯|⟮c:4;finish editing a cell/run a code block⟯
@@ -13521,8 +13527,8 @@ move line up/down|<kbd class='modifier alt'></kbd> <kbd>up/down</kbd>
 ###### increment/decrement via arrow keys
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Arrow up/down plus..|Increments by... (assumes base 10)</th>
-  </tr></thead>
+  <thead>Arrow up/down plus..|Increments by... (assumes base 10)
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;alt⟯|⟮c:2;0.1⟯
 ⟮c:3;ø⟯|⟮c:4;1⟯
@@ -14023,8 +14029,8 @@ If something is ⟮c:9;keg-only⟯, it is ⟮c:10;installed into (/usr/local or 
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th colspan="2">homebrew prefixes</th>
-  </tr></thead>
+    <tr><th colspan="2">homebrew prefixes
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;macOS Intel⟯|⟮c:2;/usr/local⟯
 ⟮c:3;Apple Silicon⟯|⟮c:4;/opt/homebrew⟯
@@ -14237,8 +14243,8 @@ This distinction is however often not made, and often ⟮c:13;any name that is a
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
 <table class="cloze-group hide-if-inactive">
-  <thead>Character entity reference / Numeric character reference|Displays as / creates?</th>
-  </tr></thead>
+  <thead>Character entity reference / Numeric character reference|Displays as / creates?
+</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;&amp;gt;⟯|⟮c:17;&gt;⟯
 ⟮c:14;&amp;lt;⟯|⟮c:15;&lt;⟯
 ⟮c:18;&amp;amp;⟯|⟮c:19;&amp;⟯
