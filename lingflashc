@@ -217,7 +217,8 @@ Adjuncts are optional, and adjoining them creates a phrase of the same type as i
 Ergo adjoining something to a YP results in a larger YP.
 Adjunction can be recursive.
 An adjunct can be any type of phrase.
-<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
+
+[[[<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">]]]
 
 <table class="blank-canvas" style="table-layout: fixed">
   <tbody>
@@ -225,7 +226,8 @@ span=4;class=inner;⟮c:1;XP⟯
 class=inner;⟮c:2;ZP⟯||span=3;class=inner;⟮c:3;X'⟯span=2;|class=inner;⟮c:4;X⟯||class=inner;⟮c:5;YP⟯
 
 
-<img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
+
+[[[<img src="sm_Screenshot 2020-10-13 at 00.28.29.png">]]]
 X|the head
 YP|the complement
 ZP|the specifier
@@ -2544,7 +2546,8 @@ A blank line is two newlines.
 ##### microtypography
 
 Serifs are these little bits sticking out of some letters.
-<img src="sm_tmprdkiv_z1.jpg">
+
+[[[<img src="sm_tmprdkiv_z1.jpg">]]]
 One major axis along which font families are distinguished is if they have serifs or not.
 {{c1::installing custom font families}} is possible on {{c2::most desktop os}}, but not on {{c3::android}} (and ofc not on {{c4::ios}})
 A monospaced font where all characters occupy the same horizontal space.

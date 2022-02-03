@@ -127,7 +127,8 @@ Something has a parity of even if it is divisible by two, and odd otherwise.
 A number in a positional numeral system will be even if its final digit is even.
 
 
-<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">
+
+[[[<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">]]]
 
 # Geometry
 
@@ -402,7 +403,8 @@ Per definition, any zero x has the property f(x)=0
 
 ## graphs
 
-<img src="sm_220px-6n-graf.svg.png">
+
+[[[<img src="sm_220px-6n-graf.svg.png">]]]
 
 ⟮c:23;Graphs⟯ are studied in ⟮c:24;graph theory⟯ 
 A ⟮c:25;graph⟯ consists of ⟮c:26;a pair⟯. 
@@ -435,7 +437,8 @@ Graph-related thing|alternative names
 ⟮c:3;vertices⟯|⟮c:4;nodes/points⟯
 
 
-<img src="sm_220px-6n-graf.svg.png">
+
+[[[<img src="sm_220px-6n-graf.svg.png">]]]
 
 In the image|name
 ⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯
@@ -526,7 +529,8 @@ In ⟮c:27;deleting a vertex⟯ in ⟮c:28;a binary search tree⟯, if ⟮c:29;t
 In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33;the vertex has two children⟯, first take ⟮c:34;the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮c:35;S's⟯ ⟮c:36;value⟯, and ⟮c:37;replace⟯ ⟮c:35;N's⟯ ⟮c:36;value⟯ ⟮c:37;with it⟯ and then ⟮c:38;delete S⟯ with ⟮c:39;the appropriate method for 0/1-child vertices⟯. 
 
 
-<img src="sm_bin_search_tree.svg">
+
+[[[<img src="sm_bin_search_tree.svg">]]]
 Inserting this number,|where would it go?
 ⟮c:1;9⟯|⟮c:2;left of 10⟯
 ⟮c:3;5⟯|⟮c:4;right of 4⟯

@@ -531,7 +531,8 @@ Something ⟮c:1;diegetic⟯ ⟮c:2;exists within the fictional world.⟯
 Something ⟮c:3;non-diegetic⟯ ⟮c:4;only exists outside of the fictional world⟯. 
 Music that ⟮c:5;can be heard by the characters in a film⟯ would be ⟮c:6;diegetic music⟯. 
 ⟮c:7;An UI⟯ that ⟮c:8;is part of a game world itself⟯ would be ⟮c:9;an (intra)diegetic UI⟯ 
-<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">
+
+[[[<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">]]]
 Besides the meaning ⟮c:10;of inside/outside of a text⟯, ⟮c:11;diegesis/diegetic⟯ refers to ⟮c:12;narration (as opposed to mimesis⟯) 
 
 ### intent
@@ -920,7 +921,8 @@ term|definition
 
 ### cardinal directions & compasses
 
-<img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">
+
+[[[<img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">]]]
 <img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c:1;compass rose⟯ can be found on ⟮c:2;pretty much any compass⟯ and on ⟮c:3;many maps⟯. 
 The ⟮c:4;compas rose⟯ indicates ⟮c:5;where the cardinal directions are⟯, ⟮c:6;in relation to⟯ ⟮c:7;the thing on which it appears⟯. 
 The ⟮c:8;four⟯ ⟮c:10;main directions⟯, ⟮c:9;90 deg⟯ apart, that a compass rose has are ⟮c:11;the cardinal directions⟯. 
@@ -2594,7 +2596,8 @@ Image|Name of movement
 
 ##### back
 
-<img src="sm_muscles_back.jpg">
+
+[[[<img src="sm_muscles_back.jpg">]]]
 
 No.|Name
 ⟮c:1;11⟯|⟮c:2;erector spinae⟯
@@ -2616,7 +2619,8 @@ No.|Name
 
 #### flexion & extension
 
-<img src="800px-FlexsionExtension2017.jpeg">
+
+[[[<img src="800px-FlexsionExtension2017.jpeg">]]]
 
 ⟮c:1;Flexion⟯ is ⟮c:4;movement⟯ that ⟮c:2;decreases the angle between⟯ ⟮c:3;things connecting at a joint (or similar point⟯).
 When a person is sitting down, the ⟮c:5;knees⟯ are ⟮c:6;flexed⟯.
@@ -3911,7 +3915,8 @@ What normally ⟮c:6;prevents us from just pushing all pins completely above the
 
 ⟮h:1;<img src="sm_200px-Pin_tumbler_bypass.svg.png">⟯
 ⟮h:1;<img src="sm_How-a-Lock-Works-Animation.gif">⟯
-<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
+
+[[[<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">]]]
 
 <img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c:1;shear line⟯ is ⟮c:2;the gap between⟯ ⟮c:3;the casing⟯ and ⟮c:3;the plug⟯ 
 ⟮c:4;the driver pins⟯ are the pins that ⟮c:5;the springs are directly contactin⟯g 
@@ -3931,7 +3936,8 @@ The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs�
 
 ## manufacturing tolerances
 
-<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">
+
+[[[<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">]]]
 ⟮h:all;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c:4;not be pickable⟯ if not for ⟮c:5;manufacturing tolerances⟯. 
 The reason that ⟮c:6;not all pins bind⟯ once you ⟮c:7;apply rotational tension⟯ is tha⟮c:8;t the holes are ever-so-slightly off-center⟯. 
 The pin that will ⟮c:1;bind here first⟯ if we ⟮c:2;rotate in the upwards direction⟯ is ⟮c:3;the second or the fourth pin.⟯ 

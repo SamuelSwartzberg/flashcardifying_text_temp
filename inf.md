@@ -1106,7 +1106,8 @@ A nested statement is a statement that can be used inside a conditional group ru
 A conditional group rules is a CSS at-rule that associates a condition with a group of other CSS rules.
 The commmon conditional group at rules are @media and @supports.
 
-<img src="sm_tmpyk7c4jes.png">
+
+[[[<img src="sm_tmpyk7c4jes.png">]]]
 
 style as a HTML attribute takes n declarations
 
@@ -1916,7 +1917,8 @@ To construct a bezier function, one connect the points until one has only a curv
 To construct a linear bezier function, connect P0 and P1. You're done (it's a straight line).
 To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> from 0 to 1. This point describes the quadratic bezier curve.
 
-<img src="sm_ZS4fP%20(1).png">
+
+[[[<img src="sm_ZS4fP%20(1).png">]]]
 <img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
 
 To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
@@ -2034,7 +2036,8 @@ For <position>, a keyword followed by a value specifies the offset from the keyw
 For <position>, if specifying two keywords or two keywords with values each, the order doesn't matter.
 The value described by <position> need not be inside the elements box.
 
-<img src="sm_position_value.png">
+
+[[[<img src="sm_position_value.png">]]]
 
 ###### <image>
 
@@ -2253,7 +2256,8 @@ page-pseudo-class ::= :first|:blank|:left|:right
 page-body :: <page-declaration>;|<margin-at-rule>
 currently supported properties for the page declaration are margins, orphans, widows and break
 margin-at-rule = @<margin-at-rule-name><declaration-block>
-<img src="page_margin_at_rules.png">
+
+[[[<img src="page_margin_at_rules.png">]]]
 
 ##### @counter-style
 
@@ -2438,7 +2442,8 @@ The direction property as well as HTM:s dir attribute controls the inline base d
 By default, block-level elements are 100% width of the inline base direction axis.
 block-level elements can have their height and width set manually, while inline-level elements
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
-<img src="sm_inline_margins.png">
+
+[[[<img src="sm_inline_margins.png">]]]
 Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
 inline-level elements and text runs are handled via an inline formatting context using line boxes.
 Whenever the browser encounters inline elements wiwthin a block container, it creates a new root inline box which establishes an inline formatting context.
@@ -2450,7 +2455,8 @@ If the browser encounters a block-level element while creating line boxes, it st
 line-height sets the minimum height of a line box.
 line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
-<img src="sm_line_height_overflow.png">
+
+[[[<img src="sm_line_height_overflow.png">]]]
 The dominant baseline is the one that is used to align inline text, and may be automatically determined or manually specified with the as-yet unimplemented dominant-baseline
 
 if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
@@ -3494,7 +3500,8 @@ mac|cmd+tab|applications
 
 ####### hamburger 
 
-<img src="hamburger-menu-definition.png">
+[[[<img src="hamburger-menu-definition.png">]]]
+
 A hamburger menu is a menu triggered by a hamburger button.
 A hamburger menu generally comes out from the side, contains a a list of navigation options, and covers between 70% - 100% of the screen
 A hamburger button is a three-line icon that contains 
@@ -3514,6 +3521,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 ###### status bar
 
 [[[⟮h:all;<img src="sb-paint.png">⟯⟮h:all;<img src="460px-Emacs_statusline.png">⟯⟮h:all;<img src="Gedit_3.11.92.png">⟯⟮h:all;<img src="StatusBar_Light.png">⟯⟮h:all;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯]]]
+
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
 On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. 
@@ -3521,7 +3529,8 @@ A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;s
 
 ###### taskbar
 
-⟮h:all;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h:all;<img src="Windows_10_Taskbar.PNG">⟯⟮h:all;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h:all;<img src="1024px-Plasma_5.20_Taskbar.png">⟯
+[[[⟮h:all;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h:all;<img src="Windows_10_Taskbar.PNG">⟯⟮h:all;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h:all;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
+
 ⟮c:12;The above⟯ are all examples of ⟮c:11;taskbars⟯. 
 §§ A ⟮c:1;taskbar⟯ is a GUI element that typically shows ⟮c:2;which programs are open⟯, and allows ⟮c:3;pinning programs or other things for quick access⟯. 
 A taskbar generally positioned ⟮c:4;as a strip along the edge of a screen⟯. 
@@ -3530,11 +3539,11 @@ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a 
 
 ###### activity bar (vscode)
 
-⟮h:all;<img class="c2-f c1-b" src="sm_toggle_side_bar.gif">⟯
+[[[⟮h:all;<img src="sm_toggle_side_bar.gif">⟯]]]
 
 VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;((c:13;::5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯)). 
 
-⟮h:all;uh:1-10;<img class="all-f" src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
+[[[⟮h:all;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
 
 nth icon in activity bar|Purpose
 ⟮c:1;1st icon⟯|⟮c:2;FIile explorer⟯
@@ -3547,7 +3556,8 @@ nth icon in activity bar|Purpose
 
 ##### breadcrumbs
 
-<img src="sm_2021-06-26--14-46-16-screenshot.png">
+
+[[[<img src="sm_2021-06-26--14-46-16-screenshot.png">]]]
 A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
 A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
@@ -3839,7 +3849,8 @@ transparency/opacity|visibility
 ⟮h:all;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">⟯⟮h:all;<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">⟯⟮h:all;<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">⟯⟮h:all;<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
 It is often said (esp. in animation) that ⟮c:2;good characters⟯ should ⟮c:3;be recognizable by⟯ ⟮c:1;their silhouette alone⟯ 
 
-<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">
+
+[[[<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">]]]
 ⟮h:all;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
 <img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>{{c1::Negative space}} is {{c2::the area without subjects/areas of focus}}
 {{c3::Positive space}} is {{c4::the area with subjects/areas of focus}}
@@ -4084,7 +4095,8 @@ in a HDD, the head is mere nanometers from the platter.
 ⟮h:1;<img src="sm_250px-Samsung_Harddrive_headcrash_DSCN0124b.jpg">⟯
 A head crash is the head of a HDD making contact with its rotating platter, slashing the surface and causing disk damage/failure.
 Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
-<img src="sm_hdd_w_labels.svg">
+
+[[[<img src="sm_hdd_w_labels.svg">]]]
 <img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
@@ -5886,9 +5898,11 @@ PNP transistor  Positive Negative Positive transistor
 for NPN transistors, applying power (at the base) allows the current to flow.
 for PNP transistors, applying negative/no power (at the base) allows the current to flow.
 For NPN BJT transistors, if you apply power to the base, it will flow to the emitter, allowing a stronger current to flow between collector and emitter.
-<img src="sm_tmpr_uvk0fj.png">
 
-<img src="sm_tmpadmp5k8t.png">
+[[[<img src="sm_tmpr_uvk0fj.png">]]]
+
+
+[[[<img src="sm_tmpadmp5k8t.png">]]]
 The three terminals in a field-effect transistor (FET) transistor are called {{c1::gate}}, {{c2::source}}, and {{c3::drain}}.
 FET  Field-effect transistor
 MOSFET   metal–oxide–semiconductor field-effect transistor
@@ -5927,7 +5941,8 @@ A stored-program computer stores data and instructions in the same way.
 The VNA implements a stored-program computer.
 VNA: CPU = CU + ALU
 In the VNA, the CPU, memory and IO are connected to/via the bus.
-<img src="sm_tmp_xpihn7q.png">
+
+[[[<img src="sm_tmp_xpihn7q.png">]]]
 In the (modern revisions of) von neumann architecture, the three buses are the {{c1::control bus}}, the {{c2::address bus}}, and the {{c3::data bus}}
 Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
 
@@ -6122,7 +6137,8 @@ DDR  Double data rate
 
 ### chipset
 
-<img src="sm_chipset.svg">
+
+[[[<img src="sm_chipset.svg">]]]
 The chipset is responsible for data flow between the processor, memory and other components
 In the past, the northbridge and southbridge made up the chipset.
 The northbridge controlled/connected the faster components such as the CPU, memory, PCIe.
@@ -6278,18 +6294,21 @@ The caesar cipher is a kind of substitution cipher where the replacement is done
 
 Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
 
-<img src="sm_tmp51mx5j9z.png">
+
+[[[<img src="sm_tmp51mx5j9z.png">]]]
 ⟮c:1;Symmetric key encryption⟯ is ⟮c:2;where both parties have the same key⟯. 
 ⟮c:3;In symmetric key encryption⟯, ⟮c:4;one party encrypts the data⟯, ⟮c:5;sends the cyphertext along⟯, and then the other party ⟮c:6;decrypts the data using the same key⟯. 
 The difficulty of ⟮c:7;symmetric key encryption⟯ is that ⟮c:8;you need to exchange the key securely, which is difficult.⟯ 
 
-<img src="sm_tmp424stpwy.png">
+
+[[[<img src="sm_tmp424stpwy.png">]]]
 ⟮c:9;In public key cryptography⟯ aka ⟮c:10;asymmetric cryptography⟯, ⟮c:12;both parties⟯ have ⟮c:11;two keys⟯, ⟮c:11;a public⟯ and ⟮c:11;a private key⟯. 
 In ⟮c:13;public key cryptography⟯, ⟮c:14;you publish⟯ ⟮c:15;your public key⟯ ⟮c:14;widely⟯, and ⟮c:14;keep⟯ ⟮c:15;your private key⟯ ⟮c:14;secret⟯. 
 If you want to ⟮c:16;encrypt a message⟯ in ⟮c:17;public key cryptogrpahy⟯, you ⟮c:18;apply your targets public key to it⟯. 
 If you want to ⟮c:19;decrypt a message⟯ sent to you ⟮c:20;via public key cryptography⟯ (which we assume ⟮c:21;has been encrypted with your public key⟯), you ⟮c:22;apply your private key to it.⟯ 
 
-<img src="1200px-Private_key_signing.svg.png">
+
+[[[<img src="1200px-Private_key_signing.svg.png">]]]
 For ⟮c:23;digital signing⟯, ⟮c:25;you⟯ ⟮c:24;encrypt it with your private key⟯. ⟮c:25;The recipient⟯ ⟮c:24;decrypts it with your public key.⟯ This proves ⟮c:26;that the message is from you⟯, since only ⟮c:27;your public key can decrypt things encrypted with your private key⟯. 
 
 ### random numbers
@@ -6322,7 +6341,8 @@ Delimiter/terminater-based code injection uses delimiters, e.g. of strings or si
 
 #### MITM
 
-<img src="sm_mitm_illus.svg">
+
+[[[<img src="sm_mitm_illus.svg">]]]
 A  {{c1::man-in-the-middle}} attack is when an attacker {{c2::inserts themseves}} into the {{c3::communication}} between {{c3::two parties}} believing {{c4::to be talking to each other directly}}.
 
 ##### key exchange
@@ -6857,7 +6877,8 @@ the tty command tells us which device file is implementing the current terminal
 
 ##### terminal architecture
 
-<img src="file://~/Downloads/terminalsys.svg">
+
+[[[<img src="file://~/Downloads/terminalsys.svg">]]]
 
 A physical terminal is connected via cables to an UART driver.
 screen, keyboard etc. are connected via drivers to a virtual terminal (not a window).
@@ -8652,7 +8673,8 @@ The permissions to be granted or not in OAuth are known as scopes.
 While the flow of OAuth using redirection etc. is the most common flow, there are others
 
 OAuth 2.0 (grant type: Authorization code)
-<img src="tmp7t5et6aw.png" />
+
+[[[<img src="tmp7t5et6aw.png" />]]]
 
 TODO transorm flow into ascii art maybe
 
@@ -10239,7 +10261,8 @@ Rust collections (as in non-primitve collections) are stored on the heap and are
 Random access might be clearer if it was called direct access.
 Random access allows access to arbitrary elements at will.
 Sequential access only allows access in a certain sort of order.
-<img src="sm_rand_seq_acc.svg">
+
+[[[<img src="sm_rand_seq_acc.svg">]]]
 book|random access (to pages)
 scroll|sequential access
 
@@ -10561,11 +10584,13 @@ Lists/Sequences are an abstract data type (specifically a collection), in which 
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
-<img src="sm_408px-Singly-linked-list.svg.png">
+
+[[[<img src="sm_408px-Singly-linked-list.svg.png">]]]
 A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
 To access a linked list, we merely need a reference to the first element.
 A linked list in which the only node/vertex is a reference to the next element is a singly-linked list
-<img src="sm_doubly_linked_list.svg">
+
+[[[<img src="sm_doubly_linked_list.svg">]]]
 A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
@@ -10593,7 +10618,8 @@ A stack is a linear collection ADT with LIFO order, and the operations:
 push: add to the top of the stack
 pop: remove from top of the stack
 peek: loop at top of stack
-<img src="sm_Data_stack.svg">
+
+[[[<img src="sm_Data_stack.svg">]]]
 
 ##### Queue
 
@@ -10602,7 +10628,8 @@ A stack is a linear collection ADT with FIFO order, and the operations:
 enqueue: add to the end of the queue
 dequeue: remove from the front of the queue
 peek: look a the next element that would be dequeued
-<img src="sm_450px-Data_Queue.svg.png">
+
+[[[<img src="sm_450px-Data_Queue.svg.png">]]]
 
 ### intersection of iterators, strings, linear collections
 
@@ -12881,7 +12908,8 @@ a deterministic algorithim/callable unit will, given a particular input {{c1::al
 
 ##### binary
 
-<img src="sm_1280px-Binary_Search_Depiction.svg.png">
+
+[[[<img src="sm_1280px-Binary_Search_Depiction.svg.png">]]]
 ⟮c:1;Binary search⟯ 
 ```
 ⟮c:2;take middle element⟯ 
@@ -12897,7 +12925,8 @@ A sorting algorithm is an algorithm that sorts a linear collection.
 
 ##### bubble
 
-<img src="sm_Bubble-sort-example-300px.gif">
+
+[[[<img src="sm_Bubble-sort-example-300px.gif">]]]
 Bubble sort is called that because the largest elements will bubble to the right in a single pass.
 while true:
   for all elements in the list: 
@@ -13397,7 +13426,8 @@ UML is a general modelling language most commonly used in the field of software 
 #### class
 
 An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
-<img src="sm_220px-BankAccount1.svg.jpg">
+
+[[[<img src="sm_220px-BankAccount1.svg.jpg">]]]
 
 #### sequence
 
@@ -13416,7 +13446,8 @@ Answer messages   dashed arrows
 
 #### object
 
-<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
+
+[[[<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">]]]
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
 
 ## automation
