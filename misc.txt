@@ -84,8 +84,6 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
 ⟮c:15;Tertiary sector⟯|⟮c:16;Production of services⟯
 ⟮c:17;Quarternar sector⟯|⟮c:18;Production of knowledge⟯|not part of official model
 
-  </tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
   <thead>|
@@ -94,8 +92,7 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
 ⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯
 ⟮c:3;A society dominated in economic output by the primary sector⟯|⟮c:4;Pre-industrial/agrarian (more rarely agricultural) society⟯
 ⟮c:5;A society dominated in economic output by the tertiary sector⟯|⟮c:6;Post-industrial society⟯
-  </tbody>
-</table>
+
 
 According to {{c9::the three-sector model}} of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}
 
@@ -131,8 +128,7 @@ Commodity is a term with three competing definitions:
 ⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:all;wheat, petroleum, copper, rice, but not handmade bracelets⟯
 ⟮c:5;commodity⟯|⟮c:6;marxism⟯|⟮c:7;something with both use and exchange value⟯
 ⟮c:8;commodity⟯|⟮c:9;casual usage⟯|⟮c:10;any kind of market good⟯
-  </tbody>
-</table>
+
 From these definitions, ⟮c:11;commodification/commoditization⟯ may refer to ⟮c:12;any of the three definitions of commodity (economics, marxism, casual usage⟯)
 
 #### fungibility
@@ -183,8 +179,6 @@ The precise value of a ⟮c:8;network effect⟯ is often stated in terms of ⟮c
       <td>⟮c:1;s:1-4;private good⟯|⟮c:4;s:1-4;common(-pool) good⟯⟮c:6;non-rivalrous⟯</th>
       <td>⟮c:2;s:1-4;club/toll good⟯|⟮c:3;s:1-4;public good⟯
 
-  </tbody>
-</table>
 
 ###### common pool resources
 
@@ -270,8 +264,6 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 ⟮c:5;Generation Z⟯|⟮c:6;~1995⟯|⟮c:6;~2010⟯|⟮c:9;s:all;Zoomers⟯
 ⟮c:7;Generation α⟯|⟮c:8;~2010⟯|⟮s:8;???⟯
 
-  </tbody>
-</table>
 
 
 ### birth rate/fertility
@@ -308,8 +300,6 @@ Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement ra
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Japan⟯|⟮c:2;~1.4⟯
 ⟮c:3;Korea⟯|⟮c:4;~0.9⟯
 
-  </tbody>
-</table>
 
 #### japan
 
@@ -323,8 +313,6 @@ In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;1990⟯|⟮c:2;s:3;26⟯|⟮c:3;s:2;27⟯
 ⟮c:4;2008⟯|⟮c:5;s:6;30⟯|⟮c:6;s:5;30⟯
 
-  </tbody>
-</table>
 
 ### dependency
 
@@ -370,8 +358,7 @@ To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible feat
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;natural form⟯|⟮c:12;use value⟯|⟮c:13;actual tangible form (the actual physical form, e.g. cloth, iron, etc.⟯)
 ⟮c:8;value form⟯|⟮c:9;exchange value⟯|⟮c:10;a good in relation to different commodities (e.g. 20 yards of linen = 1 coat⟯)
-  </tbody>
-</table>
+
 
 ## areas
 
@@ -549,8 +536,7 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 ⟮c:13;fic⟯|⟮c:14;fanfiction⟯
 ⟮c:15;fanfic⟯|⟮c:16;fanfiction⟯
 ⟮c:17;stan⟯|⟮c:18;an exteremly obsessive fan, to act as such⟯
-  </tbody>
-</table>
+
 
 ### canon
 
@@ -598,8 +584,7 @@ For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is
 ⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯
 ⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯
 ⟮c:9;hermeneutic circle⟯|⟮c:10;Schleiermacher⟯|⟮c:11;part of the text⟯|⟮c:12;the whole text⟯
-  </tbody>
-</table>
+
 
 ### narrative
 
@@ -642,8 +627,7 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 ⟮c:3;a good guy character in wrestling⟯|⟮c:4;a (baby) face⟯
 ⟮c:5;a bad guy turning good⟯|⟮c:6;heel(-face) turn⟯
 ⟮c:7;a good guy turning bad⟯|⟮c:8;face(-heel) turn⟯
-  </tbody>
-</table>
+
 
 ## textual
 
@@ -655,8 +639,7 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯
 ⟮c:3;RPG⟯|⟮c:4;Role-playing game⟯
-  </tbody>
-</table>
+
 
 
 ### novels
@@ -730,8 +713,6 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
 ⟮c:3;Tetrameter⟯|⟮c:4;4⟯
 ⟮c:5;Pentameter⟯|⟮c:6;5⟯
 
-  </tbody>
-</table>
 
 ###### type of feet
 
@@ -760,8 +741,6 @@ Twas the <b>night</b> before <b>Christ</b>mas and <b>all</b> through the <b>hous
 ⟮c:13;Amphibrach⟯|⟮c:14;da DA da⟯|class=all-hide;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
 "There <b>once</b> was / a <b>girl</b> from / Nan<b>tuc</b>ket."
 
-  </tbody>
-</table>
 
 ### drama
 
@@ -880,8 +859,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:5;*foo*⟯|⟮c:6;italics⟯
 ⟮c:7;&gt; foo &lt;⟯|⟮c:8;centered⟯
 ⟮c:9;three or more =⟯|⟮c:10;page break⟯
-    </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>Syntactic construct|function
@@ -893,8 +871,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:15;&gt; foo⟯|⟮c:16;force a transition⟯
 ⟮c:17;.foo⟯|⟮c:18;force scene heading⟯
 ⟮c:19;!foo⟯|⟮c:20;force action text⟯
-    </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>Syntactic construct|function
@@ -903,8 +880,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:21;[[foo]]⟯|⟮c:22;a note⟯
 ⟮c:23;/*foo*/⟯|⟮c:24;a comment⟯
-    </tbody>
-</table>
+
 
 ####### whitespace
 
@@ -959,8 +935,7 @@ Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)
 ⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯
-  </tbody>
-</table>
+
 
 
 #### kinship
@@ -977,8 +952,6 @@ The ⟮c:8;terminology we use to describe⟯ ⟮c:9;kinship relationships⟯ is 
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Endogamy⟯|⟮c:2;The social norm/custom of⟯ ⟮c:3;marrying within one's social group (whatever we define this as⟯)
 ⟮c:4;Exogamy⟯|⟮c:5;The social norm/custom of⟯ ⟮c:6;marrying outside of one's social group (whatever we define this as⟯)
 
-  </tbody>
-</table>
 
 Terms such as ⟮c:12;matri/uxori/patri/viri/neolocal⟯ describe where ⟮c:13;a newly married couple⟯ resides.
 <table class="cloze-group hide-if-inactive">
@@ -989,8 +962,6 @@ Terms such as ⟮c:12;matri/uxori/patri/viri/neolocal⟯ describe where ⟮c:13;
 ⟮c:5;s:6;Patrilocal⟯|⟮c:6;s:5;Virilocal⟯|Newly married couple ⟮c:7;resides with or near⟯⟮c:8;the wifes parents⟯
 ⟮c:9;Neolocal⟯||Newly married couple ⟮c:10;resides apart from⟯⟮c:11;either family⟯
 
-  </tbody>
-</table>
 
 ### approaches
 
@@ -1010,8 +981,7 @@ In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness 
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Toponym⟯|⟮c:2;A name for a place⟯
-  </tbody>
-</table>
+
 
 ## tools
 
@@ -1040,8 +1010,6 @@ compass rose
 ⟮c:2;s:all;N⟯||⟮c:3;s:all;E⟯
 |⟮c:4;s:all;S⟯|
 
-  </tbody>
-</table>
 
 ### GIS
 
@@ -1219,8 +1187,7 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 ⟮c:181;United States of America⟯|⟮c:182;Washington, D.C.⟯
 ⟮c:183;New Zealand⟯|⟮c:184;Wellington⟯
 ⟮c:185;Croatia⟯|⟮c:186;Zagreb⟯
-  </tbody>
-</table>
+
 
 ##### national flags
 
@@ -1307,8 +1274,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 ⟮c:79;<img src="sm_Uruguay.png">⟯|⟮c:159;Uruguay⟯
 ⟮c:80;<img src="sm_Vietnam.png">⟯|⟮c:160;Vietnam⟯
 
-  </tbody>
-</table>
 
 ### geographical representation
 
@@ -1374,8 +1339,7 @@ The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis
 ⟮c:8,11;moyenne durée⟯|⟮c:9;s:10-11;multiple years or decades⟯|⟮c:10;s:8-9;The great depression⟯
 ⟮c:11,15-17;événement⟯|⟮c:12;s:13-17;hours, days, weeks⟯|⟮c:13;s:12-17;A coup or new law⟯|⟮c:14;s:12-17;Ereignisgesichichte⟯</td>  
 </tr> 
-  </tbody>
-</table>
+
 
 ## periodization
 
@@ -1389,8 +1353,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;long 19th century⟯|⟮c:2;french revolution 1989⟯|⟮c:3;world war 1 1914⟯
 ⟮c:4;short 20th century⟯|⟮c:5;world war 1 1914⟯|⟮c:6;dissolution of the soviet union ~1990⟯
-  </tbody>
-</table>
+
 
 
 ### periods
@@ -1402,8 +1365,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;The early modern period⟯|⟮c:2;1450-1500⟯|⟮c:3;the french revolution 1789⟯
-  </tbody>
-</table>
+
 
 
 ## dates
@@ -1414,8 +1376,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;French Revolution (begin⟯)|⟮c:2;1789⟯
 ⟮c:3;Fall of Constantinople⟯|⟮c:4;1453⟯
-  </tbody>
-</table>
+
 
 
 ## history of <location>
@@ -1431,8 +1392,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Western Han⟯|⟮c:2;200BC⟯|⟮c:2;0⟯
 ⟮c:3;Eastern Han⟯|⟮c:4;0⟯|⟮c:4;200AD⟯
 
-  </tbody>
-</table>
 
 
 ### Japan
@@ -1446,8 +1405,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 ⟮c:1;Asuka⟯|⟮c:2;550⟯|⟮c:3;700⟯
 ⟮c:4;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代⟯|⟮c:5;700⟯|⟮c:6;800⟯
 ⟮c:7;平安時代⟯|⟮c:8;800⟯|⟮c:9;1200⟯
-  </tbody>
-</table>
+
 
 In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c:3;平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
 
@@ -1467,8 +1425,6 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
 ⟮c:7;平成⟯|⟮c:8;1989⟯|⟮c:8;2019⟯
 ⟮c:9;令和⟯|⟮c:10;2019⟯|???
 
-  </tbody>
-</table>
 
 ##### politics
 
@@ -1483,8 +1439,7 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯
 ⟮c:4;later⟯|⟮c:5;s:6;end of the 2000s (2009⟯)|⟮c:6;s:5;2012⟯
-  </tbody>
-</table>
+
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}</span><br><div class="sub">
 <div class="sub all-b">
 more precisely since the 50s if we're talking specifically about the LDP, but the late 40s was its predecessors
@@ -1591,8 +1546,6 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Civil War⟯|⟮c:2;1861⟯|⟮c:2;1865⟯
 ⟮c:3;Reconstruction⟯|⟮c:4;1865⟯|⟮c:4;1877⟯
 
-  </tbody>
-</table>
 
 
 ## history of <person>
@@ -1710,8 +1663,7 @@ The ⟮c:8;Rinnsteine⟯ were supposed to move the waste into ⟮c:9;the spree�
 ⟮c:1;1830⟯|⟮c:2;squarter million⟯
 ⟮c:3;1850⟯|⟮c:4;shalf million⟯
 ⟮c:5;1877⟯|⟮c:6;one million⟯
-  </tbody>
-</table>
+
 
 ### socialism
 
@@ -1797,8 +1749,7 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Urteil a posteriori⟯|⟮c:2;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c:3;Urteil a priori⟯|⟮c:4;Ein Urteil ohne die Basis der Erfahrung⟯
-  </tbody>
-</table>
+
 
 
 #### Kant
@@ -1820,19 +1771,13 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 ⟮c:9;s:all;Physik (der Natur⟯)|⟮c:10;s:all;Metaphysik (der Natur⟯)|⟮c:11;s:all;praktische Anthropologie⟯</td>
               <td style="background-color: palegreen;">⟮c:12;s:all;Methaphysik der Sitten = Moral⟯
 
-          </tbody>
-        </table>
       </td>
       <td style="vertical-align: top">
         <table class="cloze-group hide-if-inactive">
           <tbody>⟮c:13;s:all; Logik ⟯
 ⟮c:14;s:all; essenziell nicht-empirisch = a priori, rein ⟯
 
-          </tbody>
-        </table>
 
-  </tbody>
-</table>
 
 # myth
 
@@ -1860,8 +1805,7 @@ The ⟮c:31;monomyth⟯ may also be called ⟮c:32;the Hero's Journey⟯. The sh
 ⟮c:18;The Crossing of the Return Threshold⟯
 ⟮c:19;Master of the Two Worlds⟯
 ⟮c:20;Freedom to Live⟯
-  </tbody>
-</table>
+
 Campbell divides the monomyth into these parts (chronologically):
 
 ## structuralism
@@ -1881,8 +1825,7 @@ Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ �
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Mythical thought⟯|⟮c:2;Hypercausal (Everything must have a definite cause⟯)|⟮c:3;Bricolage⟯|⟮c:4;uses whatever is at hand⟯|⟮c:5;uses signs (which are limited⟯)|⟮c:6;creates structures⟯
 ⟮c:7;Scientific thought⟯|⟮c:8;Causal, but can accept uncertainty⟯|⟮c:9;Engineer⟯|⟮c:10;uses (within limit) the things it needs as materials⟯|⟮c:11;uses concepts (which can go beyond preexisting ideas⟯)|⟮c:12;creates changes in the world⟯
-  </tbody>
-</table>
+
 
 The fact that ⟮c:21;a granary killing a person⟯ is ⟮c:22;not explained by chance + granary being unstable⟯ but by ⟮c:23;witchcraft + granary being unstable⟯ is for CLS an example of ⟮c:24;the hyperneed for causality⟯ in ⟮c:25;mythical thought⟯ 
 According to ⟮c:26;CLS⟯, in ⟮c:27;mythical thought⟯ ⟮c:28;intellectual drive⟯ leads to ⟮c:29;more categorization/discovery⟯, and ⟮c:30;need for causality⟯ makes these '⟮c:31;do something⟯' 
@@ -1940,8 +1883,7 @@ In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a commun
 ⟮c:1;First-wave feminism⟯|⟮c:2;s:3;end of the 19th / beginning of the 20th century⟯|⟮c:2;s:3;women's suffrage⟯
 ⟮c:4;second-wave feminism⟯|⟮c:5;1960s-1980s⟯
 ⟮c:6;third-wave feminism⟯|⟮c:7;1990s-2000s (some authors) or 1990 - today (other authors⟯)
-  </tbody>
-</table>
+
 
 #### narration
 
@@ -2009,8 +1951,7 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 ⟮c:7;Liebe Mitarbeiterinnen und Mitarbeiter⟯|⟮c:8;Beidnennung / Doppelnennung⟯
 ⟮c:9;Mitarbeiter(innen⟯)|⟮c:10;(mit) Klammer⟯
 ⟮c:11;Mitarbeiter/innen⟯|⟮c:12;(mit) Schrägstrich⟯
-  </tbody>
-</table>
+
 ⟮c:13;gender-sternchen⟯ and the ⟮c:13;gender-gap⟯ are mostly read ⟮c:14;with a glottal stop⟯ 
 
 ## trans
@@ -2075,8 +2016,7 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;vascular⟯|⟮c:2;related to the flow of fluds⟯
-  </tbody>
-</table>
+
 
 ## nutrition
 
@@ -2093,8 +2033,6 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;EAR⟯|⟮c:2;Estimated Average Requirement⟯
 ⟮c:3;RDA⟯|⟮c:4;Recommended Dietary Allowance⟯
 
-  </tbody>
-</table>
 government organizations do not necessarily ⟮c:1;always agree⟯ on the ⟮c:2;amounts of nutrients⟯ needed to ⟮c:3;avoid deficiency⟯ or ⟮c:4;maximum amounts⟯ (however, ⟮c:5;the ballpark is often similar⟯ 
 ⟮c:6;RDAs⟯ are set higher than ⟮c:7;EARs⟯ to ⟮c:8;cover people with / situations where people have higher than average needs⟯. 
 ⟮c:9;chromium⟯ is designated an ⟮c:10;essential nutrient⟯ by the ⟮c:11;US⟯ and ⟮c:12;Japan⟯, but not the ⟮c:13;EU⟯ 
@@ -2122,8 +2060,7 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A nutrient we require small amounts of⟯|⟮c:2;a micronutrient⟯
 ⟮c:3;A nutrient we require large amounts of⟯|⟮c:4;a macronutrient⟯
-  </tbody>
-</table>
+
 ⟮c:6;Macronutrient⟯ is sometimes used in the more ⟮c:5;restricted⟯ sense  ⟮c:7;macronutrient that provides energy⟯ 
 
 <table class="cloze-group hide-if-inactive">
@@ -2135,16 +2072,10 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
                 <table class="cloze-group hide-if-inactive">
                   <tbody>⟮c:5;Water⟯|⟮c:6;Fiber⟯
 
-                  </tbody>
-                </table>
               |<table class="cloze-group hide-if-inactive">
                   <tbody>⟮c:7;Alcohol⟯|⟮c:8;Fat⟯|⟮c:9;Carbohydrates⟯|⟮c:10;Protein⟯
 
-                  </tbody>
-                </table>
 
-          </tbody>
-        </table>
       |
         <table class="cloze-group hide-if-inactive">
           <tbody>⟮c:11;Minerals⟯|⟮c:12;Vitamins⟯
@@ -2152,8 +2083,6 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
                 <table class="cloze-group hide-if-inactive">
                   <tbody>⟮c:13;Macrominerals⟯|⟮c:14;Trace minerals⟯|⟮c:15;Ultratrace minerals⟯
 
-                  </tbody>
-                </table>
               |
                 <table class="cloze-group hide-if-inactive">
                   <tbody>⟮c:16;Fat-soluble⟯|⟮c:17;Water-soluble⟯
@@ -2161,25 +2090,15 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
                         <table class="cloze-group hide-if-inactive">
                           <tbody>⟮c:18;A⟯|⟮c:19;D⟯|⟮c:20;E⟯|⟮c:21;K⟯
 
-                          </tbody>
-                        </table>
                       |
                         <table class="cloze-group hide-if-inactive">
                           <tbody>
                                 ⟮c:22;the 8 B vitamins⟯
                               |⟮c:23;C⟯
 
-                          </tbody>
-                        </table>
 
-                  </tbody>
-                </table>
 
-          </tbody>
-        </table>
 
-  </tbody>
-</table>
 
 #### macro
 
@@ -2238,8 +2157,7 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 ⟮c:6;omega-6⟯|fatty acids are|⟮c:7;polyunsaturated⟯|fatty acids characterized by a|⟮c:8;C=C double bond⟯|⟮c:9;6 atoms⟯| away from ⟮c:10;the terminal methyl group⟯
 ⟮c:11;omega-7⟯|fatty acids are|⟮c:12;monounsaturated⟯|fatty acids characterized by a|⟮c:13;C=C double bond⟯|⟮c:14;7 atoms⟯| away from ⟮c:15;the terminal methyl group⟯
 ⟮c:16;omega-9⟯|fatty acids are|⟮c:17;monounsaturated⟯|fatty acids characterized by a|⟮c:18;C=C double bond⟯|⟮c:19;9 atoms⟯| away from ⟮c:20;the terminal methyl group⟯
-  </tbody>
-</table>
+
 <style>table{white-space: pre}</style>
 
 ######### omega-3
@@ -2257,8 +2175,7 @@ Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} an
 ⟮c:1;α-linolenic acid ⟯|⟮c:2;ALA⟯
 ⟮c:3;eicosapentaenoic acid⟯|⟮c:4;EPA⟯
 ⟮c:5;docosahexaenoic acid⟯|⟮c:6;DHA⟯
-  </tbody>
-</table>
+
 
 
 Major {{c22::vegan}} sources of {{c23::ALA}}: are various form of {{c24::seeds}} and {{c24::nuts}}
@@ -2298,8 +2215,7 @@ In general, ⟮c:31;excess intake⟯ of vitamins is ⟮c:32;unlikely⟯ from ⟮
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Vitamin C⟯|⟮c:2;Ascorbic acid⟯
-  </tbody>
-</table>
+
 
 ###### vitamin D
 
@@ -2331,8 +2247,7 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 ⟮c:10;10⟯|⟮c:22;doesn't exist⟯
 ⟮c:11;11⟯|⟮c:23;Doesn't exist⟯
 ⟮c:12;12⟯|⟮c:24;Cobalamin⟯
-</tbody>
-</table>
+
 
 ##### minerals
 
@@ -2348,8 +2263,7 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
 ⟮c:21;Macrominerals⟯|⟮c:22;RDA &gt; 150-200mg/day⟯
 ⟮c:23;Trace minerals⟯|⟮c:24;RDA &gt; 150-200mg/day⟯
 ⟮c:25;ultratrace minerals⟯|⟮c:26;RDA of μg/day⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>
@@ -2359,8 +2273,7 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
     <tr><th colspan="5">⟮c:1;Macrominerals⟯</th> <th colspan="11">⟮c:2;trace minerals⟯|⟮c:3;ultratrace minerals⟯
 
 ⟮c:4;calcium⟯|⟮c:5;magnesium⟯|⟮c:6;phosophorus⟯|⟮c:7;potassium⟯|⟮c:8;sodium⟯|⟮c:9;   chlorine⟯|⟮c:10;(chromium⟯)|⟮c:11;cobalt⟯|⟮c:12;copper⟯|⟮c:13;iodine⟯|⟮c:14;iron⟯|⟮c:15;manganese⟯|⟮c:16;molybdenum⟯|⟮c:17;selenium⟯|⟮c:18;sulfur⟯|⟮c:19;zinc⟯|⟮c:20;  unclear⟯
-  </tbody>
-</table>
+
 
 ⟮c:39;Calcium⟯ most famously exists in ⟮c:38;dairy⟯, but ⟮c:40;also in other things.⟯ 
 
@@ -2391,8 +2304,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;grünkohl⟯|⟮c:2;kale⟯
 ⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯
-  </tbody>
-</table>
+
 
 #### seeds
 
@@ -2415,8 +2327,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 ⟮c:6;barley⟯|⟮c:7;gerste⟯
 ⟮c:8;oat⟯|⟮c:9;hafer⟯
 ⟮c:10;millet⟯|⟮c:3;hirse⟯
-  </tbody>
-</table>
+
 Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯. 
 <br><div class="sub">
 <div class="sub all-b">
@@ -2432,8 +2343,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯
 ⟮c:3;currant⟯|⟮c:4;Johannisbeere⟯
-  </tbody>
-</table>
+
 
 
 #### meals
@@ -2455,8 +2365,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;3⟯|⟮c:2;s:3;dorsal⟯|⟮c:3;s:2;posterior⟯
 ⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>Name|Direction
@@ -2464,8 +2373,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;dorsal⟯|⟮c:2;Towards the back (bodypart⟯)
 ⟮c:3;ventral⟯|⟮c:4;Towards the belly⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>name|image
@@ -2473,8 +2381,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;supine⟯|⟮c:2;<img src="Screenshot%202021-12-04%20at%2004.40.23.png">⟯
 ⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯
-  </tbody>
-</table>
+
 
 ⟮h:all;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯<table class="cloze-group hide-if-inactive">
   <thead>Name|Description of side of hand
@@ -2484,8 +2391,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:1;the dorsal side of the hand⟯|⟮c:2;with knuckles etc.⟯
 ⟮c:3;the palmar side of the hand⟯|⟮c:4;the one that has your palm⟯
 ⟮c:5;the ulnar side of the hand⟯|⟮c:6;the side with your pinky finger⟯
-</tbody>
-</table>
+
 
 ### regions
 
@@ -2495,8 +2401,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;28⟯|⟮c:2;femur⟯|⟮c:2;femoral⟯|⟮c:2;thigh⟯
 
-  </tbody>
-</table>
 
 ### organs
 
@@ -2529,8 +2433,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:19;16⟯|⟮c:23;epididymis⟯
 ⟮c:18;17⟯|⟮c:16;testis/testicle (synonyms⟯)|⟮c:18;balls⟯
 ⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯
-  </tbody>
-</table>
+
 <div class="flex-container">⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯</div>
 <table class="cloze-group hide-if-inactive">
   <thead>No.|Name|Common Name
@@ -2541,8 +2444,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯
 ⟮c:9;3⟯|⟮c:13;frenulum ⟯
 ⟮c:10;4⟯|⟮c:14;shaft ⟯
-  </tbody>
-</table>
+
 
 <div class="flex-container">⟮h:all;<img src="urethra_view_side_3.jpg">⟯</div>
 
@@ -2556,8 +2458,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 3|bulbar urethra
 4|penile urethra
 5|fossa navicularis
-  </tbody>
-</table>
+
 
 <div class="flex-container">⟮h:all;<img src="sm_194px-Epididymis-KDS.jpg">⟯</div>
 
@@ -2594,8 +2495,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 ⟮c:5;3⟯|⟮c:6;uterus⟯
 ⟮c:7;4⟯|⟮c:8;cervix⟯
 ⟮c:9;5⟯|⟮c:10;vagina⟯
-  </tbody>
-</table>
+
 
 ###### external
 
@@ -2622,8 +2522,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 ⟮c:4;4⟯|⟮c:10;urethra⟯
 ⟮c:5;5⟯|⟮c:11;vagina⟯
 ⟮c:6;6⟯|⟮c:12;labia majora⟯
-  </tbody>
-</table>
+
 
 ###### g-spot 
 
@@ -2644,8 +2543,7 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;Typical-use pearl index⟯|⟮c:12;pearl index including occasional mistakes etc.⟯
 ⟮c:11;perfect-use pearl index⟯|⟮c:13;pearl index under ideal usage⟯
-  </tbody>
-</table>
+
 <table class="cloze-group hide-if-inactive">
   <thead>Method of birth control|Perfect-use pearl index|Typical-use pearl index
 
@@ -2654,8 +2552,6 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 ⟮c:4;Male condom⟯|⟮c:5;~2⟯|⟮c:6;10-20⟯
 ⟮c:7;Pulling out⟯|⟮c:8;~5⟯|⟮c:9;~20⟯
 
-  </tbody>
-</table>
 
 
 #### sense
@@ -2687,8 +2583,7 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 ⟮c:33;17⟯|⟮c:34;Optic disc⟯
 ⟮c:35;18⟯|⟮c:36;Optic nerve⟯
 ⟮c:37;19⟯|⟮c:38;Retinal blood vessels⟯
-  </tbody>
-</table>
+
 
 ###### constituent parts
 
@@ -2733,8 +2628,7 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;upturned eyes⟯|⟮c:2;s:3;the outer corner is higher than the inner corner⟯|⟮c:3;h:2;<img src="sm_Screenshot%202020-07-27%20at%2015.11.11.png">⟯
 ⟮c:4;downturned eyes⟯|⟮c:5;s:6;the outer corner is at the same height as the inner corner, or lower⟯|⟮c:6;h:5;<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>name|definition|example image
@@ -2742,8 +2636,7 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:7;almond eyes⟯|⟮c:8;s:9;almost none or none of the iris is visible above your pupils⟯|⟮c:9;h:8;<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">⟯
 ⟮c:10;round eyes⟯|⟮c:11;s:12;almost all of the iris and perhaps some of the white is visible at the top⟯|⟮c:12;h:11;<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">⟯
-  </tbody>
-</table>
+
 ---
   <div class="flex-container">
   <img class="width-50" src="sm_IMG_20200727_150936661.jpg">
@@ -2760,8 +2653,7 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 ⟮c:7;(eyelid) crease⟯|⟮c:8;<img src="sm_gr15a.jpg"><img class="c1-f c2-b" src="sm_Asian-bleph-before-and-after.jpg">⟯
 ⟮c:9;multiple creases⟯|⟮c:10;<img src="sm_upper-eye12-before.jpg">⟯
 ⟮c:11;eyelid space⟯|⟮c:12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>name|definition|examples
@@ -2769,8 +2661,7 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;hooded eye⟯|⟮c:2;skin that droops on eyelids⟯|⟮c:3;<img src="sm_Screenshot%202020-07-27%20at%2015.19.06.jpg"><img src="sm_What-Are-Hooded-Eyes-800x800.jpg">⟯
 ⟮c:4;monolid⟯|⟮c:5;lack of an eyelid crease⟯|⟮c:6;<img src="sm_makeup-for-single-lid-or-monolid-or-hooded-eyes_estee-lauder-how-to-videojpg.jpg">⟯
-  </tbody>
-</table>
+
 
 My eyes are somewhat {{c13::hooded}}. 
 Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid space}} 
@@ -2788,8 +2679,7 @@ I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;protruding/bulging eyes⟯|⟮c:2;<img src="sm_Young-girl-with-inherited-bulgy-eyes-54e512549b9636a72d22820c97764663010cc613.jpg">⟯
 ⟮c:3;deep-set⟯|⟮c:4;<img src="sm_Screenshot%202020-07-27%20at%2014.14.20.jpg">⟯
-  </tbody>
-</table>
+
 
 ###### retina
 
@@ -2809,8 +2699,7 @@ Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯
 ⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯
-  </tbody>
-</table>
+
 ⟮h:all;<div class="flex-container"><img src="sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png"><img src="sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg"><img src="sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg"><img src="sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp"></div>⟯
 We distinguish ⟮c:10;3 types⟯ of ⟮c:11;cones⟯, based on ⟮c:12;what wavelength light they respond to⟯ 
 we normally say  we have ⟮c:13;cones⟯ for ⟮c:14;each of the R, G, B colors⟯, but in fact, we have ⟮c:15;one for blue⟯ and ⟮c:16;two which are very similar, both detecting green/yellow/red,⟯ only with ⟮c:17;one shifted slightly⟯. 
@@ -2828,8 +2717,7 @@ humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ t
 ⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯
 ⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯
 ⟮c:5;smooth pursuit (eye movement⟯)|⟮c:6;smooth movement tracking a thing⟯
-  </tbody>
-</table>
+
 
 When ⟮c:11;the human eye⟯ ⟮c:12;moves⟯, it either ⟮c:12;moves⟯ in ⟮c:13;saccades⟯ or ⟮c:14;smooth pursuit movement⟯. 
 If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to do ⟮c:16;catch-up saccades⟯ 
@@ -2845,8 +2733,7 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
 ⟮c:3;human horizontal FOV⟯|⟮c:4;~210 deg⟯
 ⟮c:5;human horizontal binocular FOV⟯|⟮c:6;~120 deg⟯
 ⟮c:7;foveal FOV⟯|⟮c:8;~ 2 deg⟯
-  </tbody>
-</table>
+
 
 #### digestive
 
@@ -2858,8 +2745,6 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;5⟯|⟮c:2;Appendix⟯
 
-  </tbody>
-</table>
 
 ##### appendix & appendicitis
 
@@ -2890,8 +2775,7 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 
 ⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯
 ⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>|
@@ -2899,8 +2783,7 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯
 ⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯
-  </tbody>
-</table>
+
 
 ⟮c:1;Hypotension⟯ ⟮c:2;may be⟯ ⟮c:3;without symptoms⟯ 
 Common symptoms of ⟮c:4;hypotension⟯ are ⟮c:5;dizziness/lightheadedness⟯. 
@@ -2952,8 +2835,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 ⟮c:1;<img src="eccentric-cont.png">⟯|⟮c:2;eccentric⟯
 ⟮c:3;<img src="concentric-cont.png" ⟯<="" td=""> |⟮c:4;concentric⟯
 ⟮c:5;<img src="isometric-cont.png">⟯|⟮c:6;isometric⟯
-        </tbody>
-      </table>
+
             
 
 #### naming & categorizing
@@ -2967,8 +2849,6 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;3⟯|⟮c:2;Deltoids⟯
 ⟮c:1;7⟯|⟮c:2;Pecs⟯
 
-  </tbody>
-</table>
 
 ##### back
 
@@ -2980,8 +2860,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;11⟯|⟮c:2;erector spinae⟯
-  </tbody>
-</table>
+
 
 ### bones
 
@@ -2993,8 +2872,6 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;3⟯|⟮c:2;Lumbar spine⟯
 
-  </tbody>
-</table>
 
 ### joints
 
@@ -3036,15 +2913,12 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 ⟮c:1;butt⟯|⟮c:4;stick out back⟯
 ⟮c:2;abdomen⟯|⟮c:5;stick out in front⟯
 ⟮c:3;spine⟯|⟮c:6;excessively arched⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <tbody>span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
 ⟮c:7;neutral pelvis⟯|⟮c:8;anterior pelvic tilt⟯|⟮c:9;posterior pelvic tilt⟯
-  </tbody>
-  
-</table>
+
 
 An ⟮c:19;'ideal' pelvic tilt⟯ is ⟮c:20;very slightly anterior (5° or so⟯) 
 When ⟮c:21;sitting⟯ or ⟮c:21;standing⟯ with ⟮c:22;APT⟯, ⟮c:23;engage⟯ the ⟮c:24;glutes⟯ and the ⟮c:24;core⟯. You can test this by ⟮c:25;poking yourself with a finger.⟯ 
@@ -3057,8 +2931,7 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;Weak⟯|⟮c:11;abdominals⟯|⟮c:12;glutes⟯||⟮c:13;stretch them⟯
 ⟮c:14;Tight⟯|⟮c:15;hip flexors/quads⟯|⟮c:16;erector spinae⟯|⟮c:17;hamstrings⟯|⟮c:18;strengthen them⟯
-  </tbody>
-</table>
+
 
 ## beings
 
@@ -3077,8 +2950,7 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;human females⟯|⟮c:2;XX⟯
 ⟮c:3;human males⟯|⟮c:4;XY⟯
-  </tbody>
-</table>
+
 
 ### animals
 
@@ -3092,8 +2964,7 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Halter⟯|⟮c:2;Leading a horse while walking⟯
 ⟮c:3;Bridle⟯|⟮c:4;Controlling a horse while riding⟯
-</tbody>
-</table>
+
 
 ## genetics
 
@@ -3114,8 +2985,6 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;OCD⟯|⟮c:2;F42⟯
 
-  </tbody>
-</table>
 
 ### signs and symptoms
 
@@ -3125,8 +2994,6 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;sign⟯|⟮c:2;observable to others (not just the patient⟯)
 ⟮c:3;symptom⟯|⟮c:4;observable to the patent only⟯
 
-  </tbody>
-</table>
 
 ### diseases
 
@@ -3283,8 +3150,7 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 ⟮c:1;Pounding/beating/pumelling⟯|⟮c:2;ulnar⟯|⟮c:2;loose fist⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Hacking⟯|⟮c:2;ulnar⟯|⟮c:2;fairly straight⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Cupping⟯|⟮c:2;palmar⟯|⟮c:2;cupped/slightly gathered⟯|
-    </tbody>
-</table>
+
 
 ## concepts
 
@@ -3310,8 +3176,6 @@ In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a t
  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:8;Male⟯|⟮c:9;Incubus⟯|⟮c:10;s:all;In = on/in⟯
 ⟮c:11;Female⟯|⟮c:12;Succubus⟯|⟮c:13;s:all;Sub = under⟯
 
-  </tbody>
-</table>
 in/con/succubus all originate from the ⟮c:4;latin⟯ root ⟮c:5;cubare⟯, which means ⟮c:6;to lie down⟯. They got gendered via ⟮c:7;the position the initial morpheme describes.⟯ 
 
 ## safety
@@ -3339,8 +3203,6 @@ the alternative to ⟮c:8;SSC⟯ is ⟮c:9;RACK (risk-aware consensual kink⟯)
 ⟮c:17;s:18;masc⟯, ⟮c:18;s:17;butch::lesbian only⟯|⟮c:19;Exhibits more 'masculine' behavior⟯|⟮s:17-19;((c:20;::masc⟯ is used ⟮c:21;more commonly in gay contexts⟯, ⟮c:20;butch⟯ ⟮c:21;only in lesbian contexts⟯))
 ⟮c:22;s:23;fem(me) ⟯, ⟮c:23;s:22;lipstick lesbian::lesbian only⟯|⟮c:24;Exhibits more 'feminine' behavior⟯|⟮s:22-24;More commonly ((c:25;::femme and not fem⟯ when ⟮c:26;in reference to lesbians⟯))
 
-  </tbody>
-</table>
 
 
 § Henceforth, I will abbreviate top/bottom, dom/sub, sadist/masochist, fem(me)/masc as TBDSSMFM. § <br>
@@ -3374,8 +3236,7 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 ⟮c:3;Smush⟯|⟮c:4;Sexual crush⟯
 ⟮c:5;Squish⟯|⟮c:6;Non-romantic/platonic crush⟯
 ⟮c:7;Swish⟯|⟮c:8;Aesthetic crush⟯
-  </tbody>
-</table>
+
 
 
 ## a-spec
@@ -3388,24 +3249,18 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 ⟮c:6;asexual spectrum⟯|⟮c:7;spectrum of identities⟯ that ⟮c:8;experience sexual attraction⟯ ⟮c:9;more simiarly to asexual than to allosexual people⟯
 ⟮c:10;grey(a)sexual⟯|⟮c:11;any identity on the asexual spectrum⟯ that ⟮c:12;isn't fully asexual⟯, or ⟮c:13;an identity inbetween asexuality and allosexuality⟯
 
-  </tbody>
-</table>
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:14;aromantic⟯|⟮c:15;not experiencing romantic attraction⟯ or <span class="c16-cloze c14-scr">aromantic spectrum</span>
 ⟮c:17;alloromantic⟯|⟮c:18;experiencing romantic attraction ⟯
 ⟮c:19;aromantic spectrum⟯|⟮c:20;spectrum of identities⟯ that ⟮c:21;experience romantic attraction⟯ ⟮c:22;more simiarly to aromantic than to alloromantic people⟯
 ⟮c:23;grey(a)romantic⟯|⟮c:24;any identity on the aromantic spectrum⟯ that ⟮c:25;isn't fully aromantic⟯, or ⟮c:26;an identity inbetween aromanticism and alloromanticism⟯
 
-  </tbody>
-</table>
 <p> ⟮c:27;ace-spec⟯ + ⟮c:27;aro-spec⟯ = ⟮c:28;a-spec⟯
 </p>
 <table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:29;fictosexual/romantic⟯|⟮c:30;sexual/romantic attraction⟯ to ⟮c:31;fictional characters⟯ ⟮c:32;exclusively⟯ or ⟮c:33;differently to one's normal sexual/romantic attraction⟯. May or may not be ⟮c:34;considered to be on the ace/aro-spec  (respectively⟯)
 ⟮c:35;lithosexual/romantic⟯|⟮c:36;sexual/romantic attraction⟯ ⟮c:37;only if not reciprocated⟯. Generally considered to be ⟮c:38;ace/aro-spec⟯
 
-  </tbody>
-</table>
 
 ### relationships
 
@@ -3443,16 +3298,14 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 ⟮c:19;SWERF⟯|⟮c:20;Sex Worker-Exclusionary Radical Feminist⟯
 ⟮c:21;ERA⟯|⟮c:22;Equal Rights Amendment⟯
 ⟮c:23;TERF⟯|⟮c:24;trans-exclusionary radical feminist⟯
-  </tbody>
-</table>
+
 
 ## flags
 
 <table>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="Transgender_Pride_flag.svg">⟯|⟮c:2;The transgender pride flag⟯
-  </tbody>
-</table>
+
 
 
 # religion
@@ -3531,8 +3384,7 @@ By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instance
 ⟮c:55;personlityism⟯|⟮c:56;+:extroverted, -:interverted⟯
 ⟮c:57;kinkism⟯|⟮c:58;+:vanilla, -:kinky⟯
 ⟮c:59;linguicism⟯|⟮c:60;+:certain speech use (generally standard language), -:other speech use (generally dialects, etc.⟯)
-    </tbody>
-</table>
+
 
 ### archy miso ism
 
@@ -3556,8 +3408,6 @@ x normativity normalizes the + of the relevant ism
 ⟮c:9;Ablenormativity⟯|⟮c:10;+ of (dis)ablism ((being) able⟯)
 ⟮c:11;Carnionormativity⟯|⟮c:12;+ of carnism (consuming animal products⟯)
 
-  </tbody>
-</table>
 
 ### -
 
@@ -3582,8 +3432,7 @@ x normativity normalizes the + of the relevant ism
 ⟮c:37;slavophobia⟯|⟮c:38;s:all;us:37;slavic people⟯|⟮c:39;s:all;us:37;xenophobia, racism⟯
 ⟮c:40;vegaphobia⟯|⟮c:41;s:all;us:40;vegan people⟯|⟮c:42;s:all;us:40;carnism⟯
 ⟮c:43;glottophobia⟯|⟮c:44;s:all;us:43;certain groups of language users⟯|⟮c:45;s:all;us:43;linguicism⟯
-  </tbody>
-</table>
+
 
 #### chasers
 
@@ -3686,8 +3535,6 @@ While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al lab
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;x work, e.g. emotion work⟯|⟮c:17;use value only⟯|⟮c:18;s:16-17;part of a job⟯
 ⟮c:19;x-al labor, e.g. emotional labor⟯|⟮c:20;use value and exchange value⟯|⟮c:21;s:19-20;in an intimate relationship⟯
 
-  </tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
   <thead>type of work/labor|involves|example
@@ -3697,8 +3544,7 @@ While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al lab
 ⟮c:4;empathy work/empathical labor⟯|⟮c:5;creating the feeling of being understood in others⟯
 ⟮c:6;conversation work/conversational labor⟯|⟮c:7;maintaining a conversation (if it has a purpose that both parties subscribe to⟯)|⟮c:8;s:gb;a person tries hard to come up with relevant topics and questions during a date/a meeting with a long-lost relative⟯
 ⟮c:9;interpretion work/interpretive labor⟯|⟮c:10;modelling the others perspective⟯|⟮c:11;s:gb;A person gets handed a form with an ambiguous question and tries to understand what the institution wants from them.⟯
-  </tbody>
-</table>
+
 
 The two strategies people use in performing ⟮c:13;emotion work/labor (not sure in how far it applies to the family of similar concepts⟯ are  ⟮c:14;surface acting and deep acting⟯ 
 ⟮c:12;emotion work/labor⟯ by ⟮c:15;getting into a state where one genuinely feels the emotions⟯ is called ⟮c:21;deep acting⟯ 
@@ -3724,8 +3570,7 @@ the ⟮c:1;application of computational technologies/digital resources⟯ in ⟮
 ⟮c:3;3nd year of study⟯|⟮c:4;Junior⟯
 ⟮c:5;2nd year of study⟯|⟮c:6;Sophomore⟯
 ⟮c:7;1st year of study⟯|⟮c:8;Freshman⟯
-  </tbody>
-</table>
+
 
 
 # theatre
@@ -3890,8 +3735,6 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;s:2;Explicit memory::E...⟯|⟮c:2;s1:;Declarative memory::D...⟯|⟮c:3;facts, concepts⟯|The memory that is used for <span class="c4-cloze c3-scr">things like flashcards (subject to the ebbinghaus forgetting curve, etc.)</span>
 ⟮c:5;s:6;Implicit memory::I...⟯|⟮c:6;s:5;Non-declarative memory::N...⟯|⟮c:7;skills, procedures, categories, sensory experiences⟯
 
-  </tbody>
-</table>
 
 #### PAO
 
@@ -4023,8 +3866,7 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 ⟮c:389;s:all;us:392;Guts⟯|⟮c:390;s:all;us:392;confronting⟯|⟮c:391;s:all;us:392;a demon⟯|⟮c:392;79⟯
 ⟮c:393;s:all;us:396;Han Solo⟯|⟮c:394;s:all;us:396;daring⟯|⟮c:395;s:all;us:396;a blaster⟯|⟮c:396;89⟯
 ⟮c:397;s:all;us:400;Severus Snape ⟯|⟮c:398;s:all;us:400;cursing⟯|⟮c:399;s:all;us:400;an old wizard⟯|⟮c:400;99⟯|<img src="sm_0b29847ef36f830989d150017080a996e6144680_hq.gif">
-  </tbody>
-</table>
+
 
 ### fear
 
@@ -4065,8 +3907,7 @@ Activity|How to check?|Positive result if
 ⟮c:10;clock⟯|⟮c:11;check it⟯|⟮c:12;if it shows an illogical time, or it changes rapidly⟯
 ⟮c:13;text⟯|⟮c:14;read some text⟯, ⟮c:19;s:14;look away⟯, and ⟮c:20;s:14,19;try and recall the text⟯. ⟮c:21;s:14,19-20;Look at the same text again⟯.))|⟮c:15;if it's changed⟯
 ⟮c:16;magical powers⟯|⟮c:17;try and use them⟯|⟮c:18;if it works⟯
-  </tbody>
-</table>
+
 
 A ⟮c:34;lucid dream⟯ is one in which ⟮c:35;one is aware that one is dreaming⟯. 
 ⟮c:36;Often but not always⟯, ⟮c:37;lucid dreams⟯ allow ⟮c:38;some control over the events happneing in the dream⟯. 
@@ -4241,8 +4082,7 @@ In general, ⟮c:24;synthesis⟯ produces ⟮c:25;more complex compounds⟯ as �
 ⟮c:3;Klasse B⟯|⟮c:4;Flüssige oder flüssig werdende stoffe, z.B. Benzin, Öle⟯
 ⟮c:5;Klasse C⟯|⟮c:6;Gase⟯
 ⟮c:7;Klasse F⟯|⟮c:8;Fettbrände (Fettbrand braucht F, niemals mit A oder B löschen⟯)
-  </tbody>
-</table>
+
 
 ######## extinguishers
 
@@ -4306,8 +4146,6 @@ a ⟮c:5;functional group⟯ is a part of a ⟮c:6;molecule⟯ that causes the �
       |
         ⟮c:2;Iron⟯
 
-  </tbody>
-</table>
 
 ##### classes
 
@@ -4330,8 +4168,6 @@ Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are t
 ⟮c11;3⟯|⟮c12;M⟯
 etc...|etc...
 
-  </tbody>
-</table>
 The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number / earlier to the alphabet its letter⟯
 §§the ⟮c:16;nth⟯ ⟮c:15;shell⟯ can in principle hold up to ⟮c:17;2(n<sup>2</sup>⟯) electrons.§<br><br>
 <table class="cloze-group hide-if-inactive">
@@ -4342,8 +4178,6 @@ The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number 
 ⟮c22;3 / M⟯|⟮c23;18 (2 + 6 + 10)⟯
 etc...|etc...
 
-  </tbody>
-</table>
 
 
 ### elementary particles
@@ -4387,8 +4221,7 @@ If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯
 ⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯
-  </tbody>
-</table>
+
 
 The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/body⟯. 
 ⟮c:15;A lock that is contained in a cylinder⟯ is known as ⟮c:16;a cylinder lock⟯. 
@@ -4406,8 +4239,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 ⟮c:11;the blue and red things⟯|⟮c:12;the pins⟯
 ⟮c:13;the blue pins⟯|⟮c:14;the driver pins⟯
 ⟮c:9;the red pins⟯|⟮c:10;the key pins⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>|
@@ -4415,8 +4247,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯
 ⟮c:17;the casing⟯|⟮c:18;green in the image⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>current status|pin
@@ -4426,8 +4257,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 ⟮c:3;being picked⟯|⟮c:4;pin 5 (from front⟯)
 ⟮c:5;successfully picked⟯|⟮c:6;pin 1 and 3 (from front⟯)
 ⟮c:7;unpicked⟯|⟮c:8;pin 2 (from front⟯)
-  </tbody>
-</table>
+
 
 
 ## comb picks
@@ -4464,8 +4294,7 @@ The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs�
 ⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯
 ⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯
 ⟮c:32;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c:33;wrong key⟯
-  </tbody>
-</table>
+
 
 ## manufacturing tolerances
 
@@ -4498,8 +4327,7 @@ Once ⟮c:47;you've pushed the binding pin to the shear line⟯, if y⟮c:48;ou'
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;push the binding pin in too far⟯|⟮c:2;overset⟯|⟮c:3;<img src="sm_overset_1130.jpg">⟯
 ⟮c:4;not push the binding pin in far enough⟯|⟮c:5;underset⟯|⟮c:6;<img src="sm_underset_1130.jpg">⟯
-  </tbody>
-</table>
+
 If you ⟮c:51;can no longer find a binding pin⟯, you have likely ⟮c:7;overset or underset a pin⟯ 
 
 ## tensioning
@@ -4651,8 +4479,6 @@ hacer|⟮c:9;hic-⟯
 querer|⟮c:10;quis-⟯
 venir|⟮c:11;vin-⟯
 
-  </tbody>
-</table>
 
 Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
  <thead>Numeral|Ordinal number
@@ -4668,8 +4494,7 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 ⟮c:15;8th⟯|⟮c:16;octavo/-a⟯
 ⟮c:17;9th⟯|⟮c:18;noveno/a⟯
 ⟮c:19;10th⟯|⟮c:20;décimo/-a⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>Numeral|Ordinal number
@@ -4683,8 +4508,7 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 ⟮c:32;70<sup>th</sup>⟯|⟮c:33;septuagésimo⟯
 ⟮c:34;80<sup>th</sup> ⟯|⟮c:35;octogésimo⟯
 ⟮c:36;90<sup>th</sup>⟯|⟮c:37;nonagésimo⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>Numeral|Ordinal number
@@ -4700,8 +4524,7 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 ⟮c:52;800<sup>th</sup>⟯|⟮c:53;octingentésimo⟯
 ⟮c:54;900<sup>th</sup>⟯|⟮c:55;noningentésimo⟯
 ⟮c:56;1000<sup>th</sup>⟯|⟮c:57;milésimo⟯
-  </tbody>
-</table>
+
 
 
 Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:all;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:all;<img src="sm_200w.webp">⟯<table class="cloze-group hide-if-inactive">
@@ -4710,8 +4533,7 @@ Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018ee
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯
 ⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯
-  </tbody>
-</table>
+
 
 Spanish months<br/><table class="cloze-group hide-if-inactive">
   <thead>month|name
@@ -4729,8 +4551,7 @@ Spanish months<br/><table class="cloze-group hide-if-inactive">
 ⟮c:19;10⟯|⟮c:20;octubre⟯
 ⟮c:21;11⟯|⟮c:22;noviembre⟯
 ⟮c:23;12⟯|⟮c:24;diciembre⟯
-  </tbody>
-</table>
+
 
 Preterite of ser
 <br/><table class="cloze-group hide-if-inactive">
@@ -4738,8 +4559,7 @@ Preterite of ser
 ⟮c:1;fui⟯|⟮c:4;fuimos⟯
 ⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯
 ⟮c:3;fue⟯|⟮c:6;fueron⟯
-</tbody>
-</table>
+
 
 Preterite of ir
 <br/><table class="cloze-group hide-if-inactive">
@@ -4747,16 +4567,14 @@ Preterite of ir
 ⟮c:1;fui⟯|⟮c:4;fuimos⟯
 ⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯
 ⟮c:3;fue⟯|⟮c:6;fueron⟯
-</tbody>
-</table>
+
 
 Preterite of dar<br/><table class="cloze-group hide-if-inactive">
 <tbody>
 ⟮c:1;di⟯|⟮c:4;dimos⟯
 ⟮c:2;diste⟯|⟮c:5;disteis⟯
 ⟮c:3;dio⟯|⟮c:6;dieron⟯
-</tbody>
-</table>
+
 
 Preterite de hacer
 <br/><table class="cloze-group hide-if-inactive">
@@ -4764,8 +4582,7 @@ Preterite de hacer
 ⟮c:1;hice⟯|⟮c:4;hicimos⟯
 ⟮c:2;hiciste⟯|⟮c:5;hicisteis⟯
 ⟮c:3;hizo⟯|⟮c:6;hicieron⟯
-</tbody>
-</table>
+
 
 In the preterite verbs that end in -uir are conjugated as follows (example: huir)
 <br/><table class="cloze-group hide-if-inactive">
@@ -4773,8 +4590,7 @@ In the preterite verbs that end in -uir are conjugated as follows (example: huir
 ⟮c:1;hui⟯|⟮c:4;huimos⟯
 ⟮c:2;huiste⟯|⟮c:5;huisteis⟯
 ⟮c:3;huyó⟯|⟮c:6;huyeron⟯
-</tbody>
-</table>
+
 
 In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as follows (example: creer)
 <br/><table class="cloze-group hide-if-inactive">
@@ -4782,8 +4598,7 @@ In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as
 ⟮c:1;creí⟯|⟮c:4;creímos⟯
 ⟮c:2;creíste⟯|⟮c:5;creísteis⟯
 ⟮c:3;creyó⟯|⟮c:6;creyeron⟯
-</tbody>
-</table>
+
 
 Imperfect of ver
 <br/><table class="cloze-group hide-if-inactive">
@@ -4791,16 +4606,14 @@ Imperfect of ver
 ⟮c:1;veía⟯|⟮c:4;veíamos⟯
 ⟮c:2;veías⟯|⟮c:5;veíais⟯
 ⟮c:3;veía⟯|⟮c:6;veían⟯
-</tbody>
-</table>
+
 
 Imperfect of ser<br/><table class="cloze-group hide-if-inactive">
 <tbody>
 ⟮c:1;era⟯|⟮c:4;éramos⟯
 ⟮c:2;eras⟯|⟮c:5;erais⟯
 ⟮c:3;era⟯|⟮c:6;eran⟯
-</tbody>
-</table>
+
 
 Imperfect of ir
 <br/><table class="cloze-group hide-if-inactive">
@@ -4808,8 +4621,7 @@ Imperfect of ir
 ⟮c:1;iba⟯|⟮c:4;íbamos⟯
 ⟮c:2;ibas⟯|⟮c:5;ibais⟯
 ⟮c:3;iba⟯|⟮c:6;iban⟯
-</tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – haber
@@ -4819,8 +4631,6 @@ span=2;Present Subjunctive – haber
 ⟮c:2;hayas⟯|⟮c:5;hayáis⟯
 ⟮c:3;haya⟯|⟮c:6;hayan⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Pluperfecto en español
@@ -4830,8 +4640,6 @@ span=2;Pluperfecto en español
 ⟮c:2;Habías vivido⟯|⟮c:5;Habíais vivido⟯
 ⟮c:3;Había vivido⟯|⟮c:6;Habían vivido⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Hablar - future
@@ -4841,8 +4649,6 @@ span=2;Hablar - future
 ⟮c:2;hablarás⟯|⟮c:5;hablaréis⟯
 ⟮c:3;hablará⟯|⟮c:6;hablarán⟯
 
-</tbody>
-</table>
 
 The ⟮c:1;teen ordinal numbers⟯ are normally written ⟮c:2;as a single word⟯, and they are formed according to the following formula: ⟮c:3;décimo⟯ + ⟮c:3;ordinal number ⟯ 
 
@@ -4861,8 +4667,6 @@ span=2;cerrar e:ie present indicative conjugation
 ⟮c2;cierras⟯|⟮c5;cerráis⟯
 ⟮c3;cierra⟯|⟮c6;cierran⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;vivir present indicative
@@ -4872,8 +4676,6 @@ span=2;vivir present indicative
 ⟮c:2;vives⟯|⟮c:5;vivís⟯
 ⟮c:3;vive⟯|⟮c:6;viven⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;venir present indicative conjugation
@@ -4883,8 +4685,6 @@ span=2;venir present indicative conjugation
 ⟮c:2;vienes⟯|⟮c:5;venís⟯
 ⟮c:3;viene⟯|⟮c:6;vienen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;tener present indicative conjugation
@@ -4894,8 +4694,6 @@ span=2;tener present indicative conjugation
 ⟮c:2;tienes⟯|⟮c:5;tenéis⟯
 ⟮c:3;tiene⟯|⟮c:6;tienen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;repetir e:i present indicative conjugation
@@ -4905,8 +4703,6 @@ span=2;repetir e:i present indicative conjugation
 ⟮c:2;repites⟯|⟮c:5;repetís⟯
 ⟮c:3;repite⟯|⟮c:6;repiten⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;posessive adjectives
@@ -4916,8 +4712,6 @@ span=2;posessive adjectives
 ⟮c:2;tu(s⟯)|⟮c:5;vuestro(-a, -os, -as⟯)
 ⟮c:3;su(s⟯)|⟮c:6;su(s⟯)
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;o:u preterite (dormir)
@@ -4927,8 +4721,6 @@ span=2;o:u preterite (dormir)
 ⟮c:2;dormiste⟯|⟮c:5;dormimos⟯
 ⟮c:3;durmió⟯|⟮c:6;durmieron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;hablar present indicative
@@ -4938,8 +4730,6 @@ span=2;hablar present indicative
 ⟮c:2;hablas⟯|⟮c:5;habláis⟯
 ⟮c:3;habla⟯|⟮c:6;hablan⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;escribir - future
@@ -4949,8 +4739,6 @@ span=2;escribir - future
 ⟮c:2;escribirás⟯|⟮c:5;escribiréis⟯
 ⟮c:3;escribirá⟯|⟮c:6;escribirán⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;e:i preterite (preferir)
@@ -4960,8 +4748,6 @@ span=2;e:i preterite (preferir)
 ⟮c:2;preferiste⟯|⟮c:5;preferisteis⟯
 ⟮c:3;prefirió⟯|⟮c:6;prefirieron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;dormir o:ue present indicative conjugation
@@ -4971,8 +4757,6 @@ span=2;dormir o:ue present indicative conjugation
 ⟮c:2;duermes⟯|⟮c:5;dormís⟯
 ⟮c:3;duerme⟯|⟮c:6;duermen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;comer present indicative
@@ -4982,8 +4766,6 @@ span=2;comer present indicative
 ⟮c:2;comes⟯|⟮c:5;coméis⟯
 ⟮c:3;come⟯|⟮c:6;comen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;comer - future
@@ -4993,8 +4775,6 @@ span=2;comer - future
 ⟮c:2;comerás⟯|⟮c:5;comeréis⟯
 ⟮c:3;comerá⟯|⟮c:6;comerán⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present hablar
@@ -5004,8 +4784,6 @@ span=2;Subjunctive present hablar
 ⟮c:2;hables⟯|⟮c:5;habléis⟯
 ⟮c:3;hable⟯|⟮c:6;hablen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present escribir
@@ -5015,8 +4793,6 @@ span=2;Subjunctive present escribir
 ⟮c:2;escribas⟯|⟮c:5;escribaís⟯
 ⟮c:3;escriba⟯|⟮c:6;escriban⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present comer
@@ -5026,8 +4802,6 @@ span=2;Subjunctive present comer
 ⟮c:2;comas⟯|⟮c:5;comáis⟯
 ⟮c:3;coma⟯|⟮c:6;coman⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Preterite of ver
@@ -5037,8 +4811,6 @@ span=2;Preterite of ver
 ⟮c:2;viste⟯|⟮c:5;visteis⟯
 ⟮c:3;vio⟯|⟮c:6;vieron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Preterite of traer
@@ -5048,8 +4820,6 @@ span=2;Preterite of traer
 ⟮c:2;trajiste⟯|⟮c:5;trajisteis⟯
 ⟮c:3;trajo⟯|⟮c:6;trajeron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Preterite of decir
@@ -5059,8 +4829,6 @@ span=2;Preterite of decir
 ⟮c:2;dijiste⟯|⟮c:5;dijisteis⟯)
 ⟮c:3;dijo⟯|⟮c:6;dijeron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Preterite of -ucir verbs such as producir
@@ -5070,8 +4838,6 @@ span=2;Preterite of -ucir verbs such as producir
 ⟮c:2;produjiste⟯|⟮c:5;produjisteis⟯
 ⟮c:3;produjo⟯|⟮c:6;produjeron⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – ser
@@ -5081,8 +4847,6 @@ span=2;Present Subjunctive – ser
 ⟮c:2;seas⟯|⟮c:5;seáis⟯
 ⟮c:3;sea⟯|⟮c:6;sean⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – saber
@@ -5092,8 +4856,6 @@ span=2;Present Subjunctive – saber
 ⟮c:2;sepas⟯|⟮c:5;sepáis⟯
 ⟮c:3;sepa⟯|⟮c:6;sepan⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – ir
@@ -5103,8 +4865,6 @@ span=2;Present Subjunctive – ir
 ⟮c:2;vayas⟯|⟮c:5;vayáis⟯
 ⟮c:3;vaya⟯|⟮c:6;vayan⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – estar
@@ -5114,8 +4874,6 @@ span=2;Present Subjunctive – estar
 ⟮c:2;estés⟯|⟮c:5;estéis⟯
 ⟮c:3;esté⟯|⟮c:6;estén⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive - dar
@@ -5125,8 +4883,6 @@ span=2;Present Subjunctive - dar
 ⟮c:2;des⟯|⟮c:5;deis⟯
 ⟮c:3;dé⟯|⟮c:6;den⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Imperfect subjunctive -se cantar
@@ -5136,8 +4892,6 @@ span=2;Imperfect subjunctive -se cantar
 ⟮c:2;cantases⟯|⟮c:5;cantaseis⟯
 ⟮c:3;cantase⟯|⟮c:6;cantasen⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Imperfect subjunctive -a form for cantar
@@ -5147,8 +4901,6 @@ span=2;Imperfect subjunctive -a form for cantar
 ⟮c:2;cantaras⟯|⟮c:5;cantarais⟯
 ⟮c:3;cantara⟯|⟮c:6;cantaran⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Conditional vivir
@@ -5158,8 +4910,6 @@ span=2;Conditional vivir
 ⟮c:2;vivirías⟯|⟮c:5;viviríais⟯
 ⟮c:3;viviría⟯|⟮c:6;vivirían⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Conditional hablar
@@ -5169,8 +4919,6 @@ span=2;Conditional hablar
 ⟮c:2;hablarías⟯|⟮c:5;hablaríais⟯
 ⟮c:3;hablaría⟯|⟮c:6;hablarían⟯
 
-</tbody>
-</table>
 
 <table class="cloze-group hide-if-inactive">
 span=2;Conditional comer
@@ -5180,8 +4928,6 @@ span=2;Conditional comer
 ⟮c:2;comerías⟯|⟮c:5;comeríais⟯
 ⟮c:3;comería⟯|⟮c:6;comerían⟯
 
-</tbody>
-</table>
 
 # poetry
 
@@ -5933,8 +5679,6 @@ A common ⟮c:5;posture technique⟯ involves ⟮c:1;imagining⟯ ⟮c:2;a strin
 <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Screws tighten⟯|⟮c:2;clockwise⟯
 ⟮c:3;Screws loosen⟯|⟮c:4;counterclockwise⟯
 
-  </tbody>
-</table>
 
 ## breath
 
@@ -5949,8 +5693,7 @@ Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same leng
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;whither⟯|⟮c:2;to where⟯
 ⟮c:3;whence⟯|⟮c:4;from where⟯|⟮c:5;s:3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯
-  </tbody>
-</table>
+
 
 Something ⟮c:1;phallic⟯ is ⟮c:3;shaped like⟯ or ⟮c:3;otherwise like⟯ a ⟮c:2;penis⟯, something ⟮c:4;yonic⟯ is ⟮c:5;shaped like⟯ or ⟮c:5;otherwise like⟯ a ⟮c:6;vagina⟯ 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}</span>

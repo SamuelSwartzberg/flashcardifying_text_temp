@@ -116,8 +116,7 @@ A hex digit is equivalent to 4 binary digits
 ⟮c:1;1342<sub>10</sub>⟯|⟮c:2;53E<sub>16</sub>⟯
 ⟮c:3;13<sub>10</sub>⟯|⟮c:4;D<sub>16</sub>⟯
 ⟮c:5;233<sub>10</sub>⟯|⟮c:6;E9<sub>16</sub>⟯
-  </tbody>
-</table>
+
 <table>
   <thead>Decimal digit|Hexadecimal digit
 </thead>
@@ -125,8 +124,7 @@ A hex digit is equivalent to 4 binary digits
 ⟮c:7;decimal 10⟯|⟮c:8;hexadecimal A⟯
 ⟮c:9;decimal 15⟯|⟮c:10;hexadecimal F⟯
 ⟮c:11;decimal 6⟯|⟮c:12;hexadecimal 6⟯
-  </tbody>
-</table>
+
 
 
 
@@ -188,8 +186,7 @@ Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms
 ⟮c:11;Rhombus/Deltoid⟯|⟮c:12;\[A=\frac{e*f}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_deltoid.gif">⟯
 ⟮c:13;Trapez⟯|⟮c:14;\[A=\frac{(a+c)*h}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_trapez.gif">⟯
 ⟮c:15;Kreissektor⟯|⟮c:16;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_sektor.gif">⟯
-  </tbody>
-</table>
+
 
 
 # number theory
@@ -331,8 +328,7 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
 ⟮c:5;<b>Q</b>/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯
 ⟮c:8;<b>R</b>/ℝ⟯|⟮c:7;Set of all real numbers⟯
 ⟮c:9;<b>Z</b>/ℤ⟯|⟮c:10;Set of all integers⟯
-  </tbody>
-</table>
+
 
 ⟮c:34;Integers⟯ are known as ⟮c:35;ganze Zahlen⟯ in German. 
 
@@ -454,8 +450,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;edges⟯|⟮c:2;links/lines⟯
 ⟮c:3;vertices⟯|⟮c:4;nodes/points⟯
-  </tbody>
-</table>
+
 
 <img src="sm_220px-6n-graf.svg.png">
 
@@ -466,8 +461,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 ⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯
 ⟮c:9;the lines⟯|⟮c:10;edges⟯
 ⟮c:5;the circles⟯|⟮c:6;vertices⟯
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <thead>|
@@ -476,8 +470,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 ⟮c:11;E⟯|⟮c:12;The set of edges⟯
 ⟮c:13;G⟯|⟮c:14;the graph⟯
 ⟮c:15;V⟯|⟮c:16;The set of vertices⟯
-  </tbody>
-</table>
+
 
 ⟮c:81;Graph traversal⟯ is ⟮c:82;visiting all vertices once⟯ 
 ⟮c:83;Trees are a type of graph⟯, therefore ⟮c:84;tree traversal⟯ is a type of ⟮c:84;graph traversal⟯ 
@@ -547,8 +540,7 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
 ⟮c:17;Pre-order⟯|⟮c:18;Node - Left - Right⟯
 ⟮c:19;Inorder⟯|⟮c:20;Left - Node - Right⟯
 ⟮c:21;Post-order⟯|⟮c:22;Left  - Right - Node⟯
-  </tbody>
-</table>
+
 
 #### binary search trees
 
@@ -572,8 +564,7 @@ In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33
 ⟮c:3;5⟯|⟮c:4;right of 4⟯
 ⟮c:5;2⟯|⟮c:6;right of 1⟯
 ⟮c:7;11-12⟯|⟮c:8;left of 13⟯
-  </tbody>
-</table>
+
 
 
 #### merkele tree
@@ -753,8 +744,6 @@ A n-ary function takes n arguments.
 ⟮c:5;3⟯|⟮c:6;ternary⟯
 ⟮c:5;n⟯|⟮c:6;n-ary⟯
 
-  </tbody>
-</table>
 
 #### order
 
@@ -833,8 +822,6 @@ A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;paramete
       <td>⟮c:1;s:1-4;Type I error⟯|⟮c:2;s:1-4;Correct Conclusion⟯⟮c:6;s:5-8;fail to reject H<sub>0</sub>⟯</th>
       <td>⟮c:3;s:1-4;Correct Conclusion⟯|⟮c:4;s:1-4;Type II error⟯
 
-  </tbody>
-</table>
 
 # applied
 
@@ -889,8 +876,7 @@ B|byte
 ⟮c16;tera⟯|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span>
 ⟮c14;peta⟯|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span>
 ⟮c4;exa⟯|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span>
-  </tbody>
-</table>
+
 
 #### actual units
 
@@ -910,8 +896,7 @@ unit name|unit symbol|measure
 ⟮c:1;kilogram⟯|⟮c:2;kg⟯|⟮c:3;mass⟯
 ⟮c:4;metre⟯|⟮c:5;m⟯|⟮c:6;length⟯
 ⟮c:7;second⟯|⟮c:8;s⟯|⟮c:9;time⟯
-  </tbody>
-</table>
+
 
 ##### by unit
 
@@ -925,8 +910,7 @@ unit name|unit symbol|measure
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;joule⟯|⟮c:11;J⟯|⟮c:12;energy⟯
-  </tbody>
-</table>
+
 
 ###### length
 
@@ -943,8 +927,6 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
       |
         ⟮c:4;Absolute zero⟯
 
-  </tbody>
-</table>
 
 <h2>
    ⟮c:1;Celsius⟯:
@@ -956,8 +938,6 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 ⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)
 ⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯
 
-  </tbody>
-</table>
 
 ### non-metric
 
@@ -968,8 +948,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 ⟮c:1;′ (is the prime, not apostrophe⟯)|⟮c:2;foot⟯
 ⟮c:3;″ (is the prime, not apostrophe⟯)|⟮c:4;inch⟯
 ⟮c:5;t⟯|⟮c:6;tonne⟯|⟮c:7;1000kg⟯
-  </tbody>
-</table>
+
 
 ## pareto principle
 

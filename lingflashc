@@ -74,8 +74,7 @@ Since the ⟮c:24;sign⟯ consists of ⟮c:25;the two parts of signifier and sig
 ⟮c:1;a sign⟯|⟮c:2;the are between any two dotted lines⟯
 ⟮c:3;the arbitrary dividing point of sings⟯|⟮c:4;the dotted lines⟯
 ⟮c:5;the wavy areas⟯|⟮c:6;the world of signifier and signifieds⟯
-  </tbody>
-</table>
+
 
 #### nesting
 
@@ -108,8 +107,7 @@ An ⟮c:10;emic unit⟯ ⟮c:11;reduces⟯ ⟮c:12;a large number of variant for
 ⟮c:7;grapheme⟯|⟮c:8;s:9;glyph⟯|⟮c:9;s:8;allograph⟯
 phraseme|phrase|allophrase
 sememe|seme|alloseme
-  </tbody>
-</table>
+
 
 The seme is the smallest unit of meaning in semantics.
 
@@ -227,8 +225,6 @@ An adjunct can be any type of phrase.
     <tr>
       <td class="inner">⟮c:2;ZP⟯||span=3;class=inner;⟮c:3;X'⟯span=2;|class=inner;⟮c:4;X⟯||class=inner;⟮c:5;YP⟯
 
-  </tbody>
-</table>
 
 <img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
 X|the head
@@ -294,8 +290,6 @@ under the IP theory, the complement of I is the VP.
     <tr>
       <td class="leaf">somethin|class=leaf;somethin|class=leaf;somethin
 
-  </tbody>
-</table>
 
 
 ####### VP-internal subject hypothesis
@@ -317,8 +311,7 @@ Evidence: The subject is an argument of the V, but it appears outside of the VP,
     <tr><td class="inner" colspan="2">|class=inner;⟮c:5;DP⟯|span=3;class=inner;⟮c:6;V′⟯
     <tr><td class="inner" colspan="3">|class=inner;⟮c:7;V⟯|class=inner;|class=inner;⟮c:8;DP⟯
 someone<sub><i>i</i></sub>|is|t<sub><i>i</i></sub>|following|us
-  </tbody>
-  </table>
+
 <style>td{width: 4ch}</style>
 
 ####### DP hypothesis: 
@@ -341,8 +334,6 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;NP⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
-  </tbody>
-</table>
 
 <table class="blank-canvas">
   <tbody>
@@ -357,8 +348,6 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
-  </tbody>
-</table>
 
 ######## posessive s
 
@@ -374,9 +363,6 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="leaf">[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
 
-  </tbody>
-
-</table>
 
 <table class="blank-canvas">
   <tbody>
@@ -393,9 +379,6 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="leaf">that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
-  </tbody>
-
-</table>
 
 ####### NP hypothesis
 
@@ -412,9 +395,6 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
     <tr>
       <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
-  </tbody>
-
-</table>
 
 ####### IP hypothesis
 
@@ -779,8 +759,6 @@ Gnomic/anything else
 |span=2;⟮c:3;s:1-2;Habitual⟯|span=2;⟮c:4;s:1-2;Continuous⟯
 |||⟮c:1;s:3-5;Progressive⟯|⟮c:2;s:3-5;Stative⟯
 
-  </tbody>
-</table>
 
 Perfective and imperfective aspect together make up the eventive aspect
 
@@ -941,8 +919,6 @@ Inflection can be subdivided into {{c1::Declension and conjugation}}
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
 ⟮c:3;Declension⟯|⟮c:4;Nouns or Adjectives⟯
 
-  </tbody>
-</table>
 
 ###### Agreement
 
@@ -1274,8 +1250,7 @@ quantifiers are adjoined to the DP/NP to form a larger DP/NP.
 ⟮c:2;Q/D⟯|⟮c:3;DP⟯
 
 <span>all</span>|<span>the students</span>
-  </tbody>
-</table>
+
 Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
 According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
 The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
@@ -1426,8 +1401,7 @@ structure of the syllable
 ||<td>⟮c:4;s:2-3;Nucleus⟯</td>
 ||<td>⟮c:5;s:2-3;Coda⟯</td>
 | </tr>
-  </tbody>
-</table>
+
 
 The syllable is typically represented by σ.
 Syllables must at least have a nucleus.
@@ -1722,8 +1696,7 @@ lingual aka velaric ingressive initiation produces sounds known as clicks.
 ||<td>⟮c:5;ǁ⟯</td>
 ||<td>⟮c:10;Alveolar lateral⟯</td>
 | </tr>
-  </tbody>
-</table>
+
 
 Mnemonics/Rules
 
@@ -2128,8 +2101,7 @@ td {
 ⟮c26;Near-close⟯|⟮c54;front (or near-front, debate exists)⟯|⟮c54;unrounded⟯|⟮c54;ɪ (sm. cap. i, often w serifs)⟯
 ⟮c27;Near-open⟯|⟮c55;central⟯|⟮c55;unrounded or rounded⟯|⟮c55;ɐ⟯
 ⟮c28;Near-open⟯|⟮c56;front⟯|⟮c56;unrounded (sometimes also rounded)⟯|⟮c56;æ⟯
-  </tbody>
-</table>
+
 
 Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
 For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory.
@@ -2240,10 +2212,6 @@ Manner ↓
 <td>{{c29::ɸ}}|{{c30::β}}|{{c31::f}}|{{c32::v}}|{{c33::θ}}|{{c34::ð}}|{{c35::s}}|{{c36::z}}|{{c37::ʃ}}|{{c38::ʒ}}|{{c39::ʂ}}|{{c40::ʐ}}|{{c41::ç}}|{{c42::ʝ}}|{{c43::x}}|{{c44::ɣ}}|{{c45::χ}}|{{c46::ʁ}}|{{c47::ħ}}|{{c48::ʕ}}|{{c49::h}}|{{c50::ɦ}}
 
 
-
-</tbody>
-</table>
-
 <table>
   <thead>|
 </thead>
@@ -2254,8 +2222,7 @@ Manner ↓
 ⟮c:11;ɥ ⟯|⟮c:3;voiced⟯|⟮c:3;labio-palatal (=labialized palatal⟯)|⟮c:3;approximant ⟯
 ⟮c:12;ɺ (the long one⟯)|⟮c:4;voiced⟯|⟮c:4;alveolar⟯|⟮c:4;lateral tap/flap ⟯
 ⟮c:14;ʑ⟯|⟮c:6;voiced⟯|⟮c:6;aveolo-palatal⟯|⟮c:6;fricative⟯
-  </tbody>
-</table>
+
 
 
 all retroflex phones feature a right-facing bottom hook in their IPA symbol
@@ -2530,8 +2497,7 @@ Theoretical lexicography is the study of features of lexemes and lexica.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Parsib/pibling/auncle⟯|⟮c:2;aunt⟯|⟮c:3;uncle⟯
 ⟮c:4;nibling⟯|⟮c:5;niece⟯|⟮c:6;nephew⟯
-  </tbody>
-</table>
+
 
 #### onomastics
 
@@ -2644,8 +2610,7 @@ A blank line is two newlines.
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Microtypography⟯|⟮c:2;Typography on the level of letters/words⟯|⟮c:3;Letter spacing, word spacing, ligatures, features of letters⟯
 ⟮c:4;Macrotypography⟯|⟮c:5;Typography on the level of the collumn/grid/page⟯|⟮c:6;Typographic hierarchy, typographic grid, page layout⟯
-  </tbody>
-</table>
+
 
 ##### microtypography
 
@@ -2843,8 +2808,6 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
 </svg>
 ⟮c:1;s:2;verso⟯|⟮c:2;s:1;recto⟯
 
-  </tbody>
-</table>
 <table class="cloze-group hide-if-inactive">
     span=2;What do you call these pages? (RtL)
 </thead>
@@ -2895,8 +2858,6 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
 </svg>
 ⟮c:4;s:3;recto⟯|⟮c:3;s:4;verso⟯
 
-  </tbody>
-</table>
 
 
 ####### left and right
@@ -2957,8 +2918,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 ⟮c:14;&lt;&gt;⟯|⟮c:1;angle brackets⟯ or ⟮c:4;chevrons⟯
 ⟮c:15;( ) ⟯|⟮c:5;brackets⟯ (non-us), ⟮c:6;round brackets⟯ (non-us) or ⟮c:7;parantheses⟯
 ⟮c:16;[]⟯| ⟮c:8;square brackets⟯ (non-us) or ⟮c:9;just brackets⟯ (us)
-  </tbody>
-</table>
+
 
 <table class="cloze-group hide-if-inactive">
   <tbody>name|referenced entity (US)|referenced entity (not-US)
@@ -2966,8 +2926,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 ⟮c:17;parentheses⟯|⟮c:18;(⟯)|⟮c:19;may be meaningless (or US meaning⟯)
 ⟮c:24;brackets⟯|⟮c:10;[]⟯, less commonly perhaps ⟮c:11;&lt;&gt;⟯|most commonly ⟮c:20;(⟯), also {{c21::cover term for all of ()[]{}&lt;&gt;}}
 ⟮c:22;braces⟯|{{c12::{} }}|⟮c:23;may be meaningless (or US meaning⟯)
-  </tbody>
-</table>
+
 
 ######## bangs
 
@@ -2999,8 +2958,7 @@ The ⟮c:10;prime⟯ and ⟮c:10;double prime⟯ can mark ⟮c:11;(arc)minutes�
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;′⟯|⟮c:2;Prime⟯
 ⟮c:3;″⟯|⟮c:4;Double prime⟯
-  </tbody>
-</table>
+
 
 ####### whitespace
 
@@ -3065,8 +3023,7 @@ Name|Features
 ⟮c:25;s:25-27;alternating caps⟯/⟮c:26;s:25-27;studly caps⟯/⟮c:27;s:25-27;SpongeBob caps/case⟯|⟮c:28;rAndDOMLy DisTrIBUting CApitAL LEtteRS⟯
 ⟮c:29;camel case⟯|⟮c:30;words glued together⟯ with ⟮c:31;each initial letter capitalized⟯; the ⟮c:32;initial letter of the word⟯ ⟮c:33;lowercase⟯
 ⟮c:34;s:35;upper camel case⟯ aka ⟮c:35;s:34;pascal case⟯|⟮c:36;words glued together⟯ with ⟮c:37;each initial letter capitalized⟯; the ⟮c:38;initial letter of the word⟯ ⟮c:39;also uppercase⟯
-    </tbody>
-</table>
+
 
 
 ###### title case
@@ -3094,8 +3051,7 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 ⟮c:7;%⟯|⟮c:8;drunk/confused⟯
 ⟮c:9;X⟯|⟮c:10;equivalent of &gt;&lt; eyes, but more often used positively⟯
 ⟮c:11;;⟯|⟮c:12;wink⟯
-  </tbody>
-</table>
+
 
 ⟮c:13;顔文字⟯ (reading ⟮c:14;かおもじ⟯ ) have ⟮c:15;faces⟯ oriented how ⟮c:16;top-to-bottom⟯ 
 General pattern for kaomoji:
@@ -3240,8 +3196,7 @@ semantic loan</td> <th>words/morphemes are directly borrowed</th> <th colspan="3
 ||(loanblends)</td> <th>the structure is native|the structure is foreign
 
 |||loan creation|loan translation, loan rendition
-  </tbody>
-</table>
+
 
 
 #### Language death
@@ -3372,8 +3327,6 @@ The ⟮c:11;deficit, dominance and difference approaches⟯ are all approaches t
 ⟮c:2;deficit approach⟯|⟮c:6;women's language⟯ ⟮c:7;is inferior to (= weaker than⟯) ⟮c:6;men's language⟯ (and ⟮c:8;this causes women's oppression, at least in part⟯)|⟮c:2;Robin Lakoff}⟯
 ⟮c:3;difference approach⟯|⟮c:9;women and men ⟯ just ⟮c:10;belong to different linguistic subcultures ('separate but equal'⟯)|Deborah tannen
 
-  </tbody>
-</table>
 
 ##### gender in words
 
@@ -3614,8 +3567,6 @@ A ⟮c:1;collocation⟯ is a series of words or terms that ⟮c:2;co-occur⟯ �
 ⟮c:15;Key word out of context (KWOC⟯)|⟮c:19;Keyword⟯ appears ⟮c:13;to the left⟯, with ⟮c:12;the whole context including the word after it.⟯
 ⟮c:17;Key word alongside/and/augmented in context (KWAC⟯)|⟮c:18;Keyword⟯ appears ⟮c:20;to the left⟯, with ⟮c:21;the rest of the context (but not the word after it⟯), may also refer to ⟮c:22;adding extra info to the collocation⟯
 
-  </tbody>
-</table>
 ⟮c:10;ptx⟯ is ⟮c:11;a shell command⟯ that ⟮c:12;produces a KWIC concordance⟯. 
 
 ## theoretical linguistics
@@ -3789,8 +3740,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ⟮c:1;久⟯|⟮c:2;ク⟯
 ⟮c:3;呂⟯|⟮c:4;ロ⟯
 ⟮c:5;女⟯|⟮c:6;メ⟯
-  </tbody>
-</table>
+
 
 ### relationships
 
@@ -3845,8 +3795,7 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 ⟮c:5;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯|⟮c:6;<img src="sm_Mi_Fu-On_Calligraphy.jpg">⟯
 ⟮c:7;<ruby>行書<rp>(</rp><rt>ぎょうしょ</rt><rp>)</rp></ruby>⟯|⟮c:8;<img src="sm_33625065.jpg"><img src="sm_e0931e679ef3886ec4ef9994e0616b73-480x660.jpg">⟯
 ⟮c:9;<ruby>隷<rp>(</rp><rt>れい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯|⟮c:10;<img src="sm_220px-LishuHuashanmiao.jpg"><img src="sm_kRVT4DEEnYOoWwjmAPA90uyI2idI4Qp1TayRhMqPMAHoyZuHYsiLwsCLv0OxoHEhRiPg0jkcB_6mA7xvP0QdQMOzW5G-LN0NBVV0z0bGXIPJVdIRJZWW.jpg">⟯
-  </tbody>
-</table>
+
 
 What is now called (small) seal script is called what in japanese? <span class="divider">-></span> {{c1::<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>}}
 
