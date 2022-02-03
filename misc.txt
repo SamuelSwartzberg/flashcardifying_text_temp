@@ -1707,18 +1707,18 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 The ⟮c:26;monomyth⟯ claims to be ⟮c:27;descriptive⟯, specifically ⟮c:28;a general structure that underlines all myths⟯, though ⟮c:29;it, well, isn't⟯, and is often used ⟮c:30;prescriptively/as a formula for writing⟯. 
 The ⟮c:31;monomyth⟯ may also be called ⟮c:32;the Hero's Journey⟯. The shape of the ⟮c:34;monomyth⟯ is ⟮c:33;circular⟯, the ⟮c:35;Hero ends up in the same place they started⟯. 
     <tbody>
-    <tr><td rowspan="5">⟮c:1;Departure⟯|⟮c:2;The Call to Adventure⟯
+span=1,5;⟮c:1;Departure⟯|⟮c:2;The Call to Adventure⟯
 ⟮c:3;Refusal of the Call⟯
 ⟮c:4;Supernatural Aid⟯
 ⟮c:5;The Crossing of the First Threshold⟯
 ⟮c:6;Belly of the Whale⟯
-<tr><td rowspan="6">⟮c:7;Initiation⟯|⟮c:8;The Road of Trials⟯
+span=1,6;⟮c:7;Initiation⟯|⟮c:8;The Road of Trials⟯
 ⟮c:9;The Meeting with the Goddess⟯
 ⟮c:10;Woman as the Temptress⟯
 ⟮c:11;Atonement with the Father⟯
 ⟮c:12;Apotheosis⟯
 ⟮c:13;The Ultimate Boon⟯
-<tr><td rowspan="6">⟮c:14;Return⟯|⟮c:15;Refusal of the Return⟯
+span=1,6;⟮c:14;Return⟯|⟮c:15;Refusal of the Return⟯
 ⟮c:16;The Magic Flight⟯
 ⟮c:17;Rescue from Without⟯
 ⟮c:18;The Crossing of the Return Threshold⟯

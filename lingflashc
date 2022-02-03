@@ -223,11 +223,8 @@ An adjunct can be any type of phrase.
 
 <table class="blank-canvas" style="table-layout: fixed">
   <tbody>
-    <tr>
-      <td colspan="4" class="inner">⟮c:1;XP⟯
-
-    <tr>
-      <td class="inner">⟮c:2;ZP⟯||span=3;class=inner;⟮c:3;X'⟯span=2;|class=inner;⟮c:4;X⟯||class=inner;⟮c:5;YP⟯
+span=4;class=inner;⟮c:1;XP⟯
+class=inner;⟮c:2;ZP⟯||span=3;class=inner;⟮c:3;X'⟯span=2;|class=inner;⟮c:4;X⟯||class=inner;⟮c:5;YP⟯
 
 
 <img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
@@ -282,17 +279,10 @@ under the IP theory, the complement of I is the VP.
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="3" class="inner">⟮c:1;IP⟯
-
-    <tr>
-      <td class="inner">⟮c:2;NP⟯|span=2;class=inner;⟮c:3;I'⟯
-
-    <tr>
-      <td class="inner">|class=inner;⟮c:4;I⟯|class=inner;⟮c:5;VP⟯
-
-    <tr>
-      <td class="leaf">somethin|class=leaf;somethin|class=leaf;somethin
+span=3;class=inner;⟮c:1;IP⟯
+class=inner;⟮c:2;NP⟯|span=2;class=inner;⟮c:3;I'⟯
+class=inner;|class=inner;⟮c:4;I⟯|class=inner;⟮c:5;VP⟯
+class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
 
 
@@ -309,9 +299,8 @@ Evidence: The subject is an argument of the V, but it appears outside of the VP,
   <tbody>
     <tr>
       <td class="inner" colspan="3">⟮c:1;IP⟯
-
-    <tr><td class="inner">⟮c:2;DP⟯|span=3;class=inner;⟮c:3;I′⟯
-    <tr><td class="inner">|class=inner;⟮c:9;I⟯|span=3;class=inner;⟮c:4;VP⟯
+class=inner;⟮c:2;DP⟯|span=3;class=inner;⟮c:3;I′⟯
+class=inner;|class=inner;⟮c:9;I⟯|span=3;class=inner;⟮c:4;VP⟯
     <tr><td class="inner" colspan="2">|class=inner;⟮c:5;DP⟯|span=3;class=inner;⟮c:6;V′⟯
     <tr><td class="inner" colspan="3">|class=inner;⟮c:7;V⟯|class=inner;|class=inner;⟮c:8;DP⟯
 someone<sub><i>i</i></sub>|is|t<sub><i>i</i></sub>|following|us
@@ -330,74 +319,49 @@ In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="2" class="inner">⟮c1;DP⟯
-
-    <tr>
-      <td class="inner">⟮c2;AP⟯|span=2;class=inner;⟮c3;NP⟯
+span=2;class=inner;⟮c1;DP⟯
+class=inner;⟮c2;AP⟯|span=2;class=inner;⟮c3;NP⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;NP⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="2" class="inner">⟮c1;DP⟯
-
-    <tr>
-      <td class="inner">⟮c2;D⟯|span=2;class=inner;⟮c3;NP⟯
+span=2;class=inner;⟮c1;DP⟯
+class=inner;⟮c2;D⟯|span=2;class=inner;⟮c3;NP⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;NP⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
-
-    <tr>
-      <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
+class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
 ######## posessive s
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="3" class="inner">⟮c:1;DP⟯
-
-    <tr>
-      <td class="inner">⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
+span=3;class=inner;⟮c:1;DP⟯
+class=inner;⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
 |class=inner;⟮c:4;D⟯|class=inner;⟮c:5;NP⟯
-
-    <tr>
-      <td class="leaf">[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
+class=leaf;[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
 
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="3" class="inner">⟮c:1;DP⟯
-
-    <tr>
-      <td class="inner">⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
-
-    <tr>
-      <td rowspan="2">|class=inner;⟮c:4;D⟯|span=2;class=inner;⟮c:5;NP⟯
+span=3;class=inner;⟮c:1;DP⟯
+class=inner;⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
+span=1,2;|class=inner;⟮c:4;D⟯|span=2;class=inner;⟮c:5;NP⟯
 |class=inner;⟮c:6;N⟯|class=inner;⟮c:7;PP⟯
-
-    <tr>
-      <td class="leaf">that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
+class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
 
 ####### NP hypothesis
 
 <table class="blank-canvas">
   <tbody>
-    <tr>
-      <td colspan="2" class="inner">⟮c1;NP⟯
-
-    <tr>
-      <td class="inner">⟮c2;D⟯|span=2;class=inner;⟮c3;N'⟯
+span=2;class=inner;⟮c1;NP⟯
+class=inner;⟮c2;D⟯|span=2;class=inner;⟮c3;N'⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;N'⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
-
-    <tr>
-      <td class="leaf">the|class=leaf;best|class=leaf;student|class=leaf;of physics
+class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
 ####### IP hypothesis
@@ -2197,8 +2161,7 @@ Manner ↓
 <th scope="row">Approximant</th>
 <td>|||{{c53::ʋ}}</td>
 <td  colspan="3">|span=3;{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}||||class=no;|class=no;|
-
-  <tr><td colspan="5" class="no"></td>
+span=5;class=no;</td>
       <th colspan="2">Dental</th>
 <th colspan="2">Alveolar</th>
 <th colspan="2">Post­alveolar
