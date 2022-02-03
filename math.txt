@@ -707,7 +707,7 @@ Something with indefinite arity is called ⟮c1;variadic⟯
 A n-ary function takes n arguments.
 3+6=9 is a binary operation.
 Arity of...|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c1;0⟯|⟮c2;nullary⟯
+⟮c1;0⟯|⟮c2;nullary⟯
 ⟮c1;1⟯|⟮c2;unary⟯
 ⟮c3;2⟯|⟮c4;binary⟯
 ⟮c5;3⟯|⟮c6;ternary⟯
@@ -885,7 +885,7 @@ Temperature (K)|Significance
    ⟮c1;Celsius⟯:
 </h2>
 Temperature (°C)|Significance
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c2;0⟯|⟮c3;water freezes (at 1 atm pressure⟯)
+⟮c2;0⟯|⟮c3;water freezes (at 1 atm pressure⟯)
 ⟮c4;100⟯|⟮c5;water boils (at 1 atm pressure⟯)
 ⟮c6;-273.15⟯|⟮c7;absolute zero⟯
 

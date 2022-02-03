@@ -3321,7 +3321,7 @@ Shortcut|Action
 
         Shortcut
       |Action
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c1;⟦⌘⟧ ⟦⇧⟧ <kbd>D</kbd>⟯|⟮c2;Toggle deafen⟯
+⟮c1;⟦⌘⟧ ⟦⇧⟧ <kbd>D</kbd>⟯|⟮c2;Toggle deafen⟯
 ⟮c3;⟦⌘⟧ ⟦⇧⟧ <kbd>U</kbd> ⟯|⟮c4;Upload file⟯
 ⟮c5;⟦⌘⟧ ⟦⌥⟧ <kbd>↑/↓</kbd>⟯|⟮c6;Navigate between servers⟯
 ⟮c7;⟦⌥⟧ <kbd>↑/↓</kbd>⟯|⟮c8;navigate between channels (incl private messages⟯)
@@ -3336,7 +3336,7 @@ Shortcut|Action
 ######## vector editor
 
 Keyboard shortcut|action|programs
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c1;S⟯|⟮c2;Select tool⟯|⟮c3;Inkscape, SVG-Edit⟯
+⟮c1;S⟯|⟮c2;Select tool⟯|⟮c3;Inkscape, SVG-Edit⟯
 ⟮c4;G⟯|⟮c5;group/ungroup⟯|⟮c6;SVG-Edit⟯
 ⟮c7;W⟯|⟮c8;Wireframe mode⟯|⟮c9;SVG-Edit⟯
 ⟮c10;A⟯|⟮c11;Select everything⟯|⟮c12;SVG-Edit⟯
@@ -13855,7 +13855,7 @@ This distinction is however often not made, and often ⟮c13;any name that is a 
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
 Character entity reference / Numeric character reference|Displays as / creates?
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c16;&amp;gt;⟯|⟮c17;&gt;⟯
+⟮c16;&amp;gt;⟯|⟮c17;&gt;⟯
 ⟮c14;&amp;lt;⟯|⟮c15;&lt;⟯
 ⟮c18;&amp;amp;⟯|⟮c19;&amp;⟯
 ⟮c20;&amp;shy;⟯|⟮c21;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
