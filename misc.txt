@@ -3993,98 +3993,94 @@ In ⟮c:15;raking⟯, we often have to ⟮c:16;reset the lock a few times⟯ bef
 
 Three-Strand Braiding
 
-⟮c:1;s:all;<img src="sm__3strandbraid1.jpg">⟯
-⟮c:2;s:all;<img src="sm__3strandbraid2.jpg">⟯
-⟮c:3;s:all;<img src="sm__3strandbraid3.jpg">⟯
-⟮c:4;s:all;<img src="sm__3strandbraid4.jpg">⟯
-⟮c:5;s:all;<img src="sm__3strandbraid5.jpg">⟯
-⟮c:6;s:all;<img src="sm__3strandbraid6.jpg">⟯
-⟮c:7;s:all;<img src="sm__3strandbraid7.jpg">⟯
-⟮c:8;s:all;<img src="sm__3strandbraid8.jpg">⟯
-⟮c:9;s:all;<img src="sm__3strandbraid9.jpg">⟯
-⟮c:10;s:all;<img src="sm__3strandbraid10.jpg">⟯
+1. ⟮c:1;s:all;<img src="sm__3strandbraid1.jpg">⟯
+2. ⟮c:2;s:all;<img src="sm__3strandbraid2.jpg">⟯
+3. ⟮c:3;s:all;<img src="sm__3strandbraid3.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm__3strandbraid4.jpg">⟯
+5. ⟮c:5;s:all;<img src="sm__3strandbraid5.jpg">⟯
+6. ⟮c:6;s:all;<img src="sm__3strandbraid6.jpg">⟯
+7. ⟮c:7;s:all;<img src="sm__3strandbraid7.jpg">⟯
+8. ⟮c:8;s:all;<img src="sm__3strandbraid8.jpg">⟯
+9. ⟮c:9;s:all;<img src="sm__3strandbraid9.jpg">⟯
+10. ⟮c:10;s:all;<img src="sm__3strandbraid10.jpg">⟯
 
 Lark's Head Single Collumn Tie
 
-⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.05.jpg">⟯
-⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.10.jpg">⟯
-⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.34.jpg">⟯
-⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.03.jpg">⟯
-⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.08.jpg">⟯
-⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.20.jpg">⟯
-⟮c:7;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.31.jpg">⟯
+1. ⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.05.jpg">⟯
+2. ⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.10.jpg">⟯
+3. ⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.15.34.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.03.jpg">⟯
+5. ⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.08.jpg">⟯
+6. ⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.20.jpg">⟯
+7. ⟮c:7;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.16.31.jpg">⟯
 
 Double Coin Knot
 
-⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.14.png">⟯
-⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.26.png">⟯
-⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.30.jpg">⟯
-⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.33.jpg">⟯
-⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.36.jpg">⟯
-⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.41.jpg">⟯
+1. ⟮c:1;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.14.png">⟯
+2. ⟮c:2;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.26.png">⟯
+3. ⟮c:3;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.30.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.33.jpg">⟯
+5. ⟮c:5;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.36.jpg">⟯
+6. ⟮c:6;s:all;<img src="sm_Screenshot%202019-09-24%20at%2017.11.41.jpg">⟯
 
+⟮c:12;s:all;Loop-chain leash⟯
 
-<ol>
-  <li>⟮c:1;s:all;<img src="sm_Neck-Lead-02.jpg">⟯</li>
-<li>⟮c:2;s:all;<img src="sm_Neck-Lead-03.jpg">⟯</li>
-<li>⟮c:3;s:all;<img src="sm_Neck-Lead-04.jpg">⟯</li>
-<li>⟮c:4;s:all;<img src="sm_Neck-Lead-05.jpg">⟯</li>
-<li>⟮c:5;s:all;<img src="sm_Neck-Lead-06.jpg">⟯</li>
-<li>⟮c:6;s:all;<img src="sm_Neck-Lead-07.jpg">⟯</li>
-<li>⟮c:7;s:all;<img src="sm_Neck-Lead-08.jpg">⟯</li>
-<li>⟮c:8;s:all;<img src="sm_Neck-Lead-09.jpg">⟯</li>
-<li>⟮c:9;s:all;<img src="sm_Neck-Lead-10.jpg">⟯</li>
-<li>⟮c:10;s:all;<img src="sm_Neck-Lead-11.jpg">⟯</li>
-<li>⟮c:11;s:all;<img src="sm_Neck-Lead-12.jpg">⟯</li>
-<li>⟮c:12;s:all;Loop-chain leash⟯</li>
-</ol>
-<h2>⟮c:5;Square Knot⟯</h2>
-<ol>
-  <li>⟮c:1;s:all;<img src="sm_Square-Knot-01.jpg">⟯</li>
-  <li>⟮c:2;s:all;<img src="sm_Square-Knot-02.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Square-Knot-03.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Square-Knot-04.jpg">⟯</li>
-</ol>
-<h2>⟮c:1;uh:all;Hair tie⟯</h2>
-<ol>
-  <li>⟮c:2;s:all;<img src="sm_Prusik-Hair-Tie-05.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Prusik-Hair-Tie-06.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Prusik-Hair-Tie-07.jpg">⟯</li>
-  <li>⟮c:5;s:all;<img src="sm_Prusik-Hair-Tie-08.jpg">⟯</li>
-</ol>
-<h2>⟮c:1;Surgeons Knot⟯</h2>
-<ol>
-  <li>⟮c:1;s:all;<img src="sm_Surgeons-Knot-01.jpg">⟯</li>
-  <li>⟮c:2;s:all;<img src="sm_Surgeons-Knot-02.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Surgeons-Knot-03.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Surgeons-Knot-04.jpg">⟯</li>
-</ol>
-<h2>⟮c:1;Prusik shackle⟯</h2>
-<ol>
-  <li>⟮c:2;s:all;<img src="sm_Prusik-Shackle-01.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Prusik-Shackle-02.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Prusik-Shackle-04.jpg">⟯</li>
-  <li>⟮c:5;s:all;<img src="sm_Prusik-Shackle-05.jpg">⟯</li>
-</ol>
+1. ⟮c:1;s:all;<img src="sm_Neck-Lead-02.jpg">⟯
+2. ⟮c:2;s:all;<img src="sm_Neck-Lead-03.jpg">⟯
+3. ⟮c:3;s:all;<img src="sm_Neck-Lead-04.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm_Neck-Lead-05.jpg">⟯
+5. ⟮c:5;s:all;<img src="sm_Neck-Lead-06.jpg">⟯
+6. ⟮c:6;s:all;<img src="sm_Neck-Lead-07.jpg">⟯
+7. ⟮c:7;s:all;<img src="sm_Neck-Lead-08.jpg">⟯
+8. ⟮c:8;s:all;<img src="sm_Neck-Lead-09.jpg">⟯
+9. ⟮c:9;s:all;<img src="sm_Neck-Lead-10.jpg">⟯
+10. ⟮c:10;s:all;<img src="sm_Neck-Lead-11.jpg">⟯
+11. ⟮c:11;s:all;<img src="sm_Neck-Lead-12.jpg">⟯
 
-<h2>⟮c:1;Prusik Cuffs⟯</h2>
-<ol>
-  <li>⟮c:2;s:all;<img src="sm_Prusik-Handcuffs-01.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Prusik-Handcuffs-03.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Prusik-Handcuffs-06.jpg">⟯</li>
-  <li>⟮c:5;s:all;<img src="sm_Prusik-Handcuffs-08.jpg">⟯</li>
-</ol>
+⟮c:5;Square Knot⟯
 
-<h2>⟮c:1;Prusic head⟯</h2>
-<ol>
-  <li>⟮c:2;s:all;<img src="sm_Prusik-Head-1-01.jpg">⟯</li>
-  <li>⟮c:3;s:all;<img src="sm_Prusik-Head-1-03.jpg">⟯</li>
-  <li>⟮c:4;s:all;<img src="sm_Prusik-Head-1-04.jpg">⟯</li>
-  <li>⟮c:5;s:all;<img src="sm_Prusik-Head-1-05.jpg">⟯</li>
-  <li>⟮c:6;s:all;<img src="sm_Prusik-Head-1-06.jpg">⟯</li>
-  <li>⟮c:7;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯</li>
-  <li>⟮c:8;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯</li>
-</ol>
+1. ⟮c:1;s:all;<img src="sm_Square-Knot-01.jpg">⟯
+2. ⟮c:2;s:all;<img src="sm_Square-Knot-02.jpg">⟯
+3. ⟮c:3;s:all;<img src="sm_Square-Knot-03.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm_Square-Knot-04.jpg">⟯
+
+⟮c:1;uh:all;Hair tie⟯
+
+1. ⟮c:2;s:all;<img src="sm_Prusik-Hair-Tie-05.jpg">⟯
+2. ⟮c:3;s:all;<img src="sm_Prusik-Hair-Tie-06.jpg">⟯
+3. ⟮c:4;s:all;<img src="sm_Prusik-Hair-Tie-07.jpg">⟯
+4. ⟮c:5;s:all;<img src="sm_Prusik-Hair-Tie-08.jpg">⟯
+
+⟮c:1;Surgeons Knot⟯
+
+1. ⟮c:1;s:all;<img src="sm_Surgeons-Knot-01.jpg">⟯
+2. ⟮c:2;s:all;<img src="sm_Surgeons-Knot-02.jpg">⟯
+3. ⟮c:3;s:all;<img src="sm_Surgeons-Knot-03.jpg">⟯
+4. ⟮c:4;s:all;<img src="sm_Surgeons-Knot-04.jpg">⟯
+
+⟮c:1;Prusik shackle⟯
+
+1. ⟮c:2;s:all;<img src="sm_Prusik-Shackle-01.jpg">⟯
+2. ⟮c:3;s:all;<img src="sm_Prusik-Shackle-02.jpg">⟯
+3. ⟮c:4;s:all;<img src="sm_Prusik-Shackle-04.jpg">⟯
+4. ⟮c:5;s:all;<img src="sm_Prusik-Shackle-05.jpg">⟯
+
+⟮c:1;Prusik Cuffs⟯
+
+1. ⟮c:2;s:all;<img src="sm_Prusik-Handcuffs-01.jpg">⟯
+2. ⟮c:3;s:all;<img src="sm_Prusik-Handcuffs-03.jpg">⟯
+3. ⟮c:4;s:all;<img src="sm_Prusik-Handcuffs-06.jpg">⟯
+4. ⟮c:5;s:all;<img src="sm_Prusik-Handcuffs-08.jpg">⟯
+
+⟮c:1;Prusic head⟯
+
+1. ⟮c:2;s:all;<img src="sm_Prusik-Head-1-01.jpg">⟯
+2. ⟮c:3;s:all;<img src="sm_Prusik-Head-1-03.jpg">⟯
+3. ⟮c:4;s:all;<img src="sm_Prusik-Head-1-04.jpg">⟯
+4. ⟮c:5;s:all;<img src="sm_Prusik-Head-1-05.jpg">⟯
+5. ⟮c:6;s:all;<img src="sm_Prusik-Head-1-06.jpg">⟯
+6. ⟮c:7;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯
+7. ⟮c:8;s:all;<img src="sm_Prusik-Head-1-07.jpg">⟯
 
 # Spanish
 

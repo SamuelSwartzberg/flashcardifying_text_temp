@@ -176,18 +176,13 @@ One possible grouping of clean language questions (there are others)
         questions)) ⟮(c:25;2/3⟯ of questions asked)
       |⟮c:7;asking for a metaphor⟯|
         ⟮c:8;relationship between symbols⟯<br>Purpose: connecting symbols
-
-        <ol>
-          <li>⟮c:4;(And) what would X like to have happen?⟯</li>
-          <li>⟮c:5;(And) what needs to happen for X?⟯</li>
-          <li>⟮(c:9;And) can X (happen)?⟯</li>
-        </ol>
+          1. ⟮c:4;(And) what would X like to have happen?⟯
+          2. ⟮c:5;(And) what needs to happen for X?⟯
+          3. ⟮(c:9;And) can X (happen)?⟯
       |
-        <ol>
-          <li>⟮c:10;(And) then what happens?⟯ or ⟮c:11;(And) what happens next?⟯</li>
-          <li>⟮c:12;(And) what happens just before X?⟯</li>
-          <li>⟮c:13;(And) where could X come from?⟯</li>
-        </ol>
+          1. ⟮c:10;(And) then what happens?⟯ or ⟮c:11;(And) what happens next?⟯
+          2. ⟮c:12;(And) what happens just before X?⟯
+          3. ⟮c:13;(And) where could X come from?⟯
       |
         <ol>
           <li>
@@ -227,23 +222,19 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 ## coin metaphor
 
-<ol>
-<li>⟮c:1;Take out some coins ⟯</li>
-<li>⟮c:2;s:1;What do they mean to you?⟯</li>
-<li>⟮c:3;s:1-2;Arrange them to represent you and family/friends⟯</li>
-<li>⟮c:4;s:1-3;Remove one⟯</li>
-<li>⟮c:5;s:1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)</li>
-</ol>
+1. ⟮c:1;Take out some coins ⟯
+2. ⟮c:2;s:1;What do they mean to you?⟯
+3. ⟮c:3;s:1-2;Arrange them to represent you and family/friends⟯
+4. ⟮c:4;s:1-3;Remove one⟯
+5. ⟮c:5;s:1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
 
 ## breaking point story
 
-<ol>
-<li>⟮c:1;Meeting was going on for ages⟯</li>
-<li>⟮c:2;s:1;Sales director said "I think we're at breaking point"⟯</li>
-<li>⟮c:3;s:1-2;Person thinks "Why the hell is the meeting about to breakdown"⟯</li>
-<li>⟮c:4;s:1-3;But remembers clean language and asks "What kind of breaking point"⟯</li>
-<li>⟮c:5;s:1-4;Sales director says "The point of breaking through"⟯</li>
-</ol>
+1. ⟮c:1;s:gb;Meeting was going on for ages⟯
+2. ⟮c:2;s:gb;Sales director said "I think we're at breaking point"⟯
+3. ⟮c:3;s:gb;Person thinks "Why the hell is the meeting about to kdown"⟯
+4. ⟮c:4;s:gb;But remembers clean language and asks "What kind of king point"⟯
+5. ⟮c:5;s:gb;Sales director says "The point of breaking through"⟯
 
 ## questions in other languages
 

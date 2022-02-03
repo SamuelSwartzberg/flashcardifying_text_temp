@@ -1812,33 +1812,33 @@ li::before {
 ```
 
 ```
-<ol>
-  <li>item</li>          <!-- 1     -->
-  <li>item               <!-- 2     -->
-    <ol>
-      <li>item</li>      <!-- 2.1   -->
-      <li>item</li>      <!-- 2.2   -->
-      <li>item           <!-- 2.3   -->
-        <ol>
-          <li>item</li>  <!-- 2.3.1 -->
-          <li>item</li>  <!-- 2.3.2 -->
-        </ol>
-        <ol>
-          <li>item</li>  <!-- 2.3.1 -->
-          <li>item</li>  <!-- 2.3.2 -->
-          <li>item</li>  <!-- 2.3.3 -->
-        </ol>
-      </li>
-      <li>item</li>      <!-- 2.4   -->
-    </ol>
-  </li>
-  <li>item</li>          <!-- 3     -->
-  <li>item</li>          <!-- 4     -->
-</ol>
-<ol>
-  <li>item</li>          <!-- 1     -->
-  <li>item</li>          <!-- 2     -->
-</ol>
+&#x3C;ol&#x3E;
+  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 1     --&#x3E;
+  &#x3C;li&#x3E;item               &#x3C;!-- 2     --&#x3E;
+    &#x3C;ol&#x3E;
+      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.1   --&#x3E;
+      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.2   --&#x3E;
+      &#x3C;li&#x3E;item           &#x3C;!-- 2.3   --&#x3E;
+        &#x3C;ol&#x3E;
+          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.1 --&#x3E;
+          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.2 --&#x3E;
+        &#x3C;/ol&#x3E;
+        &#x3C;ol&#x3E;
+          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.1 --&#x3E;
+          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.2 --&#x3E;
+          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.3 --&#x3E;
+        &#x3C;/ol&#x3E;
+      &#x3C;/li&#x3E;
+      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.4   --&#x3E;
+    &#x3C;/ol&#x3E;
+  &#x3C;/li&#x3E;
+  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 3     --&#x3E;
+  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 4     --&#x3E;
+&#x3C;/ol&#x3E;
+&#x3C;ol&#x3E;
+  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 1     --&#x3E;
+  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 2     --&#x3E;
+&#x3C;/ol&#x3E;
 ```
 
 ###### animations & transitions
@@ -13245,13 +13245,11 @@ If you want to fix a bug under TDD, first write a test exposing the defect
 
 TDD core loop: 
 
-<ol>
-<li>Write unit test for feature</li>
-<li>Run test, should fail (feature is not implemented)</li>
-<li>Write code</li>
-<li>Test should now succeed</li>
-<li>Refactor</li>
-</ol>
+1. Write unit test for feature
+2. Run test, should fail (feature is not implemented
+3. Write code
+4. Test should now succeed
+5. Refactor
 
 #### things used
 
