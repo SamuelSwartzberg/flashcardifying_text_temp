@@ -230,11 +230,11 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 ## breaking point story
 
-1. ⟮c:1;s:gb;Meeting was going on for ages⟯
-2. ⟮c:2;s:gb;Sales director said "I think we're at breaking point"⟯
-3. ⟮c:3;s:gb;Person thinks "Why the hell is the meeting about to kdown"⟯
-4. ⟮c:4;s:gb;But remembers clean language and asks "What kind of king point"⟯
-5. ⟮c:5;s:gb;Sales director says "The point of breaking through"⟯
+1. ⟮c:1;s:b;Meeting was going on for ages⟯
+2. ⟮c:2;s:b;Sales director said "I think we're at breaking point"⟯
+3. ⟮c:3;s:b;Person thinks "Why the hell is the meeting about to kdown"⟯
+4. ⟮c:4;s:b;But remembers clean language and asks "What kind of king point"⟯
+5. ⟮c:5;s:b;Sales director says "The point of breaking through"⟯
 
 ## questions in other languages
 
@@ -261,4 +261,4 @@ Name|Definition|Examples
 
 ## sliding doors moment
 
-§§ A ⟮c:1;sliding doors moment⟯, named after ⟮c:2;a late 1990s romcom⟯, is ⟮c:3;a seemingly inconsequential moment⟯ that ⟮c:4;nonetheless alters the trajectory of future events⟯, ⟮s:gb;and especially a minor moment where ⟮c:5;there is a choice⟯ to ⟮c:6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯ §<br>
+§§ A ⟮c:1;sliding doors moment⟯, named after ⟮c:2;a late 1990s romcom⟯, is ⟮c:3;a seemingly inconsequential moment⟯ that ⟮c:4;nonetheless alters the trajectory of future events⟯, ⟮s:b;and especially a minor moment where ⟮c:5;there is a choice⟯ to ⟮c:6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯ §<br>

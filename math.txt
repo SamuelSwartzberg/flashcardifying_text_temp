@@ -83,7 +83,7 @@ nth digit|value
 
 ⟮c:9;a byte⟯ ⟮c:11;traditionally⟯ ⟮c:10;contains 8 bits⟯, ⟮c:11;though there are rare variant definitions⟯. 
 unambiguously, ⟮c:12;8 bits⟯ are called ⟮c:13;an octet⟯. 
-⟮c:14;4 bits⟯ are called ⟮c:15;a nibble⟯ (coined ⟮c:16;s:gb;by analogy to byte⟯). 
+⟮c:14;4 bits⟯ are called ⟮c:15;a nibble⟯ (coined ⟮c:16;s:b;by analogy to byte⟯). 
 a ⟮c:1;16⟯-⟮c:2;bit⟯ aggregation ⟮(c:1;2⟯ ⟮c:2;bytes⟯, ⟮c:1;4⟯ ⟮c:2;nibbles⟯) may be called a ⟮c:4;s:3;hexadectet::h...⟯ (short: ⟮c:3;s:4;hextet::h...⟯ ) 
 a ⟮c:5;16⟯-⟮c:6;bit⟯ aggregation ⟮(c:5;2⟯ ⟮c:6;bytes⟯, ⟮c:5;4⟯ ⟮c:6;nibbles⟯) may be called a ⟮c:8;s:7;quad-nibble::q...⟯ (short: ⟮c:7;s:8;quibble::q...⟯ ) 
 
@@ -418,7 +418,7 @@ For an ⟮c:42;undirected graph⟯, an ⟮c:43;edge⟯ is described by ⟮c:44;a
 For an ⟮c:45;directed graph⟯, the ⟮c:46;edge⟯ is described by ⟮c:47;a ordered pair.⟯ 
 
 ⟮c:48;Graphs⟯ may be ⟮c:49;directed⟯, that is ⟮c:50;an edge has a direction⟯, or ⟮c:49;undirected⟯, that is ⟮c:50;an edge does not have a direction⟯. 
-⟮c:51;Graphs⟯ may be ⟮c:52;simple⟯, where ⟮c:53;two vertices may only be connected by a single edge⟯, or ⟮s:gb; ⟮c:54;a multigraph⟯, where ⟮c:55;two vertices may be connected by multiple edges⟯.⟯ 
+⟮c:51;Graphs⟯ may be ⟮c:52;simple⟯, where ⟮c:53;two vertices may only be connected by a single edge⟯, or ⟮s:b; ⟮c:54;a multigraph⟯, where ⟮c:55;two vertices may be connected by multiple edges⟯.⟯ 
 A ⟮c:56;weighted⟯ ⟮c:57;graph⟯ is a ⟮c:57;graph⟯ in which ⟮c:58;a number is assigned⟯ to ⟮c:59;each edge⟯. 
 ⟮c:60;Weighted graphs⟯ are relevant for ⟮c:61;shortest path problems⟯. 
 
@@ -464,9 +464,9 @@ The ⟮c:106;length⟯ ⟮c:107;k⟯ of ⟮c:108;walks/trails/paths/circuits/cyc
 [[[⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h:∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯]]]
 
 ⟮c:113;Two vertices⟯ are ⟮c:110;connected⟯ if ⟮c:111;there is a path between two vertices⟯, else ⟮s:110;they are ⟮c:112;disconnected⟯.⟯ 
-⟮c:114;A graph⟯ is ⟮c:115;connected⟯ if ⟮c:116;every pair of vertices are connected⟯, ergo ⟮c:117;s:gb;there is a path between any two vertices⟯, else it is ⟮c:118;s:gb;disconnected⟯. 
+⟮c:114;A graph⟯ is ⟮c:115;connected⟯ if ⟮c:116;every pair of vertices are connected⟯, ergo ⟮c:117;s:b;there is a path between any two vertices⟯, else it is ⟮c:118;s:b;disconnected⟯. 
 
-A ⟮c:119;subgraph⟯ is a ⟮c:120;graph⟯ made up of ⟮c:121;a subset of⟯ ⟮c:122;vertices⟯ and ⟮c:122;edges⟯ of G. ⟮s:gb;The ⟮c:123;subset of vertices⟯ ⟮c:125;must contain⟯ ⟮c:124;all endpoints of the edges⟯.⟯ 
+A ⟮c:119;subgraph⟯ is a ⟮c:120;graph⟯ made up of ⟮c:121;a subset of⟯ ⟮c:122;vertices⟯ and ⟮c:122;edges⟯ of G. ⟮s:b;The ⟮c:123;subset of vertices⟯ ⟮c:125;must contain⟯ ⟮c:124;all endpoints of the edges⟯.⟯ 
 A ⟮c:126;subtree⟯ is a ⟮c:127;subgraph⟯ of a ⟮c:128;tree⟯. 
 A ⟮c:129;proper subgraph⟯ is a ⟮c:130;subgraph of the graph⟯ that ⟮c:131;is not the current graph (and analogously for subtree⟯) 
 
@@ -522,7 +522,7 @@ A ⟮c:9;binary search tree⟯ is ⟮c:10;a binary tree⟯ defined by ⟮c:11;th
 In a ⟮c:14;binary search tree⟯, ⟮c:18;the key in the current vertex⟯ is ⟮c:16;larger than⟯ ⟮c:20;the key in any vertices in the left subtree⟯. 
 In a ⟮c:15;binary search tree⟯, ⟮c:19;the key in the current vertex⟯ is ⟮c:17;smaller than⟯ ⟮c:21;the key in any vertices in the right subtree⟯. 
 
-To ⟮c:22;insert a vertex in a binary search tree⟯, we ⟮c:23;traverse the tree⟯ as if we were ⟮c:24;searching for the vertex⟯, then, ⟮s:gb;when ⟮c:25;we hit a leaf⟯, we ⟮c:26;insert it⟯ as ⟮c:26;left or right (as the case may be⟯).⟯ 
+To ⟮c:22;insert a vertex in a binary search tree⟯, we ⟮c:23;traverse the tree⟯ as if we were ⟮c:24;searching for the vertex⟯, then, ⟮s:b;when ⟮c:25;we hit a leaf⟯, we ⟮c:26;insert it⟯ as ⟮c:26;left or right (as the case may be⟯).⟯ 
 
 In ⟮c:26;deleting a vertex⟯ in ⟮c:23;a binary search tree⟯, if ⟮c:24;the vertex has no children⟯, ⟮c:25;simply delete the vertex⟯ 
 In ⟮c:27;deleting a vertex⟯ in ⟮c:28;a binary search tree⟯, if ⟮c:29;the vertex has one child⟯, ⟮c:30;set the reference of the parent to that of the child⟯ 

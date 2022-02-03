@@ -85,7 +85,7 @@ PI|Processing instruction
 
 ⟮c:1;CDATA⟯ is short for ⟮c:2;Character data⟯) 
 ⟮c:10;CDATA⟯ ⟮c:3;tells the parser not to parse the content as XML markup⟯ 
-⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:gb;this would allow us to ⟮c:13;include HTML within XML without a problem⟯.⟯ 
+⟮c:11;CDATA⟯ allows us to ⟮c:4;use characters with a special meaning in XML⟯ without ⟮c:5;confusing the parser⟯, for example, ⟮s:b;this would allow us to ⟮c:13;include HTML within XML without a problem⟯.⟯ 
 ⟮c:12;CDATA⟯ syntax: `⟮c:6;&lt;![⟯⟮c:7;CDATA⟯⟮c:8;[⟯content...⟮c:9;]]&gt;⟯` 
 
 ### HTML
@@ -3093,8 +3093,8 @@ The cursor is reasonably narrow   insert mode (the kind of thing that the ins ke
 caps lock|makes all latin characters generate uppercase characters but not alternate characters
 shift lock|acts as shift was continuously pressed, that is, generates both uppercase and alternate characters respectively
 
-On ⟮c:13;windows⟯ under ⟮c:14;certain keyboard layouts⟯, ⟮h:14;e.g. ⟮c:15;AZERTY and QWERTZ⟯,⟯ the ⟮c:16;caps lock key⟯ ⟮c:17;acts as shift lock⟯, ⟮h:gb;however not on ⟮c:18;mac⟯, and ⟮c:19;there is no setting to make it so⟯, making ⟮c:20;any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
-Many operating systems support ⟮c:21;typing 'normal' characters⟯ by ⟮c:22;pressing shift⟯ when in ⟮c:23;capslock / shiftlock mode⟯⟮h:gb;, however, not ⟮c:24;mac⟯⟯. 
+On ⟮c:13;windows⟯ under ⟮c:14;certain keyboard layouts⟯, ⟮h:14;e.g. ⟮c:15;AZERTY and QWERTZ⟯,⟯ the ⟮c:16;caps lock key⟯ ⟮c:17;acts as shift lock⟯, ⟮h:b;however not on ⟮c:18;mac⟯, and ⟮c:19;there is no setting to make it so⟯, making ⟮c:20;any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
+Many operating systems support ⟮c:21;typing 'normal' characters⟯ by ⟮c:22;pressing shift⟯ when in ⟮c:23;capslock / shiftlock mode⟯⟮h:b;, however, not ⟮c:24;mac⟯⟯. 
 
 ##### types of keys
 
@@ -3374,9 +3374,9 @@ If in VSCode you have ⟮c1;as many text cursors⟯ as ⟮c2;the thing you want 
 ##### autocomplete
 
 <dfn>⟮c:1;Autocomplete/word completion⟯</dfn> is a feature where ⟮c:2;an application predicts the rest of something the user is typing⟯.  
-<dfn>⟮c:3;Autocomplete/word completion⟯</dfn> on ⟮c:4;smartphone keyboards⟯ is called <dfn>⟮c:5;predictive text⟯</dfn>, ⟮s:gb;this used to refer to ⟮c:6;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
-<dfn>⟮c:7;Autocomplete/word completion⟯</dfn> ⟮c:8;in a command-line interface⟯ is called <dfn>⟮c:9;command-line⟯</dfn> or <dfn>⟮c:9;tab⟯ ⟮c:9;completion⟯</dfn>, ⟮s:gb;which generally uses ⟮c:10;the tab key (whence the name⟯).⟯ 
-<dfn>⟮c:11;Autocomplete/word completion⟯</dfn> in ⟮c:12;code editors⟯ is also known as <dfn>⟮c:13;code completion⟯</dfn>. Examples include ⟮s:gb;⟮c:14;VS &amp; VS Code⟯'s ⟮c:15;IntelliSense⟯, and ⟮c:16;AI (modfied GPT-3⟯)-powered ⟮c:17;GitHub Copilot⟯.⟯ 
+<dfn>⟮c:3;Autocomplete/word completion⟯</dfn> on ⟮c:4;smartphone keyboards⟯ is called <dfn>⟮c:5;predictive text⟯</dfn>, ⟮s:b;this used to refer to ⟮c:6;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
+<dfn>⟮c:7;Autocomplete/word completion⟯</dfn> ⟮c:8;in a command-line interface⟯ is called <dfn>⟮c:9;command-line⟯</dfn> or <dfn>⟮c:9;tab⟯ ⟮c:9;completion⟯</dfn>, ⟮s:b;which generally uses ⟮c:10;the tab key (whence the name⟯).⟯ 
+<dfn>⟮c:11;Autocomplete/word completion⟯</dfn> in ⟮c:12;code editors⟯ is also known as <dfn>⟮c:13;code completion⟯</dfn>. Examples include ⟮s:b;⟮c:14;VS &amp; VS Code⟯'s ⟮c:15;IntelliSense⟯, and ⟮c:16;AI (modfied GPT-3⟯)-powered ⟮c:17;GitHub Copilot⟯.⟯ 
 
 ### Natural Language Processing
 
@@ -3434,7 +3434,7 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 #### theming
 
 ⟮h:∞;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
-A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:gb;It may also refer to ⟮c:4;the set of files that define a theme/skin.⟯⟯ 
+A ⟮c:1;s:2;theme⟯ or ⟮c:2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c:3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮h:b;It may also refer to ⟮c:4;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
 #### widgeting toolkits
@@ -3525,7 +3525,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 On ⟮c:1;desktop⟯, a ⟮c:2;status bar⟯ is a ⟮c:3;horizontal⟯ ⟮c:4;bar⟯ generally at ⟮c:5;the bottom of a window⟯. 
 A ⟮c:15;status bar⟯ on desktop displays ⟮c:6;various kinds of information⟯, often used when ⟮c:7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
 On ⟮c:8;mobile⟯, a ⟮c:9;status bar⟯ is a ⟮c:10;horizontal⟯ ⟮c:11;bar⟯ at ⟮c:12;the top of the screeen⟯. 
-A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;system⟯ ⟮c:13;icons⟯ ⟮h:gb;(such as ⟮c:14;power, networks, time⟯⟯) 
+A ⟮c:16;status bar⟯ on mobile contains ⟮c:13;notification⟯ and ⟮c:13;system⟯ ⟮c:13;icons⟯ ⟮h:b;(such as ⟮c:14;power, networks, time⟯⟯) 
 
 ###### taskbar
 
@@ -3541,7 +3541,7 @@ Despite being called '⟮c:8;Dock⟯', it's just ⟮c:9;macOs⟯'s version of a 
 
 [[[⟮h:∞;<img src="sm_toggle_side_bar.gif">⟯]]]
 
-VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:gb;⟮c:13;5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯⟯. 
+VS Code's ⟮c:11;activity bar⟯ is a ⟮c:12;nav(igation) bar⟯ containing ⟮s:b;⟮c:13;5 (by default) icons⟯ that ⟮c:14;trigger sidebars⟯⟯. 
 
 [[[⟮h:∞;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
 
@@ -3566,7 +3566,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 ##### sidebars
 
 [[[⟮h:∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h:∞;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h:∞;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h:∞;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h:∞;<img src="sidebars.png">⟯]]]
-A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:gb;Sidebars may be ⟮c:5;navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:gb;Sidebars are generally ⟮c:8;reasonably wide (i.e. not just icons).⟯⟯⟯ 
+A ⟮c:1;sidebar⟯ is an UI element that is displayed ⟮c:2;to the side of⟯ ⟮c:3;the main content⟯ or ⟮c:4;of the screen⟯. ⟮h:b;Sidebars may be ⟮c:5;navigation bars⟯, contain ⟮c:6;tools⟯ or contain ⟮c:7;further content⟯. ⟮h:b;Sidebars are generally ⟮c:8;reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
 
@@ -3757,9 +3757,9 @@ Commonly, ⟮c:156;saturation⟯ ≈ ⟮c:157;chroma⟯ refers to ⟮c:158;the d
 ⟮c:183;HSV⟯ = ⟮c:187;hue, saturation, value⟯ ⟮c:190;is the same as⟯ ⟮c:188;HSB⟯ = ⟮c:189;hue, saturation, brightness.⟯ 
 ⟮c:184;HSL⟯ and ⟮c:184;HSV/HSB⟯ are alternate ⟮c:191;color models⟯, which are both ⟮c:192;variants of/generated from⟯ ⟮c:193;the RGB color model⟯. 
 ⟮c:185;HSL⟯ and ⟮c:185;HSV⟯ were created because ⟮c:194;they are more natural to how we as humans understand color.⟯ 
-⟮s:ga;While ⟮c:195;RGB⟯ and ⟮c:195;CMY⟯ are most naturally represented as ⟮c:196;cubes⟯⟯, ⟮s:gb;⟮c:197;HSL⟯ and ⟮c:197;HSV/HSB⟯ are commonly represented as ⟮c:198;cylinders⟯⟯. 
-Since ⟮c:199;the top and bottom⟯ of ⟮c:200;a ⟮s:202;HSL⟯ cylinder⟯ ⟮c:201;all approach the same color (white and black respectively⟯), ⟮s:gb;⟮c:202;HSL⟯ may also ⟮c:203;be represented as a bicone⟯⟯. 
-Since the ⟮c:204;bottom⟯ of ⟮c:205;a HSV/HSB cylinder⟯ ⟮c:206;approaches the same color (black⟯), ⟮s:gb;HSV/HSB may more naturally be represented as a cone.⟯ 
+⟮s:ga;While ⟮c:195;RGB⟯ and ⟮c:195;CMY⟯ are most naturally represented as ⟮c:196;cubes⟯⟯, ⟮s:b;⟮c:197;HSL⟯ and ⟮c:197;HSV/HSB⟯ are commonly represented as ⟮c:198;cylinders⟯⟯. 
+Since ⟮c:199;the top and bottom⟯ of ⟮c:200;a ⟮s:202;HSL⟯ cylinder⟯ ⟮c:201;all approach the same color (white and black respectively⟯), ⟮s:b;⟮c:202;HSL⟯ may also ⟮c:203;be represented as a bicone⟯⟯. 
+Since the ⟮c:204;bottom⟯ of ⟮c:205;a HSV/HSB cylinder⟯ ⟮c:206;approaches the same color (black⟯), ⟮s:b;HSV/HSB may more naturally be represented as a cone.⟯ 
 ⟮c:207;HSL⟯ and ⟮c:208;HSV/HSB⟯ both have ⟮s:211-212;⟮c:209;hue⟯ as ⟮c:210;the degree⟯⟯, and ⟮s:209-210;⟮c:211;saturation⟯ as ⟮c:212;the radius⟯.⟯ 
 ⟮c:213;HSL⟯ has ⟮c:214;lightness⟯ as ⟮c:215;the height.⟯ 
 ⟮c:216;HSV/HSB⟯ has v⟮c:217;alue/brightness⟯ as ⟮c:218;the height⟯.  
@@ -4223,7 +4223,7 @@ mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
 ⟮h:∞;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
-For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:gb;To ⟮c:4;add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:gb;You can use this to search ⟮c:6;pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.⟯⟯ 
+For ⟮c:2;Finder⟯, ⟮c:1;whenever you search anything in the top right bar⟯, ⟮c:3;a Searching/Find window opens⟯. ⟮h:b;To ⟮c:4;add filters to the search⟯, ⟮c:5;click the small plus in the top right corner⟯. ⟮h:b;You can use this to search ⟮c:6;pretty much any of the files properties⟯ with ⟮c:7;fine granularity⟯.⟯⟯ 
 
 ##### information
 
@@ -5084,13 +5084,13 @@ Latex ⟮c:15;section commands⟯ take ⟮c:16;the full section title⟯ as ⟮c
 
 ######### Latex section hierarchy
 
-1. ⟮c:1;s:gb;part⟯
-2. ⟮c:2;s:gb;chapter⟯
+1. ⟮c:1;s:b;part⟯
+2. ⟮c:2;s:b;chapter⟯
 3. ⟮c:3;s:gb,6-7;section⟯
 4. ⟮c:4;s:gb,6-7;subsection⟯
 5. ⟮c:5;s:gb,7;subsubsection⟯
-6. ⟮c:6;s:gb;paragraph⟯
-7. ⟮c:7;s:gb;subparagraph⟯
+6. ⟮c:6;s:b;paragraph⟯
+7. ⟮c:7;s:b;subparagraph⟯
 
 ######## latex groups
 
@@ -12648,9 +12648,9 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 Python ⟮c:1;2⟯ and ⟮c:1;3⟯ have ⟮c:2;some syntactic differences.⟯ 
 ES2015|ES6
-The rust development cycle has the three release channels ⟮c:1;Nightly⟯, ⟮c:2;Beta⟯ and ⟮c:3;Stable::S...⟯. ⟮s:gb;⟮c:4;Every six weeks⟯ ( = ⟮c:5;1 cycle⟯), ⟮c:6; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
+The rust development cycle has the three release channels ⟮c:1;Nightly⟯, ⟮c:2;Beta⟯ and ⟮c:3;Stable::S...⟯. ⟮s:b;⟮c:4;Every six weeks⟯ ( = ⟮c:5;1 cycle⟯), ⟮c:6; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
 Therefore, ⟮s:10-12;⟮c:7;what is beta now⟯ will be ⟮c:8;stable⟯ in ⟮c:9;a maximum of 6 weeks⟯⟯, and ⟮s:7-9;⟮c:10;what is nightly now⟯ will be ⟮c:11;stable⟯ in ⟮c:12;at most 12 weeks⟯.⟯ 
-⟮c:17;Breaking changes (such as reserving new features⟯) can only happen on ⟮c:18;the highest rust versioning level⟯, which are ⟮c:19;editions⟯. ⟮s:gb;these are released ⟮c:20;about every three years⟯, with the ones in existence as of writing being ⟮c:21;2015, 2018, and 2021⟯⟯ 
+⟮c:17;Breaking changes (such as reserving new features⟯) can only happen on ⟮c:18;the highest rust versioning level⟯, which are ⟮c:19;editions⟯. ⟮s:b;these are released ⟮c:20;about every three years⟯, with the ones in existence as of writing being ⟮c:21;2015, 2018, and 2021⟯⟯ 
 
 #### dialects, influence, etc.
 
@@ -13730,7 +13730,7 @@ In a blue-green deployment, initially all users are routed to the blue env. Once
 
 feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
 Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
-Rust hides ⟮c:13;unstable/experimental⟯ ⟮c:13;features⟯ behind ⟮c:14;feature flags⟯, ⟮s:gb;which you ⟮c:15;can only activate⟯ on ⟮c:16;nightly⟯⟯. 
+Rust hides ⟮c:13;unstable/experimental⟯ ⟮c:13;features⟯ behind ⟮c:14;feature flags⟯, ⟮s:b;which you ⟮c:15;can only activate⟯ on ⟮c:16;nightly⟯⟯. 
 
 # Misc/no place yet
 
@@ -13848,8 +13848,8 @@ hexadecimal
 
 §§ HTML has ⟮c:1;two ways⟯ of specifying ⟮c:2;character escapes⟯. 
 Both ways HTML has for specifying character escapes ⟮c:3;start with an &amp;⟯ and ⟮c:4;end with a semicolon ;⟯.
-Of these, ⟮c:6;numeric character references⟯ ⟮c:7;refer to the character position within character set (most commmonly UTF-8⟯), ⟮s:gb;they start ⟮c:8;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮h:gb;(for example ⟮c:9;&amp;#8203;⟯⟯⟯) 
-⟮c:10;Character entity references⟯ ⟮c:11;have a short, memorable name⟯ ⟮h:gb;(for example ⟮c:12;&amp;amp; or &amp;quot⟯⟯) 
+Of these, ⟮c:6;numeric character references⟯ ⟮c:7;refer to the character position within character set (most commmonly UTF-8⟯), ⟮s:b;they start ⟮c:8;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮h:b;(for example ⟮c:9;&amp;#8203;⟯⟯⟯) 
+⟮c:10;Character entity references⟯ ⟮c:11;have a short, memorable name⟯ ⟮h:b;(for example ⟮c:12;&amp;amp; or &amp;quot⟯⟯) 
 This distinction is however often not made, and often ⟮c:13;any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity⟯) are used. 
 
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.

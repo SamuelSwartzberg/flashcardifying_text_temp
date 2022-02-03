@@ -2971,8 +2971,8 @@ emoticon eyes|meaning
 General pattern for kaomoji:
 ```
 kaomoji ::= ⟮c:17;[&lt;left-arm&gt;]⟯⟮c:27;&lt;head&gt;⟯⟮c:17;[&lt;right-arm&gt;]⟯
-⟮h:gb;((c:30;::head⟯ ::= ⟮c:18;[&lt;left-head&gt;]⟯⟮c:28;&lt;face&gt;⟯⟮c:18;[&lt;right-head&gt;]⟯
-⟮h:gb;⟮c:31;face⟯ ::= ⟮c:19;[&lt;left-cheek&gt;]⟯⟮c:29;&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;⟯⟮c:19;[&lt;right-cheek&gt;]⟯⟯))
+⟮h:b;((c:30;::head⟯ ::= ⟮c:18;[&lt;left-head&gt;]⟯⟮c:28;&lt;face&gt;⟯⟮c:18;[&lt;right-head&gt;]⟯
+⟮h:b;⟮c:31;face⟯ ::= ⟮c:19;[&lt;left-cheek&gt;]⟯⟮c:29;&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;⟯⟮c:19;[&lt;right-cheek&gt;]⟯⟯))
 ```
 most common ⟮c:32;head delimiters⟯: ⟮c:33;(⟯) 
 
