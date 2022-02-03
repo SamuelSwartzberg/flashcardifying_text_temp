@@ -218,7 +218,7 @@ Ergo adjoining something to a YP results in a larger YP.
 Adjunction can be recursive.
 An adjunct can be any type of phrase.
 
-[[[<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">]]]
+flex-container:<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
 
 <table class="blank-canvas" style="table-layout: fixed">
   <tbody>
@@ -227,7 +227,7 @@ class=inner;⟮c2;ZP⟯||span=3;class=inner;⟮c3;X'⟯span=2;|class=inner;⟮c4
 
 
 
-[[[<img src="sm_Screenshot 2020-10-13 at 00.28.29.png">]]]
+flex-container:<img src="sm_Screenshot 2020-10-13 at 00.28.29.png">
 X|the head
 YP|the complement
 ZP|the specifier
@@ -2547,7 +2547,7 @@ A blank line is two newlines.
 
 Serifs are these little bits sticking out of some letters.
 
-[[[<img src="sm_tmprdkiv_z1.jpg">]]]
+flex-container:<img src="sm_tmprdkiv_z1.jpg">
 One major axis along which font families are distinguished is if they have serifs or not.
 ⟮c1;installing custom font families⟯ is possible on ⟮c2;most desktop os⟯, but not on ⟮c3;android⟯ (and ofc not on ⟮c4;ios⟯)
 A monospaced font where all characters occupy the same horizontal space.
@@ -2581,7 +2581,7 @@ Original, the ⟮c11;kern⟯ of ⟮c12;a glyph or its sort⟯ was ⟮c13;the par
 
 ####### type, sort
 
-[[[⟮h∞;<img src="sm_220px-Metal_movable_type.jpg">⟯]]]
+flex-container:⟮h∞;<img src="sm_220px-Metal_movable_type.jpg">⟯
 ⟮c1;Type⟯ is the ⟮c2;the pieces⟯ (normally of ⟮c3;metal⟯) with ⟮c4;a character on them⟯ used ⟮c5;for printing⟯. 
 A ⟮c6;piece of type⟯ for ⟮c7;a single character⟯ is called ⟮c8;a sort (or type, see below⟯). 
 ⟮c9;Type⟯ may be ⟮c10;synonymous to sort⟯, or may ⟮c11;refer to type/sort collectively⟯. 
@@ -2617,7 +2617,7 @@ The ⟮c13;CSS⟯ ⟮c12;pt⟯ is ⟮c14;the same as the DTP point⟯, as is ⟮
 
 ####### properties
 
-[[[⟮h∞;<img src="1280px-Typography_Line_Terms.svg.png">⟯⟮h∞;<img src="decender.png">⟯⟮h∞;<img src="1280px-Thank_You_(13824254433).jpg">⟯]]]
+flex-container:⟮h∞;<img src="1280px-Typography_Line_Terms.svg.png">⟯⟮h∞;<img src="decender.png">⟯⟮h∞;<img src="1280px-Thank_You_(13824254433).jpg">⟯
 The ⟮c18;body height⟯ when talking about ⟮c19;movable type⟯ is ⟮c20;the height of the sort⟯. 
 The ⟮c21;body height⟯ when talking about ⟮c22;digital typography⟯ is ⟮c23;the distance between⟯ ⟮c24;the top of the tallest letterform⟯ and ⟮c24;the bottom of the lowest one⟯. 
 Equivalently, we may also define ⟮c26;the body height⟯ as ⟮c25;the distance between⟯ ⟮c27;the ascender⟯ and ⟮c27;descender⟯ ⟮c27;line⟯. 

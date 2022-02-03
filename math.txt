@@ -128,7 +128,7 @@ A number in a positional numeral system will be even if its final digit is even.
 
 
 
-[[[<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">]]]
+flex-container:<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">
 
 # Geometry
 
@@ -404,7 +404,7 @@ Per definition, any zero x has the property f(x)=0
 ## graphs
 
 
-[[[<img src="sm_220px-6n-graf.svg.png">]]]
+flex-container:<img src="sm_220px-6n-graf.svg.png">
 
 ⟮c23;Graphs⟯ are studied in ⟮c24;graph theory⟯ 
 A ⟮c25;graph⟯ consists of ⟮c26;a pair⟯. 
@@ -430,7 +430,7 @@ Equivalently, a ⟮c71;regular graph⟯ is one where ⟮c73;each vertex⟯ has �
 A ⟮c74;complete graph⟯ is a ⟮c75;regular graph⟯ where ⟮c76;each vertex⟯ is ⟮c77;connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
 Equivalently, a ⟮c78;complete graph⟯ is a graph with a ⟮c79;degree⟯ of ⟮c80;amount of vertices n - 1⟯. 
 
-[[[⟮h∞;<img src="sm_directed_graph.svg">⟯⟮ha;<img src="sm_multigraph.svg">⟯⟮h∞;<img src="sm_weighted_graph.svg">⟯]]]
+flex-container:⟮h∞;<img src="sm_directed_graph.svg">⟯⟮ha;<img src="sm_multigraph.svg">⟯⟮h∞;<img src="sm_weighted_graph.svg">⟯
 
 Graph-related thing|alternative names
 ⟮c1;edges⟯|⟮c2;links/lines⟯
@@ -438,7 +438,7 @@ Graph-related thing|alternative names
 
 
 
-[[[<img src="sm_220px-6n-graf.svg.png">]]]
+flex-container:<img src="sm_220px-6n-graf.svg.png">
 
 In the image|name
 ⟮c7;the thing pictured⟯|⟮c8;a graph⟯
@@ -461,7 +461,7 @@ A ⟮c100;cycle⟯ is ⟮c101;a circuit (a closed trail⟯) with ⟮c102;no repe
 A ⟮c103;graph⟯ ⟮c104;without cycles⟯ is called ⟮c105;acyclic⟯. 
 The ⟮c106;length⟯ ⟮c107;k⟯ of ⟮c108;walks/trails/paths/circuits/cycles⟯ are counted in ⟮c109;edges⟯. 
 
-[[[⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯]]]
+flex-container:⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯
 
 ⟮c113;Two vertices⟯ are ⟮c110;connected⟯ if ⟮c111;there is a path between two vertices⟯, else ⟮s110;they are ⟮c112;disconnected⟯.⟯ 
 ⟮c114;A graph⟯ is ⟮c115;connected⟯ if ⟮c116;every pair of vertices are connected⟯, ergo ⟮c117;sb;there is a path between any two vertices⟯, else it is ⟮c118;sb;disconnected⟯. 
@@ -530,7 +530,7 @@ In deleting ⟮c31;a vertex N⟯ in ⟮c32;a binary search tree⟯, if ⟮c33;th
 
 
 
-[[[<img src="sm_bin_search_tree.svg">]]]
+flex-container:<img src="sm_bin_search_tree.svg">
 Inserting this number,|where would it go?
 ⟮c1;9⟯|⟮c2;left of 10⟯
 ⟮c3;5⟯|⟮c4;right of 4⟯
@@ -670,7 +670,7 @@ b^-n = 1/(b^{-1})
 A function/operation/etc. is ⟮c1;idempotent⟯ if ⟮c2;it can be applied mulitple times⟯ without ⟮c3;changing the result⟯ ⟮c4;beyond the initial application⟯. 
 Examples for i⟮c5;dempotent functions⟯ include ⟮c1;abs(x), floor(x), ceil(x) etc.⟯ 
 
-[[[⟮h∞;uh6-7;<img src="sm_256-512.png">⟯⟮h∞;uh6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯]]]
+flex-container:⟮h∞;uh6-7;<img src="sm_256-512.png">⟯⟮h∞;uh6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯
 the ⟮c6;right image⟯'s button is ⟮c7;idempotent⟯, the ⟮c6;left image⟯'s is ⟮c7;not⟯ 
 
 #### commutative

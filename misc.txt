@@ -529,7 +529,7 @@ Something ⟮c3;non-diegetic⟯ ⟮c4;only exists outside of the fictional world
 Music that ⟮c5;can be heard by the characters in a film⟯ would be ⟮c6;diegetic music⟯. 
 ⟮c7;An UI⟯ that ⟮c8;is part of a game world itself⟯ would be ⟮c9;an (intra)diegetic UI⟯ 
 
-[[[<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">]]]
+flex-container:<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">
 Besides the meaning ⟮c10;of inside/outside of a text⟯, ⟮c11;diegesis/diegetic⟯ refers to ⟮c12;narration (as opposed to mimesis⟯) 
 
 ### intent
@@ -618,7 +618,7 @@ In the pebble scene, neither does the protagonist think it is possible ⟮c8;to 
 ⟮h∞;<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">⟯§§ ⟮c1;Harlequin Enterprises⟯ is a company that ⟮c2;publishes romance novels⟯, and reached a peak market domination (in NA) of ⟮c3;80-90%⟯ of sales in ⟮c4;the 1990s⟯. As of 2002, they publish about a ⟮c5;1k books⟯ a year. §<br>
 ⟮c6;Harlequin⟯ sets ⟮c7;precise standards⟯ for their romance novels, with ⟮c8;restrictive contracts⟯ with ⟮c9;bad pay⟯ and ⟮c10;precise page counts⟯. 
 ⟮c11;Harlequin⟯ features different ⟮c12;series⟯ with different ⟮c12;themes⟯, which also vary things such as ⟮c13;sexual content⟯. 
-Harlequin series include <cite>⟮c14;Love Inspired⟯</cite> ⟮(c:15;Christian romances where faith is featured as prominently as passion⟯) and <cite>⟮c16;Harlequin Presents⟯</cite> ("a⟮c17;lpha males, decadent glamour and jet-set lifestyles⟯") 
+Harlequin series include 『⟮c14;Love Inspired⟯』 ⟮(c:15;Christian romances where faith is featured as prominently as passion⟯) and 『⟮c16;Harlequin Presents⟯』 ("a⟮c17;lpha males, decadent glamour and jet-set lifestyles⟯") 
 According to Radway (1984), ⟮c18;the harlequin hero⟯ is s⟮c19;pectacularly masculine, well-built, etc.⟯ in appearance, ⟮c20;indifferent/bad-tempered⟯ in personality, but ⟮c21;with a token indication of underlying softness (e.g. love of animals or children⟯) 
 According to Radway (1984), the ⟮c22;harlequin heroine⟯ is ⟮c23;young⟯,  has ⟮c24;extraordinary but unselfconscious beauty⟯, and is ⟮c25;inexperienced⟯ in love. 
 Harlequin romances generally feature a ⟮c26;clinch⟯ cover and have a ⟮c27;happy⟯ end. 
@@ -635,7 +635,7 @@ In general, according to Shibamoto Smith 2004, ⟮c8;japanese romance novels⟯ 
 
 ###### clinch cover
 
-[[[⟮h∞;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯]]]
+flex-container:⟮h∞;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯
 
 Covers that feature ⟮c1;topless guys⟯ ⟮c2;clutching women⟯ to ⟮c3;their naked upper body⟯  are called ⟮c4;clinch covers⟯
 
@@ -667,29 +667,14 @@ Meter|Number of feet
 
 ###### type of feet
 
-
-      Foot
-    |
-      Pattern
-    |
-      Mnemonic
+Foot|Pattern|Mnemonic
 ⟮c1;Iamb⟯|⟮c2;daDA⟯
-⟮c3;Trochee⟯|⟮c4;DAda⟯|class=all-hide;
-        ⁑Tro⁑chees; ⁑tro⁑phies<br>
-⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.
-⟮c5;Anapest⟯|⟮c6;dadaDA⟯|class=all-hide;
-        Jeder dritte stirbt durch die pest.<br>
-Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte".
-Ana⁑pest⁑<br>
-Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑
-⟮c7;Dactyl⟯|⟮c8;DAdada⟯|class=all-hide;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us <br>⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑
-⟮c9;Choriamb⟯|⟮c10;DAdadaDA⟯|class=all-hide;
-        A choriamb is an iamb that has been held up a mirror.<br>
-⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find
+⟮c3;Trochee⟯|⟮c4;DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies<br>⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
+⟮c5;Anapest⟯|⟮c6;dadaDA⟯|⟮c:∞;Jeder dritte stirbt durch die pest.<br> Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte". Ana⁑pest⁑<br> Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑⟯
+⟮c7;Dactyl⟯|⟮c8;DAdada⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us <br>⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑⟯
+⟮c9;Choriamb⟯|⟮c10;DAdadaDA⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.<br>⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
 ⟮c11;Molossus⟯|⟮c12;DA DA DA⟯|
-⟮c13;Amphibrach⟯|⟮c14;da DA da⟯|class=all-hide;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>
-"There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket."
-
+⟮c13;Amphibrach⟯|⟮c14;da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)<br>「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
 
 ### drama
 
@@ -746,7 +731,7 @@ When using the ⟮c11;eight-point version⟯ of the slender gleaming star, ⟮c1
 
 ###### the kiss
 
-<cite>⟮c1;The Kiss⟯</cite>, releaswed in ⟮c2;1896⟯, was ⟮c3;the first film containing a kiss⟯, ⟮c4;sparking outrage.⟯ 
+『⟮c1;The Kiss⟯』, releaswed in ⟮c2;1896⟯, was ⟮c3;the first film containing a kiss⟯, ⟮c4;sparking outrage.⟯ 
 
 ##### footage
 
@@ -778,7 +763,9 @@ In fountain. ⟮c23;a caret⟯ ⟮c24;after a character name⟯ indicates that �
 
 ###### action text
 
-⟮h∞;<img src="sm_paste-93acbcc29329144602ed62e027beb9100c001b91.jpg">⟯§§ In screenplays,  ⟮c6;text describing what is happening in a scene⟯ is called ⟮c1;action (text⟯). it is normally in ⟮c7;normal case.⟯ §<br>
+flex-container:⟮h∞;<img src="sm_paste-93acbcc29329144602ed62e027beb9100c001b91.jpg">⟯
+
+In screenplays,  ⟮c6;text describing what is happening in a scene⟯ is called ⟮c1;action (text⟯). it is normally in ⟮c7;normal case.⟯
 ⟮c2;Any text that fountain doesn't think is something else⟯ is ⟮c3;action text⟯.  
 Within ⟮c4;action text⟯, fountain ⟮c5;preserves your whitespace choices⟯ 
 
@@ -786,40 +773,33 @@ Within ⟮c4;action text⟯, fountain ⟮c5;preserves your whitespace choices⟯
 
 The ⟮c7;line⟯ ⟮c8;starting a scene⟯ is called ⟮c9;a scene heading⟯. 
 A ⟮c10;scene heading⟯ is usually in ⟮c11;all caps⟯. 
-§§ ⟮c12;Scene headings⟯ tell you ⟮c13;outsideness⟯, ⟮c14;location⟯, and ⟮c15;time⟯. §<br><div class="cloze-group hide-if-inactive">A ⟮c6;scene heading⟯ usually looks sth like this:
-  ```lang=text;
+⟮c12;Scene headings⟯ tell you ⟮c13;outsideness⟯, ⟮c14;location⟯, and ⟮c15;time⟯. 
+
+A ⟮c6;scene heading⟯ usually looks sth like this:
+```lang=text;
 ⟮c1;EXT or INT etc.⟯⟮c3;.⟯ ⟮c2;LOCATION⟯ ⟮c4;-⟯ ⟮c5;TIME⟯
-```</div>
+```
 In fountain, ⟮c16;scene headings⟯ are ⟮c17;separated from the rest of the text⟯ by ⟮c18;blank lines⟯. 
 In fountain scene headings ⟮c19;must start with⟯ ⟮c20;EXT/INT etc.⟯ unless forced 
-§§ In fountain, you can indicate ⟮c21;scene numbers⟯ by ⟮c22;wrapping them in #foo#⟯, they are placed at ⟮c23;the end of scene headings⟯ §<br>
+In fountain, you can indicate ⟮c21;scene numbers⟯ by ⟮c22;wrapping them in #foo#⟯, they are placed at ⟮c23;the end of scene headings⟯
+
 ###### transitions
 
-⟮h∞;<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">⟯§§ In screenplays, ⟮c1;transitions⟯ are in  ⟮c2;all caps⟯ and ⟮c3;right-aligned⟯. §<br>
+⟮h∞;<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">⟯
+
+In screenplays, ⟮c1;transitions⟯ are in  ⟮c2;all caps⟯ and ⟮c3;right-aligned⟯.
 In fountain, a ⟮c4;transition⟯ must be ⟮c5;separated from other content⟯ by ⟮c6;blank lines⟯, and end ⟮c7;TO: (unless forced⟯) 
 
 ###### fountain
 
 Syntactic construct|function
-⟮c1;_foo_⟯|⟮c2;underlined⟯
-⟮c3;**foo**⟯|⟮c4;bold⟯
-⟮c5;*foo*⟯|⟮c6;italics⟯
 ⟮c7;&gt; foo &lt;⟯|⟮c8;centered⟯
 ⟮c9;three or more =⟯|⟮c10;page break⟯
-
-
-Syntactic construct|function
 ⟮c11;@foo⟯|⟮c12;force a character element⟯
 ⟮c13;line starts with ~⟯|⟮c14;lyrics⟯
 ⟮c15;&gt; foo⟯|⟮c16;force a transition⟯
 ⟮c17;.foo⟯|⟮c18;force scene heading⟯
 ⟮c19;!foo⟯|⟮c20;force action text⟯
-
-
-Syntactic construct|function
-⟮c21;[[foo]]⟯|⟮c22;a note⟯
-⟮c23;/*foo*/⟯|⟮c24;a comment⟯
-
 
 ####### whitespace
 
@@ -898,7 +878,7 @@ Name|Name (using marriage-related terms)|Description
 
 ##### the savage mind
 
-⟮c2;the savage mind⟯ is a book by ⟮c3;CLS⟯ published in ⟮c1;the early 1960s (1962⟯) ( after <cite>⟮c4;The Structural Study of Myth⟯</cite>)
+⟮c2;the savage mind⟯ is a book by ⟮c3;CLS⟯ published in ⟮c1;the early 1960s (1962⟯) ( after 『⟮c4;The Structural Study of Myth⟯』)
 In ⟮c5;the beginning of the savage mind⟯,  CLS details ⟮c6;the richness of vocabularies/category systems (in areas of concern⟯)⟮c6;of indigenous cultures⟯, both for ⟮c7;the things they need to survive⟯, ⟮sb;but then also for ⟮c8;things they don't need to survive⟯, ⟮sb;according to CLS they have these categories ⟮c9;for intellectual reasons⟯⟯⟯
 
 # geo
@@ -914,7 +894,7 @@ term|definition
 ### cardinal directions & compasses
 
 
-[[[<img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">]]]
+flex-container:<img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">
 <img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c1;compass rose⟯ can be found on ⟮c2;pretty much any compass⟯ and on ⟮c3;many maps⟯. 
 The ⟮c4;compas rose⟯ indicates ⟮c5;where the cardinal directions are⟯, ⟮c6;in relation to⟯ ⟮c7;the thing on which it appears⟯. 
 The ⟮c8;four⟯ ⟮c10;main directions⟯, ⟮c9;90 deg⟯ apart, that a compass rose has are ⟮c11;the cardinal directions⟯. 
@@ -1517,7 +1497,7 @@ The ⟮c9;miasma theory⟯ remains visible in the name of the illness ⟮c10;mal
 
 ##### gone with the wind
 
-<cite>⟮c2;Gone with the wind⟯ </cite>is a novel set in ⟮c3;the civil war and reconstruction⟯ era protaged by ⟮c4;Scarlett O'Hara⟯ published in the ⟮c1;1930s (1936⟯) 
+『⟮c2;Gone with the wind⟯ 』is a novel set in ⟮c3;the civil war and reconstruction⟯ era protaged by ⟮c4;Scarlett O'Hara⟯ published in the ⟮c1;1930s (1936⟯) 
 
 ### ideas
 
@@ -1589,8 +1569,8 @@ The ⟮c5;Hays Code (Motion Picture Production Code⟯) ⟮c6;self-censored⟯ �
 
 ##### golden age of porn
 
-⟮c1;<cite>Blue Movie (1969)</cite>⟯ by ⟮c2;Andy Warhol⟯ was ⟮c3;the first movie⟯ to ⟮c4;show explicit sex in a movie theater film⟯. 
-<cite>⟮c5;Blue Movie⟯ </cite> ⟮(c:6;1969⟯) helped inaugurate ⟮c7;the Golden Age of Porn⟯. 
+⟮c1;『Blue Movie (1969)』⟯ by ⟮c2;Andy Warhol⟯ was ⟮c3;the first movie⟯ to ⟮c4;show explicit sex in a movie theater film⟯. 
+『⟮c5;Blue Movie⟯ 』 ⟮(c:6;1969⟯) helped inaugurate ⟮c7;the Golden Age of Porn⟯. 
 ⟮c8;The Golden Age of Porn⟯ (aka ⟮c9;porno chic⟯) lasted for ⟮c10;15 years⟯, until ⟮c11;1984⟯, probably brought down by ⟮c12;the increasing availability of VCR and concomittant home viewing ability⟯ 
 ⟮c13;The golden age of porn⟯ featured ⟮c14;sexually explicit content⟯ in ⟮c16;the movie theatre⟯, in films that were ⟮c15;high quality⟯ / ⟮c15;critically aclaimed⟯ 
 
@@ -1696,7 +1676,7 @@ Campbell divides the monomyth into these parts (chronologically):
 
 ## structuralism
 
-⟮c1;CLS⟯ elaborated his ⟮c2;structuralist⟯ approach to myth in  <cite>⟮c3;The Structural Study of Myth⟯</cite> ⟮(c:4;1955⟯) 
+⟮c1;CLS⟯ elaborated his ⟮c2;structuralist⟯ approach to myth in  『⟮c3;The Structural Study of Myth⟯』 ⟮(c:4;1955⟯) 
 The ⟮c5;paradox of myth according⟯ to CLS is that ⟮c6;anything can happen in a myth⟯, but that ⟮c7;myths are similar across cultures⟯. 
 According to CLS, ⟮c8;myth⟯ is its own form of ⟮c9;langue⟯, that is, its own ⟮c10;structuralist system⟯ 
 The ⟮c11;langue⟯ of ⟮c12;myth⟯ consists of ⟮c13;mythemes⟯ . 
@@ -2219,7 +2199,7 @@ name|image
 
 ###### map
 
-[[[⟮h∞;uh15-26;<img src="sm_male_anat_repr.svg">⟯]]]
+flex-container:⟮h∞;uh15-26;<img src="sm_male_anat_repr.svg">⟯
 No.|Name|Common Name
 1|bladder
 2|pubic bone
@@ -2239,7 +2219,7 @@ No.|Name|Common Name
 ⟮c18;17⟯|⟮c16;testis/testicle (synonyms⟯)|⟮c18;balls⟯
 ⟮c17;14⟯|⟮c15;scrotum⟯|⟮c17;ballsack⟯
 
-[[[⟮h∞;uh7-14;<img src="sm_penis_underside.jpg">⟯]]]
+flex-container:⟮h∞;uh7-14;<img src="sm_penis_underside.jpg">⟯
 No.|Name|Common Name
 ⟮c7;1⟯|⟮c11;glans (penis) ⟯|⟮c7;head of the penis⟯
 ⟮c8;2⟯|⟮c12;corona of the glans penis ⟯|⟮c8;lower border of the glans⟯
@@ -2247,7 +2227,7 @@ No.|Name|Common Name
 ⟮c10;4⟯|⟮c14;shaft ⟯
 
 
-[[[⟮h∞;<img src="urethra_view_side_3.jpg">⟯]]]
+flex-container:⟮h∞;<img src="urethra_view_side_3.jpg">⟯
 
 No.|Name
 1|prostatic urethra
@@ -2257,7 +2237,7 @@ No.|Name
 5|fossa navicularis
 
 
-[[[⟮h∞;<img src="sm_194px-Epididymis-KDS.jpg">⟯]]]
+flex-container:⟮h∞;<img src="sm_194px-Epididymis-KDS.jpg">⟯
 
 The ⟮c1;Epididymis⟯ are the ⟮c2;highly coiled⟯ ⟮c6;bumpy⟯-feeling ⟮c3;tubes⟯ connecting ⟮c4;the testes⟯ to ⟮c5;the rest of the male reproductive system⟯. 
 
@@ -2589,7 +2569,7 @@ Image|Name of movement
 ##### back
 
 
-[[[<img src="sm_muscles_back.jpg">]]]
+flex-container:<img src="sm_muscles_back.jpg">
 
 No.|Name
 ⟮c1;11⟯|⟮c2;erector spinae⟯
@@ -2612,7 +2592,7 @@ No.|Name
 #### flexion & extension
 
 
-[[[<img src="800px-FlexsionExtension2017.jpeg">]]]
+flex-container:<img src="800px-FlexsionExtension2017.jpeg">
 
 ⟮c1;Flexion⟯ is ⟮c4;movement⟯ that ⟮c2;decreases the angle between⟯ ⟮c3;things connecting at a joint (or similar point⟯).
 When a person is sitting down, the ⟮c5;knees⟯ are ⟮c6;flexed⟯.
@@ -3292,13 +3272,13 @@ Mirroring/Spiegeln: The ⟮c11;harder⟯ variant has ⟮c9;both people lead and 
 
 #### Ich bin der könig der
 
-<cite>⟮c5;Ich bin der König der⟯</cite>: Eine Person ⟮c1;sagt: Ich bin der König von...⟯ und ⟮c3;alle anderen müssen das Ding darstellen⟯ bis ⟮c4;sich jemand anders zum König der $whatevers erklärt⟯. 
-<cite>⟮c6;Ich bin der König der⟯</cite>: Die ⟮c7;improfabrik⟯ hat das (sinvollerweise, finde ich) auf ⟮c2;Tiere⟯ limitiert 
+『⟮c5;Ich bin der König der⟯』: Eine Person ⟮c1;sagt: Ich bin der König von...⟯ und ⟮c3;alle anderen müssen das Ding darstellen⟯ bis ⟮c4;sich jemand anders zum König der $whatevers erklärt⟯. 
+『⟮c6;Ich bin der König der⟯』: Die ⟮c7;improfabrik⟯ hat das (sinvollerweise, finde ich) auf ⟮c2;Tiere⟯ limitiert 
 
 #### Feind*in und Beschützer*in
 
-⟮h∞;<img src="sm_your-drawing.png">⟯§§ <cite>⟮c1;Feind*in und Beschützer*in⟯</cite>: ⟮c3;Jede*r Spieler*in⟯ sucht sich ⟮c2;eine*n Feind*in⟯ und ⟮c2;eine*n Beschützer*in⟯. §<br>
-<cite>⟮c4;Feind*in und Beschützer*in⟯</cite>: Jede*r Spieler*in versucht, ⟮c5;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
+⟮h∞;<img src="sm_your-drawing.png">⟯§§ 『⟮c1;Feind*in und Beschützer*in⟯』: ⟮c3;Jede*r Spieler*in⟯ sucht sich ⟮c2;eine*n Feind*in⟯ und ⟮c2;eine*n Beschützer*in⟯. §<br>
+『⟮c4;Feind*in und Beschützer*in⟯』: Jede*r Spieler*in versucht, ⟮c5;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
 
 #### assoziationsketten
 
@@ -3318,14 +3298,14 @@ In the game walking with speed levels, normally the levels are such that ⟮c7;1
 
 ##### emotionaler gang
 
-<cite>⟮c3;Emotionaler Gang⟯</cite> ist ein ⟮c2;Raumlauf⟯ wo ⟮c4;eine besondere person⟯ ⟮c5;immer mal wieder⟯ ⟮c1;emotionen vorgibt⟯ und ⟮c6;man sich dann in darin bewegt.⟯
+『⟮c3;Emotionaler Gang⟯』 ist ein ⟮c2;Raumlauf⟯ wo ⟮c4;eine besondere person⟯ ⟮c5;immer mal wieder⟯ ⟮c1;emotionen vorgibt⟯ und ⟮c6;man sich dann in darin bewegt.⟯
 
 #### samurai
 
 ⟮h∞;<img src="sm_your-drawing%20(1).png">⟯
 ⟮h∞;<img src="sm_your-drawing%20(2).png">⟯
-⟮h∞;<img src="sm_your-drawing%20(3).png">⟯§§ <cite>⟮c1;Samurai⟯</cite>: The attacker ⟮c5;raises their sword⟯ and ⟮hb; ⟮c6;cuts downwards⟯ while ⟮hb;⟮c7;emitting a sound (which one varies⟯) and ⟮hb;⟮c8;points at their target⟯. Their ⟮c9;target⟯ ⟮c10;cuts upwards⟯ while ⟮c11;emitting a different sound.⟯ The ⟮hb;⟮c12;left and right neighbors⟯ ⟮c13;cut from the side⟯ while ⟮c14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
-In the game <cite>Samurai</cite>, the ⟮c2;sword⟯ is formed by ⟮c3;palms together⟯, ⟮c4;arms straight⟯. 
+⟮h∞;<img src="sm_your-drawing%20(3).png">⟯§§ 『⟮c1;Samurai⟯』: The attacker ⟮c5;raises their sword⟯ and ⟮hb; ⟮c6;cuts downwards⟯ while ⟮hb;⟮c7;emitting a sound (which one varies⟯) and ⟮hb;⟮c8;points at their target⟯. Their ⟮c9;target⟯ ⟮c10;cuts upwards⟯ while ⟮c11;emitting a different sound.⟯ The ⟮hb;⟮c12;left and right neighbors⟯ ⟮c13;cut from the side⟯ while ⟮c14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
+In the game 『Samurai』, the ⟮c2;sword⟯ is formed by ⟮c3;palms together⟯, ⟮c4;arms straight⟯. 
 
 ## acting
 
@@ -3908,7 +3888,7 @@ What normally ⟮c6;prevents us from just pushing all pins completely above the 
 ⟮h1;<img src="sm_200px-Pin_tumbler_bypass.svg.png">⟯
 ⟮h1;<img src="sm_How-a-Lock-Works-Animation.gif">⟯
 
-[[[<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">]]]
+flex-container:<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
 
 <img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c1;shear line⟯ is ⟮c2;the gap between⟯ ⟮c3;the casing⟯ and ⟮c3;the plug⟯ 
 ⟮c4;the driver pins⟯ are the pins that ⟮c5;the springs are directly contactin⟯g 
@@ -3929,7 +3909,7 @@ The thing that ⟮c26;keeps the pins down in a lock⟯ are ⟮c27;the springs⟯
 ## manufacturing tolerances
 
 
-[[[<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">]]]
+flex-container:<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">
 ⟮h∞;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c4;not be pickable⟯ if not for ⟮c5;manufacturing tolerances⟯. 
 The reason that ⟮c6;not all pins bind⟯ once you ⟮c7;apply rotational tension⟯ is tha⟮c8;t the holes are ever-so-slightly off-center⟯. 
 The pin that will ⟮c1;bind here first⟯ if we ⟮c2;rotate in the upwards direction⟯ is ⟮c3;the second or the fourth pin.⟯ 
@@ -5116,7 +5096,7 @@ Alexander Hamilton
   
 <img class="c1-f c2-b" src="sm_paste-936b6b01e2b831a0ad7780367bf38f6ddc437b99.jpg"><br>The personal motto of ⟮c3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c1;Aut Caesar, aut nihil.⟯ / (in English)⟮c2;(Either) Caesar or nothing.⟯ 
 
-<cite> Not Waving but Drowning </cite> Stevie Smith 1972
+『 Not Waving but Drowning 』 Stevie Smith 1972
 
 <blockquote>
 !> ⟮c1;s∞;Nobody heard him, the dead man,   ⟯

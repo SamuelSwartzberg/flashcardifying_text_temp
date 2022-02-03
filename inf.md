@@ -1107,7 +1107,7 @@ A conditional group rules is a CSS at-rule that associates a condition with a gr
 The commmon conditional group at rules are @media and @supports.
 
 
-[[[<img src="sm_tmpyk7c4jes.png">]]]
+flex-container:<img src="sm_tmpyk7c4jes.png">
 
 style as a HTML attribute takes n declarations
 
@@ -1918,7 +1918,7 @@ To construct a linear bezier function, connect P0 and P1. You're done (it's a st
 To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> from 0 to 1. This point describes the quadratic bezier curve.
 
 
-[[[<img src="sm_ZS4fP%20(1).png">]]]
+flex-container:<img src="sm_ZS4fP%20(1).png">
 <img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
 
 To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
@@ -2037,7 +2037,7 @@ For <position>, if specifying two keywords or two keywords with values each, the
 The value described by <position> need not be inside the elements box.
 
 
-[[[<img src="sm_position_value.png">]]]
+flex-container:<img src="sm_position_value.png">
 
 ###### <image>
 
@@ -2257,7 +2257,7 @@ page-body :: <page-declaration>;|<margin-at-rule>
 currently supported properties for the page declaration are margins, orphans, widows and break
 margin-at-rule = @<margin-at-rule-name><declaration-block>
 
-[[[<img src="page_margin_at_rules.png">]]]
+flex-container:<img src="page_margin_at_rules.png">
 
 ##### @counter-style
 
@@ -2443,7 +2443,7 @@ By default, block-level elements are 100% width of the inline base direction axi
 block-level elements can have their height and width set manually, while inline-level elements
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
 
-[[[<img src="sm_inline_margins.png">]]]
+flex-container:<img src="sm_inline_margins.png">
 Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
 inline-level elements and text runs are handled via an inline formatting context using line boxes.
 Whenever the browser encounters inline elements wiwthin a block container, it creates a new root inline box which establishes an inline formatting context.
@@ -2456,7 +2456,7 @@ line-height sets the minimum height of a line box.
 line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 
-[[[<img src="sm_line_height_overflow.png">]]]
+flex-container:<img src="sm_line_height_overflow.png">
 The dominant baseline is the one that is used to align inline text, and may be automatically determined or manually specified with the as-yet unimplemented dominant-baseline
 
 if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
@@ -3500,7 +3500,7 @@ mac|cmd+tab|applications
 
 ####### hamburger 
 
-[[[<img src="hamburger-menu-definition.png">]]]
+flex-container:<img src="hamburger-menu-definition.png">
 
 A hamburger menu is a menu triggered by a hamburger button.
 A hamburger menu generally comes out from the side, contains a a list of navigation options, and covers between 70% - 100% of the screen
@@ -3520,7 +3520,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 
 ###### status bar
 
-[[[⟮h∞;<img src="sb-paint.png">⟯⟮h∞;<img src="460px-Emacs_statusline.png">⟯⟮h∞;<img src="Gedit_3.11.92.png">⟯⟮h∞;<img src="StatusBar_Light.png">⟯⟮h∞;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯]]]
+flex-container:⟮h∞;<img src="sb-paint.png">⟯⟮h∞;<img src="460px-Emacs_statusline.png">⟯⟮h∞;<img src="Gedit_3.11.92.png">⟯⟮h∞;<img src="StatusBar_Light.png">⟯⟮h∞;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯
 
 On ⟮c1;desktop⟯, a ⟮c2;status bar⟯ is a ⟮c3;horizontal⟯ ⟮c4;bar⟯ generally at ⟮c5;the bottom of a window⟯. 
 A ⟮c15;status bar⟯ on desktop displays ⟮c6;various kinds of information⟯, often used when ⟮c7;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
@@ -3529,7 +3529,7 @@ A ⟮c16;status bar⟯ on mobile contains ⟮c13;notification⟯ and ⟮c13;syst
 
 ###### taskbar
 
-[[[⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
+flex-container:⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯
 
 ⟮c12;The above⟯ are all examples of ⟮c11;taskbars⟯. 
 §§ A ⟮c1;taskbar⟯ is a GUI element that typically shows ⟮c2;which programs are open⟯, and allows ⟮c3;pinning programs or other things for quick access⟯. 
@@ -3539,11 +3539,11 @@ Despite being called '⟮c8;Dock⟯', it's just ⟮c9;macOs⟯'s version of a �
 
 ###### activity bar (vscode)
 
-[[[⟮h∞;<img src="sm_toggle_side_bar.gif">⟯]]]
+flex-container:⟮h∞;<img src="sm_toggle_side_bar.gif">⟯
 
 VS Code's ⟮c11;activity bar⟯ is a ⟮c12;nav(igation) bar⟯ containing ⟮sb;⟮c13;5 (by default) icons⟯ that ⟮c14;trigger sidebars⟯⟯. 
 
-[[[⟮h∞;uh1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
+flex-container:⟮h∞;uh1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
 
 nth icon in activity bar|Purpose
 ⟮c1;1st icon⟯|⟮c2;FIile explorer⟯
@@ -3557,7 +3557,7 @@ nth icon in activity bar|Purpose
 ##### breadcrumbs
 
 
-[[[<img src="sm_2021-06-26--14-46-16-screenshot.png">]]]
+flex-container:<img src="sm_2021-06-26--14-46-16-screenshot.png">
 A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
 A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
@@ -3565,7 +3565,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
 ##### sidebars
 
-[[[⟮h∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h∞;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h∞;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h∞;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h∞;<img src="sidebars.png">⟯]]]
+flex-container:⟮h∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h∞;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h∞;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h∞;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h∞;<img src="sidebars.png">⟯
 A ⟮c1;sidebar⟯ is an UI element that is displayed ⟮c2;to the side of⟯ ⟮c3;the main content⟯ or ⟮c4;of the screen⟯. ⟮hb;Sidebars may be ⟮c5;navigation bars⟯, contain ⟮c6;tools⟯ or contain ⟮c7;further content⟯. ⟮hb;Sidebars are generally ⟮c8;reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
@@ -3594,7 +3594,7 @@ The dialog element has a boolean attribute open representing whether the dialog 
 
 ##### tooltips & popovers
 
-[[[⟮h∞;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮ha;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮ha;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮ha;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯]]]
+flex-container:⟮h∞;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮ha;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮ha;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮ha;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯
 ⟮c2;Tooltips⟯ and ⟮c2;popovers⟯ are similar in that ⟮c3;they both appear close to the thing that triggered them⟯. 
 A ⟮c4;tooltip⟯ is an element/component ⟮c6;with extra text⟯ which ⟮c7;appears⟯ when ⟮c1;when hovering over something⟯ 
 A ⟮c5;popover⟯ is a element/component that usually ⟮c8;appears⟯ when ⟮c9;interacting with something⟯ ⟮c10;directly adjacent to that thing⟯. it ⟮c11;is a modal (creates a mode⟯). 
@@ -3625,7 +3625,7 @@ App shortcuts is the webdev name for the set of actions that are shown e.g. when
 
 ###### FAB
 
-[[[⟮ha;<img src="sm_fab.jpg">⟯⟮ha;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯]]]
+flex-container:⟮ha;<img src="sm_fab.jpg">⟯⟮ha;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯
 A ⟮c1;FAB⟯ ⟮(c:2;floating action button⟯) is ⟮c3;a button⟯ that ⟮c4;is always visible⟯ and contains ⟮c5;the primary action for the application/view⟯. 
 A ⟮c6;FAB⟯ is typically located ⟮c7;in the bottom right⟯, is fairly ⟮c8;large⟯ and ⟮c9;round⟯. 
 A ⟮c10;FAB⟯ may ⟮c11;contain more actions⟯ when ⟮c12;pressed⟯. 
@@ -3765,8 +3765,8 @@ Since the ⟮c204;bottom⟯ of ⟮c205;a HSV/HSB cylinder⟯ ⟮c206;approaches 
 ⟮c216;HSV/HSB⟯ has v⟮c217;alue/brightness⟯ as ⟮c218;the height⟯.  
 both ⟮c219;HSL⟯ and ⟮c219;HSV/B⟯ have the problem that ⟮c220;changing⟯ the ⟮c221;saturation⟯ and ⟮c223;to a certain extent⟯ ⟮c222;the hue⟯ ⟮c220;will change⟯ ⟮c224;the percieved lightness/brightness⟯, even when ⟮c225;they are supposed to be independent⟯. 
 
-[[[⟮h∞;<img src="sm_hsl_cylinder.png">⟯⟮h∞;<img src="sm_hsv_cylinder.png">⟯]]]
-[[[⟮h∞;<img src="sm_hsl_cone.png">⟯⟮h∞;<img src="sm_hsv_cone.png">⟯]]]
+flex-container:⟮h∞;<img src="sm_hsl_cylinder.png">⟯⟮h∞;<img src="sm_hsv_cylinder.png">⟯
+flex-container:⟮h∞;<img src="sm_hsl_cone.png">⟯⟮h∞;<img src="sm_hsv_cone.png">⟯
 
 For any given color model, to ⟮c228;specify transparency⟯, you ⟮c229;add another channel⟯, which is called the ⟮c230;alpha⟯ channel.
 For a color hex, you ⟮c231;specify the alpha channel⟯ by ⟮c232;adding another two-digit hex to the end⟯.
@@ -3850,7 +3850,7 @@ transparency/opacity|visibility
 It is often said (esp. in animation) that ⟮c2;good characters⟯ should ⟮c3;be recognizable by⟯ ⟮c1;their silhouette alone⟯ 
 
 
-[[[<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">]]]
+flex-container:<img class="all-b c5-f c6-f c7-f c8-f c9-f c10-f" src="sm_faces1.gif">
 ⟮h∞;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
 <img class="all-b c11-f c12-f" src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c1;Negative space⟯ is ⟮c2;the area without subjects/areas of focus⟯
 ⟮c3;Positive space⟯ is ⟮c4;the area with subjects/areas of focus⟯
@@ -3882,8 +3882,8 @@ open|cannot be en/disabled
 
 #### curb cut effect
 
-[[[⟮h∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
-⟮h∞;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h∞;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯]]]
+flex-container:⟮h∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
+⟮h∞;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h∞;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯
 
 Only after ⟮c1;disabled people protested⟯ did ⟮c2;curb cuts begin to be instituted⟯. 
 ⟮c3;Curb cuts⟯ have only really ⟮c4;become common⟯ ⟮c5;in the last few decades⟯ 
@@ -3892,7 +3892,7 @@ Only after ⟮c1;disabled people protested⟯ did ⟮c2;curb cuts begin to be in
 
 #### non-directive play
 
-[[[⟮h∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h∞;<img src="sm_IMG_8551.jpg">⟯⟮c1;non-directive/self-directed play⟯ is play that ⟮c2;allows the players to do whatever they come up with⟯]]]
+flex-container:⟮h∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h∞;<img src="sm_IMG_8551.jpg">⟯⟮c1;non-directive/self-directed play⟯ is play that ⟮c2;allows the players to do whatever they come up with⟯
 
 ⟮c3;self-directed play⟯ is easier to do when ⟮c4;the play tools are not designed with any particular end in mind⟯ 
 ⟮c5;self-directed play⟯ was advocated, especially in ⟮c6;playgrounds⟯, by ⟮c7;Isamu Noguchi⟯ 
@@ -4096,7 +4096,7 @@ in a HDD, the head is mere nanometers from the platter.
 A head crash is the head of a HDD making contact with its rotating platter, slashing the surface and causing disk damage/failure.
 Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
 
-[[[<img src="sm_hdd_w_labels.svg">]]]
+flex-container:<img src="sm_hdd_w_labels.svg">
 <img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
@@ -4787,7 +4787,8 @@ Often, ⟮c17;SVG⟯ is ⟮c10;included in HTML⟯. This can be done by i⟮c11;
 
 ########## affinity designer
 
-⟮h∞;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
+flex-container:⟮h∞;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
+
 To ⟮c2;select a color in affinity designer⟯ (must be in ⟮c3;Pixel Persona⟯) ⟮c1;Select &gt; Select Sample Color⟯ 
 To ⟮c4;turn a color transparent⟯ in affinity designer ⟮c5;select a color, then delete it with backspace⟯ 
 
@@ -4988,7 +4989,7 @@ subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
 indicate a variable semantically||<var>
 keyboard input||<kbd>
 sample output||<samp>
-title of a cited work||<cite>
+title of a cited work||『
 preformatted text that is to be presented exactly as written||<pre>
 
 using \url{} or \href{} requires the package hyperref in Latex
@@ -5001,6 +5002,8 @@ strike is similar to <s>, but obsolete
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
+
+In fountain, in contrast to markdown, only * and ** do italic/bold, _ is reaserved for underlined
 
 
 i|italic|conventionally italic
@@ -5345,7 +5348,7 @@ Command to ⟮c71;only do something in a certain mode⟯ ⟮c55;mode⟯⟮c56;&l
 the ⟮c61;columns environment⟯ allows ⟮c62;a multicolumn setup⟯ in latex ⟮c70;beamer⟯  
 ⟮c63;within the columns environment of beamer⟯, ⟮c64;\column{foo⟯} ⟮c65;inserts a column of width foo⟯. 
 ⟮c66;theorem⟯ is an ⟮c67;environment⟯ that ⟮c68;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
-[[[⟮h∞;<img src="sm_Beamerblock.png">⟯⟮h∞;<img src="sm_Beamercolumns.png">⟯⟮h∞;<img src="sm_Beamermaths.png"> ⟯]]]
+flex-container:⟮h∞;<img src="sm_Beamerblock.png">⟯⟮h∞;<img src="sm_Beamercolumns.png">⟯⟮h∞;<img src="sm_Beamermaths.png"> ⟯
 
 ######### KOMAScript
 
@@ -5895,10 +5898,10 @@ for NPN transistors, applying power (at the base) allows the current to flow.
 for PNP transistors, applying negative/no power (at the base) allows the current to flow.
 For NPN BJT transistors, if you apply power to the base, it will flow to the emitter, allowing a stronger current to flow between collector and emitter.
 
-[[[<img src="sm_tmpr_uvk0fj.png">]]]
+flex-container:<img src="sm_tmpr_uvk0fj.png">
 
 
-[[[<img src="sm_tmpadmp5k8t.png">]]]
+flex-container:<img src="sm_tmpadmp5k8t.png">
 The three terminals in a field-effect transistor (FET) transistor are called ⟮c1;gate⟯, ⟮c2;source⟯, and ⟮c3;drain⟯.
 FET  Field-effect transistor
 MOSFET   metal–oxide–semiconductor field-effect transistor
@@ -5938,7 +5941,7 @@ The VNA implements a stored-program computer.
 VNA: CPU = CU + ALU
 In the VNA, the CPU, memory and IO are connected to/via the bus.
 
-[[[<img src="sm_tmp_xpihn7q.png">]]]
+flex-container:<img src="sm_tmp_xpihn7q.png">
 In the (modern revisions of) von neumann architecture, the three buses are the ⟮c1;control bus⟯, the ⟮c2;address bus⟯, and the ⟮c3;data bus⟯
 Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
 
@@ -6134,7 +6137,7 @@ DDR  Double data rate
 ### chipset
 
 
-[[[<img src="sm_chipset.svg">]]]
+flex-container:<img src="sm_chipset.svg">
 The chipset is responsible for data flow between the processor, memory and other components
 In the past, the northbridge and southbridge made up the chipset.
 The northbridge controlled/connected the faster components such as the CPU, memory, PCIe.
@@ -6291,20 +6294,20 @@ The caesar cipher is a kind of substitution cipher where the replacement is done
 Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
 
 
-[[[<img src="sm_tmp51mx5j9z.png">]]]
+flex-container:<img src="sm_tmp51mx5j9z.png">
 ⟮c1;Symmetric key encryption⟯ is ⟮c2;where both parties have the same key⟯. 
 ⟮c3;In symmetric key encryption⟯, ⟮c4;one party encrypts the data⟯, ⟮c5;sends the cyphertext along⟯, and then the other party ⟮c6;decrypts the data using the same key⟯. 
 The difficulty of ⟮c7;symmetric key encryption⟯ is that ⟮c8;you need to exchange the key securely, which is difficult.⟯ 
 
 
-[[[<img src="sm_tmp424stpwy.png">]]]
+flex-container:<img src="sm_tmp424stpwy.png">
 ⟮c9;In public key cryptography⟯ aka ⟮c10;asymmetric cryptography⟯, ⟮c12;both parties⟯ have ⟮c11;two keys⟯, ⟮c11;a public⟯ and ⟮c11;a private key⟯. 
 In ⟮c13;public key cryptography⟯, ⟮c14;you publish⟯ ⟮c15;your public key⟯ ⟮c14;widely⟯, and ⟮c14;keep⟯ ⟮c15;your private key⟯ ⟮c14;secret⟯. 
 If you want to ⟮c16;encrypt a message⟯ in ⟮c17;public key cryptogrpahy⟯, you ⟮c18;apply your targets public key to it⟯. 
 If you want to ⟮c19;decrypt a message⟯ sent to you ⟮c20;via public key cryptography⟯ (which we assume ⟮c21;has been encrypted with your public key⟯), you ⟮c22;apply your private key to it.⟯ 
 
 
-[[[<img src="1200px-Private_key_signing.svg.png">]]]
+flex-container:<img src="1200px-Private_key_signing.svg.png">
 For ⟮c23;digital signing⟯, ⟮c25;you⟯ ⟮c24;encrypt it with your private key⟯. ⟮c25;The recipient⟯ ⟮c24;decrypts it with your public key.⟯ This proves ⟮c26;that the message is from you⟯, since only ⟮c27;your public key can decrypt things encrypted with your private key⟯. 
 
 ### random numbers
@@ -6338,7 +6341,7 @@ Delimiter/terminater-based code injection uses delimiters, e.g. of strings or si
 #### MITM
 
 
-[[[<img src="sm_mitm_illus.svg">]]]
+flex-container:<img src="sm_mitm_illus.svg">
 A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves⟯ into the ⟮c3;communication⟯ between ⟮c3;two parties⟯ believing ⟮c4;to be talking to each other directly⟯.
 
 ##### key exchange
@@ -6874,7 +6877,7 @@ the tty command tells us which device file is implementing the current terminal
 ##### terminal architecture
 
 
-[[[<img src="file://~/Downloads/terminalsys.svg">]]]
+flex-container:<img src="file://~/Downloads/terminalsys.svg">
 
 A physical terminal is connected via cables to an UART driver.
 screen, keyboard etc. are connected via drivers to a virtual terminal (not a window).
@@ -8670,7 +8673,7 @@ While the flow of OAuth using redirection etc. is the most common flow, there ar
 
 OAuth 2.0 (grant type: Authorization code)
 
-[[[<img src="tmp7t5et6aw.png" />]]]
+flex-container:<img src="tmp7t5et6aw.png" />
 
 TODO transorm flow into ascii art maybe
 
@@ -8748,7 +8751,7 @@ Telegraphs were operated by telegraph operators until the advent of teh writing 
 
 #### telex
 
-[[[<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">]]]
+flex-container:<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">
 
 Telex was the network of teleprinters common in a large part of the 20th century.
 Rough synonyms (not abbreviations): Teleprinter, Teletypewriter, Telex
@@ -10261,7 +10264,7 @@ Random access might be clearer if it was called direct access.
 Random access allows access to arbitrary elements at will.
 Sequential access only allows access in a certain sort of order.
 
-[[[<img src="sm_rand_seq_acc.svg">]]]
+flex-container:<img src="sm_rand_seq_acc.svg">
 book|random access (to pages)
 scroll|sequential access
 
@@ -10584,12 +10587,12 @@ Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
 
-[[[<img src="sm_408px-Singly-linked-list.svg.png">]]]
+flex-container:<img src="sm_408px-Singly-linked-list.svg.png">
 A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
 To access a linked list, we merely need a reference to the first element.
 A linked list in which the only node/vertex is a reference to the next element is a singly-linked list
 
-[[[<img src="sm_doubly_linked_list.svg">]]]
+flex-container:<img src="sm_doubly_linked_list.svg">
 A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
@@ -10618,7 +10621,7 @@ push: add to the top of the stack
 pop: remove from top of the stack
 peek: loop at top of stack
 
-[[[<img src="sm_Data_stack.svg">]]]
+flex-container:<img src="sm_Data_stack.svg">
 
 ##### Queue
 
@@ -10628,7 +10631,7 @@ enqueue: add to the end of the queue
 dequeue: remove from the front of the queue
 peek: look a the next element that would be dequeued
 
-[[[<img src="sm_450px-Data_Queue.svg.png">]]]
+flex-container:<img src="sm_450px-Data_Queue.svg.png">
 
 ### intersection of iterators, strings, linear collections
 
@@ -12908,7 +12911,7 @@ a deterministic algorithim/callable unit will, given a particular input ⟮c1;al
 ##### binary
 
 
-[[[<img src="sm_1280px-Binary_Search_Depiction.svg.png">]]]
+flex-container:<img src="sm_1280px-Binary_Search_Depiction.svg.png">
 ⟮c1;Binary search⟯ 
 ```
 ⟮c2;take middle element⟯ 
@@ -12925,7 +12928,7 @@ A sorting algorithm is an algorithm that sorts a linear collection.
 ##### bubble
 
 
-[[[<img src="sm_Bubble-sort-example-300px.gif">]]]
+flex-container:<img src="sm_Bubble-sort-example-300px.gif">
 Bubble sort is called that because the largest elements will bubble to the right in a single pass.
 while true:
   for all elements in the list: 
@@ -13130,6 +13133,7 @@ Shortcut|Action
 
 
 ######## comments
+
 ⟮c1;add line comment⟯|⟮c2;⟦⌘⟧ <kbd>k</kbd> ⟦⌘⟧ <kbd>c</kbd>⟯
 ⟮c3;toggle line comment⟯|⟮c4;⟦⌘⟧ <kbd>/</kbd>⟯
 ⟮c5;toggle block comment⟯|⟮c6;⟦⇧⟧ ⟦⌥⟧ <kbd>a</kbd>⟯
@@ -13190,7 +13194,7 @@ You can ⟮c1;force element state (such as hover, focus⟯) either by ⟮c2;righ
 
 ###### box model
 
-[[[⟮h∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h∞;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯]]]
+flex-container:⟮h∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h∞;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯
 Hovering over ⟮c1;a part of the box model⟯ in the styles tab will ⟮c2;higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮c3;change any part⟯ of the CSS box model in devtools by ⟮c4;clicking on the relevant number and setting it⟯ 
 
@@ -13311,10 +13315,12 @@ Single line:
 
 Multiline:
 --\[\[foo]]|lua
-/\*foo\*/|CSS|C#|Java|JS|Rust
+/\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
 &lt;!-- foo -->|HTML
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
+
+Besides comments, fountain has the notion of a note, delimited [[foo]]
 
 #### Documentation generators
 
@@ -13424,7 +13430,7 @@ UML is a general modelling language most commonly used in the field of software 
 
 An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
 
-[[[<img src="sm_220px-BankAccount1.svg.jpg">]]]
+flex-container:<img src="sm_220px-BankAccount1.svg.jpg">
 
 #### sequence
 
@@ -13444,7 +13450,7 @@ Answer messages   dashed arrows
 #### object
 
 
-[[[<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">]]]
+flex-container:<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
 
 ## automation

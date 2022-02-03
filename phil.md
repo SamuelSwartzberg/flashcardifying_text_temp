@@ -218,10 +218,10 @@ While subjective idealism is metaphysically anti-realist, objective realis is me
 
 #### social ontology
 
-Ásta, in her book <cite>Categories we live by</cite> investigates social properties/categories.
+Ásta, in her book 『Categories we live by』 investigates social properties/categories.
 For Ásta, a social property/status consists of certain constraints and enablements in a certain context.
 To Ásta, one recieves a social property by others.
-Ásta, in her book <cite>Categories we live by</cite> suggests three possible ways we might say a social property comes to be, a response-dependent account, a constitutive accound and a conferallist account.
+Ásta, in her book 『Categories we live by』 suggests three possible ways we might say a social property comes to be, a response-dependent account, a constitutive accound and a conferallist account.
 Ásta means her conferralist framework to apply to any social property, but cares most about categories at issue currently:sex, gender, LGBTQ, race, religion etc. 
 Asta distinguishes two kinds of social properties: institutional properties and communal properties.
 
@@ -349,8 +349,8 @@ Ethical hedonism claims that increasing pleasure and decreasing pain determines 
 
 #### experience machine
 
-Nozick's <cite>Anarchy, State, and Utopia</cite> (1974) contains the famous experience machine thought experiment.
-Nozick's <cite>Anarchy, State, and Utopia</cite> is said to be responding to Rawls' ⟮c1;A Theory of Justice⟯ (1971)
+Nozick's 『Anarchy, State, and Utopia』 (1974) contains the famous experience machine thought experiment.
+Nozick's 『Anarchy, State, and Utopia』 is said to be responding to Rawls' ⟮c1;A Theory of Justice⟯ (1971)
 The Experience machine is a thought experiment against ethical hedonism.
 For the experience machine thought experiment, one is offered to enter a machnine, which, while floating within it, would give us pleasurable experiences. We would not know we were in the machine (it would seem like real life to us), and the machine could not fail. 
 Nozick argues one would not want to enter the experience machine, for example because it would limit us to a man-made reality, we want to be a certain sort of person, etc.
