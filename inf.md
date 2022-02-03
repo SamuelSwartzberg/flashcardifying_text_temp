@@ -3772,7 +3772,7 @@ For any given color model, to ⟮c:228;specify transparency⟯, you ⟮c:229;add
 For a color hex, you ⟮c:231;specify the alpha channel⟯ by ⟮c:232;adding another two-digit hex to the end⟯.
 ⟮c:126;&lt;color-model&gt;-D⟯ is ⟮c:127;just that color model⟯ with ⟮c:128;an additional depth channel.⟯ 
 
-RGB 3-tuple notation|
+RGB 3-tuple notation|color
 ⟮c:1;Rgb(0, 0, 0⟯)|⟮c:2;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯
 ⟮c:3;Rgb(0, 0, 255⟯)|⟮c:4;<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">⟯
 ⟮c:5;Rgb(0, 255, 0⟯)|⟮c:6;<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">⟯
@@ -5082,19 +5082,15 @@ Latex ⟮c:15;section commands⟯ take ⟮c:16;the full section title⟯ as ⟮c
 ± \subsection[shortitle]{This is the full title} ±<br>
 ⟮c:8;Article⟯ notably does not havet the ⟮c:9;\chapter⟯ section command. 
 
-<h2>
-  Latex section hierarchy
-</h2>
-<ol>
-<li>⟮c:1;s:gb;part⟯</li>
-<li>⟮c:2;s:gb;chapter⟯</li>
-<li>⟮c:3;s:gb,6-7;section⟯</li>
-<li>⟮c:4;s:gb,6-7;subsection⟯</li>
-<li>⟮c:5;s:gb,7;subsubsection⟯</li>
-<li>⟮c:6;s:gb;paragraph⟯</li>
-<li>⟮c:7;s:gb;subparagraph⟯</li>
-</ol>
+######### Latex section hierarchy
 
+1. ⟮c:1;s:gb;part⟯
+2. ⟮c:2;s:gb;chapter⟯
+3. ⟮c:3;s:gb,6-7;section⟯
+4. ⟮c:4;s:gb,6-7;subsection⟯
+5. ⟮c:5;s:gb,7;subsubsection⟯
+6. ⟮c:6;s:gb;paragraph⟯
+7. ⟮c:7;s:gb;subparagraph⟯
 
 ######## latex groups
 
@@ -8678,12 +8674,18 @@ OAuth 2.0 (grant type: Authorization code)
 
 TODO transorm flow into ascii art maybe
 
-In general, when users want to sign in using OAuth:<ol><li>the application makes a request using its client id</li><li>The user sees a screen asking them to grant access</li><li>The user clicks ok (or not) and is redirected</li><li>We get an authorization code</li><li>We exchange the authorization code for an access token</li><li>We can now make API requests </li></ol>
+In general, when users want to sign in using OAuth:
+1. the application makes a request using its client id
+2. The user sees a screen asking them to grant access
+3. The user clicks ok (or not) and is redirected
+4. We get an authorization code
+5. We exchange the authorization code for an access token
+6. We can now make API requests
 
 ### misc
 
-MTP  Media transfer protocol
-PTP  Picture transfer protocol
+MTP|Media transfer protocol
+PTP|Picture transfer protocol
 
 ## networks
 
@@ -8719,6 +8721,8 @@ In a bus, everyone attached recieves the transmission.
 In a bus, only one entity can send at a time.
 Sometimes, bus is used to refer any connection between two points, even if it isn't a bus (this definition is nonsense)
 A daisy chain is a topology where devices are linked in a line or ring.
+
+topology name|how it looks
 ⟮c:1;star⟯|⟮c:2;<img src="StarNetwork.svg">⟯
 ⟮c:3;ring⟯|⟮c:4;<img src="RingNetwork.svg">⟯
 ⟮c:5;fully connected mesh⟯|⟮c:6;<img src="FullyConnectedMeshNetwork.svg">⟯
@@ -8744,7 +8748,8 @@ Telegraphs were operated by telegraph operators until the advent of teh writing 
 
 #### telex
 
-<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">
+[[[<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">]]]
+
 Telex was the network of teleprinters common in a large part of the 20th century.
 Rough synonyms (not abbreviations): Teleprinter, Teletypewriter, Telex
 Abbreviations: teletypewriter -> teletype -> tty
