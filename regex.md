@@ -108,10 +108,7 @@ The index of the next group after the branch reset group is the maximum index th
   <tbody>
     <tr style="font-family: monospace">
       <th style="font-family: sans-serif">Regex</th>
-      <td>(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)
-
-    <tr>
-      <th>Group index</th>
+      <td>(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)Group index</th>
       <td>⟮c:1;1⟯|⟮c:2;2⟯|⟮c:3;2⟯|⟮c:4;3⟯|⟮c:5;2⟯|⟮c:6;3⟯|⟮c:7;4⟯
 
   </tbody>

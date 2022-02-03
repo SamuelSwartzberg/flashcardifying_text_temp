@@ -68,8 +68,7 @@ To De Sassure, the ⟮c:20;sign⟯ is ⟮c:21;arbitrary⟯ because ⟮c:22;any s
 Since the ⟮c:24;sign⟯ consists of ⟮c:25;the two parts of signifier and signified⟯, the model is often called ⟮c:26;dyadic⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>What?|Where in the image?</th>
+  <thead>What?|Where in the image?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;a sign⟯|⟮c:2;the are between any two dotted lines⟯
@@ -99,7 +98,7 @@ An ⟮c:10;emic unit⟯ ⟮c:11;reduces⟯ ⟮c:12;a large number of variant for
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-| <tr><th>emic unit</th>
+|emic unit</th>
 | <th>etic unit</th>
 | <th>allo-</th>
   </tr></thead>
@@ -935,9 +934,7 @@ Inflection is commonly done via affixation or apophony, but there are also other
 An invariable/invariant word is a word that cannot be inflected.
 Inflection can be subdivided into {{c1::Declension and conjugation}}
 <table>
-  <thead>
-    <tr>
-      <th>Name|Inflection of|</th>
+  <thead>Name|Inflection of|</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
@@ -1272,8 +1269,7 @@ Types of determiners: Articles, Demonstrative determiners, Quantifiers, distribu
 Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
 <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><th colspan="2">⟮c:1;DP⟯</th></tr>
-<tr><th>⟮c:2;Q/D⟯|⟮c:3;DP⟯</th></tr>
+    <tr><th colspan="2">⟮c:1;DP⟯</th></tr>⟮c:2;Q/D⟯|⟮c:3;DP⟯</th></tr>
 <span>all</span>|<span>the students</span>
   </tbody>
 </table>
@@ -1860,78 +1856,41 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 <th rowspan="2">Underside of tongue (Subapical)
 </th>
 
-</tr>
-<tr>
-<th>Passive articulator ↓
-</th></tr>
-<tr>
-<th>Upper lip
+</tr>Passive articulator ↓
+</th></tr>Upper lip
 </th>
 <td>bilabial|span=2;linguolabial|class=no;
-|class=no;|class=no;|class=no;
-
-<tr>
-<th>Upper teeth
+|class=no;|class=no;|class=no;Upper teeth
 </th>
 <td>labiodental|class=no;|class=no;|class=no;
-|class=no;|class=no;|class=no;
-
-<tr>
-<th>Upper teeth
+|class=no;|class=no;|class=no;Upper teeth
 </th>
 <td class="no">|span=2;dental|class=no;
-|class=no;|class=no;|class=no;
-
-<tr>
-<th>Upper teeth/&#8203;alveolar ridge (prealveolar)
+|class=no;|class=no;|class=no;Upper teeth/&#8203;alveolar ridge (prealveolar)
 </th>
 <td class="no">|denti-alveolar|class=no;|class=no;
-|class=no;|class=no;|class=no;
-
-<tr>
-<th>Alveolar ridge
+|class=no;|class=no;|class=no;Alveolar ridge
 </th>
 <td class="no">|span=2;alveolar|class=no;
-|class=no;|class=no;|class=no;
-
-<tr>
-<th>Back of alveolar ridge <br>(postalveolar)
+|class=no;|class=no;|class=no;Back of alveolar ridge <br>(postalveolar)
 </th>
 <td class="no">|palato-alveolar|retroflex (more precisely: apical postalveolar)|class=no;
-|alveolo-palatal|class=no;|class=no;
-
-<tr>
-<th>Hard palate (front)
+|alveolo-palatal|class=no;|class=no;Hard palate (front)
 </th>
 <td class="no">|class=no;|class=no;|retroflex (more precisely: true retroflex)
-|palatal|class=no;|class=no;
-
-<tr>
-<th>Soft palate/&#8203;velum
+|palatal|class=no;|class=no;Soft palate/&#8203;velum
 </th>
 <td class="no">|class=no;|class=no;|subapical velar
-|velar|class=no;|class=no;
-
-<tr>
-<th>Uvula
+|velar|class=no;|class=no;Uvula
 </th>
 <td class="no">|class=no;|class=no;|class=no;
-|uvular|class=no;|class=no;
-
-<tr>
-<th>Pharynx
+|uvular|class=no;|class=no;Pharynx
 </th>
 <td class="no">|class=no;|class=no;|class=no;
-|class=no;|pharyngeal|class=no;
-
-<tr>
-<th>Epiglottis
+|class=no;|pharyngeal|class=no;Epiglottis
 </th>
 <td class="no">|class=no;|class=no;|class=no;
-|class=no;|class=no;|(ary-)epiglottal
-
-<tr>
-<th>Glottis
+|class=no;|class=no;|(ary-)epiglottalGlottis
 </th>
 <td class="no">|class=no;|class=no;|class=no;
 |class=no;|class=no;|glottal
@@ -2013,8 +1972,7 @@ Since a dipthong changes from one vowel to another, it may also be called a glid
 ######## IPA chart
 
 <table class="blank-canvas">
-<tbody><tr>
-<th>
+<tbody>
 </th>
 <th scope="col">⟮c:1;s:1-10;Front⟯
 </th>
@@ -2137,9 +2095,7 @@ td {
   } td > div {  }</style>
 
 <table>
-  <thead>
-    <tr>
-      <th>Openness|Backness|Roundedness|IPA Symbol</th>
+  <thead>Openness|Backness|Roundedness|IPA Symbol</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2222,9 +2178,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 ######## consonant IPA
 
 <table class="yesno">
-<tbody>
-<tr>
-<th>Place (active) →</th>
+<tbody>Place (active) →</th>
 <th colspan="4" scope="col">Labial</th>
 <th colspan="8" scope="col">Coronal</th>
 <th colspan="2" scope="col">Dorsal</th>
@@ -2232,9 +2186,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <th colspan="2" scope="col">Dorsal</th>
 <th colspan="2" scope="col">Radical/​Ary­epiglottal</th>
 <th colspan="2" scope="col">Ary­epiglottal</th>
-</tr>
-<tr>
-<th>Place (active + passive) →</th>
+</tr>Place (active + passive) →</th>
 <th colspan="2" rowspan="2" scope="col">Bi­labial</th>
 <th colspan="2" rowspan="2" scope="col">Labio­dental</th>
 <th colspan="6" rowspan="2" scope="col">Dental/&#8203;Alveolar/&#8203;Post­alveolar</th>
@@ -2244,8 +2196,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 <th colspan="2" rowspan="2" scope="col">Uvular</th>
 <th colspan="2" rowspan="2" scope="col">Pharyn­geal/​epi­glottal</th>
 <th colspan="2" rowspan="2" scope="col">Glottal</th>
-</tr>
-  <tr><th>Manner ↓</th>
+</tr>Manner ↓</th>
   </tr>
 <tr>
 <th scope="row">Plosive</th>
@@ -2293,8 +2244,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 </table>
 
 <table>
-  <thead>
-    <tr><th>|</th>
+  <thead>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:13;ʍ⟯|⟮c:5;voice​less⟯|⟮c:5;labio​velar⟯|⟮c:5;approxi​mant⟯
@@ -2574,8 +2524,7 @@ Theoretical lexicography is the study of features of lexemes and lexica.
 ⟮c:11;Your siblings children⟯  are called ⟮c:12;niblings⟯. 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>family term|female|male</th>
+  <thead>family term|female|male</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Parsib/pibling/auncle⟯|⟮c:2;aunt⟯|⟮c:3;uncle⟯
@@ -2689,8 +2638,7 @@ A blank line is two newlines.
 ⟮c:7;Typography⟯ is the area concerned with ⟮c:8;the properties/use of type and text (in a wide sense⟯) 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>|</th>
+  <thead>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Microtypography⟯|⟮c:2;Typography on the level of letters/words⟯|⟮c:3;Letter spacing, word spacing, ligatures, features of letters⟯
@@ -3000,8 +2948,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 ######## brackets
 
 <table class="cloze-group hide-if-inactive">
-  <tbody>
-    <tr><th>thing|name</th></tr>
+  <tbody>thing|name</th></tr>
 {{c13::{} }}|⟮c:2;curly brackets⟯ (non-us), or ⟮(c:3;curly⟯) ⟮c:3;braces⟯ (us, uk)
 ⟮c:14;&lt;&gt;⟯|⟮c:1;angle brackets⟯ or ⟮c:4;chevrons⟯
 ⟮c:15;( ) ⟯|⟮c:5;brackets⟯ (non-us), ⟮c:6;round brackets⟯ (non-us) or ⟮c:7;parantheses⟯
@@ -3010,8 +2957,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 </table>
 
 <table class="cloze-group hide-if-inactive">
-  <tbody>
-  <tr><th>name|referenced entity (US)|referenced entity (not-US)</th></tr>
+  <tbody>name|referenced entity (US)|referenced entity (not-US)</th></tr>
 ⟮c:17;parentheses⟯|⟮c:18;(⟯)|⟮c:19;may be meaningless (or US meaning⟯)
 ⟮c:24;brackets⟯|⟮c:10;[]⟯, less commonly perhaps ⟮c:11;&lt;&gt;⟯|most commonly ⟮c:20;(⟯), also {{c21::cover term for all of ()[]{}&lt;&gt;}}
 ⟮c:22;braces⟯|{{c12::{} }}|⟮c:23;may be meaningless (or US meaning⟯)
@@ -3043,8 +2989,7 @@ The ⟮c:8;prime⟯ is often used to ⟮c:9;mark something derived from somethin
 The ⟮c:10;prime⟯ and ⟮c:10;double prime⟯ can mark ⟮c:11;(arc)minutes⟯ and ⟮c:11;(arc)seconds⟯ respectively 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>Symbol|Name</th>
+  <thead>Symbol|Name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;′⟯|⟮c:2;Prime⟯
@@ -3103,9 +3048,7 @@ In ⟮c:17;bicameral⟯ writing systems, ⟮c:18;the uppercase letters⟯ are �
     
   <table class="cloze-group hide-if-inactive">
   span=3;Types of interesting capitalization</th>
-    </tr>
-    <tr>
-      <th>Name|Features</th>
+    </tr>Name|Features</th>
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
@@ -3137,8 +3080,7 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 ⟮c:24;western⟯ ⟮c:25;emoticons⟯ have ⟮c:26;faces⟯ that are oriented ⟮c:20;left-to-right⟯ 
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr><th>emoticon eyes|meaning</th>
+  <thead>emoticon eyes|meaning</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;:⟯|⟮c:2;default (more common⟯)
@@ -3284,8 +3226,7 @@ realize (make happen, become aware of) / realisieren (make happen) -&gt; realize
   <thead>
     <th colspan="5">Types of borrowings</th>
   </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr><th>senses are added</th> <th colspan="4">words/morphemes are added</th></tr>
+  <tbody class="cloze-group-children hide-if-inactive-children">senses are added</th> <th colspan="4">words/morphemes are added</th></tr>
 semantic loan</td> <th>words/morphemes are directly borrowed</th> <th colspan="3">morphological transformation is done</th></tr>
 |foregin words, loanwords, (loanblends)</td> <th>part of the morphemes are native</th> <th colspan="2">all of the morphemes are native</th></tr>
 ||(loanblends)</td> <th>the structure is native|the structure is foreign</th></tr>
@@ -3415,9 +3356,7 @@ Deborah tannen was a student of robin lakoff who initiated the difference approa
 
 The ⟮c:11;deficit, dominance and difference approaches⟯ are all approaches to ⟮c:12;explain differences between male and female language⟯ 
 <table>
-  <thead>
-    <tr>
-      <th>approach|description|proponents</th>
+  <thead>approach|description|proponents</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;dominance approach⟯|⟮c:4;powerless women's language⟯ ⟮c:5;reflects (is caused by) male dominance more generally⟯
@@ -3835,9 +3774,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ## writing systems
 
 <table class="cloze-group hide-if-inactive">
-  <thead>
-    <tr>
-      <th>万葉仮名 origin|片仮名 today|</th>
+  <thead>万葉仮名 origin|片仮名 today|</th>
     </tr>
   </thead><tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;久⟯|⟮c:2;ク⟯
@@ -3890,9 +3827,7 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 ⟮c:1;送り仮名⟯ are the ⟮c:2;hiragana dangling off the end⟯ of ⟮c:3;some words⟯. 
 
 <table>
-  <thead>
-    <tr>
-      <th>||</th>
+  <thead>||</th>
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
