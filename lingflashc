@@ -68,7 +68,6 @@ To De Sassure, the ⟮c:20;sign⟯ is ⟮c:21;arbitrary⟯ because ⟮c:22;any s
 Since the ⟮c:24;sign⟯ consists of ⟮c:25;the two parts of signifier and signified⟯, the model is often called ⟮c:26;dyadic⟯. 
 
   <thead>What?|Where in the image?
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;a sign⟯|⟮c:2;the are between any two dotted lines⟯
 ⟮c:3;the arbitrary dividing point of sings⟯|⟮c:4;the dotted lines⟯
@@ -98,7 +97,6 @@ An ⟮c:10;emic unit⟯ ⟮c:11;reduces⟯ ⟮c:12;a large number of variant for
 |emic unit</th>
 | <th>etic unit</th>
 | <th>allo-
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 |⟮c:1;phoneme⟯|⟮c:2;s:3;phone⟯|⟮c:3;s:2;allophone⟯
 ⟮c:4;morpheme⟯|⟮c:5;s:6;morph⟯|⟮c:6;s:5;allomorph⟯
@@ -751,7 +749,6 @@ Prospective/Retrospective/ø
 Gnomic/anything else
 
   <thead><tr><th colspan="3">Eventive
-</thead>
   <tbody>span=1;⟮c:6;s:1-4;Perfective⟯|span=4;⟮c:5;s:1-4;Imperfective⟯
 |span=2;⟮c:3;s:1-2;Habitual⟯|span=2;⟮c:4;s:1-2;Continuous⟯
 |||⟮c:1;s:3-5;Progressive⟯|⟮c:2;s:3-5;Stative⟯
@@ -910,8 +907,6 @@ Inflection is commonly done via affixation or apophony, but there are also other
 An invariable/invariant word is a word that cannot be inflected.
 Inflection can be subdivided into {{c1::Declension and conjugation}}
   <thead>Name|Inflection of|
-
-  </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
 ⟮c:3;Declension⟯|⟮c:4;Nouns or Adjectives⟯
 
@@ -2063,8 +2058,6 @@ td {
   } td > div {  }</style>
 
   <thead>Openness|Backness|Roundedness|IPA Symbol
-
-  </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c1;Close ⟯|⟮c29;Back⟯|⟮c29;Rounded⟯|⟮c29;u⟯
 ⟮c2;Close ⟯|⟮c30;Back⟯|⟮c30;Unrounded⟯|⟮c30;ɯ⟯
@@ -2482,7 +2475,6 @@ Theoretical lexicography is the study of features of lexemes and lexica.
 ⟮c:11;Your siblings children⟯  are called ⟮c:12;niblings⟯. 
 
   <thead>family term|female|male
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Parsib/pibling/auncle⟯|⟮c:2;aunt⟯|⟮c:3;uncle⟯
 ⟮c:4;nibling⟯|⟮c:5;niece⟯|⟮c:6;nephew⟯
@@ -2745,7 +2737,6 @@ There is no agreement on whether ⟮c:9;widows or orphans⟯ refers to the thing
 Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;verso⟯ is ⟮c:6;the back of the page⟯. 
 ⟮c:7;Recto⟯ is ⟮c:8;the front of the page⟯ since ⟮c:9;you will see it first if reading the book normally⟯, while ⟮c:7;verso⟯ is ⟮c:8;the back of the page⟯ since ⟮c:9;you will only see it once turning the page if reading the book normally⟯. 
   span=2;What do you call these pages? (LtR)
-</thead>
   <tbody>span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
@@ -2794,7 +2785,6 @@ Conceptually, ⟮c:5;recto⟯ is ⟮c:6;the front of the page⟯, while ⟮c:5;v
 ⟮c:1;s:2;verso⟯|⟮c:2;s:1;recto⟯
 
     span=2;What do you call these pages? (RtL)
-</thead>
   <tbody>span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
       <stop offset="0" style="stop-color:#FFF5BF"></stop>
@@ -2935,7 +2925,6 @@ The ⟮c:8;prime⟯ is often used to ⟮c:9;mark something derived from somethin
 The ⟮c:10;prime⟯ and ⟮c:10;double prime⟯ can mark ⟮c:11;(arc)minutes⟯ and ⟮c:11;(arc)seconds⟯ respectively 
 
   <thead>Symbol|Name
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;′⟯|⟮c:2;Prime⟯
 ⟮c:3;″⟯|⟮c:4;Double prime⟯
@@ -2992,8 +2981,6 @@ In ⟮c:17;bicameral⟯ writing systems, ⟮c:18;the uppercase letters⟯ are �
     
     span=3;Types of interesting capitalization
 Name|Features
-
-  </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:19;Snake case⟯|⟮c:22;lowercase text⟯ ⟮c:22;separated by underscores _⟯
 
@@ -3022,7 +3009,6 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 ⟮c:24;western⟯ ⟮c:25;emoticons⟯ have ⟮c:26;faces⟯ that are oriented ⟮c:20;left-to-right⟯ 
 
   <thead>emoticon eyes|meaning
-</thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;:⟯|⟮c:2;default (more common⟯)
 ⟮c:3;=⟯|⟮c:4;default (less common⟯)
@@ -3164,7 +3150,6 @@ realize (make happen, become aware of) / realisieren (make happen) -&gt; realize
 
   <thead>
     <th colspan="5">Types of borrowings</th>
-  </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">senses are added</th> <th colspan="4">words/morphemes are added
 
 semantic loan</td> <th>words/morphemes are directly borrowed</th> <th colspan="3">morphological transformation is done
@@ -3298,8 +3283,6 @@ Deborah tannen was a student of robin lakoff who initiated the difference approa
 
 The ⟮c:11;deficit, dominance and difference approaches⟯ are all approaches to ⟮c:12;explain differences between male and female language⟯ 
   <thead>approach|description|proponents
-
-  </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;dominance approach⟯|⟮c:4;powerless women's language⟯ ⟮c:5;reflects (is caused by) male dominance more generally⟯
 ⟮c:2;deficit approach⟯|⟮c:6;women's language⟯ ⟮c:7;is inferior to (= weaker than⟯) ⟮c:6;men's language⟯ (and ⟮c:8;this causes women's oppression, at least in part⟯)|⟮c:2;Robin Lakoff}⟯
 ⟮c:3;difference approach⟯|⟮c:9;women and men ⟯ just ⟮c:10;belong to different linguistic subcultures ('separate but equal'⟯)|Deborah tannen
@@ -3761,8 +3744,6 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 ⟮c:1;送り仮名⟯ are the ⟮c:2;hiragana dangling off the end⟯ of ⟮c:3;some words⟯. 
 
   <thead>||
-
-  </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<ruby>楷書<rp>(</rp><rt>かいしょ</rt><rp>)</rp></ruby>⟯|⟮c:2;<img src="sm_mushoujyoukaisotai01.png">⟯
 ⟮c:3;<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>⟯|⟮c:4;<img src="sm_XiaozhuanQinquan_sized.jpg"><img src="sm_5eMPU.jpg"><img src="sm_380px-Ancient_prose_from_the_Xunzi,_in_seal_script.jpg">⟯
