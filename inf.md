@@ -3184,58 +3184,58 @@ e.g. cmd k then m to select the document language in VSCode
 ####### basic OS
 
 Action|Shortcut
-⟮c:1;Close tab/window⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>w</kbd> ⟯
-⟮c:3;New tab⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯
-⟮c:5;Quit app⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>q</kbd> ⟯
-⟮c:7;Restore tab (editor in VS code⟯)|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯
+⟮c:1;Close tab/window⟯|⟮c:2;⟦⌘⟧ <kbd>w</kbd> ⟯
+⟮c:3;New tab⟯|⟮c:4;⟦⌘⟧ <kbd>t</kbd> ⟯
+⟮c:5;Quit app⟯|⟮c:6;⟦⌘⟧ <kbd>q</kbd> ⟯
+⟮c:7;Restore tab (editor in VS code⟯)|⟮c:8;⟦⌘⟧ ⟦⇧⟧ <kbd>t</kbd> ⟯
 
 
 ####### edit history
-⟮c:1;undo⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>z</kbd>⟯
-⟮c:3;redo⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>z</kbd>⟯
+⟮c:1;undo⟯|⟮c:2;⟦⌘⟧ <kbd>z</kbd>⟯
+⟮c:3;redo⟯|⟮c:4;⟦⌘⟧ ⟦⇧⟧ <kbd>z</kbd>⟯
 
 
 ####### browser shortcuts
-⟮c:1;Switch to tab n⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd>⟯
-⟮c:3;Focus address bar⟯|⟮c:4;<kbd class="modifier cmd"></kbd><kbd>L</kbd>⟯
-⟮c:5;open link in new tab⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>click</kbd>⟯
-⟮c:7;download link target⟯|⟮c:8;<kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯
+⟮c:1;Switch to tab n⟯|⟮c:2;⟦⌘⟧ <kbd>n</kbd>⟯
+⟮c:3;Focus address bar⟯|⟮c:4;⟦⌘⟧<kbd>L</kbd>⟯
+⟮c:5;open link in new tab⟯|⟮c:6;⟦⌘⟧ <kbd>click</kbd>⟯
+⟮c:7;download link target⟯|⟮c:8;⟦⌥⟧ <kbd>click</kbd>⟯
 
 
 ####### search 
 
 <br/>  <thead>Action|Shortcut
-⟮c:1;Find in project/ other larger scope⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯
-⟮c:3;Find next⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>g</kbd> ⟯
-⟮c:5;Find previous⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>g</kbd> ⟯
-⟮c:7;Open search in window/smaller scope⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>F</kbd> ⟯
-⟮c:9;Open search in project/other large scope/advanced search⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>F</kbd> ⟯
+⟮c:1;Find in project/ other larger scope⟯|⟮c:2;⟦⌘⟧ ⟦⇧⟧ <kbd>F</kbd> ⟯
+⟮c:3;Find next⟯|⟮c:4;⟦⌘⟧ <kbd>g</kbd> ⟯
+⟮c:5;Find previous⟯|⟮c:6;⟦⌘⟧ ⟦⇧⟧ <kbd>g</kbd> ⟯
+⟮c:7;Open search in window/smaller scope⟯|⟮c:8;⟦⌘⟧ <kbd>F</kbd> ⟯
+⟮c:9;Open search in project/other large scope/advanced search⟯|⟮c:10;⟦⌘⟧ ⟦⇧⟧ <kbd>F</kbd> ⟯
 
 
 ####### form navigation
 ⟮c:1;<kbd>tab</kbd>⟯|⟮c:2;field forward⟯
-⟮c:3;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:4;field back⟯
+⟮c:3;⟦⇧⟧ <kbd>tab</kbd>⟯|⟮c:4;field back⟯
 
 
 
 ####### weird mac
 
 Action|Shortcut
-⟮c:1;Get info on item⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>i</kbd> ⟯
-⟮c:3;Preferences⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>,</kbd>⟯
-⟮c:5;Switch focus between windows of the same program⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>`</kbd> ⟯
-⟮c:8;Show hidden files⟯|⟮c:7;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>.</kbd> ⟯
+⟮c:1;Get info on item⟯|⟮c:2;⟦⌘⟧ <kbd>i</kbd> ⟯
+⟮c:3;Preferences⟯|⟮c:4;⟦⌘⟧ <kbd>,</kbd>⟯
+⟮c:5;Switch focus between windows of the same program⟯|⟮c:6;⟦⌘⟧ <kbd>`</kbd> ⟯
+⟮c:8;Show hidden files⟯|⟮c:7;⟦⌘⟧ ⟦⇧⟧ <kbd>.</kbd> ⟯
 ⟮c:9;rename current item⟯|⟮c:10;{{c2::<kbd>enter</kbd>}⟯
-⟮c:11;Minimize⟯|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd>m</kbd>⟯
+⟮c:11;Minimize⟯|⟮c:12;⟦⌘⟧ <kbd>m</kbd>⟯
 ⟮c:13;Fullscreen⟯|⟮c:14;<kbd class="key modifier cmd"></kbd> <kbd class="key modifier ctrl"></kbd><kbd>f</kbd>⟯
-⟮c:1;<kbd class="modifier alt"></kbd> <kbd>space</kbd>⟯|⟮c:2;non-breaking space (on keyboard⟯)
-⟮c:1;del key⟯|⟮c:2;<kbd class="modifier fn"></kbd> <kbd>⌫</kbd>⟯
+⟮c:1;⟦⌥⟧ <kbd>space</kbd>⟯|⟮c:2;non-breaking space (on keyboard⟯)
+⟮c:1;del key⟯|⟮c:2;⟦fn⟧ <kbd>⌫</kbd>⟯
 
 
 <br>  span=2;macOs Dialogs
 Action|Shortcut
 ⟮c:1;cancel⟯|⟮c:2;<kbd>esc</kbd>⟯
-⟮c:3;don't save⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯
+⟮c:3;don't save⟯|⟮c:4;⟦⌘⟧ <kbd>⌫</kbd>⟯
 
 
   span=2;Magnifying glass
@@ -3248,60 +3248,60 @@ Action|Shortcut
 ####### Anki
 
 Action|Shortcut
-⟮c:1;Add new card⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>n</kbd> ⟯
-⟮c:3;Bury card⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd> ⟯
-⟮c:5;Bury note⟯|⟮c:6;<kbd class="modifier alt"></kbd> <kbd>-</kbd> ⟯
-⟮c:7;Edit html⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>x</kbd> ⟯
-⟮c:9;Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom⟯)|⟮c:10;<kbd class="modifier alt"></kbd> <kbd>k</kbd> ⟯
-⟮c:11;Show deck options menu⟯|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>,</kbd> ⟯
+⟮c:1;Add new card⟯|⟮c:2;⟦⌘⟧ <kbd>n</kbd> ⟯
+⟮c:3;Bury card⟯|⟮c:4;⟦⌘⟧ <kbd>-</kbd> ⟯
+⟮c:5;Bury note⟯|⟮c:6;⟦⌥⟧ <kbd>-</kbd> ⟯
+⟮c:7;Edit html⟯|⟮c:8;⟦⌘⟧ ⟦⇧⟧ <kbd>x</kbd> ⟯
+⟮c:9;Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom⟯)|⟮c:10;⟦⌥⟧ <kbd>k</kbd> ⟯
+⟮c:11;Show deck options menu⟯|⟮c:12;⟦⌘⟧ ⟦⇧⟧ <kbd>,</kbd> ⟯
 ⟮c:13;Study⟯|⟮c:14;<kbd>L</kbd>⟯
-⟮c:15;Subscript⟯|⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>2</kbd> ⟯
-⟮c:17;Superscript⟯|⟮c:18;<kbd class="modifier alt"></kbd> <kbd class="modifier cmd"></kbd> <kbd>2</kbd> ⟯
-⟮c:19;Suspend card⟯|⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>j</kbd> ⟯
-⟮c:21;Suspend note⟯|⟮c:22;<kbd class="modifier alt"></kbd> <kbd>j</kbd> ⟯
-⟮c:23;add tag⟯|⟮c:24;<kbd class="modifier cmd"></kbd> <kbd>t</kbd> ⟯
-⟮c:25;remove tag⟯|⟮c:26;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>t</kbd> ⟯
-⟮c:27;reposition⟯|⟮c:28;<kbd class="modifier cmd"></kbd> <kbd>y</kbd> ⟯
-⟮c:29;reschedule⟯|⟮c:30;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>y</kbd> ⟯
-⟮c:31;add cloze (don't increment number⟯)|⟮c:32;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>c</kbd> ⟯
-⟮c:33;add cloze (increment number⟯)|⟮c:34;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>c</kbd> ⟯
-⟮c:35;submit something/new line⟯|⟮c:36;<kbd class="modifier cmd"></kbd> <kbd>enter</kbd>⟯
+⟮c:15;Subscript⟯|⟮c:16;⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ <kbd>2</kbd> ⟯
+⟮c:17;Superscript⟯|⟮c:18;⟦⌥⟧ ⟦⌘⟧ <kbd>2</kbd> ⟯
+⟮c:19;Suspend card⟯|⟮c:20;⟦⌘⟧ <kbd>j</kbd> ⟯
+⟮c:21;Suspend note⟯|⟮c:22;⟦⌥⟧ <kbd>j</kbd> ⟯
+⟮c:23;add tag⟯|⟮c:24;⟦⌘⟧ <kbd>t</kbd> ⟯
+⟮c:25;remove tag⟯|⟮c:26;⟦⌘⟧ ⟦⇧⟧ <kbd>t</kbd> ⟯
+⟮c:27;reposition⟯|⟮c:28;⟦⌘⟧ <kbd>y</kbd> ⟯
+⟮c:29;reschedule⟯|⟮c:30;⟦⌘⟧ ⟦⇧⟧ <kbd>y</kbd> ⟯
+⟮c:31;add cloze (don't increment number⟯)|⟮c:32;⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ <kbd>c</kbd> ⟯
+⟮c:33;add cloze (increment number⟯)|⟮c:34;⟦⌘⟧ ⟦⇧⟧ <kbd>c</kbd> ⟯
+⟮c:35;submit something/new line⟯|⟮c:36;⟦⌘⟧ <kbd>enter</kbd>⟯
 ⟮c:38;Browse screen⟯|⟮c:37;<kbd>B</kbd>⟯
 ⟮c:39;X⟯|⟮c:40;Deck home screen⟯
 
 
 ####### file-related
-⟮c:1;Export⟯|⟮c:2;<kbd class="modifier shift"></kbd><kbd class="modifier cmd"></kbd> <kbd>E</kbd>⟯
-⟮c:3;Import⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>i</kbd>⟯
-⟮c:5;Save as⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>s</kbd>⟯
-⟮c:7;Save⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>s</kbd>⟯
-⟮c:9;New thingy⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <div class="key" style="grid-area: 2/5">n</div>⟯
-⟮c:11;New alternative thing (window, folder, etc.⟯)|⟮c:12;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>n</kbd>⟯
-⟮c:13;Open⟯|⟮c:14;<kbd class="modifier cmd"></kbd> <kbd>o</kbd>⟯
-⟮c:15;Duplicate current item⟯|⟮c:16;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯
-⟮c:17;Print⟯|⟮c:18;<kbd class="modifier cmd"></kbd> <kbd>p</kbd> <br><div class="sub"></div>⟯
-⟮c:19;delete thingy (if file, move to bin⟯)|⟮c:20;<kbd class="modifier cmd"></kbd> <kbd>⌫</kbd>⟯
+⟮c:1;Export⟯|⟮c:2;⟦⇧⟧⟦⌘⟧ <kbd>E</kbd>⟯
+⟮c:3;Import⟯|⟮c:4;⟦⌘⟧ ⟦⇧⟧ <kbd>i</kbd>⟯
+⟮c:5;Save as⟯|⟮c:6;⟦⌘⟧ ⟦⇧⟧ <kbd>s</kbd>⟯
+⟮c:7;Save⟯|⟮c:8;⟦⌘⟧ <kbd>s</kbd>⟯
+⟮c:9;New thingy⟯|⟮c:10;⟦⌘⟧ <div class="key" style="grid-area: 2/5">n</div>⟯
+⟮c:11;New alternative thing (window, folder, etc.⟯)|⟮c:12;⟦⌘⟧ ⟦⇧⟧ <kbd>n</kbd>⟯
+⟮c:13;Open⟯|⟮c:14;⟦⌘⟧ <kbd>o</kbd>⟯
+⟮c:15;Duplicate current item⟯|⟮c:16;⟦⌘⟧ ⟦⇧⟧ <kbd>D</kbd>⟯
+⟮c:17;Print⟯|⟮c:18;⟦⌘⟧ <kbd>p</kbd> <br><div class="sub"></div>⟯
+⟮c:19;delete thingy (if file, move to bin⟯)|⟮c:20;⟦⌘⟧ <kbd>⌫</kbd>⟯
 
 
 ####### view
-⟮c:1;Reset zoom level (most often⟯)|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>0</kbd>⟯
-⟮c:3;Zoom out⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>-</kbd>⟯
-⟮c:5;Zoom in⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>=</kbd>⟯
+⟮c:1;Reset zoom level (most often⟯)|⟮c:2;⟦⌘⟧ <kbd>0</kbd>⟯
+⟮c:3;Zoom out⟯|⟮c:4;⟦⌘⟧ <kbd>-</kbd>⟯
+⟮c:5;Zoom in⟯|⟮c:6;⟦⌘⟧ <kbd>=</kbd>⟯
 
 
 ####### text editing 
 
 Shortcut|Action
-⟮c:1;Paste as plain text⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>v</kbd>⟯
-⟮c:3;Select all⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>a</kbd> ⟯
-⟮c:5;copy⟯|⟮c:6;<kbd class="modifier cmd"></kbd> <kbd>c</kbd> ⟯
-⟮c:7;cut⟯|⟮c:8;<kbd class="modifier cmd"></kbd> <kbd>x</kbd> ⟯
-⟮c:9;paste⟯|⟮c:10;<kbd class="modifier cmd"></kbd> <kbd>v</kbd> ⟯
-⟮c:1;<kbd class="modifier ctrl"></kbd> <kbd>L</kbd>⟯|⟮c:2;Insert hyperlink⟯
-⟮c:3;<kbd class="modifier cmd"></kbd> <kbd>b</kbd>⟯|⟮c:4;Bold text⟯
-⟮c:5;<kbd class="modifier cmd"></kbd> <kbd>i</kbd>⟯|⟮c:6;Italic text⟯
-⟮c:7;<kbd class="modifier cmd"></kbd> <kbd>u</kbd>⟯|⟮c:8;underlined text⟯
-⟮c:9;<kbd class="modifier shift"></kbd> <kbd>tab</kbd>⟯|⟮c:10;unindent⟯
+⟮c:1;Paste as plain text⟯|⟮c:2;⟦⌘⟧ ⟦⇧⟧ <kbd>v</kbd>⟯
+⟮c:3;Select all⟯|⟮c:4;⟦⌘⟧ <kbd>a</kbd> ⟯
+⟮c:5;copy⟯|⟮c:6;⟦⌘⟧ <kbd>c</kbd> ⟯
+⟮c:7;cut⟯|⟮c:8;⟦⌘⟧ <kbd>x</kbd> ⟯
+⟮c:9;paste⟯|⟮c:10;⟦⌘⟧ <kbd>v</kbd> ⟯
+⟮c:1;⟦⌃⟧ <kbd>L</kbd>⟯|⟮c:2;Insert hyperlink⟯
+⟮c:3;⟦⌘⟧ <kbd>b</kbd>⟯|⟮c:4;Bold text⟯
+⟮c:5;⟦⌘⟧ <kbd>i</kbd>⟯|⟮c:6;Italic text⟯
+⟮c:7;⟦⌘⟧ <kbd>u</kbd>⟯|⟮c:8;underlined text⟯
+⟮c:9;⟦⇧⟧ <kbd>tab</kbd>⟯|⟮c:10;unindent⟯
 ⟮c:11;<kbd>tab</kbd>⟯|⟮c:12;Indent⟯
 
 
@@ -3321,16 +3321,16 @@ Shortcut|Action
 
         Shortcut
       |Action
-  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯
-⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯
-⟮c:5;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯
-⟮c:7;<kbd class="modifier alt"></kbd> <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)
-⟮c:9;<kbd class="modifier cmd"></kbd> <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯
-⟮c:11;<kbd class="modifier ctrl"></kbd> <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯
+  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;⟦⌘⟧ ⟦⇧⟧ <kbd>D</kbd>⟯|⟮c:2;Toggle deafen⟯
+⟮c:3;⟦⌘⟧ ⟦⇧⟧ <kbd>U</kbd> ⟯|⟮c:4;Upload file⟯
+⟮c:5;⟦⌘⟧ ⟦⌥⟧ <kbd>↑/↓</kbd>⟯|⟮c:6;Navigate between servers⟯
+⟮c:7;⟦⌥⟧ <kbd>↑/↓</kbd>⟯|⟮c:8;navigate between channels (incl private messages⟯)
+⟮c:9;⟦⌘⟧ <kbd>K</kbd> ⟯|⟮c:10;toggle quickswitcher⟯
+⟮c:11;⟦⌃⟧ <kbd>Ä</kbd> ⟯|⟮c:12;start/accept call⟯
 ⟮c:13;<kbd>e</kbd>⟯|⟮c:14;edit message⟯
 ⟮c:15;<kbd>r</kbd>⟯|⟮c:16;reply⟯
 ⟮c:17;<kbd>esc</kbd>⟯|⟮c:18;decline incoming call⟯
-⟮c:19;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯
+⟮c:19;⟦⌘⟧ ⟦⇧⟧ <kbd>M</kbd>⟯|⟮c:20;toggle mute⟯
 
 
 ######## vector editor
@@ -3470,8 +3470,8 @@ A ⟮c:21;Command Palette⟯ generally appears as ⟮c:22;a modal⟯ floating in
 Following ⟮c:24;Sublime text and VSCode⟯, ⟮c:25;many applications have adapted⟯ ⟮c:26;the Command Palette⟯. 
 
 Shortcut to open command palette|Platform
-⟮c:11;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> P⟯|⟮c:12;VSCode, Chrome Devtools⟯
-⟮c:13;<kbd class="modifier cmd"></kbd> (<kbd class="modifier alt"></kbd>) K⟯|⟮c:14;GitHub⟯
+⟮c:11;⟦⌘⟧ ⟦⇧⟧ P⟯|⟮c:12;VSCode, Chrome Devtools⟯
+⟮c:13;⟦⌘⟧ (⟦⌥⟧) K⟯|⟮c:14;GitHub⟯
 
 
 ⟮c:35;Quick open menus⟯ are often entered via ⟮c:36;<kbd class="key modifier cmd"></kbd> <kbd>P</kbd>.⟯ 
@@ -13131,9 +13131,9 @@ Shortcut|Action
 
 
 ######## comments
-⟮c:1;add line comment⟯|⟮c:2;<kbd class="modifier cmd"></kbd> <kbd>k</kbd> <kbd class="modifier cmd"></kbd> <kbd>c</kbd>⟯
-⟮c:3;toggle line comment⟯|⟮c:4;<kbd class="modifier cmd"></kbd> <kbd>/</kbd>⟯
-⟮c:5;toggle block comment⟯|⟮c:6;<kbd class="modifier shift"></kbd> <kbd class="modifier alt"></kbd> <kbd>a</kbd>⟯
+⟮c:1;add line comment⟯|⟮c:2;⟦⌘⟧ <kbd>k</kbd> ⟦⌘⟧ <kbd>c</kbd>⟯
+⟮c:3;toggle line comment⟯|⟮c:4;⟦⌘⟧ <kbd>/</kbd>⟯
+⟮c:5;toggle block comment⟯|⟮c:6;⟦⇧⟧ ⟦⌥⟧ <kbd>a</kbd>⟯
 
 
 ######## jupyter
@@ -13141,7 +13141,7 @@ Shortcut|Action
 
     <tr><th colspan="2">VScode Jupyter Shortcuts
 ⟮c:1;<kbd>f10</kbd>⟯|⟮c:2;execute next line of code⟯
-⟮c:3;<kbd class="modifier ctrl"></kbd> <kbd>enter</kbd>⟯|⟮c:4;finish editing a cell/run a code block⟯
+⟮c:3;⟦⌃⟧ <kbd>enter</kbd>⟯|⟮c:4;finish editing a cell/run a code block⟯
 
 
 
@@ -13169,12 +13169,12 @@ QA are the activities done to make sure that the product meets certain standards
 ##### elements tab
 
 ⟮c:1;press del⟯ in the dom view of devtools to ⟮c:2;delete the node⟯ 
-⟮c:3;<kbd class="modifier cmd"></kbd> <kbd class="modifier alt"></kbd> <kbd>click</kbd>⟯ one of those ⟮c:4;triangle arrows⟯ in devtools to ⟮c:5;expand/collapse all children⟯ 
+⟮c:3;⟦⌘⟧ ⟦⌥⟧ <kbd>click</kbd>⟯ one of those ⟮c:4;triangle arrows⟯ in devtools to ⟮c:5;expand/collapse all children⟯ 
 ⟮c:6;Expand and collapse⟯ DOM nodes in Chrome's devtools via the ⟮c:7;right and left arrow ⟯ keys. 
 to ⟮c:8;search the DOM⟯ via ⟮c:9;string⟯, ⟮c:10;css selector⟯ or ⟮c:11;xpath selector⟯, ⟮c:12;ctrl/cmd+f⟯ in the DOM view in devtools 
 to ⟮c:13;hide the DOM node you have focused⟯ in devtools, press ⟮c:14;h⟯ 
 to edit the ⟮c:15;attributes⟯/⟮c:16;node type⟯ of a node while in devtools, press ⟮c:17;enter⟯ and then ⟮c:18;tab/shift tab around⟯ 
-Chrome's devtools feature an ⟮c:19;element picker⟯, which can be toggled with ⟮c:20;<kbd class="modifier cmd"></kbd> <kbd class="modifier shift"></kbd> <kbd>C</kbd>⟯ 
+Chrome's devtools feature an ⟮c:19;element picker⟯, which can be toggled with ⟮c:20;⟦⌘⟧ ⟦⇧⟧ <kbd>C</kbd>⟯ 
 to have an ⟮c:21;element that you select in your devtools be visible in your browser window⟯, ⟮c:22;right-click⟯ and then ⟮c:23;click <q>scroll into view</q>⟯ 
 ⟮h:all;((h:all;::<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯))
 
