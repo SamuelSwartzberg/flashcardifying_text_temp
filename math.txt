@@ -109,14 +109,12 @@ A hex digit is equivalent to 4 binary digits
 
 ##### dec-hex
 
-  <thead>Decimal number|Hexadecimal number
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Decimal number|Hexadecimal number
 ⟮c:1;1342<sub>10</sub>⟯|⟮c:2;53E<sub>16</sub>⟯
 ⟮c:3;13<sub>10</sub>⟯|⟮c:4;D<sub>16</sub>⟯
 ⟮c:5;233<sub>10</sub>⟯|⟮c:6;E9<sub>16</sub>⟯
 
-  <thead>Decimal digit|Hexadecimal digit
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Decimal digit|Hexadecimal digit
 ⟮c:7;decimal 10⟯|⟮c:8;hexadecimal A⟯
 ⟮c:9;decimal 15⟯|⟮c:10;hexadecimal F⟯
 ⟮c:11;decimal 6⟯|⟮c:12;hexadecimal 6⟯
@@ -170,8 +168,6 @@ A circular arc is the arc of a circle between a pair of distinct points.
 ## Area
 
 Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms, Rhombus, Dreiecks etc.}} herleiten {{c1::indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte}}
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_dreieck.gif">⟯
 ⟮c:3;Kreis⟯|⟮c:4;\[A=r^2π\]⟯</td></tr>|⟮h:all;<img src="sm_kreis.gif">⟯
 ⟮c:5;Parallelogramm⟯|⟮c:6;\[A=a*h_a=b*h_b\]⟯</td></tr>|⟮h:all;<img src="sm_para.gif">⟯
@@ -312,8 +308,7 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
 ⟮c:31;Blackboard bold⟯ letters are ⟮c:32;called that and look like that⟯ because ⟮c:33;drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
 
 
-  <thead>Symbol|Refers to?
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Symbol|Refers to?
 ⟮c:1;<b>N</b>/ℕ⟯|⟮c:2;Set of all natural numbers⟯
 ⟮c:3;<b>P</b>/ℙ⟯|⟮c:4;Set of all primes⟯
 ⟮c:5;<b>Q</b>/ℚ⟯|⟮c:6;&gt;Set of all rational numbers⟯
@@ -435,22 +430,17 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <div class="flex-container">⟮h:all;<img src="sm_directed_graph.svg">⟯⟮h:a;<img src="sm_multigraph.svg">⟯⟮h:all;<img src="sm_weighted_graph.svg">⟯</div>
 
-  <thead>Graph-related thing|alternative names
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Graph-related thing|alternative names
 ⟮c:1;edges⟯|⟮c:2;links/lines⟯
 ⟮c:3;vertices⟯|⟮c:4;nodes/points⟯
 
 
 <img src="sm_220px-6n-graf.svg.png">
 
-  <thead>In the image|name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+In the image|name
 ⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯
 ⟮c:9;the lines⟯|⟮c:10;edges⟯
 ⟮c:5;the circles⟯|⟮c:6;vertices⟯
-
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;E⟯|⟮c:12;The set of edges⟯
 ⟮c:13;G⟯|⟮c:14;the graph⟯
 ⟮c:15;V⟯|⟮c:16;The set of vertices⟯
@@ -517,8 +507,7 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
 ⟮c:220;Breadth-first search⟯ is ⟮c:227;a tree traversal algorithm⟯ that ⟮c:229;visits⟯ ⟮c:225;sibling vertices⟯ ⟮c:229;before⟯ ⟮c:225;children vertices⟯ 
 ⟮c:221;Depth-first search⟯ in the case of ⟮c:222;binary trees⟯ is commonly ⟮c:223;pre-order⟯, ⟮c:223;inorder⟯, or ⟮c:223;post-order⟯. 
 
-  <thead>order|pattern
-  <tbody class="cloze-group-children hide-if-inactive-children">
+order|pattern
 ⟮c:17;Pre-order⟯|⟮c:18;Node - Left - Right⟯
 ⟮c:19;Inorder⟯|⟮c:20;Left - Node - Right⟯
 ⟮c:21;Post-order⟯|⟮c:22;Left  - Right - Node⟯
@@ -538,8 +527,7 @@ In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33
 
 
 <img src="sm_bin_search_tree.svg">
-  <thead>Inserting this number,|where would it go?
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Inserting this number,|where would it go?
 ⟮c:1;9⟯|⟮c:2;left of 10⟯
 ⟮c:3;5⟯|⟮c:4;right of 4⟯
 ⟮c:5;2⟯|⟮c:6;right of 1⟯
@@ -714,7 +702,7 @@ Something with indefinite arity is called {{c1::variadic}}
 
 A n-ary function takes n arguments.
 3+6=9 is a binary operation.
-  <thead>Arity of...|Name
+Arity of...|Name
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:2;nullary⟯
 ⟮c:1;1⟯|⟮c:2;unary⟯
 ⟮c:3;2⟯|⟮c:4;binary⟯
@@ -831,8 +819,7 @@ metric/decimal prefixes refer to increases of 1000, even when used on bits or by
 b|bit
 B|byte
 
-  <thead>prefix|10<sup>?</sup>
-  <tbody class="cloze-group-children hide-if-inactive-children">
+prefix|10<sup>?</sup>
 ⟮c5;femto⟯|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span>
 ⟮c15;pico⟯|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span>
 ⟮c13;nano⟯|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span>
@@ -859,10 +846,9 @@ The ⟮c:16;SI⟯ has ⟮c:17;7⟯ ⟮c:18;base units.⟯
 From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.⟯ 
 
 
-  <thead>
+
     <tr><th colspan="3">7 SI base units
 unit name|unit symbol|measure
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;kilogram⟯|⟮c:2;kg⟯|⟮c:3;mass⟯
 ⟮c:4;metre⟯|⟮c:5;m⟯|⟮c:6;length⟯
 ⟮c:7;second⟯|⟮c:8;s⟯|⟮c:9;time⟯
@@ -872,10 +858,9 @@ unit name|unit symbol|measure
 
 
 
-  <thead>
+
     <tr><th colspan="3">non-base SI units
 unit name|unit symbol|measure
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;joule⟯|⟮c:11;J⟯|⟮c:12;energy⟯
 
 
@@ -886,8 +871,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 ###### temperature
 
 ⟮c:1;Kelvin⟯ (unit symbol ⟮c:2;K⟯)
-  <thead>Temperature (K)|Significance
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Temperature (K)|Significance
         ⟮c:3;0⟯
       |
         ⟮c:4;Absolute zero⟯
@@ -896,7 +880,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 <h2>
    ⟮c:1;Celsius⟯:
 </h2>
-  <thead>Temperature (°C)|Significance
+Temperature (°C)|Significance
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)
 ⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)
 ⟮c:6;-273.15⟯|⟮c:7;absolute zero⟯
@@ -904,8 +888,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 
 ### non-metric
 
-  <thead>Symbol|Unit|in SI base units
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Symbol|Unit|in SI base units
 ⟮c:1;′ (is the prime, not apostrophe⟯)|⟮c:2;foot⟯
 ⟮c:3;″ (is the prime, not apostrophe⟯)|⟮c:4;inch⟯
 ⟮c:5;t⟯|⟮c:6;tonne⟯|⟮c:7;1000kg⟯

@@ -67,8 +67,7 @@ In structuralism, the heretofore ⟮c:17;amourphous mass⟯ of ⟮c:18;signfiers
 To De Sassure, the ⟮c:20;sign⟯ is ⟮c:21;arbitrary⟯ because ⟮c:22;any signified⟯ ⟮c:23;could have been signified by a different signifier⟯. 
 Since the ⟮c:24;sign⟯ consists of ⟮c:25;the two parts of signifier and signified⟯, the model is often called ⟮c:26;dyadic⟯. 
 
-  <thead>What?|Where in the image?
-  <tbody class="cloze-group-children hide-if-inactive-children">
+What?|Where in the image?
 ⟮c:1;a sign⟯|⟮c:2;the are between any two dotted lines⟯
 ⟮c:3;the arbitrary dividing point of sings⟯|⟮c:4;the dotted lines⟯
 ⟮c:5;the wavy areas⟯|⟮c:6;the world of signifier and signifieds⟯
@@ -93,11 +92,10 @@ An ⟮c:10;emic unit⟯ ⟮c:11;reduces⟯ ⟮c:12;a large number of variant for
 ⟮c:14;Etic units⟯ are ⟮c:15;the large number of variant forms⟯ that ⟮c:16;reduce to a certain number of emic units⟯. 
 ⟮c:17;Etic units⟯ ⟮c:18;reduced to the same emic unit⟯ are ⟮c:19;prefixed with allo-⟯ 
 
-  <thead>
+
 |emic unit</th>
 | <th>etic unit</th>
 | <th>allo-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 |⟮c:1;phoneme⟯|⟮c:2;s:3;phone⟯|⟮c:3;s:2;allophone⟯
 ⟮c:4;morpheme⟯|⟮c:5;s:6;morph⟯|⟮c:6;s:5;allomorph⟯
 ⟮c:7;grapheme⟯|⟮c:8;s:9;glyph⟯|⟮c:9;s:8;allograph⟯
@@ -277,9 +275,7 @@ in the IP theory, I stands for inflection.
 under the IP theory, the subject is the thing that is in the specifier of the IP.
 under the IP theory, the complement of I is the VP.
 
-<table class="blank-canvas">
-  <tbody>
-span=3;class=inner;⟮c:1;IP⟯
+class=blank-canvas;span=3;class=inner;⟮c:1;IP⟯
 class=inner;⟮c:2;NP⟯|span=2;class=inner;⟮c:3;I'⟯
 class=inner;|class=inner;⟮c:4;I⟯|class=inner;⟮c:5;VP⟯
 class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
@@ -295,9 +291,7 @@ The VP-internal subject hypothesis is desirable because it makes the subject whi
 The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
 Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
 
-<img src="sm_Screenshot%202020-10-20%20at%2010.44.18.png"><br><table class="blank-canvas">
-  <tbody>
-    <tr>
+<img src="sm_Screenshot%202020-10-20%20at%2010.44.18.png"><br>class=blank-canvas;    <tr>
       <td class="inner" colspan="3">⟮c:1;IP⟯
 class=inner;⟮c:2;DP⟯|span=3;class=inner;⟮c:3;I′⟯
 class=inner;|class=inner;⟮c:9;I⟯|span=3;class=inner;⟮c:4;VP⟯
@@ -317,17 +311,13 @@ The DP hypothesis is still a controversial hypothesis
 The DP hypothesis often correlates with the idea that pronouns are determiners.
 In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 
-<table class="blank-canvas">
-  <tbody>
-span=2;class=inner;⟮c1;DP⟯
+class=blank-canvas;span=2;class=inner;⟮c1;DP⟯
 class=inner;⟮c2;AP⟯|span=2;class=inner;⟮c3;NP⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;NP⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
 
 
-<table class="blank-canvas">
-  <tbody>
-span=2;class=inner;⟮c1;DP⟯
+class=blank-canvas;span=2;class=inner;⟮c1;DP⟯
 class=inner;⟮c2;D⟯|span=2;class=inner;⟮c3;NP⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;NP⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
@@ -336,17 +326,13 @@ class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 ######## posessive s
 
-<table class="blank-canvas">
-  <tbody>
-span=3;class=inner;⟮c:1;DP⟯
+class=blank-canvas;span=3;class=inner;⟮c:1;DP⟯
 class=inner;⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
 |class=inner;⟮c:4;D⟯|class=inner;⟮c:5;NP⟯
 class=leaf;[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
 
 
-<table class="blank-canvas">
-  <tbody>
-span=3;class=inner;⟮c:1;DP⟯
+class=blank-canvas;span=3;class=inner;⟮c:1;DP⟯
 class=inner;⟮c:2;DP⟯|span=2;class=inner;⟮c:3;D'⟯
 span=1,2;|class=inner;⟮c:4;D⟯|span=2;class=inner;⟮c:5;NP⟯
 |class=inner;⟮c:6;N⟯|class=inner;⟮c:7;PP⟯
@@ -355,9 +341,7 @@ class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
 ####### NP hypothesis
 
-<table class="blank-canvas">
-  <tbody>
-span=2;class=inner;⟮c1;NP⟯
+class=blank-canvas;span=2;class=inner;⟮c1;NP⟯
 class=inner;⟮c2;D⟯|span=2;class=inner;⟮c3;N'⟯
 |class=inner;⟮c4;AP⟯|span=2;class=inner;⟮c5;N'⟯
 ||class=inner;⟮c6;N⟯|class=inner;⟮c7;PP⟯
@@ -720,7 +704,7 @@ Inchoative/Cessative/ø
 Prospective/Retrospective/ø
 Gnomic/anything else
 
-  <thead><tr><th colspan="3">Eventive
+<tr><th colspan="3">Eventive
   <tbody>span=1;⟮c:6;s:1-4;Perfective⟯|span=4;⟮c:5;s:1-4;Imperfective⟯
 |span=2;⟮c:3;s:1-2;Habitual⟯|span=2;⟮c:4;s:1-2;Continuous⟯
 |||⟮c:1;s:3-5;Progressive⟯|⟮c:2;s:3-5;Stative⟯
@@ -878,7 +862,7 @@ Inflection is modifying a lexeme to reflect one or more gramattical features, th
 Inflection is commonly done via affixation or apophony, but there are also other possible modifications.
 An invariable/invariant word is a word that cannot be inflected.
 Inflection can be subdivided into {{c1::Declension and conjugation}}
-  <thead>Name|Inflection of|
+Name|Inflection of|
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
 ⟮c:3;Declension⟯|⟮c:4;Nouns or Adjectives⟯
 
@@ -1210,7 +1194,6 @@ Types of determiners: Articles, Demonstrative determiners, Quantifiers, distribu
 
 Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
-<tbody class="cloze-group-children hide-if-inactive-children">
     <tr><th colspan="2">⟮c:1;DP⟯
 ⟮c:2;Q/D⟯|⟮c:3;DP⟯
 
@@ -1637,8 +1620,6 @@ Implosives are most often voiced oral stops, occasionally voiceless oral stops.
 
 In velaric/lingual (ingressive, egressive does not exist) initiation, a closure is produced at the velum, and then a second one at the desired place of articulation. the tongue's body is lowered, and thus suction is created. the frontmost closure is then released.
 lingual aka velaric ingressive initiation produces sounds known as clicks.
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 | <tr>
 ||<td>⟮c:1;ʘ⟯</td>
 ||<td>⟮c:6;Bilabial⟯</td>
@@ -2031,8 +2012,7 @@ td {
     padding: 0 !important;
   } td > div {  }</style>
 
-  <thead>Openness|Backness|Roundedness|IPA Symbol
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Openness|Backness|Roundedness|IPA Symbol
 ⟮c1;Close ⟯|⟮c29;Back⟯|⟮c29;Rounded⟯|⟮c29;u⟯
 ⟮c2;Close ⟯|⟮c30;Back⟯|⟮c30;Unrounded⟯|⟮c30;ɯ⟯
 ⟮c3;Close ⟯|⟮c31;Central⟯|⟮c31;Rounded⟯|⟮c31;ʉ⟯
@@ -2169,9 +2149,6 @@ span=5;class=no;</td>
   <tr>
 <th scope="row">Fricative</th>
 <td>{{c29::ɸ}}|{{c30::β}}|{{c31::f}}|{{c32::v}}|{{c33::θ}}|{{c34::ð}}|{{c35::s}}|{{c36::z}}|{{c37::ʃ}}|{{c38::ʒ}}|{{c39::ʂ}}|{{c40::ʐ}}|{{c41::ç}}|{{c42::ʝ}}|{{c43::x}}|{{c44::ɣ}}|{{c45::χ}}|{{c46::ʁ}}|{{c47::ħ}}|{{c48::ʕ}}|{{c49::h}}|{{c50::ɦ}}
-
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:13;ʍ⟯|⟮c:5;voice​less⟯|⟮c:5;labio​velar⟯|⟮c:5;approxi​mant⟯
 ⟮c:9;w ⟯|⟮c:1;voiced⟯|⟮c:1;labiovelar (labialized velar⟯)|⟮c:1;approximant ⟯
 ⟮c:10;ɕ⟯|⟮c:2;voiceless⟯|⟮c:2;aveolo-palatal⟯|⟮c:2;fricative⟯
@@ -2449,8 +2426,7 @@ Theoretical lexicography is the study of features of lexemes and lexica.
 ⟮c:7;Your parent's siblings⟯ are called ⟮c:8;parsib⟯/⟮c:9;pibling⟯/⟮c:10;auncle⟯. 
 ⟮c:11;Your siblings children⟯  are called ⟮c:12;niblings⟯. 
 
-  <thead>family term|female|male
-  <tbody class="cloze-group-children hide-if-inactive-children">
+family term|female|male
 ⟮c:1;Parsib/pibling/auncle⟯|⟮c:2;aunt⟯|⟮c:3;uncle⟯
 ⟮c:4;nibling⟯|⟮c:5;niece⟯|⟮c:6;nephew⟯
 
@@ -2561,8 +2537,6 @@ A blank line is two newlines.
 #### typography
 
 ⟮c:7;Typography⟯ is the area concerned with ⟮c:8;the properties/use of type and text (in a wide sense⟯) 
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Microtypography⟯|⟮c:2;Typography on the level of letters/words⟯|⟮c:3;Letter spacing, word spacing, ligatures, features of letters⟯
 ⟮c:4;Macrotypography⟯|⟮c:5;Typography on the level of the collumn/grid/page⟯|⟮c:6;Typographic hierarchy, typographic grid, page layout⟯
 
@@ -2901,8 +2875,7 @@ The ⟮c:5;prime⟯ looks similar to ⟮c:6;an apostrophe⟯, but ⟮c:7;angled 
 The ⟮c:8;prime⟯ is often used to ⟮c:9;mark something derived from something⟯. 
 The ⟮c:10;prime⟯ and ⟮c:10;double prime⟯ can mark ⟮c:11;(arc)minutes⟯ and ⟮c:11;(arc)seconds⟯ respectively 
 
-  <thead>Symbol|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Symbol|Name
 ⟮c:1;′⟯|⟮c:2;Prime⟯
 ⟮c:3;″⟯|⟮c:4;Double prime⟯
 
@@ -2958,7 +2931,6 @@ In ⟮c:17;bicameral⟯ writing systems, ⟮c:18;the uppercase letters⟯ are �
     
     span=3;Types of interesting capitalization
 Name|Features
-<tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:19;Snake case⟯|⟮c:22;lowercase text⟯ ⟮c:22;separated by underscores _⟯
 
 ⟮c:20;kebab case⟯|⟮c:23;lowercase text⟯ ⟮c:23;separated by hyphens -⟯
@@ -2985,8 +2957,7 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 
 ⟮c:24;western⟯ ⟮c:25;emoticons⟯ have ⟮c:26;faces⟯ that are oriented ⟮c:20;left-to-right⟯ 
 
-  <thead>emoticon eyes|meaning
-  <tbody class="cloze-group-children hide-if-inactive-children">
+emoticon eyes|meaning
 ⟮c:1;:⟯|⟮c:2;default (more common⟯)
 ⟮c:3;=⟯|⟮c:4;default (less common⟯)
 ⟮c:5;8⟯|⟮c:6;default (super rare⟯)
@@ -3127,7 +3098,7 @@ If loanblends are formed by  {{c2::word with some semantic content}} + {{c2::som
 A Semantic loan is when a word exists in two languages, but only has some senses in one language, and then aquires the senses that the other language has.
 realize (make happen, become aware of) / realisieren (make happen) -&gt; realize (make happen, become aware of) / realisieren (make happen, become aware of)
 
-  <thead>
+
     <th colspan="5">Types of borrowings</th>
   <tbody class="cloze-group-children hide-if-inactive-children">senses are added</th> <th colspan="4">words/morphemes are added
 
@@ -3261,7 +3232,7 @@ Deborah tannen was a student of robin lakoff who initiated the difference approa
 ##### approaches
 
 The ⟮c:11;deficit, dominance and difference approaches⟯ are all approaches to ⟮c:12;explain differences between male and female language⟯ 
-  <thead>approach|description|proponents
+approach|description|proponents
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;dominance approach⟯|⟮c:4;powerless women's language⟯ ⟮c:5;reflects (is caused by) male dominance more generally⟯
 ⟮c:2;deficit approach⟯|⟮c:6;women's language⟯ ⟮c:7;is inferior to (= weaker than⟯) ⟮c:6;men's language⟯ (and ⟮c:8;this causes women's oppression, at least in part⟯)|⟮c:2;Robin Lakoff}⟯
 ⟮c:3;difference approach⟯|⟮c:9;women and men ⟯ just ⟮c:10;belong to different linguistic subcultures ('separate but equal'⟯)|Deborah tannen
@@ -3671,7 +3642,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 
 ## writing systems
 
-  <thead>万葉仮名 origin|片仮名 today|
+万葉仮名 origin|片仮名 today|
 
   </thead><tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;久⟯|⟮c:2;ク⟯
@@ -3722,8 +3693,7 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 
 ⟮c:1;送り仮名⟯ are the ⟮c:2;hiragana dangling off the end⟯ of ⟮c:3;some words⟯. 
 
-  <thead>||
-<tbody class="cloze-group-children hide-if-inactive-children">
+||
 ⟮c:1;<ruby>楷書<rp>(</rp><rt>かいしょ</rt><rp>)</rp></ruby>⟯|⟮c:2;<img src="sm_mushoujyoukaisotai01.png">⟯
 ⟮c:3;<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>⟯|⟮c:4;<img src="sm_XiaozhuanQinquan_sized.jpg"><img src="sm_5eMPU.jpg"><img src="sm_380px-Ancient_prose_from_the_Xunzi,_in_seal_script.jpg">⟯
 ⟮c:5;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯|⟮c:6;<img src="sm_Mi_Fu-On_Calligraphy.jpg">⟯

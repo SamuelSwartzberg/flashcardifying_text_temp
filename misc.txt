@@ -75,14 +75,11 @@ An ⟮c:1;externality⟯ is a ⟮c:2;s:3;cost⟯ ( = ⟮c:3;s:2;negative⟯ ⟮c
 
 TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, {{c8::secondary}}, and {{c8::tertiary}} sectors.
 
-  <thead>sector|consists of
+sector|consists of
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:11;Primary sector⟯|⟮c:12;Resource extraction = extraction of raw materials⟯
 ⟮c:13;Secondary sector⟯|⟮c:14;Manufacturing = Raw materials -&gt; finished goods⟯
 ⟮c:15;Tertiary sector⟯|⟮c:16;Production of services⟯
 ⟮c:17;Quarternar sector⟯|⟮c:18;Production of knowledge⟯|not part of official model
-
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯
 ⟮c:3;A society dominated in economic output by the primary sector⟯|⟮c:4;Pre-industrial/agrarian (more rarely agricultural) society⟯
 ⟮c:5;A society dominated in economic output by the tertiary sector⟯|⟮c:6;Post-industrial society⟯
@@ -115,8 +112,7 @@ Both ⟮c:8;the growth⟯ and ⟮c:8;subsequent decline⟯ in asset prices in an
 #### commodities
 
 Commodity is a term with three competing definitions:
-  <thead>name|field|definition|examples
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|field|definition|examples
 ⟮c:1;commodity⟯|⟮c:2;economics⟯|⟮c:3;good with full/high degree of fungibility⟯|⟮c:4;s:all;wheat, petroleum, copper, rice, but not handmade bracelets⟯
 ⟮c:5;commodity⟯|⟮c:6;marxism⟯|⟮c:7;something with both use and exchange value⟯
 ⟮c:8;commodity⟯|⟮c:9;casual usage⟯|⟮c:10;any kind of market good⟯
@@ -245,7 +241,7 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 
 ### generations
 
-  <thead>Generation|Start|End|Nicknames
+Generation|Start|End|Nicknames
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Baby boomers⟯|⟮c:2;~1945⟯|⟮c:2;~1965⟯
 ⟮c:1;Generation X⟯|⟮c:2;~1965⟯|⟮c:2;~1980⟯
 ⟮c:3;Millenials⟯|⟮c:4;~1980⟯|⟮c:4;~1995⟯|⟮c:10;s:all;Generation Y⟯
@@ -281,7 +277,7 @@ A ⟮c:56;TFR⟯ ⟮c:55;below replacement rate⟯ is known as ⟮c:57;Sub-repla
 Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement rate⟯ is additionally distorted by ⟮c:60;child mortality⟯. 
 ⟮c:61;The replacement rate⟯ for countries ⟮c:62;with low child and maternal mortality⟯ is ⟮c:63;about 2.1⟯. 
 
-  <thead>Country|TFR
+Country|TFR
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Japan⟯|⟮c:2;~1.4⟯
 ⟮c:3;Korea⟯|⟮c:4;~0.9⟯
 
@@ -291,7 +287,7 @@ Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement ra
 ⟮h:all;<img src="821361.png">⟯
 In japan, ⟮c:7;extramarital birth⟯ is ⟮c:8;extremely rare⟯ 
 In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯ 
-  <thead>Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
+Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;1990⟯|⟮c:2;s:3;26⟯|⟮c:3;s:2;27⟯
 ⟮c:4;2008⟯|⟮c:5;s:6;30⟯|⟮c:6;s:5;30⟯
 
@@ -334,8 +330,7 @@ To marx, ⟮c:5;money⟯ is the thing that eventually takes over the role of ⟮
 
 To ⟮c:3;marx⟯, the ⟮c:1;exchange value⟯ of a good is ⟮c:2;how it can be exchanged for other commodities⟯
 To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible features/physical properties⟯ that  ⟮c:7;fulfill human needs/wants⟯
-  <thead>form|corresp. value|explanation
-  <tbody class="cloze-group-children hide-if-inactive-children">
+form|corresp. value|explanation
 ⟮c:11;natural form⟯|⟮c:12;use value⟯|⟮c:13;actual tangible form (the actual physical form, e.g. cloth, iron, etc.⟯)
 ⟮c:8;value form⟯|⟮c:9;exchange value⟯|⟮c:10;a good in relation to different commodities (e.g. 20 yards of linen = 1 coat⟯)
 
@@ -504,7 +499,6 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 ### terminology
 
 <br>  <thead>Term|Meaning
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Word of God⟯|⟮c:2;something that the creator said about one of their works, but isn't contained in the story itself⟯
 ⟮c:3;Lemon⟯|⟮c:4;Fanfiction with explicit sexual content⟯
 ⟮c:5;Lime⟯|⟮c:6;Fanfiction with mild sexual content⟯
@@ -555,7 +549,6 @@ The ⟮c:6;death of the author⟯ pushes back against the idea of ⟮c:7;authori
 ⟮h:all;<img src="image7.jpg">⟯The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
 In the hermeneutic circle, ⟮c:5;moving between the two states⟯ ⟮c:6;deepens or at least changes⟯ our ⟮c:10;understanding⟯. 
 For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is ⟮c:7;never exactly the same⟯ ("⟮c:7;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c:8;spiral⟯. 
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯
 ⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯
 ⟮c:9;hermeneutic circle⟯|⟮c:10;Schleiermacher⟯|⟮c:11;part of the text⟯|⟮c:12;the whole text⟯
@@ -594,8 +587,7 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 
 ⟮c:9;(baby) faces and heels⟯ are terms from ⟮c:10;wrestling⟯ 
 
-  <thead>description|Term
-  <tbody class="cloze-group-children hide-if-inactive-children">
+description|Term
 ⟮c:1;a bad guy character in wrestling⟯|⟮c:2;heel⟯
 ⟮c:3;a good guy character in wrestling⟯|⟮c:4;a (baby) face⟯
 ⟮c:5;a bad guy turning good⟯|⟮c:6;heel(-face) turn⟯
@@ -605,8 +597,6 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 ## textual
 
 ### games
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯
 ⟮c:3;RPG⟯|⟮c:4;Role-playing game⟯
 
@@ -673,7 +663,7 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
 
 ###### number of feet
 
-  <thead>
+
       Meter
     |
       Number of feet
@@ -684,7 +674,7 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
 
 ###### type of feet
 
-  <thead>
+
       Foot
     |
       Pattern
@@ -817,8 +807,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 
 ###### fountain
 
-  <thead>Syntactic construct|function
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Syntactic construct|function
 ⟮c:1;_foo_⟯|⟮c:2;underlined⟯
 ⟮c:3;**foo**⟯|⟮c:4;bold⟯
 ⟮c:5;*foo*⟯|⟮c:6;italics⟯
@@ -826,8 +815,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:9;three or more =⟯|⟮c:10;page break⟯
 
 
-  <thead>Syntactic construct|function
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Syntactic construct|function
 ⟮c:11;@foo⟯|⟮c:12;force a character element⟯
 ⟮c:13;line starts with ~⟯|⟮c:14;lyrics⟯
 ⟮c:15;&gt; foo⟯|⟮c:16;force a transition⟯
@@ -835,8 +823,7 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:19;!foo⟯|⟮c:20;force action text⟯
 
 
-  <thead>Syntactic construct|function
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Syntactic construct|function
 ⟮c:21;[[foo]]⟯|⟮c:22;a note⟯
 ⟮c:23;/*foo*/⟯|⟮c:24;a comment⟯
 
@@ -887,8 +874,6 @@ Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;
 #### ethnicity
 
 ##### endo/exonyms
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)
 ⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯
 
@@ -902,13 +887,13 @@ The ⟮c:8;terminology we use to describe⟯ ⟮c:9;kinship relationships⟯ is 
 
 ##### marriage
 
-  <thead>
+
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Endogamy⟯|⟮c:2;The social norm/custom of⟯ ⟮c:3;marrying within one's social group (whatever we define this as⟯)
 ⟮c:4;Exogamy⟯|⟮c:5;The social norm/custom of⟯ ⟮c:6;marrying outside of one's social group (whatever we define this as⟯)
 
 
 Terms such as ⟮c:12;matri/uxori/patri/viri/neolocal⟯ describe where ⟮c:13;a newly married couple⟯ resides.
-  <thead>Name|Name (using marriage-related terms)|Description
+Name|Name (using marriage-related terms)|Description
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;s:2;Matrilocal⟯|⟮c:2;s:1;Uxorilocal⟯|Newly married couple ⟮c:3;resides with or near⟯⟮c:4;the wifes parents⟯
 ⟮c:5;s:6;Patrilocal⟯|⟮c:6;s:5;Virilocal⟯|Newly married couple ⟮c:7;resides with or near⟯⟮c:8;the wifes parents⟯
 ⟮c:9;Neolocal⟯||Newly married couple ⟮c:10;resides apart from⟯⟮c:11;either family⟯
@@ -927,8 +912,7 @@ In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness 
 
 ## terminology
 
-  <thead>term|definition
-  <tbody class="cloze-group-children hide-if-inactive-children">
+term|definition
 ⟮c:1;Toponym⟯|⟮c:2;A name for a place⟯
 
 
@@ -1041,8 +1025,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a> argue the relationship ⟮c:8;capital cities being more isolated -&gt; worse quality of government⟯ is ⟮c:5;causal⟯, based on a more ⟮c:6;isolated⟯ ⟮c:7;capital city⟯ being ⟮c:5;less succeptible to revolution⟯. 
 
 ###### list
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;United Arab Emirates⟯|⟮c:2;Abu Dhabi⟯
 ⟮c:3;Ethiopia⟯|⟮c:4;Addis Ababa (Abeba in german⟯)
 ⟮c:5;Netherlands⟯|⟮c:6;Amsterdam (via the constitution), The Hague (seat of some goverment organs⟯)
@@ -1139,8 +1121,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 
 ##### national flags
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="sm_Afghanistan.png">⟯|⟮c:81;Afghanistan (pre-2021⟯)
 ⟮c:2;<img src="sm_Argentina.png">⟯|⟮c:82;Argentina⟯
 ⟮c:3;<img src="sm_Australia.png">⟯|⟮c:83;Australia⟯
@@ -1279,7 +1259,7 @@ The ⟮c:7;most famous work of microhistory⟯ is  ⟮c:8;The cheese and the wor
 The terms ⟮c:19;longue durée, moyenne durée and événement⟯ for scales of analysing history by ⟮c:20;the annales-school⟯ were formulated in their current form in ⟮c:21;the 1950s⟯ by  ⟮c:18;<span class="aside">Fernand⟯ Braudel</span> 
 The three levels of history that ⟮c:22;the annales-school and fernand braudel⟯ distinguish are the ⟮c:23;longue durée⟯, ⟮c:24;moyenne durée⟯ and the ⟮c:25;événement⟯. 
 The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis 
-  <thead>Name|Timespan|Examples|Other names|Similar concepts
+Name|Timespan|Examples|Other names|Similar concepts
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1,5-7;longue durée⟯|⟮c:2;s:3-7;hundreds or thousands of years⟯|⟮c:3;s:2-7;Changes in climatology or physical geography⟯||⟮c:4;s:2-7;Macrohistory⟯
 ⟮c:8,11;moyenne durée⟯|⟮c:9;s:10-11;multiple years or decades⟯|⟮c:10;s:8-9;The great depression⟯
 ⟮c:11,15-17;événement⟯|⟮c:12;s:13-17;hours, days, weeks⟯|⟮c:13;s:12-17;A coup or new law⟯|⟮c:14;s:12-17;Ereignisgesichichte⟯</td>  
@@ -1292,8 +1272,7 @@ The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis
 
 Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century⟯ are used for a ⟮c:9;more meaningful⟯ division of centuries. 
 
-  <thead>name|start|end
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|start|end
 ⟮c:1;long 19th century⟯|⟮c:2;french revolution 1989⟯|⟮c:3;world war 1 1914⟯
 ⟮c:4;short 20th century⟯|⟮c:5;world war 1 1914⟯|⟮c:6;dissolution of the soviet union ~1990⟯
 
@@ -1303,16 +1282,14 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### eurocentric history
 
-  <thead>historical period|start|end
-  <tbody class="cloze-group-children hide-if-inactive-children">
+historical period|start|end
 ⟮c:1;The early modern period⟯|⟮c:2;1450-1500⟯|⟮c:3;the french revolution 1789⟯
 
 
 
 ## dates
 
-  <thead>event|date
-  <tbody class="cloze-group-children hide-if-inactive-children">
+event|date
 ⟮c:1;French Revolution (begin⟯)|⟮c:2;1789⟯
 ⟮c:3;Fall of Constantinople⟯|⟮c:4;1453⟯
 
@@ -1324,7 +1301,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### dynasties
 
-  <thead>Dynasty|Start|End
+Dynasty|Start|End
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Western Han⟯|⟮c:2;200BC⟯|⟮c:2;0⟯
 ⟮c:3;Eastern Han⟯|⟮c:4;0⟯|⟮c:4;200AD⟯
 
@@ -1334,8 +1311,7 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### eras
 
-  <thead>Era|Start|End
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Era|Start|End
 ⟮c:1;Asuka⟯|⟮c:2;550⟯|⟮c:3;700⟯
 ⟮c:4;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代⟯|⟮c:5;700⟯|⟮c:6;800⟯
 ⟮c:7;平安時代⟯|⟮c:8;800⟯|⟮c:9;1200⟯
@@ -1349,7 +1325,7 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
 
 ##### emperors
 
-  <thead>Era|Start|End
+Era|Start|End
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;明治⟯|historical: ⟮c:2;1868⟯; accession to the throne: ⟮c:11;1852⟯|⟮c:2;1912⟯
 ⟮c:3;大正⟯|⟮c:4;1912⟯|⟮c:4;1926⟯
 ⟮c:5;昭和⟯|⟮c:6;1926⟯|⟮c:6;1989⟯
@@ -1364,8 +1340,7 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
 <h2>
   ⟮c:7;uh:all;Non-LDP goverments in Japan⟯ since ⟮c:8;uh:all;1948⟯:
 </h2>
-  <thead>which|start|end
-  <tbody class="cloze-group-children hide-if-inactive-children">
+which|start|end
 ⟮c:1;earlier⟯|⟮c:2;s:3;early 1990s (1993⟯)|⟮c:3;s:2;1996⟯
 ⟮c:4;later⟯|⟮c:5;s:6;end of the 2000s (2009⟯)|⟮c:6;s:5;2012⟯
 
@@ -1582,8 +1557,7 @@ The ⟮c:8;Rinnsteine⟯ were supposed to move the waste into ⟮c:9;the spree�
 
 ### population (growth)
 
-  <thead>year|population of berlin
-  <tbody class="cloze-group-children hide-if-inactive-children">
+year|population of berlin
 ⟮c:1;1830⟯|⟮c:2;squarter million⟯
 ⟮c:3;1850⟯|⟮c:4;shalf million⟯
 ⟮c:5;1877⟯|⟮c:6;one million⟯
@@ -1669,7 +1643,6 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 ###### a priori/a posteriori
 
 <img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c:5;Erkenntnis / Urteile⟯ kann ⟮c:6;a priori / a posteriori⟯ sein. 
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Urteil a posteriori⟯|⟮c:2;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c:3;Urteil a priori⟯|⟮c:4;Ein Urteil ohne die Basis der Erfahrung⟯
 
@@ -1738,8 +1711,7 @@ The ⟮c:19;contradictory pair⟯ of mythemes ⟮c:20;is equated with⟯ ⟮c:21
 
 Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ ⟮c:15;sophisticated⟯ ⟮c:20;systems of thought⟯ according to ⟮c:16;CLS⟯, however, ⟮c:17;science⟯ is ⟮c:18;more effective at⟯ ⟮c:19;acquiring knowledge to harness the world⟯. 
 
-  <thead>Type of thought|Causality|Metaphor|Materials (physical)|Materials (thought)|Creates
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Type of thought|Causality|Metaphor|Materials (physical)|Materials (thought)|Creates
 ⟮c:1;Mythical thought⟯|⟮c:2;Hypercausal (Everything must have a definite cause⟯)|⟮c:3;Bricolage⟯|⟮c:4;uses whatever is at hand⟯|⟮c:5;uses signs (which are limited⟯)|⟮c:6;creates structures⟯
 ⟮c:7;Scientific thought⟯|⟮c:8;Causal, but can accept uncertainty⟯|⟮c:9;Engineer⟯|⟮c:10;uses (within limit) the things it needs as materials⟯|⟮c:11;uses concepts (which can go beyond preexisting ideas⟯)|⟮c:12;creates changes in the world⟯
 
@@ -1792,8 +1764,7 @@ In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a commun
 
 #### waves
 
-  <thead>Wave|Rough period|Main Issue
-<tbody class="cloze-group-children hide-if-inactive-children">
+Wave|Rough period|Main Issue
 ⟮c:1;First-wave feminism⟯|⟮c:2;s:3;end of the 19th / beginning of the 20th century⟯|⟮c:2;s:3;women's suffrage⟯
 ⟮c:4;second-wave feminism⟯|⟮c:5;1960s-1980s⟯
 ⟮c:6;third-wave feminism⟯|⟮c:7;1990s-2000s (some authors) or 1990 - today (other authors⟯)
@@ -1855,8 +1826,7 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 
 #### gendering
 
-  <thead>Instance|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Instance|Name
 ⟮c:2;MitarbeiterInnen⟯|⟮c:1;Binnen-I⟯
 ⟮c:3;Lehrer*innen⟯|⟮c:4;Genderstern(chen⟯)
 ⟮c:5;Lehrer_innen⟯|⟮c:6;Gender-gap⟯
@@ -1924,8 +1894,6 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 # biology
 
 ## terminology
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;vascular⟯|⟮c:2;related to the flow of fluds⟯
 
 
@@ -1937,7 +1905,7 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### institutions
 
-  <thead>Abbreviation|Full
+Abbreviation|Full
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;EAR⟯|⟮c:2;Estimated Average Requirement⟯
 ⟮c:3;RDA⟯|⟮c:4;Recommended Dietary Allowance⟯
 
@@ -1963,8 +1931,6 @@ An ⟮c:11;empty calorie⟯ is one is one gained from food that ⟮c:12;supplies
 food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;adding micronutrients⟯ to food. 
 
 #### classification
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A nutrient we require small amounts of⟯|⟮c:2;a micronutrient⟯
 ⟮c:3;A nutrient we require large amounts of⟯|⟮c:4;a macronutrient⟯
 
@@ -2048,8 +2014,6 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 ####### unsaturated
 
 ######## omega
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;omega-3⟯|fatty acids are|⟮c:2;polyunsaturated⟯|fatty acids characterized by a|⟮c:3;C=C double bond⟯|⟮c:4;3 atoms⟯| away from ⟮c:5;the terminal methyl group⟯
 ⟮c:6;omega-6⟯|fatty acids are|⟮c:7;polyunsaturated⟯|fatty acids characterized by a|⟮c:8;C=C double bond⟯|⟮c:9;6 atoms⟯| away from ⟮c:10;the terminal methyl group⟯
 ⟮c:11;omega-7⟯|fatty acids are|⟮c:12;monounsaturated⟯|fatty acids characterized by a|⟮c:13;C=C double bond⟯|⟮c:14;7 atoms⟯| away from ⟮c:15;the terminal methyl group⟯
@@ -2065,8 +2029,7 @@ of the {{c11::three}} types of {{c7::omega-3}} fatty acids relevant to human nut
 Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be {{c8::synthesized from the former}}.
 {{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.
 
-  <thead>name|abbreviation
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|abbreviation
 ⟮c:1;α-linolenic acid ⟯|⟮c:2;ALA⟯
 ⟮c:3;eicosapentaenoic acid⟯|⟮c:4;EPA⟯
 ⟮c:5;docosahexaenoic acid⟯|⟮c:6;DHA⟯
@@ -2105,8 +2068,7 @@ In general, ⟮c:31;excess intake⟯ of vitamins is ⟮c:32;unlikely⟯ from ⟮
 
 
 
-  <thead>Common Designation|More Properly
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Common Designation|More Properly
 ⟮c:1;Vitamin C⟯|⟮c:2;Ascorbic acid⟯
 
 
@@ -2124,7 +2086,7 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 ###### vitamin B
 
   
-  <thead>Vitamin B...|Name or name of vitamers (if it exists)
+Vitamin B...|Name or name of vitamers (if it exists)
  <tbody>
 ⟮c:1;1⟯|⟮c:13;Thiamine⟯
 ⟮c:2;2⟯|⟮c:14;Riboflavin⟯
@@ -2146,14 +2108,13 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 ⟮c:34;Minerals⟯ as micronutrients are subcategorized (by ⟮c:35;amount necessary⟯) into ⟮c:31;macrominerals⟯, ⟮c:32;trace minerals⟯, and ⟮c:33;ultratrace minerals⟯. 
 There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested as essential⟯, such claims are ⟮c:29;difficult to reproduce⟯. 
 
-  <thead>Mineral|Is defined by?
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Mineral|Is defined by?
 ⟮c:21;Macrominerals⟯|⟮c:22;RDA &gt; 150-200mg/day⟯
 ⟮c:23;Trace minerals⟯|⟮c:24;RDA &gt; 150-200mg/day⟯
 ⟮c:25;ultratrace minerals⟯|⟮c:26;RDA of μg/day⟯
 
 
-  <thead>
+
     <tr><th colspan="42">essential minerals (some variation between characters exist)
   <tbody>
     <tr><th colspan="5">⟮c:1;Macrominerals⟯</th> <th colspan="11">⟮c:2;trace minerals⟯|⟮c:3;ultratrace minerals⟯
@@ -2183,8 +2144,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 ### food
 
 #### translations
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;grünkohl⟯|⟮c:2;kale⟯
 ⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯
 
@@ -2200,8 +2159,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 ⟮c:1;Leaf⟯⟮(c:1;y⟯) ⟮c:2;vegetables⟯/⟮c:2;greens⟯ are ⟮c:3;plant leaves⟯ eaten as ⟮c:6;a vegetable⟯, which are usually ⟮c:4;green⟯-colored and share ⟮c:5;many nutritional similarities⟯. 
 
 #### grains
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
 ⟮c:4;wheat⟯|⟮c:5;weizen⟯
 ⟮c:6;barley⟯|⟮c:7;gerste⟯
@@ -2216,8 +2173,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 </div>
 
 #### fruit & berries
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯
 ⟮c:3;currant⟯|⟮c:4;Johannisbeere⟯
 
@@ -2236,25 +2191,21 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ### directions
 
 <img src="directional-terms.jpg">⟮h:all;<img src="directional-terms-labeled.jpg">⟯  <thead>No. in diagram|Name|Alternative Name
-<tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;3⟯|⟮c:2;s:3;dorsal⟯|⟮c:3;s:2;posterior⟯
 ⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯
 
 
-  <thead>Name|Direction
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Name|Direction
 ⟮c:1;dorsal⟯|⟮c:2;Towards the back (bodypart⟯)
 ⟮c:3;ventral⟯|⟮c:4;Towards the belly⟯
 
 
-  <thead>name|image
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|image
 ⟮c:1;supine⟯|⟮c:2;<img src="Screenshot%202021-12-04%20at%2004.40.23.png">⟯
 ⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯
 
 
 ⟮h:all;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯  <thead>Name|Description of side of hand
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;the dorsal side of the hand⟯|⟮c:2;with knuckles etc.⟯
 ⟮c:3;the palmar side of the hand⟯|⟮c:4;the one that has your palm⟯
 ⟮c:5;the ulnar side of the hand⟯|⟮c:6;the side with your pinky finger⟯
@@ -2275,8 +2226,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ###### map
 
 <div class="flex-container">⟮h:all;uh:15-26;<img src="sm_male_anat_repr.svg">⟯</div>
-  <thead>No.|Name|Common Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+No.|Name|Common Name
 1|bladder
 2|pubic bone
 3|penis
@@ -2296,8 +2246,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯
 
 <div class="flex-container">⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯</div>
-  <thead>No.|Name|Common Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+No.|Name|Common Name
 ⟮c:7;1⟯|⟮c:11;glans (penis) ⟯|⟮c:7;head of the penis⟯
 ⟮c:8;2⟯|⟮c:12;corona of the glans penis ⟯|⟮c:8;lower border of the glans⟯
 ⟮c:9;3⟯|⟮c:13;frenulum ⟯
@@ -2306,8 +2255,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 <div class="flex-container">⟮h:all;<img src="urethra_view_side_3.jpg">⟯</div>
 
-  <thead>No.|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+No.|Name
 1|prostatic urethra
 2|membranous urethra
 3|bulbar urethra
@@ -2341,7 +2289,6 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 
 /* {9a8ae27e-9b05-a29a-ecc3-1007ebbb0610} */
 .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after {clear:both}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {font-weight:800;font-family:'Guardian Egyptian Web',Georgia,serif}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {position:absolute;bottom:-65px}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {position:relative}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share {display:inline-block;width:40px;height:41px;background:center no-repeat #aad8f1;background-size:50%;border-radius:50%;margin:0;cursor:pointer;top:12px;border:2px solid #333}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-repeat:no-repeat;cursor:pointer}.gia-share.facebook[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.facebook {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/facebook.svg);background-size:25%}.gia-share.twitter[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.twitter {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/twitter.svg)}.gia-subhead  a[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .gia-subhead  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] a, .gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  a, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead  a {color:#fff;text-decoration:underline}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {padding:10px 20px 100px;max-width:960px;background-color:#abafe6;margin:0 auto;height:100%}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:before {content:" ";display:table}.series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VaginaDispatchesLogo-long.svg);background-size:100%;max-width:320px;width:100%;height:50px}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:46px;transition:all .35s;transition:all .15s;line-height:1.2;border-bottom:5px solid #333;max-width:740px;margin:0 auto;text-align:left}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {max-width:620px;font-size:21px;text-align:left;margin:100px auto 50px}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {position:relative;width:100%}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {display:block;max-width:780px;height:auto;margin:0 auto}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::before {content:" ";display:table}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:280px;height:280px;border-radius:50%;font-size:36px;margin:25px auto;display:block;background-color:#aad8f1}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span, small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {position:absolute}.quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span {top:calc((300px - 70px)/ 2);left:calc((300px - 210px)/ 2);background-color:#333;color:#fff;padding:10px}.vagina-inner[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-inner {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vagina-interior.svg);background-size:85%;background-position:26px 60px}.vagina-outer[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-outer {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vulva.png);background-size:125%;background-position:-28px 42px}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {background-size:100%;width:400px;height:400px;left:0;top:0;opacity:0;display:none;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/burst-blue.svg)}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:hover, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst:hover {opacity:1;transition:opacity .5s}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:2px solid #333;font-size:16px;color:#333;max-width:740px;margin:20px auto;transition:visibility .1s;-webkit-transition:visibility .1s;-moz-transition:visibility .1s;padding-top:10px}small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {font-size:12px;font-family:'Guardian Text Sans Web',serif;left:calc(50% - 20px);bottom:5px;font-weight:400}@media screen and (min-width:670px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins {position:relative;height:100%}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {content:'';position:absolute;z-index:1;background:rgba(51,51,51,.05);background:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VD_rail_purple.png),#abafe6;background-repeat:repeat;top:0;height:100%;width:0}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:72px}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {font-size:24px;margin:50px auto}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {float:left;width:50%}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:300px;height:300px;display:inline-block}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {display:block}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {float:right;top:-25px;position:relative;bottom:auto}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:1100px}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:0}}@media screen and (min-width:740px){.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {margin:50px}}@media (min-width:980px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {left:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after {right:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {width:calc((100% - 980px)/ 2)}}@media screen and (min-height:1100px){.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:100vh}}</style><br/>  <thead>No.|Name
-<tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1⟯|⟮c:2;fallopian tubes⟯
 ⟮c:3;2⟯|⟮c:4;ovaries⟯
 ⟮c:5;3⟯|⟮c:6;uterus⟯
@@ -2363,8 +2310,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 /* {9a8ae27e-9b05-a29a-ecc3-1007ebbb0610} */
 .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after {clear:both}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {font-weight:800;font-family:'Guardian Egyptian Web',Georgia,serif}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {position:absolute;bottom:-65px}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {position:relative}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share {display:inline-block;width:40px;height:41px;background:center no-repeat #aad8f1;background-size:50%;border-radius:50%;margin:0;cursor:pointer;top:12px;border:2px solid #333}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-repeat:no-repeat;cursor:pointer}.gia-share.facebook[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.facebook {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/facebook.svg);background-size:25%}.gia-share.twitter[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.twitter {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/twitter.svg)}.gia-subhead  a[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .gia-subhead  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] a, .gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  a, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead  a {color:#fff;text-decoration:underline}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {padding:10px 20px 100px;max-width:960px;background-color:#abafe6;margin:0 auto;height:100%}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:before {content:" ";display:table}.series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VaginaDispatchesLogo-long.svg);background-size:100%;max-width:320px;width:100%;height:50px}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:46px;transition:all .35s;transition:all .15s;line-height:1.2;border-bottom:5px solid #333;max-width:740px;margin:0 auto;text-align:left}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {max-width:620px;font-size:21px;text-align:left;margin:100px auto 50px}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {position:relative;width:100%}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {display:block;max-width:780px;height:auto;margin:0 auto}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::before {content:" ";display:table}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:280px;height:280px;border-radius:50%;font-size:36px;margin:25px auto;display:block;background-color:#aad8f1}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span, small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {position:absolute}.quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span {top:calc((300px - 70px)/ 2);left:calc((300px - 210px)/ 2);background-color:#333;color:#fff;padding:10px}.vagina-inner[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-inner {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vagina-interior.svg);background-size:85%;background-position:26px 60px}.vagina-outer[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-outer {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vulva.png);background-size:125%;background-position:-28px 42px}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {background-size:100%;width:400px;height:400px;left:0;top:0;opacity:0;display:none;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/burst-blue.svg)}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:hover, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst:hover {opacity:1;transition:opacity .5s}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:2px solid #333;font-size:16px;color:#333;max-width:740px;margin:20px auto;transition:visibility .1s;-webkit-transition:visibility .1s;-moz-transition:visibility .1s;padding-top:10px}small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {font-size:12px;font-family:'Guardian Text Sans Web',serif;left:calc(50% - 20px);bottom:5px;font-weight:400}@media screen and (min-width:670px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins {position:relative;height:100%}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {content:'';position:absolute;z-index:1;background:rgba(51,51,51,.05);background:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VD_rail_purple.png),#abafe6;background-repeat:repeat;top:0;height:100%;width:0}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:72px}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {font-size:24px;margin:50px auto}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {float:left;width:50%}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:300px;height:300px;display:inline-block}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {display:block}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {float:right;top:-25px;position:relative;bottom:auto}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:1100px}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:0}}@media screen and (min-width:740px){.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {margin:50px}}@media (min-width:980px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {left:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after {right:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {width:calc((100% - 980px)/ 2)}}@media screen and (min-height:1100px){.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:100vh}}</style>
   
-    <thead>No.|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+No.|Name
 ⟮c:1;1⟯|⟮c:7;clitoris⟯
 ⟮c:2;2⟯|⟮c:8;clitoral hood⟯
 ⟮c:3;3⟯|⟮c9;labia minora⟯
@@ -2387,12 +2333,10 @@ Specifically, the ⟮c:7;pearl index⟯ is calculated via ⟮c:10;(⟯⟮c:8;n_p
 It is theoretically possible to recieve a pearl index of ⟮c:12;1200⟯ if ⟮c:13;all women get pregnant in the first month⟯, however the pearl index may serve as t⟮c:14;he risk of getting pregnant in a year⟯ if ⟮c:15;the pregnancy rate is relatively low⟯ 
 ⟮c:16;Pearl indices⟯ ⟮c:17;vary⟯ based on ⟮c:18;the culture/demographics⟯ of the people being studied, and ⟮c:19;the method of instruction⟯. 
 More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregnant first⟯, and since ⟮c:22;people will get better at using a contraceptive method as time goes on⟯, ⟮c:24;the longer⟯ ⟮c:23;a study runs⟯, ⟮c:24;the lower⟯ ⟮c:23;its reported Pearl index will be⟯. 
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;Typical-use pearl index⟯|⟮c:12;pearl index including occasional mistakes etc.⟯
 ⟮c:11;perfect-use pearl index⟯|⟮c:13;pearl index under ideal usage⟯
 
-  <thead>Method of birth control|Perfect-use pearl index|Typical-use pearl index
+Method of birth control|Perfect-use pearl index|Typical-use pearl index
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;the Pill⟯|⟮c:2;0.2-0.5⟯|⟮c:3;5-10⟯
 ⟮c:4;Male condom⟯|⟮c:5;~2⟯|⟮c:6;10-20⟯
 ⟮c:7;Pulling out⟯|⟮c:8;~5⟯|⟮c:9;~20⟯
@@ -2406,7 +2350,6 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 ###### diagram
 
 <img src="Schematic_diagram_of_the_human_eye.svg"><br>  <thead>No.|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1⟯|⟮c:2;lens⟯
 ⟮c:3;2⟯|⟮c:4;suspensory ligament⟯
 ⟮c:5;3⟯|⟮c:6;posterior chamber and⟯
@@ -2465,14 +2408,12 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 
 ###### turnedness
 
-  <thead>name|definition|example image
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|definition|example image
 ⟮c:1;upturned eyes⟯|⟮c:2;s:3;the outer corner is higher than the inner corner⟯|⟮c:3;h:2;<img src="sm_Screenshot%202020-07-27%20at%2015.11.11.png">⟯
 ⟮c:4;downturned eyes⟯|⟮c:5;s:6;the outer corner is at the same height as the inner corner, or lower⟯|⟮c:6;h:5;<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">⟯
 
 
-  <thead>name|definition|example image
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|definition|example image
 ⟮c:7;almond eyes⟯|⟮c:8;s:9;almost none or none of the iris is visible above your pupils⟯|⟮c:9;h:8;<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">⟯
 ⟮c:10;round eyes⟯|⟮c:11;s:12;almost all of the iris and perhaps some of the white is visible at the top⟯|⟮c:12;h:11;<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">⟯
 
@@ -2485,15 +2426,13 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 
 ###### eyelids
 
-  <thead>name|examples
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|examples
 ⟮c:7;(eyelid) crease⟯|⟮c:8;<img src="sm_gr15a.jpg"><img class="c1-f c2-b" src="sm_Asian-bleph-before-and-after.jpg">⟯
 ⟮c:9;multiple creases⟯|⟮c:10;<img src="sm_upper-eye12-before.jpg">⟯
 ⟮c:11;eyelid space⟯|⟮c:12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯
 
 
-  <thead>name|definition|examples
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|definition|examples
 ⟮c:1;hooded eye⟯|⟮c:2;skin that droops on eyelids⟯|⟮c:3;<img src="sm_Screenshot%202020-07-27%20at%2015.19.06.jpg"><img src="sm_What-Are-Hooded-Eyes-800x800.jpg">⟯
 ⟮c:4;monolid⟯|⟮c:5;lack of an eyelid crease⟯|⟮c:6;<img src="sm_makeup-for-single-lid-or-monolid-or-hooded-eyes_estee-lauder-how-to-videojpg.jpg">⟯
 
@@ -2508,8 +2447,7 @@ Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid spac
 The ⟮c:7;deep-set ... protruding⟯ eyes continuum refers to how ⟮c:8;far back or front⟯ your eye is in relation to ⟮c:9;your cheek bones and browbones⟯. 
 To test for ⟮c:10;deep-set eyes⟯ l⟮c:11;ay your fingers⟯ ⟮c:12;rigidly⟯ on the eye from ⟮c:13;brow⟯ to ⟮c:13;cheekbone⟯, if ⟮c:14;your hand touches your lid⟯, ⟮c:15;they are not deep-set⟯ 
 I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes 
-  <thead>type of eye|image
-  <tbody class="cloze-group-children hide-if-inactive-children">
+type of eye|image
 ⟮c:1;protruding/bulging eyes⟯|⟮c:2;<img src="sm_Young-girl-with-inherited-bulgy-eyes-54e512549b9636a72d22820c97764663010cc613.jpg">⟯
 ⟮c:3;deep-set⟯|⟮c:4;<img src="sm_Screenshot%202020-07-27%20at%2014.14.20.jpg">⟯
 
@@ -2526,8 +2464,7 @@ The ⟮c:9;larger⟯ area ⟮c:10;around the fovea⟯ is ⟮c:11;the macula⟯
 Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮c:9;cones⟯. 
 ⟮c:30; All photoreceptor cells, i.e. cones and rods,⟯ lie in ⟮c:31;the retina⟯. 
 
-  <thead>name|can see|occur where
-  <tbody class="cloze-group-children hide-if-inactive-children">
+name|can see|occur where
 ⟮c:1;cones⟯|⟮c:2;color⟯|⟮c:3;the macula &amp; fovea⟯
 ⟮c:4;rods⟯|⟮c:5;B/W⟯|⟮c:6;everywhere but the macula/fovea⟯
 
@@ -2541,7 +2478,6 @@ We can see something like ⟮c:24;1-10 million⟯ ⟮c:25;different colors⟯, t
 ###### movement
 
 humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ to ⟮c:10;build up an image⟯ 
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯
 ⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯
 ⟮c:5;smooth pursuit (eye movement⟯)|⟮c:6;smooth movement tracking a thing⟯
@@ -2553,8 +2489,7 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
 ###### FOV
 
 ⟮h:all;<img src="sm_220px-Vertical_FOV.svg.png">⟯
-  <thead>FOV|deg
-  <tbody class="cloze-group-children hide-if-inactive-children">
+FOV|deg
 ⟮c:1;human vertical FOV⟯|⟮c:2;~130 - 150 deg⟯
 ⟮c:3;human horizontal FOV⟯|⟮c:4;~210 deg⟯
 ⟮c:5;human horizontal binocular FOV⟯|⟮c:6;~120 deg⟯
@@ -2591,14 +2526,9 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 ##### pressure
 
 <span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br>⟮c:14;blood pressure⟯ is measured in ⟮c:15;mm Hg⟯ 
-  <thead>name|definition|compares how to the other one|ideal value|which one in the image?
-  <tbody class="cloze-group-children hide-if-inactive-children">
-
+name|definition|compares how to the other one|ideal value|which one in the image?
 ⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯
 ⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯
-
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯
 ⟮c:29;Hypertension⟯|⟮c:30;High blood pressure⟯
 
@@ -2646,8 +2576,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 #### types of movement
 
-        <thead>Image|Name of movement
-        <tbody class="cloze-group-children hide-if-inactive-children">
+Image|Name of movement
 ⟮c:1;<img src="eccentric-cont.png">⟯|⟮c:2;eccentric⟯
 ⟮c:3;<img src="concentric-cont.png" ⟯<="" td=""> |⟮c:4;concentric⟯
 ⟮c:5;<img src="isometric-cont.png">⟯|⟮c:6;isometric⟯
@@ -2667,8 +2596,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 <img src="sm_muscles_back.jpg">
 
-  <thead>No.|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+No.|Name
 ⟮c:1;11⟯|⟮c:2;erector spinae⟯
 
 
@@ -2713,7 +2641,6 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 
 ⟮h:all;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
 <br/>  <thead>Bodypart|APT symptom
-<tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;butt⟯|⟮c:4;stick out back⟯
 ⟮c:2;abdomen⟯|⟮c:5;stick out in front⟯
 ⟮c:3;spine⟯|⟮c:6;excessively arched⟯
@@ -2726,9 +2653,8 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 An ⟮c:19;'ideal' pelvic tilt⟯ is ⟮c:20;very slightly anterior (5° or so⟯) 
 When ⟮c:21;sitting⟯ or ⟮c:21;standing⟯ with ⟮c:22;APT⟯, ⟮c:23;engage⟯ the ⟮c:24;glutes⟯ and the ⟮c:24;core⟯. You can test this by ⟮c:25;poking yourself with a finger.⟯ 
 When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying to ⟮c:27;distribute some of the laod to your abs and glutes.⟯ 
-  <thead>Status</th>
+Status</th>
       <th colspan="3">Affected muscles|action
-<tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;Weak⟯|⟮c:11;abdominals⟯|⟮c:12;glutes⟯||⟮c:13;stretch them⟯
 ⟮c:14;Tight⟯|⟮c:15;hip flexors/quads⟯|⟮c:16;erector spinae⟯|⟮c:17;hamstrings⟯|⟮c:18;strengthen them⟯
 
@@ -2744,8 +2670,7 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 ⟮c:9;Intersex⟯ people are have ⟮c:10;a range of different variations⟯ that "⟮c:11;do not fit the typical definitions for male or female bodies⟯" 
 ⟮c:5;Depending on how you count⟯, ⟮c:6;0.02⟯% - ⟮c:7;2⟯% of people are ⟮c:8;intersex⟯ 
 
-  <thead>sex (and species)|sex chromosomes
-  <tbody class="cloze-group-children hide-if-inactive-children">
+sex (and species)|sex chromosomes
 ⟮c:1;human females⟯|⟮c:2;XX⟯
 ⟮c:3;human males⟯|⟮c:4;XY⟯
 
@@ -2756,8 +2681,7 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 
 ##### horse-human face-attached interfaces
 
-<thead>Item|Function
-<tbody class="cloze-group-children hide-if-inactive-children">
+Item|Function
 ⟮c:1;Halter⟯|⟮c:2;Leading a horse while walking⟯
 ⟮c:3;Bridle⟯|⟮c:4;Controlling a horse while riding⟯
 
@@ -2775,7 +2699,7 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
 
 ### ICD-10 codes
 
-  <thead>Thingy|ICD-10 Code
+Thingy|ICD-10 Code
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;OCD⟯|⟮c:2;F42⟯
 
 
@@ -2916,7 +2840,7 @@ Using ⟮c:4;oil⟯ during a massage makes it ⟮c:5;glide more easily⟯, if yo
 
 ⟮h:1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h:all;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h:all;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h:all;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯§§ ⟮c:9;Tapotement⟯ is massage with about ⟮c:10;3-10 strokes per second⟯ performed ⟮c:11;rythmically⟯ §<br>
 What you do during ⟮c:9;tapotement⟯ depends on ⟮c:12;what variety you are using⟯ 
-  <thead>Name of tapotement|Side of hand|the hand is...|the wrist is⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
+Name of tapotement|Side of hand|the hand is...|the wrist is⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
 The ⟮c:5;posterior chamber of the eyeball⟯ is ⟮c:6;the narrow space between⟯ ⟮c:7;the iris⟯ and ⟮c:8;the suspensory ligament of the lens⟯ 
@@ -2935,7 +2859,6 @@ The ⟮c:26;choroid⟯ is ⟮c:27;the layer providing nourishment⟯ to the eye
 The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligament of the lens⟯ 
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>...
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Pounding/beating/pumelling⟯|⟮c:2;ulnar⟯|⟮c:2;loose fist⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Hacking⟯|⟮c:2;ulnar⟯|⟮c:2;fairly straight⟯|⟮c:2;loose wrists⟯
 ⟮c:1;Cupping⟯|⟮c:2;palmar⟯|⟮c:2;cupped/slightly gathered⟯|
@@ -2959,7 +2882,7 @@ In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a t
 ### demons
 
 ⟮c:2;concubi⟯ are ⟮c:3;demons⟯ that are ⟮c:1;very sexual⟯. 
-  <thead>gender|name|meaning of initial morpheme
+gender|name|meaning of initial morpheme
  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:8;Male⟯|⟮c:9;Incubus⟯|⟮c:10;s:all;In = on/in⟯
 ⟮c:11;Female⟯|⟮c:12;Succubus⟯|⟮c:13;s:all;Sub = under⟯
 
@@ -2975,7 +2898,7 @@ the alternative to ⟮c:8;SSC⟯ is ⟮c:9;RACK (risk-aware consensual kink⟯)
 
 ## sexual roles
 
-  <thead>Name|Description|Notes
+Name|Description|Notes
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;top (general context) ⟯|⟮c:2;likes to (or does) take the active role⟯
 ⟮c:3;bottom (general context) ⟯|⟮c:4;likes to (or does) take the passive role⟯
 ⟮c:5;top (penetration context) ⟯|⟮c:6;likes to (or does) get penetrated⟯
@@ -3061,7 +2984,7 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 
 ## abbreviations
 
-  <thead>Abbreviation|Long
+Abbreviation|Long
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:13;AFAB⟯|⟮c:14;Assigned Female At Birth⟯
 ⟮c:17;AMAB⟯|⟮c:18;Assigned Male At Birth⟯
 ⟮c:15;Ace⟯|⟮c:16;Asexual⟯
@@ -3078,8 +3001,6 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 
 
 ## flags
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="Transgender_Pride_flag.svg">⟯|⟮c:2;The transgender pride flag⟯
 
 
@@ -3128,8 +3049,7 @@ By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instance
 ### isms
 
 
-  <thead>ism||additional constraints
-  <tbody class="cloze-group-children hide-if-inactive-children">
+ism||additional constraints
 ⟮c:1;Adultism⟯|+:⟮c:11;adult⟯, -:⟮c:11;child⟯
 ⟮c:2;Carnism⟯|+:⟮c:12;using animals, esp. meat⟯, -:⟮c:12;not using animals/eating meat⟯
 ⟮c:3;Cissexism⟯|+:⟮c:13;cisgender⟯, -:⟮c:13;transgender (or other noncisgender⟯)
@@ -3170,7 +3090,7 @@ Kate Manne, Down Girl: ⟮c:5;Patriarchy⟯ is ⟮c:8;the power structure⟯ tha
 
 x normativity normalizes the + of the relevant ism
 
-  <thead>Normativity|Normalizes
+Normativity|Normalizes
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Heteronormativity⟯|⟮c:2;+ of Heterosexism (heterosexuality⟯)
 ⟮c:3;Cisnormativity⟯|⟮c:4;+ of cissexism (being cisgendered⟯)
 ⟮c:5;Masculonormativity⟯|⟮c:6;+ of sexism ((being) masculine⟯)
@@ -3183,8 +3103,7 @@ x normativity normalizes the + of the relevant ism
 
 #### phobia
 
-  <thead>phobia|against|aspect of ism
-  <tbody class="cloze-group-children hide-if-inactive-children">
+phobia|against|aspect of ism
 ⟮c:1;Biphobia⟯|⟮c:2;s:all;us:1;bisexual people⟯|⟮c:3;s:all;us:1;heterosexism⟯
 ⟮c:4;Ephebiphobia⟯|⟮c:5;s:all;us:4;young people, esp. adolescents⟯|⟮c:6;s:all;us:4;ageism, adultism⟯
 ⟮c:7;Homophobia⟯|⟮c:8;s:all;us:7;LGBT people⟯|⟮c:9;s:all;us:7;heterosexism⟯
@@ -3296,13 +3215,12 @@ Mark Fisher coined the term "⟮c:1;a boring dystopia⟯" to describe the situat
 On ⟮c:29;the model of⟯ emotion work/emotional labor, other ⟮c:30;more or less common terms have been coined⟯. 
 While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al labor⟯ as ⟮c:32;synonyms⟯, there is ⟮c:32;a clear distinction⟯. 
 
-  <thead>|value|example
+|value|example
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:16;x work, e.g. emotion work⟯|⟮c:17;use value only⟯|⟮c:18;s:16-17;part of a job⟯
 ⟮c:19;x-al labor, e.g. emotional labor⟯|⟮c:20;use value and exchange value⟯|⟮c:21;s:19-20;in an intimate relationship⟯
 
 
-  <thead>type of work/labor|involves|example
-  <tbody class="cloze-group-children hide-if-inactive-children">
+type of work/labor|involves|example
 ⟮c:1;emotion work/emotional labor⟯|⟮c:2;managing our own emotions⟯ (Hochschild (complementary but not equivalent): "⟮c:12;creating a publically observable display⟯")|⟮c:3;s:gb;a waiter gets insulted, goes through a ritual in his head and still appears friendly⟯
 ⟮c:4;empathy work/empathical labor⟯|⟮c:5;creating the feeling of being understood in others⟯
 ⟮c:6;conversation work/conversational labor⟯|⟮c:7;maintaining a conversation (if it has a purpose that both parties subscribe to⟯)|⟮c:8;s:gb;a person tries hard to come up with relevant topics and questions during a date/a meeting with a long-lost relative⟯
@@ -3325,8 +3243,7 @@ the ⟮c:1;application of computational technologies/digital resources⟯ in ⟮
 
 ## year of study
 
-  <thead>Year of study|Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Year of study|Name
 ⟮c:1;4th year of study⟯|⟮c:2;Senior⟯
 ⟮c:3;3nd year of study⟯|⟮c:4;Junior⟯
 ⟮c:5;2nd year of study⟯|⟮c:6;Sophomore⟯
@@ -3489,7 +3406,7 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 #### types
 
-  <thead>Name1|Name2|Stores what?
+Name1|Name2|Stores what?
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;s:2;Explicit memory::E...⟯|⟮c:2;s1:;Declarative memory::D...⟯|⟮c:3;facts, concepts⟯|The memory that is used for <span class="c4-cloze c3-scr">things like flashcards (subject to the ebbinghaus forgetting curve, etc.)</span>
 ⟮c:5;s:6;Implicit memory::I...⟯|⟮c:6;s:5;Non-declarative memory::N...⟯|⟮c:7;skills, procedures, categories, sensory experiences⟯
 
@@ -3498,7 +3415,7 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 ##### letters and numbers
 
-  <thead>Digit|Letter
+Digit|Letter
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:11;K⟯
 ⟮c:2;1⟯|⟮c:12;A⟯
 ⟮c:3;2⟯|⟮c:13;B⟯
@@ -3516,8 +3433,7 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 ##### 1-100
 
-  <thead>P|A|O|Number|Mnemonics
-  <tbody class="cloze-group-children hide-if-inactive-children">
+P|A|O|Number|Mnemonics
 ⟮c:1;s:all;us:4;Kirito Kazuto⟯|⟮c:2;s:all;us:4;dual-wielding⟯|⟮c:3;s:all;us:4;Dual Swords⟯|⟮c:4;00⟯
 ⟮c:5;s:all;us:8;Prof X (X=10⟯)|⟮c:6;s:all;us:8;mindreading⟯|⟮c:7;s:all;us:8;a school⟯|⟮c:8;10⟯
 ⟮c:9;s:all;us:12;Ben Kenobi⟯|⟮c:10;s:all;us:12;mourning⟯|⟮c:11;s:all;us:12;a burned corpse⟯|⟮c:12;20⟯
@@ -3646,10 +3562,9 @@ The fact that ⟮c:27;eye movement can be controlled during REM sleep⟯ allows 
 
 the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;dreams⟯ is ⟮c:32;about the same⟯ as in ⟮c:31;RL⟯ 
 
-  <thead>
+
     <tr><th colspan="3">Testing if one is dreaming
 Activity|How to check?|Positive result if
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;jumping⟯|⟮c:2;jump up⟯|⟮c:3;if you float or levitate⟯
 ⟮c:4;levitating⟯|⟮c:5;try and levitate⟯|⟮c:6;if it works⟯
 ⟮c:7;hands⟯|⟮c:8;check them⟯|⟮c:9;if you have extra fingers/nails/colors/etc.⟯
@@ -3823,8 +3738,7 @@ In general, ⟮c:24;synthesis⟯ produces ⟮c:25;more complex compounds⟯ as �
 
 ######## brandklassen
 
-  <thead>Brandklasse|Wofür?
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Brandklasse|Wofür?
 ⟮c:1;Klasse A⟯|⟮c:2;Feste, glutbildende stoffe, z.B. Holz, Textilien⟯
 ⟮c:3;Klasse B⟯|⟮c:4;Flüssige oder flüssig werdende stoffe, z.B. Benzin, Öle⟯
 ⟮c:5;Klasse C⟯|⟮c:6;Gase⟯
@@ -3882,11 +3796,10 @@ a ⟮c:5;functional group⟯ is a part of a ⟮c:6;molecule⟯ that causes the �
 
 ##### chemical symbols
 
-  <thead>
+
       Chemical Symbol
     |
       Name
-  <tbody class="cloze-group-children hide-if-inactive-children">
         ⟮c:1;Fe⟯
       |
         ⟮c:2;Iron⟯
@@ -3905,7 +3818,7 @@ The ⟮c:4;noble gases⟯ ⟮c:3;outer shell of valence electrons⟯ is consider
 an ⟮c:3;electron shell⟯ may be thought of as ⟮c:4;an orbit⟯ of ⟮c:1;electrons⟯ ⟮c:4;around⟯ an atom's ⟮c:2;nucleus⟯.
 Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are themselves composed of ⟮c:6;atomic orbitals⟯. 
 <br>
-  <thead>Shell Number|Shell Letter
+Shell Number|Shell Letter
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c7;1⟯|⟮c8;K⟯
 ⟮c9;2⟯|⟮c10;L⟯
 ⟮c11;3⟯|⟮c12;M⟯
@@ -3913,7 +3826,7 @@ etc...|etc...
 
 The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number / earlier to the alphabet its letter⟯
 §§the ⟮c:16;nth⟯ ⟮c:15;shell⟯ can in principle hold up to ⟮c:17;2(n<sup>2</sup>⟯) electrons.§<br><br>
-  <thead>Shell|Can hold this many electrons
+Shell|Can hold this many electrons
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c18;1 / K⟯|⟮c19;2⟯
 ⟮c20;2 / L⟯|⟮c21;8 (2 + 6)⟯
 ⟮c22;3 / M⟯|⟮c23;18 (2 + 6 + 10)⟯
@@ -3955,8 +3868,6 @@ The ⟮c:3;gap between the two pieces of paper⟯ is ⟮c:4;the shear line⟯, a
 ⟮h:2;<img src="sm_220px-Zylinderset.jpg">⟯
 <img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/>Everything else in a ⟮c:7;cylinder lock⟯ is ⟮c:8;contained in⟯ ⟮c:9;the cylinder(shell/casing/housing/body) ⟯ 
 If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:11;take the locking mechanism out⟯, we would be seeing ⟮c:12;the cylinder (shell/casing/housing/body⟯). 
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯
 ⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯
 
@@ -3971,19 +3882,14 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 ## image labelling
 
 <img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png"><br>  <thead>thing in the image|name
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;the blue and red things⟯|⟮c:12;the pins⟯
 ⟮c:13;the blue pins⟯|⟮c:14;the driver pins⟯
 ⟮c:9;the red pins⟯|⟮c:10;the key pins⟯
-
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯
 ⟮c:17;the casing⟯|⟮c:18;green in the image⟯
 
 
-  <thead>current status|pin
-  <tbody class="cloze-group-children hide-if-inactive-children">
+current status|pin
 ⟮c:1;Overset⟯|⟮c:2;pin 4 (from front⟯)
 ⟮c:3;being picked⟯|⟮c:4;pin 5 (from front⟯)
 ⟮c:5;successfully picked⟯|⟮c:6;pin 1 and 3 (from front⟯)
@@ -4018,7 +3924,6 @@ To ⟮c:21;prevent any old key to be used to open a lock⟯, ⟮c:22;the key pin
 If you ⟮c:23;insert the wrong key into a lock⟯, the lock will not open because ⟮c:24;gaps between pins not in line with shear line⟯ 
 The part of the lock that we are exploiting to pick is ⟮c:25;the shear line⟯ 
 The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs⟯. 
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯
 ⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯
 ⟮c:32;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c:33;wrong key⟯
@@ -4187,7 +4092,7 @@ There are a number of verbs that ⟮c:12;stem-change⟯ in the ⟮c:13;preterite
 
 </tbody></table>
 and change like this: 
-  <thead>Infinitive|Stem Change
+Infinitive|Stem Change
   <tbody>andar|⟮c:1;anduv-⟯
 estar|⟮c:2;estuv-⟯
 tener|⟮c:3;tuv-⟯
@@ -4202,7 +4107,6 @@ venir|⟮c:11;vin-⟯
 
 
 Spanish ordinal numbers<br/> <thead>Numeral|Ordinal number
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1st⟯|⟮c:2;primero/-a⟯
 ⟮c:3;2nd⟯|⟮c:4;segundo/-a⟯
 ⟮c:5;3rd⟯|⟮c:6;tercero/-a⟯
@@ -4215,8 +4119,7 @@ Spanish ordinal numbers<br/> <thead>Numeral|Ordinal number
 ⟮c:19;10th⟯|⟮c:20;décimo/-a⟯
 
 
-  <thead>Numeral|Ordinal number
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Numeral|Ordinal number
 ⟮c:21;20<sup>th</sup>⟯|⟮c:22;vigésimo⟯
 ⟮c:23;30<sup>th</sup>⟯|⟮c:24;trigésimo⟯
 ⟮c:25;40<sup>th</sup>⟯|⟮c:26;cuadragésimo⟯|⟮c:27;You try on some CUbAn DRAG on for your fortieth birthday⟯
@@ -4227,8 +4130,7 @@ Spanish ordinal numbers<br/> <thead>Numeral|Ordinal number
 ⟮c:36;90<sup>th</sup>⟯|⟮c:37;nonagésimo⟯
 
 
-  <thead>Numeral|Ordinal number
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Numeral|Ordinal number
 ⟮c:38;100<sup>th</sup>⟯|⟮c:39;centésimo⟯
 ⟮c:40;200<sup>th</sup>⟯|⟮c:41;ducentésimo⟯
 ⟮c:42;300<sup>th</sup>⟯|⟮c:43;tricentésimo⟯
@@ -4248,7 +4150,6 @@ Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018ee
 
 
 Spanish months<br/>  <thead>month|name
-  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;01⟯|⟮c:2;enero⟯
 ⟮c:3;02⟯|⟮c:4;febrero⟯
 ⟮c:5;03⟯|⟮c:6;marzo⟯
@@ -5288,8 +5189,7 @@ Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same leng
 
 ## english words
 
-  <thead>Word|Today more commonly|example
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Word|Today more commonly|example
 ⟮c:1;whither⟯|⟮c:2;to where⟯
 ⟮c:3;whence⟯|⟮c:4;from where⟯|⟮c:5;s:3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯
 
