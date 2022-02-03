@@ -109,7 +109,6 @@ A hex digit is equivalent to 4 binary digits
 
 ##### dec-hex
 
-<table>
   <thead>Decimal number|Hexadecimal number
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -117,7 +116,6 @@ A hex digit is equivalent to 4 binary digits
 ⟮c:3;13<sub>10</sub>⟯|⟮c:4;D<sub>16</sub>⟯
 ⟮c:5;233<sub>10</sub>⟯|⟮c:6;E9<sub>16</sub>⟯
 
-<table>
   <thead>Decimal digit|Hexadecimal digit
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -316,7 +314,6 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
 ⟮c:31;Blackboard bold⟯ letters are ⟮c:32;called that and look like that⟯ because ⟮c:33;drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Symbol|Refers to?
 
   </thead>
@@ -442,7 +439,6 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <div class="flex-container">⟮h:all;<img src="sm_directed_graph.svg">⟯⟮h:a;<img src="sm_multigraph.svg">⟯⟮h:all;<img src="sm_weighted_graph.svg">⟯</div>
 
-<table class="cloze-group hide-if-inactive">
   <thead>Graph-related thing|alternative names
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -452,7 +448,6 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <img src="sm_220px-6n-graf.svg.png">
 
-<table class="cloze-group hide-if-inactive">
   <thead>In the image|name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -460,8 +455,6 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 ⟮c:9;the lines⟯|⟮c:10;edges⟯
 ⟮c:5;the circles⟯|⟮c:6;vertices⟯
 
-
-<table class="cloze-group hide-if-inactive">
 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;E⟯|⟮c:12;The set of edges⟯
@@ -530,7 +523,6 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
 ⟮c:220;Breadth-first search⟯ is ⟮c:227;a tree traversal algorithm⟯ that ⟮c:229;visits⟯ ⟮c:225;sibling vertices⟯ ⟮c:229;before⟯ ⟮c:225;children vertices⟯ 
 ⟮c:221;Depth-first search⟯ in the case of ⟮c:222;binary trees⟯ is commonly ⟮c:223;pre-order⟯, ⟮c:223;inorder⟯, or ⟮c:223;post-order⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>order|pattern
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -553,7 +545,6 @@ In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33
 
 
 <img src="sm_bin_search_tree.svg">
-<table class="cloze-group hide-if-inactive">
   <thead>Inserting this number,|where would it go?
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -731,7 +722,6 @@ Something with indefinite arity is called {{c1::variadic}}
 
 A n-ary function takes n arguments.
 3+6=9 is a binary operation.
-<table>
   <thead>Arity of...|Name
 
   </thead>
@@ -812,7 +802,6 @@ A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;paramete
 
 #### Types of errors
 
-<table class="cloze-group hide-if-inactive">
   <tbody></td>
       <th>⟮c:7;s:5-8;H<sub>0</sub> true⟯|⟮c:8;s:5-8;H<sub>0</sub> false⟯
 ⟮c:5;s:5-8;reject H<sub>0</sub>⟯</th>
@@ -852,7 +841,6 @@ metric/decimal prefixes refer to increases of 1000, even when used on bits or by
 b|bit
 B|byte
 
-<table>
   <thead>prefix|10<sup>?</sup>
 
   </thead>
@@ -883,7 +871,6 @@ The ⟮c:16;SI⟯ has ⟮c:17;7⟯ ⟮c:18;base units.⟯
 From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.⟯ 
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th colspan="3">7 SI base units
 unit name|unit symbol|measure
@@ -899,7 +886,6 @@ unit name|unit symbol|measure
 
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th colspan="3">non-base SI units
 unit name|unit symbol|measure
@@ -916,7 +902,6 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 ###### temperature
 
 ⟮c:1;Kelvin⟯ (unit symbol ⟮c:2;K⟯)
-<table class="cloze-group hide-if-inactive">
   <thead>Temperature (K)|Significance
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -928,7 +913,6 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 <h2>
    ⟮c:1;Celsius⟯:
 </h2>
-<table class="cloze-group hide-if-inactive">
   <thead>Temperature (°C)|Significance
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)
@@ -938,7 +922,6 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 
 ### non-metric
 
-<table class="cloze-group hide-if-inactive">
   <thead>Symbol|Unit|in SI base units
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">

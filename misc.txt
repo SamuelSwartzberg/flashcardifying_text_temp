@@ -75,7 +75,6 @@ An ⟮c:1;externality⟯ is a ⟮c:2;s:3;cost⟯ ( = ⟮c:3;s:2;negative⟯ ⟮c
 
 TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, {{c8::secondary}}, and {{c8::tertiary}} sectors.
 
-<table class="cloze-group hide-if-inactive">
   <thead>sector|consists of
 
   </thead>
@@ -84,8 +83,6 @@ TThe {{c7::three-sector model}} divides economic activity into {{c8::primary}}, 
 ⟮c:15;Tertiary sector⟯|⟮c:16;Production of services⟯
 ⟮c:17;Quarternar sector⟯|⟮c:18;Production of knowledge⟯|not part of official model
 
-
-<table class="cloze-group hide-if-inactive">
 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮c:2;Industrial society⟯
@@ -120,7 +117,6 @@ Both ⟮c:8;the growth⟯ and ⟮c:8;subsequent decline⟯ in asset prices in an
 #### commodities
 
 Commodity is a term with three competing definitions:
-<table class="cloze-group hide-if-inactive">
   <thead>name|field|definition|examples
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -172,7 +168,6 @@ The precise value of a ⟮c:8;network effect⟯ is often stated in terms of ⟮c
 
 ##### goods with properties
 
-<table class="cloze-group hide-if-inactive">
   <tbody>|⟮c:5;excludable⟯|⟮c:5;non-excludable⟯
 ⟮c:6;rivalrous⟯</th>
       <td>⟮c:1;s:1-4;private good⟯|⟮c:4;s:1-4;common(-pool) good⟯⟮c:6;non-rivalrous⟯</th>
@@ -253,7 +248,6 @@ Analogous to the idea of ⟮c:2;religious markets⟯ ( = ⟮c:8;s:2,9;seing comp
 
 ### generations
 
-<table>
   <thead>Generation|Start|End|Nicknames
 
   </thead>
@@ -292,7 +286,6 @@ A ⟮c:56;TFR⟯ ⟮c:55;below replacement rate⟯ is known as ⟮c:57;Sub-repla
 Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement rate⟯ is additionally distorted by ⟮c:60;child mortality⟯. 
 ⟮c:61;The replacement rate⟯ for countries ⟮c:62;with low child and maternal mortality⟯ is ⟮c:63;about 2.1⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Country|TFR
 
   </thead>
@@ -305,7 +298,6 @@ Beyond ⟮c:58;the distorting factors for the TFR⟯, ⟮c:59;the replacement ra
 ⟮h:all;<img src="821361.png">⟯
 In japan, ⟮c:7;extramarital birth⟯ is ⟮c:8;extremely rare⟯ 
 In japan, marriages as of 2020 occurr ⟮c:9;Less and later⟯ 
-<table class="cloze-group hide-if-inactive">
   <thead>Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
 
   </thead>
@@ -351,7 +343,6 @@ To marx, ⟮c:5;money⟯ is the thing that eventually takes over the role of ⟮
 
 To ⟮c:3;marx⟯, the ⟮c:1;exchange value⟯ of a good is ⟮c:2;how it can be exchanged for other commodities⟯
 To ⟮c:4;marx⟯, the ⟮c:5;use value⟯ of a good is ⟮c:6;its tangible features/physical properties⟯ that  ⟮c:7;fulfill human needs/wants⟯
-<table class="cloze-group hide-if-inactive">
   <thead>form|corresp. value|explanation
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -522,8 +513,7 @@ An {{c1::auteur}} is {{c2::an artist}} (esp. in {{c3::filmmaking}}) who {{c4::ex
 
 ### terminology
 
-<br><table>
-  <thead>Term|Meaning
+<br>  <thead>Term|Meaning
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Word of God⟯|⟮c:2;something that the creator said about one of their works, but isn't contained in the story itself⟯
@@ -576,8 +566,6 @@ The ⟮c:6;death of the author⟯ pushes back against the idea of ⟮c:7;authori
 ⟮h:all;<img src="image7.jpg">⟯The ⟮c:1;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c:2;understanding⟯ of ⟮c:3;a text/thing⟯ consists of ⟮c:9;moving between⟯ ⟮c:4;two things/states⟯. 
 In the hermeneutic circle, ⟮c:5;moving between the two states⟯ ⟮c:6;deepens or at least changes⟯ our ⟮c:10;understanding⟯. 
 For the hermeneutic circle, since ⟮c:11;our understanding at either step⟯ is ⟮c:7;never exactly the same⟯ ("⟮c:7;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c:8;spiral⟯. 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;hermeneutic circle⟯|⟮c:2;gadamer⟯|⟮c:3;what I expect the text to say/something to be⟯|⟮c:4;what I read in the text/experience something to be⟯
 ⟮c:5;hermeneutic circle⟯|⟮c:6;???⟯|⟮c:7;what I know⟯|⟮c:8;What I read in the text⟯
@@ -617,7 +605,6 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 
 ⟮c:9;(baby) faces and heels⟯ are terms from ⟮c:10;wrestling⟯ 
 
-<table class="cloze-group hide-if-inactive">
   <thead>description|Term
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -630,8 +617,6 @@ In the ⟮c:13;Born Sexy Yesterday trope⟯, the ⟮c:14;male protagonist⟯ is 
 ## textual
 
 ### games
-
-<table>
 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;MUD⟯|⟮c:2;Multi-user dungeon⟯
@@ -700,7 +685,6 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
 
 ###### number of feet
 
-<table class="cloze-group hide-if-inactive">
   <thead>
       Meter
     |
@@ -713,7 +697,6 @@ A doctor is giving a speech about fad diets and physical fitness to a group of l
 
 ###### type of feet
 
-<table class="cloze-group hide-if-inactive">
   <thead>
       Foot
     |
@@ -846,7 +829,6 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 
 ###### fountain
 
-<table class="cloze-group hide-if-inactive">
   <thead>Syntactic construct|function
 
   </thead>
@@ -858,7 +840,6 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:9;three or more =⟯|⟮c:10;page break⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Syntactic construct|function
 
   </thead>
@@ -870,7 +851,6 @@ In fountain, a ⟮c:4;transition⟯ must be ⟮c:5;separated from other content�
 ⟮c:19;!foo⟯|⟮c:20;force action text⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Syntactic construct|function
 
   </thead>
@@ -926,8 +906,6 @@ Hofbacher uses ⟮c:3;presenteeism⟯ in its more uncommon definition of ⟮c:4;
 
 ##### endo/exonyms
 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;s:2;endonym⟯|⟮c:2;s:1;autonym⟯|⟮c:3;name used by a group named by the name⟯|⟮c:4;Deutsche, 日本人 (not: Germans, Japanese⟯)
 ⟮c:5;s:6;exonym⟯|⟮c:6;s:5;xenonym⟯|⟮c:7;name used by foreginers, not people belonging to the group named⟯|⟮c:8;Germans instead of Deutsche, Japanese instead of 日本人⟯
@@ -942,7 +920,6 @@ The ⟮c:8;terminology we use to describe⟯ ⟮c:9;kinship relationships⟯ is 
 
 ##### marriage
 
-<table class="cloze-group hide-if-inactive">
   <thead>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Endogamy⟯|⟮c:2;The social norm/custom of⟯ ⟮c:3;marrying within one's social group (whatever we define this as⟯)
@@ -950,7 +927,6 @@ The ⟮c:8;terminology we use to describe⟯ ⟮c:9;kinship relationships⟯ is 
 
 
 Terms such as ⟮c:12;matri/uxori/patri/viri/neolocal⟯ describe where ⟮c:13;a newly married couple⟯ resides.
-<table class="cloze-group hide-if-inactive">
   <thead>Name|Name (using marriage-related terms)|Description
 
   </thead>
@@ -972,7 +948,6 @@ In ⟮c:5;the beginning of the savage mind⟯,  CLS details ⟮c:6;the richness 
 
 ## terminology
 
-<table class="cloze-group hide-if-inactive">
   <thead>term|definition
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1001,7 +976,6 @@ else
   ⟮c:29;iicString += closesCounterclockwise(cardinal direction⟯)</code></pre>
 compass rose
 
-<table class="cloze-group hide-if-inactive">
   <tbody>|⟮c:1;s:all;N⟯|
 ⟮c:2;s:all;N⟯||⟮c:3;s:all;E⟯
 |⟮c:4;s:all;S⟯|
@@ -1088,7 +1062,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 ###### list
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;United Arab Emirates⟯|⟮c:2;Abu Dhabi⟯
 ⟮c:3;Ethiopia⟯|⟮c:4;Addis Ababa (Abeba in german⟯)
@@ -1187,7 +1160,6 @@ According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</
 
 ##### national flags
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="sm_Afghanistan.png">⟯|⟮c:81;Afghanistan (pre-2021⟯)
 ⟮c:2;<img src="sm_Argentina.png">⟯|⟮c:82;Argentina⟯
@@ -1327,7 +1299,6 @@ The ⟮c:7;most famous work of microhistory⟯ is  ⟮c:8;The cheese and the wor
 The terms ⟮c:19;longue durée, moyenne durée and événement⟯ for scales of analysing history by ⟮c:20;the annales-school⟯ were formulated in their current form in ⟮c:21;the 1950s⟯ by  ⟮c:18;<span class="aside">Fernand⟯ Braudel</span> 
 The three levels of history that ⟮c:22;the annales-school and fernand braudel⟯ distinguish are the ⟮c:23;longue durée⟯, ⟮c:24;moyenne durée⟯ and the ⟮c:25;événement⟯. 
 The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis 
-<table class="cloze-group hide-if-inactive">
   <thead>Name|Timespan|Examples|Other names|Similar concepts
 
   </thead>
@@ -1343,7 +1314,6 @@ The annales school favored ⟮c:26;the longue duree⟯ as a level of analysis
 
 Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century⟯ are used for a ⟮c:9;more meaningful⟯ division of centuries. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|start|end
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1356,7 +1326,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### eurocentric history
 
-<table class="cloze-group hide-if-inactive">
   <thead>historical period|start|end
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1366,7 +1335,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 ## dates
 
-<table class="cloze-group hide-if-inactive">
   <thead>event|date
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1381,7 +1349,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### dynasties
 
-<table class="cloze-group hide-if-inactive">
   <thead>Dynasty|Start|End
 
   </thead>
@@ -1394,7 +1361,6 @@ Sometimes, the terms ⟮c:7;long 19th century⟯ and ⟮c:8;short 20th century�
 
 #### eras
 
-<table class="cloze-group hide-if-inactive">
   <thead>Era|Start|End
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1411,7 +1377,6 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
 
 ##### emperors
 
-<table class="cloze-group hide-if-inactive">
   <thead>Era|Start|End
 
   </thead>
@@ -1429,7 +1394,6 @@ In the ⟮c:2;平安時代⟯, ⟮c:4;the capital⟯ ⟮c:1;was moved⟯ to ⟮c
 <h2>
   ⟮c:7;uh:all;Non-LDP goverments in Japan⟯ since ⟮c:8;uh:all;1948⟯:
 </h2>
-<table class="cloze-group hide-if-inactive">
   <thead>which|start|end
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1535,8 +1499,7 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 #### periods
 
 ⟮h:all;<img src="sm_300px-CivilWarUSAColl.jpg">⟯
-⟮h:all;<img src="sm_240px-ReconstructionEraColl.jpg">⟯<table class="cloze-group hide-if-inactive">
-  <thead>Generation|Start|End|Nicknames
+⟮h:all;<img src="sm_240px-ReconstructionEraColl.jpg">⟯  <thead>Generation|Start|End|Nicknames
 
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Civil War⟯|⟮c:2;1861⟯|⟮c:2;1865⟯
@@ -1652,7 +1615,6 @@ The ⟮c:8;Rinnsteine⟯ were supposed to move the waste into ⟮c:9;the spree�
 
 ### population (growth)
 
-<table class="cloze-group hide-if-inactive">
   <thead>year|population of berlin
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1741,7 +1703,6 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 ###### a priori/a posteriori
 
 <img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c:5;Erkenntnis / Urteile⟯ kann ⟮c:6;a priori / a posteriori⟯ sein. 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Urteil a posteriori⟯|⟮c:2;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c:3;Urteil a priori⟯|⟮c:4;Ein Urteil ohne die Basis der Erfahrung⟯
@@ -1752,13 +1713,11 @@ The problem with ⟮c:7;the relief theory of laughter⟯ is that ⟮c:8;nervous 
 
 Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale Vernunfterkenntnis⟯, die sich ⟮c:4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c:3;formale Vernunfterkenntnis⟯, die sich ⟮c:5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <tbody>
     <tr>
       <th style="background-color: palegreen;">⟮c:1;s:all;material (objekt-bezogen⟯)|⟮c:2;s:all;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
 
-        <table class="cloze-group hide-if-inactive">
-          <tbody>
+                  <tbody>
             <tr>
               <th colspan="2">⟮c:3;s:all;Physik (Objekt: Natur⟯)</th>
               <th colspan="2" style="background-color: palegreen;">⟮c:4;s:all;Ethik (Objekt: Freiheit⟯)
@@ -1769,8 +1728,7 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 
       </td>
       <td style="vertical-align: top">
-        <table class="cloze-group hide-if-inactive">
-          <tbody>⟮c:13;s:all; Logik ⟯
+                  <tbody>⟮c:13;s:all; Logik ⟯
 ⟮c:14;s:all; essenziell nicht-empirisch = a priori, rein ⟯
 
 
@@ -1782,8 +1740,7 @@ Bei ⟮c:1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c:2;materiale V
 ⟮c:21;Campbell⟯'s ⟮c:22;monomyth⟯ was influenced by ⟮c:23;psychoanalytic theories⟯, ⟮c:25;mainly⟯ ⟮c:24;Jung⟯ and ⟮c:25;to a certain extent⟯ ⟮c:24;Freud⟯. 
 The ⟮c:26;monomyth⟯ claims to be ⟮c:27;descriptive⟯, specifically ⟮c:28;a general structure that underlines all myths⟯, though ⟮c:29;it, well, isn't⟯, and is often used ⟮c:30;prescriptively/as a formula for writing⟯. 
 The ⟮c:31;monomyth⟯ may also be called ⟮c:32;the Hero's Journey⟯. The shape of the ⟮c:34;monomyth⟯ is ⟮c:33;circular⟯, the ⟮c:35;Hero ends up in the same place they started⟯. 
-  <table class="cloze-group hide-if-inactive">
-  <tbody>
+    <tbody>
     <tr><td rowspan="5">⟮c:1;Departure⟯|⟮c:2;The Call to Adventure⟯
 ⟮c:3;Refusal of the Call⟯
 ⟮c:4;Supernatural Aid⟯
@@ -1815,7 +1772,6 @@ The ⟮c:19;contradictory pair⟯ of mythemes ⟮c:20;is equated with⟯ ⟮c:21
 
 Both ⟮c:13;mythical thought⟯ and ⟮c:13;science⟯ are ⟮c:14;equally⟯ ⟮c:15;sophisticated⟯ ⟮c:20;systems of thought⟯ according to ⟮c:16;CLS⟯, however, ⟮c:17;science⟯ is ⟮c:18;more effective at⟯ ⟮c:19;acquiring knowledge to harness the world⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Type of thought|Causality|Metaphor|Materials (physical)|Materials (thought)|Creates
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -1871,7 +1827,6 @@ In ⟮c:6;their engagement in their endeavor⟯, what emerges ⟮c:7;in a commun
 
 #### waves
 
-<table class="cloze-group hide-if-inactive">
   <thead>Wave|Rough period|Main Issue
 
   </thead>
@@ -1937,7 +1892,6 @@ There is evidence that ⟮c:7;using a generic masculine⟯ we are ⟮c:8;less li
 
 #### gendering
 
-<table class="cloze-group hide-if-inactive">
   <thead>Instance|Name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2009,7 +1963,6 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ## terminology
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;vascular⟯|⟮c:2;related to the flow of fluds⟯
 
@@ -2022,7 +1975,6 @@ The ⟮c:1;David Rumsey⟯ ⟮c:2;Historical Map Collection⟯ is one of the wor
 
 ### institutions
 
-<table class="cloze-group hide-if-inactive">
   <thead>Abbreviation|Full
 
   </thead>
@@ -2052,43 +2004,33 @@ food ⟮c:14;fortification⟯ / ⟮c:15;enrichment⟯ is the process of ⟮c:16;
 
 #### classification
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;A nutrient we require small amounts of⟯|⟮c:2;a micronutrient⟯
 ⟮c:3;A nutrient we require large amounts of⟯|⟮c:4;a macronutrient⟯
 
 ⟮c:6;Macronutrient⟯ is sometimes used in the more ⟮c:5;restricted⟯ sense  ⟮c:7;macronutrient that provides energy⟯ 
 
-<table class="cloze-group hide-if-inactive">
   <tbody>⟮c:1;Macronutrient⟯|⟮c:2;Micronutrient⟯
 
-        <table class="cloze-group hide-if-inactive">
-          <tbody>⟮c:3;Does not provide energy⟯|⟮c:4;Provides energy⟯
+                  <tbody>⟮c:3;Does not provide energy⟯|⟮c:4;Provides energy⟯
 
-                <table class="cloze-group hide-if-inactive">
-                  <tbody>⟮c:5;Water⟯|⟮c:6;Fiber⟯
+                                  <tbody>⟮c:5;Water⟯|⟮c:6;Fiber⟯
 
-              |<table class="cloze-group hide-if-inactive">
-                  <tbody>⟮c:7;Alcohol⟯|⟮c:8;Fat⟯|⟮c:9;Carbohydrates⟯|⟮c:10;Protein⟯
+              |                  <tbody>⟮c:7;Alcohol⟯|⟮c:8;Fat⟯|⟮c:9;Carbohydrates⟯|⟮c:10;Protein⟯
 
 
       |
-        <table class="cloze-group hide-if-inactive">
-          <tbody>⟮c:11;Minerals⟯|⟮c:12;Vitamins⟯
+                  <tbody>⟮c:11;Minerals⟯|⟮c:12;Vitamins⟯
 
-                <table class="cloze-group hide-if-inactive">
-                  <tbody>⟮c:13;Macrominerals⟯|⟮c:14;Trace minerals⟯|⟮c:15;Ultratrace minerals⟯
+                                  <tbody>⟮c:13;Macrominerals⟯|⟮c:14;Trace minerals⟯|⟮c:15;Ultratrace minerals⟯
 
               |
-                <table class="cloze-group hide-if-inactive">
-                  <tbody>⟮c:16;Fat-soluble⟯|⟮c:17;Water-soluble⟯
+                                  <tbody>⟮c:16;Fat-soluble⟯|⟮c:17;Water-soluble⟯
 
-                        <table class="cloze-group hide-if-inactive">
-                          <tbody>⟮c:18;A⟯|⟮c:19;D⟯|⟮c:20;E⟯|⟮c:21;K⟯
+                                                  <tbody>⟮c:18;A⟯|⟮c:19;D⟯|⟮c:20;E⟯|⟮c:21;K⟯
 
                       |
-                        <table class="cloze-group hide-if-inactive">
-                          <tbody>
+                                                  <tbody>
                                 ⟮c:22;the 8 B vitamins⟯
                               |⟮c:23;C⟯
 
@@ -2147,7 +2089,6 @@ While the research is not completely settled, ⟮c:2;saturated⟯ and ⟮c:2;tra
 
 ######## omega
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;omega-3⟯|fatty acids are|⟮c:2;polyunsaturated⟯|fatty acids characterized by a|⟮c:3;C=C double bond⟯|⟮c:4;3 atoms⟯| away from ⟮c:5;the terminal methyl group⟯
 ⟮c:6;omega-6⟯|fatty acids are|⟮c:7;polyunsaturated⟯|fatty acids characterized by a|⟮c:8;C=C double bond⟯|⟮c:9;6 atoms⟯| away from ⟮c:10;the terminal methyl group⟯
@@ -2164,7 +2105,6 @@ of the {{c11::three}} types of {{c7::omega-3}} fatty acids relevant to human nut
 Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be {{c8::synthesized from the former}}.
 {{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|abbreviation
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2206,7 +2146,6 @@ In general, ⟮c:31;excess intake⟯ of vitamins is ⟮c:32;unlikely⟯ from ⟮
 
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Common Designation|More Properly
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2226,7 +2165,6 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 
 ###### vitamin B
 
-<table class="cloze-group hide-if-inactive">
   
   <thead>Vitamin B...|Name or name of vitamers (if it exists)
 </thead>
@@ -2251,7 +2189,6 @@ In the ⟮c:33;US⟯ and some other countries, ⟮c:34;milk⟯ and ⟮c:35;milk 
 ⟮c:34;Minerals⟯ as micronutrients are subcategorized (by ⟮c:35;amount necessary⟯) into ⟮c:31;macrominerals⟯, ⟮c:32;trace minerals⟯, and ⟮c:33;ultratrace minerals⟯. 
 There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested as essential⟯, such claims are ⟮c:29;difficult to reproduce⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Mineral|Is defined by?
 
   </thead>
@@ -2261,7 +2198,6 @@ There are many ⟮c:27;ultratrace⟯ elements that have been ⟮c:28;suggested a
 ⟮c:25;ultratrace minerals⟯|⟮c:26;RDA of μg/day⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th colspan="42">essential minerals (some variation between characters exist)
 </thead>
@@ -2294,8 +2230,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 #### translations
 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;grünkohl⟯|⟮c:2;kale⟯
 ⟮c:3;hülsenfrucht⟯|⟮c:4;legume⟯
@@ -2313,8 +2247,6 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 #### grains
 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;rye⟯|⟮c:2;roggen⟯|⟮s:all;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
 ⟮c:4;wheat⟯|⟮c:5;weizen⟯
@@ -2330,8 +2262,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 </div>
 
 #### fruit & berries
-
-<table class="cloze-group hide-if-inactive">
 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;blackcurrant⟯|⟮c:2;schwarze johannisbeere⟯
@@ -2351,8 +2281,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 ### directions
 
-<img src="directional-terms.jpg">⟮h:all;<img src="directional-terms-labeled.jpg">⟯<table class="cloze-group hide-if-inactive">
-  <thead>No. in diagram|Name|Alternative Name
+<img src="directional-terms.jpg">⟮h:all;<img src="directional-terms-labeled.jpg">⟯  <thead>No. in diagram|Name|Alternative Name
 
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2360,7 +2289,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:4;4⟯|⟮c:5;s:6;ventral⟯|⟮c:6;s:5;anterior⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Name|Direction
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2368,7 +2296,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:3;ventral⟯|⟮c:4;Towards the belly⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|image
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2376,8 +2303,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:3;prone⟯|⟮c:4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯
 
 
-⟮h:all;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯<table class="cloze-group hide-if-inactive">
-  <thead>Name|Description of side of hand
+⟮h:all;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯  <thead>Name|Description of side of hand
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2388,8 +2314,7 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 ### regions
 
-<img src="body-regions-numbered.png">⟮h:all;<img src="681px-Regions_of_Human_Body.jpg">⟯<table class="cloze-group hide-if-inactive">
-  <thead>No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
+<img src="body-regions-numbered.png">⟮h:all;<img src="681px-Regions_of_Human_Body.jpg">⟯  <thead>No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;28⟯|⟮c:2;femur⟯|⟮c:2;femoral⟯|⟮c:2;thigh⟯
@@ -2404,7 +2329,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ###### map
 
 <div class="flex-container">⟮h:all;uh:15-26;<img src="sm_male_anat_repr.svg">⟯</div>
-<table class="cloze-group hide-if-inactive">
   <thead>No.|Name|Common Name
 
   </thead>
@@ -2428,7 +2352,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 ⟮c:17;14⟯|⟮c:15;scrotum⟯|⟮c:17;ballsack⟯
 
 <div class="flex-container">⟮h:all;uh:7-14;<img src="sm_penis_underside.jpg">⟯</div>
-<table class="cloze-group hide-if-inactive">
   <thead>No.|Name|Common Name
 
   </thead>
@@ -2441,7 +2364,6 @@ Thus, ⟮c:12;haferflocken⟯ = ⟮c:13;rolled oats⟯.
 
 <div class="flex-container">⟮h:all;<img src="urethra_view_side_3.jpg">⟯</div>
 
-<table class="cloze-group hide-if-inactive">
   <thead>No.|Name
 
   </thead>
@@ -2478,8 +2400,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 .answer[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer, .answers[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answers, .gia-inner-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-inner-part, .questions[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .questions, .vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part {position:relative}.gia-explainer[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-explainer {font-size:16px;font-family:'Guardian Text Sans Web';margin-top:15px}.external  .st24[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st24, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st24, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st24, .external-mobile  .st25[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st25, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st25, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st25, .internal  .st10[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st10, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st10, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st10 {font-size:40px}.external  .st23[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st23, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st23, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st23, .external-mobile  .st24[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st24, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st24, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st24, .internal  .st9[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st9, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st9, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st9, .vagina-part  span[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .vagina-part  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] span, .vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  span, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part  span {font-family:'Guardian Egyptian Web';font-weight:800}.internal  .st0[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st0, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st0, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st0 {fill:#721B2A}.internal  .st1[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st1, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st1, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st1 {fill:#BB3B9C}.internal  .st2[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st2, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st2, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st2 {fill:#FECED6}.internal  .st3[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st3, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st3, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st3 {fill:#FE5A3A}.internal  .st4[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st4, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st4, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st4 {fill:none}.internal  .st5[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st5, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st5, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st5 {fill:#FDADBA}.internal  .st6[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st6, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st6, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st6 {fill:none;stroke:#000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:12}.internal  .st7[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st7, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st7, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st7 {fill:none;stroke:#ffea00;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:14}.internal  .st8[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .internal  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st8, .internal[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st8, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .internal  .st8 {fill:#333}.external  .st0[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st0, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st0, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st0 {fill:#CB846E}.external  .st1[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st1, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st1, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st1 {fill:#CA816A}.external  .st2[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st2, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st2, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st2 {fill:#CB856F}.external  .st3[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st3, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st3, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st3 {fill:#CA836C}.external  .st4[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st4, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st4, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st4 {fill:#CD8873}.external  .st5[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st5, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st5, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st5 {fill:#CC8771}.external  .st6[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st6, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st6, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st6 {fill:#FEFEFE}.external  .st7[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st7, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st7, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st7 {fill:#BC886B}.external  .st8[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st8, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st8, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st8 {fill:#B55}.external  .st9[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st9, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st9, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st9 {fill:#F8A8A8}.external  .st10[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st10, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st10, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st10 {fill:#BB625A;stroke:#B55;stroke-miterlimit:10}.external  .st11[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st11, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st11, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st11 {fill:#BB625A}.external  .st12[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st12, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st12, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st12 {fill:#BB5756;stroke:#BB5756;stroke-miterlimit:10}.external  .st13[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st13, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st13, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st13 {fill:#B55;stroke:#B55;stroke-miterlimit:10}.external  .st14[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st14, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st14, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st14 {fill:none;stroke:#BB5756;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10}.external  .st15[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st15, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st15, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st15 {fill:#BB5756;stroke:#BB5756;stroke-linecap:round;stroke-miterlimit:10}.external  .st16[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st16, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st16, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st16 {fill:#BC886B;stroke:#B55;stroke-width:2;stroke-miterlimit:10}.external  .st17[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st17, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st17, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st17 {fill:#BB5756}.external  .st18[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st18, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st18, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st18 {fill:#BA5BB3}.external  .st19[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st19, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st19, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st19 {fill:#FA9C9C}.external  .st20[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st20, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st20, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st20 {fill:#C49D8C}.external  .st21[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st21, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st21, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st21 {fill:none;stroke:#ffea00;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:14}.external  .st22[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st22, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st22, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st22 {fill:#333}.external  .st25[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st25, .external[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st25, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external  .st25 {enable-background:new}.external-mobile  .st0[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st0, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st0, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st0 {fill:#CB846E}.external-mobile  .st1[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st1, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st1, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st1 {fill:#CA816A}.external-mobile  .st2[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st2, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st2, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st2 {fill:#CB856F}.external-mobile  .st3[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st3, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st3, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st3 {fill:#CA836C}.external-mobile  .st4[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st4, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st4, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st4 {fill:#CD8873}.external-mobile  .st5[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st5, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st5, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st5 {fill:#CC8771}.external-mobile  .st6[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st6, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st6, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st6 {fill:#FEFEFE}.external-mobile  .st7[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st7, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st7, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st7 {fill:#BC886B}.external-mobile  .st8[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st8, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st8, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st8 {fill:#B55}.external-mobile  .st9[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st9, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st9, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st9 {fill:#F8A8A8}.external-mobile  .st10[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st10, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st10, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st10 {fill:#BB625A;stroke:#B55;stroke-miterlimit:10}.external-mobile  .st11[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st11, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st11, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st11 {fill:#BB625A}.external-mobile  .st12[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st12, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st12, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st12 {fill:#BB5756;stroke:#BB5756;stroke-miterlimit:10}.external-mobile  .st13[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st13, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st13, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st13 {fill:#B55;stroke:#B55;stroke-miterlimit:10}.external-mobile  .st14[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st14, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st14, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st14 {fill:none;stroke:#BB5756;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10}.external-mobile  .st15[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st15, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st15, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st15 {fill:#BB5756;stroke:#BB5756;stroke-linecap:round;stroke-miterlimit:10}.external-mobile  .st16[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st16, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st16, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st16 {fill:#BC886B;stroke:#B55;stroke-width:2;stroke-miterlimit:10}.external-mobile  .st17[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st17, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st17, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st17 {fill:none;stroke:#BB5756;stroke-miterlimit:10}.external-mobile  .st18[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st18, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st18, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st18 {fill:#BB5756}.external-mobile  .st19[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st19, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st19, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st19 {fill:#BA5BB3}.external-mobile  .st20[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st20, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st20, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st20 {fill:#FA9C9C}.external-mobile  .st21[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st21, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st21, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st21 {fill:#C49D8C}.external-mobile  .st22[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st22, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st22, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st22 {fill:none;stroke:#ffea00;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:14}.external-mobile  .st23[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .external-mobile  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .st23, .external-mobile[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .st23, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .external-mobile  .st23 {fill:#333}.vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part {font-size:32px;text-align:left;width:100%;max-width:620px}.gia-inner-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-inner-part {line-height:1.4}.lady_parts[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .lady_parts {cursor:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/cursor.png) 15 2,pointer}.questions[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .questions {width:100%;min-height:220px;margin-top:100px}.answers[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answers {width:100%;max-width:480px;margin:0 auto;z-index:999;pointer-events:none;top:10%}.answer[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer {-webkit-transition:all: .2s}.answer-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer-text {line-height:1.2}.answer-text  .reply[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .answer-text  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .reply, .answer-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .reply, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer-text  .reply {font-family:'Guardian Egyptian Web',Georgia,serif;font-weight:800;font-size:32px}.answer-text  .kicker[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .answer-text  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .kicker, .answer-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .kicker, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer-text  .kicker {font-family:'Guardian Text Sans Web',Arial,serif;font-size:24px;font-weight:400;margin:0 auto}.anno-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .anno-text {font-family:'Guardian Egyptian Web';font-weight:800;font-size:60px}.gia-btn[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-btn, .share-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text {font-family:'Guardian Text Sans Web';font-size:21px}.annotation[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .annotation {display:none}.anno-show[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .anno-show, .show-all[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .show-all {display:block}.next-question-overlay[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .next-question-overlay {position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(255,255,255,.4);pointer-events:all}.gia-btn[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-btn {background-color:#aad8f1;border-radius:32px;width:120px;text-align:center;height:1em;line-height:1;cursor:pointer;z-index:999;padding:12px 18px;border:2px solid #222}.next-question-outer[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .next-question-outer {position:absolute;top:50%;left:50%;width:0;height:0}.gia-split[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-split, .svg-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper, svg[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] svg {width:100%}.next-question[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .next-question {position:absolute;left:0;top:0;transform:translate(-50%,-50%);z-index:99999}.svg-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper {height:0;padding-bottom:90%;margin:0 auto;z-index:998;position:relative}.svg-wrapper.mobile-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper.mobile-wrapper {padding-bottom:120%}svg[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] svg {height:100%;position:absolute;top:0}.answer[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer, .vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part {transition:all .25s}.split-screen[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .split-screen {width:100%;margin:25px 0 0}.split-screen[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]:after, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .split-screen:after, .split-screen[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]:before, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .split-screen:before {content:" ";display:table}.split-screen[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]:after, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .split-screen:after {clear:both}.share-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text {font-weight:400}.share-text.bottom[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text.bottom {padding:50px 0 20px;font-size:16px}.share-text  .watch[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .share-text  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .watch, .share-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .watch, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text  .watch {width:30px;height:30px;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/video.svg);background-repeat:no-repeat;background-size:100%;display:inline-block;position:relative;top:7px;margin-right:8px}.share-text  a[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .share-text  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] a, .share-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  a, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text  a {color:#333;text-decoration:underline}.share-text.bottom  a[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .share-text.bottom  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] a, .share-text.bottom[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  a, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text.bottom  a {color:#fff}.mobile-next-btn[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .mobile-next-btn {position:absolute;left:50%;top:300px;pointer-events:none}@media screen and (min-width:620px){.vagina-part  .answer-text  .reply[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], .vagina-part  .answer-text  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .reply, .vagina-part  .answer-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .reply, .vagina-part  [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answer-text  .reply, .vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"]  .answer-text  .reply, [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part  .answer-text  .reply {font-size:46px}.gia-split[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .gia-split {width:50%;float:left;padding:0}.share-text.bottom[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text.bottom {text-align:center;width:100%}.svg-wrapper.mobile-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper.mobile-wrapper {padding-bottom:80%}.answers[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .answers, .vagina-part[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .vagina-part {position:absolute;top:10%;left:calc(50% - 310px)}.questions[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .questions {margin-top:0}.svg-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper {width:80%;padding-bottom:85%;position:relative}.svg-wrapper.internal-wrapper[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .svg-wrapper.internal-wrapper {width:100%}.anno-text[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .anno-text {font-size:40px}.share-text.bottom[data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"], [data-ractive-css~="{38e3366f-64aa-f653-4c36-c74609f7e06b}"] .share-text.bottom {font-size:21px}}
 
 /* {9a8ae27e-9b05-a29a-ecc3-1007ebbb0610} */
-.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after {clear:both}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {font-weight:800;font-family:'Guardian Egyptian Web',Georgia,serif}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {position:absolute;bottom:-65px}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {position:relative}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share {display:inline-block;width:40px;height:41px;background:center no-repeat #aad8f1;background-size:50%;border-radius:50%;margin:0;cursor:pointer;top:12px;border:2px solid #333}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-repeat:no-repeat;cursor:pointer}.gia-share.facebook[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.facebook {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/facebook.svg);background-size:25%}.gia-share.twitter[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.twitter {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/twitter.svg)}.gia-subhead  a[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .gia-subhead  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] a, .gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  a, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead  a {color:#fff;text-decoration:underline}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {padding:10px 20px 100px;max-width:960px;background-color:#abafe6;margin:0 auto;height:100%}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:before {content:" ";display:table}.series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VaginaDispatchesLogo-long.svg);background-size:100%;max-width:320px;width:100%;height:50px}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:46px;transition:all .35s;transition:all .15s;line-height:1.2;border-bottom:5px solid #333;max-width:740px;margin:0 auto;text-align:left}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {max-width:620px;font-size:21px;text-align:left;margin:100px auto 50px}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {position:relative;width:100%}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {display:block;max-width:780px;height:auto;margin:0 auto}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::before {content:" ";display:table}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:280px;height:280px;border-radius:50%;font-size:36px;margin:25px auto;display:block;background-color:#aad8f1}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span, small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {position:absolute}.quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span {top:calc((300px - 70px)/ 2);left:calc((300px - 210px)/ 2);background-color:#333;color:#fff;padding:10px}.vagina-inner[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-inner {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vagina-interior.svg);background-size:85%;background-position:26px 60px}.vagina-outer[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-outer {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vulva.png);background-size:125%;background-position:-28px 42px}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {background-size:100%;width:400px;height:400px;left:0;top:0;opacity:0;display:none;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/burst-blue.svg)}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:hover, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst:hover {opacity:1;transition:opacity .5s}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:2px solid #333;font-size:16px;color:#333;max-width:740px;margin:20px auto;transition:visibility .1s;-webkit-transition:visibility .1s;-moz-transition:visibility .1s;padding-top:10px}small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {font-size:12px;font-family:'Guardian Text Sans Web',serif;left:calc(50% - 20px);bottom:5px;font-weight:400}@media screen and (min-width:670px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins {position:relative;height:100%}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {content:'';position:absolute;z-index:1;background:rgba(51,51,51,.05);background:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VD_rail_purple.png),#abafe6;background-repeat:repeat;top:0;height:100%;width:0}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:72px}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {font-size:24px;margin:50px auto}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {float:left;width:50%}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:300px;height:300px;display:inline-block}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {display:block}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {float:right;top:-25px;position:relative;bottom:auto}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:1100px}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:0}}@media screen and (min-width:740px){.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {margin:50px}}@media (min-width:980px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {left:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after {right:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {width:calc((100% - 980px)/ 2)}}@media screen and (min-height:1100px){.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:100vh}}</style><br/><table class="cloze-group hide-if-inactive">
-  <thead>No.|Name
+.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after {clear:both}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {font-weight:800;font-family:'Guardian Egyptian Web',Georgia,serif}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {position:absolute;bottom:-65px}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {position:relative}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share {display:inline-block;width:40px;height:41px;background:center no-repeat #aad8f1;background-size:50%;border-radius:50%;margin:0;cursor:pointer;top:12px;border:2px solid #333}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-repeat:no-repeat;cursor:pointer}.gia-share.facebook[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.facebook {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/facebook.svg);background-size:25%}.gia-share.twitter[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.twitter {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/twitter.svg)}.gia-subhead  a[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .gia-subhead  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] a, .gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  a, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead  a {color:#fff;text-decoration:underline}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {padding:10px 20px 100px;max-width:960px;background-color:#abafe6;margin:0 auto;height:100%}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:before {content:" ";display:table}.series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VaginaDispatchesLogo-long.svg);background-size:100%;max-width:320px;width:100%;height:50px}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:46px;transition:all .35s;transition:all .15s;line-height:1.2;border-bottom:5px solid #333;max-width:740px;margin:0 auto;text-align:left}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {max-width:620px;font-size:21px;text-align:left;margin:100px auto 50px}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {position:relative;width:100%}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {display:block;max-width:780px;height:auto;margin:0 auto}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::before {content:" ";display:table}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:280px;height:280px;border-radius:50%;font-size:36px;margin:25px auto;display:block;background-color:#aad8f1}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span, small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {position:absolute}.quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span {top:calc((300px - 70px)/ 2);left:calc((300px - 210px)/ 2);background-color:#333;color:#fff;padding:10px}.vagina-inner[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-inner {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vagina-interior.svg);background-size:85%;background-position:26px 60px}.vagina-outer[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-outer {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vulva.png);background-size:125%;background-position:-28px 42px}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {background-size:100%;width:400px;height:400px;left:0;top:0;opacity:0;display:none;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/burst-blue.svg)}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:hover, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst:hover {opacity:1;transition:opacity .5s}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:2px solid #333;font-size:16px;color:#333;max-width:740px;margin:20px auto;transition:visibility .1s;-webkit-transition:visibility .1s;-moz-transition:visibility .1s;padding-top:10px}small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {font-size:12px;font-family:'Guardian Text Sans Web',serif;left:calc(50% - 20px);bottom:5px;font-weight:400}@media screen and (min-width:670px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins {position:relative;height:100%}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {content:'';position:absolute;z-index:1;background:rgba(51,51,51,.05);background:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VD_rail_purple.png),#abafe6;background-repeat:repeat;top:0;height:100%;width:0}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:72px}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {font-size:24px;margin:50px auto}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {float:left;width:50%}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:300px;height:300px;display:inline-block}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {display:block}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {float:right;top:-25px;position:relative;bottom:auto}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:1100px}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:0}}@media screen and (min-width:740px){.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {margin:50px}}@media (min-width:980px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {left:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after {right:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {width:calc((100% - 980px)/ 2)}}@media screen and (min-height:1100px){.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:100vh}}</style><br/>  <thead>No.|Name
 
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2504,8 +2425,7 @@ If you f⟮c:17;ind  something unusal⟯ during testicular self-examination, ⟮
 /* {9a8ae27e-9b05-a29a-ecc3-1007ebbb0610} */
 .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after {clear:both}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {font-weight:800;font-family:'Guardian Egyptian Web',Georgia,serif}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {position:absolute;bottom:-65px}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share, .gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {position:relative}.gia-share[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share {display:inline-block;width:40px;height:41px;background:center no-repeat #aad8f1;background-size:50%;border-radius:50%;margin:0;cursor:pointer;top:12px;border:2px solid #333}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette, .series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-repeat:no-repeat;cursor:pointer}.gia-share.facebook[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.facebook {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/facebook.svg);background-size:25%}.gia-share.twitter[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share.twitter {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/twitter.svg)}.gia-subhead  a[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .gia-subhead  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] a, .gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  a, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead  a {color:#fff;text-decoration:underline}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {padding:10px 20px 100px;max-width:960px;background-color:#abafe6;margin:0 auto;height:100%}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:after, .gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper:before {content:" ";display:table}.series-logo[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .series-logo {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VaginaDispatchesLogo-long.svg);background-size:100%;max-width:320px;width:100%;height:50px}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:46px;transition:all .35s;transition:all .15s;line-height:1.2;border-bottom:5px solid #333;max-width:740px;margin:0 auto;text-align:left}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {max-width:620px;font-size:21px;text-align:left;margin:100px auto 50px}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {position:relative;width:100%}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes {display:block;max-width:780px;height:auto;margin:0 auto}.quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::after, .quizlettes[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]::before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlettes::before {content:" ";display:table}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:280px;height:280px;border-radius:50%;font-size:36px;margin:25px auto;display:block;background-color:#aad8f1}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst, .quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span, small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {position:absolute}.quizlette  span[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], .quizlette  [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] span, .quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]  span, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette  span {top:calc((300px - 70px)/ 2);left:calc((300px - 210px)/ 2);background-color:#333;color:#fff;padding:10px}.vagina-inner[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-inner {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vagina-interior.svg);background-size:85%;background-position:26px 60px}.vagina-outer[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .vagina-outer {background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/vulva.png);background-size:125%;background-position:-28px 42px}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {background-size:100%;width:400px;height:400px;left:0;top:0;opacity:0;display:none;background-image:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/burst-blue.svg)}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:hover, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst:hover {opacity:1;transition:opacity .5s}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:2px solid #333;font-size:16px;color:#333;max-width:740px;margin:20px auto;transition:visibility .1s;-webkit-transition:visibility .1s;-moz-transition:visibility .1s;padding-top:10px}small[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] small {font-size:12px;font-family:'Guardian Text Sans Web',serif;left:calc(50% - 20px);bottom:5px;font-weight:400}@media screen and (min-width:670px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins {position:relative;height:100%}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {content:'';position:absolute;z-index:1;background:rgba(51,51,51,.05);background:url(https://interactive.guim.co.uk/2016/09/know-your-vag/v/1474671976052/files/images/VD_rail_purple.png),#abafe6;background-repeat:repeat;top:0;height:100%;width:0}.gia-title[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-title {font-size:72px}.gia-subhead[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-subhead {font-size:24px;margin:50px auto}.quizlette-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette-wrapper {float:left;width:50%}.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {width:300px;height:300px;display:inline-block}.burst[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .burst {display:block}.gia-share-section[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-share-section {float:right;top:-25px;position:relative;bottom:auto}.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:1100px}.gia-byline[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-byline {border-top:0}}@media screen and (min-width:740px){.quizlette[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .quizlette {margin:50px}}@media (min-width:980px){.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {left:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after {right:0}.side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:after, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:after, .side-margins[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"]:before, [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .side-margins:before {width:calc((100% - 980px)/ 2)}}@media screen and (min-height:1100px){.gia-wrapper[data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"], [data-ractive-css~="{9a8ae27e-9b05-a29a-ecc3-1007ebbb0610}"] .gia-wrapper {height:100vh}}</style>
   
-  <table class="cloze-group hide-if-inactive">
-  <thead>No.|Name
+    <thead>No.|Name
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2532,12 +2452,10 @@ It is theoretically possible to recieve a pearl index of ⟮c:12;1200⟯ if ⟮c
 ⟮c:16;Pearl indices⟯ ⟮c:17;vary⟯ based on ⟮c:18;the culture/demographics⟯ of the people being studied, and ⟮c:19;the method of instruction⟯. 
 More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregnant first⟯, and since ⟮c:22;people will get better at using a contraceptive method as time goes on⟯, ⟮c:24;the longer⟯ ⟮c:23;a study runs⟯, ⟮c:24;the lower⟯ ⟮c:23;its reported Pearl index will be⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:10;Typical-use pearl index⟯|⟮c:12;pearl index including occasional mistakes etc.⟯
 ⟮c:11;perfect-use pearl index⟯|⟮c:13;pearl index under ideal usage⟯
 
-<table class="cloze-group hide-if-inactive">
   <thead>Method of birth control|Perfect-use pearl index|Typical-use pearl index
 
   </thead>
@@ -2553,8 +2471,7 @@ More seriously, since ⟮c:20;the most fertile couples⟯ will ⟮c:21;get pregn
 
 ###### diagram
 
-<img src="Schematic_diagram_of_the_human_eye.svg"><br><table class="cloze-group hide-if-inactive">
-  <thead>No.|Name
+<img src="Schematic_diagram_of_the_human_eye.svg"><br>  <thead>No.|Name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1⟯|⟮c:2;lens⟯
@@ -2615,7 +2532,6 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 
 ###### turnedness
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|definition|example image
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2623,7 +2539,6 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 ⟮c:4;downturned eyes⟯|⟮c:5;s:6;the outer corner is at the same height as the inner corner, or lower⟯|⟮c:6;h:5;<img src="sm_Screenshot%202020-07-27%20at%2015.11.17.png">⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|definition|example image
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2639,7 +2554,6 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 
 ###### eyelids
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|examples
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2648,7 +2562,6 @@ The ⟮c:28;lens⟯ is ⟮c:29;held in place by⟯ ⟮c:30;the suspensory ligame
 ⟮c:11;eyelid space⟯|⟮c:12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|definition|examples
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2666,7 +2579,6 @@ Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid spac
 The ⟮c:7;deep-set ... protruding⟯ eyes continuum refers to how ⟮c:8;far back or front⟯ your eye is in relation to ⟮c:9;your cheek bones and browbones⟯. 
 To test for ⟮c:10;deep-set eyes⟯ l⟮c:11;ay your fingers⟯ ⟮c:12;rigidly⟯ on the eye from ⟮c:13;brow⟯ to ⟮c:13;cheekbone⟯, if ⟮c:14;your hand touches your lid⟯, ⟮c:15;they are not deep-set⟯ 
 I have relatively ⟮c:16;deep-set::deep-set...protruding spectrum⟯ eyes 
-<table class="cloze-group hide-if-inactive">
   <thead>type of eye|image
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2686,7 +2598,6 @@ The ⟮c:9;larger⟯ area ⟮c:10;around the fovea⟯ is ⟮c:11;the macula⟯
 Our eyes have two kinds of ⟮c:7;photoreceptor cells⟯, ⟮c:8;rods⟯ and ⟮c:9;cones⟯. 
 ⟮c:30; All photoreceptor cells, i.e. cones and rods,⟯ lie in ⟮c:31;the retina⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>name|can see|occur where
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2703,8 +2614,6 @@ We can see something like ⟮c:24;1-10 million⟯ ⟮c:25;different colors⟯, t
 ###### movement
 
 humans ⟮c:7;look at a scene⟯ in ⟮c:8;saccades⟯ and ⟮c:9;fixations⟯ to ⟮c:10;build up an image⟯ 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Fixation⟯|⟮c:2;Maintaining the gaze on a single location⟯
 ⟮c:3;A saccade⟯|⟮c:4;Quick movement between fixations⟯
@@ -2717,7 +2626,6 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
 ###### FOV
 
 ⟮h:all;<img src="sm_220px-Vertical_FOV.svg.png">⟯
-<table class="cloze-group hide-if-inactive">
   <thead>FOV|deg
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2731,8 +2639,7 @@ If our eye fails at ⟮c:15;doing smooth pursuit eye movements⟯, it needs to d
 
 ##### diagram
 
-<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png"><br/><table class="cloze-group hide-if-inactive">
-  <thead>No. in diagram|Name
+<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png"><br/>  <thead>No. in diagram|Name
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;5⟯|⟮c:2;Appendix⟯
@@ -2760,7 +2667,6 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 ##### pressure
 
 <span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br>⟮c:14;blood pressure⟯ is measured in ⟮c:15;mm Hg⟯ 
-<table class="cloze-group hide-if-inactive">
   <thead>name|definition|compares how to the other one|ideal value|which one in the image?
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2768,8 +2674,6 @@ If ⟮c:50;appendicitis is left untreated⟯, ⟮c:51;the appendix may burst⟯,
 ⟮c:16;c:32;diastolic pressure⟯|⟮c:17;s:all;blood pressure when your heart is between heartbeats⟯|⟮c:18;s:all;lower (than systolic⟯)|⟮c:19;s:all;less than 80mm Hg⟯|⟮c:20;s:all;71⟯
 ⟮c:21;c:31;systolic pressure⟯|⟮c:22;s:all;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c:23;s:all;higher (than diastolic⟯)|⟮c:24;s:all;Less than 120mm HG⟯|⟮c:25;s:all;122⟯
 
-
-<table class="cloze-group hide-if-inactive">
 
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:26;Hypotension⟯|⟮c:27;Low blood pressure⟯|⟮c:28;less than 90 mm hg systolic / 60 mm hg diastolic⟯
@@ -2819,7 +2723,6 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 #### types of movement
 
-<table class="cloze-group hide-if-inactive">
         <thead>Image|Name of movement
 </thead>
         <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2833,8 +2736,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 ##### body
 
-<img src="muscle-anatomy-quiz.png"><br><table class="cloze-group hide-if-inactive">
-  <thead>No. in diagram|Name
+<img src="muscle-anatomy-quiz.png"><br>  <thead>No. in diagram|Name
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;3⟯|⟮c:2;Deltoids⟯
@@ -2845,7 +2747,6 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 <img src="sm_muscles_back.jpg">
 
-<table class="cloze-group hide-if-inactive">
   <thead>No.|Name
 
   </thead>
@@ -2857,8 +2758,7 @@ On average, the risk of experiencing a ⟮c:11;pulmonary embolism⟯ is ⟮c:12;
 
 #### spine
 
-<img class="all-b fullsize-image" src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg"><br/><table class="cloze-group hide-if-inactive">
-  <thead>No. in diagram|Name
+<img class="all-b fullsize-image" src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg"><br/>  <thead>No. in diagram|Name
 
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;3⟯|⟮c:2;Lumbar spine⟯
@@ -2896,8 +2796,7 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 #### pelvic tilt
 
 ⟮h:all;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
-<br/><table class="cloze-group hide-if-inactive">
-  <thead>Bodypart|APT symptom
+<br/>  <thead>Bodypart|APT symptom
 
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2906,7 +2805,6 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 ⟮c:3;spine⟯|⟮c:6;excessively arched⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <tbody>span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
 ⟮c:7;neutral pelvis⟯|⟮c:8;anterior pelvic tilt⟯|⟮c:9;posterior pelvic tilt⟯
 
@@ -2914,7 +2812,6 @@ In your ⟮c:10;torso⟯, ⟮c:11;dermatomes⟯ run ⟮c:12;horizontally⟯.
 An ⟮c:19;'ideal' pelvic tilt⟯ is ⟮c:20;very slightly anterior (5° or so⟯) 
 When ⟮c:21;sitting⟯ or ⟮c:21;standing⟯ with ⟮c:22;APT⟯, ⟮c:23;engage⟯ the ⟮c:24;glutes⟯ and the ⟮c:24;core⟯. You can test this by ⟮c:25;poking yourself with a finger.⟯ 
 When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying to ⟮c:27;distribute some of the laod to your abs and glutes.⟯ 
-<table class="cloze-group hide-if-inactive">
   <thead>Status</th>
       <th colspan="3">Affected muscles|action
 
@@ -2935,7 +2832,6 @@ When ⟮c:26;combatting APT by engaging your glutes and core⟯, you are trying 
 ⟮c:9;Intersex⟯ people are have ⟮c:10;a range of different variations⟯ that "⟮c:11;do not fit the typical definitions for male or female bodies⟯" 
 ⟮c:5;Depending on how you count⟯, ⟮c:6;0.02⟯% - ⟮c:7;2⟯% of people are ⟮c:8;intersex⟯ 
 
-<table class="cloze-group hide-if-inactive">
   <thead>sex (and species)|sex chromosomes
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2970,7 +2866,6 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
 
 ### ICD-10 codes
 
-<table class="cloze-group hide-if-inactive">
   <thead>Thingy|ICD-10 Code
 
   </thead>
@@ -2981,7 +2876,6 @@ The ⟮c:5;founder effect⟯ occurs due to ⟮c:6;the reduced genetic diversity�
 
 ⟮h:all;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between {{c6::signs}} and {{c6::symptoms}} is  {{c5::how they are perceptible}} 
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;sign⟯|⟮c:2;observable to others (not just the patient⟯)
 ⟮c:3;symptom⟯|⟮c:4;observable to the patent only⟯
 
@@ -3115,7 +3009,6 @@ Using ⟮c:4;oil⟯ during a massage makes it ⟮c:5;glide more easily⟯, if yo
 
 ⟮h:1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h:all;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h:all;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h:all;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯§§ ⟮c:9;Tapotement⟯ is massage with about ⟮c:10;3-10 strokes per second⟯ performed ⟮c:11;rythmically⟯ §<br>
 What you do during ⟮c:9;tapotement⟯ depends on ⟮c:12;what variety you are using⟯ 
-<table class="cloze-group hide-if-inactive">
   <thead>Name of tapotement|Side of hand|the hand is...|the wrist is⟮h:all;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
 The ⟮c:1;anterior chamber of the eyeball⟯ lies ⟮c:2;between⟯ ⟮c:3;the cornea⟯ and ⟮c:4;the iris/pupil⟯ 
@@ -3161,7 +3054,6 @@ In ⟮c:15;myofascial release/trigger point therapy⟯, you ⟮c:16;compress a t
 ### demons
 
 ⟮c:2;concubi⟯ are ⟮c:3;demons⟯ that are ⟮c:1;very sexual⟯. 
-<table class="cloze-group hide-if-inactive">
   <thead>gender|name|meaning of initial morpheme
 </thead>
  <tbody class="cloze-group-children hide-if-inactive-children">⟮c:8;Male⟯|⟮c:9;Incubus⟯|⟮c:10;s:all;In = on/in⟯
@@ -3179,7 +3071,6 @@ the alternative to ⟮c:8;SSC⟯ is ⟮c:9;RACK (risk-aware consensual kink⟯)
 
 ## sexual roles
 
-<table class="cloze-group hide-if-inactive">
   <thead>Name|Description|Notes
 
   </thead>
@@ -3221,8 +3112,7 @@ In general, as of 2021, it seems that more "⟮c:1;masc⟯" gay identities are �
 
 ## crushes
 
-Types of crushes<br/><table class="cloze-group hide-if-inactive">
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Types of crushes<br/>  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Friend crush⟯|⟮c:2;Wanting to be someone's friend very badly⟯
 ⟮c:3;Smush⟯|⟮c:4;Sexual crush⟯
 ⟮c:5;Squish⟯|⟮c:6;Non-romantic/platonic crush⟯
@@ -3234,13 +3124,11 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 
 ### identities
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;asexual⟯|⟮c:2;not experiencing sexual attraction⟯ or <span class="c3-cloze c1-scr">asexual spectrum</span>
 ⟮c:4;allosexual⟯|⟮c:5;experiencing sexual attraction ⟯
 ⟮c:6;asexual spectrum⟯|⟮c:7;spectrum of identities⟯ that ⟮c:8;experience sexual attraction⟯ ⟮c:9;more simiarly to asexual than to allosexual people⟯
 ⟮c:10;grey(a)sexual⟯|⟮c:11;any identity on the asexual spectrum⟯ that ⟮c:12;isn't fully asexual⟯, or ⟮c:13;an identity inbetween asexuality and allosexuality⟯
 
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:14;aromantic⟯|⟮c:15;not experiencing romantic attraction⟯ or <span class="c16-cloze c14-scr">aromantic spectrum</span>
 ⟮c:17;alloromantic⟯|⟮c:18;experiencing romantic attraction ⟯
 ⟮c:19;aromantic spectrum⟯|⟮c:20;spectrum of identities⟯ that ⟮c:21;experience romantic attraction⟯ ⟮c:22;more simiarly to aromantic than to alloromantic people⟯
@@ -3248,7 +3136,6 @@ Types of crushes<br/><table class="cloze-group hide-if-inactive">
 
 <p> ⟮c:27;ace-spec⟯ + ⟮c:27;aro-spec⟯ = ⟮c:28;a-spec⟯
 </p>
-<table class="cloze-group hide-if-inactive">
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:29;fictosexual/romantic⟯|⟮c:30;sexual/romantic attraction⟯ to ⟮c:31;fictional characters⟯ ⟮c:32;exclusively⟯ or ⟮c:33;differently to one's normal sexual/romantic attraction⟯. May or may not be ⟮c:34;considered to be on the ace/aro-spec  (respectively⟯)
 ⟮c:35;lithosexual/romantic⟯|⟮c:36;sexual/romantic attraction⟯ ⟮c:37;only if not reciprocated⟯. Generally considered to be ⟮c:38;ace/aro-spec⟯
 
@@ -3272,7 +3159,6 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 
 ## abbreviations
 
-<table class="cloze-group hide-if-inactive">
   <thead>Abbreviation|Long
 
   </thead>
@@ -3293,7 +3179,6 @@ As of 2021, mainstream society sees ⟮c:5;the relationship escalator⟯ as ⟮c
 
 ## flags
 
-<table>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;<img src="Transgender_Pride_flag.svg">⟯|⟮c:2;The transgender pride flag⟯
 
@@ -3343,7 +3228,6 @@ By ⟮c:9;transforming⟯ ⟮c:10;lone wolves⟯ ⟮c:9;into⟯ ⟮c:10;instance
 ### isms
 
 
-<table>
   <thead>ism||additional constraints
 
   </thead>
@@ -3388,7 +3272,6 @@ Kate Manne, Down Girl: ⟮c:5;Patriarchy⟯ is ⟮c:8;the power structure⟯ tha
 
 x normativity normalizes the + of the relevant ism
 
-<table class="cloze-group hide-if-inactive">
   <thead>Normativity|Normalizes
 
   </thead>
@@ -3404,7 +3287,6 @@ x normativity normalizes the + of the relevant ism
 
 #### phobia
 
-<table class="cloze-group hide-if-inactive">
   <thead>phobia|against|aspect of ism
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -3519,7 +3401,6 @@ Mark Fisher coined the term "⟮c:1;a boring dystopia⟯" to describe the situat
 On ⟮c:29;the model of⟯ emotion work/emotional labor, other ⟮c:30;more or less common terms have been coined⟯. 
 While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al labor⟯ as ⟮c:32;synonyms⟯, there is ⟮c:32;a clear distinction⟯. 
 
-<table class="cloze-group hide-if-inactive">
   <thead>|value|example
 
   </thead>
@@ -3527,7 +3408,6 @@ While ⟮c:33;some people⟯ treat ⟮c:31;emotion/x work and emotional/x-al lab
 ⟮c:19;x-al labor, e.g. emotional labor⟯|⟮c:20;use value and exchange value⟯|⟮c:21;s:19-20;in an intimate relationship⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>type of work/labor|involves|example
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -3553,7 +3433,6 @@ the ⟮c:1;application of computational technologies/digital resources⟯ in ⟮
 
 ## year of study
 
-<table class="cloze-group hide-if-inactive">
   <thead>Year of study|Name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -3719,7 +3598,6 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 #### types
 
-<table class="cloze-group hide-if-inactive">
   <thead>Name1|Name2|Stores what?
 
   </thead>
@@ -3731,7 +3609,6 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 ##### letters and numbers
 
-<table class="cloze-group hide-if-inactive">
   <thead>Digit|Letter
 
   </thead>
@@ -3752,7 +3629,6 @@ We currently ⟮c:1;don't known much about (or it's very controversial⟯)&nbsp;
 
 ##### 1-100
 
-<table class="cloze-group hide-if-inactive">
   <thead>P|A|O|Number|Mnemonics
 
   </thead>
@@ -3885,7 +3761,6 @@ The fact that ⟮c:27;eye movement can be controlled during REM sleep⟯ allows 
 
 the time that ⟮c:33;<b>intentional</b> behaviour takes⟯&nbsp;in ⟮c:30;dreams⟯ is ⟮c:32;about the same⟯ as in ⟮c:31;RL⟯ 
 
-<table class="cloze-group hide-if-inactive">
   <thead>
     <tr><th colspan="3">Testing if one is dreaming
 Activity|How to check?|Positive result if
@@ -4065,7 +3940,6 @@ In general, ⟮c:24;synthesis⟯ produces ⟮c:25;more complex compounds⟯ as �
 
 ######## brandklassen
 
-<table class="cloze-group hide-if-inactive">
   <thead>Brandklasse|Wofür?
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -4126,7 +4000,6 @@ a ⟮c:5;functional group⟯ is a part of a ⟮c:6;molecule⟯ that causes the �
 
 ##### chemical symbols
 
-<table class="cloze-group hide-if-inactive">
   <thead>
       Chemical Symbol
     |
@@ -4151,7 +4024,6 @@ The ⟮c:4;noble gases⟯ ⟮c:3;outer shell of valence electrons⟯ is consider
 an ⟮c:3;electron shell⟯ may be thought of as ⟮c:4;an orbit⟯ of ⟮c:1;electrons⟯ ⟮c:4;around⟯ an atom's ⟮c:2;nucleus⟯.
 Each ⟮c:4;shell⟯ is composed of one or more ⟮c:5;subshells⟯, which are themselves composed of ⟮c:6;atomic orbitals⟯. 
 <br>
-<table class="cloze-group hide-if-inactive">
   <thead>Shell Number|Shell Letter
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c7;1⟯|⟮c8;K⟯
@@ -4161,7 +4033,6 @@ etc...|etc...
 
 The ⟮c:13;closer the shell to the nucleus⟯, the ⟮c:14; smaller its number / earlier to the alphabet its letter⟯
 §§the ⟮c:16;nth⟯ ⟮c:15;shell⟯ can in principle hold up to ⟮c:17;2(n<sup>2</sup>⟯) electrons.§<br><br>
-<table class="cloze-group hide-if-inactive">
   <thead>Shell|Can hold this many electrons
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c18;1 / K⟯|⟮c19;2⟯
@@ -4206,8 +4077,6 @@ The ⟮c:3;gap between the two pieces of paper⟯ is ⟮c:4;the shear line⟯, a
 <img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/>Everything else in a ⟮c:7;cylinder lock⟯ is ⟮c:8;contained in⟯ ⟮c:9;the cylinder(shell/casing/housing/body) ⟯ 
 If we were to ⟮c:10;cut apart an average door in europe or the US⟯ and ⟮c:11;take the locking mechanism out⟯, we would be seeing ⟮c:12;the cylinder (shell/casing/housing/body⟯). 
 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;The keyway⟯|⟮c:2;the slit into which the key is inserted⟯|⟮c:3;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯
 ⟮c:4;The shoulder of a key⟯|⟮c:5;what prevents it from being inserted too far⟯|⟮c:6;<img src="sm_schlage-lock-diagram4.jpg">⟯
@@ -4222,8 +4091,7 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 
 ## image labelling
 
-<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png"><br><table class="cloze-group hide-if-inactive">
-  <thead>thing in the image|name
+<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png"><br>  <thead>thing in the image|name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;the blue and red things⟯|⟮c:12;the pins⟯
@@ -4231,14 +4099,11 @@ The ⟮c:13;cylinder⟯ of a lock is also called ⟮c:14;shell/housing/casing/bo
 ⟮c:9;the red pins⟯|⟮c:10;the key pins⟯
 
 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:15;the plug⟯|⟮c:16;yellow in the image⟯
 ⟮c:17;the casing⟯|⟮c:18;green in the image⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>current status|pin
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -4276,8 +4141,6 @@ To ⟮c:21;prevent any old key to be used to open a lock⟯, ⟮c:22;the key pin
 If you ⟮c:23;insert the wrong key into a lock⟯, the lock will not open because ⟮c:24;gaps between pins not in line with shear line⟯ 
 The part of the lock that we are exploiting to pick is ⟮c:25;the shear line⟯ 
 The thing that ⟮c:26;keeps the pins down in a lock⟯ are ⟮c:27;the springs⟯. 
-<table class="cloze-group hide-if-inactive">
-
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c:29;Locked⟯
 ⟮c:30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c:31;unlocked with a key⟯
@@ -4309,9 +4172,7 @@ Compared to ⟮c:38;non-binding pins⟯, if we push on ⟮c:38;the binding pin�
 T⟮c:40;o set the binding pin⟯, we ⟮c:41;push on the pin⟯ until ⟮c:42;we reach the shear line⟯. 
 Once ⟮c:43;you've pushed the binding pin to the shear line⟯, if ⟮c:44;you've set the pin⟯, ⟮c:45;the driver pin will catch⟯ and t⟮c:46;he key pin will fall into the plug⟯. 
 Once ⟮c:47;you've pushed the binding pin to the shear line⟯, if y⟮c:48;ou've set the pin⟯, you probably hear ⟮c:49;a slight click⟯ or feel ⟮c:50;a slight rotation⟯. 
-§§ However, it is also possible to §<br><table class="cloze-group hide-if-inactive">
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
+§§ However, it is also possible to §<br>  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;push the binding pin in too far⟯|⟮c:2;overset⟯|⟮c:3;<img src="sm_overset_1130.jpg">⟯
 ⟮c:4;not push the binding pin in far enough⟯|⟮c:5;underset⟯|⟮c:6;<img src="sm_underset_1130.jpg">⟯
 
@@ -4440,7 +4301,6 @@ Double Coin Knot
 # Spanish
 
 There are a number of verbs that ⟮c:12;stem-change⟯ in the ⟮c:13;preterite⟯. they all take the following endings 
-<table class="cloze-group hide-if-inactive">
   <tbody>-e
 -iste
 -o
@@ -4450,7 +4310,6 @@ There are a number of verbs that ⟮c:12;stem-change⟯ in the ⟮c:13;preterite
 
 </tbody></table>
 and change like this: 
-<table class="cloze-group hide-if-inactive">
   <thead>Infinitive|Stem Change
 
   </thead>
@@ -4467,8 +4326,7 @@ querer|⟮c:10;quis-⟯
 venir|⟮c:11;vin-⟯
 
 
-Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
- <thead>Numeral|Ordinal number
+Spanish ordinal numbers<br/> <thead>Numeral|Ordinal number
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1st⟯|⟮c:2;primero/-a⟯
@@ -4483,7 +4341,6 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 ⟮c:19;10th⟯|⟮c:20;décimo/-a⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Numeral|Ordinal number
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -4497,7 +4354,6 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 ⟮c:36;90<sup>th</sup>⟯|⟮c:37;nonagésimo⟯
 
 
-<table class="cloze-group hide-if-inactive">
   <thead>Numeral|Ordinal number
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -4514,15 +4370,12 @@ Spanish ordinal numbers<br/><table class="cloze-group hide-if-inactive">
 
 
 
-Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:all;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:all;<img src="sm_200w.webp">⟯<table class="cloze-group hide-if-inactive">
-
-  <tbody class="cloze-group-children hide-if-inactive-children">
+Spanish noun gender mnemonics<br/>⟮h:all;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h:all;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h:all;<img src="sm_200w.webp">⟯  <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;In spanish, female nouns ⟯|⟮c:2; melt!⟯
 ⟮c:3;In spanish, male nouns ⟯|⟮c:4; sao-shatter⟯
 
 
-Spanish months<br/><table class="cloze-group hide-if-inactive">
-  <thead>month|name
+Spanish months<br/>  <thead>month|name
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;01⟯|⟮c:2;enero⟯
@@ -4540,76 +4393,66 @@ Spanish months<br/><table class="cloze-group hide-if-inactive">
 
 
 Preterite of ser
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;fui⟯|⟮c:4;fuimos⟯
 ⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯
 ⟮c:3;fue⟯|⟮c:6;fueron⟯
 
 
 Preterite of ir
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;fui⟯|⟮c:4;fuimos⟯
 ⟮c:2;fuiste⟯|⟮c:5;fuisteis⟯
 ⟮c:3;fue⟯|⟮c:6;fueron⟯
 
 
-Preterite of dar<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+Preterite of dar<br/><tbody>
 ⟮c:1;di⟯|⟮c:4;dimos⟯
 ⟮c:2;diste⟯|⟮c:5;disteis⟯
 ⟮c:3;dio⟯|⟮c:6;dieron⟯
 
 
 Preterite de hacer
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;hice⟯|⟮c:4;hicimos⟯
 ⟮c:2;hiciste⟯|⟮c:5;hicisteis⟯
 ⟮c:3;hizo⟯|⟮c:6;hicieron⟯
 
 
 In the preterite verbs that end in -uir are conjugated as follows (example: huir)
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;hui⟯|⟮c:4;huimos⟯
 ⟮c:2;huiste⟯|⟮c:5;huisteis⟯
 ⟮c:3;huyó⟯|⟮c:6;huyeron⟯
 
 
 In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as follows (example: creer)
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;creí⟯|⟮c:4;creímos⟯
 ⟮c:2;creíste⟯|⟮c:5;creísteis⟯
 ⟮c:3;creyó⟯|⟮c:6;creyeron⟯
 
 
 Imperfect of ver
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;veía⟯|⟮c:4;veíamos⟯
 ⟮c:2;veías⟯|⟮c:5;veíais⟯
 ⟮c:3;veía⟯|⟮c:6;veían⟯
 
 
-Imperfect of ser<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+Imperfect of ser<br/><tbody>
 ⟮c:1;era⟯|⟮c:4;éramos⟯
 ⟮c:2;eras⟯|⟮c:5;erais⟯
 ⟮c:3;era⟯|⟮c:6;eran⟯
 
 
 Imperfect of ir
-<br/><table class="cloze-group hide-if-inactive">
-<tbody>
+<br/><tbody>
 ⟮c:1;iba⟯|⟮c:4;íbamos⟯
 ⟮c:2;ibas⟯|⟮c:5;ibais⟯
 ⟮c:3;iba⟯|⟮c:6;iban⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – haber
 
 </thead>
@@ -4618,7 +4461,6 @@ span=2;Present Subjunctive – haber
 ⟮c:3;haya⟯|⟮c:6;hayan⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Pluperfecto en español
 
 </thead>
@@ -4627,7 +4469,6 @@ span=2;Pluperfecto en español
 ⟮c:3;Había vivido⟯|⟮c:6;Habían vivido⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Hablar - future
 
 </thead>
@@ -4645,7 +4486,6 @@ Phrases of ⟮c:1;desire⟯, ⟮c:2;doubt⟯, ⟮c:3;uncertainty⟯, ⟮c:4;subj
 
 ⟮c:1;Primero⟯ and ⟮c:1;tercero⟯ ⟮c:3;lose their o⟯ before ⟮c:2; singular masculine nouns⟯. 
 
-<table>
 span=2;cerrar e:ie present indicative conjugation
 
 </thead>
@@ -4654,7 +4494,6 @@ span=2;cerrar e:ie present indicative conjugation
 ⟮c3;cierra⟯|⟮c6;cierran⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;vivir present indicative
 
 </thead>
@@ -4663,7 +4502,6 @@ span=2;vivir present indicative
 ⟮c:3;vive⟯|⟮c:6;viven⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;venir present indicative conjugation
 
 </thead>
@@ -4672,7 +4510,6 @@ span=2;venir present indicative conjugation
 ⟮c:3;viene⟯|⟮c:6;vienen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;tener present indicative conjugation
 
 </thead>
@@ -4681,7 +4518,6 @@ span=2;tener present indicative conjugation
 ⟮c:3;tiene⟯|⟮c:6;tienen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;repetir e:i present indicative conjugation
 
 </thead>
@@ -4690,7 +4526,6 @@ span=2;repetir e:i present indicative conjugation
 ⟮c:3;repite⟯|⟮c:6;repiten⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;posessive adjectives
 
 </thead>
@@ -4699,7 +4534,6 @@ span=2;posessive adjectives
 ⟮c:3;su(s⟯)|⟮c:6;su(s⟯)
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;o:u preterite (dormir)
 
 </thead>
@@ -4708,7 +4542,6 @@ span=2;o:u preterite (dormir)
 ⟮c:3;durmió⟯|⟮c:6;durmieron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;hablar present indicative
 
 </thead>
@@ -4717,7 +4550,6 @@ span=2;hablar present indicative
 ⟮c:3;habla⟯|⟮c:6;hablan⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;escribir - future
 
 </thead>
@@ -4726,7 +4558,6 @@ span=2;escribir - future
 ⟮c:3;escribirá⟯|⟮c:6;escribirán⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;e:i preterite (preferir)
 
 </thead>
@@ -4735,7 +4566,6 @@ span=2;e:i preterite (preferir)
 ⟮c:3;prefirió⟯|⟮c:6;prefirieron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;dormir o:ue present indicative conjugation
 
 </thead>
@@ -4744,7 +4574,6 @@ span=2;dormir o:ue present indicative conjugation
 ⟮c:3;duerme⟯|⟮c:6;duermen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;comer present indicative
 
 </thead>
@@ -4753,7 +4582,6 @@ span=2;comer present indicative
 ⟮c:3;come⟯|⟮c:6;comen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;comer - future
 
 </thead>
@@ -4762,7 +4590,6 @@ span=2;comer - future
 ⟮c:3;comerá⟯|⟮c:6;comerán⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present hablar
 
 </thead>
@@ -4771,7 +4598,6 @@ span=2;Subjunctive present hablar
 ⟮c:3;hable⟯|⟮c:6;hablen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present escribir
 
 </thead>
@@ -4780,7 +4606,6 @@ span=2;Subjunctive present escribir
 ⟮c:3;escriba⟯|⟮c:6;escriban⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Subjunctive present comer
 
 </thead>
@@ -4789,7 +4614,6 @@ span=2;Subjunctive present comer
 ⟮c:3;coma⟯|⟮c:6;coman⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Preterite of ver
 
 </thead>
@@ -4798,7 +4622,6 @@ span=2;Preterite of ver
 ⟮c:3;vio⟯|⟮c:6;vieron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Preterite of traer
 
 </thead>
@@ -4807,7 +4630,6 @@ span=2;Preterite of traer
 ⟮c:3;trajo⟯|⟮c:6;trajeron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Preterite of decir
 
 </thead>
@@ -4816,7 +4638,6 @@ span=2;Preterite of decir
 ⟮c:3;dijo⟯|⟮c:6;dijeron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Preterite of -ucir verbs such as producir
 
 </thead>
@@ -4825,7 +4646,6 @@ span=2;Preterite of -ucir verbs such as producir
 ⟮c:3;produjo⟯|⟮c:6;produjeron⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – ser
 
 </thead>
@@ -4834,7 +4654,6 @@ span=2;Present Subjunctive – ser
 ⟮c:3;sea⟯|⟮c:6;sean⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – saber
 
 </thead>
@@ -4843,7 +4662,6 @@ span=2;Present Subjunctive – saber
 ⟮c:3;sepa⟯|⟮c:6;sepan⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – ir
 
 </thead>
@@ -4852,7 +4670,6 @@ span=2;Present Subjunctive – ir
 ⟮c:3;vaya⟯|⟮c:6;vayan⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive – estar
 
 </thead>
@@ -4861,7 +4678,6 @@ span=2;Present Subjunctive – estar
 ⟮c:3;esté⟯|⟮c:6;estén⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Present Subjunctive - dar
 
 </thead>
@@ -4870,7 +4686,6 @@ span=2;Present Subjunctive - dar
 ⟮c:3;dé⟯|⟮c:6;den⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Imperfect subjunctive -se cantar
 
 </thead>
@@ -4879,7 +4694,6 @@ span=2;Imperfect subjunctive -se cantar
 ⟮c:3;cantase⟯|⟮c:6;cantasen⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Imperfect subjunctive -a form for cantar
 
 </thead>
@@ -4888,7 +4702,6 @@ span=2;Imperfect subjunctive -a form for cantar
 ⟮c:3;cantara⟯|⟮c:6;cantaran⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Conditional vivir
 
 </thead>
@@ -4897,7 +4710,6 @@ span=2;Conditional vivir
 ⟮c:3;viviría⟯|⟮c:6;vivirían⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Conditional hablar
 
 </thead>
@@ -4906,7 +4718,6 @@ span=2;Conditional hablar
 ⟮c:3;hablaría⟯|⟮c:6;hablarían⟯
 
 
-<table class="cloze-group hide-if-inactive">
 span=2;Conditional comer
 
 </thead>
@@ -5661,7 +5472,6 @@ A common ⟮c:5;posture technique⟯ involves ⟮c:1;imagining⟯ ⟮c:2;a strin
 
 ## screw direction
 
-<table class="cloze-group hide-if-inactive">
 <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Screws tighten⟯|⟮c:2;clockwise⟯
 ⟮c:3;Screws loosen⟯|⟮c:4;counterclockwise⟯
 
@@ -5673,7 +5483,6 @@ Often, ⟮c:7;the four steps of four-stage breathing/pranayama are the same leng
 
 ## english words
 
-<table class="cloze-group hide-if-inactive">
   <thead>Word|Today more commonly|example
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">

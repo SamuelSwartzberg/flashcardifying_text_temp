@@ -169,7 +169,6 @@ The thing that ⟮c:36;uniquely identifies⟯ a ⟮c:37;symbol⟯ is ⟮c:38;its
 ⟮c:39;Symbols⟯ start out ⟮c:40;vague and shadowy⟯, ⟮c:41;asking clean language questions⟯ ⟮c:42;increases clarity⟯. 
 
 One possible grouping of clean language questions (there are others)
-<table class="cloze-group hide-if-inactive">
   <tbody>⟮c:1;intention⟯|⟮c:2;sequence and source⟯|span=3;⟮c:3;developing⟯
 ||
         ⟮c:6;name and address questions⟯<br>
@@ -248,7 +247,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 ## questions in other languages
 
-<table class="cloze-group hide-if-inactive">
   <thead>en|de
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -265,7 +263,6 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 ## types of questions
 
-<table class="cloze-group hide-if-inactive">
   <thead>Name|Definition|Examples
 </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
