@@ -111,8 +111,7 @@ A hex digit is equivalent to 4 binary digits
 
 <table>
   <thead>
-    <tr><th>Decimal number</th>
-    <th>Hexadecimal number</th>
+    <tr><th>Decimal number|Hexadecimal number</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;1342<sub>10</sub>⟯|⟮c:2;53E<sub>16</sub>⟯
@@ -122,8 +121,7 @@ A hex digit is equivalent to 4 binary digits
 </table>
 <table>
   <thead>
-    <tr><th>Decimal digit</th>
-    <th>Hexadecimal digit</th>
+    <tr><th>Decimal digit|Hexadecimal digit</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:7;decimal 10⟯|⟮c:8;hexadecimal A⟯
@@ -182,8 +180,7 @@ A circular arc is the arc of a circle between a pair of distinct points.
 Man kann sich die Formel des {{c2::Flächeninhalts}} eines {{c3::Parallelogramms, Rhombus, Dreiecks etc.}} herleiten {{c1::indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte}}
 
   <thead>
-    <tr><th></th>
-    <th></th>
+    <tr><th>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Dreieck⟯|⟮c:2;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h:all;<img src="sm_dreieck.gif">⟯
@@ -330,8 +327,7 @@ A <dfn>⟮c:15;number set⟯</dfn> is ⟮c:16;a set of numbers⟯ with ⟮c:17;c
 <table class="cloze-group hide-if-inactive">
   <thead>
     <tr>
-      <th>Symbol</th>
-      <th>Refers to?</th>
+      <th>Symbol|Refers to?</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -459,8 +455,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Graph-related thing</th>
-    <th>alternative names</th>
+    <tr><th>Graph-related thing|alternative names</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;edges⟯|⟮c:2;links/lines⟯
@@ -472,8 +467,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>In the image</th>
-    <th>name</th>
+    <tr><th>In the image|name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:7;the thing pictured⟯|⟮c:8;a graph⟯
@@ -484,8 +478,7 @@ Equivalently, a ⟮c:78;complete graph⟯ is a graph with a ⟮c:79;degree⟯ of
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th></th>
-    <th></th>
+    <tr><th>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:11;E⟯|⟮c:12;The set of edges⟯
@@ -557,8 +550,7 @@ A tree (comp. sci. ADT) that ⟮c:217;can be used for searching⟯ is ⟮c:218;a
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>order</th>
-    <th>pattern</th>
+    <tr><th>order|pattern</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:17;Pre-order⟯|⟮c:18;Node - Left - Right⟯
@@ -583,8 +575,7 @@ In deleting ⟮c:31;a vertex N⟯ in ⟮c:32;a binary search tree⟯, if ⟮c:33
 <img src="sm_bin_search_tree.svg">
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Inserting this number,</th>
-    <th>where would it go?</th>
+    <tr><th>Inserting this number,|where would it go?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;9⟯|⟮c:2;left of 10⟯
@@ -765,8 +756,7 @@ A n-ary function takes n arguments.
 <table>
   <thead>
     <tr>
-      <th>Arity of...</th>
-      <th>Name</th>
+      <th>Arity of...|Name</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;0⟯|⟮c:2;nullary⟯
@@ -850,8 +840,7 @@ A ⟮c:5;statistic⟯ that ⟮c:6;is being used to estimate⟯ a ⟮c:7;paramete
 
 <table class="cloze-group hide-if-inactive">
   <tbody></td>
-      <th>⟮c:7;s:5-8;H<sub>0</sub> true⟯</th>
-      <th>⟮c:8;s:5-8;H<sub>0</sub> false⟯</th>
+      <th>⟮c:7;s:5-8;H<sub>0</sub> true⟯|⟮c:8;s:5-8;H<sub>0</sub> false⟯</th>
     </tr>
     <tr>
       <th>⟮c:5;s:5-8;reject H<sub>0</sub>⟯</th>
@@ -899,8 +888,7 @@ B|byte
 <table>
   <thead>
     <tr>
-      <th>prefix</th>
-      <th>10<sup>?</sup></th>
+      <th>prefix|10<sup>?</sup></th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -935,9 +923,7 @@ From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.�
   <thead>
     <tr><th colspan="3">7 SI base units</th></tr>
     <tr>
-      <th>unit name</th>
-      <th>unit symbol</th>
-      <th>measure</th>
+      <th>unit name|unit symbol|measure</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -955,9 +941,7 @@ From ⟮c:19;the 7 SI base units⟯, ⟮c:20;all other SI units can be derived.�
   <thead>
     <tr><th colspan="3">non-base SI units</th></tr>
     <tr>
-      <th>unit name</th>
-      <th>unit symbol</th>
-      <th>measure</th>
+      <th>unit name|unit symbol|measure</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -974,8 +958,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 ⟮c:1;Kelvin⟯ (unit symbol ⟮c:2;K⟯)
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Temperature (K)</th>
-    <th>Significance</th>
+    <tr><th>Temperature (K)|Significance</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
         ⟮c:3;0⟯
@@ -990,8 +973,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 </h2>
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Temperature (°C)</th>
-    <th>Significance</th>
+    <tr><th>Temperature (°C)|Significance</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:2;0⟯|⟮c:3;water freezes (at 1 atm pressure⟯)
 ⟮c:4;100⟯|⟮c:5;water boils (at 1 atm pressure⟯)
@@ -1004,9 +986,7 @@ The ⟮c:1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c:2;1/4 mm⟯.
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Symbol</th>
-    <th>Unit</th>
-      <th>in SI base units</th>
+    <tr><th>Symbol|Unit|in SI base units</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;′ (is the prime, not apostrophe⟯)|⟮c:2;foot⟯

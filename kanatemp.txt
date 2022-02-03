@@ -1,7 +1,6 @@
 <table>
   <thead>
-    <th>hiragana</th>
-    <th>IPA</th>
+    <th>hiragana|IPA</th>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ((c:1;::あ))|((c:2;::<span class="ipa">a</span>))

@@ -252,8 +252,7 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>en</th>
-    <th>de</th>
+    <tr><th>en|de</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;And is there anything else about X?⟯|⟮c:2;Und ist da noch etwas ueber X?⟯
@@ -272,9 +271,7 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Name</th>
-    <th>Definition</th>
-<th>Examples</th>
+    <tr><th>Name|Definition|Examples</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;open(-ended) question⟯|⟮c:2;A question that invites a detailed answer⟯|⟮c:3;s:2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯

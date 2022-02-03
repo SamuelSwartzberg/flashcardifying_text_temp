@@ -69,8 +69,7 @@ Since the ⟮c:24;sign⟯ consists of ⟮c:25;the two parts of signifier and sig
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>What?</th>
-    <th>Where in the image?</th>
+    <tr><th>What?|Where in the image?</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;a sign⟯|⟮c:2;the are between any two dotted lines⟯
@@ -938,9 +937,7 @@ Inflection can be subdivided into {{c1::Declension and conjugation}}
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Inflection of</th>
-      <th></th>
+      <th>Name|Inflection of|</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;Conjugation⟯|⟮c:2;Verbs⟯
@@ -1276,7 +1273,7 @@ Quantifiers are a type of determiner/pronoun (which may depending on your analys
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
 <tbody class="cloze-group-children hide-if-inactive-children">
     <tr><th colspan="2">⟮c:1;DP⟯</th></tr>
-<tr><th>⟮c:2;Q/D⟯</th> <th>⟮c:3;DP⟯</th></tr>
+<tr><th>⟮c:2;Q/D⟯|⟮c:3;DP⟯</th></tr>
 <span>all</span>|<span>the students</span>
   </tbody>
 </table>
@@ -2142,10 +2139,7 @@ td {
 <table>
   <thead>
     <tr>
-      <th>Openness</th>
-      <th>Backness</th>
-      <th>Roundedness</th>
-      <th>IPA Symbol</th>
+      <th>Openness|Backness|Roundedness|IPA Symbol</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
@@ -2300,8 +2294,7 @@ Affricates are distinguised from non-affricates in that they have the disinctive
 
 <table>
   <thead>
-    <tr><th></th>
-    <th></th>
+    <tr><th>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:13;ʍ⟯|⟮c:5;voice​less⟯|⟮c:5;labio​velar⟯|⟮c:5;approxi​mant⟯
@@ -2582,9 +2575,7 @@ Theoretical lexicography is the study of features of lexemes and lexica.
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>family term</th>
-    <th>female</th>
-    <th>male</th>
+    <tr><th>family term|female|male</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Parsib/pibling/auncle⟯|⟮c:2;aunt⟯|⟮c:3;uncle⟯
@@ -2699,8 +2690,7 @@ A blank line is two newlines.
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th></th>
-    <th></th>
+    <tr><th>|</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;Microtypography⟯|⟮c:2;Typography on the level of letters/words⟯|⟮c:3;Letter spacing, word spacing, ligatures, features of letters⟯
@@ -3011,7 +3001,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 <table class="cloze-group hide-if-inactive">
   <tbody>
-    <tr><th>thing</th> <th>name</th></tr>
+    <tr><th>thing|name</th></tr>
 {{c13::{} }}|⟮c:2;curly brackets⟯ (non-us), or ⟮(c:3;curly⟯) ⟮c:3;braces⟯ (us, uk)
 ⟮c:14;&lt;&gt;⟯|⟮c:1;angle brackets⟯ or ⟮c:4;chevrons⟯
 ⟮c:15;( ) ⟯|⟮c:5;brackets⟯ (non-us), ⟮c:6;round brackets⟯ (non-us) or ⟮c:7;parantheses⟯
@@ -3021,7 +3011,7 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 <table class="cloze-group hide-if-inactive">
   <tbody>
-  <tr><th>name</th> <th>referenced entity (US)</th> <th>referenced entity (not-US)</th></tr>
+  <tr><th>name|referenced entity (US)|referenced entity (not-US)</th></tr>
 ⟮c:17;parentheses⟯|⟮c:18;(⟯)|⟮c:19;may be meaningless (or US meaning⟯)
 ⟮c:24;brackets⟯|⟮c:10;[]⟯, less commonly perhaps ⟮c:11;&lt;&gt;⟯|most commonly ⟮c:20;(⟯), also {{c21::cover term for all of ()[]{}&lt;&gt;}}
 ⟮c:22;braces⟯|{{c12::{} }}|⟮c:23;may be meaningless (or US meaning⟯)
@@ -3054,8 +3044,7 @@ The ⟮c:10;prime⟯ and ⟮c:10;double prime⟯ can mark ⟮c:11;(arc)minutes�
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>Symbol</th>
-    <th>Name</th>
+    <tr><th>Symbol|Name</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;′⟯|⟮c:2;Prime⟯
@@ -3116,8 +3105,7 @@ In ⟮c:17;bicameral⟯ writing systems, ⟮c:18;the uppercase letters⟯ are �
   span=3;Types of interesting capitalization</th>
     </tr>
     <tr>
-      <th>Name</th>
-      <th>Features</th>
+      <th>Name|Features</th>
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
@@ -3150,8 +3138,7 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 
 <table class="cloze-group hide-if-inactive">
   <thead>
-    <tr><th>emoticon eyes</th>
-    <th>meaning</th>
+    <tr><th>emoticon eyes|meaning</th>
   </tr></thead>
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;:⟯|⟮c:2;default (more common⟯)
@@ -3301,7 +3288,7 @@ realize (make happen, become aware of) / realisieren (make happen) -&gt; realize
     <tr><th>senses are added</th> <th colspan="4">words/morphemes are added</th></tr>
 semantic loan</td> <th>words/morphemes are directly borrowed</th> <th colspan="3">morphological transformation is done</th></tr>
 |foregin words, loanwords, (loanblends)</td> <th>part of the morphemes are native</th> <th colspan="2">all of the morphemes are native</th></tr>
-||(loanblends)</td> <th>the structure is native</th> <th>the structure is foreign</th></tr>
+||(loanblends)</td> <th>the structure is native|the structure is foreign</th></tr>
 |||loan creation|loan translation, loan rendition
   </tbody>
 </table>
@@ -3430,9 +3417,7 @@ The ⟮c:11;deficit, dominance and difference approaches⟯ are all approaches t
 <table>
   <thead>
     <tr>
-      <th>approach</th>
-      <th>description</th>
-      <th>proponents</th>
+      <th>approach|description|proponents</th>
     </tr>
   </thead>
   <tbody class="cloze-group-children hide-if-inactive-children">⟮c:1;dominance approach⟯|⟮c:4;powerless women's language⟯ ⟮c:5;reflects (is caused by) male dominance more generally⟯
@@ -3852,9 +3837,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 <table class="cloze-group hide-if-inactive">
   <thead>
     <tr>
-      <th>万葉仮名 origin</th>
-      <th>片仮名 today</th>
-      <th></th>
+      <th>万葉仮名 origin|片仮名 today|</th>
     </tr>
   </thead><tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;久⟯|⟮c:2;ク⟯
@@ -3909,9 +3892,7 @@ The ⟮c:87;now nonstandard 平仮名⟯ are called ⟮c:88;<ruby>変体仮名<r
 <table>
   <thead>
     <tr>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>||</th>
     </tr>
   </thead>
 <tbody class="cloze-group-children hide-if-inactive-children">
