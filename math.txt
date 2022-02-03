@@ -320,14 +320,7 @@ Symbol|Refers to?
 ⟮c34;Integers⟯ are known as ⟮c35;ganze Zahlen⟯ in German. 
 
 
-<div class="onion-box">
-  <span>⟮c11;s∞;ℝ⟯</span>
-  <div class="onion-box">
-    <span>⟮c12;s∞;ℚ⟯</span>
-    <div class="onion-box">
-      <span>⟮c13;s∞;ℤ⟯</span>
-      <div class="onion-box">
-        <span>⟮c14;s∞;ℕ<br><br>⟯</span>
+[⟮c11;s∞;ℝ⟯ [⟮c12;s∞;ℚ⟯ [⟮c13;s∞;ℤ⟯ [⟮c14;s∞;ℕ<br><br>⟯</span>
       </div>
     </div>
   </div>

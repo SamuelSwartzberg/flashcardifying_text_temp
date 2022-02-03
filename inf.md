@@ -1716,14 +1716,7 @@ typically, any edge width is specified as a <length-percentage>
 
 ####### css box model
 
-<div class="onion-box">
-  <span>⟮c1;s∞;Margin-box⟯</span>
-  <div class="onion-box">
-    <span>⟮c2;s∞;Border-box⟯</span>
-    <div class="onion-box">
-      <span>⟮c3;s∞;Padding-box⟯</span>
-      <div class="onion-box">
-        <span>⟮c4;s∞;Content-box⟯<br><br></span>
+[⟮c1;s∞;Margin-box⟯ [⟮c2;s∞;Border-box⟯ [⟮c3;s∞;Padding-box⟯ [⟮c4;s∞;Content-box⟯<br><br></span>
       </div>
     </div>
   </div>
@@ -4121,7 +4114,7 @@ After a certain number of write cycles, flash memory begins to decay.
 Flash memory is typically faster than magnetic memory.
 SSDs are a type of flash memory device.
 
-<div class="onion-box"><span>⟮c;SSD chip⟯</span><div class="onion-box"><span>⟮c;block⟯</span><div class="onion-box"><span>⟮c;page⟯</span></div><div class="onion-box"><span>⟮c;page⟯</span></div><div class="onion-box"><span>⟮c;page⟯</span></div><div class="onion-box"><span>⟮c;...⟯</span></div></div><div class="onion-box"><span>⟮c;block⟯</span></div><div class="onion-box"><span>⟮c;...⟯</span></div></div>
+[⟮c;SSD chip⟯ [⟮c;block⟯ [⟮c;page⟯</span></div>[⟮c;page⟯</span></div>[⟮c;page⟯</span></div>[⟮c;...⟯</span></div></div>[⟮c;block⟯</span></div>[⟮c;...⟯</span></div></div>
 
 ## secondary memory organization
 

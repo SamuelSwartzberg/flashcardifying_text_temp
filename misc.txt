@@ -1700,14 +1700,7 @@ According to ⟮c26;CLS⟯, in ⟮c27;mythical thought⟯ ⟮c28;intellectual dr
 ### Social-Ecological Models
 
 separate ⟮c2;things that can affect an individual⟯ into categories. these are not always identical, but may roughly be ⟮c3;Individual⟯, ⟮c3;Interpersonal/Relationship⟯, (more frequently left out) ⟮c4;Organizational⟯, ⟮c4;Community⟯, ⟮c5;Society/Policy⟯. 
-<div class="onion-box">
-  <span>⟮c6;s∞;Societal (Policy) ⟯</span>
-  <div class="onion-box">
-    <span>⟮c7;s∞;Community⟯</span>
-    <div class="onion-box">
-      <span>⟮c8;s∞;Relationship⟯</span>
-      <div class="onion-box">
-        <span>⟮c9;s∞;Individual⟯</span>
+[⟮c6;s∞;Societal (Policy) ⟯ [⟮c7;s∞;Community⟯ [⟮c8;s∞;Relationship⟯ [⟮c9;s∞;Individual⟯</span>
       </div>
     </div>
   </div>
