@@ -1655,12 +1655,12 @@ It may seem that certain html form elements can't have their font styled ⟮c1;b
 
 The white-space CSS property sets how white space inside an element is handled.
 &nbsp;|New lines|Spaces and tabs|Text wrapping
-  <tbody>⟮c1;s:1-5;normal⟯</th>
-  <td>⟮c6;s:6-20;Collapse⟯|⟮c7;s:6-20;Collapse⟯|⟮c8;s:6-20;Wrap⟯⟮c2;s:1-5;pre⟯</th>
-  <td>⟮c9;s:6-20;Preserve⟯|⟮c10;s:6-20;Preserve⟯|⟮c11;s:6-20;No wrap⟯⟮c3;s:1-5;nowrap⟯</th>
-  <td>⟮c12;s:6-20;Collapse⟯|⟮c13;s:6-20;Collapse⟯|⟮c14;s:6-20;No wrap⟯⟮c4;s:1-5;pre-wrap⟯</th>
-  <td>⟮c15;s:6-20;Preserve⟯|⟮c16;s:6-20;Preserve⟯|⟮c17;s:6-20;Wrap⟯⟮c5;s:1-5;pre-line⟯</th>
-  <td>⟮c18;s:6-20;Preserve⟯|⟮c19;s:6-20;Collapse⟯|⟮c20;s:6-20;Wrap⟯
+  <tbody>⟮c1;s1-5;normal⟯</th>
+  <td>⟮c6;s6-20;Collapse⟯|⟮c7;s6-20;Collapse⟯|⟮c8;s6-20;Wrap⟯⟮c2;s1-5;pre⟯</th>
+  <td>⟮c9;s6-20;Preserve⟯|⟮c10;s6-20;Preserve⟯|⟮c11;s6-20;No wrap⟯⟮c3;s1-5;nowrap⟯</th>
+  <td>⟮c12;s6-20;Collapse⟯|⟮c13;s6-20;Collapse⟯|⟮c14;s6-20;No wrap⟯⟮c4;s1-5;pre-wrap⟯</th>
+  <td>⟮c15;s6-20;Preserve⟯|⟮c16;s6-20;Preserve⟯|⟮c17;s6-20;Wrap⟯⟮c5;s1-5;pre-line⟯</th>
+  <td>⟮c18;s6-20;Preserve⟯|⟮c19;s6-20;Collapse⟯|⟮c20;s6-20;Wrap⟯
 
 
 ###### Scrolling
@@ -1717,13 +1717,13 @@ typically, any edge width is specified as a <length-percentage>
 ####### css box model
 
 <div class="onion-box">
-  <span>⟮c1;s:∞;Margin-box⟯</span>
+  <span>⟮c1;s∞;Margin-box⟯</span>
   <div class="onion-box">
-    <span>⟮c2;s:∞;Border-box⟯</span>
+    <span>⟮c2;s∞;Border-box⟯</span>
     <div class="onion-box">
-      <span>⟮c3;s:∞;Padding-box⟯</span>
+      <span>⟮c3;s∞;Padding-box⟯</span>
       <div class="onion-box">
-        <span>⟮c4;s:∞;Content-box⟯<br><br></span>
+        <span>⟮c4;s∞;Content-box⟯<br><br></span>
       </div>
     </div>
   </div>
@@ -3434,7 +3434,7 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 #### theming
 
 ⟮h∞;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
-A ⟮c1;s:2;theme⟯ or ⟮c2;s:1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮c4;the set of files that define a theme/skin.⟯⟯ 
+A ⟮c1;s2;theme⟯ or ⟮c2;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮c4;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
 #### widgeting toolkits
@@ -3529,7 +3529,7 @@ A ⟮c16;status bar⟯ on mobile contains ⟮c13;notification⟯ and ⟮c13;syst
 
 ###### taskbar
 
-[[[⟮h∞;uh:11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
+[[[⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯]]]
 
 ⟮c12;The above⟯ are all examples of ⟮c11;taskbars⟯. 
 §§ A ⟮c1;taskbar⟯ is a GUI element that typically shows ⟮c2;which programs are open⟯, and allows ⟮c3;pinning programs or other things for quick access⟯. 
@@ -3543,7 +3543,7 @@ Despite being called '⟮c8;Dock⟯', it's just ⟮c9;macOs⟯'s version of a �
 
 VS Code's ⟮c11;activity bar⟯ is a ⟮c12;nav(igation) bar⟯ containing ⟮sb;⟮c13;5 (by default) icons⟯ that ⟮c14;trigger sidebars⟯⟯. 
 
-[[[⟮h∞;uh:1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
+[[[⟮h∞;uh1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯]]]
 
 nth icon in activity bar|Purpose
 ⟮c1;1st icon⟯|⟮c2;FIile explorer⟯
@@ -3797,13 +3797,13 @@ candles|1500-2000K
 
 #### color schemes
 
-⟮c1,15;analogous ⟯|⟮c8;h:15-21;Two or more colors that are all next to each other on the color wheel⟯|⟮c22;h:8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
-⟮c2,16;complementary ⟯|⟮c9;h:15-21;Two opposite colors on the color wheel⟯|⟮c23;h:8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
-⟮c3,17;monochromatic ⟯|⟮c10;h:15-21;A single color⟯|⟮c24;h:8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
-⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c11;h:15-21;two pairs of complementary colors ⟯|⟮c25;h:8-14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯
-⟮c5,19;split complementary (is a form ⟯|⟮c12;h:15-21;A color and the colors adjacent to its complementary ⟯|⟮c26;h:8-14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯
-⟮c6,20;tetradic (more specif. square⟯)|⟮c13;h:15-21;Four colors equally spaced on the color wheel⟯|⟮c27;h:8-14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯
-⟮c7,21;triadic ⟯|⟮c14;h:15-21;Three colors equally spaced on the color wheel⟯|⟮c28;h:8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯
+⟮c1,15;analogous ⟯|⟮c8;h15-21;Two or more colors that are all next to each other on the color wheel⟯|⟮c22;h8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
+⟮c2,16;complementary ⟯|⟮c9;h15-21;Two opposite colors on the color wheel⟯|⟮c23;h8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
+⟮c3,17;monochromatic ⟯|⟮c10;h15-21;A single color⟯|⟮c24;h8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
+⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c11;h15-21;two pairs of complementary colors ⟯|⟮c25;h8-14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯
+⟮c5,19;split complementary (is a form ⟯|⟮c12;h15-21;A color and the colors adjacent to its complementary ⟯|⟮c26;h8-14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯
+⟮c6,20;tetradic (more specif. square⟯)|⟮c13;h15-21;Four colors equally spaced on the color wheel⟯|⟮c27;h8-14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯
+⟮c7,21;triadic ⟯|⟮c14;h15-21;Three colors equally spaced on the color wheel⟯|⟮c28;h8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯
 
 
 ### blending
@@ -5084,13 +5084,13 @@ Latex ⟮c15;section commands⟯ take ⟮c16;the full section title⟯ as ⟮c10
 
 ######### Latex section hierarchy
 
-1. ⟮c1;s:b;part⟯
-2. ⟮c2;s:b;chapter⟯
-3. ⟮c3;s:gb,6-7;section⟯
-4. ⟮c4;s:gb,6-7;subsection⟯
-5. ⟮c5;s:gb,7;subsubsection⟯
-6. ⟮c6;s:b;paragraph⟯
-7. ⟮c7;s:b;subparagraph⟯
+1. ⟮c1;sb;part⟯
+2. ⟮c2;sb;chapter⟯
+3. ⟮c3;sb,6-7;section⟯
+4. ⟮c4;sb,6-7;subsection⟯
+5. ⟮c5;sb,7;subsubsection⟯
+6. ⟮c6;sb;paragraph⟯
+7. ⟮c7;sb;subparagraph⟯
 
 ######## latex groups
 
@@ -5329,7 +5329,7 @@ Command to ⟮c71;only do something in a certain mode⟯ ⟮c55;mode⟯⟮c56;&l
                 <span class="c2-cloze">
                   presentation
                 </span>
-⟮c3;s:1-2;beamer⟯|⟮c4;s:1-2;second⟯|⟮c5;s:1-2;handout⟯|⟮c6;s:1-2;trans⟯
+⟮c3;s1-2;beamer⟯|⟮c4;s1-2;second⟯|⟮c5;s1-2;handout⟯|⟮c6;s1-2;trans⟯
 
       </td>
       <td style="vertical-align:top">
@@ -5696,7 +5696,7 @@ Things in ⟮c47;WebVTT/.srt⟯ are ⟮c48;generally separated⟯ by ⟮c49;a bl
 
 WebVTT delimits ⟮c51;major sections⟯ with ⟮c50;allcaps words⟯: 
 section name|section semantics/function
-⟮c1;WEBVTT⟯|⟮c2;s:32;Begin WebVTT document⟯ ⟮h2;(may be followed by ⟮c32;text header on the same line⟯⟯)
+⟮c1;WEBVTT⟯|⟮c2;s32;Begin WebVTT document⟯ ⟮h2;(may be followed by ⟮c32;text header on the same line⟯⟯)
 ⟮c3;STYLE⟯|⟮c4;inline styling section⟯
 ⟮c5;NOTE⟯|⟮c6;comment⟯
 
@@ -6346,11 +6346,11 @@ A  ⟮c1;man-in-the-middle⟯ attack is when an attacker ⟮c2;inserts themseves
 <h1>
   ⟮c5;MitM attack⟯
 </h1>
-⟮h∞;uh:1;<img src="sm_MitM1.jpg">⟯
-⟮c1;h:∞;uh:2;<img src="sm_MitM2.jpg">⟯
-⟮c2;h:∞;uh:3;<img src="sm_MitM3.jpg">⟯
-⟮c3;h:∞;uh:4;<img src="sm_MitM4.jpg">⟯
-⟮c4;h:∞;<img src="sm_MitM5.jpg">⟯
+⟮h∞;uh1;<img src="sm_MitM1.jpg">⟯
+⟮c1;h∞;uh:2;<img src="sm_MitM2.jpg">⟯
+⟮c2;h∞;uh:3;<img src="sm_MitM3.jpg">⟯
+⟮c3;h∞;uh:4;<img src="sm_MitM4.jpg">⟯
+⟮c4;h∞;<img src="sm_MitM5.jpg">⟯
 
 ⟮uh∞;After the MitM for public key encryption has been set up...⟯<br>
 ⟮c12;the server⟯ and ⟮c12;client⟯ ⁑actually⁑ have ⟮c13;the MitMs public key⟯ 
@@ -8047,14 +8047,14 @@ one half of ⟮c6;cURL⟯ is ⟮c7;the command-line tool⟯ ⟮c8;curl⟯.
 the other half of ⟮c9;cURL⟯ is ⟮c10;the library libcurl⟯ with ⟮c11;bindings for most major programming languages⟯. 
 curl syntax: ⟮c12;curl⟯ ⟮c13;[options]⟯ ⟮c14;{URLs⟯} 
 
-⟮c15;s:16;-i⟯ and ⟮c16;s:15;--include⟯ ⟮c17;show HTTP response headers⟯ 
-To ⟮c18;set custom headers⟯ in curl, use ⟮c19;s:20;-H⟯/⟮c20;s:19;--header⟯ ⟮c21;"My-Header: My value"⟯ 
-To ⟮c22;set the query string⟯ to a certain value in curl, use ⟮c23;s:44;-d⟯ OR ⟮c44;s:23;--data⟯ ⟮c24;'key=value&amp;key2=value2'⟯ 
-To ⟮c25;simulate a filled in form⟯ with curl, use ⟮c26;s:45;-f⟯ or ⟮c45;s:26;--form⟯ ⟮c27;"key=value"⟯ (supports ⟮c28;more fancy syntax for files etc.⟯ )  
-To make curl ⟮c29;fail on error⟯, use ⟮c30;s:31;-f⟯ or ⟮c31;s:30;--fail⟯ 
-To ⟮c32;make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c33;s:34;-I⟯ or ⟮c34;s:33;--head⟯. 
+⟮c15;s16;-i⟯ and ⟮c16;s15;--include⟯ ⟮c17;show HTTP response headers⟯ 
+To ⟮c18;set custom headers⟯ in curl, use ⟮c19;s20;-H⟯/⟮c20;s19;--header⟯ ⟮c21;"My-Header: My value"⟯ 
+To ⟮c22;set the query string⟯ to a certain value in curl, use ⟮c23;s44;-d⟯ OR ⟮c44;s23;--data⟯ ⟮c24;'key=value&amp;key2=value2'⟯ 
+To ⟮c25;simulate a filled in form⟯ with curl, use ⟮c26;s45;-f⟯ or ⟮c45;s26;--form⟯ ⟮c27;"key=value"⟯ (supports ⟮c28;more fancy syntax for files etc.⟯ )  
+To make curl ⟮c29;fail on error⟯, use ⟮c30;s31;-f⟯ or ⟮c31;s30;--fail⟯ 
+To ⟮c32;make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c33;s34;-I⟯ or ⟮c34;s33;--head⟯. 
 
-To ⟮c35;make curl follow redirects (e.g. 301 Moved Permanently⟯), use ⟮c36;s:37;-L⟯ or ⟮c37;s:36;--location⟯ 
+To ⟮c35;make curl follow redirects (e.g. 301 Moved Permanently⟯), use ⟮c36;s37;-L⟯ or ⟮c37;s36;--location⟯ 
 If ⟮c38;you've specified -L/--location⟯ for curl, ⟮c39;--max-redirs⟯ sets ⟮c40;how many redirects you want to follow⟯. ⟮c41;-1⟯ means ⟮c42;infinite redirects⟯ 
 
 There are bunch of sites ⟮c43;designed to be `curl`ed⟯ to do something useful. 
@@ -8094,7 +8094,7 @@ Format specifier syntax: ⟮c19;--format⟯ ⟮c20;&lt;format-specifier&gt;⟯�
 ```
 
 
-The ⟮c45;s:46;-x⟯/⟮c46;s:45;--extract-audio⟯ option makes ⟮c47;youtube-dl extract the audio into its own file⟯. 
+The ⟮c45;s46;-x⟯/⟮c46;s45;--extract-audio⟯ option makes ⟮c47;youtube-dl extract the audio into its own file⟯. 
 If ⟮c48;using -x/--extract-audio⟯, you ⟮c49;can specify the format⟯ ⟮c50;with --audio-format FORMAT⟯, which ⟮c51;accepts the subset of things for --format FORMAT⟯ that ⟮c52;make sense for audio⟯. 
 
 
@@ -8251,7 +8251,7 @@ If the ⟮c82;Path⟯ attribute is ⟮c83;specified for a cookie⟯, ⟮c84;brow
 
 ⟮c86;Cookies⟯ that ⟮c87;originate from⟯ ⟮c88;the same domain as the current domain⟯ ⟮h88;(including ⟮c89;subdomains⟯ if ⟮c89;Domain is set⟯) ⟯ are known as ⟮c90;first-party cookies⟯, all others are ⟮c90;third-party cookies⟯. 
 
-⟮c91;Cookies⟯ ⟮c92;used to maintain the state of being logged⟯ in are known as ⟮c93;authentication cookies⟯ (the whole process is known as ⟮s91-93;c:94;cookie-based authentication⟯ ) 
+⟮c91;Cookies⟯ ⟮c92;used to maintain the state of being logged⟯ in are known as ⟮c93;authentication cookies⟯ (the whole process is known as ⟮s91-93;c94;cookie-based authentication⟯ ) 
 ⟮c94;Cookies⟯ used to ⟮c95;maintain the state of an unique user⟯ ⟮c96;with whom to associate browser histories⟯ are known as ⟮c97;tracking cookies⟯. 
 
 The ⟮c98;Secure⟯ property of a cookie means ⟮c101;that it is only ever sent over HTTPS⟯. 
@@ -12232,9 +12232,9 @@ A ⟮c27;dynamic web page⟯ may be generated ⟮c28;client-side⟯ or ⟮c28;se
 A ⟮c29;dynamic webpage⟯ ⟮c30;generated client-side/server-side⟯ is said to use ⟮c31;client-side/server-side rendering⟯. 
 
 
-⟮c4;Client-side rendering⟯ ⟮(c:34;s:4;CSR⟯) generally involves only having ⟮c5;a minimal HTML page⟯ and ⟮c5;a JS bundle⟯, which then ⟮c6;handles everything elsee.⟯ 
+⟮c4;Client-side rendering⟯ ⟮(c:34;s4;CSR⟯) generally involves only having ⟮c5;a minimal HTML page⟯ and ⟮c5;a JS bundle⟯, which then ⟮c6;handles everything elsee.⟯ 
 The pages ⟮c32;CSR⟯ produces are generally called ⟮c33;single-page applications⟯. 
-⟮c35;Server-side rendering⟯ ⟮(c:36;s:35;SSR⟯) has ⟮c37;a server generate the web page⟯, generally using ⟮c38;a server-side programming language (in the past most commmonly PHP⟯), which is then ⟮c39;served to the user fully baked⟯. 
+⟮c35;Server-side rendering⟯ ⟮(c:36;s35;SSR⟯) has ⟮c37;a server generate the web page⟯, generally using ⟮c38;a server-side programming language (in the past most commmonly PHP⟯), which is then ⟮c39;served to the user fully baked⟯. 
 ⟮c40;CSR⟯ only ⟮c41;needs to communicate w/ the server⟯ if ⟮c42;new data is needed⟯. 
 Whenever ⟮c43;the user navigates to a different page⟯, ⟮c44;CSR⟯ ⟮c45;can usually handle it internally⟯, while ⟮c44;SSR⟯ ⟮c45;needs to make a new request for a new page⟯. 
 ⟮c1;Client-side rendering⟯ has ⟮c3;longer⟯ ⟮c2;initial load times⟯ and ⟮c3;shorter⟯ ⟮c2;subsequent load times⟯ than ⟮c1;server-side rendering⟯ 

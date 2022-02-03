@@ -223,18 +223,18 @@ The fact that {{c10::people may be operating with different metaphors/presumptio
 ## coin metaphor
 
 1. ⟮c1;Take out some coins ⟯
-2. ⟮c2;s:1;What do they mean to you?⟯
-3. ⟮c3;s:1-2;Arrange them to represent you and family/friends⟯
-4. ⟮c4;s:1-3;Remove one⟯
-5. ⟮c5;s:1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
+2. ⟮c2;s1;What do they mean to you?⟯
+3. ⟮c3;s1-2;Arrange them to represent you and family/friends⟯
+4. ⟮c4;s1-3;Remove one⟯
+5. ⟮c5;s1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
 
 ## breaking point story
 
-1. ⟮c1;s:b;Meeting was going on for ages⟯
-2. ⟮c2;s:b;Sales director said "I think we're at breaking point"⟯
-3. ⟮c3;s:b;Person thinks "Why the hell is the meeting about to kdown"⟯
-4. ⟮c4;s:b;But remembers clean language and asks "What kind of king point"⟯
-5. ⟮c5;s:b;Sales director says "The point of breaking through"⟯
+1. ⟮c1;sb;Meeting was going on for ages⟯
+2. ⟮c2;sb;Sales director said "I think we're at breaking point"⟯
+3. ⟮c3;sb;Person thinks "Why the hell is the meeting about to kdown"⟯
+4. ⟮c4;sb;But remembers clean language and asks "What kind of king point"⟯
+5. ⟮c5;sb;Sales director says "The point of breaking through"⟯
 
 ## questions in other languages
 
@@ -253,8 +253,8 @@ en|de
 ## types of questions
 
 Name|Definition|Examples
-⟮c1;open(-ended) question⟯|⟮c2;A question that invites a detailed answer⟯|⟮c3;s:2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯
-⟮c4;closed(-ended) question⟯|⟮c5;A question that can (only) be answered with yes or no⟯|⟮c6;s:5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯
+⟮c1;open(-ended) question⟯|⟮c2;A question that invites a detailed answer⟯|⟮c3;s2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯
+⟮c4;closed(-ended) question⟯|⟮c5;A question that can (only) be answered with yes or no⟯|⟮c6;s5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯
 
 
 # ideas

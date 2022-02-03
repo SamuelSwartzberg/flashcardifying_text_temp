@@ -83,9 +83,9 @@ nth digit|value
 
 ⟮c9;a byte⟯ ⟮c11;traditionally⟯ ⟮c10;contains 8 bits⟯, ⟮c11;though there are rare variant definitions⟯. 
 unambiguously, ⟮c12;8 bits⟯ are called ⟮c13;an octet⟯. 
-⟮c14;4 bits⟯ are called ⟮c15;a nibble⟯ (coined ⟮c16;s:b;by analogy to byte⟯). 
-a ⟮c1;16⟯-⟮c2;bit⟯ aggregation ⟮(c:1;2⟯ ⟮c2;bytes⟯, ⟮c1;4⟯ ⟮c2;nibbles⟯) may be called a ⟮c4;s:3;hexadectet::h...⟯ (short: ⟮c3;s:4;hextet::h...⟯ ) 
-a ⟮c5;16⟯-⟮c6;bit⟯ aggregation ⟮(c:5;2⟯ ⟮c6;bytes⟯, ⟮c5;4⟯ ⟮c6;nibbles⟯) may be called a ⟮c8;s:7;quad-nibble::q...⟯ (short: ⟮c7;s:8;quibble::q...⟯ ) 
+⟮c14;4 bits⟯ are called ⟮c15;a nibble⟯ (coined ⟮c16;sb;by analogy to byte⟯). 
+a ⟮c1;16⟯-⟮c2;bit⟯ aggregation ⟮(c:1;2⟯ ⟮c2;bytes⟯, ⟮c1;4⟯ ⟮c2;nibbles⟯) may be called a ⟮c4;s3;hexadectet::h...⟯ (short: ⟮c3;s4;hextet::h...⟯ ) 
+a ⟮c5;16⟯-⟮c6;bit⟯ aggregation ⟮(c:5;2⟯ ⟮c6;bytes⟯, ⟮c5;4⟯ ⟮c6;nibbles⟯) may be called a ⟮c8;s7;quad-nibble::q...⟯ (short: ⟮c7;s8;quibble::q...⟯ ) 
 
 ###### signed numbers
 
@@ -321,13 +321,13 @@ Symbol|Refers to?
 
 
 <div class="onion-box">
-  <span>⟮c11;s:∞;ℝ⟯</span>
+  <span>⟮c11;s∞;ℝ⟯</span>
   <div class="onion-box">
-    <span>⟮c12;s:∞;ℚ⟯</span>
+    <span>⟮c12;s∞;ℚ⟯</span>
     <div class="onion-box">
-      <span>⟮c13;s:∞;ℤ⟯</span>
+      <span>⟮c13;s∞;ℤ⟯</span>
       <div class="onion-box">
-        <span>⟮c14;s:∞;ℕ<br><br>⟯</span>
+        <span>⟮c14;s∞;ℕ<br><br>⟯</span>
       </div>
     </div>
   </div>
@@ -464,7 +464,7 @@ The ⟮c106;length⟯ ⟮c107;k⟯ of ⟮c108;walks/trails/paths/circuits/cycles
 [[[⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯]]]
 
 ⟮c113;Two vertices⟯ are ⟮c110;connected⟯ if ⟮c111;there is a path between two vertices⟯, else ⟮s110;they are ⟮c112;disconnected⟯.⟯ 
-⟮c114;A graph⟯ is ⟮c115;connected⟯ if ⟮c116;every pair of vertices are connected⟯, ergo ⟮c117;s:b;there is a path between any two vertices⟯, else it is ⟮c118;s:b;disconnected⟯. 
+⟮c114;A graph⟯ is ⟮c115;connected⟯ if ⟮c116;every pair of vertices are connected⟯, ergo ⟮c117;sb;there is a path between any two vertices⟯, else it is ⟮c118;sb;disconnected⟯. 
 
 A ⟮c119;subgraph⟯ is a ⟮c120;graph⟯ made up of ⟮c121;a subset of⟯ ⟮c122;vertices⟯ and ⟮c122;edges⟯ of G. ⟮sb;The ⟮c123;subset of vertices⟯ ⟮c125;must contain⟯ ⟮c124;all endpoints of the edges⟯.⟯ 
 A ⟮c126;subtree⟯ is a ⟮c127;subgraph⟯ of a ⟮c128;tree⟯. 
@@ -670,7 +670,7 @@ b^-n = 1/(b^{-1})
 A function/operation/etc. is ⟮c1;idempotent⟯ if ⟮c2;it can be applied mulitple times⟯ without ⟮c3;changing the result⟯ ⟮c4;beyond the initial application⟯. 
 Examples for i⟮c5;dempotent functions⟯ include ⟮c1;abs(x), floor(x), ceil(x) etc.⟯ 
 
-[[[⟮h∞;uh:6-7;<img src="sm_256-512.png">⟯⟮h∞;uh:6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯]]]
+[[[⟮h∞;uh6-7;<img src="sm_256-512.png">⟯⟮h∞;uh6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯]]]
 the ⟮c6;right image⟯'s button is ⟮c7;idempotent⟯, the ⟮c6;left image⟯'s is ⟮c7;not⟯ 
 
 #### commutative
@@ -726,7 +726,7 @@ The description "Polish" refers to the nationality of logician Jan Łukasiewicz,
 
 ## dice
 
-A ⟮c1;natural x⟯ (e.g. ⟮c2;s:1,4-6;natural 1, natural 20⟯ ) is a ⟮c3;roll⟯ that ⟮c4;has a specific number⟯ (most commonly ⟮c5;s:4;the highest/lowest of the die⟯ ) ⟮c6;without any modifiers⟯.
+A ⟮c1;natural x⟯ (e.g. ⟮c2;s1,4-6;natural 1, natural 20⟯ ) is a ⟮c3;roll⟯ that ⟮c4;has a specific number⟯ (most commonly ⟮c5;s4;the highest/lowest of the die⟯ ) ⟮c6;without any modifiers⟯.
 
 ## terminology
 
@@ -785,10 +785,10 @@ A ⟮c5;statistic⟯ that ⟮c6;is being used to estimate⟯ a ⟮c7;parameter�
 #### Types of errors
 
   <tbody></td>
-      <th>⟮c7;s:5-8;H<sub>0</sub> true⟯|⟮c8;s:5-8;H<sub>0</sub> false⟯
-⟮c5;s:5-8;reject H<sub>0</sub>⟯</th>
-      <td>⟮c1;s:1-4;Type I error⟯|⟮c2;s:1-4;Correct Conclusion⟯⟮c6;s:5-8;fail to reject H<sub>0</sub>⟯</th>
-      <td>⟮c3;s:1-4;Correct Conclusion⟯|⟮c4;s:1-4;Type II error⟯
+      <th>⟮c7;s5-8;H<sub>0</sub> true⟯|⟮c8;s5-8;H<sub>0</sub> false⟯
+⟮c5;s5-8;reject H<sub>0</sub>⟯</th>
+      <td>⟮c1;s1-4;Type I error⟯|⟮c2;s1-4;Correct Conclusion⟯⟮c6;s5-8;fail to reject H<sub>0</sub>⟯</th>
+      <td>⟮c3;s1-4;Correct Conclusion⟯|⟮c4;s1-4;Type II error⟯
 
 
 # applied
@@ -870,7 +870,7 @@ unit name|unit symbol|measure
 
 ###### length
 
-The ⟮c1;quart⟯ ⟮(c:3;s:1;q⟯) is exactly ⟮c2;1/4 mm⟯. 
+The ⟮c1;quart⟯ ⟮(c:3;s1;q⟯) is exactly ⟮c2;1/4 mm⟯. 
 
 ###### temperature
 
