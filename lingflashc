@@ -174,18 +174,26 @@ Phrases are constituents, but not all constituents are phrases.
 Constituents are identified by using constituent tests.
 There are many constituent tests in english, among which are: proform substitution
 proform test: Substitute the relevant proform, perform a grammaticality judgement
-<pre><code data-codetype="text">The lady running the group handed in her resignation at noon.
-The lady running the group did so at noon.</code></pre>
+```lang=text;
+The lady running the group handed in her resignation at noon.
+The lady running the group did so at noon.
+```
 cleft test: Move the string into the main clause of a cleft sentence (It was/is x that...)
-<pre><code data-codetype="text">The guests from overseas visited the best parts of the city on Monday
-It was the best parts of the city that the guests from overseas visited on Monday.</code></pre>
+```lang=text;
+The guests from overseas visited the best parts of the city on Monday
+It was the best parts of the city that the guests from overseas visited on Monday.
+```
 question test: Ask for the string in question with a wh-question.
-<pre><code data-codetype="text">The lady running the group handed in her resignation at noon.
+```lang=text;
+The lady running the group handed in her resignation at noon.
 What did the lady running the group hand in at noon?
-Her resignation.</code></pre>
+Her resignation.
+```
 Movement test: move string to different position in sentence.
-<pre><code data-codetype="text">Gertrude wasn't interested in art.
-Interested in art, Gertrude wasn't.</code></pre>
+```lang=text;
+Gertrude wasn't interested in art.
+Interested in art, Gertrude wasn't.
+```
 
 ##### phrasees
 
@@ -979,11 +987,13 @@ A {{c1::libfix}} is a {{c2::productive}} {{c3::bound morpheme affix}} created by
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
 The thing that a clitic attaches to is its host.
 When something is being attached as a clitic, it is {{c1::cliticising}}
-<pre><code data-codetype="text">It<mark>'s</mark> a boy!
+```lang=text;
+It<mark>'s</mark> a boy!
 I<mark>'m</mark> terribly sorry.
 >The queen<mark>'s</mark> balls.
 I haven<mark>'t</mark> the faintest.
-Senatus Populus<mark>que</mark> Romanus</code></pre> 
+Senatus Populus<mark>que</mark> Romanus
+``` 
 Enclitic   A clitic that appears after its host
 Mesoclitic   A clitic that appears between the stem of the host and other affixes
 Proclitic   A clitic that appears before its host
@@ -2400,10 +2410,12 @@ A scalar implicature is where a less informative statement implicates the deinia
 Scalar implicatuers are explained by grice via the violation of the maxim of quantity, and thus the supposion of the implicature is necessary to make it consistent with the CP.
 
 In the context of {{c1::pragmatics}}, {{c2::Implicational scale}} has a somewhat different meaning, referring to {{c3::the scales}} from {{c4::weaker to stronger}} statements that are used in {{c5::quantity implicatures}}
-<pre><code data-codetype="text">{all, most, many, some}
+```lang=text;
+{all, most, many, some}
 {always, often, sometimes}
 {succeed in, try to, want to}
-{certain, probable, possible}</code></pre>
+{certain, probable, possible}
+```
 
 #### Reference
 
@@ -2537,11 +2549,13 @@ The fact that we can dress ideas up in fancy clothes, but this is not something 
 What does the fact that in an argument we can lose sight of the part of the argument where we're giving a valuable resource show about the structuring of structural metaphor? <span class="divider">-&gt;</span> {{c1::that its only partial (and thus hides things)}}
 What langauge did Lakoff and Johnson study for Metaphors We Live By? <span class="divider">-&gt;</span> {{c1::english}}
 for <span class="conceptual-metaphor">love is a journey</span>, the source domain is {{c1::journey}}, the target domain is love
-<pre><code>I don’t have the time to give you. 
+```
+I don’t have the time to give you. 
 How do you spend your time these days? 
 That flat tire cost me an hour. 
 I’ve invested a lot of time in her. 
-I don’t have enough time to spare for that. </code></pre>   <span class="conceptual-metaphor">time is money / a limited resource / a valuable commodity (all related)</span>
+I don’t have enough time to spare for that. 
+```   <span class="conceptual-metaphor">time is money / a limited resource / a valuable commodity (all related)</span>
 A single conceptual metaphor   a mapping
 One of the metaphors that underlie our conceptual system   A conceptual metaphor
 The thing that is mapped from (the thing that provides the structure)   the source domain
@@ -3020,9 +3034,11 @@ An ⟮c:22;emoticon⟯ represents ⟮c:23;a face⟯ using  ⟮c:21;typographical
 
 ⟮c:13;顔文字⟯ (reading ⟮c:14;かおもじ⟯ ) have ⟮c:15;faces⟯ oriented how ⟮c:16;top-to-bottom⟯ 
 General pattern for kaomoji:
-<pre><code>kaomoji ::= ⟮c:17;[&lt;left-arm&gt;]⟯⟮c:27;&lt;head&gt;⟯⟮c:17;[&lt;right-arm&gt;]⟯
+```
+kaomoji ::= ⟮c:17;[&lt;left-arm&gt;]⟯⟮c:27;&lt;head&gt;⟯⟮c:17;[&lt;right-arm&gt;]⟯
 ⟮h:gb;((c:30;::head⟯ ::= ⟮c:18;[&lt;left-head&gt;]⟯⟮c:28;&lt;face&gt;⟯⟮c:18;[&lt;right-head&gt;]⟯
-⟮h:gb;((c:31;::face⟯ ::= ⟮c:19;[&lt;left-cheek&gt;]⟯⟮c:29;&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;⟯⟮c:19;[&lt;right-cheek&gt;]⟯))))</code></pre>
+⟮h:gb;((c:31;::face⟯ ::= ⟮c:19;[&lt;left-cheek&gt;]⟯⟮c:29;&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;⟯⟮c:19;[&lt;right-cheek&gt;]⟯))))
+```
 most common ⟮c:32;head delimiters⟯: ⟮c:33;(⟯) 
 
 

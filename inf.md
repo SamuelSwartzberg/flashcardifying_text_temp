@@ -58,8 +58,9 @@ the {{c20::XML declaration}} takes {{c5::three}} parameters:
 
 </div>
 <p class="c1-11-scr">Of these, `{{c12::version}}` is {{c13::mandatory}}. It's syntax is:</p>
-<div class="c1-11-scr"><pre><code>{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
-</code></pre></div>
+<div class="c1-11-scr">```
+{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
+```</div>
 
 ### doctype
 
@@ -1795,7 +1796,8 @@ counter-style ::= <list-style-type>|<@counter-style>
 The css functions counter() and counters() takes a necessary first argument of the name of the counter. 
 counters() differs from counter() in that it takes a middle argument of a string, and separates multiple instances of the counter with the given string.
 
-<pre><code>ol {
+```
+ol {
   counter-reset: section;                /* Creates a new instance of the
                                             section counter with each ol
                                             element */
@@ -1808,9 +1810,11 @@ li::before {
   content: counters(section, ".") " ";   /* Combines the values of all instances
                                             of the section counter, separated
                                             by a period */
-}</code></pre>
+}
+```
 
-<pre><code><ol>
+```
+<ol>
   <li>item</li>          <!-- 1     -->
   <li>item               <!-- 2     -->
     <ol>
@@ -1836,7 +1840,8 @@ li::before {
 <ol>
   <li>item</li>          <!-- 1     -->
   <li>item</li>          <!-- 2     -->
-</ol></code></pre>
+</ol>
+```
 
 ###### animations & transitions
 
@@ -2602,7 +2607,8 @@ at the heart of the {{c1::System UI Theme Specification}} are {{c2::scales}} -
 scales are {{c3::arrays}} or {{c3::objects}} of {{c4::predefined sets of values}}, for things such as {{c5::font sizes}}, {{c5::colors}}, etc.
 According to the {{c1::System UI Theme Specification}}, the {{c4::CSS properties}} that accept {{c2::only a small, finite number}} of valid CSS values {{c3::should not be included as a scale object}}.
 According to the {{c1::System UI Theme Specification}}, a {{c2::key}} defining a {{c2::scale}} should be called the {{c3::same thing as the css property}}, except {{c4::plural}} (except for the weirdly-named `{{c4::space}}`) and {{c5::camelCase}}, unless there are {{c6::multiple css properties it might be used for}}
-<pre><code>// example fontSizes scale as an array
+```
+// example fontSizes scale as an array
 fontSizes: [
   12, 14, 16, 20, 24, 32 
 ]
@@ -2620,7 +2626,8 @@ colors: {
     '#2d8fd5',
     '#5aa7de',
   ]
-}</code></pre>
+}
+```
   <thead>scales|CSS Properties
   <tbody>`space`|
         `margin`, `margin-top`, `margin-right`,
@@ -2654,7 +2661,8 @@ colors: {
 ##### nested rules
 
 In SCSS/Sass and other CSS preprocessors, to achieve ⟮c:2;nested selectors⟯, you can ⟮c:3;nest entire rules⟯. 
-<pre><code>nav {
+```
+nav {
   ul {
     margin: 0;
     padding: 0;
@@ -2668,36 +2676,45 @@ In SCSS/Sass and other CSS preprocessors, to achieve ⟮c:2;nested selectors⟯,
     padding: 6px 12px;
     text-decoration: none;
   }
-}</code></pre>
+}
+```
 
 In ⟮c:4;nested rules⟯'s selectors, ⟮c:5;&amp;⟯ refers to ⟮c:6;the parent selector⟯. 
 In nested rules's selectors, ⟮c:7;&amp;⟯ is useful if ⟮c:8;you want to combine selectors in complex ways⟯ 
 In ⟮c:9;nested rules⟯'s selectors, ⟮c:10;@at-root⟯ ⟮c:11;goes back up to the nesting tree.⟯ 
 
-<pre><code>.parent {
+```
+.parent {
   .child {
     ⟮c:1;&amp; div &amp; &amp; &gt; a⟯ {}
   }
-}</code></pre>
+}
+```
 compiles to `⟮c:12;.parent .child div .parent .child .parent .child &gt; a {⟯}`
 
-<pre><code>.grand-parent {
+```
+.grand-parent {
   .parent {
     @at-root .child {}
   }
-}</code></pre>
+}
+```
 compiles to `⟮c:13;.child {}⟯`
 
-<pre><code>.button {
+```
+.button {
   &amp;:visited { }
   &amp;:hover { }
   &amp;:active { }
-}</code></pre> compiles to `⟮c:14;.button:visited { } .button:hover { } .button:active { } ⟯`
+}
+``` compiles to `⟮c:14;.button:visited { } .button:hover { } .button:active { } ⟯`
 
-<pre><code>.btn {
+```
+.btn {
   &amp;-primary {}
   &amp;-secondary {}
-}</code></pre> compiles to `⟮c:15;.btn-primary {} .btn-secondary {} ⟯`
+}
+``` compiles to `⟮c:15;.btn-primary {} .btn-secondary {} ⟯`
 
 #### CSS processing
 
@@ -2726,7 +2743,8 @@ A SCSS/Sass ⟮c:7;placeholder selector⟯ has the syntax ⟮c:8;`%foo`⟯.
 You put SCSS/Sass ⟮c:9;placeholder selector⟯ where ⟮c:10;selectors⟯ would go. 
 An SCSS/sass ⟮c:11;placeholder selector⟯ itself is a ⟮c:12;selector⟯ that ⟮c:13;doesn't select anything⟯. 
 An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`ed⟯. 
-<pre><code>%toolbelt {
+```
+%toolbelt {
   box-sizing: border-box;
   border-top: 1px rgba(#000, .12) solid;
   padding: 16px 0;
@@ -2743,7 +2761,8 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
 .reset-buttons {
   @extend %toolbelt;
   color: #cddc39;
-}</code></pre>
+}
+```
 
 ###### mixins
 
@@ -2754,7 +2773,8 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
 ± though using the @mixin and @include keywords, as SCSS/Sass also has @function ±<br>
 ⟮c:14;@content⟯ refers to ⟮c:15;a passed-in css block⟯ in @⟮c:16;mixin⟯. 
 
-<pre><code>@mixin button() {
+```
+@mixin button() {
     ...
     @content;
 }
@@ -2763,8 +2783,10 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
     @include button {
         color: #F00;
     }
-}</code></pre>
-<pre><code>@mixin replace-text($image, $x: 50%, $y: 50%) {
+}
+```
+```
+@mixin replace-text($image, $x: 50%, $y: 50%) {
   text-indent: -99999em;
   overflow: hidden;
   text-align: left;
@@ -2778,7 +2800,8 @@ An SCSS/sass ⟮c:14;placeholder selector⟯ is designed to be ⟮c:15;`@extend`
 
 .mail-icon {
   @include replace-text(url("/images/mail.svg"), 0);
-}</code></pre>
+}
+```
 
 
 #### CSS naming schemes
@@ -2820,7 +2843,8 @@ next to its own technologies, bootstrap may require popper
 <h2>
   Using ⟮c:7;Tailwind CSS⟯, code might look like this:
 </h2>
-((c:8;h:8;::<pre><code data-codetype="html">&lt;div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"&gt;
+((c:8;h:8;::```lang=html;
+&lt;div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"&gt;
   &lt;div class="flex-shrink-0"&gt;
     &lt;img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"&gt;
   &lt;/div&gt;
@@ -2828,7 +2852,8 @@ next to its own technologies, bootstrap may require popper
     &lt;div class="text-xl font-medium text-black"&gt;ChitChat&lt;/div&gt;
     &lt;p class="text-gray-500"&gt;You have a new message!&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>))
+&lt;/div&gt;
+```))
 
 # data
 
@@ -4840,7 +4865,8 @@ Many of imagemagicks arguments needing to specify ⟮c:50;some kind of shape/siz
     <tr><th colspan="2">Imagemagick subcommands
   <tbody class="cloze-group-children hide-if-inactive-children">
 ⟮c:1;`import`⟯|⟮c:2;Imagemagick screenshot utility⟯
-⟮c:3;`identify`⟯|((c:4;::Imagemagick display details of an image file<pre><code data-codetype="text">magick identify -verbose rose.jpg
+⟮c:3;`identify`⟯|((c:4;::Imagemagick display details of an image file```lang=text;
+magick identify -verbose rose.jpg
 Image: rose.jpg
   Format: JPEG (Joint Photographic Experts Group JFIF format)
   Mime type: image/jpeg
@@ -4848,7 +4874,8 @@ Image: rose.jpg
   Geometry: 70x46+0+0
   Units: Undefined
   Type: TrueColor
-...</code></pre>))
+...
+```))
 ⟮c:5;`display`⟯|⟮c:6;Imagemagick image viewer⟯
 ⟮c:7;`animate`⟯|⟮c:8;Imagemagick animation creator⟯
 ⟮c:9;`compare`⟯|⟮c:10;Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">⟯
@@ -5232,9 +5259,11 @@ the ⟮c:54;cases environment⟯ renders ⟮c:55;multiple lines⟯ with ⟮c:56;
 
 For ⟮c:13;\newtheorem⟯, if ⟮c:12;[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮c:14;a reference to another theorem⟯ -&gt; ⟮c:14;with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮c:15;a reference to a section⟯ -&gt; ⟮c:15;under which it will be numbered⟯ 
 
-<pre><code>\newtheorem{theo}{Theorem}
+```
+\newtheorem{theo}{Theorem}
 ...
-\begin{theo}</code></pre>
+\begin{theo}
+```
 
 
 ######## Symbols
@@ -6480,7 +6509,8 @@ Text expanders are programs which allow OS-wide macros.
 ⟮c:2;Espanso variables⟯ are made available in the ⟮c:1;environment⟯ of the `shell` type. 
 An espanso var with `⟮c:3;name: foo⟯` will be available as `⟮c:4;$ESPANSO_FOO⟯` for any shell scripts. 
 ⟮c:5;fields within a form⟯ are available as `⟮c:6;$ESPANSO_FORMNAME_FIELDNAME⟯` for any espanso shell scripts 
-<pre><code data-codetype="yaml">- trigger: ":reversed"
+```lang=yaml;
+- trigger: ":reversed"
   replace: "Reversed {{myshell}}"
   vars:
     - name: mytime
@@ -6490,11 +6520,13 @@ An espanso var with `⟮c:3;name: foo⟯` will be available as `⟮c:4;$ESPANSO_
     - name: myshell
       type: shell
       params:
-        cmd: "echo $ESPANSO_MYTIME | rev"</code></pre>
+        cmd: "echo $ESPANSO_MYTIME | rev"
+```
 
 
 to ⟮c:2;insert a random choice of different options⟯ use the type ⟮c:1;random⟯, ⟮c:3;the options⟯ are specified ⟮c:4;in the choices sequence of params⟯ 
-<pre><code>  - trigger: ":quote"
+```
+  - trigger: ":quote"
     replace: "{{output}}"
     vars:
       - name: output
@@ -6503,7 +6535,8 @@ to ⟮c:2;insert a random choice of different options⟯ use the type ⟮c:1;ran
           choices:
             - "Every moment is a fresh beginning."
             - "Everything you can imagine is real."
-            - "Whatever you do, do it well."</code></pre>
+            - "Whatever you do, do it well."
+```
 
 ### kernelland
 
@@ -8116,7 +8149,8 @@ You can ⟮c:17;list available formats for --format⟯ with ⟮c:18;--list-forma
 
 
 --format accepts a sophisticated syntax as an argument: (it's actually slightly more complicated, but I've simplified a little)
-<pre><code>Format specifier syntax: ⟮c:19;--format⟯ ⟮c:20;&lt;format-specifier&gt;⟯⟮c:21;{,&lt;format-specifier&gt;⟯}  # for ⟮c:22;downloading mutliple formats at once⟯
+```
+Format specifier syntax: ⟮c:19;--format⟯ ⟮c:20;&lt;format-specifier&gt;⟯⟮c:21;{,&lt;format-specifier&gt;⟯}  # for ⟮c:22;downloading mutliple formats at once⟯
 ⟮c:23;format-specifier⟯: ⟮c:24;&lt;single-format&gt;⟯⟮c:25;{/&lt;single-format&gt;⟯} # for ⟮c:26;relative precedence of multiple formats, depending on what's available⟯
 ⟮c:27;single-format⟯: ⟮c:28;&lt;single-format-selector&gt;[+&lt;single-format-selector&gt;]⟯ # if ⟮c:29;two are specified⟯, ⟮c:30;the first one is for video and the second is for audio⟯
 ⟮c:31;single-format-selector⟯: ⟮c:32;[&lt;general-quality&gt;]⟯⟮c:33;{\[&lt;property&gt;&lt;operator&gt;&lt;value&gt;\]⟯}
@@ -8124,7 +8158,8 @@ You can ⟮c:17;list available formats for --format⟯ with ⟮c:18;--list-forma
 ⟮c:36;file-extension⟯: # will ⟮c:37;get the best format⟯ of ⟮c:38;the given file extension, e.g. mp3⟯
 ⟮c:39;quality-keyword⟯: ⟮c:40;best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |⟯
 ⟮c:41;property⟯: # things such as ⟮c:42;filesize, width, height, tbr (total average bitrate), fps, ...⟯
-⟮c:43;operator⟯: # things such as ⟮c:44;=, !=, &gt;.... as well as ^=, $=, *= etc.⟯</code></pre>
+⟮c:43;operator⟯: # things such as ⟮c:44;=, !=, &gt;.... as well as ^=, $=, *= etc.⟯
+```
 
 
 The ⟮c:45;s:46;-x⟯/⟮c:46;s:45;--extract-audio⟯ option makes ⟮c:47;youtube-dl extract the audio into its own file⟯. 
@@ -9321,9 +9356,11 @@ elsif|liquid|perl|ruby
 elif|Python|(ba)sh
   
 Anki has a if-like conditional to show something only if a field has content, indicated like: 
-<pre><code data-codetype="text">{{c1::{​{}}{{c2::#FieldName}}{{c1::}​}}}
+```lang=text;
+{{c1::{​{}}{{c2::#FieldName}}{{c1::}​}}}
 	Lorem Ipsum
-{{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}</code></pre>
+{{c1::{​{}}{{c3::/FieldName}}{{c1::}​}}}
+```
 
 ##### conditional operator
 
@@ -9365,11 +9402,13 @@ In C-family languages, switch cases are generally syntactically equivalent to la
 
 JS Syntax examples:
 
-<pre><code>switch (expression) {
+```
+switch (expression) {
   {{c1::case}} {{c2::}}value1{{c2::}}{{c3:::}}
    //Statements;
    {{c4::default:}}
-}</code></pre>
+}
+```
 
 ##### guards
 
@@ -12185,9 +12224,11 @@ A web framework is a framework for use in web development.
 ⟮c:1;Liquid⟯ ⟮c:2;tags⟯ look like this ⟮c:3;{% ... %⟯}. 
 Liquid ⟮c:4;tags⟯ ⟮c:5;surround⟯ ⟮c:6;logic/control flow⟯. 
 In liquid, ⟮c:7;outputting⟯ is generally done ⟮c:8;within double curly braces {{ ... ⟯}} 
-<pre><code>{% if user %} 
+```
+{% if user %} 
 Hello {{ user.name }}! 
-{% endif %}</code></pre> 
+{% endif %}
+``` 
 ⟮c:9;adding a -⟯ ⟮c:10;to {{ or {%⟯ ⟮h:9,10;like {{-, {%-⟯ ⟮c:11;strips whitespace from the relevant side⟯ 
 
 ⟮c:9;Liquids⟯ ⟮c:10;loops⟯ are odd in that the⟮c:11;y accept a number of additional parameters⟯ ⟮c:12;after the main condition⟯, in the format ⟮c:13;key:value⟯ and separated by ⟮c:14;spaces⟯ 
@@ -12201,9 +12242,11 @@ Hello {{ user.name }}!
 ⟮c:7;only do n iterations⟯|⟮c:8;limit:n⟯
 
 
-<pre><code>{% for item in array foo:bar foo2:bar2 %}
+```
+{% for item in array foo:bar foo2:bar2 %}
   {{ item }}
-{% endfor %}</code></pre>
+{% endfor %}
+```
 
 
 ⟮c:1;cycle⟯ ⟮c:2;takes n arguments⟯ and ⟮c:3;prints the next one (from the last time this  was called⟯). 
@@ -12225,7 +12268,8 @@ The syntax for the cycle ⟮c:13;group parameter⟯ is ` ⟮c:14;"name":⟯`.
 ⟮c:7;{% tablerow foo in bar ...⟯|⟮c:8;generate html tables⟯
 
 
-<pre><code>{% liquid
+```
+{% liquid
 case section.blocks.size
 when 1
   assign column_size = ''
@@ -12235,7 +12279,8 @@ when 3
   assign column_size = 'one-third'
 else
   assign column_size = 'one-quarter'
-endcase %}</code></pre>
+endcase %}
+```
 
 There are ⟮c:1;two different namespaces⟯ for ⟮c:2;variables⟯ in ⟮c:3;liquid⟯: one for ⟮c:4;assign/capture⟯ and one for ⟮c:5;increment/decrement⟯ 
 ⟮c:6;Normal variable assignment⟯ uses the ⟮c:7;assign⟯ keyword 
@@ -12917,7 +12962,8 @@ d8 is the developer shell for v8
 ⟮c:6;pseudocode⟯ is ⟮c:7;a plain-language description⟯ of ⟮c:8;an algorithm⟯. 
 ⟮c:9;Pseudocode⟯ generally ⟮c:10;uses (structural) conventions of⟯ ⟮c:11;programming languages⟯, but not ⟮c:10;specific syntax⟯. 
 
-<pre><code data-codetype="text">When a button is pressed:
+```lang=text;
+When a button is pressed:
   Get some memory, which will be used to remember the floor number
   Put the floor number into the memory
   Are we already on the target floor?
@@ -12926,7 +12972,7 @@ d8 is the developer shell for v8
       Wait until the lift is idle
       Go to the required floor
       Release the memory we used to remember the floor number
-</code></pre>
+```
 
 ### properties
 
@@ -12942,9 +12988,11 @@ a deterministic algorithim/callable unit will, given a particular input {{c1::al
 
 <img src="sm_1280px-Binary_Search_Depiction.svg.png">
 ⟮c:1;Binary search⟯ 
-<pre><code>⟮c:2;take middle element⟯ 
+```
+⟮c:2;take middle element⟯ 
 ⟮c:3;if equal, done⟯ 
-⟮c:4;else take relevant half and repeat⟯ </code></pre> 
+⟮c:4;else take relevant half and repeat⟯ 
+``` 
 ⟮c:5;binary search⟯ has a ⟮c:7;worst-case time complexity⟯ of ⟮c:6;O(log n⟯) 
 ⟮c:8;Binary⟯ search can only be done on something that is ⟮c:9;sorted⟯. 
 

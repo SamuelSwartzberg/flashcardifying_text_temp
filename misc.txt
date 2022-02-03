@@ -804,7 +804,9 @@ Within ⟮c:4;action text⟯, fountain ⟮c:5;preserves your whitespace choices�
 The ⟮c:7;line⟯ ⟮c:8;starting a scene⟯ is called ⟮c:9;a scene heading⟯. 
 A ⟮c:10;scene heading⟯ is usually in ⟮c:11;all caps⟯. 
 §§ ⟮c:12;Scene headings⟯ tell you ⟮c:13;outsideness⟯, ⟮c:14;location⟯, and ⟮c:15;time⟯. §<br><div class="cloze-group hide-if-inactive">A ⟮c:6;scene heading⟯ usually looks sth like this:
-  <pre><code data-codetype="text">⟮c:1;EXT or INT etc.⟯⟮c:3;.⟯ ⟮c:2;LOCATION⟯ ⟮c:4;-⟯ ⟮c:5;TIME⟯</code></pre></div>
+  ```lang=text;
+⟮c:1;EXT or INT etc.⟯⟮c:3;.⟯ ⟮c:2;LOCATION⟯ ⟮c:4;-⟯ ⟮c:5;TIME⟯
+```</div>
 In fountain, ⟮c:16;scene headings⟯ are ⟮c:17;separated from the rest of the text⟯ by ⟮c:18;blank lines⟯. 
 In fountain scene headings ⟮c:19;must start with⟯ ⟮c:20;EXT/INT etc.⟯ unless forced 
 §§ In fountain, you can indicate ⟮c:21;scene numbers⟯ by ⟮c:22;wrapping them in #foo#⟯, they are placed at ⟮c:23;the end of scene headings⟯ §<br>
@@ -944,12 +946,14 @@ The ⟮c:17;eight directions between the intercardinal directions⟯ I will term
 The ⟮c:19;interintercardinal directions⟯ have the syntax ⟮c:20;&lt;cardinal-direction&gt;&lt;intercardinal-direction&gt;⟯&nbsp;, where the intercardinal direction and the cardinal are ⟮c:21;those they are closest to⟯. 
 The sixteen directions ⟮c:22;between the interintercardinal directions⟯ I wil term ⟮c:23;interinterintercardinal directions⟯. 
 Generating the ⟮c:24;interinterintercardinal directions⟯ follows the following algorithm:
-<pre><code>let iiicString = ⟮c:25;iic.closest(cardinal or intercardinal direcction⟯)
+```
+let iiicString = ⟮c:25;iic.closest(cardinal or intercardinal direcction⟯)
 ⟮c:26;iicString += "by"⟯
 if ⟮c:27;iic.isClockwiseOf(closest(cardinal or intercardinal direcction⟯))
   ⟮c:28;iicString += closestClockwise(cardinal direction⟯)
 else 
-  ⟮c:29;iicString += closesCounterclockwise(cardinal direction⟯)</code></pre>
+  ⟮c:29;iicString += closesCounterclockwise(cardinal direction⟯)
+```
 compass rose
 
   <tbody>|⟮c:1;s:all;N⟯|

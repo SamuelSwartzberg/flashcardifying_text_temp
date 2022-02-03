@@ -104,9 +104,11 @@ The bias paradox is the tension between the situated knowledge thesis and the in
 #### abduction
 
 If abduction was deductive, it would be equivalent to the fehlschluss affirming the consequent
-<pre><code data-codetype="text">(1) a -&gt; b
+```lang=text;
+(1) a -&gt; b
 (2) b
-(3) Therefore: a</code></pre>
+(3) Therefore: a
+```
 
 #### induction
 
