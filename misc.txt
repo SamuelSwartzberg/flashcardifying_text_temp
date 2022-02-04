@@ -651,6 +651,10 @@ If we're reporting a house fire, and we mention the location, time and cause of 
 Nora Ephron had an assignment to write a ⁑opening⁑ for a news story about t⁑eachers going to speak⁑ in a neighboring city on ⁑thursday⁑ for the ⁑school paper⁑. What (according to her teacher) is the ⁑lede⁑ for this story?  ⟮c8;There will be no school next thursday.⟯ 
 A doctor is giving a speech about fad diets and physical fitness to a group of local businesspeople. Midway through his speech, the good doctor collapses of a heart attack. He dies en route to the hospital. What should definitely be  in the lede? ⟮c9;the death (and prob the heartattack⟯) 
 
+### rap
+
+In rap, there are generally ⟮c1;4 beats⟯ in ⟮c2;a bar⟯, ⟮hb;and ⟮c3;4 bars⟯ in ⟮c4;a verse⟯. the beats are generally spaced ⟮c5;equally⟯, and ⟮c6;the beats 2 and 4⟯ have ⟮c7;the snares / hi-hats⟯.⟯ 
+
 ### poetry
 
 #### properties
@@ -4047,1088 +4051,710 @@ Double Coin Knot
 6. ⟮c7;s∞;<img src="sm_Prusik-Head-1-07.jpg">⟯
 7. ⟮c8;s∞;<img src="sm_Prusik-Head-1-07.jpg">⟯
 
-# Spanish
-
-There are a number of verbs that ⟮c12;stem-change⟯ in the ⟮c13;preterite⟯. they all take the following endings 
--e
--iste
--o
--imos
--isteis
--ieron
-
-and change like this: 
-Infinitive|Stem Change
-andar|⟮c1;anduv-⟯
-estar|⟮c2;estuv-⟯
-tener|⟮c3;tuv-⟯
-caber|⟮c4;cup-⟯
-haber|⟮c5;hub-⟯
-poder|⟮c6;pud-⟯
-poner|⟮c7;pus-⟯
-saber|⟮c8;sup-⟯
-hacer|⟮c9;hic-⟯
-querer|⟮c10;quis-⟯
-venir|⟮c11;vin-⟯
-
+# text by heart
+
+## hamilton
+
+### Who Lives, Who Dies, Who Tells Your Story (extract of beginning)
+
+!> ⟮c1;sb;Let me tell you what I wish I’d known ⟯
+!> ⟮c2;sb;When I was young and dreamed of glory ⟯
+!> ⟮c3;sb;You have no control:⟯
+!> ⟮c4;sb;Who lives ⟯
+!> ⟮c5;sb;Who dies ⟯
+!> ⟮c6;sb;Who tells your story?⟯
+
+### Non-Stop (extract)
+
+!> ⟮c1;sb;Alexander joins forces with James Madison and John Jay to write a series⟯
+!> ⟮c2;sb;of essays defending the new United States Constitution,⟯
+!> ⟮c3;sb;entitled The Federalist Papers.⟯
+!> ⟮c4;sb;The plan was to write a total of twenty-five essays,⟯
+!> ⟮c5;sb;the work divided evenly among the three men. In the end,⟯
+!> ⟮c6;sb;they wrote eighty-five essays,⟯
+!> ⟮c7;sb;in the span of six months. John Jay got sick after writing five.⟯
+!> ⟮c8;sb;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯
+
+### Alexander Hamilton
+
+!AARON BURR
+!> ⟮c1;sb;How does a bastard, orphan, son of a whore and a⟯
+!> ⟮c2;sb;Scotsman, dropped in the middle of a forgotten⟯
+!> ⟮c3;sb;Spot in the Caribbean by Providence, impoverished, in squalor⟯
+!> ⟮c4;sb;Grow up to be a hero and a scholar?⟯
+
+!JOHN LAURENS
+!> ⟮c5;sb;The ten-dollar Founding Father without a father⟯
+!> ⟮c6;sb;Got a lot farther by workin’ a lot harder⟯
+!> ⟮c7;sb;By bein’ a lot smarter⟯
+!> ⟮c8;sb;By bein’ a self-starter⟯
+!> ⟮c9;sb;By fourteen, they placed him in charge of a trading charter⟯
+
+!THOMAS JEFFERSON
+!> ⟮c10;sb;And every day while slaves were being slaughtered and carted⟯
+!> ⟮c11;sb;Away across the waves, he struggled and kept his guard up⟯
+!> ⟮c12;sb;Inside, he was longing for something to be a part of⟯
+!> ⟮c13;sb;The brother was ready to beg, steal, borrow, or barter⟯
+
+!JAMES MADISON
+!> ⟮c14;sb;Then a hurricane came, and devastation reigned⟯
+!> ⟮c15;sb;Our man saw his future drip, drippin’ down the drain⟯
+!> ⟮c16;sb;Put a pencil to his temple, connected it to his brain⟯
+!> ⟮c17;sb;And he wrote his first refrain, a testament to his pain⟯
+
+!BURR
+!> ⟮c18;sb;Well the word got around, they said, “This kid is insane, man!”⟯
+!> ⟮c19;sb;Took up a collection just to send him to the mainland⟯
+!> ⟮c20;sb;“Get your education, don’t forget from whence you came, and⟯
+!> ⟮c21;sb;The world’s gonna know your name! What’s your name, man?"⟯
+
+!ALEXANDER HAMILTON
+!> ⟮c22;sb;Alexander Hamilton⟯
+!> ⟮c23;sb;My name is Alexander Hamilton⟯
+!> ⟮c24;sb;And there’s a million things I haven’t done⟯
+!> ⟮c25;sb;But just you wait, just you wait⟯
+
+!ELIZA HAMILTON
+!> ⟮c26;sb;When he was ten, his father split, full of it, debt-ridden⟯
+!> ⟮c27;sb;Two years later, see Alex and his mother, bed-ridden⟯
+!> ⟮c28;sb;Half-dead, sittin’ in their own sick⟯
+!> ⟮c29;sb;The scent thick⟯
+
+!COMPANY
+!> ⟮c30;sb;And Alex got better but his mother went quick⟯
+
+!GEORGE WASHINGTON and (COMPANY)
+!> ⟮c31;sb;Moved in with a cousin, the cousin committed suicide⟯
+!> ⟮c32;sb;Left him with nothin’ but ruined pride, somethin’ new inside⟯
+!> ⟮c33;sb;A voice saying "(Alex) you gotta fend for yourself"⟯
+!> ⟮c34;sb;He started retreatin’ and readin’ every treatise on the shelf⟯
+
+!BURR and (COMPANY)
+!> ⟮c35;sb;There would’ve been nothin’ left to do⟯
+!> ⟮c36;sb;For someone less astute⟯
+!> ⟮c37;sb;He would’ve been dead or destitute⟯
+!> ⟮c38;sb;Without a cent of restitution⟯
+!> ⟮c39;sb;Started workin’, clerkin’ for his late mother’s landlord⟯
+!> ⟮c40;sb;Tradin’ sugar cane and rum and other things he can’t afford⟯
+!> ⟮c41;sb;(Scammin’) for every book he can get his hands on⟯
+!> ⟮c42;sb;(Plannin’) for the future, see him now as he stands on (oooh⟯)
+!> ⟮c43;sb;The bow of a ship headed for a new land⟯
+!> ⟮c44;sb;In New York you can be a new man⟯
+
+!COMPANY and (HAMILTON)
+!> ⟮c45;sb;In New York you can be a new man (Just you wait⟯)
+!> ⟮c46;sb;In New York you can be a new man (Just you wait⟯)
+!> ⟮c47;sb;In New York you can be a new man⟯
+
+!WOMEN
+!> ⟮c48;sb;In New York⟯
+
+!MEN
+!> ⟮c49;sb;New York⟯
+
+!HAMILTON
+!> ⟮c50;sb;Just you wait⟯
+
+!COMPANY and (COMPANY)
+!> ⟮c51;sb;Alexander Hamilton (Alexander Hamilton⟯)
+!> ⟮c52;sb;We are waiting in the wings for you (waiting in the wings for you⟯)
+!> ⟮c53;sb;You could never back down⟯
+!> ⟮c54;sb;You never learned to take your time⟯
+!> ⟮c55;sb;Oh, Alexander Hamilton (Alexander Hamilton⟯)
+!> ⟮c56;sb;When America sings for you⟯
+!> ⟮c57;sb;Will they know what you overcame?⟯
+!> ⟮c58;sb;Will they know you rewrote the game?⟯
+!> ⟮c59;sb;The world will never be the same, oh⟯
+
+!BURR and (COMPANY)
+!> ⟮c60;sb;The ship is in the harbor now, see if you can spot him(Just you wait⟯)
+!> ⟮c61;sb;Another immigrant comin’ up from the bottom(Just you wait⟯)
+!> ⟮c62;sb;His enemies destroyed his rep, America forgot him⟯
+
+!MULLIGAN/MADISON AND LAFAYETTE/JEFFERSON
+!> ⟮c63;sb;We fought with him⟯
+
+!LAURENS/PHILLIP
+!> ⟮c64;sb;Me? I died for him⟯
+
+!WASHINGTON
+!> ⟮c65;sb;Me? I trusted him⟯
+
+!ANGELICA SCHUYLER, ELIZA, MARIA REYNOLDS
+!> ⟮c66;sb;Me? I loved him⟯
+
+!BURR
+!> ⟮c67;sb;And me? I’m the damn fool that shot him⟯
+
+!COMPANY
+!> ⟮c68;sb;There’s a million things I haven’t done⟯
+!> ⟮c69;sb;But just you wait⟯
+
+!BURR
+!> ⟮c70;sb;What’s your name, man?⟯
+
+!HAMILTON &amp; COMPANY
+!> ⟮c71;sb;Alexander Hamilton!⟯
+
+## poetry
+
+### de
+
+#### Prometheus (Goethe)
+
+!> ⟮c1;sb;Bedecke deinen Himmel, Zeus,⟯
+!> ⟮c2;sb;Mit Wolkendunst,⟯
+!> ⟮c3;sb;Und übe, dem Knaben gleich,⟯
+!> ⟮c4;sb;Der Disteln köpft,⟯
+!> ⟮c5;sb;An Eichen dich und Bergeshöhn;⟯
+!> ⟮c6;sb;Musst mir meine Erde⟯
+!> ⟮c7;sb;Doch lassen stehn⟯
+!> ⟮c8;sb;Und meine Hütte, die du nicht gebaut,⟯
+!> ⟮c9;sb;Und meinen Herd,⟯
+!> ⟮c10;sb;Um dessen Glut⟯
+!> ⟮c11;sb;Du mich beneidest.⟯
+
+!> ⟮c12;sb;Ich kenne nichts Ärmeres⟯
+!> ⟮c13;sb;Unter der Sonn' als euch, Götter!⟯
+!> ⟮c14;sb;Ihr nähret kümmerlich⟯
+!> ⟮c15;sb;Von Opfersteuern⟯
+!> ⟮c16;sb;Und Gebetshauch⟯
+!> ⟮c17;sb;Eure Majestät,⟯
+!> ⟮c18;sb;Und darbtet, wären⟯
+!> ⟮c19;sb;Nicht Kinder und Bettler⟯
+!> ⟮c20;sb;Hoffnungsvolle Toren.⟯
+
+!> ⟮c21;sb;Da ich ein Kind war,⟯
+!> ⟮c22;sb;Nicht wusste wo aus noch ein,⟯
+!> ⟮c23;sb;Kehrt' ich mein verirrtes Auge⟯
+!> ⟮c24;sb;Zur Sonne, als wenn drüber wär'⟯
+!> ⟮c25;sb;Ein Ohr, zu hören meine Klage,⟯
+!> ⟮c26;sb;Ein Herz, wie mein's,⟯
+!> ⟮c27;sb;Sich des Bedrängten zu erbarmen.⟯
+
+!> ⟮c28;sb;Wer half mir⟯
+!> ⟮c29;sb;Wider der Titanen Übermut?⟯
+!> ⟮c30;sb;Wer rettete vom Tode mich,⟯
+!> ⟮c31;sb;Von Sklaverei?⟯
+!> ⟮c32;sb;Hast du nicht alles selbst vollendet,⟯
+!> ⟮c33;sb;Heilig glühend Herz?⟯
+!> ⟮c34;sb;Und glühtest jung und gut,⟯
+!> ⟮c35;sb;Betrogen, Rettungsdank⟯
+!> ⟮c36;sb;Dem Schlafenden da droben?⟯
+
+!> ⟮c37;sb;Ich dich ehren? Wofür?⟯
+!> ⟮c38;sb;Hast du die Schmerzen gelindert⟯
+!> ⟮c39;sb;Je des Beladenen?⟯
+!> ⟮c40;sb;Hast du die Tränen gestillet⟯
+!> ⟮c41;sb;Je des Geängsteten?⟯
+!> ⟮c42;sb;Hat nicht mich zum Manne geschmiedet⟯
+!> ⟮c43;sb;Die allmächtige Zeit⟯
+!> ⟮c44;sb;Und das ewige Schicksal,⟯
+!> ⟮c45;sb;Meine Herrn und deine?⟯
+
+!> ⟮c46;sb;Wähntest du etwa,⟯
+!> ⟮c47;sb;Ich sollte das Leben hassen,⟯
+!> ⟮c48;sb;In Wüsten fliehen,⟯
+!> ⟮c49;sb;Weil nicht alle⟯
+!> ⟮c50;sb;Blütenträume reiften?⟯
+
+!> ⟮c51;sb;Hier sitz' ich, forme Menschen⟯
+!> ⟮c52;sb;Nach meinem Bilde,⟯
+!> ⟮c53;sb;Ein Geschlecht, das mir gleich sei,⟯
+!> ⟮c54;sb;Zu leiden, zu weinen,⟯
+!> Zu ⟮c55;genießen⟯ ⟮c56;und zu freuen sich,⟯
+!> ⟮c57;sb;Und dein nicht zu achten,⟯
+!> ⟮c58;sb;Wie ich!⟯
+
+### ja
+
+#### Man'yōshū vol. 11, verse 2514 - 2513
+
+!> ⟮c1;sb;A faint clap of thunder⟯
+!> ⟮c2;sb;Clouded skies⟯
+!> ⟮c3;sb;Perhaps rain comes⟯
+!> ⟮c4;sb;If so, will you stay here with me?⟯
+
+!> ⟮c5;sb;A faint clap of thunder⟯
+!> ⟮c6;sb;Even if rain comes not⟯
+!> ⟮c7;sb;I will stay here⟯
+!> ⟮c8;sb;Together with you⟯
+
+### en
+
+#### Warming Her Pearls (by Carol Ann Duffy)
+
+!> ⟮c1;sb;Next to my own skin, her pearls. My mistress⟯
+!> ⟮c2;sb;bids me wear them, warm them, until evening⟯
+!> ⟮c3;sb;when I'll brush her hair. At six, I place them⟯
+!> ⟮c4;sb;round her cool, white throat. All day I think of her,⟯
+
+!> ⟮c5;sb;resting in the Yellow Room, contemplating silk⟯
+!> ⟮c6;sb;or taffeta, which gown tonight? She fans herself⟯
+!> ⟮c7;sb;whilst I work willingly, my slow heat entering⟯
+!> ⟮c8;sb;each pearl. Slack on my neck, her rope.⟯
+
+!> ⟮c9;sb;She's beautiful. I dream about her⟯
+!> ⟮c10;sb;in my attic bed; picture her dancing⟯
+!> ⟮c11;sb;with tall men, puzzled by my faint, persistent scent⟯
+!> ⟮c12;sb;beneath her French perfume, her milky stones.⟯
+
+!> ⟮c13;sb;I dust her shoulders with a rabbit's foot,⟯
+!> ⟮c14;sb;watch the soft blush seep through her skin⟯
+!> ⟮c15;sb;like an indolent sigh. In her looking-glass⟯
+!> ⟮c16;sb;my red lips part as though I want to speak.⟯
+
+!> ⟮c17;sb;Full moon. Her carriage brings her home. I see⟯
+!> ⟮c18;sb;her every movement in my head.... Undressing,⟯
+!> ⟮c19;sb;taking off her jewels, her slim hand reaching⟯
+!> ⟮c20;sb;for the case, slipping naked into bed, the way⟯
+
+!> ⟮c21;sb;she always does.... And I lie here awake,⟯
+!> ⟮c22;sb;knowing the pearls are cooling even now⟯
+!> ⟮c23;sb;in the room where my mistress sleeps. All night⟯
+!> ⟮c24;sb;I feel their absence and I burn.⟯
+
+#### 『 Not Waving but Drowning 』 Stevie Smith 1972
+
+!> ⟮c1;sb;Nobody heard him, the dead man,   ⟯
+!> ⟮c2;sb;But still he lay moaning:⟯
+!> ⟮c3;sb;I was much further out than you thought   ⟯
+!> ⟮c4;sb;And not waving but drowning.⟯
+
+!> ⟮c5;sb;Poor chap, he always loved larking⟯
+!> ⟮c6;sb;And now he’s dead⟯
+!> ⟮c7;sb;It must have been too cold for him his heart gave way,   ⟯
+!> ⟮c8;sb;They said.⟯
+
+!> ⟮c9;sb;Oh, no no no, it was too cold always   ⟯
+!> ⟮c10;sb;(Still the dead one lay moaning)   ⟯
+!> ⟮c11;sb;I was much too far out all my life   ⟯
+!> ⟮c12;sb;And not waving but drowning.⟯
+
+#### Helen of Troy Does Countertop Dancing (by Margaret Atwood)
+
+!> ⟮c1;sb;The world is full of women⟯
+!> ⟮c2;sb;who'd tell me I should be ashamed of myself⟯
+!> ⟮c3;sb;if they had the chance. Quit dancing.⟯
+!> ⟮c4;sb;Get some self-respect⟯
+!> ⟮c5;sb;and a day job.⟯
+!> ⟮c6;sb;Right. And minimum wage,⟯
+!> ⟮c7;sb;and varicose veins, just standing⟯
+!> ⟮c8;sb;in one place for eight hours⟯
+!> ⟮c9;sb;behind a glass counter⟯
+!> ⟮c10;sb;bundled up to the neck, instead of⟯
+!> ⟮c11;sb;naked as a meat sandwich.⟯
+!> ⟮c12;sb;Selling gloves, or something.⟯
+!> ⟮c13;sb;Instead of what I do sell.⟯
+!> ⟮c14;sb;You have to have talent⟯
+!> ⟮c15;sb;to peddle a thing so nebulous⟯
+!> ⟮c16;sb;and without material form.⟯
+!> ⟮c17;sb;Exploited, they'd say. Yes, any way⟯
+!> ⟮c18;sb;you cut it, but I've a choice⟯
+!> ⟮c19;sb;of how, and I'll take the money.⟯
+
+!> ⟮c20;sb;I do give value.⟯
+!> ⟮c21;sb;Like preachers, I sell vision,⟯
+!> ⟮c22;sb;like perfume ads, desire⟯
+!> ⟮c23;sb;or its facsimile. Like jokes⟯
+!> ⟮c24;sb;or war, it's all in the timing.⟯
+!> ⟮c25;sb;I sell men back their worse suspicions:⟯
+!> ⟮c26;sb;that everything's for sale,⟯
+!> ⟮c27;sb;and piecemeal. They gaze at me and see⟯
+!> ⟮c28;sb;a chain-saw murder just before it happens,⟯
+!> ⟮c29;sb;when thigh, ass, inkblot, crevice, tit, and nipple⟯
+!> ⟮c30;sb;are still connected.⟯
+!> ⟮c31;sb;Such hatred leaps in them,⟯
+!> ⟮c32;sb;my beery worshippers! That, or a bleary⟯
+!> ⟮c33;sb;hopeless love. Seeing the rows of heads⟯
+!> ⟮c34;sb;and upturned eyes, imploring⟯
+!> ⟮c35;sb;but ready to snap at my ankles,⟯
+!> ⟮c36;sb;I understand floods and earthquakes, and the urge⟯
+!> ⟮c37;sb;to step on ants. I keep the beat,⟯
+!> ⟮c38;sb;and dance for them because⟯
+!> ⟮c39;sb;they can't. The music smells like foxes,⟯
+!> ⟮c40;sb;crisp as heated metal⟯
+!> ⟮c41;sb;searing the nostrils⟯
+!> ⟮c42;sb;or humid as August, hazy and languorous⟯
+!> ⟮c43;sb;as a looted city the day after,⟯
+!> ⟮c44;sb;when all the rape's been done⟯
+!> ⟮c45;sb;already, and the killing,⟯
+!> ⟮c46;sb;and the survivors wander around⟯
+!> ⟮c47;sb;looking for garbage⟯
+!> ⟮c48;sb;to eat, and there's only a bleak exhaustion.⟯
+!> ⟮c49;sb;Speaking of which, it's the smiling⟯
+!> ⟮c50;sb;tires me out the most.⟯
+!> ⟮c51;sb;This, and the pretence⟯
+!> ⟮c52;sb;that I can't hear them.⟯
+!> ⟮c53;sb;And I can't, because I'm after all⟯
+!> ⟮c54;sb;a foreigner to them.⟯
+!> ⟮c55;sb;The speech here is all warty gutturals,⟯
+!> ⟮c56;sb;obvious as a slab of ham,⟯
+!> ⟮c57;sb;but I come from the province of the gods⟯
+!> ⟮c58;sb;where meanings are lilting and oblique.⟯
+!> ⟮c59;sb;I don't let on to everyone,⟯
+!> ⟮c60;sb;but lean close, and I'll whisper:⟯
+!> ⟮c61;sb;My mother was raped by a holy swan.⟯
+!> ⟮c62;sb;You believe that? You can take me out to dinner.⟯
+!> ⟮c63;sb;That's what we tell all the husbands.⟯
+!> ⟮c64;sb;There sure are a lot of dangerous birds around.⟯
+
+!> ⟮c65;sb;Not that anyone here⟯
+!> ⟮c66;sb;but you would understand.⟯
+!> ⟮c67;sb;The rest of them would like to watch me⟯
+!> ⟮c68;sb;and feel nothing. Reduce me to components⟯
+!> ⟮c69;sb;as in a clock factory or abattoir.⟯
+!> ⟮c70;sb;Crush out the mystery.⟯
+!> ⟮c71;sb;Wall me up alive⟯
+!> ⟮c72;sb;in my own body.⟯
+!> ⟮c73;sb;They'd like to see through me,⟯
+!> ⟮c74;sb;but nothing is more opaque⟯
+!> ⟮c75;sb;than absolute transparency.⟯
+!> ⟮c76;sb;Look--my feet don't hit the marble!⟯
+!> ⟮c77;sb;Like breath or a balloon, I'm rising,⟯
+!> ⟮c78;sb;I hover six inches in the air⟯
+!> ⟮c79;sb;in my blazing swan-egg of light.⟯
+!> ⟮c80;sb;You think I'm not a goddess?⟯
+!> ⟮c81;sb;Try me.⟯
+!> ⟮c82;sb;This is a torch song.⟯
+!> ⟮c83;sb;Touch me and you'll burn.⟯
+
+#### Extract from Meditations in an Emergency
+
+!> ⟮c1;sb;I can't even enjoy a blade of grass ⟯
+!> ⟮c2;sb;unless I know there's a subway handy,⟯
+!> ⟮c3;sb;or a record store ⟯
+!> ⟮c4;sb;or some other sign that people do not totally regret life.⟯
+
+## shakespeare
+
+### To be or not to be
+
+!> ⟮c1;sb;To be, or not to be, that is the question:⟯
+!> ⟮c2;sb;Whether 'tis nobler in the mind to suffer⟯
+!> ⟮c3;sb;The slings and arrows of outrageous fortune,⟯
+!> ⟮c4;sb;Or to take Arms against a Sea of troubles,⟯
+!> ⟮c5;sb;And by opposing end them: to die, to sleep⟯
+!> ⟮c6;sb;No more; and by a sleep, to say we end⟯
+!> ⟮c7;sb;The heart-ache, and the thousand natural shocks⟯
+!> ⟮c8;sb;That Flesh is heir to? 'Tis a consummation⟯
+!> ⟮c9;sb;Devoutly to be wished. To die, to sleep,⟯
+!> ⟮c10;sb;To sleep, perchance to Dream; aye, there's the rub,⟯
+!> ⟮c11;sb;For in that sleep of death, what dreams may come,⟯
+!> ⟮c12;sb;When we have shuffled off this mortal coil,⟯
+!> ⟮c13;sb;Must give us pause. There's the respect⟯
+!> ⟮c14;sb;That makes Calamity of so long life:⟯
+!> ⟮c15;sb;For who would bear the Whips and Scorns of time,⟯
+!> ⟮c16;sb;The Oppressor's wrong, the proud man's Contumely,⟯
+!> ⟮c17;sb;The pangs of dispised Love, the Law’s delay,⟯
+!> ⟮c18;sb;The insolence of Office, and the spurns⟯
+!> ⟮c19;sb;That patient merit of th'unworthy takes,⟯
+!> ⟮c20;sb;When he himself might his Quietus make⟯
+!> ⟮c21;sb;With a bare Bodkin? Who would Fardels bear, [F: these Fardels]⟯
+!> ⟮c22;sb;To grunt and sweat under a weary life,⟯
+!> ⟮c23;sb;But that the dread of something after death,⟯
+!> ⟮c24;sb;The undiscovered country, from whose bourn⟯
+!> ⟮c25;sb;No traveller returns, puzzles the will,⟯
+!> ⟮c26;sb;And makes us rather bear those ills we have,⟯
+!> ⟮c27;sb;Than fly to others that we know not of?⟯
+!> ⟮c28;sb;Thus conscience does make cowards of us all,⟯
+!> ⟮c29;sb;And thus the native hue of Resolution⟯
+!> ⟮c30;sb;Is sicklied o'er, with the pale cast of Thought,⟯
+!> ⟮c31;sb;And enterprises of great pitch and moment, [F: pith]⟯
+!> ⟮c32;sb;With this regard their Currents turn awry, [F: away]⟯
+!> ⟮c33;sb;And lose the name of Action.⟯
+
+### Thou knowst the mask of night...
+
+!> ⟮c1;sb;Thou know’st the mask of night is on my face,⟯
+!> ⟮c2;sb;Else would a maiden blush bepaint my cheek⟯
+!> ⟮c3;sb;For that which thou hast heard me speak tonight.⟯
+!> ⟮c4;sb;Fain would I dwell on form. Fain, fain deny⟯
+!> ⟮c5;sb;What I have spoke. But farewell compliment!⟯
+!> ⟮c6;sb;Dost thou love me? I know thou wilt say “ay,”⟯
+!> ⟮c7;sb;And I will take thy word. Yet if thou swear’st⟯
+!> ⟮c8;sb;Thou mayst prove false. At lovers' perjuries,⟯
+!> ⟮c9;sb;They say, Jove laughs. O gentle Romeo,⟯
+!> ⟮c10;sb;If thou dost love, pronounce it faithfully.⟯
+!> ⟮c11;sb;Or if thou think’st I am too quickly won,⟯
+!> ⟮c12;sb;I’ll frown and be perverse and say thee nay,⟯
+!> ⟮c13;sb;So thou wilt woo. But else, not for the world.⟯
+!> ⟮c14;sb;In truth, fair Montague, I am too fond,⟯
+!> ⟮c15;sb;And therefore thou mayst think my 'havior light.⟯
+!> ⟮c16;sb;But trust me, gentleman, I’ll prove more true⟯
+!> ⟮c17;sb;Than those that have more coying to be strange.⟯
+!> ⟮c18;sb;I should have been more strange, I must confess,⟯
+!> ⟮c19;sb;But that thou overheard’st, ere I was 'ware,⟯
+!> ⟮c20;sb;My true love’s passion. Therefore pardon me,⟯
+!> ⟮c21;sb;105And not impute this yielding to light love,⟯
+!> ⟮c22;sb;Which the dark night hath so discovered.⟯
+
+### The Merchant of Venice: Act III, Scene 1, Shylock Monologue
+
+!> ⟮c1;sb;To bait fish withal: if it will feed nothing else,⟯
+!> ⟮c2;sb;it will feed my revenge. He hath disgraced me, ⟯
+!> ⟮c3;sb;and hindered me half a million; laughed at my losses,⟯
+!> ⟮c4;sb;mocked at my gains, scorned my nation, ⟯
+!> ⟮c5;sb;thwarted my bargains, cooled my friends, ⟯
+!> ⟮c6;sb;heated mine enemies; and what's his reason? ⟯
+!> ⟮c7;sb;I am a Jew. Hath not a Jew eyes? ⟯
+!> ⟮c8;sb;hath not a Jew hands, organs, dimensions, senses, affections, passions? ⟯
+!> ⟮c9;sb;fed with the same food, hurt with the same weapons, ⟯
+!> ⟮c10;sb;subject to the same diseases, healed by the same means,⟯
+!> ⟮c11;sb;warmed and cooled by the same winter and summer, as⟯
+!> ⟮c12;sb;a Christian is? If you prick us, do we not bleed?⟯
+!> ⟮c13;sb;if you tickle us, do we not laugh? ⟯
+!> ⟮c14;sb;if you poison us, do we not die? ⟯
+!> ⟮c15;sb;and if you wrong us, shall we not revenge? ⟯
+!> ⟮c16;sb;If we are like you in the rest, we will resemble you in that. ⟯
+!> ⟮c17;sb;If a Jew wrong a Christian, what is his humility? Revenge. ⟯
+!> ⟮c18;sb;If a Christian wrong a Jew, what should his sufferance be, ⟯
+!> ⟮c19;sb;by Christian example? Why, revenge. ⟯
+!> ⟮c20;sb;The villany you teach me, I will execute, ⟯
+!> ⟮c21;sb;and it shall go hard but I will better the instruction.⟯
+
+### The Merchant of Venice, Act 1 Scene 3, Shylocks Monologue
+
+!> ⟮c1;sb;Signior Antonio, many a time and oft⟯
+!> ⟮c2;sb;In the Rialto you have rated me⟯
+!> ⟮c3;sb;About my moneys and my usances:⟯
+!> ⟮c4;sb;Still have I borne it with a patient shrug,⟯
+!> ⟮c5;sb;For sufferance is the badge of all our tribe.⟯
+!> ⟮c6;sb;You call me misbeliever, cut-throat dog,⟯
+!> ⟮c7;sb;And spit upon my Jewish gaberdine,⟯
+!> ⟮c8;sb;And all for use of that which is mine own.⟯
+!> ⟮c9;sb;Well then, it now appears you need my help:⟯
+!> ⟮c10;sb;Go to, then; you come to me, and you say⟯
+!> ⟮c11;sb;'Shylock, we would have moneys:' you say so;⟯
+!> ⟮c12;sb;You, that did void your rheum upon my beard⟯
+!> ⟮c13;sb;And foot me as you spurn a stranger cur⟯
+!> ⟮c14;sb;Over your threshold: moneys is your suit⟯
+!> ⟮c15;sb;What should I say to you? Should I not say⟯
+!> ⟮c16;sb;'Hath a dog money? is it possible⟯
+!> ⟮c17;sb;A cur can lend three thousand ducats?' Or⟯
+!> ⟮c18;sb;Shall I bend low and in a bondman's key,⟯
+!> ⟮c19;sb;With bated breath and whispering humbleness, Say this;⟯
+!> ⟮c20;sb;'Fair sir, you spit on me on Wednesday last;⟯
+!> ⟮c21;sb;You spurn'd me such a day; another time⟯
+!> ⟮c22;sb;You call'd me dog; and for these courtesies⟯
+!> ⟮c23;sb;I'll lend you thus much moneys'?⟯
+
+### “Tomorrow, and tomorrow, and tomorrow (from Macbeth, spoken by Macbeth)
+ 
+!> ⟮c1;sb;Tomorrow, and tomorrow, and tomorrow,⟯
+!> ⟮c2;sb;Creeps in this petty pace from day to day,⟯
+!> ⟮c3;sb;To the last syllable of recorded time;⟯
+!> ⟮c4;sb;And all our yesterdays have lighted fools⟯
+!> ⟮c5;sb;The way to dusty death. Out, out, brief candle!⟯
+!> ⟮c6;sb;Life's but a walking shadow, a poor player,⟯
+!> ⟮c7;sb;That struts and frets his hour upon the stage,⟯
+!> ⟮c8;sb;And then is heard no more. It is a tale⟯
+!> ⟮c9;sb;Told by an idiot, full of sound and fury,⟯
+!> ⟮c10;sb;Signifying nothing.⟯
+
+### Once more unto the breach!
+
+!> ⟮c1;sb;Once more unto the breach, dear friends, once more;⟯
+!> ⟮c2;sb;Or close the wall up with our English dead.⟯
+!> ⟮c3;sb;In peace there's nothing so becomes a man⟯
+!> ⟮c4;sb;As modest stillness and humility:⟯
+!> ⟮c5;sb;But when the blast of war blows in our ears,⟯
+!> ⟮c6;sb;Then imitate the action of the tiger;⟯
+!> ⟮c7;sb;Stiffen the sinews, summon up the blood,⟯
+!> ⟮c8;sb;Disguise fair nature with hard-favour'd rage;⟯
+!> ⟮c9;sb;Then lend the eye a terrible aspect;⟯
+!> ⟮c10;sb;Let pry through the portage of the head⟯
+!> ⟮c11;sb;Like the brass cannon; let the brow o'erwhelm it⟯
+!> ⟮c12;sb;As fearfully as doth a galled rock⟯
+!> ⟮c13;sb;O'erhang and jutty his confounded base,⟯
+!> ⟮c14;sb;Swill'd with the wild and wasteful ocean.⟯
+!> ⟮c15;sb;Now set the teeth and stretch the nostril wide,⟯
+!> ⟮c16;sb;Hold hard the breath and bend up every spirit⟯
+!> ⟮c17;sb;To his full height. On, on, you noblest English.⟯
+!> ⟮c18;sb;Whose blood is fet from fathers of war-proof!⟯
+!> ⟮c19;sb;Fathers that, like so many Alexanders,⟯
+!> ⟮c20;sb;Have in these parts from morn till even fought⟯
+!> ⟮c21;sb;And sheathed their swords for lack of argument:⟯
+!> ⟮c22;sb;Dishonour not your mothers; now attest⟯
+!> ⟮c23;sb;That those whom you call'd fathers did beget you.⟯
+!> ⟮c24;sb;Be copy now to men of grosser blood,⟯
+!> ⟮c25;sb;And teach them how to war. And you, good yeoman,⟯
+!> ⟮c26;sb;Whose limbs were made in England, show us here⟯
+!> ⟮c27;sb;The mettle of your pasture; let us swear⟯
+!> ⟮c28;sb;That you are worth your breeding; which I doubt not;⟯
+!> ⟮c29;sb;For there is none of you so mean and base,⟯
+!> ⟮c30;sb;That hath not noble lustre in your eyes.⟯
+!> ⟮c31;sb;I see you stand like greyhounds in the slips,⟯
+!> ⟮c32;sb;Straining upon the start. The game's afoot:⟯
+!> ⟮c33;sb;Follow your spirit, and upon this charge⟯
+!> ⟮c34;sb;Cry 'God for Harry, England, and Saint George!'⟯
+
+### Do Not Go Gentle into that Good Night
+
+!> ⟮c1;sb;Do not go gentle into that good night⟯
+!> ⟮c2;sb;Old age should burn and rave at close of day;⟯
+!> ⟮c3;sb;Rage, rage against the dying of the light.⟯
+!> ⟮c4;sb;Though wise men at their end know dark is right,⟯
+!> ⟮c5;sb;Because their words had forked no lightning they⟯
+!> ⟮c6;sb;Do not go gentle into that good night.⟯
+!> ⟮c7;sb;Good men, the last wave by, crying how bright⟯
+!> ⟮c8;sb;Their frail deeds might have danced in a green bay,⟯
+!> ⟮c9;sb;Rage, rage against the dying of the light.⟯
+!> ⟮c10;sb;Wild men who caught and sang the sun in flight,⟯
+!> ⟮c11;sb;And learn, too late, they grieved it on its way,⟯
+!> ⟮c12;sb;Do not go gentle into that good night.⟯
+!> ⟮c13;sb;Grave men, near death, who see with blinding sight⟯
+!> ⟮c14;sb;Blind eyes could blaze like meteors and be gay,⟯
+!> ⟮c15;sb;Rage, rage against the dying of the light.⟯
+!> ⟮c16;sb;And you, my father, there on the sad height,⟯
+!> ⟮c17;sb;Curse, bless, me now with your fierce tears, I pray.⟯
+!> ⟮c18;sb;Do not go gentle into that good night.⟯
+!> ⟮c19;sb;Rage, rage against the dying of the light.⟯
+
+### Friends, Romans, Countrymen
+
+!> ⟮c1;sb;Friends, Romans, countrymen, lend me your ears;⟯
+!> ⟮c2;sb;I come to bury Caesar, not to praise him.⟯
+!> ⟮c3;sb;The evil that men do lives after them;⟯
+!> ⟮c4;sb;The good is oft interred with their bones;⟯
+!> ⟮c5;sb;So let it be with Caesar. The noble Brutus⟯
+!> ⟮c6;sb;Hath told you Caesar was ambitious:⟯
+!> ⟮c7;sb;If it were so, it was a grievous fault,⟯
+!> ⟮c8;sb;And grievously hath Caesar answer’d it.⟯
+!> ⟮c9;sb;Here, under leave of Brutus and the rest–⟯
+!> ⟮c10;sb;For Brutus is an honourable man;⟯
+!> ⟮c11;sb;So are they all, all honourable men–⟯
+!> ⟮c12;sb;Come I to speak in Caesar’s funeral.⟯
+!> ⟮c13;sb;He was my friend, faithful and just to me:⟯
+!> ⟮c14;sb;But Brutus says he was ambitious;⟯
+!> ⟮c15;sb;And Brutus is an honourable man.⟯
+!> ⟮c16;sb;He hath brought many captives home to Rome⟯
+!> ⟮c17;sb;Whose ransoms did the general coffers fill:⟯
+!> ⟮c18;sb;Did this in Caesar seem ambitious?⟯
+!> ⟮c19;sb;When that the poor have cried, Caesar hath wept:⟯
+!> ⟮c20;sb;Ambition should be made of sterner stuff:⟯
+!> ⟮c21;sb;Yet Brutus says he was ambitious;⟯
+!> ⟮c22;sb;And Brutus is an honourable man.⟯
+!> ⟮c23;sb;You all did see that on the Lupercal⟯
+!> ⟮c24;sb;I thrice presented him a kingly crown,⟯
+!> ⟮c25;sb;Which he did thrice refuse: was this ambition?⟯
+!> ⟮c26;sb;Yet Brutus says he was ambitious;⟯
+!> ⟮c27;sb;And, sure, he is an honourable man.⟯
+!> ⟮c28;sb;I speak not to disprove what Brutus spoke,⟯
+!> ⟮c29;sb;But here I am to speak what I do know.⟯
+!> ⟮c30;sb;You all did love him once, not without cause:⟯
+!> ⟮c31;sb;What cause withholds you then, to mourn for him?⟯
+!> ⟮c32;sb;O judgment! thou art fled to brutish beasts,⟯
+!> ⟮c33;sb;And men have lost their reason. Bear with me;⟯
+!> ⟮c34;sb;My heart is in the coffin there with Caesar,⟯
+!> ⟮c35;sb;And I must pause till it come back to me.⟯
+
+## prayers
+
+### The Serenity Prayer
+
+!> ⟮c1;sb;God, grant me the serenity to accept the things I cannot change,⟯
+!> ⟮c2;sb;courage to change the things I can,⟯
+!> ⟮c3;sb;and wisdom to know the difference.⟯
 
-Spanish ordinal numbers<br/> <thead>Numeral|Ordinal number
-⟮c1;1st⟯|⟮c2;primero/-a⟯
-⟮c3;2nd⟯|⟮c4;segundo/-a⟯
-⟮c5;3rd⟯|⟮c6;tercero/-a⟯
-⟮c7;4th⟯|⟮c8;cuarto/-a⟯
-⟮c9;5th⟯|⟮c10;quinto/-a⟯
-⟮c11;6th⟯|⟮c12;sexto/-a⟯
-⟮c13;7th⟯|⟮c14;séptimo/a⟯
-⟮c15;8th⟯|⟮c16;octavo/-a⟯
-⟮c17;9th⟯|⟮c18;noveno/a⟯
-⟮c19;10th⟯|⟮c20;décimo/-a⟯
 
-
-Numeral|Ordinal number
-⟮c21;20<sup>th</sup>⟯|⟮c22;vigésimo⟯
-⟮c23;30<sup>th</sup>⟯|⟮c24;trigésimo⟯
-⟮c25;40<sup>th</sup>⟯|⟮c26;cuadragésimo⟯|⟮c27;You try on some CUbAn DRAG on for your fortieth birthday⟯
-⟮c28;50<sup>th</sup>⟯|⟮c29;quincuagésimo⟯
-⟮c30;60<sup>th</sup>⟯|⟮c31;sexagésimo⟯
-⟮c32;70<sup>th</sup>⟯|⟮c33;septuagésimo⟯
-⟮c34;80<sup>th</sup> ⟯|⟮c35;octogésimo⟯
-⟮c36;90<sup>th</sup>⟯|⟮c37;nonagésimo⟯
-
-
-Numeral|Ordinal number
-⟮c38;100<sup>th</sup>⟯|⟮c39;centésimo⟯
-⟮c40;200<sup>th</sup>⟯|⟮c41;ducentésimo⟯
-⟮c42;300<sup>th</sup>⟯|⟮c43;tricentésimo⟯
-⟮c44;400<sup>th</sup>⟯|⟮c45;cuadringentésimo⟯
-⟮c46;500<sup>th</sup>⟯|⟮c47;quingentésimo⟯
-⟮c48;600<sup>th</sup>⟯|⟮c49;sexcentésimo⟯
-⟮c50;700<sup>th</sup>⟯|⟮c51;septingentésimo⟯
-⟮c52;800<sup>th</sup>⟯|⟮c53;octingentésimo⟯
-⟮c54;900<sup>th</sup>⟯|⟮c55;noningentésimo⟯
-⟮c56;1000<sup>th</sup>⟯|⟮c57;milésimo⟯
-
-
-
-Spanish noun gender mnemonics<br/>⟮h∞;<img src="sm_paste-dc1e785c9d0ba018eeaa5afb21a108932c4c6d9a.jpg">⟯⟮h∞;<img src="sm_paste-d64ee9dc61d4b1465a6a8cc4b219dbbab7a07715.jpg">⟯⟮h∞;<img src="sm_200w.webp">⟯
-⟮c1;In spanish, female nouns ⟯|⟮c2; melt!⟯
-⟮c3;In spanish, male nouns ⟯|⟮c4; sao-shatter⟯
-
-
-Spanish months<br/>  <thead>month|name
-⟮c1;01⟯|⟮c2;enero⟯
-⟮c3;02⟯|⟮c4;febrero⟯
-⟮c5;03⟯|⟮c6;marzo⟯
-⟮c7;05⟯|⟮c8;mayo⟯
-⟮c9;04⟯|⟮c10;abril⟯
-⟮c11;06⟯|⟮c12;junio⟯
-⟮c13;07⟯|⟮c14;julio⟯
-⟮c15;08⟯|⟮c16;agosto⟯
-⟮c17;09⟯|⟮c18;septiembre⟯
-⟮c19;10⟯|⟮c20;octubre⟯
-⟮c21;11⟯|⟮c22;noviembre⟯
-⟮c23;12⟯|⟮c24;diciembre⟯
-
-## conjugations
-
-### Preterite of ser
-
-⟮c1;fui⟯|⟮c4;fuimos⟯
-⟮c2;fuiste⟯|⟮c5;fuisteis⟯
-⟮c3;fue⟯|⟮c6;fueron⟯
-
-
-Preterite of ir
-
-⟮c1;fui⟯|⟮c4;fuimos⟯
-⟮c2;fuiste⟯|⟮c5;fuisteis⟯
-⟮c3;fue⟯|⟮c6;fueron⟯
-
-
-Preterite of dar
-⟮c1;di⟯|⟮c4;dimos⟯
-⟮c2;diste⟯|⟮c5;disteis⟯
-⟮c3;dio⟯|⟮c6;dieron⟯
-
-
-Preterite de hacer
-
-⟮c1;hice⟯|⟮c4;hicimos⟯
-⟮c2;hiciste⟯|⟮c5;hicisteis⟯
-⟮c3;hizo⟯|⟮c6;hicieron⟯
-
-
-In the preterite verbs that end in -uir are conjugated as follows (example: huir)
-
-⟮c1;hui⟯|⟮c4;huimos⟯
-⟮c2;huiste⟯|⟮c5;huisteis⟯
-⟮c3;huyó⟯|⟮c6;huyeron⟯
-
-
-In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as follows (example: creer)
-
-⟮c1;creí⟯|⟮c4;creímos⟯
-⟮c2;creíste⟯|⟮c5;creísteis⟯
-⟮c3;creyó⟯|⟮c6;creyeron⟯
-
-
-Imperfect of ver
-
-⟮c1;veía⟯|⟮c4;veíamos⟯
-⟮c2;veías⟯|⟮c5;veíais⟯
-⟮c3;veía⟯|⟮c6;veían⟯
-
-
-Imperfect of ser
-⟮c1;era⟯|⟮c4;éramos⟯
-⟮c2;eras⟯|⟮c5;erais⟯
-⟮c3;era⟯|⟮c6;eran⟯
-
-
-Imperfect of ir
-
-⟮c1;iba⟯|⟮c4;íbamos⟯
-⟮c2;ibas⟯|⟮c5;ibais⟯
-⟮c3;iba⟯|⟮c6;iban⟯
-
-
-span=2;Present Subjunctive – haber
-⟮c1;haya⟯|⟮c4;hayamos⟯
-⟮c2;hayas⟯|⟮c5;hayáis⟯
-⟮c3;haya⟯|⟮c6;hayan⟯
-
-
-span=2;Pluperfecto en español
-⟮c1;Había vivido⟯|⟮c4;Habíamos vivido⟯
-⟮c2;Habías vivido⟯|⟮c5;Habíais vivido⟯
-⟮c3;Había vivido⟯|⟮c6;Habían vivido⟯
-
-
-span=2;Hablar - future
-⟮c1;hablaré⟯|⟮c4;hablaremos⟯
-⟮c2;hablarás⟯|⟮c5;hablaréis⟯
-⟮c3;hablará⟯|⟮c6;hablarán⟯
-
-
-The ⟮c1;teen ordinal numbers⟯ are normally written ⟮c2;as a single word⟯, and they are formed according to the following formula: ⟮c3;décimo⟯ + ⟮c3;ordinal number ⟯ 
-
-Phrases of ⟮c1;desire⟯, ⟮c2;doubt⟯, ⟮c3;uncertainty⟯, ⟮c4;subjectivity⟯ and ⟮c5;incomplete actions⟯ commonly trigger the ⟮c6;subjunctive⟯. 
-
-⟮c1;elle⟯ &amp; ⟮c1;elles⟯ are neologisms that are the ⟮c2;gender-neutral⟯ version of ⟮c3;él⟯ &amp; ⟮c3;ellos⟯ / ⟮c3;ella⟯ 
-⟮c4;ellas⟯ ⟮c4;elle⟯ is a neologism meant to parallel english ⟮c5;singular they⟯ 
-
-⟮c1;Primero⟯ and ⟮c1;tercero⟯ ⟮c3;lose their o⟯ before ⟮c2; singular masculine nouns⟯. 
-
-span=2;cerrar e:ie present indicative conjugation
-⟮c1;cierro⟯|⟮c4;cerramos⟯
-⟮c2;cierras⟯|⟮c5;cerráis⟯
-⟮c3;cierra⟯|⟮c6;cierran⟯
-
-
-span=2;vivir present indicative
-⟮c1;vivo⟯|⟮c4;vivimos⟯
-⟮c2;vives⟯|⟮c5;vivís⟯
-⟮c3;vive⟯|⟮c6;viven⟯
-
-
-span=2;venir present indicative conjugation
-⟮c1;vengo⟯|⟮c4;venimos⟯
-⟮c2;vienes⟯|⟮c5;venís⟯
-⟮c3;viene⟯|⟮c6;vienen⟯
-
-
-span=2;tener present indicative conjugation
-⟮c1;tengo⟯|⟮c4;tenemos⟯
-⟮c2;tienes⟯|⟮c5;tenéis⟯
-⟮c3;tiene⟯|⟮c6;tienen⟯
-
-
-span=2;repetir e:i present indicative conjugation
-⟮c1;repito⟯|⟮c4;repetimos⟯
-⟮c2;repites⟯|⟮c5;repetís⟯
-⟮c3;repite⟯|⟮c6;repiten⟯
-
-
-span=2;posessive adjectives
-⟮c1;mi(s⟯)|⟮c4;nuestro(-a, -os, -as⟯)
-⟮c2;tu(s⟯)|⟮c5;vuestro(-a, -os, -as⟯)
-⟮c3;su(s⟯)|⟮c6;su(s⟯)
-
-
-span=2;o:u preterite (dormir)
-⟮c1;dormí⟯|⟮c4;dormimos⟯
-⟮c2;dormiste⟯|⟮c5;dormimos⟯
-⟮c3;durmió⟯|⟮c6;durmieron⟯
-
-
-span=2;hablar present indicative
-⟮c1;hablo⟯|⟮c4;hablamos⟯
-⟮c2;hablas⟯|⟮c5;habláis⟯
-⟮c3;habla⟯|⟮c6;hablan⟯
-
-
-span=2;escribir - future
-⟮c1;escribiré⟯|⟮c4;escribiremos⟯
-⟮c2;escribirás⟯|⟮c5;escribiréis⟯
-⟮c3;escribirá⟯|⟮c6;escribirán⟯
-
-
-span=2;e:i preterite (preferir)
-⟮c1;preferí⟯|⟮c4;preferimos⟯
-⟮c2;preferiste⟯|⟮c5;preferisteis⟯
-⟮c3;prefirió⟯|⟮c6;prefirieron⟯
-
-
-span=2;dormir o:ue present indicative conjugation
-⟮c1;duermo⟯|⟮c4;dormimos⟯
-⟮c2;duermes⟯|⟮c5;dormís⟯
-⟮c3;duerme⟯|⟮c6;duermen⟯
-
-
-span=2;comer present indicative
-⟮c1;como⟯|⟮c4;comemos⟯
-⟮c2;comes⟯|⟮c5;coméis⟯
-⟮c3;come⟯|⟮c6;comen⟯
-
-
-span=2;comer - future
-⟮c1;comeré⟯|⟮c4;comeremos⟯
-⟮c2;comerás⟯|⟮c5;comeréis⟯
-⟮c3;comerá⟯|⟮c6;comerán⟯
-
-
-span=2;Subjunctive present hablar
-⟮c1;hable⟯|⟮c4;hablemos⟯
-⟮c2;hables⟯|⟮c5;habléis⟯
-⟮c3;hable⟯|⟮c6;hablen⟯
-
-
-span=2;Subjunctive present escribir
-⟮c1;escriba⟯|⟮c4;escribamos⟯
-⟮c2;escribas⟯|⟮c5;escribaís⟯
-⟮c3;escriba⟯|⟮c6;escriban⟯
-
-
-span=2;Subjunctive present comer
-⟮c1;coma⟯|⟮c4;comamos⟯
-⟮c2;comas⟯|⟮c5;comáis⟯
-⟮c3;coma⟯|⟮c6;coman⟯
-
-
-span=2;Preterite of ver
-⟮c1;vi⟯|⟮c4;vimos⟯
-⟮c2;viste⟯|⟮c5;visteis⟯
-⟮c3;vio⟯|⟮c6;vieron⟯
-
-
-span=2;Preterite of traer
-⟮c1;traje⟯|⟮c4;trajimos⟯
-⟮c2;trajiste⟯|⟮c5;trajisteis⟯
-⟮c3;trajo⟯|⟮c6;trajeron⟯
-
-
-span=2;Preterite of decir
-⟮c1;dije⟯|⟮c4;dijimos⟯
-⟮c2;dijiste⟯|⟮c5;dijisteis⟯)
-⟮c3;dijo⟯|⟮c6;dijeron⟯
-
-
-span=2;Preterite of -ucir verbs such as producir
-⟮c1;produje⟯|⟮c4;produjimos⟯
-⟮c2;produjiste⟯|⟮c5;produjisteis⟯
-⟮c3;produjo⟯|⟮c6;produjeron⟯
-
-
-span=2;Present Subjunctive – ser
-⟮c1;sea⟯|⟮c4;seamos⟯
-⟮c2;seas⟯|⟮c5;seáis⟯
-⟮c3;sea⟯|⟮c6;sean⟯
-
-
-span=2;Present Subjunctive – saber
-⟮c1;sepa⟯|⟮c4;sepamos⟯
-⟮c2;sepas⟯|⟮c5;sepáis⟯
-⟮c3;sepa⟯|⟮c6;sepan⟯
-
-
-span=2;Present Subjunctive – ir
-⟮c1;vaya⟯|⟮c4;vayamos⟯
-⟮c2;vayas⟯|⟮c5;vayáis⟯
-⟮c3;vaya⟯|⟮c6;vayan⟯
-
-
-span=2;Present Subjunctive – estar
-⟮c1;esté⟯|⟮c4;estemos⟯
-⟮c2;estés⟯|⟮c5;estéis⟯
-⟮c3;esté⟯|⟮c6;estén⟯
-
-
-span=2;Present Subjunctive - dar
-⟮c1;dé⟯|⟮c4;demos⟯
-⟮c2;des⟯|⟮c5;deis⟯
-⟮c3;dé⟯|⟮c6;den⟯
-
-
-span=2;Imperfect subjunctive -se cantar
-⟮c1;cantase⟯|⟮c4;cantásemos⟯
-⟮c2;cantases⟯|⟮c5;cantaseis⟯
-⟮c3;cantase⟯|⟮c6;cantasen⟯
-
-
-span=2;Imperfect subjunctive -a form for cantar
-⟮c1;cantara⟯|⟮c4;cantáramos⟯
-⟮c2;cantaras⟯|⟮c5;cantarais⟯
-⟮c3;cantara⟯|⟮c6;cantaran⟯
-
-
-span=2;Conditional vivir
-⟮c1;viviría⟯|⟮c4;viviríamos⟯
-⟮c2;vivirías⟯|⟮c5;viviríais⟯
-⟮c3;viviría⟯|⟮c6;vivirían⟯
-
-
-span=2;Conditional hablar
-⟮c1;hablaría⟯|⟮c4;hablaríamos⟯
-⟮c2;hablarías⟯|⟮c5;hablaríais⟯
-⟮c3;hablaría⟯|⟮c6;hablarían⟯
-
-
-span=2;Conditional comer
-⟮c1;comería⟯|⟮c4;comeríamos⟯
-⟮c2;comerías⟯|⟮c5;comeríais⟯
-⟮c3;comería⟯|⟮c6;comerían⟯
-
-
-# poetry
-
-In rap, there are generally ⟮c1;4 beats⟯ in ⟮c2;a bar⟯, ⟮hb;and ⟮c3;4 bars⟯ in ⟮c4;a verse⟯. the beats are generally spaced ⟮c5;equally⟯, and ⟮c6;the beats 2 and 4⟯ have ⟮c7;the snares / hi-hats⟯.⟯ 
-
-Who Lives, Who Dies, Who Tells Your Story (extract of beginning)
-
-!> ⟮c1;s∞;Let me tell you what I wish I’d known ⟯
-!> ⟮c2;s∞;When I was young and dreamed of glory ⟯
-!> ⟮c3;s∞;You have no control:⟯
-!> ⟮c4;s∞;Who lives ⟯
-!> ⟮c5;s∞;Who dies ⟯
-!> ⟮c6;s∞;Who tells your story?⟯
-
-Warming Her Pearls (by Carol Ann Duffy)
-
-<blockquote>
-!> ⟮c1;s∞;Next to my own skin, her pearls. My mistress⟯
-!> ⟮c2;s∞;bids me wear them, warm them, until evening⟯
-!> ⟮c3;s∞;when I'll brush her hair. At six, I place them⟯
-!> ⟮c4;s∞;round her cool, white throat. All day I think of her,⟯
-</blockquote>
-<blockquote>
-!> ⟮c5;s∞;resting in the Yellow Room, contemplating silk⟯
-!> ⟮c6;s∞;or taffeta, which gown tonight? She fans herself⟯
-!> ⟮c7;s∞;whilst I work willingly, my slow heat entering⟯
-!> ⟮c8;s∞;each pearl. Slack on my neck, her rope.⟯
-</blockquote>
-<blockquote>
-!> ⟮c9;s∞;She's beautiful. I dream about her⟯
-!> ⟮c10;s∞;in my attic bed; picture her dancing⟯
-!> ⟮c11;s∞;with tall men, puzzled by my faint, persistent scent⟯
-!> ⟮c12;s∞;beneath her French perfume, her milky stones.⟯
-</blockquote>
-<blockquote>
-!> ⟮c13;s∞;I dust her shoulders with a rabbit's foot,⟯
-!> ⟮c14;s∞;watch the soft blush seep through her skin⟯
-!> ⟮c15;s∞;like an indolent sigh. In her looking-glass⟯
-!> ⟮c16;s∞;my red lips part as though I want to speak.⟯
-</blockquote>
-<blockquote>
-!> ⟮c17;s∞;Full moon. Her carriage brings her home. I see⟯
-!> ⟮c18;s∞;her every movement in my head.... Undressing,⟯
-!> ⟮c19;s∞;taking off her jewels, her slim hand reaching⟯
-!> ⟮c20;s∞;for the case, slipping naked into bed, the way⟯
-</blockquote>
-<blockquote>
-!> ⟮c21;s∞;she always does.... And I lie here awake,⟯
-!> ⟮c22;s∞;knowing the pearls are cooling even now⟯
-!> ⟮c23;s∞;in the room where my mistress sleeps. All night⟯
-!> ⟮c24;s∞;I feel their absence and I burn.⟯
-</blockquote>
-
-
-
-To be or not to be
-
-<blockquote>
-!> ⟮c1;s∞;To be, or not to be, that is the question:⟯
-!> ⟮c2;s∞;Whether 'tis nobler in the mind to suffer⟯
-!> ⟮c3;s∞;The slings and arrows of outrageous fortune,⟯
-!> ⟮c4;s∞;Or to take Arms against a Sea of troubles,⟯
-!> ⟮c5;s∞;And by opposing end them: to die, to sleep⟯
-!> ⟮c6;s∞;No more; and by a sleep, to say we end⟯
-!> ⟮c7;s∞;The heart-ache, and the thousand natural shocks⟯
-!> ⟮c8;s∞;That Flesh is heir to? 'Tis a consummation⟯
-!> ⟮c9;s∞;Devoutly to be wished. To die, to sleep,⟯
-!> ⟮c10;s∞;To sleep, perchance to Dream; aye, there's the rub,⟯
-!> ⟮c11;s∞;For in that sleep of death, what dreams may come,⟯
-!> ⟮c12;s∞;When we have shuffled off this mortal coil,⟯
-!> ⟮c13;s∞;Must give us pause. There's the respect⟯
-!> ⟮c14;s∞;That makes Calamity of so long life:⟯
-!> ⟮c15;s∞;For who would bear the Whips and Scorns of time,⟯
-!> ⟮c16;s∞;The Oppressor's wrong, the proud man's Contumely,⟯
-!> ⟮c17;s∞;The pangs of dispised Love, the Law’s delay,⟯
-!> ⟮c18;s∞;The insolence of Office, and the spurns⟯
-!> ⟮c19;s∞;That patient merit of th'unworthy takes,⟯
-!> ⟮c20;s∞;When he himself might his Quietus make⟯
-!> ⟮c21;s∞;With a bare Bodkin? Who would Fardels bear, [F: these Fardels]⟯
-!> ⟮c22;s∞;To grunt and sweat under a weary life,⟯
-!> ⟮c23;s∞;But that the dread of something after death,⟯
-!> ⟮c24;s∞;The undiscovered country, from whose bourn⟯
-!> ⟮c25;s∞;No traveller returns, puzzles the will,⟯
-!> ⟮c26;s∞;And makes us rather bear those ills we have,⟯
-!> ⟮c27;s∞;Than fly to others that we know not of?⟯
-!> ⟮c28;s∞;Thus conscience does make cowards of us all,⟯
-!> ⟮c29;s∞;And thus the native hue of Resolution⟯
-!> ⟮c30;s∞;Is sicklied o'er, with the pale cast of Thought,⟯
-!> ⟮c31;s∞;And enterprises of great pitch and moment, [F: pith]⟯
-!> ⟮c32;s∞;With this regard their Currents turn awry, [F: away]⟯
-!> ⟮c33;s∞;And lose the name of Action.⟯
-</blockquote>
-
-Thou knowst the mask of night...
-
-<blockquote>
-!> ⟮c1;s∞;Thou know’st the mask of night is on my face,⟯
-!> ⟮c2;s∞;Else would a maiden blush bepaint my cheek⟯
-!> ⟮c3;s∞;For that which thou hast heard me speak tonight.⟯
-!> ⟮c4;s∞;Fain would I dwell on form. Fain, fain deny⟯
-!> ⟮c5;s∞;What I have spoke. But farewell compliment!⟯
-!> ⟮c6;s∞;Dost thou love me? I know thou wilt say “ay,”⟯
-!> ⟮c7;s∞;And I will take thy word. Yet if thou swear’st⟯
-!> ⟮c8;s∞;Thou mayst prove false. At lovers' perjuries,⟯
-!> ⟮c9;s∞;They say, Jove laughs. O gentle Romeo,⟯
-!> ⟮c10;s∞;If thou dost love, pronounce it faithfully.⟯
-!> ⟮c11;s∞;Or if thou think’st I am too quickly won,⟯
-!> ⟮c12;s∞;I’ll frown and be perverse and say thee nay,⟯
-!> ⟮c13;s∞;So thou wilt woo. But else, not for the world.⟯
-!> ⟮c14;s∞;In truth, fair Montague, I am too fond,⟯
-!> ⟮c15;s∞;And therefore thou mayst think my 'havior light.⟯
-!> ⟮c16;s∞;But trust me, gentleman, I’ll prove more true⟯
-!> ⟮c17;s∞;Than those that have more coying to be strange.⟯
-!> ⟮c18;s∞;I should have been more strange, I must confess,⟯
-!> ⟮c19;s∞;But that thou overheard’st, ere I was 'ware,⟯
-!> ⟮c20;s∞;My true love’s passion. Therefore pardon me,⟯
-!> ⟮c21;s∞;105And not impute this yielding to light love,⟯
-!> ⟮c22;s∞;Which the dark night hath so discovered.⟯
-</blockquote>
-
-The Serenity Prayer
-
-!> ⟮c1;s∞;God, grant me the serenity to accept the things I cannot change,⟯
-!> ⟮c2;s∞;courage to change the things I can,⟯
-!> ⟮c3;s∞;and wisdom to know the difference.⟯
-
-The Merchant of Venice: Act III, Scene 1, Shylock Monologue
-
-<blockquote>
-!> ⟮c1;s∞;To bait fish withal: if it will feed nothing else,⟯
-!> ⟮c2;s∞;it will feed my revenge. He hath disgraced me, ⟯
-!> ⟮c3;s∞;and hindered me half a million; laughed at my losses,⟯
-!> ⟮c4;s∞;mocked at my gains, scorned my nation, ⟯
-!> ⟮c5;s∞;thwarted my bargains, cooled my friends, ⟯
-!> ⟮c6;s∞;heated mine enemies; and what's his reason? ⟯
-!> ⟮c7;s∞;I am a Jew. Hath not a Jew eyes? ⟯
-!> ⟮c8;s∞;hath not a Jew hands, organs, dimensions, senses, affections, passions? ⟯
-!> ⟮c9;s∞;fed with the same food, hurt with the same weapons, ⟯
-!> ⟮c10;s∞;subject to the same diseases, healed by the same means,⟯
-!> ⟮c11;s∞;warmed and cooled by the same winter and summer, as⟯
-!> ⟮c12;s∞;a Christian is? If you prick us, do we not bleed?⟯
-!> ⟮c13;s∞;if you tickle us, do we not laugh? ⟯
-!> ⟮c14;s∞;if you poison us, do we not die? ⟯
-!> ⟮c15;s∞;and if you wrong us, shall we not revenge? ⟯
-!> ⟮c16;s∞;If we are like you in the rest, we will resemble you in that. ⟯
-!> ⟮c17;s∞;If a Jew wrong a Christian, what is his humility? Revenge. ⟯
-!> ⟮c18;s∞;If a Christian wrong a Jew, what should his sufferance be, ⟯
-!> ⟮c19;s∞;by Christian example? Why, revenge. ⟯
-!> ⟮c20;s∞;The villany you teach me, I will execute, ⟯
-!> ⟮c21;s∞;and it shall go hard but I will better the instruction.⟯
-</blockquote>
-
-The Merchant of Venice, Act 1 Scene 3, Shylocks Monologue
-
-<blockquote>
-!> ⟮c1;s∞;Signior Antonio, many a time and oft⟯
-!> ⟮c2;s∞;In the Rialto you have rated me⟯
-!> ⟮c3;s∞;About my moneys and my usances:⟯
-!> ⟮c4;s∞;Still have I borne it with a patient shrug,⟯
-!> ⟮c5;s∞;For sufferance is the badge of all our tribe.⟯
-!> ⟮c6;s∞;You call me misbeliever, cut-throat dog,⟯
-!> ⟮c7;s∞;And spit upon my Jewish gaberdine,⟯
-!> ⟮c8;s∞;And all for use of that which is mine own.⟯
-!> ⟮c9;s∞;Well then, it now appears you need my help:⟯
-!> ⟮c10;s∞;Go to, then; you come to me, and you say⟯
-!> ⟮c11;s∞;'Shylock, we would have moneys:' you say so;⟯
-!> ⟮c12;s∞;You, that did void your rheum upon my beard⟯
-!> ⟮c13;s∞;And foot me as you spurn a stranger cur⟯
-!> ⟮c14;s∞;Over your threshold: moneys is your suit⟯
-!> ⟮c15;s∞;What should I say to you? Should I not say⟯
-!> ⟮c16;s∞;'Hath a dog money? is it possible⟯
-!> ⟮c17;s∞;A cur can lend three thousand ducats?' Or⟯
-!> ⟮c18;s∞;Shall I bend low and in a bondman's key,⟯
-!> ⟮c19;s∞;With bated breath and whispering humbleness, Say this;⟯
-!> ⟮c20;s∞;'Fair sir, you spit on me on Wednesday last;⟯
-!> ⟮c21;s∞;You spurn'd me such a day; another time⟯
-!> ⟮c22;s∞;You call'd me dog; and for these courtesies⟯
-!> ⟮c23;s∞;I'll lend you thus much moneys'?⟯
-</blockquote>
 
 Símon Bolivar's conclusion about the americas
 
 Simon Bolivars Letter near the end of his life:
 <ol>
-  <li>⟮c1;s∞;America is ungovernable.⟯</li>
-  <li>⟮c2;s∞;He who serves revolution plows the sea.⟯</li>
-  <li>⟮c3;s∞;The only thing one can do in America is emigrate.⟯</li>
-  <li>⟮c4;s∞;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯</li>
-  <li>⟮c5;s∞;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
-  <li>⟮c6;s∞;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
+  <li>⟮c1;sb;America is ungovernable.⟯</li>
+  <li>⟮c2;sb;He who serves revolution plows the sea.⟯</li>
+  <li>⟮c3;sb;The only thing one can do in America is emigrate.⟯</li>
+  <li>⟮c4;sb;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯</li>
+  <li>⟮c5;sb;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
+  <li>⟮c6;sb;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
 </ol>
 <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯<br><div class="sub">
 <a href="https://en.wikiquote.org/wiki/Sim%C3%B3n_Bol%C3%ADvar#Letter_near_the_end_of_his_life_(November_9,_1830)">https://en.wikiquote.org/wiki/Simón_Bolívar#Letter_near_the_end_of_his_life_(November_9,_1830)</a>
 </div>
 
-Speech: “Tomorrow, and tomorrow, and tomorrow
- (from Macbeth, spoken by Macbeth)
- 
- <blockquote>
-!> ⟮c1;s∞;Tomorrow, and tomorrow, and tomorrow,⟯
-!> ⟮c2;s∞;Creeps in this petty pace from day to day,⟯
-!> ⟮c3;s∞;To the last syllable of recorded time;⟯
-!> ⟮c4;s∞;And all our yesterdays have lighted fools⟯
-!> ⟮c5;s∞;The way to dusty death. Out, out, brief candle!⟯
-!> ⟮c6;s∞;Life's but a walking shadow, a poor player,⟯
-!> ⟮c7;s∞;That struts and frets his hour upon the stage,⟯
-!> ⟮c8;s∞;And then is heard no more. It is a tale⟯
-!> ⟮c9;s∞;Told by an idiot, full of sound and fury,⟯
-!> ⟮c10;s∞;Signifying nothing.⟯
-</blockquote>
-
-Prometheus (Goethe)
-
-<blockquote>
-!> ⟮c1;s∞;Bedecke deinen Himmel, Zeus,⟯
-!> ⟮c2;s∞;Mit Wolkendunst,⟯
-!> ⟮c3;s∞;Und übe, dem Knaben gleich,⟯
-!> ⟮c4;s∞;Der Disteln köpft,⟯
-!> ⟮c5;s∞;An Eichen dich und Bergeshöhn;⟯
-!> ⟮c6;s∞;Musst mir meine Erde⟯
-!> ⟮c7;s∞;Doch lassen stehn⟯
-!> ⟮c8;s∞;Und meine Hütte, die du nicht gebaut,⟯
-!> ⟮c9;s∞;Und meinen Herd,⟯
-!> ⟮c10;s∞;Um dessen Glut⟯
-!> ⟮c11;s∞;Du mich beneidest.⟯
-</blockquote>
-<blockquote>
-!> ⟮c12;s∞;Ich kenne nichts Ärmeres⟯
-!> ⟮c13;s∞;Unter der Sonn' als euch, Götter!⟯
-!> ⟮c14;s∞;Ihr nähret kümmerlich⟯
-!> ⟮c15;s∞;Von Opfersteuern⟯
-!> ⟮c16;s∞;Und Gebetshauch⟯
-!> ⟮c17;s∞;Eure Majestät,⟯
-!> ⟮c18;s∞;Und darbtet, wären⟯
-!> ⟮c19;s∞;Nicht Kinder und Bettler⟯
-!> ⟮c20;s∞;Hoffnungsvolle Toren.⟯
-</blockquote>
-<blockquote>
-!> ⟮c21;s∞;Da ich ein Kind war,⟯
-!> ⟮c22;s∞;Nicht wusste wo aus noch ein,⟯
-!> ⟮c23;s∞;Kehrt' ich mein verirrtes Auge⟯
-!> ⟮c24;s∞;Zur Sonne, als wenn drüber wär'⟯
-!> ⟮c25;s∞;Ein Ohr, zu hören meine Klage,⟯
-!> ⟮c26;s∞;Ein Herz, wie mein's,⟯
-!> ⟮c27;s∞;Sich des Bedrängten zu erbarmen.⟯
-</blockquote>
-<blockquote>
-!> ⟮c28;s∞;Wer half mir⟯
-!> ⟮c29;s∞;Wider der Titanen Übermut?⟯
-!> ⟮c30;s∞;Wer rettete vom Tode mich,⟯
-!> ⟮c31;s∞;Von Sklaverei?⟯
-!> ⟮c32;s∞;Hast du nicht alles selbst vollendet,⟯
-!> ⟮c33;s∞;Heilig glühend Herz?⟯
-!> ⟮c34;s∞;Und glühtest jung und gut,⟯
-!> ⟮c35;s∞;Betrogen, Rettungsdank⟯
-!> ⟮c36;s∞;Dem Schlafenden da droben?⟯
-</blockquote>
-<blockquote>
-!> ⟮c37;s∞;Ich dich ehren? Wofür?⟯
-!> ⟮c38;s∞;Hast du die Schmerzen gelindert⟯
-!> ⟮c39;s∞;Je des Beladenen?⟯
-!> ⟮c40;s∞;Hast du die Tränen gestillet⟯
-!> ⟮c41;s∞;Je des Geängsteten?⟯
-!> ⟮c42;s∞;Hat nicht mich zum Manne geschmiedet⟯
-!> ⟮c43;s∞;Die allmächtige Zeit⟯
-!> ⟮c44;s∞;Und das ewige Schicksal,⟯
-!> ⟮c45;s∞;Meine Herrn und deine?⟯
-</blockquote>
-<blockquote>
-!> ⟮c46;s∞;Wähntest du etwa,⟯
-!> ⟮c47;s∞;Ich sollte das Leben hassen,⟯
-!> ⟮c48;s∞;In Wüsten fliehen,⟯
-!> ⟮c49;s∞;Weil nicht alle⟯
-!> ⟮c50;s∞;Blütenträume reiften?⟯
-</blockquote>
-<blockquote>
-!> ⟮c51;s∞;Hier sitz' ich, forme Menschen⟯
-!> ⟮c52;s∞;Nach meinem Bilde,⟯
-!> ⟮c53;s∞;Ein Geschlecht, das mir gleich sei,⟯
-!> ⟮c54;s∞;Zu leiden, zu weinen,⟯
-!> Zu ⟮c55;genießen⟯ ⟮c56;und zu freuen sich,⟯
-!> ⟮c57;s∞;Und dein nicht zu achten,⟯
-!> ⟮c58;s∞;Wie ich!⟯
-</blockquote>
-
-Once more unto the breach!
-
-<blockquote>
-!> ⟮c1;s∞;Once more unto the breach, dear friends, once more;⟯
-!> ⟮c2;s∞;Or close the wall up with our English dead.⟯
-!> ⟮c3;s∞;In peace there's nothing so becomes a man⟯
-!> ⟮c4;s∞;As modest stillness and humility:⟯
-!> ⟮c5;s∞;But when the blast of war blows in our ears,⟯
-!> ⟮c6;s∞;Then imitate the action of the tiger;⟯
-!> ⟮c7;s∞;Stiffen the sinews, summon up the blood,⟯
-!> ⟮c8;s∞;Disguise fair nature with hard-favour'd rage;⟯
-!> ⟮c9;s∞;Then lend the eye a terrible aspect;⟯
-!> ⟮c10;s∞;Let pry through the portage of the head⟯
-!> ⟮c11;s∞;Like the brass cannon; let the brow o'erwhelm it⟯
-!> ⟮c12;s∞;As fearfully as doth a galled rock⟯
-!> ⟮c13;s∞;O'erhang and jutty his confounded base,⟯
-!> ⟮c14;s∞;Swill'd with the wild and wasteful ocean.⟯
-!> ⟮c15;s∞;Now set the teeth and stretch the nostril wide,⟯
-!> ⟮c16;s∞;Hold hard the breath and bend up every spirit⟯
-!> ⟮c17;s∞;To his full height. On, on, you noblest English.⟯
-!> ⟮c18;s∞;Whose blood is fet from fathers of war-proof!⟯
-!> ⟮c19;s∞;Fathers that, like so many Alexanders,⟯
-!> ⟮c20;s∞;Have in these parts from morn till even fought⟯
-!> ⟮c21;s∞;And sheathed their swords for lack of argument:⟯
-!> ⟮c22;s∞;Dishonour not your mothers; now attest⟯
-!> ⟮c23;s∞;That those whom you call'd fathers did beget you.⟯
-!> ⟮c24;s∞;Be copy now to men of grosser blood,⟯
-!> ⟮c25;s∞;And teach them how to war. And you, good yeoman,⟯
-!> ⟮c26;s∞;Whose limbs were made in England, show us here⟯
-!> ⟮c27;s∞;The mettle of your pasture; let us swear⟯
-!> ⟮c28;s∞;That you are worth your breeding; which I doubt not;⟯
-!> ⟮c29;s∞;For there is none of you so mean and base,⟯
-!> ⟮c30;s∞;That hath not noble lustre in your eyes.⟯
-!> ⟮c31;s∞;I see you stand like greyhounds in the slips,⟯
-!> ⟮c32;s∞;Straining upon the start. The game's afoot:⟯
-!> ⟮c33;s∞;Follow your spirit, and upon this charge⟯
-!> ⟮c34;s∞;Cry 'God for Harry, England, and Saint George!'⟯
-</blockquote>
-
-Hamilton - Non-Stop (extract)
-
-!> ⟮c1;s∞;Alexander joins forces with James Madison and John Jay to write a series⟯
-!> ⟮c2;s∞;of essays defending the new United States Constitution,⟯
-!> ⟮c3;s∞;entitled The Federalist Papers.⟯
-!> ⟮c4;s∞;The plan was to write a total of twenty-five essays,⟯
-!> ⟮c5;s∞;the work divided evenly among the three men. In the end,⟯
-!> ⟮c6;s∞;they wrote eighty-five essays,⟯
-!> ⟮c7;s∞;in the span of six months. John Jay got sick after writing five.⟯
-!> ⟮c8;s∞;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯
-
-Man'yōshū vol. 11, verse 2514 - 2513
-
-<p>
-!> ⟮c1;s∞;A faint clap of thunder⟯
-!> ⟮c2;s∞;Clouded skies⟯
-!> ⟮c3;s∞;Perhaps rain comes⟯
-!> ⟮c4;s∞;If so, will you stay here with me?⟯
-  </p>
-  <p>
-!> ⟮c5;s∞;A faint clap of thunder⟯
-!> ⟮c6;s∞;Even if rain comes not⟯
-!> ⟮c7;s∞;I will stay here⟯
-!> ⟮c8;s∞;Together with you⟯
-  </p>
-
-John Chivington, 1864, about indians
-
-<blockquote>
-!> ⟮c1;s∞;I have come to kill Indians,⟯
-!> ⟮c2;s∞;and believe it is right and honorable to use⟯
-!> ⟮c3;s∞;any means under God's heaven to kill Indians.⟯
-!> ⟮c4;s∞;Kill and scalp all, big and little; nits make lice!⟯
-</blockquote>
-
-⟮c3;It is too rash, too unadvised, too sudden,⟯ ⟮c2;Too like the lightning, which doth cease to be⟯ ⟮c1;Ere one can say “It lightens.”⟯ 
-
-Helen of Troy Does Countertop Dancing (by Margaret Atwood)
-
-<blockquote> 
-!> ⟮c1;s∞;The world is full of women⟯
-!> ⟮c2;s∞;who'd tell me I should be ashamed of myself⟯
-!> ⟮c3;s∞;if they had the chance. Quit dancing.⟯
-!> ⟮c4;s∞;Get some self-respect⟯
-!> ⟮c5;s∞;and a day job.⟯
-!> ⟮c6;s∞;Right. And minimum wage,⟯
-!> ⟮c7;s∞;and varicose veins, just standing⟯
-!> ⟮c8;s∞;in one place for eight hours⟯
-!> ⟮c9;s∞;behind a glass counter⟯
-!> ⟮c10;s∞;bundled up to the neck, instead of⟯
-!> ⟮c11;s∞;naked as a meat sandwich.⟯
-!> ⟮c12;s∞;Selling gloves, or something.⟯
-!> ⟮c13;s∞;Instead of what I do sell.⟯
-!> ⟮c14;s∞;You have to have talent⟯
-!> ⟮c15;s∞;to peddle a thing so nebulous⟯
-!> ⟮c16;s∞;and without material form.⟯
-!> ⟮c17;s∞;Exploited, they'd say. Yes, any way⟯
-!> ⟮c18;s∞;you cut it, but I've a choice⟯
-!> ⟮c19;s∞;of how, and I'll take the money.⟯
-</blockquote>
-
-<blockquote>
-!> ⟮c20;s∞;I do give value.⟯
-!> ⟮c21;s∞;Like preachers, I sell vision,⟯
-!> ⟮c22;s∞;like perfume ads, desire⟯
-!> ⟮c23;s∞;or its facsimile. Like jokes⟯
-!> ⟮c24;s∞;or war, it's all in the timing.⟯
-!> ⟮c25;s∞;I sell men back their worse suspicions:⟯
-!> ⟮c26;s∞;that everything's for sale,⟯
-!> ⟮c27;s∞;and piecemeal. They gaze at me and see⟯
-!> ⟮c28;s∞;a chain-saw murder just before it happens,⟯
-!> ⟮c29;s∞;when thigh, ass, inkblot, crevice, tit, and nipple⟯
-!> ⟮c30;s∞;are still connected.⟯
-!> ⟮c31;s∞;Such hatred leaps in them,⟯
-!> ⟮c32;s∞;my beery worshippers! That, or a bleary⟯
-!> ⟮c33;s∞;hopeless love. Seeing the rows of heads⟯
-!> ⟮c34;s∞;and upturned eyes, imploring⟯
-!> ⟮c35;s∞;but ready to snap at my ankles,⟯
-!> ⟮c36;s∞;I understand floods and earthquakes, and the urge⟯
-!> ⟮c37;s∞;to step on ants. I keep the beat,⟯
-!> ⟮c38;s∞;and dance for them because⟯
-!> ⟮c39;s∞;they can't. The music smells like foxes,⟯
-!> ⟮c40;s∞;crisp as heated metal⟯
-!> ⟮c41;s∞;searing the nostrils⟯
-!> ⟮c42;s∞;or humid as August, hazy and languorous⟯
-!> ⟮c43;s∞;as a looted city the day after,⟯
-!> ⟮c44;s∞;when all the rape's been done⟯
-!> ⟮c45;s∞;already, and the killing,⟯
-!> ⟮c46;s∞;and the survivors wander around⟯
-!> ⟮c47;s∞;looking for garbage⟯
-!> ⟮c48;s∞;to eat, and there's only a bleak exhaustion.⟯
-!> ⟮c49;s∞;Speaking of which, it's the smiling⟯
-!> ⟮c50;s∞;tires me out the most.⟯
-!> ⟮c51;s∞;This, and the pretence⟯
-!> ⟮c52;s∞;that I can't hear them.⟯
-!> ⟮c53;s∞;And I can't, because I'm after all⟯
-!> ⟮c54;s∞;a foreigner to them.⟯
-!> ⟮c55;s∞;The speech here is all warty gutturals,⟯
-!> ⟮c56;s∞;obvious as a slab of ham,⟯
-!> ⟮c57;s∞;but I come from the province of the gods⟯
-!> ⟮c58;s∞;where meanings are lilting and oblique.⟯
-!> ⟮c59;s∞;I don't let on to everyone,⟯
-!> ⟮c60;s∞;but lean close, and I'll whisper:⟯
-!> ⟮c61;s∞;My mother was raped by a holy swan.⟯
-!> ⟮c62;s∞;You believe that? You can take me out to dinner.⟯
-!> ⟮c63;s∞;That's what we tell all the husbands.⟯
-!> ⟮c64;s∞;There sure are a lot of dangerous birds around.⟯
- </blockquote>
-
-<blockquote>
-!> ⟮c65;s∞;Not that anyone here⟯
-!> ⟮c66;s∞;but you would understand.⟯
-!> ⟮c67;s∞;The rest of them would like to watch me⟯
-!> ⟮c68;s∞;and feel nothing. Reduce me to components⟯
-!> ⟮c69;s∞;as in a clock factory or abattoir.⟯
-!> ⟮c70;s∞;Crush out the mystery.⟯
-!> ⟮c71;s∞;Wall me up alive⟯
-!> ⟮c72;s∞;in my own body.⟯
-!> ⟮c73;s∞;They'd like to see through me,⟯
-!> ⟮c74;s∞;but nothing is more opaque⟯
-!> ⟮c75;s∞;than absolute transparency.⟯
-!> ⟮c76;s∞;Look--my feet don't hit the marble!⟯
-!> ⟮c77;s∞;Like breath or a balloon, I'm rising,⟯
-!> ⟮c78;s∞;I hover six inches in the air⟯
-!> ⟮c79;s∞;in my blazing swan-egg of light.⟯
-!> ⟮c80;s∞;You think I'm not a goddess?⟯
-!> ⟮c81;s∞;Try me.⟯
-!> ⟮c82;s∞;This is a torch song.⟯
-!> ⟮c83;s∞;Touch me and you'll burn.⟯
-</blockquote>
 
 
-Gettysburg Address (1863)
 
-<p>
-!> ⟮c1;s∞;Four score and seven years ago our fathers brought forth on this continent,⟯
-!> ⟮c2;s∞;a new nation, conceived in Liberty⟯, 
-!> ⟮c3;s∞;and dedicated to the proposition that all men are created equal.⟯
-  </p>
-  <p>
-!> ⟮c4;s∞;Now we are engaged in a great civil war,⟯
-!> ⟮c5;s∞;testing whether that nation,⟯
-!> ⟮c6;s∞;or any nation so conceived and so dedicated,⟯
-!> ⟮c7;s∞;can long endure.⟯
-!> ⟮c8;s∞;We are met on a great battle-field of that war.⟯
-!> ⟮c9;s∞;We have come to dedicate a portion of that field, as a final resting place⟯
-!> ⟮c10;s∞;for those who here gave their lives that that nation might live.⟯
-!> ⟮c11;s∞;It is altogether fitting and proper that we should do this. ⟯
-  </p>
-  <p>
-!> ⟮c12;s∞;But, in a larger sense,⟯
-!> ⟮c13;s∞;we can not dedicate—⟯
-!> ⟮c14;s∞;we can not consecrate—⟯
-!> ⟮c15;s∞;we can not hallow—this ground. ⟯
-!> ⟮c16;s∞;The brave men, living and dead, ⟯
-!> ⟮c17;s∞;who struggled here, have consecrated it, ⟯
-!> ⟮c18;s∞;far above our poor power to add or detract. ⟯
-!> ⟮c19;s∞;The world will little note, nor long remember what we say here, ⟯
-!> ⟮c20;s∞;but it can never forget what they did here. ⟯
-!> ⟮c21;s∞;It is for us, the living, rather, ⟯
-!> ⟮c22;s∞;to be dedicated here to the unfinished work ⟯
-!> ⟮c23;s∞;which they who fought here have thus far so nobly advanced.⟯
-!> ⟮c24;s∞;It is rather for us to be here dedicated to the great task remaining before us—⟯
-!> ⟮c25;s∞;that from these honored dead we take increased devotion⟯
-!> ⟮c26;s∞;to that cause for which they gave the last full measure of devotion—⟯
-!> ⟮c27;s∞;that we here highly resolve that these dead shall not have died in vain—⟯
-!> ⟮c28;s∞;that this nation, under God,⟯
-!> ⟮c29;s∞;shall have a new birth of freedom—⟯
-!> ⟮c30;s∞;and that government of the people,⟯
-!> ⟮c31;s∞;by the people,⟯
-!> ⟮c32;s∞;for the people,⟯
-!> ⟮c33;s∞;shall not perish from the earth.⟯
+
+
+
+
+
+## quotes
+
+### John Chivington, 1864, about indians
+
+!> ⟮c1;sb;I have come to kill Indians,⟯
+!> ⟮c2;sb;and believe it is right and honorable to use⟯
+!> ⟮c3;sb;any means under God's heaven to kill Indians.⟯
+!> ⟮c4;sb;Kill and scalp all, big and little; nits make lice!⟯
+
+### misc
+
+!> ⟮c3;It is too rash, too unadvised, too sudden,⟯ ⟮c2;Too like the lightning, which doth cease to be⟯ ⟮c1;Ere one can say “It lightens.”⟯ 
+
+!> ⟮c3;My bounty is as boundless as the sea,⟯  ⟮c3;My love as deep. The more I give to thee,⟯ ⟮c1;The more I have, for both are infinite.⟯ 
+
+!> the papal legate after the first conquest during the crusade against the cathars: ⟮c1;Kill them all, let God sort them out.⟯ / ⟮c2;Kill them all. God will know his own.⟯ 
+
+!> Marc Anthony after Caesars murder: Cry... ⟮c1;'Havoc!,' and let slip the dogs of war.⟯ 
+
+!> Antonio José de Sucre to Simón Bolívar, after his exile: ⟮c1;Goodbye, my general. Take as a measure of my fondness these flowing tears.⟯ 
+
+!> After his trial, ⟮c2;Gallileo⟯ supposedly said: ⟮c1;And yet it moves!⟯ 
+
+!> ⟮c1;There are more things in heaven and earth, Horatio,⟯ ⟮c2;than are dreamt of in your philosophy⟯. 
+
+!> ⟮c1;Tell me, what is it you plan to do⟯ ⟮c2;with your one wild and precious life?⟯ 
+
+!> ⟮c1;It was the nightingale, and not the lark⟯, ⟮c2;that pierced the fearful hollow of thine ear;⟯ 
+
+!> ⟮c1;I was supposed to be the one⟯ ⟮c2;to fill your dark soul with light⟯! 
+
+!> The personal motto of ⟮c3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c1;Aut Caesar, aut nihil.⟯ / (in English)⟮c2;(Either) Caesar or nothing.⟯ 
+
+## speeches
+
+### Gettysburg Address (1863)
+
+!> ⟮c1;sb;Four score and seven years ago our fathers brought forth on this continent,⟯
+!> ⟮c2;sb;a new nation, conceived in Liberty⟯, 
+!> ⟮c3;sb;and dedicated to the proposition that all men are created equal.⟯
+
+!> ⟮c4;sb;Now we are engaged in a great civil war,⟯
+!> ⟮c5;sb;testing whether that nation,⟯
+!> ⟮c6;sb;or any nation so conceived and so dedicated,⟯
+!> ⟮c7;sb;can long endure.⟯
+!> ⟮c8;sb;We are met on a great battle-field of that war.⟯
+!> ⟮c9;sb;We have come to dedicate a portion of that field, as a final resting place⟯
+!> ⟮c10;sb;for those who here gave their lives that that nation might live.⟯
+!> ⟮c11;sb;It is altogether fitting and proper that we should do this. ⟯
+
+!> ⟮c12;sb;But, in a larger sense,⟯
+!> ⟮c13;sb;we can not dedicate—⟯
+!> ⟮c14;sb;we can not consecrate—⟯
+!> ⟮c15;sb;we can not hallow—this ground. ⟯
+!> ⟮c16;sb;The brave men, living and dead, ⟯
+!> ⟮c17;sb;who struggled here, have consecrated it, ⟯
+!> ⟮c18;sb;far above our poor power to add or detract. ⟯
+!> ⟮c19;sb;The world will little note, nor long remember what we say here, ⟯
+!> ⟮c20;sb;but it can never forget what they did here. ⟯
+!> ⟮c21;sb;It is for us, the living, rather, ⟯
+!> ⟮c22;sb;to be dedicated here to the unfinished work ⟯
+!> ⟮c23;sb;which they who fought here have thus far so nobly advanced.⟯
+!> ⟮c24;sb;It is rather for us to be here dedicated to the great task remaining before us—⟯
+!> ⟮c25;sb;that from these honored dead we take increased devotion⟯
+!> ⟮c26;sb;to that cause for which they gave the last full measure of devotion—⟯
+!> ⟮c27;sb;that we here highly resolve that these dead shall not have died in vain—⟯
+!> ⟮c28;sb;that this nation, under God,⟯
+!> ⟮c29;sb;shall have a new birth of freedom—⟯
+!> ⟮c30;sb;and that government of the people,⟯
+!> ⟮c31;sb;by the people,⟯
+!> ⟮c32;sb;for the people,⟯
+!> ⟮c33;sb;shall not perish from the earth.⟯
 ^there are multiple versions, this is the 'canonical' one, although probably not the one he actually delivered
-
-Friends, Romans, Countrymen
-
-<blockquote>
-!> ⟮c1;s∞;Friends, Romans, countrymen, lend me your ears;⟯
-!> ⟮c2;s∞;I come to bury Caesar, not to praise him.⟯
-!> ⟮c3;s∞;The evil that men do lives after them;⟯
-!> ⟮c4;s∞;The good is oft interred with their bones;⟯
-!> ⟮c5;s∞;So let it be with Caesar. The noble Brutus⟯
-!> ⟮c6;s∞;Hath told you Caesar was ambitious:⟯
-!> ⟮c7;s∞;If it were so, it was a grievous fault,⟯
-!> ⟮c8;s∞;And grievously hath Caesar answer’d it.⟯
-!> ⟮c9;s∞;Here, under leave of Brutus and the rest–⟯
-!> ⟮c10;s∞;For Brutus is an honourable man;⟯
-!> ⟮c11;s∞;So are they all, all honourable men–⟯
-!> ⟮c12;s∞;Come I to speak in Caesar’s funeral.⟯
-!> ⟮c13;s∞;He was my friend, faithful and just to me:⟯
-!> ⟮c14;s∞;But Brutus says he was ambitious;⟯
-!> ⟮c15;s∞;And Brutus is an honourable man.⟯
-!> ⟮c16;s∞;He hath brought many captives home to Rome⟯
-!> ⟮c17;s∞;Whose ransoms did the general coffers fill:⟯
-!> ⟮c18;s∞;Did this in Caesar seem ambitious?⟯
-!> ⟮c19;s∞;When that the poor have cried, Caesar hath wept:⟯
-!> ⟮c20;s∞;Ambition should be made of sterner stuff:⟯
-!> ⟮c21;s∞;Yet Brutus says he was ambitious;⟯
-!> ⟮c22;s∞;And Brutus is an honourable man.⟯
-!> ⟮c23;s∞;You all did see that on the Lupercal⟯
-!> ⟮c24;s∞;I thrice presented him a kingly crown,⟯
-!> ⟮c25;s∞;Which he did thrice refuse: was this ambition?⟯
-!> ⟮c26;s∞;Yet Brutus says he was ambitious;⟯
-!> ⟮c27;s∞;And, sure, he is an honourable man.⟯
-!> ⟮c28;s∞;I speak not to disprove what Brutus spoke,⟯
-!> ⟮c29;s∞;But here I am to speak what I do know.⟯
-!> ⟮c30;s∞;You all did love him once, not without cause:⟯
-!> ⟮c31;s∞;What cause withholds you then, to mourn for him?⟯
-!> ⟮c32;s∞;O judgment! thou art fled to brutish beasts,⟯
-!> ⟮c33;s∞;And men have lost their reason. Bear with me;⟯
-!> ⟮c34;s∞;My heart is in the coffin there with Caesar,⟯
-!> ⟮c35;s∞;And I must pause till it come back to me.⟯
-</blockquote>
-
-Extract from Meditations in an Emergency
-
-!> ⟮c1;s∞;I can't even enjoy a blade of grass ⟯
-!> ⟮c2;s∞;unless I know there's a subway handy,⟯
-!> ⟮c3;s∞;or a record store ⟯
-!> ⟮c4;s∞;or some other sign that people do not totally regret life.⟯
-
-Do Not Go Gentle into that Good Night
-
-!> ⟮c1;s∞;Do not go gentle into that good night⟯
-!> ⟮c2;s∞;Old age should burn and rave at close of day;⟯
-!> ⟮c3;s∞;Rage, rage against the dying of the light.⟯
-!> ⟮c4;s∞;Though wise men at their end know dark is right,⟯
-!> ⟮c5;s∞;Because their words had forked no lightning they⟯
-!> ⟮c6;s∞;Do not go gentle into that good night.⟯
-!> ⟮c7;s∞;Good men, the last wave by, crying how bright⟯
-!> ⟮c8;s∞;Their frail deeds might have danced in a green bay,⟯
-!> ⟮c9;s∞;Rage, rage against the dying of the light.⟯
-!> ⟮c10;s∞;Wild men who caught and sang the sun in flight,⟯
-!> ⟮c11;s∞;And learn, too late, they grieved it on its way,⟯
-!> ⟮c12;s∞;Do not go gentle into that good night.⟯
-!> ⟮c13;s∞;Grave men, near death, who see with blinding sight⟯
-!> ⟮c14;s∞;Blind eyes could blaze like meteors and be gay,⟯
-!> ⟮c15;s∞;Rage, rage against the dying of the light.⟯
-!> ⟮c16;s∞;And you, my father, there on the sad height,⟯
-!> ⟮c17;s∞;Curse, bless, me now with your fierce tears, I pray.⟯
-!> ⟮c18;s∞;Do not go gentle into that good night.⟯
-!> ⟮c19;s∞;Rage, rage against the dying of the light.⟯
-
-Alexander Hamilton
-
-<p>AARON BURR
-!> ⟮c1;s∞;How does a bastard, orphan, son of a whore and a⟯
-!> ⟮c2;s∞;Scotsman, dropped in the middle of a forgotten⟯
-!> ⟮c3;s∞;Spot in the Caribbean by Providence, impoverished, in squalor⟯
-!> ⟮c4;s∞;Grow up to be a hero and a scholar?⟯
-  </p>
-  <p>JOHN LAURENS
-!> ⟮c5;s∞;The ten-dollar Founding Father without a father⟯
-!> ⟮c6;s∞;Got a lot farther by workin’ a lot harder⟯
-!> ⟮c7;s∞;By bein’ a lot smarter⟯
-!> ⟮c8;s∞;By bein’ a self-starter⟯
-!> ⟮c9;s∞;By fourteen, they placed him in charge of a trading charter⟯
-  </p>
-  <p>THOMAS JEFFERSON
-!> ⟮c10;s∞;And every day while slaves were being slaughtered and carted⟯
-!> ⟮c11;s∞;Away across the waves, he struggled and kept his guard up⟯
-!> ⟮c12;s∞;Inside, he was longing for something to be a part of⟯
-!> ⟮c13;s∞;The brother was ready to beg, steal, borrow, or barter⟯
-  </p>
-  <p>JAMES MADISON
-!> ⟮c14;s∞;Then a hurricane came, and devastation reigned⟯
-!> ⟮c15;s∞;Our man saw his future drip, drippin’ down the drain⟯
-!> ⟮c16;s∞;Put a pencil to his temple, connected it to his brain⟯
-!> ⟮c17;s∞;And he wrote his first refrain, a testament to his pain⟯
-  </p>
-  <p>BURR
-!> ⟮c18;s∞;Well the word got around, they said, “This kid is insane, man!”⟯
-!> ⟮c19;s∞;Took up a collection just to send him to the mainland⟯
-!> ⟮c20;s∞;“Get your education, don’t forget from whence you came, and⟯
-!> ⟮c21;s∞;The world’s gonna know your name! What’s your name, man?"⟯
-  </p>
-  <p>ALEXANDER HAMILTON
-!> ⟮c22;s∞;Alexander Hamilton⟯
-!> ⟮c23;s∞;My name is Alexander Hamilton⟯
-!> ⟮c24;s∞;And there’s a million things I haven’t done⟯
-!> ⟮c25;s∞;But just you wait, just you wait⟯
-  </p>
-  <p>ELIZA HAMILTON
-!> ⟮c26;s∞;When he was ten, his father split, full of it, debt-ridden⟯
-!> ⟮c27;s∞;Two years later, see Alex and his mother, bed-ridden⟯
-!> ⟮c28;s∞;Half-dead, sittin’ in their own sick⟯
-!> ⟮c29;s∞;The scent thick⟯
-  </p>
-  <p>COMPANY
-!> ⟮c30;s∞;And Alex got better but his mother went quick⟯
-  </p>
-  <p>GEORGE WASHINGTON and (COMPANY)
-!> ⟮c31;s∞;Moved in with a cousin, the cousin committed suicide⟯
-!> ⟮c32;s∞;Left him with nothin’ but ruined pride, somethin’ new inside⟯
-!> ⟮c33;s∞;A voice saying "(Alex) you gotta fend for yourself"⟯
-!> ⟮c34;s∞;He started retreatin’ and readin’ every treatise on the shelf⟯
-  </p>
-  <p>BURR and (COMPANY)
-!> ⟮c35;s∞;There would’ve been nothin’ left to do⟯
-!> ⟮c36;s∞;For someone less astute⟯
-!> ⟮c37;s∞;He would’ve been dead or destitute⟯
-!> ⟮c38;s∞;Without a cent of restitution⟯
-!> ⟮c39;s∞;Started workin’, clerkin’ for his late mother’s landlord⟯
-!> ⟮c40;s∞;Tradin’ sugar cane and rum and other things he can’t afford⟯
-!> ⟮c41;s∞;(Scammin’) for every book he can get his hands on⟯
-!> ⟮c42;s∞;(Plannin’) for the future, see him now as he stands on (oooh⟯)
-!> ⟮c43;s∞;The bow of a ship headed for a new land⟯
-!> ⟮c44;s∞;In New York you can be a new man⟯
-  </p>
-  <p>COMPANY and (HAMILTON)
-!> ⟮c45;s∞;In New York you can be a new man (Just you wait⟯)
-!> ⟮c46;s∞;In New York you can be a new man (Just you wait⟯)
-!> ⟮c47;s∞;In New York you can be a new man⟯
-  </p>
-  <p>WOMEN
-!> ⟮c48;s∞;In New York⟯
-  </p>
-  <p>MEN
-!> ⟮c49;s∞;New York⟯
-  </p>
-  <p>HAMILTON
-!> ⟮c50;s∞;Just you wait⟯
-  </p>
-  <p>COMPANY and (COMPANY)
-!> ⟮c51;s∞;Alexander Hamilton (Alexander Hamilton⟯)
-!> ⟮c52;s∞;We are waiting in the wings for you (waiting in the wings for you⟯)
-!> ⟮c53;s∞;You could never back down⟯
-!> ⟮c54;s∞;You never learned to take your time⟯
-!> ⟮c55;s∞;Oh, Alexander Hamilton (Alexander Hamilton⟯)
-!> ⟮c56;s∞;When America sings for you⟯
-!> ⟮c57;s∞;Will they know what you overcame?⟯
-!> ⟮c58;s∞;Will they know you rewrote the game?⟯
-!> ⟮c59;s∞;The world will never be the same, oh⟯
-  </p>
-  <p>BURR and (COMPANY)
-!> ⟮c60;s∞;The ship is in the harbor now, see if you can spot him(Just you wait⟯)
-!> ⟮c61;s∞;Another immigrant comin’ up from the bottom(Just you wait⟯)
-!> ⟮c62;s∞;His enemies destroyed his rep, America forgot him⟯
-  </p>
-  <p>MULLIGAN/MADISON AND LAFAYETTE/JEFFERSON
-!> ⟮c63;s∞;We fought with him⟯
-  </p>
-  <p>LAURENS/PHILLIP
-!> ⟮c64;s∞;Me? I died for him⟯
-  </p>
-  <p>WASHINGTON
-!> ⟮c65;s∞;Me? I trusted him⟯
-  </p>
-  <p>ANGELICA SCHUYLER, ELIZA, MARIA REYNOLDS
-!> ⟮c66;s∞;Me? I loved him⟯
-  </p>
-  <p>BURR
-!> ⟮c67;s∞;And me? I’m the damn fool that shot him⟯
-  </p>
-  <p>COMPANY
-!> ⟮c68;s∞;There’s a million things I haven’t done⟯
-!> ⟮c69;s∞;But just you wait⟯
-  </p>
-  <p>BURR
-!> ⟮c70;s∞;What’s your name, man?⟯
-  </p>
-  <p>HAMILTON &amp; COMPANY
-!> ⟮c71;s∞;Alexander Hamilton!⟯
-  </p>
-  
-<img class="c1-f c2-b" src="sm_paste-936b6b01e2b831a0ad7780367bf38f6ddc437b99.jpg"><br>The personal motto of ⟮c3;Cesare Borgia⟯ (supposedly, though finding a source is hard) was: (in Latin) ⟮c1;Aut Caesar, aut nihil.⟯ / (in English)⟮c2;(Either) Caesar or nothing.⟯ 
-
-『 Not Waving but Drowning 』 Stevie Smith 1972
-
-<blockquote>
-!> ⟮c1;s∞;Nobody heard him, the dead man,   ⟯
-!> ⟮c2;s∞;But still he lay moaning:⟯
-!> ⟮c3;s∞;I was much further out than you thought   ⟯
-!> ⟮c4;s∞;And not waving but drowning.⟯
-</blockquote>
-
-<blockquote>
-!> ⟮c5;s∞;Poor chap, he always loved larking⟯
-!> ⟮c6;s∞;And now he’s dead⟯
-!> ⟮c7;s∞;It must have been too cold for him his heart gave way,   ⟯
-!> ⟮c8;s∞;They said.⟯
-</blockquote>
-
-<blockquote>
-!> ⟮c9;s∞;Oh, no no no, it was too cold always   ⟯
-!> ⟮c10;s∞;(Still the dead one lay moaning)   ⟯
-!> ⟮c11;s∞;I was much too far out all my life   ⟯
-!> ⟮c12;s∞;And not waving but drowning.⟯
-</blockquote>
-
-{{c2::My bounty is as boundless as the sea,} ⟮c3;My love as deep. The more I give to thee,⟯ ⟮c1;The more I have, for both are infinite.⟯ 
-
-the papal legate after the first conquest during the crusade against the cathars: ⟮c1;Kill them all, let God sort them out.⟯ / ⟮c2;Kill them all. God will know his own.⟯ 
-
-Marc Anthony after Caesars murder: Cry... ⟮c1;'Havoc!,' and let slip the dogs of war.⟯ 
-
-Antonio José de Sucre to Simón Bolívar, after his exile: ⟮c1;Goodbye, my general. Take as a measure of my fondness these flowing tears.⟯ 
-
-After his trial, ⟮c2;Gallileo⟯ supposedly said: ⟮c1;And yet it moves!⟯ 
-
-⟮c1;There are more things in heaven and earth, Horatio,⟯ ⟮c2;than are dreamt of in your philosophy⟯. 
-
-⟮c1;Tell me, what is it you plan to do⟯ ⟮c2;with your one wild and precious life?⟯ 
-
-⟮c1;It was the nightingale, and not the lark⟯, ⟮c2;that pierced the fearful hollow of thine ear;⟯ 
-
-⟮h∞;<img src="sm_paste-c3fb9f58b8eac4bf03833e00091214dfe7fdf33b.jpg">⟯⟮c1;I was supposed to be the one⟯ ⟮c2;to fill your dark soul with light⟯! 
 
 # misc
 
