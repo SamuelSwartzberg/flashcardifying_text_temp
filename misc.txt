@@ -4066,135 +4066,135 @@ Double Coin Knot
 
 ### Non-Stop (extract)
 
-!> ⟮c1;sb;Alexander joins forces with James Madison and John Jay to write a series⟯
-!> ⟮c2;sb;of essays defending the new United States Constitution,⟯
-!> ⟮c3;sb;entitled The Federalist Papers.⟯
-!> ⟮c4;sb;The plan was to write a total of twenty-five essays,⟯
-!> ⟮c5;sb;the work divided evenly among the three men. In the end,⟯
-!> ⟮c6;sb;they wrote eighty-five essays,⟯
-!> ⟮c7;sb;in the span of six months. John Jay got sick after writing five.⟯
-!> ⟮c8;sb;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯
+!> ⟮c7;sb;Alexander joins forces with James Madison and John Jay to write a series⟯
+!> ⟮c8;sb;of essays defending the new United States Constitution,⟯
+!> ⟮c9;sb;entitled The Federalist Papers.⟯
+!> ⟮c10;sb;The plan was to write a total of twenty-five essays,⟯
+!> ⟮c11;sb;the work divided evenly among the three men. In the end,⟯
+!> ⟮c12;sb;they wrote eighty-five essays,⟯
+!> ⟮c13;sb;in the span of six months. John Jay got sick after writing five.⟯
+!> ⟮c14;sb;James Madison wrote twenty-nine. Hamilton wrote the other fifty-one!⟯
 
 ### Alexander Hamilton
 
 !AARON BURR
-!> ⟮c1;sb;How does a bastard, orphan, son of a whore and a⟯
-!> ⟮c2;sb;Scotsman, dropped in the middle of a forgotten⟯
-!> ⟮c3;sb;Spot in the Caribbean by Providence, impoverished, in squalor⟯
-!> ⟮c4;sb;Grow up to be a hero and a scholar?⟯
+!> ⟮c15;sb;How does a bastard, orphan, son of a whore and a⟯
+!> ⟮c16;sb;Scotsman, dropped in the middle of a forgotten⟯
+!> ⟮c17;sb;Spot in the Caribbean by Providence, impoverished, in squalor⟯
+!> ⟮c18;sb;Grow up to be a hero and a scholar?⟯
 
 !JOHN LAURENS
-!> ⟮c5;sb;The ten-dollar Founding Father without a father⟯
-!> ⟮c6;sb;Got a lot farther by workin’ a lot harder⟯
-!> ⟮c7;sb;By bein’ a lot smarter⟯
-!> ⟮c8;sb;By bein’ a self-starter⟯
-!> ⟮c9;sb;By fourteen, they placed him in charge of a trading charter⟯
+!> ⟮c19;sb;The ten-dollar Founding Father without a father⟯
+!> ⟮c20;sb;Got a lot farther by workin’ a lot harder⟯
+!> ⟮c21;sb;By bein’ a lot smarter⟯
+!> ⟮c22;sb;By bein’ a self-starter⟯
+!> ⟮c23;sb;By fourteen, they placed him in charge of a trading charter⟯
 
 !THOMAS JEFFERSON
-!> ⟮c10;sb;And every day while slaves were being slaughtered and carted⟯
-!> ⟮c11;sb;Away across the waves, he struggled and kept his guard up⟯
-!> ⟮c12;sb;Inside, he was longing for something to be a part of⟯
-!> ⟮c13;sb;The brother was ready to beg, steal, borrow, or barter⟯
+!> ⟮c24;sb;And every day while slaves were being slaughtered and carted⟯
+!> ⟮c25;sb;Away across the waves, he struggled and kept his guard up⟯
+!> ⟮c26;sb;Inside, he was longing for something to be a part of⟯
+!> ⟮c27;sb;The brother was ready to beg, steal, borrow, or barter⟯
 
 !JAMES MADISON
-!> ⟮c14;sb;Then a hurricane came, and devastation reigned⟯
-!> ⟮c15;sb;Our man saw his future drip, drippin’ down the drain⟯
-!> ⟮c16;sb;Put a pencil to his temple, connected it to his brain⟯
-!> ⟮c17;sb;And he wrote his first refrain, a testament to his pain⟯
+!> ⟮c28;sb;Then a hurricane came, and devastation reigned⟯
+!> ⟮c29;sb;Our man saw his future drip, drippin’ down the drain⟯
+!> ⟮c30;sb;Put a pencil to his temple, connected it to his brain⟯
+!> ⟮c31;sb;And he wrote his first refrain, a testament to his pain⟯
 
 !BURR
-!> ⟮c18;sb;Well the word got around, they said, “This kid is insane, man!”⟯
-!> ⟮c19;sb;Took up a collection just to send him to the mainland⟯
-!> ⟮c20;sb;“Get your education, don’t forget from whence you came, and⟯
-!> ⟮c21;sb;The world’s gonna know your name! What’s your name, man?"⟯
+!> ⟮c32;sb;Well the word got around, they said, “This kid is insane, man!”⟯
+!> ⟮c33;sb;Took up a collection just to send him to the mainland⟯
+!> ⟮c34;sb;“Get your education, don’t forget from whence you came, and⟯
+!> ⟮c35;sb;The world’s gonna know your name! What’s your name, man?"⟯
 
 !ALEXANDER HAMILTON
-!> ⟮c22;sb;Alexander Hamilton⟯
-!> ⟮c23;sb;My name is Alexander Hamilton⟯
-!> ⟮c24;sb;And there’s a million things I haven’t done⟯
-!> ⟮c25;sb;But just you wait, just you wait⟯
+!> ⟮c36;sb;Alexander Hamilton⟯
+!> ⟮c37;sb;My name is Alexander Hamilton⟯
+!> ⟮c38;sb;And there’s a million things I haven’t done⟯
+!> ⟮c39;sb;But just you wait, just you wait⟯
 
 !ELIZA HAMILTON
-!> ⟮c26;sb;When he was ten, his father split, full of it, debt-ridden⟯
-!> ⟮c27;sb;Two years later, see Alex and his mother, bed-ridden⟯
-!> ⟮c28;sb;Half-dead, sittin’ in their own sick⟯
-!> ⟮c29;sb;The scent thick⟯
+!> ⟮c40;sb;When he was ten, his father split, full of it, debt-ridden⟯
+!> ⟮c41;sb;Two years later, see Alex and his mother, bed-ridden⟯
+!> ⟮c42;sb;Half-dead, sittin’ in their own sick⟯
+!> ⟮c43;sb;The scent thick⟯
 
 !COMPANY
-!> ⟮c30;sb;And Alex got better but his mother went quick⟯
+!> ⟮c44;sb;And Alex got better but his mother went quick⟯
 
 !GEORGE WASHINGTON and (COMPANY)
-!> ⟮c31;sb;Moved in with a cousin, the cousin committed suicide⟯
-!> ⟮c32;sb;Left him with nothin’ but ruined pride, somethin’ new inside⟯
-!> ⟮c33;sb;A voice saying "(Alex) you gotta fend for yourself"⟯
-!> ⟮c34;sb;He started retreatin’ and readin’ every treatise on the shelf⟯
+!> ⟮c45;sb;Moved in with a cousin, the cousin committed suicide⟯
+!> ⟮c46;sb;Left him with nothin’ but ruined pride, somethin’ new inside⟯
+!> ⟮c47;sb;A voice saying "(Alex) you gotta fend for yourself"⟯
+!> ⟮c48;sb;He started retreatin’ and readin’ every treatise on the shelf⟯
 
 !BURR and (COMPANY)
-!> ⟮c35;sb;There would’ve been nothin’ left to do⟯
-!> ⟮c36;sb;For someone less astute⟯
-!> ⟮c37;sb;He would’ve been dead or destitute⟯
-!> ⟮c38;sb;Without a cent of restitution⟯
-!> ⟮c39;sb;Started workin’, clerkin’ for his late mother’s landlord⟯
-!> ⟮c40;sb;Tradin’ sugar cane and rum and other things he can’t afford⟯
-!> ⟮c41;sb;(Scammin’) for every book he can get his hands on⟯
-!> ⟮c42;sb;(Plannin’) for the future, see him now as he stands on (oooh⟯)
-!> ⟮c43;sb;The bow of a ship headed for a new land⟯
-!> ⟮c44;sb;In New York you can be a new man⟯
+!> ⟮c49;sb;There would’ve been nothin’ left to do⟯
+!> ⟮c50;sb;For someone less astute⟯
+!> ⟮c51;sb;He would’ve been dead or destitute⟯
+!> ⟮c52;sb;Without a cent of restitution⟯
+!> ⟮c53;sb;Started workin’, clerkin’ for his late mother’s landlord⟯
+!> ⟮c54;sb;Tradin’ sugar cane and rum and other things he can’t afford⟯
+!> ⟮c55;sb;(Scammin’) for every book he can get his hands on⟯
+!> ⟮c56;sb;(Plannin’) for the future, see him now as he stands on (oooh⟯)
+!> ⟮c57;sb;The bow of a ship headed for a new land⟯
+!> ⟮c58;sb;In New York you can be a new man⟯
 
 !COMPANY and (HAMILTON)
-!> ⟮c45;sb;In New York you can be a new man (Just you wait⟯)
-!> ⟮c46;sb;In New York you can be a new man (Just you wait⟯)
-!> ⟮c47;sb;In New York you can be a new man⟯
+!> ⟮c59;sb;In New York you can be a new man (Just you wait⟯)
+!> ⟮c60;sb;In New York you can be a new man (Just you wait⟯)
+!> ⟮c61;sb;In New York you can be a new man⟯
 
 !WOMEN
-!> ⟮c48;sb;In New York⟯
+!> ⟮c62;sb;In New York⟯
 
 !MEN
-!> ⟮c49;sb;New York⟯
+!> ⟮c63;sb;New York⟯
 
 !HAMILTON
-!> ⟮c50;sb;Just you wait⟯
+!> ⟮c64;sb;Just you wait⟯
 
 !COMPANY and (COMPANY)
-!> ⟮c51;sb;Alexander Hamilton (Alexander Hamilton⟯)
-!> ⟮c52;sb;We are waiting in the wings for you (waiting in the wings for you⟯)
-!> ⟮c53;sb;You could never back down⟯
-!> ⟮c54;sb;You never learned to take your time⟯
-!> ⟮c55;sb;Oh, Alexander Hamilton (Alexander Hamilton⟯)
-!> ⟮c56;sb;When America sings for you⟯
-!> ⟮c57;sb;Will they know what you overcame?⟯
-!> ⟮c58;sb;Will they know you rewrote the game?⟯
-!> ⟮c59;sb;The world will never be the same, oh⟯
+!> ⟮c65;sb;Alexander Hamilton (Alexander Hamilton⟯)
+!> ⟮c66;sb;We are waiting in the wings for you (waiting in the wings for you⟯)
+!> ⟮c67;sb;You could never back down⟯
+!> ⟮c68;sb;You never learned to take your time⟯
+!> ⟮c69;sb;Oh, Alexander Hamilton (Alexander Hamilton⟯)
+!> ⟮c70;sb;When America sings for you⟯
+!> ⟮c71;sb;Will they know what you overcame?⟯
+!> ⟮c72;sb;Will they know you rewrote the game?⟯
+!> ⟮c73;sb;The world will never be the same, oh⟯
 
 !BURR and (COMPANY)
-!> ⟮c60;sb;The ship is in the harbor now, see if you can spot him(Just you wait⟯)
-!> ⟮c61;sb;Another immigrant comin’ up from the bottom(Just you wait⟯)
-!> ⟮c62;sb;His enemies destroyed his rep, America forgot him⟯
+!> ⟮c74;sb;The ship is in the harbor now, see if you can spot him(Just you wait⟯)
+!> ⟮c75;sb;Another immigrant comin’ up from the bottom(Just you wait⟯)
+!> ⟮c76;sb;His enemies destroyed his rep, America forgot him⟯
 
 !MULLIGAN/MADISON AND LAFAYETTE/JEFFERSON
-!> ⟮c63;sb;We fought with him⟯
+!> ⟮c77;sb;We fought with him⟯
 
 !LAURENS/PHILLIP
-!> ⟮c64;sb;Me? I died for him⟯
+!> ⟮c78;sb;Me? I died for him⟯
 
 !WASHINGTON
-!> ⟮c65;sb;Me? I trusted him⟯
+!> ⟮c79;sb;Me? I trusted him⟯
 
 !ANGELICA SCHUYLER, ELIZA, MARIA REYNOLDS
-!> ⟮c66;sb;Me? I loved him⟯
+!> ⟮c80;sb;Me? I loved him⟯
 
 !BURR
-!> ⟮c67;sb;And me? I’m the damn fool that shot him⟯
+!> ⟮c81;sb;And me? I’m the damn fool that shot him⟯
 
 !COMPANY
-!> ⟮c68;sb;There’s a million things I haven’t done⟯
-!> ⟮c69;sb;But just you wait⟯
+!> ⟮c82;sb;There’s a million things I haven’t done⟯
+!> ⟮c83;sb;But just you wait⟯
 
 !BURR
-!> ⟮c70;sb;What’s your name, man?⟯
+!> ⟮c84;sb;What’s your name, man?⟯
 
 !HAMILTON &amp; COMPANY
-!> ⟮c71;sb;Alexander Hamilton!⟯
+!> ⟮c85;sb;Alexander Hamilton!⟯
 
 ## poetry
 
@@ -4657,32 +4657,17 @@ Double Coin Knot
 !> ⟮c2;sb;courage to change the things I can,⟯
 !> ⟮c3;sb;and wisdom to know the difference.⟯
 
+## quotes
 
-
-Símon Bolivar's conclusion about the americas
+### Símon Bolivar's conclusion about the americas
 
 Simon Bolivars Letter near the end of his life:
-<ol>
-  <li>⟮c1;sb;America is ungovernable.⟯</li>
-  <li>⟮c2;sb;He who serves revolution plows the sea.⟯</li>
-  <li>⟮c3;sb;The only thing one can do in America is emigrate.⟯</li>
-  <li>⟮c4;sb;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯</li>
-  <li>⟮c5;sb;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯</li>
-  <li>⟮c6;sb;If it is possible for one part of the world to return to primitive chaos, it is America.⟯</li>
-</ol>
-<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯<br><div class="sub">
-<a href="https://en.wikiquote.org/wiki/Sim%C3%B3n_Bol%C3%ADvar#Letter_near_the_end_of_his_life_(November_9,_1830)">https://en.wikiquote.org/wiki/Simón_Bolívar#Letter_near_the_end_of_his_life_(November_9,_1830)</a>
-</div>
-
-
-
-
-
-
-
-
-
-## quotes
+1. ⟮c1;sb;America is ungovernable.⟯
+2. ⟮c2;sb;He who serves revolution plows the sea.⟯
+3. ⟮c3;sb;The only thing one can do in America is emigrate.⟯
+4. ⟮c4;sb;This country will first fall into the hands of the unbridled crowd and then pass imperceptibly to tyrants of all colors and races.⟯
+5. ⟮c5;sb;Devoured by all crimes and extinguished by ferocity, the Europeans will not even deign to conquer us.⟯
+6. ⟮c6;sb;If it is possible for one part of the world to return to primitive chaos, it is America.⟯
 
 ### John Chivington, 1864, about indians
 
