@@ -161,7 +161,7 @@ The precise value of a ⟮c8;network effect⟯ is often stated in terms of ⟮c4
 
 ##### goods with properties
 
-  <tbody>|⟮c5;excludable⟯|⟮c5;non-excludable⟯
+|⟮c5;excludable⟯|⟮c5;non-excludable⟯
 ⟮c6;rivalrous⟯</th>
       <td>⟮c1;s1-4;private good⟯|⟮c4;s1-4;common(-pool) good⟯⟮c6;non-rivalrous⟯</th>
       <td>⟮c2;s1-4;club/toll good⟯|⟮c3;s1-4;public good⟯
@@ -914,7 +914,7 @@ else
 ```
 compass rose
 
-  <tbody>|⟮c1;s∞;N⟯|
+|⟮c1;s∞;N⟯|
 ⟮c2;s∞;N⟯||⟮c3;s∞;E⟯
 |⟮c4;s∞;S⟯|
 
@@ -1626,11 +1626,11 @@ The problem with ⟮c7;the relief theory of laughter⟯ is that ⟮c8;nervous en
 
 Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Vernunfterkenntnis⟯, die sich ⟮c4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c3;formale Vernunfterkenntnis⟯, die sich ⟮c5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
 
-  <tbody>
+
     <tr>
       <th style="background-color: palegreen;">⟮c1;s∞;material (objekt-bezogen⟯)|⟮c2;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
 
-                  <tbody>
+
             <tr>
               <th colspan="2">⟮c3;s∞;Physik (Objekt: Natur⟯)</th>
               <th colspan="2" style="background-color: palegreen;">⟮c4;s∞;Ethik (Objekt: Freiheit⟯)
@@ -1641,7 +1641,7 @@ Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Ver
 
       </td>
       <td style="vertical-align: top">
-                  <tbody>⟮c13;s∞; Logik ⟯
+⟮c13;s∞; Logik ⟯
 ⟮c14;s∞; essenziell nicht-empirisch = a priori, rein ⟯
 
 
@@ -1653,7 +1653,7 @@ Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Ver
 ⟮c21;Campbell⟯'s ⟮c22;monomyth⟯ was influenced by ⟮c23;psychoanalytic theories⟯, ⟮c25;mainly⟯ ⟮c24;Jung⟯ and ⟮c25;to a certain extent⟯ ⟮c24;Freud⟯. 
 The ⟮c26;monomyth⟯ claims to be ⟮c27;descriptive⟯, specifically ⟮c28;a general structure that underlines all myths⟯, though ⟮c29;it, well, isn't⟯, and is often used ⟮c30;prescriptively/as a formula for writing⟯. 
 The ⟮c31;monomyth⟯ may also be called ⟮c32;the Hero's Journey⟯. The shape of the ⟮c34;monomyth⟯ is ⟮c33;circular⟯, the ⟮c35;Hero ends up in the same place they started⟯. 
-    <tbody>
+
 span=1,5;⟮c1;Departure⟯|⟮c2;The Call to Adventure⟯
 ⟮c3;Refusal of the Call⟯
 ⟮c4;Supernatural Aid⟯
@@ -1903,27 +1903,27 @@ food ⟮c14;fortification⟯ / ⟮c15;enrichment⟯ is the process of ⟮c16;add
 
 ⟮c6;Macronutrient⟯ is sometimes used in the more ⟮c5;restricted⟯ sense  ⟮c7;macronutrient that provides energy⟯ 
 
-  <tbody>⟮c1;Macronutrient⟯|⟮c2;Micronutrient⟯
+⟮c1;Macronutrient⟯|⟮c2;Micronutrient⟯
 
-                  <tbody>⟮c3;Does not provide energy⟯|⟮c4;Provides energy⟯
+⟮c3;Does not provide energy⟯|⟮c4;Provides energy⟯
 
-                                  <tbody>⟮c5;Water⟯|⟮c6;Fiber⟯
+⟮c5;Water⟯|⟮c6;Fiber⟯
 
-              |                  <tbody>⟮c7;Alcohol⟯|⟮c8;Fat⟯|⟮c9;Carbohydrates⟯|⟮c10;Protein⟯
+              |⟮c7;Alcohol⟯|⟮c8;Fat⟯|⟮c9;Carbohydrates⟯|⟮c10;Protein⟯
 
 
       |
-                  <tbody>⟮c11;Minerals⟯|⟮c12;Vitamins⟯
+⟮c11;Minerals⟯|⟮c12;Vitamins⟯
 
-                                  <tbody>⟮c13;Macrominerals⟯|⟮c14;Trace minerals⟯|⟮c15;Ultratrace minerals⟯
+⟮c13;Macrominerals⟯|⟮c14;Trace minerals⟯|⟮c15;Ultratrace minerals⟯
 
               |
-                                  <tbody>⟮c16;Fat-soluble⟯|⟮c17;Water-soluble⟯
+⟮c16;Fat-soluble⟯|⟮c17;Water-soluble⟯
 
-                                                  <tbody>⟮c18;A⟯|⟮c19;D⟯|⟮c20;E⟯|⟮c21;K⟯
+⟮c18;A⟯|⟮c19;D⟯|⟮c20;E⟯|⟮c21;K⟯
 
                       |
-                                                  <tbody>
+
                                 ⟮c22;the 8 B vitamins⟯
                               |⟮c23;C⟯
 
@@ -2054,7 +2054,7 @@ In the ⟮c33;US⟯ and some other countries, ⟮c34;milk⟯ and ⟮c35;milk sub
 
   
 Vitamin B...|Name or name of vitamers (if it exists)
- <tbody>
+
 ⟮c1;1⟯|⟮c13;Thiamine⟯
 ⟮c2;2⟯|⟮c14;Riboflavin⟯
 ⟮c3;3⟯|⟮c15;vitamers w/ names similar to Niacin⟯
@@ -2083,7 +2083,7 @@ Mineral|Is defined by?
 
 
     <tr><th colspan="42">essential minerals (some variation between characters exist)
-  <tbody>
+
     <tr><th colspan="5">⟮c1;Macrominerals⟯</th> <th colspan="11">⟮c2;trace minerals⟯|⟮c3;ultratrace minerals⟯
 
 ⟮c4;calcium⟯|⟮c5;magnesium⟯|⟮c6;phosophorus⟯|⟮c7;potassium⟯|⟮c8;sodium⟯|⟮c9;   chlorine⟯|⟮c10;(chromium⟯)|⟮c11;cobalt⟯|⟮c12;copper⟯|⟮c13;iodine⟯|⟮c14;iron⟯|⟮c15;manganese⟯|⟮c16;molybdenum⟯|⟮c17;selenium⟯|⟮c18;sulfur⟯|⟮c19;zinc⟯|⟮c20;  unclear⟯
@@ -2615,7 +2615,7 @@ In your ⟮c10;torso⟯, ⟮c11;dermatomes⟯ run ⟮c12;horizontally⟯.
 ⟮c3;spine⟯|⟮c6;excessively arched⟯
 
 
-  <tbody>span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
+span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
 ⟮c7;neutral pelvis⟯|⟮c8;anterior pelvic tilt⟯|⟮c9;posterior pelvic tilt⟯
 
 
@@ -4050,17 +4050,16 @@ Double Coin Knot
 # Spanish
 
 There are a number of verbs that ⟮c12;stem-change⟯ in the ⟮c13;preterite⟯. they all take the following endings 
-  <tbody>-e
+-e
 -iste
 -o
 -imos
 -isteis
 -ieron
 
-</tbody></table>
 and change like this: 
 Infinitive|Stem Change
-  <tbody>andar|⟮c1;anduv-⟯
+andar|⟮c1;anduv-⟯
 estar|⟮c2;estuv-⟯
 tener|⟮c3;tuv-⟯
 caber|⟮c4;cup-⟯
@@ -4130,82 +4129,83 @@ Spanish months<br/>  <thead>month|name
 ⟮c21;11⟯|⟮c22;noviembre⟯
 ⟮c23;12⟯|⟮c24;diciembre⟯
 
+## conjugations
 
-Preterite of ser
-<br/><tbody>
+### Preterite of ser
+
 ⟮c1;fui⟯|⟮c4;fuimos⟯
 ⟮c2;fuiste⟯|⟮c5;fuisteis⟯
 ⟮c3;fue⟯|⟮c6;fueron⟯
 
 
 Preterite of ir
-<br/><tbody>
+
 ⟮c1;fui⟯|⟮c4;fuimos⟯
 ⟮c2;fuiste⟯|⟮c5;fuisteis⟯
 ⟮c3;fue⟯|⟮c6;fueron⟯
 
 
-Preterite of dar<br/><tbody>
+Preterite of dar
 ⟮c1;di⟯|⟮c4;dimos⟯
 ⟮c2;diste⟯|⟮c5;disteis⟯
 ⟮c3;dio⟯|⟮c6;dieron⟯
 
 
 Preterite de hacer
-<br/><tbody>
+
 ⟮c1;hice⟯|⟮c4;hicimos⟯
 ⟮c2;hiciste⟯|⟮c5;hicisteis⟯
 ⟮c3;hizo⟯|⟮c6;hicieron⟯
 
 
 In the preterite verbs that end in -uir are conjugated as follows (example: huir)
-<br/><tbody>
+
 ⟮c1;hui⟯|⟮c4;huimos⟯
 ⟮c2;huiste⟯|⟮c5;huisteis⟯
 ⟮c3;huyó⟯|⟮c6;huyeron⟯
 
 
 In the preterite verbs that end in -aer, -eer, -oír, and -oer are conjugated as follows (example: creer)
-<br/><tbody>
+
 ⟮c1;creí⟯|⟮c4;creímos⟯
 ⟮c2;creíste⟯|⟮c5;creísteis⟯
 ⟮c3;creyó⟯|⟮c6;creyeron⟯
 
 
 Imperfect of ver
-<br/><tbody>
+
 ⟮c1;veía⟯|⟮c4;veíamos⟯
 ⟮c2;veías⟯|⟮c5;veíais⟯
 ⟮c3;veía⟯|⟮c6;veían⟯
 
 
-Imperfect of ser<br/><tbody>
+Imperfect of ser
 ⟮c1;era⟯|⟮c4;éramos⟯
 ⟮c2;eras⟯|⟮c5;erais⟯
 ⟮c3;era⟯|⟮c6;eran⟯
 
 
 Imperfect of ir
-<br/><tbody>
+
 ⟮c1;iba⟯|⟮c4;íbamos⟯
 ⟮c2;ibas⟯|⟮c5;ibais⟯
 ⟮c3;iba⟯|⟮c6;iban⟯
 
 
 span=2;Present Subjunctive – haber
-<tbody>⟮c1;haya⟯|⟮c4;hayamos⟯
+⟮c1;haya⟯|⟮c4;hayamos⟯
 ⟮c2;hayas⟯|⟮c5;hayáis⟯
 ⟮c3;haya⟯|⟮c6;hayan⟯
 
 
 span=2;Pluperfecto en español
-<tbody>⟮c1;Había vivido⟯|⟮c4;Habíamos vivido⟯
+⟮c1;Había vivido⟯|⟮c4;Habíamos vivido⟯
 ⟮c2;Habías vivido⟯|⟮c5;Habíais vivido⟯
 ⟮c3;Había vivido⟯|⟮c6;Habían vivido⟯
 
 
 span=2;Hablar - future
-<tbody>⟮c1;hablaré⟯|⟮c4;hablaremos⟯
+⟮c1;hablaré⟯|⟮c4;hablaremos⟯
 ⟮c2;hablarás⟯|⟮c5;hablaréis⟯
 ⟮c3;hablará⟯|⟮c6;hablarán⟯
 
@@ -4220,181 +4220,181 @@ Phrases of ⟮c1;desire⟯, ⟮c2;doubt⟯, ⟮c3;uncertainty⟯, ⟮c4;subjecti
 ⟮c1;Primero⟯ and ⟮c1;tercero⟯ ⟮c3;lose their o⟯ before ⟮c2; singular masculine nouns⟯. 
 
 span=2;cerrar e:ie present indicative conjugation
-<tbody>⟮c1;cierro⟯|⟮c4;cerramos⟯
+⟮c1;cierro⟯|⟮c4;cerramos⟯
 ⟮c2;cierras⟯|⟮c5;cerráis⟯
 ⟮c3;cierra⟯|⟮c6;cierran⟯
 
 
 span=2;vivir present indicative
-<tbody>⟮c1;vivo⟯|⟮c4;vivimos⟯
+⟮c1;vivo⟯|⟮c4;vivimos⟯
 ⟮c2;vives⟯|⟮c5;vivís⟯
 ⟮c3;vive⟯|⟮c6;viven⟯
 
 
 span=2;venir present indicative conjugation
-<tbody>⟮c1;vengo⟯|⟮c4;venimos⟯
+⟮c1;vengo⟯|⟮c4;venimos⟯
 ⟮c2;vienes⟯|⟮c5;venís⟯
 ⟮c3;viene⟯|⟮c6;vienen⟯
 
 
 span=2;tener present indicative conjugation
-<tbody>⟮c1;tengo⟯|⟮c4;tenemos⟯
+⟮c1;tengo⟯|⟮c4;tenemos⟯
 ⟮c2;tienes⟯|⟮c5;tenéis⟯
 ⟮c3;tiene⟯|⟮c6;tienen⟯
 
 
 span=2;repetir e:i present indicative conjugation
-<tbody>⟮c1;repito⟯|⟮c4;repetimos⟯
+⟮c1;repito⟯|⟮c4;repetimos⟯
 ⟮c2;repites⟯|⟮c5;repetís⟯
 ⟮c3;repite⟯|⟮c6;repiten⟯
 
 
 span=2;posessive adjectives
-<tbody>⟮c1;mi(s⟯)|⟮c4;nuestro(-a, -os, -as⟯)
+⟮c1;mi(s⟯)|⟮c4;nuestro(-a, -os, -as⟯)
 ⟮c2;tu(s⟯)|⟮c5;vuestro(-a, -os, -as⟯)
 ⟮c3;su(s⟯)|⟮c6;su(s⟯)
 
 
 span=2;o:u preterite (dormir)
-<tbody>⟮c1;dormí⟯|⟮c4;dormimos⟯
+⟮c1;dormí⟯|⟮c4;dormimos⟯
 ⟮c2;dormiste⟯|⟮c5;dormimos⟯
 ⟮c3;durmió⟯|⟮c6;durmieron⟯
 
 
 span=2;hablar present indicative
-<tbody>⟮c1;hablo⟯|⟮c4;hablamos⟯
+⟮c1;hablo⟯|⟮c4;hablamos⟯
 ⟮c2;hablas⟯|⟮c5;habláis⟯
 ⟮c3;habla⟯|⟮c6;hablan⟯
 
 
 span=2;escribir - future
-<tbody>⟮c1;escribiré⟯|⟮c4;escribiremos⟯
+⟮c1;escribiré⟯|⟮c4;escribiremos⟯
 ⟮c2;escribirás⟯|⟮c5;escribiréis⟯
 ⟮c3;escribirá⟯|⟮c6;escribirán⟯
 
 
 span=2;e:i preterite (preferir)
-<tbody>⟮c1;preferí⟯|⟮c4;preferimos⟯
+⟮c1;preferí⟯|⟮c4;preferimos⟯
 ⟮c2;preferiste⟯|⟮c5;preferisteis⟯
 ⟮c3;prefirió⟯|⟮c6;prefirieron⟯
 
 
 span=2;dormir o:ue present indicative conjugation
-<tbody>⟮c1;duermo⟯|⟮c4;dormimos⟯
+⟮c1;duermo⟯|⟮c4;dormimos⟯
 ⟮c2;duermes⟯|⟮c5;dormís⟯
 ⟮c3;duerme⟯|⟮c6;duermen⟯
 
 
 span=2;comer present indicative
-<tbody>⟮c1;como⟯|⟮c4;comemos⟯
+⟮c1;como⟯|⟮c4;comemos⟯
 ⟮c2;comes⟯|⟮c5;coméis⟯
 ⟮c3;come⟯|⟮c6;comen⟯
 
 
 span=2;comer - future
-<tbody>⟮c1;comeré⟯|⟮c4;comeremos⟯
+⟮c1;comeré⟯|⟮c4;comeremos⟯
 ⟮c2;comerás⟯|⟮c5;comeréis⟯
 ⟮c3;comerá⟯|⟮c6;comerán⟯
 
 
 span=2;Subjunctive present hablar
-<tbody>⟮c1;hable⟯|⟮c4;hablemos⟯
+⟮c1;hable⟯|⟮c4;hablemos⟯
 ⟮c2;hables⟯|⟮c5;habléis⟯
 ⟮c3;hable⟯|⟮c6;hablen⟯
 
 
 span=2;Subjunctive present escribir
-<tbody>⟮c1;escriba⟯|⟮c4;escribamos⟯
+⟮c1;escriba⟯|⟮c4;escribamos⟯
 ⟮c2;escribas⟯|⟮c5;escribaís⟯
 ⟮c3;escriba⟯|⟮c6;escriban⟯
 
 
 span=2;Subjunctive present comer
-<tbody>⟮c1;coma⟯|⟮c4;comamos⟯
+⟮c1;coma⟯|⟮c4;comamos⟯
 ⟮c2;comas⟯|⟮c5;comáis⟯
 ⟮c3;coma⟯|⟮c6;coman⟯
 
 
 span=2;Preterite of ver
-<tbody>⟮c1;vi⟯|⟮c4;vimos⟯
+⟮c1;vi⟯|⟮c4;vimos⟯
 ⟮c2;viste⟯|⟮c5;visteis⟯
 ⟮c3;vio⟯|⟮c6;vieron⟯
 
 
 span=2;Preterite of traer
-<tbody>⟮c1;traje⟯|⟮c4;trajimos⟯
+⟮c1;traje⟯|⟮c4;trajimos⟯
 ⟮c2;trajiste⟯|⟮c5;trajisteis⟯
 ⟮c3;trajo⟯|⟮c6;trajeron⟯
 
 
 span=2;Preterite of decir
-<tbody>⟮c1;dije⟯|⟮c4;dijimos⟯
+⟮c1;dije⟯|⟮c4;dijimos⟯
 ⟮c2;dijiste⟯|⟮c5;dijisteis⟯)
 ⟮c3;dijo⟯|⟮c6;dijeron⟯
 
 
 span=2;Preterite of -ucir verbs such as producir
-<tbody>⟮c1;produje⟯|⟮c4;produjimos⟯
+⟮c1;produje⟯|⟮c4;produjimos⟯
 ⟮c2;produjiste⟯|⟮c5;produjisteis⟯
 ⟮c3;produjo⟯|⟮c6;produjeron⟯
 
 
 span=2;Present Subjunctive – ser
-<tbody>⟮c1;sea⟯|⟮c4;seamos⟯
+⟮c1;sea⟯|⟮c4;seamos⟯
 ⟮c2;seas⟯|⟮c5;seáis⟯
 ⟮c3;sea⟯|⟮c6;sean⟯
 
 
 span=2;Present Subjunctive – saber
-<tbody>⟮c1;sepa⟯|⟮c4;sepamos⟯
+⟮c1;sepa⟯|⟮c4;sepamos⟯
 ⟮c2;sepas⟯|⟮c5;sepáis⟯
 ⟮c3;sepa⟯|⟮c6;sepan⟯
 
 
 span=2;Present Subjunctive – ir
-<tbody>⟮c1;vaya⟯|⟮c4;vayamos⟯
+⟮c1;vaya⟯|⟮c4;vayamos⟯
 ⟮c2;vayas⟯|⟮c5;vayáis⟯
 ⟮c3;vaya⟯|⟮c6;vayan⟯
 
 
 span=2;Present Subjunctive – estar
-<tbody>⟮c1;esté⟯|⟮c4;estemos⟯
+⟮c1;esté⟯|⟮c4;estemos⟯
 ⟮c2;estés⟯|⟮c5;estéis⟯
 ⟮c3;esté⟯|⟮c6;estén⟯
 
 
 span=2;Present Subjunctive - dar
-<tbody>⟮c1;dé⟯|⟮c4;demos⟯
+⟮c1;dé⟯|⟮c4;demos⟯
 ⟮c2;des⟯|⟮c5;deis⟯
 ⟮c3;dé⟯|⟮c6;den⟯
 
 
 span=2;Imperfect subjunctive -se cantar
-<tbody>⟮c1;cantase⟯|⟮c4;cantásemos⟯
+⟮c1;cantase⟯|⟮c4;cantásemos⟯
 ⟮c2;cantases⟯|⟮c5;cantaseis⟯
 ⟮c3;cantase⟯|⟮c6;cantasen⟯
 
 
 span=2;Imperfect subjunctive -a form for cantar
-<tbody>⟮c1;cantara⟯|⟮c4;cantáramos⟯
+⟮c1;cantara⟯|⟮c4;cantáramos⟯
 ⟮c2;cantaras⟯|⟮c5;cantarais⟯
 ⟮c3;cantara⟯|⟮c6;cantaran⟯
 
 
 span=2;Conditional vivir
-<tbody>⟮c1;viviría⟯|⟮c4;viviríamos⟯
+⟮c1;viviría⟯|⟮c4;viviríamos⟯
 ⟮c2;vivirías⟯|⟮c5;viviríais⟯
 ⟮c3;viviría⟯|⟮c6;vivirían⟯
 
 
 span=2;Conditional hablar
-<tbody>⟮c1;hablaría⟯|⟮c4;hablaríamos⟯
+⟮c1;hablaría⟯|⟮c4;hablaríamos⟯
 ⟮c2;hablarías⟯|⟮c5;hablaríais⟯
 ⟮c3;hablaría⟯|⟮c6;hablarían⟯
 
 
 span=2;Conditional comer
-<tbody>⟮c1;comería⟯|⟮c4;comeríamos⟯
+⟮c1;comería⟯|⟮c4;comeríamos⟯
 ⟮c2;comerías⟯|⟮c5;comeríais⟯
 ⟮c3;comería⟯|⟮c6;comerían⟯
 
@@ -5159,4 +5159,3 @@ Word|Today more commonly|example
 
 
 Something ⟮c1;phallic⟯ is ⟮c3;shaped like⟯ or ⟮c3;otherwise like⟯ a ⟮c2;penis⟯, something ⟮c4;yonic⟯ is ⟮c5;shaped like⟯ or ⟮c5;otherwise like⟯ a ⟮c6;vagina⟯ 
-<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯

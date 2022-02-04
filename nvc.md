@@ -169,7 +169,7 @@ The thing that ⟮c36;uniquely identifies⟯ a ⟮c37;symbol⟯ is ⟮c38;its na
 ⟮c39;Symbols⟯ start out ⟮c40;vague and shadowy⟯, ⟮c41;asking clean language questions⟯ ⟮c42;increases clarity⟯. 
 
 One possible grouping of clean language questions (there are others)
-  <tbody>⟮c1;intention⟯|⟮c2;sequence and source⟯|span=3;⟮c3;developing⟯
+⟮c1;intention⟯|⟮c2;sequence and source⟯|span=3;⟮c3;developing⟯
 ||
         ⟮c6;name and address questions⟯<br>
         Purpose: ⟮c23;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile

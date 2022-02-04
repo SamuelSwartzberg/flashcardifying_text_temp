@@ -777,7 +777,7 @@ A ⟮c5;statistic⟯ that ⟮c6;is being used to estimate⟯ a ⟮c7;parameter�
 
 #### Types of errors
 
-  <tbody></td>
+</td>
       <th>⟮c7;s5-8;H<sub>0</sub> true⟯|⟮c8;s5-8;H<sub>0</sub> false⟯
 ⟮c5;s5-8;reject H<sub>0</sub>⟯</th>
       <td>⟮c1;s1-4;Type I error⟯|⟮c2;s1-4;Correct Conclusion⟯⟮c6;s5-8;fail to reject H<sub>0</sub>⟯</th>

@@ -105,7 +105,7 @@ A branch reset group resets the index of capture groups to the index it would ha
 The index of the next group after the branch reset group is the maximum index that a capture group could have within +1
 
 <table style="text-align: left;">
-  <tbody>
+
     <tr style="font-family: monospace">
       <th style="font-family: sans-serif">Regex</th>
       <td>(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)Group index</th>

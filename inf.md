@@ -52,7 +52,7 @@ the ⟮c1;XML declaration⟯ ⟮c2;contains information about the coming xml doc
 the {{c19::XML declaration}}  is ⟮c3;optional⟯, ⟮c3;but if it appears⟯, it must appear in ⟮c4;the first line of the document⟯. 
 the {{c20::XML declaration}} takes ⟮c5;three⟯ parameters:
 <div class="c1-5-scr c12-18-scr">
-   <tbody>`⟮c6;version⟯`|⟮c9;The XML version the document is using⟯
+`⟮c6;version⟯`|⟮c9;The XML version the document is using⟯
 `⟮c7;encoding⟯`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}
 `⟮c8;standalone⟯`|{{c11::Whether the document relies on an external source such as an external DTD}}
 
@@ -157,7 +157,7 @@ Otherwise, the text content of the <dfn> element is the term being defined.
 Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 The ⟮c1;HTMLMediaElement⟯ has a bunch of properties, amongs others
 
-<tbody>⟮c2;muted⟯|⟮c7;audio is muted/mute audio⟯|IDL & Content
+⟮c2;muted⟯|⟮c7;audio is muted/mute audio⟯|IDL & Content
 ⟮c3;paused⟯|⟮c8;is paused/pause⟯|IDL
 ⟮c5;loop⟯|⟮c10;will loop/loop⟯|IDL & Content
 ⟮c5;controls⟯|⟮c10;is showing controls/show controls⟯|IDL & Content
@@ -827,24 +827,24 @@ A static NodeList (or similar) does not reflect changes in the DOM
 
 ##### types of
 
-  <tbody>
+
     <tr>
       <th colspan="5">⟮c9;Node⟯
 others...|
-                  <tbody>
+
             <tr>
               <th colspan="3">⟮c12;Element⟯
 others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
 
       |
-                  <tbody>
+
             <tr>
               <th colspan="2">⟮c8;Document⟯
 <span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
 
-      |<table><tbody>⟮c5;DocumentFragment⟯
+      |<table>⟮c5;DocumentFragment⟯
 </tbody></table>|
-                  <tbody><tr>
+<tr>
             <th colspan="3">⟮c1;CharacterData⟯
 <span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
 
@@ -1655,7 +1655,7 @@ It may seem that certain html form elements can't have their font styled ⟮c1;b
 
 The white-space CSS property sets how white space inside an element is handled.
 &nbsp;|New lines|Spaces and tabs|Text wrapping
-  <tbody>⟮c1;s1-5;normal⟯</th>
+⟮c1;s1-5;normal⟯</th>
   <td>⟮c6;s6-20;Collapse⟯|⟮c7;s6-20;Collapse⟯|⟮c8;s6-20;Wrap⟯⟮c2;s1-5;pre⟯</th>
   <td>⟮c9;s6-20;Preserve⟯|⟮c10;s6-20;Preserve⟯|⟮c11;s6-20;No wrap⟯⟮c3;s1-5;nowrap⟯</th>
   <td>⟮c12;s6-20;Collapse⟯|⟮c13;s6-20;Collapse⟯|⟮c14;s6-20;No wrap⟯⟮c4;s1-5;pre-wrap⟯</th>
@@ -1716,11 +1716,8 @@ typically, any edge width is specified as a <length-percentage>
 
 ####### css box model
 
-[⟮c1;s∞;Margin-box⟯ [⟮c2;s∞;Border-box⟯ [⟮c3;s∞;Padding-box⟯ [⟮c4;s∞;Content-box⟯<br><br></span>
-      </div>
-    </div>
-  </div>
-</div>
+[⟮c1;s∞;Margin-box⟯ [⟮c2;s∞;Border-box⟯ [⟮c3;s∞;Padding-box⟯ [⟮c4;s∞;Content-box⟯]]]]
+
 margin: auto can be used to center a thing horizontally, but not vertically
 
 ####### Border & outline
@@ -2625,27 +2622,15 @@ colors: {
 }
 ```
 scales|CSS Properties
-  <tbody>`space`|
-        `margin`, `margin-top`, `margin-right`,
-        `margin-bottom`, `margin-left`,
-        `padding`, `padding-top`,
-        `padding-right`, `padding-bottom`,
-        `padding-left`, `grid-gap`,
-        `grid-column-gap`, `grid-row-gap`
+`space`| `margin`, `margin-top`, `margin-right`, `margin-bottom`, `margin-left`, `padding`, `padding-top`, `padding-right`, `padding-bottom`, `padding-left`, `grid-gap`, `grid-column-gap`, `grid-row-gap`
 `fontSizes`|`font-size`
-`colors`|
-        `color`, `background-color`,
-        `border-color`
+`colors`| `color`, `background-color`, `border-color`
 `fonts`|`font-family`
 `fontWeights`|`font-weight`
 `lineHeights`|`line-height`
 `letterSpacings`|`letter-spacing`
-`sizes`|
-        `width`, `height`, `min-width`,
-        `max-width`, `min-height`, `max-height`
-`borders`|
-        `border`, `border-top`, `border-right`,
-        `border-bottom`, `border-left`
+`sizes`| `width`, `height`, `min-width`, `max-width`, `min-height`, `max-height`
+`borders`| `border`, `border-top`, `border-right`, `border-bottom`, `border-left`
 `borderWidths`|`border-width`
 `borderStyles`|`border-style`
 `radii`|`border-radius`
@@ -3019,7 +3004,8 @@ booru: image site with foksonomical tags
 boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
 Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
-<img src="sm_2021-10-19--03-12-32-screenshot.jpg"><img src="sm_2021-10-19--03-11-46-screenshot.jpg"><img src="sm_2021-10-19--03-10-58-screenshot.jpg">
+
+flex-container:<img src="sm_2021-10-19--03-12-32-screenshot.jpg"><img src="sm_2021-10-19--03-11-46-screenshot.jpg"><img src="sm_2021-10-19--03-10-58-screenshot.jpg">
 
 ## extracting information
 
@@ -5315,11 +5301,11 @@ The kind of themes that latex presentations can have are ⟮c31;presentation⟯,
 When using the ⟮c54;beamer⟯ class, you can use ⟮c52;modes⟯ to ⟮c53;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c71;only do something in a certain mode⟯ ⟮c55;mode⟯⟮c56;&lt;⟯⟮c59;certain_mode⟯⟮c56;&gt;⟯⟮c57;{⟯⟮c58;things to do⟯⟮c57;} ⟯ 
 <tr><th colspan="2"> Latex beamer modes
-  <tbody>
+
     <tr>
       <th colspan="2">all
 
-                  <tbody>
+
             <tr>
               <th colspan="4">
                 <span class="c2-cloze">
@@ -5329,7 +5315,7 @@ Command to ⟮c71;only do something in a certain mode⟯ ⟮c55;mode⟯⟮c56;&l
 
       </td>
       <td style="vertical-align:top">
-                  <tbody>
+
                 ⟮c1;article⟯
 
 
@@ -7777,7 +7763,7 @@ USB versions: 1.0, 1.1, 2.0, 2.0 revised, 3.0, 3.1, 3.2, 4.0
 
 Within USB 3, usb 3.1 and 3.2 were renamed
 
-<table class="yesno"><tbody>Standard
+<table class="yesno">Standard
   |USB 1.0
   |USB 1.1
   |USB 2.0
@@ -7875,7 +7861,7 @@ TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
 <table style="table-layout: fixed">
-  <tbody>||</td>
+||</td>
       <td style="background-color: palegreen;">Data|</td>
       <th><span class="all-scr c1-cloze">Application</span>
 |</td>
@@ -8468,7 +8454,7 @@ source port|optional
 destination port|mandatory
 length|mandatory
 checksum|mandatory in IPv6
-  <tbody>octets|0 &amp; 1|2 &amp; 3
+octets|0 &amp; 1|2 &amp; 3
 0</th>
       <td style="background-color: #fa9;">Source port</td>
       <td >Destination port4</th>
