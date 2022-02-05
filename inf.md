@@ -7752,16 +7752,16 @@ USB versions: 1.0, 1.1, 2.0, 2.0 revised, 3.0, 3.1, 3.2, 4.0
 Within USB 3, usb 3.1 and 3.2 were renamed
 
 table:class=yesno;Standard |USB 1.0 |USB 1.1 |USB 2.0 |USB 2.0 Revised |USB 3.0 |USB 3.1 |USB 3.2 |USB4
-Maximum transfer rate |span=2;12 Mbps |span=2;480 Mbps |5 Gbps |10 Gbps |20 Gbps |40 Gbps
-Type A |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67"> |span=2;class=no;Deprecated
-Type B |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75"> |span=2;class=no;Deprecated
-USB-C| span=3;class=no;N/A |span=5;<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">
-Mini-A| class=no;N/A |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50"> |span=5;class=no;Deprecated
-Mini-B| class=no;N/A |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50"> |span=5;class=no;Deprecated
-Mini-AB| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40"> |span=5;class=no;Deprecated
-Micro-A| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50"> |span=2;class=no;Deprecated
-Micro-B| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50"> |span=2;class=no;Deprecated
-Micro-AB| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69"> |span=2;class=no;Deprecated
+type=th;Maximum transfer rate |span=2;12 Mbps |span=2;480 Mbps |5 Gbps |10 Gbps |20 Gbps |40 Gbps
+type=th;Type A |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67"> |span=2;class=no;Deprecated
+type=th;Type B |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75"> |span=2;class=no;Deprecated
+type=th;USB-C|span=3;class=no;N/A|span=5;<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">
+type=th;Mini-A|class=no;N/A|span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50"> |span=5;class=no;Deprecated
+type=th;Mini-B|class=no;N/A|span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50"> |span=5;class=no;Deprecated
+type=th;Mini-AB|span=3;class=no;N/A|<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40"> |span=5;class=no;Deprecated
+type=th;Micro-A|span=3;class=no;N/A|<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50"> |span=2;class=no;Deprecated
+type=th;Micro-B|span=3;class=no;N/A|<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50"> |span=2;class=no;Deprecated
+type=th;Micro-AB|span=3;class=no;N/A|<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69"> |span=2;class=no;Deprecated
 
 USB has a tree (bus + star) topology 
 
@@ -7806,24 +7806,10 @@ Frame contains IP packets contains segment/datagram contains application protoco
 TCP/UDP segments/datagrams are transmitted in IP packets between hosts.
 IP packets are transfered in frames between routers.
 
-<table style="table-layout: fixed">
-||</td>
-      <td style="background-color: palegreen;">Data|</td>
-      <th><span class="all-scr c1-cloze">Application</span>
-|</td>
-      <td style="background-color: #d8b;">UDP / TCP header</td>
-      <td style="background-color: palegreen; filter: brightness(0.8);">(UDP / TCP) data|</td>
-      <th><span class="all-scr c2-cloze">Transport</span>
-</td>
-      <td style="background-color: #87e;">IP header</td>
-      <td colspan="2" style="background-image: linear-gradient(to right, #d8b 50%, palegreen 50%); filter: brightness(0.8);">(IP) data|</td>
-      <th><span class="all-scr c3-cloze">Internet</span>
-
-    <tr>
-      <td style="background-color: lightsalmon;">Frame header</td>
-      <td colspan="3" style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%); filter: brightness(0.8);">(Frame) data</td>
-      <td style="background-color: lightsalmon;">Frame footer</td>
-      <th><span class="all-scr c4-cloze">Link</span>
+table:style=table-layout: fixed;|||style=background-color: #9f9;Data||type=th;⟮c1;s∞;Application⟯
+||style=background-color: #d8b;UDP / TCP header|style=background-color: #8d8;(UDP / TCP) data||type=th;⟮c2;s∞;Transport⟯
+|style=background-color: #87e;IP header|span=2;style=background-image: linear-gradient(to right, #b7a 50%, #8d8 50%);(IP) data||type=th;⟮c3;s∞;Internet⟯
+style=background-color: lightsalmon;Frame header|span=3;style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%);(Frame) data|style=background-color: lightsalmon;Frame footer|type=th;⟮c4;s∞;Link⟯
 
 <style> tr td {width: 15%} tr th {width: 40%} </style>
 
@@ -8349,10 +8335,10 @@ Port range</th>
 
 Generally, an ⟮c54;application protocol⟯ will have a ⟮c55;port number⟯ it ⟮c56;is associated with⟯ (esp. on ⟮c57;the server side⟯). 
 
-preassigned
+####### preassigned
 
-FTP|21
 Protocol|Port
+FTP|21
 ⟮c1;SSH⟯|⟮c2;22⟯
 ⟮c3;telnet⟯|⟮c4;23⟯
 ⟮c5;SMTP (plaintext⟯)|⟮c6;25⟯
@@ -8364,7 +8350,7 @@ Protocol|Port
 ⟮c17;IMAP (encrypted⟯)|⟮c18;993⟯
 
 
-conventional
+####### conventional
 
 HTTP dev servers|8080 or 8000
 
@@ -8394,18 +8380,24 @@ Client --ACK---&gt; Server
 
 ###### UDP
 
+
+####### Datagram header
+
 the UDP ⟮c1;datagram header⟯ consists of ⟮c2;4⟯ ⟮c3;fields⟯ of ⟮c2;2⟯ ⟮c3;bytes⟯ for a total of ⟮c2;8⟯ ⟮c3;bytes⟯ (⟮c2;64⟯ ⟮c3;bit⟯)
-of the UDP datagram header's four fields: 
+
+
+field|optionality
 source port|optional
 destination port|mandatory
 length|mandatory
 checksum|mandatory in IPv6
+
+
 octets|0 &amp; 1|2 &amp; 3
-0</th>
-      <td style="background-color: #fa9;">Source port</td>
-      <td >Destination port4</th>
-      <td >Length</td>
-      <td style="background-color: #fa9;">Checksum
+!type=th;0|style=background-color: #fa9;Source port|Destination port
+!type=th;4|Length|style=background-color: #fa9;Checksum
+
+####### Datagram
 
 the maximum size of a ⟮c2;UDP datagram⟯ is ⟮c1;2^16 bytes⟯ (although IPv6 ⟮c3;jumbograms⟯ do allow more, and ⟮c4;headers⟯ take up some of that)
 
