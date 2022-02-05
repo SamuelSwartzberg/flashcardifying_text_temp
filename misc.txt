@@ -495,7 +495,7 @@ An ⟮c1;auteur⟯ is ⟮c2;an artist⟯ (esp. in ⟮c3;filmmaking⟯) who ⟮c4
 
 ### terminology
 
-<br>  <thead>Term|Meaning
+Term|Meaning
 ⟮c1;Word of God⟯|⟮c2;something that the creator said about one of their works, but isn't contained in the story itself⟯
 ⟮c3;Lemon⟯|⟮c4;Fanfiction with explicit sexual content⟯
 ⟮c5;Lime⟯|⟮c6;Fanfiction with mild sexual content⟯
@@ -1420,12 +1420,12 @@ The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade
 
 #### periods
 
-⟮h∞;<img src="sm_300px-CivilWarUSAColl.jpg">⟯
-⟮h∞;<img src="sm_240px-ReconstructionEraColl.jpg">⟯  <thead>Generation|Start|End|Nicknames
-<tbody class="cloze-group-children hide-if-inactive-children">⟮c1;Civil War⟯|⟮c2;1861⟯|⟮c2;1865⟯
+flex-container:<img src="sm_300px-CivilWarUSAColl.jpg"><img src="sm_240px-ReconstructionEraColl.jpg">
+
+
+Generation|Start|End|Nicknames
+⟮c1;Civil War⟯|⟮c2;1861⟯|⟮c2;1865⟯
 ⟮c3;Reconstruction⟯|⟮c4;1865⟯|⟮c4;1877⟯
-
-
 
 ## history of <person>
 
@@ -2153,7 +2153,7 @@ Thus, ⟮c12;haferflocken⟯ = ⟮c13;rolled oats⟯.
 
 ##### porridge
 
-<img class="all-b c4-f" src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img class="all-b c4-f" src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c3;porridge⟯ by ⟮c1;cooking⟯ ⟮c2;oats⟯, ⟮c2;milk⟯ and ⟮c2;water⟯ together. 
+<img src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c3;porridge⟯ by ⟮c1;cooking⟯ ⟮c2;oats⟯, ⟮c2;milk⟯ and ⟮c2;water⟯ together. 
 ⟮c4;Porridge⟯ looks like ⟮c5;&lt;image&gt;⟯ 
 ⟮c7;Gruel⟯ is ⟮c6;a thinner version⟯ of ⟮c8;porridge⟯. 
 
@@ -2161,7 +2161,10 @@ Thus, ⟮c12;haferflocken⟯ = ⟮c13;rolled oats⟯.
 
 ### directions
 
-<img src="directional-terms.jpg">⟮h∞;<img src="directional-terms-labeled.jpg">⟯  <thead>No. in diagram|Name|Alternative Name
+<img src="directional-terms.jpg">⟮h∞;<img src="directional-terms-labeled.jpg">⟯
+
+
+No. in diagram|Name|Alternative Name
 ⟮c1;3⟯|⟮c2;s3;dorsal⟯|⟮c3;s2;posterior⟯
 ⟮c4;4⟯|⟮c5;s6;ventral⟯|⟮c6;s5;anterior⟯
 
@@ -2175,8 +2178,12 @@ name|image
 ⟮c1;supine⟯|⟮c2;<img src="Screenshot%202021-12-04%20at%2004.40.23.png">⟯
 ⟮c3;prone⟯|⟮c4;<img src="Screenshot%202021-12-04%20at%2004.40.18.png">⟯
 
+#### Hands
 
-⟮h∞;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯  <thead>Name|Description of side of hand
+⟮h∞;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯
+
+
+Name|Description of side of hand
 ⟮c1;the dorsal side of the hand⟯|⟮c2;with knuckles etc.⟯
 ⟮c3;the palmar side of the hand⟯|⟮c4;the one that has your palm⟯
 ⟮c5;the ulnar side of the hand⟯|⟮c6;the side with your pinky finger⟯
@@ -2184,7 +2191,10 @@ name|image
 
 ### regions
 
-<img src="body-regions-numbered.png">⟮h∞;<img src="681px-Regions_of_Human_Body.jpg">⟯  <thead>No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
+<img src="body-regions-numbered.png">⟮h∞;<img src="681px-Regions_of_Human_Body.jpg">⟯
+
+
+No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
 ⟮c1;28⟯|⟮c2;femur⟯|⟮c2;femoral⟯|⟮c2;thigh⟯
 
 
@@ -2320,7 +2330,10 @@ Method of birth control|Perfect-use pearl index|Typical-use pearl index
 
 ###### diagram
 
-<img src="Schematic_diagram_of_the_human_eye.svg"><br>  <thead>No.|Name
+！flex-container:<img src="Schematic_diagram_of_the_human_eye.svg">
+
+
+No.|Name
 ⟮c1;1⟯|⟮c2;lens⟯
 ⟮c3;2⟯|⟮c4;suspensory ligament⟯
 ⟮c5;3⟯|⟮c6;posterior chamber and⟯
@@ -2344,7 +2357,10 @@ Method of birth control|Perfect-use pearl index|Typical-use pearl index
 
 ###### constituent parts
 
-<img src="Schematic_diagram_of_the_human_eye.svg"><br/>The ⟮c1;cornea⟯ is ⟮c2;the transparent front part of the eye⟯ that ⟮c3;covers⟯ the ⟮c4;iris⟯, ⟮c5;pupil⟯, and ⟮c6;anterior chamber⟯. 
+flex-container:<img src="Schematic_diagram_of_the_human_eye.svg">
+
+
+The ⟮c1;cornea⟯ is ⟮c2;the transparent front part of the eye⟯ that ⟮c3;covers⟯ the ⟮c4;iris⟯, ⟮c5;pupil⟯, and ⟮c6;anterior chamber⟯. 
 The ⟮c7;anterior chamber⟯ is the part of the eye ⟮c8;between⟯ ⟮c9;the iris⟯ and ⟮c10;the cornea⟯ filled with ⟮c11;aqueous humour⟯. 
 The ⟮c12;iris⟯ controls the eyes ⟮c13;aperture⟯ = ⟮c14;the size of the pupil⟯. 
 The ⟮c15;iris⟯ is the thing that determines ⟮c16;eye color⟯. 
@@ -2471,7 +2487,10 @@ FOV|deg
 
 ##### diagram
 
-<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png"><br/>  <thead>No. in diagram|Name
+<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png">
+
+
+No. in diagram|Name
 ⟮c1;5⟯|⟮c2;Appendix⟯
 
 
@@ -2496,7 +2515,11 @@ If ⟮c50;appendicitis is left untreated⟯, ⟮c51;the appendix may burst⟯, c
 
 ##### pressure
 
-<span>What is the top number in the image called?</span><span>What is the top number in the image called?</span><br><img class="all-b c20-f c25-f c31-f c32-f" src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg"><br>⟮c14;blood pressure⟯ is measured in ⟮c15;mm Hg⟯ 
+<span>What is the top number in the image called?</span><span>What is the top number in the image called?</span>
+
+<img src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg">
+
+⟮c14;blood pressure⟯ is measured in ⟮c15;mm Hg⟯ 
 name|definition|compares how to the other one|ideal value|which one in the image?
 ⟮c16;c32;diastolic pressure⟯|⟮c17;s∞;blood pressure when your heart is between heartbeats⟯|⟮c18;s∞;lower (than systolic⟯)|⟮c19;s∞;less than 80mm Hg⟯|⟮c20;s∞;71⟯
 ⟮c21;c31;systolic pressure⟯|⟮c22;s∞;blood pressure when your heart is contracting (during a heartbeat⟯)|⟮c23;s∞;higher (than diastolic⟯)|⟮c24;s∞;Less than 120mm HG⟯|⟮c25;s∞;122⟯
@@ -2549,7 +2572,7 @@ On average, the risk of experiencing a ⟮c11;pulmonary embolism⟯ is ⟮c12;0.
 
 Image|Name of movement
 ⟮c1;<img src="eccentric-cont.png">⟯|⟮c2;eccentric⟯
-⟮c3;<img src="concentric-cont.png" ⟯<="" td=""> |⟮c4;concentric⟯
+⟮c3;<img src="concentric-cont.png">⟯|⟮c4;concentric⟯
 ⟮c5;<img src="isometric-cont.png">⟯|⟮c6;isometric⟯
 
             
@@ -2558,7 +2581,10 @@ Image|Name of movement
 
 ##### body
 
-<img src="muscle-anatomy-quiz.png"><br>  <thead>No. in diagram|Name
+！flex-container:<img src="muscle-anatomy-quiz.png">
+
+
+No. in diagram|Name
 ⟮c1;3⟯|⟮c2;Deltoids⟯
 ⟮c1;7⟯|⟮c2;Pecs⟯
 
@@ -2576,7 +2602,10 @@ No.|Name
 
 #### spine
 
-<img class="all-b fullsize-image" src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg"><br/>  <thead>No. in diagram|Name
+<img src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg">
+
+
+No. in diagram|Name
 ⟮c1;3⟯|⟮c2;Lumbar spine⟯
 
 
@@ -2602,7 +2631,7 @@ The ⟮c13;opposite of⟯ ⟮c14;flexion⟯ is ⟮c15;extension⟯.
 
 #### dermatomes
 
-<img class="all-b c1-f" src="sm_554px-Grant_1962_663.jpg"><br>⟮c1;Dermatomes⟯ schematically might look like ⟮c2;&lt;image&gt;⟯ 
+<img src="sm_554px-Grant_1962_663.jpg"><br>⟮c1;Dermatomes⟯ schematically might look like ⟮c2;&lt;image&gt;⟯ 
 Each ⟮c3;dermatome⟯ is 'served' by ⟮c4;a single spinal nerve⟯. 
 Your body has ⟮c5;30⟯ ⟮c6;dermatomes⟯. 
 In your ⟮c7;limbs⟯, ⟮c8;dermatomes⟯ run ⟮c9;vertically⟯. 
@@ -2613,23 +2642,30 @@ In your ⟮c10;torso⟯, ⟮c11;dermatomes⟯ run ⟮c12;horizontally⟯.
 #### pelvic tilt
 
 ⟮h∞;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
-<br/>  <thead>Bodypart|APT symptom
-⟮c1;butt⟯|⟮c4;stick out back⟯
-⟮c2;abdomen⟯|⟮c5;stick out in front⟯
-⟮c3;spine⟯|⟮c6;excessively arched⟯
 
 
 span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
 ⟮c7;neutral pelvis⟯|⟮c8;anterior pelvic tilt⟯|⟮c9;posterior pelvic tilt⟯
 
-
 An ⟮c19;'ideal' pelvic tilt⟯ is ⟮c20;very slightly anterior (5° or so⟯) 
+
+##### APT
+
 When ⟮c21;sitting⟯ or ⟮c21;standing⟯ with ⟮c22;APT⟯, ⟮c23;engage⟯ the ⟮c24;glutes⟯ and the ⟮c24;core⟯. You can test this by ⟮c25;poking yourself with a finger.⟯ 
 When ⟮c26;combatting APT by engaging your glutes and core⟯, you are trying to ⟮c27;distribute some of the laod to your abs and glutes.⟯ 
-Status</th>
-      <th colspan="3">Affected muscles|action
-⟮c10;Weak⟯|⟮c11;abdominals⟯|⟮c12;glutes⟯||⟮c13;stretch them⟯
-⟮c14;Tight⟯|⟮c15;hip flexors/quads⟯|⟮c16;erector spinae⟯|⟮c17;hamstrings⟯|⟮c18;strengthen them⟯
+
+######! APT symptoms 
+
+Bodypart|APT symptom
+⟮c1;butt⟯|⟮c4;stick out back⟯
+⟮c2;abdomen⟯|⟮c5;stick out in front⟯
+⟮c3;spine⟯|⟮c6;excessively arched⟯
+
+######! What to do with APT
+
+Status|Affected muscles|action
+⟮c10;Weak⟯|⟮c11;abdominals⟯, ⟮c12;glutes⟯||⟮c13;stretch them⟯
+⟮c14;Tight⟯|⟮c15;hip flexors/quads⟯, ⟮c16;erector spinae⟯, ⟮c17;hamstrings⟯|⟮c18;strengthen them⟯
 
 
 ## beings
@@ -2855,11 +2891,12 @@ In ⟮c15;myofascial release/trigger point therapy⟯, you ⟮c16;compress a tri
 ### demons
 
 ⟮c2;concubi⟯ are ⟮c3;demons⟯ that are ⟮c1;very sexual⟯. 
-gender|name|meaning of initial morpheme
- <tbody class="cloze-group-children hide-if-inactive-children">⟮c8;Male⟯|⟮c9;Incubus⟯|⟮c10;s∞;In = on/in⟯
-⟮c11;Female⟯|⟮c12;Succubus⟯|⟮c13;s∞;Sub = under⟯
-
 in/con/succubus all originate from the ⟮c4;latin⟯ root ⟮c5;cubare⟯, which means ⟮c6;to lie down⟯. They got gendered via ⟮c7;the position the initial morpheme describes.⟯ 
+
+
+gender|name|meaning of initial morpheme
+⟮c8;Male⟯|⟮c9;Incubus⟯|⟮c10;s∞;In = on/in⟯
+⟮c11;Female⟯|⟮c12;Succubus⟯|⟮c13;s∞;Sub = under⟯
 
 ## safety
 
@@ -3854,7 +3891,10 @@ The ⟮c13;cylinder⟯ of a lock is also called ⟮c14;shell/housing/casing/body
 
 ## image labelling
 
-<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png"><br>  <thead>thing in the image|name
+<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png">
+
+
+thing in the image|name
 ⟮c11;the blue and red things⟯|⟮c12;the pins⟯
 ⟮c13;the blue pins⟯|⟮c14;the driver pins⟯
 ⟮c9;the red pins⟯|⟮c10;the key pins⟯
@@ -3906,8 +3946,10 @@ The thing that ⟮c26;keeps the pins down in a lock⟯ are ⟮c27;the springs⟯
 ## manufacturing tolerances
 
 
-flex-container:<img class="all-b c1-f c2-f c3-f" src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png">
-⟮h∞;<img src="sm_Real-Plug-Lock-Flaws.jpg">⟯In a general sense, locks would ⟮c4;not be pickable⟯ if not for ⟮c5;manufacturing tolerances⟯. 
+flex-container:<img src="sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png"><img src="sm_Real-Plug-Lock-Flaws.jpg">
+
+
+In a general sense, locks would ⟮c4;not be pickable⟯ if not for ⟮c5;manufacturing tolerances⟯. 
 The reason that ⟮c6;not all pins bind⟯ once you ⟮c7;apply rotational tension⟯ is tha⟮c8;t the holes are ever-so-slightly off-center⟯. 
 The pin that will ⟮c1;bind here first⟯ if we ⟮c2;rotate in the upwards direction⟯ is ⟮c3;the second or the fourth pin.⟯ 
 
@@ -3946,7 +3988,7 @@ You need to apply ⟮c11;very little tension⟯ with ⟮c12;the tension wrench�
 
 ## raking
 
-<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img class="all-b c1-f" src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c2;Raking⟯ is ⟮c3;scrubbing the pins⟯ until we ⟮c4;happen to set all the pins⟯. 
+<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c2;Raking⟯ is ⟮c3;scrubbing the pins⟯ until we ⟮c4;happen to set all the pins⟯. 
 Raking might look like ⟮c5;&lt;image&gt;⟯ 
 ⟮c6;Raking⟯ has roughly the same motion as ⟮c7;brushing your teeth⟯. 
 In raking, we ⟮c8;add tension⟯ and then ⟮c9;scrub the pins⟯. 
@@ -3968,9 +4010,9 @@ A common ⟮c5;posture technique⟯ involves ⟮c1;imagining⟯ ⟮c2;a string�
 
 ## screw direction
 
-<tbody class="cloze-group-children hide-if-inactive-children">⟮c1;Screws tighten⟯|⟮c2;clockwise⟯
+effect|direction
+⟮c1;Screws tighten⟯|⟮c2;clockwise⟯
 ⟮c3;Screws loosen⟯|⟮c4;counterclockwise⟯
-
 
 ## breath
 

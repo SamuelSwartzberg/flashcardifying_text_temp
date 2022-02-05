@@ -128,7 +128,7 @@ A number in a positional numeral system will be even if its final digit is even.
 
 
 
-flex-container:<img class="c1-f c2-b" src="sm_212px-Coordinate_with_Origin.svg.png">
+flex-container:<img src="sm_212px-Coordinate_with_Origin.svg.png">
 
 # Geometry
 
