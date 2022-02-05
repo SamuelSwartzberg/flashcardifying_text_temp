@@ -162,10 +162,8 @@ The precise value of a ⟮c8;network effect⟯ is often stated in terms of ⟮c4
 ##### goods with properties
 
 |⟮c5;excludable⟯|⟮c5;non-excludable⟯
-⟮c6;rivalrous⟯</th>
-      <td>⟮c1;s1-4;private good⟯|⟮c4;s1-4;common(-pool) good⟯⟮c6;non-rivalrous⟯</th>
-      <td>⟮c2;s1-4;club/toll good⟯|⟮c3;s1-4;public good⟯
-
+⟮c6;rivalrous⟯|c1;s1-4;private good⟯|⟮c4;s1-4;common(-pool) good⟯
+⟮c6;non-rivalrous⟯|⟮c2;s1-4;club/toll good⟯|⟮c3;s1-4;public good⟯
 
 ###### common pool resources
 
@@ -1635,23 +1633,12 @@ The problem with ⟮c7;the relief theory of laughter⟯ is that ⟮c8;nervous en
 
 Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Vernunfterkenntnis⟯, die sich ⟮c4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c3;formale Vernunfterkenntnis⟯, die sich ⟮c5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
 
+table:style=background-color: palegreen;headerrows=0;!span=4;⟮c1;s∞;material (objekt-bezogen⟯)|⟮c2;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
+!span=2;⟮c3;s∞;Physik (Objekt: Natur⟯)|span=2;background-color: palegreen;⟮c4;s∞;Ethik (Objekt: Freiheit⟯)|⟮c13;s∞; Logik ⟯
+!⟮c5;s∞;empirisch⟯|⟮c6;s∞;a priori, rein⟯|⟮c7;s∞;empirisch⟯|style=background-color: palegreen;⟮c8;s∞;a priori, rein⟯|⟮c14;s∞; essenziell nicht-empirisch = a priori, rein ⟯
+!⟮c9;s∞;Physik (der Natur⟯)|⟮c10;s∞;Metaphysik (der Natur⟯)|⟮c11;s∞;praktische Anthropologie⟯|style=background-color: palegreen;⟮c12;s∞;Methaphysik der Sitten = Moral⟯
 
-    <tr>
-      <th style="background-color: palegreen;">⟮c1;s∞;material (objekt-bezogen⟯)|⟮c2;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
 
-
-            <tr>
-              <th colspan="2">⟮c3;s∞;Physik (Objekt: Natur⟯)</th>
-              <th colspan="2" style="background-color: palegreen;">⟮c4;s∞;Ethik (Objekt: Freiheit⟯)
-⟮c5;s∞;empirisch⟯|⟮c6;s∞;a priori, rein⟯|⟮c7;s∞;empirisch⟯</td>
-              <td style="background-color: palegreen;">⟮c8;s∞;a priori, rein⟯
-⟮c9;s∞;Physik (der Natur⟯)|⟮c10;s∞;Metaphysik (der Natur⟯)|⟮c11;s∞;praktische Anthropologie⟯</td>
-              <td style="background-color: palegreen;">⟮c12;s∞;Methaphysik der Sitten = Moral⟯
-
-      </td>
-      <td style="vertical-align: top">
-⟮c13;s∞; Logik ⟯
-⟮c14;s∞; essenziell nicht-empirisch = a priori, rein ⟯
 
 
 

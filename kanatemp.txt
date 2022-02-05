@@ -1,64 +1,64 @@
 
     <th>hiragana|IPA</th>
-⟮c1;あ⟯|⟮c2;<span class="ipa">a</span>⟯
-⟮c3;あ (after <span class="ipa">a</span>⟯)|⟮c4;<span class="ipa">a</span>⟯
-⟮c5;い⟯|⟮c6;<span class="ipa">i</span>⟯
-⟮c7;い (after <span class="ipa">i</span>⟯)|⟮c8;<span class="ipa">i</span>⟯
-⟮c9;う (after <span class="ipa">o</span>⟯)|⟮c10;<span class="ipa">o</span>⟯
-⟮c11;う⟯|⟮c12;<span class="ipa">u͍</span>⟯
-⟮c13;う (after <span class="ipa">u͍</span>⟯)|⟮c14;<span class="ipa">u͍</span>⟯
-⟮c15;え⟯|⟮c16;<span class="ipa">e</span>⟯
-⟮c17;お⟯|⟮c18;<span class="ipa">o</span>⟯
-⟮c19;お (after <span class="ipa">o</span>⟯)|⟮c20;<span class="ipa">o</span>⟯
-⟮c21;か⟯|⟮c22;<span class="ipa">ka</span>⟯
-⟮c23;が⟯|⟮c24;<span class="ipa">ga</span>⟯
-⟮c25;き⟯|⟮c26;<span class="ipa">kʲi</span>⟯
-⟮c27;きょ⟯|⟮c28;<span class="ipa">kʲo</span>⟯
-⟮c29;く⟯|⟮c30;<span class="ipa">ku͍</span>⟯
-⟮c31;け⟯|⟮c32;<span class="ipa">ke</span>⟯
-⟮c33;こ⟯|⟮c34;<span class="ipa">ko</span>⟯
-⟮c35;さ⟯|⟮c36;<span class="ipa">sa</span>⟯
-⟮c37;し⟯|⟮c38;<span class="ipa">ɕi</span>⟯
-⟮c39;しゃ⟯|⟮c40;<span class="ipa">ɕa</span>⟯
-⟮c41;じ⟯|⟮c42;<span class="ipa">ʥi</span>⟯
-⟮c43;す⟯|⟮c44;<span class="ipa">su͍</span>⟯
-⟮c45;せ⟯|⟮c46;<span class="ipa">se</span>⟯
-⟮c47;そ⟯|⟮c48;<span class="ipa">so</span>⟯
-⟮c49;た⟯|⟮c50;<span class="ipa">ta</span>⟯
-⟮c51;ち⟯|⟮c52;<span class="ipa">ʨi</span>⟯
+⟮c1;あ⟯|⟮c2;［a］⟯
+⟮c3;あ (after ［a］⟯)|⟮c4;［a］⟯
+⟮c5;い⟯|⟮c6;［i］⟯
+⟮c7;い (after ［i］⟯)|⟮c8;［i］⟯
+⟮c9;う (after ［o］⟯)|⟮c10;［o］⟯
+⟮c11;う⟯|⟮c12;［u͍］⟯
+⟮c13;う (after ［u͍］⟯)|⟮c14;［u͍］⟯
+⟮c15;え⟯|⟮c16;［e］⟯
+⟮c17;お⟯|⟮c18;［o］⟯
+⟮c19;お (after ［o］⟯)|⟮c20;［o］⟯
+⟮c21;か⟯|⟮c22;［ka］⟯
+⟮c23;が⟯|⟮c24;［ga］⟯
+⟮c25;き⟯|⟮c26;［kʲi］⟯
+⟮c27;きょ⟯|⟮c28;［kʲo］⟯
+⟮c29;く⟯|⟮c30;［ku͍］⟯
+⟮c31;け⟯|⟮c32;［ke］⟯
+⟮c33;こ⟯|⟮c34;［ko］⟯
+⟮c35;さ⟯|⟮c36;［sa］⟯
+⟮c37;し⟯|⟮c38;［ɕi］⟯
+⟮c39;しゃ⟯|⟮c40;［ɕa］⟯
+⟮c41;じ⟯|⟮c42;［ʥi］⟯
+⟮c43;す⟯|⟮c44;［su͍］⟯
+⟮c45;せ⟯|⟮c46;［se］⟯
+⟮c47;そ⟯|⟮c48;［so］⟯
+⟮c49;た⟯|⟮c50;［ta］⟯
+⟮c51;ち⟯|⟮c52;［ʨi］⟯
 ⟮c53;っ⟯|⟮c54;<span class="ipa"></span>⟯
-⟮c55;つ⟯|⟮c56;<span class="ipa">ʦu͍</span>⟯
-⟮c57;て⟯|⟮c58;<span class="ipa">te</span>⟯
-⟮c59;と⟯|⟮c60;<span class="ipa">to</span>⟯
-⟮c61;な⟯|⟮c62;<span class="ipa">na</span>⟯
-⟮c63;に⟯|⟮c64;<span class="ipa">nʲi</span>⟯
-⟮c65;ぬ⟯|⟮c66;<span class="ipa">nu͍</span>⟯
-⟮c67;ね⟯|⟮c68;<span class="ipa">ne</span>⟯
-⟮c69;の⟯|⟮c70;<span class="ipa">no</span>⟯
-⟮c71;は⟯|⟮c72;<span class="ipa">ha</span>⟯
-⟮c73;は (as a particle⟯)|⟮c74;<span class="ipa">w͍a</span>⟯
-⟮c75;ひ⟯|⟮c76;<span class="ipa">çi</span>⟯
-⟮c77;び⟯|⟮c78;<span class="ipa">bʲi</span>⟯
-⟮c79;ふ⟯|⟮c80;<span class="ipa">ɸu͍</span>⟯
-⟮c81;へ (as a particle⟯)|⟮c82;<span class="ipa">e</span>⟯
-⟮c83;へ⟯|⟮c84;<span class="ipa">he</span>⟯
-⟮c85;ほ⟯|⟮c86;<span class="ipa">ho</span>⟯
-⟮c87;ぽ⟯|⟮c88;<span class="ipa">po</span>⟯
-⟮c89;ま⟯|⟮c90;<span class="ipa">ma</span>⟯
-⟮c91;み⟯|⟮c92;<span class="ipa">mʲi</span>⟯
-⟮c93;む⟯|⟮c94;<span class="ipa">mu͍</span>⟯
-⟮c95;め⟯|⟮c96;<span class="ipa">me</span>⟯
-⟮c97;も⟯|⟮c98;<span class="ipa">mo</span>⟯
-⟮c99;や⟯|⟮c100;<span class="ipa">ja</span>⟯
-⟮c101;ゆ⟯|⟮c102;<span class="ipa">ju͍</span>⟯
-⟮c103;よ⟯|⟮c104;<span class="ipa">jo</span>⟯
-⟮c105;ら⟯|⟮c106;<span class="ipa">ɽa</span>⟯
-⟮c107;り⟯|⟮c108;<span class="ipa">ɽʲi</span>⟯
-⟮c109;る⟯|⟮c110;<span class="ipa">ɽu͍</span>⟯
-⟮c111;れ⟯|⟮c112;<span class="ipa">ɽe</span>⟯
-⟮c113;ろ⟯|⟮c114;<span class="ipa">ɽo</span>⟯
-⟮c115;わ⟯|⟮c116;<span class="ipa">w͍a</span>⟯
-⟮c117;を⟯|⟮c118;<span class="ipa">o</span>⟯
-⟮c119;ん⟯|⟮c120;<span class="ipa">ɴ</span>⟯
+⟮c55;つ⟯|⟮c56;［ʦu͍］⟯
+⟮c57;て⟯|⟮c58;［te］⟯
+⟮c59;と⟯|⟮c60;［to］⟯
+⟮c61;な⟯|⟮c62;［na］⟯
+⟮c63;に⟯|⟮c64;［nʲi］⟯
+⟮c65;ぬ⟯|⟮c66;［nu͍］⟯
+⟮c67;ね⟯|⟮c68;［ne］⟯
+⟮c69;の⟯|⟮c70;［no］⟯
+⟮c71;は⟯|⟮c72;［ha］⟯
+⟮c73;は (as a particle⟯)|⟮c74;［w͍a］⟯
+⟮c75;ひ⟯|⟮c76;［çi］⟯
+⟮c77;び⟯|⟮c78;［bʲi］⟯
+⟮c79;ふ⟯|⟮c80;［ɸu͍］⟯
+⟮c81;へ (as a particle⟯)|⟮c82;［e］⟯
+⟮c83;へ⟯|⟮c84;［he］⟯
+⟮c85;ほ⟯|⟮c86;［ho］⟯
+⟮c87;ぽ⟯|⟮c88;［po］⟯
+⟮c89;ま⟯|⟮c90;［ma］⟯
+⟮c91;み⟯|⟮c92;［mʲi］⟯
+⟮c93;む⟯|⟮c94;［mu͍］⟯
+⟮c95;め⟯|⟮c96;［me］⟯
+⟮c97;も⟯|⟮c98;［mo］⟯
+⟮c99;や⟯|⟮c100;［ja］⟯
+⟮c101;ゆ⟯|⟮c102;［ju͍］⟯
+⟮c103;よ⟯|⟮c104;［jo］⟯
+⟮c105;ら⟯|⟮c106;［ɽa］⟯
+⟮c107;り⟯|⟮c108;［ɽʲi］⟯
+⟮c109;る⟯|⟮c110;［ɽu͍］⟯
+⟮c111;れ⟯|⟮c112;［ɽe］⟯
+⟮c113;ろ⟯|⟮c114;［ɽo］⟯
+⟮c115;わ⟯|⟮c116;［w͍a］⟯
+⟮c117;を⟯|⟮c118;［o］⟯
+⟮c119;ん⟯|⟮c120;［ɴ］⟯
 
 <span class='cloze-dump'>⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}</span>

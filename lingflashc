@@ -1335,33 +1335,23 @@ Free variation is free in the sense that it does not mark a difference in semant
 
 ###### the syllable
 
-structure of the syllable
+####### structure
 
 
-| <tr>
-||<th colspan="3">⟮c1;σ/syllable⟯</th>
-| </tr>
-| <tr>
-||<td>⟮c2;s4-5;Onset⟯</td>
-|||span=2;⟮c3;s4-5;Rhyme⟯</td>
-| </tr>
-| <tr>
-||<td></td>
-||<td>⟮c4;s2-3;Nucleus⟯</td>
-||<td>⟮c5;s2-3;Coda⟯</td>
-| </tr>
-
+table:headerrows=0;style=min-width: 15em;!span=3;⟮c1;σ/syllable⟯
+!⟮c2;s4-5;Onset⟯|span=2;⟮c3;s4-5;Rhyme⟯
+!|⟮c4;s2-3;Nucleus⟯|⟮c5;s2-3;Coda⟯
 
 The syllable is typically represented by σ.
 Syllables must at least have a nucleus.
 The nuleus of a sullable is almost always a vowel, except in the case of syllabic consonants.
 When writing syllables, vowels are typically indicated V and consonants C.
 A semivowel is a vowel that forms a syllable boundary and thus not the nucleus.
-A semivowel is indicated by the IPA as <span class="ipa">◌̯</span>, sadly.
+A semivowel is indicated by the IPA as ［◌̯］, sadly.
 A semivowel may be called a glide since they often act similar to a dipthong, but this term is ambiguous between any transitional sound.
 A consonant that forms the nucleus of a syllable is known as a syllabic consonant.
 Only consonants are explicitly marked as syllabic with the IPA symbol when necessary, as it is presumed that vowels are also syllable nuclei.
-syllabic consonants are marked by <span class="ipa">◌̩</span> or <span class="ipa">◌̍</span>}} in the IPA
+syllabic consonants are marked by ［◌̩］ or ［◌̍］}} in the IPA
 An open syllable is a syllable without a coda. (CV, V, ...) 
 A closed syllable is a syllable with a coda. (CVC, VC, ...) 
 In japanese most syllables are open syllables, either CV or V.
@@ -1459,27 +1449,22 @@ secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
 Tone is the use of pitch in language to distinguish lexical or grammatical meaning.
 In linguistics, intonation is variation in spoken pitch when used, not for distinguishing words as sememes (a concept known as tone), but, rather, for a range of other functions.
 
-<div class="c2-f">
-What's the IPA diacritic for this?
-</div><div class="c1-f">
-What phenomenon is this IPA diacritic for?
-</div><br>⟮c1;mid tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;<span class="ipa">ŋ̄ ē</span> or <span class="ipa">e˧</span>⟯
-⟮c1;low tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ̀ è] or [e˨]⟯
-⟮c1;high tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ́ é] or [e˦]⟯
-⟮c1;global rise (intonation, not tone) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;↗︎◌⟯
-⟮c1;global fall (intonation, not tone) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;↘︎◌⟯
-⟮c1;extra low/bottom tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;[ŋ̏ ȅ] or [e˩]⟯
-⟮c1;extra high/top tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;<span class="ipa">ŋ̋ e̋ </span> or<span class="ipa">e˥</span>⟯
-⟮c1;Upstep (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ꜛ◌ or ꜞ◌⟯
-⟮c1;Generic rising tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ŋ̌ ě⟯
-⟮c1;Generic falling tone (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ŋ̂ ê⟯
-⟮c1;Downstep (not intonation) (suprasegmental)⟯  <span class="divider">&lt;-&gt;</span> ⟮c2;ꜜ◌ or ꜝ◌⟯
-Why does it make sense to have a downstep at the end of a word? <span class="divider">-&gt;</span> ⟮c1;Because any attached morphemes will inherit the downstep⟯
-What does the downstep arrow apply to? <span class="divider">-&gt;</span> ⟮c1;Everything after it⟯<br><div class="sub">
-<div class="sub c2-b c1-f">
-lows are left
-</div>
-</div>
+
+phenomenon|symbol
+⟮c1;extra high/top tone (not intonation) (suprasegmental)⟯|⟮c2;［ŋ̋ e̋］ or［e˥］⟯
+⟮c1;high tone (not intonation) (suprasegmental)⟯|⟮c2;[ŋ́ é] or [e˦]⟯
+⟮c1;mid tone (not intonation) (suprasegmental)⟯|⟮c2;［ŋ̄ ē］ or ［e˧］⟯
+⟮c1;low tone (not intonation) (suprasegmental)⟯|⟮c2;[ŋ̀ è] or [e˨]⟯
+⟮c1;extra low/bottom tone (not intonation) (suprasegmental)⟯|⟮c2;[ŋ̏ ȅ] or [e˩]⟯
+⟮c1;global rise (intonation, not tone) (suprasegmental)⟯|⟮c2;↗︎◌⟯
+⟮c1;global fall (intonation, not tone) (suprasegmental)⟯|⟮c2;↘︎◌⟯
+⟮c1;Generic rising tone (not intonation) (suprasegmental)⟯|⟮c2;ŋ̌ ě⟯
+⟮c1;Generic falling tone (not intonation) (suprasegmental)⟯|⟮c2;ŋ̂ ê⟯
+⟮c1;Upstep (not intonation) (suprasegmental)⟯|⟮c2;ꜛ◌ or ꜞ◌⟯
+⟮c1;Downstep (not intonation) (suprasegmental)⟯|⟮c2;ꜜ◌ or ꜝ◌⟯
+
+Why does it make sense to have a downstep at the end of a word?  ⟮c1;Because any attached morphemes will inherit the downstep⟯
+What does the downstep arrow apply to?  ⟮c1;Everything after it⟯
 
 #### phonetics
 
@@ -1555,7 +1540,7 @@ Therefore:
 labialization (AKA rounding) (secondary articulation)|<span class='ipa'>◌ʷ</span>
 pharyngealization (secondary articulation)|<span class='ipa'>◌ˤ</span>
 velarization (secondary articulation)|<span class='ipa'>◌ˠ</span>
-There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: <span class="ipa">◌̴ </span>, as in <span class='ipa'>ɫ</span>
+There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: ［◌̴ ］, as in <span class='ipa'>ɫ</span>
 labialization (secondary articulation)|<span class='ipa'>◌ʷ</span>
 It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
 In phonetics, vowel roundedness refers to the amount of rounding in the lips during the articulation of a vowel.
@@ -1567,7 +1552,7 @@ In compressed rounding, the lip push onto each other and do not push out to prod
 There are no dedicated IPA diacritics to represent the distinction, but the superscript IPA letter ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ can be used for compression[8] and ⟨◌ʷ⟩ for protrusion. 
 <img src="sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg"><img src="sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg">
 (lips that are) less rounded/labialized (than usual for that sound)   ◌̜
-(lips that are) more rounded/labialized (than usual for that sound)   <span class="ipa">◌̹</span>
+(lips that are) more rounded/labialized (than usual for that sound)   ［◌̹］
 
 Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
@@ -1661,8 +1646,8 @@ Something voiced has the distinctive feature [+voice]
 Something unvoiced or voiceless has the distinctive feature [-voice]
 Something voiced becoming voiceless is known as devoicing.
 Somehthing voiceless becoming voiced is known as voicing.
-voicing|<span class="ipa">◌̬</span>
-devoicing|<span class="ipa">◌̥</span>
+voicing|［◌̬］
+devoicing|［◌̥］
 
 Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
 For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
@@ -1686,7 +1671,7 @@ Creaky voice is indicated in the IPA as <span class='ipa'>◌̰</span>
 Breathy voice is also called murmured voice.
 During breathy voice the vocal folds vibrate, but allow more air to escape.
 Breathy voice has [+spread glottis] [+voiced]
-Breathy voice is indicated in the IPA as <span class="ipa">◌̤</span>.
+Breathy voice is indicated in the IPA as ［◌̤］.
 
 ###### articulation
 
@@ -1741,9 +1726,9 @@ Dorsal consonants are consonants articulated with the body of the tongue as the 
 Radical consonants are consonants articulated with the root/base of of the tongue as the active articulator.
 A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal consonants, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal consonants, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal consonants, with both movements being combined.
 
-marking a given sound as articulated with dental as its place of articulation   <span class="ipa">◌̪</span>
+marking a given sound as articulated with dental as its place of articulation   ［◌̪］
 marking a given sound as laminal   ◌̻ (a square is lame)
-marking a given sound as apical   <span class="ipa">◌̺</span>
+marking a given sound as apical   ［◌̺］
 
 ####### mapping
 
@@ -2020,7 +2005,7 @@ Openness|Backness|Roundedness|IPA Symbol
 ⟮c3;Close ⟯|⟮c31;Central⟯|⟮c31;Rounded⟯|⟮c31;ʉ⟯
 ⟮c4;Close ⟯|⟮c32;Central⟯|⟮c32;Unrounded⟯|⟮c32;ɨ⟯
 ⟮c5;Close ⟯|⟮c33;Front⟯|⟮c33;Rounded⟯|⟮c33;y⟯
-⟮c6;Close-mid⟯|⟮c34;Central⟯|⟮c34;Unrounded⟯|<span class="c34-cloze"><span class="ipa">ɘ</span></span>
+⟮c6;Close-mid⟯|⟮c34;Central⟯|⟮c34;Unrounded⟯|⟮c34;［ɘ］⟯
 ⟮c7;Close-mid⟯|⟮c35;Back⟯|⟮c35;Rounded⟯|⟮c35;o⟯
 ⟮c8;Close-mid⟯|⟮c36;Back⟯|⟮c36;Unrounded⟯|⟮c36;ɤ⟯
 ⟮c9;Close-mid⟯|⟮c37;Central⟯|⟮c37;Rounded⟯|⟮c37;ɵ⟯
@@ -2186,17 +2171,17 @@ advanced|◌̟ or ◌˖
 retracted|◌̠ or ◌˗
 raised|◌̝  or ◌˔
 lowered|◌̞ or ◌˕
-centered|<span class="ipa">◌̈</span>
-mid-centralized|<span class="ipa">◌̽</span>
-Advanced Tongue Root   <span class="ipa">◌̘</span>
-Retracted Tongue Root   <span class="ipa">◌̙</span>
+centered|［◌̈］
+mid-centralized|［◌̽］
+Advanced Tongue Root   ［◌̘］
+Retracted Tongue Root   ［◌̙］
 
 ##### IPA
 
 If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
 For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while <span class='ipa'>◌̆</span> indicates an extra-short vowel.
 For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
-Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮c1;happy⟯ <span class="ipa">◌̆</span>
+Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮c1;happy⟯ ［◌̆］
 
 ### Semantics
 
@@ -5517,7 +5502,7 @@ The phyzsical geography of areas ⟮c6;山の手⟯/⟮c7;下町⟯&nbsp; in 江
 Via ⟮c11;the people living in⟯ ⟮c12;山の手/下町⟯, these words then gained the association of ⟮c13;high-class/low-class status⟯. 
 The people living in ⟮c14;山の手⟯ and ⟮c14;下町⟯ ⟮c15;spoke different dialects of japanese⟯. However, during ⟮c16;Meiji-era⟯ ⟮c17;linguistic standartization⟯ ⟮c18;山の手-japanese⟯ became ⟮c19;the model for the standard language,⟯ and so ⟮c18;下町⟯ became ⟮c20;mere dialect⟯. 
 Both due to ⟮c21;山の手 becoming standard japanese,⟯ and ⟮c22;due to the association with 山の手 as high-status/class and 下町 as low-status/class⟯, ⟮c23;山の手言葉⟯ became a ⟮c24;high-prestige⟯ lect, and ⟮c23;下町言葉⟯ became a ⟮c24;low-prestige⟯ lect. 
-Features of ⟮c25;下町言葉⟯ are ⟮c26;lack of distinction between ひ and し⟯⟮c27;, <span class="ipa">ai</span>/<span class="ipa">oi</span> to <span class="ipa">eː</span>⟯ 
+Features of ⟮c25;下町言葉⟯ are ⟮c26;lack of distinction between ひ and し⟯⟮c27;, ［ai］/［oi］ to ［eː］⟯ 
 
 Bonus facts:
 ⟮c28;江戸⟯ is ⟮c29;the old name of 東京⟯. 
@@ -5782,7 +5767,7 @@ Add a 人 to any nationality to get "the people of"
 
 ### kami
 
-⟮h∞;<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">⟯⟮c1;カムィ <span class="ipa">kàꜛmúj</span> ⟯ in ainu means ⟮c2;god, bear⟯, and is ⟮c3;s∞;related to/cognate with japanese <ruby>神<rp>(</rp><rt>かみ</rt><rp>)</rp></ruby>⟯&nbsp; 
+⟮h∞;<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">⟯⟮c1;カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮c2;god, bear⟯, and is ⟮c3;s∞;related to/cognate with japanese <ruby>神<rp>(</rp><rt>かみ</rt><rp>)</rp></ruby>⟯&nbsp; 
 
 ### misc
 

@@ -777,12 +777,9 @@ A ⟮c5;statistic⟯ that ⟮c6;is being used to estimate⟯ a ⟮c7;parameter�
 
 #### Types of errors
 
-</td>
-      <th>⟮c7;s5-8;H<sub>0</sub> true⟯|⟮c8;s5-8;H<sub>0</sub> false⟯
-⟮c5;s5-8;reject H<sub>0</sub>⟯</th>
-      <td>⟮c1;s1-4;Type I error⟯|⟮c2;s1-4;Correct Conclusion⟯⟮c6;s5-8;fail to reject H<sub>0</sub>⟯</th>
-      <td>⟮c3;s1-4;Correct Conclusion⟯|⟮c4;s1-4;Type II error⟯
-
+⟮c7;s5-8;H<sub>0</sub> true⟯|⟮c8;s5-8;H<sub>0</sub> false⟯
+⟮c5;s5-8;reject H<sub>0</sub>⟯|⟮c1;s1-4;Type I error⟯|⟮c2;s1-4;Correct Conclusion⟯
+⟮c6;s5-8;fail to reject H<sub>0</sub>⟯|⟮c3;s1-4;Correct Conclusion⟯|⟮c4;s1-4;Type II error⟯
 
 # applied
 
@@ -817,22 +814,22 @@ b|bit
 B|byte
 
 prefix|10<sup>?</sup>
-⟮c5;femto⟯|<span class="c21-cloze">10<sup>−15</sup> = 0.000000000000001</span>
-⟮c15;pico⟯|<span class="c31-cloze">10<sup>−12</sup> = 0.000000000001</span>
-⟮c13;nano⟯|<span class="c29-cloze">10<sup>−9</sup> = 0.000000001</span>
-⟮c11;micro⟯|<span class="c27-cloze">10<sup>−6</sup> = 0.000001</span>
-⟮c12;milli⟯|<span class="c28-cloze">10<sup>−3</sup> = 0.001</span>
-⟮c1;centi⟯|<span class="c17-cloze">10<sup>−2</sup> = 0.01</span>
-⟮c3;deci⟯|<span class="c19-cloze">10<sup>−1</sup> = 0.1</span>
-    1|1^0|ø
-⟮c2;deca⟯|<span class="c18-cloze">10<sup>1</sup> = 10</span>
-⟮c7;hecto⟯|<span class="c23-cloze">10<sup>2</sup> = 100</span>
-⟮c9;kilo⟯|<span class="c25-cloze">10<sup>3</sup> = 1000</span>
-⟮c10;mega⟯|<span class="c26-cloze">10<sup>6</sup> = 1000000</span>
-⟮c6;giga⟯|<span class="c22-cloze">10<sup>9</sup> = 1000000000</span>
-⟮c16;tera⟯|<span class="c32-cloze">10<sup>12</sup> = 1000000000000</span>
-⟮c14;peta⟯|<span class="c30-cloze">10<sup>15</sup> = 1000000000000000</span>
-⟮c4;exa⟯|<span class="c20-cloze">10<sup>18</sup> = 1000000000000000000</span>
+⟮c5;femto⟯|⟮c21;10<sup>−15</sup> = 0.000000000000001⟯
+⟮c15;pico⟯|⟮c31;10<sup>−12</sup> = 0.000000000001⟯
+⟮c13;nano⟯|⟮c29;10<sup>−9</sup> = 0.000000001⟯
+⟮c11;micro⟯|⟮c27;10<sup>−6</sup> = 0.000001⟯
+⟮c12;milli⟯|⟮c28;10<sup>−3</sup> = 0.001⟯
+⟮c1;centi⟯|⟮c17;10<sup>−2</sup> = 0.01⟯
+⟮c3;deci⟯|⟮c19;10<sup>−1</sup> = 0.1⟯
+ø|1^0 = 1
+⟮c2;deca⟯|⟮c18;10<sup>1</sup> = 10⟯
+⟮c7;hecto⟯|⟮c23;10<sup>2</sup> = 100⟯
+⟮c9;kilo⟯|⟮c25;10<sup>3</sup> = 1000⟯
+⟮c10;mega⟯|⟮c26;10<sup>6</sup> = 1000000⟯
+⟮c6;giga⟯|⟮c22;10<sup>9</sup> = 1000000000⟯
+⟮c16;tera⟯|⟮c32;10<sup>12</sup> = 1000000000000⟯
+⟮c14;peta⟯|⟮c30;10<sup>15</sup> = 1000000000000000⟯
+⟮c4;exa⟯|⟮c20;10<sup>18</sup> = 1000000000000000000⟯
 
 
 #### actual units

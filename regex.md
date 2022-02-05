@@ -104,13 +104,8 @@ A branch reset group matches one of the alternatives indicated with | as alterna
 A branch reset group resets the index of capture groups to the index it would have had at the beginning at each |.
 The index of the next group after the branch reset group is the maximum index that a capture group could have within +1
 
-<table style="text-align: left;">
 
-    <tr style="font-family: monospace">
-      <th style="font-family: sans-serif">Regex</th>
-      <td>(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)Group index</th>
-      <td>⟮c1;1⟯|⟮c2;2⟯|⟮c3;2⟯|⟮c4;3⟯|⟮c5;2⟯|⟮c6;3⟯|⟮c7;4⟯
-
+table:style=text-align: left;headerrows=0;!type=th;Regex|(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)!Group index|⟮c1;1⟯|⟮c2;2⟯|⟮c3;2⟯|⟮c4;3⟯|⟮c5;2⟯|⟮c6;3⟯|⟮c7;4⟯
 
 ### reference
 
