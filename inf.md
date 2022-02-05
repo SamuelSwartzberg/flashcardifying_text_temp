@@ -1655,12 +1655,11 @@ It may seem that certain html form elements can't have their font styled ⟮c1;b
 
 The white-space CSS property sets how white space inside an element is handled.
 &nbsp;|New lines|Spaces and tabs|Text wrapping
-⟮c1;s1-5;normal⟯</th>
-  <td>⟮c6;s6-20;Collapse⟯|⟮c7;s6-20;Collapse⟯|⟮c8;s6-20;Wrap⟯⟮c2;s1-5;pre⟯</th>
-  <td>⟮c9;s6-20;Preserve⟯|⟮c10;s6-20;Preserve⟯|⟮c11;s6-20;No wrap⟯⟮c3;s1-5;nowrap⟯</th>
-  <td>⟮c12;s6-20;Collapse⟯|⟮c13;s6-20;Collapse⟯|⟮c14;s6-20;No wrap⟯⟮c4;s1-5;pre-wrap⟯</th>
-  <td>⟮c15;s6-20;Preserve⟯|⟮c16;s6-20;Preserve⟯|⟮c17;s6-20;Wrap⟯⟮c5;s1-5;pre-line⟯</th>
-  <td>⟮c18;s6-20;Preserve⟯|⟮c19;s6-20;Collapse⟯|⟮c20;s6-20;Wrap⟯
+⟮c1;s1-5;normal⟯|⟮c6;s6-20;Collapse⟯|⟮c7;s6-20;Collapse⟯|⟮c8;s6-20;Wrap⟯
+⟮c2;s1-5;pre⟯|⟮c9;s6-20;Preserve⟯|⟮c10;s6-20;Preserve⟯|⟮c11;s6-20;No wrap⟯
+⟮c3;s1-5;nowrap⟯|⟮c12;s6-20;Collapse⟯|⟮c13;s6-20;Collapse⟯|⟮c14;s6-20;No wrap⟯
+⟮c4;s1-5;pre-wrap⟯|⟮c15;s6-20;Preserve⟯|⟮c16;s6-20;Preserve⟯|⟮c17;s6-20;Wrap⟯
+⟮c5;s1-5;pre-line⟯|⟮c18;s6-20;Preserve⟯|⟮c19;s6-20;Collapse⟯|⟮c20;s6-20;Wrap⟯
 
 
 ###### Scrolling
@@ -5303,25 +5302,8 @@ The kind of themes that latex presentations can have are ⟮c31;presentation⟯,
 
 When using the ⟮c54;beamer⟯ class, you can use ⟮c52;modes⟯ to ⟮c53;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c71;only do something in a certain mode⟯ ⟮c55;mode⟯⟮c56;&lt;⟯⟮c59;certain_mode⟯⟮c56;&gt;⟯⟮c57;{⟯⟮c58;things to do⟯⟮c57;} ⟯ 
-<tr><th colspan="2"> Latex beamer modes
-
-    <tr>
-      <th colspan="2">all
-
-
-            <tr>
-              <th colspan="4">
-                <span class="c2-cloze">
-                  presentation
-                </span>
-⟮c3;s1-2;beamer⟯|⟮c4;s1-2;second⟯|⟮c5;s1-2;handout⟯|⟮c6;s1-2;trans⟯
-
-      </td>
-      <td style="vertical-align:top">
-
-                ⟮c1;article⟯
-
-
+Latex beamer modes
+onion-box:[all [presentation [⟮c3;s1-2;beamer⟯][⟮c4;s1-2;second⟯][⟮c5;s1-2;handout⟯][⟮c6;s1-2;trans⟯]][⟮c1;article⟯]]
 
 ⟮c52;\institute⟯ ⟮c53;sets document institute (e.g. TU Fak. 1⟯) (exclusive to ⟮c54;beamer⟯) 
 
@@ -5347,7 +5329,7 @@ changing the scrlttr2 template can be can be done the option [] to \documentclas
 The ⟮c33;actual body of a letter⟯ using ⟮c34;scrlttr2⟯ is indicated by ⟮c35;the letter environment⟯. It may ⟮c36;recieve a second argument⟯ of ⟮c37;the target address⟯ 
 
 
-    <tr><th colspan="2">Within the scrlttr2 letter environment
+headerrows=2;span=2;Within the scrlttr2 letter environment
 command|effect
 ⟮c1;\closing{foo}⟯|⟮c2;set the closing line (e.g. Best wishes, ) to foo⟯
 ⟮c3;\opening{foo}⟯|⟮c4;set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯
@@ -7769,59 +7751,17 @@ USB versions: 1.0, 1.1, 2.0, 2.0 revised, 3.0, 3.1, 3.2, 4.0
 
 Within USB 3, usb 3.1 and 3.2 were renamed
 
-<table class="yesno">Standard
-  |USB 1.0
-  |USB 1.1
-  |USB 2.0
-  |USB 2.0 Revised
-  |USB 3.0
-  |USB 3.1
-  |USB 3.2
-  |USB4
-Maximum transfer rate
-  |span=2;12 Mbps
-  |span=2;480 Mbps
-  |5 Gbps
-  |10 Gbps
-  |20 Gbps
-  |40 GbpsType A
-  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50">
-  |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67">
-  |span=2;class=no;DeprecatedType B
-  |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60">
-  |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75">
-  |span=2;class=no;DeprecatedUSB-C
-  </th>
-  <td colspan="3" class="no">N/A
-  |span=5;<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">Mini-A
-  </th>
-  <td class="no">N/A
-  |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50">
-  |span=5;class=no;DeprecatedMini-B
-  </th>
-  <td class="no">N/A
-  |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50">
-  |span=5;class=no;DeprecatedMini-AB
-  </th>
-  <td colspan="3" class="no">N/A
-  |<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40">
-  |span=5;class=no;DeprecatedMicro-A
-  </th>
-  <td colspan="3" class="no">N/A
-  |<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50">
-  |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50">
-  |span=2;class=no;DeprecatedMicro-B
-  </th>
-  <td colspan="3" class="no">N/A
-  |<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42">
-  |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50">
-  |span=2;class=no;DeprecatedMicro-AB
-  </th>
-  <td colspan="3" class="no">N/A
-  |<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50">
-  |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69">
-  |span=2;class=no;Deprecated
-  </td></tr></tbody></table>
+table:class=yesno;Standard |USB 1.0 |USB 1.1 |USB 2.0 |USB 2.0 Revised |USB 3.0 |USB 3.1 |USB 3.2 |USB4
+Maximum transfer rate |span=2;12 Mbps |span=2;480 Mbps |5 Gbps |10 Gbps |20 Gbps |40 Gbps
+Type A |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/USB_Type-A_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/USB_3.0_Type-A_receptacle_blue.svg" width="75" height="67"> |span=2;class=no;Deprecated
+Type B |span=4;<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/USB_Type-B_receptacle.svg" width="50" height="60"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/USB_3.0_Type-B_receptacle_blue.svg" width="59" height="75"> |span=2;class=no;Deprecated
+USB-C| span=3;class=no;N/A |span=5;<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/USB_Type-C_Receptacle_Pinout.svg" height="80">
+Mini-A| class=no;N/A |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/USB_Mini-A_receptacle.svg" width="75" height="50"> |span=5;class=no;Deprecated
+Mini-B| class=no;N/A |span=3;<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/USB_Mini-B_receptacle.svg" width="67" height="50"> |span=5;class=no;Deprecated
+Mini-AB| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/USB_Mini-AB_receptacle.svg" width="60" height="40"> |span=5;class=no;Deprecated
+Micro-A| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/USB_Micro-A.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/USB_3.0_Micro-A.svg" width="117" height="50"> |span=2;class=no;Deprecated
+Micro-B| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/USB_Micro-B_receptacle.svg" width="75" height="42"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/USB_3.0_Micro-B_receptacle.svg" width="117" height="50"> |span=2;class=no;Deprecated
+Micro-AB| span=3;class=no;N/A |<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/USB_Micro-AB_receptacle.svg" width="75" height="50"> |span=2;<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/USB_micro_AB_SuperSpeed.png/117px-USB_micro_AB_SuperSpeed.png" width="117" height="69"> |span=2;class=no;Deprecated
 
 USB has a tree (bus + star) topology 
 
@@ -7852,8 +7792,8 @@ One of the first networks to implement the ⟮c1;TCP/IP protocol suite⟯ and on
 
 ##### layers
 
-OSI Model|TCP/IP Model|PDU (TCP/IP)|Communicant identifier
-Application|Application||path of URL (I think)
+table:OSI Model|TCP/IP Model|PDU (TCP/IP)|Communicant identifier
+Application|span=1,3;Application||path of URL (I think)
 Presentation
 Session
 Transport|Transport|segment (TCP) / datagram (UDP)|Port
