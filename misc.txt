@@ -511,7 +511,7 @@ Term|Meaning
 
 Both ⟮c1;fanon⟯ and ⟮c1;headcanon⟯ are ⟮c2;elements/interpretations that are not part of the official canon⟯. 
 Elements/interpretations that are ⟮c3;not part of the canon,⟯ but ⟮c4;accepted as canon by a group of  fans⟯ are called ⟮c5;fanon⟯. 
-§§ Elements/interpretations that are ⟮c6;not part of the canon⟯, but ⟮c7;accepted as canon by an individual fan are called headcanon⟯. §<br> ===<br> <
+Elements/interpretations that are ⟮c6;not part of the canon⟯, but ⟮c7;accepted as canon by an individual fan are called headcanon⟯.
 
 ### waifus & husbandos
 
@@ -529,7 +529,7 @@ Something ⟮c3;non-diegetic⟯ ⟮c4;only exists outside of the fictional world
 Music that ⟮c5;can be heard by the characters in a film⟯ would be ⟮c6;diegetic music⟯. 
 ⟮c7;An UI⟯ that ⟮c8;is part of a game world itself⟯ would be ⟮c9;an (intra)diegetic UI⟯ 
 
-flex-container:<img class="c1-f c2-b" src="sm_Dead_Space_gameplay.jpg">
+flex-container:<img src="sm_Dead_Space_gameplay.jpg">
 Besides the meaning ⟮c10;of inside/outside of a text⟯, ⟮c11;diegesis/diegetic⟯ refers to ⟮c12;narration (as opposed to mimesis⟯) 
 
 ### intent
@@ -615,7 +615,8 @@ In the pebble scene, neither does the protagonist think it is possible ⟮c8;to 
 
 ###### harlequin
 
-⟮h∞;<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">⟯§§ ⟮c1;Harlequin Enterprises⟯ is a company that ⟮c2;publishes romance novels⟯, and reached a peak market domination (in NA) of ⟮c3;80-90%⟯ of sales in ⟮c4;the 1990s⟯. As of 2002, they publish about a ⟮c5;1k books⟯ a year. §<br>
+⟮h∞;<img src="sm_51VaV4puTsL._SX297_BO1,204,203,200_.jpg">
+⟮c1;Harlequin Enterprises⟯ is a company that ⟮c2;publishes romance novels⟯, and reached a peak market domination (in NA) of ⟮c3;80-90%⟯ of sales in ⟮c4;the 1990s⟯. As of 2002, they publish about a ⟮c5;1k books⟯ a year.
 ⟮c6;Harlequin⟯ sets ⟮c7;precise standards⟯ for their romance novels, with ⟮c8;restrictive contracts⟯ with ⟮c9;bad pay⟯ and ⟮c10;precise page counts⟯. 
 ⟮c11;Harlequin⟯ features different ⟮c12;series⟯ with different ⟮c12;themes⟯, which also vary things such as ⟮c13;sexual content⟯. 
 Harlequin series include 『⟮c14;Love Inspired⟯』 ⟮(c:15;Christian romances where faith is featured as prominently as passion⟯) and 『⟮c16;Harlequin Presents⟯』 ("a⟮c17;lpha males, decadent glamour and jet-set lifestyles⟯") 
@@ -1388,7 +1389,8 @@ sometime between ⟮c2;450-550⟯, ⟮c1;Buddhism was introduced/popularized⟯ 
 
 ###### コギャル
 
-⟮h1;<img src="sm_248px-制服_(5346443876).jpg">⟯⟮h1;<img src="sm_171px-ギリギリ短_(15580964194).jpg">⟯§§ The ⟮c2;コギャル⟯ fashion/fashion subculture involves: whole body: ⟮c1;School uniforms⟯; hip: ⟮c3;miniskirts⟯; feet: ⟮c4;loose socks⟯; neck: ⟮c5;scarves⟯ §<br>
+⟮h1;<img src="sm_248px-制服_(5346443876).jpg">⟯⟮h1;<img src="sm_171px-ギリギリ短_(15580964194).jpg">⟯
+The ⟮c2;コギャル⟯ fashion/fashion subculture involves: whole body: ⟮c1;School uniforms⟯; hip: ⟮c3;miniskirts⟯; feet: ⟮c4;loose socks⟯; neck: ⟮c5;scarves⟯
 The ⟮c6;コギャル⟯ fashion/fashion was popular in the ⟮c7;1990s⟯. 
 
 ##### the economy
@@ -1483,7 +1485,10 @@ The ⟮c1;Equal Employment Opportunity law⟯ (Japan, ⟮c2;1986/87⟯) was the 
 
 ##### john snow's pump
 
-⟮h1;<img src="sm_paste-74d4ec6b145bf8a0a7c8b75525768ca3b64ee0b4.jpg">⟯§§ In response to ⟮c1;a cholera epidemic⟯ in ⟮c13;1854⟯, ⟮c2;John Snow⟯ ⟮c3;mapped⟯ ⟮c4;the place of residence of people who died⟯. §<br>
+⟮h1;<img src="sm_paste-74d4ec6b145bf8a0a7c8b75525768ca3b64ee0b4.jpg">⟯
+
+
+In response to ⟮c1;a cholera epidemic⟯ in ⟮c13;1854⟯, ⟮c2;John Snow⟯ ⟮c3;mapped⟯ ⟮c4;the place of residence of people who died⟯.
 ⟮c5;The deaths that John Snow mapped⟯ ⟮c6;clustered around⟯ ⟮c7;a certain pump.⟯ 
 ⟮c8;The pump around which the deaths mapped by John Snow clustered's handle⟯ was then ⟮c9;removed⟯. 
 ⟮c10;John Snow's mapping effort⟯ is considered ⟮c11;one of the founding methods⟯ of ⟮c12;modern epidemioligy⟯. 
@@ -1554,7 +1559,7 @@ the ⟮c2;Dungan revolt⟯ was a largely unknown rebellion featuring ⟮c3;8-10 
 #### three-finger salute
 
 ⟮h1;<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">⟯
-<img class="c1-f c2-b" src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img class="c1-f c2-b" src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c2;the  3 finger salute⟯ with the ⟮c1;The hunger games⟯ (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) 
+<img src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c2;the  3 finger salute⟯ with the ⟮c1;The hunger games⟯ (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) 
 The ⟮c3;3-finger salute⟯ became ⟮c4;a symbol for democracy⟯ after it was used ⟮c8;in pro-democracy protests after a military coup⟯ in ⟮c5;thailand⟯ in ⟮c6;2014⟯, and was further used after ⟮c7;the 2021 myanmar military coup⟯ 
 
 ### media
@@ -1620,7 +1625,7 @@ The problem with ⟮c7;the relief theory of laughter⟯ is that ⟮c8;nervous en
 
 ###### a priori/a posteriori
 
-<img class="all-f" src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c5;Erkenntnis / Urteile⟯ kann ⟮c6;a priori / a posteriori⟯ sein. 
+<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c5;Erkenntnis / Urteile⟯ kann ⟮c6;a priori / a posteriori⟯ sein. 
 ⟮c1;Urteil a posteriori⟯|⟮c2;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c3;Urteil a priori⟯|⟮c4;Ein Urteil ohne die Basis der Erfahrung⟯
 
@@ -1714,7 +1719,10 @@ separate ⟮c2;things that can affect an individual⟯ into categories. these ar
 
 ### panopticon
 
-⟮h∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">⟯⟮h∞;<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯§§ the word ⟮c9;panoptic⟯ means ⟮c10;all-seeing⟯ §<br>
+⟮h∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">⟯⟮h∞;<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯
+
+
+the word ⟮c9;panoptic⟯ means ⟮c10;all-seeing⟯
 The ⟮c3;panopticon⟯ (in theory) allowed ⟮c4;a single guard⟯ to ⟮c2;observe⟯ ⟮c1;all inmates⟯ ⟮c2;without them knowing that they were being watched⟯ 
 The ⟮c5;panopticon⟯ was designed by ⟮c6;Jeremy Bentham⟯, and used as a metaphor most famously by ⟮c7;Foucault⟯. 
 
@@ -1946,7 +1954,7 @@ the ⟮c9;calorie⟯, in its proper definition, is ⟮c10;the amount of energy�
 Foods by food energy per mass:
 1. ⟮c1;fats⟯ 
 2. ⟮c2;alcohol(ethanol⟯) 
-§§ 3. ⟮c3;carbohydrates⟯/⟮c3;protein⟯ §<br>
+3. ⟮c3;carbohydrates⟯/⟮c3;protein⟯
 ⟮c1;calorie⟯ is also sometimes called ⟮c2;small calorie⟯, ⟮c3;gram calorie⟯
 ⟮c4;kilocalorie⟯ is also sometimes called ⟮c5;calorie (confusingly, and mainly in casual conversation)⟯ ⟮c6;large calorie⟯, ⟮c7;food calorie⟯
 
@@ -2404,17 +2412,16 @@ name|definition|example image
 ⟮c7;almond eyes⟯|⟮c8;s9;almost none or none of the iris is visible above your pupils⟯|⟮c9;h8;<img src="sm_Screenshot%202020-07-27%20at%2015.15.40.png">⟯
 ⟮c10;round eyes⟯|⟮c11;s12;almost all of the iris and perhaps some of the white is visible at the top⟯|⟮c12;h11;<img src="sm_Screenshot%202020-07-27%20at%2015.15.37.png">⟯
 
----
-  <div class="flex-container">
-  <img class="width-50" src="sm_IMG_20200727_150936661.jpg">
-  </div>
+
+flex-container:<img src="sm_IMG_20200727_150936661.jpg">
+
   
 ⟮c15;my eyes⟯ are ⟮c13;relatively almond::round/almondness⟯ and ⟮c14;relatively upturned::turnedness⟯ 
 
 ###### eyelids
 
 name|examples
-⟮c7;(eyelid) crease⟯|⟮c8;<img src="sm_gr15a.jpg"><img class="c1-f c2-b" src="sm_Asian-bleph-before-and-after.jpg">⟯
+⟮c7;(eyelid) crease⟯|⟮c8;<img src="sm_gr15a.jpg"><img src="sm_Asian-bleph-before-and-after.jpg">⟯
 ⟮c9;multiple creases⟯|⟮c10;<img src="sm_upper-eye12-before.jpg">⟯
 ⟮c11;eyelid space⟯|⟮c12;<img src="sm_Upper%20Eyelid%20Shape_Caption_Bottom_Center_0.jpg">⟯
 
@@ -2746,7 +2753,9 @@ Physiologically, ⟮c4;benign paroxysmal positional vertigo⟯ is caused by ⟮c
 
 ⟮h∞;<img src="sm_87316209681.jpg">⟯
 ⟮h∞;<img src="sm_300px-Herpes_zoster_neck.jpg">⟯
-⟮h∞;<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯§§ ⟮c1;Chickenpox⟯ is then english term for ⟮c2;Windpocken⟯ §<br>
+⟮h∞;<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯
+
+c1;Chickenpox⟯ is then english term for ⟮c2;Windpocken⟯
 ⟮c3;Herpes Zoster⟯  is the scientific term for ⟮c4;Shingles⟯, in german it is called ⟮c5;Gürtelrose⟯ 
 ⟮c6;Varicella-zoster virus⟯  causees ⟮c7;Chickenpox, Shingles⟯ 
 ⟮c8;After Chickenpox has healed⟯, often ⟮c9;the varicella-zoster virus⟯ ⟮c10;retreats into the nerves near the spine.⟯ 
@@ -2847,27 +2856,12 @@ Using ⟮c4;oil⟯ during a massage makes it ⟮c5;glide more easily⟯, if you 
 
 ### tapotement
 
-⟮h1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h∞;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h∞;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h∞;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯§§ ⟮c9;Tapotement⟯ is massage with about ⟮c10;3-10 strokes per second⟯ performed ⟮c11;rythmically⟯ §<br>
+⟮h1;<img src="sm_closeup-female-therapist-striking-back-260nw-752265973.jpg">⟯\n⟮h∞;<img src="sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg">⟯\n⟮h∞;<img src="sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg">⟯\n⟮h∞;<img src="sm_2021-06-23--02-10-23-screenshot.jpg">⟯
+
+⟮c9;Tapotement⟯ is massage with about ⟮c10;3-10 strokes per second⟯ performed ⟮c11;rythmically⟯ 
 What you do during ⟮c9;tapotement⟯ depends on ⟮c12;what variety you are using⟯ 
 Name of tapotement|Side of hand|the hand is...|the wrist is⟮h∞;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
 
-The ⟮c1;anterior chamber of the eyeball⟯ lies ⟮c2;between⟯ ⟮c3;the cornea⟯ and ⟮c4;the iris/pupil⟯ 
-The ⟮c5;posterior chamber of the eyeball⟯ is ⟮c6;the narrow space between⟯ ⟮c7;the iris⟯ and ⟮c8;the suspensory ligament of the lens⟯ 
-the ⟮c9;aqueous humor⟯ and the ⟮c10;vitreous humor⟯ are ⟮c11;not the same thing⟯ 
-The ⟮c12;anterior chamber of the eyeball⟯ is ⟮c13;filled with⟯ ⟮c14;aqueous humor⟯ 
-The ⟮c15;space that fills most of they eye behind the lens⟯ is ⟮c16;filled by⟯ ⟮c17;vitreous body/humor⟯ 
-the ⟮c18;aqueous humour⟯ is ⟮c19;more fluid⟯ than the ⟮c18;vitreous humor⟯ 
-
-The ⟮c20;white of the eye⟯ is more properly called the ⟮c21;sclera⟯. 
-± This term 'sclera ±<br>
-The ⟮c22;sclera⟯ ⟮c23;protecc⟯ your eye 
-
-The ⟮c24;optic disc⟯ is the area where t⟮c25;he optic nerve 'enters'/connects with the eye⟯ 
-The ⟮c26;choroid⟯ is ⟮c27;the layer providing nourishment⟯ to the eye 
-± In the middle between retina and sclera, there is a choir on steroids ±<br>
-The ⟮c28;lens⟯ is ⟮c29;held in place by⟯ ⟮c30;the suspensory ligament of the lens⟯ 
-
-<span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}</span>...
 ⟮c1;Pounding/beating/pumelling⟯|⟮c2;ulnar⟯|⟮c2;loose fist⟯|⟮c2;loose wrists⟯
 ⟮c1;Hacking⟯|⟮c2;ulnar⟯|⟮c2;fairly straight⟯|⟮c2;loose wrists⟯
 ⟮c1;Cupping⟯|⟮c2;palmar⟯|⟮c2;cupped/slightly gathered⟯|
@@ -3212,7 +3206,7 @@ Often the ⟮c10;school-to-prison pipeline⟯ refers to both ⟮c4;the schools-a
 
 ### Elaine Scarry, The Body In Pain
 
-> §§ ⟮c1;To have great pain⟯ ⟮c2;is to have certainty⟯. ⟮c3;To hear that another person has pain⟯ ⟮c4;is to have doubt.⟯ §<br>
+> ⟮c1;To have great pain⟯ ⟮c2;is to have certainty⟯. ⟮c3;To hear that another person has pain⟯ ⟮c4;is to have doubt.⟯
 
 ### a boring dystipia
 
@@ -3311,7 +3305,7 @@ Mirroring/Spiegeln: The ⟮c11;harder⟯ variant has ⟮c9;both people lead and 
 
 #### Feind*in und Beschützer*in
 
-⟮h∞;<img src="sm_your-drawing.png">⟯§§ 『⟮c1;Feind*in und Beschützer*in⟯』: ⟮c3;Jede*r Spieler*in⟯ sucht sich ⟮c2;eine*n Feind*in⟯ und ⟮c2;eine*n Beschützer*in⟯. §<br>
+⟮h∞;<img src="sm_your-drawing.png">⟯『⟮c1;Feind*in und Beschützer*in⟯』: ⟮c3;Jede*r Spieler*in⟯ sucht sich ⟮c2;eine*n Feind*in⟯ und ⟮c2;eine*n Beschützer*in⟯.
 『⟮c4;Feind*in und Beschützer*in⟯』: Jede*r Spieler*in versucht, ⟮c5;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
 
 #### assoziationsketten
@@ -3338,7 +3332,7 @@ In the game walking with speed levels, normally the levels are such that ⟮c7;1
 
 ⟮h∞;<img src="sm_your-drawing%20(1).png">⟯
 ⟮h∞;<img src="sm_your-drawing%20(2).png">⟯
-⟮h∞;<img src="sm_your-drawing%20(3).png">⟯§§ 『⟮c1;Samurai⟯』: The attacker ⟮c5;raises their sword⟯ and ⟮hb; ⟮c6;cuts downwards⟯ while ⟮hb;⟮c7;emitting a sound (which one varies⟯) and ⟮hb;⟮c8;points at their target⟯. Their ⟮c9;target⟯ ⟮c10;cuts upwards⟯ while ⟮c11;emitting a different sound.⟯ The ⟮hb;⟮c12;left and right neighbors⟯ ⟮c13;cut from the side⟯ while ⟮c14;emitting a third sound⟯.⟯⟯⟯⟯ §<br>
+⟮h∞;<img src="sm_your-drawing%20(3).png">⟯『⟮c1;Samurai⟯』: The attacker ⟮c5;raises their sword⟯ and ⟮hb; ⟮c6;cuts downwards⟯ while ⟮hb;⟮c7;emitting a sound (which one varies⟯) and ⟮hb;⟮c8;points at their target⟯. Their ⟮c9;target⟯ ⟮c10;cuts upwards⟯ while ⟮c11;emitting a different sound.⟯ The ⟮hb;⟮c12;left and right neighbors⟯ ⟮c13;cut from the side⟯ while ⟮c14;emitting a third sound⟯.⟯⟯⟯⟯
 In the game 『Samurai』, the ⟮c2;sword⟯ is formed by ⟮c3;palms together⟯, ⟮c4;arms straight⟯. 
 
 ## acting
@@ -3592,25 +3586,23 @@ Evidence for ⟮c39;lucid dreams existing⟯ is ⟮c40;quite strong.⟯
 ### OCD
 
 OCD|Obsessive-compulsive disorder.
-<article>§§ ⟮c2;OCD⟯ (at least using current definitions and stats) affects ⟮c1;about 2%⟯ of people at ⟮c3;some point in their life.⟯ §<br>
-  §§ ⟮c4;The onset⟯ of ⟮c5;OCD⟯ is most commonly ⟮c6;in late adolescense/early 20s.⟯ §<br></article>
-  <article>§§ In general, ⟮c7;OCD⟯ mainly consists of ⟮c1;obsessions⟯ and {{c-::compulsions}} §<br>
+⟮c2;OCD⟯ (at least using current definitions and stats) affects ⟮c1;about 2%⟯ of people at ⟮c3;some point in their life.⟯ 
+⟮c4;The onset⟯ of ⟮c5;OCD⟯ is most commonly ⟮c6;in late adolescense/early 20s.⟯
+In general, ⟮c7;OCD⟯ mainly consists of ⟮c1;obsessions⟯ and {{c-::compulsions}}
 ⟮c8;Obsessions⟯ are ⟮c9;intrusive = non-voluntary⟯, ⟮c10;disturbing/uncomfortable/scary⟯ ⟮c11;thoughts⟯. 
 ⟮c12;Compulsions⟯ are ⟮c13;the acts performed⟯ to ⟮c14;soothe the obsessions⟯. 
 People generally carry out their ⟮c16;compulsions⟯ in a ⟮c15;very structured⟯ manner. 
-  §§ People suffering from OCD generally ⟮c17;do not want to⟯ ⟮c18;perform the compulsions⟯, ⟮c19;but the discomfort of the compulsion and the need to get relief is often stronger⟯. §<br></article>
-  <article>§§ If acute, compulsions may take up ⟮c20;a hour or more⟯ of the day. §<br>
+People suffering from OCD generally ⟮c17;do not want to⟯ ⟮c18;perform the compulsions⟯, ⟮c19;but the discomfort of the compulsion and the need to get relief is often stronger⟯.
+If acute, compulsions may take up ⟮c20;a hour or more⟯ of the day.
 OCD-like thoughts are ⟮c21;common for everyone⟯, the question is ⟮c22;the severity⟯. 
 The ⟮c23;most common type⟯ of ⟮c24;OCD obsession⟯ is ⟮c25;fears related to contamination (e.g. dirt, germs, viruses, chemicals⟯). 
-  §§ Sometimes ⟮c26;the obsession will become less important over time⟯, and ⟮c27;the compusion will be carried out more as a habit⟯. §<br></article>
+Sometimes ⟮c26;the obsession will become less important over time⟯, and ⟮c27;the compusion will be carried out more as a habit⟯.
 
 #### Strategy to get people to understand OCD
 
-<ol>
-<li>⟮c1;Ask relevant person to agree with a statement that saying something or thinking something doesn’t mean it will come true, that our thoughts are not magical and can’t make things happen⟯</li>
-<li>⟮c2;s1;Have them write down something terrible happen to a loved one⟯</li>
-<li>⟮c3;s∞;Have them notice the distress they feel at something that will not do anything⟯</li>
-</ol>
+1. ⟮c1;Ask relevant person to agree with a statement that saying something or thinking something doesn’t mean it will come true, that our thoughts are not magical and can’t make things happen⟯
+2. ⟮c2;s1;Have them write down something terrible happen to a loved one⟯
+3. ⟮c3;s∞;Have them notice the distress they feel at something that will not do anything⟯
 
 ## motivation
 
@@ -3891,7 +3883,7 @@ The ⟮c13;cylinder⟯ of a lock is also called ⟮c14;shell/housing/casing/body
 
 ## image labelling
 
-<img class="all-f" src="sm_200px-Pin_tumbler_half_picked.svg.png">
+<img src="sm_200px-Pin_tumbler_half_picked.svg.png">
 
 
 thing in the image|name
@@ -3914,8 +3906,8 @@ current status|pin
 
 <span class="c1-f">
 What are these called?
-</span><br/><img class="c1-f all-b" src="sm_200px-Pin_tumbler_bypass.svg.png">
-<img class="c1-f all-b" src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c8; pushing both key and driver pins ⟯ ⟮c9;past the shear line⟯ 
+</span><br/><img src="sm_200px-Pin_tumbler_bypass.svg.png">
+<img src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c8; pushing both key and driver pins ⟯ ⟮c9;past the shear line⟯ 
 ⟮c2;comb picks⟯ ⟮c3;push⟯ ⟮c4;both driver and key pins⟯ ⟮c3;completely into the lock⟯ 
 comb picks might look like ⟮c5;&lt;image&gt;⟯ 
 What normally ⟮c6;prevents us from just pushing all pins completely above the shear line w/ comb picks⟯ is ⟮c7;that there isn't enough space in the lock⟯ 
@@ -3925,7 +3917,7 @@ What normally ⟮c6;prevents us from just pushing all pins completely above the 
 ⟮h1;<img src="sm_200px-Pin_tumbler_bypass.svg.png">⟯
 ⟮h1;<img src="sm_How-a-Lock-Works-Animation.gif">⟯
 
-flex-container:<img class="all-f" src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
+flex-container:<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
 
 <img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c1;shear line⟯ is ⟮c2;the gap between⟯ ⟮c3;the casing⟯ and ⟮c3;the plug⟯ 
 ⟮c4;the driver pins⟯ are the pins that ⟮c5;the springs are directly contactin⟯g 
@@ -3938,9 +3930,9 @@ To ⟮c21;prevent any old key to be used to open a lock⟯, ⟮c22;the key pins 
 If you ⟮c23;insert the wrong key into a lock⟯, the lock will not open because ⟮c24;gaps between pins not in line with shear line⟯ 
 The part of the lock that we are exploiting to pick is ⟮c25;the shear line⟯ 
 The thing that ⟮c26;keeps the pins down in a lock⟯ are ⟮c27;the springs⟯. 
-⟮c28;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c29;Locked⟯
-⟮c30;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c31;unlocked with a key⟯
-⟮c32;<img class="c2-f c1-b" src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c33;wrong key⟯
+⟮c28;<img src="sm_200px-Pin_tumbler_no_key.svg.png">⟯|⟮c29;Locked⟯
+⟮c30;<img src="sm_200px-Pin_tumbler_with_key.svg.png">⟯|⟮c31;unlocked with a key⟯
+⟮c32;<img src="sm_200px-Pin_tumbler_bad_key.svg.png">⟯|⟮c33;wrong key⟯
 
 
 ## manufacturing tolerances
@@ -3961,7 +3953,7 @@ The pin that will ⟮c1;bind here first⟯ if we ⟮c2;rotate in the upwards dir
 ⟮c11;Applying rotational tension⟯ allows ⟮c12;pins⟯ to ⟮c13;bind⟯, and thus ⟮c14;setting them⟯. 
 Pins can only ⟮c15;bind⟯ if ⟮c16;rotational tension is being applied⟯, otherwise ⟮c17;they won't get stuck⟯ and f⟮c18;all right back into the cylinder.⟯ 
 There is ⟮c21;most often (though not always⟯) ⟮c19;only one⟯ ⟮c20;binding pin⟯ at a time. 
-§§ The ⟮c22;binding pin⟯ is ⟮c23;the pin⟯ that ⟮c24;is currently being bound⟯ (or ⟮c24;will be bound once rotational tension is applied⟯), and thus is ⟮c25;the next pin that can be set.⟯ §<br>
+The ⟮c22;binding pin⟯ is ⟮c23;the pin⟯ that ⟮c24;is currently being bound⟯ (or ⟮c24;will be bound once rotational tension is applied⟯), and thus is ⟮c25;the next pin that can be set.⟯
 
 ⟮c26;Single pin picking⟯ is ⟮c27;picking the pins one at a time⟯, which looks something like ⟮c30;&lt;image above&gt;⟯ 
 ⟮c28;Single pin picking⟯ uses ⟮c29;hooks⟯ as tools, which look something like ⟮c31;&lt;image&gt;⟯ 
@@ -3971,7 +3963,7 @@ Compared to ⟮c38;non-binding pins⟯, if we push on ⟮c38;the binding pin⟯,
 T⟮c40;o set the binding pin⟯, we ⟮c41;push on the pin⟯ until ⟮c42;we reach the shear line⟯. 
 Once ⟮c43;you've pushed the binding pin to the shear line⟯, if ⟮c44;you've set the pin⟯, ⟮c45;the driver pin will catch⟯ and t⟮c46;he key pin will fall into the plug⟯. 
 Once ⟮c47;you've pushed the binding pin to the shear line⟯, if y⟮c48;ou've set the pin⟯, you probably hear ⟮c49;a slight click⟯ or feel ⟮c50;a slight rotation⟯. 
-§§ However, it is also possible to §<br>
+However, it is also possible to
 ⟮c1;push the binding pin in too far⟯|⟮c2;overset⟯|⟮c3;<img src="sm_overset_1130.jpg">⟯
 ⟮c4;not push the binding pin in far enough⟯|⟮c5;underset⟯|⟮c6;<img src="sm_underset_1130.jpg">⟯
 
@@ -3979,7 +3971,7 @@ If you ⟮c51;can no longer find a binding pin⟯, you have likely ⟮c7;overset
 
 ## tensioning
 
-<span class="c1-f">What is this tool?</span><br><img class="c1-f all-b" src="sm_standard-tension-wrench.jpg"><br>⟮c3;tensioning tools⟯ are for ⟮c4;applying tension to the lock (to bind the pins⟯) 
+<span class="c1-f">What is this tool?</span><br><img src="sm_standard-tension-wrench.jpg"><br>⟮c3;tensioning tools⟯ are for ⟮c4;applying tension to the lock (to bind the pins⟯) 
 The ⟮c5;tension wrench⟯ is ⟮c6;the most common type of⟯ ⟮c7;tensioning tool.⟯ 
 A tension wrench might look like ⟮c2;&lt;image&gt;⟯ 
 A ⟮c8;tension wrench⟯ has ⟮c9;a short end⟯ to ⟮c10;place in the keyway⟯ and ⟮c9;a long end⟯ to ⟮c10;act as a lever⟯. 
@@ -3988,7 +3980,7 @@ You need to apply ⟮c11;very little tension⟯ with ⟮c12;the tension wrench�
 
 ## raking
 
-<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img class="c20-b" src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c2;Raking⟯ is ⟮c3;scrubbing the pins⟯ until we ⟮c4;happen to set all the pins⟯. 
+<span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c2;Raking⟯ is ⟮c3;scrubbing the pins⟯ until we ⟮c4;happen to set all the pins⟯. 
 Raking might look like ⟮c5;&lt;image&gt;⟯ 
 ⟮c6;Raking⟯ has roughly the same motion as ⟮c7;brushing your teeth⟯. 
 In raking, we ⟮c8;add tension⟯ and then ⟮c9;scrub the pins⟯. 

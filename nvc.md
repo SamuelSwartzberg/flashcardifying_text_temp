@@ -261,4 +261,4 @@ Name|Definition|Examples
 
 ## sliding doors moment
 
-§§ A ⟮c1;sliding doors moment⟯, named after ⟮c2;a late 1990s romcom⟯, is ⟮c3;a seemingly inconsequential moment⟯ that ⟮c4;nonetheless alters the trajectory of future events⟯, ⟮sb;and especially a minor moment where ⟮c5;there is a choice⟯ to ⟮c6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯ §<br>
+A ⟮c1;sliding doors moment⟯, named after ⟮c2;a late 1990s romcom⟯, is ⟮c3;a seemingly inconsequential moment⟯ that ⟮c4;nonetheless alters the trajectory of future events⟯, ⟮sb;and especially a minor moment where ⟮c5;there is a choice⟯ to ⟮c6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯

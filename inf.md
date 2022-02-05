@@ -3514,9 +3514,9 @@ A ⟮c16;status bar⟯ on mobile contains ⟮c13;notification⟯ and ⟮c13;syst
 flex-container:⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯
 
 ⟮c12;The above⟯ are all examples of ⟮c11;taskbars⟯. 
-§§ A ⟮c1;taskbar⟯ is a GUI element that typically shows ⟮c2;which programs are open⟯, and allows ⟮c3;pinning programs or other things for quick access⟯. 
+A ⟮c1;taskbar⟯ is a GUI element that typically shows ⟮c2;which programs are open⟯, and allows ⟮c3;pinning programs or other things for quick access⟯. 
 A taskbar generally positioned ⟮c4;as a strip along the edge of a screen⟯. 
-A taskbar, aside from programs may also have a ⟮c5;notification section⟯, ⟮c6;a search box⟯, ⟮c7;various tools⟯, etc. §<br>
+A taskbar, aside from programs may also have a ⟮c5;notification section⟯, ⟮c6;a search box⟯, ⟮c7;various tools⟯, etc. 
 Despite being called '⟮c8;Dock⟯', it's just ⟮c9;macOs⟯'s version of a ⟮c10;taskbar⟯ 
 
 ###### activity bar (vscode)
@@ -4786,9 +4786,9 @@ pdftk and qpdf are the most common CLI tools for pdf transformation
 gifsicle is a CLI program to manipulate gifs
 
 `⟮c9;ocrmypdf⟯` is a command line tool to ⟮c10;add OCR text to scanned PDF files⟯. 
-§§ ```
+```
 ocrmypdf ⟮c11;SOURCE DEST⟯
-``` §<br>
+```
 ⟮c1;specify language⟯|⟮c2;`-l deu/fra/deu+fra...`⟯
 ⟮c3;correct slight skew⟯|⟮c4;`--deskew`⟯
 ⟮c5;clean pages before ocring⟯|⟮c6;`--clean`⟯
@@ -5392,8 +5392,8 @@ for ⟮c14;anything more fancy⟯ with ⟮c15;headers and footers⟯ than ⟮c16
 ⟮c19;\pagestyle{fancy⟯} activates a ⟮c20;sensible default⟯ ⟮c8;fancyhdr⟯ config 
 after&nbsp;⟮c5;\pagestyle{fancy}⟯ you need ⟮c9;\fancyhf{} ⟯ to ⟮c7;remove the elements of the default page syle⟯ 
 
-§§ For more ⟮c21;advanced header/footer config⟯ using ⟮c22;fancyhdr⟯, use ⟮c23;\(l/c/r)head{⟯} or ⟮c23;\(l/c/r)foot{}⟯
- §<br>
+For more ⟮c21;advanced header/footer config⟯ using ⟮c22;fancyhdr⟯, use ⟮c23;\(l/c/r)head{⟯} or ⟮c23;\(l/c/r)foot{}⟯
+
 ⟮c1;\(l/c/r)foot{foo}⟯|⟮c2;insert an element foo at that position in the footer⟯
 ⟮c3;\(l/c/r)head{foo}⟯|⟮c4;insert an element foo at that position in the header⟯
 
@@ -5854,7 +5854,10 @@ If you refer to an issue with ⟮c2;#number⟯ and a word such ⟮c3;as closes, 
 
 ### electrical connectors
 
-⟮h∞;<img src="Connectors.jpg">⟯⟮h∞;<img src="1280px-ConnectorSymbols.svg.png">⟯§§ An ⟮c1;electrical connector⟯ is a device that ⟮c2;joins electric conductors⟯ ⟮c3;mechanically⟯ and ⟮c4;electrically⟯. §<br>
+⟮h∞;<img src="Connectors.jpg">⟯⟮h∞;<img src="1280px-ConnectorSymbols.svg.png">⟯
+
+
+An ⟮c1;electrical connector⟯ is a device that ⟮c2;joins electric conductors⟯ ⟮c3;mechanically⟯ and ⟮c4;electrically⟯.
 In ⟮c5;electrical connectors⟯, the ⟮c6;mechanical connection⟯ is ⟮c7;to allow the electrical connecton to stay in place⟯ and thus ⟮c8;an electrical circuit to be created⟯. 
 Most ⟮c9;electrical connectors⟯ have ⟮c10;a gender (male or female :( ⟯) 
 An ⟮c20;electrical connector⟯ that is ⟮c21;a protusion⟯ is ⟮c22;male⟯. 
@@ -12163,16 +12166,16 @@ Hello {{ user.name }}!
 
 
 ⟮c1;cycle⟯ ⟮c2;takes n arguments⟯ and ⟮c3;prints the next one (from the last time this  was called⟯). 
-§§ ```
+```
 {% cycle item1, item2... %}
-``` §<br>
+``` 
 ⟮c4;Cycle⟯ can be used to apply classes for ⟮c5;even/odd elements⟯ or ⟮c6;to any nth elements⟯. 
 ⟮c7;Without the cycle group paramter⟯, ⟮c8;all cycles in the document⟯ ⟮c9;cycle the same thing⟯ 
 ⟮c10;if you want to cycle multiple things⟯ in ⟮c11;the same document⟯, you need to ⟮c12;use cycle group paramters⟯. 
 The syntax for the cycle ⟮c13;group parameter⟯ is ` ⟮c14;"name":⟯`. 
-§§ ```
+``
 {% cycle "name": item1, item2... %}
-``` §<br>
+```
 ⟮c1;{% liquid ... %}⟯|⟮c2;write liquid logic in a single block⟯
 ⟮c3;{% raw %} ... {% endraw %}⟯|⟮c4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
 ⟮c5;{% render "foo" %}⟯|⟮c6;render another template foo⟯
@@ -13834,7 +13837,7 @@ hexadecimal
 
 
 
-§§ HTML has ⟮c1;two ways⟯ of specifying ⟮c2;character escapes⟯. 
+HTML has ⟮c1;two ways⟯ of specifying ⟮c2;character escapes⟯. 
 Both ways HTML has for specifying character escapes ⟮c3;start with an &amp;⟯ and ⟮c4;end with a semicolon ;⟯.
 Of these, ⟮c6;numeric character references⟯ ⟮c7;refer to the character position within character set (most commmonly UTF-8⟯), ⟮sb;they start ⟮c8;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮hb;(for example ⟮c9;&amp;#8203;⟯⟯⟯) 
 ⟮c10;Character entity references⟯ ⟮c11;have a short, memorable name⟯ ⟮hb;(for example ⟮c12;&amp;amp; or &amp;quot⟯⟯) 
