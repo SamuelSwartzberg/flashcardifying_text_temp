@@ -10103,11 +10103,19 @@ can create new types by reasoning about other types|TS
 
 type manipulation is a not-so-common cover term for creating new types by reasoning about other types
 
-Type indexing
-type from value (reverse typeof)
-returne value of function as type
+the `keyof` operator takes an object type and returns a union type of its keys.
+the TS-specific `typeof` operator returns the type of a non-type thing.
+the TS type `ReturnType<T>` corresponnds to the return type of T (T must be a function ＊type＊)
+An indexed access type, given a key of a field, allows us to get the type of the value of a field of another type, much as indexing an assoc array with a key returns its value.
+Indexed access types use the same [] syntax as normal accessing.
+Conditional types evaluate to different types depending on an expression.
+conditonal-type-specifier ::= <type> extends <type> ? <type> : <type>;
+A mapped type maps all keys of another type to a certain type.
+mapped-type-specifier ::= \[<type> in keyof <type>\]: <type>;
+more on mapped types: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
+Template literal types use JS template literal syntax to expand to all possible string literal types that this could assume.
+
 mapped types
-conditional types
 template literal types
 
 ### boolean
