@@ -9821,6 +9821,16 @@ In languages with manifest typing, variable declarations require typea annotatio
 On the negative side, manifestly and statically typed languages can be more effort to write. 
 On the positive side, manifestly and statically typed languages 1) dramatically lower the chance of bugs, especially type errors (logic type), 2) provide better linting 3) provide better IDE code completion and similar.
 
+(literal) type widening is the fact that TS will infer a primitive type and not a literal type for literal values.
+
+In TS, const assertions are a special case of type assertions that influence type inference rather than specifying a specific type to cast to.
+const-assertion ::= <type> as const;
+Const assertions make TS infer the narrowest possible type. 
+Specifically, const assertions make three things happen:
+1. type widening.
+2. object literals get readonly properties.
+3. arrays become readonly tuples.
+
 ##### type narrowing
 
 Type narrowing is a form of implicity type change where the type of a thing is made more precise based on which types could possibly exist in that context.
@@ -10089,7 +10099,8 @@ in TS, interfaces can be `extend`ed with other interfaces.
 
 (TS) An index signature specifies that for all keys of a specific type (in theory, but in fact I think they can only be string or int in ts anyway), the value will be of the specified type
 Syntax of an index signature: [foo: sometype]: sometype2
-
+The {{c1::name}} of an index signature {{c2::does not matter}}.
+^source: https://basarat.gitbook.io/typescript/type-system/index-signatures
 
 ### type manipulation
 
