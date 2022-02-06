@@ -3891,9 +3891,7 @@ current status|pin
 
 ## comb picks
 
-<span class="c1-f">
-What are these called?
-</span><br/><img src="sm_200px-Pin_tumbler_bypass.svg.png">
+<img src="sm_200px-Pin_tumbler_bypass.svg.png">
 <img src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c8; pushing both key and driver pins ⟯ ⟮c9;past the shear line⟯ 
 ⟮c2;comb picks⟯ ⟮c3;push⟯ ⟮c4;both driver and key pins⟯ ⟮c3;completely into the lock⟯ 
 comb picks might look like ⟮c5;&lt;image&gt;⟯ 

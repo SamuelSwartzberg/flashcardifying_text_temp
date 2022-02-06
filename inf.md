@@ -720,6 +720,11 @@ the ⟮c3;svg⟯ ⟮c1;&lt;g&gt; element⟯ is used to ⟮c2;group ofther elemen
 
 ### JSX
 
+{{c3::JSX}} is {{c2::HTML}}-like syntax to be used in {{c1::JS}}
+{{c3::any values}} embedded in JSX are {{c2::auto-escaped}}, and thus provide {{c1::a degree of safety against XSS attacks}}
+You can put {{c3::any valid JS expression}} within {{c1::curly braces}} in {{c2::JSX}}
+{{c4::JSX}} use {{c2::camel case}} for {{c3::HTML attribute names}} (including {{c3::events}}) (which would normally use {{c1::kebap-case}})
+In JSX, {{c2::self-closing tags}} must be closed with {{c1::/&gt;}}, however {{c4::every react component may}} be {{c3::self-closing}}
 ⟮c3;JSX⟯ is either said to be short for ⟮c2;JavaScript Syntax Extension⟯ or ⟮c1;JavaScript XML⟯
 Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
@@ -1077,11 +1082,14 @@ Ajax|Asynchronous JavaScript And XML
 
 #### fetch
 
-fetch is the new, modern method to fetch data via the interfet after a site has loaded.
+the Fetch API features fetch() as its main method 
+The Fetch API is the new, modern method to fetch data via the interfet after a site has loaded.
 fetch(<resource-to-get>, [<options-object>])
 fetch() returns a Promise which itself resoves to a `Response`
 Response
 .json()|return promise with contents of response as parsed json
+
+Node doesn't have the Fetch API natively, but you can install it via a package, and Next.js polyfills it automatically
 
 ## CSS
 
@@ -11331,7 +11339,7 @@ $@|(ba)sh
 arguments|JS (not arrow functions)
 
 In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
-$# gets the amount of arguments passed.
+$# gets the amount of arguments passed. # $ for sytax normalization for the md document
 
 #### Positional and named
 
@@ -12080,10 +12088,11 @@ Hello {{ user.name }}!
 ``` 
 ⟮c9;adding a -⟯ ⟮c10;to {{ or {%⟯ ⟮h9,10;like {{-, {%-⟯ ⟮c11;strips whitespace from the relevant side⟯ 
 
+
 ⟮c9;Liquids⟯ ⟮c10;loops⟯ are odd in that the⟮c11;y accept a number of additional parameters⟯ ⟮c12;after the main condition⟯, in the format ⟮c13;key:value⟯ and separated by ⟮c14;spaces⟯ 
 
 
-    <tr><th colspan="2">Liquid loop parameters
+span:2;Liquid loop parameters
 ⟮c1;start where the previous loop of the same iterator left off⟯|⟮c2;offset:continue⟯
 ⟮c3;start at the offset/index n⟯|⟮c4;offset:n⟯
 ⟮c6;iterate through the array in reverse⟯|⟮c5;reversed⟯
@@ -12098,16 +12107,21 @@ Hello {{ user.name }}!
 
 
 ⟮c1;cycle⟯ ⟮c2;takes n arguments⟯ and ⟮c3;prints the next one (from the last time this  was called⟯). 
+
+
 ```
 {% cycle item1, item2... %}
 ``` 
+
+
 ⟮c4;Cycle⟯ can be used to apply classes for ⟮c5;even/odd elements⟯ or ⟮c6;to any nth elements⟯. 
 ⟮c7;Without the cycle group paramter⟯, ⟮c8;all cycles in the document⟯ ⟮c9;cycle the same thing⟯ 
 ⟮c10;if you want to cycle multiple things⟯ in ⟮c11;the same document⟯, you need to ⟮c12;use cycle group paramters⟯. 
 The syntax for the cycle ⟮c13;group parameter⟯ is ` ⟮c14;"name":⟯`. 
-``
+```
 {% cycle "name": item1, item2... %}
 ```
+
 ⟮c1;{% liquid ... %}⟯|⟮c2;write liquid logic in a single block⟯
 ⟮c3;{% raw %} ... {% endraw %}⟯|⟮c4;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
 ⟮c5;{% render "foo" %}⟯|⟮c6;render another template foo⟯
@@ -12176,7 +12190,77 @@ Svelte works like a front-end framework, but actually compiles in advance.
 
 ##### react 
 
-###### react itself
+###### core react
+
+####### using JSX
+
+JSX is syntactic sugar for React.createElement(/*args*/)
+Using JSX with React is optional.
+
+####### components and elements
+
+React components are made up of other elements.
+
+######## attributes of components
+
+####### the tree
+
+React maintains a component tree called »the virtual DOM«, which is an in-memory JS representation.
+Because React maintains the virtual DOM as an in-memory JS representation, creating react elements is far cheaper than browser DOM elements.
+Eventhough react's component tree is called 'the virtual DOM', it can be outputted to many things, including but not limited to the DOM.
+`ReactDOM` is an inteface to the output DOM.
+ReactDOM.render(<root-element>, <DOM-container>[, <callback>]) 
+calling ReactDOM.render() is most commoly done to render the initial the virtual DOM into the output DOM once, where subsequent changes are handled by the render() method of components.
+
+####### changes
+
+The render() function of a given component is called when state or props change, initating the render phase.
+Calling ReactDOM.render() also initiates the render phase for everything.
+For any change, react has two phases (with a rare inbetween phase): Render phase, commit phase (and pre-commit phase)
+The render phase is pure and has no side effects, may be paused aborted or restarted by react.
+The render phase involves react calling a constructor for newly mounted components, and the render() function for everything.
+The render() function of React creates a tree of React elements.
+In the commit phase, we figure out how to output the tree of React elements to the output (e.g. the DOM)
+In an performance-unlimited word, react would just completely output the new tree of render() to the DOM.
+Since performance is limited, react needds to figure out what has changed between the new and old trees of render() calls and how to change the DOM based on that as little as possible, which is called »reconciliation«.
+Since complete tree diffs are O(n^{3}), reconciliation uses certain heuristics.
+
+######## component lifecycle
+
+In react, a component may change in three lifecycles, mounting, updating and unmounting.
+Mounting is outputting the virtual DOM representation of a component to its output representation (i.e. creating the output representation).
+Updating is changing the component's state or props.
+Unmounting is removing the virtual DOM representation of a component from its output representation (i.e. destroying the output representation).
+For each stage in the component lifecycle, react has a method.
+For the mounting and updating stages, the methods are called after the DOM representation has changed.
+For the unmounting stage, the method is called before the DOM representation changes.
+
+mounting|componentDidMount()
+updating|componentDidUpdate()
+unmounting|componentWillUnmount()
+
+######## reconciliation
+
+If react hits an element in its tree that has a different type (e.g. from <Article> to <Comment>), it will destroy (unmount) and rebuild (mount) the whole subtree.
+when a DOM subtree is destroyed, all components of that subtree recieve `componentWillUnmount()`
+when a DOM subtree is rebuilt, all components of that subtree recieve `componentDidMount()`
+
+If react hits an element that has the same type, it will look at the attributes of both, kees the same underlying DOM node, and only updates the changed attributes.
+When updating style, React also knows to update only the properties that changed. 
+when a component's attribute change, it recieves `componentDidUpdate()`
+
+```
+<div className="before" title="stuff" />
+<div className="after" title="stuff" />
+```
+```
+<div style={{color: 'red', fontWeight: 'bold'}} />
+<div style={{color: 'green', fontWeight: 'bold'}} />
+```
+
+However, if the DOM nodes are out of order compared to the last rerender, react is forced to assume that the children are different and destroy the subtrees.
+To prevent a reorder of DOM nodes destroying the subtree, react offers the `key` property, where it can assume that elements with the same key property are the same.
+`key`s should be stable over time, e.g. IDs or hashes of some description.
 
 ####### events
 
@@ -12319,7 +12403,28 @@ In the ⟮c12;gemfile⟯, ⟮c13;jekyll_plugin⟯s are specified within ⟮c14;t
 
 ##### next.js
 
+Each page is defined by a react component.
 
+###### globals
+
+The global component acts as a globabl template for all pages.
+The global component is stored in `pages/_app.js`
+For rare cases, there is a higer global template `Document`, which is only rendered on the server and does not support data fetching methods.
+Overriding the global component is often doe to create global components, styles or state.
+Stylesheets are imported by JS's `import` (as in webpack, which next.js uses in the background).
+Stylesheets may only be imported from the global component.
+
+###### layouts
+
+Defining layouts for pages allows react to easily perform reconcilliation between the pages.
+
+###### ways to serve content
+
+Next.js allows you to mix and match static generation, SSR and CSR for each page.
+Next.js distinguishes between static generation, SSR and CSR by how the components implementing the page will recieve props.
+Next.js's »data fetching methods« are getStaticProps/getStaticPaths/getServerSideProps.
+Next.js's data fetching methods are all async.
+To use the data fetching methods, you need to `export` them
 
 
 ### IO
@@ -12414,7 +12519,14 @@ qt (read cute)   cross-platform widget toolkit
 
 d3 is a JS library for mainipulating/visualizing data
 
-#### web requests
+#### file system
+
+##### current working directory
+
+process.cwd()|node
+__dirname|Node
+
+### web requests
 
 web request library
 
@@ -12434,7 +12546,7 @@ TODO move
 Parsing HTML/XML|beautiful soup|python
 
 
-#### scientific computing
+### scientific computing
 
 pandas|python
 
@@ -12475,7 +12587,7 @@ c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-imple
 ### performance monitoring
 
 time|measure elapsed time in executing a command|sh
-console.time() & console.timeEnd()|measure elapsed time in running code.
+console.time(), console.timeLog() & console.timeEnd()|measure elapsed time in running code.
 
 ### dates
 
