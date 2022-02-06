@@ -9401,6 +9401,7 @@ Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
 In TS, function '⟮c1;overloading⟯' exists, but you specify ⟮c2;all possible signatures⟯ ⟮c3;first⟯, and then the ⟮c4;implementation⟯ with a ⟮c5;signature⟯ that is ⟮c6;compatible with all the specified signature⟯ (e.g. using ⟮c7;optional parameters⟯), and not compatible with ⟮c8;non-specified signatures⟯
 In TS, in general: prefer ⟮c1;union types⟯ over ⟮c2;overloads⟯
+In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
 
 #### dynamic dispatch
 
@@ -9415,17 +9416,34 @@ Overloading would be multiple dispatch if it was performed at runtime, but it is
 
 ### parametric polymorphism
 
-A generic is a stand-in for a type that is not yet specified or unknown. 
-A generic may be constrained in some way.
-Generics are most often specified via type parameters.
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
-Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
-C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
-In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64
+A generic is a stand-in for a type that is not yet specified or unknown. 
+
+#### type parameters & generics
+
+A type parameter is a specifier of one or more types that a thing (callable unit, object, ...) is defined over.
+Type parameters go in angle brackets.
+Type parameters are generally written in UpperCamelCase
+Within type parameters, multiple type specifiers are separated by `, `.
+Generics are specified within type parameters.
+Names of generics are typically single characters.
+A generic of any type is typically indicated T
+
+#### constrainment
+
+Many languages have a way to specify contraints a generic should satisfy.
+Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
 Trait bounds are a set of traits that a generic must satisfy.
 In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-list>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
 trait-list ::= <trait-name>{ + <trait-name>}
 where-clause-syntax ::= where {<generic>: <trait-list><newline>}
+TS allows specifying constraints for generics via the `extends` keyword.
+
+#### implementation & monomorphization
+
+Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
+C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
+In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64.
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -9794,7 +9812,17 @@ in TS and Rust, often type inference is possible automatically
 Type inference in TS/Rust is more likely to work for anonymous functions
 In languages with manifest typing, variable declarations require typea annotation.
 
-Manifestly and statically typed languages can be more effort to write, but also dramatically lower the chance of bugs.
+On the negative side, manifestly and statically typed languages can be more effort to write. 
+On the positive side, manifestly and statically typed languages 1) dramatically lower the chance of bugs, especially type errors (logic type), 2) provide better linting 3) provide better IDE code completion and similar.
+
+##### type narrowing
+
+Type narrowing is a form of implicity type change where the type of a thing is made more precise based on which types could possibly exist in that context.
+In TS, pretty much anything that could be reasonably assumed to narrow does.
+Assigning to a variable with something of a more loose type undoes the narrowing performed that is narrower than that loose type.
+Narrowing can produce the never type if the thing was narrowed to impossibility
+A type guard is any check that narrows the type of a thing.
+In TS, type guards for basic types uses typeof.
 
 ##### Type annotation
 
@@ -9808,7 +9836,8 @@ Python supports type annotation since Python 3.5
 
 Type aliases are names for types thsat abbreviate longer type descriptions.
 Where type aliases exist, they generally use the type keyword.
-`type ID  = number | string`
+Type aliases exist in TS, Rust
+`type <name> = <type-expression>`
 
 ###### Interesting keywords
 
@@ -9880,7 +9909,9 @@ Lua: all values
 ### bottom type
 
 A bottom type is the subtype of every other type.
-A bottom type can take no value.
+A variable with bottom type can take no value. (there is no value that can be assigned to a variable with the bottom type.)
+A thing with bottom type can be assigned to anything at all.
+
 A bottom type is used to indicate noncomputability.
 
 no bottom type|most languages
@@ -9890,16 +9921,25 @@ never|TS
 ### unit type
 
 A unit type is a type that only allows a single value.
+A variable with unit type only ever takes things of the unit type or the bottom type.
+A thing with unit type is only assignable to other things with unit type or the top type.
 
 ()|Rust
 
 Rust's () for the unit type is abstracted from the idea of a tuple with no elements.
 In Rust, things without a return value implicitly return ()
-In rust, a struct without fields is also an unit type, called the unit-like strct
+In rust, a struct without fields is also an unit type, called the unit-like strct.
+
+in TS, there are three unit-like types: `null`, `undefined` and `void`
+in TS, `null` is the only proper unit type: only things of type `null` plus `never` and `any` (of course) are assignable assignable to `null`, and `null` can only be assinged to `null` plus `unknown` and `any`.
+in TS, `undefined` is only unit-like, since besides the proper relationships one may also assing things of type `undefined` to variables of type `void`.
+in TS `void` is only unit-like, since besides the proper relationships things of type `undefined` are assignable to variables of type `void`.
+in TS `null`, `undefined` and `void` act like unit types, such that nullable types need to be literally declared as option types.
 
 #### Literal types
 
 A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
+in TS, the types of constants are a literal type of thier value.
 
 ### Union type
 
@@ -9917,6 +9957,9 @@ In type theory, a union type is a sum type.
 
 A tagged union type is a union type where each of the types has a tag, which is used to determine which type is currently in used.
 What rust calls enums is more properly a tagged union.
+in TS, a thing similar to tagged unions is called a discriminated union.
+in TS, discriminated unions are implemented by a union type of other types with a shared field.
+In a discriminated union, TS can narrow based on checking a shared field.
 
 ##### Rust
 
@@ -9983,8 +10026,9 @@ In JS a type is nullish if it is null or undefined.
 
 ### top type
 
-A top type is the supertype of every othe type.
-A top type can take any possible value.
+A top type is the supertype of every other type.
+A variable with top type can take any possible value. (any possible thing can be assigned to a variable with top type)
+A thing with top type can only be assigned to another variable with top type (in languages that have static typing).
 
 A top type is often also the type that is at the top of the class hierarchy, in languages where such a thing exists
 
@@ -9997,6 +10041,39 @@ BasicObject|Ruby
 
 In ruby Object inherits from BasicObject and generally acts as the top type for most purposes.
 
+In TS, `any` is like a top type in that any value can be assigned to variables of type `any`.
+in TS, `any` is like a bottom type in that things of type `any` can be assigned to anything.
+Most languages with dynamic typing act as if everything had type `any`.
+in TS, `{}`, `Object` are the same type.
+in TS, `{}`/`Object` are nearly top types, you can assign everything but `null`, `undefined`, or of course `unknown` to `{}`/`Object`
+
+### object types, interfaces and classes in TS
+
+object type = objects literals as types, generally declared with the type keyword if not inline.
+in TS, object types, interfaces and to a certain extent classes share a lot of syntactic similarities.
+object types, interfaces (and to a certain extent classes) both fundamentally a similar syntax to js objects.
+
+type|keyword
+object type|type
+interface|interface
+class|class
+
+basic field|<fieldname>: <value>,|object type, interface, class
+optional field|<fieldname>?: <value>,|object type, interface, class
+methods|<fieldname>: (<ts-param-list>) => <return-type>, (syntax 1/2)|object type, inteface
+methods|<fieldname>(<ts-param-list>): <return-type>, (syntax 2/2)|object type, inteface
+make thing itself callable (i.e. a function)|(<ts-param-list>): <return-type>,|object type, interface
+make thing itsef newable|new(<ts-param-list>): <return-type>,|object type, interface
+
+TS object types, interfaces and classes can all be defined over n generics.
+prefixing a field of a object type or interface with `readonly` makes it a constant field.
+in TS, object types, interfaces and classes all can have getters & setters.
+
+in TS, multiple interfaces with the same name will be merged into one, multiple object types or classees with the same name will throw an error
+in TS, interfaces can be implemented by classes just as in languages such as Java.
+
+Type indexing
+[key: foo]: bar
 
 ### boolean
 
@@ -11180,6 +11257,8 @@ Languages with manifest typing typically require the returned type to be declare
 void is commonly used for no return type in languages that require a return type to be specified.
 return type is indicated:
 -> <type> at the end of signature|rust
+: <type> at the end of signature|TS
+<access-modifier> [static|abstract] <type> <callable-unit-name>|C#|Java
 
 ### returning
 
@@ -11233,6 +11312,14 @@ In JS, there is a special type of first-class anonymous function called an arrow
 Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
+
+#### types of first-class functions in statically typed languages
+
+In statically typed languages, first-class functions must have a type that describes them.
+\(<ts-param-list>\) => <return-type>|TS
+(Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
+
+<ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
 
 #### IIFE
 
@@ -11369,6 +11456,13 @@ In general, default parameters will also take on the default value if the argume
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 the general syntax is `paramname = defaultval` (within the parameter list)
 Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
+
+#### Optional
+
+In most languages, callable units must be recieve the exact amount of arguments specified as parameters, unless things like the splat operator or default parameters are used.
+JS does not require the same number of arguments as parameters, it will assign unpassed parameters `undefined`, and put all arguments into the array-like `arguments`, allowing for retrieval of extra arguments.
+TS moves JS in line with other programming languages, requiring arguments for parameters by default, and only accepting the not-passing of arguments if the parameter is optional.
+Optional parameters are marked with a ? after the name, which changes their type to be whatever | undefined
 
 #### evaluation strategy
 
@@ -11564,7 +11658,7 @@ Getters and setters may help enforcing information hiding.
 Ruby syntax:
 def name=(value)...|setter
 
-JS:
+JS & TS:
 get foo()
 set foo()
 only within a class
@@ -11652,6 +11746,7 @@ JS does not support abstact things, however you can simulate it by using the @ab
 #### Constructors/object creation
 
 Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
+TS calles things that can be used to create new things `newable`.
 
 A constructor is generally a callable unit and thus called with ()
 Rust doesn't use any operator to create new Structs. In general, you use literals, some type provide a new() associated function.
@@ -11666,13 +11761,11 @@ A factory function is any callable unit which is not a class/constructor that re
 Ergo, factory functions create things without using the new keyword.
 in Rust, many things are created by a factory function `new()`, which is an associated function of the struct.
 
-#### type parameters and generics
+#### immutable objects
 
-The things that define ⟮c1;the types⟯ a function/object/... is defined over, which usually go in ⟮c2;angle brackets⟯, are across programing languages usually called ⟮c3;type parameters⟯.
-Generally, multiple type parameters are separated by , 
-Type parameters are generally written in UpperCamelCase
-Generics are generally a single char only.
-A type as a generic is typically indicated T.
+an immutable object is an object which cannot be changed once it's been created.
+in JS, Object.freeze(obj) makes the object an immutable object.
+In TS, Readonly <T> constructs a version of T whose properties are all set to readonly, making it a immutable object.
 
 #### Access modifier
 
@@ -11810,9 +11903,11 @@ attribute begins|applies to
 attributes have four forms for taking arguments (or none)
 ø|no arg
 = "<value>"|one arg
-\(<value>{, <value>}\)|multiple unnamed args
-\(<key> = "<value>"{, <key> = "<value>"}\)|multiple named args
+\(<value>{, <value>}\)|one or more unnamed args
+\(<key> = "<value>"{, <key> = "<value>"}\)|one or more named args
 
+rust-attribute ::= #[!]\[<rust-attribute-name><rust-attribute-arguments>\]
+rust-attribute-arguments ::= ø|(= "<value>")|(\(<value>{, <value>}\))|\(<key> = "<value>"{, <key> = "<value>"}\)
 
 ## Formatting
 
@@ -12855,6 +12950,35 @@ Babel is a transpiler that transpiles ⟮c1;newer JS (e.g. ES 2017, ES 2020) to 
 Object code is the code that the compiler produces, generally machine code.
 The object file is the file containing object code.
 
+##### compiler options
+
+A compiler option is a setting that changes what a compiler does.
+Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
+TS|config, CLI
+
+###### TS
+
+compiler option|function
+strict|activate a bunch of other options, amongst others noImplicitAny and strictNullChecks
+
+###### Rust
+
+rust has a set of compiler options that allow the conditional compilation of code.
+In rust, a compile-time feature flag is a compiler option that allows conditional inclusion or exclusion of code.
+rust allows the creation of custom compile-time feature flags that may be used in the conditional compilaton of code via compiler options.
+rust has two types of pragmas to specify a set of compiler conditions that must be met: attributes and macros, both indicated by cfg.
+in rust, you specify custom compile-time feature flags in a [features] section of your Cargo.toml
+in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates to optionally require.
+custom compile-time feature flags are refered to in `cfg` by the <cfg-name> feature
+compile-time feature flags are enabled by cargo build --features "<featurename>" 
+any cfg condition is enabled by --cfg "featurename"
+cfg-attribute-sytnax ::= #\[cfg(<cfg-predicate>)\]
+cfg-predicate ::= <cfg-option>|<cfg-logic-function-multiple>|<cfg-not>
+cfg-option ::= <cfg-name> = "<cfg-value>"
+cfg-logic-function ::= (all|any)\(<cfg-predicate-list>\)
+cfg-not ::= not\(<cfg-predicate>\)
+cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
+
 ### Steps involved
 
 1. lexical analiysis/tokenization/lexing
@@ -12895,17 +13019,26 @@ Inlining is a compiler optimization that replaces a function call site with the 
 
 most languages have a CLI tool to interface with them, esp. with implementations
 
+interpreters/hybrid
+
 lua|lua
 node|JS (using node)
 python, python3|python
 perl|perl
+
+compilers
+
 sass|sass/scss
 rustc|rust
+tsc|ts
 
 -c STRING|read program from string|python
 -e STRING|read program from string|perl
 
 npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
+
+by default, TS will {{c3::compile}} even {{c2::if there are compiler errors}}, since it assumes {{c1::you might have a good reason}}, use --noEmitOnError to disable this.
+by default, TS compiles down to {{c2::ES3}}, but you can change that with the {{c1::--target}} flag
 
 ##### REPL
 
