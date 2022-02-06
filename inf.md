@@ -9396,12 +9396,18 @@ callable unit overloading and operator overloading are forms of static dispatch,
 
 ##### Overloading
 
+###### callable unit
+
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
 In TS, function '⟮c1;overloading⟯' exists, but you specify ⟮c2;all possible signatures⟯ ⟮c3;first⟯, and then the ⟮c4;implementation⟯ with a ⟮c5;signature⟯ that is ⟮c6;compatible with all the specified signature⟯ (e.g. using ⟮c7;optional parameters⟯), and not compatible with ⟮c8;non-specified signatures⟯
+For TS {{c1::overloaded}} functions, {{c2::all but the last}} signature(s), which {{c3::do(es)n't have any body}}, is/are called {{c4::overload signatures}}
+For TS {{c1::overloaded}} functions, {{c2::the last}} signature(s), which {{c3::has the body and thus the implementation}}, is/are called {{c4::the implementation signature}}
 In TS, in general: prefer ⟮c1;union types⟯ over ⟮c2;overloads⟯
 In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
+
+Operator overloading is where different operators have different implementations based on their operands.
 
 #### dynamic dispatch
 
@@ -9941,6 +9947,12 @@ in TS `null`, `undefined` and `void` act like unit types, such that nullable typ
 A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
 in TS, the types of constants are a literal type of thier value.
 
+### intersection types
+
+An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
+While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
+intersection-type ::= <type> & <type>
+
 ### Union type
 
 A union type specifies a number of types that anything with the union type as type may take.
@@ -10045,7 +10057,8 @@ In TS, `any` is like a top type in that any value can be assigned to variables o
 in TS, `any` is like a bottom type in that things of type `any` can be assigned to anything.
 Most languages with dynamic typing act as if everything had type `any`.
 in TS, `{}`, `Object` are the same type.
-in TS, `{}`/`Object` are nearly top types, you can assign everything but `null`, `undefined`, or of course `unknown` to `{}`/`Object`
+in TS, `{}`/`Object` are nearly top types, you can assign everything but `null`, `undefined`, or of course `unknown` to `{}`/`Object`.
+by contrast, `object` (notice the case) is any non-primitive type, and thus not even nearly a top type.
 
 ### object types, interfaces and classes in TS
 
@@ -10071,9 +10084,31 @@ in TS, object types, interfaces and classes all can have getters & setters.
 
 in TS, multiple interfaces with the same name will be merged into one, multiple object types or classees with the same name will throw an error
 in TS, interfaces can be implemented by classes just as in languages such as Java.
+in TS, interfaces can be `extend`ed with other interfaces.
+(TS) The main difference of using interfaces and extends vs intersections is that interfaces w/ extends will overwrite if there are properties with the same names but different signatures, while intersections will merge them.
+
+(TS) An index signature specifies that for all keys of a specific type (in theory, but in fact I think they can only be string or int in ts anyway), the value will be of the specified type
+Syntax of an index signature: [foo: sometype]: sometype2
+
+
+### type manipulation
+
+in most languages, types are limited in how they can be used:
+contain predefined primitive types|all statically typed languages
+new data structures create corresponding types|all statically typed languages (I know)
+new records create new corresponding types|all statically typed languages (I know)
+can create type aliases|Python, Rust, TS
+can create types that are combinations of other types|TS
+can create new types by reasoning about other types|TS
+
+type manipulation is a not-so-common cover term for creating new types by reasoning about other types
 
 Type indexing
-[key: foo]: bar
+type from value (reverse typeof)
+returne value of function as type
+mapped types
+conditional types
+template literal types
 
 ### boolean
 
@@ -10584,7 +10619,10 @@ In sh, referring to the whole array requires a special syntax my_array[@] which 
 
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 in languages with type annotation, the type of dynamic arrays is usually written as type[], e.g. int[] or String[]
+in TS, <type>[] is syntactic sugar for Array\<<type>\>
+in TS, readonly <type>[] is syntactic sugar for ReadonlyArray\<<type>\>
 In rust, the type of its (static) array is annotated as [<type>, <length>]
+Tuple types typically have type annotations of <delimiter><type>{, <type>}<delimiter>
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
 
@@ -11462,7 +11500,7 @@ Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other
 In most languages, callable units must be recieve the exact amount of arguments specified as parameters, unless things like the splat operator or default parameters are used.
 JS does not require the same number of arguments as parameters, it will assign unpassed parameters `undefined`, and put all arguments into the array-like `arguments`, allowing for retrieval of extra arguments.
 TS moves JS in line with other programming languages, requiring arguments for parameters by default, and only accepting the not-passing of arguments if the parameter is optional.
-Optional parameters are marked with a ? after the name, which changes their type to be whatever | undefined
+in TS, optional parameters and optional fields are marked with a ? after the name, which changes their type to be whatever | undefined
 
 #### evaluation strategy
 
