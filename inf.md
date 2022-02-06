@@ -751,6 +751,15 @@ the sx prop takes an object whose keys can be CSS or the style prop superset.
 sx={{ filter: 'blur(8px)' }}
 use-cases for the sx prop are css variables, css properties for which there are no style props, nested selectors and custom media queries.
 
+#### (Bootstrap) components via JSX
+
+react-bootstrap implements boostrap components as react/JSX components
+for react-bootstrap, components must be individually imported via react-bootstrap/ComponentName
+ergo, components named via class names become <ComponentName>
+parts of components become <ComponentName.Part>
+properties that were implemented as key-value classes in Bootstrap become normal key="value" porps
+react-bootstrap specifically, theme-color becomes `variant` (prob inspired by other react libraries)
+
 ## environment ≈ Web APIs
 
 ### browsing contexts
@@ -12199,9 +12208,41 @@ Using JSX with React is optional.
 
 ####### components and elements
 
-React components are made up of other elements.
+React components accept arbitrary inputs as `prop`s and return react elements.
+Elements are either components or native DOM tags.
+Typcially, the {{c1::top-most}} react component is called {{c2::App}}
+React components are UpperCamelCase'd
 
 ######## attributes of components
+
+######### props
+
+all attributes that a react component recieves are gathered together and passed to the render logic as `props`
+
+######### state
+
+state is by default encapsulated in a component.
+Passing state down is passing state to a child via props.
+
+######## implementation
+
+Components can be implemented via functions + hooks or classes.
+function components = components implemented with a function
+class components = components implemented with a class.
+The thing implementing the render logic is the function for function components, and the render method for class components.
+The thing implementing the render logic of a component must be a pure function, side effects may only be performed in the class methods or relevant hooks.
+the thing implementing the render logic recieves props.
+to make a component hide itself, return null from tthe render logic.
+
+react class components always extend React.Component. 
+in the render() method of class components, you access most things via `this`
+
+the function implementing a function component takes props as a parameter
+For anything besides rendering based on props, react function components require hooks
+
+table:action|function|class
+referring to props|props (is parameter)|this.props
+referring to state||this.state
 
 ####### the tree
 
@@ -12214,15 +12255,15 @@ calling ReactDOM.render() is most commoly done to render the initial the virtual
 
 ####### changes
 
-The render() function of a given component is called when state or props change, initating the render phase.
+The render logic of a given component is called when state or props change, initating the render phase.
 Calling ReactDOM.render() also initiates the render phase for everything.
 For any change, react has two phases (with a rare inbetween phase): Render phase, commit phase (and pre-commit phase)
 The render phase is pure and has no side effects, may be paused aborted or restarted by react.
-The render phase involves react calling a constructor for newly mounted components, and the render() function for everything.
-The render() function of React creates a tree of React elements.
+The render phase involves react calling a constructor for newly mounted components, and the render logic for any component.
+The render logic of React components creates a tree of React elements.
 In the commit phase, we figure out how to output the tree of React elements to the output (e.g. the DOM)
-In an performance-unlimited word, react would just completely output the new tree of render() to the DOM.
-Since performance is limited, react needds to figure out what has changed between the new and old trees of render() calls and how to change the DOM based on that as little as possible, which is called »reconciliation«.
+In an performance-unlimited word, react would just completely output the virtual DOM tree to the DOM.
+Since performance is limited, react needds to figure out what has changed between the new and old virtual DOM trees and how to change the DOM based on that as little as possible, which is called »reconciliation«.
 Since complete tree diffs are O(n^{3}), reconciliation uses certain heuristics.
 
 ######## component lifecycle
@@ -12261,6 +12302,7 @@ when a component's attribute change, it recieves `componentDidUpdate()`
 However, if the DOM nodes are out of order compared to the last rerender, react is forced to assume that the children are different and destroy the subtrees.
 To prevent a reorder of DOM nodes destroying the subtree, react offers the `key` property, where it can assume that elements with the same key property are the same.
 `key`s should be stable over time, e.g. IDs or hashes of some description.
+`key`s should not be abstracted into subcomponents, as react cannot use them for element identity assertions form there.
 
 ####### events
 
@@ -13732,6 +13774,7 @@ Boilerplate code is repetitive code that is reused often, often also implying th
 
 To set up a default repository with boilerplate, different frameworks/languages have different tools:
 react|create-react-app <name>
+nextjs|create-next-app <name>
 react-native|expo init <name> 
 expo init creates a project using expo's managed workflow
 
