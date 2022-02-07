@@ -5221,7 +5221,7 @@ For ⟮c13;\newtheorem⟯, if ⟮c12;[foo]⟯ occurs {{c11::between the two {arg
 
 For arrows, if the ⟮c1;first letter⟯ is ⟮c2;lowercase⟯, it will render the ⟮c3;thin arrow (→⟯), if the ⟮c1;first letter⟯ is ⟮c2;uppercase⟯, it will render the ⟮c3;thick arrow (⇒⟯). 
 so `⟮c9;\rightarrow⟯` renders ⟮c10;a thin right arrow →⟯, and ⟮c9;\Rightarrow⟯ renders ⟮c10;a thick, double-line right arrow ⇒⟯. 
-⟮c11;\rightarrow⟯ can also be created by ⟮c12;\in⟯ 
+⟮c11;\rightarrow⟯ can also be created by ⟮c12;\to⟯ 
 ⟮c13;\Rightarrow⟯ can also be created by ⟮c14;\implies⟯ 
 For greek letters, if the ⟮c4;first letter⟯ is ⟮c5;lowercase⟯, it will render the ⟮c6;lowercase letter⟯, if the ⟮c4;first letter⟯ is ⟮c5;uppercase⟯, it will render the ⟮c6;uppercase letter⟯. 
 so ⟮c7;\pi⟯ ⟮c8;inserts a lowercase pi π⟯ and ⟮c7;\Pi⟯ ⟮c8;inserts an uppercase pi Π⟯ 
@@ -5238,21 +5238,35 @@ symbol|command(s)|requires package
 
 \supset|⊃
 \subset|⊂
+\cup|∪
+\cap|∩
+⟮c7;\in⟯|⟮c8;set membership⟯
+⟮c7;\notin⟯|⟮c8;negation of set membership⟯
+⟮c7;\ni|⟮c8;reversed set membership symbol⟯
+∖|set difference/relative complement
+⟮c25;\o⟯|⟮c26;ø⟯
 
 ######### various symbols
 
 
 command|symbol
 ⟮c1;\LaTeX⟯|⟮c2;insert the latexlogo⟯
+
+
+\times|×
+
+
 ⟮c3;\ldots⟯|⟮c4;an ellipsis on the baseline …⟯
 ⟮c5;\cdots⟯|⟮c6;an ellipsis slightly below the midline ⋯⟯
-⟮c7;\in⟯|⟮c8;the element symbol (∈⟯)
+
+
 ⟮c17;\leq⟯|⟮c18;≤⟯
 ⟮c19;\geq⟯|⟮c20;≥⟯
 ⟮c21;\approx⟯|⟮c22;≈⟯
+
+
 ⟮c23;\infty⟯|⟮c24;∞⟯
-⟮c25;\o⟯|⟮c26;ø⟯</td></tr></tbody>
-</table>
+
 
 ⟮c9;\dots⟯ ⟮c10;is equivalent to \ldots⟯ in ⟮c11;vanilla latex⟯. 
 If using ⟮c12;amsmath⟯ and ⟮c13;within math mode⟯, ⟮c14;\dots⟯ ⟮c15;decides between \ldots and \cdots⟯ ⟮c16;based on context⟯ 
@@ -5659,6 +5673,8 @@ pattern|specify a regex that the value must conform to
 default|specify a default value that should be assumed if a value is missing
 
 in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
+
+to use your {{c1::JSON Schemas}} as {{c1::TS typeings}} use the {{c2::npm package}} {{c2::json-schema-to-typescript}}
 
 ######## jq yq
 
@@ -9444,6 +9460,7 @@ In rust, we may specify trait bounds by indicating it within a type parameter as
 trait-list ::= <trait-name>{ + <trait-name>}
 where-clause-syntax ::= where {<generic>: <trait-list><newline>}
 TS allows specifying constraints for generics via the `extends` keyword.
+The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
 
 #### implementation & monomorphization
 
@@ -9839,6 +9856,9 @@ Assigning to a variable with something of a more loose type undoes the narrowing
 Narrowing can produce the never type if the thing was narrowed to impossibility
 A type guard is any check that narrows the type of a thing.
 In TS, type guards for basic types uses typeof.
+in TS, a type predicate is a function that returns a boolean value. The boolean value determines if the thing is the specified type.
+A type predicate is specified by adding ` is <type>` to the end of the return type.
+In effect, using a type predicate acts as a custom type guard.
 
 ##### Type annotation
 
@@ -9950,20 +9970,23 @@ in TS, there are three unit-like types: `null`, `undefined` and `void`
 in TS, `null` is the only proper unit type: only things of type `null` plus `never` and `any` (of course) are assignable assignable to `null`, and `null` can only be assinged to `null` plus `unknown` and `any`.
 in TS, `undefined` is only unit-like, since besides the proper relationships one may also assing things of type `undefined` to variables of type `void`.
 in TS `void` is only unit-like, since besides the proper relationships things of type `undefined` are assignable to variables of type `void`.
-in TS `null`, `undefined` and `void` act like unit types, such that nullable types need to be literally declared as option types.
+in TS, if `strictNullChecks` is enabled (which is not the default behavior, but my default assumption otherwise the type system becomes a mess) `null`, `undefined` and `void` act like unit types, such that nullable types need to be literally declared as option types.
+in TS, if `strictNullChecks` are disabled, all types are nullable.
 
 #### Literal types
 
 A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
 in TS, the types of constants are a literal type of thier value.
 
-### intersection types
+### combination of other types
+
+#### intersection types
 
 An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
 While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
 intersection-type ::= <type> & <type>
 
-### Union type
+#### Union type
 
 A union type specifies a number of types that anything with the union type as type may take.
 A union type can hold a value that could take on several different but fixed types.
@@ -9975,7 +9998,7 @@ Syntax for creating arbitrary union types exist in Python and TS
 
 In type theory, a union type is a sum type.
 
-#### Tagged unions
+##### Tagged unions
 
 A tagged union type is a union type where each of the types has a tag, which is used to determine which type is currently in used.
 What rust calls enums is more properly a tagged union.
@@ -9983,9 +10006,9 @@ in TS, a thing similar to tagged unions is called a discriminated union.
 in TS, discriminated unions are implemented by a union type of other types with a shared field.
 In a discriminated union, TS can narrow based on checking a shared field.
 
-##### Rust
+###### Rust
 
-###### strum
+####### strum
 
 strum|enum &lt;-&gt; string manipulation
 
@@ -9996,9 +10019,9 @@ Enum -> str|derive strum_macros::ToString
 Enum -> str message|derive strum::EnumMessage|Enum.get_message() & Enum.get_detailed_message() (return options)
 str -> Enum|derive strum::EnumString|Enum::from_str()
 
-##### Types with two possible states
+###### Types with two possible states
 
-###### Option type
+####### Option type
 
 An option type is a type that represents an optional value.
 An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
@@ -10012,12 +10035,12 @@ pub enum Option<T> {
 
 In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
 
-###### Result type 
+####### Result type 
 
 A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
 in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Err(E)}
 
-###### Commonalities
+####### Commonalities
 
 |if None|if Some
 <OptionOrResult>.and(<AnotherOptionOrResult>)|None/Err|<AnotherOptionOrResult>
@@ -10031,7 +10054,7 @@ the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or 
 
 Result<T, E>.ok() -> Option<T>
 
-#### Nullable types
+##### Nullable types
 
 Null is not typically its own type (since it would be a useless unit type), instead other types are generally nullable.
 A type being nullable means it can take a special value null/nil/undefined instead of the usual possible values.
@@ -10045,6 +10068,39 @@ there isn't one|Rust
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 In JS a type is nullish if it is null or undefined.
+
+
+#### type manipulation
+
+in most languages, types are limited in how they can be used:
+contain predefined primitive types|all statically typed languages
+new data structures create corresponding types|all statically typed languages (I know)
+new records create new corresponding types|all statically typed languages (I know)
+can create type aliases|Python, Rust, TS
+can create types that are combinations of other types|TS
+can create new types by reasoning about other types|TS
+
+type manipulation is a not-so-common cover term for creating new types by reasoning about other types
+
+the `keyof` operator takes an object type and returns a union type of its keys.
+the TS-specific `typeof` operator returns the type of a non-type thing.
+the TS type `ReturnType<T>` corresponnds to the return type of T (T must be a function ＊type＊)
+An indexed access type, given a key of a field, allows us to get the type of the value of a field of another type, much as indexing an assoc array with a key returns its value.
+Indexed access types use the same [] syntax as normal accessing.
+Conditional types evaluate to different types depending on an expression.
+conditonal-type-specifier ::= <generic> extends <type> ? <type> : <type>;
+the generic which is the first thing conditional type can be used in the true branch for further manipulation/selection.
+in the <generic> extends <type> of a conditional type, within the <type> one may declare an additional generic via `infer <generic>`, which we than can use in the true branch
+A mapped type maps all keys of another type to a certain type.
+mapped-type-specifier ::= \[<type> in keyof <type>\]: <type>;
+more on mapped types: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
+Template literal types use JS template literal syntax to expand to all possible string literal types that this could assume.
+
+mapped types
+
+#### TS Utility types
+
+TypeScript provides several utility types to facilitate common type transformations.
 
 ### top type
 
@@ -10066,6 +10122,7 @@ In ruby Object inherits from BasicObject and generally acts as the top type for 
 In TS, `any` is like a top type in that any value can be assigned to variables of type `any`.
 in TS, `any` is like a bottom type in that things of type `any` can be assigned to anything.
 Most languages with dynamic typing act as if everything had type `any`.
+in TS, unless `noImplicitAny` is enabled, TS will often fall back to `any`, acting like default JS in these cases.
 in TS, `{}`, `Object` are the same type.
 in TS, `{}`/`Object` are nearly top types, you can assign everything but `null`, `undefined`, or of course `unknown` to `{}`/`Object`.
 by contrast, `object` (notice the case) is any non-primitive type, and thus not even nearly a top type.
@@ -10093,7 +10150,7 @@ prefixing a field of a object type or interface with `readonly` makes it a const
 in TS, object types, interfaces and classes all can have getters & setters.
 
 in TS, multiple interfaces with the same name will be merged into one, multiple object types or classees with the same name will throw an error
-in TS, interfaces can be implemented by classes just as in languages such as Java.
+in TS, while interfaces can do many more things, interfaces can be implemented by classes just as in languages such as Java.
 in TS, interfaces can be `extend`ed with other interfaces.
 (TS) The main difference of using interfaces and extends vs intersections is that interfaces w/ extends will overwrite if there are properties with the same names but different signatures, while intersections will merge them.
 
@@ -10102,32 +10159,9 @@ Syntax of an index signature: [foo: sometype]: sometype2
 The {{c1::name}} of an index signature {{c2::does not matter}}.
 ^source: https://basarat.gitbook.io/typescript/type-system/index-signatures
 
-### type manipulation
-
-in most languages, types are limited in how they can be used:
-contain predefined primitive types|all statically typed languages
-new data structures create corresponding types|all statically typed languages (I know)
-new records create new corresponding types|all statically typed languages (I know)
-can create type aliases|Python, Rust, TS
-can create types that are combinations of other types|TS
-can create new types by reasoning about other types|TS
-
-type manipulation is a not-so-common cover term for creating new types by reasoning about other types
-
-the `keyof` operator takes an object type and returns a union type of its keys.
-the TS-specific `typeof` operator returns the type of a non-type thing.
-the TS type `ReturnType<T>` corresponnds to the return type of T (T must be a function ＊type＊)
-An indexed access type, given a key of a field, allows us to get the type of the value of a field of another type, much as indexing an assoc array with a key returns its value.
-Indexed access types use the same [] syntax as normal accessing.
-Conditional types evaluate to different types depending on an expression.
-conditonal-type-specifier ::= <type> extends <type> ? <type> : <type>;
-A mapped type maps all keys of another type to a certain type.
-mapped-type-specifier ::= \[<type> in keyof <type>\]: <type>;
-more on mapped types: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
-Template literal types use JS template literal syntax to expand to all possible string literal types that this could assume.
-
-mapped types
-template literal types
+Partial<T>|Returns T where all keys have been set to optional
+Required<T>|Returns T where all keys have been set to required.
+Readonly<T>|Retunrs T where all keys have been set to readonly
 
 ### boolean
 
@@ -10654,6 +10688,7 @@ Lists/Sequences are an abstract data type (specifically a collection), in which 
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
+###### linked list
 
 flex-container:<img src="sm_408px-Singly-linked-list.svg.png">
 A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
@@ -10664,10 +10699,21 @@ flex-container:<img src="sm_doubly_linked_list.svg">
 A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
+####### cons
+
 cons is short for construct function, and comes from lisp. 
 To ⟮c4;cons something onto something⟯ is to take a ⟮c1;container⟯, add ⟮c2;an element in front of it⟯, and ⟮c3;put this in another container⟯.
 A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
 A cons list is a singly linked list constructed via nested ordered pairs.
+
+####### blockchain
+
+flex-container:<img src="blockchain.svg">
+
+
+A {{c1::blockchain}} is a growing {{c2::(linked) list}} of records called {{c3::blocks}}.
+In a blockchain, each block contains {{c4::a hash}} of {{c4::the previous block}}, a {{c5::timestamp}}, a {{c6::nonce}}, and {{c7::transaction data}} represented as {{c7::a merkle tree}}.
+Since {{c8::blocks contain hashes of previous blocks}}, {{c9::changing a block}} would {{c10::also require changing subsequent blocks.}}
 
 ###### vs arrays
 
@@ -13772,14 +13818,18 @@ pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
 edit[ <name>]|open <name> in code editor, or default if none is provided|espanso
 
-#### package manifest
+#### package manifest & language config file
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
+A language config file specifies config (e.g. compiler options) for the current programming language.
+Package manifest and language config files are often the same thing.
 In most package managers, besides the place where you specify your dependencies, there is also a lockfile.
 While the package manifest or wherever is where you specify the versions of your dependencies you accept, the lockfile specifies the versions which are actually installed.
 
 Cargo.toml|cargo
 package.json|npm|yarn
+
+tsconfig.json|TS
 
 package manifest top-level keys
 dependencies|specify dependencies|Cargo.toml|package.json
@@ -13787,6 +13837,7 @@ package|general package information|Cargo.toml
 
 package-lock.json|npm
 Gemfile.lock|bundler
+
 
 ##### rust
 
@@ -14031,6 +14082,7 @@ but: not method calls, use : instead
 In Rust, of the collection types, tuples are accessed via dot notation, an arrays are accessed via square bracket notation
 
 While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
+TS makes referring to {{c3::nonexistent properties}} an {{c1::error}}, rather than {{c2::returning undefined}}
 In JS, the ?. is called the optional chaining operator.
 In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.

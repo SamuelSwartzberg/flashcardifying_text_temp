@@ -23,6 +23,8 @@ Decimal|10
 Hexadecimal|16
 Vigesimal|20
 
+Any positional numeral system can display any real numbers, though some have repeating digits (depending on the system)
+
 
 #### sigfigs
 
@@ -69,6 +71,8 @@ in programming, the base of the number is often indicated by a prefix
 
 ##### binary
 
+###### value of digits
+
 nth digit|value
 1|1
 2|2
@@ -78,6 +82,26 @@ nth digit|value
 6|32
 7|64
 8|128
+
+###### conversion practice
+
+table:binary|decimal
+⟮c1;0<sub>2</sub>⟯|⟮c2;0<sub>10</sub>⟯
+⟮c3;1000<sub>2</sub>⟯|⟮c4;8<sub>10</sub>⟯
+⟮c5;1001<sub>2</sub>⟯|⟮c6;9<sub>10</sub>⟯
+⟮c7;100<sub>2</sub>⟯|⟮c8;4<sub>10</sub>⟯
+⟮c9;1010<sub>2</sub>⟯|⟮c10;10<sub>10</sub>⟯
+⟮c11;1011<sub>2</sub>⟯|⟮c12;11<sub>10</sub>⟯
+⟮c13;101<sub>2</sub>⟯|⟮c14;5<sub>10</sub>⟯
+⟮c15;10<sub>2</sub>⟯|⟮c16;2<sub>10</sub>⟯
+⟮c17;1100<sub>2</sub>⟯|⟮c18;12<sub>10</sub>⟯
+⟮c19;1101<sub>2</sub>⟯|⟮c20;13<sub>10</sub>⟯
+⟮c21;110<sub>2</sub>⟯|⟮c22;6<sub>10</sub>⟯
+⟮c23;1110<sub>2</sub>⟯|⟮c24;14<sub>10</sub>⟯
+⟮c25;1111<sub>2</sub>⟯|⟮c26;15<sub>10</sub>⟯
+⟮c27;111<sub>2</sub>⟯|⟮c28;7<sub>10</sub>⟯
+⟮c29;11<sub>2</sub>⟯|⟮c30;3<sub>10</sub>⟯
+⟮c31;1<sub>2</sub>⟯|⟮c32;1<sub>10</sub>⟯
 
 ###### bits and bytes
 
@@ -268,7 +292,80 @@ The factorial is the product of all positive integers less than or equal to n.
 
 ## sets
 
-tuples use parentheses
+A set is a well-defined collection of distinct (= no repetitions) objects without order.
+A set consists of n elements AKA members.
+Sets are usually denoted by capital letters.
+Two sets are equal if they contain the same elements.
+The »cardinality« of a set is the amount of elements within it.
+The cardinality is indicated with vertical bars as ｜S｜.
+
+### sets, tuples, sequences, pairs
+
+A »sequence« is a set-like thing that has order and allows repetitions.
+Where a set has cardinality, a sequence has length.
+»Tuples« are finite sequences.
+Tuples with a known amount of elements n are often called »n-tuples« (e.g. 7-tuples)
+An »ordered pair« is a 2-tuple.
+An »unordered pair« is a set of two elements.
+A »singleton« is a set/sequence/tuple with one element.
+
+construct|delimiter
+set|{}
+tuple/sequence|()
+
+### operators & operatons
+
+#### unary
+
+A set's »absolute complement« are all elements not in the set.
+A set's ＿absolute complement＿ is the relative complement of the universe and the set U∖A.
+A set's ＿absolute complement＿  is written A^{c}
+The power set of a set S is the set of all subsets of S.
+
+#### binary 
+
+'is an element of' is more properly a binary relation between an element and a set called set membership.
+The set membership of x in A is written x ∈ A.
+The negation of the set membership of x in A is written x ∉ A.
+The set difference of two sets A and B is the set such that for all elements x x∈A ∧ x∉B
+
+S_1 ∖ S_2|relative complement/ Set difference
+
+The cartesian product of two sets A and B is the set of all ordered pairs (a, b) such that a ∈ A and b ∈ B.
+The cartesian product of A and B is written A×B.
+
+##### union and intersection
+
+
+The intersection of two sets A and B is the set such that for all elements x x∈A ∧ x∈B
+Two sets are disjoint if their intersection is the empty set.
+The union of two sets A and B is the set such that for all elements x x∈A ∨ x∈B
+
+S_1 ∩ S_2|Intersection
+S_1 ∪ S_2|Union
+
+##### sub & supersets
+
+two sets are equal if they are both subsets of each other.
+The empty set is the set that contains no elements.
+The empty set is written ø.
+The universe is the set that contains all elements (under consideration)
+The universe is written U.
+Every set has itself and the empty set as subsets.
+Every set has itself and the universe as supersets.
+The empty set is the subset of every set.
+The universe is the superset of every set.
+A proper sub/superset of A is a sub/superset that is not equal to A.
+The relation of being a superset may also be called inclusion or containment.
+the (proper) sub/superset operators may be read as 「is a proper sub/superset」, as 「is included in/includes」 or as 「is contained in/contains」
+⊂ and ⊃ are properly ambiguous between proper sub/superset and just sub/superset.
+
+### building sets
+
+roster notation = enumeration notation
+Roster notation defines a set extensionally, by listing its members (perhaps with leaving out elements with ...)
+set builder notation is a specific notatation to define a set via its intension.
+set-builder-notation ::= \{<element-definition>[∈<domain>]\|<logical-formula>\}
 
 ### diagrams
 
@@ -320,11 +417,7 @@ Symbol|Refers to?
 ⟮c34;Integers⟯ are known as ⟮c35;ganze Zahlen⟯ in German. 
 
 
-[⟮c11;s∞;ℝ⟯ [⟮c12;s∞;ℚ⟯ [⟮c13;s∞;ℤ⟯ [⟮c14;s∞;ℕ<br><br>⟯</span>
-      </div>
-    </div>
-  </div>
-</div>
+onion-box:[⟮c11;s∞;ℝ⟯ [⟮c12;s∞;ℚ⟯ [⟮c13;s∞;ℤ⟯ [⟮c14;s∞;ℕ⟯ [⟮c14;s∞;ℙ⟯<br><br>]]]]]
 
 
 
@@ -337,61 +430,6 @@ A combination is an unordered subset of a given set.
 
 A permutation is an arrangement of a set in a certain order.
 The number of permutations of n distinct objects is n factorial.
-
-### functions
-
-A function in math is a relationship between two sets, the domain and the codomain.
-A function assigns an element of the codomain to each element of the domain. (this however does not imply that each element of the codomain is aassigned to an element of the domain, there may be unassignemd elements)
-functions are most often indicated by the letter f and beyond.
-the value a function yields for a given element of the domain x is often denoted by f(x).
-The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
-The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
-The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
-The ⟮c1;value(s)⟯ that ⟮c2;must be provided⟯ to a ⟮c3;function⟯ to ⟮c4;obtain its result⟯ is/are known as ⟮c5;the/an argument(s)⟯
-A mathematical ⟮c1;function⟯ must take ⟮c3;one or more⟯ ⟮c2;arguments⟯
-
-#### notation
-
-f(x) is read <q>f of x</q> in english
-f(x) is read <q>f von x</q> in german
-
-#### sets
-
-the image of a function is the subset of the codomain that represents all values f(x) the function can produce
-the image of a subset of x is the subset of the codomain that represents all values f(x) (for the subset of x) the function can produce
-the preimage of a function is the subset of the domain that that map onto values that are part of the image.
-
-#### jective
-
-injective, surjective, bijective function = injection, surjection, byjection
-an injective function maps each x to a distinct f(x), i.e. f(x1) = f(x2) implies x1 = x2.
-a surjective function has at least one mapping that produces y (for every y, there is an x such that f(x) = y.
-a bijective function is a function that is both injective and surjective.
-In other words, a bijective function maps exactly one element of a set to exactly one element of another set.
-
-#### inverse
-
-the inverse of a function f is a function that undoes the operation of f
-the inverse of a function f only exists if f is bijective
-the inverse of a function f is denoted by f^{-1}
-
-#### monotonic
-
-A function is monotonic if for all x_1, x_2: 
-montonically increasing|non-decreasing, weakly increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
-strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) < f(x_2)
-montonically decreasing|non-decreasing, weakly decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
-strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) > f(x_2)
-
-a function is monotonic if it is monotonically increasing or monotonically decresing
-a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
-
-#### zero
-
-Zero = null = root
-Nullstelle = zero/null/root
-The zero is the point at which the graph of a function touches or intersects with the x-axis
-Per definition, any zero x has the property f(x)=0
 
 
 ## graphs
@@ -608,19 +646,129 @@ In mathematics, an algebraic structure consists of a nonempty set A (called the 
 abstract algebra (occasionally called modern algebra) is the study of algebraic structures.
 An algebraic structure may be based on other algebraic structures with operations and axioms involving several structures. 
 
+## functions
 
-## formulae
+A function in math is a relationship between two sets, the domain and the codomain.
+A function assigns an element of the codomain to each element of the domain. (this however does not imply that each element of the codomain is aassigned to an element of the domain, there may be unassignemd elements)
+functions are most often indicated by the letter f and beyond.
+the value a function yields for a given element of the domain x is often denoted by f(x).
+The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
+The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
+The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
+The ⟮c1;value(s)⟯ that ⟮c2;must be provided⟯ to a ⟮c3;function⟯ to ⟮c4;obtain its result⟯ is/are known as ⟮c5;the/an argument(s)⟯
+A mathematical ⟮c1;function⟯ must take ⟮c3;one or more⟯ ⟮c2;arguments⟯
 
-### Equation
+### notation
+
+f(x) is read <q>f of x</q> in english
+f(x) is read <q>f von x</q> in german
+
+### sets
+
+the image of a function is the subset of the codomain that represents all values f(x) the function can produce
+the image of a subset of x is the subset of the codomain that represents all values f(x) (for the subset of x) the function can produce
+the preimage of a function is the subset of the domain that that map onto values that are part of the image.
+
+### jective
+
+injective, surjective, bijective function = injection, surjection, byjection
+an injective function maps each x to a distinct f(x), i.e. f(x1) = f(x2) implies x1 = x2.
+a surjective function has at least one mapping that produces y (for every y, there is an x such that f(x) = y.
+a bijective function is a function that is both injective and surjective.
+In other words, a bijective function maps exactly one element of a set to exactly one element of another set.
+
+### inverse
+
+the inverse of a function f is a function that undoes the operation of f
+the inverse of a function f only exists if f is bijective
+the inverse of a function f is denoted by f^{-1}
+
+### monotonic
+
+A function is monotonic if for all x_1, x_2: 
+montonically increasing|non-decreasing, weakly increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
+strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) < f(x_2)
+montonically decreasing|non-decreasing, weakly decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
+strictly (montonically) increasing|increasing|x_1 < x_2 also f(x_1) > f(x_2)
+
+a function is monotonic if it is monotonically increasing or monotonically decresing
+a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
+
+### zero
+
+Zero = null = root
+Nullstelle = zero/null/root
+The zero is the point at which the graph of a function touches or intersects with the x-axis
+Per definition, any zero x has the property f(x)=0
+
+### preexisting functions
+
+#### floor and ceil
+
+flex-container:<img src="FloorFunction_1000.gif">:<img src="CeilingFunction_1000.gif">
+
+
+In math, the {{c1::floor}} function of x gives the {{c2::largest}} {{c3::integer}} that is {{c4::≤ x}}.
+The floor function is written {{c6::⌊x⌋}}.
+{{c6::⌊x⌋}} is produced in latex by {{c5::\lfloor x \rfloor}}
+In math, the {{c1::ceiling}} function of x gives the {{c2::smallest}} {{c3::integer}} that is {{c4::≥ x}}.
+The ceil function is written {{c6::⌈x⌉}}.
+{{c6::⌈x⌉}} is produced in latex by {{c5::\lceil x \rceil}}
+^https://mathworld.wolfram.com/FloorFunction.html, https://mathworld.wolfram.com/CeilingFunction.html
+
+## variable
+
+### free and bound
+
+A variable may be free or bound.
+a {{c1::free variable}} is one {{c2::on which the value of an expression/statement}} {{c3::depends/says something about}}
+a {{c4::bound variable}} on the other hand is {{c5::a convenience to express something}}, that does not {{c6::stand for a particular thing}}
+often an expression/statement can be {{c7::rephrased}} to {{c8::eliminate bound variables}} (though not always).
+in the expression&nbsp;\({\sum _{k=1}^{10}f(k,n),}\) {{c9::k is&nbsp; a bound variable}} and {{c9::n is a free variable}}
+in the expression&nbsp;\({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) {{c10::x is a free variable}}, {{c10::h is a bound variable}}
+There are a few common {{c11::variable-binding}} operators, most commonly {{c12::sum&nbsp;Σ, product Π, integral&nbsp;∫, limit lim, existential quantifier&nbsp;∃, universal quantifier&nbsp;∀}}
+
+### arguments, parameters, coefficients, constants
+
+A »variable« is a placeholder for something that may change.
+Variables may either be arguments or parameters.
+Often, variable is treated as a synonym for argument (only), but this is incorrect.
+An argument is a variable that is the input of the function, that if varied produces different outcomes.
+A parameter is a variable that is not provided as an input for the function. Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
+By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
+The {{c2::arguments}} of a function must {{c1::be listed in f(...)}}, the {{c2::parameters}} of functions must {{c1::under no circumstances be}}.
+{{c1::Constant}} in math is ambiguous: It may refer to {{c2::a well-defined and fixed number (e.g. π)}}, or {{c3::is a synonym for ＿parameter＿}}
+A coefficient is something (may be a variable or something that isn't a variable, e.g. an expression, a number) that is multiplied with something else (that thing may be 1).
+A constant coefficient is not multiplied with any argument, and may be multiplied with 1.
+
+table:thing|indicated by
+arguments|x, y, z...
+parameters|a, b, c...
+
+
+table:headerrows=2;f(x)=ax^{2}+bx+c
+element in function|is what kind of thing
+a, b, c, x|variable(s)
+a, b, c|parameter(s)
+a, b, c|coefficient(s)
+c|constant coefficent(s)
+x|argument(s)
+
+## Equation
 
 f+o+o = b+a+r
 An ⟮c1;equation⟯ is a statement that ⟮c3;asserts the equality⟯ of ⟮c2;two expressions⟯
 An ⟮c4;equation⟯ connects its ⟮c1;two⟯ ⟮c2;expressions⟯ via ⟮c3;an equals sign⟯
 
-## expressions
+## terms and expressions
 
 An ⟮c1;expression⟯ in math is ⟮c2;a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)⟯ including ⟮c3;at least one operator⟯
+a {{c1::term}} in math is any part of an {{c2::expression}} that is by itself {{c4::well-formed}} and {{c5::does not contain an operator}}.
 
+table:headerrows=2;2x+3
+element in function|is what kind of thing
+2x+3|expression(s)
+2x, 3, 2, x|term(s)
 
 ## operations
 
@@ -685,7 +833,7 @@ right-distributive|(x+y) * ζ = (ζ * x) + (ζ * y)
 ### arguments
 
 
-The arity of something specifies how many operands or arguments are involved. 
+The »arity« of something specifies how many ＿operands＿ or ＿arguments＿ are involved. 
 Arity is a property of operations or functions.
 arity and adicity are rough synonyms
 The arity is specified in latinate numbers
