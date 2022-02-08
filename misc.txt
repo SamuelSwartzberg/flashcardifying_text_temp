@@ -214,16 +214,17 @@ An ⟮c5;econ⟯ would always ⟮c6;make the best decision given a set of altern
 ⟮c1;Bias⟯ is the ⟮c2;inclination toward⟯ or ⟮c2;weighting of⟯ something, most often in a way that is ⟮c3;unfair⟯ and/or ⟮c3;disproportionate/wrong⟯. Thus, ⟮s1-3;⟮s7-12;⟮c4;cognitive bias⟯ is ⟮c5;the disproportionate weighting⟯ / ⟮c5;irrelevant inclusion⟯ of factors in a way that ⟮c6;the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮c7;statistics⟯ is the tendency of ⟮c8;a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮c9;misestimate⟯ a ⟮c8;parameter (a truth about the population) ⟯⟯;⟮s4-9; ⟮c10;implicit bias⟯ are ⟮c11;pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮c12;a social group⟯⟯⟯ 
 ⟮c14;Status quo bias⟯ is a form of ⟮c15;cognitive bias⟯, the bias towards ⟮c13;The current state of affairs⟯ 
 
-#### bothsidesism
+#### cognitive bias
 
-⟮c1;Bothsidesing⟯ is a term where you ⟮c4;present both sides of an argument with equal weight⟯ (or ⟮c4;assign both parties equal fault⟯), even if ⟮c5;one does actually merits more weight⟯ (e.g. ⟮c5;is true, is more representative⟯) or ⟮c5;have more fault⟯ 
-⟮c3;Bothesidesing⟯ as a term is generally used as ⟮c6;a criticsim⟯, especially ⟮c2;of the media.⟯ 
-
-#### magical thinking
+##### magical thinking
 
 ⟮c6;magical thinking⟯ is the way of thinking that posits ⟮c7;that two events are causally connected⟯, ⟮c8;even though there is no plausible causal link⟯.
 An example of ⟮c2;magical thinking⟯ would be ⟮c1;Knocking on wood will prevent misfortune.⟯ 
 ⟮c3;Magical thinking⟯ is often ⟮c4;a symptom of OCD⟯ (however, ⟮c5;the cause of most⟯ ⟮c3;magical thinking⟯ in the world is ⟮c5;not⟯ ⟮c4;OCD⟯)
+
+##### mean world syndrome
+
+Mean world syndrome is a hypothesized cognitive bias wherein people (especially those not particularly in danger of violence) may perceive the world to be more dangerous than it actually is, due to long-term moderate to heavy exposure to violence-related content on mass media.
 
 #### statistical bias
 
@@ -382,6 +383,12 @@ Proponents of ⟮c1;horseshoe⟯ theory argue that the ⟮c2;extreme left⟯ and
 
 ## international relations
 
+### diplomacy
+
+#### checkbook diplomacy
+
+Checkbook diplomacy is using economic aid and investment for diplomatic favor.
+
 ### irredentism & revanchism
 
 ⟮c2;Irredentism⟯ is the movement to ⟮c3;'reclaim' territory⟯ that a group thinks ⟮c4;they have a claim to⟯ on a ⟮c5;ethno-historico-nationalist⟯ basis. 
@@ -473,6 +480,11 @@ Examples of weasel words:
 - [It is] officially known as (Passive voice - what is the official body here?)
 - Often, x may (Vague or weaking quantifier - in which circumstances?)
 
+##### bothsidesism
+
+⟮c1;Bothsidesing⟯ is a term where you ⟮c4;present both sides of an argument with equal weight⟯ (or ⟮c4;assign both parties equal fault⟯), even if ⟮c5;one does actually merits more weight⟯ (e.g. ⟮c5;is true, is more representative⟯) or ⟮c5;have more fault⟯ 
+⟮c3;Bothesidesing⟯ as a term is generally used as ⟮c6;a criticsim⟯, especially ⟮c2;of the media.⟯ 
+
 ##### washing
 
 xwashing is a snowclone (I think) indicating manipulation of appearances/public opinion that a certain thing (mostly product) is x-supportive, often with the implication that the support for the issue symbolized by x is only surface-deep.
@@ -482,14 +494,21 @@ whitewashing originally meant the application of whitewash (a lime and water mix
 whitewashing was then extended to mean papering over unfavorable elements.
 Finally, whitewashing has come to mean making something more palletable to white people, esp. by casting POC as white people.
 
-### censorship
+### freedom of speech
 
-#### impressumspflicht
+#### censorship
+
+##### impressumspflicht
 
 ⟮c1;Impressumspflicht⟯ is generally only a thing in ⟮c2;german-speaking countries⟯, containing ⟮c3;the contact information⟯ of ⟮c4;the person responsible for the content.⟯ 
 The main law ⟮c5;requiring an Impressum⟯ in the Internet is ⟮c6;the Telemediengesetz⟯, if ⟮c7;you are offering services⟯, also ⟮c8;the  Dienstleistungs-Informationspflichten-Verordnung⟯ 
 The main requirement for an ⟮c9;impressum⟯ is "⟮c10;leicht erkennbar⟯, ⟮c11;unmittelbar erreichbar,⟯ ⟮c12;ständig verfügbar⟯" 
 ^Historically, the German impressum requirement has its roots in the censorship laws of 19th century and earlier monarchies, and has been criticized as illiberal and contrary to the principle of free speech; in most other countries there is no comparable requirement.
+
+#### paradox of tolerance
+
+The paradox of tolerance states that if a society is tolerant without limit, its ability to be tolerant is eventually seized or destroyed by the intolerant.
+The paradox of tolerance was introduced by Karl Popper in a note to his 1945 the open society and its enemies.
 
 ## political systems
 
@@ -515,7 +534,9 @@ In American politics, the ⟮c1;Southern strategy⟯ was a ⟮c2;Republican Part
 
 ARPA is short for ⟮c1;Advanced Research Projects Agency⟯ (today called ⟮c2;DARPA⟯), and is an agency that carries out ⟮c3;R&amp;D⟯, directly subsidiary to the ⟮c4;US Department of Defense⟯ 
 
-# art
+## political movements
+
+# art & media
 
 ## the artist
 
@@ -587,6 +608,14 @@ For the hermeneutic circle, since ⟮c11;our understanding at either step⟯ is 
 
 ### narrative
 
+#### narratology
+
+narratology examines the ways that narrative structures our perception of both cultural artifacts and the world around us.
+
+##### ludonarrative dissonance
+
+udonarrative dissonance is the conflict between a video game's narrative told through the story and the narrative told through the gameplay
+
 #### trope
 
 ##### lampshading
@@ -624,6 +653,16 @@ description|Term
 ⟮c5;a bad guy turning good⟯|⟮c6;heel(-face) turn⟯
 ⟮c7;a good guy turning bad⟯|⟮c8;face(-heel) turn⟯
 
+## media criticism
+
+### feminist
+
+#### representation
+
+##### tests & metrics
+
+The bechdel test is a test of female representation in fiction.
+A movie passes the bechdel test if at least two women talk to each other about something other than a man.
 
 ## textual
 
@@ -918,6 +957,25 @@ Name|Name (using marriage-related terms)|Description
 
 ⟮c2;the savage mind⟯ is a book by ⟮c3;CLS⟯ published in ⟮c1;the early 1960s (1962⟯) ( after 『⟮c4;The Structural Study of Myth⟯』)
 In ⟮c5;the beginning of the savage mind⟯,  CLS details ⟮c6;the richness of vocabularies/category systems (in areas of concern⟯)⟮c6;of indigenous cultures⟯, both for ⟮c7;the things they need to survive⟯, ⟮sb;but then also for ⟮c8;things they don't need to survive⟯, ⟮sb;according to CLS they have these categories ⟮c9;for intellectual reasons⟯⟯⟯
+
+# urban studies
+
+## community
+
+### third place
+
+first place|home
+second place|work
+
+A third place is a place in a humans life outside of the first/second place where they spend time and socialize.
+The idea of third places was coined by Ray Oldenburg.
+Ray Oldenburg argues that third places are important for individuals, communities and democractic/civic society.
+
+#### characteristics of a third place according to theorists
+
+At least for regulars, third places are not particularly restricted in access, and people have little to no obligation to be there.
+Third places must feel warm, accomodating and accepting of different people, with little distinction and snobbery.
+Third places have a certain set of regulars, though those are not necessarily the only people in the space.
 
 # geo
 
@@ -1325,13 +1383,13 @@ Dynasty|Start|End
 
 Era|Start|End
 ⟮c1;Asuka⟯|⟮c2;550⟯|⟮c3;700⟯
-⟮c4;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>時代⟯|⟮c5;700⟯|⟮c6;800⟯
+⟮c4;　奈良（なら）時代⟯|⟮c5;700⟯|⟮c6;800⟯
 ⟮c7;平安時代⟯|⟮c8;800⟯|⟮c9;1200⟯
 
 
 In the ⟮c2;平安時代⟯, ⟮c4;the capital⟯ ⟮c1;was moved⟯ to ⟮c3;平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
 
-⟮c3;<ruby>大日本帝国<rp>(</rp><rt>だいにっぽんていこく</rt><rp>)</rp></ruby>⟯: ⟮c1;1868⟯ - ⟮c2;1947⟯
+⟮c3;　大日本帝国（だいにっぽんていこく）⟯: ⟮c1;1868⟯ - ⟮c2;1947⟯
 
 #### reigns
 
@@ -1366,11 +1424,11 @@ more precisely since the 50s if we're talking specifically about the LDP, but th
 
 ##### 万葉集
 
-The ⟮c1;<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>⟯&nbsp;is ⟮c2;the oldest⟯ ⟮c3;collection of 和歌 poetry⟯ 
-The ⟮c4;<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>⟯ was ⟮c5;compiled in⟯ ⟮c6;the latter half of the 700s (nara period⟯) 
-The ⟮c7;<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>⟯&nbsp;is today considered ⟮c8;a revered piece of literature⟯ 
-While ⟮c9;the  <ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby> is from the latter 700s⟯, ⟮c10;some of the poems⟯ are from ⟮c11;far earlier (600ish⟯) 
-the ⟮c12;<ruby>万葉集<rp>(</rp><rt>まんようしゅう</rt><rp>)</rp></ruby>⟯&nbsp;contains ⟮c13;4500ish⟯  和歌 poems 
+The ⟮c1;　万葉集（まんようしゅう）⟯&nbsp;is ⟮c2;the oldest⟯ ⟮c3;collection of 和歌 poetry⟯ 
+The ⟮c4;　万葉集（まんようしゅう）⟯ was ⟮c5;compiled in⟯ ⟮c6;the latter half of the 700s (nara period⟯) 
+The ⟮c7;　万葉集（まんようしゅう）⟯&nbsp;is today considered ⟮c8;a revered piece of literature⟯ 
+While ⟮c9;the  　万葉集（まんようしゅう） is from the latter 700s⟯, ⟮c10;some of the poems⟯ are from ⟮c11;far earlier (600ish⟯) 
+the ⟮c12;　万葉集（まんようしゅう）⟯&nbsp;contains ⟮c13;4500ish⟯  和歌 poems 
 
 ##### 紫式部
 
@@ -1385,25 +1443,25 @@ The ⟮c3;Russo-Japanese war⟯ lasted from ⟮c1;1904-1905⟯ and ended with �
 
 ##### 3.11
 
-⟮c1;The <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby> (amongst many other names⟯) was a disaster that hit ⟮c2;japan⟯ on the ⟮c3;11.03.2011⟯. 
-The ⟮c4;<ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>⟯ was caused by a ⟮c5;9.0-9.1⟯ magnitude ⟮c6;underwate earthquake⟯. 
-The earthquake that caused the <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby> subsequently caused ⟮c7;a tsunami⟯ and ⟮c8;nuclear meltdown⟯. ⟮c9;The <ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>⟯ cost ⟮c10;around 200-400 billion 2018 US$⟯, making it ⟮c11;the most costly natural disaster in history⟯. 
-⟮c12;<ruby>東日本大震災<rp>(</rp><rt>ひがしにほんだいしんさい</rt><rp>)</rp></ruby>⟯ is often just called ⟮c13;3.11⟯ 
+⟮c1;The 　東日本大震災（ひがしにほんだいしんさい） (amongst many other names⟯) was a disaster that hit ⟮c2;japan⟯ on the ⟮c3;11.03.2011⟯. 
+The ⟮c4;　東日本大震災（ひがしにほんだいしんさい）⟯ was caused by a ⟮c5;9.0-9.1⟯ magnitude ⟮c6;underwate earthquake⟯. 
+The earthquake that caused the 　東日本大震災（ひがしにほんだいしんさい） subsequently caused ⟮c7;a tsunami⟯ and ⟮c8;nuclear meltdown⟯. ⟮c9;The 　東日本大震災（ひがしにほんだいしんさい）⟯ cost ⟮c10;around 200-400 billion 2018 US$⟯, making it ⟮c11;the most costly natural disaster in history⟯. 
+⟮c12;　東日本大震災（ひがしにほんだいしんさい）⟯ is often just called ⟮c13;3.11⟯ 
 
 #### places
 
 ##### 靖国神社
 
-The ⟮c2;<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>⟯is dedicated to ⟮c1;Those died in service of Japan⟯ 
-The main problem with the ⟮c3;<ruby>靖国神社<rp>(</rp><rt>やすくにじんじゃ</rt><rp>)</rp></ruby>⟯ is that ⟮c4;it holds over a thousand convicted war criminals⟯. 
+The ⟮c2;　靖国神社（やすくにじんじゃ）⟯is dedicated to ⟮c1;Those died in service of Japan⟯ 
+The main problem with the ⟮c3;　靖国神社（やすくにじんじゃ）⟯ is that ⟮c4;it holds over a thousand convicted war criminals⟯. 
 ⟮c5;靖⟯ is generally read ⟮c6;やす⟯ and means ⟮c7;peaceful, calm, easygoing⟯. 
 ⟮c8;靖⟯ as a kanji is mainly used in ⟮c9;靖国神社⟯. 
 
 #### population
 
 ⟮h∞;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">⟯⟮h∞;<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">⟯
-⟮h∞;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h∞;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c1;<ruby>日系<rp>(</rp><rt>にっけい</rt><rp>)</rp></ruby>⟯ literally means ⟮c2;of japanese descent⟯, though it can also be an abbreviation of ⟮c3;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ 
-⟮c4;<ruby>日系人<rp>(</rp><rt>にっけいじん</rt><rp>)</rp></ruby>⟯ refers to  ⟮c5;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
+⟮h∞;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h∞;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c1;　日系（にっけい）⟯ literally means ⟮c2;of japanese descent⟯, though it can also be an abbreviation of ⟮c3;　日系人（にっけいじん）⟯ 
+⟮c4;　日系人（にっけいじん）⟯ refers to  ⟮c5;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
 The ⟮c6;largest amount⟯ of ⟮c7;日系（人）⟯ is in ⟮c8;Brazil⟯ 
 
 #### topics
@@ -1441,13 +1499,13 @@ The ⟮c6;コギャル⟯ fashion/fashion was popular in the ⟮c7;1990s⟯.
 From ⟮c1;the end of the war⟯ until ⟮c2;the asset price crisis⟯, ⟮c3;Japan⟯ experienced ⟮c4;strong economic growth⟯. 
 In ⟮c5;pre-bubble⟯-era japan ⟮c6;wealth was high⟯, employment was mostly for life and so ⟮c6;conspicuous consumption was legion⟯ 
 
-⟮c1;バブル<ruby>景気<rt>けいき</rt></ruby>⟯is the japanese term for what we call ⟮c2;the bubble economy/japanese asset price bubble.⟯. 
-The ⟮c3;バブル<ruby>景気<rp>(</rp><rt>けいき</rt><rp>)</rp></ruby>⟯ began in ⟮c4;1986⟯, following ⟮c5;the plaza accords⟯, and burst in ⟮c6;1991⟯. 
+⟮c1;バブル　景気（けいき）⟯is the japanese term for what we call ⟮c2;the bubble economy/japanese asset price bubble.⟯. 
+The ⟮c3;バブル　景気（けいき）⟯ began in ⟮c4;1986⟯, following ⟮c5;the plaza accords⟯, and burst in ⟮c6;1991⟯. 
 The asset involved in ⟮c13;the japanese asset price bubble⟯ was ⟮c14;real estate⟯. 
 ⟮c7;The lost decade⟯ is the english translation for the japanese ⟮c8;失われた十年⟯. 
 The ⟮c9;japanese asset price bubble⟯ was followed by ⟮c10;the lost decade/失われた十年⟯. 
 Since ⟮c11;the economy hasnt really recovered since the lost decade/失われた十年⟯, it is sometimes expanded to ⟮c12;the lost 20/30 years.⟯ 
-The ⟮c15;employment ice age⟯ (ja⟮c16;: <ruby>就職氷河期<rp>(</rp><rt>しゅうしょくひょうがき</rt><rp>)</rp></ruby>⟯) was/is ⟮c17;the period following the asset price bubble⟯ with ⟮c18;unavailable or unstable employment⟯.  
+The ⟮c15;employment ice age⟯ (ja⟮c16;: 　就職氷河期（しゅうしょくひょうがき）⟯) was/is ⟮c17;the period following the asset price bubble⟯ with ⟮c18;unavailable or unstable employment⟯.  
 The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade(s).}} 
 
 
@@ -1620,62 +1678,6 @@ The ⟮c5;Hays Code (Motion Picture Production Code⟯) ⟮c6;self-censored⟯ �
 
 ⟮c1;電車男⟯ was one of the biggest dramas of the ⟮c2;2000s⟯, drawing ⟮c3;25%⟯ of ⟮c5;the national audience⟯ for its ⟮c4;finale⟯ 
 In ⟮c6;電車男⟯, through ⟮c7;the development of his relationship with Hermès⟯, the main character ⟮c8;grows out of being an otaku⟯ 
-
-# phil
-
-## terminology
-
-in generaly, ⟮c1;antinomy⟯ is ⟮c2;a paradox/contradiction⟯ 
-
-## misc
-
-### theories of humor/laughter
-
-In ⟮c1;the incongruity theory of humor⟯, something is funny because ⟮c2;it somehow violates our expectations⟯ 
-In ⟮c3;the relief theory of laughter⟯, ⟮c4;laughter/humor is the release of pent-up nervous energy⟯/ 
-The ⟮c5;relief theory of laughter⟯ reliess (explicitly or implicitly) on the metaphor of ⟮c6;a steam valve⟯ 
-The problem with ⟮c7;the relief theory of laughter⟯ is that ⟮c8;nervous energy isn't a real thing that one would need to release.⟯ 
-⟮c9;The superiority theory (of humor/laughter⟯) is the theory that ⟮c10;laughter expresses feelings of superiority⟯ over ⟮c11;other people⟯ or over ⟮c11;a former state of ourselves⟯ (main supporters (possibly, depending on how you read them): ⟮c12;Plato, Hobbes, Descartes⟯ ) 
-<div class="cloze-group hide-if-inactive">
-  The problem with the ⟮c13;superoiority theory of humor/laughter:⟯ 
-<ol>
-<li>since there are cases in ⟮c14;which one feels superior to someone (i.e. a beggar⟯) but ⟮c15;feels pity rather than laughs⟯, ⟮c16;superiority is not sufficient to explain laughter⟯</li>
-<li>Since there are cases in which ⟮c17;one laughts but doesn't feel superior⟯, ⟮c18;superiority is not necessary to explain laughter⟯</li>
-</ol>
-</div>
-
-## analytic
-
-### theoretical
-
-#### epistemology
-
-##### situatedness
-
-⟮c1;Situatedness⟯ is the general idea that ⟮c2;our location in the social world⟯ ⟮c3;determines⟯ ⟮c4;things about us⟯, in particular our ⟮c5;understanding⟯ and ⟮c5;behaviors⟯. Connected to ⟮c6;standpoint theory⟯, but less rigorously defined. 
-
-##### distinctions
-
-###### a priori/a posteriori
-
-<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c5;Erkenntnis / Urteile⟯ kann ⟮c6;a priori / a posteriori⟯ sein. 
-⟮c1;Urteil a posteriori⟯|⟮c2;Ein Urteil auf Basis von Erfahrung⟯
-⟮c3;Urteil a priori⟯|⟮c4;Ein Urteil ohne die Basis der Erfahrung⟯
-
-
-
-#### Kant
-
-Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Vernunfterkenntnis⟯, die sich ⟮c4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c3;formale Vernunfterkenntnis⟯, die sich ⟮c5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
-
-table:style=background-color: palegreen;headerrows=0;!span=4;⟮c1;s∞;material (objekt-bezogen⟯)|⟮c2;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
-!span=2;⟮c3;s∞;Physik (Objekt: Natur⟯)|span=2;background-color: palegreen;⟮c4;s∞;Ethik (Objekt: Freiheit⟯)|⟮c13;s∞; Logik ⟯
-!⟮c5;s∞;empirisch⟯|⟮c6;s∞;a priori, rein⟯|⟮c7;s∞;empirisch⟯|style=background-color: palegreen;⟮c8;s∞;a priori, rein⟯|⟮c14;s∞; essenziell nicht-empirisch = a priori, rein ⟯
-!⟮c9;s∞;Physik (der Natur⟯)|⟮c10;s∞;Metaphysik (der Natur⟯)|⟮c11;s∞;praktische Anthropologie⟯|style=background-color: palegreen;⟮c12;s∞;Methaphysik der Sitten = Moral⟯
-
-
-
-
 
 # myth
 
@@ -2696,6 +2698,11 @@ Status|Affected muscles|action
 ⟮c10;Weak⟯|⟮c11;abdominals⟯, ⟮c12;glutes⟯||⟮c13;stretch them⟯
 ⟮c14;Tight⟯|⟮c15;hip flexors/quads⟯, ⟮c16;erector spinae⟯, ⟮c17;hamstrings⟯|⟮c18;strengthen them⟯
 
+### nodules
+
+Nodules is a generic term for small firm lumps, usually greater than 1 cm in diameter.
+Papule is a generic term for a small firm lump smaller than a nodule.
+A cyst is a nodule that is filled with fluid.
 
 ## beings
 
@@ -3103,6 +3110,9 @@ ism||additional constraints
 ⟮c55;personlityism⟯|⟮c56;+:extroverted, -:interverted⟯
 ⟮c57;kinkism⟯|⟮c58;+:vanilla, -:kinky⟯
 ⟮c59;linguicism⟯|⟮c60;+:certain speech use (generally standard language), -:other speech use (generally dialects, etc.⟯)
+allism|+:not autistic, -:autistic
+workism|+:work, working, career, -:not working, no career
+culture|+:our culture, -:their culture
 
 
 ### archy miso ism
@@ -4015,6 +4025,10 @@ In ⟮c15;raking⟯, we often have to ⟮c16;reset the lock a few times⟯ befor
 ⟮c23;Raking⟯ uses ⟮c22;rakes⟯ as tools, which look like ⟮c20;&lt;image&gt;⟯
 
 # misc
+
+## making smaller circles
+
+Making smaller circles is applying a technique in more and more subtle ways as mastery improves.
 
 ## mental masturbation
 

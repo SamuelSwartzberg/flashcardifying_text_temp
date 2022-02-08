@@ -2927,6 +2927,9 @@ In ⟮c33;csv/tsv⟯, ⟮c34;wrapping a field in double quotes⟯ commonly allow
 If in csv/tsv ⟮c36;a field is wrapped in double quotes to allow the field separator to be included in the fields⟯, ⟮c37;double qoutes⟯ are then excaped by ⟮c38;double double quotes⟯. 
 ⟮c39;Trailing newlines⟯ at the ⟮c40;end of documents⟯ are ⟮c41;optional⟯ for ⟮c42;csv/tsv⟯, ⟮c43;field separators⟯ at ⟮c44;the end of the line⟯ will ⟮c45;create empty fields⟯. 
 
+tidy-viewer is a FOSS rust-based csv viewer 
+-s <char>|delimiters
+
 ### non-relational data models
 
 A NoSQL database is really a misnomer, it refers to a non-relational database
@@ -3226,7 +3229,8 @@ Action|Shortcut
 ⟮c5;Switch focus between windows of the same program⟯|⟮c6;⟦⌘⟧ ⟦`⟧⟯
 ⟮c8;Show hidden files⟯|⟮c7;⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
 ⟮c9;rename current item⟯|⟮c10;{{c2::⟦enter⟧}⟯
-⟮c11;Minimize⟯|⟮c12;⟦⌘⟧ ⟦m⟧⟯
+⟮c11;Minimize (not windows)⟯|⟮c12;⟦⌘⟧ ⟦m⟧⟯
+⟮c11;Minimize (windows)⟯|⟮c12;⟦⊞⟧ ⟦↓⟧⟯
 ⟮c13;Fullscreen⟯|⟮c14;⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
 ⟮c1;⟦⌥⟧ ⟦space⟧⟯|⟮c2;non-breaking space (on keyboard⟯)
 ⟮c1;del key⟯|⟮c2;⟦fn⟧ ⟦⌫⟧⟯
@@ -3350,12 +3354,12 @@ Keyboard shortcut|action|programs
 
 ######## navigatable
 
-Force/Hard Reload|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> ⟦r⟧
-Reload|<kbd class='modifier cmd'></kbd> ⟦r⟧
+Force/Hard Reload|⟦⌘⟧ ⟦⇧⟧ ⟦r⟧
+Reload|⟦⌘⟧ ⟦r⟧
 
 ######## zoomable
 
-Zoom in|<kbd class='modifier cmd'></kbd> ⟦+⟧
+Zoom in|⟦⌘⟧ ⟦+⟧
 
 ##### caret
 
@@ -3364,10 +3368,10 @@ mouse cursor = pointer
 text cursor = caret
 
 Some editors feature multi-cursors, which is where you can create multiple text cursors, which will perfom the edito at all places where there is a cursor.
-add text cursor above/below|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> ⟦↑/↓⟧
-add/remove text cursor at mouse cursor location|<kbd class='modifier alt'></kbd> ⟦click⟧
-add text cursors to all occurences of current selection|<kbd class='modifier cmd'></kbd> <kbd class='modifier shift'></kbd> ⟦l⟧
-add text cursor to nex occurrence of selection|<kbd class='modifier cmd'></kbd> ⟦d⟧
+add text cursor above/below|⟦⇧⟧ ⟦⌥⟧ ⟦↑/↓⟧
+add/remove text cursor at mouse cursor location|⟦⌥⟧ ⟦click⟧
+add text cursors to all occurences of current selection|⟦⌘⟧ ⟦⇧⟧ ⟦l⟧
+add text cursor to nex occurrence of selection|⟦⌘⟧ ⟦d⟧
 
 If in VSCode you have ⟮c1;as many text cursors⟯ as ⟮c2;the thing you want to paste has lines⟯, it will auto paste it there.
 
@@ -3439,6 +3443,13 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 A ⟮c1;s2;theme⟯ or ⟮c2;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c3;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮c4;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
+#### appearance
+
+##### skeuomorphs and skeuomorphicism
+
+A skeuomorph is a design inspired by a original design which retains elements from the original element that are no longer necessary in the new design, e.g. because it is funcionally different or in a new medium.
+Skeuomorphicism is a UI design approach that uses skeuomorphs that imitate real-life objects (though that would no longer be necessary on a digital devices).
+
 #### widgeting toolkits
 
 #### elements
@@ -3470,6 +3481,7 @@ Often (VSCode, Devltools) a command palette is merely a mode of a quick open men
 A ⟮c19;Command Palette⟯ often also shows ⟮c20;the direct keyboard shortcuts⟯. 
 A ⟮c21;Command Palette⟯ generally appears as ⟮c22;a modal⟯ floating in ⟮c23;the upper center⟯ of the window. 
 Following ⟮c24;Sublime text and VSCode⟯, ⟮c25;many applications have adapted⟯ ⟮c26;the Command Palette⟯. 
+vscodes command palette/quick open menu features modes that search and only navigate once enter is pressed, and modes (called go to) that navigate immediately when typing
 
 Shortcut to open command palette|Platform
 ⟮c11;⟦⌘⟧ ⟦⇧⟧ P⟯|⟮c12;VSCode, Chrome Devtools⟯
@@ -4838,9 +4850,10 @@ Many of imagemagicks arguments needing to specify ⟮c50;some kind of shape/size
 
 
 
-    <tr><th colspan="2">Imagemagick subcommands
+table:span=2;Imagemagick subcommands
 ⟮c1;`import`⟯|⟮c2;Imagemagick screenshot utility⟯
-⟮c3;`identify`⟯|((c:4;::Imagemagick display details of an image file```lang=text;
+⟮c3;`identify`⟯|((c:4;::Imagemagick display details of an image file
+```lang=text;
 magick identify -verbose rose.jpg
 Image: rose.jpg
   Format: JPEG (Joint Photographic Experts Group JFIF format)
@@ -4850,7 +4863,8 @@ Image: rose.jpg
   Units: Undefined
   Type: TrueColor
 ...
-```))
+```
+))
 ⟮c5;`display`⟯|⟮c6;Imagemagick image viewer⟯
 ⟮c7;`animate`⟯|⟮c8;Imagemagick animation creator⟯
 ⟮c9;`compare`⟯|⟮c10;Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">⟯
@@ -4861,7 +4875,7 @@ Image: rose.jpg
 
 
 
-    <tr><th colspan="2">Imagemagick options
+table:span=2;Imagemagick options
 ⟮c17;`-crop`⟯|⟮c18;crop⟯
 ⟮c19;`-trim`⟯|⟮c20;remove borders around the image⟯
 ⟮c21;`-resize SIZE-SPECIFIER`⟯|⟮c22;resize the image to SIZE-SPECIFIER⟯
@@ -5234,7 +5248,8 @@ For ⟮c13;\newtheorem⟯, if ⟮c12;[foo]⟯ occurs {{c11::between the two {arg
 ######### case-changed symbols
 
 For arrows, if the ⟮c1;first letter⟯ is ⟮c2;lowercase⟯, it will render the ⟮c3;thin arrow (→⟯), if the ⟮c1;first letter⟯ is ⟮c2;uppercase⟯, it will render the ⟮c3;thick arrow (⇒⟯). 
-so `⟮c9;\rightarrow⟯` renders ⟮c10;a thin right arrow →⟯, and ⟮c9;\Rightarrow⟯ renders ⟮c10;a thick, double-line right arrow ⇒⟯. 
+so `⟮c9;\right/left/up/downarrow⟯` renders ⟮c10;a thin right arrow →⟯, and ⟮c9;\Right/Left/Up/Downarrow⟯ renders ⟮c10;a thick, double-line right arrow ⇒⟯. 
+the four directional arrows are created by \right/left/up/downarrow
 ⟮c11;\rightarrow⟯ can also be created by ⟮c12;\to⟯ 
 ⟮c13;\Rightarrow⟯ can also be created by ⟮c14;\implies⟯ 
 For greek letters, if the ⟮c4;first letter⟯ is ⟮c5;lowercase⟯, it will render the ⟮c6;lowercase letter⟯, if the ⟮c4;first letter⟯ is ⟮c5;uppercase⟯, it will render the ⟮c6;uppercase letter⟯. 
@@ -5280,6 +5295,7 @@ command|symbol
 
 
 ⟮c23;\infty⟯|⟮c24;∞⟯
+\prime|′ (the prime)
 
 
 ⟮c9;\dots⟯ ⟮c10;is equivalent to \ldots⟯ in ⟮c11;vanilla latex⟯. 
@@ -6422,6 +6438,9 @@ roughly, the OS could be considered the layer between hardware and programs
 
 clipboard-cli is an npm package that exposes the command clipboard which works as a shell filter for the clipboard, copying or pasting as needed.
 xclip allows interaction with the X clipboard
+A clipboard manager is a computer program that adds functionality to an operating system's clipboard.
+Many clipboard managers allow the pinning of items, in maccy with ⟦⌥⟧ ⟦p⟧
+Maccy is a FOSS clipboard manager for macOS.
 
 #### screen selection
 
@@ -6491,6 +6510,8 @@ to ⟮c2;insert a random choice of different options⟯ use the type ⟮c1;rando
             - "Whatever you do, do it well."
 ```
 
+using espanso, I've created an expansion that uses `!!!` to run an arbitrary shell command and insert the results
+
 ### kernelland
 
 ### installation
@@ -6518,6 +6539,10 @@ Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 Docker is the most common service for os-level virtualiztion/containerization.
+
+### communication between OSs
+
+scrcpy is a program that provides display and control of android devices from the computer via USB or the internet(TCP/IP).
 
 ## mac
 
@@ -13435,12 +13460,11 @@ A (source-)code editor is a text editor designed for writing source code.
 ###### vscode
 
 rename a symbol|⟦f2⟧
-see code actions (available refactorings and quick fixes)|<kbd class='modifier cmd'></kbd>⟦.⟧
-change (programming) language of current document|<kbd class='modifier cmd'></kbd>⟦k⟧&nbsp;&nbsp;⟦m⟧
-show integrated terminal|<kbd class='modifier ctrl'></kbd> (even on mac) ⟦`⟧
-fast scrolling|<kbd class='modifier alt'></kbd> ⟦scroll⟧
-copy line up/down|<kbd class='modifier shift'></kbd> <kbd class='modifier alt'></kbd> ⟦up/down⟧
-move line up/down|<kbd class='modifier alt'></kbd> ⟦up/down⟧
+see code actions (available refactorings and quick fixes)|⟦⌘⟧⟦.⟧
+change (programming) language of current document|⟦⌘⟧⟦k⟧&nbsp;&nbsp;⟦m⟧
+show integrated terminal|⟦⌃⟧ (even on mac) ⟦`⟧
+fast scrolling|⟦⌥⟧ ⟦scroll⟧
+
 
 Action|Shortcut
 ⟮c1;Open IntelliSense⟯|⟮c2;⟦⌃⟧ <kbd class="key space"></kbd>⟯
@@ -13449,9 +13473,27 @@ Action|Shortcut
 ######## lines
 
 Shortcut|Action
-⟮c1;ctrl j⟯|⟮c2;join lines⟯
-⟮c3;cmd shift k⟯|⟮c4;delete line⟯
+⟮c1;⟦⌃⟧ ⟦j⟧⟯|⟮c2;join lines⟯
+⟮c3;⟦⌘⟧ ⟦⇧⟧ ⟦k⟧⟯|⟮c4;delete line⟯
+⟦⌘⟧ ⟦enter⟧|insert a line below
+⟦⌘⟧ ⟦⇧⟧ ⟦enter⟧|insert a line above
 
+
+when focused on a line but not selecting a word, ⟦⌘⟧ ⟦c⟧ and ⟦⌘⟧ ⟦x⟧ act on the line itself
+
+
+copy line up/down|⟦⇧⟧ ⟦⌥⟧ ⟦up/down⟧
+move line up/down|⟦⌥⟧ ⟦up/down⟧
+
+
+indent/outent a line|⟦⌘⟧ ⟦]⟧/⟦[⟧
+
+
+######## select/search
+
+⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
+⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
+⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
 
 ######## comments
 
@@ -13459,15 +13501,77 @@ Shortcut|Action
 ⟮c3;toggle line comment⟯|⟮c4;⟦⌘⟧ ⟦/⟧⟯
 ⟮c5;toggle block comment⟯|⟮c6;⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
 
+######## vscode jupyter
 
-######## jupyter
 
-
-    <tr><th colspan="2">VScode Jupyter Shortcuts
 ⟮c1;⟦f10⟧⟯|⟮c2;execute next line of code⟯
 ⟮c3;⟦⌃⟧ ⟦enter⟧⟯|⟮c4;finish editing a cell/run a code block⟯
 
 
+##### UI 
+
+###### vscode elements
+
+####### groups
+
+In vscode, a editor group is a group of one or more open editors
+
+switch to left/right editor group|⟦⌘⟧ ⟦k⟧ ⟦←/→⟧
+move editor group left/right/up/down|⟦⌘⟧ ⟦k⟧ ⟦←/→/↑/↓⟧
+close editor group|⟦⌘⟧ ⟦k⟧ ⟦w⟧
+
+####### tabs
+
+In vscode, by default a tab contains one editor.
+
+move current editor tab left/right|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦⇧⟧ ⟦←/→⟧
+switch to left/right tab|⟦⌘⟧ ⟦⌥⟧ ⟦←/→⟧
+cycle through tabs|⟦⌃⟧ ⟦tab⟧
+close all editors = tabs|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦w⟧
+
+####### single editor
+
+######## navigation
+
+symbol chooser popup (shorter version for mode of command palette)|⟦⌘⟧ ⟦T⟧
+go to line (shorter version for mode of command palette)|⟦⌃⟧ ⟦g⟧
+go to symbol  (shorter version for mode of command palette)|⟦⌘⟧ ⟦⇧⟧ ⟦O⟧
+go back in location history|⟦⌃⟧ ⟦-⟧
+go forward in location history|⟦⌃⟧ ⟦⇧⟧ ⟦-⟧
+
+######## region
+
+in vscode, a region is a block of code you can collapse or expand (e.g. defined by a {} in curly brace languages)
+
+fold/unfold current region|⟦⌥⟧ ⟦⌘⟧ ⟦[/]⟧
+fold/unfold current regions recursively|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦[/]⟧
+fold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦O⟧
+unfold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦J⟧
+
+######## editing
+
+autoformat file|⟦⌘⟧ ⟦⌥⟧ ⟦f⟧
+
+######### bookmarks
+
+The vscode extension Numbered Bookmarks adds numbered bookmarks for lines which can be navigated to and from via keyboard shortcut
+
+set numbered bookmark <n>|⟦⌘⟧ ⟦<n>⟧
+navigate to shift bookmark <n>|⟦⌘⟧ ⟦⇧⟧ ⟦<n>⟧
+
+######## search
+
+add cursors to all search results|⟦⌥⟧ ⟦enter⟧
+
+####### bars and panels
+
+show/hide side panel|⟦⌘⟧ ⟦b⟧
+
+######## bottom panel
+
+show problems|⟦⌘⟧ ⟦⇧⟧ ⟦M⟧
+open new terminal if terminal tab is focused|⟦⌃⟧ ⟦⇧⟧ ⟦5⟧
+split terminal right|⟦⌘⟧ ⟦\⟧
 
 ###### increment/decrement via arrow keys
 
@@ -14126,7 +14230,9 @@ The Jupyter Notebook App can be executed locally or can be installed on a remote
 Jupyter Notebooks can be edited using many different programs, e.g. the official Jupyter Notebook App, but also VSCode
 The thing managing all the Jupyter stuff is Project Jupyter
 
+jupyter supports magic commands starting with % that do a variety of things
 
+%system or ! executes shell commands from jupyter
 
 
 ## misc
@@ -14299,7 +14405,7 @@ The bell character is sometimes used in command-line utilities for a notiificati
 
 The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
 
-Garbled text due to character encoding errors is called <ruby>文字化<rp>(</rp><rt>もじば</rt><rp>)</rp></ruby>け, which was common in japanese due to a number of incompatible encodings existing.
+Garbled text due to character encoding errors is called 　文字化（もじば）け, which was common in japanese due to a number of incompatible encodings existing.
 
 #### Unicode
 

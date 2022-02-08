@@ -126,6 +126,18 @@ The "⟮c2;new problem of induction⟯" may be explained like so: Imagine a stat
 the perspective of an outsider|etic|A 'bavarian' talking about 'Bavaria'
 the perspective of a participant of a thing (e.g. culture)|emic|A 'bavarian' talking about 'Bavaria'
 
+#### situatedness
+
+⟮c1;Situatedness⟯ is the general idea that ⟮c2;our location in the social world⟯ ⟮c3;determines⟯ ⟮c4;things about us⟯, in particular our ⟮c5;understanding⟯ and ⟮c5;behaviors⟯. Connected to ⟮c6;standpoint theory⟯, but less rigorously defined. 
+
+### distinctions
+
+#### a priori/a posteriori
+
+<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c5;Erkenntnis / Urteile⟯ kann ⟮c6;a priori / a posteriori⟯ sein. 
+⟮c1;Urteil a posteriori⟯|⟮c2;Ein Urteil auf Basis von Erfahrung⟯
+⟮c3;Urteil a priori⟯|⟮c4;Ein Urteil ohne die Basis der Erfahrung⟯
+
 ### scepticism
 
 scepticism is generally doubt towards one or more putative instances of knowledge
@@ -336,6 +348,15 @@ necessarily false   If it can't be true
 A proposition is contingent if it is neither necessarily true nor necessarily false.
 Counterfactual conditionals are conditional sentences which discuss what would have been true under different circumstances.
 
+## Kant
+
+Bei ⟮c1;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c2;materiale Vernunfterkenntnis⟯, die sich ⟮c4;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c3;formale Vernunfterkenntnis⟯, die sich ⟮c5;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
+
+table:style=background-color: palegreen;headerrows=0;!span=4;⟮c1;s∞;material (objekt-bezogen⟯)|⟮c2;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
+!span=2;⟮c3;s∞;Physik (Objekt: Natur⟯)|span=2;background-color: palegreen;⟮c4;s∞;Ethik (Objekt: Freiheit⟯)|⟮c13;s∞; Logik ⟯
+!⟮c5;s∞;empirisch⟯|⟮c6;s∞;a priori, rein⟯|⟮c7;s∞;empirisch⟯|style=background-color: palegreen;⟮c8;s∞;a priori, rein⟯|⟮c14;s∞; essenziell nicht-empirisch = a priori, rein ⟯
+!⟮c9;s∞;Physik (der Natur⟯)|⟮c10;s∞;Metaphysik (der Natur⟯)|⟮c11;s∞;praktische Anthropologie⟯|style=background-color: palegreen;⟮c12;s∞;Methaphysik der Sitten = Moral⟯
+
 # practical philosophy
 
 deontic   (adj) related to necessity/duty/obligation/morality = "should"
@@ -365,6 +386,13 @@ The term ⟮c5;catch-22⟯ is also often used as ⟮c6;a synonym for deadlock (i
 The term ⟮c7;catch-22⟯ may at its most broad just refer to ⟮c8;a kind of contradiction or problem involving 2 things.⟯ 
 A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
 
+## motiviation
+
+### higher-order volition
+
+A second-order desire/volition is a desire to have something as one's desire.
+E.g. if one wishes one wanted to eat less so one was thinner, the wish to be thinner and the (hypothetical) wish to eat leass are first-order desires, but the desire to desire to eat less is a second-order desire.
+
 # continental philosopy
 
 ## critical theory
@@ -392,6 +420,10 @@ spatial turn|include space in analysis
 
 # cross-cutting concerns
 
+## terminology
+
+in generaly, ⟮c1;antinomy⟯ is ⟮c2;a paradox/contradiction⟯ 
+
 ## intext
 
 Across philosohpical subdisciplines, ⟮c1;internalism⟯ / ⟮c1;externalism⟯ assert that a particular phenomenon ⟮c2;has a basis / depends on factors⟯ that is/are ⟮c4;internal⟯/⟮c4;external⟯ to the ⟮c3;subject⟯
@@ -411,6 +443,22 @@ Stanford Encyclopedia of Philosophy (SEP) is the (arguably) best online philosop
 
 autonomous   self-controlled
 heteronomous   other-controlled
+
+
+## theories of humor/laughter
+
+In ⟮c1;the incongruity theory of humor⟯, something is funny because ⟮c2;it somehow violates our expectations⟯ 
+In ⟮c3;the relief theory of laughter⟯, ⟮c4;laughter/humor is the release of pent-up nervous energy⟯/ 
+The ⟮c5;relief theory of laughter⟯ reliess (explicitly or implicitly) on the metaphor of ⟮c6;a steam valve⟯ 
+The problem with ⟮c7;the relief theory of laughter⟯ is that ⟮c8;nervous energy isn't a real thing that one would need to release.⟯ 
+⟮c9;The superiority theory (of humor/laughter⟯) is the theory that ⟮c10;laughter expresses feelings of superiority⟯ over ⟮c11;other people⟯ or over ⟮c11;a former state of ourselves⟯ (main supporters (possibly, depending on how you read them): ⟮c12;Plato, Hobbes, Descartes⟯ ) 
+<div class="cloze-group hide-if-inactive">
+  The problem with the ⟮c13;superoiority theory of humor/laughter:⟯ 
+<ol>
+<li>since there are cases in ⟮c14;which one feels superior to someone (i.e. a beggar⟯) but ⟮c15;feels pity rather than laughs⟯, ⟮c16;superiority is not sufficient to explain laughter⟯</li>
+<li>Since there are cases in which ⟮c17;one laughts but doesn't feel superior⟯, ⟮c18;superiority is not necessary to explain laughter⟯</li>
+</ol>
+</div>
 
 ## Kundera
 

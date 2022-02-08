@@ -93,9 +93,7 @@ An ⟮c10;emic unit⟯ ⟮c11;reduces⟯ ⟮c12;a large number of variant forms�
 ⟮c17;Etic units⟯ ⟮c18;reduced to the same emic unit⟯ are ⟮c19;prefixed with allo-⟯ 
 
 
-|emic unit</th>
-| <th>etic unit</th>
-| <th>allo-
+emic unit|etic unit|allo-
 |⟮c1;phoneme⟯|⟮c2;s3;phone⟯|⟮c3;s2;allophone⟯
 ⟮c4;morpheme⟯|⟮c5;s6;morph⟯|⟮c6;s5;allomorph⟯
 ⟮c7;grapheme⟯|⟮c8;s9;glyph⟯|⟮c9;s8;allograph⟯
@@ -220,8 +218,7 @@ An adjunct can be any type of phrase.
 
 flex-container:<img src="sm_Screenshot%202020-10-13%20at%2000.10.05.png">
 
-<table class="blank-canvas" style="table-layout: fixed">
-
+table:class=blank-canvas;style=table-layout: fixed;
 span=4;class=inner;⟮c1;XP⟯
 class=inner;⟮c2;ZP⟯||span=3;class=inner;⟮c3;X'⟯span=2;|class=inner;⟮c4;X⟯||class=inner;⟮c5;YP⟯
 
@@ -833,17 +830,27 @@ The most common ⟮c3;hybrid words⟯ in ⟮c2;english⟯ consist of ⟮c1;one l
 
 ###### nonmorphological
 
+####### abbreviation
+
 An abbreviation is a nonmorphological derivation by shortening a word.
 
+While rareish, there are some abbreviations that use a slash, generally separating two characters representing two morphemes, but not in an 'or' rleationship (e.g. w/o, b/w, w/e, n/a)
+
+######## acronym
+
 An acronym is a type of abbreviation formed from the first letters of other words.
+Sometimes initialism or alphabetism is sometimes used to refer to an acronym which is pronounced as individual letters.
+Sometimes initialism is a synonym for acronym.
 Examples of acronyms include ATM for automated teller machine and SIA for singapore international airlines
 A backgronym is a word that originally was not an acronym but is turned into one.
 Examples of backgronyms: SAD ("seasonal affective disorder")
 More recent examples include the brand name Adidas, named after company founder Adolf "Adi" Dassler but falsely believed to be an acronym for "All Day I Dream About Sport";[15] Wiki, said to stand for "What I Know Is",[16] but in fact derived from the Hawaiian phrase wiki-wiki meaning "fast";[17] or Yahoo!, sometimes claimed to mean "Yet Another Hierarchical Officious Oracle", but in fact chosen because Yahoo's founders liked the word's meaning of "rude, unsophisticated, uncouth" (taken from Jonathan Swift's book Gulliver's Travels).
 
+######## numeronym
+
 A numeronym at its most common is a word based on/using numbers.
 Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
-Numeronyms as abbreviations frequently either count the amount of letters in a word, have the numbers stand for words thus forming a weird acronym, or use the number metonymically.
+Numeronyms as abbreviations frequently either count the amount of letters in a word, have the numbers stand for words thus forming a weird abbreviation, or use the number metonymically.
 Examples for numeronums: 9/11 (date metonym), i18n (letter count), 4649 (weird syllablecronym)
 a11y  accessibility
 g11n  globalization
@@ -960,7 +967,7 @@ appositional compound|all stems are equal attributes of a certain referent|A+B i
 A dvandva is another name for an appositional compound.
 If the english word for siblings was a dvandva/appositional compound and we believed in the gender binary, it would be brothersister.
 Japanese forms appositional compounds, which will generally not display 連濁.
-e.g. <ruby>山<rp>(</rp><rt>やま・さん</rt><rp>)</rp></ruby><ruby>川<rp>(</rp><rt>かわ・せん</rt><rp>)</rp></ruby> for mountains and rivers = scenery and <ruby>左<rp>(</rp><rt>さ</rt><rp>)</rp></ruby><ruby>右<rp>(</rp><rt>ゆう</rt><rp>)</rp></ruby> for left and right = control.
+e.g. 　山（やま・さん）　川（かわ・せん） for mountains and rivers = scenery and 　左（さ）　右（ゆう） for left and right = control.
 Japanese endocentric compounds will generally display 連濁 if phonotactically possible.
 
 ###### english
@@ -998,7 +1005,7 @@ Japanese 'counter phrases' can function in various syntactic ways: They can beco
 
 The japanese counting system:
 rational-number ::= [マイナス]<positive-rational-number>
-positive-rational-number ::- <integer>[<ruby>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby><digit>{<digit>}]
+positive-rational-number ::- <integer>[　点（てん）<digit>{<digit>}]
 integer ::= {<myriad-unit>}[<place>][<place>][<place>]<place-when-base-1>
 myriad-unit ::= [<place>][<place>][<place>]<place-when-base-multiple-of-four >
 place ::= <digit><base-word>
@@ -2188,6 +2195,12 @@ Since they got their own diacritic at the 1989 kiel convention, extra-short vowe
 Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
 The capacity of something to have many meanings   Polysemy
 
+#### concepts
+
+##### concept hole
+
+A »concept hole« is an uncommon term for the need of certain concept, but there not being a word for it.
+
 #### nouns
 
 As regards their referents, proper and common nouns are often contrasted.
@@ -2481,11 +2494,13 @@ How do you spend your time these days?
 That flat tire cost me an hour. 
 I’ve invested a lot of time in her. 
 I don’t have enough time to spare for that. 
-```   <span class="conceptual-metaphor">time is money / a limited resource / a valuable commodity (all related)</span>
+```   
+
+time is money / a limited resource / a valuable commodity (all related)
 A single conceptual metaphor   a mapping
 One of the metaphors that underlie our conceptual system   A conceptual metaphor
 The thing that is mapped from (the thing that provides the structure)   the source domain
-The thing that is mapped to (the thing that is structured)   the target domain<div class="sub">
+The thing that is mapped to (the thing that is structured)   the target domain
 
 ### Psycholinguistics
 
@@ -3138,8 +3153,8 @@ What might hip-hop with the characteristics of rapping, rhyme, and human beatbox
 In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
 Backchannel responses are often phatic expressions.
 
-Japanese backchannels are called <ruby>相<rp>(</rp><rt>あい</rt><rp>)</rp></ruby><ruby>槌<rp>(</rp><rt>づち</rt><rp>)</rp></ruby>.
-<ruby>相<rp>(</rp><rt>あい</rt><rp>)</rp></ruby><ruby>槌<rp>(</rp><rt>づち</rt><rp>)</rp></ruby> are quite common in japan.
+Japanese backchannels are called 　相（あい）　槌（づち）.
+　相（あい）　槌（づち） are quite common in japan.
 
 ### accent
 
@@ -3643,55 +3658,55 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ### relationships
 
 ⟮c1;仮名⟯ is a term for ⟮c2;any syllabary⟯ used to ⟮c3;write japanese 音⟯, or ⟮c4;a character from such a syllabary⟯. 
-⟮c5;仮名⟯ as a word is a compound of ⟮c6;<ruby>仮<rp>(</rp><rt>かり</rt><rp>)</rp></ruby>⟯ '⟮c7;temporary, tentative, provisional⟯' + ⟮c8;<ruby>名<rp>(</rp><rt>な</rt><rp>)</rp></ruby>⟯ '⟮c9;name⟯', which got ⟮c10;reduced to かんな⟯ and then ⟮c11;just to かな⟯. 
+⟮c5;仮名⟯ as a word is a compound of ⟮c6;　仮（かり）⟯ '⟮c7;temporary, tentative, provisional⟯' + ⟮c8;　名（な）⟯ '⟮c9;name⟯', which got ⟮c10;reduced to かんな⟯ and then ⟮c11;just to かな⟯. 
 In contrast, ⟮c12;真名⟯ '⟮c13;true name⟯' means ⟮c14;漢字⟯, esp. ⟮c15;when they are used for their meaning (i.e. not 万葉仮名 or 当て字).⟯ 
 
 [⟮c94;仮名⟯ [⟮c92;真名⟯ [⟮c93;真カタカナ⟯</span></div></div></div>
 
 ⟮c16;仮名⟯ systems where ⟮c17;kanji are used to represent 音⟯ are known as ⟮c18;真仮名⟯。 
 ⟮c19;真仮名⟯ are similar to ⟮c20;当て字⟯ today 
-⟮c21;<ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>⟯ was ⟮c22;the most common form⟯ of ⟮c23;真仮名⟯ 
+⟮c21;　万葉仮名（まんようがな）⟯ was ⟮c22;the most common form⟯ of ⟮c23;真仮名⟯ 
 ⟮c24;音仮名⟯ is a ⟮c25;真仮名⟯ system where ⟮c26;the 音読み of 漢字⟯ would be used to ⟮c27;transcribe 和語⟯. 
-Using ⟮c28;音仮名⟯, ⟮c29;やま⟯ might be spelled as ⟮c30;<ruby>也<rp>(</rp><rt>や</rt><rp>)</rp></ruby>(y, that's the on of that kanji)末⟯ 
+Using ⟮c28;音仮名⟯, ⟮c29;やま⟯ might be spelled as ⟮c30;　也（や）(y, that's the on of that kanji)末⟯ 
 ⟮c31;訓仮名⟯ is actually insane. It's a ⟮c32;真仮名⟯ system where ⟮c33;the 訓読み of 漢字⟯ would be used to ⟮c34;transcribe 和語⟯. 
 Using ⟮c35;訓仮名⟯, ⟮c36;大和・やまと⟯ might be spelled as ⟮c37;八間跡⟯. 
 
-The ⟮c38;first⟯ system of ⟮c39;真仮名⟯ was ⟮c40;<ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>.⟯ ⟮c41;万葉仮名⟯ had developed by ⟮c42;500ish⟯. 
-In ⟮c43;<ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>⟯ ⟮c44;any 音⟯ could have been written with ⟮c45;any 漢字 pronounced in the correct way.⟯ 
+The ⟮c38;first⟯ system of ⟮c39;真仮名⟯ was ⟮c40;　万葉仮名（まんようがな）.⟯ ⟮c41;万葉仮名⟯ had developed by ⟮c42;500ish⟯. 
+In ⟮c43;　万葉仮名（まんようがな）⟯ ⟮c44;any 音⟯ could have been written with ⟮c45;any 漢字 pronounced in the correct way.⟯ 
 
 
-⟮c46;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯ is a style of kanji ⟮c47;often falsely called⟯ ⟮c48;grass style⟯, ⟮c47;it really means⟯ ⟮c49;cursive/rough style⟯. 
-After it had evolved, ⟮c50;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯ became ⟮c51;associated with feminity (In Japan⟯). 
-⟮c52;平仮名⟯ evolved ⟮c53;from <ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯ in ⟮c54;the 800s⟯. 
+⟮c46;　草書（そうしょ）⟯ is a style of kanji ⟮c47;often falsely called⟯ ⟮c48;grass style⟯, ⟮c47;it really means⟯ ⟮c49;cursive/rough style⟯. 
+After it had evolved, ⟮c50;　草書（そうしょ）⟯ became ⟮c51;associated with feminity (In Japan⟯). 
+⟮c52;平仮名⟯ evolved ⟮c53;from 　草書（そうしょ）⟯ in ⟮c54;the 800s⟯. 
 ⟮c55;平仮名⟯ ⟮c56;also⟯ became ⟮c56;associated with femininity⟯. 
-Due to their association, ⟮c57;both <ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby> and 平仮名⟯ became known as ⟮c58;<ruby>女<rp>(</rp><rt>おんな</rt><rp>)</rp></ruby><ruby>手<rp>(</rp><rt>で</rt><rp>)</rp></ruby>.⟯ 
-Due to ⟮c59;their gender association⟯, ⟮c60;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby> and 平仮名⟯became seen negatively. 
+Due to their association, ⟮c57;both 　草書（そうしょ） and 平仮名⟯ became known as ⟮c58;　女（おんな）　手（で）.⟯ 
+Due to ⟮c59;their gender association⟯, ⟮c60;　草書（そうしょ） and 平仮名⟯became seen negatively. 
 Even ⟮c62;today⟯, ⟮c61;平仮名⟯ are sometimes said to have ⟮c63;a feminine quality⟯. 
 
-⟮c64;<ruby>楷<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯ literally means '⟮c65;regular/standard script⟯' 
-Connected somehow to ⟮c66;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯ ⟮c68;becoming associated with feminity⟯, ⟮c67;<ruby>楷<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯ ⟮c69;became associated with masculinity⟯. 
-⟮c70;<ruby>楷<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯ was, after ⟮c71;the relevant gender associations had occurred⟯, also called ⟮c72;<ruby>男<rp>(</rp><rt>おとこ</rt><rp>)</rp></ruby><ruby>手<rp>(</rp><rt>で</rt><rp>)</rp></ruby>⟯ 
+⟮c64;　楷（かい）　書（しょ）⟯ literally means '⟮c65;regular/standard script⟯' 
+Connected somehow to ⟮c66;　草書（そうしょ）⟯ ⟮c68;becoming associated with feminity⟯, ⟮c67;　楷（かい）　書（しょ）⟯ ⟮c69;became associated with masculinity⟯. 
+⟮c70;　楷（かい）　書（しょ）⟯ was, after ⟮c71;the relevant gender associations had occurred⟯, also called ⟮c72;　男（おとこ）　手（で）⟯ 
 
 ⟮c73;&nbsp;片仮名⟯ are derived from ⟮c74;万葉仮名⟯ by ⟮c75;taking part of the kanji⟯. 
-⟮c76;片仮名⟯ was developed by ⟮c77;<ruby>奈良<rp>(</rp><rt>なら</rt><rp>)</rp></ruby>のbuddhist monks⟯&nbsp;in ⟮c78;the 800s⟯, and since then ⟮c79;has stayed mostly the same⟯ 
+⟮c76;片仮名⟯ was developed by ⟮c77;　奈良（なら）のbuddhist monks⟯&nbsp;in ⟮c78;the 800s⟯, and since then ⟮c79;has stayed mostly the same⟯ 
 
 
-⟮c80;ひらがな⟯ and ⟮c80;かたかな⟯ both ⟮c81;developed from⟯ ⟮c82;<ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>⟯ 
-Due to ⟮c83;the way they evolved via <ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby> from <ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>⟯,&nbsp;there were many ⟮c84;non-standard 平仮名⟯, both due to ⟮c85;coming from different cursive styles⟯, or ⟮c86;from different <ruby>万葉仮名<rp>(</rp><rt>まんようがな</rt><rp>)</rp></ruby>.⟯ 
-The ⟮c87;now nonstandard 平仮名⟯ are called ⟮c88;<ruby>変体仮名<rp>(</rp><rt>へんたいがな</rt><rp>)</rp></ruby>⟯. 
-⟮c89;<ruby>変体仮名<rp>(</rp><rt>へんたいがな</rt><rp>)</rp></ruby>⟯ were ⟮c90;obsoleted by⟯ ⟮c91;the 1900 script reform.⟯ 
+⟮c80;ひらがな⟯ and ⟮c80;かたかな⟯ both ⟮c81;developed from⟯ ⟮c82;　万葉仮名（まんようがな）⟯ 
+Due to ⟮c83;the way they evolved via 　草書（そうしょ） from 　万葉仮名（まんようがな）⟯,&nbsp;there were many ⟮c84;non-standard 平仮名⟯, both due to ⟮c85;coming from different cursive styles⟯, or ⟮c86;from different 　万葉仮名（まんようがな）.⟯ 
+The ⟮c87;now nonstandard 平仮名⟯ are called ⟮c88;　変体仮名（へんたいがな）⟯. 
+⟮c89;　変体仮名（へんたいがな）⟯ were ⟮c90;obsoleted by⟯ ⟮c91;the 1900 script reform.⟯ 
 
 ⟮c1;送り仮名⟯ are the ⟮c2;hiragana dangling off the end⟯ of ⟮c3;some words⟯. 
 
 ||
-⟮c1;<ruby>楷書<rp>(</rp><rt>かいしょ</rt><rp>)</rp></ruby>⟯|⟮c2;<img src="sm_mushoujyoukaisotai01.png">⟯
-⟮c3;<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>⟯|⟮c4;<img src="sm_XiaozhuanQinquan_sized.jpg"><img src="sm_5eMPU.jpg"><img src="sm_380px-Ancient_prose_from_the_Xunzi,_in_seal_script.jpg">⟯
-⟮c5;<ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>⟯|⟮c6;<img src="sm_Mi_Fu-On_Calligraphy.jpg">⟯
-⟮c7;<ruby>行書<rp>(</rp><rt>ぎょうしょ</rt><rp>)</rp></ruby>⟯|⟮c8;<img src="sm_33625065.jpg"><img src="sm_e0931e679ef3886ec4ef9994e0616b73-480x660.jpg">⟯
-⟮c9;<ruby>隷<rp>(</rp><rt>れい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>⟯|⟮c10;<img src="sm_220px-LishuHuashanmiao.jpg"><img src="sm_kRVT4DEEnYOoWwjmAPA90uyI2idI4Qp1TayRhMqPMAHoyZuHYsiLwsCLv0OxoHEhRiPg0jkcB_6mA7xvP0QdQMOzW5G-LN0NBVV0z0bGXIPJVdIRJZWW.jpg">⟯
+⟮c1;　楷書（かいしょ）⟯|⟮c2;<img src="sm_mushoujyoukaisotai01.png">⟯
+⟮c3;　篆書（てんしょ）⟯|⟮c4;<img src="sm_XiaozhuanQinquan_sized.jpg"><img src="sm_5eMPU.jpg"><img src="sm_380px-Ancient_prose_from_the_Xunzi,_in_seal_script.jpg">⟯
+⟮c5;　草書（そうしょ）⟯|⟮c6;<img src="sm_Mi_Fu-On_Calligraphy.jpg">⟯
+⟮c7;　行書（ぎょうしょ）⟯|⟮c8;<img src="sm_33625065.jpg"><img src="sm_e0931e679ef3886ec4ef9994e0616b73-480x660.jpg">⟯
+⟮c9;　隷（れい）　書（しょ）⟯|⟮c10;<img src="sm_220px-LishuHuashanmiao.jpg"><img src="sm_kRVT4DEEnYOoWwjmAPA90uyI2idI4Qp1TayRhMqPMAHoyZuHYsiLwsCLv0OxoHEhRiPg0jkcB_6mA7xvP0QdQMOzW5G-LN0NBVV0z0bGXIPJVdIRJZWW.jpg">⟯
 
 
-What is now called (small) seal script is called what in japanese? <span class="divider">-></span> ⟮c1;<ruby>篆書<rp>(</rp><rt>てんしょ</rt><rp>)</rp></ruby>⟯
+What is now called (small) seal script is called what in japanese? <span class="divider">-></span> ⟮c1;　篆書（てんしょ）⟯
 
 
 Cursive variants of 漢字 have way less strokes than non-cursive variants.
@@ -3700,11 +3715,11 @@ However, cursive variants are very quick to write.
 Cursive variants are generally generated by merging strokes.
 The easiest/most common way to merge strokes for 漢字 is to merge dots into a single stroke.
 The two scripts considered ⟮c3;cursive⟯ are ⟮c1;行書⟯ and ⟮c2;草書⟯
-<ruby>行書<rp>(</rp><rt>ぎょうしょ</rt><rp>)</rp></ruby> is less cursive compared to <ruby>草書<rp>(</rp><rt>そうしょ</rt><rp>)</rp></ruby>.
+　行書（ぎょうしょ） is less cursive compared to 　草書（そうしょ）.
 
 All hanzi evolved from the original form that we still have, which is oracle bone script.
 
-Today, the most general/standard way to write 漢字 is <ruby>楷<rp>(</rp><rt>かい</rt><rp>)</rp></ruby><ruby>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby> 
+Today, the most general/standard way to write 漢字 is 　楷（かい）　書（しょ） 
 
 ### kanji list
 
@@ -3712,7 +3727,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮c1;approach⟯|⟮s1;<img src="sm_img_200289_1.jpg">⟯|⟮c8;挨⟯|⟮h∞;[hand, moocow, arrow]⟯|⟮h∞;As I approach, I notch an arrow, draw the bowstring back with my hand, and let fly. Your guard-cow never even made a sound.⟯
 ⟮c2;noisy⟯|⟮s2;<img src="sm_hqdefault-87464f0d3b9660f8d1885b324394e661139c995c.jpg">⟯|⟮c9;嘩⟯|⟮h∞;[flamboyant, mouth]⟯|⟮h∞;The flamboyant man started swearing noisily with his mouth.⟯
 ⟮c3;follow⟯|⟮s3;<img src="sm_202301.jpg">⟯|⟮c10;随⟯|⟮h∞;[town, exist, move]⟯|⟮h∞;I follow the masses moving to the town, where more economic opportunities and brothels exist.⟯
-⟮c4;Tile⟯|⟮s4;<img src="sm_90b0dfa136419ccc91fda6fec27764ca-1.jpg">⟯|⟮c11;<ruby>h:∞;::瓦<rp>(</rp><rt>かわら</rt><rp>)</rp></ruby>}}⟯|⟮[Mutant 万 plus a couple of extra strokes))|((h:∞;⟯
+⟮c4;Tile⟯|⟮s4;<img src="sm_90b0dfa136419ccc91fda6fec27764ca-1.jpg">⟯|⟮c11;　h:∞;::瓦（かわら）}}⟯|⟮[Mutant 万 plus a couple of extra strokes))|((h:∞;⟯
 ⟮c5;attractive, bewitching⟯|⟮s5;<img src="sm_e9387b70-95f2-48cb-a7e3-3605e140db9b.jpg">⟯|⟮c12;妖⟯|⟮h∞;[woman, heaven]⟯|⟮h∞;⟯
 ⟮c6;Relative⟯|⟮s6;⟯|⟮c13;戚⟯|⟮h∞;[become, 上, 小]⟯|⟮h∞;The bigger relatives stand above the small relatives, kicking them until they become obedient., Or: Your relatives say: You used to be small, and now look how big you've become!⟯
 ⟮c7;Calendar/almanac⟯|⟮s7;<img src="sm_paste-72f09b61010036caebf6da1547eaff9476e19fd8.jpg">⟯|⟮c14;暦⟯|⟮h∞;[hemp, day]⟯|⟮h∞;The calendar in this almanac proclaims that this is the day you shall get smashed with hemp. Thanks, Poor Richard!⟯
@@ -5655,18 +5670,18 @@ Japanese nominalizers are suffixed to the attributive form of the relevant thing
 
 In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizing it. Reversedly, nouns sometimes go in places where the 連用形 would normally, making these two a somewhat unified class
 
-<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby> (noun)|manner ('way of')
+　方（ほう） (noun)|manner ('way of')
 
 <foo>方が<bar>|foo is more bar
 for <foo>方が<bar>, using the past tense of a positive verb foo makes it more emphatic
-<ruby>方<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>がいい|better, should
+　方（ほう）がいい|better, should
 
 
 ということ|summarizing
 
 ##### gramamr where the thing is a noun
 
-(た-form + )<ruby>途端<rp>(</rp><rt>とたん</rt><rp>)</rp></ruby>(に)|just as, the moment that (for things outside of the agents control)
+(た-form + )　途端（とたん）(に)|just as, the moment that (for things outside of the agents control)
 
 連体形+挙句|negative result
 
@@ -5753,25 +5768,29 @@ Words for good in order of politeness: いい＜よい＜よろしい
 Kanji|country
 日本|Japan
 <ruby><br>英<br><rp>(</rp><rt><br>えい</rt><rp>|England/lish
-<ruby>中国<rp>(</rp><rt>ちゅうごく</rt><rp>)</rp></ruby>|China
+　中国（ちゅうごく）|China
 アイヌ|Ainu
 スペイン|Spain
 フランス|France
-<ruby>韓国<rp>(</rp><rt>かんこく</rt><rp>)</rp></ruby>|Korea
+　韓国（かんこく）|Korea
 ドイツ|German
 
-Add a <ruby>語<rt>ご</rt></ruby> to any nationality to get the respective language
+Add a 　語（ご） to any nationality to get the respective language
 Add a 国 to any nationality to get "the nation of"...
 Add a 語学 to any nationality to get "x linguistics"
 Add a 人 to any nationality to get "the people of"
 
 ### kami
 
-⟮h∞;<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">⟯⟮c1;カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮c2;god, bear⟯, and is ⟮c3;s∞;related to/cognate with japanese <ruby>神<rp>(</rp><rt>かみ</rt><rp>)</rp></ruby>⟯&nbsp; 
+⟮h∞;<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">⟯⟮c1;カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮c2;god, bear⟯, and is ⟮c3;s∞;related to/cognate with japanese 　神（かみ）⟯&nbsp; 
 
 ### misc
 
 ⟮c1;クリスマスケーキ⟯ refers to ⟮c2;unmarried women older than 25⟯ (etymology "⟮c3;unsold by the 25th⟯") 
+
+### being alone
+
+クリぼっち|spending christmas alone
 
 ## Word classes
 
@@ -5933,37 +5952,37 @@ verbs that do not indicate that they have progressive/stative aspect via てい�
 The 連用形 of あう may also be spelled 相 when used as a morpheme, generally word-inital, meaning mutual, together, each other.
 
 合う is a 補助動詞 meaning "to do V to each other/mutually/together"
-<ruby>話<rp>(</rp><rt>はな</rt><rp>)</rp></ruby>し <ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|discuss, talk together を
-<ruby>向<rp>(</rp><rt>む</rt><rp>)</rp></ruby>き<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to face each other
-<ruby>似合<rp>(</rp><rt>にあ</rt><rp>)</rp></ruby>う|suit, look good on
-<ruby>噛<rp>(</rp><rt>か</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|bite each other, to interlock
-<ruby>睨<rp>(</rp><rt>にら</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|glare at each other, face each other, be at loggerheads
-<ruby>譲<rp>(</rp><rt>ゆず</rt><rp>)</rp></ruby>り<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to give and take, to make mutual concessions, to compromise
-<ruby>述<rp>(</rp><rt>の</rt><rp>)</rp></ruby>べ<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to compare (e.g. notes); to exchange (e.g. views, opinions) を
-<ruby>付<rp>(</rp><rt>つ</rt><rp>)</rp></ruby>き<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby><br>う|to go out with; to keep in company with
-<ruby>組<rp>(</rp><rt>く</rt><rp>)</rp></ruby>み<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|form a partnership, join together
-<ruby>知<rp>(</rp><rt>し</rt><rp>)</rp></ruby>り<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>う|to get to know each other; to make acquaintance
+　話（はな）し 　合（あ）う|discuss, talk together を
+　向（む）き　合（あ）う|to face each other
+　似合（にあ）う|suit, look good on
+　噛（か）み　合（あ）う|bite each other, to interlock
+　睨（にら）み　合（あ）う|glare at each other, face each other, be at loggerheads
+　譲（ゆず）り　合（あ）う|to give and take, to make mutual concessions, to compromise
+　述（の）べ　合（あ）う|to compare (e.g. notes); to exchange (e.g. views, opinions) を
+　付（つ）き　合（あ）<br>う|to go out with; to keep in company with
+　組（く）み　合（あ）う|form a partnership, join together
+　知（し）り　合（あ）う|to get to know each other; to make acquaintance
 
 Nominalized
-<ruby>待合<rp>(</rp><rt>まちあい</rt><rp>)</rp></ruby>|rendezvous; meeting; assignation, also: waiting room (abbrev.)
-<ruby>相合<rp>(</rp><rt>あいあい</rt><rp>)</rp></ruby>|doing things together (archaism)|romantic implication due to pun with 愛
-<ruby>相合傘<rp>(</rp><rt>あいあいがさ</rt><rp>)</rp></ruby>|sharing an umbrella; under one umbrella
-<ruby>組合<rp>(</rp><rt>くみあい</rt><rp>)</rp></ruby>|(voluntary) association, union, guild
+　待合（まちあい）|rendezvous; meeting; assignation, also: waiting room (abbrev.)
+　相合（あいあい）|doing things together (archaism)|romantic implication due to pun with 愛
+　相合傘（あいあいがさ）|sharing an umbrella; under one umbrella
+　組合（くみあい）|(voluntary) association, union, guild
 
 あう as a 補助動詞 is less commonly spelled 会う, in which case it may mean "to V while/in the process of meeting"
-<ruby>出会<rp>(</rp><rt>であ</rt><rp>)</rp></ruby>う (less commonly 出合う)|meet by chance, for two roads to meet, to engage an enemy
+　出会（であ）う (less commonly 出合う)|meet by chance, for two roads to meet, to engage an enemy
 
 From the causative form of 合う descends 合わせる を: to put together/combine/fuse/merge/blend/mix/join in/match with, to tune music, radio, to check with/against, to adapt oneself to.
 合わさる が: to match, make a successful pairing
 合わせる is frequently used as a 補助動詞, but almost always only as a 連用形 nominalization.
-<ruby>打<rp>(</rp><rt>う</rt><rp>)</rp></ruby>ち<ruby>合<rp>(</rp><rt>あ</rt><rp>)</rp></ruby>わせ|advance arrangements; preparatory meeting; briefing session
+　打（う）ち　合（あ）わせ|advance arrangements; preparatory meeting; briefing session
 
 っぱなし|something was completed and left that way (probably due to neglect/oversight)
 
 出す is a 補助動詞 meaning start to V, or to V out of
-<ruby>抜<rp>(</rp><rt>ぬ</rt><rp>)</rp></ruby>け<ruby>出<rp>(</rp><rt>だ</rt><rp>)</rp></ruby>す   sneak away, get away
+　抜（ぬ）け　出（だ）す   sneak away, get away
 
-連用形 + <ruby>方<rp>(</rp><rt>かた</rt><rp>)</rp></ruby> = the way of verbing
+連用形 + 　方（かた） = the way of verbing
 
 the 未然形 of た (but really of たる) is also used as a conditional.
 
@@ -6109,7 +6128,7 @@ adversative|が or けど・けれど・けれども or ところが (more but) 
 
 #### 非活用語
 
-<ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>言<rp>(</rp><rt>げん</rt><rp>)</rp></ruby>　(seems to be just nouns, pronouns, etc?)
+　体（たい）　言（げん）　(seems to be just nouns, pronouns, etc?)
 
 ##### 副詞
 
@@ -6137,25 +6156,25 @@ Most commonly: persons name
 
 ##### 連体詞
 
-<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>詞<rp>(</rp><rt>し</rt><rp>)</rp></ruby> are words stuck in the 連体形, thus unconjugable
+　連（れん）　体（たい）　詞（し） are words stuck in the 連体形, thus unconjugable
 
 大きな
 小さな
 色んな
 おかしな
-<ruby>異<rp>(</rp><rt>い</rt><rp>)</rp></ruby>な|strange, odd, unusual
+　異（い）な|strange, odd, unusual
 
-<ruby>心<rp>(</rp><rt>こころ</rt><rp>)</rp></ruby>ある|thoughtful, considerate
+　心（こころ）ある|thoughtful, considerate
 
-<ruby>無理<rp>(</rp><rt>むり</rt><rp>)</rp></ruby>からぬ|reasonable, natural
-<ruby>素知<rp>(</rp><rt>そし</rt><rp>)</rp></ruby>らぬ|feigned; pretending (not to know)
+　無理（むり）からぬ|reasonable, natural
+　素知（そし）らぬ|feigned; pretending (not to know)
 
-<ruby>残<rp>(</rp><rt>のこ</rt><rp>)</rp></ruby>んの|remanining
+　残（のこ）んの|remanining
 
-<ruby>本<rp>(</rp><rt>ほん</rt><rp>)</rp></ruby>の|little, slightly, mere, only
+　本（ほん）の|little, slightly, mere, only
 
 大した
-<ruby>大<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>それた|absurd, outrageous
+　大（だい）それた|absurd, outrageous
 
 ひょん|unexpected, strange, unusual
 
@@ -6208,7 +6227,7 @@ The attributive/terminal forms of i-adjectives/verbs do not need to be formed, a
 
 While japanese does not consider nouns or the copula 活用語, we may still consider them to have attributive and terminal forms.
 
-<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp></ruby><ruby>体<rp>(</rp><rt>たい</rt><rp>)</rp></ruby><ruby>形<rp>(</rp><rt>けい</rt><rp>)</rp></ruby>.
+　連（れん）　体（たい）　形（けい）.
 
 i-adjectives|no change
 na-adjectives|な
@@ -6297,7 +6316,7 @@ While most 形容動詞 use な as their attributive (連体形) form and に as
 Taru-adjectives have the former auxiliary verb たり instead of the copula.
 
 naru-adjectives have the exclusive 連体形 of なる, but that's also generally the only form they can be used in.
-<ruby>親愛<rp>(</rp><rt>しんあい</rt><rp>)</rp></ruby>なる   dear (as in "dear xyz, dear old friend, etc.")
+　親愛（しんあい）なる   dear (as in "dear xyz, dear old friend, etc.")
 <ruby>単<rp>(</rp><rt><br>たん</rt><rp>)</rp></ruby>なる simply
 
 ##### the copula
