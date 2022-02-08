@@ -3059,6 +3059,10 @@ Fitts law says that the time required to rapidly move move to a target area, e.g
 A mode is a state which is explictly entered and exited where the same input will produce different results than if it wasn't in that state.
 A quasimode is like a mode, but the state is only maintained as long as an action is performed.
 Keyboard keys that maintain a quasimode are shift, alt, control, option....
+Modes are prone to mode errors.
+A mode error occurs when a user tries to do an action only appropriate for a different mode and gets an undesired response.
+mode errors occur because the user lacks understanding between the difference in modes, has not (yet) recieved the indication of a mode switch, or is confused/has forgotten about the active mode.
+Focus stealing is a mode error that happens when a program unexpectedly has focus, and the user attempts actions for the other program.
 
 #### text
 
@@ -3439,7 +3443,7 @@ lxappearace is a gtk theme switcher
 
 #### elements
 
-A UI element that blocks interaction with the main program while it is visible is called modal, else it is modeless.
+A UI element that enters a mode that blocks interaction with the main program and only allows interaction with the UI element, while it is visible is called modal, else it is modeless.
 
 ##### menu
 
@@ -3578,7 +3582,13 @@ Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
 <img src="disc.png"><img src="kfw-disclosure.jpg">⟮h2;<img src="sm_FAQ-Content-Style-Accordion.gif">⟯
 
-##### dialog box
+##### containers
+
+A lightbox is a box/container that displays images/videos by filling the screen and dimming out the rest of the page/UI.
+
+###### windows
+
+####### dialog box
 
 A dialog box is a small window that appears in front of the main window due to some event or action and requires some sort of response.
 An alert box is a dialog box which contains important information and only accepts the response of ;close'.
@@ -4800,6 +4810,10 @@ imgcat|in-terminal image viewer
 unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
 gifsicle is a CLI program to manipulate gifs
+remove.bg is an AI tool that can remove the bg of images with people in them.
+remove.bg is accessible via an API as well, which can be called via a command `removebg`
+
+######## ocrmypdf
 
 `⟮c9;ocrmypdf⟯` is a command line tool to ⟮c10;add OCR text to scanned PDF files⟯. 
 ```
@@ -13463,6 +13477,11 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 ⟮c5;shift⟯|⟮c6;10⟯
 ⟮c7;command/ctrl⟯|⟮c8;100+⟯
 
+##### UI
+
+###### miscellanea
+
+In vscode, one can resize the search widget by dragging its left edge.
 
 
 ## QA
@@ -14131,10 +14150,12 @@ Jekyll & common
 
 ## Metacharacters & escapes 
 
-A metacharacter is a character that has a special meaning to a computer program, such as a shell interpreter or a regular expression (regex) engine.
+A metacharacter is a character that has a special meaning to a computer program, such as a interpreter/compiler or a regular expression (regex) engine.
+A reserved character is a character that cannot be used in a certain context because it is a metacharacter and thus must be replaced with an escape sequence or a different character, or not used entirely.
 
 An escape character is a metacharacter that invokes an alternative interpretation of the following character(s)
 An escape sequence is the combination of an escape character and the subsequent characters that has a specific meaning.
+Weirdly, an escape sequence (but not an escape character) is sometimes called a character escape.
 In C, \ acts as a/the escape character, with many programming languages having copied this, this includes latex, at least for basic things such as % and &.
 C pioneered a set of escape sequences starting with the escape character \ and certan chars/sequences afterwards, which have been widely adopted.
 In HTML, & acts as a/the escape character.

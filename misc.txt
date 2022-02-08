@@ -42,6 +42,19 @@ Things like the ⟮c9;Ehegattensplitting⟯ result in a situation where ⟮c10;n
 ⟮c2;Horizontal integration⟯ is the process of ⟮c1;Controlling more of a specific part of the supply chain⟯
 ⟮c3;Vertical integration⟯ is ⟮c4;Integrating more/all or large parts of the supply chain in a single company⟯
 
+## production & costs
+
+factor of production ≈ input
+The factors of production/inputs are what are necessary to produce the output(s) in production.
+The production function describes relation between quantities of inputs and quantities of outputs.
+
+### rent
+
+Rent in economics is  payment to a owner of a factor of production/input in excess of what it costs the owner to bring the factor of production/input into the production process.
+More specifically, economic rent can be thought of any payment for a factor of production/input that is itself not produced, such as land or assets formed by creating official privilege over natural opportunities (e.g., patents).
+Rent-seeking is the atttempt to grow/maximize economic rent.
+Since charging of rent does not increase productivity, rent-seeking has the effect of increasing one's share of wealth without contributing to productivity.
+
 ## costs
 
 ### opportunity
@@ -441,11 +454,33 @@ A ⟮c1;sockpuppet⟯ is ⟮c2;an alternative account⟯ used to ⟮c3;decieve o
 
 ### message
 
-#### dogwhistle
+#### misleading, hiding, deciebing
+
+##### dogwhistle
 
 A ⟮c1;dog whistle⟯ as a physical thing is ⟮c2;a whistle that can be heard by dogs but not humans⟯. 
 By extension, a ⟮c3;dog whistle⟯ in politics is (the use of) ⟮c4;coded language⟯ which ⟮c5;sounds innocent to most people⟯ (or ⟮c5;at least allows plausible deniability⟯) but ⟮c6;is meant to communicate a specific thing to an intended audience⟯. 
 Examples for ⟮c9;dog whistles⟯ are ⟮c7;"international bankers"⟯ to mean ⟮c8;jews⟯, or ⟮c7;states' rights⟯ as code for ⟮c8;segregation/racism/pro-slavery⟯ 
+
+##### weasel words
+
+A weasel word (better: weasel phrase) is a word or phrase used to create the impression that a strong claim has been made, when in fact only a vague and thus weak claim has been made.
+Most commonly weasel words/phrases are created via vague or weakening quantifiers, unclarity about referents, use of the passive voice.
+Examples of weasel words:
+- A growing body of evidence suggests (Unclarity about referents - what evidence?)
+- People are saying/Critics claim/... (Unclarity about referents - who?)
+- It is recommended that (Passive voice - who is recommending?)
+- [It is] officially known as (Passive voice - what is the official body here?)
+- Often, x may (Vague or weaking quantifier - in which circumstances?)
+
+##### washing
+
+xwashing is a snowclone (I think) indicating manipulation of appearances/public opinion that a certain thing (mostly product) is x-supportive, often with the implication that the support for the issue symbolized by x is only surface-deep.
+examples of x-washing: greenwashing (environmentalism), pinkwashing (LGBTQ)
+xwashing stems from whitewashing.
+whitewashing originally meant the application of whitewash (a lime and water mixture) to paint walls and fences bright white.
+whitewashing was then extended to mean papering over unfavorable elements.
+Finally, whitewashing has come to mean making something more palletable to white people, esp. by casting POC as white people.
 
 ### censorship
 
@@ -454,7 +489,7 @@ Examples for ⟮c9;dog whistles⟯ are ⟮c7;"international bankers"⟯ to mean 
 ⟮c1;Impressumspflicht⟯ is generally only a thing in ⟮c2;german-speaking countries⟯, containing ⟮c3;the contact information⟯ of ⟮c4;the person responsible for the content.⟯ 
 The main law ⟮c5;requiring an Impressum⟯ in the Internet is ⟮c6;the Telemediengesetz⟯, if ⟮c7;you are offering services⟯, also ⟮c8;the  Dienstleistungs-Informationspflichten-Verordnung⟯ 
 The main requirement for an ⟮c9;impressum⟯ is "⟮c10;leicht erkennbar⟯, ⟮c11;unmittelbar erreichbar,⟯ ⟮c12;ständig verfügbar⟯" 
-± Historically, the German impressum requirement has its roots in the censorship laws of 19th century and earlier monarchies, and has been criticized as illiberal and contrary to the principle of free speech; in most other countries there is no comparable requirement. ±<br>
+^Historically, the German impressum requirement has its roots in the censorship laws of 19th century and earlier monarchies, and has been criticized as illiberal and contrary to the principle of free speech; in most other countries there is no comparable requirement.
 
 ## political systems
 
@@ -3167,6 +3202,10 @@ Victim blaming is common when someone has been victim of violence based on one's
 ⟮c16;Intersectionality⟯ was coined by ⟮c6;Crenshaw⟯ in ⟮c7;1989⟯ and started ⟮c8;being popular as a framework⟯ in ⟮c9;the early 2000s⟯ 
 In 1989, Kimberlé Crenshaw coined the term "⟮c10;intersectionality⟯" in a paper as a way to help explain the ⟮c11;oppression of African-American women⟯. She argues the experience of being a ⟮c12;black woman⟯ ⟮c13;cannot be understood⟯ in terms ⟮c14;independent of either being black or a woman⟯. Rather, it must include ⟮c15;interactions between the two identities⟯, which, she adds, frequently reinforce one another. 
 ⟮c17;Tripple oppression⟯ is a term developed originally by ⟮c18;black socialists in the US⟯, which refers to (in our modern terminolgy) ⟮c19;the intersectional experience⟯ of ⟮c20;black women⟯ at the nexus of ⟮c20;classism, racism, and sexism⟯ 
+
+### justification
+
+Homonationalism is the phenomenon where some powers line up with the claims of the LGBT community in order to justify racist, nativist, etc. positions.
 
 ## specific isms
 
