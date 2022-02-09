@@ -23,7 +23,9 @@ Self-closing tags must end /&gt; in XML.
 Self-closing tags may end /&gt; or merely &gt; in HTML.
 Using a closing tag for self-closing tags is usually invalid.
 Empty elements cannot have content, since there is nowhere to put it.
-Some HTML elements that are not empty (not self-closing) nevertheless may omit their end tag, an end tag will instead be inserted automatically when necessary.
+Some HTML elements that are not empty (not self-closing) nevertheless may omit their end tag, said to have »optional closing tags«.
+Elements with optional closing tags are distinct from empty elements (elements with self-closing tags).
+While most people recommend against omitting optional closing tags, google's style guide explixitly recommends them.
 
 Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
 an HTML element name may only 
@@ -5686,6 +5688,10 @@ In JSON, the top-level item can either be an object or an array.
 JSON Pointers allow referring to things within json
 JSON Pointers are paths starting with and separated by / (e.g. /foo/bar)
 
+JSON does not allow comments by default, however many implementations of it do in fact allow JS-style comments.
+The version of JSON that allows comments is used frequently by microsoft technologies.
+The version of JSON that allows comments is often called jsonc (though there are other things called jsonc)
+
 ######## Schema
 
 JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
@@ -7305,7 +7311,7 @@ Within parameter expansion, to refer to an entire array, use arrayname[@/*]
 Within parameter expansion, to refer to the special parameters $* or $@, use just * or @.
 
 Bash allows specifying defaults for parameters within parameter expansion.
-Bash's two operators for specifying defaults within parameter expasion are :-, :+ and :=.
+Bash's three operators for specifying defaults within parameter expasion are :-, :+ and :=.
 Bash default for parameter syntax: parameter(:-|:+|:=)default
 :- and := within parameter expansion evaluate to the parameter if not unset or null, or to the alternative otherwise.
 The difference between :- and := is that :- will leave parameter unchanged, while := will substitute the value of parameter with the default.
@@ -13489,25 +13495,6 @@ move line up/down|⟦⌥⟧ ⟦up/down⟧
 indent/outent a line|⟦⌘⟧ ⟦]⟧/⟦[⟧
 
 
-######## select/search
-
-⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
-⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
-⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
-
-######## comments
-
-⟮c1;add line comment⟯|⟮c2;⟦⌘⟧ ⟦k⟧⟦⌘⟧ ⟦c⟧⟯
-⟮c3;toggle line comment⟯|⟮c4;⟦⌘⟧ ⟦/⟧⟯
-⟮c5;toggle block comment⟯|⟮c6;⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
-
-######## vscode jupyter
-
-
-⟮c1;⟦f10⟧⟯|⟮c2;execute next line of code⟯
-⟮c3;⟦⌃⟧ ⟦enter⟧⟯|⟮c4;finish editing a cell/run a code block⟯
-
-
 ##### UI 
 
 ###### vscode elements
@@ -13516,6 +13503,7 @@ indent/outent a line|⟦⌘⟧ ⟦]⟧/⟦[⟧
 
 In vscode, a editor group is a group of one or more open editors
 
+split current editor into two editor groups|⟦⌘⟧ ⟦\⟧
 switch to left/right editor group|⟦⌘⟧ ⟦k⟧ ⟦←/→⟧
 move editor group left/right/up/down|⟦⌘⟧ ⟦k⟧ ⟦←/→/↑/↓⟧
 close editor group|⟦⌘⟧ ⟦k⟧ ⟦w⟧
@@ -13559,9 +13547,26 @@ The vscode extension Numbered Bookmarks adds numbered bookmarks for lines which 
 set numbered bookmark <n>|⟦⌘⟧ ⟦<n>⟧
 navigate to shift bookmark <n>|⟦⌘⟧ ⟦⇧⟧ ⟦<n>⟧
 
-######## search
+######## select/search
 
 add cursors to all search results|⟦⌥⟧ ⟦enter⟧
+
+⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
+⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
+⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
+In vscode, one can resize the search widget by dragging its left edge.
+
+######## comments
+
+⟮c1;add line comment⟯|⟮c2;⟦⌘⟧ ⟦k⟧⟦⌘⟧ ⟦c⟧⟯
+⟮c3;toggle line comment⟯|⟮c4;⟦⌘⟧ ⟦/⟧⟯
+⟮c5;toggle block comment⟯|⟮c6;⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
+
+######## vscode jupyter
+
+⟮c1;⟦f10⟧⟯|⟮c2;execute next line of code⟯
+⟮c3;⟦⌃⟧ ⟦enter⟧⟯|⟮c4;finish editing a cell/run a code block⟯
+
 
 ####### bars and panels
 
@@ -13581,12 +13586,38 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 ⟮c5;shift⟯|⟮c6;10⟯
 ⟮c7;command/ctrl⟯|⟮c8;100+⟯
 
-##### UI
+##### code snippets
 
-###### miscellanea
+code snippets feature in many different code editors 
+code snippets are templates that are triggered by selecting it from code completion or typing the name and then tabbing.
+vscode features some built in code snippets and allows both extensions and the user to define new ones.
+vscode follows textmates syntax for defining user snippets.
+vscode snippets all live in the `snippets/` directory
+snippets for a given language are set in a <languagename>.json file.
+global snippets are set in a whatever.code-snippets file.
+user snippets for vscode are defined in a json file.
+any top-level json object within the snippets file defines a snippet.
 
-In vscode, one can resize the search widget by dragging its left edge.
 
+key|function
+prefix|what triggers the snippet
+body|what happens when the snipped is triggered
+description|What details IntelliSense provides for the snippet
+
+
+code snippets can contain tabstops, places where values can be filled in easily.
+when defining a code snippet, plain tabstops look like $1, $2...
+$0 as a tabstop defines the final cursor position.
+the transform part of code snippets takes a regex in the usual slash-based form, though instead of the replace part it may also take specifiers like `upcase`, `downcase`, etc.
+the choice specifier of code snippets specifies a choice similar to the shell syntax
+```
+snippet-tabstop-specifier ::= $(<tabstop>|<variable>)
+tabstop ::= <integer>|\{<integer>(<complex-specifier>|<choice>)\}
+choice ::= \|<string>{, <string>}\|
+variable ::= <string>|\{<string><complex-specifier>\}
+complex-specifier ::= (:(<snippet-tabstop-specifier>|<string>)|<transform>)
+```
+you can jump between tabstops with tabs.
 
 ## QA
 

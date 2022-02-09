@@ -262,3 +262,13 @@ Name|Definition|Examples
 ## sliding doors moment
 
 A ⟮c1;sliding doors moment⟯, named after ⟮c2;a late 1990s romcom⟯, is ⟮c3;a seemingly inconsequential moment⟯ that ⟮c4;nonetheless alters the trajectory of future events⟯, ⟮sb;and especially a minor moment where ⟮c5;there is a choice⟯ to ⟮c6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯
+
+## cultures
+
+The distinction between ask, guess, tell culture comes from a 2007 blog post that got picked up by various blogs and news outlets
+
+
+table:culture|When you want something...|Requests made to you are seen as...
+ask culture|Request, even if you're unsure if it's an imposition|no-able requests
+guess culture|Kind of mention the situation and hope the other person offers, directly request only if likely uncontroversial|demand-like requests where no-ing is painful and agonizing
+tell culture|Mention your needs structure in detail so that shared benefit and understanding can emerge|requests for details on needs structure for shared benefit
