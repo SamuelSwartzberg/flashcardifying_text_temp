@@ -804,10 +804,21 @@ a resource is secure
 
 ### the DOM
 
+#### the DOM
+
 DOM|Document Object Model
 The DOM is a tree data structure that acts as an interface for a XML (or XML-derived) or HTML document.
 DOM vertices are `Node`s (often subclasses of `Node`).
 `Node` implements the EventTarget interface, so all things inheriting from Node also do.
+
+#### APIs
+
+Javascript offers a rich DOM parsing API called the DOM API.
+
+
+table:span=2;DOM parsing libraries in other languages
+beautiful soup|python
+
 
 #### document
 
@@ -1084,23 +1095,6 @@ wasm-bindgen for rust generates glue and polyfills things so that we can use a b
 wasm-pack is a tool for helping integrating rust wasm with your webdev workflow.
 AssemblyScript is a TypeScript-based programming language that is compiled to WebAssembly.
 
-### data fetching after the site has loaded
-
-#### XHR
-
-XHR|XMLHttpRequest
-Ajax|Asynchronous JavaScript And XML
-
-#### fetch
-
-the Fetch API features fetch() as its main method 
-The Fetch API is the new, modern method to fetch data via the interfet after a site has loaded.
-fetch(<resource-to-get>, [<options-object>])
-fetch() returns a Promise which itself resoves to a `Response`
-Response
-.json()|return promise with contents of response as parsed json
-
-Node doesn't have the Fetch API natively, but you can install it via a package, and Next.js polyfills it automatically
 
 ## CSS
 
@@ -3600,6 +3594,14 @@ In html, you can force a disclosure widget to start in its open state by specify
 
 A lightbox is a box/container that displays images/videos by filling the screen and dimming out the rest of the page/UI.
 
+###### drawer
+
+A drawer is a container at one edge that is show-hidable.
+A drawer typically takes up most of the screen when opened on a mobile device.
+A drawer uses a shadow dims the rest of the UI when expanded, seemingly appearing in front of it.
+Often, the menu a hamburger button triggers is a drawer.
+drawers on android can typically also be opened with a swiping gesture.
+
 ###### windows
 
 ####### dialog box
@@ -5268,7 +5270,11 @@ symbol|command(s)|requires package
 ######### set symbols
 
 \supset|⊃
+\supseteq|⊇
+\supsetneq|⊋
 \subset|⊂
+\subseteq|⊆
+\subsetneq|⊊
 \cup|∪
 \cap|∩
 ⟮c7;\in⟯|⟮c8;set membership⟯
@@ -6522,8 +6528,10 @@ using espanso, I've created an expansion that uses `!!!` to run an arbitrary she
 
 ### installation
 
-A live USB is a USB stick which contains an OS that can be booted grom.
-Many live USBs allow installation from them as well.
+A live OS is a bootable OS on some kind of removable device.
+A live OS typically also allows installation of the OS and may be the main means of installing an OS
+A live USB is a live OS on an USB stick.
+A live CD is a live OS on a CD.
 Unetbootin is a cross-platform untility for creating bootable USBs
 
 ### virtualization
@@ -8911,6 +8919,11 @@ CLS  Cumulative Layout Shift
 FCP  First Contentful Paint
 FID  First Input Delay
 LCP  Largest contentful paint
+
+###### web analytics
+
+In web analytics, a bounce is a person who only views one page of a site and then leave.
+The bounce rate is the percentage of total site visitors who bounce.
 
 ##### infrastructure
 
@@ -12604,6 +12617,7 @@ while ⟮c5;react⟯ is by default a ⟮c1;client-side-rendered⟯ thing, using 
 ##### JS
 
 Node.js was created in 2009.
+Node.js uses V8 as its JS engine/interpreter.
 ⟮c1;Deno⟯ is a ⟮c2;perhaps-sucessor⟯ to ⟮c3;node⟯ by ⟮c4;the same creator⟯.
 ⟮c5;Deno⟯ is wrtten in ⟮c1;rust⟯, provides native ⟮c2;TS⟯ support, uses ⟮c3;ES⟯ modules, and ⟮c4;URLs⟯ for the location of dependencies
 
@@ -12714,18 +12728,40 @@ To use the data fetching methods, you need to `export` them
 
 ### IO
 
-#### the enviornment
+#### shell environment
 
 Modules which contain most of the environment stuff, though they may contain other stuff
 
-std::env|rust
-sys|python
-process|node
 
-In ruby, ⟮c1;$stdin⟯ ⟮c2;represents stdin⟯ and ⟮c1;$stdout⟯ ⟮c2;represents stdout⟯. They are both ⟮c3;streams⟯, which means we ⟮c4;use the read method⟯ to read input&nbsp;
-sys.stdin/.stdout/stderr|python (are `File` objects similar to what open() returns)
-$stdin/$stdout/$stderr|ruby (return steams)
+rust
+std::env|env & argv
+std::io|stdin, stdout, stderr and reading input lines
+std::process|run a system command
+no module (just std)|printing
+
+
+python
+sys|stdin, stdout, stderr, argv
+os|env, run a system command
+no module|printing
+
+
+node
+process|stdin, stdout, stderr, argv, env
+console|printing
+child_processes|run a system command
+
+
+ruby
+no module|stdin, stdout, stderr, argv, env, printing, run a system command 
+
+##### stdin/stout
+
+<relevant-module-if-any>.stdin/stdout/stderr generally gets a streamlike io object referring to stdin/stdout/stderr
+
 std::io::stdin/stdout/stderr|Rust (returns a handle of std::io::Stdin/Stdout/Stderr)
+
+##### environment variables & command-line arguments
 
 argv = argument vector
 Command-line arguments
@@ -12743,7 +12779,7 @@ std::env::vars()|Rust
 A signle environment variable
 std::env::var(<name>)|Rust
 
-#### Print
+##### print to & read from console
 
 Print functions in different languages
 the JS console library works both in the browser and in node.js
@@ -12783,14 +12819,10 @@ besides taking more options, printf has exit codes other than 0 (echo always exi
 printf options
 -v foo|save the output in a variable foo
 
-#### system
+##### run commands in system shell
 
-module for os access (syscalls, shells, environment, etc)
-os|python
-
-Run things in a system shell
 system()|ruby
-<system-module>.system()
+<system-module>.system()|python
 
 #### visual
 
@@ -12811,31 +12843,49 @@ d3 is a JS library for mainipulating/visualizing data
 process.cwd()|node
 __dirname|Node
 
-### web requests
+#### files & streams
 
-web request library
+##### non-stream based file interaction
 
-requests|python
+Many programming languages feature utility methods to read an entire file to a string/write an entire file to a string, without having to use streamlike I/O.
+readFile(Sync)/writeFile(Sync)|Node
 
-<request-library>.get()|Send a GET request|python (returns a `Response`)
+##### interaction
 
-Response.status_code|HTTP status code
-Response.text|Returned HTML
-Response.encoding|Page encoding
-Response.content|Returned thing as binary
+Once aquired, files and other streams such as stdin, stdout, stderr are often generalized in their functionality to a common interface, often called a stream, though sometimes called a file object.
+Streams may be distinguished by if they support input, output, or both, or if they represent text, binary or something else (but not necessarily the case).
+Streams often work similar to iterators, consuming input gradually.
+Streams as the programming-centric I/O concept get their name and basic idea from the stream ADT.
+Sometimes, instead of conceptualizing inputs as streams, programming languages instead conceptualize the way of consuming input streams, and thus call their interface for consuming streams `Reader` or similar.
 
-TODO compare and merge (?) with node, fetch, etc
+###### implementation of streamslike IO in different languages
 
-TODO move
+Pythons streamlike I/O class/interface is `File`.
+Ruby's streamlike I/O class/interface is `IO`.
+Node's streamlike I/O class/interface is `Stream`.
+In node, `Stream`s that can be read/written/both implement `Readable`/`Writable`/`Duplex`
+Rust doesn't have one class/struct for working with streams, but things that are readable implement the traits `Read` andor `BufRead`.
 
-Parsing HTML/XML|beautiful soup|python
+####### streamlike IO that can be read
 
+read(<integer>)|return next <integer> bytes/characters
+read()|return whole file
+readline()|return next line
 
-### scientific computing
+Ruby doesn't support `readline()` for its streamlike object, but does support `readlines`, which returns all lines as an array.
+Node doesn't support `readline()` at all.
 
-pandas|python
+####### streamlike IO that can be written
 
-### dispose
+write(<content>)|write the content to the string
+
+##### aquisiton and holding
+
+###### not quite dispose
+
+createReadStream/createWriteStream|node
+
+###### dispose
 
 The dispose pattern is a pattern for resource management.
 In the dispose pattern, a resource is held by an object.
@@ -12843,21 +12893,26 @@ In the dispose pattern, a resource is typically aquired by calling a global func
 In the dispose pattern, a resource is used by calling methods on it.
 In the dispose pattern, a resource is released by calling a method on the object.
 The dispose pattern is common for interacting with files, in which case the resource is a file handle.
-Dispose pattern for file handles:
-An open() function takes a path and returns a file handle.
-file handle methods
-write()|write argument to file
-read()|return whole file as string
-readline()|return next line as string
-close()|release the file handle
 
-Languages that handle files based  on the dispose pattern: Python
-For Python, the open method takes a named parameter mode:
+####### aquisition
+
+to aquire files for the dispose pattern, most languages use a open() function, taking the path and returning a streamlike io thing.
+Most languages have a positional or named parameter for `open()` allowing the specification of the encoding.
+
+######## mode letters
+
+Established by *nix/C, many functions to open/create new files/file handles across languages take a certain set of letters with certain meanings
+
 r|read
-w|overwrite (create if doesn't exit)
-x|create but don't overwrite
-a|append at end (create if doesn't exist)
-For Python, the open method takes a named parameter of encodding
+w|create/clobber (eqiv to > in shell)
+x|try create and fail if exists
+a|create/append (equiv to >> in shell)
+
+####### releasing
+
+<resource>.close()|release the file handle
+
+####### language constructs
 
 some languages have language constructs for the dispose pattern: 
 with|Python
@@ -12868,6 +12923,67 @@ The language constructs for the dispose pattern typically only execute their cod
 In python, the interface for the dispose pattern is a context manager object, which must have __enter__ and __exit__ methods.
 python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
 c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
+
+
+#### web 
+
+##### requests
+
+table:span=2;web request library
+requests|python
+`http`/`https`|node
+none|native js
+
+
+table:span=2;main request libraries
+<request-library>.get()|python, node
+fetch()|native JS
+
+Most web request libraries return an object of type `Response`.
+Most async web request libraries return a promise or equivalent which resolves to a `Response`, or else take a callback that recieves a `Response`
+
+Response.status_code|HTTP status code
+Response.text|Returned HTML
+Response.encoding|Page encoding
+Response.content|Returned thing as binary
+
+TODO compare and merge (?) with node, fetch, etc
+
+TODO move
+
+
+###### XHR
+
+XHR|XMLHttpRequest
+Ajax|Asynchronous JavaScript And XML
+
+###### fetch
+
+the Fetch API features fetch() as its main method 
+The Fetch API is the new, modern method to fetch data via the interfet after a site has loaded.
+fetch(<resource-to-get>, [<options-object>])
+fetch() returns a Promise which itself resoves to a `Response`
+Response
+.json()|return promise with contents of response as parsed json
+
+Node doesn't have the Fetch API natively, but you can install it via a package, and Next.js polyfills it automatically
+
+###### sending responses
+
+to send a response to requests, you generally first need to create a server
+
+table:span=2;library to create servers
+`http`/`https`|node
+
+
+table:span=2;method to create new servers
+<server-library>.createServer|create new server
+
+createServer takes a callback to then respondd to requests
+
+### scientific computing
+
+pandas|python
 
 ### performance monitoring
 
