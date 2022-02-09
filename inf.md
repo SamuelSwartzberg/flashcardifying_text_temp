@@ -1047,6 +1047,18 @@ Event.defaultPrevent|was a default prevented?
 ⟮c1;event delegation⟯ is ⟮c3;handling events⟯ (that are ⟮c4;similar somehow⟯) on ⟮c2;a common ancestor⟯
 Event delegation only works due to event bubbling
 
+#### node
+
+node handles events in the module `event`, where everything that can have events implements `EventEmitter`.
+
+##### EventEmitter methods
+
+on|add event handler
+off/removeListener|remove an event handler
+once|add one-time event handler
+emit|trigger an event
+removeAllListeners|remove all listeners from event emitter
+
 ### Web Speech API
 
 Web Speech API: text to speech/speech to text
@@ -14102,6 +14114,9 @@ Package managers mainly for programming languages tend to do their package manag
 Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
 Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
 
+#### directory structure
+
+./node_modules|directory for installed packages|npm
 
 #### package manager commands
 
@@ -14136,9 +14151,20 @@ package.json|npm|yarn
 
 tsconfig.json|TS
 
+
+Some package managers (e.g. npm) will add a package as a dependency if you install/update it, while others will instead install dependencies listed in the package manifest automatically (e.g. cargo), some will do both, and some will do neither.
+npms save dependency to package manifest automatically behavior can be disabled with --no-save
+Some package managers separate dependencies (for running) and dev-dependencies (for development)
+Dev dependencies are usually their own area in the package manifest.
+npm allows --save-dev direct installation to dev dependencies via --save-dev
+
+
 package manifest top-level keys
 dependencies|specify dependencies|Cargo.toml|package.json
-package|general package information|Cargo.toml
+devDependencies or dev-dependencies|Cargo.toml|package.json
+package|general package metadata (author, name etc)|Cargo.toml
+none, are all their own top-level keys|general package metdadata (author, name etc)|package.json
+main|entry point|package.json
 
 package-lock.json|npm
 Gemfile.lock|bundler
