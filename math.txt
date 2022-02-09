@@ -320,6 +320,7 @@ tuple/sequence|()
 A set's »absolute complement« are all elements not in the set.
 A set's ＿absolute complement＿ is the relative complement of the universe and the set U∖A.
 A set's ＿absolute complement＿  is written A^{c}
+https://upload.wikimedia.org/wikipedia/commons/3/31/Venn1100.svg
 The power set of a set S is the set of all subsets of S.
 
 #### binary 
@@ -328,6 +329,7 @@ The power set of a set S is the set of all subsets of S.
 The set membership of x in A is written x ∈ A.
 The negation of the set membership of x in A is written x ∉ A.
 The set difference of two sets A and B is the set such that for all elements x x∈A ∧ x∉B
+https://upload.wikimedia.org/wikipedia/commons/e/e6/Venn0100.svg
 
 S_1 ∖ S_2|relative complement/ Set difference
 
@@ -341,12 +343,22 @@ The intersection of two sets A and B is the set such that for all elements x x�
 Two sets are disjoint if their intersection is the empty set.
 The union of two sets A and B is the set such that for all elements x x∈A ∨ x∈B
 
+
+S_1 ∩ S_2|https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg
+S_1 ∪ S_2|https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg
+
+
 S_1 ∩ S_2|Intersection
 S_1 ∪ S_2|Union
 
 ##### sub & supersets
 
+For two sets A, B, A is the superset of B if for all x if x∈B also x∈A
+For two sets A, B, A is the subset of B if for all x if x∈A also x∈B
 two sets are equal if they are both subsets of each other.
+
+###### empty & universe
+
 The empty set is the set that contains no elements.
 The empty set is written ø.
 The universe is the set that contains all elements (under consideration)
@@ -355,17 +367,24 @@ Every set has itself and the empty set as subsets.
 Every set has itself and the universe as supersets.
 The empty set is the subset of every set.
 The universe is the superset of every set.
+
+###### proper & symbols
+
 A proper sub/superset of A is a sub/superset that is not equal to A.
 The relation of being a superset may also be called inclusion or containment.
 the (proper) sub/superset operators may be read as 「is a proper sub/superset」, as 「is included in/includes」 or as 「is contained in/contains」
+⊊ and ⊋ always refer to proper sub/superset
+⊆ and ⊇ always refer to just (not proper) sub/superset
 ⊂ and ⊃ are properly ambiguous between proper sub/superset and just sub/superset.
 
 ### building sets
 
 roster notation = enumeration notation
 Roster notation defines a set extensionally, by listing its members (perhaps with leaving out elements with ...)
+Roster/enumeration notation example: {4, 2, 1, 3}
 set builder notation is a specific notatation to define a set via its intension.
 set-builder-notation ::= \{<element-definition>[∈<domain>]\|<logical-formula>\}
+Set builder notation example: {x ∈ ℝ | x > 0}
 
 ### diagrams
 
