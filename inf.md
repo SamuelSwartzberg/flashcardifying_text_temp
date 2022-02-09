@@ -10556,7 +10556,7 @@ Rust: Has the entry() function go get a Entry
 ####### assoc-array files
 
 typically, most languages have modules/libraries called json/yaml for json/yaml processing.
-JS calles its json/yaml libraries JSON/YAML.
+JS and thus node calles its json/yaml libraries JSON/YAML.
 <j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
 <j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
 <j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
@@ -11733,6 +11733,10 @@ Promise.race() takes n promises and runs the attached callback ⁑once⁑ the fi
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
 ⟮c1;Promise.allSettled()⟯ is like ⟮c1;Promise.all()⟯, but the ⟮c2;former⟯ will ⟮c3;continue even if one rejects⟯, the ⟮c2;latter⟯ will ⟮c3;not⟯
 
+Pretty much all operations of the fs module in node have an {{c1::async}} and a {{c1::synchronous}} method, where if the {{c1::async}} method is called <code>{{c2::foo}}</code> the {{c1::synchronous}} method is called <code>{{c3::fooSync}}</code>
+In node, asynchrony is by default implemented via callbacks.
+In node, any asynchronous operation that could fail takes a error callback.
+In node, any asynchronous operation that could return something useful takes a success callback.
 in node, most functions are still designed for callbacks, however you can use util.promisify().
 util.promisif()y takes a function following with a error-first callback as the last argument, and returns a version that returns promises.
 
@@ -12843,11 +12847,21 @@ d3 is a JS library for mainipulating/visualizing data
 process.cwd()|node
 __dirname|Node
 
+##### paths
+
+module for working with paths
+path|node
+
+<path-module>.resolve({<items>})|glue passed things together into an absolute path (glues the path of the working directory onto the beginning if necessary)
+
 #### files & streams
 
 ##### non-stream based file interaction
 
-Many programming languages feature utility methods to read an entire file to a string/write an entire file to a string, without having to use streamlike I/O.
+Many programming languages feature utility functions to read an entire file to a string/write an entire file to a string, without having to use streamlike I/O.
+The functions to instantly write a file typicallly take at least a path and the contents plus named arguments or an assoc arr for options.
+The functions to instantly read a file typicallly take at least a path plus named arguments or an assoc arr for options.
+the node async instant read/write file function also takes an error callback, as usual
 readFile(Sync)/writeFile(Sync)|Node
 
 ##### interaction
@@ -12857,6 +12871,7 @@ Streams may be distinguished by if they support input, output, or both, or if th
 Streams often work similar to iterators, consuming input gradually.
 Streams as the programming-centric I/O concept get their name and basic idea from the stream ADT.
 Sometimes, instead of conceptualizing inputs as streams, programming languages instead conceptualize the way of consuming input streams, and thus call their interface for consuming streams `Reader` or similar.
+For languages that have separate readers, getting the reader typically locks the stream to the given reader.
 
 ###### implementation of streamslike IO in different languages
 
@@ -12864,7 +12879,10 @@ Pythons streamlike I/O class/interface is `File`.
 Ruby's streamlike I/O class/interface is `IO`.
 Node's streamlike I/O class/interface is `Stream`.
 In node, `Stream`s that can be read/written/both implement `Readable`/`Writable`/`Duplex`
+JS has `ReadableStream` and `WritableStream` for streamlike I/O class/intefaces.
 Rust doesn't have one class/struct for working with streams, but things that are readable implement the traits `Read` andor `BufRead`.
+Rust only returns things implementing `Read` andor `Bufread` after calling `.lock()`
+JS returns the actual reader `ReadableStreamDefaultReader` after calling `.getReader()` on the stream, which locks the stream.
 
 ####### streamlike IO that can be read
 
@@ -12873,7 +12891,7 @@ read()|return whole file
 readline()|return next line
 
 Ruby doesn't support `readline()` for its streamlike object, but does support `readlines`, which returns all lines as an array.
-Node doesn't support `readline()` at all.
+Node doesn't support `readline()` on `Stream`, however it offers a whole library `Readline` to consume `Readable` `Stream`s line by line.
 
 ####### streamlike IO that can be written
 
@@ -12927,29 +12945,50 @@ c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-imple
 
 #### web 
 
+table:span=2;web IO library
+requests|python|requests only
+`http`/`https`|node|requests & server=responses
+none|native js|requests only
+axios|node & native js|requests (promise-based)
+
 ##### requests
 
-table:span=2;web request library
-requests|python
-`http`/`https`|node
-none|native js
+table:span=2;requests
+<request-library>.get()|GET request|python, node
+<request-librar>.request()|any request|python, node
+fetch()|any request|native JS
 
-
-table:span=2;main request libraries
-<request-library>.get()|python, node
-fetch()|native JS
-
+Most web request libraries take an object of type `Request` as an argument.
+Node instead gets a OutgoingMessage object, which is also the same object the callback to createServer sends.
 Most web request libraries return an object of type `Response`.
+Node instead returns a IncomingMessage object, which is also the same object the callback to createServer gets.
 Most async web request libraries return a promise or equivalent which resolves to a `Response`, or else take a callback that recieves a `Response`
 
-Response.status_code|HTTP status code
-Response.text|Returned HTML
-Response.encoding|Page encoding
-Response.content|Returned thing as binary
 
-TODO compare and merge (?) with node, fetch, etc
+<reqres-object>.headers|HTTP headers|node, js, python
+<response-object>.url|url of request or final url of document|js, python, node
 
-TODO move
+
+<request-object>
+
+
+<response-object>.status_code/statusCode|HTTP status code|python, node
+<response-object>.status|HTTP status code|js
+<response-object>.reason|HTTP status message|python
+<response-object>.statusText|HTTP status message|js
+<response-object>.statusMessage|HTTP status message|node
+<response-object>.ok|is success status code (200-299)|js, python
+<response-object>.content|Returned thing as binary|python
+<response-object>.encoding|Page encoding|python
+<response-object>.text|Returned unicode text|python
+<response-object>.body|Returned body as stream|js
+
+
+If the response object is going to be sent, as e.g. in node, it supports additional methods/fields:
+
+
+<response-object>.setHeader(<key>, <val>)|set HTTP header to value
+<response-object>.end()|finish the message
 
 
 ###### XHR
@@ -12968,13 +13007,9 @@ Response
 
 Node doesn't have the Fetch API natively, but you can install it via a package, and Next.js polyfills it automatically
 
-###### sending responses
+##### sending responses
 
 to send a response to requests, you generally first need to create a server
-
-table:span=2;library to create servers
-`http`/`https`|node
-
 
 table:span=2;method to create new servers
 <server-library>.createServer|create new server
