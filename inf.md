@@ -9335,6 +9335,9 @@ unless statements exist in liquid, perl, ruby
 Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
 for the postfix conditionals in perl, ruby
 
+
+in rust, `if let` instead of `if` allows for an if with pattern matching
+
 ##### switch
 
 switch is a type of conditional.
@@ -9520,7 +9523,15 @@ Within type parameters, multiple type specifiers are separated by `, `.
 Generics are specified within type parameters.
 Names of generics are typically single characters.
 A generic of any type is typically indicated T
+
+##### binding generics
+
 Once the name of a generic is bound, any reference to that name refers to that generic.
+Two generics of different names are independent, even if they may be filled by the same concrete type at runtime.
+It may sometimes seem like a generic is being bound twice when it's actually being used the second time.
+E.g. impl<T> SomeStruct<T> is saying that you're implementing SomeStruct such that SomeStruct's generic <T> (second mention) satisfies being any type <T> (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct<T>, if that were possible.
+Binding <T> via the `impl` already allows one to do more interesting things.
+e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
 
 #### constrainment
 
@@ -10117,6 +10128,8 @@ in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Er
 
 ####### Commonalities
 
+######## logic with methods
+
 |if None|if Some
 <OptionOrResult>.and(<AnotherOptionOrResult>)|None/Err|<AnotherOptionOrResult>
 <OptionOrResult>.and_then(<callback>)|None/Err|<callback>(<OptionOrResult>)
@@ -10125,7 +10138,11 @@ in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Er
 <OptionOrResult>.map(<callback>)|None|call callback with contained value and return option with returned value
 <OptionOrResult>.map_or(<default>, <callback>)|<default>|call callback with contained value and return option with returned value
 
+######## cloning and copying
+
 the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option<T> or Result<T, E> by cloning/copying
+
+######## conversion
 
 Result<T, E>.ok() -> Option<T>
 
@@ -10135,6 +10152,12 @@ In rust, the ? operator takes a `Result` or `Option`
 In rust, the ? makes a `Result` evaluate to the value inside the `Ok` if `Ok` or exit out of the nearest function, returning an `Err`.
 In rust, the ? makes a `Option` evaluate to the value inside the `Some` if `Some` or exit out of the nearest function, returning a `None`.
 The ? is implemented via the trait std::ops::Try
+
+######## unwrap & expect
+
+unwrap and expect can be called on options and results.
+unwrap and expect are similar that they return the value if the type is Ok/Some, and panic otherwise.
+the difference between unwrap and expect is that expect allows us to choose our error message.
 
 ##### Nullable types
 
@@ -10946,6 +10969,9 @@ yield another generator (JS) yield*
 ### iterator methods
 
 someIter.{{c1::zip}}() takes {{c2::two iterators}} and returns {{c3::a new iterator}} which will for each call to {{c4::next()}} return a {{c5::tuple}} with the values {{c6::the other two would have returned}} with {{c4::next()}}
+In rust, methods (most of them higher-order functions) called on iterators are known  as adapters or consumers, depending on what they do.
+Iterator adapters take an iterator and return another iterator
+Iterator consumers take an iterator and return something else (thus consuming the iterator)
 
 ### Strings
 
@@ -11507,22 +11533,62 @@ Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 In rust, only closures create closures :P
 
-### Anonymous functions
+### Anonymous, first-class, higher-order functions and callbacks
+
+#### distinguising
 
 A callable unit not bound to an identifier is an anonymous function/callable unit.
 First-class functions/callable units are callable units that are first-class citizens.
+A higher order function is a function that takes a first-class function as an argument, or returns a function. All other functions are first-order functions.
+callbacks are first-class functions passed to other callable units to be executed at some other point
+
+#### relationships
+
 anonymous functios are almost always first-class functions, and are thus often passed as arguments, etc.
 However, often non-anonymous functions can also be first-class functions
+callback functions are typically also anonymous
+
+#### callbacks
+
+The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
+Error-first callback look like  (err, value) => ...
+Node generally takes error-first callbacks.
+
+#### first-class functions
+
+##### which functions are first-class
+
+In JS, lua, python all functions are first-class. 
+In Ruby, Rust, only functions created with a special syntax are first-class, these are also anonymous.
+
+##### types of first-class functions in statically typed languages
+
+In statically typed languages, first-class functions must have a type that describes them.
+\(<ts-param-list>\) => <return-type>|TS
+(Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
+
+<ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
+
+#### anonymous functions
+
+In JS, anonymous functions have no special syntax, you merely leave out the identifier.
+
+#### anonymous first-class functions
+
+##### name
 
 In ruby, anonymous first-class functions are called blocks.
 In rust, anonymous first-class functions are called closures.
-In JS, lua, python all functions are first-class. 
-In JS, anonymous functions have no special syntax, you merely leave out the identifier.
+In JS, there is a special type of first-class anonymous function called an arrow function.
+
+##### syntax
 
 In ruby and rust, parameters to blocks/closures are surrounded by |...|
 In ruby and rust, blocks/closures are surrounded by {}
 {|params| code...}
 In ruby, blocks may also be surrounded by do ... end
+
+##### ruby
 
 in ruby, to call a passed block, use the yield keyword. 
 Anything passed to the yield keyword will be available as arguments to the block
@@ -11530,18 +11596,11 @@ In ruby, the & operator converts a block to a proc object.
 Calling #call on a proc object is similar to yielding a block
 instead of a block with the syntax {|elem| elem.method} you can also pass &:method for the same effect
 
-In JS, there is a special type of first-class anonymous function called an arrow function.
+##### JS
+
 Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
-
-#### types of first-class functions in statically typed languages
-
-In statically typed languages, first-class functions must have a type that describes them.
-\(<ts-param-list>\) => <return-type>|TS
-(Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
-
-<ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
 
 #### IIFE
 
@@ -11552,26 +11611,26 @@ in JS IIFEs need to force an expression to be able to immediately invoke it (sin
 The most common way to force functions to be expressions is via surrounding them in (), but other ways are possible.
 With the introduction ES6 let and const, IIFEs have become mostly irrelevant.
 
-### Higher-order functions
 
-A higher order function is a function that takes a function as an argument, or returns a function. All other functions are first-order functions.
 
-There are many standard types of higher order functions.
-In JS, the higher-order functions generally only work on Arrays, and the passed functions always recieve the arguments value, index, wholeArray.
-In ruby, higher-order functions generally take blocks/procs
+#### common higher-order functions
+
+There are many built-in higher order functions, generally as methods on data structure types.
+since higher-order functions must take first-class functions as arguments, in languages that only have a special type of anonymous function as a first-class function, a higher-order function must take these.
+
+
+language|higher-order functions are called on
+JS|Arrays
+Rust|Iterators
+
+
+language|higher-order function recieves arguments
+JS|value, index wholeArray
+
 
 In JS, any higher-order function can take a thisArg, which is then the final argument. This argument will be what the passed fucntion recieves as this.
 
-callable units passed to other callable units to be executed at some other point are also known as callbacks 
-
-The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
-
-Error-first callback look like  (err, value) => ...
-Node generally takes error-first callbacks.
-
-In rust, most higher-order functions can only be called on iterators
-
-#### map
+##### map
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
 thing.map(func)|Java|JS|Ruby|Rust
@@ -11585,13 +11644,13 @@ iterators, not arrays|Rust
 streams (whatever that is, but not the same as an iterator)|Java
 globally|Perl|Python
 
-##### flatmap
+###### flatmap
 
 A flatmap function is a map function which may return an array and which flattens all elements of the array into the resulting thing.
 effectively, flatmap is merely map with flat called on the array returned.
 Most languages that have map function have a flatmap (flatMap) version of it, except for Python,. C# calls it SelectMany. Perls ordinary map is actually a flatmap, so really perl doesn't have a map.
 
-#### sort
+##### sort
 
 Sort is a higher-order function that takes a function which itself takes two arguments. Depending on the language, return values are handled differently.
 JS function must return value smaller 0 if the first argument is to be first, larger 0 if the second argument is to be first, and 0 if it should not reorder.
@@ -11602,12 +11661,12 @@ In some languages sort does not take a sorting function, instead only using the 
 sorted(foo)|Python (takes an iterable)
 foo.sort()|JS (takes an optional sort function, only Arrays)
 
-#### filter
+##### filter
 
 Filter in a narrow sense is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
 filter()|JS|Rust
 
-#### reduce
+##### reduce
 
 The reduce function/method takes a function known as the reducer function
 The reducer function recieves the return value of the last execution of the reducer function, and the current element of the collection. 
@@ -11617,7 +11676,7 @@ Many languages allow specifying a 'previous result' element for the first time t
 js has the variant reduceRight that starts from the end
 reduce()|JS|Ruby|Python
 
-#### some/every/
+##### some/every/
 
 some is a higher order-function that takes a function and returns true if the passed function returns true even once.
 every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
@@ -11625,7 +11684,7 @@ JS
 
 python has the functions any(iterable) and all(iterable), that merely return the result of calling bool() on each item, not taking any higher-order function
 
-#### find
+##### find
 
 find is a higher-order function that takes a function and returns the first element for which the passed function returns true. findIndex instead returns the index.
 find()|JS|Ruby
@@ -11911,6 +11970,10 @@ Tuple structs are either 'tuples with a name which can be instantiated' or 'stru
 ### impl
 
 Rust allows implementing methods or associated functions for structs, tagged unions (enums) and traits via the impl keyword.
+when used for implementing things on structs/enums/traits, the construct used is called an impl block
+the syntax for impl blocks for structs and enums is `impl <name> <block>`
+the syntax for impl blocks implementing traits for structs is `impl <traitname> for <thingname> <block>`
+Any thing may have as many impl blocks as you like.
 For any impl block, we may indicate that we only want to implement it for something whose generics either are of a certain type or implement certain traits.
 When we implement something, we can only rely on other things of the thing we're implementing existing, plus whatever trait bounds we've established.
 we may `impl` a Trait without any `for` clause to provide a default implementation.
@@ -12043,7 +12106,9 @@ Traits allow for blanket implementations, that is implementing a trait for anyth
 impl<T> ToString for T where
     T: Display + ?Sized,
 { ... }
-In rust, the keyword to declare a trait is `trait`.
+In rust, the keyword to declare a trait is `trait`
+`trait <name> <block>` 
+blocks of trait declarations contain method signatures.
 In rust, deriving a trait is automaticallly generating trait implementations for a given thing.
 In rust, derive is implemented via an annotation that takes a list of Traits.
 
@@ -13176,9 +13241,6 @@ simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex be
 
 ## programming language categorization & history
 
-A high-level programming language is a programming language with strong abstraction from the details of the computer.
-A low-level programming language is a programming language with little to no abstraction from the details of the computer.
-
 ### names
 
 Name|Prononciation
@@ -13234,6 +13296,15 @@ After being dropped by mozilla, the rust foundation has taken over the governanc
 The rust foundation is made up of major industry players like microsoft, google, huawei, mozilla.
 
 # CompSci
+
+## abstraction
+
+abstraction is hiding implementation details in favor of a clear, semantic and elegant interface.
+A high-level programming language is a programming language with high levels of abstraction.
+A low-level programming language is a programming language with low levels of abstraction.
+Often, abstraction has runtime overhead/costs.
+Zero-cost abstractions are abstractions that have no runtime, only compile-time overhead.
+Rust touts that it has many zero-cost abstractions.
 
 ## concurrency
 
