@@ -9116,7 +9116,26 @@ In HTML, ⟮c49;anything that is not in the language indicated on &lt;html&gt;�
 In HTML, the ⟮c54;lang attribute⟯ takes ⟮c55;BCP 47 language tags⟯. 
 
 
+### media
 
+#### DOI
+
+DOI = Digital Object Identifer
+A DOI is a eternally persistant identifier of exactly one work.
+DOIs are standartized by the ISO.
+DOIs are mainly popular in academia.
+https://doi.org/ is the DOI resolver.
+DOI resolver + DOI resolves to an online representation/page of the resource
+One can identify DOIs by prefixing the DOI resolver or the URN namespace `doi:`
+doi-syntax ::= <registrant-identifer>/<object-identifier>
+
+#### ISBN
+
+ISBN   International Standard Book Number
+There is one ISBN per version of a book, such that different editions, hardcovers/paperbacks, etc. each have unique ISBNs
+ISBN-10 and ISBN-13 are the two types of ISBNs there are, with 10 and 13 characters each.
+the original standard was ISBN-10, but since that was filling up, it was switched to an ISBN-13.
+Serial publications don't get ISBNs, but instead ISSNs.
 
 ### licenses
 
@@ -9150,10 +9169,24 @@ major|incompatible changes to existing API
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
-### datetimes
+### date & time
+
+#### datetimes
 
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
+
+#### time zones
+
+The primary standard for time is UTC.
+The primary standard for time used to be GMT.
+UTC's standard specifies that time is divided into days, hours, minutes, and seconds, how much of each each contains, leap seconds, etc, and what time it is according to that system.
+Ergo, UTC is a time system and the current time in that system, while UTC offsets are ways to define time in relation to UTC, but are not UTC themselves (!)
+Timezones are defined in reference to UTC via UTC offsets.
+UTC-offset ::= UTC(+|-)<time>
+UTC may be specified using an UTC offset as UTC+0
+Nevertheless, what people often are referring to when they say UTC is the system of UTC offsets
+Today, GMT is an alias for UTC+0
 
 ### emoji shortcodes
 
@@ -9170,6 +9203,14 @@ I can ⟮c20;type emoji using emoji shortcodes⟯ but ⟮c18;using spaces instea
 In ⟮c8;dice notation⟯, you can leave out ⟮c9;the amount of dice to roll⟯, if ⟮c7;its one⟯. 
 ⟮c11;4d10+3⟯ is an example of ⟮c12;Dice notation⟯, it means ⟮c13;roll 4 10-sided dice and add 3 to the overall result⟯ 
 the shell command ⟮c10;`roll`⟯ ⟮c14;rolls dice⟯, specified in ⟮c15;dice notation⟯ 
+
+## databases
+
+### geonames
+
+Geonames is the worlds largest databae of geographical features, their locations, type, names, and names in alternative languages.
+Geonames is updated via crowsourcing.
+Geonames is licensed under CC BA.
 
 ## non-file formats
 
@@ -11531,7 +11572,19 @@ A pure function is idempotent and has no side effects.
 A ⟮c1;closure⟯ is the combination of ⟮c2;a callable unit⟯ and ⟮c3;the lexical environment⟯ (= ⟮c4;any variables that were in scope⟯) within which that function was declared.
 Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
-In rust, only closures create closures :P
+
+#### rust
+
+In rust, only closures create closures.
+In rust, there are three traits that indicate closures: Fn, FnMut and FnOnce.
+Rust decides whether our closure is fn, Fn, FnMut or FnOnce by looking at what the closure does
+the keyword `move` before a closure forces the closure to become `FnOnce` (take ownership).
+Rust only closes over the environment actually used
+In rust, closures don't necessarily need type annotations, however once a closure has been used with a certain type, rust fixes the types and other types become impermissible.
+fn|does not form closure (but still can be used as first-class value)
+Fn|forms closure of immutable references
+FnMut|forms closure of mutable references
+FnOnce|forms closure of owned values
 
 ### Anonymous, first-class, higher-order functions and callbacks
 
@@ -11558,14 +11611,15 @@ Node generally takes error-first callbacks.
 
 ##### which functions are first-class
 
-In JS, lua, python all functions are first-class. 
-In Ruby, Rust, only functions created with a special syntax are first-class, these are also anonymous.
+In JS, lua, python, rust all functions are first-class. 
+In Ruby, only functions created with a special syntax are first-class.
+While in rust only closures form closures, all functions are in fact first class. Even things written with the closure syntax actually become `fn` type functions if they don't actually close over anything. (tested)
 
 ##### types of first-class functions in statically typed languages
 
 In statically typed languages, first-class functions must have a type that describes them.
 \(<ts-param-list>\) => <return-type>|TS
-(Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
+(fn|Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
 
 <ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
 
@@ -11587,6 +11641,7 @@ In ruby and rust, parameters to blocks/closures are surrounded by |...|
 In ruby and rust, blocks/closures are surrounded by {}
 {|params| code...}
 In ruby, blocks may also be surrounded by do ... end
+In rust, one-line closures may have their curly braces left out.
 
 ##### ruby
 
@@ -11896,6 +11951,7 @@ Most programming languages allow creation of instances of record types.
 ### Principles
 
 Encapsulation refers to grouping together related things somehow, e.g. within records.
+In OOP, encapsulation is often used to mean bundling the data and the methods that operate on it in one construct
 Information hiding is hiding the internals of a thing from the  outside.
 
 ### Class and instance entities

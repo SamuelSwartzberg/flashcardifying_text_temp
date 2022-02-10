@@ -109,6 +109,14 @@ According to ⟮c9;the three-sector model⟯ of economics, economies develop {{c
 ⟮c3;SKUs⟯ are ⟮c4;unique identifiers⟯ for ⟮c5;distinct salable items⟯.
 ⟮c1;SKUs⟯ have ⟮c2;no specification or standard⟯, they are ⟮c2;arbitrarily specified by the seller.⟯
 
+## business entities
+
+### corporations
+
+#### Fortune 500
+
+The Fortune 500 contains the 500 largest US corporations by total revenue
+
 ## goods and services
 
 ### price
@@ -3137,6 +3145,18 @@ Normativity|Normalizes
 
 ### -
 
+#### hiding
+
+##### passing
+
+In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
+In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
+
+##### covering
+
+Covering is downplaying one's - identity by hiding or downplaying parts of the - identity.
+The requirement to cover is not so much to hide one's - identity to make it as unobtrusive to people with + identities as possible, or to give people with + identities the least amount of opportunity to attack / sanction one.
+
 #### phobia
 
 phobia|against|aspect of ism
@@ -3191,6 +3211,14 @@ Importantly, the cotton ceiling is the exclusion of trans people from considerat
 ###### cliff
 
 the ⟮c1;x cliff⟯ is the idea that even if ⟮c2;people with a - identity⟯) ⟮s4;s5;⟮c3;break through the glass ceiling⟯⟯, they are often given ⟮c4;executive positions⟯ during ⟮c5;periods of crisis/downturn⟯, where ⟮s5; ⟮c6;the risk of failure is highest⟯, e.g. ⟮s6;c7;Ellen Pao at reddit, Thresa May after brexit.⟯⟯ 
+
+###### statistics
+
+% of Fortune 500 CEOs
+identity|percentage
+female|5%
+black|1%
+gay|0.02%
 
 #### culture
 
@@ -3271,17 +3299,35 @@ The two strategies people use in performing ⟮c13;emotion work/labor (not sure 
 ⟮c12;emotion work/labor⟯ by ⟮c15;getting into a state where one genuinely feels the emotions⟯ is called ⟮c21;deep acting⟯ 
 ⟮c22;emotion work/labor ⟯ by ⟮c23;pretending, without changing how one actually feels⟯ is called ⟮c24;surface acting⟯ 
 
+# research & learning
 
-# academia
+## research
 
-## humanities
+### finding works
 
-### digital
+forwards search is starting with a work W and seeing which other works have cited W.
+backwards search is starting with a work W and seeing which works W has cited. 
+
+## writing
+
+### referencing
+
+#### plagiarism
+
+plagiarism is using someone else's intellectual/artistic products without proper attribution.
+
+## academia
+
+### humanities
+
+#### digital
 
 the ⟮c1;application of computational technologies/digital resources⟯ in ⟮c2;the humanities⟯ is known as ⟮c3;digital humanities⟯ 
 ⟮c4;digital history⟯ is ⟮c5;the intersection of history and digital humanities⟯ (While a bunch of theorists have complaints about this definition, I think it's the only sensible one) 
 
-## year of study
+### common
+
+#### year of study
 
 Year of study|Name
 ⟮c1;4th year of study⟯|⟮c2;Senior⟯
@@ -3289,7 +3335,16 @@ Year of study|Name
 ⟮c5;2nd year of study⟯|⟮c6;Sophomore⟯
 ⟮c7;1st year of study⟯|⟮c8;Freshman⟯
 
+#### 3-number notation
 
+Names such as 'English 101' come from a supposedly common 3-digit notation for university courses.
+While there is a system for 3-digit colledge course numbers, it is rarely followed.
+
+
+digit|means waht
+1st|college year (freshman, sophomore...)
+2nd|subject/department
+3rd|sequence within subject/department
 
 # theatre
 

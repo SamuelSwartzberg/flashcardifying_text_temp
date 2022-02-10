@@ -2663,11 +2663,15 @@ Gutters are whitespace between two rows or columns.
 
 ###### page
 
-####### pagination
+####### division
+
+######## pagination
 
 pagination/paging is dividing a given document into discrete pages.
 
-####### margins and indentation
+####### page layout
+
+######## margins and indentation
 
 ⟮h∞;<img src="220px-Margins.svg.png">⟯<p class="cloze-group-children hide-if-inactive-children">
 In typography, the ⟮c1;margin⟯ is ⟮c2;the area between⟯ ⟮c3;the main content of a page⟯ and ⟮c3;its edges⟯. 
@@ -2676,17 +2680,31 @@ In typography, text ⟮c9;being aligned with⟯ ⟮c10;the left margin⟯ is kno
 In typography, text ⟮c11;being aligned with⟯ ⟮c12;the right margin⟯ is known as ⟮c13;flush right⟯ / ⟮c13;right-aligned⟯. 
 ⟮c14;Indentation⟯ is ⟮c15;empty space⟯ at ⟮c16;the beginning of the line⟯ (so ⟮c17;it is no longer flush⟯) 
 When, e.g. due to ⟮c18;justification⟯, there are ⟮c19;gaps of white space⟯ ⟮c20;running across multiple lines⟯, these are called ⟮c21;rivers⟯. 
-</p>
 
-####### orphans and widows
+######## features
+
+A note is a string placed in a different place than the place it belongs to.
+notes most commonly include citation information or comments of some kind
+In a wider sense, a note consists of the note proper plus a pair of symbols/strings indicating whence the note, one for the location and one for the note.
+In english, it is common to indicate notes with supercripted numerals as <sup>n</sup> or <sup>[n]</sup>.
+Notes proper are generally gathered in a section just for notes.
+There are generally two kind of notes, footnotes and endnotes, depending in which section they are put.
+
+
+footnotes|bottom of the page
+endnotes|end of chapter/volume/work
+
+####### relationships between pages
+
+######## orphans and widows
 
 ⟮h∞;<img src="sm_BdflVyb4vu7o0q5hCeBkmu09nMn21opE.jpg">⟯⟮c1;Widows⟯ and ⟮c2;orphans⟯ refer to ⟮c3;stranded things⟯. 
 ⟮c4;Widows and orphans⟯ may either refer to ⟮c5;stranded words⟯ at ⟮c6;the beginning/end of paragraphs⟯, or ⟮c7;stranded lines⟯ at ⟮c8;the beginning/end of pages⟯. 
 There is no agreement on whether ⟮c9;widows or orphans⟯ refers to the things occurring at ⟮c10;the beginnings or ends⟯, that is, ⟮c11;one persons orphan⟯ is ⟮c12;another persons widow⟯. 
 
-###### organization of pages in larger works
+####### alternating pages
 
-####### verso and recto
+######## verso and recto
 
 Conceptually, ⟮c5;recto⟯ is ⟮c6;the front of the page⟯, while ⟮c5;verso⟯ is ⟮c6;the back of the page⟯. 
 ⟮c7;Recto⟯ is ⟮c8;the front of the page⟯ since ⟮c9;you will see it first if reading the book normally⟯, while ⟮c7;verso⟯ is ⟮c8;the back of the page⟯ since ⟮c9;you will only see it once turning the page if reading the book normally⟯. 
@@ -2788,14 +2806,14 @@ span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:
 
 
 
-####### left and right
+######## left and right
 
 We can divide pages into left and right pages depending on whether they will appear on the left or right first when reading the book in a normal direction.
 In all books, the first page is the cover.
 in LtR media, the second page will be a left page, and hence the cover is a right page
 in RtL media, the second page will be a right page, and hence the cover is a left page
 
-####### twosided
+######## twosided
 
 In latex, to ⟮c3;optimize a document for being two-sided⟯ (e.g. as in a ⟮c3;book⟯), include ⟮c2;twoside⟯ in ⟮c1;the optional argument [] of documentclass⟯
 In latex, to ⟮c3;make chapters etc. always open on a right page⟯&nbsp; include ⟮c2;openright⟯ in ⟮c1;the options [] of documentclass⟯
