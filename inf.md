@@ -9520,6 +9520,7 @@ Within type parameters, multiple type specifiers are separated by `, `.
 Generics are specified within type parameters.
 Names of generics are typically single characters.
 A generic of any type is typically indicated T
+Once the name of a generic is bound, any reference to that name refers to that generic.
 
 #### constrainment
 
@@ -9777,7 +9778,8 @@ If the nameofkey and the nameovariableyouwantthevariabletoendupin are the same, 
 In rust, there is a set of destructuring/pattern matching constructs that can only be used in enums or if let statements.
 
 putting an enum or struct with variable names inside in a match or on the left of an if-let will assign the variables to the values contained within.
-e.g. match { Some(foo) => ... } will match Some() containing some value and assign that to foo
+e.g. `match { Some(foo) => ... }` will match Some() containing some value and assign that to foo
+e.g. `match { Run{ distance: dist, direction: dir } => ... }` will match a `Run` and assign its distance field to dist and its direction field to dir.
 
 pattern matching checks if a thing matches a pattern.
 In rust, the destructuring syntax is part of the larger idea of pattern matching. (and the syntax that we use for destructuring is a subset of the syntax of patterns)
@@ -10078,6 +10080,9 @@ In a discriminated union, TS can narrow based on checking a shared field.
 
 ###### Rust
 
+in rust, tagged unions implements the tag by means of the name of the enum.
+in rust, tagged union variants may be tuples, structs, or unit-like
+
 ####### strum
 
 strum|enum &lt;-&gt; string manipulation
@@ -10123,6 +10128,13 @@ in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Er
 the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option<T> or Result<T, E> by cloning/copying
 
 Result<T, E>.ok() -> Option<T>
+
+######## ? operator
+
+In rust, the ? operator takes a `Result` or `Option`
+In rust, the ? makes a `Result` evaluate to the value inside the `Ok` if `Ok` or exit out of the nearest function, returning an `Err`.
+In rust, the ? makes a `Option` evaluate to the value inside the `Some` if `Some` or exit out of the nearest function, returning a `None`.
+The ? is implemented via the trait std::ops::Try
 
 ##### Nullable types
 
@@ -10563,6 +10575,11 @@ map-merge(foo, bar)|SCSS/Sass
 
 Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
 
+######## entries
+
+An entry is a view into one item in a assoc array.
+In rust, an `Entry` is an Enum with possible variants `Occupied`, `Bacant`
+in rust `Entry.or_insert` insets the key into the map if map is empty.
 Rust: Has the entry() function go get a Entry
 
 ####### assoc-array files
@@ -10876,10 +10893,38 @@ no easy way|JS
 
 ### Iterators
 
-An iterator is an object (or similar) whose purpose is to iterate over some data. In general, an iterator has a next() method that returns the next element.
+An iterator is an object (or similar) whose purpose is to iterate over some data. 
+An iterator has a next() method that returns the next element.
+Most other functionality that an iterator offers can be derived from the next() method
 An iterable is generally something that can create an iterator of itself.
+
+#### iterables
+
+Something being iterable is generally implemented as an interface.
 In ruby, iterables are called enumerables.
-In most languages that have iterables, most collections are iterable, as are strings and ranges. Java Strings are not, JS objects aren't either.
+In most languages that have iterables, most collections are iterable, as are strings and ranges. 
+Java Strings are not iterable, JS objects aren't either.
+
+##### iterable <-> iterator
+
+Iterables generally require explicit or implicit conversion to become/spawn iterators.
+iterables are always automatically converted to iterators|
+iterables are only automatically converted to iterators in loop contexts, manual conversion otherwise|rust
+
+
+In rust, you call `collect` on the iterator to turn it back into a data structure.
+
+###### rust
+
+In rust, iterators themselves must always be mutable, since calling next() changes the iterator.
+
+<iterable>.iter()|iterator of immutable references
+<iterable>.iter_mut()|iterator of mutable references
+<iterable>.into_iter()|iterator of owned values
+
+
+#### next()
+
 in JS, the next() method returns an assoc array {
   done: bool,
   value: ...
@@ -10897,6 +10942,10 @@ Returning the current iterator element
 yield|JS
 
 yield another generator (JS) yield*
+
+### iterator methods
+
+someIter.{{c1::zip}}() takes {{c2::two iterators}} and returns {{c3::a new iterator}} which will for each call to {{c4::next()}} return a {{c5::tuple}} with the values {{c6::the other two would have returned}} with {{c4::next()}}
 
 ### Strings
 
@@ -11520,6 +11569,8 @@ The deep nesting of callbacks that result in unreadability is known as callback 
 Error-first callback look like  (err, value) => ...
 Node generally takes error-first callbacks.
 
+In rust, most higher-order functions can only be called on iterators
+
 #### map
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
@@ -11554,7 +11605,7 @@ foo.sort()|JS (takes an optional sort function, only Arrays)
 #### filter
 
 Filter in a narrow sense is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
-filter()|JS
+filter()|JS|Rust
 
 #### reduce
 
@@ -11571,6 +11622,8 @@ reduce()|JS|Ruby|Python
 some is a higher order-function that takes a function and returns true if the passed function returns true even once.
 every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
 JS
+
+python has the functions any(iterable) and all(iterable), that merely return the result of calling bool() on each item, not taking any higher-order function
 
 #### find
 
@@ -12096,7 +12149,7 @@ PEP 8|Python
 The main purpose of modules is encapsulation.
 A module is as self-contained set of code.
 Most commonly, a module is defined by each code file.
-In Rust, modules are instead defined manually via mod <name> { ... }
+In Rust, modules are instead defined manually via mod <name> { ... }, or via `mod <filename>`
 Packages and modules are sometimes synonyms.
 conta
 In python, a package is a collection of modules (and perhaps other packages).
@@ -12117,9 +12170,17 @@ Most languages have a number of things that are automatically imported. Rust (an
 #### Rust
 
 Rust allows nesting of modules in a module tree.
-In rust, the root node of the module tree `crate`, sometimes called the crate root.
-rust allows for both absolute and relative paths for the module tree, where absolute paths start at the crate root, and relative paths start at the current module.
-calling `mod` without arguments integrates an existing rust file as a child of the module we're currently in in the module tree, however the file structure must also reflect this.
+In rust, the root node of the module tree is `crate`, sometimes called the crate root.
+The crate root serves as the entry point for the rust compiler.
+rust allows for both `use`ing/referring absolute and relative paths for the module tree, where absolute paths start at the crate root, and relative paths start at the current module.
+Rust's module nesting is defined either directly by nesting `mod <name> {...}`s or by a combination of file hierarch and `mod <filename>`
+calling `mod <filename>` without a block argument integrates an existing rust file as a child of the module we're currently in in the module tree, however the file structure must also reflect this.
+
+Rust also allows having multiple crates with independent module trees in the same package.
+In rust, there are two types of crates, binary and library.
+A package can contain 0-1 library crates and 0-∞ binary crates.
+the crate root for binary crates is called main.rs.
+the crate root for library crates is called lib.rs
 
 #### JS
 
@@ -13040,11 +13101,30 @@ console.time(), console.timeLog() & console.timeEnd()|measure elapsed time in ru
 ### dates
 
 most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
+
+#### js
+
 In js, ⟮c2;Unix time⟯ is almost always interacted with in ⟮c1;milliseconds⟯, 
 as opposed seconds, which is more standard
 the `⟮c1;Date.parse()⟯` method takes ⟮c2;a date in a few common formats⟯ and outputs ⟮c3;Unix time (in millis, as is common in JS)⟯
 `⟮c1;new Date()⟯` takes ⟮c2;Unix time milliseconds⟯ and returns ⟮c3;a `Date`⟯
 `⟮c1;someDate.toISOString()⟯ ` returns the datetime ⟮c2;as ISO 8601⟯
+
+#### rust
+
+In rust, the most featureful library to use to interact with dates is chrono.
+chrono has `Date` and `DateTime` to represents dates and datetimes, which both take a type parameter of the `TimeZone`.
+chrono also has `NaiveDate`, `NaiveDateTime` and `NaiveTime` to represents dates, datetimes and times without timezone awareness.
+In generaly chrono structs implement traits in such a way that you can use standard arithmetic operators for them.
+In general, using arithmetic operations in chrono calls the underlying `checked_<operation>_signed` method
+chrono has three `TimeZone`s, `Utc`, `Local` and `FixedOffset`
+`Local` or `Utc` (but not `FixedOffset`) :: `today()` or `now()` produce a new `Date` or `DateTime` with the speciied timezone.
+Behavior of things that work {{c1::like dates}} / {{c1::like times}} is standartized in the {{c2::traits}} {{c3::Datelike}} and {{c3::Timelike}}
+you can get {{c1::the time components}} of {{c4::Timelike}} using {{c2::the length you want as a method}} (e.g. hours -&gt; {{c3::sometimelike:​:hours()}})
+you can get {{c1::the date components}} of {{c4::Datelike}} using {{c2::the date component you want as a method}} (e.g. months -&gt; {{c3::somedatelike:​:month()}})
+chrono represents durations with `Duration`
+for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
+For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
 
 ### Standard library
 
@@ -13147,6 +13227,11 @@ TypeScript is a superset of javascript.
 ### Things programming languages do especially well
 
 performance|rust
+
+### language governance
+
+After being dropped by mozilla, the rust foundation has taken over the governance of Rust (as of 2021)
+The rust foundation is made up of major industry players like microsoft, google, huawei, mozilla.
 
 # CompSci
 
@@ -14099,6 +14184,10 @@ expo's bare workflow allows you to pick and choose whichc parts of expo to use
 to test an app using expo on a phone, you need to install the expo client app on your device
 If you want to use the bare React Native workflow, you will have to set up your target's devtools
 
+### language installation & setup
+
+rustup is the rust installer
+
 ### dependencies
 
 A dependency is a piece of software another piece of software relies on.
@@ -14179,6 +14268,15 @@ package-with-features ::= <package-name> = \{ version = "<semver-version-specifi
 
 A repository is anything that stores software.
 Often, a repository either stores the code of a VCS, or packages of a certain type.
+
+### project structure
+
+#### rust
+
+./src
+./tests
+./examples
+./benches
 
 ### build tools
 
@@ -14406,11 +14504,17 @@ TS changes referring to a lin col index outside of bounds or a nonextand assoc a
 JS allows indexing strings via the charAt method.
 
 Dot notation ⟮c1;object⟯⟮c1;.⟯⟮c1;member⟯
+Most languages use dot notation for accessing members of records.
+Some languages also use dot notation for access of assoc arrays.
+In Rust, also tuples are accessed via dot notation, but arrays are not.
 dot notation: TOML also 
 string keys of tables lua
 members of objects in lua
 but: not method calls, use : instead
-In Rust, of the collection types, tuples are accessed via dot notation, an arrays are accessed via square bracket notation
+
+Some languages have a scope resolution operator, which is typically used instead of dot notation for namespace resolution, for calling static members of classes, and for variants of enums.
+The scope resolution operator is typically `::`.
+The scope resolution operator comes from C++ and is used in ruby, rust.
 
 While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
 TS makes referring to {{c3::nonexistent properties}} an {{c1::error}}, rather than {{c2::returning undefined}}
