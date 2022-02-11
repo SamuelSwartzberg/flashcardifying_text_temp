@@ -1062,53 +1062,91 @@ prefix|10<sup>?</sup>
 The ⟮c16;SI⟯ has ⟮c17;7⟯ ⟮c18;base units.⟯ 
 From ⟮c19;the 7 SI base units⟯, ⟮c20;all other SI units can be derived.⟯ 
 
+###### 7 SI base units
 
-
-    <tr><th colspan="3">7 SI base units
 unit name|unit symbol|measure
 ⟮c1;kilogram⟯|⟮c2;kg⟯|⟮c3;mass⟯
 ⟮c4;metre⟯|⟮c5;m⟯|⟮c6;length⟯
 ⟮c7;second⟯|⟮c8;s⟯|⟮c9;time⟯
 
 
-##### by unit
+### derived from SI/metric units
 
-
-
-
-    <tr><th colspan="3">non-base SI units
-unit name|unit symbol|measure
-⟮c10;joule⟯|⟮c11;J⟯|⟮c12;energy⟯
-
-
-###### length
+#### length
 
 The ⟮c1;quart⟯ ⟮(c:3;s1;q⟯) is exactly ⟮c2;1/4 mm⟯. 
 
-###### temperature
+#### temperature
 
 ⟮c1;Kelvin⟯ (unit symbol ⟮c2;K⟯)
 Temperature (K)|Significance
-        ⟮c3;0⟯
-      |
-        ⟮c4;Absolute zero⟯
+⟮c3;0⟯|⟮c4;Absolute zero⟯
 
+##### ⟮c1;Celsius⟯:
 
-<h2>
-   ⟮c1;Celsius⟯:
-</h2>
 Temperature (°C)|Significance
 ⟮c2;0⟯|⟮c3;water freezes (at 1 atm pressure⟯)
 ⟮c4;100⟯|⟮c5;water boils (at 1 atm pressure⟯)
 ⟮c6;-273.15⟯|⟮c7;absolute zero⟯
 
+#### volume
+
+teaspoon|tsp.|5ml
+tablespoon|tbsp.|15ml
+
+#### energy
+
+unit name|unit symbol|measure
+⟮c10;joule⟯|⟮c11;J⟯|⟮c12;energy⟯
+
+#### weigth
+
+⟮c5;t⟯|⟮c6;tonne⟯|⟮c7;1000kg⟯
 
 ### non-metric
 
-Symbol|Unit|in SI base units
+#### imperial & US customary
+
+The {{c1::Units used in the british empire (after 1826)}} are known as {{c2::Imperial units/system}}.
+the {{c3:: Units used in the US }} are known as {{c4:: United States customary units }}.
+However, {{c5::imperial units}} is often {{c6::falsely}} used as {{c7::a synonym for USC units as well}}.
+In general, many units are shared between USC and imperial units, but there are also significant differences.
+
+##### temperature
+
+Fahrenheit has the unit symbol °F.
+An increase of 1°F corresponds to an increase of 1°
+The distance between water melting and boiling in Fahrenheit is 180 degrees
+
+
+Temperature (°F)|Significance
+32|Water melts
+98|Human body temperatue
+212|Water boils
+
+##### length
+
+Symbol|Unit
 ⟮c1;′ (is the prime, not apostrophe⟯)|⟮c2;foot⟯
 ⟮c3;″ (is the prime, not apostrophe⟯)|⟮c4;inch⟯
-⟮c5;t⟯|⟮c6;tonne⟯|⟮c7;1000kg⟯
+
+1 yard|3 feet|36 inches|91.5cm
+0.33 yard|1 foot|12 inches|30.5cm
+1/36 yard|1/12 foot|1 inch|2.54cm
+~0.011 yard|~0.033 foot|~0.4 inch|1cm
+
+1 mile|1.6(1) km
+1 mile|1760 yards
+
+##### speed
+
+1 m/s|3.6 km/h
+~0.28 m/s|1 km/h
+
+##### weight
+
+
+
 
 
 ## pareto principle

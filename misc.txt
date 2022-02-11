@@ -224,6 +224,10 @@ An ⟮c5;econ⟯ would always ⟮c6;make the best decision given a set of altern
 
 #### cognitive bias
 
+##### halo effect
+
+The halo effect is the cognitive bias where positive impressions of something in one area  positively influences one's opinion about that thing in a different (generally unrelated) area
+
 ##### magical thinking
 
 ⟮c6;magical thinking⟯ is the way of thinking that posits ⟮c7;that two events are causally connected⟯, ⟮c8;even though there is no plausible causal link⟯.
@@ -3087,7 +3091,10 @@ By ⟮c9;transforming⟯ ⟮c10;lone wolves⟯ ⟮c9;into⟯ ⟮c10;instances of
 
 ## structural system
 
-### isms
+### names
+
+
+#### different isms
 
 
 ism||additional constraints
@@ -3121,18 +3128,12 @@ ism||additional constraints
 allism|+:not autistic, -:autistic
 workism|+:work, working, career, -:not working, no career
 culture|+:our culture, -:their culture
+lookism|+:attractive people, -:unattractive people
+larkism|+:getting up early, -:getting up late
+audism|+:hearing, -:hearing-impaired, deaf
 
-
-### archy miso ism
-
-Philosopher ⟮c1;Kate Manne⟯ in her book "⟮c2;Down Girl⟯" ⟮(c:5;2017⟯) provides the most popular ⟮c4;differentiation between⟯ ⟮c3;sexism⟯, ⟮c3;patriarchy⟯ and ⟮c3;misogyny⟯ 
-Kate Manne, Down Girl: ⟮c5;Patriarchy⟯ is ⟮c8;the power structure⟯ that ⟮c9;is justified by⟯ ⟮c10;the ideology⟯ of ⟮c5;sexism⟯ and ⟮c6;enforced by⟯ ⟮c7;the law enforcement arm⟯, ⟮c5;misogyny⟯ 
-
-### + 
 
 #### normativity
-
-x normativity normalizes the + of the relevant ism
 
 Normativity|Normalizes
 ⟮c1;Heteronormativity⟯|⟮c2;+ of Heterosexism (heterosexuality⟯)
@@ -3141,23 +3142,9 @@ Normativity|Normalizes
 ⟮c7;Allonormativity⟯|⟮c8;+ of allosexism ((being) allosexual⟯)
 ⟮c9;Ablenormativity⟯|⟮c10;+ of (dis)ablism ((being) able⟯)
 ⟮c11;Carnionormativity⟯|⟮c12;+ of carnism (consuming animal products⟯)
+mononormativity|+ of monoganism (being monogamous)
 
-
-### -
-
-#### hiding
-
-##### passing
-
-In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
-In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
-
-##### covering
-
-Covering is downplaying one's - identity by hiding or downplaying parts of the - identity.
-The requirement to cover is not so much to hide one's - identity to make it as unobtrusive to people with + identities as possible, or to give people with + identities the least amount of opportunity to attack / sanction one.
-
-#### phobia
+#### -phobia
 
 phobia|against|aspect of ism
 ⟮c1;Biphobia⟯|⟮c2;s∞;us1;bisexual people⟯|⟮c3;s∞;us1;heterosexism⟯
@@ -3176,19 +3163,124 @@ phobia|against|aspect of ism
 ⟮c40;vegaphobia⟯|⟮c41;s∞;us40;vegan people⟯|⟮c42;s∞;us40;carnism⟯
 ⟮c43;glottophobia⟯|⟮c44;s∞;us43;certain groups of language users⟯|⟮c45;s∞;us43;linguicism⟯
 
+### kate manne
 
-#### chasers
+Philosopher ⟮c1;Kate Manne⟯ in her book "⟮c2;Down Girl⟯" ⟮(c:5;2017⟯) provides the most popular ⟮c4;differentiation between⟯ ⟮c3;sexism⟯, ⟮c3;patriarchy⟯ and ⟮c3;misogyny⟯ 
+Kate Manne, Down Girl: ⟮c5;Patriarchy⟯ is ⟮c8;the power structure⟯ that ⟮c9;is justified by⟯ ⟮c10;the ideology⟯ of ⟮c5;sexism⟯ and ⟮c6;enforced by⟯ ⟮c7;the law enforcement arm⟯, ⟮c5;misogyny⟯ 
+
+### +/-
+
+any ism describes a structural system fundamentally defined by the contrast between two states/attributes, real or supposed.
+For any ism, one state gets accorded significantly more of a bunch of positive stuff (influence, value, care, visibility etc.) while the other state gets accorded less or the opposite of this positive stuff, hence I call these states the + and - identity respectively.
++ and - also get other traits attached to them, creating two characters/charicatures, which are also placed in a contrastive relationship, which I call +traits and -traits as well as +characters and -characters.
++ and - also have a set of traits that constitute ideals for +/-ists, which is called hegemonic +/-ity.
++ and - also of course create two groups of people who are in a + and a - state respectively, which I will call +ists and -ists respectively.
+the experience that people with +/- identities = +/- experiences
+Ambiguity is generally not tolerated, + and - are meant to be disjoint and S+ ∩ S- = U.
+The power structure that an -ism establishes is called an -archy.
+The totality of benefits that accrue to +ists because of an ism is »priviledge«.
+
+#### being-seen
+
+throughout discourse (in the wide focaultian sense), +ists as well as the +experience is prioritized, thus the visibility of -ists and their experience is reduced:
+
+x-normativity normalizes the + identity, experience and being a +ist of the relevant ism.
+x-centrism places the + experience at the center of concern in a wide variety of areas, such that the + experience becomes enmeshed in the fabric of the social and built world.
+Often x-normativity gives rise to one or more υ-cultures.
+The sanctions that -ists face are such that many hide their - identity (stealth & passing), thus the visibility of the - identity is further reduced.
+
+Lack of visibility of - experiences, - identities, and -ists constitutes »erasure«.
+
+The various ways in which the + experiences is prioritized and - visibility is reduced leads to low understanding for the - experience.
+The - experience being not well understood is strengthened by and leads to more covering.
+the - experience being not well understood and the traits associated with the -often leads to victim-blaming in response to violence against -ists.
+
++ traits are seen as (morally/value) good, and - traits as (morally/value) bad
+- traits are seen to contain the seeds of evil, leading to a number of tropes with this premise.
+- traits being seen as bad encourages pick-me x to act in such a way, in turn strenthening the idea of - traits as bad.
+Due to - identity and traits being seen as undesirable, people with a - identity should wish to have a + identity instead.
+x hegemony is the hierarchy between hegemonic +istity and hegemonic -istity.
+x-normativity often causes equality to be identified as everyone becoming more like hegemonic +istity.
+Besides the violence that having a - identity incurs, a mismatch between actual traits and traits expected by hegemonic - ity can produce sanctions, but so can having actual traits expected by hegemonic - ity = the double bind.
+
++ fragility is the state in which having {{c3::the relevant ism privilege mentioned}}, even {{c5::in a minor way}}, {{c6::triggers a deep defensive response}}. This reaction functions (on a societal level if not consciously) to {{c4::maintain the current -ism order}}
+
+##### details
+
+###### culture
+
+υ culture, where υ is an aspect of the - experience is the pervasiveness and normalization of υ.
+υ culture often gives rise to victim-blaming.
+
+similarly but slightly differently, ⟮c1;Car culture⟯ (when it doesn't just mean ⟮c2;an appreciation for cars⟯) refers to ⟮c3;a culture/environment/society which is designed for and around cars.⟯
+
+###### passing & stealth
+
+In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
+In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
+To go/be/live stealth is to hide that one is the -value state of an ism, and especially that one is trans.
+
+###### covering
+
+Covering is downplaying one's - identity by hiding or downplaying parts of the - identity.
+The requirement to cover is not so much to hide one's - identity to make it as unobtrusive to people with + identities as possible, or to give people with + identities the least amount of opportunity to attack / sanction one.
+
+###### victim-blaming
+
+Victim blaming occurs when the victim of a crime or any wrongful act is held entirely or partially at fault for the harm that befell them.
+
+###### depiction in media/discourse
+
+####### death
+
+Though it is not true for every ism, in generally characters with - identities are more likely to die, or die first.
+
+ism|TVtropes trope|details
+racism|Black Dude Dies First|(despite name, any non-white character)
+sexism|Vasquez Always Dies|(mostly transgressive, 'masculine' women, despite the fact these should be more apt to survive (A/N: Really though? Masculinity is associated with unnecessary risk-taking etc.))
+hetero & cissexism|Bury Your Gays, Gay Guy Dies First
+sexism|Slashers Prefer Blondes & Final Girl|The blonde girl 'tainted by sexuality' dies first, while the final girl, who is 'pure' survies until the end.
+ablism|Bury Your Disabled
+
+####### evil
+
+Any - identity has certain characteristics that 'explain' how they could easily become evil, hence villains tend to have one or more - identity. 
+hetero/cissexism, ablism and sanism seem to produce - identity as villains especially frequently.
+
+
+Sexism|"Woman as temptress"
+Heterosexism|"Depraved Homosexual",
+"Psycho Lesbian",
+"Depraved Bisexual"
+Ableism|"Evil Cripple"
+Cissexism & Sexism|"Sissy Villain", 
+"Makeup Is Evil", 
+"Creepy Crossdresser"
+Sanism|Crazy Villain
+Allosexism|"Villainous Aromantic Asexual"
+
+
+###### chasers
 
 A ⟮c1;chaser⟯ ⟮c2;fetishizes⟯ and thus ⟮c3;pursues⟯ ⟮c4;the - group of an ism⟯.˛ 
 
-#### pick me
+###### pick me
 
 A pick me x (girl/gay/whatever) is a - person who tries to distinguish themselves from other - people by separating themselves from traits associated with - by treating those traits negatively, in order to gain approval from + people.
-By treating traits associated with - negatively, pick me x's strengthen the association of - with negative status.
 
-#### economics
+###### medical and social models
 
-##### pay gap
+Many {{c1::isms}} have {{c2::a medical model}} and {{c2::a social model}} of {{c3::what it is to be a -value person}}. 
+The {{c1:: social model}} of {{c2::being a -value person}} argues that {{c3::society creates the - and + identities}} from {{c4::the way it's structured/its inherent problems}}
+The {{c1::medical model}} of {{c2::being a -value person}} argues that one {{c3::should aim to}} {{c5::move from -value to +value}} if possible, if not, one should {{c3::focus on}} {{c6::seeming +value}}, and if that's not possible, one should {{c4::be erased}} (often via {{c4::special institutions}}).
+
+#### violence
+
+-ists suffer varied forms of structural and behavioral violence.
+
+##### economics
+
+###### pay gap
 
 The ⟮c1;x pay gap⟯ or ⟮c1;x wage gap⟯ is the ⟮c2;difference between the remuneration⟯ ⟮c4;for - group and + group of an ism⟯ for ⟮c3;work⟯. 
 There are two forms of ⟮c5;x pay/wage gap⟯, ⟮c6;non-adjusted⟯ and ⟮c7;adjusted.⟯ 
@@ -3197,7 +3289,7 @@ The ⟮c12;adjusted⟯ ⟮c9;pay gap⟯ ⟮c13;adjusts for factors such as emplo
 The pay gap that it was coined for was the ⟮c14;gender pay gap⟯, there is however also ⟮c15;strong evidence for pay gaps for other - groups,⟯ such as ⟮c16;the race pay⟯ gap. 
 For ⟮c17;intersectional identities⟯, ⟮c18;pay gaps⟯ can be ⟮c19;stark indeed⟯, for example, ⟮c20;black women⟯ are payed ⟮c21;63 cents⟯ and ⟮c22;latina women⟯ just ⟮c23;55 cents⟯ (both ⟮c24;non-adjusted) ⟯ for ⟮c25;each dollar a white man makes.⟯ 
 
-##### ceiling
+###### ceiling
 
 the x ceiling is the unofficial/uncodified/'invisible' limit on career advancement that people with a certain - identity face.
 heterosexism|lavender ceiling
@@ -3208,11 +3300,11 @@ classism|class ceiling
 
 Importantly, the cotton ceiling is the exclusion of trans people from consideration as sexual partners, not anything to do with employment.
 
-###### cliff
+####### cliff
 
 the ⟮c1;x cliff⟯ is the idea that even if ⟮c2;people with a - identity⟯) ⟮s4;s5;⟮c3;break through the glass ceiling⟯⟯, they are often given ⟮c4;executive positions⟯ during ⟮c5;periods of crisis/downturn⟯, where ⟮s5; ⟮c6;the risk of failure is highest⟯, e.g. ⟮s6;c7;Ellen Pao at reddit, Thresa May after brexit.⟯⟯ 
 
-###### statistics
+####### statistics
 
 % of Fortune 500 CEOs
 identity|percentage
@@ -3220,19 +3312,27 @@ female|5%
 black|1%
 gay|0.02%
 
-#### culture
+#### resistance
 
-x culture, where x is an aspect of the - experience is the pervasiveness and normalization of x.
-x culture often gives rise to victim-blaming.
+For any ism, the dominant position is that -ists should stay invisible and quiet, to allow for erasure.
+Thus, hegemonic -ity always includes not aiming to upset the status quo.
 
-similarly but slightly differently, ⟮c1;Car culture⟯ (when it doesn't just mean ⟮c2;an appreciation for cars⟯) refers to ⟮c3;a culture/environment/society which is designed for and around cars.⟯
+#### consciousness
 
-#### victim-blaming
+We might say political consciousness is seeing/recognizing the relevant ism as structuring the world (at least in part), coming to realize your part in a community of -ists, and thus understanding {{c7::problems}} and {{c7::remedies}} in {{c8::terms of political action}}
+ergo: race-consciousness -> political consciosuness regarding racism etc.
+false consciousness is the failure to gain political consciousness or to gain the wrong sort of political consciousness.
 
-Victim blaming occurs when the victim of a crime or any wrongful act is held entirely or partially at fault for the harm that befell them.
-Victim blaming is common when someone has been victim of violence based on one's - experience.
+##### origin: class consciousness
+
+{{c1::class consciousness}} (in a sort of general sense) is {{c2::political consciousness}} (in the sense of {{c2::seeing one's experience and struggle as part of a group}}) of {{c3::social classes}}, and since it's a {{c4::marxist}} term, esp. of {{c4::the proletariat}} and {{c4::the capitalists}}. {{c1::Class consciousness}} is the {{c5::original}} term, is {{c6::more common}} than {{c2::political consciousness}} as a term, and is thus also {{c6::often used as a synonym.}}
+<a href="https://www.britannica.com/topic/class-consciousness">https://www.britannica.com/topic/class-consciousness</a>, <a href="https://www.sciencedirect.com/topics/social-sciences/class-consciousness">https://www.sciencedirect.com/topics/social-sciences/class-consciousness</a>
+
 
 ## more than one identity
+
+The kyriarchy is the -arch of multiple or all -archys at the same time.
+within {{c1::kyriarchy}} people may be {{c2::both opressor and opressed}} at the same time or at different times. Originally but not always imagined as a {{c3::pryramid}}.
 
 ### intersectionality
 
@@ -4104,11 +4204,26 @@ effect|direction
 ⟮c1;four-stage breathing techniques⟯ (roughly equivalent to ⟮c2;pranayama⟯) consists of the steps ⟮sb;⟮c3;Breathe in⟯ ⟮sb;⟮c4;Hold⟯ ⟮sb;⟮c5;Breathe out⟯ ⟮sb;⟮c6;hold⟯.⟯⟯⟯⟯  
 Often, ⟮c7;the four steps of four-stage breathing/pranayama are the same length⟯, in that case, it is often called ⟮c8;box/square breath⟯. Commonly, each step is held for ⟮c9;4-5⟯s. 
 
-## english words
+## english 
+
+### syntax
+
+#### word classes
+
+##### prepositions
 
 Word|Today more commonly|example
 ⟮c1;whither⟯|⟮c2;to where⟯
 ⟮c3;whence⟯|⟮c4;from where⟯|⟮c5;s3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯
 
+#### morphology
+
+##### greek
+
+miso|prefix|hatred
+andr|any position|men/male, male partner, male reproductive organ
+gyn|any position|woman/female, female partner, female reproductive organ
+
+### words
 
 Something ⟮c1;phallic⟯ is ⟮c3;shaped like⟯ or ⟮c3;otherwise like⟯ a ⟮c2;penis⟯, something ⟮c4;yonic⟯ is ⟮c5;shaped like⟯ or ⟮c5;otherwise like⟯ a ⟮c6;vagina⟯ 

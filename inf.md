@@ -5295,6 +5295,12 @@ symbol|command(s)|requires package
 ∖|set difference/relative complement
 ⟮c25;\o⟯|⟮c26;ø⟯
 
+######### comparison operators
+
+⟮c17;\leq⟯|⟮c18;≤⟯
+⟮c19;\geq⟯|⟮c20;≥⟯
+⟮c21;\approx⟯|⟮c22;≈⟯
+
 ######### various symbols
 
 
@@ -5309,13 +5315,11 @@ command|symbol
 ⟮c5;\cdots⟯|⟮c6;an ellipsis slightly below the midline ⋯⟯
 
 
-⟮c17;\leq⟯|⟮c18;≤⟯
-⟮c19;\geq⟯|⟮c20;≥⟯
-⟮c21;\approx⟯|⟮c22;≈⟯
 
 
 ⟮c23;\infty⟯|⟮c24;∞⟯
 \prime|′ (the prime)
+\degree|°
 
 
 ⟮c9;\dots⟯ ⟮c10;is equivalent to \ldots⟯ in ⟮c11;vanilla latex⟯. 
@@ -9170,6 +9174,13 @@ major|incompatible changes to existing API
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
 ### date & time
+
+#### Unix time
+
+Unix time measures seconds passed since the unix epoch.
+The unix epoch is the datetime at which unix time starts.
+The unix epoch is 1970-01-01T00:00:00 UTC. 
+Unix time is also called various other things including unix, posix, epoch, and time, none of them correct.
 
 #### datetimes
 
