@@ -269,7 +269,12 @@ Generation|Start|End|Nicknames
 ⟮c5;Generation Z⟯|⟮c6;~1995⟯|⟮c6;~2010⟯|⟮c9;s∞;Zoomers⟯
 ⟮c7;Generation α⟯|⟮c8;~2010⟯|⟮s8;???⟯
 
+### population pyramid
 
+<img src="sm_world_population_2017.jpg">
+A population pyramid indicates age brackets on the y axis
+a population pyramid indicates amount of pepople on the x axis
+A population pyramid's indication of population is generally split {{c1::into sex}}
 
 ### birth rate/fertility
 
@@ -342,6 +347,13 @@ The fact of the existence of missing women is caused by ⟮c17;sexism⟯, and ma
 
 ## marxist
 
+### base and superstructure
+
+base|forces and relations of production
+superstructure|culture, institutions, rituals, states, etc.
+In marxism, society consists of two parts, the base and the superstructure.
+In marxism, the base and superstructure reciprocally influence each other, but the base is predominant.
+
 ### universal equivalent
 
 To marx, ⟮c1;the measure⟯ by which ⟮c2;all commodities⟯ are ⟮c3;compared and exchanged⟯ is known as  ⟮c4;the universal equivalent.⟯
@@ -355,6 +367,13 @@ form|corresp. value|explanation
 ⟮c11;natural form⟯|⟮c12;use value⟯|⟮c13;actual tangible form (the actual physical form, e.g. cloth, iron, etc.⟯)
 ⟮c8;value form⟯|⟮c9;exchange value⟯|⟮c10;a good in relation to different commodities (e.g. 20 yards of linen = 1 coat⟯)
 
+### labor
+
+#### reproductive labor
+
+reproductive labor is the work that reproduces other labor.
+Reproductive labor is absolutely necessary - without reproductive labor, there would be no labor at all.
+Reproductive labor consists of chores and childrearing.
 
 ## areas
 
@@ -432,6 +451,14 @@ x-industrial complex is a snowclone attributing the entrenchment of the power of
 military|defense industry
 prison|for-profit prisons
 
+### sovereignty
+
+#### statism
+
+Statism is having political authority rest in the state is in some way legitimate.
+Statism in a weak sense is the political authority of the state is legimate to some degree.
+Statism in a strong sense is the political authority of the state is the best place for poltical authority to be.
+
 ## political communication
 
 ### medium
@@ -508,7 +535,7 @@ Finally, whitewashing has come to mean making something more palletable to white
 
 ### freedom of speech
 
-#### censorship
+#### suppression of speech
 
 ##### impressumspflicht
 
@@ -516,6 +543,10 @@ Finally, whitewashing has come to mean making something more palletable to white
 The main law ⟮c5;requiring an Impressum⟯ in the Internet is ⟮c6;the Telemediengesetz⟯, if ⟮c7;you are offering services⟯, also ⟮c8;the  Dienstleistungs-Informationspflichten-Verordnung⟯ 
 The main requirement for an ⟮c9;impressum⟯ is "⟮c10;leicht erkennbar⟯, ⟮c11;unmittelbar erreichbar,⟯ ⟮c12;ständig verfügbar⟯" 
 ^Historically, the German impressum requirement has its roots in the censorship laws of 19th century and earlier monarchies, and has been criticized as illiberal and contrary to the principle of free speech; in most other countries there is no comparable requirement.
+
+##### chilling effect
+
+A chilling effect is an effect that reduces or supresses the exercise of rights or the expression of speech, mostly by self-policing.
 
 #### paradox of tolerance
 
@@ -1032,6 +1063,14 @@ compass rose
 A ⟮c1;s2;geographic information system⟯ ⟮(c:2;GIS⟯) is ⟮c3;software⟯ that allows ⟮c4;analysis/handling of geographic data digitally⟯ 
 
 ## physical geography
+
+### coastal geography
+
+#### landforms (of coastal geography)
+
+https://www.researchgate.net/profile/Timothy-Ward-3/publication/269850894/figure/fig1/AS:295065474879489@1447360499593/The-Great-Australian-Bight-GAB-showing-the-coastline-of-southern-Australia-grey-The.png
+A bight at its most general is just any kind of curve anywhere.
+A bight in coastal geography is a curve in a coastline/river that is only slightly recessed (ergo broad), open/unobstructed, and shallow.
 
 ### weather
 
@@ -1721,6 +1760,7 @@ Campbell divides the monomyth into these parts (chronologically):
 
 ## structuralism
 
+CLS studied myth from the perspective of structuralism.
 ⟮c1;CLS⟯ elaborated his ⟮c2;structuralist⟯ approach to myth in  『⟮c3;The Structural Study of Myth⟯』 ⟮(c:4;1955⟯) 
 The ⟮c5;paradox of myth according⟯ to CLS is that ⟮c6;anything can happen in a myth⟯, but that ⟮c7;myths are similar across cultures⟯. 
 According to CLS, ⟮c8;myth⟯ is its own form of ⟮c9;langue⟯, that is, its own ⟮c10;structuralist system⟯ 
@@ -1771,6 +1811,36 @@ The ⟮c5;panopticon⟯ was designed by ⟮c6;Jeremy Bentham⟯, and used as a m
 ⟮c2;a community of practice⟯ is ⟮c3;a set of people⟯ who ⟮c4;come together⟯ via ⟮c5;mutual engagement⟯ ⟮c1;in a common endeavor⟯ 
 In ⟮c6;their engagement in their endeavor⟯, what emerges ⟮c7;in a community of practice⟯ are ⟮c8;Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
 
+## society of/and...
+
+### technology
+
+#### gartner's hype cycle
+
+<img src="gartner_hype.svg">|gartner's hype cycle (seems to hold relatively rarely)
+
+## culture
+
+### subcultures
+
+#### free culture
+
+FOSS|Free and open source software
+
+##### remix
+
+Read-only culture and read/write culture were coined by lawrence lessig.
+
+
+table:read-only culture|media is consumed passively
+read-write culture|media is changed, derivative works are made
+
+#### internet culture
+
+##### fora
+
+OP|Original Poster
+
 # gender studies
 
 ## feminism
@@ -1802,7 +1872,16 @@ From "⟮c4;The Second Sex⟯" by ⟮c5;Simone de Beavoir⟯, the famous stateme
 The ⟮c1;National Organization for Women⟯ ⟮(c:1;NOW⟯) was founded  in ⟮c2;1966⟯ and led by ⟮c3;Betty Friedan⟯ 
 The ⟮c1;Feminine Mystique⟯ is a book by ⟮c2;Betty Friedan⟯ that is widely credited with ⟮c3;sparking the beginning of second-wave feminism⟯ in the United States. 
 
+{{c1::The Woman-Identified Woman}} (by {{c12::Radicalesbians}}) argues that {{c2::heterosexuality}} necessarily leads to women {{c3::serving/spending their time on}} and {{c4::defining themselves by/as a negative to (in a Master-Slave dialectic sense))}} men (the whole package is called a "{{c6::man-identified woman}}"), leaving her {{c7::empty}}. Only via turning towards {{c8::lesbianism}} can a woman first {{c9::recognize her own slaveness/otherness/emptiness}}, and thus not {{c10::merely be defined by a negative}}, but {{c10::by herself and her sisterhood with other women}} (and become a "{{c11::woman-identified woman}}")
+
 ⟮c1;Adrienne Rich⟯ was a influential ⟮c2;lesbian⟯ ⟮c2;feminist⟯ who wrote the ⟮c4;1980⟯ essay "⟮c3;Compulsory Heterosexuality and Lesbian Existence⟯", whence ⟮c5;the relevant concept⟯ 
+
+{{c1::Political lesbianism}} sees {{c2::becoming lesbian/sexual orientation}} as {{c3::a choice}} that one could undertake for a variety of reasons, e.g. {{c4::as a preconditon for lesbian separatism}} and {{c5::becoming a woman-identified women (a la radicalesbians)}}
+{{c1::Feminist seperatism/separatist feminism}} is the idea that {{c3::women's liberation can best be achieved}} via {{c2::women's separation from men}}. The most advocated position might be {{c4::lesbian separatism}}, which also emphasized {{c5::a turn towards lesbiansim}}.
+{{c1::Lesbian feminism}} in general was {{c2::a reaction to}} not {{c3::being seen fully as a part of}} {{c4::gay}} and {{c4::feminist}} activism, perhaps most exemplefied by {{c5::Betty Friedan}} calling them a "{{c6::lavender menace}}" in {{c7::1969}}, triggering the {{c8::1970}} {{c9::interruption}} of {{c10::the Congress to Unite Women}} by the {{c11::Radicalesbians}} with their "{{c12::The Woman-Identified Woman}}"
+{{c1::Lesbian feminism}} is either concerned with {{c2::the relevant intersectional category}}, or a feminist movements that emphasizes {{c3::focusing on activities towards women}}, perhaps with {{c4::lesbianism as the logical result of feminism}}. It was {{c5::most influential}} in {{c6::the 1970s and early 1980s}}.
+
+the {{c1::lesbian}}/{{c1::feminist}}/ø {{c2::sex}}/{{c2::porn}} {{c2::wars}} refer to a {{c3::set of debates}} about {{c4::sexuality}} and in particular {{c5::pornography}}, {{c6::BDSM}}, and {{c7::prostitution}} and {{c8::their relationship to feminism}} in the {{c9::1970s and 80s}}
 
 ### branches
 
@@ -1818,6 +1897,10 @@ The ⟮c1;Feminine Mystique⟯ is a book by ⟮c2;Betty Friedan⟯ that is widel
 ⟮c1;The workload of people who work to earn money, but also have to spend time and effort on household work⟯ is known as ⟮c2;The double burden⟯ or ⟮c3;The second shift⟯ 
 The group most subject to ⟮c4;the double burden/The second shift⟯ is ⟮c5;women⟯ 
 ⟮c6;The campaign for payment for caring work/housework⟯ is ⟮c7;Wages for housework⟯ 
+
+#### mental load
+
+The work and stress involved in managing household and related tasks is known as {{c1::mental load }}
 
 ### feminism and sexual abuse
 
@@ -1871,40 +1954,6 @@ The term ⟮c1;travesti⟯ is used in ⟮c2;Latin American⟯ countries—especi
 ⟮c27;Travesti⟯ generally face ⟮c28;extreme marginalization⟯: Generally suffering ⟮c9;childhood sexual abuse⟯, ⟮c10;disowned from their families⟯ and ⟮c11;removed from the education system⟯, with ⟮c12;lack of access⟯ to ⟮c12;housing⟯ and ⟮c12;work⟯, they live in ⟮c13;deficient housing⟯ ⟮(c:14;50⟯%) and often work ⟮c13;as sex workers⟯ ⟮(c:14;70⟯%), often ⟮c15;contracting HIV/AIDS⟯. 
 ⟮c29;Travesti⟯ suffer from ⟮c16;extremely high rates⟯ of ⟮c16;hate crimes⟯ and ⟮c16;murder⟯ as well as ⟮c17;arbitrary detention⟯ up to ⟮c17;torture⟯, and have a life expectancy of ⟮c18;30 - 35⟯ years. 
 ⟮c21;Often⟯, travesti ⟮c19;use this term for themselves⟯ to ⟮c20;highlight their marginalization as well as their gender identity⟯, nevertheless, the term is ⟮c21;sometimes⟯ used ⟮c22;as a translation of english terms such as transgender/trans/etc⟯, in these cases, it is often a ⟮c23;slur⟯. 
-
-# archives
-
-## primary sources
-
-### internet archive
-
-The ⟮c1;Internet Archive⟯ is a ⟮c6;digital::access modality⟯ ⟮c6;library/archive::what?⟯, which has two main projects, the ⟮c2;Wayback Machine⟯, which ⟮c3;archives copies of websites⟯ and thus ⟮c4;s3;allows preserving and seeing sites as they appeared at a certain date⟯., and ⟮c5;a large collection of all types of media.⟯ 
-
-### europeana
-
-⟮c1;Europeana⟯ is a ⟮c2;digital::access modality⟯ ⟮c2;library/archive::what?⟯ by the ⟮c3;European Union⟯ with a large collection of ⟮c4;cultural and scientific artefacts⟯, many of them ⟮c5;free to use.⟯ 
-
-### newspapers.com
-
-⟮c1;newspapers.com⟯ is an ⟮c3;onlinel::access modality⟯ ⟮c3;library/archive⟯ of ⟮c2; newspapers/newspaper articles⟯ ⟮c4;from the 1700s to the 2000s(now)::time?⟯ 
-
-### maps
-
-The ⟮c1;David Rumsey⟯ ⟮c2;Historical Map Collection⟯ is one of the world's largest private map collection, dating from the ⟮c3;1550s⟯ to ⟮c4;today⟯, of which ⟮c5;~100k⟯ are available under a ⟮c6;CC⟯ license on ⟮c7;their website⟯. 
-
-## papers
-
-### search
-
-⟮c1;Semantic Scholar⟯ is a ⟮c2;search engine⟯ for ⟮c3;academic publications⟯ that uses ⟮c4;AI⟯ and which has features such as that it ⟮c5;auto-embeds abstracts⟯, and not only shows papers that cited the relevant paper, but also ⟮c6;in which way⟯, and ⟮c6;the context.⟯ 
-
-### modelling
-
-⟮h∞;<img src="share-preview-img.png">⟯⟮c1;connectedpapers.com⟯ is a tool that builds ⟮c2;a graph⟯ of ⟮c3;related papers⟯ for ⟮c3;a given paper⟯, allowing for ⟮c4;finding similar papers⟯. Papers are grouped by ⟮c5;similarity⟯ measured via ⟮s5;⟮c6;co-citation⟯ and ⟮c6;bibliographic coupling.⟯⟯ 
-
-## inspiration
-
-⟮c1;Designspiration⟯ is a pinterest-like website for ⟮c2;design inspiration⟯. 
 
 # biology
 
@@ -3163,6 +3212,13 @@ phobia|against|aspect of ism
 ⟮c40;vegaphobia⟯|⟮c41;s∞;us40;vegan people⟯|⟮c42;s∞;us40;carnism⟯
 ⟮c43;glottophobia⟯|⟮c44;s∞;us43;certain groups of language users⟯|⟮c45;s∞;us43;linguicism⟯
 
+#### natural bases
+
+ism|supposed natural features|socially constructed identity
+sexism|sex|gender
+ablism|disability|impairment
+racism|race|ethnicity|not rally used in practice
+
 ### kate manne
 
 Philosopher ⟮c1;Kate Manne⟯ in her book "⟮c2;Down Girl⟯" ⟮(c:5;2017⟯) provides the most popular ⟮c4;differentiation between⟯ ⟮c3;sexism⟯, ⟮c3;patriarchy⟯ and ⟮c3;misogyny⟯ 
@@ -3173,12 +3229,14 @@ Kate Manne, Down Girl: ⟮c5;Patriarchy⟯ is ⟮c8;the power structure⟯ that 
 any ism describes a structural system fundamentally defined by the contrast between two states/attributes, real or supposed.
 For any ism, one state gets accorded significantly more of a bunch of positive stuff (influence, value, care, visibility etc.) while the other state gets accorded less or the opposite of this positive stuff, hence I call these states the + and - identity respectively.
 + and - also get other traits attached to them, creating two characters/charicatures, which are also placed in a contrastive relationship, which I call +traits and -traits as well as +characters and -characters.
-+ and - also have a set of traits that constitute ideals for +/-ists, which is called hegemonic +/-ity.
++ and - also have a set of traits that constitute ideals for +/-ists while also being naturalized, which is called hegemonic +/-ity.
 + and - also of course create two groups of people who are in a + and a - state respectively, which I will call +ists and -ists respectively.
 the experience that people with +/- identities = +/- experiences
 Ambiguity is generally not tolerated, + and - are meant to be disjoint and S+ ∩ S- = U.
 The power structure that an -ism establishes is called an -archy.
 The totality of benefits that accrue to +ists because of an ism is »priviledge«.
+
+For some isms, there seem to some to be an actual natural basis for the categorization into + and -, for those there have been attempts to separate + and - identities from their supposed natural bases. For me, I assume + and - are entirely socially constructed, and thus my models of isms rely on the separation or dismissal of any natural basis.
 
 #### being-seen
 
@@ -3202,6 +3260,7 @@ Due to - identity and traits being seen as undesirable, people with a - identity
 x hegemony is the hierarchy between hegemonic +istity and hegemonic -istity.
 x-normativity often causes equality to be identified as everyone becoming more like hegemonic +istity.
 Besides the violence that having a - identity incurs, a mismatch between actual traits and traits expected by hegemonic - ity can produce sanctions, but so can having actual traits expected by hegemonic - ity = the double bind.
+Hyper -ity is the extreme pursuit of the hegemonic -ity corresponding with one's - identity.
 
 + fragility is the state in which having {{c3::the relevant ism privilege mentioned}}, even {{c5::in a minor way}}, {{c6::triggers a deep defensive response}}. This reaction functions (on a societal level if not consciously) to {{c4::maintain the current -ism order}}
 
@@ -3219,6 +3278,7 @@ similarly but slightly differently, ⟮c1;Car culture⟯ (when it doesn't just m
 In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
 In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
 To go/be/live stealth is to hide that one is the -value state of an ism, and especially that one is trans.
+To {{c1::out}} someone is to {{c2::reveal that a person}} is {{c3::a -value person of an ism}}, generally {{c5::without their consent}}
 
 ###### covering
 
@@ -3271,8 +3331,17 @@ A pick me x (girl/gay/whatever) is a - person who tries to distinguish themselve
 ###### medical and social models
 
 Many {{c1::isms}} have {{c2::a medical model}} and {{c2::a social model}} of {{c3::what it is to be a -value person}}. 
-The {{c1:: social model}} of {{c2::being a -value person}} argues that {{c3::society creates the - and + identities}} from {{c4::the way it's structured/its inherent problems}}
-The {{c1::medical model}} of {{c2::being a -value person}} argues that one {{c3::should aim to}} {{c5::move from -value to +value}} if possible, if not, one should {{c3::focus on}} {{c6::seeming +value}}, and if that's not possible, one should {{c4::be erased}} (often via {{c4::special institutions}}).
+The {{c1:: social model}} of {{c2::being a -ist}} argues that {{c3::society creates the - and + identities}} from {{c4::the way it's structured/its inherent problems}}
+The social model places the genesis of a - identity in society, the medical model in the individual.
+The {{c1::medical model}} of {{c2::being a -value person}} argues that being a -ist is a natural feature.
+The medical model of being a -value person argues one {{c3::should aim to}} {{c5::move from -value to +value}} if possible, if not, one should {{c3::focus on}} {{c6::seeming +value}}, and if that's not possible, one should {{c4::be erased}} (often via {{c4::special institutions}}).
+For isms with a medical model, the negativity associated with having a - identity is institutionalized and thus 'objectified'/naturalized in the medical field.
+Neurodiversity is an attempt to reframe the distinction between + and - identities (sane and insane) within sanism as a value-neutral distinction between human mental traits.
+
+
+medical model of|natural features that give rise to - identies|attempts to flip - identities to + identities are based on
+sanism|brain chemistry|pharmacological treatment
+cissexism|Gender identity disorder (until the DSM-5)/gebder dysphoria|hormone therapy, gender conforming surgery.
 
 #### violence
 
@@ -3322,6 +3391,8 @@ Thus, hegemonic -ity always includes not aiming to upset the status quo.
 We might say political consciousness is seeing/recognizing the relevant ism as structuring the world (at least in part), coming to realize your part in a community of -ists, and thus understanding {{c7::problems}} and {{c7::remedies}} in {{c8::terms of political action}}
 ergo: race-consciousness -> political consciosuness regarding racism etc.
 false consciousness is the failure to gain political consciousness or to gain the wrong sort of political consciousness.
+false consciousness happens due to all the ways the relative ism distorts thinking and seeing.
+Marxism argues that without false consciousness (at least in the case of capitalism), the -ists would overthrow the +ists.
 
 ##### origin: class consciousness
 
@@ -3359,6 +3430,10 @@ Often the ⟮c10;school-to-prison pipeline⟯ refers to both ⟮c4;the schools-a
 ### sanism 
 
 ⟮c1;Serious mental illnesses (shizophrenia, depression, the like⟯) ⟮c2;reduce life expectancy⟯ by ⟮c3;10~20 years⟯. We should take this with a dose of ⟮c4;correlation/causation⟯ salt, but this might be in part an effect of ⟮c5;sanism⟯. 
+
+### classism
+
+A distinction of the {{c2::poor}} that began with {{c3::the poor laws in england in the 1600s}} (as far as I can tell) and we still have is that between the {{c1::deserving}} {{c2::poor}}, generally characterized as {{c4::somehow unable to work}} and thus {{c5::not to be blamed}} for their {{c2::poverty}}, and {{c1::undeserving}} {{c2::poor}}, which are characterized as {{c4::those that could work but don't want to}} and thus {{c5::are to be blamed}} for their {{c2::poverty}}
 
 ### (dis)ablism
 
@@ -3408,6 +3483,52 @@ The two strategies people use in performing ⟮c13;emotion work/labor (not sure 
 forwards search is starting with a work W and seeing which other works have cited W.
 backwards search is starting with a work W and seeing which works W has cited. 
 
+#### primary sources
+
+##### internet archive
+
+The ⟮c1;Internet Archive⟯ is a ⟮c6;digital::access modality⟯ ⟮c6;library/archive::what?⟯, which has two main projects, the ⟮c2;Wayback Machine⟯, which ⟮c3;archives copies of websites⟯ and thus ⟮c4;s3;allows preserving and seeing sites as they appeared at a certain date⟯., and ⟮c5;a large collection of all types of media.⟯ 
+
+##### europeana
+
+⟮c1;Europeana⟯ is a ⟮c2;digital::access modality⟯ ⟮c2;library/archive::what?⟯ by the ⟮c3;European Union⟯ with a large collection of ⟮c4;cultural and scientific artefacts⟯, many of them ⟮c5;free to use.⟯ 
+
+##### newspapers.com
+
+⟮c1;newspapers.com⟯ is an ⟮c3;onlinel::access modality⟯ ⟮c3;library/archive⟯ of ⟮c2; newspapers/newspaper articles⟯ ⟮c4;from the 1700s to the 2000s(now)::time?⟯ 
+
+##### maps
+
+The ⟮c1;David Rumsey⟯ ⟮c2;Historical Map Collection⟯ is one of the world's largest private map collection, dating from the ⟮c3;1550s⟯ to ⟮c4;today⟯, of which ⟮c5;~100k⟯ are available under a ⟮c6;CC⟯ license on ⟮c7;their website⟯. 
+
+#### papers
+
+##### search
+
+⟮c1;Semantic Scholar⟯ is a ⟮c2;search engine⟯ for ⟮c3;academic publications⟯ that uses ⟮c4;AI⟯ and which has features such as that it ⟮c5;auto-embeds abstracts⟯, and not only shows papers that cited the relevant paper, but also ⟮c6;in which way⟯, and ⟮c6;the context.⟯ 
+{{c1::Google Scholar}} is google's {{c2::search engine}} for {{c3::academic literatore.}}
+
+##### aquisition
+
+table:platform|has|notes
+sci-hub|most papers, no books|needs DOI/PMID
+libgen (.rs, .is, st)|most papers, most books
+
+##### modelling
+
+⟮h∞;<img src="share-preview-img.png">⟯⟮c1;connectedpapers.com⟯ is a tool that builds ⟮c2;a graph⟯ of ⟮c3;related papers⟯ for ⟮c3;a given paper⟯, allowing for ⟮c4;finding similar papers⟯. Papers are grouped by ⟮c5;similarity⟯ measured via ⟮s5;⟮c6;co-citation⟯ and ⟮c6;bibliographic coupling.⟯⟯ 
+
+### sources
+
+source|is
+primary source|'raw data'
+secondary source|synthesis of other sources
+tertiary source|compilation of other sources (e.g. enycyclpedia)
+
+In history, primary sources would be works from the historical period under consideration
+In philosophy, primary sources are notable works subject to interpretation
+primary sources are called 「quellen」 in the study of history in german.
+
 ## writing
 
 ### referencing
@@ -3415,6 +3536,104 @@ backwards search is starting with a work W and seeing which works W has cited.
 #### plagiarism
 
 plagiarism is using someone else's intellectual/artistic products without proper attribution.
+
+#### citation
+
+##### content
+
+Reference and citation are most often synonyms.
+Citation is indicating a source of information.
+A »full citation« fully identifies a source, and where in the source the information can be found, if applicable.
+A »short citation« identifies a source in a short way and where in the source the information can be found, if applicable. to resolve a short citation to the actual work, finding the corresponding full citation is normally needed.
+Philosophical works sometimes get an abbreviation such as KrV for use in short citations
+A »complete citation« is the pair of a short citation and a full citation.
+Author-date is a type of short citation where one includes the author and date.
+Author-date citation is also called harvard style.
+
+##### placement
+
+onion-box:[citations [in-body&nbsp;citation [note&nbsp;citation][in-text&nsbsp;citation]][works&nbsp;cited/references&nbsp;entry]]
+Note citations are citations in endnotes/footnotes.
+In-text citations are citations within the flow of text.
+Typically, short citations are also in-body citations, and full citations are reference entries.
+
+##### → in-text short citations
+
+Parenthetical citation is a type of in-text short citation format where the citation is surrounded in parentheses.
+Narrative citation is a type of in-text short citation format where the citation is mentioned in the prose of the text.
+Author-date/harvard style is often realized as narrative or parenthetical citations.
+author-date-narrative-format ::= <author> \(<date>\)
+author-date-parenthetical-format ::= \(<author> <date>[, <page-specifier>]\)
+
+when adding page specifiers to author-date narrative citations, the page specifier goes in its own set of parentheses, at the end of the clause.
+
+###### specifying pages
+
+page-specifier ::= p. <integer>[f.|ff.|-<integer>]
+
+f.|this page or the next
+ff.|this page or any following.
+
+##### sections
+
+＿Works Cited＿ and ＿References＿ are synonyms.
+»Works Cited«/»References« are sections at the end of the work containing ＿full citations＿.
+Properly, a »bibliography« should contain all works consulted, not those merely cited.
+Often, 「bibliography」 is also just used as a synonym for ＿Works Cited＿/＿References＿.
+A bibliography may also be a separate work listing works on a particular topic.
+An annotated bibliography is a bibliography with author's comments on each work.
+「Literaturverzeichnis」 is the german name for ＿Works Cited＿/＿References＿.
+Quellenverzeichnis may be used as a synonym for Literaturverzeichnis, but is more properly a section used in historical science for identifying primary sources.
+
+##### citation style
+
+A citation style is a set of rules of how to structure your citations.
+the APA is the american psychological association.
+the APA publishes a style guide, which is often autohyponymously also called APA.
+Of the APA style guide, the thing that is most well known is its citation style.
+The current APA edition is the 7th, released 2019.
+
+table:citation style|in-body
+APA|author-date
+
+#### quotations
+
+quotes are either direct or indirect
+indirect quotation is a synonym for paraphrase
+The primary/secondary and direct/indirect quotation distinctions are completely separate.
+A primary quotation is from the work itself, a secondary quotation is via a third work, trusting that work to have faithfully reproduced the quote in the first place.
+
+##### modifying
+
+Within quotes, square brackets are used to modify quotes.
+
+### structure
+
+1. Title page
+2. table of contents (optional)
+3. abstract
+4. main body
+5. references & attachments
+6. eidestattliche erklärung (germany only)
+
+#### main body
+
+1. introduction
+2. main section
+3. schluss
+
+The introduction often contains a motivation, context on the topic and pre-existing research, a hypothesis, possibly comments on the sources, as well as a short summary of the structure of the paper.
+Der Schluss einer akademischen arbeit enthält normalerweise (wobei oft nicht getrennt) eine {{c1::zusammenfassung}}, {{c2::konklusion}}, und {{c3::ausblick}}.
+
+##### hypothesis
+
+In germany, sometimes a dreischritt is used to make your hypothesis more precise.
+Form eines Dreischritts: {{c1::Ich untersuche}} ..., {{c2::weil ich herausfinden will}}, ..., {{c3::um herauszufinden}}, .....
+
+### techniques
+
+Writing an abstract before the paper itself may help clarify if the paper works when boiled down to its essentials.
+Writing a 'letter to your readers' may help clarify why you are writing the paper and/or why one would want to read it.
 
 ## academia
 
@@ -3445,6 +3664,14 @@ digit|means waht
 1st|college year (freshman, sophomore...)
 2nd|subject/department
 3rd|sequence within subject/department
+
+
+# archives
+
+
+## inspiration
+
+⟮c1;Designspiration⟯ is a pinterest-like website for ⟮c2;design inspiration⟯. 
 
 # theatre
 
@@ -3771,6 +3998,10 @@ Activity|How to check?|Positive result if
 A ⟮c34;lucid dream⟯ is one in which ⟮c35;one is aware that one is dreaming⟯. 
 ⟮c36;Often but not always⟯, ⟮c37;lucid dreams⟯ allow ⟮c38;some control over the events happneing in the dream⟯. 
 Evidence for ⟮c39;lucid dreams existing⟯ is ⟮c40;quite strong.⟯ 
+
+### perception
+
+The rashomon effect is where eyewitnesses give contradictory descriptions of an event.
 
 ## neurodiversity
 
@@ -4227,3 +4458,7 @@ gyn|any position|woman/female, female partner, female reproductive organ
 ### words
 
 Something ⟮c1;phallic⟯ is ⟮c3;shaped like⟯ or ⟮c3;otherwise like⟯ a ⟮c2;penis⟯, something ⟮c4;yonic⟯ is ⟮c5;shaped like⟯ or ⟮c5;otherwise like⟯ a ⟮c6;vagina⟯ 
+
+### phraseology
+
+ceteris paribus|everything else being equal

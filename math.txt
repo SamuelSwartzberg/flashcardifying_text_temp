@@ -1143,11 +1143,30 @@ Symbol|Unit
 1 m/s|3.6 km/h
 ~0.28 m/s|1 km/h
 
-##### weight
+##### weight (us customary)
 
+symbol|unit
+lb|pound
+oz|ounces
+st|stone
 
+stone|pound|ounces|grams
+1/224|1/16|1|~28(.35)
+1/14|1|16|454
+1|14|224|6350
 
+##### volume (us customary)
 
+symbol|unit
+fl. oz. or oz. fl.|fluid ounces
+
+gallon|quart|pint|fluid ounce|ml
+1|4|8|128|3785
+1/4|1|2|32|946
+1/8|1/2|1|16|473
+1/128|1/32|1/16|1|29.5
+
+cup falls out of the nice logic of gallons, quarts, etc., one (us customary) cup is 240 ml
 
 ## pareto principle
 

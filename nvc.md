@@ -272,3 +272,7 @@ table:culture|When you want something...|Requests made to you are seen as...
 ask culture|Request, even if you're unsure if it's an imposition|no-able requests
 guess culture|Kind of mention the situation and hope the other person offers, directly request only if likely uncontroversial|demand-like requests where no-ing is painful and agonizing
 tell culture|Mention your needs structure in detail so that shared benefit and understanding can emerge|requests for details on needs structure for shared benefit
+
+## righting reflex
+
+the {{c1::righting reflex}} is the impulse to (tell people how to) fix (esp. other peoples) problems when we see them, which rarely produces good results.

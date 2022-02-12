@@ -404,7 +404,7 @@ radio and checkbox input accept the attribute checked to specfiy if they are che
 
 Bootstrap:
 
-.form-check ## set of radio buttons
+.form-check # set of radio buttons
 .form-check-label   define a label for a checkbox/radio button
 .form-check-input   define a checkbox/radio button
 
@@ -5599,6 +5599,33 @@ You ⟮c5;complete⟯ ⟮c6;github-flavored markdown task lists⟯ via the synta
 
 ###### non-markup
 
+####### citations
+
+######## software
+
+reference/citation/bibliographic management software is software that manages citation information
+
+
+table:name|license|distingishing characteristic
+JabRef|FOSS|often used for LaTeX
+Citavi|Proprietary|only really used in germany
+Zotero|FOSS|most common
+
+######## CSL
+
+CSL|Citation Style Language 
+CSL is a standard for describing citations.
+CSL has XML, JSON, YAML realizations.
+The CSL-processor is citeproc.
+citation-js is a npm module and CLI for citation magic using various different formats.
+
+######## BibTeX
+
+BibTeX is the format (La)TeX uses to describe citation information.
+bibtex-entry ::= @<type>\{<unique-key>, <list-of-props>\}
+list-of-props ::= <key> = <value>{, <key> = <value>}
+type ::= book|article|...
+
 ####### toml xdg systemd
 
 INI files inspired XDG desktop files.
@@ -8824,6 +8851,7 @@ Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
 For qutebrowser, you do ⟮c1;advanced config⟯ in ⟮c2;the config.py⟯ 
 In the config.py of qutebrowser, you ⟮c3;can change most settings⟯ ⟮c4;on the `c` object⟯ 
+In qutebrowser, greasemonkey scripts become active merely by placing them in $XDG_CONFIG_HOME/qutebrowser/greasemonkey
 
 ###### file-sharing
 
@@ -9223,33 +9251,9 @@ Geonames is the worlds largest databae of geographical features, their locations
 Geonames is updated via crowsourcing.
 Geonames is licensed under CC BA.
 
-## non-file formats
-
-### citations
-
-CSL|Citation Style Language 
-CSL is a standard for describing citations.
-CSL has XML, JSON, YAML realizations.
-The CSL-processor is citeproc.
-citation-js is a npm module and CLI for citation magic using various different formats.
-
 ## misc
 
 Material design pioneered describing colors on the same 100 (or sometimes 50) to 900 scale as font weights, which has been adopted by other things such as bootstrap, chakra.
-
-# culture
-
-## free culture
-
-FOSS|Free and open source software
-
-## forum
-
-OP|Original Poster
-
-## technology change
-
-<img src="gartner_hype.svg">|gartner's hype cycle (seems to hold relatively rarely)
 
 # programming (mostly)
 
@@ -14783,21 +14787,36 @@ character encodings (simplified): Morse -(end of the 19th century)-> Baudot-Murr
 
 #### Morse
 
+##### genealogy
+
 The original morse code was meant for english speakers. 
 The morse code used today is an overhauled version of the original morse code called international/continental morse code.
+
+##### encoding
+
 Morse code varies signal length to produce different units.
 In morse code, a space is signal absence.
 In morse code, signal presence may either be a dot or a dash.
 In morse code, length is measured relative to the dot length
 
-A dash   three dots
-A space (between words)   seven dots
-A space (between characters)   three dots
-A space (between dots/dashes)   one dot
+A dash|three dots
+A space (between words)|seven dots
+A space (between characters)|three dots
+A space (between dots/dashes)|one dot
+
+##### syntax
 
 morse-code-sentence ::= <morse-code-word>{<word-space><morse-code-word>}
 morse-code-word ::= <morse-code-character>{<character-space><morse-code-character>}
 morse-code-character ::= (<dot>|<dash>)<dd-space>
+
+##### common words
+
+SOS is `. . . - - - . . .`
+Notably, SOS does not have character spaces between characters, instead only the one-long necessary space.
+SOS = `. . . - - - . . .` indicates that loss of life or major loss of property is imminent.
+SOS was chosen because it is easy to recognize.
+SOS is widely believed to stand for Save Our Souls, but this is a backronym.
 
 #### baudot
 
@@ -14986,8 +15005,8 @@ An instance is something that has been created on some sort of model.
 
 ## placeholder images
 
-Placeholder images using kittens   placekitten.com
-Placeholder images using boring boxes   via.placeholder.com
+Placeholder images using kittens|placekitten.com
+Placeholder images using boring boxes|via.placeholder.com
 
 via.placeholder.com/⟮c1;width⟯[⟮c2;x⟯⟮c3;height⟯]
 placekitten.com/⟮c1;width⟯⟮c2;/⟯⟮c3;height⟯
