@@ -6013,7 +6013,7 @@ Today, NAND is the most commonly used logic gate, since it's functionally comple
 
 #### circuits
 
-A logic circuit consists of interconnected logic gates.
+A ⟮c+;logic circuit⟯ consists of interconnected logic gates.
 A combinatorial logic circuit is one whose output only¬ depends on its input.
 A sequential logic circut is one whose output depends on its input, and the previous state.
 

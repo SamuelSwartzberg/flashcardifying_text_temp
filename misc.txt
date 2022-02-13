@@ -3849,10 +3849,6 @@ Digit|Letter
 ⟮c9;8⟯|⟮c19;H⟯
 ⟮c10;9⟯|⟮c20;S⟯
 
-</tbody></table>
-
-
-
 ##### 1-100
 
 P|A|O|Number|Mnemonics
