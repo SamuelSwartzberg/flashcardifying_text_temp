@@ -35,26 +35,27 @@ Majuscule|Minuscule|Name (in en)
 For the englishified greek numbers from 11 to 19, deca is suffixed
 For the englishified greek number 11, instead of monodeca, it is {{c1::hendeca}}
 
-1. Mon(o)-
-2. Dy-/Duo-
-3. Tri-
-4. Tessara-/Tetra-
-5. Penta-
-6. Hexa-
-7. Hepta-
-8. Octa/o-
-9. Ennea-
-10. Deca-
-11. hendeca-
-12. dodeca-
-13. tri(skai)deca-
-14. tetra(skai)deca-
-15. pentadeca-
-16. hexadeca-
-17. heptadeca-
-18. octadeca-
-19. enneadeca-
-20. icosa-
+table:arabic|greek|latin
+1|Mon(o)|uni
+2|Dy-/Duo|bi(n)
+3|Tri|tri
+4|Tessara-/Tetra|quadr
+5|Penta|quinqu
+6|Hexa|sex
+7|Hepta|sept
+8|Octa/o|oct
+9|Ennea|non
+10|Deca|dec
+11|hendeca-
+12|dodeca-
+13|tri(skai)deca-
+14|tetra(skai)deca-
+15|pentadeca-
+16|hexadeca-
+17|heptadeca-
+18|octadeca-
+19|enneadeca-
+20|icosa-
 
 ## numeral system 
 

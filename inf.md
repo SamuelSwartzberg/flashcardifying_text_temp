@@ -740,10 +740,7 @@ Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pas
 
 style props is using react props to change the style of a component
 style props are not enabled by default, but are used extensively in various react styling frameworks
-style props mostly are named as the css properties are, but in camelCase and often also have a few character shorthand 
-e.g. margin-top -> marginTop / mt
-`&lt;Box maxW="960px" mx="auto" /&gt;`   style props
-for style props, even in the unabbreviated camelCase spellings, some things are abbreviated, eg. background -> bg
+style props mostly are named as the css properties are (subject to the camelcaseification/abbreviation described elsewhere)
 style props also offer some abbreviated values:
 linear/radial-gradient() -> linear/radial()
 to top, to top right, ... -> to-t, to-tr...
@@ -2727,6 +2724,115 @@ compiles to `⟮c13;.child {}⟯`
 }
 ``` compiles to `⟮c15;.btn-primary {} .btn-secondary {} ⟯`
 
+##### color schemes
+
+Material design pioneered describing colors on the same 100 (or sometimes 50) to 900 scale as font weights, which has been adopted by other things such as bootstrap, chakra.
+
+##### misc scales
+
+Many CSS frameworks, e.g. bootstrap have adopted a scale from 1-5 where 3 is a middle value for things that require an arbitrary scale.
+Things that fall on the 1-5 scale in bootstrap are `order`, spacers.
+
+##### layout
+
+###### bootstrap grid system
+
+Bootstrap pioneered the bootstrap grid system.
+The bootstrap grid system consists of containers, rows, and columns.
+The boostrap grid system has been adopted by other systems such as ionic.
+A container (or something else) contains n rows.
+A row contains 12 template columns.
+Actual columns can be 12 or more template columns wide.
+Having a row with elements adding up to more than 12 template columns will force wrapping.
+Offsets are specified in template columns and are used to take up column space without filling it with content.
+Bootstrap grid systems feature gutters both between rows and columns, which you can customize.
+The bootstrap grid system is built with flexbox.
+Since the bootstrap grid system is built with flexbox, you can change the behavior of the grid system by using flexbox-related utilites.
+
+##### breakpoint
+
+Pretty much all styling frameworks have chosent the concept of breakpoints to abstract over width-based media queries.
+A breakpoint corresponds to a range of widths
+Common breakpoint names:
+Extra small|no name (default)|Tailwind, Chakra, Bootstrap
+Small|sm|Tailwind, Chakra, Bootstrap
+Medium|md|Tailwind, Chakra, Bootstrap
+Large|lg|Tailwind, Chakra, Bootstrap
+Extra large|xl|Tailwind, Chakra, Bootstrap
+Extra extra large|2xl|Tailwind, Chakra
+Extra extra large|xxl|Bootstrap.
+For pretty much all frameworks, breakpoints select this size and up.
+The reason breakpoints generally select this size and up in most frameworks is that they are mobile first
+Since breakpoints generally select this size and up, you need to overwrite breakpoints for larger sizes if you want it to only apply to one size.
+
+##### z-indices
+
+Z-index in bootstrap and perhaps in other frameworks exists on two scales: {{c1::within elements, for states (for :hover, :active, :focus) }}, to prevent e.g. overlapping borders and {{c2::for overlay components (modals, tooltips, etc.)}}
+
+situation|values
+within elements|0-3
+overlay components|1000-1080
+
+##### abbreviation
+
+styling frameworks tend to abbreviate things, especially CSS properties/values where possible.
+However, not every CSS property/value is abbrevaited in each styling framework.
+In styling frameworks property names often become a list of the first chars separated by hyphems when shortened.
+E.g. something like `margin-end` would become `me`.
+In react/style props based frameworks, CSS properties become camelCased unless abbreviated to chars only.
+e.g. margin-top -> marginTop / mt
+
+
+###### things that are pretty much always abbreviated in every system
+
+margin|m
+padding|p
+width|w
+height|h
+background|bg
+top/bottom/left/right/start/end|t/b/l/r/s/e
+top & bottom / left & right|y/x
+no character|all four sides
+
+#### CSS frameworking
+
+Most CSS frameworks apply most things via CSS classes.
+The most basic style of class most CSS frameworks use is .<key>-<value>.
+
+##### conditional classes
+
+There are two philosophies as regards adding conditions to CSS framework classes, colon-based and infixing.
+colon-based|<condition>:<key>[-<value>]|Tailwind
+infixing|<key>-<condition>-<value>|Bootstrap
+
+`&lt;img class="w-16 md:w-32 lg:w-48" src="..."&gt;`
+Breakpoints might be the most common condition for CSS conditional classes.
+
+##### types of classes
+
+
+###### utility classes
+
+Utility classes are common feature of css frameworks.
+Utility classes change one specific aspect of a thing (background, font size, padding, etc.)
+Utility classes either apply CSS classes more or less directly (e.g. `bg-white`), or offer light syntactic sugar for CSS to apply somewhat more semantic classes (e.g. `text-xl`, `font-medium`)
+Systems that feature utility classes generally strongly recommend using them instead of custom css.
+
+####### spacer
+
+Spacers are a special type of utility in some styling frameworks.
+Spacers apply margin or padding to one or more sides.
+In bootstrap, spacers controlled by $spacer.
+
+###### layout classes
+
+###### components
+
+In CSS frameworks, typically a class .<component-name> defines a component.
+In CSS frameworks, typically parts of components are indicated by .<component-name>-<part>
+
+##### theming
+
 #### CSS processing
 
 a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
@@ -2835,10 +2941,14 @@ the modifier-value of BEM can be dropped if it's just a boolean value
 BEM names are set in classes
 It is important to keep in mind that a BEM entity is not a part of the name, rather one BEM name always refers to one entity, even if it includes the names of other entitites.
 
-#### CSS frameworks
+#### types of frameworks
+
+»Styling frameworks« are frameworks for front-end design.
+»CSS frameworks« are styling frameworks that do most of their thing in CSS.
 
 ##### bootstrap
 
+Bootstrap has been the most common CSS-first framework in the 2010s and going into the 2020s
 next to its own technologies, bootstrap may require popper
 
 ##### chakra
@@ -9338,10 +9448,6 @@ the shell command ⟮c10;`roll`⟯ ⟮c14;rolls dice⟯, specified in ⟮c15;dic
 Geonames is the worlds largest databae of geographical features, their locations, type, names, and names in alternative languages.
 Geonames is updated via crowsourcing.
 Geonames is licensed under CC BA.
-
-## misc
-
-Material design pioneered describing colors on the same 100 (or sometimes 50) to 900 scale as font weights, which has been adopted by other things such as bootstrap, chakra.
 
 # programming (mostly)
 
