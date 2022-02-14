@@ -1,6 +1,8 @@
-# SGML/XML/HTML
+# *ML
 
-## SGML/XML/HTML itself
+## *ML itself
+
+*ML is sometimes used for any SGML/HTML/XML and any subformat.
 
 SGML stands for Standard Generalized Markup Language.
 XML is a subset of SGML.
@@ -8,17 +10,17 @@ XML|Extensible Markup language
 HTML was originally based on SGML, though the relationship has sometimes been fraught.
 Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
 
-SGML/XML/HTML <dfn>tags</dfn> are delimited by &lt;...&gt;
-SGML/XML/HTML end tags additionally feature a / to look like &lt;.../&gt;
-An SGML/XML/HTML <dfn>element</dfn> is everything from an elements start tag to an elments end tag.
-An SGML/XML/HTML element has an <dfn>element name</dfn>.
-An SGML/XML/HTML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
-SGML/XML/HTML elements are begun by a <dfn>start tag</dfn> and ended by an <dfn>end tag</dfn>, unless they are self-closing.
-SGML/XML/HTML element consist of start tag, content, and end tag.
-SGML/XML/HTML elements' <dfn>content</dfn> is either text or other elements ('child elements').
-SGML/XML/HTML content goes between the start and the end tag.
+*ML <dfn>tags</dfn> are delimited by &lt;...&gt;
+*ML end tags additionally feature a / to look like &lt;.../&gt;
+An *ML <dfn>element</dfn> is everything from an elements start tag to an elments end tag.
+An *ML element has an <dfn>element name</dfn>.
+An *ML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
+*ML elements are begun by a <dfn>start tag</dfn> and ended by an <dfn>end tag</dfn>, unless they are self-closing.
+*ML element consist of start tag, content, and end tag.
+*ML elements' <dfn>content</dfn> is either text or other elements ('child elements').
+*ML content goes between the start and the end tag.
 <dfn>Empty elments</dfn> are created by (or a synonym to) self-closing tags.
-Self-closing tags in SGML/XML/HTML only consist of a start tag.
+Self-closing tags in *ML only consist of a start tag.
 Self-closing tags must end /&gt; in XML.
 Self-closing tags may end /&gt; or merely &gt; in HTML.
 Using a closing tag for self-closing tags is usually invalid.
@@ -30,21 +32,21 @@ While most people recommend against omitting optional closing tags, google's sty
 Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
 an HTML element name may only 
 
-SGML/XML/HTML attributes are placed in the start tag.
-SGML/XML/HTML attributes have the syntax key="value".
+*ML attributes are placed in the start tag.
+*ML attributes have the syntax key="value".
 HTML attribute values may be unquoted if they do not feature whitespace and a few reserved characters.
 HTML features boolean attributes: attributes which <em>may not</em> take a value, but whose presence or absence represnets true or false.
 HTML also features enumerated attriubtes: attributes that take a fixed set of values.
 Confusingly, some HTML attributes with boolean semantics are not boolean attributes, but instead enumerated attributes, mostly with the possible values "yes" and "no" or "true" and "false".
 
-SGML/XML/HTML element names may be in any case.
+*ML element names may be in any case.
 in HTML, putting element names in all lower case is common.
 XML element names may contain any unicode with the exception of some metacharacters.
 HTML and SVG built-in element names only contain characters a-z.
 HTML custom elements must start with a character a-z in lowercase, must contain at least a hyphen character, but otherwise may contain any unicode.
 
-SGML/XML/HTML documents contain exactly one root element. All other elements are contained in the root element.
-The SGML/XML/HTML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
+*ML documents contain exactly one root element. All other elements are contained in the root element.
+The *ML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
 
 The document prolog (if you use one) comes at the top of the document, before the root element. There are two parts (both optional): an XML declaration and a document type declaration.
 
@@ -96,6 +98,10 @@ PI|Processing instruction
 
 An HTML document is started by the &lt;html&gt; tag and ended by the &lt;/html&gt; tag.
 a &lt;html&gt; element consists of a &lt;head&gt; section and a &lt;body&gt;
+
+#### nesting
+
+some elements must appear as children of other elements - to violate these rules is a violation of good semantics and accessibility, and will hurt your search ranking.
 
 #### elements
 
@@ -2879,6 +2885,8 @@ Structured data is a data model used for describing web pages.
 Structured data is used by search engines to provide more rich results.
 Schema.org is a set of schemas for structured data.
 
+{{c1::CRUD}} is short for {{c2::create}}, {{c2::read}}, {{c2::update}}, and {{c2::delete}}, the four operations that {{c3::persistent storage}} pretty much always has.
+
 ### general considerations
 
 A schema is a format that describes/constrains/validates data/data structures
@@ -3558,6 +3566,13 @@ A ⟮c1;taskbar⟯ is a GUI element that typically shows ⟮c2;which programs ar
 A taskbar generally positioned ⟮c4;as a strip along the edge of a screen⟯. 
 A taskbar, aside from programs may also have a ⟮c5;notification section⟯, ⟮c6;a search box⟯, ⟮c7;various tools⟯, etc. 
 Despite being called '⟮c8;Dock⟯', it's just ⟮c9;macOs⟯'s version of a ⟮c10;taskbar⟯ 
+
+###### navigation bar
+
+<img src="8f922968919629.5b6dba4c75e8b.png"><img src="Dahsboard+Sidebar+Menu.webp"><img src="rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png"><img src="NavigationBar_Standard.png">
+A navigation bar/menu/navbar is a bar/strip, generally placed at any edge of the window, that contains links/shortcuts for navigation through a thing (program, app, website, whatever)
+On iOS specifically, a navigation bar appears at the top of the screen, often containing a back button on the left, and a few controls on the right, sometimes a title in the middle
+On android specifically, a navigation bar is the bar at the bottom of the screen that generally houses the three navigation controls: back, home, and overview.
 
 ###### activity bar (vscode)
 
@@ -5423,10 +5438,23 @@ command|effect
 
 
 
-######## inline text formatting
+######## text formatting
 
 ⟮c1;centering⟯ is a ⟮c2;declaration form command⟯ that ⟮c3;centers content⟯. 
 ⟮c4;center⟯ is ⟮c5;an environment⟯ that ⟮c6;centers content⟯. 
+
+######### text sizes
+
+1. tiny
+2. scriptsize
+3. footnotesize 
+4. small 
+5. normalsize
+6. large
+7. Large
+8. LARGE
+9. huge
+10. Huge
 
 ######## compilation
 
@@ -7213,6 +7241,9 @@ A login shell is is the first shell that executes after you `login`.
 login indicates to the shell that the shell should be a login shell by prepending the name of the shell with a -, so that $0 will e.g. be -bash, not bash.
 -l/--login forces bash to be a login shell (in this case), $0 will not be prefixed with -)
 In bash, you can also use shopt login_shell to see if bash is a login shell.
+On mac, all interactive shells become login shells, meaning that .bashrc is not ever automatically read.
+linux can rely on the login shell startup files being executed since the login shell is started before the OS has become interactive
+mac cannot rely on the login shell startup files being executed before the first shell has been opened.
 
 ##### startup files
 
@@ -7768,6 +7799,11 @@ In technical contexts, ⟮c1;fresh⟯ and ⟮c2;stale⟯ are often contrasted.
 In technical contexts, something ⟮c3;fresh⟯ is ⟮c4;still relevant/valid/useful⟯. 
 In technical contexts, something ⟮c5;stale⟯ is ⟮c6;no longer relevant/valid/useful⟯. 
 
+## design
+
+The {{c3::robustness principle}} is "{{c1::be conservative in what you send}}, and {{c2::liberal in what you accept}}".
+The robustness principle is often said to be {{c4::good design}}, but also {{c5::create bad de-facto standards}}
+
 ## interfaces 
 
 At its most general interface is a shared boundary across which information flows.
@@ -8080,6 +8116,12 @@ hotlinking = inline linking
 Hotlinking is embedding a resource from ⟮c1;another fqdn⟯
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
+
+####### URL manipulation libraries/objects
+
+`URL`|JS
+
+The {{c1::URL}} constructor takes {{c2::a string of the url}}, and optionally {{c3::a base url}} (if the url is {{c3::relative}})
 
 ###### applications
 
@@ -8533,13 +8575,24 @@ the maximum size of a ⟮c2;UDP datagram⟯ is ⟮c1;2^16 bytes⟯ (although IPv
 ##### layer 3
 
 The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
-the main protocol that lives on the network (OSI)/internet (TCP/IP) is IP.
+the main protocol that lives on the network (OSI)/internet (TCP/IP) layer is IP.
 
 ###### IP
 
 IP  Internet protocol
+IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers.
+IP (in general) works because connected routers know where packages starting with a certain IP routing/network prefix should go, and so on
+
 the ⟮c1;host URL element⟯ for the ⟮c2;loopback address⟯ is usually ⟮c3;localhost⟯
 the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
+
+####### hops
+
+flex-container:<img src="Hop-count-trans.png">
+
+
+A {{c1::hop}} occurs every time a {{c2::packet}} is {{c3::passed from one network to the next}}. 
+The {{c1::hop}} count is thus a rough measure of {{c4::distance between devices}}.
 
 ####### address space
 
@@ -8571,27 +8624,58 @@ IPv6|128
 
 IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 
+######### IPv6
+
+the {{c1::quibbles/hextets/hexadectets/quad-nibbles}} of a IPv6 address are separated by {{c2::colons}}
+within an IPv6 address, {{c1::consecutive quibbles}} of {{c2::only zeroes}} may be {{c3::replaced with <q>:­:</q>}}, but only {{c4::once in an address}}, and not for {{c5::a single quibble}}
+within an {{c3::IPv6 address}}, within a {{c4::quibble}}, any {{c2::leading}} {{c1::zeroes}} may be {{c5::removed}}
+
+
 ######## division
 
 IP addresses have always been divided between network prefix and host identifier.
 network prefix is also called routing prefix
 host identifier is also called rest field or interface identifier
+How network prefix and host identifier have been divided has varied over time
 
 ######### History
 
-
 In the very beginning (until the 1980s) IP addresses were divided between the first octet as network prefix and the last 3 octets as host identifier.
 In the very beginning (until the 1980s) what we call network prefix was called network number, and what we call host identifier was called rest field.
+In the early 80s, IP addresses transitioned to classful IP addresses.
+In classful IP addresses, there were different classes, which each had different network prefixes and host identifiers of different lengths.
+In classful IP addresses, the first or first few bits would have indicated which class it was, the next however many relevant numbers would have been the network prefix, and finally the host identifier
+{{c1::Classful IP addresses}} were used until {{c2::the early 90s}} ({{c2::1993}}) and then replaced with {{c3::Classless Inter-Domain Routing}} ({{c3::CIDR}})
+
 
 ######### CIDR
 
 CIDR = Classless Inter-Domain Routing
 cidr-notation ::= [<IPv4-addr>]/<int-0-32>
+{{c1::CIDR notation}} indicates {{c2::the length}} of {{c2::the network prefix}} (equivalently: {{c3::the amount of leading 1-bits}} of the {{c3::network mask}}) as an {{c4::integer}}, normally {{c5::after the IP address}} separated by {{c6::a `/`}}
 /24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
+
+########## CIDR blocks
+
+<img src="sm_cidr_addr.svg">
+
+A CIDR block is a group of IP addresses sharing the same network/routing prefix.
+{{c1::CIDR Blocks}} ≈ {{c1::network/routing prefixes}} may be {{c2::further subdivided}}, with {{c3::more and more}} of the IP address being looked at to {{c4::direct the traffic}}
+A CIDR block A which is completely contained within another CIDR block B is a subnet of B, B is a supernet of A.
+All networks are implicitly subnets of the IP address space.
+a {{c1::supernet(work)}} has a {{c2::shorter}} {{c3::network prefix}}, whose {{c1::subnets}} will have a {{c2::longer}} {{c3::network prefix}} that {{c4::starts with}} the {{c1::supernet}}&nbsp; {{c3::network prefix}}
+the largest {{c1::CIDR block (= sub/supernet)}} the IANA assigns is {{c2::/8}} ({{c2::16 million}} addresses)
 
 ######### broadcast & network identifier
 
-A ⟮c1;subnet⟯'s ⟮c2;broadcast⟯ address is the ⟮c3;all-ones⟯ version of the ⟮c4;host (any relevant IP address)/network (all-zeroes) identifier⟯
+A ⟮c1;subnet/CIDR block⟯'s ⟮c2;broadcast⟯ address is the ⟮c3;all-ones⟯ version of the ⟮c4;host (any relevant IP address)/network (all-zeroes) identifier⟯
+A {{c1::subnet/CIDR block}}'s {{c2::network identifier}} address is the {{c3::all-zeroes}} version of the {{c4::host identifier}}
+The network identifer address is often functionally treated as the broadcast address.
+The network identifier address of 173.240.0.0/16 is 173.240.0.0
+The broadcast address of 173.240.0.0/16 is 173.240.255.255.
+
+########## max broadcast and max identifier
+
 Ergo, 255.255.255.255 (/0) is (theoretically) the broadcast address to all IP addresses in existence.
 A godzillagram is theoretically a message to 255.255.255.255, which should theoretically broadcast to all IP addresses in existence.
 Since gateways generally do not let godzillagrams pass, 255.255.255.255 generally merely boradcasts to your whole network.
@@ -8600,6 +8684,7 @@ Since network identifier addresses are generally aliases to broadcast addresses,
 
 ######### special IP addresses
 
+all IP adresses with the CIDR notation {{c2::127.0.0.0/8}} ({{c2::127.0.0.1}} - {{c2::127.255.255.254}}, excluding {{c3::network identifier}} and {{c3::broadcast addresses}}) are {{c1::loopback}} addresses
 of the IPv4 loopback addresses, generally 127.0.0.1 is used.
 localhost = 127.0.0.1 (IPv4)
 IPv6 reserves only a single loopback address, which is ­:­:1
@@ -8611,7 +8696,10 @@ The private IPv4 address blocks sorted from largetst to smallest are: ⟮c1;10.0
 
 NAT = Network Address Translation
 ⟮c1;NAT⟯ ⟮c2;maps one IP address space to another⟯ by ⟮c3;modifying the info in the IP header⟯
+NAT could be one-to-one or one-to-many, generally one-to-many is implied
+For one-to-many NAT, most commonly the combination of IP address and port number is sued to unabiguously identify the reciver
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
+the form of NAT where {{c1::the combination of IP address and port number is used to identify the recipient}} may also be known as {{c2::NAPT}} ({{c2::network address and port translation}}) , {{c3::PAT}} ({{c3::port address translation}}) or {{c4::IP masquerading}} amongst others
 
 ####### tracing
 
@@ -9450,7 +9538,7 @@ condition-controlled loops that test at the end of the loop are often started wi
 Most programming languages I know have while and do-while loops, in fact I don't think I know a programming language that doesn't have a while loop.
 Perl and bash have an until loop: a while loop with an inverted condition (analogous to unless).
 Lua also has a while loop with an inverted condition that tests at the end of the loop with the syntax repeat ... until
-
+in rust, `while let` instead of `while` allows for a while with pattern matching
 
 
 ##### Collection-controlled loops 
@@ -9557,13 +9645,34 @@ Operator overloading is where different operators have different implementations
 #### dynamic dispatch
 
 dynamic dispatch is choosing an implementation of a polymorphic operation at runtime.
-In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
+dynamic dispatch is accomplished by means of virtual methods/functions.
 both single dispatch and multiple dispatch are forms of dynamic dispatch.
+
+##### single & multiple dispatch
 
 single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
 
 multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on as well as the method parameters) is used to choose the implementation
 Overloading would be multiple dispatch if it was performed at runtime, but it isn't, so it isn't.
+
+##### virtual method table
+
+VMT = virtual method table
+virtual method table is also called (virtual) function/call/dispatch table
+virtual method/function/call table is sometimes abbreviated vftable or vtable.
+A vtable contains all relevant virtual functions.
+
+##### rust
+
+In rust, `dyn <trait-bound>` is the type of a trait object.
+A trait object is an opaque type of another type that implements a set of traits.
+A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
+A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box<>.
+For something to be object safe, the return type may not be `Self` and there may not be any generic type parameters.
+A trait object must be object safe.
+The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
+The reason a method of a trait used in a trait object may not return `Self` is that we don't known `Self` at compile-time, thus we can't reason about its size and can't guarantee safety.
+In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
 
 ### parametric polymorphism
 
@@ -9594,8 +9703,8 @@ e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that yo
 Many languages have a way to specify contraints a generic should satisfy.
 Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
 Trait bounds are a set of traits that a generic must satisfy.
-In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-list>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
-trait-list ::= <trait-name>{ + <trait-name>}
+In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-bound>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
+trait-bound ::= <trait-name>{ + <trait-name>}
 where-clause-syntax ::= where {<generic>: <trait-list><newline>}
 TS allows specifying constraints for generics via the `extends` keyword.
 The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
@@ -9978,6 +10087,10 @@ On the negative side, manifestly and statically typed languages can be more effo
 On the positive side, manifestly and statically typed languages 1) dramatically lower the chance of bugs, especially type errors (logic type), 2) provide better linting 3) provide better IDE code completion and similar.
 
 (literal) type widening is the fact that TS will infer a primitive type and not a literal type for literal values.
+
+Often, when rust can't infer the type, we need to use turbofish notation ( :​:&lt;type&gt;)
+
+##### const assertions
 
 In TS, const assertions are a special case of type assertions that influence type inference rather than specifying a specific type to cast to.
 const-assertion ::= <type> as const;
@@ -10365,6 +10478,7 @@ What Rust and C++ call references are probably more like pointers.
 In Rust and C++ the & operator takes a reference of something.
 In Rust, any references of a type have the type &<type>, while in C++ they have the type <type>&.
 In Rust, to take a reference, one must prefix the thing one is taking a reference of with &, while in C++ reference-taking is implied if one assigns to a reference-type variable.
+In Rust, a reference to an element in a data structure counts as a reference to the whole data structure for the purposes of borrow semantics.
 In Rust, references are immutable by default, and must explicitly be declared mutable with &mut.
 In Rust, the act of taking a reference is known as borrowing, since implements specific semantics/rules.
 In Rust, correct use of borrow semantics are checked at compile time by the borrow checker.
@@ -10378,7 +10492,6 @@ you can also dereference on the left-hand side of an assignment to assign to the
 In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
 In Rust, the Trait that controls the behavior of the dereference operator is Deref, which has a method deref implementing dereferencing.
 
-In Rust, a slice is a fat pointer.
 In Rust, a slice is a view into a block of memory by means of a pointer that also stores a length.
 In Rust, any linear collection type can be sliced.
 In Rust, slices are considered a reference and have the same semantics as references do.
@@ -10402,6 +10515,8 @@ since rust's `String` is stored on the heap, it can be grown and shrunk.
 Since we don't know where the string data of `str` will be and what size it can or cannot have, `str` itself cannot be owned, but instead can only be referred to as a reference.
 A 'reference' &str is actually a slice, not just a mere reference. I presume that's because we need the feature of slices indicating the length, sice we need some way to know where the str stops (since `str`s can have any length, in contrast to other things like an array which we don't need to slice to reference it since we know where it ends at compile time)
 Rusts treats references to strings &String and &str as the same in most cases, since there is not much difference between a reference to a string stored on the heap whose length we know, and a slice to a string stored somewhere whose length we know by virtue of it being a slice.
+string.as_str returns a string slice &str of a string.
+String slices &str and &String are type-compatible with &'static str, but of course work differently: they can't last longer than the original value.
 
 String.from() gets a String from an &str.
 String.new() creates a new empty string.
@@ -10621,6 +10736,11 @@ Retrieval function
 get(<key>)|Java|JS(map only)|Rust
 [] indexing notation despite not being a primitive|C#
 
+####### Insertion order
+
+There are both languages that do and do not guarantee insertion order to be maintained for their associative arrays.
+In Rust, you need to use the `indexmap` crate to get an associative array that keeps insertion order.
+
 ####### methods
 
 
@@ -10673,7 +10793,20 @@ to make sure that Python's JSON/YAML libraries insert newlines and indentation, 
 
 ######## Rust serde
 
+serde is a rust crate for serializing/deserializing data structures from/to common formats.
+serde uses additional crates to add support for formats, e.g. serde_json for json and serde_yaml for yaml.
 trying to use serde-related features with indexmap will fail if you haven't specified the feature "serde"
+you can make `ureq` support conversion to json via serde directly via the `json` feature.
+serde represents anything with the `Value` enum
+the `Value` enum has variants for each type supported by the file format. 
+serde_yaml represents mappings as `Value::Mapping<Value, Value>`
+serde_json represents Objects as `Value::Map<String, Value>`
+
+`Value.as_<type>` returns Option<<type>>
+`Value.is_<type>` returns bool representing whether is <type>
+
+using serde to parse, we may parse arbitrary data into a serde representation using from_str and then index into it as you would in JS with square bracket notation (but you may recieve `Value::Null`), or we may parse data into a predefined rust representation
+to make serde support the derive macro, set the "derive" feature
 
 ####### misc
 
@@ -10705,8 +10838,8 @@ col1.extend(col2)|Python
 Repeat the contents of a linear collection n times
 col1 * n|Python
 
-append one element to end 
-push()|JS
+append one element to end of dynamic linear collection
+push()|JS|Rust
 append()|Python
 
 remove an element from a lin coll by name
@@ -10964,6 +11097,7 @@ all(iterable)|Python
 Sum up all the elements in an iterable
 sum(iterable)|Python
 enumerableWhichIsJustASynonymForIterable.sum()|Ruby
+Iterator.sum()|Rust
 
 
 count occurrences of element
@@ -10976,10 +11110,18 @@ An iterator is an object (or similar) whose purpose is to iterate over some data
 An iterator has a next() method that returns the next element.
 Most other functionality that an iterator offers can be derived from the next() method
 An iterable is generally something that can create an iterator of itself.
+Something being iterable is generally implemented as an interface.
+Something being an iterator may be implemented as a type or interface
+
+#### Iterator implementation
+
+`Iterator` trait/interface|Rust
+
+In rust, to implement `Iterator` you only have to implement `next()`, and Rust will automatically implement a bunch of other methods for you.
 
 #### iterables
 
-Something being iterable is generally implemented as an interface.
+
 In ruby, iterables are called enumerables.
 In most languages that have iterables, most collections are iterable, as are strings and ranges. 
 Java Strings are not iterable, JS objects aren't either.
@@ -11022,7 +11164,7 @@ yield|JS
 
 yield another generator (JS) yield*
 
-### iterator methods
+#### iterator methods
 
 someIter.{{c1::zip}}() takes {{c2::two iterators}} and returns {{c3::a new iterator}} which will for each call to {{c4::next()}} return a {{c5::tuple}} with the values {{c6::the other two would have returned}} with {{c4::next()}}
 In rust, methods (most of them higher-order functions) called on iterators are known  as adapters or consumers, depending on what they do.
@@ -11364,18 +11506,21 @@ Can be used to ensure a variable never gets assigned a falsy value by using logi
 It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
 
+{{c2::??}} is like {{c3::||}} but {{c1::only returns its right-hand value on nullish values}}
+
 ### bitwise
 
 Bitwise operations operate on the underlying binary value (regardless of type in the programming language).
 Most C-family languages support bitwise operations.
 
 bitwise not|~
-left shift|&lt;&lt;
-right shift|>>
+left shift|&lt;&lt; <n>
+right shift|>> <n>
 bitwise XOR|^
 bitwise OR|bar
 bitwise AND|&
 
+when using the left shift operator, the newly created places will be filled by zero
 
 ### math
 
@@ -11988,13 +12133,25 @@ does not take self as argument|Rust
 
 ### self-reference
 
-reference to the current record/other thing
+self/this are keywords to reference the current record/other thing
+
+#### self/this in different languages
+
 self|Python|Ruby|Rust
 this|C#|Java|JS
+
+#### typeof self
+
+In rust, `Self` is the type of the current record.
+In rust, `self` has the type `Self` (or `&Self` if borrowed)
+
+#### self/this binding
 
 Many languages bind self/this automatically in methods, all others typically bind self/this explicitly by taking self/this as their first arguments.
 In JS, any function binds this, even those that are not methods. Outside of a function, this refers to the global object.
 to refer to the this representing the global object even within places that bind this to something else, use `globalThis`.
+
+##### self and methods/assocated functions
 
 In certain languages (Rust, Python), methods must take self as the first argument, else they are class methods/associated functions.
 In rust, taking `self` takes ownership and thus invalidates previous references, ergo one generally wants to take &self or &mut self.
@@ -12006,6 +12163,8 @@ A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
 in OOP, a method call is the way to send of message: The originator object is implicit, the target is specified manually, the method called is the message, and the arguments are well the arguments.
 Ergo, in OOP objects generally use message passing to communicate.
+In JS, methods are specified without using `function`, merely name and param list.
+There is an older version of specifying methods in JS that is <name>: <anonymous-function>, this only works for object literals.
 
 #### Getters and setters
 
@@ -12037,6 +12196,7 @@ In rust, struct declarations use the keyword struct.
 Both struct delcarations and initializations in rust use a very assoc-array like syntax.
 struct User { username: String, ...}
 Tuple structs are either 'tuples with a name which can be instantiated' or 'structs with anonymous but ordered fields'.
+if a variable and a struct field have the same name, you can write `foo,` instead of `foo: foo,`
 
 ### impl
 
@@ -12049,6 +12209,16 @@ For any impl block, we may indicate that we only want to implement it for someth
 When we implement something, we can only rely on other things of the thing we're implementing existing, plus whatever trait bounds we've established.
 we may `impl` a Trait without any `for` clause to provide a default implementation.
 `impl <trait-list>` does not start an impl block and instead refers to a type that implements trait-list, with the advantage that this syntax can be used outside of a type parameter.
+
+### fields 
+
+In JS, fields themselves have properties (such as enumerable).
+In JS, enumerable fields are those that will be enumerated over in a `for-in` loop.
+generally, properties added 'normally' are also enumerable
+<object>.propertyIsEnumerable(<name>)
+properties that are not inherited (that is, they are there not because of the prototype chain, they of course then be inherited by other things) are called own properties
+<object>.hasOwnProperty(<name>) 
+The {{c1::Object}}.{{c1::assign}}{{c2::(foo, bar)}} method {{c3::copies}} all {{c4::enumerable}} {{c4::own}} {{c4::properties}} from {{c5::one or more source objects}} to {{c5::a target object.}} 
 
 ### Classes & objects 
 
@@ -12182,6 +12352,15 @@ In rust, the keyword to declare a trait is `trait`
 blocks of trait declarations contain method signatures.
 In rust, deriving a trait is automaticallly generating trait implementations for a given thing.
 In rust, derive is implemented via an annotation that takes a list of Traits.
+
+In rust, the orphan rule says that either a trait or the thing it is being implemented on must be local to our crate.
+In rust, the reason for the orphan rule is that otherwise when using multiple crates, they may end up trying to implement the same trait on the same type in different ways, creating conflicts (and dependency hell)
+
+In rust, traits may exist in a supertrait/subtrait relationship.
+A supertrait S of trait T means that any type implementing T must also implement S.
+A subtrait S of trait T means that any type implementing S is also guaranteed to implement T.
+
+syntax for declaring a trait with a supertrait: `trait <subtrait> : <trait-bound>`
 
 #### OOP
 
@@ -12428,14 +12607,33 @@ stack grows upwards|stack underflow|address < stack_origin_addr
 stack grows downwards|stack overflow|address < stack_origin_addr-max_stack_size
 stack grows downwards|stack underflow|address > stack_origin_addr
 Since each call to a callable unit adds a stack frame, infinite recursion causes a stack overflow (unless the compiler optimizes the recursion away)
-In most languages, records are kept on the stack.
-In most languages, since records are kept on the stack, a variable/constant merely stores a pointer to the record.
 The stack is significantly faster than the heap, since it's implementation is far simpler.
 The heap can become fragmented.
 The heap is managed much less strictly than the stack.
-For things on the heap, you typically have a pointer.
 
 In general, there is one stack per thread and one heap per process (instance of a program)
+
+
+### stack trace
+
+A stack trace is a report of the active stack frames during the execution of a program.
+Stack traces are often automatically printed in the case of unrecoverable errors
+to show a stack trace on error in rust, set the env variable `RUST_BACKTRACE=1`
+
+### static and dynamic as size
+
+static types/statically sized types (!= static variables) have a size that can be known at compile time.
+dynamic types/dynamically sized types have a size that cannot be known at compile time. 
+One of the main cases for static arrays is that they are static(ally sized) types.
+Only statically sized types can be stored on the stack (= in automatic variables).
+Dynamically sized types are stored on the heap. 
+To store dynamically sized types on the stack, one typically has a pointer.
+Most record types are dynamically sized types.
+In rust, statically sized types implement `Sized`, dynamically sized types implement `?Sized`
+In rust, pointers to dynamically sized types are fat pointers.
+In rust, the most common dynamically sized types are trait objects and slices.
+Pointers to slices are fat pointers because they also store a length of the slice.
+trait objects are fat pointers because they also store a virtual method table.
 
 ### static, automatic and dynamic variables
 
@@ -12449,20 +12647,23 @@ A data segment is a part of the object file (file of object code = compiler outp
 The read-only data segment is the part of the data segment (or an extra data segment) that contains read-only static variables (ergo static consonants)
 the read-only data segment may be called rodata.
 
+#### automatic and dynamic variables
+
 The terms automatic and dynamic variables/memory allocation are mainly used in C-style languages.
 
 An automatic variable is a variable that has its memory allocated and deallocated automatically when the program enters and leaves the variables scope.
 Automatic variables have a lifetime of the variables scope.
-In general, automatic variables are allocated on the stack, within a stack frame.
+In general, automatic variables genrally must be statically sized.
 Any automatic variable can go out of scope.
 
 Dynamic memory allocation creates lifetimes of your choosing: their memory is allocated and deallocated by you or a memory management system.
-Dynamic memory allocation generally stores things on the heap.
 (dynamic variable isn't a real term, I've introduced it here for terminological parallelism)
 Def: Automatic/static variables use automatic/static memory allocation.
 
 Use-after-free is a vulnerability where memory is used after it has been deallocated.
 Use-after-free can generally only occur to dynamically allocated memory.
+
+#### lexical and nonlexical lifetimes
 
 In lexical lifetimes, the lifetime of a value is until the end of its lexical scope
 In non-lexical lifetimes, the lifetime of a value is until it is last used within its lexical scope.
@@ -12992,6 +13193,10 @@ std::env::vars()|Rust
 A signle environment variable
 std::env::var(<name>)|Rust
 
+###### parsing
+
+for any kind of involved CLI argument parsing in Rust, use `clap`.
+
 ##### print to & read from console
 
 Print functions in different languages
@@ -13037,18 +13242,6 @@ printf options
 system()|ruby
 <system-module>.system()|python
 
-#### visual
-
-##### UI
-
-widget tookit   library for creating UIs
-gtk   GNU widget toolkit
-qt (read cute)   cross-platform widget toolkit
-
-##### Data visualization
-
-d3 is a JS library for mainipulating/visualizing data
-
 #### file system
 
 ##### current working directory
@@ -13065,13 +13258,19 @@ path|node
 
 #### files & streams
 
+##### relevant modues
+
+std::io, std::fs|Rust
+
 ##### non-stream based file interaction
 
 Many programming languages feature utility functions to read an entire file to a string/write an entire file to a string, without having to use streamlike I/O.
 The functions to instantly write a file typicallly take at least a path and the contents plus named arguments or an assoc arr for options.
-The functions to instantly read a file typicallly take at least a path plus named arguments or an assoc arr for options.
+The functions to instantly read a file take at least a path.
+Most functions to read a file instantly, but not Rust, also take named arguments or an assoc arr for options.
 the node async instant read/write file function also takes an error callback, as usual
 readFile(Sync)/writeFile(Sync)|Node
+std::fs::read_to_string|Rust
 
 ##### interaction
 
@@ -13084,13 +13283,14 @@ For languages that have separate readers, getting the reader typically locks the
 
 ###### implementation of streamslike IO in different languages
 
-Pythons streamlike I/O class/interface is `File`.
+Pythons streamlike I/O class/interface is `File`, even for things we wouldn't typically call files.
 Ruby's streamlike I/O class/interface is `IO`.
 Node's streamlike I/O class/interface is `Stream`.
 In node, `Stream`s that can be read/written/both implement `Readable`/`Writable`/`Duplex`
 JS has `ReadableStream` and `WritableStream` for streamlike I/O class/intefaces.
 Rust doesn't have one class/struct for working with streams, but things that are readable implement the traits `Read` andor `BufRead`.
-Rust only returns things implementing `Read` andor `Bufread` after calling `.lock()`
+For some things, Rust only returns things implementing `Read` andor `BufRead` after calling `.lock()`
+For files, rust's struct implementing `Read` is `File`.
 JS returns the actual reader `ReadableStreamDefaultReader` after calling `.getReader()` on the stream, which locks the stream.
 
 ####### streamlike IO that can be read
@@ -13151,11 +13351,25 @@ In python, the interface for the dispose pattern is a context manager object, wh
 python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
 c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
 
+### fancy IO
+
+#### visual
+
+##### UI
+
+widget tookit   library for creating UIs
+gtk   GNU widget toolkit
+qt (read cute)   cross-platform widget toolkit
+
+##### Data visualization
+
+d3 is a JS library for mainipulating/visualizing data
 
 #### web 
 
 table:span=2;web IO library
 requests|python|requests only
+ureq|Rust|requests only
 `http`/`https`|node|requests & server=responses
 none|native js|requests only
 axios|node & native js|requests (promise-based)
@@ -13261,6 +13475,7 @@ you can get {{c1::the date components}} of {{c4::Datelike}} using {{c2::the date
 chrono represents durations with `Duration`
 for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
+Weekdays in chrono are implemented by the enum chrono:&#8203;:Weekday and the variants( :&#8203;:Mon,  :&#8203;:Tue,...)
 
 ### Standard library
 
@@ -13494,6 +13709,9 @@ A compiler option is a setting that changes what a compiler does.
 Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
 TS|config, CLI
 
+Release profiles are sets of compiler options for certain scenarios, e.g. dev, release, ...
+Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
+
 ###### TS
 
 compiler option|function
@@ -13506,7 +13724,8 @@ In rust, a compile-time feature flag is a compiler option that allows conditiona
 rust allows the creation of custom compile-time feature flags that may be used in the conditional compilaton of code via compiler options.
 rust has two types of pragmas to specify a set of compiler conditions that must be met: attributes and macros, both indicated by cfg.
 in rust, you specify custom compile-time feature flags in a [features] section of your Cargo.toml
-in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates to optionally require.
+in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates or other features to optionally require.
+you can activate a feature for an external crate by referring to it within the features array that is part of the table defining the dependency.
 custom compile-time feature flags are refered to in `cfg` by the <cfg-name> feature
 compile-time feature flags are enabled by cargo build --features "<featurename>" 
 any cfg condition is enabled by --cfg "featurename"
@@ -13544,10 +13763,23 @@ In the context of compiling/interpreting, identifier/name is a synonym for symbo
 #### compiler optimizations
 
 A compiler optmization is a feature of a compiler that tries to minimize or maximize some attributes of an executable computer program.
+Optimization levels are compiler options specifying how much compiler optimizations to apply.
+In the GCC C compiler and in Rust, there are four optimization levels, 0-3.
+In rust, optimization levels are set via `opt-level'.
+
+##### dead code
+
 Dead code is code which is never or not usefully used.
 Unreachable code is dead code which is dead because there is no control flow path that would lead to it.
 Dead code elimination is a compiler optimization involving the removal of dead code.
 In js, dead code elimination is kown as tree shaking.
+unused variables are a type of dead code.
+compilers and linters will typically warn about unused variables.
+unused variables may be a code smell in that they are mistakenly not used.
+in rust, to turn off warnings about unused variables for a certain variable, prefix it with a _.
+
+##### call sites
+
 A call site is the place where a callable unit is called.
 Inlining is a compiler optimization that replaces a function call site with the body of the called function.
 
@@ -14383,13 +14615,6 @@ package.json|npm|yarn
 tsconfig.json|TS
 
 
-Some package managers (e.g. npm) will add a package as a dependency if you install/update it, while others will instead install dependencies listed in the package manifest automatically (e.g. cargo), some will do both, and some will do neither.
-npms save dependency to package manifest automatically behavior can be disabled with --no-save
-Some package managers separate dependencies (for running) and dev-dependencies (for development)
-Dev dependencies are usually their own area in the package manifest.
-npm allows --save-dev direct installation to dev dependencies via --save-dev
-
-
 package manifest top-level keys
 dependencies|specify dependencies|Cargo.toml|package.json
 devDependencies or dev-dependencies|Cargo.toml|package.json
@@ -14399,6 +14624,22 @@ main|entry point|package.json
 
 package-lock.json|npm
 Gemfile.lock|bundler
+
+
+##### dependencies
+
+The syntax for dependencies in most package manifests is as key-value pairs, where the value is a semver version.
+In rust, instead of the value of a key-value dependency pair being a version, it may also be a table with version as its one of keys, and other optional keys.
+
+###### auto-adding
+
+Some package managers (e.g. npm) will add a package as a dependency if you install/update it, while others will instead install dependencies listed in the package manifest automatically (e.g. cargo), some will do both, and some will do neither.
+npms save dependency to package manifest automatically behavior can be disabled with --no-save
+Some package managers separate dependencies (for running) and dev-dependencies (for development)
+Dev dependencies are usually their own area in the package manifest.
+npm allows --save-dev direct installation to dev dependencies via --save-dev
+
+
 
 
 ##### rust

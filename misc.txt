@@ -109,6 +109,12 @@ According to ⟮c9;the three-sector model⟯ of economics, economies develop {{c
 ⟮c3;SKUs⟯ are ⟮c4;unique identifiers⟯ for ⟮c5;distinct salable items⟯.
 ⟮c1;SKUs⟯ have ⟮c2;no specification or standard⟯, they are ⟮c2;arbitrarily specified by the seller.⟯
 
+## employment
+
+### remuneration
+
+A {{c1::salary buddy}} (newly coined concept bys omeone on twitter) is a person (presumably {{c2::in the same profession}}) with whom {{c3::you regular exchange information on your remuneration}} to make sure that {{c3::you're both getting fairly paid}}
+
 ## business entities
 
 ### corporations
@@ -393,6 +399,13 @@ A ⟮c1;condominium⟯ (short: ⟮c2;s1;condo⟯) is a ⟮c3;building⟯ (or ⟮
 ## law
 
 In law, the ⟮c1;disposition⟯ of a case is ⟮c2;its final settlement/decision⟯ 
+
+## (in)efficiency
+
+### parkinson's law
+
+{{c1::Parkinson's law}} is the idea that "{{c2::work expands so as to fill the time available for its completion.}}" 
+Over the times, corollaries, such as "Data {{c3::expands to fill the space available}}" have also been proposed. 
 
 # political science
 
@@ -1811,6 +1824,14 @@ The ⟮c5;panopticon⟯ was designed by ⟮c6;Jeremy Bentham⟯, and used as a m
 ⟮c2;a community of practice⟯ is ⟮c3;a set of people⟯ who ⟮c4;come together⟯ via ⟮c5;mutual engagement⟯ ⟮c1;in a common endeavor⟯ 
 In ⟮c6;their engagement in their endeavor⟯, what emerges ⟮c7;in a community of practice⟯ are ⟮c8;Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
 
+### groups
+
+#### processes
+
+##### social loafing
+
+In social psychology, social loafing is the phenomenon of a person exerting less effort to achieve a goal when they work in a group than when working alone.
+
 ## society of/and...
 
 ### technology
@@ -1829,8 +1850,8 @@ FOSS|Free and open source software
 
 ##### remix
 
+The idea of everything's a remix is that any new work is built completely out of parts from other works
 Read-only culture and read/write culture were coined by lawrence lessig.
-
 
 table:read-only culture|media is consumed passively
 read-write culture|media is changed, derivative works are made
@@ -2875,6 +2896,16 @@ A disorder might indicate that a specific disease is possible but there is not e
 On average, sufferers of ⟮c17;non-24⟯ have a circadian rythym roughly ⟮c18;25 hours⟯ long. 
 Medication for ⟮c19;non-24⟯ generally is ⟮c20;melatonin / melatonin-receptor-based⟯. 
 
+#### nervous system
+
+##### dystonia
+
+»Dystonia« is a neurological ＿disorder＿ where muscle contractions cause jerking, twitching, and abnormal movements.
+Focal dystonia is dystonia that affects a specific part of the body.
+Benign Essential Blepharospasm is a focal dystonia of the eye muscle.
+Most eyelid twitching is most common idiopathic.
+Rarely, eyelid twitching is a symptom of benign essential blepharospasm or a serious neurological disorder.
+
 ### syndrome
 
 A syndrome is some sort of disruption of regular functions with recgonizable signs and symptoms that are ⟮c6;correlated with each other = that co-occur⟯, but ⟮c9;for which we don't have a known cause.⟯
@@ -2910,6 +2941,24 @@ Roughly ⟮c10;1⟯% of the population have ⟮c11;CFS⟯, with it occuring some
 ### first aid
 
 ⟮h∞;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯Beim Prüfen des Bewusstseins zuerst ⟮c1;deutlich⟯ ⟮c2;Ansprechen⟯, dann ⟮c1;vorsichtig⟯ ⟮c3;an den Schultern rütteln⟯. 
+
+### external cause
+
+An »external cause« is a reason for the existence of a medical condition which can be associated with a specific object or acute process that was caused by something outside the body. 
+
+#### effects
+
+##### violence
+
+contrary to {{c1::what films like you to believe}}, {{c2::a single punch}}, especially {{c2::in the head}} can lead to {{c3::severe debilitating brain damage}} or {{c3::death}}.
+
+##### hypothermia
+
+{{c4::Extreme hypothermia}} may lead to {{c1::undressing}}, because people suddenly {{c1::feel hot}} (the mechanism is not well understood, but may be because {{c2::the brain malfuncitons}}, or because {{c3::the muscles restricting blood flow to the extremities suddenly relax}})
+While {{c1::alcohol}} makes you feel {{c2::warmer}}, it actually {{c4::moves blood}} to the {{c4::outer skin layers}}, causing you to {{c3::cool out more quickly}}
+It is generally said that {{c1::cotton kills}} because it {{c2::absorbs way more water}} and {{c3::does not warm when wet}}.
+During {{c1::late-stage hypothermia}}, {{c2::terminal burrowing}} = {{c3::hide-and-die sydrome}} may occur, where people will {{c4::enter small, enclosed spaces}} (even if {{c5::those do not provide more warmth}})
+Being {{c2::wet}} cools you out more than not because (amongst other reasons) {{c4::waters}} {{c1::thermal conductivity}} is {{c3::~25 times}} higher than {{c4::airs}}
 
 # cleaning
 
@@ -3261,6 +3310,9 @@ x hegemony is the hierarchy between hegemonic +istity and hegemonic -istity.
 x-normativity often causes equality to be identified as everyone becoming more like hegemonic +istity.
 Besides the violence that having a - identity incurs, a mismatch between actual traits and traits expected by hegemonic - ity can produce sanctions, but so can having actual traits expected by hegemonic - ity = the double bind.
 Hyper -ity is the extreme pursuit of the hegemonic -ity corresponding with one's - identity.
+A model minority is a (part of a) - identity some of whose traits are seen positively.
+A model minority's positively-seen traits serve to naturalize their negatively seen traits.
+A model minority's positively-seen traits serve to contrast with other subidentities of the - identity.
 
 + fragility is the state in which having {{c3::the relevant ism privilege mentioned}}, even {{c5::in a minor way}}, {{c6::triggers a deep defensive response}}. This reaction functions (on a societal level if not consciously) to {{c4::maintain the current -ism order}}
 
@@ -3529,6 +3581,21 @@ In history, primary sources would be works from the historical period under cons
 In philosophy, primary sources are notable works subject to interpretation
 primary sources are called 「quellen」 in the study of history in german.
 
+## interaction
+
+### citation metrics
+
+#### coupling & co-citation
+
+<img src="Visualization_of_co-citation_analysis_methods.png" style="clip-path: inset(0 50% 0 0)">
+
+Bibliographic coupling measures how many of the same works two documents cite. 
+If two documents cite at least one work in common, they are bibliographically coupled. 
+The bibliographic coupling strength/index will be 3 if they cite 3 works in common<
+Co-citation measures how frequently two documents are cited together by other documents. 
+If at least one other document cites two documents in common these documents are said to be co-cited. 
+The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works -&gt; co-citation strength of 3). It is supposed to predict how semantically-related they are.
+
 ## writing
 
 ### referencing
@@ -3549,6 +3616,8 @@ Philosophical works sometimes get an abbreviation such as KrV for use in short c
 A »complete citation« is the pair of a short citation and a full citation.
 Author-date is a type of short citation where one includes the author and date.
 Author-date citation is also called harvard style.
+
+some citation styles allow using ibid. instead of the page information if the page information is repeated.
 
 ##### placement
 
@@ -3577,6 +3646,7 @@ ff.|this page or any following.
 ##### sections
 
 ＿Works Cited＿ and ＿References＿ are synonyms.
+Sometimes the ＿References＿ section is also called 「reference list」
 »Works Cited«/»References« are sections at the end of the work containing ＿full citations＿.
 Properly, a »bibliography« should contain all works consulted, not those merely cited.
 Often, 「bibliography」 is also just used as a synonym for ＿Works Cited＿/＿References＿.
@@ -3595,6 +3665,10 @@ The current APA edition is the 7th, released 2019.
 
 table:citation style|in-body
 APA|author-date
+
+##### multiple authors
+
+et al. is used to abbreviate many authors in an academic setting
 
 #### quotations
 
@@ -3629,6 +3703,12 @@ Der Schluss einer akademischen arbeit enthält normalerweise (wobei oft nicht ge
 
 In germany, sometimes a dreischritt is used to make your hypothesis more precise.
 Form eines Dreischritts: {{c1::Ich untersuche}} ..., {{c2::weil ich herausfinden will}}, ..., {{c3::um herauszufinden}}, .....
+
+### types of works
+
+#### monographs
+
+A monograph is typically a single work on a single subject by a single author.
 
 ### techniques
 
@@ -3665,6 +3745,13 @@ digit|means waht
 2nd|subject/department
 3rd|sequence within subject/department
 
+## ways of thinkin
+
+### turns
+
+In academia, a turn is an intellectual project in which a group of scholars critique the status quo and embrace a new paradigm of research.
+The original turn (whence the term) was the linguistic turn in philosophy at the beginning of the 20th century.
+Since the linguistic turn, everyone and their mother have claimed a turn.
 
 # archives
 
@@ -4458,3 +4545,7 @@ Something ⟮c1;phallic⟯ is ⟮c3;shaped like⟯ or ⟮c3;otherwise like⟯ a 
 ### phraseology
 
 ceteris paribus|everything else being equal
+
+### abbreviations
+
+et al.|et alii

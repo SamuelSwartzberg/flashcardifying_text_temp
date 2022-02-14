@@ -8,9 +8,13 @@ Thus, a segment is "any element, at any level of representation, which is descri
 
 ### history
 
-⟮c1;De Sassure⟯ founded ⟮c2;structuralism⟯, which had its heyday in ⟮c3;the 1950s and 1960s⟯ in ⟮c4;France⟯ (but is still influential) 
+⟮c1;De Sassure⟯ founded ⟮c2;structuralism⟯
+The work that founded structuralism is de Sassure's 1916 work 『Course in General Linguistics』
+structuralism had its heyday in ⟮c3;the 1950s and 1960s⟯ in ⟮c4;France⟯ (but is still influential) 
 
 ### the sign
+
+The sign consists of a signfier and a signified.
 
 <div class="sandbox">
 <div class="sign">
@@ -60,7 +64,9 @@ Thus, a segment is "any element, at any level of representation, which is descri
 </style>
 </div>
 
-<img src="sm_planes_of_sound__thought.gif"><br>In ⟮c7;structuralism⟯, ⟮c8;signs, signifiers and signfieds⟯ ⟮c10;are defined/gain their meaning⟯ by ⟮c9;their relations to each other⟯, specifically, each ⟮c8;sign/signfier/signified⟯ is ⟮c10;defined/gains its meaning⟯ by ⟮c11;not being/contrasting with⟯ ⟮c12;any other⟯ ⟮c8;sign/signifier/signified⟯. 
+<img src="sm_planes_of_sound__thought.gif">
+
+In ⟮c7;structuralism⟯, ⟮c8;signs, signifiers and signfieds⟯ ⟮c10;are defined/gain their meaning⟯ by ⟮c9;their relations to each other⟯, specifically, each ⟮c8;sign/signfier/signified⟯ is ⟮c10;defined/gains its meaning⟯ by ⟮c11;not being/contrasting with⟯ ⟮c12;any other⟯ ⟮c8;sign/signifier/signified⟯. 
 Since ⟮c13;each sign/signfier/signified is defined/gains its meaning by not being/contrasting with any other sign/signifier/signified⟯, we can say that ⟮c14;structuralism⟯ defines meaning negatively. 
 So, the meaning of the signifier ⟮c15;horse⟯ is {{c16::{¬unicorn, ¬pony, ¬rabbit, ¬plothole, ...} }} 
 In structuralism, the heretofore ⟮c17;amourphous mass⟯ of ⟮c18;signfiers and signifieds⟯ is ⟮c19;carved up into arbitrary divisions⟯. 
@@ -2999,6 +3005,20 @@ kaomoji ::= ⟮c17;[&lt;left-arm&gt;]⟯⟮c27;&lt;head&gt;⟯⟮c17;[&lt;right-
 ```
 most common ⟮c32;head delimiters⟯: ⟮c33;(⟯) 
 
+#### written media
+
+##### manuscripts
+
+A manuscript is a non-printed written work.
+Sometimes, the term manuscript is a written work on any media, as long as it is not in its final form.
+Before the advent of printing, all books were manuscripts.
+
+###### palimpsest
+
+<img src="sm_paste-08cee722aa3a0d331ac53f3027ef7cf35ad457e2.jpg">
+A palimpsest is a manuscript page on which multiple different texts have been written.
+For palmipsests, generally the previous layer was erased before the new layer was written, though with varying degrees of success.
+Palimpsest as a term is sometimes exteded to refer to any palimpsest-like superimposition.
 
 ## diachronic
 
@@ -3512,6 +3532,13 @@ name|description
 Theoretical linguistics may just contrast with applied linguistics, or specifically be the area of linguistics that answers fundamental questions about the nature of language
 
 ## formal language
+
+### chomsky hierarchy
+
+The chomsky hierarch describes a hierarchy of formal grammars.
+
+
+onion-box:[recursively&#32;enumerable [context-sensitive [context-free [regular<br><br>]]]]
 
 ### metalanguage
 
