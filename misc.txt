@@ -951,7 +951,7 @@ In ⟮c3;fountain⟯, ⟮c1;indentation⟯ ⟮c2;has no effect (besides organizi
 
 ### high modernism
 
-<dfn>⟮c2;High Modernism⟯</dfn>, coined by ⟮c1; James C. Scott ⟯ ("⟮c3;Seeing Like a State⟯") is said to be a subperiod of ⟮c4;modernity/modernism⟯, mainly between⟮sb; ⟮c5;the late 1950s⟯ and ⟮c6;late 1970s⟯ ⟯
+»⟮c2;High Modernism⟯«, coined by ⟮c1; James C. Scott ⟯ ("⟮c3;Seeing Like a State⟯") is said to be a subperiod of ⟮c4;modernity/modernism⟯, mainly between⟮sb; ⟮c5;the late 1950s⟯ and ⟮c6;late 1970s⟯ ⟯
 ⟮c7;High modernism⟯ is said to have been characterized by ⟮c8;strong confidence⟯ in ⟮c9;science⟯ and ⟮c9;technology⟯, ⟮sb;to the point of ⟮c10;using science and technology⟯ to ⟮c11;master⟯/⟮c11;shape⟯ ⟮c12;society/humanity⟯ and ⟮c13;nature⟯⟯.
 
 ## sociocultural anthropology
@@ -1714,7 +1714,7 @@ the ⟮c2;Dungan revolt⟯ was a largely unknown rebellion featuring ⟮c3;8-10 
 #### three-finger salute
 
 ⟮h1;<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">⟯
-<img src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c2;the  3 finger salute⟯ with the ⟮c1;The hunger games⟯ (though it seems to originate from <dfn>Amazing Grace and Chuck</dfn>) 
+<img src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c2;the  3 finger salute⟯ with the ⟮c1;The hunger games⟯ (though it seems to originate from »Amazing Grace and Chuck«) 
 The ⟮c3;3-finger salute⟯ became ⟮c4;a symbol for democracy⟯ after it was used ⟮c8;in pro-democracy protests after a military coup⟯ in ⟮c5;thailand⟯ in ⟮c6;2014⟯, and was further used after ⟮c7;the 2021 myanmar military coup⟯ 
 
 ### media
@@ -3753,13 +3753,6 @@ In academia, a turn is an intellectual project in which a group of scholars crit
 The original turn (whence the term) was the linguistic turn in philosophy at the beginning of the 20th century.
 Since the linguistic turn, everyone and their mother have claimed a turn.
 
-# archives
-
-
-## inspiration
-
-⟮c1;Designspiration⟯ is a pinterest-like website for ⟮c2;design inspiration⟯. 
-
 # theatre
 
 ## improv
@@ -3770,24 +3763,26 @@ Since the linguistic turn, everyone and their mother have claimed a turn.
 
 Die Struktur einer ⟮c1;Impro-szene (und ggf. anderer dinge, aber hauptsächlich⟯) ist ⟮c2;EKL⟯. 
 ⟮c3;EKL⟯ steht für ⟮c4;Etablieren, Konflikt, Lösung⟯. 
-<div class="line">Die vier Fragen, die man beim ⟮c5;Etablieren⟯ beantwortet sind:
-<ol>
+
+##### Etablieren
+
+Die vier Fragen, die man beim ⟮c5;Etablieren⟯ beantwortet sind:
+
 <li>⟮c6;Wer bin ich⟯?</li>
 <li>⟮c7;Wo bin ich⟯?</li>
 <li>⟮c8;Wann bin ich⟯?</li>
 <li>⟮c9;Wie stehe ich zum Gegenüber⟯?</li>
-</ol></div>
 In einer ⟮c10;(Impro)szene⟯ einigt man sich idealerweise nach ⟮c11;dem Etablieren⟯ auf ⟮c12;genau einen Konflikt⟯. 
 
 ### exercises
 
 #### Das Totale Chaos
 
-<dfn>⟮c1;Das totale chaos⟯</dfn>: ⟮c2;alle im kreis⟯, außer ⟮c3;eine person in der mitte⟯. ⟮c3;Die Person in der Mitte⟯ ⟮c4;sagt eine Wahrheit über sich⟯. ⟮sb;Falls ⟮c5;die Wahrheit auf einen zutrifft⟯, ⟮c6;muss man sich eine neue Position im Kreis suchen⟯. ⟮sb;Die ⟮c7;Person die keinen mehr findet⟯, ist ⟮c8;die neue Person in der Mitte⟯.⟯⟯ 
+»⟮c1;Das totale chaos⟯«: ⟮c2;alle im kreis⟯, außer ⟮c3;eine person in der mitte⟯. ⟮c3;Die Person in der Mitte⟯ ⟮c4;sagt eine Wahrheit über sich⟯. ⟮sb;Falls ⟮c5;die Wahrheit auf einen zutrifft⟯, ⟮c6;muss man sich eine neue Position im Kreis suchen⟯. ⟮sb;Die ⟮c7;Person die keinen mehr findet⟯, ist ⟮c8;die neue Person in der Mitte⟯.⟯⟯ 
 
 #### Hey Baby
 
-<dfn>⟮c8;Hey Baby⟯</dfn>: ⟮c1;Alle Leute stehen im Kreis⟯. ⟮c2;Eine Person geht in die Mitte⟯. ⟮sb;⟮c3;Die person in der mitte geht zu jemandem hin⟯ ⟮sb;⟮c4;und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c5;Falls eine person lacht oder lächelt⟯, muss ⟮c6;die Person in die mitte⟯, ⟮c5;Falls nicht⟯, muss ⟮c7;die Person (in der mitte) weitermachen bis es passiert⟯⟯⟯
+»⟮c8;Hey Baby⟯«: ⟮c1;Alle Leute stehen im Kreis⟯. ⟮c2;Eine Person geht in die Mitte⟯. ⟮sb;⟮c3;Die person in der mitte geht zu jemandem hin⟯ ⟮sb;⟮c4;und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c5;Falls eine person lacht oder lächelt⟯, muss ⟮c6;die Person in die mitte⟯, ⟮c5;Falls nicht⟯, muss ⟮c7;die Person (in der mitte) weitermachen bis es passiert⟯⟯⟯
 
 #### Mirroring
 
@@ -4149,27 +4144,27 @@ The ⟮c4;Cycle of abuse⟯: ⟮c1;Tension building⟯ -&gt; ⟮c2;Acute explosi
 
 #### narcissism
 
-⟮c1;<dfn>Narcissists</dfn>⟯ have an overriding desire to ⟮c2;protect/soothe/strengthen⟯ their ⟮c3;self-image.⟯ 
-⟮c4;<dfn>Narcisstic supply</dfn>⟯ are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
-<dfn>⟮c5;Narcisstic injury⟯</dfn> is ⟮c6;damage⟯ that a narcisst takes ⟮c7;to their self-image.⟯ 
+⟮c1;»Narcissists«⟯ have an overriding desire to ⟮c2;protect/soothe/strengthen⟯ their ⟮c3;self-image.⟯ 
+⟮c4;»Narcisstic supply«⟯ are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
+»⟮c5;Narcisstic injury⟯« is ⟮c6;damage⟯ that a narcisst takes ⟮c7;to their self-image.⟯ 
 
-In ⟮c8;a family with a narcissist⟯, people end up ⟮c9;being forced into roles⟯ - ⟮c10;the whole construct⟯ is called the <dfn>⟮c11;narcissistic family⟯</dfn>. 
+In ⟮c8;a family with a narcissist⟯, people end up ⟮c9;being forced into roles⟯ - ⟮c10;the whole construct⟯ is called the »⟮c11;narcissistic family⟯«. 
 ⟮c17;The narcisstic family⟯'s ⟮c12;roles⟯ are ⟮c13;structural⟯: ⟮c14;The relationships between roles is what creates the structure, and makes it resilient to change.⟯ 
 ⟮c16;The narcissistic family⟯ consists of different ⟮c18;roles⟯: ⟮c19;the narcissist⟯, ⟮c20;the golden child⟯ and ⟮c21;the scapegoat⟯ ⟮c22;establish the structure⟯, butressed by ⟮c23;flying monkeys⟯, ⟮c24;neutral siblings/people.⟯ and sometimes also others (e.g. enablers)
 ⟮c25;Roles⟯ in a ⟮c26;narcissistic family⟯ may ⟮c27;shift⟯ if ⟮c28;they do not provide the function to the narcissist anymore.⟯ 
 
-In a narcissistic family the ⟮c29;<dfn>golden child</dfn>⟯ is the person ⟮c30;onto which the narcissist projects⟯ what ⟮c31;they want to believe about themselves.⟯ 
+In a narcissistic family the ⟮c29;»golden child«⟯ is the person ⟮c30;onto which the narcissist projects⟯ what ⟮c31;they want to believe about themselves.⟯ 
 The ⟮c32;golden child⟯ ⟮c33;strengthens the narcissists self-image⟯ by ⟮c34;projection⟯. 
 The ⟮c35;golden child⟯'s ⟮c36;achievements⟯ are ⟮c37;highly rewarded⟯. 
 
-In a narcissistic family, the <dfn>⟮c38;scapegoat⟯</dfn> is the person ⟮c39;onto which the narcissist projects⟯ what t⟮c40;hey don't want to believe about themselves.⟯ 
+In a narcissistic family, the »⟮c38;scapegoat⟯« is the person ⟮c39;onto which the narcissist projects⟯ what t⟮c40;hey don't want to believe about themselves.⟯ 
 The ⟮c41;scapegoat⟯ ⟮c42;strengthens the narcissists self-image⟯ by ⟮c43;contrast⟯. 
 The ⟮c44;scapegoat⟯'s ⟮c45;achievements⟯ are ⟮c46;not acknowledged⟯, and may ⟮c46;even surreptitiosuly be punished⟯. 
 Conversely, the ⟮c47;scapegoat⟯'s ⟮c48;failures⟯ may be ⟮c49;rewarded⟯. 
 However, the scapegoat may have an easier time ⟮c50;breaking away from the narcisstic family structure⟯. 
 
-In a narcisstic family, the ⟮c51;<dfn>neutral sibling/person</dfn>⟯ is said to be the sibling/person that ⟮c52;always tries to mediate⟯, but ends up ⟮c53;denying the reality of what's happening⟯. 
-In a narcisstic family, a <dfn>⟮c54;flying monkey⟯</dfn> is person ⟮c55;used by the narcissist⟯ as ⟮c56;a proxy for their narcissist actions.⟯ 
+In a narcisstic family, the ⟮c51;»neutral sibling/person«⟯ is said to be the sibling/person that ⟮c52;always tries to mediate⟯, but ends up ⟮c53;denying the reality of what's happening⟯. 
+In a narcisstic family, a »⟮c54;flying monkey⟯« is person ⟮c55;used by the narcissist⟯ as ⟮c56;a proxy for their narcissist actions.⟯ 
 
 
 # phys
@@ -4517,6 +4512,10 @@ effect|direction
 
 ⟮c1;four-stage breathing techniques⟯ (roughly equivalent to ⟮c2;pranayama⟯) consists of the steps ⟮sb;⟮c3;Breathe in⟯ ⟮sb;⟮c4;Hold⟯ ⟮sb;⟮c5;Breathe out⟯ ⟮sb;⟮c6;hold⟯.⟯⟯⟯⟯  
 Often, ⟮c7;the four steps of four-stage breathing/pranayama are the same length⟯, in that case, it is often called ⟮c8;box/square breath⟯. Commonly, each step is held for ⟮c9;4-5⟯s. 
+
+## inspiration
+
+⟮c1;Designspiration⟯ is a pinterest-like website for ⟮c2;design inspiration⟯. 
 
 ## english 
 
