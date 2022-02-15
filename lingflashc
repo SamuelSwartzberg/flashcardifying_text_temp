@@ -81,13 +81,12 @@ What?|Where in the image?
 
 #### nesting
 
-⟮h∞;<img src="sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg">⟯
-⟮h∞;<img src="sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg">⟯⟮c+;Barthes⟯ took ⟮c+;Sassures sign⟯ and ⟮c+;nested it.⟯ 
+⟮h∞;<img src="sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg"><img src="sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg">⟯⟮c+;Barthes⟯ took ⟮c+;Sassures sign⟯ and ⟮c+;nested it.⟯ 
 ⟮c+;Derrida⟯ then took ⟮c+;Barthes sign⟯ and realized that it ⟮c+;could be nested infinitely⟯ in ⟮c+;both directions⟯, creating ⟮c+;an endless deferrment of meaning⟯ he called ⟮c+;Différance⟯. 
 
 ### langue and parole
 
-⟮h∞;<img src="sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg">⟯⟮h∞;<img src="sm_planes_of_sound__thought.gif">⟯As regards language, ⟮c+;De Sassure differentiated⟯ between ⟮c+;langue⟯ and ⟮c+;parole⟯. 
+⟮h∞;<img src="sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg"><img src="sm_planes_of_sound__thought.gif">⟯As regards language, ⟮c+;De Sassure differentiated⟯ between ⟮c+;langue⟯ and ⟮c+;parole⟯. 
 ⟮c+;Langue⟯ is ⟮c+;the structuralist system⟯ of a given language 
 ⟮c+;Parole⟯ is ⟮c+;any instance of the use of language⟯ 
 In the ⟮c+;langue⟯ of ⟮c+;spoken language⟯, the ⟮c+;signified⟯ (according to sassure) is ⟮c+;the concept⟯, the ⟮c+;signifier⟯ is ⟮c+;(the psychological reality of) the phonological realization⟯. 
@@ -2576,8 +2575,7 @@ Originally, any font-weight ⟮c+;in the 100 - 900 scale⟯ that was ⟮c+;not a
 
 ###### keming
 
-⟮h∞;<img src="sm_paste-f07c2c687494aa635cc4e1bac28fd932457a1b35.jpg">⟯
-⟮h∞;<img src="sm_220px-Metal_type_kerning.svg.png">⟯⟮c+;Letter-spacing⟯ AKA ⟮c+;tracking⟯ is the ⟮c+;adjustment of the (horizontal) distance⟯ ⟮c+;between glyphs⟯ for ⟮c+;all glyphs equally⟯. 
+⟮h∞;<img src="sm_paste-f07c2c687494aa635cc4e1bac28fd932457a1b35.jpg"><img src="sm_220px-Metal_type_kerning.svg.png">⟯⟮c+;Letter-spacing⟯ AKA ⟮c+;tracking⟯ is the ⟮c+;adjustment of the (horizontal) distance⟯ ⟮c+;between glyphs⟯ for ⟮c+;all glyphs equally⟯. 
 ⟮c+;Kerning⟯ is ⟮c+;the adjustment of horizontal spacing⟯ between ⟮c+;two specific glyphs⟯. 
 ⟮c+;Kerning⟯ is generally to ⟮c+;achieve a similar amount of whitespace between glyph⟯s. 
 Original, the ⟮c+;kern⟯ of ⟮c+;a glyph or its sort⟯ was ⟮c+;the part that overhangs its sort⟯. Thus ⟮c+;kerning⟯ generally involves ⟮c+;intruding into its box⟯. 
@@ -2625,7 +2623,7 @@ The ⟮c+;CSS⟯ ⟮c+;pt⟯ is ⟮c+;the same as the DTP point⟯, as is ⟮c+;
 
 ####### properties
 
-flex-container:⟮h∞;<img src="1280px-Typography_Line_Terms.svg.png">⟯⟮h∞;<img src="decender.png">⟯⟮h∞;<img src="1280px-Thank_You_(13824254433).jpg">⟯
+flex-container:⟮h∞;<img src="1280px-Typography_Line_Terms.svg.png"><img src="decender.png"><img src="1280px-Thank_You_(13824254433).jpg">⟯
 The ⟮c+;body height⟯ when talking about ⟮c+;movable type⟯ is ⟮c+;the height of the sort⟯. 
 The ⟮c+;body height⟯ when talking about ⟮c+;digital typography⟯ is ⟮c+;the distance between⟯ ⟮c+;the top of the tallest letterform⟯ and ⟮c+;the bottom of the lowest one⟯. 
 Equivalently, we may also define ⟮c+;the body height⟯ as ⟮c+;the distance between⟯ ⟮c+;the ascender⟯ and ⟮c+;descender⟯ ⟮c+;line⟯. 
@@ -2926,7 +2924,7 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 
 ###### ligatures
 
-⟮h∞;<img src="sm_298px-Ligature_drawing.svg.png">⟯⟮h∞;<img src="Typographic_ligature_st.png">⟯⟮h∞;<img src="Th_Taumfel.jpg">⟯⟮h∞;<img src="1024px-Ĳ_uppercase_ligature.svg.png">⟯In writing, a ⟮c+;ligature⟯ is when ⟮c+;two or more characters⟯ are ⟮c+;fused to form a single character⟯. 
+⟮h∞;<img src="sm_298px-Ligature_drawing.svg.png"><img src="Typographic_ligature_st.png"><img src="Th_Taumfel.jpg"><img src="1024px-Ĳ_uppercase_ligature.svg.png">⟯In writing, a ⟮c+;ligature⟯ is when ⟮c+;two or more characters⟯ are ⟮c+;fused to form a single character⟯. 
 Many ⟮c+;current symbols/characters/graphemes⟯ originated as ⟮c+;ligatures⟯, but are now ⟮c+;ordinary characters⟯. 
 ⟮c+;The ampersand &amp;⟯ originated as ⟮c+;a ligature⟯ of ⟮c+;et⟯. 
 ⟮c+;圕⟯ is ⟮c+;a rare ligature⟯ of ⟮c+;図書館⟯ 

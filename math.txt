@@ -537,7 +537,7 @@ Equivalently, a ⟮c+;regular graph⟯ is one where ⟮c+;each vertex⟯ has ⟮
 A ⟮c+;complete graph⟯ is a ⟮c+;regular graph⟯ where ⟮c+;each vertex⟯ is ⟮c+;connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
 Equivalently, a ⟮c+;complete graph⟯ is a graph with a ⟮c+;degree⟯ of ⟮c+;amount of vertices n - 1⟯. 
 
-flex-container:⟮h∞;<img src="sm_directed_graph.svg">⟯⟮ha;<img src="sm_multigraph.svg">⟯⟮h∞;<img src="sm_weighted_graph.svg">⟯
+flex-container:⟮h∞;<img src="sm_directed_graph.svg">⟯⟮ha;<img src="sm_multigraph.svg"><img src="sm_weighted_graph.svg">⟯
 
 Graph-related thing|alternative names
 ⟮c+;edges⟯|⟮c+;links/lines⟯
@@ -568,7 +568,7 @@ A ⟮c+;cycle⟯ is ⟮c+;a circuit (a closed trail⟯) with ⟮c+;no repeated v
 A ⟮c+;graph⟯ ⟮c+;without cycles⟯ is called ⟮c+;acyclic⟯. 
 The ⟮c+;length⟯ ⟮c+;k⟯ of ⟮c+;walks/trails/paths/circuits/cycles⟯ are counted in ⟮c+;edges⟯. 
 
-flex-container:⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png">⟯⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯
+flex-container:⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯
 
 ⟮c+;Two vertices⟯ are ⟮c+;connected⟯ if ⟮c+;there is a path between two vertices⟯, else ⟮s110;they are ⟮c+;disconnected⟯.⟯ 
 ⟮c+;A graph⟯ is ⟮c+;connected⟯ if ⟮c+;every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
@@ -1171,7 +1171,7 @@ cup falls out of the nice logic of gallons, quarts, etc., one (us customary) cup
 
 ## pareto principle
 
-⟮h∞;<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png">⟯⟮h∞;<img src="Pareto_principle.png">⟯
+⟮h∞;<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png"><img src="Pareto_principle.png">⟯
 
 The ⟮c+;pareto distribution⟯ is a ⟮c+; (family of) probability distributions⟯ that applies to a large set of ⟮c+;natural⟯ and ⟮c+;social⟯ phenomena. 
 A well-known ⟮s1;pareto distribution⟯ with ⟮c+;a specific parameter⟯ reflects the idea that ⟮c+;80% of outcomes are due to 20% of causes⟯, which has become known as ⟮c+;the pareto principle⟯ (Aka ⟮c+;the law of the vital few⟯, ⟮c+;the principle of factor sparsity⟯). 

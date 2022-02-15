@@ -1071,8 +1071,7 @@ Web Speech API: text to speech/speech to text
 ### PWA
 
 PWA|Progressive Web App
-PWAs should work to some extent even when ⟮c+;there is no internet⟯
-⟮h∞;<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c+;screenshots⟯ property of a web app manifest allows for ⟮c+;previewing images of the web app when installing⟯
+PWAs should work to some extent even when ⟮c+;there is no internet<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c+;screenshots⟯ property of a web app manifest allows for ⟮c+;previewing images of the web app when installing⟯
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
 #### service workers
@@ -3678,7 +3677,7 @@ Shortcut to open command palette|Platform
 
 ####### context menu
 
-⟮h∞;<img src="Menu_key_screen.jpg">⟯⟮h∞;<img src="Context_menu_windows.png">⟯⟮h∞;<img src="Context_Menu_on_OS_X_10.9.png">⟯
+⟮h∞;<img src="Menu_key_screen.jpg"><img src="Context_menu_windows.png"><img src="Context_Menu_on_OS_X_10.9.png">⟯
 A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
 
 ###### ambiguous
@@ -3712,7 +3711,7 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 
 ###### status bar
 
-flex-container:⟮h∞;<img src="sb-paint.png">⟯⟮h∞;<img src="460px-Emacs_statusline.png">⟯⟮h∞;<img src="Gedit_3.11.92.png">⟯⟮h∞;<img src="StatusBar_Light.png">⟯⟮h∞;<img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯
+flex-container:⟮h∞;<img src="sb-paint.png"><img src="460px-Emacs_statusline.png"><img src="Gedit_3.11.92.png"><img src="StatusBar_Light.png"><img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯
 
 On ⟮c+;desktop⟯, a ⟮c+;status bar⟯ is a ⟮c+;horizontal⟯ ⟮c+;bar⟯ generally at ⟮c+;the bottom of a window⟯. 
 A ⟮c+;status bar⟯ on desktop displays ⟮c+;various kinds of information⟯, often used when ⟮c+;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
@@ -3721,7 +3720,7 @@ A ⟮c+;status bar⟯ on mobile contains ⟮c+;notification⟯ and ⟮c+;system�
 
 ###### taskbar
 
-flex-container:⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png">⟯⟮h∞;<img src="Windows_10_Taskbar.PNG">⟯⟮h∞;<img src="1024px-MacOS_Sierra_dock.png">⟯⟮h∞;<img src="1024px-Plasma_5.20_Taskbar.png">⟯
+flex-container:⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png"><img src="Windows_10_Taskbar.PNG"><img src="1024px-MacOS_Sierra_dock.png"><img src="1024px-Plasma_5.20_Taskbar.png">⟯
 
 ⟮c+;The above⟯ are all examples of ⟮c+;taskbars⟯. 
 A ⟮c+;taskbar⟯ is a GUI element that typically shows ⟮c+;which programs are open⟯, and allows ⟮c+;pinning programs or other things for quick access⟯. 
@@ -3764,7 +3763,7 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
 ##### sidebars
 
-flex-container:⟮h∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png">⟯⟮h∞;<img src="162vsE7VWrMgBdBTF8MCKXw.jpeg">⟯⟮h∞;<img src="ditch-sidebar-2016-2-fox.jpg">⟯⟮h∞;<img src="ditch-sidebar-2016-4-washington.jpg">⟯⟮h∞;<img src="sidebars.png">⟯
+flex-container:⟮h∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png"><img src="162vsE7VWrMgBdBTF8MCKXw.jpeg"><img src="ditch-sidebar-2016-2-fox.jpg"><img src="ditch-sidebar-2016-4-washington.jpg"><img src="sidebars.png">⟯
 A ⟮c+;sidebar⟯ is an UI element that is displayed ⟮c+;to the side of⟯ ⟮c+;the main content⟯ or ⟮c+;of the screen⟯. ⟮hb;Sidebars may be ⟮c+;navigation bars⟯, contain ⟮c+;tools⟯ or contain ⟮c+;further content⟯. ⟮hb;Sidebars are generally ⟮c+;reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
@@ -3815,7 +3814,7 @@ A ⟮c+;popover⟯ is a element/component that usually ⟮c+;appears⟯ when ⟮
 
 ##### list box
 
-⟮h∞;<img src="1-final-listbox-matrix">⟯⟮h∞;<img src="List_example.PNG">⟯⟮h∞;<img src="ctrl-list-boxes-image1.png">⟯
+⟮h∞;<img src="1-final-listbox-matrix"><img src="List_example.PNG"><img src="ctrl-list-boxes-image1.png">⟯
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
 ##### corners
@@ -3826,7 +3825,7 @@ A listbox (or list box) is a UI element that contains a list of values within a 
 
 ##### dropdown list/menu
 
-⟮h∞;<img src="1y2NriILZC8ujowKW4TWb2Q.png">⟯⟮h∞;<img src="dropdown-example.jpg">⟯⟮h∞;<img src="3-final-sidebyside-dropdowns">⟯
+⟮h∞;<img src="1y2NriILZC8ujowKW4TWb2Q.png"><img src="dropdown-example.jpg"><img src="3-final-sidebyside-dropdowns">⟯
 dropdown is short for dropdown list/menu
 A dropwdown is a UI element that consists of ⟮c+;a box⟯ and ⟮c+;a downward arrow⟯ that ⟮c+;one can interact with⟯ to ⟮c+;show a list of options⟯, ⟮c+;exactly one of which⟯ can be ⟮c+;selected⟯. Often, larger ones will ⟮c+;scroll⟯.
 
@@ -3981,8 +3980,8 @@ Since the ⟮c+;bottom⟯ of ⟮c+;a HSV/HSB cylinder⟯ ⟮c+;approaches the sa
 ⟮c+;HSV/HSB⟯ has v⟮c+;alue/brightness⟯ as ⟮c+;the height⟯.  
 both ⟮c+;HSL⟯ and ⟮c+;HSV/B⟯ have the problem that ⟮c+;changing⟯ the ⟮c+;saturation⟯ and ⟮c+;to a certain extent⟯ ⟮c+;the hue⟯ ⟮c+;will change⟯ ⟮c+;the percieved lightness/brightness⟯, even when ⟮c+;they are supposed to be independent⟯. 
 
-flex-container:⟮h∞;<img src="sm_hsl_cylinder.png">⟯⟮h∞;<img src="sm_hsv_cylinder.png">⟯
-flex-container:⟮h∞;<img src="sm_hsl_cone.png">⟯⟮h∞;<img src="sm_hsv_cone.png">⟯
+flex-container:⟮h∞;<img src="sm_hsl_cylinder.png"><img src="sm_hsv_cylinder.png">⟯
+flex-container:⟮h∞;<img src="sm_hsl_cone.png"><img src="sm_hsv_cone.png">⟯
 
 For any given color model, to ⟮c+;specify transparency⟯, you ⟮c+;add another channel⟯, which is called the ⟮c+;alpha⟯ channel.
 For a color hex, you ⟮c+;specify the alpha channel⟯ by ⟮c+;adding another two-digit hex to the end⟯.
@@ -4062,7 +4061,7 @@ transparency/opacity|visibility
 
 ## design
 
-⟮h∞;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg">⟯⟮h∞;<img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg">⟯⟮h∞;<img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg">⟯⟮h∞;<img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
+⟮h∞;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg"><img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg"><img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg"><img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
 It is often said (esp. in animation) that ⟮c+;good characters⟯ should ⟮c+;be recognizable by⟯ ⟮c+;their silhouette alone⟯ 
 
 
@@ -4098,8 +4097,7 @@ open|cannot be en/disabled
 
 #### curb cut effect
 
-flex-container:⟮h∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg">⟯
-⟮h∞;<img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg">⟯⟮h∞;<img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯
+flex-container:⟮h∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg"><img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg"><img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯
 
 Only after ⟮c+;disabled people protested⟯ did ⟮c+;curb cuts begin to be instituted⟯. 
 ⟮c+;Curb cuts⟯ have only really ⟮c+;become common⟯ ⟮c+;in the last few decades⟯ 
@@ -4108,7 +4106,7 @@ Only after ⟮c+;disabled people protested⟯ did ⟮c+;curb cuts begin to be in
 
 #### non-directive play
 
-flex-container:⟮h∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg">⟯⟮h∞;<img src="sm_IMG_8551.jpg">⟯⟮c+;non-directive/self-directed play⟯ is play that ⟮c+;allows the players to do whatever they come up with⟯
+flex-container:⟮h∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg"><img src="sm_IMG_8551.jpg">⟯⟮c+;non-directive/self-directed play⟯ is play that ⟮c+;allows the players to do whatever they come up with⟯
 
 ⟮c+;self-directed play⟯ is easier to do when ⟮c+;the play tools are not designed with any particular end in mind⟯ 
 ⟮c+;self-directed play⟯ was advocated, especially in ⟮c+;playgrounds⟯, by ⟮c+;Isamu Noguchi⟯ 
@@ -5577,7 +5575,7 @@ onion-box:[all [presentation [⟮c+;s1-2;beamer⟯][⟮c+;s1-2;second⟯][⟮c+;
 the ⟮c+;columns environment⟯ allows ⟮c+;a multicolumn setup⟯ in latex ⟮c+;beamer⟯  
 ⟮c+;within the columns environment of beamer⟯, ⟮c+;\column{foo⟯} ⟮c+;inserts a column of width foo⟯. 
 ⟮c+;theorem⟯ is an ⟮c+;environment⟯ that ⟮c+;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
-flex-container:⟮h∞;<img src="sm_Beamerblock.png">⟯⟮h∞;<img src="sm_Beamercolumns.png">⟯⟮h∞;<img src="sm_Beamermaths.png"> ⟯
+flex-container:⟮h∞;<img src="sm_Beamerblock.png"><img src="sm_Beamercolumns.png"><img src="sm_Beamermaths.png"> ⟯
 
 ######### KOMAScript
 
@@ -6345,7 +6343,7 @@ If you refer to an issue with ⟮c+;#number⟯ and a word such ⟮c+;as closes, 
 
 ### electrical connectors
 
-⟮h∞;<img src="Connectors.jpg">⟯⟮h∞;<img src="1280px-ConnectorSymbols.svg.png">⟯
+⟮h∞;<img src="Connectors.jpg"><img src="1280px-ConnectorSymbols.svg.png">⟯
 
 
 An ⟮c+;electrical connector⟯ is a device that ⟮c+;joins electric conductors⟯ ⟮c+;mechanically⟯ and ⟮c+;electrically⟯.
@@ -13360,8 +13358,7 @@ React Native|HTML
 onChangeText|event when text is changed
 onSubmitEditing|event when text is submitted
 
-⟮h∞;<img src="sm_2021-09-16--16-10-01-screenshot.png">⟯
-⟮h∞;<img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
+⟮h∞;<img src="sm_2021-09-16--16-10-01-screenshot.png"><img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
 A list with ⟮c+;sections/headings⟯ should probably use the ⟮c+;&lt;SectionList&gt;⟯ component
 A list with ⟮c+;no sections/headings⟯ should probably use the ⟮c+;&lt;FlatList&gt;⟯ component
 
@@ -14636,7 +14633,7 @@ You can ⟮c+;force element state (such as hover, focus⟯) either by ⟮c+;righ
 
 ###### box model
 
-flex-container:⟮h∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg">⟯⟮h∞;<img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯
+flex-container:⟮h∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg"><img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯
 Hovering over ⟮c+;a part of the box model⟯ in the styles tab will ⟮c+;higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮c+;change any part⟯ of the CSS box model in devtools by ⟮c+;clicking on the relevant number and setting it⟯ 
 

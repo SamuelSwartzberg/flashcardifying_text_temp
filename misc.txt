@@ -764,7 +764,7 @@ In general, according to Shibamoto Smith 2004, ⟮c+;japanese romance novels⟯ 
 
 ###### clinch cover
 
-flex-container:⟮h∞;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg">⟯⟮h∞;<img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯
+flex-container:⟮h∞;<img src="sm_clinch-covers-on-romance-novels-feature.jpg.optimal.jpg"><img src="sm_fires-of-winter-by-johanna-lindsey-cover.jpg.optimal.jpg"><img src="sm_branded-by-fire-nalini-singh-cover.jpg.optimal.jpg">⟯
 
 Covers that feature ⟮c+;topless guys⟯ ⟮c+;clutching women⟯ to ⟮c+;their naked upper body⟯  are called ⟮c+;clinch covers⟯
 
@@ -850,10 +850,7 @@ Examples of ⟮c+;litotes⟯ include ⟮c+;<q>not bad</q>; <q>no small task</q>;
 
 #### gleaming star
 
-⟮h∞;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif">⟯
-⟮h∞;<img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg">⟯⟮h∞;<img src="sm_nicegai.jpg">⟯
-⟮h∞;<img src="sm_1000.jpg">⟯
-⟮h∞;<img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c+;Shining or gleaming⟯ is often represented by ⟮c+;a four- or eight-pointed long-ish star⟯, where ⟮c+;the angles between all lines⟯ are ⟮c+;generally equal⟯. 
+⟮h∞;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif"><img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg"><img src="sm_nicegai.jpg"><img src="sm_1000.jpg"><img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c+;Shining or gleaming⟯ is often represented by ⟮c+;a four- or eight-pointed long-ish star⟯, where ⟮c+;the angles between all lines⟯ are ⟮c+;generally equal⟯. 
 The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c+;&lt;image&gt;⟯ 
 If there are ⟮c+;many small lights⟯, often ⟮c+;a large amount of  4/8p long-ish stars⟯ are used, whose ⟮c+;lines⟯ are ⟮c+;often (though not always⟯) then ⟮c+;parallel⟯ 
 When using the ⟮c+;eight-point version⟯ of the slender gleaming star, ⟮c+;the second set of four points/lines⟯ are ⟮c+;generally smaller⟯ 
@@ -1523,8 +1520,7 @@ The main problem with the ⟮c+;　靖国神社（やすくにじんじゃ）⟯
 
 #### population
 
-⟮h∞;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg">⟯⟮h∞;<img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg">⟯
-⟮h∞;<img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg">⟯⟮h∞;<img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c+;　日系（にっけい）⟯ literally means ⟮c+;of japanese descent⟯, though it can also be an abbreviation of ⟮c+;　日系人（にっけいじん）⟯ 
+⟮h∞;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg"><img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg"><img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg"><img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c+;　日系（にっけい）⟯ literally means ⟮c+;of japanese descent⟯, though it can also be an abbreviation of ⟮c+;　日系人（にっけいじん）⟯ 
 ⟮c+;　日系人（にっけいじん）⟯ refers to  ⟮c+;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
 The ⟮c+;largest amount⟯ of ⟮c+;日系（人）⟯ is in ⟮c+;Brazil⟯ 
 
@@ -1808,7 +1804,7 @@ separate ⟮c+;things that can affect an individual⟯ into categories. these ar
 
 ### panopticon
 
-⟮h∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg">⟯⟮h∞;<img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯
+⟮h∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg"><img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯
 
 
 the word ⟮c+;panoptic⟯ means ⟮c+;all-seeing⟯
@@ -2862,9 +2858,7 @@ Physiologically, ⟮c+;benign paroxysmal positional vertigo⟯ is caused by ⟮c
 
 #### by varicella-zoster
 
-⟮h∞;<img src="sm_87316209681.jpg">⟯
-⟮h∞;<img src="sm_300px-Herpes_zoster_neck.jpg">⟯
-⟮h∞;<img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯
+⟮h∞;<img src="sm_87316209681.jpg"><img src="sm_300px-Herpes_zoster_neck.jpg"><img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯
 
 c1;Chickenpox⟯ is then english term for ⟮c+;Windpocken⟯
 ⟮c+;Herpes Zoster⟯  is the scientific term for ⟮c+;Shingles⟯, in german it is called ⟮c+;Gürtelrose⟯ 
@@ -3501,7 +3495,7 @@ A distinction of the ⟮c+;poor⟯ that began with ⟮c+;the poor laws in englan
 
 ### a boring dystipia
 
-⟮h∞;<img src="Db82H6jV4AELsCZ.jpg">⟯⟮h∞;<img src="Db82JRwV4AEyXHz.jpg">⟯⟮h∞;<img src="Db82VUTVwAAiW7m.jpg">⟯
+⟮h∞;<img src="Db82H6jV4AELsCZ.jpg"><img src="Db82JRwV4AEyXHz.jpg"><img src="Db82VUTVwAAiW7m.jpg">⟯
 Mark Fisher coined the term "⟮c+;a boring dystopia⟯" to describe the situation of the 21st-century where ⟮c+;the casual perversity⟯ of ⟮c+;capitalism⟯ ⟮c+;isn't even interesting enough to get outraged⟯. 
 
 ### x work/x-al labor
@@ -3830,9 +3824,7 @@ In the game walking with speed levels, normally the levels are such that ⟮c+;1
 
 #### samurai
 
-⟮h∞;<img src="sm_your-drawing%20(1).png">⟯
-⟮h∞;<img src="sm_your-drawing%20(2).png">⟯
-⟮h∞;<img src="sm_your-drawing%20(3).png">⟯『⟮c+;Samurai⟯』: The attacker ⟮c+;raises their sword⟯ and ⟮hb; ⟮c+;cuts downwards⟯ while ⟮hb;⟮c+;emitting a sound (which one varies⟯) and ⟮hb;⟮c+;points at their target⟯. Their ⟮c+;target⟯ ⟮c+;cuts upwards⟯ while ⟮c+;emitting a different sound.⟯ The ⟮hb;⟮c+;left and right neighbors⟯ ⟮c+;cut from the side⟯ while ⟮c+;emitting a third sound⟯.⟯⟯⟯⟯
+⟮h∞;<img src="sm_your-drawing%20(1).png"><img src="sm_your-drawing%20(2).png"><img src="sm_your-drawing%20(3).png">⟯『⟮c+;Samurai⟯』: The attacker ⟮c+;raises their sword⟯ and ⟮hb; ⟮c+;cuts downwards⟯ while ⟮hb;⟮c+;emitting a sound (which one varies⟯) and ⟮hb;⟮c+;points at their target⟯. Their ⟮c+;target⟯ ⟮c+;cuts upwards⟯ while ⟮c+;emitting a different sound.⟯ The ⟮hb;⟮c+;left and right neighbors⟯ ⟮c+;cut from the side⟯ while ⟮c+;emitting a third sound⟯.⟯⟯⟯⟯
 In the game 『Samurai』, the ⟮c+;sword⟯ is formed by ⟮c+;palms together⟯, ⟮c+;arms straight⟯. 
 
 ## acting
@@ -4361,8 +4353,7 @@ In general, the three major types of lockpicking tools are ⟮c+;hooks⟯, ⟮c+
 
 ## basic lock model
 
-⟮h∞;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">⟯
-⟮h∞;<img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c+;a pencil⟯ and ⟮c+;two pieces of paper.⟯ 
+⟮h∞;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif"><img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c+;a pencil⟯ and ⟮c+;two pieces of paper.⟯ 
 The ⟮c+;gap between the two pieces of paper⟯ is ⟮c+;the shear line⟯, and ⟮c+;the pencil⟯ is ⟮c+;the pin⟯. 
 
 ## lock externals
@@ -4445,9 +4436,7 @@ The pin that will ⟮c+;bind here first⟯ if we ⟮c+;rotate in the upwards dir
 
 ## binding pins
 
-⟮h∞;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif">⟯
-⟮h∞;<img src="sm_Lock-Picking-Single-Pin-Picking.gif">⟯
-⟮h∞;<img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c+;bound⟯ pin is the one that if ⟮c+;rotational tension is being applied⟯ is ⟮c+;hard to move (won't slip⟯) 
+⟮h∞;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif"><img src="sm_Lock-Picking-Single-Pin-Picking.gif"><img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c+;bound⟯ pin is the one that if ⟮c+;rotational tension is being applied⟯ is ⟮c+;hard to move (won't slip⟯) 
 ⟮c+;Applying rotational tension⟯ allows ⟮c+;pins⟯ to ⟮c+;bind⟯, and thus ⟮c+;setting them⟯. 
 Pins can only ⟮c+;bind⟯ if ⟮c+;rotational tension is being applied⟯, otherwise ⟮c+;they won't get stuck⟯ and f⟮c+;all right back into the cylinder.⟯ 
 There is ⟮c+;most often (though not always⟯) ⟮c+;only one⟯ ⟮c+;binding pin⟯ at a time. 
