@@ -1,6 +1,6 @@
 # modes
 
-vim basic modes: ⟮c1;normal⟯, ⟮c2;insert⟯, ⟮c3;visual⟯, ⟮c4;select⟯, ⟮c5;command⟯, ⟮c6;ex⟯, ⟮c7;terminal⟯ (there are more, but they are all derivative of these)
+vim basic modes: ⟮c+;normal⟯, ⟮c+;insert⟯, ⟮c+;visual⟯, ⟮c+;select⟯, ⟮c+;command⟯, ⟮c+;ex⟯, ⟮c+;terminal⟯ (there are more, but they are all derivative of these)
 
 insert mode|similar to how a normal text editor works
 normal mode|commands on the text
@@ -12,7 +12,7 @@ visual mode|select text you go over (as in normal word processors)
 visual line mode|select whole lines you go over
 visual block mode|select rectangular areas you go over
 
-⟮c1;Select mode⟯ is like ⟮c2;visual mode⟯, but ⟮c3;starts insert mode for the selection⟯.
+⟮c+;Select mode⟯ is like ⟮c+;visual mode⟯, but ⟮c+;starts insert mode for the selection⟯.
 Ex-mode is a mode for vim similar to command mode (which itself also supports ex commands), which is mainly used for batch processing.
 
 I (shift i)|visual mode -> insert mode
@@ -30,17 +30,17 @@ vimscript is the scripting language built into vim.
 vimscript is used for command mode commands, macros and in .vimrc
 
 Action|Command|Available in...|Differences between
-⟮c11;evaluate a js string⟯|⟮c18;:jseval⟯|⟮c3;qutebrowser⟯
-⟮c12;bind a key⟯|⟮c19;:bind⟯|⟮c4;qutebrowser⟯
-⟮c13;restart qutebrowser⟯|⟮c1;:restart⟯|⟮c5;qutebrowser⟯
-⟮c14;save⟯|⟮c2;:w(rite⟯)|⟮c6;qutebrowser, vim⟯|⟮c9;saves the file in vim and the session in qutebrowser⟯
-⟮c15;quit⟯|⟮c20;:q(uit⟯)|⟮c7;qutebrowser, vim⟯
-⟮c16;save and quit⟯|⟮c21;wq⟯|⟮c8;qutebrowser, vim⟯|⟮c10;saves the file in vim and the session in qutebrowser⟯
-⟮c17;reload config file⟯|⟮c22;config-source⟯|⟮c9;qutebrowser, vim⟯</td></tr></tbody>
-⟮c23;:Explore⟯|⟮c24;open vim file explorer⟯|⟮c25;vim⟯
-⟮c26;:saveas⟯|⟮c27;save file with name and continue editing this⟯|⟮c28;vim⟯
-⟮c29;:so(urce) file⟯|⟮c30;source the specified file as vim code⟯|⟮c31;vim⟯
-⟮c32;:number⟯|⟮c33;show number of current line⟯|⟮c34;vim⟯
+⟮c+;evaluate a js string⟯|⟮c+;:jseval⟯|⟮c+;qutebrowser⟯
+⟮c+;bind a key⟯|⟮c+;:bind⟯|⟮c+;qutebrowser⟯
+⟮c+;restart qutebrowser⟯|⟮c+;:restart⟯|⟮c+;qutebrowser⟯
+⟮c+;save⟯|⟮c+;:w(rite⟯)|⟮c+;qutebrowser, vim⟯|⟮c+;saves the file in vim and the session in qutebrowser⟯
+⟮c+;quit⟯|⟮c+;:q(uit⟯)|⟮c+;qutebrowser, vim⟯
+⟮c+;save and quit⟯|⟮c+;wq⟯|⟮c+;qutebrowser, vim⟯|⟮c+;saves the file in vim and the session in qutebrowser⟯
+⟮c+;reload config file⟯|⟮c+;config-source⟯|⟮c+;qutebrowser, vim⟯</td></tr></tbody>
+⟮c+;:Explore⟯|⟮c+;open vim file explorer⟯|⟮c+;vim⟯
+⟮c+;:saveas⟯|⟮c+;save file with name and continue editing this⟯|⟮c+;vim⟯
+⟮c+;:so(urce) file⟯|⟮c+;source the specified file as vim code⟯|⟮c+;vim⟯
+⟮c+;:number⟯|⟮c+;show number of current line⟯|⟮c+;vim⟯
 </tbody></table>
 
 pwd   current directory|vim only
@@ -175,7 +175,7 @@ M   go to middl eof screen
 %   matching delimiter (e.g. other ")")
 (/)   beginning/end of sentence
 [[/]]   previous/next { (with edits suggested in :help)
-[{/]}   ⟮c2;beginning/end of block (enclosed in {})⟯
+[{/]}   ⟮c+;beginning/end of block (enclosed in {})⟯
 {   prev blank line
 ⟮c1;⟯}   next blank line
 b/B   start of previous word 
@@ -316,12 +316,12 @@ y|yank the thing you've searched for, if you've searched for something
 # vimlike apps
 
 name|function
-⟮c1;lf⟯|⟮c2;vimlike curses file manager⟯
-⟮c3;qutebrowser⟯|⟮c4;vimlike web browser⟯
-⟮c5;vifm⟯|⟮c6;vimlike curses file manager⟯
-⟮c7;vimiv⟯|⟮c8;very vimlike image viewer⟯
-⟮c9;visidata⟯|⟮c10;vimlike data visualizer⟯
-⟮c11;zathura⟯|⟮c12;vimlike document viewer⟯
+⟮c+;lf⟯|⟮c+;vimlike curses file manager⟯
+⟮c+;qutebrowser⟯|⟮c+;vimlike web browser⟯
+⟮c+;vifm⟯|⟮c+;vimlike curses file manager⟯
+⟮c+;vimiv⟯|⟮c+;very vimlike image viewer⟯
+⟮c+;visidata⟯|⟮c+;vimlike data visualizer⟯
+⟮c+;zathura⟯|⟮c+;vimlike document viewer⟯
 
 
 # patterns

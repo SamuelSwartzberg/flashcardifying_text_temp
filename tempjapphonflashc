@@ -1,95 +1,95 @@
 Katakana Hiragana Typical IPA reading Exceptions
-⟮c1;ア⟯ ⟮c1;あ⟯ ⟮c2;a⟯
-⟮c3;イ⟯ ⟮c5;い⟯ ⟮c4;i⟯ ⟮c5;イ⟯ ⟮c6;ij⟯ ⟮c7;between two vowels⟯
-⟮c8;ウ⟯ ⟮c11;う⟯ ⟮c9;u͍⟯ ⟮c10;ウ⟯ ⟮c11;w͍⟯ ⟮c12;sometimes after vowel in preceding word⟯ ⟮c9;う (after o⟯) ⟮c10;o⟯
-⟮c13;エ⟯⟮c15;え⟯  ⟮c14;e⟯
-⟮c15;オ⟯ ⟮c17;お⟯ ⟮c16;o⟯
-⟮c17;カ⟯ ⟮c21;か⟯ ⟮c18;ka⟯
-⟮c19;ガ⟯ ⟮c23;が⟯ ⟮c20;ga⟯
-⟮c21;キ⟯ ⟮c25;き⟯ ⟮c22;ki⟯ ⟮c23;キ⟯ ⟮c24;kʲi⟯
-⟮c25;キュ⟯ ⟮c26;kʲu⟯
-⟮c27;ギ⟯ ⟮c28;gi⟯
-⟮c29;ギャ⟯ ⟮c30;gʲa⟯
-   ⟮c27;きょ⟯ ⟮c28;kʲo⟯
-⟮c34;ク⟯ ⟮c29;く⟯ ⟮c35;ku͍⟯
-⟮c36;ケ⟯ ⟮c31;け⟯ ⟮c37;ke⟯
-⟮c38;コ⟯ ⟮c33;こ⟯ ⟮c39;ko⟯
-⟮c40;ゴ⟯ ⟮c41;go⟯
-⟮c42;サ⟯ ⟮c35;さ⟯ ⟮c43;sa⟯
-⟮c44;シ⟯ ⟮c37;し⟯ ⟮c45;ɕi⟯
-⟮c46;シェ⟯ ⟮c47;ɕe⟯
-⟮c48;シャ⟯ ⟮c39;しゃ⟯ ⟮c49;ɕa⟯
-⟮c50;ジ⟯ ⟮c41;じ⟯ ⟮c51;ʥi⟯
-⟮c52;ジャ⟯ ⟮c53;ʥa⟯
-⟮c54;ジョ⟯ ⟮c55;ʥo⟯
-⟮c59;ス⟯ ⟮c43;す⟯ ⟮c60;su͍⟯ 
-⟮c61;ズ⟯ ⟮c62;zu͍⟯
-⟮c63;セ⟯ ⟮c45;せ⟯ ⟮c64;se⟯
-⟮c65;ソ⟯ ⟮c47;そ⟯ ⟮c66;so⟯
-⟮c67;タ⟯ ⟮c49;た⟯ ⟮c68;ta⟯
-⟮c69;ダ⟯ ⟮c70;da⟯
-⟮c71;チ⟯ ⟮c51;ち⟯ ⟮c72;ʨi⟯
-⟮c73;チュ⟯ ⟮c74;ʨu͍⟯
-⟮c75;ヂ⟯ ⟮c76;ʥi⟯
-⟮c77;ッ⟯ ⟮c53;っ⟯ ⟮c78;reduplication⟯ ⟮c79;before consonant⟯ ⟮c191;ʔ⟯ ⟮c192;at the end of word⟯
-⟮c121;づ⟯ ⟮c:121zu͍⟯
-⟮c80;ツ⟯ ⟮c55;つ⟯ ⟮c81;ʦu͍⟯
-⟮c82;ツァ⟯ ⟮c83;tsa⟯
-⟮c84;ツィ⟯ ⟮c85;tsi⟯
-⟮c86;テ⟯ ⟮c57;て⟯ ⟮c87;te⟯
-⟮c88;ト⟯ ⟮c59;と⟯ ⟮c89;to⟯
-⟮c90;トゥ⟯ ⟮c91;tu͍⟯
-⟮c92;ド⟯ ⟮c93;do⟯
-⟮c94;ナ⟯ ⟮c61;な⟯ ⟮c95;na⟯
-⟮c96;ニ⟯ ⟮c63;に⟯ ⟮c97;nʲi⟯
-⟮c98;ニュ⟯ ⟮c99;nʲu͍⟯
-⟮c100;ヌ⟯ ⟮c65;ぬ⟯ ⟮c101;nu͍⟯
-⟮c102;ネ⟯ ⟮c67;ね⟯ ⟮c103;ne⟯
-⟮c104;ノ⟯ ⟮c69;の⟯ ⟮c105;no⟯
-⟮c106;ハ⟯ ⟮c71;は⟯ ⟮c107;ha⟯ ⟮c109;w͍a⟯ ⟮c110;as topic marking particle⟯
-⟮c111;バ⟯ ⟮c112;ba⟯
-⟮c113;パ⟯ ⟮c114;pa⟯
-⟮c115;ヒ⟯ ⟮c75;ひ⟯ ⟮c116;çi⟯
-⟮c117;ヒュ⟯ ⟮c118;çu͍⟯
-⟮c119;ビ⟯ ⟮c120;bʲi⟯
-⟮c121;ビュ⟯ ⟮c122;bʲu͍⟯
-   ⟮c77;び⟯    
-⟮c123;ピュ⟯ ⟮c124;pʲu͍⟯
-⟮c125;フ⟯ ⟮c79;ふ⟯ ⟮c126;ɸu͍⟯
-⟮c127;フェ⟯ ⟮c128;ɸe⟯
-⟮c129;フォ⟯ ⟮c130;ɸo⟯
-⟮c131;ブ⟯ ⟮c132;bu͍⟯
-⟮c133;プ⟯ ⟮c134;pu͍⟯
-⟮c138;ヘ⟯ ⟮c83;へ⟯ ⟮c139;he⟯ ⟮c136;e⟯ ⟮c137;as direction marking particle⟯
-⟮c140;ペ⟯ ⟮c141;pe⟯
-⟮c142;ホ⟯ ⟮c85;ほ⟯ ⟮c143;ho⟯
-⟮c144;ボ⟯ ⟮c87;ぽ⟯ ⟮c145;bo⟯
-⟮c146;マ⟯ ⟮c89;ま⟯ ⟮c147;ma⟯
-⟮c148;ミ⟯ ⟮c91;み⟯ ⟮c149;mʲi⟯
-⟮c150;ミュ⟯ ⟮c151;mʲu͍⟯
-⟮c152;ム⟯ ⟮c93;む⟯ ⟮c153;mu͍⟯
-⟮c154;メ⟯ ⟮c95;め⟯ ⟮c155;me⟯
-⟮c156;モ⟯ ⟮c97;も⟯ ⟮c157;mo⟯
-⟮c158;ヤ⟯ ⟮c99;や⟯ ⟮c159;ja⟯
-⟮c160;ユ⟯ ⟮c101;ゆ⟯ ⟮c161;ju͍⟯
-⟮c162;ヨ⟯ ⟮c103;よ⟯ ⟮c163;jo⟯
-⟮c164;ラ⟯ ⟮c105;ら⟯ ⟮c165;ɽa⟯
-⟮c166;リ⟯ ⟮c107;り⟯ ⟮c167;ɽʲi⟯
-⟮c168;リュ⟯ ⟮c169;ɽʲu͍⟯
-⟮c170;ル⟯ ⟮c109;る⟯ ⟮c171;ɽu͍⟯
-⟮c172;レ⟯ ⟮c111;れ⟯ ⟮c173;ɽe⟯
-⟮c174;ロ⟯ ⟮c113;ろ⟯ ⟮c175;ɽo⟯
-⟮c176;ワ⟯ ⟮c115;わ⟯ ⟮c177;w͍a⟯
-⟮c178;ヲ⟯ ⟮c117;を⟯ ⟮c179;o⟯
-⟮c180;ン⟯ ⟮c119;ん⟯ n-like 
-⟮c188;ー⟯ ⟮c189;ː⟯
+⟮c+;ア⟯ ⟮c+;あ⟯ ⟮c+;a⟯
+⟮c+;イ⟯ ⟮c+;い⟯ ⟮c+;i⟯ ⟮c+;イ⟯ ⟮c+;ij⟯ ⟮c+;between two vowels⟯
+⟮c+;ウ⟯ ⟮c+;う⟯ ⟮c+;u͍⟯ ⟮c+;ウ⟯ ⟮c+;w͍⟯ ⟮c+;sometimes after vowel in preceding word⟯ ⟮c+;う (after o⟯) ⟮c+;o⟯
+⟮c+;エ⟯⟮c+;え⟯  ⟮c+;e⟯
+⟮c+;オ⟯ ⟮c+;お⟯ ⟮c+;o⟯
+⟮c+;カ⟯ ⟮c+;か⟯ ⟮c+;ka⟯
+⟮c+;ガ⟯ ⟮c+;が⟯ ⟮c+;ga⟯
+⟮c+;キ⟯ ⟮c+;き⟯ ⟮c+;ki⟯ ⟮c+;キ⟯ ⟮c+;kʲi⟯
+⟮c+;キュ⟯ ⟮c+;kʲu⟯
+⟮c+;ギ⟯ ⟮c+;gi⟯
+⟮c+;ギャ⟯ ⟮c+;gʲa⟯
+   ⟮c+;きょ⟯ ⟮c+;kʲo⟯
+⟮c+;ク⟯ ⟮c+;く⟯ ⟮c+;ku͍⟯
+⟮c+;ケ⟯ ⟮c+;け⟯ ⟮c+;ke⟯
+⟮c+;コ⟯ ⟮c+;こ⟯ ⟮c+;ko⟯
+⟮c+;ゴ⟯ ⟮c+;go⟯
+⟮c+;サ⟯ ⟮c+;さ⟯ ⟮c+;sa⟯
+⟮c+;シ⟯ ⟮c+;し⟯ ⟮c+;ɕi⟯
+⟮c+;シェ⟯ ⟮c+;ɕe⟯
+⟮c+;シャ⟯ ⟮c+;しゃ⟯ ⟮c+;ɕa⟯
+⟮c+;ジ⟯ ⟮c+;じ⟯ ⟮c+;ʥi⟯
+⟮c+;ジャ⟯ ⟮c+;ʥa⟯
+⟮c+;ジョ⟯ ⟮c+;ʥo⟯
+⟮c+;ス⟯ ⟮c+;す⟯ ⟮c+;su͍⟯ 
+⟮c+;ズ⟯ ⟮c+;zu͍⟯
+⟮c+;セ⟯ ⟮c+;せ⟯ ⟮c+;se⟯
+⟮c+;ソ⟯ ⟮c+;そ⟯ ⟮c+;so⟯
+⟮c+;タ⟯ ⟮c+;た⟯ ⟮c+;ta⟯
+⟮c+;ダ⟯ ⟮c+;da⟯
+⟮c+;チ⟯ ⟮c+;ち⟯ ⟮c+;ʨi⟯
+⟮c+;チュ⟯ ⟮c+;ʨu͍⟯
+⟮c+;ヂ⟯ ⟮c+;ʥi⟯
+⟮c+;ッ⟯ ⟮c+;っ⟯ ⟮c+;reduplication⟯ ⟮c+;before consonant⟯ ⟮c+;ʔ⟯ ⟮c+;at the end of word⟯
+⟮c+;づ⟯ ⟮c:121zu͍⟯
+⟮c+;ツ⟯ ⟮c+;つ⟯ ⟮c+;ʦu͍⟯
+⟮c+;ツァ⟯ ⟮c+;tsa⟯
+⟮c+;ツィ⟯ ⟮c+;tsi⟯
+⟮c+;テ⟯ ⟮c+;て⟯ ⟮c+;te⟯
+⟮c+;ト⟯ ⟮c+;と⟯ ⟮c+;to⟯
+⟮c+;トゥ⟯ ⟮c+;tu͍⟯
+⟮c+;ド⟯ ⟮c+;do⟯
+⟮c+;ナ⟯ ⟮c+;な⟯ ⟮c+;na⟯
+⟮c+;ニ⟯ ⟮c+;に⟯ ⟮c+;nʲi⟯
+⟮c+;ニュ⟯ ⟮c+;nʲu͍⟯
+⟮c+;ヌ⟯ ⟮c+;ぬ⟯ ⟮c+;nu͍⟯
+⟮c+;ネ⟯ ⟮c+;ね⟯ ⟮c+;ne⟯
+⟮c+;ノ⟯ ⟮c+;の⟯ ⟮c+;no⟯
+⟮c+;ハ⟯ ⟮c+;は⟯ ⟮c+;ha⟯ ⟮c+;w͍a⟯ ⟮c+;as topic marking particle⟯
+⟮c+;バ⟯ ⟮c+;ba⟯
+⟮c+;パ⟯ ⟮c+;pa⟯
+⟮c+;ヒ⟯ ⟮c+;ひ⟯ ⟮c+;çi⟯
+⟮c+;ヒュ⟯ ⟮c+;çu͍⟯
+⟮c+;ビ⟯ ⟮c+;bʲi⟯
+⟮c+;ビュ⟯ ⟮c+;bʲu͍⟯
+   ⟮c+;び⟯    
+⟮c+;ピュ⟯ ⟮c+;pʲu͍⟯
+⟮c+;フ⟯ ⟮c+;ふ⟯ ⟮c+;ɸu͍⟯
+⟮c+;フェ⟯ ⟮c+;ɸe⟯
+⟮c+;フォ⟯ ⟮c+;ɸo⟯
+⟮c+;ブ⟯ ⟮c+;bu͍⟯
+⟮c+;プ⟯ ⟮c+;pu͍⟯
+⟮c+;ヘ⟯ ⟮c+;へ⟯ ⟮c+;he⟯ ⟮c+;e⟯ ⟮c+;as direction marking particle⟯
+⟮c+;ペ⟯ ⟮c+;pe⟯
+⟮c+;ホ⟯ ⟮c+;ほ⟯ ⟮c+;ho⟯
+⟮c+;ボ⟯ ⟮c+;ぽ⟯ ⟮c+;bo⟯
+⟮c+;マ⟯ ⟮c+;ま⟯ ⟮c+;ma⟯
+⟮c+;ミ⟯ ⟮c+;み⟯ ⟮c+;mʲi⟯
+⟮c+;ミュ⟯ ⟮c+;mʲu͍⟯
+⟮c+;ム⟯ ⟮c+;む⟯ ⟮c+;mu͍⟯
+⟮c+;メ⟯ ⟮c+;め⟯ ⟮c+;me⟯
+⟮c+;モ⟯ ⟮c+;も⟯ ⟮c+;mo⟯
+⟮c+;ヤ⟯ ⟮c+;や⟯ ⟮c+;ja⟯
+⟮c+;ユ⟯ ⟮c+;ゆ⟯ ⟮c+;ju͍⟯
+⟮c+;ヨ⟯ ⟮c+;よ⟯ ⟮c+;jo⟯
+⟮c+;ラ⟯ ⟮c+;ら⟯ ⟮c+;ɽa⟯
+⟮c+;リ⟯ ⟮c+;り⟯ ⟮c+;ɽʲi⟯
+⟮c+;リュ⟯ ⟮c+;ɽʲu͍⟯
+⟮c+;ル⟯ ⟮c+;る⟯ ⟮c+;ɽu͍⟯
+⟮c+;レ⟯ ⟮c+;れ⟯ ⟮c+;ɽe⟯
+⟮c+;ロ⟯ ⟮c+;ろ⟯ ⟮c+;ɽo⟯
+⟮c+;ワ⟯ ⟮c+;わ⟯ ⟮c+;w͍a⟯
+⟮c+;ヲ⟯ ⟮c+;を⟯ ⟮c+;o⟯
+⟮c+;ン⟯ ⟮c+;ん⟯ n-like 
+⟮c+;ー⟯ ⟮c+;ː⟯
 
 
 What sound do japanese non-moraic n-syllables produce? (e.g. なねにのぬ）  [n] (exept for ni, which of course procudes [n<sup>j</sup>i], which is more properly [ɲ̟i])
 
 
-When can you devoice [i] or [u͍] (in japanese)? <span class="divider">-></span> ⟮c1;inbetween two voiceless consonants, and after a voiceless consonant at the end of a word⟯
- ⟮c32;ku̥⟯ ⟮c33;next syllable starts with voiceless consonant, or end of word⟯ ⟮c57;su̥⟯ ⟮c58;next syllable starts with voiceless consonant, or end of word⟯
+When can you devoice [i] or [u͍] (in japanese)? <span class="divider">-></span> ⟮c+;inbetween two voiceless consonants, and after a voiceless consonant at the end of a word⟯
+ ⟮c+;ku̥⟯ ⟮c+;next syllable starts with voiceless consonant, or end of word⟯ ⟮c+;su̥⟯ ⟮c+;next syllable starts with voiceless consonant, or end of word⟯
 If two syllables are devoiceable in a row...  only the first one will devoice.
 
 Instead of using spellings with ヴ, what do words often use?   Spellings with /b/, e.g. バ, ビ, etc.
@@ -114,7 +114,7 @@ Which consonant is not doubled by っ?  /n/
 FF claims that [e]+い doesn't produce [ee] in two mora words, but I'm not sure about that
 
 
-⟮c2;Japanese and spanish⟯ ⟮c1;[o], [e], [i]⟯ ⟮c3;are quite similar⟯
+⟮c+;Japanese and spanish⟯ ⟮c+;[o], [e], [i]⟯ ⟮c+;are quite similar⟯
 
 
 

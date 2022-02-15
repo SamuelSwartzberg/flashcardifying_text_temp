@@ -4,7 +4,7 @@
 
 NVC = nonviolent communication.
 Violence in NVC is not limited to physical violence.
-NVC was developed by ⟮c1;Marshall Rosenberg⟯
+NVC was developed by ⟮c+;Marshall Rosenberg⟯
 Nonviolent Communication may also be callled Compassionate Communication.
 According to Marshall, NVC is useable in any relationship, from personal to world diplomacy.
 
@@ -148,120 +148,120 @@ People suffering from -isms such as sexism may face additional hurdles in commun
 
 # clean language
 
-⟮c2;Clean language⟯ was created &nbsp;⟮c1;turn of the 1990s⟯ by ⟮c3;David Grove⟯ 
-⟮c4;Clean language argues⟯ (convincingly, to me, citing amongst others ⟮c5;Metaphors we live by⟯) and relies on the fact that ⟮c6;metaphors⟯ are the ⟮c7;the fundamental matter of thought, what we're made of⟯. Thus they are also ⟮c8;very important⟯ to us, and ⟮c9;changing them⟯ is powerful at ⟮c10;affecting change⟯. 
-⟮c11;Clean language⟯ assumes that besides ⟮c12;the more general/culture-wide conceptual metaphors described by Lakoff and Johnson⟯, there are also ⟮c13;personal metaphors⟯. 
-⟮c14;Clean language⟯ has two roles, the ⟮c15;questioner⟯ and the ⟮c16;speaker⟯. 
-The ⟮c17;questioner⟯ in clean language ⟮c18;listens⟯ and then ⟮c19;asks more clean language questions⟯. 
-⟮c20;Clean language⟯ emphasizes that if ⟮c21;you repeat the words of the other person⟯, you should ⟮c22;parrot-phrase⟯, that is ⟮c22;use exactly their words⟯. 
-⟮c23;Clean language⟯ consists of ⟮c24;twelve questions⟯ and ⟮c25;behaving cleanly⟯, which are both an attempt to ⟮c26;avoid bringing anything that is the questioners⟯, esp. ⟮c27;the questioners's own metaphors⟯ into the conversation. 
-The ⟮c28;twelve questions⟯ of ⟮c29;clean language⟯ have been ⟮c30;cleansed of assumptions/metaphors (as far as possible⟯) 
-The ⟮c31;twelve clean language questions⟯ are ⟮c32;designed to be asked about metaphors⟯, but ⟮c33;can be asked about anything⟯. 
-⟮c34;Behaving cleanly⟯ is acting in such a way to ⟮c35;attempt to avoid bringing anything that is the questioners⟯, esp. ⟮c36;the questioners's own metaphors⟯ into the conversation (this is a ⟮c37;matter of degree⟯, it is ⟮c38;impossible to behave completely cleanly⟯ ). 
-⟮c39;Clean language⟯ is designed to ⟮c40;bring greater clarity⟯ and perhaps ⟮c41;change metaphors⟯, and thus ⟮c42;the person as a result of that⟯, however, it ⟮c43;takes its time⟯, and is not designed to ⟮c43;force change⟯. 
-Clean language can also be used in ⟮c44;a more casual way⟯ for ⟮c45;more enjoyable socializing⟯. 
-Since clean language is ⟮c46;very powerful at shining a spotlight⟯, it may be ⟮c48;better⟯ to ⟮c47;only use it for positive stuff⟯ unless ⟮c48;you know what you're doing⟯. 
+⟮c+;Clean language⟯ was created &nbsp;⟮c+;turn of the 1990s⟯ by ⟮c+;David Grove⟯ 
+⟮c+;Clean language argues⟯ (convincingly, to me, citing amongst others ⟮c+;Metaphors we live by⟯) and relies on the fact that ⟮c+;metaphors⟯ are the ⟮c+;the fundamental matter of thought, what we're made of⟯. Thus they are also ⟮c+;very important⟯ to us, and ⟮c+;changing them⟯ is powerful at ⟮c+;affecting change⟯. 
+⟮c+;Clean language⟯ assumes that besides ⟮c+;the more general/culture-wide conceptual metaphors described by Lakoff and Johnson⟯, there are also ⟮c+;personal metaphors⟯. 
+⟮c+;Clean language⟯ has two roles, the ⟮c+;questioner⟯ and the ⟮c+;speaker⟯. 
+The ⟮c+;questioner⟯ in clean language ⟮c+;listens⟯ and then ⟮c+;asks more clean language questions⟯. 
+⟮c+;Clean language⟯ emphasizes that if ⟮c+;you repeat the words of the other person⟯, you should ⟮c+;parrot-phrase⟯, that is ⟮c+;use exactly their words⟯. 
+⟮c+;Clean language⟯ consists of ⟮c+;twelve questions⟯ and ⟮c+;behaving cleanly⟯, which are both an attempt to ⟮c+;avoid bringing anything that is the questioners⟯, esp. ⟮c+;the questioners's own metaphors⟯ into the conversation. 
+The ⟮c+;twelve questions⟯ of ⟮c+;clean language⟯ have been ⟮c+;cleansed of assumptions/metaphors (as far as possible⟯) 
+The ⟮c+;twelve clean language questions⟯ are ⟮c+;designed to be asked about metaphors⟯, but ⟮c+;can be asked about anything⟯. 
+⟮c+;Behaving cleanly⟯ is acting in such a way to ⟮c+;attempt to avoid bringing anything that is the questioners⟯, esp. ⟮c+;the questioners's own metaphors⟯ into the conversation (this is a ⟮c+;matter of degree⟯, it is ⟮c+;impossible to behave completely cleanly⟯ ). 
+⟮c+;Clean language⟯ is designed to ⟮c+;bring greater clarity⟯ and perhaps ⟮c+;change metaphors⟯, and thus ⟮c+;the person as a result of that⟯, however, it ⟮c+;takes its time⟯, and is not designed to ⟮c+;force change⟯. 
+Clean language can also be used in ⟮c+;a more casual way⟯ for ⟮c+;more enjoyable socializing⟯. 
+Since clean language is ⟮c+;very powerful at shining a spotlight⟯, it may be ⟮c+;better⟯ to ⟮c+;only use it for positive stuff⟯ unless ⟮c+;you know what you're doing⟯. 
 
 ## symbols
 
-⟮c34;The things in a persons metaphor world⟯ are called ⟮c35;symbols⟯. 
-The thing that ⟮c36;uniquely identifies⟯ a ⟮c37;symbol⟯ is ⟮c38;its name⟯. 
-⟮c39;Symbols⟯ start out ⟮c40;vague and shadowy⟯, ⟮c41;asking clean language questions⟯ ⟮c42;increases clarity⟯. 
+⟮c+;The things in a persons metaphor world⟯ are called ⟮c+;symbols⟯. 
+The thing that ⟮c+;uniquely identifies⟯ a ⟮c+;symbol⟯ is ⟮c+;its name⟯. 
+⟮c+;Symbols⟯ start out ⟮c+;vague and shadowy⟯, ⟮c+;asking clean language questions⟯ ⟮c+;increases clarity⟯. 
 
 One possible grouping of clean language questions (there are others)
-⟮c1;intention⟯|⟮c2;sequence and source⟯|span=3;⟮c3;developing⟯
+⟮c+;intention⟯|⟮c+;sequence and source⟯|span=3;⟮c+;developing⟯
 ||
-        ⟮c6;name and address questions⟯<br>
-        Purpose: ⟮c23;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
+        ⟮c+;name and address questions⟯<br>
+        Purpose: ⟮c+;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
         questions)) ⟮(c:25;2/3⟯ of questions asked)
-      |⟮c7;asking for a metaphor⟯|
-        ⟮c8;relationship between symbols⟯<br>Purpose: connecting symbols
-          1. ⟮c4;(And) what would X like to have happen?⟯
-          2. ⟮c5;(And) what needs to happen for X?⟯
+      |⟮c+;asking for a metaphor⟯|
+        ⟮c+;relationship between symbols⟯<br>Purpose: connecting symbols
+          1. ⟮c+;(And) what would X like to have happen?⟯
+          2. ⟮c+;(And) what needs to happen for X?⟯
           3. ⟮(c:9;And) can X (happen)?⟯
       |
-          1. ⟮c10;(And) then what happens?⟯ or ⟮c11;(And) what happens next?⟯
-          2. ⟮c12;(And) what happens just before X?⟯
-          3. ⟮c13;(And) where could X come from?⟯
+          1. ⟮c+;(And) then what happens?⟯ or ⟮c+;(And) what happens next?⟯
+          2. ⟮c+;(And) what happens just before X?⟯
+          3. ⟮c+;(And) where could X come from?⟯
       |
         <ol>
           <li>
-            ⟮c14;(And) what kind of X (is that X)?⟯ <br>
-            Purpose: ⟮c15;Zooming in⟯ <br>
-            Returns: ⟮c16;A symbols name⟯
+            ⟮c+;(And) what kind of X (is that X)?⟯ <br>
+            Purpose: ⟮c+;Zooming in⟯ <br>
+            Returns: ⟮c+;A symbols name⟯
           </li>
           <li>
-            ⟮c17;(And) is there anything else about x?⟯ <br>
-            Purpose: ⟮c18;Zooming out⟯
+            ⟮c+;(And) is there anything else about x?⟯ <br>
+            Purpose: ⟮c+;Zooming out⟯
           </li>
-          <li>⟮c20;(And) where(abouts) is X?⟯ <br>
-          Purpose: ⟮c19;Getting the address of X⟯ <br>
-          Returns: ⟮c21;A symbols location⟯ <br>
-          Notes: ⟮c22;can be used widely, since most metaphors have a spacial component⟯
+          <li>⟮c+;(And) where(abouts) is X?⟯ <br>
+          Purpose: ⟮c+;Getting the address of X⟯ <br>
+          Returns: ⟮c+;A symbols location⟯ <br>
+          Notes: ⟮c+;can be used widely, since most metaphors have a spacial component⟯
           </li>
         </ol>
       |
-        ⟮c26;(And) that's X like what?⟯ <br>
-        If ⟮c27;about everything that was jus said⟯: ⟮c28;(And) (all of) that's like what?⟯ <br>
-        Method of using: ⟮c29;say it very slowly⟯ <br>
-        Might not work if asked about ⟮c30;things that are already metaphors⟯, ⟮c31;abstract concepts⟯
+        ⟮c+;(And) that's X like what?⟯ <br>
+        If ⟮c+;about everything that was jus said⟯: ⟮c+;(And) (all of) that's like what?⟯ <br>
+        Method of using: ⟮c+;say it very slowly⟯ <br>
+        Might not work if asked about ⟮c+;things that are already metaphors⟯, ⟮c+;abstract concepts⟯
       |
         <ol>
-          <li>⟮c32;(And) is there a relationship between X and Y?⟯</li>
-          <li>⟮c33;(And) when X, what happens to Y?⟯</li>
+          <li>⟮c+;(And) is there a relationship between X and Y?⟯</li>
+          <li>⟮c+;(And) when X, what happens to Y?⟯</li>
         </ol>
 
 
 
 ## flower & checking presumptions
 
-⟮c4;clean language⟯ practice exercise: ⟮c3;flower⟯ 1. ⟮c1;One person thinks of a flower for a short while⟯ -&gt; 2. ⟮c2;the other person asks clean language questions about it⟯
-⟮c5;The flower exercise⟯ tends to reveal that ⟮c6;people have many different flowers in their head⟯.
-⟮c7;The fact that people have many different flowers in their head⟯ should remind us of the fact that ⟮c8;other people may be operating with⟯ ⟮c9;very different metaphors⟯ and thus ⟮c9;presumptions⟯ as we are.
+⟮c+;clean language⟯ practice exercise: ⟮c+;flower⟯ 1. ⟮c+;One person thinks of a flower for a short while⟯ -&gt; 2. ⟮c+;the other person asks clean language questions about it⟯
+⟮c+;The flower exercise⟯ tends to reveal that ⟮c+;people have many different flowers in their head⟯.
+⟮c+;The fact that people have many different flowers in their head⟯ should remind us of the fact that ⟮c+;other people may be operating with⟯ ⟮c+;very different metaphors⟯ and thus ⟮c+;presumptions⟯ as we are.
 The fact that ⟮c+;people may be operating with different metaphors/presumptions⟯ may make it benefitial to ⟮c+;ask clean language questions⟯ about ⟮c+;banal things⟯, esp. when ⟮c+;the stakes are high⟯.
 
 ## coin metaphor
 
-1. ⟮c1;Take out some coins ⟯
-2. ⟮c2;s1;What do they mean to you?⟯
-3. ⟮c3;s1-2;Arrange them to represent you and family/friends⟯
-4. ⟮c4;s1-3;Remove one⟯
-5. ⟮c5;s1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
+1. ⟮c+;Take out some coins ⟯
+2. ⟮c+;s1;What do they mean to you?⟯
+3. ⟮c+;s1-2;Arrange them to represent you and family/friends⟯
+4. ⟮c+;s1-3;Remove one⟯
+5. ⟮c+;s1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
 
 ## breaking point story
 
-1. ⟮c1;sb;Meeting was going on for ages⟯
-2. ⟮c2;sb;Sales director said "I think we're at breaking point"⟯
-3. ⟮c3;sb;Person thinks "Why the hell is the meeting about to kdown"⟯
-4. ⟮c4;sb;But remembers clean language and asks "What kind of king point"⟯
-5. ⟮c5;sb;Sales director says "The point of breaking through"⟯
+1. ⟮c+;sb;Meeting was going on for ages⟯
+2. ⟮c+;sb;Sales director said "I think we're at breaking point"⟯
+3. ⟮c+;sb;Person thinks "Why the hell is the meeting about to kdown"⟯
+4. ⟮c+;sb;But remembers clean language and asks "What kind of king point"⟯
+5. ⟮c+;sb;Sales director says "The point of breaking through"⟯
 
 ## questions in other languages
 
 en|de
-⟮c1;And is there anything else about X?⟯|⟮c2;Und ist da noch etwas ueber X?⟯
-⟮c3;(And) where(abouts) is X?⟯|⟮c4;(und) wo (genau) ist X?⟯
-⟮c5;(And) what kind of X (is that X?⟯)|⟮c6;(Und) was fuer eine Art von X (ist dieses X)?⟯
+⟮c+;And is there anything else about X?⟯|⟮c+;Und ist da noch etwas ueber X?⟯
+⟮c+;(And) where(abouts) is X?⟯|⟮c+;(und) wo (genau) ist X?⟯
+⟮c+;(And) what kind of X (is that X?⟯)|⟮c+;(Und) was fuer eine Art von X (ist dieses X)?⟯
 
 
 # techniques
 
 ## holding space
 
-⟮c1;holding space⟯ is to ⟮c4;be with someone,⟯ as much as possible ⟮c2;making it about them, not about you⟯ and   ⟮c3;accepting that person unconditionally (no matter what they might say⟯) 
+⟮c+;holding space⟯ is to ⟮c+;be with someone,⟯ as much as possible ⟮c+;making it about them, not about you⟯ and   ⟮c+;accepting that person unconditionally (no matter what they might say⟯) 
 
 ## types of questions
 
 Name|Definition|Examples
-⟮c1;open(-ended) question⟯|⟮c2;A question that invites a detailed answer⟯|⟮c3;s2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯
-⟮c4;closed(-ended) question⟯|⟮c5;A question that can (only) be answered with yes or no⟯|⟮c6;s5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯
+⟮c+;open(-ended) question⟯|⟮c+;A question that invites a detailed answer⟯|⟮c+;s2;What do you like about women's socks? What are your thoughts on Madoka Magica?⟯
+⟮c+;closed(-ended) question⟯|⟮c+;A question that can (only) be answered with yes or no⟯|⟮c+;s5;Do you like green eggs and ham? Are you a robot? Does this image contain a traffic light?⟯
 
 
 # ideas
 
 ## sliding doors moment
 
-A ⟮c1;sliding doors moment⟯, named after ⟮c2;a late 1990s romcom⟯, is ⟮c3;a seemingly inconsequential moment⟯ that ⟮c4;nonetheless alters the trajectory of future events⟯, ⟮sb;and especially a minor moment where ⟮c5;there is a choice⟯ to ⟮c6;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯
+A ⟮c+;sliding doors moment⟯, named after ⟮c+;a late 1990s romcom⟯, is ⟮c+;a seemingly inconsequential moment⟯ that ⟮c+;nonetheless alters the trajectory of future events⟯, ⟮sb;and especially a minor moment where ⟮c+;there is a choice⟯ to ⟮c+;turn torwards or away from a relationship (which produce relationship damage in aggregate).⟯⟯
 
 ## cultures
 
