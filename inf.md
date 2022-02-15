@@ -53,17 +53,17 @@ The document prolog (if you use one) comes at the top of the document, before th
 ### declaration
 
 the ⟮c1;XML declaration⟯ ⟮c2;contains information about the coming xml document⟯. 
-the {{c19::XML declaration}}  is ⟮c3;optional⟯, ⟮c3;but if it appears⟯, it must appear in ⟮c4;the first line of the document⟯. 
-the {{c20::XML declaration}} takes ⟮c5;three⟯ parameters:
+the ⟮c+;XML declaration⟯  is ⟮c3;optional⟯, ⟮c3;but if it appears⟯, it must appear in ⟮c4;the first line of the document⟯. 
+the ⟮c+;XML declaration⟯ takes ⟮c5;three⟯ parameters:
 <div class="c1-5-scr c12-18-scr">
 `⟮c6;version⟯`|⟮c9;The XML version the document is using⟯
-`⟮c7;encoding⟯`|{{c10::The text encoding this is using, e.g. UTF-8 or Shift_JIS}}
-`⟮c8;standalone⟯`|{{c11::Whether the document relies on an external source such as an external DTD}}
+`⟮c7;encoding⟯`|⟮c+;The text encoding this is using, e.g. UTF-8 or Shift_JIS⟯
+`⟮c8;standalone⟯`|⟮c+;Whether the document relies on an external source such as an external DTD⟯
 
 </div>
-<p class="c1-11-scr">Of these, `{{c12::version}}` is {{c13::mandatory}}. It's syntax is:</p>
+<p class="c1-11-scr">Of these, `⟮c+;version⟯` is ⟮c+;mandatory⟯. It's syntax is:</p>
 <div class="c1-11-scr">```
-{{c18::&lt;?xml}} {{c14::version=}}"1.0" {{c15::encoding=}}"UTF-8" {{c16::standalone=}}"no" {{c17::?&gt;}}
+⟮c+;&lt;?xml⟯ ⟮c+;version=⟯"1.0" ⟮c+;encoding=⟯"UTF-8" ⟮c+;standalone=⟯"no" ⟮c+;?&gt;⟯
 ```</div>
 
 ### doctype
@@ -463,7 +463,7 @@ The <option> HTML element is used to define an item contained in a <select>, an 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-By default, ⟮c9;html `&lt;select&gt;`⟯s will usually {{c10::display as as a dropwdown}}, and only {{c10::become a list box}} if `{{c11::multiple}}` ({{c12::allowing multiple selection::purpose}}) or `{{c13::size}}` ({{c14::specifying how many items to show at once::purpose}}) is specified</span>
+By default, ⟮c9;html `&lt;select&gt;`⟯s will usually ⟮c+;display as as a dropwdown⟯, and only ⟮c+;become a list box⟯ if `⟮c+;multiple⟯` (⟮c+;allowing multiple selection::purpose⟯) or `⟮c+;size⟯` (⟮c+;specifying how many items to show at once::purpose⟯) is specified</span>
 
 ##### output
 
@@ -728,11 +728,11 @@ the ⟮c3;svg⟯ ⟮c1;&lt;g&gt; element⟯ is used to ⟮c2;group ofther elemen
 
 ### JSX
 
-{{c3::JSX}} is {{c2::HTML}}-like syntax to be used in {{c1::JS}}
-{{c3::any values}} embedded in JSX are {{c2::auto-escaped}}, and thus provide {{c1::a degree of safety against XSS attacks}}
-You can put {{c3::any valid JS expression}} within {{c1::curly braces}} in {{c2::JSX}}
-{{c4::JSX}} use {{c2::camel case}} for {{c3::HTML attribute names}} (including {{c3::events}}) (which would normally use {{c1::kebap-case}})
-In JSX, {{c2::self-closing tags}} must be closed with {{c1::/&gt;}}, however {{c4::every react component may}} be {{c3::self-closing}}
+⟮c+;JSX⟯ is ⟮c+;HTML⟯-like syntax to be used in ⟮c+;JS⟯
+⟮c+;any values⟯ embedded in JSX are ⟮c+;auto-escaped⟯, and thus provide ⟮c+;a degree of safety against XSS attacks⟯
+You can put ⟮c+;any valid JS expression⟯ within ⟮c+;curly braces⟯ in ⟮c+;JSX⟯
+⟮c+;JSX⟯ use ⟮c+;camel case⟯ for ⟮c+;HTML attribute names⟯ (including ⟮c+;events⟯) (which would normally use ⟮c+;kebap-case⟯)
+In JSX, ⟮c+;self-closing tags⟯ must be closed with ⟮c+;/&gt;⟯, however ⟮c+;every react component may⟯ be ⟮c+;self-closing⟯
 ⟮c3;JSX⟯ is either said to be short for ⟮c2;JavaScript Syntax Extension⟯ or ⟮c1;JavaScript XML⟯
 Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
@@ -2798,7 +2798,7 @@ Since breakpoints select this size and up, one typically writes the style for th
 
 ##### z-indices
 
-Z-index in bootstrap and perhaps in other frameworks exists on two scales: {{c1::within elements, for states (for :hover, :active, :focus) }}, to prevent e.g. overlapping borders and {{c2::for overlay components (modals, tooltips, etc.)}}
+Z-index in bootstrap and perhaps in other frameworks exists on two scales: ⟮c+;within elements, for states (for :hover, :active, :focus) ⟯, to prevent e.g. overlapping borders and ⟮c+;for overlay components (modals, tooltips, etc.)⟯
 
 situation|values
 within elements|0-3
@@ -3047,7 +3047,7 @@ Structured data is a data model used for describing web pages.
 Structured data is used by search engines to provide more rich results.
 Schema.org is a set of schemas for structured data.
 
-{{c1::CRUD}} is short for {{c2::create}}, {{c2::read}}, {{c2::update}}, and {{c2::delete}}, the four operations that {{c3::persistent storage}} pretty much always has.
+⟮c+;CRUD⟯ is short for ⟮c+;create⟯, ⟮c+;read⟯, ⟮c+;update⟯, and ⟮c+;delete⟯, the four operations that ⟮c+;persistent storage⟯ pretty much always has.
 
 ### general considerations
 
@@ -4071,8 +4071,8 @@ flex-container:<img src="sm_faces1.gif">
 <img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c1;Negative space⟯ is ⟮c2;the area without subjects/areas of focus⟯
 ⟮c3;Positive space⟯ is ⟮c4;the area with subjects/areas of focus⟯
 In the image, if ⟮c5;you see a vase⟯, the ⟮c6;black space⟯ is the ⟮c7;negative space⟯ and the ⟮c6;white space⟯ is the ⟮c7;positive space⟯
-In the image, if ⟮c8;you see two faces⟯, the ⟮c9;white space⟯ is the {{c10::negative space}} and the ⟮c9;black space⟯ is the {{c10::positive space}}
-In the image, the {{c11::positive space}} is (probably/arguably) {{c12::the woman.}}
+In the image, if ⟮c8;you see two faces⟯, the ⟮c9;white space⟯ is the ⟮c+;negative space⟯ and the ⟮c9;black space⟯ is the ⟮c+;positive space⟯
+In the image, the ⟮c+;positive space⟯ is (probably/arguably) ⟮c+;the woman.⟯
 
 <span class="c1-f">What are these examples for?</span><br><img src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br>⟮c4;hostile/defensive architecture/design⟯ is architecture that ⟮c6;restricts/guides behavior⟯ to ⟮c5;protect property⟯ or ⟮c3;prevent crime⟯ 
 hostile/defensive architecture might look like ⟮c7;&lt;image&gt;⟯ 
@@ -5952,7 +5952,7 @@ default|specify a default value that should be assumed if a value is missing
 
 in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
 
-to use your {{c1::JSON Schemas}} as {{c1::TS typeings}} use the {{c2::npm package}} {{c2::json-schema-to-typescript}}
+to use your ⟮c+;JSON Schemas⟯ as ⟮c+;TS typeings⟯ use the ⟮c+;npm package⟯ ⟮c+;json-schema-to-typescript⟯
 
 ######## jq yq
 
@@ -7903,7 +7903,7 @@ sometimes an extra file bash_aliases is created for storing aliases, however bas
 ####### pipelines
 
 the character indicating an anonymous pipe is |
-In a general sense, a ⟮c8;filter⟯ ⟮c9;takes some input⟯, {{c10::transforms it}}, and {{c11::produces some output}}.
+In a general sense, a ⟮c8;filter⟯ ⟮c9;takes some input⟯, ⟮c+;transforms it⟯, and ⟮c+;produces some output⟯.
 In shell contexts, filters are combined with anonymous pipes.
 Multiple filters combinded by anonymous pipes are a pipeline.
 In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
@@ -8164,8 +8164,8 @@ In technical contexts, something ⟮c5;stale⟯ is ⟮c6;no longer relevant/vali
 
 ## design
 
-The {{c3::robustness principle}} is "{{c1::be conservative in what you send}}, and {{c2::liberal in what you accept}}".
-The robustness principle is often said to be {{c4::good design}}, but also {{c5::create bad de-facto standards}}
+The ⟮c+;robustness principle⟯ is "⟮c+;be conservative in what you send⟯, and ⟮c+;liberal in what you accept⟯".
+The robustness principle is often said to be ⟮c+;good design⟯, but also ⟮c+;create bad de-facto standards⟯
 
 ## interfaces 
 
@@ -8484,7 +8484,7 @@ A link to the homepage of a page is called a surface link
 
 `URL`|JS
 
-The {{c1::URL}} constructor takes {{c2::a string of the url}}, and optionally {{c3::a base url}} (if the url is {{c3::relative}})
+The ⟮c+;URL⟯ constructor takes ⟮c+;a string of the url⟯, and optionally ⟮c+;a base url⟯ (if the url is ⟮c+;relative⟯)
 
 ###### applications
 
@@ -8954,8 +8954,8 @@ the IP protocol data unit (the packet) is alternatively sometimes also called da
 flex-container:<img src="Hop-count-trans.png">
 
 
-A {{c1::hop}} occurs every time a {{c2::packet}} is {{c3::passed from one network to the next}}. 
-The {{c1::hop}} count is thus a rough measure of {{c4::distance between devices}}.
+A ⟮c+;hop⟯ occurs every time a ⟮c+;packet⟯ is ⟮c+;passed from one network to the next⟯. 
+The ⟮c+;hop⟯ count is thus a rough measure of ⟮c+;distance between devices⟯.
 
 ####### address space
 
@@ -8989,9 +8989,9 @@ IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 
 ######### IPv6
 
-the {{c1::quibbles/hextets/hexadectets/quad-nibbles}} of a IPv6 address are separated by {{c2::colons}}
-within an IPv6 address, {{c1::consecutive quibbles}} of {{c2::only zeroes}} may be {{c3::replaced with <q>:­:</q>}}, but only {{c4::once in an address}}, and not for {{c5::a single quibble}}
-within an {{c3::IPv6 address}}, within a {{c4::quibble}}, any {{c2::leading}} {{c1::zeroes}} may be {{c5::removed}}
+the ⟮c+;quibbles/hextets/hexadectets/quad-nibbles⟯ of a IPv6 address are separated by ⟮c+;colons⟯
+within an IPv6 address, ⟮c+;consecutive quibbles⟯ of ⟮c+;only zeroes⟯ may be ⟮c+;replaced with <q>:­:</q>⟯, but only ⟮c+;once in an address⟯, and not for ⟮c+;a single quibble⟯
+within an ⟮c+;IPv6 address⟯, within a ⟮c+;quibble⟯, any ⟮c+;leading⟯ ⟮c+;zeroes⟯ may be ⟮c+;removed⟯
 
 
 ######## division
@@ -9008,14 +9008,14 @@ In the very beginning (until the 1980s) what we call network prefix was called n
 In the early 80s, IP addresses transitioned to classful IP addresses.
 In classful IP addresses, there were different classes, which each had different network prefixes and host identifiers of different lengths.
 In classful IP addresses, the first or first few bits would have indicated which class it was, the next however many relevant numbers would have been the network prefix, and finally the host identifier
-{{c1::Classful IP addresses}} were used until {{c2::the early 90s}} ({{c2::1993}}) and then replaced with {{c3::Classless Inter-Domain Routing}} ({{c3::CIDR}})
+⟮c+;Classful IP addresses⟯ were used until ⟮c+;the early 90s⟯ (⟮c+;1993⟯) and then replaced with ⟮c+;Classless Inter-Domain Routing⟯ (⟮c+;CIDR⟯)
 
 
 ######### CIDR
 
 CIDR = Classless Inter-Domain Routing
 cidr-notation ::= [<IPv4-addr>]/<int-0-32>
-{{c1::CIDR notation}} indicates {{c2::the length}} of {{c2::the network prefix}} (equivalently: {{c3::the amount of leading 1-bits}} of the {{c3::network mask}}) as an {{c4::integer}}, normally {{c5::after the IP address}} separated by {{c6::a `/`}}
+⟮c+;CIDR notation⟯ indicates ⟮c+;the length⟯ of ⟮c+;the network prefix⟯ (equivalently: ⟮c+;the amount of leading 1-bits⟯ of the ⟮c+;network mask⟯) as an ⟮c+;integer⟯, normally ⟮c+;after the IP address⟯ separated by ⟮c+;a `/`⟯
 /24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
 
 ########## CIDR blocks
@@ -9023,16 +9023,16 @@ cidr-notation ::= [<IPv4-addr>]/<int-0-32>
 <img src="sm_cidr_addr.svg">
 
 A CIDR block is a group of IP addresses sharing the same network/routing prefix.
-{{c1::CIDR Blocks}} ≈ {{c1::network/routing prefixes}} may be {{c2::further subdivided}}, with {{c3::more and more}} of the IP address being looked at to {{c4::direct the traffic}}
+⟮c+;CIDR Blocks⟯ ≈ ⟮c+;network/routing prefixes⟯ may be ⟮c+;further subdivided⟯, with ⟮c+;more and more⟯ of the IP address being looked at to ⟮c+;direct the traffic⟯
 A CIDR block A which is completely contained within another CIDR block B is a subnet of B, B is a supernet of A.
 All networks are implicitly subnets of the IP address space.
-a {{c1::supernet(work)}} has a {{c2::shorter}} {{c3::network prefix}}, whose {{c1::subnets}} will have a {{c2::longer}} {{c3::network prefix}} that {{c4::starts with}} the {{c1::supernet}}&nbsp; {{c3::network prefix}}
-the largest {{c1::CIDR block (= sub/supernet)}} the IANA assigns is {{c2::/8}} ({{c2::16 million}} addresses)
+a ⟮c+;supernet(work)⟯ has a ⟮c+;shorter⟯ ⟮c+;network prefix⟯, whose ⟮c+;subnets⟯ will have a ⟮c+;longer⟯ ⟮c+;network prefix⟯ that ⟮c+;starts with⟯ the ⟮c+;supernet⟯&nbsp; ⟮c+;network prefix⟯
+the largest ⟮c+;CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮c+;/8⟯ (⟮c+;16 million⟯ addresses)
 
 ######### broadcast & network identifier
 
 A ⟮c1;subnet/CIDR block⟯'s ⟮c2;broadcast⟯ address is the ⟮c3;all-ones⟯ version of the ⟮c4;host (any relevant IP address)/network (all-zeroes) identifier⟯
-A {{c1::subnet/CIDR block}}'s {{c2::network identifier}} address is the {{c3::all-zeroes}} version of the {{c4::host identifier}}
+A ⟮c+;subnet/CIDR block⟯'s ⟮c+;network identifier⟯ address is the ⟮c+;all-zeroes⟯ version of the ⟮c+;host identifier⟯
 The network identifer address is often functionally treated as the broadcast address.
 The network identifier address of 173.240.0.0/16 is 173.240.0.0
 The broadcast address of 173.240.0.0/16 is 173.240.255.255.
@@ -9047,7 +9047,7 @@ Since network identifier addresses are generally aliases to broadcast addresses,
 
 ######### special IP addresses
 
-all IP adresses with the CIDR notation {{c2::127.0.0.0/8}} ({{c2::127.0.0.1}} - {{c2::127.255.255.254}}, excluding {{c3::network identifier}} and {{c3::broadcast addresses}}) are {{c1::loopback}} addresses
+all IP adresses with the CIDR notation ⟮c+;127.0.0.0/8⟯ (⟮c+;127.0.0.1⟯ - ⟮c+;127.255.255.254⟯, excluding ⟮c+;network identifier⟯ and ⟮c+;broadcast addresses⟯) are ⟮c+;loopback⟯ addresses
 of the IPv4 loopback addresses, generally 127.0.0.1 is used.
 localhost = 127.0.0.1 (IPv4)
 IPv6 reserves only a single loopback address, which is ­:­:1
@@ -9062,7 +9062,7 @@ NAT = Network Address Translation
 NAT could be one-to-one or one-to-many, generally one-to-many is implied
 For one-to-many NAT, most commonly the combination of IP address and port number is sued to unabiguously identify the reciver
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
-the form of NAT where {{c1::the combination of IP address and port number is used to identify the recipient}} may also be known as {{c2::NAPT}} ({{c2::network address and port translation}}) , {{c3::PAT}} ({{c3::port address translation}}) or {{c4::IP masquerading}} amongst others
+the form of NAT where ⟮c+;the combination of IP address and port number is used to identify the recipient⟯ may also be known as ⟮c+;NAPT⟯ (⟮c+;network address and port translation⟯) , ⟮c+;PAT⟯ (⟮c+;port address translation⟯) or ⟮c+;IP masquerading⟯ amongst others
 
 ####### tracing
 
@@ -9994,8 +9994,8 @@ Overloading of callable units is creating multiple callable units with different
 Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
 In TS, function '⟮c1;overloading⟯' exists, but you specify ⟮c2;all possible signatures⟯ ⟮c3;first⟯, and then the ⟮c4;implementation⟯ with a ⟮c5;signature⟯ that is ⟮c6;compatible with all the specified signature⟯ (e.g. using ⟮c7;optional parameters⟯), and not compatible with ⟮c8;non-specified signatures⟯
-For TS {{c1::overloaded}} functions, {{c2::all but the last}} signature(s), which {{c3::do(es)n't have any body}}, is/are called {{c4::overload signatures}}
-For TS {{c1::overloaded}} functions, {{c2::the last}} signature(s), which {{c3::has the body and thus the implementation}}, is/are called {{c4::the implementation signature}}
+For TS ⟮c+;overloaded⟯ functions, ⟮c+;all but the last⟯ signature(s), which ⟮c+;do(es)n't have any body⟯, is/are called ⟮c+;overload signatures⟯
+For TS ⟮c+;overloaded⟯ functions, ⟮c+;the last⟯ signature(s), which ⟮c+;has the body and thus the implementation⟯, is/are called ⟮c+;the implementation signature⟯
 In TS, in general: prefer ⟮c1;union types⟯ over ⟮c2;overloads⟯
 In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
 
@@ -10789,7 +10789,7 @@ in TS, interfaces can be `extend`ed with other interfaces.
 
 (TS) An index signature specifies that for all keys of a specific type (in theory, but in fact I think they can only be string or int in ts anyway), the value will be of the specified type
 Syntax of an index signature: [foo: sometype]: sometype2
-The {{c1::name}} of an index signature {{c2::does not matter}}.
+The ⟮c+;name⟯ of an index signature ⟮c+;does not matter⟯.
 ^source: https://basarat.gitbook.io/typescript/type-system/index-signatures
 
 Partial<T>|Returns T where all keys have been set to optional
@@ -11369,9 +11369,9 @@ A cons list is a singly linked list constructed via nested ordered pairs.
 flex-container:<img src="blockchain.svg">
 
 
-A {{c1::blockchain}} is a growing {{c2::(linked) list}} of records called {{c3::blocks}}.
-In a blockchain, each block contains {{c4::a hash}} of {{c4::the previous block}}, a {{c5::timestamp}}, a {{c6::nonce}}, and {{c7::transaction data}} represented as {{c7::a merkle tree}}.
-Since {{c8::blocks contain hashes of previous blocks}}, {{c9::changing a block}} would {{c10::also require changing subsequent blocks.}}
+A ⟮c+;blockchain⟯ is a growing ⟮c+;(linked) list⟯ of records called ⟮c+;blocks⟯.
+In a blockchain, each block contains ⟮c+;a hash⟯ of ⟮c+;the previous block⟯, a ⟮c+;timestamp⟯, a ⟮c+;nonce⟯, and ⟮c+;transaction data⟯ represented as ⟮c+;a merkle tree⟯.
+Since ⟮c+;blocks contain hashes of previous blocks⟯, ⟮c+;changing a block⟯ would ⟮c+;also require changing subsequent blocks.⟯
 
 ###### vs arrays
 
@@ -11525,7 +11525,7 @@ yield another generator (JS) yield*
 
 #### iterator methods
 
-someIter.{{c1::zip}}() takes {{c2::two iterators}} and returns {{c3::a new iterator}} which will for each call to {{c4::next()}} return a {{c5::tuple}} with the values {{c6::the other two would have returned}} with {{c4::next()}}
+someIter.⟮c+;zip⟯() takes ⟮c+;two iterators⟯ and returns ⟮c+;a new iterator⟯ which will for each call to ⟮c+;next()⟯ return a ⟮c+;tuple⟯ with the values ⟮c+;the other two would have returned⟯ with ⟮c+;next()⟯
 In rust, methods (most of them higher-order functions) called on iterators are known  as adapters or consumers, depending on what they do.
 Iterator adapters take an iterator and return another iterator
 Iterator consumers take an iterator and return something else (thus consuming the iterator)
@@ -11865,7 +11865,7 @@ Can be used to ensure a variable never gets assigned a falsy value by using logi
 It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
 
-{{c2::??}} is like {{c3::||}} but {{c1::only returns its right-hand value on nullish values}}
+⟮c+;??⟯ is like ⟮c+;||⟯ but ⟮c+;only returns its right-hand value on nullish values⟯
 
 ### bitwise
 
@@ -12431,7 +12431,7 @@ Promise.race() takes n promises and runs the attached callback ⁑once⁑ the fi
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
 ⟮c1;Promise.allSettled()⟯ is like ⟮c1;Promise.all()⟯, but the ⟮c2;former⟯ will ⟮c3;continue even if one rejects⟯, the ⟮c2;latter⟯ will ⟮c3;not⟯
 
-Pretty much all operations of the fs module in node have an {{c1::async}} and a {{c1::synchronous}} method, where if the {{c1::async}} method is called <code>{{c2::foo}}</code> the {{c1::synchronous}} method is called <code>{{c3::fooSync}}</code>
+Pretty much all operations of the fs module in node have an ⟮c+;async⟯ and a ⟮c+;synchronous⟯ method, where if the ⟮c+;async⟯ method is called <code>⟮c+;foo⟯</code> the ⟮c+;synchronous⟯ method is called <code>⟮c+;fooSync⟯</code>
 In node, asynchrony is by default implemented via callbacks.
 In node, any asynchronous operation that could fail takes a error callback.
 In node, any asynchronous operation that could return something useful takes a success callback.
@@ -12577,7 +12577,7 @@ generally, properties added 'normally' are also enumerable
 <object>.propertyIsEnumerable(<name>)
 properties that are not inherited (that is, they are there not because of the prototype chain, they of course then be inherited by other things) are called own properties
 <object>.hasOwnProperty(<name>) 
-The {{c1::Object}}.{{c1::assign}}{{c2::(foo, bar)}} method {{c3::copies}} all {{c4::enumerable}} {{c4::own}} {{c4::properties}} from {{c5::one or more source objects}} to {{c5::a target object.}} 
+The ⟮c+;Object⟯.⟮c+;assign⟯⟮c+;(foo, bar)⟯ method ⟮c+;copies⟯ all ⟮c+;enumerable⟯ ⟮c+;own⟯ ⟮c+;properties⟯ from ⟮c+;one or more source objects⟯ to ⟮c+;a target object.⟯ 
 
 ### Classes & objects 
 
@@ -13239,7 +13239,7 @@ Using JSX with React is optional.
 
 React components accept arbitrary inputs as `prop`s and return react elements.
 Elements are either components or native DOM tags.
-Typcially, the {{c1::top-most}} react component is called {{c2::App}}
+Typcially, the ⟮c+;top-most⟯ react component is called ⟮c+;App⟯
 React components are UpperCamelCase'd
 
 ######## attributes of components
@@ -13828,9 +13828,9 @@ In generaly chrono structs implement traits in such a way that you can use stand
 In general, using arithmetic operations in chrono calls the underlying `checked_<operation>_signed` method
 chrono has three `TimeZone`s, `Utc`, `Local` and `FixedOffset`
 `Local` or `Utc` (but not `FixedOffset`) :: `today()` or `now()` produce a new `Date` or `DateTime` with the speciied timezone.
-Behavior of things that work {{c1::like dates}} / {{c1::like times}} is standartized in the {{c2::traits}} {{c3::Datelike}} and {{c3::Timelike}}
-you can get {{c1::the time components}} of {{c4::Timelike}} using {{c2::the length you want as a method}} (e.g. hours -&gt; {{c3::sometimelike:​:hours()}})
-you can get {{c1::the date components}} of {{c4::Datelike}} using {{c2::the date component you want as a method}} (e.g. months -&gt; {{c3::somedatelike:​:month()}})
+Behavior of things that work ⟮c+;like dates⟯ / ⟮c+;like times⟯ is standartized in the ⟮c+;traits⟯ ⟮c+;Datelike⟯ and ⟮c+;Timelike⟯
+you can get ⟮c+;the time components⟯ of ⟮c+;Timelike⟯ using ⟮c+;the length you want as a method⟯ (e.g. hours -&gt; ⟮c+;sometimelike:​:hours()⟯)
+you can get ⟮c+;the date components⟯ of ⟮c+;Datelike⟯ using ⟮c+;the date component you want as a method⟯ (e.g. months -&gt; ⟮c+;somedatelike:​:month()⟯)
 chrono represents durations with `Duration`
 for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
@@ -14166,8 +14166,8 @@ tsc|ts
 
 npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 
-by default, TS will {{c3::compile}} even {{c2::if there are compiler errors}}, since it assumes {{c1::you might have a good reason}}, use --noEmitOnError to disable this.
-by default, TS compiles down to {{c2::ES3}}, but you can change that with the {{c1::--target}} flag
+by default, TS will ⟮c+;compile⟯ even ⟮c+;if there are compiler errors⟯, since it assumes ⟮c+;you might have a good reason⟯, use --noEmitOnError to disable this.
+by default, TS compiles down to ⟮c+;ES3⟯, but you can change that with the ⟮c+;--target⟯ flag
 
 ##### REPL
 
@@ -15259,7 +15259,7 @@ The scope resolution operator is typically `::`.
 The scope resolution operator comes from C++ and is used in ruby, rust.
 
 While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
-TS makes referring to {{c3::nonexistent properties}} an {{c1::error}}, rather than {{c2::returning undefined}}
+TS makes referring to ⟮c+;nonexistent properties⟯ an ⟮c+;error⟯, rather than ⟮c+;returning undefined⟯
 In JS, the ?. is called the optional chaining operator.
 In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.

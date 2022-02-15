@@ -98,7 +98,7 @@ sector|consists of
 ⟮c5;A society dominated in economic output by the tertiary sector⟯|⟮c6;Post-industrial society⟯
 
 
-According to ⟮c9;the three-sector model⟯ of economics, economies develop {{c10::Agrarian}} -&gt; {{c10::Industrial}} -&gt; {{c10::Postindustrial}}
+According to ⟮c9;the three-sector model⟯ of economics, economies develop ⟮c+;Agrarian⟯ -&gt; ⟮c+;Industrial⟯ -&gt; ⟮c+;Postindustrial⟯
 
 ## supply chains
 
@@ -113,7 +113,7 @@ According to ⟮c9;the three-sector model⟯ of economics, economies develop {{c
 
 ### remuneration
 
-A {{c1::salary buddy}} (newly coined concept bys omeone on twitter) is a person (presumably {{c2::in the same profession}}) with whom {{c3::you regular exchange information on your remuneration}} to make sure that {{c3::you're both getting fairly paid}}
+A ⟮c+;salary buddy⟯ (newly coined concept bys omeone on twitter) is a person (presumably ⟮c+;in the same profession⟯) with whom ⟮c+;you regular exchange information on your remuneration⟯ to make sure that ⟮c+;you're both getting fairly paid⟯
 
 ## business entities
 
@@ -280,7 +280,7 @@ Generation|Start|End|Nicknames
 <img src="sm_world_population_2017.jpg">
 A population pyramid indicates age brackets on the y axis
 a population pyramid indicates amount of pepople on the x axis
-A population pyramid's indication of population is generally split {{c1::into sex}}
+A population pyramid's indication of population is generally split ⟮c+;into sex⟯
 
 ### birth rate/fertility
 
@@ -404,8 +404,8 @@ In law, the ⟮c1;disposition⟯ of a case is ⟮c2;its final settlement/decisio
 
 ### parkinson's law
 
-{{c1::Parkinson's law}} is the idea that "{{c2::work expands so as to fill the time available for its completion.}}" 
-Over the times, corollaries, such as "Data {{c3::expands to fill the space available}}" have also been proposed. 
+⟮c+;Parkinson's law⟯ is the idea that "⟮c+;work expands so as to fill the time available for its completion.⟯" 
+Over the times, corollaries, such as "Data ⟮c+;expands to fill the space available⟯" have also been proposed. 
 
 # political science
 
@@ -437,8 +437,8 @@ Checkbook diplomacy is using economic aid and investment for diplomatic favor.
 
 ⟮c2;Irredentism⟯ is the movement to ⟮c3;'reclaim' territory⟯ that a group thinks ⟮c4;they have a claim to⟯ on a ⟮c5;ethno-historico-nationalist⟯ basis. 
 ⟮c6;Revanchism⟯ is the movement to ⟮c7;reclaim territory⟯ ⟮c8;lost to another⟯ due to ⟮c9;past events⟯. 
-Both {{c10::irredentism}} and {{c10::revanchism}} see their {{c11::territorial claims}} as a {{c12::reclaiming}}, though the {{c13::motivation/ideology behind it}} differs. 
-{{c14::revanchism}} is like {{c14::irredentism}}, but generally the territory claimed ⟮c1;was once actually held⟯, with less emphasis on ⟮c1;whether that territory is ethnically/'properly' part of the nation⟯ 
+Both ⟮c+;irredentism⟯ and ⟮c+;revanchism⟯ see their ⟮c+;territorial claims⟯ as a ⟮c+;reclaiming⟯, though the ⟮c+;motivation/ideology behind it⟯ differs. 
+⟮c+;revanchism⟯ is like ⟮c+;irredentism⟯, but generally the territory claimed ⟮c1;was once actually held⟯, with less emphasis on ⟮c1;whether that territory is ethnically/'properly' part of the nation⟯ 
 
 
 France ⟮c17;claiming alsace-lorraine/wanting it back⟯ was both a ⟮c18;irredentist⟯ and a ⟮c19;revanchist⟯ claim. 
@@ -599,7 +599,7 @@ ARPA is short for ⟮c1;Advanced Research Projects Agency⟯ (today called ⟮c2
 ### auteur theory
 
 An ⟮c1;auteur⟯ is ⟮c2;an artist⟯ (esp. in ⟮c3;filmmaking⟯) who ⟮c4;excercises a large amount of control⟯ over their work and/or ⟮c5;is credited for the artistic quality⟯ of the work.
-⟮c6;Auteur theory⟯ either (⟮c7;descriptively⟯) says that films/other media are ⟮c8;most strongly influenced⟯ by ⟮c9;a single person⟯, most commonly ⟮c9;the director⟯ (since they have strong control over {{c10::the audio-visual element}}) and thus {{c11::when looking at a film/piece of media}} we should see it {{c12::as the work of the directory,}} or (⟮c7;prescriptively⟯) that films/other media are {{c13::better}} when they {{c14::are directed by an auteur.}}
+⟮c6;Auteur theory⟯ either (⟮c7;descriptively⟯) says that films/other media are ⟮c8;most strongly influenced⟯ by ⟮c9;a single person⟯, most commonly ⟮c9;the director⟯ (since they have strong control over ⟮c+;the audio-visual element⟯) and thus ⟮c+;when looking at a film/piece of media⟯ we should see it ⟮c+;as the work of the directory,⟯ or (⟮c7;prescriptively⟯) that films/other media are ⟮c+;better⟯ when they ⟮c+;are directed by an auteur.⟯
 
 ## fandom
 
@@ -1570,7 +1570,7 @@ The asset involved in ⟮c13;the japanese asset price bubble⟯ was ⟮c14;real 
 The ⟮c9;japanese asset price bubble⟯ was followed by ⟮c10;the lost decade/失われた十年⟯. 
 Since ⟮c11;the economy hasnt really recovered since the lost decade/失われた十年⟯, it is sometimes expanded to ⟮c12;the lost 20/30 years.⟯ 
 The ⟮c15;employment ice age⟯ (ja⟮c16;: 　就職氷河期（しゅうしょくひょうがき）⟯) was/is ⟮c17;the period following the asset price bubble⟯ with ⟮c18;unavailable or unstable employment⟯.  
-The {{c19::employment ice age}} strongly corrrelates with {{c20::the lost decade(s).}} 
+The ⟮c+;employment ice age⟯ strongly corrrelates with ⟮c+;the lost decade(s).⟯ 
 
 
 ### US
@@ -1893,16 +1893,16 @@ From "⟮c4;The Second Sex⟯" by ⟮c5;Simone de Beavoir⟯, the famous stateme
 The ⟮c1;National Organization for Women⟯ ⟮(c:1;NOW⟯) was founded  in ⟮c2;1966⟯ and led by ⟮c3;Betty Friedan⟯ 
 The ⟮c1;Feminine Mystique⟯ is a book by ⟮c2;Betty Friedan⟯ that is widely credited with ⟮c3;sparking the beginning of second-wave feminism⟯ in the United States. 
 
-{{c1::The Woman-Identified Woman}} (by {{c12::Radicalesbians}}) argues that {{c2::heterosexuality}} necessarily leads to women {{c3::serving/spending their time on}} and {{c4::defining themselves by/as a negative to (in a Master-Slave dialectic sense))}} men (the whole package is called a "{{c6::man-identified woman}}"), leaving her {{c7::empty}}. Only via turning towards {{c8::lesbianism}} can a woman first {{c9::recognize her own slaveness/otherness/emptiness}}, and thus not {{c10::merely be defined by a negative}}, but {{c10::by herself and her sisterhood with other women}} (and become a "{{c11::woman-identified woman}}")
+⟮c+;The Woman-Identified Woman⟯ (by ⟮c+;Radicalesbians⟯) argues that ⟮c+;heterosexuality⟯ necessarily leads to women ⟮c+;serving/spending their time on⟯ and ⟮c+;defining themselves by/as a negative to (in a Master-Slave dialectic sense))⟯ men (the whole package is called a "⟮c+;man-identified woman⟯"), leaving her ⟮c+;empty⟯. Only via turning towards ⟮c+;lesbianism⟯ can a woman first ⟮c+;recognize her own slaveness/otherness/emptiness⟯, and thus not ⟮c+;merely be defined by a negative⟯, but ⟮c+;by herself and her sisterhood with other women⟯ (and become a "⟮c+;woman-identified woman⟯")
 
 ⟮c1;Adrienne Rich⟯ was a influential ⟮c2;lesbian⟯ ⟮c2;feminist⟯ who wrote the ⟮c4;1980⟯ essay "⟮c3;Compulsory Heterosexuality and Lesbian Existence⟯", whence ⟮c5;the relevant concept⟯ 
 
-{{c1::Political lesbianism}} sees {{c2::becoming lesbian/sexual orientation}} as {{c3::a choice}} that one could undertake for a variety of reasons, e.g. {{c4::as a preconditon for lesbian separatism}} and {{c5::becoming a woman-identified women (a la radicalesbians)}}
-{{c1::Feminist seperatism/separatist feminism}} is the idea that {{c3::women's liberation can best be achieved}} via {{c2::women's separation from men}}. The most advocated position might be {{c4::lesbian separatism}}, which also emphasized {{c5::a turn towards lesbiansim}}.
-{{c1::Lesbian feminism}} in general was {{c2::a reaction to}} not {{c3::being seen fully as a part of}} {{c4::gay}} and {{c4::feminist}} activism, perhaps most exemplefied by {{c5::Betty Friedan}} calling them a "{{c6::lavender menace}}" in {{c7::1969}}, triggering the {{c8::1970}} {{c9::interruption}} of {{c10::the Congress to Unite Women}} by the {{c11::Radicalesbians}} with their "{{c12::The Woman-Identified Woman}}"
-{{c1::Lesbian feminism}} is either concerned with {{c2::the relevant intersectional category}}, or a feminist movements that emphasizes {{c3::focusing on activities towards women}}, perhaps with {{c4::lesbianism as the logical result of feminism}}. It was {{c5::most influential}} in {{c6::the 1970s and early 1980s}}.
+⟮c+;Political lesbianism⟯ sees ⟮c+;becoming lesbian/sexual orientation⟯ as ⟮c+;a choice⟯ that one could undertake for a variety of reasons, e.g. ⟮c+;as a preconditon for lesbian separatism⟯ and ⟮c+;becoming a woman-identified women (a la radicalesbians)⟯
+⟮c+;Feminist seperatism/separatist feminism⟯ is the idea that ⟮c+;women's liberation can best be achieved⟯ via ⟮c+;women's separation from men⟯. The most advocated position might be ⟮c+;lesbian separatism⟯, which also emphasized ⟮c+;a turn towards lesbiansim⟯.
+⟮c+;Lesbian feminism⟯ in general was ⟮c+;a reaction to⟯ not ⟮c+;being seen fully as a part of⟯ ⟮c+;gay⟯ and ⟮c+;feminist⟯ activism, perhaps most exemplefied by ⟮c+;Betty Friedan⟯ calling them a "⟮c+;lavender menace⟯" in ⟮c+;1969⟯, triggering the ⟮c+;1970⟯ ⟮c+;interruption⟯ of ⟮c+;the Congress to Unite Women⟯ by the ⟮c+;Radicalesbians⟯ with their "⟮c+;The Woman-Identified Woman⟯"
+⟮c+;Lesbian feminism⟯ is either concerned with ⟮c+;the relevant intersectional category⟯, or a feminist movements that emphasizes ⟮c+;focusing on activities towards women⟯, perhaps with ⟮c+;lesbianism as the logical result of feminism⟯. It was ⟮c+;most influential⟯ in ⟮c+;the 1970s and early 1980s⟯.
 
-the {{c1::lesbian}}/{{c1::feminist}}/ø {{c2::sex}}/{{c2::porn}} {{c2::wars}} refer to a {{c3::set of debates}} about {{c4::sexuality}} and in particular {{c5::pornography}}, {{c6::BDSM}}, and {{c7::prostitution}} and {{c8::their relationship to feminism}} in the {{c9::1970s and 80s}}
+the ⟮c+;lesbian⟯/⟮c+;feminist⟯/ø ⟮c+;sex⟯/⟮c+;porn⟯ ⟮c+;wars⟯ refer to a ⟮c+;set of debates⟯ about ⟮c+;sexuality⟯ and in particular ⟮c+;pornography⟯, ⟮c+;BDSM⟯, and ⟮c+;prostitution⟯ and ⟮c+;their relationship to feminism⟯ in the ⟮c+;1970s and 80s⟯
 
 ### branches
 
@@ -1921,7 +1921,7 @@ The group most subject to ⟮c4;the double burden/The second shift⟯ is ⟮c5;w
 
 #### mental load
 
-The work and stress involved in managing household and related tasks is known as {{c1::mental load }}
+The work and stress involved in managing household and related tasks is known as ⟮c+;mental load ⟯
 
 ### feminism and sexual abuse
 
@@ -2108,11 +2108,11 @@ While the research is not completely settled, ⟮c2;saturated⟯ and ⟮c2;trans
 
 ######### omega-3
 
-There are three types of {{c17::omega-3}} fatty acids, {{c14::ALA}}, {{c15::EPA}}, and {{c16::DHA}}.
-of the {{c11::three}} types of ⟮c7;omega-3⟯ fatty acids relevant to human nutrition, only {{c18::ALA}} is ⟮c9;essential⟯.
+There are three types of ⟮c+;omega-3⟯ fatty acids, ⟮c+;ALA⟯, ⟮c+;EPA⟯, and ⟮c+;DHA⟯.
+of the ⟮c+;three⟯ types of ⟮c7;omega-3⟯ fatty acids relevant to human nutrition, only ⟮c+;ALA⟯ is ⟮c9;essential⟯.
 
-Of the omega-3 fatty acids, only {{c19::ALA}} is essential since {{c20::EPA}} and {{c20::DHA}} can be ⟮c8;synthesized from the former⟯.
-{{c21::EPA/DHA synthesis from ALA}} may be impaired in {{c10::aging}} and generally is not a {{c12::particularly efficient process}}, as such, {{c13::making sure to consume EPA/DHA}} is probably advisable.
+Of the omega-3 fatty acids, only ⟮c+;ALA⟯ is essential since ⟮c+;EPA⟯ and ⟮c+;DHA⟯ can be ⟮c8;synthesized from the former⟯.
+⟮c+;EPA/DHA synthesis from ALA⟯ may be impaired in ⟮c+;aging⟯ and generally is not a ⟮c+;particularly efficient process⟯, as such, ⟮c+;making sure to consume EPA/DHA⟯ is probably advisable.
 
 name|abbreviation
 ⟮c1;α-linolenic acid ⟯|⟮c2;ALA⟯
@@ -2121,11 +2121,11 @@ name|abbreviation
 
 
 
-Major {{c22::vegan}} sources of {{c23::ALA}}: are various form of {{c24::seeds}} and {{c24::nuts}}
-Major non-vegan sources of {{c25::ALA}}: {{c26::fish}} and {{c26::meat/eggs}} to some extent
+Major ⟮c+;vegan⟯ sources of ⟮c+;ALA⟯: are various form of ⟮c+;seeds⟯ and ⟮c+;nuts⟯
+Major non-vegan sources of ⟮c+;ALA⟯: ⟮c+;fish⟯ and ⟮c+;meat/eggs⟯ to some extent
 
 
-there are a bunch of {{c27::omega-6}} fatty acids, but only {{c28::linoleic acid}} is considered {{c29::essential}}
+there are a bunch of ⟮c+;omega-6⟯ fatty acids, but only ⟮c+;linoleic acid⟯ is considered ⟮c+;essential⟯
 <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}</span><br><div class="sub">
 <a href="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/">https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/</a>
 </div>
@@ -2537,8 +2537,8 @@ name|definition|examples
 ⟮c4;monolid⟯|⟮c5;lack of an eyelid crease⟯|⟮c6;<img src="sm_makeup-for-single-lid-or-monolid-or-hooded-eyes_estee-lauder-how-to-videojpg.jpg">⟯
 
 
-My eyes are somewhat {{c13::hooded}}. 
-Most {{c14::mainstream eye makeup tutorials}} require {{c15::a bunch of lid space}} 
+My eyes are somewhat ⟮c+;hooded⟯. 
+Most ⟮c+;mainstream eye makeup tutorials⟯ require ⟮c+;a bunch of lid space⟯ 
 
 ###### deep-set/protruding
 
@@ -2857,8 +2857,8 @@ Today, ⟮c18;leprosy⟯ can be ⟮c19;cured⟯ via ⟮c20;multidrug therapy⟯.
 
 ⟮c1;Benign paroxysmal positional vertigo⟯ is an illness that causes ⟮c2;vertigo (dizziness)⟯ upon ⟮c3;changes in the head position⟯.
 Physiologically, ⟮c4;benign paroxysmal positional vertigo⟯ is caused by ⟮c5;dislocated crystals in the ear,⟯ however ⟮c6;the ultimate cause is often not clear⟯.
-⟮c7;Benign paroxysmal positional vertigo⟯ is more common in ⟮c8;the elderly⟯ and ⟮c9;women⟯, with {{c10::2.5%}} of people experiencing it {{c11::at some point in their livees}}.
-{{c12::Benign paroxysmal positional vertigo}} is often treated with {{c13::specific exercises}}.
+⟮c7;Benign paroxysmal positional vertigo⟯ is more common in ⟮c8;the elderly⟯ and ⟮c9;women⟯, with ⟮c+;2.5%⟯ of people experiencing it ⟮c+;at some point in their livees⟯.
+⟮c+;Benign paroxysmal positional vertigo⟯ is often treated with ⟮c+;specific exercises⟯.
 
 #### by varicella-zoster
 
@@ -2950,15 +2950,15 @@ An »external cause« is a reason for the existence of a medical condition which
 
 ##### violence
 
-contrary to {{c1::what films like you to believe}}, {{c2::a single punch}}, especially {{c2::in the head}} can lead to {{c3::severe debilitating brain damage}} or {{c3::death}}.
+contrary to ⟮c+;what films like you to believe⟯, ⟮c+;a single punch⟯, especially ⟮c+;in the head⟯ can lead to ⟮c+;severe debilitating brain damage⟯ or ⟮c+;death⟯.
 
 ##### hypothermia
 
-{{c4::Extreme hypothermia}} may lead to {{c1::undressing}}, because people suddenly {{c1::feel hot}} (the mechanism is not well understood, but may be because {{c2::the brain malfuncitons}}, or because {{c3::the muscles restricting blood flow to the extremities suddenly relax}})
-While {{c1::alcohol}} makes you feel {{c2::warmer}}, it actually {{c4::moves blood}} to the {{c4::outer skin layers}}, causing you to {{c3::cool out more quickly}}
-It is generally said that {{c1::cotton kills}} because it {{c2::absorbs way more water}} and {{c3::does not warm when wet}}.
-During {{c1::late-stage hypothermia}}, {{c2::terminal burrowing}} = {{c3::hide-and-die sydrome}} may occur, where people will {{c4::enter small, enclosed spaces}} (even if {{c5::those do not provide more warmth}})
-Being {{c2::wet}} cools you out more than not because (amongst other reasons) {{c4::waters}} {{c1::thermal conductivity}} is {{c3::~25 times}} higher than {{c4::airs}}
+⟮c+;Extreme hypothermia⟯ may lead to ⟮c+;undressing⟯, because people suddenly ⟮c+;feel hot⟯ (the mechanism is not well understood, but may be because ⟮c+;the brain malfuncitons⟯, or because ⟮c+;the muscles restricting blood flow to the extremities suddenly relax⟯)
+While ⟮c+;alcohol⟯ makes you feel ⟮c+;warmer⟯, it actually ⟮c+;moves blood⟯ to the ⟮c+;outer skin layers⟯, causing you to ⟮c+;cool out more quickly⟯
+It is generally said that ⟮c+;cotton kills⟯ because it ⟮c+;absorbs way more water⟯ and ⟮c+;does not warm when wet⟯.
+During ⟮c+;late-stage hypothermia⟯, ⟮c+;terminal burrowing⟯ = ⟮c+;hide-and-die sydrome⟯ may occur, where people will ⟮c+;enter small, enclosed spaces⟯ (even if ⟮c+;those do not provide more warmth⟯)
+Being ⟮c+;wet⟯ cools you out more than not because (amongst other reasons) ⟮c+;waters⟯ ⟮c+;thermal conductivity⟯ is ⟮c+;~25 times⟯ higher than ⟮c+;airs⟯
 
 # cleaning
 
@@ -3314,7 +3314,7 @@ A model minority is a (part of a) - identity some of whose traits are seen posit
 A model minority's positively-seen traits serve to naturalize their negatively seen traits.
 A model minority's positively-seen traits serve to contrast with other subidentities of the - identity.
 
-+ fragility is the state in which having {{c3::the relevant ism privilege mentioned}}, even {{c5::in a minor way}}, {{c6::triggers a deep defensive response}}. This reaction functions (on a societal level if not consciously) to {{c4::maintain the current -ism order}}
++ fragility is the state in which having ⟮c+;the relevant ism privilege mentioned⟯, even ⟮c+;in a minor way⟯, ⟮c+;triggers a deep defensive response⟯. This reaction functions (on a societal level if not consciously) to ⟮c+;maintain the current -ism order⟯
 
 ##### details
 
@@ -3330,7 +3330,7 @@ similarly but slightly differently, ⟮c1;Car culture⟯ (when it doesn't just m
 In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
 In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
 To go/be/live stealth is to hide that one is the -value state of an ism, and especially that one is trans.
-To {{c1::out}} someone is to {{c2::reveal that a person}} is {{c3::a -value person of an ism}}, generally {{c5::without their consent}}
+To ⟮c+;out⟯ someone is to ⟮c+;reveal that a person⟯ is ⟮c+;a -value person of an ism⟯, generally ⟮c+;without their consent⟯
 
 ###### covering
 
@@ -3382,11 +3382,11 @@ A pick me x (girl/gay/whatever) is a - person who tries to distinguish themselve
 
 ###### medical and social models
 
-Many {{c1::isms}} have {{c2::a medical model}} and {{c2::a social model}} of {{c3::what it is to be a -value person}}. 
-The {{c1:: social model}} of {{c2::being a -ist}} argues that {{c3::society creates the - and + identities}} from {{c4::the way it's structured/its inherent problems}}
+Many ⟮c+;isms⟯ have ⟮c+;a medical model⟯ and ⟮c+;a social model⟯ of ⟮c+;what it is to be a -value person⟯. 
+The ⟮c+; social model⟯ of ⟮c+;being a -ist⟯ argues that ⟮c+;society creates the - and + identities⟯ from ⟮c+;the way it's structured/its inherent problems⟯
 The social model places the genesis of a - identity in society, the medical model in the individual.
-The {{c1::medical model}} of {{c2::being a -value person}} argues that being a -ist is a natural feature.
-The medical model of being a -value person argues one {{c3::should aim to}} {{c5::move from -value to +value}} if possible, if not, one should {{c3::focus on}} {{c6::seeming +value}}, and if that's not possible, one should {{c4::be erased}} (often via {{c4::special institutions}}).
+The ⟮c+;medical model⟯ of ⟮c+;being a -value person⟯ argues that being a -ist is a natural feature.
+The medical model of being a -value person argues one ⟮c+;should aim to⟯ ⟮c+;move from -value to +value⟯ if possible, if not, one should ⟮c+;focus on⟯ ⟮c+;seeming +value⟯, and if that's not possible, one should ⟮c+;be erased⟯ (often via ⟮c+;special institutions⟯).
 For isms with a medical model, the negativity associated with having a - identity is institutionalized and thus 'objectified'/naturalized in the medical field.
 Neurodiversity is an attempt to reframe the distinction between + and - identities (sane and insane) within sanism as a value-neutral distinction between human mental traits.
 
@@ -3440,7 +3440,7 @@ Thus, hegemonic -ity always includes not aiming to upset the status quo.
 
 #### consciousness
 
-We might say political consciousness is seeing/recognizing the relevant ism as structuring the world (at least in part), coming to realize your part in a community of -ists, and thus understanding {{c7::problems}} and {{c7::remedies}} in {{c8::terms of political action}}
+We might say political consciousness is seeing/recognizing the relevant ism as structuring the world (at least in part), coming to realize your part in a community of -ists, and thus understanding ⟮c+;problems⟯ and ⟮c+;remedies⟯ in ⟮c+;terms of political action⟯
 ergo: race-consciousness -> political consciosuness regarding racism etc.
 false consciousness is the failure to gain political consciousness or to gain the wrong sort of political consciousness.
 false consciousness happens due to all the ways the relative ism distorts thinking and seeing.
@@ -3448,14 +3448,14 @@ Marxism argues that without false consciousness (at least in the case of capital
 
 ##### origin: class consciousness
 
-{{c1::class consciousness}} (in a sort of general sense) is {{c2::political consciousness}} (in the sense of {{c2::seeing one's experience and struggle as part of a group}}) of {{c3::social classes}}, and since it's a {{c4::marxist}} term, esp. of {{c4::the proletariat}} and {{c4::the capitalists}}. {{c1::Class consciousness}} is the {{c5::original}} term, is {{c6::more common}} than {{c2::political consciousness}} as a term, and is thus also {{c6::often used as a synonym.}}
+⟮c+;class consciousness⟯ (in a sort of general sense) is ⟮c+;political consciousness⟯ (in the sense of ⟮c+;seeing one's experience and struggle as part of a group⟯) of ⟮c+;social classes⟯, and since it's a ⟮c+;marxist⟯ term, esp. of ⟮c+;the proletariat⟯ and ⟮c+;the capitalists⟯. ⟮c+;Class consciousness⟯ is the ⟮c+;original⟯ term, is ⟮c+;more common⟯ than ⟮c+;political consciousness⟯ as a term, and is thus also ⟮c+;often used as a synonym.⟯
 <a href="https://www.britannica.com/topic/class-consciousness">https://www.britannica.com/topic/class-consciousness</a>, <a href="https://www.sciencedirect.com/topics/social-sciences/class-consciousness">https://www.sciencedirect.com/topics/social-sciences/class-consciousness</a>
 
 
 ## more than one identity
 
 The kyriarchy is the -arch of multiple or all -archys at the same time.
-within {{c1::kyriarchy}} people may be {{c2::both opressor and opressed}} at the same time or at different times. Originally but not always imagined as a {{c3::pryramid}}.
+within ⟮c+;kyriarchy⟯ people may be ⟮c+;both opressor and opressed⟯ at the same time or at different times. Originally but not always imagined as a ⟮c+;pryramid⟯.
 
 ### intersectionality
 
@@ -3485,7 +3485,7 @@ Often the ⟮c10;school-to-prison pipeline⟯ refers to both ⟮c4;the schools-a
 
 ### classism
 
-A distinction of the {{c2::poor}} that began with {{c3::the poor laws in england in the 1600s}} (as far as I can tell) and we still have is that between the {{c1::deserving}} {{c2::poor}}, generally characterized as {{c4::somehow unable to work}} and thus {{c5::not to be blamed}} for their {{c2::poverty}}, and {{c1::undeserving}} {{c2::poor}}, which are characterized as {{c4::those that could work but don't want to}} and thus {{c5::are to be blamed}} for their {{c2::poverty}}
+A distinction of the ⟮c+;poor⟯ that began with ⟮c+;the poor laws in england in the 1600s⟯ (as far as I can tell) and we still have is that between the ⟮c+;deserving⟯ ⟮c+;poor⟯, generally characterized as ⟮c+;somehow unable to work⟯ and thus ⟮c+;not to be blamed⟯ for their ⟮c+;poverty⟯, and ⟮c+;undeserving⟯ ⟮c+;poor⟯, which are characterized as ⟮c+;those that could work but don't want to⟯ and thus ⟮c+;are to be blamed⟯ for their ⟮c+;poverty⟯
 
 ### (dis)ablism
 
@@ -3558,7 +3558,7 @@ The ⟮c1;David Rumsey⟯ ⟮c2;Historical Map Collection⟯ is one of the world
 ##### search
 
 ⟮c1;Semantic Scholar⟯ is a ⟮c2;search engine⟯ for ⟮c3;academic publications⟯ that uses ⟮c4;AI⟯ and which has features such as that it ⟮c5;auto-embeds abstracts⟯, and not only shows papers that cited the relevant paper, but also ⟮c6;in which way⟯, and ⟮c6;the context.⟯ 
-{{c1::Google Scholar}} is google's {{c2::search engine}} for {{c3::academic literatore.}}
+⟮c+;Google Scholar⟯ is google's ⟮c+;search engine⟯ for ⟮c+;academic literatore.⟯
 
 ##### aquisition
 
@@ -3697,12 +3697,12 @@ Within quotes, square brackets are used to modify quotes.
 3. schluss
 
 The introduction often contains a motivation, context on the topic and pre-existing research, a hypothesis, possibly comments on the sources, as well as a short summary of the structure of the paper.
-Der Schluss einer akademischen arbeit enthält normalerweise (wobei oft nicht getrennt) eine {{c1::zusammenfassung}}, {{c2::konklusion}}, und {{c3::ausblick}}.
+Der Schluss einer akademischen arbeit enthält normalerweise (wobei oft nicht getrennt) eine ⟮c+;zusammenfassung⟯, ⟮c+;konklusion⟯, und ⟮c+;ausblick⟯.
 
 ##### hypothesis
 
 In germany, sometimes a dreischritt is used to make your hypothesis more precise.
-Form eines Dreischritts: {{c1::Ich untersuche}} ..., {{c2::weil ich herausfinden will}}, ..., {{c3::um herauszufinden}}, .....
+Form eines Dreischritts: ⟮c+;Ich untersuche⟯ ..., ⟮c+;weil ich herausfinden will⟯, ..., ⟮c+;um herauszufinden⟯, .....
 
 ### types of works
 
@@ -4145,7 +4145,7 @@ The ⟮c4;Cycle of abuse⟯: ⟮c1;Tension building⟯ -&gt; ⟮c2;Acute explosi
 #### narcissism
 
 ⟮c1;»Narcissists«⟯ have an overriding desire to ⟮c2;protect/soothe/strengthen⟯ their ⟮c3;self-image.⟯ 
-⟮c4;»Narcisstic supply«⟯ are {{c58::the doses of admiration, validation, approval, respect, attention, subservience}} that {{c57::a narcisst seeks to soothe their self-image.}} 
+⟮c4;»Narcisstic supply«⟯ are ⟮c+;the doses of admiration, validation, approval, respect, attention, subservience⟯ that ⟮c+;a narcisst seeks to soothe their self-image.⟯ 
 »⟮c5;Narcisstic injury⟯« is ⟮c6;damage⟯ that a narcisst takes ⟮c7;to their self-image.⟯ 
 
 In ⟮c8;a family with a narcissist⟯, people end up ⟮c9;being forced into roles⟯ - ⟮c10;the whole construct⟯ is called the »⟮c11;narcissistic family⟯«. 

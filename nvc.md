@@ -218,7 +218,7 @@ One possible grouping of clean language questions (there are others)
 ⟮c4;clean language⟯ practice exercise: ⟮c3;flower⟯ 1. ⟮c1;One person thinks of a flower for a short while⟯ -&gt; 2. ⟮c2;the other person asks clean language questions about it⟯
 ⟮c5;The flower exercise⟯ tends to reveal that ⟮c6;people have many different flowers in their head⟯.
 ⟮c7;The fact that people have many different flowers in their head⟯ should remind us of the fact that ⟮c8;other people may be operating with⟯ ⟮c9;very different metaphors⟯ and thus ⟮c9;presumptions⟯ as we are.
-The fact that {{c10::people may be operating with different metaphors/presumptions}} may make it benefitial to {{c11::ask clean language questions}} about {{c12::banal things}}, esp. when {{c13::the stakes are high}}.
+The fact that ⟮c+;people may be operating with different metaphors/presumptions⟯ may make it benefitial to ⟮c+;ask clean language questions⟯ about ⟮c+;banal things⟯, esp. when ⟮c+;the stakes are high⟯.
 
 ## coin metaphor
 
@@ -275,4 +275,4 @@ tell culture|Mention your needs structure in detail so that shared benefit and u
 
 ## righting reflex
 
-the {{c1::righting reflex}} is the impulse to (tell people how to) fix (esp. other peoples) problems when we see them, which rarely produces good results.
+the ⟮c+;righting reflex⟯ is the impulse to (tell people how to) fix (esp. other peoples) problems when we see them, which rarely produces good results.

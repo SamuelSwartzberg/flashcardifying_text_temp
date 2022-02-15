@@ -2113,34 +2113,34 @@ Manner ↓
 
 <tr>
 <th scope="row">Plosive</th>
-<td>⟮c1;p⟯|⟮c2;b⟯|||span=3;⟮c3;t⟯|span=3;⟮c4;d⟯|⟮c5;ʈ⟯|⟮c6;ɖ⟯|⟮c7;c⟯|⟮c8;ɟ⟯|⟮c9;k⟯|{{c10::ɡ}}|{{c11::q}}|{{c12::ɢ}}|{{c13::ʡ}}|class=no;|{{c14::ʔ}}|class=no;
+<td>⟮c1;p⟯|⟮c2;b⟯|||span=3;⟮c3;t⟯|span=3;⟮c4;d⟯|⟮c5;ʈ⟯|⟮c6;ɖ⟯|⟮c7;c⟯|⟮c8;ɟ⟯|⟮c9;k⟯|⟮c+;ɡ⟯|⟮c+;q⟯|⟮c+;ɢ⟯|⟮c+;ʡ⟯|class=no;|⟮c+;ʔ⟯|class=no;
 
 <tr>
 <th scope="row">Nasal</th>
-<td>|{{c15::m}}||{{c16::ɱ}}|span=3;|span=3;{{c17::n}}||{{c18::ɳ}}||{{c19::ɲ}}||{{c20::ŋ}}||{{c21::ɴ}}|class=no;|class=no;|class=no;|class=no;
+<td>|⟮c+;m⟯||⟮c+;ɱ⟯|span=3;|span=3;⟮c+;n⟯||⟮c+;ɳ⟯||⟮c+;ɲ⟯||⟮c+;ŋ⟯||⟮c+;ɴ⟯|class=no;|class=no;|class=no;|class=no;
 
 <tr>
 <th scope="row">Trill</th>
-<td>|{{c22::ʙ}}|||span=3;</td>
-<td  colspan="3">{{c23::r}}|||||class=no;|class=no;||{{c24::ʀ}}|{{c25::ʜ}}|{{c26::ʢ}}|class=no;|class=no;
+<td>|⟮c+;ʙ⟯|||span=3;</td>
+<td  colspan="3">⟮c+;r⟯|||||class=no;|class=no;||⟮c+;ʀ⟯|⟮c+;ʜ⟯|⟮c+;ʢ⟯|class=no;|class=no;
 
 <tr>
 <th scope="row">Tap/flap</th>
 <td>||||span=3;</td>
-<td  colspan="3">{{c27::ɾ}}||{{c28::ɽ}}|||class=no;|class=no;|||||class=no;|class=no;
+<td  colspan="3">⟮c+;ɾ⟯||⟮c+;ɽ⟯|||class=no;|class=no;|||||class=no;|class=no;
 
   <tr>
 <th scope="row">Lateral approximant</th>
-<td class="no">|class=no;|class=no;|class=no;|span=3;|span=3;{{c58::l}}||{{c59::ɭ}}||{{c60::ʎ}}||{{c61::ʟ}}|||class=no;|class=no;|class=no;|class=no;
+<td class="no">|class=no;|class=no;|class=no;|span=3;|span=3;⟮c+;l⟯||⟮c+;ɭ⟯||⟮c+;ʎ⟯||⟮c+;ʟ⟯|||class=no;|class=no;|class=no;|class=no;
 
   <tr>
 <th scope="row">Lateral fricative</th>
-<td class="no">|class=no;|class=no;|class=no;|span=3;{{c51::ɬ}}|span=3;{{c52::ɮ}}|||||||||class=no;|class=no;|class=no;|class=no;
+<td class="no">|class=no;|class=no;|class=no;|span=3;⟮c+;ɬ⟯|span=3;⟮c+;ɮ⟯|||||||||class=no;|class=no;|class=no;|class=no;
   
 <tr>
 <th scope="row">Approximant</th>
-<td>|||{{c53::ʋ}}</td>
-<td  colspan="3">|span=3;{{c54::ɹ}}|{{c55::ɻ}}||{{c56::j}}||{{c57::ɰ}}||||class=no;|class=no;|
+<td>|||⟮c+;ʋ⟯</td>
+<td  colspan="3">|span=3;⟮c+;ɹ⟯|⟮c+;ɻ⟯||⟮c+;j⟯||⟮c+;ɰ⟯||||class=no;|class=no;|
 span=5;class=no;</td>
       <th colspan="2">Dental</th>
 <th colspan="2">Alveolar</th>
@@ -2148,7 +2148,7 @@ span=5;class=no;</td>
 
   <tr>
 <th scope="row">Fricative</th>
-<td>{{c29::ɸ}}|{{c30::β}}|{{c31::f}}|{{c32::v}}|{{c33::θ}}|{{c34::ð}}|{{c35::s}}|{{c36::z}}|{{c37::ʃ}}|{{c38::ʒ}}|{{c39::ʂ}}|{{c40::ʐ}}|{{c41::ç}}|{{c42::ʝ}}|{{c43::x}}|{{c44::ɣ}}|{{c45::χ}}|{{c46::ʁ}}|{{c47::ħ}}|{{c48::ʕ}}|{{c49::h}}|{{c50::ɦ}}
+<td>⟮c+;ɸ⟯|⟮c+;β⟯|⟮c+;f⟯|⟮c+;v⟯|⟮c+;θ⟯|⟮c+;ð⟯|⟮c+;s⟯|⟮c+;z⟯|⟮c+;ʃ⟯|⟮c+;ʒ⟯|⟮c+;ʂ⟯|⟮c+;ʐ⟯|⟮c+;ç⟯|⟮c+;ʝ⟯|⟮c+;x⟯|⟮c+;ɣ⟯|⟮c+;χ⟯|⟮c+;ʁ⟯|⟮c+;ħ⟯|⟮c+;ʕ⟯|⟮c+;h⟯|⟮c+;ɦ⟯
 ⟮c13;ʍ⟯|⟮c5;voice​less⟯|⟮c5;labio​velar⟯|⟮c5;approxi​mant⟯
 ⟮c9;w ⟯|⟮c1;voiced⟯|⟮c1;labiovelar (labialized velar⟯)|⟮c1;approximant ⟯
 ⟮c10;ɕ⟯|⟮c2;voiceless⟯|⟮c2;aveolo-palatal⟯|⟮c2;fricative⟯
