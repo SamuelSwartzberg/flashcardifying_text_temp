@@ -10,16 +10,16 @@ XML|Extensible Markup language
 HTML was originally based on SGML, though the relationship has sometimes been fraught.
 Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
 
-*ML <dfn>tags</dfn> are delimited by &lt;...&gt;
+*ML »tags« are delimited by &lt;...&gt;
 *ML end tags additionally feature a / to look like &lt;.../&gt;
-An *ML <dfn>element</dfn> is everything from an elements start tag to an elments end tag.
-An *ML element has an <dfn>element name</dfn>.
+An *ML »element« is everything from an elements start tag to an elments end tag.
+An *ML element has an »element name«.
 An *ML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
-*ML elements are begun by a <dfn>start tag</dfn> and ended by an <dfn>end tag</dfn>, unless they are self-closing.
+*ML elements are begun by a »start tag« and ended by an »end tag«, unless they are self-closing.
 *ML element consist of start tag, content, and end tag.
-*ML elements' <dfn>content</dfn> is either text or other elements ('child elements').
+*ML elements' »content« is either text or other elements ('child elements').
 *ML content goes between the start and the end tag.
-<dfn>Empty elments</dfn> are created by (or a synonym to) self-closing tags.
+»Empty elments« are created by (or a synonym to) self-closing tags.
 Self-closing tags in *ML only consist of a start tag.
 Self-closing tags must end /&gt; in XML.
 Self-closing tags may end /&gt; or merely &gt; in HTML.
@@ -153,11 +153,11 @@ maximum-scale=<integer>|set maximum zoom level
 The abbr HTML element represents an acronym or abbreviation.
 There used to be an <acronym> element which was obsoleted in favor of <abbr>
 The thing an abbr element is short for may either be explained in the text or specified in a title attribute.
-<dfn> represents defining instance of a term
-The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.
-If the <dfn> element has a title attribute, the value of the title attribute is considered to be the term being defined. The element must still have text within it, but that text may be an abbreviation (perhaps using <abbr>) or another form of the term.
-If the <dfn> contains a single child element and does not have any text content of its own, and the child element is an <abbr> element with a title attribute itself, then the exact value of the <abbr> element's title is the term being defined.
-Otherwise, the text content of the <dfn> element is the term being defined. 
+» represents defining instance of a term
+The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the » is considered to be the definition of the term.
+If the » element has a title attribute, the value of the title attribute is considered to be the term being defined. The element must still have text within it, but that text may be an abbreviation (perhaps using <abbr>) or another form of the term.
+If the » contains a single child element and does not have any text content of its own, and the child element is an <abbr> element with a title attribute itself, then the exact value of the <abbr> element's title is the term being defined.
+Otherwise, the text content of the » element is the term being defined. 
 
 ##### Media
 
@@ -195,7 +195,7 @@ track kinds: captions, chapters, descriptions, metadata, subtitles
 
 ##### images
 
-<img> is used for including images
+flex-container:<img> is used for including images
 
 The picture element contains 0 - ∞ source elements and one <img> element.
 The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
@@ -1447,7 +1447,7 @@ border-box|width and height size border-box
 ###### flexbox, grid and columns
 
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
-A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) <dfn>grid lines</dfn> that intersect to define n <dfn>grid cells</dfn> 
+A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) »grid lines« that intersect to define n »grid cells« 
 In a grid layout, multiple adjacent cells (in CSS, forming a rectangle) are called a grid area.
 In a grid layout, the area between two adjacent grid lines is called a grid track.
 
@@ -1499,7 +1499,7 @@ A baseline set is a set of baselines, generally only one as long as you are not 
 Each line has a baseline set.
 Each box potentially has a first/last baseline set which is the baseline set of the first/last line of box.
 The alignment baseline is a baseline in its baseline set, generally the dominant baseline (within a shared alignment context).
-Boxes have a <dfn>shared alignment context </dfn> when they are either (no mixing and matching) table cells, grid items and flex items of the same inline base axis (though not direction), or between grid items of the same block flow axis (though not direction)
+Boxes have a »shared alignment context « when they are either (no mixing and matching) table cells, grid items and flex items of the same inline base axis (though not direction), or between grid items of the same block flow axis (though not direction)
 A baseline-sharing group where they share an alignment context, as long as they have compatible baseline alignment preferences.
 Two boxes have compatible baseline alignment preferences if they have the same block flow direction and the same baseline alignment preferences or opposite block flow direction and opposite baseline alignment preferences.
 The first and last values give a box a baseline alignment preference: either “first” or “last”, respectively.
@@ -1936,11 +1936,11 @@ To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a poin
 
 
 flex-container:<img src="sm_ZS4fP%20(1).png">
-<img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
+flex-container:<img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
 
 To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
 
-<img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
+flex-container:<img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
 
 The CSS cubic-beziers map the dependent variable (y) to change in property, and the independent variable (x) to change in time.
 For CSS, the x values of cubic-bezier must be between 0 and 1 (representing time), the y values are not limited in such a way
@@ -2295,7 +2295,7 @@ Typical replaced elements are:
 <iframe>
 <video>
 <embed>
-<img>
+flex-container:<img>
 
 Some elements are treated as replaced elements only in specific cases:
 
@@ -2448,7 +2448,7 @@ absolutely positioned elements
 
 a block-level element is an element with <display-outside> block
 a inline-level element is an element with <display-outside> inline
-Normal flow has two basic parameters: the <dfn>inline (base) direction</dfn> and the <dfn>block (flow) direction</dfn>.
+Normal flow has two basic parameters: the »inline (base) direction« and the »block (flow) direction«.
 The inline base direction defines how content is ordered inline.
 The block flow direction defines how blocks are added.
 Generally, the inline base direction and block flow direction are perpendicular to one another.
@@ -3555,10 +3555,10 @@ If in VSCode you have ⟮c+;as many text cursors⟯ as ⟮c+;the thing you want 
 
 ##### autocomplete
 
-<dfn>⟮c+;Autocomplete/word completion⟯</dfn> is a feature where ⟮c+;an application predicts the rest of something the user is typing⟯.  
-<dfn>⟮c+;Autocomplete/word completion⟯</dfn> on ⟮c+;smartphone keyboards⟯ is called <dfn>⟮c+;predictive text⟯</dfn>, ⟮sb;this used to refer to ⟮c+;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
-<dfn>⟮c+;Autocomplete/word completion⟯</dfn> ⟮c+;in a command-line interface⟯ is called <dfn>⟮c+;command-line⟯</dfn> or <dfn>⟮c+;tab⟯ ⟮c+;completion⟯</dfn>, ⟮sb;which generally uses ⟮c+;the tab key (whence the name⟯).⟯ 
-<dfn>⟮c+;Autocomplete/word completion⟯</dfn> in ⟮c+;code editors⟯ is also known as <dfn>⟮c+;code completion⟯</dfn>. Examples include ⟮sb;⟮c+;VS &amp; VS Code⟯'s ⟮c+;IntelliSense⟯, and ⟮c+;AI (modfied GPT-3⟯)-powered ⟮c+;GitHub Copilot⟯.⟯ 
+»⟮c+;Autocomplete/word completion⟯« is a feature where ⟮c+;an application predicts the rest of something the user is typing⟯.  
+»⟮c+;Autocomplete/word completion⟯« on ⟮c+;smartphone keyboards⟯ is called »⟮c+;predictive text⟯«, ⟮sb;this used to refer to ⟮c+;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
+»⟮c+;Autocomplete/word completion⟯« ⟮c+;in a command-line interface⟯ is called »⟮c+;command-line⟯« or »⟮c+;tab⟯ ⟮c+;completion⟯«, ⟮sb;which generally uses ⟮c+;the tab key (whence the name⟯).⟯ 
+»⟮c+;Autocomplete/word completion⟯« in ⟮c+;code editors⟯ is also known as »⟮c+;code completion⟯«. Examples include ⟮sb;⟮c+;VS &amp; VS Code⟯'s ⟮c+;IntelliSense⟯, and ⟮c+;AI (modfied GPT-3⟯)-powered ⟮c+;GitHub Copilot⟯.⟯ 
 
 ### Natural Language Processing
 
@@ -3734,7 +3734,7 @@ Despite being called '⟮c+;Dock⟯', it's just ⟮c+;macOs⟯'s version of a �
 
 ###### navigation bar
 
-<img src="8f922968919629.5b6dba4c75e8b.png"><img src="Dahsboard+Sidebar+Menu.webp"><img src="rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png"><img src="NavigationBar_Standard.png">
+flex-container:<img src="8f922968919629.5b6dba4c75e8b.png"><img src="Dahsboard+Sidebar+Menu.webp"><img src="rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png"><img src="NavigationBar_Standard.png">
 A navigation bar/menu/navbar is a bar/strip, generally placed at any edge of the window, that contains links/shortcuts for navigation through a thing (program, app, website, whatever)
 On iOS specifically, a navigation bar appears at the top of the screen, often containing a back button on the left, and a few controls on the right, sometimes a title in the middle
 On android specifically, a navigation bar is the bar at the bottom of the screen that generally houses the three navigation controls: back, home, and overview.
@@ -3780,7 +3780,7 @@ In html, the header of a disclosure widget is defined by a summary element.
 An accordion is a set of multiple disclosure widgets.
 Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
-<img src="disc.png"><img src="kfw-disclosure.jpg">⟮h2;<img src="sm_FAQ-Content-Style-Accordion.gif">⟯
+flex-container:<img src="disc.png"><img src="kfw-disclosure.jpg">⟮h2;<img src="sm_FAQ-Content-Style-Accordion.gif">⟯
 
 ##### containers
 
@@ -4075,7 +4075,7 @@ It is often said (esp. in animation) that ⟮c+;good characters⟯ should ⟮c+;
 flex-container:<img src="sm_faces1.gif">
 flex-container:<img src="sm_1280px-FedEx_Corporation_logo.svg.png">
 
-<img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
+flex-container:<img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
 ⟮c+;Positive space⟯ is ⟮c+;the area with subjects/areas of focus⟯
 In the image, if ⟮c+;you see a vase⟯, the ⟮c+;black space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;white space⟯ is the ⟮c+;positive space⟯
 In the image, if ⟮c+;you see two faces⟯, the ⟮c+;white space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;black space⟯ is the ⟮c+;positive space⟯
@@ -4165,7 +4165,7 @@ WCAG principles are the general ideas underlying web accessibility: percievable,
 Each WCAG principle is broken up into one or more guidlines.
 Each WCAG guideline has one or more successs criteria, which are characterized by being testable.
 For each guideline and success criterion the WCAG also includes a wide variety of techinques for (better) achieving these.
-WCAG techniques may either be <dfn>sufficient</dfn>, i.e. enough to meet a success criterion, or be <dfn>advisory</dfn>, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
+WCAG techniques may either be »sufficient«, i.e. enough to meet a success criterion, or be »advisory«, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
 The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
 In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
 the WAI published the WCAG ⟮c+;2.1⟯ version in ⟮c+;2018⟯, and is expected to publish WCAG ⟮c+;2.2⟯ in ⟮c+;2021⟯ 
@@ -4319,7 +4319,7 @@ A head crash is the head of a HDD making contact with its rotating platter, slas
 Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
 
 flex-container:<img src="sm_hdd_w_labels.svg">
-<img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
+flex-container:<img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
 
@@ -7738,7 +7738,7 @@ Brace expansion is a mechanism for generating strings.
 Brace expansion syntax: [&lt;preamble&gt;]\{(&lt;comma-separated-strings&gt;|&lt;sequence-expression&gt;\}[&lt;postscript&gt;]
 comma-separated-strings: &lt;string&gt;{,&lt;string&gt;} 
 sequence-expression: &lt;start&gt;..&lt;stop&gt;[..&lt;step&gt;]
-Bash calls its range syntax a <dfn>sequence expression</dfn>.
+Bash calls its range syntax a »sequence expression«.
 a{d,c,b}e results in ade ace abe
 For brace expansion, bash generates all string alternatives, separated by spaces.
 Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
@@ -8258,7 +8258,7 @@ Thunderbolt was designed to run over optic fiber cables, but actually generally 
 #### DP
 
 https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg|DisplayPort Connector
-<img src="sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg">|Mini DisplayPort Connector
+flex-container:<img src="sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg">|Mini DisplayPort Connector
 Mini and nonmini ⟮c+;DisplayPort⟯ is mainly for ⟮c+;video / audio⟯, but can also carry ⟮c+;USB⟯ and ⟮c+;other data (e.g. thunderbolt)⟯
 
 #### ATA
@@ -9039,7 +9039,7 @@ cidr-notation ::= [<IPv4-addr>]/<int-0-32>
 
 ########## CIDR blocks
 
-<img src="sm_cidr_addr.svg">
+flex-container:<img src="sm_cidr_addr.svg">
 
 A CIDR block is a group of IP addresses sharing the same network/routing prefix.
 ⟮c+;CIDR Blocks⟯ ≈ ⟮c+;network/routing prefixes⟯ may be ⟮c+;further subdivided⟯, with ⟮c+;more and more⟯ of the IP address being looked at to ⟮c+;direct the traffic⟯
@@ -11458,7 +11458,7 @@ Step is pretty much always optional.
 range(start, stop, step)|python|lodash/underscore (js)
 seq start step stop|sh
 
-Bash calls its range syntax a <dfn>sequence expression</dfn>.
+Bash calls its range syntax a »sequence expression«.
 Bash also supports characters as start and stop.
 
 #### misc
@@ -14025,7 +14025,7 @@ A race condition is often a flaw that may cause bugs.
 
 #### deadlock
 
-<img src="1280px-Process_deadlock.svg.png"><img src="220px-Gridlock.svg.png">
+flex-container:<img src="1280px-Process_deadlock.svg.png"><img src="220px-Gridlock.svg.png">
 A ⟮c+;deadlock⟯ is a situation where ⟮c+;each member of  a group⟯ is ⟮c+;waiting on another member to do something⟯, and therefore ⟮c+;the system is stuck⟯
 ⟮c+;Gridlock⟯ is a specific type of ⟮c+;deadlock⟯ that occurs ⟮c+;in a street network⟯
 

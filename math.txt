@@ -471,7 +471,7 @@ In a venn diagram, instead of placing elements, it instead can be used to indica
 
 #### number sets & blackboard bold
 
-A <dfn>⟮c+;number set⟯</dfn> is ⟮c+;a set of numbers⟯ with ⟮c+;certain special properties⟯, e.g. ⟮c+;natural, rational, real etc⟯. 
+A »⟮c+;number set⟯« is ⟮c+;a set of numbers⟯ with ⟮c+;certain special properties⟯, e.g. ⟮c+;natural, rational, real etc⟯. 
 ⟮c+;number sets⟯ are usually written in ⟮c+;bold⟯ or ⟮c+;blackboard bold⟯ letters. 
 ⟮c+;number sets⟯ are called ⟮c+;Zahlenbereiche⟯ in German. 
 

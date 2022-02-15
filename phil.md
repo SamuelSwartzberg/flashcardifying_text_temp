@@ -134,7 +134,7 @@ the perspective of a participant of a thing (e.g. culture)|emic|A 'bavarian' tal
 
 #### a priori/a posteriori
 
-<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c+;Erkenntnis / Urteile⟯ kann ⟮c+;a priori / a posteriori⟯ sein. 
+flex-container:<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg"><br/>⟮c+;Erkenntnis / Urteile⟯ kann ⟮c+;a priori / a posteriori⟯ sein. 
 ⟮c+;Urteil a posteriori⟯|⟮c+;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c+;Urteil a priori⟯|⟮c+;Ein Urteil ohne die Basis der Erfahrung⟯
 

@@ -67,7 +67,7 @@ A ⟮c+;sunk cost⟯ is a cost that ⟮c+;has already been incurred and cannot b
 
 ### other types
 
-<img src="240px-CVP-TC-FC-VC.svg.png">⟮h∞;<img src="Marginal_cost1a.png">⟯
+flex-container:<img src="240px-CVP-TC-FC-VC.svg.png">⟮h∞;<img src="Marginal_cost1a.png">⟯
 <br>⟮c+;Fixed costs⟯ ⟮c+;are the costs that are not dependent on the quantity of goods or services provided⟯.
 In contrast, ⟮c+;variable costs⟯ ⟮c+;increase as the quantity of goods or services produced/provided increase⟯.
 ⟮c+;Together, fixed costs and variable costs make up⟯ ⟮c+;total cost⟯, which is ⟮c+;the cost of producing some quantity of output⟯.
@@ -277,7 +277,7 @@ Generation|Start|End|Nicknames
 
 ### population pyramid
 
-<img src="sm_world_population_2017.jpg">
+flex-container:<img src="sm_world_population_2017.jpg">
 A population pyramid indicates age brackets on the y axis
 a population pyramid indicates amount of pepople on the x axis
 A population pyramid's indication of population is generally split ⟮c+;into sex⟯
@@ -1051,7 +1051,7 @@ term|definition
 
 
 flex-container:<img src="sm_italy-map-with-compass-rose-vector-id165747631.jpg">
-<img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c+;compass rose⟯ can be found on ⟮c+;pretty much any compass⟯ and on ⟮c+;many maps⟯. 
+flex-container:<img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c+;compass rose⟯ can be found on ⟮c+;pretty much any compass⟯ and on ⟮c+;many maps⟯. 
 The ⟮c+;compas rose⟯ indicates ⟮c+;where the cardinal directions are⟯, ⟮c+;in relation to⟯ ⟮c+;the thing on which it appears⟯. 
 The ⟮c+;four⟯ ⟮c+;main directions⟯, ⟮c+;90 deg⟯ apart, that a compass rose has are ⟮c+;the cardinal directions⟯. 
 The ⟮c+;four⟯ directions e⟮c+;xactly in the middle between the cardinal directions⟯ are the ⟮c+;intercardinal directions⟯. 
@@ -1719,7 +1719,7 @@ the ⟮c+;Dungan revolt⟯ was a largely unknown rebellion featuring ⟮c+;8-10 
 #### three-finger salute
 
 ⟮h1;<img src="sm_32b48154b2be18daf89f26dee4993c60.jpg">⟯
-<img src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c+;the  3 finger salute⟯ with the ⟮c+;The hunger games⟯ (though it seems to originate from »Amazing Grace and Chuck«) 
+flex-container:<img src="sm_cogs5wgl1yjmzxrv6qov.jpg"><img src="sm_juaefdoclgyt9szmg35x.jpg"><br/>We associate the origin of ⟮c+;the  3 finger salute⟯ with the ⟮c+;The hunger games⟯ (though it seems to originate from »Amazing Grace and Chuck«) 
 The ⟮c+;3-finger salute⟯ became ⟮c+;a symbol for democracy⟯ after it was used ⟮c+;in pro-democracy protests after a military coup⟯ in ⟮c+;thailand⟯ in ⟮c+;2014⟯, and was further used after ⟮c+;the 2021 myanmar military coup⟯ 
 
 ### media
@@ -1844,7 +1844,7 @@ In social psychology, social loafing is the phenomenon of a person exerting less
 
 #### gartner's hype cycle
 
-<img src="gartner_hype.svg">|gartner's hype cycle (seems to hold relatively rarely)
+flex-container:<img src="gartner_hype.svg">|gartner's hype cycle (seems to hold relatively rarely)
 
 ## culture
 
@@ -2273,7 +2273,7 @@ Thus, ⟮c+;haferflocken⟯ = ⟮c+;rolled oats⟯.
 
 ##### porridge
 
-<img src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c+;porridge⟯ by ⟮c+;cooking⟯ ⟮c+;oats⟯, ⟮c+;milk⟯ and ⟮c+;water⟯ together. 
+flex-container:<img src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c+;porridge⟯ by ⟮c+;cooking⟯ ⟮c+;oats⟯, ⟮c+;milk⟯ and ⟮c+;water⟯ together. 
 ⟮c+;Porridge⟯ looks like ⟮c+;&lt;image&gt;⟯ 
 ⟮c+;Gruel⟯ is ⟮c+;a thinner version⟯ of ⟮c+;porridge⟯. 
 
@@ -2281,7 +2281,7 @@ Thus, ⟮c+;haferflocken⟯ = ⟮c+;rolled oats⟯.
 
 ### directions
 
-<img src="directional-terms.jpg">⟮h∞;<img src="directional-terms-labeled.jpg">⟯
+flex-container:<img src="directional-terms.jpg">⟮h∞;<img src="directional-terms-labeled.jpg">⟯
 
 
 No. in diagram|Name|Alternative Name
@@ -2312,7 +2312,7 @@ Name|Description of side of hand
 
 ### regions
 
-<img src="body-regions-numbered.png">⟮h∞;<img src="681px-Regions_of_Human_Body.jpg">⟯
+flex-container:<img src="body-regions-numbered.png">⟮h∞;<img src="681px-Regions_of_Human_Body.jpg">⟯
 
 
 No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
@@ -2610,7 +2610,7 @@ FOV|deg
 
 ##### diagram
 
-<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png">
+flex-container:<img src="1280px-Stomach_colon_rectum_diagram_numbered.svg.png">
 
 
 No. in diagram|Name
@@ -2640,7 +2640,7 @@ If ⟮c+;appendicitis is left untreated⟯, ⟮c+;the appendix may burst⟯, cau
 
 <span>What is the top number in the image called?</span><span>What is the top number in the image called?</span>
 
-<img src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg">
+flex-container:<img src="sm_FCW65vrdNlOZ8ovuaXj-MX0MnxD26ubvm-r8pUVO4v-eKor4_T0cBg-dzcO8KijpoqelL6t5NBEo7cxbc9mEhFy9tvWxVWEXkC2kYv006IYfwBk61B9.jpg">
 
 ⟮c+;blood pressure⟯ is measured in ⟮c+;mm Hg⟯ 
 name|definition|compares how to the other one|ideal value|which one in the image?
@@ -2725,7 +2725,7 @@ No.|Name
 
 #### spine
 
-<img src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg">
+flex-container:<img src="sm_human_spine_sections.jpg"><img src="sm_human_spine_sections_labeled.jpg">
 
 
 No. in diagram|Name
@@ -2754,7 +2754,7 @@ The ⟮c+;opposite of⟯ ⟮c+;flexion⟯ is ⟮c+;extension⟯.
 
 #### dermatomes
 
-<img src="sm_554px-Grant_1962_663.jpg"><br>⟮c+;Dermatomes⟯ schematically might look like ⟮c+;&lt;image&gt;⟯ 
+flex-container:<img src="sm_554px-Grant_1962_663.jpg"><br>⟮c+;Dermatomes⟯ schematically might look like ⟮c+;&lt;image&gt;⟯ 
 Each ⟮c+;dermatome⟯ is 'served' by ⟮c+;a single spinal nerve⟯. 
 Your body has ⟮c+;30⟯ ⟮c+;dermatomes⟯. 
 In your ⟮c+;limbs⟯, ⟮c+;dermatomes⟯ run ⟮c+;vertically⟯. 
@@ -3601,7 +3601,7 @@ primary sources are called 「quellen」 in the study of history in german.
 
 #### coupling & co-citation
 
-<img src="Visualization_of_co-citation_analysis_methods.png" style="clip-path: inset(0 50% 0 0)">
+flex-container:<img src="Visualization_of_co-citation_analysis_methods.png" style="clip-path: inset(0 50% 0 0)">
 
 Bibliographic coupling measures how many of the same works two documents cite. 
 If two documents cite at least one work in common, they are bibliographically coupled. 
@@ -4383,7 +4383,7 @@ The ⟮c+;gap between the two pieces of paper⟯ is ⟮c+;the shear line⟯, and
 ## lock externals
 
 ⟮h2;<img src="sm_220px-Zylinderset.jpg">⟯
-<img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/>Everything else in a ⟮c+;cylinder lock⟯ is ⟮c+;contained in⟯ ⟮c+;the cylinder(shell/casing/housing/body) ⟯ 
+flex-container:<img src="sm_200px-Pin_tumbler_no_key.svg.png"><br/>Everything else in a ⟮c+;cylinder lock⟯ is ⟮c+;contained in⟯ ⟮c+;the cylinder(shell/casing/housing/body) ⟯ 
 If we were to ⟮c+;cut apart an average door in europe or the US⟯ and ⟮c+;take the locking mechanism out⟯, we would be seeing ⟮c+;the cylinder (shell/casing/housing/body⟯). 
 ⟮c+;The keyway⟯|⟮c+;the slit into which the key is inserted⟯|⟮c+;<img src="sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg">⟯
 ⟮c+;The shoulder of a key⟯|⟮c+;what prevents it from being inserted too far⟯|⟮c+;<img src="sm_schlage-lock-diagram4.jpg">⟯
@@ -4398,7 +4398,7 @@ The ⟮c+;cylinder⟯ of a lock is also called ⟮c+;shell/housing/casing/body�
 
 ## image labelling
 
-<img src="sm_200px-Pin_tumbler_half_picked.svg.png">
+flex-container:<img src="sm_200px-Pin_tumbler_half_picked.svg.png">
 
 
 thing in the image|name
@@ -4419,8 +4419,8 @@ current status|pin
 
 ## comb picks
 
-<img src="sm_200px-Pin_tumbler_bypass.svg.png">
-<img src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c+; pushing both key and driver pins ⟯ ⟮c+;past the shear line⟯ 
+flex-container:<img src="sm_200px-Pin_tumbler_bypass.svg.png">
+flex-container:<img src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c+; pushing both key and driver pins ⟯ ⟮c+;past the shear line⟯ 
 ⟮c+;comb picks⟯ ⟮c+;push⟯ ⟮c+;both driver and key pins⟯ ⟮c+;completely into the lock⟯ 
 comb picks might look like ⟮c+;&lt;image&gt;⟯ 
 What normally ⟮c+;prevents us from just pushing all pins completely above the shear line w/ comb picks⟯ is ⟮c+;that there isn't enough space in the lock⟯ 
@@ -4432,7 +4432,7 @@ What normally ⟮c+;prevents us from just pushing all pins completely above the 
 
 flex-container:<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif">
 
-<img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c+;shear line⟯ is ⟮c+;the gap between⟯ ⟮c+;the casing⟯ and ⟮c+;the plug⟯ 
+flex-container:<img src="Pin-Tumbler-Lock-Shear-Line.png"><br/>The ⟮c+;shear line⟯ is ⟮c+;the gap between⟯ ⟮c+;the casing⟯ and ⟮c+;the plug⟯ 
 ⟮c+;the driver pins⟯ are the pins that ⟮c+;the springs are directly contactin⟯g 
 ⟮c+;the key pins⟯ are the pins that ⟮c+;the key will directly contact⟯ and that ⟮c+;thus 'read' the key⟯ 
 To ⟮c+;open a door⟯, ⟮c+;the plug⟯ ⟮c+;must be able to rotate⟯. 

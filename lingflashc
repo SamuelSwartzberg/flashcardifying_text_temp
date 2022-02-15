@@ -64,7 +64,7 @@ The sign consists of a signfier and a signified.
 </style>
 </div>
 
-<img src="sm_planes_of_sound__thought.gif">
+flex-container:<img src="sm_planes_of_sound__thought.gif">
 
 In ⟮c+;structuralism⟯, ⟮c+;signs, signifiers and signfieds⟯ ⟮c+;are defined/gain their meaning⟯ by ⟮c+;their relations to each other⟯, specifically, each ⟮c+;sign/signfier/signified⟯ is ⟮c+;defined/gains its meaning⟯ by ⟮c+;not being/contrasting with⟯ ⟮c+;any other⟯ ⟮c+;sign/signifier/signified⟯. 
 Since ⟮c+;each sign/signfier/signified is defined/gains its meaning by not being/contrasting with any other sign/signifier/signified⟯, we can say that ⟮c+;structuralism⟯ defines meaning negatively. 
@@ -118,7 +118,7 @@ words that share a pronunciation but mean something different   homophones
 ## synchronic
 
 The diachronic/synchronic distinction was coined by ferdinand de sussure.
-A <dfn>synchronic</dfn> viewpoint considers a language at a moment in time without taking its history into account. 
+A »synchronic« viewpoint considers a language at a moment in time without taking its history into account. 
 If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a language.
 
 ### grammar
@@ -297,7 +297,7 @@ The VP-internal subject hypothesis is desirable because it makes the subject whi
 The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
 Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
 
-<img src="sm_Screenshot%202020-10-20%20at%2010.44.18.png"><br>class=blank-canvas;    <tr>
+flex-container:<img src="sm_Screenshot%202020-10-20%20at%2010.44.18.png"><br>class=blank-canvas;    <tr>
       <td class="inner" colspan="3">⟮c+;IP⟯
 class=inner;⟮c+;DP⟯|span=3;class=inner;⟮c+;I′⟯
 class=inner;|class=inner;⟮c+;I⟯|span=3;class=inner;⟮c+;VP⟯
@@ -889,7 +889,7 @@ Agreement is inflection caused by other words (or similar) in the sentence.
 
 ###### Inflectional paradigm
 
-An <dfn>inflectional paradigm</dfn> is the complete set of forms that a class of words can assume ⟮c+;when inflecting⟯
+An »inflectional paradigm« is the complete set of forms that a class of words can assume ⟮c+;when inflecting⟯
 An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
 A lexeme that lacks some of the forms of its inflectional paradigm is defective.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
@@ -1564,7 +1564,7 @@ There are two forms of labialization/rounding, protruded rounding anc compressed
 In protruded rounding, the lips push out of the face to produce the rounding.
 In compressed rounding, the lip push onto each other and do not push out to produce rounding.
 There are no dedicated IPA diacritics to represent the distinction, but the superscript IPA letter ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ can be used for compression[8] and ⟨◌ʷ⟩ for protrusion. 
-<img src="sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg"><img src="sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg">
+flex-container:<img src="sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg"><img src="sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg">
 (lips that are) less rounded/labialized (than usual for that sound)   ◌̜
 (lips that are) more rounded/labialized (than usual for that sound)   ［◌̹］
 
@@ -3021,14 +3021,14 @@ Before the advent of printing, all books were manuscripts.
 
 ###### palimpsest
 
-<img src="sm_paste-08cee722aa3a0d331ac53f3027ef7cf35ad457e2.jpg">
+flex-container:<img src="sm_paste-08cee722aa3a0d331ac53f3027ef7cf35ad457e2.jpg">
 A palimpsest is a manuscript page on which multiple different texts have been written.
 For palmipsests, generally the previous layer was erased before the new layer was written, though with varying degrees of success.
 Palimpsest as a term is sometimes exteded to refer to any palimpsest-like superimposition.
 
 ## diachronic
 
-A <dfn>diachronic</dfn> approach considers the history and evolution of a language.
+A »diachronic« approach considers the history and evolution of a language.
 Historical linguistics is mainly interested in language change.
 
 ### language geneaology
@@ -3548,7 +3548,7 @@ onion-box:[recursively&#32;enumerable [context-sensitive [context-free [regular<
 
 ### metalanguage
 
-A <dfn>metalanguage</dfn> is a language used ⟮c+;to describe another language⟯
+A »metalanguage« is a language used ⟮c+;to describe another language⟯
 The language being described by a metalanguage is an object language.
 Metasyntax is the syntax governing a meta-language.
 A placeholder/variable that is not part of a given language, but instead is used in a metalanguage way is known as a metasyntactic variable.
@@ -3674,8 +3674,8 @@ Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 ### implicational scale
 
 ⟮c+;Implicational scale⟯ is a term that means if ⟮c+;one feature is present⟯, ⟮c+;all the features⟯ ⟮c+;lower on the scale⟯ ⟮c+;will be as well⟯
-<img src="mplicational-scale-of-basic-color-terms.png"><br/>⟮c1;⟯   an ⁑implicational scale ⁑(of basic color terms)
-<img src="sm_2021-10-21--08-21-02-screenshot.jpg"><br/>⟮c1;⟯   an ⁑implicational scale ⁑ (of syntactic figures in Irish)
+flex-container:<img src="mplicational-scale-of-basic-color-terms.png"><br/>⟮c1;⟯   an ⁑implicational scale ⁑(of basic color terms)
+flex-container:<img src="sm_2021-10-21--08-21-02-screenshot.jpg"><br/>⟮c1;⟯   an ⁑implicational scale ⁑ (of syntactic figures in Irish)
 If a thing is on an ⟮c+;implicational scale⟯, and we find that ⟮c+;the e.g. 5th stage is present⟯, we would expect to also find ⟮c+;all four lower stages to be present⟯.
 ⟮c+;Most linguistic areas⟯ have things that can be on an implicational scale
 
