@@ -2620,6 +2620,11 @@ The CSSStyleDeclaration interface is an object that represents a CSS declaration
 
 #### features
 
+##### web typography
+
+In most modern ＿styling frameworks＿ and generally in web design native fonts are now used.
+The rise in using native fonts is in part attributable to the rise of more high-quality system fonts.
+
 ##### system UI themes
 
 the ⟮c1;System UI Theme Specification⟯ is a ⟮c2;reasonably widely⟯ adopted spec for ⟮c3;a style object⟯ that stores things for ⟮c4;design systems⟯, especially ⟮c5;scales⟯
@@ -2724,14 +2729,31 @@ compiles to `⟮c13;.child {}⟯`
 }
 ``` compiles to `⟮c15;.btn-primary {} .btn-secondary {} ⟯`
 
-##### color schemes
+##### colors
 
-Material design pioneered describing colors on the same 100 (or sometimes 50) to 900 scale as font weights, which has been adopted by other things such as bootstrap, chakra.
+###### theme-color
+
+some styling frameworks (e.g. bootstrap) use a system of semantic names for colors such as primary, secondary, success, danger, warning, info, light, dark...
+In bootstrap the system of semantic colors is called theme-colors.
+
+###### color schemes
+
+Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
+Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
+color-on-weight-scale ::= <hue>-<weight>
 
 ##### misc scales
 
 Many CSS frameworks, e.g. bootstrap have adopted a scale from 1-5 where 3 is a middle value for things that require an arbitrary scale.
 Things that fall on the 1-5 scale in bootstrap are `order`, spacers.
+
+##### components
+
+Pretty much any styling framework features pre-existing components and/or allows the creation of custom components.
+
+###### variants
+
+Many style frameworks have lg and sm version of some components.
 
 ##### layout
 
@@ -2749,6 +2771,14 @@ Bootstrap grid systems feature gutters both between rows and columns, which you 
 The bootstrap grid system is built with flexbox.
 Since the bootstrap grid system is built with flexbox, you can change the behavior of the grid system by using flexbox-related utilites.
 
+containers are mainly for adding padding.
+Containers are, depending on the exact class, either 100% of the page, or 100% with some spacing left and right
+
+####### implementation
+
+in bootstrap, columns are specified .col-<meas-col>
+in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-<meas-col>
+
 ##### breakpoint
 
 Pretty much all styling frameworks have chosent the concept of breakpoints to abstract over width-based media queries.
@@ -2762,8 +2792,9 @@ Extra large|xl|Tailwind, Chakra, Bootstrap
 Extra extra large|2xl|Tailwind, Chakra
 Extra extra large|xxl|Bootstrap.
 For pretty much all frameworks, breakpoints select this size and up.
-The reason breakpoints generally select this size and up in most frameworks is that they are mobile first
+The reason breakpoints generally select this size and up in most frameworks is that they are mobile first.
 Since breakpoints generally select this size and up, you need to overwrite breakpoints for larger sizes if you want it to only apply to one size.
+Since breakpoints select this size and up, one typically writes the style for the smallest size first and then layers  styles for larger form factors on top.
 
 ##### z-indices
 
@@ -2790,9 +2821,16 @@ padding|p
 width|w
 height|h
 background|bg
+gutters|g
 top/bottom/left/right/start/end|t/b/l/r/s/e
 top & bottom / left & right|y/x
 no character|all four sides
+
+##### active/disabled
+
+Many styling frameworks, e.g. bootstrap, may take an active/disabled class (or whatever) to indicate that something is currently active/cannot be interfaced with.
+
+##### theming
 
 #### CSS frameworking
 
@@ -2818,20 +2856,33 @@ Utility classes change one specific aspect of a thing (background, font size, pa
 Utility classes either apply CSS classes more or less directly (e.g. `bg-white`), or offer light syntactic sugar for CSS to apply somewhat more semantic classes (e.g. `text-xl`, `font-medium`)
 Systems that feature utility classes generally strongly recommend using them instead of custom css.
 
+###### helpers
+
+Helper classes in CSS frameworks are classes that achieve a single effect, albeit one that doesn't correspond neatly to a CSS property/aspect of an element (ergo not components).s
+
 ####### spacer
 
 Spacers are a special type of utility in some styling frameworks.
 Spacers apply margin or padding to one or more sides.
 In bootstrap, spacers controlled by $spacer.
 
-###### layout classes
-
 ###### components
 
 In CSS frameworks, typically a class .<component-name> defines a component.
 In CSS frameworks, typically parts of components are indicated by .<component-name>-<part>
 
-##### theming
+##### implementation
+
+Many CSS frameworks, amongst others bootstrap, are implemented by generating them from Sass (or other CSS preprocessors).
+Since they are generated from Sass, to change functionality of Bootstrap or other CSS frameworks, change the Sass code.
+For CSS frameworks, to change the Sass, import the code and then override whatever you want to change, then merge it back in, e.g. with map-merge.
+Specifically, in bootstrap, utilities are stored in a $utilities assoc arr stored in a _utilities.scss.
+Specifically, in bootstrap, the $utility assoc arr has each utility name as a key, and then a further assoc array with keys property, values.
+
+#### CSS reset
+
+A CSS reset is a piece of CSS to reset browser's default styling.
+
 
 #### CSS processing
 
@@ -2950,6 +3001,7 @@ It is important to keep in mind that a BEM entity is not a part of the name, rat
 
 Bootstrap has been the most common CSS-first framework in the 2010s and going into the 2020s
 next to its own technologies, bootstrap may require popper
+By default, bootstrap only uses margin-bottom.
 
 ##### chakra
 
@@ -3793,6 +3845,8 @@ A ⟮c10;FAB⟯ may ⟮c11;contain more actions⟯ when ⟮c12;pressed⟯.
 
 ##### icons
 
+###### icon fonts
+
 Icon fonts map unicode characters from the private use areas to vectors/images
 Icon fonts are most often applied via css classes.
 the most common icon font is font awesome.
@@ -3801,6 +3855,7 @@ the most common icon font is font awesome.
 
 An icon pack is a set of aesthetically united icons.
 octicons|icons used on github
+bootstrap-icons|Icons by/for bootstrap
 
 #### actions
 
@@ -3893,7 +3948,7 @@ After ⟮c122;getting the K channel⟯, to ⟮c123;convert CMY to CMYK⟯: ⟮c1
 If ⟮c141;Hue⟯ is ⟮c142;generated⟯ from ⟮c142;RGB⟯ for ⟮c142;HSL/HSV⟯, it is specified in ⟮c143;a degree from 0 to 360 deg⟯ 
 
 
-    <tr><th colspan="2">If Hue is specified in a degree measurement
+if Hue is specified in a degree measurement
 degree|color
 ⟮c144;0deg/360deg⟯|⟮c145;red⟯
 ⟮c146;120deg⟯|⟮c147;green⟯
@@ -6024,15 +6079,94 @@ Using maildir, once a mail in new has been read, it si sorted into cur.
 ## VCS
 
 VCS|Version Control System
+Version control system (VCS) are systems for tracking/managing changes to things.
+Most commonly in a VCS, a repository contains all the files and folders of the project and their history.
 
 ### git 
 
-#### unifying
+Git is a VCS.
+
+#### objects
+
+Objects are the various things git has.
+Objects in git are stored in .git/objects
+Git objects are text files.
+git objects have their hashes as their names, allowing them to easily be referenced.
+git objects are commits, trees, blobs and annotated tags.
+
+##### hashes
+
+hashes can be abbreviated to their first n characters, as long as those are unique.
+
+##### commits
+
+At its most simple, a repository contains a series of commits.
+A commit is an object consisting of a few metadata.
+Across different VCSs, a commit may be associated a snapshot (a copy of the file) or a diff, though git chooses a snapshot (contrary to what I thought)
+The commit object has its hash as its name.
+A commit consists of a hash of the tree, a hash of the parent commit, author, committer, date, and message.
+Running `git commit` adds a new commit.
+
+##### trees
+
+A tree is a git object representing the directory structure of the project at time of commit as an ordered list.
+The file representing the tree has 'entry' (not a real term) per line.
+A tree 'entry' consists of file permissions, object type, object hash, and filename.
+The object type of a tree 'entry' is usually "blob" for files or "tree" for a subdirectory.
+tree git objects are confusingly named, as they are ordered lists and only become trees by their ability to refer to other trees.
+
+##### blobs
+
+A blob is a git object representing the contents of a file.
+
+##### annotated tags
+
+A tag git object contains the hash of the tagged object, the type of tagged object (usually a commit), the tag name, author, date and message.
+
+#### heads
+
+the HEAD is a pointer to the currently checked out commit/branch head.
+You are in detatched HEAD state is when your HEAD is pointing directly to a commit.
+checking out a commit/branch moving the HEAD to that commit/branch head.
+the command to check out a commit/branch head is `git checkout`.
+
+#### repository
+
+The working directory contains the repository directory as well as the current versions of all the files in the repository.
+The repository directoy contains all git internals, and is called .git.
+Whenever you stage a file, it is added to the staging area and its blob is added to .git/objects.
+The staging area is a directory listing containing the hashes of all staged files.
+The staging area is implemented by a single file, .git/index.
+`git add` stages a file.
+git status tells us about our working directory and staging area.
+If you changed a file, it's unchanged 
+
+##### tracked and untracked files
+
+At the beginning of a git repository, all files are untracked.
+All files that have been `git add`ed at some point become tracked files.
+
+#### commit history
+
+git log shows a set of commits of the commit hisotry.
+
+#### branches
+
+branches split the linear relationship of the commit history.
+In git, a branch merely consists of a branch head.
+A branch head is a pointer to the commit at the tip of the branch.
+git stores branch heads as files in .git/refs/head
+A branch can be kept track of by only a branch head since every commit has the hash of the previous commit.
+When we create a new branch, git creates a new branch head pointing to the current commit.
+`git branch` without arguments lists the current branch heads.
+A newly created repository contains one branch head, master/main.
+
+##### unifying
 
 to include changes from another branch into the current branch, one has two choices: rebase and merge
 Compared to merging, rebasing results in a more 'pretty' commit history
 
-##### merging
+###### merging
 
 two possible merges: fast-forward, three-way-merge
 In a fast-forward merge, the the HEAD is (pointing to) a direct ancestor of the commit we're merging in.
@@ -6047,9 +6181,18 @@ After fixing a merge conflict, you need to commit again.
 
 To abort a maerge during a merge conflict: git merge --abort
 
-##### rebasing
+###### rebasing
 
 Rebasing in git is taking the changes from somewhere (e.g. a branch) and applying them on another branch as if the changes had been made there originally
+
+#### remotes
+
+#### config
+
+#### tags
+
+tags are pointers to specific commits.
+
 
 #### hooks
 
