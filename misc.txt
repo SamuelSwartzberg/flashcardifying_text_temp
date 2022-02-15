@@ -2748,14 +2748,15 @@ When a person is sitting down, the ⟮c+;knees⟯ are ⟮c+;flexed⟯.
 ⟮c+;Flexing⟯ ⟮c+;the elbow (joint⟯) happens ⟮c+;when one brings one's hand closer to one's body⟯.
 When ⟮c+;a joint can move in both direction⟯, ⟮c+;flexion⟯ is ⟮c+;in the anterior direction⟯.
 The ⟮c+;opposite of⟯ ⟮c+;flexion⟯ is ⟮c+;extension⟯.
-§§⟮c+;Extension⟯ is ⟮c+;movement⟯ that ⟮c+;increases the angle between⟯ ⟮c+;things connecting at a joint (or similar point⟯).§<br>˛
+⟮c+;Extension⟯ is ⟮c+;movement⟯ that ⟮c+;increases the angle between⟯ ⟮c+;things connecting at a joint (or similar point⟯).
 
 ### nerves
 
 #### dermatomes
 
-flex-container:<img src="sm_554px-Grant_1962_663.jpg"><br>⟮c+;Dermatomes⟯ schematically might look like ⟮c+;&lt;image&gt;⟯ 
-Each ⟮c+;dermatome⟯ is 'served' by ⟮c+;a single spinal nerve⟯. 
+flex-container:<img src="sm_554px-Grant_1962_663.jpg">
+
+A ⟮c+;dermatome⟯ is an area of skin 'served' by ⟮c+;a single spinal nerve⟯. 
 Your body has ⟮c+;30⟯ ⟮c+;dermatomes⟯. 
 In your ⟮c+;limbs⟯, ⟮c+;dermatomes⟯ run ⟮c+;vertically⟯. 
 In your ⟮c+;torso⟯, ⟮c+;dermatomes⟯ run ⟮c+;horizontally⟯. 
@@ -3767,65 +3768,71 @@ In academia, a turn is an intellectual project in which a group of scholars crit
 The original turn (whence the term) was the linguistic turn in philosophy at the beginning of the 20th century.
 Since the linguistic turn, everyone and their mother have claimed a turn.
 
-# theatre
+# !theatre
 
-## improv
+## !improv
 
 ### fundamentals
 
 #### EKL
 
-Die Struktur einer ⟮c+;Impro-szene (und ggf. anderer dinge, aber hauptsächlich⟯) ist ⟮c+;EKL⟯. 
+⟮c1;Die Struktur⟯ einer ⟮c+;Impro-szene (und ggf. anderer dinge, aber hauptsächlich)⟯ ist ⟮c+;EKL⟯. 
 ⟮c+;EKL⟯ steht für ⟮c+;Etablieren, Konflikt, Lösung⟯. 
 
-##### Etablieren
+#### !Etablieren
 
-Die vier Fragen, die man beim ⟮c+;Etablieren⟯ beantwortet sind:
+In einer ⟮c+;(Impro)szene⟯ ⟮c+;einigt man sich (idealerweise)⟯ ⟮c+;nach dem Etablieren⟯ ⟮c+;auf genau einen Konflikt⟯. 
 
-<li>⟮c+;Wer bin ich⟯?</li>
-<li>⟮c+;Wo bin ich⟯?</li>
-<li>⟮c+;Wann bin ich⟯?</li>
-<li>⟮c+;Wie stehe ich zum Gegenüber⟯?</li>
-In einer ⟮c+;(Impro)szene⟯ einigt man sich idealerweise nach ⟮c+;dem Etablieren⟯ auf ⟮c+;genau einen Konflikt⟯. 
+###### !Fragen
 
-### exercises
+- ⟮c+;Wer bin ich⟯
+- ⟮c+;Wo bin ich⟯
+- ⟮c+;Wann bin ich⟯
+- ⟮c+;Wie stehe ich zum Gegenüber⟯
 
-#### Das Totale Chaos
+### !exercises
 
-»⟮c+;Das totale chaos⟯«: ⟮c+;alle im kreis⟯, außer ⟮c+;eine person in der mitte⟯. ⟮c+;Die Person in der Mitte⟯ ⟮c+;sagt eine Wahrheit über sich⟯. ⟮sb;Falls ⟮c+;die Wahrheit auf einen zutrifft⟯, ⟮c+;muss man sich eine neue Position im Kreis suchen⟯. ⟮sb;Die ⟮c+;Person die keinen mehr findet⟯, ist ⟮c+;die neue Person in der Mitte⟯.⟯⟯ 
+#### !Das Totale Chaos
 
-#### Hey Baby
+⟮c+;alle im kreis⟯, außer ⟮c+;eine person in der mitte⟯. 
+⟮c+;Die Person in der Mitte⟯ ⟮c+;sagt eine Wahrheit über sich⟯. 
+Falls ⟮c+;die Wahrheit auf einen zutrifft⟯, ⟮c+;muss man sich eine neue Position im Kreis suchen⟯. ⟮sb;Die ⟮c+;Person die keinen mehr findet⟯, ist ⟮c+;die neue Person in der Mitte⟯.⟯
 
-»⟮c+;Hey Baby⟯«: ⟮c+;Alle Leute stehen im Kreis⟯. ⟮c+;Eine Person geht in die Mitte⟯. ⟮sb;⟮c+;Die person in der mitte geht zu jemandem hin⟯ ⟮sb;⟮c+;und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c+;Falls eine person lacht oder lächelt⟯, muss ⟮c+;die Person in die mitte⟯, ⟮c+;Falls nicht⟯, muss ⟮c+;die Person (in der mitte) weitermachen bis es passiert⟯⟯⟯
+#### !Hey Baby
 
-#### Mirroring
+⟮c+;Alle Leute stehen im Kreis⟯. ⟮c+;Eine Person geht in die Mitte⟯. 
+⟮c+;Die person in der mitte geht zu jemandem hin⟯ ⟮sb;⟮c+;und sagt "Hey Baby, willst du mitkommen?"⟯ ⟮c+;Falls eine person lacht oder lächelt⟯, muss ⟮c+;die Person in die mitte⟯, ⟮c+;Falls nicht⟯, muss ⟮c+;die Person (in der mitte) weitermachen bis es passiert⟯⟯
 
-⟮c+;Mirroring/Spiegeln:⟯ ⟮c+;One person does something⟯ and ⟮c+;the other person imitates them like a mirror (as well as possible).⟯ 
-⟮c+;Mirroring/Spiegeln⟯ setup: ⟮c+;2 participants⟯ ⟮c+;facing each other⟯ 
-Mirroring/Spiegeln: generally ⟮c+;slow⟯ movements are easiest/best 
-Mirroring/Spiegeln: The ⟮c+;easier⟯ variant has ⟮c+;one person lead, and one follow⟯ 
-Mirroring/Spiegeln: The ⟮c+;harder⟯ variant has ⟮c+;both people lead and both follow⟯ 
+#### !Mirroring
 
-#### 3-satz-geschichte
+⟮c+;One person does something⟯ and ⟮c+;the other person imitates them like a mirror (as well as possible).⟯ 
+setup: ⟮c+;2 participants⟯ ⟮c+;facing each other⟯ 
+generally ⟮c+;slow⟯ movements are ⟮c+;easiest⟯ 
+The ⟮c+;easier⟯ variant has ⟮c+;one person lead, and one follow⟯ 
+The ⟮c+;harder⟯ variant has ⟮c+;both people lead and both follow⟯ 
 
-⟮c+;3-Satz geschichte⟯: jeder spieler ⟮c+;sagt einen satz⟯, entweder ⟮c+;E, K oder L⟯ (natürlich in ⟮c+;der reihenfolge⟯) 
-⟮c+;3-Satz geschichte⟯: mit 3 sätzen entsteht ⟮c+;eine komplette EKL geschichte⟯ 
-3-Satz geschichte: mindestens ⟮c+;2⟯ spieler*innen 
+#### !3-satz-geschichte
 
-#### Ich bin der könig der
+⟮c+;jeder spieler⟯ ⟮c+;sagt einen satz⟯, entweder ⟮c+;E, K oder L⟯ (natürlich in ⟮c+;der reihenfolge⟯) 
+mit ⟮c+;3 sätzen⟯ entsteht ⟮c+;eine komplette EKL geschichte⟯ 
+mindestens ⟮c+;2⟯ ⟮c+;spieler*innen ⟯
 
-『⟮c+;Ich bin der König der⟯』: Eine Person ⟮c+;sagt: Ich bin der König von...⟯ und ⟮c+;alle anderen müssen das Ding darstellen⟯ bis ⟮c+;sich jemand anders zum König der $whatevers erklärt⟯. 
-『⟮c+;Ich bin der König der⟯』: Die ⟮c+;improfabrik⟯ hat das (sinvollerweise, finde ich) auf ⟮c+;Tiere⟯ limitiert 
+#### !Ich bin der könig der
 
-#### Feind*in und Beschützer*in
+Eine Person ⟮c+;sagt: Ich bin der König von...⟯ und ⟮c+;alle anderen müssen das Ding darstellen⟯ bis ⟮c+;sich jemand anders zum König der $whatevers erklärt⟯. 
+Die ⟮c+;improfabrik⟯ hat das (sinvollerweise, finde ich) auf ⟮c+;Tiere⟯ limitiert 
+
+#### !Feind*in und Beschützer*in
 
 flex-container:<img src="sm_your-drawing.png">
-『⟮c+;Feind*in und Beschützer*in⟯』: ⟮c+;Jede*r Spieler*in⟯ sucht sich ⟮c+;eine*n Feind*in⟯ und ⟮c+;eine*n Beschützer*in⟯.
-『⟮c+;Feind*in und Beschützer*in⟯』: Jede*r Spieler*in versucht, ⟮c+;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
+
+
+⟮c+;Jede*r Spieler*in⟯ sucht sich ⟮c+;eine*n Feind*in⟯ und ⟮c+;eine*n Beschützer*in⟯.
+⟮c+;Jede*r Spieler*in⟯ versucht, ⟮c+;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
 
 #### assoziationsketten
 
-⟮c+;Free association/Assoziationsketten⟯: ⟮c+;Someone says something⟯, and then ⟮c+;the next person says the first thing that comes to mind⟯ and ⟮c+;then  the next person says the first thing that comes to mind and so on⟯ 
+c+;Someone says something⟯, and then ⟮c+;the next person says the first thing that comes to mind⟯ and ⟮c+;s-;then  the next person says the first thing that comes to mind and so on⟯ 
 Free association/Assoziationsketten: Important to avoid ⟮c+;thinking, self-censorship⟯ to learn to  ⟮c+;let go, feel free⟯, e.g. to make ⟮c+;weird associations like "boss-napalm"⟯ etc. 
 
 #### walking with speed levels
