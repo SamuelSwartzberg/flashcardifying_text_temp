@@ -224,9 +224,9 @@ The fact that ⟮c+;people may be operating with different metaphors/presumption
 
 1. ⟮c+;Take out some coins ⟯
 2. ⟮c+;s1;What do they mean to you?⟯
-3. ⟮c+;s1-2;Arrange them to represent you and family/friends⟯
-4. ⟮c+;s1-3;Remove one⟯
-5. ⟮c+;s1-4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
+3. ⟮c+;s1:2;Arrange them to represent you and family/friends⟯
+4. ⟮c+;s1:3;Remove one⟯
+5. ⟮c+;s1:4;Reflect on your experience (esp. what you used metaphorically, size, shape, distance⟯)
 
 ## breaking point story
 

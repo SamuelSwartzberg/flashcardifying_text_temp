@@ -29,8 +29,8 @@ Things like the ⟮c+;Ehegattensplitting⟯ result in a situation where ⟮c+;no
 <ol>
 <li>⟮c+;Einkommen des Paars wird zusammengerechnet⟯</li>
 <li>⟮c+;s1;Beitrag wird halbiert⟯</li>
-<li>⟮c+;s1-2;Einkommenssteuer fuer diese Haelfte wird berechnet⟯</li>
-<li>⟮c+;s1-3;Errechnete einkommenssteuer wird verdoppelt⟯</li>
+<li>⟮c+;s1:2;Einkommenssteuer fuer diese Haelfte wird berechnet⟯</li>
+<li>⟮c+;s1:3;Errechnete einkommenssteuer wird verdoppelt⟯</li>
 </ol>
 
 ## markets
@@ -63,7 +63,7 @@ When doing a certain thing, that thing's ⟮c+;opportunity cost⟯ is ⟮c+;the 
 
 ### sunk
 
-A ⟮c+;sunk cost⟯ is a cost that ⟮c+;has already been incurred and cannot be recovered⟯, in contrast, ⟮s1-2;a ⟮c+;prospective cost⟯ is a cost that ⟮c+;can be avoided if action is taken⟯⟯
+A ⟮c+;sunk cost⟯ is a cost that ⟮c+;has already been incurred and cannot be recovered⟯, in contrast, ⟮s1:2;a ⟮c+;prospective cost⟯ is a cost that ⟮c+;can be avoided if action is taken⟯⟯
 
 ### other types
 
@@ -189,8 +189,8 @@ The precise value of a ⟮c+;network effect⟯ is often stated in terms of ⟮c+
 ##### goods with properties
 
 |⟮c+;excludable⟯|⟮c+;non-excludable⟯
-⟮c+;rivalrous⟯|c1;s1-4;private good⟯|⟮c+;s1-4;common(-pool) good⟯
-⟮c+;non-rivalrous⟯|⟮c+;s1-4;club/toll good⟯|⟮c+;s1-4;public good⟯
+⟮c+;rivalrous⟯|c1;s1:4;private good⟯|⟮c+;s1:4;common(-pool) good⟯
+⟮c+;non-rivalrous⟯|⟮c+;s1:4;club/toll good⟯|⟮c+;s1:4;public good⟯
 
 ###### common pool resources
 
@@ -225,7 +225,7 @@ An ⟮c+;econ⟯ would always ⟮c+;make the best decision given a set of altern
 
 ### bias
 
-⟮c+;Bias⟯ is the ⟮c+;inclination toward⟯ or ⟮c+;weighting of⟯ something, most often in a way that is ⟮c+;unfair⟯ and/or ⟮c+;disproportionate/wrong⟯. Thus, ⟮s1-3;⟮s7-12;⟮c+;cognitive bias⟯ is ⟮c+;the disproportionate weighting⟯ / ⟮c+;irrelevant inclusion⟯ of factors in a way that ⟮c+;the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮c+;statistics⟯ is the tendency of ⟮c+;a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮c+;misestimate⟯ a ⟮c+;parameter (a truth about the population) ⟯⟯;⟮s4-9; ⟮c+;implicit bias⟯ are ⟮c+;pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮c+;a social group⟯⟯⟯ 
+⟮c+;Bias⟯ is the ⟮c+;inclination toward⟯ or ⟮c+;weighting of⟯ something, most often in a way that is ⟮c+;unfair⟯ and/or ⟮c+;disproportionate/wrong⟯. Thus, ⟮s1:3;⟮s7:12;⟮c+;cognitive bias⟯ is ⟮c+;the disproportionate weighting⟯ / ⟮c+;irrelevant inclusion⟯ of factors in a way that ⟮c+;the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮c+;statistics⟯ is the tendency of ⟮c+;a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮c+;misestimate⟯ a ⟮c+;parameter (a truth about the population) ⟯⟯;⟮s4:9; ⟮c+;implicit bias⟯ are ⟮c+;pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮c+;a social group⟯⟯⟯ 
 ⟮c+;Status quo bias⟯ is a form of ⟮c+;cognitive bias⟯, the bias towards ⟮c+;The current state of affairs⟯ 
 
 #### cognitive bias
@@ -513,7 +513,7 @@ The goal of ⟮c+;brigading⟯ is often either ⟮c+;to harm the thing in questi
 
 ##### sockpuppet
 
-A ⟮c+;sockpuppet⟯ is ⟮c+;an alternative account⟯ used to ⟮c+;decieve or mislead in some way⟯.⟮s1-3;Originally this referred to ⟮c+;an account to talk about or to oneself while pretending to be another person⟯, ⟮s4;then expanded to ⟮c+;all uses of a second account pretending to be a second person while being the same as the first⟯, and now can also refer to ⟮s5;⟮c+;any (misleading) activity where a second account might be helpful⟯, such as ⟮c+;evading bans⟯, do ⟮c+;mass action such as brigading⟯, etc⟯⟯.⟯ 
+A ⟮c+;sockpuppet⟯ is ⟮c+;an alternative account⟯ used to ⟮c+;decieve or mislead in some way⟯.⟮s1:3;Originally this referred to ⟮c+;an account to talk about or to oneself while pretending to be another person⟯, ⟮s4;then expanded to ⟮c+;all uses of a second account pretending to be a second person while being the same as the first⟯, and now can also refer to ⟮s5;⟮c+;any (misleading) activity where a second account might be helpful⟯, such as ⟮c+;evading bans⟯, do ⟮c+;mass action such as brigading⟯, etc⟯⟯.⟯ 
 
 ### message
 
@@ -1398,9 +1398,9 @@ The terms ⟮c+;longue durée, moyenne durée and événement⟯ for scales of a
 The three levels of history that ⟮c+;the annales-school and fernand braudel⟯ distinguish are the ⟮c+;longue durée⟯, ⟮c+;moyenne durée⟯ and the ⟮c+;événement⟯. 
 The annales school favored ⟮c+;the longue duree⟯ as a level of analysis 
 Name|Timespan|Examples|Other names|Similar concepts
-⟮c1,5-7;longue durée⟯|⟮c+;s3-7;hundreds or thousands of years⟯|⟮c+;s2-7;Changes in climatology or physical geography⟯||⟮c+;s2-7;Macrohistory⟯
-⟮c8,11;moyenne durée⟯|⟮c+;s10-11;multiple years or decades⟯|⟮c+;s8-9;The great depression⟯
-⟮c11,15-17;événement⟯|⟮c+;s13-17;hours, days, weeks⟯|⟮c+;s12-17;A coup or new law⟯|⟮c+;s12-17;Ereignisgesichichte⟯</td>  
+⟮c1,5-7;longue durée⟯|⟮c+;s3:7;hundreds or thousands of years⟯|⟮c+;s2:7;Changes in climatology or physical geography⟯||⟮c+;s2:7;Macrohistory⟯
+⟮c8,11;moyenne durée⟯|⟮c+;s10:11;multiple years or decades⟯|⟮c+;s8:9;The great depression⟯
+⟮c11,15-17;événement⟯|⟮c+;s13:17;hours, days, weeks⟯|⟮c+;s12:17;A coup or new law⟯|⟮c+;s12:17;Ereignisgesichichte⟯</td>  
 </tr> 
 
 
@@ -2327,7 +2327,7 @@ No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
 
 ###### map
 
-flex-container:⟮h∞;uh15-26;<img src="sm_male_anat_repr.svg">⟯
+flex-container:⟮h∞;uh15:26;<img src="sm_male_anat_repr.svg">⟯
 No.|Name|Common Name
 1|bladder
 2|pubic bone
@@ -2347,7 +2347,7 @@ No.|Name|Common Name
 ⟮c+;17⟯|⟮c+;testis/testicle (synonyms⟯)|⟮c+;balls⟯
 ⟮c+;14⟯|⟮c+;scrotum⟯|⟮c+;ballsack⟯
 
-flex-container:⟮h∞;uh7-14;<img src="sm_penis_underside.jpg">⟯
+flex-container:⟮h∞;uh7:14;<img src="sm_penis_underside.jpg">⟯
 No.|Name|Common Name
 ⟮c+;1⟯|⟮c+;glans (penis) ⟯|⟮c+;head of the penis⟯
 ⟮c+;2⟯|⟮c+;corona of the glans penis ⟯|⟮c+;lower border of the glans⟯
@@ -2678,8 +2678,8 @@ If ⟮c+;a thrombus blocks the blood vessel completely⟯, ⟮c+;the surrounding
 
 ##### emboli
 
-An ⟮c+;embolus⟯ is ⟮c+;some kind of foreign object⟯ (amongst others: ⟮s1-2;⟮c+;thrombi⟯, ⟮c+;fat globules, gas bubbles, cholesterol plaque/crystals⟯⟯ ) that ⟮c+;travels through the bloodstream⟯. 
-If an ⟮c+;embolus⟯ ⟮c+;gets lodged⟯ and thus ⟮s6;⟮c+;blocks a blood vessel⟯⟯, this is known as an ⟮c+;embolism⟯. ⟮s6-8;If it's ⟮c+;a thrombus⟯ that ⟮c+;gets lodged⟯, it is known as a ⟮c+;thromboembolism⟯.⟯ 
+An ⟮c+;embolus⟯ is ⟮c+;some kind of foreign object⟯ (amongst others: ⟮s1:2;⟮c+;thrombi⟯, ⟮c+;fat globules, gas bubbles, cholesterol plaque/crystals⟯⟯ ) that ⟮c+;travels through the bloodstream⟯. 
+If an ⟮c+;embolus⟯ ⟮c+;gets lodged⟯ and thus ⟮s6;⟮c+;blocks a blood vessel⟯⟯, this is known as an ⟮c+;embolism⟯. ⟮s6:8;If it's ⟮c+;a thrombus⟯ that ⟮c+;gets lodged⟯, it is known as a ⟮c+;thromboembolism⟯.⟯ 
 
 ###### pulmonary embolism
 
@@ -2985,8 +2985,8 @@ Being ⟮c+;wet⟯ cools you out more than not because (amongst other reasons) �
 <ol>
   <li>⟮c+;Fleck anfeuchten⟯</li>
   <li>⟮c+;s1;Einreiben⟯</li>
-<li>⟮c+;s1-2;Einige minuten (10-20 min) einwirken lassen⟯</li>
-  <li>⟮c+;s1-3;Auswaschen / In die Waschmaschine⟯</li>
+<li>⟮c+;s1:2;Einige minuten (10-20 min) einwirken lassen⟯</li>
+  <li>⟮c+;s1:3;Auswaschen / In die Waschmaschine⟯</li>
 </ol></div>
 
 # massage
@@ -3063,8 +3063,8 @@ Name|Description|Notes
 ⟮c+;sub⟯|⟮c+;likes to (or does) be powerless/controlled⟯
 ⟮c+;sadist⟯|⟮c+;likes to (or does) give pain⟯
 ⟮c+;masochist⟯|⟮c+;likes to (or does) recieve pain⟯
-⟮c+;s18;masc⟯, ⟮c+;s17;butch::lesbian only⟯|⟮c+;Exhibits more 'masculine' behavior⟯|⟮s17-19;⟮c+;masc⟯ is used ⟮c+;more commonly in gay contexts⟯, ⟮c+;butch⟯ ⟮c+;only in lesbian contexts⟯⟯
-⟮c+;s23;fem(me) ⟯, ⟮c+;s22;lipstick lesbian::lesbian only⟯|⟮c+;Exhibits more 'feminine' behavior⟯|⟮s22-24;More commonly ⟮c+;femme and not fem⟯ when ⟮c+;in reference to lesbians⟯⟯
+⟮c+;s18;masc⟯, ⟮c+;s17;butch::lesbian only⟯|⟮c+;Exhibits more 'masculine' behavior⟯|⟮s17:19;⟮c+;masc⟯ is used ⟮c+;more commonly in gay contexts⟯, ⟮c+;butch⟯ ⟮c+;only in lesbian contexts⟯⟯
+⟮c+;s23;fem(me) ⟯, ⟮c+;s22;lipstick lesbian::lesbian only⟯|⟮c+;Exhibits more 'feminine' behavior⟯|⟮s22:24;More commonly ⟮c+;femme and not fem⟯ when ⟮c+;in reference to lesbians⟯⟯
 
 
 
@@ -3525,8 +3525,8 @@ On ⟮c+;the model of⟯ emotion work/emotional labor, other ⟮c+;more or less 
 While ⟮c+;some people⟯ treat ⟮c+;emotion/x work and emotional/x-al labor⟯ as ⟮c+;synonyms⟯, there is ⟮c+;a clear distinction⟯. 
 
 |value|example
-⟮c+;x work, e.g. emotion work⟯|⟮c+;use value only⟯|⟮c+;s16-17;part of a job⟯
-⟮c+;x-al labor, e.g. emotional labor⟯|⟮c+;use value and exchange value⟯|⟮c+;s19-20;in an intimate relationship⟯
+⟮c+;x work, e.g. emotion work⟯|⟮c+;use value only⟯|⟮c+;s16:17;part of a job⟯
+⟮c+;x-al labor, e.g. emotional labor⟯|⟮c+;use value and exchange value⟯|⟮c+;s19:20;in an intimate relationship⟯
 
 
 type of work/labor|involves|example
@@ -4278,8 +4278,8 @@ Brandklasse|Wofür?
 <ol>
   <li>⟮c+;Stop⟯</li>
   <li>⟮c+;s1;Drop to ground⟯</li>
-  <li>⟮c+;s1-2;Cover your face w hands⟯</li>
-  <li>⟮c+;s1-3;Roll back and forth⟯</li>
+  <li>⟮c+;s1:2;Cover your face w hands⟯</li>
+  <li>⟮c+;s1:3;Roll back and forth⟯</li>
   </ol>
 
 ### bonds
@@ -4548,7 +4548,7 @@ Often, ⟮c+;the four steps of four-stage breathing/pranayama are the same lengt
 
 Word|Today more commonly|example
 ⟮c+;whither⟯|⟮c+;to where⟯
-⟮c+;whence⟯|⟮c+;from where⟯|⟮c+;s3-4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯
+⟮c+;whence⟯|⟮c+;from where⟯|⟮c+;s3:4;"Pork" comes from French, whence we get most of our modern cooking terms.⟯
 
 #### morphology
 

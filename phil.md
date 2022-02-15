@@ -379,8 +379,8 @@ Nozick argues one would not want to enter the experience machine, for example be
 ## demands
 
 the original ⟮c+;catch-22⟯ (since ⟮c+;it's used in many different ways later in the book⟯): ⟮c+;If you're declared insane, you get sent home from fighting⟯:
--&gt; ⟮c+;s13-14;If you say you're insane (or apply for insanity⟯), that ⟮c+;s13-14;makes you sane, and so you still have to fight.⟯
--&gt; And ⟮c+;s11-12;if you don't say you're insane (or apply for insanity⟯) ⟮c+;s11-12;you still have to fight⟯. 
+-&gt; ⟮c+;s13:14;If you say you're insane (or apply for insanity⟯), that ⟮c+;s13:14;makes you sane, and so you still have to fight.⟯
+-&gt; And ⟮c+;s11:12;if you don't say you're insane (or apply for insanity⟯) ⟮c+;s11:12;you still have to fight⟯. 
 The ⟮c+;original⟯ ⟮c+;catch-22⟯ ⟮c+;from the book⟯ is ⟮c+;just a constructive dilemma⟯. 
 The term ⟮c+;catch-22⟯ is also often used as ⟮c+;a synonym for deadlock (in the CS sense⟯). 
 The term ⟮c+;catch-22⟯ may at its most broad just refer to ⟮c+;a kind of contradiction or problem involving 2 things.⟯ 
@@ -411,7 +411,7 @@ Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt
 
 #### the tuvel affair
 
-In ⟮c+;2017⟯, the journal ⟮c+;hypatia⟯ published an article by ⟮c+;rebecca tuvel⟯ in favor of ⟮c+;transracialism⟯ (which led to a large controversy). ⟮s1-4;After it was released, an ⟮c+;open letter⟯ was ⟮c+;written⟯ requesting ⟮c+;the article be retracted⟯, signed by ⟮c+;800⟯ scholars. ⟮s5-7;The criticisms  related to tuvel herself were  ⟮c+;an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c+;an alleged mishandling of the review process⟯. ⟮s8-9;The ⟮c+;wider academic community⟯ reacted to ⟮c+;the open letter⟯ with ⟮c+;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c+;was thrown into crisis⟯.⟯⟯⟯
+In ⟮c+;2017⟯, the journal ⟮c+;hypatia⟯ published an article by ⟮c+;rebecca tuvel⟯ in favor of ⟮c+;transracialism⟯ (which led to a large controversy). ⟮s1:4;After it was released, an ⟮c+;open letter⟯ was ⟮c+;written⟯ requesting ⟮c+;the article be retracted⟯, signed by ⟮c+;800⟯ scholars. ⟮s5:7;The criticisms  related to tuvel herself were  ⟮c+;an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c+;an alleged mishandling of the review process⟯. ⟮s8:9;The ⟮c+;wider academic community⟯ reacted to ⟮c+;the open letter⟯ with ⟮c+;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c+;was thrown into crisis⟯.⟯⟯⟯
 The tuvel affair was seen by those who wanted to see it as such as a clash between analytic and continental philosophy.
 
 ## turns

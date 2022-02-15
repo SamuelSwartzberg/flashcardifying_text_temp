@@ -1683,11 +1683,11 @@ It may seem that certain html form elements can't have their font styled ⟮c+;b
 
 The white-space CSS property sets how white space inside an element is handled.
 &nbsp;|New lines|Spaces and tabs|Text wrapping
-⟮c+;s1-5;normal⟯|⟮c+;s6-20;Collapse⟯|⟮c+;s6-20;Collapse⟯|⟮c+;s6-20;Wrap⟯
-⟮c+;s1-5;pre⟯|⟮c+;s6-20;Preserve⟯|⟮c+;s6-20;Preserve⟯|⟮c+;s6-20;No wrap⟯
-⟮c+;s1-5;nowrap⟯|⟮c+;s6-20;Collapse⟯|⟮c+;s6-20;Collapse⟯|⟮c+;s6-20;No wrap⟯
-⟮c+;s1-5;pre-wrap⟯|⟮c+;s6-20;Preserve⟯|⟮c+;s6-20;Preserve⟯|⟮c+;s6-20;Wrap⟯
-⟮c+;s1-5;pre-line⟯|⟮c+;s6-20;Preserve⟯|⟮c+;s6-20;Collapse⟯|⟮c+;s6-20;Wrap⟯
+⟮c+;s1:5;normal⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Wrap⟯
+⟮c+;s1:5;pre⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;No wrap⟯
+⟮c+;s1:5;nowrap⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;No wrap⟯
+⟮c+;s1:5;pre-wrap⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Wrap⟯
+⟮c+;s1:5;pre-line⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Wrap⟯
 
 
 ###### Scrolling
@@ -3724,7 +3724,7 @@ A ⟮c+;status bar⟯ on mobile contains ⟮c+;notification⟯ and ⟮c+;system�
 
 ###### taskbar
 
-flex-container:⟮h∞;uh11-12;<img src="Windows_XP_task_grouping_(Luna).png"><img src="Windows_10_Taskbar.PNG"><img src="1024px-MacOS_Sierra_dock.png"><img src="1024px-Plasma_5.20_Taskbar.png">⟯
+flex-container:⟮h∞;uh11:12;<img src="Windows_XP_task_grouping_(Luna).png"><img src="Windows_10_Taskbar.PNG"><img src="1024px-MacOS_Sierra_dock.png"><img src="1024px-Plasma_5.20_Taskbar.png">⟯
 
 ⟮c+;The above⟯ are all examples of ⟮c+;taskbars⟯. 
 A ⟮c+;taskbar⟯ is a GUI element that typically shows ⟮c+;which programs are open⟯, and allows ⟮c+;pinning programs or other things for quick access⟯. 
@@ -3745,7 +3745,7 @@ flex-container:⟮h∞;<img src="sm_toggle_side_bar.gif">⟯
 
 VS Code's ⟮c+;activity bar⟯ is a ⟮c+;nav(igation) bar⟯ containing ⟮sb;⟮c+;5 (by default) icons⟯ that ⟮c+;trigger sidebars⟯⟯. 
 
-flex-container:⟮h∞;uh1-10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
+flex-container:⟮h∞;uh1:10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
 
 nth icon in activity bar|Purpose
 ⟮c+;1st icon⟯|⟮c+;FIile explorer⟯
@@ -3981,7 +3981,7 @@ Commonly, ⟮c+;saturation⟯ ≈ ⟮c+;chroma⟯ refers to ⟮c+;the distance�
 ⟮sa;While ⟮c+;RGB⟯ and ⟮c+;CMY⟯ are most naturally represented as ⟮c+;cubes⟯⟯, ⟮sb;⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ are commonly represented as ⟮c+;cylinders⟯⟯. 
 Since ⟮c+;the top and bottom⟯ of ⟮c+;a ⟮s202;HSL⟯ cylinder⟯ ⟮c+;all approach the same color (white and black respectively⟯), ⟮sb;⟮c+;HSL⟯ may also ⟮c+;be represented as a bicone⟯⟯. 
 Since the ⟮c+;bottom⟯ of ⟮c+;a HSV/HSB cylinder⟯ ⟮c+;approaches the same color (black⟯), ⟮sb;HSV/HSB may more naturally be represented as a cone.⟯ 
-⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ both have ⟮s211-212;⟮c+;hue⟯ as ⟮c+;the degree⟯⟯, and ⟮s209-210;⟮c+;saturation⟯ as ⟮c+;the radius⟯.⟯ 
+⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ both have ⟮s211:212;⟮c+;hue⟯ as ⟮c+;the degree⟯⟯, and ⟮s209:210;⟮c+;saturation⟯ as ⟮c+;the radius⟯.⟯ 
 ⟮c+;HSL⟯ has ⟮c+;lightness⟯ as ⟮c+;the height.⟯ 
 ⟮c+;HSV/HSB⟯ has v⟮c+;alue/brightness⟯ as ⟮c+;the height⟯.  
 both ⟮c+;HSL⟯ and ⟮c+;HSV/B⟯ have the problem that ⟮c+;changing⟯ the ⟮c+;saturation⟯ and ⟮c+;to a certain extent⟯ ⟮c+;the hue⟯ ⟮c+;will change⟯ ⟮c+;the percieved lightness/brightness⟯, even when ⟮c+;they are supposed to be independent⟯. 
@@ -4018,13 +4018,13 @@ candles|1500-2000K
 
 #### color schemes
 
-⟮c1,15;analogous ⟯|⟮c+;h15-21;Two or more colors that are all next to each other on the color wheel⟯|⟮c+;h8-14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
-⟮c2,16;complementary ⟯|⟮c+;h15-21;Two opposite colors on the color wheel⟯|⟮c+;h8-14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
-⟮c3,17;monochromatic ⟯|⟮c+;h15-21;A single color⟯|⟮c+;h8-14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
-⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c+;h15-21;two pairs of complementary colors ⟯|⟮c+;h8-14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯
-⟮c5,19;split complementary (is a form ⟯|⟮c+;h15-21;A color and the colors adjacent to its complementary ⟯|⟮c+;h8-14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯
-⟮c6,20;tetradic (more specif. square⟯)|⟮c+;h15-21;Four colors equally spaced on the color wheel⟯|⟮c+;h8-14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯
-⟮c7,21;triadic ⟯|⟮c+;h15-21;Three colors equally spaced on the color wheel⟯|⟮c+;h8-14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯
+⟮c1,15;analogous ⟯|⟮c+;h15:21;Two or more colors that are all next to each other on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
+⟮c2,16;complementary ⟯|⟮c+;h15:21;Two opposite colors on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
+⟮c3,17;monochromatic ⟯|⟮c+;h15:21;A single color⟯|⟮c+;h8:14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
+⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c+;h15:21;two pairs of complementary colors ⟯|⟮c+;h8:14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯
+⟮c5,19;split complementary (is a form ⟯|⟮c+;h15:21;A color and the colors adjacent to its complementary ⟯|⟮c+;h8:14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯
+⟮c6,20;tetradic (more specif. square⟯)|⟮c+;h15:21;Four colors equally spaced on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯
+⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯
 
 
 ### blending
@@ -4690,7 +4690,7 @@ piping to `source /dev/stdin` executes the text as a command
 ##### Mac
 
 flex-container:<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">
-⟮c+;macOs⟯'s ⟮c+;/private⟯ folder contains ⟮c+;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1-3;⟮c+;etc⟯, ⟮c+;tmp⟯, and ⟮c+;var⟯⟯
+⟮c+;macOs⟯'s ⟮c+;/private⟯ folder contains ⟮c+;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1:3;⟮c+;etc⟯, ⟮c+;tmp⟯, and ⟮c+;var⟯⟯
 
 ## files
 
@@ -5392,7 +5392,7 @@ If you ⟮c+;change the value of preexisting length keywords with \setlength⟯,
 
 the package ⟮c+;amsmath⟯ contains ⟮c+;a bunch more stuff related to math⟯. 
 the package ⟮c+;mathtools⟯ is ⟮c+;a superset of⟯ ⟮c+;amsmath⟯, and also ⟮c+;fixes some of its bugs⟯ 
-the package ⟮s9-10;⟮c+;amssymb⟯ ⟮c+;adds more math symbols⟯⟯; the package ⟮s7-8;⟮c+;amsthm⟯ ⟮c+;adds more theorem/proof related stuff⟯⟯. ⟮c+;these both⟯ ⟮c+;need to be separately loaded from amsmath/mathtools⟯ if desired. 
+the package ⟮s9:10;⟮c+;amssymb⟯ ⟮c+;adds more math symbols⟯⟯; the package ⟮s7:8;⟮c+;amsthm⟯ ⟮c+;adds more theorem/proof related stuff⟯⟯. ⟮c+;these both⟯ ⟮c+;need to be separately loaded from amsmath/mathtools⟯ if desired. 
 
 ######### environments
 
@@ -5580,7 +5580,7 @@ flex-container:<img src="sm_L5.png">
 When using the ⟮c+;beamer⟯ class, you can use ⟮c+;modes⟯ to ⟮c+;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c+;only do something in a certain mode⟯ ⟮c+;mode⟯⟮c+;&lt;⟯⟮c+;certain_mode⟯⟮c+;&gt;⟯⟮c+;{⟯⟮c+;things to do⟯⟮c+;} ⟯ 
 Latex beamer modes
-onion-box:[all [presentation [⟮c+;s1-2;beamer⟯][⟮c+;s1-2;second⟯][⟮c+;s1-2;handout⟯][⟮c+;s1-2;trans⟯]][⟮c+;article⟯]]
+onion-box:[all [presentation [⟮c+;s1:2;beamer⟯][⟮c+;s1:2;second⟯][⟮c+;s1:2;handout⟯][⟮c+;s1:2;trans⟯]][⟮c+;article⟯]]
 
 ⟮c+;\institute⟯ ⟮c+;sets document institute (e.g. TU Fak. 1⟯) (exclusive to ⟮c+;beamer⟯) 
 
@@ -8717,7 +8717,7 @@ If the ⟮c+;Path⟯ attribute is ⟮c+;specified for a cookie⟯, ⟮c+;browser
 
 ⟮c+;Cookies⟯ that ⟮c+;originate from⟯ ⟮c+;the same domain as the current domain⟯ ⟮h88;(including ⟮c+;subdomains⟯ if ⟮c+;Domain is set⟯) ⟯ are known as ⟮c+;first-party cookies⟯, all others are ⟮c+;third-party cookies⟯. 
 
-⟮c+;Cookies⟯ ⟮c+;used to maintain the state of being logged⟯ in are known as ⟮c+;authentication cookies⟯ (the whole process is known as ⟮s91-93;c94;cookie-based authentication⟯ ) 
+⟮c+;Cookies⟯ ⟮c+;used to maintain the state of being logged⟯ in are known as ⟮c+;authentication cookies⟯ (the whole process is known as ⟮s91:93;c94;cookie-based authentication⟯ ) 
 ⟮c+;Cookies⟯ used to ⟮c+;maintain the state of an unique user⟯ ⟮c+;with whom to associate browser histories⟯ are known as ⟮c+;tracking cookies⟯. 
 
 The ⟮c+;Secure⟯ property of a cookie means ⟮c+;that it is only ever sent over HTTPS⟯. 
@@ -13936,7 +13936,7 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 Python ⟮c+;2⟯ and ⟮c+;3⟯ have ⟮c+;some syntactic differences.⟯ 
 ES2015|ES6
 The rust development cycle has the three release channels ⟮c+;Nightly⟯, ⟮c+;Beta⟯ and ⟮c+;Stable::S...⟯. ⟮sb;⟮c+;Every six weeks⟯ ( = ⟮c+;1 cycle⟯), ⟮c+; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
-Therefore, ⟮s10-12;⟮c+;what is beta now⟯ will be ⟮c+;stable⟯ in ⟮c+;a maximum of 6 weeks⟯⟯, and ⟮s7-9;⟮c+;what is nightly now⟯ will be ⟮c+;stable⟯ in ⟮c+;at most 12 weeks⟯.⟯ 
+Therefore, ⟮s10:12;⟮c+;what is beta now⟯ will be ⟮c+;stable⟯ in ⟮c+;a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮c+;what is nightly now⟯ will be ⟮c+;stable⟯ in ⟮c+;at most 12 weeks⟯.⟯ 
 ⟮c+;Breaking changes (such as reserving new features⟯) can only happen on ⟮c+;the highest rust versioning level⟯, which are ⟮c+;editions⟯. ⟮sb;these are released ⟮c+;about every three years⟯, with the ones in existence as of writing being ⟮c+;2015, 2018, and 2021⟯⟯ 
 
 #### dialects, influence, etc.
@@ -15142,7 +15142,7 @@ tap TAPNAME|add a repository|brew
 
 in ⟮c+;homebrew⟯, a ⟮c+;formula⟯ ⟮c+;describes a package⟯. 
 A ⟮c+;formula⟯ is a ⟮c+;ruby (.rb⟯) file. 
-Each ⟮c+;tap⟯ has ⟮c+;its own list of formulae⟯, which you can find at ⟮s4-5;⟮c+;tap-name/Formula⟯.⟯ 
+Each ⟮c+;tap⟯ has ⟮c+;its own list of formulae⟯, which you can find at ⟮s4:5;⟮c+;tap-name/Formula⟯.⟯ 
 A ⟮c+;formula⟯ contains ⟮c+;the location of the tarball of the source⟯, and  ⟮c+;a script that knows how to build the software from the source⟯. 
 A ⟮c+;precompiled formula⟯ is known as a ⟮c+;bottle⟯. 
 A ⟮c+;cask⟯ is like a ⟮c+;formula⟯, but ⟮c+;it's used to installed native .dmg mac apps instead of cli packages⟯ 

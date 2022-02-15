@@ -711,9 +711,9 @@ Prospective/Retrospective/ø
 Gnomic/anything else
 
 <tr><th colspan="3">Eventive
-span=1;⟮c+;s1-4;Perfective⟯|span=4;⟮c+;s1-4;Imperfective⟯
-|span=2;⟮c+;s1-2;Habitual⟯|span=2;⟮c+;s1-2;Continuous⟯
-|||⟮c+;s3-5;Progressive⟯|⟮c+;s3-5;Stative⟯
+span=1;⟮c+;s1:4;Perfective⟯|span=4;⟮c+;s1:4;Imperfective⟯
+|span=2;⟮c+;s1:2;Habitual⟯|span=2;⟮c+;s1:2;Continuous⟯
+|||⟮c+;s3:5;Progressive⟯|⟮c+;s3:5;Stative⟯
 
 
 Perfective and imperfective aspect together make up the eventive aspect
@@ -1353,8 +1353,8 @@ Free variation is free in the sense that it does not mark a difference in semant
 
 
 table:headerrows=0;style=min-width: 15em;!span=3;⟮c+;σ/syllable⟯
-!⟮c+;s4-5;Onset⟯|span=2;⟮c+;s4-5;Rhyme⟯
-!|⟮c+;s2-3;Nucleus⟯|⟮c+;s2-3;Coda⟯
+!⟮c+;s4:5;Onset⟯|span=2;⟮c+;s4:5;Rhyme⟯
+!|⟮c+;s2:3;Nucleus⟯|⟮c+;s2:3;Coda⟯
 
 The syllable is typically represented by σ.
 Syllables must at least have a nucleus.
@@ -1893,87 +1893,87 @@ Since a dipthong changes from one vowel to another, it may also be called a glid
 <table class="blank-canvas">
 
 </th>
-<th scope="col">⟮c+;s1-10;Front⟯
+<th scope="col">⟮c+;s1:10;Front⟯
 </th>
-<th scope="col">⟮c+;s1-10;Central⟯
+<th scope="col">⟮c+;s1:10;Central⟯
 </th>
-<th scope="col">⟮c+;s1-10;Back⟯
+<th scope="col">⟮c+;s1:10;Back⟯
 
 <tr>
-<th scope="row">⟮c+;s1-10;Close⟯
+<th scope="row">⟮c+;s1:10;Close⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1-10;i⟯</span></div>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1:10;i⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1-10;y⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1-10;ɨ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1:10;y⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1:10;ɨ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1-10;ʉ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1-10;ɯ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1:10;ʉ⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1:10;ɯ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1-10;u⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1:10;u⟯</span></div></div>
 
 <tr>
-<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1-10;Near-close⟯
+<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-close⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1-10;ɪ⟯</span></div>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1:10;ɪ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1-10;ʏ⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1:10;ʏ⟯</span></div></div>
 |
 |<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"><span>⟮c+;s∞;us1-10;ʊ⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"><span>⟮c+;s∞;us1:10;ʊ⟯</span></div></div>
 
 <tr>
-<th scope="row">⟮c+;s1-10;Close-mid⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1-10;e⟯</span></div>
+<th scope="row">⟮c+;s1:10;Close-mid⟯</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1:10;e⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1-10;ø⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1-10;ɘ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1:10;ø⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1:10;ɘ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1-10;ɵ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1-10;ɤ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1:10;ɵ⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1:10;ɤ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1-10;o⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1:10;o⟯</span></div></div>
 
 <tr>
-<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1-10;Mid⟯
+<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Mid⟯
 </th>
 <td>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(25px, 2px); -webkit-transform: translate(25px, 2px); transform: translate(25px, 2px);">⟮c+;s∞;us1-10;ə⟯</div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(25px, 2px); -webkit-transform: translate(25px, 2px); transform: translate(25px, 2px);">⟮c+;s∞;us1:10;ə⟯</div></div>
 |
 
 <tr>
-<th scope="row">⟮c+;s1-10;Open-mid⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1-10;ɛ⟯</span></div>
+<th scope="row">⟮c+;s1:10;Open-mid⟯</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1:10;ɛ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1-10;œ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1-10;ɜ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1:10;œ⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1:10;ɜ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1-10;ɞ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1-10;ʌ⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1:10;ɞ⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1:10;ʌ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1-10;ɔ⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1:10;ɔ⟯</span></div></div>
 
 <tr>
-<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1-10;Near-open⟯
+<th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-open⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"><span>⟮c+;s∞;us1-10;æ⟯</span></div>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"><span>⟮c+;s∞;us1:10;æ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);">•</div>
 <div class="IPA-vowels-container-right" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(46px, -2px); -webkit-transform: translate(46px, -2px); transform: translate(46px, -2px);">⟮c+;s∞;us1-10;ɐ⟯</div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(46px, -2px); -webkit-transform: translate(46px, -2px); transform: translate(46px, -2px);">⟮c+;s∞;us1:10;ɐ⟯</div></div>
 |
 
 <tr>
-<th scope="row">⟮c+;s1-10;Open⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1-10;a⟯</span></div>
+<th scope="row">⟮c+;s1:10;Open⟯</th>
+<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1:10;a⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1-10;ɶ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"><span>⟮c+;s∞;us1-10;ä⟯</span></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1:10;ɶ⟯</span></div></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"><span>⟮c+;s∞;us1:10;ä⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);">•</div>
 <div class="IPA-vowels-container-right" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1-10;ɑ⟯</span></div>
+|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1:10;ɑ⟯</span></div>
 <div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1-10;ɒ⟯</span></div></div>
+<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1:10;ɒ⟯</span></div></div>
 </td></tr></tbody></table>
 <style>
 .IPA-vowels-container-left {
@@ -2972,7 +2972,7 @@ Name|Features
 ⟮c+;kebab case⟯|⟮c+;lowercase text⟯ ⟮c+;separated by hyphens -⟯
 
 ⟮c+;screaming snake case⟯|⟮c+;all caps⟯⟮c+;separated by underscores⟯
-⟮c+;s25-27;alternating caps⟯/⟮c+;s25-27;studly caps⟯/⟮c+;s25-27;SpongeBob caps/case⟯|⟮c+;rAndDOMLy DisTrIBUting CApitAL LEtteRS⟯
+⟮c+;s25:27;alternating caps⟯/⟮c+;s25:27;studly caps⟯/⟮c+;s25:27;SpongeBob caps/case⟯|⟮c+;rAndDOMLy DisTrIBUting CApitAL LEtteRS⟯
 ⟮c+;camel case⟯|⟮c+;words glued together⟯ with ⟮c+;each initial letter capitalized⟯; the ⟮c+;initial letter of the word⟯ ⟮c+;lowercase⟯
 ⟮c+;s35;upper camel case⟯ aka ⟮c+;s34;pascal case⟯|⟮c+;words glued together⟯ with ⟮c+;each initial letter capitalized⟯; the ⟮c+;initial letter of the word⟯ ⟮c+;also uppercase⟯
 
@@ -2983,7 +2983,7 @@ Name|Features
 ⟮c+;Title case⟯ AKA ⟮c+;headline case⟯ is a style of ⟮c+;capitalization⟯ used for ⟮c+;rendering the titles of published works or works of art⟯ in ⟮c+;English⟯. 
 In ⟮c+;title case⟯, ⟮c+;major words (subject to definition⟯) are ⟮c+;capitalized⟯, as are ⟮c+;the first and last word of the title⟯. 
 ⟮c+;Exact rules of capitalization⟯ in ⟮c+;title case⟯ ⟮c+;vary⟯. 
-Most commonly, ⟮c+;most words⟯ are considered ⟮c+;major words⟯ and thus ⟮c+;capitalized⟯, while ⟮s13-14;⟮c+;articles⟯, ⟮c+;conjunctions⟯ and ⟮c+;preposititons⟯ are considered ⟮c+;not major words⟯ and thus ⟮c+;not capitalized⟯ (though ⟮s15-18;⟮c+;some, e.g. the AP Style guide,⟯ recommend capitalizing them if ⟮c+;they are four characters or more) ⟯⟯⟯ 
+Most commonly, ⟮c+;most words⟯ are considered ⟮c+;major words⟯ and thus ⟮c+;capitalized⟯, while ⟮s13:14;⟮c+;articles⟯, ⟮c+;conjunctions⟯ and ⟮c+;preposititons⟯ are considered ⟮c+;not major words⟯ and thus ⟮c+;not capitalized⟯ (though ⟮s15:18;⟮c+;some, e.g. the AP Style guide,⟯ recommend capitalizing them if ⟮c+;they are four characters or more) ⟯⟯⟯ 
 
 #### emoji & emoticons
 

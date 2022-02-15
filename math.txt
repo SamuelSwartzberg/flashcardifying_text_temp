@@ -887,7 +887,7 @@ b^-n = 1/(b^{-1})
 A function/operation/etc. is ⟮c+;idempotent⟯ if ⟮c+;it can be applied mulitple times⟯ without ⟮c+;changing the result⟯ ⟮c+;beyond the initial application⟯. 
 Examples for i⟮c+;dempotent functions⟯ include ⟮c+;abs(x), floor(x), ceil(x) etc.⟯ 
 
-flex-container:⟮h∞;uh6-7;<img src="sm_256-512.png">⟯⟮h∞;uh6-7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯
+flex-container:⟮h∞;uh6:7;<img src="sm_256-512.png">⟯⟮h∞;uh6:7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯
 the ⟮c+;right image⟯'s button is ⟮c+;idempotent⟯, the ⟮c+;left image⟯'s is ⟮c+;not⟯ 
 
 #### commutative
@@ -1002,9 +1002,9 @@ A ⟮c+;statistic⟯ that ⟮c+;is being used to estimate⟯ a ⟮c+;parameter�
 
 #### Types of errors
 
-⟮c+;s5-8;H<sub>0</sub> true⟯|⟮c+;s5-8;H<sub>0</sub> false⟯
-⟮c+;s5-8;reject H<sub>0</sub>⟯|⟮c+;s1-4;Type I error⟯|⟮c+;s1-4;Correct Conclusion⟯
-⟮c+;s5-8;fail to reject H<sub>0</sub>⟯|⟮c+;s1-4;Correct Conclusion⟯|⟮c+;s1-4;Type II error⟯
+⟮c+;s5:8;H<sub>0</sub> true⟯|⟮c+;s5:8;H<sub>0</sub> false⟯
+⟮c+;s5:8;reject H<sub>0</sub>⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
+⟮c+;s5:8;fail to reject H<sub>0</sub>⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
 
 # applied
 
