@@ -6202,6 +6202,7 @@ A newly created repository contains one branch head, master/main.
 ##### creating branches
 
 `git branch` with two arguments A, B creates a new branch A with the commit to start at specified by B.
+`git checkout -b` works the same as git branch with two arguments, but also checks out the new commit.
 
 ##### unifying
 
@@ -6252,20 +6253,32 @@ The default name for a remote is 'origin'.
 remotes are stored in .git/config
 In .git/config, each remote has its own header
 
-##### pushing
+##### pushing, fetching, pulling
+
+things git push/fetch transfers are refs and objects.
+
+
+###### pushing
 
 git push transfers all the information a remote does not yet have but needs of a certain refspec to that remote.
-`git push <repository> <refspec>`
-things git push transfers are refs and objects.
+`git push [<repository> [<refspec>]]`
 If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
 When the command line does not specify what to push with <refspec>... arguments or --all, --mirror, --tags options, the command finds the default <refspec> by consulting remote.*.push (i.e. the push key for the specified remote) configuration, and if it is not found, honors push.default configuration to decide what to push
 
-##### fetching
+###### fetching
+
+`git fetch [<repository> [<refspec>]]`
+If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
+
 
 ##### remote tracking branches
 
-A (remote) tracking branch someremote/foo is a local copy of the foo branch on the remote, possibly as distinct from the truly local foo branch.
+A remote tracking branch someremote/foo is a local copy of the foo branch on the remote, possibly as distinct from the truly local foo branch.
 to list remote tracking branches, use `git branch --remotes`
+remote tracking branches are named `<remote>/<branch>`
+A tracking branch is a local branch that is directly related to a remote tracking branch.
+The remote tracking branch of a tracking branch is called the upstream branch.
+Establishing a new tracking branch can be done by creating a new local branch for a remote tracking branch e.g. via `git checkout -b newLocalBranch <remote>/<branch>`, for which the shorthand `git checkout --track <remote>/<branch>` exists.
 
 ##### refspec
 
