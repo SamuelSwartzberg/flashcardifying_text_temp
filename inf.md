@@ -5217,10 +5217,10 @@ preformatted text that is to be presented exactly as written||<pre>
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
 
-strike is similar to <s>, but obsolete
-<tt> used to indicate teletype text, but is now obsolete
-<big> used to indicate big text, but is now obsolete; however <small> still works.
-<center> used to indicate centered text but is now obsolete
+strike is similar to &lt;s>, but obsolete
+&lt;tt> used to indicate teletype text, but is now obsolete
+&lt;big> used to indicate big text, but is now obsolete; however &lt;small> still works.
+&lt;center> used to indicate centered text but is now obsolete
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
@@ -5252,7 +5252,7 @@ nested blockquotes| `>>` or `> > `(space after > to begin blockquotes is optiona
 Pandoc md is a superset of most other markdown flavors
 Pandoc md defaults to tilde-delimited code blocks.
 In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} <title> [\{{<class>|<id>|...}\}]
+pandoc-md-heading ::= #{#} &lt;title> [\{{<class>|<id>|...}\}]
 
 
 RTF|Rich Text Format
@@ -5943,7 +5943,7 @@ description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
 $id|base url for the document, similar to <base> in HTML
 
-$ref allows you to refer to another schema to implement the element, rather than definining it here, by passing a JSON pointer.
+\$ref allows you to refer to another schema to implement the element, rather than definining it here, by passing a JSON pointer.
 format|force string to have specific format (e.g. ISO 8061)
 format: date|time|datet-time|force string to be a valid date, time or datetime
 enum|specify an enum of allowed values 
@@ -6084,19 +6084,32 @@ Most commonly in a VCS, a repository contains all the files and folders of the p
 
 ### git 
 
-Git is a VCS.
+Git is a VCS, but really isn't.
+Git is fundamentally a content-addressable filesystem with a VCS user interface written on top of it.
+Git is a content-addressable filesystem in that it fundamentally indexes files by hash keys.
 
 #### objects
 
 Objects are the various things git has.
 Objects in git are stored in .git/objects
+files in .git/objects are further sorted into subdirectories with the first 2 characters of their hash, with the contained file names having the leftover 38 characters.
 Git objects are text files.
 git objects have their hashes as their names, allowing them to easily be referenced.
 git objects are commits, trees, blobs and annotated tags.
 
+##### inspecting
+
+the `git cat-file` command is the swiss army knife for inspecting git objects.
+
+-p|Pretty-print the contents of &lt;object> based on its type. (can be used to retrieve the file from the store)
+-t|Instead of the content, show the object type identified by &lt;object>.
+
 ##### hashes
 
 hashes can be abbreviated to their first n characters, as long as those are unique.
+the command `git hash-object` takes some data and returns the hash git would hash it with.
+If you use the flag -w, `git hash-object` actually writes the file to .git/objects and returns the hash.
+The type of hash git uses is a 40-character SHA-1 hash
 
 ##### commits
 
@@ -6105,7 +6118,7 @@ A commit is an object consisting of a few metadata.
 Across different VCSs, a commit may be associated a snapshot (a copy of the file) or a diff, though git chooses a snapshot (contrary to what I thought)
 The commit object has its hash as its name.
 A commit consists of a hash of the tree, a hash of the parent commit, author, committer, date, and message.
-Running `git commit` adds a new commit.
+Running `git commit` adds a new commit with the files in the staging area.
 
 ##### trees
 
@@ -6129,6 +6142,9 @@ the HEAD is a pointer to the currently checked out commit/branch head.
 You are in detatched HEAD state is when your HEAD is pointing directly to a commit.
 checking out a commit/branch moving the HEAD to that commit/branch head.
 the command to check out a commit/branch head is `git checkout`.
+the newer porcelain command to check out a branch head is `git switch`.
+the HEAD is implemeted by storing the hash of the commit or the file for the branch header (i.e. refs/head/whatever) we're pointing to in .git/HEAD 
+HEAD may also often be used as a keyword for git commands.
 
 #### repository
 
@@ -6139,16 +6155,37 @@ The staging area is a directory listing containing the hashes of all staged file
 The staging area is implemented by a single file, .git/index.
 `git add` stages a file.
 git status tells us about our working directory and staging area.
-If you changed a file, it's unchanged 
+The staging area is not emptied by committing! But after commiting, there is no difference between the staging area and the working directory
+If you changed a file, it's unchanged version will be living in the staging area, while its `modified` version will be living in the working directory. To make it part of the staging area, you need to `git add`.
 
 ##### tracked and untracked files
 
 At the beginning of a git repository, all files are untracked.
 All files that have been `git add`ed at some point become tracked files.
 
+##### .gitignore
+
+there is also a per-clone version of the gitignore in form of the .git/info/exclude file.
+Patterns which a user wants Git to ignore in all situations (e.g., backup or temporary files generated by the user’s editor of choice) generally go into a file specified by core.excludesFile in the user’s ~/.gitconfig. Its default value is $XDG_CONFIG_HOME/git/ignore. If $XDG_CONFIG_HOME is either not set or empty, $HOME/.config/git/ignore is used instead.
+
+By default, any line in a gitignore contains one pattern to ignore.
+If a line is prefixed by !, a line in a gitignore instead contains a pattern to reinclude. 
+
+##### creating a new repository
+
+`git init` creates a new repository by creating the repository directory.
+
+
+
 #### commit history
 
-git log shows a set of commits of the commit hisotry.
+git log shows a set of commits of the commit history.
+`git reset` can be used to reset your HEAD to the specified past commit.
+git reset moves the HEAD/branch heads to the specified commit, as well as the staging area, but does not modify the working area.
+
+##### retrieval
+
+`git checkout <commit> <filename>` retrieves the file <filename> as of commit <commmit>
 
 #### branches
 
@@ -6156,10 +6193,15 @@ branches split the linear relationship of the commit history.
 In git, a branch merely consists of a branch head.
 A branch head is a pointer to the commit at the tip of the branch.
 git stores branch heads as files in .git/refs/head
+Each file in .git/refs/head, i.e. each branch head contains the hash of a commit.
 A branch can be kept track of by only a branch head since every commit has the hash of the previous commit.
-When we create a new branch, git creates a new branch head pointing to the current commit.
+When we create a new branch, git creates a new branch head pointing to the specified commit.
 `git branch` without arguments lists the current branch heads.
 A newly created repository contains one branch head, master/main.
+
+##### creating branches
+
+`git branch` with two arguments A, B creates a new branch A with the commit to start at specified by B.
 
 ##### unifying
 
@@ -6185,9 +6227,64 @@ To abort a maerge during a merge conflict: git merge --abort
 
 Rebasing in git is taking the changes from somewhere (e.g. a branch) and applying them on another branch as if the changes had been made there originally
 
+#### rev-parse
+
+the suffixes ~<n> and ^<n> are for moving back in the tree of commits.
+~<n> goes n commits back into the history
+~0 = this commit, ~1 = parent commit, etc. 
+~ is an alias for ~1
+^<n> selects the nth parent commit sibling if there are multiple.
+^1 = ~1, ^2 is the second commit of a merge commit, etc.
+
+#### plumbing and porcelain
+
+Git has two kinds of commands, plumbing and porcelain.
+Git's plumbing commands are older and more low-level.
+Git's porcelain commands are newer and more high-level.
+
 #### remotes
 
+Remotes are ⁑links to⁑ other git repositories. (!)
+Remotes may be on the same device, or other devices (e.g. online).
+The default name for a remote is 'origin'.
+`git remote` is used to administer remotes.
+`git remote add foo bar` adds a new remote to the current repository, where foo is the name we will call this remote, and bar is its URL.
+remotes are stored in .git/config
+In .git/config, each remote has its own header
+
+##### pushing
+
+git push transfers all the information a remote does not yet have but needs of a certain refspec to that remote.
+`git push <repository> <refspec>`
+things git push transfers are refs and objects.
+If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
+When the command line does not specify what to push with <refspec>... arguments or --all, --mirror, --tags options, the command finds the default <refspec> by consulting remote.*.push (i.e. the push key for the specified remote) configuration, and if it is not found, honors push.default configuration to decide what to push
+
+##### fetching
+
+##### remote tracking branches
+
+A (remote) tracking branch someremote/foo is a local copy of the foo branch on the remote, possibly as distinct from the truly local foo branch.
+to list remote tracking branches, use `git branch --remotes`
+
+##### refspec
+
+A refspec tells git how to map references from a remote to the local repo.
+refspec-format ::= [+]<src>:<dst>
+<src> in a refspec is the pattern for references on the remote side
+<dst> in a refspec is the pattern for references on the local side
+If a plus is included in a refspec, it tells git should update even if it isn't a fast-forward 
+Default refspecs for pushing and fetching for each remote are established in the remote entry in the config file.
+
+##### cloning
+
+`git clone` creates a new directory containing a copy of a remote repository, setting up remote tracking branches for each branch of the remote repository.
+
 #### config
+
+per-repository config for git is stored in the .git/config file.
+Global git config is stored in the .gitconfig or the ~/.config/git/config file.
+Git config files are ini-likes
 
 #### tags
 
