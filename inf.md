@@ -748,7 +748,8 @@ using style props, we can also define 'states'. (not called that, this is my ter
 style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
 style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
 e.g. _hover={{ fontWeight: 'semibold' }}
-⟮h∞;<img src="sm_2021-09-17--19-05-46-screenshot.jpg">⟯
+flex-container:<img src="sm_2021-09-17--19-05-46-screenshot.jpg">
+
 ⟮c+;chakra⟯ provides some ⟮c+;predefined shadows⟯ as style props with ⟮c+;boxShadow⟯⟮c+;="name"⟯
 
 the sx prop is an escape hatch to CSS when style props are not enough.
@@ -3616,7 +3617,8 @@ The viewport is the area (often rectangular) of a given thing that is currenty v
 
 #### theming
 
-⟮h∞;<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">⟯
+flex-container:<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">
+
 A ⟮c+;s2;theme⟯ or ⟮c+;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c+;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮c+;the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
@@ -3651,7 +3653,8 @@ dmenu/rofi/choose output the selected item to stdout
 
 ######## command palette / quick open menu
 
-⟮h∞;<img src="Screenshot%202021-12-09%20at%2003.12.09.png">⟯
+flex-container:<img src="Screenshot%202021-12-09%20at%2003.12.09.png">
+
 A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
 A quick open menu is a text-based fuzzily searchable menu containing navigation items.
 Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
@@ -3677,7 +3680,8 @@ Shortcut to open command palette|Platform
 
 ####### context menu
 
-⟮h∞;<img src="Menu_key_screen.jpg"><img src="Context_menu_windows.png"><img src="Context_Menu_on_OS_X_10.9.png">⟯
+flex-container:<img src="Menu_key_screen.jpg"><img src="Context_menu_windows.png"><img src="Context_Menu_on_OS_X_10.9.png">
+
 A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
 
 ###### ambiguous
@@ -3814,7 +3818,8 @@ A ⟮c+;popover⟯ is a element/component that usually ⟮c+;appears⟯ when ⟮
 
 ##### list box
 
-⟮h∞;<img src="1-final-listbox-matrix"><img src="List_example.PNG"><img src="ctrl-list-boxes-image1.png">⟯
+flex-container:<img src="1-final-listbox-matrix"><img src="List_example.PNG"><img src="ctrl-list-boxes-image1.png">
+
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
 ##### corners
@@ -3825,7 +3830,8 @@ A listbox (or list box) is a UI element that contains a list of values within a 
 
 ##### dropdown list/menu
 
-⟮h∞;<img src="1y2NriILZC8ujowKW4TWb2Q.png"><img src="dropdown-example.jpg"><img src="3-final-sidebyside-dropdowns">⟯
+flex-container:<img src="1y2NriILZC8ujowKW4TWb2Q.png"><img src="dropdown-example.jpg"><img src="3-final-sidebyside-dropdowns">
+
 dropdown is short for dropdown list/menu
 A dropwdown is a UI element that consists of ⟮c+;a box⟯ and ⟮c+;a downward arrow⟯ that ⟮c+;one can interact with⟯ to ⟮c+;show a list of options⟯, ⟮c+;exactly one of which⟯ can be ⟮c+;selected⟯. Often, larger ones will ⟮c+;scroll⟯.
 
@@ -4061,12 +4067,14 @@ transparency/opacity|visibility
 
 ## design
 
-⟮h∞;<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg"><img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg"><img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg"><img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">⟯
+flex-container:<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg"><img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg"><img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg"><img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">
+
 It is often said (esp. in animation) that ⟮c+;good characters⟯ should ⟮c+;be recognizable by⟯ ⟮c+;their silhouette alone⟯ 
 
 
 flex-container:<img src="sm_faces1.gif">
-⟮h∞;<img src="sm_1280px-FedEx_Corporation_logo.svg.png">⟯
+flex-container:<img src="sm_1280px-FedEx_Corporation_logo.svg.png">
+
 <img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
 ⟮c+;Positive space⟯ is ⟮c+;the area with subjects/areas of focus⟯
 In the image, if ⟮c+;you see a vase⟯, the ⟮c+;black space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;white space⟯ is the ⟮c+;positive space⟯
@@ -4318,7 +4326,8 @@ as of 2020, HDDs are typically a few TB in size.
 a HDD is made up of clusters which are made up of sectors.
 A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
 
-⟮h∞;<img src="sm_cyl_head_sect_dia.svg">⟯
+flex-container:<img src="sm_cyl_head_sect_dia.svg">
+
 HDDs originally used a form of physical addressing known as CHS.
 CHS = Cylinder Head Sector
 CHS used the head, cylinder and sector (like coordinates) to specify a memory location.
@@ -4436,7 +4445,8 @@ a file manager/browser is a program that provides an user interface for managing
 mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
-⟮h∞;<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">⟯
+flex-container:<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">
+
 For ⟮c+;Finder⟯, ⟮c+;whenever you search anything in the top right bar⟯, ⟮c+;a Searching/Find window opens⟯. ⟮hb;To ⟮c+;add filters to the search⟯, ⟮c+;click the small plus in the top right corner⟯. ⟮hb;You can use this to search ⟮c+;pretty much any of the files properties⟯ with ⟮c+;fine granularity⟯.⟯⟯ 
 
 ##### information
@@ -4679,7 +4689,8 @@ piping to `source /dev/stdin` executes the text as a command
 
 ##### Mac
 
-⟮h∞;<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">⟯⟮c+;macOs⟯'s ⟮c+;/private⟯ folder contains ⟮c+;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1-3;⟮c+;etc⟯, ⟮c+;tmp⟯, and ⟮c+;var⟯⟯
+flex-container:<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">
+⟮c+;macOs⟯'s ⟮c+;/private⟯ folder contains ⟮c+;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1-3;⟮c+;etc⟯, ⟮c+;tmp⟯, and ⟮c+;var⟯⟯
 
 ## files
 
@@ -4976,7 +4987,8 @@ input-output-options
 
 ####### types
 
-⟮h∞;<img src="1280px-VectorBitmapExample.svg.png">⟯
+flex-container:<img src="1280px-VectorBitmapExample.svg.png">
+
 Vector images/graphics are images created directly from geometric shapes.
 Vector images are contrasted wtih raster images/graphics.
 Raster images are images created from a matrix/grid of square pixels. 
@@ -5415,7 +5427,8 @@ In ⟮c+;the autobreak environment⟯, ⟮c+;any newline⟯ is treated as ⟮c+;
 ⟮c+;proof⟯ provides ⟮c+;an environments for proofs⟯ 
 the ⟮c+;cases environment⟯ renders ⟮c+;multiple lines⟯ with ⟮c+;an extensible left curly-brace⟯ for ⟮c+;piecewise-defined functions⟯ 
 
-⟮h∞;<img src="sm_CkJlF.png">⟯
+flex-container:<img src="sm_CkJlF.png">
+
 
 
 ######### newtheorem
@@ -5561,7 +5574,8 @@ The kind of themes that latex presentations can have are ⟮c+;presentation⟯, 
 ⟮c+;\only⟯⟮c+;&lt;overlay-spec&gt;{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides⟯ 
 ⟮c+;\uncover⟯⟮c+;&lt;overlay-spec&gt;{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides,⟯ but ⟮c+;still take up space on the other slides⟯&nbsp;
 
-⟮h∞;<img src="sm_L5.png">⟯
+flex-container:<img src="sm_L5.png">
+
 
 When using the ⟮c+;beamer⟯ class, you can use ⟮c+;modes⟯ to ⟮c+;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
 Command to ⟮c+;only do something in a certain mode⟯ ⟮c+;mode⟯⟮c+;&lt;⟯⟮c+;certain_mode⟯⟮c+;&gt;⟯⟮c+;{⟯⟮c+;things to do⟯⟮c+;} ⟯ 
@@ -6343,7 +6357,8 @@ If you refer to an issue with ⟮c+;#number⟯ and a word such ⟮c+;as closes, 
 
 ### electrical connectors
 
-⟮h∞;<img src="Connectors.jpg"><img src="1280px-ConnectorSymbols.svg.png">⟯
+flex-container:<img src="Connectors.jpg"><img src="1280px-ConnectorSymbols.svg.png">
+
 
 
 An ⟮c+;electrical connector⟯ is a device that ⟮c+;joins electric conductors⟯ ⟮c+;mechanically⟯ and ⟮c+;electrically⟯.
@@ -6362,7 +6377,8 @@ A ⟮c+;terminal⟯ is ⟮c+;the point where a conductor ends⟯. It may be ⟮c
 A transistor has three terminals.
 In a transistor, if you apply power to two certain terminals, power can flow through two other terminals. (of course, between both of the sets of the terminals, one will be the same.
 
-⟮h∞;<img src="sm_transistor-current-explanation.png">⟯
+flex-container:<img src="sm_transistor-current-explanation.png">
+
 BJT  Bipolar junction transistor
 The three terminals in a bipolar transistor are called ⟮c+;base⟯, ⟮c+;collector⟯, and ⟮c+;emitter⟯.
 BJT are either PNP or NPN.
@@ -6730,7 +6746,8 @@ Authentication is proving one's identity.
 
 ### nonce
 
-⟮h∞;<img src="300px-Replay_attack_on_hash.svg.png">⟯Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
+flex-container:<img src="300px-Replay_attack_on_hash.svg.png">
+Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
 ### challenge-response
 
@@ -8141,10 +8158,12 @@ A login session starts when a user logs in and ends when a user logs out or the 
 
 ### proxy
 
-⟮h∞;<img src="Proxy_concept_en.svg">⟯
+flex-container:<img src="Proxy_concept_en.svg">
+
 A ⟮c+;proxy (server)⟯ is a ⟮c+;server/server application⟯ that ⟮c+;acts as an intermediary between⟯ ⟮c+;a client requesting a resource⟯ and ⟮c+;the server providing that resource.⟯
 A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
-⟮h∞;<img src="Reverse_proxy_h2g2bob.svg">⟯
+flex-container:<img src="Reverse_proxy_h2g2bob.svg">
+
 Reverse proxies are sometimes called surrogates or gateways.
 
 ### directions
@@ -8662,7 +8681,8 @@ There's no ⟮c+;built-in/non-hacky way⟯ in ⟮c+;HTTP⟯ to ⟮c+;notify a cl
 ⟮c+;Cache busting⟯ sets ⟮c+;the longest possible max-age⟯ on resources, and if ⟮c+;there are changes⟯, it ⟮c+;renames the file in some way (e.g. a hash suffix⟯), which ⟮c+;forces the browser to redownload⟯. 
 ⟮c+;Cache busting⟯ is generally done by ⟮c+;build tools such as Webpack automatically⟯ 
 
-⟮h∞;<img src="sm_tmpyvxwccqz.png">⟯
+flex-container:<img src="sm_tmpyvxwccqz.png">
+
 
 
 ######### cookies
@@ -8957,7 +8977,8 @@ The ⟮c+;hop⟯ count is thus a rough measure of ⟮c+;distance between devices
 
 ####### address space
 
-⟮h∞;<img src="1024px-Regional_Internet_Registries_world_map.svg.png">⟯
+flex-container:<img src="1024px-Regional_Internet_Registries_world_map.svg.png">
+
 RIR = Regional Internet Registry
 NRO = Number Resource Organization
 There are 5 RIRs.
@@ -9240,7 +9261,8 @@ electrical telegraph is often just shortened to telegraph.
 The electrical telegraph uses electrical pulses as a medium.
 Telegraph stations were connected by wires.
 The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
-⟮h∞;<img src="morse-vail-telegraph-key-1844-science-source.jpg">⟯A ⟮c+;telegraph key⟯ was/is a electrical switch where ⟮c+;pressing it⟯ would ⟮c+;produce a signal⟯ (and ⟮c+;holding it⟯ would ⟮c+;produce a longer one⟯).
+flex-container:<img src="morse-vail-telegraph-key-1844-science-source.jpg">
+A ⟮c+;telegraph key⟯ was/is a electrical switch where ⟮c+;pressing it⟯ would ⟮c+;produce a signal⟯ (and ⟮c+;holding it⟯ would ⟮c+;produce a longer one⟯).
 The telegraph sounder would have produced clicks from the electrical impulses.
 Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
 
@@ -13358,7 +13380,8 @@ React Native|HTML
 onChangeText|event when text is changed
 onSubmitEditing|event when text is submitted
 
-⟮h∞;<img src="sm_2021-09-16--16-10-01-screenshot.png"><img src="sm_2021-09-16--16-08-57-screenshot.png">⟯
+flex-container:<img src="sm_2021-09-16--16-10-01-screenshot.png"><img src="sm_2021-09-16--16-08-57-screenshot.png">
+
 A list with ⟮c+;sections/headings⟯ should probably use the ⟮c+;&lt;SectionList&gt;⟯ component
 A list with ⟮c+;no sections/headings⟯ should probably use the ⟮c+;&lt;FlatList&gt;⟯ component
 
@@ -14618,14 +14641,16 @@ to ⟮c+;hide the DOM node you have focused⟯ in devtools, press ⟮c+;h⟯
 to edit the ⟮c+;attributes⟯/⟮c+;node type⟯ of a node while in devtools, press ⟮c+;enter⟯ and then ⟮c+;tab/shift tab around⟯ 
 Chrome's devtools feature an ⟮c+;element picker⟯, which can be toggled with ⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦C⟧⟯ 
 to have an ⟮c+;element that you select in your devtools be visible in your browser window⟯, ⟮c+;right-click⟯ and then ⟮c+;click <q>scroll into view</q>⟯ 
-⟮h∞;<img src="FBb3y3CzDXA5P0sNEuyd.png">⟯
+flex-container:<img src="FBb3y3CzDXA5P0sNEuyd.png">
+
 
 ##### styles tab
 
 ⟮c+;navigate through⟯ ⟮c+;style declarations⟯ and ⟮c+;selectors⟯ in the styles panel with ⟮c+;tab/shift-tab⟯ 
 ⟮c+;control-clicking⟯ a ⟮c+;style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮c+;goes to the line where it was declared⟯ 
 ⟮c+;shift-clicking⟯ ⟮c+;the box next to a color⟯ in the styles panel devtools ⟮c+;changes its color representation (RGB, HSLA, etc.⟯) 
-⟮h∞;<img src="sm_2021-09-16--17-43-33-screenshot.jpg">⟯
+flex-container:<img src="sm_2021-09-16--17-43-33-screenshot.jpg">
+
 
 ##### elements+styles tab
 
@@ -14873,7 +14898,8 @@ flex-container:<img src="sm_220px-BankAccount1.svg.jpg">
 
 #### sequence
 
-⟮h∞;<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">⟯
+flex-container:<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">
+
 
 A sequencie diagram is an UML diagram showing object interactions as time flows.
 In a sequene diagram, the lifelines go from the objects downwards.

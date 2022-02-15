@@ -967,7 +967,8 @@ min    ┏━━━━━┳━━━━━┓    max
 
 All the same: (confound|lurk)(er|ing (variable|factor))
 
-⟮h∞;<img src="sm_1000px-Simple_Confounding_Case.svg.jpg">⟯
+flex-container:<img src="sm_1000px-Simple_Confounding_Case.svg.jpg">
+
 am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
 A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
 Correlation is a statistical relationship between two random variables, whether causal or not.
@@ -1171,7 +1172,8 @@ cup falls out of the nice logic of gallons, quarts, etc., one (us customary) cup
 
 ## pareto principle
 
-⟮h∞;<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png"><img src="Pareto_principle.png">⟯
+flex-container:<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png"><img src="Pareto_principle.png">
+
 
 The ⟮c+;pareto distribution⟯ is a ⟮c+; (family of) probability distributions⟯ that applies to a large set of ⟮c+;natural⟯ and ⟮c+;social⟯ phenomena. 
 A well-known ⟮s1;pareto distribution⟯ with ⟮c+;a specific parameter⟯ reflects the idea that ⟮c+;80% of outcomes are due to 20% of causes⟯, which has become known as ⟮c+;the pareto principle⟯ (Aka ⟮c+;the law of the vital few⟯, ⟮c+;the principle of factor sparsity⟯). 

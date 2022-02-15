@@ -316,7 +316,8 @@ Country|TFR
 
 #### japan
 
-⟮h∞;<img src="821361.png">⟯
+flex-container:<img src="821361.png">
+
 In japan, ⟮c+;extramarital birth⟯ is ⟮c+;extremely rare⟯ 
 In japan, marriages as of 2020 occurr ⟮c+;Less and later⟯ 
 Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
@@ -413,7 +414,8 @@ Over the times, corollaries, such as "Data ⟮c+;expands to fill the space avail
 
 ### overton window
 
-⟮h∞;<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">⟯⟮c+;The overton window⟯ is the concept that there is ⟮c+;a range of ideas/policies⟯ that are ⟮c+;acceptable⟯ at ⟮c+;any given time⟯, which then ⟮c+;determines the acceptability/radicalness of other ideas⟯ ⟮c+;in relation to it⟯. 
+flex-container:<img src="sm_paste-d320cd7f7b28b6755889aacc46fa08635d6a2262.jpg">
+⟮c+;The overton window⟯ is the concept that there is ⟮c+;a range of ideas/policies⟯ that are ⟮c+;acceptable⟯ at ⟮c+;any given time⟯, which then ⟮c+;determines the acceptability/radicalness of other ideas⟯ ⟮c+;in relation to it⟯. 
 In the overton window concept, everything ⟮c+;inside the window⟯ is considered to be ⟮c+;acceptable/reasonable/sensible⟯ 
 In the overton window concept, everything ⟮c+;outside the window⟯ is considered to be ⟮c+;radical/unthinkable⟯ 
 ⟮c+;Introducing radical ideas⟯ ⟮c+;shifts the overton windon into that direction⟯. 
@@ -421,7 +423,8 @@ To make something ⟮c+;viable/actual policy⟯, first ⟮c+;the overton window�
 
 ### horseshoe theory
 
-⟮h∞;<img src="polspechorse.svg">⟯
+flex-container:<img src="polspechorse.svg">
+
 Proponents of ⟮c+;horseshoe⟯ theory argue that the ⟮c+;extreme left⟯ and the ⟮c+;extreme right⟯ are ⟮c+;closer to each other than either is to the political center.⟯  
 ⟮c+;Horseshoe⟯ theory is probably mostly ridiculous, since it's may generally be ⟮c+;centrists⟯ who ⟮c+;easily become swayed to support the rise of fascism⟯ 
 
@@ -484,7 +487,8 @@ A ⟮c+;Pamphlet war⟯ was a ⟮c+;protracted argument or discussion⟯ through
 
 ### structure
 
-⟮h∞;<img src="sm_2021-06-27--09-51-54-screenshot.jpg">⟯Someone ⟮c+;doing something⟯ defined as ⟮c+;the intended result⟯ of ⟮c+;an ad or similar⟯ is known as a ⟮c+;conversion⟯. 
+flex-container:<img src="sm_2021-06-27--09-51-54-screenshot.jpg">
+Someone ⟮c+;doing something⟯ defined as ⟮c+;the intended result⟯ of ⟮c+;an ad or similar⟯ is known as a ⟮c+;conversion⟯. 
 ⟮c+;A purchase, a click on a certain thing, subscribing to a newsletter⟯ might all be ⟮c+;Conversions⟯ 
 The ⟮c+;conversion rate⟯ measures ⟮c+;conversions⟯ per ⟮c+;site visitor (or similar⟯) 
 A ⟮c+;sales/conversion funnel⟯ is the process where you repeatedly ⟮c+;reduce the users options⟯ until ⟮c+;a conversion⟯. 
@@ -654,7 +658,8 @@ The ⟮c+;death of the author⟯ pushes back against the idea of ⟮c+;authorial
 
 #### hermeneutic circle
 
-⟮h∞;<img src="image7.jpg">⟯The ⟮c+;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c+;understanding⟯ of ⟮c+;a text/thing⟯ consists of ⟮c+;moving between⟯ ⟮c+;two things/states⟯. 
+flex-container:<img src="image7.jpg">
+The ⟮c+;hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮c+;understanding⟯ of ⟮c+;a text/thing⟯ consists of ⟮c+;moving between⟯ ⟮c+;two things/states⟯. 
 In the hermeneutic circle, ⟮c+;moving between the two states⟯ ⟮c+;deepens or at least changes⟯ our ⟮c+;understanding⟯. 
 For the hermeneutic circle, since ⟮c+;our understanding at either step⟯ is ⟮c+;never exactly the same⟯ ("⟮c+;No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮c+;spiral⟯. 
 ⟮c+;hermeneutic circle⟯|⟮c+;gadamer⟯|⟮c+;what I expect the text to say/something to be⟯|⟮c+;what I read in the text/experience something to be⟯
@@ -850,7 +855,8 @@ Examples of ⟮c+;litotes⟯ include ⟮c+;<q>not bad</q>; <q>no small task</q>;
 
 #### gleaming star
 
-⟮h∞;<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif"><img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg"><img src="sm_nicegai.jpg"><img src="sm_1000.jpg"><img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">⟯⟮c+;Shining or gleaming⟯ is often represented by ⟮c+;a four- or eight-pointed long-ish star⟯, where ⟮c+;the angles between all lines⟯ are ⟮c+;generally equal⟯. 
+flex-container:<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif"><img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg"><img src="sm_nicegai.jpg"><img src="sm_1000.jpg"><img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">
+⟮c+;Shining or gleaming⟯ is often represented by ⟮c+;a four- or eight-pointed long-ish star⟯, where ⟮c+;the angles between all lines⟯ are ⟮c+;generally equal⟯. 
 The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c+;&lt;image&gt;⟯ 
 If there are ⟮c+;many small lights⟯, often ⟮c+;a large amount of  4/8p long-ish stars⟯ are used, whose ⟮c+;lines⟯ are ⟮c+;often (though not always⟯) then ⟮c+;parallel⟯ 
 When using the ⟮c+;eight-point version⟯ of the slender gleaming star, ⟮c+;the second set of four points/lines⟯ are ⟮c+;generally smaller⟯ 
@@ -915,7 +921,8 @@ In fountain, you can indicate ⟮c+;scene numbers⟯ by ⟮c+;wrapping them in #
 
 ###### transitions
 
-⟮h∞;<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">⟯
+flex-container:<img src="6a0105358b73d4970c0133f551c0ae970b-pi.jpg">
+
 
 In screenplays, ⟮c+;transitions⟯ are in  ⟮c+;all caps⟯ and ⟮c+;right-aligned⟯.
 In fountain, a ⟮c+;transition⟯ must be ⟮c+;separated from other content⟯ by ⟮c+;blank lines⟯, and end ⟮c+;TO: (unless forced⟯) 
@@ -1466,7 +1473,8 @@ Era|Start|End
 
 ##### politics
 
-⟮h∞;<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">⟯⟮c+;小泉純一郎⟯ served as ⟮c+;Japan's prime minister⟯ from ⟮c+;2001⟯ to ⟮c+;2006⟯, coming in with an image of a ⟮c+;maverick⟯
+flex-container:<img src="sm_220px-Junichiro_Koizumi_20010426.jpg">
+⟮c+;小泉純一郎⟯ served as ⟮c+;Japan's prime minister⟯ from ⟮c+;2001⟯ to ⟮c+;2006⟯, coming in with an image of a ⟮c+;maverick⟯
 
 <h2>
   ⟮c+;uh∞;Non-LDP goverments in Japan⟯ since ⟮c+;uh∞;1948⟯:
@@ -1520,7 +1528,8 @@ The main problem with the ⟮c+;　靖国神社（やすくにじんじゃ）⟯
 
 #### population
 
-⟮h∞;<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg"><img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg"><img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg"><img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">⟯⟮c+;　日系（にっけい）⟯ literally means ⟮c+;of japanese descent⟯, though it can also be an abbreviation of ⟮c+;　日系人（にっけいじん）⟯ 
+flex-container:<img src="sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg"><img src="sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg"><img src="sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg"><img src="sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg">
+⟮c+;　日系（にっけい）⟯ literally means ⟮c+;of japanese descent⟯, though it can also be an abbreviation of ⟮c+;　日系人（にっけいじん）⟯ 
 ⟮c+;　日系人（にっけいじん）⟯ refers to  ⟮c+;japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
 The ⟮c+;largest amount⟯ of ⟮c+;日系（人）⟯ is in ⟮c+;Brazil⟯ 
 
@@ -1804,7 +1813,8 @@ separate ⟮c+;things that can affect an individual⟯ into categories. these ar
 
 ### panopticon
 
-⟮h∞;<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg"><img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">⟯
+flex-container:<img src="sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg"><img src="sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg">
+
 
 
 the word ⟮c+;panoptic⟯ means ⟮c+;all-seeing⟯
@@ -2290,7 +2300,8 @@ name|image
 
 #### Hands
 
-⟮h∞;<img src="sm_240px-Human-Hands-Front-Back.jpg">⟯
+flex-container:<img src="sm_240px-Human-Hands-Front-Back.jpg">
+
 
 
 Name|Description of side of hand
@@ -2484,7 +2495,8 @@ Our brain ⟮c+;interpolates⟯ ⟮c+;the blind spot⟯ and ⟮c+;fills it in⟯
 The ⟮c+;retina⟯ is the  tissue ⟮c+;covering⟯ much of ⟮c+;the inner part of the eye⟯ and ⟮c+;transforms⟯ ⟮c+;light⟯ into ⟮c+;neural signals⟯ via ⟮c+;the photoreceptor cells⟯ ⟮c+;contained within⟯. 
 ⟮c+;Photoreceptor cells⟯ ⟮c+;transform light into biological signals.⟯ 
 
-⟮h∞;<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">⟯
+flex-container:<img src="sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg">
+
 
 The ⟮c+;anterior chamber of the eyeball⟯ lies ⟮c+;between⟯ ⟮c+;the cornea⟯ and ⟮c+;the iris/pupil⟯ 
 The ⟮c+;posterior chamber of the eyeball⟯ is ⟮c+;the narrow space between⟯ ⟮c+;the iris⟯ and ⟮c+;the suspensory ligament of the lens⟯ 
@@ -2538,7 +2550,8 @@ Most ⟮c+;mainstream eye makeup tutorials⟯ require ⟮c+;a bunch of lid space
 
 ###### deep-set/protruding
 
-⟮h∞;<img src="sm_IMG_20200727_135717135.jpg">⟯
+flex-container:<img src="sm_IMG_20200727_135717135.jpg">
+
 <br>Viewed from ⟮c+;the side⟯, eyes exist on a spectrum from ⟮c+;deep-set⟯ to ⟮c+;protruding⟯ 
 The ⟮c+;deep-set ... protruding⟯ eyes continuum refers to how ⟮c+;far back or front⟯ your eye is in relation to ⟮c+;your cheek bones and browbones⟯. 
 To test for ⟮c+;deep-set eyes⟯ l⟮c+;ay your fingers⟯ ⟮c+;rigidly⟯ on the eye from ⟮c+;brow⟯ to ⟮c+;cheekbone⟯, if ⟮c+;your hand touches your lid⟯, ⟮c+;they are not deep-set⟯ 
@@ -2584,7 +2597,8 @@ If our eye fails at ⟮c+;doing smooth pursuit eye movements⟯, it needs to do 
 
 ###### FOV
 
-⟮h∞;<img src="sm_220px-Vertical_FOV.svg.png">⟯
+flex-container:<img src="sm_220px-Vertical_FOV.svg.png">
+
 FOV|deg
 ⟮c+;human vertical FOV⟯|⟮c+;~130 - 150 deg⟯
 ⟮c+;human horizontal FOV⟯|⟮c+;~210 deg⟯
@@ -2750,7 +2764,8 @@ In your ⟮c+;torso⟯, ⟮c+;dermatomes⟯ run ⟮c+;horizontally⟯.
 
 #### pelvic tilt
 
-⟮h∞;<img src="sm_Untitled-design-25-e1568868179256.jpg">⟯
+flex-container:<img src="sm_Untitled-design-25-e1568868179256.jpg">
+
 
 
 span=3;<img src="Screenshot%202021-12-04%20at%2004.59.57.png">
@@ -2828,7 +2843,8 @@ Thingy|ICD-10 Code
 
 ### signs and symptoms
 
-⟮h∞;<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">⟯The difference between ⟮c+;signs⟯ and ⟮c+;symptoms⟯ is  ⟮c+;how they are perceptible⟯ 
+flex-container:<img src="sm_1_lcJqhlhwT274BKCOXwTO2g.png">
+The difference between ⟮c+;signs⟯ and ⟮c+;symptoms⟯ is  ⟮c+;how they are perceptible⟯ 
 
 ⟮c+;sign⟯|⟮c+;observable to others (not just the patient⟯)
 ⟮c+;symptom⟯|⟮c+;observable to the patent only⟯
@@ -2858,7 +2874,8 @@ Physiologically, ⟮c+;benign paroxysmal positional vertigo⟯ is caused by ⟮c
 
 #### by varicella-zoster
 
-⟮h∞;<img src="sm_87316209681.jpg"><img src="sm_300px-Herpes_zoster_neck.jpg"><img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">⟯
+flex-container:<img src="sm_87316209681.jpg"><img src="sm_300px-Herpes_zoster_neck.jpg"><img src="sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg">
+
 
 c1;Chickenpox⟯ is then english term for ⟮c+;Windpocken⟯
 ⟮c+;Herpes Zoster⟯  is the scientific term for ⟮c+;Shingles⟯, in german it is called ⟮c+;Gürtelrose⟯ 
@@ -2934,7 +2951,8 @@ Roughly ⟮c+;1⟯% of the population have ⟮c+;CFS⟯, with it occuring somewh
 
 ### first aid
 
-⟮h∞;<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">⟯Beim Prüfen des Bewusstseins zuerst ⟮c+;deutlich⟯ ⟮c+;Ansprechen⟯, dann ⟮c+;vorsichtig⟯ ⟮c+;an den Schultern rütteln⟯. 
+flex-container:<img src="sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg">
+Beim Prüfen des Bewusstseins zuerst ⟮c+;deutlich⟯ ⟮c+;Ansprechen⟯, dann ⟮c+;vorsichtig⟯ ⟮c+;an den Schultern rütteln⟯. 
 
 ### external cause
 
@@ -3495,7 +3513,8 @@ A distinction of the ⟮c+;poor⟯ that began with ⟮c+;the poor laws in englan
 
 ### a boring dystipia
 
-⟮h∞;<img src="Db82H6jV4AELsCZ.jpg"><img src="Db82JRwV4AEyXHz.jpg"><img src="Db82VUTVwAAiW7m.jpg">⟯
+flex-container:<img src="Db82H6jV4AELsCZ.jpg"><img src="Db82JRwV4AEyXHz.jpg"><img src="Db82VUTVwAAiW7m.jpg">
+
 Mark Fisher coined the term "⟮c+;a boring dystopia⟯" to describe the situation of the 21st-century where ⟮c+;the casual perversity⟯ of ⟮c+;capitalism⟯ ⟮c+;isn't even interesting enough to get outraged⟯. 
 
 ### x work/x-al labor
@@ -3562,7 +3581,8 @@ libgen (.rs, .is, st)|most papers, most books
 
 ##### modelling
 
-⟮h∞;<img src="share-preview-img.png">⟯⟮c+;connectedpapers.com⟯ is a tool that builds ⟮c+;a graph⟯ of ⟮c+;related papers⟯ for ⟮c+;a given paper⟯, allowing for ⟮c+;finding similar papers⟯. Papers are grouped by ⟮c+;similarity⟯ measured via ⟮s5;⟮c+;co-citation⟯ and ⟮c+;bibliographic coupling.⟯⟯ 
+flex-container:<img src="share-preview-img.png">
+⟮c+;connectedpapers.com⟯ is a tool that builds ⟮c+;a graph⟯ of ⟮c+;related papers⟯ for ⟮c+;a given paper⟯, allowing for ⟮c+;finding similar papers⟯. Papers are grouped by ⟮c+;similarity⟯ measured via ⟮s5;⟮c+;co-citation⟯ and ⟮c+;bibliographic coupling.⟯⟯ 
 
 ### sources
 
@@ -3799,7 +3819,8 @@ Mirroring/Spiegeln: The ⟮c+;harder⟯ variant has ⟮c+;both people lead and b
 
 #### Feind*in und Beschützer*in
 
-⟮h∞;<img src="sm_your-drawing.png">⟯『⟮c+;Feind*in und Beschützer*in⟯』: ⟮c+;Jede*r Spieler*in⟯ sucht sich ⟮c+;eine*n Feind*in⟯ und ⟮c+;eine*n Beschützer*in⟯.
+flex-container:<img src="sm_your-drawing.png">
+『⟮c+;Feind*in und Beschützer*in⟯』: ⟮c+;Jede*r Spieler*in⟯ sucht sich ⟮c+;eine*n Feind*in⟯ und ⟮c+;eine*n Beschützer*in⟯.
 『⟮c+;Feind*in und Beschützer*in⟯』: Jede*r Spieler*in versucht, ⟮c+;seinen/ihren Beschützer*in zwischen sich und der*dem Feind*in zu behalten.⟯ 
 
 #### assoziationsketten
@@ -3824,7 +3845,8 @@ In the game walking with speed levels, normally the levels are such that ⟮c+;1
 
 #### samurai
 
-⟮h∞;<img src="sm_your-drawing%20(1).png"><img src="sm_your-drawing%20(2).png"><img src="sm_your-drawing%20(3).png">⟯『⟮c+;Samurai⟯』: The attacker ⟮c+;raises their sword⟯ and ⟮hb; ⟮c+;cuts downwards⟯ while ⟮hb;⟮c+;emitting a sound (which one varies⟯) and ⟮hb;⟮c+;points at their target⟯. Their ⟮c+;target⟯ ⟮c+;cuts upwards⟯ while ⟮c+;emitting a different sound.⟯ The ⟮hb;⟮c+;left and right neighbors⟯ ⟮c+;cut from the side⟯ while ⟮c+;emitting a third sound⟯.⟯⟯⟯⟯
+flex-container:<img src="sm_your-drawing%20(1).png"><img src="sm_your-drawing%20(2).png"><img src="sm_your-drawing%20(3).png">
+『⟮c+;Samurai⟯』: The attacker ⟮c+;raises their sword⟯ and ⟮hb; ⟮c+;cuts downwards⟯ while ⟮hb;⟮c+;emitting a sound (which one varies⟯) and ⟮hb;⟮c+;points at their target⟯. Their ⟮c+;target⟯ ⟮c+;cuts upwards⟯ while ⟮c+;emitting a different sound.⟯ The ⟮hb;⟮c+;left and right neighbors⟯ ⟮c+;cut from the side⟯ while ⟮c+;emitting a third sound⟯.⟯⟯⟯⟯
 In the game 『Samurai』, the ⟮c+;sword⟯ is formed by ⟮c+;palms together⟯, ⟮c+;arms straight⟯. 
 
 ## acting
@@ -4032,7 +4054,8 @@ P|A|O|Number|Mnemonics
 
 #### exposure therapy
 
-⟮h∞;<img src="sm_2021-10-31--17-32-33-screenshot.jpg">⟯A ⟮c+;fear ladder⟯ is a technique within ⟮c+;exposure therapy⟯. 
+flex-container:<img src="sm_2021-10-31--17-32-33-screenshot.jpg">
+A ⟮c+;fear ladder⟯ is a technique within ⟮c+;exposure therapy⟯. 
 For any specific ⟮c+;fear/anxiety/phobia⟯, a ⟮c+;fear ladder⟯ consists of ⟮c+;specific situations/steps⟯ and ⟮c+;their associated fear ratings⟯ 
 ⟮c+;Fear ratings⟯ for fears on ⟮c+;the fear ladder⟯ generally are on ⟮c+;a scale from 1 to 10⟯ 
 There should roughly be ⟮c+;one situation/action⟯ on the fear ladder for ⟮c+;each fear rating from 1 to 10⟯. 
@@ -4353,7 +4376,8 @@ In general, the three major types of lockpicking tools are ⟮c+;hooks⟯, ⟮c+
 
 ## basic lock model
 
-⟮h∞;<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif"><img src="sm_Shear-Line-Lock-Picking-Theory.png">⟯We can construct a basic sort of lock with ⟮c+;a pencil⟯ and ⟮c+;two pieces of paper.⟯ 
+flex-container:<img src="sm_Simple-Paper-Lock-Lock-Picking-Theory.gif"><img src="sm_Shear-Line-Lock-Picking-Theory.png">
+We can construct a basic sort of lock with ⟮c+;a pencil⟯ and ⟮c+;two pieces of paper.⟯ 
 The ⟮c+;gap between the two pieces of paper⟯ is ⟮c+;the shear line⟯, and ⟮c+;the pencil⟯ is ⟮c+;the pin⟯. 
 
 ## lock externals
@@ -4436,7 +4460,8 @@ The pin that will ⟮c+;bind here first⟯ if we ⟮c+;rotate in the upwards dir
 
 ## binding pins
 
-⟮h∞;<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif"><img src="sm_Lock-Picking-Single-Pin-Picking.gif"><img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">⟯A ⟮c+;bound⟯ pin is the one that if ⟮c+;rotational tension is being applied⟯ is ⟮c+;hard to move (won't slip⟯) 
+flex-container:<img src="sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif"><img src="sm_Lock-Picking-Single-Pin-Picking.gif"><img src="sm_Peterson-GSP-Hook-1-Black-Handle.jpg">
+A ⟮c+;bound⟯ pin is the one that if ⟮c+;rotational tension is being applied⟯ is ⟮c+;hard to move (won't slip⟯) 
 ⟮c+;Applying rotational tension⟯ allows ⟮c+;pins⟯ to ⟮c+;bind⟯, and thus ⟮c+;setting them⟯. 
 Pins can only ⟮c+;bind⟯ if ⟮c+;rotational tension is being applied⟯, otherwise ⟮c+;they won't get stuck⟯ and f⟮c+;all right back into the cylinder.⟯ 
 There is ⟮c+;most often (though not always⟯) ⟮c+;only one⟯ ⟮c+;binding pin⟯ at a time. 

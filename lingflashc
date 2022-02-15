@@ -81,12 +81,14 @@ What?|Where in the image?
 
 #### nesting
 
-⟮h∞;<img src="sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg"><img src="sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg">⟯⟮c+;Barthes⟯ took ⟮c+;Sassures sign⟯ and ⟮c+;nested it.⟯ 
+flex-container:<img src="sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg"><img src="sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg">
+⟮c+;Barthes⟯ took ⟮c+;Sassures sign⟯ and ⟮c+;nested it.⟯ 
 ⟮c+;Derrida⟯ then took ⟮c+;Barthes sign⟯ and realized that it ⟮c+;could be nested infinitely⟯ in ⟮c+;both directions⟯, creating ⟮c+;an endless deferrment of meaning⟯ he called ⟮c+;Différance⟯. 
 
 ### langue and parole
 
-⟮h∞;<img src="sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg"><img src="sm_planes_of_sound__thought.gif">⟯As regards language, ⟮c+;De Sassure differentiated⟯ between ⟮c+;langue⟯ and ⟮c+;parole⟯. 
+flex-container:<img src="sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg"><img src="sm_planes_of_sound__thought.gif">
+As regards language, ⟮c+;De Sassure differentiated⟯ between ⟮c+;langue⟯ and ⟮c+;parole⟯. 
 ⟮c+;Langue⟯ is ⟮c+;the structuralist system⟯ of a given language 
 ⟮c+;Parole⟯ is ⟮c+;any instance of the use of language⟯ 
 In the ⟮c+;langue⟯ of ⟮c+;spoken language⟯, the ⟮c+;signified⟯ (according to sassure) is ⟮c+;the concept⟯, the ⟮c+;signifier⟯ is ⟮c+;(the psychological reality of) the phonological realization⟯. 
@@ -2575,7 +2577,8 @@ Originally, any font-weight ⟮c+;in the 100 - 900 scale⟯ that was ⟮c+;not a
 
 ###### keming
 
-⟮h∞;<img src="sm_paste-f07c2c687494aa635cc4e1bac28fd932457a1b35.jpg"><img src="sm_220px-Metal_type_kerning.svg.png">⟯⟮c+;Letter-spacing⟯ AKA ⟮c+;tracking⟯ is the ⟮c+;adjustment of the (horizontal) distance⟯ ⟮c+;between glyphs⟯ for ⟮c+;all glyphs equally⟯. 
+flex-container:<img src="sm_paste-f07c2c687494aa635cc4e1bac28fd932457a1b35.jpg"><img src="sm_220px-Metal_type_kerning.svg.png">
+⟮c+;Letter-spacing⟯ AKA ⟮c+;tracking⟯ is the ⟮c+;adjustment of the (horizontal) distance⟯ ⟮c+;between glyphs⟯ for ⟮c+;all glyphs equally⟯. 
 ⟮c+;Kerning⟯ is ⟮c+;the adjustment of horizontal spacing⟯ between ⟮c+;two specific glyphs⟯. 
 ⟮c+;Kerning⟯ is generally to ⟮c+;achieve a similar amount of whitespace between glyph⟯s. 
 Original, the ⟮c+;kern⟯ of ⟮c+;a glyph or its sort⟯ was ⟮c+;the part that overhangs its sort⟯. Thus ⟮c+;kerning⟯ generally involves ⟮c+;intruding into its box⟯. 
@@ -2602,7 +2605,8 @@ Following the general definition of the font size, in css ⟮c+;the em⟯ i⟮c+
 
 ####### ems and ens
 
-⟮h∞;<img src="220px-M_versus_em.svg.png">⟯
+flex-container:<img src="220px-M_versus_em.svg.png">
+
 
 Because ⟮c+;the sort⟯ of ⟮c+;uppercase Ms⟯ used to be ⟮c+;as wide as tall (i.e. square⟯), ⟮c+;em⟯ is sometimes also defined as ⟮c+;the width of an uppercase⟯ (or more rarely ⟮c+;lowercase⟯) ⟮c+;M⟯. §<br>
 The ⟮c+;en⟯ may be defined as ⟮c+;half the width⟯ of ⟮c+;an em⟯. 
@@ -2646,7 +2650,8 @@ The ⟮c+;ascender height⟯ is generally ⟮c+;higher than⟯ ⟮c+;the cap-hei
 The ⟮c+;ascender line⟯ (or ⟮c+;s60;topline⟯)/⟮c+;descender line⟯ is ⟮c+;the imaginary line⟯ ⟮c+;defined by⟯ ⟮c+;the ascender height⟯/⟮c+;descender depth⟯ 
 ⟮c+;Line spacing⟯ / ⟮c+;s65;leading⟯ is ⟮c+;the distance between⟯ ⟮c+;the descender line⟯ and ⟮c+;the next ascender line⟯ 
 
-⟮h∞;<img src="220px-Metal_type.svg.png">⟯
+flex-container:<img src="220px-Metal_type.svg.png">
+
 
 In ⟮c+;digital type⟯, letters are ⟮c+;designed around⟯ ⟮c+;an imaginary square⟯ called ⟮c+;the em square⟯. 
 ⟮c+;The relationship⟯ of ⟮c+;parts of letters⟯ to ⟮c+;the font size⟯ is determined by ⟮c+;the designer of the font⟯. However, as a very rough guideline, an ⟮c+;"average" font⟯ might have ⟮c+;a cap height⟯ of ⟮c+;0.7 em⟯, and an ⟮c+;x-height⟯ of ⟮c+;0.5 em⟯. 
@@ -2677,7 +2682,8 @@ pagination/paging is dividing a given document into discrete pages.
 
 ######## margins and indentation
 
-⟮h∞;<img src="220px-Margins.svg.png">⟯<p class="cloze-group-children hide-if-inactive-children">
+flex-container:<img src="220px-Margins.svg.png">
+<p class="cloze-group-children hide-if-inactive-children">
 In typography, the ⟮c+;margin⟯ is ⟮c+;the area between⟯ ⟮c+;the main content of a page⟯ and ⟮c+;its edges⟯. 
 In typography, if the spacing ⟮c+;is squished or stretched⟯ such that the ⟮c+;text is flush with⟯ ⟮c+;both the left and right margins⟯, it is called ⟮c+;justified⟯. 
 In typography, text ⟮c+;being aligned with⟯ ⟮c+;the left margin⟯ is known as ⟮c+;flush left⟯  / ⟮c+;left-aligned⟯. 
@@ -2704,7 +2710,8 @@ endnotes|end of chapter/volume/work
 
 ######## orphans and widows
 
-⟮h∞;<img src="sm_BdflVyb4vu7o0q5hCeBkmu09nMn21opE.jpg">⟯⟮c+;Widows⟯ and ⟮c+;orphans⟯ refer to ⟮c+;stranded things⟯. 
+flex-container:<img src="sm_BdflVyb4vu7o0q5hCeBkmu09nMn21opE.jpg">
+⟮c+;Widows⟯ and ⟮c+;orphans⟯ refer to ⟮c+;stranded things⟯. 
 ⟮c+;Widows and orphans⟯ may either refer to ⟮c+;stranded words⟯ at ⟮c+;the beginning/end of paragraphs⟯, or ⟮c+;stranded lines⟯ at ⟮c+;the beginning/end of pages⟯. 
 There is no agreement on whether ⟮c+;widows or orphans⟯ refers to the things occurring at ⟮c+;the beginnings or ends⟯, that is, ⟮c+;one persons orphan⟯ is ⟮c+;another persons widow⟯. 
 
@@ -2924,7 +2931,8 @@ Digraphs are often combined into ligatures, and as such the term also sometimes 
 
 ###### ligatures
 
-⟮h∞;<img src="sm_298px-Ligature_drawing.svg.png"><img src="Typographic_ligature_st.png"><img src="Th_Taumfel.jpg"><img src="1024px-Ĳ_uppercase_ligature.svg.png">⟯In writing, a ⟮c+;ligature⟯ is when ⟮c+;two or more characters⟯ are ⟮c+;fused to form a single character⟯. 
+flex-container:<img src="sm_298px-Ligature_drawing.svg.png"><img src="Typographic_ligature_st.png"><img src="Th_Taumfel.jpg"><img src="1024px-Ĳ_uppercase_ligature.svg.png">
+In writing, a ⟮c+;ligature⟯ is when ⟮c+;two or more characters⟯ are ⟮c+;fused to form a single character⟯. 
 Many ⟮c+;current symbols/characters/graphemes⟯ originated as ⟮c+;ligatures⟯, but are now ⟮c+;ordinary characters⟯. 
 ⟮c+;The ampersand &amp;⟯ originated as ⟮c+;a ligature⟯ of ⟮c+;et⟯. 
 ⟮c+;圕⟯ is ⟮c+;a rare ligature⟯ of ⟮c+;図書館⟯ 
@@ -5830,7 +5838,8 @@ Add a 人 to any nationality to get "the people of"
 
 ### kami
 
-⟮h∞;<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">⟯⟮c+;カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮c+;god, bear⟯, and is ⟮c+;s∞;related to/cognate with japanese 　神（かみ）⟯&nbsp; 
+flex-container:<img src="sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg">
+⟮c+;カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮c+;god, bear⟯, and is ⟮c+;s∞;related to/cognate with japanese 　神（かみ）⟯&nbsp; 
 
 ### misc
 
