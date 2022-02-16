@@ -6183,6 +6183,8 @@ Patterns which a user wants Git to ignore in all situations (e.g., backup or tem
 By default, any line in a gitignore contains one pattern to ignore.
 If a line is prefixed by !, a line in a gitignore instead contains a pattern to reinclude. 
 
+Github hosts a nice list of gitignores for most common languages/frameworks/build tools.
+
 ##### creating a new repository
 
 `git init` creates a new repository by creating the repository directory.
@@ -9401,9 +9403,11 @@ Load|(subject to change with new technology) Load within 5s on first load and in
 
 ####### minification
 
+Webpack minifies your JS by default, using `terser`.
 Source maps allow mapping minfied/compressed/otherwise transformed code back to the original source
 to indicate a source map, at the bottom of the optimized file, add a magic comment or use the http header
 source map magic comment: //# sourceMappingURL=foo/bar.js.map 
+Most dev tools have source map support built in.
 
 ####### Google speed
 
@@ -15006,7 +15010,11 @@ Often, a repository either stores the code of a VCS, or packages of a certain ty
 
 #### build tools
 
-Build tools are the tools that create an executable application from various parts
+Build tools are the tools that create an executable application from various parts.
+To build something, a build tool starts at an entry point.
+A dependency graph is a directed graph where each vertex is a module and each edge is a dependency relationship.
+From an entry point, a build tool assembles a dependency graph.
+From a dependency graph, a build tool builds it's output file(s).
 Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
 
 ##### compilers
@@ -15018,9 +15026,6 @@ A compiler is a type of build tool.
 A compiler option is a setting that changes what a compiler does.
 Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
 TS|config, CLI
-
-Release profiles are sets of compiler options for certain scenarios, e.g. dev, release, ...
-Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
 
 ####### TS
 
@@ -15060,9 +15065,12 @@ There are more JS build tools than you can shake a stick at. The most common is 
 
 A module is a independent thing you use from another file.
 A module can be a code file, stylesheet, data, assets (image, videos), ...
+Modules must be imported to be used, just as in any normal programming language.
 A loader transforms a file into a module.
 File types that are not natively supported require a loader.
 In webpack, (only) json and JS are natively supported.
+
+#######
 
 ####### loaders
 
@@ -15072,6 +15080,13 @@ The `use` key of a loader is used to specify which loader to use.
 ```
 { test: /\.txt$/, use: 'raw-loader' }
 ```
+While transforming a file into a module, a loader may also transform them.
+
+######## various loaders
+
+######### data
+
+By default, loaders for data files (tsv, xml etc.) will parse to JSON
 
 ####### CLI
 
@@ -15086,6 +15101,46 @@ You specify settings in the webpack config file on module.exports.
 ####### plugins
 
 Plugins extend webpack functionality.
+Plugins are specified in the array `module.exports.plugins`.
+Plugins are created from classes.
+```
+module.exports = {
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+};
+```
+Classes for webpack plugins have a method `apply` which recieve an argument of the compiler to hook into.
+
+####### The runtime
+
+The manifest is webpack's internal map of modules.
+Webpack's glue code used to connect different modules at runtime is the runtime.
+In webpack's runtime, all import statements become `__webpack_require__` calls.
+the runtime uses the manifest.
+
+#### conditional building
+
+##### release profiles
+
+Release profiles are sets of compiler options for certain scenarios.
+The most common profiles are one for development and one for production.
+
+
+table:config key|tool
+mode|webpack
+profile|rust
+
+table:name|tool
+dev|cargo
+development|Rust
+
+
+table:name|tool
+release|cargo
+production|Rust
+
+
+
+Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
 
 #### structure
 
@@ -15109,11 +15164,31 @@ The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
 
+###### config
+
+`module.exports.entry` specifies the entry point.
+`module.exports.entry` may take a string (of URLs) for a single entry point, or an array (of URLs) or object for multiple entry points.
+Using an object for multiple entry points allows for named entry points.
+```
+module.exports = {
+  entry: "path/to/entrypoint.js",
+  // is the same as
+  entry: ["path/to/entrypoint.js"],
+  // is basically the same as
+  entry: {foo: "path/to/entrypoint.js"}
+}
+Using an object to define multiple entry points then allows any entry point to further be another object, allowing for further configuration.
+
+
+table:module.exports.entry.sometrypoint.|does
+import|path of entry point as would have been specified directly before
+publicPath|associate an output `publicPath` with this entry point
+
 ##### Output
 
 Output code goes in (by default)
 ./dist|webpack
-
+For module bundlers, the output directory contains the bundle(s)
 
 ### mapping
 
