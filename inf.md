@@ -12943,14 +12943,6 @@ In rust, re-exporting works by making a `use` itself public.
 
 #### default exports
 
-## lifecycle
-
-### Entry point
-
-In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
-The entry point of many programming languages is the main function:
-public static void main(String[] args)|Java
-main()|rust
 
 ## communication
 
@@ -14082,38 +14074,6 @@ Babel is a transpiler that transpiles ⟮c+;newer JS (e.g. ES 2017, ES 2020) to 
 Object code is the code that the compiler produces, generally machine code.
 The object file is the file containing object code.
 
-##### compiler options
-
-A compiler option is a setting that changes what a compiler does.
-Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
-TS|config, CLI
-
-Release profiles are sets of compiler options for certain scenarios, e.g. dev, release, ...
-Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
-
-###### TS
-
-compiler option|function
-strict|activate a bunch of other options, amongst others noImplicitAny and strictNullChecks
-
-###### Rust
-
-rust has a set of compiler options that allow the conditional compilation of code.
-In rust, a compile-time feature flag is a compiler option that allows conditional inclusion or exclusion of code.
-rust allows the creation of custom compile-time feature flags that may be used in the conditional compilaton of code via compiler options.
-rust has two types of pragmas to specify a set of compiler conditions that must be met: attributes and macros, both indicated by cfg.
-in rust, you specify custom compile-time feature flags in a [features] section of your Cargo.toml
-in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates or other features to optionally require.
-you can activate a feature for an external crate by referring to it within the features array that is part of the table defining the dependency.
-custom compile-time feature flags are refered to in `cfg` by the <cfg-name> feature
-compile-time feature flags are enabled by cargo build --features "<featurename>" 
-any cfg condition is enabled by --cfg "featurename"
-cfg-attribute-sytnax ::= #\[cfg(<cfg-predicate>)\]
-cfg-predicate ::= <cfg-option>|<cfg-logic-function-multiple>|<cfg-not>
-cfg-option ::= <cfg-name> = "<cfg-value>"
-cfg-logic-function ::= (all|any)\(<cfg-predicate-list>\)
-cfg-not ::= not\(<cfg-predicate>\)
-cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
 
 ### Steps involved
 
@@ -15038,19 +14998,121 @@ Often, a repository either stores the code of a VCS, or packages of a certain ty
 
 #### rust
 
-./src
 ./tests
 ./examples
 ./benches
 
-### build tools
+### building
 
-Build tools are the tools that create an executable application from source code.
-A bundler is a tool that merges together all your JavaScript code and its dependencies into one js file, most commonly known as bundle.js
-A bundler is a type of build tool.
-There are more JS build tools than you can shake a stick at. The most common is webpack.
-webpack-cli is the command for administering webpack
+#### build tools
+
+Build tools are the tools that create an executable application from various parts
 Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
+
+##### compilers
+
+A compiler is a type of build tool.
+
+###### compiler options
+
+A compiler option is a setting that changes what a compiler does.
+Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
+TS|config, CLI
+
+Release profiles are sets of compiler options for certain scenarios, e.g. dev, release, ...
+Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
+
+####### TS
+
+compiler option|function
+strict|activate a bunch of other options, amongst others noImplicitAny and strictNullChecks
+
+####### Rust
+
+rust has a set of compiler options that allow the conditional compilation of code.
+In rust, a compile-time feature flag is a compiler option that allows conditional inclusion or exclusion of code.
+rust allows the creation of custom compile-time feature flags that may be used in the conditional compilaton of code via compiler options.
+rust has two types of pragmas to specify a set of compiler conditions that must be met: attributes and macros, both indicated by cfg.
+in rust, you specify custom compile-time feature flags in a [features] section of your Cargo.toml
+in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates or other features to optionally require.
+you can activate a feature for an external crate by referring to it within the features array that is part of the table defining the dependency.
+custom compile-time feature flags are refered to in `cfg` by the <cfg-name> feature
+compile-time feature flags are enabled by cargo build --features "<featurename>" 
+any cfg condition is enabled by --cfg "featurename"
+cfg-attribute-sytnax ::= #\[cfg(<cfg-predicate>)\]
+cfg-predicate ::= <cfg-option>|<cfg-logic-function-multiple>|<cfg-not>
+cfg-option ::= <cfg-name> = "<cfg-value>"
+cfg-logic-function ::= (all|any)\(<cfg-predicate-list>\)
+cfg-not ::= not\(<cfg-predicate>\)
+cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
+
+
+
+##### module bundlers
+
+A module bundler is a type of build tool that merges together all your JavaScript code and its dependencies into one or more bundles.
+A bundle is a single file.
+Most commonly module bundlers generate only a single file, most commonly called bundle.js.
+A module bundler is often also just called a bundler
+There are more JS build tools than you can shake a stick at. The most common is webpack.
+
+###### webpack
+
+A module is a independent thing you use from another file.
+A module can be a code file, stylesheet, data, assets (image, videos), ...
+A loader transforms a file into a module.
+File types that are not natively supported require a loader.
+In webpack, (only) json and JS are natively supported.
+
+####### loaders
+
+Loaders are defined (in the config file) by a JS object.
+The `test` key of a loader is used to match files to process with this loader via a regex.
+The `use` key of a loader is used to specify which loader to use.
+```
+{ test: /\.txt$/, use: 'raw-loader' }
+```
+
+####### CLI
+
+webpack-cli is the command for administering webpack.
+
+####### config
+
+Webpack can run without a config file, nevertheless it is sensible to have a config file.
+Webpack's config is a normal js file.
+You specify settings in the webpack config file on module.exports.
+
+####### plugins
+
+Plugins extend webpack functionality.
+
+#### structure
+
+for most build tools, code lives in a src directory.
+
+
+##### Entry point
+
+In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
+
+###### file
+
+####### default
+
+./src/index.<suffix>|webpack
+./src/main.<suffix>|rust
+
+###### function
+
+The entry point of many programming languages is the main function:
+public static void main(String[] args)|Java
+main()|rust
+
+##### Output
+
+Output code goes in (by default)
+./dist|webpack
 
 
 ### mapping
