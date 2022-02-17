@@ -6953,6 +6953,36 @@ espanso is a FOSS cross-platform expansion manager.
 espanso config files are YAML flies.
 The basic unit of espanso is the match.
 Matches are contained in an espanso config file in the array matches.
+the default config file is `default.yml`
+Espanso allows breaking up its config into multiple files.
+
+####### multiple component configs
+
+Any component config file of espanso should have a top level `name` key.
+In a component config file, `parent: default` merges it into the generic config 'namespace'
+
+######## app-specific config
+
+To apply certain config files to only certain apps, use app-specific configurations.
+App-specific configurations use one of three top-level config keys {`filter_title`, `filter_exec`, `filter_class`}
+Any app-specific config key takes a string or regex and addtionally allow the vertical bar to provide a list of applications
+To help detect the filter_whatever, expanso comes with the command line util espanso detect
+
+table:key|function|platform
+filter_title|current window title|win, mac (uses app identifier), linux
+filter_exe|application's executable path. For example, C:\Programs\Telegram.exe|win, mac, linux kinda
+filter_class|window class|only usefully linux
+
+###### global config
+
+the global config key auto_restart specfies whether espanso should restart on config change
+the global config key backend specfies how the insertion takes place and takes the values {Clipboard, Inject, Auto}
+
+
+table:backend|function
+Clipboard|works like pasting
+Inject|works like keypresses
+Auto|linux only autochoosing
 
 ###### match structure
 
@@ -6960,11 +6990,23 @@ Matches are contained in an espanso config file in the array matches.
 
 The main two fields of an espanso match are `replace` and `trigger`.
 `trigger` represents the thing that will be replaced by `replace`.
+when you have multiple triggers, pass an array to `trigger⁑s⁑`
+Within `replace` one can determine the cursor position after via `$|$`
+
+####### other match related properties
+
+If you specify `word: true` on  a match, it will only match if surrounded by word boundaries.
+The propagate_case property of a match will match on and preserve any case, so that "alh" will expand to "although", "Alh" will expand to "Although" and "ALH" will expand to "ALTHOUGH"
+
+####### image matches
+
+Image matches have an `image_path` instead of a `replace`.
 
 ####### vars
 
 the vars array of a match contains vars for that match.
 Each var has at least a key `name` identifying it and a key `type` indicating the type of variable.
+One can refer to any var within `replace` by `{{<name>}}`
 Any further specification of an espanso variable goes into the `params` key.
 
 ######## globals
@@ -7042,20 +7084,21 @@ $ESPANSO_FOO|A `var` with name foo
 $ESPANSO_FOO_BAR|A field of a form foo with name bar
 
 
-```lang=yaml;
+```
+lang=yaml;
 - trigger: ":reversed"
   replace: "Reversed {{myshell}}"
   vars:
     - name: mytime
       type: date
       params:
-        format: "%H:%M"
+        format: "\%H:\%M"
     - name: myshell
       type: shell
       params:
         cmd: "echo $ESPANSO_MYTIME | rev"
 ```
-
+```
 ######## random
 
 to ⟮c+;insert a random choice of different options⟯ use the type ⟮c+;random⟯, ⟮c+;the options⟯ are specified ⟮c+;in the choices sequence of params⟯ 
@@ -7071,6 +7114,26 @@ to ⟮c+;insert a random choice of different options⟯ use the type ⟮c+;rando
             - "Everything you can imagine is real."
             - "Whatever you do, do it well."
 ```
+
+####### forms
+
+When using espanso forms, ctrl (yes, really) enter to submit on mac.
+When using forms, instead of using `replace`, we instead use `form`.
+Espanso's `form` key includes a string with blanks signified by the usual {{<name>}} syntax
+Espanso allows customization of its form fields via the `form_fields` mapping.
+The `form_fields` mapping can have a key for each blank in the form, I will be calling each of these a field specifier.
+
+######## field specifiers
+
+field specifiers, similar to vars, take a `type`.
+
+
+table:field specifier `type`|function
+text|text only
+choice|dropdown menu
+list|list box
+
+any field specifier that allows multiple choices takes these choices as a `choices` array
 
 using espanso, I've created an expansion that uses `!!!` to run an arbitrary shell command and insert the results
 
@@ -9941,7 +10004,8 @@ elsif|liquid|perl|ruby
 elif|Python|(ba)sh
   
 Anki has a if-like conditional to show something only if a field has content, indicated like: 
-```lang=text;
+```
+lang=text;
 ⟮c+;{​{⟯⟮c+;#FieldName⟯⟮c+;}​⟯}
 	Lorem Ipsum
 ⟮c+;{​{⟯⟮c+;/FieldName⟯⟮c+;}​⟯}
