@@ -1057,7 +1057,7 @@ node handles events in the module `event`, where everything that can have events
 
 ##### EventEmitter methods
 
-on|add event handler
+on(<name>, <callback>)|add event handler
 off/removeListener|remove an event handler
 once|add one-time event handler
 emit|trigger an event
@@ -5808,6 +5808,8 @@ You ⟮c+;complete⟯ ⟮c+;github-flavored markdown task lists⟯ via the synta
 
 ######## software
 
+######### reference management software
+
 reference/citation/bibliographic management software is software that manages citation information
 
 
@@ -5815,6 +5817,10 @@ table:name|license|distingishing characteristic
 JabRef|FOSS|often used for LaTeX
 Citavi|Proprietary|only really used in germany
 Zotero|FOSS|most common
+
+######### libraries
+
+citations.js|node
 
 ######## CSL
 
@@ -6938,12 +6944,104 @@ For ⟮c+;manual font installation⟯ on mac, you can ⟮c+;copy them⟯ to ⟮c
 #### text expanders
 
 Text expanders are programs which allow OS-wide macros.
+espanso is a FOSS cross-platform expansion manager.
 
 ##### espanso
 
+###### config files
+
+espanso config files are YAML flies.
+The basic unit of espanso is the match.
+Matches are contained in an espanso config file in the array matches.
+
+###### match structure
+
+####### basics
+
+The main two fields of an espanso match are `replace` and `trigger`.
+`trigger` represents the thing that will be replaced by `replace`.
+
+####### vars
+
+the vars array of a match contains vars for that match.
+Each var has at least a key `name` identifying it and a key `type` indicating the type of variable.
+Any further specification of an espanso variable goes into the `params` key.
+
+######## globals
+
+global variables may be specified within the `global_vars` sequence of the `default.yml`.
+global vars can just be referred to as any other variable without mentioning them in `vars`, however they are evaluated before local variables. To make them evaluate at a specific point, there is the type `global`
+```
+global_vars:
+  - name: "reversed"
+    type: shell
+    params:
+      cmd: "echo $ESPANSO_VARNAME | rev"
+
+matches:
+  - trigger: ":rev"
+    replace: "{{reversed}}"
+    vars:
+      - name: "varname"
+        type: echo
+        params:
+          echo: "hello"
+      - name: "reversed"
+        type: "global
+```
+
+######## date
+
+The `date` type for espanso allows outputting formatted datetimes using rust's chrono as the backend.
+`params.format` for espanso's `date` type takes a format string
+
+######## script
+
+The `script` type for espanso allows running external scripts (i.e. in languages that are not shell)
+`params.args` for `script` espanso variables is a sequence of the programming language executable and the path to the script
+
+```
+- trigger: ":pyscript"
+  replace: "{{output}}"
+  vars:
+    - name: output
+      type: script
+      params:
+        args:
+          - python
+          - /path/to/your/script.py
+```
+
+######## shell
+
+The `script` type for espanso allows running cli commands.
+
+params.cmd|the command
+params.shell|which shell to use
+params.trim|trim the shell output of newlines
+debug|populate espanso's log file
+
+```
+- trigger: ":ip"
+  replace: "{{output}}"
+  vars:
+    - name: output
+      type: shell
+      params:
+        cmd: "curl 'https://api.ipify.org'"
+        debug: false
+        trim: false
+        shell: bash
+```
+
+######### env vars
+
 ⟮c+;Espanso variables⟯ are made available in the ⟮c+;environment⟯ of the `shell` type. 
-An espanso var with `⟮c+;name: foo⟯` will be available as `⟮c+;$ESPANSO_FOO⟯` for any shell scripts. 
-⟮c+;fields within a form⟯ are available as `⟮c+;$ESPANSO_FORMNAME_FIELDNAME⟯` for any espanso shell scripts 
+$CONFIG|the path of the config file
+$ESPANSO_FOO|A `var` with name foo
+$ESPANSO_FOO_BAR|A field of a form foo with name bar
+
+
 ```lang=yaml;
 - trigger: ":reversed"
   replace: "Reversed {{myshell}}"
@@ -6958,6 +7056,7 @@ An espanso var with `⟮c+;name: foo⟯` will be available as `⟮c+;$ESPANSO_FO
         cmd: "echo $ESPANSO_MYTIME | rev"
 ```
 
+######## random
 
 to ⟮c+;insert a random choice of different options⟯ use the type ⟮c+;random⟯, ⟮c+;the options⟯ are specified ⟮c+;in the choices sequence of params⟯ 
 ```
@@ -7599,10 +7698,7 @@ HOME|user home directory
 BROWSER|web browser
 
 EDITOR and VISUAL are shell environement variables ⟮c+;setting the default editors⟯
-PATH is for where to find executables.
-PATH contains, well, paths, separated by colons.
-For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
-`⟮c+;which⟯` takes ⟮c+;a string⟯ and ⟮c+;searches⟯ ⟮c+;the PATH⟯ to see ⟮c+;what the path of the binary of this command is.⟯
+
 
 command prompt is often just shortened to prompt.
 The command prompt is one or more characters indicating the command-line is ready to accept input.
@@ -7947,6 +8043,15 @@ filter name (liquid)|filter action|constraints
 ⟮c+;append: foo⟯|⟮c+;append foo to the string⟯
 ⟮c+;prepend: foo⟯|⟮c+;prepend foo to the string⟯
 
+####### command search
+
+When the shell encounters something it thinks it is a command, if it does not contain slashes, it first searches shell functions, then builtins, then $PATH, if it does contain slashes, it executes the path as a command. If the execution fails but the file is not a directory, it assumes the file is a shell script and tries to execute it thus.
+The environment variable PATH provides a set of locations of where to search for commands.
+PATH contains, well, paths, separated by colons.
+For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
+`⟮c+;which⟯` takes ⟮c+;a string⟯ and ⟮c+;searches⟯ ⟮c+;the PATH⟯ to see ⟮c+;what the path of the binary of this command is.⟯
+npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
+npx can also be used to run a specific version of a npm binary.
 
 ####### exit status
 
@@ -12945,6 +13050,8 @@ JS re-exporting allows aggregating exports in a single file.
 
 In rust, re-exporting works by making a `use` itself public.
 
+In commonJS, exports are declared as properties of the module.exports object.
+
 #### default exports
 
 
@@ -13612,10 +13719,23 @@ besides taking more options, printf has exit codes other than 0 (echo always exi
 printf options
 -v foo|save the output in a variable foo
 
+###### fancy printing
+
+Command line output coloring: chalk (node)
+CLI progress bar: progress (node)
+
+###### fancy reading
+
+inquirer.js   A collection of common interactive command line user interfaces. (node)
+
 ##### run commands in system shell
 
 system()|ruby
 <system-module>.system()|python
+
+##### exit status
+
+process.exitCode|node
 
 #### file system
 
@@ -14147,8 +14267,6 @@ tsc|ts
 
 -c STRING|read program from string|python
 -e STRING|read program from string|perl
-
-npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 
 by default, TS will ⟮c+;compile⟯ even ⟮c+;if there are compiler errors⟯, since it assumes ⟮c+;you might have a good reason⟯, use --noEmitOnError to disable this.
 by default, TS compiles down to ⟮c+;ES3⟯, but you can change that with the ⟮c+;--target⟯ flag
@@ -14698,6 +14816,14 @@ End to end testing tests that with a given input, the program will flow correctl
 Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
 Unit tests may be narrowly defined as testing one unit only with test doubles, or more broadly as testing a few units, thus overlapping with the narrow definition of integration tests
 
+#### structure
+
+./tests|Rust
+
+#### running tests
+
+most build tools (cargo, ) or language CLIs feature a subcommand `test` to run tests
+
 ## principles
 
 GIGO   Garbage In, Garbage Out
@@ -14803,6 +14929,7 @@ mdBook produces books similar to the rust book.
 mdBook and docusaurus can easily be deployed to github pages.
 docosaurus is a react-based solution for writing documentation via markdown
 
+cargo doc builds the packages documentation in cargo
 
 ## requirements engineering
 
@@ -14836,6 +14963,8 @@ in ESlint, the things stored in the ⟮c+;settings⟯ key are ⟮c+;global to al
 To ⟮c+;extend⟯ ESLint, use ⟮c+;plugins⟯
 
 To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
+
+the subcommand lint runs the relevant linter on the project (Nextjs: eslint)
 
 #### code style
 
@@ -14895,7 +15024,6 @@ The Amazon Mechanical Turk is sometimes used for study subjects.
 
 In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
-A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 
 expo is a toolchain for react native that does a bunch of toolchainy stuff.
 expo is accessed via expo-cli
@@ -14908,46 +15036,7 @@ If you want to use the bare React Native workflow, you will have to set up your 
 
 rustup is the rust installer
 
-### dependencies
-
-A dependency is a piece of software another piece of software relies on.
-
-### packages & package managers
-
-Package management is managing packages, i.e. handles installing, uninstalling, updating...
-A package manager is a program that does package management.
-A package manager typically can manage packages from many different developers.
-A package is a file in a package format.
-A package format usually is made up of an archive (format) of some kind and some metadata.
-Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed with -g or --global.
-Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
-Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
-
-#### directory structure
-
-./node_modules|directory for installed packages|npm
-
-#### package manager commands
-
-update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
-update|update all dependencies/installed packages|bundler|npm
-refresh|update all installed packages|snap
-exec|execute a script in the current bundle|bundler
-upgrade|installs all available updates|apt|brew
-install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
-install|install all dependencies in package manifest|bundler|gem
-uninstall PACKAGE|uninstall a package|brew|npm
-remove PACKAGE|uninstall a package|apt
-ls/list|list installed packages|brew|npm
-outdated|show a list of outdated packages|brew|npm|bundler
-init|set up a new project/package, incl pacakge manifest|bundler|cargo|npm
-show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
-show FOO version|show latest version of package foo|npm
-pack|create a tarball of a project/package|npm
-publish|publish to offical pagckage hub/repository|cargo|npm
-edit[ <name>]|open <name> in code editor, or default if none is provided|espanso
-
-#### package manifest & language config file
+### package manifest & language config file
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
 A language config file specifies config (e.g. compiler options) for the current programming language.
@@ -14971,13 +15060,17 @@ main|entry point|package.json
 package-lock.json|npm
 Gemfile.lock|bundler
 
+Most of the config for frameworks is done in a global config file, which is placed in the project root.
+_config.yml/.toml|Jekyll
 
-##### dependencies
 
+#### dependencies
+
+A dependency is a piece of software another piece of software relies on.
 The syntax for dependencies in most package manifests is as key-value pairs, where the value is a semver version.
 In rust, instead of the value of a key-value dependency pair being a version, it may also be a table with version as its one of keys, and other optional keys.
 
-###### auto-adding
+##### auto-adding
 
 Some package managers (e.g. npm) will add a package as a dependency if you install/update it, while others will instead install dependencies listed in the package manifest automatically (e.g. cargo), some will do both, and some will do neither.
 npms save dependency to package manifest automatically behavior can be disabled with --no-save
@@ -14985,13 +15078,69 @@ Some package managers separate dependencies (for running) and dev-dependencies (
 Dev dependencies are usually their own area in the package manifest.
 npm allows --save-dev direct installation to dev dependencies via --save-dev
 
-
-
-
-##### rust
+#### rust
 
 specifying features of packages
 package-with-features ::= <package-name> = \{ version = "<semver-version-specifier>", features = \["<string>{, "<string>"}\]\}
+
+### packages & package managers
+
+Package management is managing packages, i.e. handles installing, uninstalling, updating...
+some package managers support suffixing an @version to address a specific version
+
+#### package managers
+
+A package manager is a program that does package management.
+A package manager typically can manage packages from many different developers.
+
+##### vs installers
+
+Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
+
+#### package format
+
+A package is a file in a package format.
+A package format usually is made up of an archive (format) of some kind and some metadata.
+
+#### local and global
+
+Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed with -g or --global.
+Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
+Most languages only allow you to import local pacakges.
+
+#### directory structure
+
+./node_modules|directory for installed packages|npm
+
+#### (un)installation
+
+install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
+install|install all dependencies in package manifest|bundler|gem
+uninstall PACKAGE|uninstall a package|brew|npm
+remove PACKAGE|uninstall a package|apt
+
+#### updating
+
+update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
+update|update all dependencies/installed packages|bundler|npm
+upgrade|installs all available updates|apt|brew
+refresh|update all installed packages|snap
+
+#### browsing
+
+show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
+show FOO version|show latest version of package foo|npm
+ls/list|list installed packages|brew|npm
+outdated|show a list of outdated packages|brew|npm|bundler
+
+#### publishing
+
+pack|create a tarball of a project/package|npm
+publish|publish to offical pagckage hub/repository|cargo|npm
+
+#### eject to editor
+
+edit[ <name>]|open <name> in code editor, or default if none is provided|espanso
 
 #### repositories
 
@@ -15000,9 +15149,26 @@ Often, a repository either stores the code of a VCS, or packages of a certain ty
 
 ### project structure
 
+#### new empty
+
+new foo|creates a new project in new directory foo|cargo, jekyll
+init|set up a new project/package, incl pacakge manifest in current directory|bundler|cargo|npm
+
+#### boilerplate
+
+Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
+
+To set up a default repository with boilerplate, different frameworks/languages have different tools:
+react|create-react-app <name>
+nextjs|create-next-app <name>
+react-native|expo init <name> 
+expo init creates a project using expo's managed workflow
+
+cargo-generate is a crate that allows using a pre-existing git repository as a template.
+the npm package create-wasm-app adds the command npm init wasm-app which allows us to set up an js app which consumes our rust-generated wasm
+
 #### rust
 
-./tests
 ./examples
 ./benches
 
@@ -15117,6 +15283,10 @@ Webpack's glue code used to connect different modules at runtime is the runtime.
 In webpack's runtime, all import statements become `__webpack_require__` calls.
 the runtime uses the manifest.
 
+##### CLI
+
+<tool> build builds a production build in cargo, jekyll, next
+
 #### conditional building
 
 ##### release profiles
@@ -15141,6 +15311,19 @@ production|Rust
 
 
 Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
+
+##### targets
+
+A target is the platform/environment a build tool is building for.
+Browserslist is a tool to define target browsers.
+Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
+
+#### hot reloading
+
+Hot reloading reloads a thing as you change the code etc.
+serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
+nextjs serves your app at port 3000 by default
+You can run a build you created with build (for nextjs) with start (for nextjs)
 
 #### structure
 
@@ -15177,6 +15360,7 @@ module.exports = {
   // is basically the same as
   entry: {foo: "path/to/entrypoint.js"}
 }
+```
 Using an object to define multiple entry points then allows any entry point to further be another object, allowing for further configuration.
 
 
@@ -15189,6 +15373,50 @@ publicPath|associate an output `publicPath` with this entry point
 Output code goes in (by default)
 ./dist|webpack
 For module bundlers, the output directory contains the bundle(s)
+
+###### cleaning
+
+clean remove generated files in cargo, jekyll
+
+### task runners
+
+A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
+Typically, task runners run shell scripts.
+
+#### npm scripts
+
+npm scripts works as a task runner for JS.
+npm scripts are defined as object fields in the scripts object of your package.json
+besides custom npm scripts, npm also has lifecycle scripts, which run at particular, predefined times
+
+##### CLI
+
+to run your npm scripts, you use npm run/run-script
+npm run = npm run-script
+
+##### env
+
+within npm scripts, we can access all our dependencies binaries without specifying the full path (without having to use npx)
+a package.json key <key> is available in npm scripts as the variable $npm_package_<key>
+Certain config values are available in npm scripts as the variable $npm_config_<name>
+
+##### naming
+
+npm scripts names are often written foo:bar (this is only a convention, however)
+
+###### pre/post
+
+npm scripts `pre<name>` and `post<name>` will automatically run before/after npm script `<name>`
+
+###### lifecycle scripts
+
+npm lifecycle scripts (non-deprecated): prepare, prepublishOnly, prepack, postpack
+
+###### aliases
+
+A set of predefined npm scripts have aliases where you can run `npm <name>` instead of `npm run <name>`
+Among those: npm build, start, stop, test.
+`npm test` can further be abbreviated `npm t`
 
 ### mapping
 
@@ -15227,7 +15455,6 @@ There is no official task runner for rust, but one commonly used is cargo-make.
 
 npm is the most common package manager for JS, followed by yarn. 
 The official package hub for npm is the npm Registry.
-npm scripts works as a task runner for JS.
 
 #### python
 
@@ -15320,40 +15547,7 @@ within the gemfile, gem dependencies are defined by `gem <name>, <version>`
 interact with nextjs|next
 interact with jekyll|jekyll
 
-### build tool functionality 
-
-build builds a production build in cargo, jekyll, next
-test runs unit tests in cargo
-doc builds the packages documentation in cargo
-clean remove generated files in cargo, jekyll
-lint runs the relevant linter on the project (Nextjs: eslint)
-new foo creates a new project foo in cargo, jekyll
-
-Hot reloading reloads a thing as you change the code etc.
-serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
-nextjs serves your app at port 3000 by default
-You can run a build you created with build (for nextjs) with start (for nextjs)
-
-Most of the config for frameworks is done in a global config file, which is placed in the project root.
-_config.yml/.toml|Jekyll
-
-Browserslist is a tool to define target browsers.
-Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
-
-### boilerplate
-
-Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
-
-To set up a default repository with boilerplate, different frameworks/languages have different tools:
-react|create-react-app <name>
-nextjs|create-next-app <name>
-react-native|expo init <name> 
-expo init creates a project using expo's managed workflow
-
-cargo-generate is a crate that allows using a pre-existing git repository as a template.
-the npm package create-wasm-app adds the command npm init wasm-app which allows us to set up an js app which consumes our rust-generated wasm
-
-### Mobile development
+#### Mobile development
 
 Mobile development is centered around a core IDE, Android Studio for android and XCode for iOs
 
