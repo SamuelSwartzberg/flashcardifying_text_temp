@@ -4358,6 +4358,8 @@ RAID disks are in some sort of configuration which aims to achieve one or more o
 RAID 0|Data is split among the drives (striped)|performance (r/w)
 RAID 1|data is mirrored on all drives|reliability & some read performance
 
+`df` shows memory device storage usage
+
 ### partitions
 
 A secondary memory device is divided into n partitions.
@@ -4746,7 +4748,37 @@ The three permissions that unix tracks are ⟮c+;read⟯, ⟮c+;write⟯,, and �
 ⟮c+;w⟯|⟮c+;write⟯
 ⟮c+;r⟯|⟮c+;read⟯
 
+#### inodes
 
+##### inodes themselves
+
+In linux exty file systems, a file is identified by an inode.
+An inode stores things such as types, permissions, ownership, and most importantly a pointer to the file's contents.
+Things such as chmod edit the inode.
+It's unclear what inode exactly is short for, but probably something like index node.
+Oddly, the inode does not contain the file name, which is instead stored by the directory.
+If linux finds an inode without a filename (that is referenced in no directory), it puts it in lost+found
+
+##### inode numbers
+
+An inode is uniquely identified by an inode number.
+Sometimes, inode is incorrectly used to refer to inode.
+
+##### inode table
+
+The inode table is a property of the file system.
+The inode table contains all possible inode numbers.
+Thus, inode numbers are (only) unique to the file system.
+The inode table is created at fs creation type.
+The inode table takes up roughly 1% of a file system's storage space.
+The fact that there is a limited number of inode numbers which are determined at fs creation time means that its possible to run out of inode numbers (and thus the ability to create no files)
+
+##### special inode numbers
+
+table:inode number|refers to
+2|/ (root)
+1|Bad blocks indication thingy
+0|NULL (no inode)
 
 #### 7 types of files
 
@@ -7013,6 +7045,7 @@ Any further specification of an espanso variable goes into the `params` key.
 
 global variables may be specified within the `global_vars` sequence of the `default.yml`.
 global vars can just be referred to as any other variable without mentioning them in `vars`, however they are evaluated before local variables. To make them evaluate at a specific point, there is the type `global`
+
 ```
 global_vars:
   - name: "reversed"
@@ -7098,7 +7131,7 @@ lang=yaml;
       params:
         cmd: "echo $ESPANSO_MYTIME | rev"
 ```
-```
+
 ######## random
 
 to ⟮c+;insert a random choice of different options⟯ use the type ⟮c+;random⟯, ⟮c+;the options⟯ are specified ⟮c+;in the choices sequence of params⟯ 
@@ -7136,6 +7169,68 @@ list|list box
 any field specifier that allows multiple choices takes these choices as a `choices` array
 
 using espanso, I've created an expansion that uses `!!!` to run an arbitrary shell command and insert the results
+
+#### jobs
+
+A ⟮c+;job⟯ in computing is ⟮c+;a thing to do⟯, generally ⟮c+;scheduled⟯, and generally ⟮c+;in the background without intervention⟯.
+⟮c+;Batch job⟯ is r⟮c+;oughly synonymous⟯ to ⟮c+;job⟯, though it ⟮c+;more strongly implies⟯ ⟮c+;the scheduled⟯ and ⟮c+;in the background without intervention⟯ parts, and also the idea of ⟮c+;there being quite a few things to process⟯.
+⟮c+;Batch processing⟯ is ⟮c+;processing (batch) jobs⟯.
+A ⟮c+;set of jobs to be run together⟯ in ⟮c+;a certain order⟯ is ⟮c+;a job stream⟯.
+A ⟮c+;job⟯ in computing ⟮c+;consists of⟯ ⟮c+;one or more tasks/steps⟯.
+A ⟮c+;job scheduler⟯ is an application for ⟮c+;controlling⟯ ⟮c+;the scheduling⟯ of ⟮c+;the execution⟯ of ⟮c+;jobs⟯ (which is ⟮c+;unattended⟯, ⟮c+;in the  background⟯).
+The ⟮c+;job queue⟯ is ⟮c+;where tasks are put⟯, and is what ⟮c+;the job scheduler manages⟯.
+
+##### cron & at
+
+⟮c+;cron⟯ and ⟮c+;at⟯ are ⟮c+;job schedulers⟯ for unix-likes.
+⟮c+;cron⟯ is for ⟮c+;scheduling repeated tasks⟯, while ⟮c+;at⟯ is for ⟮c+;scheduling one-time tasks⟯.
+
+###### crontab
+
+the ⟮c+;job scheduler cron⟯ is ⟮c+;configured by⟯ ⟮c+;a crontab file⟯.
+the ⟮c+;crontab⟯ is interacted with by ⟮c+;the crontab command⟯.
+
+
+####### syntax
+
+In cron, ⟮c+;each job⟯ is defined by ⟮c+;a line in the crontab⟯, which consists of ⟮c+;times to execute a command⟯, and ⟮c+;a command itself⟯.
+
+```
+crontab-line ::= (⟮c+;<time-specifier> <time-specifier> <time-specifier> <time-specifier> <time-specifier>⟯⟮c+;|<time-keyword>⟯) ⟮c+;<command>⟯
+⟮c+;time-specifier⟯ ::= ⟮c+;* ||⟯ ⟮c+;<time-list>⟯
+⟮c+;time-list⟯ ::= ⟮c+;<time-item>⟯⟮c+;{,<time-item>}⟯
+⟮c+;time-item⟯ ::= ⟮c+;<time>-<time>⟯⟮c+;||(<time>|*)/<time>⟯⟮c+;||<time>⟯
+```
+
+####### time specifiers
+
+cron time item|refers to
+⟮c+;*⟯|⟮c+;all relevant time units⟯
+⟮c+;<n>-<m>⟯|⟮c+;specifies a range of times n-m⟯
+⟮c+;*/<n>⟯|⟮c+;every nth unit⟯
+
+
+*|*|*|*|*|<command to execute>
+⟮c+;s∞;minute (0-59)⟯|⟮c+;s∞;hour (0-23)⟯|⟮c+;s∞;day of month (1-31)⟯|⟮c+;s∞;month (1-12)⟯|⟮c+;s∞;day of week (0-6) (Sunday is 0)⟯
+
+
+crontab job line example|does
+⟮c+;@reboot [command]⟯|⟮c+;every time your computer reboots⟯
+⟮c+;30 2 * * * [command]⟯|⟮c+;every day at 2:30 am⟯
+⟮c+;15 * * * * [command]⟯|⟮c+;every hour (at :15⟯)
+⟮c+;0,10,20 * * * * [command]⟯|⟮c+;every hour at :00, :10, :20⟯
+⟮c+;0 5-10 * * * [command]⟯|⟮c+;every day at every hour between 5 and 10⟯
+⟮c+;0 0 2 * * [command]⟯|⟮c+;every month on the 2nd at 00:00⟯
+⟮c+;0 * * * 1 [command]⟯|⟮c+;every hour, but only on mondays⟯
+⟮c+;0 * * * * [command]⟯|⟮c+;every hour (at :00⟯)
+⟮c+;*/5 * * * * [command]⟯|⟮c+;12 times an hour (every 5 minutes⟯)
+⟮c+;* * * * * [command]⟯|⟮c+;every minute always⟯
+
+####### output
+
+By default, ⟮c+;the output⟯ of ⟮c+;a cron job⟯ gets ⟮c+;sent to your email⟯.
+To ⟮c+;change the email⟯ ⟮c+;cron output gets sent to⟯, specify ⟮c+;MAILTO=somemail.⟯
+To ⟮c+;change where⟯ cron output ⟮c+;goes⟯, ⟮c+;redirect it as per usual⟯.
 
 ### kernelland
 
@@ -7502,6 +7597,8 @@ stdout   1
 stderr   2
 
 using `-` to refer to stdin or stdout is a common convention specified by posiz, but not a feature of the shell or anything else
+
+When you open a file on unixy systems, the kernel creates a file descriptor for the file using (amongst other things) the relevant the inode
 
 #### daemons
 
