@@ -124,26 +124,14 @@ Imperative and declarative programming are terms roughly correlated without impe
 often, when we talk about knowledge in philosophy, what we really mean is descriptive/declarative/propositional knowledge, e.g. most theories of knowledge are really about propositional knowledge
 Aquaintance knowledge is a kind of familiarity with the object.
 
-### philosophy of science
 
-⟮c+;Verificationism⟯ ≈ ⟮c+;Verification Principle⟯ ≈ ⟮c+;Verfiability criterion of meaning⟯
-⟮c+;Logical empiricism⟯ = ⟮c+;Logical positivism⟯
-Logical positivism/empiricism was a movement popular in the early-mid 20th century made up in part by the berlin circle and vienna circle
-The main position of logical positivism/empiricism is the verfication priciple.
-
-#### standpoint theory
-
-Standpoint theory = standpoint epistemology.
-⟮c+;Standpoint theory (or epistemology)⟯ was founded by ⟮c+;Sandra Harding⟯
-Standpoint theory/epistemology makes two claims, the situated knowledge thesis and the inversion thesis
-The inversion thesis = people inhabiting a standpoint (which is, remember, membership in a group with shared poltical consciousness) have privileged (less distorted) epistemological access to certain knowledge
-the situated knowledge thesis = knowledge is socially situated
-Standpoint theory (or epistemology) is often accused of suffering from the bias paradox
-The bias paradox is the tension between the situated knowledge thesis and the inversion thesis. That is, if all knowledge is socially situated, how can we say that certain groups have clearer access to certain knowledge?
 
 ### arguments
 
-#### reasoning / good arguments
+#### inference / good arguments
+
+inference is reasoning from the truth of some statements to others.
+Inference can be deductive, inductive, or abductive (and others, if there are other valid methods)
 
 ##### abduction
 
@@ -177,6 +165,12 @@ Arguments from authority cite cite an authority qua authority to support their c
 Arguments from authority may or may not be fallacious.
 An argument from ignorance (aka argumentum ad ignorantiam) claims that because it has not yet been proven false/true, a proposition is true/false
 
+#### razors
+
+In philosophy, a razor is a principle or rule of thumb that allows one to eliminate ("shave off") unlikely explanations for a phenomenon
+Occam's razor is the razor that states "entities should not be multiplied beyond necessity".
+Occam's razor is sometimes inaccurately paraphrased as "the simplest explanation is usually the best one."
+
 ### perspective
 
 #### emic etic
@@ -188,6 +182,20 @@ the perspective of a participant of a thing (e.g. culture)|emic|A 'bavarian' tal
 
 ⟮c+;Situatedness⟯ is the general idea that ⟮c+;our location in the social world⟯ ⟮c+;determines⟯ ⟮c+;things about us⟯, in particular our ⟮c+;understanding⟯ and ⟮c+;behaviors⟯. Connected to ⟮c+;standpoint theory⟯, but less rigorously defined. 
 
+#### standpoint theory
+
+Standpoint theory = standpoint epistemology.
+⟮c+;Standpoint theory (or epistemology)⟯ was founded by ⟮c+;Sandra Harding⟯
+Standpoint theory/epistemology makes two claims, the situated knowledge thesis and the inversion thesis
+The inversion thesis = people inhabiting a standpoint (which is, remember, membership in a group with shared poltical consciousness) have privileged (less distorted) epistemological access to certain knowledge
+the situated knowledge thesis = knowledge is socially situated
+Standpoint theory (or epistemology) is often accused of suffering from the bias paradox
+The bias paradox is the tension between the situated knowledge thesis and the inversion thesis. That is, if all knowledge is socially situated, how can we say that certain groups have clearer access to certain knowledge?
+Standpoint theory has its deepest roots in Hegel's master/slave dialectic, specifically that the slave can gain self-consciousness through their fashioning of the world (done through labour for the master)
+Lukacs idea of the standpoint of the proletariat is the idea (as a theoretical necessity, not an empirical phenomenon) that the proletariat have a superior startin point for understanding and thus changing class reality.
+Since standpoint theory is based on lukacs idea of the standpoint of the proletariat, a standpoint here is not to be understood as any old perspective, but the perspective as coming from the collective identity of a group (we might say political consciousness), generally an oppressed ( = -) group.
+Many standpoint theorists argue that this standpoint is achieved through the experience of collective political struggle.
+
 ### distinctions
 
 #### a priori/a posteriori
@@ -196,14 +204,20 @@ flex-container:<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg">
 ⟮c+;Urteil a posteriori⟯|⟮c+;Ein Urteil auf Basis von Erfahrung⟯
 ⟮c+;Urteil a priori⟯|⟮c+;Ein Urteil ohne die Basis der Erfahrung⟯
 
-### scepticism
+### explanations
+
+An explanandum is explained by an explanans.
+
+### lack of knowledge
+
+#### scepticism
 
 scepticism is generally doubt towards one or more putative instances of knowledge
 scepticism may be global or local
 local scepticism = doubt about some thesis or area of knowledge
 global scepticism = one cannot know anything to be true or false
 
-### ignorance
+#### ignorance
 
 Model from Armour:
 
@@ -214,6 +228,15 @@ Things you know   Zero-order ignorance
 ### definitions
 
 Definitions may be real, nominal, or neither.
+definiendum|Something to be defined
+definiens|Something by which something is defined
+
+
+> An elephant is a large gray animal native to Asia and Africa.
+
+
+elephant|definiendum
+a large gray animal native to Asia and Africa|definiens
 
 #### real
 
@@ -225,6 +248,12 @@ A real definition may either be intensional or extensional.
 An intensional definition's definiens specifies the necessary and sufficient condition for a definiendum X.
 Ergo, an intensional definition's definiens includes every item that falls under the definiendum and excludes every item that doesn't fall under the definiendum.
 an intensional definition of the seven deadly sins: The sins that were singled out by pope gregory I as particularyly destructive of the life of grace and charity within a person, thus creating the threat of eternal damnation.
+
+###### genus-differentia
+
+A genus-differentia specifies the genus and the differentia.
+The genus in a genus-differentia definition is what kind of thing it is.
+The differentia in a genus-differentia definition is what separates it from other members of the genus.
 
 ##### extensional
 
@@ -245,7 +274,11 @@ A dictionary definition may specifically be a type of lexical definition that is
 
 ##### stipulative
 
-##### precising
+A stipulative definition is one where we just say what a thing should mean.
+
+##### precising/explication
+
+explication is the process of making a term clearer.
 
 ##### ameliorative
 
@@ -335,6 +368,13 @@ While subjective idealism is metaphysically anti-realist, objective realis is me
 
 #### social ontology
 
+##### 
+
+Ali Khalidi argues we should distinguish two things as regards the social construction of kinds.
+The two things Ali Khalidi wants us to distinguish is whether subjects' attitudes affect kind existence and/or kind membership (or both or neighter)
+
+##### as elaborated by Ásta
+
 Ásta, in her book 『Categories we live by』 investigates social properties/categories.
 For Ásta, a social property/status consists of certain constraints and enablements in a certain context.
 To Ásta, one recieves a social property by others.
@@ -342,25 +382,25 @@ To Ásta, one recieves a social property by others.
 Ásta means her conferralist framework to apply to any social property, but cares most about categories at issue currently:sex, gender, LGBTQ, race, religion etc. 
 Asta distinguishes two kinds of social properties: institutional properties and communal properties.
 
-##### response-dependence
+###### response-dependence
 
 response-dependent property formula: ⟮c+;P is Q⟯ ⟮c+;iff⟯ it ⟮c+;induces response R⟯ in ⟮c+;being B⟯ in ⟮c+;context C⟯
 Response-dependent account of the property being-red: A thing is red iff it reduces the experience of looking red in a suitable subject in a suitable context.
 Response-dependent accounts of social properties face the criticism that they can't account for someone being mistaken in applying a property, which is particularly problematic in cases such as misgendering. A response by some has been to chagne "induces response" to "merits response", though it is unclear if this solves anything.
 
-##### constitutivity
+###### constitutivity
 
 What Ásta calls a constitutive account of social properties is ⟮c+;searles (early) account of a constitutive rule⟯
 Constitutive account of a property: X counts as Y in context C.
 Constitutive account of being-a-paperweight: a stone smaller than 10cm in diameter counts as a paperweight in the context of my des
 The constitutive account makes finding out if something has a property a merely epistemic task (was Y X, and was there context C), and X is still Y even if no one ever tries to detect the property.
 
-###### constitutive and regulative rules
+####### constitutive and regulative rules
 
 A constitutive rule creates or defines new forms of behavior.
 A regulative rule regulates existing forms of behavior.
 
-##### conferralism
+###### conferralism
 
 In Ásta's own conferralist account, in trying to track a property P1 of an individual, another social property P2 gets applied to that individual.
 The property P1 that is being tracked is known as the base property, the property that is being applied is known as the conferred property, the process of applying P2 is known as a conferral.
@@ -369,7 +409,7 @@ In Ásta's conferralist account, a property is socially signficant if it is used
 To Ásta, conferral creates the social property, which would not have existed otherwise.
 In Ásta's conferralist account, if in trying to track the base property of the physical trajectory of the ball of a pitch, the umpire confers the conferred property of a pitch being a strike, then the pitch has the social property: "is a strike".
 
-###### applications
+####### applications
 
 To Ásta, the increasing switch to saying self-identification is what is relevant to gender is a switch to self-identification as the base property being tracked.
 Ásta says that her account of social properties is faithful to Butler's idea that sex is just as constructed as gender is, since sex is just another conferred property based on certain base properties, either of which could be different.
@@ -379,7 +419,7 @@ Things that people may be tracking to confer gender: role in societal organizati
 Since gender is tracked via a variety of different base properties, people may not always get conferred the same gender. E.g. if sexual availability is being tracked by men, a lesbian woman may not get conferred the social property of woman.
 If one is not eligible to marry, but the person marries one anyway without noticing (thus failing to track the base property), the conferralist account says one will be ⟮c+;married anyway (since conferral only relies on the perception of the property)⟯ - mirroring reality, where one would also be treated as married.
 
-###### power to confer
+####### power to confer
 
 To Ásta, for a conferral to succeed, the conferrer must generally themselves have a kind of social property, either one that conveys authority or standing (these are parts of the enablements of the social property).
 Since auuthority or standing are enablements that are part of certain social properties, they themselves must first be conferred.
@@ -390,12 +430,12 @@ To Ásta, conferrals are generally not decided ad-hoc, instead people carry arou
 An example for a social map might be a pattern for how we confer gender (A "gender map").
 In case a conferral/which social map to apply is contested, either a side will win out, or different properties will be conferred in different micro-contexts.
 
-###### natural properties
+####### natural properties
 
 While social properties are aquired by virtue of something about other people (e.g. conferralism, response-dependence, etc.), natural properties are not.
 Ásta argues that if a property P is used to explain many social facts and seemingly many natural facts, but on closer inspection we can find (a) nearby property(s) that explain(s) the natural facts, then that property P is a social property. Thus, as sex as encoded on one's birth certificate explains many social facts, but the natural facts (ability to bear children, propensity for illnesses, ..) are in fact explained by chromosomes, hormones, other physical features, sex is a social property.
 
-###### virtues
+####### virtues
 
 Ásta offers two virtues of her conferralist account: The conferral aspect, and the perception aspect.
 conferral aspect|conferralism offers a story of the aquisition of a property (not just an outcome
@@ -444,28 +484,71 @@ A theory of meaning either asks 'which entities have which kind of meanings' or 
 
 #### which entities have which meanings
 
+##### propositions
+
+(given we think they exist) A proposition is the thing of a sentence that bears truth or falsity.
+(given we think they exist) Any declarative sentence S expresses a proposition P
+A similar distinction to sentence/proposition is surface form/logical form.
+
 ##### reference
 
 direct reference theory ≈ referential theory ≈ referentially realist theory.
 DR theories say the meaning of X lies in the Y it refers to.
 DR theories exist on a scale of what X they claim has meaning in virtue of the Y it refers to: Every linguistic item, only nouns, and only names.
-under DR(every linguistic item) and DR(Noun), the meaning of dog and 犬 are the idea of a dog or the set of all dogs or something of the like.
-under DR(every linguistic item) and DR(Noun) and DR(Name), the meaning of 「Greta Thunberg」is the person Greta Thunberg.
+under DR(every linguistic item) and DR(singular term), the meaning of the dog and この犬 are the idea of a dog or the set of all dogs or something of the like.
+under DR(every linguistic item) and DR(singular term) and DR(proper name), the meaning of 「Greta Thunberg」is the person Greta Thunberg.
 DR(every linguistic item) runs into problems where the reference of functional categories is unclear.
-DR(every linguistic item), DR(noun), and DR(Name) all run into problems with the lack of good canditates for the referents of nonexistent things.
+DR(every linguistic item), DR(singular term), and DR(proper name) all run into problems with the lack of good canditates for the referents of nonexistent things.
 Any DR theory may run into problems with the reference of things that gain their meaning only in larger phrases (even if nouns), e.g. a cahoot.
 Most DR theories run into the problem that simple lists of references don't mean anything.
 Most DR theories run into the problem that even lists of words that link correct word classes together (e.g. SVO in english) do not mean anything without proper grammar. 
 
+###### transparency
+
+Especially as a response to frege's second puzzle, the distinction is made between terms that are referentially transparent and opaque
+for referentially transparent terms, exchanging a term for one referring to the same entity does not alter the truth value of the sentence
+For referentially opaque terms, exchanging a term for one referring to the same identity does alter the truth value of the sentence
+The sentence "Columbus believed that Castro's island was China" is true if "Castro's island" is read transparently and false if "Castro's island" is read opaquely (since Columbus would have had no idea of Castro)
+
 ##### use theory
 
+A use theory of meaning is a theory that says the meaning of something (e.g. an expression) is constituted by how it is used, or would be used (by competent speakers, etc.)
+
 ###### wittgenstein's language games
+
+Wittgenstein argued that the essence of language was game-like
+The way(s) in which language can be like a game is/are never defined precisely, as wittengstein believes it is impossible to find anything more than a family resemblance for these language-games
+examples for wittgensteinian language games might be the meeting-and-greeting language game, the wedding language game, the higher-arithmetic language game, etc.
+Wittgenstein offers the example of the builder and their assistant, whose language only has four words/expressions, "block", "pillar", "slab", and "beam". When the builder says "block", the assistant brings a stone of the relevant shape, and so on. Wittgenstein says that while we might try to analyze these into propositions etc., the key here is that "block" etc. actually mean triggering the correct response in the assistant
+Where the Wittgensteinian theory of language games has the most problems is how to explain grammar, /r/BrandNewSentence, etc.
 
 #### by virtue of what do things have meanings
 
 ##### reference
 
+###### speaker rreference and semantic reference
+
 In looking at reference, Kripke distinguishes speaker-reference, which is the thing the speaker means to refer to, while the semantic reference is the thing it 'actually' refers to, fixed by linguistic facts etc.
+
+###### causal-historical theories
+
+A causal-historical theory is a theory of how references gain their reference
+Causal-historical theory: (the reference of) a name (or similar) is fixed by an initial act of naming/'dubbing'/'baptism', and this reference is then passed along via its usage along a chain reaching to today
+
+###### internalism and externalism
+
+semantic internalism is the view that meaning (esp. of terms) is determined by factors within the speaker
+semantic externalism is the view that meaning (esp. of terms) is determined by factors outside of the speaker, within the world ("meanings just ain't in the head")
+
+####### Twin Earth
+
+The Twin Earth thought experiment was propsed by Putnam for his argument for semantic externalism
+The Twin Earth thought expriment: 
+There is a a second earth, a complete duplicate of our earth except for the fact that there water means XYZ instead of H2O (it otherwise behaves exactly the same way) (this is not a possible world, it exists in the same universe as our earth). 
+Imagine a person 鈴木さん and Twin鈴木さん. 
+If 鈴木さん says water, they mean H2O
+If Twin鈴木さん says water, they mean XYZ. 
+However, 鈴木さん and Twin 鈴木さん's mental and bodily states are exactly the same while saying water, even though they are referring to different things. Therefore, meaning must be external to the speaker.
 
 ### direction of fit
 
@@ -509,6 +592,21 @@ A paradigm shift is when a new paradigm is adopted.
 After extraordinary research, eventually a paradigm shift happens.
 After a new paradigm is adopted, it is institutionalized and thus the revolutionary process of how it was adopted is defanged/obscured. (Kuhn)
 
+### verificationism
+
+⟮c+;Verificationism⟯ ≈ ⟮c+;Verification Principle⟯ ≈ ⟮c+;Verfiability criterion of meaning⟯
+⟮c+;Logical empiricism⟯ = ⟮c+;Logical positivism⟯
+Logical positivism/empiricism was a movement popular in the early-mid 20th century made up in part by the berlin circle and vienna circle
+The Vienna Circle of Logical Empiricism/Positivism was a group of philosophers, scientists, and mathemtaticians who met regularly at the university of vienna from 1924 to 1936, and was chaired by Moritz Schlick.
+The main position of logical positivism/empiricism is the verfication priciple.
+The »verification principle« = »verficationism« claims the only meaningful statements are those that are empirically verifiable or truths of logic. Everything else is meaningless.
+
+#### falsificationism
+
+Karl Popper introduced ＿falsificationism＿ to replace ＿verificationism＿. 
+Falsifiablity is the ability of something to be contradicted by evidence
+
+
 ## logic
 
 ### terms
@@ -538,6 +636,10 @@ Donnellan would say that "Her husband is kind to her" would hold true/ have a tr
 indefinite descriptions refer to an entity without a claim that there is merely one such entity.
 In english, indefinite descriptions use 'a(n)'.
 
+##### proper names
+
+In philosophy, a proper name is a name which (in some way) uniquely identifies its referent in the world.
+
 ### modality
 
 Modality is about the way things could (not) or must have been. It is contrasted with the actual state of affairs.
@@ -556,6 +658,7 @@ Counterfactual conditionals are conditional sentences which discuss what would h
 
 One of the main ways to bear out modal logic is in terms of possible worlds.
 Possible worlds are most associated with Kripke.
+In a simple sense, a possible world is a world that could have been if the state of affairs was somehow different.
 In modal logic using possible worlds, a sentence may have different truth values in different possible worlds.
 
 ##### rigid and flaccid
@@ -630,9 +733,11 @@ analytical philosophy mainly contrasts with continental philosophy
 
 ## critical theory
 
+"Critical Theory" may be a specific school of philosophy or a sort of theory.
 Critical Theory (capital letters) was established by the Frankfurt School.
 The Frankfurt School was established in the 1920.
 Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt School
+Critical theory as a type of theory is any sort of theory that is interested in power structures, and especially umasking hidden power structures and thus achieve "emancipation from slavery" (Horkheimer)
 
 ## structuralism & poststructuralism
 
