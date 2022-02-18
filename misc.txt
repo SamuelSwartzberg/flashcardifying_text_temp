@@ -216,12 +216,20 @@ A ⟮c+;private good⟯ is a good that is ⟮c+;excludable⟯ and ⟮c+;rivalrou
 
 ## behavioral economics
 
+Behavioral economics studies the effects of psychological, cognitive, emotional, cultural and social factors on the decisions of individuals and institutions and how those decisions vary from those implied by classical economic theory.
+
 ### econs
 
 ⟮c+;Econ⟯ is a term from ⟮c+;behavioral economics⟯ which describes ⟮c+;the beings⟯ that ⟮c+;classical economics⟯ ends up describing
 An ⟮c+;econ⟯ would always ⟮c+;make the best decision given a set of alternatives⟯
 ⟮c+;Econs⟯, in contrast to humans, never fall prey to ⟮c+;biases⟯
 ⟮c+;Econs⟯ are contrasted with (actual) ⟮c+;humans⟯
+
+### nudge theory
+
+Nudge theory proposes using nudges to influence the decision-making of groups or individuals to increase compliance with a goal.
+A nudge is a minor, non-disruptive intervention (especially one that does not forbid or impose harsh sanctions) that produces predictable changes in people's behavior.
+A fly at the bottom of an urinal to improve aim and reduce cleaning costs is a prime example of a nudge.
 
 ### bias
 
@@ -244,6 +252,13 @@ An example of ⟮c+;magical thinking⟯ would be ⟮c+;Knocking on wood will pre
 
 Mean world syndrome is a hypothesized cognitive bias wherein people (especially those not particularly in danger of violence) may perceive the world to be more dangerous than it actually is, due to long-term moderate to heavy exposure to violence-related content on mass media.
 
+##### decoy effect
+
+An option C is asymmetrical dominated when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
+In the decoy effect, there are three options A, B, and C, where C is assymerically dominated.
+In the decoy effect, the decoy is the one that is asymetrically dominated.
+In the decoy effect, people will choose the dominating option A more than if the decoy C was not present.
+
 #### statistical bias
 
 ##### selection bias
@@ -261,6 +276,15 @@ Mean world syndrome is a hypothesized cognitive bias wherein people (especially 
 
 ⟮c+;the idea of religious markets⟯ involves seeing religions ⟮c+;through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮c+;rational choice theory.⟯ ⟮hb;Thus, ⟮c+;the market goods⟯ would be ⟮c+;religions⟯, which would ⟮c+;compete⟯ in such an environment.⟯ 
 Analogous to the idea of ⟮c+;religious markets⟯ ( = ⟮c+;s2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮hb;the idea of the ⟮c+;dating market⟯ ( = ⟮c+;s9;seeing competition between dating partners through the metaphor of a market) ⟯⟯ 
+
+## unintended consequences
+
+### godharts law
+
+https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg
+
+Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.”
+Goodhart's law means that when we set one specific goal, people will tend to optimize for that objective regardless of the consequences.
 
 ## demographics
 

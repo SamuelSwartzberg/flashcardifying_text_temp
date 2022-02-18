@@ -1464,6 +1464,7 @@ Theoretically, all box alignment properties besides align-self and align-items s
 justify-* adjusts things in the inline base direction (ltr in the default setup) (unless flexbox)
 align-* adjusts things in the block flow direction (top to bottom in the default setup) (unless flexbox)
 place-* is a shorthand for align-* justify*, if only one value is specified, it generally applies to both.
+`display: grid` and `place-items: center` is a very easy way to center an item in CSS.
 
 For flexbox, what justify-* and align-* align relative to are the main axis/cross axis, respectively.
 
@@ -1704,10 +1705,7 @@ overscroll-behavior: contain will prevent scroll chaining only
 The background: property is a shorthand for ⟮c+;background-clip⟯, ⟮c+;background-color⟯, ⟮c+;background-image⟯, ⟮c+;background-origin⟯, ⟮c+;background-position⟯, ⟮c+;background-repeat⟯, ⟮c+;background-size⟯ and ⟮c+;background-attachment⟯
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
 while single values for background-repeat generally specify both x and y, there are the single values repeat-x and repeat-y that will only repeat in the specified ways.
-repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
-space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
-round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left >= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
-no-repeat|do not repeat
+background-repeat takes one or two <repeat>s
 background-color: <color>
 background-color is rendered behind background-image
 background-clip specifies where to clip the background, background-origin specifies from where the background should start, which may be the same, but often aren't
@@ -1728,7 +1726,6 @@ background-position takes a <position> value to position the background.
 
 ###### edges
 
-Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
 Shorthand for edges in CSS use a consistent syntax:
 
 1 value|specifies all sides|<img src="sm_1_border.png">
@@ -1737,6 +1734,7 @@ Shorthand for edges in CSS use a consistent syntax:
 4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_border.png">
 
 Normally, instead of using the shorthand, you can also set the properties individually by using -top(-), -left(-), -bottom(-), -right(-) properties.
+Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
 
 typically, any edge width is specified as a <length-percentage>
 <length-percentage-edges> ::= <length-percentage> [<length-percentage>] [<length-percentage>] [<length-percentage>]
@@ -1753,6 +1751,49 @@ border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
 Notably, outline is similar to border in that it is composed of -width, -style, -color, but that in contrast to border, neither it itself nor its three subproperties are shorthands for the sides, nor are there individual properties for the sides - you either set the outline on all sides, or none at all.
 Outlines can be moved away from its box via outline-offset: <length>
+
+######## border-image
+
+`border-image` allows you to use an image instead of an elements regular border
+`border-image` is shorthand for `-source`, `-slice`, `-width`, `-outset` and `-repeat`.
+most `border-image` properties take the edge shorthand, exept for `-repeat`, which only takes up to two values, and `-source`, which only takes one at most.
+none of the `border-image-whatever` has corresponding -top, -left... properties.
+`border-image-source` takes the <image> representing the border image
+`border-image-outset` takes (up to four) of <length> or <number>, where a <number> specifies multiples of `border-width`
+`border-image-width` takes (up to four of) <length-percentage> or <number>, where a <number> specifies a multiple of a border-width.
+`border-image-repeat` takes 1-2 repeats (working as 1-2 values would normally using the edge syntax)
+`border-image-slice` governs how the image specified by is divided.
+Specifically, `border-image-slice` specifies the measurements of the part of the border image taken for the corners, with the leftover being used for the sides.
+`border-image-slice` takes 1-4 <number> or <percentage> plus the optional fill keyword.
+for `border-image-slice`, a <number> without unit specifies pixels for some reason.
+for `border-image-slice`, a <percentage> specifies a propertion of the `border-image`'s size
+for `border-image-slice`, using the fill keyword specifies that the part of the image not sliced for the border (the center) should be used as a background-image for the element, but stacked above the actual `background`
+If we specified `border-image-slice: 33%`, this means that all corners would take 33% of the image, leaving 33% to be stretched/repeated/whatever for the sides.
+`border-image-slice` takes the full range of the edge syntax, but interprets it different than most: In general, the lengths describe the lengths of the sides of a single corner.
+when top/bottom/right/left are specified with the 3/4 value syntax, that works as:
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice/border-image-slice.png
+
+
+border-image-slice: 10%
+table:|10%|80%|10%|
+10%|class=no;|class=no;|class=no;|
+80%|class=no;|class=no;|class=no;|
+10%|class=no;|class=no;|class=no;|
+
+
+border-image-slice: 10% 30%
+table:|30%|40%|30%|
+10%|class=no;|class=no;|class=no;|
+80%|class=no;|class=no;|class=no;|
+10%|class=no;|class=no;|class=no;|
+10%|class=no;|class=no;|class=no;|
+
+
+border-image-slice: 20% 10% 30% 60%;
+table:|60%|30%|10%|
+20%|class=no;|class=no;|class=no;|
+50%|class=no;|class=no;|class=no;|
+30%|class=no;|class=no;|class=no;|
 
 ###### lines
 
@@ -2231,6 +2272,13 @@ for text-shadow, box-shadow and drop-shadow(), the non-length value specifies th
 box-shadow additionally may take the keyword inset, which specifies that the shadow should render inside the box instead of outside it.
 
 text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying multiple shadows.
+
+###### <repeat>
+
+repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
+space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
+round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left >= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
+no-repeat|do not repeat
 
 ### at-rules
 
@@ -7181,6 +7229,11 @@ list|list box
 any field specifier that allows multiple choices takes these choices as a `choices` array
 
 using espanso, I've created an expansion that uses `!!!` to run an arbitrary shell command and insert the results
+
+###### caveats
+
+espanso does not source any of the usual files and so doesn't get any environment variables.
+espanso also doesn't seem to set any LANG or LC variables, which may cause some issues.
 
 #### jobs
 
@@ -13225,20 +13278,35 @@ In most languages, you can only import things that were first exported.
 In most languages, import statements must be in the beginning of the file.
 In most languages, you may only export top-level items.
 Import statements have the general syntax
-
 import <members> [as <name>] from <path>
+In many systems module/index.<suffix>  can be imported as just module
+
+#### Runtime importing
+
+JS supports an import() function that allows dynamic runtime imports.
+import() returns a promise.
+
+#### in various languages
+
+##### JS
+
 in JS you can leave out `<members> from` if you only want the side effects
 
+##### Python
+
 Python instead has the order from <path> import <members> [as <name>]
+
+##### CSS
 
 In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
 @import syntax: @import <path> (<media-query>|<feature-query>);
 For CSS, the <path> may be an <url> or a <string>
 
-JS supports an import() function that allows dynamic runtime imports.
-import() returns a promise.
+##### Rust
 
 Rust uses `use` instead of import.
+
+
 
 #### SCSS/Sass 
 
