@@ -653,8 +653,11 @@ Merkele trees are used in block trees.
 
 ## logic
 
-### bitwise logic
+### bitwise 
 
+#### basic operations
+
+operation|a|b|result
 AND|0|0|0
 AND|1|1|1
 AND|0|1|0
@@ -667,6 +670,12 @@ XOR|0|0|0
 XOR|0|1|1
 XOR|1|0|1
 XOR|1|1|0
+
+#### bitmasking
+
+a bitmask is using bitwise operations to get the value of certain bits
+a bitmask using bitwise AND gets a subset of bits
+bitmasking with AND 1<sub>2</sub> returns the parity of the number (0 = even, 1 = odd)
 
 # analysis
 

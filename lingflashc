@@ -2369,7 +2369,23 @@ In the context of ⟮c+;pragmatics⟯, ⟮c+;Implicational scale⟯ has a somewh
 ##### Deixis
 
 What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮c+;deictic⟯
+
+###### vs. indexicality
+
+Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
+Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
+
+###### types of deixis
+
 Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
+
+<code>Would <mark>you</mark> like to have dinner?</code>|personal deixis
+<code>She was sitting over <mark>there</mark>.</code>|spatial deixis
+<code>It is raining <mark>now</mark>.</code>|temporal deixis
+<code>I enjoy living in <mark>this</mark> city.</code>|spatial deixis
+<code><mark>I</mark> am going to the movies.</code>|personal deixis
+
+####### spatial deixis
 
 Spatial deixis often as two or three distances, rdepending on the language.
 A language with two values for spatial deixis has the values proximal and distal.
@@ -2378,27 +2394,32 @@ A language with three values for spatial deixis has the values proximal, medial,
 For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
 Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
 
-<code>Would <mark>you</mark> like to have dinner?</code>|personal deixis
-<code>She was sitting over <mark>there</mark>.</code>|spatial deixis
-<code>It is raining <mark>now</mark>.</code>|temporal deixis
-<code>I enjoy living in <mark>this</mark> city.</code>|spatial deixis
-<code><mark>I</mark> am going to the movies.</code>|personal deixis
-
 ###### *phora
 
 *phora is about the reference of an expression.
 *phora is a form of deixis.
-[ [exophora] [endophora [anaphora] [cataphora]]
+
+####### types of *phora
+
+onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
+
+
+table:phora|reference depends on
 Exophora|reference of expression depends on outside of the text
 Endophora|reference of expression deptends on something in the text
 Anaphora|form of endophora where referent depends on something before it
 Cataphora|form of endophora where referent depends on something after it
 
+####### endophora
+
 In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
 Most often, *phora is created by proforms.
-In linguistics, binding is the phenomenon in which anaphoric elements such as pronouns are grammatically associated with their antecedents.
 Anaphora is sometimes also used as a synonym to endophora.
 "She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
+
+######## binding
+
+In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
 
 #### Hedge
 

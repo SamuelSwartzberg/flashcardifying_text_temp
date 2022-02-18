@@ -1,5 +1,8 @@
 # theoretical philosophy
 
+Theoretical and practical philosophy are often contrasted.
+Theoretical philosophy consists of (non-exhaustive) epistemology, metaphysics, logic, and philosophy of science/language/mind.
+
 ## epistemology
 
 Epistemology is the branch of theoretical philosophy concerned with knowledge.
@@ -22,6 +25,13 @@ Ravens paradox:
 Since ⟮c+;"If something is a raven, then it is black" is equivalent to "If something is not black, then it is not a raven."⟯, ⟮c+;"This green apple is not black, and it is not a raven." counts as evicence for "My pet raven is black"⟯.
 But ⟮c+;that's weird (maybe, it might also seem intuitive)⟯!
 
+#### determination
+
+Underdetermination is if a specific set of evidence eliminates some possible conclusions, but does not guarantee any single conclusion.
+Something is underdetermined if there are too few constraints to specify a unique solution.
+Overdetermination is if there are multple sets of evidence, explanations, etc., any single one would be enough to account for/determine the conclusion.
+If 太郎 and 花子 throw stones at a window, each of which would have been enough to shatter the window, the shattering of the window is overdetermined.
+
 ### knowledge
 
 the ⟮c+;KK⟯ ⟮c+;thesis⟯/⟮c+;principle⟯ is the principle "⟮c+;If you know that P⟯ ⟮c+;then you know that you know that P⟯"
@@ -30,7 +40,12 @@ Relatively uncontroversially, (propositional/declarative) knowledge is seen to b
 #### JTB
 
 JTB = Justified True Belief
+JTB was claimed to be the classical theory of knowledge, but it probably isn't actually.
 Belief in JTB is specifically the doxastic attitude of belief
+
+1. p is true (T)
+2. S beliefs that p (B)
+3. 
 
 ##### epistemic luck
 
@@ -44,20 +59,47 @@ The coin toss experiment: We arbitrarily believe that the next coin toss will la
 
 ⟮c+;the regress argument (although this is also a type of argument)⟯ = ⟮c+;dialllelus/diallelon⟯ = ⟮c+;the (epistemic) regress problem⟯
 The diallelus is one of the horns of the agrippa-trilemma, namely the idea that any proposition (premise, etc.) requires further justification and thus ends in an infinite regress.
+
+###### infinitism
+
 Infinitism is the idea that the diallelus horn is acceptable.
+
+###### foundationalism
+
 Foundationalism is one of the horns of the agrippa-trilemma, states that ⟮c+;knowledge⟯ ultimately ⟮c+;rests on certain basic beliefs⟯, which require no further justification.
 ⟮c+;Foundationalist⟯ theories mainly differ in ⟮c+;what sort of basic beliefs are posited⟯
 Things that are often posited as basic beliefs for foundationalism are: self-evident/incorrigible beliefs, beliefs from introspection, beliefs aquired via the senses, or an otherwise special kind of belief (such as decartes "clear and distinct" ideas)
 the problem with accepting ⟮c+;truthes of the senses⟯ as ⟮c+;basic beliefs⟯ is that ⟮c+;one might be mislead (e.g. descartes' demon)⟯
 
+####### sense experience
+
+######## myth of the given
+
+The myth of the given was coined by Sellars.
+The myth of the given claims the idea that there are such sense experiences that by their mere occurrence give us knowledge of the sense experiences is a myth since things like concepts and language are necessary filters for sense experiences.
+The myth of the given is interested in the gap between having the sense-experience of seeing a red triangle and the knowledge of seeing a red triangle
+According to the myth of the given, seeing a red triangle alone does not give us the knowledge that I'm having the sensation of seeing a red triangle, since the concepts (red and triangle) and language are also necessary for that knowledge
+
 ###### int/ext 
 
 Epistemological ⟮c+;internalism⟯/⟮c+;externalism⟯ is the claim that  ⟮c+;justification⟯ for knowledge depends on ⟮c+;factors that are⟯ ⟮c+;internal⟯/⟮c+;external⟯ to ⟮c+;a person⟯
 
+##### not J/new J
+
+Both the causal theory and reliabilism (and others besides) may be interpreted as giving an updated account of justification or replacing justification with a different criterion entirely.
+
+
+table:theory|criterion
+Casual Theory|S’s belief that p is caused by the fact that p.
+Reliabilism|S’s belief that p was produced by a reliable cognitive process
+Coherence|S’s belief that p is a member of a coherent set
+
+
 ##### T
 
 Correspondence theory of truth: Truth consists in a relation to reality.
-Coherence theory of truth: Truth consists in the coherence of a set of propositions
+Coherence theory of truth: Truth consists in the coherence of a set of propositions.
+Besides coherence theories of truth, there also exist coherence theories of justifcation.
 
 ##### B (doxastic attitudes)
 
@@ -99,9 +141,11 @@ the situated knowledge thesis = knowledge is socially situated
 Standpoint theory (or epistemology) is often accused of suffering from the bias paradox
 The bias paradox is the tension between the situated knowledge thesis and the inversion thesis. That is, if all knowledge is socially situated, how can we say that certain groups have clearer access to certain knowledge?
 
-### reasoning
+### arguments
 
-#### abduction
+#### reasoning / good arguments
+
+##### abduction
 
 If abduction was deductive, it would be equivalent to the fehlschluss affirming the consequent
 ```lang=text;
@@ -110,14 +154,28 @@ If abduction was deductive, it would be equivalent to the fehlschluss affirming 
 (3) Therefore: a
 ```
 
-#### induction
+##### induction
 
-##### new problem of induction
+###### new problem of induction
 
 Grue and bleen were coined by goodman to exemplify the "new problem of induction"
 Something grue will be green if observed before a fixed time t and blue afterwards
 SOmething bleen will be blue if observed before a fixed time t and green afterwards
 The "⟮c+;new problem of induction⟯" may be explained like so: Imagine a statement like "⟮c+;All emeralds are green⟯" and a statement "⟮c+;All emeralds are grue.⟯" ⟮c+;Before time t⟯, ⟮c+;both statements⟯ is/are ⟮c+;correct⟯, but ⟮c+;after time t⟯, ⟮c+;only the first⟯ is/are ⟮c+;correct⟯, that is, ⟮c+;only the first statement⟯ is/are ⟮c+;projectable into the future⟯. However, ⟮c+;before time t, we have no way to know this⟯. Therefore, ⟮c+;we have no basis to know which claims are projectable into the future.⟯
+
+
+##### by analogy
+
+Argument by analogy may or may not be a subtype of inductive arguments.
+In an analogy argument two objects A, B share a set of properties S_{p}.
+In an analogy argument, A has a property q which we don't know if B has or not.
+An analogy argument is one where we argue that since A, B share S_{p}, B must also have q.
+
+#### not about the matter
+
+Arguments from authority cite cite an authority qua authority to support their claim.
+Arguments from authority may or may not be fallacious.
+An argument from ignorance (aka argumentum ad ignorantiam) claims that because it has not yet been proven false/true, a proposition is true/false
 
 ### perspective
 
@@ -155,14 +213,50 @@ Things you know   Zero-order ignorance
 
 ### definitions
 
-Types of definition: intensional, extensional, lexical, dictionary, precising.
-An intensional definition specifies the necessary and sufficient condition for a definiendum X.
+Definitions may be real, nominal, or neither.
+
+#### real
+
+A real definition aims to give some account of the nature of the definiendum.
+A real definition may either be intensional or extensional.
+
+##### intensional
+
+An intensional definition's definiens specifies the necessary and sufficient condition for a definiendum X.
+Ergo, an intensional definition's definiens includes every item that falls under the definiendum and excludes every item that doesn't fall under the definiendum.
 an intensional definition of the seven deadly sins: The sins that were singled out by pope gregory I as particularyly destructive of the life of grace and charity within a person, thus creating the threat of eternal damnation.
+
+##### extensional
+
 An extensional definition specifies a definiendum X by listing all elements that fall under the X.
 an extensional definition of the seven deadly sins: wrath, greed, sloth, pride, lust, envy, gluttony are the seven deadly sins
 A precising definition of a definiendum X narrows the scope of X.
+
+#### nominal
+
+A nominal definition aims to give some account of the use of the word that represents the definiendum.
+
+##### lexical and dictionary
+
 Lexical and dictionary definition are synonyms when they both refer to a definition of a definiendum X that most closely matches common usage by using other words.
 A dictionary definition may specifically be a type of lexical definition that is actually found in a dictionary.
+
+#### neither real nor nominal
+
+##### stipulative
+
+##### precising
+
+##### ameliorative
+
+The idea of an ameliorative definition comes from Haslanger.
+A ameliorative definition is a definition of F that one should aim to get people to use, given a particular set of (normative) goals.
+
+### discourse
+
+#### burden of proof
+
+The burden of proof is the requirement to provide sufficent proof for ones position.
 
 ### claims
 
@@ -197,6 +291,12 @@ Ontology is the branch of metaphysics concerned with existence/being/becoming br
 
 #### qualities
 
+##### essentialism
+
+In ontology, essentialism is the view that objects have essential properties.
+
+##### primary/secondary
+
 John locke made a distinction between primary and secondary qualities.
 Primary qualities are properties that cause ideas in our mind that resemble the qualities in the objects
 Secondary qualities are properties that cause ideas in our mind that do not resemble the qualities in the objects
@@ -215,11 +315,16 @@ The problem of whether universals have an independent existance   The problem of
 
 (universal) realism|universals exist
 nominalism|universals are merely names for sets
+conceptualism|universals merely exist in the mind (but are more than mere sets)
 
 #### amount
 
 all forms of monism claim that for whatever they are about, there is only one of that thing
 all forms of dualism claim that for whatever they are about, there are two fundamental kinds of things
+
+#### time
+
+Presentism is the ontological attitude that only the present (neither the past nor the future) exists.
 
 #### reality
 
@@ -249,6 +354,11 @@ What Ásta calls a constitutive account of social properties is ⟮c+;searles (e
 Constitutive account of a property: X counts as Y in context C.
 Constitutive account of being-a-paperweight: a stone smaller than 10cm in diameter counts as a paperweight in the context of my des
 The constitutive account makes finding out if something has a property a merely epistemic task (was Y X, and was there context C), and X is still Y even if no one ever tries to detect the property.
+
+###### constitutive and regulative rules
+
+A constitutive rule creates or defines new forms of behavior.
+A regulative rule regulates existing forms of behavior.
 
 ##### conferralism
 
@@ -326,6 +436,39 @@ Something that exists ⁑independent⁑ of human senses/perceptions   Noumenon
 
 ## philosophy of language
 
+The linguistic turn is said to have brought philosophy of language as well as logic to the forefront of philosophy
+
+### meaning
+
+A theory of meaning either asks 'which entities have which kind of meanings' or 'how do certain entities end up having meanings at all'
+
+#### which entities have which meanings
+
+##### reference
+
+direct reference theory ≈ referential theory ≈ referentially realist theory.
+DR theories say the meaning of X lies in the Y it refers to.
+DR theories exist on a scale of what X they claim has meaning in virtue of the Y it refers to: Every linguistic item, only nouns, and only names.
+under DR(every linguistic item) and DR(Noun), the meaning of dog and 犬 are the idea of a dog or the set of all dogs or something of the like.
+under DR(every linguistic item) and DR(Noun) and DR(Name), the meaning of 「Greta Thunberg」is the person Greta Thunberg.
+DR(every linguistic item) runs into problems where the reference of functional categories is unclear.
+DR(every linguistic item), DR(noun), and DR(Name) all run into problems with the lack of good canditates for the referents of nonexistent things.
+Any DR theory may run into problems with the reference of things that gain their meaning only in larger phrases (even if nouns), e.g. a cahoot.
+Most DR theories run into the problem that simple lists of references don't mean anything.
+Most DR theories run into the problem that even lists of words that link correct word classes together (e.g. SVO in english) do not mean anything without proper grammar. 
+
+##### use theory
+
+###### wittgenstein's language games
+
+#### by virtue of what do things have meanings
+
+##### reference
+
+In looking at reference, Kripke distinguishes speaker-reference, which is the thing the speaker means to refer to, while the semantic reference is the thing it 'actually' refers to, fixed by linguistic facts etc.
+
+### direction of fit
+
 ⟮c+;direction of fit⟯ is how words/speech acts/language and the world conform to each other.
 there are two sets of distinctions in direction of fit: mind-to-world/world-to-mind and word-to-world/world-to-word
 A mental state where the contents of the mental state are trying to model reality has mind-to-world direction of fit.
@@ -337,16 +480,90 @@ An utterance/text/whatever where the world is changed as a reaction to the text 
 We write down the things already in our shopping cart onto a piece of paper   word-to-world direction of fit
 We put things in a shopping cart based on what's on our shopping list   world-to-word direction of fit
 
+### loaded question
+
 A ⟮c+;loaded question⟯ is a question that ⟮c+;contains a controversial assumption (presupposition⟯) (e.g. ⟮c+;s2;have you stopped beating your wife⟯)
+
+## philosophy of science
+
+Philosophy of science has existed in some form for a long time, but really gained steam from the beginning of the 20th century
+
+### paradigms
+
+The idea of paradigms, incommensurability comes from Tomas Kuhn's 1962 『The Structure of Scientific Revolutions』
+For Kuhn, two things are incommensurable if it is impossible to completely understand and translate one thing into the terms of another.
+Two paradigms are incommensurable.
+Examples for paradigms might be the germ theory of disease and Galen's miasma theory.
+In a general non-philosophical, non-mathemtatical sense, incommensurable means having no common measure.
+
+#### process
+
+Science happens in periods of normal science and scientific revolutions. (Kuhn)
+Normal science is the period where research happens under a prevailing paradigm.
+A scientific revolution is the period where a paradigm shift happens.
+The most famous scientific revolution is the transition between the worldview of Newtonian gravity and general relativity.
+During normal science, anomalies accumulate.
+Eventually, enough anomalies accumulate and science is thrown into crisis, forcing scientists to engage in extraordinary (= exploratory) research.
+During extraordinary research, new things are tried and fundamentals are debated.
+A paradigm shift is when a new paradigm is adopted.
+After extraordinary research, eventually a paradigm shift happens.
+After a new paradigm is adopted, it is institutionalized and thus the revolutionary process of how it was adopted is defanged/obscured. (Kuhn)
 
 ## logic
 
+### terms
+
+Terms may either be singular or general.
+Singular terms consist of definite and indefinite descriptions, indexicals or proper names.
+
+#### singular
+
+##### definite descriptions
+
+definite descriptions refer to an entity with the claim that there is exactly one such entity, but not by using its name
+In english, definite descriptions use 'the'.
+If a definite description's claim that there is exactly one such entity holds true, it is proper.
+If a definite description's claim that there is exactly one such entity  does not hold true, it is improper.
+
+###### attr and ref
+
+Donnelan distinguishes two usages of a definite description (generally within the context "The F is G"): attributive, where the speaker says something like "Whatever is F is G", and referential, which expresses something like "This thing, which I believe to be F, is G" (not formally logically correct formulation)
+(the default position is that) The attributive use of definite descriptions "Whatever is F is G" doesn't express anything if there is no F
+(the default position is that) The referential use of definite descriptions "This thing, which I believe to be F, is G" still says that the entity is G even if there is no F
+Donnellan would say that "The current King of France is bald" would have no truth value if there is no current king of france , it being a attributive use of a definite descriptor
+Donnellan would say that "Her husband is kind to her" would hold true/ have a truth value even if the person referred to is not her husband but her boyfriend, it being a referential use of a definite descriptor
+
+##### indefinite description
+
+indefinite descriptions refer to an entity without a claim that there is merely one such entity.
+In english, indefinite descriptions use 'a(n)'.
+
 ### modality
+
+Modality is about the way things could (not) or must have been. It is contrasted with the actual state of affairs.
+
+#### necessity and contingency
 
 necessarily true   If it can't be false
 necessarily false   If it can't be true
 A proposition is contingent if it is neither necessarily true nor necessarily false.
+
+#### counterfactuals
+
 Counterfactual conditionals are conditional sentences which discuss what would have been true under different circumstances.
+
+#### possible worlds
+
+One of the main ways to bear out modal logic is in terms of possible worlds.
+Possible worlds are most associated with Kripke.
+In modal logic using possible worlds, a sentence may have different truth values in different possible worlds.
+
+##### rigid and flaccid
+
+flaccid designator ≈ non-rigid designator ≈ connotative term
+A flaccid designator is a term that may pick out things in other possible worlds.
+A rigid designator is a term that picks out the same thing in all possible worlds in which it exists.
+Lycan paraphrases Kripke offering a test for if a term is rigid: if the sentence "N might not have been N" is true it is flaccid, else it is rigid
 
 ## Kant
 
@@ -359,16 +576,29 @@ table:style=background-color: palegreen;headerrows=0;!span=4;⟮c+;s∞;material
 
 # practical philosophy
 
+Practical philosophy consists of (non-exhaustive) Ethics, Aesthetics, and Political Philosophy
 deontic   (adj) related to necessity/duty/obligation/morality = "should"
 In a wide sense, deontology is synonymous with ethics, and in a narrow sense it is an ethical position.
 
 ## ethics
 
-### ethical hedonism
+### metaethics
+
+meta-ethics is the study of the nature, scope, and meaning of moral judgment.
+
+#### essentialism
+
+Moral essentialism claims that there are things that are wrong in an absolute/essential sense.
+
+### normative ethics
+
+Normative ethics is the study of how one ought to act.
+
+#### ethical hedonism
 
 Ethical hedonism claims that increasing pleasure and decreasing pain determines goodness/value.
 
-#### experience machine
+##### experience machine
 
 Nozick's 『Anarchy, State, and Utopia』 (1974) contains the famous experience machine thought experiment.
 Nozick's 『Anarchy, State, and Utopia』 is said to be responding to Rawls' ⟮c+;A Theory of Justice⟯ (1971)
@@ -395,11 +625,18 @@ E.g. if one wishes one wanted to eat less so one was thinner, the wish to be thi
 
 # continental philosopy
 
+analytic philosophy is said to dominate in the west and especially in the anglosphere
+analytical philosophy mainly contrasts with continental philosophy
+
 ## critical theory
 
 Critical Theory (capital letters) was established by the Frankfurt School.
 The Frankfurt School was established in the 1920.
 Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt School
+
+## structuralism & poststructuralism
+
+Postmodernism had its heyday in the 1970s and has been declining since the 90s/2000s
 
 # history of philosophy
 
@@ -418,11 +655,37 @@ The tuvel affair was seen by those who wanted to see it as such as a clash betwe
 
 spatial turn|include space in analysis
 
+# philosophy of religion
+
+## problem of evil
+
+»The Problem of Evil« is the question of how to reconcile the existence of evil/suffering with an omnipotent, omnibenevolent and omniscient God.
+A response that seeks to justify god in relation to the ＿problem of evil＿ is known as a »theodicy«.
+An example of a theodicy is Leibniz's claim that the existing world is 「the best of all possible worlds」
+Sometimes ＿theodicy＿ is also understood in a wider sense as any justification of a deity or their attributes.
+A more limited response to the problem of evil that only seeks to prove that there are possible ways to reconcile the existence of evil with omnipotence/benevolence/niscience is sometimes known as a defense.
+
+## arguments for/against the belief in god
+
+### for
+
+#### pascals wager
+
+Pascal’s Wager is the name given to an argument by Blaise Pascal for believing, or for at least taking steps to believe, in God.
+Pascal actually presents three possible wager-like arguments, of which only the final one is acutally called pascals wager.
+Pascal's wager argues that it is rational to live as though God exists and (seek to) believe in God.
+According to Pascal's Wager, it is rational to (seek to) believe in god because if God does not exist, such a person will have only a finite loss (some pleasures, luxury, etc.), whereas if God does exist, one will have infinite gains (as represented by eternity in Heaven) (and avoid infinite losses (eternity in Hell)).
+The perhaps most commonly cited objection to pascal's wager, besides the fact that it isn't really a proof of god at all, is the argument from inauthentic belief, that god would not be satisified with belief that was mrere calculation.
+
 # cross-cutting concerns
 
 ## terminology
 
 in generaly, ⟮c+;antinomy⟯ is ⟮c+;a paradox/contradiction⟯ 
+
+### disambiguation
+
+
 
 ## intext
 

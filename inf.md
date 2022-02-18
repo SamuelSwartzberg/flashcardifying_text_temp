@@ -5986,12 +5986,17 @@ The version of JSON that allows comments is often called jsonc (though there are
 
 ######## Schema
 
-JSON schemas are schemas for JSON, YAML, usually written in JSON, though they can be written in different things.
-top-level keys
+JSON schemas are schemas for data formats JSON, YAML, etc.
+JSON schemas are usually written in JSON, though they can be written in any language that supports it
+
+######### top-level keys
+
 title|title for the schema
 description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
 $id|base url for the document, similar to <base> in HTML
+
+######### child keys
 
 \$ref allows you to refer to another schema to implement the element, rather than definining it here, by passing a JSON pointer.
 format|force string to have specific format (e.g. ISO 8061)
@@ -6001,6 +6006,8 @@ pattern|specify a regex that the value must conform to
 default|specify a default value that should be assumed if a value is missing
 
 in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
+
+######### integration with other languages
 
 to use your ⟮c+;JSON Schemas⟯ as ⟮c+;TS typeings⟯ use the ⟮c+;npm package⟯ ⟮c+;json-schema-to-typescript⟯
 
@@ -6794,6 +6801,11 @@ Nonce (<span class="c1-scr">short for number once</span>) is a number (generally
 challenge–response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
 
 #### passwords
+
+##### pass
+
+- pass backup
+- pass anki-main
 
 #### CAPTCHA
 
@@ -9189,13 +9201,30 @@ A network/internet socket that has been connected to another socket (e.g. when u
 ###### TCP
 
 TCP = Transmission Control Protocol
+TCP but not UDP can deal with / solve packets arriving out of order, lost packets (retransmits them), error detection, flow &amp; congestion control
 
-####### handshake
+####### starting operations
 
-TCP three-step handshake
+TCP: Passive open -> Active open
+Passive open: The server binds to and listens at a port.
+Active open: The client starts the 3-way/3-step handshake at the port.
+
+######## TCP three-step handshake
+
 Client --SYN--&gt; Server
 Client &lt;--SYN-ACK-- Server
 Client --ACK---&gt; Server
+
+####### normal operation
+
+TCP requires the reciever to respond with an acknowledgement message for each message
+in TCP, the client must retransmit the packet if a certain amount of time passes without recieving this acknowledgement message
+
+####### segment header
+
+the TCP segment header contains 9 1-bit flags amongst which are the ones used for connection management (handshake, termination, etc.)
+TCP uses a sequence number in the header to determine the order of the bytes to allow the data to be reconstructed if out of order.
+The TCP sequence number should be unpredictable, or it is vulnerable to TCP sequence prediction attacks, where the attacker substitutes the packets.
 
 ###### UDP
 
@@ -9219,6 +9248,10 @@ octets|0 &amp; 1|2 &amp; 3
 ####### Datagram
 
 the maximum size of a ⟮c+;UDP datagram⟯ is ⟮c+;2^16 bytes⟯ (although IPv6 ⟮c+;jumbograms⟯ do allow more, and ⟮c+;headers⟯ take up some of that)
+
+###### TCP vs UDP
+
+UDP can be significantly faster than TCP because TCP may wait seconds for out-of-order messages or retransmissions of lost messages, etc.
 
 ##### layer 3
 
@@ -9267,6 +9300,7 @@ TTL exists amongst other reasons to prevent an infinite routing loop.
 
 The first major version of IP was IPv4, which is being succeeded by IPv6
 The main reason IPv6 was introduced is that there are not enough IPv4 addresses
+While IPv4 was written in dot-decimal, IPv6 is most commonly written in hexadecimal
 
 IPv4|32
 IPv6|128
@@ -9275,10 +9309,14 @@ IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 
 ######### IPv6
 
+An IPv6 address consists of 8 quibbles.
 the ⟮c+;quibbles/hextets/hexadectets/quad-nibbles⟯ of a IPv6 address are separated by ⟮c+;colons⟯
-within an IPv6 address, ⟮c+;consecutive quibbles⟯ of ⟮c+;only zeroes⟯ may be ⟮c+;replaced with <q>:­:</q>⟯, but only ⟮c+;once in an address⟯, and not for ⟮c+;a single quibble⟯
+within an IPv6 address, ⟮c+;consecutive quibbles⟯ of ⟮c+;only zeroes⟯ may be ⟮c+;replaced with `:­:`⟯, but only ⟮c+;once in an address⟯, and not for ⟮c+;a single quibble⟯
 within an ⟮c+;IPv6 address⟯, within a ⟮c+;quibble⟯, any ⟮c+;leading⟯ ⟮c+;zeroes⟯ may be ⟮c+;removed⟯
-
+because of possible ambiguity of having colons within the host of URLs, when within URLs, IPv6 addresses should be enclosed in square brackets
+```
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+```
 
 ######## division
 
@@ -9286,6 +9324,9 @@ IP addresses have always been divided between network prefix and host identifier
 network prefix is also called routing prefix
 host identifier is also called rest field or interface identifier
 How network prefix and host identifier have been divided has varied over time
+The subnet mask is the bitmask that when applied with bitwise AND yields the network prefix.
+The subnet mask is also often written in the notation of IP addresses.
+using CIDR notation, the subnet mask of whatever.whatever.whatever.0/24 is 255.255.255.0
 
 ######### History
 
@@ -9294,6 +9335,16 @@ In the very beginning (until the 1980s) what we call network prefix was called n
 In the early 80s, IP addresses transitioned to classful IP addresses.
 In classful IP addresses, there were different classes, which each had different network prefixes and host identifiers of different lengths.
 In classful IP addresses, the first or first few bits would have indicated which class it was, the next however many relevant numbers would have been the network prefix, and finally the host identifier
+One of the major problems with classful IP addresses was that the host identifier namespace was either to small or too large (either ~65k or ~16 million addresses)
+
+
+table:Class|bit header|networ prefix length
+A|1<sub>2</sub>|1 byte
+B|10<sub>2</sub>|2 byte
+C|110<sub>2</sub>|3 byte
+-|111<sub>2</sub>|〜4 lol〜 first unused, later multicast addressing
+
+
 ⟮c+;Classful IP addresses⟯ were used until ⟮c+;the early 90s⟯ (⟮c+;1993⟯) and then replaced with ⟮c+;Classless Inter-Domain Routing⟯ (⟮c+;CIDR⟯)
 
 
@@ -9302,7 +9353,10 @@ In classful IP addresses, the first or first few bits would have indicated which
 CIDR = Classless Inter-Domain Routing
 cidr-notation ::= [<IPv4-addr>]/<int-0-32>
 ⟮c+;CIDR notation⟯ indicates ⟮c+;the length⟯ of ⟮c+;the network prefix⟯ (equivalently: ⟮c+;the amount of leading 1-bits⟯ of the ⟮c+;network mask⟯) as an ⟮c+;integer⟯, normally ⟮c+;after the IP address⟯ separated by ⟮c+;a `/`⟯
+if CIDR notation is used with no IP address, it describes networks with the relevant split between network prefix and host identifier
 /24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
+Using CIDR, to indicate a super/subnet/CIDR block, you may either use the network identifier address (e.g. 198.51.0.0/16), or only include the filled bits of the address (198.51/16)
+198.51.100.14/24 is saying that this address has a network prefix of 24 bit length (198.51.100) and a host identifier of 8 bit (14)
 
 ########## CIDR blocks
 
@@ -9312,7 +9366,9 @@ A CIDR block is a group of IP addresses sharing the same network/routing prefix.
 ⟮c+;CIDR Blocks⟯ ≈ ⟮c+;network/routing prefixes⟯ may be ⟮c+;further subdivided⟯, with ⟮c+;more and more⟯ of the IP address being looked at to ⟮c+;direct the traffic⟯
 A CIDR block A which is completely contained within another CIDR block B is a subnet of B, B is a supernet of A.
 All networks are implicitly subnets of the IP address space.
-a ⟮c+;supernet(work)⟯ has a ⟮c+;shorter⟯ ⟮c+;network prefix⟯, whose ⟮c+;subnets⟯ will have a ⟮c+;longer⟯ ⟮c+;network prefix⟯ that ⟮c+;starts with⟯ the ⟮c+;supernet⟯&nbsp; ⟮c+;network prefix⟯
+a ⟮c+;supernet(work)⟯ has a ⟮c+;shorter⟯ ⟮c+;network prefix⟯, whose ⟮c+;subnets⟯ will have a ⟮c+;longer⟯ ⟮c+;network prefix⟯ that ⟮c+;starts with⟯ the ⟮c+;supernet⟯&nbsp; ⟮c+;network prefix⟯ 
+Note: Not all possible CIDR block sub/supersets are actual sub/supernets!
+The process of forming a supernet is called supernetting or prefix/route aggregation/summarization
 the largest ⟮c+;CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮c+;/8⟯ (⟮c+;16 million⟯ addresses)
 
 ######### broadcast & network identifier
@@ -9340,13 +9396,15 @@ IPv6 reserves only a single loopback address, which is ­:­:1
 
 The private IPv4 address blocks sorted from largetst to smallest are: ⟮c+;10.0.0.0⟯/⟮c+;8⟯, ⟮c+;172.16.0.0⟯/⟮c+;12⟯, ⟮c+;192.168.0.0⟯/⟮c+;16⟯
 (100000 = Prof X dual-wielding dual swords, 172160 = Android 17 outrunning a caravan of refugees, 192168 = Anakin skywalker outrunning a dragon)
+a private network is a computer network that uses a private address space of IP addresses, most often used for LANs
 
 ####### NAT
 
 NAT = Network Address Translation
 ⟮c+;NAT⟯ ⟮c+;maps one IP address space to another⟯ by ⟮c+;modifying the info in the IP header⟯
 NAT could be one-to-one or one-to-many, generally one-to-many is implied
-For one-to-many NAT, most commonly the combination of IP address and port number is sued to unabiguously identify the reciver
+For one-to-many NAT, most commonly the combination of IP address and port number is sued to unabiguously identify the reciver.
+For one-to-many NAT, the client port is additionally used disambiguate the reciever (which is possible since the client port is arbitrary anyway)
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
 the form of NAT where ⟮c+;the combination of IP address and port number is used to identify the recipient⟯ may also be known as ⟮c+;NAPT⟯ (⟮c+;network address and port translation⟯) , ⟮c+;PAT⟯ (⟮c+;port address translation⟯) or ⟮c+;IP masquerading⟯ amongst others
 
@@ -14965,6 +15023,12 @@ TDD core loop:
 #### things used
 
 A test double is a thing that replaces a production thing in testing
+Types of test doubles: dummys, fakes, sutbs, mocks
+
+dummys|passed but never used|never used, but take up space? dummy thicc
+fakes|working implementations but use some shortcut (e.g. database in memory)|fake a part of their implementation
+stubs|provide predefined answers/return values (instead of figuring them out)|similar to method stubs
+mocks|make sure the method was called on it properly|ock the method that was called on them till it behaves properly (no, I've got no idea here)
 
 #### types of tests
 
