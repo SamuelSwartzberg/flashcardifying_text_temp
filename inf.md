@@ -14998,7 +14998,8 @@ Kanban board tools: trello, github projects
 
 ### CI/CD2
 
-CD|Continuous delivery OR deployment
+#### CI
+
 CI|Continuous Integration
 
 Before CI, integration would only happen once every few weeks or months
@@ -15007,15 +15008,143 @@ The two main goals of CI are to reduce the pain of any integration, and to be ab
 
 If a build failure happens in CI, the build should be fixed before work continues.
 
+#### CD2
+
+CD|Continuous delivery OR deployment
+
 continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
 ⟮c+;Continous deployment⟯ ⟮c+;relies on⟯ ⟮c+;continous delivery⟯
 A nightly build is one that is built every night, generally automatically
 
+#### pipelines
+
 CI/CD requires certain steps such as testing to happen on any integration.
 A CI/CD pipeline specifies the set of steps to happen on each integration.
 The most common tools to implement a CD/CI pipeline are Jenkins, CircleCI, Travis CI or github actions.
 
+##### GH Actions
+
+###### filess
+
+stuff for github actions is stored in a .github directory.
+
+###### basic structure
+
+A workflow is triggered by an event.
+A workflow consists of one or more jobs.
+jobs can run in sequential order or in parallel.
+Thus, jobs can relate to each other in complex ways as dependencies.
+Each job runs in its own runner.
+A job consists of one or more steps.
+Steps either run a script or an action.
+An action is a reusable building block.
+
+####### workflows
+
+A workflow is defined by a YAML file.
+Your repository can have as many workflows as you like.
+
+####### events
+
+Events are certain actins taken on the repo.
+Besides by events in the narrow sense, workflows can also run on a schedule, by POSTing to a REST API, or manually.
+
+####### jobs
+
+You can share data between steps of a job.
+
+####### actions
+
+The repository for actions is the github marketplace.
+
+####### runners
+
+A runner is a VM.
+You can use runners provided by GH, or host your own runners.
+Github provides ubuntu, windows and macos runners.
+
+####### artifacts
+
+artifacts are files or collection of files.
+artifacts allow persisting of data after a job has finished, either for use in a different job or as workflow output.
+artifacts are uploaded/created via the actions/upload-artifact action
+artifacts are downloaded/used via the actions/download-artifact action
+artifacts are referred to for the purpose of using them via downloaders or as workflow output with a `name`
+artifacts are uploaded by specifying their `path`
+once artifacts have been downloaded by using their `name`, they are used by referring to their path.
+
+####### expressions
+
+Expressions are a mini-programming language within workflow files.
+expressions must generally be surrounded in ${{}} unless in an if-key
+Expressions use a syntax reminiscent of JS.
+Expression tend to use functions, and not methods.
+
+######## contexts
+
+contexts contain information about something related to the repo or github actions.
+Each context is an object with certain properties.
+Pretty much any ＊thing＊ (e.g. job, step, runner, etc.) in the actionverse has its own context.
+you refer to contexts as expressions.
+many context properties also exist as corresponding environment variables.
+
+###### workflow YAML syntax
+
+####### toplevel
+
+`name` specifies what to call the workflow
+`on` takes a sequence of triggers for a workflow
+`jobs` takes a mapping of jobs.
+
+####### jobs
+
+`run-on` specifies the runner you want
+`steps` takes a sequence of steps.
+
+####### if
+
+a step may take the `if` key, which takes an expression to only conditionally execute this step.
+
+success()|Returns true when none of the previous steps have failed or been canceled.
+cancelled()|Returns true if the workflow was canceled.
+failure()|Returns true when any previous step of a job fails.
+
+####### steps
+
+######## actions
+
+######### uses
+
+`uses` is used to specify an action to run for a step.
+If the action is defined in the same repo, `uses` can take the path of the action.
+If the action is not defined in the same repo, `uses` takes it as <owner>/<repo>@<ref>
+If the action is defined in a container published on the docker hub, `uses` takes it as docker://<image>:<tag>
+
+the @<ref> part of referring to gh actions may be a tag, a commit SHA, or a branch.
+
+######### with
+
+the `with` key is used to provide arguments to the action.
+
+######## CLI
+
+`run` is used to specify a command to run for a step.
+`run` can take a multiline string, of which it will then run all lines as commands sequentially
+when using `run` for a step, `shell` specifies which shell to use (e.g. bash)
+
+####### env
+
+an `env` key contains key-value pairs that will be provided to the script as environment variables.
+You can specify `env` on a workflow, job or step.
+
+###### actions YAML syntax
+
+the actions YAML file has the toplevel keys `inputs` and `outputs`, both taking mappings, to define the inputs and outputs.
+
+###### GUI
+
+You can view GH actions in the `actions` tab of the repository.
 
 ### code writing enviroments
 
