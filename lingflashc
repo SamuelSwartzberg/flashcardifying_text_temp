@@ -3651,7 +3651,7 @@ base-char ::= b|d|x
 
 abnf-rule ::= rule = <definition> [; <comment>]<CRLF>
 
-<n>*<m><rule>|repetitions from n to m
+<n>*<m><rule>|repetitions from n to m (where leaving out either is infinity)
 <n><rule>|repetitions of n times
 ()|group
 /|alternation
@@ -3667,6 +3667,9 @@ predefined rules
 LWSP = 	*(WSP / CRLF WSP)
 WSP = SP / HTAB	
 DIGIT = a digit 0 - 9
+ALPHA|upper/lowercase ascii char
+DIGIT|deximal digits
+VCHAR|an ascii visible char
 
 #### RFC 2119
 

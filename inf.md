@@ -1745,6 +1745,12 @@ typically, any edge width is specified as a <length-percentage>
 
 margin: auto can be used to center a thing horizontally, but not vertically
 
+######## logical properties
+
+logical properties are a set of properties that respect the block-flow-directrion or inline base direction.
+logical-property ::= [margin|padding|border]-[block|inline]-[start|end]
+the border logical property can be split into width, style and color as per usual.
+
 ####### Border & outline
 
 border can also be seen as a shorthand for border-top, border-right...
@@ -2272,6 +2278,8 @@ for text-shadow, box-shadow and drop-shadow(), the non-length value specifies th
 box-shadow additionally may take the keyword inset, which specifies that the shadow should render inside the box instead of outside it.
 
 text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying multiple shadows.
+
+To make text blurry in CSS, make it's color transparent and set a text-shadow.
 
 ###### <repeat>
 
@@ -9969,15 +9977,37 @@ Currently, the standard for ⟮c+;IETF language tags⟯ on the internet is ⟮c+
 BCP 47: ⟮c+;&lt;primary-language&gt;⟯⟮c+;[-&lt;extended-language&gt;]⟯⟮c+;[-&lt;script&gt;]⟯⟮c+;[-&lt;region&gt;]⟯⟮c+;[-&lt;variant&gt;]⟯⟮c+;[-&lt;extension&gt;]⟯⟮c+;[-&lt;privateuse&gt;]⟯ 
 BCP 47 language tags should be kept ⟮c+;as short as possible⟯. 
 
+##### subtags
+
+###### primary language
+
 The ⟮c+;primary language⟯ subtag of ⟮c+;BCP 47⟯ is specified as ⟮c+;a language code⟯. 
 A ⟮c+;language code⟯ consists of ⟮c+;2 or 3 letters⟯. 
 ⟮c+;Language codes⟯ are standartized in ⟮c+;ISO 639.⟯ 
 ⟮c+;3-letter language codes⟯ are standartized ⟮c+;in ISO 639-2 and -3⟯. 
 ⟮c+;2-letter language codes⟯ are standartized ⟮c+;in ISO 639-1⟯. 
+
+###### other
+
 ⟮c+;extlang (extended language⟯) subtags are for ⟮c+;sublanguages of a given language (e.g. hakka chinese, the variants of arabic⟯) 
 ⟮c+;script⟯ subtags&nbsp;are for ⟮c+;writing systems⟯, and always ⟮c+;4 characters long⟯ 
 ⟮c+;region⟯ subtags are for ⟮c+;locations (countries, other geo regions⟯) 
 ⟮c+;variant⟯ subtags&nbsp;are for ⟮c+;dialects or other variations (however, use other tags if possible⟯) 
+
+###### extension
+
+bcp-extension = (ALPHA/DIGIT) 1*( "-" 2*8(ALPHA/DIGIT) )
+
+currently, for the initial char/digit of a BCP extension, only two are defined (or maybe that's only for `Intl`?): u and t
+
+u alllows additional customization, specified as <key>-<value>
+t indicates that it was transformed from the following locale
+
+###### private use
+
+bcp-private-use = x 1*( "-" 1*8(ALPHA/DIGIT) )
+
+##### examples
 
 BCP 47 language tag|meaning
 ⟮c+;en⟯|⟮c+;english (no further info⟯)
@@ -9992,7 +10022,7 @@ tag|problem
 ⟮c+;it-IT⟯|⟮c+;unneccesary specification of IT (italian as spoken where else?⟯)
 ⟮c+;es-Latn⟯|⟮c+;Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)
 
-
+#### in HTML
 
 In HTML, the ⟮c+;language of the document⟯ should be indicated with ⟮c+;a lang attribute⟯ ⟮c+;on &lt;html&gt;⟯o 
 In HTML, ⟮c+;anything that is not in the language indicated on &lt;html&gt;⟯ should be ⟮c+;indicated by an element with a lang attribute.⟯ 
@@ -11584,9 +11614,6 @@ It seems to me that all non-array linear collections only allow sequential acces
 
 ##### Linear collection methods
 
-sort the thing
-sort()|Perl|Python (in-place!)|Ruby
-
 reverse the thing
 reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 
@@ -12634,7 +12661,10 @@ In many languages, sort sorts with a predefined sorting algorithm if no sorting 
 In some languages sort does not take a sorting function, instead only using the predefined sorting algorithm, in those languages sort is not a higher-order function.
 
 sorted(foo)|Python (takes an iterable)
-foo.sort()|JS (takes an optional sort function, only Arrays)
+foo.sort(callback)|JS (takes an optional sort function, only Arrays)
+foo.sort()|Python (in-place!)
+foo.sort(may be callback or nothing)|Ruby
+
 
 ##### filter
 
@@ -14259,6 +14289,42 @@ for chrono `Duration`s there are a bunch of constructors for different amounts o
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
 Weekdays in chrono are implemented by the enum chrono:&#8203;:Weekday and the variants( :&#8203;:Mon,  :&#8203;:Tue,...)
 
+### internationalization
+
+table|library/object|language
+`Intl`|JS
+
+#### Intl
+
+The `Intl` object contains a bunch of constructors for creating internationalized versions of different types of things (dates, numbers, plurals, lists).
+Most `Intl` constructors take at least a locale or array of locales as well as an options object.
+If a list of locales is specified, it is interpreted as a priority hierarchy.
+
+##### locale specification
+
+Using `Intl`, locales are specified according to BCP 47.
+Locales for `Collator`, `NumberFormat` or `DateTimeFormat` may include additional specification in BCP extension format, however these same options can also be set in the options object.
+
+##### objects
+
+Any object created by the various constructors on `Intl` besides `Intl.Locale` feature a `resolvedOptions()` method which returns the computed options based on the extension part of the BCP locale specifier and the options object.
+
+###### collator
+
+A `Intl.Collator` is there to allow comparison and thus string ordering on a language-sensitive basis.
+`Collator.compare` uses the same interface as the callback `Array.sort`.
+
+###### locale
+
+`Intl.Locale` grants an easy interface to return the parts of the BCP string that defined the locale, as well as some other information about how that locale does things.
+
+###### datetimeformat
+
+An `Intl.DateTimeFormat` has four methods to format specific dates.
+`DateTimeFormat.<whatever>()` returns a string, while `DateTimeFormat.<whatever>ToParts()` returns an array of the parts this would format to.
+`DateTimeFormat.format[ToParts]()` takes one `Date` and returns a simple time
+`DateTimeFormat.formatRange[ToParts]()` takes two `Date`s and returns a range of dates (e.g. separated by a hyphen in english)
+
 ### Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
@@ -14869,6 +14935,20 @@ indent/outent a line|⟦⌘⟧ ⟦]⟧/⟦[⟧
 
 ###### vscode elements
 
+####### workspace
+
+most of the time, a vscode window contains one vscode workspace.
+A vscode workspace contains one (or more, with multi-root workspaces) open root directory(or -ies).
+per-workspace items are placed in the root directory's .vscode directory
+Opening a directory in vscode spawns a workspace with this directory as the root directory.
+By default, UI state persists on a per-workspace basis.
+
+######## multi-root workspaces
+
+Multi-root workspaces are opened by opening a .code-workspace file.
+A .code-workspace file is a JSON file that lists the folders of the workspace.
+
+
 ####### groups
 
 In vscode, a editor group is a group of one or more open editors
@@ -14955,6 +15035,17 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 ⟮c+;ø⟯|⟮c+;1⟯
 ⟮c+;shift⟯|⟮c+;10⟯
 ⟮c+;command/ctrl⟯|⟮c+;100+⟯
+
+##### settings
+
+###### scope
+
+vscode settings can either be per-workspace or per-user (i.e. global).
+
+##### extensions
+
+Extensions allow changing the functionality of a code editor.
+In vscode, you can activate extensions globally or only for a workspace.
 
 ##### code snippets
 
@@ -15710,6 +15801,75 @@ npm lifecycle scripts (non-deprecated): prepare, prepublishOnly, prepack, postpa
 A set of predefined npm scripts have aliases where you can run `npm <name>` instead of `npm run <name>`
 Among those: npm build, start, stop, test.
 `npm test` can further be abbreviated `npm t`
+
+#### vscode tasks
+
+Vscode tasks are used to integrate external task runners, build tools, and pretty much anything else you can run in a CLI into vscode.
+Vscode tries to auto-detect tasks, but you can also define custom ones.
+VS Code currently auto-detects tasks for the following systems: Gulp, Grunt, Jake, and npm.
+Custom tasks are defined in a `tasks.json`.
+Tasks can either be user or workspace level.
+
+##### running tasks
+
+⟦⇧⟧ ⟦⌘⟧ ⟦b⟧ opens a picker for running a build task, or runs the default one if it is specified.
+entering the `task` keyword into quick open will also show a list of tasks to run.
+
+##### task groups
+
+##### custom tasks
+
+various commands allow you to create a tasks.json with a default template.
+
+Running `configure task` from the command palette or as an option of the build task picker will create a workspace task.
+
+###### tasks.json
+
+Within `tasks.json`, the `tasks` array contains a sequence of task objects.
+
+table:task property|meaning/values
+label|text label in UI
+type|either `shell` or `process`, meaning interpret it as a shell command or as a process to execute
+command|command to execute
+group|specify the group the task belongs to
+presentation|specifies how the task output is handled in the UI
+options|allow overriding the `cwd`, `env` and `shell`.
+runOptions|define when a task is run.
+
+while you can provide the whole command to `command` such as e.g. `mv foo/bar quuz/leroy`, you may also separate the arguments into an `args` array.
+```
+"command": "mv",
+"args": ["foo/bar", "quuz/leroy"],
+```
+the array of `args` for vscode tasks may also take an object for each arg specifying the escaping/quoting style.
+The escaping/quoting style of a vscode tasks may be 
+escape|escape spaces
+strong|quote with quotes forbidding evaluation within (`'` on *nix)
+weak|quote with quotes allowing evaluation (`"` on *nix)
+
+```
+{
+  "label": "dir",
+  "type": "shell",
+  "command": "dir",
+  "args": [
+    {
+      "value": "folder with spaces",
+      "quoting": "escape"
+    }
+  ]
+}
+```
+
+####### composing tasks
+
+You can compose tasks out of simpler tasks with the `dependsOn` property.
+the `dependsOn` property takes an array of other tasks to run.
+`dependsOrder` allows specifying how the order of tasks in the `dependsOn` array will run.
+
+####### output behavior
+
+https://code.visualstudio.com/docs/editor/tasks
 
 ### mapping
 
