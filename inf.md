@@ -4514,6 +4514,8 @@ tree|print a directory tree
 tree -L <n>|go to depth n
 ls|list file in directory
 
+ls detects if it's in a terminal and outputs with newlines as separators if its not, and with spacing if it is.
+
 -s|display files and directories with their sizes
 -S|sorting by size in output
 -F|list all files and directoreis annotated with /*@
@@ -9798,12 +9800,15 @@ Most dev tools have source map support built in.
 PageSpeed Insights|Lab data & realworld data|Web Vitals|only website by default
 Lighthouse|only lab data|Web Vitals & other data|GUI (devtools & website), CLI, CI pipeline
 
+######## Lighthouse
+
 Lighthouse's Performance audits provides a grade consisting of (the scores of individual) metrics, but also offers opportunities and diagnostics::d... as ways to improve the metrics
 Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibility, and SEO.
 
 ⟮c+;Web Vitals⟯ are the stats that ⟮c+;google⟯ measures to judge ⟮c+;the user experience of your websites⟯
 ⟮c+;Core Web Vitals⟯ are the subset of ⟮c+;Web Vitals⟯ that ⟮c+;apply to all web pages (and are thus considered very important)⟯
 as of 2020, there are 3 core web vitals
+
 Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals & Lighthouse Metrics
 First Input Delay|Core Web Vitals 
 First Contentful Paint, Speed Index, Time to Interactive, Total Blocking Time|Lighthouse Metrics
@@ -10197,10 +10202,7 @@ However, in ⟮c+;Rust⟯ (and in ruby to, though its weird, as blocks have the 
 ⟮c+;Curly-brace/bracket languages⟯&nbsp;are defined as languages that ⟮c+;use curly-braces⟯ ⟮c+;to define blocks⟯. 
 Many programming languages have been influenced by C, sometimes called C-family languages.
 C was a curly-brace language, and so many C-family language are curly-brace languages.
-(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {} (but also via `()`)
-bash calls its block statements command grouping.
-bash block statements/command grouping is what is used by bash functions.
-The difference between bash block statements using () and using {} is that () spawns a subshell and thus a new scope, while {} executes the commands in the current shell.
+
 Examples of ⟮c+;curly-brace/bracket languages⟯ I can write are ⟮c+;C#⟯, ⟮c+;ECMAScript⟯ -&gt; {⟮c+;Javascript⟯, ⟮c+;TypeScript⟯}, ⟮c+;Java⟯, ⟮c+;Perl⟯, ⟮c+;Rust⟯, SCSS (but not Sass). 
 Most ⟮c+;curly-brace/bracket languages⟯ ⟮c+;are thus because they are strongly influenced by⟯ ⟮c+;C⟯. 
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
@@ -10212,6 +10214,14 @@ In some languages, notably Ruby and Rust, block expression return the value of t
 
 liquid|{% keyword %} ... {% endkeyword %}
 python|Sass|indentation
+
+#### bash
+
+In bash, compound commands includes all control structures and block statements (which bash calls command grouping).
+(ba)sh is not generally a curly-brace language, but it still allows creating block statements via {} (but also via `()`)
+bash calls its block statements command grouping.
+bash block statements/command grouping is what is used by bash functions.
+The difference between bash block statements using () and using {} is that () spawns a subshell and thus a new scope, while {} executes the commands in the current shell.
 
 ### control structures
 
@@ -10351,15 +10361,15 @@ in rust, `while let` instead of `while` allows for a while with pattern matching
 
 A collection-controlled loop is a loop that loops over all elements of a thing.
 Collection-controlled loops are commonly called foreach loops.
-  Collection-controlled loops most commonly start with the keyword `for`, but then feature a different syntax than count-controlled loops. In perl, they instead start `foreach`.
-  Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
-  Lua: for &lt;expression&gt; do
-  bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
-  Java: for (<type> <element> : <iterable>) ...
-  JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
-  In a JS forin loop, the thing assigned to the variable is the key, not the value.
-  for (<variable> of <iterable>) ...
-  SCSS: @each <variable> in  <iterable>
+Collection-controlled loops most commonly start with the keyword `for`, but then feature a different syntax than count-controlled loops. In perl, they instead start `foreach`.
+Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
+Lua: for &lt;expression&gt; do
+bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
+Java: for (<type> <element> : <iterable>) ...
+JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+In a JS forin loop, the thing assigned to the variable is the key, not the value.
+for (<variable> of <iterable>) ...
+SCSS: @each <variable> in  <iterable>
 Some languages have collection-controlled loops that are called as methods on a collection or iterable (these are higher-order fucntions)
 iterable/enumerable.each(block)|Ruby
 somearr.forEach(anonFunc)|JS
@@ -11371,7 +11381,14 @@ Integer literals generally not overtly marked
 
 In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
-TODO: Check the above sentence and add more understanding on the difference between a float and a double-precision float on a conceptual level as distinct from how programming languages call them.
+
+##### single and double precision
+
+single-precision floating point numbers are floating point numbers stored in 32 bit of storage.
+double-precision floating point numbers are floating point numbers stored in 64 bit of storage.
+A single-precision floating point number typically has 1 bit sign bit, 8 bits for the exponent, and 23 (stored) bits for the significand
+A double-precision floating point number typically has 1 bit sign bit, 11 bits for the exponent, and 52 (stored) bits for the significand
+In JS, all Numbers are double-precision floating points.
 
 #### methods
 
@@ -12226,6 +12243,8 @@ In liquid, the order of operatons is right to left, parentheses are forbidden.
 
 In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
 
+#### standard relational operators
+
 ~=|not equals|lua
 !=|not equals|C#|Java|JS
 ==|equals|most programming languages
@@ -12235,19 +12254,39 @@ In computer science, a relational operator is an operator that tests or defines 
 &lt;|less than|most programming languages
 <=>|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
 
-Python uses the `is` operator when comparing equality of location in memory
-
-JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing < or > coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
+#### types of equality
 
 For anything that is a data structure, there can be two kinds of equality (using Kotlin terminology)
 structural equality = equivalent content
 referential equality = same reference
-JS, Java, C# use referential equality on non-scalars
-Ruby and Python use structural equality on non-scalars (arrays and assoc. arrays)
+Most languages use structural equality for scalars.
+comparison operators for non-scalars use...
+referential equality|JS, Java, C#
+structural equality|Ruby, Python, TS
+
+##### `is`
+
+Python uses the `is` operator for referential equality
+
+#### strings
+
+greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
+
+#### in different languages
+
+##### JS
+
+JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing < or > coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
+
+##### test
 
 since relational operators are handled by test in sh, they are actually all arguments to test.
 
-test uses the normal equality operators for strings, but has a different set of operators for integer equality:
+test uses the normal equality operators (e.g. !=, >, etc.) for strings, but has a different set of operators for integer equality.
+test uses the single (!) = sign for string comparison, though bash has a non-POSIX extension that allows for the more standard ==
+
+###### integer equality
+
 -ne|is not equal to
 -lt|is less than
 -le|less than or equal to
@@ -12256,24 +12295,36 @@ test uses the normal equality operators for strings, but has a different set of 
 -eq|is equal to
 Perl uses sh-style comparison operator without the leading -
 
+###### fs equality/existence
+
 test has a number of options/operators for file existence and type
 
 -e foo|foo exists and is a file
 -d foo|foo exists and is a directory
 -r foo|allowed to read foo
 
-greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
+###### [[
+
+[[ is an extension of `test`\[ which allows for a syntax superset (mostly)
+specifically, [[ but not test/[ allow for && and || for multiple conditions, () for grouping, pattern matching on the right hand side of =/== and the use of ~= for regex matching.
+^in fact, POSIX test also doesn't support < and > natively, but these are so commonly supplemented that it's kinda pointless to claim that test doesn't have them
+^in fact, POSIX does support grouping with \(\) and and/or with -a, -o, but both of these features are super limited, error-prone, and are marked deprecated, so it makes more sense to say `test` doesn't have them.
+Within [[]], in contrast with test/[], there will be no word splitting or globbing.
+[[]] and most versions of test allow `!` to negate an entire expression
+
+#### comparison with self
+
 Comparing a thing with itself is always true, except for: 
 in JS, NaN
 
-##### interfaces
+#### interfaces
 
 Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
 
 is x between foo and bar?
 x.between?(foo, bar)|Ruby
 
-#### string relational operators
+#### string relational operators used in a set of a language
 
 e.g. CSS attribute selectors, youtube-dl 
 
@@ -14369,7 +14420,7 @@ A `Intl.Collator` is there to allow comparison and thus string ordering on a lan
 ###### datetimeformat
 
 An `Intl.DateTimeFormat` has four methods to format specific dates.
-
+the methods of `DateTimeFormat` take (a) `Date`(s) and return strings.
 
 ###### displaynames
 
@@ -14389,6 +14440,23 @@ new Intl.DisplayNames(['de'], { type: 'currency', style: "long" }).of("USD") // 
 
 `Intl.ListFormat` is for creating readable lists of arrays
 `type` for  the `Intl.ListFormat()` constructor takes a value `conjunction`, `disjunction` or `unit`.
+
+###### numberformat
+
+`Intl.NumberFormat` is for formatting numbers.
+The `NumberFormat` constructor options object takes about a bajillion options specifying things like notation, sign, sigfigs, units, currencies, separators, rounding etc. in excruciating detail.
+The `format` methods of `NumberFormat` take numbers and return strings.
+
+###### relativetimeformat
+
+`Intl.RelativeTimeFormat` allows formatting of relative time (i.e. tomorrow, in 27 minutes)
+the `format` methods take two arguments, a number value and a `unit`, which is something like year, mont, week, day...
+
+###### segmenter
+
+`Intl.Segmenter` is a locale-sensitive segmenter (instead of something like `split()`) 
+The `Segmenter` constructor options object takes `granularity`, which can take the values `grapheme`, `word`, or `sentence`.
+A `Segmenter` is applied by calling `segment` with the string to be segmented.
 
 ### Standard library
 

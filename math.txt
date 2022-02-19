@@ -82,7 +82,6 @@ Vigesimal|20
 
 Any positional numeral system can display any real numbers, though some have repeating digits (depending on the system)
 
-
 #### sigfigs
 
 significant figures are a function of a positional numeral system.
@@ -123,6 +122,42 @@ in programming, the base of the number is often indicated by a prefix
 0b|binary|pretty much all programming languages
 0|octal|JS (non-strict)
 0o|octal|JS both strict and nonstrict
+
+#### radix point
+
+The radix point is a symbol that separates the point where the value of the exponent signified by the position goes negative.
+The radix point is usually written as a `.` in english.
+the decimal separator is the name for the radix point using decimal notation.
+
+#### exponent-based notation
+
+the multiplicative factor in scientific and exponent-based notation is called the significand
+scientific notation and floating-point notation is a variant of positional numeral systems.
+scientific notation and floating-point notation consist of a significand and a part 10^n
+The opposite of floating point notation is fixed-point notation.
+
+##### difference
+
+normalized scientific notation keeps the significand between 1 and 10.
+Instead, floating point notation may have a significand of any size.
+
+##### scientific notation
+
+Sometimes, scientific notation uses e<n> instead of *10^<n>
+
+##### floating-point
+
+Floating point is called such since storing the exponent is equivalent to storing the position of the radix point.
+Since the exponent in effect stores the position of the radix point, the significant itself is implicitly an integer.
+Floating point allowing storing a number as two components, exponent and significand, improves storage and processing speed.
+not only can floating point be used to store non-integers, it can also be used to store much larger numbers (since a large part of the size can just be stored as increases in exponent)
+However, floating point notation in computers of course does not use decimal, but binary, so it really is significand * 2 ^ exponent.
+Computers use floating point notation for non-integers (hence floats).
+However, since computers use floats, instead of say storing the fraction itself, computers may have problems related to adding any number whose binary positional numeral representation repeats, leading to the well-known 0.1 + 0.2 != 0.3 problem.
+The confusion with 0.1 + 0.2 != 0.3 comes from that we write numbers as decimal, which has a set of numbers which it can only display as repeating, but the computer uses binary, which has a different set of numbers which it can only display as repeating. If we were forced to write numbers as binary, we would not be able to write 0.1 or 0.1(since they repeat), so we wouldn't expect to get a sensible result.
+
+floating point operations per second  = FLOPS
+FLOPS is a measure of computing performance
 
 #### systems
 
