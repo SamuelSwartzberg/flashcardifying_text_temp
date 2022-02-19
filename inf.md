@@ -10108,6 +10108,21 @@ UTC may be specified using an UTC offset as UTC+0
 Nevertheless, what people often are referring to when they say UTC is the system of UTC offsets
 Today, GMT is an alias for UTC+0
 
+### currencies
+
+Currencies are identified by a currency code.
+ISO 4217 standartizes currency codes for national currencies as well as some other currencies.
+In the case of national currencies, the first two letters of a currency code are the 2-letter country code, and the third is usually the initial of the currency.
+The third letter of a national currency currency code may sometimes be chosen for mnemonic purposes instead of the initial of the currency (EUR)
+When a devaluation happens, a new currency code must be chosen, thus the third letter will no longer be the inital of the currency.
+
+currency codes for special types of currencies start with an X.
+
+X+element symbol = currency code for special metals 
+for special metals, the currency code indicates one troy ounce instead of one of the currency.
+XTS|testing only
+XXX|no currency
+
 ### emoji shortcodes
 
 The ⟮c+;common syntax for emoji⟯ is sometimes called '⟮c+;emoji shortcodes⟯'
@@ -14308,6 +14323,39 @@ Locales for `Collator`, `NumberFormat` or `DateTimeFormat` may include additiona
 ##### objects
 
 Any object created by the various constructors on `Intl` besides `Intl.Locale` feature a `resolvedOptions()` method which returns the computed options based on the extension part of the BCP locale specifier and the options object.
+Many Intl-constructor's options objects take a key `style` which takes `narrow`, `short` and `long`.
+
+###### format
+
+All the Intl objects that end `Format` (e.g. `DateTimeFormat`, `NumberFormat`, ...) have a `format` method and a  `formatToParts` method.
+`DateTimeFormat` and `NumberFormat` also have a range version of the `format` and formatToParts` methods.
+
+####### parts
+
+`WhateverFormat.<whatever>()` returns a string, while `WhateverFormat.<whatever>ToParts()` returns an array of the parts this would format to.
+the array returned by `WhateverFormat.<whatever>ToParts()` consists of objects with keys `type` and `value`
+
+```
+new Intl.NumberFormat('de-DE', {
+  style: 'currency',
+  currency: 'EUR'
+}).format(3500);
+// return value:
+[
+  { type: "integer",  value: "3"   },
+  { type: "group",    value: "."   },
+  { type: "integer",  value: "500" },
+  { type: "decimal",  value: ","   },
+  { type: "fraction", value: "00"  },
+  { type: "literal",  value: " "   },
+  { type: "currency", value: "€"   }
+]
+```
+
+####### to range
+
+`WhateverFormat.format[ToParts]()` takes one argument and returns a simple return value
+`WhateverFormat.formatRange[ToParts]()` takes two arguments and returns a range of whatevers (e.g. separated by a hyphen)
 
 ###### collator
 
@@ -14321,9 +14369,26 @@ A `Intl.Collator` is there to allow comparison and thus string ordering on a lan
 ###### datetimeformat
 
 An `Intl.DateTimeFormat` has four methods to format specific dates.
-`DateTimeFormat.<whatever>()` returns a string, while `DateTimeFormat.<whatever>ToParts()` returns an array of the parts this would format to.
-`DateTimeFormat.format[ToParts]()` takes one `Date` and returns a simple time
-`DateTimeFormat.formatRange[ToParts]()` takes two `Date`s and returns a range of dates (e.g. separated by a hyphen in english)
+
+
+###### displaynames
+
+`Intl.DisplayNames` is for the translation of the names of certain things (countries, currencies, languages, ...) into the names they have in the specific locale.
+the options object for `DisplayNames` includes the keys (besides the global keys for Intl)`type`, `languageDisplay`, and `fallback`.
+
+`type` for  the `Intl.DisplayNames()` constructor takes values such as `currency`, `language`, region, ...
+The main method a `DisplayNames` object has is `of()`, which takes a unique identifier for the relevant `type`
+
+```
+new Intl.DisplayNames(['ja'], { type: 'region', style: "narrow" }).of("US"); // アメリカ
+new Intl.DisplayNames(['ja'], { type: 'region', style: "long" }).of("US"); // アメリカ合衆国
+new Intl.DisplayNames(['de'], { type: 'currency', style: "long" }).of("USD") // US-Dollar
+```
+
+###### listformat
+
+`Intl.ListFormat` is for creating readable lists of arrays
+`type` for  the `Intl.ListFormat()` constructor takes a value `conjunction`, `disjunction` or `unit`.
 
 ### Standard library
 
