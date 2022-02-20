@@ -711,6 +711,10 @@ all attributes can be set as, well, attributes.
 some but not all attributes can be set via CSS.
 attributes that can be set via CSS are also known as »properties«.
 
+##### viewBox
+
+A `viewBox` attribute defines a viewport.
+
 ##### width & height
 
 it seems that ⟮c+;SVG elements⟯ will have ⟮c+;width⟯ and ⟮c+;height⟯ of ⟮c+;0⟯ and thus ⟮c+;be invisble⟯ if ⟮c+;not otherwise specified⟯ 
@@ -792,7 +796,7 @@ The difference between a `<polyline>` and a `<polygon>` is that a `<polyline>` m
 ###### path
 
 A `<path>` is determined by a single attribute `d`
-path-d ::= <command>{ <command>}
+svg-path-specifier ::= <command>{ <command>}
 command ::= <command-letter>{ <parameter>}
 All path commands end with the coordinates of the 'current point' or the 'pen' (to follow the analogy of a plotter).
 
@@ -2364,7 +2368,8 @@ visibility: collapse: For <table> rows, columns, column groups, and row groups, 
 ###### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
-clip-path-values ::= [<m-b-p-c-box>] [<basic-shape>]
+clip-path-values ::= ([<m-b-p-c-box>] [<basic-shape>]) | <clip-source>
+A clip-source is a reference to a SVG <clipPath> element.
 THe shape-outside property sets a shape around which inline elements will flow.
 shape-outside ::= <<m-b-p-c-box>||<basic-shape>||<image>
 if you use an image for shape-outside, it will compute it based on that images alpha channel.
@@ -2502,6 +2507,7 @@ basic-shape ::= <inset>|<circle>|<ellipse>|<polygon>|<path>
 inset ::= inset\{<length-percentage-edges>[ round <border-radius>]\}
 circle ::= circle\(<size>[at <position>]\)
 ellipse ::= ellipse\(<size> [at <position>\)
+path ::= path\(<svg-path-specifier>\)
 
 ###### color
 
@@ -3289,14 +3295,7 @@ Specifically, in bootstrap, the $utility assoc arr has each utility name as a ke
 A CSS reset is a piece of CSS to reset browser's default styling.
 
 
-#### CSS processing
-
-a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
-
-##### PostCSS
-
-PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by JS plugins.
-Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
+#### CSS syntax supersets
 
 ##### SCSS/Sass
 
@@ -7683,10 +7682,16 @@ A virtual machine is a form of virtualization where an entire operating system i
 
 #### OS-level virtualization
 
+OS-level virtualization is where multiple isolated user space instances exist on the same OS.
+
+##### chroot & chroot jail
+
 chroot changes the root directory of a process, preventing it from changing anything outside.
 A chroot jail is the environment set up by chroot.
 Often, the basis of OS-level virtualization is a chroot jail.
-OS-level virtualization is where multiple isolated user space instances exist on the same OS.
+
+##### containerization
+
 Containerization is (is an implementation) of OS-level virtualization, which generally refers to specifically using OS-level virtualization for running one app, including all its dependencies and its own fs.
 Using OS-level virtualization/containerization, interactions with the larger OS is only allowed through limited, specified channels.
 An application being contained in a container is said to be containerized.
@@ -7694,6 +7699,14 @@ Containerization improves security and portability.
 Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 Docker is the most common service for os-level virtualiztion/containerization.
+
+###### docker
+
+In docker, a container is an instance of a container image.
+A docker container can be run pretty much anywhere.
+A container image contains everything needed to create the container, including the file system, all dependencies, and config.
+
+the command `docker` is used to administer docker.
 
 ### communication between OSs
 
@@ -15035,7 +15048,6 @@ Source-to-source translator/compiler    trans(com)piler
 A transpiler compiles one (programming) language into another (programming) language, though the target language is generally not assemly.
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-Babel is a transpiler that transpiles ⟮c+;newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯
 
 #### compilers
 
@@ -16187,6 +16199,29 @@ From an entry point, a build tool assembles a dependency graph.
 From a dependency graph, a build tool builds it's output file(s).
 Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
 
+##### processors
+
+a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
+
+###### postCSS
+
+PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by plugins (written in JS).
+To use PostCSS you need to have added it to your build tool and have a `postcss.config.js`.
+To use PostCSS with webpack, add the `postcss-loader`.
+Within your `postcss.config.js`, add plugins by adding `require()` calls to them within `module.exports.plugins`
+```
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('postcss-nested')
+  ]
+}
+```
+
+####### autoprefixer 
+
+Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
+
 ##### compilers
 
 A compiler is a type of build tool.
@@ -16221,7 +16256,67 @@ cfg-logic-function ::= (all|any)\(<cfg-predicate-list>\)
 cfg-not ::= not\(<cfg-predicate>\)
 cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
 
+###### specific compilers/transpilers
 
+####### babel
+
+Babel is a transpiler that mainly transpiles ⟮c+;newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯, but can also transpile other things.
+You can add babel to webpack by adding `babel-loader`.
+
+######## config
+
+Babel is configured with a `babel.config.json`.
+Plugins and presets are specified in the arrays defined by the `presets` and `plugins` keys.
+When using `babel-loader`, config for babel instead goes into the `options` object
+
+```
+module: {
+  rules: [
+    {
+      test: /\.m?js$/,
+      exclude: /(node_modules|bower_components)/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env']
+        }
+      }
+    }
+  ]
+}
+```
+
+######## modules
+
+Various babel modules are published at `@babel/whatever`.
+Core babel functionality is at `@babel/core`.
+`@babel/cli` containts babel's cli functionality
+
+######## plugins
+
+Babel plugins are the things that tell babel how to transpile your code.
+For example, @babel/plugin-transform-arrow-function is what babel uses to transpile arrow functions
+A preset is a predetermined set of plugins.
+`@babel/preset-env` is the preset for transpiling to older js, choosing what is necessary automatically.
+While `@babel/preset-env` allows you to set your target browsers manually by setting the `target` key within the object in `presets` array of the config, by default it will just conform to your `browserslist` config.
+
+######## core-js
+
+`core-js` is a set of polyfills for various JS features.
+`core-js` is not part of babel, but they are often used together since babel no longer offers its own polyfills.
+You use `core-js` by importing a variant of it at the top of your entry point.
+
+core-js/features|all features, whether stable proposals or experimental
+core-js/actual|stable features & web standards (recommended)
+core-js/stable|stable ES features
+core-js/(feature|actual|stable)/<feature-name>|import only a specific feature
+for example: `import "core-js/actual/set";`
+
+######## regenerator
+
+`regenerator` is a polyfill for ES6 generators.
+`regenerator` is not part of `core-js` since it contains a runtime component.
+to import the regeneraotr runtime, just import `regenerator-runtime/runtime` at your entry point
 
 ##### module bundlers
 
