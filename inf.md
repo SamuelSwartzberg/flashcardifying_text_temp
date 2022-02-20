@@ -1012,6 +1012,21 @@ the URL for the `<image>` is defined by the `href` attribute.
 
 SVG allows the embedding of arbitrary other *ML content within `<foreignObject>`.
 
+##### desc and title
+
+`<desc>` and `<title>` are used to add a text description to an element.
+`<desc>` and `<title>` are nested within the element they describe.
+If an element can be described by visible text, it is recommended to reference that text with an aria-labelledby attribute rather than using the `<title>` or `<defs>` element.
+
+##### switch
+
+`<switch>` is used to conditionally render an element.
+Conditions for `<switch>` are defined by certain attributes on its direct children.
+There are two possible conditions currently, the rarely used `requiredExtensions` and `systemLanguage`.
+`systemLanguage` takes a comma-separated list of BCP 47 language tags.
+`<switch>` renders the first child where its conditions evaluate to true.
+`<switch>` is basically only used to localize SVG content.
+
 ### JSX
 
 ⟮c+;JSX⟯ is ⟮c+;HTML⟯-like syntax to be used in ⟮c+;JS⟯
