@@ -701,6 +701,7 @@ $   running number indicator  // $
 
 ### SVG
 
+svg allows nesting `<svg>` elements
 
 #### attributes
 
@@ -871,6 +872,21 @@ the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elemen
 
 `<defs>` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
 
+###### whateverUnits
+
+the `gradientUnits/patternUnits/patternContentUnits/...` attribute controls whether the units used are relative to the document or the element.
+the `gradientUnits/patternUnits/patternContentUnits/...` attribute can be `userSpaceOnUse` or `objectBoundingBox`
+
+userSpaceOnUse|document
+objectBoundingBox|element
+
+
+table:attribute|default
+gradientUnits|objectBoundingBox
+patternUnits|objectBoundingBox
+patternContentUnits|userSpaceOnUse (confusingly)
+filterUnitas|objectBoundingBox
+
 ##### fill types
 
 Fill types are used to `fill` objects
@@ -881,20 +897,6 @@ The available fill types are gradients, patterns.
 ###### referencing
 
 Fill types are referenced by referring to their ID within `fill`, e.g. as `url(#id)`
-
-###### whateverUnits
-
-the `gradientUnits/patternUnits/patternContentUnits` attribute controls whether the units used are relative to the document or the element.
-the `gradientUnits/patternUnits/patternContentUnits` attribute can be `userSpaceOnUse` or `objectBoundingBox`
-
-userSpaceOnUse|document
-objectBoundingBox|element
-
-
-table:attribute|default
-gradientUnits|objectBoundingBox
-patternUnits|objectBoundingBox
-patternContentUnits|userSpaceOnUse (confusingly)
 
 ###### gradients
 
@@ -937,6 +939,68 @@ reflect|restart the gradient, but in reverse from 100%/1
 ###### patterns
 
 Inside the `<pattern>` element, you can include any of the other basic shapes, styled in whatever manner you like.
+
+##### clipping and masking
+
+In SVG at least, the difference between clipping and masking is that clipping allows only for hard edges, while masking allows for soft edges by using transparency/grey values.
+In SVG, clipping is done by using the `<clipPath>` element, while masking is done by using the `<mask>` element.
+`<clipPath>` and `<mask>` are defined within `<defs>`.
+`<clipPath>` and `<mask>` take arbitrary child elements to define their shape.
+
+##### filters
+
+Filters are defined by the `<filter>` element.
+Filters are specified within `<defs>`.
+
+###### filter primitives
+
+####### general functionality
+
+Any filter element contains a set of filter primitives as its children.
+A filter  primitive performs a single fundamental graphical operation on one or more inputs, producing a graphical result.
+Filter primitives are distinct SVG elements which all start with the `<fe` prefix. 
+
+######## IO
+
+Filter primitives take their input by specifying the `in` attribute.
+Some filters primitives can take a second input by specifying the `in2` attribute.
+The output of a filter primitive is specified by the `out` attribute.
+The input of a filter primitive may be the output of a previous filter primitive or one of a set of predefined inputs.
+If a filter doesn't have a `in` attribute, it's assumed to be the output of the previous filter primitive.
+
+
+table:predefined inputs|does
+SourceAlpha|the alpha channel of the input
+SourceGraphic|the input (e.g. the image, text, etc. on which the filter is applied)
+
+####### various filter primitives
+
+######## feFlood
+
+The `feFlood` filter primitive creates a rectangle filled with the color and opacity values from properties `flood-color` and `flood-opacity`.
+
+###### filter regions
+
+The filter region is the area of the input that is affected by the filter.
+Interestingly, the filter region does not have to be the same as the region occupied by the element using the filter.
+The filter region is defined by the `<filter>` element's `x`, `y`, `width`, and `height` attributes.
+The default filter region (if none of the attributes are manually specified) is the bounding box of the input plus 10% on each side.
+any filter primitive themselves establish a filter primitive subregion.
+Filter primitive subregions are altered just as the normal filter region is (by specifying the `x`, `y`, `width`, and `height` attributes).
+
+###### applying filters
+
+To apply a `<filter>` to an SVG element, you refer to its ID (via url()) within the `filter` attribute of the element.
+You can also apply a SVG filter to a HTML element, by using the normal `filter` property.
+
+##### images
+
+SVG allows the embedding of images via `<image>`.
+the URL for the `<image>` is defined by the `xlink:href` attribute.
+
+##### foreignObject
+
+SVG allows the embedding of arbitrary other *ML content within `<foreignObject>`.
 
 ### JSX
 
@@ -4193,7 +4257,16 @@ Mobile first is building the mobile site first (and expanding on that for deskto
 
 ## computer graphcis
 
+### FOUC
+
 A ⟮c+;FOUC (Flash of unstyled content)⟯ is when a ⟮c+;page (or some content)⟯ is briefly visible with ⟮c+;no styling/browser default styling⟯
+
+### geometry
+
+#### bounding box
+
+The minimum/smallest bounding box of an element or a set of elements is the smalles box that can contain all of the elements.
+the minimum/smallest bounding box is often shortened to merely 「bounding box」.
 
 ### color
 
