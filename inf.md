@@ -752,6 +752,12 @@ for stroke-dasharray, values at an odd index indicate the length of the filled p
 
 the `stroke/fill` attribute sets the color of the stroke/fill.
 You can set the opacity of the stroke and fill by setting a color with transparency, or by using `stroke/fill-opacity`.
+`stroke/fill` both can also apply text.
+
+##### font
+
+Many SVG font-related properties are the same as in HTML/CSS.
+However, `dominant-baseline` and not `vertical-align` is used for vertical alignment, and also for determining the baseline of the box alignment context.
 
 #### elements
 
@@ -846,6 +852,17 @@ https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f
 In ⟮c+;SVG⟯, ⟮c+;text⟯ ⟮c+;outside of a &lt;text&gt;⟯ ⟮c+;will not be shown⟯ 
 ⟮c+;&lt;text&gt;⟯ can contain ⟮c+;`&lt;tspan&gt;`s⟯, which ⟮c+;define subtext (lol) for further targeting⟯. 
 
+###### tspan
+
+for a `<tspan>`, `x` and `y` attributes set a new absolute position, while `dx` and `dy` specify a relative displacment.
+the `rotate` attribute of tspan allows it to, well`, rotate.
+
+###### textPath
+
+`<textPath>`s are nested withing `<text>`
+`<textPath>`s contain tex that they make follow a path, allowing e.g. for curved text.
+`<textPath>` refers to the relevant path's id via an xlink:href
+
 ##### <g>
 
 the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elements⟯ 
@@ -854,11 +871,35 @@ the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elemen
 
 `<defs>` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
 
+##### fill types
+
+Fill types are used to `fill` objects
+Fill types are defined within the `<defs>` section, but referenced elsewhere.
+Elements defining fill types must have an id attribute to be referred to from elsewhere.
+The available fill types are gradients, patterns.
+
+###### referencing
+
+Fill types are referenced by referring to their ID within `fill`, e.g. as `url(#id)`
+
+###### whateverUnits
+
+the `gradientUnits/patternUnits/patternContentUnits` attribute controls whether the units used are relative to the document or the element.
+the `gradientUnits/patternUnits/patternContentUnits` attribute can be `userSpaceOnUse` or `objectBoundingBox`
+
+userSpaceOnUse|document
+objectBoundingBox|element
+
+
+table:attribute|default
+gradientUnits|objectBoundingBox
+patternUnits|objectBoundingBox
+patternContentUnits|userSpaceOnUse (confusingly)
+
 ###### gradients
 
 In SVG, there are two types of gradients, linear and radial.
 linear gradients are defined by `<linearGradient>`, radial gradients by `<radialGradient>`
-Gradients must have an id attribute to be referred to from elsewhere.
 A gradient contains n `<stop>`s
 
 ####### stops
@@ -867,13 +908,35 @@ A `<stop>` tells the gradient what color it should be at a certain point.
 The color a `<stop>` should be is defined by its `stop-color` attribute
 At what point a `<stop>` exists is defined by its `offset` attribute.
 
-####### linearGradient
+####### linear and radial
+
+######## linearGradient
 
 A `<linearGradient>` takes four attributes `x1` `y1` `x2` `y2` to define a line along which the gradient travels (relative to the thing it's being used for)
 
-####### referencing
+######## radialGradient
 
-Gradients are referenced by referring to their ID within `fill`, e.g. as `url(#id)`
+a radial gradient's extent is defined by a point `cx`, `cy` and a radius.
+However, the middle of a SVG radial gradient is actually defined by a different point, the focal point `fx`, `fy`.
+f the focal point isn't given at all, it's assumed to be at the same place as the center point.
+
+####### attributes
+
+######## spreadMethod
+
+any gradient can take the `spreadMethod` attribute
+the `spreadMethod` attribute takes one of `pad`, `reflect`, or `repeat`.
+`spreadMethod` determines what happens when the gradient reaches its end, but the object isn't filled yet.
+
+
+table:spreadMethod|does
+pad|continue on with the end color
+repeat|restart the gradient from 0
+reflect|restart the gradient, but in reverse from 100%/1
+
+###### patterns
+
+Inside the `<pattern>` element, you can include any of the other basic shapes, styled in whatever manner you like.
 
 ### JSX
 
@@ -2053,6 +2116,25 @@ li::before {
   &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 2     --&#x3E;
 &#x3C;/ol&#x3E;
 ```
+
+###### transform
+
+Transforms can be applied to both SVG and HTML elements.
+Transforms are changes to the elements geometry.
+transforms are applied via the `transform` property.
+the `transform` property takes one or more space-separated transform functions.
+The general types of transforms are rotate, scale, skew, translate.
+Most general types of transform have 5 transform functions
+`whateverX()`, `whateverY()`, `whateverZ()` take one value and transform in the specified axis.
+`whatever()` takes two values and transforms in the 2d plane.
+`whatever3d()` takes 3d values and transforms in 3d space.
+Skew doesn't work in 3d and thus doesn't have `skewZ()` nor `skew3d()`
+
+transformations can be united in the `matrix()` (for 2d) and `matrix3d()` (for 3d) function.
+
+skewing distorts by a certain angle, as if you grabbed a certain corner and pulled them along a certain value.
+
+In addition, there is one more transform funtion, `perspective()`
 
 ###### animations & transitions
 
