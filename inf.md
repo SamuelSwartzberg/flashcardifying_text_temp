@@ -1003,6 +1003,27 @@ Filter primitive subregions are altered just as the normal filter region is (by 
 To apply a `<filter>` to an SVG element, you refer to its ID (via url()) within the `filter` attribute of the element.
 You can also apply a SVG filter to a HTML element, by using the normal `filter` property.
 
+##### markers
+
+A marker is a type of symbol that gets attached to one or more vertices of a path, line, polyline, or polygon.
+
+###### defining markers
+
+You create markers with `<marker>` elements.
+Markers are defined within `<defs>`.
+Markers can contain other SVG elements.
+The markerWidth and markerHeight attributes define the width and height of the marker’s viewport. 
+The `refX` and `refY` attributes define the reference point (i.e. the point at which its attached) of the marker relative to its viewport.
+The `orient` attribute determines the angle at which the marker is attached.
+The `orient` attribute takes a value of auto or an angle. 
+If you specify something else than auto, the marker is rotated to the specified angle relative to the SVG viewport itself, which is generally not what you want.
+The `markerUnit` attribute is similar to all other `*Unit` attributes, but instead of `objectBoundingBox` it uses `strokeWidth` to indicate it being relative.
+
+###### attaching markers
+
+markers are attached by referring to their ID within the `marker-start`, `marker-mid`, or `marker-end` attributes.
+One would think that `marker-mid` would place the marker at the midpoint of the line, but instead it's for placing markers at vertices that are not the start or end.
+
 ##### images
 
 SVG allows the embedding of images via `<image>`.
@@ -1026,6 +1047,11 @@ There are two possible conditions currently, the rarely used `requiredExtensions
 `systemLanguage` takes a comma-separated list of BCP 47 language tags.
 `<switch>` renders the first child where its conditions evaluate to true.
 `<switch>` is basically only used to localize SVG content.
+
+##### metadata
+
+`<metadata>` is used to store metadata about an SVG document.
+The content of `<metadata>` should be elements from other XML namespaces such as RDF, FOAF, etc..
 
 ### JSX
 
@@ -1570,7 +1596,7 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 ::first-letter|matches the first letter of a block-level element
 ::first-line|matches the first line of a block-level element
 ::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath ⟮c+;any element that is in fullscreen⟯
-
+::marker|the marker of a list item or a summary item
 
 ##### Combinators
 
