@@ -704,9 +704,54 @@ $   running number indicator  // $
 
 #### attributes
 
+##### CSS
+
+all attributes can be set as, well, attributes.
+some but not all attributes can be set via CSS.
+attributes that can be set via CSS are also known as »properties«.
+
+##### width & height
+
 it seems that ⟮c+;SVG elements⟯ will have ⟮c+;width⟯ and ⟮c+;height⟯ of ⟮c+;0⟯ and thus ⟮c+;be invisble⟯ if ⟮c+;not otherwise specified⟯ 
 
+##### x & y
+
 In ⟮c+;SVG⟯, you ⟮c+;position things⟯ by ⟮c+;specifying the x and y properties⟯ ⟮c+;on the elements⟯. 
+
+##### stroke & fill
+
+###### stroke
+
+the stroke of a shape is the line drawn around the object
+`stroke-width` defines the width of a stroke.
+
+####### edges of lines
+
+`stroke-linecap` defines how the stroke ends on the line
+
+stroke-linecap="butt"|▯▯<br>▮▮<br>▯▯
+stroke-linecap="square"|▯▯<br>▯▮<br>▯▯
+stroke-linecap="round"|◜-<br>|▮<br>◟-
+
+`stroke-linejoin` defines how a joint between two line segments behaves.
+
+table:|imagining a top left 90° corner
+stroke-linejoin="bevel"|◢
+stroke-linejoin="round"|◜
+stroke-linejoin="miter"|◼
+
+####### dashes
+
+`stroke-dasharray` determines how a stroke is dashed, if at all.
+`stroke-dasharray` takes a comma-separated list of values.
+for stroke-dasharray, values at an odd index indicate the length of the filled part of a dash, values at an even index indicate the unfilled part of the dash.
+`stroke-dasharray` needs at least 2 values, but may take more.
+`stroke-dasharray` takes the supplied pattern as a pattern to repeat.
+
+###### both
+
+the `stroke/fill` attribute sets the color of the stroke/fill.
+You can set the opacity of the stroke and fill by setting a color with transparency, or by using `stroke/fill-opacity`.
 
 #### elements
 
@@ -715,6 +760,85 @@ In ⟮c+;SVG⟯, you ⟮c+;position things⟯ by ⟮c+;specifying the x and y pr
 You ⟮c+;create basic shapes⟯ in SVG by using ⟮c+;the SVG basic shapes⟯. 
 the ⟮c+;SVG basic shapes⟯ are a grouping of⟮c+;, well, basic shapes⟯ 
 SVG ⟮c+;basic shapes⟯: ⟮c+;&lt;circle&gt;⟯, ⟮c+;&lt;ellipse&gt;⟯, ⟮c+;&lt;line&gt;⟯, ⟮c+;&lt;polygon&gt;⟯, ⟮c+;&lt;polyline&gt;⟯, ⟮c+;&lt;path&gt;⟯ and ⟮c+;&lt;rect&gt;⟯ 
+
+###### rect
+
+A `<rect>` is determined by a `x`, `y`, `width` and `height`.
+A `<rect>` may optionally have a corner radius specified with `rx`, `ry`.
+
+###### circle
+
+A `<circle>` is determined by `r`, `cx` and `cy` (center x center y)
+
+###### line
+
+A `<line>` is determined by `x1`, `y1`, `x2`, `y2`.
+
+###### polyline
+
+A polyline/polygon is a set of connected straight lines (e.g. you might draw a star or a parallelogram or sth. with this).
+A polyline/polygon is determined by a single attribute `points`
+poly-points ::= <point> {<point>}
+point ::= <x>, <y>
+The difference between a `<polyline>` and a `<polygon>` is that a `<polyline>` may be left open (creating a line), while a `<polygon>` is closed automatically.
+
+###### path
+
+A `<path>` is determined by a single attribute `d`
+path-d ::= <command>{ <command>}
+command ::= <command-letter>{ <parameter>}
+All path commands end with the coordinates of the 'current point' or the 'pen' (to follow the analogy of a plotter).
+
+####### commands 
+
+For command letters, an uppercase letter specifies absolute coordinates.
+For command letters, a lowercase letter specifies relative coordinates from the last point.
+
+The command letter `M/m` means 「move to」.
+The command letter `M/m` takes two arguments, x y (for M) or dx dy (for m)
+
+######## straight lines
+
+The command letter `L/l` means 「draw line to」.
+The command letter `L/l` takes two arguments, x y (for M) or dx dy (for m)
+The command letters `H/h` and `V/v` are abbreviated forms of `L/l` for drawing a horizontal/vertical line.
+The command letter `Z/z` means to close the path to the original node.
+For `Z/z`, there is obviously no difference between the uppercase and lowercase form.
+
+######## curves
+
+the curve commands separate multiple coordinates with commas. (so e.g. x y, x2 y2)
+The command letter `C/c` makes it draw a cubic bezier curve. 
+The cubic bezier starts at the last position, and as such it takes three coordinates as parameters, the two handle/control poiints plus the ending point. 
+The command letter `S/s` makes it draw a cubic bezier curve, but with the first control point mirrored from the previous one if there is one. 
+The command letter `Q/q` makes it draw a quadratic bezier curve, with the first parameter describing the one control point, and the second parameter describing the end point.
+The command letter `T/t` infers the control point from a previous `Q/q` or `T/t` command, thus only taking a single point argument.
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/shortcut_quadratic_b%C3%A9zier_with_grid.png
+
+```
+ C x1 y1, x2 y2, x y
+ c dx1 dy1, dx2 dy2, dx dy
+ S x2 y2, x y
+ s dx2 dy2, dx dy
+```
+
+######## arcs
+
+the arc command letter is `A/a`.
+Essentially, the arc command specifies part of an elllipse.
+The arc command takes seven numbers as arguments.
+Because all commands must end in the end point, the svg arc command syntax is hella complicated.
+For the svg arc command, the first two numbers specify the x and y radius.
+For the svg arc command, the last two parameters describe its endpoint, as must be.
+For the svg arc command, the third parameter descirbes the rotation of the ellipse.
+However, with only these five parameters, the path could still take four possible paths: 
+'above' or 'below' the line (intuitively), or the 'larger'/'smaller' section of the ellipse could be cut out.
+The 4th parameter of the svg arc command selects whether to take the large arc (1) or small arc (0)
+The 5th parameter of the svg arc command selects whether to take the clockwie arc (1) or counterclockwise (0)
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/svgarcs_xaxisrotation_with_grid_ellipses.png
+https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f3b-b266d825bec1.png
 
 ##### <text>
 
@@ -725,6 +849,31 @@ In ⟮c+;SVG⟯, ⟮c+;text⟯ ⟮c+;outside of a &lt;text&gt;⟯ ⟮c+;will not
 ##### <g>
 
 the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elements⟯ 
+
+##### defs
+
+`<defs>` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
+
+###### gradients
+
+In SVG, there are two types of gradients, linear and radial.
+linear gradients are defined by `<linearGradient>`, radial gradients by `<radialGradient>`
+Gradients must have an id attribute to be referred to from elsewhere.
+A gradient contains n `<stop>`s
+
+####### stops
+
+A `<stop>` tells the gradient what color it should be at a certain point.
+The color a `<stop>` should be is defined by its `stop-color` attribute
+At what point a `<stop>` exists is defined by its `offset` attribute.
+
+####### linearGradient
+
+A `<linearGradient>` takes four attributes `x1` `y1` `x2` `y2` to define a line along which the gradient travels (relative to the thing it's being used for)
+
+####### referencing
+
+Gradients are referenced by referring to their ID within `fill`, e.g. as `url(#id)`
 
 ### JSX
 
@@ -2140,10 +2289,13 @@ Specifying two <length-percentage>/<angle> on a single color stop will make the 
 
 size ::= (<length-percentage>[ <length-percentage>])|size-keyword
 size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
-closest-side	The gradient's ending shape meets the side of the box closest to its center (for circles) or meets both the vertical and horizontal sides closest to the center (for ellipses).
-closest-corner	The gradient's ending shape is sized so that it exactly meets the closest corner of the box from its center.
-farthest-side	Similar to closest-side, except the ending shape is sized to meet the side of the box farthest from its center (or vertical and horizontal sides).
-farthest-corner	The default value, the gradient's ending shape is sized so that it exactly meets the farthest corner of the box from its center.
+
+
+table:size-keyword|meaning
+closest-side|The gradient's ending shape meets the side of the box closest to its center (for circles) or meets both the vertical and horizontal sides closest to the center (for ellipses).
+closest-corner|The gradient's ending shape is sized so that it exactly meets the closest corner of the box from its center.
+farthest-side|Similar to closest-side, except the ending shape is sized to meet the side of the box farthest from its center (or vertical and horizontal sides).
+farthest-corner|The default value, the gradient's ending shape is sized so that it exactly meets the farthest corner of the box from its center.
 
 For <size>, specifying two <length-percentages> applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a <size> for a circle may only recieve one <legnth-percentages>
 
