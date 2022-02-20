@@ -862,15 +862,26 @@ the `rotate` attribute of tspan allows it to, well`, rotate.
 
 `<textPath>`s are nested withing `<text>`
 `<textPath>`s contain tex that they make follow a path, allowing e.g. for curved text.
-`<textPath>` refers to the relevant path's id via an xlink:href
+`<textPath>` refers to the relevant path's id via an href
 
 ##### <g>
 
 the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elements⟯ 
 
+##### <use>
+
+`<use>` is used to instantiate elements defined elsewhere.
+`<use>` takes an href attribute, which is the id of the element to be instantiated.
+Using `<use>` promotes element reuse, thus making your SVG code more DRY.
+On `<use>`, the `x`, `y`, `width`, `height` attributes will override those of the referenced element, all others will not.
+
 ##### defs
 
 `<defs>` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
+There are things that can only be defined in `<defs>`, however you can also place any normal element in `<defs>`, which will then not be displayed, but can be reused.
+Any child of `<defs>` must have an id attribute to be referred to from elsewhere.
+`<symbol>` works similarly to e.g. a `<defs>` with a single `<g>` child, in that it defines a resuable element that doesn't immediately display.
+The difference between `<symbol>` and `<defs>` with e.g. a `<g>` child is that `<symbol>` can define its own viewBox and preserveAspectRatio.
 
 ###### whateverUnits
 
@@ -891,7 +902,6 @@ filterUnitas|objectBoundingBox
 
 Fill types are used to `fill` objects
 Fill types are defined within the `<defs>` section, but referenced elsewhere.
-Elements defining fill types must have an id attribute to be referred to from elsewhere.
 The available fill types are gradients, patterns.
 
 ###### referencing
@@ -996,7 +1006,7 @@ You can also apply a SVG filter to a HTML element, by using the normal `filter` 
 ##### images
 
 SVG allows the embedding of images via `<image>`.
-the URL for the `<image>` is defined by the `xlink:href` attribute.
+the URL for the `<image>` is defined by the `href` attribute.
 
 ##### foreignObject
 
