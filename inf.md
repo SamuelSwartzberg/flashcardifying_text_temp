@@ -2,6 +2,8 @@
 
 ## *ML itself
 
+### terminology
+
 *ML is sometimes used for any SGML/HTML/XML and any subformat.
 
 SGML stands for Standard Generalized Markup Language.
@@ -10,8 +12,17 @@ XML|Extensible Markup language
 HTML was originally based on SGML, though the relationship has sometimes been fraught.
 Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
 
+### general syntax
+
+#### tags
+
 *ML »tags« are delimited by &lt;...&gt;
 *ML end tags additionally feature a / to look like &lt;.../&gt;
+
+#### elements
+
+##### basics
+
 An *ML »element« is everything from an elements start tag to an elments end tag.
 An *ML element has an »element name«.
 An *ML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
@@ -19,18 +30,23 @@ An *ML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;
 *ML element consist of start tag, content, and end tag.
 *ML elements' »content« is either text or other elements ('child elements').
 *ML content goes between the start and the end tag.
+
+##### empty elements & self-closing tags
+
 »Empty elments« are created by (or a synonym to) self-closing tags.
 Self-closing tags in *ML only consist of a start tag.
 Self-closing tags must end /&gt; in XML.
 Self-closing tags may end /&gt; or merely &gt; in HTML.
 Using a closing tag for self-closing tags is usually invalid.
 Empty elements cannot have content, since there is nowhere to put it.
+
+##### optional closing tags
+
 Some HTML elements that are not empty (not self-closing) nevertheless may omit their end tag, said to have »optional closing tags«.
 Elements with optional closing tags are distinct from empty elements (elements with self-closing tags).
 While most people recommend against omitting optional closing tags, google's style guide explixitly recommends them.
 
-Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
-an HTML element name may only 
+##### attributes
 
 *ML attributes are placed in the start tag.
 *ML attributes have the syntax key="value".
@@ -39,36 +55,50 @@ HTML features boolean attributes: attributes which <em>may not</em> take a value
 HTML also features enumerated attriubtes: attributes that take a fixed set of values.
 Confusingly, some HTML attributes with boolean semantics are not boolean attributes, but instead enumerated attributes, mostly with the possible values "yes" and "no" or "true" and "false".
 
+##### element names
+
 *ML element names may be in any case.
 in HTML, putting element names in all lower case is common.
 XML element names may contain any unicode with the exception of some metacharacters.
 HTML and SVG built-in element names only contain characters a-z.
 HTML custom elements must start with a character a-z in lowercase, must contain at least a hyphen character, but otherwise may contain any unicode.
 
+##### whitespace
+
+Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
+
+#### root elements
+
 *ML documents contain exactly one root element. All other elements are contained in the root element.
 The *ML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
 
-The document prolog (if you use one) comes at the top of the document, before the root element. There are two parts (both optional): an XML declaration and a document type declaration.
+#### document prolog
 
-### declaration
+The document prolog (if you use one) comes at the top of the document, before the root element.
+the document prolog has parts (both optional): an XML declaration and a document type declaration.
+
+#### declaration
 
 the ⟮c+;XML declaration⟯ ⟮c+;contains information about the coming xml document⟯. 
-the ⟮c+;XML declaration⟯  is ⟮c+;optional⟯, ⟮c+;but if it appears⟯, it must appear in ⟮c+;the first line of the document⟯. 
-the ⟮c+;XML declaration⟯ takes ⟮c+;three⟯ parameters:
-<div class="c1-5-scr c12-18-scr">
-`⟮c+;version⟯`|⟮c+;The XML version the document is using⟯
+the ⟮c+;XML declaration⟯ is ⟮c+;optional⟯, ⟮c+;but if it appears⟯, it must appear in ⟮c+;the first line of the document⟯. 
+the ⟮c+;XML declaration⟯ takes ⟮c+;three⟯ possible parameters.
+Of the XML declaration parameters, `⟮c+;version⟯` is ⟮c+;mandatory⟯.
+```
+&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+```
+
+##### !XML declaration parameters
+
+table:`⟮c+;version⟯`|⟮c+;The XML version the document is using⟯
 `⟮c+;encoding⟯`|⟮c+;The text encoding this is using, e.g. UTF-8 or Shift_JIS⟯
 `⟮c+;standalone⟯`|⟮c+;Whether the document relies on an external source such as an external DTD⟯
 
-</div>
-<p class="c1-11-scr">Of these, `⟮c+;version⟯` is ⟮c+;mandatory⟯. It's syntax is:</p>
-<div class="c1-11-scr">```
-⟮c+;&lt;?xml⟯ ⟮c+;version=⟯"1.0" ⟮c+;encoding=⟯"UTF-8" ⟮c+;standalone=⟯"no" ⟮c+;?&gt;⟯
-```</div>
 
-### doctype
+#### doctype
 
-A document type declaration, or doctype, is an instruction that associates a particular XML or SGML document (for example, a webpage) with a document type definition (DTD).
+A document type declaration,is an instruction that associates a particular *ML document with a document type definition.
+Document type declaration is often shortened doctype.
+Document type definition is typically shortened to DTD.
 A document type declaration must be the first thing in the page if HTML.
 A document type declaration must be the first thing after the XML declaration if XML
 The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
@@ -76,16 +106,21 @@ In HTML 5, the doctype no longer actually references a DTD, but merely prevents 
 
 ### XML
 
-#### PI
+#### special element types
 
-PI|Processing instruction
+##### PI
+
+PI is short for processing instruction.
+A processing instruction is an arbitrary, not further defined instruction to the processor of the XML document.
+Processing instructions are mainly used to associate CSS with XML documents.
+'Tag name' of the ⟮c+;processing instruction⟯ to ⟮c+;link a stylesheet to an xml document⟯ is ⟮c+;xml-stylesheet⟯ 
+
+###### delimiters
+
 ⟮c+;Begins a processing instruction⟯|⟮c+;&lt;?⟯
 ⟮c+;Ends a processing instruction⟯|⟮c+;?&gt;⟯
 
-
-'Tag name' of the ⟮c+;processing instruction⟯ to ⟮c+;link a stylesheet to an xml document⟯ is ⟮c+;xml-stylesheet⟯ 
-
-#### CDATA
+##### CDATA
 
 ⟮c+;CDATA⟯ is short for ⟮c+;Character data⟯) 
 ⟮c+;CDATA⟯ ⟮c+;tells the parser not to parse the content as XML markup⟯ 
@@ -96,74 +131,125 @@ PI|Processing instruction
 
 #### General structure
 
-An HTML document is started by the &lt;html&gt; tag and ended by the &lt;/html&gt; tag.
-a &lt;html&gt; element consists of a &lt;head&gt; section and a &lt;body&gt;
+The root element of a HTML document is defined by the `html` element
+a &lt;html&gt; element consists of a &lt;head&gt; element and a &lt;body&gt; element
 
 #### nesting
 
 some elements must appear as children of other elements - to violate these rules is a violation of good semantics and accessibility, and will hurt your search ranking.
 
-#### elements
+#### head
 
-##### <head>
+The &lt;head&gt; element contains metadata about the document.
+The &lt;head&gt; element can contain <base>, <meta>, <title>, <link>, &lt;style>, <script>, <noscript> and <template>
 
-The &lt;head&gt; in HTML contains metadata about the document.
-it can contain:
-the &lt;title&gt; element, which defines the documents title
+##### title
+
+the &lt;title&gt; element defines the documents title
 the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, as well as search engines.
 the &lt;title&gt; element can only contain text, not tags.
 the &lt;title&gt; element's content should change in response to major state changes.
 
+##### base
+
 the <base> element specifies the base URL for the document with its href attribute.
-The <abse> element optionally accepts a target argument to choose the browsing context links open in by default.
+The <base> element optionally accepts a target argument to choose the browsing context links open in by default.
+
+##### basefont
+
 The <basefont> element used to specify the default font (color, fontface etc.) but is now deprecated.
 
-###### <meta>
+##### meta
 
-The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>.
-<meta> specifies the value in its content attribute
+The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements.
+The <meta> element has four mutually exclusive modes.
+<meta> specifies the value in its content attribute, except when using `charset` or `itemprop` keys.
 
-The type of metadata provided by the <meta> element can be one of the following:
+###### http-equiv mode
 
-If the name attribute is set, the <meta> element provides document-level metadata, applying to the whole page.
-If the http-equiv attribute is set, the <meta> element is a pragma directive, providing information equivalent to what can be given by a similarly-named HTTP header.
-If the charset attribute is set, the <meta> element is a charset declaration, giving the character encoding in which the document is encoded.
-If the itemprop attribute is set, the <meta> element provides user-defined metadata.
+the `http-equiv` attribute of `&lt;meta&gt;` is there to specify certain HTTP headers within HTML itself.
+When using `http-equiv`, `http-equiv` contains the header name, and `content` contains the header value.
 
-meta name
+###### charset mode
+
+`&lt;meta&gt;` can be used to specify the character encoding of the page by using the `charset` attribute.
+
+###### itemprop mode
+
+`&lt;meta&gt;` may be used to set HTML microdata via the `itemprop` attribute.
+
+###### name
+
+If the `name` attribute is set, the `<meta>` element provides basic generic metadata.
+
+####### various meta `name`s
+
 author|document author
 description|short blurb about website, may be used in search results
+
+####### `name="theme-color"`
+
 theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS <color>.
+
+####### `name="viewport"`
+
+######## function
+
+The meta tag with name viewport is used to customize/constrain the viewport.
+
+######## background
 
 by defaults, narrow screen devices (e.g. mobiles) render pages in a virtual window or viewport, which is usually wider than the screen, and then shrink the rendered result down so it can all be seen at once, essentially lying about their viewport size, to make non-mobile-optimized pages not look terrible.
 without width=device-width, many media queries will never apply
 
-The meta tag with name viewport is used to customize/constrain the viewport.
+######## syntax
+
 For the meta tag with name viewport, the content value has the following syntax: <key>=<value>{, <key>=<value>}
+
+######## key=values
+
 width=<integer>|set size of the viewport to <integer> pixels
 width=device-width|prevent browser from lying about their width
 initial-scale=<integer>|set default zoom level on page
 user-scalable=("yes"|"no")|allow users to zoom or not
 maximum-scale=<integer>|set maximum zoom level
 
-
+#### body
 
 ##### various inline text
 
+###### abbr
+
 The abbr HTML element represents an acronym or abbreviation.
 There used to be an <acronym> element which was obsoleted in favor of <abbr>
-The thing an abbr element is short for may either be explained in the text or specified in a title attribute.
-» represents defining instance of a term
-The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the » is considered to be the definition of the term.
-If the » element has a title attribute, the value of the title attribute is considered to be the term being defined. The element must still have text within it, but that text may be an abbreviation (perhaps using <abbr>) or another form of the term.
-If the » contains a single child element and does not have any text content of its own, and the child element is an <abbr> element with a title attribute itself, then the exact value of the <abbr> element's title is the term being defined.
-Otherwise, the text content of the » element is the term being defined. 
+The thing an abbr element is short for may either be explained in the text or specified in a `title` attribute.
 
-##### Media
+###### dfn
+
+&lt;dfn&gt; represents defining instance of a term.
+the definition of a term defined by an &lt;dfn&gt; is the ancestor closest that is a <p>, <dt>/<dd> pairing, or <section>.
+The term &lt;dfn&gt; is defining is the value of the `title` attribute if it has one, or its text content otherwise.
+If &lt;dfn&gt; has a `title`, its contents may be something else then the name of the term, e.g. an abbr or alternative term.
+
+###### del and ins 
+
+The &lt;del&gt; HTML element represents text that has been deleted from a document.
+The &lt;ins&gt; HTML element represents text that has been added to the document.
+The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
+
+##### medialike
+
+###### media
+
+####### elements
 
 &lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
+
+####### interface
+
 Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
-The ⟮c+;HTMLMediaElement⟯ has a bunch of properties, amongs others
+
+####### attributes
 
 ⟮c+;muted⟯|⟮c+;audio is muted/mute audio⟯|IDL & Content
 ⟮c+;paused⟯|⟮c+;is paused/pause⟯|IDL
@@ -173,64 +259,76 @@ The ⟮c+;HTMLMediaElement⟯ has a bunch of properties, amongs others
 ⟮c+;ended⟯|⟮c+;Indicates whether it has finished playing⟯|IDL
 ⟮c+;playbackRate⟯|⟮c+;Represents the speed at which the thing is playing⟯|IDL
 
+####### events
 
-the HTMLMediaElement has quite a few different events
-Attribute change:
+######## attribute change
+
 paused=false -> paused=true|pause
 paused=true -> paused=false|play
+
+####### sources
 
 You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
 You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
 &lt;track&gt; defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)
 
+####### poster
+
 the poster attribute for video specifies a URL for an image to be shown while the video is downloading. 
 If the poster attribute for <video> isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
 
-###### track
+####### track
 
-track can ba a child of video or audio
+&lt;track&gt; provides some kind of text track for a media element.
+&lt;track&gt; can ba a child of &lt;video&gt; or&lt;audio&gt;
+
+######## attributes
+
 track has a default attribute to indicate that this is a default track
 track has a kind attribute to indicate its purpose
 track kinds: captions, chapters, descriptions, metadata, subtitles
 
-##### images
+###### images
 
-flex-container:<img> is used for including images
+####### img
 
+<img> is the HTML element used for including images
+
+####### picture
+
+The &lt;picture&gt; element is an element for containing different versions of the same image.
 The picture element contains 0 - ∞ source elements and one <img> element.
 The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
 
-###### srcset 
+####### srcset 
 
 srcset-values ::=  <srcset-specifier>{, <srcset-specifier>}
 srcset-specifier ::= <url> <integer>w
 sizes-values ::= <sizes-specifier>{, <sizes-specifier>}
 sizes-specifier ::= <media-query> <resolution-length-percentage>
 
-scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the image should be in that case (width as in resolution, not width of the  box). The browser then picks the closest one, but preferring ones that are too large than too small.
-If no sizes is provided, the browser chooses one of scrset based on which is closest to the viewport width (essentially just assuming that the image wlll be 100 vw)
+scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the slot is presumed to be in that case (width as in resolution, not width of the  box). 
+Using srcset, browser then picks the image whose width is closest to the slot width, but preferring ones that are too large than too small.
+If no sizes is provided, the browser presumes the slot width is 100vw.
 
-##### source
+###### source
 
+the &lt;source&gt; element provides a single source for certain media elements.
+The &lt;source&gt; element may be a child of <picture>, <video> and <audio>.
 the type (a MIME type) of a &lt;source&gt; element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
-The lists of <source>s for <picture>, <video> and <audio> represents a priority hierarchy - the browser will take the first one that matches.
-Conditions that <source>s may have are the type and media attributes
+A  &lt;source&gt; element is associated with one or more conditions.
+The conditions of a  &lt;source&gt; element are its `type` plus a media query specified in `media` if present.
+A lists of <source>s represents a priority hierarchy - the browser will take the first one that matches all conditions.
 &lt;source&gt; elements for audio/video take their URL in a src attribute; &lt;source&gt; elements for picture take their URL in a srcset attribute
 
 ##### Headings
 
 &lt;h1&gt; to &lt;h6&gt; define headings.
 It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
-There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
 Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessibility and SEO heading levels
+There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
 Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
 There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
-
-##### del and ins 
-
-The &lt;del&gt; HTML element represents text that has been deleted from a document.
-The &lt;ins&gt; HTML element represents text that has been added to the document.
-The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
 
 ##### progress and meter
 
@@ -643,7 +741,7 @@ the onevent event handlers
 xml:lang/xml:base — these are inherited from the XHTML specifications and deprecated, but kept for compatibility purposes.
 
 class, id
-HTML Microdata properties: item*
+HTML Microdata properties: item* (including on <meta>)
 translate: an enumerated attribute whether the element should be translated, e.g. by tools such as google translate.
 
 tabindex:
@@ -3613,6 +3711,8 @@ In GraphQL, any field can take its own arguments, even if it's nested, removing 
 
 ####### type system
 
+object-type ::= type <name> \{{<field>\}
+field ::= <key>[]
 
 
 ##### document data model
@@ -10301,12 +10401,23 @@ An ⟮c+;imageboard⟯ is like a ⟮c+;textboard⟯, just with ⟮c+;images⟯.
 ⟮c+;Textboards⟯ as well as ⟮c+;imageboards⟯ were invented in ⟮c+;Japan⟯. 
 ⟮c+;Textboards⟯ such as ⟮c+;2channel⟯ are generally popular in ⟮c+;Japan only⟯, while ⟮c+;imageboards⟯ (e.g. in the form of ⟮c+;4chan⟯) are popular in ⟮c+;english-speaking countries too⟯ 
 
+## in programming
+
+To share data between entities, one can use message passing or shared memory.
+Shared memory is having a fixed storage location which both entities can access to read/write the data.
+
+### messages
+
+Message passing is communicating between two things by sending messages.
+A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
+IPC is just message passing between two processes.
+
 # applications
 
 ⟮c+;Photoscape X⟯ is notable for being a ⟮c+;GUI⟯ program that has ⟮c+;batch editing of photos⟯
 
 
-#### full-on programs
+#### various programs
 
 ##### subscriptions
 
@@ -10332,7 +10443,7 @@ commands e.g. reload
 
 mail or the older mailx are *nix builtins to manage mail.
 
-##### bacvkup
+##### backup
 
 borg, restic
 
@@ -10864,118 +10975,6 @@ pass|Python
 
 : is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
 
-## Polymorphism
-
-something is monomorphic if it works for one type
-something is polymorphic if it works for several different types
-monomorphization is a compile-time process in which polymorphic code is transformed into n monomorphic variants
-
-ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
--> callable unit overloading, operator overloading
-
-### dispatch
-
-dispatch is choosing which method should be invoked in response to a method call.
-displatch is based on the type of the thing
-dispatch is only relevant if there are multiple implementations of a thing.
-
-#### static dispatch
-
-static dispatch is choosing an implementation of a polymorphic operation at compile time
-callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
-
-##### Overloading
-
-###### callable unit
-
-Overloading of callable units is creating multiple callable units with different callable unit signatures.
-Languages I know that support overloading are C#, Java, TS.
-When overloading, each signature generally has its own implementation, exept in TS.
-In TS, function '⟮c+;overloading⟯' exists, but you specify ⟮c+;all possible signatures⟯ ⟮c+;first⟯, and then the ⟮c+;implementation⟯ with a ⟮c+;signature⟯ that is ⟮c+;compatible with all the specified signature⟯ (e.g. using ⟮c+;optional parameters⟯), and not compatible with ⟮c+;non-specified signatures⟯
-For TS ⟮c+;overloaded⟯ functions, ⟮c+;all but the last⟯ signature(s), which ⟮c+;do(es)n't have any body⟯, is/are called ⟮c+;overload signatures⟯
-For TS ⟮c+;overloaded⟯ functions, ⟮c+;the last⟯ signature(s), which ⟮c+;has the body and thus the implementation⟯, is/are called ⟮c+;the implementation signature⟯
-In TS, in general: prefer ⟮c+;union types⟯ over ⟮c+;overloads⟯
-In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
-
-Operator overloading is where different operators have different implementations based on their operands.
-
-#### dynamic dispatch
-
-dynamic dispatch is choosing an implementation of a polymorphic operation at runtime.
-dynamic dispatch is accomplished by means of virtual methods/functions.
-both single dispatch and multiple dispatch are forms of dynamic dispatch.
-
-##### single & multiple dispatch
-
-single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
-
-multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on as well as the method parameters) is used to choose the implementation
-Overloading would be multiple dispatch if it was performed at runtime, but it isn't, so it isn't.
-
-##### virtual method table
-
-VMT = virtual method table
-virtual method table is also called (virtual) function/call/dispatch table
-virtual method/function/call table is sometimes abbreviated vftable or vtable.
-A vtable contains all relevant virtual functions.
-
-##### rust
-
-In rust, `dyn <trait-bound>` is the type of a trait object.
-A trait object is an opaque type of another type that implements a set of traits.
-A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
-A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box<>.
-For something to be object safe, the return type may not be `Self` and there may not be any generic type parameters.
-A trait object must be object safe.
-The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
-The reason a method of a trait used in a trait object may not return `Self` is that we don't known `Self` at compile-time, thus we can't reason about its size and can't guarantee safety.
-In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
-
-### parametric polymorphism
-
-Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
-A generic is a stand-in for a type that is not yet specified or unknown. 
-
-#### type parameters & generics
-
-A type parameter is a specifier of one or more types that a thing (callable unit, object, ...) is defined over.
-Type parameters go in angle brackets.
-Type parameters are generally written in UpperCamelCase
-Within type parameters, multiple type specifiers are separated by `, `.
-Generics are specified within type parameters.
-Names of generics are typically single characters.
-A generic of any type is typically indicated T
-
-##### binding generics
-
-Once the name of a generic is bound, any reference to that name refers to that generic.
-Two generics of different names are independent, even if they may be filled by the same concrete type at runtime.
-It may sometimes seem like a generic is being bound twice when it's actually being used the second time.
-E.g. impl<T> SomeStruct<T> is saying that you're implementing SomeStruct such that SomeStruct's generic <T> (second mention) satisfies being any type <T> (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct<T>, if that were possible.
-Binding <T> via the `impl` already allows one to do more interesting things.
-e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
-
-#### constrainment
-
-Many languages have a way to specify contraints a generic should satisfy.
-Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
-Trait bounds are a set of traits that a generic must satisfy.
-In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-bound>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
-trait-bound ::= <trait-name>{ + <trait-name>}
-where-clause-syntax ::= where {<generic>: <trait-list><newline>}
-TS allows specifying constraints for generics via the `extends` keyword.
-The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
-
-#### implementation & monomorphization
-
-Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
-C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
-In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64.
-
-Interfaces/traits often enable parametric polymorphism.
-
-### subtyping
-
 ## Identifiers
 
 In a wide sense, "name" is synonymous to identifier, in a narrow sense it is an identifier
@@ -11115,6 +11114,8 @@ While there is variety in what is allowed in a identifier name, most commonly it
 JS also allow $ in a non-sigil way in identifier names.
 JS identifiers may not start with a number, but with any other allowed character.
 In general, identifiers may not be keywords.
+
+# values, variables, types
 
 ## Values
 
@@ -11933,6 +11934,10 @@ flex-container:<img src="sm_rand_seq_acc.svg">
 book|random access (to pages)
 scroll|sequential access
 
+##### notation
+
+
+
 #### Collection methods
 
 ##### Clear a mutable collection
@@ -12237,6 +12242,7 @@ n indices|multidimensional array|tensor
 ####### primitiveness
 
 Arrays are generally primitives in different programming languages, though they differ on syntax and what they call them.
+In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 
 ####### possibilities
 
@@ -12259,7 +12265,7 @@ Different types in the dynamic arrays defined over a generic may be possible via
 
 ######## dynamic arrays (of whatever types)
 
-list|python
+list|GraphQL|python
 array|perl|JS|ruby
 table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
@@ -12284,7 +12290,7 @@ list|SASS/SCSS
 
 dynamic (of whatever types)
 ()|Perl (same as assoc. arr)|Shell
-[]|JS|Python|Ruby
+[]|JS|GraphQL|Python|Ruby
 
 static, one type only
 {}|C#|Java
@@ -12305,29 +12311,40 @@ immutable static array (of whatever types)
 
 In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
 
+######## oddities
+
+YAML also has indentation delimited, newline separated, individual items marked by `- ` version
+
 ######## nested
 
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
 
 ######## type annotation
 
+In principle, type annotation for array types usually uses the same delimiter as the literal for that array type.
+
+######### specific variants
+
+static immutable arrays|<delimiter><type>{, <type>}<delimiter>
+static mutable single-type arrays|<delimiter><type>, <length><delimiter>
+dynamic arryas|<type><delimiter><delimiter>|TS
+dynamic arrays|<delimiter><type><delimiter>|GraphQL
+
+######### language peculiarities
+
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
-YAML also has indentation delimited, newline separated, individual items marked by `- ` version
+in TS, <type>[] is syntactic sugar for Array\<<type>\>
+in TS, readonly <type>[] is syntactic sugar for ReadonlyArray\<<type>\>
+
+###### operations
 
 In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
 
-In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
-in languages with type annotation, the type of dynamic arrays is usually written as type[], e.g. int[] or String[]
-in TS, <type>[] is syntactic sugar for Array\<<type>\>
-in TS, readonly <type>[] is syntactic sugar for ReadonlyArray\<<type>\>
-In rust, the type of its (static) array is annotated as [<type>, <length>]
-Tuple types typically have type annotations of <delimiter><type>{, <type>}<delimiter>
+####### fixed length
+
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
-
-access|O(1)
-iterating|O(n)
 
 ##### Lists
 
@@ -12753,6 +12770,119 @@ Tag functions are functions prefixed to template literals (but not called)
 Tag functions recieve a first argument an array of all constituent string parts of a template literal, and all interpolated values as following arguments.
 Whatever the tag function returns will be what the string evaluates to.
 Tag functions can return whatever.
+
+
+## Polymorphism
+
+something is monomorphic if it works for one type
+something is polymorphic if it works for several different types
+monomorphization is a compile-time process in which polymorphic code is transformed into n monomorphic variants
+
+ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
+-> callable unit overloading, operator overloading
+
+### dispatch
+
+dispatch is choosing which method should be invoked in response to a method call.
+displatch is based on the type of the thing
+dispatch is only relevant if there are multiple implementations of a thing.
+
+#### static dispatch
+
+static dispatch is choosing an implementation of a polymorphic operation at compile time
+callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
+
+##### Overloading
+
+###### callable unit
+
+Overloading of callable units is creating multiple callable units with different callable unit signatures.
+Languages I know that support overloading are C#, Java, TS.
+When overloading, each signature generally has its own implementation, exept in TS.
+In TS, function '⟮c+;overloading⟯' exists, but you specify ⟮c+;all possible signatures⟯ ⟮c+;first⟯, and then the ⟮c+;implementation⟯ with a ⟮c+;signature⟯ that is ⟮c+;compatible with all the specified signature⟯ (e.g. using ⟮c+;optional parameters⟯), and not compatible with ⟮c+;non-specified signatures⟯
+For TS ⟮c+;overloaded⟯ functions, ⟮c+;all but the last⟯ signature(s), which ⟮c+;do(es)n't have any body⟯, is/are called ⟮c+;overload signatures⟯
+For TS ⟮c+;overloaded⟯ functions, ⟮c+;the last⟯ signature(s), which ⟮c+;has the body and thus the implementation⟯, is/are called ⟮c+;the implementation signature⟯
+In TS, in general: prefer ⟮c+;union types⟯ over ⟮c+;overloads⟯
+In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
+
+Operator overloading is where different operators have different implementations based on their operands.
+
+#### dynamic dispatch
+
+dynamic dispatch is choosing an implementation of a polymorphic operation at runtime.
+dynamic dispatch is accomplished by means of virtual methods/functions.
+both single dispatch and multiple dispatch are forms of dynamic dispatch.
+
+##### single & multiple dispatch
+
+single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
+
+multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on as well as the method parameters) is used to choose the implementation
+Overloading would be multiple dispatch if it was performed at runtime, but it isn't, so it isn't.
+
+##### virtual method table
+
+VMT = virtual method table
+virtual method table is also called (virtual) function/call/dispatch table
+virtual method/function/call table is sometimes abbreviated vftable or vtable.
+A vtable contains all relevant virtual functions.
+
+##### rust
+
+In rust, `dyn <trait-bound>` is the type of a trait object.
+A trait object is an opaque type of another type that implements a set of traits.
+A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
+A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box<>.
+For something to be object safe, the return type may not be `Self` and there may not be any generic type parameters.
+A trait object must be object safe.
+The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
+The reason a method of a trait used in a trait object may not return `Self` is that we don't known `Self` at compile-time, thus we can't reason about its size and can't guarantee safety.
+In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
+
+### parametric polymorphism
+
+Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
+A generic is a stand-in for a type that is not yet specified or unknown. 
+
+#### type parameters & generics
+
+A type parameter is a specifier of one or more types that a thing (callable unit, object, ...) is defined over.
+Type parameters go in angle brackets.
+Type parameters are generally written in UpperCamelCase
+Within type parameters, multiple type specifiers are separated by `, `.
+Generics are specified within type parameters.
+Names of generics are typically single characters.
+A generic of any type is typically indicated T
+
+##### binding generics
+
+Once the name of a generic is bound, any reference to that name refers to that generic.
+Two generics of different names are independent, even if they may be filled by the same concrete type at runtime.
+It may sometimes seem like a generic is being bound twice when it's actually being used the second time.
+E.g. impl<T> SomeStruct<T> is saying that you're implementing SomeStruct such that SomeStruct's generic <T> (second mention) satisfies being any type <T> (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct<T>, if that were possible.
+Binding <T> via the `impl` already allows one to do more interesting things.
+e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
+
+#### constrainment
+
+Many languages have a way to specify contraints a generic should satisfy.
+Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
+Trait bounds are a set of traits that a generic must satisfy.
+In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-bound>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
+trait-bound ::= <trait-name>{ + <trait-name>}
+where-clause-syntax ::= where {<generic>: <trait-list><newline>}
+TS allows specifying constraints for generics via the `extends` keyword.
+The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
+
+#### implementation & monomorphization
+
+Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
+C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
+In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64.
+
+Interfaces/traits often enable parametric polymorphism.
+
+### subtyping
 
 ## operators
 
@@ -13293,7 +13423,9 @@ find_index()|Ruby
 
 
 
-### Arguments
+### Arguments & Parameters
+
+#### arguments vs parameters
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
 for a callable unit,  ⟮c+;parameters⟯ are the values you specify the function will be passed, most commonly in its signature.
@@ -13303,50 +13435,97 @@ function foo(a, b){...
 foo(12, "whistles") 
 a, b are parameters, 12, "whistles" are arguments
 
-most languages require the possible parameters defined in a callable unit definition to be wrapped in parantheses.
-sh doesn't allow specifying parameters at all
-most languages require the arguments to a function call to be wrapped in parentheses.
-sh does not wrap arguments at all
+#### syntax
+
+##### both
+
 most languages separate both the parameteres and arguments with commas.
 sh separates arguments with space
+
+##### parameters
+
+most languages require the possible parameters defined in a callable unit definition to be wrapped in parantheses.
+sh doesn't allow specifying parameters at all
+
+##### arguments
+
+most languages require the arguments to a function call to be wrapped in parentheses.
+sh does not wrap arguments at all
 
 Exceptions:
 1 arg doesn't need parens|lua
 always optional|ruby|perl
 never|sh
 
-refer to all passed arguments as an array
+#### operations
+
+##### refer to all passed arguments as an array
+
 $@|(ba)sh
 arguments|JS (not arrow functions)
 
-In sh, instead of parameters having names, you refer to them positionally via $0...$9. 
-$# gets the amount of arguments passed. # $ for sytax normalization for the md document
+##### amount of arguments passed
+
+\$#|(ba)sh
 
 #### Positional and named
 
+##### definition
+
 A positional argument is one where the language knows which parameter to assign it to based on its position in the argument list.
 A named argument is one where the language knows which parameter to assign it to because it directly refers to the name of the parameter.
-Named arguments usually use normal assignment syntax
+While arguments may be positional or named, the parameters themselves nearly always have names. However, in sh parameters do not have names, instead you refer to them positionally via $0...$9. 
 
-named parameters|Python|JS|SCSS/Sass @mixin, @function
-positional parameters|pretty much all languages
+##### in languages
+
+positional parameters exist in pretty much all languages, except GraphQL
+named parameters exist in GraphQL, Python, SCSS/Sass @mixin, @function
+
+##### positional
+
+###### operations
+
+####### move
 
 Move remove the first positional argument and shift all arguments one to the left
 shift|Perl|sh
 
+##### named
+
+Named arguments usually use normal assignment syntax
+
 #### Default parameters
 
+##### definition
+
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
+
+##### syntax
+
+the general syntax is `paramname = defaultval` (within the parameter list)
+
+##### in languages
+
+GraphQL, Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
+
+##### interaction with null
+
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
-the general syntax is `paramname = defaultval` (within the parameter list)
-Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
 #### Optional
 
+##### general situation
+
 In most languages, callable units must be recieve the exact amount of arguments specified as parameters, unless things like the splat operator or default parameters are used.
+
+##### JS & TS
+
 JS does not require the same number of arguments as parameters, it will assign unpassed parameters `undefined`, and put all arguments into the array-like `arguments`, allowing for retrieval of extra arguments.
 TS moves JS in line with other programming languages, requiring arguments for parameters by default, and only accepting the not-passing of arguments if the parameter is optional.
+
+##### marking as optional
+
 in TS, optional parameters and optional fields are marked with a ? after the name, which changes their type to be whatever | undefined
 
 #### evaluation strategy
@@ -13839,11 +14018,6 @@ attributes have four forms for taking arguments (or none)
 rust-attribute ::= #[!]\[<rust-attribute-name><rust-attribute-arguments>\]
 rust-attribute-arguments ::= ø|(= "<value>")|(\(<value>{, <value>}\))|\(<key> = "<value>"{, <key> = "<value>"}\)
 
-## Formatting
-
-Official style guide/best practices
-PEP 8|Python
-
 ## modules
 
 The main purpose of modules is encapsulation.
@@ -13965,18 +14139,6 @@ In rust, re-exporting works by making a `use` itself public.
 In commonJS, exports are declared as properties of the module.exports object.
 
 #### default exports
-
-
-## communication
-
-To share data between entities, one can use message passing or shared memory.
-Shared memory is having a fixed storage location which both entities can access to read/write the data.
-
-### messages
-
-Message passing is communicating between two things by sending messages.
-A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
-IPC is just message passing between two processes.
 
 ## Memory 
 
@@ -16020,27 +16182,25 @@ separation of mechanism and policy.
 
 ## documentation
 
-### methods
-
-#### self-documenting code
+### self-documenting code
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying is/does.
 
-#### Comments
+### Comments
 
 Comments in programming are (generally) ignored by compilers/interpreters.
 But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
 Comments are written primarily for humans
 Generally, single line comments go to the end of the line
 
-##### comment syntaxes
+#### comment syntaxes
 
-###### single line 
+##### single line 
 
 While comment syntaxes diverge, most commonly single line comments are begun by `#`.
 
-####### that are not the default `#`
+###### that are not the default `#`
 
 --|lua
 //|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
@@ -16049,7 +16209,7 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 (?#foo)|Regex
 (* foo *)|ENBF
 
-###### multi-line
+##### multi-line
 
 --\[\[foo]]|lua
 /\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
@@ -16057,29 +16217,61 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
 
-##### peculiarities
+#### peculiarities
 
 Besides comments, fountain has the notion of a note, delimited [[foo]]
 
-#### Documentation generators
+### Documentation generators
+
+#### basics
 
 A documentation generator is a tool that generates documentation from source code, most commonly taking into consideration the actual source code as well as a special documentation syntax.
 Documentation generator syntax is often in the form of a special kind of comment.
+Generally, you can build documentation using a documentation generator using its name as a CLI command.
+Generally, documentation generators generate HTML websites, often using a certain template as a basis.
+
+#### various ones
+
+##### mapping
+
 Rustdoc is the built-in documentation generator syntax for Rust.
 Javadoc is a documentation generator syntax for Java.
 JSDoc is a documentation generator syntax based off of and very similar to JS.
 ESDoc is a variant of jsdoc that tries to guess more from existing source code.
 Assume whatever is true for JSDoc is probably also true for javadoc.
-Generally, you can build documentation using a documentation generator using its name as a CLI command.
-For rustdoc, you can also use the cargo subcommand doc.
-Generally, documentation generators generate HTML websites, often using a certain template as a basis.
-Documentation generator config
+
+##### commands
+
+For rustdoc, you can also use the cargo subcommand doc to generate documentation.
+
+##### config
+
 name|CLI|Config file
 jsdoc|y|y
 
+##### plugnins
+
 Of the documentation generators, jsdoc also supports a plugin ecosystem.
+
+##### comment syntax
+
+for the following thing|///|Rust
+for the following thing|/**...*/|Java (Javadoc)
+for the thing we are in right now|//!|Rust
+for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
+
+###### syntax within comments
+
 By default, jsdoc supports HTML in its annotation, with the markdown plugin it instead supports markdown.
+Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
+
+#### specific ones
+
+##### JSDoc
+
 JSDOc supports inline tags for annotating things within a thing, however most jsdoc tags are block tags.
+
+###### basic syntax
 
 jsdoc-comment ::= /** <jsdoc-comment-contents> */
 jsdoc-comment-contents ::= ([<jsdoc-description>] {<jsdoc-block-tag>})|<jsdoc-inline-tag>
@@ -16091,41 +16283,44 @@ jsdoc-line-start ::= * # notice the space
 
 jsdoc-inline-tag ::= {<jsdoc-tag>}
 
+###### namepaths
+
 In JSDoc, to refer to things that are not in the thing being documented, to prevent ambiguity, namepaths are used.
 jsdoc-namepath ::= <entity>{(#|.|-)<entity>}
 #|instance member
 .|static member
 ~|inner member (member within an inner scope of something)
 
+###### tags
+
 @author <name> [\<<email>\>]|identifies the author
 
-Documentation
-for the following thing|///|Rust
-for the following thing|/**...*/|Java (Javadoc)
-for the thing we are in right now|//!|Rust
-for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
-
-Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
-
-### generation
+### book/webiste
 
 mdBook is a rust crate and command-line tool that produces books from markdown.
 mdBook produces books similar to the rust book.
 mdBook and docusaurus can easily be deployed to github pages.
 docosaurus is a react-based solution for writing documentation via markdown
 
-cargo doc builds the packages documentation in cargo
-
 ## requirements engineering
 
-A ⟮c+;user story⟯ is the ⟮c+;explanation of a feature⟯ ⟮c+;from the perspective of the user⟯.
+### expectations
+
 Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
-Parkinsaw's Law: Work expands to fill the available time
+
+### time and importance
+
+#### parkinson's law
+
+Parkinson's Law: Work expands to fill the available time.
 The law of triviality was originally developed as a corollary to parkinsons law.
 Law of triviality: people within an organization/community/project typically give disproportionate weight to trivial issues.
 Most common example of the law of triviality: the choice of materials for a bike shed taking up a disproportionate time during the construction of a nuclear power plant.
 Bike-shedding is discussion that conforms to the law of triviality: Disproportionate discussion about relatively irrellevant issues.
 
+### user stories
+
+A ⟮c+;user story⟯ is the ⟮c+;explanation of a feature⟯ ⟮c+;from the perspective of the user⟯.
 
 ### code quality
 
@@ -16133,13 +16328,21 @@ Code quality tools such as linters and code formatters often have a CLI but are 
 
 #### linting
 
+##### definition
+
 A linter flags logic errors, suspicious constructs and violated conventions.
 A linter often also includes a code formatter.
+
+##### various linters
 
 yaml|yamllint
 css|stylelint
 js|ESLint
 shell (bash/csh/ksh etc.)|shellcheck
+
+##### linters in detail
+
+###### eslint
 
 ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
 in ESlint, to ⟮c+;inherit configs from other files⟯, specify the ⟮c+;extends⟯ key
@@ -16149,17 +16352,36 @@ To ⟮c+;extend⟯ ESLint, use ⟮c+;plugins⟯
 
 To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
 
+##### as part of other things
+
 the subcommand lint runs the relevant linter on the project (Nextjs: eslint)
 
 #### code style
 
-nit = short for nitpick
+##### definitions
+
 Generally, each project has a certain code style.
 A code style is a set of rules for how to format source code.
+
+##### code formatter
+
+###### definitions
+
 A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
+A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
+
+###### prettier
+
 Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
 Prettier works for most languages relevant for web development.
-A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
+
+##### misc
+
+nit = short for nitpick
+
+##### style guides
+
+PEP 8|Python
 
 ## Modelling
 
