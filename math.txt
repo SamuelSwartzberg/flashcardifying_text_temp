@@ -178,22 +178,22 @@ nth digit|value
 ###### conversion practice
 
 table:binary|decimal
-⟮c+;0<sub>2</sub>⟯|⟮c+;0<sub>10</sub>⟯
-⟮c+;1000<sub>2</sub>⟯|⟮c+;8<sub>10</sub>⟯
-⟮c+;1001<sub>2</sub>⟯|⟮c+;9<sub>10</sub>⟯
-⟮c+;100<sub>2</sub>⟯|⟮c+;4<sub>10</sub>⟯
-⟮c+;1010<sub>2</sub>⟯|⟮c+;10<sub>10</sub>⟯
-⟮c+;1011<sub>2</sub>⟯|⟮c+;11<sub>10</sub>⟯
-⟮c+;101<sub>2</sub>⟯|⟮c+;5<sub>10</sub>⟯
-⟮c+;10<sub>2</sub>⟯|⟮c+;2<sub>10</sub>⟯
-⟮c+;1100<sub>2</sub>⟯|⟮c+;12<sub>10</sub>⟯
-⟮c+;1101<sub>2</sub>⟯|⟮c+;13<sub>10</sub>⟯
-⟮c+;110<sub>2</sub>⟯|⟮c+;6<sub>10</sub>⟯
-⟮c+;1110<sub>2</sub>⟯|⟮c+;14<sub>10</sub>⟯
-⟮c+;1111<sub>2</sub>⟯|⟮c+;15<sub>10</sub>⟯
-⟮c+;111<sub>2</sub>⟯|⟮c+;7<sub>10</sub>⟯
-⟮c+;11<sub>2</sub>⟯|⟮c+;3<sub>10</sub>⟯
-⟮c+;1<sub>2</sub>⟯|⟮c+;1<sub>10</sub>⟯
+⟮c+;0⎵2⎵⟯|⟮c+;0⎵10⎵⟯
+⟮c+;1000⎵2⎵⟯|⟮c+;8⎵10⎵⟯
+⟮c+;1001⎵2⎵⟯|⟮c+;9⎵10⎵⟯
+⟮c+;100⎵2⎵⟯|⟮c+;4⎵10⎵⟯
+⟮c+;1010⎵2⎵⟯|⟮c+;10⎵10⎵⟯
+⟮c+;1011⎵2⎵⟯|⟮c+;11⎵10⎵⟯
+⟮c+;101⎵2⎵⟯|⟮c+;5⎵10⎵⟯
+⟮c+;10⎵2⎵⟯|⟮c+;2⎵10⎵⟯
+⟮c+;1100⎵2⎵⟯|⟮c+;12⎵10⎵⟯
+⟮c+;1101⎵2⎵⟯|⟮c+;13⎵10⎵⟯
+⟮c+;110⎵2⎵⟯|⟮c+;6⎵10⎵⟯
+⟮c+;1110⎵2⎵⟯|⟮c+;14⎵10⎵⟯
+⟮c+;1111⎵2⎵⟯|⟮c+;15⎵10⎵⟯
+⟮c+;111⎵2⎵⟯|⟮c+;7⎵10⎵⟯
+⟮c+;11⎵2⎵⟯|⟮c+;3⎵10⎵⟯
+⟮c+;1⎵2⎵⟯|⟮c+;1⎵10⎵⟯
 
 ###### bits and bytes
 
@@ -226,9 +226,9 @@ A hex digit is equivalent to 4 binary digits
 ##### dec-hex
 
 Decimal number|Hexadecimal number
-⟮c+;1342<sub>10</sub>⟯|⟮c+;53E<sub>16</sub>⟯
-⟮c+;13<sub>10</sub>⟯|⟮c+;D<sub>16</sub>⟯
-⟮c+;233<sub>10</sub>⟯|⟮c+;E9<sub>16</sub>⟯
+⟮c+;1342⎵10⎵⟯|⟮c+;53E⎵16⎵⟯
+⟮c+;13⎵10⎵⟯|⟮c+;D⎵16⎵⟯
+⟮c+;233⎵10⎵⟯|⟮c+;E9⎵16⎵⟯
 
 Decimal digit|Hexadecimal digit
 ⟮c+;decimal 10⟯|⟮c+;hexadecimal A⟯
@@ -285,14 +285,14 @@ A circular arc is the arc of a circle between a pair of distinct points.
 ## Area
 
 Man kann sich die Formel des ⟮c+;Flächeninhalts⟯ eines ⟮c+;Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮c+;indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
-⟮c+;Dreieck⟯|⟮c+;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯</td></tr>|⟮h∞;<img src="sm_dreieck.gif">⟯
-⟮c+;Kreis⟯|⟮c+;\[A=r^2π\]⟯</td></tr>|⟮h∞;<img src="sm_kreis.gif">⟯
-⟮c+;Parallelogramm⟯|⟮c+;\[A=a*h_a=b*h_b\]⟯</td></tr>|⟮h∞;<img src="sm_para.gif">⟯
-⟮c+;Quadrat⟯|⟮c+;\[A=a^2\]⟯</td></tr>|⟮h∞;<img src="sm_quadrat.gif">⟯
-⟮c+;Rechteck⟯|⟮c+;\[A=a*b\]⟯</td></tr>|⟮h∞;<img src="sm_rechteck.gif">⟯
-⟮c+;Rhombus/Deltoid⟯|⟮c+;\[A=\frac{e*f}{2}\]⟯</td></tr>|⟮h∞;<img src="sm_deltoid.gif">⟯
-⟮c+;Trapez⟯|⟮c+;\[A=\frac{(a+c)*h}{2}\]⟯</td></tr>|⟮h∞;<img src="sm_trapez.gif">⟯
-⟮c+;Kreissektor⟯|⟮c+;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯</td></tr>|⟮h∞;<img src="sm_sektor.gif">⟯
+⟮c+;Dreieck⟯|⟮c+;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯|⟮h∞;<img src="sm_dreieck.gif">⟯
+⟮c+;Kreis⟯|⟮c+;\[A=r^2π\]⟯|⟮h∞;<img src="sm_kreis.gif">⟯
+⟮c+;Parallelogramm⟯|⟮c+;\[A=a*h_a=b*h_b\]⟯|⟮h∞;<img src="sm_para.gif">⟯
+⟮c+;Quadrat⟯|⟮c+;\[A=a^2\]⟯|⟮h∞;<img src="sm_quadrat.gif">⟯
+⟮c+;Rechteck⟯|⟮c+;\[A=a*b\]⟯|⟮h∞;<img src="sm_rechteck.gif">⟯
+⟮c+;Rhombus/Deltoid⟯|⟮c+;\[A=\frac{e*f}{2}\]⟯|⟮h∞;<img src="sm_deltoid.gif">⟯
+⟮c+;Trapez⟯|⟮c+;\[A=\frac{(a+c)*h}{2}\]⟯|⟮h∞;<img src="sm_trapez.gif">⟯
+⟮c+;Kreissektor⟯|⟮c+;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯|⟮h∞;<img src="sm_sektor.gif">⟯
 
 
 
@@ -349,7 +349,7 @@ A summation is denoted by Σ.
 
 digit sum = quersumme
 The digit sum is the sum of all the digits of a number.
-e.g. digit sum of 9045<sub>10</sub> = 9 + 0 + 4 + 5 = 18.
+e.g. digit sum of 9045⎵10⎵ = 9 + 0 + 4 + 5 = 18.
 
 ### algorithms for
 
@@ -528,9 +528,12 @@ Symbol|Refers to?
 ⟮c+;Integers⟯ are known as ⟮c+;ganze Zahlen⟯ in German. 
 
 
-onion-box:[⟮c+;s∞;ℝ⟯ [⟮c+;s∞;ℚ⟯ [⟮c+;s∞;ℤ⟯ [⟮c+;s∞;ℕ⟯ [⟮c+;s∞;ℙ⟯<br><br>]]]]]
-
-
+onion-box:
+⟮c+;s∞;ℝ⟯
+  ⟮c+;s∞;ℚ⟯ 
+    ⟮c+;s∞;ℤ⟯ 
+      ⟮c+;s∞;ℕ⟯ 
+        ⟮c+;s∞;ℙ⟯
 
 
 ### combination
@@ -710,7 +713,7 @@ XOR|1|1|0
 
 a bitmask is using bitwise operations to get the value of certain bits
 a bitmask using bitwise AND gets a subset of bits
-bitmasking with AND 1<sub>2</sub> returns the parity of the number (0 = even, 1 = odd)
+bitmasking with AND 1⎵2⎵ returns the parity of the number (0 = even, 1 = odd)
 
 # analysis
 
@@ -1046,9 +1049,9 @@ A ⟮c+;statistic⟯ that ⟮c+;is being used to estimate⟯ a ⟮c+;parameter�
 
 #### Types of errors
 
-⟮c+;s5:8;H<sub>0</sub> true⟯|⟮c+;s5:8;H<sub>0</sub> false⟯
-⟮c+;s5:8;reject H<sub>0</sub>⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
-⟮c+;s5:8;fail to reject H<sub>0</sub>⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
+⟮c+;s5:8;H⎵0⎵ true⟯|⟮c+;s5:8;H⎵0⎵ false⟯
+⟮c+;s5:8;reject H⎵0⎵⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
+⟮c+;s5:8;fail to reject H⎵0⎵⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
 
 # applied
 

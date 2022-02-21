@@ -2428,13 +2428,13 @@ quadratic|3
 cubic|4
 To construct a bezier function, one connect the points until one has only a curve between two points left.
 To construct a linear bezier function, connect P0 and P1. You're done (it's a straight line).
-To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> from 0 to 1. This point describes the quadratic bezier curve.
+To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ from 0 to 1. This point describes the quadratic bezier curve.
 
 
 flex-container:<img src="sm_ZS4fP%20(1).png">
 flex-container:<img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
 
-To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P<sub>P0P1</sub> and P<sub>P1P2</sub> as well as P<sub>P1P2</sub> and P<sub>P2P3</sub> with a further line. Let a point travel on P<sub>P0P1</sub>P<sub>P1P2</sub> and on P<sub>P1P2</sub>P<sub>P2P3</sub> from 0 to 1. Connect P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> and P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub> with a further line. Let a point travel on P<sub>P<sub>P0P1</sub>P<sub>P1P2</sub></sub> P<sub>P<sub>P1P2</sub>P<sub>P2P3</sub></sub>, this point describes the cubic bezier curve.
+To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ as well as P⎵P1P2⎵ and P⎵P2P3⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ and on P⎵P1P2⎵P⎵P2P3⎵ from 0 to 1. Connect P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> and P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub> with a further line. Let a point travel on P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub>, this point describes the cubic bezier curve.
 
 flex-container:<img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
 
@@ -9948,10 +9948,10 @@ One of the major problems with classful IP addresses was that the host identifie
 
 
 table:Class|bit header|networ prefix length
-A|1<sub>2</sub>|1 byte
-B|10<sub>2</sub>|2 byte
-C|110<sub>2</sub>|3 byte
--|111<sub>2</sub>|〜4 lol〜 first unused, later multicast addressing
+A|1⎵2⎵|1 byte
+B|10⎵2⎵|2 byte
+C|110⎵2⎵|3 byte
+-|111⎵2⎵|〜4 lol〜 first unused, later multicast addressing
 
 
 ⟮c+;Classful IP addresses⟯ were used until ⟮c+;the early 90s⟯ (⟮c+;1993⟯) and then replaced with ⟮c+;Classless Inter-Domain Routing⟯ (⟮c+;CIDR⟯)
