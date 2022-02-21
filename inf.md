@@ -16,8 +16,8 @@ Since XML is a subset of SGML and HTML is based on it, HTML and XML share simila
 
 #### tags
 
-*ML »tags« are delimited by &lt;...&gt;
-*ML end tags additionally feature a / to look like &lt;.../&gt;
+*ML »tags« are delimited by ‹...›
+*ML end tags additionally feature a / to look like ‹.../›
 
 #### elements
 
@@ -25,7 +25,7 @@ Since XML is a subset of SGML and HTML is based on it, HTML and XML share simila
 
 An *ML »element« is everything from an elements start tag to an elments end tag.
 An *ML element has an »element name«.
-An *ML elements start and end tag feature its name: &lt;foo&gt; ... &lt;/foo&gt;.
+An *ML elements start and end tag feature its name: ‹foo› ... ‹/foo›.
 *ML elements are begun by a »start tag« and ended by an »end tag«, unless they are self-closing.
 *ML element consist of start tag, content, and end tag.
 *ML elements' »content« is either text or other elements ('child elements').
@@ -84,7 +84,7 @@ the ⟮c+;XML declaration⟯ is ⟮c+;optional⟯, ⟮c+;but if it appears⟯, i
 the ⟮c+;XML declaration⟯ takes ⟮c+;three⟯ possible parameters.
 Of the XML declaration parameters, `⟮c+;version⟯` is ⟮c+;mandatory⟯.
 ```
-&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+‹?xml version="1.0" encoding="UTF-8" standalone="no" ?›
 ```
 
 ##### !XML declaration parameters
@@ -101,7 +101,7 @@ Document type declaration is often shortened doctype.
 Document type definition is typically shortened to DTD.
 A document type declaration must be the first thing in the page if HTML.
 A document type declaration must be the first thing after the XML declaration if XML
-The syntax of a doctype declaration is &lt;!DOCTYPE somestuff&gt;
+The syntax of a doctype declaration is ‹!DOCTYPE somestuff›
 In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
 
 ### XML
@@ -125,14 +125,14 @@ Processing instructions are mainly used to associate CSS with XML documents.
 ⟮c+;CDATA⟯ is short for ⟮c+;Character data⟯) 
 ⟮c+;CDATA⟯ ⟮c+;tells the parser not to parse the content as XML markup⟯ 
 ⟮c+;CDATA⟯ allows us to ⟮c+;use characters with a special meaning in XML⟯ without ⟮c+;confusing the parser⟯, for example, ⟮sb;this would allow us to ⟮c+;include HTML within XML without a problem⟯.⟯ 
-⟮c+;CDATA⟯ syntax: `⟮c+;&lt;![⟯⟮c+;CDATA⟯⟮c+;[⟯content...⟮c+;]]&gt;⟯` 
+⟮c+;CDATA⟯ syntax: `⟮c+;‹![⟯⟮c+;CDATA⟯⟮c+;[⟯content...⟮c+;]]›⟯` 
 
 ### HTML
 
 #### General structure
 
 The root element of a HTML document is defined by the `html` element
-a &lt;html&gt; element consists of a &lt;head&gt; element and a &lt;body&gt; element
+a ‹html› element consists of a ‹head› element and a ‹body› element
 
 #### nesting
 
@@ -140,15 +140,15 @@ some elements must appear as children of other elements - to violate these rules
 
 #### head
 
-The &lt;head&gt; element contains metadata about the document.
-The &lt;head&gt; element can contain <base>, <meta>, <title>, <link>, &lt;style>, <script>, <noscript> and <template>
+The ‹head› element contains metadata about the document.
+The ‹head› element can contain <base>, <meta>, <title>, <link>, &lt;style>, <script>, <noscript> and <template>
 
 ##### title
 
-the &lt;title&gt; element defines the documents title
-the &lt;title&gt; element is mainly shown in the browsers tab name / title bar, as well as search engines.
-the &lt;title&gt; element can only contain text, not tags.
-the &lt;title&gt; element's content should change in response to major state changes.
+the ‹title› element defines the documents title
+the ‹title› element is mainly shown in the browsers tab name / title bar, as well as search engines.
+the ‹title› element can only contain text, not tags.
+the ‹title› element's content should change in response to major state changes.
 
 ##### base
 
@@ -167,16 +167,16 @@ The <meta> element has four mutually exclusive modes.
 
 ###### http-equiv mode
 
-the `http-equiv` attribute of `&lt;meta&gt;` is there to specify certain HTTP headers within HTML itself.
+the `http-equiv` attribute of `‹meta›` is there to specify certain HTTP headers within HTML itself.
 When using `http-equiv`, `http-equiv` contains the header name, and `content` contains the header value.
 
 ###### charset mode
 
-`&lt;meta&gt;` can be used to specify the character encoding of the page by using the `charset` attribute.
+`‹meta›` can be used to specify the character encoding of the page by using the `charset` attribute.
 
 ###### itemprop mode
 
-`&lt;meta&gt;` may be used to set HTML microdata via the `itemprop` attribute.
+`‹meta›` may be used to set HTML microdata via the `itemprop` attribute.
 
 ###### name
 
@@ -226,16 +226,16 @@ The thing an abbr element is short for may either be explained in the text or sp
 
 ###### dfn
 
-&lt;dfn&gt; represents defining instance of a term.
-the definition of a term defined by an &lt;dfn&gt; is the ancestor closest that is a <p>, <dt>/<dd> pairing, or <section>.
-The term &lt;dfn&gt; is defining is the value of the `title` attribute if it has one, or its text content otherwise.
-If &lt;dfn&gt; has a `title`, its contents may be something else then the name of the term, e.g. an abbr or alternative term.
+‹dfn› represents defining instance of a term.
+the definition of a term defined by an ‹dfn› is the ancestor closest that is a <p>, <dt>/<dd> pairing, or <section>.
+The term ‹dfn› is defining is the value of the `title` attribute if it has one, or its text content otherwise.
+If ‹dfn› has a `title`, its contents may be something else then the name of the term, e.g. an abbr or alternative term.
 
 ###### del and ins 
 
-The &lt;del&gt; HTML element represents text that has been deleted from a document.
-The &lt;ins&gt; HTML element represents text that has been added to the document.
-The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tracking changes or source code diffs.
+The ‹del› HTML element represents text that has been deleted from a document.
+The ‹ins› HTML element represents text that has been added to the document.
+The ‹del› and ‹ins› elements are often used for purposes such as tracking changes or source code diffs.
 
 ##### medialike
 
@@ -243,7 +243,7 @@ The &lt;del&gt; and &lt;ins&gt; elements are often used for purposes such as tra
 
 ####### elements
 
-&lt;video&gt; and &lt;audio&gt; embed a video/audio media player.
+‹video› and ‹audio› embed a video/audio media player.
 
 ####### interface
 
@@ -268,9 +268,9 @@ paused=true -> paused=false|play
 
 ####### sources
 
-You may define a single source for &lt;video&gt; or &lt;audio&gt; via a src element.
-You may define multiple sources for &lt;video&gt; or &lt;audio&gt; via child &lt;source&gt; elements.
-&lt;track&gt; defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)
+You may define a single source for ‹video› or ‹audio› via a src element.
+You may define multiple sources for ‹video› or ‹audio› via child ‹source› elements.
+‹track› defines text tracks for media elements (‹video› and ‹audio›)
 
 ####### poster
 
@@ -279,8 +279,8 @@ If the poster attribute for <video> isn't specified, nothing is displayed until 
 
 ####### track
 
-&lt;track&gt; provides some kind of text track for a media element.
-&lt;track&gt; can ba a child of &lt;video&gt; or&lt;audio&gt;
+‹track› provides some kind of text track for a media element.
+‹track› can ba a child of ‹video› or‹audio›
 
 ######## attributes
 
@@ -296,7 +296,7 @@ track kinds: captions, chapters, descriptions, metadata, subtitles
 
 ####### picture
 
-The &lt;picture&gt; element is an element for containing different versions of the same image.
+The ‹picture› element is an element for containing different versions of the same image.
 The picture element contains 0 - ∞ source elements and one <img> element.
 The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
 
@@ -313,27 +313,28 @@ If no sizes is provided, the browser presumes the slot width is 100vw.
 
 ###### source
 
-the &lt;source&gt; element provides a single source for certain media elements.
-The &lt;source&gt; element may be a child of <picture>, <video> and <audio>.
-the type (a MIME type) of a &lt;source&gt; element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
-A  &lt;source&gt; element is associated with one or more conditions.
-The conditions of a  &lt;source&gt; element are its `type` plus a media query specified in `media` if present.
+the ‹source› element provides a single source for certain media elements.
+The ‹source› element may be a child of <picture>, <video> and <audio>.
+the type (a MIME type) of a ‹source› element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
+A  ‹source› element is associated with one or more conditions.
+The conditions of a  ‹source› element are its `type` plus a media query specified in `media` if present.
 A lists of <source>s represents a priority hierarchy - the browser will take the first one that matches all conditions.
-&lt;source&gt; elements for audio/video take their URL in a src attribute; &lt;source&gt; elements for picture take their URL in a srcset attribute
+‹source› elements for audio/video take their URL in a src attribute; ‹source› elements for picture take their URL in a srcset attribute
 
 ##### Headings
 
-&lt;h1&gt; to &lt;h6&gt; define headings.
-It is an antipattern to skip heading levels between &lt;h1&gt; and &lt;h6&gt;
-Skipping heading levels between &lt;h1&gt; and &lt;h6&gt; results in bad accessibility and SEO heading levels
-There may only be one &lt;h1&gt; per page, which should describe the overall purpose of the page.
+‹h1› to ‹h6› define headings.
+It is an antipattern to skip heading levels between ‹h1› and ‹h6›
+Skipping heading levels between ‹h1› and ‹h6› results in bad accessibility and SEO heading levels
+‹h1›
+There may only be one ‹h1› per page, which should describe the overall purpose of the page.
 Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
 There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
 
 ##### progress and meter
 
 A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
-In HTML, a progress bar can be indicated by &lt;progress&gt;
+In HTML, a progress bar can be indicated by ‹progress›
 In HTML, meter generally displays as a bar of varying fullness.
 In HTML, meter supposedly represents a scalar value within a known range.
 In HTML, progress only accepts max and value as attributes, reflecting the semantics of the completion of a task.
@@ -514,7 +515,7 @@ Bootstrap:
 
 ######## text
 
-&lt;input type="text"&gt; is single-line only
+‹input type="text"› is single-line only
 There are a set of input types that act similarly text, but force a certain type of validation and change the soft keyboard/add input helpers, similar to inputmode:
 time-related: date, datetime-local, month, time, week
 number: number
@@ -561,7 +562,7 @@ The <option> HTML element is used to define an item contained in a <select>, an 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-By default, ⟮c+;html `&lt;select&gt;`⟯s will usually ⟮c+;display as as a dropwdown⟯, and only ⟮c+;become a list box⟯ if `⟮c+;multiple⟯` (⟮c+;allowing multiple selection::purpose⟯) or `⟮c+;size⟯` (⟮c+;specifying how many items to show at once::purpose⟯) is specified</span>
+By default, ⟮c+;html `‹select›`⟯s will usually ⟮c+;display as as a dropwdown⟯, and only ⟮c+;become a list box⟯ if `⟮c+;multiple⟯` (⟮c+;allowing multiple selection::purpose⟯) or `⟮c+;size⟯` (⟮c+;specifying how many items to show at once::purpose⟯) is specified</span>
 
 ##### output
 
@@ -577,10 +578,10 @@ the <noscript> tag is for displaying content if the browser does not support JS
 
 ruby text/characters are small annotative glosses placed on the top or to the right of characters.
 Ruby text/characters is called furigana in japanese.
-In HTML, ruby text is delimited by the &lt;ruby&gt; tag
-In HTML ruby annotation, the syntax is &lt;ruby&gt;lowertext&lt;rt&gt;uppertext&lt;/rt&gt;&lt;/ruby&gt;
+In HTML, ruby text is delimited by the ‹ruby› tag
+In HTML ruby annotation, the syntax is ‹ruby›lowertext‹rt›uppertext‹/rt›‹/ruby›
 In HTML, one may designate fallback delimiters for the upper text. 
-Ruby fallback delimiters are enclosed in &lt;rp&gt; tags, and go before and after the &lt;rt&gt; delimited uppertext.
+Ruby fallback delimiters are enclosed in ‹rp› tags, and go before and after the ‹rt› delimited uppertext.
 
 ##### aside
 
@@ -653,7 +654,7 @@ list item|\item|&lt;li>
 Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
 
 In markdown ⟮c+;Lists items⟯ are each ⟮c+;started by⟯ ⟮c+;one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
-⟮c+;ordered list items⟯ are started by ⟮c+;&lt;n&gt;. (e.g. 1. or 7.⟯). 
+⟮c+;ordered list items⟯ are started by ⟮c+;‹n›. (e.g. 1. or 7.⟯). 
 it does not matter ⟮c+;with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮c+;always start one and go from there (or whatever you then change it to via css⟯). 
 ⟮c+;unordered list items⟯ are started by ⟮c+;-⟯, ⟮c+;*⟯ or ⟮c+;+⟯, which can be ⟮c+;mixed and matched⟯. 
 
@@ -718,10 +719,10 @@ The <embed> HTML element embeds external content at the specified point in the d
 #### Common attributes
 
 the `datetime` attribute specifies the date and time associated with the element
-`datetime` is an attribute taken by &lt;del&gt;, &lt;ins&gt;, and &lt;time&gt;
+`datetime` is an attribute taken by ‹del›, ‹ins›, and ‹time›
 
 The `cite` attribute provides an URI that points to the source of a quote or change.
-The `cite` attribute can be used on &lt;blockquote&gt;, &lt;q&gt;, &lt;ins&gt;, &lt;del&gt;
+The `cite` attribute can be used on ‹blockquote›, ‹q›, ‹ins›, ‹del›
 
 The HTML autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field.
 The autocomplete attribute can be used on inputs that take a text-like value, textarea elements, select elements and form elements.
@@ -868,7 +869,7 @@ However, `dominant-baseline` and not `vertical-align` is used for vertical align
 
 You ⟮c+;create basic shapes⟯ in SVG by using ⟮c+;the SVG basic shapes⟯. 
 the ⟮c+;SVG basic shapes⟯ are a grouping of⟮c+;, well, basic shapes⟯ 
-SVG ⟮c+;basic shapes⟯: ⟮c+;&lt;circle&gt;⟯, ⟮c+;&lt;ellipse&gt;⟯, ⟮c+;&lt;line&gt;⟯, ⟮c+;&lt;polygon&gt;⟯, ⟮c+;&lt;polyline&gt;⟯, ⟮c+;&lt;path&gt;⟯ and ⟮c+;&lt;rect&gt;⟯ 
+SVG ⟮c+;basic shapes⟯: ⟮c+;‹circle›⟯, ⟮c+;‹ellipse›⟯, ⟮c+;‹line›⟯, ⟮c+;‹polygon›⟯, ⟮c+;‹polyline›⟯, ⟮c+;‹path›⟯ and ⟮c+;‹rect›⟯ 
 
 ###### rect
 
@@ -951,9 +952,9 @@ https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f
 
 ##### <text>
 
-`the ⟮c+;&lt;text&gt;⟯` element is ⟮c+;the only place⟯ you can ⟮c+;have text in SVG⟯ 
-In ⟮c+;SVG⟯, ⟮c+;text⟯ ⟮c+;outside of a &lt;text&gt;⟯ ⟮c+;will not be shown⟯ 
-⟮c+;&lt;text&gt;⟯ can contain ⟮c+;`&lt;tspan&gt;`s⟯, which ⟮c+;define subtext (lol) for further targeting⟯. 
+`the ⟮c+;‹text›⟯` element is ⟮c+;the only place⟯ you can ⟮c+;have text in SVG⟯ 
+In ⟮c+;SVG⟯, ⟮c+;text⟯ ⟮c+;outside of a ‹text›⟯ ⟮c+;will not be shown⟯ 
+⟮c+;‹text›⟯ can contain ⟮c+;`‹tspan›`s⟯, which ⟮c+;define subtext (lol) for further targeting⟯. 
 
 ###### tspan
 
@@ -968,7 +969,7 @@ the `rotate` attribute of tspan allows it to, well`, rotate.
 
 ##### <g>
 
-the ⟮c+;svg⟯ ⟮c+;&lt;g&gt; element⟯ is used to ⟮c+;group ofther elements⟯ 
+the ⟮c+;svg⟯ ⟮c+;‹g› element⟯ is used to ⟮c+;group ofther elements⟯ 
 
 ##### <use>
 
@@ -1163,7 +1164,7 @@ You can put ⟮c+;any valid JS expression⟯ within ⟮c+;curly braces⟯ in ⟮
 ⟮c+;JSX⟯ use ⟮c+;camel case⟯ for ⟮c+;HTML attribute names⟯ (including ⟮c+;events⟯) (which would normally use ⟮c+;kebap-case⟯)
 In JSX, ⟮c+;self-closing tags⟯ must be closed with ⟮c+;/&gt;⟯, however ⟮c+;every react component may⟯ be ⟮c+;self-closing⟯
 ⟮c+;JSX⟯ is either said to be short for ⟮c+;JavaScript Syntax Extension⟯ or ⟮c+;JavaScript XML⟯
-Using JSX, you generally assign events via the on&lt;Event&gt; handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
+Using JSX, you generally assign events via the on‹Event› handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
 #### style props
 
@@ -1646,18 +1647,18 @@ a number of pseudo-classes have to do with input
 Tree-structural pseudo-classes are pseudo-classes that allow selection of elements based on information in the document tree
 
 :root  Selects the document's root element  
-:empty  Selects every &lt;p&gt; element that has no children (including text nodes)  
+:empty  Selects every ‹p› element that has no children (including text nodes)  
 
 Child-indexed pseudo-classes are tree-structural pseudo-classes that select elements based on their index among their siblings.
 Child-indexed pseudo-classes end -child
 For any child-indexed pseudo class there is an equivalent typed child-indexed pseudo-class that ends -of-type isntea of -child
 Typed child-indexed pseudo-classes are tree-structural pseudo-classes that select elements based on their index among siblings of the same type.
 
-:nth-child(<nth>)  Selects every &lt;p&gt; element that is the <nth> child of its parent  
-:nth-last-child(<nth>)  Selects every &lt;p&gt; element that is the <nth> child of its parent, counting from the last child  
-:first-child  Selects every &lt;p&gt; element that is the first child of its parent  
-:last-child  Selects every &lt;p&gt; element that is the last child of its parent  
-:only-child  Selects every &lt;p&gt; element that is the only child of its parent  
+:nth-child(<nth>)  Selects every ‹p› element that is the <nth> child of its parent  
+:nth-last-child(<nth>)  Selects every ‹p› element that is the <nth> child of its parent, counting from the last child  
+:first-child  Selects every ‹p› element that is the first child of its parent  
+:last-child  Selects every ‹p› element that is the last child of its parent  
+:only-child  Selects every ‹p› element that is the only child of its parent  
 
 nth ::= <an-plus-b>|even|odd
 an-plus-b ::= <integer>n+<integer>
@@ -2841,15 +2842,15 @@ image-rendering: auto - browser-defined algorithm
 
 A ⟮c+;frame⟯ is ⟮c+;a part of a webpage⟯ which ⟮c+;displays a different webpage (or a part thereof⟯) within. 
 A ⟮c+;frame⟯ has ⟮c+;state⟯ ⟮c+;independent of its parent webpage⟯. 
-The ⟮c+;two types of frames⟯ that HTML has/had are ⟮c+;&lt;frame&gt;⟯ and ⟮c+;&lt;iframe&gt;⟯ 
-Both ⟮c+;&lt;frame&gt;⟯ and ⟮c+;&lt;iframe&gt;⟯ need(ed) a ⟮c+;src⟯ to be useful. 
-⟮c+;&lt;frame&gt;s⟯ would have been ⟮c+;placed within⟯ a ⟮c+;&lt;frameset&gt;⟯. 
-⟮c+;&lt;frameset&gt;⟯ would have ⟮c+;replaced⟯ ⟮c+;body⟯. 
-A site using ⟮c+;&lt;frameset&gt;⟯ was basically ⟮c+;made up of⟯ ⟮c+;many different HTML documents⟯. 
-A site using ⟮c+;&lt;frameset&gt;⟯  would have had the advantage tha⟮c+;t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮c+;have to be fetched when navigating⟯. 
-The ⟮c+;&lt;noframes&gt;⟯ was provided for browsers that ⟮c+;did not support frames⟯. 
-As of ⟮c+;HTML5⟯, ⟮c+;&lt;frame&gt; and &lt;frameset&gt;⟯ are ⟮c+;deprecated⟯, but ⟮c+;iframe⟯ is not. 
-⟮c+;&lt;frame&gt;s⟯ were ⟮c+;deprecated⟯ because&nbsp; ⟮c+;their intraction with the same-origin policy could be a nightmare⟯, because ⟮c+;copyright infringemenet was easy⟯, and because ⟮c+;of accesibility/usability problems⟯. 
+The ⟮c+;two types of frames⟯ that HTML has/had are ⟮c+;‹frame›⟯ and ⟮c+;‹iframe›⟯ 
+Both ⟮c+;‹frame›⟯ and ⟮c+;‹iframe›⟯ need(ed) a ⟮c+;src⟯ to be useful. 
+⟮c+;‹frame›s⟯ would have been ⟮c+;placed within⟯ a ⟮c+;‹frameset›⟯. 
+⟮c+;‹frameset›⟯ would have ⟮c+;replaced⟯ ⟮c+;body⟯. 
+A site using ⟮c+;‹frameset›⟯ was basically ⟮c+;made up of⟯ ⟮c+;many different HTML documents⟯. 
+A site using ⟮c+;‹frameset›⟯  would have had the advantage tha⟮c+;t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮c+;have to be fetched when navigating⟯. 
+The ⟮c+;‹noframes›⟯ was provided for browsers that ⟮c+;did not support frames⟯. 
+As of ⟮c+;HTML5⟯, ⟮c+;‹frame› and ‹frameset›⟯ are ⟮c+;deprecated⟯, but ⟮c+;iframe⟯ is not. 
+⟮c+;‹frame›s⟯ were ⟮c+;deprecated⟯ because&nbsp; ⟮c+;their intraction with the same-origin policy could be a nightmare⟯, because ⟮c+;copyright infringemenet was easy⟯, and because ⟮c+;of accesibility/usability problems⟯. 
 ⟮c+;iframe⟯ is short for ⟮c+;inline frame⟯ 
 
 
@@ -3085,7 +3086,7 @@ prefers-reduced-motion is used to detect if the user has requested that the syst
 Media features as well as feature features are specified in a (key: value) syntax (parentheses not optional)
 for feature features for (key: value), key is a property and value is a possible value.
 Media features that are range features can take a min- and a max- version of that feature to specify a range of acceptable values
-Level 4 media queries support a more intuitive syntax for range features using &lt;, &gt;, = etc.
+Level 4 media queries support a more intuitive syntax for range features using ‹, ›, = etc.
 Media featurs that are range features: color, resolution, height, width, aspect-ratio
 
 #### logical ops
@@ -3099,7 +3100,7 @@ The operator only is mainly useful for preventing browsers from matching if part
 
 An @media at-rule is a conditional which takes a media query and executes the CSS contained within if the media query is true.
 Multiple @media at-rules may apply at the same time
-Syntax @media &lt;media-query&gt; &lt;block&gt;
+Syntax @media ‹media-query› ‹block›
 
 @media screen and (min-width: 900px) {
   article {
@@ -3352,7 +3353,7 @@ There are two philosophies as regards adding conditions to CSS framework classes
 colon-based|<condition>:<key>[-<value>]|Tailwind
 infixing|<key>-<condition>-<value>|Bootstrap
 
-`&lt;img class="w-16 md:w-32 lg:w-48" src="..."&gt;`
+`‹img class="w-16 md:w-32 lg:w-48" src="..."›`
 Breakpoints might be the most common condition for CSS conditional classes.
 
 ##### types of classes
@@ -3519,15 +3520,15 @@ By default, bootstrap only uses margin-bottom.
   Using ⟮c+;Tailwind CSS⟯, code might look like this:
 </h2>
 ((c:8;h:8;::```lang=html;
-&lt;div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"&gt;
-  &lt;div class="flex-shrink-0"&gt;
-    &lt;img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;div class="text-xl font-medium text-black"&gt;ChitChat&lt;/div&gt;
-    &lt;p class="text-gray-500"&gt;You have a new message!&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+‹div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"›
+  ‹div class="flex-shrink-0"›
+    ‹img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"›
+  ‹/div›
+  ‹div›
+    ‹div class="text-xl font-medium text-black"›ChitChat‹/div›
+    ‹p class="text-gray-500"›You have a new message!‹/p›
+  ‹/div›
+‹/div›
 ```))
 
 # data
@@ -4170,8 +4171,8 @@ The shell living within the terminal is interacted with via a CLI, but so does e
 #### syntax
 
 There seem to be roughly two kinds of CLIs, ones that do most of their stuff via --arguments, and ones that do most of their stuff with a sentence-like syntax.
-CLIs that have a sentence-like syntax have (after the command that indicates this is what we're interfacing with, perhaps roughly equivalent to a vocative) a syntax consisting of &lt;verb(s)&gt; and &lt;object(s)&gt;
-The most common forms a sentence-like cli syntax takes on is either a &lt;addressee&gt; &lt;object&gt; &lt;verb&gt; {&lt;objects&gt;} syntax or a &lt;addressee&gt; &lt;verb&gt; &lt;object&gt; {&lt;objects&gt;} syntax
+CLIs that have a sentence-like syntax have (after the command that indicates this is what we're interfacing with, perhaps roughly equivalent to a vocative) a syntax consisting of ‹verb(s)› and ‹object(s)›
+The most common forms a sentence-like cli syntax takes on is either a ‹addressee› ‹object› ‹verb› {‹objects›} syntax or a ‹addressee› ‹verb› ‹object› {‹objects›} syntax
 topic-object-verb-object CLIs
 gh|github|gh issue view 12
 nmcli|NetworkManager|nmcli con add type ethernet ...
@@ -4573,7 +4574,7 @@ flex-container:⟮h∞;<img src="sm_hsl_cone.png"><img src="sm_hsv_cone.png">⟯
 
 For any given color model, to ⟮c+;specify transparency⟯, you ⟮c+;add another channel⟯, which is called the ⟮c+;alpha⟯ channel.
 For a color hex, you ⟮c+;specify the alpha channel⟯ by ⟮c+;adding another two-digit hex to the end⟯.
-⟮c+;&lt;color-model&gt;-D⟯ is ⟮c+;just that color model⟯ with ⟮c+;an additional depth channel.⟯ 
+⟮c+;‹color-model›-D⟯ is ⟮c+;just that color model⟯ with ⟮c+;an additional depth channel.⟯ 
 
 RGB 3-tuple notation|color
 ⟮c+;Rgb(0, 0, 0⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯
@@ -4664,7 +4665,7 @@ In the image, if ⟮c+;you see two faces⟯, the ⟮c+;white space⟯ is the ⟮
 In the image, the ⟮c+;positive space⟯ is (probably/arguably) ⟮c+;the woman.⟯
 
 <span class="c1-f">What are these examples for?</span><br><img src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br>⟮c+;hostile/defensive architecture/design⟯ is architecture that ⟮c+;restricts/guides behavior⟯ to ⟮c+;protect property⟯ or ⟮c+;prevent crime⟯ 
-hostile/defensive architecture might look like ⟮c+;&lt;image&gt;⟯ 
+hostile/defensive architecture might look like ⟮c+;‹image›⟯ 
 The most common people targeted by ⟮c+;hostile/defensive architecture/design⟯ in the west are ⟮c+;the homeless⟯ and ⟮c+;young people⟯ 
 
 ## misc
@@ -4715,7 +4716,7 @@ Setting both ⟮c+;the robots.txt⟯ and ⟮c+;noindex tag⟯ for the same thing
 While ⟮c+;you can tell what crawlers should crawl⟯ via ⟮c+;robots.txt/noindex⟯, ⟮c+;there is no reason they have to respect it.⟯ 
 ⟮c+;Pages that should be on the robots.txt/have a noindex tag⟯ are e.g. ⟮c+;internal search pages, pages that require a certain state.⟯ 
 If ⟮c+;a page should truly inaccessible to outside forces⟯, ⟮c+;using robots.txt/noindex tags is not enough⟯, it should then be ⟮c+;password-protected or similar.⟯ 
-Example noindex tag: `&lt;⟮c+;meta⟯ name="⟮c+;robots⟯ (all) / ⟮c+;googlebot⟯ (only google) content="⟮c+;noindex⟯"&gt;` 
+Example noindex tag: `‹⟮c+;meta⟯ name="⟮c+;robots⟯ (all) / ⟮c+;googlebot⟯ (only google) content="⟮c+;noindex⟯"›` 
 
 #### sitemap
 
@@ -4770,7 +4771,7 @@ Based off ⟮c+;the DOM tree⟯, the browser builds the ⟮c+;accessibility tree
 ##### Semantic HTML
 
 Semantic HTML is HTML where the tags contain semantic information about the content
-Semantic HTML includes elements like &lt;article&gt;, &lt;nav&gt;, &lt;summary&gt;, contrasting with elements like &lt;div&gt;, &lt;span&gt;
+Semantic HTML includes elements like ‹article›, ‹nav›, ‹summary›, contrasting with elements like ‹div›, ‹span›
 
 
 ##### aria
@@ -5465,7 +5466,7 @@ Specifying ⟮c+;file format⟯ via ⟮c+;external metadata⟯ is having some so
 ⟮c+;Media type⟯ is a way for ⟮c+;identifying the file format⟯ of a file via ⟮c+;external metadata⟯. 
 ⟮c+;Media type⟯ is ⟮c+;the most common way⟯ for identifying file format on ⟮c+;the internet⟯. 
 ⟮c+;Media type⟯ ⟮c+;used to⟯ be called ⟮c+;MIME type⟯. 
-⟮c+;Media type⟯ syntax: ⟮c+;&lt;type&gt;/&lt;subtype&gt;⟯⟮c+;{+&lt;suffix&gt;⟯}⟮c+;[;&lt;parameter&gt;]⟯ ⟮(c:60;&lt;tree&gt;⟯ left out because not commonly used) 
+⟮c+;Media type⟯ syntax: ⟮c+;‹type›/‹subtype›⟯⟮c+;{+‹suffix›⟯}⟮c+;[;‹parameter›]⟯ ⟮(c:60;‹tree›⟯ left out because not commonly used) 
 Common types for media type's ⟮c+;type⟯ are a⟮c+;pplication, audio, video, image, text⟯ 
 Common ⟮c+;subtypes⟯ for ⟮c+;the type image⟯ might be ⟮c+;webp, png, svg+xml, jpeg⟯ 
 If a file is ⟮c+;XML⟯, its ⟮c+;media type⟯ gets ⟮c+;a suffix of xml (+xml⟯) 
@@ -5473,7 +5474,7 @@ The ⟮c+;HTTP header⟯ for ⟮c+;media type⟯ is ⟮c+;Content-Type⟯.
 
 A ⟮c+;mailcap⟯ ⟮c+;file⟯ maps ⟮c+;media types⟯ to ⟮c+;applications to view/execute them.⟯ 
 ⟮c+;Mailcap files⟯ consist of ⟮c+;mappings⟯, with ⟮c+;one⟯ per ⟮c+;line⟯. 
-⟮c+;Mailcap mapping⟯ syntax: ⟮c+;&lt;media-type&gt;⟯⟮c+;;⟯⟮c+;&lt;program-to-execute&gt;⟯ ⟮c+;%s⟯ 
+⟮c+;Mailcap mapping⟯ syntax: ⟮c+;‹media-type›⟯⟮c+;;⟯⟮c+;‹program-to-execute›⟯ ⟮c+;%s⟯ 
 For ⟮c+;mailcap⟯, ⟮c+;%s⟯ represents ⟮c+;the file of the relevant MIME type⟯ that ⟮c+;the program gets passed⟯ 
 
 ##### common file extensions
@@ -5522,7 +5523,7 @@ the most common ⟮c+;binary-to-text encoding⟯ is ⟮c+;base64⟯.
 ⟮c+;base64⟯ can encode ⟮c+;6⟯ bit of ⟮c+;data⟯ in ⟮c+;8⟯ bit of ⟮c+;text⟯. 
 ⟮c+;data URIs⟯ are a type of URI defined by ⟮c+;the data scheme⟯ that provide a way to ⟮c+;include arbitrary data inline⟯. 
 ⟮c+;data URIs⟯ most commonly use the ⟮c+;binary-to-text encoding base64⟯ to ⟮c+;encode their data⟯. 
-data URI syntax `⟮c+;data:⟯⟮c+;[&lt;media type&gt;]⟯⟮c+;[;base64]⟯⟮c+;,&lt;data&gt;⟯` 
+data URI syntax `⟮c+;data:⟯⟮c+;[‹media type›]⟯⟮c+;[;base64]⟯⟮c+;,‹data›⟯` 
 base64 is a command-line program to en/decode things as base64
 
 ##### bitmaps
@@ -5549,7 +5550,7 @@ mpv|terminal based video player
 
 mpv plays files, urls, and playlists.
 
-Play a playlist<filename>   --playlist=&lt;filename&gt;
+Play a playlist<filename>   --playlist=‹filename›
 don't open a new video window<filename></filename>   --no-video
 
 ######## mpd mpc
@@ -5567,7 +5568,7 @@ mpc -p port or --port=port|connect to mpd at the specified port
 `mpc rescan`|rescan whole music directory
 `mpc lsplaylists`|list all current playlists
 `mpc ls`|list the contents of the music directory
-`mpc load &lt;name&gt;`|load a certain playlist
+`mpc load ‹name›`|load a certain playlist
 `mpc clear`|clear queue
 `mpc shuffle`|reshuffle the playlist
 `mpc single`|toggle single mode (will stop playing after one song, or repeat one song if repeat is toggled)
@@ -5624,7 +5625,7 @@ SVG files have the file extension of .svg
 SVG|Scalable Vector Graphics
 The ⟮c+;current version of SVG⟯ is ⟮c+;1.1.⟯, with version ⟮c+;2⟯ being ⟮c+;in planning since forever⟯. 
 Often, ⟮c+;SVG⟯ is ⟮c+;included in HTML⟯. This can be done by i⟮c+;ncluding it directly in the source⟯, r⟮c+;eferencing it in places the browser would normally take an image (<img>, background-image⟯), or ⟮c+;pointing to it within an <object> or an <iframe>⟯ 
-⟮c+;&lt;foreignObject&gt;⟯ is an SVG element that allows you to ⟮c+;include non-SVG XML⟯, most commonly ⟮s15;⟮c+;HTML⟯⟯. 
+⟮c+;‹foreignObject›⟯ is an SVG element that allows you to ⟮c+;include non-SVG XML⟯, most commonly ⟮s15;⟮c+;HTML⟯⟯. 
 
 
 ########## affinity designer
@@ -5667,8 +5668,8 @@ ocrmypdf ⟮c+;SOURCE DEST⟯
 imagemagick options/arguments ⟮c+;start with a single dash,⟯ regardless of length 
 All imagemagick subcommands may be ⟮c+;prefixed by magick (e.g. magick mogrify, magick animate⟯) or ⟮c+;not⟯. 
 The main two commands for ⟮c+;image conversion⟯ w/ ⟮c+;imagemagick⟯ are ⟮c+;mogrify⟯ ⟮(c:49;in-place⟯) and ⟮c+;convert⟯ ⟮(c:49;out-of-place⟯) 
-Many of imagemagicks arguments needing to specify ⟮c+;some kind of shape/size⟯ accept a ⟮c+;geometry⟯ argument with the syntax ⟮c+;&lt;size&gt;⟯⟮c+;[&lt;offset&gt;]⟯ where the size specifier follows the syntax 
-⟮c+;&lt;width&gt;⟯⟮c+;x⟯⟮c+;&lt;height&gt;⟯⟮c+;[&lt;operator&gt;]⟯ 
+Many of imagemagicks arguments needing to specify ⟮c+;some kind of shape/size⟯ accept a ⟮c+;geometry⟯ argument with the syntax ⟮c+;‹size›⟯⟮c+;[‹offset›]⟯ where the size specifier follows the syntax 
+⟮c+;‹width›⟯⟮c+;x⟯⟮c+;‹height›⟯⟮c+;[‹operator›]⟯ 
 
 
 
@@ -5703,7 +5704,7 @@ table:span=2;Imagemagick options
 ⟮c+;`-resize SIZE-SPECIFIER`⟯|⟮c+;resize the image to SIZE-SPECIFIER⟯
 ⟮c+;`-quality QUALITY`⟯|⟮c+;set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg⟯)
 ⟮c+;`-fuzz distance`⟯|⟮c+;make matching colors more, well, fuzzy⟯
-⟮c+;`-flop`⟯|⟮c+;Mirror along the y-axis (in x direction, text will be mirrored L&lt;-&gt; R⟯)
+⟮c+;`-flop`⟯|⟮c+;Mirror along the y-axis (in x direction, text will be mirrored L‹-› R⟯)
 ⟮c+;`-flip`⟯|⟮c+;Change to upside down⟯
 
 
@@ -5832,8 +5833,8 @@ A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block in
 a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
 image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
 horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
-superscript text foo|^{foo}|&lt;sup&gt;foo&lt;/sup&gt;
-subscript text foo|_{foo}|&lt;sub&gt;foo&lt;/sub&gt;
+superscript text foo|^{foo}|‹sup›foo‹/sup›
+subscript text foo|_{foo}|‹sub›foo‹/sub›
 indicate a variable semantically||<var>
 keyboard input||<kbd>
 sample output||<samp>
@@ -5918,7 +5919,7 @@ the ⟮c+;environment form⟯ of ⟮c+;\foo⟯ would look like {{c25::`\begin{co
 ######### new commands
 
 To ⟮c+;create a new command⟯, use ⟮c+;\newcommand⟯, which goes in ⟮c+;the preamble⟯ 
-⟮c+;\newcommand⟯ has the syntax: ⟮c+;\newcommand⟯⟮c+;{&lt;name&gt;⟯}⟮c+;[&lt;number-of-arguments&gt;]⟯⟮c+;{&lt;latex-code-to-execute&gt;⟯} 
+⟮c+;\newcommand⟯ has the syntax: ⟮c+;\newcommand⟯⟮c+;{‹name›⟯}⟮c+;[‹number-of-arguments›]⟯⟮c+;{‹latex-code-to-execute›⟯} 
 Within ⟮c+;\newcommand⟯, you ⟮c+;refer to arguments⟯ ⟮c+;positionally⟯ with ⟮c+;#n⟯ 
 ⟮c+;\newcommand{\euler}{\mathrm{e}⟯ makes ⟮c+;\euler output \mathrm{e}⟯ 
 ```
@@ -5980,11 +5981,11 @@ a ⟮c+;rubber length⟯ is a length that ⟮c+;⁑can⁑ shrink or grow⟯
 a ⟮c+;rigid length⟯ is a length that ⟮c+;will not shrink or grow⟯ 
 Lengths in latex are ⟮c+;rigid⟯ by ⟮c+;default⟯ 
 ⟮c+;rubber lengths⟯ can ⟮c+;only shrink or grow⟯ by ⟮c+;the length we specified⟯ 
-⟮c+;plus &lt;length&gt; ∨ minus &lt;length&gt;⟯ indicate ⟮c+;a rubber length⟯ 
+⟮c+;plus ‹length› ∨ minus ‹length›⟯ indicate ⟮c+;a rubber length⟯ 
 
 indicator|meaning
-⟮c+;plus &lt;length&gt;⟯|⟮c+;length can grow by that amount⟯
-⟮c+;minus &lt;length&gt;⟯|⟮c+;length can shrink by that amount⟯
+⟮c+;plus ‹length›⟯|⟮c+;length can grow by that amount⟯
+⟮c+;minus ‹length›⟯|⟮c+;length can shrink by that amount⟯
 
 
 ```
@@ -6185,16 +6186,16 @@ The kind of themes that latex presentations can have are ⟮c+;presentation⟯, 
 ⟮c+;Setting themes⟯ is done via ⟮c+;the \usetheme command⟯ 
 
 ⟮c+;Overlay specifications⟯ specify ⟮c+;which slides⟯ to ⟮c+;apply a command to⟯, or ⟮c+;on which slides⟯ ⟮c+;to show a thing⟯ 
-⟮c+;Overlay specifications⟯ are written ⟮c+;&lt;some_number/list/range&gt;⟯ 
-± \item&lt;-2,4-5,7&gt; ±<br>
-⟮c+;\only⟯⟮c+;&lt;overlay-spec&gt;{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides⟯ 
-⟮c+;\uncover⟯⟮c+;&lt;overlay-spec&gt;{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides,⟯ but ⟮c+;still take up space on the other slides⟯&nbsp;
+⟮c+;Overlay specifications⟯ are written ⟮c+;‹some_number/list/range›⟯ 
+± \item‹-2,4-5,7› ±<br>
+⟮c+;\only⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides⟯ 
+⟮c+;\uncover⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides,⟯ but ⟮c+;still take up space on the other slides⟯&nbsp;
 
 flex-container:<img src="sm_L5.png">
 
 
 When using the ⟮c+;beamer⟯ class, you can use ⟮c+;modes⟯ to ⟮c+;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
-Command to ⟮c+;only do something in a certain mode⟯ ⟮c+;mode⟯⟮c+;&lt;⟯⟮c+;certain_mode⟯⟮c+;&gt;⟯⟮c+;{⟯⟮c+;things to do⟯⟮c+;} ⟯ 
+Command to ⟮c+;only do something in a certain mode⟯ ⟮c+;mode⟯⟮c+;‹⟯⟮c+;certain_mode⟯⟮c+;›⟯⟮c+;{⟯⟮c+;things to do⟯⟮c+;} ⟯ 
 Latex beamer modes
 onion-box:[all [presentation [⟮c+;s1:2;beamer⟯][⟮c+;s1:2;second⟯][⟮c+;s1:2;handout⟯][⟮c+;s1:2;trans⟯]][⟮c+;article⟯]]
 
@@ -6300,7 +6301,7 @@ to style headers and footers with ⟮c+;fancyhdr⟯ in ⟮c+;double-sided docume
 ######### pdf metadata
 
 the package ⟮c+;hyperref⟯ also handles ⟮c+;metadata⟯ via ⟮c+;the \hypersetup command⟯. 
-The ⟮c+;hypersetup⟯ command defines ⟮c+;pdf metadata⟯ by taking ⟮c+;keys⟯ with ⟮c+;the syntax of pdf&lt;name&gt;, e.g. pdfauthor or pdftitle⟯ 
+The ⟮c+;hypersetup⟯ command defines ⟮c+;pdf metadata⟯ by taking ⟮c+;keys⟯ with ⟮c+;the syntax of pdf‹name›, e.g. pdfauthor or pdftitle⟯ 
 ⟮c+;pdfbookmark⟯ is a ⟮c+;hyperref⟯ command that ⟮c+;inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar⟯) 
 Arguments to ⟮c+;pdfbookmark⟯⟮c+;[section]⟯⟮c+;{Title} ⟯⟮c+;{uid(of some kind, no standard)} ⟯ 
 ⟮c+;hypcap⟯ is a package extending ⟮c+;hyperref⟯ {{c13::make hyperref figure links link to the correct thing} 
@@ -6353,7 +6354,7 @@ the ⟮c+;quote⟯, ⟮c+;quotation⟯, and ⟮c+;verse⟯ environments all ⟮c
 Package ⟮c+;verbatim⟯ contains the ⟮c+;verbatim⟯ and ⟮c+;comment⟯ ⟮c+;environments⟯.
 environment|function
 ⟮c+;comment⟯|⟮c+;a block comment⟯
-⟮c+;verbatim⟯|⟮c+;the text, exactly as you have inputted it (similar to &lt;pre&gt;⟯)
+⟮c+;verbatim⟯|⟮c+;the text, exactly as you have inputted it (similar to ‹pre›⟯)
 
 
 ######### drawing (tikz)
@@ -6398,7 +6399,7 @@ command|Effect
 ⟮c+;\noindent⟯|⟮c+;prevent the paragraph from being indented⟯
 ⟮c+;\nolinebreak / \nobreak⟯|⟮c+;prevent latex from breaking here⟯
 ⟮c+;\textwidth, \columnwith, \linewidth⟯|⟮c+;width of the current text (different variants for different circumstances⟯)
-⟮c+;\neg&lt;whatever&gt;space (\negmedspace, \negthickspace⟯)|⟮c+;negative space (pulls things closer together⟯)
+⟮c+;\neg‹whatever›space (\negmedspace, \negthickspace⟯)|⟮c+;negative space (pulls things closer together⟯)
 
 
 Command|does
@@ -6600,7 +6601,7 @@ to use your ⟮c+;JSON Schemas⟯ as ⟮c+;TS typeings⟯ use the ⟮c+;npm pack
 jq|process JSON
 yq|process YAML & convert to/from JSON
 yq -y/-Y roundtrip back to YAML
-`yq ⟮c+;&lt;command&gt;⟯ ⟮c+;&lt;flags&gt;⟯ {⟮c+;&lt;file&gt;⟯}`
+`yq ⟮c+;‹command›⟯ ⟮c+;‹flags›⟯ {⟮c+;‹file›⟯}`
 `yq ⟮c+;-t/--to-type⟯ ⟮c+;yaml⟯/⟮c+;json⟯/...` ⟮c+;outputs the file as the specified file format⟯
 
 ####### subtitles
@@ -6635,22 +6636,22 @@ CSS property syntax|CSS function
 ⟮c+;line:0-100%⟯|⟮c+;display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)
 ⟮c+;position:0-100%⟯|⟮c+;display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)
 ⟮c+;size:0-100%⟯|⟮c+;set the width of the cue to %⟯
-⟮c+;&lt;c.foo&gt;content&lt;/c&gt;⟯|⟮c+;specify a class foo to target⟯
-⟮c+;&lt;ruby&gt;...⟯|⟮c+;add furigana etc.⟯
-⟮c+;&lt;v foo&gt;⟯|⟮c+;indicate that foo is speaking⟯
+⟮c+;‹c.foo›content‹/c›⟯|⟮c+;specify a class foo to target⟯
+⟮c+;‹ruby›...⟯|⟮c+;add furigana etc.⟯
+⟮c+;‹v foo›⟯|⟮c+;indicate that foo is speaking⟯
 ⟮c+;align:start/end...⟯|⟮c+;align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯
 ⟮c+;&lt;font color="...⟯|⟮c+;Set the text to a certain color⟯
-⟮c+;&lt;b&gt;, &lt;i&gt;, &lt;u&gt;⟯|⟮c+;make the text bold, italic or underlined⟯
+⟮c+;‹b›, ‹i›, ‹u›⟯|⟮c+;make the text bold, italic or underlined⟯
 
 
     <tr><th colspan="2">WebVTT-specific selectors
 CSS Selector|Selects
-⟮c+;::cue(.foo⟯)|⟮c+;Target a cue with class foo (&lt;c.foo&gt;⟯)
+⟮c+;::cue(.foo⟯)|⟮c+;Target a cue with class foo (‹c.foo›⟯)
 ⟮c+;::cue⟯|⟮c+;Target any WebVTT cue (shown subtitle⟯)
-⟮c+;::cue(b⟯)|⟮c+;Target a &lt;b&gt; tag within WebVTT⟯
+⟮c+;::cue(b⟯)|⟮c+;Target a ‹b› tag within WebVTT⟯
 
 If you ⟮c+;specify timestamp text (WebVTT only⟯), then ⟮c+;any text before a timestamp text whose time you are at or after⟯ is ⟮c+;previous text⟯, ⟮c+;the text from the current to the next timestamp tag⟯ is ⟮c+;active text⟯ and ⟮c+;text after the next timestamp tag⟯ is ⟮c+;future text⟯. 
-If we specify ⟮c+;&lt;track kind="chapters"&gt;⟯, cues ⟮c+;may not overlap time-wise⟯, and payloads ⟮c+;may not contain tags⟯ 
+If we specify ⟮c+;‹track kind="chapters"›⟯, cues ⟮c+;may not overlap time-wise⟯, and payloads ⟮c+;may not contain tags⟯ 
 
 ####### misc
 
@@ -8608,9 +8609,9 @@ Only brace expansion, word splitting, and filename expansion can increase the nu
 
 Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
 Brace expansion is a mechanism for generating strings.
-Brace expansion syntax: [&lt;preamble&gt;]\{(&lt;comma-separated-strings&gt;|&lt;sequence-expression&gt;\}[&lt;postscript&gt;]
-comma-separated-strings: &lt;string&gt;{,&lt;string&gt;} 
-sequence-expression: &lt;start&gt;..&lt;stop&gt;[..&lt;step&gt;]
+Brace expansion syntax: [‹preamble›]\{(‹comma-separated-strings›|‹sequence-expression›\}[‹postscript›]
+comma-separated-strings: ‹string›{,‹string›} 
+sequence-expression: ‹start›..‹stop›[..‹step›]
 Bash calls its range syntax a »sequence expression«.
 a{d,c,b}e results in ade ace abe
 For brace expansion, bash generates all string alternatives, separated by spaces.
@@ -8738,8 +8739,8 @@ wildcard|matches
 +(foo|bar|baz)|one ⁑or more⁑ of the options foo, bar, baz
 !(foo|bar|baz)|none of the options foo, bar, baz
 *(foo|bar|baz)|zero or more of the options foo, bar, baz
-[^&lt;characters&gt;]   one character that is none of &lt;characters&gt;
-[!&lt;characters&gt;]   one character that is none of &lt;characters&gt;
+[^‹characters›]   one character that is none of ‹characters›
+[!‹characters›]   one character that is none of ‹characters›
 [aml]   one of the characters a, m, l
 [a-m]   one character in range of characters a-m
 
@@ -9317,7 +9318,7 @@ browsername|scheme for whatever browser-internal pages
 tel|phone numbers
 mailto|email messages
 
-mailto-url ::= mailto:[&lt;email-address&gt;{,&lt;email-address&gt;}][?&lt;email-key&gt;=&lt;value-percent-encoded&gt;{&amp;&lt;email-key&gt;=&lt;value-percent-encoded&gt;}]
+mailto-url ::= mailto:[‹email-address›{,‹email-address›}][?‹email-key›=‹value-percent-encoded›{&amp;‹email-key›=‹value-percent-encoded›}]
 email-key ::= subject | cc | body | ...
 
 ######## URN 
@@ -9429,11 +9430,11 @@ You can ⟮c+;list available formats for --format⟯ with ⟮c+;--list-formats/-
 
 --format accepts a sophisticated syntax as an argument: (it's actually slightly more complicated, but I've simplified a little)
 ```
-Format specifier syntax: ⟮c+;--format⟯ ⟮c+;&lt;format-specifier&gt;⟯⟮c+;{,&lt;format-specifier&gt;⟯}  # for ⟮c+;downloading mutliple formats at once⟯
-⟮c+;format-specifier⟯: ⟮c+;&lt;single-format&gt;⟯⟮c+;{/&lt;single-format&gt;⟯} # for ⟮c+;relative precedence of multiple formats, depending on what's available⟯
-⟮c+;single-format⟯: ⟮c+;&lt;single-format-selector&gt;[+&lt;single-format-selector&gt;]⟯ # if ⟮c+;two are specified⟯, ⟮c+;the first one is for video and the second is for audio⟯
-⟮c+;single-format-selector⟯: ⟮c+;[&lt;general-quality&gt;]⟯⟮c+;{\[&lt;property&gt;&lt;operator&gt;&lt;value&gt;\]⟯}
-⟮c+;general-quality⟯: ⟮c+;&lt;file-extension&gt;|&lt;quality-keyword&gt;⟯
+Format specifier syntax: ⟮c+;--format⟯ ⟮c+;‹format-specifier›⟯⟮c+;{,‹format-specifier›⟯}  # for ⟮c+;downloading mutliple formats at once⟯
+⟮c+;format-specifier⟯: ⟮c+;‹single-format›⟯⟮c+;{/‹single-format›⟯} # for ⟮c+;relative precedence of multiple formats, depending on what's available⟯
+⟮c+;single-format⟯: ⟮c+;‹single-format-selector›[+‹single-format-selector›]⟯ # if ⟮c+;two are specified⟯, ⟮c+;the first one is for video and the second is for audio⟯
+⟮c+;single-format-selector⟯: ⟮c+;[‹general-quality›]⟯⟮c+;{\[‹property›‹operator›‹value›\]⟯}
+⟮c+;general-quality⟯: ⟮c+;‹file-extension›|‹quality-keyword›⟯
 ⟮c+;file-extension⟯: # will ⟮c+;get the best format⟯ of ⟮c+;the given file extension, e.g. mp3⟯
 ⟮c+;quality-keyword⟯: ⟮c+;best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |⟯
 ⟮c+;property⟯: # things such as ⟮c+;filesize, width, height, tbr (total average bitrate), fps, ...⟯
@@ -9576,10 +9577,10 @@ By default, HTTP is stateless, ergo technologies such as cookies exist to enable
 ⟮c+;Cookies⟯ are usually ⟮c+;first set⟯ by ⟮c+;the server⟯. 
 The ⟮c+;server⟯ ⟮c+;sets the cookies⟯ via the ⟮c+;`Set-Cookie`⟯ ⟮c+;HTTP Header.⟯ 
 The ⟮c+;browser⟯ ⟮c+;sends⟯ ⟮c+;all relevant cookies⟯ ⟮c+;back to the server⟯ ⟮c+;on each request⟯. 
-Syntax of the ⟮c+;`Set-Cookie` HTTP Header⟯: `⟮c+;Set-Cookie⟯: ⟮c+;&lt;cookiekey&gt;=&lt;cookievalue&gt;⟯⟮c+;{;⟯ ⟮c+;&lt;cookiepropertykey&gt;[=&lt;valuepropertykey&gt;]⟯⟮c+;} ⟯` 
+Syntax of the ⟮c+;`Set-Cookie` HTTP Header⟯: `⟮c+;Set-Cookie⟯: ⟮c+;‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮c+;‹cookiepropertykey›[=‹valuepropertykey›]⟯⟮c+;} ⟯` 
 The ⟮c+;`Set-Cookie` HTTP Header⟯ typically contains ⟮c+;one cookie⟯ and ⟮c+;its properties⟯, to ⟮c+;set multiple cookies⟯ ⟮c+;set multiple headers⟯ (there is also a way of ⟮c+;separating them with commas⟯, but ⟮c+;this is nonstandard and often does not work⟯) 
 The browser ⟮c+;sends cookies back on request⟯ via ⟮c+;the `Cookie` HTTP header⟯. 
-The syntax of the `⟮c+;Cookie⟯` header: `⟮c+;Cookie:⟯ ⟮c+;&lt;cookiekey&gt;=&lt;cookievalue&gt;⟯⟮c+;{;⟯ ⟮c+;&lt;cookie2key&gt;=&lt;cookie2value&gt;⟯⟮c+;} ⟯` 
+The syntax of the `⟮c+;Cookie⟯` header: `⟮c+;Cookie:⟯ ⟮c+;‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮c+;‹cookie2key›=‹cookie2value›⟯⟮c+;} ⟯` 
 Since ⟮c+;cookies are sent back on each request⟯ and since ⟮c+;there are spec-defined size constraints⟯, ⟮c+;the things sent in cookies⟯ are usually ⟮c+;quite small, often only a UID⟯. 
 
 ⟮c+;Session cookies⟯ are cookies that ⟮c+;only last until the browser is closed⟯, allthough ⟮c+;they can often be restored by the browser via session restoring⟯. 
@@ -10530,7 +10531,7 @@ the locale command shows the currently specfied locales.
 
 A ⟮c+;IETF language tag⟯ indicates exactly ⟮c+;in which language a thing is⟯. 
 Currently, the standard for ⟮c+;IETF language tags⟯ on the internet is ⟮c+;BCP47⟯. 
-BCP 47: ⟮c+;&lt;primary-language&gt;⟯⟮c+;[-&lt;extended-language&gt;]⟯⟮c+;[-&lt;script&gt;]⟯⟮c+;[-&lt;region&gt;]⟯⟮c+;[-&lt;variant&gt;]⟯⟮c+;[-&lt;extension&gt;]⟯⟮c+;[-&lt;privateuse&gt;]⟯ 
+BCP 47: ⟮c+;‹primary-language›⟯⟮c+;[-‹extended-language›]⟯⟮c+;[-‹script›]⟯⟮c+;[-‹region›]⟯⟮c+;[-‹variant›]⟯⟮c+;[-‹extension›]⟯⟮c+;[-‹privateuse›]⟯ 
 BCP 47 language tags should be kept ⟮c+;as short as possible⟯. 
 
 ##### subtags
@@ -10580,8 +10581,8 @@ tag|problem
 
 #### in HTML
 
-In HTML, the ⟮c+;language of the document⟯ should be indicated with ⟮c+;a lang attribute⟯ ⟮c+;on &lt;html&gt;⟯o 
-In HTML, ⟮c+;anything that is not in the language indicated on &lt;html&gt;⟯ should be ⟮c+;indicated by an element with a lang attribute.⟯ 
+In HTML, the ⟮c+;language of the document⟯ should be indicated with ⟮c+;a lang attribute⟯ ⟮c+;on ‹html›⟯o 
+In HTML, ⟮c+;anything that is not in the language indicated on ‹html›⟯ should be ⟮c+;indicated by an element with a lang attribute.⟯ 
 In HTML, the ⟮c+;lang attribute⟯ takes ⟮c+;BCP 47 language tags⟯. 
 
 
@@ -10690,7 +10691,7 @@ I can ⟮c+;type emoji using emoji shortcodes⟯ but ⟮c+;using spaces instead 
 
 ### dice notation
 
-⟮c+;Dice notation⟯: `⟮c+;&lt;amount&gt;⟯⟮c+;d⟯⟮c+;&lt;sides&gt;⟯⟮c+;+⟯⟮c+;&lt;add-to-end-result&gt;⟯` 
+⟮c+;Dice notation⟯: `⟮c+;‹amount›⟯⟮c+;d⟯⟮c+;‹sides›⟯⟮c+;+⟯⟮c+;‹add-to-end-result›⟯` 
 In ⟮c+;dice notation⟯, you can leave out ⟮c+;the amount of dice to roll⟯, if ⟮c+;its one⟯. 
 ⟮c+;4d10+3⟯ is an example of ⟮c+;Dice notation⟯, it means ⟮c+;roll 4 10-sided dice and add 3 to the overall result⟯ 
 the shell command ⟮c+;`roll`⟯ ⟮c+;rolls dice⟯, specified in ⟮c+;dice notation⟯ 
@@ -10829,7 +10830,7 @@ lang=text;
 
 The ternary operator is a conditional which is typically an expression. 
 The ternary operator is more properly called conditional operator. 
-The conditional operator typically has the syntax &lt;condition&gt; ? &lt;iftrue&gt; : &lt;iffalse&gt;. 
+The conditional operator typically has the syntax ‹condition› ? ‹iftrue› : ‹iffalse›. 
 The conditional operator comes from C (more properly an early ancestor of C), thus most programming languages that are inspired by C have it. 
 Example in JS:
 `let attack = enemy.isFireType() ? this.attacks.thundershock : this.attacks.inferno;`
@@ -10842,7 +10843,7 @@ unless statements/expressions use the keyword unless.
 unless statements exist in liquid, perl, ruby
 
 
-Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is &lt;expression&gt; &lt;conditional&gt; (we might term this a postfix notation)
+Some languages (Perl, Ruby), allow a one-line conditional, where the syntax is ‹expression› ‹conditional› (we might term this a postfix notation)
 for the postfix conditionals in perl, ruby
 
 
@@ -10860,7 +10861,7 @@ switch conditioals are generally started by the `case` keyword.
 Different cases for a switch conditional are started by `switch` in Java, JS and by `when` in liquid, ruby.
 In liquid, ruby, multiple cases are separated by commas.
 The default case for a switch conditional is `default`  in Java, JS, and `else` in liquid, ruby.
-Bash has a fucked-up syntax: case &lt;expression&gt; in {&lt;case&gt;) &lt;command&gt; ;;} esac
+Bash has a fucked-up syntax: case ‹expression› in {‹case›) ‹command› ;;} esac
 In C-family languages, switch cases are generally syntactically equivalent to labels, and thus don't themselves create a new scope by default.
 
 JS Syntax examples:
@@ -10914,7 +10915,7 @@ A collection-controlled loop is a loop that loops over all elements of a thing.
 Collection-controlled loops are commonly called foreach loops.
 Collection-controlled loops most commonly start with the keyword `for`, but then feature a different syntax than count-controlled loops. In perl, they instead start `foreach`.
 Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
-Lua: for &lt;expression&gt; do
+Lua: for ‹expression› do
 bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
 Java: for (<type> <element> : <iterable>) ...
 JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
@@ -11346,7 +11347,7 @@ On the positive side, manifestly and statically typed languages 1) dramatically 
 
 (literal) type widening is the fact that TS will infer a primitive type and not a literal type for literal values.
 
-Often, when rust can't infer the type, we need to use turbofish notation ( :​:&lt;type&gt;)
+Often, when rust can't infer the type, we need to use turbofish notation ( :​:‹type›)
 
 ##### const assertions
 
@@ -11422,7 +11423,7 @@ Double-precision floating-point numbers|double|C#, Java
 
 Type conversion is explicitly using a function or the like to change the datatype of something.
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
-Ruby has a set of methods that have the syntax foo.to_&lt;char&gt; that convert to that type (e.g. to_i, to_f, to_s, to_sym)
+Ruby has a set of methods that have the syntax foo.to_‹char› that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
 ##### Coercion
 
@@ -11442,7 +11443,7 @@ Casting will go wrong if the vlaue cannot be treated as teh casted type.
 
 Type assertions in TS are the equivalent of type casting in other languages.
 In TS, if ⟮c+;you know something about a type that TS doesn't⟯, you can use ⟮c+;type assertions⟯
-TS type assertion syntax: prepending ⟮c+;&lt;some_type&gt;⟯ or appending ⟮c+;as some_type⟯
+TS type assertion syntax: prepending ⟮c+;‹some_type›⟯ or appending ⟮c+;as some_type⟯
 
 
 #### Firstclassness
@@ -11529,7 +11530,7 @@ in rust, tagged union variants may be tuples, structs, or unit-like
 
 ####### strum
 
-strum|enum &lt;-&gt; string manipulation
+strum|enum ‹-› string manipulation
 
 to make enums ready for use with strum, one needs to derive the relevant trait onto it, and also use attributes on the enum or the variants.
 Strum attributes use strum()
@@ -11827,7 +11828,7 @@ Rust throws an error in overflow/underflow scenarios when debugging, and wrap ot
 #### size (not arbitrary precision)
 
 In rust:
-Numeric types: &lt;type&gt;&lt;size&gt;
+Numeric types: ‹type›‹size›
 signed integer|i|i16, i128, isize,...
 unsigned integer|u|u32, u64, usize,...
 floating-point|f|f32, f64
@@ -11860,30 +11861,30 @@ Math|JS
 math|Python
 
 get a random number
-&lt;mathobj&gt;.random()|JS
+‹mathobj›.random()|JS
 
 floor/ceiling function
-&lt;mathobj&gt;.floor()/.ceil()|Python|JS
-&lt;thingItself&gt;.floor()/.ceil()|Ruby
+‹mathobj›.floor()/.ceil()|Python|JS
+‹thingItself›.floor()/.ceil()|Ruby
 
 Is a thing an integer?
 Number.isInteger(foo)|JS
 
 Truncate decimal places (not rounding)
-&lt;mathobj&gt;.trunc(num)|JS
+‹mathobj›.trunc(num)|JS
 
 Round to fixed amount of decimal places
 somenumber.toFixed(num)|JS
 
 Round a number
-&lt;mathobj&gt;.round()|JS|Python
+‹mathobj›.round()|JS|Python
 
 Get absolute value of something
-&lt;mathobj&gt;.abs()|JS
+‹mathobj›.abs()|JS
 abs()|Python (y, it's not on the math obj)
 
 Square root
-&lt;mathobj&gt;.sqrt()|JS|Python
+‹mathobj›.sqrt()|JS|Python
 
 Is the thing an Integer?
 Number.isInteger(foo)|JS
@@ -12332,7 +12333,7 @@ dynamic arrays|<delimiter><type><delimiter>|GraphQL
 
 ######### language peculiarities
 
-In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
+In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type‹delimiter›,,‹delimiter› (and for the constructor type‹delimiter›length,length,length‹delimiter›). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
 in TS, <type>[] is syntactic sugar for Array\<<type>\>
 in TS, readonly <type>[] is syntactic sugar for ReadonlyArray\<<type>\>
@@ -12583,8 +12584,8 @@ In JS, string interpolation can only be performed within template literals.
 
 \${expr}|JS|only in template literals
 \#{expr}|Ruby|SCSS/SASS
-&lt;sigil&gt;{expr}|Perl
-&lt;sigil&gt;variable|Perl
+‹sigil›{expr}|Perl
+‹sigil›variable|Perl
 
 sh's various $-introduced expressions are similar to string interpolation.
 Python has three ways to perform string interpolation:
@@ -13121,7 +13122,7 @@ Ruby calls this operator the splat operator, while js calls it a rest operator i
 
 In the context of callable unit parameters, JS rest syntax and Ruby/Pythons's Splat both gather the remaining arguments into an array. the parameter so marked must be the last in the list.
 funcName(1,2,3)
-&lt;keyword&gt; funcName(... OR *foo)
+‹keyword› funcName(... OR *foo)
 foo will now be [1,2,3]
 When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members, or in the case of assoc arrays into its constituent mappings.
 Ruby uses a double splat operator for associative array destructuring.
@@ -13172,8 +13173,8 @@ for rust, panicking is throwing an unrecoverable error
 
 #### Error handling control structures
 
-most commonly: try &lt;block&gt; catch (&lt;error-specifier&gt;) &lt;block&gt; finally &lt;block&gt;
-In Ruby begin &lt;block&gt; rescue (&lt;error-specifier&gt;) &lt;block&gt; ensure &lt;block&gt;
+most commonly: try ‹block› catch (‹error-specifier›) ‹block› finally ‹block›
+In Ruby begin ‹block› rescue (‹error-specifier›) ‹block› ensure ‹block›
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
 In JS, the <error-specifier> for catch was necessary until ES2019, and has been optional since
@@ -13981,7 +13982,7 @@ Rust's construct for boxing is Box<T>.
 ## Pragmas
 
 In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
-Perls pragmas have the syntax use &lt;name&gt;;
+Perls pragmas have the syntax use ‹name›;
 Perls pragma use warnings; causes the perl program to display warnings in certain circumstances.
 
 ### Strict mode
@@ -14547,24 +14548,24 @@ React Native implements a polyfill for WebSockets, initialized via importing Rea
 Native Components: React Components transformed into native views
 Core components: Native Components that are part of React Natives standard library
 React Native|HTML
-&lt;View&gt;|a non-scrolling &lt;div&gt;
-&lt;TextInput&gt;|&lt;input type="text"&gt;
-&lt;Text&gt;|&lt;p&gt;
-&lt;ScrollView&gt;|a scrolling &lt;div&gt;
-&lt;Image&gt;|&lt;img&gt;
+‹View›|a non-scrolling ‹div›
+‹TextInput›|‹input type="text"›
+‹Text›|‹p›
+‹ScrollView›|a scrolling ‹div›
+‹Image›|‹img›
 
-&lt;TextInput&gt; is a Core Component that allows the user to enter text.
+‹TextInput› is a Core Component that allows the user to enter text.
 onChangeText|event when text is changed
 onSubmitEditing|event when text is submitted
 
 flex-container:<img src="sm_2021-09-16--16-10-01-screenshot.png"><img src="sm_2021-09-16--16-08-57-screenshot.png">
 
-A list with ⟮c+;sections/headings⟯ should probably use the ⟮c+;&lt;SectionList&gt;⟯ component
-A list with ⟮c+;no sections/headings⟯ should probably use the ⟮c+;&lt;FlatList&gt;⟯ component
+A list with ⟮c+;sections/headings⟯ should probably use the ⟮c+;‹SectionList›⟯ component
+A list with ⟮c+;no sections/headings⟯ should probably use the ⟮c+;‹FlatList›⟯ component
 
 All the elements and views of a ScrollView are rendered, even if they are not currently shown
-&lt;ScrollViews&gt; can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
-The &lt;ScrollView&gt; Core Component can scroll in y-direction and, if `horizontal` is specified, in x-direction.
+‹ScrollViews› can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
+The ‹ScrollView› Core Component can scroll in y-direction and, if `horizontal` is specified, in x-direction.
 On iOS a ScrollView with a single item can be used to allow the user to zoom content. Set up the maximumZoomScale and minimumZoomScale props for that.
 
 ####### switching based on platform
@@ -17073,7 +17074,7 @@ In homebrew, ⟮c+;all formulae⟯ are contained in ⟮c+;taps⟯ (≈ ⟮c+;rep
 The ⟮c+;default⟯ ⟮c+;taps⟯ are ⟮c+;homebrew-core⟯ and ⟮c+;homebrew-cask⟯ (for ⟮c+;Casks⟯), and you can ⟮c+;add further 3rd party ones⟯ 
 
 In homebrew, according to the docs, a ⟮c+;Keg⟯ is ⟮c+;the path a formula is installed to⟯, including ⟮c+;the specific version⟯. 
-since ⟮c+;Kegs⟯ are ⟮c+;always installed⟯ to ⟮c+;the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮c+;/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮c+;/opt/homebrew/Cellar/&lt;formulaname&gt;/&lt;version&gt;⟯&nbsp;⟯ 
+since ⟮c+;Kegs⟯ are ⟮c+;always installed⟯ to ⟮c+;the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮c+;/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮c+;/opt/homebrew/Cellar/‹formulaname›/‹version›⟯&nbsp;⟯ 
 If something is ⟮c+;keg-only⟯, it is ⟮c+;installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮c+;not symlinked anywhere else⟯, often because ⟮c+;the OS already ships with a version that this would conflict iwth⟯ 
 
 ⟮c+;homebrew⟯ installs ⟮c+;anything⟯ to ⟮c+;within its prefix⟯. 

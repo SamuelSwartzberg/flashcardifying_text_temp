@@ -3058,9 +3058,9 @@ emoticon eyes|meaning
 ⟮c+;顔文字⟯ (reading ⟮c+;かおもじ⟯ ) have ⟮c+;faces⟯ oriented how ⟮c+;top-to-bottom⟯ 
 General pattern for kaomoji:
 ```
-kaomoji ::= ⟮c+;[&lt;left-arm&gt;]⟯⟮c+;&lt;head&gt;⟯⟮c+;[&lt;right-arm&gt;]⟯
-⟮hb;((c:30;::head⟯ ::= ⟮c+;[&lt;left-head&gt;]⟯⟮c+;&lt;face&gt;⟯⟮c+;[&lt;right-head&gt;]⟯
-⟮hb;⟮c+;face⟯ ::= ⟮c+;[&lt;left-cheek&gt;]⟯⟮c+;&lt;eye&gt;[&lt;nose&gt;]&lt;eye&gt;⟯⟮c+;[&lt;right-cheek&gt;]⟯⟯))
+kaomoji ::= ⟮c+;[‹left-arm›]⟯⟮c+;‹head›⟯⟮c+;[‹right-arm›]⟯
+⟮hb;((c:30;::head⟯ ::= ⟮c+;[‹left-head›]⟯⟮c+;‹face›⟯⟮c+;[‹right-head›]⟯
+⟮hb;⟮c+;face⟯ ::= ⟮c+;[‹left-cheek›]⟯⟮c+;‹eye›[‹nose›]‹eye›⟯⟮c+;[‹right-cheek›]⟯⟯))
 ```
 most common ⟮c+;head delimiters⟯: ⟮c+;(⟯) 
 
@@ -3616,7 +3616,7 @@ metacharacter/construct|BNF meaning
 definition   ::=
 alternation   |
 terminal (in this case with the name something)   "something" or 'something'
-non-terminal (in this case with the name something)   &lt;something&gt;
+non-terminal (in this case with the name something)   ‹something›
 concatenation   ␣
 
 ##### EBNF
@@ -3635,7 +3635,7 @@ bar|alternation
 ␣ or , or ø|concatenation
 barbar|'at least one of'
 
-In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as &lt;something&gt;, or both are explicitly indicated
+In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as ‹something›, or both are explicitly indicated
 
 ##### ABNF
 

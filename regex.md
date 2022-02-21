@@ -164,7 +164,7 @@ posessive|get longest possible match, or none at all|tries token as many times a
 
 ### recursion tokens
 
-recursion-token ::= \(?(R|0)\)|\g&lt;0&gt;
+recursion-token ::= \(?(R|0)\)|\g‹0›
 recursion tokens must be marked optional, or they will always reach a point where they have consumed the whole string and want more, and thus the regex will fail
 recursion in regex is most often used to match things that need to be balanced
 The recursion token basically says "go one level deeper and start the match from the start"

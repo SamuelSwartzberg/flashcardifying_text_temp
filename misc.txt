@@ -857,7 +857,7 @@ Foot|Pattern|Mnemonic
 
 #### writer-based prose
 
-⟮c+;writer-based prose⟯  &lt;-&gt; ⟮c+;reader-based prose⟯ 
+⟮c+;writer-based prose⟯  ‹-› ⟮c+;reader-based prose⟯ 
 To ⟮c+;write reader-based prose⟯, you first need to have ⟮c+;an idea of your reader and their characteristics⟯ 
 
 #### freewriting
@@ -881,7 +881,7 @@ Examples of ⟮c+;litotes⟯ include ⟮c+;<q>not bad</q>; <q>no small task</q>;
 
 flex-container:<img src="sm_giphy-f628103d57d332cf39ba9c4be4ef5a7d43ae20a7.gif"><img src="sm_hqdefault-b5ad12cf8a7b07c83685f3fb5033582023454ef3.jpg"><img src="sm_nicegai.jpg"><img src="sm_1000.jpg"><img src="sm_paste-bef82170e18bf7573ea1aeaf93edfa0d17dd0905.jpg">
 ⟮c+;Shining or gleaming⟯ is often represented by ⟮c+;a four- or eight-pointed long-ish star⟯, where ⟮c+;the angles between all lines⟯ are ⟮c+;generally equal⟯. 
-The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c+;&lt;image&gt;⟯ 
+The four- or eight-pointed long-ish stars used to represent gleaming might look like ⟮c+;‹image›⟯ 
 If there are ⟮c+;many small lights⟯, often ⟮c+;a large amount of  4/8p long-ish stars⟯ are used, whose ⟮c+;lines⟯ are ⟮c+;often (though not always⟯) then ⟮c+;parallel⟯ 
 When using the ⟮c+;eight-point version⟯ of the slender gleaming star, ⟮c+;the second set of four points/lines⟯ are ⟮c+;generally smaller⟯ 
 
@@ -1079,9 +1079,9 @@ flex-container:<img src="sm_1280px-Windrose.svg.jpg"><br>A ⟮c+;compass rose⟯
 The ⟮c+;compas rose⟯ indicates ⟮c+;where the cardinal directions are⟯, ⟮c+;in relation to⟯ ⟮c+;the thing on which it appears⟯. 
 The ⟮c+;four⟯ ⟮c+;main directions⟯, ⟮c+;90 deg⟯ apart, that a compass rose has are ⟮c+;the cardinal directions⟯. 
 The ⟮c+;four⟯ directions e⟮c+;xactly in the middle between the cardinal directions⟯ are the ⟮c+;intercardinal directions⟯. 
-The ⟮c+;intercardinal directions⟯ have the syntax ⟮c+;&lt;north/south&gt;&lt;east/west&gt;⟯ 
+The ⟮c+;intercardinal directions⟯ have the syntax ⟮c+;‹north/south›‹east/west›⟯ 
 The ⟮c+;eight directions between the intercardinal directions⟯ I will term ⟮c+;interintercardinal directions⟯. 
-The ⟮c+;interintercardinal directions⟯ have the syntax ⟮c+;&lt;cardinal-direction&gt;&lt;intercardinal-direction&gt;⟯&nbsp;, where the intercardinal direction and the cardinal are ⟮c+;those they are closest to⟯. 
+The ⟮c+;interintercardinal directions⟯ have the syntax ⟮c+;‹cardinal-direction›‹intercardinal-direction›⟯&nbsp;, where the intercardinal direction and the cardinal are ⟮c+;those they are closest to⟯. 
 The sixteen directions ⟮c+;between the interintercardinal directions⟯ I wil term ⟮c+;interinterintercardinal directions⟯. 
 Generating the ⟮c+;interinterintercardinal directions⟯ follows the following algorithm:
 ```
@@ -2307,7 +2307,7 @@ Thus, ⟮c+;haferflocken⟯ = ⟮c+;rolled oats⟯.
 ##### porridge
 
 flex-container:<img src="sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg"><img src="sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg"><br/>You make ⟮c+;porridge⟯ by ⟮c+;cooking⟯ ⟮c+;oats⟯, ⟮c+;milk⟯ and ⟮c+;water⟯ together. 
-⟮c+;Porridge⟯ looks like ⟮c+;&lt;image&gt;⟯ 
+⟮c+;Porridge⟯ looks like ⟮c+;‹image›⟯ 
 ⟮c+;Gruel⟯ is ⟮c+;a thinner version⟯ of ⟮c+;porridge⟯. 
 
 ## anatomy
@@ -4309,7 +4309,7 @@ current status|pin
 flex-container:<img src="sm_200px-Pin_tumbler_bypass.svg.png">
 flex-container:<img src="sm_300px-Lockpicking_Comb_Picks.jpg"><br/>Some insecure locks allow us to unlock them by ⟮c+; pushing both key and driver pins ⟯ ⟮c+;past the shear line⟯ 
 ⟮c+;comb picks⟯ ⟮c+;push⟯ ⟮c+;both driver and key pins⟯ ⟮c+;completely into the lock⟯ 
-comb picks might look like ⟮c+;&lt;image&gt;⟯ 
+comb picks might look like ⟮c+;‹image›⟯ 
 What normally ⟮c+;prevents us from just pushing all pins completely above the shear line w/ comb picks⟯ is ⟮c+;that there isn't enough space in the lock⟯ 
 
 ## shear line
@@ -4354,8 +4354,8 @@ Pins can only ⟮c+;bind⟯ if ⟮c+;rotational tension is being applied⟯, oth
 There is ⟮c+;most often (though not always⟯) ⟮c+;only one⟯ ⟮c+;binding pin⟯ at a time. 
 The ⟮c+;binding pin⟯ is ⟮c+;the pin⟯ that ⟮c+;is currently being bound⟯ (or ⟮c+;will be bound once rotational tension is applied⟯), and thus is ⟮c+;the next pin that can be set.⟯
 
-⟮c+;Single pin picking⟯ is ⟮c+;picking the pins one at a time⟯, which looks something like ⟮c+;&lt;image above&gt;⟯ 
-⟮c+;Single pin picking⟯ uses ⟮c+;hooks⟯ as tools, which look something like ⟮c+;&lt;image&gt;⟯ 
+⟮c+;Single pin picking⟯ is ⟮c+;picking the pins one at a time⟯, which looks something like ⟮c+;‹image above›⟯ 
+⟮c+;Single pin picking⟯ uses ⟮c+;hooks⟯ as tools, which look something like ⟮c+;‹image›⟯ 
 Core loop of ⟮c+;single pin picking⟯: ⟮c+;find binding pin⟯ -&gt; ⟮c+;set binding pin⟯ 
 To ⟮c+;test if⟯ ⟮c+;sth is a binding pin⟯, you ⟮c+;push it slightly⟯. 
 Compared to ⟮c+;non-binding pins⟯, if we push on ⟮c+;the binding pin⟯, it will feel ⟮c+;slightly stiffer and harder to lift⟯. 
@@ -4372,7 +4372,7 @@ If you ⟮c+;can no longer find a binding pin⟯, you have likely ⟮c+;overset 
 
 <span class="c1-f">What is this tool?</span><br><img src="sm_standard-tension-wrench.jpg"><br>⟮c+;tensioning tools⟯ are for ⟮c+;applying tension to the lock (to bind the pins⟯) 
 The ⟮c+;tension wrench⟯ is ⟮c+;the most common type of⟯ ⟮c+;tensioning tool.⟯ 
-A tension wrench might look like ⟮c+;&lt;image&gt;⟯ 
+A tension wrench might look like ⟮c+;‹image›⟯ 
 A ⟮c+;tension wrench⟯ has ⟮c+;a short end⟯ to ⟮c+;place in the keyway⟯ and ⟮c+;a long end⟯ to ⟮c+;act as a lever⟯. 
 You need to apply ⟮c+;very little tension⟯ with ⟮c+;the tension wrench⟯ to bind the pins. 
 ⟮c+;Letting go of the tension applied with the tension wrench⟯ ⟮c+;resets the lock⟯. 
@@ -4380,14 +4380,14 @@ You need to apply ⟮c+;very little tension⟯ with ⟮c+;the tension wrench⟯ 
 ## raking
 
 <span class="c1-f">What are we doing here?</span><span class="c21-f">What is this tool?</span><br/><img src="sm_Lock-Picking-With-A-Bogota-Rake-2.gif"><img src="sm_Peterson-GSP-Bogie-2-Black-Handle.jpg"><br/>⟮c+;Raking⟯ is ⟮c+;scrubbing the pins⟯ until we ⟮c+;happen to set all the pins⟯. 
-Raking might look like ⟮c+;&lt;image&gt;⟯ 
+Raking might look like ⟮c+;‹image›⟯ 
 ⟮c+;Raking⟯ has roughly the same motion as ⟮c+;brushing your teeth⟯. 
 In raking, we ⟮c+;add tension⟯ and then ⟮c+;scrub the pins⟯. 
 In raking, while ⟮c+;scrubbing the pins⟯, ⟮c+;vary⟯ things like ⟮c+;speed, tension, angle, height, etc⟯ ⟮c+;slightly⟯. 
 In raking, we ⟮c+;reset the lock⟯ by ⟮c+;removing tension.⟯ 
 In ⟮c+;raking⟯, we often have to ⟮c+;reset the lock a few times⟯ before it works 
 ⟮c+;Raking⟯ has the main advantage of ⟮c+;being fast (to open the lock⟯), but the disadvantage of ⟮c+;not working well for more difficult locks⟯. 
-⟮c+;Raking⟯ uses ⟮c+;rakes⟯ as tools, which look like ⟮c+;&lt;image&gt;⟯
+⟮c+;Raking⟯ uses ⟮c+;rakes⟯ as tools, which look like ⟮c+;‹image›⟯
 
 # misc
 

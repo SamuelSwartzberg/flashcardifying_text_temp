@@ -104,7 +104,7 @@ ctrl+w v   split window vertically
 ##### buffer
 
 ctrl+^    doing buffer related stuff (switching buffer when no leading number arg)
-&lt;n&gt;ctrl+^    switch to buffer n
+‹n›ctrl+^    switch to buffer n
 
 #### grammar-defined (may be insert-only or multi-mode)
 
@@ -168,7 +168,7 @@ j|move cursor down|qutebrowser, zathura, vim, less
 l|move cursor right|qutebrowser, zathura, vim, less
 G|go to last line|qutebrowser, zathura, vim, less
 g|go to first line|less only
-&lt;n&gt;G   jump to line n
+‹n›G   jump to line n
 H/L|top/bottom of viewport
 <quantifier>H/L|n lines before top/bottom of page
 M   go to middl eof screen
@@ -188,10 +188,10 @@ $   emd of line
 0   move to first character in line (even if indented)
 #   search backwards for word under cursonr
 *   search forwards for word under cursor
-f&lt;character&gt;   go to next &lt;character&gt; on current line
-F&lt;character&gt;   go to previous &lt;character&gt; on current line
-t&lt;character&gt;   go to up to (one before) character
-T&lt;character&gt;   go to up to (one before) character backwards
+f‹character›   go to next ‹character› on current line
+F‹character›   go to previous ‹character› on current line
+t‹character›   go to up to (one before) character
+T‹character›   go to up to (one before) character backwards
 
 The capital versions of the motions w e and b are different from the non-capital versions in that the capital versions only consider space as a separator, while the non-capital versions also consider puctuation as a separator
 
@@ -236,7 +236,7 @@ yY|yank URL to selection (primary selection has something to do with terminal cl
 
 f|hint for opening in this tab
 F|hint for opening in new tab
-;&lt;some char&gt;|hint &lt;different things&gt;
+;‹some char›|hint ‹different things›
 ;p|hint images for yanking
 ;y|hint links for yanking
 ;i|hint images (for opening in new tab)
@@ -261,20 +261,20 @@ wi|toggle devtools
 H/L|history forward/back   
 J/K|next/prev tab   
 
-p/P&lt;some_char&gt;|do paste stuff (first char)
+p/P‹some_char›|do paste stuff (first char)
 pp|open URL from clipboard
 pP|open URL from selection
 Pp/PP&nbsp;|what pp/pP do (open URL from clipboard/selection), but in a new tab
             
 b/B|open quickmark in this tab/new tab
-&lt;n&gt;|open tab n
+‹n›|open tab n
 T|open tab chooser (accepts number, name, or url)
 
 go/gO|edit current URL (and open in this tab/new tab)
 o|open website (in current tab)
 O|open website (in new tab)
 d|cloze current tab
-&lt;n&gt;d|cloze nth tab
+‹n›d|cloze nth tab
 
 mode-switching:
 
@@ -290,7 +290,7 @@ h|show help|less and similar
 ### zathura
 
 best-fit mode of display   a
-follow links/ display link target   f/F &lt;number-index&gt;
+follow links/ display link target   f/F ‹number-index›
 rotate   r
 toggle 2 pages side by side view   d
 width mode of display   s
