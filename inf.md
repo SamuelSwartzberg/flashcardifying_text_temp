@@ -833,9 +833,9 @@ the stroke of a shape is the line drawn around the object
 
 `stroke-linecap` defines how the stroke ends on the line
 
-stroke-linecap="butt"|▯▯<br>▮▮<br>▯▯
-stroke-linecap="square"|▯▯<br>▯▮<br>▯▯
-stroke-linecap="round"|◜-<br>|▮<br>◟-
+stroke-linecap="butt"|▯▯¶▮▮¶▯▯
+stroke-linecap="square"|▯▯¶▯▮¶▯▯
+stroke-linecap="round"|◜-¶|▮¶◟-
 
 `stroke-linejoin` defines how a joint between two line segments behaves.
 
@@ -3441,7 +3441,7 @@ An SCSS/sass ⟮c+;placeholder selector⟯ is designed to be ⟮c+;`@extend`ed�
 ⟮c+;@include⟯ ⟮c+;copies the styles⟯ defined by ⟮c+;@mixin⟯ ⟮c+;into the current block⟯. 
 ⟮c+;@mixin⟯ can take ⟮c+;arguments⟯, both ⟮c+;sassscript⟯ and ⟮c+;a block of css⟯. 
 ⟮c+;@mixins⟯ and ⟮c+;@include⟯ have ⟮c+;functionally the same syntax⟯ as ⟮c+;declaring⟯ and ⟮c+;calling a function⟯ in other languages 
-± though using the @mixin and @include keywords, as SCSS/Sass also has @function ±<br>
+^though using the @mixin and @include keywords, as SCSS/Sass also has @function
 ⟮c+;@content⟯ refers to ⟮c+;a passed-in css block⟯ in @⟮c+;mixin⟯. 
 
 ```
@@ -3988,7 +3988,7 @@ Action|Shortcut
 ⟮c+;del key⟯|⟮c+;⟦fn⟧ ⟦⌫⟧⟯
 
 
-<br>  span=2;macOs Dialogs
+span=2;macOs Dialogs
 Action|Shortcut
 ⟮c+;cancel⟯|⟮c+;⟦esc⟧⟯
 ⟮c+;don't save⟯|⟮c+;⟦⌘⟧ ⟦⌫⟧⟯
@@ -4008,7 +4008,7 @@ Action|Shortcut
 ⟮c+;Bury card⟯|⟮c+;⟦⌘⟧ ⟦-⟧⟯
 ⟮c+;Bury note⟯|⟮c+;⟦⌥⟧ ⟦-⟧⟯
 ⟮c+;Edit html⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦x⟧⟯
-⟮c+;Mark note (both browser and reviewer),<br> mark parent element w/ textmarker (browser, custom⟯)|⟮c+;⟦⌥⟧ ⟦k⟧⟯
+⟮c+;Mark note (both browser and reviewer), mark parent element w/ textmarker (browser, custom⟯)|⟮c+;⟦⌥⟧ ⟦k⟧⟯
 ⟮c+;Show deck options menu⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦,⟧⟯
 ⟮c+;Study⟯|⟮c+;⟦L⟧⟯
 ⟮c+;Subscript⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦2⟧⟯
@@ -4031,11 +4031,11 @@ Action|Shortcut
 ⟮c+;Import⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
 ⟮c+;Save as⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
 ⟮c+;Save⟯|⟮c+;⟦⌘⟧ ⟦s⟧⟯
-⟮c+;New thingy⟯|⟮c+;⟦⌘⟧ <div class="key" style="grid-area: 2/5">n</div>⟯
+⟮c+;New thingy⟯|⟮c+;⟦⌘⟧ ⟦n⟧⟯
 ⟮c+;New alternative thing (window, folder, etc.⟯)|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
 ⟮c+;Open⟯|⟮c+;⟦⌘⟧ ⟦o⟧⟯
 ⟮c+;Duplicate current item⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
-⟮c+;Print⟯|⟮c+;⟦⌘⟧ ⟦p⟧<br><div class="sub"></div>⟯
+⟮c+;Print⟯|⟮c+;⟦⌘⟧ ⟦p⟧>⟯
 ⟮c+;delete thingy (if file, move to bin⟯)|⟮c+;⟦⌘⟧ ⟦⌫⟧⟯
 
 
@@ -4523,7 +4523,7 @@ Most colors are specified by ⟮c+;specifying the color model⟯ and then ⟮c+;
 ⟮c+;RGB colors⟯ are also often displayed as ⟮c+;a hex triplet,⟯ which is generally ⟮c+;prefixed by a # character⟯. 
 In certain places, e.g. HTML/CSS, hex colors ⟮c+;with reduplicated digits only (e.g. 663399⟯) can ⟮c+;be shortened to three-digit variants (e.g. 639⟯) 
 
-<br>---<br> 
+
 ⟮c+;A primary color⟯ is ⟮c+;a member of⟯ a ⟮c+;set of colors⟯ (all ⟮c+;defined to be primary⟯) that ⟮c+;can be combined in varying amounts⟯ to ⟮c+;create a gamut of colors⟯. 
 
 ⟮c+;CMY⟯ and ⟮c+;RGB⟯ are ⟮c+;complementary⟯ in such a way that ⟮c+;C+R⟯, ⟮c+;M+G⟯, and ⟮c+;Y+B⟯ are ⟮c+;all 100% (255 with an 8 bit color depth⟯). To ⟮c+;get one channel⟯, ⟮c+;the other is subtracted from 100%⟯. 
@@ -4658,13 +4658,18 @@ It is often said (esp. in animation) that ⟮c+;good characters⟯ should ⟮c+;
 flex-container:<img src="sm_faces1.gif">
 flex-container:<img src="sm_1280px-FedEx_Corporation_logo.svg.png">
 
-flex-container:<img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg"><br>⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
+flex-container:<img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg">
+
+⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
 ⟮c+;Positive space⟯ is ⟮c+;the area with subjects/areas of focus⟯
 In the image, if ⟮c+;you see a vase⟯, the ⟮c+;black space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;white space⟯ is the ⟮c+;positive space⟯
 In the image, if ⟮c+;you see two faces⟯, the ⟮c+;white space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;black space⟯ is the ⟮c+;positive space⟯
 In the image, the ⟮c+;positive space⟯ is (probably/arguably) ⟮c+;the woman.⟯
 
-<span class="c1-f">What are these examples for?</span><br><img src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg"><br>⟮c+;hostile/defensive architecture/design⟯ is architecture that ⟮c+;restricts/guides behavior⟯ to ⟮c+;protect property⟯ or ⟮c+;prevent crime⟯ 
+flex-container:<img src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg">
+
+
+⟮c+;hostile/defensive architecture/design⟯ is architecture that ⟮c+;restricts/guides behavior⟯ to ⟮c+;protect property⟯ or ⟮c+;prevent crime⟯ 
 hostile/defensive architecture might look like ⟮c+;‹image›⟯ 
 The most common people targeted by ⟮c+;hostile/defensive architecture/design⟯ in the west are ⟮c+;the homeless⟯ and ⟮c+;young people⟯ 
 
@@ -5562,7 +5567,7 @@ You can interface with the mpd server with a number of clients, e.g. mpc
 
 mpc -p port or --port=port|connect to mpd at the specified port
 `mpc queue(d)`|⁑show⁑ next song
-`mpc current`|show currently playing songm<br><div class="sub">
+`mpc current`|show currently playing song
 `mpc update`|update collectiion by scanning for changed files
 `mpc stats`|display mpd playing info such as total play time up until now, etc.
 `mpc rescan`|rescan whole music directory
@@ -5931,7 +5936,7 @@ Within ⟮c+;\newcommand⟯, you ⟮c+;refer to arguments⟯ ⟮c+;positionally�
 Latex ⟮c+;sections⟯ ⟮c+;go until⟯ ⟮c+;the beginning of the next section⟯ 
 Latex sections are declared via ⟮c+;command. (e.g. \part⟯) 
 Latex ⟮c+;section commands⟯ take ⟮c+;the full section title⟯ as ⟮c+;a mandatory argument⟯ and ⟮c+;a short title (e.g. for TOC⟯) as ⟮c+;an optional argument⟯. 
-± \subsection[shortitle]{This is the full title} ±<br>
+^\subsection[shortitle]{This is the full title}
 ⟮c+;Article⟯ notably does not havet the ⟮c+;\chapter⟯ section command. 
 
 ######### Latex section hierarchy
@@ -5956,7 +5961,7 @@ the main advantages of ⟮c+;using labels⟯ in latex instead of ⟮c+;manually 
 ⟮c+;\label⟯ takes ⟮c+;an argument⟯ of ⟮c+;the name of the marker.⟯ 
 ⟮c+;\label⟯ goes ⟮c+;within⟯ ⟮c+;the thing being labeled⟯ as ⟮c+;the first thing⟯ if ⟮c+;there is a 'within'⟯, and ⟮c+;after⟯ otherwise. 
 It is common practice to ⟮c+;prefix the name of the marker⟯ with a ⟮c+;most often 3-character⟯ ⟮c+;abbreviation⟯ of ⟮c+;the type of the marker⟯ plus ⟮c+;a colon⟯ 
-± \label{sec:foo} ±<br>
+^\label{sec:foo}
 
 abbr|for
 ⟮c+;eq⟯|⟮c+;equation⟯
@@ -6187,7 +6192,7 @@ The kind of themes that latex presentations can have are ⟮c+;presentation⟯, 
 
 ⟮c+;Overlay specifications⟯ specify ⟮c+;which slides⟯ to ⟮c+;apply a command to⟯, or ⟮c+;on which slides⟯ ⟮c+;to show a thing⟯ 
 ⟮c+;Overlay specifications⟯ are written ⟮c+;‹some_number/list/range›⟯ 
-± \item‹-2,4-5,7› ±<br>
+^\item‹-2,4-5,7›
 ⟮c+;\only⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides⟯ 
 ⟮c+;\uncover⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides,⟯ but ⟮c+;still take up space on the other slides⟯&nbsp;
 
@@ -6368,9 +6373,9 @@ environment|function
 
 In latex, ⟮c+;parentheses⟯ and ⟮c+;square brackets⟯ ⟮c+;can just be inserted⟯, ⟮c+;curly braces⟯ ⟮c+;must be escaped⟯. 
 ⟮c+;curly braces⟯ must ⟮c+;be escaped even⟯ if ⟮c+;as part of \left or \right⟯ 
-± e.g. `\left\{` ±<br>
+^e.g. `\left\{`
 ⟮c+;prefixing⟯ ⟮c+;parentheses, square brackets or (escaped) curly brackets⟯ with ⟮c+;\left⟯ (if ⟮c+;opening⟯) or ⟮c+;\right⟯ (if ⟮c+;closing⟯) will ⟮c+;make them resize if around something larger (e.g. a fraction⟯) 
-± e.g. `$$\left[\frac{foo}{bar}\right]$$` ±<br>
+^e.g. `$$\left[\frac{foo}{bar}\right]$$`
 
 ######### links (hyperref)
 
@@ -7483,7 +7488,7 @@ A  ⟮c+;man-in-the-middle⟯ attack is when an attacker ⟮c+;inserts themseves
 ⟮c+;h∞;uh4;<img src="sm_MitM4.jpg">⟯
 ⟮c+;h∞;<img src="sm_MitM5.jpg">⟯
 
-⟮uh∞;After the MitM for public key encryption has been set up...⟯<br>
+⟮uh∞;After the MitM for public key encryption has been set up...⟯
 ⟮c+;the server⟯ and ⟮c+;client⟯ ⁑actually⁑ have ⟮c+;the MitMs public key⟯ 
 ⟮c+;the server⟯ and ⟮c+;client⟯ ⁑think⁑ they have ⟮c+;each other's public key⟯ 
 ⟮c+;the MitM⟯ looks like ⟮c+;the server⟯ to ⟮c+;the client⟯ 
@@ -9422,7 +9427,7 @@ basic syntax for youtube-dl: `⟮c+;youtube-dl⟯ ⟮c+;[OPTIONS]⟯ ⟮c+;URL {
 youtube-dl: ⟮c+;don't actually download the video, just preview⟯, so to speak: ⟮c+;-s/--simulate⟯ 
 
 There is ⟮c+;a set of options⟯ for ⟮c+;youtube-dl⟯ that ⟮c+;start with --get-⟯ and ⟮c+;only return the requested information (e.g. id, format, filename, title, duration, etc.⟯) 
-  ± --get-format, --get-title, etc. ±<br>
+^--get-format, --get-title, etc.
 
 The ⟮c+;--format / -f FORMAT⟯ option of youtube-dl is for s⟮c+;electing the format you want to download the thing in⟯. 
 You can ⟮c+;list available formats for --format⟯ with ⟮c+;--list-formats/-F⟯ 

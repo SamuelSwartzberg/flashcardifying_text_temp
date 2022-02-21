@@ -171,11 +171,11 @@ The thing that ⟮c+;uniquely identifies⟯ a ⟮c+;symbol⟯ is ⟮c+;its name�
 One possible grouping of clean language questions (there are others)
 ⟮c+;intention⟯|⟮c+;sequence and source⟯|span=3;⟮c+;developing⟯
 ||
-        ⟮c+;name and address questions⟯<br>
+        ⟮c+;name and address questions⟯¶
         Purpose: ⟮c+;allow us to return to symbols later⟯ - the ((c:24;::most common/versatile
         questions)) ⟮(c:25;2/3⟯ of questions asked)
       |⟮c+;asking for a metaphor⟯|
-        ⟮c+;relationship between symbols⟯<br>Purpose: connecting symbols
+        ⟮c+;relationship between symbols⟯¶Purpose: connecting symbols
           1. ⟮c+;(And) what would X like to have happen?⟯
           2. ⟮c+;(And) what needs to happen for X?⟯
           3. ⟮(c:9;And) can X (happen)?⟯
@@ -186,24 +186,24 @@ One possible grouping of clean language questions (there are others)
       |
         <ol>
           <li>
-            ⟮c+;(And) what kind of X (is that X)?⟯ <br>
-            Purpose: ⟮c+;Zooming in⟯ <br>
+            ⟮c+;(And) what kind of X (is that X)?⟯ ¶
+            Purpose: ⟮c+;Zooming in⟯ ¶
             Returns: ⟮c+;A symbols name⟯
           </li>
           <li>
-            ⟮c+;(And) is there anything else about x?⟯ <br>
+            ⟮c+;(And) is there anything else about x?⟯ ¶
             Purpose: ⟮c+;Zooming out⟯
           </li>
-          <li>⟮c+;(And) where(abouts) is X?⟯ <br>
-          Purpose: ⟮c+;Getting the address of X⟯ <br>
-          Returns: ⟮c+;A symbols location⟯ <br>
+          <li>⟮c+;(And) where(abouts) is X?⟯ ¶
+          Purpose: ⟮c+;Getting the address of X⟯ ¶
+          Returns: ⟮c+;A symbols location⟯ ¶
           Notes: ⟮c+;can be used widely, since most metaphors have a spacial component⟯
           </li>
         </ol>
       |
-        ⟮c+;(And) that's X like what?⟯ <br>
-        If ⟮c+;about everything that was jus said⟯: ⟮c+;(And) (all of) that's like what?⟯ <br>
-        Method of using: ⟮c+;say it very slowly⟯ <br>
+        ⟮c+;(And) that's X like what?⟯ ¶
+        If ⟮c+;about everything that was jus said⟯: ⟮c+;(And) (all of) that's like what?⟯ ¶
+        Method of using: ⟮c+;say it very slowly⟯ ¶
         Might not work if asked about ⟮c+;things that are already metaphors⟯, ⟮c+;abstract concepts⟯
       |
         <ol>
