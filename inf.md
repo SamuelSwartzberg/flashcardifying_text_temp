@@ -3440,26 +3440,37 @@ linked data is data that is interlinked usefully.
 ## data models
 
 A data model is a model that provides structure to data, and to their properties, how they relate amongst each other, and how they relate to RL.
+
+### fundamentals
+
+#### & databases
+
 A database is an organized collection of data.
 Any database implements a data model.
 
+##### DBMS
+
 A DBMS (database management system) is the software used to manage a database.
+
+#### query languages
 
 A (data)(base) query language is a language used to query data in databases/information systems.
 
-Structured data is a data model used for describing web pages.
-Structured data is used by search engines to provide more rich results.
-Schema.org is a set of schemas for structured data.
+#### operations
 
 ⟮c+;CRUD⟯ is short for ⟮c+;create⟯, ⟮c+;read⟯, ⟮c+;update⟯, and ⟮c+;delete⟯, the four operations that ⟮c+;persistent storage⟯ pretty much always has.
 
-### general considerations
+#### schemata
 
 A schema is a format that describes/constrains/validates data/data structures
 
-### relational data model
+### various data models
 
-#### relational data model itself
+#### relational data model
+
+##### fundamentals
+
+###### relational data model itself
 
 https://upload.wikimedia.org/wikipedia/commons/7/7c/Relational_database_terms.svg
 
@@ -3475,16 +3486,15 @@ tuple making up the body|collection of rows
 n-tuple|row
 attribute|column
 
+###### database
+
 a relational database is a database with a relational data model.
 In a relationnship database each n-tuple/row has its own unique key known as the primary key.
 A foreign key is a column used in a relational database to link tables/relations by referencing a primary key of a row in a different relation/table.
 A child table uses a foreign key to reference a primary key in the parent table. (parent ← child)
 Foreign keys can be used for one-to-one or one-to-many relationships
 
-SQL is a language used to manage relational databases.
-SQL, despite its name, consists of a data query language, data definition language, data control langauge, and data manipulation language.
-
-#### tabular data
+###### tabular data
 
 A table is an accepted visual representation of a relation.
 TODO revise in light of above info
@@ -3512,16 +3522,25 @@ If in csv/tsv ⟮c+;a field is wrapped in double quotes to allow the field separ
 tidy-viewer is a FOSS rust-based csv viewer 
 -s <char>|delimiters
 
-### non-relational data models
+##### various relational data models / databases
+
+###### (query) languages
+
+SQL is a language used to manage relational databases.
+SQL, despite its name, consists of a data query language, data definition language, data control langauge, and data manipulation language.
+
+#### non-relational data models
 
 A NoSQL database is really a misnomer, it refers to a non-relational database
 
-#### graph data models
+##### graph data models
 
 A graph data model is one that organizes entities and their relationships as a graph.
 A graph database is a database that uses a graph data model.
 
-##### RDF
+##### various non-relational data models / databases
+
+###### RDF
 
 RDF = resource description framework
 RDF is a technology meant to realize the semantic web.
@@ -3532,34 +3551,30 @@ a semantic triple is the atomic data unit in the RDF data model
 a semantic triple has the three roles subject, predicate object
 a semantic triple encodes the three roles subject predicate object as a directed graph, with the subject and object being nodes, and the relationship as an edge.
 A named graph is a set of triples named by an URI
+RDF is an abstract data model, which can be implemented for example by the various structured data data formats.
 
 In rdf, a node can be a IRI, literal, or blank node
 
 an RDF semantic triple indicating that art knows bob using the FOAF ontology might look like ex:art foaf:knows ex:bob
 
-###### sparql
+####### related technologies
+
+######## OWL
+
+OWL short for web ontology langauge
+OWL, RDFS and SHACL are ontology languages for RDF
+
+####### Query languages 
+
+######## sparql
 
 SPARQL = SPARQL Protocol and RDF Query Language
 SPARQL is proounced sparkle
 SPARQL is an RDF query language
 
-###### JSON-LD
+####### applications
 
-JSON-LD is an implementation of RDF
-JSON-LD is included via a script tag 
-Of the structured data formats, google prefers JSON-LD.
-
-##### Other implementations of structured data
-
-RDFa Lite is a minimal subset of RDFa that can be directly included in HTML.
-Microdata is a format to include metadata, including but not limited to RDF data, directly included in HTML.
-
-##### OWL
-
-OWL short for web ontology langauge
-OWL, RDFS and SHACL are ontology languages for RDF
-
-##### applications
+######## FOAF
 
 FOAF = friend of a friend
 FOAF is an ontology for people, their properties and their relations using RDF/OWL 
@@ -3572,13 +3587,67 @@ Open graph metadata is specified within meta tags.
 There are four required properties for open graph, which are og:image, og:title, og:type and og:url.
 The property of the open graph metadata is specified within the property property, and the value of the open graph metadata is specified within the content property.
 
-#### document data model
+###### graphQL
 
-a document database implements a document datamodel.
+GraphQL consists of a query language, a server-side runtime for executing these queries, and a type system for these queries.
+
+####### queries
+
+In GraphQL, a query has the same shape as the result.
+A graphQL query starts at a special root object
+
+graph-ql-query ::= \{{<field-query>}\}
+field-query :: = <field-name>[\(\<query-arguments>\)] [\{{<field-query>}\}]
+query-arguments: <key>: <value>
+
+In GraphQL, any field can take its own arguments, even if it's nested, removing the need for multiple queries.
+
+```
+{
+  human(id: "1000") {
+    name
+    height(unit: FOOT)
+  }
+}
+```
+
+####### type system
+
+
+
+##### document data model
+
+a document database implements a document data model.
+
+###### mongo db
+
 MongoDB is the most well known document database.
 IndexedDB = Indexed Database API.
 IndexedDB is a document database for client-side storage.
 Most document databases are based on a variant of JSON.
+
+#### related technologies
+
+##### structured data
+
+Structured data is a data format used for adding data to web pages.
+Often, structured data is used to encode RDF.
+Sometimes, structured data is used in a more abstract sense to contrast with unstructured data.
+Structured data is used by search engines to provide more rich results.
+Schema.org is a set of schemas for structured data.
+
+###### implementations
+
+####### JSON-LD
+
+JSON-LD is an implementation of structured data.
+JSON-LD is included via a script tag 
+Of the structured data formats, google prefers JSON-LD.
+
+####### Other implementations
+
+RDFa Lite is a minimal subset of RDFa that can be directly included in HTML.
+Microdata is a format to include structured data in HTML.
 
 ## semantics
 
@@ -10785,6 +10854,8 @@ Labels can be used to break out of a loop that is not the enclosing one.
 
 ### other statements
 
+#### empty statements
+
 Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
 
 ;|JS|C#
@@ -11426,15 +11497,21 @@ intersection-type ::= <type> & <type>
 
 #### Union type
 
+##### definition
+
 A union type specifies a number of types that anything with the union type as type may take.
 A union type can hold a value that could take on several different but fixed types.
 A union type can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
+In type theory, a union type is a sum type.
+
+##### use
 
 with ⟮c+;union⟯ types, you can only use things that ⟮c+;all of the relevent types can do⟯, unless you ⟮c+;narrow them down⟯
-Common syntax: type1 | type2 ...
-Syntax for creating arbitrary union types exist in Python and TS
 
-In type theory, a union type is a sum type.
+##### in various languages
+
+Common syntax: type1 | type2 ...
+Syntax for creating arbitrary union types exist in Python, TS and graphQL
 
 ##### Tagged unions
 
@@ -11516,9 +11593,13 @@ the difference between unwrap and expect is that expect allows us to choose our 
 
 ##### Nullable types
 
+###### definitions
+
 Null is not typically its own type (since it would be a useless unit type), instead other types are generally nullable.
 A type being nullable means it can take a special value null/nil/undefined instead of the usual possible values.
 We can understand nullable types as an union type between usual type | null type
+
+###### keywords for the special value null
 
 nil|lua|liquid|ruby
 null|C#|Java|JS (secondary)
@@ -11526,9 +11607,19 @@ undefined|JS (primary)
 None|Python
 there isn't one|Rust
 
+###### language peculiarties
+
+####### liquid
+
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
+
+####### JS
+
 In JS a type is nullish if it is null or undefined.
 
+####### graphql
+
+In GraphQL, an exclamation mark `!` afte a type indicates that the field is non-nullable.
 
 #### type manipulation
 
@@ -11826,11 +11917,17 @@ Collections may be implemented in the language as primitives, but many are eithe
 Rust only calls its non-primitive collections collections, which are stored in std::collections.
 Rust collections (as in non-primitve collections) are stored on the heap and are variable size, primitive data structures are stored on the stack and are fixed-size.
 
-#### Access
+#### access
+
+##### random and sequential
+
+###### definitions
 
 Random access might be clearer if it was called direct access.
 Random access allows access to arbitrary elements at will.
 Sequential access only allows access in a certain sort of order.
+
+###### examples
 
 flex-container:<img src="sm_rand_seq_acc.svg">
 book|random access (to pages)
@@ -11838,10 +11935,12 @@ scroll|sequential access
 
 #### Collection methods
 
-Clear a mutable collection
+##### Clear a mutable collection
+
 foo.clear()|not JS|Python|Ruby
 
-Flatten a nested thing ([[1]].flat() => [1])
+##### Flatten a nested thing ([[1]].flat() => [1])
+
 foo.flat(depth)|JS
 foo.flatten(dept)|Ruby
 nothing in py
@@ -11868,40 +11967,52 @@ xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
 ###### Associative array
 
-####### General
+####### definitions
 
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
+A mapping is the term for a single key-value set (ordered pair).
+
+####### keys
+
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
 In programming languages, string assoc arr keys are generally quoted. In TOML they may be unquoted for simple alphabetic keys.
-across programing languages, a mapping is generally a a key-value set.
+
+######## computed property names
+
+Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
+AFAIK only JS has computed property names
+
+####### implementation
+
+######## primitve vs records
+
 Associative arrays are implemented as primitives in some languages, as records in others, or sometimes as both.
 Languages with no associative array primitives: C#, Java, Rust
 If languages implement assoc arr via records, you then interact with them as you would with records.
 If languages implement assoc arr as primitives, these then often have their own syntax for interaction.
 
-####### JS
+######## literals
 
-JS implements associative arrays via the `Map` and `WeakMap` classes. 
-In JS objects (esp. object literals) also perform many of the operations we would expect of associative arrays. 
-Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). 
-Objects are primitives, Maps need to be created with the new Map() constructor. 
+######### delimiters
 
-####### Literals
-
-no literals|C#|TOML
+no literals at all|C#|TOML
 {}|JS (objects)|Lua|Perl (1 of 2)|Python|Ruby|YAML
 ()|Perl (1 of 2)|SCSS/Sass (same as arrays)
 newlines & indentation|YAML
 
+######### mapping separators
+
 In associative array literals, the separator between 2 mappings is generally ,
 
-key-value separator
+######### key-value separators
+
 =|lua|TOML
 :|python|Ruby (symbols)|YAML
 =>|Perl (1 of 2)|Ruby (non-symbols)
 , (yes, really)|Perl (1 of 2)
 
-names (only if literals)
+######### assoc array names (if primitve)
+
 table|lua|TOML
 hash|perl
 dictionary|python
@@ -11910,14 +12021,30 @@ map|SCSS/Sass
 
 In most languages with primitive associative arrays, accessing and assigning are handled by the usual indexing syntax also used for their primitive array type etc.
 
-####### Objects
+######## Objects
 
 Dictionary<K, V>|C#
 HashMap<K, V>|Rust
 BTreeMap<K, V>|Rust
 Map<K, V> interface, e.g. HashMap<K, V>|Java
 
-######## assigning & Accessing
+######## JS
+
+JS implements associative arrays via the `Map` and `WeakMap` classes. 
+In JS objects (esp. object literals) also perform many of the operations we would expect of associative arrays. 
+Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). 
+Objects are primitives, Maps need to be created with the new Map() constructor. 
+
+####### properties
+
+######## Insertion order
+
+There are both languages that do and do not guarantee insertion order to be maintained for their associative arrays.
+In Rust, you need to use the `indexmap` crate to get an associative array that keeps insertion order.
+
+####### operations
+
+######## assigning
 
 adding a key, value pair
 .Add(<key>, <value>)|C#
@@ -11925,47 +12052,52 @@ adding a key, value pair
 .put(<key>, <value>)|Java
 .insert(<key>, <value>)|Rust
 
-Retrieval function
+######## retrieval
+
 get(<key>)|Java|JS(map only)|Rust
 [] indexing notation despite not being a primitive|C#
 
-####### Insertion order
+######## deletion
 
-There are both languages that do and do not guarantee insertion order to be maintained for their associative arrays.
-In Rust, you need to use the `indexmap` crate to get an associative array that keeps insertion order.
-
-####### methods
-
-
-deleting key
 set it to null type|lua
 
-Has key? 
+######## checking for existence
+
+######### Has key? 
+
 key?|Ruby
 
-Has value?
+######### Has value?
+
 value?|Ruby
 
-get array/iterator of key, value tuple/array/whatever:
+######## iterators/arrays of
+
+######### key, value tuple/array/whatever
+
 pairs()|lua
 items()|Python
 entries()|JS (map only)
 
-get array/iterator of keys
+#########  keys
+
 keys()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_keys object)
 Object.keys(someobj)|JS
 
-get array/iterator of values
+######### values
 
 values()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_values object)
 Object.values(someObj)|JS
 
+######### JS
+
 Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
 
-merge two assoc. arrays
+######## merging
+
 map-merge(foo, bar)|SCSS/Sass
 
-Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
+####### derived structures
 
 ######## entries
 
@@ -12001,10 +12133,11 @@ serde_json represents Objects as `Value::Map<String, Value>`
 using serde to parse, we may parse arbitrary data into a serde representation using from_str and then index into it as you would in JS with square bracket notation (but you may recieve `Value::Null`), or we may parse data into a predefined rust representation
 to make serde support the derive macro, set the "derive" feature
 
-####### misc
+####### peculiarities
+
+######## lua
 
 tables are actually the only data structure in lua
-
 
 #### Linear collections/ADTs
 
@@ -12017,28 +12150,35 @@ It seems to me that all non-array linear collections only allow sequential acces
 
 ##### Linear collection methods
 
-reverse the thing
+###### reverse the thing
+
 reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 
-Append a linear collection to a different linear collection 
+###### Append a linear collection to a different linear collection
+
 col1 + col2|Python (also works for strings)
 col1 << col2|Ruby (also works for strings)
 col1.extend(col2)|Python
 
-Repeat the contents of a linear collection n times
+###### Repeat the contents of a linear collection n times
+
 col1 * n|Python
 
-append one element to end of dynamic linear collection
+###### append one element to end of dynamic linear collection
+
 push()|JS|Rust
 append()|Python
 
-remove an element from a lin coll by name
+###### remove an element from a lin coll by name
+
 somelincoll.remove(elem)|Python
 
-insert an element at a specific position
+###### insert an element at a specific position
+
 somelincoll.insert(elem, index)|JS
 
-Fill the thing with the specified element
+###### Fill the thing with the specified element
+
 somelincol.fill(element[, start[, range]])|JS|Ruby
 In Ruby, fill also may take a block to calculate the element to fill it.
 [element; length]|Rust (Arrays)
@@ -12084,6 +12224,7 @@ stringOrArray.concat(stringsOrArrays)|JS|Ruby
 
 An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
+
 ###### depth
 
 no indices (one value only)|zero-dimensional array (uncommon)|scalar
@@ -12091,47 +12232,55 @@ one index|(one-dimensional) array|vector
 two indices|two-dimensional array|matrix
 n indices|multidimensional array|tensor
 
-###### types & names
+###### types, names, literals
 
-Arrays may be dynamic = have variable size, or static = have fixed size.
-Dynamic arrays are sometimes called arraylists.
+####### primitiveness
+
 Arrays are generally primitives in different programming languages, though they differ on syntax and what they call them.
 
-dynamic arrays (one type only)
+####### possibilities
+
+Arrays may be dynamic = have variable size, or static = have fixed size.
+Some languages have mutable static arrays, some languages have immutable static arrays, and some languages have both.
+Some languages allow only one type in an array, and some languages allow multiple types in an array.
+In static arrays, the compiler therefore knows the type of each index
+Dynamic arrays are sometimes called arraylists.
+
+####### names
+
+######## dynamic arrays (one type only*)
 
 Vec<T>|rust
 ArrayList<T>|Java
 List(yes, really)<T>|C#
 
-dynamic arrays (of whatever types)
+Rust Vectors, Java ArrayLists and C# Lists are Objects/Structs and defined over a generic
+Different types in the dynamic arrays defined over a generic may be possible via parametric polymorphism.
+
+######## dynamic arrays (of whatever types)
 
 list|python
 array|perl|JS|ruby
+table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
-Rust Vectors, Java ArrayLists and C# Lists are Objects/Structs and defined over a generic
-
-static arrays (one type only)
+######## static arrays (one type only)
 
 array|C#|Java|Rust
 
-static arrays (of different types), the compiler therefore knows the type of each index
+######## static arrays (of different types)
 
 tuple|rust|TS
 
-immutable static array (of whatever types)
+######## immutable static array (of whatever types)
 
 sequence|yaml
 array|liquid|TOML
 tuple|Python
 list|SASS/SCSS 
 
-table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
+####### Array literals
 
-for rust, to have things of different types in a vector, one would have to use something like enum or box.
-
-###### Array literals
-
-In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
+######## delimiter
 
 dynamic (of whatever types)
 ()|Perl (same as assoc. arr)|Shell
@@ -12152,7 +12301,16 @@ immutable static array (of whatever types)
 ()|SASS/Scss|Python (Though in python in reality it is the comma that creates a tuple. the parentheses are just often needed for grouping)
 []|TOML|YAML (if inline)
 
+######## separator
+
+In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
+
+######## nested
+
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
+
+######## type annotation
+
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type&lt;delimiter&gt;,,&lt;delimiter&gt; (and for the constructor type&lt;delimiter&gt;length,length,length&lt;delimiter&gt;). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
 YAML also has indentation delimited, newline separated, individual items marked by `- ` version
@@ -15864,9 +16022,10 @@ separation of mechanism and policy.
 
 ### methods
 
+#### self-documenting code
+
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying is/does.
-
 
 #### Comments
 
@@ -15875,7 +16034,14 @@ But: Conditional comments are conditional statements interpreted by Microsoft In
 Comments are written primarily for humans
 Generally, single line comments go to the end of the line
 
-Single line:
+##### comment syntaxes
+
+###### single line 
+
+While comment syntaxes diverge, most commonly single line comments are begun by `#`.
+
+####### that are not the default `#`
+
 --|lua
 //|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
 \#|cron|gitignore|hosts|i3 config|Markdown|m3u|Perl|Python|Regex (freespacing mode)|Ruby|sh|TOML|YAML
@@ -15883,12 +16049,15 @@ Single line:
 (?#foo)|Regex
 (* foo *)|ENBF
 
-Multiline:
+###### multi-line
+
 --\[\[foo]]|lua
 /\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
 &lt;!-- foo -->|HTML
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
+
+##### peculiarities
 
 Besides comments, fountain has the notion of a note, delimited [[foo]]
 
