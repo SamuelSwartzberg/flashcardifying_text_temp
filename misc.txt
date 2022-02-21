@@ -184,7 +184,7 @@ Examples of ⟮c+;anti-rivalrous good⟯s include ⟮c+;FOSS software, social me
 We may want to define ⟮c+;a scale⟯ ⟮c+;from rival(rous) through non-rival(rous) to anti-rival(rous⟯).
 
 A ⟮c+;network effect⟯ is when ⟮c+;the value of a good/service increases with the amount of users⟯. Examples: ⟮c+;Social networks, the phone or the internet⟯.
-The precise value of a ⟮c+;network effect⟯ is often stated in terms of ⟮c+;Metcalfe's law⟯: ⟮c+;value of network⟯ = ⟮c+;(amount of users)<sup>2</sup>⟯. This law has since recieved some ⟮c+;empirical validation⟯ for e.g. ⟮c+;facebook, bitcoin⟯
+The precise value of a ⟮c+;network effect⟯ is often stated in terms of ⟮c+;Metcalfe's law⟯: ⟮c+;value of network⟯ = ⟮c+;(amount of users)⎴2⎴⟯. This law has since recieved some ⟮c+;empirical validation⟯ for e.g. ⟮c+;facebook, bitcoin⟯
 
 ##### goods with properties
 
@@ -4229,7 +4229,7 @@ Shell Number|Shell Letter
 etc...|etc...
 
 The ⟮c+;closer the shell to the nucleus⟯, the ⟮c+; smaller its number / earlier to the alphabet its letter⟯
-§§the ⟮c+;nth⟯ ⟮c+;shell⟯ can in principle hold up to ⟮c+;2(n<sup>2</sup>⟯) electrons.§<br><br>
+§§the ⟮c+;nth⟯ ⟮c+;shell⟯ can in principle hold up to ⟮c+;2(n⎴2⎴⟯) electrons.§<br><br>
 Shell|Can hold this many electrons
 ⟮c+;1 / K⟯|⟮c+;2⟯
 ⟮c+;2 / L⟯|⟮c+;8 (2 + 6)⟯

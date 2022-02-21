@@ -2749,7 +2749,7 @@ When, e.g. due to ⟮c+;justification⟯, there are ⟮c+;gaps of white space⟯
 A note is a string placed in a different place than the place it belongs to.
 notes most commonly include citation information or comments of some kind
 In a wider sense, a note consists of the note proper plus a pair of symbols/strings indicating whence the note, one for the location and one for the note.
-In english, it is common to indicate notes with supercripted numerals as <sup>n</sup> or <sup>[n]</sup>.
+In english, it is common to indicate notes with supercripted numerals as ⎴n⎴ or ⎴[n]⎴.
 The indication of a note goes after any punctuation mark.
 Notes proper are generally gathered in a section just for notes.
 There are generally two kind of notes, footnotes and endnotes, depending in which section they are put.

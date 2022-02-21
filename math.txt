@@ -1082,23 +1082,23 @@ metric/decimal prefixes refer to increases of 1000, even when used on bits or by
 b|bit
 B|byte
 
-prefix|10<sup>?</sup>
-⟮c+;femto⟯|⟮c+;10<sup>−15</sup> = 0.000000000000001⟯
-⟮c+;pico⟯|⟮c+;10<sup>−12</sup> = 0.000000000001⟯
-⟮c+;nano⟯|⟮c+;10<sup>−9</sup> = 0.000000001⟯
-⟮c+;micro⟯|⟮c+;10<sup>−6</sup> = 0.000001⟯
-⟮c+;milli⟯|⟮c+;10<sup>−3</sup> = 0.001⟯
-⟮c+;centi⟯|⟮c+;10<sup>−2</sup> = 0.01⟯
-⟮c+;deci⟯|⟮c+;10<sup>−1</sup> = 0.1⟯
+prefix|10⎴?⎴
+⟮c+;femto⟯|⟮c+;10⎴−15⎴ = 0.000000000000001⟯
+⟮c+;pico⟯|⟮c+;10⎴−12⎴ = 0.000000000001⟯
+⟮c+;nano⟯|⟮c+;10⎴−9⎴ = 0.000000001⟯
+⟮c+;micro⟯|⟮c+;10⎴−6⎴ = 0.000001⟯
+⟮c+;milli⟯|⟮c+;10⎴−3⎴ = 0.001⟯
+⟮c+;centi⟯|⟮c+;10⎴−2⎴ = 0.01⟯
+⟮c+;deci⟯|⟮c+;10⎴−1⎴ = 0.1⟯
 ø|1^0 = 1
-⟮c+;deca⟯|⟮c+;10<sup>1</sup> = 10⟯
-⟮c+;hecto⟯|⟮c+;10<sup>2</sup> = 100⟯
-⟮c+;kilo⟯|⟮c+;10<sup>3</sup> = 1000⟯
-⟮c+;mega⟯|⟮c+;10<sup>6</sup> = 1000000⟯
-⟮c+;giga⟯|⟮c+;10<sup>9</sup> = 1000000000⟯
-⟮c+;tera⟯|⟮c+;10<sup>12</sup> = 1000000000000⟯
-⟮c+;peta⟯|⟮c+;10<sup>15</sup> = 1000000000000000⟯
-⟮c+;exa⟯|⟮c+;10<sup>18</sup> = 1000000000000000000⟯
+⟮c+;deca⟯|⟮c+;10⎴1⎴ = 10⟯
+⟮c+;hecto⟯|⟮c+;10⎴2⎴ = 100⟯
+⟮c+;kilo⟯|⟮c+;10⎴3⎴ = 1000⟯
+⟮c+;mega⟯|⟮c+;10⎴6⎴ = 1000000⟯
+⟮c+;giga⟯|⟮c+;10⎴9⎴ = 1000000000⟯
+⟮c+;tera⟯|⟮c+;10⎴12⎴ = 1000000000000⟯
+⟮c+;peta⟯|⟮c+;10⎴15⎴ = 1000000000000000⟯
+⟮c+;exa⟯|⟮c+;10⎴18⎴ = 1000000000000000000⟯
 
 
 #### actual units

@@ -15561,7 +15561,7 @@ Computational complexity/Big O notation only indicates orders of magnitude.
 O(1)   constant complexity/time|Accessing an element in an array
 O(n)   linear complexity/time|Iteratering over a one-dimensional array
 O(log n)   logarithmic time
-O(n<sup>2</sup>)   quadratic time
+O(n⎴2⎴)   quadratic time
 
 ### static program analysis
 
