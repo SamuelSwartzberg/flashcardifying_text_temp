@@ -952,11 +952,11 @@ Clitics are bound morphemes that acts like a word in certain syntactic propertie
 The thing that a clitic attaches to is its host.
 When something is being attached as a clitic, it is ⟮c+;cliticising⟯
 ```lang=text;
-It<mark>'s</mark> a boy!
-I<mark>'m</mark> terribly sorry.
->The queen<mark>'s</mark> balls.
-I haven<mark>'t</mark> the faintest.
-Senatus Populus<mark>que</mark> Romanus
+It☞'s☜ a boy!
+I☞'m☜ terribly sorry.
+>The queen☞'s☜ balls.
+I haven☞'t☜ the faintest.
+Senatus Populus☞que☜ Romanus
 ``` 
 Enclitic   A clitic that appears after its host
 Mesoclitic   A clitic that appears between the stem of the host and other affixes
@@ -1424,10 +1424,10 @@ paragoge is epenthesis at the end of the word.
 
 Metathesis is the transposition/switcharoo of sounds or syllables in a word or sentence:
 
-fo<mark>li</mark>age -> **fo<mark>il</mark>age
-ane<mark>mone</mark> -> ane<mark>nome</mark>
+fo☞li☜age -> **fo☞il☜age
+ane☞mone☜ -> ane☞nome☜
 Methathesis of non-adjcancent sounds is sometimes known as hyperthesis/long-distance metathesis
-pa<mark>r</mark>abo<mark>l</mark>a (latin) -> pa<mark>l</mark>ab<mark>r</mark>a
+pa☞r☜abo☞l☜a (latin) -> pa☞l☜ab☞r☜a
 
 ####### Lenition/Fortition
 
@@ -2411,11 +2411,11 @@ Deixis is generally more commonly used in linguistics, and indexicality in philo
 
 Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
 
-<code>Would <mark>you</mark> like to have dinner?</code>|personal deixis
-<code>She was sitting over <mark>there</mark>.</code>|spatial deixis
-<code>It is raining <mark>now</mark>.</code>|temporal deixis
-<code>I enjoy living in <mark>this</mark> city.</code>|spatial deixis
-<code><mark>I</mark> am going to the movies.</code>|personal deixis
+<code>Would ☞you☜ like to have dinner?</code>|personal deixis
+<code>She was sitting over ☞there☜.</code>|spatial deixis
+<code>It is raining ☞now☜.</code>|temporal deixis
+<code>I enjoy living in ☞this☜ city.</code>|spatial deixis
+<code>☞I☜ am going to the movies.</code>|personal deixis
 
 ####### spatial deixis
 
