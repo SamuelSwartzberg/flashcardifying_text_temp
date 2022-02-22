@@ -4528,9 +4528,9 @@ In certain places, e.g. HTML/CSS, hex colors ⟮with reduplicated digits only (e
 
 ⟮CMY⟯ and ⟮RGB⟯ are ⟮complementary⟯ in such a way that ⟮C+R⟯, ⟮M+G⟯, and ⟮Y+B⟯ are ⟮all 100% (255 with an 8 bit color depth⟯). To ⟮get one channel⟯, ⟮the other is subtracted from 100%⟯. 
 To get ⟮the K channel⟯ from ⟮CMY⟯: K = ⟮min(C, M, Y⟯) 
-After ⟮getting the K channel⟯, to ⟮convert CMY to CMYK⟯: ⟮Channel_new⟯ =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">⟮Channel - K⟯</div><div>⟮1 - K⟯</div></div> 
+After ⟮getting the K channel⟯, to ⟮convert CMY to CMYK⟯: ⟮Channel_new⟯ = ⟮Channel - K⟯/⟮1 - K⟯
 
-⟮Hue⟯ is what we might call ⟮<i>color</i>⟯&nbsp;color. 
+⟮Hue⟯ is what we might call ⟮＊color＊⟯&nbsp;color. 
 ⟮Hue⟯ is what ⟮most languages⟯ ⟮consider primary⟯ about ⟮color⟯, with ⟮other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮attached later⟯. 
 ⟮Hue⟯ is often ⟮generated from⟯ ⟮RGB⟯, e.g. for ⟮c+;use in HSL &amp; HSV/HSB⟯. 
 If ⟮Hue⟯ is ⟮generated⟯ from ⟮RGB⟯ for ⟮HSL/HSV⟯, it is specified in ⟮a degree from 0 to 360 deg⟯ 

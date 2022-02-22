@@ -16,55 +16,8 @@ structuralism had its heyday in ⟮the 1950s and 1960s⟯ in ⟮France⟯ (but i
 
 The sign consists of a signfier and a signified.
 
-<div class="sandbox">
-<div class="sign">
-  <div class="sign__sign">  ⟮sign⟯  </div>
-  <div class="sign__bubble">
-    <div>⟮signified⟯</div>
-    <div>⟮signifier⟯</div>
-  </div>
-</div>
-  
-<style>
-  .sign {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-    max-width: 15em;
-    margin: 0 auto;
-    height: 10em;
-    background-color: white;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 1em 2em;
-    border: 0.1em solid black;
-    color: black;
-    font-family: sans-serif;
-  }
-  .sign__sign {
-    flex: 1 1 20%;
-  }
-  .sign__bubble {
-    flex: 1 1 70%;
-    display: flex;
-    flex-flow: column nowrap;
-    border-radius: 50%;
-    border: 0.1em solid black;
-    width: 10em;
-  }
-  .sign__bubble > * {
-    flex: 1 1 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .sign__bubble > *:first-child {
-    border-bottom: 0.1em solid black;
-  }
-</style>
-</div>
 
-flex-container:✫sm_planes_of_sound__thought.gif✫
+flex-container:✫sm_planes_of_sound__thought.gif✫✫https://miro.medium.com/max/520/1*YI30OcZeMkEqy_aguUZbug.png✫
 
 In ⟮structuralism⟯, ⟮signs, signifiers and signfieds⟯ ⟮are defined/gain their meaning⟯ by ⟮their relations to each other⟯, specifically, each ⟮sign/signfier/signified⟯ is ⟮defined/gains its meaning⟯ by ⟮not being/contrasting with⟯ ⟮any other⟯ ⟮sign/signifier/signified⟯. 
 Since ⟮each sign/signfier/signified is defined/gains its meaning by not being/contrasting with any other sign/signifier/signified⟯, we can say that ⟮structuralism⟯ defines meaning negatively. 
@@ -130,7 +83,7 @@ A grammaticality judgement is a judgement on the gramatticality of a string by a
 grammaticality judgements are often used as linguistic evidence, generative grammar also aims to predict them.
 * marks a thing that is ungrammatical.
 In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
-An empty category = something unpronounced is often indicated by ø or <i>e</i>
+An empty category = something unpronounced is often indicated by ø or ＊e＊
 In linguistics, a string is a sequence of words/sounds that we don't want to put any deeper analytical category on just yet.
 
 #### syntax
@@ -306,7 +259,7 @@ class=inner;⟮DP⟯|span=3;class=inner;⟮I′⟯
 class=inner;|class=inner;⟮I⟯|span=3;class=inner;⟮VP⟯
     <tr><td class="inner" colspan="2">|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
     <tr><td class="inner" colspan="3">|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
-someone<sub><i>i</i></sub>|is|t<sub><i>i</i></sub>|following|us
+someone<sub>＊i＊</sub>|is|t<sub>＊i＊</sub>|following|us
 
 <style>td{width: 4ch}</style>
 
@@ -1213,10 +1166,9 @@ Types of determiners: Articles, Demonstrative determiners, Quantifiers, distribu
 
 Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
-    <tr><th colspan="2">⟮DP⟯
+table:span=2;⟮DP⟯
 ⟮Q/D⟯|⟮DP⟯
-
-<span>all</span>|<span>the students</span>
+all|the students
 
 Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
 According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
@@ -1268,7 +1220,7 @@ Personal pronouns are pronouns that are associated primarily with a particular g
 #### copula (and existential verbs)
 
 A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
-The tree **is** blue.
+The tree ☞is☜ blue.
 Depending on the language, a copula may or may not be a verb.
 An existential verb indicates the existence of something.
 In some languages the copula and the main existential verb are the same, of those I speak, only english: to be (The chair is green, there is a god)
@@ -1893,128 +1845,58 @@ Since a dipthong changes from one vowel to another, it may also be called a glid
 
 ######## IPA chart
 
-<table class="blank-canvas">
-
-</th>
-<th scope="col">⟮c+;s1:10;Front⟯
-</th>
-<th scope="col">⟮c+;s1:10;Central⟯
-</th>
-<th scope="col">⟮c+;s1:10;Back⟯
+⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
 
 <tr>
 <th scope="row">⟮c+;s1:10;Close⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1:10;i⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-26px, 8px); -webkit-transform: translate(-26px, 8px); transform: translate(-26px, 8px);"><span>⟮c+;s∞;us1:10;y⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1:10;ɨ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-6px, 8px); -webkit-transform: translate(-6px, 8px); transform: translate(-6px, 8px);"><span>⟮c+;s∞;us1:10;ʉ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1:10;ɯ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 8px); -webkit-transform: translate(13px, 8px); transform: translate(13px, 8px);"><span>⟮c+;s∞;us1:10;u⟯</span></div></div>
+<td>
+⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯
+|<span>⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯
+|<span>⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-close⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1:10;ɪ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(30px, 6px); -webkit-transform: translate(30px, 6px); transform: translate(30px, 6px);"><span>⟮c+;s∞;us1:10;ʏ⟯</span></div></div>
+<td><span>⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯
 |
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(-22px, 6px); -webkit-transform: translate(-22px, 6px); transform: translate(-22px, 6px);"><span>⟮c+;s∞;us1:10;ʊ⟯</span></div></div>
+|</div>
+•</div>⟮c+;s∞;us1:10;ʊ⟯
 
 <tr>
 <th scope="row">⟮c+;s1:10;Close-mid⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1:10;e⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(14px, 4px); -webkit-transform: translate(14px, 4px); transform: translate(14px, 4px);"><span>⟮c+;s∞;us1:10;ø⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1:10;ɘ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(12px, 4px); -webkit-transform: translate(12px, 4px); transform: translate(12px, 4px);"><span>⟮c+;s∞;us1:10;ɵ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1:10;ɤ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 4px); -webkit-transform: translate(13px, 4px); transform: translate(13px, 4px);"><span>⟮c+;s∞;us1:10;o⟯</span></div></div>
+<td><span>⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯
+|<span>⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯
+|<span>⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Mid⟯
 </th>
 <td>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(25px, 2px); -webkit-transform: translate(25px, 2px); transform: translate(25px, 2px);">⟮c+;s∞;us1:10;ə⟯</div></div>
+|⟮c+;s∞;us1:10;ə⟯</div></div>
 |
 
 <tr>
 <th scope="row">⟮c+;s1:10;Open-mid⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1:10;ɛ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(59px, 0px); -webkit-transform: translate(59px, 0px); transform: translate(59px, 0px);"><span>⟮c+;s∞;us1:10;œ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1:10;ɜ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(34px, 0px); -webkit-transform: translate(34px, 0px); transform: translate(34px, 0px);"><span>⟮c+;s∞;us1:10;ɞ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1:10;ʌ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, 0px); -webkit-transform: translate(13px, 0px); transform: translate(13px, 0px);"><span>⟮c+;s∞;us1:10;ɔ⟯</span></div></div>
+<td><span>⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯
+|<span>⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯
+|<span>⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-open⟯
 </th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"><span>⟮c+;s∞;us1:10;æ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(80px, -2px); -webkit-transform: translate(80px, -2px); transform: translate(80px, -2px);"></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-single" style="-ms-transform: translate(46px, -2px); -webkit-transform: translate(46px, -2px); transform: translate(46px, -2px);">⟮c+;s∞;us1:10;ɐ⟯</div></div>
+<td><span>⟮c+;s∞;us1:10;æ⟯•
+</div></div>
+|⟮c+;s∞;us1:10;ɐ⟯</div></div>
 |
 
 <tr>
 <th scope="row">⟮c+;s1:10;Open⟯</th>
-<td><div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1:10;a⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(102px, -4px); -webkit-transform: translate(102px, -4px); transform: translate(102px, -4px);"><span>⟮c+;s∞;us1:10;ɶ⟯</span></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"><span>⟮c+;s∞;us1:10;ä⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(57px, -4px); -webkit-transform: translate(57px, -4px); transform: translate(57px, -4px);"></div></div>
-|<div class="IPA-vowels-container"><div class="IPA-vowels-container-left" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1:10;ɑ⟯</span></div>
-<div class="IPA-vowels-container-dot" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);">•</div>
-<div class="IPA-vowels-container-right" style="-ms-transform: translate(13px, -4px); -webkit-transform: translate(13px, -4px); transform: translate(13px, -4px);"><span>⟮c+;s∞;us1:10;ɒ⟯</span></div></div>
+<td><span>⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯
+|<span>⟮c+;s∞;us1:10;ä⟯•
+</div></div>
+|<span>⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
 </td></tr></tbody></table>
-<style>
-.IPA-vowels-container-left {
-    display: inline-block;
-}
-
-.IPA-vowels-container-dot {
-    display: inline-block;
-}
-
-.IPA-vowels-container-right {
-    display: inline-block;
-}
-  table {
-        
-    background-color: #fff8;
-    --font-size-retrievable: 16px;
-    transform: scale(1.2);
-}
-  table::after{
-     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    content: "";
-    background-image: url(320px-Blank_vowel_trapezoid.svg.png);
-        background-repeat: no-repeat;
-    background-size: 390px;
-    transform: scaleX(0.97);
-    background-position: bottom right;
-    opacity: 0.1;
-  }
-td {
-    width: 7.6em;
-    text-shadow: 0 0 10px white;
-    padding: 0 !important;
-  } td > div {  }</style>
 
 Openness|Backness|Roundedness|IPA Symbol
 ⟮Close ⟯|⟮Back⟯|⟮Rounded⟯|⟮u⟯
@@ -2221,7 +2103,7 @@ In English, proper nouns are capitalized.
 
 ### metaphor
 
-[⟮metaphor (wide sense⟯) [⟮metaphor (narrow sense⟯)</span></div>[⟮simile⟯</span></div></div>
+[⟮metaphor (wide sense⟯) [⟮metaphor (narrow sense⟯)</span></div>[⟮simile⟯
 ⟮Metaphor (in the wide sense⟯) is about ⟮putting a thing in the terms/concepts/world of another⟯, which is ⟮(relevantly) not the same⟯, and thus ⟮invoking a comparison⟯. 
 A ⟮simile⟯ is ⟮a subtype of⟯ ⟮metaphor in the wide sense⟯, with the added stipulation that ⟮the 'putting in the terms of another'⟯ is done by ⟮words such as like, as, etc.⟯ 
 ⟮A metaphor in the narrow sense⟯ is ⟮a metaphor in the wide sense⟯ with the restriction that ⟮it does not use comparative words⟯, but instead ⟮directly refers to one thing in terms of another⟯ 
@@ -2258,7 +2140,7 @@ THEME|undergoes action, does not change state
 
 A hyponym is a more specific term than its hypernym.
 A hypernym ⊃ a hyponym 
-[⟮hypernym⟯ [⟮c;hyponym⟯</span></div></div>
+[⟮hypernym⟯ [⟮c;hyponym⟯
 “Musical instrument” is a ⟮hyper(o)nym⟯ of “guitar” because a guitar is a musical instrument.
 A hyponym that is the same word as its hypernym is ⟮An autohyponym⟯
 A hypernym meant to be a hypernym for a specific set of terms|a cover term
@@ -3779,7 +3661,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ⟮仮名⟯ as a word is a compound of ⟮　仮（かり）⟯ '⟮temporary, tentative, provisional⟯' + ⟮　名（な）⟯ '⟮name⟯', which got ⟮reduced to かんな⟯ and then ⟮just to かな⟯. 
 In contrast, ⟮真名⟯ '⟮true name⟯' means ⟮漢字⟯, esp. ⟮when they are used for their meaning (i.e. not 万葉仮名 or 当て字).⟯ 
 
-[⟮仮名⟯ [⟮真名⟯ [⟮真カタカナ⟯</span></div></div></div>
+[⟮仮名⟯ [⟮真名⟯ [⟮真カタカナ⟯</div>
 
 ⟮仮名⟯ systems where ⟮kanji are used to represent 音⟯ are known as ⟮真仮名⟯。 
 ⟮真仮名⟯ are similar to ⟮当て字⟯ today 
