@@ -1,95 +1,95 @@
 Katakana Hiragana Typical IPA reading Exceptions
-⟮c+;ア⟯ ⟮c+;あ⟯ ⟮c+;a⟯
-⟮c+;イ⟯ ⟮c+;い⟯ ⟮c+;i⟯ ⟮c+;イ⟯ ⟮c+;ij⟯ ⟮c+;between two vowels⟯
-⟮c+;ウ⟯ ⟮c+;う⟯ ⟮c+;u͍⟯ ⟮c+;ウ⟯ ⟮c+;w͍⟯ ⟮c+;sometimes after vowel in preceding word⟯ ⟮c+;う (after o⟯) ⟮c+;o⟯
-⟮c+;エ⟯⟮c+;え⟯  ⟮c+;e⟯
-⟮c+;オ⟯ ⟮c+;お⟯ ⟮c+;o⟯
-⟮c+;カ⟯ ⟮c+;か⟯ ⟮c+;ka⟯
-⟮c+;ガ⟯ ⟮c+;が⟯ ⟮c+;ga⟯
-⟮c+;キ⟯ ⟮c+;き⟯ ⟮c+;ki⟯ ⟮c+;キ⟯ ⟮c+;kʲi⟯
-⟮c+;キュ⟯ ⟮c+;kʲu⟯
-⟮c+;ギ⟯ ⟮c+;gi⟯
-⟮c+;ギャ⟯ ⟮c+;gʲa⟯
-   ⟮c+;きょ⟯ ⟮c+;kʲo⟯
-⟮c+;ク⟯ ⟮c+;く⟯ ⟮c+;ku͍⟯
-⟮c+;ケ⟯ ⟮c+;け⟯ ⟮c+;ke⟯
-⟮c+;コ⟯ ⟮c+;こ⟯ ⟮c+;ko⟯
-⟮c+;ゴ⟯ ⟮c+;go⟯
-⟮c+;サ⟯ ⟮c+;さ⟯ ⟮c+;sa⟯
-⟮c+;シ⟯ ⟮c+;し⟯ ⟮c+;ɕi⟯
-⟮c+;シェ⟯ ⟮c+;ɕe⟯
-⟮c+;シャ⟯ ⟮c+;しゃ⟯ ⟮c+;ɕa⟯
-⟮c+;ジ⟯ ⟮c+;じ⟯ ⟮c+;ʥi⟯
-⟮c+;ジャ⟯ ⟮c+;ʥa⟯
-⟮c+;ジョ⟯ ⟮c+;ʥo⟯
-⟮c+;ス⟯ ⟮c+;す⟯ ⟮c+;su͍⟯ 
-⟮c+;ズ⟯ ⟮c+;zu͍⟯
-⟮c+;セ⟯ ⟮c+;せ⟯ ⟮c+;se⟯
-⟮c+;ソ⟯ ⟮c+;そ⟯ ⟮c+;so⟯
-⟮c+;タ⟯ ⟮c+;た⟯ ⟮c+;ta⟯
-⟮c+;ダ⟯ ⟮c+;da⟯
-⟮c+;チ⟯ ⟮c+;ち⟯ ⟮c+;ʨi⟯
-⟮c+;チュ⟯ ⟮c+;ʨu͍⟯
-⟮c+;ヂ⟯ ⟮c+;ʥi⟯
-⟮c+;ッ⟯ ⟮c+;っ⟯ ⟮c+;reduplication⟯ ⟮c+;before consonant⟯ ⟮c+;ʔ⟯ ⟮c+;at the end of word⟯
-⟮c+;づ⟯ ⟮c:121zu͍⟯
-⟮c+;ツ⟯ ⟮c+;つ⟯ ⟮c+;ʦu͍⟯
-⟮c+;ツァ⟯ ⟮c+;tsa⟯
-⟮c+;ツィ⟯ ⟮c+;tsi⟯
-⟮c+;テ⟯ ⟮c+;て⟯ ⟮c+;te⟯
-⟮c+;ト⟯ ⟮c+;と⟯ ⟮c+;to⟯
-⟮c+;トゥ⟯ ⟮c+;tu͍⟯
-⟮c+;ド⟯ ⟮c+;do⟯
-⟮c+;ナ⟯ ⟮c+;な⟯ ⟮c+;na⟯
-⟮c+;ニ⟯ ⟮c+;に⟯ ⟮c+;nʲi⟯
-⟮c+;ニュ⟯ ⟮c+;nʲu͍⟯
-⟮c+;ヌ⟯ ⟮c+;ぬ⟯ ⟮c+;nu͍⟯
-⟮c+;ネ⟯ ⟮c+;ね⟯ ⟮c+;ne⟯
-⟮c+;ノ⟯ ⟮c+;の⟯ ⟮c+;no⟯
-⟮c+;ハ⟯ ⟮c+;は⟯ ⟮c+;ha⟯ ⟮c+;w͍a⟯ ⟮c+;as topic marking particle⟯
-⟮c+;バ⟯ ⟮c+;ba⟯
-⟮c+;パ⟯ ⟮c+;pa⟯
-⟮c+;ヒ⟯ ⟮c+;ひ⟯ ⟮c+;çi⟯
-⟮c+;ヒュ⟯ ⟮c+;çu͍⟯
-⟮c+;ビ⟯ ⟮c+;bʲi⟯
-⟮c+;ビュ⟯ ⟮c+;bʲu͍⟯
-   ⟮c+;び⟯    
-⟮c+;ピュ⟯ ⟮c+;pʲu͍⟯
-⟮c+;フ⟯ ⟮c+;ふ⟯ ⟮c+;ɸu͍⟯
-⟮c+;フェ⟯ ⟮c+;ɸe⟯
-⟮c+;フォ⟯ ⟮c+;ɸo⟯
-⟮c+;ブ⟯ ⟮c+;bu͍⟯
-⟮c+;プ⟯ ⟮c+;pu͍⟯
-⟮c+;ヘ⟯ ⟮c+;へ⟯ ⟮c+;he⟯ ⟮c+;e⟯ ⟮c+;as direction marking particle⟯
-⟮c+;ペ⟯ ⟮c+;pe⟯
-⟮c+;ホ⟯ ⟮c+;ほ⟯ ⟮c+;ho⟯
-⟮c+;ボ⟯ ⟮c+;ぽ⟯ ⟮c+;bo⟯
-⟮c+;マ⟯ ⟮c+;ま⟯ ⟮c+;ma⟯
-⟮c+;ミ⟯ ⟮c+;み⟯ ⟮c+;mʲi⟯
-⟮c+;ミュ⟯ ⟮c+;mʲu͍⟯
-⟮c+;ム⟯ ⟮c+;む⟯ ⟮c+;mu͍⟯
-⟮c+;メ⟯ ⟮c+;め⟯ ⟮c+;me⟯
-⟮c+;モ⟯ ⟮c+;も⟯ ⟮c+;mo⟯
-⟮c+;ヤ⟯ ⟮c+;や⟯ ⟮c+;ja⟯
-⟮c+;ユ⟯ ⟮c+;ゆ⟯ ⟮c+;ju͍⟯
-⟮c+;ヨ⟯ ⟮c+;よ⟯ ⟮c+;jo⟯
-⟮c+;ラ⟯ ⟮c+;ら⟯ ⟮c+;ɽa⟯
-⟮c+;リ⟯ ⟮c+;り⟯ ⟮c+;ɽʲi⟯
-⟮c+;リュ⟯ ⟮c+;ɽʲu͍⟯
-⟮c+;ル⟯ ⟮c+;る⟯ ⟮c+;ɽu͍⟯
-⟮c+;レ⟯ ⟮c+;れ⟯ ⟮c+;ɽe⟯
-⟮c+;ロ⟯ ⟮c+;ろ⟯ ⟮c+;ɽo⟯
-⟮c+;ワ⟯ ⟮c+;わ⟯ ⟮c+;w͍a⟯
-⟮c+;ヲ⟯ ⟮c+;を⟯ ⟮c+;o⟯
-⟮c+;ン⟯ ⟮c+;ん⟯ n-like 
-⟮c+;ー⟯ ⟮c+;ː⟯
+⟮ア⟯ ⟮あ⟯ ⟮a⟯
+⟮イ⟯ ⟮い⟯ ⟮i⟯ ⟮イ⟯ ⟮ij⟯ ⟮between two vowels⟯
+⟮ウ⟯ ⟮う⟯ ⟮u͍⟯ ⟮ウ⟯ ⟮w͍⟯ ⟮sometimes after vowel in preceding word⟯ ⟮う (after o⟯) ⟮o⟯
+⟮エ⟯⟮え⟯  ⟮e⟯
+⟮オ⟯ ⟮お⟯ ⟮o⟯
+⟮カ⟯ ⟮か⟯ ⟮ka⟯
+⟮ガ⟯ ⟮が⟯ ⟮ga⟯
+⟮キ⟯ ⟮き⟯ ⟮ki⟯ ⟮キ⟯ ⟮kʲi⟯
+⟮キュ⟯ ⟮kʲu⟯
+⟮ギ⟯ ⟮gi⟯
+⟮ギャ⟯ ⟮gʲa⟯
+   ⟮きょ⟯ ⟮kʲo⟯
+⟮ク⟯ ⟮く⟯ ⟮ku͍⟯
+⟮ケ⟯ ⟮け⟯ ⟮ke⟯
+⟮コ⟯ ⟮こ⟯ ⟮ko⟯
+⟮ゴ⟯ ⟮go⟯
+⟮サ⟯ ⟮さ⟯ ⟮sa⟯
+⟮シ⟯ ⟮し⟯ ⟮ɕi⟯
+⟮シェ⟯ ⟮ɕe⟯
+⟮シャ⟯ ⟮しゃ⟯ ⟮ɕa⟯
+⟮ジ⟯ ⟮じ⟯ ⟮ʥi⟯
+⟮ジャ⟯ ⟮ʥa⟯
+⟮ジョ⟯ ⟮ʥo⟯
+⟮ス⟯ ⟮す⟯ ⟮su͍⟯ 
+⟮ズ⟯ ⟮zu͍⟯
+⟮セ⟯ ⟮せ⟯ ⟮se⟯
+⟮ソ⟯ ⟮そ⟯ ⟮so⟯
+⟮タ⟯ ⟮た⟯ ⟮ta⟯
+⟮ダ⟯ ⟮da⟯
+⟮チ⟯ ⟮ち⟯ ⟮ʨi⟯
+⟮チュ⟯ ⟮ʨu͍⟯
+⟮ヂ⟯ ⟮ʥi⟯
+⟮ッ⟯ ⟮っ⟯ ⟮reduplication⟯ ⟮before consonant⟯ ⟮ʔ⟯ ⟮at the end of word⟯
+⟮づ⟯ ⟮c:121zu͍⟯
+⟮ツ⟯ ⟮つ⟯ ⟮ʦu͍⟯
+⟮ツァ⟯ ⟮tsa⟯
+⟮ツィ⟯ ⟮tsi⟯
+⟮テ⟯ ⟮て⟯ ⟮te⟯
+⟮ト⟯ ⟮と⟯ ⟮to⟯
+⟮トゥ⟯ ⟮tu͍⟯
+⟮ド⟯ ⟮do⟯
+⟮ナ⟯ ⟮な⟯ ⟮na⟯
+⟮ニ⟯ ⟮に⟯ ⟮nʲi⟯
+⟮ニュ⟯ ⟮nʲu͍⟯
+⟮ヌ⟯ ⟮ぬ⟯ ⟮nu͍⟯
+⟮ネ⟯ ⟮ね⟯ ⟮ne⟯
+⟮ノ⟯ ⟮の⟯ ⟮no⟯
+⟮ハ⟯ ⟮は⟯ ⟮ha⟯ ⟮w͍a⟯ ⟮as topic marking particle⟯
+⟮バ⟯ ⟮ba⟯
+⟮パ⟯ ⟮pa⟯
+⟮ヒ⟯ ⟮ひ⟯ ⟮çi⟯
+⟮ヒュ⟯ ⟮çu͍⟯
+⟮ビ⟯ ⟮bʲi⟯
+⟮ビュ⟯ ⟮bʲu͍⟯
+   ⟮び⟯    
+⟮ピュ⟯ ⟮pʲu͍⟯
+⟮フ⟯ ⟮ふ⟯ ⟮ɸu͍⟯
+⟮フェ⟯ ⟮ɸe⟯
+⟮フォ⟯ ⟮ɸo⟯
+⟮ブ⟯ ⟮bu͍⟯
+⟮プ⟯ ⟮pu͍⟯
+⟮ヘ⟯ ⟮へ⟯ ⟮he⟯ ⟮e⟯ ⟮as direction marking particle⟯
+⟮ペ⟯ ⟮pe⟯
+⟮ホ⟯ ⟮ほ⟯ ⟮ho⟯
+⟮ボ⟯ ⟮ぽ⟯ ⟮bo⟯
+⟮マ⟯ ⟮ま⟯ ⟮ma⟯
+⟮ミ⟯ ⟮み⟯ ⟮mʲi⟯
+⟮ミュ⟯ ⟮mʲu͍⟯
+⟮ム⟯ ⟮む⟯ ⟮mu͍⟯
+⟮メ⟯ ⟮め⟯ ⟮me⟯
+⟮モ⟯ ⟮も⟯ ⟮mo⟯
+⟮ヤ⟯ ⟮や⟯ ⟮ja⟯
+⟮ユ⟯ ⟮ゆ⟯ ⟮ju͍⟯
+⟮ヨ⟯ ⟮よ⟯ ⟮jo⟯
+⟮ラ⟯ ⟮ら⟯ ⟮ɽa⟯
+⟮リ⟯ ⟮り⟯ ⟮ɽʲi⟯
+⟮リュ⟯ ⟮ɽʲu͍⟯
+⟮ル⟯ ⟮る⟯ ⟮ɽu͍⟯
+⟮レ⟯ ⟮れ⟯ ⟮ɽe⟯
+⟮ロ⟯ ⟮ろ⟯ ⟮ɽo⟯
+⟮ワ⟯ ⟮わ⟯ ⟮w͍a⟯
+⟮ヲ⟯ ⟮を⟯ ⟮o⟯
+⟮ン⟯ ⟮ん⟯ n-like 
+⟮ー⟯ ⟮ː⟯
 
 
 What sound do japanese non-moraic n-syllables produce? (e.g. なねにのぬ）  [n] (exept for ni, which of course procudes [n⎴j⎴i], which is more properly [ɲ̟i])
 
 
-When can you devoice [i] or [u͍] (in japanese)? <span class="divider">-></span> ⟮c+;inbetween two voiceless consonants, and after a voiceless consonant at the end of a word⟯
- ⟮c+;ku̥⟯ ⟮c+;next syllable starts with voiceless consonant, or end of word⟯ ⟮c+;su̥⟯ ⟮c+;next syllable starts with voiceless consonant, or end of word⟯
+When can you devoice [i] or [u͍] (in japanese)? <span class="divider">-></span> ⟮inbetween two voiceless consonants, and after a voiceless consonant at the end of a word⟯
+ ⟮ku̥⟯ ⟮next syllable starts with voiceless consonant, or end of word⟯ ⟮su̥⟯ ⟮next syllable starts with voiceless consonant, or end of word⟯
 If two syllables are devoiceable in a row...  only the first one will devoice.
 
 Instead of using spellings with ヴ, what do words often use?   Spellings with /b/, e.g. バ, ビ, etc.
@@ -114,7 +114,7 @@ Which consonant is not doubled by っ?  /n/
 FF claims that [e]+い doesn't produce [ee] in two mora words, but I'm not sure about that
 
 
-⟮c+;Japanese and spanish⟯ ⟮c+;[o], [e], [i]⟯ ⟮c+;are quite similar⟯
+⟮Japanese and spanish⟯ ⟮[o], [e], [i]⟯ ⟮are quite similar⟯
 
 
 

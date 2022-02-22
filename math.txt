@@ -33,7 +33,7 @@ Majuscule|Minuscule|Name (in en)
 ### greek
 
 For the englishified greek numbers from 11 to 19, deca is suffixed
-For the englishified greek number 11, instead of monodeca, it is ⟮c+;hendeca⟯
+For the englishified greek number 11, instead of monodeca, it is ⟮hendeca⟯
 
 table:arabic|greek|latin
 1|Mon(o)|uni
@@ -178,30 +178,30 @@ nth digit|value
 ###### conversion practice
 
 table:binary|decimal
-⟮c+;0⎵2⎵⟯|⟮c+;0⎵10⎵⟯
-⟮c+;1000⎵2⎵⟯|⟮c+;8⎵10⎵⟯
-⟮c+;1001⎵2⎵⟯|⟮c+;9⎵10⎵⟯
-⟮c+;100⎵2⎵⟯|⟮c+;4⎵10⎵⟯
-⟮c+;1010⎵2⎵⟯|⟮c+;10⎵10⎵⟯
-⟮c+;1011⎵2⎵⟯|⟮c+;11⎵10⎵⟯
-⟮c+;101⎵2⎵⟯|⟮c+;5⎵10⎵⟯
-⟮c+;10⎵2⎵⟯|⟮c+;2⎵10⎵⟯
-⟮c+;1100⎵2⎵⟯|⟮c+;12⎵10⎵⟯
-⟮c+;1101⎵2⎵⟯|⟮c+;13⎵10⎵⟯
-⟮c+;110⎵2⎵⟯|⟮c+;6⎵10⎵⟯
-⟮c+;1110⎵2⎵⟯|⟮c+;14⎵10⎵⟯
-⟮c+;1111⎵2⎵⟯|⟮c+;15⎵10⎵⟯
-⟮c+;111⎵2⎵⟯|⟮c+;7⎵10⎵⟯
-⟮c+;11⎵2⎵⟯|⟮c+;3⎵10⎵⟯
-⟮c+;1⎵2⎵⟯|⟮c+;1⎵10⎵⟯
+⟮0⎵2⎵⟯|⟮0⎵10⎵⟯
+⟮1000⎵2⎵⟯|⟮8⎵10⎵⟯
+⟮1001⎵2⎵⟯|⟮9⎵10⎵⟯
+⟮100⎵2⎵⟯|⟮4⎵10⎵⟯
+⟮1010⎵2⎵⟯|⟮10⎵10⎵⟯
+⟮1011⎵2⎵⟯|⟮11⎵10⎵⟯
+⟮101⎵2⎵⟯|⟮5⎵10⎵⟯
+⟮10⎵2⎵⟯|⟮2⎵10⎵⟯
+⟮1100⎵2⎵⟯|⟮12⎵10⎵⟯
+⟮1101⎵2⎵⟯|⟮13⎵10⎵⟯
+⟮110⎵2⎵⟯|⟮6⎵10⎵⟯
+⟮1110⎵2⎵⟯|⟮14⎵10⎵⟯
+⟮1111⎵2⎵⟯|⟮15⎵10⎵⟯
+⟮111⎵2⎵⟯|⟮7⎵10⎵⟯
+⟮11⎵2⎵⟯|⟮3⎵10⎵⟯
+⟮1⎵2⎵⟯|⟮1⎵10⎵⟯
 
 ###### bits and bytes
 
-⟮c+;a byte⟯ ⟮c+;traditionally⟯ ⟮c+;contains 8 bits⟯, ⟮c+;though there are rare variant definitions⟯. 
-unambiguously, ⟮c+;8 bits⟯ are called ⟮c+;an octet⟯. 
-⟮c+;4 bits⟯ are called ⟮c+;a nibble⟯ (coined ⟮c+;sb;by analogy to byte⟯). 
-a ⟮c+;16⟯-⟮c+;bit⟯ aggregation ⟮(c:1;2⟯ ⟮c+;bytes⟯, ⟮c+;4⟯ ⟮c+;nibbles⟯) may be called a ⟮c+;s3;hexadectet::h...⟯ (short: ⟮c+;s4;hextet::h...⟯ ) 
-a ⟮c+;16⟯-⟮c+;bit⟯ aggregation ⟮(c:5;2⟯ ⟮c+;bytes⟯, ⟮c+;4⟯ ⟮c+;nibbles⟯) may be called a ⟮c+;s7;quad-nibble::q...⟯ (short: ⟮c+;s8;quibble::q...⟯ ) 
+⟮a byte⟯ ⟮traditionally⟯ ⟮contains 8 bits⟯, ⟮though there are rare variant definitions⟯. 
+unambiguously, ⟮8 bits⟯ are called ⟮an octet⟯. 
+⟮4 bits⟯ are called ⟮a nibble⟯ (coined ⟮c+;sb;by analogy to byte⟯). 
+a ⟮16⟯-⟮bit⟯ aggregation ⟮(c:1;2⟯ ⟮bytes⟯, ⟮4⟯ ⟮nibbles⟯) may be called a ⟮c+;s3;hexadectet::h...⟯ (short: ⟮c+;s4;hextet::h...⟯ ) 
+a ⟮16⟯-⟮bit⟯ aggregation ⟮(c:5;2⟯ ⟮bytes⟯, ⟮4⟯ ⟮nibbles⟯) may be called a ⟮c+;s7;quad-nibble::q...⟯ (short: ⟮c+;s8;quibble::q...⟯ ) 
 
 ###### signed numbers
 
@@ -226,14 +226,14 @@ A hex digit is equivalent to 4 binary digits
 ##### dec-hex
 
 Decimal number|Hexadecimal number
-⟮c+;1342⎵10⎵⟯|⟮c+;53E⎵16⎵⟯
-⟮c+;13⎵10⎵⟯|⟮c+;D⎵16⎵⟯
-⟮c+;233⎵10⎵⟯|⟮c+;E9⎵16⎵⟯
+⟮1342⎵10⎵⟯|⟮53E⎵16⎵⟯
+⟮13⎵10⎵⟯|⟮D⎵16⎵⟯
+⟮233⎵10⎵⟯|⟮E9⎵16⎵⟯
 
 Decimal digit|Hexadecimal digit
-⟮c+;decimal 10⟯|⟮c+;hexadecimal A⟯
-⟮c+;decimal 15⟯|⟮c+;hexadecimal F⟯
-⟮c+;decimal 6⟯|⟮c+;hexadecimal 6⟯
+⟮decimal 10⟯|⟮hexadecimal A⟯
+⟮decimal 15⟯|⟮hexadecimal F⟯
+⟮decimal 6⟯|⟮hexadecimal 6⟯
 
 
 
@@ -244,7 +244,7 @@ A number in a positional numeral system will be even if its final digit is even.
 
 
 
-flex-container:<img src="sm_212px-Coordinate_with_Origin.svg.png">
+flex-container:✫sm_212px-Coordinate_with_Origin.svg.png✫
 
 # Geometry
 
@@ -284,15 +284,15 @@ A circular arc is the arc of a circle between a pair of distinct points.
 
 ## Area
 
-Man kann sich die Formel des ⟮c+;Flächeninhalts⟯ eines ⟮c+;Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮c+;indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
-⟮c+;Dreieck⟯|⟮c+;\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯|⟮h∞;<img src="sm_dreieck.gif">⟯
-⟮c+;Kreis⟯|⟮c+;\[A=r^2π\]⟯|⟮h∞;<img src="sm_kreis.gif">⟯
-⟮c+;Parallelogramm⟯|⟮c+;\[A=a*h_a=b*h_b\]⟯|⟮h∞;<img src="sm_para.gif">⟯
-⟮c+;Quadrat⟯|⟮c+;\[A=a^2\]⟯|⟮h∞;<img src="sm_quadrat.gif">⟯
-⟮c+;Rechteck⟯|⟮c+;\[A=a*b\]⟯|⟮h∞;<img src="sm_rechteck.gif">⟯
-⟮c+;Rhombus/Deltoid⟯|⟮c+;\[A=\frac{e*f}{2}\]⟯|⟮h∞;<img src="sm_deltoid.gif">⟯
-⟮c+;Trapez⟯|⟮c+;\[A=\frac{(a+c)*h}{2}\]⟯|⟮h∞;<img src="sm_trapez.gif">⟯
-⟮c+;Kreissektor⟯|⟮c+;\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯|⟮h∞;<img src="sm_sektor.gif">⟯
+Man kann sich die Formel des ⟮Flächeninhalts⟯ eines ⟮Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
+⟮Dreieck⟯|⟮\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯|⟮h∞;✫sm_dreieck.gif✫⟯
+⟮Kreis⟯|⟮\[A=r^2π\]⟯|⟮h∞;✫sm_kreis.gif✫⟯
+⟮Parallelogramm⟯|⟮\[A=a*h_a=b*h_b\]⟯|⟮h∞;✫sm_para.gif✫⟯
+⟮Quadrat⟯|⟮\[A=a^2\]⟯|⟮h∞;✫sm_quadrat.gif✫⟯
+⟮Rechteck⟯|⟮\[A=a*b\]⟯|⟮h∞;✫sm_rechteck.gif✫⟯
+⟮Rhombus/Deltoid⟯|⟮\[A=\frac{e*f}{2}\]⟯|⟮h∞;✫sm_deltoid.gif✫⟯
+⟮Trapez⟯|⟮\[A=\frac{(a+c)*h}{2}\]⟯|⟮h∞;✫sm_trapez.gif✫⟯
+⟮Kreissektor⟯|⟮\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯|⟮h∞;✫sm_sektor.gif✫⟯
 
 
 
@@ -311,7 +311,7 @@ all rational numbers are by definition ocommensurable.
 
 ## factorization
 
-⟮c+;Integer factorization⟯ is the ⟮c+;decomposition⟯ of an ⟮c+;integer⟯ (specifically ⟮c+;composite number⟯) into ⟮c+;a product of smaller integers⟯.
+⟮Integer factorization⟯ is the ⟮decomposition⟯ of an ⟮integer⟯ (specifically ⟮composite number⟯) into ⟮a product of smaller integers⟯.
 a composite number is a natural number that is the product of two smaller natural numers
 any positive integer > 1 is either a composite number or a prime number.
 Prime factorization is a subtype of integer factorization.
@@ -506,26 +506,26 @@ In a venn diagram, instead of placing elements, it instead can be used to indica
 
 #### number sets & blackboard bold
 
-A »⟮c+;number set⟯« is ⟮c+;a set of numbers⟯ with ⟮c+;certain special properties⟯, e.g. ⟮c+;natural, rational, real etc⟯. 
-⟮c+;number sets⟯ are usually written in ⟮c+;bold⟯ or ⟮c+;blackboard bold⟯ letters. 
-⟮c+;number sets⟯ are called ⟮c+;Zahlenbereiche⟯ in German. 
+A »⟮number set⟯« is ⟮a set of numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
+⟮number sets⟯ are usually written in ⟮bold⟯ or ⟮blackboard bold⟯ letters. 
+⟮number sets⟯ are called ⟮Zahlenbereiche⟯ in German. 
 
 
-⟮c+;Blackboard bold⟯ is a style of font that includes ⟮c+;double⟯ ⟮c+;vertical/near-vertical⟯ ⟮c+;lines⟯ 
-⟮c+;𝔸, 𝔹, ℂ⟯ are examples for ⟮c+;Blackboard bold⟯ (letters) 
-⟮c+;Blackboard bold⟯ letters are called ⟮c+;Buchstaben mit Doppelstrich⟯ in German. 
-⟮c+;Blackboard bold⟯ letters are ⟮c+;called that and look like that⟯ because ⟮c+;drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
+⟮Blackboard bold⟯ is a style of font that includes ⟮double⟯ ⟮vertical/near-vertical⟯ ⟮lines⟯ 
+⟮𝔸, 𝔹, ℂ⟯ are examples for ⟮Blackboard bold⟯ (letters) 
+⟮Blackboard bold⟯ letters are called ⟮Buchstaben mit Doppelstrich⟯ in German. 
+⟮Blackboard bold⟯ letters are ⟮called that and look like that⟯ because ⟮drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
 
 
 Symbol|Refers to?
-⟮c+;⁑N⁑/ℕ⟯|⟮c+;Set of all natural numbers⟯
-⟮c+;⁑P⁑/ℙ⟯|⟮c+;Set of all primes⟯
-⟮c+;⁑Q⁑/ℚ⟯|⟮c+;&gt;Set of all rational numbers⟯
-⟮c+;⁑R⁑/ℝ⟯|⟮c+;Set of all real numbers⟯
-⟮c+;⁑Z⁑/ℤ⟯|⟮c+;Set of all integers⟯
+⟮⁑N⁑/ℕ⟯|⟮Set of all natural numbers⟯
+⟮⁑P⁑/ℙ⟯|⟮Set of all primes⟯
+⟮⁑Q⁑/ℚ⟯|⟮c+;&gt;Set of all rational numbers⟯
+⟮⁑R⁑/ℝ⟯|⟮Set of all real numbers⟯
+⟮⁑Z⁑/ℤ⟯|⟮Set of all integers⟯
 
 
-⟮c+;Integers⟯ are known as ⟮c+;ganze Zahlen⟯ in German. 
+⟮Integers⟯ are known as ⟮ganze Zahlen⟯ in German. 
 
 
 onion-box:
@@ -549,138 +549,138 @@ The number of permutations of n distinct objects is n factorial.
 ## graphs
 
 
-flex-container:<img src="sm_220px-6n-graf.svg.png">
+flex-container:✫sm_220px-6n-graf.svg.png✫
 
-⟮c+;Graphs⟯ are studied in ⟮c+;graph theory⟯ 
-A ⟮c+;graph⟯ consists of ⟮c+;a pair⟯. 
-In common language, a ⟮c+;graph⟯ is a structure that contains ⟮c+;a set of objects⟯ and ⟮c+;their relations to each other.⟯ 
-⟮c+;The pair⟯ that ⟮c+;a graph consists⟯ of itself is made up of ⟮c+;a set of⟯ ⟮c+;vertices⟯, and ⟮c+;a set of⟯ ⟮c+;edges⟯. 
-In terms of comp. sci. a ⟮c+;graph⟯ is ⟮c+;an ADT⟯. 
+⟮Graphs⟯ are studied in ⟮graph theory⟯ 
+A ⟮graph⟯ consists of ⟮a pair⟯. 
+In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
+⟮The pair⟯ that ⟮a graph consists⟯ of itself is made up of ⟮a set of⟯ ⟮vertices⟯, and ⟮a set of⟯ ⟮edges⟯. 
+In terms of comp. sci. a ⟮graph⟯ is ⟮an ADT⟯. 
 
-⟮c+;Edges⟯ are described by ⟮c+;a pair of⟯ ⟮c+;vertices⟯ 
-For ⟮c+;an edge {x, y⟯}, ⟮c+;x and y⟯ are ⟮c+;the endpoints⟯. 
-For an ⟮c+;undirected graph⟯, an ⟮c+;edge⟯ is described by ⟮c+;an unordered pair⟯. 
-For an ⟮c+;directed graph⟯, the ⟮c+;edge⟯ is described by ⟮c+;a ordered pair.⟯ 
+⟮Edges⟯ are described by ⟮a pair of⟯ ⟮vertices⟯ 
+For ⟮an edge {x, y⟯}, ⟮x and y⟯ are ⟮the endpoints⟯. 
+For an ⟮undirected graph⟯, an ⟮edge⟯ is described by ⟮an unordered pair⟯. 
+For an ⟮directed graph⟯, the ⟮edge⟯ is described by ⟮a ordered pair.⟯ 
 
-⟮c+;Graphs⟯ may be ⟮c+;directed⟯, that is ⟮c+;an edge has a direction⟯, or ⟮c+;undirected⟯, that is ⟮c+;an edge does not have a direction⟯. 
-⟮c+;Graphs⟯ may be ⟮c+;simple⟯, where ⟮c+;two vertices may only be connected by a single edge⟯, or ⟮sb; ⟮c+;a multigraph⟯, where ⟮c+;two vertices may be connected by multiple edges⟯.⟯ 
-A ⟮c+;weighted⟯ ⟮c+;graph⟯ is a ⟮c+;graph⟯ in which ⟮c+;a number is assigned⟯ to ⟮c+;each edge⟯. 
-⟮c+;Weighted graphs⟯ are relevant for ⟮c+;shortest path problems⟯. 
+⟮Graphs⟯ may be ⟮directed⟯, that is ⟮an edge has a direction⟯, or ⟮undirected⟯, that is ⟮an edge does not have a direction⟯. 
+⟮Graphs⟯ may be ⟮simple⟯, where ⟮two vertices may only be connected by a single edge⟯, or ⟮sb; ⟮a multigraph⟯, where ⟮two vertices may be connected by multiple edges⟯.⟯ 
+A ⟮weighted⟯ ⟮graph⟯ is a ⟮graph⟯ in which ⟮a number is assigned⟯ to ⟮each edge⟯. 
+⟮Weighted graphs⟯ are relevant for ⟮shortest path problems⟯. 
 
-The ⟮c+;degree⟯ of a ⟮c+;vertex⟯ is ⟮c+;the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
-The ⟮c+;maximum/minimum degree⟯ of ⟮c+;a graph⟯ is ⟮c+;the maximum/minimum degree of all its vertices.⟯ 
+The ⟮degree⟯ of a ⟮vertex⟯ is ⟮the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
+The ⟮maximum/minimum degree⟯ of ⟮a graph⟯ is ⟮the maximum/minimum degree of all its vertices.⟯ 
 
-A ⟮c+;regular graph⟯ is a graph where ⟮c+;each vertex⟯ ⟮c+;has the same amount of neighbors⟯. 
-Equivalently, a ⟮c+;regular graph⟯ is one where ⟮c+;each vertex⟯ has ⟮c+;the same⟯ ⟮c+;degree⟯. 
-A ⟮c+;complete graph⟯ is a ⟮c+;regular graph⟯ where ⟮c+;each vertex⟯ is ⟮c+;connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
-Equivalently, a ⟮c+;complete graph⟯ is a graph with a ⟮c+;degree⟯ of ⟮c+;amount of vertices n - 1⟯. 
+A ⟮regular graph⟯ is a graph where ⟮each vertex⟯ ⟮has the same amount of neighbors⟯. 
+Equivalently, a ⟮regular graph⟯ is one where ⟮each vertex⟯ has ⟮the same⟯ ⟮degree⟯. 
+A ⟮complete graph⟯ is a ⟮regular graph⟯ where ⟮each vertex⟯ is ⟮connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
+Equivalently, a ⟮complete graph⟯ is a graph with a ⟮degree⟯ of ⟮amount of vertices n - 1⟯. 
 
-flex-container:⟮h∞;<img src="sm_directed_graph.svg">⟯⟮ha;<img src="sm_multigraph.svg"><img src="sm_weighted_graph.svg">⟯
+flex-container:⟮h∞;✫sm_directed_graph.svg✫⟯⟮ha;✫sm_multigraph.svg✫✫sm_weighted_graph.svg✫⟯
 
 Graph-related thing|alternative names
-⟮c+;edges⟯|⟮c+;links/lines⟯
-⟮c+;vertices⟯|⟮c+;nodes/points⟯
+⟮edges⟯|⟮links/lines⟯
+⟮vertices⟯|⟮nodes/points⟯
 
 
 
-flex-container:<img src="sm_220px-6n-graf.svg.png">
+flex-container:✫sm_220px-6n-graf.svg.png✫
 
 In the image|name
-⟮c+;the thing pictured⟯|⟮c+;a graph⟯
-⟮c+;the lines⟯|⟮c+;edges⟯
-⟮c+;the circles⟯|⟮c+;vertices⟯
-⟮c+;E⟯|⟮c+;The set of edges⟯
-⟮c+;G⟯|⟮c+;the graph⟯
-⟮c+;V⟯|⟮c+;The set of vertices⟯
+⟮the thing pictured⟯|⟮a graph⟯
+⟮the lines⟯|⟮edges⟯
+⟮the circles⟯|⟮vertices⟯
+⟮E⟯|⟮The set of edges⟯
+⟮G⟯|⟮the graph⟯
+⟮V⟯|⟮The set of vertices⟯
 
 
-⟮c+;Graph traversal⟯ is ⟮c+;visiting all vertices once⟯ 
-⟮c+;Trees are a type of graph⟯, therefore ⟮c+;tree traversal⟯ is a type of ⟮c+;graph traversal⟯ 
+⟮Graph traversal⟯ is ⟮visiting all vertices once⟯ 
+⟮Trees are a type of graph⟯, therefore ⟮tree traversal⟯ is a type of ⟮graph traversal⟯ 
 
-A ⟮c+;walk⟯ is ⟮c+;an alternating sequence⟯ of ⟮c+;vertices and edges⟯. 
-A ⟮c+;trail⟯ is ⟮c+;a walk (an alternating sequence of vertices and edges⟯) ⟮c+;with no repeated edges⟯. 
-A ⟮c+;path⟯ is an ⟮c+;open⟯ ⟮c+;trail (an alternating seq of verts and edges w/ no repeated edges⟯) with ⟮c+;no repeated vertices.⟯ 
-⟮c+;Walks⟯ and ⟮c+;trails⟯ (but by definition not ⟮c+;paths⟯) may be ⟮c+;closed⟯ = ⟮c+;the ending vertex is the same vertex as the starting vertex⟯ or ⟮c+;open⟯ = ⟮c+;the opposite⟯. 
-A ⟮c+;circuit⟯ is ⟮c+;a closed trail⟯. 
-A ⟮c+;cycle⟯ is ⟮c+;a circuit (a closed trail⟯) with ⟮c+;no repeated vertex besides the start/end vertex⟯. 
-A ⟮c+;graph⟯ ⟮c+;without cycles⟯ is called ⟮c+;acyclic⟯. 
-The ⟮c+;length⟯ ⟮c+;k⟯ of ⟮c+;walks/trails/paths/circuits/cycles⟯ are counted in ⟮c+;edges⟯. 
+A ⟮walk⟯ is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
+A ⟮trail⟯ is ⟮a walk (an alternating sequence of vertices and edges⟯) ⟮with no repeated edges⟯. 
+A ⟮path⟯ is an ⟮open⟯ ⟮trail (an alternating seq of verts and edges w/ no repeated edges⟯) with ⟮no repeated vertices.⟯ 
+⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be ⟮closed⟯ = ⟮the ending vertex is the same vertex as the starting vertex⟯ or ⟮open⟯ = ⟮the opposite⟯. 
+A ⟮circuit⟯ is ⟮a closed trail⟯. 
+A ⟮cycle⟯ is ⟮a circuit (a closed trail⟯) with ⟮no repeated vertex besides the start/end vertex⟯. 
+A ⟮graph⟯ ⟮without cycles⟯ is called ⟮acyclic⟯. 
+The ⟮length⟯ ⟮k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ are counted in ⟮edges⟯. 
 
-flex-container:⟮h∞;<img src="Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png"><img src="Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png">⟯
+flex-container:⟮h∞;✫Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png✫✫Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png✫⟯
 
-⟮c+;Two vertices⟯ are ⟮c+;connected⟯ if ⟮c+;there is a path between two vertices⟯, else ⟮s110;they are ⟮c+;disconnected⟯.⟯ 
-⟮c+;A graph⟯ is ⟮c+;connected⟯ if ⟮c+;every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
+⟮Two vertices⟯ are ⟮connected⟯ if ⟮there is a path between two vertices⟯, else ⟮s110;they are ⟮disconnected⟯.⟯ 
+⟮A graph⟯ is ⟮connected⟯ if ⟮every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
 
-A ⟮c+;subgraph⟯ is a ⟮c+;graph⟯ made up of ⟮c+;a subset of⟯ ⟮c+;vertices⟯ and ⟮c+;edges⟯ of G. ⟮sb;The ⟮c+;subset of vertices⟯ ⟮c+;must contain⟯ ⟮c+;all endpoints of the edges⟯.⟯ 
-A ⟮c+;subtree⟯ is a ⟮c+;subgraph⟯ of a ⟮c+;tree⟯. 
-A ⟮c+;proper subgraph⟯ is a ⟮c+;subgraph of the graph⟯ that ⟮c+;is not the current graph (and analogously for subtree⟯) 
+A ⟮subgraph⟯ is a ⟮graph⟯ made up of ⟮a subset of⟯ ⟮vertices⟯ and ⟮edges⟯ of G. ⟮sb;The ⟮subset of vertices⟯ ⟮must contain⟯ ⟮all endpoints of the edges⟯.⟯ 
+A ⟮subtree⟯ is a ⟮subgraph⟯ of a ⟮tree⟯. 
+A ⟮proper subgraph⟯ is a ⟮subgraph of the graph⟯ that ⟮is not the current graph (and analogously for subtree⟯) 
 
-⟮c+;Two vertices⟯ are ⟮c+;adjacent⟯ if ⟮c+;they share an edge (an edge exists between them⟯) 
-Equivalently, ⟮c+;two vertices⟯ are ⟮c+;adjacent⟯ if ⟮c+;a path/walk/trail⟯ of ⟮c+;length 1⟯ ⟮c+;exists between them⟯. 
-⟮c+;Two edges⟯ are ⟮c+;adjacent⟯ if ⟮c+;they share a vertex⟯ 
-The ⟮c+;neighborhood⟯ of ⟮c+;a vertex⟯ is t⟮c+;he subgraph⟯ ⟮c+;made up of all adjacent vertices⟯ and ⟮c+;the edges connecting it to those vertices⟯. 
-The ⟮c+;closed neighborhood of v⟯ is ⟮c+;the neighborhood⟯ ⟮c+;⁑not ⁑containing  the vertex v itself⟯ 
-The ⟮c+;open neighborhood of v⟯ is ⟮c+;the neighborhood⟯ ⟮c+;containing the vertex v itself⟯ 
+⟮Two vertices⟯ are ⟮adjacent⟯ if ⟮they share an edge (an edge exists between them⟯) 
+Equivalently, ⟮two vertices⟯ are ⟮adjacent⟯ if ⟮a path/walk/trail⟯ of ⟮length 1⟯ ⟮exists between them⟯. 
+⟮Two edges⟯ are ⟮adjacent⟯ if ⟮they share a vertex⟯ 
+The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all adjacent vertices⟯ and ⟮the edges connecting it to those vertices⟯. 
+The ⟮closed neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
+The ⟮open neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮containing the vertex v itself⟯ 
 
 ### trees
 
 
 
-A ⟮c+;tree⟯ is an ⟮c+;undirected⟯ ⟮c+;connected⟯ ⟮c+;acyclic⟯ ⟮c+;graph⟯. 
-A ⟮c+;rooted tree⟯ is ⟮c+;a tree⟯ where ⟮c+;one vertex has been designated the root⟯. 
+A ⟮tree⟯ is an ⟮undirected⟯ ⟮connected⟯ ⟮acyclic⟯ ⟮graph⟯. 
+A ⟮rooted tree⟯ is ⟮a tree⟯ where ⟮one vertex has been designated the root⟯. 
 
-In comp. sci., a ⟮c+;tree⟯ is ⟮c+;an ADT (or data structure, if implemented⟯) which is ⟮c+;a rooted tree⟯ with ⟮c+;an implied natural direction of downwards from the root⟯. 
-The ⟮c+;root path⟯ is the ⟮c+;path⟯ ⟮c+;from a vertex to the root vertex⟯. 
-The ⟮c+;depth⟯ of ⟮c+;a vertex⟯ in a tree (comp. sci. ADT) is ⟮c+;the length of the root path⟯. 
-Going ⟮c+;towards⟯ ⟮c+;vertices⟯ with ⟮c+;greater depth⟯ is known as ⟮c+;downward⟯, and going ⟮c+;towarrds⟯ ⟮c+;vertices⟯ with ⟮c+;smaller depth⟯ is known as ⟮c+;upwards⟯. 
+In comp. sci., a ⟮tree⟯ is ⟮an ADT (or data structure, if implemented⟯) which is ⟮a rooted tree⟯ with ⟮an implied natural direction of downwards from the root⟯. 
+The ⟮root path⟯ is the ⟮path⟯ ⟮from a vertex to the root vertex⟯. 
+The ⟮depth⟯ of ⟮a vertex⟯ in a tree (comp. sci. ADT) is ⟮the length of the root path⟯. 
+Going ⟮towards⟯ ⟮vertices⟯ with ⟮greater depth⟯ is known as ⟮downward⟯, and going ⟮towarrds⟯ ⟮vertices⟯ with ⟮smaller depth⟯ is known as ⟮upwards⟯. 
 
-A ⟮c+;child⟯ of a vertex in a tree (comp. sci. ADT) is ⟮c+;an adjacent vertex⟯ with ⟮c+;a depth⟯ ⟮c+;of one larger than the current vertex.⟯ 
-In ⟮c+;a tree (comp. sci. ADT⟯) each vertex has ⟮c+;0 - ∞⟯ ⟮c+;child vertices⟯. 
-A vertex ⟮c+;reachable by traversal through child vertices⟯ is ⟮c+;a descendant vertex⟯. 
-⟮c+;A vertex without any child vertices⟯ is called ⟮c+;external⟯/⟮c+;outer⟯/⟮c+;terminal⟯ vertex or ⟮c+;leaf⟯. 
-⟮c+;A vertex with child vertices⟯ is called ⟮c+;branch⟯/⟮c+;internal⟯/⟮c+;inner⟯ vertex. 
-The ⟮c+;parent of a vertex⟯ in a tree (comp. sci. ADT) is ⟮c+;an adjacent vertex⟯ with ⟮c+;a depth⟯ ⟮c+;of one less than the current vertex.⟯ 
-In ⟮c+;a tree (comp. sci. ADT⟯) ⟮c+;each vertex⟯ has ⟮c+;one⟯ ⟮c+;parent vertex⟯. 
-⟮c+;A vertex⟯ ⟮c+;reachable by traversal through parent vertices⟯ is ⟮c+;an ancestor vertex⟯. 
+A ⟮child⟯ of a vertex in a tree (comp. sci. ADT) is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one larger than the current vertex.⟯ 
+In ⟮a tree (comp. sci. ADT⟯) each vertex has ⟮0 - ∞⟯ ⟮child vertices⟯. 
+A vertex ⟮reachable by traversal through child vertices⟯ is ⟮a descendant vertex⟯. 
+⟮A vertex without any child vertices⟯ is called ⟮external⟯/⟮outer⟯/⟮terminal⟯ vertex or ⟮leaf⟯. 
+⟮A vertex with child vertices⟯ is called ⟮branch⟯/⟮internal⟯/⟮inner⟯ vertex. 
+The ⟮parent of a vertex⟯ in a tree (comp. sci. ADT) is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one less than the current vertex.⟯ 
+In ⟮a tree (comp. sci. ADT⟯) ⟮each vertex⟯ has ⟮one⟯ ⟮parent vertex⟯. 
+⟮A vertex⟯ ⟮reachable by traversal through parent vertices⟯ is ⟮an ancestor vertex⟯. 
 
-⟮c+;The height of a vertex⟯ is ⟮c+;the length⟯ of ⟮c+;the longest downward path to a vertex⟯. 
-⟮c+;The height of the root vertex⟯ is ⟮c+;the height of the tree⟯ 
-⟮c+;A forest⟯ is ⟮c+;a set of unconnected trees⟯. 
-⟮c+;The amount of child vertices⟯ in a tree is ⟮c+;the breadth of the tree⟯. 
+⟮The height of a vertex⟯ is ⟮the length⟯ of ⟮the longest downward path to a vertex⟯. 
+⟮The height of the root vertex⟯ is ⟮the height of the tree⟯ 
+⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
+⟮The amount of child vertices⟯ in a tree is ⟮the breadth of the tree⟯. 
 
-A ⟮c+;tree (comp. sci. ADT⟯) ⟮c+;where any vertex has at most two child vertices⟯ is a ⟮c+;binary tree⟯. 
-A tree (comp. sci. ADT) that ⟮c+;can be used for searching⟯ is ⟮c+;a search tree⟯. 
+A ⟮tree (comp. sci. ADT⟯) ⟮where any vertex has at most two child vertices⟯ is a ⟮binary tree⟯. 
+A tree (comp. sci. ADT) that ⟮can be used for searching⟯ is ⟮a search tree⟯. 
 
-⟮c+;Depth-first search⟯ is ⟮c+;a tree traversal algorithm⟯ that ⟮c+;visits⟯ ⟮c+;children vertices⟯ ⟮c+;before⟯ ⟮c+;sibling vertices⟯ 
-⟮c+;Breadth-first search⟯ is ⟮c+;a tree traversal algorithm⟯ that ⟮c+;visits⟯ ⟮c+;sibling vertices⟯ ⟮c+;before⟯ ⟮c+;children vertices⟯ 
-⟮c+;Depth-first search⟯ in the case of ⟮c+;binary trees⟯ is commonly ⟮c+;pre-order⟯, ⟮c+;inorder⟯, or ⟮c+;post-order⟯. 
+⟮Depth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮children vertices⟯ ⟮before⟯ ⟮sibling vertices⟯ 
+⟮Breadth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮sibling vertices⟯ ⟮before⟯ ⟮children vertices⟯ 
+⟮Depth-first search⟯ in the case of ⟮binary trees⟯ is commonly ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
 
 order|pattern
-⟮c+;Pre-order⟯|⟮c+;Node - Left - Right⟯
-⟮c+;Inorder⟯|⟮c+;Left - Node - Right⟯
-⟮c+;Post-order⟯|⟮c+;Left  - Right - Node⟯
+⟮Pre-order⟯|⟮Node - Left - Right⟯
+⟮Inorder⟯|⟮Left - Node - Right⟯
+⟮Post-order⟯|⟮Left  - Right - Node⟯
 
 
 #### binary search trees
 
-A ⟮c+;binary search tree⟯ is ⟮c+;a binary tree⟯ defined by ⟮c+;the properties⟯ of ⟮c+;the keys⟯ of ⟮c+;the vertices⟯ in ⟮c+;the left and right subtrees⟯. 
-In a ⟮c+;binary search tree⟯, ⟮c+;the key in the current vertex⟯ is ⟮c+;larger than⟯ ⟮c+;the key in any vertices in the left subtree⟯. 
-In a ⟮c+;binary search tree⟯, ⟮c+;the key in the current vertex⟯ is ⟮c+;smaller than⟯ ⟮c+;the key in any vertices in the right subtree⟯. 
+A ⟮binary search tree⟯ is ⟮a binary tree⟯ defined by ⟮the properties⟯ of ⟮the keys⟯ of ⟮the vertices⟯ in ⟮the left and right subtrees⟯. 
+In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮larger than⟯ ⟮the key in any vertices in the left subtree⟯. 
+In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮smaller than⟯ ⟮the key in any vertices in the right subtree⟯. 
 
-To ⟮c+;insert a vertex in a binary search tree⟯, we ⟮c+;traverse the tree⟯ as if we were ⟮c+;searching for the vertex⟯, then, ⟮sb;when ⟮c+;we hit a leaf⟯, we ⟮c+;insert it⟯ as ⟮c+;left or right (as the case may be⟯).⟯ 
+To ⟮insert a vertex in a binary search tree⟯, we ⟮traverse the tree⟯ as if we were ⟮searching for the vertex⟯, then, ⟮sb;when ⟮we hit a leaf⟯, we ⟮insert it⟯ as ⟮left or right (as the case may be⟯).⟯ 
 
-In ⟮c+;deleting a vertex⟯ in ⟮c+;a binary search tree⟯, if ⟮c+;the vertex has no children⟯, ⟮c+;simply delete the vertex⟯ 
-In ⟮c+;deleting a vertex⟯ in ⟮c+;a binary search tree⟯, if ⟮c+;the vertex has one child⟯, ⟮c+;set the reference of the parent to that of the child⟯ 
-In deleting ⟮c+;a vertex N⟯ in ⟮c+;a binary search tree⟯, if ⟮c+;the vertex has two children⟯, first take ⟮c+;the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮c+;S's⟯ ⟮c+;value⟯, and ⟮c+;replace⟯ ⟮c+;N's⟯ ⟮c+;value⟯ ⟮c+;with it⟯ and then ⟮c+;delete S⟯ with ⟮c+;the appropriate method for 0/1-child vertices⟯. 
+In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has no children⟯, ⟮simply delete the vertex⟯ 
+In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has one child⟯, ⟮set the reference of the parent to that of the child⟯ 
+In deleting ⟮a vertex N⟯ in ⟮a binary search tree⟯, if ⟮the vertex has two children⟯, first take ⟮the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮S's⟯ ⟮value⟯, and ⟮replace⟯ ⟮N's⟯ ⟮value⟯ ⟮with it⟯ and then ⟮delete S⟯ with ⟮the appropriate method for 0/1-child vertices⟯. 
 
 
 
-flex-container:<img src="sm_bin_search_tree.svg">
+flex-container:✫sm_bin_search_tree.svg✫
 Inserting this number,|where would it go?
-⟮c+;9⟯|⟮c+;left of 10⟯
-⟮c+;5⟯|⟮c+;right of 4⟯
-⟮c+;2⟯|⟮c+;right of 1⟯
-⟮c+;11-12⟯|⟮c+;left of 13⟯
+⟮9⟯|⟮left of 10⟯
+⟮5⟯|⟮right of 4⟯
+⟮2⟯|⟮right of 1⟯
+⟮11-12⟯|⟮left of 13⟯
 
 
 
@@ -778,8 +778,8 @@ the value a function yields for a given element of the domain x is often denoted
 The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
 The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
 The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
-The ⟮c+;value(s)⟯ that ⟮c+;must be provided⟯ to a ⟮c+;function⟯ to ⟮c+;obtain its result⟯ is/are known as ⟮c+;the/an argument(s)⟯
-A mathematical ⟮c+;function⟯ must take ⟮c+;one or more⟯ ⟮c+;arguments⟯
+The ⟮value(s)⟯ that ⟮must be provided⟯ to a ⟮function⟯ to ⟮obtain its result⟯ is/are known as ⟮the/an argument(s)⟯
+A mathematical ⟮function⟯ must take ⟮one or more⟯ ⟮arguments⟯
 
 ### notation
 
@@ -828,15 +828,15 @@ Per definition, any zero x has the property f(x)=0
 
 #### floor and ceil
 
-flex-container:<img src="FloorFunction_1000.gif">:<img src="CeilingFunction_1000.gif">
+flex-container:✫FloorFunction_1000.gif✫:✫CeilingFunction_1000.gif✫
 
 
-In math, the ⟮c+;floor⟯ function of x gives the ⟮c+;largest⟯ ⟮c+;integer⟯ that is ⟮c+;≤ x⟯.
-The floor function is written ⟮c+;⌊x⌋⟯.
-⟮c+;⌊x⌋⟯ is produced in latex by ⟮c+;\lfloor x \rfloor⟯
-In math, the ⟮c+;ceiling⟯ function of x gives the ⟮c+;smallest⟯ ⟮c+;integer⟯ that is ⟮c+;≥ x⟯.
-The ceil function is written ⟮c+;⌈x⌉⟯.
-⟮c+;⌈x⌉⟯ is produced in latex by ⟮c+;\lceil x \rceil⟯
+In math, the ⟮floor⟯ function of x gives the ⟮largest⟯ ⟮integer⟯ that is ⟮≤ x⟯.
+The floor function is written ⟮⌊x⌋⟯.
+⟮⌊x⌋⟯ is produced in latex by ⟮\lfloor x \rfloor⟯
+In math, the ⟮ceiling⟯ function of x gives the ⟮smallest⟯ ⟮integer⟯ that is ⟮≥ x⟯.
+The ceil function is written ⟮⌈x⌉⟯.
+⟮⌈x⌉⟯ is produced in latex by ⟮\lceil x \rceil⟯
 ^https://mathworld.wolfram.com/FloorFunction.html, https://mathworld.wolfram.com/CeilingFunction.html
 
 ## variable
@@ -844,12 +844,12 @@ The ceil function is written ⟮c+;⌈x⌉⟯.
 ### free and bound
 
 A variable may be free or bound.
-a ⟮c+;free variable⟯ is one ⟮c+;on which the value of an expression/statement⟯ ⟮c+;depends/says something about⟯
-a ⟮c+;bound variable⟯ on the other hand is ⟮c+;a convenience to express something⟯, that does not ⟮c+;stand for a particular thing⟯
-often an expression/statement can be ⟮c+;rephrased⟯ to ⟮c+;eliminate bound variables⟯ (though not always).
-in the expression&nbsp;\({\sum _{k=1}^{10}f(k,n),}\) ⟮c+;k is&nbsp; a bound variable⟯ and ⟮c+;n is a free variable⟯
-in the expression&nbsp;\({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) ⟮c+;x is a free variable⟯, ⟮c+;h is a bound variable⟯
-There are a few common ⟮c+;variable-binding⟯ operators, most commonly ⟮c+;sum&nbsp;Σ, product Π, integral&nbsp;∫, limit lim, existential quantifier&nbsp;∃, universal quantifier&nbsp;∀⟯
+a ⟮free variable⟯ is one ⟮on which the value of an expression/statement⟯ ⟮depends/says something about⟯
+a ⟮bound variable⟯ on the other hand is ⟮a convenience to express something⟯, that does not ⟮stand for a particular thing⟯
+often an expression/statement can be ⟮rephrased⟯ to ⟮eliminate bound variables⟯ (though not always).
+in the expression&nbsp;\({\sum _{k=1}^{10}f(k,n),}\) ⟮c+;k is&nbsp; a bound variable⟯ and ⟮n is a free variable⟯
+in the expression&nbsp;\({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) ⟮x is a free variable⟯, ⟮h is a bound variable⟯
+There are a few common ⟮variable-binding⟯ operators, most commonly ⟮c+;sum&nbsp;Σ, product Π, integral&nbsp;∫, limit lim, existential quantifier&nbsp;∃, universal quantifier&nbsp;∀⟯
 
 ### arguments, parameters, coefficients, constants
 
@@ -859,8 +859,8 @@ Often, variable is treated as a synonym for argument (only), but this is incorre
 An argument is a variable that is the input of the function, that if varied produces different outcomes.
 A parameter is a variable that is not provided as an input for the function. Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
 By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
-The ⟮c+;arguments⟯ of a function must ⟮c+;be listed in f(...)⟯, the ⟮c+;parameters⟯ of functions must ⟮c+;under no circumstances be⟯.
-⟮c+;Constant⟯ in math is ambiguous: It may refer to ⟮c+;a well-defined and fixed number (e.g. π)⟯, or ⟮c+;is a synonym for ＿parameter＿⟯
+The ⟮arguments⟯ of a function must ⟮be listed in f(...)⟯, the ⟮parameters⟯ of functions must ⟮under no circumstances be⟯.
+⟮Constant⟯ in math is ambiguous: It may refer to ⟮a well-defined and fixed number (e.g. π)⟯, or ⟮is a synonym for ＿parameter＿⟯
 A coefficient is something (may be a variable or something that isn't a variable, e.g. an expression, a number) that is multiplied with something else (that thing may be 1).
 A constant coefficient is not multiplied with any argument, and may be multiplied with 1.
 
@@ -880,13 +880,13 @@ x|argument(s)
 ## Equation
 
 f+o+o = b+a+r
-An ⟮c+;equation⟯ is a statement that ⟮c+;asserts the equality⟯ of ⟮c+;two expressions⟯
-An ⟮c+;equation⟯ connects its ⟮c+;two⟯ ⟮c+;expressions⟯ via ⟮c+;an equals sign⟯
+An ⟮equation⟯ is a statement that ⟮asserts the equality⟯ of ⟮two expressions⟯
+An ⟮equation⟯ connects its ⟮two⟯ ⟮expressions⟯ via ⟮an equals sign⟯
 
 ## terms and expressions
 
-An ⟮c+;expression⟯ in math is ⟮c+;a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)⟯ including ⟮c+;at least one operator⟯
-a ⟮c+;term⟯ in math is any part of an ⟮c+;expression⟯ that is by itself ⟮c+;well-formed⟯ and ⟮c+;does not contain an operator⟯.
+An ⟮expression⟯ in math is ⟮a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)⟯ including ⟮at least one operator⟯
+a ⟮term⟯ in math is any part of an ⟮expression⟯ that is by itself ⟮well-formed⟯ and ⟮does not contain an operator⟯.
 
 table:headerrows=2;2x+3
 element in function|is what kind of thing
@@ -931,11 +931,11 @@ b^-n = 1/(b^{-1})
 
 #### idempotentitcity
 
-A function/operation/etc. is ⟮c+;idempotent⟯ if ⟮c+;it can be applied mulitple times⟯ without ⟮c+;changing the result⟯ ⟮c+;beyond the initial application⟯. 
-Examples for i⟮c+;dempotent functions⟯ include ⟮c+;abs(x), floor(x), ceil(x) etc.⟯ 
+A function/operation/etc. is ⟮idempotent⟯ if ⟮it can be applied mulitple times⟯ without ⟮changing the result⟯ ⟮beyond the initial application⟯. 
+Examples for i⟮dempotent functions⟯ include ⟮abs(x), floor(x), ceil(x) etc.⟯ 
 
-flex-container:⟮h∞;uh6:7;<img src="sm_256-512.png">⟯⟮h∞;uh6:7;<img src="sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg">⟯
-the ⟮c+;right image⟯'s button is ⟮c+;idempotent⟯, the ⟮c+;left image⟯'s is ⟮c+;not⟯ 
+flex-container:⟮h∞;uh6:7;✫sm_256-512.png✫⟯⟮h∞;uh6:7;✫sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg✫⟯
+the ⟮right image⟯'s button is ⟮idempotent⟯, the ⟮left image⟯'s is ⟮not⟯ 
 
 #### commutative
 
@@ -965,17 +965,17 @@ adicity: monadic, dyadic, triadic, tetradic, pentadic, hexadic...
 there is an adicity for every arity.
 A function with an arity of 1 takes one argument.
 A ternary operator takes 3 operands.
-(arg1, arg2, arg3, arg4)add has an arity of ⟮c+;4⟯
-Something with indefinite arity is called ⟮c+;variadic⟯
+(arg1, arg2, arg3, arg4)add has an arity of ⟮4⟯
+Something with indefinite arity is called ⟮variadic⟯
 
 A n-ary function takes n arguments.
 3+6=9 is a binary operation.
 Arity of...|Name
-⟮c+;0⟯|⟮c+;nullary⟯
-⟮c+;1⟯|⟮c+;unary⟯
-⟮c+;2⟯|⟮c+;binary⟯
-⟮c+;3⟯|⟮c+;ternary⟯
-⟮c+;n⟯|⟮c+;n-ary⟯
+⟮0⟯|⟮nullary⟯
+⟮1⟯|⟮unary⟯
+⟮2⟯|⟮binary⟯
+⟮3⟯|⟮ternary⟯
+⟮n⟯|⟮n-ary⟯
 
 
 #### order
@@ -990,7 +990,7 @@ The description "Polish" refers to the nationality of logician Jan Łukasiewicz,
 
 ## dice
 
-A ⟮c+;natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮c+;roll⟯ that ⟮c+;has a specific number⟯ (most commonly ⟮c+;s4;the highest/lowest of the die⟯ ) ⟮c+;without any modifiers⟯.
+A ⟮natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮roll⟯ that ⟮has a specific number⟯ (most commonly ⟮c+;s4;the highest/lowest of the die⟯ ) ⟮without any modifiers⟯.
 
 ## terminology
 
@@ -1014,7 +1014,7 @@ min    ┏━━━━━┳━━━━━┓    max
 
 All the same: (confound|lurk)(er|ing (variable|factor))
 
-flex-container:<img src="sm_1000px-Simple_Confounding_Case.svg.jpg">
+flex-container:✫sm_1000px-Simple_Confounding_Case.svg.jpg✫
 
 am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
 A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
@@ -1041,9 +1041,9 @@ Q3|75%
 
 ### populations & samples
 
-A ⟮c+;parameter⟯ is a ⟮c+;truth⟯ about ⟮c+;the population⟯ 
-a ⟮c+;statistic⟯ is a ⟮c+;truth⟯ about ⟮c+;a sample⟯ 
-A ⟮c+;statistic⟯ that ⟮c+;is being used to estimate⟯ a ⟮c+;parameter⟯ is called an ⟮c+;estimator⟯. 
+A ⟮parameter⟯ is a ⟮truth⟯ about ⟮the population⟯ 
+a ⟮statistic⟯ is a ⟮truth⟯ about ⟮a sample⟯ 
+A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is called an ⟮estimator⟯. 
 
 ### hypothesis testing
 
@@ -1065,7 +1065,7 @@ pure mathematics: study of mathematical concepts independent from applications
 #### organization
 
 SI is short for International System of Units
-⟮c+;The International System of Units (SI⟯) is the ⟮c+;nearly universally used⟯ ⟮c+;system of measurements⟯. 
+⟮The International System of Units (SI⟯) is the ⟮nearly universally used⟯ ⟮system of measurements⟯. 
 
 
 #### prefixes
@@ -1086,57 +1086,57 @@ b|bit
 B|byte
 
 prefix|10⎴?⎴
-⟮c+;femto⟯|⟮c+;10⎴−15⎴ = 0.000000000000001⟯
-⟮c+;pico⟯|⟮c+;10⎴−12⎴ = 0.000000000001⟯
-⟮c+;nano⟯|⟮c+;10⎴−9⎴ = 0.000000001⟯
-⟮c+;micro⟯|⟮c+;10⎴−6⎴ = 0.000001⟯
-⟮c+;milli⟯|⟮c+;10⎴−3⎴ = 0.001⟯
-⟮c+;centi⟯|⟮c+;10⎴−2⎴ = 0.01⟯
-⟮c+;deci⟯|⟮c+;10⎴−1⎴ = 0.1⟯
+⟮femto⟯|⟮10⎴−15⎴ = 0.000000000000001⟯
+⟮pico⟯|⟮10⎴−12⎴ = 0.000000000001⟯
+⟮nano⟯|⟮10⎴−9⎴ = 0.000000001⟯
+⟮micro⟯|⟮10⎴−6⎴ = 0.000001⟯
+⟮milli⟯|⟮10⎴−3⎴ = 0.001⟯
+⟮centi⟯|⟮10⎴−2⎴ = 0.01⟯
+⟮deci⟯|⟮10⎴−1⎴ = 0.1⟯
 ø|1^0 = 1
-⟮c+;deca⟯|⟮c+;10⎴1⎴ = 10⟯
-⟮c+;hecto⟯|⟮c+;10⎴2⎴ = 100⟯
-⟮c+;kilo⟯|⟮c+;10⎴3⎴ = 1000⟯
-⟮c+;mega⟯|⟮c+;10⎴6⎴ = 1000000⟯
-⟮c+;giga⟯|⟮c+;10⎴9⎴ = 1000000000⟯
-⟮c+;tera⟯|⟮c+;10⎴12⎴ = 1000000000000⟯
-⟮c+;peta⟯|⟮c+;10⎴15⎴ = 1000000000000000⟯
-⟮c+;exa⟯|⟮c+;10⎴18⎴ = 1000000000000000000⟯
+⟮deca⟯|⟮10⎴1⎴ = 10⟯
+⟮hecto⟯|⟮10⎴2⎴ = 100⟯
+⟮kilo⟯|⟮10⎴3⎴ = 1000⟯
+⟮mega⟯|⟮10⎴6⎴ = 1000000⟯
+⟮giga⟯|⟮10⎴9⎴ = 1000000000⟯
+⟮tera⟯|⟮10⎴12⎴ = 1000000000000⟯
+⟮peta⟯|⟮10⎴15⎴ = 1000000000000000⟯
+⟮exa⟯|⟮10⎴18⎴ = 1000000000000000000⟯
 
 
 #### actual units
 
 ##### base units
 
-The ⟮c+;SI⟯ has ⟮c+;7⟯ ⟮c+;base units.⟯ 
-From ⟮c+;the 7 SI base units⟯, ⟮c+;all other SI units can be derived.⟯ 
+The ⟮SI⟯ has ⟮7⟯ ⟮base units.⟯ 
+From ⟮the 7 SI base units⟯, ⟮all other SI units can be derived.⟯ 
 
 ###### 7 SI base units
 
 unit name|unit symbol|measure
-⟮c+;kilogram⟯|⟮c+;kg⟯|⟮c+;mass⟯
-⟮c+;metre⟯|⟮c+;m⟯|⟮c+;length⟯
-⟮c+;second⟯|⟮c+;s⟯|⟮c+;time⟯
+⟮kilogram⟯|⟮kg⟯|⟮mass⟯
+⟮metre⟯|⟮m⟯|⟮length⟯
+⟮second⟯|⟮s⟯|⟮time⟯
 
 
 ### derived from SI/metric units
 
 #### length
 
-The ⟮c+;quart⟯ ⟮(c:3;s1;q⟯) is exactly ⟮c+;1/4 mm⟯. 
+The ⟮quart⟯ ⟮(c:3;s1;q⟯) is exactly ⟮1/4 mm⟯. 
 
 #### temperature
 
-⟮c+;Kelvin⟯ (unit symbol ⟮c+;K⟯)
+⟮Kelvin⟯ (unit symbol ⟮K⟯)
 Temperature (K)|Significance
-⟮c+;0⟯|⟮c+;Absolute zero⟯
+⟮0⟯|⟮Absolute zero⟯
 
-##### ⟮c+;Celsius⟯:
+##### ⟮Celsius⟯:
 
 Temperature (°C)|Significance
-⟮c+;0⟯|⟮c+;water freezes (at 1 atm pressure⟯)
-⟮c+;100⟯|⟮c+;water boils (at 1 atm pressure⟯)
-⟮c+;-273.15⟯|⟮c+;absolute zero⟯
+⟮0⟯|⟮water freezes (at 1 atm pressure⟯)
+⟮100⟯|⟮water boils (at 1 atm pressure⟯)
+⟮-273.15⟯|⟮absolute zero⟯
 
 #### volume
 
@@ -1146,19 +1146,19 @@ tablespoon|tbsp.|15ml
 #### energy
 
 unit name|unit symbol|measure
-⟮c+;joule⟯|⟮c+;J⟯|⟮c+;energy⟯
+⟮joule⟯|⟮J⟯|⟮energy⟯
 
 #### weigth
 
-⟮c+;t⟯|⟮c+;tonne⟯|⟮c+;1000kg⟯
+⟮t⟯|⟮tonne⟯|⟮1000kg⟯
 
 ### non-metric
 
 #### imperial & US customary
 
-The ⟮c+;Units used in the british empire (after 1826)⟯ are known as ⟮c+;Imperial units/system⟯.
-the ⟮c+; Units used in the US ⟯ are known as ⟮c+; United States customary units ⟯.
-However, ⟮c+;imperial units⟯ is often ⟮c+;falsely⟯ used as ⟮c+;a synonym for USC units as well⟯.
+The ⟮Units used in the british empire (after 1826)⟯ are known as ⟮Imperial units/system⟯.
+the ⟮ Units used in the US ⟯ are known as ⟮ United States customary units ⟯.
+However, ⟮imperial units⟯ is often ⟮falsely⟯ used as ⟮a synonym for USC units as well⟯.
 In general, many units are shared between USC and imperial units, but there are also significant differences.
 
 ##### temperature
@@ -1176,8 +1176,8 @@ Temperature (°F)|Significance
 ##### length
 
 Symbol|Unit
-⟮c+;′ (is the prime, not apostrophe⟯)|⟮c+;foot⟯
-⟮c+;″ (is the prime, not apostrophe⟯)|⟮c+;inch⟯
+⟮′ (is the prime, not apostrophe⟯)|⟮foot⟯
+⟮″ (is the prime, not apostrophe⟯)|⟮inch⟯
 
 1 yard|3 feet|36 inches|91.5cm
 0.33 yard|1 foot|12 inches|30.5cm
@@ -1219,8 +1219,8 @@ cup falls out of the nice logic of gallons, quarts, etc., one (us customary) cup
 
 ## pareto principle
 
-flex-container:<img src="320px-Probability_density_function_of_Pareto_distribution.svg.png"><img src="Pareto_principle.png">
+flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.png✫✫Pareto_principle.png✫
 
 
-The ⟮c+;pareto distribution⟯ is a ⟮c+; (family of) probability distributions⟯ that applies to a large set of ⟮c+;natural⟯ and ⟮c+;social⟯ phenomena. 
-A well-known ⟮s1;pareto distribution⟯ with ⟮c+;a specific parameter⟯ reflects the idea that ⟮c+;80% of outcomes are due to 20% of causes⟯, which has become known as ⟮c+;the pareto principle⟯ (Aka ⟮c+;the law of the vital few⟯, ⟮c+;the principle of factor sparsity⟯). 
+The ⟮pareto distribution⟯ is a ⟮ (family of) probability distributions⟯ that applies to a large set of ⟮natural⟯ and ⟮social⟯ phenomena. 
+A well-known ⟮s1;pareto distribution⟯ with ⟮a specific parameter⟯ reflects the idea that ⟮80% of outcomes are due to 20% of causes⟯, which has become known as ⟮the pareto principle⟯ (Aka ⟮the law of the vital few⟯, ⟮the principle of factor sparsity⟯). 

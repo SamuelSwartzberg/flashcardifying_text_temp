@@ -79,19 +79,19 @@ the document prolog has parts (both optional): an XML declaration and a document
 
 #### declaration
 
-the ⟮c+;XML declaration⟯ ⟮c+;contains information about the coming xml document⟯. 
-the ⟮c+;XML declaration⟯ is ⟮c+;optional⟯, ⟮c+;but if it appears⟯, it must appear in ⟮c+;the first line of the document⟯. 
-the ⟮c+;XML declaration⟯ takes ⟮c+;three⟯ possible parameters.
-Of the XML declaration parameters, `⟮c+;version⟯` is ⟮c+;mandatory⟯.
+the ⟮XML declaration⟯ ⟮contains information about the coming xml document⟯. 
+the ⟮XML declaration⟯ is ⟮optional⟯, ⟮but if it appears⟯, it must appear in ⟮the first line of the document⟯. 
+the ⟮XML declaration⟯ takes ⟮three⟯ possible parameters.
+Of the XML declaration parameters, `⟮version⟯` is ⟮mandatory⟯.
 ```
 ‹?xml version="1.0" encoding="UTF-8" standalone="no" ?›
 ```
 
 ##### !XML declaration parameters
 
-table:`⟮c+;version⟯`|⟮c+;The XML version the document is using⟯
-`⟮c+;encoding⟯`|⟮c+;The text encoding this is using, e.g. UTF-8 or Shift_JIS⟯
-`⟮c+;standalone⟯`|⟮c+;Whether the document relies on an external source such as an external DTD⟯
+table:`⟮version⟯`|⟮The XML version the document is using⟯
+`⟮encoding⟯`|⟮The text encoding this is using, e.g. UTF-8 or Shift_JIS⟯
+`⟮standalone⟯`|⟮Whether the document relies on an external source such as an external DTD⟯
 
 
 #### doctype
@@ -113,19 +113,19 @@ In HTML 5, the doctype no longer actually references a DTD, but merely prevents 
 PI is short for processing instruction.
 A processing instruction is an arbitrary, not further defined instruction to the processor of the XML document.
 Processing instructions are mainly used to associate CSS with XML documents.
-'Tag name' of the ⟮c+;processing instruction⟯ to ⟮c+;link a stylesheet to an xml document⟯ is ⟮c+;xml-stylesheet⟯ 
+'Tag name' of the ⟮processing instruction⟯ to ⟮link a stylesheet to an xml document⟯ is ⟮xml-stylesheet⟯ 
 
 ###### delimiters
 
-⟮c+;Begins a processing instruction⟯|⟮c+;&lt;?⟯
-⟮c+;Ends a processing instruction⟯|⟮c+;?&gt;⟯
+⟮Begins a processing instruction⟯|⟮c+;&lt;?⟯
+⟮Ends a processing instruction⟯|⟮c+;?&gt;⟯
 
 ##### CDATA
 
-⟮c+;CDATA⟯ is short for ⟮c+;Character data⟯) 
-⟮c+;CDATA⟯ ⟮c+;tells the parser not to parse the content as XML markup⟯ 
-⟮c+;CDATA⟯ allows us to ⟮c+;use characters with a special meaning in XML⟯ without ⟮c+;confusing the parser⟯, for example, ⟮sb;this would allow us to ⟮c+;include HTML within XML without a problem⟯.⟯ 
-⟮c+;CDATA⟯ syntax: `⟮c+;‹![⟯⟮c+;CDATA⟯⟮c+;[⟯content...⟮c+;]]›⟯` 
+⟮CDATA⟯ is short for ⟮Character data⟯) 
+⟮CDATA⟯ ⟮tells the parser not to parse the content as XML markup⟯ 
+⟮CDATA⟯ allows us to ⟮use characters with a special meaning in XML⟯ without ⟮confusing the parser⟯, for example, ⟮sb;this would allow us to ⟮include HTML within XML without a problem⟯.⟯ 
+⟮CDATA⟯ syntax: `⟮‹![⟯⟮CDATA⟯⟮[⟯content...⟮]]›⟯` 
 
 ### HTML
 
@@ -251,13 +251,13 @@ Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 
 ####### attributes
 
-⟮c+;muted⟯|⟮c+;audio is muted/mute audio⟯|IDL & Content
-⟮c+;paused⟯|⟮c+;is paused/pause⟯|IDL
-⟮c+;loop⟯|⟮c+;will loop/loop⟯|IDL & Content
-⟮c+;controls⟯|⟮c+;is showing controls/show controls⟯|IDL & Content
-⟮c+;autoplay⟯|⟮c+;will autoplay/enable autoplay⟯|IDL & Content
-⟮c+;ended⟯|⟮c+;Indicates whether it has finished playing⟯|IDL
-⟮c+;playbackRate⟯|⟮c+;Represents the speed at which the thing is playing⟯|IDL
+⟮muted⟯|⟮audio is muted/mute audio⟯|IDL & Content
+⟮paused⟯|⟮is paused/pause⟯|IDL
+⟮loop⟯|⟮will loop/loop⟯|IDL & Content
+⟮controls⟯|⟮is showing controls/show controls⟯|IDL & Content
+⟮autoplay⟯|⟮will autoplay/enable autoplay⟯|IDL & Content
+⟮ended⟯|⟮Indicates whether it has finished playing⟯|IDL
+⟮playbackRate⟯|⟮Represents the speed at which the thing is playing⟯|IDL
 
 ####### events
 
@@ -562,7 +562,7 @@ The <option> HTML element is used to define an item contained in a <select>, an 
 The <optgroup> HTML element creates a grouping of options within a <select> element.
 to set the default option, specify the selected attribute on the option.
 
-By default, ⟮c+;html `‹select›`⟯s will usually ⟮c+;display as as a dropwdown⟯, and only ⟮c+;become a list box⟯ if `⟮c+;multiple⟯` (⟮c+;allowing multiple selection::purpose⟯) or `⟮c+;size⟯` (⟮c+;specifying how many items to show at once::purpose⟯) is specified</span>
+By default, ⟮html `‹select›`⟯s will usually ⟮display as as a dropwdown⟯, and only ⟮become a list box⟯ if `⟮multiple⟯` (⟮allowing multiple selection::purpose⟯) or `⟮size⟯` (⟮specifying how many items to show at once::purpose⟯) is specified</span>
 
 ##### output
 
@@ -612,28 +612,28 @@ The most common clearfix technique might be: ::after {
   clear: both;
 }
 
-In contrast to ⟮c+;CSS⟯, in ⟮c+;Latex⟯ ⟮c+;floats⟯ merely ⟮c+;move vertically and not horizontally⟯. 
-If possible, latex places ⟮c+;floats⟯ ⟮c+;close to where they appear in the source text⟯. 
-⟮c+;Floats⟯ are relevant for ⟮c+;things that cannot be broken over a page (images, tables⟯). 
-To ⟮c+;uniquely identify⟯ ⟮c+;floats⟯ no ⟮c+;matter where they end up⟯, they are ⟮c+;numbered⟯ by latex. 
-By default, ⟮c+;table⟯ and ⟮c+;figure⟯ are the two ⟮c+;environments⟯ that are ⟮c+;floats⟯. 
-The ⟮c+;table environment⟯ is ⟮c+;functionally equivalent to⟯ the ⟮c+;figure environment⟯, but ⟮c+;has a separate index of numbering⟯. 
+In contrast to ⟮CSS⟯, in ⟮Latex⟯ ⟮floats⟯ merely ⟮move vertically and not horizontally⟯. 
+If possible, latex places ⟮floats⟯ ⟮close to where they appear in the source text⟯. 
+⟮Floats⟯ are relevant for ⟮things that cannot be broken over a page (images, tables⟯). 
+To ⟮uniquely identify⟯ ⟮floats⟯ no ⟮matter where they end up⟯, they are ⟮numbered⟯ by latex. 
+By default, ⟮table⟯ and ⟮figure⟯ are the two ⟮environments⟯ that are ⟮floats⟯. 
+The ⟮table environment⟯ is ⟮functionally equivalent to⟯ the ⟮figure environment⟯, but ⟮has a separate index of numbering⟯. 
 
-The ⟮c+;[option]⟯ for ⟮c+;table, figure⟯ says ⟮c+;where roughly you would like the table/figure to float.⟯ 
-⟮c+;the option for controlling where a floating element⟯ goes consists of ⟮c+;a list⟯ of specifiers, which are ⟮c+;single chars⟯ ⟮c+;one after the other⟯ without ⟮c+;separators⟯, indicating ⟮c+;relative preference⟯ 
-⟮c+;h⟯|⟮c+;place where it appeared in the source text as much asp possible⟯
-⟮c+;H⟯|⟮c+;force place where it appears (basically turn it into a nonfloat⟯)
-⟮c+;p⟯|⟮c+;special page for floats only⟯
-⟮c+;t/b⟯|⟮c+;place at top / bottom of page (respectively⟯)
+The ⟮[option]⟯ for ⟮table, figure⟯ says ⟮where roughly you would like the table/figure to float.⟯ 
+⟮the option for controlling where a floating element⟯ goes consists of ⟮a list⟯ of specifiers, which are ⟮single chars⟯ ⟮one after the other⟯ without ⟮separators⟯, indicating ⟮relative preference⟯ 
+⟮h⟯|⟮place where it appeared in the source text as much asp possible⟯
+⟮H⟯|⟮force place where it appears (basically turn it into a nonfloat⟯)
+⟮p⟯|⟮special page for floats only⟯
+⟮t/b⟯|⟮place at top / bottom of page (respectively⟯)
 
 
-the ⟮c+;float⟯ package ⟮c+;improves⟯ ⟮c+;float handling⟯ and ⟮c+;defines⟯ ⟮c+;the float specifier H⟯ 
+the ⟮float⟯ package ⟮improves⟯ ⟮float handling⟯ and ⟮defines⟯ ⟮the float specifier H⟯ 
 
-If you have ⟮c+;a table (tabular⟯) where you want to make sure it ⟮c+;flows well and does not cause awkward page breaks⟯, you should ⟮c+;float it (surround it in a table env) ⟯, but if ⟮c+;you care exactly where it appears in relation to the source text⟯, you should ⟮c+;not float it (not surround it in a table env⟯) 
+If you have ⟮a table (tabular⟯) where you want to make sure it ⟮flows well and does not cause awkward page breaks⟯, you should ⟮float it (surround it in a table env) ⟯, but if ⟮you care exactly where it appears in relation to the source text⟯, you should ⟮not float it (not surround it in a table env⟯) 
 
-⟮c+;\caption{foo⟯} is there to ⟮c+;add a caption foo⟯ to ⟮c+;floating environments⟯. 
-⟮c+;the optional argument []⟯ to ⟮c+;\caption⟯ takes ⟮c+;a short title⟯ for use ⟮c+;in the listoftables/figures⟯ 
-to ⟮c+;\label⟯ a ⟮c+;table/figure⟯, the ⟮c+;\label⟯ must go ⟮c+;directly after \caption⟯ 
+⟮\caption{foo⟯} is there to ⟮add a caption foo⟯ to ⟮floating environments⟯. 
+⟮the optional argument []⟯ to ⟮\caption⟯ takes ⟮a short title⟯ for use ⟮in the listoftables/figures⟯ 
+to ⟮\label⟯ a ⟮table/figure⟯, the ⟮\label⟯ must go ⟮directly after \caption⟯ 
 
 
 ##### data
@@ -653,10 +653,10 @@ description list|description environment|&lt;dl>
 list item|\item|&lt;li>
 Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
 
-In markdown ⟮c+;Lists items⟯ are each ⟮c+;started by⟯ ⟮c+;one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
-⟮c+;ordered list items⟯ are started by ⟮c+;‹n›. (e.g. 1. or 7.⟯). 
-it does not matter ⟮c+;with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮c+;always start one and go from there (or whatever you then change it to via css⟯). 
-⟮c+;unordered list items⟯ are started by ⟮c+;-⟯, ⟮c+;*⟯ or ⟮c+;+⟯, which can be ⟮c+;mixed and matched⟯. 
+In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
+⟮ordered list items⟯ are started by ⟮‹n›. (e.g. 1. or 7.⟯). 
+it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
+⟮unordered list items⟯ are started by ⟮-⟯, ⟮*⟯ or ⟮+⟯, which can be ⟮mixed and matched⟯. 
 
 ##### containers
 
@@ -747,8 +747,8 @@ translate: an enumerated attribute whether the element should be translated, e.g
 
 tabindex:
 The tabindex attriubte indicates if and how an element can be focused by the keyboard.
-&nbsp;⟮c+;tabindex⟯⟮c+;=0⟯ indicates that ⟮c+;an element can be focused⟯ (e.g.&nbsp;⟮c+;by the tab key⟯)
-&nbsp;⟮c+;tabindex⟯⟮c+;=-1⟯ indicates that ⟮c+;an element can ⁑not&nbsp;⁑be focused⟯ (e.g. by ⟮c+;the tab key⟯)
+&nbsp;⟮tabindex⟯⟮=0⟯ indicates that ⟮an element can be focused⟯ (e.g.&nbsp;⟮by the tab key⟯)
+&nbsp;⟮tabindex⟯⟮=-1⟯ indicates that ⟮c+;an element can ⁑not&nbsp;⁑be focused⟯ (e.g. by ⟮the tab key⟯)
 Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
 CSS inline styling with style.
 part and slot for the shadow DOM.
@@ -816,11 +816,11 @@ A `viewBox` attribute defines a viewport.
 
 ##### width & height
 
-it seems that ⟮c+;SVG elements⟯ will have ⟮c+;width⟯ and ⟮c+;height⟯ of ⟮c+;0⟯ and thus ⟮c+;be invisble⟯ if ⟮c+;not otherwise specified⟯ 
+it seems that ⟮SVG elements⟯ will have ⟮width⟯ and ⟮height⟯ of ⟮0⟯ and thus ⟮be invisble⟯ if ⟮not otherwise specified⟯ 
 
 ##### x & y
 
-In ⟮c+;SVG⟯, you ⟮c+;position things⟯ by ⟮c+;specifying the x and y properties⟯ ⟮c+;on the elements⟯. 
+In ⟮SVG⟯, you ⟮position things⟯ by ⟮specifying the x and y properties⟯ ⟮on the elements⟯. 
 
 ##### stroke & fill
 
@@ -867,9 +867,9 @@ However, `dominant-baseline` and not `vertical-align` is used for vertical align
 
 ##### Basic shapes
 
-You ⟮c+;create basic shapes⟯ in SVG by using ⟮c+;the SVG basic shapes⟯. 
-the ⟮c+;SVG basic shapes⟯ are a grouping of⟮c+;, well, basic shapes⟯ 
-SVG ⟮c+;basic shapes⟯: ⟮c+;‹circle›⟯, ⟮c+;‹ellipse›⟯, ⟮c+;‹line›⟯, ⟮c+;‹polygon›⟯, ⟮c+;‹polyline›⟯, ⟮c+;‹path›⟯ and ⟮c+;‹rect›⟯ 
+You ⟮create basic shapes⟯ in SVG by using ⟮the SVG basic shapes⟯. 
+the ⟮SVG basic shapes⟯ are a grouping of⟮, well, basic shapes⟯ 
+SVG ⟮basic shapes⟯: ⟮‹circle›⟯, ⟮‹ellipse›⟯, ⟮‹line›⟯, ⟮‹polygon›⟯, ⟮‹polyline›⟯, ⟮‹path›⟯ and ⟮‹rect›⟯ 
 
 ###### rect
 
@@ -952,9 +952,9 @@ https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f
 
 ##### <text>
 
-`the ⟮c+;‹text›⟯` element is ⟮c+;the only place⟯ you can ⟮c+;have text in SVG⟯ 
-In ⟮c+;SVG⟯, ⟮c+;text⟯ ⟮c+;outside of a ‹text›⟯ ⟮c+;will not be shown⟯ 
-⟮c+;‹text›⟯ can contain ⟮c+;`‹tspan›`s⟯, which ⟮c+;define subtext (lol) for further targeting⟯. 
+`the ⟮‹text›⟯` element is ⟮the only place⟯ you can ⟮have text in SVG⟯ 
+In ⟮SVG⟯, ⟮text⟯ ⟮outside of a ‹text›⟯ ⟮will not be shown⟯ 
+⟮‹text›⟯ can contain ⟮`‹tspan›`s⟯, which ⟮define subtext (lol) for further targeting⟯. 
 
 ###### tspan
 
@@ -969,7 +969,7 @@ the `rotate` attribute of tspan allows it to, well`, rotate.
 
 ##### <g>
 
-the ⟮c+;svg⟯ ⟮c+;‹g› element⟯ is used to ⟮c+;group ofther elements⟯ 
+the ⟮svg⟯ ⟮‹g› element⟯ is used to ⟮group ofther elements⟯ 
 
 ##### <use>
 
@@ -1158,12 +1158,12 @@ The content of `<metadata>` should be elements from other XML namespaces such as
 
 ### JSX
 
-⟮c+;JSX⟯ is ⟮c+;HTML⟯-like syntax to be used in ⟮c+;JS⟯
-⟮c+;any values⟯ embedded in JSX are ⟮c+;auto-escaped⟯, and thus provide ⟮c+;a degree of safety against XSS attacks⟯
-You can put ⟮c+;any valid JS expression⟯ within ⟮c+;curly braces⟯ in ⟮c+;JSX⟯
-⟮c+;JSX⟯ use ⟮c+;camel case⟯ for ⟮c+;HTML attribute names⟯ (including ⟮c+;events⟯) (which would normally use ⟮c+;kebap-case⟯)
-In JSX, ⟮c+;self-closing tags⟯ must be closed with ⟮c+;/&gt;⟯, however ⟮c+;every react component may⟯ be ⟮c+;self-closing⟯
-⟮c+;JSX⟯ is either said to be short for ⟮c+;JavaScript Syntax Extension⟯ or ⟮c+;JavaScript XML⟯
+⟮JSX⟯ is ⟮HTML⟯-like syntax to be used in ⟮JS⟯
+⟮any values⟯ embedded in JSX are ⟮auto-escaped⟯, and thus provide ⟮a degree of safety against XSS attacks⟯
+You can put ⟮any valid JS expression⟯ within ⟮curly braces⟯ in ⟮JSX⟯
+⟮JSX⟯ use ⟮camel case⟯ for ⟮HTML attribute names⟯ (including ⟮events⟯) (which would normally use ⟮kebap-case⟯)
+In JSX, ⟮self-closing tags⟯ must be closed with ⟮c+;/&gt;⟯, however ⟮every react component may⟯ be ⟮self-closing⟯
+⟮JSX⟯ is either said to be short for ⟮JavaScript Syntax Extension⟯ or ⟮JavaScript XML⟯
 Using JSX, you generally assign events via the on‹Event› handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
 #### style props
@@ -1178,9 +1178,9 @@ using style props, we can also define 'states'. (not called that, this is my ter
 style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
 style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
 e.g. _hover={{ fontWeight: 'semibold' }}
-flex-container:<img src="sm_2021-09-17--19-05-46-screenshot.jpg">
+flex-container:✫sm_2021-09-17--19-05-46-screenshot.jpg✫
 
-⟮c+;chakra⟯ provides some ⟮c+;predefined shadows⟯ as style props with ⟮c+;boxShadow⟯⟮c+;="name"⟯
+⟮chakra⟯ provides some ⟮predefined shadows⟯ as style props with ⟮boxShadow⟯⟮="name"⟯
 
 the sx prop is an escape hatch to CSS when style props are not enough.
 the sx prop takes an object whose keys can be CSS or the style prop superset.
@@ -1290,23 +1290,23 @@ A static NodeList (or similar) does not reflect changes in the DOM
 
 
     <tr>
-      <th colspan="5">⟮c+;Node⟯
+      <th colspan="5">⟮Node⟯
 others...|
 
             <tr>
-              <th colspan="3">⟮c+;Element⟯
+              <th colspan="3">⟮Element⟯
 others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
 
       |
 
             <tr>
-              <th colspan="2">⟮c+;Document⟯
+              <th colspan="2">⟮Document⟯
 <span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
 
-      |<table>⟮c+;DocumentFragment⟯
+      |<table>⟮DocumentFragment⟯
 </tbody></table>|
 <tr>
-            <th colspan="3">⟮c+;CharacterData⟯
+            <th colspan="3">⟮CharacterData⟯
 <span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
 
         </tbody></table>
@@ -1403,7 +1403,7 @@ localStorage is larger than sessionStorage.
 Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
 Browsers increasingly don't even allow us to ask for notification permissione exept in response to user action.
 After gaining permission, we can create notifications with the Notification() constructor.
-the ⟮c+;Notification() constructor⟯ takes two arguments, the ⟮c+;title of the notification⟯ and an ⟮c+;object of options⟯
+the ⟮Notification() constructor⟯ takes two arguments, the ⟮title of the notification⟯ and an ⟮object of options⟯
 the options object for the notification constructor as a bunch of properties that precisely configure the notification.
 .close()|closes the notification manually
 Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
@@ -1414,7 +1414,7 @@ The Intersection Observer API provides a way to asynchronously observe changes i
 
 #### intervals
 
-⟮c+;window⟯.​setTimeout(function, delay, args);
+⟮window⟯.​setTimeout(function, delay, args);
 
 #### misc
 
@@ -1478,7 +1478,7 @@ Event.defaultPrevent|was a default prevented?
 
 #### patterns
 
-⟮c+;event delegation⟯ is ⟮c+;handling events⟯ (that are ⟮c+;similar somehow⟯) on ⟮c+;a common ancestor⟯
+⟮event delegation⟯ is ⟮handling events⟯ (that are ⟮similar somehow⟯) on ⟮a common ancestor⟯
 Event delegation only works due to event bubbling
 
 #### node
@@ -1502,20 +1502,20 @@ Web Speech API: text to speech/speech to text
 ### PWA
 
 PWA|Progressive Web App
-PWAs should work to some extent even when ⟮c+;there is no internet<img src="SpStAtUk8Zp5iwi9yqKP.jpg">⟯ the ⟮c+;screenshots⟯ property of a web app manifest allows for ⟮c+;previewing images of the web app when installing⟯
+PWAs should work to some extent even when ⟮there is no internet✫SpStAtUk8Zp5iwi9yqKP.jpg✫⟯ the ⟮screenshots⟯ property of a web app manifest allows for ⟮previewing images of the web app when installing⟯
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
 #### service workers
 
-⟮c+;Service Workers⟯ are a type of ⟮c+;Web Worker⟯
-The main problem ⟮c+;service workers⟯ are solving is handling ⟮c+;loss of connectivity⟯
-The ⟮c+;service worker's⟯ ⟮c+;lifecycle⟯ is separate from ⟮c+;your webpage's⟯
+⟮Service Workers⟯ are a type of ⟮Web Worker⟯
+The main problem ⟮service workers⟯ are solving is handling ⟮loss of connectivity⟯
+The ⟮service worker's⟯ ⟮lifecycle⟯ is separate from ⟮your webpage's⟯
 
 The first step in a service workers lifetime is navigator.serviceWorker.register(path-to-service-worker.js), which returns a promise
 The service worker's scope ( which fetch events it reacts to) is determined by the directory the script implementing it is in 
 e.g. /sw.js has the scope of everything in the project, while /example/sw.js has the scope of everything in /example.
 The service worker adds event listeners like so: self.addEventListener...
-⟮c+;Workbox⟯ is a library that ⟮c+;bakes in a set of best practices⟯ and ⟮c+;removes the boilerplate⟯ every developer writes when working with ⟮c+;service workers⟯.
+⟮Workbox⟯ is a library that ⟮bakes in a set of best practices⟯ and ⟮removes the boilerplate⟯ every developer writes when working with ⟮service workers⟯.
 
 ### wasm
 
@@ -1565,7 +1565,7 @@ A conditional group rules is a CSS at-rule that associates a condition with a gr
 The commmon conditional group at rules are @media and @supports.
 
 
-flex-container:<img src="sm_tmpyk7c4jes.png">
+flex-container:✫sm_tmpyk7c4jes.png✫
 
 style as a HTML attribute takes n declarations
 
@@ -1698,7 +1698,7 @@ In HTML/CSS, <input> and <textarea> can have placeholder text in form of a place
 ::selection only supports a subset of properties, mainly color, background-color and text-shadow.
 ::first-letter|matches the first letter of a block-level element
 ::first-line|matches the first line of a block-level element
-::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath ⟮c+;any element that is in fullscreen⟯
+::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath ⟮any element that is in fullscreen⟯
 ::marker|the marker of a list item or a summary item
 
 ##### Combinators
@@ -2066,7 +2066,7 @@ column-width specifies a minimum width of columns
 
 ###### Pointer-events
 
-pointer-events: ⟮c+;none⟯ makes a thing completely ininteractable with a mouse.
+pointer-events: ⟮none⟯ makes a thing completely ininteractable with a mouse.
 
 ###### Text
 
@@ -2108,7 +2108,7 @@ The font shorthand allows setting properties starting with font-, as well as lin
 font-variant is a shorthand property for a few low-level font features, which all start with font-variant-
 font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-capital letters, font-variant-caps: all-small-caps/all-petite-caps forces small caps for any letters, capital or not.
 
-It may seem that certain html form elements can't have their font styled ⟮c+;because by default, these elements don't inherit font properties⟯
+It may seem that certain html form elements can't have their font styled ⟮because by default, these elements don't inherit font properties⟯
 
 ###### white-space
 
@@ -2132,7 +2132,7 @@ overscroll-behavior: contain will prevent scroll chaining only
 
 ###### Background
 
-The background: property is a shorthand for ⟮c+;background-clip⟯, ⟮c+;background-color⟯, ⟮c+;background-image⟯, ⟮c+;background-origin⟯, ⟮c+;background-position⟯, ⟮c+;background-repeat⟯, ⟮c+;background-size⟯ and ⟮c+;background-attachment⟯
+The background: property is a shorthand for ⟮background-clip⟯, ⟮background-color⟯, ⟮background-image⟯, ⟮background-origin⟯, ⟮background-position⟯, ⟮background-repeat⟯, ⟮background-size⟯ and ⟮background-attachment⟯
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
 while single values for background-repeat generally specify both x and y, there are the single values repeat-x and repeat-y that will only repeat in the specified ways.
 background-repeat takes one or two <repeat>s
@@ -2158,10 +2158,10 @@ background-position takes a <position> value to position the background.
 
 Shorthand for edges in CSS use a consistent syntax:
 
-1 value|specifies all sides|<img src="sm_1_border.png">
-2 values|1st specifies top/bottom, 2nd specifies left/right|<img src="sm_2_border.png">
-3 values|1st specfies top, 2nd specfies left/right, 3rd specifies|<img src="sm_3_border.png">
-4 values|1,2,3,4 top right bottom left (TRBL)|<img src="sm_4_border.png">
+1 value|specifies all sides|✫sm_1_border.png✫
+2 values|1st specifies top/bottom, 2nd specifies left/right|✫sm_2_border.png✫
+3 values|1st specfies top, 2nd specfies left/right, 3rd specifies|✫sm_3_border.png✫
+4 values|1,2,3,4 top right bottom left (TRBL)|✫sm_4_border.png✫
 
 Normally, instead of using the shorthand, you can also set the properties individually by using -top(-), -left(-), -bottom(-), -right(-) properties.
 Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
@@ -2257,10 +2257,10 @@ outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black
 
 ###### Corners
 
-1 value|specifies all corners|<img src="sm_1_corner.png">
-2 values|1st specifies topleft and bottomright, 2nd specifies topright and bottomleft|<img src="sm_2_corner.png">
-3 values|1st specfies topleft, 2nd specfies topright and bottomleft, 3rd bottomright|<img src="sm_3_corner.png">
-4 values|1,2,3,4 topleft topright bottomright bottomleft|<img src="sm_4_corner.png">
+1 value|specifies all corners|✫sm_1_corner.png✫
+2 values|1st specifies topleft and bottomright, 2nd specifies topright and bottomleft|✫sm_2_corner.png✫
+3 values|1st specfies topleft, 2nd specfies topright and bottomleft, 3rd bottomright|✫sm_3_corner.png✫
+4 values|1,2,3,4 topleft topright bottomright bottomleft|✫sm_4_corner.png✫
 
 Normally, instead of using the shorthand, you can also set the properties individually by using -top-left(-), -top-right(-), -bottom-right(-), -bottom-left(-) properties.
 
@@ -2431,23 +2431,23 @@ To construct a linear bezier function, connect P0 and P1. You're done (it's a st
 To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a point travel on P0P1 and P1P2 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ from 0 to 1. This point describes the quadratic bezier curve.
 
 
-flex-container:<img src="sm_ZS4fP%20(1).png">
-flex-container:<img src="sm_ZS4fP%20(1)%20copy.png"><img src="sm_cubBezstep3.png">
+flex-container:✫sm_ZS4fP%20(1).png✫
+flex-container:✫sm_ZS4fP%20(1)%20copy.png✫✫sm_cubBezstep3.png✫
 
 To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ as well as P⎵P1P2⎵ and P⎵P2P3⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ and on P⎵P1P2⎵P⎵P2P3⎵ from 0 to 1. Connect P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> and P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub> with a further line. Let a point travel on P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub>, this point describes the cubic bezier curve.
 
-flex-container:<img src="sm_cubBezstep3-1.png"><img src="sm__cat_acad_inf_code_css_bez60pc.png"><img src="sm__cat_acad_inf_code_css_bez80pc.png">
+flex-container:✫sm_cubBezstep3-1.png✫✫sm__cat_acad_inf_code_css_bez60pc.png✫✫sm__cat_acad_inf_code_css_bez80pc.png✫
 
 The CSS cubic-beziers map the dependent variable (y) to change in property, and the independent variable (x) to change in time.
 For CSS, the x values of cubic-bezier must be between 0 and 1 (representing time), the y values are not limited in such a way
 For the CSS cubic beziers only two points matter, the other two are fixed at (0|0) and (1|1)
 For cubic-bezier(), the four parameters represent x1, y1; x2, y2
 
-linear|<img src="sm_Screenshot%202020-06-02%20at%2001.59.05.png">
-ease-in-out|cubic-bezier(0.42, 0, 0.58, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.03.45.png">
-ease-in|cubic-bezier(0.42, 0, 1.0, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.02.33.png">
-ease|cubic-bezier(0.25, 0.1, 0.25, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.02.03.png">
-ease-out|cubic-bezier(0, 0, 0.58, 1.0)|<img src="sm_Screenshot%202020-06-02%20at%2002.03.02.png">
+linear|✫sm_Screenshot%202020-06-02%20at%2001.59.05.png✫
+ease-in-out|cubic-bezier(0.42, 0, 0.58, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.03.45.png✫
+ease-in|cubic-bezier(0.42, 0, 1.0, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.02.33.png✫
+ease|cubic-bezier(0.25, 0.1, 0.25, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.02.03.png✫
+ease-out|cubic-bezier(0, 0, 0.58, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.03.02.png✫
 
 ###### tables
 
@@ -2492,8 +2492,8 @@ overflow-specifier-values ::= visible|hidden|clip|scroll|auto
 overflow-anchor determines if our scroll position is anchored to the scroll offset from the top (`none`) or to the current position in the content (`auto`), which is relevant when we add more content on top. 
 
 mix-blend-mode and background-blend-mode both take a <blend-mode>
-⟮c+;Background-blend-mode⟯ regulates blending between (⟮c+;a⟯) ⟮c+;background-image⟯(⟮c+;s⟯) as well as the ⟮c+;background-color⟯.
-⟮c+;mix-blend-mode⟯ regulates blending between ⟮c+;the⟯ ⟮c+;element's⟯ ⟮c+;content⟯, ⟮c+;the⟯ ⟮c+;element's⟯ ⟮c+;parents content⟯, and ⟮c+;the⟯ ⟮c+;element's⟯ ⟮c+;background⟯.
+⟮Background-blend-mode⟯ regulates blending between (⟮a⟯) ⟮background-image⟯(⟮s⟯) as well as the ⟮background-color⟯.
+⟮mix-blend-mode⟯ regulates blending between ⟮the⟯ ⟮element's⟯ ⟮content⟯, ⟮the⟯ ⟮element's⟯ ⟮parents content⟯, and ⟮the⟯ ⟮element's⟯ ⟮background⟯.
 css <blend-modes> are the usual blend modes
 
 ##### Values
@@ -2551,7 +2551,7 @@ For <position>, if specifying two keywords or two keywords with values each, the
 The value described by <position> need not be inside the elements box.
 
 
-flex-container:<img src="sm_position_value.png">
+flex-container:✫sm_position_value.png✫
 
 ###### <image>
 
@@ -2771,9 +2771,9 @@ Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \
 from is an alias of 0% and to is an alias of 100%
 Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
 
-if you mark something with !important in a keyframe,&nbsp;⟮c+;That value will be ignored⟯ (since !important can't be used in keyframes)
-if you don't provide a from/0% andor a to/100% it will ⟮c+;Animate to/from the elements existing styles⟯
-If you specify multiple @keyframes with the same name, ⟮c+;The last one encountered will be used⟯
+if you mark something with !important in a keyframe,&nbsp;⟮That value will be ignored⟯ (since !important can't be used in keyframes)
+if you don't provide a from/0% andor a to/100% it will ⟮Animate to/from the elements existing styles⟯
+If you specify multiple @keyframes with the same name, ⟮The last one encountered will be used⟯
 
 ##### @page
 
@@ -2784,7 +2784,7 @@ page-body :: <page-declaration>;|<margin-at-rule>
 currently supported properties for the page declaration are margins, orphans, widows and break
 margin-at-rule = @<margin-at-rule-name><declaration-block>
 
-flex-container:<img src="page_margin_at_rules.png">
+flex-container:✫page_margin_at_rules.png✫
 
 ##### @counter-style
 
@@ -2840,18 +2840,18 @@ image-rendering: auto - browser-defined algorithm
 
 ##### frames
 
-A ⟮c+;frame⟯ is ⟮c+;a part of a webpage⟯ which ⟮c+;displays a different webpage (or a part thereof⟯) within. 
-A ⟮c+;frame⟯ has ⟮c+;state⟯ ⟮c+;independent of its parent webpage⟯. 
-The ⟮c+;two types of frames⟯ that HTML has/had are ⟮c+;‹frame›⟯ and ⟮c+;‹iframe›⟯ 
-Both ⟮c+;‹frame›⟯ and ⟮c+;‹iframe›⟯ need(ed) a ⟮c+;src⟯ to be useful. 
-⟮c+;‹frame›s⟯ would have been ⟮c+;placed within⟯ a ⟮c+;‹frameset›⟯. 
-⟮c+;‹frameset›⟯ would have ⟮c+;replaced⟯ ⟮c+;body⟯. 
-A site using ⟮c+;‹frameset›⟯ was basically ⟮c+;made up of⟯ ⟮c+;many different HTML documents⟯. 
-A site using ⟮c+;‹frameset›⟯  would have had the advantage tha⟮c+;t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮c+;have to be fetched when navigating⟯. 
-The ⟮c+;‹noframes›⟯ was provided for browsers that ⟮c+;did not support frames⟯. 
-As of ⟮c+;HTML5⟯, ⟮c+;‹frame› and ‹frameset›⟯ are ⟮c+;deprecated⟯, but ⟮c+;iframe⟯ is not. 
-⟮c+;‹frame›s⟯ were ⟮c+;deprecated⟯ because&nbsp; ⟮c+;their intraction with the same-origin policy could be a nightmare⟯, because ⟮c+;copyright infringemenet was easy⟯, and because ⟮c+;of accesibility/usability problems⟯. 
-⟮c+;iframe⟯ is short for ⟮c+;inline frame⟯ 
+A ⟮frame⟯ is ⟮a part of a webpage⟯ which ⟮displays a different webpage (or a part thereof⟯) within. 
+A ⟮frame⟯ has ⟮state⟯ ⟮independent of its parent webpage⟯. 
+The ⟮two types of frames⟯ that HTML has/had are ⟮‹frame›⟯ and ⟮‹iframe›⟯ 
+Both ⟮‹frame›⟯ and ⟮‹iframe›⟯ need(ed) a ⟮src⟯ to be useful. 
+⟮‹frame›s⟯ would have been ⟮placed within⟯ a ⟮‹frameset›⟯. 
+⟮‹frameset›⟯ would have ⟮replaced⟯ ⟮body⟯. 
+A site using ⟮‹frameset›⟯ was basically ⟮made up of⟯ ⟮many different HTML documents⟯. 
+A site using ⟮‹frameset›⟯  would have had the advantage tha⟮t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮have to be fetched when navigating⟯. 
+The ⟮‹noframes›⟯ was provided for browsers that ⟮did not support frames⟯. 
+As of ⟮HTML5⟯, ⟮‹frame› and ‹frameset›⟯ are ⟮deprecated⟯, but ⟮iframe⟯ is not. 
+⟮‹frame›s⟯ were ⟮deprecated⟯ because&nbsp; ⟮their intraction with the same-origin policy could be a nightmare⟯, because ⟮copyright infringemenet was easy⟯, and because ⟮of accesibility/usability problems⟯. 
+⟮iframe⟯ is short for ⟮inline frame⟯ 
 
 
 ### stacking changes
@@ -2970,7 +2970,7 @@ By default, block-level elements are 100% width of the inline base direction axi
 block-level elements can have their height and width set manually, while inline-level elements
 both inline-level andblock-level elements can have all their margins, borders and paddings set. however inline-level elements will only move other elements on the the inline base direction axis (i.e. not vertically for horizontal-tb).
 
-flex-container:<img src="sm_inline_margins.png">
+flex-container:✫sm_inline_margins.png✫
 Since inline-level elements don't have block flow direction margins, they can't suffer from margine collapsing.
 inline-level elements and text runs are handled via an inline formatting context using line boxes.
 Whenever the browser encounters inline elements wiwthin a block container, it creates a new root inline box which establishes an inline formatting context.
@@ -2983,7 +2983,7 @@ line-height sets the minimum height of a line box.
 line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 
-flex-container:<img src="sm_line_height_overflow.png">
+flex-container:✫sm_line_height_overflow.png✫
 The dominant baseline is the one that is used to align inline text, and may be automatically determined or manually specified with the as-yet unimplemented dominant-baseline
 
 if writing-mode is vertical-??, the text-orientation property controls the rotation of the glyphs.
@@ -3137,11 +3137,11 @@ The rise in using native fonts is in part attributable to the rise of more high-
 
 ##### system UI themes
 
-the ⟮c+;System UI Theme Specification⟯ is a ⟮c+;reasonably widely⟯ adopted spec for ⟮c+;a style object⟯ that stores things for ⟮c+;design systems⟯, especially ⟮c+;scales⟯
-at the heart of the ⟮c+;System UI Theme Specification⟯ are ⟮c+;scales⟯ - 
-scales are ⟮c+;arrays⟯ or ⟮c+;objects⟯ of ⟮c+;predefined sets of values⟯, for things such as ⟮c+;font sizes⟯, ⟮c+;colors⟯, etc.
-According to the ⟮c+;System UI Theme Specification⟯, the ⟮c+;CSS properties⟯ that accept ⟮c+;only a small, finite number⟯ of valid CSS values ⟮c+;should not be included as a scale object⟯.
-According to the ⟮c+;System UI Theme Specification⟯, a ⟮c+;key⟯ defining a ⟮c+;scale⟯ should be called the ⟮c+;same thing as the css property⟯, except ⟮c+;plural⟯ (except for the weirdly-named `⟮c+;space⟯`) and ⟮c+;camelCase⟯, unless there are ⟮c+;multiple css properties it might be used for⟯
+the ⟮System UI Theme Specification⟯ is a ⟮reasonably widely⟯ adopted spec for ⟮a style object⟯ that stores things for ⟮design systems⟯, especially ⟮scales⟯
+at the heart of the ⟮System UI Theme Specification⟯ are ⟮scales⟯ - 
+scales are ⟮arrays⟯ or ⟮objects⟯ of ⟮predefined sets of values⟯, for things such as ⟮font sizes⟯, ⟮colors⟯, etc.
+According to the ⟮System UI Theme Specification⟯, the ⟮CSS properties⟯ that accept ⟮only a small, finite number⟯ of valid CSS values ⟮should not be included as a scale object⟯.
+According to the ⟮System UI Theme Specification⟯, a ⟮key⟯ defining a ⟮scale⟯ should be called the ⟮same thing as the css property⟯, except ⟮plural⟯ (except for the weirdly-named `⟮space⟯`) and ⟮camelCase⟯, unless there are ⟮multiple css properties it might be used for⟯
 ```
 // example fontSizes scale as an array
 fontSizes: [
@@ -3183,7 +3183,7 @@ scales|CSS Properties
 
 ##### nested rules
 
-In SCSS/Sass and other CSS preprocessors, to achieve ⟮c+;nested selectors⟯, you can ⟮c+;nest entire rules⟯. 
+In SCSS/Sass and other CSS preprocessors, to achieve ⟮nested selectors⟯, you can ⟮nest entire rules⟯. 
 ```
 nav {
   ul {
@@ -3202,9 +3202,9 @@ nav {
 }
 ```
 
-In ⟮c+;nested rules⟯'s selectors, ⟮c+;&amp;⟯ refers to ⟮c+;the parent selector⟯. 
-In nested rules's selectors, ⟮c+;&amp;⟯ is useful if ⟮c+;you want to combine selectors in complex ways⟯ 
-In ⟮c+;nested rules⟯'s selectors, ⟮c+;@at-root⟯ ⟮c+;goes back up to the nesting tree.⟯ 
+In ⟮nested rules⟯'s selectors, ⟮c+;&amp;⟯ refers to ⟮the parent selector⟯. 
+In nested rules's selectors, ⟮c+;&amp;⟯ is useful if ⟮you want to combine selectors in complex ways⟯ 
+In ⟮nested rules⟯'s selectors, ⟮@at-root⟯ ⟮goes back up to the nesting tree.⟯ 
 
 ```
 .parent {
@@ -3222,7 +3222,7 @@ compiles to `⟮c+;.parent .child div .parent .child .parent .child &gt; a {⟯}
   }
 }
 ```
-compiles to `⟮c+;.child {}⟯`
+compiles to `⟮.child {}⟯`
 
 ```
 .button {
@@ -3230,14 +3230,14 @@ compiles to `⟮c+;.child {}⟯`
   &amp;:hover { }
   &amp;:active { }
 }
-``` compiles to `⟮c+;.button:visited { } .button:hover { } .button:active { } ⟯`
+``` compiles to `⟮.button:visited { } .button:hover { } .button:active { } ⟯`
 
 ```
 .btn {
   &amp;-primary {}
   &amp;-secondary {}
 }
-``` compiles to `⟮c+;.btn-primary {} .btn-secondary {} ⟯`
+``` compiles to `⟮.btn-primary {} .btn-secondary {} ⟯`
 
 ##### colors
 
@@ -3308,7 +3308,7 @@ Since breakpoints select this size and up, one typically writes the style for th
 
 ##### z-indices
 
-Z-index in bootstrap and perhaps in other frameworks exists on two scales: ⟮c+;within elements, for states (for :hover, :active, :focus) ⟯, to prevent e.g. overlapping borders and ⟮c+;for overlay components (modals, tooltips, etc.)⟯
+Z-index in bootstrap and perhaps in other frameworks exists on two scales: ⟮within elements, for states (for :hover, :active, :focus) ⟯, to prevent e.g. overlapping borders and ⟮for overlay components (modals, tooltips, etc.)⟯
 
 situation|values
 within elements|0-3
@@ -3398,22 +3398,22 @@ A CSS reset is a piece of CSS to reset browser's default styling.
 
 ##### SCSS/Sass
 
-⟮c+;Sass⟯ is a ⟮c+;CSS preprocessor⟯ that works with the two syntaxes ⟮c+;Sass (the syntax)⟯ and ⟮c+;SCSS⟯
-⟮c+;SCSS/Sass⟯'s ⟮c+;scripting language⟯ which ⟮c+;is its syntax superset⟯ is called ⟮c+;SassScript⟯. 
+⟮Sass⟯ is a ⟮CSS preprocessor⟯ that works with the two syntaxes ⟮Sass (the syntax)⟯ and ⟮SCSS⟯
+⟮SCSS/Sass⟯'s ⟮scripting language⟯ which ⟮is its syntax superset⟯ is called ⟮SassScript⟯. 
 Sass syntax that is indented rather than curly-braced   Sass
 Sass syntax that is a CSS superset   SCSS (Sassy CSS)
 
-While ⟮c+;CSS⟯ will ⟮c+;recover⟯ if ⟮c+;an error is found⟯, ⟮c+;SCSS⟯ will ⟮c+;throw an error and refuse to compile⟯ 
+While ⟮CSS⟯ will ⟮recover⟯ if ⟮an error is found⟯, ⟮SCSS⟯ will ⟮throw an error and refuse to compile⟯ 
 
 ###### @extend and placeholder classes
 
-`⟮c+;@extend⟯` is the keyword ⟮c+;for inheriting styles of other selectors⟯. 
-In common language ⟮c+;`@extend foo`⟯ is saying ⟮c+;you want something to have the same declarations as foo⟯. 
-Internally, ⟮c+;`@extend`⟯&nbsp;works ⟮c+;on selectors (instead of copying declarations⟯) 
-A SCSS/Sass ⟮c+;placeholder selector⟯ has the syntax ⟮c+;`%foo`⟯. 
-You put SCSS/Sass ⟮c+;placeholder selector⟯ where ⟮c+;selectors⟯ would go. 
-An SCSS/sass ⟮c+;placeholder selector⟯ itself is a ⟮c+;selector⟯ that ⟮c+;doesn't select anything⟯. 
-An SCSS/sass ⟮c+;placeholder selector⟯ is designed to be ⟮c+;`@extend`ed⟯. 
+`⟮@extend⟯` is the keyword ⟮for inheriting styles of other selectors⟯. 
+In common language ⟮`@extend foo`⟯ is saying ⟮you want something to have the same declarations as foo⟯. 
+Internally, ⟮`@extend`⟯&nbsp;works ⟮on selectors (instead of copying declarations⟯) 
+A SCSS/Sass ⟮placeholder selector⟯ has the syntax ⟮`%foo`⟯. 
+You put SCSS/Sass ⟮placeholder selector⟯ where ⟮selectors⟯ would go. 
+An SCSS/sass ⟮placeholder selector⟯ itself is a ⟮selector⟯ that ⟮doesn't select anything⟯. 
+An SCSS/sass ⟮placeholder selector⟯ is designed to be ⟮`@extend`ed⟯. 
 ```
 %toolbelt {
   box-sizing: border-box;
@@ -3437,12 +3437,12 @@ An SCSS/sass ⟮c+;placeholder selector⟯ is designed to be ⟮c+;`@extend`ed�
 
 ###### mixins
 
-⟮c+;@mixin⟯ at its most simple defines ⟮c+;a set of styles that can be reused⟯. 
-⟮c+;@include⟯ ⟮c+;copies the styles⟯ defined by ⟮c+;@mixin⟯ ⟮c+;into the current block⟯. 
-⟮c+;@mixin⟯ can take ⟮c+;arguments⟯, both ⟮c+;sassscript⟯ and ⟮c+;a block of css⟯. 
-⟮c+;@mixins⟯ and ⟮c+;@include⟯ have ⟮c+;functionally the same syntax⟯ as ⟮c+;declaring⟯ and ⟮c+;calling a function⟯ in other languages 
+⟮@mixin⟯ at its most simple defines ⟮a set of styles that can be reused⟯. 
+⟮@include⟯ ⟮copies the styles⟯ defined by ⟮@mixin⟯ ⟮into the current block⟯. 
+⟮@mixin⟯ can take ⟮arguments⟯, both ⟮sassscript⟯ and ⟮a block of css⟯. 
+⟮@mixins⟯ and ⟮@include⟯ have ⟮functionally the same syntax⟯ as ⟮declaring⟯ and ⟮calling a function⟯ in other languages 
 ^though using the @mixin and @include keywords, as SCSS/Sass also has @function
-⟮c+;@content⟯ refers to ⟮c+;a passed-in css block⟯ in @⟮c+;mixin⟯. 
+⟮@content⟯ refers to ⟮a passed-in css block⟯ in @⟮mixin⟯. 
 
 ```
 @mixin button() {
@@ -3508,16 +3508,16 @@ By default, bootstrap only uses margin-bottom.
 
 ##### chakra
 
-⟮c+;Chakra⟯ provides a sensible ⟮c+;default⟯ theme inspired by ⟮c+;Tailwind CSS⟯
+⟮Chakra⟯ provides a sensible ⟮default⟯ theme inspired by ⟮Tailwind CSS⟯
 
 ###### components
 
 ##### tailwind
 
-⟮c+;Tailwind CSS⟯'s main idea is ⟮c+;using preexisting CSS classes⟯ for styling, instead of ⟮c+;switching to CSS⟯ 
-⟮c+;Tailwind config⟯ is done in the ⟮c+;tailwind.config.js⟯ file, which works similarly to ⟮c+;the webpack config file⟯ 
+⟮Tailwind CSS⟯'s main idea is ⟮using preexisting CSS classes⟯ for styling, instead of ⟮switching to CSS⟯ 
+⟮Tailwind config⟯ is done in the ⟮tailwind.config.js⟯ file, which works similarly to ⟮the webpack config file⟯ 
 <h2>
-  Using ⟮c+;Tailwind CSS⟯, code might look like this:
+  Using ⟮Tailwind CSS⟯, code might look like this:
 </h2>
 ((c:8;h:8;::```lang=html;
 ‹div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"›
@@ -3557,7 +3557,7 @@ A (data)(base) query language is a language used to query data in databases/info
 
 #### operations
 
-⟮c+;CRUD⟯ is short for ⟮c+;create⟯, ⟮c+;read⟯, ⟮c+;update⟯, and ⟮c+;delete⟯, the four operations that ⟮c+;persistent storage⟯ pretty much always has.
+⟮CRUD⟯ is short for ⟮create⟯, ⟮read⟯, ⟮update⟯, and ⟮delete⟯, the four operations that ⟮persistent storage⟯ pretty much always has.
 
 #### schemata
 
@@ -3600,23 +3600,23 @@ TODO revise in light of above info
 tsv|tab-separated values
 csv|comma-separated values
 
-⟮c+;A table⟯ (e.g. in ⟮c+;database or spreadsheet⟯ contexts) is ⟮c+;a collection/sequence/whatever of⟯ ⟮c+;records⟯. 
-⟮c+;A record⟯ is ⟮c+;a collection/sequence/whatever of⟯ ⟮c+;fields⟯, which ⟮c+;each contain an item of data⟯. 
-A ⟮c+;record⟯ is ⟮c+;more or less kinda⟯ synonymous to ⟮c+;row⟯. 
-⟮c+;Field⟯ is ⟮c+;sometimes used⟯ as a synonym for ⟮c+;column⟯, though following ⟮c+;the above differentiation⟯, this is of course ⟮c+;incorrect⟯. 
-⟮c+;csv⟯ and ⟮c+;tsv⟯ both store ⟮c+;tables/tabular data⟯. 
-⟮c+;csv/tsv⟯ separate ⟮c+;records⟯ via ⟮c+;newlines (generally CRLF⟯) 
-The ⟮c+;first line⟯ of ⟮c+;csv/tsv⟯ may be ⟮c+;a header⟯. 
-⟮c+;the csv/tsv header⟯ should have ⟮c+;as many fields⟯ ⟮c+;as the other records in the documents⟯. 
+⟮A table⟯ (e.g. in ⟮database or spreadsheet⟯ contexts) is ⟮a collection/sequence/whatever of⟯ ⟮records⟯. 
+⟮A record⟯ is ⟮a collection/sequence/whatever of⟯ ⟮fields⟯, which ⟮each contain an item of data⟯. 
+A ⟮record⟯ is ⟮more or less kinda⟯ synonymous to ⟮row⟯. 
+⟮Field⟯ is ⟮sometimes used⟯ as a synonym for ⟮column⟯, though following ⟮the above differentiation⟯, this is of course ⟮incorrect⟯. 
+⟮csv⟯ and ⟮tsv⟯ both store ⟮tables/tabular data⟯. 
+⟮csv/tsv⟯ separate ⟮records⟯ via ⟮newlines (generally CRLF⟯) 
+The ⟮first line⟯ of ⟮csv/tsv⟯ may be ⟮a header⟯. 
+⟮the csv/tsv header⟯ should have ⟮as many fields⟯ ⟮as the other records in the documents⟯. 
 
 name|separates fields how
-⟮c+;csv⟯|⟮c+;with commas⟯, sometimes also ⟮c+;arbitrary different characters⟯
-⟮c+;tsv⟯|⟮c+;with tags⟯
+⟮csv⟯|⟮with commas⟯, sometimes also ⟮arbitrary different characters⟯
+⟮tsv⟯|⟮with tags⟯
 
-Neither ⟮c+;csv⟯ nor ⟮c+;tsv⟯ are ⟮c+;fully standardized⟯, or rather ⟮c+;the specs aren't always followed⟯. 
-In ⟮c+;csv/tsv⟯, ⟮c+;wrapping a field in double quotes⟯ commonly allows ⟮c+;the field separator to be included in the field⟯. 
-If in csv/tsv ⟮c+;a field is wrapped in double quotes to allow the field separator to be included in the fields⟯, ⟮c+;double qoutes⟯ are then excaped by ⟮c+;double double quotes⟯. 
-⟮c+;Trailing newlines⟯ at the ⟮c+;end of documents⟯ are ⟮c+;optional⟯ for ⟮c+;csv/tsv⟯, ⟮c+;field separators⟯ at ⟮c+;the end of the line⟯ will ⟮c+;create empty fields⟯. 
+Neither ⟮csv⟯ nor ⟮tsv⟯ are ⟮fully standardized⟯, or rather ⟮the specs aren't always followed⟯. 
+In ⟮csv/tsv⟯, ⟮wrapping a field in double quotes⟯ commonly allows ⟮the field separator to be included in the field⟯. 
+If in csv/tsv ⟮a field is wrapped in double quotes to allow the field separator to be included in the fields⟯, ⟮double qoutes⟯ are then excaped by ⟮double double quotes⟯. 
+⟮Trailing newlines⟯ at the ⟮end of documents⟯ are ⟮optional⟯ for ⟮csv/tsv⟯, ⟮field separators⟯ at ⟮the end of the line⟯ will ⟮create empty fields⟯. 
 
 tidy-viewer is a FOSS rust-based csv viewer 
 -s <char>|delimiters
@@ -3768,25 +3768,25 @@ A ontology languages is a language that describes an ontology.
 
 ### folksonomy
 
-⟮c+;Folksonomy⟯ is a system where ⟮c+;users⟯ apply ⟮c+;public tags⟯ to items, thus over time generating a sort of ⟮c+;taxonomy⟯. 
-Two types of ⟮c+;folksonomies⟯ are ⟮c+;broad⟯, where ⟮c+;multiple users can apply the same tag⟯, thus ⟮c+;showing which tags are the most popular⟯, and ⟮c+;narrow⟯, where ⟮c+;the same tag can only be applied once⟯ 
+⟮Folksonomy⟯ is a system where ⟮users⟯ apply ⟮public tags⟯ to items, thus over time generating a sort of ⟮taxonomy⟯. 
+Two types of ⟮folksonomies⟯ are ⟮broad⟯, where ⟮multiple users can apply the same tag⟯, thus ⟮showing which tags are the most popular⟯, and ⟮narrow⟯, where ⟮the same tag can only be applied once⟯ 
 
 booru: image site with foksonomical tags
 boorus: generally look similar to Danbooru, the original
 sexual content: rating:s(afe), rating:q(uestionable), rating:e(xplicit)
 Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime-pictures, safebooru (either safebooru.org or safebooru.donmai.us), rule34.paheal.net
 
-flex-container:<img src="sm_2021-10-19--03-12-32-screenshot.jpg"><img src="sm_2021-10-19--03-11-46-screenshot.jpg"><img src="sm_2021-10-19--03-10-58-screenshot.jpg">
+flex-container:✫sm_2021-10-19--03-12-32-screenshot.jpg✫✫sm_2021-10-19--03-11-46-screenshot.jpg✫✫sm_2021-10-19--03-10-58-screenshot.jpg✫
 
 ## extracting information
 
-⟮c+;A hash function⟯ ⟮c+;maps⟯ ⟮c+;data of arbitrary size⟯ ⟮c+;to⟯ ⟮c+;fixed size-values⟯ ⟮c+;deterministically⟯. 
-⟮c+;The result of a hash function⟯ is generally called ⟮c+;a hash⟯. 
+⟮A hash function⟯ ⟮maps⟯ ⟮data of arbitrary size⟯ ⟮to⟯ ⟮fixed size-values⟯ ⟮deterministically⟯. 
+⟮The result of a hash function⟯ is generally called ⟮a hash⟯. 
 At it's most general, a fingerprint is an unique combination of features that uniquely identify something.
 A fingerprinting algorithm reduces a data item to a much shorter unique identifier, often also called a fingerprint.
 Often, hashing algorithms are used as fingerprinting algorithms.
-A ⟮c+;checksum⟯ is a ⟮c+;small amount of data⟯, derived by applying ⟮c+;a suitable algorithm⟯ the relevant data, used to ⟮c+;check whether errors have occurred⟯, e.g. in ⟮c+;transmission⟯, ⟮c+;storage⟯ or ⟮c+;data entry⟯.
-Depending on its design goals, a good c⟮c+;hecksum⟯ algorithm usually outputs ⟮c+;a significantly different value⟯, even ⟮c+;for small changes made to the input⟯. 
+A ⟮checksum⟯ is a ⟮small amount of data⟯, derived by applying ⟮a suitable algorithm⟯ the relevant data, used to ⟮check whether errors have occurred⟯, e.g. in ⟮transmission⟯, ⟮storage⟯ or ⟮data entry⟯.
+Depending on its design goals, a good c⟮hecksum⟯ algorithm usually outputs ⟮a significantly different value⟯, even ⟮for small changes made to the input⟯. 
 A check digit is one or more digits or characters (but generally a small amount) used as a checksum.
 
 # HCI
@@ -3798,8 +3798,8 @@ the problem with the term 'intuitive' in HCI is that to a certain extent, everyt
 
 ## IO
 
-Input devices are devices that move/transform data from  ⟮c+;the world ≈ the user to the computer⟯
-Output devices are devices that move/transform data from ⟮c+;the computer to the world ≈ the user⟯
+Input devices are devices that move/transform data from  ⟮the world ≈ the user to the computer⟯
+Output devices are devices that move/transform data from ⟮the computer to the world ≈ the user⟯
 The most important input devices are probably mouse and keyboard, less common ones are gamepads, motion tracking devices, microphones, cameras, etc.
 Examples of output devices are screens, speakers, etc.
 A pointing device is an input device that allows a user to input spatial information.
@@ -3823,7 +3823,7 @@ Focus stealing is a mode error that happens when a program unexpectedly has focu
 
 ##### local variants
 
-Keyboards are often identified based on ⟮c+;their first few keys on the top letter row⟯
+Keyboards are often identified based on ⟮their first few keys on the top letter row⟯
 QUERTY|en
 QWERTZ|de
 AZERTY|fr
@@ -3847,8 +3847,8 @@ The cursor is reasonably narrow   insert mode (the kind of thing that the ins ke
 caps lock|makes all latin characters generate uppercase characters but not alternate characters
 shift lock|acts as shift was continuously pressed, that is, generates both uppercase and alternate characters respectively
 
-On ⟮c+;windows⟯ under ⟮c+;certain keyboard layouts⟯, ⟮h14;e.g. ⟮c+;AZERTY and QWERTZ⟯,⟯ the ⟮c+;caps lock key⟯ ⟮c+;acts as shift lock⟯, ⟮hb;however not on ⟮c+;mac⟯, and ⟮c+;there is no setting to make it so⟯, making ⟮c+;any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
-Many operating systems support ⟮c+;typing 'normal' characters⟯ by ⟮c+;pressing shift⟯ when in ⟮c+;capslock / shiftlock mode⟯⟮hb;, however, not ⟮c+;mac⟯⟯. 
+On ⟮windows⟯ under ⟮certain keyboard layouts⟯, ⟮h14;e.g. ⟮AZERTY and QWERTZ⟯,⟯ the ⟮caps lock key⟯ ⟮acts as shift lock⟯, ⟮hb;however not on ⟮mac⟯, and ⟮there is no setting to make it so⟯, making ⟮any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
+Many operating systems support ⟮typing 'normal' characters⟯ by ⟮pressing shift⟯ when in ⟮capslock / shiftlock mode⟯⟮hb;, however, not ⟮mac⟯⟯. 
 
 ##### types of keys
 
@@ -3885,45 +3885,45 @@ navigation keys are keys that move the viewport or the cursor.
 
 ####### pgupdown home end
 
-The ⟮c+;end, home and pgup/pgdown⟯ keys ⟮c+;move the cursor⟯ when ⟮c+;text-editing⟯, ⟮c+;and the view⟯ when ⟮c+;not⟯.
+The ⟮end, home and pgup/pgdown⟯ keys ⟮move the cursor⟯ when ⟮text-editing⟯, ⟮and the view⟯ when ⟮not⟯.
   span=2;Text-editing context
 Key|Action
-⟮c+;Home key⟯|⟮c+;Move the cursor to beginning of line⟯
-⟮c+;End key⟯|⟮c+;Move the cursor to end of line⟯
-⟮c+;Pg Up / Pg down⟯|⟮c+;Go up/down a page⟯
+⟮Home key⟯|⟮Move the cursor to beginning of line⟯
+⟮End key⟯|⟮Move the cursor to end of line⟯
+⟮Pg Up / Pg down⟯|⟮Go up/down a page⟯
 
   span=2;Non-text-editing context
 Key|Action
-⟮c+;Home key⟯|⟮c+;Go to beginning of document⟯
-⟮c+;End key⟯|⟮c+;Go to end of document⟯
-⟮c+;Pg Up / Pg down⟯|⟮c+;Go up/down a page⟯
+⟮Home key⟯|⟮Go to beginning of document⟯
+⟮End key⟯|⟮Go to end of document⟯
+⟮Pg Up / Pg down⟯|⟮Go up/down a page⟯
 
 
-The ⟮c+;function key⟯ is used to ⟮c+;simulate home/end/pgup/pgdown⟯ via ⟮c+;the arrow keys⟯ on ⟮c+;smaller formfactors⟯. 
+The ⟮function key⟯ is used to ⟮simulate home/end/pgup/pgdown⟯ via ⟮the arrow keys⟯ on ⟮smaller formfactors⟯. 
 
   span=2;Laptops and other small form factors
 Is simulated by|Key combination
-⟮c+;Home key/End key⟯|⟮c+;fn left/right arrow⟯
-⟮c+;Pg Up / Pg down⟯|⟮c+;fn + up/down arrow⟯
+⟮Home key/End key⟯|⟮fn left/right arrow⟯
+⟮Pg Up / Pg down⟯|⟮fn + up/down arrow⟯
 
 
-on ⟮c+;macOS⟯ ⟮c+;home, end, pgup, pgdown⟯ only ever ⟮c+;move the view.⟯</p>
+on ⟮macOS⟯ ⟮home, end, pgup, pgdown⟯ only ever ⟮move the view.⟯</p>
 
 mac, instead of home, end, pgup, pgdown
 Key|does
-⟮c+;cmd + left/right⟯|⟮c+;moves the cursor to the beginning/end of the line⟯
-⟮c+;cmd + up/down⟯|⟮c+;oves the cursor to the beginning/end of the document⟯
+⟮cmd + left/right⟯|⟮moves the cursor to the beginning/end of the line⟯
+⟮cmd + up/down⟯|⟮oves the cursor to the beginning/end of the document⟯
 
 
 ####### navigation key combinations
 
 Platform specific
 Key|does
-⟮c+;alt + left/right⟯|⟮c+;go to beginning/end of word (mac⟯)
-⟮c+;ctrl + up/down⟯|⟮c+;go to beginning/end of word (win/linux⟯)
-⟮c+;alt + backspace/delete⟯|⟮c+;delete to beginning/end of word (mac⟯)
-⟮c+;ctrl + backspace/delete⟯|⟮c+;delete to beginning/end of word (win/linux⟯)
-⟮c+;cmd + backspace⟯|⟮c+;delete to beginning of line (mac⟯)
+⟮alt + left/right⟯|⟮go to beginning/end of word (mac⟯)
+⟮ctrl + up/down⟯|⟮go to beginning/end of word (win/linux⟯)
+⟮alt + backspace/delete⟯|⟮delete to beginning/end of word (mac⟯)
+⟮ctrl + backspace/delete⟯|⟮delete to beginning/end of word (win/linux⟯)
+⟮cmd + backspace⟯|⟮delete to beginning of line (mac⟯)
 
 
 ##### key combinations & actions
@@ -3938,138 +3938,138 @@ e.g. cmd k then m to select the document language in VSCode
 ####### basic OS
 
 Action|Shortcut
-⟮c+;Close tab/window⟯|⟮c+;⟦⌘⟧ ⟦w⟧⟯
-⟮c+;New tab⟯|⟮c+;⟦⌘⟧ ⟦t⟧⟯
-⟮c+;Quit app⟯|⟮c+;⟦⌘⟧ ⟦q⟧⟯
-⟮c+;Restore tab (editor in VS code⟯)|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
+⟮Close tab/window⟯|⟮⟦⌘⟧ ⟦w⟧⟯
+⟮New tab⟯|⟮⟦⌘⟧ ⟦t⟧⟯
+⟮Quit app⟯|⟮⟦⌘⟧ ⟦q⟧⟯
+⟮Restore tab (editor in VS code⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
 
 
 ####### edit history
-⟮c+;undo⟯|⟮c+;⟦⌘⟧ ⟦z⟧⟯
-⟮c+;redo⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
+⟮undo⟯|⟮⟦⌘⟧ ⟦z⟧⟯
+⟮redo⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
 
 
 ####### browser shortcuts
 
 Action|Shortcut
-⟮c+;Switch to tab n⟯|⟮c+;⟦⌘⟧ ⟦n⟧⟯
-⟮c+;Focus address bar⟯|⟮c+;⟦⌘⟧⟦L⟧⟯
-⟮c+;open link in new tab⟯|⟮c+;⟦⌘⟧ ⟦click⟧⟯
-⟮c+;download link target⟯|⟮c+;⟦⌥⟧ ⟦click⟧⟯
+⟮Switch to tab n⟯|⟮⟦⌘⟧ ⟦n⟧⟯
+⟮Focus address bar⟯|⟮⟦⌘⟧⟦L⟧⟯
+⟮open link in new tab⟯|⟮⟦⌘⟧ ⟦click⟧⟯
+⟮download link target⟯|⟮⟦⌥⟧ ⟦click⟧⟯
 
 ####### search 
 
 Action|Shortcut
-⟮c+;Find in project/ other larger scope⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
-⟮c+;Find next⟯|⟮c+;⟦⌘⟧ ⟦g⟧⟯
-⟮c+;Find previous⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦g⟧⟯
-⟮c+;Open search in window/smaller scope⟯|⟮c+;⟦⌘⟧ ⟦F⟧⟯
-⟮c+;Open search in project/other large scope/advanced search⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
+⟮Find in project/ other larger scope⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
+⟮Find next⟯|⟮⟦⌘⟧ ⟦g⟧⟯
+⟮Find previous⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦g⟧⟯
+⟮Open search in window/smaller scope⟯|⟮⟦⌘⟧ ⟦F⟧⟯
+⟮Open search in project/other large scope/advanced search⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
 
 
 ####### form navigation
-⟮c+;⟦tab⟧⟯|⟮c+;field forward⟯
-⟮c+;⟦⇧⟧ ⟦tab⟧⟯|⟮c+;field back⟯
+⟮⟦tab⟧⟯|⟮field forward⟯
+⟮⟦⇧⟧ ⟦tab⟧⟯|⟮field back⟯
 
 
 
 ####### weird mac
 
 Action|Shortcut
-⟮c+;Get info on item⟯|⟮c+;⟦⌘⟧ ⟦i⟧⟯
-⟮c+;Preferences⟯|⟮c+;⟦⌘⟧ ⟦,⟧⟯
-⟮c+;Switch focus between windows of the same program⟯|⟮c+;⟦⌘⟧ ⟦`⟧⟯
-⟮c+;Show hidden files⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
-⟮c+;rename current item⟯|⟮c+;{{c2::⟦enter⟧}⟯
-⟮c+;Minimize (not windows)⟯|⟮c+;⟦⌘⟧ ⟦m⟧⟯
-⟮c+;Minimize (windows)⟯|⟮c+;⟦⊞⟧ ⟦↓⟧⟯
-⟮c+;Fullscreen⟯|⟮c+;⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
-⟮c+;⟦⌥⟧ ⟦space⟧⟯|⟮c+;non-breaking space (on keyboard⟯)
-⟮c+;del key⟯|⟮c+;⟦fn⟧ ⟦⌫⟧⟯
+⟮Get info on item⟯|⟮⟦⌘⟧ ⟦i⟧⟯
+⟮Preferences⟯|⟮⟦⌘⟧ ⟦,⟧⟯
+⟮Switch focus between windows of the same program⟯|⟮⟦⌘⟧ ⟦`⟧⟯
+⟮Show hidden files⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
+⟮rename current item⟯|⟮{{c2::⟦enter⟧}⟯
+⟮Minimize (not windows)⟯|⟮⟦⌘⟧ ⟦m⟧⟯
+⟮Minimize (windows)⟯|⟮⟦⊞⟧ ⟦↓⟧⟯
+⟮Fullscreen⟯|⟮⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
+⟮⟦⌥⟧ ⟦space⟧⟯|⟮non-breaking space (on keyboard⟯)
+⟮del key⟯|⟮⟦fn⟧ ⟦⌫⟧⟯
 
 
 span=2;macOs Dialogs
 Action|Shortcut
-⟮c+;cancel⟯|⟮c+;⟦esc⟧⟯
-⟮c+;don't save⟯|⟮c+;⟦⌘⟧ ⟦⌫⟧⟯
+⟮cancel⟯|⟮⟦esc⟧⟯
+⟮don't save⟯|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
 
   span=2;Magnifying glass
 Action|Shortcut
-⟮c+;toggle⟯|⟮c+;⟦⌘⟧<kbd class="key modifier alt"></kbd>⟦8⟧⟯
-⟮c+;zoom out⟯|⟮c+;⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦-⟧⟯
-⟮c+;zoom in⟯|⟮c+;⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦0⟧⟯
+⟮toggle⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd>⟦8⟧⟯
+⟮zoom out⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦-⟧⟯
+⟮zoom in⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦0⟧⟯
 
 
 ####### Anki
 
 Action|Shortcut
-⟮c+;Add new card⟯|⟮c+;⟦⌘⟧ ⟦n⟧⟯
-⟮c+;Bury card⟯|⟮c+;⟦⌘⟧ ⟦-⟧⟯
-⟮c+;Bury note⟯|⟮c+;⟦⌥⟧ ⟦-⟧⟯
-⟮c+;Edit html⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦x⟧⟯
-⟮c+;Mark note (both browser and reviewer), mark parent element w/ textmarker (browser, custom⟯)|⟮c+;⟦⌥⟧ ⟦k⟧⟯
-⟮c+;Show deck options menu⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦,⟧⟯
-⟮c+;Study⟯|⟮c+;⟦L⟧⟯
-⟮c+;Subscript⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦2⟧⟯
-⟮c+;Superscript⟯|⟮c+;⟦⌥⟧ ⟦⌘⟧ ⟦2⟧⟯
-⟮c+;Suspend card⟯|⟮c+;⟦⌘⟧ ⟦j⟧⟯
-⟮c+;Suspend note⟯|⟮c+;⟦⌥⟧ ⟦j⟧⟯
-⟮c+;add tag⟯|⟮c+;⟦⌘⟧ ⟦t⟧⟯
-⟮c+;remove tag⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
-⟮c+;reposition⟯|⟮c+;⟦⌘⟧ ⟦y⟧⟯
-⟮c+;reschedule⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦y⟧⟯
-⟮c+;add cloze (don't increment number⟯)|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦c⟧⟯
-⟮c+;add cloze (increment number⟯)|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦c⟧⟯
-⟮c+;submit something/new line⟯|⟮c+;⟦⌘⟧ ⟦enter⟧⟯
-⟮c+;Browse screen⟯|⟮c+;⟦B⟧⟯
-⟮c+;X⟯|⟮c+;Deck home screen⟯
+⟮Add new card⟯|⟮⟦⌘⟧ ⟦n⟧⟯
+⟮Bury card⟯|⟮⟦⌘⟧ ⟦-⟧⟯
+⟮Bury note⟯|⟮⟦⌥⟧ ⟦-⟧⟯
+⟮Edit html⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦x⟧⟯
+⟮Mark note (both browser and reviewer), mark parent element w/ textmarker (browser, custom⟯)|⟮⟦⌥⟧ ⟦k⟧⟯
+⟮Show deck options menu⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦,⟧⟯
+⟮Study⟯|⟮⟦L⟧⟯
+⟮Subscript⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦2⟧⟯
+⟮Superscript⟯|⟮⟦⌥⟧ ⟦⌘⟧ ⟦2⟧⟯
+⟮Suspend card⟯|⟮⟦⌘⟧ ⟦j⟧⟯
+⟮Suspend note⟯|⟮⟦⌥⟧ ⟦j⟧⟯
+⟮add tag⟯|⟮⟦⌘⟧ ⟦t⟧⟯
+⟮remove tag⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
+⟮reposition⟯|⟮⟦⌘⟧ ⟦y⟧⟯
+⟮reschedule⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦y⟧⟯
+⟮add cloze (don't increment number⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦c⟧⟯
+⟮add cloze (increment number⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦c⟧⟯
+⟮submit something/new line⟯|⟮⟦⌘⟧ ⟦enter⟧⟯
+⟮Browse screen⟯|⟮⟦B⟧⟯
+⟮X⟯|⟮Deck home screen⟯
 
 
 ####### file-related
-⟮c+;Export⟯|⟮c+;⟦⇧⟧⟦⌘⟧ ⟦E⟧⟯
-⟮c+;Import⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
-⟮c+;Save as⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
-⟮c+;Save⟯|⟮c+;⟦⌘⟧ ⟦s⟧⟯
-⟮c+;New thingy⟯|⟮c+;⟦⌘⟧ ⟦n⟧⟯
-⟮c+;New alternative thing (window, folder, etc.⟯)|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
-⟮c+;Open⟯|⟮c+;⟦⌘⟧ ⟦o⟧⟯
-⟮c+;Duplicate current item⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
-⟮c+;Print⟯|⟮c+;⟦⌘⟧ ⟦p⟧>⟯
-⟮c+;delete thingy (if file, move to bin⟯)|⟮c+;⟦⌘⟧ ⟦⌫⟧⟯
+⟮Export⟯|⟮⟦⇧⟧⟦⌘⟧ ⟦E⟧⟯
+⟮Import⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
+⟮Save as⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
+⟮Save⟯|⟮⟦⌘⟧ ⟦s⟧⟯
+⟮New thingy⟯|⟮⟦⌘⟧ ⟦n⟧⟯
+⟮New alternative thing (window, folder, etc.⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
+⟮Open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
+⟮Duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
+⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧>⟯
+⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
 
 ####### view
-⟮c+;Reset zoom level (most often⟯)|⟮c+;⟦⌘⟧ ⟦0⟧⟯
-⟮c+;Zoom out⟯|⟮c+;⟦⌘⟧ ⟦-⟧⟯
-⟮c+;Zoom in⟯|⟮c+;⟦⌘⟧ ⟦=⟧⟯
+⟮Reset zoom level (most often⟯)|⟮⟦⌘⟧ ⟦0⟧⟯
+⟮Zoom out⟯|⟮⟦⌘⟧ ⟦-⟧⟯
+⟮Zoom in⟯|⟮⟦⌘⟧ ⟦=⟧⟯
 
 
 ####### text editing 
 
 Shortcut|Action
-⟮c+;Paste as plain text⟯|⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦v⟧⟯
-⟮c+;Select all⟯|⟮c+;⟦⌘⟧ ⟦a⟧⟯
-⟮c+;copy⟯|⟮c+;⟦⌘⟧ ⟦c⟧⟯
-⟮c+;cut⟯|⟮c+;⟦⌘⟧ ⟦x⟧⟯
-⟮c+;paste⟯|⟮c+;⟦⌘⟧ ⟦v⟧⟯
-⟮c+;⟦⌃⟧ ⟦L⟧⟯|⟮c+;Insert hyperlink⟯
-⟮c+;⟦⌘⟧ ⟦b⟧⟯|⟮c+;Bold text⟯
-⟮c+;⟦⌘⟧ ⟦i⟧⟯|⟮c+;Italic text⟯
-⟮c+;⟦⌘⟧ ⟦u⟧⟯|⟮c+;underlined text⟯
-⟮c+;⟦⇧⟧ ⟦tab⟧⟯|⟮c+;unindent⟯
-⟮c+;⟦tab⟧⟯|⟮c+;Indent⟯
+⟮Paste as plain text⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦v⟧⟯
+⟮Select all⟯|⟮⟦⌘⟧ ⟦a⟧⟯
+⟮copy⟯|⟮⟦⌘⟧ ⟦c⟧⟯
+⟮cut⟯|⟮⟦⌘⟧ ⟦x⟧⟯
+⟮paste⟯|⟮⟦⌘⟧ ⟦v⟧⟯
+⟮⟦⌃⟧ ⟦L⟧⟯|⟮Insert hyperlink⟯
+⟮⟦⌘⟧ ⟦b⟧⟯|⟮Bold text⟯
+⟮⟦⌘⟧ ⟦i⟧⟯|⟮Italic text⟯
+⟮⟦⌘⟧ ⟦u⟧⟯|⟮underlined text⟯
+⟮⟦⇧⟧ ⟦tab⟧⟯|⟮unindent⟯
+⟮⟦tab⟧⟯|⟮Indent⟯
 
 
 
 ######## video
 
 Shortcut|Action
-⟮c+;,⟯|⟮c+;one frame back⟯
-⟮c+;.⟯|⟮c+;one frame forwards⟯
-⟮c+; ⟦f⟧⟯|⟮c+;go fullscreen⟯
-⟮c+;esc⟯|⟮c+;Exit fullscreen⟯
-⟮c+;space⟯|⟮c+;pause⟯
+⟮,⟯|⟮one frame back⟯
+⟮.⟯|⟮one frame forwards⟯
+⟮ ⟦f⟧⟯|⟮go fullscreen⟯
+⟮esc⟯|⟮Exit fullscreen⟯
+⟮space⟯|⟮pause⟯
 
 
 ######## discord
@@ -4077,31 +4077,31 @@ Shortcut|Action
 
         Shortcut
       |Action
-⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯|⟮c+;Toggle deafen⟯
-⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦U⟧⟯|⟮c+;Upload file⟯
-⟮c+;⟦⌘⟧ ⟦⌥⟧ ⟦↑/↓⟧⟯|⟮c+;Navigate between servers⟯
-⟮c+;⟦⌥⟧ ⟦↑/↓⟧⟯|⟮c+;navigate between channels (incl private messages⟯)
-⟮c+;⟦⌘⟧ ⟦K⟧⟯|⟮c+;toggle quickswitcher⟯
-⟮c+;⟦⌃⟧ ⟦Ä⟧⟯|⟮c+;start/accept call⟯
-⟮c+;⟦e⟧⟯|⟮c+;edit message⟯
-⟮c+;⟦r⟧⟯|⟮c+;reply⟯
-⟮c+;⟦esc⟧⟯|⟮c+;decline incoming call⟯
-⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦M⟧⟯|⟮c+;toggle mute⟯
+⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯|⟮Toggle deafen⟯
+⟮⟦⌘⟧ ⟦⇧⟧ ⟦U⟧⟯|⟮Upload file⟯
+⟮⟦⌘⟧ ⟦⌥⟧ ⟦↑/↓⟧⟯|⟮Navigate between servers⟯
+⟮⟦⌥⟧ ⟦↑/↓⟧⟯|⟮navigate between channels (incl private messages⟯)
+⟮⟦⌘⟧ ⟦K⟧⟯|⟮toggle quickswitcher⟯
+⟮⟦⌃⟧ ⟦Ä⟧⟯|⟮start/accept call⟯
+⟮⟦e⟧⟯|⟮edit message⟯
+⟮⟦r⟧⟯|⟮reply⟯
+⟮⟦esc⟧⟯|⟮decline incoming call⟯
+⟮⟦⌘⟧ ⟦⇧⟧ ⟦M⟧⟯|⟮toggle mute⟯
 
 
 ######## vector editor
 
 Keyboard shortcut|action|programs
-⟮c+;S⟯|⟮c+;Select tool⟯|⟮c+;Inkscape, SVG-Edit⟯
-⟮c+;G⟯|⟮c+;group/ungroup⟯|⟮c+;SVG-Edit⟯
-⟮c+;W⟯|⟮c+;Wireframe mode⟯|⟮c+;SVG-Edit⟯
-⟮c+;A⟯|⟮c+;Select everything⟯|⟮c+;SVG-Edit⟯
-⟮c+;D⟯|⟮c+;Duplicate⟯|⟮c+;SVG-Edit⟯
-⟮c+;alt-drag⟯|⟮c+;drag a duplicated shape (duplicate and then move⟯)|⟮c+;SVG-Edit⟯
-⟮c+;cmd-drag⟯|⟮c+;drag a duplicated shape (duplicate and then move⟯)|⟮c+;Affinity designer⟯
-⟮c+;tap spacebar while dragging⟯|⟮c+;drop a duplicate of the current shape at position⟯|⟮c+;Inkscape⟯
-⟮c+;shift+click⟯|⟮c+;select multiple objects⟯|⟮c+;Inkscape, SVG-Edit, Affinity Designer⟯
-⟮c+;F⟯|⟮c+;center canvas in frame⟯|⟮c+;SVG-Edit⟯
+⟮S⟯|⟮Select tool⟯|⟮Inkscape, SVG-Edit⟯
+⟮G⟯|⟮group/ungroup⟯|⟮SVG-Edit⟯
+⟮W⟯|⟮Wireframe mode⟯|⟮SVG-Edit⟯
+⟮A⟯|⟮Select everything⟯|⟮SVG-Edit⟯
+⟮D⟯|⟮Duplicate⟯|⟮SVG-Edit⟯
+⟮alt-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮SVG-Edit⟯
+⟮cmd-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮Affinity designer⟯
+⟮tap spacebar while dragging⟯|⟮drop a duplicate of the current shape at position⟯|⟮Inkscape⟯
+⟮shift+click⟯|⟮select multiple objects⟯|⟮Inkscape, SVG-Edit, Affinity Designer⟯
+⟮F⟯|⟮center canvas in frame⟯|⟮SVG-Edit⟯
 
 
 ######## navigatable
@@ -4125,14 +4125,14 @@ add/remove text cursor at mouse cursor location|⟦⌥⟧ ⟦click⟧
 add text cursors to all occurences of current selection|⟦⌘⟧ ⟦⇧⟧ ⟦l⟧
 add text cursor to nex occurrence of selection|⟦⌘⟧ ⟦d⟧
 
-If in VSCode you have ⟮c+;as many text cursors⟯ as ⟮c+;the thing you want to paste has lines⟯, it will auto paste it there.
+If in VSCode you have ⟮as many text cursors⟯ as ⟮the thing you want to paste has lines⟯, it will auto paste it there.
 
 ##### autocomplete
 
-»⟮c+;Autocomplete/word completion⟯« is a feature where ⟮c+;an application predicts the rest of something the user is typing⟯.  
-»⟮c+;Autocomplete/word completion⟯« on ⟮c+;smartphone keyboards⟯ is called »⟮c+;predictive text⟯«, ⟮sb;this used to refer to ⟮c+;the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
-»⟮c+;Autocomplete/word completion⟯« ⟮c+;in a command-line interface⟯ is called »⟮c+;command-line⟯« or »⟮c+;tab⟯ ⟮c+;completion⟯«, ⟮sb;which generally uses ⟮c+;the tab key (whence the name⟯).⟯ 
-»⟮c+;Autocomplete/word completion⟯« in ⟮c+;code editors⟯ is also known as »⟮c+;code completion⟯«. Examples include ⟮sb;⟮c+;VS &amp; VS Code⟯'s ⟮c+;IntelliSense⟯, and ⟮c+;AI (modfied GPT-3⟯)-powered ⟮c+;GitHub Copilot⟯.⟯ 
+»⟮Autocomplete/word completion⟯« is a feature where ⟮an application predicts the rest of something the user is typing⟯.  
+»⟮Autocomplete/word completion⟯« on ⟮smartphone keyboards⟯ is called »⟮predictive text⟯«, ⟮sb;this used to refer to ⟮the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
+»⟮Autocomplete/word completion⟯« ⟮in a command-line interface⟯ is called »⟮command-line⟯« or »⟮tab⟯ ⟮completion⟯«, ⟮sb;which generally uses ⟮the tab key (whence the name⟯).⟯ 
+»⟮Autocomplete/word completion⟯« in ⟮code editors⟯ is also known as »⟮code completion⟯«. Examples include ⟮sb;⟮c+;VS &amp; VS Code⟯'s ⟮IntelliSense⟯, and ⟮AI (modfied GPT-3⟯)-powered ⟮GitHub Copilot⟯.⟯ 
 
 ### Natural Language Processing
 
@@ -4148,7 +4148,7 @@ espeak|nix
 
 ## shells
 
-flex-container:<img src="sm_Midnight_Commander_(2005)_en.png"><img rc="sm_1024px-Vim-(logiciel)-console.jpg">
+flex-container:✫sm_Midnight_Commander_(2005)_en.png✫<img rc="sm_1024px-Vim-(logiciel)-console.jpg">
 
 
 A shell is a wrapper around the OS that acts as an interface between it and humans.
@@ -4186,14 +4186,14 @@ WIMP = Windows, icons, menus, pointer
 
 #### core concepts
 
-⟮ha;<img src="sm_220px-Webdesign_Viewport_Window_Screen.svg.png">⟯
+⟮ha;✫sm_220px-Webdesign_Viewport_Window_Screen.svg.png✫⟯
 The viewport is the area (often rectangular) of a given thing that is currenty visible
 
 #### theming
 
-flex-container:<img src="sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg">
+flex-container:✫sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg✫
 
-A ⟮c+;s2;theme⟯ or ⟮c+;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮c+;a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮c+;the set of files that define a theme/skin.⟯⟯ 
+A ⟮c+;s2;theme⟯ or ⟮c+;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
 #### appearance
@@ -4227,34 +4227,34 @@ dmenu/rofi/choose output the selected item to stdout
 
 ######## command palette / quick open menu
 
-flex-container:<img src="Screenshot%202021-12-09%20at%2003.12.09.png">
+flex-container:✫Screenshot%202021-12-09%20at%2003.12.09.png✫
 
 A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
 A quick open menu is a text-based fuzzily searchable menu containing navigation items.
 Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
-A ⟮c+;Command Palette⟯ often also shows ⟮c+;the direct keyboard shortcuts⟯. 
-A ⟮c+;Command Palette⟯ generally appears as ⟮c+;a modal⟯ floating in ⟮c+;the upper center⟯ of the window. 
-Following ⟮c+;Sublime text and VSCode⟯, ⟮c+;many applications have adapted⟯ ⟮c+;the Command Palette⟯. 
+A ⟮Command Palette⟯ often also shows ⟮the direct keyboard shortcuts⟯. 
+A ⟮Command Palette⟯ generally appears as ⟮a modal⟯ floating in ⟮the upper center⟯ of the window. 
+Following ⟮Sublime text and VSCode⟯, ⟮many applications have adapted⟯ ⟮the Command Palette⟯. 
 vscodes command palette/quick open menu features modes that search and only navigate once enter is pressed, and modes (called go to) that navigate immediately when typing
 
 Shortcut to open command palette|Platform
-⟮c+;⟦⌘⟧ ⟦⇧⟧ P⟯|⟮c+;VSCode, Chrome Devtools⟯
-⟮c+;⟦⌘⟧ (⟦⌥⟧) K⟯|⟮c+;GitHub⟯
+⟮⟦⌘⟧ ⟦⇧⟧ P⟯|⟮VSCode, Chrome Devtools⟯
+⟮⟦⌘⟧ (⟦⌥⟧) K⟯|⟮GitHub⟯
 
 
-⟮c+;Quick open menus⟯ are often entered via ⟮c+;⟦⌘⟧ ⟦P⟧.⟯ 
+⟮Quick open menus⟯ are often entered via ⟮⟦⌘⟧ ⟦P⟧.⟯ 
 
 
     <tr><th colspan="2">Possible prefixes in Quick Open menus
-⟮c+;@somestring⟯|⟮c+;go to symbol somestring⟯
-⟮c+;:somenumber⟯|⟮c+;go to line somenumber⟯
-⟮c+;?⟯|⟮c+;show suggestions what you can do with quick open⟯
-⟮c+;&gt;⟯|⟮c+;enter command palette mode⟯
+⟮@somestring⟯|⟮go to symbol somestring⟯
+⟮:somenumber⟯|⟮go to line somenumber⟯
+⟮?⟯|⟮show suggestions what you can do with quick open⟯
+⟮c+;&gt;⟯|⟮enter command palette mode⟯
 
 
 ####### context menu
 
-flex-container:<img src="Menu_key_screen.jpg"><img src="Context_menu_windows.png"><img src="Context_Menu_on_OS_X_10.9.png">
+flex-container:✫Menu_key_screen.jpg✫✫Context_menu_windows.png✫✫Context_Menu_on_OS_X_10.9.png✫
 
 A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
 
@@ -4269,7 +4269,7 @@ mac|cmd+tab|applications
 
 ####### hamburger 
 
-flex-container:<img src="hamburger-menu-definition.png">
+flex-container:✫hamburger-menu-definition.png✫
 
 A hamburger menu is a menu triggered by a hamburger button.
 A hamburger menu generally comes out from the side, contains a a list of navigation options, and covers between 70% - 100% of the screen
@@ -4289,51 +4289,51 @@ In most GUIs, you can expand the window to fill the screen by double-clicking th
 
 ###### status bar
 
-flex-container:⟮h∞;<img src="sb-paint.png"><img src="460px-Emacs_statusline.png"><img src="Gedit_3.11.92.png"><img src="StatusBar_Light.png"><img src="lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png">⟯
+flex-container:⟮h∞;✫sb-paint.png✫✫460px-Emacs_statusline.png✫✫Gedit_3.11.92.png✫✫StatusBar_Light.png✫✫lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png✫⟯
 
-On ⟮c+;desktop⟯, a ⟮c+;status bar⟯ is a ⟮c+;horizontal⟯ ⟮c+;bar⟯ generally at ⟮c+;the bottom of a window⟯. 
-A ⟮c+;status bar⟯ on desktop displays ⟮c+;various kinds of information⟯, often used when ⟮c+;editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
-On ⟮c+;mobile⟯, a ⟮c+;status bar⟯ is a ⟮c+;horizontal⟯ ⟮c+;bar⟯ at ⟮c+;the top of the screeen⟯. 
-A ⟮c+;status bar⟯ on mobile contains ⟮c+;notification⟯ and ⟮c+;system⟯ ⟮c+;icons⟯ ⟮hb;(such as ⟮c+;power, networks, time⟯⟯) 
+On ⟮desktop⟯, a ⟮status bar⟯ is a ⟮horizontal⟯ ⟮bar⟯ generally at ⟮the bottom of a window⟯. 
+A ⟮status bar⟯ on desktop displays ⟮various kinds of information⟯, often used when ⟮editing documents ((n)vi(m), vscode, various office programs, etc.⟯). 
+On ⟮mobile⟯, a ⟮status bar⟯ is a ⟮horizontal⟯ ⟮bar⟯ at ⟮the top of the screeen⟯. 
+A ⟮status bar⟯ on mobile contains ⟮notification⟯ and ⟮system⟯ ⟮icons⟯ ⟮hb;(such as ⟮power, networks, time⟯⟯) 
 
 ###### taskbar
 
-flex-container:⟮h∞;uh11:12;<img src="Windows_XP_task_grouping_(Luna).png"><img src="Windows_10_Taskbar.PNG"><img src="1024px-MacOS_Sierra_dock.png"><img src="1024px-Plasma_5.20_Taskbar.png">⟯
+flex-container:⟮h∞;uh11:12;✫Windows_XP_task_grouping_(Luna).png✫✫Windows_10_Taskbar.PNG✫✫1024px-MacOS_Sierra_dock.png✫✫1024px-Plasma_5.20_Taskbar.png✫⟯
 
-⟮c+;The above⟯ are all examples of ⟮c+;taskbars⟯. 
-A ⟮c+;taskbar⟯ is a GUI element that typically shows ⟮c+;which programs are open⟯, and allows ⟮c+;pinning programs or other things for quick access⟯. 
-A taskbar generally positioned ⟮c+;as a strip along the edge of a screen⟯. 
-A taskbar, aside from programs may also have a ⟮c+;notification section⟯, ⟮c+;a search box⟯, ⟮c+;various tools⟯, etc. 
-Despite being called '⟮c+;Dock⟯', it's just ⟮c+;macOs⟯'s version of a ⟮c+;taskbar⟯ 
+⟮The above⟯ are all examples of ⟮taskbars⟯. 
+A ⟮taskbar⟯ is a GUI element that typically shows ⟮which programs are open⟯, and allows ⟮pinning programs or other things for quick access⟯. 
+A taskbar generally positioned ⟮as a strip along the edge of a screen⟯. 
+A taskbar, aside from programs may also have a ⟮notification section⟯, ⟮a search box⟯, ⟮various tools⟯, etc. 
+Despite being called '⟮Dock⟯', it's just ⟮macOs⟯'s version of a ⟮taskbar⟯ 
 
 ###### navigation bar
 
-flex-container:<img src="8f922968919629.5b6dba4c75e8b.png"><img src="Dahsboard+Sidebar+Menu.webp"><img src="rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png"><img src="NavigationBar_Standard.png">
+flex-container:✫8f922968919629.5b6dba4c75e8b.png✫✫Dahsboard+Sidebar+Menu.webp✫✫rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png✫✫NavigationBar_Standard.png✫
 A navigation bar/menu/navbar is a bar/strip, generally placed at any edge of the window, that contains links/shortcuts for navigation through a thing (program, app, website, whatever)
 On iOS specifically, a navigation bar appears at the top of the screen, often containing a back button on the left, and a few controls on the right, sometimes a title in the middle
 On android specifically, a navigation bar is the bar at the bottom of the screen that generally houses the three navigation controls: back, home, and overview.
 
 ###### activity bar (vscode)
 
-flex-container:⟮h∞;<img src="sm_toggle_side_bar.gif">⟯
+flex-container:⟮h∞;✫sm_toggle_side_bar.gif✫⟯
 
-VS Code's ⟮c+;activity bar⟯ is a ⟮c+;nav(igation) bar⟯ containing ⟮sb;⟮c+;5 (by default) icons⟯ that ⟮c+;trigger sidebars⟯⟯. 
+VS Code's ⟮activity bar⟯ is a ⟮nav(igation) bar⟯ containing ⟮sb;⟮5 (by default) icons⟯ that ⟮trigger sidebars⟯⟯. 
 
-flex-container:⟮h∞;uh1:10;<img src="sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg">⟯
+flex-container:⟮h∞;uh1:10;✫sm_paste-67a9ccb8984cb6d1d1332e6409cafa085bda1529.jpg✫⟯
 
 nth icon in activity bar|Purpose
-⟮c+;1st icon⟯|⟮c+;FIile explorer⟯
-⟮c+;2nd icon⟯|⟮c+;Search⟯
-⟮c+;3rd icon⟯|⟮c+;Source Control⟯
-⟮c+;4th icon⟯|⟮c+;Run View⟯
-⟮c+;5th icon⟯|⟮c+;Extensions View⟯
+⟮1st icon⟯|⟮FIile explorer⟯
+⟮2nd icon⟯|⟮Search⟯
+⟮3rd icon⟯|⟮Source Control⟯
+⟮4th icon⟯|⟮Run View⟯
+⟮5th icon⟯|⟮Extensions View⟯
 
-⟮c+;Extensions⟯ can ⟮c+;populate all of VS Code's bars⟯ with ⟮c+;more content⟯ 
+⟮Extensions⟯ can ⟮populate all of VS Code's bars⟯ with ⟮more content⟯ 
 
 ##### breadcrumbs
 
 
-flex-container:<img src="sm_2021-06-26--14-46-16-screenshot.png">
+flex-container:✫sm_2021-06-26--14-46-16-screenshot.png✫
 A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
 A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
@@ -4341,8 +4341,8 @@ In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
 
 ##### sidebars
 
-flex-container:⟮h∞;<img src="440eb7ec02550be3045c969dc02dc7f2.png"><img src="162vsE7VWrMgBdBTF8MCKXw.jpeg"><img src="ditch-sidebar-2016-2-fox.jpg"><img src="ditch-sidebar-2016-4-washington.jpg"><img src="sidebars.png">⟯
-A ⟮c+;sidebar⟯ is an UI element that is displayed ⟮c+;to the side of⟯ ⟮c+;the main content⟯ or ⟮c+;of the screen⟯. ⟮hb;Sidebars may be ⟮c+;navigation bars⟯, contain ⟮c+;tools⟯ or contain ⟮c+;further content⟯. ⟮hb;Sidebars are generally ⟮c+;reasonably wide (i.e. not just icons).⟯⟯⟯ 
+flex-container:⟮h∞;✫440eb7ec02550be3045c969dc02dc7f2.png✫✫162vsE7VWrMgBdBTF8MCKXw.jpeg✫✫ditch-sidebar-2016-2-fox.jpg✫✫ditch-sidebar-2016-4-washington.jpg✫✫sidebars.png✫⟯
+A ⟮sidebar⟯ is an UI element that is displayed ⟮to the side of⟯ ⟮the main content⟯ or ⟮of the screen⟯. ⟮hb;Sidebars may be ⟮navigation bars⟯, contain ⟮tools⟯ or contain ⟮further content⟯. ⟮hb;Sidebars are generally ⟮reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### disclosure widgets
 
@@ -4354,7 +4354,7 @@ In html, the header of a disclosure widget is defined by a summary element.
 An accordion is a set of multiple disclosure widgets.
 Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
-flex-container:<img src="disc.png"><img src="kfw-disclosure.jpg">⟮h2;<img src="sm_FAQ-Content-Style-Accordion.gif">⟯
+flex-container:✫disc.png✫✫kfw-disclosure.jpg✫⟮h2;✫sm_FAQ-Content-Style-Accordion.gif✫⟯
 
 ##### containers
 
@@ -4384,15 +4384,15 @@ The dialog element has a boolean attribute open representing whether the dialog 
 
 ##### tooltips & popovers
 
-flex-container:⟮h∞;<img src="sm_13gJ2VKho0yW4vEovAMtrjg.jpg">⟯⟮ha;<img src="sm_220px-Mobile_URL_tooltip.png">⟯]]][[[⟮ha;<img src="sm_1sGOKl17J48qhDRMx-foqOw.gif">⟯⟮ha;<img src="sm_2021-06-24--02-37-46-screenshot.png">⟯
-⟮c+;Tooltips⟯ and ⟮c+;popovers⟯ are similar in that ⟮c+;they both appear close to the thing that triggered them⟯. 
-A ⟮c+;tooltip⟯ is an element/component ⟮c+;with extra text⟯ which ⟮c+;appears⟯ when ⟮c+;when hovering over something⟯ 
-A ⟮c+;popover⟯ is a element/component that usually ⟮c+;appears⟯ when ⟮c+;interacting with something⟯ ⟮c+;directly adjacent to that thing⟯. it ⟮c+;is a modal (creates a mode⟯). 
-⟮c+;Popper⟯ is a ⟮c+;JS⟯ library for ⟮c+;tooltips⟯/⟮c+;popovers⟯. 
+flex-container:⟮h∞;✫sm_13gJ2VKho0yW4vEovAMtrjg.jpg✫⟯⟮ha;✫sm_220px-Mobile_URL_tooltip.png✫⟯]]][[[⟮ha;✫sm_1sGOKl17J48qhDRMx-foqOw.gif✫⟯⟮ha;✫sm_2021-06-24--02-37-46-screenshot.png✫⟯
+⟮Tooltips⟯ and ⟮popovers⟯ are similar in that ⟮they both appear close to the thing that triggered them⟯. 
+A ⟮tooltip⟯ is an element/component ⟮with extra text⟯ which ⟮appears⟯ when ⟮when hovering over something⟯ 
+A ⟮popover⟯ is a element/component that usually ⟮appears⟯ when ⟮interacting with something⟯ ⟮directly adjacent to that thing⟯. it ⟮is a modal (creates a mode⟯). 
+⟮Popper⟯ is a ⟮JS⟯ library for ⟮tooltips⟯/⟮popovers⟯. 
 
 ##### list box
 
-flex-container:<img src="1-final-listbox-matrix"><img src="List_example.PNG"><img src="ctrl-list-boxes-image1.png">
+flex-container:✫1-final-listbox-matrix✫✫List_example.PNG✫✫ctrl-list-boxes-image1.png✫
 
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
@@ -4400,14 +4400,14 @@ A listbox (or list box) is a UI element that contains a list of values within a 
 
 ###### hot corners
 
-⟮c+;hot corners⟯ are a feature of ⟮c+;mac⟯ and some ⟮c+;DEs on linux⟯ where ⟮c+;moving your mouse into a corner⟯ will ⟮c+;perform a certain action⟯ 
+⟮hot corners⟯ are a feature of ⟮mac⟯ and some ⟮DEs on linux⟯ where ⟮moving your mouse into a corner⟯ will ⟮perform a certain action⟯ 
 
 ##### dropdown list/menu
 
-flex-container:<img src="1y2NriILZC8ujowKW4TWb2Q.png"><img src="dropdown-example.jpg"><img src="3-final-sidebyside-dropdowns">
+flex-container:✫1y2NriILZC8ujowKW4TWb2Q.png✫✫dropdown-example.jpg✫✫3-final-sidebyside-dropdowns✫
 
 dropdown is short for dropdown list/menu
-A dropwdown is a UI element that consists of ⟮c+;a box⟯ and ⟮c+;a downward arrow⟯ that ⟮c+;one can interact with⟯ to ⟮c+;show a list of options⟯, ⟮c+;exactly one of which⟯ can be ⟮c+;selected⟯. Often, larger ones will ⟮c+;scroll⟯.
+A dropwdown is a UI element that consists of ⟮a box⟯ and ⟮a downward arrow⟯ that ⟮one can interact with⟯ to ⟮show a list of options⟯, ⟮exactly one of which⟯ can be ⟮selected⟯. Often, larger ones will ⟮scroll⟯.
 
 ##### buttons
 
@@ -4417,10 +4417,10 @@ App shortcuts is the webdev name for the set of actions that are shown e.g. when
 
 ###### FAB
 
-flex-container:⟮ha;<img src="sm_fab.jpg">⟯⟮ha;<img src="sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png">⟯
-A ⟮c+;FAB⟯ ⟮(c:2;floating action button⟯) is ⟮c+;a button⟯ that ⟮c+;is always visible⟯ and contains ⟮c+;the primary action for the application/view⟯. 
-A ⟮c+;FAB⟯ is typically located ⟮c+;in the bottom right⟯, is fairly ⟮c+;large⟯ and ⟮c+;round⟯. 
-A ⟮c+;FAB⟯ may ⟮c+;contain more actions⟯ when ⟮c+;pressed⟯. 
+flex-container:⟮ha;✫sm_fab.jpg✫⟯⟮ha;✫sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png✫⟯
+A ⟮FAB⟯ ⟮(c:2;floating action button⟯) is ⟮a button⟯ that ⟮is always visible⟯ and contains ⟮the primary action for the application/view⟯. 
+A ⟮FAB⟯ is typically located ⟮in the bottom right⟯, is fairly ⟮large⟯ and ⟮round⟯. 
+A ⟮FAB⟯ may ⟮contain more actions⟯ when ⟮pressed⟯. 
 
 ##### icons
 
@@ -4448,7 +4448,7 @@ Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now de
 #### platforms
 
 <svg data-qb-2-tld="reactnative.dev" data-qb-domain="reactnative.dev" data-qb-url="https://reactnative.dev/docs/assets/diagram_ios-android-views.svg" viewBox="0 0 1221 828" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-16{fill:#99d5e7}.cls-3{fill:#d5e2f5}.cls-5{fill:#e9e8e8;mix-blend-mode:multiply}.cls-6{fill:#f29dc4}.cls-29,.cls-7{fill:#fff}.cls-17,.cls-20{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}.cls-10,.cls-12,.cls-17{font-size:28px}.cls-10{fill:#134484}.cls-10,.cls-12{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.cls-11,.cls-13,.cls-18,.cls-25{fill:none;stroke-miterlimit:10}.cls-11{stroke:#134484}.cls-11,.cls-13{stroke-width:3px}.cls-12,.cls-27{fill:#374d9c}.cls-13{stroke:#374d9c}.cls-14{fill:#71c9e4}.cls-15{fill:#09a5d3}.cls-18{stroke:#99d5e7}.cls-18,.cls-25{stroke-width:2px}.cls-19{fill:#0069ac}.cls-20{font-size:32px}.cls-23{fill:#1f2129}.cls-24{fill:#97aad8}.cls-25{stroke:#d5e2f5}.cls-26{fill:#5971b5}.cls-29{opacity:.7}</style></defs><g style="isolation:isolate"><g data-name="Layer 3" id="Layer_3"><g id="Example"><path d="M347 474h797v354H347z" fill="#99d5e7" opacity=".5"></path><path class="cls-3" d="M44 0h794v354H44z"></path><path d="M309 277h575v245H309z" fill="#e9e8e8"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-6" d="M309 277h575v245H309z"></path><path class="cls-7" d="M369 325.5h452v135H369z"></path><g id="Pouncival"><path d="M527.84 388.44s-13.09 4-18.12 27.17c0 0-5.6-3.18-18.19-2.46-.64 0-1.27.07-1.86.13l-.57.05-.92.1c-.53.05-1.05.1-1.61.17a22.35 22.35 0 00-6.86 2c-5-23.15-18.11-27.17-18.11-27.17-18.12 28.18-3 36.23-6 64.41-1.6 14.89 26.35 15.88 40 15.49 14.15.25 39.84-1.24 38.3-15.53-3.04-28.13 12.1-36.18-6.06-64.36z" fill="#d23c6f" transform="translate(-32 -38)"></path><text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="50.24" transform="translate(526.99 405.37)">Pouncival</text><circle class="cls-6" cx="477.9" cy="398.14" r="14.36"></circle></g></g><g data-name="iOS views" id="iOS_views"><text class="cls-10" transform="translate(544.05 651.5)">UIView</text><text class="cls-10" transform="translate(396.32 574.93)">UIImageView</text><text class="cls-10" transform="translate(624.8 578.93)">UITextView</text><path class="cls-11" d="M530 640.5l-148.69-.5V461.5M660.05 641.67l148.69-.5v-178.5M463.5 541v-93M696.5 541V424"></path></g><g data-name="Android views" id="Android_views"><text class="cls-12" transform="translate(517.85 156.5)">ViewGroup</text><text class="cls-12" transform="translate(393.13 233.93)">ImageView</text><text class="cls-12" transform="translate(641.04 233.93)">TextView</text><path class="cls-13" d="M463.5 340v-93M696.5 360V243"></path><path class="cls-11" d="M506.62 146.26l-127.69.5v178.5M680.67 145.09l125.69.5v179.5"></path></g></g><g id="ios"><path class="cls-14" d="M586.84 758.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.16 6.61-6.16 6.55 2.61 6.6 6.16zm-13.1 45.18v-35.42h13v35.42zM640.88 778.58c0 15.61-9.38 25.54-24.35 25.54s-23.32-11.28-23.32-24.77c0-14.13 9.26-25.34 24.13-25.34 15.6-.01 23.54 11.57 23.54 24.57zm-33.91.54c0 9.13 4 14.71 10.19 14.71s10-6.09 10-14.84c0-8.35-3.75-14.69-10-14.69-6.22 0-10.16 5.89-10.16 14.82zM648.67 790.41a29.89 29.89 0 0012.58 3c4.45 0 6.65-1.54 6.65-4s-2.18-3.69-7.67-5.57c-8.17-2.89-13.63-7.41-13.63-14.63 0-8.59 7.24-15.18 19.5-15.18a31.62 31.62 0 0113.12 2.49l-2.72 10.39a25.58 25.58 0 00-10.5-2.3c-4 0-6.14 1.46-6.14 3.58 0 2.47 2.58 3.46 8.7 5.75 8.75 3.2 12.65 7.88 12.65 14.63 0 8.39-6.51 15.52-20.68 15.52a34.76 34.76 0 01-14.27-3z" transform="translate(-32 -38)"></path><g id="app"><g id="nav"><path class="cls-7" d="M885 82h315v632H885z"></path><path class="cls-15" d="M892 677h305v68H892z"></path><path class="cls-16" d="M1078.76 738.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM1178.46 732s-4 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44zM978.31 755a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g><g id="Choupette"><path class="cls-16" d="M994.8 695.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.37c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69 43.85 43.85 0 00-4.86 0 25.44 25.44 0 00-2.05-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.34-7.58z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 657.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris"><path class="cls-18" d="M970 616h208"></path><path class="cls-15" d="M987 604.42s-4.7 1.45-8 8.71a35.16 35.16 0 012 11.87c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-16" d="M981 625a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C977 643.76 981 635 981 625z" transform="translate(-32 -38)"></path><circle class="cls-15" cx="924.5" cy="593.5" r="7.5"></circle><text class="cls-17" transform="translate(972.36 597.03)">Mrs. Norris</text></g><g id="Tuna"><path class="cls-18" d="M970 556h208"></path><path class="cls-19" d="M987 544.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 537.03)">Tuna</text></g><g id="Tabby"><path class="cls-18" d="M970 496h208"></path><path class="cls-15" d="M989.52 514a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-14" d="M969 506.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM955 513s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 01955 513zM982 513c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C984.93 518.16 982 513 982 513zM965.57 531.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29M959.87 522.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM959.84 522.49v-.1zM976 524l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 00976 524zM963 511c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41 0-.24-.12-.48-.18-.72-.6 9.7 3.4 12.09 3.4 12.09zM972.7 511.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM966.35 506.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 477.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger"><path class="cls-18" d="M970 436h208"></path><text class="cls-17" transform="translate(972.36 417.03)">Rum Tum Tugger</text><path class="cls-14" d="M994.64 455.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4a26.94 26.94 0 01-14.36 4.48 3.51 3.51 0 01-1.25 0H972c2.15-.32 7-2.24 13.9-11.86v-.42c.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.07-3.45 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2 18.43 18.43 0 006.81 4.76c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-15" d="M961.56 455.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM960.63 461.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M960.63 461.92a2 2 0 00.26-.43zM972 458.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-15" d="M972 458.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M989.5 464.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-15" d="M973.5 461.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-2"><path class="cls-18" d="M970 376h208"></path><path class="cls-15" d="M987 364.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H964.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 357.03)">Pouncival</text><circle class="cls-16" cx="945" cy="353" r="8"></circle></g><g id="Spot"><path class="cls-18" d="M970 316h208"></path><text class="cls-17" transform="translate(972.36 297.03)">Spot</text><path class="cls-14" d="M989.7 334.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37 12 12 0 008.18 13.37l6.92 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.25-13.38z" transform="translate(-32 -38)"></path></g><g id="Maru"><path class="cls-18" d="M970 256h208"></path><text class="cls-17" transform="translate(972.36 237.03)">Maru</text><path class="cls-14" d="M985 272a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06c-.51 10.51-7.89 18.85-17 18.85a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 01985 272z" transform="translate(-32 -38)"></path><path class="cls-15" d="M990.36 280.21a38.82 38.82 0 01-.13-7A12 12 0 00974 288.8c7.75-.36 17.05-2.12 16.36-8.59zM966 258.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5a15.76 15.76 0 002.02.23c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g id="header"><path class="cls-16" d="M888 85h312v104H888z"></path><text class="cls-20" transform="translate(918.19 163.12)">Cat Cafe Menu</text></g><circle cx="1147.5" cy="715.5" fill="#a21732" r="4.5"></circle></g><g id="device"><path d="M1197.9 100H955.1c-30.43 0-55.1 26.67-55.1 57.1v586.8a55.1 55.1 0 0055.1 55.1h242.8a55.1 55.1 0 0055.1-55.1V157.1c0-30.43-24.67-57.1-55.1-57.1zm26.84 643.79a29.21 29.21 0 01-29.21 29.21h-237a30.69 30.69 0 01-30.68-30.69v-588a29.34 29.34 0 0129.3-29.31h30.12a5.43 5.43 0 015.43 5.43v.57a18.73 18.73 0 0018.74 18.73h128.16a18.2 18.2 0 0018.2-18.2v.84a7.37 7.37 0 017.37-7.37h28.93a30.64 30.64 0 0130.64 30.64z" fill="#134484" transform="translate(-32 -38)"></path><rect class="cls-19" height="7.41" rx="3" width="42" x="1022" y="90.29"></rect><circle class="cls-23" cx="1076.5" cy="93.5" r="4.5"></circle><circle class="cls-14" cx="1076" cy="93" r="2"></circle></g></g><g id="Android"><g data-name="app" id="app-2"><path class="cls-7" d="M9 77h300v639H9z"></path><g data-name="Choupette" id="Choupette-2"><path class="cls-24" d="M107.8 727.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.4c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69A43.85 43.85 0 0079 710a25.44 25.44 0 00-2-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.31-7.7z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 689.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris-2"><path class="cls-25" d="M83 648h208"></path><path class="cls-26" d="M100 636.42s-4.7 1.45-8 8.71A35.16 35.16 0 0194 657c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-24" d="M94 657a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C90 675.76 94 667 94 657z" transform="translate(-32 -38)"></path><circle class="cls-26" cx="37.5" cy="625.5" r="7.5"></circle><text class="cls-17" transform="translate(85.36 629.03)">Mrs. Norris</text></g><g data-name="Tuna" id="Tuna-2"><path class="cls-25" d="M83 588h208"></path><path class="cls-27" d="M100 576.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 569.03)">Tuna</text></g><g data-name="Tabby" id="Tabby-2"><path class="cls-25" d="M83 528h208"></path><path class="cls-26" d="M102.52 546a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-24" d="M82 538.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM68 545s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 0168 545zM95 545c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C97.93 550.16 95 545 95 545zM78.57 563.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29" transform="translate(-32 -38)"></path><path class="cls-14" d="M72.87 554.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM72.84 554.49v-.1z" transform="translate(-32 -38)"></path><path class="cls-24" d="M89 556l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 0089 556zM76 543c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41-.05-.24-.12-.48-.18-.72C72 540.61 76 543 76 543zM85.7 543.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM79.35 538.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 509.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger-2"><path class="cls-25" d="M83 468h208"></path><text class="cls-17" transform="translate(85.36 449.03)">Rum Tum Tugger</text><path class="cls-24" d="M107.64 487.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4A26.94 26.94 0 0185 490.56a3.51 3.51 0 01-1.25 0H85c2.15-.32 7-2.24 13.9-11.86 0-.14 0-.28.05-.42.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.12-3.48 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2A18.43 18.43 0 0062 498.2c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-26" d="M74.56 487.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM73.63 493.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M73.63 493.92a2 2 0 00.26-.43zM85 490.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-26" d="M85 490.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M102.5 496.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-26" d="M86.5 493.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-3"><path class="cls-25" d="M83 408h208"></path><path class="cls-26" d="M100 396.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H77.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 389.03)">Pouncival</text><circle class="cls-24" cx="58" cy="385" r="8"></circle></g><g data-name="Spot" id="Spot-2"><path class="cls-25" d="M83 348h208"></path><text class="cls-17" transform="translate(85.36 329.03)">Spot</text><path class="cls-24" d="M102.7 366.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37A12 12 0 0068 379.52l7 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.17-13.38z" transform="translate(-32 -38)"></path></g><g data-name="Maru" id="Maru-2"><path class="cls-25" d="M83 288h208"></path><text class="cls-17" transform="translate(85.36 269.03)">Maru</text><path class="cls-24" d="M98 304a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06C78.44 300.66 71.06 309 62 309a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 0198 304z" transform="translate(-32 -38)"></path><path class="cls-26" d="M103.36 312.21a38.82 38.82 0 01-.13-7A12 12 0 0087 320.8c7.75-.36 17.05-2.12 16.36-8.59zM79 290.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5A15.76 15.76 0 0062 309c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g data-name="header" id="header-2"><path class="cls-3" d="M19.48 76h276.37A13.15 13.15 0 01309 89.15V180H5V90.48A14.48 14.48 0 0119.48 76z"></path><text class="cls-20" transform="translate(31.19 154.12)">Cat Cafe Menu</text></g><g data-name="nav" id="nav-2"><path class="cls-26" d="M7.18 177H310v46H5v-43.82A2.18 2.18 0 017.18 177z"></path><path class="cls-3" d="M191.76 232.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM291.46 226s-3.95 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44z" transform="translate(-32 -38)"></path><circle cx="260.5" cy="209.5" fill="#ee76ab" r="4.5"></circle><path class="cls-3" d="M91.31 249a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g></g><g data-name="device" id="device-2"><path class="cls-27" d="M314.08 104H66.92A34.91 34.91 0 0032 138.92v629.16A34.91 34.91 0 0066.92 803h247.16A34.91 34.91 0 00349 768.08V138.92A34.91 34.91 0 00314.08 104zM336 735.6a18.4 18.4 0 01-18.4 18.4H64.85A19.85 19.85 0 0145 734.15V139.67A23.67 23.67 0 0168.67 116h60.13a9.2 9.2 0 019.2 9.2v7a19.75 19.75 0 0019.75 19.8h64A19.23 19.23 0 00241 132.77v-7.63a9.14 9.14 0 019.14-9.14h62.32A23.54 23.54 0 01336 139.54z" transform="translate(-32 -38)"></path><rect class="cls-26" height="6" rx="3" width="93" x="111" y="738"></rect><rect class="cls-26" height="6" rx="3" width="34" x="140" y="97"></rect><circle class="cls-23" cx="123.5" cy="95.5" r="6.5"></circle><circle class="cls-23" cx="190.5" cy="95.5" r="4.5"></circle><circle class="cls-24" cx="122" cy="94" r="3"></circle><circle class="cls-24" cx="190" cy="95" r="2"></circle></g><path class="cls-24" d="M507.91 114.08l-2.73 11.25h-13.45l14.08-48.53h17.32l14.47 48.53h-14l-3.1-11.25zm10.77-9.59l-2.25-8.73c-.74-2.74-1.66-6.7-2.41-9.56h-.15c-.72 2.86-1.44 6.86-2.14 9.61l-2.09 8.68zM543.32 102c0-4.72-.15-8.79-.29-12.06h11.2l.57 4.51h.26a12.84 12.84 0 0110.62-5.31c8.24 0 12.76 5.64 12.76 15.32v20.9h-13V106c0-4.06-1.4-6.48-4.5-6.48a4.52 4.52 0 00-4.26 3.12 7 7 0 00-.36 2.61v20h-13zM622.34 74.21v39.92c0 4.4.15 8.86.29 11.2h-11.52l-.52-4.79h-.15c-2.34 4-6.64 5.58-10.69 5.58-8.26 0-15.09-7.14-15.09-18.27 0-11.91 7.48-18.74 15.83-18.74 3.92 0 7.14 1.14 8.73 3.42h.14V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.35 0-6.3 3.89-6.3 8.54 0 5.43 2.67 8.26 6.25 8.26a5.11 5.11 0 005.07-4.23 10.67 10.67 0 00.2-2.38zM630.37 101.86c0-5.64-.09-9-.29-12h11.09l.46 6.39h.29a10.18 10.18 0 019.44-7.19 10.3 10.3 0 012.59.22v12.19a14.91 14.91 0 00-3.31-.36c-3.84 0-6.41 1.6-7.1 4.46a12 12 0 00-.18 2.21v17.5h-13zM695.55 107.26c0 12.87-9.2 18.86-19.12 18.86-10.6 0-18.83-6.73-18.83-18.25 0-11.25 7.43-18.76 19.5-18.76 11.1 0 18.45 7.49 18.45 18.15zm-24.55.34c0 5.31 1.75 9.36 5.76 9.36 3.5 0 5.4-3.67 5.4-9.36 0-4.9-1.58-9.32-5.43-9.32-4.28 0-5.73 4.72-5.73 9.32zM714.89 80.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.15 6.61-6.15 6.55 2.6 6.6 6.15zm-13.1 45.18V89.91h13v35.42zM758.71 74.21v39.92c0 4.4.14 8.86.29 11.2h-11.53l-.52-4.79h-.14c-2.34 4-6.64 5.58-10.69 5.58-8.27 0-15.09-7.14-15.09-18.27 0-11.91 7.47-18.74 15.82-18.74 3.93 0 7.15 1.14 8.73 3.42h.15V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.36 0-6.3 3.89-6.3 8.54 0 5.43 2.66 8.26 6.24 8.26a5.12 5.12 0 005.08-4.23 11.3 11.3 0 00.2-2.38z" transform="translate(-32 -38)"></path></g><g data-name="Layer 4" id="Layer_4"><path class="cls-29" d="M291 348l78-23v135l-78-52V308M821 325l88-11v64l-88 82V325z"></path></g></g></svg>
-In ⟮c+;mobile/app⟯ development, a ⟮c+;view⟯ is ⟮c+;the basic building block of UI⟯. They can be ⟮c+;nested⟯, it is views ⟮c+;all the way down⟯.
+In ⟮mobile/app⟯ development, a ⟮view⟯ is ⟮the basic building block of UI⟯. They can be ⟮nested⟯, it is views ⟮all the way down⟯.
 
 ## user experience
 
@@ -4469,9 +4469,9 @@ A think-aloud protocol has users do a certain task and say whatever comes to min
 
 ### responsive design
 
-responsive (web) design is (esp. web) design that adjusts to work ⟮c+;on a variety of different devices⟯
-progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮c+;then building on top of that for other targets⟯
-Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but ⟮c+;falls back on a good-enough experience⟯
+responsive (web) design is (esp. web) design that adjusts to work ⟮on a variety of different devices⟯
+progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮then building on top of that for other targets⟯
+Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but ⟮falls back on a good-enough experience⟯
 progressive enhancement <-> graceful degradation
 Mobile first is building the mobile site first (and expanding on that for desktop users)
 
@@ -4479,7 +4479,7 @@ Mobile first is building the mobile site first (and expanding on that for deskto
 
 ### FOUC
 
-A ⟮c+;FOUC (Flash of unstyled content)⟯ is when a ⟮c+;page (or some content)⟯ is briefly visible with ⟮c+;no styling/browser default styling⟯
+A ⟮FOUC (Flash of unstyled content)⟯ is when a ⟮page (or some content)⟯ is briefly visible with ⟮no styling/browser default styling⟯
 
 ### geometry
 
@@ -4490,108 +4490,108 @@ the minimum/smallest bounding box is often shortened to merely 「bounding box�
 
 ### color
 
-A ⟮c+;color model⟯ is a model of how ⟮c+;a set of channels⟯ ⟮c+;make up a color⟯. 
-A ⟮c+;color space⟯ is a ⟮c+;color model⟯ ⟮c+;associated with⟯ ⟮c+;how the results are to be interpreted (viewing conditions etc.⟯) 
-A ⟮c+;gamut⟯ is ⟮c+;a complete/'adjacent'⟯ ⟮c+;subset of a colors⟯. 
-Often a ⟮c+;gamut⟯ refers specifically to ⟮c+;the subsset of colors⟯ that ⟮c+;can be displayed or represented by something⟯. 
+A ⟮color model⟯ is a model of how ⟮a set of channels⟯ ⟮make up a color⟯. 
+A ⟮color space⟯ is a ⟮color model⟯ ⟮associated with⟯ ⟮how the results are to be interpreted (viewing conditions etc.⟯) 
+A ⟮gamut⟯ is ⟮a complete/'adjacent'⟯ ⟮subset of a colors⟯. 
+Often a ⟮gamut⟯ refers specifically to ⟮the subsset of colors⟯ that ⟮can be displayed or represented by something⟯. 
 
-⟮c+;Each pixel⟯ in a ⟮c+;color image⟯ is made up of ⟮c+;two or more channels⟯. 
-⟮c+;Each channel⟯ in an image/pixel is ⟮c+;associated with a color⟯. 
-⟮c+;channels⟯ of color may also be called ⟮c+;components⟯. 
-⟮c+;A channel⟯ is ⟮c+;the value of a color⟯ for ⟮c+;a specific pixel, and thus the whole image⟯. 
-⟮c+;Combining⟯ ⟮c+;the color channels⟯ of a pixel (and thus the image) ends you up with ⟮c+;the color of the pixel/image⟯. 
+⟮Each pixel⟯ in a ⟮color image⟯ is made up of ⟮two or more channels⟯. 
+⟮Each channel⟯ in an image/pixel is ⟮associated with a color⟯. 
+⟮channels⟯ of color may also be called ⟮components⟯. 
+⟮A channel⟯ is ⟮the value of a color⟯ for ⟮a specific pixel, and thus the whole image⟯. 
+⟮Combining⟯ ⟮the color channels⟯ of a pixel (and thus the image) ends you up with ⟮the color of the pixel/image⟯. 
 
-In the ⟮c+;RGB⟯ ⟮c+;color model⟯ a thingy has the ⟮c+;three⟯ ⟮c+;channels⟯ ⟮c+;red, green and blue⟯. 
-In the ⟮c+;CMY⟯ ⟮c+;color model⟯ a thingy has the ⟮c+;three⟯ ⟮c+;channels⟯ ⟮c+;cyan, magenta and yellow⟯. 
-The ⟮c+;CMYK⟯ ⟮c+;color model⟯ ⟮c+;adds a channe⟯l of ⟮c+;key⟯ (= ⟮c+;black⟯). 
-The ⟮c+;key channel⟯ is ⟮c+;generally added to CMYK⟯ because ⟮c+;black ink is cheaper,⟯ and ⟮c+;producing black by mixing cyan, magenta and yellow is in practice quite hard⟯. 
-The ⟮c+;CMY⟯ and ⟮c+;RGB⟯ ⟮c+;color models⟯ are ⟮c+;the most common color models in use today⟯, in part because ⟮c+;they correspond roughly to human tricromatic color vision⟯. 
-An ⟮c+;additive color model⟯ is one where ⟮c+;colors⟯ ⟮c+;added together⟯ produce ⟮c+;progressively lighter colors⟯. 
-⟮c+;Light emission⟯ follows ⟮c+;an addtive⟯ color model. 
-A ⟮c+;subtractive color model⟯ is one where ⟮c+;colors⟯ ⟮c+;added together⟯ produce ⟮c+;progressively darker colors⟯. 
-⟮c+;Light absorption⟯ follows ⟮c+;a subtractive⟯ color model. 
-⟮c+;RGB⟯, being ⟮c+;an additive color model⟯, is mainly used for ⟮c+;displays and other places where light is emitted⟯. 
-⟮c+;CMYK⟯ being ⟮c+;a subtractive color model⟯ is mainly used for ⟮c+;printing and other places where light is absorbed.⟯ 
-⟮c+;RYB⟯ is an alternative ⟮c+;subtractive⟯ ⟮c+;color model⟯ still used in the arts. It can however not ⟮c+;create black⟯. 
+In the ⟮RGB⟯ ⟮color model⟯ a thingy has the ⟮three⟯ ⟮channels⟯ ⟮red, green and blue⟯. 
+In the ⟮CMY⟯ ⟮color model⟯ a thingy has the ⟮three⟯ ⟮channels⟯ ⟮cyan, magenta and yellow⟯. 
+The ⟮CMYK⟯ ⟮color model⟯ ⟮adds a channe⟯l of ⟮key⟯ (= ⟮black⟯). 
+The ⟮key channel⟯ is ⟮generally added to CMYK⟯ because ⟮black ink is cheaper,⟯ and ⟮producing black by mixing cyan, magenta and yellow is in practice quite hard⟯. 
+The ⟮CMY⟯ and ⟮RGB⟯ ⟮color models⟯ are ⟮the most common color models in use today⟯, in part because ⟮they correspond roughly to human tricromatic color vision⟯. 
+An ⟮additive color model⟯ is one where ⟮colors⟯ ⟮added together⟯ produce ⟮progressively lighter colors⟯. 
+⟮Light emission⟯ follows ⟮an addtive⟯ color model. 
+A ⟮subtractive color model⟯ is one where ⟮colors⟯ ⟮added together⟯ produce ⟮progressively darker colors⟯. 
+⟮Light absorption⟯ follows ⟮a subtractive⟯ color model. 
+⟮RGB⟯, being ⟮an additive color model⟯, is mainly used for ⟮displays and other places where light is emitted⟯. 
+⟮CMYK⟯ being ⟮a subtractive color model⟯ is mainly used for ⟮printing and other places where light is absorbed.⟯ 
+⟮RYB⟯ is an alternative ⟮subtractive⟯ ⟮color model⟯ still used in the arts. It can however not ⟮create black⟯. 
 
-⟮c+;Color depth⟯ indicates ⟮c+;the amount of bits used⟯ for ⟮c+;color⟯ ⟮c+;per pixel⟯ or ⟮c+;per channel⟯ (since ⟮c+;these rarely overlap⟯, there is no ⟮c+;confusion⟯.) 
-⟮c+;Color depth⟯ is more rarely also called ⟮c+;bit depth⟯. 
-Today, the ⟮c+;most common⟯ ⟮c+;color depth⟯ is ⟮c+;8 bit per channel⟯. 
+⟮Color depth⟯ indicates ⟮the amount of bits used⟯ for ⟮color⟯ ⟮per pixel⟯ or ⟮per channel⟯ (since ⟮these rarely overlap⟯, there is no ⟮confusion⟯.) 
+⟮Color depth⟯ is more rarely also called ⟮bit depth⟯. 
+Today, the ⟮most common⟯ ⟮color depth⟯ is ⟮8 bit per channel⟯. 
 
-the ⟮c+;common color depth of 8 bit per channe⟯l means values from ⟮c+;0 - 255⟯ / ⟮c+;00 to ff⟯. 
-Most colors are specified by ⟮c+;specifying the color model⟯ and then ⟮c+;the components⟯ (e.g. ⟮c+;RGB 0, 120, 58⟯). 
-⟮c+;RGB colors⟯ are also often displayed as ⟮c+;a hex triplet,⟯ which is generally ⟮c+;prefixed by a # character⟯. 
-In certain places, e.g. HTML/CSS, hex colors ⟮c+;with reduplicated digits only (e.g. 663399⟯) can ⟮c+;be shortened to three-digit variants (e.g. 639⟯) 
+the ⟮common color depth of 8 bit per channe⟯l means values from ⟮0 - 255⟯ / ⟮00 to ff⟯. 
+Most colors are specified by ⟮specifying the color model⟯ and then ⟮the components⟯ (e.g. ⟮RGB 0, 120, 58⟯). 
+⟮RGB colors⟯ are also often displayed as ⟮a hex triplet,⟯ which is generally ⟮prefixed by a # character⟯. 
+In certain places, e.g. HTML/CSS, hex colors ⟮with reduplicated digits only (e.g. 663399⟯) can ⟮be shortened to three-digit variants (e.g. 639⟯) 
 
 
-⟮c+;A primary color⟯ is ⟮c+;a member of⟯ a ⟮c+;set of colors⟯ (all ⟮c+;defined to be primary⟯) that ⟮c+;can be combined in varying amounts⟯ to ⟮c+;create a gamut of colors⟯. 
+⟮A primary color⟯ is ⟮a member of⟯ a ⟮set of colors⟯ (all ⟮defined to be primary⟯) that ⟮can be combined in varying amounts⟯ to ⟮create a gamut of colors⟯. 
 
-⟮c+;CMY⟯ and ⟮c+;RGB⟯ are ⟮c+;complementary⟯ in such a way that ⟮c+;C+R⟯, ⟮c+;M+G⟯, and ⟮c+;Y+B⟯ are ⟮c+;all 100% (255 with an 8 bit color depth⟯). To ⟮c+;get one channel⟯, ⟮c+;the other is subtracted from 100%⟯. 
-To get ⟮c+;the K channel⟯ from ⟮c+;CMY⟯: K = ⟮c+;min(C, M, Y⟯) 
-After ⟮c+;getting the K channel⟯, to ⟮c+;convert CMY to CMYK⟯: ⟮c+;Channel_new⟯ =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">⟮c+;Channel - K⟯</div><div>⟮c+;1 - K⟯</div></div> 
+⟮CMY⟯ and ⟮RGB⟯ are ⟮complementary⟯ in such a way that ⟮C+R⟯, ⟮M+G⟯, and ⟮Y+B⟯ are ⟮all 100% (255 with an 8 bit color depth⟯). To ⟮get one channel⟯, ⟮the other is subtracted from 100%⟯. 
+To get ⟮the K channel⟯ from ⟮CMY⟯: K = ⟮min(C, M, Y⟯) 
+After ⟮getting the K channel⟯, to ⟮convert CMY to CMYK⟯: ⟮Channel_new⟯ =&nbsp;&nbsp;<div style="width:fit-content; display:inline-block; text-align: center"><div style="border-bottom: 0.1em solid currentcolor">⟮Channel - K⟯</div><div>⟮1 - K⟯</div></div> 
 
-⟮c+;Hue⟯ is what we might call ⟮c+;<i>color</i>⟯&nbsp;color. 
-⟮c+;Hue⟯ is what ⟮c+;most languages⟯ ⟮c+;consider primary⟯ about ⟮c+;color⟯, with ⟮c+;other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮c+;attached later⟯. 
-⟮c+;Hue⟯ is often ⟮c+;generated from⟯ ⟮c+;RGB⟯, e.g. for ⟮c+;use in HSL &amp; HSV/HSB⟯. 
-If ⟮c+;Hue⟯ is ⟮c+;generated⟯ from ⟮c+;RGB⟯ for ⟮c+;HSL/HSV⟯, it is specified in ⟮c+;a degree from 0 to 360 deg⟯ 
+⟮Hue⟯ is what we might call ⟮<i>color</i>⟯&nbsp;color. 
+⟮Hue⟯ is what ⟮most languages⟯ ⟮consider primary⟯ about ⟮color⟯, with ⟮other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮attached later⟯. 
+⟮Hue⟯ is often ⟮generated from⟯ ⟮RGB⟯, e.g. for ⟮c+;use in HSL &amp; HSV/HSB⟯. 
+If ⟮Hue⟯ is ⟮generated⟯ from ⟮RGB⟯ for ⟮HSL/HSV⟯, it is specified in ⟮a degree from 0 to 360 deg⟯ 
 
 
 if Hue is specified in a degree measurement
 degree|color
-⟮c+;0deg/360deg⟯|⟮c+;red⟯
-⟮c+;120deg⟯|⟮c+;green⟯
-⟮c+;240deg⟯|⟮c+;blue⟯
+⟮0deg/360deg⟯|⟮red⟯
+⟮120deg⟯|⟮green⟯
+⟮240deg⟯|⟮blue⟯
 
 
-Commonly, ⟮c+;saturation⟯ ≈ ⟮c+;chroma⟯ refers to ⟮c+;the distance⟯ of ⟮c+;a color⟯ ⟮c+;from⟯ t⟮c+;he white-gray-black spectrum⟯. 
+Commonly, ⟮saturation⟯ ≈ ⟮chroma⟯ refers to ⟮the distance⟯ of ⟮a color⟯ ⟮from⟯ t⟮he white-gray-black spectrum⟯. 
 
-⟮c+;Lighntess⟯ attempts to model ⟮c+;adding white/black paint⟯ to ⟮c+;make the color white/black⟯. 
-⟮c+;100%⟯ ⟮c+;lightness⟯ is ⟮c+;white⟯ for ⟮c+;any saturation/hue⟯. 
-⟮c+;50%⟯ ⟮c+;lightness⟯ ⟮c+;allows for fully saturated colors⟯. 
-⟮c+;0%⟯ ⟮c+;lightness⟯ is ⟮c+;black⟯ for ⟮c+;any saturation/hue⟯ 
-⟮c+;Value/brightness⟯ attempts to model ⟮c+;how shining more/less light on a thing⟯ will ⟮c+;change the color⟯. 
-⟮c+;100%⟯ ⟮c+;value/brightness⟯ ⟮c+;allows for fully saturated colors.⟯ 
-⟮c+;0%⟯ ⟮c+;lightness⟯ is ⟮c+;black⟯ for ⟮c+;any saturation/hue⟯. 
-⟮c+;tint⟯|⟮c+;mixture of a color with white⟯
-⟮c+;tone⟯|⟮c+;mixture of a color with gray⟯
-⟮c+;shade⟯|⟮c+;mixture of a color with black⟯
+⟮Lighntess⟯ attempts to model ⟮adding white/black paint⟯ to ⟮make the color white/black⟯. 
+⟮100%⟯ ⟮lightness⟯ is ⟮white⟯ for ⟮any saturation/hue⟯. 
+⟮50%⟯ ⟮lightness⟯ ⟮allows for fully saturated colors⟯. 
+⟮0%⟯ ⟮lightness⟯ is ⟮black⟯ for ⟮any saturation/hue⟯ 
+⟮Value/brightness⟯ attempts to model ⟮how shining more/less light on a thing⟯ will ⟮change the color⟯. 
+⟮100%⟯ ⟮value/brightness⟯ ⟮allows for fully saturated colors.⟯ 
+⟮0%⟯ ⟮lightness⟯ is ⟮black⟯ for ⟮any saturation/hue⟯. 
+⟮tint⟯|⟮mixture of a color with white⟯
+⟮tone⟯|⟮mixture of a color with gray⟯
+⟮shade⟯|⟮mixture of a color with black⟯
 
 
-⟮c+;HSL⟯ = ⟮c+;hue, saturation, lightness⟯. 
-⟮c+;HSV⟯ = ⟮c+;hue, saturation, value⟯ ⟮c+;is the same as⟯ ⟮c+;HSB⟯ = ⟮c+;hue, saturation, brightness.⟯ 
-⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ are alternate ⟮c+;color models⟯, which are both ⟮c+;variants of/generated from⟯ ⟮c+;the RGB color model⟯. 
-⟮c+;HSL⟯ and ⟮c+;HSV⟯ were created because ⟮c+;they are more natural to how we as humans understand color.⟯ 
-⟮sa;While ⟮c+;RGB⟯ and ⟮c+;CMY⟯ are most naturally represented as ⟮c+;cubes⟯⟯, ⟮sb;⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ are commonly represented as ⟮c+;cylinders⟯⟯. 
-Since ⟮c+;the top and bottom⟯ of ⟮c+;a ⟮s202;HSL⟯ cylinder⟯ ⟮c+;all approach the same color (white and black respectively⟯), ⟮sb;⟮c+;HSL⟯ may also ⟮c+;be represented as a bicone⟯⟯. 
-Since the ⟮c+;bottom⟯ of ⟮c+;a HSV/HSB cylinder⟯ ⟮c+;approaches the same color (black⟯), ⟮sb;HSV/HSB may more naturally be represented as a cone.⟯ 
-⟮c+;HSL⟯ and ⟮c+;HSV/HSB⟯ both have ⟮s211:212;⟮c+;hue⟯ as ⟮c+;the degree⟯⟯, and ⟮s209:210;⟮c+;saturation⟯ as ⟮c+;the radius⟯.⟯ 
-⟮c+;HSL⟯ has ⟮c+;lightness⟯ as ⟮c+;the height.⟯ 
-⟮c+;HSV/HSB⟯ has v⟮c+;alue/brightness⟯ as ⟮c+;the height⟯.  
-both ⟮c+;HSL⟯ and ⟮c+;HSV/B⟯ have the problem that ⟮c+;changing⟯ the ⟮c+;saturation⟯ and ⟮c+;to a certain extent⟯ ⟮c+;the hue⟯ ⟮c+;will change⟯ ⟮c+;the percieved lightness/brightness⟯, even when ⟮c+;they are supposed to be independent⟯. 
+⟮HSL⟯ = ⟮hue, saturation, lightness⟯. 
+⟮HSV⟯ = ⟮hue, saturation, value⟯ ⟮is the same as⟯ ⟮HSB⟯ = ⟮hue, saturation, brightness.⟯ 
+⟮HSL⟯ and ⟮HSV/HSB⟯ are alternate ⟮color models⟯, which are both ⟮variants of/generated from⟯ ⟮the RGB color model⟯. 
+⟮HSL⟯ and ⟮HSV⟯ were created because ⟮they are more natural to how we as humans understand color.⟯ 
+⟮sa;While ⟮RGB⟯ and ⟮CMY⟯ are most naturally represented as ⟮cubes⟯⟯, ⟮sb;⟮HSL⟯ and ⟮HSV/HSB⟯ are commonly represented as ⟮cylinders⟯⟯. 
+Since ⟮the top and bottom⟯ of ⟮c+;a ⟮s202;HSL⟯ cylinder⟯ ⟮all approach the same color (white and black respectively⟯), ⟮sb;⟮HSL⟯ may also ⟮be represented as a bicone⟯⟯. 
+Since the ⟮bottom⟯ of ⟮a HSV/HSB cylinder⟯ ⟮approaches the same color (black⟯), ⟮sb;HSV/HSB may more naturally be represented as a cone.⟯ 
+⟮HSL⟯ and ⟮HSV/HSB⟯ both have ⟮s211:212;⟮hue⟯ as ⟮the degree⟯⟯, and ⟮s209:210;⟮saturation⟯ as ⟮the radius⟯.⟯ 
+⟮HSL⟯ has ⟮lightness⟯ as ⟮the height.⟯ 
+⟮HSV/HSB⟯ has v⟮alue/brightness⟯ as ⟮the height⟯.  
+both ⟮HSL⟯ and ⟮HSV/B⟯ have the problem that ⟮changing⟯ the ⟮saturation⟯ and ⟮to a certain extent⟯ ⟮the hue⟯ ⟮will change⟯ ⟮the percieved lightness/brightness⟯, even when ⟮they are supposed to be independent⟯. 
 
-flex-container:⟮h∞;<img src="sm_hsl_cylinder.png"><img src="sm_hsv_cylinder.png">⟯
-flex-container:⟮h∞;<img src="sm_hsl_cone.png"><img src="sm_hsv_cone.png">⟯
+flex-container:⟮h∞;✫sm_hsl_cylinder.png✫✫sm_hsv_cylinder.png✫⟯
+flex-container:⟮h∞;✫sm_hsl_cone.png✫✫sm_hsv_cone.png✫⟯
 
-For any given color model, to ⟮c+;specify transparency⟯, you ⟮c+;add another channel⟯, which is called the ⟮c+;alpha⟯ channel.
-For a color hex, you ⟮c+;specify the alpha channel⟯ by ⟮c+;adding another two-digit hex to the end⟯.
-⟮c+;‹color-model›-D⟯ is ⟮c+;just that color model⟯ with ⟮c+;an additional depth channel.⟯ 
+For any given color model, to ⟮specify transparency⟯, you ⟮add another channel⟯, which is called the ⟮alpha⟯ channel.
+For a color hex, you ⟮specify the alpha channel⟯ by ⟮adding another two-digit hex to the end⟯.
+⟮‹color-model›-D⟯ is ⟮just that color model⟯ with ⟮an additional depth channel.⟯ 
 
 RGB 3-tuple notation|color
-⟮c+;Rgb(0, 0, 0⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.42.47.png">⟯
-⟮c+;Rgb(0, 0, 255⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.43.44.png">⟯
-⟮c+;Rgb(0, 255, 0⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.43.16.png">⟯
-⟮c+;Rgb(0, 255, 255⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.44.39.png">⟯
-⟮c+;Rgb(255, 0, 0⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.42.26.png">⟯
-⟮c+;Rgb(255, 0, 255)?⟯|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.41.37.png">⟯
-⟮c+;Rgb(255, 255, 0⟯)|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.45.11.png">⟯
-⟮c+;Rgb(255, 255, 255)?⟯|⟮c+;<img src="sm_Screenshot%202020-02-25%20at%2017.41.09.png">⟯
-⟮c+;#f2f12f⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">⟯
-⟮c+;#e6281f⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">⟯
-⟮c+;#e2e⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">⟯
-⟮c+;#daefe4⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">⟯
-⟮c+;#867d7e⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">⟯
-⟮c+;#17F099⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">⟯
-⟮c+;#132133⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">⟯
+⟮Rgb(0, 0, 0⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.42.47.png✫⟯
+⟮Rgb(0, 0, 255⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.43.44.png✫⟯
+⟮Rgb(0, 255, 0⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.43.16.png✫⟯
+⟮Rgb(0, 255, 255⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.44.39.png✫⟯
+⟮Rgb(255, 0, 0⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.42.26.png✫⟯
+⟮Rgb(255, 0, 255)?⟯|⟮✫sm_Screenshot%202020-02-25%20at%2017.41.37.png✫⟯
+⟮Rgb(255, 255, 0⟯)|⟮✫sm_Screenshot%202020-02-25%20at%2017.45.11.png✫⟯
+⟮Rgb(255, 255, 255)?⟯|⟮✫sm_Screenshot%202020-02-25%20at%2017.41.09.png✫⟯
+⟮#f2f12f⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">⟯
+⟮#e6281f⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">⟯
+⟮#e2e⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">⟯
+⟮#daefe4⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">⟯
+⟮#867d7e⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">⟯
+⟮#17F099⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">⟯
+⟮#132133⟯|⟮c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">⟯
 
 
 Color temperature is measured in Kelvin.
@@ -4601,13 +4601,13 @@ candles|1500-2000K
 
 #### color schemes
 
-⟮c1,15;analogous ⟯|⟮c+;h15:21;Two or more colors that are all next to each other on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg">⟯
-⟮c2,16;complementary ⟯|⟮c+;h15:21;Two opposite colors on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg">⟯
-⟮c3,17;monochromatic ⟯|⟮c+;h15:21;A single color⟯|⟮c+;h8:14;<img src="sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg">⟯
-⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c+;h15:21;two pairs of complementary colors ⟯|⟮c+;h8:14;<img src="sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg">⟯
-⟮c5,19;split complementary (is a form ⟯|⟮c+;h15:21;A color and the colors adjacent to its complementary ⟯|⟮c+;h8:14;<img src="sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg">⟯
-⟮c6,20;tetradic (more specif. square⟯)|⟮c+;h15:21;Four colors equally spaced on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg">⟯
-⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;<img src="sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg">⟯
+⟮c1,15;analogous ⟯|⟮c+;h15:21;Two or more colors that are all next to each other on the color wheel⟯|⟮c+;h8:14;✫sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg✫⟯
+⟮c2,16;complementary ⟯|⟮c+;h15:21;Two opposite colors on the color wheel⟯|⟮c+;h8:14;✫sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg✫⟯
+⟮c3,17;monochromatic ⟯|⟮c+;h15:21;A single color⟯|⟮c+;h8:14;✫sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg✫⟯
+⟮c4,18;tetradic (more specif: double complementary) ⟯|⟮c+;h15:21;two pairs of complementary colors ⟯|⟮c+;h8:14;✫sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg✫⟯
+⟮c5,19;split complementary (is a form ⟯|⟮c+;h15:21;A color and the colors adjacent to its complementary ⟯|⟮c+;h8:14;✫sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg✫⟯
+⟮c6,20;tetradic (more specif. square⟯)|⟮c+;h15:21;Four colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg✫⟯
+⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫⟯
 
 
 ### blending
@@ -4627,51 +4627,51 @@ The two main advantages of sprites over multiple images is that  they can be eas
 
 ### refresh rates
 
-⟮c+;FPS⟯ (computing context) is short for ⟮c+;frames per second⟯ 
-The most common ⟮c+;display refresh rate⟯ as of 2020 is ⟮c+;60fps/hz⟯ 
-Traditionally, it is said that ⟮c+;20-30 fps⟯ is ⟮c+;the minimum⟯ to see ⟮c+;smooth movement and not just a series of images⟯. 
-⟮c+;1⟯ FPS = ⟮c+;1⟯ Hz 
+⟮FPS⟯ (computing context) is short for ⟮frames per second⟯ 
+The most common ⟮display refresh rate⟯ as of 2020 is ⟮60fps/hz⟯ 
+Traditionally, it is said that ⟮20-30 fps⟯ is ⟮the minimum⟯ to see ⟮smooth movement and not just a series of images⟯. 
+⟮1⟯ FPS = ⟮1⟯ Hz 
 medium|FPS
-⟮c+;video (traditional⟯)|⟮c+;30fps⟯
-⟮c+;film⟯|⟮c+;24fps⟯
+⟮video (traditional⟯)|⟮30fps⟯
+⟮film⟯|⟮24fps⟯
 
 
 ### transparency & opacity
 
-The ⟮c+;inverse of⟯ ⟮c+;transparency⟯ is ⟮c+;opacity⟯ 
+The ⟮inverse of⟯ ⟮transparency⟯ is ⟮opacity⟯ 
 
 transparency/opacity|visibility
-⟮c+;0% transparency / 100% opacity⟯|⟮c+;completely visible⟯
-⟮c+;100% transparency / 0% opacity⟯|⟮c+;completely invisible⟯
-⟮c+;30% transparency /70% opacity⟯|⟮c+;70% visible⟯
-⟮c+;55% transparency /45% opacity⟯|⟮c+;45% visible⟯
+⟮0% transparency / 100% opacity⟯|⟮completely visible⟯
+⟮100% transparency / 0% opacity⟯|⟮completely invisible⟯
+⟮30% transparency /70% opacity⟯|⟮70% visible⟯
+⟮55% transparency /45% opacity⟯|⟮45% visible⟯
 
 
 
 ## design
 
-flex-container:<img src="sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg"><img src="sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg"><img src="sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg"><img src="sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg">
+flex-container:✫sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg✫✫sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg✫✫sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg✫✫sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg✫
 
-It is often said (esp. in animation) that ⟮c+;good characters⟯ should ⟮c+;be recognizable by⟯ ⟮c+;their silhouette alone⟯ 
-
-
-flex-container:<img src="sm_faces1.gif">
-flex-container:<img src="sm_1280px-FedEx_Corporation_logo.svg.png">
-
-flex-container:<img src="sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg">
-
-⟮c+;Negative space⟯ is ⟮c+;the area without subjects/areas of focus⟯
-⟮c+;Positive space⟯ is ⟮c+;the area with subjects/areas of focus⟯
-In the image, if ⟮c+;you see a vase⟯, the ⟮c+;black space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;white space⟯ is the ⟮c+;positive space⟯
-In the image, if ⟮c+;you see two faces⟯, the ⟮c+;white space⟯ is the ⟮c+;negative space⟯ and the ⟮c+;black space⟯ is the ⟮c+;positive space⟯
-In the image, the ⟮c+;positive space⟯ is (probably/arguably) ⟮c+;the woman.⟯
-
-flex-container:<img src="sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg"><img src="sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg"><img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg">
+It is often said (esp. in animation) that ⟮good characters⟯ should ⟮be recognizable by⟯ ⟮their silhouette alone⟯ 
 
 
-⟮c+;hostile/defensive architecture/design⟯ is architecture that ⟮c+;restricts/guides behavior⟯ to ⟮c+;protect property⟯ or ⟮c+;prevent crime⟯ 
-hostile/defensive architecture might look like ⟮c+;‹image›⟯ 
-The most common people targeted by ⟮c+;hostile/defensive architecture/design⟯ in the west are ⟮c+;the homeless⟯ and ⟮c+;young people⟯ 
+flex-container:✫sm_faces1.gif✫
+flex-container:✫sm_1280px-FedEx_Corporation_logo.svg.png✫
+
+flex-container:✫sm_Childe-Hassam-The-Flag-Outside-Her-Window-April-Aka-Boys-Marching-By-1918.jpg✫
+
+⟮Negative space⟯ is ⟮the area without subjects/areas of focus⟯
+⟮Positive space⟯ is ⟮the area with subjects/areas of focus⟯
+In the image, if ⟮you see a vase⟯, the ⟮black space⟯ is the ⟮negative space⟯ and the ⟮white space⟯ is the ⟮positive space⟯
+In the image, if ⟮you see two faces⟯, the ⟮white space⟯ is the ⟮negative space⟯ and the ⟮black space⟯ is the ⟮positive space⟯
+In the image, the ⟮positive space⟯ is (probably/arguably) ⟮the woman.⟯
+
+flex-container:✫sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg✫✫sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg✫<img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg">
+
+
+⟮hostile/defensive architecture/design⟯ is architecture that ⟮restricts/guides behavior⟯ to ⟮protect property⟯ or ⟮prevent crime⟯ 
+hostile/defensive architecture might look like ⟮‹image›⟯ 
+The most common people targeted by ⟮hostile/defensive architecture/design⟯ in the west are ⟮the homeless⟯ and ⟮young people⟯ 
 
 ## misc
 
@@ -4693,35 +4693,35 @@ open|cannot be en/disabled
 
 #### curb cut effect
 
-flex-container:⟮h∞;<img src="sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg"><img src="sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg"><img src="sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg">⟯
+flex-container:⟮h∞;✫sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg✫✫sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg✫✫sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg✫⟯
 
-Only after ⟮c+;disabled people protested⟯ did ⟮c+;curb cuts begin to be instituted⟯. 
-⟮c+;Curb cuts⟯ have only really ⟮c+;become common⟯ ⟮c+;in the last few decades⟯ 
-⟮c+;Curb cuts⟯ had ⟮c+;many unexpected benefits⟯ besides ⟮c+;helping disabled people⟯, giving rise to the term ⟮c+;curb cut effect⟯. 
-⟮c+;The curb cut effect⟯ states that ⟮c+;accessibility improvements⟯ provide ⟮c+;many and varied benefits for everyone⟯ besides ⟮c+;their initial aims⟯ 
+Only after ⟮disabled people protested⟯ did ⟮curb cuts begin to be instituted⟯. 
+⟮Curb cuts⟯ have only really ⟮become common⟯ ⟮in the last few decades⟯ 
+⟮Curb cuts⟯ had ⟮many unexpected benefits⟯ besides ⟮helping disabled people⟯, giving rise to the term ⟮curb cut effect⟯. 
+⟮The curb cut effect⟯ states that ⟮accessibility improvements⟯ provide ⟮many and varied benefits for everyone⟯ besides ⟮their initial aims⟯ 
 
 #### non-directive play
 
-flex-container:⟮h∞;<img src="sm_Isamu-Noguchi-Three-1440x943.jpg"><img src="sm_IMG_8551.jpg">⟯⟮c+;non-directive/self-directed play⟯ is play that ⟮c+;allows the players to do whatever they come up with⟯
+flex-container:⟮h∞;✫sm_Isamu-Noguchi-Three-1440x943.jpg✫✫sm_IMG_8551.jpg✫⟯⟮non-directive/self-directed play⟯ is play that ⟮allows the players to do whatever they come up with⟯
 
-⟮c+;self-directed play⟯ is easier to do when ⟮c+;the play tools are not designed with any particular end in mind⟯ 
-⟮c+;self-directed play⟯ was advocated, especially in ⟮c+;playgrounds⟯, by ⟮c+;Isamu Noguchi⟯ 
-⟮c+;Noguchi⟯ ⟮c+;long struggled⟯ to g⟮c+;et a self-directed play playground built⟯, but ⟮c+;one was eventually built in Sapporo⟯ 
+⟮self-directed play⟯ is easier to do when ⟮the play tools are not designed with any particular end in mind⟯ 
+⟮self-directed play⟯ was advocated, especially in ⟮playgrounds⟯, by ⟮Isamu Noguchi⟯ 
+⟮Noguchi⟯ ⟮long struggled⟯ to g⟮et a self-directed play playground built⟯, but ⟮one was eventually built in Sapporo⟯ 
 
 ### robots
 
 #### robots/noindex
 
-There are two ways to ⟮c+;specify what crawlers such as those from search engines can crawl⟯, ⟮c+;the robots.txt⟯ and ⟮c+;the noindex tag⟯. 
-The ⟮c+;robots.txt⟯ follows/implements ⟮c+;the robots exclusion standard/protocol⟯. 
-⟮c+;The robots.txt⟯ is a file with ⟮c+;a specific syntax⟯ to indicate ⟮c+;what can crawl sites how⟯. 
-⟮c+;The robots.txt⟯ may not ⟮c+;always hide pages⟯, specifically, ⟮c+;the page may still display in search results⟯, but ⟮c+;lacking any descriptive content⟯. If you want ⟮c+;to hide the page completely⟯, use ⟮c+;a noindex tag or HTTP header⟯. 
-The ⟮c+;noindex tag⟯ is a ⟮c+;HTML meta tag⟯ that ⟮c+;tells crawlers how they should crawl the given page⟯. 
-Setting both ⟮c+;the robots.txt⟯ and ⟮c+;noindex tag⟯ for the same thing ⟮c+;can produce problems⟯ and ⟮c+;is not advised⟯. 
-While ⟮c+;you can tell what crawlers should crawl⟯ via ⟮c+;robots.txt/noindex⟯, ⟮c+;there is no reason they have to respect it.⟯ 
-⟮c+;Pages that should be on the robots.txt/have a noindex tag⟯ are e.g. ⟮c+;internal search pages, pages that require a certain state.⟯ 
-If ⟮c+;a page should truly inaccessible to outside forces⟯, ⟮c+;using robots.txt/noindex tags is not enough⟯, it should then be ⟮c+;password-protected or similar.⟯ 
-Example noindex tag: `‹⟮c+;meta⟯ name="⟮c+;robots⟯ (all) / ⟮c+;googlebot⟯ (only google) content="⟮c+;noindex⟯"›` 
+There are two ways to ⟮specify what crawlers such as those from search engines can crawl⟯, ⟮the robots.txt⟯ and ⟮the noindex tag⟯. 
+The ⟮robots.txt⟯ follows/implements ⟮the robots exclusion standard/protocol⟯. 
+⟮The robots.txt⟯ is a file with ⟮a specific syntax⟯ to indicate ⟮what can crawl sites how⟯. 
+⟮The robots.txt⟯ may not ⟮always hide pages⟯, specifically, ⟮the page may still display in search results⟯, but ⟮lacking any descriptive content⟯. If you want ⟮to hide the page completely⟯, use ⟮a noindex tag or HTTP header⟯. 
+The ⟮noindex tag⟯ is a ⟮HTML meta tag⟯ that ⟮tells crawlers how they should crawl the given page⟯. 
+Setting both ⟮the robots.txt⟯ and ⟮noindex tag⟯ for the same thing ⟮can produce problems⟯ and ⟮is not advised⟯. 
+While ⟮you can tell what crawlers should crawl⟯ via ⟮robots.txt/noindex⟯, ⟮there is no reason they have to respect it.⟯ 
+⟮Pages that should be on the robots.txt/have a noindex tag⟯ are e.g. ⟮internal search pages, pages that require a certain state.⟯ 
+If ⟮a page should truly inaccessible to outside forces⟯, ⟮using robots.txt/noindex tags is not enough⟯, it should then be ⟮password-protected or similar.⟯ 
+Example noindex tag: `‹⟮meta⟯ name="⟮robots⟯ (all) / ⟮googlebot⟯ (only google) content="⟮noindex⟯"›` 
 
 #### sitemap
 
@@ -4732,21 +4732,21 @@ sitemaps are XML, RSS/Atom, or .txt documents that describe the navigational str
 The most fundamental thing that influences your SEO is how many other links to your site exist, and who these sites linking to you are.
 By linking to a site, you confer some of your sites reputation to that site.
 SEO|Search engine optimization
-related to navigation, google will reward a site that has a navigation that is ⟮c+;sensible⟯, uses ⟮c+;text (or e.g. aria tags)⟯, but ⟮c+;does not go overboard in its complexity⟯
+related to navigation, google will reward a site that has a navigation that is ⟮sensible⟯, uses ⟮text (or e.g. aria tags)⟯, but ⟮does not go overboard in its complexity⟯
 Google may penalize if you have a bunch of pages with basically the same content.
 
-As of 2021, ⟮c+;stuffing keywords⟯ in places is ⟮c+;no longer effective⟯ for ⟮c+;SEO⟯ 
-As of 2021, for ⟮c+;SEO⟯, ⟮c+;a page title/ description⟯ should be ⟮c+;descriptive of the page content⟯ and ⟮c+;distinct from other page titles⟯. 
+As of 2021, ⟮stuffing keywords⟯ in places is ⟮no longer effective⟯ for ⟮SEO⟯ 
+As of 2021, for ⟮SEO⟯, ⟮a page title/ description⟯ should be ⟮descriptive of the page content⟯ and ⟮distinct from other page titles⟯. 
 
 ### Accessibility
 
-⟮c+;Accessibility⟯ is ⟮c+;designing things⟯ ⟮c+;so as to be usable by people with disabilities (with a variety of bodies⟯)
+⟮Accessibility⟯ is ⟮designing things⟯ ⟮so as to be usable by people with disabilities (with a variety of bodies⟯)
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
 For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
 #### WAI & WCAG basics
 
-⟮c+;the Web Accessibility Initiative (WAI)⟯ is the W3C initiative supporting accessibility.
+⟮the Web Accessibility Initiative (WAI)⟯ is the W3C initiative supporting accessibility.
 the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
 The WCAG consists of principles, guidelines, successs criteria, and techniques.
 WCAG principles are the general ideas underlying web accessibility: percievable, operable, undertandable, robust.
@@ -4756,9 +4756,9 @@ For each guideline and success criterion the WCAG also includes a wide variety o
 WCAG techniques may either be »sufficient«, i.e. enough to meet a success criterion, or be »advisory«, which is going beyond the success criterion to better address the guideline behind it. Additionally, WCAG techniques may document common failures.
 The WCAG defines three levels of conformance, A, AA, And AAA, for each success criterion.
 In some countries websites, especially those of public sector bodies must conform with certain WCAG levels.
-the WAI published the WCAG ⟮c+;2.1⟯ version in ⟮c+;2018⟯, and is expected to publish WCAG ⟮c+;2.2⟯ in ⟮c+;2021⟯ 
-According to the WCAG ⟮c+;level AA⟯, color should have a ⟮c+;contrast ratio⟯ of at least ⟮c+;3:1⟯ for ⟮c+;large⟯ and ⟮c+;4.5:1⟯ for ⟮c+;normal⟯ text 
-According to the WCAG ⟮c+;level AAA⟯, color should have a ⟮c+;contrast ratio⟯ of at least ⟮c+;4.5:1⟯ for ⟮c+;large⟯ and ⟮c+;7:1⟯ for ⟮c+;normal⟯ text 
+the WAI published the WCAG ⟮2.1⟯ version in ⟮2018⟯, and is expected to publish WCAG ⟮2.2⟯ in ⟮2021⟯ 
+According to the WCAG ⟮level AA⟯, color should have a ⟮contrast ratio⟯ of at least ⟮3:1⟯ for ⟮large⟯ and ⟮4.5:1⟯ for ⟮normal⟯ text 
+According to the WCAG ⟮level AAA⟯, color should have a ⟮contrast ratio⟯ of at least ⟮4.5:1⟯ for ⟮large⟯ and ⟮7:1⟯ for ⟮normal⟯ text 
 
 #### WCAG success critera
 
@@ -4771,7 +4771,7 @@ iframes and frames should have a title (doing what alt text would do for images)
 
 #### WCAG techniques
 
-Based off ⟮c+;the DOM tree⟯, the browser builds the ⟮c+;accessibility tree⟯ containing ⟮c+;all accessibility-relevant information⟯
+Based off ⟮the DOM tree⟯, the browser builds the ⟮accessibility tree⟯ containing ⟮all accessibility-relevant information⟯
 
 ##### Semantic HTML
 
@@ -4784,16 +4784,16 @@ Semantic HTML includes elements like ‹article›, ‹nav›, ‹summary›, co
 ARIA attributes fall under the umbrella of WCAG techniques.
 ARIA  Accessible Rich Internet Applications
 ARIA is mainly realized in HTML attributes.
-⟮c+;Where available⟯, prefer ⟮c+;semantic HTML⟯ over ⟮c+;ARIA⟯
+⟮Where available⟯, prefer ⟮semantic HTML⟯ over ⟮ARIA⟯
 ARIA attributes change the accessibility tree, but nothing else.
-There are three types of attributes that ⟮c+;ARIA⟯ has: ⟮c+;Roles⟯, ⟮c+;States⟯ and ⟮c+;Properties⟯
-ARIA ⟮c+;roles⟯ define the ⟮c+;main type of component⟯, e.g. ⟮c+;toolbar, banner⟯
-ARIA ⟮c+;states⟯ define some property ⟮c+;that can change⟯
-ARIA ⟮c+;properties⟯ define some property ⟮c+;that is expected to stay the same⟯
-There are four types of aria ⟮c+;states⟯ &amp; ⟮c+;properties⟯: ⟮c+;drag-and-drop⟯, ⟮c+;live region⟯, ⟮c+;relationship⟯, and ⟮c+;widgets⟯
+There are three types of attributes that ⟮ARIA⟯ has: ⟮Roles⟯, ⟮States⟯ and ⟮Properties⟯
+ARIA ⟮roles⟯ define the ⟮main type of component⟯, e.g. ⟮toolbar, banner⟯
+ARIA ⟮states⟯ define some property ⟮that can change⟯
+ARIA ⟮properties⟯ define some property ⟮that is expected to stay the same⟯
+There are four types of aria ⟮states⟯ &amp; ⟮properties⟯: ⟮drag-and-drop⟯, ⟮live region⟯, ⟮relationship⟯, and ⟮widgets⟯
 
-the ⟮c+;aria-label⟯ ⟮c+;attribute⟯ is for adding ⟮c+;a text description⟯ of ⟮c+;what something does⟯ where ⟮c+;the actual content doesn't suffice⟯
-a reason for using aria-label might be e.g. because a close button is realized ⟮c+;with an icon font/an x⟯
+the ⟮aria-label⟯ ⟮attribute⟯ is for adding ⟮a text description⟯ of ⟮what something does⟯ where ⟮the actual content doesn't suffice⟯
+a reason for using aria-label might be e.g. because a close button is realized ⟮with an icon font/an x⟯
 
 # data storage
 
@@ -4856,8 +4856,8 @@ secondary -> primary memory|paged/swapped in
 
 ### fragmentation
 
-⟮c+;Memory fragmentation⟯ is when memory is ⟮c+;allocated in many non-contiguous blocks⟯, meaning it has ⟮c+;small spaces that can't store anything useful⟯ 
-⟮c+;Memory fragmentation⟯ results in ⟮c+;the wasting of storage⟯. 
+⟮Memory fragmentation⟯ is when memory is ⟮allocated in many non-contiguous blocks⟯, meaning it has ⟮small spaces that can't store anything useful⟯ 
+⟮Memory fragmentation⟯ results in ⟮the wasting of storage⟯. 
 
 ### relation to processor
 
@@ -4902,19 +4902,19 @@ HDDs are thick even though individual platters are thin because HDDs generally c
 HDD platters are discs usually made up of a aluminum/glass plate coated with a magnetic coating.
 in a HDD, the head performs read-writing.
 in a HDD, the head is mere nanometers from the platter.
-⟮h1;<img src="sm_250px-Samsung_Harddrive_headcrash_DSCN0124b.jpg">⟯
+⟮h1;✫sm_250px-Samsung_Harddrive_headcrash_DSCN0124b.jpg✫⟯
 A head crash is the head of a HDD making contact with its rotating platter, slashing the surface and causing disk damage/failure.
 Head crashes generally happen due to falling/jolts or due to dust sticking to the head.
 
-flex-container:<img src="sm_hdd_w_labels.svg">
-flex-container:<img src="sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg"><img src="sm_220px-Laptop-hard-drive-exposed.jpg">
+flex-container:✫sm_hdd_w_labels.svg✫
+flex-container:✫sm_1280px-Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg✫✫sm_220px-Laptop-hard-drive-exposed.jpg✫
 as of 2020, HDDs usually spin at 5400 or 7200 RPM.
 as of 2020, HDDs are typically a few TB in size.
 
 a HDD is made up of clusters which are made up of sectors.
 A sector used to be 512 byte large normally; today, that is usually 4096 Bytes (4KiB)
 
-flex-container:<img src="sm_cyl_head_sect_dia.svg">
+flex-container:✫sm_cyl_head_sect_dia.svg✫
 
 HDDs originally used a form of physical addressing known as CHS.
 CHS = Cylinder Head Sector
@@ -4962,19 +4962,19 @@ gparted and gnome-disks are GUIs for partition/disk management
 
 mac
 
-On mac, ⟮c+;drutil⟯ is the ⟮c+;CLI⟯ utility for ⟮c+;interacting with burnable media⟯. 
-On mac, ⟮c+;diskutil⟯ is the ⟮c+;CLI⟯ utility for ⟮c+;interacting with harddrives.⟯ 
+On mac, ⟮drutil⟯ is the ⟮CLI⟯ utility for ⟮interacting with burnable media⟯. 
+On mac, ⟮diskutil⟯ is the ⟮CLI⟯ utility for ⟮interacting with harddrives.⟯ 
 
 Verb|Function|Which of drutil/diskutil?
-⟮c+;list⟯|⟮c+;list attached devices⟯|⟮c+;drutil, diskutil⟯
-⟮c+;eject⟯|⟮c+;ejecting a device⟯|⟮c+;drutil, diskutil⟯
+⟮list⟯|⟮list attached devices⟯|⟮drutil, diskutil⟯
+⟮eject⟯|⟮ejecting a device⟯|⟮drutil, diskutil⟯
 
 
 
 ### file system
 
-The file system is the method/system/whatever that controls/specifies how ⟮c+;data is organized within a partition⟯
-A flat file system is a file system with no ⟮c+;subdirectories⟯
+The file system is the method/system/whatever that controls/specifies how ⟮data is organized within a partition⟯
+A flat file system is a file system with no ⟮subdirectories⟯
 Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
 Even non-case-sensitive file systems are almost always case-preserving.
 fsck checks/repairs a linux filesystem.
@@ -5000,7 +5000,7 @@ file|get file type and related info
 
 ### directory structure
 
-⟮c+;the directory structure⟯ is the way data is organized in a file system using directories.
+⟮the directory structure⟯ is the way data is organized in a file system using directories.
 If the directory structure is a tree, it is often called a/the directory tree.
 filesystem hierarchy is a rough synonym of directory structure
 In *nix-likes, the root directory is the directory all other directories descend from.
@@ -5035,9 +5035,9 @@ a file manager/browser is a program that provides an user interface for managing
 mc ("midnight commander"), nnn are TUI file browsers.
 Nautilus is file manager for GNOME.
 
-flex-container:<img src="sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg">
+flex-container:✫sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg✫
 
-For ⟮c+;Finder⟯, ⟮c+;whenever you search anything in the top right bar⟯, ⟮c+;a Searching/Find window opens⟯. ⟮hb;To ⟮c+;add filters to the search⟯, ⟮c+;click the small plus in the top right corner⟯. ⟮hb;You can use this to search ⟮c+;pretty much any of the files properties⟯ with ⟮c+;fine granularity⟯.⟯⟯ 
+For ⟮Finder⟯, ⟮whenever you search anything in the top right bar⟯, ⟮a Searching/Find window opens⟯. ⟮hb;To ⟮add filters to the search⟯, ⟮click the small plus in the top right corner⟯. ⟮hb;You can use this to search ⟮pretty much any of the files properties⟯ with ⟮fine granularity⟯.⟯⟯ 
 
 ##### information
 
@@ -5122,7 +5122,7 @@ $XDG_CACHE_HOME|$HOME/.cache|/var/cache
 ##### FHS
 
 FHS  Filesystem Hierarchy Standard
-FHS (Filesystem Hierarchy Standard) is the Linux spec for ⟮c+;directory structure⟯
+FHS (Filesystem Hierarchy Standard) is the Linux spec for ⟮directory structure⟯
 source code should be in src for reference only
 
 ###### /sys
@@ -5281,8 +5281,8 @@ piping to `source /dev/stdin` executes the text as a command
 
 ##### Mac
 
-flex-container:<img src="sm_Screenshot%202020-07-09%20at%2014.36.21.jpg">
-⟮c+;macOs⟯'s ⟮c+;/private⟯ folder contains ⟮c+;a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1:3;⟮c+;etc⟯, ⟮c+;tmp⟯, and ⟮c+;var⟯⟯
+flex-container:✫sm_Screenshot%202020-07-09%20at%2014.36.21.jpg✫
+⟮macOs⟯'s ⟮/private⟯ folder contains ⟮a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1:3;⟮etc⟯, ⟮tmp⟯, and ⟮var⟯⟯
 
 ## files
 
@@ -5302,17 +5302,17 @@ rnr   regex renaming utility that actually works well
 
 #### diff
 
-⟮c+;diff⟯ is a tool that ⟮c+;shows the differences between files⟯. 
-⟮c+;diff⟯ is originally ⟮c+;a cli program of the same name⟯. 
-There are variants of ⟮c+;the original cli program diff⟯ that change how it work somewhat, e.g. ⟮c+;sdiff⟯ for ⟮c+;side-by-die diffs⟯ and ⟮c+;icdiff⟯ for ⟮c+;both colored and side-by-side diffs⟯ 
-⟮c+;diff⟯ is now offered as ⟮c+;a subcommand of⟯ ⟮c+;many other tools⟯. 
-⟮c+;npm⟯ ⟮c+;diff⟯ provides ⟮c+;diffs between packages⟯, some of which must be ⟮c+;published to the npm registry⟯ 
-⟮c+;git diff⟯ shows the difference between things ⟮c+;in/related to a git repository⟯. 
-⟮c+;no argument⟯|⟮c+;show diff between unstaged and staged/committed⟯
-⟮c+;--staged/--cached (synonyms⟯)|⟮c+;show diff of staged changes with latest commit (or specified commit⟯)
+⟮diff⟯ is a tool that ⟮shows the differences between files⟯. 
+⟮diff⟯ is originally ⟮a cli program of the same name⟯. 
+There are variants of ⟮the original cli program diff⟯ that change how it work somewhat, e.g. ⟮sdiff⟯ for ⟮side-by-die diffs⟯ and ⟮icdiff⟯ for ⟮both colored and side-by-side diffs⟯ 
+⟮diff⟯ is now offered as ⟮a subcommand of⟯ ⟮many other tools⟯. 
+⟮npm⟯ ⟮diff⟯ provides ⟮diffs between packages⟯, some of which must be ⟮published to the npm registry⟯ 
+⟮git diff⟯ shows the difference between things ⟮in/related to a git repository⟯. 
+⟮no argument⟯|⟮show diff between unstaged and staged/committed⟯
+⟮--staged/--cached (synonyms⟯)|⟮show diff of staged changes with latest commit (or specified commit⟯)
 
 
-further, ⟮c+;diff-like output⟯ is now used in ⟮c+;a wide variety of gui applications⟯ 
+further, ⟮diff-like output⟯ is now used in ⟮a wide variety of gui applications⟯ 
 
 ### files as binary
 
@@ -5333,10 +5333,10 @@ folder (windows) = directory (*nix)
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
 chown changes the owner and/or group of the file
 chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
-The three permissions that unix tracks are ⟮c+;read⟯, ⟮c+;write⟯,, and ⟮c+;execute⟯
-⟮c+;x⟯|⟮c+;execute⟯
-⟮c+;w⟯|⟮c+;write⟯
-⟮c+;r⟯|⟮c+;read⟯
+The three permissions that unix tracks are ⟮read⟯, ⟮write⟯,, and ⟮execute⟯
+⟮x⟯|⟮execute⟯
+⟮w⟯|⟮write⟯
+⟮r⟯|⟮read⟯
 
 #### inodes
 
@@ -5373,7 +5373,7 @@ table:inode number|refers to
 #### 7 types of files
 
 In unix, there are 7 types of files.
-Types of files in linux: ⟮c+;Regular file⟯ ⟮c+;Directory⟯ ⟮c+;Symlink⟯ ⟮c+;FIFO/named pipe⟯ ⟮c+;Socket⟯ ⟮c+;Device file (block)⟯ ⟮c+;Device file (character)⟯
+Types of files in linux: ⟮Regular file⟯ ⟮Directory⟯ ⟮Symlink⟯ ⟮FIFO/named pipe⟯ ⟮Socket⟯ ⟮Device file (block)⟯ ⟮Device file (character)⟯
 
 The file type is one of the following characters:
 identifying characters (e.g. ls)|
@@ -5442,7 +5442,7 @@ Dotfiles are often used for config or metadata.
 
 Unix IPC sockets are distinct from network/internet sockets
 A socket in unix is realized as a file descriptor
-⟮c+;Unix (domain) sockets⟯ are used for ⟮c+;bidirectional⟯ ⟮c+;IPC⟯
+⟮Unix (domain) sockets⟯ are used for ⟮bidirectional⟯ ⟮IPC⟯
 /dev/log = socket for logging
 
 
@@ -5450,67 +5450,67 @@ A socket in unix is realized as a file descriptor
 
 #### indication
 
-⟮c+;File format⟯ and ⟮c+;file type⟯ are ⟮c+;basically synonyms⟯. 
-the ⟮c+;file format/type⟯ is ⟮c+;the structure/specification⟯ of what ⟮c+;the binary contents⟯ of ⟮c+;a file following this ⟮s4;file format⟯⟯ ⟮c+;mean/how they should be interpreted⟯. 
-There are ⟮c+;three common ways⟯ to specify ⟮c+;a file format⟯: ⟮s8;⟮c+;Filename extensions⟯, ⟮c+;internal metadata⟯, and ⟮c+;external metadata⟯.⟯ 
+⟮File format⟯ and ⟮file type⟯ are ⟮basically synonyms⟯. 
+the ⟮file format/type⟯ is ⟮the structure/specification⟯ of what ⟮the binary contents⟯ of ⟮c+;a file following this ⟮s4;file format⟯⟯ ⟮mean/how they should be interpreted⟯. 
+There are ⟮three common ways⟯ to specify ⟮a file format⟯: ⟮s8;⟮Filename extensions⟯, ⟮internal metadata⟯, and ⟮external metadata⟯.⟯ 
 
-⟮c+;Windows⟯ and ⟮c+;Mac⟯  use ⟮c+;file extensions⟯ to ⟮c+;identify file type⟯. 
-⟮c+;Linux⟯ generally uses ⟮c+;magic numbers⟯ to ⟮c+;identify file type⟯. 
-⟮c+;File extensions⟯ can be ⟮c+;useful⟯ on ⟮c+;Linux⟯, but ⟮c+;are generally not necessary⟯. 
+⟮Windows⟯ and ⟮Mac⟯  use ⟮file extensions⟯ to ⟮identify file type⟯. 
+⟮Linux⟯ generally uses ⟮magic numbers⟯ to ⟮identify file type⟯. 
+⟮File extensions⟯ can be ⟮useful⟯ on ⟮Linux⟯, but ⟮are generally not necessary⟯. 
 
-Specifying ⟮c+;file format⟯ via ⟮c+;internal metadata⟯ is having some sort of information ⟮c+;as part of the file⟯ that specifies its ⟮c+;format⟯. 
-⟮c+;Magic numbers⟯ are a form of ⟮c+;internal metadata⟯. 
-⟮c+;magic numbers⟯ are ⟮c+;a byte/series of bytes⟯ (often at ⟮c+;the beginning of the file⟯) that ⟮c+;identify the file format⟯. 
+Specifying ⟮file format⟯ via ⟮internal metadata⟯ is having some sort of information ⟮as part of the file⟯ that specifies its ⟮format⟯. 
+⟮Magic numbers⟯ are a form of ⟮internal metadata⟯. 
+⟮magic numbers⟯ are ⟮a byte/series of bytes⟯ (often at ⟮the beginning of the file⟯) that ⟮identify the file format⟯. 
 
-Specifying the ⟮c+;file format⟯ via ⟮c+;filename extensions⟯ involves ⟮c+;suffixing⟯ ⟮c+;the filename⟯ with ⟮c+;a dot⟯ and ⟮c+;some short name⟯. 
-many ⟮c+;file extensions⟯ are ⟮c+;three-letter⟯ because ⟮c+;dos did not allow for longer file extensions⟯ 
-⟮c+;.htm⟯ is ⟮c+;a synonym for .html⟯ that only exists because ⟮c+;dos required 3 char file extensions⟯ 
+Specifying the ⟮file format⟯ via ⟮filename extensions⟯ involves ⟮suffixing⟯ ⟮the filename⟯ with ⟮a dot⟯ and ⟮some short name⟯. 
+many ⟮file extensions⟯ are ⟮three-letter⟯ because ⟮dos did not allow for longer file extensions⟯ 
+⟮.htm⟯ is ⟮a synonym for .html⟯ that only exists because ⟮dos required 3 char file extensions⟯ 
 
-Specifying ⟮c+;file format⟯ via ⟮c+;external metadata⟯ is having some sort of information ⟮c+;as part of a message/protocol/file system⟯ that specifies its ⟮c+;format⟯. 
+Specifying ⟮file format⟯ via ⟮external metadata⟯ is having some sort of information ⟮as part of a message/protocol/file system⟯ that specifies its ⟮format⟯. 
 
-⟮c+;Media type⟯ is a way for ⟮c+;identifying the file format⟯ of a file via ⟮c+;external metadata⟯. 
-⟮c+;Media type⟯ is ⟮c+;the most common way⟯ for identifying file format on ⟮c+;the internet⟯. 
-⟮c+;Media type⟯ ⟮c+;used to⟯ be called ⟮c+;MIME type⟯. 
-⟮c+;Media type⟯ syntax: ⟮c+;‹type›/‹subtype›⟯⟮c+;{+‹suffix›⟯}⟮c+;[;‹parameter›]⟯ ⟮(c:60;‹tree›⟯ left out because not commonly used) 
-Common types for media type's ⟮c+;type⟯ are a⟮c+;pplication, audio, video, image, text⟯ 
-Common ⟮c+;subtypes⟯ for ⟮c+;the type image⟯ might be ⟮c+;webp, png, svg+xml, jpeg⟯ 
-If a file is ⟮c+;XML⟯, its ⟮c+;media type⟯ gets ⟮c+;a suffix of xml (+xml⟯) 
-The ⟮c+;HTTP header⟯ for ⟮c+;media type⟯ is ⟮c+;Content-Type⟯. 
+⟮Media type⟯ is a way for ⟮identifying the file format⟯ of a file via ⟮external metadata⟯. 
+⟮Media type⟯ is ⟮the most common way⟯ for identifying file format on ⟮the internet⟯. 
+⟮Media type⟯ ⟮used to⟯ be called ⟮MIME type⟯. 
+⟮Media type⟯ syntax: ⟮‹type›/‹subtype›⟯⟮{+‹suffix›⟯}⟮c+;[;‹parameter›]⟯ ⟮(c:60;‹tree›⟯ left out because not commonly used) 
+Common types for media type's ⟮type⟯ are a⟮pplication, audio, video, image, text⟯ 
+Common ⟮subtypes⟯ for ⟮the type image⟯ might be ⟮webp, png, svg+xml, jpeg⟯ 
+If a file is ⟮XML⟯, its ⟮media type⟯ gets ⟮a suffix of xml (+xml⟯) 
+The ⟮HTTP header⟯ for ⟮media type⟯ is ⟮Content-Type⟯. 
 
-A ⟮c+;mailcap⟯ ⟮c+;file⟯ maps ⟮c+;media types⟯ to ⟮c+;applications to view/execute them.⟯ 
-⟮c+;Mailcap files⟯ consist of ⟮c+;mappings⟯, with ⟮c+;one⟯ per ⟮c+;line⟯. 
-⟮c+;Mailcap mapping⟯ syntax: ⟮c+;‹media-type›⟯⟮c+;;⟯⟮c+;‹program-to-execute›⟯ ⟮c+;%s⟯ 
-For ⟮c+;mailcap⟯, ⟮c+;%s⟯ represents ⟮c+;the file of the relevant MIME type⟯ that ⟮c+;the program gets passed⟯ 
+A ⟮mailcap⟯ ⟮file⟯ maps ⟮media types⟯ to ⟮applications to view/execute them.⟯ 
+⟮Mailcap files⟯ consist of ⟮mappings⟯, with ⟮one⟯ per ⟮line⟯. 
+⟮Mailcap mapping⟯ syntax: ⟮‹media-type›⟯⟮c+;;⟯⟮‹program-to-execute›⟯ ⟮%s⟯ 
+For ⟮mailcap⟯, ⟮%s⟯ represents ⟮the file of the relevant MIME type⟯ that ⟮the program gets passed⟯ 
 
 ##### common file extensions
 
 File format|File extension
-⟮c+;TypeScript source code⟯|⟮c+;.ts⟯
-⟮c+;M3U playlist⟯|⟮c+;.m3u⟯
-⟮c+;Tex source document⟯|⟮c+;.tex⟯
-⟮c+;WebVTT⟯|⟮c+;.vtt⟯
-⟮c+;JS Modules⟯|⟮c+;either .js or .mjs⟯
-⟮c+;Markdown source document⟯|⟮c+;.md⟯
-⟮c+;YAML source document (common but not advised⟯)|⟮c+;.yml⟯
-⟮c+;YAML source document (advised but less common⟯)|⟮c+;.yaml⟯
-⟮c+;bzip2 archive⟯|⟮c+;.bz2⟯
-⟮c+;class files (latex⟯)|⟮c+;.cls⟯
-⟮c+;windows executable⟯|⟮c+;.exe⟯
-⟮c+;iCalendar⟯|⟮c+;.ics⟯
-⟮c+;ruby source coude⟯|⟮c+;.rb⟯
-⟮c+;rust source code⟯|⟮c+;.rs⟯
-⟮c+;short for style / but are called packages⟯|⟮c+;.sty⟯
-⟮c+;plaintext files (arbitrary⟯)|⟮c+;.txt⟯
-⟮c+;vCard⟯|⟮c+;.vcf⟯
-⟮c+;Free/busy time (iCalendar⟯)|⟮c+;.ifb (or .ifbf on macOS⟯)
-⟮c+;BibTeX source file⟯|⟮c+;.bib⟯
-⟮c+;arbitrary binary data⟯|⟮c+;.bin⟯
-⟮c+;JSON document⟯|⟮c+;.json⟯
-⟮c+;SCSS syntax source file⟯|⟮c+;.scss⟯
-⟮c+;sass syntax source file⟯|⟮c+;.sass⟯
-⟮c+;XML document⟯|⟮c+;.xml⟯
-⟮c+;fountain source document⟯|⟮c+;.fountain⟯
-⟮c+;shell script⟯|⟮c+;.sh⟯
+⟮TypeScript source code⟯|⟮.ts⟯
+⟮M3U playlist⟯|⟮.m3u⟯
+⟮Tex source document⟯|⟮.tex⟯
+⟮WebVTT⟯|⟮.vtt⟯
+⟮JS Modules⟯|⟮either .js or .mjs⟯
+⟮Markdown source document⟯|⟮.md⟯
+⟮YAML source document (common but not advised⟯)|⟮.yml⟯
+⟮YAML source document (advised but less common⟯)|⟮.yaml⟯
+⟮bzip2 archive⟯|⟮.bz2⟯
+⟮class files (latex⟯)|⟮.cls⟯
+⟮windows executable⟯|⟮.exe⟯
+⟮iCalendar⟯|⟮.ics⟯
+⟮ruby source coude⟯|⟮.rb⟯
+⟮rust source code⟯|⟮.rs⟯
+⟮short for style / but are called packages⟯|⟮.sty⟯
+⟮plaintext files (arbitrary⟯)|⟮.txt⟯
+⟮vCard⟯|⟮.vcf⟯
+⟮Free/busy time (iCalendar⟯)|⟮.ifb (or .ifbf on macOS⟯)
+⟮BibTeX source file⟯|⟮.bib⟯
+⟮arbitrary binary data⟯|⟮.bin⟯
+⟮JSON document⟯|⟮.json⟯
+⟮SCSS syntax source file⟯|⟮.scss⟯
+⟮sass syntax source file⟯|⟮.sass⟯
+⟮XML document⟯|⟮.xml⟯
+⟮fountain source document⟯|⟮.fountain⟯
+⟮shell script⟯|⟮.sh⟯
 
 
 #### binary
@@ -5521,14 +5521,14 @@ Binary files are generally smaller and quicker to process than plaintext files
 
 ##### encoding as text
 
-⟮c+;binary-to-text encodings⟯ represent ⟮c+;binary data⟯ with ⟮c+;plain text⟯ 
-⟮c+;binary-to-text encoding⟯ is ⟮c+;inefficient⟯ but is ⟮c+;necessary⟯ to ⟮c+;send binary data over plaintext channels⟯, e.g. in ⟮c+;email⟯. 
-the most common ⟮c+;binary-to-text encoding⟯ is ⟮c+;base64⟯. 
-⟮c+;base64⟯ uses ⟮c+;ASCII⟯ to ⟮c+;represent binary data⟯. 
-⟮c+;base64⟯ can encode ⟮c+;6⟯ bit of ⟮c+;data⟯ in ⟮c+;8⟯ bit of ⟮c+;text⟯. 
-⟮c+;data URIs⟯ are a type of URI defined by ⟮c+;the data scheme⟯ that provide a way to ⟮c+;include arbitrary data inline⟯. 
-⟮c+;data URIs⟯ most commonly use the ⟮c+;binary-to-text encoding base64⟯ to ⟮c+;encode their data⟯. 
-data URI syntax `⟮c+;data:⟯⟮c+;[‹media type›]⟯⟮c+;[;base64]⟯⟮c+;,‹data›⟯` 
+⟮binary-to-text encodings⟯ represent ⟮binary data⟯ with ⟮plain text⟯ 
+⟮binary-to-text encoding⟯ is ⟮inefficient⟯ but is ⟮necessary⟯ to ⟮send binary data over plaintext channels⟯, e.g. in ⟮email⟯. 
+the most common ⟮binary-to-text encoding⟯ is ⟮base64⟯. 
+⟮base64⟯ uses ⟮ASCII⟯ to ⟮represent binary data⟯. 
+⟮base64⟯ can encode ⟮6⟯ bit of ⟮data⟯ in ⟮8⟯ bit of ⟮text⟯. 
+⟮data URIs⟯ are a type of URI defined by ⟮the data scheme⟯ that provide a way to ⟮include arbitrary data inline⟯. 
+⟮data URIs⟯ most commonly use the ⟮binary-to-text encoding base64⟯ to ⟮encode their data⟯. 
+data URI syntax `⟮data:⟯⟮[‹media type›]⟯⟮c+;[;base64]⟯⟮,‹data›⟯` 
 base64 is a command-line program to en/decode things as base64
 
 ##### bitmaps
@@ -5609,7 +5609,7 @@ input-output-options
 
 ####### types
 
-flex-container:<img src="1280px-VectorBitmapExample.svg.png">
+flex-container:✫1280px-VectorBitmapExample.svg.png✫
 
 Vector images/graphics are images created directly from geometric shapes.
 Vector images are contrasted wtih raster images/graphics.
@@ -5628,17 +5628,17 @@ SVG is the standard format for vector images
 SVG is a subformat of XML.
 SVG files have the file extension of .svg
 SVG|Scalable Vector Graphics
-The ⟮c+;current version of SVG⟯ is ⟮c+;1.1.⟯, with version ⟮c+;2⟯ being ⟮c+;in planning since forever⟯. 
-Often, ⟮c+;SVG⟯ is ⟮c+;included in HTML⟯. This can be done by i⟮c+;ncluding it directly in the source⟯, r⟮c+;eferencing it in places the browser would normally take an image (<img>, background-image⟯), or ⟮c+;pointing to it within an <object> or an <iframe>⟯ 
-⟮c+;‹foreignObject›⟯ is an SVG element that allows you to ⟮c+;include non-SVG XML⟯, most commonly ⟮s15;⟮c+;HTML⟯⟯. 
+The ⟮current version of SVG⟯ is ⟮1.1.⟯, with version ⟮2⟯ being ⟮in planning since forever⟯. 
+Often, ⟮SVG⟯ is ⟮included in HTML⟯. This can be done by i⟮ncluding it directly in the source⟯, r⟮eferencing it in places the browser would normally take an image (<img>, background-image⟯), or ⟮pointing to it within an <object> or an <iframe>⟯ 
+⟮‹foreignObject›⟯ is an SVG element that allows you to ⟮include non-SVG XML⟯, most commonly ⟮s15;⟮HTML⟯⟯. 
 
 
 ########## affinity designer
 
-flex-container:⟮h∞;<img src="sm_Screenshot%202020-04-05%20at%2018.40.27.jpg">⟯
+flex-container:⟮h∞;✫sm_Screenshot%202020-04-05%20at%2018.40.27.jpg✫⟯
 
-To ⟮c+;select a color in affinity designer⟯ (must be in ⟮c+;Pixel Persona⟯) ⟮c+;Select &gt; Select Sample Color⟯ 
-To ⟮c+;turn a color transparent⟯ in affinity designer ⟮c+;select a color, then delete it with backspace⟯ 
+To ⟮select a color in affinity designer⟯ (must be in ⟮Pixel Persona⟯) ⟮c+;Select &gt; Select Sample Color⟯ 
+To ⟮turn a color transparent⟯ in affinity designer ⟮select a color, then delete it with backspace⟯ 
 
 ####### viewers
 
@@ -5655,32 +5655,32 @@ remove.bg is accessible via an API as well, which can be called via a command `r
 
 ######## ocrmypdf
 
-`⟮c+;ocrmypdf⟯` is a command line tool to ⟮c+;add OCR text to scanned PDF files⟯. 
+`⟮ocrmypdf⟯` is a command line tool to ⟮add OCR text to scanned PDF files⟯. 
 ```
-ocrmypdf ⟮c+;SOURCE DEST⟯
+ocrmypdf ⟮SOURCE DEST⟯
 ```
-⟮c+;specify language⟯|⟮c+;`-l deu/fra/deu+fra...`⟯
-⟮c+;correct slight skew⟯|⟮c+;`--deskew`⟯
-⟮c+;clean pages before ocring⟯|⟮c+;`--clean`⟯
-⟮c+;change/correct rotation (the one in steps of 90°⟯)|⟮c+;`--rotate-pages`⟯
+⟮specify language⟯|⟮`-l deu/fra/deu+fra...`⟯
+⟮correct slight skew⟯|⟮`--deskew`⟯
+⟮clean pages before ocring⟯|⟮`--clean`⟯
+⟮change/correct rotation (the one in steps of 90°⟯)|⟮`--rotate-pages`⟯
 
 
 ######## imagemagick
 
-⟮c+;Imagemagick⟯ is ⟮c+;a set of programs⟯ for ⟮c+;modifying images.⟯ 
-⟮c+;Imagemagick⟯ mainly exists as ⟮c+;a cli⟯, has ⟮c+;a basic X window gui⟯, and ⟮c+;API bindings⟯ for ⟮c+;pretty much any programming language under the sun⟯. 
-⟮c+;imagemagick⟯ contains ⟮c+;a bunch of subcommands⟯, which ⟮c+;do different things⟯ but ⟮c+;often accept similar arguments⟯ 
-imagemagick options/arguments ⟮c+;start with a single dash,⟯ regardless of length 
-All imagemagick subcommands may be ⟮c+;prefixed by magick (e.g. magick mogrify, magick animate⟯) or ⟮c+;not⟯. 
-The main two commands for ⟮c+;image conversion⟯ w/ ⟮c+;imagemagick⟯ are ⟮c+;mogrify⟯ ⟮(c:49;in-place⟯) and ⟮c+;convert⟯ ⟮(c:49;out-of-place⟯) 
-Many of imagemagicks arguments needing to specify ⟮c+;some kind of shape/size⟯ accept a ⟮c+;geometry⟯ argument with the syntax ⟮c+;‹size›⟯⟮c+;[‹offset›]⟯ where the size specifier follows the syntax 
-⟮c+;‹width›⟯⟮c+;x⟯⟮c+;‹height›⟯⟮c+;[‹operator›]⟯ 
+⟮Imagemagick⟯ is ⟮a set of programs⟯ for ⟮modifying images.⟯ 
+⟮Imagemagick⟯ mainly exists as ⟮a cli⟯, has ⟮a basic X window gui⟯, and ⟮API bindings⟯ for ⟮pretty much any programming language under the sun⟯. 
+⟮imagemagick⟯ contains ⟮a bunch of subcommands⟯, which ⟮do different things⟯ but ⟮often accept similar arguments⟯ 
+imagemagick options/arguments ⟮start with a single dash,⟯ regardless of length 
+All imagemagick subcommands may be ⟮prefixed by magick (e.g. magick mogrify, magick animate⟯) or ⟮not⟯. 
+The main two commands for ⟮image conversion⟯ w/ ⟮imagemagick⟯ are ⟮mogrify⟯ ⟮(c:49;in-place⟯) and ⟮convert⟯ ⟮(c:49;out-of-place⟯) 
+Many of imagemagicks arguments needing to specify ⟮some kind of shape/size⟯ accept a ⟮geometry⟯ argument with the syntax ⟮‹size›⟯⟮[‹offset›]⟯ where the size specifier follows the syntax 
+⟮‹width›⟯⟮x⟯⟮‹height›⟯⟮[‹operator›]⟯ 
 
 
 
 table:span=2;Imagemagick subcommands
-⟮c+;`import`⟯|⟮c+;Imagemagick screenshot utility⟯
-⟮c+;`identify`⟯|((c:4;::Imagemagick display details of an image file
+⟮`import`⟯|⟮Imagemagick screenshot utility⟯
+⟮`identify`⟯|((c:4;::Imagemagick display details of an image file
 ```lang=text;
 magick identify -verbose rose.jpg
 Image: rose.jpg
@@ -5693,24 +5693,24 @@ Image: rose.jpg
 ...
 ```
 ))
-⟮c+;`display`⟯|⟮c+;Imagemagick image viewer⟯
-⟮c+;`animate`⟯|⟮c+;Imagemagick animation creator⟯
-⟮c+;`compare`⟯|⟮c+;Imagemagick visual comparison tool<img src="sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg">⟯
-⟮c+;`composite`⟯|⟮c+;Imagemagick overlay image tools<img src="sm_paste-941c2b6b4528410451a2670256f0499b19879054.png">⟯
-⟮c+;`convert`⟯|⟮c+;Imagemagick convert between image formats<img src="sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg">⟯
-⟮c+;`montage`::m⟯|⟮c+;Imagemagick montage creator<img src="sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg">⟯
+⟮`display`⟯|⟮Imagemagick image viewer⟯
+⟮`animate`⟯|⟮Imagemagick animation creator⟯
+⟮`compare`⟯|⟮Imagemagick visual comparison tool✫sm_paste-ebe2143588b596e4c4762fa1d4f79aaad9bf0665.jpg✫⟯
+⟮`composite`⟯|⟮Imagemagick overlay image tools✫sm_paste-941c2b6b4528410451a2670256f0499b19879054.png✫⟯
+⟮`convert`⟯|⟮Imagemagick convert between image formats✫sm_paste-8ba1c45c2dc3cc0f2cd231dfec641b7b7e64e382.jpg✫⟯
+⟮`montage`::m⟯|⟮Imagemagick montage creator✫sm_paste-65d507ceb80556af17e0f02061e7f7f54fc9e73d.jpg✫⟯
 
 
 
 
 table:span=2;Imagemagick options
-⟮c+;`-crop`⟯|⟮c+;crop⟯
-⟮c+;`-trim`⟯|⟮c+;remove borders around the image⟯
-⟮c+;`-resize SIZE-SPECIFIER`⟯|⟮c+;resize the image to SIZE-SPECIFIER⟯
-⟮c+;`-quality QUALITY`⟯|⟮c+;set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg⟯)
-⟮c+;`-fuzz distance`⟯|⟮c+;make matching colors more, well, fuzzy⟯
-⟮c+;`-flop`⟯|⟮c+;Mirror along the y-axis (in x direction, text will be mirrored L‹-› R⟯)
-⟮c+;`-flip`⟯|⟮c+;Change to upside down⟯
+⟮`-crop`⟯|⟮crop⟯
+⟮`-trim`⟯|⟮remove borders around the image⟯
+⟮`-resize SIZE-SPECIFIER`⟯|⟮resize the image to SIZE-SPECIFIER⟯
+⟮`-quality QUALITY`⟯|⟮set the (e.g. jpeg) quality to QUALITY (1-100 for jpeg⟯)
+⟮`-fuzz distance`⟯|⟮make matching colors more, well, fuzzy⟯
+⟮`-flop`⟯|⟮Mirror along the y-axis (in x direction, text will be mirrored L‹-› R⟯)
+⟮`-flip`⟯|⟮Change to upside down⟯
 
 
 #### plaintext
@@ -5724,7 +5724,7 @@ tac|cat, but reversed line-by-line
 wc|count words, characters and lines
 
 wc output ordering
-⟮c+;lines⟯ ⟮c+;words⟯ ⟮c+;characters⟯
+⟮lines⟯ ⟮words⟯ ⟮characters⟯
 
 bat is a more fancy version of cat with auto syntax highlighting, line numbers, git integration etc. implemented in rust.
 
@@ -5873,7 +5873,7 @@ ampersand||&amp;amp;
 non-breaking hyphen|"~
 soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
 "=
-if you want a word ⟮c+;with a hyphen⟯ to be ⟮c+;able to be split anywhere⟯ (using babel ngerman), use ⟮c+;"=⟯
+if you want a word ⟮with a hyphen⟯ to be ⟮able to be split anywhere⟯ (using babel ngerman), use ⟮"=⟯
 zero-width space||<wbr> or &amp;#8203;
 
 hyperref|create links automatically and \href, \url commands
@@ -5891,53 +5891,53 @@ RTF|Rich Text Format
 
 ####### tex, especially latex
 
-⟮c+;Tex⟯ consists of ⟮c+;tex-core⟯ and ⟮c+;plain-tex⟯ 
-⟮c+;plain-tex⟯ is ⟮c+;the set of macros that the tex typsetting program uses⟯; ⟮c+;tex-core⟯ is ⟮c+;the typesetting program (that transforms it into output⟯) 
-⟮c+;Tex⟯ and thus ⟮c+;latex⟯ is meant for ⟮c+;typesetting⟯ 
-⟮c+;TeX⟯ and thus ⟮c+;LaTeX⟯ mainly work via ⟮c+;macros⟯ 
-⟮c+;Mathjax⟯ renders ⟮c+;a subset of latex⟯ ⟮c+;in browsers (using js⟯) 
-⟮c+;current⟯ latex version: ⟮c+;Latex 2e⟯ 
-⟮c+;next⟯ latex version: ⟮c+;Latex 3⟯ 
-<q>latex</q> is properly capitalized ⟮c+;LaTeX⟯ 
-<q>tex</q> is properly capitalized ⟮c+;TeX⟯ 
-the x in ⟮c+;tex and latex⟯ is pronounced as ⟮c+;a voiceless velar fricative (e.g. loch, bach⟯) 
+⟮Tex⟯ consists of ⟮tex-core⟯ and ⟮plain-tex⟯ 
+⟮plain-tex⟯ is ⟮the set of macros that the tex typsetting program uses⟯; ⟮tex-core⟯ is ⟮the typesetting program (that transforms it into output⟯) 
+⟮Tex⟯ and thus ⟮latex⟯ is meant for ⟮typesetting⟯ 
+⟮TeX⟯ and thus ⟮LaTeX⟯ mainly work via ⟮macros⟯ 
+⟮Mathjax⟯ renders ⟮a subset of latex⟯ ⟮in browsers (using js⟯) 
+⟮current⟯ latex version: ⟮Latex 2e⟯ 
+⟮next⟯ latex version: ⟮Latex 3⟯ 
+<q>latex</q> is properly capitalized ⟮LaTeX⟯ 
+<q>tex</q> is properly capitalized ⟮TeX⟯ 
+the x in ⟮tex and latex⟯ is pronounced as ⟮a voiceless velar fricative (e.g. loch, bach⟯) 
 
-⟮c+;latex⟯ is ⟮c+;a set of tex macros⟯ that is supposed to be ⟮c+;more semantic⟯. 
+⟮latex⟯ is ⟮a set of tex macros⟯ that is supposed to be ⟮more semantic⟯. 
 texinfo is a set of macros for tex for generating hypertextual documentation
 
 info|read texinfo files
 
 ######## Commands
 
-A typical ⟮c+;command⟯ looks ⟮c1;⟯⟮c+;name⟯⟮c+;{⟯⟮c+;argument⟯⟮c+;} ⟯ 
-a ⟮c+;command⟯'s ⟮c+;required arguments⟯ (AKA ⟮c+;arguments⟯) are ⟮c+;delimited by {⟯} 
-a ⟮c+;command's⟯ ⟮c+;optional arguments⟯ (AKA ⟮c+;options⟯) are ⟮c+;delimited by []⟯ 
-{{c14::}} ⟮c+;starts⟯ ⟮c+;a command⟯ 
-Generally, ⟮c+;commands⟯ take ⟮c+;the thing they act on⟯ ⟮c+;as a required argument⟯. 
-⟮c+;Some commands⟯ instead ⟮c+;apply to anything⟯ ⟮c+;following the command⟯ ⟮c+;until the end of environment or group⟯, these are known as being in ⟮c+;declaration form⟯. 
+A typical ⟮command⟯ looks ⟮c1;⟯⟮name⟯⟮{⟯⟮argument⟯⟮} ⟯ 
+a ⟮command⟯'s ⟮required arguments⟯ (AKA ⟮arguments⟯) are ⟮delimited by {⟯} 
+a ⟮command's⟯ ⟮optional arguments⟯ (AKA ⟮options⟯) are ⟮delimited by []⟯ 
+{{c14::}} ⟮starts⟯ ⟮a command⟯ 
+Generally, ⟮commands⟯ take ⟮the thing they act on⟯ ⟮as a required argument⟯. 
+⟮Some commands⟯ instead ⟮apply to anything⟯ ⟮following the command⟯ ⟮until the end of environment or group⟯, these are known as being in ⟮declaration form⟯. 
 
-⟮c+;The name⟯ ⟮c+;of a command⟯ ⟮c+;used as an environment⟯ is known as that commands ⟮c+;environment form⟯ 
-the ⟮c+;environment form⟯ of ⟮c+;\foo⟯ would look like {{c25::`\begin{command}...\end{command}`}} 
-⟮c+;Most (afaik) commands⟯ in ⟮c+;declaration (\command (no args⟯)) form can also be used  ⟮c+;in an environment form⟯ 
-⟮c+;The environment form⟯ of a command is based on ⟮c+;its declaration form.⟯ 
+⟮The name⟯ ⟮of a command⟯ ⟮used as an environment⟯ is known as that commands ⟮environment form⟯ 
+the ⟮environment form⟯ of ⟮\foo⟯ would look like {{c25::`\begin{command}...\end{command}`}} 
+⟮Most (afaik) commands⟯ in ⟮declaration (\command (no args⟯)) form can also be used  ⟮in an environment form⟯ 
+⟮The environment form⟯ of a command is based on ⟮its declaration form.⟯ 
 
 ######### new commands
 
-To ⟮c+;create a new command⟯, use ⟮c+;\newcommand⟯, which goes in ⟮c+;the preamble⟯ 
-⟮c+;\newcommand⟯ has the syntax: ⟮c+;\newcommand⟯⟮c+;{‹name›⟯}⟮c+;[‹number-of-arguments›]⟯⟮c+;{‹latex-code-to-execute›⟯} 
-Within ⟮c+;\newcommand⟯, you ⟮c+;refer to arguments⟯ ⟮c+;positionally⟯ with ⟮c+;#n⟯ 
-⟮c+;\newcommand{\euler}{\mathrm{e}⟯ makes ⟮c+;\euler output \mathrm{e}⟯ 
+To ⟮create a new command⟯, use ⟮\newcommand⟯, which goes in ⟮the preamble⟯ 
+⟮\newcommand⟯ has the syntax: ⟮\newcommand⟯⟮{‹name›⟯}⟮[‹number-of-arguments›]⟯⟮{‹latex-code-to-execute›⟯} 
+Within ⟮\newcommand⟯, you ⟮refer to arguments⟯ ⟮positionally⟯ with ⟮#n⟯ 
+⟮\newcommand{\euler}{\mathrm{e}⟯ makes ⟮\euler output \mathrm{e}⟯ 
 ```
 \newcommand{\abs}[1]{\left|#1\right|}
 ```
 
 ######## Sections
 
-Latex ⟮c+;sections⟯ ⟮c+;go until⟯ ⟮c+;the beginning of the next section⟯ 
-Latex sections are declared via ⟮c+;command. (e.g. \part⟯) 
-Latex ⟮c+;section commands⟯ take ⟮c+;the full section title⟯ as ⟮c+;a mandatory argument⟯ and ⟮c+;a short title (e.g. for TOC⟯) as ⟮c+;an optional argument⟯. 
+Latex ⟮sections⟯ ⟮go until⟯ ⟮the beginning of the next section⟯ 
+Latex sections are declared via ⟮command. (e.g. \part⟯) 
+Latex ⟮section commands⟯ take ⟮the full section title⟯ as ⟮a mandatory argument⟯ and ⟮a short title (e.g. for TOC⟯) as ⟮an optional argument⟯. 
 ^\subsection[shortitle]{This is the full title}
-⟮c+;Article⟯ notably does not havet the ⟮c+;\chapter⟯ section command. 
+⟮Article⟯ notably does not havet the ⟮\chapter⟯ section command. 
 
 ######### Latex section hierarchy
 
@@ -5951,46 +5951,46 @@ Latex ⟮c+;section commands⟯ take ⟮c+;the full section title⟯ as ⟮c+;a 
 
 ######## latex groups
 
-in Latex, ⟮c+;groups⟯ ⟮c+;create a scope⟯ 
-`⟮c+;\bgroup ... \egroup⟯` or ⟮c+;`{ ... }`⟯ ⟮c+;delimit a group⟯ 
+in Latex, ⟮groups⟯ ⟮create a scope⟯ 
+`⟮\bgroup ... \egroup⟯` or ⟮`{ ... }`⟯ ⟮delimit a group⟯ 
 
 ######## latex labels and refs
 
-In latex, using ⟮c+;\label⟯ you ⟮c+;define a marker⟯, which ⟮c+;you can then later reference⟯. 
-the main advantages of ⟮c+;using labels⟯ in latex instead of ⟮c+;manually referring to the indices of the things⟯ is that ⟮c+;they auto-update⟯ 
-⟮c+;\label⟯ takes ⟮c+;an argument⟯ of ⟮c+;the name of the marker.⟯ 
-⟮c+;\label⟯ goes ⟮c+;within⟯ ⟮c+;the thing being labeled⟯ as ⟮c+;the first thing⟯ if ⟮c+;there is a 'within'⟯, and ⟮c+;after⟯ otherwise. 
-It is common practice to ⟮c+;prefix the name of the marker⟯ with a ⟮c+;most often 3-character⟯ ⟮c+;abbreviation⟯ of ⟮c+;the type of the marker⟯ plus ⟮c+;a colon⟯ 
+In latex, using ⟮\label⟯ you ⟮define a marker⟯, which ⟮you can then later reference⟯. 
+the main advantages of ⟮using labels⟯ in latex instead of ⟮manually referring to the indices of the things⟯ is that ⟮they auto-update⟯ 
+⟮\label⟯ takes ⟮an argument⟯ of ⟮the name of the marker.⟯ 
+⟮\label⟯ goes ⟮within⟯ ⟮the thing being labeled⟯ as ⟮the first thing⟯ if ⟮there is a 'within'⟯, and ⟮after⟯ otherwise. 
+It is common practice to ⟮prefix the name of the marker⟯ with a ⟮most often 3-character⟯ ⟮abbreviation⟯ of ⟮the type of the marker⟯ plus ⟮a colon⟯ 
 ^\label{sec:foo}
 
 abbr|for
-⟮c+;eq⟯|⟮c+;equation⟯
-⟮c+;sec⟯|⟮c+;section⟯
-⟮c+;fig⟯|⟮c+;figure⟯
+⟮eq⟯|⟮equation⟯
+⟮sec⟯|⟮section⟯
+⟮fig⟯|⟮figure⟯
 
 
-In latex, you can ⟮c+;reference markers⟯ defined with ⟮c+;\label⟯ with ⟮c+;\ref⟯, ⟮c+;\pageref⟯ or ⟮c+;\eqref⟯. 
+In latex, you can ⟮reference markers⟯ defined with ⟮\label⟯ with ⟮\ref⟯, ⟮\pageref⟯ or ⟮\eqref⟯. 
 
 command|refers to?|from package
-⟮c+;\ref{foo}⟯|⟮c+;returns the index of foo⟯
-⟮c+;\pageref{foo}⟯|⟮c+;returns the page on which foo is found⟯
-⟮c+;\eqref{foo}⟯|⟮c+;returns the index of foo, but surrounded by parentheses⟯|⟮c+;amsmath⟯
+⟮\ref{foo}⟯|⟮returns the index of foo⟯
+⟮\pageref{foo}⟯|⟮returns the page on which foo is found⟯
+⟮\eqref{foo}⟯|⟮returns the index of foo, but surrounded by parentheses⟯|⟮amsmath⟯
 
 
 ######## Lengths
 
 ######### rigid and rubber
 
-The two types of lengths ⟮c+;latex⟯ has are ⟮c+;rigid lengths⟯ and ⟮c+;rubber lengths⟯. 
-a ⟮c+;rubber length⟯ is a length that ⟮c+;⁑can⁑ shrink or grow⟯ 
-a ⟮c+;rigid length⟯ is a length that ⟮c+;will not shrink or grow⟯ 
-Lengths in latex are ⟮c+;rigid⟯ by ⟮c+;default⟯ 
-⟮c+;rubber lengths⟯ can ⟮c+;only shrink or grow⟯ by ⟮c+;the length we specified⟯ 
-⟮c+;plus ‹length› ∨ minus ‹length›⟯ indicate ⟮c+;a rubber length⟯ 
+The two types of lengths ⟮latex⟯ has are ⟮rigid lengths⟯ and ⟮rubber lengths⟯. 
+a ⟮rubber length⟯ is a length that ⟮⁑can⁑ shrink or grow⟯ 
+a ⟮rigid length⟯ is a length that ⟮will not shrink or grow⟯ 
+Lengths in latex are ⟮rigid⟯ by ⟮default⟯ 
+⟮rubber lengths⟯ can ⟮only shrink or grow⟯ by ⟮the length we specified⟯ 
+⟮plus ‹length› ∨ minus ‹length›⟯ indicate ⟮a rubber length⟯ 
 
 indicator|meaning
-⟮c+;plus ‹length›⟯|⟮c+;length can grow by that amount⟯
-⟮c+;minus ‹length›⟯|⟮c+;length can shrink by that amount⟯
+⟮plus ‹length›⟯|⟮length can grow by that amount⟯
+⟮minus ‹length›⟯|⟮length can shrink by that amount⟯
 
 
 ```
@@ -6000,11 +6000,11 @@ indicator|meaning
 
 ######### creating lengths
 
-To ⟮c+;create a length foo⟯, you first have to ⟮c+;declare it⟯ with ⟮c+;\newlength{\foo⟯} and then ⟮c+;initialize it⟯&nbsp; ⟮c+;with \setlength{\foo}{bar⟯}. 
-⟮c+;\setlength⟯ can also be used to ⟮c+;change the value⟯ of ⟮c+;preexisting length keywords⟯. 
-If you ⟮c+;change the value of preexisting length keywords with \setlength⟯, ⟮c+;things that use these lengths itnernally⟯ will also change. 
-⟮c+;\parindent⟯|⟮c+;represents length of first line in paragraph indentation⟯
-⟮c+;\parskip⟯|⟮c+;represenets the vertical distance between paragraphs⟯
+To ⟮create a length foo⟯, you first have to ⟮declare it⟯ with ⟮\newlength{\foo⟯} and then ⟮initialize it⟯&nbsp; ⟮with \setlength{\foo}{bar⟯}. 
+⟮\setlength⟯ can also be used to ⟮change the value⟯ of ⟮preexisting length keywords⟯. 
+If you ⟮change the value of preexisting length keywords with \setlength⟯, ⟮things that use these lengths itnernally⟯ will also change. 
+⟮\parindent⟯|⟮represents length of first line in paragraph indentation⟯
+⟮\parskip⟯|⟮represenets the vertical distance between paragraphs⟯
 
 
 
@@ -6012,58 +6012,58 @@ If you ⟮c+;change the value of preexisting length keywords with \setlength⟯,
 
 ######### packages
 
-the package ⟮c+;amsmath⟯ contains ⟮c+;a bunch more stuff related to math⟯. 
-the package ⟮c+;mathtools⟯ is ⟮c+;a superset of⟯ ⟮c+;amsmath⟯, and also ⟮c+;fixes some of its bugs⟯ 
-the package ⟮s9:10;⟮c+;amssymb⟯ ⟮c+;adds more math symbols⟯⟯; the package ⟮s7:8;⟮c+;amsthm⟯ ⟮c+;adds more theorem/proof related stuff⟯⟯. ⟮c+;these both⟯ ⟮c+;need to be separately loaded from amsmath/mathtools⟯ if desired. 
+the package ⟮amsmath⟯ contains ⟮a bunch more stuff related to math⟯. 
+the package ⟮mathtools⟯ is ⟮a superset of⟯ ⟮amsmath⟯, and also ⟮fixes some of its bugs⟯ 
+the package ⟮s9:10;⟮amssymb⟯ ⟮adds more math symbols⟯⟯; the package ⟮s7:8;⟮amsthm⟯ ⟮adds more theorem/proof related stuff⟯⟯. ⟮these both⟯ ⟮need to be separately loaded from amsmath/mathtools⟯ if desired. 
 
 ######### environments
 
-Fundamentally, ⟮c+;math⟯ in LaTeX is always ⟮c+;contained in its own environment.⟯ 
-There are ⟮c+;two types of math environments⟯ in ⟮c+;LaTeX⟯, ⟮c+;displayed (block in CSS terms⟯) and ⟮c+;inline⟯. 
-There exists ⟮c+;a basic built-in environment⟯ for ⟮c+;both&nbsp;types of math environments⟯, ⟮c+;displayed⟯ and ⟮c+;inline⟯. 
-The ⟮c+;basic built-in version⟯ of ⟮c+;both types of math environment⟯ has ⟮c+;a shorthand⟯ ⟮c+;derived from TeX⟯ which  is ⟮c+;now deprecated⟯. 
-The ⟮c+;TeX derived⟯ ⟮c+;shorthands⟯ for ⟮c+;the built-in math environments⟯ involves ⟮c+;using the $ character⟯. 
+Fundamentally, ⟮math⟯ in LaTeX is always ⟮contained in its own environment.⟯ 
+There are ⟮two types of math environments⟯ in ⟮LaTeX⟯, ⟮displayed (block in CSS terms⟯) and ⟮inline⟯. 
+There exists ⟮a basic built-in environment⟯ for ⟮c+;both&nbsp;types of math environments⟯, ⟮displayed⟯ and ⟮inline⟯. 
+The ⟮basic built-in version⟯ of ⟮both types of math environment⟯ has ⟮a shorthand⟯ ⟮derived from TeX⟯ which  is ⟮now deprecated⟯. 
+The ⟮TeX derived⟯ ⟮shorthands⟯ for ⟮the built-in math environments⟯ involves ⟮using the $ character⟯. 
 The basic built-in version of both types of math environment has a shorthand exclusive to LaTeX whose use is encouraged. 
-The ⟮c+;LaTeX-exclusive⟯ ⟮c+;shorthands⟯ for ⟮c+;the built-in math environments⟯ involves ⟮c+;using escaped parentheses\bracket characters.⟯ 
+The ⟮LaTeX-exclusive⟯ ⟮shorthands⟯ for ⟮the built-in math environments⟯ involves ⟮using escaped parentheses\bracket characters.⟯ 
 
 environment name|TeX shorthand|LaTeX shorthand
-⟮c+;math⟯|⟮c+;$...$⟯|⟮c+;\​(...\​⟯)
-⟮c+;displaymath⟯|⟮c+;$$...$$⟯|⟮c+;\​[...\​]⟯
+⟮math⟯|⟮$...$⟯|⟮\​(...\​⟯)
+⟮displaymath⟯|⟮$$...$$⟯|⟮\​[...\​]⟯
 
 
-⟮c+;amsmath/mathtools⟯ adds a bunch more ⟮c+;displayed⟯ ⟮c+;math environments⟯. 
-For the ⟮c+;amsmath/mathtools environments⟯ there are often ⟮c+;two versions⟯, ⟮s34;one ⟮c+;with a star⟯ and ⟮c+;one without⟯⟯. 
-⟮c+;amsmath/mathtools environments⟯ ⟮c+;w/o a star⟯ are ⟮c+;numbered⟯, ⟮c+;w/ a star⟯ they are ⟮c+;not numbered⟯. 
+⟮amsmath/mathtools⟯ adds a bunch more ⟮displayed⟯ ⟮math environments⟯. 
+For the ⟮amsmath/mathtools environments⟯ there are often ⟮two versions⟯, ⟮s34;one ⟮with a star⟯ and ⟮one without⟯⟯. 
+⟮amsmath/mathtools environments⟯ ⟮w/o a star⟯ are ⟮numbered⟯, ⟮w/ a star⟯ they are ⟮not numbered⟯. 
 
 environment|name|image
-⟮c+;equation/equation*⟯|⟮c+;same as displaymath (added to have numbered version⟯)
-⟮c+;gather/gather*⟯|⟮c+;center-align lines⟯|⟮h39;<img src="sm_2021-05-18--15-11-30-screenshot.png">⟯
-⟮c+;multline/multline*⟯|⟮c+;first line left-aligned, then all center-aligned, final line right-aligned⟯|⟮h43;<img src="sm_2021-05-18--15-16-19-screenshot.png">⟯
+⟮equation/equation*⟯|⟮same as displaymath (added to have numbered version⟯)
+⟮gather/gather*⟯|⟮center-align lines⟯|⟮h39;✫sm_2021-05-18--15-11-30-screenshot.png✫⟯
+⟮multline/multline*⟯|⟮first line left-aligned, then all center-aligned, final line right-aligned⟯|⟮h43;✫sm_2021-05-18--15-16-19-screenshot.png✫⟯
 
 
-The ⟮c+;align/align* environment⟯ aligns ⟮c+;parts of the equation⟯ ⟮c+;vertically⟯ in relation to ⟮c+;the anchor⟯, which is the ⟮c+;&amp; symbol⟯ 
-⟮c+;split⟯ is ⟮c+;the same as⟯ ⟮c+;the align environment⟯, but ⟮c+;within the equation environment⟯&nbsp;
+The ⟮align/align* environment⟯ aligns ⟮parts of the equation⟯ ⟮vertically⟯ in relation to ⟮the anchor⟯, which is the ⟮c+;&amp; symbol⟯ 
+⟮split⟯ is ⟮the same as⟯ ⟮the align environment⟯, but ⟮within the equation environment⟯&nbsp;
 
-the ⟮c+;autobreak⟯ environment contained in ⟮c+;the eponymous package⟯ ⟮c+;auto inserts linebreaks into formulae⟯ 
-In ⟮c+;the autobreak environment⟯, ⟮c+;any newline⟯ is treated as ⟮c+;a possible point to break⟯ 
-⟮c+;proof⟯ provides ⟮c+;an environments for proofs⟯ 
-the ⟮c+;cases environment⟯ renders ⟮c+;multiple lines⟯ with ⟮c+;an extensible left curly-brace⟯ for ⟮c+;piecewise-defined functions⟯ 
+the ⟮autobreak⟯ environment contained in ⟮the eponymous package⟯ ⟮auto inserts linebreaks into formulae⟯ 
+In ⟮the autobreak environment⟯, ⟮any newline⟯ is treated as ⟮a possible point to break⟯ 
+⟮proof⟯ provides ⟮an environments for proofs⟯ 
+the ⟮cases environment⟯ renders ⟮multiple lines⟯ with ⟮an extensible left curly-brace⟯ for ⟮piecewise-defined functions⟯ 
 
-flex-container:<img src="sm_CkJlF.png">
+flex-container:✫sm_CkJlF.png✫
 
 
 
 ######### newtheorem
 
 \newtheorem is used in the document preamble
-⟮c+;\newtheorem⟯ ⟮c+;creates a new theorem envronment⟯ 
-⟮c+;\newtheorem⟯ takes ⟮c+;two arguments, and one option⟯. 
-⟮c+;The first argument to \newtheorem⟯|⟮c+;the name of the environment that we create by the call to \newtheorem (i.e. how we will refer to it later⟯)
-⟮c+;The second argument to \newtheorem⟯|⟮c+;The heading that the environment that we create by the call to \newtheorem will have⟯
-⟮c+;The option of \newtheorem⟯|⟮c+;based on what the theorem will be numbered⟯
+⟮\newtheorem⟯ ⟮creates a new theorem envronment⟯ 
+⟮\newtheorem⟯ takes ⟮two arguments, and one option⟯. 
+⟮The first argument to \newtheorem⟯|⟮the name of the environment that we create by the call to \newtheorem (i.e. how we will refer to it later⟯)
+⟮The second argument to \newtheorem⟯|⟮The heading that the environment that we create by the call to \newtheorem will have⟯
+⟮The option of \newtheorem⟯|⟮based on what the theorem will be numbered⟯
 
 
-For ⟮c+;\newtheorem⟯, if ⟮c+;[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮c+;a reference to another theorem⟯ -&gt; ⟮c+;with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮c+;a reference to a section⟯ -&gt; ⟮c+;under which it will be numbered⟯ 
+For ⟮\newtheorem⟯, if ⟮[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮a reference to another theorem⟯ -&gt; ⟮with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮a reference to a section⟯ -&gt; ⟮under which it will be numbered⟯ 
 
 ```
 \newtheorem{theo}{Theorem}
@@ -6076,21 +6076,21 @@ For ⟮c+;\newtheorem⟯, if ⟮c+;[foo]⟯ occurs {{c11::between the two {args}
 
 ######### case-changed symbols
 
-For arrows, if the ⟮c+;first letter⟯ is ⟮c+;lowercase⟯, it will render the ⟮c+;thin arrow (→⟯), if the ⟮c+;first letter⟯ is ⟮c+;uppercase⟯, it will render the ⟮c+;thick arrow (⇒⟯). 
-so `⟮c+;\right/left/up/downarrow⟯` renders ⟮c+;a thin right arrow →⟯, and ⟮c+;\Right/Left/Up/Downarrow⟯ renders ⟮c+;a thick, double-line right arrow ⇒⟯. 
+For arrows, if the ⟮first letter⟯ is ⟮lowercase⟯, it will render the ⟮thin arrow (→⟯), if the ⟮first letter⟯ is ⟮uppercase⟯, it will render the ⟮thick arrow (⇒⟯). 
+so `⟮\right/left/up/downarrow⟯` renders ⟮a thin right arrow →⟯, and ⟮\Right/Left/Up/Downarrow⟯ renders ⟮a thick, double-line right arrow ⇒⟯. 
 the four directional arrows are created by \right/left/up/downarrow
-⟮c+;\rightarrow⟯ can also be created by ⟮c+;\to⟯ 
-⟮c+;\Rightarrow⟯ can also be created by ⟮c+;\implies⟯ 
-For greek letters, if the ⟮c+;first letter⟯ is ⟮c+;lowercase⟯, it will render the ⟮c+;lowercase letter⟯, if the ⟮c+;first letter⟯ is ⟮c+;uppercase⟯, it will render the ⟮c+;uppercase letter⟯. 
-so ⟮c+;\pi⟯ ⟮c+;inserts a lowercase pi π⟯ and ⟮c+;\Pi⟯ ⟮c+;inserts an uppercase pi Π⟯ 
+⟮\rightarrow⟯ can also be created by ⟮\to⟯ 
+⟮\Rightarrow⟯ can also be created by ⟮\implies⟯ 
+For greek letters, if the ⟮first letter⟯ is ⟮lowercase⟯, it will render the ⟮lowercase letter⟯, if the ⟮first letter⟯ is ⟮uppercase⟯, it will render the ⟮uppercase letter⟯. 
+so ⟮\pi⟯ ⟮inserts a lowercase pi π⟯ and ⟮\Pi⟯ ⟮inserts an uppercase pi Π⟯ 
 
 ######### logic symbols
 
 symbol|command(s)|requires package
-⟮c+;∧⟯|⟮c+;s5;\land⟯ ⟮c+;s4;\wedge⟯
-⟮c+;∨⟯|⟮c+;s6;\lor⟯ ⟮c+;s3;\vee⟯
-⟮c+;¬⟯|⟮c+;s8;\lnot⟯ ⟮c+;s7;\neg⟯
-⟮c+;∴⟯|⟮c+;\therefore⟯|amssymb
+⟮∧⟯|⟮c+;s5;\land⟯ ⟮c+;s4;\wedge⟯
+⟮∨⟯|⟮c+;s6;\lor⟯ ⟮c+;s3;\vee⟯
+⟮¬⟯|⟮c+;s8;\lnot⟯ ⟮c+;s7;\neg⟯
+⟮∴⟯|⟮\therefore⟯|amssymb
 
 ######### set symbols
 
@@ -6102,73 +6102,73 @@ symbol|command(s)|requires package
 \subsetneq|⊊
 \cup|∪
 \cap|∩
-⟮c+;\in⟯|⟮c+;set membership⟯
-⟮c+;\notin⟯|⟮c+;negation of set membership⟯
+⟮\in⟯|⟮set membership⟯
+⟮\notin⟯|⟮negation of set membership⟯
 ⟮c+;\ni|⟮c8;reversed set membership symbol⟯
 ∖|set difference/relative complement
-⟮c+;\o⟯|⟮c+;ø⟯
+⟮\o⟯|⟮ø⟯
 
 ######### comparison operators
 
-⟮c+;\leq⟯|⟮c+;≤⟯
-⟮c+;\geq⟯|⟮c+;≥⟯
-⟮c+;\approx⟯|⟮c+;≈⟯
+⟮\leq⟯|⟮≤⟯
+⟮\geq⟯|⟮≥⟯
+⟮\approx⟯|⟮≈⟯
 
 ######### various symbols
 
 
 command|symbol
-⟮c+;\LaTeX⟯|⟮c+;insert the latexlogo⟯
+⟮\LaTeX⟯|⟮insert the latexlogo⟯
 
 
 \times|×
 
 
-⟮c+;\ldots⟯|⟮c+;an ellipsis on the baseline …⟯
-⟮c+;\cdots⟯|⟮c+;an ellipsis slightly below the midline ⋯⟯
+⟮\ldots⟯|⟮an ellipsis on the baseline …⟯
+⟮\cdots⟯|⟮an ellipsis slightly below the midline ⋯⟯
 
 
 
 
-⟮c+;\infty⟯|⟮c+;∞⟯
+⟮\infty⟯|⟮∞⟯
 \prime|′ (the prime)
 \degree|°
 
 
-⟮c+;\dots⟯ ⟮c+;is equivalent to \ldots⟯ in ⟮c+;vanilla latex⟯. 
-If using ⟮c+;amsmath⟯ and ⟮c+;within math mode⟯, ⟮c+;\dots⟯ ⟮c+;decides between \ldots and \cdots⟯ ⟮c+;based on context⟯ 
+⟮\dots⟯ ⟮is equivalent to \ldots⟯ in ⟮vanilla latex⟯. 
+If using ⟮amsmath⟯ and ⟮within math mode⟯, ⟮\dots⟯ ⟮decides between \ldots and \cdots⟯ ⟮based on context⟯ 
 
 ######## language & encoding
 
 Package|Function
-⟮c+;babel⟯|⟮c+;foreign language support⟯
-⟮c+;fontenc⟯|⟮c+;output character encoding⟯
-⟮c+;inputenc⟯|⟮c+;input character encoding⟯
+⟮babel⟯|⟮foreign language support⟯
+⟮fontenc⟯|⟮output character encoding⟯
+⟮inputenc⟯|⟮input character encoding⟯
 
 
 ######## beginning of document
 
-⟮c+;Latex commands⟯ are ⟮c+;either defined in the .cls file⟯ (and thus ⟮c+;you can use them by default⟯) or ⟮c+;in packages⟯. 
+⟮Latex commands⟯ are ⟮either defined in the .cls file⟯ (and thus ⟮you can use them by default⟯) or ⟮in packages⟯. 
 
-The ⟮c+;first statement⟯ in a latex document must be  ⟮c+;\documentclass⟯ 
-⟮c+;The required argument⟯ of ⟮c+;\documentclass⟯ is ⟮c+;the document clas⟯s 
-calling {{c14::\documentclass{foo} }} ⟮c+;loads foo.cls⟯ in the background 
-⟮c+;The optional argment⟯ of ⟮c+;\documentclass⟯ contains ⟮c+;global options such as font size, orientation, paper size...⟯ The part of the document between {{c11::\documentclass{...} and \begin{document}}} is ⟮c+;the preamble⟯ ⟮c+;\usepackage⟯ is used to ⟮c+;import a package and thus its commands⟯. 
-
-
-⟮c+;Any \usepackage declarations⟯ must go in ⟮c+;the preambl⟯e. 
-⟮c+;\RequirePackage⟯ is like ⟮c+;\usepackage⟯, with the dif that it can be used ⟮c+;before \documentclass⟯ and ⟮c+;is really only used by people writing packages/classes⟯ 
-
-⟮c+;The document environment⟯ contains ⟮c+;the entire document (anything that will be visible⟯) 
-⟮c+;after \begin{document⟯} there is often ⟮c+;a set of commands⟯ setting ⟮c+;metadata⟯ called ⟮c+;the top matter/topmatter⟯ 
-⟮c+;\abstract⟯|⟮c+;set the abstract of e.g. the paper⟯
-⟮c+;\author⟯|⟮c+;set document author⟯
-⟮c+;\date⟯|⟮c+;set document date⟯
-⟮c+;\title⟯|⟮c+;set document title⟯
-⟮c+;\and⟯|⟮c+;separating multiple authors within \author⟯
+The ⟮first statement⟯ in a latex document must be  ⟮\documentclass⟯ 
+⟮The required argument⟯ of ⟮\documentclass⟯ is ⟮the document clas⟯s 
+calling {{c14::\documentclass{foo} }} ⟮loads foo.cls⟯ in the background 
+⟮The optional argment⟯ of ⟮\documentclass⟯ contains ⟮global options such as font size, orientation, paper size...⟯ The part of the document between {{c11::\documentclass{...} and \begin{document}}} is ⟮the preamble⟯ ⟮\usepackage⟯ is used to ⟮import a package and thus its commands⟯. 
 
 
-⟮c+;\maketitle⟯ then ⟮c+;renders top matter⟯ into ⟮c+;the title page⟯ 
+⟮Any \usepackage declarations⟯ must go in ⟮the preambl⟯e. 
+⟮\RequirePackage⟯ is like ⟮\usepackage⟯, with the dif that it can be used ⟮before \documentclass⟯ and ⟮is really only used by people writing packages/classes⟯ 
+
+⟮The document environment⟯ contains ⟮the entire document (anything that will be visible⟯) 
+⟮after \begin{document⟯} there is often ⟮a set of commands⟯ setting ⟮metadata⟯ called ⟮the top matter/topmatter⟯ 
+⟮\abstract⟯|⟮set the abstract of e.g. the paper⟯
+⟮\author⟯|⟮set document author⟯
+⟮\date⟯|⟮set document date⟯
+⟮\title⟯|⟮set document title⟯
+⟮\and⟯|⟮separating multiple authors within \author⟯
+
+
+⟮\maketitle⟯ then ⟮renders top matter⟯ into ⟮the title page⟯ 
 
 
 
@@ -6177,70 +6177,70 @@ calling {{c14::\documentclass{foo} }} ⟮c+;loads foo.cls⟯ in the background
 
 ######### beamer
 
-The ⟮c+;documentclass⟯ for ⟮c+;creating presentations⟯ is ⟮c+;beamer⟯. 
-The highest-level division of ⟮c+;beamer⟯ is ⟮c+;the frame⟯. 
-A beamer ⟮c+;frame⟯ can be defined ⟮c+;by command or as an environment⟯ 
-⟮c+;Frames⟯ ⟮c+;may consist of multiple⟯ ⟮c+;slides⟯. 
-⟮c+;\pause⟯ inserts a ⟮c+;breakpoint⟯ into the frame, creating a ⟮c+;first slide⟯ ⟮c+;with all the content up to⟯ the ⟮c+;breakpoint⟯, and a ⟮c+;second slide⟯ ⟮c+;which also contains the contents after⟯ the ⟮c+;breakpoint⟯ 
-⟮c+;\frametitle{foo⟯} ⟮c+;sets foo as the title of the frame⟯ 
+The ⟮documentclass⟯ for ⟮creating presentations⟯ is ⟮beamer⟯. 
+The highest-level division of ⟮beamer⟯ is ⟮the frame⟯. 
+A beamer ⟮frame⟯ can be defined ⟮by command or as an environment⟯ 
+⟮Frames⟯ ⟮may consist of multiple⟯ ⟮slides⟯. 
+⟮\pause⟯ inserts a ⟮breakpoint⟯ into the frame, creating a ⟮first slide⟯ ⟮with all the content up to⟯ the ⟮breakpoint⟯, and a ⟮second slide⟯ ⟮which also contains the contents after⟯ the ⟮breakpoint⟯ 
+⟮\frametitle{foo⟯} ⟮sets foo as the title of the frame⟯ 
 
-l⟮c+;atex presentations⟯ are ⟮c+;styled⟯ via ⟮c+;themes⟯ 
-The kind of themes that latex presentations can have are ⟮c+;presentation⟯, ⟮c+;color⟯, ⟮c+;font⟯, ⟮c+;inner⟯, ⟮c+;outer⟯ 
-⟮c+;the elements inside of a frame (enumerations, blocks, theorems, etc⟯) are styled via ⟮c+;inner themes⟯ 
-⟮c+;the elements outside of a frame (headers, footers, etc.⟯) are styled via ⟮c+;outer themes⟯ 
-⟮c+;Setting themes⟯ is done via ⟮c+;the \usetheme command⟯ 
+l⟮atex presentations⟯ are ⟮styled⟯ via ⟮themes⟯ 
+The kind of themes that latex presentations can have are ⟮presentation⟯, ⟮color⟯, ⟮font⟯, ⟮inner⟯, ⟮outer⟯ 
+⟮the elements inside of a frame (enumerations, blocks, theorems, etc⟯) are styled via ⟮inner themes⟯ 
+⟮the elements outside of a frame (headers, footers, etc.⟯) are styled via ⟮outer themes⟯ 
+⟮Setting themes⟯ is done via ⟮the \usetheme command⟯ 
 
-⟮c+;Overlay specifications⟯ specify ⟮c+;which slides⟯ to ⟮c+;apply a command to⟯, or ⟮c+;on which slides⟯ ⟮c+;to show a thing⟯ 
-⟮c+;Overlay specifications⟯ are written ⟮c+;‹some_number/list/range›⟯ 
+⟮Overlay specifications⟯ specify ⟮which slides⟯ to ⟮apply a command to⟯, or ⟮on which slides⟯ ⟮to show a thing⟯ 
+⟮Overlay specifications⟯ are written ⟮‹some_number/list/range›⟯ 
 ^\item‹-2,4-5,7›
-⟮c+;\only⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides⟯ 
-⟮c+;\uncover⟯⟮c+;‹overlay-spec›{text⟯}: ⟮c+;only render the text⟯ ⟮c+;on the specified slides,⟯ but ⟮c+;still take up space on the other slides⟯&nbsp;
+⟮\only⟯⟮‹overlay-spec›{text⟯}: ⟮only render the text⟯ ⟮on the specified slides⟯ 
+⟮\uncover⟯⟮‹overlay-spec›{text⟯}: ⟮only render the text⟯ ⟮on the specified slides,⟯ but ⟮still take up space on the other slides⟯&nbsp;
 
-flex-container:<img src="sm_L5.png">
+flex-container:✫sm_L5.png✫
 
 
-When using the ⟮c+;beamer⟯ class, you can use ⟮c+;modes⟯ to ⟮c+;only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
-Command to ⟮c+;only do something in a certain mode⟯ ⟮c+;mode⟯⟮c+;‹⟯⟮c+;certain_mode⟯⟮c+;›⟯⟮c+;{⟯⟮c+;things to do⟯⟮c+;} ⟯ 
+When using the ⟮beamer⟯ class, you can use ⟮modes⟯ to ⟮only do things in certain circumstances (handout, presentation, slide notes etc.⟯) 
+Command to ⟮only do something in a certain mode⟯ ⟮mode⟯⟮‹⟯⟮certain_mode⟯⟮›⟯⟮{⟯⟮things to do⟯⟮} ⟯ 
 Latex beamer modes
-onion-box:[all [presentation [⟮c+;s1:2;beamer⟯][⟮c+;s1:2;second⟯][⟮c+;s1:2;handout⟯][⟮c+;s1:2;trans⟯]][⟮c+;article⟯]]
+onion-box:[all [presentation [⟮c+;s1:2;beamer⟯][⟮c+;s1:2;second⟯][⟮c+;s1:2;handout⟯][⟮c+;s1:2;trans⟯]][⟮article⟯]]
 
-⟮c+;\institute⟯ ⟮c+;sets document institute (e.g. TU Fak. 1⟯) (exclusive to ⟮c+;beamer⟯) 
+⟮\institute⟯ ⟮sets document institute (e.g. TU Fak. 1⟯) (exclusive to ⟮beamer⟯) 
 
-⟮c+;\titlepage⟯ is ⟮c+;functionally equivalent⟯ to ⟮c+;\maketitle⟯, but ⟮c+;will insert a missing frame if necessary⟯ 
-⟮c+;block⟯ is ⟮c+;an environment⟯ representing ⟮c+;a text box⟯ in latex ⟮c+;beamer⟯, taking ⟮c+;an additional argument⟯ of ⟮c+;its title⟯ 
-the ⟮c+;columns environment⟯ allows ⟮c+;a multicolumn setup⟯ in latex ⟮c+;beamer⟯  
-⟮c+;within the columns environment of beamer⟯, ⟮c+;\column{foo⟯} ⟮c+;inserts a column of width foo⟯. 
-⟮c+;theorem⟯ is an ⟮c+;environment⟯ that ⟮c+;delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
-flex-container:⟮h∞;<img src="sm_Beamerblock.png"><img src="sm_Beamercolumns.png"><img src="sm_Beamermaths.png"> ⟯
+⟮\titlepage⟯ is ⟮functionally equivalent⟯ to ⟮\maketitle⟯, but ⟮will insert a missing frame if necessary⟯ 
+⟮block⟯ is ⟮an environment⟯ representing ⟮a text box⟯ in latex ⟮beamer⟯, taking ⟮an additional argument⟯ of ⟮its title⟯ 
+the ⟮columns environment⟯ allows ⟮a multicolumn setup⟯ in latex ⟮beamer⟯  
+⟮within the columns environment of beamer⟯, ⟮\column{foo⟯} ⟮inserts a column of width foo⟯. 
+⟮theorem⟯ is an ⟮environment⟯ that ⟮delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
+flex-container:⟮h∞;✫sm_Beamerblock.png✫✫sm_Beamercolumns.png✫✫sm_Beamermaths.png✫ ⟯
 
 ######### KOMAScript
 
-⟮c+;KOMA-script⟯ is ⟮c+;a bundle of classes⟯ generally more ⟮c+;versatile⟯ than ⟮c+;builtin equivalents⟯ (if ⟮c+;even  extant⟯). 
-⟮c+;KOMAoptions⟯ allows you to ⟮c+;set a bunch of options⟯ ⟮c+;of koma script classes⟯ 
-variant of ⟮c+;article class⟯ ⟮(c:18;KOMA-script⟯): ⟮c+;scrartcl⟯ 
+⟮KOMA-script⟯ is ⟮a bundle of classes⟯ generally more ⟮versatile⟯ than ⟮builtin equivalents⟯ (if ⟮even  extant⟯). 
+⟮KOMAoptions⟯ allows you to ⟮set a bunch of options⟯ ⟮of koma script classes⟯ 
+variant of ⟮article class⟯ ⟮(c:18;KOMA-script⟯): ⟮scrartcl⟯ 
 
-class for ⟮c+;letters⟯ ⟮(c:19;KOMA-script⟯):⟮c+;scrlttr2⟯ 
+class for ⟮letters⟯ ⟮(c:19;KOMA-script⟯):⟮scrlttr2⟯ 
 changing the scrlttr2 template can be can be done the option [] to \documentclass{scrlttr2} 
-⟮c+;Setting variables⟯ for ⟮c+;koma script templates⟯ (but seemingly actually only used for ⟮c+;scrlttr2⟯): ⟮c+;setkomavar⟯{{c26::{key}{val} }} 
-⟮c+;Set the date of a scrlttr2 letter to today⟯: {{c27::\setkomavar{date}{\today}}} 
-⟮c+;Set the subject of a scrlttr2 letter to Ceterum censeo carthaginem...⟯:{{c29::\setkomavar{subject}{Ceterum censeo carthaginem...}}} 
-⟮c+;.lco⟯ files are ⟮c+;regular .tex⟯ files, but are used as ⟮c+;scrlttr2 templates⟯ 
-The ⟮c+;actual body of a letter⟯ using ⟮c+;scrlttr2⟯ is indicated by ⟮c+;the letter environment⟯. It may ⟮c+;recieve a second argument⟯ of ⟮c+;the target address⟯ 
+⟮Setting variables⟯ for ⟮koma script templates⟯ (but seemingly actually only used for ⟮scrlttr2⟯): ⟮setkomavar⟯{{c26::{key}{val} }} 
+⟮Set the date of a scrlttr2 letter to today⟯: {{c27::\setkomavar{date}{\today}}} 
+⟮Set the subject of a scrlttr2 letter to Ceterum censeo carthaginem...⟯:{{c29::\setkomavar{subject}{Ceterum censeo carthaginem...}}} 
+⟮.lco⟯ files are ⟮regular .tex⟯ files, but are used as ⟮scrlttr2 templates⟯ 
+The ⟮actual body of a letter⟯ using ⟮scrlttr2⟯ is indicated by ⟮the letter environment⟯. It may ⟮recieve a second argument⟯ of ⟮the target address⟯ 
 
 
 headerrows=2;span=2;Within the scrlttr2 letter environment
 command|effect
-⟮c+;\closing{foo}⟯|⟮c+;set the closing line (e.g. Best wishes, ) to foo⟯
-⟮c+;\opening{foo}⟯|⟮c+;set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯
-⟮c+;\encl{foo}⟯|⟮c+;define things that are enclosed (attachments⟯)
-⟮c+;\ps⟯|⟮c+;define a postscript⟯
+⟮\closing{foo}⟯|⟮set the closing line (e.g. Best wishes, ) to foo⟯
+⟮\opening{foo}⟯|⟮set the opening line (e.g. Dear Mrs. Soandso, ) to foo⟯
+⟮\encl{foo}⟯|⟮define things that are enclosed (attachments⟯)
+⟮\ps⟯|⟮define a postscript⟯
 
 
 
 ######## text formatting
 
-⟮c+;centering⟯ is a ⟮c+;declaration form command⟯ that ⟮c+;centers content⟯. 
-⟮c+;center⟯ is ⟮c+;an environment⟯ that ⟮c+;centers content⟯. 
+⟮centering⟯ is a ⟮declaration form command⟯ that ⟮centers content⟯. 
+⟮center⟯ is ⟮an environment⟯ that ⟮centers content⟯. 
 
 ######### text sizes
 
@@ -6257,172 +6257,172 @@ command|effect
 
 ######## compilation
 
-⟮c+;pdf(la)tex⟯ ⟮c+;compiles⟯ ⟮c+;(la)tex to pdf⟯ 
-⟮c+;\listoffigures⟯|⟮c+;generate a list of figures⟯
-⟮c+;\listoftables⟯|⟮c+;generate a list of `table`s⟯
-⟮c+;\tableofcontents⟯|⟮c+;generate a table of contents⟯
+⟮pdf(la)tex⟯ ⟮compiles⟯ ⟮(la)tex to pdf⟯ 
+⟮\listoffigures⟯|⟮generate a list of figures⟯
+⟮\listoftables⟯|⟮generate a list of `table`s⟯
+⟮\tableofcontents⟯|⟮generate a table of contents⟯
 
 
-Whenever ⟮c+;latex compiles⟯ and you ⟮c+;have used one or more of \listoffigures, \listoftables, \tableofcontents⟯, it will ⟮c+;emit a .lot, .lof, or .toc file⟯ respectively. 
-Latex constructs the ⟮c+;.aux⟯ and ⟮c+;.log, .lof, or .toc⟯ files by ⟮c+;keeping account of anything that would be relevant⟯ for those ⟮c+;while compiling⟯. 
-Latex uses ⟮c+;the .lot, .lof, or .toc files⟯ on ⟮c+;the next run⟯ ⟮c+;to generate the actual listoffigures, listoftables or table of contents⟯. 
-The reason ⟮c+;latex needs to compile at least twice⟯ is so ⟮c+;it can populate the references⟯ for things like ⟮c+;lot, lof, toc as well as various things in .aux⟯ correctly. 
-The ⟮c+;aux⟯ file keeps track of ⟮c+;various things relevant to latex compilation⟯. 
+Whenever ⟮latex compiles⟯ and you ⟮have used one or more of \listoffigures, \listoftables, \tableofcontents⟯, it will ⟮emit a .lot, .lof, or .toc file⟯ respectively. 
+Latex constructs the ⟮.aux⟯ and ⟮.log, .lof, or .toc⟯ files by ⟮keeping account of anything that would be relevant⟯ for those ⟮while compiling⟯. 
+Latex uses ⟮the .lot, .lof, or .toc files⟯ on ⟮the next run⟯ ⟮to generate the actual listoffigures, listoftables or table of contents⟯. 
+The reason ⟮latex needs to compile at least twice⟯ is so ⟮it can populate the references⟯ for things like ⟮lot, lof, toc as well as various things in .aux⟯ correctly. 
+The ⟮aux⟯ file keeps track of ⟮various things relevant to latex compilation⟯. 
 
 ######### logging
 
-⟮c+;Logging⟯ is done to ⟮c+;.log⟯ for ⟮c+;latex itself⟯ and ⟮c+;.blg⟯ for ⟮c+;bibtex/biber⟯. 
+⟮Logging⟯ is done to ⟮.log⟯ for ⟮latex itself⟯ and ⟮.blg⟯ for ⟮bibtex/biber⟯. 
 
 ######### synctex
 
-⟮c+;Synctex⟯ is the utility that ⟮c+;synchronizes changes between⟯ ⟮c+;source documents and pdf output⟯
+⟮Synctex⟯ is the utility that ⟮synchronizes changes between⟯ ⟮source documents and pdf output⟯
 
 ######## additional functionality
 
 ######### headers and footers
 
-⟮c+;\pagestyle{foo⟯} sets ⟮c+;the style⟯ of ⟮c+;your headers and footers⟯ to ⟮c+;the format defined by foo⟯ 
-for ⟮c+;anything more fancy⟯ with ⟮c+;headers and footers⟯ than ⟮c+;\pagestyle⟯ can do with ⟮c+;builtin formats⟯, you need the package ⟮c+;fancyhdr⟯ 
-⟮c+;\pagestyle{fancy⟯} activates a ⟮c+;sensible default⟯ ⟮c+;fancyhdr⟯ config 
-after&nbsp;⟮c+;\pagestyle{fancy}⟯ you need ⟮c+;\fancyhf{} ⟯ to ⟮c+;remove the elements of the default page syle⟯ 
+⟮\pagestyle{foo⟯} sets ⟮the style⟯ of ⟮your headers and footers⟯ to ⟮the format defined by foo⟯ 
+for ⟮anything more fancy⟯ with ⟮headers and footers⟯ than ⟮\pagestyle⟯ can do with ⟮builtin formats⟯, you need the package ⟮fancyhdr⟯ 
+⟮\pagestyle{fancy⟯} activates a ⟮sensible default⟯ ⟮fancyhdr⟯ config 
+after&nbsp;⟮\pagestyle{fancy}⟯ you need ⟮\fancyhf{} ⟯ to ⟮remove the elements of the default page syle⟯ 
 
-For more ⟮c+;advanced header/footer config⟯ using ⟮c+;fancyhdr⟯, use ⟮c+;\(l/c/r)head{⟯} or ⟮c+;\(l/c/r)foot{}⟯
+For more ⟮advanced header/footer config⟯ using ⟮fancyhdr⟯, use ⟮\(l/c/r)head{⟯} or ⟮\(l/c/r)foot{}⟯
 
-⟮c+;\(l/c/r)foot{foo}⟯|⟮c+;insert an element foo at that position in the footer⟯
-⟮c+;\(l/c/r)head{foo}⟯|⟮c+;insert an element foo at that position in the header⟯
+⟮\(l/c/r)foot{foo}⟯|⟮insert an element foo at that position in the footer⟯
+⟮\(l/c/r)head{foo}⟯|⟮insert an element foo at that position in the header⟯
 
 
-to style headers and footers with ⟮c+;fancyhdr⟯ in ⟮c+;double-sided documents (e.g. books⟯) use ⟮c+;\fancyhead⟯ and ⟮c+;\fancyfoot⟯ 
+to style headers and footers with ⟮fancyhdr⟯ in ⟮double-sided documents (e.g. books⟯) use ⟮\fancyhead⟯ and ⟮\fancyfoot⟯ 
 
 ######### ending commands
 
-⟮c4;⟯ and ⟮c+;\newline⟯ both ⟮c+;generate a linebreak (/end the current line⟯) 
-⟮c+;\​⟯ but not ⟮c+;\newline⟯ takes an ⟮c+;option⟯ to specify how ⟮c+;large the vertical gap to the new line⟯ should be 
-⟮c+;par⟯ ⟮c+;generates a paragraph break (/end the current paragraph⟯) 
-⟮c+;a blank line⟯ is the construct most often used to ⟮c+;create a paragraph break⟯. 
-⟮c+;\newpage⟯ and ⟮c+;\clearpage⟯ both ⟮c+;generate a new page (/end the current page⟯) 
-⟮c+;\clearpage⟯ is like ⟮c+;\newpage⟯, but ⟮c+;\clearpage⟯ ⟮c+;forces floats to go on a new page⟯, while ⟮c+;\newpage⟯ will in multicollumn mode ⟮c+;actually just create a new column (not necessary a new page⟯) 
+⟮c4;⟯ and ⟮\newline⟯ both ⟮generate a linebreak (/end the current line⟯) 
+⟮\​⟯ but not ⟮\newline⟯ takes an ⟮option⟯ to specify how ⟮large the vertical gap to the new line⟯ should be 
+⟮par⟯ ⟮generates a paragraph break (/end the current paragraph⟯) 
+⟮a blank line⟯ is the construct most often used to ⟮create a paragraph break⟯. 
+⟮\newpage⟯ and ⟮\clearpage⟯ both ⟮generate a new page (/end the current page⟯) 
+⟮\clearpage⟯ is like ⟮\newpage⟯, but ⟮\clearpage⟯ ⟮forces floats to go on a new page⟯, while ⟮\newpage⟯ will in multicollumn mode ⟮actually just create a new column (not necessary a new page⟯) 
 
 ######### pdf metadata
 
-the package ⟮c+;hyperref⟯ also handles ⟮c+;metadata⟯ via ⟮c+;the \hypersetup command⟯. 
-The ⟮c+;hypersetup⟯ command defines ⟮c+;pdf metadata⟯ by taking ⟮c+;keys⟯ with ⟮c+;the syntax of pdf‹name›, e.g. pdfauthor or pdftitle⟯ 
-⟮c+;pdfbookmark⟯ is a ⟮c+;hyperref⟯ command that ⟮c+;inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar⟯) 
-Arguments to ⟮c+;pdfbookmark⟯⟮c+;[section]⟯⟮c+;{Title} ⟯⟮c+;{uid(of some kind, no standard)} ⟯ 
-⟮c+;hypcap⟯ is a package extending ⟮c+;hyperref⟯ {{c13::make hyperref figure links link to the correct thing} 
+the package ⟮hyperref⟯ also handles ⟮metadata⟯ via ⟮the \hypersetup command⟯. 
+The ⟮hypersetup⟯ command defines ⟮pdf metadata⟯ by taking ⟮keys⟯ with ⟮the syntax of pdf‹name›, e.g. pdfauthor or pdftitle⟯ 
+⟮pdfbookmark⟯ is a ⟮hyperref⟯ command that ⟮inserts a pdf ToC thingy (visible e.g. in the adobe reader sidebar⟯) 
+Arguments to ⟮pdfbookmark⟯⟮[section]⟯⟮{Title} ⟯⟮{uid(of some kind, no standard)} ⟯ 
+⟮hypcap⟯ is a package extending ⟮hyperref⟯ {{c13::make hyperref figure links link to the correct thing} 
 
 ######### page geometry
 
-⟮c+;layout⟯ is a package that allows you to ⟮c+;show the setup of the page (how much spaces is being taken up by margins etc.⟯) 
-⟮c+;geometry⟯ is a package that allows you to ⟮c+;change page layout (margins etc.⟯) 
-You can use ⟮c+;the  geometry package⟯ to ⟮c+;change the page layout globally⟯ by using ⟮c+;the optional argument⟯ of ⟮c+;the \usepackage call⟯. 
-You can use ⟮c+;\newgeometry{options⟯} to ⟮c+;change the page layout⟯ for ⟮c+;the following pages⟯, and 
-⟮c+;\restoregeometry⟯ to ⟮c+;reset the page layout to the original state⟯ (both package ⟮c+;geometry⟯) 
+⟮layout⟯ is a package that allows you to ⟮show the setup of the page (how much spaces is being taken up by margins etc.⟯) 
+⟮geometry⟯ is a package that allows you to ⟮change page layout (margins etc.⟯) 
+You can use ⟮the  geometry package⟯ to ⟮change the page layout globally⟯ by using ⟮the optional argument⟯ of ⟮the \usepackage call⟯. 
+You can use ⟮\newgeometry{options⟯} to ⟮change the page layout⟯ for ⟮the following pages⟯, and 
+⟮\restoregeometry⟯ to ⟮reset the page layout to the original state⟯ (both package ⟮geometry⟯) 
 
 ########## lscape
 
-using the package ⟮c+;lscape⟯, you can use ⟮c+;the landscape environment⟯ to make ⟮c+;the thing go into landscape mode⟯ 
-If using ⟮c+;pdflatex⟯, you use ⟮c+;pdflscape⟯ instead of ⟮c+;lscape⟯. 
+using the package ⟮lscape⟯, you can use ⟮the landscape environment⟯ to make ⟮the thing go into landscape mode⟯ 
+If using ⟮pdflatex⟯, you use ⟮pdflscape⟯ instead of ⟮lscape⟯. 
 
 ######### images
 
-⟮c+;graphicx⟯ is a package that allows us to ⟮c+;use images/graphics⟯ in ⟮c+;latex⟯. 
-You define the ⟮c+;root directory⟯ for where ⟮c+;graphicx⟯ should ⟮c+;look for images⟯ with ⟮c+;\graphicspath{\foo⟯} 
-To ⟮c+;include an actual image⟯ with ⟮c+;graphicx⟯, use ⟮c+;\includgraphics{path⟯}. 
-⟮c+;Changing attributes of images⟯ included w/ graphics is done in ⟮c+;the optional argument⟯ of ⟮c+;\includegraphics⟯ 
+⟮graphicx⟯ is a package that allows us to ⟮use images/graphics⟯ in ⟮latex⟯. 
+You define the ⟮root directory⟯ for where ⟮graphicx⟯ should ⟮look for images⟯ with ⟮\graphicspath{\foo⟯} 
+To ⟮include an actual image⟯ with ⟮graphicx⟯, use ⟮\includgraphics{path⟯}. 
+⟮Changing attributes of images⟯ included w/ graphics is done in ⟮the optional argument⟯ of ⟮\includegraphics⟯ 
 
 ######### hyphenation
 
-The ⟮c+;hyphenation⟯ command takes a ⟮c+;list of words⟯ as an ⟮c+;argument⟯, which will ⟮c+;only be hyphenated⟯ in ⟮c+;the places indicated with dashes⟯ 
-⟮c+;hyphenat⟯ is a package to ⟮c+;en/disable autohyphenation⟯, e.g. in ⟮c+;words that contain hyphens or in monospaced fonts⟯ 
-in general, if a word ⟮c+;contains a non-alphabetic character⟯, ⟮c+;latex⟯ will only ever ⟮c+;split the word on that hyphen⟯ 
+The ⟮hyphenation⟯ command takes a ⟮list of words⟯ as an ⟮argument⟯, which will ⟮only be hyphenated⟯ in ⟮the places indicated with dashes⟯ 
+⟮hyphenat⟯ is a package to ⟮en/disable autohyphenation⟯, e.g. in ⟮words that contain hyphens or in monospaced fonts⟯ 
+in general, if a word ⟮contains a non-alphabetic character⟯, ⟮latex⟯ will only ever ⟮split the word on that hyphen⟯ 
 
 Latex|Result
-⟮c+;$-$ (or other inline math env notation⟯)|⟮c+;a mathematical minus⟯
-⟮c+;---⟯|⟮c+;an em-dash⟯
-⟮c+;--⟯|⟮c+;an en-dash⟯
-⟮c+;⟮c1;-{}-⟯⟯|⟮c+;--⟯
-⟮c+;-⟯|⟮c+;a hyphen⟯
+⟮$-$ (or other inline math env notation⟯)|⟮a mathematical minus⟯
+⟮---⟯|⟮an em-dash⟯
+⟮--⟯|⟮an en-dash⟯
+⟮c+;⟮c1;-{}-⟯⟯|⟮--⟯
+⟮-⟯|⟮a hyphen⟯
 
 
 ######### blockquotes
 
-the ⟮c+;quote⟯, ⟮c+;quotation⟯, and ⟮c+;verse⟯ environments all ⟮c+;indent the material, blockquote-style⟯. They ⟮c+;differ in⟯ ⟮c+;what they indent additionally, if anything⟯. 
-⟮c+;quotation environment⟯|⟮c+;indents the beginning line of a paragraph additionally⟯
-⟮c+;quote environment⟯|⟮c+;indents nothing additonally⟯
-⟮c+;verse environment⟯|⟮c+;indents every line of a paragraph but the first one additionally⟯
+the ⟮quote⟯, ⟮quotation⟯, and ⟮verse⟯ environments all ⟮indent the material, blockquote-style⟯. They ⟮differ in⟯ ⟮what they indent additionally, if anything⟯. 
+⟮quotation environment⟯|⟮indents the beginning line of a paragraph additionally⟯
+⟮quote environment⟯|⟮indents nothing additonally⟯
+⟮verse environment⟯|⟮indents every line of a paragraph but the first one additionally⟯
 
 
 
 ######### verbatim
 
-Package ⟮c+;verbatim⟯ contains the ⟮c+;verbatim⟯ and ⟮c+;comment⟯ ⟮c+;environments⟯.
+Package ⟮verbatim⟯ contains the ⟮verbatim⟯ and ⟮comment⟯ ⟮environments⟯.
 environment|function
-⟮c+;comment⟯|⟮c+;a block comment⟯
-⟮c+;verbatim⟯|⟮c+;the text, exactly as you have inputted it (similar to ‹pre›⟯)
+⟮comment⟯|⟮a block comment⟯
+⟮verbatim⟯|⟮the text, exactly as you have inputted it (similar to ‹pre›⟯)
 
 
 ######### drawing (tikz)
 
-⟮c+;tikz⟯ is a package for ⟮c+;creating images⟯ based on ⟮c+;LaTeXlike commands⟯ 
-⟮c+;TikZ⟯ is short for ⟮c+;TikZ ist kein Zeichenprogramm⟯ 
-⟮c+;TikZ⟯ has ⟮c+;its own pacakge/library system⟯, for which you ⟮c+;import packages/libraries⟯ via ⟮c+;\usetikzlibrary⟯ in ⟮c+;the preamble⟯ 
-⟮c+;tikzpicture⟯ is the ⟮c+;environment⟯ that ⟮c+;delimits tikz commands to draw an image⟯ 
+⟮tikz⟯ is a package for ⟮creating images⟯ based on ⟮LaTeXlike commands⟯ 
+⟮TikZ⟯ is short for ⟮TikZ ist kein Zeichenprogramm⟯ 
+⟮TikZ⟯ has ⟮its own pacakge/library system⟯, for which you ⟮import packages/libraries⟯ via ⟮\usetikzlibrary⟯ in ⟮the preamble⟯ 
+⟮tikzpicture⟯ is the ⟮environment⟯ that ⟮delimits tikz commands to draw an image⟯ 
 
 ######### resizing braces
 
-In latex, ⟮c+;parentheses⟯ and ⟮c+;square brackets⟯ ⟮c+;can just be inserted⟯, ⟮c+;curly braces⟯ ⟮c+;must be escaped⟯. 
-⟮c+;curly braces⟯ must ⟮c+;be escaped even⟯ if ⟮c+;as part of \left or \right⟯ 
+In latex, ⟮parentheses⟯ and ⟮square brackets⟯ ⟮can just be inserted⟯, ⟮curly braces⟯ ⟮must be escaped⟯. 
+⟮curly braces⟯ must ⟮be escaped even⟯ if ⟮as part of \left or \right⟯ 
 ^e.g. `\left\{`
-⟮c+;prefixing⟯ ⟮c+;parentheses, square brackets or (escaped) curly brackets⟯ with ⟮c+;\left⟯ (if ⟮c+;opening⟯) or ⟮c+;\right⟯ (if ⟮c+;closing⟯) will ⟮c+;make them resize if around something larger (e.g. a fraction⟯) 
+⟮prefixing⟯ ⟮parentheses, square brackets or (escaped) curly brackets⟯ with ⟮\left⟯ (if ⟮opening⟯) or ⟮\right⟯ (if ⟮closing⟯) will ⟮make them resize if around something larger (e.g. a fraction⟯) 
 ^e.g. `$$\left[\frac{foo}{bar}\right]$$`
 
 ######### links (hyperref)
 
 ######### including other pdfs
 
-⟮c+;pdfpages⟯ is a ⟮c+;package⟯ to ⟮c+;include other pdfs within the latex documents⟯ 
-⟮c+;pdfpages⟯ mainly features the command ⟮c+;\includepdf⟯ which ⟮c+;allows include a pdf document in the latex document⟯ 
-⟮c+;\includepdf⟯ allows specifying ⟮c+;how you want to include what⟯ in ⟮c+;its options⟯ 
-⟮c+;to control the pages that are included⟯, \includepdf⟮c+;[pages=foo]⟯ 
+⟮pdfpages⟯ is a ⟮package⟯ to ⟮include other pdfs within the latex documents⟯ 
+⟮pdfpages⟯ mainly features the command ⟮\includepdf⟯ which ⟮allows include a pdf document in the latex document⟯ 
+⟮\includepdf⟯ allows specifying ⟮how you want to include what⟯ in ⟮its options⟯ 
+⟮to control the pages that are included⟯, \includepdf⟮[pages=foo]⟯ 
 
 ######### color
 
-the ⟮c+;packages⟯ ⟮c+;color⟯ and ⟮c+;xcolor⟯ allow ⟮c+;using various color-related commands⟯. 
-⟮c+;xcolor⟯ is ⟮c+;an extension/superset of⟯ ⟮c+;color⟯. 
+the ⟮packages⟯ ⟮color⟯ and ⟮xcolor⟯ allow ⟮using various color-related commands⟯. 
+⟮xcolor⟯ is ⟮an extension/superset of⟯ ⟮color⟯. 
 
 
 command|effect
-⟮c+;\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}⟯|⟮c+;define new colors⟯
-⟮c+;\pagecolor{color}⟯|⟮c+;colors the background of a page in the specified way⟯
-⟮c+;\textcolor{color}{text}⟯|⟮c+;colors the text in a specific color⟯
+⟮\definecolor{name}{color_space (e.g. rbg)}{values (e.g. 0.858, 0.188, 0.478)}⟯|⟮define new colors⟯
+⟮\pagecolor{color}⟯|⟮colors the background of a page in the specified way⟯
+⟮\textcolor{color}{text}⟯|⟮colors the text in a specific color⟯
 
 
 ######### misc
 
 command|Effect
-⟮c+;\noindent⟯|⟮c+;prevent the paragraph from being indented⟯
-⟮c+;\nolinebreak / \nobreak⟯|⟮c+;prevent latex from breaking here⟯
-⟮c+;\textwidth, \columnwith, \linewidth⟯|⟮c+;width of the current text (different variants for different circumstances⟯)
-⟮c+;\neg‹whatever›space (\negmedspace, \negthickspace⟯)|⟮c+;negative space (pulls things closer together⟯)
+⟮\noindent⟯|⟮prevent the paragraph from being indented⟯
+⟮\nolinebreak / \nobreak⟯|⟮prevent latex from breaking here⟯
+⟮\textwidth, \columnwith, \linewidth⟯|⟮width of the current text (different variants for different circumstances⟯)
+⟮\neg‹whatever›space (\negmedspace, \negthickspace⟯)|⟮negative space (pulls things closer together⟯)
 
 
 Command|does
-⟮c+;\today⟯|⟮c+;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)
-⟮c+;\bar{foo}⟯|⟮c+;bar above foo⟯
-⟮c+;a' or a^{\prime}⟯|⟮c+;render an a with a prime⟯
+⟮\today⟯|⟮c+;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)
+⟮\bar{foo}⟯|⟮bar above foo⟯
+⟮a' or a^{\prime}⟯|⟮render an a with a prime⟯
 
 
 ####### MD
 
-In ⟮c+;markdown⟯, you can include arbitrary ⟮c+;HTML⟯. 
-In ⟮c+;markdown⟯, you need to ⟮c+;put blank lines⟯ ⟮c+;before and after⟯ ⟮c+;block-level⟯ elements, this includes ⟮c+;HTML in markdown⟯. 
-To ⟮c+;indent something under something else⟯ in md, ⟮c+;indent the source code thing by four spaces⟯. 
+In ⟮markdown⟯, you can include arbitrary ⟮HTML⟯. 
+In ⟮markdown⟯, you need to ⟮put blank lines⟯ ⟮before and after⟯ ⟮block-level⟯ elements, this includes ⟮HTML in markdown⟯. 
+To ⟮indent something under something else⟯ in md, ⟮indent the source code thing by four spaces⟯. 
 
 ######## GFM
 
-⟮c+;Github-flavored⟯ ⟮c+;markdown⟯ supports creating ⟮c+;task lists⟯ via the syntax ⟮c+;`- [ ]`⟯ 
-You ⟮c+;complete⟯ ⟮c+;github-flavored markdown task lists⟯ via the syntax `⟮c+;- [x]⟯` 
+⟮Github-flavored⟯ ⟮markdown⟯ supports creating ⟮task lists⟯ via the syntax ⟮`- [ ]`⟯ 
+You ⟮complete⟯ ⟮github-flavored markdown task lists⟯ via the syntax `⟮- [x]⟯` 
 
 ###### non-markup
 
@@ -6506,7 +6506,7 @@ ical-component ::= <begin-line>{<contentline>|<ical-component>}<end-line>
 begin-line ::= BEGIN:<component-name><CRLF>
 end-line ::= END:<component-name><CRLF>
 
-In vCard, properties are direct children of the ⟮c+;the vCard object⟯
+In vCard, properties are direct children of the ⟮the vCard object⟯
 In general, an .ics contains one ical object, however a .vcf may contain multiple ical objects
 
 vcard-object ::= <ical-begin-line><version-line>{<contentline>}<ical-end-line> # no prodid
@@ -6534,13 +6534,13 @@ VTODO   Task/Todo
 
 ######## TOML
 
-in ⟮c+;TOML⟯, ⟮c+;the top-level table⟯ starts at ⟮c+;the beginning of the document⟯ and ends before/at ⟮c+;the first table header⟯ 
-in ⟮c+;TOML⟯, a ⟮c+;header⟯ looks like ⟮c+;[foo]⟯ 
-in TOML, ⟮c+;a header (on its own line⟯) ⟮c+;starts a table⟯ TOML: ⟮c+;standard tables⟯ continue until ⟮c+;the next table (or EOF⟯) 
-to ⟮c+;create subtables⟯ via the standard table syntax, you use ⟮c+;dot notation within the header⟯. 
-to create ⟮c+;an array of⟯ ⟮c+;standard tables,⟯ you ⟮c+;surround the header with double braces like so: [[header]]⟯ 
-TOML also supports ⟮c+;JSON style tables⟯, (though ⟮c+;they use = instead of :⟯), but only if ⟮c+;they do not contain a newline⟯. 
-TOML: ⟮c+;fruit.apple.color = "red"⟯ produces ⟮c+;a table named fruit that has a table named apple that has a key color with the value red⟯ 
+in ⟮TOML⟯, ⟮the top-level table⟯ starts at ⟮the beginning of the document⟯ and ends before/at ⟮the first table header⟯ 
+in ⟮TOML⟯, a ⟮header⟯ looks like ⟮[foo]⟯ 
+in TOML, ⟮a header (on its own line⟯) ⟮starts a table⟯ TOML: ⟮standard tables⟯ continue until ⟮the next table (or EOF⟯) 
+to ⟮create subtables⟯ via the standard table syntax, you use ⟮dot notation within the header⟯. 
+to create ⟮an array of⟯ ⟮standard tables,⟯ you ⟮surround the header with double braces like so: [[header]]⟯ 
+TOML also supports ⟮JSON style tables⟯, (though ⟮they use = instead of :⟯), but only if ⟮they do not contain a newline⟯. 
+TOML: ⟮fruit.apple.color = "red"⟯ produces ⟮a table named fruit that has a table named apple that has a key color with the value red⟯ 
 
 ######## YAML
 
@@ -6548,14 +6548,14 @@ YAML|YAML Ain't Markup Language
 
 ######### Anchors & merge keys
 
-YAML ⟮c+;anchors⟯ ⟮c+;save a reference to a value⟯, which ⟮c+;then can be included in a different location⟯ via ⟮c+;an alias.⟯ 
-⟮c+;A merge key⟯ ⟮c+;merges the values of an anchor⟯ ⟮c+;into the current leve⟯l, thus allowing ⟮c+;overwriting some of the values if necessary⟯. 
-A YAML ⟮c+;alias⟯ goe⟮c+;s where a value would normally⟯ 
-A YAML ⟮c+;anchor⟯ goes ⟮c+;between key and value⟯ 
-A YAML ⟮c+;merge key⟯ goes ⟮c+;instead of a key⟯, and ⟮c+;takes an alias as a value⟯. 
-⟮c+;&amp;foo⟯|⟮c+;anchor⟯
-⟮c+;*foo⟯|⟮c+;alias⟯
-⟮c+;&lt;&lt;⟯|⟮c+;Merge key⟯
+YAML ⟮anchors⟯ ⟮save a reference to a value⟯, which ⟮then can be included in a different location⟯ via ⟮an alias.⟯ 
+⟮A merge key⟯ ⟮merges the values of an anchor⟯ ⟮into the current leve⟯l, thus allowing ⟮overwriting some of the values if necessary⟯. 
+A YAML ⟮alias⟯ goe⟮s where a value would normally⟯ 
+A YAML ⟮anchor⟯ goes ⟮between key and value⟯ 
+A YAML ⟮merge key⟯ goes ⟮instead of a key⟯, and ⟮takes an alias as a value⟯. 
+⟮c+;&amp;foo⟯|⟮anchor⟯
+⟮*foo⟯|⟮alias⟯
+⟮c+;&lt;&lt;⟯|⟮Merge key⟯
 
 
 ######## JSON
@@ -6599,64 +6599,64 @@ in JSON Schema, to specify that there are multiple relevant specifications for a
 
 ######### integration with other languages
 
-to use your ⟮c+;JSON Schemas⟯ as ⟮c+;TS typeings⟯ use the ⟮c+;npm package⟯ ⟮c+;json-schema-to-typescript⟯
+to use your ⟮JSON Schemas⟯ as ⟮TS typeings⟯ use the ⟮npm package⟯ ⟮json-schema-to-typescript⟯
 
 ######## jq yq
 
 jq|process JSON
 yq|process YAML & convert to/from JSON
 yq -y/-Y roundtrip back to YAML
-`yq ⟮c+;‹command›⟯ ⟮c+;‹flags›⟯ {⟮c+;‹file›⟯}`
-`yq ⟮c+;-t/--to-type⟯ ⟮c+;yaml⟯/⟮c+;json⟯/...` ⟮c+;outputs the file as the specified file format⟯
+`yq ⟮‹command›⟯ ⟮‹flags›⟯ {⟮‹file›⟯}`
+`yq ⟮-t/--to-type⟯ ⟮yaml⟯/⟮json⟯/...` ⟮outputs the file as the specified file format⟯
 
 ####### subtitles
 
 WebVTT|Web Video Text Tracks Formats
-⟮c+;WebVTT⟯ and ⟮c+;.srt⟯ are file formats for ⟮c+;subtitles⟯. 
-⟮c+;WebVTT⟯ is ⟮c+;based on⟯ and ⟮c+;similar to⟯ ⟮c+;.srt⟯ 
-⟮c+;.srt⟯ is ⟮c+;more common⟯ than ⟮c+;WebVTT⟯, but ⟮c+;WebVTT⟯ is ⟮c+;more new/featurefu⟯l. 
-⟮c+;Youtube⟯ amongst others does not support ⟮c+;srt or WebVTT tag formatting⟯, and ⟮c+;pretty much nothing⟯ supports ⟮c+;most of WebVTT's most advanced features⟯. 
-⟮c+;WebVTT and .srt⟯ mark up their payload with ⟮c+;HTML/XML-style tags⟯. 
-Things in ⟮c+;WebVTT/.srt⟯ are ⟮c+;generally separated⟯ by ⟮c+;a blank line (i.e. two newlines⟯) 
+⟮WebVTT⟯ and ⟮.srt⟯ are file formats for ⟮subtitles⟯. 
+⟮WebVTT⟯ is ⟮based on⟯ and ⟮similar to⟯ ⟮.srt⟯ 
+⟮.srt⟯ is ⟮more common⟯ than ⟮WebVTT⟯, but ⟮WebVTT⟯ is ⟮more new/featurefu⟯l. 
+⟮Youtube⟯ amongst others does not support ⟮srt or WebVTT tag formatting⟯, and ⟮pretty much nothing⟯ supports ⟮most of WebVTT's most advanced features⟯. 
+⟮WebVTT and .srt⟯ mark up their payload with ⟮HTML/XML-style tags⟯. 
+Things in ⟮WebVTT/.srt⟯ are ⟮generally separated⟯ by ⟮a blank line (i.e. two newlines⟯) 
 
-WebVTT delimits ⟮c+;major sections⟯ with ⟮c+;allcaps words⟯: 
+WebVTT delimits ⟮major sections⟯ with ⟮allcaps words⟯: 
 section name|section semantics/function
-⟮c+;WEBVTT⟯|⟮c+;s32;Begin WebVTT document⟯ ⟮h2;(may be followed by ⟮c+;text header on the same line⟯⟯)
-⟮c+;STYLE⟯|⟮c+;inline styling section⟯
-⟮c+;NOTE⟯|⟮c+;comment⟯
+⟮WEBVTT⟯|⟮c+;s32;Begin WebVTT document⟯ ⟮h2;(may be followed by ⟮text header on the same line⟯⟯)
+⟮STYLE⟯|⟮inline styling section⟯
+⟮NOTE⟯|⟮comment⟯
 
 
 
-A ⟮c+;cue⟯ is ⟮c+;the main unit of information⟯ in ⟮c+;WebVTT/.srt.⟯ 
-⟮c+;A cue⟯ ⟮c+;starts (.srt)/may start (WebVTT⟯) with ⟮c+;a header line⟯. 
-⟮c+;The header line that starts a cue⟯ must be ⟮c+;a running number indicator⟯ in ⟮c+;.srt⟯, this is ⟮c+;optional⟯ in ⟮c+;WebVTT⟯ 
-⟮c+;The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮c+;cue⟯ contains ⟮c+;the time to show the text⟯, consisting of ⟮c+;two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` -&gt; ` (notice the spaces).⟯⟮c+;&nbsp;Every line of a cue after the line specifying the time⟯ specifies ⟮c+;text to be shown.⟯ Together, these are known as ⟮c+;the payload⟯. 
-Every line of a cue may optionally be ⟮c+;started by `- `⟯, this will ⟮c+;not be displayed⟯ 
+A ⟮cue⟯ is ⟮the main unit of information⟯ in ⟮WebVTT/.srt.⟯ 
+⟮A cue⟯ ⟮starts (.srt)/may start (WebVTT⟯) with ⟮a header line⟯. 
+⟮The header line that starts a cue⟯ must be ⟮a running number indicator⟯ in ⟮.srt⟯, this is ⟮optional⟯ in ⟮WebVTT⟯ 
+⟮The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮cue⟯ contains ⟮the time to show the text⟯, consisting of ⟮two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` -&gt; ` (notice the spaces).⟯⟮c+;&nbsp;Every line of a cue after the line specifying the time⟯ specifies ⟮text to be shown.⟯ Together, these are known as ⟮the payload⟯. 
+Every line of a cue may optionally be ⟮started by `- `⟯, this will ⟮not be displayed⟯ 
 
 
 
     <tr><th colspan="2">WebVTT-specific properties
 CSS property syntax|CSS function
 ⟮c+;vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg⟯)
-⟮c+;line:0-100%⟯|⟮c+;display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)
-⟮c+;position:0-100%⟯|⟮c+;display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)
-⟮c+;size:0-100%⟯|⟮c+;set the width of the cue to %⟯
-⟮c+;‹c.foo›content‹/c›⟯|⟮c+;specify a class foo to target⟯
-⟮c+;‹ruby›...⟯|⟮c+;add furigana etc.⟯
-⟮c+;‹v foo›⟯|⟮c+;indicate that foo is speaking⟯
-⟮c+;align:start/end...⟯|⟮c+;align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯
-⟮c+;&lt;font color="...⟯|⟮c+;Set the text to a certain color⟯
-⟮c+;‹b›, ‹i›, ‹u›⟯|⟮c+;make the text bold, italic or underlined⟯
+⟮line:0-100%⟯|⟮display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)
+⟮position:0-100%⟯|⟮display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)
+⟮size:0-100%⟯|⟮set the width of the cue to %⟯
+⟮‹c.foo›content‹/c›⟯|⟮specify a class foo to target⟯
+⟮‹ruby›...⟯|⟮add furigana etc.⟯
+⟮‹v foo›⟯|⟮indicate that foo is speaking⟯
+⟮align:start/end...⟯|⟮align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯
+⟮c+;&lt;font color="...⟯|⟮Set the text to a certain color⟯
+⟮‹b›, ‹i›, ‹u›⟯|⟮make the text bold, italic or underlined⟯
 
 
     <tr><th colspan="2">WebVTT-specific selectors
 CSS Selector|Selects
-⟮c+;::cue(.foo⟯)|⟮c+;Target a cue with class foo (‹c.foo›⟯)
-⟮c+;::cue⟯|⟮c+;Target any WebVTT cue (shown subtitle⟯)
-⟮c+;::cue(b⟯)|⟮c+;Target a ‹b› tag within WebVTT⟯
+⟮::cue(.foo⟯)|⟮Target a cue with class foo (‹c.foo›⟯)
+⟮::cue⟯|⟮Target any WebVTT cue (shown subtitle⟯)
+⟮::cue(b⟯)|⟮Target a ‹b› tag within WebVTT⟯
 
-If you ⟮c+;specify timestamp text (WebVTT only⟯), then ⟮c+;any text before a timestamp text whose time you are at or after⟯ is ⟮c+;previous text⟯, ⟮c+;the text from the current to the next timestamp tag⟯ is ⟮c+;active text⟯ and ⟮c+;text after the next timestamp tag⟯ is ⟮c+;future text⟯. 
-If we specify ⟮c+;‹track kind="chapters"›⟯, cues ⟮c+;may not overlap time-wise⟯, and payloads ⟮c+;may not contain tags⟯ 
+If you ⟮specify timestamp text (WebVTT only⟯), then ⟮any text before a timestamp text whose time you are at or after⟯ is ⟮previous text⟯, ⟮the text from the current to the next timestamp tag⟯ is ⟮active text⟯ and ⟮text after the next timestamp tag⟯ is ⟮future text⟯. 
+If we specify ⟮‹track kind="chapters"›⟯, cues ⟮may not overlap time-wise⟯, and payloads ⟮may not contain tags⟯ 
 
 ####### misc
 
@@ -6986,7 +6986,7 @@ Github issues track desired changes such as features, bugs, etc.
 A milestone is a set of github issues.
 PR = Pull Request
 A pull request is a request to merge the specified changes into the branch
-If you refer to an issue with ⟮c+;#number⟯ and a word such ⟮c+;as closes, fixes etc.⟯ within a ⟮c+;commit⟯, it will ⟮c+;close the issue⟯ (or ⟮c+;close it⟯ once ⟮c+;merged into the default branch⟯)
+If you refer to an issue with ⟮#number⟯ and a word such ⟮as closes, fixes etc.⟯ within a ⟮commit⟯, it will ⟮close the issue⟯ (or ⟮close it⟯ once ⟮merged into the default branch⟯)
 
 # hardware/low-level
 
@@ -6994,18 +6994,18 @@ If you refer to an issue with ⟮c+;#number⟯ and a word such ⟮c+;as closes, 
 
 ### electrical connectors
 
-flex-container:<img src="Connectors.jpg"><img src="1280px-ConnectorSymbols.svg.png">
+flex-container:✫Connectors.jpg✫✫1280px-ConnectorSymbols.svg.png✫
 
 
 
-An ⟮c+;electrical connector⟯ is a device that ⟮c+;joins electric conductors⟯ ⟮c+;mechanically⟯ and ⟮c+;electrically⟯.
-In ⟮c+;electrical connectors⟯, the ⟮c+;mechanical connection⟯ is ⟮c+;to allow the electrical connecton to stay in place⟯ and thus ⟮c+;an electrical circuit to be created⟯. 
-Most ⟮c+;electrical connectors⟯ have ⟮c+;a gender (male or female :( ⟯) 
-An ⟮c+;electrical connector⟯ that is ⟮c+;a protusion⟯ is ⟮c+;male⟯. 
-An ⟮c+;electrical connector⟯ that is ⟮c+;a receptacle/indentation⟯ is ⟮c+;female⟯. 
-An ⟮c+;electrical connector⟯ with ⟮c+;male gender⟯ is also called ⟮c+;a plug.⟯ 
-An ⟮c+;electrical connector⟯ with ⟮c+;female gender⟯ is also called ⟮c+;a socket/jack⟯. 
-A ⟮c+;terminal⟯ is ⟮c+;the point where a conductor ends⟯. It may be ⟮c+;an electrical connector⟯. 
+An ⟮electrical connector⟯ is a device that ⟮joins electric conductors⟯ ⟮mechanically⟯ and ⟮electrically⟯.
+In ⟮electrical connectors⟯, the ⟮mechanical connection⟯ is ⟮to allow the electrical connecton to stay in place⟯ and thus ⟮an electrical circuit to be created⟯. 
+Most ⟮electrical connectors⟯ have ⟮a gender (male or female :( ⟯) 
+An ⟮electrical connector⟯ that is ⟮a protusion⟯ is ⟮male⟯. 
+An ⟮electrical connector⟯ that is ⟮a receptacle/indentation⟯ is ⟮female⟯. 
+An ⟮electrical connector⟯ with ⟮male gender⟯ is also called ⟮a plug.⟯ 
+An ⟮electrical connector⟯ with ⟮female gender⟯ is also called ⟮a socket/jack⟯. 
+A ⟮terminal⟯ is ⟮the point where a conductor ends⟯. It may be ⟮an electrical connector⟯. 
 
 ### transistor -> logic gate -> logic circut
 
@@ -7014,10 +7014,10 @@ A ⟮c+;terminal⟯ is ⟮c+;the point where a conductor ends⟯. It may be ⟮c
 A transistor has three terminals.
 In a transistor, if you apply power to two certain terminals, power can flow through two other terminals. (of course, between both of the sets of the terminals, one will be the same.
 
-flex-container:<img src="sm_transistor-current-explanation.png">
+flex-container:✫sm_transistor-current-explanation.png✫
 
 BJT  Bipolar junction transistor
-The three terminals in a bipolar transistor are called ⟮c+;base⟯, ⟮c+;collector⟯, and ⟮c+;emitter⟯.
+The three terminals in a bipolar transistor are called ⟮base⟯, ⟮collector⟯, and ⟮emitter⟯.
 BJT are either PNP or NPN.
 NPN transistor  Negative Positive Negative transistor
 PNP transistor  Positive Negative Positive transistor
@@ -7025,11 +7025,11 @@ for NPN transistors, applying power (at the base) allows the current to flow.
 for PNP transistors, applying negative/no power (at the base) allows the current to flow.
 For NPN BJT transistors, if you apply power to the base, it will flow to the emitter, allowing a stronger current to flow between collector and emitter.
 
-flex-container:<img src="sm_tmpr_uvk0fj.png">
+flex-container:✫sm_tmpr_uvk0fj.png✫
 
 
-flex-container:<img src="sm_tmpadmp5k8t.png">
-The three terminals in a field-effect transistor (FET) transistor are called ⟮c+;gate⟯, ⟮c+;source⟯, and ⟮c+;drain⟯.
+flex-container:✫sm_tmpadmp5k8t.png✫
+The three terminals in a field-effect transistor (FET) transistor are called ⟮gate⟯, ⟮source⟯, and ⟮drain⟯.
 FET  Field-effect transistor
 MOSFET   metal–oxide–semiconductor field-effect transistor
 CMOS|Complementary metal–oxide–semiconductor
@@ -7042,20 +7042,20 @@ today, most ICs are made with CMOS-manufactured MOSFETs
 
 Logic gates are made up of a few transistors in a specific arragnement (depending on the gate).
 
-XOR|<img src="sm_120px-XOR_ANSI_Labelled.svg.png">
-XNOR|<img src="sm_120px-XNOR_ANSI_Labelled.svg.png">
-OR|<img src="sm_120px-OR_ANSI_Labelled.svg.png">
-NOT|<img src="sm_120px-NOT_ANSI_Labelled.svg.png">
-NOR|<img src="sm_120px-NOR_ANSI_Labelled.svg.png">
-NAND|<img src="sm_120px-NAND_ANSI_Labelled.svg.png">
-AND|<img src="sm_120px-AND_ANSI_Labelled.svg.png">
+XOR|✫sm_120px-XOR_ANSI_Labelled.svg.png✫
+XNOR|✫sm_120px-XNOR_ANSI_Labelled.svg.png✫
+OR|✫sm_120px-OR_ANSI_Labelled.svg.png✫
+NOT|✫sm_120px-NOT_ANSI_Labelled.svg.png✫
+NOR|✫sm_120px-NOR_ANSI_Labelled.svg.png✫
+NAND|✫sm_120px-NAND_ANSI_Labelled.svg.png✫
+AND|✫sm_120px-AND_ANSI_Labelled.svg.png✫
 
 Either NAND or NOR gates could be used to create any possible logic circuit since they are functionally complete 
 Today, NAND is the most commonly used logic gate, since it's functionally complete and can be built with few trasnistors
 
 #### circuits
 
-A ⟮c+;logic circuit⟯ consists of interconnected logic gates.
+A ⟮logic circuit⟯ consists of interconnected logic gates.
 A combinatorial logic circuit is one whose output only¬ depends on its input.
 A sequential logic circut is one whose output depends on its input, and the previous state.
 
@@ -7068,8 +7068,8 @@ The VNA implements a stored-program computer.
 VNA: CPU = CU + ALU
 In the VNA, the CPU, memory and IO are connected to/via the bus.
 
-flex-container:<img src="sm_tmp_xpihn7q.png">
-In the (modern revisions of) von neumann architecture, the three buses are the ⟮c+;control bus⟯, the ⟮c+;address bus⟯, and the ⟮c+;data bus⟯
+flex-container:✫sm_tmp_xpihn7q.png✫
+In the (modern revisions of) von neumann architecture, the three buses are the ⟮control bus⟯, the ⟮address bus⟯, and the ⟮data bus⟯
 Stored-program computers can present a security risk due to the fact that data can contain maliscious instructions.
 
 The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
@@ -7097,7 +7097,7 @@ Almost all modern processors are microprorcessors.
 
 A SoC is a IC that doesn't just include the CPU, but also other components, such as the GPU, memory, radio modems, etc.
 As time has been progressing, more and more things have been moving onto the SoC.
-moore's law is the observation that the number of transistors in a IC doubles ⟮c+;every two years⟯
+moore's law is the observation that the number of transistors in a IC doubles ⟮every two years⟯
 
 #### CPU
 
@@ -7172,9 +7172,9 @@ In a general sense, a word is the fundamental unit used by a processor of a give
 The length of a word is the word size.
 In general, most registers are word-sized, as are memory cells.
 The largest possible memory address is also word-sized (since otherwise, how would you address them) .
-what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the size of memory addresses and thus the ⟮c+;the word size⟯
+what is 32 bit in a 32-bit processor and 64 bit in a 64-bit processor is the size of memory addresses and thus the ⟮the word size⟯
 
-A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation ⟮c+;access (load/store) memory⟯, never at the same time.
+A Load-store architecture is a type of instruction set architecture which only has instructions that either do ALU operation ⟮access (load/store) memory⟯, never at the same time.
 For a load-store architecture, all things being operated on must be in registers.
 
 The machine code of a program depends on the ISA, but also on other things about the computer (e.g. OS)
@@ -7237,7 +7237,7 @@ RISC chips generally have far lower power consumption than CISC chips.
 Most but not all RISC ISAs, including ARM and RISC-V, are also load-store ISAs.
 CPI = clocks/cycles per instruction
 In general, a RISC ISA has 1 CPI, with fixed-length instructions.
-⟮c+;RISC-V⟯ is a ⟮c+;RISC⟯ instruction set architecture that is ⟮c+;open source⟯.
+⟮RISC-V⟯ is a ⟮RISC⟯ instruction set architecture that is ⟮open source⟯.
 
 #### cache
 
@@ -7249,22 +7249,22 @@ The organization of multi-level caches into faster/slower cache levels is known 
 processor finds memory location in cache   cache hit
 processor does not find memory location in cache   cache miss
 When a cache miss occurs, the processor generally needs to wait while the data is being fetched
-the ⟮c+;Cache replacement policy⟯ is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
+the ⟮Cache replacement policy⟯ is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
 
 #### clocking
 
-A clock signal ⟮c+;coordinates/synchronizes the circuits⟯ the circuits of the thing it's governing.
+A clock signal ⟮coordinates/synchronizes the circuits⟯ the circuits of the thing it's governing.
 A clock signal is usually a square wave with a high and low state.
-In relation to the clock signal's square wave the circuits activate on ⟮c+;on one (or both) of the (vertical-ish) edges⟯, depending on the implementation
-⟮c+;A synchronous circuit⟯ is a circuit where the changes are synchronized by a clock signal.
+In relation to the clock signal's square wave the circuits activate on ⟮on one (or both) of the (vertical-ish) edges⟯, depending on the implementation
+⟮A synchronous circuit⟯ is a circuit where the changes are synchronized by a clock signal.
 processors are (made of) synchronous circuits
 DDR  Double data rate
-⟮c+;DDR (double data rate)⟯ is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
+⟮DDR (double data rate)⟯ is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
 
 ### chipset
 
 
-flex-container:<img src="sm_chipset.svg">
+flex-container:✫sm_chipset.svg✫
 The chipset is responsible for data flow between the processor, memory and other components
 In the past, the northbridge and southbridge made up the chipset.
 The northbridge controlled/connected the faster components such as the CPU, memory, PCIe.
@@ -7383,7 +7383,7 @@ Authentication is proving one's identity.
 
 ### nonce
 
-flex-container:<img src="300px-Replay_attack_on_hash.svg.png">
+flex-container:✫300px-Replay_attack_on_hash.svg.png✫
 Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
 ### challenge-response
@@ -7417,8 +7417,8 @@ reCAPTCHA v3 checks if you are a bot purely based giving you a score in the back
 
 ### ciphers
 
-⟮c+;a cipher⟯ is an algorithm for performing encryption/decryption
-Ciphertext is the text that is the result of ⟮c+;using a cipher⟯
+⟮a cipher⟯ is an algorithm for performing encryption/decryption
+Ciphertext is the text that is the result of ⟮using a cipher⟯
 A substitution cipher is a cipher where an unit of plaintext is replaced by an unit of cipher text
 The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
 
@@ -7427,21 +7427,21 @@ The caesar cipher is a kind of substitution cipher where the replacement is done
 Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
 
 
-flex-container:<img src="sm_tmp51mx5j9z.png">
-⟮c+;Symmetric key encryption⟯ is ⟮c+;where both parties have the same key⟯. 
-⟮c+;In symmetric key encryption⟯, ⟮c+;one party encrypts the data⟯, ⟮c+;sends the cyphertext along⟯, and then the other party ⟮c+;decrypts the data using the same key⟯. 
-The difficulty of ⟮c+;symmetric key encryption⟯ is that ⟮c+;you need to exchange the key securely, which is difficult.⟯ 
+flex-container:✫sm_tmp51mx5j9z.png✫
+⟮Symmetric key encryption⟯ is ⟮where both parties have the same key⟯. 
+⟮In symmetric key encryption⟯, ⟮one party encrypts the data⟯, ⟮sends the cyphertext along⟯, and then the other party ⟮decrypts the data using the same key⟯. 
+The difficulty of ⟮symmetric key encryption⟯ is that ⟮you need to exchange the key securely, which is difficult.⟯ 
 
 
-flex-container:<img src="sm_tmp424stpwy.png">
-⟮c+;In public key cryptography⟯ aka ⟮c+;asymmetric cryptography⟯, ⟮c+;both parties⟯ have ⟮c+;two keys⟯, ⟮c+;a public⟯ and ⟮c+;a private key⟯. 
-In ⟮c+;public key cryptography⟯, ⟮c+;you publish⟯ ⟮c+;your public key⟯ ⟮c+;widely⟯, and ⟮c+;keep⟯ ⟮c+;your private key⟯ ⟮c+;secret⟯. 
-If you want to ⟮c+;encrypt a message⟯ in ⟮c+;public key cryptogrpahy⟯, you ⟮c+;apply your targets public key to it⟯. 
-If you want to ⟮c+;decrypt a message⟯ sent to you ⟮c+;via public key cryptography⟯ (which we assume ⟮c+;has been encrypted with your public key⟯), you ⟮c+;apply your private key to it.⟯ 
+flex-container:✫sm_tmp424stpwy.png✫
+⟮In public key cryptography⟯ aka ⟮asymmetric cryptography⟯, ⟮both parties⟯ have ⟮two keys⟯, ⟮a public⟯ and ⟮a private key⟯. 
+In ⟮public key cryptography⟯, ⟮you publish⟯ ⟮your public key⟯ ⟮widely⟯, and ⟮keep⟯ ⟮your private key⟯ ⟮secret⟯. 
+If you want to ⟮encrypt a message⟯ in ⟮public key cryptogrpahy⟯, you ⟮apply your targets public key to it⟯. 
+If you want to ⟮decrypt a message⟯ sent to you ⟮via public key cryptography⟯ (which we assume ⟮has been encrypted with your public key⟯), you ⟮apply your private key to it.⟯ 
 
 
-flex-container:<img src="1200px-Private_key_signing.svg.png">
-For ⟮c+;digital signing⟯, ⟮c+;you⟯ ⟮c+;encrypt it with your private key⟯. ⟮c+;The recipient⟯ ⟮c+;decrypts it with your public key.⟯ This proves ⟮c+;that the message is from you⟯, since only ⟮c+;your public key can decrypt things encrypted with your private key⟯. 
+flex-container:✫1200px-Private_key_signing.svg.png✫
+For ⟮digital signing⟯, ⟮you⟯ ⟮encrypt it with your private key⟯. ⟮The recipient⟯ ⟮decrypts it with your public key.⟯ This proves ⟮that the message is from you⟯, since only ⟮your public key can decrypt things encrypted with your private key⟯. 
 
 ### random numbers
 
@@ -7453,7 +7453,7 @@ RNG  random number generator
 
 ### brute-force
 
-A brute-force attack is an attack of something such as a password ⟮c+;By trying until successful⟯
+A brute-force attack is an attack of something such as a password ⟮By trying until successful⟯
 
 
 ### buffer overflow
@@ -7474,27 +7474,27 @@ Delimiter/terminater-based code injection uses delimiters, e.g. of strings or si
 #### MITM
 
 
-flex-container:<img src="sm_mitm_illus.svg">
-A  ⟮c+;man-in-the-middle⟯ attack is when an attacker ⟮c+;inserts themseves⟯ into the ⟮c+;communication⟯ between ⟮c+;two parties⟯ believing ⟮c+;to be talking to each other directly⟯.
+flex-container:✫sm_mitm_illus.svg✫
+A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ into the ⟮communication⟯ between ⟮two parties⟯ believing ⟮to be talking to each other directly⟯.
 
 ##### key exchange
 
 <h1>
-  ⟮c+;MitM attack⟯
+  ⟮MitM attack⟯
 </h1>
-⟮h∞;uh1;<img src="sm_MitM1.jpg">⟯
-⟮c+;h∞;uh2;<img src="sm_MitM2.jpg">⟯
-⟮c+;h∞;uh3;<img src="sm_MitM3.jpg">⟯
-⟮c+;h∞;uh4;<img src="sm_MitM4.jpg">⟯
-⟮c+;h∞;<img src="sm_MitM5.jpg">⟯
+⟮h∞;uh1;✫sm_MitM1.jpg✫⟯
+⟮c+;h∞;uh2;✫sm_MitM2.jpg✫⟯
+⟮c+;h∞;uh3;✫sm_MitM3.jpg✫⟯
+⟮c+;h∞;uh4;✫sm_MitM4.jpg✫⟯
+⟮c+;h∞;✫sm_MitM5.jpg✫⟯
 
 ⟮uh∞;After the MitM for public key encryption has been set up...⟯
-⟮c+;the server⟯ and ⟮c+;client⟯ ⁑actually⁑ have ⟮c+;the MitMs public key⟯ 
-⟮c+;the server⟯ and ⟮c+;client⟯ ⁑think⁑ they have ⟮c+;each other's public key⟯ 
-⟮c+;the MitM⟯ looks like ⟮c+;the server⟯ to ⟮c+;the client⟯ 
-⟮c+;the MitM⟯ looks like ⟮c+;the client⟯ to ⟮c+;the server⟯ 
+⟮the server⟯ and ⟮client⟯ ⁑actually⁑ have ⟮the MitMs public key⟯ 
+⟮the server⟯ and ⟮client⟯ ⁑think⁑ they have ⟮each other's public key⟯ 
+⟮the MitM⟯ looks like ⟮the server⟯ to ⟮the client⟯ 
+⟮the MitM⟯ looks like ⟮the client⟯ to ⟮the server⟯ 
 
-⟮c+;public key⟯ ⟮c+;mitm attacks⟯ are countered with ⟮c+;certificate authorities⟯ 
+⟮public key⟯ ⟮mitm attacks⟯ are countered with ⟮certificate authorities⟯ 
 
 #### XSS
 
@@ -7514,7 +7514,7 @@ A DDoS attack is a DoS performed from many different sources.
 
 ###### Slow Loris
 
-A ⟮c+;slowloris/slow loris⟯ is a type of ⟮c+;DoS (Denial of service)⟯ attack, more specifically a type of ⟮c+;Low and Slow⟯ attack.
+A ⟮slowloris/slow loris⟯ is a type of ⟮DoS (Denial of service)⟯ attack, more specifically a type of ⟮Low and Slow⟯ attack.
 A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
 A slow loris works by opening as many connections to the server as possible, and sending a little bit of the header section every few seconds or so, so it doesn't time out, but never ending it.
 If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
@@ -7572,8 +7572,8 @@ to send notifications on linux, you can use the CLI notify-send.
 
 #### fonts
 
-⟮c+;FontBook⟯ is the ⟮c+;mac⟯ GUI for ⟮c+;font handling⟯. 
-For ⟮c+;manual font installation⟯ on mac, you can ⟮c+;copy them⟯ to ⟮c+;/Library/Fonts⟯ or ⟮c+;~/Library/Fonts⟯ 
+⟮FontBook⟯ is the ⟮mac⟯ GUI for ⟮font handling⟯. 
+For ⟮manual font installation⟯ on mac, you can ⟮copy them⟯ to ⟮/Library/Fonts⟯ or ⟮~/Library/Fonts⟯ 
 
 #### text expanders
 
@@ -7713,7 +7713,7 @@ debug|populate espanso's log file
 
 ######### env vars
 
-⟮c+;Espanso variables⟯ are made available in the ⟮c+;environment⟯ of the `shell` type. 
+⟮Espanso variables⟯ are made available in the ⟮environment⟯ of the `shell` type. 
 $CONFIG|the path of the config file
 $ESPANSO_FOO|A `var` with name foo
 $ESPANSO_FOO_BAR|A field of a form foo with name bar
@@ -7736,7 +7736,7 @@ lang=yaml;
 
 ######## random
 
-to ⟮c+;insert a random choice of different options⟯ use the type ⟮c+;random⟯, ⟮c+;the options⟯ are specified ⟮c+;in the choices sequence of params⟯ 
+to ⟮insert a random choice of different options⟯ use the type ⟮random⟯, ⟮the options⟯ are specified ⟮in the choices sequence of params⟯ 
 ```
   - trigger: ":quote"
     replace: "{{output}}"
@@ -7779,42 +7779,42 @@ espanso also doesn't seem to set any LANG or LC variables, which may cause some 
 
 #### jobs
 
-A ⟮c+;job⟯ in computing is ⟮c+;a thing to do⟯, generally ⟮c+;scheduled⟯, and generally ⟮c+;in the background without intervention⟯.
-⟮c+;Batch job⟯ is r⟮c+;oughly synonymous⟯ to ⟮c+;job⟯, though it ⟮c+;more strongly implies⟯ ⟮c+;the scheduled⟯ and ⟮c+;in the background without intervention⟯ parts, and also the idea of ⟮c+;there being quite a few things to process⟯.
-⟮c+;Batch processing⟯ is ⟮c+;processing (batch) jobs⟯.
-A ⟮c+;set of jobs to be run together⟯ in ⟮c+;a certain order⟯ is ⟮c+;a job stream⟯.
-A ⟮c+;job⟯ in computing ⟮c+;consists of⟯ ⟮c+;one or more tasks/steps⟯.
-A ⟮c+;job scheduler⟯ is an application for ⟮c+;controlling⟯ ⟮c+;the scheduling⟯ of ⟮c+;the execution⟯ of ⟮c+;jobs⟯ (which is ⟮c+;unattended⟯, ⟮c+;in the  background⟯).
-The ⟮c+;job queue⟯ is ⟮c+;where tasks are put⟯, and is what ⟮c+;the job scheduler manages⟯.
+A ⟮job⟯ in computing is ⟮a thing to do⟯, generally ⟮scheduled⟯, and generally ⟮in the background without intervention⟯.
+⟮Batch job⟯ is r⟮oughly synonymous⟯ to ⟮job⟯, though it ⟮more strongly implies⟯ ⟮the scheduled⟯ and ⟮in the background without intervention⟯ parts, and also the idea of ⟮there being quite a few things to process⟯.
+⟮Batch processing⟯ is ⟮processing (batch) jobs⟯.
+A ⟮set of jobs to be run together⟯ in ⟮a certain order⟯ is ⟮a job stream⟯.
+A ⟮job⟯ in computing ⟮consists of⟯ ⟮one or more tasks/steps⟯.
+A ⟮job scheduler⟯ is an application for ⟮controlling⟯ ⟮the scheduling⟯ of ⟮the execution⟯ of ⟮jobs⟯ (which is ⟮unattended⟯, ⟮in the  background⟯).
+The ⟮job queue⟯ is ⟮where tasks are put⟯, and is what ⟮the job scheduler manages⟯.
 
 ##### cron & at
 
-⟮c+;cron⟯ and ⟮c+;at⟯ are ⟮c+;job schedulers⟯ for unix-likes.
-⟮c+;cron⟯ is for ⟮c+;scheduling repeated tasks⟯, while ⟮c+;at⟯ is for ⟮c+;scheduling one-time tasks⟯.
+⟮cron⟯ and ⟮at⟯ are ⟮job schedulers⟯ for unix-likes.
+⟮cron⟯ is for ⟮scheduling repeated tasks⟯, while ⟮at⟯ is for ⟮scheduling one-time tasks⟯.
 
 ###### crontab
 
-the ⟮c+;job scheduler cron⟯ is ⟮c+;configured by⟯ ⟮c+;a crontab file⟯.
-the ⟮c+;crontab⟯ is interacted with by ⟮c+;the crontab command⟯.
+the ⟮job scheduler cron⟯ is ⟮configured by⟯ ⟮a crontab file⟯.
+the ⟮crontab⟯ is interacted with by ⟮the crontab command⟯.
 
 
 ####### syntax
 
-In cron, ⟮c+;each job⟯ is defined by ⟮c+;a line in the crontab⟯, which consists of ⟮c+;times to execute a command⟯, and ⟮c+;a command itself⟯.
+In cron, ⟮each job⟯ is defined by ⟮a line in the crontab⟯, which consists of ⟮times to execute a command⟯, and ⟮a command itself⟯.
 
 ```
-crontab-line ::= (⟮c+;<time-specifier> <time-specifier> <time-specifier> <time-specifier> <time-specifier>⟯⟮c+;|<time-keyword>⟯) ⟮c+;<command>⟯
-⟮c+;time-specifier⟯ ::= ⟮c+;* ||⟯ ⟮c+;<time-list>⟯
-⟮c+;time-list⟯ ::= ⟮c+;<time-item>⟯⟮c+;{,<time-item>}⟯
-⟮c+;time-item⟯ ::= ⟮c+;<time>-<time>⟯⟮c+;||(<time>|*)/<time>⟯⟮c+;||<time>⟯
+crontab-line ::= (⟮<time-specifier> <time-specifier> <time-specifier> <time-specifier> <time-specifier>⟯⟮|<time-keyword>⟯) ⟮<command>⟯
+⟮time-specifier⟯ ::= ⟮* ||⟯ ⟮<time-list>⟯
+⟮time-list⟯ ::= ⟮<time-item>⟯⟮{,<time-item>}⟯
+⟮time-item⟯ ::= ⟮<time>-<time>⟯⟮||(<time>|*)/<time>⟯⟮||<time>⟯
 ```
 
 ####### time specifiers
 
 cron time item|refers to
-⟮c+;*⟯|⟮c+;all relevant time units⟯
-⟮c+;<n>-<m>⟯|⟮c+;specifies a range of times n-m⟯
-⟮c+;*/<n>⟯|⟮c+;every nth unit⟯
+⟮*⟯|⟮all relevant time units⟯
+⟮<n>-<m>⟯|⟮specifies a range of times n-m⟯
+⟮*/<n>⟯|⟮every nth unit⟯
 
 
 *|*|*|*|*|<command to execute>
@@ -7822,22 +7822,22 @@ cron time item|refers to
 
 
 crontab job line example|does
-⟮c+;@reboot [command]⟯|⟮c+;every time your computer reboots⟯
-⟮c+;30 2 * * * [command]⟯|⟮c+;every day at 2:30 am⟯
-⟮c+;15 * * * * [command]⟯|⟮c+;every hour (at :15⟯)
-⟮c+;0,10,20 * * * * [command]⟯|⟮c+;every hour at :00, :10, :20⟯
-⟮c+;0 5-10 * * * [command]⟯|⟮c+;every day at every hour between 5 and 10⟯
-⟮c+;0 0 2 * * [command]⟯|⟮c+;every month on the 2nd at 00:00⟯
-⟮c+;0 * * * 1 [command]⟯|⟮c+;every hour, but only on mondays⟯
-⟮c+;0 * * * * [command]⟯|⟮c+;every hour (at :00⟯)
-⟮c+;*/5 * * * * [command]⟯|⟮c+;12 times an hour (every 5 minutes⟯)
-⟮c+;* * * * * [command]⟯|⟮c+;every minute always⟯
+⟮@reboot [command]⟯|⟮every time your computer reboots⟯
+⟮30 2 * * * [command]⟯|⟮every day at 2:30 am⟯
+⟮15 * * * * [command]⟯|⟮every hour (at :15⟯)
+⟮0,10,20 * * * * [command]⟯|⟮every hour at :00, :10, :20⟯
+⟮0 5-10 * * * [command]⟯|⟮every day at every hour between 5 and 10⟯
+⟮0 0 2 * * [command]⟯|⟮every month on the 2nd at 00:00⟯
+⟮0 * * * 1 [command]⟯|⟮every hour, but only on mondays⟯
+⟮0 * * * * [command]⟯|⟮every hour (at :00⟯)
+⟮*/5 * * * * [command]⟯|⟮12 times an hour (every 5 minutes⟯)
+⟮* * * * * [command]⟯|⟮every minute always⟯
 
 ####### output
 
-By default, ⟮c+;the output⟯ of ⟮c+;a cron job⟯ gets ⟮c+;sent to your email⟯.
-To ⟮c+;change the email⟯ ⟮c+;cron output gets sent to⟯, specify ⟮c+;MAILTO=somemail.⟯
-To ⟮c+;change where⟯ cron output ⟮c+;goes⟯, ⟮c+;redirect it as per usual⟯.
+By default, ⟮the output⟯ of ⟮a cron job⟯ gets ⟮sent to your email⟯.
+To ⟮change the email⟯ ⟮cron output gets sent to⟯, specify ⟮MAILTO=somemail.⟯
+To ⟮change where⟯ cron output ⟮goes⟯, ⟮redirect it as per usual⟯.
 
 ### kernelland
 
@@ -7893,7 +7893,7 @@ scrcpy is a program that provides display and control of android devices from th
 
 ### misc
 
-Right-clicking the ⟮c+;windows start button⟯ brings up a ⟮c+;context menu⟯ with ⟮c+;a bunch of system tools⟯ 
+Right-clicking the ⟮windows start button⟯ brings up a ⟮context menu⟯ with ⟮a bunch of system tools⟯ 
 
 ## *nix
 
@@ -7929,7 +7929,7 @@ Often, Linux alone is used (technically incorrectly) to refer to GNU/LInyx
 A Linux distribution is GNU/Linux plus a set of other stuff, which depends on the flavor.
 
 Android uses the Linux Kernel but not GNU or any of the other libraries.
-From ⟮c+;android⟯ ⟮c+;1.0⟯ until ⟮c+;9⟯, ⟮c+;android⟯ versions had ⟮c+;sweets⟯-based names, with each name ⟮c+;going one further in the alphabet⟯
+From ⟮android⟯ ⟮1.0⟯ until ⟮9⟯, ⟮android⟯ versions had ⟮sweets⟯-based names, with each name ⟮going one further in the alphabet⟯
 
 ###### WSL
 
@@ -7941,9 +7941,9 @@ The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, 
 
 ##### Android
 
-⟮c+;Android features⟯ depend on the relevant ⟮c+;API level⟯, which starts at ⟮c+;1⟯ and is at ⟮c+;30⟯ as of android ⟮c+;11⟯ 
+⟮Android features⟯ depend on the relevant ⟮API level⟯, which starts at ⟮1⟯ and is at ⟮30⟯ as of android ⟮11⟯ 
 
-Curreny android has one ⟮c+;API level⟯ per ⟮c+;major version⟯ (e.g. ⟮c+;android 11⟯), but it used to be ⟮c+;multiple ones per version⟯ (bc in the past ⟮c+;minor versions⟯, e.g. ⟮c+;2.2.⟯ Gingerbread and even ⟮c+;patch versions⟯, e.g. ⟮c+;2.2.3⟯ Gingerbread ⟮c+;introduced new features⟯) 
+Curreny android has one ⟮API level⟯ per ⟮major version⟯ (e.g. ⟮android 11⟯), but it used to be ⟮multiple ones per version⟯ (bc in the past ⟮minor versions⟯, e.g. ⟮2.2.⟯ Gingerbread and even ⟮patch versions⟯, e.g. ⟮2.2.3⟯ Gingerbread ⟮introduced new features⟯) 
 
 #### libraries & systems
 
@@ -8047,7 +8047,7 @@ Systemd units are stored in unit files.
 .automount   .mounts that will be automatically managed
 .path   notifying when a path becomes available
 
-When a .path units path becomes available, ⟮c+;an associated .service⟯ is started.
+When a .path units path becomes available, ⟮an associated .service⟯ is started.
 When a .socket unit has some activity, an associated service is started.
 When a .timer units time state is reached, an associated unit is started.
 
@@ -8063,8 +8063,8 @@ default.target   what the machine should try and aim for when booting (another t
 
 Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
-starting/stopping an unit for systemd does that ⟮c+;right now⟯ but temporarily
-enabling/disabling an unit for systemd does that ⟮c+;next reboot/session (by default)⟯ but permanently.
+starting/stopping an unit for systemd does that ⟮right now⟯ but temporarily
+enabling/disabling an unit for systemd does that ⟮next reboot/session (by default)⟯ but permanently.
 To both start and enable/stop and disable, use enable/disable --now.
 syntax: systemctl (start|stop|enable|disable) <unit>
 To see if a thing is currently enabled or active, use is-enabled/is-active <unit>
@@ -8129,16 +8129,16 @@ if no utility is specified with -u, caffeinate creates the assertions directly, 
 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
-`⟮c+;open⟯` ⟮c+;opens⟯ ⟮c+;files/folders⟯ and ⟮c+;urls⟯ with ⟮c+;the default application (or one you specify⟯) 
-⟮c+;xdg-open⟯ is then X equivalent of ⟮c+;macOs `open`⟯ 
+`⟮open⟯` ⟮opens⟯ ⟮files/folders⟯ and ⟮urls⟯ with ⟮the default application (or one you specify⟯) 
+⟮xdg-open⟯ is then X equivalent of ⟮macOs `open`⟯ 
 
 
     <tr><th colspan="2">`open`
-⟮c+;-R⟯|⟮c+;reveals the file in finder⟯
-⟮c+;-a someapplication⟯|⟮c+;Specify the application to open with⟯
-⟮c+;-e⟯|⟮c+;open the file with textedit⟯
-⟮c+;-f⟯|⟮c+;reads from stdin⟯
-⟮c+;-t⟯|⟮c+;open the file with your default text editor⟯
+⟮-R⟯|⟮reveals the file in finder⟯
+⟮-a someapplication⟯|⟮Specify the application to open with⟯
+⟮-e⟯|⟮open the file with textedit⟯
+⟮-f⟯|⟮reads from stdin⟯
+⟮-t⟯|⟮open the file with your default text editor⟯
 
 
 #### misc
@@ -8165,9 +8165,9 @@ date-command ::= date [<formatting-syntax>|<setting-syntax>|<dst-syntax>]
 formatting-syntax ::= {<option>}[ +<output-format-specifier>]
 
 option|does
-⟮c+;-u / --utc / --universal⟯|⟮c+;use UTC⟯
-⟮c+;-d date / --date=date⟯|⟮c+;calculate the date for the specific date⟯
-⟮c+;-I/--iso-8601⟯|⟮c+;output the date as ISO 8601⟯
+⟮-u / --utc / --universal⟯|⟮use UTC⟯
+⟮-d date / --date=date⟯|⟮calculate the date for the specific date⟯
+⟮-I/--iso-8601⟯|⟮output the date as ISO 8601⟯
 
 
 Sleep is a command that waits for the specified time.
@@ -8184,7 +8184,7 @@ tee redirects a stream to stdout and to all listed files
 
 ### processes
 
-On unix systems, a process is an (instance of a) program that is ⟮c+;running⟯
+On unix systems, a process is an (instance of a) program that is ⟮running⟯
 On unix, a process is the instance that has its own heap.
 
 #### process relationshps
@@ -8249,7 +8249,7 @@ Jobs mainly exist to be siginalled by signals, all processes in a job are signal
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the ⁑background⁑
 fg  resume stopped task in foreground
 bg  resume stopped task in background
-⟮c+;&amp;⟯ at the ⟮c+;end of an command⟯ ⟮c+;puts it in the backround⟯ (but it ⟮c+;still continues running⟯)
+⟮c+;&amp;⟯ at the ⟮end of an command⟯ ⟮puts it in the backround⟯ (but it ⟮still continues running⟯)
 jobs|show processes running in the background
 
 #### terminal
@@ -8261,7 +8261,7 @@ the tty command tells us which device file is implementing the current terminal
 ##### terminal architecture
 
 
-flex-container:<img src="file://~/Downloads/terminalsys.svg">
+flex-container:✫file://~/Downloads/terminalsys.svg✫
 
 A physical terminal is connected via cables to an UART driver.
 screen, keyboard etc. are connected via drivers to a virtual terminal (not a window).
@@ -8478,7 +8478,7 @@ PAGER|set the pager
 HOME|user home directory
 BROWSER|web browser
 
-EDITOR and VISUAL are shell environement variables ⟮c+;setting the default editors⟯
+EDITOR and VISUAL are shell environement variables ⟮setting the default editors⟯
 
 
 command prompt is often just shortened to prompt.
@@ -8797,7 +8797,7 @@ sometimes an extra file bash_aliases is created for storing aliases, however bas
 ####### pipelines
 
 the character indicating an anonymous pipe is |
-In a general sense, a ⟮c+;filter⟯ ⟮c+;takes some input⟯, ⟮c+;transforms it⟯, and ⟮c+;produces some output⟯.
+In a general sense, a ⟮filter⟯ ⟮takes some input⟯, ⟮transforms it⟯, and ⟮produces some output⟯.
 In shell contexts, filters are combined with anonymous pipes.
 Multiple filters combinded by anonymous pipes are a pipeline.
 In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
@@ -8819,10 +8819,10 @@ theoretically, any program that reads from stdin should read from terminal input
 
 Liquid also features filters prominently to transform values, and also uses the pipe | as a separator.
 filter name (liquid)|filter action|constraints
-⟮c+;date: "formatstring"⟯|⟮c+;date formatting⟯
-⟮c+;markdownify⟯|⟮c+;transform from markdown⟯|⟮c+;jekyll only⟯
-⟮c+;append: foo⟯|⟮c+;append foo to the string⟯
-⟮c+;prepend: foo⟯|⟮c+;prepend foo to the string⟯
+⟮date: "formatstring"⟯|⟮date formatting⟯
+⟮markdownify⟯|⟮transform from markdown⟯|⟮jekyll only⟯
+⟮append: foo⟯|⟮append foo to the string⟯
+⟮prepend: foo⟯|⟮prepend foo to the string⟯
 
 ####### command search
 
@@ -8830,7 +8830,7 @@ When the shell encounters something it thinks it is a command, if it does not co
 The environment variable PATH provides a set of locations of where to search for commands.
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
-`⟮c+;which⟯` takes ⟮c+;a string⟯ and ⟮c+;searches⟯ ⟮c+;the PATH⟯ to see ⟮c+;what the path of the binary of this command is.⟯
+`⟮which⟯` takes ⟮a string⟯ and ⟮searches⟯ ⟮the PATH⟯ to see ⟮what the path of the binary of this command is.⟯
 npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 npx can also be used to run a specific version of a npm binary.
 
@@ -8952,9 +8952,9 @@ The standard sections of the manual include:
 
 ##### pagers
 
-a ⟮c+;pager⟯ is ⟮c+;a terminal program⟯ that ⟮c+;paginates⟯ its input. 
-the ⟮c+;default pager⟯ for the terminal is set in the env variable ⟮c+;PAGER⟯. 
-`⟮c+;less⟯` is the most common ⟮c+;pager⟯. 
+a ⟮pager⟯ is ⟮a terminal program⟯ that ⟮paginates⟯ its input. 
+the ⟮default pager⟯ for the terminal is set in the env variable ⟮PAGER⟯. 
+`⟮less⟯` is the most common ⟮pager⟯. 
 
 ### users and groups
 
@@ -8996,7 +8996,7 @@ sudo = substitute (in the past super) user do
 ##### polkit
 
 polkit is a toolkit to allow finer-grained control than just running sudo.
-Polkit defines ⟮c+;actions⟯, ⟮c+;who can use them (group/user)⟯, and ⟮c+;under which circumstances⟯.
+Polkit defines ⟮actions⟯, ⟮who can use them (group/user)⟯, and ⟮under which circumstances⟯.
 pkexec works like sudo, but instead opens a window for password entry (it also depends on polkit policies)
 
 ### projects
@@ -9040,17 +9040,17 @@ polling may be used to simulate push protocols.
 
 #### sessions
 
-In computer science, a ⟮c+;session⟯ is ⟮c+;started at some point⟯, ⟮c+;ends at some point⟯, and during this time ⟮c+;maintaines state⟯.
+In computer science, a ⟮session⟯ is ⟮started at some point⟯, ⟮ends at some point⟯, and during this time ⟮maintaines state⟯.
 A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
 A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
 ### proxy
 
-flex-container:<img src="Proxy_concept_en.svg">
+flex-container:✫Proxy_concept_en.svg✫
 
-A ⟮c+;proxy (server)⟯ is a ⟮c+;server/server application⟯ that ⟮c+;acts as an intermediary between⟯ ⟮c+;a client requesting a resource⟯ and ⟮c+;the server providing that resource.⟯
+A ⟮proxy (server)⟯ is a ⟮server/server application⟯ that ⟮acts as an intermediary between⟯ ⟮a client requesting a resource⟯ and ⟮the server providing that resource.⟯
 A reverse proxy is a proxy that appears to clients to be an ordinary server, but forwards requests to other servers in the background.
-flex-container:<img src="Reverse_proxy_h2g2bob.svg">
+flex-container:✫Reverse_proxy_h2g2bob.svg✫
 
 Reverse proxies are sometimes called surrogates or gateways.
 
@@ -9063,14 +9063,14 @@ full duplex|bidirectional, both simultaneously
 
 ### fresh and stale
 
-In technical contexts, ⟮c+;fresh⟯ and ⟮c+;stale⟯ are often contrasted. 
-In technical contexts, something ⟮c+;fresh⟯ is ⟮c+;still relevant/valid/useful⟯. 
-In technical contexts, something ⟮c+;stale⟯ is ⟮c+;no longer relevant/valid/useful⟯. 
+In technical contexts, ⟮fresh⟯ and ⟮stale⟯ are often contrasted. 
+In technical contexts, something ⟮fresh⟯ is ⟮still relevant/valid/useful⟯. 
+In technical contexts, something ⟮stale⟯ is ⟮no longer relevant/valid/useful⟯. 
 
 ## design
 
-The ⟮c+;robustness principle⟯ is "⟮c+;be conservative in what you send⟯, and ⟮c+;liberal in what you accept⟯".
-The robustness principle is often said to be ⟮c+;good design⟯, but also ⟮c+;create bad de-facto standards⟯
+The ⟮robustness principle⟯ is "⟮be conservative in what you send⟯, and ⟮liberal in what you accept⟯".
+The robustness principle is often said to be ⟮good design⟯, but also ⟮create bad de-facto standards⟯
 
 ## interfaces 
 
@@ -9099,7 +9099,7 @@ A polyfill is a shim for a browser API, which passes it through if available, an
 #### APIs for certain purposes
 
 Data|Name|Interface
-⟮c+;DWD open weather data⟯|⟮c+;Bright Sky⟯|⟮c+;JSON⟯
+⟮DWD open weather data⟯|⟮Bright Sky⟯|⟮JSON⟯
 
 
 ## protocols
@@ -9146,8 +9146,8 @@ Thunderbolt was designed to run over optic fiber cables, but actually generally 
 #### DP
 
 https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg|DisplayPort Connector
-flex-container:<img src="sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg">|Mini DisplayPort Connector
-Mini and nonmini ⟮c+;DisplayPort⟯ is mainly for ⟮c+;video / audio⟯, but can also carry ⟮c+;USB⟯ and ⟮c+;other data (e.g. thunderbolt)⟯
+flex-container:✫sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg✫|Mini DisplayPort Connector
+Mini and nonmini ⟮DisplayPort⟯ is mainly for ⟮video / audio⟯, but can also carry ⟮USB⟯ and ⟮other data (e.g. thunderbolt)⟯
 
 #### ATA
 
@@ -9217,11 +9217,11 @@ speedtest-cli test the speed of your connection
 ##### models
 
 The OSI model remains useful, but unimplemented.
-In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the ⟮c+;top⟯ layer.
+In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the ⟮top⟯ layer.
 Internet protocol suite = TCP/IP
 The internet protocol suite is a protocol stack
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
-One of the first networks to implement the ⟮c+;TCP/IP protocol suite⟯ and one of the precursors to ⟮c+;the internet⟯ was ⟮c+;ARPANET⟯
+One of the first networks to implement the ⟮TCP/IP protocol suite⟯ and one of the precursors to ⟮the internet⟯ was ⟮ARPANET⟯
 
 ##### layers
 
@@ -9261,8 +9261,8 @@ A wireless bridge is a network bridge used for wireless networks.
 A network switch is a multiport network bridge.
 A network switch uses the MAC addresses to make sure that the the frame is sent to only the host that needs it.
 Routers pack IP packets into frames and forwards those to the next router.
-A ⟮c+;wireless router⟯ performs the functions of ⟮c+;a router⟯ and of ⟮c+;a wireless acces point⟯ (and sometimes others as well)
-Most commonly, a ⟮c+;(network) gateway⟯ is a ⟮c+;router⟯ that ⟮c+;provides access to (acts as a door to) a local network⟯, but the term may also ⟮c+;refer to a bunch of other things⟯
+A ⟮wireless router⟯ performs the functions of ⟮a router⟯ and of ⟮a wireless acces point⟯ (and sometimes others as well)
+Most commonly, a ⟮(network) gateway⟯ is a ⟮router⟯ that ⟮provides access to (acts as a door to) a local network⟯, but the term may also ⟮refer to a bunch of other things⟯
 If a (normal office/home) computer user wants to load a web page, at least two network gateways are accessed—one to get from the office or home network to the Internet and one to get from the Internet to the computer that serves the web page.
 
 While you may have as many Switches, bridges, and hubs as you like, to connect to the internet at large, you'll need a router.
@@ -9276,7 +9276,7 @@ A firewall generally operates on the network/internet layer and up.
 
 ###### alternative names
 
-a ⟮c+;network switch⟯ is more rarely also called a ⟮c+;bridging⟯/⟮c+;switching⟯ ⟮c+;hub⟯ or a ⟮c+;MAC bridge⟯
+a ⟮network switch⟯ is more rarely also called a ⟮bridging⟯/⟮switching⟯ ⟮hub⟯ or a ⟮MAC bridge⟯
 
 #### layers
 
@@ -9300,7 +9300,7 @@ Today, URNs are merely another scheme of URIs, urn:
 URL and URI are often used synoynously even in expert circles, even RFCs disagree.
 URI can only use an ASCII-subsset.
 Within URIs ASCII subset, there is a distinction between reserved and unreserved characters.
-URI unreserved characters: ⟮c+;alphanumerical⟯, ⟮c+;-⟯, ⟮c+;_⟯, ⟮c+;.⟯, ⟮c+;~⟯ (the rest are reserved)
+URI unreserved characters: ⟮alphanumerical⟯, ⟮-⟯, ⟮_⟯, ⟮.⟯, ⟮~⟯ (the rest are reserved)
 IRIs are a superset of URIs that also allow for non-ASCII characters.
 
 In URLs, Reserved characters and characters outside of the URL character set need to be URL/percent-encoded
@@ -9337,11 +9337,11 @@ e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
 The group of scheme/host/port making up a web resources origin are sometimes called the (scheme/host/port) tuple
 in a scheme, host, port tuple, host is actually the FQDN
-a web resources ⟮c+;origin⟯ is defined by its ⟮c+;scheme/protocol⟯, ⟮c+;FQDN(often inaccurately just called host)⟯, and ⟮c+;port⟯ tuple
+a web resources ⟮origin⟯ is defined by its ⟮scheme/protocol⟯, ⟮FQDN(often inaccurately just called host)⟯, and ⟮port⟯ tuple
 Two or more URLs that share a common origin (s/h/p tuple) are same-origin, all others are cross-origin
-The ⟮c+;same-origin⟯ policy allows ⟮c+;same-origin⟯ access by ⟮c+;default⟯, and ⟮c+;provides predefined channels and restrictions⟯ for ⟮c+;cross-origin⟯ access
-The ⟮c+;same-origin⟯ policy is relevant only when ⟮c+;two pages want to communicate⟯
-The same-origin policy is ⟮c+;active⟯ (⟮c+;in some shape or form⟯) in ⟮c+;all modern browsers⟯
+The ⟮same-origin⟯ policy allows ⟮same-origin⟯ access by ⟮default⟯, and ⟮provides predefined channels and restrictions⟯ for ⟮cross-origin⟯ access
+The ⟮same-origin⟯ policy is relevant only when ⟮two pages want to communicate⟯
+The same-origin policy is ⟮active⟯ (⟮in some shape or form⟯) in ⟮all modern browsers⟯
 
 ######## domains
 
@@ -9381,7 +9381,7 @@ the `hostname` command shows the hostname, which is the same for DNS, NIS and YP
 ######## hotlinks, deeplinks
 
 hotlinking = inline linking
-Hotlinking is embedding a resource from ⟮c+;another fqdn⟯
+Hotlinking is embedding a resource from ⟮another fqdn⟯
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
@@ -9389,66 +9389,66 @@ A link to the homepage of a page is called a surface link
 
 `URL`|JS
 
-The ⟮c+;URL⟯ constructor takes ⟮c+;a string of the url⟯, and optionally ⟮c+;a base url⟯ (if the url is ⟮c+;relative⟯)
+The ⟮URL⟯ constructor takes ⟮a string of the url⟯, and optionally ⟮a base url⟯ (if the url is ⟮relative⟯)
 
 ###### applications
 
 ####### cURL
 
-⟮c+;cURL⟯ is a project for ⟮c+;transferring data⟯ using various ⟮c+;application protocols⟯. 
-one half of ⟮c+;cURL⟯ is ⟮c+;the command-line tool⟯ ⟮c+;curl⟯. 
-the other half of ⟮c+;cURL⟯ is ⟮c+;the library libcurl⟯ with ⟮c+;bindings for most major programming languages⟯. 
-curl syntax: ⟮c+;curl⟯ ⟮c+;[options]⟯ ⟮c+;{URLs⟯} 
+⟮cURL⟯ is a project for ⟮transferring data⟯ using various ⟮application protocols⟯. 
+one half of ⟮cURL⟯ is ⟮the command-line tool⟯ ⟮curl⟯. 
+the other half of ⟮cURL⟯ is ⟮the library libcurl⟯ with ⟮bindings for most major programming languages⟯. 
+curl syntax: ⟮curl⟯ ⟮[options]⟯ ⟮{URLs⟯} 
 
-⟮c+;s16;-i⟯ and ⟮c+;s15;--include⟯ ⟮c+;show HTTP response headers⟯ 
-To ⟮c+;set custom headers⟯ in curl, use ⟮c+;s20;-H⟯/⟮c+;s19;--header⟯ ⟮c+;"My-Header: My value"⟯ 
-To ⟮c+;set the query string⟯ to a certain value in curl, use ⟮c+;s44;-d⟯ OR ⟮c+;s23;--data⟯ ⟮c+;'key=value&amp;key2=value2'⟯ 
-To ⟮c+;simulate a filled in form⟯ with curl, use ⟮c+;s45;-f⟯ or ⟮c+;s26;--form⟯ ⟮c+;"key=value"⟯ (supports ⟮c+;more fancy syntax for files etc.⟯ )  
-To make curl ⟮c+;fail on error⟯, use ⟮c+;s31;-f⟯ or ⟮c+;s30;--fail⟯ 
-To ⟮c+;make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c+;s34;-I⟯ or ⟮c+;s33;--head⟯. 
+⟮c+;s16;-i⟯ and ⟮c+;s15;--include⟯ ⟮show HTTP response headers⟯ 
+To ⟮set custom headers⟯ in curl, use ⟮c+;s20;-H⟯/⟮c+;s19;--header⟯ ⟮"My-Header: My value"⟯ 
+To ⟮set the query string⟯ to a certain value in curl, use ⟮c+;s44;-d⟯ OR ⟮c+;s23;--data⟯ ⟮c+;'key=value&amp;key2=value2'⟯ 
+To ⟮simulate a filled in form⟯ with curl, use ⟮c+;s45;-f⟯ or ⟮c+;s26;--form⟯ ⟮"key=value"⟯ (supports ⟮more fancy syntax for files etc.⟯ )  
+To make curl ⟮fail on error⟯, use ⟮c+;s31;-f⟯ or ⟮c+;s30;--fail⟯ 
+To ⟮make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c+;s34;-I⟯ or ⟮c+;s33;--head⟯. 
 
-To ⟮c+;make curl follow redirects (e.g. 301 Moved Permanently⟯), use ⟮c+;s37;-L⟯ or ⟮c+;s36;--location⟯ 
-If ⟮c+;you've specified -L/--location⟯ for curl, ⟮c+;--max-redirs⟯ sets ⟮c+;how many redirects you want to follow⟯. ⟮c+;-1⟯ means ⟮c+;infinite redirects⟯ 
+To ⟮make curl follow redirects (e.g. 301 Moved Permanently⟯), use ⟮c+;s37;-L⟯ or ⟮c+;s36;--location⟯ 
+If ⟮you've specified -L/--location⟯ for curl, ⟮--max-redirs⟯ sets ⟮how many redirects you want to follow⟯. ⟮-1⟯ means ⟮infinite redirects⟯ 
 
-There are bunch of sites ⟮c+;designed to be `curl`ed⟯ to do something useful. 
+There are bunch of sites ⟮designed to be `curl`ed⟯ to do something useful. 
 
 Site|Does what when `curl`ed?
-⟮c+;wttr.in⟯|⟮c+;get weather⟯
+⟮wttr.in⟯|⟮get weather⟯
 
 
 ####### various data-fetching CLIs
 
 ######## youtube-dl
 
-⟮c+;youtube-dl⟯ is a ⟮c+;CLI⟯ tool for ⟮c+;downloading from⟯ ⟮c+;mainly⟯ ⟮c+;youtube⟯, ⟮c+;but also from other platforms⟯. 
-basic syntax for youtube-dl: `⟮c+;youtube-dl⟯ ⟮c+;[OPTIONS]⟯ ⟮c+;URL {URL⟯}` 
+⟮youtube-dl⟯ is a ⟮CLI⟯ tool for ⟮downloading from⟯ ⟮mainly⟯ ⟮youtube⟯, ⟮but also from other platforms⟯. 
+basic syntax for youtube-dl: `⟮youtube-dl⟯ ⟮[OPTIONS]⟯ ⟮URL {URL⟯}` 
 
 
-youtube-dl: ⟮c+;don't actually download the video, just preview⟯, so to speak: ⟮c+;-s/--simulate⟯ 
+youtube-dl: ⟮don't actually download the video, just preview⟯, so to speak: ⟮-s/--simulate⟯ 
 
-There is ⟮c+;a set of options⟯ for ⟮c+;youtube-dl⟯ that ⟮c+;start with --get-⟯ and ⟮c+;only return the requested information (e.g. id, format, filename, title, duration, etc.⟯) 
+There is ⟮a set of options⟯ for ⟮youtube-dl⟯ that ⟮start with --get-⟯ and ⟮only return the requested information (e.g. id, format, filename, title, duration, etc.⟯) 
 ^--get-format, --get-title, etc.
 
-The ⟮c+;--format / -f FORMAT⟯ option of youtube-dl is for s⟮c+;electing the format you want to download the thing in⟯. 
-You can ⟮c+;list available formats for --format⟯ with ⟮c+;--list-formats/-F⟯ 
+The ⟮--format / -f FORMAT⟯ option of youtube-dl is for s⟮electing the format you want to download the thing in⟯. 
+You can ⟮list available formats for --format⟯ with ⟮--list-formats/-F⟯ 
 
 
 --format accepts a sophisticated syntax as an argument: (it's actually slightly more complicated, but I've simplified a little)
 ```
-Format specifier syntax: ⟮c+;--format⟯ ⟮c+;‹format-specifier›⟯⟮c+;{,‹format-specifier›⟯}  # for ⟮c+;downloading mutliple formats at once⟯
-⟮c+;format-specifier⟯: ⟮c+;‹single-format›⟯⟮c+;{/‹single-format›⟯} # for ⟮c+;relative precedence of multiple formats, depending on what's available⟯
-⟮c+;single-format⟯: ⟮c+;‹single-format-selector›[+‹single-format-selector›]⟯ # if ⟮c+;two are specified⟯, ⟮c+;the first one is for video and the second is for audio⟯
-⟮c+;single-format-selector⟯: ⟮c+;[‹general-quality›]⟯⟮c+;{\[‹property›‹operator›‹value›\]⟯}
-⟮c+;general-quality⟯: ⟮c+;‹file-extension›|‹quality-keyword›⟯
-⟮c+;file-extension⟯: # will ⟮c+;get the best format⟯ of ⟮c+;the given file extension, e.g. mp3⟯
-⟮c+;quality-keyword⟯: ⟮c+;best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |⟯
-⟮c+;property⟯: # things such as ⟮c+;filesize, width, height, tbr (total average bitrate), fps, ...⟯
-⟮c+;operator⟯: # things such as ⟮c+;=, !=, &gt;.... as well as ^=, $=, *= etc.⟯
+Format specifier syntax: ⟮--format⟯ ⟮‹format-specifier›⟯⟮{,‹format-specifier›⟯}  # for ⟮downloading mutliple formats at once⟯
+⟮format-specifier⟯: ⟮‹single-format›⟯⟮{/‹single-format›⟯} # for ⟮relative precedence of multiple formats, depending on what's available⟯
+⟮single-format⟯: ⟮‹single-format-selector›[+‹single-format-selector›]⟯ # if ⟮two are specified⟯, ⟮the first one is for video and the second is for audio⟯
+⟮single-format-selector⟯: ⟮[‹general-quality›]⟯⟮{\[‹property›‹operator›‹value›\]⟯}
+⟮general-quality⟯: ⟮‹file-extension›|‹quality-keyword›⟯
+⟮file-extension⟯: # will ⟮get the best format⟯ of ⟮the given file extension, e.g. mp3⟯
+⟮quality-keyword⟯: ⟮best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |⟯
+⟮property⟯: # things such as ⟮filesize, width, height, tbr (total average bitrate), fps, ...⟯
+⟮operator⟯: # things such as ⟮c+;=, !=, &gt;.... as well as ^=, $=, *= etc.⟯
 ```
 
 
-The ⟮c+;s46;-x⟯/⟮c+;s45;--extract-audio⟯ option makes ⟮c+;youtube-dl extract the audio into its own file⟯. 
-If ⟮c+;using -x/--extract-audio⟯, you ⟮c+;can specify the format⟯ ⟮c+;with --audio-format FORMAT⟯, which ⟮c+;accepts the subset of things for --format FORMAT⟯ that ⟮c+;make sense for audio⟯. 
+The ⟮c+;s46;-x⟯/⟮c+;s45;--extract-audio⟯ option makes ⟮youtube-dl extract the audio into its own file⟯. 
+If ⟮using -x/--extract-audio⟯, you ⟮can specify the format⟯ ⟮with --audio-format FORMAT⟯, which ⟮accepts the subset of things for --format FORMAT⟯ that ⟮make sense for audio⟯. 
 
 
 ###### protocols
@@ -9472,8 +9472,8 @@ Between IMAP and POP3, IMAP is more feature-rich.
 
 HTTP|HyperText Transfer Protocol
 
-⟮c+;HTTPS⟯ is an ⟮c+;encrypted⟯ version of ⟮c+;HTTP⟯
-A ⟮c+;mixed content⟯ page is a ⟮c+;HTTPS⟯ page that ⟮c+;also includes content fetched over HTTP⟯
+⟮HTTPS⟯ is an ⟮encrypted⟯ version of ⟮HTTP⟯
+A ⟮mixed content⟯ page is a ⟮HTTPS⟯ page that ⟮also includes content fetched over HTTP⟯
 
 When you navigate to a new URL, the browser sends an HTTP request
 The client sendds a HTTP request, and the server returns an HTTP response.
@@ -9507,69 +9507,69 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 
 ######## status codes
 
-⟮c+;Status-Code⟯|⟮c+;Reason-Phrase⟯|Further explanation
-⟮c+;1xx⟯|⟮c+;Informational⟯
-⟮c+;100⟯|⟮c+;Continue⟯|⟮c+;The server is working on it, dammit!⟯
-⟮c+;2xx⟯|⟮c+;Success⟯
-⟮c+;200⟯|⟮c+;OK⟯|⟮c+;The request is fulfilled.⟯
-⟮c+;3xx⟯|⟮c+;Redirection⟯
-⟮c+;301⟯|⟮c+;Move Permanently⟯|⟮c+;The resource has moved permanently.⟯
-⟮c+;302⟯|⟮c+;Move Temporarily⟯|⟮c+;The resource has moved temporarily.⟯
-⟮c+;304⟯|⟮c+;Not Modified⟯|⟮c+;The resource has not been modified⟯
-⟮c+;4xx⟯|⟮c+;Client Error⟯
-⟮c+;400⟯|⟮c+;Bad request⟯|⟮c+;The server could not understand the request⟯
-⟮c+;401⟯|⟮c+;Authentication Required⟯|⟮c+;Requires Username/Password⟯
-⟮c+;403⟯|⟮c+;Forbidden⟯|⟮c+;Server refuses to supply the resource, regardless of identity of client⟯
-⟮c+;404⟯|⟮c+;Not Found⟯|⟮c+;The requested resource cannot be found in the server⟯
-⟮c+;405⟯|⟮c+;Method Not Allowed⟯|⟮c+;The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯
-⟮c+;451⟯|⟮c+;Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
-⟮c+;5xx⟯|⟮c+;Server Error⟯
-⟮c+;500⟯|⟮c+;Internal Server Error⟯|⟮c+;Server is confused⟯
-⟮c+;501⟯|⟮c+;Method not Implemented⟯|⟮c+;The method name is invalid (e.g. Get instead of GET⟯)
-⟮c+;502⟯|⟮c+;Bad Gateway⟯|⟮c+;Proxy recieved bad response from upstream server⟯
-⟮c+;503⟯|⟮c+;Service Unavailable⟯|⟮c+;Server cannot respond due to overloading or maintenance⟯
-⟮c+;504⟯|⟮c+;Gateway timeout⟯|⟮c+;Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy⟯)
+⟮Status-Code⟯|⟮Reason-Phrase⟯|Further explanation
+⟮1xx⟯|⟮Informational⟯
+⟮100⟯|⟮Continue⟯|⟮The server is working on it, dammit!⟯
+⟮2xx⟯|⟮Success⟯
+⟮200⟯|⟮OK⟯|⟮The request is fulfilled.⟯
+⟮3xx⟯|⟮Redirection⟯
+⟮301⟯|⟮Move Permanently⟯|⟮The resource has moved permanently.⟯
+⟮302⟯|⟮Move Temporarily⟯|⟮The resource has moved temporarily.⟯
+⟮304⟯|⟮Not Modified⟯|⟮The resource has not been modified⟯
+⟮4xx⟯|⟮Client Error⟯
+⟮400⟯|⟮Bad request⟯|⟮The server could not understand the request⟯
+⟮401⟯|⟮Authentication Required⟯|⟮Requires Username/Password⟯
+⟮403⟯|⟮Forbidden⟯|⟮Server refuses to supply the resource, regardless of identity of client⟯
+⟮404⟯|⟮Not Found⟯|⟮The requested resource cannot be found in the server⟯
+⟮405⟯|⟮Method Not Allowed⟯|⟮The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯
+⟮451⟯|⟮Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
+⟮5xx⟯|⟮Server Error⟯
+⟮500⟯|⟮Internal Server Error⟯|⟮Server is confused⟯
+⟮501⟯|⟮Method not Implemented⟯|⟮The method name is invalid (e.g. Get instead of GET⟯)
+⟮502⟯|⟮Bad Gateway⟯|⟮Proxy recieved bad response from upstream server⟯
+⟮503⟯|⟮Service Unavailable⟯|⟮Server cannot respond due to overloading or maintenance⟯
+⟮504⟯|⟮Gateway timeout⟯|⟮Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy⟯)
 
 
 ######## cache
 
-A ⟮c+;cache⟯ is a thing that ⟮c+;stores data⟯ so that ⟮c+;future requests for that data⟯ ⟮c+;can be served more quickly⟯. 
-With ⟮c+;caching and esp. with HTTP caching⟯, the guiding principle is that you want to ⟮c+;store the thing as long as possible⟯, but ⟮c+;update it as soon as it changes⟯. 
+A ⟮cache⟯ is a thing that ⟮stores data⟯ so that ⟮future requests for that data⟯ ⟮can be served more quickly⟯. 
+With ⟮caching and esp. with HTTP caching⟯, the guiding principle is that you want to ⟮store the thing as long as possible⟯, but ⟮update it as soon as it changes⟯. 
 
-A ⟮c+;web cache⟯ AKA ⟮s16;⟮c+;HTTP cache⟯⟯ is ⟮c+;a cache for HTTP requests⟯. 
-⟮c+;web/HTTP caches⟯ can either be ⟮c+;shared⟯ or ⟮c+;local/private⟯. 
-a ⟮c+;shared⟯ ⟮c+;HTTP cache⟯ sits ⟮c+;somewhere in the internet⟯ and ⟮c+;has many users⟯. 
-a ⟮c+;local/private⟯ ⟮c+;HTTP cache⟯ sits ⟮c+;in your web browser⟯ and ⟮c+;is only used by you⟯. 
-⟮c+;Any HTTP request⟯ will ⟮c+;first be routed through⟯ ⟮c+;your browser cache⟯ and perhaps ⟮c+;a few network caches⟯ to see if ⟮c+;there is a fresh copy of the response available⟯. 
+A ⟮web cache⟯ AKA ⟮s16;⟮HTTP cache⟯⟯ is ⟮a cache for HTTP requests⟯. 
+⟮web/HTTP caches⟯ can either be ⟮shared⟯ or ⟮local/private⟯. 
+a ⟮shared⟯ ⟮HTTP cache⟯ sits ⟮somewhere in the internet⟯ and ⟮has many users⟯. 
+a ⟮local/private⟯ ⟮HTTP cache⟯ sits ⟮in your web browser⟯ and ⟮is only used by you⟯. 
+⟮Any HTTP request⟯ will ⟮first be routed through⟯ ⟮your browser cache⟯ and perhaps ⟮a few network caches⟯ to see if ⟮there is a fresh copy of the response available⟯. 
 
-The main mechanism ⟮c+;HTTP caching⟯ uses is ⟮c+;the Cache-Control header⟯. 
-In the days of ⟮c+;HTTP 1.0⟯, the ⟮c+;Pragma header⟯ was used for ⟮c+;caching⟯. 
-The ⟮c+;Cache-Control header⟯ is sent ⟮c+;by the server⟯ and&nbsp;specifies ⟮c+;if a resource can be cached⟯, ⟮c+;who can cache it⟯, and ⟮c+;how long it can be cached⟯. 
-The ⟮c+;Cache-Control header::caching⟯ consists of ⟮c+;a comma-separated list⟯, with either ⟮c+;boolean keywords⟯ or ⟮c+;key=value pairs⟯ ⟮h∞;(cookie e.g. has a ; separated list) ⟯. 
-To specify ⟮c+;how long⟯ ⟮c+;a cache entry⟯ is ⟮c+;fresh (when it becomes stale⟯), one can either specify ⟮c+;max-age=value⟯ as ⟮c+;part of the Cache-Control header⟯ or ⟮c+;the separate Expires header⟯. 
-⟮c+;Maximum value⟯ for ⟮c+;Cache-Control:⟯ ⟮c+;max-age⟯ is ⟮c+;1 year⟯ 
+The main mechanism ⟮HTTP caching⟯ uses is ⟮the Cache-Control header⟯. 
+In the days of ⟮HTTP 1.0⟯, the ⟮Pragma header⟯ was used for ⟮caching⟯. 
+The ⟮Cache-Control header⟯ is sent ⟮by the server⟯ and&nbsp;specifies ⟮if a resource can be cached⟯, ⟮who can cache it⟯, and ⟮how long it can be cached⟯. 
+The ⟮Cache-Control header::caching⟯ consists of ⟮a comma-separated list⟯, with either ⟮boolean keywords⟯ or ⟮key=value pairs⟯ ⟮h∞;(cookie e.g. has a ; separated list) ⟯. 
+To specify ⟮how long⟯ ⟮a cache entry⟯ is ⟮fresh (when it becomes stale⟯), one can either specify ⟮max-age=value⟯ as ⟮part of the Cache-Control header⟯ or ⟮the separate Expires header⟯. 
+⟮Maximum value⟯ for ⟮Cache-Control:⟯ ⟮max-age⟯ is ⟮1 year⟯ 
 
 
     <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource
-⟮c+;public⟯|⟮c+;Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)
-⟮c+;private⟯|⟮c+;Don't cache in shared cache, only in private cache (e.g. browser⟯)
-⟮c+;no-cache⟯|⟮c+;Check with the server for change with each request (but don't redownload if unchanged⟯)
-⟮c+;no-store⟯|⟮c+;Do not cache the resource in any way⟯
+⟮public⟯|⟮Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)
+⟮private⟯|⟮Don't cache in shared cache, only in private cache (e.g. browser⟯)
+⟮no-cache⟯|⟮Check with the server for change with each request (but don't redownload if unchanged⟯)
+⟮no-store⟯|⟮Do not cache the resource in any way⟯
 
 
-an ⟮c+;ETag⟯ is a mechanism for ⟮c+;judging whether a resouce has changed⟯. 
-An ⟮c+;ETag⟯ is ⟮c+;a fingerprint⟯ for ⟮c+;a specific version⟯ of ⟮c+;a file⟯. 
-An ⟮c+;ETag⟯ is ⟮c+;opaque⟯ to ⟮c+;the client⟯ but ⟮c+;transparent⟯ to ⟮c+;the server⟯ 
-For ⟮c+;ETags⟯, the ⟮c+;server⟯ needs to decide on ⟮c+;a fingerprinting algorithm⟯ that ⟮c+;takes into account⟯ ⟮c+;the file and the version⟯ and ⟮c+;outputs⟯ ⟮c+;a fingerprint⟯. 
-The ⟮c+;ETag fingerprint⟯ is sent along by ⟮c+;the server⟯ as ⟮c+;a part of the response⟯ in ⟮c+;an ETag header⟯. 
-If we're using ⟮c+;ETags⟯ and ⟮c+;a resource expires⟯, the ⟮c+;client⟯ sends along the ⟮c+;ETag⟯ ⟮c+;fingerprint⟯ in ⟮c+;a If-None-Match header⟯. The ⟮c+;server⟯ uses this to check whether ⟮c+;the fingerprint⟯ still ⟮c+;corresponds to the current version of the file⟯, and returns ⟮c+;304 Not Modified⟯ if ⟮c+;true⟯, or ⟮c+;else⟯ a ⟮c+;normal 200 OK response⟯. 
+an ⟮ETag⟯ is a mechanism for ⟮judging whether a resouce has changed⟯. 
+An ⟮ETag⟯ is ⟮a fingerprint⟯ for ⟮a specific version⟯ of ⟮a file⟯. 
+An ⟮ETag⟯ is ⟮opaque⟯ to ⟮the client⟯ but ⟮transparent⟯ to ⟮the server⟯ 
+For ⟮ETags⟯, the ⟮server⟯ needs to decide on ⟮a fingerprinting algorithm⟯ that ⟮takes into account⟯ ⟮the file and the version⟯ and ⟮outputs⟯ ⟮a fingerprint⟯. 
+The ⟮ETag fingerprint⟯ is sent along by ⟮the server⟯ as ⟮a part of the response⟯ in ⟮an ETag header⟯. 
+If we're using ⟮ETags⟯ and ⟮a resource expires⟯, the ⟮client⟯ sends along the ⟮ETag⟯ ⟮fingerprint⟯ in ⟮a If-None-Match header⟯. The ⟮server⟯ uses this to check whether ⟮the fingerprint⟯ still ⟮corresponds to the current version of the file⟯, and returns ⟮304 Not Modified⟯ if ⟮true⟯, or ⟮else⟯ a ⟮normal 200 OK response⟯. 
 
-There's no ⟮c+;built-in/non-hacky way⟯ in ⟮c+;HTTP⟯ to ⟮c+;notify a client that a resource has expired⟯ if they don't ask for it. 
-⟮c+;Cache busting⟯ AKA ⟮s89;⟮c+;revving⟯⟯ is a '⟮c+;hack⟯' to ⟮c+;force browsers to redownload new resources⟯ even if ⟮c+;they are not expired.⟯ 
-⟮c+;Cache busting⟯ sets ⟮c+;the longest possible max-age⟯ on resources, and if ⟮c+;there are changes⟯, it ⟮c+;renames the file in some way (e.g. a hash suffix⟯), which ⟮c+;forces the browser to redownload⟯. 
-⟮c+;Cache busting⟯ is generally done by ⟮c+;build tools such as Webpack automatically⟯ 
+There's no ⟮built-in/non-hacky way⟯ in ⟮HTTP⟯ to ⟮notify a client that a resource has expired⟯ if they don't ask for it. 
+⟮Cache busting⟯ AKA ⟮s89;⟮revving⟯⟯ is a '⟮hack⟯' to ⟮force browsers to redownload new resources⟯ even if ⟮they are not expired.⟯ 
+⟮Cache busting⟯ sets ⟮the longest possible max-age⟯ on resources, and if ⟮there are changes⟯, it ⟮renames the file in some way (e.g. a hash suffix⟯), which ⟮forces the browser to redownload⟯. 
+⟮Cache busting⟯ is generally done by ⟮build tools such as Webpack automatically⟯ 
 
-flex-container:<img src="sm_tmpyvxwccqz.png">
+flex-container:✫sm_tmpyvxwccqz.png✫
 
 
 
@@ -9577,48 +9577,48 @@ flex-container:<img src="sm_tmpyvxwccqz.png">
 
 By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
 
-⟮c+;Cookies⟯ are a concept within ⟮c+;HTTP⟯. 
-⟮c+;Cookies⟯ allow ⟮c+;the server⟯ to ⟮c+;keep track of state⟯ in ⟮c+;HTTP⟯, which is itself essentially ⟮c+;stateless⟯. 
-⟮c+;Cookies⟯ are usually ⟮c+;first set⟯ by ⟮c+;the server⟯. 
-The ⟮c+;server⟯ ⟮c+;sets the cookies⟯ via the ⟮c+;`Set-Cookie`⟯ ⟮c+;HTTP Header.⟯ 
-The ⟮c+;browser⟯ ⟮c+;sends⟯ ⟮c+;all relevant cookies⟯ ⟮c+;back to the server⟯ ⟮c+;on each request⟯. 
-Syntax of the ⟮c+;`Set-Cookie` HTTP Header⟯: `⟮c+;Set-Cookie⟯: ⟮c+;‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮c+;‹cookiepropertykey›[=‹valuepropertykey›]⟯⟮c+;} ⟯` 
-The ⟮c+;`Set-Cookie` HTTP Header⟯ typically contains ⟮c+;one cookie⟯ and ⟮c+;its properties⟯, to ⟮c+;set multiple cookies⟯ ⟮c+;set multiple headers⟯ (there is also a way of ⟮c+;separating them with commas⟯, but ⟮c+;this is nonstandard and often does not work⟯) 
-The browser ⟮c+;sends cookies back on request⟯ via ⟮c+;the `Cookie` HTTP header⟯. 
-The syntax of the `⟮c+;Cookie⟯` header: `⟮c+;Cookie:⟯ ⟮c+;‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮c+;‹cookie2key›=‹cookie2value›⟯⟮c+;} ⟯` 
-Since ⟮c+;cookies are sent back on each request⟯ and since ⟮c+;there are spec-defined size constraints⟯, ⟮c+;the things sent in cookies⟯ are usually ⟮c+;quite small, often only a UID⟯. 
+⟮Cookies⟯ are a concept within ⟮HTTP⟯. 
+⟮Cookies⟯ allow ⟮the server⟯ to ⟮keep track of state⟯ in ⟮HTTP⟯, which is itself essentially ⟮stateless⟯. 
+⟮Cookies⟯ are usually ⟮first set⟯ by ⟮the server⟯. 
+The ⟮server⟯ ⟮sets the cookies⟯ via the ⟮`Set-Cookie`⟯ ⟮HTTP Header.⟯ 
+The ⟮browser⟯ ⟮sends⟯ ⟮all relevant cookies⟯ ⟮back to the server⟯ ⟮on each request⟯. 
+Syntax of the ⟮`Set-Cookie` HTTP Header⟯: `⟮Set-Cookie⟯: ⟮‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮‹cookiepropertykey›[=‹valuepropertykey›]⟯⟮} ⟯` 
+The ⟮`Set-Cookie` HTTP Header⟯ typically contains ⟮one cookie⟯ and ⟮its properties⟯, to ⟮set multiple cookies⟯ ⟮set multiple headers⟯ (there is also a way of ⟮separating them with commas⟯, but ⟮this is nonstandard and often does not work⟯) 
+The browser ⟮sends cookies back on request⟯ via ⟮the `Cookie` HTTP header⟯. 
+The syntax of the `⟮Cookie⟯` header: `⟮Cookie:⟯ ⟮‹cookiekey›=‹cookievalue›⟯⟮c+;{;⟯ ⟮‹cookie2key›=‹cookie2value›⟯⟮} ⟯` 
+Since ⟮cookies are sent back on each request⟯ and since ⟮there are spec-defined size constraints⟯, ⟮the things sent in cookies⟯ are usually ⟮quite small, often only a UID⟯. 
 
-⟮c+;Session cookies⟯ are cookies that ⟮c+;only last until the browser is closed⟯, allthough ⟮c+;they can often be restored by the browser via session restoring⟯. 
-⟮c+;Cookies⟯ without an ⟮c+;Expires⟯ or ⟮c+;Max-Age⟯ attribute are ⟮c+;session cookies⟯. 
-⟮c+;Persistent cookies⟯ are ⟮c+;cookies that last for a specific time⟯. 
-⟮c+;Cookies⟯ with an ⟮c+;Expires⟯ or ⟮c+;Max-Age⟯ attribute are ⟮c+;persistent cookies⟯. 
+⟮Session cookies⟯ are cookies that ⟮only last until the browser is closed⟯, allthough ⟮they can often be restored by the browser via session restoring⟯. 
+⟮Cookies⟯ without an ⟮Expires⟯ or ⟮Max-Age⟯ attribute are ⟮session cookies⟯. 
+⟮Persistent cookies⟯ are ⟮cookies that last for a specific time⟯. 
+⟮Cookies⟯ with an ⟮Expires⟯ or ⟮Max-Age⟯ attribute are ⟮persistent cookies⟯. 
 
-Due to the ⟮c+;cookie spec⟯, one can usually rely on ⟮c+;cookies⟯ being able to hold at least ~⟮c+;4kb⟯ and at least ⟮c+;50⟯ ⟮c+;cookies per domain⟯, though ⟮c+;often the real limits are far higher⟯ 
+Due to the ⟮cookie spec⟯, one can usually rely on ⟮cookies⟯ being able to hold at least ~⟮4kb⟯ and at least ⟮50⟯ ⟮cookies per domain⟯, though ⟮often the real limits are far higher⟯ 
 
-Since ⟮c+;persistent cookies⟯ are ⟮c+;deleted⟯ ⟮c+;after their Max-Age&gt;age or their Expires date has passed⟯, one can ⟮c+;delete⟯ them by ⟮c+;manually moving this into the past⟯. It is also common practice to ⟮c+;set their content to an empty string⟯. 
+Since ⟮persistent cookies⟯ are ⟮deleted⟯ ⟮c+;after their Max-Age&gt;age or their Expires date has passed⟯, one can ⟮delete⟯ them by ⟮manually moving this into the past⟯. It is also common practice to ⟮set their content to an empty string⟯. 
 
-By default, ⟮c+;cookies⟯ ⟮c+;are only sent⟯ for ⟮c+;requests⟯ for ⟮c+;the FQDN that the cookie was sent from⟯. 
-By default, ⟮c+;cookies⟯ ⟮c+;sent from a certain FQDN⟯ are ⟮c+;not included⟯ in ⟮c+;the browsers requests for subdomains⟯. 
-Specifying the ⟮c+;`Domain`⟯ property of a ⟮c+;cookie⟯ means ⟮c+;it will be sent⟯ for ⟮c+;requests for the specified FQDN⟯, and ⟮c+;all⟯ subdomains (thus being more permissive than the default!) 
-By default, ⟮c+;cookies⟯ are ⟮c+;sent by the browser⟯ ⟮c+;no matter⟯ ⟮c+;the path in the URL⟯ ⟮(c:80;only⟯ ⟮c+;the FQDN⟯ matters). 
-If the ⟮c+;Path⟯ attribute is ⟮c+;specified for a cookie⟯, ⟮c+;browsers will only sent the cookie⟯ on ⟮c+;requests for the specified path (or subpaths⟯). 
+By default, ⟮cookies⟯ ⟮are only sent⟯ for ⟮requests⟯ for ⟮the FQDN that the cookie was sent from⟯. 
+By default, ⟮cookies⟯ ⟮sent from a certain FQDN⟯ are ⟮not included⟯ in ⟮the browsers requests for subdomains⟯. 
+Specifying the ⟮`Domain`⟯ property of a ⟮cookie⟯ means ⟮it will be sent⟯ for ⟮requests for the specified FQDN⟯, and ⟮all⟯ subdomains (thus being more permissive than the default!) 
+By default, ⟮cookies⟯ are ⟮sent by the browser⟯ ⟮no matter⟯ ⟮the path in the URL⟯ ⟮(c:80;only⟯ ⟮the FQDN⟯ matters). 
+If the ⟮Path⟯ attribute is ⟮specified for a cookie⟯, ⟮browsers will only sent the cookie⟯ on ⟮requests for the specified path (or subpaths⟯). 
 
-⟮c+;Cookies⟯ that ⟮c+;originate from⟯ ⟮c+;the same domain as the current domain⟯ ⟮h88;(including ⟮c+;subdomains⟯ if ⟮c+;Domain is set⟯) ⟯ are known as ⟮c+;first-party cookies⟯, all others are ⟮c+;third-party cookies⟯. 
+⟮Cookies⟯ that ⟮originate from⟯ ⟮the same domain as the current domain⟯ ⟮h88;(including ⟮subdomains⟯ if ⟮Domain is set⟯) ⟯ are known as ⟮first-party cookies⟯, all others are ⟮third-party cookies⟯. 
 
-⟮c+;Cookies⟯ ⟮c+;used to maintain the state of being logged⟯ in are known as ⟮c+;authentication cookies⟯ (the whole process is known as ⟮s91:93;c94;cookie-based authentication⟯ ) 
-⟮c+;Cookies⟯ used to ⟮c+;maintain the state of an unique user⟯ ⟮c+;with whom to associate browser histories⟯ are known as ⟮c+;tracking cookies⟯. 
+⟮Cookies⟯ ⟮used to maintain the state of being logged⟯ in are known as ⟮authentication cookies⟯ (the whole process is known as ⟮s91:93;c94;cookie-based authentication⟯ ) 
+⟮Cookies⟯ used to ⟮maintain the state of an unique user⟯ ⟮with whom to associate browser histories⟯ are known as ⟮tracking cookies⟯. 
 
-The ⟮c+;Secure⟯ property of a cookie means ⟮c+;that it is only ever sent over HTTPS⟯. 
-The ⟮c+;HttpOnly⟯ property of a cookie ⟮c+;makes it inaccesible via JS⟯. 
-The ⟮c+;SameSite⟯ property of a cookie can take three values, ⟮c+;Strict⟯, ⟮c+;Lax⟯, or ⟮c+;None⟯. 
-The ⟮c+;SameSite⟯ property uses a definition of ⟮c+;Site⟯ which consists of ⟮c+;the registrable domain name⟯ and ⟮c+;scheme⟯ (which ⟮c+;can only be http or https anyway, since cookies are a HTTP-only concept.⟯) 
-Cookies with ⟮c+;SameSite=Strict⟯ are ⟮c+;only sent⟯ when ⟮c+;the site (registrable domain name + scheme⟯) ⟮c+;the request is being sent to⟯ is ⟮c+;the same as the site of the cookie⟯, i.e. ⟮c+;not on cross-site requests⟯. 
-Cookies with ⟮c+;SameSite=Lax⟯ are sent ⟮c+;in the same circumstances as SameStrict=Strict⟯, plus on ⟮c+;cross-site requests⟯, if ⟮c+;the request is a browser navigation one (not e.g. for resources only⟯). 
-Cookies with ⟮c+;SameSite=None⟯ have ⟮c+;no cross-site restrictions⟯, but ⟮c+;Secure must also be set⟯. 
+The ⟮Secure⟯ property of a cookie means ⟮that it is only ever sent over HTTPS⟯. 
+The ⟮HttpOnly⟯ property of a cookie ⟮makes it inaccesible via JS⟯. 
+The ⟮SameSite⟯ property of a cookie can take three values, ⟮Strict⟯, ⟮Lax⟯, or ⟮None⟯. 
+The ⟮SameSite⟯ property uses a definition of ⟮Site⟯ which consists of ⟮the registrable domain name⟯ and ⟮scheme⟯ (which ⟮can only be http or https anyway, since cookies are a HTTP-only concept.⟯) 
+Cookies with ⟮SameSite=Strict⟯ are ⟮only sent⟯ when ⟮the site (registrable domain name + scheme⟯) ⟮the request is being sent to⟯ is ⟮the same as the site of the cookie⟯, i.e. ⟮not on cross-site requests⟯. 
+Cookies with ⟮SameSite=Lax⟯ are sent ⟮in the same circumstances as SameStrict=Strict⟯, plus on ⟮cross-site requests⟯, if ⟮the request is a browser navigation one (not e.g. for resources only⟯). 
+Cookies with ⟮SameSite=None⟯ have ⟮no cross-site restrictions⟯, but ⟮Secure must also be set⟯. 
 
-The JS inteface for ⟮c+;cookies⟯ is ⟮c+;document.cookie⟯ 
+The JS inteface for ⟮cookies⟯ is ⟮document.cookie⟯ 
 
-A ⟮c+;zombie cookie⟯ is a cookie that ⟮c+;is restored even when deleted⟯, by using ⟮c+;various nooks and crannies of different internet technologies.⟯ 
+A ⟮zombie cookie⟯ is a cookie that ⟮is restored even when deleted⟯, by using ⟮various nooks and crannies of different internet technologies.⟯ 
 
 
 ######### Content Negotiation
@@ -9706,7 +9706,7 @@ To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade 
 on the client side, sockets are created via the `WebSocket` constructor
 the `WebSocket` constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
 to send data on a `WebSocket`, use the method `send()`
-To ⟮c+;react to incoming data⟯ ⟮c+;event handlers are registered⟯ on the WebSocket object
+To ⟮react to incoming data⟯ ⟮event handlers are registered⟯ on the WebSocket object
 the four common events a `WebSocket` might recieve client-side are open, message, close, error
 
 ######## server 
@@ -9720,14 +9720,14 @@ DHCP is a protocol used for automatically assigning IP addresses and other param
 DHCP is an application-layer protocol using UDP as the transport layer
 DHCP follows a client-server model
 the four stages of DHCP operations are often abbreviated DORA
-DORA = ⟮c+;DISCOVER⟯, ⟮c+;OFFER⟯, ⟮c+;REQUEST⟯, and ⟮c+;ACK(nowledge)⟯
+DORA = ⟮DISCOVER⟯, ⟮OFFER⟯, ⟮REQUEST⟯, and ⟮ACK(nowledge)⟯
 The DHCP messages (e.g. DISCOVER) may also be referred to by prefixing  DHCP (e.g. DHCPDISOVER)
-In general, a ⟮c+;client⟯ sends a ⟮c+;DHCP⟯ ⟮c+;DISCOVER⟯ request ⟮c+;on startup⟯ and then ⟮c+;periodically before it expires⟯
-The ⟮c+;DHCP⟯ client sends its ⟮c+;DISCOVER⟯ and ⟮c+;REQUEST⟯ messages as a ⟮c+;broadcast⟯ initiallty, for ⟮c+;renewal⟯ it may also use ⟮c+;unicast⟯
-On recieving a ⟮c+;DISCOVER⟯ request, the ⟮c+;DHCP server⟯ uses ⟮c+;its policies⟯ to decide which if any ⟮c+;IP address to assign⟯, and sends back an unicast message ⟮c+;OFFER⟯
-A client can receive DHCP offers from ⟮c+;multiple servers⟯, but it will ⟮c+;accept only one DHCP offer⟯
+In general, a ⟮client⟯ sends a ⟮DHCP⟯ ⟮DISCOVER⟯ request ⟮on startup⟯ and then ⟮periodically before it expires⟯
+The ⟮DHCP⟯ client sends its ⟮DISCOVER⟯ and ⟮REQUEST⟯ messages as a ⟮broadcast⟯ initiallty, for ⟮renewal⟯ it may also use ⟮unicast⟯
+On recieving a ⟮DISCOVER⟯ request, the ⟮DHCP server⟯ uses ⟮its policies⟯ to decide which if any ⟮IP address to assign⟯, and sends back an unicast message ⟮OFFER⟯
+A client can receive DHCP offers from ⟮multiple servers⟯, but it will ⟮accept only one DHCP offer⟯
 In response to the DHCPOFFER, the client replies with a DHCPREQUEST message, broadcast to the server (can be unicast if renewal), requesting the offered address.
-After the client ⟮c+;obtains an IP address via DHCP⟯, it should ⟮c+;probe the newly received address⟯ (e.g. with ⟮c+;ARP/NDP⟯) to prevent ⟮c+;address conflicts caused by overlapping addresses⟯
+After the client ⟮obtains an IP address via DHCP⟯, it should ⟮probe the newly received address⟯ (e.g. with ⟮ARP/NDP⟯) to prevent ⟮address conflicts caused by overlapping addresses⟯
 
 client         server
   |               |
@@ -9747,9 +9747,9 @@ SSL is deprecated in favor of TLS, however TLS is often still called SSL
 
 ##### layer 4
 
-The most common protocols in the ⟮c+;transport⟯ layer are ⟮c+;TCP⟯ and ⟮c+;UDP⟯. 
-The ⟮c+;transport⟯ layer, directly beneath the ⟮c+;application⟯, but above the ⟮c+;internet⟯ layer is the ⟮c+;2nd⟯ layer from the top of the internet portocol suite. 
-⟮c+;TCP⟯ is ⟮c+;more complex⟯ than ⟮c+;UDP⟯ (amongst other things) because it is ⟮c+;stateful⟯ 
+The most common protocols in the ⟮transport⟯ layer are ⟮TCP⟯ and ⟮UDP⟯. 
+The ⟮transport⟯ layer, directly beneath the ⟮application⟯, but above the ⟮internet⟯ layer is the ⟮2nd⟯ layer from the top of the internet portocol suite. 
+⟮TCP⟯ is ⟮more complex⟯ than ⟮UDP⟯ (amongst other things) because it is ⟮stateful⟯ 
 
 ###### nc
 
@@ -9760,34 +9760,34 @@ nc [<options>] [<hostname>] [<port>]
 ###### ports
 
 Ports exist only in software 
-A ⟮c+;port⟯ is ⟮c+;uniquely identified by⟯ a ⟮c+;port number⟯. 
-A ⟮c+;port number⟯ is a ⟮c+;16⟯ bit integer 
-Ports that are ⟮c+;only used for a short time⟯ to do something are known as ⟮c+;ephemeral⟯ ports, which are generally used for ⟮c+;clients⟯ (because ⟮c+;the port of the client can be anything anyway⟯) 
-the ⟮c+;dynamic⟯ or ⟮c+;private⟯ ports are often used as ⟮c+;ephemeral⟯ ports 
+A ⟮port⟯ is ⟮uniquely identified by⟯ a ⟮port number⟯. 
+A ⟮port number⟯ is a ⟮16⟯ bit integer 
+Ports that are ⟮only used for a short time⟯ to do something are known as ⟮ephemeral⟯ ports, which are generally used for ⟮clients⟯ (because ⟮the port of the client can be anything anyway⟯) 
+the ⟮dynamic⟯ or ⟮private⟯ ports are often used as ⟮ephemeral⟯ ports 
 
 Port range</th>
     <th colspan="2">Is called
-⟮c+;&lt;1024⟯|⟮c+;well-known⟯
-⟮c+;1024 - 49151 (2^15 + 2^14⟯)|⟮c+;registered⟯
-⟮c+;49152 (2^15 + 2^14) - 2^16⟯|⟮c+;dynamic⟯|⟮c+;private⟯
+⟮c+;&lt;1024⟯|⟮well-known⟯
+⟮1024 - 49151 (2^15 + 2^14⟯)|⟮registered⟯
+⟮49152 (2^15 + 2^14) - 2^16⟯|⟮dynamic⟯|⟮private⟯
 
 
 
-Generally, an ⟮c+;application protocol⟯ will have a ⟮c+;port number⟯ it ⟮c+;is associated with⟯ (esp. on ⟮c+;the server side⟯). 
+Generally, an ⟮application protocol⟯ will have a ⟮port number⟯ it ⟮is associated with⟯ (esp. on ⟮the server side⟯). 
 
 ####### preassigned
 
 Protocol|Port
 FTP|21
-⟮c+;SSH⟯|⟮c+;22⟯
-⟮c+;telnet⟯|⟮c+;23⟯
-⟮c+;SMTP (plaintext⟯)|⟮c+;25⟯
-⟮c+;DNS⟯|⟮c+;53⟯
-⟮c+;HTTP⟯|⟮c+;80⟯
-⟮c+;IMAP (plaintext⟯)|⟮c+;143⟯
-⟮c+;HTTPS⟯|⟮c+;443⟯
-⟮c+;SMTP (encrypted⟯)|⟮c+;587⟯
-⟮c+;IMAP (encrypted⟯)|⟮c+;993⟯
+⟮SSH⟯|⟮22⟯
+⟮telnet⟯|⟮23⟯
+⟮SMTP (plaintext⟯)|⟮25⟯
+⟮DNS⟯|⟮53⟯
+⟮HTTP⟯|⟮80⟯
+⟮IMAP (plaintext⟯)|⟮143⟯
+⟮HTTPS⟯|⟮443⟯
+⟮SMTP (encrypted⟯)|⟮587⟯
+⟮IMAP (encrypted⟯)|⟮993⟯
 
 
 ####### conventional
@@ -9840,7 +9840,7 @@ The TCP sequence number should be unpredictable, or it is vulnerable to TCP sequ
 
 ####### Datagram header
 
-the UDP ⟮c+;datagram header⟯ consists of ⟮c+;4⟯ ⟮c+;fields⟯ of ⟮c+;2⟯ ⟮c+;bytes⟯ for a total of ⟮c+;8⟯ ⟮c+;bytes⟯ (⟮c+;64⟯ ⟮c+;bit⟯)
+the UDP ⟮datagram header⟯ consists of ⟮4⟯ ⟮fields⟯ of ⟮2⟯ ⟮bytes⟯ for a total of ⟮8⟯ ⟮bytes⟯ (⟮64⟯ ⟮bit⟯)
 
 
 field|optionality
@@ -9856,7 +9856,7 @@ octets|0 &amp; 1|2 &amp; 3
 
 ####### Datagram
 
-the maximum size of a ⟮c+;UDP datagram⟯ is ⟮c+;2^16 bytes⟯ (although IPv6 ⟮c+;jumbograms⟯ do allow more, and ⟮c+;headers⟯ take up some of that)
+the maximum size of a ⟮UDP datagram⟯ is ⟮2^16 bytes⟯ (although IPv6 ⟮jumbograms⟯ do allow more, and ⟮headers⟯ take up some of that)
 
 ###### TCP vs UDP
 
@@ -9873,20 +9873,20 @@ IP  Internet protocol
 IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers.
 IP (in general) works because connected routers know where packages starting with a certain IP routing/network prefix should go, and so on
 
-the ⟮c+;host URL element⟯ for the ⟮c+;loopback address⟯ is usually ⟮c+;localhost⟯
+the ⟮host URL element⟯ for the ⟮loopback address⟯ is usually ⟮localhost⟯
 the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
 
 ####### hops
 
-flex-container:<img src="Hop-count-trans.png">
+flex-container:✫Hop-count-trans.png✫
 
 
-A ⟮c+;hop⟯ occurs every time a ⟮c+;packet⟯ is ⟮c+;passed from one network to the next⟯. 
-The ⟮c+;hop⟯ count is thus a rough measure of ⟮c+;distance between devices⟯.
+A ⟮hop⟯ occurs every time a ⟮packet⟯ is ⟮passed from one network to the next⟯. 
+The ⟮hop⟯ count is thus a rough measure of ⟮distance between devices⟯.
 
 ####### address space
 
-flex-container:<img src="1024px-Regional_Internet_Registries_world_map.svg.png">
+flex-container:✫1024px-Regional_Internet_Registries_world_map.svg.png✫
 
 RIR = Regional Internet Registry
 NRO = Number Resource Organization
@@ -9896,12 +9896,12 @@ the 5 RIRs are affiliated via the NRO
 
 ####### headers
 
-the ⟮c+;IPv4 header⟯ consists of ⟮c+;14⟯ ⟮c+;different fields⟯
+the ⟮IPv4 header⟯ consists of ⟮14⟯ ⟮different fields⟯
 TTL = Time To Live
 TTL in IPv4 contexts was supposed to measure seconds, but was actually implemented as a hop count.
 TTL as hop count was implmeneted by an 8-bit integer, usually starting at 64. When it reached 0, the packet was discarded and an ICMP time exeeded message was typically sent.
 TTL exists amongst other reasons to prevent an infinite routing loop.
-⟮c+;TTL⟯ is called ⟮c+;hop limit⟯ in ⟮c+;IPv6⟯
+⟮TTL⟯ is called ⟮hop limit⟯ in ⟮IPv6⟯
 
 ####### addr
 
@@ -9919,9 +9919,9 @@ IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 ######### IPv6
 
 An IPv6 address consists of 8 quibbles.
-the ⟮c+;quibbles/hextets/hexadectets/quad-nibbles⟯ of a IPv6 address are separated by ⟮c+;colons⟯
-within an IPv6 address, ⟮c+;consecutive quibbles⟯ of ⟮c+;only zeroes⟯ may be ⟮c+;replaced with `:­:`⟯, but only ⟮c+;once in an address⟯, and not for ⟮c+;a single quibble⟯
-within an ⟮c+;IPv6 address⟯, within a ⟮c+;quibble⟯, any ⟮c+;leading⟯ ⟮c+;zeroes⟯ may be ⟮c+;removed⟯
+the ⟮quibbles/hextets/hexadectets/quad-nibbles⟯ of a IPv6 address are separated by ⟮colons⟯
+within an IPv6 address, ⟮consecutive quibbles⟯ of ⟮only zeroes⟯ may be ⟮replaced with `:­:`⟯, but only ⟮once in an address⟯, and not for ⟮a single quibble⟯
+within an ⟮IPv6 address⟯, within a ⟮quibble⟯, any ⟮leading⟯ ⟮zeroes⟯ may be ⟮removed⟯
 because of possible ambiguity of having colons within the host of URLs, when within URLs, IPv6 addresses should be enclosed in square brackets
 ```
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
@@ -9954,14 +9954,14 @@ C|110⎵2⎵|3 byte
 -|111⎵2⎵|〜4 lol〜 first unused, later multicast addressing
 
 
-⟮c+;Classful IP addresses⟯ were used until ⟮c+;the early 90s⟯ (⟮c+;1993⟯) and then replaced with ⟮c+;Classless Inter-Domain Routing⟯ (⟮c+;CIDR⟯)
+⟮Classful IP addresses⟯ were used until ⟮the early 90s⟯ (⟮1993⟯) and then replaced with ⟮Classless Inter-Domain Routing⟯ (⟮CIDR⟯)
 
 
 ######### CIDR
 
 CIDR = Classless Inter-Domain Routing
 cidr-notation ::= [<IPv4-addr>]/<int-0-32>
-⟮c+;CIDR notation⟯ indicates ⟮c+;the length⟯ of ⟮c+;the network prefix⟯ (equivalently: ⟮c+;the amount of leading 1-bits⟯ of the ⟮c+;network mask⟯) as an ⟮c+;integer⟯, normally ⟮c+;after the IP address⟯ separated by ⟮c+;a `/`⟯
+⟮CIDR notation⟯ indicates ⟮the length⟯ of ⟮the network prefix⟯ (equivalently: ⟮the amount of leading 1-bits⟯ of the ⟮network mask⟯) as an ⟮integer⟯, normally ⟮after the IP address⟯ separated by ⟮a `/`⟯
 if CIDR notation is used with no IP address, it describes networks with the relevant split between network prefix and host identifier
 /24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
 Using CIDR, to indicate a super/subnet/CIDR block, you may either use the network identifier address (e.g. 198.51.0.0/16), or only include the filled bits of the address (198.51/16)
@@ -9969,21 +9969,21 @@ Using CIDR, to indicate a super/subnet/CIDR block, you may either use the networ
 
 ########## CIDR blocks
 
-flex-container:<img src="sm_cidr_addr.svg">
+flex-container:✫sm_cidr_addr.svg✫
 
 A CIDR block is a group of IP addresses sharing the same network/routing prefix.
-⟮c+;CIDR Blocks⟯ ≈ ⟮c+;network/routing prefixes⟯ may be ⟮c+;further subdivided⟯, with ⟮c+;more and more⟯ of the IP address being looked at to ⟮c+;direct the traffic⟯
+⟮CIDR Blocks⟯ ≈ ⟮network/routing prefixes⟯ may be ⟮further subdivided⟯, with ⟮more and more⟯ of the IP address being looked at to ⟮direct the traffic⟯
 A CIDR block A which is completely contained within another CIDR block B is a subnet of B, B is a supernet of A.
 All networks are implicitly subnets of the IP address space.
-a ⟮c+;supernet(work)⟯ has a ⟮c+;shorter⟯ ⟮c+;network prefix⟯, whose ⟮c+;subnets⟯ will have a ⟮c+;longer⟯ ⟮c+;network prefix⟯ that ⟮c+;starts with⟯ the ⟮c+;supernet⟯&nbsp; ⟮c+;network prefix⟯ 
+a ⟮supernet(work)⟯ has a ⟮shorter⟯ ⟮network prefix⟯, whose ⟮subnets⟯ will have a ⟮longer⟯ ⟮network prefix⟯ that ⟮starts with⟯ the ⟮supernet⟯&nbsp; ⟮network prefix⟯ 
 Note: Not all possible CIDR block sub/supersets are actual sub/supernets!
 The process of forming a supernet is called supernetting or prefix/route aggregation/summarization
-the largest ⟮c+;CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮c+;/8⟯ (⟮c+;16 million⟯ addresses)
+the largest ⟮CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮/8⟯ (⟮16 million⟯ addresses)
 
 ######### broadcast & network identifier
 
-A ⟮c+;subnet/CIDR block⟯'s ⟮c+;broadcast⟯ address is the ⟮c+;all-ones⟯ version of the ⟮c+;host (any relevant IP address)/network (all-zeroes) identifier⟯
-A ⟮c+;subnet/CIDR block⟯'s ⟮c+;network identifier⟯ address is the ⟮c+;all-zeroes⟯ version of the ⟮c+;host identifier⟯
+A ⟮subnet/CIDR block⟯'s ⟮broadcast⟯ address is the ⟮all-ones⟯ version of the ⟮host (any relevant IP address)/network (all-zeroes) identifier⟯
+A ⟮subnet/CIDR block⟯'s ⟮network identifier⟯ address is the ⟮all-zeroes⟯ version of the ⟮host identifier⟯
 The network identifer address is often functionally treated as the broadcast address.
 The network identifier address of 173.240.0.0/16 is 173.240.0.0
 The broadcast address of 173.240.0.0/16 is 173.240.255.255.
@@ -9998,29 +9998,29 @@ Since network identifier addresses are generally aliases to broadcast addresses,
 
 ######### special IP addresses
 
-all IP adresses with the CIDR notation ⟮c+;127.0.0.0/8⟯ (⟮c+;127.0.0.1⟯ - ⟮c+;127.255.255.254⟯, excluding ⟮c+;network identifier⟯ and ⟮c+;broadcast addresses⟯) are ⟮c+;loopback⟯ addresses
+all IP adresses with the CIDR notation ⟮127.0.0.0/8⟯ (⟮127.0.0.1⟯ - ⟮127.255.255.254⟯, excluding ⟮network identifier⟯ and ⟮broadcast addresses⟯) are ⟮loopback⟯ addresses
 of the IPv4 loopback addresses, generally 127.0.0.1 is used.
 localhost = 127.0.0.1 (IPv4)
 IPv6 reserves only a single loopback address, which is ­:­:1
 
-The private IPv4 address blocks sorted from largetst to smallest are: ⟮c+;10.0.0.0⟯/⟮c+;8⟯, ⟮c+;172.16.0.0⟯/⟮c+;12⟯, ⟮c+;192.168.0.0⟯/⟮c+;16⟯
+The private IPv4 address blocks sorted from largetst to smallest are: ⟮10.0.0.0⟯/⟮8⟯, ⟮172.16.0.0⟯/⟮12⟯, ⟮192.168.0.0⟯/⟮16⟯
 (100000 = Prof X dual-wielding dual swords, 172160 = Android 17 outrunning a caravan of refugees, 192168 = Anakin skywalker outrunning a dragon)
 a private network is a computer network that uses a private address space of IP addresses, most often used for LANs
 
 ####### NAT
 
 NAT = Network Address Translation
-⟮c+;NAT⟯ ⟮c+;maps one IP address space to another⟯ by ⟮c+;modifying the info in the IP header⟯
+⟮NAT⟯ ⟮maps one IP address space to another⟯ by ⟮modifying the info in the IP header⟯
 NAT could be one-to-one or one-to-many, generally one-to-many is implied
 For one-to-many NAT, most commonly the combination of IP address and port number is sued to unabiguously identify the reciver.
 For one-to-many NAT, the client port is additionally used disambiguate the reciever (which is possible since the client port is arbitrary anyway)
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
-the form of NAT where ⟮c+;the combination of IP address and port number is used to identify the recipient⟯ may also be known as ⟮c+;NAPT⟯ (⟮c+;network address and port translation⟯) , ⟮c+;PAT⟯ (⟮c+;port address translation⟯) or ⟮c+;IP masquerading⟯ amongst others
+the form of NAT where ⟮the combination of IP address and port number is used to identify the recipient⟯ may also be known as ⟮NAPT⟯ (⟮network address and port translation⟯) , ⟮PAT⟯ (⟮port address translation⟯) or ⟮IP masquerading⟯ amongst others
 
 ####### tracing
 
 traceroute and tracepathe are *nix utilities to measure IP paths and transit durations.
-⟮c+;tracepath⟯ is a ⟮c+;non-superuser⟯ version of ⟮c+;traceroute⟯
+⟮tracepath⟯ is a ⟮non-superuser⟯ version of ⟮traceroute⟯
 tracepath/traceroute sends messages with adjusted TTL values and uses ICMP time exceeded messages to identify the routers traversed by packets from the source to the destination.
 
 ####### ICMP
@@ -10058,9 +10058,9 @@ IEEE 802.11|WLAN/WIFI
 
 ####### WLAN
 
-WLAN may run in ⟮c+;infrastructure⟯ or ⟮c+;ad-hoc mode⟯
-(WLAN) In infrastructure mode, clients connect to  ⟮c+;a central WAP (Wireless Access Point)⟯
-(WLAN) In ad-hoc network mode, clients connect ⟮c+;to each other peer to peer⟯
+WLAN may run in ⟮infrastructure⟯ or ⟮ad-hoc mode⟯
+(WLAN) In infrastructure mode, clients connect to  ⟮a central WAP (Wireless Access Point)⟯
+(WLAN) In ad-hoc network mode, clients connect ⟮to each other peer to peer⟯
 
 ####### Ethernet
 
@@ -10075,10 +10075,10 @@ For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
 #### REST
 
-⟮c+;REST⟯ is short for ⟮c+;Representational State Transfer⟯
-⟮c+;REST⟯ is a set of ⟮c+;constraints⟯/⟮c+;design principles⟯ for ⟮c+;APIs⟯
-⟮c+;REST⟯ as an idea was created in ⟮c+;2000⟯ by ⟮c+;Roy Fielding⟯ in his ⟮c+;doctoral dissertation⟯
-On a theoretical level, ⟮c+;REST⟯ consists of ⟮c+;6⟯ ⟮c+;constraints/criteria⟯.
+⟮REST⟯ is short for ⟮Representational State Transfer⟯
+⟮REST⟯ is a set of ⟮constraints⟯/⟮design principles⟯ for ⟮APIs⟯
+⟮REST⟯ as an idea was created in ⟮2000⟯ by ⟮Roy Fielding⟯ in his ⟮doctoral dissertation⟯
+On a theoretical level, ⟮REST⟯ consists of ⟮6⟯ ⟮constraints/criteria⟯.
 While REST is theoretically implementation-independent, REST APIs generally transmit their data over HTTP as JSON
 sometimes, HTTP APIs are called REST APIs even if they don't follow all constraints
 an API following REST is often called RESTful
@@ -10159,30 +10159,30 @@ Loopback is the routing of signals/streams back to their source without intentio
 ##### routing schemes/architectures
 
 Routing architecture visualization|name
-⟮c+;<img src="sm_unicast.svg">⟯|⟮c+;Unicast⟯
-⟮c+;<img src="sm_multicast.svg">⟯|⟮c+;multicast⟯
-⟮c+;<img src="sm_broadcast.svg">⟯|⟮c+;broadcast⟯
-⟮c+;<img src="sm_anycast.svg">⟯|⟮c+;anycast⟯
+⟮✫sm_unicast.svg✫⟯|⟮Unicast⟯
+⟮✫sm_multicast.svg✫⟯|⟮multicast⟯
+⟮✫sm_broadcast.svg✫⟯|⟮broadcast⟯
+⟮✫sm_anycast.svg✫⟯|⟮anycast⟯
 
 
 
 #### topologies
 
 The topology of a network is how its vertices are arranged.
-A tree network may consist of star networks connected ⟮c+;via a bus network⟯, or may be a tree just as a network.
+A tree network may consist of star networks connected ⟮via a bus network⟯, or may be a tree just as a network.
 In a bus, everyone attached recieves the transmission.
 In a bus, only one entity can send at a time.
 Sometimes, bus is used to refer any connection between two points, even if it isn't a bus (this definition is nonsense)
 A daisy chain is a topology where devices are linked in a line or ring.
 
 topology name|how it looks
-⟮c+;star⟯|⟮c+;<img src="StarNetwork.svg">⟯
-⟮c+;ring⟯|⟮c+;<img src="RingNetwork.svg">⟯
-⟮c+;fully connected mesh⟯|⟮c+;<img src="FullyConnectedMeshNetwork.svg">⟯
-⟮c+;partially connected mesh⟯|⟮c+;<img src="PartiallyConnectedMeshNetwork.svg">⟯
-⟮c+;bus⟯|⟮c+;<img src="BusNetwork.svg">⟯
-⟮c+;line⟯|⟮c+;<img src="BusNetwork.svg">⟯
-⟮c+;tree⟯|⟮c+;<img src="TreeNetwork.svg">⟯
+⟮star⟯|⟮✫StarNetwork.svg✫⟯
+⟮ring⟯|⟮✫RingNetwork.svg✫⟯
+⟮fully connected mesh⟯|⟮✫FullyConnectedMeshNetwork.svg✫⟯
+⟮partially connected mesh⟯|⟮✫PartiallyConnectedMeshNetwork.svg✫⟯
+⟮bus⟯|⟮✫BusNetwork.svg✫⟯
+⟮line⟯|⟮✫BusNetwork.svg✫⟯
+⟮tree⟯|⟮✫TreeNetwork.svg✫⟯
 
 
 ### types
@@ -10195,14 +10195,14 @@ electrical telegraph is often just shortened to telegraph.
 The electrical telegraph uses electrical pulses as a medium.
 Telegraph stations were connected by wires.
 The first telegraph was the needle telegraph, later replaced by the telegraph with key and sounder.
-flex-container:<img src="morse-vail-telegraph-key-1844-science-source.jpg">
-A ⟮c+;telegraph key⟯ was/is a electrical switch where ⟮c+;pressing it⟯ would ⟮c+;produce a signal⟯ (and ⟮c+;holding it⟯ would ⟮c+;produce a longer one⟯).
+flex-container:✫morse-vail-telegraph-key-1844-science-source.jpg✫
+A ⟮telegraph key⟯ was/is a electrical switch where ⟮pressing it⟯ would ⟮produce a signal⟯ (and ⟮holding it⟯ would ⟮produce a longer one⟯).
 The telegraph sounder would have produced clicks from the electrical impulses.
 Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
 
 #### telex
 
-flex-container:<img src="sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg"><img src="sm_220px-Fernscheiber_01.jpg"><img src="sm_s-l1600.jpg">
+flex-container:✫sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg✫✫sm_220px-Fernscheiber_01.jpg✫✫sm_s-l1600.jpg✫
 
 Telex was the network of teleprinters common in a large part of the 20th century.
 Rough synonyms (not abbreviations): Teleprinter, Teletypewriter, Telex
@@ -10213,7 +10213,7 @@ Teletypewriters + video terminals = physical/hardware terminals.
 
 #### the internet
 
-On a basic level, the internet is a system of globally interconnected ⟮c+;computer⟯ ⟮c+;networks⟯.
+On a basic level, the internet is a system of globally interconnected ⟮computer⟯ ⟮networks⟯.
 The internet runs on the internet protocol suite.
 
 An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
@@ -10230,9 +10230,9 @@ RFCs are generally published by the IETFs.
 RFCs may document internet standards, but RFCs may also be informational or experimental and non-normative. 
 BCPs are a subset of RFCs.
 
-⟮c+;W3Schools⟯ weirdly is ⟮c+;unaffiliated with the W3C⟯ 
-⟮c+;W3Schools⟯ is a website for ⟮c+;documentation/information⟯ for ⟮c+;web technologies/languages⟯ as well as ⟮c+;other languages⟯. 
-In ⟮c+;the early 2010s⟯ ⟮c+;W3Schools⟯ was known to have ⟮c+;much low-quality information and errors⟯, leading to ⟮c+;the website w3fools pointing it out⟯. However, ⟮c+;today, most of it has been fixed⟯. 
+⟮W3Schools⟯ weirdly is ⟮unaffiliated with the W3C⟯ 
+⟮W3Schools⟯ is a website for ⟮documentation/information⟯ for ⟮web technologies/languages⟯ as well as ⟮other languages⟯. 
+In ⟮the early 2010s⟯ ⟮W3Schools⟯ was known to have ⟮much low-quality information and errors⟯, leading to ⟮the website w3fools pointing it out⟯. However, ⟮today, most of it has been fixed⟯. 
 
 ##### the web
 
@@ -10254,8 +10254,8 @@ lynx, w3m|text-based browser
 
 Qutebrowser is a vim-like browser written in python.
 In qutebrowser, quickmarks are bookmarks that have a short name
-For qutebrowser, you do ⟮c+;advanced config⟯ in ⟮c+;the config.py⟯ 
-In the config.py of qutebrowser, you ⟮c+;can change most settings⟯ ⟮c+;on the `c` object⟯ 
+For qutebrowser, you do ⟮advanced config⟯ in ⟮the config.py⟯ 
+In the config.py of qutebrowser, you ⟮can change most settings⟯ ⟮on the `c` object⟯ 
 In qutebrowser, greasemonkey scripts become active merely by placing them in $XDG_CONFIG_HOME/qutebrowser/greasemonkey
 
 ###### file-sharing
@@ -10287,12 +10287,12 @@ Server push is a feature of HTTP/2, used by specifying it in the HTTP header
 
 ####### minifcation
 
-⟮c+;Minifying⟯ is ⟮c+;removing unnecessary characteristics⟯ (e.g. ⟮c+;longer names, whitespace⟯) from ⟮c+;source code⟯ to ⟮c+;reduce size⟯
-⟮c+;minified files⟯ are commmonly indicated by ⟮c+;.min(.whatever)⟯
+⟮Minifying⟯ is ⟮removing unnecessary characteristics⟯ (e.g. ⟮longer names, whitespace⟯) from ⟮source code⟯ to ⟮reduce size⟯
+⟮minified files⟯ are commmonly indicated by ⟮.min(.whatever)⟯
 
 ####### media compression
 
-Images used ⟮c+;on the web⟯ are typically ⟮c+;specifically compressed⟯ beforehand, e.g. ⟮c+;by using programs such as imageoptim⟯
+Images used ⟮on the web⟯ are typically ⟮specifically compressed⟯ beforehand, e.g. ⟮by using programs such as imageoptim⟯
 
 Image compression tools
 |GUI|CLI|API|other
@@ -10312,8 +10312,8 @@ the "render the initial route ASAP" of PRPL is basically "reduce time to first (
 
 ######## P
 
-⟮c+;&lt;link rel="preload"⟯ specifies that you ⟮c+;will need the resource very soon⟯, and that it should be downloaded ⟮c+;asyncly⟯ with ⟮c+;high priority⟯
-⟮c+;&lt;link rel="preload"⟯ needs an ⟮c+;as=⟯⟮c+;"kind(e.g. style, script, image)"⟯
+⟮c+;&lt;link rel="preload"⟯ specifies that you ⟮will need the resource very soon⟯, and that it should be downloaded ⟮asyncly⟯ with ⟮high priority⟯
+⟮c+;&lt;link rel="preload"⟯ needs an ⟮as=⟯⟮"kind(e.g. style, script, image)"⟯
 If you've specified a resource with &lt;link rel="preload", you still need to actually include it later
 
 ####### defer & async
@@ -10321,8 +10321,8 @@ If you've specified a resource with &lt;link rel="preload", you still need to ac
 defer & async are two attriubtes for <script> that influence how it is loaded.
 Ignoring speculative parsing, when the browser hits a <script> tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
 Instead of the default behavior, the `defer` and `async` attribute of scripts tells the browser to load the script in the background.
-Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮c+;when the dom is fully built⟯, in the order they were in the document
-Between  the `defer` and `async` attributes, async executes scripts loaded in the background ⟮c+;as soon as possible⟯, in the order in which they load, no matter source order.
+Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮when the dom is fully built⟯, in the order they were in the document
+Between  the `defer` and `async` attributes, async executes scripts loaded in the background ⟮as soon as possible⟯, in the order in which they load, no matter source order.
 
 ####### RAIL
 
@@ -10352,23 +10352,23 @@ Lighthouse|only lab data|Web Vitals & other data|GUI (devtools & website), CLI, 
 Lighthouse's Performance audits provides a grade consisting of (the scores of individual) metrics, but also offers opportunities and diagnostics::d... as ways to improve the metrics
 Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibility, and SEO.
 
-⟮c+;Web Vitals⟯ are the stats that ⟮c+;google⟯ measures to judge ⟮c+;the user experience of your websites⟯
-⟮c+;Core Web Vitals⟯ are the subset of ⟮c+;Web Vitals⟯ that ⟮c+;apply to all web pages (and are thus considered very important)⟯
+⟮Web Vitals⟯ are the stats that ⟮google⟯ measures to judge ⟮the user experience of your websites⟯
+⟮Core Web Vitals⟯ are the subset of ⟮Web Vitals⟯ that ⟮apply to all web pages (and are thus considered very important)⟯
 as of 2020, there are 3 core web vitals
 
 Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals & Lighthouse Metrics
 First Input Delay|Core Web Vitals 
 First Contentful Paint, Speed Index, Time to Interactive, Total Blocking Time|Lighthouse Metrics
 
-A ⟮c+;layout shift⟯ is when a ⟮c+;visible element⟯ ⟮c+;shifts position⟯ between ⟮c+;render frames⟯ (in bad cases causing users to e.g. ⟮c+;click the wrong button⟯)
-⟮c+;Cumulative Layout Shift (CLS)⟯ is how google measures the ⟮c+;badness⟯ of the ⟮c+;layout shifts⟯ you've going on
-The ⟮c+;largest contentful paint⟯ is when the ⟮c+;largest media/text block⟯ (which elements are exactly considered is more complicated) loaded, relative to ⟮c+;when the page first started loading⟯
+A ⟮layout shift⟯ is when a ⟮visible element⟯ ⟮shifts position⟯ between ⟮render frames⟯ (in bad cases causing users to e.g. ⟮click the wrong button⟯)
+⟮Cumulative Layout Shift (CLS)⟯ is how google measures the ⟮badness⟯ of the ⟮layout shifts⟯ you've going on
+The ⟮largest contentful paint⟯ is when the ⟮largest media/text block⟯ (which elements are exactly considered is more complicated) loaded, relative to ⟮when the page first started loading⟯
 
 
-a ⟮c+;long task⟯ is when ⟮c+;the main JS thread⟯ is ⟮c+;blocked⟯ for more than ⟮c+;50ms⟯
-⟮c+;Total Blocking Time⟯ as a Lighthouse metric measures ⟮c+;cumulative length⟯ of ⟮c+;long tasks⟯ between ⟮c+;First Contentful Paint⟯ and ⟮c+;Time To Interactive⟯
-the ⟮c+;Lighthouse Speed Index⟯ is how quickly ⟮c+;the viewport is visually populated with content⟯
-⟮c+;Time to Interactive⟯ as a ⟮c+;lighthouse⟯ metric is the time it takes for a page to ⟮c+;become fully interactive⟯
+a ⟮long task⟯ is when ⟮the main JS thread⟯ is ⟮blocked⟯ for more than ⟮50ms⟯
+⟮Total Blocking Time⟯ as a Lighthouse metric measures ⟮cumulative length⟯ of ⟮long tasks⟯ between ⟮First Contentful Paint⟯ and ⟮Time To Interactive⟯
+the ⟮Lighthouse Speed Index⟯ is how quickly ⟮the viewport is visually populated with content⟯
+⟮Time to Interactive⟯ as a ⟮lighthouse⟯ metric is the time it takes for a page to ⟮become fully interactive⟯
 
 CLS  Cumulative Layout Shift 
 FCP  First Contentful Paint
@@ -10395,18 +10395,18 @@ a rich/fat/heavy/thick client is a client that contrasts with a thin client in t
 
 #### google
 
-WIthin google search, ⟮c+;tbm⟯ is the key of the query parameter that ⟮c+;specifies the type of search (Image, News, Shopping etc.⟯) 
-For example, ⟮c+;Specifying the search mode in google search as images⟯ is done by ⟮c+;`tbm=ish`⟯ 
-Force google to ⟮c+;only finde pages from a certain domain⟯ is done by ⟮c+;site:foo.com⟯ 
+WIthin google search, ⟮tbm⟯ is the key of the query parameter that ⟮specifies the type of search (Image, News, Shopping etc.⟯) 
+For example, ⟮Specifying the search mode in google search as images⟯ is done by ⟮`tbm=ish`⟯ 
+Force google to ⟮only finde pages from a certain domain⟯ is done by ⟮site:foo.com⟯ 
 
 ### fora
 
 #### text & imageboards
 
-A ⟮c+;textboard⟯ is a ⟮c+;simple⟯ kind of Internet ⟮c+;forum⟯; most require neither ⟮c+;registration⟯ nor ⟮c+;entry of a screen name⟯. 
-An ⟮c+;imageboard⟯ is like a ⟮c+;textboard⟯, just with ⟮c+;images⟯. 
-⟮c+;Textboards⟯ as well as ⟮c+;imageboards⟯ were invented in ⟮c+;Japan⟯. 
-⟮c+;Textboards⟯ such as ⟮c+;2channel⟯ are generally popular in ⟮c+;Japan only⟯, while ⟮c+;imageboards⟯ (e.g. in the form of ⟮c+;4chan⟯) are popular in ⟮c+;english-speaking countries too⟯ 
+A ⟮textboard⟯ is a ⟮simple⟯ kind of Internet ⟮forum⟯; most require neither ⟮registration⟯ nor ⟮entry of a screen name⟯. 
+An ⟮imageboard⟯ is like a ⟮textboard⟯, just with ⟮images⟯. 
+⟮Textboards⟯ as well as ⟮imageboards⟯ were invented in ⟮Japan⟯. 
+⟮Textboards⟯ such as ⟮2channel⟯ are generally popular in ⟮Japan only⟯, while ⟮imageboards⟯ (e.g. in the form of ⟮4chan⟯) are popular in ⟮english-speaking countries too⟯ 
 
 ## in programming
 
@@ -10421,7 +10421,7 @@ IPC is just message passing between two processes.
 
 # applications
 
-⟮c+;Photoscape X⟯ is notable for being a ⟮c+;GUI⟯ program that has ⟮c+;batch editing of photos⟯
+⟮Photoscape X⟯ is notable for being a ⟮GUI⟯ program that has ⟮batch editing of photos⟯
 
 
 #### various programs
@@ -10535,27 +10535,27 @@ the locale command shows the currently specfied locales.
 
 #### BCP47
 
-A ⟮c+;IETF language tag⟯ indicates exactly ⟮c+;in which language a thing is⟯. 
-Currently, the standard for ⟮c+;IETF language tags⟯ on the internet is ⟮c+;BCP47⟯. 
-BCP 47: ⟮c+;‹primary-language›⟯⟮c+;[-‹extended-language›]⟯⟮c+;[-‹script›]⟯⟮c+;[-‹region›]⟯⟮c+;[-‹variant›]⟯⟮c+;[-‹extension›]⟯⟮c+;[-‹privateuse›]⟯ 
-BCP 47 language tags should be kept ⟮c+;as short as possible⟯. 
+A ⟮IETF language tag⟯ indicates exactly ⟮in which language a thing is⟯. 
+Currently, the standard for ⟮IETF language tags⟯ on the internet is ⟮BCP47⟯. 
+BCP 47: ⟮‹primary-language›⟯⟮[-‹extended-language›]⟯⟮[-‹script›]⟯⟮[-‹region›]⟯⟮[-‹variant›]⟯⟮[-‹extension›]⟯⟮[-‹privateuse›]⟯ 
+BCP 47 language tags should be kept ⟮as short as possible⟯. 
 
 ##### subtags
 
 ###### primary language
 
-The ⟮c+;primary language⟯ subtag of ⟮c+;BCP 47⟯ is specified as ⟮c+;a language code⟯. 
-A ⟮c+;language code⟯ consists of ⟮c+;2 or 3 letters⟯. 
-⟮c+;Language codes⟯ are standartized in ⟮c+;ISO 639.⟯ 
-⟮c+;3-letter language codes⟯ are standartized ⟮c+;in ISO 639-2 and -3⟯. 
-⟮c+;2-letter language codes⟯ are standartized ⟮c+;in ISO 639-1⟯. 
+The ⟮primary language⟯ subtag of ⟮BCP 47⟯ is specified as ⟮a language code⟯. 
+A ⟮language code⟯ consists of ⟮2 or 3 letters⟯. 
+⟮Language codes⟯ are standartized in ⟮ISO 639.⟯ 
+⟮3-letter language codes⟯ are standartized ⟮in ISO 639-2 and -3⟯. 
+⟮2-letter language codes⟯ are standartized ⟮in ISO 639-1⟯. 
 
 ###### other
 
-⟮c+;extlang (extended language⟯) subtags are for ⟮c+;sublanguages of a given language (e.g. hakka chinese, the variants of arabic⟯) 
-⟮c+;script⟯ subtags&nbsp;are for ⟮c+;writing systems⟯, and always ⟮c+;4 characters long⟯ 
-⟮c+;region⟯ subtags are for ⟮c+;locations (countries, other geo regions⟯) 
-⟮c+;variant⟯ subtags&nbsp;are for ⟮c+;dialects or other variations (however, use other tags if possible⟯) 
+⟮extlang (extended language⟯) subtags are for ⟮sublanguages of a given language (e.g. hakka chinese, the variants of arabic⟯) 
+⟮script⟯ subtags&nbsp;are for ⟮writing systems⟯, and always ⟮4 characters long⟯ 
+⟮region⟯ subtags are for ⟮locations (countries, other geo regions⟯) 
+⟮variant⟯ subtags&nbsp;are for ⟮dialects or other variations (however, use other tags if possible⟯) 
 
 ###### extension
 
@@ -10573,23 +10573,23 @@ bcp-private-use = x 1*( "-" 1*8(ALPHA/DIGIT) )
 ##### examples
 
 BCP 47 language tag|meaning
-⟮c+;en⟯|⟮c+;english (no further info⟯)
-⟮c+;zh-hak⟯|⟮c+;hakka chinese⟯
-⟮c+;zh-Hans⟯|⟮c+;Chinese written in hanzi (simplified⟯)
-⟮c+;en-GB⟯|⟮c+;english as spoken in great britain⟯
-⟮c+;az-Latn⟯|⟮c+;azerbaijani, written in latin script⟯
-⟮c+;ast⟯|⟮c+;asturian (no further info⟯)
+⟮en⟯|⟮english (no further info⟯)
+⟮zh-hak⟯|⟮hakka chinese⟯
+⟮zh-Hans⟯|⟮Chinese written in hanzi (simplified⟯)
+⟮en-GB⟯|⟮english as spoken in great britain⟯
+⟮az-Latn⟯|⟮azerbaijani, written in latin script⟯
+⟮ast⟯|⟮asturian (no further info⟯)
 
 
 tag|problem
-⟮c+;it-IT⟯|⟮c+;unneccesary specification of IT (italian as spoken where else?⟯)
-⟮c+;es-Latn⟯|⟮c+;Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)
+⟮it-IT⟯|⟮unneccesary specification of IT (italian as spoken where else?⟯)
+⟮es-Latn⟯|⟮Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)
 
 #### in HTML
 
-In HTML, the ⟮c+;language of the document⟯ should be indicated with ⟮c+;a lang attribute⟯ ⟮c+;on ‹html›⟯o 
-In HTML, ⟮c+;anything that is not in the language indicated on ‹html›⟯ should be ⟮c+;indicated by an element with a lang attribute.⟯ 
-In HTML, the ⟮c+;lang attribute⟯ takes ⟮c+;BCP 47 language tags⟯. 
+In HTML, the ⟮language of the document⟯ should be indicated with ⟮a lang attribute⟯ ⟮on ‹html›⟯o 
+In HTML, ⟮anything that is not in the language indicated on ‹html›⟯ should be ⟮indicated by an element with a lang attribute.⟯ 
+In HTML, the ⟮lang attribute⟯ takes ⟮BCP 47 language tags⟯. 
 
 
 ### media
@@ -10688,19 +10688,19 @@ XXX|no currency
 
 ### emoji shortcodes
 
-The ⟮c+;common syntax for emoji⟯ is sometimes called '⟮c+;emoji shortcodes⟯'
-⟮c+;emoji shortcodes⟯ are delimited by ⟮c+;colons⟯, and have names in ⟮c+;lowercase⟯ connected by ⟮c+;underscores⟯.
-The ⟮c+;emoji shortcode⟯ for ⟮c+;💙⟯ might be ⟮c+;:blue_heart:⟯
-The ⟮c+;emoji shorcodes⟯ don't have ⟮c+;a spec⟯, but you ⟮c+;can use them in many places⟯, including sites such as ⟮c+;Discord, GithHub, and Slack and a whole lot more⟯
-In ⟮c+;some places⟯ (e.g. ⟮c+;discord⟯), you can ⟮c+;prefix⟯ ⟮c+;emoji shortcodes⟯ with ⟮c+;+⟯ to ⟮c+;add a reaction⟯.
-I can ⟮c+;type emoji using emoji shortcodes⟯ but ⟮c+;using spaces instead of underscores⟯ anywhere using ⟮c+;espanso⟯. 
+The ⟮common syntax for emoji⟯ is sometimes called '⟮emoji shortcodes⟯'
+⟮emoji shortcodes⟯ are delimited by ⟮colons⟯, and have names in ⟮lowercase⟯ connected by ⟮underscores⟯.
+The ⟮emoji shortcode⟯ for ⟮💙⟯ might be ⟮:blue_heart:⟯
+The ⟮emoji shorcodes⟯ don't have ⟮a spec⟯, but you ⟮can use them in many places⟯, including sites such as ⟮Discord, GithHub, and Slack and a whole lot more⟯
+In ⟮some places⟯ (e.g. ⟮discord⟯), you can ⟮prefix⟯ ⟮emoji shortcodes⟯ with ⟮+⟯ to ⟮add a reaction⟯.
+I can ⟮type emoji using emoji shortcodes⟯ but ⟮using spaces instead of underscores⟯ anywhere using ⟮espanso⟯. 
 
 ### dice notation
 
-⟮c+;Dice notation⟯: `⟮c+;‹amount›⟯⟮c+;d⟯⟮c+;‹sides›⟯⟮c+;+⟯⟮c+;‹add-to-end-result›⟯` 
-In ⟮c+;dice notation⟯, you can leave out ⟮c+;the amount of dice to roll⟯, if ⟮c+;its one⟯. 
-⟮c+;4d10+3⟯ is an example of ⟮c+;Dice notation⟯, it means ⟮c+;roll 4 10-sided dice and add 3 to the overall result⟯ 
-the shell command ⟮c+;`roll`⟯ ⟮c+;rolls dice⟯, specified in ⟮c+;dice notation⟯ 
+⟮Dice notation⟯: `⟮‹amount›⟯⟮d⟯⟮‹sides›⟯⟮+⟯⟮‹add-to-end-result›⟯` 
+In ⟮dice notation⟯, you can leave out ⟮the amount of dice to roll⟯, if ⟮its one⟯. 
+⟮4d10+3⟯ is an example of ⟮Dice notation⟯, it means ⟮roll 4 10-sided dice and add 3 to the overall result⟯ 
+the shell command ⟮`roll`⟯ ⟮rolls dice⟯, specified in ⟮dice notation⟯ 
 
 ## databases
 
@@ -10752,17 +10752,17 @@ e.g. print("foo" + \
 
 ### Blocks
 
-In ⟮c+;most programming languages⟯, a ⟮c+;block⟯ is a ⟮c+;statement⟯.  
-However, in ⟮c+;Rust⟯ (and in ruby to, though its weird, as blocks have the same syntax/are merely anon functions w/o arguments), ⟮c+;blocks⟯ are ⟮c+;expressions⟯. 
+In ⟮most programming languages⟯, a ⟮block⟯ is a ⟮statement⟯.  
+However, in ⟮Rust⟯ (and in ruby to, though its weird, as blocks have the same syntax/are merely anon functions w/o arguments), ⟮blocks⟯ are ⟮expressions⟯. 
 
-⟮c+;Blocks⟯ ⟮c+;contain/consist of⟯ ⟮c+;one or more⟯ ⟮c+;statements⟯. 
-⟮c+;In/with⟯ ⟮c+;constructs⟯ or ⟮c+;languages⟯ that are ⟮c+;block-scoped⟯, ⟮c+;a block defines a scope⟯. 
-⟮c+;Curly-brace/bracket languages⟯&nbsp;are defined as languages that ⟮c+;use curly-braces⟯ ⟮c+;to define blocks⟯. 
+⟮Blocks⟯ ⟮contain/consist of⟯ ⟮one or more⟯ ⟮statements⟯. 
+⟮In/with⟯ ⟮constructs⟯ or ⟮languages⟯ that are ⟮block-scoped⟯, ⟮a block defines a scope⟯. 
+⟮Curly-brace/bracket languages⟯&nbsp;are defined as languages that ⟮use curly-braces⟯ ⟮to define blocks⟯. 
 Many programming languages have been influenced by C, sometimes called C-family languages.
 C was a curly-brace language, and so many C-family language are curly-brace languages.
 
-Examples of ⟮c+;curly-brace/bracket languages⟯ I can write are ⟮c+;C#⟯, ⟮c+;ECMAScript⟯ -&gt; {⟮c+;Javascript⟯, ⟮c+;TypeScript⟯}, ⟮c+;Java⟯, ⟮c+;Perl⟯, ⟮c+;Rust⟯, SCSS (but not Sass). 
-Most ⟮c+;curly-brace/bracket languages⟯ ⟮c+;are thus because they are strongly influenced by⟯ ⟮c+;C⟯. 
+Examples of ⟮curly-brace/bracket languages⟯ I can write are ⟮C#⟯, ⟮ECMAScript⟯ -&gt; {⟮Javascript⟯, ⟮TypeScript⟯}, ⟮Java⟯, ⟮Perl⟯, ⟮Rust⟯, SCSS (but not Sass). 
+Most ⟮curly-brace/bracket languages⟯ ⟮are thus because they are strongly influenced by⟯ ⟮C⟯. 
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
 In lua, blocks end with `end` (outside of repeat...until). They are begun by `do` when standing alone, or when after a loop, by `then` after an if condition, and by nothing after a function signature
 In bash, blocks for if are delimited by then ... (possible else etc.) fi, for for and while by do ... done, for case by in ... esac
@@ -10827,9 +10827,9 @@ elif|Python|(ba)sh
 Anki has a if-like conditional to show something only if a field has content, indicated like: 
 ```
 lang=text;
-⟮c+;{​{⟯⟮c+;#FieldName⟯⟮c+;}​⟯}
+⟮{​{⟯⟮#FieldName⟯⟮}​⟯}
 	Lorem Ipsum
-⟮c+;{​{⟯⟮c+;/FieldName⟯⟮c+;}​⟯}
+⟮{​{⟯⟮/FieldName⟯⟮}​⟯}
 ```
 
 ##### conditional operator
@@ -10874,9 +10874,9 @@ JS Syntax examples:
 
 ```
 switch (expression) {
-  ⟮c+;case⟯ ⟮c2;⟯value1⟮c2;⟯⟮c+;:⟯
+  ⟮case⟯ ⟮c2;⟯value1⟮c2;⟯⟮:⟯
    //Statements;
-   ⟮c+;default:⟯
+   ⟮default:⟯
 }
 ```
 
@@ -11045,12 +11045,12 @@ Local scope is often either block or function scope.
 
 In some languages, things that live within global scope are properties of an object called a global object.
 In JS in browsers, generally, the global object is Window.
-within ⟮c+;workers⟯, the ⟮c+;global scope⟯ is `⟮c+;WorkerGlobalScope⟯`
-within ⟮c+;service workers⟯, the ⟮c+;global scope⟯ is `⟮c+;ServiceWorkerGlobalScope⟯`
-The mixin `⟮c+;WindowOrWorkerGlobalScope⟯` describes ⟮c+;the common features⟯ of `⟮c+;Window⟯` and `⟮c+;WorkerGlobalScope⟯`
+within ⟮workers⟯, the ⟮global scope⟯ is `⟮WorkerGlobalScope⟯`
+within ⟮service workers⟯, the ⟮global scope⟯ is `⟮ServiceWorkerGlobalScope⟯`
+The mixin `⟮WindowOrWorkerGlobalScope⟯` describes ⟮the common features⟯ of `⟮Window⟯` and `⟮WorkerGlobalScope⟯`
 The `self` property of a WorkerGlobalScope returns a reference to the WorkerGlobalScope itself.
 
-Without ⟮c+;crates/unsafe code/etc.⟯, ⟮c+;globals⟯ in Rust can only be ⟮c+;constants⟯.
+Without ⟮crates/unsafe code/etc.⟯, ⟮globals⟯ in Rust can only be ⟮constants⟯.
 
 ##### Variable scope
 
@@ -11448,14 +11448,14 @@ Casting will go wrong if the vlaue cannot be treated as teh casted type.
 (type) value|C#|Java
 
 Type assertions in TS are the equivalent of type casting in other languages.
-In TS, if ⟮c+;you know something about a type that TS doesn't⟯, you can use ⟮c+;type assertions⟯
-TS type assertion syntax: prepending ⟮c+;‹some_type›⟯ or appending ⟮c+;as some_type⟯
+In TS, if ⟮you know something about a type that TS doesn't⟯, you can use ⟮type assertions⟯
+TS type assertion syntax: prepending ⟮‹some_type›⟯ or appending ⟮as some_type⟯
 
 
 #### Firstclassness
 
-An entity is said to be first-class in programming if you can ⟮c+;Do most other things you can do with objects/values⟯
-typical features of entities that are first-class in a certain language are e.g. ⟮c+;Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.⟯
+An entity is said to be first-class in programming if you can ⟮Do most other things you can do with objects/values⟯
+typical features of entities that are first-class in a certain language are e.g. ⟮Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.⟯
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
@@ -11514,7 +11514,7 @@ In type theory, a union type is a sum type.
 
 ##### use
 
-with ⟮c+;union⟯ types, you can only use things that ⟮c+;all of the relevent types can do⟯, unless you ⟮c+;narrow them down⟯
+with ⟮union⟯ types, you can only use things that ⟮all of the relevent types can do⟯, unless you ⟮narrow them down⟯
 
 ##### in various languages
 
@@ -11715,7 +11715,7 @@ in TS, interfaces can be `extend`ed with other interfaces.
 
 (TS) An index signature specifies that for all keys of a specific type (in theory, but in fact I think they can only be string or int in ts anyway), the value will be of the specified type
 Syntax of an index signature: [foo: sometype]: sometype2
-The ⟮c+;name⟯ of an index signature ⟮c+;does not matter⟯.
+The ⟮name⟯ of an index signature ⟮does not matter⟯.
 ^source: https://basarat.gitbook.io/typescript/type-system/index-signatures
 
 Partial<T>|Returns T where all keys have been set to optional
@@ -11840,7 +11840,7 @@ unsigned integer|u|u32, u64, usize,...
 floating-point|f|f32, f64
 size as part of the type annotation (usize, isize) indicates the system word size 
 
-⟮c+;ES2020⟯ introduces the ⟮c+;BigInt⟯ datatype for numbers ⟮c+;larger than the previous maximum size⟯
+⟮ES2020⟯ introduces the ⟮BigInt⟯ datatype for numbers ⟮larger than the previous maximum size⟯
 BigInt literal is indicated by ends in n
 
 #### Integers
@@ -11937,7 +11937,7 @@ Sequential access only allows access in a certain sort of order.
 
 ###### examples
 
-flex-container:<img src="sm_rand_seq_acc.svg">
+flex-container:✫sm_rand_seq_acc.svg✫
 book|random access (to pages)
 scroll|sequential access
 
@@ -12208,7 +12208,7 @@ someset.pop()|a random element
 someassocarray.pop(somekey)|the relevant value
 somearr.pop(index)
 
-somearray.splice(⟮c+;start⟯, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
+somearray.splice(⟮start⟯, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
 
 ###### Rust
 
@@ -12361,30 +12361,30 @@ C#: List, defined over one generic. must be created via constructor. Add to end 
 
 ###### linked list
 
-flex-container:<img src="sm_408px-Singly-linked-list.svg.png">
+flex-container:✫sm_408px-Singly-linked-list.svg.png✫
 A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
 To access a linked list, we merely need a reference to the first element.
 A linked list in which the only node/vertex is a reference to the next element is a singly-linked list
 
-flex-container:<img src="sm_doubly_linked_list.svg">
+flex-container:✫sm_doubly_linked_list.svg✫
 A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
 ####### cons
 
 cons is short for construct function, and comes from lisp. 
-To ⟮c+;cons something onto something⟯ is to take a ⟮c+;container⟯, add ⟮c+;an element in front of it⟯, and ⟮c+;put this in another container⟯.
+To ⟮cons something onto something⟯ is to take a ⟮container⟯, add ⟮an element in front of it⟯, and ⟮put this in another container⟯.
 A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
 A cons list is a singly linked list constructed via nested ordered pairs.
 
 ####### blockchain
 
-flex-container:<img src="blockchain.svg">
+flex-container:✫blockchain.svg✫
 
 
-A ⟮c+;blockchain⟯ is a growing ⟮c+;(linked) list⟯ of records called ⟮c+;blocks⟯.
-In a blockchain, each block contains ⟮c+;a hash⟯ of ⟮c+;the previous block⟯, a ⟮c+;timestamp⟯, a ⟮c+;nonce⟯, and ⟮c+;transaction data⟯ represented as ⟮c+;a merkle tree⟯.
-Since ⟮c+;blocks contain hashes of previous blocks⟯, ⟮c+;changing a block⟯ would ⟮c+;also require changing subsequent blocks.⟯
+A ⟮blockchain⟯ is a growing ⟮(linked) list⟯ of records called ⟮blocks⟯.
+In a blockchain, each block contains ⟮a hash⟯ of ⟮the previous block⟯, a ⟮timestamp⟯, a ⟮nonce⟯, and ⟮transaction data⟯ represented as ⟮a merkle tree⟯.
+Since ⟮blocks contain hashes of previous blocks⟯, ⟮changing a block⟯ would ⟮also require changing subsequent blocks.⟯
 
 ###### vs arrays
 
@@ -12399,14 +12399,14 @@ Streams are an abstract data type (specifically a linear collection), in which e
 ##### Stack
 
 The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
-In a stack, the element you remove will be ⟮c+;the one you added most recently⟯
+In a stack, the element you remove will be ⟮the one you added most recently⟯
 LIFO = last in first out
 A stack is a linear collection ADT with LIFO order, and the operations:
 push: add to the top of the stack
 pop: remove from top of the stack
 peek: loop at top of stack
 
-flex-container:<img src="sm_Data_stack.svg">
+flex-container:✫sm_Data_stack.svg✫
 
 ##### Queue
 
@@ -12416,7 +12416,7 @@ enqueue: add to the end of the queue
 dequeue: remove from the front of the queue
 peek: look a the next element that would be dequeued
 
-flex-container:<img src="sm_450px-Data_Queue.svg.png">
+flex-container:✫sm_450px-Data_Queue.svg.png✫
 
 ### intersection of iterators, strings, linear collections
 
@@ -12538,7 +12538,7 @@ yield another generator (JS) yield*
 
 #### iterator methods
 
-someIter.⟮c+;zip⟯() takes ⟮c+;two iterators⟯ and returns ⟮c+;a new iterator⟯ which will for each call to ⟮c+;next()⟯ return a ⟮c+;tuple⟯ with the values ⟮c+;the other two would have returned⟯ with ⟮c+;next()⟯
+someIter.⟮zip⟯() takes ⟮two iterators⟯ and returns ⟮a new iterator⟯ which will for each call to ⟮next()⟯ return a ⟮tuple⟯ with the values ⟮the other two would have returned⟯ with ⟮next()⟯
 In rust, methods (most of them higher-order functions) called on iterators are known  as adapters or consumers, depending on what they do.
 Iterator adapters take an iterator and return another iterator
 Iterator consumers take an iterator and return something else (thus consuming the iterator)
@@ -12755,8 +12755,8 @@ parse sting to other type
 <string-object>.parse()|Rust (Returns a `Result`, often requires turbofish annotation.)
 
 SCSS/Sass
-⟮c+;unquote(foo) or string.unquote(foo⟯)|⟮c+;unquote a string (so that css gets the value as the correct type, eg. when using maps⟯)
-⟮c+;quote(foo) or string.quote(foo⟯)|⟮c+;return string, but quoted⟯
+⟮unquote(foo) or string.unquote(foo⟯)|⟮unquote a string (so that css gets the value as the correct type, eg. when using maps⟯)
+⟮quote(foo) or string.quote(foo⟯)|⟮return string, but quoted⟯
 
 
 
@@ -12806,10 +12806,10 @@ callable unit overloading and operator overloading are forms of static dispatch,
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
 When overloading, each signature generally has its own implementation, exept in TS.
-In TS, function '⟮c+;overloading⟯' exists, but you specify ⟮c+;all possible signatures⟯ ⟮c+;first⟯, and then the ⟮c+;implementation⟯ with a ⟮c+;signature⟯ that is ⟮c+;compatible with all the specified signature⟯ (e.g. using ⟮c+;optional parameters⟯), and not compatible with ⟮c+;non-specified signatures⟯
-For TS ⟮c+;overloaded⟯ functions, ⟮c+;all but the last⟯ signature(s), which ⟮c+;do(es)n't have any body⟯, is/are called ⟮c+;overload signatures⟯
-For TS ⟮c+;overloaded⟯ functions, ⟮c+;the last⟯ signature(s), which ⟮c+;has the body and thus the implementation⟯, is/are called ⟮c+;the implementation signature⟯
-In TS, in general: prefer ⟮c+;union types⟯ over ⟮c+;overloads⟯
+In TS, function '⟮overloading⟯' exists, but you specify ⟮all possible signatures⟯ ⟮first⟯, and then the ⟮implementation⟯ with a ⟮signature⟯ that is ⟮compatible with all the specified signature⟯ (e.g. using ⟮optional parameters⟯), and not compatible with ⟮non-specified signatures⟯
+For TS ⟮overloaded⟯ functions, ⟮all but the last⟯ signature(s), which ⟮do(es)n't have any body⟯, is/are called ⟮overload signatures⟯
+For TS ⟮overloaded⟯ functions, ⟮the last⟯ signature(s), which ⟮has the body and thus the implementation⟯, is/are called ⟮the implementation signature⟯
+In TS, in general: prefer ⟮union types⟯ over ⟮overloads⟯
 In TS, things that can be overloaded anything that is callable: functions, callable objects, methods (whether in object types, interfaces or classes), constructors/newables.
 
 Operator overloading is where different operators have different implementations based on their operands.
@@ -13016,7 +13016,7 @@ Double not can generally be used to get the truthiness/falsiness of a thing, eve
 #### short-circuiting
 
 Short circuiting is more properly short-circuit evaluation.
-Short-circuit evaluation  an expression stopping evaluating⟮c+;as soon as it's outcome is determined⟯
+Short-circuit evaluation  an expression stopping evaluating⟮as soon as it's outcome is determined⟯
 Short-circuit evaluation is most commonly found in the boolean operators of most programming languages
 with short-circuiting of binary operators, the second argument is executed or evaluated only if the first argument does not suffice to determine the value of the expression.
 specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
@@ -13025,7 +13025,7 @@ Can be used to ensure a variable never gets assigned a falsy value by using logi
 It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
 (ba)sh
 
-⟮c+;??⟯ is like ⟮c+;||⟯ but ⟮c+;only returns its right-hand value on nullish values⟯
+⟮??⟯ is like ⟮||⟯ but ⟮only returns its right-hand value on nullish values⟯
 
 ### bitwise
 
@@ -13151,7 +13151,7 @@ It can make sense to catch recoverable errors, but it is generally impossible to
 
 ### types
 
-Errors can on one level be divided into ⟮c+;syntax⟯, ⟮c+;static semantic,⟯ and ⟮c+;logic errors⟯.
+Errors can on one level be divided into ⟮syntax⟯, ⟮static semantic,⟯ and ⟮logic errors⟯.
 
 A syntax error is an expression which violates the syntax of the language (will be detected during syntax analysis)
 forgetting a parenthesis
@@ -13191,8 +13191,8 @@ Assertions are predicates that deliberatly crash the program if the predicate is
 Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
 Assertions are typically only used during development.
 Rust implements assertions via macros.
-rusts ⟮c+;assert_eq!⟯ macro tests wheter ⟮c+;two expressions are equal⟯ (using the trait ⟮c+;PartialEq⟯), and ⟮c+;panics if they are not⟯
-rusts ⟮c+;assert!⟯ macro tests whether ⟮c+;something is true⟯, and ⟮c+;panics if it is not⟯
+rusts ⟮assert_eq!⟯ macro tests wheter ⟮two expressions are equal⟯ (using the trait ⟮PartialEq⟯), and ⟮panics if they are not⟯
+rusts ⟮assert!⟯ macro tests whether ⟮something is true⟯, and ⟮panics if it is not⟯
 
 ## Callable units
 
@@ -13231,7 +13231,7 @@ return type is indicated:
 ### returning
 
 Across most languages, the keyword to return whatever value is the `return` keyword.
-The datatype of the thing that is returned from a callable unit is known  ⟮c+;The return type⟯
+The datatype of the thing that is returned from a callable unit is known  ⟮The return type⟯
 In non-manifestly typed languages, the default return value of a function is the null type
 In general, using the return keyword without a value returns the languages null type.
 Multiple values: separated by comma|lua
@@ -13248,7 +13248,7 @@ A pure function is idempotent and has no side effects.
 
 ### Closures
 
-A ⟮c+;closure⟯ is the combination of ⟮c+;a callable unit⟯ and ⟮c+;the lexical environment⟯ (= ⟮c+;any variables that were in scope⟯) within which that function was declared.
+A ⟮closure⟯ is the combination of ⟮a callable unit⟯ and ⟮the lexical environment⟯ (= ⟮any variables that were in scope⟯) within which that function was declared.
 Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 
@@ -13435,9 +13435,9 @@ find_index()|Ruby
 #### arguments vs parameters
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
-for a callable unit,  ⟮c+;parameters⟯ are the values you specify the function will be passed, most commonly in its signature.
+for a callable unit,  ⟮parameters⟯ are the values you specify the function will be passed, most commonly in its signature.
 for a calllable unit, arguments are the values/variables you actually pass.
-When passing things, using a car metaphor, you can think of the ⟮c+;parameter⟯ as a ⟮c+;parking space⟯ and the ⟮c+;argument⟯ as an ⟮c+;automobile⟯
+When passing things, using a car metaphor, you can think of the ⟮parameter⟯ as a ⟮parking space⟯ and the ⟮argument⟯ as an ⟮automobile⟯
 function foo(a, b){...
 foo(12, "whistles") 
 a, b are parameters, 12, "whistles" are arguments
@@ -13601,8 +13601,8 @@ In JS, a promise is an object
 You react to promises by calling the then() method on them.
 In JS, something you can call then() on is called a thenable.
 in JS, most interfaces for promises work on any thenables.
-A promise can have the states ⟮c+;pending⟯, ⟮c+;fulfilled⟯, or ⟮c+;rejected⟯.
-A promise is called ⟮c+;settled⟯ if it is either ⟮c+;fulfilled⟯, or ⟮c+;rejected⟯.
+A promise can have the states ⟮pending⟯, ⟮fulfilled⟯, or ⟮rejected⟯.
+A promise is called ⟮settled⟯ if it is either ⟮fulfilled⟯, or ⟮rejected⟯.
 Ergo a promise is either settled or pending.
 We may return a rejected promise manually, additonally, if an error occurs in our async function, it will reject automatically.
 Once a promise has settled, the attached thens will run as soon as possible / awaits will resolve.
@@ -13641,9 +13641,9 @@ As with the Promise.resolve and .reject, you pass the rejectionFunc the reason f
 JS has a few methods for acting on multiple promises at once:
 Promise.race() takes n promises and runs the attached callback ⁑once⁑ the first promise resolves.
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
-⟮c+;Promise.allSettled()⟯ is like ⟮c+;Promise.all()⟯, but the ⟮c+;former⟯ will ⟮c+;continue even if one rejects⟯, the ⟮c+;latter⟯ will ⟮c+;not⟯
+⟮Promise.allSettled()⟯ is like ⟮Promise.all()⟯, but the ⟮former⟯ will ⟮continue even if one rejects⟯, the ⟮latter⟯ will ⟮not⟯
 
-Pretty much all operations of the fs module in node have an ⟮c+;async⟯ and a ⟮c+;synchronous⟯ method, where if the ⟮c+;async⟯ method is called <code>⟮c+;foo⟯</code> the ⟮c+;synchronous⟯ method is called <code>⟮c+;fooSync⟯</code>
+Pretty much all operations of the fs module in node have an ⟮async⟯ and a ⟮synchronous⟯ method, where if the ⟮async⟯ method is called <code>⟮foo⟯</code> the ⟮synchronous⟯ method is called <code>⟮fooSync⟯</code>
 In node, asynchrony is by default implemented via callbacks.
 In node, any asynchronous operation that could fail takes a error callback.
 In node, any asynchronous operation that could return something useful takes a success callback.
@@ -13789,7 +13789,7 @@ generally, properties added 'normally' are also enumerable
 <object>.propertyIsEnumerable(<name>)
 properties that are not inherited (that is, they are there not because of the prototype chain, they of course then be inherited by other things) are called own properties
 <object>.hasOwnProperty(<name>) 
-The ⟮c+;Object⟯.⟮c+;assign⟯⟮c+;(foo, bar)⟯ method ⟮c+;copies⟯ all ⟮c+;enumerable⟯ ⟮c+;own⟯ ⟮c+;properties⟯ from ⟮c+;one or more source objects⟯ to ⟮c+;a target object.⟯ 
+The ⟮Object⟯.⟮assign⟯⟮(foo, bar)⟯ method ⟮copies⟯ all ⟮enumerable⟯ ⟮own⟯ ⟮properties⟯ from ⟮one or more source objects⟯ to ⟮a target object.⟯ 
 
 ### Classes & objects 
 
@@ -13809,9 +13809,9 @@ in languages with type annotation, the type annotation of an object is generally
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
 
-    <tr><th colspan="2">In ⟮c+;documentation⟯, these methods are referenced...|
-⟮c+;class methods⟯|⟮c+;.method or :​:method⟯
-⟮c+;instance methods⟯|⟮c+;#method⟯
+    <tr><th colspan="2">In ⟮documentation⟯, these methods are referenced...|
+⟮class methods⟯|⟮.method or :​:method⟯
+⟮instance methods⟯|⟮#method⟯
 
 
 
@@ -13891,7 +13891,7 @@ package|within the same package|Java
 in java, the package access modifier is the default
 JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
 
-A ⟮c+;private item⟯ can be accessed by ⟮c+;its immediate parent module⟯ and ⟮c+;all its child modules⟯
+A ⟮private item⟯ can be accessed by ⟮its immediate parent module⟯ and ⟮all its child modules⟯
 A public item can be accessed as a private item can, and additionally also through a chain through its ancestors.
 In rust, each field of a struct has its own access modifier, which must be set to public if desired.
 
@@ -14067,7 +14067,7 @@ the crate root for library crates is called lib.rs
 
 ##### CommonJS
 
-CommonJS is ⟮c+;a module ecosystem⟯ mainly used by node
+CommonJS is ⟮a module ecosystem⟯ mainly used by node
 
 let/var/const <name> = require(<path>)
 
@@ -14118,15 +14118,15 @@ Rust uses `use` instead of import.
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword <path> [as <name>]
-@forward foo doesn't allow the current stylesheet bar to access the things in foo, but ⟮c+;allows anything @using bar to access them.⟯
+@forward foo doesn't allow the current stylesheet bar to access the things in foo, but ⟮allows anything @using bar to access them.⟯
 
 #### latex
 
-⟮c+;\input⟯ and ⟮c+;\include⟯ both ⟮c+;import latex code into the current file⟯. 
-⟮c+;\input, \include⟯ are useful if ⟮c+;you want to split up you latex into multiple files⟯. 
-both ⟮c+;\input⟯ and ⟮c+;\include⟯ take ⟮c+;a path of the file to import⟯. 
-⟮c+;\include⟯ but not ⟮c+;\import⟯ ⟮c+;adds a \clearpage when importing⟯, and thus ⟮c+;can't be used in the preamble⟯ 
-using ⟮c+;\include⟯ allows you to use ⟮c+;\includeonly⟯, which takes ⟮c+;an argument⟯ of ⟮c+;a list⟯ and will ⟮c+;only import the \includes listed within⟯, cutting down on ⟮c+;compile time⟯. 
+⟮\input⟯ and ⟮\include⟯ both ⟮import latex code into the current file⟯. 
+⟮\input, \include⟯ are useful if ⟮you want to split up you latex into multiple files⟯. 
+both ⟮\input⟯ and ⟮\include⟯ take ⟮a path of the file to import⟯. 
+⟮\include⟯ but not ⟮\import⟯ ⟮adds a \clearpage when importing⟯, and thus ⟮can't be used in the preamble⟯ 
+using ⟮\include⟯ allows you to use ⟮\includeonly⟯, which takes ⟮an argument⟯ of ⟮a list⟯ and will ⟮only import the \includes listed within⟯, cutting down on ⟮compile time⟯. 
 
 ### exporting
 
@@ -14157,7 +14157,7 @@ Memory deallocation is releasing previously allocated memory.
 The call stack is often only called the stack.
 The call stack implements the stack ADT
 The call stack is made up of stack frames.
-The stack frame usually includes at least ⟮c+;the arguments⟯, the ⟮c+;return address⟯, and ⟮c+;local variables⟯.
+The stack frame usually includes at least ⟮the arguments⟯, the ⟮return address⟯, and ⟮local variables⟯.
 When we call a callable unit, a new stack frame is pushed on the stack, and the stack pointer is updated.
 When we return from a callable unit, the stack frame at the top of the stack is popped, and the stack pointer is updated.
 The stack frame at the top of the stack is the stack frame of the currently executing callable unit.
@@ -14310,35 +14310,35 @@ A web framework is a framework for use in web development.
 
 ##### templating
 
-⟮c+;a template engine/processor⟯ is something that ⟮c+;combines⟯ ⟮c+;a template⟯ and ⟮c+;data⟯ ⟮c+;into some kind of result⟯ 
-⟮c+;templatees⟯ are written in ⟮c+;template languages⟯ 
+⟮a template engine/processor⟯ is something that ⟮combines⟯ ⟮a template⟯ and ⟮data⟯ ⟮into some kind of result⟯ 
+⟮templatees⟯ are written in ⟮template languages⟯ 
 
 ####### Liquid
 
 
-⟮c+;liquid⟯ is ⟮c+;a template language⟯) 
-⟮c+;Liquid⟯ was develped from ⟮c+;Embedded Ruby Templates (ERB⟯) 
-⟮c+;Liquid⟯ is ⟮c+;kinda similar to Ruby⟯ due to ⟮c+;it being developed from Embedded Ruby Templates (ERB⟯) 
+⟮liquid⟯ is ⟮a template language⟯) 
+⟮Liquid⟯ was develped from ⟮Embedded Ruby Templates (ERB⟯) 
+⟮Liquid⟯ is ⟮kinda similar to Ruby⟯ due to ⟮it being developed from Embedded Ruby Templates (ERB⟯) 
 
-⟮c+;Liquid⟯ ⟮c+;tags⟯ look like this ⟮c+;{% ... %⟯}. 
-Liquid ⟮c+;tags⟯ ⟮c+;surround⟯ ⟮c+;logic/control flow⟯. 
-In liquid, ⟮c+;outputting⟯ is generally done ⟮c+;within double curly braces {{ ... ⟯}} 
+⟮Liquid⟯ ⟮tags⟯ look like this ⟮{% ... %⟯}. 
+Liquid ⟮tags⟯ ⟮surround⟯ ⟮logic/control flow⟯. 
+In liquid, ⟮outputting⟯ is generally done ⟮within double curly braces {{ ... ⟯}} 
 ```
 {% if user %} 
 Hello {{ user.name }}! 
 {% endif %}
 ``` 
-⟮c+;adding a -⟯ ⟮c+;to {{ or {%⟯ ⟮h9,10;like {{-, {%-⟯ ⟮c+;strips whitespace from the relevant side⟯ 
+⟮adding a -⟯ ⟮to {{ or {%⟯ ⟮h9,10;like {{-, {%-⟯ ⟮strips whitespace from the relevant side⟯ 
 
 
-⟮c+;Liquids⟯ ⟮c+;loops⟯ are odd in that the⟮c+;y accept a number of additional parameters⟯ ⟮c+;after the main condition⟯, in the format ⟮c+;key:value⟯ and separated by ⟮c+;spaces⟯ 
+⟮Liquids⟯ ⟮loops⟯ are odd in that the⟮y accept a number of additional parameters⟯ ⟮after the main condition⟯, in the format ⟮key:value⟯ and separated by ⟮spaces⟯ 
 
 
 span:2;Liquid loop parameters
-⟮c+;start where the previous loop of the same iterator left off⟯|⟮c+;offset:continue⟯
-⟮c+;start at the offset/index n⟯|⟮c+;offset:n⟯
-⟮c+;iterate through the array in reverse⟯|⟮c+;reversed⟯
-⟮c+;only do n iterations⟯|⟮c+;limit:n⟯
+⟮start where the previous loop of the same iterator left off⟯|⟮offset:continue⟯
+⟮start at the offset/index n⟯|⟮offset:n⟯
+⟮iterate through the array in reverse⟯|⟮reversed⟯
+⟮only do n iterations⟯|⟮limit:n⟯
 
 
 ```
@@ -14348,7 +14348,7 @@ span:2;Liquid loop parameters
 ```
 
 
-⟮c+;cycle⟯ ⟮c+;takes n arguments⟯ and ⟮c+;prints the next one (from the last time this  was called⟯). 
+⟮cycle⟯ ⟮takes n arguments⟯ and ⟮prints the next one (from the last time this  was called⟯). 
 
 
 ```
@@ -14356,18 +14356,18 @@ span:2;Liquid loop parameters
 ``` 
 
 
-⟮c+;Cycle⟯ can be used to apply classes for ⟮c+;even/odd elements⟯ or ⟮c+;to any nth elements⟯. 
-⟮c+;Without the cycle group paramter⟯, ⟮c+;all cycles in the document⟯ ⟮c+;cycle the same thing⟯ 
-⟮c+;if you want to cycle multiple things⟯ in ⟮c+;the same document⟯, you need to ⟮c+;use cycle group paramters⟯. 
-The syntax for the cycle ⟮c+;group parameter⟯ is ` ⟮c+;"name":⟯`. 
+⟮Cycle⟯ can be used to apply classes for ⟮even/odd elements⟯ or ⟮to any nth elements⟯. 
+⟮Without the cycle group paramter⟯, ⟮all cycles in the document⟯ ⟮cycle the same thing⟯ 
+⟮if you want to cycle multiple things⟯ in ⟮the same document⟯, you need to ⟮use cycle group paramters⟯. 
+The syntax for the cycle ⟮group parameter⟯ is ` ⟮"name":⟯`. 
 ```
 {% cycle "name": item1, item2... %}
 ```
 
-⟮c+;{% liquid ... %}⟯|⟮c+;write liquid logic in a single block⟯
-⟮c+;{% raw %} ... {% endraw %}⟯|⟮c+;disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
-⟮c+;{% render "foo" %}⟯|⟮c+;render another template foo⟯
-⟮c+;{% tablerow foo in bar ...⟯|⟮c+;generate html tables⟯
+⟮{% liquid ... %}⟯|⟮write liquid logic in a single block⟯
+⟮{% raw %} ... {% endraw %}⟯|⟮disable tag processing (different from comments in that non-liquid stuff will be rendered⟯)
+⟮{% render "foo" %}⟯|⟮render another template foo⟯
+⟮{% tablerow foo in bar ...⟯|⟮generate html tables⟯
 
 
 ```
@@ -14384,14 +14384,14 @@ else
 endcase %}
 ```
 
-There are ⟮c+;two different namespaces⟯ for ⟮c+;variables⟯ in ⟮c+;liquid⟯: one for ⟮c+;assign/capture⟯ and one for ⟮c+;increment/decrement⟯ 
-⟮c+;Normal variable assignment⟯ uses the ⟮c+;assign⟯ keyword 
+There are ⟮two different namespaces⟯ for ⟮variables⟯ in ⟮liquid⟯: one for ⟮assign/capture⟯ and one for ⟮increment/decrement⟯ 
+⟮Normal variable assignment⟯ uses the ⟮assign⟯ keyword 
 ```
 {% assign my_variable = false %}
 ```
-⟮c+;{% increment / decrement foo %⟯} ⟮c+;increments/decrements⟯ a variable foo ⟮c+;increment⟯ ⟮c+;variables⟯ start at ⟮c+;0⟯ and ⟮c+;decrement⟯ ⟮c+;variables⟯ starts at ⟮c+;-1⟯ 
-⟮c+;everything within⟯ ⟮c+;a capture block⟯ is ⟮c+;assigned to the specified variable⟯ 
-⟮c+;capture⟯ captures ⟮c+;a whole string⟯ into ⟮c+;a new variable⟯, allowing ⟮c+;string interpolation⟯ or ⟮c+;other complex logic⟯ to generate the variable 
+⟮{% increment / decrement foo %⟯} ⟮increments/decrements⟯ a variable foo ⟮increment⟯ ⟮variables⟯ start at ⟮0⟯ and ⟮decrement⟯ ⟮variables⟯ starts at ⟮-1⟯ 
+⟮everything within⟯ ⟮a capture block⟯ is ⟮assigned to the specified variable⟯ 
+⟮capture⟯ captures ⟮a whole string⟯ into ⟮a new variable⟯, allowing ⟮string interpolation⟯ or ⟮other complex logic⟯ to generate the variable 
 ```
 {% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}
 ``` 
@@ -14400,25 +14400,25 @@ There are ⟮c+;two different namespaces⟯ for ⟮c+;variables⟯ in ⟮c+;liqu
 
 ##### types of web pages and their generation
 
-Fundamentally, a ⟮c+;web page⟯ may either be ⟮c+;static⟯ or ⟮c+;dynamic⟯. 
-A ⟮c+;static⟯ web page is ⟮c+;delivered to the web browser⟯ ⟮c+;exactly as stored on the web server⟯. 
-A ⟮c+;dynamic⟯ web page is ⟮c+;generated in some way⟯. 
-⟮c+;Static generation⟯ merely creates ⟮c+;static web pages⟯. However, since ⟮c+;they are often generated in a manner similar to dynamic web page⟯, ⟮c+;static generation⟯ is often seen as ⟮c+;something inbetween dynamic and static web pages⟯. 
-A ⟮c+;dynamic web page⟯ may be generated ⟮c+;client-side⟯ or ⟮c+;server-side⟯. 
-A ⟮c+;dynamic webpage⟯ ⟮c+;generated client-side/server-side⟯ is said to use ⟮c+;client-side/server-side rendering⟯. 
+Fundamentally, a ⟮web page⟯ may either be ⟮static⟯ or ⟮dynamic⟯. 
+A ⟮static⟯ web page is ⟮delivered to the web browser⟯ ⟮exactly as stored on the web server⟯. 
+A ⟮dynamic⟯ web page is ⟮generated in some way⟯. 
+⟮Static generation⟯ merely creates ⟮static web pages⟯. However, since ⟮they are often generated in a manner similar to dynamic web page⟯, ⟮static generation⟯ is often seen as ⟮something inbetween dynamic and static web pages⟯. 
+A ⟮dynamic web page⟯ may be generated ⟮client-side⟯ or ⟮server-side⟯. 
+A ⟮dynamic webpage⟯ ⟮generated client-side/server-side⟯ is said to use ⟮client-side/server-side rendering⟯. 
 
 
-⟮c+;Client-side rendering⟯ ⟮(c:34;s4;CSR⟯) generally involves only having ⟮c+;a minimal HTML page⟯ and ⟮c+;a JS bundle⟯, which then ⟮c+;handles everything elsee.⟯ 
-The pages ⟮c+;CSR⟯ produces are generally called ⟮c+;single-page applications⟯. 
-⟮c+;Server-side rendering⟯ ⟮(c:36;s35;SSR⟯) has ⟮c+;a server generate the web page⟯, generally using ⟮c+;a server-side programming language (in the past most commmonly PHP⟯), which is then ⟮c+;served to the user fully baked⟯. 
-⟮c+;CSR⟯ only ⟮c+;needs to communicate w/ the server⟯ if ⟮c+;new data is needed⟯. 
-Whenever ⟮c+;the user navigates to a different page⟯, ⟮c+;CSR⟯ ⟮c+;can usually handle it internally⟯, while ⟮c+;SSR⟯ ⟮c+;needs to make a new request for a new page⟯. 
-⟮c+;Client-side rendering⟯ has ⟮c+;longer⟯ ⟮c+;initial load times⟯ and ⟮c+;shorter⟯ ⟮c+;subsequent load times⟯ than ⟮c+;server-side rendering⟯ 
+⟮Client-side rendering⟯ ⟮(c:34;s4;CSR⟯) generally involves only having ⟮a minimal HTML page⟯ and ⟮a JS bundle⟯, which then ⟮handles everything elsee.⟯ 
+The pages ⟮CSR⟯ produces are generally called ⟮single-page applications⟯. 
+⟮Server-side rendering⟯ ⟮(c:36;s35;SSR⟯) has ⟮a server generate the web page⟯, generally using ⟮a server-side programming language (in the past most commmonly PHP⟯), which is then ⟮served to the user fully baked⟯. 
+⟮CSR⟯ only ⟮needs to communicate w/ the server⟯ if ⟮new data is needed⟯. 
+Whenever ⟮the user navigates to a different page⟯, ⟮CSR⟯ ⟮can usually handle it internally⟯, while ⟮SSR⟯ ⟮needs to make a new request for a new page⟯. 
+⟮Client-side rendering⟯ has ⟮longer⟯ ⟮initial load times⟯ and ⟮shorter⟯ ⟮subsequent load times⟯ than ⟮server-side rendering⟯ 
 
-⟮c+;Client-side rendering⟯ often has ⟮c+;problems with SEO⟯, as ⟮c+;the original HTML basically contains nothing⟯ 
-The difference between ⟮c+;static generation⟯ and ⟮c+;server-side rendering⟯ is that ⟮c+;static generation⟯ ⟮c+;generates the HTML⟯ ⟮c+;at build time⟯, while ⟮c+;server-side rendering⟯ ⟮c+;generates the HTML⟯ ⟮c+;on each request⟯ 
+⟮Client-side rendering⟯ often has ⟮problems with SEO⟯, as ⟮the original HTML basically contains nothing⟯ 
+The difference between ⟮static generation⟯ and ⟮server-side rendering⟯ is that ⟮static generation⟯ ⟮generates the HTML⟯ ⟮at build time⟯, while ⟮server-side rendering⟯ ⟮generates the HTML⟯ ⟮on each request⟯ 
 
-⟮c+;Static-site generator⟯ by ⟮c+;github⟯: ⟮c+;Jekyll⟯ 
+⟮Static-site generator⟯ by ⟮github⟯: ⟮Jekyll⟯ 
 
 ##### different products
 
@@ -14443,7 +14443,7 @@ Using JSX with React is optional.
 
 React components accept arbitrary inputs as `prop`s and return react elements.
 Elements are either components or native DOM tags.
-Typcially, the ⟮c+;top-most⟯ react component is called ⟮c+;App⟯
+Typcially, the ⟮top-most⟯ react component is called ⟮App⟯
 React components are UpperCamelCase'd
 
 ######## attributes of components
@@ -14544,9 +14544,9 @@ In react, you can't return false to prevent the browser default for an event, yo
 
 ###### react native
 
-⟮c+;React Native⟯ is a ⟮c+;framework⟯ for building native applications using ⟮c+;React⟯ and ⟮c+;the platforms native capabilities⟯
+⟮React Native⟯ is a ⟮framework⟯ for building native applications using ⟮React⟯ and ⟮the platforms native capabilities⟯
 The most common targets for react native are android and iOS, but you can also target desktop OSs, qt, TVs and even the web.
-You can use react native for your ⟮c+;whole app⟯, but you can also ⟮c+;integrate it into an existing project⟯
+You can use react native for your ⟮whole app⟯, but you can also ⟮integrate it into an existing project⟯
 React Native implements a polyfill for WebSockets, initialized via importing React. Other modules using WebSockets therefore need to be imported after React.
 
 ####### components
@@ -14564,10 +14564,10 @@ React Native|HTML
 onChangeText|event when text is changed
 onSubmitEditing|event when text is submitted
 
-flex-container:<img src="sm_2021-09-16--16-10-01-screenshot.png"><img src="sm_2021-09-16--16-08-57-screenshot.png">
+flex-container:✫sm_2021-09-16--16-10-01-screenshot.png✫✫sm_2021-09-16--16-08-57-screenshot.png✫
 
-A list with ⟮c+;sections/headings⟯ should probably use the ⟮c+;‹SectionList›⟯ component
-A list with ⟮c+;no sections/headings⟯ should probably use the ⟮c+;‹FlatList›⟯ component
+A list with ⟮sections/headings⟯ should probably use the ⟮‹SectionList›⟯ component
+A list with ⟮no sections/headings⟯ should probably use the ⟮‹FlatList›⟯ component
 
 All the elements and views of a ScrollView are rendered, even if they are not currently shown
 ‹ScrollViews› can be configured to allow paging through views using swiping gestures by using the pagingEnabled props. 
@@ -14588,15 +14588,15 @@ As far as I can see, for Platform.select "native" will trigger on native targets
 Web servers provide web pages.
 CMS|Content Management System
 SSR|Server-side Rendering
-⟮c+;Routing⟯ is relating ⟮c+;paths⟯ to ⟮c+;what should be shown⟯
-while ⟮c+;react⟯ is by default a ⟮c+;client-side-rendered⟯ thing, using ⟮c+;next.js⟯, ⟮c+;gatsbyjs⟯ or ⟮c+;other custom tools⟯, you can make it ⟮c+;SSR⟯
+⟮Routing⟯ is relating ⟮paths⟯ to ⟮what should be shown⟯
+while ⟮react⟯ is by default a ⟮client-side-rendered⟯ thing, using ⟮next.js⟯, ⟮gatsbyjs⟯ or ⟮other custom tools⟯, you can make it ⟮SSR⟯
 
 ##### JS
 
 Node.js was created in 2009.
 Node.js uses V8 as its JS engine/interpreter.
-⟮c+;Deno⟯ is a ⟮c+;perhaps-sucessor⟯ to ⟮c+;node⟯ by ⟮c+;the same creator⟯.
-⟮c+;Deno⟯ is wrtten in ⟮c+;rust⟯, provides native ⟮c+;TS⟯ support, uses ⟮c+;ES⟯ modules, and ⟮c+;URLs⟯ for the location of dependencies
+⟮Deno⟯ is a ⟮perhaps-sucessor⟯ to ⟮node⟯ by ⟮the same creator⟯.
+⟮Deno⟯ is wrtten in ⟮rust⟯, provides native ⟮TS⟯ support, uses ⟮ES⟯ modules, and ⟮URLs⟯ for the location of dependencies
 
 ##### Python
 
@@ -14607,73 +14607,73 @@ Flask and Django are the most popular web frameworks for Python.
 ##### jekyll
 
 Jekyll|Ruby
-⟮c+;Jekyll⟯ uses ⟮c+;liquid⟯ as its ⟮c+;template language⟯ 
-You can write ⟮c+;Jekyll⟯ pages in ⟮c+;HTML⟯ or ⟮c+;Markdown⟯ 
-Jekyll pages/layouts/includes can have ⟮c+;metadata⟯ associated with them, which is specified in ⟮c+;the front matter⟯ 
-⟮c+;Front matter⟯ in Jekyll ⟮c+;starts and ends⟯ with ⟮c+;three dashes ---⟯ 
-⟮c+;Front matter⟯ in Jekyll is written in ⟮c+;YAML⟯ 
+⟮Jekyll⟯ uses ⟮liquid⟯ as its ⟮template language⟯ 
+You can write ⟮Jekyll⟯ pages in ⟮HTML⟯ or ⟮Markdown⟯ 
+Jekyll pages/layouts/includes can have ⟮metadata⟯ associated with them, which is specified in ⟮the front matter⟯ 
+⟮Front matter⟯ in Jekyll ⟮starts and ends⟯ with ⟮three dashes ---⟯ 
+⟮Front matter⟯ in Jekyll is written in ⟮YAML⟯ 
 
 
-for any page, the `⟮c+;page⟯` assoc array contains ⟮c+;the keys of that pages front matter⟯ 
-the `⟮c+;page⟯` assoc array is ⟮c+;autopopulated with certain keys⟯ beyond ⟮c+;the ones specified in the front matter⟯, amongst others the key ⟮c+;`url`⟯ 
+for any page, the `⟮page⟯` assoc array contains ⟮the keys of that pages front matter⟯ 
+the `⟮page⟯` assoc array is ⟮autopopulated with certain keys⟯ beyond ⟮the ones specified in the front matter⟯, amongst others the key ⟮`url`⟯ 
 
-⟮c+;Layouts⟯ ⟮c+;wrap around⟯ your content. 
-⟮c+;Layouts⟯ are stored in the ⟮c+;_layouts directory⟯. 
-For a given post or other page, you specify ⟮c+;which layout it's using⟯ by using ⟮c+;the `layout` front matter key⟯. 
-Layouts can ⟮c+;inherit⟯ - you do this by ⟮c+;referring to the parent layout⟯ ⟮c+;within the child layout⟯ using ⟮c+;the `layout` front matter key.⟯&nbsp;
-Within a layout, ⟮c+;`{{content⟯`}} refers to ⟮c+;the content of the post using⟯ the layout, or ⟮c+;the next-deeper child layout.⟯ 
-As a convention, ⟮c+;the root level layout⟯ is called ⟮c+;default.html⟯. 
-the `⟮c+;layout⟯` assoc arr contains ⟮c+;all metadata of the current layout⟯. 
-⟮c+;`layout.foo`⟯ allows you to ⟮c+;access key foo of layout front matter⟯ 
-
-
-⟮c+;Includes⟯ are basically ⟮c+;components⟯, you can ⟮c+;refer to and include from anywhere you like⟯. 
-⟮c+;Includes⟯ are stored in ⟮c+;the _includes directory.⟯ 
-⟮c+;Includes⟯ may take ⟮c+;arguments⟯ as ⟮c+;key=value⟯. 
-Within an include⟮c+;, a parameter foo⟯ is referred to as `⟮c+;include.foo⟯` 
-Include syntax: `⟮c+;{%⟯ ⟮c+;include⟯ ⟮c+;include-name.html⟯ ⟮c+;%}⟯` 
-
-the `⟮c+;site⟯` assoc arr contains ⟮c+;all global data⟯. 
-
-Syntax for jekyll ⟮c+;post⟯ ⟮c+;file names⟯: ⟮c+;YYYY-MM-DD⟯⟮c+;-title⟯⟮c+;.extension⟯ 
-Jekyll will ⟮c+;auto-generate⟯ ⟮c+;a `post.title`⟯&nbsp;from ⟮c+;the URL = file name⟯ if not specified 
-Jekyll will ⟮c+;auto generate⟯ ⟮c+;a `post.excerpt`⟯&nbsp;from ⟮c+;the first paragraph⟯ if not specified 
-⟮c+;Posts⟯ are specified in ⟮c+;./_posts⟯ 
-`⟮c+;site.posts⟯` contains ⟮c+;an array⟯ of ⟮c+;all the posts in ./_posts⟯ 
+⟮Layouts⟯ ⟮wrap around⟯ your content. 
+⟮Layouts⟯ are stored in the ⟮_layouts directory⟯. 
+For a given post or other page, you specify ⟮which layout it's using⟯ by using ⟮the `layout` front matter key⟯. 
+Layouts can ⟮inherit⟯ - you do this by ⟮referring to the parent layout⟯ ⟮within the child layout⟯ using ⟮the `layout` front matter key.⟯&nbsp;
+Within a layout, ⟮`{{content⟯`}} refers to ⟮the content of the post using⟯ the layout, or ⟮the next-deeper child layout.⟯ 
+As a convention, ⟮the root level layout⟯ is called ⟮default.html⟯. 
+the `⟮layout⟯` assoc arr contains ⟮all metadata of the current layout⟯. 
+⟮`layout.foo`⟯ allows you to ⟮access key foo of layout front matter⟯ 
 
 
-Jekylls supports keeping data stored in ⟮c+;./_data⟯ for ⟮c+;global use⟯ 
-Jekyll ⟮c+;data files⟯ may be specified in ⟮c+;yaml, json::2 similar ones⟯, ⟮c+;csv or tsv::2 similar ones⟯. 
-Jekyll ⟮c+;data files⟯ can be accessed via ⟮c+;`site.data.filename` (no extension⟯)&nbsp;
-Jekyll supports keeping ⟮c+;small mini-posts⟯ in so-called ⟮c+;collections⟯. 
-⟮c+;Any directory in the root folder⟯ ⟮c+;starting with _⟯, but not ⟮c+;being one of the predefined directory names (such as _data, _posts⟯) is considered ⟮c+;a collection⟯ of ⟮c+;the same name⟯. 
-Jekyll supports ⟮c+;designating a directory for collections⟯ instead o⟮c+;f specifying them in the project root in the config⟯, but this must then ⟮c+;also contain _drafts and _posts, if extant⟯. 
-Besides ⟮c+;creating a directory⟯, ⟮c+;collections⟯ must also be ⟮c+;referenced in the collections array in the config⟯. 
-⟮c+;collections⟯ are ⟮c+;arrays⟯ available via ⟮c+;the `site.collectionname` propert⟯y 
+⟮Includes⟯ are basically ⟮components⟯, you can ⟮refer to and include from anywhere you like⟯. 
+⟮Includes⟯ are stored in ⟮the _includes directory.⟯ 
+⟮Includes⟯ may take ⟮arguments⟯ as ⟮key=value⟯. 
+Within an include⟮, a parameter foo⟯ is referred to as `⟮include.foo⟯` 
+Include syntax: `⟮{%⟯ ⟮include⟯ ⟮include-name.html⟯ ⟮%}⟯` 
+
+the `⟮site⟯` assoc arr contains ⟮all global data⟯. 
+
+Syntax for jekyll ⟮post⟯ ⟮file names⟯: ⟮YYYY-MM-DD⟯⟮-title⟯⟮.extension⟯ 
+Jekyll will ⟮auto-generate⟯ ⟮a `post.title`⟯&nbsp;from ⟮the URL = file name⟯ if not specified 
+Jekyll will ⟮auto generate⟯ ⟮a `post.excerpt`⟯&nbsp;from ⟮the first paragraph⟯ if not specified 
+⟮Posts⟯ are specified in ⟮./_posts⟯ 
+`⟮site.posts⟯` contains ⟮an array⟯ of ⟮all the posts in ./_posts⟯ 
+
+
+Jekylls supports keeping data stored in ⟮./_data⟯ for ⟮global use⟯ 
+Jekyll ⟮data files⟯ may be specified in ⟮yaml, json::2 similar ones⟯, ⟮csv or tsv::2 similar ones⟯. 
+Jekyll ⟮data files⟯ can be accessed via ⟮`site.data.filename` (no extension⟯)&nbsp;
+Jekyll supports keeping ⟮small mini-posts⟯ in so-called ⟮collections⟯. 
+⟮Any directory in the root folder⟯ ⟮starting with _⟯, but not ⟮being one of the predefined directory names (such as _data, _posts⟯) is considered ⟮a collection⟯ of ⟮the same name⟯. 
+Jekyll supports ⟮designating a directory for collections⟯ instead o⟮f specifying them in the project root in the config⟯, but this must then ⟮also contain _drafts and _posts, if extant⟯. 
+Besides ⟮creating a directory⟯, ⟮collections⟯ must also be ⟮referenced in the collections array in the config⟯. 
+⟮collections⟯ are ⟮arrays⟯ available via ⟮the `site.collectionname` propert⟯y 
 
 
 ###### themes
 
-Jekyll ⟮c+;themes⟯ are often ⟮c+;gems⟯. 
-By default, if you use a ⟮c+;gem theme⟯, ⟮c+;some of the directories of your site⟯ are ⟮c+;in the gem itself⟯. 
-If you want to ⟮c+;edit things⟯ ⟮c+;in gem themes⟯, you need to ⟮c+;copy then out of the gem itself⟯, and ⟮c+;reference the gem's dependencies in your gemfile/config⟯. 
+Jekyll ⟮themes⟯ are often ⟮gems⟯. 
+By default, if you use a ⟮gem theme⟯, ⟮some of the directories of your site⟯ are ⟮in the gem itself⟯. 
+If you want to ⟮edit things⟯ ⟮in gem themes⟯, you need to ⟮copy then out of the gem itself⟯, and ⟮reference the gem's dependencies in your gemfile/config⟯. 
 
 ###### plugins
 
-⟮c+;Jekyll plugins⟯ are specified within ⟮c+;the _config.yml⟯ and within ⟮c+;the gemfile⟯. 
-In the ⟮c+;gemfile⟯, ⟮c+;jekyll_plugin⟯s are specified within ⟮c+;the `group :jekyll_plugins`⟯ 
+⟮Jekyll plugins⟯ are specified within ⟮the _config.yml⟯ and within ⟮the gemfile⟯. 
+In the ⟮gemfile⟯, ⟮jekyll_plugin⟯s are specified within ⟮the `group :jekyll_plugins`⟯ 
 
 
     <tr><th colspan="2">Jekyll Plugins|
-⟮c+;jekyll-feed⟯|⟮c+;Generating an RSS feed (jekyll⟯)
-⟮c+;jekyll-seo-tag⟯|⟮c+;Generating a few SEO tags (jekyll⟯)
-⟮c+;jekyll-sitemap⟯|⟮c+;Generating a sitemap⟯
-⟮c+;jekyll-paginate⟯|⟮c+;allow pagination⟯
+⟮jekyll-feed⟯|⟮Generating an RSS feed (jekyll⟯)
+⟮jekyll-seo-tag⟯|⟮Generating a few SEO tags (jekyll⟯)
+⟮jekyll-sitemap⟯|⟮Generating a sitemap⟯
+⟮jekyll-paginate⟯|⟮allow pagination⟯
 
 
 ###### config
-⟮c+;defaults⟯|⟮c+;default front matter⟯
-⟮c+;paginate: n⟯|⟮c+;paginate with n pages⟯
+⟮defaults⟯|⟮default front matter⟯
+⟮paginate: n⟯|⟮paginate with n pages⟯
 
 
 
@@ -15030,11 +15030,11 @@ most languages have a date object (or multiple different ones) that allows conve
 
 #### js
 
-In js, ⟮c+;Unix time⟯ is almost always interacted with in ⟮c+;milliseconds⟯, 
+In js, ⟮Unix time⟯ is almost always interacted with in ⟮milliseconds⟯, 
 as opposed seconds, which is more standard
-the `⟮c+;Date.parse()⟯` method takes ⟮c+;a date in a few common formats⟯ and outputs ⟮c+;Unix time (in millis, as is common in JS)⟯
-`⟮c+;new Date()⟯` takes ⟮c+;Unix time milliseconds⟯ and returns ⟮c+;a `Date`⟯
-`⟮c+;someDate.toISOString()⟯ ` returns the datetime ⟮c+;as ISO 8601⟯
+the `⟮Date.parse()⟯` method takes ⟮a date in a few common formats⟯ and outputs ⟮Unix time (in millis, as is common in JS)⟯
+`⟮new Date()⟯` takes ⟮Unix time milliseconds⟯ and returns ⟮a `Date`⟯
+`⟮someDate.toISOString()⟯ ` returns the datetime ⟮as ISO 8601⟯
 
 #### rust
 
@@ -15045,9 +15045,9 @@ In generaly chrono structs implement traits in such a way that you can use stand
 In general, using arithmetic operations in chrono calls the underlying `checked_<operation>_signed` method
 chrono has three `TimeZone`s, `Utc`, `Local` and `FixedOffset`
 `Local` or `Utc` (but not `FixedOffset`) :: `today()` or `now()` produce a new `Date` or `DateTime` with the speciied timezone.
-Behavior of things that work ⟮c+;like dates⟯ / ⟮c+;like times⟯ is standartized in the ⟮c+;traits⟯ ⟮c+;Datelike⟯ and ⟮c+;Timelike⟯
-you can get ⟮c+;the time components⟯ of ⟮c+;Timelike⟯ using ⟮c+;the length you want as a method⟯ (e.g. hours -&gt; ⟮c+;sometimelike:​:hours()⟯)
-you can get ⟮c+;the date components⟯ of ⟮c+;Datelike⟯ using ⟮c+;the date component you want as a method⟯ (e.g. months -&gt; ⟮c+;somedatelike:​:month()⟯)
+Behavior of things that work ⟮like dates⟯ / ⟮like times⟯ is standartized in the ⟮traits⟯ ⟮Datelike⟯ and ⟮Timelike⟯
+you can get ⟮the time components⟯ of ⟮Timelike⟯ using ⟮the length you want as a method⟯ (e.g. hours -&gt; ⟮sometimelike:​:hours()⟯)
+you can get ⟮the date components⟯ of ⟮Datelike⟯ using ⟮the date component you want as a method⟯ (e.g. months -&gt; ⟮somedatelike:​:month()⟯)
 chrono represents durations with `Duration`
 for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
@@ -15209,11 +15209,11 @@ simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex be
 ### names
 
 Name|Prononciation
-⟮c+;C#⟯|⟮c+;C sharp⟯
+⟮C#⟯|⟮C sharp⟯
 
 
 thing|slang
-⟮c+;Rust users⟯|⟮c+;rustaceans⟯
+⟮Rust users⟯|⟮rustaceans⟯
 
 
 ### Programming paradigms
@@ -15222,7 +15222,7 @@ Functional programming languages: {Haskell}
 
 ### Programming languages I don't know
 
-COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on ⟮c+;legacy mainframe computers⟯
+COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on ⟮legacy mainframe computers⟯
 C was created in 1972.
 *nix OSs are famously written in C.
 tcl is a programming language where everything is a command.
@@ -15233,11 +15233,11 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 #### versions over time
 
-Python ⟮c+;2⟯ and ⟮c+;3⟯ have ⟮c+;some syntactic differences.⟯ 
+Python ⟮2⟯ and ⟮3⟯ have ⟮some syntactic differences.⟯ 
 ES2015|ES6
-The rust development cycle has the three release channels ⟮c+;Nightly⟯, ⟮c+;Beta⟯ and ⟮c+;Stable::S...⟯. ⟮sb;⟮c+;Every six weeks⟯ ( = ⟮c+;1 cycle⟯), ⟮c+; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
-Therefore, ⟮s10:12;⟮c+;what is beta now⟯ will be ⟮c+;stable⟯ in ⟮c+;a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮c+;what is nightly now⟯ will be ⟮c+;stable⟯ in ⟮c+;at most 12 weeks⟯.⟯ 
-⟮c+;Breaking changes (such as reserving new features⟯) can only happen on ⟮c+;the highest rust versioning level⟯, which are ⟮c+;editions⟯. ⟮sb;these are released ⟮c+;about every three years⟯, with the ones in existence as of writing being ⟮c+;2015, 2018, and 2021⟯⟯ 
+The rust development cycle has the three release channels ⟮Nightly⟯, ⟮Beta⟯ and ⟮Stable::S...⟯. ⟮sb;⟮Every six weeks⟯ ( = ⟮1 cycle⟯), ⟮c+; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
+Therefore, ⟮s10:12;⟮what is beta now⟯ will be ⟮stable⟯ in ⟮a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮what is nightly now⟯ will be ⟮stable⟯ in ⟮at most 12 weeks⟯.⟯ 
+⟮Breaking changes (such as reserving new features⟯) can only happen on ⟮the highest rust versioning level⟯, which are ⟮editions⟯. ⟮sb;these are released ⟮about every three years⟯, with the ones in existence as of writing being ⟮2015, 2018, and 2021⟯⟯ 
 
 #### dialects, influence, etc.
 
@@ -15295,8 +15295,8 @@ A thread pool typically processes a queue of tasks waiting for processing.
 
 Web Workers are threadlike things in JS.
 Web Workers come in two flavors, dedicated workers and shared workers.
-While a ⟮c+;dedicated worker⟯ is accessible from ⟮c+;a single script only⟯, a ⟮c+;shared worker⟯ is accessible from ⟮c+;multiple scripts⟯, even if ⟮c+;within different windows or frames⟯
-Because many JS APIs are not ⟮c+;threadsafe⟯, ⟮c+;Web Workers⟯ have access to ⟮c+; only a limited subset⟯
+While a ⟮dedicated worker⟯ is accessible from ⟮a single script only⟯, a ⟮shared worker⟯ is accessible from ⟮multiple scripts⟯, even if ⟮within different windows or frames⟯
+Because many JS APIs are not ⟮threadsafe⟯, ⟮Web Workers⟯ have access to ⟮ only a limited subset⟯
 
 Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
 Web Workers as well as the main thread communicate via message passing.
@@ -15325,9 +15325,9 @@ A race condition is often a flaw that may cause bugs.
 
 #### deadlock
 
-flex-container:<img src="1280px-Process_deadlock.svg.png"><img src="220px-Gridlock.svg.png">
-A ⟮c+;deadlock⟯ is a situation where ⟮c+;each member of  a group⟯ is ⟮c+;waiting on another member to do something⟯, and therefore ⟮c+;the system is stuck⟯
-⟮c+;Gridlock⟯ is a specific type of ⟮c+;deadlock⟯ that occurs ⟮c+;in a street network⟯
+flex-container:✫1280px-Process_deadlock.svg.png✫✫220px-Gridlock.svg.png✫
+A ⟮deadlock⟯ is a situation where ⟮each member of  a group⟯ is ⟮waiting on another member to do something⟯, and therefore ⟮the system is stuck⟯
+⟮Gridlock⟯ is a specific type of ⟮deadlock⟯ that occurs ⟮in a street network⟯
 
 ## metaprogramming
 
@@ -15352,8 +15352,8 @@ Rust macros end in an !.
 
 A programming language implementation is a system for executing computer programs written in a given programming language (s). 
 There are two general approaches to programming language implementation: interpretation and compilation
-While we might talk about ⟮c+;programming languages⟯ being ⟮c+;compiled or interpreted⟯, but actually it's ⟮c+;the relevant implementation⟯ that is ⟮c+;a compiler or an interpreter⟯.
-A ⟮c+;reference implementation⟯ is an ⟮c+;implementation⟯ of a ⟮c+;specification⟯ generally written by ⟮c+;the creators⟯ of ⟮c+;the API/programming language/whatever⟯ to be ⟮c+;an example for other implementations⟯
+While we might talk about ⟮programming languages⟯ being ⟮compiled or interpreted⟯, but actually it's ⟮the relevant implementation⟯ that is ⟮a compiler or an interpreter⟯.
+A ⟮reference implementation⟯ is an ⟮implementation⟯ of a ⟮specification⟯ generally written by ⟮the creators⟯ of ⟮the API/programming language/whatever⟯ to be ⟮an example for other implementations⟯
 
 TS compiles to JS via the compiler, interfaced with the cli tsc.
 
@@ -15451,13 +15451,13 @@ tsc|ts
 -c STRING|read program from string|python
 -e STRING|read program from string|perl
 
-by default, TS will ⟮c+;compile⟯ even ⟮c+;if there are compiler errors⟯, since it assumes ⟮c+;you might have a good reason⟯, use --noEmitOnError to disable this.
-by default, TS compiles down to ⟮c+;ES3⟯, but you can change that with the ⟮c+;--target⟯ flag
+by default, TS will ⟮compile⟯ even ⟮if there are compiler errors⟯, since it assumes ⟮you might have a good reason⟯, use --noEmitOnError to disable this.
+by default, TS compiles down to ⟮ES3⟯, but you can change that with the ⟮--target⟯ flag
 
 ##### REPL
 
 REPL is short for read-eval-print loop
-⟮c+;REPLs⟯ are also called ⟮c+;interactive toplevel⟯ or ⟮c+;language shell⟯
+⟮REPLs⟯ are also called ⟮interactive toplevel⟯ or ⟮language shell⟯
 
 For most languages, invoking their CLI tool without arguments will open a REPL, if not
 irb|ruby
@@ -15497,12 +15497,12 @@ d8 is the developer shell for v8
 
 ## algorithms
 
-⟮c+;An algorithm⟯ is a ⟮c+;finite⟯ ⟮c+;sequence⟯ (in the math sense) of ⟮c+;steps⟯ that ⟮c+;precisely defines an operation⟯. 
+⟮An algorithm⟯ is a ⟮finite⟯ ⟮sequence⟯ (in the math sense) of ⟮steps⟯ that ⟮precisely defines an operation⟯. 
 
 ### pseudocode
 
-⟮c+;pseudocode⟯ is ⟮c+;a plain-language description⟯ of ⟮c+;an algorithm⟯. 
-⟮c+;Pseudocode⟯ generally ⟮c+;uses (structural) conventions of⟯ ⟮c+;programming languages⟯, but not ⟮c+;specific syntax⟯. 
+⟮pseudocode⟯ is ⟮a plain-language description⟯ of ⟮an algorithm⟯. 
+⟮Pseudocode⟯ generally ⟮uses (structural) conventions of⟯ ⟮programming languages⟯, but not ⟮specific syntax⟯. 
 
 ```lang=text;
 When a button is pressed:
@@ -15520,7 +15520,7 @@ When a button is pressed:
 
 #### determinism
 
-a deterministic algorithim/callable unit will, given a particular input ⟮c+;always produce the same output⟯
+a deterministic algorithim/callable unit will, given a particular input ⟮always produce the same output⟯
 
 ### for
 
@@ -15529,15 +15529,15 @@ a deterministic algorithim/callable unit will, given a particular input ⟮c+;al
 ##### binary
 
 
-flex-container:<img src="sm_1280px-Binary_Search_Depiction.svg.png">
-⟮c+;Binary search⟯ 
+flex-container:✫sm_1280px-Binary_Search_Depiction.svg.png✫
+⟮Binary search⟯ 
 ```
-⟮c+;take middle element⟯ 
-⟮c+;if equal, done⟯ 
-⟮c+;else take relevant half and repeat⟯ 
+⟮take middle element⟯ 
+⟮if equal, done⟯ 
+⟮else take relevant half and repeat⟯ 
 ``` 
-⟮c+;binary search⟯ has a ⟮c+;worst-case time complexity⟯ of ⟮c+;O(log n⟯) 
-⟮c+;Binary⟯ search can only be done on something that is ⟮c+;sorted⟯. 
+⟮binary search⟯ has a ⟮worst-case time complexity⟯ of ⟮O(log n⟯) 
+⟮Binary⟯ search can only be done on something that is ⟮sorted⟯. 
 
 #### sorting
 
@@ -15546,7 +15546,7 @@ A sorting algorithm is an algorithm that sorts a linear collection.
 ##### bubble
 
 
-flex-container:<img src="sm_Bubble-sort-example-300px.gif">
+flex-container:✫sm_Bubble-sort-example-300px.gif✫
 Bubble sort is called that because the largest elements will bubble to the right in a single pass.
 while true:
   for all elements in the list: 
@@ -15592,11 +15592,11 @@ The hamming weight of 11101 is 4, the hamming weight of 60801 is 3
 
 ### Computer vision
 
-⟮c+;Computer vision (CV)⟯ is a field of study that aims to get ⟮c+;artificial systems / AI⟯ to get ⟮c+;meaningful information / understanding⟯ from ⟮c+;digital images/videos/whatever⟯.
+⟮Computer vision (CV)⟯ is a field of study that aims to get ⟮artificial systems / AI⟯ to get ⟮meaningful information / understanding⟯ from ⟮digital images/videos/whatever⟯.
 
 #### depth
 
-⟮c+;Stereopsis}/{{c2::stereo(scopic) vision⟯ is ⟮c+;the ability to percieve depth⟯ from ⟮c+;only two eyes/optical sensors⟯.
+⟮Stereopsis}/{{c2::stereo(scopic) vision⟯ is ⟮the ability to percieve depth⟯ from ⟮only two eyes/optical sensors⟯.
 binocular disparity is the difference between the images that the optical sensors involved in stereopsis recieve due to them being positioned somewhat apart.
 stereo matching is matching the two images produced by stereopsis.
 After stereo matching, one can calculate the distance via trangulation.
@@ -15605,8 +15605,8 @@ To improve stereo matching on featureless things, a device intended for depth ca
 
 #### triangulation
 
-⟮c+;Triangulation⟯ in surveying / computer vision / etc. is ⟮c+;determining the location⟯ of ⟮c+;a point C⟯ from ⟮c+;two points A and B⟯ by ⟮c+;forming a triangle⟯.
-By knowing the ⟮c+;distance between A and B⟯ as well as ⟮c+;the angles at A and B⟯, we can ⟮c+;reconstruct the distance.⟯
+⟮Triangulation⟯ in surveying / computer vision / etc. is ⟮determining the location⟯ of ⟮a point C⟯ from ⟮two points A and B⟯ by ⟮forming a triangle⟯.
+By knowing the ⟮distance between A and B⟯ as well as ⟮the angles at A and B⟯, we can ⟮reconstruct the distance.⟯
 
 ### safety
 
@@ -15711,7 +15711,7 @@ CD|Continuous delivery OR deployment
 
 continuous delivery|software can be deployed on any commit
 continuous deployment|software is deployed on any commit
-⟮c+;Continous deployment⟯ ⟮c+;relies on⟯ ⟮c+;continous delivery⟯
+⟮Continous deployment⟯ ⟮relies on⟯ ⟮continous delivery⟯
 A nightly build is one that is built every night, generally automatically
 
 #### pipelines
@@ -15848,9 +15848,9 @@ You can view GH actions in the `actions` tab of the repository.
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
 
-The ⟮c+;standard length⟯ of ⟮c+;a line of code⟯ is ⟮c+;80 characters⟯. 
-⟮c+;The standard length of a line of code being 80 characters⟯ originated ⟮c+;with IBM punch cards⟯ in ⟮c+;1928⟯, and later was ⟮c+;the standard width of a terminal⟯ 
-The default size in many cases for ⟮c+;terminals⟯ is ⟮c+;80 characters⟯ wide, and ⟮c+;24/25 lines⟯ high
+The ⟮standard length⟯ of ⟮a line of code⟯ is ⟮80 characters⟯. 
+⟮The standard length of a line of code being 80 characters⟯ originated ⟮with IBM punch cards⟯ in ⟮1928⟯, and later was ⟮the standard width of a terminal⟯ 
+The default size in many cases for ⟮terminals⟯ is ⟮80 characters⟯ wide, and ⟮24/25 lines⟯ high
 
 #### code editor
 
@@ -15868,14 +15868,14 @@ fast scrolling|⟦⌥⟧ ⟦scroll⟧
 
 
 Action|Shortcut
-⟮c+;Open IntelliSense⟯|⟮c+;⟦⌃⟧ <kbd class="key space"></kbd>⟯
+⟮Open IntelliSense⟯|⟮⟦⌃⟧ <kbd class="key space"></kbd>⟯
 
 
 ######## lines
 
 Shortcut|Action
-⟮c+;⟦⌃⟧ ⟦j⟧⟯|⟮c+;join lines⟯
-⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦k⟧⟯|⟮c+;delete line⟯
+⟮⟦⌃⟧ ⟦j⟧⟯|⟮join lines⟯
+⟮⟦⌘⟧ ⟦⇧⟧ ⟦k⟧⟯|⟮delete line⟯
 ⟦⌘⟧ ⟦enter⟧|insert a line below
 ⟦⌘⟧ ⟦⇧⟧ ⟦enter⟧|insert a line above
 
@@ -15967,14 +15967,14 @@ In vscode, one can resize the search widget by dragging its left edge.
 
 ######## comments
 
-⟮c+;add line comment⟯|⟮c+;⟦⌘⟧ ⟦k⟧⟦⌘⟧ ⟦c⟧⟯
-⟮c+;toggle line comment⟯|⟮c+;⟦⌘⟧ ⟦/⟧⟯
-⟮c+;toggle block comment⟯|⟮c+;⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
+⟮add line comment⟯|⟮⟦⌘⟧ ⟦k⟧⟦⌘⟧ ⟦c⟧⟯
+⟮toggle line comment⟯|⟮⟦⌘⟧ ⟦/⟧⟯
+⟮toggle block comment⟯|⟮⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
 
 ######## vscode jupyter
 
-⟮c+;⟦f10⟧⟯|⟮c+;execute next line of code⟯
-⟮c+;⟦⌃⟧ ⟦enter⟧⟯|⟮c+;finish editing a cell/run a code block⟯
+⟮⟦f10⟧⟯|⟮execute next line of code⟯
+⟮⟦⌃⟧ ⟦enter⟧⟯|⟮finish editing a cell/run a code block⟯
 
 
 ####### bars and panels
@@ -15990,10 +15990,10 @@ split terminal right|⟦⌘⟧ ⟦\⟧
 ###### increment/decrement via arrow keys
 
 Arrow up/down plus..|Increments by... (assumes base 10)
-⟮c+;alt⟯|⟮c+;0.1⟯
-⟮c+;ø⟯|⟮c+;1⟯
-⟮c+;shift⟯|⟮c+;10⟯
-⟮c+;command/ctrl⟯|⟮c+;100+⟯
+⟮alt⟯|⟮0.1⟯
+⟮ø⟯|⟮1⟯
+⟮shift⟯|⟮10⟯
+⟮command/ctrl⟯|⟮100+⟯
 
 ##### settings
 
@@ -16044,7 +16044,7 @@ you can jump between tabstops with tabs.
 QA = Quality assurance
 QA are the activities done to make sure that the product meets certain standards.
 
-⟮c+;wave a dead chicken (over it)⟯: To perform a ritual over ⟮c+;crashed software or hardware⟯ which one ⟮c+;believes to be futile⟯ but is ⟮c+;nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.⟯
+⟮wave a dead chicken (over it)⟯: To perform a ritual over ⟮crashed software or hardware⟯ which one ⟮believes to be futile⟯ but is ⟮nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.⟯
 
 ### debugging
 
@@ -16052,56 +16052,56 @@ QA are the activities done to make sure that the product meets certain standards
 
 ##### elements tab
 
-⟮c+;press del⟯ in the dom view of devtools to ⟮c+;delete the node⟯ 
-⟮c+;⟦⌘⟧ ⟦⌥⟧ ⟦click⟧⟯ one of those ⟮c+;triangle arrows⟯ in devtools to ⟮c+;expand/collapse all children⟯ 
-⟮c+;Expand and collapse⟯ DOM nodes in Chrome's devtools via the ⟮c+;right and left arrow ⟯ keys. 
-to ⟮c+;search the DOM⟯ via ⟮c+;string⟯, ⟮c+;css selector⟯ or ⟮c+;xpath selector⟯, ⟮c+;ctrl/cmd+f⟯ in the DOM view in devtools 
-to ⟮c+;hide the DOM node you have focused⟯ in devtools, press ⟮c+;h⟯ 
-to edit the ⟮c+;attributes⟯/⟮c+;node type⟯ of a node while in devtools, press ⟮c+;enter⟯ and then ⟮c+;tab/shift tab around⟯ 
-Chrome's devtools feature an ⟮c+;element picker⟯, which can be toggled with ⟮c+;⟦⌘⟧ ⟦⇧⟧ ⟦C⟧⟯ 
-to have an ⟮c+;element that you select in your devtools be visible in your browser window⟯, ⟮c+;right-click⟯ and then ⟮c+;click <q>scroll into view</q>⟯ 
-flex-container:<img src="FBb3y3CzDXA5P0sNEuyd.png">
+⟮press del⟯ in the dom view of devtools to ⟮delete the node⟯ 
+⟮⟦⌘⟧ ⟦⌥⟧ ⟦click⟧⟯ one of those ⟮triangle arrows⟯ in devtools to ⟮expand/collapse all children⟯ 
+⟮Expand and collapse⟯ DOM nodes in Chrome's devtools via the ⟮right and left arrow ⟯ keys. 
+to ⟮search the DOM⟯ via ⟮string⟯, ⟮css selector⟯ or ⟮xpath selector⟯, ⟮ctrl/cmd+f⟯ in the DOM view in devtools 
+to ⟮hide the DOM node you have focused⟯ in devtools, press ⟮h⟯ 
+to edit the ⟮attributes⟯/⟮node type⟯ of a node while in devtools, press ⟮enter⟯ and then ⟮tab/shift tab around⟯ 
+Chrome's devtools feature an ⟮element picker⟯, which can be toggled with ⟮⟦⌘⟧ ⟦⇧⟧ ⟦C⟧⟯ 
+to have an ⟮element that you select in your devtools be visible in your browser window⟯, ⟮right-click⟯ and then ⟮click <q>scroll into view</q>⟯ 
+flex-container:✫FBb3y3CzDXA5P0sNEuyd.png✫
 
 
 ##### styles tab
 
-⟮c+;navigate through⟯ ⟮c+;style declarations⟯ and ⟮c+;selectors⟯ in the styles panel with ⟮c+;tab/shift-tab⟯ 
-⟮c+;control-clicking⟯ a ⟮c+;style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮c+;goes to the line where it was declared⟯ 
-⟮c+;shift-clicking⟯ ⟮c+;the box next to a color⟯ in the styles panel devtools ⟮c+;changes its color representation (RGB, HSLA, etc.⟯) 
-flex-container:<img src="sm_2021-09-16--17-43-33-screenshot.jpg">
+⟮navigate through⟯ ⟮style declarations⟯ and ⟮selectors⟯ in the styles panel with ⟮tab/shift-tab⟯ 
+⟮control-clicking⟯ a ⟮style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮goes to the line where it was declared⟯ 
+⟮shift-clicking⟯ ⟮the box next to a color⟯ in the styles panel devtools ⟮changes its color representation (RGB, HSLA, etc.⟯) 
+flex-container:✫sm_2021-09-16--17-43-33-screenshot.jpg✫
 
 
 ##### elements+styles tab
 
-You can ⟮c+;force element state (such as hover, focus⟯) either by ⟮c+;right-clicking the DOM node &gt; force state⟯ and then choosing the state, or by ⟮c+;clicking the :hov button⟯ in the ⟮c+;styles panel⟯ and choosing the state 
+You can ⟮force element state (such as hover, focus⟯) either by ⟮c+;right-clicking the DOM node &gt; force state⟯ and then choosing the state, or by ⟮clicking the :hov button⟯ in the ⟮styles panel⟯ and choosing the state 
 
 ###### box model
 
-flex-container:⟮h∞;<img src="sm_2021-09-16--18-04-22-screenshot.jpg"><img src="sm_2021-09-16--18-03-06-screenshot.jpg">⟯
-Hovering over ⟮c+;a part of the box model⟯ in the styles tab will ⟮c+;higlight that relevant thing in the page⟯ 
-Besides by normal CSS declaration, you can ⟮c+;change any part⟯ of the CSS box model in devtools by ⟮c+;clicking on the relevant number and setting it⟯ 
+flex-container:⟮h∞;✫sm_2021-09-16--18-04-22-screenshot.jpg✫✫sm_2021-09-16--18-03-06-screenshot.jpg✫⟯
+Hovering over ⟮a part of the box model⟯ in the styles tab will ⟮higlight that relevant thing in the page⟯ 
+Besides by normal CSS declaration, you can ⟮change any part⟯ of the CSS box model in devtools by ⟮clicking on the relevant number and setting it⟯ 
 
 ##### console
 
-You can access ⟮c+;the currently selected node in the elements inspector⟯ as ⟮c+;$0⟯ in the console in devtools. 
-If you ⟮c+;right-click &gt; store as global variable⟯, the DOM element becomes available ⟮c+;as temp1, temp2, etc.⟯ ⟮c+;in the console⟯ 
+You can access ⟮the currently selected node in the elements inspector⟯ as ⟮$0⟯ in the console in devtools. 
+If you ⟮c+;right-click &gt; store as global variable⟯, the DOM element becomes available ⟮as temp1, temp2, etc.⟯ ⟮in the console⟯ 
 
 ##### other tabs/panels
 
-Use the ⟮c+;Media⟯ Panel in Chrome DevTools to view information and debug the ⟮c+;media players⟯ per browser tab. 
-The ⟮c+;Issues⟯ tab in Chrome DevTools moves the ⟮c+;issues messages⟯ that used to ⟮c+;appear in the console⟯ into their own tab 
-The ⟮c+;Coverage⟯ tab in Chrome DevTools can ⟮c+;help you find unused JavaScript and CSS code⟯. 
-to use the ⟮c+;Coverage⟯ / ⟮c+;Network⟯ tab, click ⟮c+;the record button⟯, then ⟮c+;reload (or otherwise make network requests⟯) 
+Use the ⟮Media⟯ Panel in Chrome DevTools to view information and debug the ⟮media players⟯ per browser tab. 
+The ⟮Issues⟯ tab in Chrome DevTools moves the ⟮issues messages⟯ that used to ⟮appear in the console⟯ into their own tab 
+The ⟮Coverage⟯ tab in Chrome DevTools can ⟮help you find unused JavaScript and CSS code⟯. 
+to use the ⟮Coverage⟯ / ⟮Network⟯ tab, click ⟮the record button⟯, then ⟮reload (or otherwise make network requests⟯) 
 
 ##### tab management
 
-to ⟮c+;close a tab⟯ ⟮c+;within⟯ e.g.&nbsp; the ⟮c+;sources⟯ tab, use ⟮c+;alt+w⟯ 
-next to the ⟮c+;styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮c+;event listeners registered⟯, ⟮c+;DOM Breakpoints⟯,&nbsp; ⟮c+;JS properties⟯, and ⟮c+;accessibility information⟯ 
-Besides the DevTools tabs ⟮c+;active by default⟯, there are ⟮c+;a bunch more⟯ tabs, which you can ⟮c+;show⟯ via ⟮c+;the command palette⟯, or via ⟮c+;the overflow menu⟯ 
+to ⟮close a tab⟯ ⟮within⟯ e.g.&nbsp; the ⟮sources⟯ tab, use ⟮alt+w⟯ 
+next to the ⟮styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮event listeners registered⟯, ⟮DOM Breakpoints⟯,&nbsp; ⟮JS properties⟯, and ⟮accessibility information⟯ 
+Besides the DevTools tabs ⟮active by default⟯, there are ⟮a bunch more⟯ tabs, which you can ⟮show⟯ via ⟮the command palette⟯, or via ⟮the overflow menu⟯ 
 
 ##### global features
 
-Whenever you get a ⟮c+;function⟯ in devtools, you can ⟮c+;go to the place where it's defined⟯ with ⟮c+;right click &gt; show function definition⟯ 
+Whenever you get a ⟮function⟯ in devtools, you can ⟮go to the place where it's defined⟯ with ⟮c+;right click &gt; show function definition⟯ 
 
 ### code review
 
@@ -16124,9 +16124,9 @@ A bodge/kludge is a solution to a problem that is quick to implement but inelega
 
 TDD|Test-driven development
 
-⟮c+;TDD⟯ necessarily generates ⟮c+;self-testing code⟯
-⟮c+;Self-Testing code⟯ is ⟮c+;having built-in tests⟯ for ⟮c+; anything in the codebase (added while writing the things)⟯.
-⟮c+;Code coverage⟯ is a measurement of ⟮c+;how much of $unit (e.g. lines, blocks)⟯ are run ⟮c+;when automated tests are executed⟯
+⟮TDD⟯ necessarily generates ⟮self-testing code⟯
+⟮Self-Testing code⟯ is ⟮having built-in tests⟯ for ⟮ anything in the codebase (added while writing the things)⟯.
+⟮Code coverage⟯ is a measurement of ⟮how much of $unit (e.g. lines, blocks)⟯ are run ⟮when automated tests are executed⟯
 for TDD, you first write a test that describes the feature you're wanting to implement
 If you want to fix a bug under TDD, first write a test exposing the defect
 
@@ -16155,7 +16155,7 @@ Unit tests are generally quite fast.
 Unit tests should never require you to e.g. do special things to your environment.
 Unit tests often use test doubles.
 End to end testing tests that with a given input, the program will flow correctly and the correct final state will be reached
-⟮c+;Integration testing⟯ is testing whether ⟮c+;separate modules⟯ ⟮c+;work together as intended⟯
+⟮Integration testing⟯ is testing whether ⟮separate modules⟯ ⟮work together as intended⟯
 Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
 Unit tests may be narrowly defined as testing one unit only with test doubles, or more broadly as testing a few units, thus overlapping with the narrow definition of integration tests
 
@@ -16170,16 +16170,16 @@ most build tools (cargo, ) or language CLIs feature a subcommand `test` to run t
 ## principles
 
 GIGO   Garbage In, Garbage Out
-Garbage in, garbage out claims that if the input data is somehow bad ⟮c+;the output data will be too⟯
-Syntactic sugar is syntax that makes a programming language easier to use, but ⟮c+;doesn't expand it's functionality⟯
+Garbage in, garbage out claims that if the input data is somehow bad ⟮the output data will be too⟯
+Syntactic sugar is syntax that makes a programming language easier to use, but ⟮doesn't expand it's functionality⟯
 "Anything that can go wrong will go wrong"   Murphy's law
-⟮c+;an anti-pattern⟯ is a pattern (intentional or not) that is ineffective/counter-productive 
+⟮an anti-pattern⟯ is a pattern (intentional or not) that is ineffective/counter-productive 
 YAGNI  You/ya ain't gonna need it
-In computer programming, ⟮c+;code smell⟯ is a characteristic in code that indicates a deeper problem.
+In computer programming, ⟮code smell⟯ is a characteristic in code that indicates a deeper problem.
 While code smell is often defined to mean :an indication of a problem, it often just means an actual anti-pattern/problem
 DRY   Don't repeat yourself
 KISS   Keep it simple stupid
-"⟮c+;a camel is a horse designed/made by committee⟯" is a ⟮c+;criticism of creating something by comittee⟯, since ⟮c+;the camel symbolises incorporating too many conflicting elements⟯ 
+"⟮a camel is a horse designed/made by committee⟯" is a ⟮criticism of creating something by comittee⟯, since ⟮the camel symbolises incorporating too many conflicting elements⟯ 
 
 ### mech pol
 
@@ -16327,7 +16327,7 @@ Bike-shedding is discussion that conforms to the law of triviality: Disproportio
 
 ### user stories
 
-A ⟮c+;user story⟯ is the ⟮c+;explanation of a feature⟯ ⟮c+;from the perspective of the user⟯.
+A ⟮user story⟯ is the ⟮explanation of a feature⟯ ⟮from the perspective of the user⟯.
 
 ### code quality
 
@@ -16352,10 +16352,10 @@ shell (bash/csh/ksh etc.)|shellcheck
 ###### eslint
 
 ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
-in ESlint, to ⟮c+;inherit configs from other files⟯, specify the ⟮c+;extends⟯ key
-in ESlint, to use ⟮c+;the default rules⟯, use ⟮c+;extends: eslint:recommended⟯
-in ESlint, the things stored in the ⟮c+;settings⟯ key are ⟮c+;global to all ESLint rules⟯
-To ⟮c+;extend⟯ ESLint, use ⟮c+;plugins⟯
+in ESlint, to ⟮inherit configs from other files⟯, specify the ⟮extends⟯ key
+in ESlint, to use ⟮the default rules⟯, use ⟮extends: eslint:recommended⟯
+in ESlint, the things stored in the ⟮settings⟯ key are ⟮global to all ESLint rules⟯
+To ⟮extend⟯ ESLint, use ⟮plugins⟯
 
 To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
 
@@ -16401,11 +16401,11 @@ UML is a general modelling language most commonly used in the field of software 
 
 An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
 
-flex-container:<img src="sm_220px-BankAccount1.svg.jpg">
+flex-container:✫sm_220px-BankAccount1.svg.jpg✫
 
 #### sequence
 
-flex-container:<img src="sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg">
+flex-container:✫sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg✫
 
 
 A sequencie diagram is an UML diagram showing object interactions as time flows.
@@ -16422,7 +16422,7 @@ Answer messages   dashed arrows
 #### object
 
 
-flex-container:<img src="sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg">
+flex-container:✫sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg✫
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
 
 ## automation
@@ -16658,7 +16658,7 @@ cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
 
 ####### babel
 
-Babel is a transpiler that mainly transpiles ⟮c+;newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯, but can also transpile other things.
+Babel is a transpiler that mainly transpiles ⟮newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯, but can also transpile other things.
 You can add babel to webpack by adding `babel-loader`.
 
 ######## config
@@ -17040,7 +17040,7 @@ metro is the bundler for React Native.
 #### Latex
 
 In latex the package manager is part of the tex distribution
-The two most common latex distributions are ⟮c+;TeX Live⟯ and ⟮c+;MiKTeX⟯
+The two most common latex distributions are ⟮TeX Live⟯ and ⟮MiKTeX⟯
 tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
 
@@ -17070,30 +17070,30 @@ homebrew (command: brew) and macports (command: port) are package managers for m
 homebrew can also be used on linux, and is written in ruby.
 tap TAPNAME|add a repository|brew
 
-in ⟮c+;homebrew⟯, a ⟮c+;formula⟯ ⟮c+;describes a package⟯. 
-A ⟮c+;formula⟯ is a ⟮c+;ruby (.rb⟯) file. 
-Each ⟮c+;tap⟯ has ⟮c+;its own list of formulae⟯, which you can find at ⟮s4:5;⟮c+;tap-name/Formula⟯.⟯ 
-A ⟮c+;formula⟯ contains ⟮c+;the location of the tarball of the source⟯, and  ⟮c+;a script that knows how to build the software from the source⟯. 
-A ⟮c+;precompiled formula⟯ is known as a ⟮c+;bottle⟯. 
-A ⟮c+;cask⟯ is like a ⟮c+;formula⟯, but ⟮c+;it's used to installed native .dmg mac apps instead of cli packages⟯ 
-In homebrew, ⟮c+;all formulae⟯ are contained in ⟮c+;taps⟯ (≈ ⟮c+;repositories⟯). 
-The ⟮c+;default⟯ ⟮c+;taps⟯ are ⟮c+;homebrew-core⟯ and ⟮c+;homebrew-cask⟯ (for ⟮c+;Casks⟯), and you can ⟮c+;add further 3rd party ones⟯ 
+in ⟮homebrew⟯, a ⟮formula⟯ ⟮describes a package⟯. 
+A ⟮formula⟯ is a ⟮ruby (.rb⟯) file. 
+Each ⟮tap⟯ has ⟮its own list of formulae⟯, which you can find at ⟮s4:5;⟮tap-name/Formula⟯.⟯ 
+A ⟮formula⟯ contains ⟮the location of the tarball of the source⟯, and  ⟮a script that knows how to build the software from the source⟯. 
+A ⟮precompiled formula⟯ is known as a ⟮bottle⟯. 
+A ⟮cask⟯ is like a ⟮formula⟯, but ⟮it's used to installed native .dmg mac apps instead of cli packages⟯ 
+In homebrew, ⟮all formulae⟯ are contained in ⟮taps⟯ (≈ ⟮repositories⟯). 
+The ⟮default⟯ ⟮taps⟯ are ⟮homebrew-core⟯ and ⟮homebrew-cask⟯ (for ⟮Casks⟯), and you can ⟮add further 3rd party ones⟯ 
 
-In homebrew, according to the docs, a ⟮c+;Keg⟯ is ⟮c+;the path a formula is installed to⟯, including ⟮c+;the specific version⟯. 
-since ⟮c+;Kegs⟯ are ⟮c+;always installed⟯ to ⟮c+;the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮c+;/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮c+;/opt/homebrew/Cellar/‹formulaname›/‹version›⟯&nbsp;⟯ 
-If something is ⟮c+;keg-only⟯, it is ⟮c+;installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮c+;not symlinked anywhere else⟯, often because ⟮c+;the OS already ships with a version that this would conflict iwth⟯ 
+In homebrew, according to the docs, a ⟮Keg⟯ is ⟮the path a formula is installed to⟯, including ⟮the specific version⟯. 
+since ⟮Kegs⟯ are ⟮always installed⟯ to ⟮the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮/opt/homebrew/Cellar/‹formulaname›/‹version›⟯&nbsp;⟯ 
+If something is ⟮keg-only⟯, it is ⟮installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮not symlinked anywhere else⟯, often because ⟮the OS already ships with a version that this would conflict iwth⟯ 
 
-⟮c+;homebrew⟯ installs ⟮c+;anything⟯ to ⟮c+;within its prefix⟯. 
+⟮homebrew⟯ installs ⟮anything⟯ to ⟮within its prefix⟯. 
 
 
     <tr><th colspan="2">homebrew prefixes
-⟮c+;macOS Intel⟯|⟮c+;/usr/local⟯
-⟮c+;Apple Silicon⟯|⟮c+;/opt/homebrew⟯
-⟮c+;Linux⟯|⟮c+;/home/linuxbrew⟯
+⟮macOS Intel⟯|⟮/usr/local⟯
+⟮Apple Silicon⟯|⟮/opt/homebrew⟯
+⟮Linux⟯|⟮/home/linuxbrew⟯
 
 
-⟮c+;Where homebrew has its prefixes⟯ mean you ⟮c+;don't need to sudo anything with brew⟯, which is also ⟮c+;highly discouraged.⟯ 
-If necessary, ⟮c+;homebrewbrew⟯ ⟮c+;links things⟯ ⟮c+;from its prefix⟯ ⟮c+;into directories such as /usr/local/bin, /usr/local/lib⟯ 
+⟮Where homebrew has its prefixes⟯ mean you ⟮don't need to sudo anything with brew⟯, which is also ⟮highly discouraged.⟯ 
+If necessary, ⟮homebrewbrew⟯ ⟮links things⟯ ⟮from its prefix⟯ ⟮into directories such as /usr/local/bin, /usr/local/lib⟯ 
 
 #### ruby
 
@@ -17140,7 +17140,7 @@ In a blue-green deployment, initially all users are routed to the blue env. Once
 
 feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
 Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
-Rust hides ⟮c+;unstable/experimental⟯ ⟮c+;features⟯ behind ⟮c+;feature flags⟯, ⟮sb;which you ⟮c+;can only activate⟯ on ⟮c+;nightly⟯⟯. 
+Rust hides ⟮unstable/experimental⟯ ⟮features⟯ behind ⟮feature flags⟯, ⟮sb;which you ⟮can only activate⟯ on ⟮nightly⟯⟯. 
 
 # Misc/no place yet
 
@@ -17151,8 +17151,8 @@ hot swapping may be of components, or of software
 
 ## resource leak
 
-A ⟮c+;resource leak⟯ occurs when a program ⟮c+;does not release resources⟯ when ⟮c+;it no longer nees them⟯. 
-A ⟮c+;memory leak⟯ is ⟮c+;a resource leak⟯ involving ⟮c+;memory⟯. 
+A ⟮resource leak⟯ occurs when a program ⟮does not release resources⟯ when ⟮it no longer nees them⟯. 
+A ⟮memory leak⟯ is ⟮a resource leak⟯ involving ⟮memory⟯. 
 
 ## Indexing
 
@@ -17165,7 +17165,7 @@ In most languages, referring to an associative array element that doesn't exist 
 TS changes referring to a lin col index outside of bounds or a nonextand assoc arr element to an error
 JS allows indexing strings via the charAt method.
 
-Dot notation ⟮c+;object⟯⟮c+;.⟯⟮c+;member⟯
+Dot notation ⟮object⟯⟮.⟯⟮member⟯
 Most languages use dot notation for accessing members of records.
 Some languages also use dot notation for access of assoc arrays.
 In Rust, also tuples are accessed via dot notation, but arrays are not.
@@ -17179,7 +17179,7 @@ The scope resolution operator is typically `::`.
 The scope resolution operator comes from C++ and is used in ruby, rust.
 
 While JS will not error if you try to access a key or index that is nonexistant, it will return undefined, and if you then try to access something of undefined, it will return an error.
-TS makes referring to ⟮c+;nonexistent properties⟯ an ⟮c+;error⟯, rather than ⟮c+;returning undefined⟯
+TS makes referring to ⟮nonexistent properties⟯ an ⟮error⟯, rather than ⟮returning undefined⟯
 In JS, the ?. is called the optional chaining operator.
 In JS, the optional chaining operator works like dot notation, except that if used on a nullish value, it will short-circuit and return undefined.
 the optional chaining operator short-circuiting to undefined when after something that is nullish prevents attempted indexing of something nullish, which would otherwise cause an error.
@@ -17191,14 +17191,14 @@ assoc array access []|Python|Ruby|
 
 ## Project Jupyter
 
-⟮c+;Jupyter Notebooks⟯ used to be called ⟮c+;IPython Notebooks⟯
+⟮Jupyter Notebooks⟯ used to be called ⟮IPython Notebooks⟯
 Jupyter notebooks are multimedia documents.
 Jupyter notebooks can contain code, markdown test, math, plots, media/images.
 Code within Jupyter notebooks are run by kernels.
 There Jupyter kernels for a bunch of different programming languages.
 The python kernel for Jupyter notebooks is the ipython kernel.
 Jupyter notebooks are in fact implemented via json files.
-The file type of ⟮c+;jupyter notebooks⟯ is ⟮c+;.ipynb⟯
+The file type of ⟮jupyter notebooks⟯ is ⟮.ipynb⟯
 The Jupyter Notebook App is a server-based application that allows editing and running notebook documents via a web browser.
 The Jupyter Notebook App can be executed locally or can be installed on a remote server and accessed through the internet.
 Jupyter Notebooks can be edited using many different programs, e.g. the official Jupyter Notebook App, but also VSCode
@@ -17217,8 +17217,8 @@ Associative arrays: names, literals, other construction methods, etc.
 
 ### Computer Ergonomics
 
-Ideally, your ⟮c+;arm (elbow⟯) should have an angle of ⟮c+;90°⟯ while ⟮c+;touch typing⟯ 
-Ideally, ⟮c+;your wrist⟯ should be ⟮c+;hovering⟯ while ⟮c+;touch typing⟯ 
+Ideally, your ⟮arm (elbow⟯) should have an angle of ⟮90°⟯ while ⟮touch typing⟯ 
+Ideally, ⟮your wrist⟯ should be ⟮hovering⟯ while ⟮touch typing⟯ 
 
 ## server directory structure
 
@@ -17267,11 +17267,11 @@ hexadecimal
 
 
 
-HTML has ⟮c+;two ways⟯ of specifying ⟮c+;character escapes⟯. 
+HTML has ⟮two ways⟯ of specifying ⟮character escapes⟯. 
 Both ways HTML has for specifying character escapes ⟮c+;start with an &amp;⟯ and ⟮c+;end with a semicolon ;⟯.
-Of these, ⟮c+;numeric character references⟯ ⟮c+;refer to the character position within character set (most commmonly UTF-8⟯), ⟮sb;they start ⟮c+;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮hb;(for example ⟮c+;&amp;#8203;⟯⟯⟯) 
-⟮c+;Character entity references⟯ ⟮c+;have a short, memorable name⟯ ⟮hb;(for example ⟮c+;&amp;amp; or &amp;quot⟯⟯) 
-This distinction is however often not made, and often ⟮c+;any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity⟯) are used. 
+Of these, ⟮numeric character references⟯ ⟮refer to the character position within character set (most commmonly UTF-8⟯), ⟮sb;they start ⟮c+;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮hb;(for example ⟮c+;&amp;#8203;⟯⟯⟯) 
+⟮Character entity references⟯ ⟮have a short, memorable name⟯ ⟮hb;(for example ⟮c+;&amp;amp; or &amp;quot⟯⟯) 
+This distinction is however often not made, and often ⟮any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity⟯) are used. 
 
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
@@ -17279,8 +17279,8 @@ Character entity reference / Numeric character reference|Displays as / creates?
 ⟮c+;&amp;gt;⟯|⟮c+;&gt;⟯
 ⟮c+;&amp;lt;⟯|⟮c+;&lt;⟯
 ⟮c+;&amp;amp;⟯|⟮c+;&amp;⟯
-⟮c+;&amp;shy;⟯|⟮c+;A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
-⟮c+;&amp;#8203;⟯|⟮c+;A zero-width space that allows the browser to break there, when necessary⟯
+⟮c+;&amp;shy;⟯|⟮A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
+⟮c+;&amp;#8203;⟯|⟮A zero-width space that allows the browser to break there, when necessary⟯
 
 
 ## text encoding
@@ -17475,9 +17475,9 @@ Today, most things default to UTF-8, however a few things such as JS and Java de
 UTF-16 consists of 16-bit code units.
 An unicode code point encoded with UTF-16 may consist of one or two code units
 UTF-16 requires one code unit(s) for things in the BMP, and two code unit(s) for anything else
-if UTF-16 needs ⟮c+;two code units⟯, these ⟮c+;two code units⟯ are called ⟮c+;a surrogate pair⟯
-In surrogate pairs (UTF-16) the code unit that should come ⟮c+;first⟯ is called the ⟮c+;high surrogate⟯, the code unit that should come ⟮c+;second⟯ is called the ⟮c+;low surrogate⟯
-⟮c+;High-surrogate⟯ code units have a hex value ⟮c+;0xD800-0xDBFF⟯
+if UTF-16 needs ⟮two code units⟯, these ⟮two code units⟯ are called ⟮a surrogate pair⟯
+In surrogate pairs (UTF-16) the code unit that should come ⟮first⟯ is called the ⟮high surrogate⟯, the code unit that should come ⟮second⟯ is called the ⟮low surrogate⟯
+⟮High-surrogate⟯ code units have a hex value ⟮0xD800-0xDBFF⟯
 
 ###### UTF-8
 
@@ -17498,7 +17498,7 @@ To encode a character in UTF-8, first we determine how many bit the character re
 
 ###### Percent
 
-(near) synonyms: ⟮c+;Percent encoding⟯, ⟮c+;URL/I encoding⟯
+(near) synonyms: ⟮Percent encoding⟯, ⟮URL/I encoding⟯
 
 To percent-encode a character, use the characters UTF-8 representation, and then percent-encode each byte.
 percent-encoded-byte ::= %<hex-digit><hex-digit>
@@ -17514,8 +17514,8 @@ An aspect is a cross-cutting concern.
 A cross-cutting concerns is a common feature that's typically scattered across methods, classes, object hierarchies, or even entire object models.
 Examples for a cross-cutting concern might be logging.
 
-Case-preservation is whether something ⟮c+;stores or disregards case information⟯
-Case-sensitivity is whether something ⟮c+;differentiates based on case⟯
+Case-preservation is whether something ⟮stores or disregards case information⟯
+Case-sensitivity is whether something ⟮differentiates based on case⟯
 
 ## more misc
 
@@ -17528,7 +17528,7 @@ An instance is something that has been created on some sort of model.
 Placeholder images using kittens|placekitten.com
 Placeholder images using boring boxes|via.placeholder.com
 
-via.placeholder.com/⟮c+;width⟯[⟮c+;x⟯⟮c+;height⟯]
-placekitten.com/⟮c+;width⟯⟮c+;/⟯⟮c+;height⟯
+via.placeholder.com/⟮width⟯[⟮x⟯⟮height⟯]
+placekitten.com/⟮width⟯⟮/⟯⟮height⟯
 
 

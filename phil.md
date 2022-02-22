@@ -15,15 +15,15 @@ however, in some cases the meanings of epistemic and epistemological are mixed u
 
 #### ravens
 
-the ⟮c+;raven paradox⟯ is a paradox by ⟮c+;Hempel⟯ which arises from the question of ⟮c+;what constitutes evidence for a statement⟯
-The issue at the heart of the ⟮c+;raven paradox⟯ is that objects that are ⟮c+;neither black nor ravens⟯ ⟮c+;increase the likelyhood⟯ that ⟮c+;all ravens are black⟯, even though the intuition is that ⟮c+;these observations are unrelated⟯.
+the ⟮raven paradox⟯ is a paradox by ⟮Hempel⟯ which arises from the question of ⟮what constitutes evidence for a statement⟯
+The issue at the heart of the ⟮raven paradox⟯ is that objects that are ⟮neither black nor ravens⟯ ⟮increase the likelyhood⟯ that ⟮all ravens are black⟯, even though the intuition is that ⟮these observations are unrelated⟯.
 Ravens paradox:
-⟮c+;All ravens are black⟯ ( = ⟮c+;If something is a raven, then it is black⟯).
-(via ⟮c+;contraposition⟯) ⟮c+;If something is not black, then it is not a raven⟯.
-⟮c+;"My pet raven is black" should count as evidence for "If something is a raven, then it is black"⟯
-⟮c+;"This green apple is not black, and it is not a raven." should count as evidence for "If something is not black, then it is not a raven."⟯
-Since ⟮c+;"If something is a raven, then it is black" is equivalent to "If something is not black, then it is not a raven."⟯, ⟮c+;"This green apple is not black, and it is not a raven." counts as evicence for "My pet raven is black"⟯.
-But ⟮c+;that's weird (maybe, it might also seem intuitive)⟯!
+⟮All ravens are black⟯ ( = ⟮If something is a raven, then it is black⟯).
+(via ⟮contraposition⟯) ⟮If something is not black, then it is not a raven⟯.
+⟮"My pet raven is black" should count as evidence for "If something is a raven, then it is black"⟯
+⟮"This green apple is not black, and it is not a raven." should count as evidence for "If something is not black, then it is not a raven."⟯
+Since ⟮"If something is a raven, then it is black" is equivalent to "If something is not black, then it is not a raven."⟯, ⟮"This green apple is not black, and it is not a raven." counts as evicence for "My pet raven is black"⟯.
+But ⟮that's weird (maybe, it might also seem intuitive)⟯!
 
 #### determination
 
@@ -34,7 +34,7 @@ If 太郎 and 花子 throw stones at a window, each of which would have been eno
 
 ### knowledge
 
-the ⟮c+;KK⟯ ⟮c+;thesis⟯/⟮c+;principle⟯ is the principle "⟮c+;If you know that P⟯ ⟮c+;then you know that you know that P⟯"
+the ⟮KK⟯ ⟮thesis⟯/⟮principle⟯ is the principle "⟮If you know that P⟯ ⟮then you know that you know that P⟯"
 Relatively uncontroversially, (propositional/declarative) knowledge is seen to be at least true belief
 
 #### JTB
@@ -57,7 +57,7 @@ The coin toss experiment: We arbitrarily believe that the next coin toss will la
 
 ##### J
 
-⟮c+;the regress argument (although this is also a type of argument)⟯ = ⟮c+;dialllelus/diallelon⟯ = ⟮c+;the (epistemic) regress problem⟯
+⟮the regress argument (although this is also a type of argument)⟯ = ⟮dialllelus/diallelon⟯ = ⟮the (epistemic) regress problem⟯
 The diallelus is one of the horns of the agrippa-trilemma, namely the idea that any proposition (premise, etc.) requires further justification and thus ends in an infinite regress.
 
 ###### infinitism
@@ -66,10 +66,10 @@ Infinitism is the idea that the diallelus horn is acceptable.
 
 ###### foundationalism
 
-Foundationalism is one of the horns of the agrippa-trilemma, states that ⟮c+;knowledge⟯ ultimately ⟮c+;rests on certain basic beliefs⟯, which require no further justification.
-⟮c+;Foundationalist⟯ theories mainly differ in ⟮c+;what sort of basic beliefs are posited⟯
+Foundationalism is one of the horns of the agrippa-trilemma, states that ⟮knowledge⟯ ultimately ⟮rests on certain basic beliefs⟯, which require no further justification.
+⟮Foundationalist⟯ theories mainly differ in ⟮what sort of basic beliefs are posited⟯
 Things that are often posited as basic beliefs for foundationalism are: self-evident/incorrigible beliefs, beliefs from introspection, beliefs aquired via the senses, or an otherwise special kind of belief (such as decartes "clear and distinct" ideas)
-the problem with accepting ⟮c+;truthes of the senses⟯ as ⟮c+;basic beliefs⟯ is that ⟮c+;one might be mislead (e.g. descartes' demon)⟯
+the problem with accepting ⟮truthes of the senses⟯ as ⟮basic beliefs⟯ is that ⟮one might be mislead (e.g. descartes' demon)⟯
 
 ####### sense experience
 
@@ -82,7 +82,7 @@ According to the myth of the given, seeing a red triangle alone does not give us
 
 ###### int/ext 
 
-Epistemological ⟮c+;internalism⟯/⟮c+;externalism⟯ is the claim that  ⟮c+;justification⟯ for knowledge depends on ⟮c+;factors that are⟯ ⟮c+;internal⟯/⟮c+;external⟯ to ⟮c+;a person⟯
+Epistemological ⟮internalism⟯/⟮externalism⟯ is the claim that  ⟮justification⟯ for knowledge depends on ⟮factors that are⟯ ⟮internal⟯/⟮external⟯ to ⟮a person⟯
 
 ##### not J/new J
 
@@ -104,8 +104,8 @@ Besides coherence theories of truth, there also exist coherence theories of just
 ##### B (doxastic attitudes)
 
 doxastic attitudes are attitudes about belief
-The ⟮c+;doxastic attitude⟯ of ⟮c+;belief⟯ is ⟮c+;holding a proposition to be true⟯
-The ⟮c+;doxastic attitude⟯ of ⟮c+;disbelief⟯ is ⟮c+;holding a proposition to be false⟯
+The ⟮doxastic attitude⟯ of ⟮belief⟯ is ⟮holding a proposition to be true⟯
+The ⟮doxastic attitude⟯ of ⟮disbelief⟯ is ⟮holding a proposition to be false⟯
 
 ##### gettier
 
@@ -116,7 +116,7 @@ It is doubtful that JTB was in fact the dominant account of knowledge before Get
 
 The kinds of knowledge that are often distinguished are imperative/procedural knowledge, descriptive/declarative/propositional knowledge, and aquaintance knowledge
 imperative knowledge = procedural knowledge
-Synonyms: ⟮c+;descriptive⟯ knowlege, ⟮c+;declarative⟯ knowledge, ⟮c+;propositional⟯ knowledge.
+Synonyms: ⟮descriptive⟯ knowlege, ⟮declarative⟯ knowledge, ⟮propositional⟯ knowledge.
 Descriptive/Declarativ/propositional knowledge|"knowing-that"|The capital of Uzbekistan is Tashkent
 Procedural/imperative knowledge|"knowing-how"|Adding numbers
 
@@ -149,7 +149,7 @@ If abduction was deductive, it would be equivalent to the fehlschluss affirming 
 Grue and bleen were coined by goodman to exemplify the "new problem of induction"
 Something grue will be green if observed before a fixed time t and blue afterwards
 SOmething bleen will be blue if observed before a fixed time t and green afterwards
-The "⟮c+;new problem of induction⟯" may be explained like so: Imagine a statement like "⟮c+;All emeralds are green⟯" and a statement "⟮c+;All emeralds are grue.⟯" ⟮c+;Before time t⟯, ⟮c+;both statements⟯ is/are ⟮c+;correct⟯, but ⟮c+;after time t⟯, ⟮c+;only the first⟯ is/are ⟮c+;correct⟯, that is, ⟮c+;only the first statement⟯ is/are ⟮c+;projectable into the future⟯. However, ⟮c+;before time t, we have no way to know this⟯. Therefore, ⟮c+;we have no basis to know which claims are projectable into the future.⟯
+The "⟮new problem of induction⟯" may be explained like so: Imagine a statement like "⟮All emeralds are green⟯" and a statement "⟮All emeralds are grue.⟯" ⟮Before time t⟯, ⟮both statements⟯ is/are ⟮correct⟯, but ⟮after time t⟯, ⟮only the first⟯ is/are ⟮correct⟯, that is, ⟮only the first statement⟯ is/are ⟮projectable into the future⟯. However, ⟮before time t, we have no way to know this⟯. Therefore, ⟮we have no basis to know which claims are projectable into the future.⟯
 
 
 ##### by analogy
@@ -180,12 +180,12 @@ the perspective of a participant of a thing (e.g. culture)|emic|A 'bavarian' tal
 
 #### situatedness
 
-⟮c+;Situatedness⟯ is the general idea that ⟮c+;our location in the social world⟯ ⟮c+;determines⟯ ⟮c+;things about us⟯, in particular our ⟮c+;understanding⟯ and ⟮c+;behaviors⟯. Connected to ⟮c+;standpoint theory⟯, but less rigorously defined. 
+⟮Situatedness⟯ is the general idea that ⟮our location in the social world⟯ ⟮determines⟯ ⟮things about us⟯, in particular our ⟮understanding⟯ and ⟮behaviors⟯. Connected to ⟮standpoint theory⟯, but less rigorously defined. 
 
 #### standpoint theory
 
 Standpoint theory = standpoint epistemology.
-⟮c+;Standpoint theory (or epistemology)⟯ was founded by ⟮c+;Sandra Harding⟯
+⟮Standpoint theory (or epistemology)⟯ was founded by ⟮Sandra Harding⟯
 Standpoint theory/epistemology makes two claims, the situated knowledge thesis and the inversion thesis
 The inversion thesis = people inhabiting a standpoint (which is, remember, membership in a group with shared poltical consciousness) have privileged (less distorted) epistemological access to certain knowledge
 the situated knowledge thesis = knowledge is socially situated
@@ -200,12 +200,12 @@ Many standpoint theorists argue that this standpoint is achieved through the exp
 
 #### a priori/a posteriori
 
-flex-container:<img src="sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg">
+flex-container:✫sm_paste-53ea783dfd04a9bffc148ed85d5085388c509f07.jpg✫
 
 
-⟮c+;Erkenntnis / Urteile⟯ kann ⟮c+;a priori / a posteriori⟯ sein. 
-⟮c+;Urteil a posteriori⟯|⟮c+;Ein Urteil auf Basis von Erfahrung⟯
-⟮c+;Urteil a priori⟯|⟮c+;Ein Urteil ohne die Basis der Erfahrung⟯
+⟮Erkenntnis / Urteile⟯ kann ⟮a priori / a posteriori⟯ sein. 
+⟮Urteil a posteriori⟯|⟮Ein Urteil auf Basis von Erfahrung⟯
+⟮Urteil a priori⟯|⟮Ein Urteil ohne die Basis der Erfahrung⟯
 
 ### explanations
 
@@ -310,7 +310,7 @@ In a strawman argument, the pretense is that the new hypothesis Q is one someone
 
 #### hermeneutical injustice
 
-⟮c+;Hermeneutical injustice⟯ occurs when ⟮c+;someone's experiences⟯ are n⟮c+;ot well understood⟯ — by ⟮c+;themselves⟯ or by ⟮c+;others⟯ — because these ⟮c+;experiences⟯ do not ⟮c+;fit any concepts known to them (or known to others)⟯.
+⟮Hermeneutical injustice⟯ occurs when ⟮someone's experiences⟯ are n⟮ot well understood⟯ — by ⟮themselves⟯ or by ⟮others⟯ — because these ⟮experiences⟯ do not ⟮fit any concepts known to them (or known to others)⟯.
 Hermeneutical injustice often occurs to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences.
 A woman that was suffering from sexual harassment before the term was coined or without knowing about the term would have been suffering from hermeneutical injustice
 Willful hermeneutical ignorance was coined by pohlhaus.
@@ -342,7 +342,7 @@ prototypical secondary qualities: color, smell, etc.
 #### mereology
 
 Mereology is the study of parts and wholes.
-A gestalt is a thing that is ⟮c+;more than the sum of its parts⟯
+A gestalt is a thing that is ⟮more than the sum of its parts⟯
 
 #### universals
 
@@ -366,7 +366,7 @@ Presentism is the ontological attitude that only the present (neither the past n
 
 ##### realism
 
-⟮c+;(Metaphysical) realism⟯ is the view that objects exist independently of our thoughts.
+⟮(Metaphysical) realism⟯ is the view that objects exist independently of our thoughts.
 While subjective idealism is metaphysically anti-realist, objective realis is metaphysically idealist.
 
 #### social ontology
@@ -387,13 +387,13 @@ Asta distinguishes two kinds of social properties: institutional properties and 
 
 ###### response-dependence
 
-response-dependent property formula: ⟮c+;P is Q⟯ ⟮c+;iff⟯ it ⟮c+;induces response R⟯ in ⟮c+;being B⟯ in ⟮c+;context C⟯
+response-dependent property formula: ⟮P is Q⟯ ⟮iff⟯ it ⟮induces response R⟯ in ⟮being B⟯ in ⟮context C⟯
 Response-dependent account of the property being-red: A thing is red iff it reduces the experience of looking red in a suitable subject in a suitable context.
 Response-dependent accounts of social properties face the criticism that they can't account for someone being mistaken in applying a property, which is particularly problematic in cases such as misgendering. A response by some has been to chagne "induces response" to "merits response", though it is unclear if this solves anything.
 
 ###### constitutivity
 
-What Ásta calls a constitutive account of social properties is ⟮c+;searles (early) account of a constitutive rule⟯
+What Ásta calls a constitutive account of social properties is ⟮searles (early) account of a constitutive rule⟯
 Constitutive account of a property: X counts as Y in context C.
 Constitutive account of being-a-paperweight: a stone smaller than 10cm in diameter counts as a paperweight in the context of my des
 The constitutive account makes finding out if something has a property a merely epistemic task (was Y X, and was there context C), and X is still Y even if no one ever tries to detect the property.
@@ -420,7 +420,7 @@ To Ásta, a certain conferred property can be conferred via radically different 
 To Ásta, gender is a property where people are tracking widely different base properties to confer the conferred property, but have the (often false) idea that tracking one thing tracks the other things automatically.
 Things that people may be tracking to confer gender: role in societal organization, in presentation of the body, in prepation of food, in biological reproduction, as sexual partner
 Since gender is tracked via a variety of different base properties, people may not always get conferred the same gender. E.g. if sexual availability is being tracked by men, a lesbian woman may not get conferred the social property of woman.
-If one is not eligible to marry, but the person marries one anyway without noticing (thus failing to track the base property), the conferralist account says one will be ⟮c+;married anyway (since conferral only relies on the perception of the property)⟯ - mirroring reality, where one would also be treated as married.
+If one is not eligible to marry, but the person marries one anyway without noticing (thus failing to track the base property), the conferralist account says one will be ⟮married anyway (since conferral only relies on the perception of the property)⟯ - mirroring reality, where one would also be treated as married.
 
 ####### power to confer
 
@@ -464,12 +464,12 @@ https://commons.wikimedia.org/wiki/File:Dualism-vs-Monism.png
 
 In the philosphy of mind, physicalism/materialism, idealism and neutral monism all are monistic theories
 idealism claims that only mind and mental contents exist and that matter is reducible to it.
-⟮c+;subjective idealism⟯ is the idea that only minds/mental contents of individual percievers exist.
+⟮subjective idealism⟯ is the idea that only minds/mental contents of individual percievers exist.
 George berkeley was the main proponent of subjective idealism.
 objective idealism is the idea that only one mind exists, which does all the percieving.
-⟮c+;Neutral monism⟯ claims that ultimate reality is neither mental nor physical and both mental and physical states are derived from a neutral entity.
-neutral monism occupies a middle position between ⟮c+;idealism (only minds and mental contents exist) and Physicalism (only matter exists)⟯
-⟮c+;materialism/physicalism⟯ holds that only matter exists and that mental states are reducible to it.
+⟮Neutral monism⟯ claims that ultimate reality is neither mental nor physical and both mental and physical states are derived from a neutral entity.
+neutral monism occupies a middle position between ⟮idealism (only minds and mental contents exist) and Physicalism (only matter exists)⟯
+⟮materialism/physicalism⟯ holds that only matter exists and that mental states are reducible to it.
 
 #### transcendental idealism
 
@@ -555,7 +555,7 @@ However, 鈴木さん and Twin 鈴木さん's mental and bodily states are exact
 
 ### direction of fit
 
-⟮c+;direction of fit⟯ is how words/speech acts/language and the world conform to each other.
+⟮direction of fit⟯ is how words/speech acts/language and the world conform to each other.
 there are two sets of distinctions in direction of fit: mind-to-world/world-to-mind and word-to-world/world-to-word
 A mental state where the contents of the mental state are trying to model reality has mind-to-world direction of fit.
 Mind-to-world mental states: beliefs
@@ -568,7 +568,7 @@ We put things in a shopping cart based on what's on our shopping list   world-to
 
 ### loaded question
 
-A ⟮c+;loaded question⟯ is a question that ⟮c+;contains a controversial assumption (presupposition⟯) (e.g. ⟮c+;s2;have you stopped beating your wife⟯)
+A ⟮loaded question⟯ is a question that ⟮contains a controversial assumption (presupposition⟯) (e.g. ⟮c+;s2;have you stopped beating your wife⟯)
 
 ## philosophy of science
 
@@ -597,8 +597,8 @@ After a new paradigm is adopted, it is institutionalized and thus the revolution
 
 ### verificationism
 
-⟮c+;Verificationism⟯ ≈ ⟮c+;Verification Principle⟯ ≈ ⟮c+;Verfiability criterion of meaning⟯
-⟮c+;Logical empiricism⟯ = ⟮c+;Logical positivism⟯
+⟮Verificationism⟯ ≈ ⟮Verification Principle⟯ ≈ ⟮Verfiability criterion of meaning⟯
+⟮Logical empiricism⟯ = ⟮Logical positivism⟯
 Logical positivism/empiricism was a movement popular in the early-mid 20th century made up in part by the berlin circle and vienna circle
 The Vienna Circle of Logical Empiricism/Positivism was a group of philosophers, scientists, and mathemtaticians who met regularly at the university of vienna from 1924 to 1936, and was chaired by Moritz Schlick.
 The main position of logical positivism/empiricism is the verfication priciple.
@@ -673,7 +673,7 @@ Lycan paraphrases Kripke offering a test for if a term is rigid: if the sentence
 
 ## Kant
 
-Bei ⟮c+;Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮c+;materiale Vernunfterkenntnis⟯, die sich ⟮c+;auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮c+;formale Vernunfterkenntnis⟯, die sich ⟮c+;auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
+Bei ⟮Kant⟯ gibt es zwei Arten von Vernunfterkenntnis, ⟮materiale Vernunfterkenntnis⟯, die sich ⟮auf ein irgendwie geartetes Objekt⟯ bezieht, und ⟮formale Vernunfterkenntnis⟯, die sich ⟮auf kein objekt, sondern auf die Form des Verstandes selber bezieht⟯. 
 
 table:style=background-color: palegreen;headerrows=0;!span=4;⟮c+;s∞;material (objekt-bezogen⟯)|⟮c+;s∞;formal (nicht-objektbezogen, rein verstandesbezogen⟯)
 !span=2;⟮c+;s∞;Physik (Objekt: Natur⟯)|span=2;background-color: palegreen;⟮c+;s∞;Ethik (Objekt: Freiheit⟯)|⟮c+;s∞; Logik ⟯
@@ -707,19 +707,19 @@ Ethical hedonism claims that increasing pleasure and decreasing pain determines 
 ##### experience machine
 
 Nozick's 『Anarchy, State, and Utopia』 (1974) contains the famous experience machine thought experiment.
-Nozick's 『Anarchy, State, and Utopia』 is said to be responding to Rawls' ⟮c+;A Theory of Justice⟯ (1971)
+Nozick's 『Anarchy, State, and Utopia』 is said to be responding to Rawls' ⟮A Theory of Justice⟯ (1971)
 The Experience machine is a thought experiment against ethical hedonism.
 For the experience machine thought experiment, one is offered to enter a machnine, which, while floating within it, would give us pleasurable experiences. We would not know we were in the machine (it would seem like real life to us), and the machine could not fail. 
 Nozick argues one would not want to enter the experience machine, for example because it would limit us to a man-made reality, we want to be a certain sort of person, etc.
 
 ## demands
 
-the original ⟮c+;catch-22⟯ (since ⟮c+;it's used in many different ways later in the book⟯): ⟮c+;If you're declared insane, you get sent home from fighting⟯:
+the original ⟮catch-22⟯ (since ⟮it's used in many different ways later in the book⟯): ⟮If you're declared insane, you get sent home from fighting⟯:
 -&gt; ⟮c+;s13:14;If you say you're insane (or apply for insanity⟯), that ⟮c+;s13:14;makes you sane, and so you still have to fight.⟯
 -&gt; And ⟮c+;s11:12;if you don't say you're insane (or apply for insanity⟯) ⟮c+;s11:12;you still have to fight⟯. 
-The ⟮c+;original⟯ ⟮c+;catch-22⟯ ⟮c+;from the book⟯ is ⟮c+;just a constructive dilemma⟯. 
-The term ⟮c+;catch-22⟯ is also often used as ⟮c+;a synonym for deadlock (in the CS sense⟯). 
-The term ⟮c+;catch-22⟯ may at its most broad just refer to ⟮c+;a kind of contradiction or problem involving 2 things.⟯ 
+The ⟮original⟯ ⟮catch-22⟯ ⟮from the book⟯ is ⟮just a constructive dilemma⟯. 
+The term ⟮catch-22⟯ is also often used as ⟮a synonym for deadlock (in the CS sense⟯). 
+The term ⟮catch-22⟯ may at its most broad just refer to ⟮a kind of contradiction or problem involving 2 things.⟯ 
 A double bind is a demand or set of demands which is/are not all fulfillable at the same time, thus automatically incurring whatever sanctions are attached to the demand.
 
 ## motiviation
@@ -752,11 +752,11 @@ Postmodernism had its heyday in the 1970s and has been declining since the 90s/2
 
 ### contemporary
 
-⟮c+;Hypatia⟯ is perhaps the ⟮c+;most famous/important⟯ journal about ⟮c+;feminist philosophy⟯
+⟮Hypatia⟯ is perhaps the ⟮most famous/important⟯ journal about ⟮feminist philosophy⟯
 
 #### the tuvel affair
 
-In ⟮c+;2017⟯, the journal ⟮c+;hypatia⟯ published an article by ⟮c+;rebecca tuvel⟯ in favor of ⟮c+;transracialism⟯ (which led to a large controversy). ⟮s1:4;After it was released, an ⟮c+;open letter⟯ was ⟮c+;written⟯ requesting ⟮c+;the article be retracted⟯, signed by ⟮c+;800⟯ scholars. ⟮s5:7;The criticisms  related to tuvel herself were  ⟮c+;an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮c+;an alleged mishandling of the review process⟯. ⟮s8:9;The ⟮c+;wider academic community⟯ reacted to ⟮c+;the open letter⟯ with ⟮c+;an outporing of support for Tuvel⟯. After the affair, the journal ⟮c+;was thrown into crisis⟯.⟯⟯⟯
+In ⟮2017⟯, the journal ⟮hypatia⟯ published an article by ⟮rebecca tuvel⟯ in favor of ⟮transracialism⟯ (which led to a large controversy). ⟮s1:4;After it was released, an ⟮open letter⟯ was ⟮written⟯ requesting ⟮the article be retracted⟯, signed by ⟮800⟯ scholars. ⟮s5:7;The criticisms  related to tuvel herself were  ⟮an alleged immersion in white and cisgender privilege⟯, related to the journal ⟮an alleged mishandling of the review process⟯. ⟮s8:9;The ⟮wider academic community⟯ reacted to ⟮the open letter⟯ with ⟮an outporing of support for Tuvel⟯. After the affair, the journal ⟮was thrown into crisis⟯.⟯⟯⟯
 The tuvel affair was seen by those who wanted to see it as such as a clash between analytic and continental philosophy.
 
 ## turns
@@ -789,7 +789,7 @@ The perhaps most commonly cited objection to pascal's wager, besides the fact th
 
 ## terminology
 
-in generaly, ⟮c+;antinomy⟯ is ⟮c+;a paradox/contradiction⟯ 
+in generaly, ⟮antinomy⟯ is ⟮a paradox/contradiction⟯ 
 
 ### disambiguation
 
@@ -797,12 +797,12 @@ in generaly, ⟮c+;antinomy⟯ is ⟮c+;a paradox/contradiction⟯
 
 ## intext
 
-Across philosohpical subdisciplines, ⟮c+;internalism⟯ / ⟮c+;externalism⟯ assert that a particular phenomenon ⟮c+;has a basis / depends on factors⟯ that is/are ⟮c+;internal⟯/⟮c+;external⟯ to the ⟮c+;subject⟯
+Across philosohpical subdisciplines, ⟮internalism⟯ / ⟮externalism⟯ assert that a particular phenomenon ⟮has a basis / depends on factors⟯ that is/are ⟮internal⟯/⟮external⟯ to the ⟮subject⟯
 
 ## real
 
-In general, if one is realist about something, one thinks ⟮c+;That it has an existence beyond the mind of the observer⟯
-In general, if one is anti-realist about something, one thinks ⟮c+;that it does not have an existence beyond the mind of the observer⟯
+In general, if one is realist about something, one thinks ⟮That it has an existence beyond the mind of the observer⟯
+In general, if one is anti-realist about something, one thinks ⟮that it does not have an existence beyond the mind of the observer⟯
 
 
 ## resources
@@ -818,16 +818,16 @@ heteronomous   other-controlled
 
 ## theories of humor/laughter
 
-In ⟮c+;the incongruity theory of humor⟯, something is funny because ⟮c+;it somehow violates our expectations⟯ 
-In ⟮c+;the relief theory of laughter⟯, ⟮c+;laughter/humor is the release of pent-up nervous energy⟯/ 
-The ⟮c+;relief theory of laughter⟯ reliess (explicitly or implicitly) on the metaphor of ⟮c+;a steam valve⟯ 
-The problem with ⟮c+;the relief theory of laughter⟯ is that ⟮c+;nervous energy isn't a real thing that one would need to release.⟯ 
-⟮c+;The superiority theory (of humor/laughter⟯) is the theory that ⟮c+;laughter expresses feelings of superiority⟯ over ⟮c+;other people⟯ or over ⟮c+;a former state of ourselves⟯ (main supporters (possibly, depending on how you read them): ⟮c+;Plato, Hobbes, Descartes⟯ ) 
+In ⟮the incongruity theory of humor⟯, something is funny because ⟮it somehow violates our expectations⟯ 
+In ⟮the relief theory of laughter⟯, ⟮laughter/humor is the release of pent-up nervous energy⟯/ 
+The ⟮relief theory of laughter⟯ reliess (explicitly or implicitly) on the metaphor of ⟮a steam valve⟯ 
+The problem with ⟮the relief theory of laughter⟯ is that ⟮nervous energy isn't a real thing that one would need to release.⟯ 
+⟮The superiority theory (of humor/laughter⟯) is the theory that ⟮laughter expresses feelings of superiority⟯ over ⟮other people⟯ or over ⟮a former state of ourselves⟯ (main supporters (possibly, depending on how you read them): ⟮Plato, Hobbes, Descartes⟯ ) 
 <div class="cloze-group hide-if-inactive">
-  The problem with the ⟮c+;superoiority theory of humor/laughter:⟯ 
+  The problem with the ⟮superoiority theory of humor/laughter:⟯ 
 <ol>
-<li>since there are cases in ⟮c+;which one feels superior to someone (i.e. a beggar⟯) but ⟮c+;feels pity rather than laughs⟯, ⟮c+;superiority is not sufficient to explain laughter⟯</li>
-<li>Since there are cases in which ⟮c+;one laughts but doesn't feel superior⟯, ⟮c+;superiority is not necessary to explain laughter⟯</li>
+<li>since there are cases in ⟮which one feels superior to someone (i.e. a beggar⟯) but ⟮feels pity rather than laughs⟯, ⟮superiority is not sufficient to explain laughter⟯</li>
+<li>Since there are cases in which ⟮one laughts but doesn't feel superior⟯, ⟮superiority is not necessary to explain laughter⟯</li>
 </ol>
 </div>
 
