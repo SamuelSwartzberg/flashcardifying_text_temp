@@ -783,8 +783,8 @@ A mathematical ⟮function⟯ must take ⟮one or more⟯ ⟮arguments⟯
 
 ### notation
 
-f(x) is read <q>f of x</q> in english
-f(x) is read <q>f von x</q> in german
+f(x) is read 「f of x」 in english
+f(x) is read 「f von x」 in german
 
 ### sets
 

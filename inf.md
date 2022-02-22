@@ -5898,8 +5898,8 @@ RTF|Rich Text Format
 ⟮Mathjax⟯ renders ⟮a subset of latex⟯ ⟮in browsers (using js⟯) 
 ⟮current⟯ latex version: ⟮Latex 2e⟯ 
 ⟮next⟯ latex version: ⟮Latex 3⟯ 
-<q>latex</q> is properly capitalized ⟮LaTeX⟯ 
-<q>tex</q> is properly capitalized ⟮TeX⟯ 
+「latex」 is properly capitalized ⟮LaTeX⟯ 
+「tex」 is properly capitalized ⟮TeX⟯ 
 the x in ⟮tex and latex⟯ is pronounced as ⟮a voiceless velar fricative (e.g. loch, bach⟯) 
 
 ⟮latex⟯ is ⟮a set of tex macros⟯ that is supposed to be ⟮more semantic⟯. 
@@ -16059,7 +16059,7 @@ to ⟮search the DOM⟯ via ⟮string⟯, ⟮css selector⟯ or ⟮xpath selecto
 to ⟮hide the DOM node you have focused⟯ in devtools, press ⟮h⟯ 
 to edit the ⟮attributes⟯/⟮node type⟯ of a node while in devtools, press ⟮enter⟯ and then ⟮tab/shift tab around⟯ 
 Chrome's devtools feature an ⟮element picker⟯, which can be toggled with ⟮⟦⌘⟧ ⟦⇧⟧ ⟦C⟧⟯ 
-to have an ⟮element that you select in your devtools be visible in your browser window⟯, ⟮right-click⟯ and then ⟮click <q>scroll into view</q>⟯ 
+to have an ⟮element that you select in your devtools be visible in your browser window⟯, ⟮right-click⟯ and then ⟮click 「scroll into view」⟯ 
 flex-container:✫FBb3y3CzDXA5P0sNEuyd.png✫
 
 
