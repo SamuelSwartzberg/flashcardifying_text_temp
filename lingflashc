@@ -756,7 +756,7 @@ Mirative|surprise/unpreparedness in relation to a given thing
 ⟮Morphemes⟯ are studied in the field of ⟮morphology⟯. 
 ⟮Morphology⟯ generally deals with the ⟮phonology⟯ and not ⟮orthography⟯ of morphs/morphemes, as s⟮peech is more basic to language than writing⟯. 
 A ⟮morpheme⟯, bearing ⟮a unit of meaning⟯, is made up of ⟮allomorphs⟯, which are ⟮the different phonetic realizations of that morpheme⟯. 
-The word ⟮unbreakable⟯ consists of the morphemes&nbsp; ⟮un, break, able.⟯ 
+The word ⟮unbreakable⟯ consists of the morpheme ⟮un, break, able.⟯ 
 ⟮Morphs⟯ and ⟮morphemes⟯ are generally written in ⟮curly braces {⟯}. 
 {{c17::{/ s /}, {/ z /}, and {/ iz /}}} are all ⟮allomorphs⟯ of {{c19::the morpheme {s} (plural s)}} 
 
@@ -1127,16 +1127,6 @@ An attributive adjective phrase is adjoined to an NP.
 A predicative adjective phrase has the adjective phrase as the complement of the verb.
 A nominalized adjective works as the head of an NP.
 
-##### japanese
-
-Why is a na-adjective called a na-adjective?  Because you need to put a na between the adjective and the noun.
-Since japanese is head-final, it's (<i-adjective>|<na-adjective>な)<noun>
-All i-adjectives end with い, hence their name.
-WHile na-adjectives may end in い, this is generally within the kanji, but within 送り仮名 (however, exceptions exist, e.g. 嫌い).
-In japanese, adjectives can be converted to adverbs via morphological derivation.
-i-adjectives|-い+く
-na-adjectives|+に
-
 #### adverb
 
 In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
@@ -1506,11 +1496,11 @@ doubly articulated consonants|consonants with secondary articulation
 secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
 Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
 Therefore:
-labialization (AKA rounding) (secondary articulation)|<span class='ipa'>◌ʷ</span>
-pharyngealization (secondary articulation)|<span class='ipa'>◌ˤ</span>
-velarization (secondary articulation)|<span class='ipa'>◌ˠ</span>
-There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: ［◌̴ ］, as in <span class='ipa'>ɫ</span>
-labialization (secondary articulation)|<span class='ipa'>◌ʷ</span>
+labialization (AKA rounding) (secondary articulation)|［◌ʷ］
+pharyngealization (secondary articulation)|［◌ˤ］
+velarization (secondary articulation)|［◌ˠ］
+There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: ［◌̴ ］, as in ［ɫ］
+labialization (secondary articulation)|［◌ʷ］
 It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
 In phonetics, vowel roundedness refers to the amount of rounding in the lips during the articulation of a vowel.
 Vowel roundedness is labialization of a vowel.
@@ -1567,8 +1557,8 @@ For egressive glottalic initiation, the glottis is lowered, the closure is produ
 For ingressive glottalic initiation, the glottis is raised, the closure is produced at the desired place of articulation, then the glottis is lowered, building up suction (low pressure), and then the closure is released.
 sounds produced by egressive glottalic initiation are called ejectives
 sounds produced by ingressive glottalic initiation are called implosives
-implosives are marked by the IPA via a right-facing hook on top, e.g. <span class='ipa'>ɓ</span> or <span class='ipa'>ɗ</span>
-implosives are marked by the IPA via <span class='ipa'>ʼ</span>, e.g. <span class='ipa'>qʼ</span>
+implosives are marked by the IPA via a right-facing hook on top, e.g. ［ɓ］ or ［ɗ］
+implosives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
 
 Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
 
@@ -1620,7 +1610,7 @@ devoicing|［◌̥］
 
 Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
 For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
-Aspiration is indicated in the ipa via <span class='ipa'>◌ʰ</span>
+Aspiration is indicated in the ipa via ［◌ʰ］
 Aspiration seems like a little burst of air to the speaker.
 The burst of air for aspiration can be felt by putting ones hand in front of one's mouth while saying an aspirated thing.
 
@@ -1635,7 +1625,7 @@ the voiceless glottal fricative has [-glottalization] [-voice]
 And then there's the breathy-voiced glottal fricative
 
 Creaky voice has [+constricted glottis].
-Creaky voice is indicated in the IPA as <span class='ipa'>◌̰</span>
+Creaky voice is indicated in the IPA as ［◌̰］
 
 Breathy voice is also called murmured voice.
 During breathy voice the vocal folds vibrate, but allow more air to escape.
@@ -1796,7 +1786,7 @@ Manners of consonants that can become lateral are fricatives/affricates, approxi
 
 A nasal sound is one where velum is lowered to allow air to escape through the nose.
 Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
-To indicate a nasal sound for which there is no dedicated ipa letter, <span class='ipa'>◌̃</span> is used.
+To indicate a nasal sound for which there is no dedicated ipa letter, ［◌̃］ is used.
 A nasal stop is a nasal sound where there is an oral occlusion as well.
 Other nasal sounds are nasalized vowels as well as other non-stop nasal consonants.
 A nasal is generally though misleadingly used as a term for a nasal stop/nasal occlusive.
@@ -1832,7 +1822,7 @@ r-colored vowel = rhotic vowel = rhotacized vowel
 On a physical level, rhotacization is the lowering of the frenquency of the third formant.
 In american english, rs following vowels frequently only indicate the vowels rhotacization.
 r-colored vowels are uncommon crosslinguistically, but common in two of the most widely-spoken languages: american english and mandarin chinese.
-rhotatication is indicated <span class='ipa'>◌˞</span> or by a superscript turned r <span class='ipa'>ʴ</span>
+rhotatication is indicated ［◌˞］ or by a superscript turned r ［ʴ］
 the vowel written ə is called schwa
 
 ######## monopthongs/dipthongs
@@ -1845,29 +1835,27 @@ Since a dipthong changes from one vowel to another, it may also be called a glid
 
 ######## IPA chart
 
-⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
+table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
 
-<tr>
-<th scope="row">⟮c+;s1:10;Close⟯
+type=th;⟮c+;s1:10;Close⟯
 </th>
 <td>
 ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯
-|<span>⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯
-|<span>⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
+|⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯
+|⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-close⟯
 </th>
-<td><span>⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯
+<td>⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯
 |
 |</div>
 •</div>⟮c+;s∞;us1:10;ʊ⟯
 
-<tr>
-<th scope="row">⟮c+;s1:10;Close-mid⟯</th>
-<td><span>⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯
-|<span>⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯
-|<span>⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
+type=th;⟮c+;s1:10;Close-mid⟯</th>
+<td>⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯
+|⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯
+|⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Mid⟯
@@ -1876,26 +1864,24 @@ Since a dipthong changes from one vowel to another, it may also be called a glid
 |⟮c+;s∞;us1:10;ə⟯</div></div>
 |
 
-<tr>
-<th scope="row">⟮c+;s1:10;Open-mid⟯</th>
-<td><span>⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯
-|<span>⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯
-|<span>⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
+type=th;⟮c+;s1:10;Open-mid⟯</th>
+<td>⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯
+|⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯
+|⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
 
 <tr>
 <th scope="row" class="IPA-vowels-minorcaption">⟮c+;s1:10;Near-open⟯
 </th>
-<td><span>⟮c+;s∞;us1:10;æ⟯•
+<td>⟮c+;s∞;us1:10;æ⟯•
 </div></div>
 |⟮c+;s∞;us1:10;ɐ⟯</div></div>
 |
 
-<tr>
-<th scope="row">⟮c+;s1:10;Open⟯</th>
-<td><span>⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯
-|<span>⟮c+;s∞;us1:10;ä⟯•
+type=th;⟮c+;s1:10;Open⟯</th>
+<td>⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯
+|⟮c+;s∞;us1:10;ä⟯•
 </div></div>
-|<span>⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
+|⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
 </td></tr></tbody></table>
 
 Openness|Backness|Roundedness|IPA Symbol
@@ -1951,9 +1937,9 @@ While oral stop, plosive and oral occlusive are synonyms, the terms have differe
 The term plosive may be seen as inappropriate for plosives without an audible release, these are soemtimes called appolosives.
 
 Oral stops can be released in different ways:
-no audible release|<span class='ipa'>◌̚</span>, e.g. <span class='ipa'>p̚</span>
-nasal release|superscript of the relevant nasal stop, e.g. <span class='ipa'>◌ⁿ</span>
-lateral release|<span class='ipa'>◌ˡ</span>
+no audible release|［◌̚］, e.g. ［p̚］
+nasal release|superscript of the relevant nasal stop, e.g. ［◌ⁿ］
+lateral release|［◌ˡ］
 Oral stops/oral occlusives/plosives with no audible release release their occlusion with no audible burst.
 Oral stops with nasal release release the stop into some sort of nasal stop
 Oral stops with nasal release release the stop into some sort of lateral consonant
@@ -1997,34 +1983,27 @@ Place (active + passive) →</th>
 <th colspan="2" rowspan="2" scope="col">Glottal
 Manner ↓
 
-<tr>
-<th scope="row">Plosive</th>
+type=th;Plosive</th>
 <td>⟮p⟯|⟮b⟯|||span=3;⟮t⟯|span=3;⟮d⟯|⟮ʈ⟯|⟮ɖ⟯|⟮c⟯|⟮ɟ⟯|⟮k⟯|⟮ɡ⟯|⟮q⟯|⟮ɢ⟯|⟮ʡ⟯|class=no;|⟮ʔ⟯|class=no;
 
-<tr>
-<th scope="row">Nasal</th>
+type=th;Nasal</th>
 <td>|⟮m⟯||⟮ɱ⟯|span=3;|span=3;⟮n⟯||⟮ɳ⟯||⟮ɲ⟯||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
 
-<tr>
-<th scope="row">Trill</th>
+type=th;Trill</th>
 <td>|⟮ʙ⟯|||span=3;</td>
 <td  colspan="3">⟮r⟯|||||class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
 
-<tr>
-<th scope="row">Tap/flap</th>
+type=th;Tap/flap</th>
 <td>||||span=3;</td>
 <td  colspan="3">⟮ɾ⟯||⟮ɽ⟯|||class=no;|class=no;|||||class=no;|class=no;
 
-  <tr>
-<th scope="row">Lateral approximant</th>
+  type=th;Lateral approximant</th>
 <td class="no">|class=no;|class=no;|class=no;|span=3;|span=3;⟮l⟯||⟮ɭ⟯||⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
 
-  <tr>
-<th scope="row">Lateral fricative</th>
+  type=th;Lateral fricative</th>
 <td class="no">|class=no;|class=no;|class=no;|span=3;⟮ɬ⟯|span=3;⟮ɮ⟯|||||||||class=no;|class=no;|class=no;|class=no;
   
-<tr>
-<th scope="row">Approximant</th>
+type=th;Approximant</th>
 <td>|||⟮ʋ⟯</td>
 <td  colspan="3">|span=3;⟮ɹ⟯|⟮ɻ⟯||⟮j⟯||⟮ɰ⟯||||class=no;|class=no;|
 span=5;class=no;</td>
@@ -2032,8 +2011,7 @@ span=5;class=no;</td>
 <th colspan="2">Alveolar</th>
 <th colspan="2">Post­alveolar
 
-  <tr>
-<th scope="row">Fricative</th>
+  type=th;Fricative</th>
 <td>⟮ɸ⟯|⟮β⟯|⟮f⟯|⟮v⟯|⟮θ⟯|⟮ð⟯|⟮s⟯|⟮z⟯|⟮ʃ⟯|⟮ʒ⟯|⟮ʂ⟯|⟮ʐ⟯|⟮ç⟯|⟮ʝ⟯|⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
 ⟮ʍ⟯|⟮voice​less⟯|⟮labio​velar⟯|⟮approxi​mant⟯
 ⟮w ⟯|⟮voiced⟯|⟮labiovelar (labialized velar⟯)|⟮approximant ⟯
@@ -2078,8 +2056,8 @@ Retracted Tongue Root   ［◌̙］
 ##### IPA
 
 If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
-For vowels, <span class='ipa'>◌ˑ</span> indicates a half-length vowel, while <span class='ipa'>◌̆</span> indicates an extra-short vowel.
-For vowels and consonants both, <span class='ipa'>◌ː</span> indicates something that is longer, for consonants specifically it indicates gemination
+For vowels, ［◌ˑ］ indicates a half-length vowel, while ［◌̆］ indicates an extra-short vowel.
+For vowels and consonants both, ［◌ː］ indicates something that is longer, for consonants specifically it indicates gemination
 Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮happy⟯ ［◌̆］
 
 ### Semantics
@@ -2416,7 +2394,7 @@ Conceptual metaphor is said to be systematic because the structure of the source
 For Lakoff and Johnson, if we had different conceptual metaphors, our thoughts and the world  would be radically different
 For Lakoff and Johnson, if we instead had the conceptual metaphor <span class="conceptual-metaphor">Argument is a dance</span>, what would be different?  fundamentally, the experiences and outcomes of arguments
 For Lakoff and Johnson, if we visited a world that had radically different conceptual metaphors e.g. for arguing, we would look at them and... <span class="divider">-&gt;</span> ⟮would not even recognize them as arguing⟯
-For Lakoff and Johnson, of the two things in a conceptual metaphor, ⟮c+;one thing is ⁑understood⁑&nbsp;in the terms of another⟯
+For Lakoff and Johnson, of the two things in a conceptual metaphor, ⟮c+;one thing is ⁑understood⁑ in the terms of another⟯
 For a mapping, what does it consist of, internally (waht makes up the thing that ends up being TARGET IS SOURCE)? <span class="divider">-&gt;</span> ⟮a set of correspondences (the structure)⟯
 For structural metaphors, in how far is one structured in terms of the other? <span class="divider">-&gt;</span> ⟮only partially⟯
 For structural metaphors, the fact that one thing only partially structures the other means that structural metaphor sneakily does what? <span class="divider">-&gt;</span> ⟮hides part of the thing being structured⟯
@@ -2466,7 +2444,7 @@ Phraseology is the study of phrasemes and related phenomena.
 Phrasemes are multi-word expressions of which their meaning is not completely deducable from their parts, i.e. that violate the principle of compositionality to a greater or lesser degree.
 
 A ⟮snowclone⟯ is a ⟮cliche⟯ ⟮phrase⟯ with ⟮one or more blanks⟯ that ⟮keeps getting⟯ reused.
-⟮c+;&nbsp;In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful⟯ are examples of ⟮snowclones⟯
+⟮c+; In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful⟯ are examples of ⟮snowclones⟯
 
 A chunk is a sequence of two or more words that cooccur in language with high frequency but ⟮are not idiomatic⟯ (this is more language-learning related terminology, in contrast to collocation)
 
@@ -2767,7 +2745,7 @@ in RtL media, the second page will be a right page, and hence the cover is a lef
 ######## twosided
 
 In latex, to ⟮optimize a document for being two-sided⟯ (e.g. as in a ⟮book⟯), include ⟮twoside⟯ in ⟮the optional argument [] of documentclass⟯
-In latex, to ⟮make chapters etc. always open on a right page⟯&nbsp; include ⟮openright⟯ in ⟮the options [] of documentclass⟯
+In latex, to ⟮make chapters etc. always open on a right page⟯  include ⟮openright⟯ in ⟮the options [] of documentclass⟯
 
 #### graphemes & graphs
 
@@ -3128,7 +3106,7 @@ William Caxton introduced the printing press to england.
 
 ## sociolinguistics
 
-A spr⁑e⁑chbund is a&nbsp;group that has ⟮a shared way of speaking⟯ going beyond language boundaries
+A spr⁑e⁑chbund is a group that has ⟮a shared way of speaking⟯ going beyond language boundaries
 
 note that unlike a sprachbund, this doesn't have to be geographically contiguous, and doesn't refer to whole languages, but just groups of speakers, and is generally not about vocabulary or grammar per se, but more about a more abstract manner
 What might hip-hop with the characteristics of rapping, rhyme, and human beatboxing be an example of, if they occur in different langauges?  A sprechbund
@@ -3341,7 +3319,7 @@ The process of losing language skills in a ⁑native⁑ language  First language
 
 ### shared languages
 
-A koine is a standard language or lingua franca created by the contact of ⟮c+;Two or more mutually intelligible languages&nbsp;⟯
+A koine is a standard language or lingua franca created by the contact of ⟮c+;Two or more mutually intelligible languages ⟯
 
 #### auxiliary languages
 
@@ -3367,7 +3345,7 @@ Pidgins usually have a limited vocabulary and low presstige.
 A pidgin is never spoken as a native language. 
 The traditional view (has criticisms) is that a pidgin that is nativized becomes a creole.
 A language gaining native speakers (from 0 to > 0) is known as nativization.
-A mixed language is a language combining aspects of two or more languages but ⟮c+;not clearly deriving primarily from any single language&nbsp;⟯
+A mixed language is a language combining aspects of two or more languages but ⟮c+;not clearly deriving primarily from any single language ⟯
 
 Relexification is the process of replacing (all or a large number of) the words of one language with the words from another language, while the grammar of the original language remains intact
 
@@ -3387,7 +3365,7 @@ The International scientific vocabulary is the set fo science-related words that
 
 ### translation
 
-⟮DE-EN / EN-DE translation⟯ is billed ⟮by line⟯, where a line is ⟮55 characters⟯ (⟮including spaces⟯) in ⟮c+;the target language.&nbsp;⟯
+⟮DE-EN / EN-DE translation⟯ is billed ⟮by line⟯, where a line is ⟮55 characters⟯ (⟮including spaces⟯) in ⟮c+;the target language. ⟯
 
 ## language geography
 
@@ -3600,7 +3578,7 @@ A surface analysis is any valid analysis of a words morphology, no matter if ety
 
 reanalysis is a form of surface analysis, specifically an analysis of a lexeme into a different morphology than it originally had.
 juncture loss is the form of reananalysis where an article and a noun fuse.
-Juncture loss: al + chemy (from arabic) -&gt; alchemy
+Juncture loss: al + chemy (from arabic) → alchemy
 
 Rebracketing is also sometimes known as resegmentation or metanalysis
 rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
@@ -3648,6 +3626,18 @@ Something being reduced to signification only (which is amplified) (rare word)  
 
 # Japanese grammar
 
+## needs to be sorted in
+
+##### japanese
+
+Why is a na-adjective called a na-adjective?  Because you need to put a na between the adjective and the noun.
+Since japanese is head-final, it's (<i-adjective>|<na-adjective>な)<noun>
+All i-adjectives end with い, hence their name.
+WHile na-adjectives may end in い, this is generally within the kanji, but within 送り仮名 (however, exceptions exist, e.g. 嫌い).
+In japanese, adjectives can be converted to adverbs via morphological derivation.
+i-adjectives|-い+く
+na-adjectives|+に
+
 ## writing systems
 
 万葉仮名 origin|片仮名 today
@@ -3658,10 +3648,13 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ### relationships
 
 ⟮仮名⟯ is a term for ⟮any syllabary⟯ used to ⟮write japanese 音⟯, or ⟮a character from such a syllabary⟯. 
-⟮仮名⟯ as a word is a compound of ⟮　仮（かり）⟯ '⟮temporary, tentative, provisional⟯' + ⟮　名（な）⟯ '⟮name⟯', which got ⟮reduced to かんな⟯ and then ⟮just to かな⟯. 
+⟮仮名⟯ as a word is a compound of ⟮　仮（かり）⟯ '⟮c_;temporary, tentative, provisional⟯' + ⟮　名（な）⟯ '⟮name⟯', which got ⟮reduced to かんな⟯ and then ⟮just to かな⟯. 
 In contrast, ⟮真名⟯ '⟮true name⟯' means ⟮漢字⟯, esp. ⟮when they are used for their meaning (i.e. not 万葉仮名 or 当て字).⟯ 
 
-[⟮仮名⟯ [⟮真名⟯ [⟮真カタカナ⟯</div>
+onion-box:
+⟮仮名⟯ 
+⟮真名⟯
+⟮真カタカナ⟯
 
 ⟮仮名⟯ systems where ⟮kanji are used to represent 音⟯ are known as ⟮真仮名⟯。 
 ⟮真仮名⟯ are similar to ⟮当て字⟯ today 
@@ -3687,12 +3680,12 @@ Even ⟮today⟯, ⟮平仮名⟯ are sometimes said to have ⟮a feminine quali
 Connected somehow to ⟮　草書（そうしょ）⟯ ⟮becoming associated with feminity⟯, ⟮　楷（かい）　書（しょ）⟯ ⟮became associated with masculinity⟯. 
 ⟮　楷（かい）　書（しょ）⟯ was, after ⟮the relevant gender associations had occurred⟯, also called ⟮　男（おとこ）　手（で）⟯ 
 
-⟮c+;&nbsp;片仮名⟯ are derived from ⟮万葉仮名⟯ by ⟮taking part of the kanji⟯. 
-⟮片仮名⟯ was developed by ⟮　奈良（なら）のbuddhist monks⟯&nbsp;in ⟮the 800s⟯, and since then ⟮has stayed mostly the same⟯ 
+⟮c+;片仮名⟯ are derived from ⟮万葉仮名⟯ by ⟮taking part of the kanji⟯. 
+⟮片仮名⟯ was developed by ⟮　奈良（なら）のbuddhist monks⟯ in ⟮the 800s⟯, and since then ⟮has stayed mostly the same⟯ 
 
 
 ⟮ひらがな⟯ and ⟮かたかな⟯ both ⟮developed from⟯ ⟮　万葉仮名（まんようがな）⟯ 
-Due to ⟮the way they evolved via 　草書（そうしょ） from 　万葉仮名（まんようがな）⟯,&nbsp;there were many ⟮non-standard 平仮名⟯, both due to ⟮coming from different cursive styles⟯, or ⟮from different 　万葉仮名（まんようがな）.⟯ 
+Due to ⟮the way they evolved via 　草書（そうしょ） from 　万葉仮名（まんようがな）⟯, there were many ⟮non-standard 平仮名⟯, both due to ⟮coming from different cursive styles⟯, or ⟮from different 　万葉仮名（まんようがな）.⟯ 
 The ⟮now nonstandard 平仮名⟯ are called ⟮　変体仮名（へんたいがな）⟯. 
 ⟮　変体仮名（へんたいがな）⟯ were ⟮obsoleted by⟯ ⟮the 1900 script reform.⟯ 
 
@@ -3706,7 +3699,7 @@ The ⟮now nonstandard 平仮名⟯ are called ⟮　変体仮名（へんたい
 ⟮　隷（れい）　書（しょ）⟯|⟮✫sm_220px-LishuHuashanmiao.jpg✫✫sm_kRVT4DEEnYOoWwjmAPA90uyI2idI4Qp1TayRhMqPMAHoyZuHYsiLwsCLv0OxoHEhRiPg0jkcB_6mA7xvP0QdQMOzW5G-LN0NBVV0z0bGXIPJVdIRJZWW.jpg✫⟯
 
 
-What is now called (small) seal script is called what in japanese? <span class="divider">-></span> ⟮　篆書（てんしょ）⟯
+What is now called (small) seal script is called what in japanese? ⟮　篆書（てんしょ）⟯
 
 
 Cursive variants of 漢字 have way less strokes than non-cursive variants.
@@ -3890,7 +3883,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮princess⟯|⟮s156;✫sm_paste-9752cae6d0fcc65ab36f5461c4bd6b0bbbdd211c.jpg✫✫sm_paste-97de289cbd3054dae8995db834f534d8f33046c6.jpg✫⟯|⟮姫⟯|⟮h∞;[女 (woman)  , 臣 (vassal)]⟯|⟮h∞;A ⁑princess⁑ is only a ⁑female⁑ ⁑vassal⁑ until she gets promoted to queen.⟯|⟮h∞;⟯
 ⟮what?!?⟯|⟮s157;✫sm_paste-972b2f3cf7ce401957e164b960f632da27559f13.jpg✫⟯|⟮何⟯|⟮h∞;[✫sm_man.png✫ (personleft), 可 (possible)]⟯|⟮h∞;When you say " ⁑WHAAT⁑????", you are asking that ⁑person⁑ if what they just said is really ⁑possible⁑.⟯|⟮h∞;⟯
 ⟮year⟯|⟮s158;✫sm_paste-96f76dbaa56ed91491b29e42f5c248376e5fed84.jpg✫⟯|⟮年⟯|⟮h∞;[✫sm_rifle.png✫ (rifle), ✫sm_fuckkk.png✫ (fuck)]⟯|⟮h∞;I gotta ⁑fuck⁑ a ⁑rifle⁑ every ⁑year⁑ (FYI, I lost a bet. don't ask⟯)|⟮h∞;⟯
-⟮swamp / bling⟯|⟮s159;✫sm_paste-637c87c5521f940ed405508ad5e7be718e10ef58.jpg✫✫sm_paste-96d53767d69582b5b7d22b4c95f2ed839e0d697f.jpg✫✫sm_paste-453e11b577bee7b6d9fde0daae7abbf19433ec42.jpg✫⟯|⟮沢⟯|⟮h∞;[✫sm_water.png✫ (waterleft) , 尺 (R for ROCK)]⟯|⟮h∞;We are gonna have a&nbsp;wet&nbsp;rock&nbsp;show in the&nbsp;swamp.⟯|⟮h∞;⟯
+⟮swamp / bling⟯|⟮s159;✫sm_paste-637c87c5521f940ed405508ad5e7be718e10ef58.jpg✫✫sm_paste-96d53767d69582b5b7d22b4c95f2ed839e0d697f.jpg✫✫sm_paste-453e11b577bee7b6d9fde0daae7abbf19433ec42.jpg✫⟯|⟮沢⟯|⟮h∞;[✫sm_water.png✫ (waterleft) , 尺 (R for ROCK)]⟯|⟮h∞;We are gonna have a wet rock show in the swamp.⟯|⟮h∞;⟯
 ⟮eliminate⟯|⟮s160;✫sm_paste-96c398701137ee850df646dbf18b45b30dee9209.jpg✫⟯|⟮排⟯|⟮h∞;[✫sm_hand.png✫ (handleft), 非 (injustice / mistake)]⟯|⟮h∞;If an ⁑injustice⁑ comes your way, raise up your ⁑hand⁑ to ⁑eliminate⁑ it and keep it out, all jedi-style.⟯|⟮h∞;⟯
 ⟮edge/occasion⟯|⟮s161;✫sm_paste-9675729dc9e863da98a7809ac04f20ca0f5606cd.jpg✫✫sm_paste-a4611cf1f0109d1ade46457eef6714cde27d1f53.jpg✫⟯|⟮際⟯|⟮h∞;[✫sm_town.png✫ (town), 祭 (festival) Same-ON]⟯|⟮h∞;The ⁑festival⁑ of today's ⁑occasion⁑ is on the ⁑edge⁑ of ⁑town⁑, over there.⟯|⟮h∞;⟯
 ⟮deplore⟯|⟮s162;✫sm_paste-9674115089c2888be567c1cb8e2cb6819d665715.jpg✫⟯|⟮慨⟯|⟮h∞;[✫sm_heartleft.png✫ (leftheart) , 既 (already)]⟯|⟮h∞;I ⁑deplore⁑ that GUY ⁑already⁑, with all my ⁑heart⁑!!!⟯|⟮h∞;⟯
@@ -5513,7 +5506,7 @@ Compared to most european langauges, japanese male and female registers (男性�
 ### 山の手/下町
 
 ⟮山の手⟯/⟮下町⟯ first distinguished ⟮two areas⟯ in ⟮江戸⟯ ⟮west⟯ and ⟮east⟯ of ⟮the imperial palace⟯ respectively. 
-The phyzsical geography of areas ⟮山の手⟯/⟮下町⟯&nbsp; in 江戸 were ⟮the hills⟯ and ⟮the marshy valleys⟯ respecitvely. ⟮徳川 retainers⟯ lived in ⟮山の手⟯, ⟮the artisans and other non-aristocrats⟯ lived in ⟮下町⟯. 
+The phyzsical geography of areas ⟮山の手⟯/⟮下町⟯ in 江戸 were ⟮the hills⟯ and ⟮the marshy valleys⟯ respecitvely. ⟮徳川 retainers⟯ lived in ⟮山の手⟯, ⟮the artisans and other non-aristocrats⟯ lived in ⟮下町⟯. 
 Via ⟮the people living in⟯ ⟮山の手/下町⟯, these words then gained the association of ⟮high-class/low-class status⟯. 
 The people living in ⟮山の手⟯ and ⟮下町⟯ ⟮spoke different dialects of japanese⟯. However, during ⟮Meiji-era⟯ ⟮linguistic standartization⟯ ⟮山の手-japanese⟯ became ⟮the model for the standard language,⟯ and so ⟮下町⟯ became ⟮mere dialect⟯. 
 Both due to ⟮山の手 becoming standard japanese,⟯ and ⟮due to the association with 山の手 as high-status/class and 下町 as low-status/class⟯, ⟮山の手言葉⟯ became a ⟮high-prestige⟯ lect, and ⟮下町言葉⟯ became a ⟮low-prestige⟯ lect. 
@@ -5785,7 +5778,7 @@ Add a 人 to any nationality to get "the people of"
 ### kami
 
 flex-container:✫sm_paste-853c7ed0782e48f6d9e28a7f7813f4fbb760bda0.jpg✫
-⟮カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮god, bear⟯, and is ⟮c+;s∞;related to/cognate with japanese 　神（かみ）⟯&nbsp; 
+⟮カムィ ［kàꜛmúj］ ⟯ in ainu means ⟮god, bear⟯, and is ⟮c+;s∞;related to/cognate with japanese 　神（かみ）⟯  
 
 ### misc
 
