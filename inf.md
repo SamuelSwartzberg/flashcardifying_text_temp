@@ -10278,6 +10278,7 @@ Speculative parsing does not apply to images/css/videos, which will not block ev
 lazy loading is loading things only when needed.
 In general, one lazy-loads the things that are not critical to performance.
 To enable lazy loading for images and iframes, set loading="lazy", these images will only load once they are a specific distance away from the viewport.
+TODO relationship with code splitting (I think code splitting allows for lazy loading)
 
 ####### server push
 
