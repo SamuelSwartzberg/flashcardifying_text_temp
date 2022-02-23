@@ -322,7 +322,7 @@
 ⟮　止（と）まる:: starts w t sound ⟯|⟮come to a stop, cease が⟯
 ⟮　止（や）む:: also 止まる ⟯|⟮cease, stop, let up が⟯<div class="sub"> <div class="sub all-b"> cease eating YAMU at once! </div><div class="sub all-b"> 辞 is not to be used here </div>
 ⟮　歩道（ほどう）⟯|⟮sidewalk, footpath⟯<div class="sub all-b"> naruHODOU: a walking road is a footpath. </div></div>
-⟮　渡（わた）す⟯|⟮<!--anki-->hand over, carry across⟯<div class="sub all-b"> Make this WATA cross the SUn by carrying it over! </div>
+⟮　渡（わた）す⟯|⟮<!--anki-→hand over, carry across⟯<div class="sub all-b"> Make this WATA cross the SUn by carrying it over! </div>
 ⟮　渡（わた）る⟯|⟮cross, ford, go across　が⟯<div class="sub all-b"> We walked over the bridge. </div>
 ⟮　年度（ねんど）⟯|⟮fiscal year, school year⟯</div>
 ⟮　今度（こんど）⟯|⟮this time, next time⟯<div class="sub c2-b c1-f" > also 今回 </div></div>
@@ -1102,7 +1102,7 @@
 ⟮　薄（うす）い⟯|⟮thin, weak, pale⟯<div class="sub all-b"> - </div><div class="sub c2-b c1-f" > Adjective </div> </div>
 ⟮　厚（あつ）い⟯|⟮thick, bulky⟯<div class="sub all-b"> Thick women are very ATSUI (hot) </div><div class="sub c2-b c1-f" > Adjective </div> </div>
 ⟮　厚（あつ）さ⟯|⟮thickness⟯<div class="sub all-b"> see 厚い, nominaliizing ending </div></div>
-⟮　迫（せま）る⟯|⟮<!--anki-->approach, draw near, press (sb for st)⟯<div class="sub all-b"> - </div>
+⟮　迫（せま）る⟯|⟮<!--anki-→approach, draw near, press (sb for st)⟯<div class="sub all-b"> - </div>
 ⟮　伸（の）びる⟯|⟮get longer, grow, stretch が⟯<div class="sub"> <div class="sub all-b"> Your hair has grown a lot, hasn't it? </div><div class="sub all-b"> NO BIRU, no grow. </div>
 ⟮　引（ひ）っ 　越（こ）す⟯|⟮move (houses)⟯
 ⟮　越（こ）える:: also 渡る ⟯|⟮go over, go across, go beyond⟯<div class="sub all-b"> also written 超える </div>
@@ -1118,7 +1118,7 @@
 ⟮ぐらぐら⟯|⟮wobbling⟯<div class="sub all-b"> GUyRAting is a form of motion similar to gyrating where men are selected based on the wobble of theier hips. </div>/div>
 ⟮　誘（さそ）う⟯|⟮invite, ask out⟯<div class="sub all-b"> A family of SAlivating SOUtheners ask me out on a date. </div>
 ⟮　導入（どうにゅう）⟯|⟮introduction, bringing in⟯<div class="sub all-b"> A dead organ DOUnor is bringing in NYUU organs. </div><div class="sub c2-b c1-f" > Verbal Noun </div> </div>
-⟮　努力（どりょく）⟯|⟮<!--anki-->effort, endeavor, striving⟯<div class="sub all-b"> DOes RYOKU (ryuk) ever expend effort? </div><div class="sub c2-b c1-f" > Verbal Noun </div> </div>
+⟮　努力（どりょく）⟯|⟮<!--anki-→effort, endeavor, striving⟯<div class="sub all-b"> DOes RYOKU (ryuk) ever expend effort? </div><div class="sub c2-b c1-f" > Verbal Noun </div> </div>
 ⟮ジャム⟯|⟮jam⟯ </div>
 ⟮　占（し）める⟯|⟮occupy, hold を⟯<div class="sub all-b"> - </div>
 ⟮　処理（しょり）⟯|⟮processing, management<div>(unlike 加工, a new thing is not created)</div>⟯<div class="sub all-b"> - </div><div class="sub c2-b c1-f" > Verbal Noun </div> </div>

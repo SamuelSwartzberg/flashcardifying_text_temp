@@ -263,8 +263,8 @@ Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 
 ######## attribute change
 
-paused=false -> paused=true|pause
-paused=true -> paused=false|play
+paused=false → paused=true|pause
+paused=true → paused=false|play
 
 ####### sources
 
@@ -1172,8 +1172,8 @@ style props is using react props to change the style of a component
 style props are not enabled by default, but are used extensively in various react styling frameworks
 style props mostly are named as the css properties are (subject to the camelcaseification/abbreviation described elsewhere)
 style props also offer some abbreviated values:
-linear/radial-gradient() -> linear/radial()
-to top, to top right, ... -> to-t, to-tr...
+linear/radial-gradient() → linear/radial()
+to top, to top right, ... → to-t, to-tr...
 using style props, we can also define 'states'. (not called that, this is my term)
 style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
 style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
@@ -3321,7 +3321,7 @@ However, not every CSS property/value is abbrevaited in each styling framework.
 In styling frameworks property names often become a list of the first chars separated by hyphems when shortened.
 E.g. something like `margin-end` would become `me`.
 In react/style props based frameworks, CSS properties become camelCased unless abbreviated to chars only.
-e.g. margin-top -> marginTop / mt
+e.g. margin-top → marginTop / mt
 
 
 ###### things that are pretty much always abbreviated in every system
@@ -4856,8 +4856,8 @@ swap/page storage may be a file(s) or a partition(s).
 managing virtual memory pages within primary memory|paging
 moving virtual memory from secondary to primary memory or v.v. (using pages)|swapping or paging
 moving virtual memory from secondary to primary memory or v.v. (without using pages)|swapping
-primary -> secondary memory|paged/swapped out
-secondary -> primary memory|paged/swapped in
+primary → secondary memory|paged/swapped out
+secondary → primary memory|paged/swapped in
 
 ### fragmentation
 
@@ -5739,7 +5739,7 @@ a stream editor is a filter used to do text transformations
 a line editor is a stream editor that applies its commands to some or all of the lines.
 original line editor for linux: ed
 ex was a line editor then based on ed.
-In contrast to sed, ed -> ex could be used both interactively and noninteractively
+In contrast to sed, ed → ex could be used both interactively and noninteractively
 sed was based of the noninteractive features of ed.
 vi was based on the interactive features of ex.
 vim is a more-reature rich of vi.
@@ -7012,7 +7012,7 @@ An ⟮electrical connector⟯ with ⟮male gender⟯ is also called ⟮a plug.�
 An ⟮electrical connector⟯ with ⟮female gender⟯ is also called ⟮a socket/jack⟯. 
 A ⟮terminal⟯ is ⟮the point where a conductor ends⟯. It may be ⟮an electrical connector⟯. 
 
-### transistor -> logic gate -> logic circut
+### transistor → logic gate → logic circut
 
 #### transistors
 
@@ -7366,7 +7366,7 @@ Monolithic kernels do more stuff in kernel space than micokernels.
 Instead of doing stuff in kernel space, mircokernels provide servers that do things in userspace.
 The daemon responsible for paging (swapper/sched) is the process with PID 0.
 A system call is a request to the kernel of an OS.
-system call -> syscall. 
+system call → syscall. 
 
 Drivers run in kernal space.
 Drivers expose a well-defined interface of the hardware to the OS, but otherwise act as a black box.
@@ -8779,8 +8779,8 @@ if one wants to redirect standard output and error at the same time, there is th
 e.g. 1>out.txt 2>&1  make the file descriptor 1 refer to the same file as the file descriptor 2
 <n>>&- or <n><&- close the file descriptor <n>.
 <n>>&<n>- or <n><&<n>- make the first file descriptor <n> refer to the same file as the second file descriptor <n> is pointing to, and then close the second file descriptor <n> (basically a move)
-using <> instead of < or > opens the file in read&write mode
-using <> and & allows one to read from and write to the same file
+using ‹› instead of < or > opens the file in read&write mode
+using ‹› and & allows one to read from and write to the same file
 
 for redirecting, the <n> before the < or > may be the number of any file descriptor, though the standard streams are most common.
 
@@ -9736,13 +9736,13 @@ After the client ⟮obtains an IP address via DHCP⟯, it should ⟮probe the ne
 
 client         server
   |               |
-  |---DISCOVER--->|
+  |---DISCOVER---→|
   |               |
-  |<----OFFER-----|
+  |←----OFFER-----|
   |               |
-  |----REQUEST--->|
+  |----REQUEST---→|
   |               |
-  |<-ACKNOWLEDGE--|
+  |←-ACKNOWLEDGE--|
   |               |
 
 ##### between application and transport
@@ -9819,7 +9819,7 @@ TCP but not UDP can deal with / solve packets arriving out of order, lost packet
 
 ####### starting operations
 
-TCP: Passive open -> Active open
+TCP: Passive open → Active open
 Passive open: The server binds to and listens at a port.
 Active open: The client starts the 3-way/3-step handshake at the port.
 
@@ -10211,7 +10211,7 @@ flex-container:✫sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg✫✫sm_220px-Fernsche
 
 Telex was the network of teleprinters common in a large part of the 20th century.
 Rough synonyms (not abbreviations): Teleprinter, Teletypewriter, Telex
-Abbreviations: teletypewriter -> teletype -> tty
+Abbreviations: teletypewriter → teletype → tty
 Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer for output.
 Video terminals then came to replace teletypewriters especially for computer IO
 Teletypewriters + video terminals = physical/hardware terminals.
@@ -10728,7 +10728,7 @@ Statements are the fundamental unit of programming in imperative programming lan
 Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
 Statements do not return a value.
 Since statements do not return a value, they either do nothing or cause side effects.
-var test = 2 + 6; -> side effect of initializing a variable test
+var test = 2 + 6; → side effect of initializing a variable test
 An expression statement is a statement that consists of a single expression.
 
 ### imperativeness
@@ -11546,9 +11546,9 @@ strum|enum ‹-› string manipulation
 to make enums ready for use with strum, one needs to derive the relevant trait onto it, and also use attributes on the enum or the variants.
 Strum attributes use strum()
 
-Enum -> str|derive strum_macros::ToString
-Enum -> str message|derive strum::EnumMessage|Enum.get_message() & Enum.get_detailed_message() (return options)
-str -> Enum|derive strum::EnumString|Enum::from_str()
+Enum → str|derive strum_macros::ToString
+Enum → str message|derive strum::EnumMessage|Enum.get_message() & Enum.get_detailed_message() (return options)
+str → Enum|derive strum::EnumString|Enum::from_str()
 
 ###### Types with two possible states
 
@@ -11589,7 +11589,7 @@ the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or 
 
 ######## conversion
 
-Result<T, E>.ok() -> Option<T>
+Result<T, E>.ok() → Option<T>
 
 ######## ? operator
 
@@ -12791,7 +12791,7 @@ something is polymorphic if it works for several different types
 monomorphization is a compile-time process in which polymorphic code is transformed into n monomorphic variants
 
 ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
--> callable unit overloading, operator overloading
+→ callable unit overloading, operator overloading
 
 ### dispatch
 
@@ -12844,7 +12844,7 @@ A vtable contains all relevant virtual functions.
 In rust, `dyn <trait-bound>` is the type of a trait object.
 A trait object is an opaque type of another type that implements a set of traits.
 A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
-A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box<>.
+A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box‹›.
 For something to be object safe, the return type may not be `Self` and there may not be any generic type parameters.
 A trait object must be object safe.
 The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
@@ -13229,7 +13229,7 @@ since classes in JS are merely syntactic sugar for functions, there are also cla
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
 void is commonly used for no return type in languages that require a return type to be specified.
 return type is indicated:
--> <type> at the end of signature|rust
+→ <type> at the end of signature|rust
 : <type> at the end of signature|TS
 <access-modifier> [static|abstract] <type> <callable-unit-name>|C#|Java
 
@@ -13303,7 +13303,7 @@ While in rust only closures form closures, all functions are in fact first class
 
 In statically typed languages, first-class functions must have a type that describes them.
 \(<ts-param-list>\) => <return-type>|TS
-(fn|Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) -> <return-type>|Rust
+(fn|Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) → <return-type>|Rust
 
 <ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
 
@@ -16303,7 +16303,7 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 
 --\[\[foo]]|lua
 /\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
-&lt;!-- foo -->|HTML
+&lt;!-- foo -→|HTML
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
 
@@ -16686,7 +16686,7 @@ a CSS preprocessor is a transpiler from a language that is not css (though typic
 
 ###### postCSS
 
-PostCSS is a CSS processor (CSS -> CSS), that does nothing by default, but can be hooked into by plugins (written in JS).
+PostCSS is a CSS processor (CSS → CSS), that does nothing by default, but can be hooked into by plugins (written in JS).
 To use PostCSS you need to have added it to your build tool and have a `postcss.config.js`.
 To use PostCSS with webpack, add the `postcss-loader`.
 Within your `postcss.config.js`, add plugins by adding `require()` calls to them within `module.exports.plugins`
@@ -17386,7 +17386,7 @@ There are two main types of computer fonts, based on how they store characters: 
 
 ### encodings
 
-character encodings (simplified): Morse -(end of the 19th century)-> Baudot-Murray -(1960s)-> ASCII -2000ish-> Unicode
+character encodings (simplified): Morse -(end of the 19th century)→ Baudot-Murray -(1960s)→ ASCII -2000ish→ Unicode
 
 #### Morse
 

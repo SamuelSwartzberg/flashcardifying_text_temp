@@ -784,7 +784,7 @@ For example, -t in spanish might be a portmanteu morph of the morph for 3rd pers
 ###### morphological
 
 In linguistics, clipping, also called truncation or shortening, is word formation by removing some segments of an existing word to create a synonym.
-Clipping: Coronavirus -> rona, refridgerator -> fridge, influenza -> flu
+Clipping: Coronavirus → rona, refridgerator → fridge, influenza → flu
 Clipping is also different from back-formation, which proceeds by (pseudo-)morpheme rather than segment, and where the new word may differ in sense and word class from its source.
 
 A hybrid word is a morphological derivation that derives from at least two different languages. 
@@ -878,7 +878,7 @@ A base is any morphological unit to which affixes can be attached.
 
 The stem that we most commonly call 'stem' in english is the 
 stem of ru-verb is verb - る
-Stem of u-verb is <consonant>u -> <consonant>i
+Stem of u-verb is <consonant>u → <consonant>i
 
 ##### free and bound forms
 
@@ -1369,10 +1369,10 @@ paragoge is epenthesis at the end of the word.
 
 Metathesis is the transposition/switcharoo of sounds or syllables in a word or sentence:
 
-fo☞li☜age -> **fo☞il☜age
-ane☞mone☜ -> ane☞nome☜
+fo☞li☜age → **fo☞il☜age
+ane☞mone☜ → ane☞nome☜
 Methathesis of non-adjcancent sounds is sometimes known as hyperthesis/long-distance metathesis
-pa☞r☜abo☞l☜a (latin) -> pa☞l☜ab☞r☜a
+pa☞r☜abo☞l☜a (latin) → pa☞l☜ab☞r☜a
 
 ####### Lenition/Fortition
 
@@ -1482,7 +1482,7 @@ gemination is phonemic/contrastive in japanese but not in english, german or spa
 For gemination, lengthened fricatives, nasals, laterals, approximants and trills are simply prolonged. In lengthened stops, the obstruction of the airway is prolonged, which delays release, and the "hold" is lengthened. 
 In japanese, gemination is marked by っ.
 In japanese, non-phonemic gemination implies emphasis (not in all varieties though).
-すごい -> すっごい
+すごい → すっごい
 In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
 If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
 
@@ -3050,7 +3050,7 @@ A foreign word|A word from another language used in the relevant language, but n
 A loanword is a word loaned from another language which is recognizably now part of the recipient language
 
 While a ⟮loan translation⟯ / ⟮calque⟯ ⟮translates all the parts exactly⟯, a ⟮loan rendition/rendering⟯ ⟮only uses approximate translation⟯
-「ça va sans dire」 -> 「it goes without saying」 
+「ça va sans dire」 → 「it goes without saying」 
 ⟮A calque (sometimes also loan translation)⟯ is a word or phrase borrowed from another language by literal word-for-word or root-for-root translation.
 While weekend -&gt; ⟮Wochenende⟯ is a ⟮loan translation⟯, skyscraper -&gt; ⟮Wolkenkratzer⟯ is a ⟮loan rendition/rendering⟯
 
@@ -3191,7 +3191,7 @@ high variant (H)|formal situations, literature|no native speakers
 
 The study of language and gender is said to have stared with Language and Women's Place by Robin Lakoff (1973 or 1975, its unclear to me)
 Robin Lakoff was married to the (arguably) more famous Lakoff (of Metaphors We Live By fame)
-Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? -> ⟮to see what they can teach us about patriarchy at large⟯
+Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? → ⟮to see what they can teach us about patriarchy at large⟯
 In robin lakoffs language and womens place, the method she uses is native speaker intuition
 Deborah tannen was a student of robin lakoff who initiated the difference approach to language and gender with her book You Just Don't understand (1990)
 
@@ -3503,7 +3503,7 @@ In ENBF dialects, usually either the terminals are quoted and the nonterminals a
 ##### ABNF
 
 ABNF is standartized in an RFC, and often used for IETF documents.
-in ABNF, rules MAY be surrounded by <>.
+in ABNF, rules MAY be surrounded by ‹›.
 in ABNF, rules and terminals are are case-insensitve
 abnf-terminal ::= "{<characters>}"|<abnf-terminal-range>|<abnf-terminal-numeric>
 abnf-terminal-range ::= <abnf-base-specifier><abnf-character-digits>-<abnf-character-digits>
@@ -5888,8 +5888,8 @@ The ず negative uses the せ 未然形 for サ変
 れる・せる|さ(せ more rarely)
 
 ましょう is used for the polite volitional form.
-ましょう is derivable from: ます -> 意志形=連用形 ましょ + う
-Other volitional derivation examples: よい -> 意志形 よかろ -> よかろう
+ましょう is derivable from: ます → 意志形=連用形 ましょ + う
+Other volitional derivation examples: よい → 意志形 よかろ → よかろう
 while まじ・まい is grammatically the negative volitional, it today most commmonly indicates strong denial.
 まじ・まい always comes last, even after ます.
 The two volitions give rise to the construction <volitional>が<negative-volitional>が = whether or not
@@ -6390,7 +6390,7 @@ The 連用形 ending 音便 changes for the auxes/particles た・て... may be 
 
 Thus the only irregular verb is 行く, which should be 行き＋て・た => いいて・た but instead becomes いって・た.
 
-Honorific/humble verbs such as くださる、なさる、ござる、いらっしゃる、おっしゃる behave like ru-verbs, but feature an 音便 soundchange り -> い
+Honorific/humble verbs such as くださる、なさる、ござる、いらっしゃる、おっしゃる behave like ru-verbs, but feature an 音便 soundchange り → い
 
 #### colloquial alternation
 
@@ -6419,4 +6419,4 @@ r<vowel>n|んn
 
 ### other
 
-の -> ん when part of sfp.
+の → ん when part of sfp.
