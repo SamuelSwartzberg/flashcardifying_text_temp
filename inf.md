@@ -15868,7 +15868,7 @@ fast scrolling|⟦⌥⟧ ⟦scroll⟧
 
 
 Action|Shortcut
-⟮Open IntelliSense⟯|⟮⟦⌃⟧ <kbd class="key space"></kbd>⟯
+⟮Open IntelliSense⟯|⟮⟦⌃⟧ ⟦␣⟧⟯
 
 
 ######## lines
@@ -15945,7 +15945,7 @@ fold/unfold current regions recursively|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦[/]⟧
 fold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦O⟧
 unfold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦J⟧
 
-######## editing
+######## editing a file
 
 autoformat file|⟦⌘⟧ ⟦⌥⟧ ⟦f⟧
 
@@ -15958,12 +15958,32 @@ navigate to shift bookmark <n>|⟦⌘⟧ ⟦⇧⟧ ⟦<n>⟧
 
 ######## select/search
 
-add cursors to all search results|⟦⌥⟧ ⟦enter⟧
+add cursors to all search results (if search field focused)|⟦⌥⟧ ⟦enter⟧
 
 ⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
 ⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
 ⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
 In vscode, one can resize the search widget by dragging its left edge.
+⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ creates an area search is limited to from the current selections.
+a second press of ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ does not re-select, instead toggling off. One must first toggle it off, then select a new area, then toggle it back on to get a new selection.
+
+######### aquiring selections
+
+########## selection anchors
+
+a selection anchor is a cursor you set, which then can act as one side (anchor) of a selection later, or can be used to return to that position.
+set selecton anchor at current position|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦b⟧
+select from selection anchor to current position (deletes selection anchor)|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦k⟧
+go to selection anchor|⟦⌘⟧ ⟦k⟧ ⟦b⟧
+cancel selection anchor|⟦esc⟧
+
+########## column/box
+
+⟦⇧⟧ ⟦⌥⟧ ⟦drag⟧ starts selecting a rectangular area just like visual block mode, adding a cursor to the beginning/end.
+
+######### using selections
+
+autoformat selection|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦f⟧
 
 ######## comments
 
@@ -16000,11 +16020,37 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 ###### scope
 
 vscode settings can either be per-workspace or per-user (i.e. global).
+The settings.json file lives in a plattform-dependent global location for per-user = global settings.
+The settings.json lives in .vscode for per-workspace settings.
+
+###### settings.json
+
+vscode settings are set in a settings.json file.
+vscode offers a GUI to set your settings, but this is just an interface for the settings.json.
+
+####### syntax
+
+Within the settings.json, settings that apply to all languages are toplevel keys.
+For each language, there may be one "\[<language-name>\]" toplevel key, which itself contains an object of settings for that language.
+```
+   "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+```
+
+Generally, if you set the same key twice, the latter will be used, however objects will instead be merged.
+While not nested, often keys are dotted to scope their settings, e.g. "workbench.colorTheme" or "redhat.telemetry.enable"
 
 ##### extensions
 
 Extensions allow changing the functionality of a code editor.
 In vscode, you can activate extensions globally or only for a workspace.
+
+###### formatters
+
+In vscode, code formatters are implemented as extensions.
+In vscode, code formatters hook into existing apis which allow configuring of formatting.
+To set the default formatter for any language, set the "editor.defaultFormatter" key within that language's settings object within the settings.json.
 
 ##### code snippets
 
