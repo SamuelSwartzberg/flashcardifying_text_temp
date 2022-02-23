@@ -1730,7 +1730,7 @@ Upper lip
 |class=no;|class=no;|class=no;Upper teeth
 </th>
 <td class="no">|span=2;dental|class=no;
-|class=no;|class=no;|class=no;Upper teeth/&#8203;alveolar ridge (prealveolar)
+|class=no;|class=no;|class=no;Upper teeth / alveolar ridge (prealveolar)
 </th>
 <td class="no">|denti-alveolar|class=no;|class=no;
 |class=no;|class=no;|class=no;Alveolar ridge
@@ -1742,7 +1742,7 @@ Upper lip
 |alveolo-palatal|class=no;|class=no;Hard palate (front)
 </th>
 <td class="no">|class=no;|class=no;|retroflex (more precisely: true retroflex)
-|palatal|class=no;|class=no;Soft palate/&#8203;velum
+|palatal|class=no;|class=no;Soft palate / velum
 </th>
 <td class="no">|class=no;|class=no;|subapical velar
 |velar|class=no;|class=no;Uvula
@@ -1974,7 +1974,7 @@ Place (active) →</th>
 Place (active + passive) →</th>
 <th colspan="2" rowspan="2" scope="col">Bi­labial</th>
 <th colspan="2" rowspan="2" scope="col">Labio­dental</th>
-<th colspan="6" rowspan="2" scope="col">Dental/&#8203;Alveolar/&#8203;Post­alveolar</th>
+<th colspan="6" rowspan="2" scope="col">Dental / Alveolar / Post­alveolar</th>
 <th colspan="2" rowspan="2" scope="col">Retro­flex</th>
 <th colspan="2" rowspan="2" scope="col">Palatal</th>
 <th colspan="2" rowspan="2" scope="col">Velar</th>
@@ -3460,7 +3460,11 @@ Theoretical linguistics may just contrast with applied linguistics, or specifica
 The chomsky hierarch describes a hierarchy of formal grammars.
 
 
-onion-box:[recursively&#32;enumerable [context-sensitive [context-free [regular]]]]
+onion-box:
+recursively enumerable
+  context-sensitive
+    context-free
+      regular
 
 ### metalanguage
 

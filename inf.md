@@ -369,7 +369,7 @@ It is better to specify your canvas dimensions by setting the width and height a
 
 ##### map
 
-<map> defines an image map, within which <area> defines clickable areas.
+<map> defines an image map, within which ‹area› defines clickable areas.
 <map> takes a shape attribute with the possible values circle, poly, rect.
 The shape of a map with a given shape attribute is specified by the coords attribute
 You refer to a map via its name attribute included in an <img> usemap attribute prefixed by #
@@ -380,7 +380,7 @@ The content between the tags should be descriptive of what the link does.
 
 The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
 
-The rel attribute defines the relationship between a linked resource and the current document. Valid on <link>, <a>, <area>, and <form>, the supported values depend on the element on which the attribute is found.
+The rel attribute defines the relationship between a linked resource and the current document. Valid on <link>, ‹a›, ‹area›, and <form>, the supported values depend on the element on which the attribute is found.
 
 rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
 rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document, and thus doesn't confer some of your sites reputation onto the linked sites reputation.
@@ -404,9 +404,9 @@ rel="alternate" indicates a canonical URL for a page, useful if you have multipl
 
 ###### hyperlinks
 
-The two elements that create hyperlinks are <area> and <a>.
-use the attribute href for <area> and <a> to specify an URL of the links target.
-The target attribute of <area>/<a> specifies in which browsing context to open the link.
+The two elements that create hyperlinks are ‹area› and ‹a›.
+use the attribute href for ‹area› and ‹a› to specify an URL of the links target.
+The target attribute of ‹area›/‹a› specifies in which browsing context to open the link.
 _self|current browsing context
 _blank|new window/tab
 _parent|parent browsing context
@@ -415,10 +415,10 @@ for <form>, the target attribute represents where to display the response after 
 
 ####### a
 
-the download attribute of <a> Prompts the user to save the linked URL instead of navigating to it. 
-the download attribute of <a> Can be used with or without a value.
-the download attribute of <a> used without a value will prompt the browser to suggest a file type.
-the download attribute of <a> used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
+the download attribute of ‹a› Prompts the user to save the linked URL instead of navigating to it. 
+the download attribute of ‹a› Can be used with or without a value.
+the download attribute of ‹a› used without a value will prompt the browser to suggest a file type.
+the download attribute of ‹a› used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
 
 ##### forms
 
@@ -1665,7 +1665,7 @@ an-plus-b ::= <integer>n+<integer>
 
 ####### link-related pseudo-classes
 
-:any-link|All links: <a> and <area> elements
+:any-link|All links: ‹a› and ‹area› elements
 :link|Selects all unvisited links  
 :visited|Selects all visited links  
 
@@ -2082,8 +2082,8 @@ the quotes property is inherited and so doesn't have to be set on the thing with
 quotes takes two strings, the opening and the closing quote, it may also take two more strings, which are for when there are nested.
 
 hyphens controls the behavior of hyphens.
-none|will not hyphenate, even if manually indicated via &shy;
-manual|only at places indicated via &shy;
+none|will not hyphenate, even if manually indicated via ＆shy;
+manual|only at places indicated via ＆shy;
 auto|language-dependent auto-hyphenation (may not work depending on platform or language)
 
 text-indent takes a <length-percentage> which specifies how much to indent the first line box.
@@ -15056,7 +15056,7 @@ you can get ⟮the date components⟯ of ⟮Datelike⟯ using ⟮the date compon
 chrono represents durations with `Duration`
 for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
-Weekdays in chrono are implemented by the enum chrono:&#8203;:Weekday and the variants( :&#8203;:Mon,  :&#8203;:Tue,...)
+Weekdays in chrono are implemented by the enum chrono::Weekday and the variants( ::Mon,  ::Tue,...)
 
 ### internationalization
 

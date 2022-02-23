@@ -3667,7 +3667,14 @@ some citation styles allow using ibid. instead of the page information if the pa
 
 ##### placement
 
-onion-box:[citations [in-body citation [note citation][in-text&nsbsp;citation]][works cited/references entry]]
+onion-box:
+citations 
+  in-body citation 
+    note citation
+    in-text citation
+  works cited/references entry
+
+  
 Note citations are citations in endnotes/footnotes.
 In-text citations are citations within the flow of text.
 Typically, short citations are also in-body citations, and full citations are reference entries.

@@ -191,7 +191,7 @@
 ⟮　外（そと）⟯|⟮outside, open air⟯</div>
 ⟮　休日（きゅうじつ）⟯|⟮holiday, day off⟯</div>
 ⟮　休（やす）み⟯|⟮rest, holiday, absence⟯<div class="sub"> </div>
-⟮ソフト⟯|⟮software, programme⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮ソフト⟯|⟮software, programme⟯
 ⟮　力（ちから）⟯|⟮strength, power⟯</div>
 ⟮　協力（きょうりょく）:: 2nd kanji starts w r sound ⟯|⟮cooperation, collaboration⟯<div class="sub"> <div class="sub all-b"> KYOU, we will collaborate for MAXIMUM POWAAAA!!!!!! </div><div class="sub c2-b c1-f" > Verbal Noun </div> </div>
 ⟮　人口（じんこう）⟯|⟮population⟯<div class="sub c2-b c1-f" > starts j </div></div>
@@ -1616,7 +1616,7 @@ weird morphosyntactic alignment of suki/kirai/kiniiru
 ✫sm_paste-b5c1262e83438a5a69294d2ce15d6decf1907b8c.jpg✫⟮来る⟯|⟮く・る⟯
 ✫sm_paste-b05f6315f5fcef73cb901b0e2293ab8f2fc3a112.jpg✫✫sm_paste-69345e913cace55c7e39b62bee778ebee6ab4253.jpg✫✫sm_paste-afce5fa1ac96fc46f6930279c3dd00572526ca99.jpg✫✫sm_paste-15a574c9c8f09b9037e8c76d7a9d527590f69de4.jpg✫⟮帰る:: 家に ⟯|⟮かえ・る⟯
 ⟮　帰（かえ）る⟯|⟮c2;⟯
-⟮　捨（す）てる:: what's the kanji you're looking for? ⟯|⟮c2;⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　捨（す）てる:: what's the kanji you're looking for? ⟯|⟮c2;⟯
 ✫sm_paste-45e4e76d97e94a7182049a5f16d25cc7aa740961.jpg✫✫sm_paste-3513b7c10cdcf94f9d54d72df778eba8ebc15ed5.jpg✫⟮捨てる⟯|⟮す・てる⟯
 ✫sm_paste-7f0a75f0bab2e04c8084a0b20aa28d29c2ca24eb.jpg✫✫sm_paste-bd6e0304c97ab41810ad6b9ccba85ae3b58ce108.jpg✫✫sm_paste-d3c49163602e3072437c93e00d4775ec2ae60c22.jpg✫⟮ご飯⟯|⟮ご・はん⟯
 ⟮ご　 飯 （はん）:: 1 kanji 1 kana ⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > meal </div> </div>
@@ -1648,7 +1648,7 @@ weird morphosyntactic alignment of suki/kirai/kiniiru
 ✫sm_paste-e68e5c0625114687504306a497a36ac3a8d2b4fc.jpg✫✫sm_paste-a39ddb455921119cf7cc67483efb21921d3dd509.jpg✫⟮歩く⟯|⟮ある・く⟯
 ⟮　歩（ある）く⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > walk </div> </div>
 ⟮　 高速 （こうそく）⟯|⟮high-speed⟯
-✫sm_paste-4d5c084a879fefc1594de874b076e2b5b050d489.jpg✫✫sm_paste-4efd8017e86c6b7e43d337cbc78052cdd9327736.jpg✫⟮高速⟯|⟮こう・そく⟯<div class="sub"> <div class='sub f'> think </div> </div>
+✫sm_paste-4d5c084a879fefc1594de874b076e2b5b050d489.jpg✫✫sm_paste-4efd8017e86c6b7e43d337cbc78052cdd9327736.jpg✫⟮高速⟯|⟮こう・そく⟯
 ✫sm_paste-114c372da89abd7a3e5415d8bba56f10d6dc6776.jpg✫✫sm_paste-2533ae61d4c96337f9729d1db1fb088f04457e5e.jpg✫⟮道路⟯|⟮どう・ろ⟯
 ⟮　 道路 （どうろ）⟯|⟮road⟯<div class="sub"> <div class="sub c2-b c1-f" > also 道(みち) </div> </div>
 高速道路  ⟮Highway⟯<div class="sub"> <div class="sub c1-b c2-f" > こうそくどうろ </div> </div>
@@ -1659,7 +1659,7 @@ weird morphosyntactic alignment of suki/kirai/kiniiru
 ⟮　 家 （いえ）⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > House </div> </div>
 ⟮　 部屋 （へや）⟯|⟮room⟯
 ✫sm_paste-4d654090c996c6125f9e5ee279aae6df27b65b3c.jpg✫✫sm_paste-ca4dcfbf9a6b11862ea06e52b5909546b31d34fd.jpg✫✫sm_paste-99ef344a878bff85b0ca514b6df3afdcfd56f2f4.jpg✫⟮部屋⟯|⟮へ・や⟯
-✫sm_paste-52fde7826c760ed4ca5059ef51936130003fefb1.jpg✫✫sm_paste-a8dabcbd16e7530574dc0019ba24f1254ff20aa7.jpg✫⟮宿題⟯|⟮しゅくだい⟯<div class="sub"> <div class='sub f'> think </div> </div>
+✫sm_paste-52fde7826c760ed4ca5059ef51936130003fefb1.jpg✫✫sm_paste-a8dabcbd16e7530574dc0019ba24f1254ff20aa7.jpg✫⟮宿題⟯|⟮しゅくだい⟯
 ⟮　 宿題 （しゅくだい）⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > homework </div> </div>
 ✫sm_paste-22addbc460d608bd8471cb92a6e757f2b1fae287.jpg✫✫sm_paste-ab0be96f075f6ac43d34e33fa4571027d9cd7cba.jpg✫⟮台所⟯|⟮だい・どころ⟯
 ⟮　 台所 （だいどころ）⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > kitchen </div> </div>
@@ -1685,7 +1685,7 @@ When giving the ⟮location⟯ of something/one with ⟮ある⟯ or ⟮いる�
 In general, the idea of targetness for に is ___  ⟮very general⟯ The 「⟮へ⟯」 particle is used to express the fact that one is setting out ⟮towards⟯ ＊the ＊⟮direction⟯ of the target. As a result, it is only used with directional motion verbs. It also does not guarantee whether the target is the ⟮final⟯ ⟮intended⟯ ⟮destination⟯, only that one is ⟮heading⟯ ⟮towards⟯ that ⟮direction⟯. What is the difference between に and へ as particles as concerns targeting?  ⟮に」 goes ＊to＊ a target as the final, intended destination, while へ only claims that one will go in the direction of the target⟯ When using ⟮へ⟯, the ⟮verb⟯ ⟮has to⟯ be one related to ⟮ physical direction⟯, the ⟮thing⟯ being marked ⟮does not have to⟯.<div class="sub"> <div class="sub c1-b c2-f" > but actually somewhat more complicated </div> </div>
 <div class='c2-f'> how is this read? </div><div class='c1-f'> in kanji? </div>⟮<div>何で</div>⟯|⟮<div>なんで</div>⟯<div class="sub"> <div class="sub c2-f c1-b" > with the meaning of "why?" </div> </div>
 <div>What do you do when the location, which you would mark with に」、「へ」、「で」, is also the topic?</div>  ⟮<div>You attach the location particle, and then the topic particle.</div>⟯
-<div>ボブ：学校に行った？</div><div>アリス：行かなかった。</div><div>ボブ：図書館____？</div><div>アリス：図書館____行かなかった。</div>  ⟮<div>には, にも</div>⟯<div class="sub"> <div class='sub f'> think </div> </div>
+<div>ボブ：学校に行った？</div><div>アリス：行かなかった。</div><div>ボブ：図書館____？</div><div>アリス：図書館____行かなかった。</div>  ⟮<div>には, にも</div>⟯
 <div>Can you use the direct object particle with other particles?</div>  ⟮<div>no</div>⟯
 <div>If you want the topic to also be the direct object, what do you do?</div>  ⟮<div>just mark it with the topic marker</div>⟯
 <div class='c1-f'> Transitive (insert) or intransitive (enter)? </div> <div class='c1-f'> Transitive (insert) or intransitive (enter)? </div> <div class='c1-f'> Transitive (take out) or intransitive (leave)? </div> <div class='c1-f'> Transitive (take out) or intransitive (leave)? </div> <div class='c1-f'> Transitive (extract) or intransitive (be extracted)? </div> <div class='c1-f'> Transitive (extract) or intransitive (be extracted)? </div> <div class='c1-f'> Transitive (erase) or intransitive (disappear)? </div> <div class='c1-f'> Transitive (erase) or intransitive (dissapear)? </div> <div class='c1-f'> Transitive (drop) or intransitive (fall)? </div> <div class='c1-f'> Transitive (drop) or intransitive (fall)? </div> <div class='c1-f'> Transitive (close) or intransitive (be closed)? </div> <div class='c1-f'> Transitive (close) or intransitive (be closed)? </div> <div class='c1-f'> Transitive (open) or intransitive (be opened)? </div> <div class='c1-f'> Transitive (open) or intransitive (be opened)? </div> <div class='c1-f'> Transitive (attach) or intransitive (be attached)? </div> <img class="c1-b c2-f" src='ContraPoints_(cropped).jpg'/>　入（はい）る  ⟮Intransitive (enter)⟯ 　入（い）れる  ⟮Transitive (insert)⟯ 　出（だ）す  ⟮Transitive (take out)⟯ 　出（で）る  ⟮Intransitive (leave)⟯ 　抜（ぬ）く  ⟮Transitive (extract)⟯ 　抜（ぬ）ける  ⟮Intransitive (be extracted)⟯ 　消（き）える  ⟮Intransitive (disappear)⟯ 　消（け）す  ⟮Transitive (erase)⟯ 　落（お）ちる  ⟮Intransitive (fall)⟯ 　落（お）とす   ⟮Transitive (drop)⟯ 　閉（し）まる  ⟮Intransitive (be closed)⟯ 　閉（し）める  ⟮Transitive (close)⟯ 　開（あ）く  ⟮Intransitive (be opened)⟯ 　開<rt>あ</rt>　ける  ⟮Transitive (open)⟯ つく  ⟮Intransitive (be attached)⟯ つける  ⟮Transitive (attach)⟯ What is the P mnemonic for a intransitive verb?  ⟮Jordan Peterson (because he's transphobic)⟯ What is the P mnemonic for a transitive verb?  ⟮A trans person⟯ Many japanese verbs have ___ and ___ versions  ⟮transitive and intransitive⟯ What particle is somewhat rarely used with intransitive verbs (and why)?  ⟮を⟯<div class="sub"> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson enters a RUm full of Nazis - his home! </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person inserts RERU metals into her orifices. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person takes out the SUperman from their vagina. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson leaves because his colon RUptured </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person extracts CUm from her 27 sex slaves. </div> <div class='sub f'> think </div><div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson is extracted to be placed in rehab, where he will get the KERU he needs </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson disappears, leaving only his KId and ERUpting colon. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person erases the SUn. PREPARE FOR ETERNAL DARKNESS!!! </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson falls and everyone TCHIRUs </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person drops the oogling TOSSER </div> <div class="sub c1-b c2-f" > Jordan peterson's twitter account is closed because he was MARUd (marred) by being transphobic. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person closes the める envelope with the bomb. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson is opened because we will CUuk his organs. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person opens woKE RUbies. </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > Jordan peterson is attached to CUddly CUbans </div> <div class="sub c1-f c2-b" > (Probably) no rule </div><div class="sub c1-b c2-f" > A trans person attaches a love letter to your locker, but you don't KERU. </div> <div class="sub c1-b c2-f" > Because there is no direct object </div> </div>
@@ -1709,7 +1709,7 @@ In general, the idea of targetness for に is ___  ⟮very general⟯ The 「⟮
 ⟮いつも⟯|⟮always⟯<div class="sub"> <div class="sub c2-b c1-f" > (sometimes also ずっと) </div> </div>
 ⟮　赤（あか）い⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > red, obv </div> </div>
 ⟮赤い⟯|⟮あか・い⟯
-⟮pants⟯|⟮ズボン⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮pants⟯|⟮ズボン⟯
 ⟮晩ご飯⟯|⟮ばん・ご・はん⟯
 ⟮　 晩 （ばん）ご　飯（はん）:: 2 kanji 1 kana ⟯|⟮dinner⟯
 ⟮　 銀行 （ぎんこう）⟯|⟮bank⟯
@@ -1926,7 +1926,7 @@ What does 々 mean, e.g. 人々？  ⟮More than one of that thing, 人々＝peo
 ⟮　見（み）つかる⟯|⟮to be found⟯
 ⟮　 前 （まえ）⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > front, before </div> </div>
 ⟮　 結局 （けっきょく）⟯|⟮c2;⟯<div class="sub c2-b c1-f" > eventually </div> </div>
-✫sm_paste-a6b46ae5557c5146ac587b8f79347f846237a148.jpg✫✫sm_paste-2f2792b686f7713db91749185e9773e5786c7a04.jpg✫✫sm_paste-d020e7d1d82eccc764f629e461b6dab9cfac0342.jpg✫⟮hamburger⟯|⟮ハンバーガー⟯<div class="sub"> <div class='sub f'> think </div> </div>
+✫sm_paste-a6b46ae5557c5146ac587b8f79347f846237a148.jpg✫✫sm_paste-2f2792b686f7713db91749185e9773e5786c7a04.jpg✫✫sm_paste-d020e7d1d82eccc764f629e461b6dab9cfac0342.jpg✫⟮hamburger⟯|⟮ハンバーガー⟯
 ✫sm_paste-c4d53c45dd8a27c8b0c6954d7672ac3f5c04df88.jpg✫⟮salad⟯|⟮サラダ⟯
 ✫sm_paste-98388e731427839e3e2d3adb85f5eb2b50704c99.jpg✫✫sm_paste-e3c0e406c945e943b88433447713f94e8c2e7ddc.jpg✫⟮Piano⟯|⟮ピアノ⟯
 ✫sm_paste-55c991d3f8dcb8f348e94734c75feaab5b19872e.jpg✫✫sm_paste-485bb7988009021424c49839741a9fb70785f18d.jpg✫✫sm_paste-27b11aa325f9db6b40dc7db749bce65b50653455.jpg✫⟮ball⟯|⟮ボール⟯
@@ -2102,7 +2102,7 @@ When counting months, how do you pronounce 月?  ⟮げつ⟯
 20 days  ⟮二十日間 （はつかかん）⟯<div class="sub"> <div class='sub f'> think </div><div class="sub c1-f c2-b" > period of time </div> </div>
 15 days  ⟮十五日間 （じゅうごにちかん）⟯
 two years  ⟮二年間 （にねんかん）⟯
-period of three weeks  ⟮三週間 （さんしゅうかん）⟯<div class="sub"> <div class='sub f'> think </div> </div>
+period of three weeks  ⟮三週間 （さんしゅうかん）⟯
 how is １０つ (とお) written?  ⟮十⟯
 Up to how many items can you use つ?  ⟮10⟯<div class="sub"> <div class="sub c1-b c2-f" > (technically, 10つ is just 十, no つ involved) </div> </div>
 What is the fundamental goal of slang?  ⟮To reduce mouth movement⟯
@@ -2172,7 +2172,7 @@ Can you replace the する in the volitional + とする form with similar verbs
 ⟮はちみつ⟯|⟮honey⟯
 ⟮　 光 （ひかり）⟯|⟮light⟯
 ⟮　光（ひか）る⟯|⟮to shine⟯
-⟮　 鳥 （とり）⟯|⟮c2;⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　 鳥 （とり）⟯|⟮c2;⟯
 ⟮　青（あお）い⟯|⟮c2;⟯
 ⟮　 様 （さま）⟯|⟮revered person suffix⟯
 ⟮　 胸 （むね）⟯|⟮chest, breasts⟯
@@ -2427,7 +2427,7 @@ How do you create negative polite requests?  ⟮negative verb form + で + く�
 ⟮　参（まい）る⟯|⟮to go, to come (humble)⟯<div class="sub"> <div class="sub all-b"> MAI RUmmate always comes humbly on his knees, admitting defeat. Every day! </div><div class="sub c2-f c1-b" > u-verb </div><div class="sub c2-b c1-f" > equivalent of 行く and 来る </div> </div>
 ⟮ゴミ⟯|⟮garbage⟯
 ⟮　措（そ）　置（ち）⟯|⟮measures⟯ </div>
-⟮ビタミン⟯|⟮vitamin⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮ビタミン⟯|⟮vitamin⟯
 ⟮　 保証 （ほしょう）⟯|⟮guarantee⟯ </div>
 <img class="c2-b c1-f" src="sm_1904206top.jpg" class="fullsize-image">⟮　過（あやま）ち⟯|⟮fault, error⟯<div class="sub"> <div class='sub f'> think </div><div class="sub all-b"> あやまる is also a verb meaning to make a mistake (although using a different kanji), 謝る is to apologize </div><div class="sub all-b"> A YAMA (山) is considered to be at fault for breach of contract if it does not contribute 30% of it's income in CHI to the shogunal government. </div> </div>
 ⟮　認（みと）める⟯|⟮to recognize, to acknowledge, to deem, to admit⟯ </div>
@@ -2442,7 +2442,7 @@ How do you create negative polite requests?  ⟮negative verb form + で + く�
 ⟮　 皮肉 （ひにく）⟯|⟮irony⟯ </div>
 ⟮　紅（こう）　葉（よう）⟯|⟮leaves changing color⟯ </div>
 ⟮すっかり⟯|⟮completely⟯<div class="sub"> <div class="sub all-b"> Your smile is completely SUKKARI (sugary) </div> </div>
-⟮～　 方 （かた）⟯|⟮way of doing ～⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮～　 方 （かた）⟯|⟮way of doing ～⟯
 ((h:all;::✫sm_BlindIllegalBlackbird-size_restricted.gif✫))⟮　得（え）る⟯|⟮to obtain⟯<div class="sub c2-f c1-b" > ru-verb </div> </div>
 ⟮　意（い）　図（と）:: also つもり, similar: 目的 ⟯|⟮intention, aim, design⟯ </div>
 ⟮どうしても:: similar: 必ず, ぜひ ⟯|⟮by any means, no matter what⟯<div class="sub"> <div class="sub all-b"> "why + more" </div> </div>
@@ -2511,7 +2511,7 @@ How do you create negative polite requests?  ⟮negative verb form + で + く�
 ⟮たっぷり:: starts w t sound, kana only ⟯|⟮filled with⟯ </div>
 ⟮　 放 （ほう）り　込（こ）む⟯|⟮to throw into⟯<div class="sub"> <div class="sub all-b"> HOLY COMintern! Throw that secular capitalist nation into the trash, yo! </div><div class="sub all-b"> cf。放っておく </div><div class="sub c2-f c1-b" > (u-verb) </div> </div>
 ⟮　搭（とう）　乗（じょう）⟯|⟮boarding⟯ </div>
-⟮アナウンス⟯|⟮announcement⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮アナウンス⟯|⟮announcement⟯
 ⟮ゲート⟯|⟮gate⟯
 ⟮　散（ち）らかす⟯|⟮to scatter around, to leave untidy を⟯<div class="sub"> <div class="sub all-b"> cf. 散歩 </div><div class="sub all-b"> No one is gonna TCHIRA you KASU you leave your room untidy. </div> </div>
 ⟮　諦（あきら）める (ru-verb)⟯|⟮to give up⟯<div class="sub all-b"> If you're thinking of A'givin up on catching KIRA, prepare for some MERU by grieving relatives! </div> </div>
@@ -2564,7 +2564,7 @@ How would you express that one thing was expected, but then, surprisingly, somet
 ⟮　告白 （こくはく）⟯|⟮c2;⟯
 ⟮　永遠（えいえん）⟯|⟮c2;⟯<div class="sub"> <div class="sub c2-b c1-f" > 終わりがない時期 </div> </div>
 ⟮エロい⟯|⟮c+;erotic; sexy; arousing⟯
-⟮　色気 （いろけ）⟯|⟮sex appeal⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　色気 （いろけ）⟯|⟮sex appeal⟯
 ⟮　悔（くや）しい⟯|⟮Vexing, frustrating⟯
 ⟮いじめっ　子（こ）⟯|⟮bully⟯
 ⟮ドンマイ⟯|⟮c+;don't worry about it; never mind;⟯<div class="sub"> <div class="sub c2-b c1-f" > esp in sports </div> </div>
@@ -2698,7 +2698,7 @@ When not used as the adverb of よろしい, where does よろしく come from? 
 ⟮　祈（いの）る⟯|⟮pray⟯
 ⟮たこ焼き⟯|⟮takoyaki (fried octopus balls)⟯
 ⟮イケメン⟯|⟮Hot guy⟯
-⟮　黙（だま）る⟯|⟮Be quiet⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　黙（だま）る⟯|⟮Be quiet⟯
 ⟮　放課後（ほうかご）⟯|⟮after school⟯
 ⟮　敵（てき）⟯|⟮Opponent, enemy⟯<div class="sub"> <div class="sub all-b"> cf. 素敵 (ateji) </div> </div>
 ⟮べた (no-adjective)⟯|⟮clichéd, predictable⟯
@@ -2730,11 +2730,11 @@ What does いいえ (or variants) mean in response to ありがとう or other p
 ⟮こら⟯|⟮hey! ⟯<div class="sub"> <div class="sub c2-b c1-f" > often scolding </div> </div>
 ⟮こら⟯！ナニやっとるかぁぁ！！<div class="sub"> <div class="sub c1-f" > k... </div><div class="sub c1-f c2-b" > Hey! What are you up to!? </div><div class="sub c1-b c2-f" > https://jisho.org/search/%E3%81%93%E3%82%89 </div> </div>
 こら！⟮おめぇ⟯、何やってんだ！？<div class="sub"> <div class="sub c1-f c2-b" > お前 casual male </div> </div>
-あ！⟮いてー⟯！<div class="sub"> <div class="sub c1-f c2-b" > 痛い casual male/下町 </div><div class="sub c1-b c2-f" > or any other spelling that indicates <span class="ipa">eː</span> </div> </div>
-⟮すげー⟯、あの爆発！<div class="sub"> <div class="sub c1-f c2-b" > すごい casual male </div><div class="sub c1-b c2-f" > or any other spelling that indicates <span class="ipa">eː</span> </div> </div>
-What often happens to /ai/, /ae/, and /oi/ in casual speech, especially male casual speech・下町言葉?  ⟮They get reduced to <span class="ipa">eː</span>⟯
-Which gender do people who reduce /ai/, /ae/, and /oi/ to <span class="ipa">eː</span> more frequently have (at least stereotypically)?  ⟮males⟯
-<div class='c1-f'> What has happened here? </div>すげー、あの爆発！  ⟮<span class="ipa phoneme">oi</span> has been reduced to <span class="ipa">eː</span>⟯<div class="sub"> <div class="sub c1-b c2-f" > as is common in male slang ≈ 下町言葉 </div> </div>
+あ！⟮いてー⟯！<div class="sub"> <div class="sub c1-f c2-b" > 痛い casual male/下町 </div><div class="sub c1-b c2-f" > or any other spelling that indicates ［eː］ </div> </div>
+⟮すげー⟯、あの爆発！<div class="sub"> <div class="sub c1-f c2-b" > すごい casual male </div><div class="sub c1-b c2-f" > or any other spelling that indicates ［eː］ </div> </div>
+What often happens to /ai/, /ae/, and /oi/ in casual speech, especially male casual speech・下町言葉?  ⟮They get reduced to ［eː］⟯
+Which gender do people who reduce /ai/, /ae/, and /oi/ to ［eː］ more frequently have (at least stereotypically)?  ⟮males⟯
+<div class='c1-f'> What has happened here? </div>すげー、あの爆発！  ⟮／oi／ has been reduced to ［eː］⟯<div class="sub"> <div class="sub c1-b c2-f" > as is common in male slang ≈ 下町言葉 </div> </div>
 What can happen to い in 'feminine' speech?  ⟮It can sometimes be dropped⟯<div class="sub"> <div class="sub c1-b c2-f" > feminine i-deletiomn </div> </div>
 Name an example where い is often dropped in feminine speech  ⟮c+;いや → や⟯<div class="sub"> <div class="sub c1-f c2-b" > feminine i-deletiomn </div> </div>
 <div class='c1-f'> What does this gloss as? </div>やです！  ⟮I don't want to!, No!⟯<div class="sub"> <div class="sub c1-b c2-f" > Feminine い-deletion </div> </div>
@@ -2754,10 +2754,10 @@ Name an example where い is often dropped in feminine speech  ⟮c+;いや → 
 ⟮ご飯にする？お風呂にする？それともわ　た　し？⟯|⟮Would you like dinner? Would you like a bath? Or would you rather like me?⟯
 ⟮　謝（あやま）る⟯|⟮apologize⟯
 <div class='c2-f'> What is this called? </div><div class='c1-f'> これは何ですか？ </div>✫sm_Screenshot 2020-08-13 at 03.31.30.jpg✫⟮c1;⟯|⟮五十音⟯
-<div class='c2-f'> What is this now-obsolete 平仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 平仮名 for this pronunciation? </div>⟮ゐ⟯|⟮<span class="ipa">ɰi</span>⟯
-<div class='c2-f'> What is this now-obsolete 片仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 片仮名 for this pronunciation? </div>⟮ヰ⟯|⟮<span class="ipa">ɰi</span>⟯ </div>
-<div class='c2-f'> What is this now-obsolete 平仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 平仮名 for this pronunciation? </div>⟮ゑ⟯|⟮<span class="ipa">ɰe</span>⟯
-<div class='c2-f'> What is this now-obsolete 片仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 片仮名 for this pronunciation? </div>⟮ヱ⟯|⟮<span class="ipa">ɰe</span>⟯
+<div class='c2-f'> What is this now-obsolete 平仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 平仮名 for this pronunciation? </div>⟮ゐ⟯|⟮［ɰi］⟯
+<div class='c2-f'> What is this now-obsolete 片仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 片仮名 for this pronunciation? </div>⟮ヰ⟯|⟮［ɰi］⟯ </div>
+<div class='c2-f'> What is this now-obsolete 平仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 平仮名 for this pronunciation? </div>⟮ゑ⟯|⟮［ɰe］⟯
+<div class='c2-f'> What is this now-obsolete 片仮名 pronounced as? </div><div class='c1-f'> What is the now-obsolete 片仮名 for this pronunciation? </div>⟮ヱ⟯|⟮［ɰe］⟯
 How often is を pronounced 'wo'?  ⟮Not very often, but not never⟯
 What group (as an example) tends to pronounce を as 'wo'?  ⟮Singers⟯
 <div class='c2-f'> The marks on the top right </div><div class='c1-f'> What are these </div>⟮だがばざ etc.⟯|⟮　濁点（だくてん）⟯<div class="sub"> <div class="sub all-b"> (first kanji) In muddy water, wrap a net around an insect. </div><div class="sub c2-f c1-b" > Importantly not ぱ etc. </div> </div>
@@ -2765,10 +2765,10 @@ What group (as an example) tends to pronounce を as 'wo'?  ⟮Singers⟯
 <div class='c2-f'> What are these colloquially called (the mark on the top right)? </div><div class='c1-f'> When refering to kana, what does this mean? </div>⟮ぱぺぷ etc.⟯|⟮　丸<rp>)</rp>⟯
 <div class='c2-f'> What are these colloquially called (the mark on the top right)? </div><div class='c1-f'> When refering to kana, what does this mean? </div>⟮ばだが etc.⟯|⟮点々⟯
 What are the katakana 'V' sounds often pronounced as by speakers?  ⟮as a b-sound⟯
-What is the long <span class="ipa">eː</span> sound written as in native japanese words?  ⟮ええ⟯
-What is the long <span class="ipa">eː</span> sound written as in sino-japanese words?  ⟮えい⟯<div class="sub"> <div class="sub c1-b c2-f" > Note that this does not imply that えい in sino-japanese words is always pronounced <span class="ipa">eː</span>, just that if there is an <span class="ipa">eː</span> in sino-japanese words, it will be written えい. it is in fact the choice of the speaker wheter to pronounce えい <span class="ipa">eː</span> or ei in sino-japanese words. </div> </div>
-What sound does えい represent in sino-japanese words?  ⟮ <span class="ipa">eː or ei</span>⟯
-What sound does えい represent in native japanese words?  ⟮ <span class="ipa">ei</span>⟯
+What is the long ［eː］ sound written as in native japanese words?  ⟮ええ⟯
+What is the long ［eː］ sound written as in sino-japanese words?  ⟮えい⟯<div class="sub"> <div class="sub c1-b c2-f" > Note that this does not imply that えい in sino-japanese words is always pronounced ［eː］, just that if there is an ［eː］ in sino-japanese words, it will be written えい. it is in fact the choice of the speaker wheter to pronounce えい ［eː］ or ei in sino-japanese words. </div> </div>
+What sound does えい represent in sino-japanese words?  ⟮ ［eː or ei］⟯
+What sound does えい represent in native japanese words?  ⟮ ［ei］⟯
 <div class='c2-f'> When is this used? </div><div class='c1-f'> What's the phrase for this? </div>⟮お　邪魔（じゃま）します⟯|⟮greeting used when entering someone's home (to an actual person (most often))⟯
 <div class='c2-f'> When is this used? </div><div class='c1-f'> What's the phrase for this? </div>⟮お　邪魔（じゃま）しました⟯|⟮greeting used when leaving someone's home (to the host)⟯
 <div class='c2-f'> When is this used? </div><div class='c1-f'> What's the phrase for this? </div>⟮ごめんください⟯|⟮When visiting someones home, if you are unsure if anyone is there⟯
@@ -2790,7 +2790,7 @@ What sound does えい represent in native japanese words?  ⟮ <span class="ipa
 ⟮OL (オーエル)⟯|⟮Full-time female employee⟯<div class="sub"> <div class="sub c2-b c1-f" > Female equivalent of サラリーマン </div> </div>
 ⟮ダサい⟯|⟮c+;uncool; unsophisticated; unfashionable; out of fashion; tacky​⟯<div class="sub"> <div class="sub c2-f c1-b" > often colloquially ダセー </div> </div>
 ⟮デブ⟯|⟮c+;fat,  fatty; fat person⟯
-⟮　女子（じょし）:: 2 kanji, starts w voiced sound ⟯|⟮Girl⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　女子（じょし）:: 2 kanji, starts w voiced sound ⟯|⟮Girl⟯
 ⟮　処女 （しょじょ）⟯|⟮virgin⟯
 ⟮　女子高生（じょしこうせい）⟯|⟮female high school student⟯
 ⟮　風船 （ふうせん）⟯|⟮baloon⟯<div class="sub"> <div class="sub all-b"> original meaning: airship </div><div class="sub all-b"> Fuusen kazura </div> </div>
@@ -2826,7 +2826,7 @@ What sound does えい represent in native japanese words?  ⟮ <span class="ipa
 ⟮じじ⟯|⟮old man⟯
 ⟮　囚人（しゅうじん）⟯|⟮prisoner⟯
 ⟮　昔 （むかし）⟯|⟮once (adverb), the past, ancient (noun)⟯
-⟮　昔々（むかしむかし）:: reduplication ⟯|⟮once upon a time, a very long time ago⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　昔々（むかしむかし）:: reduplication ⟯|⟮once upon a time, a very long time ago⟯
 When だって is used as a conjunction, but not for complaining/'but', what does it mean?  ⟮after all, because⟯
 <div>A: 僕たちはお医者さんごっこの時があった、覚えるの？」</div> <div>B: 「⟮そうそう⟯、子供の頃ね？」</div><div class="sub"> <div class="sub c1-f c2-b" > That's right / I remember </div> </div>
 ⟮　次回 （じかい）⟯|⟮next time⟯
@@ -2881,7 +2881,7 @@ What is an eastern japanese variant of かい, but with less vulgarity?  ⟮か�
 ⟮　坂道（さかみち）⟯|⟮hill road⟯
 ⟮　寝癖 （ねぐせ）⟯|⟮bed hair⟯
 ⟮美味しくなれ萌え萌えきゅん⟯|⟮Incantation often used in maid cafes⟯
-On what does it depend whether えい in sino-japanese words is pronounced as <span class="ipa">eː</span> or ei?  ⟮The speakers choice⟯<div class="sub"> <div class="sub c1-b c2-f" > As alsways, singers etc. often prefer ei </div> </div>
+On what does it depend whether えい in sino-japanese words is pronounced as ［eː］ or ei?  ⟮The speakers choice⟯<div class="sub"> <div class="sub c1-b c2-f" > As alsways, singers etc. often prefer ei </div> </div>
 How is おう pronounced in Sino-Japanese words?  ⟮long o⟯
 How is おう pronounced in native japanese words?  ⟮long o⟯<div class="sub"> <div class="sub c1-b c2-f" > unless at the end of a verb (obviously) </div> </div>
 ⟮　 長音符 （ちょうおんぷ）:: 3 kanji ⟯|⟮Katakana long vowel mark⟯
@@ -3005,7 +3005,7 @@ Why is の needed when using the 挙句 grammar with nouns?  ⟮Since 挙句 is 
 ⟮　 遊園地 （ゆうえんち）⟯|⟮amusement park⟯
 ⟮　 鎖 （くさり）⟯|⟮c2;⟯
 ⟮　 小道 （こみち）⟯|⟮footpath, trail⟯
-⟮　 広告 （こうこく）⟯|⟮advertising⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　 広告 （こうこく）⟯|⟮advertising⟯
 ⟮　 銃弾 （じゅうだん）⟯|⟮rifle bullet⟯
 ((h:2;::✫sm_Bullets(1).jpg✫))⟮弾丸⟯|⟮bullet, shot, shell⟯<div class="sub"> <div class="sub all-b"> gan reading from e.g. rasengan </div> </div>
 <img class="c2-b c1-f" src='sm_800px-Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg'/>⟮　 聖書 （せいしょ）⟯|⟮bible⟯
@@ -3025,7 +3025,7 @@ Why is の needed when using the 挙句 grammar with nouns?  ⟮Since 挙句 is 
 ⟮嘘つき⟯|⟮ liar⟯
 ⟮　 螺旋 （らせん）:: 2 unknown kanji! ⟯|⟮ Spiral, helix⟯
 When using the te-form with  さえ, where does the thing that would have originally be after the te-form go?  ⟮After the さえ⟯ When using the te-form with  さえ, what comes after the  さえ?  ⟮The thing that would have originally gone after the te-form⟯ When can you use the te-form with  さえ?  ⟮When you're using a form that requires the te form (くれる, いる, etc.)⟯ When attaching さえ to the stem of verbs, what do you need after the さえ?  ⟮A form of する⟯ What is the difference between さえ and でさえ?  ⟮でさえ is more emphatic⟯ What do you attach to verb + さえ?  ⟮する⟯ What can you attach でさえ to?  ⟮nouns only⟯ For verbs, what do you attach さえto to indicate the minimum action for a result?  ⟮c+;<span class="highlightMain">stem </span>⟯ How do you change verbs into the さえ form?  ⟮<span class="highlightMain">stem (or te-form)</span> <span class="highlightMain">さえ</span>⟯
-⟮　 外来語 （がいらいご）⟯|⟮a foreign loanword transliterated into Japanese, usually written in katakana⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　 外来語 （がいらいご）⟯|⟮a foreign loanword transliterated into Japanese, usually written in katakana⟯
 ⟮グ(ー)グる⟯|⟮to google⟯<div class="sub"> <div class="sub c2-f c1-b" > sometimes also ggる </div> </div>
 ⟮私すら⟯|⟮Even me (older version)⟯
 ⟮子供ですら⟯|⟮Even (effing) children (older version)⟯
@@ -3175,7 +3175,7 @@ How is ７人 pronounced?  ⟮Both しちにん and ななにん are okay.⟯
 ⟮　 千葉市 （ちばし）⟯|⟮Chiba City⟯<div class="sub"> <div class="sub c2-b c1-f" > It sits about 40 kilometres (25 mi) southeast of the centre of Tokyo on Tokyo Bay.[1] Chiba City became a government-designated city in 1992. In June 2019, its population was 979,768, with a population density of 3,605 people per km2. The city has an area of 271.77 square kilometres (104.93 sq mi). </div> </div>
 ⟮　 新宿区 （しんじゅくく）⟯|⟮Shinjuku City (within tokyo), but literally Shinjuku ward⟯
 ⟮Official name of Tokyo, tokyo metropolis⟯|⟮　東（とう）　京（きょう）　都（と）⟯
-⟮　 中央区 （ちゅうおうく）⟯|⟮Chuo <b>ward</b>⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　 中央区 （ちゅうおうく）⟯|⟮Chuo <b>ward</b>⟯
 ⟮　 銀座 （ぎんざ）⟯|⟮c+;Ginza (District within Chūō)⟯<div class="sub"> <div class="sub all-b"> Named after a silver mint that was located there </div> </div>
 ((h:2;::✫sm_800px-Shibuya_District_at_Night_2015_(17810219251).jpg✫))⟮　渋谷駅（しぶやえき）⟯|⟮Shibuya station⟯<div class="sub"> <div class="sub all-b"> On the surface, this one is a total freaking mystery.  The 2 characters used today are 渋 shibu (this character has many nuances that range from “astringent” to “refined” to “distasteful” to “diarrhea”) and 谷 ya/tani (valley). Unlike Hibiya, which also uses the kanji 谷 ya (valley), Shibuya is an actual valley. It borders Daikanyama (Daikan Mountain). The name Shibuya is also a family name.  </div> </div>
 ⟮　 新宿駅 （しんじゅくえき）⟯|⟮Shinjuku Station⟯
@@ -3618,7 +3618,7 @@ What does かっこ悪い mean, literally?  ⟮Bad-shape, ugly figure⟯
 <div class='c1-f'> What is this an example for? </div>　身体（からだ）  ⟮　義訓（ぎくん）⟯
 ⟮　身体 （しんたい）:: 2 kanji, not ぎくん ⟯|⟮c+;body; physical system; person​⟯
 ⟮　人数（にんずう）⟯|⟮Number of people⟯<div class="sub"> <div class="sub all-b"> The person count is the number of people. Don't confuse this with the "population" or something like that, though. This is more like "how many people are at this event?" What's the 人数, you know? </div> </div>
-⟮この　前（まえ）⟯|⟮some time ago, recently, lately, (with の: last (Sunday, etc.)⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮この　前（まえ）⟯|⟮some time ago, recently, lately, (with の: last (Sunday, etc.)⟯
 ⟮　出来（でき）　上（あ）がる⟯|⟮to be finished が⟯<div class="sub"> <div class="sub all-b"> Think about it this way: once you're able to do something, you rise because you're finished. That's why this verb means to be finished.  </div> </div>
 ⟮　交/混（ま）じる⟯|⟮To be mixed, be blended with, to associate with が⟯ </div>
 ⟮　当（あ）てる⟯|⟮Hit, expose, guess を⟯
@@ -3665,7 +3665,7 @@ What does かっこ悪い mean, literally?  ⟮Bad-shape, ugly figure⟯
 ⟮　化（ば）ける:: starts w b ⟯|⟮transform が⟯
 Kanji for つける (turn on)?  ⟮点ける⟯
 ⟮　向（む）ける⟯|⟮To turn sth torwards, to point sth somewhere を⟯
-⟮　全身（ぜんしん）⟯|⟮Whole body⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　全身（ぜんしん）⟯|⟮Whole body⟯
 ⟮　角度（かくど）:: 2 kanji ⟯|⟮angle⟯
 ⟮　記事（きじ）⟯|⟮article, news story, report⟯
 ⟮　仮定（かてい）⟯|⟮Assumption, hypothesis⟯<div class="sub"> <div class="sub all-b"> cf 仮名 </div> </div>
@@ -4134,7 +4134,7 @@ What does changing みのり to みのりん do?  ⟮Make it sound more cute⟯
 ⟮　同人誌,（どうじんし）⟯|⟮self-published works, usually magazines, manga or novels.⟯
 ⟮　右（みぎ）　利（き）き⟯|⟮Right-handed⟯
 ⟮　回想（かいそう）⟯|⟮Retrospection, reminiscence, recollection⟯
-⟮　実感（じっかん）⟯|⟮actual feeling, the feeling when it hits one, the feeling of something when it sinks in or registers⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　実感（じっかん）⟯|⟮actual feeling, the feeling when it hits one, the feeling of something when it sinks in or registers⟯
 ⟮　詩歌（し(い)か）:: 2 kanji ⟯|⟮Japanese and Chinese poetry⟯
 ⟮　詩人（しじん）⟯|⟮poet⟯
 ⟮　詩（し）⟯|⟮poetry, verse of poetry⟯
@@ -4490,7 +4490,7 @@ For a limited abount of い-adjectives (and very few な-adjectives), what does 
 For a limited abount of い-adjectives (and very few な-adjectives), how do we turn them into intransitive verbs?   ⟮Replace the い with む⟯<div class="sub"> <div class="sub c1-f c2-b" > Not the ones that take -まる </div> </div>
 ⟮　生活保護 （せいかつほご）⟯|⟮c+;livelihood protection; public assistance; welfare⟯
 ⟮ナマポ⟯|⟮c+;(internet slang) livelihood protection; public assistance; welfare⟯ </div>
-⟮　歩廊（ほろう）:: starts w h sound ⟯|⟮corridor, passageway, (train etc.) platform⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　歩廊（ほろう）:: starts w h sound ⟯|⟮corridor, passageway, (train etc.) platform⟯
 ⟮　特有 （とくゆう）:: starts with t sound ⟯|⟮c+;characteristic (of); peculiar (to)⟯
 What is the grouping of japanese demonstratives sometimes called?  ⟮こそあど⟯
 ⟮こうして⟯|⟮thus, in this way⟯<div class="sub"> <div class="sub c2-b c1-f" > kana only, proximal deixis </div> </div> ⟮ああして⟯|⟮c+;like that; that way⟯<div class="sub"> <div class="sub c2-b c1-f" > kana only, far away, third kana is s sound </div> </div> Where do こうして, そうして etc. come from?  ⟮こう/そう/... + して (from する)⟯ What kind of group is そうして part of?  ⟮こそあど⟯ How is どうして related to そうして?  ⟮They both are part of the same こそあど series!⟯
@@ -4619,15 +4619,15 @@ What is the let/make form called?  ⟮causative form⟯
 ⟮　 達者 （たっしゃ）⟯|⟮c+;healthy; skilled; proficient; a master⟯
 Where does たった come from, etymologically?  ⟮shift from ただ⟯
 ⟮たった⟯ひとつ　⟮たった⟯ひとつの<div class="sub"> <div class="sub c1-f" > 3 kana </div><div class="sub c1-f c2-b" > Just one, just one (thing). </div> </div>
-⟮　果（は）てしない⟯|⟮infinite, endless, boundless, unlimited⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　果（は）てしない⟯|⟮infinite, endless, boundless, unlimited⟯
 ⟮　果（は）てる⟯|⟮to come to an end, to die, (verb stem + this) completely, to it's limit が⟯
-⟮　果（は）たす⟯|⟮accomplish, perform, fulfill⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　果（は）たす⟯|⟮accomplish, perform, fulfill⟯
 ⟮　果（は）て:: 1 kanji 1 kana ⟯|⟮the end, the limit⟯
 ⟮　挙（あ）げ　句（く）の　果（は）て:: stronger than ageku ⟯|⟮c+;in the end ⟯
 ⟮　基準法 （きじゅんほう ）⟯|⟮standards law (e.g. labor standards law/act)⟯
 ⟮　縦書（たてが）き⟯|⟮vertical writing⟯
 ⟮　横切（よこぎ）る⟯|⟮to traverse, to cross, to cut across (often, the road)⟯
-⟮　 横顔 （よこがお）⟯|⟮profile (someone's face seen from the side), profile (summary of information about a person)⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　 横顔 （よこがお）⟯|⟮profile (someone's face seen from the side), profile (summary of information about a person)⟯
 ⟮　 横目 （よこめ）⟯|⟮sidelong glance⟯
 ⟮　求人（きゅうじん）:: 2 kanji ⟯|⟮job offer, recruitment⟯
 ⟮　求婚（きゅうこん）:: 2 kanji ⟯|⟮marriage proposal⟯
@@ -4646,7 +4646,7 @@ Where does たった come from, etymologically?  ⟮shift from ただ⟯
 ⟮　放（ほう） り　出（だ）す:: 2 kanji 2 kana ⟯|⟮give up, abandon, drop, throw out, expell を⟯
 ⟮　 放出 （ほうしゅつ）:: h..., 2 kanji ⟯|⟮release, emission⟯
 ⟮　 放火 （ほうか）⟯|⟮arson⟯
-⟮　放映（ほうえい）:: 2nd kanji starts w e ⟯|⟮televising, broadcast of television⟯<div class="sub"> <div class='sub f'> think </div> </div>
+⟮　放映（ほうえい）:: 2nd kanji starts w e ⟯|⟮televising, broadcast of television⟯
 ⟮　 放水 （ほうすい）⟯|⟮hosing down, water discharge, water drainaige⟯
 ⟮　 放任 （ほうにん）⟯|⟮noninterference, giving someone a free hand with something,leaving something to take its own course⟯
 ⟮　 自由放任主義 （じゆうほうにんしゅぎ）⟯|⟮laissez-faireism⟯<div class="sub"> <div class="sub c1-b" > 6 kanji </div> </div>
@@ -5741,7 +5741,7 @@ How would have ク活用 adjectives ended in the 連体形 in classical japanese
 When 　語（ご）　尾（び） is used for sentence endings, what is it (nearly) synonymous with?  ⟮　終（しゅう）　助（じょ）　詞（し）⟯
 When 　語（ご）　尾（び） is used for sentence endings, what might be examples?  ⟮よ, ね, etc.⟯
 In international linguistic analysis, what is the ending of u-verbs considered to be?  ⟮just /u/⟯
-In international linguistic analysis, what is the ending of ru-verbs considered to be?  ⟮<span class="ipa phoneme">ru</span>⟯
+In international linguistic analysis, what is the ending of ru-verbs considered to be?  ⟮／ru／⟯
 In traditional japanese grammar, what is the 　語（ご）　尾（び） of 食べる?  ⟮べる⟯
 In traditional japanese grammar, what is the 　語（ご）　幹（かん） of 食べる?  ⟮た⟯
 In traditional japanese grammar, what is the 　語（ご）　幹（かん） of 飲む?  ⟮の⟯
@@ -6341,7 +6341,7 @@ When geminates are <b>used to add emphasis</b>, what are the restrictions re:voi
 Difference between 思い切り and 思いっ切り?  ⟮The latter is more emphatic⟯
 <div class='c2-f'> What is this called colloquially? </div><div class='c1-f'> What does this refer to? </div>⟮っ⟯|⟮小さ(い・な)つ⟯
 <div class='c2-f'> What is this called formally? </div><div class='c1-f'> What does this refer to? </div>⟮っ⟯|⟮　促（そく）　音（おん）⟯
-<div class='c2-f'> At the end of the word, what does this indicate? </div><div class='c1-f'> How is this indicated? </div>⟮っ:: at the end of a word ⟯|⟮a glottal stop <span class="ipa">ʔ</span>⟯
+<div class='c2-f'> At the end of the word, what does this indicate? </div><div class='c1-f'> How is this indicated? </div>⟮っ:: at the end of a word ⟯|⟮a glottal stop ［ʔ］⟯
 Sandhi is a blanket term for sound changes occuring where?  ⟮morpheme/word boundaries⟯
 How predictable is 連濁?  ⟮only partially⟯
 What kind of phonemes only ever 連濁?  ⟮(voiceless) Consonants⟯
