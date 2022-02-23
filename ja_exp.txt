@@ -3934,7 +3934,7 @@ Emphatic form of 痛い?  ⟮痛っ⟯
 ⟮　学部学生 （がくぶがくせい）⟯|⟮undergraduate student⟯
 ⟮スイス⟯|⟮Switzerland⟯
 ⟮美波⟯|⟮Minami (singer)⟯<div class="sub"> <div class="sub c2-f c1-b" > (Name) </div> </div>
-⟮　踏（ふ）み　絵（え）⟯|⟮c+;tablet bearing Christian images, on which Edo-period authorities forced suspected Christians to trample =&gt; (idiomatically) allegiance test, loyalty test⟯
+⟮　踏（ふ）み　絵（え）⟯|⟮c+;tablet bearing Christian images, on which Edo-period authorities forced suspected Christians to trample =› (idiomatically) allegiance test, loyalty test⟯
 ⟮　主義（しゅぎ）⟯|⟮-ism, doctrine⟯
 ⟮　民主 （みんしゅ）⟯|⟮democracy, democratic⟯
 ⟮　民主主義 （みんしゅしゅぎ）⟯|⟮democracy⟯
@@ -4719,7 +4719,7 @@ Where does たった come from, etymologically?  ⟮shift from ただ⟯
 ⟮~　然（ぜん）⟯|⟮-like, ‹indicates a state›⟯ </div>
 ⟮　本（ほん）~⟯|⟮main, head, real⟯<div class="sub"> <div class='sub f'> as a morpheme </div> </div>
 ⟮　文書（ぶんしょ）⟯|⟮document, a witten record, a letter, an epistle⟯
-⟮くしゃみ⟯|⟮sneeze⟯<div class="sub"> <div class="sub c2-f c1-b" > kana spelling is &gt;99% </div> </div>
+⟮くしゃみ⟯|⟮sneeze⟯<div class="sub"> <div class="sub c2-f c1-b" > kana spelling is ›99% </div> </div>
 ⟮　鼻水（はなみず）⟯|⟮c+;nasal mucus; dripping nose; snot⟯
 ⟮　鼻糞（はなくそ）⟯|⟮booger⟯
 ⟮　無（む）~⟯|⟮un-, non-⟯
@@ -6277,7 +6277,7 @@ Which ages can be counted with つ  ⟮1 - 9 (+ 十 for 10)⟯<div class="sub"> 
 Besides its official uses, what else can つ count?  ⟮Anything else, but only if the speaker is lazy and only under specific circumstances⟯
 <div class='c1-f'> Why is this being counted with つ? </div>肺に影が3つありました。  ⟮Indeterminate form⟯
 <div class='c1-f'> Why is this being counted with つ? </div>洗面台の下に大きな水溜まりがひとつあります。  ⟮Indeterminate form⟯
-<div class='c1-f'> Why is this being counted with つ? </div>うちの子は3つです。  ⟮c+;Age &lt;= 10⟯
+<div class='c1-f'> Why is this being counted with つ? </div>うちの子は3つです。  ⟮c+;Age ‹= 10⟯
 <div class='c1-f'> Why is this being counted with つ? </div> 理由は6つあります。  ⟮abstract thing⟯
 <div class='c1-f'> Why is this being counted with つ? </div>ミッションは7つあります。  ⟮abstract thing⟯
 理由は1⟮つ⟯あります。
@@ -9752,7 +9752,7 @@ according to ethnologue, there are about ⟮120k⟯ ⟮l2 japanese speakers⟯
 ⟮　愛（あい）　国（こく）　心（しん） ::3 kanji⟯|⟮patriotism (love of one's own country)⟯ ⟮　愛（あい）　国（こく） ::2 kanji⟯|⟮patriotism⟯
 ⟮　SF（エスエフ）:: short ver ⟯|⟮science fiction⟯
 Counting with つ <table> <tbody><tr> <th>Numeral</th> <td>How many</td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> <td>8</td> <td>9</td> <td>10</td> </tr> <tr> <th>Reading</th> <td><span class="c1-cloze">いくつ</span></td> <td><span class="c2-cloze">ひとつ</span></td> <td><span class="c3-cloze">ふたつ</span></td> <td><span class="c4-cloze">みっつ</span></td> <td><span class="c5-cloze">よっつ</span></td> <td><span class="c6-cloze">いつつ</span></td> <td><span class="c7-cloze">むっつ</span></td> <td><span class="c8-cloze">ななつ</span></td> <td><span class="c9-cloze">やっつ</span></td> <td><span class="c10-cloze">ここのつ</span></td> <td><span class="c11-cloze">とお(e.g. 十日)</span></td> </tr> </tbody></table> <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯⟮c5;⟯⟮c6;⟯⟮c7;⟯⟮c8;⟯⟮c9;⟯{{c10::}}{{c11::}}</span>
-In order of politeness: ⟮けど⟯ &lt; ⟮けれど⟯ &lt; ⟮けれども⟯
+In order of politeness: ⟮けど⟯ ‹ ⟮けれど⟯ ‹ ⟮けれども⟯
 ⟮　新製品（しんせいひん）⟯ = ⟮c+;new product; new line (of products)⟯
 ⟮　清貧（せいひん）⟯ = ⟮honorable poverty⟯
  <table> <thead> <tr> <th colspan="3">る verbs conjugation (e.g. 見る)</th> </tr> </thead> <tbody> <tr> <td></td> <td>Casual</td> <td>Polite</td> </tr> <tr> <td>Plain</td> <td><span class="c1-cloze">見る</span></td> <td><span class="c2-cloze">見ます</span></td> </tr> <tr> <td>Negative</td> <td><span class="c3-cloze">見ない</span></td> <td><span class="c4-cloze">見ません</span></td> </tr> </tbody> </table> <span class="cloze-dump">⟮c1;⟯⟮c2;⟯⟮c3;⟯⟮c4;⟯</span> 

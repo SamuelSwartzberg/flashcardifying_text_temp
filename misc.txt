@@ -959,11 +959,11 @@ In fountain, a ⟮transition⟯ must be ⟮separated from other content⟯ by �
 ###### fountain
 
 Syntactic construct|function
-⟮c+;&gt; foo &lt;⟯|⟮centered⟯
+⟮c+;› foo ‹⟯|⟮centered⟯
 ⟮three or more =⟯|⟮page break⟯
 ⟮@foo⟯|⟮force a character element⟯
 ⟮line starts with ~⟯|⟮lyrics⟯
-⟮c+;&gt; foo⟯|⟮force a transition⟯
+⟮c+;› foo⟯|⟮force a transition⟯
 ⟮.foo⟯|⟮force scene heading⟯
 ⟮!foo⟯|⟮force action text⟯
 
@@ -2053,7 +2053,7 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 ### nutrients
 
 A ⟮nutrient⟯ is a substance that an organism requires ⟮for good functioning / maintaining life⟯ 
-⟮an essential nutrient⟯ is a nutrient that ⟮c+;cannot be synthesized by the body (=&gt; must be consumed for survival⟯) 
+⟮an essential nutrient⟯ is a nutrient that ⟮c+;cannot be synthesized by the body (=› must be consumed for survival⟯) 
 According to Marion Nestle, the ⟮list of essential nutrients⟯ is  ⟮almost certainly incomplete⟯ 
 ⟮Nutrient density⟯ is ⟮the ratio⟯ of ⟮nutrients⟯ to ⟮energy content⟯ 
 An ⟮empty calorie⟯ is one is one gained from food that ⟮supplies energy⟯ but ⟮(basically) no other nutrients⟯ 
@@ -2236,8 +2236,8 @@ Vitamin B...|Name or name of vitamers (if it exists)
 There are many ⟮ultratrace⟯ elements that have been ⟮suggested as essential⟯, such claims are ⟮difficult to reproduce⟯. 
 
 Mineral|Is defined by?
-⟮Macrominerals⟯|⟮c+;RDA &gt; 150-200mg/day⟯
-⟮Trace minerals⟯|⟮c+;RDA &gt; 150-200mg/day⟯
+⟮Macrominerals⟯|⟮c+;RDA › 150-200mg/day⟯
+⟮Trace minerals⟯|⟮c+;RDA › 150-200mg/day⟯
 ⟮ultratrace minerals⟯|⟮RDA of μg/day⟯
 
 
@@ -4081,7 +4081,7 @@ In optics, an ⟮aperture⟯ is an ⟮opening⟯ ⟮through which light travels�
 
 #### conductivity
 
-Electrical conductivity: ⟮c+;s∞;Conductors⟯ &gt; ⟮c+;s∞;semiconductors⟯ &gt; ⟮c+;s∞;insulators⟯ 
+Electrical conductivity: ⟮c+;s∞;Conductors⟯ › ⟮c+;s∞;semiconductors⟯ › ⟮c+;s∞;insulators⟯ 
 
 ### magnetism
 

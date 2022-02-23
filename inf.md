@@ -35,8 +35,8 @@ An *ML elements start and end tag feature its name: ‹foo› ... ‹/foo›.
 
 »Empty elments« are created by (or a synonym to) self-closing tags.
 Self-closing tags in *ML only consist of a start tag.
-Self-closing tags must end /&gt; in XML.
-Self-closing tags may end /&gt; or merely &gt; in HTML.
+Self-closing tags must end /› in XML.
+Self-closing tags may end /› or merely › in HTML.
 Using a closing tag for self-closing tags is usually invalid.
 Empty elements cannot have content, since there is nowhere to put it.
 
@@ -117,8 +117,8 @@ Processing instructions are mainly used to associate CSS with XML documents.
 
 ###### delimiters
 
-⟮Begins a processing instruction⟯|⟮c+;&lt;?⟯
-⟮Ends a processing instruction⟯|⟮c+;?&gt;⟯
+⟮Begins a processing instruction⟯|⟮c+;‹?⟯
+⟮Ends a processing instruction⟯|⟮c+;?›⟯
 
 ##### CDATA
 
@@ -141,7 +141,7 @@ some elements must appear as children of other elements - to violate these rules
 #### head
 
 The ‹head› element contains metadata about the document.
-The ‹head› element can contain <base>, <meta>, <title>, <link>, &lt;style>, <script>, <noscript> and <template>
+The ‹head› element can contain <base>, <meta>, <title>, <link>, ‹style>, <script>, <noscript> and <template>
 
 ##### title
 
@@ -647,11 +647,11 @@ In HTML and Latex, ordered and unordered lists are surrounded with something dif
 Latex uses the same list items for description lists also, while HTML uses different elements for those.
 by default, latex only allows the nesting of lists to a depth of four
 
-ordered list|enumerate environment|&lt;ol>
-unordered list|itemize environment|&lt;ul>
-description list|description environment|&lt;dl>
-list item|\item|&lt;li>
-Term in a description list with title foo and description/explanation bar|\iten[foo]bar|&lt;dt>foo&lt;/dt>&lt;dd>bar&lt;/dd>
+ordered list|enumerate environment|‹ol>
+unordered list|itemize environment|‹ul>
+description list|description environment|‹dl>
+list item|\item|‹li>
+Term in a description list with title foo and description/explanation bar|\iten[foo]bar|‹dt>foo‹/dt>‹dd>bar‹/dd>
 
 In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
 ⟮ordered list items⟯ are started by ⟮‹n›. (e.g. 1. or 7.⟯). 
@@ -678,8 +678,8 @@ nav|navigation section
 
 ##### inline nonhtml
 
-&lt;style> allows including CSS inline, by including it as content
-&lt;script> allows including JS or other scripting languages inline, by including it as content
+‹style> allows including CSS inline, by including it as content
+‹script> allows including JS or other scripting languages inline, by including it as content
 
 ##### deprecated elements
 
@@ -694,7 +694,7 @@ nav|navigation section
 Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
 
 Flow content
-Flow content is a broad category that encompasses most elements that can go inside the &lt;body> element.
+Flow content is a broad category that encompasses most elements that can go inside the ‹body> element.
 
 Heading content is a subset of flow content that includes h1-h6, and theoretically though not relevantly the never-implemented the-spec-is-lying-about-it hgroup
 Sectoning content is a subset of flow content that was supposed to be relevant for the outline algorithm that was never implemented, and so is a somewhat-irrelevant category.
@@ -714,7 +714,7 @@ The <object> HTML element represents an external resource, which can be treated 
 The <param> HTML element defines parameters for an <object> element.
 The <embed> HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
 
-&lt;math> and &lt;svg> embed content in HTML from MathML and SVG respectively
+‹math> and ‹svg> embed content in HTML from MathML and SVG respectively
 
 #### Common attributes
 
@@ -1162,7 +1162,7 @@ The content of `<metadata>` should be elements from other XML namespaces such as
 ⟮any values⟯ embedded in JSX are ⟮auto-escaped⟯, and thus provide ⟮a degree of safety against XSS attacks⟯
 You can put ⟮any valid JS expression⟯ within ⟮curly braces⟯ in ⟮JSX⟯
 ⟮JSX⟯ use ⟮camel case⟯ for ⟮HTML attribute names⟯ (including ⟮events⟯) (which would normally use ⟮kebap-case⟯)
-In JSX, ⟮self-closing tags⟯ must be closed with ⟮c+;/&gt;⟯, however ⟮every react component may⟯ be ⟮self-closing⟯
+In JSX, ⟮self-closing tags⟯ must be closed with ⟮c+;/›⟯, however ⟮every react component may⟯ be ⟮self-closing⟯
 ⟮JSX⟯ is either said to be short for ⟮JavaScript Syntax Extension⟯ or ⟮JavaScript XML⟯
 Using JSX, you generally assign events via the on‹Event› handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
 
@@ -2306,33 +2306,33 @@ li::before {
 ```
 
 ```
-&#x3C;ol&#x3E;
-  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 1     --&#x3E;
-  &#x3C;li&#x3E;item               &#x3C;!-- 2     --&#x3E;
-    &#x3C;ol&#x3E;
-      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.1   --&#x3E;
-      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.2   --&#x3E;
-      &#x3C;li&#x3E;item           &#x3C;!-- 2.3   --&#x3E;
-        &#x3C;ol&#x3E;
-          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.1 --&#x3E;
-          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.2 --&#x3E;
-        &#x3C;/ol&#x3E;
-        &#x3C;ol&#x3E;
-          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.1 --&#x3E;
-          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.2 --&#x3E;
-          &#x3C;li&#x3E;item&#x3C;/li&#x3E;  &#x3C;!-- 2.3.3 --&#x3E;
-        &#x3C;/ol&#x3E;
-      &#x3C;/li&#x3E;
-      &#x3C;li&#x3E;item&#x3C;/li&#x3E;      &#x3C;!-- 2.4   --&#x3E;
-    &#x3C;/ol&#x3E;
-  &#x3C;/li&#x3E;
-  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 3     --&#x3E;
-  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 4     --&#x3E;
-&#x3C;/ol&#x3E;
-&#x3C;ol&#x3E;
-  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 1     --&#x3E;
-  &#x3C;li&#x3E;item&#x3C;/li&#x3E;          &#x3C;!-- 2     --&#x3E;
-&#x3C;/ol&#x3E;
+‹ol›
+  ‹li›item‹/li›          ‹!-- 1     --›
+  ‹li›item               ‹!-- 2     --›
+    ‹ol›
+      ‹li›item‹/li›      ‹!-- 2.1   --›
+      ‹li›item‹/li›      ‹!-- 2.2   --›
+      ‹li›item           ‹!-- 2.3   --›
+        ‹ol›
+          ‹li›item‹/li›  ‹!-- 2.3.1 --›
+          ‹li›item‹/li›  ‹!-- 2.3.2 --›
+        ‹/ol›
+        ‹ol›
+          ‹li›item‹/li›  ‹!-- 2.3.1 --›
+          ‹li›item‹/li›  ‹!-- 2.3.2 --›
+          ‹li›item‹/li›  ‹!-- 2.3.3 --›
+        ‹/ol›
+      ‹/li›
+      ‹li›item‹/li›      ‹!-- 2.4   --›
+    ‹/ol›
+  ‹/li›
+  ‹li›item‹/li›          ‹!-- 3     --›
+  ‹li›item‹/li›          ‹!-- 4     --›
+‹/ol›
+‹ol›
+  ‹li›item‹/li›          ‹!-- 1     --›
+  ‹li›item‹/li›          ‹!-- 2     --›
+‹/ol›
 ```
 
 ###### transform
@@ -3074,7 +3074,7 @@ Media types are specified as boolean attributes, i.e. the presence of the keywor
 
 Media features
 orientation describes relationship of width and height of the viewport (not the device/screen!)
-orientation is portrait if height &gt; width and landscape if width &gt; height
+orientation is portrait if height › width and landscape if width › height
 color tests for color depth per channel
 resolution tests for pixel density
 height tests for height of the viewport
@@ -3209,11 +3209,11 @@ In ⟮nested rules⟯'s selectors, ⟮@at-root⟯ ⟮goes back up to the nesting
 ```
 .parent {
   .child {
-    ⟮c+;＆ div ＆ ＆ &gt; a⟯ {}
+    ⟮c+;＆ div ＆ ＆ › a⟯ {}
   }
 }
 ```
-compiles to `⟮c+;.parent .child div .parent .child .parent .child &gt; a {⟯}`
+compiles to `⟮c+;.parent .child div .parent .child .parent .child › a {⟯}`
 
 ```
 .grand-parent {
@@ -4254,7 +4254,7 @@ Shortcut to open command palette|Platform
 ⟮@somestring⟯|⟮go to symbol somestring⟯
 ⟮:somenumber⟯|⟮go to line somenumber⟯
 ⟮?⟯|⟮show suggestions what you can do with quick open⟯
-⟮c+;&gt;⟯|⟮enter command palette mode⟯
+⟮c+;›⟯|⟮enter command palette mode⟯
 
 
 ####### context menu
@@ -5642,7 +5642,7 @@ Often, ⟮SVG⟯ is ⟮included in HTML⟯. This can be done by i⟮ncluding it 
 
 flex-container:⟮h∞;✫sm_Screenshot%202020-04-05%20at%2018.40.27.jpg✫⟯
 
-To ⟮select a color in affinity designer⟯ (must be in ⟮Pixel Persona⟯) ⟮c+;Select &gt; Select Sample Color⟯ 
+To ⟮select a color in affinity designer⟯ (must be in ⟮Pixel Persona⟯) ⟮c+;Select › Select Sample Color⟯ 
 To ⟮turn a color transparent⟯ in affinity designer ⟮select a color, then delete it with backspace⟯ 
 
 ####### viewers
@@ -5823,26 +5823,26 @@ markup languages consist of normal text and specific markup, which are interming
 
 ####### across languages
 
-bold (no importance impl)|\textbf{} (though there are others)|&lt;b>|**text** or __text__
-italic (no importance impl)|\textit{}|&lt;i>|*text* or _text_
-emphasize (generally via italics)|\emph{}|&lt;em>|N/A
+bold (no importance impl)|\textbf{} (though there are others)|‹b>|**text** or __text__
+italic (no importance impl)|\textit{}|‹i>|*text* or _text_
+emphasize (generally via italics)|\emph{}|‹em>|N/A
 strongly emphasize||<strong>|N/A
-underline|\underline{}|&lt;u>|N/A
-strikethrough foo (whithout special semantics)|different ones in packages|&lt;s>foo&lt;s>|~foo~ or ~~foo~~ (most md flavors)
-hyperlink link with title title|\href{link}{title}|&lt;a href="link">title&lt;/a>|[title](link)
-hyperlink link with title link|\url{}|&lt;a href="link">link&lt;/a>|[link](link)
-block quotation of foo|quote, quotation, or verse environment|&lt;blockquote>&lt;/blockquote>|`>foo` or `> foo` (space after > is optional)
-Inline quotation of foo|\enqote{foo} (package csquotes)|&lt;q>foo&lt;/q>
-inline source code||&lt;code>|``
-create a newline|\\ or \newline|&lt;br>| two spaces or \&lt;newline character>
-Heading (level one) "foo"|relevant section command|&lt;h1>foo&lt;/h1>|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"|relevant section command|&lt;h2>foo&lt;/h2>|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"|relevant section command|&lt;h3>foo&lt;/h3>|### foo 
-Heading (level six) "foo"|relevant section command|&lt;h6>foo&lt;/h6>|###### foo 
-A code block foo||&lt;pre>&lt;code>foo&lt;/code>&lt;/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
-a paragraph foo|\par{foo}|&lt;p>foo&lt;\p>|\n\npar\n\n (uses blank lines)
-image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|&lt;img src="Asuka" alt="best girl">|![best girl](Reina)
-horizontal line|\rule (or \hrule, but both take arguments)|&lt;hr>| three or more *** ___ --- 
+underline|\underline{}|‹u>|N/A
+strikethrough foo (whithout special semantics)|different ones in packages|‹s>foo‹s>|~foo~ or ~~foo~~ (most md flavors)
+hyperlink link with title title|\href{link}{title}|‹a href="link">title‹/a>|[title](link)
+hyperlink link with title link|\url{}|‹a href="link">link‹/a>|[link](link)
+block quotation of foo|quote, quotation, or verse environment|‹blockquote>‹/blockquote>|`>foo` or `> foo` (space after > is optional)
+Inline quotation of foo|\enqote{foo} (package csquotes)|‹q>foo‹/q>
+inline source code||‹code>|``
+create a newline|\\ or \newline|‹br>| two spaces or \‹newline character>
+Heading (level one) "foo"|relevant section command|‹h1>foo‹/h1>|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"|relevant section command|‹h2>foo‹/h2>|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|‹h3>foo‹/h3>|### foo 
+Heading (level six) "foo"|relevant section command|‹h6>foo‹/h6>|###### foo 
+A code block foo||‹pre>‹code>foo‹/code>‹/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
+a paragraph foo|\par{foo}|‹p>foo‹\p>|\n\npar\n\n (uses blank lines)
+image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|‹img src="Asuka" alt="best girl">|![best girl](Reina)
+horizontal line|\rule (or \hrule, but both take arguments)|‹hr>| three or more *** ___ --- 
 superscript text foo|^{foo}|‹sup›foo‹/sup›
 subscript text foo|_{foo}|‹sub›foo‹/sub›
 indicate a variable semantically||<var>
@@ -5854,10 +5854,10 @@ preformatted text that is to be presented exactly as written||<pre>
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
 
-strike is similar to &lt;s>, but obsolete
-&lt;tt> used to indicate teletype text, but is now obsolete
-&lt;big> used to indicate big text, but is now obsolete; however &lt;small> still works.
-&lt;center> used to indicate centered text but is now obsolete
+strike is similar to ‹s>, but obsolete
+‹tt> used to indicate teletype text, but is now obsolete
+‹big> used to indicate big text, but is now obsolete; however ‹small> still works.
+‹center> used to indicate centered text but is now obsolete
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
@@ -5889,7 +5889,7 @@ nested blockquotes| `>>` or `> > `(space after > to begin blockquotes is optiona
 Pandoc md is a superset of most other markdown flavors
 Pandoc md defaults to tilde-delimited code blocks.
 In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} &lt;title> [\{{<class>|<id>|...}\}]
+pandoc-md-heading ::= #{#} ‹title> [\{{<class>|<id>|...}\}]
 
 
 RTF|Rich Text Format
@@ -6560,7 +6560,7 @@ A YAML ⟮anchor⟯ goes ⟮between key and value⟯
 A YAML ⟮merge key⟯ goes ⟮instead of a key⟯, and ⟮takes an alias as a value⟯. 
 ⟮c+;＆foo⟯|⟮anchor⟯
 ⟮*foo⟯|⟮alias⟯
-⟮c+;&lt;&lt;⟯|⟮Merge key⟯
+⟮c+;‹‹⟯|⟮Merge key⟯
 
 
 ######## JSON
@@ -6650,7 +6650,7 @@ CSS property syntax|CSS function
 ⟮‹ruby›...⟯|⟮add furigana etc.⟯
 ⟮‹v foo›⟯|⟮indicate that foo is speaking⟯
 ⟮align:start/end...⟯|⟮align the captions along the x-axis (if not `vertical`), i.e. the same axis as the position property⟯
-⟮c+;&lt;font color="...⟯|⟮Set the text to a certain color⟯
+⟮c+;‹font color="...⟯|⟮Set the text to a certain color⟯
 ⟮‹b›, ‹i›, ‹u›⟯|⟮make the text bold, italic or underlined⟯
 
 
@@ -6753,8 +6753,8 @@ git objects are commits, trees, blobs and annotated tags.
 
 the `git cat-file` command is the swiss army knife for inspecting git objects.
 
--p|Pretty-print the contents of &lt;object> based on its type. (can be used to retrieve the file from the store)
--t|Instead of the content, show the object type identified by &lt;object>.
+-p|Pretty-print the contents of ‹object> based on its type. (can be used to retrieve the file from the store)
+-t|Instead of the content, show the object type identified by ‹object>.
 
 ##### hashes
 
@@ -8513,7 +8513,7 @@ pretty much all shells have a set of startup files that they run as normal shell
 when bash starts non-interactively, it looks for startup files in the paths listed in BASH_ENV.
 when bash starts interactively, which files it reads from depends on if it thinks its a login shell.
 if bash is not a login shell, it reads from ~/.bashrc and on some versions of bash also from /etc/bash.bashrc
-if bash is a login shell, it reads from /etc/profile, and then exactly one of ~/.bash_profile &gt; ~/.bash_login &gt; ~/.profile
+if bash is a login shell, it reads from /etc/profile, and then exactly one of ~/.bash_profile › ~/.bash_login › ~/.profile
 It may be advisable to have one of the files loaded when something is a login shell load .bashrc, to ensure consistent behavior.
 When an interactive login shell exits, or a non-interactive login shell executes the exit builtin command, Bash reads and executes commands from the file ~/.bash_logout, if it exists.
 
@@ -9448,7 +9448,7 @@ Format specifier syntax: ⟮--format⟯ ⟮‹format-specifier›⟯⟮{,‹form
 ⟮file-extension⟯: # will ⟮get the best format⟯ of ⟮the given file extension, e.g. mp3⟯
 ⟮quality-keyword⟯: ⟮best|worst|bestvideo|worstvideo|bestaudio|worstaudio::contains |⟯
 ⟮property⟯: # things such as ⟮filesize, width, height, tbr (total average bitrate), fps, ...⟯
-⟮operator⟯: # things such as ⟮c+;=, !=, &gt;.... as well as ^=, $=, *= etc.⟯
+⟮operator⟯: # things such as ⟮c+;=, !=, ›.... as well as ^=, $=, *= etc.⟯
 ```
 
 
@@ -9600,7 +9600,7 @@ Since ⟮cookies are sent back on each request⟯ and since ⟮there are spec-de
 
 Due to the ⟮cookie spec⟯, one can usually rely on ⟮cookies⟯ being able to hold at least ~⟮4kb⟯ and at least ⟮50⟯ ⟮cookies per domain⟯, though ⟮often the real limits are far higher⟯ 
 
-Since ⟮persistent cookies⟯ are ⟮deleted⟯ ⟮c+;after their Max-Age&gt;age or their Expires date has passed⟯, one can ⟮delete⟯ them by ⟮manually moving this into the past⟯. It is also common practice to ⟮set their content to an empty string⟯. 
+Since ⟮persistent cookies⟯ are ⟮deleted⟯ ⟮c+;after their Max-Age›age or their Expires date has passed⟯, one can ⟮delete⟯ them by ⟮manually moving this into the past⟯. It is also common practice to ⟮set their content to an empty string⟯. 
 
 By default, ⟮cookies⟯ ⟮are only sent⟯ for ⟮requests⟯ for ⟮the FQDN that the cookie was sent from⟯. 
 By default, ⟮cookies⟯ ⟮sent from a certain FQDN⟯ are ⟮not included⟯ in ⟮the browsers requests for subdomains⟯. 
@@ -9772,7 +9772,7 @@ the ⟮dynamic⟯ or ⟮private⟯ ports are often used as ⟮ephemeral⟯ ports
 
 Port range</th>
     <th colspan="2">Is called
-⟮c+;&lt;1024⟯|⟮well-known⟯
+⟮c+;‹1024⟯|⟮well-known⟯
 ⟮1024 - 49151 (2^15 + 2^14⟯)|⟮registered⟯
 ⟮49152 (2^15 + 2^14) - 2^16⟯|⟮dynamic⟯|⟮private⟯
 
@@ -10317,9 +10317,9 @@ the "render the initial route ASAP" of PRPL is basically "reduce time to first (
 
 ######## P
 
-⟮c+;&lt;link rel="preload"⟯ specifies that you ⟮will need the resource very soon⟯, and that it should be downloaded ⟮asyncly⟯ with ⟮high priority⟯
-⟮c+;&lt;link rel="preload"⟯ needs an ⟮as=⟯⟮"kind(e.g. style, script, image)"⟯
-If you've specified a resource with &lt;link rel="preload", you still need to actually include it later
+⟮c+;‹link rel="preload"⟯ specifies that you ⟮will need the resource very soon⟯, and that it should be downloaded ⟮asyncly⟯ with ⟮high priority⟯
+⟮c+;‹link rel="preload"⟯ needs an ⟮as=⟯⟮"kind(e.g. style, script, image)"⟯
+If you've specified a resource with ‹link rel="preload", you still need to actually include it later
 
 ####### defer & async
 
@@ -11909,12 +11909,12 @@ We may want to consider the boolean type an enum of {true, false}
 Of the languages I know, C#, Java and TS allow creation of enums via the enum keyword.
 Rust also uses the enum keyword, but for things more like tagged unions.
 Python allows using enums via an external module
-C#, Java enum syntax: enum &lt;name> {
-  &lt;variant>,
-  &lt;variant2>,
+C#, Java enum syntax: enum ‹name> {
+  ‹variant>,
+  ‹variant2>,
   ...
 }
-In C# the syntax &lt;variant> = &lt;value> exists to apply values to enum variants
+In C# the syntax ‹variant> = ‹value> exists to apply values to enum variants
 We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
 
 
@@ -12920,9 +12920,9 @@ In computer science, a relational operator is an operator that tests or defines 
 !=|not equals|C#|Java|JS
 ==|equals|most programming languages
 <=|less than or equals|most programming languages
-&gt;=|greater than or equals|most programming languages
-&gt;|greater than|most programming languages
-&lt;|less than|most programming languages
+›=|greater than or equals|most programming languages
+›|greater than|most programming languages
+‹|less than|most programming languages
 <=>|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
 
 #### types of equality
@@ -13038,7 +13038,7 @@ Bitwise operations operate on the underlying binary value (regardless of type in
 Most C-family languages support bitwise operations.
 
 bitwise not|~
-left shift|&lt;&lt; <n>
+left shift|‹‹ <n>
 right shift|>> <n>
 bitwise XOR|^
 bitwise OR|bar
@@ -16156,7 +16156,7 @@ flex-container:✫sm_2021-09-16--17-43-33-screenshot.jpg✫
 
 ##### elements+styles tab
 
-You can ⟮force element state (such as hover, focus⟯) either by ⟮c+;right-clicking the DOM node &gt; force state⟯ and then choosing the state, or by ⟮clicking the :hov button⟯ in the ⟮styles panel⟯ and choosing the state 
+You can ⟮force element state (such as hover, focus⟯) either by ⟮c+;right-clicking the DOM node › force state⟯ and then choosing the state, or by ⟮clicking the :hov button⟯ in the ⟮styles panel⟯ and choosing the state 
 
 ###### box model
 
@@ -16167,7 +16167,7 @@ Besides by normal CSS declaration, you can ⟮change any part⟯ of the CSS box 
 ##### console
 
 You can access ⟮the currently selected node in the elements inspector⟯ as ⟮$0⟯ in the console in devtools. 
-If you ⟮c+;right-click &gt; store as global variable⟯, the DOM element becomes available ⟮as temp1, temp2, etc.⟯ ⟮in the console⟯ 
+If you ⟮c+;right-click › store as global variable⟯, the DOM element becomes available ⟮as temp1, temp2, etc.⟯ ⟮in the console⟯ 
 
 ##### other tabs/panels
 
@@ -16184,7 +16184,7 @@ Besides the DevTools tabs ⟮active by default⟯, there are ⟮a bunch more⟯ 
 
 ##### global features
 
-Whenever you get a ⟮function⟯ in devtools, you can ⟮go to the place where it's defined⟯ with ⟮c+;right click &gt; show function definition⟯ 
+Whenever you get a ⟮function⟯ in devtools, you can ⟮go to the place where it's defined⟯ with ⟮c+;right click › show function definition⟯ 
 
 ### code review
 
@@ -16303,7 +16303,7 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 
 --\[\[foo]]|lua
 /\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
-&lt;!-- foo -→|HTML
+‹!-- foo -→|HTML
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
 
@@ -17359,8 +17359,8 @@ This distinction is however often not made, and often ⟮any name that is a comb
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
 Character entity reference / Numeric character reference|Displays as / creates?
-⟮c+;＆gt;⟯|⟮c+;&gt;⟯
-⟮c+;＆lt;⟯|⟮c+;&lt;⟯
+⟮c+;＆gt;⟯|⟮c+;›⟯
+⟮c+;＆lt;⟯|⟮c+;‹⟯
 ⟮c+;＆amp;⟯|⟮c+;＆⟯
 ⟮c+;＆shy;⟯|⟮A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
 ⟮c+;＆#8203;⟯|⟮A zero-width space that allows the browser to break there, when necessary⟯

@@ -111,7 +111,7 @@ The generative grammar/chomskyan approach is to see an object as the DP compleme
 ##### labelled bracket
 
 Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
-Labeled bracketing notation: tree ::= \[&lt;nodename> {&lt;tree>|&lt;leaf>}
+Labeled bracketing notation: tree ::= \[‹nodename> {‹tree>|‹leaf>}
 leaf ::= #somestring
 
 ##### frameworks
@@ -2914,7 +2914,7 @@ emoticon eyes|meaning
 ⟮=⟯|⟮default (less common⟯)
 ⟮8⟯|⟮default (super rare⟯)
 ⟮%⟯|⟮drunk/confused⟯
-⟮X⟯|⟮c+;equivalent of &gt;&lt; eyes, but more often used positively⟯
+⟮X⟯|⟮c+;equivalent of ›‹ eyes, but more often used positively⟯
 ⟮c+;;⟯|⟮wink⟯
 
 
@@ -4498,7 +4498,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮elegant⟯|⟮s271;✫sm_paste-374f934afcb7fc9a13eb25d0b6f5f3586ea0b847.jpg✫⟯|⟮雅⟯|⟮h∞;[✫sm_turkey.png✫ (turkey) , ✫sm_fang.png✫ (fang)]⟯|⟮h∞;I GOT to have a ⁑turkey⁑ ⁑fang⁑ - it is the most ⁑elegant⁑ accessory of high society this season.⟯|⟮h∞;⟯
 ⟮restaurant⟯|⟮s272;✫sm_paste-430777754431fbb2585d04a0028559a34706e195.jpg✫✫sm_paste-374845be15f94b3d7f57c4020aeb622282b5468f.jpg✫✫sm_paste-e0d8bb240722b25f823701ff8918ce1158f63085.jpg✫⟯|⟮亭⟯|⟮h∞;[✫sm_lid-012e5748dcb24d3ee4aaebe6b1661398.png✫ (beret) , 口 (mouth/small box radical) , ✫sm_inside-2eee1939ba36f2d2edfa659379058934.png✫ (George Michael's Moustache) , 丁 (nail)]⟯|⟮h∞;<b>TAKE me to a ⁑restaurant⁑ - I'm a DINNER WHORE.¶The dude with the ⁑beret⁑ and the ⁑stache⁑ opens his ⁑mouth⁑ at the ⁑restaurant⁑ and bites a big ole ⁑nail⁑. Madd lawsuits ensue!⟯</b>|⟮h∞;⟯
 ⟮re-do, restore⟯|⟮s273;✫sm_paste-3737f5340a9bb9c7d8d41b6ca97e4a4a78573119.jpg✫✫sm_paste-c9c4eaf567d7ee64e76c8a6277345c0782d56664.jpg✫⟯|⟮復⟯|⟮h∞;[✫sm_go.png✫ (goleft) , ✫sm_dork.png✫ (dork!) Same-ON]⟯|⟮h∞;That ⁑dork⁑ forgot his butt, so I made him ⁑go⁑ home, ⁑return⁑, and get it. Only a FOOL COUld forget his own butt.⟯|⟮h∞;⟯
-⟮chant⟯|⟮s274;✫sm_paste-ea6dcb0376d1216b812bcd37d762fcb61c38d9e9.jpg✫✫sm_paste-5c241548b197cf82e828eab88c9807c89f9adbf5.jpg✫✫sm_paste-ad417fc2a8f36f572439874791068772c84b1e2a.jpg✫✫sm_paste-37222bc04c374c3b4e966fcd0901bc462f0ac55c.jpg✫✫sm_paste-610fd5a503fa8a9132d73253276301f8e28f6c05.jpg✫⟯|⟮唱⟯|⟮h∞;[口 (mouth/small box radical)  , 日 (sun, day)]⟯|⟮h∞;The monk's mouth is ⁑chanting⁑ a hymn to SHOW the infidels his belief that there are &lt;⁑ two⁑ ⁑ suns⁑;one which illuminates the believers and one which burns the unclean!!! AIIIEEE THE END IS NIGH!!!⟯|⟮h∞;⟯
+⟮chant⟯|⟮s274;✫sm_paste-ea6dcb0376d1216b812bcd37d762fcb61c38d9e9.jpg✫✫sm_paste-5c241548b197cf82e828eab88c9807c89f9adbf5.jpg✫✫sm_paste-ad417fc2a8f36f572439874791068772c84b1e2a.jpg✫✫sm_paste-37222bc04c374c3b4e966fcd0901bc462f0ac55c.jpg✫✫sm_paste-610fd5a503fa8a9132d73253276301f8e28f6c05.jpg✫⟯|⟮唱⟯|⟮h∞;[口 (mouth/small box radical)  , 日 (sun, day)]⟯|⟮h∞;The monk's mouth is ⁑chanting⁑ a hymn to SHOW the infidels his belief that there are ‹⁑ two⁑ ⁑ suns⁑;one which illuminates the believers and one which burns the unclean!!! AIIIEEE THE END IS NIGH!!!⟯|⟮h∞;⟯
 ⟮closed⟯|⟮s275;✫sm_paste-370f90b46e67338b2a4220c81dc77da1b8d2974e.jpg✫⟯|⟮閉⟯|⟮h∞;[門 (gate)  , 才 (skill / age)]⟯|⟮h∞;When I was a young ⁑age⁑, I'd HATE it that the ero-video store's ⁑gate⁑ was ⁑closed⁑ to me. Something something ⁑skills⁑.⟯|⟮h∞;⟯
 ⟮to be in trouble⟯|⟮s276;✫sm_paste-3700a27d94944fbd21f382732dc48e3b8e63cad4.jpg✫⟯|⟮窮⟯|⟮h∞;[穴 (hole) , 弓 (bow)  , 身 ((one's own) flesh)]⟯|⟮h∞;When a ⁑bow⁑ shoots a ⁑hole⁑ in ⁑your flesh⁑, you bet your ass you're in ⁑trouble⁑.⟯|⟮h∞;⟯
 ⟮place on⟯|⟮s277;✫sm_paste-36994c9bbdfc214bbf8cbc5588391a14da0e4daa.jpg✫⟯|⟮載⟯|⟮h∞;[十 (ten) , ✫sm_spearthree.png✫ (spear) , 車 (car)]⟯|⟮h∞;If you have ⁑10⁑ ⁑spears⁑, ⁑place⁑ them on your ⁑car⁑, for a mad max-esque car.⟯|⟮h∞;⟯
@@ -4513,7 +4513,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮tool⟯|⟮s286;✫sm_paste-3605caca680deb307db9a8512620f6dd05f6ae01.jpg✫⟯|⟮具⟯|⟮h∞;[目 (eye) , line  , animal legs]⟯|⟮h∞;Your ⁑eye⁑ is a ⁑tool⁑ you use to look for a GOOEY piece of ⁑pie⁑!⟯|⟮h∞;⟯
 ⟮death⟯|⟮s287;✫sm_paste-35e3439d40849846dcca5f8d7258742778c64c92.jpg✫⟯|⟮死⟯|⟮h∞;[夕 (evening) , ✫sm_heel.png✫ (heel), 一 (one/line radical)]⟯|⟮h∞;⁑Evening⁑, plus ⁑heel⁑, plus one ⁑line⁑ on top- which we'll consider a ⁑GIRDER⁑ for the purposes of this mnemonic!<b>SHE ⁑died⁑ last ⁑evening⁑ from having her ⁑heel⁑ crushed under a falling ⁑girder⁑.⟯</b>|⟮h∞;⟯
 ⟮withdraw⟯|⟮s288;✫sm_paste-35d10929c0585eb6a769752d7d44e2dbd228f0aa.jpg✫⟯|⟮撤⟯|⟮h∞;[✫sm_hand.png✫ (handleft) , ✫sm_order-rule.png✫ (decapitated cow) , 月 (moon/organ)  , ✫sm_taskmaster.png✫ (director)]⟯|⟮h∞;This is basically the exact same as the previous kanji (徹) - even the onyomi is the damn same. So rather than try to make another mnemonic to tie together director, raise up, and hand. . . it might be simpler to just think of this kanji as "do thoroughly with a hand instead of a damn '行' on the left".¶So you can say,¶I ⁑withdraw⁑ my ⁑hand⁑ ⁑thoroughly⁑ from your corrupted embrace!!!⟯|⟮h∞;⟯
-⟮patrol (not incl pig⟯)|⟮s289;✫sm_paste-35c44144b38b247d54985c8bb5cba37aae41c5a0.jpg✫⟯|⟮巡⟯|⟮h∞;[✫sm_moving.png✫ (motion) , &lt;&lt;&lt; (ku klux klan)]⟯|⟮h∞;The ⁑KKK moves⁑ on ⁑patrol⁑ to lynch some people.⟯|⟮h∞;⟯
+⟮patrol (not incl pig⟯)|⟮s289;✫sm_paste-35c44144b38b247d54985c8bb5cba37aae41c5a0.jpg✫⟯|⟮巡⟯|⟮h∞;[✫sm_moving.png✫ (motion) , ‹‹‹ (ku klux klan)]⟯|⟮h∞;The ⁑KKK moves⁑ on ⁑patrol⁑ to lynch some people.⟯|⟮h∞;⟯
 ⟮to be told　/ acquiesce⟯|⟮s290;✫sm_paste-35a65cf828f2e1cb2f88e11cd5d8a277db7db84d.jpg✫✫sm_paste-425e92c87e6822be16b5a2d6d912b55064de4d8b.jpg✫⟯|⟮承⟯|⟮h∞;[子 (child)  , 水 (water)]⟯|⟮h∞;Think of this as 子 plus ⁑water⁑ 水, but half of ⁑water⁑ is on the left of ⁑child⁑, and half on the right.Thus:As a ⁑child⁑ moses, ⁑was told ⁑not to part the bath-⁑water⁑.⟯|⟮h∞;⟯
 ⟮door⟯|⟮s291;✫sm_paste-35860b5a61d1e4ce289a86ea2921f32c1b21bc4e.jpg✫✫sm_paste-17814560a7d9ed476c17c635eaaeaf842483e1bb.jpg✫⟯|⟮戸⟯|⟮h∞;[一 (one/line radical)  , ✫sm_corpse.png✫ (corpse)]⟯|⟮h∞;What's behind the ⁑door⁑? infinite treasure?⁑ one corpse⁑? only ⁑one⁑ way to find out!⟯|⟮h∞;⟯
 ⟮teach⟯|⟮s292;✫sm_paste-35334695944302.jpg✫✫sm_paste-35347580846170.jpg✫⟯|⟮教⟯|⟮h∞;[孝 (filial piety)  , ✫sm_taskmaster.png✫ (director)]⟯|⟮h∞;⁑Teachers⁑ are ⁑directors⁑ that expect and deserve ⁑filial piety⁑ for their sacrifice for ⁑teaching⁑! (Said the ancient chinese) ⟯|⟮h∞;⟯
@@ -4757,7 +4757,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮stature / back of the body⟯|⟮s30;✫sm_muscleguykanji.jpeg✫⟯|⟮背⟯|⟮h∞;[北 (north)  , 月 (moon/organ)]⟯|⟮h∞;If you are standing in the middle of a compass, and a person is standing in front of you due ⁑north⁑, looking at you, then his ⁑back⁑ is the most ⁑northern⁑ ⁑organ⁑ of his body - and you can't see its ripped ⁑stature⁑.⟯|⟮h∞;⟯
 ⟮distribute⟯|⟮s31;✫sm_main-image.jpg✫⟯|⟮配⟯|⟮h∞;[酒 (liquor)  , 己 (myself)]⟯|⟮h∞;Can I ⁑myself⁑ ⁑distribute⁑ ⁑sake⁑ to everyone in the room? HAI!⟯|⟮h∞;⟯
 ⟮next⟯|⟮s32;✫sm_logo_text_onlycopy.png✫⟯|⟮次⟯|⟮h∞;[✫sm_frost.png✫ (chill) , 欠 (lack)]⟯|⟮h∞;After winter, the ⁑next⁑ season will have a ⁑lack⁑ of ⁑chilly⁑ weather.⟯|⟮h∞;⟯
-⟮ku klux klan⟯|⟮s33;✫sm_download (1)klux.jpeg✫⟯|⟮c+;&lt;&lt;&lt;⟯|⟮h∞;⟯|⟮h∞;. . .because it is 3x the 'ku' katakana.⟯|⟮h∞;⟯
+⟮ku klux klan⟯|⟮s33;✫sm_download (1)klux.jpeg✫⟯|⟮c+;‹‹‹⟯|⟮h∞;⟯|⟮h∞;. . .because it is 3x the 'ku' katakana.⟯|⟮h∞;⟯
 ⟮slippery⟯|⟮s34;✫sm_NO0m4C7eNyfuuU-GhD87QhsTOhIE2gEU0K9tI_jZX3Q.jpg✫⟯|⟮滑⟯|⟮h∞;[✫sm_water.png✫ (waterleft) , 骨 (bone)]⟯|⟮h∞;⟯|⟮h∞;⟯
 ⟮courage⟯|⟮s35;✫sm_307a4e48-151c-442e-bc99-09e86e5270f3.jpeg✫⟯|⟮勇⟯|⟮h∞;[マ (Mama)  , 男 (man)]⟯|⟮h∞;YOU ⁑men⁑ get your ⁑courage⁑ from a strong and supportive ⁑Mama⁑. (Wuss.⟯)|⟮h∞;⟯
 ⟮merely⟯|⟮s36;✫o.jpg✫⟯|⟮単⟯|⟮h∞;[✫sm_hay.png✫ (t.c.f.b.b.y.e.s.i.y.l.) , 田 (rice field)  , 十 (ten)]⟯|⟮h∞;Even though I have ⁑ten rice fields⁑, all that is growing is ⁑merely⁑ three lousy ⁑baby firds⁑, I mean ⁑birds⁑.⟯|⟮h∞;⟯
@@ -5362,7 +5362,7 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮pole⟯|⟮s136;✫sm_paste-07f6dc91d72f64f10bc74aca806c4f83fa63f5bd.jpg✫✫sm_paste-10ddb3410e8aed7d53bd30aca7bced8efe29cd41.jpg✫⟯|⟮棒⟯|⟮h∞;[木 (tree) , ✫sm_3-stooges.png✫ (three Stooges), 干 (dry out)]⟯|⟮h∞;The ⁑3 stooges ⁑made a <b>telephone ⁑pole⁑</b> out of a ⁑tree⁑.⟯|⟮h∞;⟯
 ⟮ocean⟯|⟮s137;✫sm_paste-07b06e75ccffc38f050d0a919fbd4eab25dcf393.jpg✫⟯|⟮海⟯|⟮h∞;[✫sm_water.png✫ (waterleft) , 毎 (every)]⟯|⟮h∞;⁑Every⁑ ⁑ocean⁑ is full of some damn ⁑water⁑ (水). think you can remember that one, Einstein?⟯|⟮h∞;⟯
 ⟮Saw⟯|⟮s138;✫sm_paste-078e6820f63e6f0da67d7eb93887c37c2552b388.jpg✫⟯|⟮✫sm_foolio.jpg✫⟯|⟮h∞;⟯|⟮h∞;(left radical⟯)|⟮h∞;⟯
-⟮disaster⟯|⟮s139;✫sm_paste-0768115971e0644222ab47156451f834b4149db8.jpg✫⟯|⟮災⟯|⟮h∞;[&lt;&lt;&lt; (ku klux klan), 火 (fire)]⟯|⟮h∞;You SIGH as 2 ⁑disasters⁑ strike your birthday party - ⁑KKK⁑ plus a ⁑fire⁑.⟯|⟮h∞;⟯
+⟮disaster⟯|⟮s139;✫sm_paste-0768115971e0644222ab47156451f834b4149db8.jpg✫⟯|⟮災⟯|⟮h∞;[‹‹‹ (ku klux klan), 火 (fire)]⟯|⟮h∞;You SIGH as 2 ⁑disasters⁑ strike your birthday party - ⁑KKK⁑ plus a ⁑fire⁑.⟯|⟮h∞;⟯
 ⟮desire (not incl red⟯)|⟮s140;✫sm_paste-0719af8ea0d15bbfbabe0cad172ee99b9471876f.jpg✫✫sm_paste-ebf1318f4b136a9a4146895a5e23856be5b1523b.jpg✫⟯|⟮望⟯|⟮h∞;[亡 (dying) Same-ON , 月 (moon/organ)  , 王 (king)]⟯|⟮h∞;I ⁑desire⁑ to see the ⁑dying⁑ ⁑organs⁑ of the ⁑king⁑!!  (I am Cromwell⟯)|⟮h∞;⟯
 ⟮possible⟯|⟮s141;✫sm_paste-06fe92c649f1363c10f8db2ec2b8d640c2ae74e5.jpg✫✫sm_paste-a981262f5b2df45dcf5a7bce5af5e061a914feb8.jpg✫⟯|⟮可⟯|⟮h∞;[丁 (nailright), 口 (mouth/small box radical)]⟯|⟮h∞;It's ⁑possible⁑ to get a ⁑CAR⁑ for cheap,if you cram a ⁑nail⁑ into the ⁑mouth⁑ of the salesman!⟯|⟮h∞;⟯
 ⟮stab / buisness card⟯|⟮s142;✫sm_paste-06f4194d4ea31c4a27d5b10dc644ef1e4ddc34c3.jpg✫✫sm_paste-ccf0febf8e408042ccfa1676c45f17b9d6a11b4e.jpg✫⟯|⟮刺⟯|⟮h∞;[木 (tree) , ✫sm_inside.png✫ (LMM's Moustache), 刀 (sword)]⟯|⟮h∞;SHE takes her ⁑sword⁑ and ⁑stabs⁑ it at the ⁑tree's⁑ ⁑moustache⁑. After all, you can't be too careful.⟯|⟮h∞;⟯

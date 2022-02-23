@@ -520,7 +520,7 @@ A »⟮number set⟯« is ⟮a set of numbers⟯ with ⟮certain special propert
 Symbol|Refers to?
 ⟮⁑N⁑/ℕ⟯|⟮Set of all natural numbers⟯
 ⟮⁑P⁑/ℙ⟯|⟮Set of all primes⟯
-⟮⁑Q⁑/ℚ⟯|⟮c+;&gt;Set of all rational numbers⟯
+⟮⁑Q⁑/ℚ⟯|⟮c+;›Set of all rational numbers⟯
 ⟮⁑R⁑/ℝ⟯|⟮Set of all real numbers⟯
 ⟮⁑Z⁑/ℤ⟯|⟮Set of all integers⟯
 
