@@ -4477,7 +4477,7 @@ A think-aloud protocol has users do a certain task and say whatever comes to min
 responsive (web) design is (esp. web) design that adjusts to work ⟮on a variety of different devices⟯
 progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮then building on top of that for other targets⟯
 Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but ⟮falls back on a good-enough experience⟯
-progressive enhancement <-> graceful degradation
+progressive enhancement ↔ graceful degradation
 Mobile first is building the mobile site first (and expanding on that for desktop users)
 
 ## computer graphcis
@@ -4945,7 +4945,7 @@ SSDs are a type of flash memory device.
 
 RAID = Redundant Array of Inexpensive/Independent Disks
 SLED = Single Large Expensive disk
-RAID <-> SLED
+RAID ↔ SLED
 RAID uses multiple disks.
 RAID disks are in some sort of configuration which aims to achieve one or more of the three aims reliability/redundancy, performance, capacity
 RAID 0|Data is split among the drives (striped)|performance (r/w)
@@ -8809,7 +8809,7 @@ In shell contexts, filters normally recieve their input from STDIN and output it
 Well-behaved programs should operate as filters inf possible.
 |& is the same as |, but it also outputs its standard error thrugh the pipe.
 While they are often called merely pipes, the pipes in pipelines are actually anonymous pipes.
-anonymous pipes <-> named pipes.
+anonymous pipes ↔ named pipes.
 
 Pipes, whether anonymous or named, basically consist of two file descriptors (one read, one write) and a buffer.
 pipes are simplex in direction.
@@ -11345,7 +11345,7 @@ TS makes the normally dynamically typed JS statically typed
 
 Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
 Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
-Implicit/latent typing  <-> Explicit/manifest typing 
+Implicit/latent typing  ↔ Explicit/manifest typing 
 Type inference is a rough synonym for implict/latent typing, but is often used in contexts where the language is otherwise generally explicitly/manifestly typed.
 Only statically typed languages can usefully be explicitly/manifestly typed
 Type inference in C#: var 
@@ -12503,7 +12503,7 @@ In ruby, iterables are called enumerables.
 In most languages that have iterables, most collections are iterable, as are strings and ranges. 
 Java Strings are not iterable, JS objects aren't either.
 
-##### iterable <-> iterator
+##### iterable ↔ iterator
 
 Iterables generally require explicit or implicit conversion to become/spawn iterators.
 iterables are always automatically converted to iterators|

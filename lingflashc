@@ -2753,7 +2753,7 @@ In latex, to ⟮make chapters etc. always open on a right page⟯  include ⟮op
 
 ###### logo, phono, and subtypes
 
-logogram/graph <-> phonogram/graph
+logogram/graph ↔ phonogram/graph
 logogram|character represents morpheme/word|Kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs 
 phonogram|character represents one or more phonemes|Latin letters, hangul, kana
 

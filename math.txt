@@ -1055,7 +1055,7 @@ A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is call
 
 # applied
 
-pure mathematics <-> applied mathematics 
+pure mathematics ↔ applied mathematics 
 pure mathematics: study of mathematical concepts independent from applications
 
 ## units 
