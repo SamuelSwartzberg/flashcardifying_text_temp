@@ -1,6 +1,6 @@
 # NVC
 
-## origin & use
+## origin ＆ use
 
 NVC = nonviolent communication.
 Violence in NVC is not limited to physical violence.
@@ -93,10 +93,10 @@ While there's a somewhat-limited set of needs, the amount of possible strategies
  
 ##### requests
 
-Demands & requests are ways to realize the strategies to meet our needs.
+Demands ＆ requests are ways to realize the strategies to meet our needs.
 Demands want the strategy to happen no matter the persons reaction to the request, enacting sanctions such as criticism, anger, guilt-tripping etc. if not met, ergo accept only submission or rebellion as a reaction.
 Requests require the requestee to engage in an NVC process with the persons reaction to the request, even if negative
-In addtion, requests may fail if they are not positive (i.e. not don't do X), clear&precise, and actionable.
+In addtion, requests may fail if they are not positive (i.e. not don't do X), clear＆precise, and actionable.
 
 ###### reflection
 
@@ -213,7 +213,7 @@ One possible grouping of clean language questions (there are others)
 
 
 
-## flower & checking presumptions
+## flower ＆ checking presumptions
 
 ⟮clean language⟯ practice exercise: ⟮flower⟯ 1. ⟮One person thinks of a flower for a short while⟯ → 2. ⟮the other person asks clean language questions about it⟯
 ⟮The flower exercise⟯ tends to reveal that ⟮people have many different flowers in their head⟯.

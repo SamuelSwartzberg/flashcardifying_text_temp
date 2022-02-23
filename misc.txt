@@ -40,7 +40,7 @@ Things like the ⟮Ehegattensplitting⟯ result in a situation where ⟮nonequal
 ⟮Horizontal integration⟯ is the process of ⟮Controlling more of a specific part of the supply chain⟯
 ⟮Vertical integration⟯ is ⟮Integrating more/all or large parts of the supply chain in a single company⟯
 
-## production & costs
+## production ＆ costs
 
 factor of production ≈ input
 The factors of production/inputs are what are necessary to produce the output(s) in production.
@@ -459,7 +459,7 @@ Proponents of ⟮horseshoe⟯ theory argue that the ⟮extreme left⟯ and the �
 
 Checkbook diplomacy is using economic aid and investment for diplomatic favor.
 
-### irredentism & revanchism
+### irredentism ＆ revanchism
 
 ⟮Irredentism⟯ is the movement to ⟮'reclaim' territory⟯ that a group thinks ⟮they have a claim to⟯ on a ⟮ethno-historico-nationalist⟯ basis. 
 ⟮Revanchism⟯ is the movement to ⟮reclaim territory⟯ ⟮lost to another⟯ due to ⟮past events⟯. 
@@ -619,7 +619,7 @@ ARPA is short for ⟮Advanced Research Projects Agency⟯ (today called ⟮DARPA
 
 ## political movements
 
-# art & media
+# art ＆ media
 
 ## the artist
 
@@ -650,7 +650,7 @@ Both ⟮fanon⟯ and ⟮headcanon⟯ are ⟮elements/interpretations that are no
 Elements/interpretations that are ⟮not part of the canon,⟯ but ⟮accepted as canon by a group of  fans⟯ are called ⟮fanon⟯. 
 Elements/interpretations that are ⟮not part of the canon⟯, but ⟮accepted as canon by an individual fan are called headcanon⟯.
 
-### waifus & husbandos
+### waifus ＆ husbandos
 
 A ⟮waifu⟯, generally, is a ⟮fictional character⟯ ⟮(c:3;female::gender⟯) to  ⟮ which one is attracted.⟯ 
 The ⟮male::gender⟯ version of a waifu is a ⟮husbando⟯. 
@@ -727,7 +727,7 @@ In the ⟮Born Sexy Yesterday trope⟯, the ⟮male protagonist⟯ is ⟮the fir
 
 ##### plot development
 
-###### heels & faces
+###### heels ＆ faces
 
 ⟮(baby) faces and heels⟯ are terms from ⟮wrestling⟯ 
 
@@ -743,7 +743,7 @@ description|Term
 
 #### representation
 
-##### tests & metrics
+##### tests ＆ metrics
 
 The bechdel test is a test of female representation in fiction.
 A movie passes the bechdel test if at least two women talk to each other about something other than a man.
@@ -880,7 +880,7 @@ Examples of ⟮litotes⟯ include ⟮c+;「not bad」; 「no small task」; 「n
 
 ## visual
 
-### effects & techiniques
+### effects ＆ techiniques
 
 #### gleaming star
 
@@ -1076,7 +1076,7 @@ term|definition
 
 ## tools
 
-### cardinal directions & compasses
+### cardinal directions ＆ compasses
 
 
 flex-container:✫sm_italy-map-with-compass-rose-vector-id165747631.jpg✫✫sm_1280px-Windrose.svg.jpg✫
@@ -1180,7 +1180,7 @@ The ⟮chinese⟯ efforts to ⟮establish a series of friendly ports owned or be
 Some analysts have  alleged chinas true aims for ⟮the string of pearls initiative⟯ are ⟮Military bases⟯ 
 China most often ⟮gains control of the ports⟯ for ⟮the string of pearls initiative⟯ ⟮via loans and the ports as collateral, which they collect when the goverments default⟯ 
 
-#### nations & states
+#### nations ＆ states
 
 In general, for ⟮a state to be a state,⟯ it must be r⟮ecognized by other states⟯. 
 The common heuristic for ⟮something to be a state⟯ is ⟮if it is a member of the UN⟯. 
@@ -1377,11 +1377,11 @@ Campante et al. 2013 argue the relationship ⟮c+;capital cities being more isol
 
 # history
 
-## theories & approaches
+## theories ＆ approaches
 
-### historical progress & value
+### historical progress ＆ value
 
-#### relativisim & determinism
+#### relativisim ＆ determinism
 
 ⟮Historical relativism⟯ is the idea that ⟮a period of / event in history⟯ can only be ⟮understood in its own terms⟯. 
 ⟮Historical determinism⟯ is the idea that ⟮history is determined in some way, e.g. by rules⟯. 
@@ -1588,7 +1588,7 @@ The ⟮コギャル⟯ fashion/fashion was popular in the ⟮1990s⟯.
 
 ⟮the plaza accords⟯ were an agreement in ⟮1985⟯ that ⟮changed the fundamental relationship between⟯ ⟮Dollar, DM and Yen.⟯ 
 
-###### bubble economy & lost decade
+###### bubble economy ＆ lost decade
 
 From ⟮the end of the war⟯ until ⟮the asset price crisis⟯, ⟮Japan⟯ experienced ⟮strong economic growth⟯. 
 In ⟮pre-bubble⟯-era japan ⟮wealth was high⟯, employment was mostly for life and so ⟮conspicuous consumption was legion⟯ 
@@ -1695,7 +1695,7 @@ The ⟮miasma theory⟯ remains visible in the name of the illness ⟮malaria⟯
 
 ### ideas
 
-#### emotions & experiences
+#### emotions ＆ experiences
 
 ##### sensibility
 
@@ -1826,7 +1826,7 @@ According to ⟮CLS⟯, in ⟮mythical thought⟯ ⟮intellectual drive⟯ leads
 
 # soc
 
-## theories & approaches
+## theories ＆ approaches
 
 ### positivism
 
@@ -1902,7 +1902,7 @@ OP|Original Poster
 
 ## feminism
 
-### history & evolution
+### history ＆ evolution
 
 #### waves
 
@@ -2296,7 +2296,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 Thus, ⟮haferflocken⟯ = ⟮rolled oats⟯. 
 
-#### fruit & berries
+#### fruit ＆ berries
 ⟮blackcurrant⟯|⟮schwarze johannisbeere⟯
 ⟮currant⟯|⟮Johannisbeere⟯
 
@@ -2612,7 +2612,7 @@ No. in diagram|Name
 ⟮5⟯|⟮Appendix⟯
 
 
-##### appendix & appendicitis
+##### appendix ＆ appendicitis
 
 ⟮Appendicitis⟯ is the english and formally correct name for ⟮Blinddarmentzündung⟯. 
 Der ⟮Wurmfortsatz des Blinddarms⟯ is the german name for ⟮appendix⟯. 
@@ -2689,7 +2689,7 @@ Image|Name of movement
 
             
 
-#### naming & categorizing
+#### naming ＆ categorizing
 
 ##### body
 
@@ -2727,7 +2727,7 @@ No. in diagram|Name
 
 ⟮Reciprocal inhibition⟯ describes the process of ⟮muscles⟯ on ⟮one side of a joint⟯ ⟮relaxing⟯ to ⟮accommodate contraction⟯ on ⟮the other side of that joint⟯. 
 
-#### flexion & extension
+#### flexion ＆ extension
 
 
 flex-container:✫800px-FlexsionExtension2017.jpeg✫
@@ -2932,7 +2932,7 @@ Roughly ⟮1⟯% of the population have ⟮CFS⟯, with it occuring somewhat mor
 
 ⟮referred pain⟯ is pain ⟮felt somewhere else than the site of the stimulus⟯.
 
-### errors & lies
+### errors ＆ lies
 
 #### misleading
 
@@ -3003,7 +3003,7 @@ Often other things ⟮will be mistaken for trigger points⟯, such as ⟮tendons
 ⟮c+;s13;Myofascial release⟯ / ⟮c+;s12;trigger point therapy⟯ is mainly concerned with ⟮trigger points⟯.  
 In ⟮myofascial release/trigger point therapy⟯, you ⟮compress a trigger point⟯ for ⟮typically a minute or a few minutes⟯, without using ⟮lubricants⟯. ⟮hb;Trigger points may ⟮twitch⟯ when ⟮compressed⟯, and ⟮refer pain⟯. ⟮hb;There is not much evidence for trigger point therapy ⟮providing any long-term medical benefits⟯, but ⟮it does feel quite good and act as pain relief⟯.⟯⟯ 
 
-# sexuality & attraction
+# sexuality ＆ attraction
 
 ## fiction
 
@@ -3278,7 +3278,7 @@ throughout discourse (in the wide focaultian sense), +ists as well as the +exper
 x-normativity normalizes the + identity, experience and being a +ist of the relevant ism.
 x-centrism places the + experience at the center of concern in a wide variety of areas, such that the + experience becomes enmeshed in the fabric of the social and built world.
 Often x-normativity gives rise to one or more υ-cultures.
-The sanctions that -ists face are such that many hide their - identity (stealth & passing), thus the visibility of the - identity is further reduced.
+The sanctions that -ists face are such that many hide their - identity (stealth ＆ passing), thus the visibility of the - identity is further reduced.
 
 Lack of visibility of - experiences, - identities, and -ists constitutes »erasure«.
 
@@ -3309,7 +3309,7 @@ A model minority's positively-seen traits serve to contrast with other subidenti
 
 similarly but slightly differently, ⟮Car culture⟯ (when it doesn't just mean ⟮an appreciation for cars⟯) refers to ⟮a culture/environment/society which is designed for and around cars.⟯
 
-###### passing & stealth
+###### passing ＆ stealth
 
 In a broad sense, a person that is passing is assumed to be part of a social group that they are not in fact a part of.
 In a narrow sense, passing is being percieved as part of a + group though one is actually part of a - group.
@@ -3334,8 +3334,8 @@ Though it is not true for every ism, in generally characters with - identities a
 ism|TVtropes trope|details
 racism|Black Dude Dies First|(despite name, any non-white character)
 sexism|Vasquez Always Dies|(mostly transgressive, 'masculine' women, despite the fact these should be more apt to survive (A/N: Really though? Masculinity is associated with unnecessary risk-taking etc.))
-hetero & cissexism|Bury Your Gays, Gay Guy Dies First
-sexism|Slashers Prefer Blondes & Final Girl|The blonde girl 'tainted by sexuality' dies first, while the final girl, who is 'pure' survies until the end.
+hetero ＆ cissexism|Bury Your Gays, Gay Guy Dies First
+sexism|Slashers Prefer Blondes ＆ Final Girl|The blonde girl 'tainted by sexuality' dies first, while the final girl, who is 'pure' survies until the end.
 ablism|Bury Your Disabled
 
 ####### evil
@@ -3349,7 +3349,7 @@ Heterosexism|"Depraved Homosexual",
 "Psycho Lesbian",
 "Depraved Bisexual"
 Ableism|"Evil Cripple"
-Cissexism & Sexism|"Sissy Villain", 
+Cissexism ＆ Sexism|"Sissy Villain", 
 "Makeup Is Evil", 
 "Creepy Crossdresser"
 Sanism|Crazy Villain
@@ -3511,7 +3511,7 @@ The two strategies people use in performing ⟮emotion work/labor (not sure in h
 ⟮emotion work/labor⟯ by ⟮getting into a state where one genuinely feels the emotions⟯ is called ⟮deep acting⟯ 
 ⟮emotion work/labor ⟯ by ⟮pretending, without changing how one actually feels⟯ is called ⟮surface acting⟯ 
 
-# research & learning
+# research ＆ learning
 
 ## research
 
@@ -3571,7 +3571,7 @@ primary sources are called 「quellen」 in the study of history in german.
 
 ### citation metrics
 
-#### coupling & co-citation
+#### coupling ＆ co-citation
 
 flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
 
@@ -3680,7 +3680,7 @@ Within quotes, square brackets are used to modify quotes.
 2. table of contents (optional)
 3. abstract
 4. main body
-5. references & attachments
+5. references ＆ attachments
 6. eidestattliche erklärung (germany only)
 
 #### main body
@@ -3898,7 +3898,7 @@ A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮s16;⟮daily, a f
 
 ### dreams
 
-#### REM sleep & lucid dreaming
+#### REM sleep ＆ lucid dreaming
 
 REM|Rapid Eye Movement
 ⟮Rapid eye movement (REM) sleep⟯ is the time where ⟮one dreams the weird kind of dreams we call dreams⟯. 

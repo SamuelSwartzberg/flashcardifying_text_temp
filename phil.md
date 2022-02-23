@@ -742,7 +742,7 @@ The Frankfurt School was established in the 1920.
 Horkheimer, Adorno, Marcuse etc. are the most prominent members of The Frankfurt School
 Critical theory as a type of theory is any sort of theory that is interested in power structures, and especially umasking hidden power structures and thus achieve "emancipation from slavery" (Horkheimer)
 
-## structuralism & poststructuralism
+## structuralism ＆ poststructuralism
 
 Postmodernism had its heyday in the 1970s and has been declining since the 90s/2000s
 

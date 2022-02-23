@@ -31,7 +31,7 @@ An *ML elements start and end tag feature its name: ‹foo› ... ‹/foo›.
 *ML elements' »content« is either text or other elements ('child elements').
 *ML content goes between the start and the end tag.
 
-##### empty elements & self-closing tags
+##### empty elements ＆ self-closing tags
 
 »Empty elments« are created by (or a synonym to) self-closing tags.
 Self-closing tags in *ML only consist of a start tag.
@@ -142,7 +142,7 @@ some elements must appear as children of other elements - to violate these rules
 #### head
 
 The ‹head› element contains metadata about the document.
-The ‹head› element can contain ‹base›, ‹meta›, ‹title›, ‹link›, ‹style>, ‹script›, ‹noscript› and ‹template›
+The ‹head› element can contain ‹base›, ‹meta›, ‹title›, ‹link›, ‹style›, ‹script›, ‹noscript› and ‹template›
 
 ##### title
 
@@ -252,11 +252,11 @@ Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
 
 ####### attributes
 
-⟮muted⟯|⟮audio is muted/mute audio⟯|IDL & Content
+⟮muted⟯|⟮audio is muted/mute audio⟯|IDL ＆ Content
 ⟮paused⟯|⟮is paused/pause⟯|IDL
-⟮loop⟯|⟮will loop/loop⟯|IDL & Content
-⟮controls⟯|⟮is showing controls/show controls⟯|IDL & Content
-⟮autoplay⟯|⟮will autoplay/enable autoplay⟯|IDL & Content
+⟮loop⟯|⟮will loop/loop⟯|IDL ＆ Content
+⟮controls⟯|⟮is showing controls/show controls⟯|IDL ＆ Content
+⟮autoplay⟯|⟮will autoplay/enable autoplay⟯|IDL ＆ Content
 ⟮ended⟯|⟮Indicates whether it has finished playing⟯|IDL
 ⟮playbackRate⟯|⟮Represents the speed at which the thing is playing⟯|IDL
 
@@ -345,9 +345,9 @@ In HTML both progress and meter support a fallback text value within their tags.
 
 ##### tables
 
-table > tbody/thead/tfoot (optional level, but if used, any tr must be within it)
-tbody/thead/tfoot > tr
-tr > th/td
+table › tbody/thead/tfoot (optional level, but if used, any tr must be within it)
+tbody/thead/tfoot › tr
+tr › th/td
 
 caption  optional child of table
 
@@ -500,10 +500,10 @@ The validation states of an input are contained in the ValidationState API and c
 type="color" for colors
 type="hidden" does not show the control, but still submits the data.
 
-######## radio & checkbox
+######## radio ＆ checkbox
 
 A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
-In HTML, a radio button is realized by <input type="radio">
+In HTML, a radio button is realized by ‹input type="radio"›
 In HTML, multiple radio buttons are linked by assigning them the same number.
 radio and checkbox input accept the attribute checked to specfiy if they are checked
 
@@ -537,7 +537,7 @@ input type file return a `FileList`, which is a linear collection of `File`s
 
 Input type image supports the attributes ‹img› supports, in addition to the usual ones of input.
 When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
-The coordinates of an input type="image" will be submitted as ‹name›.x=‹coord›&name.y=‹coord›
+The coordinates of an input type="image" will be submitted as ‹name›.x=‹coord›＆name.y=‹coord›
 
 ######## submit
 
@@ -648,11 +648,11 @@ In HTML and Latex, ordered and unordered lists are surrounded with something dif
 Latex uses the same list items for description lists also, while HTML uses different elements for those.
 by default, latex only allows the nesting of lists to a depth of four
 
-ordered list|enumerate environment|‹ol>
-unordered list|itemize environment|‹ul>
-description list|description environment|‹dl>
-list item|\item|‹li>
-Term in a description list with title foo and description/explanation bar|\iten[foo]bar|‹dt>foo‹/dt>‹dd>bar‹/dd>
+ordered list|enumerate environment|‹ol›
+unordered list|itemize environment|‹ul›
+description list|description environment|‹dl›
+list item|\item|‹li›
+Term in a description list with title foo and description/explanation bar|\iten[foo]bar|‹dt›foo‹/dt›‹dd›bar‹/dd›
 
 In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
 ⟮ordered list items⟯ are started by ⟮‹n›. (e.g. 1. or 7.⟯). 
@@ -679,8 +679,8 @@ nav|navigation section
 
 ##### inline nonhtml
 
-‹style> allows including CSS inline, by including it as content
-‹script> allows including JS or other scripting languages inline, by including it as content
+‹style› allows including CSS inline, by including it as content
+‹script› allows including JS or other scripting languages inline, by including it as content
 
 ##### deprecated elements
 
@@ -695,7 +695,7 @@ nav|navigation section
 Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
 
 Flow content
-Flow content is a broad category that encompasses most elements that can go inside the ‹body> element.
+Flow content is a broad category that encompasses most elements that can go inside the ‹body› element.
 
 Heading content is a subset of flow content that includes h1-h6, and theoretically though not relevantly the never-implemented the-spec-is-lying-about-it hgroup
 Sectoning content is a subset of flow content that was supposed to be relevant for the outline algorithm that was never implemented, and so is a somewhat-irrelevant category.
@@ -715,7 +715,7 @@ The ‹object› HTML element represents an external resource, which can be trea
 The ‹param› HTML element defines parameters for an ‹object› element.
 The ‹embed› HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
 
-‹math> and ‹svg> embed content in HTML from MathML and SVG respectively
+‹math› and ‹svg› embed content in HTML from MathML and SVG respectively
 
 #### Common attributes
 
@@ -767,10 +767,10 @@ the title attribute is *generally* shown as a tooltip, unless the element implem
 ###### text editing only
 
 spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
-there are three places where text can be inputed in HTML: <input type="text">, ‹textarea› and anything w/ contenteditable
+there are three places where text can be inputed in HTML: ‹input type="text"›, ‹textarea› and anything w/ contenteditable
 spellcheck: an enumerated attribute w/ "true" and "false" whether to check the spelling of the thing
 inputmode: specify the kind of text input that is required, thus allowing mobile devices to show appropriate soft keyboards
-inputmode is different from <input type="..."> in that it does not enforce any kind of validation, users *can* still input anything they want.
+inputmode is different from ‹input type="..."› in that it does not enforce any kind of validation, users *can* still input anything they want.
 inputmode value|shows|equivalent ‹input› type, if extant
 none|no virtual keyboard
 text|default virtual keyboard
@@ -815,15 +815,15 @@ attributes that can be set via CSS are also known as »properties«.
 
 A `viewBox` attribute defines a viewport.
 
-##### width & height
+##### width ＆ height
 
 it seems that ⟮SVG elements⟯ will have ⟮width⟯ and ⟮height⟯ of ⟮0⟯ and thus ⟮be invisble⟯ if ⟮not otherwise specified⟯ 
 
-##### x & y
+##### x ＆ y
 
 In ⟮SVG⟯, you ⟮position things⟯ by ⟮specifying the x and y properties⟯ ⟮on the elements⟯. 
 
-##### stroke & fill
+##### stroke ＆ fill
 
 ###### stroke
 
@@ -1072,7 +1072,7 @@ Filters are specified within `‹defs›`.
 
 Any filter element contains a set of filter primitives as its children.
 A filter  primitive performs a single fundamental graphical operation on one or more inputs, producing a graphical result.
-Filter primitives are distinct SVG elements which all start with the `<fe` prefix. 
+Filter primitives are distinct SVG elements which all start with the `‹fe` prefix. 
 
 ######## IO
 
@@ -1354,7 +1354,7 @@ document.getElementBy‹whatever›() returns HTMLCollections.
 document.getElementBy‹whatever› has four variants ById, ByClassName, ByTagName
 Element.closest(selector)|get the closest ancestor element which matches the selector
 
-#### other interfaces & classes
+#### other interfaces ＆ classes
 
 ##### DOMTokenList
 
@@ -1454,7 +1454,7 @@ to work, we must pass removeEventListener the event as well as the ⁑exact same
 in the capturing phase, the browser goes from the root element up to the target downwards
 in the target phase, the browser triggers any event handlers on the target itself
 in the bubbling phase, the browser goes from the the target up to root element upwardswards
-capturing phase > target phase > bubbling phase
+capturing phase › target phase › bubbling phase
 capturing/bubbling event handlers trigger during the capturing/bubbling phase respectively, and both on the target phase
 Event.bubbles prevents bubbling
 
@@ -1700,7 +1700,7 @@ In HTML/CSS, ‹input› and ‹textarea› can have placeholder text in form of
 
 +
 ~
->
+›
 
 
 ##### The Grouping selector
@@ -1724,7 +1724,7 @@ Finally, the used value is transformed to the actual value based on constraints 
 The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their precedence as determined below, and outputs a single cascaded value.
 
 The cascaded value is determined by their precedence, which is specified by the cascade sort order:
-origin & importance > context > specificity > order of appearance in source document.
+origin ＆ importance › context › specificity › order of appearance in source document.
 
 ##### Cascade origin
 
@@ -1734,8 +1734,8 @@ user stylesheet|applied by the user, e.g. via addons
 user-agent stylesheet|applied by the user-agent = browser
 In addition, there are two virtual cascade origins, transition declarations and animation declarations.
 the weakest style in an element higher in the cascade origin hierarchy beats the strongest style in an element lower in the cascade origin hierarchy
-normal declarations|author>user>user-agent
-important declarations|user-agent>user>author
+normal declarations|author›user›user-agent
+important declarations|user-agent›user›author
 
 ##### important
 
@@ -1744,7 +1744,7 @@ An important declaration takes precedence over a normal declaration.
 
 Ergo, for cascade origin plus important there is the following hierarchy:
 
-transition declarations > Important user agent declarations > Important user declarations > Important author declarations > Animation declarations > Normal author declarations > Normal user declarations > Normal user agent declarations
+transition declarations › Important user agent declarations › Important user declarations › Important author declarations › Animation declarations › Normal author declarations › Normal user declarations › Normal user agent declarations
 
 ##### context
 
@@ -1861,7 +1861,7 @@ While scroll-padding is set on the parent, scroll-margin is set on the child, an
 ###### width, height
 
 width and height each have corresponding min- and max- properties
-power of width and height properties: min- > max- > ø
+power of width and height properties: min- › max- › ø
 width and height and corresponding min/max values take the following values: ‹lpminmaxauto›|fit-content(‹length-percentage›)
 
 What width and height size depends on the box-sizing property
@@ -1951,7 +1951,7 @@ For the gap, row-gap and column-gap there exist the now archaic grid-* aliases.
 
 ####### grid
 
-Fundamentally, the grid consists of two tasks: defining a grid & its sizes, and placing items within that grid.
+Fundamentally, the grid consists of two tasks: defining a grid ＆ its sizes, and placing items within that grid.
 
 ######## defining and sizing a grid
 
@@ -1959,13 +1959,13 @@ In CSS, there are two kinds of ways to define the grid and its sizes, using the 
 grid-auto*|implicit grid
 grid-template*|explicit grid
 
-there are four grid-template properties, grid-template-columns & -rows, grid-template-areas as well as the shorthand grid-template.
-there are three grid-auto properties, grid-auto-column & -rows and grid-flow
+there are four grid-template properties, grid-template-columns ＆ -rows, grid-template-areas as well as the shorthand grid-template.
+there are three grid-auto properties, grid-auto-column ＆ -rows and grid-flow
 
-grid-template-columns & -rows define how many columns/rows of which size the explicit grid wil contain.
-grid-auto-columns & -rows define what size columns/rows the auto placement algorithm will add.
-specifying multiple values for grid-auto-columns & -rows specifies a pattern which to follow.
-grid-template-columns & rows take the same values, which i will call ‹grid-template-values›
+grid-template-columns ＆ -rows define how many columns/rows of which size the explicit grid wil contain.
+grid-auto-columns ＆ -rows define what size columns/rows the auto placement algorithm will add.
+specifying multiple values for grid-auto-columns ＆ -rows specifies a pattern which to follow.
+grid-template-columns ＆ rows take the same values, which i will call ‹grid-template-values›
 
 grid-template-rc-values ::= {[‹line-names› ](‹flex-l-p-min-max-auto-mm›|‹repeat›)}[ ‹line-names›]
 grid-auto-values ::= ‹flex-l-p-min-max-auto-mm› {‹flex-l-p-min-max-auto-mm›}
@@ -2175,7 +2175,7 @@ logical properties are a set of properties that respect the block-flow-directrio
 logical-property ::= [margin|padding|border]-[block|inline]-[start|end]
 the border logical property can be split into width, style and color as per usual.
 
-####### Border & outline
+####### Border ＆ outline
 
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
@@ -2348,7 +2348,7 @@ skewing distorts by a certain angle, as if you grabbed a certain corner and pull
 
 In addition, there is one more transform funtion, `perspective()`
 
-###### animations & transitions
+###### animations ＆ transitions
 
 CSS transitions allow changing between two property values to be gradual.
 CSS animations allow animating between n property values arbitrarily complexly and potentially infinitely.
@@ -2410,8 +2410,8 @@ https://drafts.csswg.org/css-easing-1/step-easing-func-examples.svg
 
 jump-start, start|first 'jump' happens at 0; last jump happens some time before end|ergo: 0 state will not be visible, 1 state will
 jump-end, end|first 'jump' happens at some time after 0; last jump happens at end|ergo: 0 state will be visible, 1 state will not
-jump-none|first 'jump' happens at some time after 0; last jump happens some time before end|ergo: 0 & 1 state will both be visible
-jump-both|first 'jump' happens at 0; last jump happens at 1|ergo: 0 & 1 state will both not be visible
+jump-none|first 'jump' happens at some time after 0; last jump happens some time before end|ergo: 0 ＆ 1 state will both be visible
+jump-both|first 'jump' happens at 0; last jump happens at 1|ergo: 0 ＆ 1 state will both not be visible
 
 ######## cubic-bezier
 
@@ -2733,7 +2733,7 @@ To make text blurry in CSS, make it's color transparent and set a text-shadow.
 
 repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
 space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
-round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left >= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
+round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left ›= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
 no-repeat|do not repeat
 
 ### at-rules
@@ -3327,7 +3327,7 @@ height|h
 background|bg
 gutters|g
 top/bottom/left/right/start/end|t/b/l/r/s/e
-top & bottom / left & right|y/x
+top ＆ bottom / left ＆ right|y/x
 no character|all four sides
 
 ##### active/disabled
@@ -3534,7 +3534,7 @@ A data model is a model that provides structure to data, and to their properties
 
 ### fundamentals
 
-#### & databases
+#### ＆ databases
 
 A database is an organized collection of data.
 Any database implements a data model.
@@ -3918,7 +3918,7 @@ Key|does
 ⟮cmd + backspace⟯|⟮delete to beginning of line (mac⟯)
 
 
-##### key combinations & actions
+##### key combinations ＆ actions
 
 A keyboard shortcut some key input that performs an action different from its literal value.
 A key combination is the pressing of a key and one or more modifier keys to perform an action
@@ -4032,7 +4032,7 @@ Action|Shortcut
 ⟮New alternative thing (window, folder, etc.⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
 ⟮Open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
 ⟮Duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
-⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧>⟯
+⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧⟯
 ⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
 
@@ -4145,7 +4145,7 @@ espeak|nix
 
 ## shells
 
-flex-container:✫sm_Midnight_Commander_(2005)_en.png✫<img rc="sm_1024px-Vim-(logiciel)-console.jpg">
+flex-container:✫sm_Midnight_Commander_(2005)_en.png✫✫sm_1024px-Vim-(logiciel)-console.jpg✫
 
 
 A shell is a wrapper around the OS that acts as an interface between it and humans.
@@ -4228,7 +4228,7 @@ flex-container:✫Screenshot%202021-12-09%20at%2003.12.09.png✫
 
 A command palette is a text-based fuzzily searchable menu containing most things one can do in a program.
 A quick open menu is a text-based fuzzily searchable menu containing navigation items.
-Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing >
+Often (VSCode, Devltools) a command palette is merely a mode of a quick open menu, enterable or exitable by adding/removing ›
 A ⟮Command Palette⟯ often also shows ⟮the direct keyboard shortcuts⟯. 
 A ⟮Command Palette⟯ generally appears as ⟮a modal⟯ floating in ⟮the upper center⟯ of the window. 
 Following ⟮Sublime text and VSCode⟯, ⟮many applications have adapted⟯ ⟮the Command Palette⟯. 
@@ -4334,7 +4334,7 @@ flex-container:✫sm_2021-06-26--14-46-16-screenshot.png✫
 A breadcrumb trail is a series of separated breadcrumbs, each representing a distict navigational item organized into a logical sequence.
 A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
-In bootstrap, breadcrumbs are created by .breadcrumb > .breadcrumb-item*n
+In bootstrap, breadcrumbs are created by .breadcrumb › .breadcrumb-item*n
 
 ##### sidebars
 
@@ -4379,7 +4379,7 @@ The dialog element rerpesents a dialog box container semantically.
 The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
 ‹form› elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
-##### tooltips & popovers
+##### tooltips ＆ popovers
 
 flex-container:⟮h∞;✫sm_13gJ2VKho0yW4vEovAMtrjg.jpg✫⟯⟮ha;✫sm_220px-Mobile_URL_tooltip.png✫⟯]]][[[⟮ha;✫sm_1sGOKl17J48qhDRMx-foqOw.gif✫⟯⟮ha;✫sm_2021-06-24--02-37-46-screenshot.png✫⟯
 ⟮Tooltips⟯ and ⟮popovers⟯ are similar in that ⟮they both appear close to the thing that triggered them⟯. 
@@ -4635,7 +4635,7 @@ medium|FPS
 ⟮film⟯|⟮24fps⟯
 
 
-### transparency & opacity
+### transparency ＆ opacity
 
 The ⟮inverse of⟯ ⟮transparency⟯ is ⟮opacity⟯ 
 
@@ -4665,7 +4665,7 @@ In the image, if ⟮you see a vase⟯, the ⟮black space⟯ is the ⟮negative 
 In the image, if ⟮you see two faces⟯, the ⟮white space⟯ is the ⟮negative space⟯ and the ⟮black space⟯ is the ⟮positive space⟯
 In the image, the ⟮positive space⟯ is (probably/arguably) ⟮the woman.⟯
 
-flex-container:✫sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg✫✫sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg✫<img  src="sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg">
+flex-container:✫sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-articleLarge.jpg✫✫sm_merlin_159438405_49d288c9-c4ea-4540-a749-adb9bb055a59-articleLarge.jpg✫✫sm_merlin_159438372_c70d27a9-7ece-413f-8e68-65aea6e57894-articleLarge.jpg✫
 
 
 ⟮hostile/defensive architecture/design⟯ is architecture that ⟮restricts/guides behavior⟯ to ⟮protect property⟯ or ⟮prevent crime⟯ 
@@ -4743,7 +4743,7 @@ As of 2021, for ⟮SEO⟯, ⟮a page title/ description⟯ should be ⟮descript
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
 For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
-#### WAI & WCAG basics
+#### WAI ＆ WCAG basics
 
 ⟮the Web Accessibility Initiative (WAI)⟯ is the W3C initiative supporting accessibility.
 the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
@@ -4810,7 +4810,7 @@ punched tape is like punched cards, but continuous
 Solid state memory/storage in theory is any storage without any moving part.
 Flash memory is the most common type of solid state memory.
 
-### mutability & volatility
+### mutability ＆ volatility
 
 ROM  Read only memory
 ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
@@ -4825,7 +4825,7 @@ Physical addressing is addressing memory by using addresses corresponding to act
 Logical Address = Virtual Address
 Virtual/logical memory is addresed by virtual/logical addresses.
 Logical/virtual addressing adds a layer of abstraction over physical addressing. 
-Virtual memory & addresses are used by the OS for primary memory, but also may be used in other circumstances.
+Virtual memory ＆ addresses are used by the OS for primary memory, but also may be used in other circumstances.
 Nearly all current implementations of virtual memory for primary memory divide virtual memory into pages.
 Pages of virtual memory typically have a fixed size or a few preditermined fixed lenths.
 For primary memory, virtual addresses are mapped to physical addresses in the page table.
@@ -4880,7 +4880,7 @@ principle of spatial locality = Memory that is close (to the currently accessed 
 principle of spatial locality = Memory that has recently been referenced will be referenced again soon.
 Memory closer to the processor is faster but more expensive and smaller, memory further away from the processor is slower but cheaper and larger.
 memory speed:
-registers > processor cache > main memory > secondary memory
+registers › processor cache › main memory › secondary memory
 
 #### secondary memory
 
@@ -4953,7 +4953,7 @@ RAID ↔ SLED
 RAID uses multiple disks.
 RAID disks are in some sort of configuration which aims to achieve one or more of the three aims reliability/redundancy, performance, capacity
 RAID 0|Data is split among the drives (striped)|performance (r/w)
-RAID 1|data is mirrored on all drives|reliability & some read performance
+RAID 1|data is mirrored on all drives|reliability ＆ some read performance
 
 `df` shows memory device storage usage
 
@@ -5069,7 +5069,7 @@ exa is a reinplementation of ls in rust with more features and opinionated defau
 
 fzf is a shell filter which takes an input of a list of files, allows interactive fuzzy search and selection, and outputs the selection.
 
-du & dust estimate storage usage of files in current directory.
+du ＆ dust estimate storage usage of files in current directory.
 `-d / --max-depth (for du) --depth (for dust)`   only go to the specified depth
 
 realpath gets the absolute path for a file name
@@ -5098,7 +5098,7 @@ There are tons of grep variants:
 agrep|grep with fuzzy matches
 
 There are also many alternative variants of grep using more modern regexes, and also significantly faster:
-speed: rg > ag > ack
+speed: rg › ag › ack
 
 greps exit status if it finds a match is 0, if it does not find a match, it is 1.
 grep -c count the produced lines.
@@ -5337,7 +5337,7 @@ Plan 9: "Really everything is a file"
 
 folder (windows) = directory (*nix)
 
-#### permissions & owners
+#### permissions ＆ owners
 
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
 chown changes the owner and/or group of the file
@@ -5804,7 +5804,7 @@ The behavior of some of the readers and writers can be adjusted by enabling or d
 for pandoc extensions, + enables it and - disables it.
 pandoc-format-specifier ::= ‹pandoc-format›{(+|-)‹pandoc-extensions›}
 
--s/--standalone produces valid standalone files such as HTML by adding header & footer material via a specified template.
+-s/--standalone produces valid standalone files such as HTML by adding header ＆ footer material via a specified template.
 
 By default pandoc creates an output pdf by using latex as an intermediary, you can change this behavior with --pdf-engine.
 
@@ -5827,26 +5827,26 @@ markup languages consist of normal text and specific markup, which are interming
 
 ####### across languages
 
-bold (no importance impl)|\textbf{} (though there are others)|‹b>|**text** or __text__
-italic (no importance impl)|\textit{}|‹i>|*text* or _text_
-emphasize (generally via italics)|\emph{}|‹em>|N/A
+bold (no importance impl)|\textbf{} (though there are others)|‹b›|**text** or __text__
+italic (no importance impl)|\textit{}|‹i›|*text* or _text_
+emphasize (generally via italics)|\emph{}|‹em›|N/A
 strongly emphasize||‹strong›|N/A
-underline|\underline{}|‹u>|N/A
-strikethrough foo (whithout special semantics)|different ones in packages|‹s>foo‹s>|~foo~ or ~~foo~~ (most md flavors)
-hyperlink link with title title|\href{link}{title}|‹a href="link">title‹/a>|[title](link)
-hyperlink link with title link|\url{}|‹a href="link">link‹/a>|[link](link)
-block quotation of foo|quote, quotation, or verse environment|‹blockquote>‹/blockquote>|`>foo` or `> foo` (space after > is optional)
-Inline quotation of foo|\enqote{foo} (package csquotes)|‹q>foo‹/q>
-inline source code||‹code>|``
-create a newline|\\ or \newline|‹br>| two spaces or \‹newline character>
-Heading (level one) "foo"|relevant section command|‹h1>foo‹/h1>|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"|relevant section command|‹h2>foo‹/h2>|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"|relevant section command|‹h3>foo‹/h3>|### foo 
-Heading (level six) "foo"|relevant section command|‹h6>foo‹/h6>|###### foo 
-A code block foo||‹pre>‹code>foo‹/code>‹/pre>| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
-a paragraph foo|\par{foo}|‹p>foo‹\p>|\n\npar\n\n (uses blank lines)
-image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|‹img src="Asuka" alt="best girl">|![best girl](Reina)
-horizontal line|\rule (or \hrule, but both take arguments)|‹hr>| three or more *** ___ --- 
+underline|\underline{}|‹u›|N/A
+strikethrough foo (whithout special semantics)|different ones in packages|‹s›foo‹s›|~foo~ or ~~foo~~ (most md flavors)
+hyperlink link with title title|\href{link}{title}|‹a href="link"›title‹/a›|[title](link)
+hyperlink link with title link|\url{}|‹a href="link"›link‹/a›|[link](link)
+block quotation of foo|quote, quotation, or verse environment|‹blockquote›‹/blockquote›|`›foo` or `› foo` (space after › is optional)
+Inline quotation of foo|\enqote{foo} (package csquotes)|‹q›foo‹/q›
+inline source code||‹code›|``
+create a newline|\\ or \newline|‹br›| two spaces or \‹newline character›
+Heading (level one) "foo"|relevant section command|‹h1›foo‹/h1›|# foo or foo\n===(number doesn't matter)
+Heading (level two) "foo"|relevant section command|‹h2›foo‹/h2›|## foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|‹h3›foo‹/h3›|### foo 
+Heading (level six) "foo"|relevant section command|‹h6›foo‹/h6›|###### foo 
+A code block foo||‹pre›‹code›foo‹/code›‹/pre›| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
+a paragraph foo|\par{foo}|‹p›foo‹\p›|\n\npar\n\n (uses blank lines)
+image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|‹img src="Asuka" alt="best girl"›|![best girl](Reina)
+horizontal line|\rule (or \hrule, but both take arguments)|‹hr›| three or more *** ___ --- 
 superscript text foo|^{foo}|‹sup›foo‹/sup›
 subscript text foo|_{foo}|‹sub›foo‹/sub›
 indicate a variable semantically||‹var›
@@ -5858,10 +5858,10 @@ preformatted text that is to be presented exactly as written||‹pre›
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
 
-strike is similar to ‹s>, but obsolete
-‹tt> used to indicate teletype text, but is now obsolete
-‹big> used to indicate big text, but is now obsolete; however ‹small> still works.
-‹center> used to indicate centered text but is now obsolete
+strike is similar to ‹s›, but obsolete
+‹tt› used to indicate teletype text, but is now obsolete
+‹big› used to indicate big text, but is now obsolete; however ‹small› still works.
+‹center› used to indicate centered text but is now obsolete
 
 most text markup languages (HTML, Latex, md) will ignore duplciate spaces.
 most text markup languages (HTML, Latex, md) will transform newlines into a single space unless otherwise indicated.
@@ -5888,12 +5888,12 @@ zero-width space||‹wbr› or ＆#8203;
 hyperref|create links automatically and \href, \url commands
 
 
-nested blockquotes| `>>` or `> > `(space after > to begin blockquotes is optional)
+nested blockquotes| `››` or `› › `(space after › to begin blockquotes is optional)
 
 Pandoc md is a superset of most other markdown flavors
 Pandoc md defaults to tilde-delimited code blocks.
 In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} ‹title> [\{{‹class›|‹id›|...}\}]
+pandoc-md-heading ::= #{#} ‹title› [\{{‹class›|‹id›|...}\}]
 
 
 RTF|Rich Text Format
@@ -6147,7 +6147,7 @@ command|symbol
 ⟮\dots⟯ ⟮is equivalent to \ldots⟯ in ⟮vanilla latex⟯. 
 If using ⟮amsmath⟯ and ⟮within math mode⟯, ⟮\dots⟯ ⟮decides between \ldots and \cdots⟯ ⟮based on context⟯ 
 
-######## language & encoding
+######## language ＆ encoding
 
 Package|Function
 ⟮babel⟯|⟮foreign language support⟯
@@ -6555,7 +6555,7 @@ TOML: ⟮fruit.apple.color = "red"⟯ produces ⟮a table named fruit that has a
 
 YAML|YAML Ain't Markup Language
 
-######### Anchors & merge keys
+######### Anchors ＆ merge keys
 
 YAML ⟮anchors⟯ ⟮save a reference to a value⟯, which ⟮then can be included in a different location⟯ via ⟮an alias.⟯ 
 ⟮A merge key⟯ ⟮merges the values of an anchor⟯ ⟮into the current leve⟯l, thus allowing ⟮overwriting some of the values if necessary⟯. 
@@ -6613,7 +6613,7 @@ to use your ⟮JSON Schemas⟯ as ⟮TS typeings⟯ use the ⟮npm package⟯ �
 ######## jq yq
 
 jq|process JSON
-yq|process YAML & convert to/from JSON
+yq|process YAML ＆ convert to/from JSON
 yq -y/-Y roundtrip back to YAML
 `yq ⟮‹command›⟯ ⟮‹flags›⟯ {⟮‹file›⟯}`
 `yq ⟮-t/--to-type⟯ ⟮yaml⟯/⟮json⟯/...` ⟮outputs the file as the specified file format⟯
@@ -6710,7 +6710,7 @@ bzip2 is the command to manipulate bzip3 files
 Fundamentallly, all emails in an email account (generally associated with a single email address, but not necessarily) are stored in an an (email) mailbox
 Message/mail delivery agents are programs that deliver emails to a mailbox.
 
-###### mbox & imf
+###### mbox ＆ imf
 
 In the mbox format, an entire mail directory is held in a single file.
 The mbox format consists of individual IMF messages.
@@ -6759,8 +6759,8 @@ git objects are commits, trees, blobs and annotated tags.
 
 the `git cat-file` command is the swiss army knife for inspecting git objects.
 
--p|Pretty-print the contents of ‹object> based on its type. (can be used to retrieve the file from the store)
--t|Instead of the content, show the object type identified by ‹object>.
+-p|Pretty-print the contents of ‹object› based on its type. (can be used to retrieve the file from the store)
+-t|Instead of the content, show the object type identified by ‹object›.
 
 ##### hashes
 
@@ -6991,7 +6991,7 @@ post-recieve|after push has succeeded|none|nothing
 
 Github is a hosting service for git repositories.
 
-##### Issues & PRs
+##### Issues ＆ PRs
 
 Github issues track desired changes such as features, bugs, etc.
 A milestone is a set of github issues.
@@ -7088,7 +7088,7 @@ Modern processors are claimed to be stored-program computers (specifically VNA),
 
 #### electronics
 
-##### integrated & discrete circuits
+##### integrated ＆ discrete circuits
 
 IC = integrated circuit
 an integrated circuit is a set of electronic circuit on a piece of semiconductor material.
@@ -7167,7 +7167,7 @@ Chaining full adders allow us to do arbitrary large binary addition.
 
 CU  Control Unit
 
-#### machine code & instruction set
+#### machine code ＆ instruction set
 
 Assembly language is largely syntactic sugar for machine code.
 Machine code consists of machine language instructions.
@@ -7210,7 +7210,7 @@ speculative execution (in processors) is most often performed in the case of con
 
 ###### RISC instruciton pipelining
 
-Instruction fetch > Instruction decode and register fetch > Execute > Memory access > Register write back 
+Instruction fetch › Instruction decode and register fetch › Execute › Memory access › Register write back 
 
 ##### Hazards
 
@@ -7797,7 +7797,7 @@ A ⟮job⟯ in computing ⟮consists of⟯ ⟮one or more tasks/steps⟯.
 A ⟮job scheduler⟯ is an application for ⟮controlling⟯ ⟮the scheduling⟯ of ⟮the execution⟯ of ⟮jobs⟯ (which is ⟮unattended⟯, ⟮in the  background⟯).
 The ⟮job queue⟯ is ⟮where tasks are put⟯, and is what ⟮the job scheduler manages⟯.
 
-##### cron & at
+##### cron ＆ at
 
 ⟮cron⟯ and ⟮at⟯ are ⟮job schedulers⟯ for unix-likes.
 ⟮cron⟯ is for ⟮scheduling repeated tasks⟯, while ⟮at⟯ is for ⟮scheduling one-time tasks⟯.
@@ -7827,7 +7827,7 @@ cron time item|refers to
 ⟮*/‹n›⟯|⟮every nth unit⟯
 
 
-*|*|*|*|*|<command to execute>
+*|*|*|*|*|‹command to execute›
 ⟮c+;s∞;minute (0-59)⟯|⟮c+;s∞;hour (0-23)⟯|⟮c+;s∞;day of month (1-31)⟯|⟮c+;s∞;month (1-12)⟯|⟮c+;s∞;day of week (0-6) (Sunday is 0)⟯
 
 
@@ -7869,7 +7869,7 @@ A virtual machine is a form of virtualization where an entire operating system i
 
 OS-level virtualization is where multiple isolated user space instances exist on the same OS.
 
-##### chroot & chroot jail
+##### chroot ＆ chroot jail
 
 chroot changes the root directory of a process, preventing it from changing anything outside.
 A chroot jail is the environment set up by chroot.
@@ -7955,7 +7955,7 @@ The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, 
 
 Curreny android has one ⟮API level⟯ per ⟮major version⟯ (e.g. ⟮android 11⟯), but it used to be ⟮multiple ones per version⟯ (bc in the past ⟮minor versions⟯, e.g. ⟮2.2.⟯ Gingerbread and even ⟮patch versions⟯, e.g. ⟮2.2.3⟯ Gingerbread ⟮introduced new features⟯) 
 
-#### libraries & systems
+#### libraries ＆ systems
 
 ##### linux
 
@@ -7964,7 +7964,7 @@ Curreny android has one ⟮API level⟯ per ⟮major version⟯ (e.g. ⟮android
 On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
 libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
 
-###### grapical display & related systems
+###### grapical display ＆ related systems
 
 pango is a linux library for international text rednering.
 
@@ -8093,7 +8093,7 @@ when using systemctl, for mount/device operations, besides using .mount and .dev
 loginctl controls the systemd login manager
 systemd-analyze allows for systemd debugging
 
-###### various subsystems & specs
+###### various subsystems ＆ specs
 
 ####### NetworkManager
 
@@ -8569,7 +8569,7 @@ Unless you force it, the shell a script will execute in is a noninteractive shel
 
 history expansion allows us to splice parts of the history list into the current input stream
 In history expansion, the line from the history list that is used is called the event.
-In history expansion, the parts of the event that are included are the words (broken into words with normal bash tokenization & parsing).
+In history expansion, the parts of the event that are included are the words (broken into words with normal bash tokenization ＆ parsing).
 In history expasnion, various modifiers are available to modify words.
 history-expansion ::= !‹event-designator›[‹word-designator›]{:‹modifier›}
 If the histverify shell option is enabled, and Readline is being used, history substitutions are not immediately passed to the shell parser. Instead, the expanded line is reloaded into the Readline editing buffer for further modification. If Readline is being used, and the histreedit shell option is enabled, a failed history expansion will be reloaded into the Readline editing buffer for correction.
@@ -8594,7 +8594,7 @@ the special word designator ‹integer›* corresponds to ‹integer›-$
 
 modifiers for history expansion
 
-h & t remove everything from a pathname but the head/tail
+h ＆ t remove everything from a pathname but the head/tail
 r / e remove a suffix .suffix / remove everything but the suffix
 p prints the new command but does not execute it
 s/old/new/ regex like substitution
@@ -8604,7 +8604,7 @@ indexes for ! for repeating start at 1 for the first command and go from there
 
 ###### tokenization
 
-to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’. (this has nothing to do with IFS)
+to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘＆’, ‘;’, ‘(’, ‘)’, ‘‹’, or ‘›’. (this has nothing to do with IFS)
 
 ###### parsing (quoting)
 
@@ -8616,7 +8616,7 @@ In bash, $"..." translates the string according to the current locale settings
 
 Expansion is replacing a thing with another thing or things.
 
-Expansions are performed in the order: brace > tilde > parameter > command substitution > arithmetic > process substitution > word splitting > filename expansion > quote removal 
+Expansions are performed in the order: brace › tilde › parameter › command substitution › arithmetic › process substitution › word splitting › filename expansion › quote removal 
 
 Only brace expansion, word splitting, and filename expansion can increase the number of words of the expansion; other expansions expand a single word to a single word. The only exceptions to this are the expansions of "$@" and $* (see Special Parameters), and "${name[@]}" and ${name[*]} (see Arrays).
 
@@ -8712,11 +8712,11 @@ Process substitution allws referring to the in or output of another process as a
 To implement process substitution, bash creates an anonymous pipe with two file descriptors.
 anonymous pipes file descriptors start at /dev/fd/63 and count downards
 Process substitution runs asynchronously.
-<(command) provides the output of command as a file for further use.
-\>(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
-command1 >(command2) is equivalent to command1 | command2 if command1 supoorts outputting to sdout
+‹(command) provides the output of command as a file for further use.
+\›(command) provides a 'file' for a command to write to that will be used as stdin for the provided command. 
+command1 ›(command2) is equivalent to command1 | command2 if command1 supoorts outputting to sdout
 e.g. a command doesn't output to stdout, but just a file
-<() is used more commonly than >() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
+‹() is used more commonly than ›() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
 
 ####### Word splitting
 
@@ -8771,28 +8771,28 @@ After the preceding expansions, all unquoted occurrences of the characters ‘\�
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
-redirecting input [‹n›]‹[&](‹path›|<n›)
-redirecting output [‹n›]>[>|\|][&](‹path›|‹n›)
+redirecting input [‹n›]‹[＆](‹path›|‹n›)
+redirecting output [‹n›]›[›|\|][＆](‹path›|‹n›)
 
 redirecting input opens the file for reading at file descriptor ‹n› (most commonly standard input)
 redirecting output opens the file for writing at file descriptor ‹n› (most commonly standard input)
 clobbering a file is to overwrite its contents.
-redirecting ouptut will clobber by default, unless noclobber is enabled, in which case > must be followed by | to force clobbering
-redirecting output will append instead of clobber if > is used instead of >>
-if one wants to redirect standard output and error at the same time, there is the short form &>‹path› or >&‹path›, of which the first is preferred. adding another > appends instead, as per usual.
-‹n›‹&<n› ‹n›>&‹n› make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to.
-e.g. 1>out.txt 2>&1  make the file descriptor 1 refer to the same file as the file descriptor 2
-‹n›>&- or ‹n›<&- close the file descriptor ‹n›.
-‹n›>&‹n›- or ‹n›‹&<n›- make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to, and then close the second file descriptor ‹n› (basically a move)
-using ‹› instead of < or > opens the file in read&write mode
-using ‹› and & allows one to read from and write to the same file
+redirecting ouptut will clobber by default, unless noclobber is enabled, in which case › must be followed by | to force clobbering
+redirecting output will append instead of clobber if › is used instead of ››
+if one wants to redirect standard output and error at the same time, there is the short form ＆›‹path› or ›＆‹path›, of which the first is preferred. adding another › appends instead, as per usual.
+‹n›‹＆‹n› ‹n››＆‹n› make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to.
+e.g. 1›out.txt 2›＆1  make the file descriptor 1 refer to the same file as the file descriptor 2
+‹n››＆- or ‹n›‹＆- close the file descriptor ‹n›.
+‹n››＆‹n›- or ‹n›‹＆‹n›- make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to, and then close the second file descriptor ‹n› (basically a move)
+using ‹› instead of ‹ or › opens the file in read＆write mode
+using ‹› and ＆ allows one to read from and write to the same file
 
-for redirecting, the ‹n› before the < or > may be the number of any file descriptor, though the standard streams are most common.
+for redirecting, the ‹n› before the ‹ or › may be the number of any file descriptor, though the standard streams are most common.
 
-1> may be abbreviated > 
-0< may be abbreviated <
+1› may be abbreviated › 
+0‹ may be abbreviated ‹
 
-if a file is to be used as input to a command, there is often no reason to do cat file | command, since one could also do command < file
+if a file is to be used as input to a command, there is often no reason to do cat file | command, since one could also do command ‹ file
 
 ###### command execution
 
@@ -8812,7 +8812,7 @@ In shell contexts, filters are combined with anonymous pipes.
 Multiple filters combinded by anonymous pipes are a pipeline.
 In shell contexts, filters normally recieve their input from STDIN and output it to STDOUT.
 Well-behaved programs should operate as filters inf possible.
-|& is the same as |, but it also outputs its standard error thrugh the pipe.
+|＆ is the same as |, but it also outputs its standard error thrugh the pipe.
 While they are often called merely pipes, the pipes in pipelines are actually anonymous pipes.
 anonymous pipes ↔ named pipes.
 
@@ -8931,7 +8931,7 @@ The unix philosophy says each program should do one thing well and be designed t
 -s|generally short for/equiv to --set
 -u|generally short for/equiv to --unset
 --dry-run|show what would happen withou changing anything
--a|show dotfiles or archive mode = preserve various attributes & structures
+-a|show dotfiles or archive mode = preserve various attributes ＆ structures
 -E|use ERE instead of BRE (Only where applicable, obv)
 --lines|count/specify the number of lines
 
@@ -9030,7 +9030,7 @@ Parallel communication sends multiple piecies of information simultaneously over
 One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
 Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
 
-### allow & deny
+### allow ＆ deny
 
 an allowlist implies forbidding everything by default
 an allowlist enumerates a set of things that may pass
@@ -9165,7 +9165,7 @@ ATA is short for Advanced Technology Attachment, though due to IBM trademarks it
 ATA was renamed PATA after SATA was introduced.
 ATA/PATA|parallel
 SATA|serial
-PATA & SATA are interfaces for secondary storage
+PATA ＆ SATA are interfaces for secondary storage
 SATA is the successor to PATA
 SATA
 I|1.5Gb/s
@@ -9294,7 +9294,7 @@ HTTP, SMTP, POP, SSH, telnet...
 
 ###### common concepts
 
-####### URLS & Hyperlinks
+####### URLS ＆ Hyperlinks
 
 ######## URI
 
@@ -9318,7 +9318,7 @@ host ::= ‹ipv4-address›|‹ipv6-address›|‹FQDN›
 authority ::= [‹userinfo›@]‹host›[:‹port›]
 userinfo ::= ‹username›[:‹password›]
 query ::= ‹key›=‹value›{‹query-delimiter›‹key›=‹value›}
-query-delimiter ::= &|;
+query-delimiter ::= ＆|;
 
 The password part of the userinfo component of an URI is deprecated (password inplaintext)
 For HTML, the fragment of an URI is often an ID
@@ -9988,7 +9988,7 @@ Note: Not all possible CIDR block sub/supersets are actual sub/supernets!
 The process of forming a supernet is called supernetting or prefix/route aggregation/summarization
 the largest ⟮CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮/8⟯ (⟮16 million⟯ addresses)
 
-######### broadcast & network identifier
+######### broadcast ＆ network identifier
 
 A ⟮subnet/CIDR block⟯'s ⟮broadcast⟯ address is the ⟮all-ones⟯ version of the ⟮host (any relevant IP address)/network (all-zeroes) identifier⟯
 A ⟮subnet/CIDR block⟯'s ⟮network identifier⟯ address is the ⟮all-zeroes⟯ version of the ⟮host identifier⟯
@@ -10037,7 +10037,7 @@ ICMP = Internet Control Message Protocol
 ICMP is used to send IP/routing-related error/control message.
 ICMP messages are sent within an IP packet
 
-##### layer 2 & 3 
+##### layer 2 ＆ 3 
 
 ARP = Address Resolution Protocol
 NDP = Neigbor Discovery Protocol
@@ -10049,10 +10049,10 @@ ARP/NDP is used to discover the link layer address associated with a given inter
 
 ##### layer 2
 
-##### layer 2 & 1 (TCP/IP Link layer)
+##### layer 2 ＆ 1 (TCP/IP Link layer)
 
 NIC = Network interface controller
-A NIC is a hardware component used to connect a computer to a computer network (layer 1 & 2 (physical and data link))
+A NIC is a hardware component used to connect a computer to a computer network (layer 1 ＆ 2 (physical and data link))
 MAC addresses identify NICs uniquely.
 MAC addresses are 48 bit long.
 MAC address = media access control address
@@ -10131,7 +10131,7 @@ While the flow of OAuth using redirection etc. is the most common flow, there ar
 
 OAuth 2.0 (grant type: Authorization code)
 
-flex-container:<img src="tmp7t5et6aw.png" />
+flex-container:✫tmp7t5et6aw.png✫
 
 TODO transorm flow into ascii art maybe
 
@@ -10324,9 +10324,9 @@ the "render the initial route ASAP" of PRPL is basically "reduce time to first (
 ⟮c+;‹link rel="preload"⟯ needs an ⟮as=⟯⟮"kind(e.g. style, script, image)"⟯
 If you've specified a resource with ‹link rel="preload", you still need to actually include it later
 
-####### defer & async
+####### defer ＆ async
 
-defer & async are two attriubtes for ‹script› that influence how it is loaded.
+defer ＆ async are two attriubtes for ‹script› that influence how it is loaded.
 Ignoring speculative parsing, when the browser hits a ‹script› tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
 Instead of the default behavior, the `defer` and `async` attribute of scripts tells the browser to load the script in the background.
 Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮when the dom is fully built⟯, in the order they were in the document
@@ -10352,8 +10352,8 @@ Most dev tools have source map support built in.
 
 ####### Google speed
 
-PageSpeed Insights|Lab data & realworld data|Web Vitals|only website by default
-Lighthouse|only lab data|Web Vitals & other data|GUI (devtools & website), CLI, CI pipeline
+PageSpeed Insights|Lab data ＆ realworld data|Web Vitals|only website by default
+Lighthouse|only lab data|Web Vitals ＆ other data|GUI (devtools ＆ website), CLI, CI pipeline
 
 ######## Lighthouse
 
@@ -10364,7 +10364,7 @@ Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibi
 ⟮Core Web Vitals⟯ are the subset of ⟮Web Vitals⟯ that ⟮apply to all web pages (and are thus considered very important)⟯
 as of 2020, there are 3 core web vitals
 
-Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals & Lighthouse Metrics
+Largest Contentful Paint, Cumulative Layout Shift|Core Web Vitals ＆ Lighthouse Metrics
 First Input Delay|Core Web Vitals 
 First Contentful Paint, Speed Index, Time to Interactive, Total Blocking Time|Lighthouse Metrics
 
@@ -10392,7 +10392,7 @@ The bounce rate is the percentage of total site visitors who bounce.
 
 ###### clients
 
-A thin client is a low-performance computer that mainly exists to connect with a server, which handles most of the computing & storage.
+A thin client is a low-performance computer that mainly exists to connect with a server, which handles most of the computing ＆ storage.
 A zero client is a thin client driven to extremes, so that it has no local storage and barely any computing ability of its own.
 Hardware terminals are basically zero clients.
 a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
@@ -10409,7 +10409,7 @@ Force google to ⟮only finde pages from a certain domain⟯ is done by ⟮site:
 
 ### fora
 
-#### text & imageboards
+#### text ＆ imageboards
 
 A ⟮textboard⟯ is a ⟮simple⟯ kind of Internet ⟮forum⟯; most require neither ⟮registration⟯ nor ⟮entry of a screen name⟯. 
 An ⟮imageboard⟯ is like a ⟮textboard⟯, just with ⟮images⟯. 
@@ -10641,7 +10641,7 @@ semver is the most common way to specify version identifiers
 semantic-versioning-version ::= ‹semantic-versioning-version-specifier› {‹connective› ‹semantic-versioning-version-specifier›}
 semantic-versioning-version-specifier ::= [‹operator›]‹major›.‹minor›.‹patch›
 operator ::= ~ | ^ | ‹relational-operator›
-connective ::= \|\| | && | - 
+connective ::= \|\| | ＆＆ | - 
 
 patch|backwards-compatible bugfixes
 minor|new functionality in a backwards-incompatible manner
@@ -10653,7 +10653,7 @@ major|incompatible changes to existing API
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
-### date & time
+### date ＆ time
 
 #### Unix time
 
@@ -11036,7 +11036,7 @@ the scope of a name binding is the part of a program where the name binding is v
 for something to have x-scope is to only have the name binding be valid within x.
 a variable with foo-scope is often called an foo-variable
 
-#### Lexical & dynamic
+#### Lexical ＆ dynamic
 
 Static scope is another name for lexical scope.
 Lexical scope is where scope is determined by where in the source code (a reference to) a name binding is.
@@ -11201,7 +11201,7 @@ use normal default value syntax to assign default values in array destructuring|
 combine spread syntax/splat operator w/ destructuring|JS|Ruby|Python
 var1, *var2 = [1,2,3]
 [var1, ...var2] = [1, 2, 3];
-=> var2 = [2, 3]
+=› var2 = [2, 3]
 Ignore a single value in destructuring
 , (e.g. var1,,var2)|JS
 _, (e.g. var1,_,var2)|Python|Ruby|Rust
@@ -11227,8 +11227,8 @@ If the nameofkey and the nameovariableyouwantthevariabletoendupin are the same, 
 In rust, there is a set of destructuring/pattern matching constructs that can only be used in enums or if let statements.
 
 putting an enum or struct with variable names inside in a match or on the left of an if-let will assign the variables to the values contained within.
-e.g. `match { Some(foo) => ... }` will match Some() containing some value and assign that to foo
-e.g. `match { Run{ distance: dist, direction: dir } => ... }` will match a `Run` and assign its distance field to dist and its direction field to dir.
+e.g. `match { Some(foo) =› ... }` will match Some() containing some value and assign that to foo
+e.g. `match { Run{ distance: dist, direction: dir } =› ... }` will match a `Run` and assign its distance field to dist and its direction field to dir.
 
 pattern matching checks if a thing matches a pattern.
 In rust, the destructuring syntax is part of the larger idea of pattern matching. (and the syntax that we use for destructuring is a subset of the syntax of patterns)
@@ -11240,11 +11240,11 @@ irrefutable|pattern cannot fail to match
 
 match is a conditional that uses pattern matching for its conditions, and forces checking to be exhaustive.
 Rust of the languages that I know has a match conditional (using the keyword match). Of the languages I don't know, the ML family and functional languages have match conditionals.
-in rusts's match, condition and expression are separated =>
+in rusts's match, condition and expression are separated =›
 
 pattern1 bar pattern2|pattern 1 or pattern 2
 
-Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let &foo = somereference
+Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let ＆foo = somereference
 
 ### Sigils
 
@@ -11509,7 +11509,7 @@ in TS, the types of constants are a literal type of thier value.
 
 An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
 While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
-intersection-type ::= ‹type› & ‹type›
+intersection-type ::= ‹type› ＆ ‹type›
 
 #### Union type
 
@@ -11550,7 +11550,7 @@ to make enums ready for use with strum, one needs to derive the relevant trait o
 Strum attributes use strum()
 
 Enum → str|derive strum_macros::ToString
-Enum → str message|derive strum::EnumMessage|Enum.get_message() & Enum.get_detailed_message() (return options)
+Enum → str message|derive strum::EnumMessage|Enum.get_message() ＆ Enum.get_detailed_message() (return options)
 str → Enum|derive strum::EnumString|Enum::from_str()
 
 ###### Types with two possible states
@@ -11572,7 +11572,7 @@ In general, either option types or nullable types will be used to represent the 
 ####### Result type 
 
 A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
-in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Err(E)}
+in rust, the result type is `Result`, looking like enum Result‹T, E› { Ok(T), Err(E)}
 
 ####### Commonalities
 
@@ -11588,11 +11588,11 @@ in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Er
 
 ######## cloning and copying
 
-the cloned/copied methods of Options/Results takes an Option‹&T› or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option‹T› or Result<T, E> by cloning/copying
+the cloned/copied methods of Options/Results takes an Option‹＆T› or ‹＆mut T› or a Result‹＆T, E› or ‹＆mut T, E› and returns an Option‹T› or Result‹T, E› by cloning/copying
 
 ######## conversion
 
-Result<T, E>.ok() → Option‹T›
+Result‹T, E›.ok() → Option‹T›
 
 ######## ? operator
 
@@ -11601,7 +11601,7 @@ In rust, the ? makes a `Result` evaluate to the value inside the `Ok` if `Ok` or
 In rust, the ? makes a `Option` evaluate to the value inside the `Some` if `Some` or exit out of the nearest function, returning a `None`.
 The ? is implemented via the trait std::ops::Try
 
-######## unwrap & expect
+######## unwrap ＆ expect
 
 unwrap and expect can be called on options and results.
 unwrap and expect are similar that they return the value if the type is Ok/Some, and panic otherwise.
@@ -11707,14 +11707,14 @@ class|class
 
 basic field|‹fieldname›: ‹value›,|object type, interface, class
 optional field|‹fieldname›?: ‹value›,|object type, interface, class
-methods|‹fieldname›: (‹ts-param-list›) => ‹return-type›, (syntax 1/2)|object type, inteface
+methods|‹fieldname›: (‹ts-param-list›) =› ‹return-type›, (syntax 1/2)|object type, inteface
 methods|‹fieldname›(‹ts-param-list›): ‹return-type›, (syntax 2/2)|object type, inteface
 make thing itself callable (i.e. a function)|(‹ts-param-list›): ‹return-type›,|object type, interface
 make thing itsef newable|new(‹ts-param-list›): ‹return-type›,|object type, interface
 
 TS object types, interfaces and classes can all be defined over n generics.
 prefixing a field of a object type or interface with `readonly` makes it a constant field.
-in TS, object types, interfaces and classes all can have getters & setters.
+in TS, object types, interfaces and classes all can have getters ＆ setters.
 
 in TS, multiple interfaces with the same name will be merged into one, multiple object types or classees with the same name will throw an error
 in TS, while interfaces can do many more things, interfaces can be implemented by classes just as in languages such as Java.
@@ -11768,18 +11768,18 @@ A smart pointer is a pointer with some other features (e.g. automatic memory man
 A fat pointer is a pointer that stores some extra data besides the address.
 
 What Rust and C++ call references are probably more like pointers.
-In Rust and C++ the & operator takes a reference of something.
-In Rust, any references of a type have the type &‹type›, while in C++ they have the type ‹type›&.
-In Rust, to take a reference, one must prefix the thing one is taking a reference of with &, while in C++ reference-taking is implied if one assigns to a reference-type variable.
+In Rust and C++ the ＆ operator takes a reference of something.
+In Rust, any references of a type have the type ＆‹type›, while in C++ they have the type ‹type›＆.
+In Rust, to take a reference, one must prefix the thing one is taking a reference of with ＆, while in C++ reference-taking is implied if one assigns to a reference-type variable.
 In Rust, a reference to an element in a data structure counts as a reference to the whole data structure for the purposes of borrow semantics.
-In Rust, references are immutable by default, and must explicitly be declared mutable with &mut.
+In Rust, references are immutable by default, and must explicitly be declared mutable with ＆mut.
 In Rust, the act of taking a reference is known as borrowing, since implements specific semantics/rules.
 In Rust, correct use of borrow semantics are checked at compile time by the borrow checker.
 Borrow rules:
 1) borrows cannot last for a larger scope than the owner
 2) you may only have n references to a resource or exactly one mutable reference to a resource, but not both at the same time.
 Only having either n references or exactly mutable reference to a resource implies that you cannot assign to a variable borrowed elsewhere, since assigning requires an implicit mutable borrow (!).
-x = 22 is equivalent to *(&mut x) = 22
+x = 22 is equivalent to *(＆mut x) = 22
 Dereferencing takes a thing that is a reference and returns the referenced thing, allowing you access to the value behind the reference.
 you can also dereference on the left-hand side of an assignment to assign to the referenced piece of memory.
 In most C-family languages (of the ones I can write, C# and Rust) to dereference you use the dereference operator *.
@@ -11789,31 +11789,31 @@ In Rust, a slice is a view into a block of memory by means of a pointer that als
 In Rust, any linear collection type can be sliced.
 In Rust, slices are considered a reference and have the same semantics as references do.
 Rust slices can bu used for the same reasons one would use slices in e.g. Python (though without the ability to step or reverse), but they are not copies, but fundamentally just views.
-getting a slice: &[mut] ‹thing-being-sliced›\[‹n›(..|..=)‹m›\]
+getting a slice: ＆[mut] ‹thing-being-sliced›\[‹n›(..|..=)‹m›\]
 slices can be indexed just like anything else.
 Slices' length may not be known at compile time, and so rust can't guarantee that indexing into a slice will not produce an error.
 
-when cloning a reference &T, rust will return T.
+when cloning a reference ＆T, rust will return T.
 to_owned() is part of the Trait ToOwned.
 there is a blanket implementation for ToOwned for anything that implements Clone.
-the reason to use to_owned() is for types where returning T of &T is not desirable, namely &str, hence to_owned() returns a String for str.
+the reason to use to_owned() is for types where returning T of ＆T is not desirable, namely ＆str, hence to_owned() returns a String for str.
 
 In rust, string literals are slices, specifically they are slices into the rodata section of the object file.
-this means that instead of being &str, string literals are in fact &'static str
+this means that instead of being ＆str, string literals are in fact ＆'static str
 In rust, `String` and `str` are both UTF-8 byte sequences.
 Since `String`/`str` are UTF-8 byte sequences, they cannot be indexed, as they could be indexed on a non character boundary (does allow slicing however, slices always have this problem potentially).
 To get an iterator of the UTF-8 bytes of a String, use bytes().
 In rust `String` represents string data allocated on the heap, while `str` represents string data somewhere in memory.
 since rust's `String` is stored on the heap, it can be grown and shrunk.
 Since we don't know where the string data of `str` will be and what size it can or cannot have, `str` itself cannot be owned, but instead can only be referred to as a reference.
-A 'reference' &str is actually a slice, not just a mere reference. I presume that's because we need the feature of slices indicating the length, sice we need some way to know where the str stops (since `str`s can have any length, in contrast to other things like an array which we don't need to slice to reference it since we know where it ends at compile time)
-Rusts treats references to strings &String and &str as the same in most cases, since there is not much difference between a reference to a string stored on the heap whose length we know, and a slice to a string stored somewhere whose length we know by virtue of it being a slice.
-string.as_str returns a string slice &str of a string.
-String slices &str and &String are type-compatible with &'static str, but of course work differently: they can't last longer than the original value.
+A 'reference' ＆str is actually a slice, not just a mere reference. I presume that's because we need the feature of slices indicating the length, sice we need some way to know where the str stops (since `str`s can have any length, in contrast to other things like an array which we don't need to slice to reference it since we know where it ends at compile time)
+Rusts treats references to strings ＆String and ＆str as the same in most cases, since there is not much difference between a reference to a string stored on the heap whose length we know, and a slice to a string stored somewhere whose length we know by virtue of it being a slice.
+string.as_str returns a string slice ＆str of a string.
+String slices ＆str and ＆String are type-compatible with ＆'static str, but of course work differently: they can't last longer than the original value.
 
-String.from() gets a String from an &str.
+String.from() gets a String from an ＆str.
 String.new() creates a new empty string.
-the + operator for strings requres a `String` on the left and a `&str` on the right
+the + operator for strings requres a `String` on the left and a `＆str` on the right
 
 ### Numeric types
 
@@ -11912,12 +11912,12 @@ We may want to consider the boolean type an enum of {true, false}
 Of the languages I know, C#, Java and TS allow creation of enums via the enum keyword.
 Rust also uses the enum keyword, but for things more like tagged unions.
 Python allows using enums via an external module
-C#, Java enum syntax: enum ‹name> {
-  ‹variant>,
-  ‹variant2>,
+C#, Java enum syntax: enum ‹name› {
+  ‹variant›,
+  ‹variant2›,
   ...
 }
-In C# the syntax ‹variant> = ‹value> exists to apply values to enum variants
+In C# the syntax ‹variant› = ‹value› exists to apply values to enum variants
 We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
 
 
@@ -11959,7 +11959,7 @@ scroll|sequential access
 
 foo.clear()|not JS|Python|Ruby
 
-##### Flatten a nested thing ([[1]].flat() => [1])
+##### Flatten a nested thing ([[1]].flat() =› [1])
 
 foo.flat(depth)|JS
 foo.flatten(dept)|Ruby
@@ -12018,7 +12018,7 @@ If languages implement assoc arr as primitives, these then often have their own 
 no literals at all|C#|TOML
 {}|JS (objects)|Lua|Perl (1 of 2)|Python|Ruby|YAML
 ()|Perl (1 of 2)|SCSS/Sass (same as arrays)
-newlines & indentation|YAML
+newlines ＆ indentation|YAML
 
 ######### mapping separators
 
@@ -12028,7 +12028,7 @@ In associative array literals, the separator between 2 mappings is generally ,
 
 =|lua|TOML
 :|python|Ruby (symbols)|YAML
-=>|Perl (1 of 2)|Ruby (non-symbols)
+=›|Perl (1 of 2)|Ruby (non-symbols)
 , (yes, really)|Perl (1 of 2)
 
 ######### assoc array names (if primitve)
@@ -12043,10 +12043,10 @@ In most languages with primitive associative arrays, accessing and assigning are
 
 ######## Objects
 
-Dictionary<K, V>|C#
-HashMap<K, V>|Rust
-BTreeMap<K, V>|Rust
-Map<K, V> interface, e.g. HashMap<K, V>|Java
+Dictionary‹K, V›|C#
+HashMap‹K, V›|Rust
+BTreeMap‹K, V›|Rust
+Map‹K, V› interface, e.g. HashMap‹K, V›|Java
 
 ######## JS
 
@@ -12144,10 +12144,10 @@ trying to use serde-related features with indexmap will fail if you haven't spec
 you can make `ureq` support conversion to json via serde directly via the `json` feature.
 serde represents anything with the `Value` enum
 the `Value` enum has variants for each type supported by the file format. 
-serde_yaml represents mappings as `Value::Mapping<Value, Value>`
-serde_json represents Objects as `Value::Map<String, Value>`
+serde_yaml represents mappings as `Value::Mapping‹Value, Value›`
+serde_json represents Objects as `Value::Map‹String, Value›`
 
-`Value.as_‹type›` returns Option<‹type›>
+`Value.as_‹type›` returns Option‹‹type››
 `Value.is_‹type›` returns bool representing whether is ‹type›
 
 using serde to parse, we may parse arbitrary data into a serde representation using from_str and then index into it as you would in JS with square bracket notation (but you may recieve `Value::Null`), or we may parse data into a predefined rust representation
@@ -12177,7 +12177,7 @@ reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 ###### Append a linear collection to a different linear collection
 
 col1 + col2|Python (also works for strings)
-col1 << col2|Ruby (also works for strings)
+col1 ‹‹ col2|Ruby (also works for strings)
 col1.extend(col2)|Python
 
 ###### Repeat the contents of a linear collection n times
@@ -12220,7 +12220,7 @@ somearray.splice(⟮start⟯, numberOfElementsToDelete, element1toInsert, ...); 
 
 ###### Rust
 
-In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option‹&T›
+In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option‹＆T›
 
 ##### Strings as linear collections
 
@@ -12349,8 +12349,8 @@ dynamic arrays|‹delimiter›‹type›‹delimiter›|GraphQL
 
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type‹delimiter›,,‹delimiter› (and for the constructor type‹delimiter›length,length,length‹delimiter›). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
-in TS, ‹type›[] is syntactic sugar for Array\<‹type›\>
-in TS, readonly ‹type›[] is syntactic sugar for ReadonlyArray\<‹type›\>
+in TS, ‹type›[] is syntactic sugar for Array\‹‹type›\›
+in TS, readonly ‹type›[] is syntactic sugar for ReadonlyArray\‹‹type›\›
 
 ###### operations
 
@@ -12581,7 +12581,7 @@ Multiline string delimiters
 |\nproper indentation|YAML
 
 Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
->\nproper indentation|YAML
+›\nproper indentation|YAML
 
 The type for css strings is ‹string›
 
@@ -12664,8 +12664,8 @@ group|indicates a separator character for groups of numbers
 
 align ::= \‹|\›|^|=
 
-<|align left
->|align right
+‹|align left
+›|align right
 ^|center
 =|place padding between number and sign
 
@@ -12828,7 +12828,7 @@ dynamic dispatch is choosing an implementation of a polymorphic operation at run
 dynamic dispatch is accomplished by means of virtual methods/functions.
 both single dispatch and multiple dispatch are forms of dynamic dispatch.
 
-##### single & multiple dispatch
+##### single ＆ multiple dispatch
 
 single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
 
@@ -12847,7 +12847,7 @@ A vtable contains all relevant virtual functions.
 In rust, `dyn ‹trait-bound›` is the type of a trait object.
 A trait object is an opaque type of another type that implements a set of traits.
 A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
-A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box‹›.
+A trait object is a dynamically sized type, and thus we need a pointer to it such as ＆ or Box‹›.
 For something to be object safe, the return type may not be `Self` and there may not be any generic type parameters.
 A trait object must be object safe.
 The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
@@ -12859,7 +12859,7 @@ In rust, we can specify that we want dynamic dispatch where we chose an implemen
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
 A generic is a stand-in for a type that is not yet specified or unknown. 
 
-#### type parameters & generics
+#### type parameters ＆ generics
 
 A type parameter is a specifier of one or more types that a thing (callable unit, object, ...) is defined over.
 Type parameters go in angle brackets.
@@ -12876,20 +12876,20 @@ Two generics of different names are independent, even if they may be filled by t
 It may sometimes seem like a generic is being bound twice when it's actually being used the second time.
 E.g. impl‹T› SomeStruct‹T› is saying that you're implementing SomeStruct such that SomeStruct's generic ‹T› (second mention) satisfies being any type ‹T› (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct‹T›, if that were possible.
 Binding ‹T› via the `impl` already allows one to do more interesting things.
-e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
+e.g. `impl‹T: Copy› SomeStruct‹T, T›` for a `SomeStruct‹T, U›` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
 
 #### constrainment
 
 Many languages have a way to specify contraints a generic should satisfy.
 Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
 Trait bounds are a set of traits that a generic must satisfy.
-In rust, we may specify trait bounds by indicating it within a type parameter as \<‹generic›: ‹trait-bound›\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl ‹trait-list›`
+In rust, we may specify trait bounds by indicating it within a type parameter as \‹‹generic›: ‹trait-bound›\›, with a 'where clause', or by not using generics at all and instead writing the type as `impl ‹trait-list›`
 trait-bound ::= ‹trait-name›{ + ‹trait-name›}
 where-clause-syntax ::= where {‹generic›: ‹trait-list›‹newline›}
 TS allows specifying constraints for generics via the `extends` keyword.
 The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
 
-#### implementation & monomorphization
+#### implementation ＆ monomorphization
 
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
 C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList‹Object› - therefore in Java all values in an ArrayList must be boxed.
@@ -12922,7 +12922,7 @@ In computer science, a relational operator is an operator that tests or defines 
 ~=|not equals|lua
 !=|not equals|C#|Java|JS
 ==|equals|most programming languages
-<=|less than or equals|most programming languages
+‹=|less than or equals|most programming languages
 ›=|greater than or equals|most programming languages
 ›|greater than|most programming languages
 ‹|less than|most programming languages
@@ -12944,19 +12944,19 @@ Python uses the `is` operator for referential equality
 
 #### strings
 
-greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" < "a"
+greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" ‹ "a"
 
 #### in different languages
 
 ##### JS
 
-JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing < or > coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
+JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing ‹ or › coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
 
 ##### test
 
 since relational operators are handled by test in sh, they are actually all arguments to test.
 
-test uses the normal equality operators (e.g. !=, >, etc.) for strings, but has a different set of operators for integer equality.
+test uses the normal equality operators (e.g. !=, ›, etc.) for strings, but has a different set of operators for integer equality.
 test uses the single (!) = sign for string comparison, though bash has a non-POSIX extension that allows for the more standard ==
 
 ###### integer equality
@@ -12980,8 +12980,8 @@ test has a number of options/operators for file existence and type
 ###### [[
 
 [[ is an extension of `test`\[ which allows for a syntax superset (mostly)
-specifically, [[ but not test/[ allow for && and || for multiple conditions, () for grouping, pattern matching on the right hand side of =/== and the use of ~= for regex matching.
-^in fact, POSIX test also doesn't support < and > natively, but these are so commonly supplemented that it's kinda pointless to claim that test doesn't have them
+specifically, [[ but not test/[ allow for ＆＆ and || for multiple conditions, () for grouping, pattern matching on the right hand side of =/== and the use of ~= for regex matching.
+^in fact, POSIX test also doesn't support ‹ and › natively, but these are so commonly supplemented that it's kinda pointless to claim that test doesn't have them
 ^in fact, POSIX does support grouping with \(\) and and/or with -a, -o, but both of these features are super limited, error-prone, and are marked deprecated, so it makes more sense to say `test` doesn't have them.
 Within [[]], in contrast with test/[], there will be no word splitting or globbing.
 [[]] and most versions of test allow `!` to negate an entire expression
@@ -13012,13 +13012,13 @@ bar=|attr  is exactly value or begins with value immediately followed by a hyphe
 ### boolean operators
 
 logical and|and|python|liquid|lua|Ruby (lower precedence)
-logical and|&&|C#|Java|JS|Ruby (higher precedence)|(ba)sh
+logical and|＆＆|C#|Java|JS|Ruby (higher precedence)|(ba)sh
 logical or|or|python|liquid|lua|Ruby (lower precedence)
 logical or|barbar|C#|Java|JS|Ruby (higher precedence)|(ba)sh
 logical not|not|python
 logical not|!|C#|Java|JS
 
-In ruby, between and/or and &&/|| the former have lower precedence, and even have lower precedence than the equality operator.
+In ruby, between and/or and ＆＆/|| the former have lower precedence, and even have lower precedence than the equality operator.
 Double not can generally be used to get the truthiness/falsiness of a thing, even outside of a boolean context.
 
 #### short-circuiting
@@ -13030,7 +13030,7 @@ with short-circuiting of binary operators, the second argument is executed or ev
 specifically, expr1 LAND expr2 will not evaluate expr2 if expr1 is false/falsy
 expr1 LOR expr2 will not evaluate expr2 if expr1 is true/truthy
 Can be used to ensure a variable never gets assigned a falsy value by using logical/boolean or, since (only) if the first expression is falsy the second expression will be evaluated.
-It is possible to create a kind of if statement using only short-circuiting operators: CONDITION && IFTRUE || IFFALSE
+It is possible to create a kind of if statement using only short-circuiting operators: CONDITION ＆＆ IFTRUE || IFFALSE
 (ba)sh
 
 ⟮??⟯ is like ⟮||⟯ but ⟮only returns its right-hand value on nullish values⟯
@@ -13042,10 +13042,10 @@ Most C-family languages support bitwise operations.
 
 bitwise not|~
 left shift|‹‹ ‹n›
-right shift|>> ‹n›
+right shift|›› ‹n›
 bitwise XOR|^
 bitwise OR|bar
-bitwise AND|&
+bitwise AND|＆
 
 when using the left shift operator, the newly created places will be filled by zero
 
@@ -13141,7 +13141,7 @@ foo will now be [1,2,3]
 When not in callable unit parameters, JS spread and Ruby/Pythons splat transform an array into its constituent members, or in the case of assoc arrays into its constituent mappings.
 Ruby uses a double splat operator for associative array destructuring.
 [... OR *[1,2,3], 4] == [1,2,3,4]
-{**{:foo => 1, :bar => 2}, :quuz => 3} == {:foo=>1, :bar=>2, :quuz=>3} and {...{foo: 1, bar:2}, quuz:3} === { foo: 1, bar: 2, quuz: 3 }
+{**{:foo =› 1, :bar =› 2}, :quuz =› 3} == {:foo=›1, :bar=›2, :quuz=›3} and {...{foo: 1, bar:2}, quuz:3} === { foo: 1, bar: 2, quuz: 3 }
 Rust's struct update syntax has some similarities to JS associative array destructuring
 Rust's struct update syntax uses the oparator ..
 for including all values of a struct instance into the current struct instance, use struct update sytnax.
@@ -13291,7 +13291,7 @@ callback functions are typically also anonymous
 #### callbacks
 
 The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
-Error-first callback look like  (err, value) => ...
+Error-first callback look like  (err, value) =› ...
 Node generally takes error-first callbacks.
 
 #### first-class functions
@@ -13305,7 +13305,7 @@ While in rust only closures form closures, all functions are in fact first class
 ##### types of first-class functions in statically typed languages
 
 In statically typed languages, first-class functions must have a type that describes them.
-\(‹ts-param-list›\) => ‹return-type›|TS
+\(‹ts-param-list›\) =› ‹return-type›|TS
 (fn|Fn|FnMut|FnOnce|fn)\([‹param-type›]{, ‹param-type›}\) -› ‹return-type›|Rust
 
 ‹ts-param-list› ::= [‹param-name›: ‹param-type›]{, ‹param-name›: ‹param-type›}
@@ -13334,13 +13334,13 @@ In rust, one-line closures may have their curly braces left out.
 
 in ruby, to call a passed block, use the yield keyword. 
 Anything passed to the yield keyword will be available as arguments to the block
-In ruby, the & operator converts a block to a proc object.
+In ruby, the ＆ operator converts a block to a proc object.
 Calling #call on a proc object is similar to yielding a block
-instead of a block with the syntax {|elem| elem.method} you can also pass &:method for the same effect
+instead of a block with the syntax {|elem| elem.method} you can also pass ＆:method for the same effect
 
 ##### JS
 
-Arrow functions function similarly to normal js functions, but have a shorter syntax: (‹params›) => ‹block›.
+Arrow functions function similarly to normal js functions, but have a shorter syntax: (‹params›) =› ‹block›.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
 
@@ -13438,7 +13438,7 @@ find_index()|Ruby
 
 
 
-### Arguments & Parameters
+### Arguments ＆ Parameters
 
 #### arguments vs parameters
 
@@ -13534,7 +13534,7 @@ In JS, the default parameter will take on the default value if undefined is pass
 
 In most languages, callable units must be recieve the exact amount of arguments specified as parameters, unless things like the splat operator or default parameters are used.
 
-##### JS & TS
+##### JS ＆ TS
 
 JS does not require the same number of arguments as parameters, it will assign unpassed parameters `undefined`, and put all arguments into the array-like `arguments`, allowing for retrieval of extra arguments.
 TS moves JS in line with other programming languages, requiring arguments for parameters by default, and only accepting the not-passing of arguments if the parameter is optional.
@@ -13585,7 +13585,7 @@ call/pass-by-reference|pass the reference of variable (i.e. the loc in memory)|c
 call/pass-by-sharing/object/object-reference|pass by value, but only the object reference for objects|changes to passed variables contents will be preserved even if not returned if object, reassignments will not.
 
 Most popular languages with objects that are said to be pass-by-value are actually pass-by-sharing.
-In purely functional languages, cb/pb value & reference are the same.
+In purely functional languages, cb/pb value ＆ reference are the same.
 In purely functional languages, everything is immutable, so while the semantics are similar to pb value fron the outside, inside actually only references are passed (since it's cheaper), thus it is actually pb reference
 Call by sharing is a term that is kinda rarely used.
 In call-by-sharing
@@ -13722,7 +13722,7 @@ this|C#|Java|JS
 #### typeof self
 
 In rust, `Self` is the type of the current record.
-In rust, `self` has the type `Self` (or `&Self` if borrowed)
+In rust, `self` has the type `Self` (or `＆Self` if borrowed)
 
 #### self/this binding
 
@@ -13733,7 +13733,7 @@ to refer to the this representing the global object even within places that bind
 ##### self and methods/assocated functions
 
 In certain languages (Rust, Python), methods must take self as the first argument, else they are class methods/associated functions.
-In rust, taking `self` takes ownership and thus invalidates previous references, ergo one generally wants to take &self or &mut self.
+In rust, taking `self` takes ownership and thus invalidates previous references, ergo one generally wants to take ＆self or ＆mut self.
 In rust, one uses :: instead of . to call associated functions
 
 ### Methods
@@ -13756,7 +13756,7 @@ Getters and setters may help enforcing information hiding.
 Ruby syntax:
 def name=(value)...|setter
 
-JS & TS:
+JS ＆ TS:
 get foo()
 set foo()
 only within a class
@@ -13799,7 +13799,7 @@ properties that are not inherited (that is, they are there not because of the pr
 ‹object›.hasOwnProperty(‹name›) 
 The ⟮Object⟯.⟮assign⟯⟮(foo, bar)⟯ method ⟮copies⟯ all ⟮enumerable⟯ ⟮own⟯ ⟮properties⟯ from ⟮one or more source objects⟯ to ⟮a target object.⟯ 
 
-### Classes & objects 
+### Classes ＆ objects 
 
 An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
 
@@ -13842,12 +13842,12 @@ Superclass aka base class
 subclass aka derived class
 In most programming languages, you refer to your superclass=base class with the keyword `super`.
 In most programming languages, you specify a subclass/superclass relationship like so: Subclass extends Superclass
-In ruby, you specify a subclass/superclass relationship like so: Subclass < Superclass
+In ruby, you specify a subclass/superclass relationship like so: Subclass ‹ Superclass
 In C#/Java, making a class final disallows a subclass from inheriting from it.
 In C#/Java, making a method/static function final disallows a subclass from overriding it it.
 Most languages only support single inheritance, some languages (among those I know Perl and Python) also allow multiple inheritance
 
-#### abstract & static classes 
+#### abstract ＆ static classes 
 
 Abstract classes are generally declared with the abstract keyword. 
 Within abstract classes, members are also declared with the abstract keyword.
@@ -14173,10 +14173,10 @@ The stack pointer points at the most recently referenced location on the stack.
 The memory address at which the stack starts out when it is size 0 is the stack origin.
 If the stack has size 0, the stack pointer is (or better be :P) at the stack origin.
 The stack may grow upwards = larger memory addresses or downwards = smaller memory addresses (however this needs to be fixed in advanced)
-stack grows upwards|stack overflow|address > stack_origin_addr+ max_stack_size
-stack grows upwards|stack underflow|address < stack_origin_addr
-stack grows downwards|stack overflow|address < stack_origin_addr-max_stack_size
-stack grows downwards|stack underflow|address > stack_origin_addr
+stack grows upwards|stack overflow|address › stack_origin_addr+ max_stack_size
+stack grows upwards|stack underflow|address ‹ stack_origin_addr
+stack grows downwards|stack overflow|address ‹ stack_origin_addr-max_stack_size
+stack grows downwards|stack underflow|address › stack_origin_addr
 Since each call to a callable unit adds a stack frame, infinite recursion causes a stack overflow (unless the compiler optimizes the recursion away)
 The stack is significantly faster than the heap, since it's implementation is far simpler.
 The heap can become fragmented.
@@ -14532,12 +14532,12 @@ When updating style, React also knows to update only the properties that changed
 when a component's attribute change, it recieves `componentDidUpdate()`
 
 ```
-<div className="before" title="stuff" />
-<div className="after" title="stuff" />
+‹div className="before" title="stuff" /›
+‹div className="after" title="stuff" /›
 ```
 ```
-<div style={{color: 'red', fontWeight: 'bold'}} />
-<div style={{color: 'green', fontWeight: 'bold'}} />
+‹div style={{color: 'red', fontWeight: 'bold'}} /›
+‹div style={{color: 'green', fontWeight: 'bold'}} /›
 ```
 
 However, if the DOM nodes are out of order compared to the last rerender, react is forced to assume that the children are different and destroy the subtrees.
@@ -14672,7 +14672,7 @@ If you want to ⟮edit things⟯ ⟮in gem themes⟯, you need to ⟮copy then o
 In the ⟮gemfile⟯, ⟮jekyll_plugin⟯s are specified within ⟮the `group :jekyll_plugins`⟯ 
 
 
-Jekyll Plugins
+Jekyll Plugins2§
 ⟮jekyll-feed⟯|⟮Generating an RSS feed (jekyll⟯)
 ⟮jekyll-seo-tag⟯|⟮Generating a few SEO tags (jekyll⟯)
 ⟮jekyll-sitemap⟯|⟮Generating a sitemap⟯
@@ -14719,7 +14719,7 @@ Modules which contain most of the environment stuff, though they may contain oth
 
 
 rust
-std::env|env & argv
+std::env|env ＆ argv
 std::io|stdin, stdout, stderr and reading input lines
 std::process|run a system command
 no module (just std)|printing
@@ -14742,11 +14742,11 @@ no module|stdin, stdout, stderr, argv, env, printing, run a system command
 
 ##### stdin/stout
 
-<relevant-module-if-any>.stdin/stdout/stderr generally gets a streamlike io object referring to stdin/stdout/stderr
+‹relevant-module-if-any›.stdin/stdout/stderr generally gets a streamlike io object referring to stdin/stdout/stderr
 
 std::io::stdin/stdout/stderr|Rust (returns a handle of std::io::Stdin/Stdout/Stderr)
 
-##### environment variables & command-line arguments
+##### environment variables ＆ command-line arguments
 
 argv = argument vector
 Command-line arguments
@@ -14762,13 +14762,13 @@ os.environ|python
 std::env::vars()|Rust
 
 A signle environment variable
-std::env::var(<name>)|Rust
+std::env::var(‹name›)|Rust
 
 ###### parsing
 
 for any kind of involved CLI argument parsing in Rust, use `clap`.
 
-##### print to & read from console
+##### print to ＆ read from console
 
 Print functions in different languages
 the JS console library works both in the browser and in node.js
@@ -14820,7 +14820,7 @@ inquirer.js   A collection of common interactive command line user interfaces. (
 ##### run commands in system shell
 
 system()|ruby
-<system-module>.system()|python
+‹system-module›.system()|python
 
 ##### exit status
 
@@ -14838,9 +14838,9 @@ __dirname|Node
 module for working with paths
 path|node
 
-<path-module>.resolve({<items>})|glue passed things together into an absolute path (glues the path of the working directory onto the beginning if necessary)
+‹path-module›.resolve({‹items›})|glue passed things together into an absolute path (glues the path of the working directory onto the beginning if necessary)
 
-#### files & streams
+#### files ＆ streams
 
 ##### relevant modues
 
@@ -14879,7 +14879,7 @@ JS returns the actual reader `ReadableStreamDefaultReader` after calling `.getRe
 
 ####### streamlike IO that can be read
 
-read(<integer>)|return next <integer> bytes/characters
+read(‹integer›)|return next ‹integer› bytes/characters
 read()|return whole file
 readline()|return next line
 
@@ -14888,7 +14888,7 @@ Node doesn't support `readline()` on `Stream`, however it offers a whole library
 
 ####### streamlike IO that can be written
 
-write(<content>)|write the content to the string
+write(‹content›)|write the content to the string
 
 ##### aquisiton and holding
 
@@ -14915,13 +14915,13 @@ Most languages have a positional or named parameter for `open()` allowing the sp
 Established by *nix/C, many functions to open/create new files/file handles across languages take a certain set of letters with certain meanings
 
 r|read
-w|create/clobber (eqiv to > in shell)
+w|create/clobber (eqiv to › in shell)
 x|try create and fail if exists
-a|create/append (equiv to >> in shell)
+a|create/append (equiv to ›› in shell)
 
 ####### releasing
 
-<resource>.close()|release the file handle
+‹resource›.close()|release the file handle
 
 ####### language constructs
 
@@ -14932,8 +14932,8 @@ Languages that have language constructs for the dispose pattern typically requir
 The language constructs for the dispose pattern typically assign the resource to a local variable.
 The language constructs for the dispose pattern typically only execute their code if the resource could be successfully aquired.
 In python, the interface for the dispose pattern is a context manager object, which must have __enter__ and __exit__ methods.
-python-construct-for-dispose-pattern ::= with <context-manager> as <variable-name>:
-c#-construct-for-dispose-pattern ::= using(<type> <variable-name> = <thing-implementing-IDisposable>){...
+python-construct-for-dispose-pattern ::= with ‹context-manager› as ‹variable-name›:
+c#-construct-for-dispose-pattern ::= using(‹type› ‹variable-name› = ‹thing-implementing-IDisposable›){...
 
 ### fancy IO
 
@@ -14954,15 +14954,15 @@ d3 is a JS library for mainipulating/visualizing data
 table:span=2;web IO library
 requests|python|requests only
 ureq|Rust|requests only
-`http`/`https`|node|requests & server=responses
+`http`/`https`|node|requests ＆ server=responses
 none|native js|requests only
-axios|node & native js|requests (promise-based)
+axios|node ＆ native js|requests (promise-based)
 
 ##### requests
 
 table:span=2;requests
-<request-library>.get()|GET request|python, node
-<request-librar>.request()|any request|python, node
+‹request-library›.get()|GET request|python, node
+‹request-librar›.request()|any request|python, node
 fetch()|any request|native JS
 
 Most web request libraries take an object of type `Request` as an argument.
@@ -14972,30 +14972,30 @@ Node instead returns a IncomingMessage object, which is also the same object the
 Most async web request libraries return a promise or equivalent which resolves to a `Response`, or else take a callback that recieves a `Response`
 
 
-<reqres-object>.headers|HTTP headers|node, js, python
-<response-object>.url|url of request or final url of document|js, python, node
+‹reqres-object›.headers|HTTP headers|node, js, python
+‹response-object›.url|url of request or final url of document|js, python, node
 
 
-<request-object>
+‹request-object›
 
 
-<response-object>.status_code/statusCode|HTTP status code|python, node
-<response-object>.status|HTTP status code|js
-<response-object>.reason|HTTP status message|python
-<response-object>.statusText|HTTP status message|js
-<response-object>.statusMessage|HTTP status message|node
-<response-object>.ok|is success status code (200-299)|js, python
-<response-object>.content|Returned thing as binary|python
-<response-object>.encoding|Page encoding|python
-<response-object>.text|Returned unicode text|python
-<response-object>.body|Returned body as stream|js
+‹response-object›.status_code/statusCode|HTTP status code|python, node
+‹response-object›.status|HTTP status code|js
+‹response-object›.reason|HTTP status message|python
+‹response-object›.statusText|HTTP status message|js
+‹response-object›.statusMessage|HTTP status message|node
+‹response-object›.ok|is success status code (200-299)|js, python
+‹response-object›.content|Returned thing as binary|python
+‹response-object›.encoding|Page encoding|python
+‹response-object›.text|Returned unicode text|python
+‹response-object›.body|Returned body as stream|js
 
 
 If the response object is going to be sent, as e.g. in node, it supports additional methods/fields:
 
 
-<response-object>.setHeader(<key>, <val>)|set HTTP header to value
-<response-object>.end()|finish the message
+‹response-object›.setHeader(‹key›, ‹val›)|set HTTP header to value
+‹response-object›.end()|finish the message
 
 
 ###### XHR
@@ -15007,7 +15007,7 @@ Ajax|Asynchronous JavaScript And XML
 
 the Fetch API features fetch() as its main method 
 The Fetch API is the new, modern method to fetch data via the interfet after a site has loaded.
-fetch(<resource-to-get>, [<options-object>])
+fetch(‹resource-to-get›, [‹options-object›])
 fetch() returns a Promise which itself resoves to a `Response`
 Response
 .json()|return promise with contents of response as parsed json
@@ -15019,7 +15019,7 @@ Node doesn't have the Fetch API natively, but you can install it via a package, 
 to send a response to requests, you generally first need to create a server
 
 table:span=2;method to create new servers
-<server-library>.createServer|create new server
+‹server-library›.createServer|create new server
 
 createServer takes a callback to then respondd to requests
 
@@ -15030,7 +15030,7 @@ pandas|python
 ### performance monitoring
 
 time|measure elapsed time in executing a command|sh
-console.time(), console.timeLog() & console.timeEnd()|measure elapsed time in running code.
+console.time(), console.timeLog() ＆ console.timeEnd()|measure elapsed time in running code.
 
 ### dates
 
@@ -15050,7 +15050,7 @@ In rust, the most featureful library to use to interact with dates is chrono.
 chrono has `Date` and `DateTime` to represents dates and datetimes, which both take a type parameter of the `TimeZone`.
 chrono also has `NaiveDate`, `NaiveDateTime` and `NaiveTime` to represents dates, datetimes and times without timezone awareness.
 In generaly chrono structs implement traits in such a way that you can use standard arithmetic operators for them.
-In general, using arithmetic operations in chrono calls the underlying `checked_<operation>_signed` method
+In general, using arithmetic operations in chrono calls the underlying `checked_‹operation›_signed` method
 chrono has three `TimeZone`s, `Utc`, `Local` and `FixedOffset`
 `Local` or `Utc` (but not `FixedOffset`) :: `today()` or `now()` produce a new `Date` or `DateTime` with the speciied timezone.
 Behavior of things that work ⟮like dates⟯ / ⟮like times⟯ is standartized in the ⟮traits⟯ ⟮Datelike⟯ and ⟮Timelike⟯
@@ -15089,8 +15089,8 @@ All the Intl objects that end `Format` (e.g. `DateTimeFormat`, `NumberFormat`, .
 
 ####### parts
 
-`WhateverFormat.<whatever>()` returns a string, while `WhateverFormat.<whatever>ToParts()` returns an array of the parts this would format to.
-the array returned by `WhateverFormat.<whatever>ToParts()` consists of objects with keys `type` and `value`
+`WhateverFormat.‹whatever›()` returns a string, while `WhateverFormat.‹whatever›ToParts()` returns an array of the parts this would format to.
+the array returned by `WhateverFormat.‹whatever›ToParts()` consists of objects with keys `type` and `value`
 
 ```
 new Intl.NumberFormat('de-DE', {
@@ -15212,7 +15212,7 @@ simple|md|remarkjs
 simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
 
-## programming language categorization & history
+## programming language categorization ＆ history
 
 ### names
 
@@ -15558,7 +15558,7 @@ flex-container:✫sm_Bubble-sort-example-300px.gif✫
 Bubble sort is called that because the largest elements will bubble to the right in a single pass.
 while true:
   for all elements in the list: 
-    if currentElement > nextElement, swap them
+    if currentElement › nextElement, swap them
   if no swap occurred in the loop, stop.
 
 ### complexity
@@ -15641,7 +15641,7 @@ Software architecture refers to the fundamental structures of software/developme
 
 #### properties
 
-##### coupling & cohesion
+##### coupling ＆ cohesion
 
 https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
 cohesion is the degree to which the elements inside a module belong together.
@@ -15823,10 +15823,10 @@ failure()|Returns true when any previous step of a job fails.
 
 `uses` is used to specify an action to run for a step.
 If the action is defined in the same repo, `uses` can take the path of the action.
-If the action is not defined in the same repo, `uses` takes it as <owner>/<repo>@<ref>
-If the action is defined in a container published on the docker hub, `uses` takes it as docker://<image>:<tag>
+If the action is not defined in the same repo, `uses` takes it as ‹owner›/‹repo›@‹ref›
+If the action is defined in a container published on the docker hub, `uses` takes it as docker://‹image›:‹tag›
 
-the @<ref> part of referring to gh actions may be a tag, a commit SHA, or a branch.
+the @‹ref› part of referring to gh actions may be a tag, a commit SHA, or a branch.
 
 ######### with
 
@@ -15961,8 +15961,8 @@ autoformat file|⟦⌘⟧ ⟦⌥⟧ ⟦f⟧
 
 The vscode extension Numbered Bookmarks adds numbered bookmarks for lines which can be navigated to and from via keyboard shortcut
 
-set numbered bookmark <n>|⟦⌘⟧ ⟦<n>⟧
-navigate to shift bookmark <n>|⟦⌘⟧ ⟦⇧⟧ ⟦<n>⟧
+set numbered bookmark ‹n›|⟦⌘⟧ ⟦‹n›⟧
+navigate to shift bookmark ‹n›|⟦⌘⟧ ⟦⇧⟧ ⟦‹n›⟧
 
 ######## search
 
@@ -15977,7 +15977,7 @@ In vscode, one can resize the search widget by dragging its left edge.
 ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ creates an area search is limited to from the current selections.
 a second press of ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ does not re-select, instead toggling off. One must first toggle it off, then select a new area, then toggle it back on to get a new selection.
 
-######### aquiring & navigating
+######### aquiring ＆ navigating
 
 ########## aquiring
 
@@ -16071,7 +16071,7 @@ vscode offers a GUI to set your settings, but this is just an interface for the 
 ####### syntax
 
 Within the settings.json, settings that apply to all languages are toplevel keys.
-For each language, there may be one "\[<language-name>\]" toplevel key, which itself contains an object of settings for that language.
+For each language, there may be one "\[‹language-name›\]" toplevel key, which itself contains an object of settings for that language.
 ```
    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -16099,7 +16099,7 @@ code snippets are templates that are triggered by selecting it from code complet
 vscode features some built in code snippets and allows both extensions and the user to define new ones.
 vscode follows textmates syntax for defining user snippets.
 vscode snippets all live in the `snippets/` directory
-snippets for a given language are set in a <languagename>.json file.
+snippets for a given language are set in a ‹languagename›.json file.
 global snippets are set in a whatever.code-snippets file.
 user snippets for vscode are defined in a json file.
 any top-level json object within the snippets file defines a snippet.
@@ -16117,11 +16117,11 @@ $0 as a tabstop defines the final cursor position.
 the transform part of code snippets takes a regex in the usual slash-based form, though instead of the replace part it may also take specifiers like `upcase`, `downcase`, etc.
 the choice specifier of code snippets specifies a choice similar to the shell syntax
 ```
-snippet-tabstop-specifier ::= $(<tabstop>|<variable>)
-tabstop ::= <integer>|\{<integer>(<complex-specifier>|<choice>)\}
-choice ::= \|<string>{, <string>}\|
-variable ::= <string>|\{<string><complex-specifier>\}
-complex-specifier ::= (:(<snippet-tabstop-specifier>|<string>)|<transform>)
+snippet-tabstop-specifier ::= $(‹tabstop›|‹variable›)
+tabstop ::= ‹integer›|\{‹integer›(‹complex-specifier›|‹choice›)\}
+choice ::= \|‹string›{, ‹string›}\|
+variable ::= ‹string›|\{‹string›‹complex-specifier›\}
+complex-specifier ::= (:(‹snippet-tabstop-specifier›|‹string›)|‹transform›)
 ```
 you can jump between tabstops with tabs.
 
@@ -16206,7 +16206,7 @@ A bodge/kludge is a solution to a problem that is quick to implement but inelega
 
 ### testing
 
-#### TDD & self-testing code
+#### TDD ＆ self-testing code
 
 TDD|Test-driven development
 
@@ -16366,27 +16366,27 @@ JSDOc supports inline tags for annotating things within a thing, however most js
 
 ###### basic syntax
 
-jsdoc-comment ::= /** <jsdoc-comment-contents> */
-jsdoc-comment-contents ::= ([<jsdoc-description>] {<jsdoc-block-tag>})|<jsdoc-inline-tag>
-jsdoc-description ::= <jsdoc-text>{<newline><jsdoc-line-start><jsdoc-text>}
-jsdoc-block-tag ::= <jsdoc-line-start><jsdoc-tag><newline>
-jdoc-tag ::= @<jsdoc-tag-name>[ \{<jsdoc-parameter-list>\}][ - <jsdoc-description>]
-jsdoc-text ::= {<char>}
+jsdoc-comment ::= /** ‹jsdoc-comment-contents› */
+jsdoc-comment-contents ::= ([‹jsdoc-description›] {‹jsdoc-block-tag›})|‹jsdoc-inline-tag›
+jsdoc-description ::= ‹jsdoc-text›{‹newline›‹jsdoc-line-start›‹jsdoc-text›}
+jsdoc-block-tag ::= ‹jsdoc-line-start›‹jsdoc-tag›‹newline›
+jdoc-tag ::= @‹jsdoc-tag-name›[ \{‹jsdoc-parameter-list›\}][ - ‹jsdoc-description›]
+jsdoc-text ::= {‹char›}
 jsdoc-line-start ::= * # notice the space
 
-jsdoc-inline-tag ::= {<jsdoc-tag>}
+jsdoc-inline-tag ::= {‹jsdoc-tag›}
 
 ###### namepaths
 
 In JSDoc, to refer to things that are not in the thing being documented, to prevent ambiguity, namepaths are used.
-jsdoc-namepath ::= <entity>{(#|.|-)<entity>}
+jsdoc-namepath ::= ‹entity›{(#|.|-)‹entity›}
 #|instance member
 .|static member
 ~|inner member (member within an inner scope of something)
 
 ###### tags
 
-@author <name> [\<<email>\>]|identifies the author
+@author ‹name› [\‹‹email›\›]|identifies the author
 
 ### book/webiste
 
@@ -16532,11 +16532,11 @@ expo's bare workflow allows you to pick and choose whichc parts of expo to use
 to test an app using expo on a phone, you need to install the expo client app on your device
 If you want to use the bare React Native workflow, you will have to set up your target's devtools
 
-### language installation & setup
+### language installation ＆ setup
 
 rustup is the rust installer
 
-### package manifest & language config file
+### package manifest ＆ language config file
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
 A language config file specifies config (e.g. compiler options) for the current programming language.
@@ -16581,9 +16581,9 @@ npm allows --save-dev direct installation to dev dependencies via --save-dev
 #### rust
 
 specifying features of packages
-package-with-features ::= <package-name> = \{ version = "<semver-version-specifier>", features = \["<string>{, "<string>"}\]\}
+package-with-features ::= ‹package-name› = \{ version = "‹semver-version-specifier›", features = \["‹string›{, "‹string›"}\]\}
 
-### packages & package managers
+### packages ＆ package managers
 
 Package management is managing packages, i.e. handles installing, uninstalling, updating...
 some package managers support suffixing an @version to address a specific version
@@ -16640,7 +16640,7 @@ publish|publish to offical pagckage hub/repository|cargo|npm
 
 #### eject to editor
 
-edit[ <name>]|open <name> in code editor, or default if none is provided|espanso
+edit[ ‹name›]|open ‹name› in code editor, or default if none is provided|espanso
 
 #### repositories
 
@@ -16659,9 +16659,9 @@ init|set up a new project/package, incl pacakge manifest in current directory|bu
 Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
 
 To set up a default repository with boilerplate, different frameworks/languages have different tools:
-react|create-react-app <name>
-nextjs|create-next-app <name>
-react-native|expo init <name> 
+react|create-react-app ‹name›
+nextjs|create-next-app ‹name›
+react-native|expo init ‹name› 
 expo init creates a project using expo's managed workflow
 
 cargo-generate is a crate that allows using a pre-existing git repository as a template.
@@ -16730,15 +16730,15 @@ rust has two types of pragmas to specify a set of compiler conditions that must 
 in rust, you specify custom compile-time feature flags in a [features] section of your Cargo.toml
 in the [features] section of your Cargo.toml, each key specifies a feature, and takes an array of crates or other features to optionally require.
 you can activate a feature for an external crate by referring to it within the features array that is part of the table defining the dependency.
-custom compile-time feature flags are refered to in `cfg` by the <cfg-name> feature
-compile-time feature flags are enabled by cargo build --features "<featurename>" 
+custom compile-time feature flags are refered to in `cfg` by the ‹cfg-name› feature
+compile-time feature flags are enabled by cargo build --features "‹featurename›" 
 any cfg condition is enabled by --cfg "featurename"
-cfg-attribute-sytnax ::= #\[cfg(<cfg-predicate>)\]
-cfg-predicate ::= <cfg-option>|<cfg-logic-function-multiple>|<cfg-not>
-cfg-option ::= <cfg-name> = "<cfg-value>"
-cfg-logic-function ::= (all|any)\(<cfg-predicate-list>\)
-cfg-not ::= not\(<cfg-predicate>\)
-cfg-predicate-list ::= <cfg-predicate>{, <cfg-predicate>}
+cfg-attribute-sytnax ::= #\[cfg(‹cfg-predicate›)\]
+cfg-predicate ::= ‹cfg-option›|‹cfg-logic-function-multiple›|‹cfg-not›
+cfg-option ::= ‹cfg-name› = "‹cfg-value›"
+cfg-logic-function ::= (all|any)\(‹cfg-predicate-list›\)
+cfg-not ::= not\(‹cfg-predicate›\)
+cfg-predicate-list ::= ‹cfg-predicate›{, ‹cfg-predicate›}
 
 ###### specific compilers/transpilers
 
@@ -16791,9 +16791,9 @@ While `@babel/preset-env` allows you to set your target browsers manually by set
 You use `core-js` by importing a variant of it at the top of your entry point.
 
 core-js/features|all features, whether stable proposals or experimental
-core-js/actual|stable features & web standards (recommended)
+core-js/actual|stable features ＆ web standards (recommended)
 core-js/stable|stable ES features
-core-js/(feature|actual|stable)/<feature-name>|import only a specific feature
+core-js/(feature|actual|stable)/‹feature-name›|import only a specific feature
 for example: `import "core-js/actual/set";`
 
 ######## regenerator
@@ -16868,7 +16868,7 @@ the runtime uses the manifest.
 
 ##### CLI
 
-<tool> build builds a production build in cargo, jekyll, next
+‹tool› build builds a production build in cargo, jekyll, next
 
 #### conditional building
 
@@ -16921,8 +16921,8 @@ In computer programming, an entry point is a point in a program where the execut
 
 ####### default
 
-./src/index.<suffix>|webpack
-./src/main.<suffix>|rust
+./src/index.‹suffix›|webpack
+./src/main.‹suffix›|rust
 
 ###### function
 
@@ -16980,8 +16980,8 @@ npm run = npm run-script
 ##### env
 
 within npm scripts, we can access all our dependencies binaries without specifying the full path (without having to use npx)
-a package.json key <key> is available in npm scripts as the variable $npm_package_<key>
-Certain config values are available in npm scripts as the variable $npm_config_<name>
+a package.json key ‹key› is available in npm scripts as the variable $npm_package_‹key›
+Certain config values are available in npm scripts as the variable $npm_config_‹name›
 
 ##### naming
 
@@ -16989,7 +16989,7 @@ npm scripts names are often written foo:bar (this is only a convention, however)
 
 ###### pre/post
 
-npm scripts `pre<name>` and `post<name>` will automatically run before/after npm script `<name>`
+npm scripts `pre‹name›` and `post‹name›` will automatically run before/after npm script `‹name›`
 
 ###### lifecycle scripts
 
@@ -16997,7 +16997,7 @@ npm lifecycle scripts (non-deprecated): prepare, prepublishOnly, prepack, postpa
 
 ###### aliases
 
-A set of predefined npm scripts have aliases where you can run `npm <name>` instead of `npm run <name>`
+A set of predefined npm scripts have aliases where you can run `npm ‹name›` instead of `npm run ‹name›`
 Among those: npm build, start, stop, test.
 `npm test` can further be abbreviated `npm t`
 
@@ -17145,7 +17145,7 @@ snaps are maintained by the snapd daemon.
 snap calls its updates refreshes.
 snap auto-refreshes four times a day by default.
 snap stores most of its stuff in /snap.
-snaps are stored in /snap/<snapname>
+snaps are stored in /snap/‹snapname›
 snaps variable data (such as log files) are stored in /var/snap
 snap has a second linux file system in /snap/core, which it mounts in specific places at runtime.
 snaps are pacakged by snapcraft.
@@ -17171,8 +17171,9 @@ If something is ⟮keg-only⟯, it is ⟮installed into (/usr/local or /opt/home
 
 ⟮homebrew⟯ installs ⟮anything⟯ to ⟮within its prefix⟯. 
 
+homebrew prefixes
 
-    <tr><th colspan="2">homebrew prefixes
+
 ⟮macOS Intel⟯|⟮/usr/local⟯
 ⟮Apple Silicon⟯|⟮/opt/homebrew⟯
 ⟮Linux⟯|⟮/home/linuxbrew⟯
@@ -17192,7 +17193,7 @@ The gemfile contains dependencies
 the gemfile is just a ruby file
 In a gemfile, the first thing is a call to source, which establishes the global source
 source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
-within the gemfile, gem dependencies are defined by `gem <name>, <version>`
+within the gemfile, gem dependencies are defined by `gem ‹name›, ‹version›`
 
 #### tools to interact with framewokrs
 
@@ -17308,13 +17309,13 @@ Ideally, ⟮your wrist⟯ should be ⟮hovering⟯ while ⟮touch typing⟯
 
 ## server directory structure
 
-Jekyll & common
+Jekyll ＆ common
 
 ./assets|assets
 ./assets/css|css files
 ./assets/js|js files
 
-## Metacharacters & escapes 
+## Metacharacters ＆ escapes 
 
 A metacharacter is a character that has a special meaning to a computer program, such as a interpreter/compiler or a regular expression (regex) engine.
 A reserved character is a character that cannot be used in a certain context because it is a metacharacter and thus must be replaced with an escape sequence or a different character, or not used entirely.
@@ -17322,33 +17323,33 @@ A reserved character is a character that cannot be used in a certain context bec
 An escape character is a metacharacter that invokes an alternative interpretation of the following character(s)
 An escape sequence is the combination of an escape character and the subsequent characters that has a specific meaning.
 Weirdly, an escape sequence (but not an escape character) is sometimes called a character escape.
-In C, \ acts as a/the escape character, with many programming languages having copied this, this includes latex, at least for basic things such as % and &.
+In C, \ acts as a/the escape character, with many programming languages having copied this, this includes latex, at least for basic things such as % and ＆.
 C pioneered a set of escape sequences starting with the escape character \ and certan chars/sequences afterwards, which have been widely adopted.
-In HTML, & acts as a/the escape character.
+In HTML, ＆ acts as a/the escape character.
 Liquid is rare in that escape sequences don't exist at all.
 Generally, most languages will require using an escape sequence for their metacharacters, or at least the ones that could have meaning in a given context, this is known as character quoting.
 Besides character quoting, escape sequences are often used for characters that cannot (easily) be typed on a keywboard.
 Escape sequences for unicode codepoints:
 \u + UTF-16 escape sequence (must be a set of two \u + UTF-16 escape  sequence if surrogate pair)|JS
-\<unicode-code-point>|CSS
-\u<unicode-code-point>|Regex (some flavors)
-\u<four-hex-digits>|C-style escape sequence
-\U<eight-hex-digits>|C-style escape sequence
-\x\{<unicode-code-point>\}|Regex (other flavors)
-\u\{<unicode-code-point>\}|JS (ES 6 and beyond)
+\‹unicode-code-point›|CSS
+\u‹unicode-code-point›|Regex (some flavors)
+\u‹four-hex-digits›|C-style escape sequence
+\U‹eight-hex-digits›|C-style escape sequence
+\x\{‹unicode-code-point›\}|Regex (other flavors)
+\u\{‹unicode-code-point›\}|JS (ES 6 and beyond)
 can be directly input|most programming languages
 
 Escape sequences for ascii characters
 octal
-\0<octal-digit><octal-digit><octal-digit>|Regex (some flavors)
-\<octal-digit><octal-digit><octal-digit>|C-style escape sequence, Regex (some flavors)
-\o\{<octal-digit><octal-digit><octal-digit>\}|Regex (some flavors)
+\0‹octal-digit›‹octal-digit›‹octal-digit›|Regex (some flavors)
+\‹octal-digit›‹octal-digit›‹octal-digit›|C-style escape sequence, Regex (some flavors)
+\o\{‹octal-digit›‹octal-digit›‹octal-digit›\}|Regex (some flavors)
 
 alphabetic
-\c<character> (ASCII control character (<character>-64))|Regex (some flavors)
+\c‹character› (ASCII control character (‹character›-64))|Regex (some flavors)
 
 hexadecimal
-\x<hex-digit><hex-digit>|Regex (some flavors)
+\x‹hex-digit›‹hex-digit›|Regex (some flavors)
 
 
 
@@ -17412,9 +17413,9 @@ A space (between dots/dashes)|one dot
 
 ##### syntax
 
-morse-code-sentence ::= <morse-code-word>{<word-space><morse-code-word>}
-morse-code-word ::= <morse-code-character>{<character-space><morse-code-character>}
-morse-code-character ::= (<dot>|<dash>)<dd-space>
+morse-code-sentence ::= ‹morse-code-word›{‹word-space›‹morse-code-word›}
+morse-code-word ::= ‹morse-code-character›{‹character-space›‹morse-code-character›}
+morse-code-character ::= (‹dot›|‹dash›)‹dd-space›
 
 ##### common words
 
@@ -17438,7 +17439,7 @@ ASCII characters that are not control/non-printing characters are printing chara
 Control characters as a term is generally reserved for the 65 characters defined in ASCII and extended ascii, other characters such as the zero-width non-joiner may be considered semantically similar, but are called formatting characters.
 the first 32 ASCII control characters are exactly 64 bit below the uppercase letters, and so may be represented by letters A-Z plus a few symbols.
 In the past the control key would have lowered the sent keycode by 64 to produce the first 32 ASCII control characters; this behavior still exists (albeit emulated) in terminals.
-Since the control character is often represented by a caret, and the control key plus letter was/is used to produce ASCII control characters, ASCII control characters are often indicated ^<letter>, this is called caret notation.
+Since the control character is often represented by a caret, and the control key plus letter was/is used to produce ASCII control characters, ASCII control characters are often indicated ^‹letter›, this is called caret notation.
 Caret notation is commonly used in *nix contexts.
 In ASCII, the uppercase characters are 64 above their index in the alphabet.
 In ASCII, the lowercase characters are 96 above their index in the alphabet/32 above the relevant uppercase character.
@@ -17490,7 +17491,7 @@ Unicode is goverened by the unicode consortium.
 
 While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
 The fundamental unit in unicode is a codepoint.
-Unicode codepoints are frequently written U+{<hex-digit>}
+Unicode codepoints are frequently written U+{‹hex-digit›}
 All unicode codepoints are contained in the unicode codespace.
 Currently, about 12% of the unicode codespace is used.
 The unicode codespace consists of 17 planes. 
@@ -17503,7 +17504,7 @@ In general, an unicode block should be united by a common purpose in some way.
 
 ###### plane table
 
-0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems & symbols
+0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems ＆ symbols
 1|Supplementary Multilingual Plane|assortment of different characters and emoji
 2|Supplementary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
 3|Tertiary Ideographic Plane|bunch of extra, mostly historical/variant CJK characters
@@ -17538,9 +17539,9 @@ The unicode-bidi algorithm produces directional runs of sequences of characters 
 neutral characters become part of the same directional run between two strongly typed characters of the same direction.
 In unicode, characters like punctuation, spaces and numbers are weak.
 neutral characters between two strongly typed characters of opposite directions become part of the directional run become part of the run in the inline base direction.
-<bdo> is for the cases in which you don't want the bidirectional algorithm to anything at all, e.g. if you want to show the order of characters in memory.
-<bdi> is for wrapping text whose directionality you can't predict, but which you don't want to absorb neutral characters on other sides.
-If one knows the directionality in advance, one doesn't need <bdi> to isolate an element from the bidi algorithm all, one can just add a span or whater with a dir attribute to force the directionality and isolate at the same time.
+‹bdo› is for the cases in which you don't want the bidirectional algorithm to anything at all, e.g. if you want to show the order of characters in memory.
+‹bdi› is for wrapping text whose directionality you can't predict, but which you don't want to absorb neutral characters on other sides.
+If one knows the directionality in advance, one doesn't need ‹bdi› to isolate an element from the bidi algorithm all, one can just add a span or whater with a dir attribute to force the directionality and isolate at the same time.
 
 ##### policy
 
@@ -17576,7 +17577,7 @@ First UTF-8 byte starts|character contains n bytes
 11110|4
 Any UTF-8 byte but the first starts 10
 To encode a character in UTF-8, first we determine how many bit the character requires, then we set the appropriate first byte header, and then insert the binary code point starting from the less significant end, finally filling up empty spaces with 0s.
-7>|1
+7›|1
 8-11|2
 12-16|3
 17-21|4
@@ -17587,7 +17588,7 @@ To encode a character in UTF-8, first we determine how many bit the character re
 (near) synonyms: ⟮Percent encoding⟯, ⟮URL/I encoding⟯
 
 To percent-encode a character, use the characters UTF-8 representation, and then percent-encode each byte.
-percent-encoded-byte ::= %<hex-digit><hex-digit>
+percent-encoded-byte ::= %‹hex-digit›‹hex-digit›
 
 Newline may refer to the newline character or any newline
 

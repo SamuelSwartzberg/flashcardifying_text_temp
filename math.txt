@@ -405,7 +405,7 @@ construct|delimiter
 set|{}
 tuple/sequence|()
 
-### operators & operatons
+### operators ＆ operatons
 
 #### unary
 
@@ -443,13 +443,13 @@ S_1 ∪ S_2|https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg
 S_1 ∩ S_2|Intersection
 S_1 ∪ S_2|Union
 
-##### sub & supersets
+##### sub ＆ supersets
 
 For two sets A, B, A is the superset of B if for all x if x∈B also x∈A
 For two sets A, B, A is the subset of B if for all x if x∈A also x∈B
 two sets are equal if they are both subsets of each other.
 
-###### empty & universe
+###### empty ＆ universe
 
 The empty set is the set that contains no elements.
 The empty set is written ø.
@@ -460,7 +460,7 @@ Every set has itself and the universe as supersets.
 The empty set is the subset of every set.
 The universe is the superset of every set.
 
-###### proper & symbols
+###### proper ＆ symbols
 
 A proper sub/superset of A is a sub/superset that is not equal to A.
 The relation of being a superset may also be called inclusion or containment.
@@ -504,7 +504,7 @@ In a venn diagram, instead of placing elements, it instead can be used to indica
 
 ### types of sets
 
-#### number sets & blackboard bold
+#### number sets ＆ blackboard bold
 
 A »⟮number set⟯« is ⟮a set of numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
 ⟮number sets⟯ are usually written in ⟮bold⟯ or ⟮blackboard bold⟯ letters. 
@@ -1039,7 +1039,7 @@ Q1|25%
 Q2|50% (median)
 Q3|75%
 
-### populations & samples
+### populations ＆ samples
 
 A ⟮parameter⟯ is a ⟮truth⟯ about ⟮the population⟯ 
 a ⟮statistic⟯ is a ⟮truth⟯ about ⟮a sample⟯ 
@@ -1154,7 +1154,7 @@ unit name|unit symbol|measure
 
 ### non-metric
 
-#### imperial & US customary
+#### imperial ＆ US customary
 
 The ⟮Units used in the british empire (after 1826)⟯ are known as ⟮Imperial units/system⟯.
 the ⟮ Units used in the US ⟯ are known as ⟮ United States customary units ⟯.
