@@ -3202,14 +3202,14 @@ nav {
 }
 ```
 
-In ⟮nested rules⟯'s selectors, ⟮c+;&amp;⟯ refers to ⟮the parent selector⟯. 
-In nested rules's selectors, ⟮c+;&amp;⟯ is useful if ⟮you want to combine selectors in complex ways⟯ 
+In ⟮nested rules⟯'s selectors, ⟮c+;＆⟯ refers to ⟮the parent selector⟯. 
+In nested rules's selectors, ⟮c+;＆⟯ is useful if ⟮you want to combine selectors in complex ways⟯ 
 In ⟮nested rules⟯'s selectors, ⟮@at-root⟯ ⟮goes back up to the nesting tree.⟯ 
 
 ```
 .parent {
   .child {
-    ⟮c+;&amp; div &amp; &amp; &gt; a⟯ {}
+    ⟮c+;＆ div ＆ ＆ &gt; a⟯ {}
   }
 }
 ```
@@ -3226,16 +3226,16 @@ compiles to `⟮.child {}⟯`
 
 ```
 .button {
-  &amp;:visited { }
-  &amp;:hover { }
-  &amp;:active { }
+  ＆:visited { }
+  ＆:hover { }
+  ＆:active { }
 }
 ``` compiles to `⟮.button:visited { } .button:hover { } .button:active { } ⟯`
 
 ```
 .btn {
-  &amp;-primary {}
-  &amp;-secondary {}
+  ＆-primary {}
+  ＆-secondary {}
 }
 ``` compiles to `⟮.btn-primary {} .btn-secondary {} ⟯`
 
@@ -3421,7 +3421,7 @@ An SCSS/sass ⟮placeholder selector⟯ is designed to be ⟮`@extend`ed⟯.
   padding: 16px 0;
   width: 100%;
 
-  &amp;:hover { border: 2px rgba(#000, .5) solid; }
+  ＆:hover { border: 2px rgba(#000, .5) solid; }
 }
 
 .action-buttons {
@@ -4137,7 +4137,7 @@ If in VSCode you have ⟮as many text cursors⟯ as ⟮the thing you want to pas
 »⟮Autocomplete/word completion⟯« is a feature where ⟮an application predicts the rest of something the user is typing⟯.  
 »⟮Autocomplete/word completion⟯« on ⟮smartphone keyboards⟯ is called »⟮predictive text⟯«, ⟮sb;this used to refer to ⟮the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
 »⟮Autocomplete/word completion⟯« ⟮in a command-line interface⟯ is called »⟮command-line⟯« or »⟮tab⟯ ⟮completion⟯«, ⟮sb;which generally uses ⟮the tab key (whence the name⟯).⟯ 
-»⟮Autocomplete/word completion⟯« in ⟮code editors⟯ is also known as »⟮code completion⟯«. Examples include ⟮sb;⟮c+;VS &amp; VS Code⟯'s ⟮IntelliSense⟯, and ⟮AI (modfied GPT-3⟯)-powered ⟮GitHub Copilot⟯.⟯ 
+»⟮Autocomplete/word completion⟯« in ⟮code editors⟯ is also known as »⟮code completion⟯«. Examples include ⟮sb;⟮c+;VS ＆ VS Code⟯'s ⟮IntelliSense⟯, and ⟮AI (modfied GPT-3⟯)-powered ⟮GitHub Copilot⟯.⟯ 
 
 ### Natural Language Processing
 
@@ -4537,7 +4537,7 @@ After ⟮getting the K channel⟯, to ⟮convert CMY to CMYK⟯: ⟮Channel_new�
 
 ⟮Hue⟯ is what we might call ⟮＊color＊⟯&nbsp;color. 
 ⟮Hue⟯ is what ⟮most languages⟯ ⟮consider primary⟯ about ⟮color⟯, with ⟮other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮attached later⟯. 
-⟮Hue⟯ is often ⟮generated from⟯ ⟮RGB⟯, e.g. for ⟮c+;use in HSL &amp; HSV/HSB⟯. 
+⟮Hue⟯ is often ⟮generated from⟯ ⟮RGB⟯, e.g. for ⟮c+;use in HSL ＆ HSV/HSB⟯. 
 If ⟮Hue⟯ is ⟮generated⟯ from ⟮RGB⟯ for ⟮HSL/HSV⟯, it is specified in ⟮a degree from 0 to 360 deg⟯ 
 
 
@@ -4795,7 +4795,7 @@ There are three types of attributes that ⟮ARIA⟯ has: ⟮Roles⟯, ⟮States�
 ARIA ⟮roles⟯ define the ⟮main type of component⟯, e.g. ⟮toolbar, banner⟯
 ARIA ⟮states⟯ define some property ⟮that can change⟯
 ARIA ⟮properties⟯ define some property ⟮that is expected to stay the same⟯
-There are four types of aria ⟮states⟯ &amp; ⟮properties⟯: ⟮drag-and-drop⟯, ⟮live region⟯, ⟮relationship⟯, and ⟮widgets⟯
+There are four types of aria ⟮states⟯ ＆ ⟮properties⟯: ⟮drag-and-drop⟯, ⟮live region⟯, ⟮relationship⟯, and ⟮widgets⟯
 
 the ⟮aria-label⟯ ⟮attribute⟯ is for adding ⟮a text description⟯ of ⟮what something does⟯ where ⟮the actual content doesn't suffice⟯
 a reason for using aria-label might be e.g. because a close button is realized ⟮with an icon font/an x⟯
@@ -4880,7 +4880,7 @@ RAM random-access memory
 SRAM is faster than DRAM and is therefore used for the chace and internal registers.
 RAM is sometimes used as a catch-all for any primary memory.
 Principle of locality AKA locality of reference
-principle of locality = (Principle of) Temporal Locality &amp; Spatial Locality
+principle of locality = (Principle of) Temporal Locality ＆ Spatial Locality
 principle of locality relates to memory access, specifically it predicts what memory will be accessed next.
 principle of spatial locality = Memory that is close (to the currently accessed memory cell) will tend to be accessed again
 principle of spatial locality = Memory that has recently been referenced will be referenced again soon.
@@ -5873,13 +5873,13 @@ u|underline|has non-textual annotation of some kind
 mark|yellow highlighter|highlighted ≈ area of interest
  
 
-non-breaking space|\nonbreakspace or ~|&amp;nbsp;
-ampersand||&amp;amp;
+non-breaking space|\nonbreakspace or ~|＆nbsp;
+ampersand||＆amp;
 non-breaking hyphen|"~
-soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|&amp;shy;&amp;#8203;
+soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|＆shy;＆#8203;
 "=
 if you want a word ⟮with a hyphen⟯ to be ⟮able to be split anywhere⟯ (using babel ngerman), use ⟮"=⟯
-zero-width space||<wbr> or &amp;#8203;
+zero-width space||<wbr> or ＆#8203;
 
 hyperref|create links automatically and \href, \url commands
 
@@ -6046,7 +6046,7 @@ environment|name|image
 ⟮multline/multline*⟯|⟮first line left-aligned, then all center-aligned, final line right-aligned⟯|⟮h43;✫sm_2021-05-18--15-16-19-screenshot.png✫⟯
 
 
-The ⟮align/align* environment⟯ aligns ⟮parts of the equation⟯ ⟮vertically⟯ in relation to ⟮the anchor⟯, which is the ⟮c+;&amp; symbol⟯ 
+The ⟮align/align* environment⟯ aligns ⟮parts of the equation⟯ ⟮vertically⟯ in relation to ⟮the anchor⟯, which is the ⟮c+;＆ symbol⟯ 
 ⟮split⟯ is ⟮the same as⟯ ⟮the align environment⟯, but ⟮within the equation environment⟯&nbsp;
 
 the ⟮autobreak⟯ environment contained in ⟮the eponymous package⟯ ⟮auto inserts linebreaks into formulae⟯ 
@@ -6558,7 +6558,7 @@ YAML ⟮anchors⟯ ⟮save a reference to a value⟯, which ⟮then can be inclu
 A YAML ⟮alias⟯ goe⟮s where a value would normally⟯ 
 A YAML ⟮anchor⟯ goes ⟮between key and value⟯ 
 A YAML ⟮merge key⟯ goes ⟮instead of a key⟯, and ⟮takes an alias as a value⟯. 
-⟮c+;&amp;foo⟯|⟮anchor⟯
+⟮c+;＆foo⟯|⟮anchor⟯
 ⟮*foo⟯|⟮alias⟯
 ⟮c+;&lt;&lt;⟯|⟮Merge key⟯
 
@@ -8254,7 +8254,7 @@ Jobs mainly exist to be siginalled by signals, all processes in a job are signal
 the bg command takes a suspended command (e.g. one that was Ctrl-Z ed) and resumes its execution in the ⁑background⁑
 fg  resume stopped task in foreground
 bg  resume stopped task in background
-⟮c+;&amp;⟯ at the ⟮end of an command⟯ ⟮puts it in the backround⟯ (but it ⟮still continues running⟯)
+⟮c+;＆⟯ at the ⟮end of an command⟯ ⟮puts it in the backround⟯ (but it ⟮still continues running⟯)
 jobs|show processes running in the background
 
 #### terminal
@@ -9328,7 +9328,7 @@ browsername|scheme for whatever browser-internal pages
 tel|phone numbers
 mailto|email messages
 
-mailto-url ::= mailto:[‹email-address›{,‹email-address›}][?‹email-key›=‹value-percent-encoded›{&amp;‹email-key›=‹value-percent-encoded›}]
+mailto-url ::= mailto:[‹email-address›{,‹email-address›}][?‹email-key›=‹value-percent-encoded›{＆‹email-key›=‹value-percent-encoded›}]
 email-key ::= subject | cc | body | ...
 
 ######## URN 
@@ -9407,7 +9407,7 @@ curl syntax: ⟮curl⟯ ⟮[options]⟯ ⟮{URLs⟯}
 
 ⟮c+;s16;-i⟯ and ⟮c+;s15;--include⟯ ⟮show HTTP response headers⟯ 
 To ⟮set custom headers⟯ in curl, use ⟮c+;s20;-H⟯/⟮c+;s19;--header⟯ ⟮"My-Header: My value"⟯ 
-To ⟮set the query string⟯ to a certain value in curl, use ⟮c+;s44;-d⟯ OR ⟮c+;s23;--data⟯ ⟮c+;'key=value&amp;key2=value2'⟯ 
+To ⟮set the query string⟯ to a certain value in curl, use ⟮c+;s44;-d⟯ OR ⟮c+;s23;--data⟯ ⟮c+;'key=value＆key2=value2'⟯ 
 To ⟮simulate a filled in form⟯ with curl, use ⟮c+;s45;-f⟯ or ⟮c+;s26;--form⟯ ⟮"key=value"⟯ (supports ⟮more fancy syntax for files etc.⟯ )  
 To make curl ⟮fail on error⟯, use ⟮c+;s31;-f⟯ or ⟮c+;s30;--fail⟯ 
 To ⟮make a HTTP HEAD request (instead of the default GET⟯) with curl, use ⟮c+;s34;-I⟯ or ⟮c+;s33;--head⟯. 
@@ -9815,7 +9815,7 @@ A network/internet socket that has been connected to another socket (e.g. when u
 ###### TCP
 
 TCP = Transmission Control Protocol
-TCP but not UDP can deal with / solve packets arriving out of order, lost packets (retransmits them), error detection, flow &amp; congestion control
+TCP but not UDP can deal with / solve packets arriving out of order, lost packets (retransmits them), error detection, flow ＆ congestion control
 
 ####### starting operations
 
@@ -9855,7 +9855,7 @@ length|mandatory
 checksum|mandatory in IPv6
 
 
-octets|0 &amp; 1|2 &amp; 3
+octets|0 ＆ 1|2 ＆ 3
 !type=th;0|style=background-color: #fa9;Source port|Destination port
 !type=th;4|Length|style=background-color: #fa9;Checksum
 
@@ -17351,19 +17351,19 @@ hexadecimal
 
 
 HTML has ⟮two ways⟯ of specifying ⟮character escapes⟯. 
-Both ways HTML has for specifying character escapes ⟮c+;start with an &amp;⟯ and ⟮c+;end with a semicolon ;⟯.
-Of these, ⟮numeric character references⟯ ⟮refer to the character position within character set (most commmonly UTF-8⟯), ⟮sb;they start ⟮c+;with # (after &amp;⟯) and can be specified in decimal or hex. ⟮hb;(for example ⟮c+;&amp;#8203;⟯⟯⟯) 
-⟮Character entity references⟯ ⟮have a short, memorable name⟯ ⟮hb;(for example ⟮c+;&amp;amp; or &amp;quot⟯⟯) 
+Both ways HTML has for specifying character escapes ⟮c+;start with an ＆⟯ and ⟮c+;end with a semicolon ;⟯.
+Of these, ⟮numeric character references⟯ ⟮refer to the character position within character set (most commmonly UTF-8⟯), ⟮sb;they start ⟮c+;with # (after ＆⟯) and can be specified in decimal or hex. ⟮hb;(for example ⟮c+;＆#8203;⟯⟯⟯) 
+⟮Character entity references⟯ ⟮have a short, memorable name⟯ ⟮hb;(for example ⟮c+;＆amp; or ＆quot⟯⟯) 
 This distinction is however often not made, and often ⟮any name that is a combination of some of the name parts (e.g. HMTL entity, entity reference, character entity⟯) are used. 
 
 to en/decode html character escapes, the npm package and concomittant CLI he is often used.
 
 Character entity reference / Numeric character reference|Displays as / creates?
-⟮c+;&amp;gt;⟯|⟮c+;&gt;⟯
-⟮c+;&amp;lt;⟯|⟮c+;&lt;⟯
-⟮c+;&amp;amp;⟯|⟮c+;&amp;⟯
-⟮c+;&amp;shy;⟯|⟮A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
-⟮c+;&amp;#8203;⟯|⟮A zero-width space that allows the browser to break there, when necessary⟯
+⟮c+;＆gt;⟯|⟮c+;&gt;⟯
+⟮c+;＆lt;⟯|⟮c+;&lt;⟯
+⟮c+;＆amp;⟯|⟮c+;＆⟯
+⟮c+;＆shy;⟯|⟮A hyphen that works as a line break, but is only displayed when necessary for wrapping.⟯
+⟮c+;＆#8203;⟯|⟮A zero-width space that allows the browser to break there, when necessary⟯
 
 
 ## text encoding
