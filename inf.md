@@ -339,8 +339,8 @@ In HTML, a progress bar can be indicated by ‹progress›
 In HTML, meter generally displays as a bar of varying fullness.
 In HTML, meter supposedly represents a scalar value within a known range.
 In HTML, progress only accepts max and value as attributes, reflecting the semantics of the completion of a task.
-The min and max attributes specify the minimum/maximum value and are allowed on certain types of <input>s as well as <meter> and max also on <progress>
-The low, high and optimum attributes may only be specified on <meter>
+The min and max attributes specify the minimum/maximum value and are allowed on certain types of ‹input›s as well as ‹meter› and max also on ‹progress›
+The low, high and optimum attributes may only be specified on ‹meter›
 In HTML both progress and meter support a fallback text value within their tags.
 
 ##### tables
@@ -351,53 +351,53 @@ tr > th/td
 
 caption  optional child of table
 
-to make a td/th occupy multiple columns/rows, use colspan/rowspan="<integer>"
+to make a td/th occupy multiple columns/rows, use colspan/rowspan="‹integer›"
 HTML tables are for tabular data, not for layout
 
-The <colgroup> HTML element defines a group of columns within a table, e.g. for styling.
-The <colgroup> is made up of <col> elements
-The <col> element takes a span attribute indicating how many columns are being targeted.
-The <colgroup> element must be the first child of <table> (besides <caption>, if it is present)
+The ‹colgroup› HTML element defines a group of columns within a table, e.g. for styling.
+The ‹colgroup› is made up of ‹col› elements
+The ‹col› element takes a span attribute indicating how many columns are being targeted.
+The ‹colgroup› element must be the first child of ‹table› (besides ‹caption›, if it is present)
 
 ##### canvas
 
-The <canvas> element allows drawing graphics and animations via the canvas scripting API or the WebGL API
+The ‹canvas› element allows drawing graphics and animations via the canvas scripting API or the WebGL API
 Sizing the canvas using CSS versus HTML
 
 The displayed size of the canvas can be changed using CSS, but if you do this the image is scaled during rendering to fit the styled size, which can make the final graphics rendering end up being distorted.
 
-It is better to specify your canvas dimensions by setting the width and height attributes directly on the <canvas> elements, either directly in the HTML or by using JavaScript.
+It is better to specify your canvas dimensions by setting the width and height attributes directly on the ‹canvas› elements, either directly in the HTML or by using JavaScript.
 
 ##### map
 
-<map> defines an image map, within which ‹area› defines clickable areas.
-<map> takes a shape attribute with the possible values circle, poly, rect.
+‹map› defines an image map, within which ‹area› defines clickable areas.
+‹map› takes a shape attribute with the possible values circle, poly, rect.
 The shape of a map with a given shape attribute is specified by the coords attribute
-You refer to a map via its name attribute included in an <img> usemap attribute prefixed by #
+You refer to a map via its name attribute included in an ‹img› usemap attribute prefixed by #
 
 ##### links
 
 The content between the tags should be descriptive of what the link does.
 
-The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+The ‹link› HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
 
-The rel attribute defines the relationship between a linked resource and the current document. Valid on <link>, ‹a›, ‹area›, and <form>, the supported values depend on the element on which the attribute is found.
+The rel attribute defines the relationship between a linked resource and the current document. Valid on ‹link›, ‹a›, ‹area›, and ‹form›, the supported values depend on the element on which the attribute is found.
 
 rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
 rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document, and thus doesn't confer some of your sites reputation onto the linked sites reputation.
 Comment sections may have rel=nofollow by default
 rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
 
-###### <link>
+###### ‹link›
 
 rel="icon"|specifies an icon representing the current document
 rel="stylesheet"|indicates a stylesheet for the document
 
 If rel="icon", the sizes attribute of link specifies which sizes are applicable.
-link-sizes-values ::= any|(<size-spec>{ <size-spec>})
-size-spec ::= <width>(x|X)<height>
+link-sizes-values ::= any|(‹size-spec›{ ‹size-spec›})
+size-spec ::= ‹width›(x|X)‹height›
 
-the type attribute of <link> specifies the mime type of the resource; however this is generally omitted except for rel="icon"
+the type attribute of ‹link› specifies the mime type of the resource; however this is generally omitted except for rel="icon"
 
 rel="alternate" indicates that the link is to an alternate version of your site, e.g. in a different language.
 if rel="alternate" is linking to a version in a different language, it should have a hreflang of whatever BCP 47 lang code
@@ -412,7 +412,7 @@ _self|current browsing context
 _blank|new window/tab
 _parent|parent browsing context
 _top|root node browsing context
-for <form>, the target attribute represents where to display the response after submitting the form  
+for ‹form›, the target attribute represents where to display the response after submitting the form  
 
 ####### a
 
@@ -424,54 +424,54 @@ the download attribute of ‹a› used with a value will prompt the browser to s
 ##### forms
 
 
-Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing <form> element or the element whose id is specified in the form attribute.
+Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing ‹form› element or the element whose id is specified in the form attribute.
 
-<button>
-<fieldset>
-<input>
-<keygen>
-<label>
-<meter>
-<object>
-<output>
-<progress>
-<select>
-<textarea>
+‹button›
+‹fieldset›
+‹input›
+‹keygen›
+‹label›
+‹meter›
+‹object›
+‹output›
+‹progress›
+‹select›
+‹textarea›
 
 Form-associated content does not necessarily always have to be within a form.
 
 This category contains several sub-categories:
 
 listed
-Elements that are listed in the form.elements and fieldset.elements IDL collections. Contains <button>, <fieldset>, <input>, <keygen>, <object>, <output>, <select>, and <textarea>.
+Elements that are listed in the form.elements and fieldset.elements IDL collections. Contains ‹button›, ‹fieldset›, ‹input›, ‹keygen›, ‹object›, ‹output›, ‹select›, and ‹textarea›.
 
 labelable
-Elements that can be associated with <label> elements. Contains <button>, <input>, <keygen>, <meter>, <output>, <progress>, <select>, and <textarea>.
+Elements that can be associated with ‹label› elements. Contains ‹button›, ‹input›, ‹keygen›, ‹meter›, ‹output›, ‹progress›, ‹select›, and ‹textarea›.
 
 submittable
-Elements that can be used for constructing the form data set when the form is submitted. Contains <button>, <input>, <keygen>, <object>, <select>, and <textarea>.
+Elements that can be used for constructing the form data set when the form is submitted. Contains ‹button›, ‹input›, ‹keygen›, ‹object›, ‹select›, and ‹textarea›.
 
 resettable
-Elements that can be affected when a form is reset. Contains <input>, <keygen>, <output>,<select>, and <textarea>.
+Elements that can be affected when a form is reset. Contains ‹input›, ‹keygen›, ‹output›,‹select›, and ‹textarea›.
 
 ###### form itself
 
-A <form> element represents a form.
+A ‹form› element represents a form.
 the method attribute of form accepts post|get|dialog.
 post/get|use the POST/GET methods
-// for dialog see <dialog>
+// for dialog see ‹dialog›
 The action attribute for form specifies the URL to which the form should be submitted.
 Forms may not be nested.
 
 ###### fieldset
 
-A <fieldset> is an HTML element used to group multiple inputs (and their labels)
-The first child of a fieldset may be a <legend> (this is the only place it may appear), which captions its parent fieldset
+A ‹fieldset› is an HTML element used to group multiple inputs (and their labels)
+The first child of a fieldset may be a ‹legend› (this is the only place it may appear), which captions its parent fieldset
 
 ###### button
 
-The <button> HTML element represents a clickable button
-the type attribute for <button> represents the default functionality
+The ‹button› HTML element represents a clickable button
+the type attribute for ‹button› represents the default functionality
 submit|submit form data to server
 reset|reset form data
 button|no default behavior, must manually be implemented
@@ -485,14 +485,14 @@ textarea is not an empty element, and in fact the content can be used to provide
 
 ###### label
 
-A <label> provides a caption/label for a thing, most commonly an <input>
-There are two ways of associating an <input> with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
-Any input should have exactly one <label>, or alternatively a non <label> referred to by aria-labelledby
+A ‹label› provides a caption/label for a thing, most commonly an ‹input›
+There are two ways of associating an ‹input› with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
+Any input should have exactly one ‹label›, or alternatively a non ‹label› referred to by aria-labelledby
 
 ###### input
 
 specifying the value property of an input element in HTML sets its initial value.
-As the state of <input>s changes, the value property in JS is updated.
+As the state of ‹input›s changes, the value property in JS is updated.
 The validation states of an input are contained in the ValidationState API and corresponding property./
 
 ####### types
@@ -535,45 +535,45 @@ input type file return a `FileList`, which is a linear collection of `File`s
 
 ######## image
 
-Input type image supports the attributes <img> supports, in addition to the usual ones of input.
+Input type image supports the attributes ‹img› supports, in addition to the usual ones of input.
 When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
-The coordinates of an input type="image" will be submitted as <name>.x=<coord>&name.y=<coord>
+The coordinates of an input type="image" will be submitted as ‹name›.x=‹coord›&name.y=‹coord›
 
 ######## submit
 
 ####### attributes
 
-the boolean multiple attribute may be set on input type email/file and <select> elements.
+the boolean multiple attribute may be set on input type email/file and ‹select› elements.
 When the multiple attribute is set for input type email, emails are separated with the comma.
 Any input may have a form attribute to associate it with the id of its form owner.
-The list attribute of most text-like input types plus range and color accepts an id of a <datalist>, which represents a list of predefined values.
-The <datalist> HTML element contains a set of <option> to indicate a predefined value each.
+The list attribute of most text-like input types plus range and color accepts an id of a ‹datalist›, which represents a list of predefined values.
+The ‹datalist› HTML element contains a set of ‹option› to indicate a predefined value each.
 For most input types, the value attribute merely indicates an initial default, for input type radio/checkbox/image, the value attribute specicifies the value that will be sent if that thing is checked
 A checkbox or radio button with no value property will be sent as name=on.
 Radio buttons/checkbox inputs are only sent if they are checked.
 In a form, the name attribute becomes the key that the value being sent is associated with
 If the name of a thing in a form is not specified, the value is not sent.
 autofocus
-A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the <dialog> containing the element has been displayed).
+A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the ‹dialog› containing the element has been displayed).
 
 ##### select, option
 
-The <select> HTML element represents a control that provides a menu of options:
-The <option> HTML element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. 
-The <optgroup> HTML element creates a grouping of options within a <select> element.
+The ‹select› HTML element represents a control that provides a menu of options:
+The ‹option› HTML element is used to define an item contained in a ‹select›, an ‹optgroup›, or a ‹datalist› element. 
+The ‹optgroup› HTML element creates a grouping of options within a ‹select› element.
 to set the default option, specify the selected attribute on the option.
 
-By default, ⟮html `‹select›`⟯s will usually ⟮display as as a dropwdown⟯, and only ⟮become a list box⟯ if `⟮multiple⟯` (⟮allowing multiple selection::purpose⟯) or `⟮size⟯` (⟮specifying how many items to show at once::purpose⟯) is specified</span>
+By default, ⟮html `‹select›`⟯s will usually ⟮display as as a dropwdown⟯, and only ⟮become a list box⟯ if `⟮multiple⟯` (⟮allowing multiple selection::purpose⟯) or `⟮size⟯` (⟮specifying how many items to show at once::purpose⟯) is specified‹/span›
 
 ##### output
 
-The <output> HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
-<output> are often used within forms, however tehy are not submitted with the form.
+The ‹output› HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
+‹output› are often used within forms, however tehy are not submitted with the form.
 
 ##### script
 
-to include an external script, set the src attribute of the <script> element to its URL
-the <noscript> tag is for displaying content if the browser does not support JS
+to include an external script, set the src attribute of the ‹script› element to its URL
+the ‹noscript› tag is for displaying content if the browser does not support JS
 
 ##### Ruby 
 
@@ -593,7 +593,7 @@ A pull quote is an aside that is a quote from the article.
 
 In general, figures are images/diagrams/similar with a caption.
 In general, figures float (in the general sense).
-In HTML, the <figure> element specifies its caption with <figcaption>
+In HTML, the ‹figure› element specifies its caption with ‹figcaption›
 
 ##### float
 
@@ -639,8 +639,8 @@ to ⟮\label⟯ a ⟮table/figure⟯, the ⟮\label⟯ must go ⟮directly after
 
 ##### data
 
-<data> represents things that have a machine-readable translation
-<time> represents a time/date/duration.
+‹data› represents things that have a machine-readable translation
+‹time› represents a time/date/duration.
 
 ##### Lists
 
@@ -684,11 +684,11 @@ nav|navigation section
 
 ##### deprecated elements
 
-<menu> was supposed to be a semantic alternative to <ul> for menus, but is now deprecated
-<menuitem> was meant to be a child of <menu> if <menu> was a context menu, but is now deprecated.
-<dir> was supposed to be a semantic alternative to <ul> for directories of files and folders, but is now deprecated.
-<keygen> was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
-<font> was an element to style text, but is now deprecated.
+‹menu› was supposed to be a semantic alternative to ‹ul› for menus, but is now deprecated
+‹menuitem› was meant to be a child of ‹menu› if ‹menu› was a context menu, but is now deprecated.
+‹dir› was supposed to be a semantic alternative to ‹ul› for directories of files and folders, but is now deprecated.
+‹keygen› was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
+‹font› was an element to style text, but is now deprecated.
 
 #### content categories
 
@@ -710,10 +710,10 @@ Embedded content is a subset of flow content that imports another resource or in
 
 embedded cotnetn cotnains the media elements video and audio, image-related elements img, picture, and svg, math, frames, canvas, object, embed plus the obsolete elements applet
 
-<applet> was used to embed java applets, but is now obsolete.
-The <object> HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
-The <param> HTML element defines parameters for an <object> element.
-The <embed> HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
+‹applet› was used to embed java applets, but is now obsolete.
+The ‹object› HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
+The ‹param› HTML element defines parameters for an ‹object› element.
+The ‹embed› HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
 
 ‹math> and ‹svg> embed content in HTML from MathML and SVG respectively
 
@@ -728,11 +728,11 @@ The `cite` attribute can be used on ‹blockquote›, ‹q›, ‹ins›, ‹del
 The HTML autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field.
 The autocomplete attribute can be used on inputs that take a text-like value, textarea elements, select elements and form elements.
 The Boolean disabled attribute, when present, makes the element not mutable, focusable, or even submitted (if in a form).
-The disabled attribute is supported by <button>, <command>, <fieldset>, <keygen>, <optgroup>, <option>, <select>, <textarea> and <input>.
+The disabled attribute is supported by ‹button›, ‹command›, ‹fieldset›, ‹keygen›, ‹optgroup›, ‹option›, ‹select›, ‹textarea› and ‹input›.
 The value attribute specifies the value of a thing.
 If the value attribute of an element is pre-filled, it generally appears as a default.
 
-content within <video>/<audio>/<canvas> is shown as a fallback for browsers that don't support the element.
+content within ‹video›/‹audio›/‹canvas› is shown as a fallback for browsers that don't support the element.
 
 ##### Global attributes
 
@@ -743,7 +743,7 @@ the onevent event handlers
 xml:lang/xml:base — these are inherited from the XHTML specifications and deprecated, but kept for compatibility purposes.
 
 class, id
-HTML Microdata properties: item* (including on <meta>)
+HTML Microdata properties: item* (including on ‹meta›)
 translate: an enumerated attribute whether the element should be translated, e.g. by tools such as google translate.
 
 tabindex:
@@ -767,11 +767,11 @@ the title attribute is *generally* shown as a tooltip, unless the element implem
 ###### text editing only
 
 spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
-there are three places where text can be inputed in HTML: <input type="text">, <textarea> and anything w/ contenteditable
+there are three places where text can be inputed in HTML: <input type="text">, ‹textarea› and anything w/ contenteditable
 spellcheck: an enumerated attribute w/ "true" and "false" whether to check the spelling of the thing
 inputmode: specify the kind of text input that is required, thus allowing mobile devices to show appropriate soft keyboards
 inputmode is different from <input type="..."> in that it does not enforce any kind of validation, users *can* still input anything they want.
-inputmode value|shows|equivalent <input> type, if extant
+inputmode value|shows|equivalent ‹input› type, if extant
 none|no virtual keyboard
 text|default virtual keyboard
 decimal|keyboard with digits and decimal separtors, perhaps a -
@@ -801,7 +801,7 @@ $   running number indicator  // $
 
 ### SVG
 
-svg allows nesting `<svg>` elements
+svg allows nesting `‹svg›` elements
 
 #### attributes
 
@@ -874,30 +874,30 @@ SVG ⟮basic shapes⟯: ⟮‹circle›⟯, ⟮‹ellipse›⟯, ⟮‹line›�
 
 ###### rect
 
-A `<rect>` is determined by a `x`, `y`, `width` and `height`.
-A `<rect>` may optionally have a corner radius specified with `rx`, `ry`.
+A `‹rect›` is determined by a `x`, `y`, `width` and `height`.
+A `‹rect›` may optionally have a corner radius specified with `rx`, `ry`.
 
 ###### circle
 
-A `<circle>` is determined by `r`, `cx` and `cy` (center x center y)
+A `‹circle›` is determined by `r`, `cx` and `cy` (center x center y)
 
 ###### line
 
-A `<line>` is determined by `x1`, `y1`, `x2`, `y2`.
+A `‹line›` is determined by `x1`, `y1`, `x2`, `y2`.
 
 ###### polyline
 
 A polyline/polygon is a set of connected straight lines (e.g. you might draw a star or a parallelogram or sth. with this).
 A polyline/polygon is determined by a single attribute `points`
-poly-points ::= <point> {<point>}
-point ::= <x>, <y>
-The difference between a `<polyline>` and a `<polygon>` is that a `<polyline>` may be left open (creating a line), while a `<polygon>` is closed automatically.
+poly-points ::= ‹point› {‹point›}
+point ::= ‹x›, ‹y›
+The difference between a `‹polyline›` and a `‹polygon›` is that a `‹polyline›` may be left open (creating a line), while a `‹polygon›` is closed automatically.
 
 ###### path
 
-A `<path>` is determined by a single attribute `d`
-svg-path-specifier ::= <command>{ <command>}
-command ::= <command-letter>{ <parameter>}
+A `‹path›` is determined by a single attribute `d`
+svg-path-specifier ::= ‹command›{ ‹command›}
+command ::= ‹command-letter›{ ‹parameter›}
 All path commands end with the coordinates of the 'current point' or the 'pen' (to follow the analogy of a plotter).
 
 ####### commands 
@@ -951,7 +951,7 @@ The 5th parameter of the svg arc command selects whether to take the clockwie ar
 https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/svgarcs_xaxisrotation_with_grid_ellipses.png
 https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f3b-b266d825bec1.png
 
-##### <text>
+##### ‹text›
 
 `the ⟮‹text›⟯` element is ⟮the only place⟯ you can ⟮have text in SVG⟯ 
 In ⟮SVG⟯, ⟮text⟯ ⟮outside of a ‹text›⟯ ⟮will not be shown⟯ 
@@ -959,33 +959,33 @@ In ⟮SVG⟯, ⟮text⟯ ⟮outside of a ‹text›⟯ ⟮will not be shown⟯
 
 ###### tspan
 
-for a `<tspan>`, `x` and `y` attributes set a new absolute position, while `dx` and `dy` specify a relative displacment.
+for a `‹tspan›`, `x` and `y` attributes set a new absolute position, while `dx` and `dy` specify a relative displacment.
 the `rotate` attribute of tspan allows it to, well`, rotate.
 
 ###### textPath
 
-`<textPath>`s are nested withing `<text>`
-`<textPath>`s contain tex that they make follow a path, allowing e.g. for curved text.
-`<textPath>` refers to the relevant path's id via an href
+`‹textPath›`s are nested withing `‹text›`
+`‹textPath›`s contain tex that they make follow a path, allowing e.g. for curved text.
+`‹textPath›` refers to the relevant path's id via an href
 
-##### <g>
+##### ‹g›
 
 the ⟮svg⟯ ⟮‹g› element⟯ is used to ⟮group ofther elements⟯ 
 
-##### <use>
+##### ‹use›
 
-`<use>` is used to instantiate elements defined elsewhere.
-`<use>` takes an href attribute, which is the id of the element to be instantiated.
-Using `<use>` promotes element reuse, thus making your SVG code more DRY.
-On `<use>`, the `x`, `y`, `width`, `height` attributes will override those of the referenced element, all others will not.
+`‹use›` is used to instantiate elements defined elsewhere.
+`‹use›` takes an href attribute, which is the id of the element to be instantiated.
+Using `‹use›` promotes element reuse, thus making your SVG code more DRY.
+On `‹use›`, the `x`, `y`, `width`, `height` attributes will override those of the referenced element, all others will not.
 
 ##### defs
 
-`<defs>` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
-There are things that can only be defined in `<defs>`, however you can also place any normal element in `<defs>`, which will then not be displayed, but can be reused.
-Any child of `<defs>` must have an id attribute to be referred to from elsewhere.
-`<symbol>` works similarly to e.g. a `<defs>` with a single `<g>` child, in that it defines a resuable element that doesn't immediately display.
-The difference between `<symbol>` and `<defs>` with e.g. a `<g>` child is that `<symbol>` can define its own viewBox and preserveAspectRatio.
+`‹defs›` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
+There are things that can only be defined in `‹defs›`, however you can also place any normal element in `‹defs›`, which will then not be displayed, but can be reused.
+Any child of `‹defs›` must have an id attribute to be referred to from elsewhere.
+`‹symbol›` works similarly to e.g. a `‹defs›` with a single `‹g›` child, in that it defines a resuable element that doesn't immediately display.
+The difference between `‹symbol›` and `‹defs›` with e.g. a `‹g›` child is that `‹symbol›` can define its own viewBox and preserveAspectRatio.
 
 ###### whateverUnits
 
@@ -1005,7 +1005,7 @@ filterUnitas|objectBoundingBox
 ##### fill types
 
 Fill types are used to `fill` objects
-Fill types are defined within the `<defs>` section, but referenced elsewhere.
+Fill types are defined within the `‹defs›` section, but referenced elsewhere.
 The available fill types are gradients, patterns.
 
 ###### referencing
@@ -1015,20 +1015,20 @@ Fill types are referenced by referring to their ID within `fill`, e.g. as `url(#
 ###### gradients
 
 In SVG, there are two types of gradients, linear and radial.
-linear gradients are defined by `<linearGradient>`, radial gradients by `<radialGradient>`
-A gradient contains n `<stop>`s
+linear gradients are defined by `‹linearGradient›`, radial gradients by `‹radialGradient›`
+A gradient contains n `‹stop›`s
 
 ####### stops
 
-A `<stop>` tells the gradient what color it should be at a certain point.
-The color a `<stop>` should be is defined by its `stop-color` attribute
-At what point a `<stop>` exists is defined by its `offset` attribute.
+A `‹stop›` tells the gradient what color it should be at a certain point.
+The color a `‹stop›` should be is defined by its `stop-color` attribute
+At what point a `‹stop›` exists is defined by its `offset` attribute.
 
 ####### linear and radial
 
 ######## linearGradient
 
-A `<linearGradient>` takes four attributes `x1` `y1` `x2` `y2` to define a line along which the gradient travels (relative to the thing it's being used for)
+A `‹linearGradient›` takes four attributes `x1` `y1` `x2` `y2` to define a line along which the gradient travels (relative to the thing it's being used for)
 
 ######## radialGradient
 
@@ -1052,19 +1052,19 @@ reflect|restart the gradient, but in reverse from 100%/1
 
 ###### patterns
 
-Inside the `<pattern>` element, you can include any of the other basic shapes, styled in whatever manner you like.
+Inside the `‹pattern›` element, you can include any of the other basic shapes, styled in whatever manner you like.
 
 ##### clipping and masking
 
 In SVG at least, the difference between clipping and masking is that clipping allows only for hard edges, while masking allows for soft edges by using transparency/grey values.
-In SVG, clipping is done by using the `<clipPath>` element, while masking is done by using the `<mask>` element.
-`<clipPath>` and `<mask>` are defined within `<defs>`.
-`<clipPath>` and `<mask>` take arbitrary child elements to define their shape.
+In SVG, clipping is done by using the `‹clipPath›` element, while masking is done by using the `‹mask›` element.
+`‹clipPath›` and `‹mask›` are defined within `‹defs›`.
+`‹clipPath›` and `‹mask›` take arbitrary child elements to define their shape.
 
 ##### filters
 
-Filters are defined by the `<filter>` element.
-Filters are specified within `<defs>`.
+Filters are defined by the `‹filter›` element.
+Filters are specified within `‹defs›`.
 
 ###### filter primitives
 
@@ -1097,14 +1097,14 @@ The `feFlood` filter primitive creates a rectangle filled with the color and opa
 
 The filter region is the area of the input that is affected by the filter.
 Interestingly, the filter region does not have to be the same as the region occupied by the element using the filter.
-The filter region is defined by the `<filter>` element's `x`, `y`, `width`, and `height` attributes.
+The filter region is defined by the `‹filter›` element's `x`, `y`, `width`, and `height` attributes.
 The default filter region (if none of the attributes are manually specified) is the bounding box of the input plus 10% on each side.
 any filter primitive themselves establish a filter primitive subregion.
 Filter primitive subregions are altered just as the normal filter region is (by specifying the `x`, `y`, `width`, and `height` attributes).
 
 ###### applying filters
 
-To apply a `<filter>` to an SVG element, you refer to its ID (via url()) within the `filter` attribute of the element.
+To apply a `‹filter›` to an SVG element, you refer to its ID (via url()) within the `filter` attribute of the element.
 You can also apply a SVG filter to a HTML element, by using the normal `filter` property.
 
 ##### markers
@@ -1113,8 +1113,8 @@ A marker is a type of symbol that gets attached to one or more vertices of a pat
 
 ###### defining markers
 
-You create markers with `<marker>` elements.
-Markers are defined within `<defs>`.
+You create markers with `‹marker›` elements.
+Markers are defined within `‹defs›`.
 Markers can contain other SVG elements.
 The markerWidth and markerHeight attributes define the width and height of the marker’s viewport. 
 The `refX` and `refY` attributes define the reference point (i.e. the point at which its attached) of the marker relative to its viewport.
@@ -1130,32 +1130,32 @@ One would think that `marker-mid` would place the marker at the midpoint of the 
 
 ##### images
 
-SVG allows the embedding of images via `<image>`.
-the URL for the `<image>` is defined by the `href` attribute.
+SVG allows the embedding of images via `‹image›`.
+the URL for the `‹image›` is defined by the `href` attribute.
 
 ##### foreignObject
 
-SVG allows the embedding of arbitrary other *ML content within `<foreignObject>`.
+SVG allows the embedding of arbitrary other *ML content within `‹foreignObject›`.
 
 ##### desc and title
 
-`<desc>` and `<title>` are used to add a text description to an element.
-`<desc>` and `<title>` are nested within the element they describe.
-If an element can be described by visible text, it is recommended to reference that text with an aria-labelledby attribute rather than using the `<title>` or `<defs>` element.
+`‹desc›` and `‹title›` are used to add a text description to an element.
+`‹desc›` and `‹title›` are nested within the element they describe.
+If an element can be described by visible text, it is recommended to reference that text with an aria-labelledby attribute rather than using the `‹title›` or `‹defs›` element.
 
 ##### switch
 
-`<switch>` is used to conditionally render an element.
-Conditions for `<switch>` are defined by certain attributes on its direct children.
+`‹switch›` is used to conditionally render an element.
+Conditions for `‹switch›` are defined by certain attributes on its direct children.
 There are two possible conditions currently, the rarely used `requiredExtensions` and `systemLanguage`.
 `systemLanguage` takes a comma-separated list of BCP 47 language tags.
-`<switch>` renders the first child where its conditions evaluate to true.
-`<switch>` is basically only used to localize SVG content.
+`‹switch›` renders the first child where its conditions evaluate to true.
+`‹switch›` is basically only used to localize SVG content.
 
 ##### metadata
 
-`<metadata>` is used to store metadata about an SVG document.
-The content of `<metadata>` should be elements from other XML namespaces such as RDF, FOAF, etc..
+`‹metadata›` is used to store metadata about an SVG document.
+The content of `‹metadata›` should be elements from other XML namespaces such as RDF, FOAF, etc..
 
 ### JSX
 
@@ -1192,8 +1192,8 @@ use-cases for the sx prop are css variables, css properties for which there are 
 
 react-bootstrap implements boostrap components as react/JSX components
 for react-bootstrap, components must be individually imported via react-bootstrap/ComponentName
-ergo, components named via class names become <ComponentName>
-parts of components become <ComponentName.Part>
+ergo, components named via class names become ‹ComponentName›
+parts of components become ‹ComponentName.Part›
 properties that were implemented as key-value classes in Bootstrap become normal key="value" porps
 react-bootstrap specifically, theme-color becomes `variant` (prob inspired by other react libraries)
 
@@ -1289,29 +1289,22 @@ A static NodeList (or similar) does not reflect changes in the DOM
 
 ##### types of
 
-
-    <tr>
-      <th colspan="5">⟮Node⟯
-others...|
-
-            <tr>
-              <th colspan="3">⟮Element⟯
-others...|<span class="c10-cloze c12-scr">HTMLElement</span>|<span class="c11-cloze c12-scr">SVGElement</span>
-
-      |
-
-            <tr>
-              <th colspan="2">⟮Document⟯
-<span class="c6-cloze c8-scr">HTMLDocument</span>|<span class="c7-cloze c8-scr">XMLDocument</span>
-
-      |<table>⟮DocumentFragment⟯
-</tbody></table>|
-<tr>
-            <th colspan="3">⟮CharacterData⟯
-<span class="c2-cloze c1-scr">Text</span>|<span class="c3-cloze c1-scr">Comment</span>|<span class="c4-cloze c1-scr">ProcessingInstruction</span>
-
-        </tbody></table>
-
+onion-box:
+⟮Node⟯
+  others...
+  ⟮Element⟯
+    others...
+    HTMLElement
+    SVGElement
+  ⟮Document⟯
+    HTMLDocument
+    XMLDocument
+  ⟮DocumentFragment⟯
+  ⟮CharacterData⟯
+    Text
+    Comment
+    CDATASection
+    ProcessingInstruction
 
 ##### Elements
 
@@ -1357,8 +1350,8 @@ document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
 qs and qsa can be called on document for a global search, or on an element for a search only on that elements children.
 qsa returns a static NodeList
-document.getElementBy<whatever>() returns HTMLCollections.
-document.getElementBy<whatever> has four variants ById, ByClassName, ByTagName
+document.getElementBy‹whatever›() returns HTMLCollections.
+document.getElementBy‹whatever› has four variants ById, ByClassName, ByTagName
 Element.closest(selector)|get the closest ancestor element which matches the selector
 
 #### other interfaces & classes
@@ -1419,7 +1412,7 @@ The Intersection Observer API provides a way to asynchronously observe changes i
 
 #### misc
 
-window.getComputedStyle(<element>) gets a read-only CSSStyleDeclaration.
+window.getComputedStyle(‹element›) gets a read-only CSSStyleDeclaration.
 
 ### navigator
 
@@ -1447,11 +1440,11 @@ The EventTarget interface is implemented by objects that can receive events and 
 
 #### event handler registration
 
-event handler registration can be done via the content and IDL attribute on<event> or EventTarget.addEventListener()
-the on<event> attribute takes a function to call.
-on<event> doesn't work on non-`Elements`
+event handler registration can be done via the content and IDL attribute on‹event› or EventTarget.addEventListener()
+the on‹event› attribute takes a function to call.
+on‹event› doesn't work on non-`Elements`
 addEventListener allows for registration of more than one event handler for the same event on the same EventTarget.
-on<event> usage is not recommended, as it will overwrite other event handlers registered on the same element.
+on‹event› usage is not recommended, as it will overwrite other event handlers registered on the same element.
 event handlers get an `Event` as an argument.
 
 to work, we must pass removeEventListener the event as well as the ⁑exact same function object⁑
@@ -1472,7 +1465,7 @@ Event.currentTarget / this returns a reference to the thing on which the Event i
 
 ##### defaults
 
-calling Event.preventDefault() or returning false from an on<event> handler prevents the default
+calling Event.preventDefault() or returning false from an on‹event› handler prevents the default
 touchstart, touchmove (FF, Chrome, Edge) have passive: true by default
 tell the browser that you won't call preventDefault()   3rd option of addEventListener {passive: true}
 Event.defaultPrevent|was a default prevented?
@@ -1488,7 +1481,7 @@ node handles events in the module `event`, where everything that can have events
 
 ##### EventEmitter methods
 
-on(<name>, <callback>)|add event handler
+on(‹name›, ‹callback›)|add event handler
 off/removeListener|remove an event handler
 once|add one-time event handler
 emit|trigger an event
@@ -1546,16 +1539,16 @@ AssemblyScript is a TypeScript-based programming language that is compiled to We
 
 CSS = Cascading Style Sheet
 
-S ::= {<statement>}
-statement ::= <ruleset>|<at-rule>
-ruleset ::= <selector-list><declaration-block>
+S ::= {‹statement›}
+statement ::= ‹ruleset›|‹at-rule›
+ruleset ::= ‹selector-list›‹declaration-block›
 rulesets are less properly but more commonly called rules
-selector-group ::= <selector>{,<selector>}
-declaration-block ::= \{<declaration-list>\}
-declaration-list ::= {<declaration>}
-declaration :: <property>:<value>; // Technically, the ; is not a part of the declaration, since it only separates and does not terminate declarations. Therefore you can leave out the final semicolon of a declaration block, though this is generally not advised. This would overcomplicate the ENBF, so here this note.
+selector-group ::= ‹selector›{,‹selector›}
+declaration-block ::= \{‹declaration-list›\}
+declaration-list ::= {‹declaration›}
+declaration :: ‹property›:‹value›; // Technically, the ; is not a part of the declaration, since it only separates and does not terminate declarations. Therefore you can leave out the final semicolon of a declaration block, though this is generally not advised. This would overcomplicate the ENBF, so here this note.
 
-at-rule ::= @<identifier> <prelude>[\{<block>\}]
+at-rule ::= @‹identifier› ‹prelude›[\{‹block›\}]
 At rules that have the optional block are known as nested at-rules.
 the block that an at-rule may take is explicitly specified by the spec not to be the same as the declaration block of a ruleset, and therefore not at all subject to the same syntax. Nested at-rules may however *choose to* follow the same syntax as a declaration block.
 nested at-rules whose block is a declaration block: @counter-style, @font-face
