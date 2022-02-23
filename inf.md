@@ -1577,10 +1577,10 @@ A selector list is a list of any or multiple types of selectors, separated by co
 A selector list most often means a list of complex selectors.
 A selector list is also called called selector group.
 
-selector-list (default complex selector meaning) ::= <complex-selector>{,<complex-selector>}
-complex-selector ::= <compound-selector>{[<combinator>]<compound-selector>}
-compound-selector ::= <simple-selector>{<simple-selector>}
-simple-selector ::= <type-selector>||<universal-selector>||<attribute-selector>||<class-selector>||<id-selector>||<pseudo-class-selector>||<pseudo-element-selector>
+selector-list (default complex selector meaning) ::= ‹complex-selector›{,‹complex-selector›}
+complex-selector ::= ‹compound-selector›{[‹combinator›]‹compound-selector›}
+compound-selector ::= ‹simple-selector›{‹simple-selector›}
+simple-selector ::= ‹type-selector›||‹universal-selector›||‹attribute-selector›||‹class-selector›||‹id-selector›||‹pseudo-class-selector›||‹pseudo-element-selector›
 
 #### Selectors
 
@@ -1592,15 +1592,15 @@ simple-selector ::= <type-selector>||<universal-selector>||<attribute-selector>|
 
 Syntax of universal selector ::= *
 the universal selector matches everything
-Syntax of type selector ::= <name>
-the type selector matches any element with the given nodename (so foo will match any <foo>)
-Syntax of class selector ::= .<name>
+Syntax of type selector ::= ‹name›
+the type selector matches any element with the given nodename (so foo will match any ‹foo›)
+Syntax of class selector ::= .‹name›
 The class selector matches any element with the given class
-Syntax of id selector ::= #<name>
+Syntax of id selector ::= #‹name›
 The id selector matches any element with the given ID
 The attribute selector matches any element where a certain attribute is a certain way.
-Syntax of attribute selector ::= \[<attr>[<operator><alue>]\]
-no operator (and no value) [<attr>]|just elements with attribute present
+Syntax of attribute selector ::= \[‹attr›[‹operator›‹value›]\]
+no operator (and no value) [‹attr›]|just elements with attribute present
 = [attr=value]|attr is exactly value
 
 
@@ -1612,7 +1612,7 @@ A pseudo-class indicates a state of an element
 A pseudo-class is begun by a single colon
 
 :empty| matches an element that has no child **nodes** (including text nodes)
-:not(<selector-list>) matches elements that don't match selector-list.
+:not(‹selector-list›) matches elements that don't match selector-list.
 :not() is a pseudo-class, but has no influence on specificity
 :root selects the root element
 :indeterminate selects indeterminate element.
@@ -1648,14 +1648,14 @@ Child-indexed pseudo-classes end -child
 For any child-indexed pseudo class there is an equivalent typed child-indexed pseudo-class that ends -of-type isntea of -child
 Typed child-indexed pseudo-classes are tree-structural pseudo-classes that select elements based on their index among siblings of the same type.
 
-:nth-child(<nth>)  Selects every ‹p› element that is the <nth> child of its parent  
-:nth-last-child(<nth>)  Selects every ‹p› element that is the <nth> child of its parent, counting from the last child  
+:nth-child(‹nth›)  Selects every ‹p› element that is the ‹nth› child of its parent  
+:nth-last-child(‹nth›)  Selects every ‹p› element that is the ‹nth› child of its parent, counting from the last child  
 :first-child  Selects every ‹p› element that is the first child of its parent  
 :last-child  Selects every ‹p› element that is the last child of its parent  
 :only-child  Selects every ‹p› element that is the only child of its parent  
 
-nth ::= <an-plus-b>|even|odd
-an-plus-b ::= <integer>n+<integer>
+nth ::= ‹an-plus-b›|even|odd
+an-plus-b ::= ‹integer›n+‹integer›
 
 ####### link-related pseudo-classes
 
@@ -1681,13 +1681,13 @@ A pseudo-element is begun by two colons
 ::after, ::before
 In CSS, ::before/::after creates a pseudo-element that is the first/last child of the selected element. 
 content can only be usefully be used on ::after and ::before
-content-values ::= normal|none|({<content-specifier>} / <alt-text>)
-alt-text ::= <string>|<counter>
+content-values ::= normal|none|({‹content-specifier›} / ‹alt-text›)
+alt-text ::= ‹string›|‹counter›
 the content-specifier can be a bunch of different things
 a ::before/::after pseudo-element will not display if it does not have content.
 
 ::placeholder|matches placeholder text
-In HTML/CSS, <input> and <textarea> can have placeholder text in form of a placeholder attribute.
+In HTML/CSS, ‹input› and ‹textarea› can have placeholder text in form of a placeholder attribute.
 ::selection|matches text currently selected/highlighted by the user via cursor/touch etc.
 ::selection only supports a subset of properties, mainly color, background-color and text-shadow.
 ::first-letter|matches the first letter of a block-level element
@@ -1787,7 +1787,7 @@ Accessing: var(--var-name)
 
 ##### vendor prefixes
 
-vendor prefixes have the syntax -<vendorname>-<propertyname>
+vendor prefixes have the syntax -‹vendorname›-‹propertyname›
 webkit|any webkit-based (and thus also blink-based) browser besides edge
 moz|firefox
 o|pre-webkit opera
@@ -1828,11 +1828,11 @@ position: sticky will be in the flow of the document until scrolled to its offse
 ###### Cursor
 
 `cursor` sets how the cursor looks when mousing over (generally irrelevant for touchscreens).
-`cursor` value syntax {<url> <x> <y>,} <keyword>
+`cursor` value syntax {‹url› ‹x› ‹y›,} ‹keyword›
 When specifying an url() for cursor, the x and y values specify the offset in px of the hotspot of the cursor
 `cursor: none` hides the cursor.
 `cursor: default` shows the platform-default cursor.
-Other <keyword>s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
+Other ‹keyword›s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
 
 ###### Caret
 
@@ -1844,7 +1844,7 @@ In a basic sense, CSS scroll snap is for snapping to specific scroll points
 For scroll snap to do anything, you have to specify scroll-snap-type and scroll-snap-align.
 For scroll snap, you specify scroll-snap-type on the parent and scroll-snap-align on the children.
 
-scroll-snap-type-values ::= <axis> [mandatory|proximity]
+scroll-snap-type-values ::= ‹axis› [mandatory|proximity]
 axis ::= x|y|block|inline|both
 
 the axis part of scroll-snap-type determines along which axis to snap. Here, block and inline refer to the relevant axes.
@@ -1862,7 +1862,7 @@ While scroll-padding is set on the parent, scroll-margin is set on the child, an
 
 width and height each have corresponding min- and max- properties
 power of width and height properties: min- > max- > ø
-width and height and corresponding min/max values take the following values: <lpminmaxauto>|fit-content(<length-percentage>)
+width and height and corresponding min/max values take the following values: ‹lpminmaxauto›|fit-content(‹length-percentage›)
 
 What width and height size depends on the box-sizing property
 content-box|width and height size content-box
@@ -1944,7 +1944,7 @@ For flexbox, if flex-direction is column or column-reverse, the main axis corres
 
 the gap, row-gap and column-gap specifiy gutters between items in a flex/multi-column/grid container.
 gap is a shorthand for row-gap and column-gap, if only one value is specified, it sets them to the same value.
-the three gap properties take a <length-percentage>
+the three gap properties take a ‹length-percentage›
 For multi-column containers, row-gap currently does nothing.
 for flex containers, column-gap specifies minimum spacing between flex items, and row-gap specifies minimum spacing between flex lines if flex-direction is row or row-reverse, otherwise what column-gap and row-gap do is reversed.
 For the gap, row-gap and column-gap there exist the now archaic grid-* aliases.
@@ -1965,16 +1965,16 @@ there are three grid-auto properties, grid-auto-column & -rows and grid-flow
 grid-template-columns & -rows define how many columns/rows of which size the explicit grid wil contain.
 grid-auto-columns & -rows define what size columns/rows the auto placement algorithm will add.
 specifying multiple values for grid-auto-columns & -rows specifies a pattern which to follow.
-grid-template-columns & rows take the same values, which i will call <grid-template-values>
+grid-template-columns & rows take the same values, which i will call ‹grid-template-values›
 
-grid-template-rc-values ::= {[<line-names> ](<flex-l-p-min-max-auto-mm>|<repeat>)}[ <line-names>]
-grid-auto-values ::= <flex-l-p-min-max-auto-mm> {<flex-l-p-min-max-auto-mm>}
+grid-template-rc-values ::= {[‹line-names› ](‹flex-l-p-min-max-auto-mm›|‹repeat›)}[ ‹line-names›]
+grid-auto-values ::= ‹flex-l-p-min-max-auto-mm› {‹flex-l-p-min-max-auto-mm›}
 
-minmax ::= minmax\(<l-p-min-max-auto>|<flex-l-p-min-max-auto>\)
+minmax ::= minmax\(‹l-p-min-max-auto›|‹flex-l-p-min-max-auto›\)
 The minmax() CSS function defines a size range greater than or equal to min and less than or equal to max. It is used with CSS Grids.
-l-p-mm ::= <length-percentage>|<minmax>
-flex-l-p-min-max-auto-mm ::= <flex-l-p-min-max-auto>|<minmax>
-line-names-and-track-size ::= [<line-names> ]<flex-l-p-min-max-auto-mm>
+l-p-mm ::= ‹length-percentage›|‹minmax›
+flex-l-p-min-max-auto-mm ::= ‹flex-l-p-min-max-auto›|‹minmax›
+line-names-and-track-size ::= [‹line-names› ]‹flex-l-p-min-max-auto-mm›
 
 the repeat() function repeats the pattern specified for the amount of times specified, or until something is full.
 the auto-* keywords for repeat creates rows until creating more would overflow.
@@ -1985,21 +1985,21 @@ Using grid-template properties, you can assign line names to grid lines, to be u
 If the same name is used for multiple grid lines, they will be numbered by a so-called occurrence number starting at the second one, which is separated by a space
 Grid lines are numbered staring at 1
 
-repeat ::= repeat\((<integer>|<auto-keyword>), {<line-names-and-track-size>}[ <line-names>]\)
+repeat ::= repeat\((‹integer›|‹auto-keyword›), {‹line-names-and-track-size›}[ ‹line-names›]\)
 auto-keyword ::= auto-fill|auto-fit # my own name
 
-line-names ::= [<custom-ident>{ <custom-ident>}]
+line-names ::= [‹custom-ident›{ ‹custom-ident›}]
 
 grid-template-area manually created named grid areas made up of the specified cells.
 Within grid-template-areas . refers to an empty grid cell
 
-grid-template-area-values ::= <grid-string>{<grid-string>}
-grid-string ::= "<cell-specifier>{ { }<cell-specifier>}"
-cell-specifier ::= <string>|.{.}
+grid-template-area-values ::= ‹grid-string›{‹grid-string›}
+grid-string ::= "‹cell-specifier›{ { }‹cell-specifier›}"
+cell-specifier ::= ‹string›|.{.}
 
-grid-template-values ::= <grid-template-row-columns>|<grid-template-row-coolumns-areas>
-grid-template-row-columns ::= <grid-template-rc-values> / <grid-template-rc-values>
-grid-template-row-coolumns-areas ::= {<grid-string> <flex-l-p-min-max-auto-mm>} / <grid-template-rc-values>
+grid-template-values ::= ‹grid-template-row-columns›|‹grid-template-row-coolumns-areas›
+grid-template-row-columns ::= ‹grid-template-rc-values› / ‹grid-template-rc-values›
+grid-template-row-coolumns-areas ::= {‹grid-string› ‹flex-l-p-min-max-auto-mm›} / ‹grid-template-rc-values›
 
 grid-auto-flow-values ::= [row | column] [dense]
 grid-auto-flow: row makes it add auto-positioned elements to rows, adding new rows as necessary (and respectively for grid-auto-flow: column)
@@ -2019,16 +2019,16 @@ grid areas and grid lines
 grid-area allows placing an item at a grid-area created manually or automatically, taking up that space
 grid-area dots
 
-grid-column/row-start/end take the same set of values, <grid-line>
+grid-column/row-start/end take the same set of values, ‹grid-line›
 grid-column/row-start/end specify the edges of an items grid area
 Most basically, grid-column/row-start/end either position using an integer, or using a grid line name.
 specifying an integer for grid-column/row-start/end positions it at that number gridline.
 specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start).
 specifying an custom-ident while also specifying an integer and span for grid-column/row-start/end positions it that many grid lines from the start (if end) or from the end (if start), counting only gri lines with the custom-ident
-specifying a custom-ident for grid-column/row-start/end positions it at <custom-ident>-start(if start)/-end(if end)
-grid-line ::= auto | <custom-ident> | [span] [<integer>] [<custom-ident>] # slightly simplified
+specifying a custom-ident for grid-column/row-start/end positions it at ‹custom-ident›-start(if start)/-end(if end)
+grid-line ::= auto | ‹custom-ident› | [span] [‹integer›] [‹custom-ident›] # slightly simplified
 grid-row/column are shorthand for -start/-end
-grid-row-values, grid-column-values ::= <grid-line>[ / <grid-line>]
+grid-row-values, grid-column-values ::= ‹grid-line›[ / ‹grid-line›]
 grid-area basically takes two kind of values, the name of a grid area, or four specifiers for row/column start/end, specified in the order rs / cs / re / ce.
 
 grid items may be placed in the same area, i.e. they may overlap, even completely.
@@ -2065,11 +2065,11 @@ pointer-events: ⟮none⟯ makes a thing completely ininteractable with a mouse.
 ###### Text
 
 The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
-the color keyword sets the color of the text and text decorations and accpets a <color> value.
+the color keyword sets the color of the text and text decorations and accpets a ‹color› value.
 
 word-spacing sets the additional space between words beyond the space there by default. 
-word-spacing takes a <length-percentage>
-letter-spacing takes a <length> to add/subtract from the usual letter-spacing/tracking.
+word-spacing takes a ‹length-percentage›
+letter-spacing takes a ‹length› to add/subtract from the usual letter-spacing/tracking.
 
 the quotes property sets the quotes that the open-quotes and close-quotes of content will evaluate to.
 the quotes property is inherited and so doesn't have to be set on the thing with the content property
@@ -2080,8 +2080,8 @@ none|will not hyphenate, even if manually indicated via ＆shy;
 manual|only at places indicated via ＆shy;
 auto|language-dependent auto-hyphenation (may not work depending on platform or language)
 
-text-indent takes a <length-percentage> which specifies how much to indent the first line box.
-tab-size accepts a <length> to specify the width of the tab character, or an <integer> to specify its width in multiples of the space character
+text-indent takes a ‹length-percentage› which specifies how much to indent the first line box.
+tab-size accepts a ‹length› to specify the width of the tab character, or an ‹integer› to specify its width in multiples of the space character
 
 text-align aligns elements within line boxes along the inline base direction.
 vertical-align algins elements within line boxes along the block flow direction.
@@ -2129,15 +2129,15 @@ overscroll-behavior: contain will prevent scroll chaining only
 The background: property is a shorthand for ⟮background-clip⟯, ⟮background-color⟯, ⟮background-image⟯, ⟮background-origin⟯, ⟮background-position⟯, ⟮background-repeat⟯, ⟮background-size⟯ and ⟮background-attachment⟯
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
 while single values for background-repeat generally specify both x and y, there are the single values repeat-x and repeat-y that will only repeat in the specified ways.
-background-repeat takes one or two <repeat>s
-background-color: <color>
+background-repeat takes one or two ‹repeat›s
+background-color: ‹color›
 background-color is rendered behind background-image
 background-clip specifies where to clip the background, background-origin specifies from where the background should start, which may be the same, but often aren't
-background-clip: <b-p-c-box-text>
-background-origin: <b-p-c-box>
-background-image: <image>
+background-clip: ‹b-p-c-box-text›
+background-origin: ‹b-p-c-box›
+background-image: ‹image›
 
-background-size-values: contain|cover|auto|(<length-percentage> [<length-percentage>])
+background-size-values: contain|cover|auto|(‹length-percentage› [‹length-percentage›])
 background-size: contain/cover are similar in functionality to the object-fit values.
 background-size: auto behaves similarly to object-fit: none.
 giving background-size a length or percentage makes it exactly that wide if one value, or exactly that wide and high if two values.
@@ -2146,7 +2146,7 @@ All background properties may take a CSL to specify multiple backgrounds.
 
 
 background-attachment specifies how the background interacts with scrolling (it has a bunch of keyword values that I can't remember)
-background-position takes a <position> value to position the background.
+background-position takes a ‹position› value to position the background.
 
 ###### edges
 
@@ -2160,8 +2160,8 @@ Shorthand for edges in CSS use a consistent syntax:
 Normally, instead of using the shorthand, you can also set the properties individually by using -top(-), -left(-), -bottom(-), -right(-) properties.
 Things in css that take the edge shorhand and also have four individual properties to set them: border (border, border-color, border-width, border-style), margin, padding, scroll-padding, scroll-margin
 
-typically, any edge width is specified as a <length-percentage>
-<length-percentage-edges> ::= <length-percentage> [<length-percentage>] [<length-percentage>] [<length-percentage>]
+typically, any edge width is specified as a ‹length-percentage›
+‹length-percentage-edges› ::= ‹length-percentage› [‹length-percentage›] [‹length-percentage›] [‹length-percentage›]
 
 ####### css box model
 
@@ -2180,7 +2180,7 @@ the border logical property can be split into width, style and color as per usua
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
 Notably, outline is similar to border in that it is composed of -width, -style, -color, but that in contrast to border, neither it itself nor its three subproperties are shorthands for the sides, nor are there individual properties for the sides - you either set the outline on all sides, or none at all.
-Outlines can be moved away from its box via outline-offset: <length>
+Outlines can be moved away from its box via outline-offset: ‹length›
 
 ######## border-image
 
@@ -2188,15 +2188,15 @@ Outlines can be moved away from its box via outline-offset: <length>
 `border-image` is shorthand for `-source`, `-slice`, `-width`, `-outset` and `-repeat`.
 most `border-image` properties take the edge shorthand, exept for `-repeat`, which only takes up to two values, and `-source`, which only takes one at most.
 none of the `border-image-whatever` has corresponding -top, -left... properties.
-`border-image-source` takes the <image> representing the border image
-`border-image-outset` takes (up to four) of <length> or <number>, where a <number> specifies multiples of `border-width`
-`border-image-width` takes (up to four of) <length-percentage> or <number>, where a <number> specifies a multiple of a border-width.
+`border-image-source` takes the ‹image› representing the border image
+`border-image-outset` takes (up to four) of ‹length› or ‹number›, where a ‹number› specifies multiples of `border-width`
+`border-image-width` takes (up to four of) ‹length-percentage› or ‹number›, where a ‹number› specifies a multiple of a border-width.
 `border-image-repeat` takes 1-2 repeats (working as 1-2 values would normally using the edge syntax)
 `border-image-slice` governs how the image specified by is divided.
 Specifically, `border-image-slice` specifies the measurements of the part of the border image taken for the corners, with the leftover being used for the sides.
-`border-image-slice` takes 1-4 <number> or <percentage> plus the optional fill keyword.
-for `border-image-slice`, a <number> without unit specifies pixels for some reason.
-for `border-image-slice`, a <percentage> specifies a propertion of the `border-image`'s size
+`border-image-slice` takes 1-4 ‹number› or ‹percentage› plus the optional fill keyword.
+for `border-image-slice`, a ‹number› without unit specifies pixels for some reason.
+for `border-image-slice`, a ‹percentage› specifies a propertion of the `border-image`'s size
 for `border-image-slice`, using the fill keyword specifies that the part of the image not sliced for the border (the center) should be used as a background-image for the element, but stacked above the actual `background`
 If we specified `border-image-slice: 33%`, this means that all corners would take 33% of the image, leaving 33% to be stretched/repeated/whatever for the sides.
 `border-image-slice` takes the full range of the edge syntax, but interprets it different than most: In general, the lengths describe the lengths of the sides of a single corner.
@@ -2234,9 +2234,9 @@ text-decoration functions similar to 'lines', in that it is a shorhand for -widt
 Lines have following shorthand and respective subproperties:
 foo: foo-width || foo-style || foo-color
 
-where foo-width takes a <line-width>
-line-width ::= thin|medium|thick|<length>
-where foo-style takes a <line-style>
+where foo-width takes a ‹line-width›
+line-width ::= thin|medium|thick|‹length›
+where foo-style takes a ‹line-style›
 
 line-style
 hidden|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em hidden black;"> </div>
@@ -2261,8 +2261,8 @@ Normally, instead of using the shorthand, you can also set the properties indivi
 things that take corners may also take two sets of corners specifiers, separated by a slash.
 If a thing takes two sets of corner specifiers, the first apply in x direction and the second in y direction.
 
-Data types that specify corners are <border-radius>
-border-radius: <border-radius>
+Data types that specify corners are ‹border-radius›
+border-radius: ‹border-radius›
 
 ###### Custom Counting
 
@@ -2270,15 +2270,15 @@ counter-reset and counter-increment and the css functions counter() and counters
 counter-reset assigns a counter of name to value.
 counter-reset defaults a counter to 0 if no value is specified.
 counter-reset is also used initialize a counter.
-counter-reset: <counter-name> [<value>]{,<counter-name> [<value>]}
-counter-increment: <counter-name> [<value>]{<counter-name> [<value>]}
+counter-reset: ‹counter-name› [‹value›]{,‹counter-name› [‹value›]}
+counter-increment: ‹counter-name› [‹value›]{‹counter-name› [‹value›]}
 counter-increment: increments the counter by value (default 1) for each time it is encountered.
 counter-reset on descendants creates a new counter, instead of assigning to the original counter.
-counter-name ::= <custom-ident>
-counter ::= <counter()>|<counters()>
-counter() ::= counter\(<counter-name>[, <counter-style>]\)
-counters() ::= counters\(<counter-name>, <string> [, <counter-style>]\)
-counter-style ::= <list-style-type>|<@counter-style>
+counter-name ::= ‹custom-ident›
+counter ::= ‹counter()›|‹counters()›
+counter() ::= counter\(‹counter-name›[, ‹counter-style›]\)
+counters() ::= counters\(‹counter-name›, ‹string› [, ‹counter-style›]\)
+counter-style ::= ‹list-style-type›|‹@counter-style›
 The css functions counter() and counters() takes a necessary first argument of the name of the counter. 
 counters() differs from counter() in that it takes a middle argument of a string, and separates multiple instances of the counter with the given string.
 
@@ -2355,17 +2355,17 @@ CSS animations allow animating between n property values arbitrarily complexly a
 
 CSS animations and transitions share the functionality of the properties *-delay, *-duration, *-timing-function.
 All properties related to CSS animations start animation-; all properties related to CSS transitions start transition-;
-Within the transition/animation shorthand, the first <time> is interpreted in as animation/transition-duration; the second as animation/transition-delay
+Within the transition/animation shorthand, the first ‹time› is interpreted in as animation/transition-duration; the second as animation/transition-delay
 The four transition properties are the three also availabe for animations (transition-delay, -duration, -timing-function) plus transition-property.
 the transition property is a shorthand for the four transition properties.
 The 8 animation properties are the three also availabe for transitions (animation-delay, -duration, -timing-function) plus -direction, -fill-mode, -iteration-count, -name, -play-state.
 For the animation shorthand, it is common to place animation-name last, to avoid conflicts with other names.
 
 animation/transition-* accept a comma-separated list of values, where each value applies to a specific animation-name or transition-property 
-animation/transition-delay: CSL of <time>s to specify a delay before starting the animation. negative values will start that far into the animatin/transition
-animation/transition-duration: CSL of <time>s to specify how long the animation will take
+animation/transition-delay: CSL of ‹time›s to specify a delay before starting the animation. negative values will start that far into the animatin/transition
+animation/transition-duration: CSL of ‹time›s to specify how long the animation will take
 
-transition-property: CSL of <custom-ident>s (or all) to specify which properties to transitions
+transition-property: CSL of ‹custom-ident›s (or all) to specify which properties to transitions
 
 animation-direction: CSL of normal|reverse|alternate|alternate-reverse:
 normal|f f f f f …
@@ -2380,21 +2380,21 @@ forwards|animation styles apply after animation is finished
 backwards|animation styles apply before animation is started (only applies if there is a animation-delay)
 both|animation styles apply before and after the animation
 
-animation-iteration-count: CSL of (<integer>|infinite)s to specify how many iterations the animation should play
-animation-name: CSL of <custom-ident>s which represent the names of @keyframes describing the animations to apply
+animation-iteration-count: CSL of (‹integer›|infinite)s to specify how many iterations the animation should play
+animation-name: CSL of ‹custom-ident›s which represent the names of @keyframes describing the animations to apply
 animation-play-state: CSL of (running|paused).
 
 ####### timimg functions
 
-animation/transition-timing-function: CSL of <time>s to specify how long the animation will take
+animation/transition-timing-function: CSL of ‹time›s to specify how long the animation will take
 
-easing-function ::= linear|<cubic-bezier-easing-function>|<step-easing-function>
-cubic-bezier-easing-function ::= <cubic-bezier-keyword>|<cubic-bezier-function>
+easing-function ::= linear|‹cubic-bezier-easing-function›|‹step-easing-function›
+cubic-bezier-easing-function ::= ‹cubic-bezier-keyword›|‹cubic-bezier-function›
 cubic-bezier-keyword ::= ease|ease-in|ease-out|ease-in-out
-cubic-bezier-function ::= cubic-bezier\(<number>, <number>, <number>, <number>\)
-step-easing-function ::= <step-keyword>|<step-function>
+cubic-bezier-function ::= cubic-bezier\(‹number›, ‹number›, ‹number›, ‹number›\)
+step-easing-function ::= ‹step-keyword›|‹step-function›
 step-keyword ::= step-start|step-end
-step-function ::= steps\(<integer>, <step-position>\)
+step-function ::= steps\(‹integer›, ‹step-position›\)
 step-position ::= jump-start|jump-end|jump-none|jump-both|start|end
 
 cubic-bezier(x_p1, y_p1, x_p2, y_p2)
@@ -2428,7 +2428,7 @@ To construct a quadratic bezier function, connect P0P1 and P1P2. Now, let a poin
 flex-container:✫sm_ZS4fP%20(1).png✫
 flex-container:✫sm_ZS4fP%20(1)%20copy.png✫✫sm_cubBezstep3.png✫
 
-To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ as well as P⎵P1P2⎵ and P⎵P2P3⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ and on P⎵P1P2⎵P⎵P2P3⎵ from 0 to 1. Connect P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> and P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub> with a further line. Let a point travel on P<sub>P⎵P0P1⎵P⎵P1P2⎵</sub> P<sub>P⎵P1P2⎵P⎵P2P3⎵</sub>, this point describes the cubic bezier curve.
+To construct a cubic bezier function, connect P0P1, P1P2, P2P3. Now, let a point travel on P0P1, P1P2 and P2P3 from 0 to 1. connect P⎵P0P1⎵ and P⎵P1P2⎵ as well as P⎵P1P2⎵ and P⎵P2P3⎵ with a further line. Let a point travel on P⎵P0P1⎵P⎵P1P2⎵ and on P⎵P1P2⎵P⎵P2P3⎵ from 0 to 1. Connect P⎵P⎵P0P1⎵P⎵P1P2⎵⎵ and P⎵P⎵P1P2⎵P⎵P2P3⎵⎵ with a further line. Let a point travel on P⎵P⎵P0P1⎵P⎵P1P2⎵⎵ P⎵P⎵P1P2⎵P⎵P2P3⎵⎵, this point describes the cubic bezier curve.
 
 flex-container:✫sm_cubBezstep3-1.png✫✫sm__cat_acad_inf_code_css_bez60pc.png✫✫sm__cat_acad_inf_code_css_bez80pc.png✫
 
@@ -2445,10 +2445,10 @@ ease-out|cubic-bezier(0, 0, 0.58, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.0
 
 ###### tables
 
-The empty-cells CSS property sets whether borders and backgrounds appear around <table> cells that have no visible content.
-The border-collapse CSS property sets whether cells inside a <table> have shared or separate borders.
-The caption-side CSS property puts the content of a table's <caption> on the specified side. 
-The table-layout CSS property sets the algorithm used to lay out <table> cells, rows, and columns.
+The empty-cells CSS property sets whether borders and backgrounds appear around ‹table› cells that have no visible content.
+The border-collapse CSS property sets whether cells inside a ‹table› have shared or separate borders.
+The caption-side CSS property puts the content of a table's ‹caption› on the specified side. 
+The table-layout CSS property sets the algorithm used to lay out ‹table› cells, rows, and columns.
 auto
 By default, most browsers use an automatic table layout algorithm. The widths of the table and its cells are adjusted to fit the content.
 
@@ -2456,15 +2456,15 @@ fixed
 Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. Cells in subsequent rows do not affect column widths.
 border-spacing is the equivalent of gap, but for tables. 
 border-spacing applies only when border-collapse is separate.
-visibility: collapse: For <table> rows, columns, column groups, and row groups, the row(s) or column(s) are hidden and the space they would have occupied is removed (as if display: none were applied to the column/row of the table). However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present. 
+visibility: collapse: For ‹table› rows, columns, column groups, and row groups, the row(s) or column(s) are hidden and the space they would have occupied is removed (as if display: none were applied to the column/row of the table). However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present. 
 
 ###### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
-clip-path-values ::= ([<m-b-p-c-box>] [<basic-shape>]) | <clip-source>
-A clip-source is a reference to a SVG <clipPath> element.
+clip-path-values ::= ([‹m-b-p-c-box›] [‹basic-shape›]) | ‹clip-source›
+A clip-source is a reference to a SVG ‹clipPath› element.
 THe shape-outside property sets a shape around which inline elements will flow.
-shape-outside ::= <<m-b-p-c-box>||<basic-shape>||<image>
+shape-outside ::= ‹m-b-p-c-box›||‹basic-shape›||‹image›
 if you use an image for shape-outside, it will compute it based on that images alpha channel.
 scroll-behavior only influences programmatic scrolling, i.e. not done by the user manually.
 scroll-behavior: smooth makes scrolling a smooth animation instead of an instant transition.
@@ -2478,43 +2478,43 @@ user-select-values ::= none|auto|text|all
 resize controls whether/how an element is resizable, which generally only works on devices with pointing devices.
 resize-values ::= none|both|horizontal|vertical
 
-opacity: <number-or-percentage-0-1>
+opacity: ‹number-or-percentage-0-1›
 
 overflow is a shorthand for overflow-x and overflow-y
 overflow-specifier-values ::= visible|hidden|clip|scroll|auto
 
 overflow-anchor determines if our scroll position is anchored to the scroll offset from the top (`none`) or to the current position in the content (`auto`), which is relevant when we add more content on top. 
 
-mix-blend-mode and background-blend-mode both take a <blend-mode>
+mix-blend-mode and background-blend-mode both take a ‹blend-mode›
 ⟮Background-blend-mode⟯ regulates blending between (⟮a⟯) ⟮background-image⟯(⟮s⟯) as well as the ⟮background-color⟯.
 ⟮mix-blend-mode⟯ regulates blending between ⟮the⟯ ⟮element's⟯ ⟮content⟯, ⟮the⟯ ⟮element's⟯ ⟮parents content⟯, and ⟮the⟯ ⟮element's⟯ ⟮background⟯.
-css <blend-modes> are the usual blend modes
+css ‹blend-modes› are the usual blend modes
 
 ##### Values
 
 ###### Functions
 
 CSS functional notation is a type of CSS value that can represent more complex data types or invoke special data processing or calculations.
-The syntax of CSS functional notation is: <name>\([<argument> {(,| ) <argument>}]\)
+The syntax of CSS functional notation is: ‹name›\([‹argument› {(,| ) ‹argument›}]\)
 
 url()
 
 The calc() CSS function creates a math context, i.e. allows calculation as one would expect. 
 min(), max() and clamp() also creates math contexts.
-calc-sum ::= <calc-product>{ (+|-) <calc-product>}
-calc-product ::= <calc-value>{ * <calc-value>| / <number>}
-calc-value ::= <mathable>|\(<calc-sum>\)
+calc-sum ::= ‹calc-product›{ (+|-) ‹calc-product›}
+calc-product ::= ‹calc-value›{ * ‹calc-value›| / ‹number›}
+calc-value ::= ‹mathable›|\(‹calc-sum›\)
 + and - operators must be surrounded by whitespace within CSS calc
-calc ::= calc(<calc-sum>)
+calc ::= calc(‹calc-sum›)
 
 The min() CSS function evaluates to the smallest (most negative) value of a specified list.
 The max() CSS function evaluates to the largest (most positive) value of a specified list.
-list-of-calc-sums ::= <calc-sum>{, <calc-sum>}
-min ::= min(<list-of-calc-sums>)
-max ::= max(<list-of-calc-sums>)
+list-of-calc-sums ::= ‹calc-sum›{, ‹calc-sum›}
+min ::= min(‹list-of-calc-sums›)
+max ::= max(‹list-of-calc-sums›)
 
 The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. 
-clamp ::= clamp(<list-of-calc-sums>, <list-of-calc-sums>, <list-of-calc-sums>)
+clamp ::= clamp(‹list-of-calc-sums›, ‹list-of-calc-sums›, ‹list-of-calc-sums›)
 
 The attr() function takes the name of an attribute (of the HTML element) and resolves to its value as a string.
 Currently, attr() can only usefully be used as a value for content.
@@ -2524,65 +2524,65 @@ Currently, attr() can only usefully be used as a value for content.
 custom properties are properties that start with -- and save their value, which then can be referred to with the var() function.
 custom properties have a scope of the variable they are declared on and all children, since they particpate in the cascade.
 The var() css function can be used instead of any part of a value of another property, and may even contain commas.
-var ::= var\(<custom-property-name>, <fallback-value>\)
+var ::= var\(‹custom-property-name›, ‹fallback-value›\)
 
 ###### offsets
 
 generally from the top left corner.
-Even when not using the <offset> syntax, offsets in HTML/SVG are often from the top left corner.
-for <offset>, the first value is x and the second is y
-while offset is not a official datatype, I will define it as offset ::= <length> <length>
+Even when not using the ‹offset› syntax, offsets in HTML/SVG are often from the top left corner.
+for ‹offset›, the first value is x and the second is y
+while offset is not a official datatype, I will define it as offset ::= ‹length› ‹length›
 
 ####### position
 
-<position> can take two kinds of values: keywords and values.
-Keywords for <position> are center, top, right, bottom and left.
-A value for <postion> can be a <percentage> or <length>.
-For <position>, specifying one value positions it exactly at that keyword (if keyword), or at value on the x axis and the y defaults to 50%.
-For <position>, specifying two values means that the first will apply to x positioning, and the second will apply to y positioning, unless it is two keywords.
-For <position>, a keyword followed by a value specifies the offset from the keyword.
-For <position>, if specifying two keywords or two keywords with values each, the order doesn't matter.
-The value described by <position> need not be inside the elements box.
+‹position› can take two kinds of values: keywords and values.
+Keywords for ‹position› are center, top, right, bottom and left.
+A value for ‹postion› can be a ‹percentage› or ‹length›.
+For ‹position›, specifying one value positions it exactly at that keyword (if keyword), or at value on the x axis and the y defaults to 50%.
+For ‹position›, specifying two values means that the first will apply to x positioning, and the second will apply to y positioning, unless it is two keywords.
+For ‹position›, a keyword followed by a value specifies the offset from the keyword.
+For ‹position›, if specifying two keywords or two keywords with values each, the order doesn't matter.
+The value described by ‹position› need not be inside the elements box.
 
 
 flex-container:✫sm_position_value.png✫
 
-###### <image>
+###### ‹image›
 
-The <image> CSS data type represents a two-dimensional image.
-While there are many kinds of things in the spec that an <image> could be, currently it can only be an <url> or a <gradient>
+The ‹image› CSS data type represents a two-dimensional image.
+While there are many kinds of things in the spec that an ‹image› could be, currently it can only be an ‹url› or a ‹gradient›
 
-####### <gradient>
+####### ‹gradient›
 
-currently, there are three types of <gradient>s, <linear-gradient>, <radial-gradient>, and <conic-gradient>
-<linear-gradient> and <radial-gradient>s also exist as repeating versions, which repeat as much as necessary to fil a given area: <repeating-linear-gradient>, <repeating-radial-gradient>.
+currently, there are three types of ‹gradient›s, ‹linear-gradient›, ‹radial-gradient›, and ‹conic-gradient›
+‹linear-gradient› and ‹radial-gradient›s also exist as repeating versions, which repeat as much as necessary to fil a given area: ‹repeating-linear-gradient›, ‹repeating-radial-gradient›.
 Repeating gradients have the same syntax as the non-repeating variants, but if you size the final stop too large, there will be no palce for repeating.
 All gradients are specified via css functions.
 
-linear-gradient ::= linear-gradient\(<direction-specfier>, <color-stop-list>\)
-direction-specifier ::= <angle>|<side-or-corner>
-side-or-corner ::= to [<top-bottm>] [<left-right>]
-color-stop-list ::= <color-stop>{, <color-stop>}
-color-stop ::= [<color>] [<length-percentage>] [<length-percentage>]
+linear-gradient ::= linear-gradient\(‹direction-specfier›, ‹color-stop-list›\)
+direction-specifier ::= ‹angle›|‹side-or-corner›
+side-or-corner ::= to [‹top-bottm›] [‹left-right›]
+color-stop-list ::= ‹color-stop›{, ‹color-stop›}
+color-stop ::= [‹color›] [‹length-percentage›] [‹length-percentage›]
 
-radial-gradient ::= radial-gradient\(<shape-specifier>, <color-stop-list>\)
-shape-specifier ::= <ending-shape> <size> at <position>
+radial-gradient ::= radial-gradient\(‹shape-specifier›, ‹color-stop-list›\)
+shape-specifier ::= ‹ending-shape› ‹size› at ‹position›
 ending-shape ::= circle|ellipse
 
 
 
-conic-gradient ::= conic-gradient\(<origin-specifier>, <color-stop-list-angular>\)
-origin-specifier ::= [from <angle>] [at <position>]
-color-stop-list ::= <color-stop-angle>{, <color-stop-angle>}
-color-stop ::= [<color>] [<angle>] [<angle>]
+conic-gradient ::= conic-gradient\(‹origin-specifier›, ‹color-stop-list-angular›\)
+origin-specifier ::= [from ‹angle›] [at ‹position›]
+color-stop-list ::= ‹color-stop-angle›{, ‹color-stop-angle›}
+color-stop ::= [‹color›] [‹angle›] [‹angle›]
 
 When specifying color stops, if you don't specify a color it will use the middle between the preceeding and succeeding colors
-When specifying color stops, if you don't specify a <length-percentage>/<angle> it will use the middle between the preceeding and succeeding stops.
-Specifying two <length-percentage>/<angle> on a single color stop will make the color stay the same inbetween those two stops.
+When specifying color stops, if you don't specify a ‹length-percentage›/‹angle› it will use the middle between the preceeding and succeeding stops.
+Specifying two ‹length-percentage›/‹angle› on a single color stop will make the color stay the same inbetween those two stops.
 
-###### <size>
+###### ‹size›
 
-size ::= (<length-percentage>[ <length-percentage>])|size-keyword
+size ::= (‹length-percentage›[ ‹length-percentage›])|size-keyword
 size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
 
 
@@ -2592,57 +2592,57 @@ closest-corner|The gradient's ending shape is sized so that it exactly meets the
 farthest-side|Similar to closest-side, except the ending shape is sized to meet the side of the box farthest from its center (or vertical and horizontal sides).
 farthest-corner|The default value, the gradient's ending shape is sized so that it exactly meets the farthest corner of the box from its center.
 
-For <size>, specifying two <length-percentages> applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a <size> for a circle may only recieve one <legnth-percentages>
+For ‹size›, specifying two ‹length-percentages› applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a ‹size› for a circle may only recieve one ‹legnth-percentages›
 
-###### <basic-shape>
+###### ‹basic-shape›
 
-basic-shape ::= <inset>|<circle>|<ellipse>|<polygon>|<path>
-inset ::= inset\{<length-percentage-edges>[ round <border-radius>]\}
-circle ::= circle\(<size>[at <position>]\)
-ellipse ::= ellipse\(<size> [at <position>\)
-path ::= path\(<svg-path-specifier>\)
+basic-shape ::= ‹inset›|‹circle›|‹ellipse›|‹polygon›|‹path›
+inset ::= inset\{‹length-percentage-edges›[ round ‹border-radius›]\}
+circle ::= circle\(‹size›[at ‹position›]\)
+ellipse ::= ellipse\(‹size› [at ‹position›\)
+path ::= path\(‹svg-path-specifier›\)
 
 ###### color
 
 All css color keywords are case-insensitive.
-any property ending in -color: takes a <color> value
-color  ::= transparent|currentColor|<color-keyword>|<hex-color>|<color-function>
+any property ending in -color: takes a ‹color› value
+color  ::= transparent|currentColor|‹color-keyword›|‹hex-color›|‹color-function›
 color keywords are things such as red, darkgrey, rebeccapurple 💜, which correspond to specific RGB values.
 the transparent keyword is a shortcut for rgba(0,0,0,0)
 The currentColor keyword represents the value of an element's color property, or the inherited value of the color property if specified as the color property. 
 color functions are a bunch of different CSS functions that take the components of a certain color model as arguments.
 most css color functions have a variant that ends a and accepts a fourth alpha value.
 CSS color functions: rgb/rgba, hsl/hsla
-for rgb()/rgba(), the color components can be <percentage>s from 0% to 100%, or <numbers> from 0 to 255
-for hsl()/hsla(), the h component is a <angle>, or a <number> between 0 and 360
-for hsl()/hsla(), s and l are <number-or-percentages> (how they work is specified in the general color flashcard)
-in css, the alpha channel takes a <number-or-percentage-0-1>
+for rgb()/rgba(), the color components can be ‹percentage›s from 0% to 100%, or ‹numbers› from 0 to 255
+for hsl()/hsla(), the h component is a ‹angle›, or a ‹number› between 0 and 360
+for hsl()/hsla(), s and l are ‹number-or-percentages› (how they work is specified in the general color flashcard)
+in css, the alpha channel takes a ‹number-or-percentage-0-1›
 
 ###### simple types
 
-the <url> datatype is a css function
-url ::= url(<string>) # where string must be a valid url or path or the ID of a SVG shape
+the ‹url› datatype is a css function
+url ::= url(‹string›) # where string must be a valid url or path or the ID of a SVG shape
 
-dimension ::= <length>|<time>|<frequency>|<resolution>|<angle>
+dimension ::= ‹length›|‹time›|‹frequency›|‹resolution›|‹angle›
 
 CSS dimensions are always a number followed by a unit with no space inbetween
 
-mathable (not an official name) ::= <number>|<dimension>|<percentage> 
-resolution ::= <number><resolution-unit>
+mathable (not an official name) ::= ‹number›|‹dimension›|‹percentage› 
+resolution ::= ‹number›‹resolution-unit›
 resolution-unit ::= dpi|dpcm|dppx|x
 x is an alias for dppx
 dppx = dots per px
 In CSS, since 1 in is fixed as 96 px, 1dppx is 96 dpi.
-frequency ::= <number><frequency-unit>
+frequency ::= ‹number›‹frequency-unit›
 frequency-unit ::= Hz|kHz
-angle ::= <number><angle-unit>
+angle ::= ‹number›‹angle-unit›
 angle-unit ::= deg|grad|rad|turn
-time ::= <number><time-unit>
+time ::= ‹number›‹time-unit›
 time-unit :: s|ms
 
 turn  Represents an angle in a number of turns. One full circle is 1turn
 
-// <integer>, <number>, <percentage> defined elsewhere
+// ‹integer›, ‹number›, ‹percentage› defined elsewhere
 
 m-b-p-c-box ::= margin-box|border-box|padding-box|content-box
 b-p-c-box-text ::= border-box|padding-box|content-box|text
@@ -2651,11 +2651,11 @@ b-c-box ::= border-box|content-box
 
 ###### length
 
-length ::= <number><length-unit>
-length-percentage ::= <length>|<percentage>
-resolution-length-percentage ::= <resolution>|<length-percentage>
+length ::= ‹number›‹length-unit›
+length-percentage ::= ‹length›|‹percentage›
+resolution-length-percentage ::= ‹resolution›|‹length-percentage›
 
-lpminmaxauto ::= <length-percentage>|min-content|max-content|auto # this is a term I made up
+lpminmaxauto ::= ‹length-percentage›|min-content|max-content|auto # this is a term I made up
 terms like auto, min-content and max-content depend on the current formatting context/layout mode
 an element with width/height = auto has a width/height of its automatic size
 an element with width/height = min-content has a width/height of its min-content size
@@ -2664,12 +2664,12 @@ An elements lengths min-content and max-content size are equivalent to its autom
 When not equal to auto, in general the min-content size is the smallest size that doesn't lead to overflow which could be avoided by choosing a larger size
 When not equal to auto, in general the max-content size is the size a box could assume when given infinte space, while avoiding overflow.
 
-<flex> consists of a <number> followed by the unit fr.
+‹flex› consists of a ‹number› followed by the unit fr.
 the fr unit represents a fraction of the leftover space in the grid container. 
-flex-l-p-min-max-auto ::= <flex>|<l-p-min-max-auto>
+flex-l-p-min-max-auto ::= ‹flex›|‹l-p-min-max-auto›
 
-length-unit ::= <relative-length-unit>|<absolute-length-unit>
-relative-length-unit ::= <font-relative-length-unit>|<viewport-relative-length-unit>
+length-unit ::= ‹relative-length-unit›|‹absolute-length-unit›
+relative-length-unit ::= ‹font-relative-length-unit›|‹viewport-relative-length-unit›
 font-relative-length-units
 `rem`|font-size of the root element
 `ex`|the height of a lowercase x of the current font (rarely used)
@@ -2686,7 +2686,7 @@ absolute units in CSS may or may not refer to their real-world equivalent.
 On print media and similar situations, css absolute units refer to their real-world equivalent.
 For low dpi devices, absolute units are instead defined in reference to the reference pixel: 1 in = 96 px, thus `1in` may not correspond to 1 RL inch. 
 For high dpi devices, px are instead defined in reference to real-world units, so that 1 in is one 1 RL in, and 1px is 1/96in, no matter how many screen pixels that would actually correspond to on the device.
-absolute-length-unit ::= <metric-length-unit>|<imperial-length-unit>|px
+absolute-length-unit ::= ‹metric-length-unit›|‹imperial-length-unit›|px
 metric-length-unit ::= cm|mm|Q
 imperial-length-unit ::= in|pc|pt
 
@@ -2694,34 +2694,34 @@ imperial-length-unit ::= in|pc|pt
 
 backdrop-filter applies a filter to the area behind an element.
 for backdrop-filter to apply, the element or its background must be at least partially transparent.
-backdrop-filter and filter take a <filter-function-list>
-filter-function-list ::= <filter-function>|<svg-filter>{ <filter-function>|<url>} # the URL is for a svg filter
-a <filter-function> is a <function> that applies a filter (i.e. changes the appearance of an image)
+backdrop-filter and filter take a ‹filter-function-list›
+filter-function-list ::= ‹filter-function›|‹svg-filter›{ ‹filter-function›|‹url›} # the URL is for a svg filter
+a ‹filter-function› is a ‹function› that applies a filter (i.e. changes the appearance of an image)
 filter-functions: 
 blur(): takes a blur-radius
-brightness(): <number-or-percentage-to-infinity>
-contrast(): <number-or-percentage-to-infinity>
+brightness(): ‹number-or-percentage-to-infinity›
+contrast(): ‹number-or-percentage-to-infinity›
 drop-shadow(): arguments are `offset-x offset-y [blur-radius] [color]`
-grayscale(): <number-or-percentage-0-1>
-hue-rotate(): takes an <angle> and rotates the hue by that angle
-invert(): <number-or-percentage-0-1>
-opacity(): <number-or-percentage-0-1>
-saturate(): <number-or-percentage-to-infinity>
-sepia(): <number-or-percentage-0-1>
+grayscale(): ‹number-or-percentage-0-1›
+hue-rotate(): takes an ‹angle› and rotates the hue by that angle
+invert(): ‹number-or-percentage-0-1›
+opacity(): ‹number-or-percentage-0-1›
+saturate(): ‹number-or-percentage-to-infinity›
+sepia(): ‹number-or-percentage-0-1›
 
-anywhere that takes a blur-radius generally takes a <length> which defines the standard deviation of the gaussian function
+anywhere that takes a blur-radius generally takes a ‹length› which defines the standard deviation of the gaussian function
 
-There are a few places which accept a <number> or <percentage>. This is not an official CSS data type, but I will call this <number-or-percentage>.
-There are a few different sets of semantics for <number-or-percentage>
-<number-or-percentage-to-infinity>: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
-<number-or-percentage-0-1>: 0/0% is complete lack, 1/100% is complete application
+There are a few places which accept a ‹number› or ‹percentage›. This is not an official CSS data type, but I will call this ‹number-or-percentage›.
+There are a few different sets of semantics for ‹number-or-percentage›
+‹number-or-percentage-to-infinity›: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
+‹number-or-percentage-0-1›: 0/0% is complete lack, 1/100% is complete application
 
 ###### shadows
 
 The box-shadow property creates a rectangular shadow behind an element's entire box, while the drop-shadow() filter function creates a shadow that conforms to the shape (alpha channel) of the image itself.
 
-the first two <lengths> of text-shadow, box-shadow and drop-shadow() take a <offset> (two <length>s), the third <length> specifies the blur-radius
-for box-shadow, the fourth <length> specifies the spread-radius, for text-shadow and drop-shadow(), there is no way to specify a spread radius.
+the first two ‹lengths› of text-shadow, box-shadow and drop-shadow() take a ‹offset› (two ‹length›s), the third ‹length› specifies the blur-radius
+for box-shadow, the fourth ‹length› specifies the spread-radius, for text-shadow and drop-shadow(), there is no way to specify a spread radius.
 for text-shadow, box-shadow and drop-shadow(), the non-length value specifies the color.
 box-shadow additionally may take the keyword inset, which specifies that the shadow should render inside the box instead of outside it.
 
@@ -2729,7 +2729,7 @@ text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying
 
 To make text blurry in CSS, make it's color transparent and set a text-shadow.
 
-###### <repeat>
+###### ‹repeat›
 
 repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
 space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
@@ -2744,8 +2744,8 @@ no-repeat|do not repeat
 
 @font-face defines a font face for use within the document.
 @font-face takes at least a font-family: foo, which is the name we will use to refer to it, and a src, which provides the file for the font itself.
-@font-faces src syntax: (<font-face-name>|<url> [format(<string>)]) {<url> [format(<string>)]}
-font-face-name: local(<string>) # where the string is the name of a locally-installed font.
+@font-faces src syntax: (‹font-face-name›|‹url› [format(‹string›)]) {‹url› [format(‹string›)]}
+font-face-name: local(‹string›) # where the string is the name of a locally-installed font.
 calls to local() for @font-faces src should go first since if it finds the font locally, it does not have to load it fron the URL.
 for @font-faces src, the first call to local() or url() that is usable will be used.
 For the @font-face src call, the format() function takes a string specifying the format of the font, where the font will only be loaded if the browser supports that format.
@@ -2755,12 +2755,12 @@ unicode-range: some-range will only load the font if the document uses the font 
 
 ##### @keyframes
 
-Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \}
-<keyframes-name> ::= <custom-ident>|<string>
-<keyframe-block-list> ::= {<keyframe-block>}
-<keyframe-block> ::= <keyframe-selector-list><declaration-block>
-<keyframes-selector-list>  ::= <keyframe-selector>{,<keyframe-selector>}
-<keyframe-selector> ::= from|to|<percentage>
+Keyframes at-rule syntax: @keyframes ‹keyframes-name› \{ ‹keyframe-block-list› \}
+‹keyframes-name› ::= ‹custom-ident›|‹string›
+‹keyframe-block-list› ::= {‹keyframe-block›}
+‹keyframe-block› ::= ‹keyframe-selector-list›‹declaration-block›
+‹keyframes-selector-list›  ::= ‹keyframe-selector›{,‹keyframe-selector›}
+‹keyframe-selector› ::= from|to|‹percentage›
 
 from is an alias of 0% and to is an alias of 100%
 Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
@@ -2771,23 +2771,23 @@ If you specify multiple @keyframes with the same name, ⟮The last one encounter
 
 ##### @page
 
-@page syntax: @page <page-selector-list>\{<page-body>\}
-page-selector-list ::= <page-pseudo-class>{, <page-pseudo-class>} #maybe it's not a comma? I couldn't find any documentation this
+@page syntax: @page ‹page-selector-list›\{‹page-body›\}
+page-selector-list ::= ‹page-pseudo-class›{, ‹page-pseudo-class›} #maybe it's not a comma? I couldn't find any documentation this
 page-pseudo-class ::= :first|:blank|:left|:right
-page-body :: <page-declaration>;|<margin-at-rule>
+page-body :: ‹page-declaration›;|‹margin-at-rule›
 currently supported properties for the page declaration are margins, orphans, widows and break
-margin-at-rule = @<margin-at-rule-name><declaration-block>
+margin-at-rule = @‹margin-at-rule-name›‹declaration-block›
 
 flex-container:✫page_margin_at_rules.png✫
 
 ##### @counter-style
 
-@counter-style produces values of type <@counter-style>
+@counter-style produces values of type ‹@counter-style›
 @namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet.
 
 #### non-nested at-rules
 
-@charset "<charset>"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
+@charset "‹charset›"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
 @charset must be the first statement in the document if present.
 
 ### elements
@@ -2796,18 +2796,18 @@ flex-container:✫page_margin_at_rules.png✫
 
 In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
 Typical replaced elements are:
-<iframe>
-<video>
-<embed>
-flex-container:<img>
+‹iframe›
+‹video›
+‹embed›
+flex-container:‹img›
 
 Some elements are treated as replaced elements only in specific cases:
 
-<option>
-<audio>
-<canvas>
-<object>
-<applet>
+‹option›
+‹audio›
+‹canvas›
+‹object›
+‹applet›
 
 Objects inserted using the content property are anonymous replaced elements.
 
@@ -2816,7 +2816,7 @@ for object-* to be relevant, the box of the replaced element must be of a differ
 
 The object-whatever properties target replaced elements.
 
-object-position takes a <position> value, and controls where the replaced element goes in its box
+object-position takes a ‹position› value, and controls where the replaced element goes in its box
 
 object-fit|aspect-ratio|clipping/letterboxing/framing/none
 cover|preserve|letterboxing
@@ -2886,14 +2886,14 @@ The display property controls two distinct-things: the outer and the inner displ
 The outer display type of an element controls how it will praticipate in normal flow.
 The inner display type of an element controls the layout of the children.
 There is a two-value syntax for display describing the outer and inner display type separately, but it isn't well supported yet.
-The two-value syntax for display is <display-outside> <display-inside>
+The two-value syntax for display is ‹display-outside› ‹display-inside›
 In absence of the two-value syntax for display, most keywords control both the outer and the inner display type.
-The possible values for <display-outside> are the ways an element can participate in normal flow.
+The possible values for ‹display-outside› are the ways an element can participate in normal flow.
 There are two ways an element can participate in normal flow, block and inline.
 Some values for display do not set the outer or inner display type, instead they set a role within a complex layout model.
-The values for display that don't set the outer or inner display type, but instead their role within a complex layout have the type <display-internal>.
+The values for display that don't set the outer or inner display type, but instead their role within a complex layout have the type ‹display-internal›.
 The complex layout models that have display properties for their parts are table and ruby.
-the values with type <display-internal> are ruby-* and table-*
+the values with type ‹display-internal› are ruby-* and table-*
 
 legacy-1-value property|equivalent
 inline-block|inline flow-root
@@ -2903,9 +2903,9 @@ inline-grid|inline grid
 
 Everything in CSS is within a certain formatting context.
 The best way of thinking of formatting contexts is as mini-layouts
-Most <display-inside> values establish a new formatting context, besides flow, which may not.
-The purpose of <display-inside> is to set new formatting contexts, unless we're using flow for compat.
-<display-inside>|establishes formatting context
+Most ‹display-inside› values establish a new formatting context, besides flow, which may not.
+The purpose of ‹display-inside› is to set new formatting contexts, unless we're using flow for compat.
+‹display-inside›|establishes formatting context
 flow-root|block formatting context
 table|table formatting context
 ruby|ruby formatting context
@@ -2914,7 +2914,7 @@ flex|flex formatting context
 
 I think layout mode is a rough synonym for formatting context, but can't find a source either way
 
-there is such a thing as a multi-column formatting context, but it is not established by a <display-inside> value, 
+there is such a thing as a multi-column formatting context, but it is not established by a ‹display-inside› value, 
 instead any element with with column-width or colum-count not as auto establishes a multi-column container.
 Any fragmentainer created by the multicolumn fragmentation context is called a column box
 
@@ -2926,20 +2926,20 @@ A block container containing only inline elements and thus creating an inline fo
 A block container must establish a block formatting context if its parent formatting context is not a block formatting context.
 For grid and flex, children of the grid/flex container are called grid/flex items.
 
-If only the <display-inside> value is set, the <display-outside> value will default to block.
+If only the ‹display-inside› value is set, the ‹display-outside› value will default to block.
 
-the value flow for <display-inside> makes the element participate in normal/flow layout as normal.
-if only <display-outside> is specified, <display-inside> will be set to flow for compatibility;
+the value flow for ‹display-inside› makes the element participate in normal/flow layout as normal.
+if only ‹display-outside› is specified, ‹display-inside› will be set to flow for compatibility;
 
-display: list-item may be either a <display-outside> or a <display-inside> value.
-display: list-item may be combined with block/inline for <display-outside> and flow/flow-root for <display-inside>
+display: list-item may be either a ‹display-outside› or a ‹display-inside› value.
+display: list-item may be combined with block/inline for ‹display-outside› and flow/flow-root for ‹display-inside›
 
 Elements within a block-formatting context are layed out according to normal flow.
 Normal flow may also be called flow layout.
 a block-formatting context, by establishing a new flow layout, has interesting effects.
 - they contain floats 
-the <html> element establishes a new block-formatting context.
-Block-formatting contexts are created explicitly with the <display-inside> value of flow-root.
+the ‹html› element establishes a new block-formatting context.
+Block-formatting contexts are created explicitly with the ‹display-inside› value of flow-root.
 Block-formatting contexts are also created by a bunch of other properties, including but possibly not limited to:
 floating elements
 flex and grid items.
@@ -2950,8 +2950,8 @@ overflow: anything but vissible
 display: table-cell
 absolutely positioned elements
 
-a block-level element is an element with <display-outside> block
-a inline-level element is an element with <display-outside> inline
+a block-level element is an element with ‹display-outside› block
+a inline-level element is an element with ‹display-outside› inline
 Normal flow has two basic parameters: the »inline (base) direction« and the »block (flow) direction«.
 The inline base direction defines how content is ordered inline.
 The block flow direction defines how blocks are added.
@@ -2974,7 +2974,7 @@ Once a line box is full, the browser will create a second line box, etc.
 A line box is as tall as its tallest content.
 If the browser encounters a block-level element while creating line boxes, it stops the line box, closes the root inline box and thus the inline formatting context, puts the block-level element on a line of itself, and then creates a new root inline box with new line boxes etc. if there's more inline-level elements/text to be handled.
 line-height sets the minimum height of a line box.
-line-height may be specified as a <length-percentage> or as a <number>, which is a multiple of the current font-size
+line-height may be specified as a ‹length-percentage› or as a ‹number›, which is a multiple of the current font-size
 If we set the line height of multiple things in the same line box to different values, they may overflow into each others boxes.
 
 flex-container:✫sm_line_height_overflow.png✫
@@ -2989,7 +2989,7 @@ Margin collapsing is the phenomenon where vertical margins of adjacent block-lev
 
 Text overflowing a block container in inline base direction can be made to show an ellipsis by using text-overflow: ellipsis.
 
-display may also take a value of type <display-box>, which controls whether an element generates boxes at all.
+display may also take a value of type ‹display-box›, which controls whether an element generates boxes at all.
 display-box ::= contents|none
 contents|The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes and text runs as normal. 
 none|this element and any of its descendants do not generate boxes or text runs
@@ -2998,7 +2998,7 @@ To hide a box without influencing which boxes it generates (and thus also still 
 
 ##### display-internal
 
-behave as ...|<display-internal> value
+behave as ...|‹display-internal› value
 tbody|table-row-group
 thead|table-header-group
 tfoot|table-footer-group
@@ -3025,7 +3025,7 @@ Each box fragment has its own share of the box's padding, border, and margin.
 ##### Orphans and Widows
 
 orphans and widows are two twin properties in CSS that apply only to pages or columns.
-Both orphans and widows take an <integer>
+Both orphans and widows take an ‹integer›
 orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
 widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
 
@@ -3106,7 +3106,7 @@ A @supports at-rule is a conditional which takes a feature query
 
 #### in HTML
 
-The media HTML attribute may be applied to <link>, <source>, or <style>.
+The media HTML attribute may be applied to ‹link›, ‹source›, or ‹style›.
 The media HTML attribute indicates when to load the specific resource.
 
 #### in JS
@@ -3244,7 +3244,7 @@ In bootstrap the system of semantic colors is called theme-colors.
 
 Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
 Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
-color-on-weight-scale ::= <hue>-<weight>
+color-on-weight-scale ::= ‹hue›-‹weight›
 
 ##### misc scales
 
@@ -3280,8 +3280,8 @@ Containers are, depending on the exact class, either 100% of the page, or 100% w
 
 ####### implementation
 
-in bootstrap, columns are specified .col-<meas-col>
-in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-<meas-col>
+in bootstrap, columns are specified .col-‹meas-col›
+in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-‹meas-col›
 
 ##### breakpoint
 
@@ -3339,13 +3339,13 @@ Many styling frameworks, e.g. bootstrap, may take an active/disabled class (or w
 #### CSS frameworking
 
 Most CSS frameworks apply most things via CSS classes.
-The most basic style of class most CSS frameworks use is .<key>-<value>.
+The most basic style of class most CSS frameworks use is .‹key›-‹value›.
 
 ##### conditional classes
 
 There are two philosophies as regards adding conditions to CSS framework classes, colon-based and infixing.
-colon-based|<condition>:<key>[-<value>]|Tailwind
-infixing|<key>-<condition>-<value>|Bootstrap
+colon-based|‹condition›:‹key›[-‹value›]|Tailwind
+infixing|‹key›-‹condition›-‹value›|Bootstrap
 
 `‹img class="w-16 md:w-32 lg:w-48" src="..."›`
 Breakpoints might be the most common condition for CSS conditional classes.
@@ -3372,8 +3372,8 @@ In bootstrap, spacers controlled by $spacer.
 
 ###### components
 
-In CSS frameworks, typically a class .<component-name> defines a component.
-In CSS frameworks, typically parts of components are indicated by .<component-name>-<part>
+In CSS frameworks, typically a class .‹component-name› defines a component.
+In CSS frameworks, typically parts of components are indicated by .‹component-name›-‹part›
 
 ##### implementation
 
@@ -3484,7 +3484,7 @@ in BEM, an element without a block has no meaning.
 in BEM, a modifier defines the appearance and/or behavior of a block or element
 BEM Entities = {block, element, modifier}
 in BEM, a mix is having multiple BEM entities on a single node
-bem-name ::= <block-name>[__<elememt-name>][_<modifier-name>[_<modifier-value>]]
+bem-name ::= ‹block-name›[__‹elememt-name›][_‹modifier-name›[_‹modifier-value›]]
 the modifier-value of BEM can be dropped if it's just a boolean value
 BEM names are set in classes
 It is important to keep in mind that a BEM entity is not a part of the name, rather one BEM name always refers to one entity, even if it includes the names of other entitites.
@@ -3510,10 +3510,8 @@ By default, bootstrap only uses margin-bottom.
 
 ⟮Tailwind CSS⟯'s main idea is ⟮using preexisting CSS classes⟯ for styling, instead of ⟮switching to CSS⟯ 
 ⟮Tailwind config⟯ is done in the ⟮tailwind.config.js⟯ file, which works similarly to ⟮the webpack config file⟯ 
-<h2>
-  Using ⟮Tailwind CSS⟯, code might look like this:
-</h2>
-((c:8;h:8;::```lang=html;
+Using ⟮Tailwind CSS⟯, code might look like this:
+```lang=html;
 ‹div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"›
   ‹div class="flex-shrink-0"›
     ‹img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"›
@@ -3523,7 +3521,7 @@ By default, bootstrap only uses margin-bottom.
     ‹p class="text-gray-500"›You have a new message!‹/p›
   ‹/div›
 ‹/div›
-```))
+```
 
 # data
 
@@ -3613,7 +3611,7 @@ If in csv/tsv ⟮a field is wrapped in double quotes to allow the field separato
 ⟮Trailing newlines⟯ at the ⟮end of documents⟯ are ⟮optional⟯ for ⟮csv/tsv⟯, ⟮field separators⟯ at ⟮the end of the line⟯ will ⟮create empty fields⟯. 
 
 tidy-viewer is a FOSS rust-based csv viewer 
--s <char>|delimiters
+-s ‹char›|delimiters
 
 ##### various relational data models / databases
 
@@ -3689,9 +3687,9 @@ GraphQL consists of a query language, a server-side runtime for executing these 
 In GraphQL, a query has the same shape as the result.
 A graphQL query starts at a special root object
 
-graph-ql-query ::= \{{<field-query>}\}
-field-query :: = <field-name>[\(\<query-arguments>\)] [\{{<field-query>}\}]
-query-arguments: <key>: <value>
+graph-ql-query ::= \{{‹field-query›}\}
+field-query :: = ‹field-name›[\(\‹query-arguments›\)] [\{{‹field-query›}\}]
+query-arguments: ‹key›: ‹value›
 
 In GraphQL, any field can take its own arguments, even if it's nested, removing the need for multiple queries.
 
@@ -3706,8 +3704,8 @@ In GraphQL, any field can take its own arguments, even if it's nested, removing 
 
 ####### type system
 
-object-type ::= type <name> \{{<field>\}
-field ::= <key>[]
+object-type ::= type ‹name› \{{‹field›\}
+field ::= ‹key›[]
 
 
 ##### document data model
@@ -3901,7 +3899,7 @@ Is simulated by|Key combination
 ⟮Pg Up / Pg down⟯|⟮fn + up/down arrow⟯
 
 
-on ⟮macOS⟯ ⟮home, end, pgup, pgdown⟯ only ever ⟮move the view.⟯</p>
+on ⟮macOS⟯ ⟮home, end, pgup, pgdown⟯ only ever ⟮move the view.⟯‹/p›
 
 mac, instead of home, end, pgup, pgdown
 Key|does
@@ -3993,11 +3991,11 @@ Action|Shortcut
 ⟮don't save⟯|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
 
-  span=2;Magnifying glass
+span=2;Magnifying glass
 Action|Shortcut
-⟮toggle⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd>⟦8⟧⟯
-⟮zoom out⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦-⟧⟯
-⟮zoom in⟯|⟮⟦⌘⟧<kbd class="key modifier alt"></kbd> ⟦0⟧⟯
+⟮toggle⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦8⟧⟯
+⟮zoom out⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦-⟧⟯
+⟮zoom in⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦0⟧⟯
 
 
 ####### Anki
@@ -4244,7 +4242,7 @@ Shortcut to open command palette|Platform
 ⟮Quick open menus⟯ are often entered via ⟮⟦⌘⟧ ⟦P⟧.⟯ 
 
 
-    <tr><th colspan="2">Possible prefixes in Quick Open menus
+Possible prefixes in Quick Open menus
 ⟮@somestring⟯|⟮go to symbol somestring⟯
 ⟮:somenumber⟯|⟮go to line somenumber⟯
 ⟮?⟯|⟮show suggestions what you can do with quick open⟯
@@ -4379,7 +4377,7 @@ dialog   create TUI dialog boxes
 
 The dialog element rerpesents a dialog box container semantically.
 The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
-<form> elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
+‹form› elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
 ##### tooltips & popovers
 
@@ -4446,7 +4444,9 @@ Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now de
 
 #### platforms
 
-<svg data-qb-2-tld="reactnative.dev" data-qb-domain="reactnative.dev" data-qb-url="https://reactnative.dev/docs/assets/diagram_ios-android-views.svg" viewBox="0 0 1221 828" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-16{fill:#99d5e7}.cls-3{fill:#d5e2f5}.cls-5{fill:#e9e8e8;mix-blend-mode:multiply}.cls-6{fill:#f29dc4}.cls-29,.cls-7{fill:#fff}.cls-17,.cls-20{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}.cls-10,.cls-12,.cls-17{font-size:28px}.cls-10{fill:#134484}.cls-10,.cls-12{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.cls-11,.cls-13,.cls-18,.cls-25{fill:none;stroke-miterlimit:10}.cls-11{stroke:#134484}.cls-11,.cls-13{stroke-width:3px}.cls-12,.cls-27{fill:#374d9c}.cls-13{stroke:#374d9c}.cls-14{fill:#71c9e4}.cls-15{fill:#09a5d3}.cls-18{stroke:#99d5e7}.cls-18,.cls-25{stroke-width:2px}.cls-19{fill:#0069ac}.cls-20{font-size:32px}.cls-23{fill:#1f2129}.cls-24{fill:#97aad8}.cls-25{stroke:#d5e2f5}.cls-26{fill:#5971b5}.cls-29{opacity:.7}</style></defs><g style="isolation:isolate"><g data-name="Layer 3" id="Layer_3"><g id="Example"><path d="M347 474h797v354H347z" fill="#99d5e7" opacity=".5"></path><path class="cls-3" d="M44 0h794v354H44z"></path><path d="M309 277h575v245H309z" fill="#e9e8e8"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-5" d="M309 277h575v245H309z"></path><path class="cls-6" d="M309 277h575v245H309z"></path><path class="cls-7" d="M369 325.5h452v135H369z"></path><g id="Pouncival"><path d="M527.84 388.44s-13.09 4-18.12 27.17c0 0-5.6-3.18-18.19-2.46-.64 0-1.27.07-1.86.13l-.57.05-.92.1c-.53.05-1.05.1-1.61.17a22.35 22.35 0 00-6.86 2c-5-23.15-18.11-27.17-18.11-27.17-18.12 28.18-3 36.23-6 64.41-1.6 14.89 26.35 15.88 40 15.49 14.15.25 39.84-1.24 38.3-15.53-3.04-28.13 12.1-36.18-6.06-64.36z" fill="#d23c6f" transform="translate(-32 -38)"></path><text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="50.24" transform="translate(526.99 405.37)">Pouncival</text><circle class="cls-6" cx="477.9" cy="398.14" r="14.36"></circle></g></g><g data-name="iOS views" id="iOS_views"><text class="cls-10" transform="translate(544.05 651.5)">UIView</text><text class="cls-10" transform="translate(396.32 574.93)">UIImageView</text><text class="cls-10" transform="translate(624.8 578.93)">UITextView</text><path class="cls-11" d="M530 640.5l-148.69-.5V461.5M660.05 641.67l148.69-.5v-178.5M463.5 541v-93M696.5 541V424"></path></g><g data-name="Android views" id="Android_views"><text class="cls-12" transform="translate(517.85 156.5)">ViewGroup</text><text class="cls-12" transform="translate(393.13 233.93)">ImageView</text><text class="cls-12" transform="translate(641.04 233.93)">TextView</text><path class="cls-13" d="M463.5 340v-93M696.5 360V243"></path><path class="cls-11" d="M506.62 146.26l-127.69.5v178.5M680.67 145.09l125.69.5v179.5"></path></g></g><g id="ios"><path class="cls-14" d="M586.84 758.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.16 6.61-6.16 6.55 2.61 6.6 6.16zm-13.1 45.18v-35.42h13v35.42zM640.88 778.58c0 15.61-9.38 25.54-24.35 25.54s-23.32-11.28-23.32-24.77c0-14.13 9.26-25.34 24.13-25.34 15.6-.01 23.54 11.57 23.54 24.57zm-33.91.54c0 9.13 4 14.71 10.19 14.71s10-6.09 10-14.84c0-8.35-3.75-14.69-10-14.69-6.22 0-10.16 5.89-10.16 14.82zM648.67 790.41a29.89 29.89 0 0012.58 3c4.45 0 6.65-1.54 6.65-4s-2.18-3.69-7.67-5.57c-8.17-2.89-13.63-7.41-13.63-14.63 0-8.59 7.24-15.18 19.5-15.18a31.62 31.62 0 0113.12 2.49l-2.72 10.39a25.58 25.58 0 00-10.5-2.3c-4 0-6.14 1.46-6.14 3.58 0 2.47 2.58 3.46 8.7 5.75 8.75 3.2 12.65 7.88 12.65 14.63 0 8.39-6.51 15.52-20.68 15.52a34.76 34.76 0 01-14.27-3z" transform="translate(-32 -38)"></path><g id="app"><g id="nav"><path class="cls-7" d="M885 82h315v632H885z"></path><path class="cls-15" d="M892 677h305v68H892z"></path><path class="cls-16" d="M1078.76 738.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM1178.46 732s-4 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44zM978.31 755a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g><g id="Choupette"><path class="cls-16" d="M994.8 695.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.37c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69 43.85 43.85 0 00-4.86 0 25.44 25.44 0 00-2.05-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.34-7.58z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 657.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris"><path class="cls-18" d="M970 616h208"></path><path class="cls-15" d="M987 604.42s-4.7 1.45-8 8.71a35.16 35.16 0 012 11.87c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-16" d="M981 625a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C977 643.76 981 635 981 625z" transform="translate(-32 -38)"></path><circle class="cls-15" cx="924.5" cy="593.5" r="7.5"></circle><text class="cls-17" transform="translate(972.36 597.03)">Mrs. Norris</text></g><g id="Tuna"><path class="cls-18" d="M970 556h208"></path><path class="cls-19" d="M987 544.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 537.03)">Tuna</text></g><g id="Tabby"><path class="cls-18" d="M970 496h208"></path><path class="cls-15" d="M989.52 514a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-14" d="M969 506.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM955 513s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 01955 513zM982 513c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C984.93 518.16 982 513 982 513zM965.57 531.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29M959.87 522.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM959.84 522.49v-.1zM976 524l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 00976 524zM963 511c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41 0-.24-.12-.48-.18-.72-.6 9.7 3.4 12.09 3.4 12.09zM972.7 511.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM966.35 506.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 477.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger"><path class="cls-18" d="M970 436h208"></path><text class="cls-17" transform="translate(972.36 417.03)">Rum Tum Tugger</text><path class="cls-14" d="M994.64 455.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4a26.94 26.94 0 01-14.36 4.48 3.51 3.51 0 01-1.25 0H972c2.15-.32 7-2.24 13.9-11.86v-.42c.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.07-3.45 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2 18.43 18.43 0 006.81 4.76c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-15" d="M961.56 455.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM960.63 461.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M960.63 461.92a2 2 0 00.26-.43zM972 458.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-15" d="M972 458.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M989.5 464.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-15" d="M973.5 461.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-2"><path class="cls-18" d="M970 376h208"></path><path class="cls-15" d="M987 364.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H964.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(972.36 357.03)">Pouncival</text><circle class="cls-16" cx="945" cy="353" r="8"></circle></g><g id="Spot"><path class="cls-18" d="M970 316h208"></path><text class="cls-17" transform="translate(972.36 297.03)">Spot</text><path class="cls-14" d="M989.7 334.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37 12 12 0 008.18 13.37l6.92 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.25-13.38z" transform="translate(-32 -38)"></path></g><g id="Maru"><path class="cls-18" d="M970 256h208"></path><text class="cls-17" transform="translate(972.36 237.03)">Maru</text><path class="cls-14" d="M985 272a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06c-.51 10.51-7.89 18.85-17 18.85a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 01985 272z" transform="translate(-32 -38)"></path><path class="cls-15" d="M990.36 280.21a38.82 38.82 0 01-.13-7A12 12 0 00974 288.8c7.75-.36 17.05-2.12 16.36-8.59zM966 258.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5a15.76 15.76 0 002.02.23c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g id="header"><path class="cls-16" d="M888 85h312v104H888z"></path><text class="cls-20" transform="translate(918.19 163.12)">Cat Cafe Menu</text></g><circle cx="1147.5" cy="715.5" fill="#a21732" r="4.5"></circle></g><g id="device"><path d="M1197.9 100H955.1c-30.43 0-55.1 26.67-55.1 57.1v586.8a55.1 55.1 0 0055.1 55.1h242.8a55.1 55.1 0 0055.1-55.1V157.1c0-30.43-24.67-57.1-55.1-57.1zm26.84 643.79a29.21 29.21 0 01-29.21 29.21h-237a30.69 30.69 0 01-30.68-30.69v-588a29.34 29.34 0 0129.3-29.31h30.12a5.43 5.43 0 015.43 5.43v.57a18.73 18.73 0 0018.74 18.73h128.16a18.2 18.2 0 0018.2-18.2v.84a7.37 7.37 0 017.37-7.37h28.93a30.64 30.64 0 0130.64 30.64z" fill="#134484" transform="translate(-32 -38)"></path><rect class="cls-19" height="7.41" rx="3" width="42" x="1022" y="90.29"></rect><circle class="cls-23" cx="1076.5" cy="93.5" r="4.5"></circle><circle class="cls-14" cx="1076" cy="93" r="2"></circle></g></g><g id="Android"><g data-name="app" id="app-2"><path class="cls-7" d="M9 77h300v639H9z"></path><g data-name="Choupette" id="Choupette-2"><path class="cls-24" d="M107.8 727.53a65.82 65.82 0 01-6.94.86 20.79 20.79 0 004.13-6.48s-1.54 3.07-6.43 4.22a71.14 71.14 0 01.63-8c.67-1.8 2.75-8.13.6-12.53a12.93 12.93 0 01-.29 5.4c-.25-3.69-1.27-8.17-4-14.83a15.37 15.37 0 00-9.72 11.52 38.72 38.72 0 01.1-5.47 25.24 25.24 0 00-2 7.69A43.85 43.85 0 0079 710a25.44 25.44 0 00-2-7.78 38.75 38.75 0 01.11 5.47 15.37 15.37 0 00-9.72-11.52c-2.75 6.66-3.77 11.14-4 14.83a13 13 0 01-.28-5.37c-2.16 4.4-.08 10.73.59 12.53a70.94 70.94 0 01.64 8c-4.9-1.15-6.44-4.22-6.44-4.22a21 21 0 004.13 6.48 66.29 66.29 0 01-6.94-.86 33.47 33.47 0 007.4 7.58 15.57 15.57 0 01-6.28-1.95c4.56 5.25 12.58 6.79 18 7.21v.28a71.25 71.25 0 008.75.2c3.36 0 5.81-.25 5.81-.25v-.18c5.42-.42 13.45-2 18-7.22a15.49 15.49 0 01-6.28 2 33.26 33.26 0 007.31-7.7z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 689.03)">Choupette</text></g><g data-name="Mrs Norris" id="Mrs_Norris-2"><path class="cls-25" d="M83 648h208"></path><path class="cls-26" d="M100 636.42s-4.7 1.45-8 8.71A35.16 35.16 0 0194 657c0 10-4 18.76-10.06 24 8.07-.05 20.21-1.32 19.42-8.67-1.68-15.72 6.73-20.21-3.36-35.91z" transform="translate(-32 -38)"></path><path class="cls-24" d="M94 657a35.16 35.16 0 00-2-11.87 32.19 32.19 0 00-2.08 6.43s-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63h1.93C90 675.76 94 667 94 657z" transform="translate(-32 -38)"></path><circle class="cls-26" cx="37.5" cy="625.5" r="7.5"></circle><text class="cls-17" transform="translate(85.36 629.03)">Mrs. Norris</text></g><g data-name="Tuna" id="Tuna-2"><path class="cls-25" d="M83 588h208"></path><path class="cls-27" d="M100 576.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07h-.32l-.51.05-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.64 6.69-20.13-3.4-35.83z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 569.03)">Tuna</text></g><g data-name="Tabby" id="Tabby-2"><path class="cls-25" d="M83 528h208"></path><path class="cls-26" d="M102.52 546a164.53 164.53 0 01-1.62-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.5-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a165.73 165.73 0 01-1.61 31.37 12 12 0 008.2 13.37l6.92 3.11a15.57 15.57 0 0013-.12l6.52-3.08a12 12 0 008.24-13.38z" transform="translate(-32 -38)"></path><path class="cls-24" d="M82 538.39s2.37-1.44 2-7.3h-2c.54 2.11 1.11 5.43 0 7.3zM68 545s-2 4.62-1.65 13.87a10.78 10.78 0 001.49.6l1.83.83A26.62 26.62 0 0168 545zM95 545c2.15 5-1.36 12.12-3.52 15.71l2.83-1.33a12.26 12.26 0 001.93-.81C97.93 550.16 95 545 95 545zM78.57 563.72c-1.56-1.08-6.86-5.1-5.73-9.23a12.25 12.25 0 00.14 7.29" transform="translate(-32 -38)"></path><path class="cls-14" d="M72.87 554.39c0-.13.08-.26.13-.39a3.46 3.46 0 00-.13.39zM72.84 554.49v-.1z" transform="translate(-32 -38)"></path><path class="cls-24" d="M89 556l-3.68 7.35a14.88 14.88 0 002.47-.89l1.25-.59A16.69 16.69 0 0089 556zM76 543c-1.8-3-1.08-8.13-.22-11.78-1.76.1-3 .23-3 .41-.05-.24-.12-.48-.18-.72C72 540.61 76 543 76 543zM85.7 543.58s4-2.4 3.41-12.18a21.74 21.74 0 00-3.35-.27c.92 3.66 1.84 9.27-.06 12.45zM79.35 538.05c-1.06-1.77-.61-4.82-.1-6.95h-1.88c-.28 5.58 1.98 6.95 1.98 6.95z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 509.03)">Tabby</text></g><g data-name="Rum Tum Tugger" id="Rum_Tum_Tugger-2"><path class="cls-25" d="M83 468h208"></path><text class="cls-17" transform="translate(85.36 449.03)">Rum Tum Tugger</text><path class="cls-24" d="M107.64 487.79a66.64 66.64 0 01-7 .87 21.07 21.07 0 004.19-6.58s-1.34 2.67-5.47 4A26.94 26.94 0 0185 490.56a3.51 3.51 0 01-1.25 0H85c2.15-.32 7-2.24 13.9-11.86 0-.14 0-.28.05-.42.68-1.82 2.79-8.26.6-12.73a13.37 13.37 0 01-.29 5.46c-.25-3.75-1.29-8.3-4.08-15.07a15.63 15.63 0 00-9.88 11.7 39.92 39.92 0 01.11-5.55 25.92 25.92 0 00-2.07 7.81 45.13 45.13 0 00-4.93 0 26 26 0 00-2.08-7.9 38.43 38.43 0 01.11 5.55 15.63 15.63 0 00-9.88-11.7c-2.79 6.77-3.83 11.32-4.08 15.07a13.37 13.37 0 01-.29-5.46 13.23 13.23 0 00-.71 7.74l.39-.38c4.78 10.64 12.74 15 12.74 15-7.32 2.24-11.38.44-13.63-2.34a8.65 8.65 0 01-4.12-3.48 21.07 21.07 0 004.19 6.58 66.64 66.64 0 01-7-.87 33.9 33.9 0 007.52 7.7 15.82 15.82 0 01-6.38-2A18.43 18.43 0 0062 498.2c8.35-.78 10.93-3.26 11.65-4.28l.26-.43a2 2 0 01-.26.43 25.07 25.07 0 01-4.76 6.28 81 81 0 0013.44 1.08 66.71 66.71 0 007.69-.62 13.59 13.59 0 01-3.5-7.5c4.18 8.4 16.2 3.35 16.2 3.35l-.2.31a16.54 16.54 0 004-3.32 15.82 15.82 0 01-6.38 2 33.9 33.9 0 007.5-7.71z" transform="translate(-32 -38)"></path><path class="cls-26" d="M74.56 487.82s-8-4.32-12.74-15l-.39.38a26.67 26.67 0 001.32 5 70.93 70.93 0 01.64 8.09 12.86 12.86 0 01-2.46-.84c2.25 2.81 6.31 4.61 13.63 2.37zM73.63 493.92c-.72 1-3.3 3.5-11.65 4.28a32.74 32.74 0 006.89 2 25.07 25.07 0 004.76-6.28z" transform="translate(-32 -38)"></path><path class="cls-16" d="M73.63 493.92a2 2 0 00.26-.43zM85 490.56h-1.25a3.51 3.51 0 001.25 0z" transform="translate(-32 -38)"></path><path class="cls-26" d="M85 490.56a26.94 26.94 0 0014.36-4.49c-.34.11-.69.21-1.06.3a66.9 66.9 0 01.6-7.67c-6.96 9.62-11.8 11.54-13.9 11.86z" transform="translate(-32 -38)"></path><path class="cls-16" d="M102.5 496.82a31.69 31.69 0 01-12.5 3.84" transform="translate(-32 -38)"></path><path class="cls-26" d="M86.5 493.16a13.59 13.59 0 003.5 7.5 31.69 31.69 0 0012.5-3.84l.2-.31s-12.02 5.05-16.2-3.35z" transform="translate(-32 -38)"></path></g><g data-name="Pouncival" id="Pouncival-3"><path class="cls-25" d="M83 408h208"></path><path class="cls-26" d="M100 396.42s-7.29 2.24-10.09 15.14c0 0-3.12-1.77-10.14-1.37l-1 .07H77.94l-.9.1a12.51 12.51 0 00-3.83 1.11c-2.8-12.9-10.09-15.14-10.09-15.14-10.1 15.7-1.68 20.19-3.37 35.89-.88 8.3 14.69 8.85 22.3 8.63 7.89.14 22.2-.69 21.35-8.65-1.72-15.59 6.69-20.08-3.4-35.78z" transform="translate(-32 -38)"></path><text class="cls-17" transform="translate(85.36 389.03)">Pouncival</text><circle class="cls-24" cx="58" cy="385" r="8"></circle></g><g data-name="Spot" id="Spot-2"><path class="cls-25" d="M83 348h208"></path><text class="cls-17" transform="translate(85.36 329.03)">Spot</text><path class="cls-24" d="M102.7 366.05a165.62 165.62 0 01-1.61-31.36s-8.19 2.52-11.51 16.89c-.13-.67-16.51-.56-16.63.1-3.32-14.37-11.51-16.9-11.51-16.9a164.7 164.7 0 01-1.62 31.37A12 12 0 0068 379.52l7 3.11a15.55 15.55 0 0013-.12l6.53-3.08a12 12 0 008.17-13.38z" transform="translate(-32 -38)"></path></g><g data-name="Maru" id="Maru-2"><path class="cls-25" d="M83 288h208"></path><text class="cls-17" transform="translate(85.36 269.03)">Maru</text><path class="cls-24" d="M98 304a11.9 11.9 0 015.23 1.21c.74-10.5 5.18-15.8-3.24-28.89 0 0-7.29 2.24-10.09 15.14 0 0-3.12-1.77-10.14-1.37l-.81.06C78.44 300.66 71.06 309 62 309a15.76 15.76 0 01-2.07-.16c0 1.07-.09 2.2-.22 3.4-.88 8.29 14.69 8.85 22.3 8.63 1.49 0 3.2 0 5-.07a11.83 11.83 0 01-1-4.8A12 12 0 0198 304z" transform="translate(-32 -38)"></path><path class="cls-26" d="M103.36 312.21a38.82 38.82 0 01-.13-7A12 12 0 0087 320.8c7.75-.36 17.05-2.12 16.36-8.59zM79 290.15h-.54l-.51.06-.9.09a12.65 12.65 0 00-3.83 1.12c-2.8-12.9-10.09-15.15-10.09-15.15-9.33 14.51-2.86 19.45-3.15 32.5A15.76 15.76 0 0062 309c9.06 0 16.44-8.34 17-18.85z" transform="translate(-32 -38)"></path></g><g data-name="header" id="header-2"><path class="cls-3" d="M19.48 76h276.37A13.15 13.15 0 01309 89.15V180H5V90.48A14.48 14.48 0 0119.48 76z"></path><text class="cls-20" transform="translate(31.19 154.12)">Cat Cafe Menu</text></g><g data-name="nav" id="nav-2"><path class="cls-26" d="M7.18 177H310v46H5v-43.82A2.18 2.18 0 017.18 177z"></path><path class="cls-3" d="M191.76 232.9c-6.17 0-11.52 1.49-14.21 3.67-.77-1.43-5-2.36-6.43-2.36-2 0 1.31 2.62 1.31 5.24s-3.27 5.24-1.31 5.24c1.44 0 5.66-.94 6.43-2.37 2.69 2.19 8 3.68 14.21 3.68 8.61 0 15.63-2.9 16-6.55-.37-3.65-7.39-6.55-16-6.55zM291.46 226s-3.95 1.22-5.47 8.2c0 0-1.69-1-5.49-.74l-1.5.14a6.66 6.66 0 00-2.07.61c-1.52-7-5.47-8.21-5.47-8.21-5.47 8.51-.91 10.94-1.82 19.45-.49 4.49 7.95 4.79 12.08 4.68 4.27.07 12-.38 11.56-4.69-.91-8.5 3.65-10.93-1.82-19.44z" transform="translate(-32 -38)"></path><circle cx="260.5" cy="209.5" fill="#ee76ab" r="4.5"></circle><path class="cls-3" d="M91.31 249a.78.78 0 01-.57-.23s-8.31-8-8.46-8.16-1.34-1.68-1.6-2.11a7.94 7.94 0 01-.7-1.57 5.85 5.85 0 01-.3-1.8 6 6 0 011.64-4.46 6.27 6.27 0 014.56-1.61 5 5 0 011.64.28 6.61 6.61 0 011.56.75c.48.32.9.61 1.24.89a11.94 11.94 0 011 .88 11.94 11.94 0 011-.88c.34-.28.75-.57 1.23-.89a6.8 6.8 0 011.56-.75 5.11 5.11 0 011.65-.28 6.26 6.26 0 014.55 1.61 5.94 5.94 0 011.65 4.46c0 1.92-1 3.86-3 5.85l-8.09 7.79a.81.81 0 01-.57.23" transform="translate(-32 -38)"></path></g></g><g data-name="device" id="device-2"><path class="cls-27" d="M314.08 104H66.92A34.91 34.91 0 0032 138.92v629.16A34.91 34.91 0 0066.92 803h247.16A34.91 34.91 0 00349 768.08V138.92A34.91 34.91 0 00314.08 104zM336 735.6a18.4 18.4 0 01-18.4 18.4H64.85A19.85 19.85 0 0145 734.15V139.67A23.67 23.67 0 0168.67 116h60.13a9.2 9.2 0 019.2 9.2v7a19.75 19.75 0 0019.75 19.8h64A19.23 19.23 0 00241 132.77v-7.63a9.14 9.14 0 019.14-9.14h62.32A23.54 23.54 0 01336 139.54z" transform="translate(-32 -38)"></path><rect class="cls-26" height="6" rx="3" width="93" x="111" y="738"></rect><rect class="cls-26" height="6" rx="3" width="34" x="140" y="97"></rect><circle class="cls-23" cx="123.5" cy="95.5" r="6.5"></circle><circle class="cls-23" cx="190.5" cy="95.5" r="4.5"></circle><circle class="cls-24" cx="122" cy="94" r="3"></circle><circle class="cls-24" cx="190" cy="95" r="2"></circle></g><path class="cls-24" d="M507.91 114.08l-2.73 11.25h-13.45l14.08-48.53h17.32l14.47 48.53h-14l-3.1-11.25zm10.77-9.59l-2.25-8.73c-.74-2.74-1.66-6.7-2.41-9.56h-.15c-.72 2.86-1.44 6.86-2.14 9.61l-2.09 8.68zM543.32 102c0-4.72-.15-8.79-.29-12.06h11.2l.57 4.51h.26a12.84 12.84 0 0110.62-5.31c8.24 0 12.76 5.64 12.76 15.32v20.9h-13V106c0-4.06-1.4-6.48-4.5-6.48a4.52 4.52 0 00-4.26 3.12 7 7 0 00-.36 2.61v20h-13zM622.34 74.21v39.92c0 4.4.15 8.86.29 11.2h-11.52l-.52-4.79h-.15c-2.34 4-6.64 5.58-10.69 5.58-8.26 0-15.09-7.14-15.09-18.27 0-11.91 7.48-18.74 15.83-18.74 3.92 0 7.14 1.14 8.73 3.42h.14V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.35 0-6.3 3.89-6.3 8.54 0 5.43 2.67 8.26 6.25 8.26a5.11 5.11 0 005.07-4.23 10.67 10.67 0 00.2-2.38zM630.37 101.86c0-5.64-.09-9-.29-12h11.09l.46 6.39h.29a10.18 10.18 0 019.44-7.19 10.3 10.3 0 012.59.22v12.19a14.91 14.91 0 00-3.31-.36c-3.84 0-6.41 1.6-7.1 4.46a12 12 0 00-.18 2.21v17.5h-13zM695.55 107.26c0 12.87-9.2 18.86-19.12 18.86-10.6 0-18.83-6.73-18.83-18.25 0-11.25 7.43-18.76 19.5-18.76 11.1 0 18.45 7.49 18.45 18.15zm-24.55.34c0 5.31 1.75 9.36 5.76 9.36 3.5 0 5.4-3.67 5.4-9.36 0-4.9-1.58-9.32-5.43-9.32-4.28 0-5.73 4.72-5.73 9.32zM714.89 80.15c0 3.44-2.55 6.14-6.69 6.14-4 0-6.54-2.7-6.52-6.14s2.57-6.15 6.61-6.15 6.55 2.6 6.6 6.15zm-13.1 45.18V89.91h13v35.42zM758.71 74.21v39.92c0 4.4.14 8.86.29 11.2h-11.53l-.52-4.79h-.14c-2.34 4-6.64 5.58-10.69 5.58-8.27 0-15.09-7.14-15.09-18.27 0-11.91 7.47-18.74 15.82-18.74 3.93 0 7.15 1.14 8.73 3.42h.15V74.21zm-13 31a10.58 10.58 0 00-.09-1.68 5.28 5.28 0 00-5.11-4.53c-4.36 0-6.3 3.89-6.3 8.54 0 5.43 2.66 8.26 6.24 8.26a5.12 5.12 0 005.08-4.23 11.3 11.3 0 00.2-2.38z" transform="translate(-32 -38)"></path></g><g data-name="Layer 4" id="Layer_4"><path class="cls-29" d="M291 348l78-23v135l-78-52V308M821 325l88-11v64l-88 82V325z"></path></g></g></svg>
+flex-container:✫view_demonstrator.svg✫
+
+
 In ⟮mobile/app⟯ development, a ⟮view⟯ is ⟮the basic building block of UI⟯. They can be ⟮nested⟯, it is views ⟮all the way down⟯.
 
 ## user experience
@@ -4931,7 +4931,17 @@ After a certain number of write cycles, flash memory begins to decay.
 Flash memory is typically faster than magnetic memory.
 SSDs are a type of flash memory device.
 
-[⟮c;SSD chip⟯ [⟮c;block⟯ [⟮c;page⟯</span></div>[⟮c;page⟯</span></div>[⟮c;page⟯</span></div>[⟮c;...⟯</span></div></div>[⟮c;block⟯</span></div>[⟮c;...⟯</span></div></div>
+
+onion-box:
+⟮c;SSD chip⟯
+  ⟮c;block⟯
+    ⟮c;page⟯
+    ⟮c;page⟯
+    ⟮c;page⟯
+    ⟮c;...⟯
+  ⟮c;block⟯
+    ⟮c;...⟯
+  ⟮c;...⟯
 
 ## secondary memory organization
 
@@ -5006,7 +5016,7 @@ In *nix-likes, the root directory is the directory all other directories descend
 In *nix-likes, since all other directories descend from the root directory, *nix-likes only have a single directory tree.
 In *nix-likes, the root directory is `/`
 In windowslikes, each partition is its own root directory, with a drive letter assigned.
-Windows drive letters have the syntax <letter>:
+Windows drive letters have the syntax ‹letter›:
 An absolute path begins at the root directory.
 A relative path begins at the current working directory.
 
@@ -5042,7 +5052,7 @@ For ⟮Finder⟯, ⟮whenever you search anything in the top right bar⟯, ⟮a 
 
 pwd|print path of current directory
 tree|print a directory tree
-tree -L <n>|go to depth n
+tree -L ‹n›|go to depth n
 ls|list file in directory
 
 ls detects if it's in a terminal and outputs with newlines as separators if its not, and with spacing if it is.
@@ -5068,7 +5078,7 @@ basename strips the path and suffix from a file name
 ###### find
 
 find|find files
-find-command ::= find {<global-option>} {<starting-point-path>} {<expression>}
+find-command ::= find {‹global-option›} {‹starting-point-path›} {‹expression›}
 If no starting point is specified for find, it takes the current working directory.
 
 -type CHAR (e.g. b, c)   find files that are of one of the 7 unix file types 
@@ -5129,7 +5139,7 @@ source code should be in src for reference only
 /sys provides a window to the kernel.
 /sys/class|contains (a view of) different types of devices
 /sys/class/power_supply|contains (a view of) the power supplies
-/sys/class/power_supply/BAT<n>|information about the nth battery
+/sys/class/power_supply/BAT‹n›|information about the nth battery
 /sys/class/backlight|contains (a view of) the screen backlights.
 
 ###### /boot
@@ -5250,23 +5260,23 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 /dev/full is  always full
 /dev/zero returns as many 0x00 as you like.
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
-/dev/video<n> represents attached cameras.
+/dev/video‹n› represents attached cameras.
 
 ####### block device files
 
 The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
-Originally, the /dev/sd<char> was only used for block devices using SCSI.
-Because ATA/SATA/PATA devices suppoort a subset of the commands of SCSI, linux decided to also handle them by the kernel's SCSI driver subsystem, therefore their device files also use the  /dev/sd<char> naming scheme. 
-/dev/nvme<n>n<n> represents devices attached via NVMe
-for /dev/nvme<n>n<n>, the first <n> represents the index of the controller, the second <n> represents the device on the controller.
-/dev/vd<char> represents devices attached to a virtio block device interface, which is an interface for virtual devices.
-/dev/mmcblk<n> represents devices handled by the kernels mmc driver, such as SD cards.
-/dev/fd/<n> are device files representing the file descriptors of the current process, however /dev/fd<n> (notice the difference!) indicates the nth floppy disk connected.
-/dev/hd<n> are device files representing entire, raw hard disks (not commonly used today)
+Originally, the /dev/sd‹char› was only used for block devices using SCSI.
+Because ATA/SATA/PATA devices suppoort a subset of the commands of SCSI, linux decided to also handle them by the kernel's SCSI driver subsystem, therefore their device files also use the  /dev/sd‹char› naming scheme. 
+/dev/nvme‹n›n‹n› represents devices attached via NVMe
+for /dev/nvme‹n›n‹n›, the first ‹n› represents the index of the controller, the second ‹n› represents the device on the controller.
+/dev/vd‹char› represents devices attached to a virtio block device interface, which is an interface for virtual devices.
+/dev/mmcblk‹n› represents devices handled by the kernels mmc driver, such as SD cards.
+/dev/fd/‹n› are device files representing the file descriptors of the current process, however /dev/fd‹n› (notice the difference!) indicates the nth floppy disk connected.
+/dev/hd‹n› are device files representing entire, raw hard disks (not commonly used today)
 /dev/input contains device files for
 
-<char> and <n> as indices are genrally assigned based on which was discovered first
-to represent a partition, add <index> to the relevant device file if the name ends in a character, and p<index> if it ends in a number.
+‹char› and ‹n› as indices are genrally assigned based on which was discovered first
+to represent a partition, add ‹index› to the relevant device file if the name ends in a character, and p‹index› if it ends in a number.
 e.g. /dev/sda1 or /dev/loop0p2
 
 A loop device is a normal file mounted as a block device, which you then can use as part of a filesystem.
@@ -5331,7 +5341,7 @@ folder (windows) = directory (*nix)
 
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
 chown changes the owner and/or group of the file
-chown-command ::= {<option>} [<owner>][:[<group>]] {<file>}
+chown-command ::= {‹option›} [‹owner›][:[‹group›]] {‹file›}
 The three permissions that unix tracks are ⟮read⟯, ⟮write⟯,, and ⟮execute⟯
 ⟮x⟯|⟮execute⟯
 ⟮w⟯|⟮write⟯
@@ -5554,8 +5564,8 @@ mpv|terminal based video player
 
 mpv plays files, urls, and playlists.
 
-Play a playlist<filename>   --playlist=‹filename›
-don't open a new video window<filename></filename>   --no-video
+Play a playlist‹filename›   --playlist=‹filename›
+don't open a new video window‹filename›‹/filename›   --no-video
 
 ######## mpd mpc
 
@@ -5582,7 +5592,7 @@ mpc -p port or --port=port|connect to mpd at the specified port
 `mpc playlist`|show the current playlist
 `mpc pause`|pause
 `mpc next`|go to next song
-`mpc toggle`|play if paused, pause if playing</div>
+`mpc toggle`|play if paused, pause if playing
 
 ####### processing
 
@@ -5590,18 +5600,18 @@ mpc -p port or --port=port|connect to mpd at the specified port
 
 ffmpeg is mainly a video/audio converter
 
-ffmpeg-command ::= ffmpeg <global-options> <input-specifier>{ <input-specifier>} <output-specifier>{ <output-specifier>}
-input-specifier ::= [<input-options>] -i <url>
-output-specifier ::= [<output-options>] <url>
-input-options ::= {<input-only-option><input-output-option>}
-output-options ::= {<output-only-option><input-output-option>}
-input-file-option-specifier ::= <input-index>:<stream-index>
+ffmpeg-command ::= ffmpeg ‹global-options› ‹input-specifier›{ ‹input-specifier›} ‹output-specifier›{ ‹output-specifier›}
+input-specifier ::= [‹input-options›] -i ‹url›
+output-specifier ::= [‹output-options›] ‹url›
+input-options ::= {‹input-only-option›‹input-output-option›}
+output-options ::= {‹output-only-option›‹input-output-option›}
+input-file-option-specifier ::= ‹input-index›:‹stream-index›
 
 ffmpeg input and stream index are zero-based
 
 input-output-options
--ss <position>|seek to position
--to <position>|stop at position
+-ss ‹position›|seek to position
+-to ‹position›|stop at position
 `-preset FOO`   set the speed (and thus the effectiveness) of the encoding (values such as veryfast, medium, slow...)
 
 ###### images / combined
@@ -5628,7 +5638,7 @@ SVG is a subformat of XML.
 SVG files have the file extension of .svg
 SVG|Scalable Vector Graphics
 The ⟮current version of SVG⟯ is ⟮1.1.⟯, with version ⟮2⟯ being ⟮in planning since forever⟯. 
-Often, ⟮SVG⟯ is ⟮included in HTML⟯. This can be done by i⟮ncluding it directly in the source⟯, r⟮eferencing it in places the browser would normally take an image (<img>, background-image⟯), or ⟮pointing to it within an <object> or an <iframe>⟯ 
+Often, ⟮SVG⟯ is ⟮included in HTML⟯. This can be done by i⟮ncluding it directly in the source⟯, r⟮eferencing it in places the browser would normally take an image (‹img›, background-image⟯), or ⟮pointing to it within an ‹object› or an ‹iframe›⟯ 
 ⟮‹foreignObject›⟯ is an SVG element that allows you to ⟮include non-SVG XML⟯, most commonly ⟮s15;⟮HTML⟯⟯. 
 
 
@@ -5745,23 +5755,23 @@ vi/vim/nvim is largely mode-based.
 
 sed claims to be a stream editor, but is more specifically a line editor.
 
-sed <options> <command> {<file>}
-command ::= [<addr>]<command-char>[<options>]
-addr ::= <int-or-regex>[,<int-w-op-or-regex>[!]]
-int-or-regex ::= <int>|/<regex>/
-int-w-op-or-regex ::= ([<operator>]<int>)|(<regex-delim-start><regex><regex-delim-end>)
-regex-delim-start ::= /|\\<char>
-regex-delim-emd ::= /|<char>
+sed ‹options› ‹command› {‹file›}
+command ::= [‹addr›]‹command-char›[‹options›]
+addr ::= ‹int-or-regex›[,‹int-w-op-or-regex›[!]]
+int-or-regex ::= ‹int›|/‹regex›/
+int-w-op-or-regex ::= ([‹operator›]‹int›)|(‹regex-delim-start›‹regex›‹regex-delim-end›)
+regex-delim-start ::= /|\\‹char›
+regex-delim-emd ::= /|‹char›
 
 sed command-char|function|options
 s|regex
-y|char transliteration|/{<char>}/{<char>}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
+y|char transliteration|/{‹char›}/{‹char›}/|replace any of the first chars with the corresponding char in the second set of chars| transliterate ‘a-j’ into ‘0-9’: 'y/abcdefghij/0123456789/'
 
 sed's y/... command is similar to the standalone program tr.
 Ruby and Perl have a string method tr that works similar to sed's y/... / the program tr.
 
 For sed, specifying a regex within an addr selects lines that match the regex
-For sed, using the \<char> syntax as a regex starting delimiter must then continue using <char> as a delimiter, allowing one not to have to escape \
+For sed, using the \‹char› syntax as a regex starting delimiter must then continue using ‹char› as a delimiter, allowing one not to have to escape \
 
 nano|basic cmd-line text editor
 
@@ -5773,8 +5783,8 @@ sort|sort file line by line
 -n sort by order of magnitude
 uniq|remove adjacent (!) matching lines
 cut|extract specific sections of each line based on delimiters
--f <list>|only extract fields <list>
--d <char>|treat <char> as delimiter
+-f ‹list›|only extract fields ‹list›
+-d ‹char›|treat ‹char› as delimiter
 nl|number lines
 rev|reverse each line of a file ('horizontally\)
 
@@ -5792,7 +5802,7 @@ Only features supported by pandoc markdown are guaranteed to survive pandoc conv
 
 The behavior of some of the readers and writers can be adjusted by enabling or disabling various extensions.
 for pandoc extensions, + enables it and - disables it.
-pandoc-format-specifier ::= <pandoc-format>{(+|-)<pandoc-extensions>}
+pandoc-format-specifier ::= ‹pandoc-format›{(+|-)‹pandoc-extensions›}
 
 -s/--standalone produces valid standalone files such as HTML by adding header & footer material via a specified template.
 
@@ -5803,8 +5813,8 @@ By default pandoc creates an output pdf by using latex as an intermediary, you c
 
 fortune|display a random fortune
 
-yes[ <string>]
-yes outputs y or <string> until killed.
+yes[ ‹string›]
+yes outputs y or ‹string› until killed.
 yes can be used to e.g. provide always answer yes for whatever a script asks by using yes | ...
 
 ##### types
@@ -5820,7 +5830,7 @@ markup languages consist of normal text and specific markup, which are interming
 bold (no importance impl)|\textbf{} (though there are others)|‹b>|**text** or __text__
 italic (no importance impl)|\textit{}|‹i>|*text* or _text_
 emphasize (generally via italics)|\emph{}|‹em>|N/A
-strongly emphasize||<strong>|N/A
+strongly emphasize||‹strong›|N/A
 underline|\underline{}|‹u>|N/A
 strikethrough foo (whithout special semantics)|different ones in packages|‹s>foo‹s>|~foo~ or ~~foo~~ (most md flavors)
 hyperlink link with title title|\href{link}{title}|‹a href="link">title‹/a>|[title](link)
@@ -5839,11 +5849,11 @@ image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no al
 horizontal line|\rule (or \hrule, but both take arguments)|‹hr>| three or more *** ___ --- 
 superscript text foo|^{foo}|‹sup›foo‹/sup›
 subscript text foo|_{foo}|‹sub›foo‹/sub›
-indicate a variable semantically||<var>
-keyboard input||<kbd>
-sample output||<samp>
+indicate a variable semantically||‹var›
+keyboard input||‹kbd›
+sample output||‹samp›
 title of a cited work||『
-preformatted text that is to be presented exactly as written||<pre>
+preformatted text that is to be presented exactly as written||‹pre›
 
 using \url{} or \href{} requires the package hyperref in Latex
 package hyperref also does autolinking to things such as the TOC
@@ -5873,7 +5883,7 @@ non-breaking hyphen|"~
 soft hyphen|\- (only hyphtenates in indicated location) "- (allows hyphenation in other places in the word)|＆shy;＆#8203;
 "=
 if you want a word ⟮with a hyphen⟯ to be ⟮able to be split anywhere⟯ (using babel ngerman), use ⟮"=⟯
-zero-width space||<wbr> or ＆#8203;
+zero-width space||‹wbr› or ＆#8203;
 
 hyperref|create links automatically and \href, \url commands
 
@@ -5883,7 +5893,7 @@ nested blockquotes| `>>` or `> > `(space after > to begin blockquotes is optiona
 Pandoc md is a superset of most other markdown flavors
 Pandoc md defaults to tilde-delimited code blocks.
 In pandoc md, you can specify heading identifiers to contain things such as classes, ids, etc
-pandoc-md-heading ::= #{#} ‹title> [\{{<class>|<id>|...}\}]
+pandoc-md-heading ::= #{#} ‹title> [\{{‹class›|‹id›|...}\}]
 
 
 RTF|Rich Text Format
@@ -6407,7 +6417,7 @@ command|Effect
 
 
 Command|does
-⟮\today⟯|⟮c+;render today's date in the format <span id="insert-here"></span><script>var [, month, day, year] = new Date().toDateString().split(" "); document.querySelector('#insert-here').innerHTML = `${month} ${day}, ${year}`;</script> (by default⟯)
+⟮\today⟯|⟮c+;render today's date in the format ‹month› ‹day›, ‹year›
 ⟮\bar{foo}⟯|⟮bar above foo⟯
 ⟮a' or a^{\prime}⟯|⟮render an a with a prime⟯
 
@@ -6454,8 +6464,8 @@ citation-js is a npm module and CLI for citation magic using various different f
 ######## BibTeX
 
 BibTeX is the format (La)TeX uses to describe citation information.
-bibtex-entry ::= @<type>\{<unique-key>, <list-of-props>\}
-list-of-props ::= <key> = <value>{, <key> = <value>}
+bibtex-entry ::= @‹type›\{‹unique-key›, ‹list-of-props›\}
+list-of-props ::= ‹key› = ‹value›{, ‹key› = ‹value›}
 type ::= book|article|...
 
 ####### toml xdg systemd
@@ -6472,13 +6482,13 @@ m3u merely has a de-facto standard.
 There are two variants of m3u, one which is very basic and extended m3u, which allows for directives.
 Careless handling of m3u has often lead to security flaws.
 
-m3u-file ::= {<entry>}
-entry ::= [<path>|<URL>]<CRLF>
+m3u-file ::= {‹entry›}
+entry ::= [‹path›|‹URL›]‹CRLF›
 
-extended-m3u-file ::= #EXTM3U<CRLF>{<entry>}
-entry ::= [<resource-entry>|<directive>]<CRLF>
-resource-entry ::= (<path>|<URL>)[ #<string>]
-directive :: #<directivename>[:<argument>]
+extended-m3u-file ::= #EXTM3U‹CRLF›{‹entry›}
+entry ::= [‹resource-entry›|‹directive›]‹CRLF›
+resource-entry ::= (‹path›|‹URL›)[ #‹string›]
+directive :: #‹directivename›[:‹argument›]
 
 ####### ICAL/VCARD
 
@@ -6487,31 +6497,31 @@ vcard|text/vcard|contact information|RFC 6350|.vcf
 The iCalendar object is organized into individual lines of text, called content lines. 
 Any content lines not acting as delimiters are called properties.
 Rough general ENBF:
-ical, vcard ::= {<contentline>}
-contentline ::= <name>{;<param>}:<value><CRLF>
-name ::= <iana-token>|<x-name>
-param ::= <param-name>=<param-value>{,<param-value>}
+ical, vcard ::= {‹contentline›}
+contentline ::= ‹name›{;‹param›}:‹value›‹CRLF›
+name ::= ‹iana-token›|‹x-name›
+param ::= ‹param-name›=‹param-value›{,‹param-value›}
 
 The iana-tokens "BEGIN" and "END" signify the beginning and end of an icalendar or vcard object, or a component/subcomponent in the case of Ical.
 There is currently only one subcomponent, VALARM
 BEGIN and END take a value of VCALENDAR for an ical object and VCARD for an vcard object
 
-ical-object ::= <ical-begin-line><version-line><prodid-line>{<ical-component>}<ical-end-line>
-ical-begin-line ::= BEGIN:VCALENDAR<CRLF>
-ical-end-line ::= END:VCALENDAR<CRLF>
-version-line ::= VERSION:2.0<CRLF>
-prodid-line ::= PRODID:<string><CRLF> # UID of creator
-ical-component ::= <begin-line>{<contentline>|<ical-component>}<end-line>
-begin-line ::= BEGIN:<component-name><CRLF>
-end-line ::= END:<component-name><CRLF>
+ical-object ::= ‹ical-begin-line›‹version-line›‹prodid-line›{‹ical-component›}‹ical-end-line›
+ical-begin-line ::= BEGIN:VCALENDAR‹CRLF›
+ical-end-line ::= END:VCALENDAR‹CRLF›
+version-line ::= VERSION:2.0‹CRLF›
+prodid-line ::= PRODID:‹string›‹CRLF› # UID of creator
+ical-component ::= ‹begin-line›{‹contentline›|‹ical-component›}‹end-line›
+begin-line ::= BEGIN:‹component-name›‹CRLF›
+end-line ::= END:‹component-name›‹CRLF›
 
 In vCard, properties are direct children of the ⟮the vCard object⟯
 In general, an .ics contains one ical object, however a .vcf may contain multiple ical objects
 
-vcard-object ::= <ical-begin-line><version-line>{<contentline>}<ical-end-line> # no prodid
-cal-begin-line ::= BEGIN:VCARD<CRLF>
-ical-end-line ::= END:VCARD<CRLF>
-version-line ::= VERSION:4.0<CRLF>
+vcard-object ::= ‹ical-begin-line›‹version-line›{‹contentline›}‹ical-end-line› # no prodid
+cal-begin-line ::= BEGIN:VCARD‹CRLF›
+ical-end-line ::= END:VCARD‹CRLF›
+version-line ::= VERSION:4.0‹CRLF›
 
 icalendar lines may be a maximum of 75 octets long. If they are longer, they are broken up into multiple lines, where a leading space/tab on the new line indicates it is a continuation.
 
@@ -6583,7 +6593,7 @@ JSON schemas are usually written in JSON, though they can be written in any lang
 title|title for the schema
 description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
-$id|base url for the document, similar to <base> in HTML
+$id|base url for the document, similar to ‹base› in HTML
 
 ######### child keys
 
@@ -6633,8 +6643,9 @@ A ⟮cue⟯ is ⟮the main unit of information⟯ in ⟮WebVTT/.srt.⟯
 Every line of a cue may optionally be ⟮started by `- `⟯, this will ⟮not be displayed⟯ 
 
 
+WebVTT-specific properties
 
-    <tr><th colspan="2">WebVTT-specific properties
+
 CSS property syntax|CSS function
 ⟮c+;vertical:rl/lr make captions go from top to bottom and either right → left or left → right (changes the direction of other settings by 90 deg⟯)
 ⟮line:0-100%⟯|⟮display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)
@@ -6648,7 +6659,8 @@ CSS property syntax|CSS function
 ⟮‹b›, ‹i›, ‹u›⟯|⟮make the text bold, italic or underlined⟯
 
 
-    <tr><th colspan="2">WebVTT-specific selectors
+WebVTT-specific selectors
+
 CSS Selector|Selects
 ⟮::cue(.foo⟯)|⟮Target a cue with class foo (‹c.foo›⟯)
 ⟮::cue⟯|⟮Target any WebVTT cue (shown subtitle⟯)
@@ -6705,12 +6717,12 @@ The mbox format consists of individual IMF messages.
 The fileformat for emails is generally IMF.
 The mbox format has problems with concurrency (safety and performance).
 To prevent corruption, mbox files generally need to use file locking to prevent problems arising from concurrency.
-mbox ::= <mbox-email>{<mbox-email>}
-mbox-email ::= <from-line><IMF-message><LF>
-from-line ::= From <sender-email> <utc-datetime><LF>
-IMF-message ::= <headers><body><LF>
-headers ::= {<key>: <value><LF>}
-body ::= <LF><body-contents>
+mbox ::= ‹mbox-email›{‹mbox-email›}
+mbox-email ::= ‹from-line›‹IMF-message›‹LF›
+from-line ::= From ‹sender-email› ‹utc-datetime›‹LF›
+IMF-message ::= ‹headers›‹body›‹LF›
+headers ::= {‹key›: ‹value›‹LF›}
+body ::= ‹LF›‹body-contents›
 
 The IMF uses CRLF, however when stored in mbox, they use LF instead.
 
@@ -6833,7 +6845,7 @@ git reset moves the HEAD/branch heads to the specified commit, as well as the st
 
 ##### retrieval
 
-`git checkout <commit> <filename>` retrieves the file <filename> as of commit <commmit>
+`git checkout ‹commit› ‹filename›` retrieves the file ‹filename› as of commit ‹commmit›
 
 #### branches
 
@@ -6867,7 +6879,7 @@ a three way involves two different states and thus must create a merge commit.
 In a three-way merge, the merge is performed based on the diff with the common ancestor commit.
 In a three way merge, if the same section of the ancestor commit has been changed, it creates create a merge conflict.
 A merge conflict is indicated by special syntax within the file.
-merge-conflict ::= <seven-left-angle-brackets> <branch-name><newline><code-version-1><newline><seven-equals-sign><newline><code-version-3><newline><seven-right-angle-brackets> <branch-name><newline>
+merge-conflict ::= ‹seven-left-angle-brackets› ‹branch-name›‹newline›‹code-version-1›‹newline›‹seven-equals-sign›‹newline›‹code-version-3›‹newline›‹seven-right-angle-brackets› ‹branch-name›‹newline›
 After fixing a merge conflict, you need to commit again.
 
 To abort a maerge during a merge conflict: git merge --abort
@@ -6878,11 +6890,11 @@ Rebasing in git is taking the changes from somewhere (e.g. a branch) and applyin
 
 #### rev-parse
 
-the suffixes ~<n> and ^<n> are for moving back in the tree of commits.
-~<n> goes n commits back into the history
+the suffixes ~‹n› and ^‹n› are for moving back in the tree of commits.
+~‹n› goes n commits back into the history
 ~0 = this commit, ~1 = parent commit, etc. 
 ~ is an alias for ~1
-^<n> selects the nth parent commit sibling if there are multiple.
+^‹n› selects the nth parent commit sibling if there are multiple.
 ^1 = ~1, ^2 is the second commit of a merge commit, etc.
 
 #### plumbing and porcelain
@@ -6909,13 +6921,13 @@ things git push/fetch transfers are refs and objects.
 ###### pushing
 
 git push transfers all the information a remote does not yet have but needs of a certain refspec to that remote.
-`git push [<repository> [<refspec>]]`
+`git push [‹repository› [‹refspec›]]`
 If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
-When the command line does not specify what to push with <refspec>... arguments or --all, --mirror, --tags options, the command finds the default <refspec> by consulting remote.*.push (i.e. the push key for the specified remote) configuration, and if it is not found, honors push.default configuration to decide what to push
+When the command line does not specify what to push with ‹refspec›... arguments or --all, --mirror, --tags options, the command finds the default ‹refspec› by consulting remote.*.push (i.e. the push key for the specified remote) configuration, and if it is not found, honors push.default configuration to decide what to push
 
 ###### fetching
 
-`git fetch [<repository> [<refspec>]]`
+`git fetch [‹repository› [‹refspec›]]`
 If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
 
 
@@ -6923,17 +6935,17 @@ If the repository is left out from git push, it will take it from the branch.*.r
 
 A remote tracking branch someremote/foo is a local copy of the foo branch on the remote, possibly as distinct from the truly local foo branch.
 to list remote tracking branches, use `git branch --remotes`
-remote tracking branches are named `<remote>/<branch>`
+remote tracking branches are named `‹remote›/‹branch›`
 A tracking branch is a local branch that is directly related to a remote tracking branch.
 The remote tracking branch of a tracking branch is called the upstream branch.
-Establishing a new tracking branch can be done by creating a new local branch for a remote tracking branch e.g. via `git checkout -b newLocalBranch <remote>/<branch>`, for which the shorthand `git checkout --track <remote>/<branch>` exists.
+Establishing a new tracking branch can be done by creating a new local branch for a remote tracking branch e.g. via `git checkout -b newLocalBranch ‹remote›/‹branch›`, for which the shorthand `git checkout --track ‹remote›/‹branch›` exists.
 
 ##### refspec
 
 A refspec tells git how to map references from a remote to the local repo.
-refspec-format ::= [+]<src>:<dst>
-<src> in a refspec is the pattern for references on the remote side
-<dst> in a refspec is the pattern for references on the local side
+refspec-format ::= [+]‹src›:‹dst›
+‹src› in a refspec is the pattern for references on the remote side
+‹dst› in a refspec is the pattern for references on the local side
 If a plus is included in a refspec, it tells git should update even if it isn't a fast-forward 
 Default refspecs for pushing and fetching for each remote are established in the remote entry in the config file.
 
@@ -7383,7 +7395,7 @@ Authentication is proving one's identity.
 ### nonce
 
 flex-container:✫300px-Replay_attack_on_hash.svg.png✫
-Nonce (<span class="c1-scr">short for number once</span>) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
+Nonce (short for number once) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
 ### challenge-response
 
@@ -7478,9 +7490,8 @@ A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ in
 
 ##### key exchange
 
-<h1>
-  ⟮MitM attack⟯
-</h1>
+⟮MitM attack⟯
+
 ⟮h∞;uh1;✫sm_MitM1.jpg✫⟯
 ⟮c+;h∞;uh2;✫sm_MitM2.jpg✫⟯
 ⟮c+;h∞;uh3;✫sm_MitM3.jpg✫⟯
@@ -7639,7 +7650,7 @@ Image matches have an `image_path` instead of a `replace`.
 
 the vars array of a match contains vars for that match.
 Each var has at least a key `name` identifying it and a key `type` indicating the type of variable.
-One can refer to any var within `replace` by `{{<name>}}`
+One can refer to any var within `replace` by `{{‹name›}}`
 Any further specification of an espanso variable goes into the `params` key.
 
 ######## globals
@@ -7753,7 +7764,7 @@ to ⟮insert a random choice of different options⟯ use the type ⟮random⟯, 
 
 When using espanso forms, ctrl (yes, really) enter to submit on mac.
 When using forms, instead of using `replace`, we instead use `form`.
-Espanso's `form` key includes a string with blanks signified by the usual {{<name>}} syntax
+Espanso's `form` key includes a string with blanks signified by the usual {{‹name›}} syntax
 Espanso allows customization of its form fields via the `form_fields` mapping.
 The `form_fields` mapping can have a key for each blank in the form, I will be calling each of these a field specifier.
 
@@ -7802,18 +7813,18 @@ the ⟮crontab⟯ is interacted with by ⟮the crontab command⟯.
 In cron, ⟮each job⟯ is defined by ⟮a line in the crontab⟯, which consists of ⟮times to execute a command⟯, and ⟮a command itself⟯.
 
 ```
-crontab-line ::= (⟮<time-specifier> <time-specifier> <time-specifier> <time-specifier> <time-specifier>⟯⟮|<time-keyword>⟯) ⟮<command>⟯
-⟮time-specifier⟯ ::= ⟮* ||⟯ ⟮<time-list>⟯
-⟮time-list⟯ ::= ⟮<time-item>⟯⟮{,<time-item>}⟯
-⟮time-item⟯ ::= ⟮<time>-<time>⟯⟮||(<time>|*)/<time>⟯⟮||<time>⟯
+crontab-line ::= (⟮‹time-specifier› ‹time-specifier› ‹time-specifier› ‹time-specifier› ‹time-specifier›⟯⟮|‹time-keyword›⟯) ⟮‹command›⟯
+⟮time-specifier⟯ ::= ⟮* ||⟯ ⟮‹time-list›⟯
+⟮time-list⟯ ::= ⟮‹time-item›⟯⟮{,‹time-item›}⟯
+⟮time-item⟯ ::= ⟮‹time›-‹time›⟯⟮||(‹time›|*)/‹time›⟯⟮||‹time›⟯
 ```
 
 ####### time specifiers
 
 cron time item|refers to
 ⟮*⟯|⟮all relevant time units⟯
-⟮<n>-<m>⟯|⟮specifies a range of times n-m⟯
-⟮*/<n>⟯|⟮every nth unit⟯
+⟮‹n›-‹m›⟯|⟮specifies a range of times n-m⟯
+⟮*/‹n›⟯|⟮every nth unit⟯
 
 
 *|*|*|*|*|<command to execute>
@@ -8035,7 +8046,7 @@ systemd deals with system units.
 A systemd unit represents any kind of system resource.
 systemd units contain dependencies to tell us what we need to load first.
 Systemd units end .unittype.
-an instance of a systemd unit is denoted by <instance-name>@<unitname>.<unittype>
+an instance of a systemd unit is denoted by ‹instance-name›@‹unitname›.‹unittype›
 Systemd units are stored in unit files.
 
 .timer   timed functionality similar to cron
@@ -8065,9 +8076,9 @@ The main command to administer systemd is systemctl
 starting/stopping an unit for systemd does that ⟮right now⟯ but temporarily
 enabling/disabling an unit for systemd does that ⟮next reboot/session (by default)⟯ but permanently.
 To both start and enable/stop and disable, use enable/disable --now.
-syntax: systemctl (start|stop|enable|disable) <unit>
-To see if a thing is currently enabled or active, use is-enabled/is-active <unit>
-reload <unit> reloads a specific unit.
+syntax: systemctl (start|stop|enable|disable) ‹unit›
+To see if a thing is currently enabled or active, use is-enabled/is-active ‹unit›
+reload ‹unit› reloads a specific unit.
 reset-failed resets all failed units
 daemon-reload refreshes changed systemd settings
 The systemctl subcommands list-* lists relevant systemd-related things, however there is not a list-unit subcommand for every unit.
@@ -8117,7 +8128,7 @@ fcitx-configtool allows managing fcitx graphically.
 
 `shutdown`|shutting your system down
 reboot|restart your computer
-shutdown{ <option>}[ <shudown-time>][ <wall-message>]
+shutdown{ ‹option›}[ ‹shudown-time›][ ‹wall-message›]
 
 caffeinate creates assertions to alter system sleep behavior. 
 If no assertion flags are specified, caffeinate creates an assertion to prevent idle sleep.  
@@ -8132,7 +8143,7 @@ termux-open   open something it its default application
 ⟮xdg-open⟯ is then X equivalent of ⟮macOs `open`⟯ 
 
 
-    <tr><th colspan="2">`open`
+`open`
 ⟮-R⟯|⟮reveals the file in finder⟯
 ⟮-a someapplication⟯|⟮Specify the application to open with⟯
 ⟮-e⟯|⟮open the file with textedit⟯
@@ -8160,8 +8171,8 @@ CLI tool for managing displays|`display_manager.py`
 
 date is a tool for showing, formatting or changing date and time
 If run without arguments, date gets the current date and time.
-date-command ::= date [<formatting-syntax>|<setting-syntax>|<dst-syntax>]
-formatting-syntax ::= {<option>}[ +<output-format-specifier>]
+date-command ::= date [‹formatting-syntax›|‹setting-syntax›|‹dst-syntax›]
+formatting-syntax ::= {‹option›}[ +‹output-format-specifier›]
 
 option|does
 ⟮-u / --utc / --universal⟯|⟮use UTC⟯
@@ -8170,7 +8181,7 @@ option|does
 
 
 Sleep is a command that waits for the specified time.
-sleep-command ::= sleep{ <number><suffix>}
+sleep-command ::= sleep{ ‹number›‹suffix›}
 suffix ::= s|m|h|d
 for sleep, multiple number-suffix specifier waits for their sum
 
@@ -8280,21 +8291,21 @@ The tty driver is the thing that has all all the processes living in a terminal 
 Terminal emulator is properly a synonym for virtual terminal/console, though sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage. Nevertheless, I wil use virtual terminal for this to avoid ambiguity. 
 virtual terminal = virtual console.
 vt/vc is short for virtual terminal/console.
-Virtual terminals are realized by a /dev/tty<n> file.
-/dev/tty<n> files are provided by the kernel.
-Hardware terminals are realized by /dev/ttyS<n> files (I think)
-tty may be a synonym for virtual terminal (since all virtual terminals are realized via /dev/tty<n>), or as a synonym for any non-pseudo-terminal terminal.
+Virtual terminals are realized by a /dev/tty‹n› file.
+/dev/tty‹n› files are provided by the kernel.
+Hardware terminals are realized by /dev/ttyS‹n› files (I think)
+tty may be a synonym for virtual terminal (since all virtual terminals are realized via /dev/tty‹n›), or as a synonym for any non-pseudo-terminal terminal.
 Each physical terminal would have been its own separate thing, and so each virtual terminal is also its completely separate thing.
 Virtual terminals occupy the whole screen, they decidedly don't live within a GUI.
 /dev/tty0 represents the current controlling virtual terminal.
 When in a GUI, /dev/tty0 may be the virtual terminal the window server is running in.
-On linux, pressing ctrl + alt + f<number> switches to tty<number>
+On linux, pressing ctrl + alt + f‹number› switches to tty‹number›
 In linux, the window manager lives within a virtual terminal.
 Linux typically starts with 6 virtual ternubaks, and then one additional one (tty7) to run the window manager in.
 ttys (physical terminals and virtual terminals) are initialized by `getty`, which mainly calls `login`.
 
-each /dev/tty<n> has a corresponding /dev/vcs<n> (including /dev/tty0, which means that /dev/vcs0 corresponds to the memory of the current virtual terminal)
-the /dev/vcs<n> contains what is visible on the screen of a /dev/tty<n>
+each /dev/tty‹n› has a corresponding /dev/vcs‹n› (including /dev/tty0, which means that /dev/vcs0 corresponds to the memory of the current virtual terminal)
+the /dev/vcs‹n› contains what is visible on the screen of a /dev/tty‹n›
 
 ###### pseudo terminals
 
@@ -8307,7 +8318,7 @@ The pseudo-terminal slave fulfilles the role that the tty driver would normally,
 If you input something e.g. to a terminal window, it is written to the pseudo-terminal master device, which is transferred to the pseuod-terminal slave, which redirects it to the relevant process. 
 the file /dev/ptmx is the pseudo terminal master multiplexer, which spawns new pseudo terminals.
 Opening /dev/ptmx gives you a file descriptor for the master device and spawns a slave device in /dev/pts.
-/dev/pts/<n> represents a pseudo terminal slave.
+/dev/pts/‹n› represents a pseudo terminal slave.
 When sshing, the pseudo terminal master device is connected to your terminal/terminal window/virtual terminal, but the pseudo terminal slave is instead on the remote machine.
 The thing that creates the pseudo terminal slave on the remote machine is sshd.
 
@@ -8366,9 +8377,9 @@ signal names are all-caps and start SIG.
 In a terminal, any input, including stuff such as ^Z gets sent to the tty driver (or maybe the line discipline - I'm not quite sure, and people seem to be disagreeing). 
 For some key combinations, such as ^Z, the tty driver will not transmit the input, but instead turn this into a signal and send this to the foreground process group.
 For some key combinations, such as ^D, the tty driver will not transmit the input, but instead turn this into a different character and transmit this instead.
-Other key combinations, including some ^<char> combinations may merely be passed on to the process.
-Ergo some ^<char> combinations may always send the same signal (but leave it up to the process how to respond to the signal), some ^<char> combinations may send a different character (which will be treated by that process as that characer), and some ^<char> combinations will just send ^<char>, which the process may handle if it so chooses.
-You can change which ^<char> the terminal driver handles how via stty.
+Other key combinations, including some ^‹char› combinations may merely be passed on to the process.
+Ergo some ^‹char› combinations may always send the same signal (but leave it up to the process how to respond to the signal), some ^‹char› combinations may send a different character (which will be treated by that process as that characer), and some ^‹char› combinations will just send ^‹char›, which the process may handle if it so chooses.
+You can change which ^‹char› the terminal driver handles how via stty.
 ^C|SIGINT|tty  driver
 ^\|SIGQUIT|tty driver
 ^Z|SIGTSTP|tty driver
@@ -8463,10 +8474,10 @@ in nix, there is a stack of directories called the directory stack.
 in nix, you can push/pop from the directory stack with the commands pushd/popd.
 pushd not only pushes the specified directory to the stack, but also cds there.
 The dirs command shows the contents of the directory stack.
-dirs, pushd and popd all take a positional argument +/-<n>, which do something with the nth directory counting from zero and from the start/end respecitvely
-dirs +/-<n>|display the nth directory counting from the start/end
-pushd +/-<n>|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
-popd +/-<n>|remove the nth directory counting from the start/end from the directory stack (without cding)
+dirs, pushd and popd all take a positional argument +/-‹n›, which do something with the nth directory counting from zero and from the start/end respecitvely
+dirs +/-‹n›|display the nth directory counting from the start/end
+pushd +/-‹n›|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
+popd +/-‹n›|remove the nth directory counting from the start/end from the directory stack (without cding)
 
 ##### Prepopulated environment variables
 
@@ -8482,14 +8493,14 @@ EDITOR and VISUAL are shell environement variables ⟮setting the default editor
 
 command prompt is often just shortened to prompt.
 The command prompt is one or more characters indicating the command-line is ready to accept input.
-The PS<n> environment variables set the command promt in different circumstances.
-PS<n> exist from 1-4.
+The PS‹n› environment variables set the command promt in different circumstances.
+PS‹n› exist from 1-4.
 PS1|default command prompt
 PS2|prompt for following lines for multiline commands
 PS3|options for `select`
 PS4|execution of shell script debugging trace (whatever that is)
 Bash additionally executes the content of the PROMPT_COMMAND just before displaying the PS1 variable.
-for PS<n>, ash supports a set of \ initiated special escape sequences for things such as the time, hostname, number of current jobs etc.
+for PS‹n›, ash supports a set of \ initiated special escape sequences for things such as the time, hostname, number of current jobs etc.
 
 ##### login shell
 
@@ -8560,26 +8571,26 @@ history expansion allows us to splice parts of the history list into the current
 In history expansion, the line from the history list that is used is called the event.
 In history expansion, the parts of the event that are included are the words (broken into words with normal bash tokenization & parsing).
 In history expasnion, various modifiers are available to modify words.
-history-expansion ::= !<event-designator>[<word-designator>]{:<modifier>}
+history-expansion ::= !‹event-designator›[‹word-designator›]{:‹modifier›}
 If the histverify shell option is enabled, and Readline is being used, history substitutions are not immediately passed to the shell parser. Instead, the expanded line is reloaded into the Readline editing buffer for further modification. If Readline is being used, and the histreedit shell option is enabled, a failed history expansion will be reloaded into the Readline editing buffer for correction.
 only ‘\’ and ‘'’ may be used to escape the history expansion character, but the history expansion character is also treated as quoted if it immediately precedes the closing double quote in a double-quoted string.
 Event designators allow the selection of the event for history expansion.
-<n>|nth command in history list
--<n>|nth last command from current command
+‹n›|nth command in history list
+-‹n›|nth last command from current command
 !|last command (synonym for -1)
-<string>|most recent command preceding the current position in the history list starting with string.
-?<string>|most recent command with string before a newline
-?<string>?|most recent command containing string
+‹string›|most recent command preceding the current position in the history list starting with string.
+?‹string›|most recent command with string before a newline
+?‹string›?|most recent command containing string
 #|the entirety of the command line as typed so far
-word-designator ::= <positional-selector>|*|<integer>*
-positional-selector ::= <position>[-<position>]
-position ::= <integer>|$|^|%
-<integer> corresponds to an index of a word starting at zero
+word-designator ::= ‹positional-selector›|*|‹integer›*
+positional-selector ::= ‹position›[-‹position›]
+position ::= ‹integer›|$|^|%
+‹integer› corresponds to an index of a word starting at zero
 ^ and $ corresponding to the first and last argument (not words!)
 % corresponds to  first word matched by the most recent ‘?string?’ search
 
 the special word designator * corresponds to 1-$
-the special word designator <integer>* corresponds to <integer>-$
+the special word designator ‹integer›* corresponds to ‹integer›-$
 
 modifiers for history expansion
 
@@ -8629,8 +8640,8 @@ With tilde expansion, if no argument is given, the tilde will merely evaluate to
 ~foo|the home directory of the user with the name foo
 ~+/foo|$PWD/foo
 ~-/foo|$OLDPWD/foo
-~<n> as well as ~+<n>|what would be displayed by dirs +<n> (ie the nth directory on the directory stack)
-~-<n>|what would be displayed by dirs -<n> (ie the nth directory on the directory stack counting from the back)
+~‹n› as well as ~+‹n›|what would be displayed by dirs +‹n› (ie the nth directory on the directory stack)
+~-‹n›|what would be displayed by dirs -‹n› (ie the nth directory on the directory stack counting from the back)
 
 The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
 
@@ -8760,23 +8771,23 @@ After the preceding expansions, all unquoted occurrences of the characters ‘\�
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
-redirecting input [<n>]<[&](<path>|<n>)
-redirecting output [<n>]>[>|\|][&](<path>|<n>)
+redirecting input [‹n›]‹[&](‹path›|<n›)
+redirecting output [‹n›]>[>|\|][&](‹path›|‹n›)
 
-redirecting input opens the file for reading at file descriptor <n> (most commonly standard input)
-redirecting output opens the file for writing at file descriptor <n> (most commonly standard input)
+redirecting input opens the file for reading at file descriptor ‹n› (most commonly standard input)
+redirecting output opens the file for writing at file descriptor ‹n› (most commonly standard input)
 clobbering a file is to overwrite its contents.
 redirecting ouptut will clobber by default, unless noclobber is enabled, in which case > must be followed by | to force clobbering
 redirecting output will append instead of clobber if > is used instead of >>
-if one wants to redirect standard output and error at the same time, there is the short form &><path> or >&<path>, of which the first is preferred. adding another > appends instead, as per usual.
-<n><&<n> <n>>&<n> make the first file descriptor <n> refer to the same file as the second file descriptor <n> is pointing to.
+if one wants to redirect standard output and error at the same time, there is the short form &>‹path› or >&‹path›, of which the first is preferred. adding another > appends instead, as per usual.
+‹n›‹&<n› ‹n›>&‹n› make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to.
 e.g. 1>out.txt 2>&1  make the file descriptor 1 refer to the same file as the file descriptor 2
-<n>>&- or <n><&- close the file descriptor <n>.
-<n>>&<n>- or <n><&<n>- make the first file descriptor <n> refer to the same file as the second file descriptor <n> is pointing to, and then close the second file descriptor <n> (basically a move)
+‹n›>&- or ‹n›<&- close the file descriptor ‹n›.
+‹n›>&‹n›- or ‹n›‹&<n›- make the first file descriptor ‹n› refer to the same file as the second file descriptor ‹n› is pointing to, and then close the second file descriptor ‹n› (basically a move)
 using ‹› instead of < or > opens the file in read&write mode
 using ‹› and & allows one to read from and write to the same file
 
-for redirecting, the <n> before the < or > may be the number of any file descriptor, though the standard streams are most common.
+for redirecting, the ‹n› before the < or > may be the number of any file descriptor, though the standard streams are most common.
 
 1> may be abbreviated > 
 0< may be abbreviated <
@@ -8830,7 +8841,7 @@ The environment variable PATH provides a set of locations of where to search for
 PATH contains, well, paths, separated by colons.
 For anything in PATH we can execute it by just using its name, to execute anything else we would have to use its path.
 `⟮which⟯` takes ⟮a string⟯ and ⟮searches⟯ ⟮the PATH⟯ to see ⟮what the path of the binary of this command is.⟯
-npx <name> allows execuution of a binary <name> within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
+npx ‹name› allows execuution of a binary ‹name› within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 npx can also be used to run a specific version of a npm binary.
 
 ####### exit status
@@ -8870,7 +8881,7 @@ NOT CONTENT JUST STOPPING THE PARSER FROM FREAKING OUT $
 
 declaration commands = {alias, declare, typeset, export, readonly, local}
 
-declare-command ::= declare {<option>} {<name>[=value]}
+declare-command ::= declare {‹option›} {‹name›[=value]}
 
 -f|functions with definitions
 -F|functions without definitions
@@ -8965,7 +8976,7 @@ gpasswd is the command for managing /etc/group and /etc/gshadow.
 id is the command for printing things like UID, GID, etc.
 the groups command lists the groups a user is in.
 /etc/groups defines the groups on the system:
-etc-groups ::= {<group-name>:<password-encrypted>:<GID>:<member_list><newline>}
+etc-groups ::= {‹group-name›:‹password-encrypted›:‹GID›:‹member_list›‹newline›}
 passwd – modify a user's password
 
 #### commands
@@ -9243,8 +9254,6 @@ table:style=table-layout: fixed;|||style=background-color: #9f9;Data||type=th;�
 |style=background-color: #87e;IP header|span=2;style=background-image: linear-gradient(to right, #b7a 50%, #8d8 50%);(IP) data||type=th;⟮c+;s∞;Internet⟯
 style=background-color: lightsalmon;Frame header|span=3;style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%);(Frame) data|style=background-color: lightsalmon;Frame footer|type=th;⟮c+;s∞;Link⟯
 
-<style> tr td {width: 15%} tr th {width: 40%} </style>
-
 ##### hardware
 
 layer no|layer name|device that moves things here
@@ -9304,11 +9313,11 @@ IRIs are a superset of URIs that also allow for non-ASCII characters.
 
 In URLs, Reserved characters and characters outside of the URL character set need to be URL/percent-encoded
 
-uri ::= <scheme>:[//<authority>/]<path>[?<query>][#<fragment>]
-host ::= <ipv4-address>|<ipv6-address>|<FQDN>
-authority ::= [<userinfo>@]<host>[:<port>]
-userinfo ::= <username>[:<password>]
-query ::= <key>=<value>{<query-delimiter><key>=<value>}
+uri ::= ‹scheme›:[//‹authority›/]‹path›[?‹query›][#‹fragment›]
+host ::= ‹ipv4-address›|‹ipv6-address›|‹FQDN›
+authority ::= [‹userinfo›@]‹host›[:‹port›]
+userinfo ::= ‹username›[:‹password›]
+query ::= ‹key›=‹value›{‹query-delimiter›‹key›=‹value›}
 query-delimiter ::= &|;
 
 The password part of the userinfo component of an URI is deprecated (password inplaintext)
@@ -9328,7 +9337,7 @@ email-key ::= subject | cc | body | ...
 ######## URN 
 
 the path of URN URIs can theoretically be anything, however it typically has the following syntax
-urn-path ::= <urn-namespace>:{<urn-subnamespace>:}<unique-id> 
+urn-path ::= ‹urn-namespace›:{‹urn-subnamespace›:}‹unique-id› 
 urn-namespace ::= ISBN|ISSN|UUID|...
 e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
@@ -9476,10 +9485,10 @@ A ⟮mixed content⟯ page is a ⟮HTTPS⟯ page that ⟮also includes content f
 
 When you navigate to a new URL, the browser sends an HTTP request
 The client sendds a HTTP request, and the server returns an HTTP response.
-http-request-message ::= <http-request-header-part><CRLF>[<http-request-body>]
-http-request-header-part ::= <http-request-line>{<http-request-header>}
-http-request-line ::= <request-verb> <path> <HTTP-version><CRLF>
-http-request-header ::= <key>: <value><CRLF>
+http-request-message ::= ‹http-request-header-part›‹CRLF›[‹http-request-body›]
+http-request-header-part ::= ‹http-request-line›{‹http-request-header›}
+http-request-line ::= ‹request-verb› ‹path› ‹HTTP-version›‹CRLF›
+http-request-header ::= ‹key›: ‹value›‹CRLF›
 HTTP/2 did not change the HTTP semantics, merely stuff under the hood.
 
 in HTTP/1.1, in a request, besides the request line, a host header is necessary
@@ -9488,10 +9497,10 @@ If a form is submitted via POST, the query string ends up in the body of the req
 If a form is submitted via GET, the query string ends up in the request url as the query element
 When you make a GET request to a directory, e.g. `/directory/`, it will return `/directory/index.html`, if extant, or possibly the directory listing if enabled, otherwise 404
 
-http-respose-message ::= <http-response-header-part><CRLF>[<http-response-body>]
-http-response-header-part ::= <http-status-line>{<http-response-header>}
-http-response-line ::= <<CRLF>
-http-reponse-header ::= <key>: <value><CRLF>
+http-respose-message ::= ‹http-response-header-part›‹CRLF›[‹http-response-body›]
+http-response-header-part ::= ‹http-status-line›{‹http-response-header›}
+http-response-line ::= ‹CRLF›
+http-reponse-header ::= ‹key›: ‹value›‹CRLF›
 
 ######## request verbs
 
@@ -9521,7 +9530,7 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 ⟮403⟯|⟮Forbidden⟯|⟮Server refuses to supply the resource, regardless of identity of client⟯
 ⟮404⟯|⟮Not Found⟯|⟮The requested resource cannot be found in the server⟯
 ⟮405⟯|⟮Method Not Allowed⟯|⟮The method used (e.g. POST) is a valid method, but the server does not allow that method for the resource requested⟯
-⟮451⟯|⟮Unavailable For Legal Reasons (refrence to ray bradburry⟯)</td>
+⟮451⟯|⟮Unavailable For Legal Reasons (refrence to ray bradburry)⟯
 ⟮5xx⟯|⟮Server Error⟯
 ⟮500⟯|⟮Internal Server Error⟯|⟮Server is confused⟯
 ⟮501⟯|⟮Method not Implemented⟯|⟮The method name is invalid (e.g. Get instead of GET⟯)
@@ -9549,7 +9558,8 @@ To specify ⟮how long⟯ ⟮a cache entry⟯ is ⟮fresh (when it becomes stale
 ⟮Maximum value⟯ for ⟮Cache-Control:⟯ ⟮max-age⟯ is ⟮1 year⟯ 
 
 
-    <tr><th colspan="2">Keywords for Cache-Control for if to/who can cache a resource
+Keywords for Cache-Control for if to/who can cache a resource
+
 ⟮public⟯|⟮Cache anything, even things that are not normally cached (weird HTTP status codes etc.⟯)
 ⟮private⟯|⟮Don't cache in shared cache, only in private cache (e.g. browser⟯)
 ⟮no-cache⟯|⟮Check with the server for change with each request (but don't redownload if unchanged⟯)
@@ -9671,14 +9681,14 @@ the hosts file came about in the ARPANET era, where it was manually shared and u
 DNS superceded the hosts file for the most part.
 Today, the hosts file is used in some network bootstrapping, but mainly as a resource for internet resource blocking/redirection
 To use the hosts file to block something, set its IP address to 0.0.0.0
-hosts-file ::= {<hosts-line><linebreak>}
-hosts-line ::= <ip-address> <hostname>{ <hostname>}
+hosts-file ::= {‹hosts-line›‹linebreak›}
+hosts-line ::= ‹ip-address› ‹hostname›{ ‹hostname›}
 
 ######## dig
 
 dig is a CLI utility to look up DNS records.
-dig-command ::= dig {<option>}[ <DNS-server>][ <resource-name>][ <record-type>]{ <query-option>}
-query-option ::= +<query-option-name>
+dig-command ::= dig {‹option›}[ ‹DNS-server›][ ‹resource-name›][ ‹record-type›]{ ‹query-option›}
+query-option ::= +‹query-option-name›
 
 dig defaults to the DNS specified in /etc/resolv.conf if none is specified.
 dig defaults to type of A if the record type is not specified
@@ -9754,7 +9764,7 @@ The ⟮transport⟯ layer, directly beneath the ⟮application⟯, but above the
 
 nc as a command is read netcat
 nc allows you to make raw TCP/UDP connections.
-nc [<options>] [<hostname>] [<port>]
+nc [‹options›] [‹hostname›] [‹port›]
 
 ###### ports
 
@@ -9764,8 +9774,7 @@ A ⟮port number⟯ is a ⟮16⟯ bit integer
 Ports that are ⟮only used for a short time⟯ to do something are known as ⟮ephemeral⟯ ports, which are generally used for ⟮clients⟯ (because ⟮the port of the client can be anything anyway⟯) 
 the ⟮dynamic⟯ or ⟮private⟯ ports are often used as ⟮ephemeral⟯ ports 
 
-Port range</th>
-    <th colspan="2">Is called
+Port range|Is called
 ⟮c+;‹1024⟯|⟮well-known⟯
 ⟮1024 - 49151 (2^15 + 2^14⟯)|⟮registered⟯
 ⟮49152 (2^15 + 2^14) - 2^16⟯|⟮dynamic⟯|⟮private⟯
@@ -9959,7 +9968,7 @@ C|110⎵2⎵|3 byte
 ######### CIDR
 
 CIDR = Classless Inter-Domain Routing
-cidr-notation ::= [<IPv4-addr>]/<int-0-32>
+cidr-notation ::= [‹IPv4-addr›]/‹int-0-32›
 ⟮CIDR notation⟯ indicates ⟮the length⟯ of ⟮the network prefix⟯ (equivalently: ⟮the amount of leading 1-bits⟯ of the ⟮network mask⟯) as an ⟮integer⟯, normally ⟮after the IP address⟯ separated by ⟮a `/`⟯
 if CIDR notation is used with no IP address, it describes networks with the relevant split between network prefix and host identifier
 /24 = an IPv4 network that has a 24-bit newtwork prefix and 8-bit host identifiers
@@ -10317,8 +10326,8 @@ If you've specified a resource with ‹link rel="preload", you still need to act
 
 ####### defer & async
 
-defer & async are two attriubtes for <script> that influence how it is loaded.
-Ignoring speculative parsing, when the browser hits a <script> tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
+defer & async are two attriubtes for ‹script› that influence how it is loaded.
+Ignoring speculative parsing, when the browser hits a ‹script› tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
 Instead of the default behavior, the `defer` and `async` attribute of scripts tells the browser to load the script in the background.
 Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮when the dom is fully built⟯, in the order they were in the document
 Between  the `defer` and `async` attributes, async executes scripts loaded in the background ⟮as soon as possible⟯, in the order in which they load, no matter source order.
@@ -10432,10 +10441,10 @@ newsboat|good rss reader
 newsboat is the maintained fork of newsbeuter
 newsboat stores the things its subscribed to in an urls file.
 newsboat-subscription-file ::= {newsboat-subscription-line}
-newsboat-subscription-line ::= <url>{ <newsboat-tag>}
-newsboat-tag ::= <newsboat-tag-no-spaces>|<newsboat-tag-spaces>
-newsboat-tag-no-spaces ::= <operator-prefix><string>
-newsboat-tag-spaces ::= "<operator-prefix><string>"
+newsboat-subscription-line ::= ‹url›{ ‹newsboat-tag›}
+newsboat-tag ::= ‹newsboat-tag-no-spaces›|‹newsboat-tag-spaces›
+newsboat-tag-no-spaces ::= ‹operator-prefix›‹string›
+newsboat-tag-spaces ::= "‹operator-prefix›‹string›"
 operator-prefix ::= ~|!
 
 ~|make this the name of the feed
@@ -10485,7 +10494,7 @@ cal/ncal display a mini ascii calendar
 `trans`|Use google translate to translate text
 `deepl`|Use deepl to translate text
 
-lang-specifier (trans, deepl) ::= [<lang>]:<lang>{+<lang>} ## leave out first arg for detection
+lang-specifier (trans, deepl) ::= [‹lang›]:‹lang›{+‹lang›} ## leave out first arg for detection
 
 
 #### sysadmin
@@ -10562,7 +10571,7 @@ bcp-extension = (ALPHA/DIGIT) 1*( "-" 2*8(ALPHA/DIGIT) )
 
 currently, for the initial char/digit of a BCP extension, only two are defined (or maybe that's only for `Intl`?): u and t
 
-u alllows additional customization, specified as <key>-<value>
+u alllows additional customization, specified as ‹key›-‹value›
 t indicates that it was transformed from the following locale
 
 ###### private use
@@ -10602,7 +10611,7 @@ DOIs are mainly popular in academia.
 https://doi.org/ is the DOI resolver.
 DOI resolver + DOI resolves to an online representation/page of the resource
 One can identify DOIs by prefixing the DOI resolver or the URN namespace `doi:`
-doi-syntax ::= <registrant-identifer>/<object-identifier>
+doi-syntax ::= ‹registrant-identifer›/‹object-identifier›
 
 #### ISBN
 
@@ -10620,8 +10629,8 @@ Share-alike is a type of copyleft license.
 
 SPDX is a format for software licneses
 
-spdx-license-expression ::= <spdx-simple-expression>|(<spdx-license-expression> <operator> <spdx-license-expression>)|\(<spdx-license-expression>\) # slightly simplified
-spdx-simple-expression ::= (<license-name>-<license-version>)[+]
+spdx-license-expression ::= ‹spdx-simple-expression›|(‹spdx-license-expression› ‹operator› ‹spdx-license-expression›)|\(‹spdx-license-expression›\) # slightly simplified
+spdx-simple-expression ::= (‹license-name›-‹license-version›)[+]
 Each SPDX license has a short and a long name.
 The + at the end of a SPDX license indicates this version or later.
 
@@ -10629,9 +10638,9 @@ The + at the end of a SPDX license indicates this version or later.
 
 semver = semantic versioning
 semver is the most common way to specify version identifiers
-semantic-versioning-version ::= <semantic-versioning-version-specifier> {<connective> <semantic-versioning-version-specifier>}
-semantic-versioning-version-specifier ::= [<operator>]<major>.<minor>.<patch>
-operator ::= ~ | ^ | <relational-operator>
+semantic-versioning-version ::= ‹semantic-versioning-version-specifier› {‹connective› ‹semantic-versioning-version-specifier›}
+semantic-versioning-version-specifier ::= [‹operator›]‹major›.‹minor›.‹patch›
+operator ::= ~ | ^ | ‹relational-operator›
 connective ::= \|\| | && | - 
 
 patch|backwards-compatible bugfixes
@@ -10665,7 +10674,7 @@ The primary standard for time used to be GMT.
 UTC's standard specifies that time is divided into days, hours, minutes, and seconds, how much of each each contains, leap seconds, etc, and what time it is according to that system.
 Ergo, UTC is a time system and the current time in that system, while UTC offsets are ways to define time in relation to UTC, but are not UTC themselves (!)
 Timezones are defined in reference to UTC via UTC offsets.
-UTC-offset ::= UTC(+|-)<time>
+UTC-offset ::= UTC(+|-)‹time›
 UTC may be specified using an UTC offset as UTC+0
 Nevertheless, what people often are referring to when they say UTC is the system of UTC offsets
 Today, GMT is an alias for UTC+0
@@ -10895,9 +10904,9 @@ Count-controlled loops are loops that repeat a piece of code a certain number of
 Count-controlled loops are often started with the keyword for.
 Count-controlled loops are often called for-loops.
 The typical syntax for count-controlled loops inheriting from C (e.g. C#, Java, JS, Perl) is 
-for <delimiter>[<counter-initialization>];[<counter-end-condition>];[<counter-change-per-loop>]<delimiter><block>
+for ‹delimiter›[‹counter-initialization›];[‹counter-end-condition›];[‹counter-change-per-loop›]‹delimiter›‹block›
 for (;;) ends up just being an infinite loop
-SCSS/Sass instead has the syntax @for <variable> from <lowerbound> to (excl)/through (incl) <upperbound>
+SCSS/Sass instead has the syntax @for ‹variable› from ‹lowerbound› to (excl)/through (incl) ‹upperbound›
 
 
 ##### Condition-controlled loops
@@ -10921,12 +10930,12 @@ Collection-controlled loops are commonly called foreach loops.
 Collection-controlled loops most commonly start with the keyword `for`, but then feature a different syntax than count-controlled loops. In perl, they instead start `foreach`.
 Collection-controlled loops generally work on iterators, or by transforming the thing into an iterator implicitly.
 Lua: for ‹expression› do
-bash, Liquid, Python, Ruby, Rust: for <expression> in <iterable> ...
-Java: for (<type> <element> : <iterable>) ...
-JS: for (<variable> in <object>) ... (only used to iterate over all key-value pairs of an assoc array)
+bash, Liquid, Python, Ruby, Rust: for ‹expression› in ‹iterable› ...
+Java: for (‹type› ‹element› : ‹iterable›) ...
+JS: for (‹variable› in ‹object›) ... (only used to iterate over all key-value pairs of an assoc array)
 In a JS forin loop, the thing assigned to the variable is the key, not the value.
-for (<variable> of <iterable>) ...
-SCSS: @each <variable> in  <iterable>
+for (‹variable› of ‹iterable›) ...
+SCSS: @each ‹variable› in  ‹iterable›
 Some languages have collection-controlled loops that are called as methods on a collection or iterable (these are higher-order fucntions)
 iterable/enumerable.each(block)|Ruby
 somearr.forEach(anonFunc)|JS
@@ -10948,7 +10957,7 @@ Many languages provide a statement which allows skipping the current (continuing
 Most languages use the continue statement to continue with the next loop, Perl and Ruby use the next statement.
 Many languages provide a statement which allows ending/exiting the loop.
 Most languages use the break statement to end/exit the loop, Perl uses the last statement.
-In Rust, you can pass an argument to the break thing (break <something>) to have that be the return value of the block expression
+In Rust, you can pass an argument to the break thing (break ‹something›) to have that be the return value of the block expression
 
 
 Sometimes, loops have an else clause. In python, this runs at the end if we never break out of the loop. In liquid, this runs if the loop is empty
@@ -10966,7 +10975,7 @@ Rust|0|1|1|1
 
 A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
 JS and C have labels.
-JS label syntax: <name>:
+JS label syntax: ‹name›:
 Labels can be used to break out of a loop that is not the enclosing one.
 
 ### other statements
@@ -11357,7 +11366,7 @@ Often, when rust can't infer the type, we need to use turbofish notation ( :​:
 ##### const assertions
 
 In TS, const assertions are a special case of type assertions that influence type inference rather than specifying a specific type to cast to.
-const-assertion ::= <type> as const;
+const-assertion ::= ‹type› as const;
 Const assertions make TS infer the narrowest possible type. 
 Specifically, const assertions make three things happen:
 1. type widening.
@@ -11373,7 +11382,7 @@ Narrowing can produce the never type if the thing was narrowed to impossibility
 A type guard is any check that narrows the type of a thing.
 In TS, type guards for basic types uses typeof.
 in TS, a type predicate is a function that returns a boolean value. The boolean value determines if the thing is the specified type.
-A type predicate is specified by adding ` is <type>` to the end of the return type.
+A type predicate is specified by adding ` is ‹type›` to the end of the return type.
 In effect, using a type predicate acts as a custom type guard.
 
 ##### Type annotation
@@ -11389,7 +11398,7 @@ Python supports type annotation since Python 3.5
 Type aliases are names for types thsat abbreviate longer type descriptions.
 Where type aliases exist, they generally use the type keyword.
 Type aliases exist in TS, Rust
-`type <name> = <type-expression>`
+`type ‹name› = ‹type-expression›`
 
 ###### Interesting keywords
 
@@ -11500,7 +11509,7 @@ in TS, the types of constants are a literal type of thier value.
 
 An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
 While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
-intersection-type ::= <type> & <type>
+intersection-type ::= ‹type› & ‹type›
 
 #### Union type
 
@@ -11553,7 +11562,7 @@ An option type can generally take on a state representing it is empty, or a stat
 In rust, the option type is its alternative for null, which it does not have.
 In rust, the option type is implemented as an enum.
 In rust, the option type is 
-pub enum Option<T> {
+pub enum Option‹T› {
   None,
   Some(T),
 }
@@ -11570,20 +11579,20 @@ in rust, the result type is `Result`, looking like enum Result<T, E> { Ok(T), Er
 ######## logic with methods
 
 |if None|if Some
-<OptionOrResult>.and(<AnotherOptionOrResult>)|None/Err|<AnotherOptionOrResult>
-<OptionOrResult>.and_then(<callback>)|None/Err|<callback>(<OptionOrResult>)
-<OptionOrResult>.or(<AnotherOptionOrResult>)|<AnotherOptionOrResult>|None/Err
-<OptionOrResult>.or_else(<callback>)|<callback>|None/Err
-<OptionOrResult>.map(<callback>)|None|call callback with contained value and return option with returned value
-<OptionOrResult>.map_or(<default>, <callback>)|<default>|call callback with contained value and return option with returned value
+‹OptionOrResult›.and(‹AnotherOptionOrResult›)|None/Err|‹AnotherOptionOrResult›
+‹OptionOrResult›.and_then(‹callback›)|None/Err|‹callback›(‹OptionOrResult›)
+‹OptionOrResult›.or(‹AnotherOptionOrResult›)|‹AnotherOptionOrResult›|None/Err
+‹OptionOrResult›.or_else(‹callback›)|‹callback›|None/Err
+‹OptionOrResult›.map(‹callback›)|None|call callback with contained value and return option with returned value
+‹OptionOrResult›.map_or(‹default›, ‹callback›)|‹default›|call callback with contained value and return option with returned value
 
 ######## cloning and copying
 
-the cloned/copied methods of Options/Results takes an Option<&T> or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option<T> or Result<T, E> by cloning/copying
+the cloned/copied methods of Options/Results takes an Option‹&T› or <&mut T> or a Result<&T, E> or <&mut T, E> and returns an Option‹T› or Result<T, E> by cloning/copying
 
 ######## conversion
 
-Result<T, E>.ok() → Option<T>
+Result<T, E>.ok() → Option‹T›
 
 ######## ? operator
 
@@ -11642,15 +11651,15 @@ type manipulation is a not-so-common cover term for creating new types by reason
 
 the `keyof` operator takes an object type and returns a union type of its keys.
 the TS-specific `typeof` operator returns the type of a non-type thing.
-the TS type `ReturnType<T>` corresponnds to the return type of T (T must be a function ＊type＊)
+the TS type `ReturnType‹T›` corresponnds to the return type of T (T must be a function ＊type＊)
 An indexed access type, given a key of a field, allows us to get the type of the value of a field of another type, much as indexing an assoc array with a key returns its value.
 Indexed access types use the same [] syntax as normal accessing.
 Conditional types evaluate to different types depending on an expression.
-conditonal-type-specifier ::= <generic> extends <type> ? <type> : <type>;
+conditonal-type-specifier ::= ‹generic› extends ‹type› ? ‹type› : ‹type›;
 the generic which is the first thing conditional type can be used in the true branch for further manipulation/selection.
-in the <generic> extends <type> of a conditional type, within the <type> one may declare an additional generic via `infer <generic>`, which we than can use in the true branch
+in the ‹generic› extends ‹type› of a conditional type, within the ‹type› one may declare an additional generic via `infer ‹generic›`, which we than can use in the true branch
 A mapped type maps all keys of another type to a certain type.
-mapped-type-specifier ::= \[<type> in keyof <type>\]: <type>;
+mapped-type-specifier ::= \[‹type› in keyof ‹type›\]: ‹type›;
 more on mapped types: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
 Template literal types use JS template literal syntax to expand to all possible string literal types that this could assume.
 
@@ -11696,12 +11705,12 @@ object type|type
 interface|interface
 class|class
 
-basic field|<fieldname>: <value>,|object type, interface, class
-optional field|<fieldname>?: <value>,|object type, interface, class
-methods|<fieldname>: (<ts-param-list>) => <return-type>, (syntax 1/2)|object type, inteface
-methods|<fieldname>(<ts-param-list>): <return-type>, (syntax 2/2)|object type, inteface
-make thing itself callable (i.e. a function)|(<ts-param-list>): <return-type>,|object type, interface
-make thing itsef newable|new(<ts-param-list>): <return-type>,|object type, interface
+basic field|‹fieldname›: ‹value›,|object type, interface, class
+optional field|‹fieldname›?: ‹value›,|object type, interface, class
+methods|‹fieldname›: (‹ts-param-list›) => ‹return-type›, (syntax 1/2)|object type, inteface
+methods|‹fieldname›(‹ts-param-list›): ‹return-type›, (syntax 2/2)|object type, inteface
+make thing itself callable (i.e. a function)|(‹ts-param-list›): ‹return-type›,|object type, interface
+make thing itsef newable|new(‹ts-param-list›): ‹return-type›,|object type, interface
 
 TS object types, interfaces and classes can all be defined over n generics.
 prefixing a field of a object type or interface with `readonly` makes it a constant field.
@@ -11717,9 +11726,9 @@ Syntax of an index signature: [foo: sometype]: sometype2
 The ⟮name⟯ of an index signature ⟮does not matter⟯.
 ^source: https://basarat.gitbook.io/typescript/type-system/index-signatures
 
-Partial<T>|Returns T where all keys have been set to optional
-Required<T>|Returns T where all keys have been set to required.
-Readonly<T>|Retunrs T where all keys have been set to readonly
+Partial‹T›|Returns T where all keys have been set to optional
+Required‹T›|Returns T where all keys have been set to required.
+Readonly‹T›|Retunrs T where all keys have been set to readonly
 
 ### boolean
 
@@ -11760,7 +11769,7 @@ A fat pointer is a pointer that stores some extra data besides the address.
 
 What Rust and C++ call references are probably more like pointers.
 In Rust and C++ the & operator takes a reference of something.
-In Rust, any references of a type have the type &<type>, while in C++ they have the type <type>&.
+In Rust, any references of a type have the type &‹type›, while in C++ they have the type ‹type›&.
 In Rust, to take a reference, one must prefix the thing one is taking a reference of with &, while in C++ reference-taking is implied if one assigns to a reference-type variable.
 In Rust, a reference to an element in a data structure counts as a reference to the whole data structure for the purposes of borrow semantics.
 In Rust, references are immutable by default, and must explicitly be declared mutable with &mut.
@@ -11780,7 +11789,7 @@ In Rust, a slice is a view into a block of memory by means of a pointer that als
 In Rust, any linear collection type can be sliced.
 In Rust, slices are considered a reference and have the same semantics as references do.
 Rust slices can bu used for the same reasons one would use slices in e.g. Python (though without the ability to step or reverse), but they are not copies, but fundamentally just views.
-getting a slice: &[mut] <thing-being-sliced>\[<n>(..|..=)<m>\]
+getting a slice: &[mut] ‹thing-being-sliced›\[‹n›(..|..=)‹m›\]
 slices can be indexed just like anything else.
 Slices' length may not be known at compile time, and so rust can't guarantee that indexing into a slice will not produce an error.
 
@@ -11819,9 +11828,9 @@ checking for NaN
 Number.isNaN(num)|JS (true only for NaN)
 checking for finity
 Number.isFinite(num)|JS (false for all non-numbers and NaN/Infinity)
-In CSS, the general numeric type is <number>, which supports decimal numbers also. <integer> is a speialization for integers.
-In CSS, percentages are a special type, <percentage>. 
-In CSS, <percentage> consists of a <number> followed by a %
+In CSS, the general numeric type is ‹number›, which supports decimal numbers also. ‹integer› is a speialization for integers.
+In CSS, percentages are a special type, ‹percentage›. 
+In CSS, ‹percentage› consists of a ‹number› followed by a %
 
 #### Overflow
 
@@ -12058,14 +12067,14 @@ In Rust, you need to use the `indexmap` crate to get an associative array that k
 ######## assigning
 
 adding a key, value pair
-.Add(<key>, <value>)|C#
-.set(<key>, <value>)|JS (map only)
-.put(<key>, <value>)|Java
-.insert(<key>, <value>)|Rust
+.Add(‹key›, ‹value›)|C#
+.set(‹key›, ‹value›)|JS (map only)
+.put(‹key›, ‹value›)|Java
+.insert(‹key›, ‹value›)|Rust
 
 ######## retrieval
 
-get(<key>)|Java|JS(map only)|Rust
+get(‹key›)|Java|JS(map only)|Rust
 [] indexing notation despite not being a primitive|C#
 
 ######## deletion
@@ -12121,9 +12130,9 @@ Rust: Has the entry() function go get a Entry
 
 typically, most languages have modules/libraries called json/yaml for json/yaml processing.
 JS and thus node calles its json/yaml libraries JSON/YAML.
-<j-or-y-library-object-name>.load()|parse as JSON/YAML into assoc array structure|Python
-<j-or-y-library-object-name>.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
-<j-or-y-library-object-name>.dump(<assoc-arr>, <file>)|write assoc array as JSON/YAML|Python
+‹j-or-y-library-object-name›.load()|parse as JSON/YAML into assoc array structure|Python
+‹j-or-y-library-object-name›.parse()|parse as JSON/YAML into assoc array structure|JS (incl node)
+‹j-or-y-library-object-name›.dump(‹assoc-arr›, ‹file›)|write assoc array as JSON/YAML|Python
 
 to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
 
@@ -12138,8 +12147,8 @@ the `Value` enum has variants for each type supported by the file format.
 serde_yaml represents mappings as `Value::Mapping<Value, Value>`
 serde_json represents Objects as `Value::Map<String, Value>`
 
-`Value.as_<type>` returns Option<<type>>
-`Value.is_<type>` returns bool representing whether is <type>
+`Value.as_‹type›` returns Option<‹type›>
+`Value.is_‹type›` returns bool representing whether is ‹type›
 
 using serde to parse, we may parse arbitrary data into a serde representation using from_str and then index into it as you would in JS with square bracket notation (but you may recieve `Value::Null`), or we may parse data into a predefined rust representation
 to make serde support the derive macro, set the "derive" feature
@@ -12211,7 +12220,7 @@ somearray.splice(⟮start⟯, numberOfElementsToDelete, element1toInsert, ...); 
 
 ###### Rust
 
-In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option<&T>
+In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option‹&T›
 
 ##### Strings as linear collections
 
@@ -12262,9 +12271,9 @@ Dynamic arrays are sometimes called arraylists.
 
 ######## dynamic arrays (one type only*)
 
-Vec<T>|rust
-ArrayList<T>|Java
-List(yes, really)<T>|C#
+Vec‹T›|rust
+ArrayList‹T›|Java
+List(yes, really)‹T›|C#
 
 Rust Vectors, Java ArrayLists and C# Lists are Objects/Structs and defined over a generic
 Different types in the dynamic arrays defined over a generic may be possible via parametric polymorphism.
@@ -12331,17 +12340,17 @@ In principle, type annotation for array types usually uses the same delimiter as
 
 ######### specific variants
 
-static immutable arrays|<delimiter><type>{, <type>}<delimiter>
-static mutable single-type arrays|<delimiter><type>, <length><delimiter>
-dynamic arryas|<type><delimiter><delimiter>|TS
-dynamic arrays|<delimiter><type><delimiter>|GraphQL
+static immutable arrays|‹delimiter›‹type›{, ‹type›}‹delimiter›
+static mutable single-type arrays|‹delimiter›‹type›, ‹length›‹delimiter›
+dynamic arryas|‹type›‹delimiter›‹delimiter›|TS
+dynamic arrays|‹delimiter›‹type›‹delimiter›|GraphQL
 
 ######### language peculiarities
 
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type‹delimiter›,,‹delimiter› (and for the constructor type‹delimiter›length,length,length‹delimiter›). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
-in TS, <type>[] is syntactic sugar for Array\<<type>\>
-in TS, readonly <type>[] is syntactic sugar for ReadonlyArray\<<type>\>
+in TS, ‹type›[] is syntactic sugar for Array\<‹type›\>
+in TS, readonly ‹type›[] is syntactic sugar for ReadonlyArray\<‹type›\>
 
 ###### operations
 
@@ -12510,9 +12519,9 @@ In rust, you call `collect` on the iterator to turn it back into a data structur
 
 In rust, iterators themselves must always be mutable, since calling next() changes the iterator.
 
-<iterable>.iter()|iterator of immutable references
-<iterable>.iter_mut()|iterator of mutable references
-<iterable>.into_iter()|iterator of owned values
+‹iterable›.iter()|iterator of immutable references
+‹iterable›.iter_mut()|iterator of mutable references
+‹iterable›.into_iter()|iterator of owned values
 
 
 #### next()
@@ -12574,7 +12583,7 @@ Multiline string delimiters
 Strings that stretch over multiple lines in source code but are actually folded into a single line in the resulting thing (for source code readability)
 >\nproper indentation|YAML
 
-The type for css strings is <string>
+The type for css strings is ‹string›
 
 #### chars
 
@@ -12597,7 +12606,7 @@ Python has three ways to perform string interpolation:
 old-style stirng formatting: is just c-style string formatting. The whole string is followed by a % character, which itself is followed by a single value or a tuple of values to interpolate
 new-style string formatting:
 {} or {0}, {1} ... interpolates within the string, if calling format() on the string. Interpolated expressions are args to format method, format specifiers go within {}, if passing to format by name, refer to these things like so {name}. 
-If combining w/ format specifiers \{<name>[!<conversion>][:<format_specifier>]\}
+If combining w/ format specifiers \{‹name›[!‹conversion›][:‹format_specifier›]\}
 "Error code: {errno:x}".format(errno = ...
 f-strings: allow arbitrary expression within {}. String must be prefixed by f
 f"Hello, {name}"
@@ -12613,11 +12622,11 @@ C format strings specify the format of a given argument with a format specifier
 format specifier: % followed by a char or a few chars to indicate the format.
 Which strings to interpolate where is determined positionally (the first string is interpolated )
 Positional arguments to interpolate are specified after the string separated by a %
-c-format-string-format-specifier ::= %[<parameter>]{<flag>}[<width>][.<precision>][<length>]<type>
-parameter ::= <n>$
+c-format-string-format-specifier ::= %[‹parameter›]{‹flag›}[‹width›][.‹precision›][‹length›]‹type›
+parameter ::= ‹n›$
 flag ::= -|+| |0|'|#
-width ::= <positive-integer> # specifies minimum width.
-precision ::= <positive-integer> # specifies maximum width
+width ::= ‹positive-integer› # specifies minimum width.
+precision ::= ‹positive-integer› # specifies maximum width
 
 flag meaning
 -|left-align output
@@ -12644,7 +12653,7 @@ b|binary (python .format() only)
 ##### python-style string formatting
 
 python's str.format() method takes a C format string inspired but somewhat different syntax.
-[[<fill>]<align>][<sign>][#][0][<width>][<group>][.<precision>][<type>]
+[[‹fill›]‹align›][‹sign›][#][0][‹width›][‹group›][.‹precision›][‹type›]
 where width, precision and type are the same as with C format strings
 fill|what character to use to pad (takes a string)
 align|what direction to align
@@ -12653,7 +12662,7 @@ sign|is a sign included for numeric values
 0|pads with 0
 group|indicates a separator character for groups of numbers
 
-align ::= \<|\>|^|=
+align ::= \‹|\›|^|=
 
 <|align left
 >|align right
@@ -12687,7 +12696,7 @@ Adjacent string literals are automatically concatenated|Python|Ruby
 
 #### Regex matching
 
-JS has regex literals: /<regex>/<flags> (which creates a RegExp object)
+JS has regex literals: /‹regex›/‹flags› (which creates a RegExp object)
 and a constructor: new RegExp("regex","flags"), often used if you need to construct the regex dynamically at runtime
 In JS, you can both use methods on strings which take regexes, or methods on RegExp objects which take strings
 The RegExp Object has a property lastIndex which indicates the offset that the RegExp will search for a match at next time (if the regex is global or sticky). This stays the same even if you switch the string in the meantime!
@@ -12733,8 +12742,8 @@ capitalize all first letters|.title()|Python
 capitalize all the first letters|text-transform: capitalize|CSS
 capitalize the first letter of the string|.capitalize()|Python
 capitalize the first letter of the string| bar capitalize|Liquid
-pad stringth to specified length by adding to the left/right|.padStart/padEnd(<length>, <pad-string>)
-pad stringth to specified length by adding to the left/right|.rjust/ljust(<length>, <pad-string>)
+pad stringth to specified length by adding to the left/right|.padStart/padEnd(‹length›, ‹pad-string›)
+pad stringth to specified length by adding to the left/right|.rjust/ljust(‹length›, ‹pad-string›)
 
 
 does a string start with?/end with?|somestr.startsWith/endsWith(searchstr)|JS (accepts an optional second arg of the index to start searching)
@@ -12751,7 +12760,7 @@ to char array/iterator
 chars()|Rust
 
 parse sting to other type
-<string-object>.parse()|Rust (Returns a `Result`, often requires turbofish annotation.)
+‹string-object›.parse()|Rust (Returns a `Result`, often requires turbofish annotation.)
 
 SCSS/Sass
 ⟮unquote(foo) or string.unquote(foo⟯)|⟮unquote a string (so that css gets the value as the correct type, eg. when using maps⟯)
@@ -12835,7 +12844,7 @@ A vtable contains all relevant virtual functions.
 
 ##### rust
 
-In rust, `dyn <trait-bound>` is the type of a trait object.
+In rust, `dyn ‹trait-bound›` is the type of a trait object.
 A trait object is an opaque type of another type that implements a set of traits.
 A trait object uses dynamic dispatch to select the implementation at runtime (in contrast to rusts' parametric polymorphism, which ofc uses static dispatch)
 A trait object is a dynamically sized type, and thus we need a pointer to it such as & or Box‹›.
@@ -12843,7 +12852,7 @@ For something to be object safe, the return type may not be `Self` and there may
 A trait object must be object safe.
 The reason a trait object may not have any gemeric type parameters is that these will already be monomorphosized away by compile-time.
 The reason a method of a trait used in a trait object may not return `Self` is that we don't known `Self` at compile-time, thus we can't reason about its size and can't guarantee safety.
-In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn <trait-list>`
+In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn ‹trait-list›`
 
 ### parametric polymorphism
 
@@ -12865,8 +12874,8 @@ A generic of any type is typically indicated T
 Once the name of a generic is bound, any reference to that name refers to that generic.
 Two generics of different names are independent, even if they may be filled by the same concrete type at runtime.
 It may sometimes seem like a generic is being bound twice when it's actually being used the second time.
-E.g. impl<T> SomeStruct<T> is saying that you're implementing SomeStruct such that SomeStruct's generic <T> (second mention) satisfies being any type <T> (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct<T>, if that were possible.
-Binding <T> via the `impl` already allows one to do more interesting things.
+E.g. impl‹T› SomeStruct‹T› is saying that you're implementing SomeStruct such that SomeStruct's generic ‹T› (second mention) satisfies being any type ‹T› (first mention), which is of course not particularly informative, and would be equivalent to impl SomeStruct‹T›, if that were possible.
+Binding ‹T› via the `impl` already allows one to do more interesting things.
 e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
 
 #### constrainment
@@ -12874,17 +12883,17 @@ e.g. `impl<T: Copy> SomeStruct<T, T>` for a `SomeStruct<T, U>` is saying that yo
 Many languages have a way to specify contraints a generic should satisfy.
 Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
 Trait bounds are a set of traits that a generic must satisfy.
-In rust, we may specify trait bounds by indicating it within a type parameter as \<<generic>: <trait-bound>\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl <trait-list>`
-trait-bound ::= <trait-name>{ + <trait-name>}
-where-clause-syntax ::= where {<generic>: <trait-list><newline>}
+In rust, we may specify trait bounds by indicating it within a type parameter as \<‹generic›: ‹trait-bound›\>, with a 'where clause', or by not using generics at all and instead writing the type as `impl ‹trait-list›`
+trait-bound ::= ‹trait-name›{ + ‹trait-name›}
+where-clause-syntax ::= where {‹generic›: ‹trait-list›‹newline›}
 TS allows specifying constraints for generics via the `extends` keyword.
 The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
 
 #### implementation & monomorphization
 
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
-C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList<Object> - therefore in Java all values in an ArrayList must be boxed.
-In Rust, parametric polymorphism using generics is monomorphizised, so that Option<T> with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64.
+C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList‹Object› - therefore in Java all values in an ArrayList must be boxed.
+In Rust, parametric polymorphism using generics is monomorphizised, so that Option‹T› with e.g. i32 and f64 produces the relaizations Option_i32 and Option_f64.
 
 Interfaces/traits often enable parametric polymorphism.
 
@@ -12917,7 +12926,7 @@ In computer science, a relational operator is an operator that tests or defines 
 ›=|greater than or equals|most programming languages
 ›|greater than|most programming languages
 ‹|less than|most programming languages
-<=>|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
+‹=›|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
 
 #### types of equality
 
@@ -12984,7 +12993,7 @@ in JS, NaN
 
 #### interfaces
 
-Things using the ruby mixin Comparable must define <=> operator, and then gain access to the other comparison operators, as well as between? and clamp
+Things using the ruby mixin Comparable must define ‹=› operator, and then gain access to the other comparison operators, as well as between? and clamp
 
 is x between foo and bar?
 x.between?(foo, bar)|Ruby
@@ -13032,8 +13041,8 @@ Bitwise operations operate on the underlying binary value (regardless of type in
 Most C-family languages support bitwise operations.
 
 bitwise not|~
-left shift|‹‹ <n>
-right shift|>> <n>
+left shift|‹‹ ‹n›
+right shift|>> ‹n›
 bitwise XOR|^
 bitwise OR|bar
 bitwise AND|&
@@ -13182,7 +13191,7 @@ most commonly: try ‹block› catch (‹error-specifier›) ‹block› finally
 In Ruby begin ‹block› rescue (‹error-specifier›) ‹block› ensure ‹block›
 Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
-In JS, the <error-specifier> for catch was necessary until ES2019, and has been optional since
+In JS, the ‹error-specifier› for catch was necessary until ES2019, and has been optional since
 
 #### assert
 
@@ -13223,9 +13232,9 @@ since classes in JS are merely syntactic sugar for functions, there are also cla
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
 void is commonly used for no return type in languages that require a return type to be specified.
 return type is indicated:
-→ <type> at the end of signature|rust
-: <type> at the end of signature|TS
-<access-modifier> [static|abstract] <type> <callable-unit-name>|C#|Java
+-› ‹type› at the end of signature|rust
+: ‹type› at the end of signature|TS
+‹access-modifier› [static|abstract] ‹type› ‹callable-unit-name›|C#|Java
 
 ### returning
 
@@ -13296,10 +13305,10 @@ While in rust only closures form closures, all functions are in fact first class
 ##### types of first-class functions in statically typed languages
 
 In statically typed languages, first-class functions must have a type that describes them.
-\(<ts-param-list>\) => <return-type>|TS
-(fn|Fn|FnMut|FnOnce|fn)\([<param-type>]{, <param-type>}\) → <return-type>|Rust
+\(‹ts-param-list›\) => ‹return-type›|TS
+(fn|Fn|FnMut|FnOnce|fn)\([‹param-type›]{, ‹param-type›}\) -› ‹return-type›|Rust
 
-<ts-param-list> ::= [<param-name>: <param-type>]{, <param-name>: <param-type>}
+‹ts-param-list› ::= [‹param-name›: ‹param-type›]{, ‹param-name›: ‹param-type›}
 
 #### anonymous functions
 
@@ -13331,7 +13340,7 @@ instead of a block with the syntax {|elem| elem.method} you can also pass &:meth
 
 ##### JS
 
-Arrow functions function similarly to normal js functions, but have a shorter syntax: (<params>) => <block>.
+Arrow functions function similarly to normal js functions, but have a shorter syntax: (‹params›) => ‹block›.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
 
@@ -13642,7 +13651,7 @@ Promise.race() takes n promises and runs the attached callback ⁑once⁑ the fi
 Promise.all()/allResolved() runs the attached callback once all passed promises are resolved. The attached callback will recieve all returned results as an array.
 ⟮Promise.allSettled()⟯ is like ⟮Promise.all()⟯, but the ⟮former⟯ will ⟮continue even if one rejects⟯, the ⟮latter⟯ will ⟮not⟯
 
-Pretty much all operations of the fs module in node have an ⟮async⟯ and a ⟮synchronous⟯ method, where if the ⟮async⟯ method is called <code>⟮foo⟯</code> the ⟮synchronous⟯ method is called <code>⟮fooSync⟯</code>
+Pretty much all operations of the fs module in node have an ⟮async⟯ and a ⟮synchronous⟯ method, where if the ⟮async⟯ method is called `⟮foo⟯` the ⟮synchronous⟯ method is called `⟮fooSync⟯`
 In node, asynchrony is by default implemented via callbacks.
 In node, any asynchronous operation that could fail takes a error callback.
 In node, any asynchronous operation that could return something useful takes a success callback.
@@ -13734,7 +13743,7 @@ To make an object B do something, an object A must send a message.
 in OOP, a method call is the way to send of message: The originator object is implicit, the target is specified manually, the method called is the message, and the arguments are well the arguments.
 Ergo, in OOP objects generally use message passing to communicate.
 In JS, methods are specified without using `function`, merely name and param list.
-There is an older version of specifying methods in JS that is <name>: <anonymous-function>, this only works for object literals.
+There is an older version of specifying methods in JS that is ‹name›: ‹anonymous-function›, this only works for object literals.
 
 #### Getters and setters
 
@@ -13772,22 +13781,22 @@ if a variable and a struct field have the same name, you can write `foo,` instea
 
 Rust allows implementing methods or associated functions for structs, tagged unions (enums) and traits via the impl keyword.
 when used for implementing things on structs/enums/traits, the construct used is called an impl block
-the syntax for impl blocks for structs and enums is `impl <name> <block>`
-the syntax for impl blocks implementing traits for structs is `impl <traitname> for <thingname> <block>`
+the syntax for impl blocks for structs and enums is `impl ‹name› ‹block›`
+the syntax for impl blocks implementing traits for structs is `impl ‹traitname› for ‹thingname› ‹block›`
 Any thing may have as many impl blocks as you like.
 For any impl block, we may indicate that we only want to implement it for something whose generics either are of a certain type or implement certain traits.
 When we implement something, we can only rely on other things of the thing we're implementing existing, plus whatever trait bounds we've established.
 we may `impl` a Trait without any `for` clause to provide a default implementation.
-`impl <trait-list>` does not start an impl block and instead refers to a type that implements trait-list, with the advantage that this syntax can be used outside of a type parameter.
+`impl ‹trait-list›` does not start an impl block and instead refers to a type that implements trait-list, with the advantage that this syntax can be used outside of a type parameter.
 
 ### fields 
 
 In JS, fields themselves have properties (such as enumerable).
 In JS, enumerable fields are those that will be enumerated over in a `for-in` loop.
 generally, properties added 'normally' are also enumerable
-<object>.propertyIsEnumerable(<name>)
+‹object›.propertyIsEnumerable(‹name›)
 properties that are not inherited (that is, they are there not because of the prototype chain, they of course then be inherited by other things) are called own properties
-<object>.hasOwnProperty(<name>) 
+‹object›.hasOwnProperty(‹name›) 
 The ⟮Object⟯.⟮assign⟯⟮(foo, bar)⟯ method ⟮copies⟯ all ⟮enumerable⟯ ⟮own⟯ ⟮properties⟯ from ⟮one or more source objects⟯ to ⟮a target object.⟯ 
 
 ### Classes & objects 
@@ -13808,7 +13817,7 @@ in languages with type annotation, the type annotation of an object is generally
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
 
-    <tr><th colspan="2">In ⟮documentation⟯, these methods are referenced...|
+In ⟮documentation⟯, these methods are referenced...|
 ⟮class methods⟯|⟮.method or :​:method⟯
 ⟮instance methods⟯|⟮#method⟯
 
@@ -13869,7 +13878,7 @@ in Rust, many things are created by a factory function `new()`, which is an asso
 
 an immutable object is an object which cannot be changed once it's been created.
 in JS, Object.freeze(obj) makes the object an immutable object.
-In TS, Readonly <T> constructs a version of T whose properties are all set to readonly, making it a immutable object.
+In TS, Readonly ‹T› constructs a version of T whose properties are all set to readonly, making it a immutable object.
 
 #### Access modifier
 
@@ -13888,7 +13897,7 @@ JS is an exception, it marks private members with #
 protected|same class and subclasses|Java
 package|within the same package|Java
 in java, the package access modifier is the default
-JSDoc allows the simulating of the four access modifiers that Java has by using @access <access-modifier> or @<access-modifier>
+JSDoc allows the simulating of the four access modifiers that Java has by using @access ‹access-modifier› or @‹access-modifier›
 
 A ⟮private item⟯ can be accessed by ⟮its immediate parent module⟯ and ⟮all its child modules⟯
 A public item can be accessed as a private item can, and additionally also through a chain through its ancestors.
@@ -13914,11 +13923,11 @@ Traits in Rust are broadly similar to intefaces in other programming languages.
 Traits in Rust can be implemented for types you did not define.
 However, the trait ∨ the thing its implemented on must be local to the crate
 Traits allow for blanket implementations, that is implementing a trait for anything that implements one or more other traits.
-impl<T> ToString for T where
+impl‹T› ToString for T where
     T: Display + ?Sized,
 { ... }
 In rust, the keyword to declare a trait is `trait`
-`trait <name> <block>` 
+`trait ‹name› ‹block›` 
 blocks of trait declarations contain method signatures.
 In rust, deriving a trait is automaticallly generating trait implementations for a given thing.
 In rust, derive is implemented via an annotation that takes a list of Traits.
@@ -13930,7 +13939,7 @@ In rust, traits may exist in a supertrait/subtrait relationship.
 A supertrait S of trait T means that any type implementing T must also implement S.
 A subtrait S of trait T means that any type implementing S is also guaranteed to implement T.
 
-syntax for declaring a trait with a supertrait: `trait <subtrait> : <trait-bound>`
+syntax for declaring a trait with a supertrait: `trait ‹subtrait› : ‹trait-bound›`
 
 #### OOP
 
@@ -13960,11 +13969,11 @@ Most languages with objects have a tostring method to convert these to strings f
 It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
 tostring methods are often called implicitly during coercion.
 
-<thing>.toString()|Java|JS
-<thing>.ToString()|C#
-<thing>.to_string()|Rust
-<thing>.__str__(), called via str(<thing>)|Python
-<thing>.to_s() or .to_str()|Ruby
+‹thing›.toString()|Java|JS
+‹thing›.ToString()|C#
+‹thing›.to_string()|Rust
+‹thing›.__str__(), called via str(‹thing›)|Python
+‹thing›.to_s() or .to_str()|Ruby
 
 The difference between Ruby's to_s() and to_str() is that to_s() is implemented in the (almost) top type (Object), and is called for some coercions only, while to_str() indicates that we want to treat the thing as a string in most cases, and thus allows for coercion in more circumstances.
 
@@ -13982,7 +13991,7 @@ Boxing primitives allows us to interact with them using a similar interface as o
 Autoboxing is the conversion of primitves to boxed types when relevant.
 Since boxed data will be stored on the heap, it is not necessary for it to have a constant size, thus boxed data allows more flexibility.
 
-Rust's construct for boxing is Box<T>.
+Rust's construct for boxing is Box‹T›.
 
 ## Pragmas
 
@@ -14017,19 +14026,19 @@ attribute begins|applies to
 
 attributes have four forms for taking arguments (or none)
 ø|no arg
-= "<value>"|one arg
-\(<value>{, <value>}\)|one or more unnamed args
-\(<key> = "<value>"{, <key> = "<value>"}\)|one or more named args
+= "‹value›"|one arg
+\(‹value›{, ‹value›}\)|one or more unnamed args
+\(‹key› = "‹value›"{, ‹key› = "‹value›"}\)|one or more named args
 
-rust-attribute ::= #[!]\[<rust-attribute-name><rust-attribute-arguments>\]
-rust-attribute-arguments ::= ø|(= "<value>")|(\(<value>{, <value>}\))|\(<key> = "<value>"{, <key> = "<value>"}\)
+rust-attribute ::= #[!]\[‹rust-attribute-name›‹rust-attribute-arguments›\]
+rust-attribute-arguments ::= ø|(= "‹value›")|(\(‹value›{, ‹value›}\))|\(‹key› = "‹value›"{, ‹key› = "‹value›"}\)
 
 ## modules
 
 The main purpose of modules is encapsulation.
 A module is as self-contained set of code.
 Most commonly, a module is defined by each code file.
-In Rust, modules are instead defined manually via mod <name> { ... }, or via `mod <filename>`
+In Rust, modules are instead defined manually via mod ‹name› { ... }, or via `mod ‹filename›`
 Packages and modules are sometimes synonyms.
 conta
 In python, a package is a collection of modules (and perhaps other packages).
@@ -14053,8 +14062,8 @@ Rust allows nesting of modules in a module tree.
 In rust, the root node of the module tree is `crate`, sometimes called the crate root.
 The crate root serves as the entry point for the rust compiler.
 rust allows for both `use`ing/referring absolute and relative paths for the module tree, where absolute paths start at the crate root, and relative paths start at the current module.
-Rust's module nesting is defined either directly by nesting `mod <name> {...}`s or by a combination of file hierarch and `mod <filename>`
-calling `mod <filename>` without a block argument integrates an existing rust file as a child of the module we're currently in in the module tree, however the file structure must also reflect this.
+Rust's module nesting is defined either directly by nesting `mod ‹name› {...}`s or by a combination of file hierarch and `mod ‹filename›`
+calling `mod ‹filename›` without a block argument integrates an existing rust file as a child of the module we're currently in in the module tree, however the file structure must also reflect this.
 
 Rust also allows having multiple crates with independent module trees in the same package.
 In rust, there are two types of crates, binary and library.
@@ -14068,7 +14077,7 @@ the crate root for library crates is called lib.rs
 
 CommonJS is ⟮a module ecosystem⟯ mainly used by node
 
-let/var/const <name> = require(<path>)
+let/var/const ‹name› = require(‹path›)
 
 ##### ES Modules
 
@@ -14083,8 +14092,8 @@ In most languages, you can only import things that were first exported.
 In most languages, import statements must be in the beginning of the file.
 In most languages, you may only export top-level items.
 Import statements have the general syntax
-import <members> [as <name>] from <path>
-In many systems module/index.<suffix>  can be imported as just module
+import ‹members› [as ‹name›] from ‹path›
+In many systems module/index.‹suffix›  can be imported as just module
 
 #### Runtime importing
 
@@ -14095,17 +14104,17 @@ import() returns a promise.
 
 ##### JS
 
-in JS you can leave out `<members> from` if you only want the side effects
+in JS you can leave out `‹members› from` if you only want the side effects
 
 ##### Python
 
-Python instead has the order from <path> import <members> [as <name>]
+Python instead has the order from ‹path› import ‹members› [as ‹name›]
 
 ##### CSS
 
 In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
-@import syntax: @import <path> (<media-query>|<feature-query>);
-For CSS, the <path> may be an <url> or a <string>
+@import syntax: @import ‹path› (‹media-query›|‹feature-query›);
+For CSS, the ‹path› may be an ‹url› or a ‹string›
 
 ##### Rust
 
@@ -14116,7 +14125,7 @@ Rust uses `use` instead of import.
 #### SCSS/Sass 
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
-Syntax alwas keyword <path> [as <name>]
+Syntax alwas keyword ‹path› [as ‹name›]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but ⟮allows anything @using bar to access them.⟯
 
 #### latex
