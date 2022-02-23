@@ -14140,13 +14140,13 @@ using ⟮\include⟯ allows you to use ⟮\includeonly⟯, which takes ⟮an arg
 
 Exporting is selecting entities for potential import.
 In most languages, exporting is required so they can then be imported.
-General syntax: export <members> [as <name>] [from <path>]
+General syntax: export ‹members› [as ‹name›] [from ‹path›]
 re-exporting members is exporting members from a different (generally child) module.
 
 JS allows one default export per module. The default export is the only thing that may be imported without curly braces, and can be renamed without `as`.
 JS default exports are funtionality-wise not super useful, but be useful in indicating that it is the most important export / only relevant export.
 In JS, non-default exports are known as normal/named exports.
-In JS, using the from <path> component of exports allows for re-exporting.
+In JS, using the from ‹path› component of exports allows for re-exporting.
 JS re-exporting allows aggregating exports in a single file.
 
 In rust, re-exporting works by making a `use` itself public.
@@ -14240,7 +14240,7 @@ In lexical lifetimes, the lifetime of a value is until the end of its lexical sc
 In non-lexical lifetimes, the lifetime of a value is until it is last used within its lexical scope.
 In general, the difference between lexical and non-lexical lifetimes does not matter, however if the value is a reference Rust's borrow checker cares about if you're holding on to it. Hence, rust implements non-lexical lifetimes for references.
 
-lifetime-annotation ::= '<name>
+lifetime-annotation ::= '‹name›
 lifetime-annotations specify named lifetimes
 You must specify all lifetimes you are gonna use as type parameters.
 In rust, in theory all references used in callable units require a lifetime annotation, though in most cases it can be left out due to lifetime elision.
@@ -14294,9 +14294,9 @@ In automatic reference counting, increment/decrement methods for refrences are c
 Circular set of references are called reference circles.
 reference circles can allow things in refrence counting to never reach reference count 0 and thus be destroyed.
 
-In rust, reference counting is implemented by Rc<T>.
-Rc<T> allows multiple owners, where each call to clone() increases the reference count.
-In rusts implementation of reference counting, dropping Rc<T> decreases the reference count.
+In rust, reference counting is implemented by Rc‹T›.
+Rc‹T› allows multiple owners, where each call to clone() increases the reference count.
+In rusts implementation of reference counting, dropping Rc‹T› decreases the reference count.
 
 ##### RAII
 
@@ -14491,7 +14491,7 @@ React maintains a component tree called »the virtual DOM«, which is an in-memo
 Because React maintains the virtual DOM as an in-memory JS representation, creating react elements is far cheaper than browser DOM elements.
 Eventhough react's component tree is called 'the virtual DOM', it can be outputted to many things, including but not limited to the DOM.
 `ReactDOM` is an inteface to the output DOM.
-ReactDOM.render(<root-element>, <DOM-container>[, <callback>]) 
+ReactDOM.render(‹root-element›, ‹DOM-container›[, ‹callback›]) 
 calling ReactDOM.render() is most commoly done to render the initial the virtual DOM into the output DOM once, where subsequent changes are handled by the render() method of components.
 
 ####### changes
@@ -14523,7 +14523,7 @@ unmounting|componentWillUnmount()
 
 ######## reconciliation
 
-If react hits an element in its tree that has a different type (e.g. from <Article> to <Comment>), it will destroy (unmount) and rebuild (mount) the whole subtree.
+If react hits an element in its tree that has a different type (e.g. from ‹Article› to ‹Comment›), it will destroy (unmount) and rebuild (mount) the whole subtree.
 when a DOM subtree is destroyed, all components of that subtree recieve `componentWillUnmount()`
 when a DOM subtree is rebuilt, all components of that subtree recieve `componentDidMount()`
 
@@ -14672,7 +14672,7 @@ If you want to ⟮edit things⟯ ⟮in gem themes⟯, you need to ⟮copy then o
 In the ⟮gemfile⟯, ⟮jekyll_plugin⟯s are specified within ⟮the `group :jekyll_plugins`⟯ 
 
 
-    <tr><th colspan="2">Jekyll Plugins|
+Jekyll Plugins
 ⟮jekyll-feed⟯|⟮Generating an RSS feed (jekyll⟯)
 ⟮jekyll-seo-tag⟯|⟮Generating a few SEO tags (jekyll⟯)
 ⟮jekyll-sitemap⟯|⟮Generating a sitemap⟯
