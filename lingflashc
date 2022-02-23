@@ -253,15 +253,12 @@ Evidence: The subject is an argument of the V, but it appears outside of the VP,
 flex-container:✫sm_Screenshot%202020-10-20%20at%2010.44.18.png✫
 
 
-class=blank-canvas;    <tr>
-      <td class="inner" colspan="3">⟮IP⟯
+table;class=blank-canvas;class=inner;span=3;⟮IP⟯
 class=inner;⟮DP⟯|span=3;class=inner;⟮I′⟯
 class=inner;|class=inner;⟮I⟯|span=3;class=inner;⟮VP⟯
-    <tr><td class="inner" colspan="2">|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
-    <tr><td class="inner" colspan="3">|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
-someone<sub>＊i＊</sub>|is|t<sub>＊i＊</sub>|following|us
-
-<style>td{width: 4ch}</style>
+class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
+class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
+someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
 
 ####### DP hypothesis: 
 
@@ -666,7 +663,7 @@ Inchoative/Cessative/ø
 Prospective/Retrospective/ø
 Gnomic/anything else
 
-<tr><th colspan="3">Eventive
+table:span=3;Eventive
 span=1;⟮c+;s1:4;Perfective⟯|span=4;⟮c+;s1:4;Imperfective⟯
 |span=2;⟮c+;s1:2;Habitual⟯|span=2;⟮c+;s1:2;Continuous⟯
 |||⟮c+;s3:5;Progressive⟯|⟮c+;s3:5;Stative⟯
@@ -878,7 +875,7 @@ A base is any morphological unit to which affixes can be attached.
 
 The stem that we most commonly call 'stem' in english is the 
 stem of ru-verb is verb - る
-Stem of u-verb is <consonant>u → <consonant>i
+Stem of u-verb is ‹consonant›u → ‹consonant›i
 
 ##### free and bound forms
 
@@ -967,13 +964,13 @@ In japanese grammar, numerals, measure words and optional indicators for cardina
 Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
 
 The japanese counting system:
-rational-number ::= [マイナス]<positive-rational-number>
-positive-rational-number ::- <integer>[　点（てん）<digit>{<digit>}]
-integer ::= {<myriad-unit>}[<place>][<place>][<place>]<place-when-base-1>
-myriad-unit ::= [<place>][<place>][<place>]<place-when-base-multiple-of-four >
-place ::= <digit><base-word>
-place-when-base-1 ::= <digit>
-place-when-base-multiple-of-four ::= <digit><base-multiple-of-four-word>
+rational-number ::= [マイナス]‹positive-rational-number›
+positive-rational-number ::- ‹integer›[　点（てん）‹digit›{‹digit›}]
+integer ::= {‹myriad-unit›}[‹place›][‹place›][‹place›]‹place-when-base-1›
+myriad-unit ::= [‹place›][‹place›][‹place›]‹place-when-base-multiple-of-four›
+place ::= ‹digit›‹base-word›
+place-when-base-1 ::= ‹digit›
+place-when-base-multiple-of-four ::= ‹digit›‹base-multiple-of-four-word›
 
 Japanese digits:
 
@@ -1265,7 +1262,7 @@ Morphophonology studies the interaction between morphology and phonology/phoneti
 Sandhi is a cover term for sound changes that happen at morpheme/word boundaries
 Sandhi is a part of morphophonology.
 Japanese exhibits two forms of sandhi, 連濁 and 連声.
-連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n<vowel>/
+連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n‹vowel›/
 てんおう → てんのう is an example of 連声
 
 ##### segmental phonology
@@ -1566,27 +1563,12 @@ Implosives are most often voiced oral stops, occasionally voiceless oral stops.
 
 In velaric/lingual (ingressive, egressive does not exist) initiation, a closure is produced at the velum, and then a second one at the desired place of articulation. the tongue's body is lowered, and thus suction is created. the frontmost closure is then released.
 lingual aka velaric ingressive initiation produces sounds known as clicks.
-| <tr>
-||<td>⟮ʘ⟯</td>
-||<td>⟮Bilabial⟯</td>
-| </tr>
-| <tr>
-||<td>⟮ǀ⟯</td>
-||<td>⟮Dental⟯</td>
-| </tr>
-| <tr>
-||<td>⟮ǃ⟯</td>
-||<td>⟮(Post)alveolar⟯</td>
-| </tr>
-| <tr>
-||<td>⟮ǂ⟯</td>
-||<td>⟮Palatoalveolar⟯</td>
-| </tr>
-| <tr>
-||<td>⟮ǁ⟯</td>
-||<td>⟮Alveolar lateral⟯</td>
-| </tr>
 
+⟮ʘ⟯|⟮Bilabial⟯
+⟮ǀ⟯|⟮Dental⟯
+⟮ǃ⟯|⟮(Post)alveolar⟯
+⟮ǂ⟯|⟮Palatoalveolar⟯
+⟮ǁ⟯|⟮Alveolar lateral⟯
 
 Mnemonics/Rules
 
@@ -1699,27 +1681,20 @@ The larger grouping of alveolar including dental is what has unique IPA symbols 
 
 <table class="yesno" style="text-align:center">
 
-<tr>
-<th rowspan="2">Active articulator →
-</th>
-<th rowspan="3">Lower lip (Labial)
+table:class=yesno;span=1,2;Active articulator →
+span=1,3;Lower lip (Labial)
 </th>
 <th colspan="3">Coronal
-</th>
-<th rowspan="3">Tongue body (Dorsal)
-</th>
-<th rowspan="3">Tongue root (Radical)
-</th>
-<th rowspan="3">Aryepiglottic folds.
+span=1,3;Tongue body (Dorsal)
+span=1,3;Tongue root (Radical)
+span=1,3;Aryepiglottic folds.
 
 <tr>
 
 
 <th rowspan="2">Tongue blade (Laminal)
-</th>
-<th rowspan="2">Tongue tip (Apical)
-</th>
-<th rowspan="2">Underside of tongue (Subapical)
+span=1,2;Tongue tip (Apical)
+span=1,2;Underside of tongue (Subapical)
 Passive articulator ↓
 Upper lip
 </th>
@@ -2637,103 +2612,16 @@ There is no agreement on whether ⟮widows or orphans⟯ refers to the things oc
 
 Conceptually, ⟮recto⟯ is ⟮the front of the page⟯, while ⟮verso⟯ is ⟮the back of the page⟯. 
 ⟮Recto⟯ is ⟮the front of the page⟯ since ⟮you will see it first if reading the book normally⟯, while ⟮verso⟯ is ⟮the back of the page⟯ since ⟮you will only see it once turning the page if reading the book normally⟯. 
-  span=2;What do you call these pages? (LtR)
-span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
-   <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
-      <stop offset="0" style="stop-color:#FFF5BF"></stop>
-      <stop offset="0" style="stop-color:#F8ECBC"></stop>
-      <stop offset="0" style="stop-color:#E6D5B4"></stop>
-      <stop offset="1" style="stop-color:#E3D1B2"></stop>
-   </linearGradient>
-   <rect x="147" y="18" fill="url(#SVGID_1_)" stroke="#A67C52" width="137" height="161"></rect>
-   <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="10.5" y1="99" x2="147" y2="99">
-      <stop offset="0" style="stop-color:#FFF5BF"></stop>
-      <stop offset="0" style="stop-color:#F8ECBC"></stop>
-      <stop offset="0" style="stop-color:#E6D5B4"></stop>
-      <stop offset="1" style="stop-color:#E3D1B2"></stop>
-   </linearGradient>
-   <rect x="10.5" y="18" fill="url(#SVGID_2_)" stroke="#A67C52" width="137" height="161"></rect>
-   <g>
-      <line fill="none" stroke="#8C6239" x1="25" y1="48" x2="124" y2="48"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="56" x2="124" y2="56"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="63" x2="124" y2="63"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="71" x2="124" y2="71"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="78" x2="124" y2="78"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="86" x2="124" y2="86"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="93" x2="124" y2="93"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="101" x2="124" y2="101"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="108" x2="124" y2="108"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="116" x2="124" y2="116"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="123" x2="124" y2="123"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="131" x2="124" y2="131"></line>
-   </g>
-   <g>
-      <line fill="none" stroke="#8C6239" x1="169" y1="48" x2="268" y2="48"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="56" x2="268" y2="56"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="63" x2="268" y2="63"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="71" x2="268" y2="71"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="78" x2="268" y2="78"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="86" x2="268" y2="86"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="93" x2="268" y2="93"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="101" x2="268" y2="101"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="108" x2="268" y2="108"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="116" x2="268" y2="116"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="123" x2="268" y2="123"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="131" x2="268" y2="131"></line>
-   </g>
-   <path d="M120 90 l30 0 0 -15 35 25 -35 25 0 -15 -30 0 z"></path>
-</svg>
+
+######### LtR pages
+
+table:span=2;✫verso_recto.svg✫
 ⟮c+;s2;verso⟯|⟮c+;s1;recto⟯
 
-    span=2;What do you call these pages? (RtL)
-span=2;<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="170px" viewBox="0 16 300 170" enable-background="new 0 0 300 180" xml:space="preserve">
-   <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284" y1="99" x2="148" y2="99">
-      <stop offset="0" style="stop-color:#FFF5BF"></stop>
-      <stop offset="0" style="stop-color:#F8ECBC"></stop>
-      <stop offset="0" style="stop-color:#E6D5B4"></stop>
-      <stop offset="1" style="stop-color:#E3D1B2"></stop>
-   </linearGradient>
-   <rect x="147" y="18" fill="url(#SVGID_1_)" stroke="#A67C52" width="137" height="161"></rect>
-   <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="10.5" y1="99" x2="147" y2="99">
-      <stop offset="0" style="stop-color:#FFF5BF"></stop>
-      <stop offset="0" style="stop-color:#F8ECBC"></stop>
-      <stop offset="0" style="stop-color:#E6D5B4"></stop>
-      <stop offset="1" style="stop-color:#E3D1B2"></stop>
-   </linearGradient>
-   <rect x="10.5" y="18" fill="url(#SVGID_2_)" stroke="#A67C52" width="137" height="161"></rect>
-   <g>
-      <line fill="none" stroke="#8C6239" x1="25" y1="48" x2="124" y2="48"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="56" x2="124" y2="56"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="63" x2="124" y2="63"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="71" x2="124" y2="71"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="78" x2="124" y2="78"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="86" x2="124" y2="86"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="93" x2="124" y2="93"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="101" x2="124" y2="101"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="108" x2="124" y2="108"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="116" x2="124" y2="116"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="123" x2="124" y2="123"></line>
-      <line fill="none" stroke="#8C6239" x1="25" y1="131" x2="124" y2="131"></line>
-   </g>
-   <g>
-      <line fill="none" stroke="#8C6239" x1="169" y1="48" x2="268" y2="48"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="56" x2="268" y2="56"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="63" x2="268" y2="63"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="71" x2="268" y2="71"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="78" x2="268" y2="78"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="86" x2="268" y2="86"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="93" x2="268" y2="93"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="101" x2="268" y2="101"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="108" x2="268" y2="108"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="116" x2="268" y2="116"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="123" x2="268" y2="123"></line>
-      <line fill="none" stroke="#8C6239" x1="169" y1="131" x2="268" y2="131"></line>
-   </g>
-   <path style="transform: rotate(180deg) translate(-300px, -200px)" d="M120 90 l30 0 0 -15 35 25 -35 25 0 -15 -30 0 z"></path>
-</svg>
+######### RtL pages
+
+table:span=2;✫recto_verso.svg✫
 ⟮c+;s3;recto⟯|⟮c+;s4;verso⟯
-
-
 
 ######## left and right
 
@@ -3065,17 +2953,20 @@ A Semantic loan is when a word exists in two languages, but only has some senses
 realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
 
 
-    <th colspan="5">Types of borrowings</th>
-senses are added</th> <th colspan="4">words/morphemes are added
-
-semantic loan</td> <th>words/morphemes are directly borrowed</th> <th colspan="3">morphological transformation is done
-
-|foregin words, loanwords, (loanblends)</td> <th>part of the morphemes are native</th> <th colspan="2">all of the morphemes are native
-
-||(loanblends)</td> <th>the structure is native|the structure is foreign
-
-|||loan creation|loan translation, loan rendition
-
+onion-box:
+Types of borrowings
+  senses are added
+    semantic loan
+  words/morphemes are added
+    words/morphemes are directly borrowed
+      foregin words, loanwords, (loanblends)
+    morphological transformation is done
+      part of the morphemes are native
+        (loanblends)
+      all of the morphemes are native
+        the structure is native|the structure is foreign
+          loan creation
+          loan translation, loan rendition
 
 
 #### Language death
@@ -3509,17 +3400,17 @@ In ENBF dialects, usually either the terminals are quoted and the nonterminals a
 ABNF is standartized in an RFC, and often used for IETF documents.
 in ABNF, rules MAY be surrounded by ‹›.
 in ABNF, rules and terminals are are case-insensitve
-abnf-terminal ::= "{<characters>}"|<abnf-terminal-range>|<abnf-terminal-numeric>
-abnf-terminal-range ::= <abnf-base-specifier><abnf-character-digits>-<abnf-character-digits>
-abnf-terminal-numeric ::= <abnf-base-specifier><abnf-character-digits>{.<abnf-character-digits>}
-abnf-character-digits ::= <digit>{<digit>}
-abnf-base-specifier ::= %<base-char>
+abnf-terminal ::= "{‹characters›}"|‹abnf-terminal-range›|‹abnf-terminal-numeric›
+abnf-terminal-range ::= ‹abnf-base-specifier›‹abnf-character-digits›-‹abnf-character-digits›
+abnf-terminal-numeric ::= ‹abnf-base-specifier›‹abnf-character-digits›{.‹abnf-character-digits›}
+abnf-character-digits ::= ‹digit›{‹digit›}
+abnf-base-specifier ::= %‹base-char›
 base-char ::= b|d|x
 
-abnf-rule ::= rule = <definition> [; <comment>]<CRLF>
+abnf-rule ::= rule = ‹definition› [; ‹comment›]‹CRLF›
 
-<n>*<m><rule>|repetitions from n to m (where leaving out either is infinity)
-<n><rule>|repetitions of n times
+‹n›*‹m›‹rule›|repetitions from n to m (where leaving out either is infinity)
+‹n›‹rule›|repetitions of n times
 ()|group
 /|alternation
 
@@ -3528,7 +3419,7 @@ whitespace|concatenation
 ; foo| a comment foo
 []|optional
 
-for ABNF repetition, leaving out <n> or <m> implies 0 or infinity as per usual
+for ABNF repetition, leaving out ‹n› or ‹m› implies 0 or infinity as per usual
 
 predefined rules
 LWSP = 	*(WSP / CRLF WSP)
@@ -3635,7 +3526,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 ##### japanese
 
 Why is a na-adjective called a na-adjective?  Because you need to put a na between the adjective and the noun.
-Since japanese is head-final, it's (<i-adjective>|<na-adjective>な)<noun>
+Since japanese is head-final, it's (‹i-adjective›|‹na-adjective›な)‹noun›
 All i-adjectives end with い, hence their name.
 WHile na-adjectives may end in い, this is generally within the kanji, but within 送り仮名 (however, exceptions exist, e.g. 嫌い).
 In japanese, adjectives can be converted to adverbs via morphological derivation.
@@ -5494,7 +5385,6 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮half⟯|⟮s264;✫sm_paste-397c47ee7ff3729b2699de792d9d1ae692aa667b.jpg✫✫sm_paste-a08ea314a56f7e6e84a741f3df9a304e23c4eaf0.jpg✫⟯|⟮半⟯|⟮h∞;[干 (dry out)  , 丶 (dot)]⟯|⟮h∞;⁑Half⁑ the ⁑dots⁑ are on the left side of ⁑干⁑, and ⁑half⁑ are on the right side. Han Solo was half of the crew of the Millennium Falcon.⟯|⟮h∞;⟯
 ⟮professional⟯|⟮s265;✫sm_paste-2da03e48948881d3d5cb1c4b3f58c9bed2325f34.jpg✫⟯|⟮者⟯|⟮h∞;[✫sm_dizzy.png✫ (dizzy) , 日 (sun, day)]⟯|⟮h∞;The ⁑professional⁑ SHALL work all ⁑day⁑ until they get ⁑dizzy⁑!⟯|⟮h∞;⟯
 ⟮come/future⟯|⟮s266;✫sm_paste-044bda84757729214d4f484b43e7ae5acc88909e.jpg✫⟯|⟮来⟯|⟮h∞;[米 (rice / America)  , 一 (one/line radical)]⟯|⟮h∞;⁑rice⁑ 〔米) plus a ⁑line⁑, which we'll call a horizontal bolt of ⁑RAIghtning⁑. So you can say . . .In the ⁑future⁑, we'll use ⁑RAIghtning⁑ to cook our ⁑rice⁑! ZAP!!!!⟯|⟮h∞;⟯
-</tbody> </table> 
 
 ## sociolinguistics
 
@@ -5669,8 +5559,8 @@ In japanese, the 連用形 can sometimes be used as a noun, in effect nominalizi
 
 　方（ほう） (noun)|manner ('way of')
 
-<foo>方が<bar>|foo is more bar
-for <foo>方が<bar>, using the past tense of a positive verb foo makes it more emphatic
+‹foo›方が‹bar›|foo is more bar
+for ‹foo›方が‹bar›, using the past tense of a positive verb foo makes it more emphatic
 　方（ほう）がいい|better, should
 
 
@@ -5711,8 +5601,8 @@ non-illiative & non-adversative clausal coordination: verbal morphology て形 (
 
 なる = become
 なる in kanji: 成る
-<adverbial>なる = become
-<adverbial>する = decide on
+‹adverbial›なる = become
+‹adverbial›する = decide on
 if と instead of に in adverbial, the change is sudden.
 To get hooked on X: X｛が・は｝癖になる
 
@@ -5733,13 +5623,13 @@ xによると|according to x
 
 ### ことがある
 
-<clause>こと<kakari-joshi><form-of-aru>
-<clause-present-tense>こと<kakari-joshi><form-of-aru>: Event sometimes happens/never happens
-<clause-past-tense>こと<kakari-joshi><form-of-aru>: Event has happened/never happened
+‹clause›こと‹kakari-joshi›‹form-of-aru›
+‹clause-present-tense›こと‹kakari-joshi›‹form-of-aru›: Event sometimes happens/never happens
+‹clause-past-tense›こと‹kakari-joshi›‹form-of-aru›: Event has happened/never happened
 
 ### must not
 
-<if-not><what-happens>
+‹if-not›‹what-happens›
 if-not::=なくては|なければ|ないと
 what-happens::=negative of 行ける|negative of なる|だめ
 
@@ -5896,7 +5786,7 @@ The ず negative uses the せ 未然形 for サ変
 Other volitional derivation examples: よい → 意志形 よかろ → よかろう
 while まじ・まい is grammatically the negative volitional, it today most commmonly indicates strong denial.
 まじ・まい always comes last, even after ます.
-The two volitions give rise to the construction <volitional>が<negative-volitional>が = whether or not
+The two volitions give rise to the construction ‹volitional›が‹negative-volitional›が = whether or not
 
 得る(える・うる) as a potential marker is less common today for anything but ある, which may not take the usual potential 助動詞
 
@@ -6142,7 +6032,7 @@ In japanese, the roles of adverbs are as in english (act as adjuncts for any num
 
 ##### 名詞
 
-Many nouns can be verbal nouns, which means をする can be attached to them to make them a verb. often, the を is elided, producing <noun>する
+Many nouns can be verbal nouns, which means をする can be attached to them to make them a verb. often, the を is elided, producing ‹noun›する
 
 ##### 代名詞
 
@@ -6413,7 +6303,7 @@ Honorific/humble verbs such as くださる、なさる、ござる、いらっ�
 
 てあげる|たげる
 
-r<vowel>n|んn
+r‹vowel›n|んn
 
 れば・れは|りゃs
 
