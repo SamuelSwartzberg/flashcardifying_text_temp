@@ -6068,7 +6068,7 @@ flex-container:✫sm_CkJlF.png✫
 ⟮The option of \newtheorem⟯|⟮based on what the theorem will be numbered⟯
 
 
-For ⟮\newtheorem⟯, if ⟮[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮a reference to another theorem⟯ -&gt; ⟮with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮a reference to a section⟯ -&gt; ⟮under which it will be numbered⟯ 
+For ⟮\newtheorem⟯, if ⟮[foo]⟯ occurs {{c11::between the two {args} }}, it is ⟮a reference to another theorem⟯ → ⟮with which it will share numbering⟯ , if it occurs {{c11::after the two {args} }}, it is ⟮a reference to a section⟯ → ⟮under which it will be numbered⟯ 
 
 ```
 \newtheorem{theo}{Theorem}
@@ -6635,14 +6635,14 @@ section name|section semantics/function
 A ⟮cue⟯ is ⟮the main unit of information⟯ in ⟮WebVTT/.srt.⟯ 
 ⟮A cue⟯ ⟮starts (.srt)/may start (WebVTT⟯) with ⟮a header line⟯. 
 ⟮The header line that starts a cue⟯ must be ⟮a running number indicator⟯ in ⟮.srt⟯, this is ⟮optional⟯ in ⟮WebVTT⟯ 
-⟮The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮cue⟯ contains ⟮the time to show the text⟯, consisting of ⟮two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` -&gt; ` (notice the spaces).⟯⟮c+;&nbsp;Every line of a cue after the line specifying the time⟯ specifies ⟮text to be shown.⟯ Together, these are known as ⟮the payload⟯. 
+⟮The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮cue⟯ contains ⟮the time to show the text⟯, consisting of ⟮two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` → ` (notice the spaces).⟯⟮c+;&nbsp;Every line of a cue after the line specifying the time⟯ specifies ⟮text to be shown.⟯ Together, these are known as ⟮the payload⟯. 
 Every line of a cue may optionally be ⟮started by `- `⟯, this will ⟮not be displayed⟯ 
 
 
 
     <tr><th colspan="2">WebVTT-specific properties
 CSS property syntax|CSS function
-⟮c+;vertical:rl/lr make captions go from top to bottom and either right -&gt; left or left -&gt; right (changes the direction of other settings by 90 deg⟯)
+⟮c+;vertical:rl/lr make captions go from top to bottom and either right → left or left → right (changes the direction of other settings by 90 deg⟯)
 ⟮line:0-100%⟯|⟮display the cue at % offset from the top (or left/right if vertical is specified) (i.e., along the y axis if no `vertical`⟯)
 ⟮position:0-100%⟯|⟮display the cue at % offset from the left (or top/bottom if vertical is specified) (i.e., along the x axis if no `vertical`⟯)
 ⟮size:0-100%⟯|⟮set the width of the cue to %⟯
@@ -9825,9 +9825,9 @@ Active open: The client starts the 3-way/3-step handshake at the port.
 
 ######## TCP three-step handshake
 
-Client --SYN--&gt; Server
-Client &lt;--SYN-ACK-- Server
-Client --ACK---&gt; Server
+Client --SYN-→ Server
+Client ←-SYN-ACK-- Server
+Client --ACK--→ Server
 
 ####### normal operation
 
@@ -10766,7 +10766,7 @@ However, in ⟮Rust⟯ (and in ruby to, though its weird, as blocks have the sam
 Many programming languages have been influenced by C, sometimes called C-family languages.
 C was a curly-brace language, and so many C-family language are curly-brace languages.
 
-Examples of ⟮curly-brace/bracket languages⟯ I can write are ⟮C#⟯, ⟮ECMAScript⟯ -&gt; {⟮Javascript⟯, ⟮TypeScript⟯}, ⟮Java⟯, ⟮Perl⟯, ⟮Rust⟯, SCSS (but not Sass). 
+Examples of ⟮curly-brace/bracket languages⟯ I can write are ⟮C#⟯, ⟮ECMAScript⟯ → {⟮Javascript⟯, ⟮TypeScript⟯}, ⟮Java⟯, ⟮Perl⟯, ⟮Rust⟯, SCSS (but not Sass). 
 Most ⟮curly-brace/bracket languages⟯ ⟮are thus because they are strongly influenced by⟯ ⟮C⟯. 
 In some programming languages (JS, Lua, ...?) blocks can stand alone, merely creating a scope. In other programming languages, blocks must follow a certain statement.
 In lua, blocks end with `end` (outside of repeat...until). They are begun by `do` when standing alone, or when after a loop, by `then` after an if condition, and by nothing after a function signature
@@ -15051,8 +15051,8 @@ In general, using arithmetic operations in chrono calls the underlying `checked_
 chrono has three `TimeZone`s, `Utc`, `Local` and `FixedOffset`
 `Local` or `Utc` (but not `FixedOffset`) :: `today()` or `now()` produce a new `Date` or `DateTime` with the speciied timezone.
 Behavior of things that work ⟮like dates⟯ / ⟮like times⟯ is standartized in the ⟮traits⟯ ⟮Datelike⟯ and ⟮Timelike⟯
-you can get ⟮the time components⟯ of ⟮Timelike⟯ using ⟮the length you want as a method⟯ (e.g. hours -&gt; ⟮sometimelike:​:hours()⟯)
-you can get ⟮the date components⟯ of ⟮Datelike⟯ using ⟮the date component you want as a method⟯ (e.g. months -&gt; ⟮somedatelike:​:month()⟯)
+you can get ⟮the time components⟯ of ⟮Timelike⟯ using ⟮the length you want as a method⟯ (e.g. hours → ⟮sometimelike:​:hours()⟯)
+you can get ⟮the date components⟯ of ⟮Datelike⟯ using ⟮the date component you want as a method⟯ (e.g. months → ⟮somedatelike:​:month()⟯)
 chrono represents durations with `Duration`
 for chrono `Duration`s there are a bunch of constructors for different amounts of time such as `::weeks()`, `::hours()` etc.
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
@@ -15240,7 +15240,7 @@ wish is a tcl interpreter including its widgeting toolkit tk.
 
 Python ⟮2⟯ and ⟮3⟯ have ⟮some syntactic differences.⟯ 
 ES2015|ES6
-The rust development cycle has the three release channels ⟮Nightly⟯, ⟮Beta⟯ and ⟮Stable::S...⟯. ⟮sb;⟮Every six weeks⟯ ( = ⟮1 cycle⟯), ⟮c+; a release moves up one (beta -&gt; stable, nightly -&gt; beta) ⟯. ⟯ 
+The rust development cycle has the three release channels ⟮Nightly⟯, ⟮Beta⟯ and ⟮Stable::S...⟯. ⟮sb;⟮Every six weeks⟯ ( = ⟮1 cycle⟯), ⟮c+; a release moves up one (beta → stable, nightly → beta) ⟯. ⟯ 
 Therefore, ⟮s10:12;⟮what is beta now⟯ will be ⟮stable⟯ in ⟮a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮what is nightly now⟯ will be ⟮stable⟯ in ⟮at most 12 weeks⟯.⟯ 
 ⟮Breaking changes (such as reserving new features⟯) can only happen on ⟮the highest rust versioning level⟯, which are ⟮editions⟯. ⟮sb;these are released ⟮about every three years⟯, with the ones in existence as of writing being ⟮2015, 2018, and 2021⟯⟯ 
 

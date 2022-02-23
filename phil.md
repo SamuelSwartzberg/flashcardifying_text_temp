@@ -137,7 +137,7 @@ Inference can be deductive, inductive, or abductive (and others, if there are ot
 
 If abduction was deductive, it would be equivalent to the fehlschluss affirming the consequent
 ```lang=text;
-(1) a -&gt; b
+(1) a → b
 (2) b
 (3) Therefore: a
 ```
@@ -715,8 +715,8 @@ Nozick argues one would not want to enter the experience machine, for example be
 ## demands
 
 the original ⟮catch-22⟯ (since ⟮it's used in many different ways later in the book⟯): ⟮If you're declared insane, you get sent home from fighting⟯:
--&gt; ⟮c+;s13:14;If you say you're insane (or apply for insanity⟯), that ⟮c+;s13:14;makes you sane, and so you still have to fight.⟯
--&gt; And ⟮c+;s11:12;if you don't say you're insane (or apply for insanity⟯) ⟮c+;s11:12;you still have to fight⟯. 
+→ ⟮c+;s13:14;If you say you're insane (or apply for insanity⟯), that ⟮c+;s13:14;makes you sane, and so you still have to fight.⟯
+→ And ⟮c+;s11:12;if you don't say you're insane (or apply for insanity⟯) ⟮c+;s11:12;you still have to fight⟯. 
 The ⟮original⟯ ⟮catch-22⟯ ⟮from the book⟯ is ⟮just a constructive dilemma⟯. 
 The term ⟮catch-22⟯ is also often used as ⟮a synonym for deadlock (in the CS sense⟯). 
 The term ⟮catch-22⟯ may at its most broad just refer to ⟮a kind of contradiction or problem involving 2 things.⟯ 

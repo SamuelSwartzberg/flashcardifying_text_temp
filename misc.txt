@@ -90,7 +90,7 @@ TThe ⟮three-sector model⟯ divides economic activity into ⟮primary⟯, ⟮s
 
 sector|consists of
 ⟮Primary sector⟯|⟮Resource extraction = extraction of raw materials⟯
-⟮Secondary sector⟯|⟮c+;Manufacturing = Raw materials -&gt; finished goods⟯
+⟮Secondary sector⟯|⟮c+;Manufacturing = Raw materials → finished goods⟯
 ⟮Tertiary sector⟯|⟮Production of services⟯
 ⟮Quarternar sector⟯|⟮Production of knowledge⟯|not part of official model
 ⟮A society dominated in economic output by the (primary sector and) secondary sector⟯|⟮Industrial society⟯
@@ -98,7 +98,7 @@ sector|consists of
 ⟮A society dominated in economic output by the tertiary sector⟯|⟮Post-industrial society⟯
 
 
-According to ⟮the three-sector model⟯ of economics, economies develop ⟮Agrarian⟯ -&gt; ⟮Industrial⟯ -&gt; ⟮Postindustrial⟯
+According to ⟮the three-sector model⟯ of economics, economies develop ⟮Agrarian⟯ → ⟮Industrial⟯ → ⟮Postindustrial⟯
 
 ## supply chains
 
@@ -417,7 +417,7 @@ A ⟮condominium⟯ (short: ⟮c+;s1;condo⟯) is a ⟮building⟯ (or ⟮c+;s3;
 
 #### crops
 
-⟮a cash crop⟯ (sometimes ⟮c+;s1;profit crop⟯) is a crop that is ⟮c+;grown for sale -&gt; profit⟯
+⟮a cash crop⟯ (sometimes ⟮c+;s1;profit crop⟯) is a crop that is ⟮c+;grown for sale → profit⟯
 ⟮cash crop⟯ is contrasted with ⟮subsistence crop⟯
 
 ## law
@@ -1191,7 +1191,7 @@ Currently there are ⟮193⟯ UN member states.
 ###### isolation and governance
 
 According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a>, in ⟮authoritarian⟯ states ⟮capital cities⟯ being ⟮isolated⟯ correlates with ⟮worse quality of governance⟯ = ⟮more resource extraction (of the ruling elite from the country⟯). 
-<a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a> argue the relationship ⟮c+;capital cities being more isolated -&gt; worse quality of government⟯ is ⟮causal⟯, based on a more ⟮isolated⟯ ⟮capital city⟯ being ⟮less succeptible to revolution⟯. 
+<a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a> argue the relationship ⟮c+;capital cities being more isolated → worse quality of government⟯ is ⟮causal⟯, based on a more ⟮isolated⟯ ⟮capital city⟯ being ⟮less succeptible to revolution⟯. 
 
 ###### list
 ⟮United Arab Emirates⟯|⟮Abu Dhabi⟯
@@ -2286,7 +2286,7 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 ⟮Leaf⟯⟮(c:1;y⟯) ⟮vegetables⟯/⟮greens⟯ are ⟮plant leaves⟯ eaten as ⟮a vegetable⟯, which are usually ⟮green⟯-colored and share ⟮many nutritional similarities⟯. 
 
 #### grains
-⟮rye⟯|⟮roggen⟯|⟮s∞;from Proto-West Germanic *rugi -&gt; ryge -&gt; rye; *rugi -&gt; rocko -&gt; rocke -&gt; Rocken -&gt; Roggen;⟯
+⟮rye⟯|⟮roggen⟯|⟮s∞;from Proto-West Germanic *rugi → ryge → rye; *rugi → rocko → rocke → Rocken → Roggen;⟯
 ⟮wheat⟯|⟮weizen⟯
 ⟮barley⟯|⟮gerste⟯
 ⟮oat⟯|⟮hafer⟯
@@ -2893,7 +2893,7 @@ A disease is some sort of disruption of regular functions with recgonizable sign
 ⟮Leprosy⟯ is spread  by ⟮extensive contact of respiratory fluid⟯ 
 ⟮95⟯% of people infected with  ⟮Mycobacterium leprae or Mycobacterium lepromatosis⟯ ⟮do not develop leprosy.⟯ 
 Signs of ⟮leprosy⟯:  ⟮Large discolored or pink patches on the skin⟯ 
-Symptoms of ⟮leprosy⟯: ⟮Poor eyesight⟯, ⟮muscular atrophy⟯, ⟮nerve damage⟯ -&gt; ⟮lack of ability to feel pain⟯ -&gt; ⟮more injuries⟯ 
+Symptoms of ⟮leprosy⟯: ⟮Poor eyesight⟯, ⟮muscular atrophy⟯, ⟮nerve damage⟯ → ⟮lack of ability to feel pain⟯ → ⟮more injuries⟯ 
 In the past, ⟮leprosy⟯ was dealt with by ⟮separating lepers into leper colonies/sanatoria.⟯ 
 Today, ⟮leprosy⟯ can be ⟮cured⟯ via ⟮multidrug therapy⟯. 
 ⟮Leprosy⟯ cases have been ⟮decreasing rapidly⟯ - in the ⟮1980s⟯, ⟮5 million⟯ people were suffering from ⟮leprosy⟯, by ⟮2018⟯ that number ⟮had fallen to 200k⟯ 
@@ -3165,7 +3165,7 @@ A ⟮queerplatonic relationship⟯ does not require ⟮the participants to be qu
 The ⟮relationship escalator⟯ consists of ⟮a set of steps⟯ in ⟮a relationship⟯ that are claimed to constitute ⟮progress⟯. 
 As of 2021, mainstream society sees ⟮the relationship escalator⟯ as ⟮the essence of⟯ ⟮a romantic relationship⟯. 
 "⟮Is this relationship going anywhere?⟯" presupposes the idea of ⟮the relationship escalator⟯ 
-⟮c+;Getting to know each other -&gt; dating -&gt; becoming a couple 'officially' -&gt; committing  ＆ future planning -&gt; merging lives -&gt; getting married -&gt; house, children etc.⟯ might be roughly the steps the west sees the ⟮relationship escalator⟯ consisting of 
+⟮c+;Getting to know each other → dating → becoming a couple 'officially' → committing  ＆ future planning → merging lives → getting married → house, children etc.⟯ might be roughly the steps the west sees the ⟮relationship escalator⟯ consisting of 
 
 # queer theory
 
@@ -3640,7 +3640,7 @@ If two documents cite at least one work in common, they are bibliographically co
 The bibliographic coupling strength/index will be 3 if they cite 3 works in common<
 Co-citation measures how frequently two documents are cited together by other documents. 
 If at least one other document cites two documents in common these documents are said to be co-cited. 
-The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works -&gt; co-citation strength of 3). It is supposed to predict how semantically-related they are.
+The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
 
 ## writing
 
@@ -4036,7 +4036,7 @@ For example, someone ⟮gaslighting⟯ may ⟮make fun of someones needs⟯, and
 #### cycle of abuse
 
 The ⟮cycle of abuse⟯ is a ⟮common pattern⟯ for ⟮abusive relationships⟯. 
-The ⟮Cycle of abuse⟯: ⟮Tension building⟯ -&gt; ⟮Acute explosion/Incident⟯ -&gt; ⟮Honeymoon⟯ (repeat) 
+The ⟮Cycle of abuse⟯: ⟮Tension building⟯ → ⟮Acute explosion/Incident⟯ → ⟮Honeymoon⟯ (repeat) 
 
 ### dark triad
 
@@ -4361,7 +4361,7 @@ The ⟮binding pin⟯ is ⟮the pin⟯ that ⟮is currently being bound⟯ (or �
 
 ⟮Single pin picking⟯ is ⟮picking the pins one at a time⟯, which looks something like ⟮‹image above›⟯ 
 ⟮Single pin picking⟯ uses ⟮hooks⟯ as tools, which look something like ⟮‹image›⟯ 
-Core loop of ⟮single pin picking⟯: ⟮find binding pin⟯ -&gt; ⟮set binding pin⟯ 
+Core loop of ⟮single pin picking⟯: ⟮find binding pin⟯ → ⟮set binding pin⟯ 
 To ⟮test if⟯ ⟮sth is a binding pin⟯, you ⟮push it slightly⟯. 
 Compared to ⟮non-binding pins⟯, if we push on ⟮the binding pin⟯, it will feel ⟮slightly stiffer and harder to lift⟯. 
 T⟮o set the binding pin⟯, we ⟮push on the pin⟯ until ⟮we reach the shear line⟯. 

@@ -215,7 +215,7 @@ One possible grouping of clean language questions (there are others)
 
 ## flower & checking presumptions
 
-⟮clean language⟯ practice exercise: ⟮flower⟯ 1. ⟮One person thinks of a flower for a short while⟯ -&gt; 2. ⟮the other person asks clean language questions about it⟯
+⟮clean language⟯ practice exercise: ⟮flower⟯ 1. ⟮One person thinks of a flower for a short while⟯ → 2. ⟮the other person asks clean language questions about it⟯
 ⟮The flower exercise⟯ tends to reveal that ⟮people have many different flowers in their head⟯.
 ⟮The fact that people have many different flowers in their head⟯ should remind us of the fact that ⟮other people may be operating with⟯ ⟮very different metaphors⟯ and thus ⟮presumptions⟯ as we are.
 The fact that ⟮people may be operating with different metaphors/presumptions⟯ may make it benefitial to ⟮ask clean language questions⟯ about ⟮banal things⟯, esp. when ⟮the stakes are high⟯.
