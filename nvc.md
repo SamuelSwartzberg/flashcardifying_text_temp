@@ -115,7 +115,7 @@ The vast majority of day-to-day communication (if not explicitly using NVC) is v
 Everyone involved in violent communication pays dearly for it, including society at large.
 NVC encourages acting in a way that satisfies both your and other's needs, by arriving a strategy that does that, called giving from the heart.
 Hearing both our and other people's needs at the same time, and people may be used to acting to satisfy other people's needs without listening to their needs due to thinking they are responsible for the feeling of others, called acting from guilt.
-Marshall suggests that there is a three-step progression from acting from guilt to giving from the heart: Emotional slavery (only acting from guilt) > the obnoxious stage (overcompensating, being unable to recieve other people's needs) > emotional liberation. (giving from the heart)
+Marshall suggests that there is a three-step progression from acting from guilt to giving from the heart: Emotional slavery (only acting from guilt) → the obnoxious stage (overcompensating, being unable to recieve other people's needs) → emotional liberation. (giving from the heart)
 Being what society deems a "good X" (good mother, good employee, good black person ...) generally requires you to deny your own needs.
 Having often been subjected to more/more extreme life-alienating communication may make it harder to hear life-affirming communication as such.
 

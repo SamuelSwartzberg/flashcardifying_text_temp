@@ -72,7 +72,7 @@ Mixing numbered and named capture groups is not recommended, as it is inconsiste
 group-specifier|meaning
 ø|capturing
 ?:|non-capturing
-?>|atomic
+?›|atomic
 ?\‹‹name›\›|named capturing (JS)
 ?‹expression›|conditional group
 ?bar|branch reset groups
@@ -88,10 +88,10 @@ lookaround assertions may be positive (true if it is the case) or negative (true
 =|positive
 !|negative
 ø|ahead
-<|behind
+‹|behind
 
 lookassertion-specifier ::= ?‹behind-ahead›‹positive-negative›
-behind-ahead ::= <|ø
+behind-ahead ::= ‹|ø
 positive-negative ::= =|!
 
 SOme regex flavors require lookaround assertions to be fixed length and so disallow quantifiers, alternaton and backreferences
@@ -99,7 +99,7 @@ SOme regex flavors require lookaround assertions to be fixed length and so disal
 #### modfies |
 
 conditional and branch rest groups modify the meaning of the | within.
-A conditional gropu looks like (?‹expression›|‹expression›[|<expression]) and works much the same way as an if-conditional in usual programming languages
+A conditional gropu looks like (?‹expression›|‹expression›[|‹expression›]) and works much the same way as an if-conditional in usual programming languages
 A branch reset group matches one of the alternatives indicated with | as alternation would normally.
 A branch reset group resets the index of capture groups to the index it would have had at the beginning at each |.
 The index of the next group after the branch reset group is the maximum index that a capture group could have within +1

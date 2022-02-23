@@ -50,9 +50,10 @@ While most people recommend against omitting optional closing tags, google's sty
 
 *ML attributes are placed in the start tag.
 *ML attributes have the syntax key="value".
+enumerated attriubtes are attributes that take a fixed set of values.
 HTML attribute values may be unquoted if they do not feature whitespace and a few reserved characters.
-HTML features boolean attributes: attributes which <em>may not</em> take a value, but whose presence or absence represnets true or false.
-HTML also features enumerated attriubtes: attributes that take a fixed set of values.
+HTML but not other *ML languages has boolean attributes.
+boolean attributes are attributes which ＊may not＊ take a value, but whose presence or absence represnets true or false.
 Confusingly, some HTML attributes with boolean semantics are not boolean attributes, but instead enumerated attributes, mostly with the possible values "yes" and "no" or "true" and "false".
 
 ##### element names
@@ -141,7 +142,7 @@ some elements must appear as children of other elements - to violate these rules
 #### head
 
 The ‹head› element contains metadata about the document.
-The ‹head› element can contain <base>, <meta>, <title>, <link>, ‹style>, <script>, <noscript> and <template>
+The ‹head› element can contain ‹base›, ‹meta›, ‹title›, ‹link›, ‹style>, ‹script›, ‹noscript› and ‹template›
 
 ##### title
 
@@ -152,18 +153,18 @@ the ‹title› element's content should change in response to major state chang
 
 ##### base
 
-the <base> element specifies the base URL for the document with its href attribute.
-The <base> element optionally accepts a target argument to choose the browsing context links open in by default.
+the ‹base› element specifies the base URL for the document with its href attribute.
+The ‹base› element optionally accepts a target argument to choose the browsing context links open in by default.
 
 ##### basefont
 
-The <basefont> element used to specify the default font (color, fontface etc.) but is now deprecated.
+The ‹basefont› element used to specify the default font (color, fontface etc.) but is now deprecated.
 
 ##### meta
 
-The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements.
-The <meta> element has four mutually exclusive modes.
-<meta> specifies the value in its content attribute, except when using `charset` or `itemprop` keys.
+The ‹meta› HTML element represents metadata that cannot be represented by other HTML meta-related elements.
+The ‹meta› element has four mutually exclusive modes.
+‹meta› specifies the value in its content attribute, except when using `charset` or `itemprop` keys.
 
 ###### http-equiv mode
 
@@ -180,7 +181,7 @@ When using `http-equiv`, `http-equiv` contains the header name, and `content` co
 
 ###### name
 
-If the `name` attribute is set, the `<meta>` element provides basic generic metadata.
+If the `name` attribute is set, the `‹meta›` element provides basic generic metadata.
 
 ####### various meta `name`s
 
@@ -189,7 +190,7 @@ description|short blurb about website, may be used in search results
 
 ####### `name="theme-color"`
 
-theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS <color>.
+theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS ‹color›.
 
 ####### `name="viewport"`
 
@@ -204,15 +205,15 @@ without width=device-width, many media queries will never apply
 
 ######## syntax
 
-For the meta tag with name viewport, the content value has the following syntax: <key>=<value>{, <key>=<value>}
+For the meta tag with name viewport, the content value has the following syntax: ‹key›=‹value›{, ‹key›=‹value›}
 
 ######## key=values
 
-width=<integer>|set size of the viewport to <integer> pixels
+width=‹integer›|set size of the viewport to ‹integer› pixels
 width=device-width|prevent browser from lying about their width
-initial-scale=<integer>|set default zoom level on page
+initial-scale=‹integer›|set default zoom level on page
 user-scalable=("yes"|"no")|allow users to zoom or not
-maximum-scale=<integer>|set maximum zoom level
+maximum-scale=‹integer›|set maximum zoom level
 
 #### body
 
@@ -221,13 +222,13 @@ maximum-scale=<integer>|set maximum zoom level
 ###### abbr
 
 The abbr HTML element represents an acronym or abbreviation.
-There used to be an <acronym> element which was obsoleted in favor of <abbr>
+There used to be an ‹acronym› element which was obsoleted in favor of ‹abbr›
 The thing an abbr element is short for may either be explained in the text or specified in a `title` attribute.
 
 ###### dfn
 
 ‹dfn› represents defining instance of a term.
-the definition of a term defined by an ‹dfn› is the ancestor closest that is a <p>, <dt>/<dd> pairing, or <section>.
+the definition of a term defined by an ‹dfn› is the ancestor closest that is a ‹p›, ‹dt›/‹dd› pairing, or ‹section›.
 The term ‹dfn› is defining is the value of the `title` attribute if it has one, or its text content otherwise.
 If ‹dfn› has a `title`, its contents may be something else then the name of the term, e.g. an abbr or alternative term.
 
@@ -275,7 +276,7 @@ You may define multiple sources for ‹video› or ‹audio› via child ‹sour
 ####### poster
 
 the poster attribute for video specifies a URL for an image to be shown while the video is downloading. 
-If the poster attribute for <video> isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
+If the poster attribute for ‹video› isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
 
 ####### track
 
@@ -292,20 +293,20 @@ track kinds: captions, chapters, descriptions, metadata, subtitles
 
 ####### img
 
-<img> is the HTML element used for including images
+‹img› is the HTML element used for including images
 
 ####### picture
 
 The ‹picture› element is an element for containing different versions of the same image.
-The picture element contains 0 - ∞ source elements and one <img> element.
-The <img> child of <picture> is there to act as a fallback and to give the picture its dimensions.
+The picture element contains 0 - ∞ source elements and one ‹img› element.
+The ‹img› child of ‹picture› is there to act as a fallback and to give the picture its dimensions.
 
 ####### srcset 
 
-srcset-values ::=  <srcset-specifier>{, <srcset-specifier>}
-srcset-specifier ::= <url> <integer>w
-sizes-values ::= <sizes-specifier>{, <sizes-specifier>}
-sizes-specifier ::= <media-query> <resolution-length-percentage>
+srcset-values ::=  ‹srcset-specifier›{, ‹srcset-specifier›}
+srcset-specifier ::= ‹url› ‹integer›w
+sizes-values ::= ‹sizes-specifier›{, ‹sizes-specifier›}
+sizes-specifier ::= ‹media-query› ‹resolution-length-percentage›
 
 scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the slot is presumed to be in that case (width as in resolution, not width of the  box). 
 Using srcset, browser then picks the image whose width is closest to the slot width, but preferring ones that are too large than too small.
@@ -314,11 +315,11 @@ If no sizes is provided, the browser presumes the slot width is 100vw.
 ###### source
 
 the ‹source› element provides a single source for certain media elements.
-The ‹source› element may be a child of <picture>, <video> and <audio>.
+The ‹source› element may be a child of ‹picture›, ‹video› and ‹audio›.
 the type (a MIME type) of a ‹source› element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
 A  ‹source› element is associated with one or more conditions.
 The conditions of a  ‹source› element are its `type` plus a media query specified in `media` if present.
-A lists of <source>s represents a priority hierarchy - the browser will take the first one that matches all conditions.
+A lists of ‹source›s represents a priority hierarchy - the browser will take the first one that matches all conditions.
 ‹source› elements for audio/video take their URL in a src attribute; ‹source› elements for picture take their URL in a srcset attribute
 
 ##### Headings

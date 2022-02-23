@@ -613,7 +613,7 @@ In American politics, the ⟮Southern strategy⟯ was a ⟮Republican Party⟯ e
 ⟮Lee Atwater⟯ has a famous ⟮quote⟯ in which he describes the evolution of ⟮republican::whose?⟯ messaging in the context of the ⟮southern strategy⟯ from ⟮"Nigger"⟯ to ⟮dog-whistles⟯ such as ⟮forced busing⟯ and ⟮state's rights⟯ to ⟮supposedly economic issues⟯ such as ⟮cutting taxes⟯ that ⟮"just happen" to hurt black people more⟯. 
 ⟮Lee Atwater'⟯s famous quote is often understood as ⟮the intentional perfidiousness of hiding racism in structural violence not mentioning race⟯, but he actually believed that ⟮this would end up making race less important⟯. 
 
-> You start out in 1954 by saying, "Nigger, nigger, nigger." By 1968, you can't say "nigger" – that hurts you. Backfires. So you say stuff like forced busing, states' rights and all that stuff. You're getting so abstract now, you're talking about cutting taxes. And all these things you're talking about are totally economic things and a byproduct of them is [that] blacks get hurt worse than whites. And subconsciously maybe that is part of it. I'm not saying that. But I'm saying that if it is getting that abstract, and that coded, that we are doing away with the racial problem one way or the other. You follow me – because obviously sitting around saying, "We want to cut this," is much more abstract than even the busing thing, and a hell of a lot more abstract than "Nigger, nigger."
+＞ You start out in 1954 by saying, "Nigger, nigger, nigger." By 1968, you can't say "nigger" – that hurts you. Backfires. So you say stuff like forced busing, states' rights and all that stuff. You're getting so abstract now, you're talking about cutting taxes. And all these things you're talking about are totally economic things and a byproduct of them is [that] blacks get hurt worse than whites. And subconsciously maybe that is part of it. I'm not saying that. But I'm saying that if it is getting that abstract, and that coded, that we are doing away with the racial problem one way or the other. You follow me – because obviously sitting around saying, "We want to cut this," is much more abstract than even the busing thing, and a hell of a lot more abstract than "Nigger, nigger."
 
 ARPA is short for ⟮Advanced Research Projects Agency⟯ (today called ⟮DARPA⟯), and is an agency that carries out ⟮c+;R＆D⟯, directly subsidiary to the ⟮US Department of Defense⟯ 
 
@@ -784,7 +784,7 @@ Harlequin romances generally feature a ⟮clinch⟯ cover and have a ⟮happy⟯
 
 According to Shibamoto Smith 2004, in contrast to ⟮Harlequin translations⟯, the ⟮heroine⟯ of ⟮japanese romance novels⟯ looks ⟮reasonably pretty, but not a bombshell⟯, acts ⟮independently/competently⟯, is quite ⟮self-aware⟯, while the ⟮hero⟯ is ⟮ordinary, nice, somewhat awkward⟯. 
 In general, according to Shibamoto Smith 2004, ⟮japanese romance novels⟯ pay less heed to ⟮looks as a sign for attractiveness/love⟯ 
-> Japanese romances rarely have covers that depict the principal characters, and the text descriptions are by no means as detailed as in the Harlequin-style texts. Clothing is not, in my corpus, ever used as a tool of seduction, and no lovers’ furtive glances at escaping chest hair or heaving breasts or quick but intoxicating looks at glimpses of beautiful long legs through the slits of skirts help our Japanese lovers know that they have found Ms. or Mr. Right
+＞ Japanese romances rarely have covers that depict the principal characters, and the text descriptions are by no means as detailed as in the Harlequin-style texts. Clothing is not, in my corpus, ever used as a tool of seduction, and no lovers’ furtive glances at escaping chest hair or heaving breasts or quick but intoxicating looks at glimpses of beautiful long legs through the slits of skirts help our Japanese lovers know that they have found Ms. or Mr. Right
 
 ###### bodice-ripper
 
@@ -3481,7 +3481,7 @@ A distinction of the ⟮poor⟯ that began with ⟮the poor laws in england in t
 
 ### Elaine Scarry, The Body In Pain
 
-> ⟮To have great pain⟯ ⟮is to have certainty⟯. ⟮To hear that another person has pain⟯ ⟮is to have doubt.⟯
+＞ ⟮To have great pain⟯ ⟮is to have certainty⟯. ⟮To hear that another person has pain⟯ ⟮is to have doubt.⟯
 
 ### a boring dystipia
 
@@ -3573,11 +3573,11 @@ primary sources are called 「quellen」 in the study of history in german.
 
 #### coupling & co-citation
 
-flex-container:<img src="Visualization_of_co-citation_analysis_methods.png" style="clip-path: inset(0 50% 0 0)">
+flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
 
 Bibliographic coupling measures how many of the same works two documents cite. 
 If two documents cite at least one work in common, they are bibliographically coupled. 
-The bibliographic coupling strength/index will be 3 if they cite 3 works in common<
+The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
 Co-citation measures how frequently two documents are cited together by other documents. 
 If at least one other document cites two documents in common these documents are said to be co-cited. 
 The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.

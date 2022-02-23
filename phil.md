@@ -235,7 +235,7 @@ definiendum|Something to be defined
 definiens|Something by which something is defined
 
 
-> An elephant is a large gray animal native to Asia and Africa.
+＞ An elephant is a large gray animal native to Asia and Africa.
 
 
 elephant|definiendum
