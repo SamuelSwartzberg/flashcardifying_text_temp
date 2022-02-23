@@ -1,10 +1,10 @@
 # regex
 
-regex ::= [^|\A]<expression>[$|\Z]
-expression ::= <alternative>{|<alternative>}
-alternative ::= {<quantified>|<q-e-escape-sequence>}
-quantified ::= <quantifiable>[<quantifier>]
-quantifiable ::= <character-class>|<group>|<character>|<reference>|<recursion-token>
+regex ::= [^|\A]‹expression›[$|\Z]
+expression ::= ‹alternative›{|‹alternative›}
+alternative ::= {‹quantified›|‹q-e-escape-sequence›}
+quantified ::= ‹quantifiable›[‹quantifier›]
+quantifiable ::= ‹character-class›|‹group›|‹character›|‹reference›|‹recursion-token›
 
 | marks alternation, where one alternative must match
 
@@ -33,16 +33,16 @@ To prevent the regex engine from getting stuck matching zero-length matches at t
 a literal character matches/represents itself (unless it is a metacharacter in that position, in which case it needs to be esxaped)
 The . character matches all characters (including newlines if the dotall flag is enabled, excluding newlines otherwise)
 It is often more sensible to use a negated character class instead of .
-The sequence q-e-escape-sequence ::= \Q{<character>}\E forces everything within to be treated as literal and not as metacharacters
+The sequence q-e-escape-sequence ::= \Q{‹character›}\E forces everything within to be treated as literal and not as metacharacters
 
 ### character class
 
 A character class matches exactly one of several characters.
 There built-in character classes, or you may specify one with a character class literal.
 The character class literal may begin with ^ which matches any one character that is not the specified character
-Within the character class literal, <character>-<character> matches a range (if semantically sensible)
-character-class ::= (\<built-in-character-class-character>)|<character-class-literal>|<escape-character-classes>
-character-class-literal ::= \[[^]<character>{<character>}\] # slight simplification
+Within the character class literal, ‹character›-‹character› matches a range (if semantically sensible)
+character-class ::= (\‹built-in-character-class-character›)|‹character-class-literal›|‹escape-character-classes›
+character-class-literal ::= \[[^]‹character›{‹character›}\] # slight simplification
 built-in-character-class-character|meaning/equivalent character class literal
 d|[0-9]
 D|[^0-9]
@@ -56,7 +56,7 @@ Whether built-in character classes such as \d and \w match non-ASCII characters/
 
 Character classes that contain a built-in character class and its negation match everything, and are sometimes used when dotall is not available.
 
-There are a special kind of character class called a posix bracket expression, which has the syntax [:<name>:]
+There are a special kind of character class called a posix bracket expression, which has the syntax [:‹name›:]
 In many langauges \p{} is a character class that takes an argument of a certain unicode category matches all relevant unicode characters. Java uses the same type of notation for posix bracket expressions 
 
 ### group
@@ -73,11 +73,11 @@ group-specifier|meaning
 ø|capturing
 ?:|non-capturing
 ?>|atomic
-?\<<name>\>|named capturing (JS)
-?<expression>|conditional group
+?\‹‹name›\›|named capturing (JS)
+?‹expression›|conditional group
 ?bar|branch reset groups
-?<flags>|activates certain flags from within a regex
-group ::= \(<group-specifier><expression>\)
+?‹flags›|activates certain flags from within a regex
+group ::= \(‹group-specifier›‹expression›\)
 
 #### lookaround assertions
 
@@ -90,7 +90,7 @@ lookaround assertions may be positive (true if it is the case) or negative (true
 ø|ahead
 <|behind
 
-lookassertion-specifier ::= ?<behind-ahead><positive-negative>
+lookassertion-specifier ::= ?‹behind-ahead›‹positive-negative›
 behind-ahead ::= <|ø
 positive-negative ::= =|!
 
@@ -99,7 +99,7 @@ SOme regex flavors require lookaround assertions to be fixed length and so disal
 #### modfies |
 
 conditional and branch rest groups modify the meaning of the | within.
-A conditional gropu looks like (?<expression>|<expression>[|<expression]) and works much the same way as an if-conditional in usual programming languages
+A conditional gropu looks like (?‹expression›|‹expression›[|<expression]) and works much the same way as an if-conditional in usual programming languages
 A branch reset group matches one of the alternatives indicated with | as alternation would normally.
 A branch reset group resets the index of capture groups to the index it would have had at the beginning at each |.
 The index of the next group after the branch reset group is the maximum index that a capture group could have within +1
@@ -114,9 +114,9 @@ references to nonexistant capture groups produce errors in most regex flavors, i
 backreferences refer to groups coming beforehand in the regex.
 forward refer to groups coming afterward in the regex, they only match if inside of some sort of repetition, since the first time around there won't be anything to match in the group.
 Most references are backreferences, not all regex flavors support forward references.
-reference ::= <numeric-reference>|<nonnumeric-reference>
-numeric-reference ::= \<positive-integer>
-nonnumeric-reference ::= \k(<|')<name-or-negative-integer>('|>)|\g[\{]<name-or-negative-integer>[\}]
+reference ::= ‹numeric-reference›|‹nonnumeric-reference›
+numeric-reference ::= \‹positive-integer›
+nonnumeric-reference ::= \k(‹|')‹name-or-negative-integer›('|›)|\g[\{]‹name-or-negative-integer›[\}]
 Most regexes that support the \k or \g flavors support them for both relative backreferences and named references
 Some regexes support only the \k or \g flavors for relative/named refs, some support both, and some use a completely different syntax all together.
 Relative backreferences use a negative number to count back from that position.
@@ -139,12 +139,12 @@ $|end of line with multiline flag, end of string without multiline flag
 Notably, JS regex does not support \A and \Z.
 
 \K keeps the text matched so far out of the overall regex match. 
-keep-out ::= <expression>\K
+keep-out ::= ‹expression›\K
 
 ### quantifiers
 
-quantifier ::= (?|+|*|<range>)<quantifier-mode>
-range ::= \{[<integer>][,][<integer>]\}
+quantifier ::= (?|+|*|‹range›)‹quantifier-mode›
+range ::= \{[‹integer›][,][‹integer›]\}
 
 ?|0 - 1
 *|0 - ∞
@@ -189,5 +189,5 @@ both sed and grep default to BRE.
 
 ## the whole regex
 
-Often, regexes are given in the pattern /<regex>/<replacement>/<flags>
+Often, regexes are given in the pattern /‹regex›/‹replacement›/‹flags›
 sed, perl, vim

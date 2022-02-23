@@ -36,12 +36,11 @@ Action|Command|Available in...|Differences between
 ⟮save⟯|⟮:w(rite⟯)|⟮qutebrowser, vim⟯|⟮saves the file in vim and the session in qutebrowser⟯
 ⟮quit⟯|⟮:q(uit⟯)|⟮qutebrowser, vim⟯
 ⟮save and quit⟯|⟮wq⟯|⟮qutebrowser, vim⟯|⟮saves the file in vim and the session in qutebrowser⟯
-⟮reload config file⟯|⟮config-source⟯|⟮qutebrowser, vim⟯</td></tr></tbody>
+⟮reload config file⟯|⟮config-source⟯|⟮qutebrowser, vim⟯
 ⟮:Explore⟯|⟮open vim file explorer⟯|⟮vim⟯
 ⟮:saveas⟯|⟮save file with name and continue editing this⟯|⟮vim⟯
 ⟮:so(urce) file⟯|⟮source the specified file as vim code⟯|⟮vim⟯
 ⟮:number⟯|⟮show number of current line⟯|⟮vim⟯
-</tbody></table>
 
 pwd   current directory|vim only
 h(elp)   show help|vim, qute
@@ -57,7 +56,7 @@ sp filename   open file in horizontal split
 vsp filename   open file in vertical split
 
 the various map commands is for mapping actions to keyboard shortcuts
-map-command: <mode-char>[un|nore]map
+map-command:  ‹mode-char›[un|nore]map
 in the map commands, nore means no recursion, i.e. don't trigger further keybindings/maps after performing the map
 In general, it is wise to use the nonrecursive mappings
 in the map commands, un is for unmapping a certain combination
@@ -108,14 +107,14 @@ ctrl+^    doing buffer related stuff (switching buffer when no leading number ar
 
 #### grammar-defined (may be insert-only or multi-mode)
 
-action ::= <command-component>||<motion-component>
-command-component ::= [<count>]<command>[<command>]
-motion-component ::= [<count>]<motion>
-text-object ::= <modifier><object>
+action ::= ‹command-component›||‹motion-component›
+command-component ::= [‹count›]‹command›[‹command›]
+motion-component ::= [‹count›]‹motion›
+text-object ::= ‹modifier›‹object›
 modifier ::= i|a
-count ::= <digit>{<digit>}
+count ::= ‹digit›{‹digit›}
 
-double operator does the action to the whole line, or <count> whole lines.
+double operator does the action to the whole line, or ‹count› whole lines.
 Only a small subset of vim commands take a motion argument.
 A motion without a command component simply moves the cursor
 e.g. >> shift whole line right
@@ -158,7 +157,7 @@ ctrl b|page up|qutebrowser, zathura, vim|
 ctrl t|half page left
 ctrl u|half page up
 
-In vim, adding a <count> before the half page... makes this scroll <count> lines instead of a half page, in qutebrowser it instead scrolls <count> half-pages. They both behave the same for whole file commands
+In vim, adding a ‹count› before the half page... makes this scroll ‹count› lines instead of a half page, in qutebrowser it instead scrolls ‹count› half-pages. They both behave the same for whole file commands
 
 
 ##### motions
@@ -170,7 +169,7 @@ G|go to last line|qutebrowser, zathura, vim, less
 g|go to first line|less only
 ‹n›G   jump to line n
 H/L|top/bottom of viewport
-<quantifier>H/L|n lines before top/bottom of page
+‹quantifier›H/L|n lines before top/bottom of page
 M   go to middl eof screen
 %   matching delimiter (e.g. other ")")
 (/)   beginning/end of sentence
@@ -183,7 +182,7 @@ e/E   end of word
 w/W   start of next word 
 ^   start of line (excl whitespace)
 $   emd of line
-'<letter>|mark <letter>
+'‹letter›|mark ‹letter›
 +/-   beginning of line below/above
 0   move to first character in line (even if indented)
 #   search backwards for word under cursonr
@@ -221,7 +220,7 @@ gg|go to first line|
 
 ##### related
 
-m<letter>|set a <letter> as a mark
+m‹letter›|set a ‹letter› as a mark
 
 #### visual mode exclusive
 

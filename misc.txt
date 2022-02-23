@@ -1190,8 +1190,9 @@ Currently there are ⟮193⟯ UN member states.
 
 ###### isolation and governance
 
-According to <a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a>, in ⟮authoritarian⟯ states ⟮capital cities⟯ being ⟮isolated⟯ correlates with ⟮worse quality of governance⟯ = ⟮more resource extraction (of the ruling elite from the country⟯). 
-<a href="https://www.nber.org/papers/w19028">Campante et al. 2013</a> argue the relationship ⟮c+;capital cities being more isolated → worse quality of government⟯ is ⟮causal⟯, based on a more ⟮isolated⟯ ⟮capital city⟯ being ⟮less succeptible to revolution⟯. 
+According to Campante et al. 2013, in ⟮authoritarian⟯ states ⟮capital cities⟯ being ⟮isolated⟯ correlates with ⟮worse quality of governance⟯ = ⟮more resource extraction (of the ruling elite from the country⟯). 
+Campante et al. 2013 argue the relationship ⟮c+;capital cities being more isolated → worse quality of government⟯ is ⟮causal⟯, based on a more ⟮isolated⟯ ⟮capital city⟯ being ⟮less succeptible to revolution⟯. 
+^Campante et al. 2013: ⇱https://www.nber.org/papers/w19028⇲
 
 ###### list
 ⟮United Arab Emirates⟯|⟮Abu Dhabi⟯
@@ -1431,9 +1432,7 @@ The annales school favored ⟮the longue duree⟯ as a level of analysis
 Name|Timespan|Examples|Other names|Similar concepts
 ⟮c1,5-7;longue durée⟯|⟮c+;s3:7;hundreds or thousands of years⟯|⟮c+;s2:7;Changes in climatology or physical geography⟯||⟮c+;s2:7;Macrohistory⟯
 ⟮c8,11;moyenne durée⟯|⟮c+;s10:11;multiple years or decades⟯|⟮c+;s8:9;The great depression⟯
-⟮c11,15-17;événement⟯|⟮c+;s13:17;hours, days, weeks⟯|⟮c+;s12:17;A coup or new law⟯|⟮c+;s12:17;Ereignisgesichichte⟯</td>  
-</tr> 
-
+⟮c11,15-17;événement⟯|⟮c+;s13:17;hours, days, weeks⟯|⟮c+;s12:17;A coup or new law⟯|⟮c+;s12:17;Ereignisgesichichte⟯
 
 ## periodization
 
@@ -1464,7 +1463,7 @@ event|date
 
 
 
-## history of <location>
+## history of ‹location›
 
 ### china
 
@@ -1615,7 +1614,7 @@ Generation|Start|End|Nicknames
 ⟮Civil War⟯|⟮1861⟯|⟮1865⟯
 ⟮Reconstruction⟯|⟮1865⟯|⟮1877⟯
 
-## history of <person>
+## history of ‹person›
 
 ### mary wolstonecraft
 
@@ -1624,7 +1623,7 @@ Generation|Start|End|Nicknames
 ⟮Wollstonecraft⟯ argued contra Burke that ⟮Marie Antoinette⟯ was not ⟮a noble victim⟯ but a ⟮femme fatale⟯, which was inevitable for one because MAs only function was ⟮to produce sons⟯, which ⟮corrupted⟯ her by ⟮reducing her only to a womb⟯, and also that ⟮queens (consort⟯) ⟮needed to be manipulative⟯, since ⟮the only way they could exercise influence⟯ was ⟮via their husbands or sons⟯ 
 ⟮Wollstonecraft⟯ had ⟮a child by⟯ her ⟮second lover⟯, who ⟮left her⟯ and ⟮for whom she pined long after⟯, eventually ⟮driving her to a suicide attempt⟯ that she described after it failed as ⟮completely rational⟯ 
 
-## history of <event>
+## history of ‹event›
 
 ### modernity 
 
@@ -1647,7 +1646,7 @@ The ⟮Revolution Controversy⟯ began in earnest after the publication of ⟮Ed
 The ⟮Nord-Ostsee-Kanal⟯ c⟮onnects connects the north and the baltic sea⟯. 
 The ⟮Nord-Ostsee-Kanal⟯ was built around ⟮1900⟯ and may be said to be part of the larger trends of ⟮the rise of the German nation-state and industrialization⟯. 
 
-## history of <topic>
+## history of ‹topic›
 
 ### gender
 
@@ -2143,12 +2142,11 @@ While the research is not completely settled, ⟮saturated⟯ and ⟮trans unsat
 ####### unsaturated
 
 ######## omega
+
 ⟮omega-3⟯|fatty acids are|⟮polyunsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮3 atoms⟯| away from ⟮the terminal methyl group⟯
 ⟮omega-6⟯|fatty acids are|⟮polyunsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮6 atoms⟯| away from ⟮the terminal methyl group⟯
 ⟮omega-7⟯|fatty acids are|⟮monounsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮7 atoms⟯| away from ⟮the terminal methyl group⟯
 ⟮omega-9⟯|fatty acids are|⟮monounsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮9 atoms⟯| away from ⟮the terminal methyl group⟯
-
-<style>table{white-space: pre}</style>
 
 ######### omega-3
 
@@ -2170,7 +2168,7 @@ Major non-vegan sources of ⟮ALA⟯: ⟮fish⟯ and ⟮meat/eggs⟯ to some ext
 
 
 there are a bunch of ⟮omega-6⟯ fatty acids, but only ⟮linoleic acid⟯ is considered ⟮essential⟯
-<a href="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/">https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/</a>
+⇱https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/⇲
 
 #### micro
 
@@ -2232,32 +2230,36 @@ Vitamin B...|Name or name of vitamers (if it exists)
 ##### minerals
 
 ⟮Minerals⟯ are ⟮micronutrients⟯ that ⟮are inorganic chemical elements⟯ 
+
+###### macro/trace/ultratrace
+
 ⟮Minerals⟯ as micronutrients are subcategorized (by ⟮amount necessary⟯) into ⟮macrominerals⟯, ⟮trace minerals⟯, and ⟮ultratrace minerals⟯. 
 There are many ⟮ultratrace⟯ elements that have been ⟮suggested as essential⟯, such claims are ⟮difficult to reproduce⟯. 
 
-Mineral|Is defined by?
+
+table:Mineral|Is defined by?
 ⟮Macrominerals⟯|⟮c+;RDA › 150-200mg/day⟯
 ⟮Trace minerals⟯|⟮c+;RDA › 150-200mg/day⟯
 ⟮ultratrace minerals⟯|⟮RDA of μg/day⟯
 
 
+table:span=17;essential minerals (some variation between characters exist)
+span=5;⟮Macrominerals⟯|span=11;⟮trace minerals⟯|⟮ultratrace minerals⟯
+⟮calcium⟯|⟮magnesium⟯|⟮phosophorus⟯|⟮potassium⟯|⟮sodium⟯|⟮chlorine⟯|⟮(chromium⟯)|⟮cobalt⟯|⟮copper⟯|⟮iodine⟯|⟮iron⟯|⟮manganese⟯|⟮molybdenum⟯|⟮selenium⟯|⟮sulfur⟯|⟮zinc⟯|⟮unclear⟯
 
-    <tr><th colspan="42">essential minerals (some variation between characters exist)
+###### various minerals
 
-    <tr><th colspan="5">⟮Macrominerals⟯</th> <th colspan="11">⟮trace minerals⟯|⟮ultratrace minerals⟯
-
-⟮calcium⟯|⟮magnesium⟯|⟮phosophorus⟯|⟮potassium⟯|⟮sodium⟯|⟮   chlorine⟯|⟮(chromium⟯)|⟮cobalt⟯|⟮copper⟯|⟮iodine⟯|⟮iron⟯|⟮manganese⟯|⟮molybdenum⟯|⟮selenium⟯|⟮sulfur⟯|⟮zinc⟯|⟮  unclear⟯
-
+####### calcium
 
 ⟮Calcium⟯ most famously exists in ⟮dairy⟯, but ⟮also in other things.⟯ 
 
-###### iron
+####### iron
 
 ⟮Iron⟯ ⟮from food⟯ comes in two forms, ⟮heme⟯ ⟮iron⟯ which can only be gotten from ⟮animal flesh⟯, and ⟮non-heme⟯ ⟮iron⟯ which can also be gotten from ⟮other sources⟯ 
 ⟮Heme⟯ iron is ⟮better absorbed⟯ by the body than ⟮non-heme⟯ iron. 
 Iron from ⟮non-heme⟯ sources is ⟮more readily absorbed⟯ if ⟮consumed with foods⟯ that contain either ⟮heme-bound iron⟯ or ⟮vitamin C⟯. 
 
-###### iodine
+####### iodine
 
 ⟮Iodine⟯ ⟮deficiency⟯ leads to many bad outcomes, many due to the fact that ⟮iodine⟯ is necessary to ⟮make one of the thyroid hormones (thyroxine⟯), lack of which leads to ⟮high levels of thyroid stimulating hormone (TSH⟯), causing ⟮the thyroid to swell⟯ 
 in many countries, ⟮table salt⟯ is fortified with ⟮iodine⟯ in the form of ⟮iodine⟯ ⟮salts⟯, which has proved effective at preventing ⟮iodine⟯ ⟮deficiency⟯ 
@@ -3119,7 +3121,7 @@ a ⟮power bottom⟯ is most commonly just a misnomer for a ⟮dominant bottom�
 "⟮Topping from the bottom⟯" using the ⟮literal sense⟯ ⟮doesn't make sense⟯ and may refer to "⟮being a dom and a bottom AT THE SAME TIME :OOOOOOOOOOO⟯" or "⟮Being a sub in theory but a dom in practice⟯". It is also often just used for "⟮My sub is doing something and ＊I don't like it＊⟯"
 
 In general, as of 2021, it seems that more "⟮masc⟯" gay identities are ⟮more highly valued⟯
-<a href="https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/">https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/</a>
+⇱https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/⇲(https://lgbtq.hkspublications.org/2021/06/10/taking-off-the-masc-how-gay-identifying-men-perceive-and-navigate-hyper-masculinity-and-mascing-culture-online/)
 
 ## crushes
 
@@ -3493,7 +3495,7 @@ Marxism argues that without false consciousness (at least in the case of capital
 ##### origin: class consciousness
 
 ⟮class consciousness⟯ (in a sort of general sense) is ⟮political consciousness⟯ (in the sense of ⟮seeing one's experience and struggle as part of a group⟯) of ⟮social classes⟯, and since it's a ⟮marxist⟯ term, esp. of ⟮the proletariat⟯ and ⟮the capitalists⟯. ⟮Class consciousness⟯ is the ⟮original⟯ term, is ⟮more common⟯ than ⟮political consciousness⟯ as a term, and is thus also ⟮often used as a synonym.⟯
-<a href="https://www.britannica.com/topic/class-consciousness">https://www.britannica.com/topic/class-consciousness</a>, <a href="https://www.sciencedirect.com/topics/social-sciences/class-consciousness">https://www.sciencedirect.com/topics/social-sciences/class-consciousness</a>
+⇱https://www.britannica.com/topic/class-consciousness⇲(https://www.britannica.com/topic/class-consciousness), ⇱https://www.sciencedirect.com/topics/social-sciences/class-consciousness⇲(https://www.sciencedirect.com/topics/social-sciences/class-consciousness)
 
 
 ## more than one identity
@@ -3674,7 +3676,7 @@ citations
     in-text citation
   works cited/references entry
 
-  
+
 Note citations are citations in endnotes/footnotes.
 In-text citations are citations within the flow of text.
 Typically, short citations are also in-body citations, and full citations are reference entries.
@@ -3954,7 +3956,7 @@ There should roughly be ⟮one situation/action⟯ on the fear ladder for ⟮eac
 A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮s16;⟮daily, a few times a week⟯⟯ ). 
 ⟮Each session of the application of a fear ladder⟯ should last until ⟮the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s19;⟮half⟯ is a good goal to short for⟯ ) (often ⟮30min +::length⟯ are necessary, ⟮relaxation excersizes such as breathing⟯ can help) 
 ⟮c+;Fear ladders ＆ exposure therapy⟯ work(s) because ⟮your anxiety basically "runs out of gas"⟯. For ⟮a fear ladder⟯, start with ⟮the lower items⟯ on ⟮the fear ladder,⟯ and ⟮work yourself up to the higher items⟯ as they ⟮become less frightening⟯. 
-<a href="https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/">alivecounselling/</a>, <a href="https://www.anxietycanada.com/articles/plan-exposure-exercises/">Planning exposures</a>, <a href="https://www.anxietycanada.com/articles/build-a-fear-ladder/">Building fear ladder</a></div>
+⇱https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/⇲(alivecounselling/), ⇱https://www.anxietycanada.com/articles/plan-exposure-exercises/⇲(Planning exposures), ⇱https://www.anxietycanada.com/articles/build-a-fear-ladder/⇲(Building fear ladder)</div>
 
 ### dreams
 

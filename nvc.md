@@ -184,32 +184,32 @@ One possible grouping of clean language questions (there are others)
           2. ⟮(And) what happens just before X?⟯
           3. ⟮(And) where could X come from?⟯
       |
-        <ol>
-          <li>
+        
+          
             ⟮(And) what kind of X (is that X)?⟯ ¶
             Purpose: ⟮Zooming in⟯ ¶
             Returns: ⟮A symbols name⟯
-          </li>
-          <li>
+          
+          
             ⟮(And) is there anything else about x?⟯ ¶
             Purpose: ⟮Zooming out⟯
-          </li>
-          <li>⟮(And) where(abouts) is X?⟯ ¶
+          
+          ⟮(And) where(abouts) is X?⟯ ¶
           Purpose: ⟮Getting the address of X⟯ ¶
           Returns: ⟮A symbols location⟯ ¶
           Notes: ⟮can be used widely, since most metaphors have a spacial component⟯
-          </li>
-        </ol>
+          
+        
       |
         ⟮(And) that's X like what?⟯ ¶
         If ⟮about everything that was jus said⟯: ⟮(And) (all of) that's like what?⟯ ¶
         Method of using: ⟮say it very slowly⟯ ¶
         Might not work if asked about ⟮things that are already metaphors⟯, ⟮abstract concepts⟯
       |
-        <ol>
-          <li>⟮(And) is there a relationship between X and Y?⟯</li>
-          <li>⟮(And) when X, what happens to Y?⟯</li>
-        </ol>
+        
+          ⟮(And) is there a relationship between X and Y?⟯
+          ⟮(And) when X, what happens to Y?⟯
+        
 
 
 

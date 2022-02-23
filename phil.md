@@ -823,13 +823,11 @@ In ⟮the relief theory of laughter⟯, ⟮laughter/humor is the release of pent
 The ⟮relief theory of laughter⟯ reliess (explicitly or implicitly) on the metaphor of ⟮a steam valve⟯ 
 The problem with ⟮the relief theory of laughter⟯ is that ⟮nervous energy isn't a real thing that one would need to release.⟯ 
 ⟮The superiority theory (of humor/laughter⟯) is the theory that ⟮laughter expresses feelings of superiority⟯ over ⟮other people⟯ or over ⟮a former state of ourselves⟯ (main supporters (possibly, depending on how you read them): ⟮Plato, Hobbes, Descartes⟯ ) 
-<div class="cloze-group hide-if-inactive">
-  The problem with the ⟮superoiority theory of humor/laughter:⟯ 
-<ol>
-<li>since there are cases in ⟮which one feels superior to someone (i.e. a beggar⟯) but ⟮feels pity rather than laughs⟯, ⟮superiority is not sufficient to explain laughter⟯</li>
-<li>Since there are cases in which ⟮one laughts but doesn't feel superior⟯, ⟮superiority is not necessary to explain laughter⟯</li>
-</ol>
-</div>
+
+### The problem with the ⟮superoiority theory of humor/laughter:⟯ 
+
+- since there are cases in ⟮which one feels superior to someone (i.e. a beggar⟯) but ⟮feels pity rather than laughs⟯, ⟮superiority is not sufficient to explain laughter⟯
+- Since there are cases in which ⟮one laughts but doesn't feel superior⟯, ⟮superiority is not necessary to explain laughter⟯
 
 ## Kundera
 
