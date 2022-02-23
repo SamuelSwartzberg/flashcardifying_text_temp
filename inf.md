@@ -3965,9 +3965,14 @@ Action|Shortcut
 ⟮Find previous⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦g⟧⟯
 ⟮Open search in window/smaller scope⟯|⟮⟦⌘⟧ ⟦F⟧⟯
 ⟮Open search in project/other large scope/advanced search⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
+Fill search buffer|⟦⌘⟧ ⟦e⟧
+
+On mac, in many apps ⟦⌘⟧ ⟦e⟧ fills a global search buffer, which you then can instantly use to search in a different app (or in the same one of course).
+Within the same app, the difference between ⟦⌘⟧ ⟦e⟧ and ⟦⌘⟧ ⟦f⟧ on a selection is that ⟦⌘⟧ ⟦e⟧ only adds it to the buffer, while ⟦⌘⟧ ⟦f⟧ also focuses the search field.
 
 
 ####### form navigation
+
 ⟮⟦tab⟧⟯|⟮field forward⟯
 ⟮⟦⇧⟧ ⟦tab⟧⟯|⟮field back⟯
 
@@ -15956,18 +15961,49 @@ The vscode extension Numbered Bookmarks adds numbered bookmarks for lines which 
 set numbered bookmark <n>|⟦⌘⟧ ⟦<n>⟧
 navigate to shift bookmark <n>|⟦⌘⟧ ⟦⇧⟧ ⟦<n>⟧
 
-######## select/search
+######## search
 
-add cursors to all search results (if search field focused)|⟦⌥⟧ ⟦enter⟧
+######### search UI (box)
 
-⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
-⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
-⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
 In vscode, one can resize the search widget by dragging its left edge.
+
+######### modifying search behavior
+
+########## limiting search to selection
+
 ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ creates an area search is limited to from the current selections.
 a second press of ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ does not re-select, instead toggling off. One must first toggle it off, then select a new area, then toggle it back on to get a new selection.
 
-######### aquiring selections
+######### aquiring & navigating
+
+########## aquiring
+
+########## navigating 
+
+########## hybrid
+
+⟦⌘⟧ ⟦f3⟧ and ⟦⌘⟧ ⟦⇧⟧ ⟦f3⟧ set the word under the cursor as the search value.
+⟦⌘⟧ ⟦f3⟧ and ⟦⌘⟧ ⟦⇧⟧ ⟦f3⟧ cycle forward/backward through the occurences of the word once it's been aquired
+⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
+⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
+
+######### converting search to other things (e.g. selection)
+
+########## converting search results to cursors
+
+add cursors to all search results (if search field focused)|⟦⌥⟧ ⟦enter⟧
+
+######## selection
+
+######### aquiring/enlarging selections
+
+########## by line
+
+⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
+
+########## expand/contract
+
+⟦⌘⟧ ⟦⇧⟧ ⟦⌃⟧ ⟦←/→⟧ will shrink/expand a selection by the next larger unit (word ↔ line ↔ region ↔ larger region ...)
 
 ########## selection anchors
 
@@ -15980,6 +16016,7 @@ cancel selection anchor|⟦esc⟧
 ########## column/box
 
 ⟦⇧⟧ ⟦⌥⟧ ⟦drag⟧ starts selecting a rectangular area just like visual block mode, adding a cursor to the beginning/end.
+
 
 ######### using selections
 
