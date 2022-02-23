@@ -655,7 +655,7 @@ Term in a description list with title foo and description/explanation bar|\iten[
 
 In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
 ⟮ordered list items⟯ are started by ⟮‹n›. (e.g. 1. or 7.⟯). 
-it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯&nbsp;they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
+it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯ they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
 ⟮unordered list items⟯ are started by ⟮-⟯, ⟮*⟯ or ⟮+⟯, which can be ⟮mixed and matched⟯. 
 
 ##### containers
@@ -747,8 +747,8 @@ translate: an enumerated attribute whether the element should be translated, e.g
 
 tabindex:
 The tabindex attriubte indicates if and how an element can be focused by the keyboard.
-&nbsp;⟮tabindex⟯⟮=0⟯ indicates that ⟮an element can be focused⟯ (e.g.&nbsp;⟮by the tab key⟯)
-&nbsp;⟮tabindex⟯⟮=-1⟯ indicates that ⟮c+;an element can ⁑not&nbsp;⁑be focused⟯ (e.g. by ⟮the tab key⟯)
+ ⟮tabindex⟯⟮=0⟯ indicates that ⟮an element can be focused⟯ (e.g. ⟮by the tab key⟯)
+ ⟮tabindex⟯⟮=-1⟯ indicates that ⟮c+;an element can ⁑not ⁑be focused⟯ (e.g. by ⟮the tab key⟯)
 Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
 CSS inline styling with style.
 part and slot for the shadow DOM.
@@ -2113,7 +2113,7 @@ It may seem that certain html form elements can't have their font styled ⟮beca
 ###### white-space
 
 The white-space CSS property sets how white space inside an element is handled.
-&nbsp;|New lines|Spaces and tabs|Text wrapping
+ |New lines|Spaces and tabs|Text wrapping
 ⟮c+;s1:5;normal⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Wrap⟯
 ⟮c+;s1:5;pre⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;No wrap⟯
 ⟮c+;s1:5;nowrap⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;No wrap⟯
@@ -2245,15 +2245,15 @@ line-width ::= thin|medium|thick|<length>
 where foo-style takes a <line-style>
 
 line-style
-hidden|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em hidden black;">&nbsp;</div>
-dotted|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dotted black;">&nbsp;</div>
-dashed|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dashed black;">&nbsp;</div>
-solid|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em solid black;">&nbsp;</div>
-double|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em double black;">&nbsp;</div>
-groove|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em groove black;">&nbsp;</div>
-ridge|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em ridge black;">&nbsp;</div>
-inset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em inset black;">&nbsp;</div>
-outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black;">&nbsp;</div>
+hidden|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em hidden black;"> </div>
+dotted|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dotted black;"> </div>
+dashed|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em dashed black;"> </div>
+solid|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em solid black;"> </div>
+double|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em double black;"> </div>
+groove|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em groove black;"> </div>
+ridge|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em ridge black;"> </div>
+inset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em inset black;"> </div>
+outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black;"> </div>
 
 ###### Corners
 
@@ -2771,7 +2771,7 @@ Keyframes at-rule syntax: @keyframes <keyframes-name> \{ <keyframe-block-list> \
 from is an alias of 0% and to is an alias of 100%
 Properties that aren't specified in every keyframe are interpolated if possible — properties that can't be interpolated are dropped from the animation.
 
-if you mark something with !important in a keyframe,&nbsp;⟮That value will be ignored⟯ (since !important can't be used in keyframes)
+if you mark something with !important in a keyframe, ⟮That value will be ignored⟯ (since !important can't be used in keyframes)
 if you don't provide a from/0% andor a to/100% it will ⟮Animate to/from the elements existing styles⟯
 If you specify multiple @keyframes with the same name, ⟮The last one encountered will be used⟯
 
@@ -2850,7 +2850,7 @@ A site using ⟮‹frameset›⟯ was basically ⟮made up of⟯ ⟮many differe
 A site using ⟮‹frameset›⟯  would have had the advantage tha⟮t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮have to be fetched when navigating⟯. 
 The ⟮‹noframes›⟯ was provided for browsers that ⟮did not support frames⟯. 
 As of ⟮HTML5⟯, ⟮‹frame› and ‹frameset›⟯ are ⟮deprecated⟯, but ⟮iframe⟯ is not. 
-⟮‹frame›s⟯ were ⟮deprecated⟯ because&nbsp; ⟮their intraction with the same-origin policy could be a nightmare⟯, because ⟮copyright infringemenet was easy⟯, and because ⟮of accesibility/usability problems⟯. 
+⟮‹frame›s⟯ were ⟮deprecated⟯ because  ⟮their intraction with the same-origin policy could be a nightmare⟯, because ⟮copyright infringemenet was easy⟯, and because ⟮of accesibility/usability problems⟯. 
 ⟮iframe⟯ is short for ⟮inline frame⟯ 
 
 
@@ -3409,7 +3409,7 @@ While ⟮CSS⟯ will ⟮recover⟯ if ⟮an error is found⟯, ⟮SCSS⟯ will �
 
 `⟮@extend⟯` is the keyword ⟮for inheriting styles of other selectors⟯. 
 In common language ⟮`@extend foo`⟯ is saying ⟮you want something to have the same declarations as foo⟯. 
-Internally, ⟮`@extend`⟯&nbsp;works ⟮on selectors (instead of copying declarations⟯) 
+Internally, ⟮`@extend`⟯ works ⟮on selectors (instead of copying declarations⟯) 
 A SCSS/Sass ⟮placeholder selector⟯ has the syntax ⟮`%foo`⟯. 
 You put SCSS/Sass ⟮placeholder selector⟯ where ⟮selectors⟯ would go. 
 An SCSS/sass ⟮placeholder selector⟯ itself is a ⟮selector⟯ that ⟮doesn't select anything⟯. 
@@ -4535,7 +4535,7 @@ In certain places, e.g. HTML/CSS, hex colors ⟮with reduplicated digits only (e
 To get ⟮the K channel⟯ from ⟮CMY⟯: K = ⟮min(C, M, Y⟯) 
 After ⟮getting the K channel⟯, to ⟮convert CMY to CMYK⟯: ⟮Channel_new⟯ = ⟮Channel - K⟯/⟮1 - K⟯
 
-⟮Hue⟯ is what we might call ⟮＊color＊⟯&nbsp;color. 
+⟮Hue⟯ is what we might call ⟮＊color＊⟯ color. 
 ⟮Hue⟯ is what ⟮most languages⟯ ⟮consider primary⟯ about ⟮color⟯, with ⟮other attributes such as light/dark/muddy/vivid/pastel⟯ ⟮attached later⟯. 
 ⟮Hue⟯ is often ⟮generated from⟯ ⟮RGB⟯, e.g. for ⟮c+;use in HSL ＆ HSV/HSB⟯. 
 If ⟮Hue⟯ is ⟮generated⟯ from ⟮RGB⟯ for ⟮HSL/HSV⟯, it is specified in ⟮a degree from 0 to 360 deg⟯ 
@@ -6005,7 +6005,7 @@ indicator|meaning
 
 ######### creating lengths
 
-To ⟮create a length foo⟯, you first have to ⟮declare it⟯ with ⟮\newlength{\foo⟯} and then ⟮initialize it⟯&nbsp; ⟮with \setlength{\foo}{bar⟯}. 
+To ⟮create a length foo⟯, you first have to ⟮declare it⟯ with ⟮\newlength{\foo⟯} and then ⟮initialize it⟯  ⟮with \setlength{\foo}{bar⟯}. 
 ⟮\setlength⟯ can also be used to ⟮change the value⟯ of ⟮preexisting length keywords⟯. 
 If you ⟮change the value of preexisting length keywords with \setlength⟯, ⟮things that use these lengths itnernally⟯ will also change. 
 ⟮\parindent⟯|⟮represents length of first line in paragraph indentation⟯
@@ -6025,7 +6025,7 @@ the package ⟮s9:10;⟮amssymb⟯ ⟮adds more math symbols⟯⟯; the package 
 
 Fundamentally, ⟮math⟯ in LaTeX is always ⟮contained in its own environment.⟯ 
 There are ⟮two types of math environments⟯ in ⟮LaTeX⟯, ⟮displayed (block in CSS terms⟯) and ⟮inline⟯. 
-There exists ⟮a basic built-in environment⟯ for ⟮c+;both&nbsp;types of math environments⟯, ⟮displayed⟯ and ⟮inline⟯. 
+There exists ⟮a basic built-in environment⟯ for ⟮c+;both types of math environments⟯, ⟮displayed⟯ and ⟮inline⟯. 
 The ⟮basic built-in version⟯ of ⟮both types of math environment⟯ has ⟮a shorthand⟯ ⟮derived from TeX⟯ which  is ⟮now deprecated⟯. 
 The ⟮TeX derived⟯ ⟮shorthands⟯ for ⟮the built-in math environments⟯ involves ⟮using the $ character⟯. 
 The basic built-in version of both types of math environment has a shorthand exclusive to LaTeX whose use is encouraged. 
@@ -6047,7 +6047,7 @@ environment|name|image
 
 
 The ⟮align/align* environment⟯ aligns ⟮parts of the equation⟯ ⟮vertically⟯ in relation to ⟮the anchor⟯, which is the ⟮c+;＆ symbol⟯ 
-⟮split⟯ is ⟮the same as⟯ ⟮the align environment⟯, but ⟮within the equation environment⟯&nbsp;
+⟮split⟯ is ⟮the same as⟯ ⟮the align environment⟯, but ⟮within the equation environment⟯ 
 
 the ⟮autobreak⟯ environment contained in ⟮the eponymous package⟯ ⟮auto inserts linebreaks into formulae⟯ 
 In ⟮the autobreak environment⟯, ⟮any newline⟯ is treated as ⟮a possible point to break⟯ 
@@ -6199,7 +6199,7 @@ The kind of themes that latex presentations can have are ⟮presentation⟯, ⟮
 ⟮Overlay specifications⟯ are written ⟮‹some_number/list/range›⟯ 
 ^\item‹-2,4-5,7›
 ⟮\only⟯⟮‹overlay-spec›{text⟯}: ⟮only render the text⟯ ⟮on the specified slides⟯ 
-⟮\uncover⟯⟮‹overlay-spec›{text⟯}: ⟮only render the text⟯ ⟮on the specified slides,⟯ but ⟮still take up space on the other slides⟯&nbsp;
+⟮\uncover⟯⟮‹overlay-spec›{text⟯}: ⟮only render the text⟯ ⟮on the specified slides,⟯ but ⟮still take up space on the other slides⟯ 
 
 flex-container:✫sm_L5.png✫
 
@@ -6289,7 +6289,7 @@ The ⟮aux⟯ file keeps track of ⟮various things relevant to latex compilatio
 ⟮\pagestyle{foo⟯} sets ⟮the style⟯ of ⟮your headers and footers⟯ to ⟮the format defined by foo⟯ 
 for ⟮anything more fancy⟯ with ⟮headers and footers⟯ than ⟮\pagestyle⟯ can do with ⟮builtin formats⟯, you need the package ⟮fancyhdr⟯ 
 ⟮\pagestyle{fancy⟯} activates a ⟮sensible default⟯ ⟮fancyhdr⟯ config 
-after&nbsp;⟮\pagestyle{fancy}⟯ you need ⟮\fancyhf{} ⟯ to ⟮remove the elements of the default page syle⟯ 
+after ⟮\pagestyle{fancy}⟯ you need ⟮\fancyhf{} ⟯ to ⟮remove the elements of the default page syle⟯ 
 
 For more ⟮advanced header/footer config⟯ using ⟮fancyhdr⟯, use ⟮\(l/c/r)head{⟯} or ⟮\(l/c/r)foot{}⟯
 
@@ -6635,7 +6635,7 @@ section name|section semantics/function
 A ⟮cue⟯ is ⟮the main unit of information⟯ in ⟮WebVTT/.srt.⟯ 
 ⟮A cue⟯ ⟮starts (.srt)/may start (WebVTT⟯) with ⟮a header line⟯. 
 ⟮The header line that starts a cue⟯ must be ⟮a running number indicator⟯ in ⟮.srt⟯, this is ⟮optional⟯ in ⟮WebVTT⟯ 
-⟮The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮cue⟯ contains ⟮the time to show the text⟯, consisting of ⟮two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` → ` (notice the spaces).⟯⟮c+;&nbsp;Every line of a cue after the line specifying the time⟯ specifies ⟮text to be shown.⟯ Together, these are known as ⟮the payload⟯. 
+⟮The line after the header line if it exists or the first line of a WebVTT/.srt⟯ ⟮cue⟯ contains ⟮the time to show the text⟯, consisting of ⟮two timestamps (RFC 3339 (hh):mm:ss.ttt⟯) ⟮c+;separated by ` → ` (notice the spaces).⟯⟮c+; Every line of a cue after the line specifying the time⟯ specifies ⟮text to be shown.⟯ Together, these are known as ⟮the payload⟯. 
 Every line of a cue may optionally be ⟮started by `- `⟯, this will ⟮not be displayed⟯ 
 
 
@@ -9549,7 +9549,7 @@ a ⟮local/private⟯ ⟮HTTP cache⟯ sits ⟮in your web browser⟯ and ⟮is 
 
 The main mechanism ⟮HTTP caching⟯ uses is ⟮the Cache-Control header⟯. 
 In the days of ⟮HTTP 1.0⟯, the ⟮Pragma header⟯ was used for ⟮caching⟯. 
-The ⟮Cache-Control header⟯ is sent ⟮by the server⟯ and&nbsp;specifies ⟮if a resource can be cached⟯, ⟮who can cache it⟯, and ⟮how long it can be cached⟯. 
+The ⟮Cache-Control header⟯ is sent ⟮by the server⟯ and specifies ⟮if a resource can be cached⟯, ⟮who can cache it⟯, and ⟮how long it can be cached⟯. 
 The ⟮Cache-Control header::caching⟯ consists of ⟮a comma-separated list⟯, with either ⟮boolean keywords⟯ or ⟮key=value pairs⟯ ⟮h∞;(cookie e.g. has a ; separated list) ⟯. 
 To specify ⟮how long⟯ ⟮a cache entry⟯ is ⟮fresh (when it becomes stale⟯), one can either specify ⟮max-age=value⟯ as ⟮part of the Cache-Control header⟯ or ⟮the separate Expires header⟯. 
 ⟮Maximum value⟯ for ⟮Cache-Control:⟯ ⟮max-age⟯ is ⟮1 year⟯ 
@@ -9980,7 +9980,7 @@ A CIDR block is a group of IP addresses sharing the same network/routing prefix.
 ⟮CIDR Blocks⟯ ≈ ⟮network/routing prefixes⟯ may be ⟮further subdivided⟯, with ⟮more and more⟯ of the IP address being looked at to ⟮direct the traffic⟯
 A CIDR block A which is completely contained within another CIDR block B is a subnet of B, B is a supernet of A.
 All networks are implicitly subnets of the IP address space.
-a ⟮supernet(work)⟯ has a ⟮shorter⟯ ⟮network prefix⟯, whose ⟮subnets⟯ will have a ⟮longer⟯ ⟮network prefix⟯ that ⟮starts with⟯ the ⟮supernet⟯&nbsp; ⟮network prefix⟯ 
+a ⟮supernet(work)⟯ has a ⟮shorter⟯ ⟮network prefix⟯, whose ⟮subnets⟯ will have a ⟮longer⟯ ⟮network prefix⟯ that ⟮starts with⟯ the ⟮supernet⟯  ⟮network prefix⟯ 
 Note: Not all possible CIDR block sub/supersets are actual sub/supernets!
 The process of forming a supernet is called supernetting or prefix/route aggregation/summarization
 the largest ⟮CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮/8⟯ (⟮16 million⟯ addresses)
@@ -10558,9 +10558,9 @@ A ⟮language code⟯ consists of ⟮2 or 3 letters⟯.
 ###### other
 
 ⟮extlang (extended language⟯) subtags are for ⟮sublanguages of a given language (e.g. hakka chinese, the variants of arabic⟯) 
-⟮script⟯ subtags&nbsp;are for ⟮writing systems⟯, and always ⟮4 characters long⟯ 
+⟮script⟯ subtags are for ⟮writing systems⟯, and always ⟮4 characters long⟯ 
 ⟮region⟯ subtags are for ⟮locations (countries, other geo regions⟯) 
-⟮variant⟯ subtags&nbsp;are for ⟮dialects or other variations (however, use other tags if possible⟯) 
+⟮variant⟯ subtags are for ⟮dialects or other variations (however, use other tags if possible⟯) 
 
 ###### extension
 
@@ -10762,7 +10762,7 @@ However, in ⟮Rust⟯ (and in ruby to, though its weird, as blocks have the sam
 
 ⟮Blocks⟯ ⟮contain/consist of⟯ ⟮one or more⟯ ⟮statements⟯. 
 ⟮In/with⟯ ⟮constructs⟯ or ⟮languages⟯ that are ⟮block-scoped⟯, ⟮a block defines a scope⟯. 
-⟮Curly-brace/bracket languages⟯&nbsp;are defined as languages that ⟮use curly-braces⟯ ⟮to define blocks⟯. 
+⟮Curly-brace/bracket languages⟯ are defined as languages that ⟮use curly-braces⟯ ⟮to define blocks⟯. 
 Many programming languages have been influenced by C, sometimes called C-family languages.
 C was a curly-brace language, and so many C-family language are curly-brace languages.
 
@@ -14625,7 +14625,7 @@ the `⟮page⟯` assoc array is ⟮autopopulated with certain keys⟯ beyond ⟮
 ⟮Layouts⟯ ⟮wrap around⟯ your content. 
 ⟮Layouts⟯ are stored in the ⟮_layouts directory⟯. 
 For a given post or other page, you specify ⟮which layout it's using⟯ by using ⟮the `layout` front matter key⟯. 
-Layouts can ⟮inherit⟯ - you do this by ⟮referring to the parent layout⟯ ⟮within the child layout⟯ using ⟮the `layout` front matter key.⟯&nbsp;
+Layouts can ⟮inherit⟯ - you do this by ⟮referring to the parent layout⟯ ⟮within the child layout⟯ using ⟮the `layout` front matter key.⟯ 
 Within a layout, ⟮`{{content⟯`}} refers to ⟮the content of the post using⟯ the layout, or ⟮the next-deeper child layout.⟯ 
 As a convention, ⟮the root level layout⟯ is called ⟮default.html⟯. 
 the `⟮layout⟯` assoc arr contains ⟮all metadata of the current layout⟯. 
@@ -14641,15 +14641,15 @@ Include syntax: `⟮{%⟯ ⟮include⟯ ⟮include-name.html⟯ ⟮%}⟯`
 the `⟮site⟯` assoc arr contains ⟮all global data⟯. 
 
 Syntax for jekyll ⟮post⟯ ⟮file names⟯: ⟮YYYY-MM-DD⟯⟮-title⟯⟮.extension⟯ 
-Jekyll will ⟮auto-generate⟯ ⟮a `post.title`⟯&nbsp;from ⟮the URL = file name⟯ if not specified 
-Jekyll will ⟮auto generate⟯ ⟮a `post.excerpt`⟯&nbsp;from ⟮the first paragraph⟯ if not specified 
+Jekyll will ⟮auto-generate⟯ ⟮a `post.title`⟯ from ⟮the URL = file name⟯ if not specified 
+Jekyll will ⟮auto generate⟯ ⟮a `post.excerpt`⟯ from ⟮the first paragraph⟯ if not specified 
 ⟮Posts⟯ are specified in ⟮./_posts⟯ 
 `⟮site.posts⟯` contains ⟮an array⟯ of ⟮all the posts in ./_posts⟯ 
 
 
 Jekylls supports keeping data stored in ⟮./_data⟯ for ⟮global use⟯ 
 Jekyll ⟮data files⟯ may be specified in ⟮yaml, json::2 similar ones⟯, ⟮csv or tsv::2 similar ones⟯. 
-Jekyll ⟮data files⟯ can be accessed via ⟮`site.data.filename` (no extension⟯)&nbsp;
+Jekyll ⟮data files⟯ can be accessed via ⟮`site.data.filename` (no extension⟯) 
 Jekyll supports keeping ⟮small mini-posts⟯ in so-called ⟮collections⟯. 
 ⟮Any directory in the root folder⟯ ⟮starting with _⟯, but not ⟮being one of the predefined directory names (such as _data, _posts⟯) is considered ⟮a collection⟯ of ⟮the same name⟯. 
 Jekyll supports ⟮designating a directory for collections⟯ instead o⟮f specifying them in the project root in the config⟯, but this must then ⟮also contain _drafts and _posts, if extant⟯. 
@@ -15867,7 +15867,7 @@ A (source-)code editor is a text editor designed for writing source code.
 
 rename a symbol|⟦f2⟧
 see code actions (available refactorings and quick fixes)|⟦⌘⟧⟦.⟧
-change (programming) language of current document|⟦⌘⟧⟦k⟧&nbsp;&nbsp;⟦m⟧
+change (programming) language of current document|⟦⌘⟧⟦k⟧  ⟦m⟧
 show integrated terminal|⟦⌃⟧ (even on mac) ⟦`⟧
 fast scrolling|⟦⌥⟧ ⟦scroll⟧
 
@@ -16178,8 +16178,8 @@ to use the ⟮Coverage⟯ / ⟮Network⟯ tab, click ⟮the record button⟯, th
 
 ##### tab management
 
-to ⟮close a tab⟯ ⟮within⟯ e.g.&nbsp; the ⟮sources⟯ tab, use ⟮alt+w⟯ 
-next to the ⟮styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮event listeners registered⟯, ⟮DOM Breakpoints⟯,&nbsp; ⟮JS properties⟯, and ⟮accessibility information⟯ 
+to ⟮close a tab⟯ ⟮within⟯ e.g.  the ⟮sources⟯ tab, use ⟮alt+w⟯ 
+next to the ⟮styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮event listeners registered⟯, ⟮DOM Breakpoints⟯,  ⟮JS properties⟯, and ⟮accessibility information⟯ 
 Besides the DevTools tabs ⟮active by default⟯, there are ⟮a bunch more⟯ tabs, which you can ⟮show⟯ via ⟮the command palette⟯, or via ⟮the overflow menu⟯ 
 
 ##### global features
@@ -17163,7 +17163,7 @@ In homebrew, ⟮all formulae⟯ are contained in ⟮taps⟯ (≈ ⟮repositories
 The ⟮default⟯ ⟮taps⟯ are ⟮homebrew-core⟯ and ⟮homebrew-cask⟯ (for ⟮Casks⟯), and you can ⟮add further 3rd party ones⟯ 
 
 In homebrew, according to the docs, a ⟮Keg⟯ is ⟮the path a formula is installed to⟯, including ⟮the specific version⟯. 
-since ⟮Kegs⟯ are ⟮always installed⟯ to ⟮the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮/opt/homebrew/Cellar/‹formulaname›/‹version›⟯&nbsp;⟯ 
+since ⟮Kegs⟯ are ⟮always installed⟯ to ⟮the Cellar⟯ (path e.g. on apple silicon ⟮s6;⟮/opt/homebrew/Cellar⟯⟯), ⟮s8;a Keg has the following syntax (on apple silicon ⟮/opt/homebrew/Cellar/‹formulaname›/‹version›⟯ ⟯ 
 If something is ⟮keg-only⟯, it is ⟮installed into (/usr/local or /opt/homebrew/ or linux)/Cellar⟯ but ⟮not symlinked anywhere else⟯, often because ⟮the OS already ships with a version that this would conflict iwth⟯ 
 
 ⟮homebrew⟯ installs ⟮anything⟯ to ⟮within its prefix⟯. 

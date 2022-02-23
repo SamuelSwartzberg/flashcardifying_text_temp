@@ -148,7 +148,7 @@ People suffering from -isms such as sexism may face additional hurdles in commun
 
 # clean language
 
-⟮Clean language⟯ was created &nbsp;⟮turn of the 1990s⟯ by ⟮David Grove⟯ 
+⟮Clean language⟯ was created  ⟮turn of the 1990s⟯ by ⟮David Grove⟯ 
 ⟮Clean language argues⟯ (convincingly, to me, citing amongst others ⟮Metaphors we live by⟯) and relies on the fact that ⟮metaphors⟯ are the ⟮the fundamental matter of thought, what we're made of⟯. Thus they are also ⟮very important⟯ to us, and ⟮changing them⟯ is powerful at ⟮affecting change⟯. 
 ⟮Clean language⟯ assumes that besides ⟮the more general/culture-wide conceptual metaphors described by Lakoff and Johnson⟯, there are also ⟮personal metaphors⟯. 
 ⟮Clean language⟯ has two roles, the ⟮questioner⟯ and the ⟮speaker⟯. 

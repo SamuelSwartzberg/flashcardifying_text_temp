@@ -1088,7 +1088,7 @@ The ⟮four⟯ ⟮main directions⟯, ⟮90 deg⟯ apart, that a compass rose ha
 The ⟮four⟯ directions e⟮xactly in the middle between the cardinal directions⟯ are the ⟮intercardinal directions⟯. 
 The ⟮intercardinal directions⟯ have the syntax ⟮‹north/south›‹east/west›⟯ 
 The ⟮eight directions between the intercardinal directions⟯ I will term ⟮interintercardinal directions⟯. 
-The ⟮interintercardinal directions⟯ have the syntax ⟮‹cardinal-direction›‹intercardinal-direction›⟯&nbsp;, where the intercardinal direction and the cardinal are ⟮those they are closest to⟯. 
+The ⟮interintercardinal directions⟯ have the syntax ⟮‹cardinal-direction›‹intercardinal-direction›⟯ , where the intercardinal direction and the cardinal are ⟮those they are closest to⟯. 
 The sixteen directions ⟮between the interintercardinal directions⟯ I wil term ⟮interinterintercardinal directions⟯. 
 Generating the ⟮interinterintercardinal directions⟯ follows the following algorithm:
 ```
@@ -1137,7 +1137,7 @@ One of the ⟮first things⟯ to do if ⟮you find out that a disaster will hit�
 Many countries will have predefined ⟮evacuation routes⟯ for evacuation, which you ⟮should follow if possible⟯ 
 In the US at least, for storms such as hurricanes there are ⟮voluntary⟯ and ⟮mandatory⟯ ⟮evacuation orders⟯. 
 In response to an ⟮emergency⟯, ideally ⟮stay up to date⟯ on ⟮current goverment information⟯ 
-If you ⟮evacuate⟯, make sure you take ⟮c+;the necessary supplies&nbsp;⟯ 
+If you ⟮evacuate⟯, make sure you take ⟮c+;the necessary supplies ⟯ 
 If you decide to ⟮evacuate⟯ in response to an emergency, inform ⟮friends and family⟯ ⟮where you're going⟯ 
 If you are subject to a severe storm/etc. and are staying home, ⟮fill up your bathtub with water⟯. It's not for ⟮drinking⟯, it's for ⟮flushing the toilet etc⟯. 
 If you are subject to a severe storm/etc. and are staying home, perhaps the most important thing is to have ⟮water⟯ and ⟮non-perishable food⟯. 
@@ -1145,7 +1145,7 @@ Depending on the type of disaster and the government response, ⟮evacuation⟯ 
 In general, in preparation for a storm, have at least ⟮3 l * 3 days⟯ of ⟮water⟯ per ⟮person⟯, ideally ⟮more⟯, plus ⟮some for washing hands etc.⟯ 
 If you are staying home before a disaster hits, ⟮turn your fridge and freezer⟯ to ⟮the coldest setting⟯. Once ⟮the disaster hits⟯, ⟮keep them closed as much as possible⟯. This is to ⟮preserve the food as long as possible⟯. 
 If you are in the path of a storm, ⟮fill up your gas tanks⟯, should you have a ⟮car⟯, so ⟮you can evacuate if necessary⟯. 
-After&nbsp; a longer power outage, your ⟮food⟯ might be ⟮spoiled⟯. 
+After  a longer power outage, your ⟮food⟯ might be ⟮spoiled⟯. 
 After a major catastrope you may ⟮be full of adrenaline⟯, so you might not ⟮notice huge injuries⟯ without ⟮checking yourself⟯. 
 
 #### storms
@@ -1519,11 +1519,11 @@ more precisely since the 50s if we're talking specifically about the LDP, but th
 
 ##### 万葉集
 
-The ⟮　万葉集（まんようしゅう）⟯&nbsp;is ⟮the oldest⟯ ⟮collection of 和歌 poetry⟯ 
+The ⟮　万葉集（まんようしゅう）⟯ is ⟮the oldest⟯ ⟮collection of 和歌 poetry⟯ 
 The ⟮　万葉集（まんようしゅう）⟯ was ⟮compiled in⟯ ⟮the latter half of the 700s (nara period⟯) 
-The ⟮　万葉集（まんようしゅう）⟯&nbsp;is today considered ⟮a revered piece of literature⟯ 
+The ⟮　万葉集（まんようしゅう）⟯ is today considered ⟮a revered piece of literature⟯ 
 While ⟮the  　万葉集（まんようしゅう） is from the latter 700s⟯, ⟮some of the poems⟯ are from ⟮far earlier (600ish⟯) 
-the ⟮　万葉集（まんようしゅう）⟯&nbsp;contains ⟮4500ish⟯  和歌 poems 
+the ⟮　万葉集（まんようしゅう）⟯ contains ⟮4500ish⟯  和歌 poems 
 
 ##### 紫式部
 
@@ -1714,13 +1714,13 @@ The more commonly known version of Soujourner Truths speech "⟮Ain't I a woman�
 the most common version of the famous speech "⟮Ain't I a woman⟯" has the problem that ⟮Soujourner Truth⟯ would not have ⟮spoken in a southern dialect (having grown up in new york as a native dutch speaker⟯), that the ⟮original transcript did not include the phrase "Ain't I a woman",⟯ and that ⟮the speech was originally not titled at all⟯ 
   
  The most famous passage of the probably false rendition of "⟮Ain't I a woman⟯":  
-⟮That man over there⟯ ⟮says that women need to be⟯ ⟮helped into carriages⟯, ⟮and lifted over ditches⟯, ⟮and to have the best place everywhere⟯. ⟮Nobody ever⟯ ⟮helps me into carriages⟯, ⟮or over mud-puddles⟯, or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?&nbsp; 
+⟮That man over there⟯ ⟮says that women need to be⟯ ⟮helped into carriages⟯, ⟮and lifted over ditches⟯, ⟮and to have the best place everywhere⟯. ⟮Nobody ever⟯ ⟮helps me into carriages⟯, ⟮or over mud-puddles⟯, or gives me any best place! And ain't I a woman? Look at me! Look at my arm! I have ploughed and planted, and gathered into barns, and no man could head me! And ain't I a woman? I could work as much and eat as much as a man - when I could get it - and bear the lash as well! And ain't I a woman?  
 
 ### waste
 
 ⟮before the advent of sewer systems⟯ ⟮human waste⟯ either went in ⟮the river⟯ or in ⟮cesspits or similar contraptions⟯ 
 
-In ⟮Berlin⟯, the instituted system for ⟮the disposal of waste⟯ before ⟮the 1860s⟯ was&nbsp;⟮The Rinnsteine⟯ 
+In ⟮Berlin⟯, the instituted system for ⟮the disposal of waste⟯ before ⟮the 1860s⟯ was ⟮The Rinnsteine⟯ 
 The ⟮Rinnsteine⟯ in Berlin were placed at ⟮both sides⟯ of the streets, were ⟮50cm⟯ deep and ⟮50cm - 1m⟯ wide. 
 The ⟮Rinnsteine⟯ were supposed to move the waste into ⟮the spree⟯, but did not always succeed due to ⟮having a geringes gefälle⟯. 
 
@@ -2054,7 +2054,7 @@ Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
 
 A ⟮nutrient⟯ is a substance that an organism requires ⟮for good functioning / maintaining life⟯ 
 ⟮an essential nutrient⟯ is a nutrient that ⟮c+;cannot be synthesized by the body (=&gt; must be consumed for survival⟯) 
-According to Marion Nestle, the ⟮list of essential nutrients⟯ is &nbsp;⟮almost certainly incomplete⟯ 
+According to Marion Nestle, the ⟮list of essential nutrients⟯ is  ⟮almost certainly incomplete⟯ 
 ⟮Nutrient density⟯ is ⟮the ratio⟯ of ⟮nutrients⟯ to ⟮energy content⟯ 
 An ⟮empty calorie⟯ is one is one gained from food that ⟮supplies energy⟯ but ⟮(basically) no other nutrients⟯ 
 food ⟮fortification⟯ / ⟮enrichment⟯ is the process of ⟮adding micronutrients⟯ to food. 
@@ -2099,7 +2099,7 @@ food ⟮fortification⟯ / ⟮enrichment⟯ is the process of ⟮adding micronut
 
 ⟮Food energy⟯ is ⟮energy⟯ derived from ⟮food⟯ 
 ⟮Food energy⟯ is generally measured in ⟮kilocalories⟯ 
-the ⟮calorie⟯, in its proper definition, is ⟮the amount of energy⟯&nbsp; ⟮needed to raise the temperature of one gram of water by one Kelvin / deg C⟯ 
+the ⟮calorie⟯, in its proper definition, is ⟮the amount of energy⟯  ⟮needed to raise the temperature of one gram of water by one Kelvin / deg C⟯ 
 
 Foods by food energy per mass:
 1. ⟮fats⟯ 
@@ -2618,7 +2618,7 @@ name|can see|occur where
 ⟮h∞;[[[✫sm_220px-Distribution_of_Cones_and_Rods_on_Human_Retina.png✫✫sm_paste-bc785a2d511b7575efe441c3d7bedcfd03c9b3b1.jpg✫✫sm_paste-cfa41a06701fe6c68f1d7d8592c680ace8096dee.jpg✫✫sm_main-qimg-2eeba96357696c0a7a943ecf31157b2d.webp✫]]]⟯
 We distinguish ⟮3 types⟯ of ⟮cones⟯, based on ⟮what wavelength light they respond to⟯ 
 we normally say  we have ⟮cones⟯ for ⟮each of the R, G, B colors⟯, but in fact, we have ⟮one for blue⟯ and ⟮two which are very similar, both detecting green/yellow/red,⟯ only with ⟮one shifted slightly⟯. 
-Since ⟮cone sensitivity⟯ is ⟮a curve⟯, ⟮cones for a given color/wavelength⟯ also ⟮percieve other colors/wavelengths⟯&nbsp; Due to ⟮the two cones that both have peaks close to it⟯, we are very good at percieving ⟮shades of green⟯. 
+Since ⟮cone sensitivity⟯ is ⟮a curve⟯, ⟮cones for a given color/wavelength⟯ also ⟮percieve other colors/wavelengths⟯  Due to ⟮the two cones that both have peaks close to it⟯, we are very good at percieving ⟮shades of green⟯. 
 We can see something like ⟮1-10 million⟯ ⟮different colors⟯, though the exact amount is controversial 
 ⟮Visible spectrum⟯: ⟮380⟯ - ⟮750⟯ ⟮nm⟯ (though it varies somewhat depending on the human) 
 
@@ -2704,7 +2704,7 @@ Based on where they occur, ⟮thromboses⟯ are classified into ⟮venous⟯ and
 ###### thromboses
 
 ⟮Thromboses⟯ most often occur in ⟮the veins⟯ of ⟮the legs⟯, other bodyparts are ⟮affected far more rarely⟯. 
-If you have a ⟮thrombosis⟯, your limb, esp. your leg, will often become some of the following:&nbsp; ⟮swollen::size⟯, ⟮turn red or blue::color⟯, ⟮have more visible veins::appearance of thing⟯, ⟮be shiny due to taut::surface appearance⟯, ⟮may feel more heavy::feeling⟯, ⟮be warmer::feeling⟯, and ⟮hurt quite severely, especially while stepping::pain⟯. 
+If you have a ⟮thrombosis⟯, your limb, esp. your leg, will often become some of the following:  ⟮swollen::size⟯, ⟮turn red or blue::color⟯, ⟮have more visible veins::appearance of thing⟯, ⟮be shiny due to taut::surface appearance⟯, ⟮may feel more heavy::feeling⟯, ⟮be warmer::feeling⟯, and ⟮hurt quite severely, especially while stepping::pain⟯. 
 ⟮Thromboses⟯ are often caused by ⟮not moving that bodypart for a while⟯, e.g. ⟮because of an illness that prevents it⟯ 
 If ⟮a thrombus blocks the blood vessel completely⟯, ⟮the surrounding tissue will start to die⟯.
 
@@ -3667,7 +3667,7 @@ some citation styles allow using ibid. instead of the page information if the pa
 
 ##### placement
 
-onion-box:[citations [in-body&nbsp;citation [note&nbsp;citation][in-text&nsbsp;citation]][works&nbsp;cited/references&nbsp;entry]]
+onion-box:[citations [in-body citation [note citation][in-text&nsbsp;citation]][works cited/references entry]]
 Note citations are citations in endnotes/footnotes.
 In-text citations are citations within the flow of text.
 Typically, short citations are also in-body citations, and full citations are reference entries.
@@ -3805,7 +3805,7 @@ Since the linguistic turn, everyone and their mother have claimed a turn.
 
 ### memory
 
-We currently ⟮don't known much about (or it's very controversial⟯)&nbsp;how ⟮memory⟯ works, e.g. ⟮how much the LTM holds⟯, so it's ⟮fruitless to try and figure it out.⟯ 
+We currently ⟮don't known much about (or it's very controversial⟯) how ⟮memory⟯ works, e.g. ⟮how much the LTM holds⟯, so it's ⟮fruitless to try and figure it out.⟯ 
 
 #### types
 
@@ -3958,7 +3958,7 @@ REM|Rapid Eye Movement
 The body is mostly ⟮paralyzed⟯ during ⟮REM sleep⟯, except for ⟮the eyes⟯. 
 The fact that ⟮eye movement can be controlled during REM sleep⟯ allows ⟮study participants to communicate with researchers⟯ during ⟮lucid dreaming.⟯ 
 
-the time that ⟮⁑intentional⁑ behaviour takes⟯&nbsp;in ⟮dreams⟯ is ⟮about the same⟯ as in ⟮RL⟯ 
+the time that ⟮⁑intentional⁑ behaviour takes⟯ in ⟮dreams⟯ is ⟮about the same⟯ as in ⟮RL⟯ 
 
 
     <tr><th colspan="3">Testing if one is dreaming

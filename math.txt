@@ -847,9 +847,9 @@ A variable may be free or bound.
 a ⟮free variable⟯ is one ⟮on which the value of an expression/statement⟯ ⟮depends/says something about⟯
 a ⟮bound variable⟯ on the other hand is ⟮a convenience to express something⟯, that does not ⟮stand for a particular thing⟯
 often an expression/statement can be ⟮rephrased⟯ to ⟮eliminate bound variables⟯ (though not always).
-in the expression&nbsp;\({\sum _{k=1}^{10}f(k,n),}\) ⟮c+;k is&nbsp; a bound variable⟯ and ⟮n is a free variable⟯
-in the expression&nbsp;\({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) ⟮x is a free variable⟯, ⟮h is a bound variable⟯
-There are a few common ⟮variable-binding⟯ operators, most commonly ⟮c+;sum&nbsp;Σ, product Π, integral&nbsp;∫, limit lim, existential quantifier&nbsp;∃, universal quantifier&nbsp;∀⟯
+in the expression \({\sum _{k=1}^{10}f(k,n),}\) ⟮c+;k is  a bound variable⟯ and ⟮n is a free variable⟯
+in the expression \({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) ⟮x is a free variable⟯, ⟮h is a bound variable⟯
+There are a few common ⟮variable-binding⟯ operators, most commonly ⟮c+;sum Σ, product Π, integral ∫, limit lim, existential quantifier ∃, universal quantifier ∀⟯
 
 ### arguments, parameters, coefficients, constants
 
