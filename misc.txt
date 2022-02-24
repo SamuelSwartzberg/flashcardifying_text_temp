@@ -190,57 +190,82 @@ a »⟮positional good⟯« is a ＿good＿ that is ⟮only valued⟯ by ⟮how 
 
 ##### durability
 
-A ⟮durable⟯ or ⟮hard⟯ good is a good that ⟮does not quickly wear out or, more specifically, one that yields utility over time rather than being completely consumed in one use⟯ (Examples: ⟮c+;s3;a bicycle, washing machine, or ring⟯ ).
-A ⟮non-durable⟯ or ⟮soft⟯ good is either defined as ⟮a good that is either consumed in one use⟯ (Examples: ⟮c+;s7;food, drinks, tissues⟯ ) or ⟮a good that has a lifespan of less than three years⟯ (Examples: ⟮c+;s9;cosmetics, medication, clothing⟯).
+A ⟮durable/hard good⟯ is a ＿good＿ that ⟮yields ＿utility＿ over time rather than being completely consumed in one use⟯ 
+Examples of ⟮＿durable goods＿⟯: ⟮a bicycle, washing machine, or ring⟯
+A »⟮non-durable/soft good⟯« may be defined (more narrowly) as a ＿good＿ that ⟮is consumed in one use⟯ 
+Examples of ⟮＿non-durable goods＿⟯ (narrow): ⟮food, drinks, tissues⟯
+A »⟮non-durable/soft good⟯« may be defined (more broeadly) as a ＿good＿ that ⟮has a lifespan of less than three years⟯ 
+Examples of ⟮＿non-durable goods＿⟯ (broad): ⟮cosmetics, medication, clothing⟯
+⟮＿Durable goods＿⟯ are also called ⟮「hard goods」⟯.
+⟮＿Nondurable goods＿⟯ are also called ⟮「soft goods」⟯.
 
 ##### excludability and rivalrousness
 
+While ⟮＿excludability＿⟯ and ⟮c_;＿rivalrousness＿⟯ are often treated as ⟮discrete values⟯, they in fact ⟮c_;exist on a scale⟯.
+
 ###### excludability
 
-A good that is ⟮excludable⟯ ⟮can have its use limited to certain people⟯. Examples: ⟮c+;s2;cinemas, food⟯
-examples for ⟮non-excludable⟯ goods: ⟮air, public roads⟯.
-As argued by ⟮Ostrom⟯, in fact excludability is a ⟮scale⟯ ⟮from being able to fully limit people from its use to not at all.⟯
+⟮excludability⟯ is the property of some ＿goods or services＿ to ⟮be able to limit its use to certain people⟯. 
+Examples of ⟮＿excludable＿⟯ ＿goods or services＿: ⟮cinemas, food⟯
+Examples of ⟮＿non-excludable＿⟯ ＿goods or services＿: ⟮air, public roads⟯.
 
 ###### rivalrousness
 
-A good is ⟮rival(rous⟯) if ⟮consumption by one party prevents consumption by another⟯
-Examples for ⟮rivalrous goods⟯ include ⟮an item of food, a hammer, a domain name⟯.
-A good is ⟮non-rival(rous⟯) if ⟮consumption by another induces no additional cost⟯
-Examples for ⟮non-rivalrous goods⟯ ⟮a television broadcast, a scenic view, clean air⟯.
-A good is ⟮anti-rival(rous⟯) if ⟮consumption by another provides benefits to other consumers⟯, generally via ⟮network effects⟯.
-Examples of ⟮anti-rivalrous good⟯s include ⟮FOSS software, social media, a specific language⟯
-We may want to define ⟮a scale⟯ ⟮from rival(rous) through non-rival(rous) to anti-rival(rous⟯).
+»⟮Rivalrousness⟯« is the behavior of ＿goods or services＿ in the face of ⟮consumption by another actor⟯.
+⟮rivalrous, non-rivalrous or anti-rivalrous⟯ may also be ⟮shortened to rival, non-rival or anti-rival⟯.
+A ＿good or service＿ is »⟮rivalrous⟯« if consumption by another ⟮prevents consumption by the original party⟯
+Examples for ⟮＿rivalrous＿⟯ goods or services include ⟮an item of food, a hammer, a domain name⟯.
+A ＿good or service＿ is »⟮non-rivalrous⟯« if consumption by another ⟮induces no additional cost⟯
+Examples for ⟮＿non-rivalrous＿⟯ goods or services ⟮a television broadcast, a scenic view, clean air⟯.
+A ＿good or srvice＿ is »⟮anti-rivalrous⟯« if consumption by another ⟮provides benefits to other consumers⟯, generally via ⟮＿network effects＿⟯.
+Examples of ⟮＿anti-rivalrous＿⟯ goods or services include ⟮FOSS software, social media, a specific language⟯
 
-A ⟮network effect⟯ is when ⟮the value of a good/service increases with the amount of users⟯. Examples: ⟮Social networks, the phone or the internet⟯.
-The precise value of a ⟮network effect⟯ is often stated in terms of ⟮Metcalfe's law⟯: ⟮value of network⟯ = ⟮(amount of users)⎴2⎴⟯. This law has since recieved some ⟮empirical validation⟯ for e.g. ⟮facebook, bitcoin⟯
+####### network effects
+
+A »⟮network effect⟯« is when ⟮the value of a good/service⟯ ⟮increases with the amount of users⟯. 
+Examples of ⟮＿network effects＿⟯: ⟮Social networks, the phone or the internet⟯.
+The ⟮precise value⟯ of a ⟮＿network effect＿⟯ is often stated in terms of ⟮＿Metcalfe's law＿⟯
+»⟮Metcalfe's law⟯«: ⟮value of network⟯ = ⟮(amount of users)⎴2⎴⟯. 
+⟮＿Metcalfe's law＿⟯ law has since recieved some ⟮empirical validation⟯ for e.g. ⟮facebook, bitcoin⟯
 
 ###### goods with properties
 
-|⟮excludable⟯|⟮non-excludable⟯
-⟮rivalrous⟯|c1;s1:4;private good⟯|⟮c+;s1:4;common(-pool) good⟯
-⟮non-rivalrous⟯|⟮c+;s1:4;club/toll good⟯|⟮c+;s1:4;public good⟯
+table:|excludable|non-excludable
+rivalrous|c+;s∞;private good⟯|⟮c+;s∞;common(-pool) good⟯
+non-rivalrous|⟮c+;s∞;club/toll good⟯|⟮c+;s∞;public good⟯
 
 ####### common pool resources
 
-A ⟮common-pool resource⟯ is a good that is ⟮non-excludable⟯ and ⟮rivalrous⟯, e.g. ⟮pasture⟯.
-A ⟮common-pool resource⟯ may be subject to ⟮the tragedy of the commons⟯ (however, not necessarily)
-In ⟮the tragedy of the commons⟯, ⟮any individual⟯ has ⟮an incentive to⟯ {{c8::(over)exploit the resource}.
-In ⟮the tragedy of the commons⟯, ⟮the resource is depleted⟯ due the overexploitation.
+A »⟮common-pool resource⟯« is a good or service that is ⟮＿non-excludable＿⟯ and ⟮＿rivalrous＿⟯
+Examples of ⟮＿common-pool resources＿⟯: ⟮pasture⟯.
+A ⟮＿common-pool resource＿⟯ may be subject to ⟮the ＿tragedy of the commons＿⟯ (however, not necessarily)
+
+######## tragedy of the commons
+
+In ⟮»the tragedy of the commons«⟯, ⟮any individual⟯ has ⟮an incentive to⟯ (over)exploit the common-pool resource.
+In the tragedy of the commons, the common-pool resource can't easily be prevented from overexploitation since it's some degree of non-excludable.
+In the tragedy of the commons, exploitation is problematic since the common-pool resource is rivalrous.
+In ⟮the tragedy of the commons⟯, the common-pool resource is ⟮depleted⟯ ⟮due to the overexploitation.
 As proven by ⟮Elinor Ostrom⟯ in the work that won her ⟮the 2009 economics nobel prize⟯, ⟮commons/common-pool resources⟯ can ⟮effectively be managed by their communities⟯ if ⟮certain rules/principles are followed⟯, preventing ⟮the tragedy of the commons⟯
 
 ####### public goods
 
-A good that is ⟮non-excludable⟯ (= ⟮use cannot be prevented⟯) and ⟮non-rival(rous⟯) (= ⟮use does not reduce availability⟯) is a ⟮public good⟯.
-Examples of ⟮public goods⟯ are ⟮National security, lighthouses, knowledge⟯
-⟮public goods⟯ are subject to the ⟮free rider⟯ problems, where ⟮free riders⟯ ⟮(c:6;people who use the good but don't contribute to it⟯) result in ⟮the good being under-produced or overused and degraded⟯.
-Examples of public goods ⟮subject to free rider problems⟯: ⟮Herd immunity, grades of group-graded projects⟯
-A ⟮free rider⟯ is someone who ⟮recieves a benefit⟯ ⟮without contributing adequately to its cost of production⟯.
+»⟮public good⟯« is a good or service that is ⟮＿non-excludable＿⟯ and ⟮＿non-rivalrous＿⟯
+Examples of ⟮＿public goods＿⟯ are ⟮National security, lighthouses, knowledge⟯
+⟮＿public goods＿⟯ are subject to ⟮＿free rider problems＿⟯
+
+######## free rider problem
+
+»⟮Free riders⟯« are people who ⟮use a good or service⟯ but ⟮don't adequately contribute to the cost of its production.⟯
+In »⟮free rider problems⟯«, ⟮＿free riders＿⟯ result in ⟮the good being under-produced or overused and degraded⟯.
+Examples of public goods subject to ⟮＿free rider problems＿⟯: ⟮Herd immunity, grades of group-graded projects⟯
 
 ####### excludable goods
 
-A ⟮club good⟯ is a good that is ⟮excludable⟯ and ⟮non-rivalrous⟯, e.g. ⟮toll roads⟯
-A ⟮private good⟯ is a good that is ⟮excludable⟯ and ⟮rivalrous⟯, e.g. ⟮cheese⟯
-
+A ⟮»club good«⟯ is a good or service that is ⟮＿excludable＿⟯ and ⟮＿non-rivalrous＿⟯
+Example for ⟮＿club goods＿⟯: ⟮toll roads⟯
+A ⟮»private good«⟯ is a good or service that is ⟮＿excludable＿⟯ and ⟮＿rivalrous＿⟯
+Example for ⟮＿private goods＿⟯: ⟮cheese⟯
 
 ### assumptions about behavior 
 
