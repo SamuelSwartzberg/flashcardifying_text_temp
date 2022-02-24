@@ -290,7 +290,7 @@ A ⟮fly at the bottom of an urinal⟯ to ⟮improve aim and reduce cleaning cos
 
 »⟮Bias⟯« is the ⟮inclination toward⟯ or ⟮c_;weighting of⟯ something in a way that is ⟮unfair⟯ and/or ⟮c_;disproportionate/wrong⟯. 
 ⟮»cognitive bias«⟯ is ⟮the disproportionate weighting⟯ / irrelevant inclusion⟯ of factors in a way that ⟮the resulting judgement departs from rationality⟯
-⟮bias⟯ in ⟮statistics⟯ is the tendency of ⟮a statistic, more specifically an ＿estimator＿ (a truth about a sample⟯) to ⟮misestimate⟯ a ⟮＿parameter＿ (a truth about the population)⟯
+⟮bias⟯ in ⟮statistics⟯ is the tendency of ⟮a ＿statistic＿ (a truth about a sample), more specifically an ＿estimator＿ ⟯ to ⟮misestimate⟯ a ⟮＿parameter＿ (a truth about the population)⟯
 ⟮»implicit bias«⟯ are ⟮pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮a social group⟯
 
 ###### cognitive bias
@@ -315,22 +315,22 @@ An example of ⟮＿magical thinking＿⟯ would be ⟮Knocking on wood will pre
 
 ####### decoy effect
 
-An option C is »⟮asymmetrical dominated⟯« when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
+An option C is »⟮asymmetrical dominated⟯« when it is ⟮inferior in all respects⟯ to ⟮one option A⟯ and a⟮ mix of inferior and superior⟯ to ⟮another option B⟯.
 In the »⟮decoy effect⟯«, there are ⟮three options A, B, and C⟯, where C is ⟮＿assymerically dominated＿⟯.
-In the ⟮＿decoy effect＿⟯, the decoy is the one that is asymetrically dominated.
-In the decoy effect, people will choose the dominating option A more than if the decoy C was not present.
+In the ⟮＿decoy effect＿⟯, the »⟮decoy⟯« is the one that ⟮is ＿asymetrically dominated＿⟯.
+In the ⟮＿decoy effect＿⟯, people ⟮will choose⟯ ⟮the dominating option A⟯ ⟮more⟯ than ⟮if the decoy C was not present⟯.
 
 ###### statistical bias
 
 ####### selection bias
 
-Selection bias is the bias where the estimator misestimates the parameter due to errors in sampling.
+»⟮Selection bias⟯« is the bias ⟮where the ＿estimator＿ misestimates the ＿parameter＿⟯ due to ⟮problems in the selection of a sample⟯.
 
 ######## WEIRD
 
-⟮WEIRD⟯ is short for ⟮western⟯, ⟮educated⟯, ⟮industrialized⟯, ⟮rich⟯, and ⟮democratic⟯. 
+⟮＿WEIRD＿⟯ is short for ⟮western⟯, ⟮educated⟯, ⟮industrialized⟯, ⟮rich⟯, and ⟮democratic⟯. 
 ⟮»WEIRD«⟯ is ⟮the set of traits⟯ which describes ⟮more than 90%⟯ of ⟮study participants⟯, especially in ⟮psychology⟯.
-WEIRD is a selection bias.
+⟮＿WEIRD＿⟯ is ⟮a ＿selection bias＿⟯.
 
 ##### unintended consequences
 
@@ -338,8 +338,8 @@ WEIRD is a selection bias.
 
 flex-container:✫https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg✫
 
-Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.”
-Goodhart's law means that when we set one specific goal, people will tend to optimize for that objective regardless of the consequences.
+»⟮Goodhart’s Law⟯« is expressed simply as: “⟮When a measure becomes a target⟯, ⟮it ceases to be a good measure.⟯”
+⟮＿Goodhart's law＿⟯ means that ⟮when we set one specific goal⟯, people will tend to ⟮optimize for that objective⟯ ⟮regardless of the consequences⟯.
 
 ###### inefficiency
 
@@ -350,21 +350,23 @@ Over the times, ⟮corollaries⟯ to ⟮＿parkinson's law＿⟯ such as "Data �
 
 #### rational choice theory
 
-⟮Rational choice theory⟯ is ⟮framework⟯ that arises from the assumption that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function)⟯ ⟮to choose an action⟯. 
+⟮»Rational choice theory«⟯ is the ⟮framework⟯ that arises from the assumption that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function)⟯ ⟮to choose an action⟯. 
 
-##### religious markets
+##### whatever markets
 
-⟮the idea of religious markets⟯ involves seeing religions ⟮through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮rational choice theory.⟯ ⟮hb;Thus, ⟮the market goods⟯ would be ⟮religions⟯, which would ⟮compete⟯ in such an environment.⟯ 
-Analogous to the idea of ⟮religious markets⟯ ( = ⟮c+;s2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮hb;the idea of the ⟮dating market⟯ ( = ⟮c+;s9;seeing competition between dating partners through the metaphor of a market) ⟯⟯ 
+the idea of »⟮x markets⟯« involves ⟮seeing x⟯ ⟮through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮rational choice theory.⟯ 
+e.g. religious market, dating market
 
 ### misc
 
 #### SKUs
 
-⟮SKUs⟯ are ⟮unique identifiers⟯ for ⟮distinct salable items⟯.
-⟮SKUs⟯ have ⟮no specification or standard⟯, they are ⟮arbitrarily specified by the seller.⟯
+A »⟮SKU⟯« is a ⟮＿unique identifier＿⟯ for a ⟮distinct salable item⟯.
+⟮＿SKU＿s⟯ have ⟮no specification or standard⟯, they are ⟮arbitrarily specified by the seller.⟯
 
 ## macroeconomics
+
+»⟮Macroeconomics⟯« is the study of ⟮entire economies⟯ (most often of ⟮nation-states⟯).
 
 ### economies
 
@@ -372,7 +374,8 @@ Analogous to the idea of ⟮religious markets⟯ ( = ⟮c+;s2,9;seing competitio
 
 ##### three-sector model
 
-TThe ⟮three-sector model⟯ divides economic activity into ⟮primary⟯, ⟮secondary⟯, and ⟮tertiary⟯ sectors.
+The »⟮three-sector model«⟯ ⟮divides economic activity⟯ into ⟮three sectors⟯.
+The three sectors of the ⟮＿three sector model＿⟯ are ⟮primary⟯, ⟮c_;secondary⟯, and ⟮c_;tertiary⟯
 
 sector|consists of
 ⟮Primary sector⟯|⟮Resource extraction = extraction of raw materials⟯
@@ -391,10 +394,10 @@ According to ⟮the three-sector model⟯ of economics, economies develop ⟮Agr
 
 ### base and superstructure
 
-base|forces and relations of production
-superstructure|culture, institutions, rituals, states, etc.
-In marxism, society consists of two parts, the base and the superstructure.
-In marxism, the base and superstructure reciprocally influence each other, but the base is predominant.
+In marxism, ⟮society⟯ ⟮consists of⟯ two parts, ⟮the ＿base＿⟯ and ⟮the ＿superstructure＿⟯.
+The »⟮base⟯« consists of ⟮forces and relations of production⟯.
+The »⟮superstructure⟯« consists of ⟮culture, institutions, rituals, states, etc.⟯
+In marxism, the ⟮base and superstructure⟯ ⟮reciprocally influence each other⟯, but ⟮the base is predominant⟯.
 
 ### universal equivalent
 
@@ -413,9 +416,9 @@ form|corresp. value|explanation
 
 #### reproductive labor
 
-reproductive labor is the work that reproduces other labor.
-Reproductive labor is absolutely necessary - without reproductive labor, there would be no labor at all.
-Reproductive labor consists of chores and childrearing.
+»⟮reproductive labor⟯« is the work that ⟮reproduces other labor⟯.
+⟮＿Reproductive labor＿⟯ is ⟮absolutely necessary⟯ - without ⟮c-;reproductive labor⟯, there ⟮would be no labor at all⟯.
+⟮＿Reproductive labor＿⟯ consists of ⟮chores⟯ and ⟮childrearing⟯.
 
 ## applied economics
 
@@ -423,20 +426,27 @@ Reproductive labor consists of chores and childrearing.
 
 #### condominium
 
-A ⟮condominium⟯ (short: ⟮c+;s1;condo⟯) is a ⟮building⟯ (or ⟮c+;s3;unit in such a building⟯) where ⟮c+;s7;each unit⟯ is ⟮c+;s8;owned spearately⟯, and ⟮c+;s5;the grounds/structure⟯ are ⟮c+;s6;owned jointly⟯ 
+A ⟮condominium⟯ is a ⟮building⟯ where ⟮each unit⟯ is ⟮owned spearately⟯, and ⟮c-;the grounds/structure⟯ are ⟮owned jointly⟯ 
+Condominium may also refer to a unit in a condominium.
+Condominium is often shortened to condo
 
 ### agricultural
 
 #### crops
 
-⟮a cash crop⟯ (sometimes ⟮c+;s1;profit crop⟯) is a crop that is ⟮c+;grown for sale → profit⟯
-⟮cash crop⟯ is contrasted with ⟮subsistence crop⟯
+A »⟮crop⟯« is a plant that is ⟮deliberately⟯ grown to be ⟮harvested⟯ for ⟮human use⟯.
+⟮＿Crops＿⟯ may be ⟮＿cash crops＿⟯ or ⟮＿subsistence crops＿⟯
+
+##### cash crops
+
+⟮a »cash crop«⟯ is a ＿crop＿ that is ⟮grown for sale → profit⟯
+⟮＿Cash crop＿⟯ are sometimes also called ⟮「profit crop」⟯.
 
 ## related concerns
 
 ### law
 
-In law, the ⟮disposition⟯ of a case is ⟮its final settlement/decision⟯ 
+In law, the ⟮»disposition«⟯ of a case is ⟮its final settlement/decision⟯ 
 
 
 
