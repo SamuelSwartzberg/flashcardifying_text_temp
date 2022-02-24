@@ -14,7 +14,9 @@
 
 ### !assets
 
-### !stocks
+An »⟮asset⟯« is ⟮a resource⟯ ⟮owned by a business entity⟯.
+
+#### !stocks
 
 ##### !stock exchanges
 
@@ -131,43 +133,60 @@ The »⟮Fortune 500⟯« contains the ⟮500 largest⟯ ⟮US corporations⟯ b
 
 ###### remuneration
 
-A »⟮salary buddy⟯« (newly coined concept bys omeone on twitter) is a person (presumably ⟮in the same profession⟯) with whom ⟮you regular exchange information on your remuneration⟯ to make sure that ⟮you're both getting fairly paid⟯
+A »⟮salary buddy⟯« (newly coined concept by someone on twitter) is a person (presumably ⟮in the same profession⟯) with whom ⟮you regular exchange information on your remuneration⟯ to make sure that ⟮you're both getting fairly paid⟯
 
 ### goods and services
 
+#### goods vs services
+
+»⟮Goods and services⟯« are ⟮consumed⟯ to ⟮provide ＿utility＿⟯.
+A »⟮good⟯« is ⟮a tangible item⟯ that ⟮provides ＿utility＿⟯.
+A »⟮service⟯« is ⟮an action⟯ that ⟮provides ＿utility＿⟯.
+⟮＿Goods and services＿⟯ can also be seen as ⟮a continuum⟯.
+
+#### utility
+
+»⟮Utility⟯« is ⟮the happiness/benefit/value⟯ that ⟮a ＿consumer＿⟯ gets from ⟮a ＿good or service＿⟯.
+A »⟮consumer⟯« is ⟮a person or group⟯ that ⟮purchases or uses⟯ ⟮a ＿good or service＿⟯.
+
 #### price
+
+A »⟮price⟯« is ⟮the quantity of payment⟯ given ⟮by one party⟯ ⟮to another⟯ for ⟮a ＿good or service＿.⟯
 
 ##### asset price bubble
 
-⟮Economic bubbles⟯ are about ⟮asset prices⟯.
-In ⟮an economic bubble⟯, ⟮asset price⟯ ⟮far exeeds⟯ ⟮it's 'real' value⟯.
-An economic bubble ⟮bursts⟯ when ⟮the asset price crashes.⟯
-Both ⟮the growth⟯ and ⟮subsequent decline⟯ in asset prices in an economic bubble is usually ⟮quite fast⟯.
+⟮＿Economic bubbles＿⟯ are about ⟮asset prices⟯.
+In ⟮an »economic bubble«⟯, ⟮an asset price⟯ ⟮far exeeds⟯ ⟮it's 'real' value⟯.
+An ⟮＿economic bubble＿⟯ ⟮bursts⟯ when ⟮the asset price crashes.⟯
+Both ⟮the growth⟯ and ⟮c_;subsequent decline⟯ in ⟮asset prices⟯ in ⟮c_;an ＿economic bubble＿⟯ is usually ⟮quite fast⟯.
 
 #### goods
 
 ##### commodities
 
-Commodity is a term with three competing definitions:
-name|field|definition|examples
-⟮commodity⟯|⟮economics⟯|⟮good with full/high degree of fungibility⟯|⟮c+;s∞;wheat, petroleum, copper, rice, but not handmade bracelets⟯
-⟮commodity⟯|⟮marxism⟯|⟮something with both use and exchange value⟯
-⟮commodity⟯|⟮casual usage⟯|⟮any kind of market good⟯
+⟮＿Commodity＿⟯ is a term with ⟮three competing definitions⟯:
 
-From these definitions, ⟮commodification/commoditization⟯ may refer to ⟮any of the three definitions of commodity (economics, marxism, casual usage⟯)
+
+table:name|field|definitio
+»⟮commodity⟯«|⟮economics⟯|⟮＿good＿ with full/high degree of ＿fungibility＿⟯, e.g. ⟮c+;s∞;wheat, petroleum, copper, rice, but not handmade bracelets⟯
+»⟮commodity⟯«|⟮marxism⟯|⟮something with both ＿use value＿ and ＿exchange value＿⟯
+»⟮commodity⟯«|⟮casual usage⟯|⟮any kind of ＿good＿⟯
+
+
+»⟮commodification/commoditization⟯« may refer to ⟮any of the three definitions of commodity (economics, marxism, casual usage⟯)
 
 ##### fungibility
 
-If a good is ⟮fungible⟯, it is ⟮readily interchanged with others of its kind⟯ without ⟮that making much of a difference⟯.
-⟮Money, natural resources of the same grade, stocks of the same company⟯ all are examples for things with a high degree of ⟮fungibility⟯.
+»⟮Fungibility⟯« is the property of a ＿good＿ meaning it is ⟮readily interchanged with others of its kind⟯ without ⟮that making much of a difference⟯.
+⟮Money, natural resources of the same grade, stocks of the same company⟯ all are examples for things with a high degree of ⟮＿fungibility＿⟯.
 
 ##### distribution
 
 ###### positional goods
 
-a ⟮positional good⟯ is a good that is ⟮only valued⟯ by ⟮how it is distributed in a population⟯.
-⟮Positional good⟯ is a term similar to ⟮status symbol.⟯
-  ⟮Conspicuous comsumption⟯ is consumption to ⟮enhance social status/prestige⟯, that is, consumption ⟮of goods⟯ as ⟮positional goods⟯
+a »⟮positional good⟯« is a ＿good＿ that is ⟮only valued⟯ by ⟮how it is distributed in a population⟯.
+⟮＿Positional good＿⟯ is a term similar to ⟮status symbol.⟯
+»⟮Conspicuous comsumption⟯« is consumption to ⟮enhance social status/prestige⟯, that is, consumption ⟮of ＿goods＿⟯ as ⟮＿positional goods＿⟯
 
 ##### durability
 
