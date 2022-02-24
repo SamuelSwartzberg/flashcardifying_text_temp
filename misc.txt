@@ -1,90 +1,323 @@
 # econ
 
-## finance
+## !finance
 
-### money
+### !money
 
 #### digital concurrency
 
-Double-spending is a potential flaw in a digital cash scheme in which the same single digital token can be spent more than once.
+##### flaws
 
-### stocks
+###### double spending
 
-#### stock exchanges
+»⟮Double-spending⟯« is ⟮a potential flaw⟯ in a ⟮digital cash scheme⟯ in which ⟮the same single digital token⟯ can ⟮be spent more than once⟯. 
 
-⟮Main stock index for Japan⟯  = ⟮Nikkei 225⟯ 
+### !assets
 
-### taxes
+### !stocks
 
-#### income
+##### !stock exchanges
 
-⟮The income tax rate you (would) pay on the next dollar of income⟯ is called ⟮marginal tax rate⟯
+###### !stock indices
+
+table:Country|Main stock index
+⟮Japan⟯|⟮Nikkei 225⟯ 
+
+### !taxes
+
+#### !income
+
+##### marginal
+
+The »⟮marginal tax rate⟯« is ⟮the income tax rate⟯ ⟮you (would) pay on the next dollar of income⟯
 
 ##### ehegattensplitting
 
 ⟮Across many tax systems⟯, ⟮the way income taxes are calculated⟯ within a ⟮marriage⟯ often causes ⟮the partner earning less⟯ to be ⟮taxed with the maximum marginal tax rate immediately⟯, thus ⟮disincentivizing working⟯. 
-Beim ⟮Ehegattensplitting⟯ wird ein Ehepaar steuerlich als ⟮ein*e Steuerpflichtige*r⟯ behandelt 
+Beim ⟮Ehegattensplitting⟯ wird ⟮ein Ehepaar⟯ ⟮steuerlich⟯ als ⟮ein*e Steuerpflichtige*r⟯ behandelt 
 Things like the ⟮Ehegattensplitting⟯ result in a situation where ⟮nonequally divided taxburden⟯ results in ⟮better taxation⟯ than ⟮more equally distributed income⟯ because ⟮the tax rate of the smaller income⟯ has ⟮an influence on half of the income⟯, and not ⟮just the disproportionately smaller size of the smaller income⟯ 
+
+###### !ehegattensplitting formula in germany
 
 - !⟮Einkommen des Paars wird zusammengerechnet⟯
 - !⟮c+;s1;Beitrag wird halbiert⟯
 - !⟮c+;s1:2;Einkommenssteuer fuer diese Haelfte wird berechnet⟯
 - !⟮c+;s1:3;Errechnete einkommenssteuer wird verdoppelt⟯
 
-## markets
+## microeconomics
 
-### market structure
+»⟮Microeconomics⟯« is the study of ⟮the behavior and interactions of individual economic actors⟯ ⟮within single markets⟯.
 
-#### integration
+### production
 
-⟮Horizontal integration⟯ is the process of ⟮Controlling more of a specific part of the supply chain⟯
-⟮Vertical integration⟯ is ⟮Integrating more/all or large parts of the supply chain in a single company⟯
+»⟮Production⟯« is ⟮the combination of various inputs⟯ ⟮into an output⟯.
+»⟮A production function⟯« gives ⟮the relation⟯ between ⟮quantities⟯ ⟮of ＿inputs⟯＿ and ⟮c-;quantities⟯ ⟮of ＿outputs＿.⟯
 
-## production ＆ costs
+#### inputs
 
-factor of production ≈ input
-The factors of production/inputs are what are necessary to produce the output(s) in production.
-The production function describes relation between quantities of inputs and quantities of outputs.
+The ⟮»factors of production«/»inputs«⟯ are ⟮what are necessary⟯ to ⟮produce the ＿output＿(s)⟯ in ＿⟮production⟯＿.
+⟮factor of production⟯ ≈ ⟮input⟯
 
-### rent
+##### rent
 
-Rent in economics is  payment to a owner of a factor of production/input in excess of what it costs the owner to bring the factor of production/input into the production process.
-More specifically, economic rent can be thought of any payment for a factor of production/input that is itself not produced, such as land or assets formed by creating official privilege over natural opportunities (e.g., patents).
-Rent-seeking is the atttempt to grow/maximize economic rent.
-Since charging of rent does not increase productivity, rent-seeking has the effect of increasing one's share of wealth without contributing to productivity.
+»⟮Rent⟯« in economics is ⟮payment⟯ to ⟮a owner of⟯ ⟮a ＿factor of production/input＿⟯ in ⟮excess of⟯ what it costs ⟮c_-3;the owner⟯ to ⟮bring⟯ ⟮c_-4;the ＿factor of production/input＿⟯ ⟮into the ＿production＿ process⟯.
+More specifically, economic »⟮rent⟯« can be thought of ⟮any payment⟯ for ⟮a ＿factor of production/input＿⟯ that ⟮is itself not produced⟯, such as ⟮land or assets formed by creating official privilege over natural opportunities (e.g., patents)⟯.
 
-## costs
+###### rent-seeking
 
-### opportunity
+»⟮Rent-seeking⟯« is the atttempt to ⟮grow/maximize⟯ ⟮economic ＿rent＿⟯.
+Since ⟮charging of rent does not increase productivity⟯, ⟮＿rent-seeking＿⟯ has the effect of ⟮increasing one's share of wealth⟯ without ⟮contributing to productivity⟯.
 
-When doing a certain thing, that thing's ⟮opportunity cost⟯ is ⟮the loss of value/benefit⟯ from ⟮anything one could do instead (and has to forgo⟯)
+### costs and benefits
 
-### sunk
+#### costs
 
-A ⟮sunk cost⟯ is a cost that ⟮has already been incurred and cannot be recovered⟯, in contrast, ⟮s1:2;a ⟮prospective cost⟯ is a cost that ⟮can be avoided if action is taken⟯⟯
+A »⟮cost⟯« is ⟮the value of money⟯ that ⟮has been used for something⟯, and thus ⟮is not available for use anymore⟯.
 
-### other types
+##### opportunity
+
+When doing a certain thing, that thing's ⟮»opportunity cost«⟯ is ⟮the loss of value/benefit⟯ from ⟮anything one could do instead (and has to forgo)⟯
+
+##### related to the current situation
+
+Related to the current situation, there may be ⟮＿sunk costs＿⟯ and ⟮c_;＿prospective costs＿⟯.
+A ⟮»sunk cost«⟯ is a ＿cost＿ that ⟮has already been incurred and cannot be recovered⟯.
+a ⟮»prospective cost«⟯ is a ＿cost＿ that ⟮can be avoided if action is taken⟯
+
+##### related to production
 
 flex-container:✫240px-CVP-TC-FC-VC.svg.png✫✫Marginal_cost1a.png✫
 
 
-⟮Fixed costs⟯ ⟮are the costs that are not dependent on the quantity of goods or services provided⟯.
-In contrast, ⟮variable costs⟯ ⟮increase as the quantity of goods or services produced/provided increase⟯.
-⟮Together, fixed costs and variable costs make up⟯ ⟮total cost⟯, which is ⟮the cost of producing some quantity of output⟯.
-The ⟮marginal cost⟯ of something is ⟮the cost of producing additional quantity⟯
-⟮Marginal cost⟯ is either measured in ⟮one extra unit⟯, or in ⟮a graph for infinitesimal amounts⟯
-The ⟮marginal cost⟯ is calculated by ⟮dividing⟯ ⟮the change in total cost⟯ ⟮by⟯ ⟮the change in total quantity⟯
-The ⟮average cost⟯ of something is ⟮the total cost⟯ ⟮divided by⟯ ⟮the number of goods produced.⟯
+⟮»Fixed costs«⟯ are ＿costs＿ that ⟮are not dependent on the quantity of ＿output⟯＿.
+⟮»variable costs«⟯ ⟮increase in proportion to the ＿output⟯＿.
+Together, ⟮＿fixed costs＿⟯ and ⟮c_;＿variable costs＿⟯ make up ⟮＿total cost＿⟯
+⟮»total cost«⟯ is the ＿cost＿ of ⟮producing some quantity of ＿output＿⟯.
+The ⟮»marginal cost«⟯ of something is the ＿cost＿ of ⟮producing additional ＿output⟯＿
+⟮＿Marginal cost＿⟯ is either measured in ⟮one extra unit⟯, or in ⟮a graph for infinitesimal amounts⟯
+The ⟮＿marginal cost＿⟯ is calculated by ⟮dividing⟯ ⟮Δ ＿total cost＿⟯ ⟮c-;by⟯ ⟮Δ total quantity⟯
+The ⟮»average cost«⟯ of something is ⟮the ＿total cost＿⟯ ⟮divided by⟯ ⟮the number of goods produced.⟯
 
-### externalities
+#### externalities
 
-An ⟮externality⟯ is a ⟮c+;s3;cost⟯ ( = ⟮c+;s2;negative⟯ ⟮c+;s1;externality⟯) or ⟮c+;s3;benefit⟯ ( = ⟮c+;s2;positive⟯ ⟮c+;s1;externality⟯) caused by ⟮a producer⟯ that is ⟮not incurred or received by that producer.⟯
+An »⟮externality⟯« is a ⟮＿cost＿⟯ or ⟮c_;benefit⟯ ⟮caused by a producer⟯ that is ⟮not incurred or received by that producer⟯
+A ⟮»negative externality«⟯ is an ＿externality＿ that is ⟮a ＿cost＿⟯.
+A ⟮»positive externality«⟯ is an ＿externality＿ that is ⟮a benefit⟯.
 
-## economies
+### markets
 
-### economic sectors
+A »⟮market⟯« is ⟮a set of systems/institutions/procedures/relationships⟯ whereby ⟮business entities⟯ engage in ⟮exchange⟯.
 
-#### three-sector model
+#### market structure
+
+»⟮Market structure⟯« is the way ⟮a ＿market＿⟯ can be in ⟮imperfect competition⟯.
+
+##### integration
+
+»⟮Horizontal integration⟯« is the process of ⟮one company⟯ ⟮controlling more of⟯ ⟮a specific part of the supply chain⟯
+»⟮Vertical integration⟯« is the process of ⟮one company⟯ ⟮controlling more⟯ ⟮levels of the supply chain⟯
+
+### business entities
+
+#### corporations
+
+##### Fortune 500
+
+The »⟮Fortune 500⟯« contains the ⟮500 largest⟯ ⟮US corporations⟯ by ⟮total revenue⟯
+
+#### employees
+
+##### employment
+
+###### remuneration
+
+A »⟮salary buddy⟯« (newly coined concept bys omeone on twitter) is a person (presumably ⟮in the same profession⟯) with whom ⟮you regular exchange information on your remuneration⟯ to make sure that ⟮you're both getting fairly paid⟯
+
+### goods and services
+
+#### price
+
+##### asset price bubble
+
+⟮Economic bubbles⟯ are about ⟮asset prices⟯.
+In ⟮an economic bubble⟯, ⟮asset price⟯ ⟮far exeeds⟯ ⟮it's 'real' value⟯.
+An economic bubble ⟮bursts⟯ when ⟮the asset price crashes.⟯
+Both ⟮the growth⟯ and ⟮subsequent decline⟯ in asset prices in an economic bubble is usually ⟮quite fast⟯.
+
+#### goods
+
+##### commodities
+
+Commodity is a term with three competing definitions:
+name|field|definition|examples
+⟮commodity⟯|⟮economics⟯|⟮good with full/high degree of fungibility⟯|⟮c+;s∞;wheat, petroleum, copper, rice, but not handmade bracelets⟯
+⟮commodity⟯|⟮marxism⟯|⟮something with both use and exchange value⟯
+⟮commodity⟯|⟮casual usage⟯|⟮any kind of market good⟯
+
+From these definitions, ⟮commodification/commoditization⟯ may refer to ⟮any of the three definitions of commodity (economics, marxism, casual usage⟯)
+
+##### fungibility
+
+If a good is ⟮fungible⟯, it is ⟮readily interchanged with others of its kind⟯ without ⟮that making much of a difference⟯.
+⟮Money, natural resources of the same grade, stocks of the same company⟯ all are examples for things with a high degree of ⟮fungibility⟯.
+
+##### distribution
+
+###### positional goods
+
+a ⟮positional good⟯ is a good that is ⟮only valued⟯ by ⟮how it is distributed in a population⟯.
+⟮Positional good⟯ is a term similar to ⟮status symbol.⟯
+  ⟮Conspicuous comsumption⟯ is consumption to ⟮enhance social status/prestige⟯, that is, consumption ⟮of goods⟯ as ⟮positional goods⟯
+
+##### durability
+
+A ⟮durable⟯ or ⟮hard⟯ good is a good that ⟮does not quickly wear out or, more specifically, one that yields utility over time rather than being completely consumed in one use⟯ (Examples: ⟮c+;s3;a bicycle, washing machine, or ring⟯ ).
+A ⟮non-durable⟯ or ⟮soft⟯ good is either defined as ⟮a good that is either consumed in one use⟯ (Examples: ⟮c+;s7;food, drinks, tissues⟯ ) or ⟮a good that has a lifespan of less than three years⟯ (Examples: ⟮c+;s9;cosmetics, medication, clothing⟯).
+
+##### excludability and rivalrousness
+
+###### excludability
+
+A good that is ⟮excludable⟯ ⟮can have its use limited to certain people⟯. Examples: ⟮c+;s2;cinemas, food⟯
+examples for ⟮non-excludable⟯ goods: ⟮air, public roads⟯.
+As argued by ⟮Ostrom⟯, in fact excludability is a ⟮scale⟯ ⟮from being able to fully limit people from its use to not at all.⟯
+
+###### rivalrousness
+
+A good is ⟮rival(rous⟯) if ⟮consumption by one party prevents consumption by another⟯
+Examples for ⟮rivalrous goods⟯ include ⟮an item of food, a hammer, a domain name⟯.
+A good is ⟮non-rival(rous⟯) if ⟮consumption by another induces no additional cost⟯
+Examples for ⟮non-rivalrous goods⟯ ⟮a television broadcast, a scenic view, clean air⟯.
+A good is ⟮anti-rival(rous⟯) if ⟮consumption by another provides benefits to other consumers⟯, generally via ⟮network effects⟯.
+Examples of ⟮anti-rivalrous good⟯s include ⟮FOSS software, social media, a specific language⟯
+We may want to define ⟮a scale⟯ ⟮from rival(rous) through non-rival(rous) to anti-rival(rous⟯).
+
+A ⟮network effect⟯ is when ⟮the value of a good/service increases with the amount of users⟯. Examples: ⟮Social networks, the phone or the internet⟯.
+The precise value of a ⟮network effect⟯ is often stated in terms of ⟮Metcalfe's law⟯: ⟮value of network⟯ = ⟮(amount of users)⎴2⎴⟯. This law has since recieved some ⟮empirical validation⟯ for e.g. ⟮facebook, bitcoin⟯
+
+###### goods with properties
+
+|⟮excludable⟯|⟮non-excludable⟯
+⟮rivalrous⟯|c1;s1:4;private good⟯|⟮c+;s1:4;common(-pool) good⟯
+⟮non-rivalrous⟯|⟮c+;s1:4;club/toll good⟯|⟮c+;s1:4;public good⟯
+
+####### common pool resources
+
+A ⟮common-pool resource⟯ is a good that is ⟮non-excludable⟯ and ⟮rivalrous⟯, e.g. ⟮pasture⟯.
+A ⟮common-pool resource⟯ may be subject to ⟮the tragedy of the commons⟯ (however, not necessarily)
+In ⟮the tragedy of the commons⟯, ⟮any individual⟯ has ⟮an incentive to⟯ {{c8::(over)exploit the resource}.
+In ⟮the tragedy of the commons⟯, ⟮the resource is depleted⟯ due the overexploitation.
+As proven by ⟮Elinor Ostrom⟯ in the work that won her ⟮the 2009 economics nobel prize⟯, ⟮commons/common-pool resources⟯ can ⟮effectively be managed by their communities⟯ if ⟮certain rules/principles are followed⟯, preventing ⟮the tragedy of the commons⟯
+
+####### public goods
+
+A good that is ⟮non-excludable⟯ (= ⟮use cannot be prevented⟯) and ⟮non-rival(rous⟯) (= ⟮use does not reduce availability⟯) is a ⟮public good⟯.
+Examples of ⟮public goods⟯ are ⟮National security, lighthouses, knowledge⟯
+⟮public goods⟯ are subject to the ⟮free rider⟯ problems, where ⟮free riders⟯ ⟮(c:6;people who use the good but don't contribute to it⟯) result in ⟮the good being under-produced or overused and degraded⟯.
+Examples of public goods ⟮subject to free rider problems⟯: ⟮Herd immunity, grades of group-graded projects⟯
+A ⟮free rider⟯ is someone who ⟮recieves a benefit⟯ ⟮without contributing adequately to its cost of production⟯.
+
+####### excludable goods
+
+A ⟮club good⟯ is a good that is ⟮excludable⟯ and ⟮non-rivalrous⟯, e.g. ⟮toll roads⟯
+A ⟮private good⟯ is a good that is ⟮excludable⟯ and ⟮rivalrous⟯, e.g. ⟮cheese⟯
+
+
+### assumptions about behavior 
+
+#### behavioral economics
+
+Behavioral economics studies the effects of psychological, cognitive, emotional, cultural and social factors on the decisions of individuals and institutions and how those decisions vary from those implied by classical economic theory.
+
+##### econs
+
+⟮Econ⟯ is a term from ⟮behavioral economics⟯ which describes ⟮the beings⟯ that ⟮classical economics⟯ ends up describing
+An ⟮econ⟯ would always ⟮make the best decision given a set of alternatives⟯
+⟮Econs⟯, in contrast to humans, never fall prey to ⟮biases⟯
+⟮Econs⟯ are contrasted with (actual) ⟮humans⟯
+
+##### nudge theory
+
+Nudge theory proposes using nudges to influence the decision-making of groups or individuals to increase compliance with a goal.
+A nudge is a minor, non-disruptive intervention (especially one that does not forbid or impose harsh sanctions) that produces predictable changes in people's behavior.
+A fly at the bottom of an urinal to improve aim and reduce cleaning costs is a prime example of a nudge.
+
+##### bias
+
+⟮Bias⟯ is the ⟮inclination toward⟯ or ⟮weighting of⟯ something, most often in a way that is ⟮unfair⟯ and/or ⟮disproportionate/wrong⟯. Thus, ⟮s1:3;⟮s7:12;⟮cognitive bias⟯ is ⟮the disproportionate weighting⟯ / ⟮irrelevant inclusion⟯ of factors in a way that ⟮the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮statistics⟯ is the tendency of ⟮a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮misestimate⟯ a ⟮parameter (a truth about the population) ⟯⟯;⟮s4:9; ⟮implicit bias⟯ are ⟮pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮a social group⟯⟯⟯ 
+⟮Status quo bias⟯ is a form of ⟮cognitive bias⟯, the bias towards ⟮The current state of affairs⟯ 
+
+###### cognitive bias
+
+####### halo effect
+
+The halo effect is the cognitive bias where positive impressions of something in one area  positively influences one's opinion about that thing in a different (generally unrelated) area
+
+####### magical thinking
+
+⟮magical thinking⟯ is the way of thinking that posits ⟮that two events are causally connected⟯, ⟮even though there is no plausible causal link⟯.
+An example of ⟮magical thinking⟯ would be ⟮Knocking on wood will prevent misfortune.⟯ 
+⟮Magical thinking⟯ is often ⟮a symptom of OCD⟯ (however, ⟮the cause of most⟯ ⟮magical thinking⟯ in the world is ⟮not⟯ ⟮OCD⟯)
+
+####### mean world syndrome
+
+Mean world syndrome is a hypothesized cognitive bias wherein people (especially those not particularly in danger of violence) may perceive the world to be more dangerous than it actually is, due to long-term moderate to heavy exposure to violence-related content on mass media.
+
+####### decoy effect
+
+An option C is asymmetrical dominated when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
+In the decoy effect, there are three options A, B, and C, where C is assymerically dominated.
+In the decoy effect, the decoy is the one that is asymetrically dominated.
+In the decoy effect, people will choose the dominating option A more than if the decoy C was not present.
+
+###### statistical bias
+
+####### selection bias
+
+######## WEIRD
+
+⟮WEIRD⟯ is short for ⟮western⟯, ⟮educated⟯, ⟮industrialized⟯, ⟮rich⟯, and ⟮democratic⟯. 
+⟮WEIRD⟯ is the set of traits which describes ⟮more than 90%⟯ of ⟮study participants⟯, especially in ⟮psychology⟯, being such, and thus results being ⟮biased⟯/⟮not generalizable⟯ 
+
+##### unintended consequences
+
+###### godharts law
+
+https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg
+
+Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.”
+Goodhart's law means that when we set one specific goal, people will tend to optimize for that objective regardless of the consequences.
+
+###### inefficiency
+
+####### parkinson's law
+
+⟮Parkinson's law⟯ is the idea that "⟮work expands so as to fill the time available for its completion.⟯" 
+Over the times, corollaries, such as "Data ⟮expands to fill the space available⟯" have also been proposed. 
+
+#### rational choice theory
+
+⟮Rational choice theory⟯ is ⟮the area of study / framework⟯ that arises from the idea that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function⟯) ⟮to choose an action⟯. 
+
+##### religious markets
+
+⟮the idea of religious markets⟯ involves seeing religions ⟮through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮rational choice theory.⟯ ⟮hb;Thus, ⟮the market goods⟯ would be ⟮religions⟯, which would ⟮compete⟯ in such an environment.⟯ 
+Analogous to the idea of ⟮religious markets⟯ ( = ⟮c+;s2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮hb;the idea of the ⟮dating market⟯ ( = ⟮c+;s9;seeing competition between dating partners through the metaphor of a market) ⟯⟯ 
+
+### misc
+
+#### SKUs
+
+⟮SKUs⟯ are ⟮unique identifiers⟯ for ⟮distinct salable items⟯.
+⟮SKUs⟯ have ⟮no specification or standard⟯, they are ⟮arbitrarily specified by the seller.⟯
+
+## macroeconomics
+
+### economies
+
+#### economic sectors
+
+##### three-sector model
 
 TThe ⟮three-sector model⟯ divides economic activity into ⟮primary⟯, ⟮secondary⟯, and ⟮tertiary⟯ sectors.
 
@@ -100,280 +333,6 @@ sector|consists of
 
 According to ⟮the three-sector model⟯ of economics, economies develop ⟮Agrarian⟯ → ⟮Industrial⟯ → ⟮Postindustrial⟯
 
-## supply chains
-
-### inventory
-
-#### SKUs
-
-⟮SKUs⟯ are ⟮unique identifiers⟯ for ⟮distinct salable items⟯.
-⟮SKUs⟯ have ⟮no specification or standard⟯, they are ⟮arbitrarily specified by the seller.⟯
-
-## employment
-
-### remuneration
-
-A ⟮salary buddy⟯ (newly coined concept bys omeone on twitter) is a person (presumably ⟮in the same profession⟯) with whom ⟮you regular exchange information on your remuneration⟯ to make sure that ⟮you're both getting fairly paid⟯
-
-## business entities
-
-### corporations
-
-#### Fortune 500
-
-The Fortune 500 contains the 500 largest US corporations by total revenue
-
-## goods and services
-
-### price
-
-#### asset price bubble
-
-⟮Economic bubbles⟯ are about ⟮asset prices⟯.
-In ⟮an economic bubble⟯, ⟮asset price⟯ ⟮far exeeds⟯ ⟮it's 'real' value⟯.
-An economic bubble ⟮bursts⟯ when ⟮the asset price crashes.⟯
-Both ⟮the growth⟯ and ⟮subsequent decline⟯ in asset prices in an economic bubble is usually ⟮quite fast⟯.
-
-### goods
-
-#### commodities
-
-Commodity is a term with three competing definitions:
-name|field|definition|examples
-⟮commodity⟯|⟮economics⟯|⟮good with full/high degree of fungibility⟯|⟮c+;s∞;wheat, petroleum, copper, rice, but not handmade bracelets⟯
-⟮commodity⟯|⟮marxism⟯|⟮something with both use and exchange value⟯
-⟮commodity⟯|⟮casual usage⟯|⟮any kind of market good⟯
-
-From these definitions, ⟮commodification/commoditization⟯ may refer to ⟮any of the three definitions of commodity (economics, marxism, casual usage⟯)
-
-#### fungibility
-
-If a good is ⟮fungible⟯, it is ⟮readily interchanged with others of its kind⟯ without ⟮that making much of a difference⟯.
-⟮Money, natural resources of the same grade, stocks of the same company⟯ all are examples for things with a high degree of ⟮fungibility⟯.
-
-#### distribution
-
-##### positional goods
-
-a ⟮positional good⟯ is a good that is ⟮only valued⟯ by ⟮how it is distributed in a population⟯.
-⟮Positional good⟯ is a term similar to ⟮status symbol.⟯
-  ⟮Conspicuous comsumption⟯ is consumption to ⟮enhance social status/prestige⟯, that is, consumption ⟮of goods⟯ as ⟮positional goods⟯
-
-#### durability
-
-A ⟮durable⟯ or ⟮hard⟯ good is a good that ⟮does not quickly wear out or, more specifically, one that yields utility over time rather than being completely consumed in one use⟯ (Examples: ⟮c+;s3;a bicycle, washing machine, or ring⟯ ).
-A ⟮non-durable⟯ or ⟮soft⟯ good is either defined as ⟮a good that is either consumed in one use⟯ (Examples: ⟮c+;s7;food, drinks, tissues⟯ ) or ⟮a good that has a lifespan of less than three years⟯ (Examples: ⟮c+;s9;cosmetics, medication, clothing⟯).
-
-#### excludability and rivalrousness
-
-##### excludability
-
-A good that is ⟮excludable⟯ ⟮can have its use limited to certain people⟯. Examples: ⟮c+;s2;cinemas, food⟯
-examples for ⟮non-excludable⟯ goods: ⟮air, public roads⟯.
-As argued by ⟮Ostrom⟯, in fact excludability is a ⟮scale⟯ ⟮from being able to fully limit people from its use to not at all.⟯
-
-##### rivalrousness
-
-A good is ⟮rival(rous⟯) if ⟮consumption by one party prevents consumption by another⟯
-Examples for ⟮rivalrous goods⟯ include ⟮an item of food, a hammer, a domain name⟯.
-A good is ⟮non-rival(rous⟯) if ⟮consumption by another induces no additional cost⟯
-Examples for ⟮non-rivalrous goods⟯ ⟮a television broadcast, a scenic view, clean air⟯.
-A good is ⟮anti-rival(rous⟯) if ⟮consumption by another provides benefits to other consumers⟯, generally via ⟮network effects⟯.
-Examples of ⟮anti-rivalrous good⟯s include ⟮FOSS software, social media, a specific language⟯
-We may want to define ⟮a scale⟯ ⟮from rival(rous) through non-rival(rous) to anti-rival(rous⟯).
-
-A ⟮network effect⟯ is when ⟮the value of a good/service increases with the amount of users⟯. Examples: ⟮Social networks, the phone or the internet⟯.
-The precise value of a ⟮network effect⟯ is often stated in terms of ⟮Metcalfe's law⟯: ⟮value of network⟯ = ⟮(amount of users)⎴2⎴⟯. This law has since recieved some ⟮empirical validation⟯ for e.g. ⟮facebook, bitcoin⟯
-
-##### goods with properties
-
-|⟮excludable⟯|⟮non-excludable⟯
-⟮rivalrous⟯|c1;s1:4;private good⟯|⟮c+;s1:4;common(-pool) good⟯
-⟮non-rivalrous⟯|⟮c+;s1:4;club/toll good⟯|⟮c+;s1:4;public good⟯
-
-###### common pool resources
-
-A ⟮common-pool resource⟯ is a good that is ⟮non-excludable⟯ and ⟮rivalrous⟯, e.g. ⟮pasture⟯.
-A ⟮common-pool resource⟯ may be subject to ⟮the tragedy of the commons⟯ (however, not necessarily)
-In ⟮the tragedy of the commons⟯, ⟮any individual⟯ has ⟮an incentive to⟯ {{c8::(over)exploit the resource}.
-In ⟮the tragedy of the commons⟯, ⟮the resource is depleted⟯ due the overexploitation.
-As proven by ⟮Elinor Ostrom⟯ in the work that won her ⟮the 2009 economics nobel prize⟯, ⟮commons/common-pool resources⟯ can ⟮effectively be managed by their communities⟯ if ⟮certain rules/principles are followed⟯, preventing ⟮the tragedy of the commons⟯
-
-###### public goods
-
-A good that is ⟮non-excludable⟯ (= ⟮use cannot be prevented⟯) and ⟮non-rival(rous⟯) (= ⟮use does not reduce availability⟯) is a ⟮public good⟯.
-Examples of ⟮public goods⟯ are ⟮National security, lighthouses, knowledge⟯
-⟮public goods⟯ are subject to the ⟮free rider⟯ problems, where ⟮free riders⟯ ⟮(c:6;people who use the good but don't contribute to it⟯) result in ⟮the good being under-produced or overused and degraded⟯.
-Examples of public goods ⟮subject to free rider problems⟯: ⟮Herd immunity, grades of group-graded projects⟯
-A ⟮free rider⟯ is someone who ⟮recieves a benefit⟯ ⟮without contributing adequately to its cost of production⟯.
-
-###### excludable goods
-
-A ⟮club good⟯ is a good that is ⟮excludable⟯ and ⟮non-rivalrous⟯, e.g. ⟮toll roads⟯
-A ⟮private good⟯ is a good that is ⟮excludable⟯ and ⟮rivalrous⟯, e.g. ⟮cheese⟯
-
-
-## behavioral economics
-
-Behavioral economics studies the effects of psychological, cognitive, emotional, cultural and social factors on the decisions of individuals and institutions and how those decisions vary from those implied by classical economic theory.
-
-### econs
-
-⟮Econ⟯ is a term from ⟮behavioral economics⟯ which describes ⟮the beings⟯ that ⟮classical economics⟯ ends up describing
-An ⟮econ⟯ would always ⟮make the best decision given a set of alternatives⟯
-⟮Econs⟯, in contrast to humans, never fall prey to ⟮biases⟯
-⟮Econs⟯ are contrasted with (actual) ⟮humans⟯
-
-### nudge theory
-
-Nudge theory proposes using nudges to influence the decision-making of groups or individuals to increase compliance with a goal.
-A nudge is a minor, non-disruptive intervention (especially one that does not forbid or impose harsh sanctions) that produces predictable changes in people's behavior.
-A fly at the bottom of an urinal to improve aim and reduce cleaning costs is a prime example of a nudge.
-
-### bias
-
-⟮Bias⟯ is the ⟮inclination toward⟯ or ⟮weighting of⟯ something, most often in a way that is ⟮unfair⟯ and/or ⟮disproportionate/wrong⟯. Thus, ⟮s1:3;⟮s7:12;⟮cognitive bias⟯ is ⟮the disproportionate weighting⟯ / ⟮irrelevant inclusion⟯ of factors in a way that ⟮the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮statistics⟯ is the tendency of ⟮a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮misestimate⟯ a ⟮parameter (a truth about the population) ⟯⟯;⟮s4:9; ⟮implicit bias⟯ are ⟮pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮a social group⟯⟯⟯ 
-⟮Status quo bias⟯ is a form of ⟮cognitive bias⟯, the bias towards ⟮The current state of affairs⟯ 
-
-#### cognitive bias
-
-##### halo effect
-
-The halo effect is the cognitive bias where positive impressions of something in one area  positively influences one's opinion about that thing in a different (generally unrelated) area
-
-##### magical thinking
-
-⟮magical thinking⟯ is the way of thinking that posits ⟮that two events are causally connected⟯, ⟮even though there is no plausible causal link⟯.
-An example of ⟮magical thinking⟯ would be ⟮Knocking on wood will prevent misfortune.⟯ 
-⟮Magical thinking⟯ is often ⟮a symptom of OCD⟯ (however, ⟮the cause of most⟯ ⟮magical thinking⟯ in the world is ⟮not⟯ ⟮OCD⟯)
-
-##### mean world syndrome
-
-Mean world syndrome is a hypothesized cognitive bias wherein people (especially those not particularly in danger of violence) may perceive the world to be more dangerous than it actually is, due to long-term moderate to heavy exposure to violence-related content on mass media.
-
-##### decoy effect
-
-An option C is asymmetrical dominated when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
-In the decoy effect, there are three options A, B, and C, where C is assymerically dominated.
-In the decoy effect, the decoy is the one that is asymetrically dominated.
-In the decoy effect, people will choose the dominating option A more than if the decoy C was not present.
-
-#### statistical bias
-
-##### selection bias
-
-###### WEIRD
-
-⟮WEIRD⟯ is short for ⟮western⟯, ⟮educated⟯, ⟮industrialized⟯, ⟮rich⟯, and ⟮democratic⟯. 
-⟮WEIRD⟯ is the set of traits which describes ⟮more than 90%⟯ of ⟮study participants⟯, especially in ⟮psychology⟯, being such, and thus results being ⟮biased⟯/⟮not generalizable⟯ 
-
-## rational choice theory
-
-⟮Rational choice theory⟯ is ⟮the area of study / framework⟯ that arises from the idea that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function⟯) ⟮to choose an action⟯. 
-
-### religious markets
-
-⟮the idea of religious markets⟯ involves seeing religions ⟮through the lens/metaphor of a capitalist market⟯, most commonly one based on ⟮rational choice theory.⟯ ⟮hb;Thus, ⟮the market goods⟯ would be ⟮religions⟯, which would ⟮compete⟯ in such an environment.⟯ 
-Analogous to the idea of ⟮religious markets⟯ ( = ⟮c+;s2,9;seing competition of religions through the metaphor of a market⟯ ) there is ⟮hb;the idea of the ⟮dating market⟯ ( = ⟮c+;s9;seeing competition between dating partners through the metaphor of a market) ⟯⟯ 
-
-## unintended consequences
-
-### godharts law
-
-https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg
-
-Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.”
-Goodhart's law means that when we set one specific goal, people will tend to optimize for that objective regardless of the consequences.
-
-## demographics
-
-⟮Demography⟯ is the statistical study of ⟮populations and poplulation change⟯ 
-
-### generations
-
-Generation|Start|End|Nicknames
-⟮Baby boomers⟯|⟮~1945⟯|⟮~1965⟯
-⟮Generation X⟯|⟮~1965⟯|⟮~1980⟯
-⟮Millenials⟯|⟮~1980⟯|⟮~1995⟯|⟮c+;s∞;Generation Y⟯
-⟮Generation Z⟯|⟮~1995⟯|⟮~2010⟯|⟮c+;s∞;Zoomers⟯
-⟮Generation α⟯|⟮~2010⟯|⟮s8;???⟯
-
-### population pyramid
-
-flex-container:✫sm_world_population_2017.jpg✫
-A population pyramid indicates age brackets on the y axis
-a population pyramid indicates amount of pepople on the x axis
-A population pyramid's indication of population is generally split ⟮into sex⟯
-
-### birth rate/fertility
-
-The ⟮different fertility rates are⟯ sometimes presented ⟮as-is⟯ (as ⟮a percentage⟯), or ⟮multiplied by 1000⟯, to ⟮present a number/index⟯ 
-
-What we often call ⟮birth rate⟯ is more properly called the ⟮crude birth rate⟯, because ⟮it isn't directly based on anything related to childbirth⟯ 
-The ⟮crude birth rate⟯ is ⟮the number of live births⟯ ⟮per person⟯ 
-To get ⟮the crude birth rate⟯ in practice, we ⟮divide the number of live births through the population size⟯ 
-
-The ⟮general fertility rate⟯ is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age⟯) 
-
-The ⟮age-specific fertility rate⟯ is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
-The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮5⟯ ⟮years⟯. 
-In plain language, the ⟮ASFR⟯ e.g. for age 21 is ⟮the amount of children an average 21 y/o has in a year⟯ 
-
-The ⟮TFR⟯ measures ⟮babies per woman (in her lifetime⟯) (*) 
-Mathematically, the ⟮total fertility rate⟯ is ⟮the sum of all⟯ ⟮current age-specific fertility rates⟯ 
-In plain language, the ⟮TFR⟯ is ⟮the sum of⟯ ⟮the amount of chilren⟯ ⟮a women will have⟯ ⟮in any given year of her life⟯ 
-The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions⟯) 
-The ⟮total fertility rate⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
-If a ⟮woman dies before her reproductive period ends (lets say at 30),⟯ she ⟮will not impact ASFRs beyond 30⟯. This is not a problem until ⟮we add them together to the TFR⟯ - since we are using the ASFRs to ⟮estimate how many children a woman will have in her life⟯, ⟮the ASFRs⟯ ⟮should be impacted b⟯⟮y the woman who died before the end of the reproductive period (the dead women should count as 0⟯). Therefore, ⟮maternal mortality distorts the TFR⟯. 
-
-
-The ⟮replacement rate / replacement-level fertility⟯ is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
-A ⟮TFR⟯ ⟮below replacement rate⟯ is known as ⟮Sub-replacement fertility⟯ 
-Beyond ⟮the distorting factors for the TFR⟯, ⟮the replacement rate⟯ is additionally distorted by ⟮child mortality⟯. 
-⟮The replacement rate⟯ for countries ⟮with low child and maternal mortality⟯ is ⟮about 2.1⟯. 
-
-Country|TFR
-⟮Japan⟯|⟮~1.4⟯
-⟮Korea⟯|⟮~0.9⟯
-
-
-#### japan
-
-flex-container:✫821361.png✫
-
-In japan, ⟮extramarital birth⟯ is ⟮extremely rare⟯ 
-In japan, marriages as of 2020 occurr ⟮Less and later⟯ 
-Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
-⟮1990⟯|⟮c+;s3;26⟯|⟮c+;s2;27⟯
-⟮2008⟯|⟮c+;s6;30⟯|⟮c+;s5;30⟯
-
-
-### dependency
-
-#### definition of dependent
-
-In demographics/economics, a ⟮dependent⟯ is someone ⟮who relies on someone else for financial support.⟯
-For statistical purposes, it is generally assumed that ⟮those aged 15-64⟯ are ⟮non-dependents⟯, and ⟮those aged 0-14 and 65-⟯ are ⟮dependents⟯.
-The relationship of ⟮dependents per non-dependent⟯ is expressed ⟮in the dependency ratio⟯.
-
-#### dependency ratio
-
-The ⟮dependency ratio (amount of people who work divided by people who can't⟯) is used as a proxy for ⟮pressure on the productive population⟯,
-A ⟮lower⟯ ⟮dependency ratio⟯ is generally better because it often results in ⟮economic growth⟯.
-When ⟮a change to a lower dependency ratio leads to economic growth⟯, which is most often caused when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯, this is termed a ⟮demographic dividend⟯.
-the idea of a ⟮demographic dividend⟯ is used to explain e.g. ⟮China's rapid economic growth⟯ - in ⟮2010⟯ they had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
-Of course, ⟮this large group of young people⟯ responsible for a ⟮demographic dividend⟯ will ⟮eventually grow old⟯, with ⟮less young people to support them⟯, leading to ⟮an increased dependency ratio⟯. this has been termed the ⟮demographic tax⟯ or ⟮demographic burden⟯.
-A ⟮demographic burden/tax results⟯ in ⟮lower economic growth⟯ - a fact ⟮Japan⟯ ⟮is currently experiencing⟯ and ⟮China⟯ ⟮probably will fall victim to as well⟯.
-
-### sex/gender
-
-#### missing women
-
-The term "⟮missing women⟯" (coined by ⟮Amartya Sen⟯) indicates a shortfall in ⟮the number of women⟯ relative to ⟮the expected number of women⟯ in ⟮a region or country⟯. 
-⟮missing women⟯ are often measured/discovered through ⟮male-to-female sex ratios⟯, specifically via ⟮the deviance from⟯ the ⟮natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1⟯) 
-⟮Sen⟯ argued that there were about ⟮100 million⟯ ⟮"missing women"⟯ in ⟮Asia⟯. 
-The phenomenon of ⟮missing women⟯ and is theorized to be caused by ⟮sex-selective abortions⟯, ⟮female infanticide⟯, and ⟮inadequate healthcare and nutrition for female children⟯. 
-The fact of the existence of missing women is caused by ⟮sexism⟯, and may be seen as a pretty direct expression of ⟮their -value status.⟯ 
 
 ## marxist
 
@@ -405,7 +364,7 @@ reproductive labor is the work that reproduces other labor.
 Reproductive labor is absolutely necessary - without reproductive labor, there would be no labor at all.
 Reproductive labor consists of chores and childrearing.
 
-## areas
+## applied economics
 
 ### real estate
 
@@ -420,16 +379,13 @@ A ⟮condominium⟯ (short: ⟮c+;s1;condo⟯) is a ⟮building⟯ (or ⟮c+;s3;
 ⟮a cash crop⟯ (sometimes ⟮c+;s1;profit crop⟯) is a crop that is ⟮c+;grown for sale → profit⟯
 ⟮cash crop⟯ is contrasted with ⟮subsistence crop⟯
 
-## law
+## related concerns
+
+### law
 
 In law, the ⟮disposition⟯ of a case is ⟮its final settlement/decision⟯ 
 
-## (in)efficiency
 
-### parkinson's law
-
-⟮Parkinson's law⟯ is the idea that "⟮work expands so as to fill the time available for its completion.⟯" 
-Over the times, corollaries, such as "Data ⟮expands to fill the space available⟯" have also been proposed. 
 
 # political science
 
@@ -1897,6 +1853,97 @@ read-write culture|media is changed, derivative works are made
 ##### fora
 
 OP|Original Poster
+
+
+## demographics
+
+⟮Demography⟯ is the statistical study of ⟮populations and poplulation change⟯ 
+
+### generations
+
+Generation|Start|End|Nicknames
+⟮Baby boomers⟯|⟮~1945⟯|⟮~1965⟯
+⟮Generation X⟯|⟮~1965⟯|⟮~1980⟯
+⟮Millenials⟯|⟮~1980⟯|⟮~1995⟯|⟮c+;s∞;Generation Y⟯
+⟮Generation Z⟯|⟮~1995⟯|⟮~2010⟯|⟮c+;s∞;Zoomers⟯
+⟮Generation α⟯|⟮~2010⟯|⟮s8;???⟯
+
+### population pyramid
+
+flex-container:✫sm_world_population_2017.jpg✫
+A population pyramid indicates age brackets on the y axis
+a population pyramid indicates amount of pepople on the x axis
+A population pyramid's indication of population is generally split ⟮into sex⟯
+
+### birth rate/fertility
+
+The ⟮different fertility rates are⟯ sometimes presented ⟮as-is⟯ (as ⟮a percentage⟯), or ⟮multiplied by 1000⟯, to ⟮present a number/index⟯ 
+
+What we often call ⟮birth rate⟯ is more properly called the ⟮crude birth rate⟯, because ⟮it isn't directly based on anything related to childbirth⟯ 
+The ⟮crude birth rate⟯ is ⟮the number of live births⟯ ⟮per person⟯ 
+To get ⟮the crude birth rate⟯ in practice, we ⟮divide the number of live births through the population size⟯ 
+
+The ⟮general fertility rate⟯ is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age⟯) 
+
+The ⟮age-specific fertility rate⟯ is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
+The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮5⟯ ⟮years⟯. 
+In plain language, the ⟮ASFR⟯ e.g. for age 21 is ⟮the amount of children an average 21 y/o has in a year⟯ 
+
+The ⟮TFR⟯ measures ⟮babies per woman (in her lifetime⟯) (*) 
+Mathematically, the ⟮total fertility rate⟯ is ⟮the sum of all⟯ ⟮current age-specific fertility rates⟯ 
+In plain language, the ⟮TFR⟯ is ⟮the sum of⟯ ⟮the amount of chilren⟯ ⟮a women will have⟯ ⟮in any given year of her life⟯ 
+The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions⟯) 
+The ⟮total fertility rate⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
+If a ⟮woman dies before her reproductive period ends (lets say at 30),⟯ she ⟮will not impact ASFRs beyond 30⟯. This is not a problem until ⟮we add them together to the TFR⟯ - since we are using the ASFRs to ⟮estimate how many children a woman will have in her life⟯, ⟮the ASFRs⟯ ⟮should be impacted b⟯⟮y the woman who died before the end of the reproductive period (the dead women should count as 0⟯). Therefore, ⟮maternal mortality distorts the TFR⟯. 
+
+
+The ⟮replacement rate / replacement-level fertility⟯ is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
+A ⟮TFR⟯ ⟮below replacement rate⟯ is known as ⟮Sub-replacement fertility⟯ 
+Beyond ⟮the distorting factors for the TFR⟯, ⟮the replacement rate⟯ is additionally distorted by ⟮child mortality⟯. 
+⟮The replacement rate⟯ for countries ⟮with low child and maternal mortality⟯ is ⟮about 2.1⟯. 
+
+Country|TFR
+⟮Japan⟯|⟮~1.4⟯
+⟮Korea⟯|⟮~0.9⟯
+
+
+#### japan
+
+flex-container:✫821361.png✫
+
+In japan, ⟮extramarital birth⟯ is ⟮extremely rare⟯ 
+In japan, marriages as of 2020 occurr ⟮Less and later⟯ 
+Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
+⟮1990⟯|⟮c+;s3;26⟯|⟮c+;s2;27⟯
+⟮2008⟯|⟮c+;s6;30⟯|⟮c+;s5;30⟯
+
+
+### dependency
+
+#### definition of dependent
+
+In demographics/economics, a ⟮dependent⟯ is someone ⟮who relies on someone else for financial support.⟯
+For statistical purposes, it is generally assumed that ⟮those aged 15-64⟯ are ⟮non-dependents⟯, and ⟮those aged 0-14 and 65-⟯ are ⟮dependents⟯.
+The relationship of ⟮dependents per non-dependent⟯ is expressed ⟮in the dependency ratio⟯.
+
+#### dependency ratio
+
+The ⟮dependency ratio (amount of people who work divided by people who can't⟯) is used as a proxy for ⟮pressure on the productive population⟯,
+A ⟮lower⟯ ⟮dependency ratio⟯ is generally better because it often results in ⟮economic growth⟯.
+When ⟮a change to a lower dependency ratio leads to economic growth⟯, which is most often caused when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯, this is termed a ⟮demographic dividend⟯.
+the idea of a ⟮demographic dividend⟯ is used to explain e.g. ⟮China's rapid economic growth⟯ - in ⟮2010⟯ they had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
+Of course, ⟮this large group of young people⟯ responsible for a ⟮demographic dividend⟯ will ⟮eventually grow old⟯, with ⟮less young people to support them⟯, leading to ⟮an increased dependency ratio⟯. this has been termed the ⟮demographic tax⟯ or ⟮demographic burden⟯.
+A ⟮demographic burden/tax results⟯ in ⟮lower economic growth⟯ - a fact ⟮Japan⟯ ⟮is currently experiencing⟯ and ⟮China⟯ ⟮probably will fall victim to as well⟯.
+
+### sex/gender
+
+#### missing women
+
+The term "⟮missing women⟯" (coined by ⟮Amartya Sen⟯) indicates a shortfall in ⟮the number of women⟯ relative to ⟮the expected number of women⟯ in ⟮a region or country⟯. 
+⟮missing women⟯ are often measured/discovered through ⟮male-to-female sex ratios⟯, specifically via ⟮the deviance from⟯ the ⟮natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1⟯) 
+⟮Sen⟯ argued that there were about ⟮100 million⟯ ⟮"missing women"⟯ in ⟮Asia⟯. 
+The phenomenon of ⟮missing women⟯ and is theorized to be caused by ⟮sex-selective abortions⟯, ⟮female infanticide⟯, and ⟮inadequate healthcare and nutrition for female children⟯. 
+The fact of the existence of missing women is caused by ⟮sexism⟯, and may be seen as a pretty direct expression of ⟮their -value status.⟯ 
 
 # gender studies
 
