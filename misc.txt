@@ -243,9 +243,9 @@ A ⟮＿common-pool resource＿⟯ may be subject to ⟮the ＿tragedy of the co
 ######## tragedy of the commons
 
 In ⟮»the tragedy of the commons«⟯, ⟮any individual⟯ has ⟮an incentive to⟯ (over)exploit the common-pool resource.
-In the tragedy of the commons, the common-pool resource can't easily be prevented from overexploitation since it's some degree of non-excludable.
-In the tragedy of the commons, exploitation is problematic since the common-pool resource is rivalrous.
-In ⟮the tragedy of the commons⟯, the common-pool resource is ⟮depleted⟯ ⟮due to the overexploitation.
+In the ⟮＿tragedy of the commons＿⟯, the common-pool resource can't easily ⟮be prevented from overexploitation⟯ since it's ⟮some degree of non-excludable⟯.
+In ⟮the ＿tragedy of the commons⟯＿, ⟮exploitation is problematic⟯ since ⟮the common-pool resource is rivalrous⟯.
+In ⟮the ＿tragedy of the commons＿⟯, the common-pool resource is ⟮depleted⟯ ⟮due to the overexploitation.
 As proven by ⟮Elinor Ostrom⟯ in the work that won her ⟮the 2009 economics nobel prize⟯, ⟮commons/common-pool resources⟯ can ⟮effectively be managed by their communities⟯ if ⟮certain rules/principles are followed⟯, preventing ⟮the tragedy of the commons⟯
 
 ####### public goods
@@ -271,63 +271,72 @@ Example for ⟮＿private goods＿⟯: ⟮cheese⟯
 
 #### behavioral economics
 
-Behavioral economics studies the effects of psychological, cognitive, emotional, cultural and social factors on the decisions of individuals and institutions and how those decisions vary from those implied by classical economic theory.
+»⟮Behavioral economics⟯« studies the effects of ⟮psychological, cognitive, emotional, cultural and social factors⟯ on ⟮decisions⟯.
+In particular, ⟮＿behavioral economics＿⟯ studies how these factors make decisions ⟮depart from⟯ those ⟮predicted by classical economics/rational choice theory⟯.
 
 ##### econs
 
-⟮Econ⟯ is a term from ⟮behavioral economics⟯ which describes ⟮the beings⟯ that ⟮classical economics⟯ ends up describing
-An ⟮econ⟯ would always ⟮make the best decision given a set of alternatives⟯
-⟮Econs⟯, in contrast to humans, never fall prey to ⟮biases⟯
-⟮Econs⟯ are contrasted with (actual) ⟮humans⟯
+»⟮Econ⟯« is a term from ⟮＿behavioral economics＿⟯ which describes ⟮the beings⟯ that ⟮classical economics/rational choice⟯ ends up describing
+⟮＿Econ＿s⟯ are ⟮contrasted with⟯ ⟮actual humans⟯
+An ⟮＿econ＿⟯ would always ⟮make the best decision given a set of alternatives⟯ and thus ⟮never fall prey to biases⟯.
 
 ##### nudge theory
 
-Nudge theory proposes using nudges to influence the decision-making of groups or individuals to increase compliance with a goal.
-A nudge is a minor, non-disruptive intervention (especially one that does not forbid or impose harsh sanctions) that produces predictable changes in people's behavior.
-A fly at the bottom of an urinal to improve aim and reduce cleaning costs is a prime example of a nudge.
+»⟮Nudge theory⟯« proposes using ⟮＿nudges＿⟯ to ⟮influence the decision-making⟯ of groups/individuals to ⟮increase compliance with a goal⟯.
+A »⟮nudge⟯« is a ⟮minor, non-disruptive⟯ ⟮intervention⟯ (especially one that ⟮does not forbid or impose harsh sanctions⟯) that produces ⟮predictable changes in people's behavior⟯.
+A ⟮fly at the bottom of an urinal⟯ to ⟮improve aim and reduce cleaning costs⟯ is a prime example of a ⟮＿nudge＿⟯.
 
 ##### bias
 
-⟮Bias⟯ is the ⟮inclination toward⟯ or ⟮weighting of⟯ something, most often in a way that is ⟮unfair⟯ and/or ⟮disproportionate/wrong⟯. Thus, ⟮s1:3;⟮s7:12;⟮cognitive bias⟯ is ⟮the disproportionate weighting⟯ / ⟮irrelevant inclusion⟯ of factors in a way that ⟮the resulting judgement departs from rationality⟯⟯; ⟮s4-6,10-12;bias in ⟮statistics⟯ is the tendency of ⟮a statistic, more specifically an estimator (a truth about a sample⟯) to ⟮misestimate⟯ a ⟮parameter (a truth about the population) ⟯⟯;⟮s4:9; ⟮implicit bias⟯ are ⟮pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮a social group⟯⟯⟯ 
-⟮Status quo bias⟯ is a form of ⟮cognitive bias⟯, the bias towards ⟮The current state of affairs⟯ 
+»⟮Bias⟯« is the ⟮inclination toward⟯ or ⟮c_;weighting of⟯ something in a way that is ⟮unfair⟯ and/or ⟮c_;disproportionate/wrong⟯. 
+⟮»cognitive bias«⟯ is ⟮the disproportionate weighting⟯ / irrelevant inclusion⟯ of factors in a way that ⟮the resulting judgement departs from rationality⟯
+⟮bias⟯ in ⟮statistics⟯ is the tendency of ⟮a statistic, more specifically an ＿estimator＿ (a truth about a sample⟯) to ⟮misestimate⟯ a ⟮＿parameter＿ (a truth about the population)⟯
+⟮»implicit bias«⟯ are ⟮pre-reflective (or impossible-to-reflect-away) attitudes⟯ about ⟮a social group⟯
 
 ###### cognitive bias
 
+####### status quo bias
+
+⟮»Status quo bias«⟯ is a form of ⟮＿cognitive bias＿⟯ towards ⟮The current state of affairs⟯ 
+
 ####### halo effect
 
-The halo effect is the cognitive bias where positive impressions of something in one area  positively influences one's opinion about that thing in a different (generally unrelated) area
+The »⟮halo effect⟯« is the ⟮＿cognitive bias＿⟯ where ⟮positive impressions of something in one area⟯  ⟮positively influences⟯ ⟮one's opinion about that thing in a different (generally unrelated) area⟯
 
 ####### magical thinking
 
-⟮magical thinking⟯ is the way of thinking that posits ⟮that two events are causally connected⟯, ⟮even though there is no plausible causal link⟯.
-An example of ⟮magical thinking⟯ would be ⟮Knocking on wood will prevent misfortune.⟯ 
-⟮Magical thinking⟯ is often ⟮a symptom of OCD⟯ (however, ⟮the cause of most⟯ ⟮magical thinking⟯ in the world is ⟮not⟯ ⟮OCD⟯)
+⟮»magical thinking«⟯ is the ⟮＿cognitive bias＿⟯ that posits ⟮that two events are causally connected⟯, ⟮even though there is no plausible causal link⟯.
+An example of ⟮＿magical thinking＿⟯ would be ⟮Knocking on wood will prevent misfortune.⟯ 
+⟮Magical thinking⟯ is often ⟮a symptom of OCD⟯ (however, ⟮the cause of most magical thinking⟯ in the world is ⟮not OCD⟯)
 
 ####### mean world syndrome
 
-Mean world syndrome is a hypothesized cognitive bias wherein people (especially those not particularly in danger of violence) may perceive the world to be more dangerous than it actually is, due to long-term moderate to heavy exposure to violence-related content on mass media.
+»⟮Mean world syndrome⟯« is a ⟮＿cognitive bias＿⟯ wherein people  ⟮not particularly in danger of violence⟯  perceive the world ⟮to be more dangerous than it actually is⟯, due to ⟮long-term exposure to violence-related content on mass media⟯.
 
 ####### decoy effect
 
-An option C is asymmetrical dominated when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
-In the decoy effect, there are three options A, B, and C, where C is assymerically dominated.
-In the decoy effect, the decoy is the one that is asymetrically dominated.
+An option C is »⟮asymmetrical dominated⟯« when it is inferior in all respects to one option A and a mix of inferior and superior to another option B.
+In the »⟮decoy effect⟯«, there are ⟮three options A, B, and C⟯, where C is ⟮＿assymerically dominated＿⟯.
+In the ⟮＿decoy effect＿⟯, the decoy is the one that is asymetrically dominated.
 In the decoy effect, people will choose the dominating option A more than if the decoy C was not present.
 
 ###### statistical bias
 
 ####### selection bias
 
+Selection bias is the bias where the estimator misestimates the parameter due to errors in sampling.
+
 ######## WEIRD
 
 ⟮WEIRD⟯ is short for ⟮western⟯, ⟮educated⟯, ⟮industrialized⟯, ⟮rich⟯, and ⟮democratic⟯. 
-⟮WEIRD⟯ is the set of traits which describes ⟮more than 90%⟯ of ⟮study participants⟯, especially in ⟮psychology⟯, being such, and thus results being ⟮biased⟯/⟮not generalizable⟯ 
+⟮»WEIRD«⟯ is ⟮the set of traits⟯ which describes ⟮more than 90%⟯ of ⟮study participants⟯, especially in ⟮psychology⟯.
+WEIRD is a selection bias.
 
 ##### unintended consequences
 
 ###### godharts law
 
-https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg
+flex-container:✫https://miro.medium.com/max/1400/0*u1dfHFPj2LZ41cAL.jpg✫
 
 Goodhart’s Law is expressed simply as: “When a measure becomes a target, it ceases to be a good measure.”
 Goodhart's law means that when we set one specific goal, people will tend to optimize for that objective regardless of the consequences.
@@ -336,12 +345,12 @@ Goodhart's law means that when we set one specific goal, people will tend to opt
 
 ####### parkinson's law
 
-⟮Parkinson's law⟯ is the idea that "⟮work expands so as to fill the time available for its completion.⟯" 
-Over the times, corollaries, such as "Data ⟮expands to fill the space available⟯" have also been proposed. 
+⟮»Parkinson's law«⟯ is the idea that "⟮work expands so as to fill the time available for its completion.⟯" 
+Over the times, ⟮corollaries⟯ to ⟮＿parkinson's law＿⟯ such as "Data ⟮expands to fill the space available⟯" have also been proposed. 
 
 #### rational choice theory
 
-⟮Rational choice theory⟯ is ⟮the area of study / framework⟯ that arises from the idea that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function⟯) ⟮to choose an action⟯. 
+⟮Rational choice theory⟯ is ⟮framework⟯ that arises from the assumption that ⟮an individual will⟯ ⟮perform a cost-benefit analysis (e.g. use an utility maximization function)⟯ ⟮to choose an action⟯. 
 
 ##### religious markets
 
