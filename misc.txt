@@ -388,12 +388,6 @@ Syntactic construct|function
 In ⟮fountain⟯, ⟮indentation⟯ ⟮has no effect (besides organizing the source code document).⟯  
 ⟮Fointain⟯ (in contrast to ⟮markdown⟯) preserves your ⟮line breaks.⟯ 
 
-# makeup
-
-## micellar water
-
-⟮Micellar water (mizellenwasser⟯) is a ⟮makeup remover⟯ that has ⟮produced good results for me⟯ 
-
 # anthropology
 
 ## perspectives
@@ -462,25 +456,6 @@ Name|Name (using marriage-related terms)|Description
 
 ⟮the savage mind⟯ is a book by ⟮CLS⟯ published in ⟮the early 1960s (1962⟯) ( after 『⟮The Structural Study of Myth⟯』)
 In ⟮the beginning of the savage mind⟯,  CLS details ⟮the richness of vocabularies/category systems (in areas of concern⟯)⟮of indigenous cultures⟯, both for ⟮the things they need to survive⟯, ⟮sb;but then also for ⟮things they don't need to survive⟯, ⟮sb;according to CLS they have these categories ⟮for intellectual reasons⟯⟯⟯
-
-# urban studies
-
-## community
-
-### third place
-
-first place|home
-second place|work
-
-A third place is a place in a humans life outside of the first/second place where they spend time and socialize.
-The idea of third places was coined by Ray Oldenburg.
-Ray Oldenburg argues that third places are important for individuals, communities and democractic/civic society.
-
-#### characteristics of a third place according to theorists
-
-At least for regulars, third places are not particularly restricted in access, and people have little to no obligation to be there.
-Third places must feel warm, accomodating and accepting of different people, with little distinction and snobbery.
-Third places have a certain set of regulars, though those are not necessarily the only people in the space.
 
 # geo
 
@@ -787,9 +762,6 @@ Campante et al. 2013 argue the relationship ⟮c+;capital cities being more isol
 ⟮✫sm_Ukraine.png✫⟯|⟮Ukraine⟯
 ⟮✫sm_Uruguay.png✫⟯|⟮Uruguay⟯
 ⟮✫sm_Vietnam.png✫⟯|⟮Vietnam⟯
-
-
-### geographical representation
 
 # history
 
@@ -1525,6 +1497,27 @@ The term ⟮travesti⟯ is used in ⟮Latin American⟯ countries—especially �
 ⟮Travesti⟯ generally face ⟮extreme marginalization⟯: Generally suffering ⟮childhood sexual abuse⟯, ⟮disowned from their families⟯ and ⟮removed from the education system⟯, with ⟮lack of access⟯ to ⟮housing⟯ and ⟮work⟯, they live in ⟮deficient housing⟯ ⟮(c:14;50⟯%) and often work ⟮as sex workers⟯ ⟮(c:14;70⟯%), often ⟮contracting HIV/AIDS⟯. 
 ⟮Travesti⟯ suffer from ⟮extremely high rates⟯ of ⟮hate crimes⟯ and ⟮murder⟯ as well as ⟮arbitrary detention⟯ up to ⟮torture⟯, and have a life expectancy of ⟮30 - 35⟯ years. 
 ⟮Often⟯, travesti ⟮use this term for themselves⟯ to ⟮highlight their marginalization as well as their gender identity⟯, nevertheless, the term is ⟮sometimes⟯ used ⟮as a translation of english terms such as transgender/trans/etc⟯, in these cases, it is often a ⟮slur⟯. 
+
+## queer theory
+
+### abbreviations
+
+table: Abbreviation|Long
+⟮AFAB⟯|⟮Assigned Female At Birth⟯
+⟮AMAB⟯|⟮Assigned Male At Birth⟯
+⟮Ace⟯|⟮Asexual⟯
+⟮Aro⟯|⟮Aromantic⟯
+⟮aro spec⟯|⟮aromantic spectrum⟯
+⟮ace spec⟯|⟮asexual spectrum⟯
+⟮transbian⟯|⟮trans lesbian⟯
+⟮SWERF⟯|⟮Sex Worker-Exclusionary Radical Feminist⟯
+⟮ERA⟯|⟮Equal Rights Amendment⟯
+⟮TERF⟯|⟮trans-exclusionary radical feminist⟯
+
+### flags
+
+table:flag|community
+⟮✫Transgender_Pride_flag.svg✫⟯|⟮The transgender pride flag⟯
 
 # biology
 
@@ -2469,58 +2462,23 @@ It is generally said that ⟮cotton kills⟯ because it ⟮absorbs way more wate
 During ⟮late-stage hypothermia⟯, ⟮terminal burrowing⟯ = ⟮hide-and-die sydrome⟯ may occur, where people will ⟮enter small, enclosed spaces⟯ (even if ⟮those do not provide more warmth⟯)
 Being ⟮wet⟯ cools you out more than not because (amongst other reasons) ⟮waters⟯ ⟮thermal conductivity⟯ is ⟮~25 times⟯ higher than ⟮airs⟯
 
-# massage
-
-## start to end
-
-### approaching
-
-It is often said that you should ⟮approach and depart from the other persons skin⟯ for the ⟮massage (or other treatment⟯) ⟮slowly⟯, ⟮sb;so they can ⟮get used to you coming / leaving⟯⟯ 
-
-## modalities
-
-### oil
-
-⟮Massage⟯ can be performed ⟮with or without⟯ ⟮oil⟯. 
-Using ⟮oil⟯ during a massage makes it ⟮glide more easily⟯, if you don't, ⟮sb;⟮quick / pressurefull / both movements⟯ might ⟮irritate the skin⟯.⟯ 
-
-## techniques
-
-### tapotement
-
-⟮h1;✫sm_closeup-female-therapist-striking-back-260nw-752265973.jpg✫⟯\n⟮h∞;✫sm_paste-4f1df98c4d967c25dae794e311343511614ff90a.jpg✫⟯\n⟮h∞;✫sm_paste-95e0db190d40d6d11342f1c2c3afa7f36a7aab38.jpg✫⟯\n⟮h∞;✫sm_2021-06-23--02-10-23-screenshot.jpg✫⟯
-
-⟮Tapotement⟯ is massage with about ⟮3-10 strokes per second⟯ performed ⟮rythmically⟯ 
-What you do during ⟮tapotement⟯ depends on ⟮what variety you are using⟯ 
-Name of tapotement|Side of hand|the hand is...|the wrist is⟮h∞;✫sm_1280px-Blausen_0390_EyeAnatomy_Sectional.jpg✫⟯
-
-⟮Pounding/beating/pumelling⟯|⟮ulnar⟯|⟮loose fist⟯|⟮loose wrists⟯
-⟮Hacking⟯|⟮ulnar⟯|⟮fairly straight⟯|⟮loose wrists⟯
-⟮Cupping⟯|⟮palmar⟯|⟮cupped/slightly gathered⟯|
-
-
-## concepts
-
-### trigger points and myofascial release
-
-⟮Trigger points⟯ are (at the very least) spots that feel ⟮painful⟯. 
-⟮How much of a physiological reality⟯ ⟮trigger points⟯ have is ⟮a subject of ongoing controversy⟯⟮hb;, amongst other things whether ⟮they are or are not nodules⟯⟯. 
-⟮Trigger points⟯ may also be referred to as ⟮muscle knots⟯ ⟮hb;(however, ⟮they are definitley not knots in a muscle⟯⟯). 
-Often other things ⟮will be mistaken for trigger points⟯, such as ⟮tendons or tensed-up muscles⟯. 
-⟮c+;s13;Myofascial release⟯ / ⟮c+;s12;trigger point therapy⟯ is mainly concerned with ⟮trigger points⟯.  
-In ⟮myofascial release/trigger point therapy⟯, you ⟮compress a trigger point⟯ for ⟮typically a minute or a few minutes⟯, without using ⟮lubricants⟯. ⟮hb;Trigger points may ⟮twitch⟯ when ⟮compressed⟯, and ⟮refer pain⟯. ⟮hb;There is not much evidence for trigger point therapy ⟮providing any long-term medical benefits⟯, but ⟮it does feel quite good and act as pain relief⟯.⟯⟯ 
-
 # sexuality ＆ attraction
+
+DONE FROM HERE
 
 ## fiction
 
 ### demons
 
-⟮concubi⟯ are ⟮demons⟯ that are ⟮very sexual⟯. 
-in/con/succubus all originate from the ⟮latin⟯ root ⟮cubare⟯, which means ⟮to lie down⟯. They got gendered via ⟮the position the initial morpheme describes.⟯ 
+#### concubi
 
+»⟮concubi⟯« are ⟮demons⟯ that are ⟮very sexual⟯. 
+⟮in/con/succubus⟯ all originate from the ⟮latin⟯ root ⟮cubare⟯, which means ⟮to lie down⟯. 
+⟮in/succubus⟯ got ⟮gendered⟯ via ⟮the position the initial morpheme describes.⟯ 
 
-gender|name|meaning of initial morpheme
+##### types 
+
+table:gender|name|meaning of initial morpheme
 ⟮Male⟯|⟮Incubus⟯|⟮c+;s∞;In = on/in⟯
 ⟮Female⟯|⟮Succubus⟯|⟮c+;s∞;Sub = under⟯
 
@@ -2528,9 +2486,14 @@ gender|name|meaning of initial morpheme
 
 ### principles
 
-⟮SSC (Safe, sane and consensual⟯) is the most well-known ⟮set of principles⟯ for ⟮BDSM⟯. 
-Criticisms of ⟮SSC⟯ are ⟮"sane" imposing unexamined norms⟯, and ⟮no⟯ ⟮BDSM⟯ activity ⟮being completely safe (see also "saf⁑er⁑sex"⟯)
-the alternative to ⟮SSC⟯ is ⟮RACK (risk-aware consensual kink⟯)
+#### BDSM
+
+⟮SSC⟯ is short for ⟮safe, sane and consensual⟯
+⟮SSC⟯ is the most well-known ⟮set of safety principles⟯ for ⟮BDSM⟯. 
+⟮RACK⟯ is short for ⟮risk-aware consensual kink⟯
+the alternative to ⟮SSC⟯ is ⟮RACK⟯
+
+DONE TO HERE
 
 ## sexual roles
 
@@ -2560,7 +2523,7 @@ As of 2021, ⟮all the TBDSSMFM identities⟯ are often ⟮conflated into a gian
 This ⟮top/bottom superidentity⟯ is then most often also seen as having ⟮a scope⟯ of ⟮many/all aspects of ones life⟯, ⟮a duration⟯ of ⟮one's whole life⟯, and ⟮an identity that is essentialized⟯. This seems to me basically like ⟮the hegemonic (= mainstream) idea of masculinity⟯.
 This is also supported by the fact that ⟮people⟯ (or ⟮fictional characters⟯) who ⟮subscribe to the top/bottom superidentity⟯ also ⟮then engage in misogynist/sexist practices/beliefs/etc.⟯
 
-§ Further notes: §
+ Further notes: 
 often in dominance and submission, the ⟮dominants⟯ ⟮name⟯, ⟮pronouns⟯ or ⟮the relevant letter⟯ will be ⟮capitalized⟯, while the ⟮submissives⟯ ⟮name⟯, ⟮pronouns⟯ or ⟮the relevant letter⟯ will be ⟮written in lower case⟯
 A ⟮pillow princess⟯ is a ⟮lesbian⟯ who is ⟮very bottom,⟯ to the point of ⟮not reciprocating⟯
 a ⟮power bottom⟯ is most commonly just a misnomer for a ⟮dominant bottom⟯, but ⟮ is also used for all kinds of things, including the absolute opposite⟯ 
@@ -2613,48 +2576,6 @@ The ⟮relationship escalator⟯ consists of ⟮a set of steps⟯ in ⟮a relati
 As of 2021, mainstream society sees ⟮the relationship escalator⟯ as ⟮the essence of⟯ ⟮a romantic relationship⟯. 
 "⟮Is this relationship going anywhere?⟯" presupposes the idea of ⟮the relationship escalator⟯ 
 ⟮c+;Getting to know each other → dating → becoming a couple 'officially' → committing  ＆ future planning → merging lives → getting married → house, children etc.⟯ might be roughly the steps the west sees the ⟮relationship escalator⟯ consisting of 
-
-# queer theory
-
-## abbreviations
-
-Abbreviation|Long
-⟮AFAB⟯|⟮Assigned Female At Birth⟯
-⟮AMAB⟯|⟮Assigned Male At Birth⟯
-⟮Ace⟯|⟮Asexual⟯
-⟮Aro⟯|⟮Aromantic⟯
-⟮aro spec⟯|⟮aromantic spectrum⟯
-⟮ace spec⟯|⟮asexual spectrum⟯
-⟮SSC⟯|⟮Safe, sane, and consensual⟯
-⟮RACK⟯|⟮Risk-aware consensual kink⟯
-⟮transbian⟯|⟮trans lesbian⟯
-
-⟮SWERF⟯|⟮Sex Worker-Exclusionary Radical Feminist⟯
-⟮ERA⟯|⟮Equal Rights Amendment⟯
-⟮TERF⟯|⟮trans-exclusionary radical feminist⟯
-
-
-## flags
-⟮✫Transgender_Pride_flag.svg✫⟯|⟮The transgender pride flag⟯
-
-
-
-# religion
-
-## religious studies
-
-
-## different religions
-
-### religions of the book
-
-#### comonalities
-
-#### islam
-
-A ⟮mujaddid⟯ is a person who ⟮Brings renewal (Renews the faith, corrects the practice⟯) 
-⟮Saladin⟯ was said to have been ⟮a mujaddid⟯ 
-⟮mujaddid⟯ are said to appear ⟮at the beginning of the century (of the muslim calendar⟯) 
 
 # isms
 
