@@ -4449,6 +4449,18 @@ flex-container:✫view_demonstrator.svg✫
 
 In ⟮mobile/app⟯ development, a ⟮view⟯ is ⟮the basic building block of UI⟯. They can be ⟮nested⟯, it is views ⟮all the way down⟯.
 
+### properties
+
+#### diagesis
+
+Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
+Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
+Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic music⟯. 
+⟮An UI⟯ that ⟮is part of a game world itself⟯ would be ⟮an (intra)diegetic UI⟯ 
+
+flex-container:✫sm_Dead_Space_gameplay.jpg✫
+Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
+
 ## user experience
 
 user experience is (the design of) the experience of an user interacting with something.

@@ -1,6 +1,134 @@
 
 ## needs to be sorted in
 
+### history, culture, etc
+
+
+#### eras
+
+Era|Start|End
+⟮Asuka⟯|⟮550⟯|⟮700⟯
+⟮　奈良（なら）時代⟯|⟮700⟯|⟮800⟯
+⟮平安時代⟯|⟮800⟯|⟮1200⟯
+
+
+In the ⟮平安時代⟯, ⟮the capital⟯ ⟮was moved⟯ to ⟮平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
+
+⟮　大日本帝国（だいにっぽんていこく）⟯: ⟮1868⟯ - ⟮1947⟯
+
+#### reigns
+
+##### emperors
+
+Era|Start|End
+⟮明治⟯|historical: ⟮1868⟯; accession to the throne: ⟮1852⟯|⟮1912⟯
+⟮大正⟯|⟮1912⟯|⟮1926⟯
+⟮昭和⟯|⟮1926⟯|⟮1989⟯
+⟮平成⟯|⟮1989⟯|⟮2019⟯
+⟮令和⟯|⟮2019⟯|???
+
+
+##### politics
+
+flex-container:✫sm_220px-Junichiro_Koizumi_20010426.jpg✫
+⟮小泉純一郎⟯ served as ⟮Japan's prime minister⟯ from ⟮2001⟯ to ⟮2006⟯, coming in with an image of a ⟮maverick⟯
+
+###### ⟮c+;uh∞;Non-LDP goverments in Japan⟯ since ⟮c+;uh∞;1948⟯:
+
+table:which|start|end
+⟮earlier⟯|⟮c+;s3;early 1990s (1993⟯)|⟮c+;s2;1996⟯
+⟮later⟯|⟮c+;s6;end of the 2000s (2009⟯)|⟮c+;s5;2012⟯
+
+more precisely since the 50s if we're talking specifically about the LDP, but the late 40s was its predecessors
+
+#### sources
+
+##### 万葉集
+
+The ⟮　万葉集（まんようしゅう）⟯ is ⟮the oldest⟯ ⟮collection of 和歌 poetry⟯ 
+The ⟮　万葉集（まんようしゅう）⟯ was ⟮compiled in⟯ ⟮the latter half of the 700s (nara period⟯) 
+The ⟮　万葉集（まんようしゅう）⟯ is today considered ⟮a revered piece of literature⟯ 
+While ⟮the  　万葉集（まんようしゅう） is from the latter 700s⟯, ⟮some of the poems⟯ are from ⟮far earlier (600ish⟯) 
+the ⟮　万葉集（まんようしゅう）⟯ contains ⟮4500ish⟯  和歌 poems 
+
+##### 紫式部
+
+⟮紫式部⟯ (though ⟮there is some authorship dispute⟯) wrote ⟮源氏物語⟯ around ⟮1000ish⟯ 
+We ⟮don't know a huge amount⟯ about ⟮the original form⟯ of ⟮源氏物語⟯, since ⟮the original has long been lost.⟯ 
+
+#### events
+
+##### Russo-Japanese war
+
+The ⟮Russo-Japanese war⟯ lasted from ⟮1904-1905⟯ and ended with ⟮The battle of tsushima (日本海海戦)⟯
+
+##### 3.11
+
+⟮The 　東日本大震災（ひがしにほんだいしんさい） (amongst many other names⟯) was a disaster that hit ⟮japan⟯ on the ⟮11.03.2011⟯. 
+The ⟮　東日本大震災（ひがしにほんだいしんさい）⟯ was caused by a ⟮9.0-9.1⟯ magnitude ⟮underwate earthquake⟯. 
+The earthquake that caused the 　東日本大震災（ひがしにほんだいしんさい） subsequently caused ⟮a tsunami⟯ and ⟮nuclear meltdown⟯. ⟮The 　東日本大震災（ひがしにほんだいしんさい）⟯ cost ⟮around 200-400 billion 2018 US$⟯, making it ⟮the most costly natural disaster in history⟯. 
+⟮　東日本大震災（ひがしにほんだいしんさい）⟯ is often just called ⟮3.11⟯ 
+
+#### places
+
+##### 靖国神社
+
+The ⟮　靖国神社（やすくにじんじゃ）⟯is dedicated to ⟮Those died in service of Japan⟯ 
+The main problem with the ⟮　靖国神社（やすくにじんじゃ）⟯ is that ⟮it holds over a thousand convicted war criminals⟯. 
+⟮靖⟯ is generally read ⟮やす⟯ and means ⟮peaceful, calm, easygoing⟯. 
+⟮靖⟯ as a kanji is mainly used in ⟮靖国神社⟯. 
+
+#### population
+
+flex-container:✫sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg✫✫sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg✫✫sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg✫✫sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg✫
+⟮　日系（にっけい）⟯ literally means ⟮of japanese descent⟯, though it can also be an abbreviation of ⟮　日系人（にっけいじん）⟯ 
+⟮　日系人（にっけいじん）⟯ refers to  ⟮japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
+The ⟮largest amount⟯ of ⟮日系（人）⟯ is in ⟮Brazil⟯ 
+
+#### topics
+
+##### religion
+
+sometime between ⟮450-550⟯, ⟮Buddhism was introduced/popularized⟯ in ⟮Japan⟯. 
+
+##### subcultures
+
+###### モガ
+
+⟮モダンガール⟯ were ⟮young women⟯ characterized by ⟮taking to western fashion and sensibilities⟯ in ⟮the interwar years⟯ 
+⟮モダンガール⟯ is sometimes shortened to ⟮モガ⟯ 
+⟮モダンガール⟯ are (said to be) similar to ⟮Flappers (US⟯) 
+
+###### コギャル
+
+⟮h1;✫sm_248px-制服_(5346443876).jpg✫⟯⟮h1;✫sm_171px-ギリギリ短_(15580964194).jpg✫⟯
+The ⟮コギャル⟯ fashion/fashion subculture involves: whole body: ⟮School uniforms⟯; hip: ⟮miniskirts⟯; feet: ⟮loose socks⟯; neck: ⟮scarves⟯
+The ⟮コギャル⟯ fashion/fashion was popular in the ⟮1990s⟯. 
+
+##### the economy
+
+###### zaibatsu
+
+⟮財閥⟯ ⟮controlled large parts of the japanese economy⟯ between ⟮the mid 明治 period⟯ and ⟮the end of ww2 (though in a sence, they still exist⟯) 
+
+###### plaza accords
+
+⟮the plaza accords⟯ were an agreement in ⟮1985⟯ that ⟮changed the fundamental relationship between⟯ ⟮Dollar, DM and Yen.⟯ 
+
+###### bubble economy ＆ lost decade
+
+From ⟮the end of the war⟯ until ⟮the asset price crisis⟯, ⟮Japan⟯ experienced ⟮strong economic growth⟯. 
+In ⟮pre-bubble⟯-era japan ⟮wealth was high⟯, employment was mostly for life and so ⟮conspicuous consumption was legion⟯ 
+
+⟮バブル　景気（けいき）⟯is the japanese term for what we call ⟮the bubble economy/japanese asset price bubble.⟯. 
+The ⟮バブル　景気（けいき）⟯ began in ⟮1986⟯, following ⟮the plaza accords⟯, and burst in ⟮1991⟯. 
+The asset involved in ⟮the japanese asset price bubble⟯ was ⟮real estate⟯. 
+⟮The lost decade⟯ is the english translation for the japanese ⟮失われた十年⟯. 
+The ⟮japanese asset price bubble⟯ was followed by ⟮the lost decade/失われた十年⟯. 
+Since ⟮the economy hasnt really recovered since the lost decade/失われた十年⟯, it is sometimes expanded to ⟮the lost 20/30 years.⟯ 
+The ⟮employment ice age⟯ (ja⟮: 　就職氷河期（しゅうしょくひょうがき）⟯) was/is ⟮the period following the asset price bubble⟯ with ⟮unavailable or unstable employment⟯.  
+The ⟮employment ice age⟯ strongly corrrelates with ⟮the lost decade(s).⟯ 
+
 ### 7k cards
 
 ⟮　円（えん）:: also 丸 ⟯|⟮circle⟯<div class="sub c2-f" > also yen </div></div>

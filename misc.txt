@@ -37,13 +37,6 @@ form|corresp. value|explanation
 
 # move to HCI
 
-Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
-Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
-Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic music⟯. 
-⟮An UI⟯ that ⟮is part of a game world itself⟯ would be ⟮an (intra)diegetic UI⟯ 
-
-flex-container:✫sm_Dead_Space_gameplay.jpg✫
-Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
 
 
 # move to linguistics
