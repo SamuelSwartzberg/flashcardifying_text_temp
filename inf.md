@@ -10431,6 +10431,348 @@ IPC is just message passing between two processes.
 
 ⟮Photoscape X⟯ is notable for being a ⟮GUI⟯ program that has ⟮batch editing of photos⟯
 
+## vimlike
+
+### modes
+
+vim basic modes: ⟮normal⟯, ⟮insert⟯, ⟮visual⟯, ⟮select⟯, ⟮command⟯, ⟮ex⟯, ⟮terminal⟯ (there are more, but they are all derivative of these)
+
+insert mode|similar to how a normal text editor works
+normal mode|commands on the text
+command mode|allow entering of vimscript/ex commands
+visual mode|select text
+
+Moving in visual mode selects the thing you traverse
+visual mode|select text you go over (as in normal word processors)
+visual line mode|select whole lines you go over
+visual block mode|select rectangular areas you go over
+
+⟮Select mode⟯ is like ⟮visual mode⟯, but ⟮starts insert mode for the selection⟯.
+Ex-mode is a mode for vim similar to command mode (which itself also supports ex commands), which is mainly used for batch processing.
+
+I (shift i)|visual mode → insert mode
+v|normal mode → visual mode
+shift+v|normal mode → visual line mode
+ctrl+v|normal mode → visual block mode
+:|normal mode → command mode
+esc|most modes → normal mode
+enter|search mode → normal mode at place where searched
+visual|ex mode → normal mode
+
+### vimscript/commands
+
+vimscript is the scripting language built into vim.
+vimscript is used for command mode commands, macros and in .vimrc
+
+Action|Command|Available in...|Differences between
+⟮evaluate a js string⟯|⟮:jseval⟯|⟮qutebrowser⟯
+⟮bind a key⟯|⟮:bind⟯|⟮qutebrowser⟯
+⟮restart qutebrowser⟯|⟮:restart⟯|⟮qutebrowser⟯
+⟮save⟯|⟮:w(rite⟯)|⟮qutebrowser, vim⟯|⟮saves the file in vim and the session in qutebrowser⟯
+⟮quit⟯|⟮:q(uit⟯)|⟮qutebrowser, vim⟯
+⟮save and quit⟯|⟮wq⟯|⟮qutebrowser, vim⟯|⟮saves the file in vim and the session in qutebrowser⟯
+⟮reload config file⟯|⟮config-source⟯|⟮qutebrowser, vim⟯
+⟮:Explore⟯|⟮open vim file explorer⟯|⟮vim⟯
+⟮:saveas⟯|⟮save file with name and continue editing this⟯|⟮vim⟯
+⟮:so(urce) file⟯|⟮source the specified file as vim code⟯|⟮vim⟯
+⟮:number⟯|⟮show number of current line⟯|⟮vim⟯
+
+pwd   current directory|vim only
+h(elp)   show help|vim, qute
+s(ubstitute)   replace text|vim only
+
+set|change/set an option
+%s|replace on all lines (slash-based)
+
+clearjumps   clear the jumplist
+jumps   list all items in the jump list
+
+sp filename   open file in horizontal split
+vsp filename   open file in vertical split
+
+the various map commands is for mapping actions to keyboard shortcuts
+map-command:  ‹mode-char›[un|nore]map
+in the map commands, nore means no recursion, i.e. don't trigger further keybindings/maps after performing the map
+In general, it is wise to use the nonrecursive mappings
+in the map commands, un is for unmapping a certain combination
+
+### concepts
+
+#### lists
+
+all past jumps are stored in the jump list
+In vim, only a specific subset of things that move the cursor counts as a jump
+In addition to the jump list, there is the similar  change list
+
+### shortcuts
+
+#### normal mode
+
+##### common/vim only
+
+###### multiple modes/mode-agnostic
+
+####### search
+
+/|start forward search
+?|start backwards search
+n|next regex match|qutebrowser, zathura, vim, less
+N|previous regex match|qutebrowser, zathura, vim, less
+
+
+####### window
+
+ctrl+w   prefix for window management
+ctrl+w ›   grow window width of window rightwards
+ctrl+w ‹   grow window width of window leftwards
+ctrl+w hjkl   move between windows according to hjkl
+ctrl+w +   grow window height
+ctrl+w -   shrink window height
+ctrl+w H/J/K/L   move window to the far left/bottom/top/right
+ctrl+w ctrl+w   cycle through windows
+ctrl+w c   close current window
+ctrl+w o   maximize current window (and thus get rid of all splits)
+ctrl+w s   split window horizontally
+ctrl+w v   split window vertically
+
+####### buffer
+
+ctrl+^    doing buffer related stuff (switching buffer when no leading number arg)
+‹n›ctrl+^    switch to buffer n
+
+###### grammar-defined (may be insert-only or multi-mode)
+
+action ::= ‹command-component›||‹motion-component›
+command-component ::= [‹count›]‹command›[‹command›]
+motion-component ::= [‹count›]‹motion›
+text-object ::= ‹modifier›‹object›
+modifier ::= i|a
+count ::= ‹digit›{‹digit›}
+
+double operator does the action to the whole line, or ‹count› whole lines.
+Only a small subset of vim commands take a motion argument.
+A motion without a command component simply moves the cursor
+e.g. ›› shift whole line right
+modifiers:
+a   around our object (including whitespace/surrounding symbols) 
+i   inside our object (excluding whitespace/surrounding symbols)
+
+####### countable commands
+
+ctrl+i   jump to next (newer) location in jump list
+ctrl+o   jump to previous (older) location in jump list
+
+Change to insert mode
+
+a|insert text after cursor
+i|insert text before cursor
+A   append text at end of line(enters insert mode)
+I (shift i)   insert text before first non-blank in line(enters insert mode)
+O   begin line above cursor and insert text(enters insert mode)
+o   begin line below cursor and insert text(enters insert mode)
+s   erase letter under cursor and set insert mode(enters insert mode)
+S   erase whole line and enter insert mode (enters insert mode)
+
+C   change to end of line
+D   delete until end of line
+
+p   paste after the cursor
+P   paste before the cursor
+
+x/X   delete forwards/backwards (not an operator, therefore does it immediately, in contrast to d
+
+J   join next line with this one
+
+######## page navigation
+
+ctrl y|half page right|zathura only
+ctrl d|half page down|qutebrowser, zathura, vim
+ctrl f|page down|qutebrowser, zathura, vim|
+ctrl b|page up|qutebrowser, zathura, vim|
+ctrl t|half page left
+ctrl u|half page up
+
+In vim, adding a ‹count› before the half page... makes this scroll ‹count› lines instead of a half page, in qutebrowser it instead scrolls ‹count› half-pages. They both behave the same for whole file commands
+
+
+####### motions
+
+k|move cursor up|qutebrowser, zathura, vim, less
+j|move cursor down|qutebrowser, zathura, vim, less
+l|move cursor right|qutebrowser, zathura, vim, less
+G|go to last line|qutebrowser, zathura, vim, less
+g|go to first line|less only
+‹n›G   jump to line n
+H/L|top/bottom of viewport
+‹quantifier›H/L|n lines before top/bottom of page
+M   go to middl eof screen
+%   matching delimiter (e.g. other ")")
+(/)   beginning/end of sentence
+[[/]]   previous/next { (with edits suggested in :help)
+[{/]}   ⟮beginning/end of block (enclosed in {})⟯
+{   prev blank line
+⟮c1;⟯}   next blank line
+b/B   start of previous word 
+e/E   end of word 
+w/W   start of next word 
+^   start of line (excl whitespace)
+$   emd of line
+'‹letter›|mark ‹letter›
++/-   beginning of line below/above
+0   move to first character in line (even if indented)
+###   search backwards for word under cursonr
+*   search forwards for word under cursor
+f‹character›   go to next ‹character› on current line
+F‹character›   go to previous ‹character› on current line
+t‹character›   go to up to (one before) character
+T‹character›   go to up to (one before) character backwards
+
+The capital versions of the motions w e and b are different from the non-capital versions in that the capital versions only consider space as a separator, while the non-capital versions also consider puctuation as a separator
+
+#######  objects
+
+p   paragraph
+s   sentence
+"   something wrapped  in "
+( or )   something wrapped  in ()
+[ or ]   something wrapped  in []
+
+####### motionable commands
+
+›   shift right
+‹   shift left
+gU   convert to uppercase
+gu   convert to lowercase
+y   yank
+c   change (delete and enter insert mode)
+d   delete (more precisely: cut (you can paste it again))
+
+####### g
+
+g|first character of a whole set of additional shortcuts|qutebrowser, vim
+gd|download page|qutebrowser
+gg|go to first line|
+
+####### related
+
+m‹letter›|set a ‹letter› as a mark
+
+###### visual mode exclusive
+
+o|go to other end of selection
+
+##### qutebrowser
+
+yt|yank title to clipboard
+yT|yank title to selection (primary selection has something to do with terminal clipboards etc.)
+yy|yank URL to clipboard
+yY|yank URL to selection (primary selection has something to do with terminal clipboards etc.)
+
+f|hint for opening in this tab
+F|hint for opening in new tab
+;‹some char›|hint ‹different things›
+;p|hint images for yanking
+;y|hint links for yanking
+;i|hint images (for opening in new tab)
+;b|hint for opening in background tab
+;d|hint for downloading
+;h|hint for hovering
+
+{{ / }}|click previous/next link on page (new tab)
+[[ / ]]|click previous/next link on page (same tab)
+r|reload
+R|hard reload
+
+ctrl a|increment number in url
+ctrl x|decrement number in url
+
+w...|do dev/web inspector related stuff
+wi|toggle devtools
+
+(t/w)h|back (in new tab/window)
+(t/w)l|forward (in new tab/window)
+
+H/L|history forward/back   
+J/K|next/prev tab   
+
+p/P‹some_char›|do paste stuff (first char)
+pp|open URL from clipboard
+pP|open URL from selection
+Pp/PP |what pp/pP do (open URL from clipboard/selection), but in a new tab
+            
+b/B|open quickmark in this tab/new tab
+‹n›|open tab n
+T|open tab chooser (accepts number, name, or url)
+
+go/gO|edit current URL (and open in this tab/new tab)
+o|open website (in current tab)
+O|open website (in new tab)
+d|cloze current tab
+‹n›d|cloze nth tab
+
+mode-switching:
+
+enter passthrough mode   ctrl v
+exit passthrough mode   shift - esc
+Passthrough mode is like insert mode, but won't auto-exit
+
+##### less
+
+q|quit|less
+h|show help|less and similar
+
+##### zathura
+
+best-fit mode of display   a
+follow links/ display link target   f/F ‹number-index›
+rotate   r
+toggle 2 pages side by side view   d
+width mode of display   s
+collapse entry/all entries   h/H
+expand entry/all entries   l (small l)/L
+next page/prev page   space/shift-space
+show index and switch to index mode   tab
+switch to presentation mode (and back)   f5
+Snap to current page   P
+
+
+
+
+u|undo action
+y|yank selection
+
+y|yank the thing you've searched for, if you've searched for something
+
+
+
+.|repeat past action
+
+### vimlike apps
+
+name|function
+⟮lf⟯|⟮vimlike curses file manager⟯
+⟮qutebrowser⟯|⟮vimlike web browser⟯
+⟮vifm⟯|⟮vimlike curses file manager⟯
+⟮vimiv⟯|⟮very vimlike image viewer⟯
+⟮visidata⟯|⟮vimlike data visualizer⟯
+⟮zathura⟯|⟮vimlike document viewer⟯
+
+
+### patterns
+
+#### do an edit a bunch
+
+1. search for the place you want to make an edit with /pattern
+2. make your repeatable edit
+3. use n to go to the next place to edit
+4. use . to repeat the edit
+5. repeat the last two steps: You're the king of the world (or at least of edits
+
+### misc
+
+In vim, copying is known as yanking.
+
+## misc
 
 #### various programs
 

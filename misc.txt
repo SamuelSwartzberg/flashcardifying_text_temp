@@ -288,14 +288,23 @@ The ⟮employment ice age⟯ strongly corrrelates with ⟮the lost decade(s).⟯
 
 ### positivism
 
-Positivism as a sociological theory holds that society is governed according to general laws
+»⟮Positivism⟯« as ⟮a sociological theory⟯ holds that ⟮society is governed⟯ ⟮according to general laws⟯
 
 ## social models
 
 ### Social-Ecological Models
 
-separate ⟮things that can affect an individual⟯ into categories. these are not always identical, but may roughly be ⟮Individual⟯, ⟮Interpersonal/Relationship⟯, (more frequently left out) ⟮Organizational⟯, ⟮Community⟯, ⟮Society/Policy⟯. 
-[⟮c+;s∞;Societal (Policy) ⟯ [⟮c+;s∞;Community⟯ [⟮c+;s∞;Relationship⟯ [⟮c+;s∞;Individual⟯]]]]
+⟮»Social-ecolocgical models«⟯ ⟮separate⟯ ⟮things that can affect an individual⟯ ⟮c-;into categories⟯. 
+The categories that ⟮social-ecological models separate things into⟯ are ⟮not always identical, though some are common.⟯
+
+#### !The categories that social-ecological models separate things 
+
+onion-box:
+⟮c+;s∞;Societal (Policy) ⟯
+  ⟮c+;s∞;Community⟯ 
+    ⟮c+;s∞;Organizational (more frequently left out) ⟯
+      ⟮c+;s∞;Relationship⟯ 
+        ⟮c+;s∞;Individual⟯
 
 ## units
 
@@ -308,45 +317,60 @@ In ⟮their engagement in their endeavor⟯, what emerges ⟮in a ＿community o
 
 ## demographics
 
-⟮Demography⟯ is the statistical study of ⟮populations and poplulation change⟯ 
+»⟮Demography⟯« is the statistical study of ⟮populations and poplulation change⟯ 
 
 ### generations
 
-Generation|Start|End|Nicknames
-⟮Baby boomers⟯|⟮~1945⟯|⟮~1965⟯
-⟮Generation X⟯|⟮~1965⟯|⟮~1980⟯
-⟮Millenials⟯|⟮~1980⟯|⟮~1995⟯|⟮c+;s∞;Generation Y⟯
-⟮Generation Z⟯|⟮~1995⟯|⟮~2010⟯|⟮c+;s∞;Zoomers⟯
-⟮Generation α⟯|⟮~2010⟯|⟮s8;???⟯
+table:Generation|Start|End|Nicknames
+⟮Baby boomers⟯|⟮c+;s+;~1945⟯|⟮c+;s-;~1965⟯
+⟮Generation X⟯|⟮c+;s+;~1965⟯|⟮c+;s-;~1980⟯
+⟮Millenials⟯|⟮c+;s+;~1980⟯|⟮c+;s-;~1995⟯|⟮c+;s∞;Generation Y⟯
+⟮Generation Z⟯|⟮c+;s+;~1995⟯|⟮c+;s-;~2010⟯|⟮c+;s∞;Zoomers⟯
+⟮Generation α⟯|⟮c+;s+;~2010⟯|⟮c+;s-;???⟯
 
 ### population pyramid
 
 flex-container:✫sm_world_population_2017.jpg✫
-A population pyramid indicates age brackets on the y axis
-a population pyramid indicates amount of pepople on the x axis
-A population pyramid's indication of population is generally split ⟮into sex⟯
+
+
+A ⟮population pyramid⟯ indicates ⟮age brackets⟯ on ⟮the y axis⟯
+a ⟮population pyramid⟯ indicates ⟮amount of pepople⟯ on ⟮the x axis⟯
+A⟮ population pyramid⟯'s indication of population is generally ⟮split into sex⟯
 
 ### birth rate/fertility
 
-The ⟮different fertility rates are⟯ sometimes presented ⟮as-is⟯ (as ⟮a percentage⟯), or ⟮multiplied by 1000⟯, to ⟮present a number/index⟯ 
+The ⟮different fertility rates are⟯ sometimes presented ⟮as-is (as a percentage)⟯, or ⟮multiplied by 1000 to ⟮present a number/index⟯ 
 
-What we often call ⟮birth rate⟯ is more properly called the ⟮crude birth rate⟯, because ⟮it isn't directly based on anything related to childbirth⟯ 
-The ⟮crude birth rate⟯ is ⟮the number of live births⟯ ⟮per person⟯ 
-To get ⟮the crude birth rate⟯ in practice, we ⟮divide the number of live births through the population size⟯ 
+#### crude birth rate
 
-The ⟮general fertility rate⟯ is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age⟯) 
+What we often call ⟮birth rate⟯ is ⟮more properly⟯ called the ⟮＿crude birth rate＿⟯, 
+The birth rade is ⟮more properly called ＿crude birth rate＿⟯ because ⟮it isn't directly based on anything related to childbirth⟯ 
+The »⟮crude birth rate⟯« is ⟮the number of live births⟯ ⟮per person⟯ 
+To get ⟮the ＿crude birth rate＿⟯ in practice, we ⟮divide⟯ ⟮the number of live births⟯ ⟮c-;through⟯ ⟮the population size⟯
+
+#### general fertility rate
+
+The ⟮general fertility rate⟯ is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age)⟯ 
+
+#### ASFR
 
 The ⟮age-specific fertility rate⟯ is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
-The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮5⟯ ⟮years⟯. 
-In plain language, the ⟮ASFR⟯ e.g. for age 21 is ⟮the amount of children an average 21 y/o has in a year⟯ 
+The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮c_;5⟯ ⟮years⟯. 
+In plain language, the ⟮ASFR⟯ e.g. for ⟮age 21⟯ is ⟮the amount of children an average 21 y/o has in a year⟯ 
 
-The ⟮TFR⟯ measures ⟮babies per woman (in her lifetime⟯) (*) 
+#### TFR
+
+The ⟮TFR⟯ measures ⟮babies per woman (in her lifetime)⟯ (*) 
 Mathematically, the ⟮total fertility rate⟯ is ⟮the sum of all⟯ ⟮current age-specific fertility rates⟯ 
 In plain language, the ⟮TFR⟯ is ⟮the sum of⟯ ⟮the amount of chilren⟯ ⟮a women will have⟯ ⟮in any given year of her life⟯ 
-The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions⟯) 
+The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions)⟯
+
+##### caveats
+
 The ⟮total fertility rate⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
 If a ⟮woman dies before her reproductive period ends (lets say at 30),⟯ she ⟮will not impact ASFRs beyond 30⟯. This is not a problem until ⟮we add them together to the TFR⟯ - since we are using the ASFRs to ⟮estimate how many children a woman will have in her life⟯, ⟮the ASFRs⟯ ⟮should be impacted b⟯⟮y the woman who died before the end of the reproductive period (the dead women should count as 0⟯). Therefore, ⟮maternal mortality distorts the TFR⟯. 
 
+##### replacement rate
 
 The ⟮replacement rate / replacement-level fertility⟯ is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
 A ⟮TFR⟯ ⟮below replacement rate⟯ is known as ⟮Sub-replacement fertility⟯ 
@@ -356,18 +380,6 @@ Beyond ⟮the distorting factors for the TFR⟯, ⟮the replacement rate⟯ is a
 Country|TFR
 ⟮Japan⟯|⟮~1.4⟯
 ⟮Korea⟯|⟮~0.9⟯
-
-
-#### japan
-
-flex-container:✫821361.png✫
-
-In japan, ⟮extramarital birth⟯ is ⟮extremely rare⟯ 
-In japan, marriages as of 2020 occurr ⟮Less and later⟯ 
-Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
-⟮1990⟯|⟮c+;s3;26⟯|⟮c+;s2;27⟯
-⟮2008⟯|⟮c+;s6;30⟯|⟮c+;s5;30⟯
-
 
 ### dependency
 
@@ -381,6 +393,9 @@ The relationship of ⟮dependents per non-dependent⟯ is expressed ⟮in the de
 
 The ⟮dependency ratio (amount of people who work divided by people who can't⟯) is used as a proxy for ⟮pressure on the productive population⟯,
 A ⟮lower⟯ ⟮dependency ratio⟯ is generally better because it often results in ⟮economic growth⟯.
+
+##### demographic dividend/burdern
+
 When ⟮a change to a lower dependency ratio leads to economic growth⟯, which is most often caused when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯, this is termed a ⟮demographic dividend⟯.
 the idea of a ⟮demographic dividend⟯ is used to explain e.g. ⟮China's rapid economic growth⟯ - in ⟮2010⟯ they had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
 Of course, ⟮this large group of young people⟯ responsible for a ⟮demographic dividend⟯ will ⟮eventually grow old⟯, with ⟮less young people to support them⟯, leading to ⟮an increased dependency ratio⟯. this has been termed the ⟮demographic tax⟯ or ⟮demographic burden⟯.
@@ -395,6 +410,18 @@ The term "⟮missing women⟯" (coined by ⟮Amartya Sen⟯) indicates a shortfa
 ⟮Sen⟯ argued that there were about ⟮100 million⟯ ⟮"missing women"⟯ in ⟮Asia⟯. 
 The phenomenon of ⟮missing women⟯ and is theorized to be caused by ⟮sex-selective abortions⟯, ⟮female infanticide⟯, and ⟮inadequate healthcare and nutrition for female children⟯. 
 The fact of the existence of missing women is caused by ⟮sexism⟯, and may be seen as a pretty direct expression of ⟮their -value status.⟯ 
+
+### in ‹place›
+
+#### japan
+
+flex-container:✫821361.png✫
+
+In japan, ⟮extramarital birth⟯ is ⟮extremely rare⟯ 
+In japan, marriages as of 2020 occurr ⟮Less and later⟯ 
+Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
+⟮1990⟯|⟮c+;s3;26⟯|⟮c+;s2;27⟯
+⟮2008⟯|⟮c+;s6;30⟯|⟮c+;s5;30⟯
 
 # biology
 
