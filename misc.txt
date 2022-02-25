@@ -282,28 +282,6 @@ Since ⟮the economy hasnt really recovered since the lost decade/失われた�
 The ⟮employment ice age⟯ (ja⟮: 　就職氷河期（しゅうしょくひょうがき）⟯) was/is ⟮the period following the asset price bubble⟯ with ⟮unavailable or unstable employment⟯.  
 The ⟮employment ice age⟯ strongly corrrelates with ⟮the lost decade(s).⟯ 
 
-# myth
-
-## structuralism
-
-CLS studied myth from the perspective of structuralism.
-⟮CLS⟯ elaborated his ⟮structuralist⟯ approach to myth in  『⟮The Structural Study of Myth⟯』 ⟮(c:4;1955⟯) 
-The ⟮paradox of myth according⟯ to CLS is that ⟮anything can happen in a myth⟯, but that ⟮myths are similar across cultures⟯. 
-According to CLS, ⟮myth⟯ is its own form of ⟮langue⟯, that is, its own ⟮structuralist system⟯ 
-The ⟮langue⟯ of ⟮myth⟯ consists of ⟮mythemes⟯ . 
-According to CLS, myths consist of ⟮pairs of⟯ ⟮mythemes⟯, generally ⟮one⟯ ⟮c+;s15;pair⟯ that is ⟮contradictiory/irreconcilable⟯, and ⟮one⟯ ⟮c+;s15;pair⟯ that is ⟮reconcilable⟯. 
-The ⟮contradictory pair⟯ of mythemes ⟮is equated with⟯ ⟮the reconcilable pair,⟯ and so ⟮the contradiction is dissolved/solved⟯, e.g. ⟮life:death⟯ ⟮↔⟯ ⟮herbivore:hunter⟯ (which is ⟮reconcilable⟯ via the ⟮scavenger⟯); ⟮life:death⟯ ⟮↔⟯ ⟮sky:earth⟯ (which is ⟮reconcilable⟯ via ⟮mist⟯) 
-
-Both ⟮mythical thought⟯ and ⟮science⟯ are ⟮equally⟯ ⟮sophisticated⟯ ⟮systems of thought⟯ according to ⟮CLS⟯, however, ⟮science⟯ is ⟮more effective at⟯ ⟮acquiring knowledge to harness the world⟯. 
-
-Type of thought|Causality|Metaphor|Materials (physical)|Materials (thought)|Creates
-⟮Mythical thought⟯|⟮Hypercausal (Everything must have a definite cause⟯)|⟮Bricolage⟯|⟮uses whatever is at hand⟯|⟮uses signs (which are limited⟯)|⟮creates structures⟯
-⟮Scientific thought⟯|⟮Causal, but can accept uncertainty⟯|⟮Engineer⟯|⟮uses (within limit) the things it needs as materials⟯|⟮uses concepts (which can go beyond preexisting ideas⟯)|⟮creates changes in the world⟯
-
-
-The fact that ⟮a granary killing a person⟯ is ⟮not explained by chance + granary being unstable⟯ but by ⟮witchcraft + granary being unstable⟯ is for CLS an example of ⟮the hyperneed for causality⟯ in ⟮mythical thought⟯ 
-According to ⟮CLS⟯, in ⟮mythical thought⟯ ⟮intellectual drive⟯ leads to ⟮more categorization/discovery⟯, and ⟮need for causality⟯ makes these '⟮do something⟯' 
-
 # soc
 
 ## theories ＆ approaches
@@ -319,65 +297,14 @@ Positivism as a sociological theory holds that society is governed according to 
 separate ⟮things that can affect an individual⟯ into categories. these are not always identical, but may roughly be ⟮Individual⟯, ⟮Interpersonal/Relationship⟯, (more frequently left out) ⟮Organizational⟯, ⟮Community⟯, ⟮Society/Policy⟯. 
 [⟮c+;s∞;Societal (Policy) ⟯ [⟮c+;s∞;Community⟯ [⟮c+;s∞;Relationship⟯ [⟮c+;s∞;Individual⟯]]]]
 
-## control
-
-### panopticon
-
-flex-container:✫sm_paste-97560a465fa831d18b540d6b95686be346b8d6e9.jpg✫✫sm_paste-fa27fcbc1aca45f73e98073afa21625624a55b20.jpg✫
-
-
-
-the word ⟮panoptic⟯ means ⟮all-seeing⟯
-The ⟮panopticon⟯ (in theory) allowed ⟮a single guard⟯ to ⟮observe⟯ ⟮all inmates⟯ ⟮without them knowing that they were being watched⟯ 
-The ⟮panopticon⟯ was designed by ⟮Jeremy Bentham⟯, and used as a metaphor most famously by ⟮Foucault⟯. 
-
 ## units
 
 ### community
 
 #### community of practice
 
-⟮a community of practice⟯ is ⟮a set of people⟯ who ⟮come together⟯ via ⟮mutual engagement⟯ ⟮in a common endeavor⟯ 
-In ⟮their engagement in their endeavor⟯, what emerges ⟮in a community of practice⟯ are ⟮Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
-
-### groups
-
-#### processes
-
-##### social loafing
-
-In social psychology, social loafing is the phenomenon of a person exerting less effort to achieve a goal when they work in a group than when working alone.
-
-## society of/and...
-
-### technology
-
-#### gartner's hype cycle
-
-flex-container:✫gartner_hype.svg✫|gartner's hype cycle (seems to hold relatively rarely)
-
-## culture
-
-### subcultures
-
-#### free culture
-
-FOSS|Free and open source software
-
-##### remix
-
-The idea of everything's a remix is that any new work is built completely out of parts from other works
-Read-only culture and read/write culture were coined by lawrence lessig.
-
-table:read-only culture|media is consumed passively
-read-write culture|media is changed, derivative works are made
-
-#### internet culture
-
-##### fora
-
-OP|Original Poster
-
+⟮a »community of practice«⟯ is ⟮a set of people⟯ who ⟮come together⟯ via ⟮mutual engagement⟯ ⟮in a common endeavor⟯ 
+In ⟮their engagement in their endeavor⟯, what emerges ⟮in a ＿community of practice＿⟯ are ⟮Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
 
 ## demographics
 
