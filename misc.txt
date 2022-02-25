@@ -34,38 +34,6 @@ form|corresp. value|explanation
 ⟮＿Reproductive labor＿⟯ is ⟮absolutely necessary⟯ - without ⟮c-;reproductive labor⟯, there ⟮would be no labor at all⟯.
 ⟮＿Reproductive labor＿⟯ consists of ⟮chores⟯ and ⟮childrearing⟯.
 
-
-# move to HCI
-
-
-
-# move to linguistics
-
-###### number of feet
-
-Meter|Number of feet
-⟮Trimeter⟯|⟮3⟯
-⟮Tetrameter⟯|⟮4⟯
-⟮Pentameter⟯|⟮5⟯
-
-
-###### type of feet
-
-Foot|Pattern|Mnemonic
-⟮Iamb⟯|⟮daDA⟯
-⟮Trochee⟯|⟮DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
-⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
-⟮Anapest⟯|⟮dadaDA⟯|⟮c:∞;Jeder dritte stirbt durch die pest.¶
- Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte". Ana⁑pest⁑¶
- Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑⟯
-⟮Dactyl⟯|⟮DAdada⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us ¶
-⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑⟯
-⟮Choriamb⟯|⟮DAdadaDA⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
-⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
-⟮Molossus⟯|⟮DA DA DA⟯|
-⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
-「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
-
 #### film
 
 ##### history
@@ -88,7 +56,8 @@ Foot|Pattern|Mnemonic
 
 ###### title page
 
-In fountain, a ⟮title page⟯ consists of ⟮key-values pairs⟯, ⟮hb;separated internally by ⟮:⟯.⟯ 
+In fountain, a ⟮title page⟯ consists of ⟮key-values pairs⟯
+A fountain title page's key value pairs is ⟮separated internally by ⟮:⟯.⟯ 
 In fountain's title page you can have ⟮multiple of the same key⟯. the value can ⟮stretch over multiple lines⟯, ⟮hb;if it does, ⟮lines beyond the first⟯ should be ⟮preceded by 3 or more spaces, or a tab⟯. ⟯ 
 In fountain, the ⟮title page⟯ is optional, but must be ⟮the first thing in the document if it appears⟯. 
 
@@ -147,133 +116,6 @@ Syntactic construct|function
 
 In ⟮fountain⟯, ⟮indentation⟯ ⟮has no effect (besides organizing the source code document).⟯  
 ⟮Fointain⟯ (in contrast to ⟮markdown⟯) preserves your ⟮line breaks.⟯ 
-
-# move to -> japanese
-
-#### eras
-
-Era|Start|End
-⟮Asuka⟯|⟮550⟯|⟮700⟯
-⟮　奈良（なら）時代⟯|⟮700⟯|⟮800⟯
-⟮平安時代⟯|⟮800⟯|⟮1200⟯
-
-
-In the ⟮平安時代⟯, ⟮the capital⟯ ⟮was moved⟯ to ⟮平安京::name then⟯ ⟮(c:3;京都::name now⟯) 
-
-⟮　大日本帝国（だいにっぽんていこく）⟯: ⟮1868⟯ - ⟮1947⟯
-
-#### reigns
-
-##### emperors
-
-Era|Start|End
-⟮明治⟯|historical: ⟮1868⟯; accession to the throne: ⟮1852⟯|⟮1912⟯
-⟮大正⟯|⟮1912⟯|⟮1926⟯
-⟮昭和⟯|⟮1926⟯|⟮1989⟯
-⟮平成⟯|⟮1989⟯|⟮2019⟯
-⟮令和⟯|⟮2019⟯|???
-
-
-##### politics
-
-flex-container:✫sm_220px-Junichiro_Koizumi_20010426.jpg✫
-⟮小泉純一郎⟯ served as ⟮Japan's prime minister⟯ from ⟮2001⟯ to ⟮2006⟯, coming in with an image of a ⟮maverick⟯
-
-###### ⟮c+;uh∞;Non-LDP goverments in Japan⟯ since ⟮c+;uh∞;1948⟯:
-
-table:which|start|end
-⟮earlier⟯|⟮c+;s3;early 1990s (1993⟯)|⟮c+;s2;1996⟯
-⟮later⟯|⟮c+;s6;end of the 2000s (2009⟯)|⟮c+;s5;2012⟯
-
-more precisely since the 50s if we're talking specifically about the LDP, but the late 40s was its predecessors
-
-#### sources
-
-##### 万葉集
-
-The ⟮　万葉集（まんようしゅう）⟯ is ⟮the oldest⟯ ⟮collection of 和歌 poetry⟯ 
-The ⟮　万葉集（まんようしゅう）⟯ was ⟮compiled in⟯ ⟮the latter half of the 700s (nara period⟯) 
-The ⟮　万葉集（まんようしゅう）⟯ is today considered ⟮a revered piece of literature⟯ 
-While ⟮the  　万葉集（まんようしゅう） is from the latter 700s⟯, ⟮some of the poems⟯ are from ⟮far earlier (600ish⟯) 
-the ⟮　万葉集（まんようしゅう）⟯ contains ⟮4500ish⟯  和歌 poems 
-
-##### 紫式部
-
-⟮紫式部⟯ (though ⟮there is some authorship dispute⟯) wrote ⟮源氏物語⟯ around ⟮1000ish⟯ 
-We ⟮don't know a huge amount⟯ about ⟮the original form⟯ of ⟮源氏物語⟯, since ⟮the original has long been lost.⟯ 
-
-#### events
-
-##### Russo-Japanese war
-
-The ⟮Russo-Japanese war⟯ lasted from ⟮1904-1905⟯ and ended with ⟮The battle of tsushima (日本海海戦)⟯
-
-##### 3.11
-
-⟮The 　東日本大震災（ひがしにほんだいしんさい） (amongst many other names⟯) was a disaster that hit ⟮japan⟯ on the ⟮11.03.2011⟯. 
-The ⟮　東日本大震災（ひがしにほんだいしんさい）⟯ was caused by a ⟮9.0-9.1⟯ magnitude ⟮underwate earthquake⟯. 
-The earthquake that caused the 　東日本大震災（ひがしにほんだいしんさい） subsequently caused ⟮a tsunami⟯ and ⟮nuclear meltdown⟯. ⟮The 　東日本大震災（ひがしにほんだいしんさい）⟯ cost ⟮around 200-400 billion 2018 US$⟯, making it ⟮the most costly natural disaster in history⟯. 
-⟮　東日本大震災（ひがしにほんだいしんさい）⟯ is often just called ⟮3.11⟯ 
-
-#### places
-
-##### 靖国神社
-
-The ⟮　靖国神社（やすくにじんじゃ）⟯is dedicated to ⟮Those died in service of Japan⟯ 
-The main problem with the ⟮　靖国神社（やすくにじんじゃ）⟯ is that ⟮it holds over a thousand convicted war criminals⟯. 
-⟮靖⟯ is generally read ⟮やす⟯ and means ⟮peaceful, calm, easygoing⟯. 
-⟮靖⟯ as a kanji is mainly used in ⟮靖国神社⟯. 
-
-#### population
-
-flex-container:✫sm_paste-757531c8dd67be7d763349a7cbbc8c0de1967011.jpg✫✫sm_paste-d3ee25a12e81600cbb762b4f3769a51645f0821c.jpg✫✫sm_paste-34e05952d4b6690567db2bb21711c6de83a9d31c.jpg✫✫sm_paste-2bc260a93a4671468faf0518c49c880e5e611acf.jpg✫
-⟮　日系（にっけい）⟯ literally means ⟮of japanese descent⟯, though it can also be an abbreviation of ⟮　日系人（にっけいじん）⟯ 
-⟮　日系人（にっけいじん）⟯ refers to  ⟮japanese diaspora members (people are of japanese descent but are not japanese citizens⟯) 
-The ⟮largest amount⟯ of ⟮日系（人）⟯ is in ⟮Brazil⟯ 
-
-#### topics
-
-##### religion
-
-sometime between ⟮450-550⟯, ⟮Buddhism was introduced/popularized⟯ in ⟮Japan⟯. 
-
-##### subcultures
-
-###### モガ
-
-⟮モダンガール⟯ were ⟮young women⟯ characterized by ⟮taking to western fashion and sensibilities⟯ in ⟮the interwar years⟯ 
-⟮モダンガール⟯ is sometimes shortened to ⟮モガ⟯ 
-⟮モダンガール⟯ are (said to be) similar to ⟮Flappers (US⟯) 
-
-###### コギャル
-
-⟮h1;✫sm_248px-制服_(5346443876).jpg✫⟯⟮h1;✫sm_171px-ギリギリ短_(15580964194).jpg✫⟯
-The ⟮コギャル⟯ fashion/fashion subculture involves: whole body: ⟮School uniforms⟯; hip: ⟮miniskirts⟯; feet: ⟮loose socks⟯; neck: ⟮scarves⟯
-The ⟮コギャル⟯ fashion/fashion was popular in the ⟮1990s⟯. 
-
-##### the economy
-
-###### zaibatsu
-
-⟮財閥⟯ ⟮controlled large parts of the japanese economy⟯ between ⟮the mid 明治 period⟯ and ⟮the end of ww2 (though in a sence, they still exist⟯) 
-
-###### plaza accords
-
-⟮the plaza accords⟯ were an agreement in ⟮1985⟯ that ⟮changed the fundamental relationship between⟯ ⟮Dollar, DM and Yen.⟯ 
-
-###### bubble economy ＆ lost decade
-
-From ⟮the end of the war⟯ until ⟮the asset price crisis⟯, ⟮Japan⟯ experienced ⟮strong economic growth⟯. 
-In ⟮pre-bubble⟯-era japan ⟮wealth was high⟯, employment was mostly for life and so ⟮conspicuous consumption was legion⟯ 
-
-⟮バブル　景気（けいき）⟯is the japanese term for what we call ⟮the bubble economy/japanese asset price bubble.⟯. 
-The ⟮バブル　景気（けいき）⟯ began in ⟮1986⟯, following ⟮the plaza accords⟯, and burst in ⟮1991⟯. 
-The asset involved in ⟮the japanese asset price bubble⟯ was ⟮real estate⟯. 
-⟮The lost decade⟯ is the english translation for the japanese ⟮失われた十年⟯. 
-The ⟮japanese asset price bubble⟯ was followed by ⟮the lost decade/失われた十年⟯. 
-Since ⟮the economy hasnt really recovered since the lost decade/失われた十年⟯, it is sometimes expanded to ⟮the lost 20/30 years.⟯ 
-The ⟮employment ice age⟯ (ja⟮: 　就職氷河期（しゅうしょくひょうがき）⟯) was/is ⟮the period following the asset price bubble⟯ with ⟮unavailable or unstable employment⟯.  
-The ⟮employment ice age⟯ strongly corrrelates with ⟮the lost decade(s).⟯ 
 
 # soc
 
@@ -343,11 +185,11 @@ To get ⟮the ＿crude birth rate＿⟯ in practice, we ⟮divide⟯ ⟮the numb
 
 #### general fertility rate
 
-The ⟮general fertility rate⟯ is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age)⟯ 
+The »⟮general fertility rate⟯« is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age)⟯ 
 
 #### ASFR
 
-The ⟮age-specific fertility rate⟯ is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
+The »⟮age-specific fertility rate⟯« is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
 The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮c_;5⟯ ⟮years⟯. 
 In plain language, the ⟮ASFR⟯ e.g. for ⟮age 21⟯ is ⟮the amount of children an average 21 y/o has in a year⟯ 
 
@@ -360,17 +202,19 @@ The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the a
 
 ##### caveats
 
-The ⟮total fertility rate⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
+The ⟮＿total fertility rate＿⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
 If a ⟮woman dies before her reproductive period ends (lets say at 30),⟯ she ⟮will not impact ASFRs beyond 30⟯. This is not a problem until ⟮we add them together to the TFR⟯ - since we are using the ASFRs to ⟮estimate how many children a woman will have in her life⟯, ⟮the ASFRs⟯ ⟮should be impacted b⟯⟮y the woman who died before the end of the reproductive period (the dead women should count as 0⟯). Therefore, ⟮maternal mortality distorts the TFR⟯. 
 
 ##### replacement rate
 
-The ⟮replacement rate / replacement-level fertility⟯ is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
-A ⟮TFR⟯ ⟮below replacement rate⟯ is known as ⟮Sub-replacement fertility⟯ 
-Beyond ⟮the distorting factors for the TFR⟯, ⟮the replacement rate⟯ is additionally distorted by ⟮child mortality⟯. 
-⟮The replacement rate⟯ for countries ⟮with low child and maternal mortality⟯ is ⟮about 2.1⟯. 
+The »⟮replacement rate / replacement-level fertility⟯« is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
+»⟮Sub-replacement fertility⟯« is ⟮a TFR⟯ ⟮below replacement rate⟯.
+Beyond ⟮the distorting factors for the TFR⟯, ⟮the ＿replacement rate＿⟯ is additionally distorted by ⟮child mortality⟯. 
+⟮The ＿replacement rate＿⟯ for countries ⟮with low child and maternal mortality⟯ is ⟮about 2.1⟯. 
 
-Country|TFR
+##### current TFRs
+
+table:Country|TFR
 ⟮Japan⟯|⟮~1.4⟯
 ⟮Korea⟯|⟮~0.9⟯
 
@@ -378,27 +222,33 @@ Country|TFR
 
 #### definition of dependent
 
-In demographics/economics, a ⟮dependent⟯ is someone ⟮who relies on someone else for financial support.⟯
-For statistical purposes, it is generally assumed that ⟮those aged 15-64⟯ are ⟮non-dependents⟯, and ⟮those aged 0-14 and 65-⟯ are ⟮dependents⟯.
-The relationship of ⟮dependents per non-dependent⟯ is expressed ⟮in the dependency ratio⟯.
+In demographics/economics, a »⟮dependent⟯« is someone ⟮who relies on someone else for financial support.⟯
+For statistical purposes, it is generally assumed that ⟮those aged 15-64⟯ are ⟮non-dependents⟯
+For statistical purposes, it is generally assumed that ⟮those aged 0-14 and 65-⟯ are ⟮dependents⟯.
 
 #### dependency ratio
 
-The ⟮dependency ratio (amount of people who work divided by people who can't⟯) is used as a proxy for ⟮pressure on the productive population⟯,
+The »⟮dependency ratio⟯« is the ratio of of ⟮dependents per non-dependent⟯.
+The ⟮dependency ratio⟯ is used as ⟮a proxy for⟯ ⟮pressure on the productive population⟯,
 A ⟮lower⟯ ⟮dependency ratio⟯ is generally better because it often results in ⟮economic growth⟯.
 
 ##### demographic dividend/burdern
 
-When ⟮a change to a lower dependency ratio leads to economic growth⟯, which is most often caused when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯, this is termed a ⟮demographic dividend⟯.
-the idea of a ⟮demographic dividend⟯ is used to explain e.g. ⟮China's rapid economic growth⟯ - in ⟮2010⟯ they had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
-Of course, ⟮this large group of young people⟯ responsible for a ⟮demographic dividend⟯ will ⟮eventually grow old⟯, with ⟮less young people to support them⟯, leading to ⟮an increased dependency ratio⟯. this has been termed the ⟮demographic tax⟯ or ⟮demographic burden⟯.
-A ⟮demographic burden/tax results⟯ in ⟮lower economic growth⟯ - a fact ⟮Japan⟯ ⟮is currently experiencing⟯ and ⟮China⟯ ⟮probably will fall victim to as well⟯.
+A »⟮demographic dividend⟯« is when a ⟮change to a lower dependency ratio⟯ ⟮leads to economic growth⟯
+Low dependency ratios (and thus demographic dividends) often happen when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯.
+⟮China's rapid economic growth⟯ is often explained via the ⟮demographic dividend⟯.
+in ⟮2010⟯ China had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
+A »⟮demographic burden/tax⟯« is when a ⟮change to a higher dependency ratio⟯ ⟮leads to economic stagnation⟯
+The age group responsible for a low dependency ratio aging out results in a sudden high dependency ratio.
+Japan is the first country to really feel the demographic tax/burden.
+Other countries such as china will begin feeling the demographic tax/burden soon.
 
 ### sex/gender
 
 #### missing women
 
-The term "⟮missing women⟯" (coined by ⟮Amartya Sen⟯) indicates a shortfall in ⟮the number of women⟯ relative to ⟮the expected number of women⟯ in ⟮a region or country⟯. 
+The term ⟮missing women⟯ was coined by ⟮Amartya Sen⟯.
+⟮missing women⟯ is the shortfall in ⟮the number of women⟯ relative to ⟮the expected number of women⟯ in ⟮a region or country⟯. 
 ⟮missing women⟯ are often measured/discovered through ⟮male-to-female sex ratios⟯, specifically via ⟮the deviance from⟯ the ⟮natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1⟯) 
 ⟮Sen⟯ argued that there were about ⟮100 million⟯ ⟮"missing women"⟯ in ⟮Asia⟯. 
 The phenomenon of ⟮missing women⟯ and is theorized to be caused by ⟮sex-selective abortions⟯, ⟮female infanticide⟯, and ⟮inadequate healthcare and nutrition for female children⟯. 
