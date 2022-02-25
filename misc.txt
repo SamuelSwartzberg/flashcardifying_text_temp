@@ -35,47 +35,7 @@ form|corresp. value|explanation
 ⟮＿Reproductive labor＿⟯ consists of ⟮chores⟯ and ⟮childrearing⟯.
 
 
-# art ＆ media
-
-## the artist
-
-### auteur theory
-
-An ⟮auteur⟯ is ⟮an artist⟯ (esp. in ⟮filmmaking⟯) who ⟮excercises a large amount of control⟯ over their work and/or ⟮is credited for the artistic quality⟯ of the work.
-⟮Auteur theory⟯ either (⟮descriptively⟯) says that films/other media are ⟮most strongly influenced⟯ by ⟮a single person⟯, most commonly ⟮the director⟯ (since they have strong control over ⟮the audio-visual element⟯) and thus ⟮when looking at a film/piece of media⟯ we should see it ⟮as the work of the directory,⟯ or (⟮prescriptively⟯) that films/other media are ⟮better⟯ when they ⟮are directed by an auteur.⟯
-
-## fandom
-
-### terminology
-
-Term|Meaning
-⟮Word of God⟯|⟮something that the creator said about one of their works, but isn't contained in the story itself⟯
-⟮Lemon⟯|⟮Fanfiction with explicit sexual content⟯
-⟮Lime⟯|⟮Fanfiction with mild sexual content⟯
-⟮Slash⟯|⟮Fanfiction with gay relationships⟯
-⟮WIP⟯|⟮Work In Progress⟯
-⟮RPF⟯|⟮real person (fan) fiction (fanfiction about real people⟯)
-⟮fic⟯|⟮fanfiction⟯
-⟮fanfic⟯|⟮fanfiction⟯
-⟮stan⟯|⟮an exteremly obsessive fan, to act as such⟯
-
-
-### canon
-
-Both ⟮fanon⟯ and ⟮headcanon⟯ are ⟮elements/interpretations that are not part of the official canon⟯. 
-Elements/interpretations that are ⟮not part of the canon,⟯ but ⟮accepted as canon by a group of  fans⟯ are called ⟮fanon⟯. 
-Elements/interpretations that are ⟮not part of the canon⟯, but ⟮accepted as canon by an individual fan are called headcanon⟯.
-
-### waifus ＆ husbandos
-
-A ⟮waifu⟯, generally, is a ⟮fictional character⟯ ⟮(c:3;female::gender⟯) to  ⟮ which one is attracted.⟯ 
-The ⟮male::gender⟯ version of a waifu is a ⟮husbando⟯. 
-
-## literary theory
-
-⟮Metafiction⟯ is a form of fiction that ⟮emphasizes the constructedness of the work⟯ 
-
-### diagesis
+# move to HCI
 
 Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
 Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
@@ -85,34 +45,8 @@ Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic m
 flex-container:✫sm_Dead_Space_gameplay.jpg✫
 Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
 
-### intent
 
-⟮Authorial intent⟯ is ⟮the intent of an author⟯ ⟮as encoded in their work⟯ 
-⟮Authorial intentionalism⟯ presupposes that ⟮the author has privileged understanding / insight of/into their text⟯. 
-The ⟮death of the author⟯ pushes back against the idea of ⟮authorial intentionalism⟯ 
-
-### hermeneutics
-
-⟮Hermeneutics⟯ is ⟮the study of interpretation.⟯ 
-
-#### hermeneutic circle
-
-flex-container:✫image7.jpg✫
-The ⟮hermeneutic circle⟯, across it's varied definitions, refers to the idea that ⟮understanding⟯ of ⟮a text/thing⟯ consists of ⟮moving between⟯ ⟮two things/states⟯. 
-In the hermeneutic circle, ⟮moving between the two states⟯ ⟮deepens or at least changes⟯ our ⟮understanding⟯. 
-For the hermeneutic circle, since ⟮our understanding at either step⟯ is ⟮never exactly the same⟯ ("⟮No person ever steps in the same river twice⟯"), it may be more apt to call it a ⟮spiral⟯. 
-⟮hermeneutic circle⟯|⟮gadamer⟯|⟮what I expect the text to say/something to be⟯|⟮what I read in the text/experience something to be⟯
-⟮hermeneutic circle⟯|⟮???⟯|⟮what I know⟯|⟮What I read in the text⟯
-⟮hermeneutic circle⟯|⟮Schleiermacher⟯|⟮part of the text⟯|⟮the whole text⟯
-
-
-### narrative
-
-#### narratology
-
-narratology examines the ways that narrative structures our perception of both cultural artifacts and the world around us.
-
-##### move to linguistics
+# move to linguistics
 
 ###### number of feet
 
@@ -221,7 +155,7 @@ Syntactic construct|function
 In ⟮fountain⟯, ⟮indentation⟯ ⟮has no effect (besides organizing the source code document).⟯  
 ⟮Fointain⟯ (in contrast to ⟮markdown⟯) preserves your ⟮line breaks.⟯ 
 
-### move to -> japanese
+# move to -> japanese
 
 #### eras
 
@@ -2340,123 +2274,6 @@ However, the scapegoat may have an easier time ⟮breaking away from the narciss
 
 In a narcisstic family, the ⟮»neutral sibling/person«⟯ is said to be the sibling/person that ⟮always tries to mediate⟯, but ends up ⟮denying the reality of what's happening⟯. 
 In a narcisstic family, a »⟮flying monkey⟯« is person ⟮used by the narcissist⟯ as ⟮a proxy for their narcissist actions.⟯ 
-
-
-# chem
-
-## general phenomena
-
-### reactions
-
-#### basic terminology
-
-A ⟮reagent⟯ is a substance ⟮added to a system⟯ to ⟮cause a chemical reaction⟯.
-A(n) ⟮reagent⟯ that ⟮is consumed in⟯ a chemical reaction is called a(n) ⟮reactant⟯.
-⟮The things⟯ ⟮created in a(n) chemical reaction⟯ are known as ⟮products⟯.
-The ⟮substrate⟯ is ⟮the medium in which⟯ {{c12::a chemical reaction takes place}.
-The ⟮substrate⟯ is also ⟮the substance that is⟯ ⟮transformed in a reaction⟯.
-In biology, an ⟮enzym substrate⟯ is ⟮the organic material⟯ that ⟮is transformed in a reaction⟯.
-⟮Synthesis⟯ in chemistry is ⟮performing one or more chemical reactions⟯ to ⟮convert⟯ ⟮any number of reagents/reactants⟯ into ⟮any number of products⟯.
-In general, ⟮synthesis⟯ produces ⟮more complex compounds⟯ as ⟮products (than its reagents/reactants⟯)
-⟮Biosynthesis⟯ is ⟮synthesis⟯ ⟮within an organism⟯, using ⟮enzyms as catalysts⟯.
-
-### bonds
-
-#### intramolecular
-
-##### covalent 
-
-A ⟮covalent⟯ ⟮bond⟯ is a ⟮intra molecular bond⟯ that involves the ⟮sharing⟯ of ⟮electron pairs⟯ between atoms.
-
-#### intermolecular
-
-## things
-
-### mixtures
-
-If multiple substances ⟮can be mixed⟯, they are ⟮miscible⟯, if they ⟮cannot be mixed⟯, they are ⟮immiscible⟯. 
-An example of ⟮immiscible⟯ liquids are ⟮oil and water⟯.
-An ⟮emulsfier⟯ allows two ⟮normally⟯ ⟮immiscible⟯ liquids to ⟮sb;become ⟮an emulsion⟯, that is, to ⟮c+;sb;become mixed⟯.⟯
-In german, an ⟮emulsfier⟯ is called ⟮Emulgator⟯, an ⟮emulsion⟯ ⟮Emulsion⟯.
-
-### molecules
-
-A ⟮molecule⟯ is a ⟮group of two or more⟯ ⟮atoms⟯ ⟮held together⟯ by ⟮chemical bonds⟯. Sometimes the constraint is added that they must be ⟮electrically neutral⟯, to distinguish them from ⟮ions⟯
-
-#### moiety
-
-a ⟮moiety⟯ is ⟮a part⟯ of a ⟮molecule⟯ that is ⟮given a name⟯ because it is identified as ⟮a part of other molecules as well⟯.
-
-#### functional groups
-
-The ⟮same⟯ ⟮functional group⟯ will undergo the ⟮same or similar⟯ ⟮chemical reactions⟯ regardless of ⟮the rest of the molecule's composition⟯.
-a ⟮functional group⟯ is a part of a ⟮molecule⟯ that causes the ⟮molecule⟯'s ⟮characteristic chemical reactions⟯
-
-### atom
-
-#### elements
-
-##### chemical symbols
-
-
-      Chemical Symbol
-    |
-      Name
-        ⟮Fe⟯
-      |
-        ⟮Iron⟯
-
-
-##### classes
-
-###### noble gases
-
-The ⟮noble gases⟯ ⟮outer shell of valence electrons⟯ is considered to be ⟮"full"⟯, giving them little tendency to ⟮participate in chemical reactions⟯
-
-#### electrons
-
-##### shells
-
-an ⟮electron shell⟯ may be thought of as ⟮an orbit⟯ of ⟮electrons⟯ ⟮around⟯ an atom's ⟮nucleus⟯.
-Each ⟮shell⟯ is composed of one or more ⟮subshells⟯, which are themselves composed of ⟮atomic orbitals⟯. 
-
-###### shell numbers ↔ letters
-
-Shell Number|Shell Letter
-⟮1⟯|⟮K⟯
-⟮2⟯|⟮L⟯
-⟮3⟯|⟮M⟯
-etc...|etc...
-
-###### electron contents per shell
-
-The ⟮closer the shell to the nucleus⟯, the ⟮ smaller its number / earlier to the alphabet its letter⟯
-the ⟮nth⟯ ⟮shell⟯ can in principle hold up to ⟮2(n⎴2⎴⟯) electrons.
-
-Shell|Can hold this many electrons
-⟮1 / K⟯|⟮2⟯
-⟮2 / L⟯|⟮8 (2 + 6)⟯
-⟮3 / M⟯|⟮18 (2 + 6 + 10)⟯
-etc...|etc...
-
-
-
-### elementary particles
-
-A ⟮valence electron⟯ is an electron ⟮in the outer shell of an atom⟯
-
-### more than one category
-
-#### radicals
-
-A ⟮radical⟯ or ⟮free radical⟯ is a(n) ⟮atom/molecule/ion⟯ that has ⟮an unpaired valence electron = unfilled valence shell⟯, which generally makes them ⟮highly reactive⟯.
-
-#### ions
-
-An ⟮ion⟯ is a particle, atom or molecule with a ⟮net electrical charge⟯.
-A ⟮cation⟯ is a ⟮positively⟯ charged ion with ⟮fewer⟯ ⟮electrons⟯ ⟮than⟯ ⟮protons⟯
-A ⟮anion⟯ is a ⟮negatively⟯ charged ion with ⟮more⟯ ⟮electrons⟯ ⟮than⟯ ⟮protons⟯
-Because of ⟮their opposite electric charges⟯, ⟮cations⟯ and ⟮anions⟯ ⟮attract each other⟯ and readily form ⟮ionic compounds⟯.
 
 # lock-picking
 
