@@ -2058,6 +2058,14 @@ Pragmatics is the subfield that studies how context contributes to meaning.
 
 In linguistics, a phatic expression is communication which serves a social function, not a semantic one.
 
+#### backchanneling
+
+In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
+Backchannel responses are often phatic expressions.
+
+Japanese backchannels are called 　相（あい）　槌（づち）.
+　相（あい）　槌（づち） are quite common in japan.
+
 #### Discourse markers
 
 An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
@@ -2243,7 +2251,7 @@ a hedge is a word or phrase used in a sentence to express ambiguity, probability
 
 ### language grouping
 
-Cover term for language, dialect, lect, family, etc|Languoid
+Cover term for language, dialect, lect, family, etc|
 
 ### lexicography
 
@@ -2944,88 +2952,138 @@ William Caxton introduced the printing press to england.
 
 ## sociolinguistics
 
-A spr⁑e⁑chbund is a group that has ⟮a shared way of speaking⟯ going beyond language boundaries
+Socioloinguistics is the study of the interaction between society and language.
+dialectology is a subfield of sociolinguistics.
+Dialectology is the study of lects.
 
-note that unlike a sprachbund, this doesn't have to be geographically contiguous, and doesn't refer to whole languages, but just groups of speakers, and is generally not about vocabulary or grammar per se, but more about a more abstract manner
-What might hip-hop with the characteristics of rapping, rhyme, and human beatboxing be an example of, if they occur in different langauges?  A sprechbund
+### variation
 
-### backchanneling
+A variant is a different way of saying the same thing. 
+A sociolinguistic variable is the set of variants that mean the same thing.
+Variation is the fact of multiple variants existing (either in general, or for a specific situation)
+In sociolinguistics, exchanging a variant for another of the same sociolinguistic variable changes the social meaning, but not the meaning meaning.
 
-In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
-Backchannel responses are often phatic expressions.
+variationist sociolinguistics is the subfield of sociolinguistics that studies sociolinguistiv variables specifically.
 
-Japanese backchannels are called 　相（あい）　槌（づち）.
-　相（あい）　槌（づち） are quite common in japan.
+### varieties
 
-### accent
+Lect = variety
+A variety is a version of a language.
+A variety limits the variants of sociolinguistic variables.
+^though it's not like any variant has exactly one variant for any sociolinguistic variable.
 
-In sociolinguistics, an accent is a manner of pronunciation peculiar to a particular individual, situation, or group.
+#### language
 
-### lects
+The term language is often avoided in sociolinguistics, since it carries connotations of 'standard variety'.
 
-a lect or variety is a version of a language spoken by a certain speech community
-The term lect or variety avoids the term language, which people often associate with the idea of a standard variety.
-Roughly, lects are mutually intelligible, but languages are not.
-Register and style are both functional varieties.
-Register and style a synonyms.
-A register/style is a lect that is used for a particular purpose or in a particular communicative setting.
+#### Languoid
 
+Languoid is a cover term for language and variety.
+
+#### speech communities and varieties
+
+A variety is generally spoken by a certain speech community.
+There are specific terms for varieties spoken by certain speech communities.
+
+
+table:type of variety|spoken by speech community defined by
+register/style|particular communicative setting
 ideolect|a specific person
 sociolect|a social group
 regiolect, geolect, topolect|a specific area
 ethnolect|ethnic group
 
+
+register and style are synonyms.
+Since registers/styles are defined by a situation, not a specific group, these are also known as functional varieties.
+
+#### specific varieties
+
+##### slang, jargon, cant, argot ...
+
+slang, jargon, cant, and argots are all varieties.
+slang, jargon, cant, and argots are all defined mainly by word choice ＿variants＿.
+The variants that make up a certain slang, jargon, cant or argot register are words that have in common that they are othwerise not in common usage.
+It is hard to distinguish slang, jargon, argot, cant, etc. because they are ⟮often used interchangeably⟯
+Slang is typically a register that is informal and used in an in-group setting.
+Jargon is typically the register of a certain field.
+Cant ≈ argot
+Cant/argot is ＿jargon＿ with the purpose to exclude or mislead people outside the field.
+
+##### AAVE
+
 AAVE = African American Vernacular English
 
-#### slang, jargon, cant, argot ...
+### what is being varied?
 
-It is hard to distinguish slang, jargon, argot, cant, etc. because they are ⟮Often used interchangeably⟯
-Slang is an informal register of an in-group that is not ⟮in general common usage⟯
-Jargon is the specialized language of a certain field.
-Cant ≈ argot
-Cant/argot is jargon with the purpose to exclude or mislead people outside the group
+Pretty much any feature can be varied to create variants of a sociolinguistic variable.
 
-### accomodation
+#### pronunciation
 
-Acommodation and thus convergence/divergence are studied in Speech/Communication Accommodation Theory.
-Accomodation is the process where participants change aspects of their language use according to the speech style of  ⟮other participants in the conversation⟯
+##### accent
+
+An accent is pronunciation as a sociolinguistic variable.
+
+#### ways of speaking
+
+##### sprechbund
+
+A spr⁑e⁑chbund is a speech community which has ⟮a shared way of speaking⟯ going beyond language boundaries as a ＿variant＿.
+
+note that unlike a sprachbund, a spechbund doesn't have to be geographically contiguous, and refers to speech communities, not languages, and is generally not about vocabulary or grammar per se, but more about a more abstract manner
+A sprechbund might e.b. be hip-hop with the characteristics of rapping, rhyme, and human beatboxing.
+
+### variation in different situations
+
+#### accomodation
+
+Speech/Communication Accommodation Theory studies acommodation and thus convergence/divergence.
+Accomodation is the process where participants change their way of speaking according to the way of speaking of ⟮other participants in the conversation⟯
 Acommodation (CAT) may be convergence or divergence.
-divergence   Making your speech more ⁑dis⁑similar to the conversational partner's
-convergence   Making your speech more similar to the conversational partner's
+divergence is accomodation by making your speech more ⁑dis⁑similar to the conversational partner's
+convergence is accomodation by making your speech more similar to the conversational partner's
 
-### soclingvar
+#### code switching
 
-In sociolinguistics, different ways of saying the same thing are known as variables.
-In sociolinguistics, socio-linguistic variable consists of all different variants for saying the same thing.
-In sociolinguistics, exchanging a variant for another of the same sociolinguistic variable has a social significance/meaning.
-In sociolinguistics, the existence of different variants is known as variation.
-The subfield of sociolinguistics that studies sociolinguistiv variables is variationist sociolinguistics.
+Code-switching = language alternation
+whatever-switching is changing between 2+ languoids in a single conversation
 
-### code switching
 
-Code-switching AKA language alternation
-Code-switching is when a speaker alternates between two+ lects/languages in a single conversation.
-Style-shifting is when a speaker alternates between two+ styles/registers in a single converation.
+table:-switching|changing between 2+...
+Code-switching|any languoids
+Style-shifting|styles/registers
 
-### speech community
+### which groups adopt the lect
 
-A speech community is a group of people who share a common lect.
-The term speech community is generally used for groups which share a very specific lect, that is with precise norms, excpectations, etc.
-A focused speech community is one where there is agreement about the shared varieties features
-A diffuse speech community is one where there is less/little agreement about the shared varieties features
+#### speech community
+
+A speech community is a group of people who share a common languoid.
+The term speech community may more specifically used for a speech community (broad sense) whose memebers share a very specific lect, that is with precise norms, excpectations, etc.
+A speech community may be focused or diffuse.
+A focused speech community is one where there is agreement about the shared languoid's features
+A diffuse speech community is one where there is less/little agreement about the shared languoid's features
 Each person belongs to many speech communities.
 
 #### diglossia 
 
-Diglossia is the situation where a speech community uses two (or more) lects for separate purposes.
-For diglossia usually a a vernacular (L) variant and a high/formal/literate variant (H) exist
-vernacular variant (L)|everyday situations|native speakers
-high variant (H)|formal situations, literature|no native speakers
+Diglossia is the situation where a speech community uses two (or more) langoids for separate purposes.
+vernacular variant = L variant 
+high/formal/literary variant = H variant
+For diglossia usually a L variant and a H exist
+
+
+table:variant|used in|native speakers
+L|everyday situations|native speakers
+H|formal situations, literature|no native speakers
+
+
 文語 (classical japanese) was a H variety during diglossia.
 
-### language and social categories
+### the sociolinguistic situation of certain groups
 
 #### language and gender
+
+##### history
 
 The study of language and gender is said to have stared with Language and Women's Place by Robin Lakoff (1973 or 1975, its unclear to me)
 Robin Lakoff was married to the (arguably) more famous Lakoff (of Metaphors We Live By fame)
@@ -3056,7 +3114,9 @@ lexical gender|female (girl)
 grammatical gender|neuter (das Mädchen)
 referential gender|male (the deictic referent.)
 
-### standartization
+### how does variation interact with other forces?
+
+#### standartization
 
 A standard variety/dialect/language is the version of a language which is standartized to a certain extent and thought to be/promoted as correct
 A monocentric langauge is a language with one standard variety   
@@ -3070,8 +3130,6 @@ A variety of a language that is considered a subform of a standartized variety i
 A non-heteronomous language is autonomous.
 Baviarian is heteronomous in relaiton to standard german.
 A heteronomous language will tend to change towards the standard variety. 
-
-### value, correctness, power
 
 #### prestige
 
@@ -3107,9 +3165,7 @@ Linguistic hegemony is when a dominant group has created the idea that their lan
 The universal use of english might be considered linguistic hegemony because it is seen as a tool/instrument (like a tractor), not a world order.
 In a critical view, english as the standard language in science may be an example of linguistic hegemony
 
-### misc
 
-A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
 ## multilingualism
 
@@ -3124,7 +3180,18 @@ A minority language is a language spoken by a minority of the population of an e
 A target language is a language being learnt or translated into.
 A source language is a langugage from which one is translating.
 
-### language transfer
+### multilingualism within speakers
+
+SLA
+
+#### bi/multilingualism
+
+⟮Bilingualism⟯ is ⟮The ability to speak two languages (or the state of being in two langauges)⟯
+⟮Multilingualism⟯ is ⟮The ability to speak multiple language (or the state of being in multiple langauges)⟯
+Bi/multilingualism from birth   Simultaneous bi/multilingualism
+Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
+
+#### language transfer
 
 Language transfer is the application of linguistic features from one language to another by ⟮a bilingual or multilingual speaker⟯, or to say it differently, two languages influencing each other within a speaker.
 CLI (crosslinguistic influence) is roughly synonymous to language transfer.
@@ -3132,30 +3199,28 @@ negative language transfer is language transfer that results in errors
 positive language transfer is language transfer that results in easier language learning.
 While language transfer/cli is two languages influencing each other within a speaker, language contact is two languages themselves influencing each other.
 
-### SLA
 
-⟮Bilingualism⟯ is ⟮The ability to speak two languages (or the state of being in two langauges)⟯
-⟮Multilingualism⟯ is ⟮The ability to speak multiple language (or the state of being in multiple langauges)⟯
-Bi/multilingualism from birth   Simultaneous bi/multilingualism
-Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
+#### SLA
 
-#### Heritage language
+
+
+##### Heritage language
 
 A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
 People may have varying degrees of fluency in their heritage language.
 
-#### Interlanguage
+##### Interlanguage
 
 An interlanguage is an idiolect that has been developed by a learner of a second language (or L2) which preserves some features of their first language (or L1) and/or overgeneralizes/misuses some L2 writing and speaking rules. 
 When an interlanguage ceases becoming similar to the L2, it has fossilized.
 
-### Attrition
+#### Attrition
 
 Language attrition is split up into first-language attrition and second-language attrition
 The process of losing language skills in a language   Language attritionThe process of losing language skills in a ⁑second⁑ language  Second-language attrition
 The process of losing language skills in a ⁑native⁑ language  First language attrition
 
-### shared languages
+### languages for multilingual situations
 
 A koine is a standard language or lingua franca created by the contact of ⟮c+;Two or more mutually intelligible languages ⟯
 
@@ -3196,14 +3261,28 @@ To an overwhelming extent, the languages that are spoken in the 21st century are
 
 Naturalistic conlangs mimic existing real languages.
 
-### translingualism
+### multilingual linguistics
+
+#### translingualism
 
 Translingual phenomena are features of language that are relevant in more than one language. 
 The International scientific vocabulary is the set fo science-related words that is  ⟮used translingually⟯
 
-### translation
+### rendering between representations/languages
 
-⟮DE-EN / EN-DE translation⟯ is billed ⟮by line⟯, where a line is ⟮55 characters⟯ (⟮including spaces⟯) in ⟮c+;the target language. ⟯
+#### translation
+
+Translation is the rendering of the meaning of a source language text in a target language text.
+
+#### transcription
+
+Transcription is the represention of spoken language in written form.
+
+#### glossing
+
+### misc
+
+A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
 ## language geography
 
