@@ -3067,12 +3067,12 @@ Each person belongs to many speech communities.
 #### diglossia 
 
 Diglossia is the situation where a speech community uses two (or more) langoids for separate purposes.
-vernacular variant = L variant 
-high/formal/literary variant = H variant
-For diglossia usually a L variant and a H exist
+vernacular variety = L variety 
+high/formal/literary variety = H variety
+For diglossia usually a L variety and a H exist
 
 
-table:variant|used in|native speakers
+table:variety|used in|native speakers
 L|everyday situations|native speakers
 H|formal situations, literature|no native speakers
 
@@ -3085,34 +3085,41 @@ H|formal situations, literature|no native speakers
 
 ##### history
 
-The study of language and gender is said to have stared with Language and Women's Place by Robin Lakoff (1973 or 1975, its unclear to me)
+The study of language and gender is said to have stared with Language and Women's Place
+Language and Women's Place was written by by Robin Lakoff in 1973 or 1975, its unclear to me.
 Robin Lakoff was married to the (arguably) more famous Lakoff (of Metaphors We Live By fame)
-Robin Lakoff, in Language and Womans place, wants to analyze linguistic forms of patriarchy why? → ⟮to see what they can teach us about patriarchy at large⟯
-In robin lakoffs language and womens place, the method she uses is native speaker intuition
-Deborah tannen was a student of robin lakoff who initiated the difference approach to language and gender with her book You Just Don't understand (1990)
+Deborah tannen was a student of robin lakoff 
+Deborah Tannen wrote You Just Don't Understand in 1990.
+You Just Don't Understand initiated the difference approach to language and gender with her book 
 
 ##### approaches
 
 There are broadly three approaches to explain differences between male and female language.
 The three approaches to explain the differences between male and female language are the dominance, deficit and difference approach.
-
-
-table:approach|description|proponents
-⟮dominance approach⟯|⟮powerless women's language⟯ ⟮reflects (is caused by) male dominance more generally⟯
-⟮deficit approach⟯|⟮women's language⟯ ⟮is inferior to (= weaker than⟯) ⟮men's language⟯ (and ⟮this causes women's oppression, at least in part⟯)|⟮Robin Lakoff}⟯
-⟮difference approach⟯|⟮women and men ⟯ just ⟮belong to different linguistic subcultures ('separate but equal'⟯)|Deborah tannen
-
+The deficit and dominance approach have in common that they assert that women's language is weaker than men's language.
+The deficit approach argues that women's language being weaker causes/perpetuates women's oppression.
+The dominance approach argues that women's language being weaker is a reflection of women's oppression.
+The difference approach asserts that women's language is not weaker or worse, instead just different from men's language.
 
 ##### gender in words
 
-Words may have gender in various ways: lexical gender, grammatical gender, referential gender, social gender
+Words may have gender in rougly four ways.
+The four ways in which words may have gender are lexical gender, grammatical gender, referential gender, social gender.
 lexical, grammatical, referential and social gender may contradict each other.
 
-lexical gender|gender as inherent in the reference of words, most commonly in kinship terms|Mother, aunt, son, father
-social gender|words being gendered via their gender connotations|e.g. surgeon, lawyer is pronominalized by he even when gender is unknown
-referential gender|words being gendered via the gender of their deictic referent
+lexical gender is gender as inherent in the reference of words.
+lexical gender is most common in kinship terms
+Examples for lexically gendered words: Mother, aunt, son, father
+social gender is words being gendered via their gender connotations
+Examples for social gendered words: surgeon, lawyer is pronominalized by he even when gender is unknown
+referential gender is words being gendered via the gender of their deictic referent
 
-If a male person is called a "Mädchen für alles", Mädchen has...
+###### Mädchen für alles
+
+!If a male person is called a "Mädchen für alles", Mädchen has...
+
+
+table:gender|feature
 lexical gender|female (girl)
 grammatical gender|neuter (das Mädchen)
 referential gender|male (the deictic referent.)
@@ -3121,26 +3128,49 @@ referential gender|male (the deictic referent.)
 
 #### standartization
 
-A standard variety/dialect/language is the version of a language which is standartized to a certain extent and thought to be/promoted as correct
-A monocentric langauge is a language with one standard variety   
-A pluricentric langauge is a language with multiple different standard varieties 
-Monocnetric language|Japanese
-Pluricentric language|English, German, Spanish  
-The fact that english has BE and AE as well as many other standard forms of english makes it ⟮a pluricentric language⟯
+Standard varity ≈ standard language.
+A standard variety is a certain varity of a language.
+
+!The standard variety generally has two properties: 
+- !standartized to a certain extent 
+- !thought to be/promoted as correct
+
+##### how many standard varieties?
+
+Monocentric/pluricentric is about how many standard varieties a language has
+
+
+table:language|how many standard varieties
+monocentric langauge|1
+pluricentric langauge|>1 
+
+###### examples
+
+table:centric|language I speak
+Monocentric language|Japanese
+Pluricentric language|English, German, Spanish 
+
+
+English is a pluricentric language since it has BE and AE as well as many other standard forms.
 Some of the the different standard varieties of german are ⟮Standard german german, standard swiss german, standard austrian german⟯
 
-A variety of a language that is considered a subform of a standartized variety is heteronomous in relation to the standard variety.
-A non-heteronomous language is autonomous.
-Baviarian is heteronomous in relaiton to standard german.
+##### auto/heteronomity 
+
+auto/heteronomous is whether a languoid is considered to be a variety of another standard variety.
+
+heteronomous = is a variety of another standard variety
+autonomous = is not a variety of another standard variety.
+
+Baviarian is heteronomous in relation to standard german.
 A heteronomous language will tend to change towards the standard variety. 
 
 #### prestige
 
-Prestige is the level of regard given to a thing within a given speech community
-A lect with high prestige is called a prestige variety.
-Prestige may be applied to lects or to smaller units such as words or grammatical constructs.
+Prestige is the level of regard given within a given speech community
+Prestige can apply to variants or varieties.
+A prestige variety is a variety with high prestige.
 Most commonly, standard varieties are prestige varieties.
-Covert prestige is the situation in which a non-standard variety has high prestige
+Covert prestige is the situation in which a non-standard variety has high prestige.
 
 #### linguistic prescriptivism
 
@@ -3148,24 +3178,28 @@ Linguistic prescription is establishing rules for the correct or good use of a l
 
 ##### language academies
 
-⟮Language academies⟯ are institutions ⟮regulating standard languages⟯, generally following ⟮linguistic prescriptivism⟯ 
-The ⟮RAE⟯ ⟮(c:5;Real Academia Española⟯) is the ⟮spanish⟯ ⟮language academy⟯, generally ⟮quite conservative⟯ in outlook 
+⟮Language academies⟯ are institutions ⟮regulating standard varieties⟯
+Language academies generally follow ⟮linguistic prescriptivism⟯ 
+RAE is short for Real Academia Española⟯ 
+The ⟮RAE⟯ is the ⟮spanish⟯ ⟮language academy⟯, generally ⟮quite conservative⟯ in outlook 
 
 ##### dialect
 
 Dialect as a term often implies negative value ('mere dialect').
 People very confused may use dialect to mean accent.
 In regions such as Italy, France and the Philippines separate but non-standard sister languages to the standard variety are called and (falsely) considered to be dialects.
-In an academic setting, a dialect is either a synonym of variety/lect or for regiolect.
+In an academic setting, a dialect is either a synonym of variety or regiolect.
 
 #### language dominance
 
-Language dominance is either the more frequent/ready use of or proficiency in one language more than another, either of a given speaker or within a speech community.
+Language dominance is either the more frequent/ready use of or proficiency in one language more than another.
+Language dominance may either be within a given speaker or within a speech community.
 
 #### power
 
-Linguistic hegemony is when a dominant group has created the idea that their language normas are standard/paradigmatic, and the failure to meet them is the failure of the language/language use of the failee.
-The universal use of english might be considered linguistic hegemony because it is seen as a tool/instrument (like a tractor), not a world order.
+!Linguistic hegemony is when a dominant group has created the idea that
+- !their language norms are standard/paradigmatic,
+- !the failure to meet them means the failee is bad at the language
 In a critical view, english as the standard language in science may be an example of linguistic hegemony
 
 
