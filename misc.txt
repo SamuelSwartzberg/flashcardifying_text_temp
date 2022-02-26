@@ -117,155 +117,6 @@ Syntactic construct|function
 In ⟮fountain⟯, ⟮indentation⟯ ⟮has no effect (besides organizing the source code document).⟯  
 ⟮Fointain⟯ (in contrast to ⟮markdown⟯) preserves your ⟮line breaks.⟯ 
 
-# soc
-
-## theories ＆ approaches
-
-### positivism
-
-»⟮Positivism⟯« as ⟮a sociological theory⟯ holds that ⟮society is governed⟯ ⟮according to general laws⟯
-
-## social models
-
-### Social-Ecological Models
-
-⟮»Social-ecolocgical models«⟯ ⟮separate⟯ ⟮things that can affect an individual⟯ ⟮c-;into categories⟯. 
-The categories that ⟮social-ecological models separate things into⟯ are ⟮not always identical, though some are common.⟯
-
-#### !The categories that social-ecological models separate things 
-
-onion-box:
-⟮c+;s∞;Societal (Policy) ⟯
-  ⟮c+;s∞;Community⟯ 
-    ⟮c+;s∞;Organizational (more frequently left out) ⟯
-      ⟮c+;s∞;Relationship⟯ 
-        ⟮c+;s∞;Individual⟯
-
-## units
-
-### community
-
-#### community of practice
-
-⟮a »community of practice«⟯ is ⟮a set of people⟯ who ⟮come together⟯ via ⟮mutual engagement⟯ ⟮in a common endeavor⟯ 
-In ⟮their engagement in their endeavor⟯, what emerges ⟮in a ＿community of practice＿⟯ are ⟮Ways of doing things, ways of talking, beliefs, values, power relations - in short, practices⟯ 
-
-## demographics
-
-»⟮Demography⟯« is the statistical study of ⟮populations and poplulation change⟯ 
-
-### generations
-
-table:Generation|Start|End|Nicknames
-⟮Baby boomers⟯|⟮c+;s+;~1945⟯|⟮c+;s-;~1965⟯
-⟮Generation X⟯|⟮c+;s+;~1965⟯|⟮c+;s-;~1980⟯
-⟮Millenials⟯|⟮c+;s+;~1980⟯|⟮c+;s-;~1995⟯|⟮c+;s∞;Generation Y⟯
-⟮Generation Z⟯|⟮c+;s+;~1995⟯|⟮c+;s-;~2010⟯|⟮c+;s∞;Zoomers⟯
-⟮Generation α⟯|⟮c+;s+;~2010⟯|⟮c+;s-;???⟯
-
-### population pyramid
-
-flex-container:✫sm_world_population_2017.jpg✫
-
-
-A ⟮population pyramid⟯ indicates ⟮age brackets⟯ on ⟮the y axis⟯
-a ⟮population pyramid⟯ indicates ⟮amount of pepople⟯ on ⟮the x axis⟯
-A⟮ population pyramid⟯'s indication of population is generally ⟮split into sex⟯
-
-### birth rate/fertility
-
-The ⟮different fertility rates are⟯ sometimes presented ⟮as-is (as a percentage)⟯, or ⟮multiplied by 1000 to ⟮present a number/index⟯ 
-
-#### crude birth rate
-
-What we often call ⟮birth rate⟯ is ⟮more properly⟯ called the ⟮＿crude birth rate＿⟯, 
-The birth rade is ⟮more properly called ＿crude birth rate＿⟯ because ⟮it isn't directly based on anything related to childbirth⟯ 
-The »⟮crude birth rate⟯« is ⟮the number of live births⟯ ⟮per person⟯ 
-To get ⟮the ＿crude birth rate＿⟯ in practice, we ⟮divide⟯ ⟮the number of live births⟯ ⟮c-;through⟯ ⟮the population size⟯
-
-#### general fertility rate
-
-The »⟮general fertility rate⟯« is ⟮the amount of live births⟯ ⟮per women aged 15 to 44 (women of childbearing age)⟯ 
-
-#### ASFR
-
-The »⟮age-specific fertility rate⟯« is ⟮the number of births⟯ ⟮to women in a given age group⟯ ⟮divided by the number of women in a given age group⟯ 
-The ⟮ASFR⟯ is often ⟮grouped in groups of⟯ ⟮1⟯ or ⟮c_;5⟯ ⟮years⟯. 
-In plain language, the ⟮ASFR⟯ e.g. for ⟮age 21⟯ is ⟮the amount of children an average 21 y/o has in a year⟯ 
-
-#### TFR
-
-The ⟮TFR⟯ measures ⟮babies per woman (in her lifetime)⟯ (*) 
-Mathematically, the ⟮total fertility rate⟯ is ⟮the sum of all⟯ ⟮current age-specific fertility rates⟯ 
-In plain language, the ⟮TFR⟯ is ⟮the sum of⟯ ⟮the amount of chilren⟯ ⟮a women will have⟯ ⟮in any given year of her life⟯ 
-The thing the ⟮total fertility rate⟯ is ⟮trying to estimate⟯ is ⟮the amount of children a woman is expected to have in her lifetime (subject to some theoretical assumptions)⟯
-
-##### caveats
-
-The ⟮＿total fertility rate＿⟯ assumes that ⟮the woman will survive until the end of her reproductive life⟯ and that ⟮she will to experience the exact current age-specific fertility rates (ASFRs) through her lifetime⟯ 
-If a ⟮woman dies before her reproductive period ends (lets say at 30),⟯ she ⟮will not impact ASFRs beyond 30⟯. This is not a problem until ⟮we add them together to the TFR⟯ - since we are using the ASFRs to ⟮estimate how many children a woman will have in her life⟯, ⟮the ASFRs⟯ ⟮should be impacted b⟯⟮y the woman who died before the end of the reproductive period (the dead women should count as 0⟯). Therefore, ⟮maternal mortality distorts the TFR⟯. 
-
-##### replacement rate
-
-The »⟮replacement rate / replacement-level fertility⟯« is ⟮the TFR⟯ ⟮needed to sustain population levels⟯ 
-»⟮Sub-replacement fertility⟯« is ⟮a TFR⟯ ⟮below replacement rate⟯.
-Beyond ⟮the distorting factors for the TFR⟯, ⟮the ＿replacement rate＿⟯ is additionally distorted by ⟮child mortality⟯. 
-⟮The ＿replacement rate＿⟯ for countries ⟮with low child and maternal mortality⟯ is ⟮about 2.1⟯. 
-
-##### current TFRs
-
-table:Country|TFR
-⟮Japan⟯|⟮~1.4⟯
-⟮Korea⟯|⟮~0.9⟯
-
-### dependency
-
-#### definition of dependent
-
-In demographics/economics, a »⟮dependent⟯« is someone ⟮who relies on someone else for financial support.⟯
-For statistical purposes, it is generally assumed that ⟮those aged 15-64⟯ are ⟮non-dependents⟯
-For statistical purposes, it is generally assumed that ⟮those aged 0-14 and 65-⟯ are ⟮dependents⟯.
-
-#### dependency ratio
-
-The »⟮dependency ratio⟯« is the ratio of of ⟮dependents per non-dependent⟯.
-The ⟮dependency ratio⟯ is used as ⟮a proxy for⟯ ⟮pressure on the productive population⟯,
-A ⟮lower⟯ ⟮dependency ratio⟯ is generally better because it often results in ⟮economic growth⟯.
-
-##### demographic dividend/burdern
-
-A »⟮demographic dividend⟯« is when a ⟮change to a lower dependency ratio⟯ ⟮leads to economic growth⟯
-Low dependency ratios (and thus demographic dividends) often happen when there is a ⟮high fertility rate⟯, resulting in ⟮a bunch of young people⟯, followed by ⟮a decrease in fertility⟯, and often ⟮augmented by an increase in life expectancy⟯.
-⟮China's rapid economic growth⟯ is often explained via the ⟮demographic dividend⟯.
-in ⟮2010⟯ China had an unprecedented ⟮dependency ratio⟯ of ⟮35%⟯, at the a time where the world average was ⟮53%⟯.
-A »⟮demographic burden/tax⟯« is when a ⟮change to a higher dependency ratio⟯ ⟮leads to economic stagnation⟯
-The age group responsible for a low dependency ratio aging out results in a sudden high dependency ratio.
-Japan is the first country to really feel the demographic tax/burden.
-Other countries such as china will begin feeling the demographic tax/burden soon.
-
-### sex/gender
-
-#### missing women
-
-The term ⟮missing women⟯ was coined by ⟮Amartya Sen⟯.
-⟮missing women⟯ is the shortfall in ⟮the number of women⟯ relative to ⟮the expected number of women⟯ in ⟮a region or country⟯. 
-⟮missing women⟯ are often measured/discovered through ⟮male-to-female sex ratios⟯, specifically via ⟮the deviance from⟯ the ⟮natural roughly 1:1 m:f ratio (in fact, in the west it is generally 0.98:1⟯) 
-⟮Sen⟯ argued that there were about ⟮100 million⟯ ⟮"missing women"⟯ in ⟮Asia⟯. 
-The phenomenon of ⟮missing women⟯ and is theorized to be caused by ⟮sex-selective abortions⟯, ⟮female infanticide⟯, and ⟮inadequate healthcare and nutrition for female children⟯. 
-The fact of the existence of missing women is caused by ⟮sexism⟯, and may be seen as a pretty direct expression of ⟮their -value status.⟯ 
-
-### in ‹place›
-
-#### japan
-
-flex-container:✫821361.png✫
-
-In japan, ⟮extramarital birth⟯ is ⟮extremely rare⟯ 
-In japan, marriages as of 2020 occurr ⟮Less and later⟯ 
-Year|Average age for marriage (Japan)|Average age for birth of first child (Japan)
-⟮1990⟯|⟮c+;s3;26⟯|⟮c+;s2;27⟯
-⟮2008⟯|⟮c+;s6;30⟯|⟮c+;s5;30⟯
-
 # biology
 
 ## terminology
@@ -276,158 +127,200 @@ Year|Average age for marriage (Japan)|Average age for birth of first child (Japa
 
 ### practices
 
+#### veganism
+
 ⟮Veganism⟯ is the practice of ⟮abstaining from the use of animal products⟯, particularly in ⟮diet⟯ 
 
 ### institutions
 
-Abbreviation|Full
+#### metrics
+
+table:Abbreviation|Full
 ⟮EAR⟯|⟮Estimated Average Requirement⟯
 ⟮RDA⟯|⟮Recommended Dietary Allowance⟯
 
-government organizations do not necessarily ⟮always agree⟯ on the ⟮amounts of nutrients⟯ needed to ⟮avoid deficiency⟯ or ⟮maximum amounts⟯ (however, ⟮the ballpark is often similar⟯ 
-⟮RDAs⟯ are set higher than ⟮EARs⟯ to ⟮cover people with / situations where people have higher than average needs⟯. 
-⟮chromium⟯ is designated an ⟮essential nutrient⟯ by the ⟮US⟯ and ⟮Japan⟯, but not the ⟮EU⟯ 
-most health authorities recommend ⟮supplementing⟯ at least ⟮vitamin b12⟯ in ⟮vegan diets⟯ 
 
-Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
+⟮RDAs⟯ are set higher than ⟮EARs⟯ to ⟮cover people with / situations where people have higher than average needs⟯. 
+
+#### disagreements 
+
+government organizations do not necessarily ⟮always agree⟯ on the ⟮amounts of nutrients⟯ needed to ⟮avoid deficiency⟯ or ⟮c_;maximum amounts⟯ (however, ⟮the ballpark is often similar⟯ )
+⟮chromium⟯ is designated an ⟮essential nutrient⟯ by the ⟮US⟯ and ⟮c_;Japan⟯, but not the ⟮c_;EU⟯ 
+^Sources: https://www.efsa.europa.eu/en/efsajournal/pub/3845
+
+#### veganism
+
+⟮most health authorities⟯ recommend ⟮supplementing⟯ at least ⟮vitamin b12⟯ in ⟮vegan diets⟯ 
 
 ### antinutrients
 
-⟮Antinutrients⟯ are ⟮compounds⟯ that ⟮interfere with the absorption of nutrients⟯. 
-⟮Phytate (=phytic acid⟯), which may be found in ⟮whole grains⟯, ⟮nuts/seeds⟯, and ⟮legumes⟯, is an ⟮antinutrient⟯ which may ⟮inhibit⟯ ⟮iron⟯ and ⟮zinc⟯ ⟮absorption⟯ (also calcium to a lesser extent), even severely. 
+»⟮Antinutrients⟯« are compounds that ⟮interfere with the absorption of nutrients⟯. 
+⟮Phytate (=phytic acid)⟯ may be found in ⟮whole grains⟯, ⟮nuts/seeds⟯, and ⟮legumes⟯
+⟮Phytate⟯ is an ⟮antinutrient⟯ which may ⟮inhibit⟯ ⟮iron⟯, ⟮zinc⟯ and to a lesser extent ⟮calcium⟯ ⟮absorption⟯.
 
 ### nutrients
 
-A ⟮nutrient⟯ is a substance that an organism requires ⟮for good functioning / maintaining life⟯ 
-⟮an essential nutrient⟯ is a nutrient that ⟮c+;cannot be synthesized by the body (=› must be consumed for survival⟯) 
-According to Marion Nestle, the ⟮list of essential nutrients⟯ is  ⟮almost certainly incomplete⟯ 
-⟮Nutrient density⟯ is ⟮the ratio⟯ of ⟮nutrients⟯ to ⟮energy content⟯ 
-An ⟮empty calorie⟯ is one is one gained from food that ⟮supplies energy⟯ but ⟮(basically) no other nutrients⟯ 
-food ⟮fortification⟯ / ⟮enrichment⟯ is the process of ⟮adding micronutrients⟯ to food. 
+A »⟮nutrient⟯« is a substance that an organism ⟮requires⟯ ⟮for good functioning / maintaining life⟯ 
+⟮an »essential nutrient«⟯ is ⟮a ＿nutrient＿⟯ that ⟮cannot be synthesized by the body (⇒ must be consumed for survival)⟯ 
+A ⟮nutrient⟯ is »⟮conditionally essential⟯« if ⟮synthesis may be limited in certain circumstances⟯
+According to Marion Nestle (no relation), the ⟮list of essential nutrients⟯ is ⟮almost certainly incomplete⟯ 
+»⟮Nutrient density⟯« is ⟮the ratio⟯ of ⟮＿nutrients＿⟯ to ⟮energy content⟯ 
+An »⟮empty calorie⟯« is one from food with ⟮very low ＿nutrient density＿⟯
 
 #### classification
-⟮A nutrient we require small amounts of⟯|⟮a micronutrient⟯
-⟮A nutrient we require large amounts of⟯|⟮a macronutrient⟯
 
+Nutrients are divided into macro- and micronutrients.
+⟮a micronutrient⟯ is ⟮a nutrient we require small amounts of⟯
+⟮a macronutrient⟯ is ⟮a nutrient we require large amounts of⟯
 ⟮Macronutrient⟯ is sometimes used in the more ⟮restricted⟯ sense  ⟮macronutrient that provides energy⟯ 
 
-⟮Macronutrient⟯|⟮Micronutrient⟯
 
-⟮Does not provide energy⟯|⟮Provides energy⟯
-
-⟮Water⟯|⟮Fiber⟯
-
-              |⟮Alcohol⟯|⟮Fat⟯|⟮Carbohydrates⟯|⟮Protein⟯
-
-
-      |
-⟮Minerals⟯|⟮Vitamins⟯
-
-⟮Macrominerals⟯|⟮Trace minerals⟯|⟮Ultratrace minerals⟯
-
-              |
-⟮Fat-soluble⟯|⟮Water-soluble⟯
-
-⟮A⟯|⟮D⟯|⟮E⟯|⟮K⟯
-
-                      |
-
-                                ⟮the 8 B vitamins⟯
-                              |⟮C⟯
+onion-box:
+⟮Macronutrient⟯
+  ⟮Does not provide energy⟯
+    ⟮Water⟯
+    ⟮Fiber⟯
+  ⟮Provides energy⟯
+    ⟮Alcohol⟯
+    ⟮Fat⟯
+    ⟮Carbohydrates⟯
+    ⟮Protein⟯
 
 
-
-
+onion-box
+⟮Micronutrient⟯
+  ⟮Minerals⟯
+    ⟮Macrominerals⟯
+    ⟮Trace minerals⟯
+    ⟮Ultratrace minerals⟯
+  ⟮Vitamins⟯
+    ⟮Fat-soluble⟯
+      ⟮A⟯
+      ⟮D⟯
+      ⟮E⟯
+      ⟮K⟯
+    ⟮Water-soluble⟯
+      ⟮the 8 B vitamins⟯
+      ⟮C⟯
 
 #### macro
 
+Macronutrients are divided into those containing food energy, and those that do not.
+Macronutrients that don't contain food energy are water and fiber.
+
 ##### food energy
 
-⟮Food energy⟯ is ⟮energy⟯ derived from ⟮food⟯ 
-⟮Food energy⟯ is generally measured in ⟮kilocalories⟯ 
-the ⟮calorie⟯, in its proper definition, is ⟮the amount of energy⟯  ⟮needed to raise the temperature of one gram of water by one Kelvin / deg C⟯ 
+»⟮Food energy⟯« is ⟮energy⟯ derived from ⟮food⟯ 
+⟮＿Food energy＿⟯ is generally measured in ⟮kilocalories⟯ 
 
-Foods by food energy per mass:
+###### calories
+
+the »⟮calorie⟯«, in its proper definition, is ⟮the amount of energy⟯  ⟮needed to raise the temperature of one gram of water by one Kelvin / deg C⟯ 
+⟮calorie⟯ is also sometimes nonstandardly called ⟮small calorie⟯, ⟮gram calorie⟯ 
+⟮kilocalorie⟯ is also sometimes nonstandardly called ⟮calorie (confusingly, and mainly in casual conversation)⟯ ⟮large calorie⟯, ⟮food calorie⟯ 
+
+###### Foods by food energy
+
 1. ⟮fats⟯ 
 2. ⟮alcohol(ethanol⟯) 
 3. ⟮carbohydrates⟯/⟮protein⟯
-⟮calorie⟯ is also sometimes called ⟮small calorie⟯, ⟮gram calorie⟯
-⟮kilocalorie⟯ is also sometimes called ⟮calorie (confusingly, and mainly in casual conversation)⟯ ⟮large calorie⟯, ⟮food calorie⟯
-
-⟮calorie⟯ is also sometimes nonstandardly called ⟮small calorie⟯, ⟮gram calorie⟯ 
-⟮kilocalorie⟯ is also sometimes nonstandardly called ⟮calorie (confusingly, and mainly in casual conversation⟯) ⟮large calorie⟯, ⟮food calorie⟯ 
 
 ###### carbs
 
 ⟮Saccharide⟯ is as far as I know a synonym for ⟮Carbohydrate⟯ 
-Carbohydrates may be classified as ⟮monosaccharides⟯, ⟮disaccharides⟯ or ⟮polysaccharides⟯ 
+⟮Carbohydrates⟯ may be classified as ⟮monosaccharides⟯, ⟮disaccharides⟯ or ⟮polysaccharides⟯ 
 
 ###### protein
 
 ⟮Proteins⟯ are made up of ⟮amino acids⟯ 
-⟮Amino acids⟯ are ⟮organic⟯ compounds that contain ⟮amino⟯ (–NH2) and ⟮carboxyl⟯ (–COOH) ⟮functional⟯ groups, along with a ⟮side chain⟯ ⟮(c:6;R⟯ group) ⟮specific to⟯ each ⟮amino acid⟯
+⟮Amino acids⟯ are ⟮organic⟯ compounds.
+All ⟮Amino acids⟯ contain ⟮amino⟯ (–NH2) and ⟮carboxyl⟯ (–COOH) ⟮＿functional groups＿⟯
+⟮Any amino acid⟯ has a ⟮side chain⟯ (⟮R group⟯) ⟮unique to it⟯
 The key elements of an ⟮amino acid⟯ are ⟮carbon⟯, ⟮hydrogen⟯, ⟮oxygen⟯, and ⟮nitrogen⟯, although the ⟮side chains⟯ sometimes ⟮include others⟯
-of the ⟮21⟯ ⟮amino acids⟯ common to all life forms, for humans, ⟮nine⟯ are ⟮essential⟯, ⟮six⟯ are ⟮conditionally essential⟯ ⟮(c:19;synthesis may be limited by circumstances⟯), and ⟮six⟯ are ⟮non-essential⟯
+There are ⟮21⟯ ⟮amino acids⟯ ⟮common to all life forms⟯.
+Of ⟮the 21 common amino acids⟯, for humans, ⟮nine⟯ are ⟮essential⟯, ⟮c-;six⟯ are ⟮conditionally essential⟯, and ⟮c-;six⟯ are ⟮non-essential⟯
 
 ###### fats
 
 ⟮Fat⟯ consists of (is an ester of, whatever that means) ⟮fatty acids⟯ 
 ⟮Fatty acids⟯ may either be ⟮saturated⟯ or ⟮unsaturated⟯. 
-⟮Unsaturated⟯ ⟮fatty acids⟯ ones have ⟮one or more⟯ ⟮C=C double bonds⟯.⟮saturated⟯ factty acids have ⟮no⟯ ⟮C=C double bonds⟯. 
-⟮Saturated fats⟯ are called that because they have the ⟮maximum possible number of hydrogen atoms⟯ attached to ⟮every carbon atom⟯, and thus no ⟮need (or possibility⟯) for ⟮double C=C bonds⟯ 
-Unsaturated fats with ⟮one⟯ ⟮C=C double bond(s⟯) are called ⟮monounsaturated⟯ 
-Unsaturated fats with ⟮two or more⟯ ⟮C=C double bond(s⟯) ⟮polyunsaturated⟯ 
-Since ⟮cis⟯ and ⟮trans⟯ fats refer to the ⟮configuration of the molecule⟯ ⟮around the C=C double bond⟯, only ⟮unsaturated⟯ fats can be ⟮cis⟯ or ⟮trans⟯. 
-since an ⟮unsaturated fatty acid⟯ can have ⟮more than one double bond⟯, it can be ⟮both cis and trans⟯ 
-There are two ⟮essential⟯ fatty acids (EFAs) in human nutrition: ⟮alpha-linolenic acid⟯ (an ⟮omega-3 fatty acid⟯) and ⟮linoleic acid⟯ (an ⟮omega-6 fatty acid⟯). ⟮Other lipids needed by the body⟯ ⟮can be synthesized from these and other fats.⟯ 
-Of the three main types of omega-3 fatty acids, ⟮plant foods⟯ typically contain ⟮only alpha-linolenic acid (ALA⟯). 
 
 ####### health
 
-While the research is not completely settled, ⟮saturated⟯ and ⟮trans unsaturated fats⟯ are generally considered ⟮unhealthy⟯ and ⟮cis unsaturated fats⟯ considered ⟮healthy⟯
+While the research is not completely settled, ⟮saturated⟯ and ⟮c_;trans unsaturated fats⟯ are generally considered ⟮unhealthy⟯ and ⟮c-;cis unsaturated fats⟯ considered ⟮healthy⟯
 
-####### unsaturated
+####### saturation
 
-######## omega
+Saturation is about whether the fatty acid has C=C double bonds or only C-C single bonds.
+»⟮Unsaturated⟯ fatty acids« ones have ⟮one or more⟯ ⟮C=C double bonds⟯.
+»⟮saturated⟯ factty acids« have ⟮no⟯ ⟮C=C double bonds⟯. 
+⟮Saturated fats⟯ are called that because they have the ⟮maximum possible number of hydrogen atoms⟯ ⟮attached to every carbon atom⟯, and thus no ⟮need (or possibility)⟯ for ⟮double C=C bonds⟯ 
 
-⟮omega-3⟯|fatty acids are|⟮polyunsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮3 atoms⟯| away from ⟮the terminal methyl group⟯
-⟮omega-6⟯|fatty acids are|⟮polyunsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮6 atoms⟯| away from ⟮the terminal methyl group⟯
-⟮omega-7⟯|fatty acids are|⟮monounsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮7 atoms⟯| away from ⟮the terminal methyl group⟯
-⟮omega-9⟯|fatty acids are|⟮monounsaturated⟯|fatty acids characterized by a|⟮C=C double bond⟯|⟮9 atoms⟯| away from ⟮the terminal methyl group⟯
+######## unsaturated
 
-######### omega-3
+⟮monounsaturated⟯ fats are ＿unsaturated fats＿ with ⟮one⟯ ⟮C=C double bond(s)⟯ 
+⟮polyunsaturated⟯ fats are ＿unsaturated fats＿ with ⟮two or more⟯ ⟮C=C double bond(s)⟯  
 
-There are three types of ⟮omega-3⟯ fatty acids, ⟮ALA⟯, ⟮EPA⟯, and ⟮DHA⟯.
-of the ⟮three⟯ types of ⟮omega-3⟯ fatty acids relevant to human nutrition, only ⟮ALA⟯ is ⟮essential⟯.
+######### cis and trans
 
-Of the omega-3 fatty acids, only ⟮ALA⟯ is essential since ⟮EPA⟯ and ⟮DHA⟯ can be ⟮synthesized from the former⟯.
-⟮EPA/DHA synthesis from ALA⟯ may be impaired in ⟮aging⟯ and generally is not a ⟮particularly efficient process⟯, as such, ⟮making sure to consume EPA/DHA⟯ is probably advisable.
+⟮cis and trans⟯ are the two ways the ⟮structure of the molecule⟯ ⟮around the C=C double bond⟯ may be
+Only ⟮unsaturated⟯ fats can be ⟮cis or trans⟯. 
+^Since cis and trans⟯ fats refer to the structure around the ⁑C=C double bond⁑.
+since an ⟮unsaturated fatty acid⟯ ⟮can have more than one double bond⟯, it ⟮can be both cis and trans⟯ 
 
-name|abbreviation
-⟮α-linolenic acid ⟯|⟮ALA⟯
-⟮eicosapentaenoic acid⟯|⟮EPA⟯
-⟮docosahexaenoic acid⟯|⟮DHA⟯
+######### omega
 
+⟮all omega fatty acids⟯ are ⟮unsaturated fatty acids⟯.
+⟮all omega (or maybe just all?) fatty acids⟯ ⟮end in⟯ ⟮a methyl group⟯.
+⟮The number⟯ of ⟮the omega fatty acids⟯ indicates ⟮how many atoms away from the terminal methyl group⟯ ⟮a C=C double bound occurs⟯.
+omega ⟮3 and 6⟯ are ⟮polyunsaturated fatty acids⟯.
+omega ⟮7 and 9⟯ are ⟮monunsaturated fatty acids⟯.
 
+########## omega-3
 
-Major ⟮vegan⟯ sources of ⟮ALA⟯: are various form of ⟮seeds⟯ and ⟮nuts⟯
-Major non-vegan sources of ⟮ALA⟯: ⟮fish⟯ and ⟮meat/eggs⟯ to some extent
+There are ⟮three⟯ types of ⟮omega-3⟯ fatty acids ⟮relevant to human nutrition⟯.
+The ⟮three types of omega-3 fatty acids relevant to human nutrition⟯ are ⟮ALA⟯, ⟮EPA⟯, and ⟮DHA⟯.
+of ⟮the three types of omega-3 fatty acids relevant to human nutrition⟯, only ⟮ALA⟯ is ⟮essential⟯.
 
+Of the omega-3 fatty acids, only ⟮ALA is essential⟯ since ⟮EPA and DHA⟯ ⟮can be synthesized from the former⟯.
+⟮EPA/DHA synthesis from ALA⟯ may be ⟮impaired in aging⟯ and generally is ⟮not a particularly efficient process⟯
+Due to ⟮the flaws in EPA/DHA synthesis⟯ ⟮making sure to consume EPA/DHA⟯ is probably advisable.
 
-there are a bunch of ⟮omega-6⟯ fatty acids, but only ⟮linoleic acid⟯ is considered ⟮essential⟯
+########## omega-3
+
+⟮there are a bunch of⟯ ⟮omega-6⟯ fatty acids, but only ⟮linoleic acid⟯ is ⟮considered essential⟯
 ⇱https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/⇲
+
+########## sources
+
+There are only ⟮two⟯ ⟮essential⟯ ⟮fatty acids⟯.
+The ⟮essential fatty acids⟯ are one ⟮omega-3⟯ and one ⟮c_;omega-6⟯ fatty acid.
+⟮ALA⟯ ⟮can be found⟯ ⟮in plant sources⟯.
+⟮ALA⟯ plant sources are mainly ⟮seeds and nuts⟯.
+⟮EPA and DHA⟯ are ⟮generally not found⟯ ⟮in plant sources⟯.
+⟮alpha-linoleic acid⟯ ⟮can be found⟯ ⟮in plant sources⟯.
 
 #### micro
 
+##### fortification
+
+Food ⟮fortification⟯ = ⟮enrichment⟯
+food ⟮fortification/enrichment⟯ is the process of ⟮adding micronutrients⟯ ⟮to food⟯. 
+
 ##### genesis
 
-⟮Minerals⟯ ⟮end up in food⟯ via ⟮rock, soil, and water,⟯ which are ⟮absorbed by plants as they grow (or e.g. by animals licking rocks⟯), and then ⟮passed further up the food chain⟯. 
-⟮What minerals we get⟯ from plants/animals depends on ⟮which they can store⟯, but also ⟮what the soil/animals further down the food chain had in them⟯. 
-⟮Vitamins⟯ are ⟮biosynthesized⟯ by ⟮plants/animals⟯ and then ⟮absorbed by us⟯. 
-⟮Which vitamins⟯ are ⟮contained in food⟯ depend on ⟮what the relevant vegetable or animal can biosythesize⟯. 
+⟮Minerals⟯ are ⟮originally found⟯ in ⟮rock, soil, or water⟯.
+⟮Minerals⟯ ⟮from the rock/soil/water⟯ are ⟮absorbed by plants as they grow⟯.
+⟮Minerals⟯ may also be absorbed by ⟮animals⟯ by ⟮them licking rocks⟯.
+⟮Minerals⟯ are ⟮passed up the food chain⟯ until ⟮they end up in us humans⟯.
+⟮What minerals we get⟯ from ⟮a certain plant/animal⟯ depends on ⟮which they can store⟯, but also ⟮what the soil/animals further down the food chain had in them⟯. 
+
+TO HERE
 
 ##### vitamins
 
+⟮Vitamins⟯ are ⟮biosynthesized⟯ by ⟮plants/animals⟯ and then ⟮absorbed by us⟯. 
+⟮Which vitamins⟯ are ⟮contained in food⟯ depend on ⟮what the relevant vegetable or animal can biosythesize⟯. 
 Theoretically, all ⟮vitamins⟯ are defined to be ⟮essential nutrients⟯, however ⟮Vitamin D⟯ can be synthesized if ⟮exposed to sunlight (specifically UVB rays⟯), and is thus ⟮an exception⟯ 
 Most ⟮vitamins⟯ are not ⟮single molecules⟯, but ⟮groups of related molecules⟯ which are each called ⟮vitamers⟯ 
 Each ⟮vitamin⟯ is typically used in ⟮multiple reactions⟯, and therefore ⟮most have multiple functions⟯. 
@@ -1289,21 +1182,21 @@ mononormativity|+ of monoganism (being monogamous)
 #### -phobia
 
 phobia|against|aspect of ism
-⟮Biphobia⟯|⟮c+;s∞;us1;bisexual people⟯|⟮c+;s∞;us1;heterosexism⟯
-⟮Ephebiphobia⟯|⟮c+;s∞;us4;young people, esp. adolescents⟯|⟮c+;s∞;us4;ageism, adultism⟯
-⟮Homophobia⟯|⟮c+;s∞;us7;LGBT people⟯|⟮c+;s∞;us7;heterosexism⟯
-⟮aphobia⟯|⟮c+;s∞;us10;a-spec people⟯|⟮c+;s∞;us10;doesn't seem to exist yet⟯
-⟮arophobia⟯|⟮c+;s∞;us13;aromantic people⟯|⟮c+;s∞;us13;doesn't seem to exist yet⟯
-⟮acephobia⟯|⟮c+;s∞;us16;asexual people⟯|⟮c+;s∞;us16;alloexism⟯
-⟮gayphobia⟯|⟮c+;s∞;us19;gay people⟯|⟮c+;s∞;us19;heterosexism⟯
-⟮lesbophobia⟯|⟮c+;s∞;us22;lesbian people⟯|⟮c+;s∞;us22;heterosexism⟯
-⟮Xenophobia⟯|⟮c+;s∞;us25;the foregin, esp. foreginers (in relation to the state⟯)|⟮c+;s∞;us25;nativism⟯
-⟮Gerontophobia⟯|⟮c+;s∞;us28;the elderly⟯|⟮c+;s∞;us28;ageism⟯
-⟮Whorephobia⟯|⟮c+;s∞;us31;sex workers⟯|⟮c+;s∞;us31;sexworksim(???⟯)
-⟮transphobia⟯|⟮c+;s∞;us34;trans people⟯|⟮c+;s∞;us34;transsexism⟯
-⟮slavophobia⟯|⟮c+;s∞;us37;slavic people⟯|⟮c+;s∞;us37;xenophobia, racism⟯
-⟮vegaphobia⟯|⟮c+;s∞;us40;vegan people⟯|⟮c+;s∞;us40;carnism⟯
-⟮glottophobia⟯|⟮c+;s∞;us43;certain groups of language users⟯|⟮c+;s∞;us43;linguicism⟯
+⟮Biphobia⟯|⟮c+;s∞;us+2;bisexual people⟯|⟮c+;s∞;us+;heterosexism⟯
+⟮Ephebiphobia⟯|⟮c+;s∞;us+2;young people, esp. adolescents⟯|⟮c+;s∞;us+;ageism, adultism⟯
+⟮Homophobia⟯|⟮c+;s∞;us+2;LGBT people⟯|⟮c+;s∞;us+;heterosexism⟯
+⟮aphobia⟯|⟮c+;s∞;us+2;a-spec people⟯|⟮c+;s∞;us+;doesn't seem to exist yet⟯
+⟮arophobia⟯|⟮c+;s∞;us+2;aromantic people⟯|⟮c+;s∞;us+;doesn't seem to exist yet⟯
+⟮acephobia⟯|⟮c+;s∞;us+2;asexual people⟯|⟮c+;s∞;us+;alloexism⟯
+⟮gayphobia⟯|⟮c+;s∞;us+2;gay people⟯|⟮c+;s∞;us+;heterosexism⟯
+⟮lesbophobia⟯|⟮c+;s∞;us+2;lesbian people⟯|⟮c+;s∞;us+;heterosexism⟯
+⟮Xenophobia⟯|⟮c+;s∞;us+2;the foregin, esp. foreginers (in relation to the state⟯)|⟮c+;s∞;us+;nativism⟯
+⟮Gerontophobia⟯|⟮c+;s∞;us+2;the elderly⟯|⟮c+;s∞;us+;ageism⟯
+⟮Whorephobia⟯|⟮c+;s∞;us+2;sex workers⟯|⟮c+;s∞;us+;sexworksim(???⟯)
+⟮transphobia⟯|⟮c+;s∞;us+2;trans people⟯|⟮c+;s∞;us+;transsexism⟯
+⟮slavophobia⟯|⟮c+;s∞;us+2;slavic people⟯|⟮c+;s∞;us+;xenophobia, racism⟯
+⟮vegaphobia⟯|⟮c+;s∞;us+2;vegan people⟯|⟮c+;s∞;us+;carnism⟯
+⟮glottophobia⟯|⟮c+;s∞;us+2;certain groups of language users⟯|⟮c+;s∞;us+;linguicism⟯
 
 #### natural bases
 
@@ -1812,20 +1705,23 @@ Since the linguistic turn, everyone and their mother have claimed a turn.
 
 ### memory
 
-We currently ⟮don't known much about (or it's very controversial⟯) how ⟮memory⟯ works, e.g. ⟮how much the LTM holds⟯, so it's ⟮fruitless to try and figure it out.⟯ 
+We currently ⟮don't know⟯ much about how ⟮memory⟯ works.
+What we 'know' about ⟮how memory works⟯ is often ⟮quite controversial⟯.
 
 #### types
 
-Name1|Name2|Stores what?
-⟮c+;s2;Explicit memory::E...⟯|⟮c+;s1:;Declarative memory::D...⟯|⟮facts, concepts⟯|The memory that is used for things like flashcards (subject to the ebbinghaus forgetting curve, etc.)
+table:Name1|Name2|Stores what?
+⟮c+;s2;Explicit memory::E...⟯|⟮c+;s1:;Declarative memory::D...⟯|⟮facts, concepts⟯
 ⟮c+;s6;Implicit memory::I...⟯|⟮c+;s5;Non-declarative memory::N...⟯|⟮skills, procedures, categories, sensory experiences⟯
 
+
+⟮Explicit/declarative memory⟯ is the memory that is subject to the ⟮Ebbinghaus forgetting⟯ curve.
 
 #### PAO
 
 ##### letters and numbers
 
-Digit|Letter
+table: Digit|Letter
 ⟮0⟯|⟮K⟯
 ⟮1⟯|⟮A⟯
 ⟮2⟯|⟮B⟯
@@ -1840,119 +1736,129 @@ Digit|Letter
 ##### 1-100
 
 P|A|O|Number|Mnemonics
-⟮c+;s∞;us4;Kirito Kazuto⟯|⟮c+;s∞;us4;dual-wielding⟯|⟮c+;s∞;us4;Dual Swords⟯|⟮00⟯
-⟮c+;s∞;us8;Prof X (X=10⟯)|⟮c+;s∞;us8;mindreading⟯|⟮c+;s∞;us8;a school⟯|⟮10⟯
-⟮c+;s∞;us12;Ben Kenobi⟯|⟮c+;s∞;us12;mourning⟯|⟮c+;s∞;us12;a burned corpse⟯|⟮20⟯
-⟮c+;s∞;us16;Makise Kurisu⟯|⟮c+;s∞;us16;tsundereing⟯|⟮c+;s∞;us16;a labcoat⟯|⟮30⟯
-⟮c+;s∞;us20;Death Knight⟯|⟮c+;s∞;us20;reanimating⟯|⟮c+;s∞;us20;a ghoul⟯|⟮40⟯
-⟮c+;s∞;us24;Gilgamesh (Evil Knight⟯)|⟮c+;s∞;us24;portal-summoning⟯|⟮c+;s∞;us24;a thousand weapons⟯|⟮50⟯
-⟮c+;s∞;us28;Rook⟯|⟮c+;s∞;us28;leading⟯|⟮c+;s∞;us28;A caravan of refugees⟯|⟮60⟯
-⟮c+;s∞;us32;Genghis Khan⟯|⟮c+;s∞;us32;conquering⟯|⟮c+;s∞;us32;a horse⟯|⟮70⟯
-⟮c+;s∞;us36;HK-47⟯|⟮c+;s∞;us36;slaughtering⟯|⟮c+;s∞;us36;some meatbags⟯|⟮80⟯
-⟮c+;s∞;us40;Shinichi Kudo⟯|⟮c+;s∞;us40;deducing⟯|⟮c+;s∞;us40;a fishing line⟯|⟮90⟯
-⟮c+;s∞;us44;B Franklin (The first american⟯)|⟮c+;s∞;us44;discovering⟯|⟮c+;s∞;us44;A key and a kite⟯|⟮01⟯
-⟮c+;s∞;us48;Avatar Aang⟯|⟮c+;s∞;us48;airbending⟯|⟮c+;s∞;us48;A kitestaff⟯|⟮11⟯
-⟮c+;s∞;us52;Barry Allen⟯|⟮c+;s∞;us52;outrunning⟯|⟮c+;s∞;us52;death⟯|⟮21⟯
-⟮c+;s∞;us56;Mikasa Ackerman⟯|⟮c+;s∞;us56;sacrificing⟯|⟮c+;s∞;us56;AoT Swords⟯|⟮31⟯
-⟮c+;s∞;us60;Joan d'arc⟯|⟮c+;s∞;us60;inspiring⟯|⟮c+;s∞;us60;male armor⟯|⟮41⟯
-⟮c+;s∞;us64;EA⟯|⟮c+;s∞;us64;selling⟯|⟮c+;s∞;us64;DLCs⟯|⟮51⟯
-⟮c+;s∞;us68;Rayquaza⟯|⟮c+;s∞;us68;electrocuting⟯|⟮c+;s∞;us68;a pokeball⟯|⟮61⟯
-⟮c+;s∞;us72;Garrus⟯|⟮c+;s∞;us72;wisecracking⟯|⟮c+;s∞;us72;their commanding officer⟯|⟮71⟯
-⟮c+;s∞;us76;Haibara, Ai⟯|⟮c+;s∞;us76;fleeing⟯|⟮c+;s∞;us76;a shadowy organization⟯|⟮81⟯
-⟮c+;s∞;us80;SI7 Agent⟯|⟮c+;s∞;us80;toasting⟯|⟮c+;s∞;us80;a playing card⟯|⟮91⟯
-⟮c+;s∞;us84;King Bradley (Wrath⟯)|⟮c+;s∞;us84;seething⟯|⟮c+;s∞;us84;Philosophers stone⟯|⟮02⟯
-⟮c+;s∞;us88;Aaron Burr⟯|⟮c+;s∞;us88;duelling⟯|⟮c+;s∞;us88;A letter⟯|⟮12⟯
-⟮c+;s∞;us92;Bigby wolf⟯|⟮c+;s∞;us92;beating ... to a pulp⟯|⟮c+;s∞;us92;a toadman⟯|⟮22⟯
-⟮c+;s∞;us96;Majin Buu⟯|⟮c+;s∞;us96;exploding⟯|⟮c+;s∞;us96;sweets⟯|⟮32⟯|✫sm_latest✫
-⟮c+;s∞;us100;Darth Bane⟯|⟮c+;s∞;us100;establishing⟯|⟮c+;s∞;us100;the rule of two⟯|⟮42⟯
-⟮c+;s∞;us104;Emperor Bonaparte⟯|⟮c+;s∞;us104;invading⟯|⟮c+;s∞;us104;Russia⟯|⟮52⟯
-⟮c+;s∞;us108;Ramsay Bolton⟯|⟮c+;s∞;us108;flaying⟯|⟮c+;s∞;us108;someone on a St. Andrews Cross⟯|⟮62⟯|✫sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg✫✫sm_593fd808a09bd743c0ed6a80.jpg✫
-⟮c+;s∞;us112;Gaius Baltar⟯|⟮c+;s∞;us112;lying⟯|⟮c+;s∞;us112;a imaginary friend⟯|⟮72⟯
-⟮c+;s∞;us116;HarBinger⟯|⟮c+;s∞;us116;assuming direct control of⟯|⟮c+;s∞;us116;a walking insect⟯|⟮82⟯
-⟮c+;s∞;us120;Símon Bolivar⟯|⟮c+;s∞;us120;liberating⟯|⟮c+;s∞;us120;South america⟯|⟮92⟯
-⟮c+;s∞;us124;Kogoro Mouri⟯|⟮c+;s∞;us124;sleeping⟯|⟮c+;s∞;us124;A bottle of beer⟯|⟮03⟯
-⟮c+;s∞;us128;Angela Merkel⟯|⟮c+;s∞;us128;mollifying⟯|⟮c+;s∞;us128;a diamond⟯|⟮13⟯
-⟮c+;s∞;us132;Batman⟯|⟮c+;s∞;us132;threatening⟯|⟮c+;s∞;us132;batarangs⟯|⟮23⟯
-⟮c+;s∞;us136;Madoka Magica⟯|⟮c+;s∞;us136;erasing⟯|⟮c+;s∞;us136;all witches⟯|⟮33⟯
-⟮c+;s∞;us140;Darth Maul⟯|⟮c+;s∞;us140;hating⟯|⟮c+;s∞;us140;a jedi⟯|⟮43⟯
-⟮c+;s∞;us144;Eminem⟯|⟮c+;s∞;us144;rapping⟯|⟮c+;s∞;us144;a mixtape⟯|⟮53⟯
-⟮c+;s∞;us148;Roy Mustang⟯|⟮c+;s∞;us148;incinerating⟯|⟮c+;s∞;us148;Gloves⟯|⟮63⟯
-⟮c+;s∞;us152;GM⟯|⟮c+;s∞;us152;rolling⟯|⟮c+;s∞;us152;5d20⟯|⟮73⟯
-⟮c+;s∞;us156;Her Majesty (Queen Eliz⟯)|⟮c+;s∞;us156;scowling at⟯|⟮c+;s∞;us156;the british isles⟯|⟮83⟯
-⟮c+;s∞;us160;Sade, Marquis de⟯|⟮c+;s∞;us160;consuming⟯|⟮c+;s∞;us160;a whip⟯|⟮93⟯
-⟮c+;s∞;us164;Khal Drogo⟯|⟮c+;s∞;us164;riding⟯|⟮c+;s∞;us164;A loincloth⟯|⟮04⟯
-⟮c+;s∞;us168;Artoo D2⟯|⟮c+;s∞;us168;beeping⟯|⟮c+;s∞;us168;A torch⟯|⟮14⟯
-⟮c+;s∞;us172;Big Daddy⟯|⟮c+;s∞;us172;protecting⟯|⟮c+;s∞;us172;Little Sisters⟯|⟮24⟯
-⟮c+;s∞;us176;Monkey D. Luffy⟯|⟮c+;s∞;us176;stretching⟯|⟮c+;s∞;us176;Strawhat⟯|⟮34⟯
-⟮c+;s∞;us180;Didier Drogba⟯|⟮c+;s∞;us180;scoring⟯|⟮c+;s∞;us180;a hattrick⟯|⟮44⟯
-⟮c+;s∞;us184;Edda⟯|⟮c+;s∞;us184;dating⟯|⟮c+;s∞;us184;a philosophy paper⟯|⟮54⟯
-⟮c+;s∞;us188;Rick Deckard⟯|⟮c+;s∞;us188;understanding⟯|⟮c+;s∞;us188;a leather jacket⟯|⟮64⟯
-⟮c+;s∞;us192;God⟯|⟮c+;s∞;us192;creating⟯|⟮c+;s∞;us192;a man and a woman⟯|⟮74⟯
-⟮c+;s∞;us196;Hamlet (Denmark⟯)|⟮c+;s∞;us196;soliloquizing⟯|⟮c+;s∞;us196;a skull⟯|⟮84⟯
-⟮c+;s∞;us200;Satan / The Devil⟯|⟮c+;s∞;us200;seducing⟯|⟮c+;s∞;us200;a woman⟯|⟮94⟯|✫sm_1200px-022_devil_representation.JPG✫
-⟮c+;s∞;us204;Katniss Everdeen⟯|⟮c+;s∞;us204;aiming⟯|⟮c+;s∞;us204;A bow⟯|⟮05⟯
-⟮c+;s∞;us208;Albert Einstein⟯|⟮c+;s∞;us208;theorizing about⟯|⟮c+;s∞;us208;the fundamental forces of the universe⟯|⟮15⟯|✫sm_mtkvx3rkucl01.jpg✫
-⟮c+;s∞;us212;Bernie Sanders⟯|⟮c+;s∞;us212;preaching⟯|⟮c+;s∞;us212;socialism⟯|⟮25⟯
-⟮c+;s∞;us216;Menethil, Arthas⟯|⟮c+;s∞;us216;betraying ⟯|⟮c+;s∞;us216;Frostmorne/his father⟯|⟮35⟯|✫sm_RashEverlastingGoat-size_restricted.gif✫
-⟮c+;s∞;us220;Death eater⟯|⟮c+;s∞;us220;sucking⟯|⟮c+;s∞;us220;a soul⟯|⟮45⟯
-⟮c+;s∞;us224;Edward Elric⟯|⟮c+;s∞;us224;transmuting⟯|⟮c+;s∞;us224;his dead mother⟯|⟮55⟯
-⟮c+;s∞;us228;Rem⟯|⟮c+;s∞;us228;making a last stand with⟯|⟮c+;s∞;us228;a huge flail⟯|⟮65⟯
-⟮c+;s∞;us232;Genji⟯|⟮c+;s∞;us232;screaming in⟯|⟮c+;s∞;us232;Japanese⟯|⟮75⟯
-⟮c+;s∞;us236;Helena (Orphan black⟯)|⟮c+;s∞;us236;mutilating⟯|⟮c+;s∞;us236;a cage⟯|⟮85⟯|✫sm_WildJampackedHapuku-small.gif✫✫sm_FluidThinBluefish-small.gif✫
-⟮c+;s∞;us240;World Serpend Jörmungandr⟯|⟮c+;s∞;us240;devouring⟯|⟮c+;s∞;us240;the world⟯|⟮95⟯
-⟮c+;s∞;us244;Kylo Ren⟯|⟮c+;s∞;us244;rampaging⟯|⟮c+;s∞;us244;Crossguard lightsaber⟯|⟮06⟯
-⟮c+;s∞;us248;Android 16⟯|⟮c+;s∞;us248;flirting with⟯|⟮c+;s∞;us248;a tiny bald man⟯|⟮16⟯
-⟮c+;s∞;us252;Broly⟯|⟮c+;s∞;us252;beating up⟯|⟮c+;s∞;us252;Green Hair⟯|⟮26⟯
-⟮c+;s∞;us256;Maximilien Robespierre⟯|⟮c+;s∞;us256;guillotining⟯|⟮c+;s∞;us256;the french king⟯|⟮36⟯|✫sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg✫
-⟮c+;s∞;us260;Darth Revan⟯|⟮c+;s∞;us260;falling to⟯|⟮c+;s∞;us260;the dark side⟯|⟮46⟯
-⟮c+;s∞;us264;Erasmus⟯|⟮c+;s∞;us264;slinging mud at⟯|⟮c+;s∞;us264;a bunch of academics⟯|⟮56⟯|⟮h∞;✫sm_Holbein-erasmus.jpg✫⟯
-⟮c+;s∞;us268;Darth vader (Order 66⟯)|⟮c+;s∞;us268;choking⟯|⟮c+;s∞;us268;an innocent bystander⟯|⟮66⟯
-⟮c+;s∞;us272;Jefferson⟯|⟮c+;s∞;us272;declaring⟯|⟮c+;s∞;us272;slaves⟯|⟮76⟯
-⟮c+;s∞;us276;Harry Potter⟯|⟮c+;s∞;us276;hiding under⟯|⟮c+;s∞;us276;a staircase⟯|⟮86⟯
-⟮c+;s∞;us280;Sukeroku⟯|⟮c+;s∞;us280;fucking⟯|⟮c+;s∞;us280;his best friends crush⟯|⟮96⟯
-⟮c+;s∞;us284;King George III⟯|⟮c+;s∞;us284;loosing⟯|⟮c+;s∞;us284;America⟯|⟮07⟯
-⟮c+;s∞;us288;Android 17⟯|⟮c+;s∞;us288;mocking⟯|⟮c+;s∞;us288;Some sick clothes⟯|⟮17⟯
-⟮c+;s∞;us292;Big Game Hunter⟯|⟮c+;s∞;us292;eliminating⟯|⟮c+;s∞;us292;a dinosaur⟯|⟮27⟯|✫sm_340✫
-⟮c+;s∞;us296;Magneto⟯|⟮c+;s∞;us296;inciting ⟯|⟮c+;s∞;us296;the mutant rebellion⟯|⟮37⟯
-⟮c+;s∞;us300;Diamond (Gem⟯)|⟮c+;s∞;us300;caring for⟯|⟮c+;s∞;us300;two arms⟯|⟮47⟯
-⟮c+;s∞;us304;Saphira (EGg and EraGon⟯)|⟮c+;s∞;us304;being born from⟯|⟮c+;s∞;us304;an egg⟯|⟮57⟯
-⟮c+;s∞;us308;Ragnaros⟯|⟮c+;s∞;us308;magmablasting⟯|⟮c+;s∞;us308;a firesnake⟯|⟮67⟯
-⟮c+;s∞;us312;Gogeta (SSJ 4⟯)|⟮c+;s∞;us312;taunting⟯|⟮c+;s∞;us312;a x100 Kamehameha⟯|⟮77⟯
-⟮c+;s∞;us316;Hermione granger⟯|⟮c+;s∞;us316;studying with⟯|⟮c+;s∞;us316;a time-turner⟯|⟮87⟯
-⟮c+;s∞;us320;Son Goku⟯|⟮c+;s∞;us320;spirit bombing⟯|⟮c+;s∞;us320;a angry kid⟯|⟮97⟯|✫sm_MintyDeficientAtlanticbluetang-size_restricted.gif✫
-⟮c+;s∞;us324;Kikuhiko⟯|⟮c+;s∞;us324;regretting⟯|⟮c+;s∞;us324;A fan⟯|⟮08⟯
-⟮c+;s∞;us328;Alexander Hamilton⟯|⟮c+;s∞;us328;throwing away ⟯|⟮c+;s∞;us328;his shot⟯|⟮18⟯
-⟮c+;s∞;us332;Bounty Hunter (Cad Bane⟯)|⟮c+;s∞;us332;hunting⟯|⟮c+;s∞;us332;Wide-brim hat⟯|⟮28⟯|✫FACadBane.jpg✫
-⟮c+;s∞;us336;Mata Hari⟯|⟮c+;s∞;us336;bellydancing⟯|⟮c+;s∞;us336;the first world war⟯|⟮38⟯
-⟮c+;s∞;us340;David Hume⟯|⟮c+;s∞;us340;inducing⟯|⟮c+;s∞;us340;causality⟯|⟮48⟯
-⟮c+;s∞;us344;Emperor Hirohito⟯|⟮c+;s∞;us344;evading⟯|⟮c+;s∞;us344;an atomic bomb⟯|⟮58⟯
-⟮c+;s∞;us348;Rubeus Hagrid⟯|⟮c+;s∞;us348;nurturing⟯|⟮c+;s∞;us348;a dragon⟯|⟮68⟯
-⟮c+;s∞;us352;Griffth⟯|⟮c+;s∞;us352;striving⟯|⟮c+;s∞;us352;a red pendant⟯|⟮78⟯
-⟮c+;s∞;us356;Hitler⟯|⟮c+;s∞;us356;screaming⟯|⟮c+;s∞;us356;poison gas⟯|⟮88⟯
-⟮c+;s∞;us360;Sherlock holmes⟯|⟮c+;s∞;us360;showing off⟯|⟮c+;s∞;us360;their sexy mind⟯|⟮98⟯
-⟮c+;s∞;us364;Kaelthas Sunstrider⟯|⟮c+;s∞;us364;conjuring⟯|⟮c+;s∞;us364;Al'ar⟯|⟮09⟯
-⟮c+;s∞;us368;Anakin Skywalker⟯|⟮c+;s∞;us368;rebelling against⟯|⟮c+;s∞;us368;sand⟯|⟮19⟯
-⟮c+;s∞;us372;Belatrix LeStrange⟯|⟮c+;s∞;us372;splitting⟯|⟮c+;s∞;us372;a houseelf⟯|⟮29⟯
-⟮c+;s∞;us376;Macbeth of Scotland⟯|⟮c+;s∞;us376;betraying ⟯|⟮c+;s∞;us376;the former king⟯|⟮39⟯
-⟮c+;s∞;us380;Darth Sidious⟯|⟮c+;s∞;us380;electrocuting⟯|⟮c+;s∞;us380;a kid⟯|⟮49⟯
-⟮c+;s∞;us384;Eddard (Ned) Stark⟯|⟮c+;s∞;us384;trusting⟯|⟮c+;s∞;us384;his severed head⟯|⟮59⟯
-⟮c+;s∞;us388;Rob Stark⟯|⟮c+;s∞;us388;marrying⟯|⟮c+;s∞;us388;a groom's suit⟯|⟮69⟯
-⟮c+;s∞;us392;Guts⟯|⟮c+;s∞;us392;confronting⟯|⟮c+;s∞;us392;a demon⟯|⟮79⟯
-⟮c+;s∞;us396;Han Solo⟯|⟮c+;s∞;us396;daring⟯|⟮c+;s∞;us396;a blaster⟯|⟮89⟯
-⟮c+;s∞;us400;Severus Snape ⟯|⟮c+;s∞;us400;cursing⟯|⟮c+;s∞;us400;an old wizard⟯|⟮99⟯|✫sm_0b29847ef36f830989d150017080a996e6144680_hq.gif✫
+⟮c+;s∞;us+3;Kirito Kazuto⟯|⟮c+;s∞;us+2;dual-wielding⟯|⟮c+;s∞;us+;Dual Swords⟯|⟮00⟯
+⟮c+;s∞;us+3;Prof X (X=10⟯)|⟮c+;s∞;us+2;mindreading⟯|⟮c+;s∞;us+;a school⟯|⟮10⟯
+⟮c+;s∞;us+3;Ben Kenobi⟯|⟮c+;s∞;us+2;mourning⟯|⟮c+;s∞;us+;a burned corpse⟯|⟮20⟯
+⟮c+;s∞;us+3;Makise Kurisu⟯|⟮c+;s∞;us+2;tsundereing⟯|⟮c+;s∞;us+;a labcoat⟯|⟮30⟯
+⟮c+;s∞;us+3;Death Knight⟯|⟮c+;s∞;us+2;reanimating⟯|⟮c+;s∞;us+;a ghoul⟯|⟮40⟯
+⟮c+;s∞;us+3;Gilgamesh (Evil Knight⟯)|⟮c+;s∞;us+2;portal-summoning⟯|⟮c+;s∞;us+;a thousand weapons⟯|⟮50⟯
+⟮c+;s∞;us+3;Rook⟯|⟮c+;s∞;us+2;leading⟯|⟮c+;s∞;us+;A caravan of refugees⟯|⟮60⟯
+⟮c+;s∞;us+3;Genghis Khan⟯|⟮c+;s∞;us+2;conquering⟯|⟮c+;s∞;us+;a horse⟯|⟮70⟯
+⟮c+;s∞;us+3;HK-47⟯|⟮c+;s∞;us+2;slaughtering⟯|⟮c+;s∞;us+;some meatbags⟯|⟮80⟯
+⟮c+;s∞;us+3;Shinichi Kudo⟯|⟮c+;s∞;us+2;deducing⟯|⟮c+;s∞;us+;a fishing line⟯|⟮90⟯
+⟮c+;s∞;us+3;B Franklin (The first american⟯)|⟮c+;s∞;us+2;discovering⟯|⟮c+;s∞;us+;A key and a kite⟯|⟮01⟯
+⟮c+;s∞;us+3;Avatar Aang⟯|⟮c+;s∞;us+2;airbending⟯|⟮c+;s∞;us+;A kitestaff⟯|⟮11⟯
+⟮c+;s∞;us+3;Barry Allen⟯|⟮c+;s∞;us+2;outrunning⟯|⟮c+;s∞;us+;death⟯|⟮21⟯
+⟮c+;s∞;us+3;Mikasa Ackerman⟯|⟮c+;s∞;us+2;sacrificing⟯|⟮c+;s∞;us+;AoT Swords⟯|⟮31⟯
+⟮c+;s∞;us+3;Joan d'arc⟯|⟮c+;s∞;us+2;inspiring⟯|⟮c+;s∞;us+;male armor⟯|⟮41⟯
+⟮c+;s∞;us+3;EA⟯|⟮c+;s∞;us+2;selling⟯|⟮c+;s∞;us+;DLCs⟯|⟮51⟯
+⟮c+;s∞;us+3;Rayquaza⟯|⟮c+;s∞;us+2;electrocuting⟯|⟮c+;s∞;us+;a pokeball⟯|⟮61⟯
+⟮c+;s∞;us+3;Garrus⟯|⟮c+;s∞;us+2;wisecracking⟯|⟮c+;s∞;us+;their commanding officer⟯|⟮71⟯
+⟮c+;s∞;us+3;Haibara, Ai⟯|⟮c+;s∞;us+2;fleeing⟯|⟮c+;s∞;us+;a shadowy organization⟯|⟮81⟯
+⟮c+;s∞;us+3;SI7 Agent⟯|⟮c+;s∞;us+2;toasting⟯|⟮c+;s∞;us+;a playing card⟯|⟮91⟯
+⟮c+;s∞;us+3;King Bradley (Wrath⟯)|⟮c+;s∞;us+2;seething⟯|⟮c+;s∞;us+;Philosophers stone⟯|⟮02⟯
+⟮c+;s∞;us+3;Aaron Burr⟯|⟮c+;s∞;us+2;duelling⟯|⟮c+;s∞;us+;A letter⟯|⟮12⟯
+⟮c+;s∞;us+3;Bigby wolf⟯|⟮c+;s∞;us+2;beating ... to a pulp⟯|⟮c+;s∞;us+;a toadman⟯|⟮22⟯
+⟮c+;s∞;us+3;Majin Buu⟯|⟮c+;s∞;us+2;exploding⟯|⟮c+;s∞;us+;sweets⟯|⟮32⟯|✫sm_latest✫
+⟮c+;s∞;us+3;Darth Bane⟯|⟮c+;s∞;us+2;establishing⟯|⟮c+;s∞;us+;the rule of two⟯|⟮42⟯
+⟮c+;s∞;us+3;Emperor Bonaparte⟯|⟮c+;s∞;us+2;invading⟯|⟮c+;s∞;us+;Russia⟯|⟮52⟯
+⟮c+;s∞;us+3;Ramsay Bolton⟯|⟮c+;s∞;us+2;flaying⟯|⟮c+;s∞;us+;someone on a St. Andrews Cross⟯|⟮62⟯|✫sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg✫✫sm_593fd808a09bd743c0ed6a80.jpg✫
+⟮c+;s∞;us+3;Gaius Baltar⟯|⟮c+;s∞;us+2;lying⟯|⟮c+;s∞;us+;a imaginary friend⟯|⟮72⟯
+⟮c+;s∞;us+3;HarBinger⟯|⟮c+;s∞;us+2;assuming direct control of⟯|⟮c+;s∞;us+;a walking insect⟯|⟮82⟯
+⟮c+;s∞;us+3;Símon Bolivar⟯|⟮c+;s∞;us+2;liberating⟯|⟮c+;s∞;us+;South america⟯|⟮92⟯
+⟮c+;s∞;us+3;Kogoro Mouri⟯|⟮c+;s∞;us+2;sleeping⟯|⟮c+;s∞;us+;A bottle of beer⟯|⟮03⟯
+⟮c+;s∞;us+3;Angela Merkel⟯|⟮c+;s∞;us+2;mollifying⟯|⟮c+;s∞;us+;a diamond⟯|⟮13⟯
+⟮c+;s∞;us+3;Batman⟯|⟮c+;s∞;us+2;threatening⟯|⟮c+;s∞;us+;batarangs⟯|⟮23⟯
+⟮c+;s∞;us+3;Madoka Magica⟯|⟮c+;s∞;us+2;erasing⟯|⟮c+;s∞;us+;all witches⟯|⟮33⟯
+⟮c+;s∞;us+3;Darth Maul⟯|⟮c+;s∞;us+2;hating⟯|⟮c+;s∞;us+;a jedi⟯|⟮43⟯
+⟮c+;s∞;us+3;Eminem⟯|⟮c+;s∞;us+2;rapping⟯|⟮c+;s∞;us+;a mixtape⟯|⟮53⟯
+⟮c+;s∞;us+3;Roy Mustang⟯|⟮c+;s∞;us+2;incinerating⟯|⟮c+;s∞;us+;Gloves⟯|⟮63⟯
+⟮c+;s∞;us+3;GM⟯|⟮c+;s∞;us+2;rolling⟯|⟮c+;s∞;us+;5d20⟯|⟮73⟯
+⟮c+;s∞;us+3;Her Majesty (Queen Eliz⟯)|⟮c+;s∞;us+2;scowling at⟯|⟮c+;s∞;us+;the british isles⟯|⟮83⟯
+⟮c+;s∞;us+3;Sade, Marquis de⟯|⟮c+;s∞;us+2;consuming⟯|⟮c+;s∞;us+;a whip⟯|⟮93⟯
+⟮c+;s∞;us+3;Khal Drogo⟯|⟮c+;s∞;us+2;riding⟯|⟮c+;s∞;us+;A loincloth⟯|⟮04⟯
+⟮c+;s∞;us+3;Artoo D2⟯|⟮c+;s∞;us+2;beeping⟯|⟮c+;s∞;us+;A torch⟯|⟮14⟯
+⟮c+;s∞;us+3;Big Daddy⟯|⟮c+;s∞;us+2;protecting⟯|⟮c+;s∞;us+;Little Sisters⟯|⟮24⟯
+⟮c+;s∞;us+3;Monkey D. Luffy⟯|⟮c+;s∞;us+2;stretching⟯|⟮c+;s∞;us+;Strawhat⟯|⟮34⟯
+⟮c+;s∞;us+3;Didier Drogba⟯|⟮c+;s∞;us+2;scoring⟯|⟮c+;s∞;us+;a hattrick⟯|⟮44⟯
+⟮c+;s∞;us+3;Edda⟯|⟮c+;s∞;us+2;dating⟯|⟮c+;s∞;us+;a philosophy paper⟯|⟮54⟯
+⟮c+;s∞;us+3;Rick Deckard⟯|⟮c+;s∞;us+2;understanding⟯|⟮c+;s∞;us+;a leather jacket⟯|⟮64⟯
+⟮c+;s∞;us+3;God⟯|⟮c+;s∞;us+2;creating⟯|⟮c+;s∞;us+;a man and a woman⟯|⟮74⟯
+⟮c+;s∞;us+3;Hamlet (Denmark⟯)|⟮c+;s∞;us+2;soliloquizing⟯|⟮c+;s∞;us+;a skull⟯|⟮84⟯
+⟮c+;s∞;us+3;Satan / The Devil⟯|⟮c+;s∞;us+2;seducing⟯|⟮c+;s∞;us+;a woman⟯|⟮94⟯|✫sm_1200px-022_devil_representation.JPG✫
+⟮c+;s∞;us+3;Katniss Everdeen⟯|⟮c+;s∞;us+2;aiming⟯|⟮c+;s∞;us+;A bow⟯|⟮05⟯
+⟮c+;s∞;us+3;Albert Einstein⟯|⟮c+;s∞;us+2;theorizing about⟯|⟮c+;s∞;us+;the fundamental forces of the universe⟯|⟮15⟯|✫sm_mtkvx3rkucl01.jpg✫
+⟮c+;s∞;us+3;Bernie Sanders⟯|⟮c+;s∞;us+2;preaching⟯|⟮c+;s∞;us+;socialism⟯|⟮25⟯
+⟮c+;s∞;us+3;Menethil, Arthas⟯|⟮c+;s∞;us+2;betraying ⟯|⟮c+;s∞;us+;Frostmorne/his father⟯|⟮35⟯|✫sm_RashEverlastingGoat-size_restricted.gif✫
+⟮c+;s∞;us+3;Death eater⟯|⟮c+;s∞;us+2;sucking⟯|⟮c+;s∞;us+;a soul⟯|⟮45⟯
+⟮c+;s∞;us+3;Edward Elric⟯|⟮c+;s∞;us+2;transmuting⟯|⟮c+;s∞;us+;his dead mother⟯|⟮55⟯
+⟮c+;s∞;us+3;Rem⟯|⟮c+;s∞;us+2;making a last stand with⟯|⟮c+;s∞;us+;a huge flail⟯|⟮65⟯
+⟮c+;s∞;us+3;Genji⟯|⟮c+;s∞;us+2;screaming in⟯|⟮c+;s∞;us+;Japanese⟯|⟮75⟯
+⟮c+;s∞;us+3;Helena (Orphan black⟯)|⟮c+;s∞;us+2;mutilating⟯|⟮c+;s∞;us+;a cage⟯|⟮85⟯|✫sm_WildJampackedHapuku-small.gif✫✫sm_FluidThinBluefish-small.gif✫
+⟮c+;s∞;us+3;World Serpend Jörmungandr⟯|⟮c+;s∞;us+2;devouring⟯|⟮c+;s∞;us+;the world⟯|⟮95⟯
+⟮c+;s∞;us+3;Kylo Ren⟯|⟮c+;s∞;us+2;rampaging⟯|⟮c+;s∞;us+;Crossguard lightsaber⟯|⟮06⟯
+⟮c+;s∞;us+3;Android 16⟯|⟮c+;s∞;us+2;flirting with⟯|⟮c+;s∞;us+;a tiny bald man⟯|⟮16⟯
+⟮c+;s∞;us+3;Broly⟯|⟮c+;s∞;us+2;beating up⟯|⟮c+;s∞;us+;Green Hair⟯|⟮26⟯
+⟮c+;s∞;us+3;Maximilien Robespierre⟯|⟮c+;s∞;us+2;guillotining⟯|⟮c+;s∞;us+;the french king⟯|⟮36⟯|✫sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg✫
+⟮c+;s∞;us+3;Darth Revan⟯|⟮c+;s∞;us+2;falling to⟯|⟮c+;s∞;us+;the dark side⟯|⟮46⟯
+⟮c+;s∞;us+3;Erasmus⟯|⟮c+;s∞;us+2;slinging mud at⟯|⟮c+;s∞;us+;a bunch of academics⟯|⟮56⟯|⟮h∞;✫sm_Holbein-erasmus.jpg✫⟯
+⟮c+;s∞;us+3;Darth vader (Order 66⟯)|⟮c+;s∞;us+2;choking⟯|⟮c+;s∞;us+;an innocent bystander⟯|⟮66⟯
+⟮c+;s∞;us+3;Jefferson⟯|⟮c+;s∞;us+2;declaring⟯|⟮c+;s∞;us+;slaves⟯|⟮76⟯
+⟮c+;s∞;us+3;Harry Potter⟯|⟮c+;s∞;us+2;hiding under⟯|⟮c+;s∞;us+;a staircase⟯|⟮86⟯
+⟮c+;s∞;us+3;Sukeroku⟯|⟮c+;s∞;us+2;fucking⟯|⟮c+;s∞;us+;his best friends crush⟯|⟮96⟯
+⟮c+;s∞;us+3;King George III⟯|⟮c+;s∞;us+2;loosing⟯|⟮c+;s∞;us+;America⟯|⟮07⟯
+⟮c+;s∞;us+3;Android 17⟯|⟮c+;s∞;us+2;mocking⟯|⟮c+;s∞;us+;Some sick clothes⟯|⟮17⟯
+⟮c+;s∞;us+3;Big Game Hunter⟯|⟮c+;s∞;us+2;eliminating⟯|⟮c+;s∞;us+;a dinosaur⟯|⟮27⟯|✫sm_340✫
+⟮c+;s∞;us+3;Magneto⟯|⟮c+;s∞;us+2;inciting ⟯|⟮c+;s∞;us+;the mutant rebellion⟯|⟮37⟯
+⟮c+;s∞;us+3;Diamond (Gem⟯)|⟮c+;s∞;us+2;caring for⟯|⟮c+;s∞;us+;two arms⟯|⟮47⟯
+⟮c+;s∞;us+3;Saphira (EGg and EraGon⟯)|⟮c+;s∞;us+2;being born from⟯|⟮c+;s∞;us+;an egg⟯|⟮57⟯
+⟮c+;s∞;us+3;Ragnaros⟯|⟮c+;s∞;us+2;magmablasting⟯|⟮c+;s∞;us+;a firesnake⟯|⟮67⟯
+⟮c+;s∞;us+3;Gogeta (SSJ 4⟯)|⟮c+;s∞;us+2;taunting⟯|⟮c+;s∞;us+;a x100 Kamehameha⟯|⟮77⟯
+⟮c+;s∞;us+3;Hermione granger⟯|⟮c+;s∞;us+2;studying with⟯|⟮c+;s∞;us+;a time-turner⟯|⟮87⟯
+⟮c+;s∞;us+3;Son Goku⟯|⟮c+;s∞;us+2;spirit bombing⟯|⟮c+;s∞;us+;a angry kid⟯|⟮97⟯|✫sm_MintyDeficientAtlanticbluetang-size_restricted.gif✫
+⟮c+;s∞;us+3;Kikuhiko⟯|⟮c+;s∞;us+2;regretting⟯|⟮c+;s∞;us+;A fan⟯|⟮08⟯
+⟮c+;s∞;us+3;Alexander Hamilton⟯|⟮c+;s∞;us+2;throwing away ⟯|⟮c+;s∞;us+;his shot⟯|⟮18⟯
+⟮c+;s∞;us+3;Bounty Hunter (Cad Bane⟯)|⟮c+;s∞;us+2;hunting⟯|⟮c+;s∞;us+;Wide-brim hat⟯|⟮28⟯|✫FACadBane.jpg✫
+⟮c+;s∞;us+3;Mata Hari⟯|⟮c+;s∞;us+2;bellydancing⟯|⟮c+;s∞;us+;the first world war⟯|⟮38⟯
+⟮c+;s∞;us+3;David Hume⟯|⟮c+;s∞;us+2;inducing⟯|⟮c+;s∞;us+;causality⟯|⟮48⟯
+⟮c+;s∞;us+3;Emperor Hirohito⟯|⟮c+;s∞;us+2;evading⟯|⟮c+;s∞;us+;an atomic bomb⟯|⟮58⟯
+⟮c+;s∞;us+3;Rubeus Hagrid⟯|⟮c+;s∞;us+2;nurturing⟯|⟮c+;s∞;us+;a dragon⟯|⟮68⟯
+⟮c+;s∞;us+3;Griffth⟯|⟮c+;s∞;us+2;striving⟯|⟮c+;s∞;us+;a red pendant⟯|⟮78⟯
+⟮c+;s∞;us+3;Hitler⟯|⟮c+;s∞;us+2;screaming⟯|⟮c+;s∞;us+;poison gas⟯|⟮88⟯
+⟮c+;s∞;us+3;Sherlock holmes⟯|⟮c+;s∞;us+2;showing off⟯|⟮c+;s∞;us+;their sexy mind⟯|⟮98⟯
+⟮c+;s∞;us+3;Kaelthas Sunstrider⟯|⟮c+;s∞;us+2;conjuring⟯|⟮c+;s∞;us+;Al'ar⟯|⟮09⟯
+⟮c+;s∞;us+3;Anakin Skywalker⟯|⟮c+;s∞;us+2;rebelling against⟯|⟮c+;s∞;us+;sand⟯|⟮19⟯
+⟮c+;s∞;us+3;Belatrix LeStrange⟯|⟮c+;s∞;us+2;splitting⟯|⟮c+;s∞;us+;a houseelf⟯|⟮29⟯
+⟮c+;s∞;us+3;Macbeth of Scotland⟯|⟮c+;s∞;us+2;betraying ⟯|⟮c+;s∞;us+;the former king⟯|⟮39⟯
+⟮c+;s∞;us+3;Darth Sidious⟯|⟮c+;s∞;us+2;electrocuting⟯|⟮c+;s∞;us+;a kid⟯|⟮49⟯
+⟮c+;s∞;us+3;Eddard (Ned) Stark⟯|⟮c+;s∞;us+2;trusting⟯|⟮c+;s∞;us+;his severed head⟯|⟮59⟯
+⟮c+;s∞;us+3;Rob Stark⟯|⟮c+;s∞;us+2;marrying⟯|⟮c+;s∞;us+;a groom's suit⟯|⟮69⟯
+⟮c+;s∞;us+3;Guts⟯|⟮c+;s∞;us+2;confronting⟯|⟮c+;s∞;us+;a demon⟯|⟮79⟯
+⟮c+;s∞;us+3;Han Solo⟯|⟮c+;s∞;us+2;daring⟯|⟮c+;s∞;us+;a blaster⟯|⟮89⟯
+⟮c+;s∞;us+3;Severus Snape ⟯|⟮c+;s∞;us+2;cursing⟯|⟮c+;s∞;us+;an old wizard⟯|⟮99⟯|✫sm_0b29847ef36f830989d150017080a996e6144680_hq.gif✫
 
 
 ### fear
 
 #### exposure therapy
 
+##### fear ladder
+
+###### structure
+
 flex-container:✫sm_2021-10-31--17-32-33-screenshot.jpg✫
+
 A ⟮fear ladder⟯ is a technique within ⟮exposure therapy⟯. 
 For any specific ⟮fear/anxiety/phobia⟯, a ⟮fear ladder⟯ consists of ⟮specific situations/steps⟯ and ⟮their associated fear ratings⟯ 
 ⟮Fear ratings⟯ for fears on ⟮the fear ladder⟯ generally are on ⟮a scale from 1 to 10⟯ 
-There should roughly be ⟮one situation/action⟯ on the fear ladder for ⟮each fear rating from 1 to 10⟯. 
-A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮s16;⟮daily, a few times a week⟯⟯ ). 
-⟮Each session of the application of a fear ladder⟯ should last until ⟮the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s19;⟮half⟯ is a good goal to short for⟯ ) (often ⟮30min +::length⟯ are necessary, ⟮relaxation excersizes such as breathing⟯ can help) 
+There should roughly be ⟮one situation/action⟯ on ⟮the fear ladder⟯ for ⟮each fear rating from 1 to 10⟯. 
+
+###### application
+
+A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮c+;s-;daily, a few times a week⟯) 
+⟮Each session of the application of a fear ladder⟯ should last until ⟮the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s_;⟮c+;half⟯ is a good goal to short for⟯ ) 
+During each session of the app
+(often ⟮30min +::length⟯ are necessary, ⟮relaxation excersizes such as breathing⟯ can help) 
 ⟮c+;Fear ladders ＆ exposure therapy⟯ work(s) because ⟮your anxiety basically "runs out of gas"⟯. For ⟮a fear ladder⟯, start with ⟮the lower items⟯ on ⟮the fear ladder,⟯ and ⟮work yourself up to the higher items⟯ as they ⟮become less frightening⟯. 
 ⇱https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/⇲(alivecounselling/), ⇱https://www.anxietycanada.com/articles/plan-exposure-exercises/⇲(Planning exposures), ⇱https://www.anxietycanada.com/articles/build-a-fear-ladder/⇲(Building fear ladder)
 
@@ -1960,12 +1866,11 @@ A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮s16;⟮daily, a f
 
 #### REM sleep ＆ lucid dreaming
 
-REM|Rapid Eye Movement
-⟮Rapid eye movement (REM) sleep⟯ is the time where ⟮one dreams the weird kind of dreams we call dreams⟯. 
-The body is mostly ⟮paralyzed⟯ during ⟮REM sleep⟯, except for ⟮the eyes⟯. 
+REM is short for Rapid Eye Movement
+⟮REM sleep⟯ is the time where ⟮one dreams⟯ ⟮the weird kind of dreams we call dreams⟯. 
+During ⟮REM sleep⟯, ⟮the body⟯ is mostly ⟮paralyzed⟯, except for ⟮the eyes⟯. 
 The fact that ⟮eye movement can be controlled during REM sleep⟯ allows ⟮study participants to communicate with researchers⟯ during ⟮lucid dreaming.⟯ 
-
-the time that ⟮⁑intentional⁑ behaviour takes⟯ in ⟮dreams⟯ is ⟮about the same⟯ as in ⟮RL⟯ 
+In ⟮dreams⟯, ⟮⁑intentional⁑⟯ behaviour takes ⟮about the same time⟯ ⟮as in RL⟯ 
 
 
 ##### Testing if one is dreaming
