@@ -134,18 +134,22 @@ table:Symbol|Name
 
 ####### horizontal tabs
 
-horizontal tabs are horizontal whitespace with a width of multiple space characters.
-a hard tab is the ASCII tab character.
-A soft tab is multiple spaces used as 'tabs'.
-In programming, the width of tabs is commonly 2 or 4 spaces.
+»⟮horizontal tabs⟯« are ⟮＿horizontal whitespace＿⟯ with a width of ⟮multiple space characters⟯.
+»⟮a hard tab⟯« is ⟮the ASCII tab character⟯.
+»⟮A soft tab⟯« is ⟮multiple spaces used as 'tabs'⟯.
+In programming, the ⟮width of tabs⟯ is commonly ⟮2 or 4 spaces⟯.
 
 ###### vertical
 
-A blank line is two newlines.
+A ⟮blank line⟯ is two ⟮newlines⟯.
 
-#### emoticons
+#### emoji, emoticons
 
-An ⟮emoticon⟯ represents ⟮a face⟯ using  ⟮typographical characters⟯ 
+##### emoticons
+
+An ⟮emoticon⟯ ⟮represents a face⟯ using ⟮multiple⟯ ⟮non-face⟯ ⟮graphemes⟯ 
+
+###### western
 
 ⟮western⟯ ⟮emoticons⟯ have ⟮faces⟯ that are oriented ⟮left-to-right⟯ 
 
@@ -157,6 +161,7 @@ emoticon eyes|meaning
 ⟮X⟯|⟮c+;equivalent of ›‹ eyes, but more often used positively⟯
 ⟮c+;;⟯|⟮wink⟯
 
+###### kaomoji
 
 ⟮顔文字⟯ (reading ⟮かおもじ⟯ ) have ⟮faces⟯ oriented how ⟮top-to-bottom⟯ 
 General pattern for kaomoji:
@@ -171,7 +176,7 @@ most common ⟮head delimiters⟯: ⟮(⟯)
 
 ### digraphs 
 
-A digraph is using two graphs to write a single phoneme.
+»⟮A digraph⟯« is ⟮using two graphs⟯ to ⟮write a single phoneme⟯.
 Examples of digraphs are sh for /ʃ/ in english.
 Digraphs are often combined into ligatures, and as such the term also sometimes refers to those as digraphs.
 
