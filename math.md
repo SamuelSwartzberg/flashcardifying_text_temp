@@ -1060,6 +1060,8 @@ pure mathematics: study of mathematical concepts independent from applications
 
 ## units 
 
+A unit of measurement is a certain magnitude of a given quantity.
+
 ### metric/SI
 
 #### organization
@@ -1103,54 +1105,12 @@ prefix|10⎴?⎴
 ⟮peta⟯|⟮10⎴15⎴ = 1000000000000000⟯
 ⟮exa⟯|⟮10⎴18⎴ = 1000000000000000000⟯
 
-
 #### actual units
 
 ##### base units
 
 The ⟮SI⟯ has ⟮7⟯ ⟮base units.⟯ 
 From ⟮the 7 SI base units⟯, ⟮all other SI units can be derived.⟯ 
-
-###### 7 SI base units
-
-unit name|unit symbol|measure
-⟮kilogram⟯|⟮kg⟯|⟮mass⟯
-⟮metre⟯|⟮m⟯|⟮length⟯
-⟮second⟯|⟮s⟯|⟮time⟯
-
-
-### derived from SI/metric units
-
-#### length
-
-The ⟮quart⟯ ⟮(c:3;s1;q⟯) is exactly ⟮1/4 mm⟯. 
-
-#### temperature
-
-⟮Kelvin⟯ (unit symbol ⟮K⟯)
-Temperature (K)|Significance
-⟮0⟯|⟮Absolute zero⟯
-
-##### ⟮Celsius⟯:
-
-Temperature (°C)|Significance
-⟮0⟯|⟮water freezes (at 1 atm pressure⟯)
-⟮100⟯|⟮water boils (at 1 atm pressure⟯)
-⟮-273.15⟯|⟮absolute zero⟯
-
-#### volume
-
-teaspoon|tsp.|5ml
-tablespoon|tbsp.|15ml
-
-#### energy
-
-unit name|unit symbol|measure
-⟮joule⟯|⟮J⟯|⟮energy⟯
-
-#### weigth
-
-⟮t⟯|⟮tonne⟯|⟮1000kg⟯
 
 ### non-metric
 
@@ -1172,50 +1132,6 @@ Temperature (°F)|Significance
 32|Water melts
 98|Human body temperatue
 212|Water boils
-
-##### length
-
-Symbol|Unit
-⟮′ (is the prime, not apostrophe⟯)|⟮foot⟯
-⟮″ (is the prime, not apostrophe⟯)|⟮inch⟯
-
-1 yard|3 feet|36 inches|91.5cm
-0.33 yard|1 foot|12 inches|30.5cm
-1/36 yard|1/12 foot|1 inch|2.54cm
-~0.011 yard|~0.033 foot|~0.4 inch|1cm
-
-1 mile|1.6(1) km
-1 mile|1760 yards
-
-##### speed
-
-1 m/s|3.6 km/h
-~0.28 m/s|1 km/h
-
-##### weight (us customary)
-
-symbol|unit
-lb|pound
-oz|ounces
-st|stone
-
-stone|pound|ounces|grams
-1/224|1/16|1|~28(.35)
-1/14|1|16|454
-1|14|224|6350
-
-##### volume (us customary)
-
-symbol|unit
-fl. oz. or oz. fl.|fluid ounces
-
-gallon|quart|pint|fluid ounce|ml
-1|4|8|128|3785
-1/4|1|2|32|946
-1/8|1/2|1|16|473
-1/128|1/32|1/16|1|29.5
-
-cup falls out of the nice logic of gallons, quarts, etc., one (us customary) cup is 240 ml
 
 ## pareto principle
 
