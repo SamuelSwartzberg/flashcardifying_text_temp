@@ -65,69 +65,113 @@ flex-container:⟮h∞;✫sm_220px-Metal_movable_type.jpg✫⟯
 ⟮A type⟯ may thus also be called ⟮a piece/block of type⟯.
 In most printing processes, ⟮type⟯ was made of ⟮metal⟯.
 »⟮A sort⟯« is ⟮a type⟯ for ⟮a single character with certain characteristics (weight, size, etc.)⟯.
+⟮type⟯ and ⟮sort⟯ only apply to ⟮movable type⟯.
 
 #### font size
 
-The ⟮font/point size⟯ specifies the ⟮body height⟯. 
-Thus, if using ⟮movable type⟯, ⟮the font/point size⟯ specifes ⟮the physical height of the sort.⟯ 
-Thus, if using ⟮digital type⟯, ⟮font/point size⟯ is ⟮the height that the em square is scaled to⟯. 
-Stated differently, in ⟮digital type⟯, ⟮setting a specific font size⟯ ⟮scales up the em square⟯. 
-⟮The font size⟯ is called ⟮point size⟯ if ⟮specified in point⟯, or ⟮sometimes also if not⟯. 
-The ⟮font/point size⟯ is equal to ⟮1em⟯ (by ⟮definition⟯), i.e. ⟮em is a measure relative to the body height⟯. 
-Following the general definition of the font size, in css ⟮the em⟯ i⟮s equivalent to⟯ ⟮the current font-size.⟯ 
+The »⟮font size⟯« specifies the ⟮＿body height＿⟯. 
+Thus, if using ⟮movable type⟯, ⟮the ＿font size＿⟯ specifes ⟮the physical height of the ＿sort＿.⟯ 
+Thus, if using ⟮digital type⟯, ⟮＿font size＿⟯ is ⟮the height that the ＿em square＿ is scaled to⟯. 
+Stated differently, in ⟮digital type⟯, ⟮setting a specific ＿font size＿⟯ ⟮scales up the ＿em square＿⟯. 
+⟮The ＿font size＿⟯ is called ⟮「point size」⟯ if ⟮specified in point⟯, or ⟮sometimes also if not⟯. 
+»⟮em⟯« is a unit ⟮relative to⟯ ⟮the current ＿font size＿⟯.
+Ergo, the ⟮＿font size＿⟯ is equal to ⟮1em (by definition)⟯.
+Following the general definition of the font size, in css ⟮the em⟯ is ⟮equivalent to⟯ ⟮the current font-size.⟯ 
 
-#### ems and ens
+#### units
+
+##### ems and ens
 
 flex-container:✫220px-M_versus_em.svg.png✫
 
 
-Because ⟮the sort⟯ of ⟮uppercase Ms⟯ used to be ⟮as wide as tall (i.e. square⟯), ⟮em⟯ is sometimes also defined as ⟮the width of an uppercase⟯ (or more rarely ⟮lowercase⟯) ⟮M⟯.
-The ⟮en⟯ may be defined as ⟮half the width⟯ of ⟮an em⟯. 
-The ⟮en⟯ has also sometimes been defined as ⟮the width⟯ of ⟮an uppercase⟯ or ⟮lowercase⟯ ⟮n⟯. 
-The ⟮en space⟯ and ⟮en dash⟯ are ⟮one en⟯ ⟮wide⟯. 
-The ⟮em space⟯ and ⟮em dash⟯ are ⟮one em⟯ ⟮wide⟯. 
+⟮the sort⟯ of ⟮uppercase Ms⟯ used to be ⟮as wide as tall (i.e. square)⟯,
+⟮em⟯ is sometimes also defined as ⟮the width⟯ of an ⟮uppercase (or more rarely lowercase)⟯ ⟮M⟯.
+Defining an em as ⟮the width of an uppercase m⟯ is ⟮equivalent to⟯ ⟮the usual definition⟯ since ⟮the sort of uppercase Ms used to be square.⟯
+!The »⟮en⟯« is either
+- !⟮half the width⟯ of ⟮an em⟯. 
+- !⟮the width⟯ of ⟮an uppercase or lowercase⟯ ⟮n⟯. 
+The »⟮en/em space/dash⟯« are ⟮a space and dash⟯ that are defined as ⟮one en/em⟯ ⟮wide⟯.
+The ⟮en/em space⟯ and ⟮c_;en/em dash⟯ are ⟮one en/em⟯ ⟮wide⟯. 
 Due to ⟮the confusion about definitions of en/ems⟯, sometimes ⟮variant definitions⟯ for ⟮en/em dashes/spaces⟯ are used. 
 
-#### point
+##### point
 
-In typography, the ⟮point⟯ is ⟮the smallest⟯ ⟮unit of measure⟯. 
-With the advent of digital printing, ⟮a standard point (for printing⟯) has emerged, known as the ⟮DTP⟯ ⟮(c:5;DeskTop Publishing point⟯) 
-the ⟮DTP⟯ ⟮(c:6;DeskTop Publishing point⟯) is defined as ⟮1/72⟯ of ⟮an inch⟯ 
-the ⟮point⟯ is equivalent to ⟮1/12⟯ of ⟮a pica⟯. 
-The ⟮CSS⟯ ⟮pt⟯ is ⟮the same as the DTP point⟯, as is ⟮TeX's⟯ ⟮bp⟯. 
-⟮TeX's⟯ ⟮pt⟯ is ⟮very slightly smaller than⟯ the ⟮DTP point⟯. 
-⟮point⟯ is often abbreviated ⟮pt⟯ or ⟮just p⟯. 
+In typography, the »⟮point⟯« is ⟮the smallest⟯ ⟮unit of measure⟯. 
+⟮the exact size⟯ of ⟮the ＿point＿⟯ ⟮has varied⟯.
+⟮＿point＿⟯ is often abbreviated ⟮pt⟯ or ⟮c_;just p⟯. 
+»⟮A pica⟯« is ⟮12 point (whatever point you're using)⟯.
 
-#### properties
+###### DTP point
+
+⟮DTP point⟯ = ⟮DeskTop Publishing point⟯.
+the ⟮＿DTP point＿⟯ ⟮came into existence⟯ ⟮with digital printing⟯.
+The ⟮＿DTP point＿⟯ has become a sort of ⟮standard ＿point＿⟯.
+the »⟮DTP point⟯« is defined as ⟮1/72 inch⟯.
+If using ⟮the ＿DTP point＿⟯, ⟮＿a pica＿⟯ is ⟮1/6 inch⟯.
+
+###### css
+
+⟮CSS⟯ uses ⟮the DTP⟯ ⟮＿point＿⟯.
+In ⟮CSS⟯, ⟮`pt`⟯ is the unit name for ⟮＿point＿⟯.
+In ⟮CSS⟯, ⟮`pc`⟯ is the unit name for ⟮＿pica＿⟯.
+
+###### tex
+
+⟮TeX's⟯ ⟮bp⟯ is ⟮equivalent to the DTP point⟯.
+⟮TeX's⟯ ⟮pt⟯ is ⟮very slightly smaller than the DTP point⟯. 
+
+#### type anatomy
 
 flex-container:⟮h∞;✫1280px-Typography_Line_Terms.svg.png✫✫decender.png✫✫1280px-Thank_You_(13824254433).jpg✫⟯
-The ⟮body height⟯ when talking about ⟮movable type⟯ is ⟮the height of the sort⟯. 
-The ⟮body height⟯ when talking about ⟮digital typography⟯ is ⟮the distance between⟯ ⟮the top of the tallest letterform⟯ and ⟮the bottom of the lowest one⟯. 
-Equivalently, we may also define ⟮the body height⟯ as ⟮the distance between⟯ ⟮the ascender⟯ and ⟮descender⟯ ⟮line⟯. 
 
-The ⟮body height⟯ when talking about ⟮movable type⟯ is ⟮the height of the sort⟯. 
-The ⟮body height⟯ when talking about ⟮digital typography⟯ is ⟮the distance between⟯ ⟮the top of the tallest letterform⟯ and ⟮the bottom of the lowest one⟯. 
-Equivalently, we may also define ⟮the body height⟯ as ⟮the distance between⟯ ⟮the ascender⟯ and ⟮descender⟯ ⟮line⟯. 
+##### body
 
-the height of the ⟮x-height⟯ typically corresponds to ⟮the height of the x⟯, hence ⟮the name⟯. 
-some letters are ⟮a little higher⟯ than ⟮the x-height⟯ (if ⟮lowercase⟯) or ⟮the cap height⟯ (if ⟮uppercase⟯) and thus extend ⟮slightly below⟯ ⟮the baseline⟯ or ⟮above⟯ ⟮the x-height⟯/⟮cap height⟯, this is called ⟮overshoot⟯. 
-⟮Overshoot⟯ is generally used for ⟮round letters⟯ to make them ⟮appear the same size as square letters⟯. (Due to ⟮quirks with our perception⟯ ) 
+»⟮the body height⟯« is ⟮the distance between⟯ ⟮the ＿ascender＿ and ＿descender line＿⟯. 
+The ⟮＿body height＿⟯ when talking about ⟮movable type⟯ is ⟮the height of the sort⟯. 
 
-A ⟮descender⟯ is ⟮the portion of a letter⟯ which ⟮extends below the baseline⟯. 
-Letters such as ⟮lowercase y, g, and j⟯ typically have ⟮descenders⟯. 
-⟮the descender depth⟯ is the ⟮distance⟯ ⟮the descender reaches below the baseline⟯ 
-A ⟮ascender⟯ is ⟮the portion of a letter⟯ which ⟮extends above the baseline⟯. 
-Letters such as ⟮lowercase f, h and uppercase letters (if we want to count them⟯) typically have ⟮ascenders⟯. 
-The ⟮ascender height⟯ is the ⟮distance⟯ that ⟮ascenders reach above the baseline⟯. 
-The ⟮ascender height⟯ is generally ⟮higher than⟯ ⟮the cap-height⟯ 
-The ⟮ascender line⟯ (or ⟮c+;s60;topline⟯)/⟮descender line⟯ is ⟮the imaginary line⟯ ⟮defined by⟯ ⟮the ascender height⟯/⟮descender depth⟯ 
-⟮Line spacing⟯ / ⟮c+;s65;leading⟯ is ⟮the distance between⟯ ⟮the descender line⟯ and ⟮the next ascender line⟯ 
+##### baseline, mean line
+
+The »⟮baseline⟯« is ⟮the imaginary line⟯ ⟮on which most letters sit⟯.
+The »⟮mean line⟯« is ⟮the imaginary line⟯ ⟮up to which most lowercase letters extend⟯.
+
+##### x-height
+
+⟮x-height⟯ = ⟮corpus size⟯
+The »⟮x-height⟯« is ⟮the distance between⟯ ⟮＿baseline＿ and ＿mean line＿⟯.
+⟮the height of the x-height⟯ typically ⟮corresponds to the height of the x⟯, ⟮hence the name⟯. 
+
+##### overshoot
+
+»⟮Overshoot⟯« is when letters ⟮extend a little⟯ ⟮above or below⟯ ⟮the lines meant to constrain them⟯.
+If downwards, ⟮＿overshoot＿⟯ is extending beyond the ⟮＿baseline＿⟯.
+If upwards, ⟮＿overshoot＿⟯ is extending beyond the ⟮＿x-height＿ or ＿cap height＿⟯.
+⟮＿Overshoot＿⟯ is used due to ⟮quirks with our perception⟯, where otherwise ⟮the non-overshot letters would look slightly too small⟯.
+⟮＿Overshoot＿⟯ is generally used for ⟮round⟯ or ⟮c_;pointy⟯ leters.
+
+##### ascenders, descenders, line spacing
+
+A »⟮descender⟯« is ⟮the portion of a letter⟯ which ⟮extends below the ＿baseline＿⟯. 
+Letters such as ⟮lowercase y, g, and j⟯ typically have ⟮＿descenders＿⟯. 
+»⟮the descender depth⟯« is the ⟮distance⟯ ⟮the ＿descender＿ reaches below the ＿baseline＿⟯ 
+A »⟮ascender⟯« is ⟮the portion of a letter⟯ which ⟮extends above the ＿baseline＿⟯. 
+Letters such as ⟮lowercase f, h and uppercase letters (if we want to count them⟯) typically have ⟮＿ascenders＿⟯. 
+The »⟮ascender height⟯« is the ⟮distance⟯ that ⟮＿ascenders＿ reach above the ＿baseline＿⟯. 
+The ⟮＿ascender height＿⟯ is generally ⟮higher than⟯ ⟮the ＿cap-height＿⟯ 
+⟮ascender line⟯ = ⟮topline⟯
+The »⟮ascender/descender line⟯« is ⟮the imaginary line⟯ ⟮defined by⟯ ⟮the ＿ascender height/descender depth＿⟯ 
+⟮Line spacing⟯ = ⟮leading⟯
+»⟮Line spacing⟯« is ⟮the distance between⟯ ⟮the ＿descender line＿⟯ and ⟮the next ＿ascender line＿⟯ 
+
+##### em square
 
 flex-container:✫220px-Metal_type.svg.png✫
 
 
 In ⟮digital type⟯, letters are ⟮designed around⟯ ⟮an imaginary square⟯ called ⟮the em square⟯. 
 ⟮The relationship⟯ of ⟮parts of letters⟯ to ⟮the font size⟯ is determined by ⟮the designer of the font⟯. However, as a very rough guideline, an ⟮"average" font⟯ might have ⟮a cap height⟯ of ⟮0.7 em⟯, and an ⟮x-height⟯ of ⟮0.5 em⟯. 
+
+#### font properties
 
 ##### serifs
 
