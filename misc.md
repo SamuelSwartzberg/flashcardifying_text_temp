@@ -253,18 +253,6 @@ In general, ⟮excess intake⟯ of vitamins is ⟮unlikely⟯ from ⟮food sourc
 Common Designation|More Properly
 ⟮Vitamin C⟯|⟮Ascorbic acid⟯
 
-
-###### vitamin D
-
-⟮Vitamin D⟯ deficiency is common worldwide, occurring in about a ⟮1 billion⟯ people, and is surprisingly common in ⟮europe⟯. 
-⟮Vitamin D⟯ has many function, amongst the most important being ⟮increasing the absorption⟯ of ⟮minerals⟯ such as ⟮calcium, magnesium, and phosphate⟯ 
-⟮Vitamin D⟯ ⟮deficiency⟯ can cause or excarbate a wide variety of conditions, many featuring ⟮bone⟯ or ⟮muscle⟯ ⟮weakness⟯, and some ⟮respiratiory infections⟯ as well as ⟮mental illnesses⟯ 
-⟮Rickets⟯ is a condition that results in ⟮weak⟯ and ⟮soft⟯ ⟮bones⟯ in ⟮children⟯ 
-
-⟮Vitamin D⟯ occurs only ⟮rarely⟯ in food, specifically in ⟮oily fish⟯ such as ⟮salmon/herring/mackerel⟯ as well as ⟮mushrooms⟯ (if these have been ⟮exposed to UVB ligh ≈ been in the sun⟯) 
-While ⟮Vitamin D⟯ can be synthesized by contact with ⟮UVB⟯ rays from ⟮sunlight⟯, many people ⟮do not do this enough⟯, it is not necessarily possible in ⟮winter⟯, and may not be ⟮advisable⟯ due to ⟮skin cancer risk⟯ 
-In the ⟮US⟯ and some other countries, ⟮milk⟯ and ⟮milk substitutes⟯ as well as ⟮breakfast cereals⟯ are fortified with ⟮Vitamin D⟯. 
-
 ###### vitamin B
 
   
@@ -306,21 +294,11 @@ span=5;⟮Macrominerals⟯|span=11;⟮trace minerals⟯|⟮ultratrace minerals�
 
 ###### various minerals
 
-####### calcium
-
-⟮Calcium⟯ most famously exists in ⟮dairy⟯, but ⟮also in other things.⟯ 
-
 ####### iron
 
 ⟮Iron⟯ ⟮from food⟯ comes in two forms, ⟮heme⟯ ⟮iron⟯ which can only be gotten from ⟮animal flesh⟯, and ⟮non-heme⟯ ⟮iron⟯ which can also be gotten from ⟮other sources⟯ 
 ⟮Heme⟯ iron is ⟮better absorbed⟯ by the body than ⟮non-heme⟯ iron. 
 Iron from ⟮non-heme⟯ sources is ⟮more readily absorbed⟯ if ⟮consumed with foods⟯ that contain either ⟮heme-bound iron⟯ or ⟮vitamin C⟯. 
-
-####### iodine
-
-⟮Iodine⟯ ⟮deficiency⟯ leads to many bad outcomes, many due to the fact that ⟮iodine⟯ is necessary to ⟮make one of the thyroid hormones (thyroxine⟯), lack of which leads to ⟮high levels of thyroid stimulating hormone (TSH⟯), causing ⟮the thyroid to swell⟯ 
-in many countries, ⟮table salt⟯ is fortified with ⟮iodine⟯ in the form of ⟮iodine⟯ ⟮salts⟯, which has proved effective at preventing ⟮iodine⟯ ⟮deficiency⟯ 
-In Deutschland kommen Iodverbindungen ⟮in den Böden⟯ unverändert ⟮in zu geringen Mengen vor⟯. Durch ⟮die Iodierung von Speisesalz⟯ ist ⟮der Iodmangel in Deutschland verringert worden⟯, dennoch besteht in Deutschland bei ⟮36⟯ % der Bevölkerung ein ⟮milder⟯ und bei ⟮21⟯ % ein ⟮moderater bis schwerer⟯ ⟮Iodmangel⟯. 
 
 ##### choline
 
@@ -329,46 +307,12 @@ Choline is a micronutrient that is neither a mineral nor a vitamin.
 
 ### food
 
-#### translations
-⟮grünkohl⟯|⟮kale⟯
-⟮hülsenfrucht⟯|⟮legume⟯
-
-
-#### seeds
-
-⟮Flax⟯ (De: ⟮Flachs⟯) and ⟮Linseed⟯ (De: ⟮Lein⟯ (z.B. ⟮leinsamen⟯)) are ⟮the same thing⟯ 
 
 #### vegetables
 
 ##### leafy greens
 
 ⟮Leaf⟯⟮(c:1;y⟯) ⟮vegetables⟯/⟮greens⟯ are ⟮plant leaves⟯ eaten as ⟮a vegetable⟯, which are usually ⟮green⟯-colored and share ⟮many nutritional similarities⟯. 
-
-#### grains
-⟮rye⟯|⟮roggen⟯|⟮s∞;from Proto-West Germanic *rugi → ryge → rye; *rugi → rocko → rocke → Rocken → Roggen;⟯
-⟮wheat⟯|⟮weizen⟯
-⟮barley⟯|⟮gerste⟯
-⟮oat⟯|⟮hafer⟯
-⟮millet⟯|⟮hirse⟯
-
-Thus, ⟮haferflocken⟯ = ⟮rolled oats⟯. 
-
-#### fruit ＆ berries
-⟮blackcurrant⟯|⟮schwarze johannisbeere⟯
-⟮currant⟯|⟮Johannisbeere⟯
-
-
-
-#### meals
-
-##### porridge
-
-flex-container:✫sm_paste-dc57cd1db86a30929580dfe164e990a0b4a5fc15.jpg✫✫sm_paste-d798ad6fb74f00e199c9f1bf10e93b8d3cfd4fca.jpg✫
-
-
-You make ⟮porridge⟯ by ⟮cooking⟯ ⟮oats⟯, ⟮milk⟯ and ⟮water⟯ together. 
-⟮Porridge⟯ looks like ⟮‹image›⟯ 
-⟮Gruel⟯ is ⟮a thinner version⟯ of ⟮porridge⟯. 
 
 ## anatomy
 
@@ -413,88 +357,6 @@ No. in diagram|Formal name (noun)|Formal name (adjective)|Alternative name
 
 
 ### organs
-
-#### sexual/reproductive
-
-##### 'male'
-
-###### map
-
-flex-container:⟮h∞;uh15:26;✫sm_male_anat_repr.svg✫⟯
-No.|Name|Common Name
-1|bladder
-2|pubic bone
-3|penis
-4|corpus cavernosum
-⟮5⟯|⟮glans (penis⟯)|⟮the head of the penis⟯
-⟮6⟯|⟮foreskin⟯
-⟮7⟯|⟮urethral opening/external urethral orifice/urinary meatus⟯
-8|sigmoid colon
-9|rectum
-10|seminal vesicle
-11|ejacularory duct
-12|prostate gland
-14|anus
-15|vas deferens
-⟮16⟯|⟮epididymis⟯
-⟮17⟯|⟮testis/testicle (synonyms⟯)|⟮balls⟯
-⟮14⟯|⟮scrotum⟯|⟮ballsack⟯
-
-flex-container:⟮h∞;uh7:14;✫sm_penis_underside.jpg✫⟯
-No.|Name|Common Name
-⟮1⟯|⟮glans (penis) ⟯|⟮head of the penis⟯
-⟮2⟯|⟮corona of the glans penis ⟯|⟮lower border of the glans⟯
-⟮3⟯|⟮frenulum ⟯
-⟮4⟯|⟮shaft ⟯
-
-
-flex-container:⟮h∞;✫urethra_view_side_3.jpg✫⟯
-
-No.|Name
-1|prostatic urethra
-2|membranous urethra
-3|bulbar urethra
-4|penile urethra
-5|fossa navicularis
-
-
-flex-container:⟮h∞;✫sm_194px-Epididymis-KDS.jpg✫⟯
-
-The ⟮Epididymis⟯ are the ⟮highly coiled⟯ ⟮bumpy⟯-feeling ⟮tubes⟯ connecting ⟮the testes⟯ to ⟮the rest of the male reproductive system⟯. 
-
-###### testicular self-examination
-
-General medical advice is to self-examine ⟮one's testicles⟯ ⟮once a month⟯ to check for ⟮testicular cancer.⟯ 
-When ⟮self-examining ones testicles,⟯ the two parts are to ⟮feel them once-over⟯ and to ⟮measure them⟯. 
-When measuring your testicles, having ⟮one testicle be larger than the other⟯ is ⟮normal⟯, what you want to look out for is ⟮size changes diachronically⟯. 
-When ⟮feeling your testicles⟯, you're feeling for ⟮lumps/bumps or similar⟯, representing ⟮possible tumors⟯. Generally, these are ⟮painless⟯, though ⟮a dull soreness⟯ in ⟮your whole testicles⟯ is also ⟮something to keep an eye out for⟯. 
-If you f⟮ind  something unusal⟯ during testicular self-examination, ⟮consult with your doctor⟯. 
-
-##### 'female'
-
-###### g-spot 
-
-The ⟮g-spot⟯ is a ⟮hypothesized⟯ but ⟮probably nonexistant/socially constructed⟯ area ⟮within the vagina⟯ on the ⟮belly-wards⟯ side supposedly responsible for ⟮strong orgasms.⟯ 
-
-###### reproduction
-
-####### pearl index
-
-⟮The pearl index⟯ is a method for reporting ⟮the effectiveness of a birth control method.⟯ 
-The pearl index is ⟮the number of pregnancies⟯ per ⟮100⟯ that ⟮the women participating in the trial⟯ experienced in ⟮a year⟯. 
-Specifically, the ⟮pearl index⟯ is calculated via ⟮(⟯⟮n_pregnancies⟯ ⟮* 12 * 100⟯⟮) / (⟯⟮n_women⟯ ⟮*⟯ ⟮n_months⟯⟮c10;⟯) 
-It is theoretically possible to recieve a pearl index of ⟮1200⟯ if ⟮all women get pregnant in the first month⟯, however the pearl index may serve as t⟮he risk of getting pregnant in a year⟯ if ⟮the pregnancy rate is relatively low⟯ 
-⟮Pearl indices⟯ ⟮vary⟯ based on ⟮the culture/demographics⟯ of the people being studied, and ⟮the method of instruction⟯. 
-More seriously, since ⟮the most fertile couples⟯ will ⟮get pregnant first⟯, and since ⟮people will get better at using a contraceptive method as time goes on⟯, ⟮the longer⟯ ⟮a study runs⟯, ⟮the lower⟯ ⟮its reported Pearl index will be⟯. 
-⟮Typical-use pearl index⟯|⟮pearl index including occasional mistakes etc.⟯
-⟮perfect-use pearl index⟯|⟮pearl index under ideal usage⟯
-
-Method of birth control|Perfect-use pearl index|Typical-use pearl index
-⟮the Pill⟯|⟮0.2-0.5⟯|⟮5-10⟯
-⟮Male condom⟯|⟮~2⟯|⟮10-20⟯
-⟮Pulling out⟯|⟮~5⟯|⟮~20⟯
-
-
 
 #### sense
 
@@ -807,86 +669,13 @@ Your body has ⟮30⟯ ⟮dermatomes⟯.
 In your ⟮limbs⟯, ⟮dermatomes⟯ run ⟮vertically⟯. 
 In your ⟮torso⟯, ⟮dermatomes⟯ run ⟮horizontally⟯. 
 
-### alignment
-
-#### pelvic tilt
-
-flex-container:✫sm_Untitled-design-25-e1568868179256.jpg✫
-
-
-
-span=3;✫Screenshot%202021-12-04%20at%2004.59.57.png✫
-⟮neutral pelvis⟯|⟮anterior pelvic tilt⟯|⟮posterior pelvic tilt⟯
-
-An ⟮'ideal' pelvic tilt⟯ is ⟮very slightly anterior (5° or so⟯) 
-
-##### APT
-
-When ⟮sitting⟯ or ⟮standing⟯ with ⟮APT⟯, ⟮engage⟯ the ⟮glutes⟯ and the ⟮core⟯. You can test this by ⟮poking yourself with a finger.⟯ 
-When ⟮combatting APT by engaging your glutes and core⟯, you are trying to ⟮distribute some of the laod to your abs and glutes.⟯ 
-
-######! APT symptoms 
-
-Bodypart|APT symptom
-⟮butt⟯|⟮stick out back⟯
-⟮abdomen⟯|⟮stick out in front⟯
-⟮spine⟯|⟮excessively arched⟯
-
-######! What to do with APT
-
-Status|Affected muscles|action
-⟮Weak⟯|⟮abdominals⟯, ⟮glutes⟯||⟮stretch them⟯
-⟮Tight⟯|⟮hip flexors/quads⟯, ⟮erector spinae⟯, ⟮hamstrings⟯|⟮strengthen them⟯
-
 ### nodules
 
 Nodules is a generic term for small firm lumps, usually greater than 1 cm in diameter.
 Papule is a generic term for a small firm lump smaller than a nodule.
 A cyst is a nodule that is filled with fluid.
 
-## beings
-
-### traits
-
-#### sex
-
-##### intersex
-
-⟮Intersex⟯ people are have ⟮a range of different variations⟯ that "⟮do not fit the typical definitions for male or female bodies⟯" 
-⟮Depending on how you count⟯, ⟮0.02⟯% - ⟮2⟯% of people are ⟮intersex⟯ 
-
-sex (and species)|sex chromosomes
-⟮human females⟯|⟮XX⟯
-⟮human males⟯|⟮XY⟯
-
-
-### animals
-
-#### horses
-
-##### horse-human face-attached interfaces
-
-Item|Function
-⟮Halter⟯|⟮Leading a horse while walking⟯
-⟮Bridle⟯|⟮Controlling a horse while riding⟯
-
-
-## genetics
-
-### genetic variety
-
-#### founder effect
-
-The ⟮founder effect⟯ is ⟮the loss of genetic variation⟯ that occurs when ⟮a new population is established⟯ by ⟮a very small number of individuals from a larger population. (e.g. migrants⟯ 
-The ⟮founder effect⟯ occurs due to ⟮the reduced genetic diversity⟯ in ⟮the founder population⟯. 
-
 ## med
-
-### ICD-10 codes
-
-Thingy|ICD-10 Code
-⟮OCD⟯|⟮F42⟯
-
 
 ### signs and symptoms
 
@@ -896,63 +685,14 @@ The difference between ⟮signs⟯ and ⟮symptoms⟯ is  ⟮how they are percep
 ⟮sign⟯|⟮observable to others (not just the patient⟯)
 ⟮symptom⟯|⟮observable to the patent only⟯
 
-
 ### diseases
 
 A disease is some sort of disruption of regular functions with recgonizable signs and symptoms with a specific, known process in the body which is the cause.
-
-#### hansen's disease
-
-⟮Hansen's disease⟯ is the proper name for ⟮Leprosy⟯. 
-⟮Leprosy⟯ is spread  by ⟮extensive contact of respiratory fluid⟯ 
-⟮95⟯% of people infected with  ⟮Mycobacterium leprae or Mycobacterium lepromatosis⟯ ⟮do not develop leprosy.⟯ 
-Signs of ⟮leprosy⟯:  ⟮Large discolored or pink patches on the skin⟯ 
-Symptoms of ⟮leprosy⟯: ⟮Poor eyesight⟯, ⟮muscular atrophy⟯, ⟮nerve damage⟯ → ⟮lack of ability to feel pain⟯ → ⟮more injuries⟯ 
-In the past, ⟮leprosy⟯ was dealt with by ⟮separating lepers into leper colonies/sanatoria.⟯ 
-Today, ⟮leprosy⟯ can be ⟮cured⟯ via ⟮multidrug therapy⟯. 
-⟮Leprosy⟯ cases have been ⟮decreasing rapidly⟯ - in the ⟮1980s⟯, ⟮5 million⟯ people were suffering from ⟮leprosy⟯, by ⟮2018⟯ that number ⟮had fallen to 200k⟯ 
-
-#### benign paroxysmal positional vertigo
-
-⟮Benign paroxysmal positional vertigo⟯ is an illness that causes ⟮vertigo (dizziness)⟯ upon ⟮changes in the head position⟯.
-Physiologically, ⟮benign paroxysmal positional vertigo⟯ is caused by ⟮dislocated crystals in the ear,⟯ however ⟮the ultimate cause is often not clear⟯.
-⟮Benign paroxysmal positional vertigo⟯ is more common in ⟮the elderly⟯ and ⟮women⟯, with ⟮2.5%⟯ of people experiencing it ⟮at some point in their livees⟯.
-⟮Benign paroxysmal positional vertigo⟯ is often treated with ⟮specific exercises⟯.
-
-#### by varicella-zoster
-
-flex-container:✫sm_87316209681.jpg✫✫sm_300px-Herpes_zoster_neck.jpg✫✫sm_The-signs-of-chickenpox-and-when-you-should-see-a-doctor.jpg✫
-
-
-c1;Chickenpox⟯ is then english term for ⟮Windpocken⟯
-⟮Herpes Zoster⟯  is the scientific term for ⟮Shingles⟯, in german it is called ⟮Gürtelrose⟯ 
-⟮Varicella-zoster virus⟯  causees ⟮Chickenpox, Shingles⟯ 
-⟮After Chickenpox has healed⟯, often ⟮the varicella-zoster virus⟯ ⟮retreats into the nerves near the spine.⟯ 
-In general, one can have Chickenpox ⟮once only⟯. 
-⟮Shingles⟯ is ⟮a re-outbreak of the varicella-zoster virus⟯. 
-The risk factors for ⟮shingles⟯ are ⟮weakened immune system, age, stress⟯. 
-⟮Shingles⟯ can be prevented via ⟮the shingles vaccine, of which the longest-lasting one is Shingrix⟯. 
-The main sign of ⟮shingles⟯ is ⟮a group of small blisters⟯ on ⟮one side of the body⟯ within ⟮a single dermatome⟯. 
-The ⟮blisters of shingles⟯ can be ⟮quite painful⟯, ⟮itch⟯, and also ⟮cause hyperesthesia (oversensitivity⟯). 
-⟮One of the first symptoms⟯ of ⟮shingles⟯ is ⟮general malaise/sick fealing⟯. 
-If you have {{c29::shingles (herpes zoster),}{{c30::} contact with the blisters}} ⟮spreads the varicella-zoster virus⟯, but ⟮will of course cause chickenpox, not shingles⟯. 
-The main risks of ⟮shingles⟯ is if ⟮it occurs near sense organs⟯, or that ⟮it causes neuralgia⟯. 
-To ⟮prevent neuralgia⟯, shingles is treated with ⟮painkillers⟯. 
-During a ⟮shingles⟯ infection, ⟮stress⟯ and ⟮physical activity⟯ should be avoided. 
 
 ### disorder
 
 A disorder is some sort of disruption of regular functions with recgonizable signs and symptoms with no statement of if we know the cause, if there are multiple causes, etc.
 A disorder might indicate that a specific disease is possible but there is not enough clinical evidence for diagnosis.
-
-#### CRSD
-
-⟮circadian rhythm sleep disorders⟯ ⟮(c:2;s1;CRSD⟯) are a family of ⟮sleep disorders⟯ related to ⟮timing of sleep⟯. 
-⟮Non-24-hour sleep–wake disorder⟯ ( ⟮c+;s5;non-24⟯ ) is a form of ⟮CRSD⟯. 
-⟮Non-24-hour sleep–wake disorde⟯r involves having ⟮a circadian rythym⟯ that is ⟮longer or shorter than the typical 24 hours⟯. 
-⟮non-24⟯ affects ⟮0.03%⟯ of ⟮the total population⟯ (though ⟮there may be a large dunkelziffer⟯), but ⟮70⟯% of ⟮the totally blind population⟯. 
-On average, sufferers of ⟮non-24⟯ have a circadian rythym roughly ⟮25 hours⟯ long. 
-Medication for ⟮non-24⟯ generally is ⟮melatonin / melatonin-receptor-based⟯. 
 
 #### nervous system
 
@@ -960,9 +700,6 @@ Medication for ⟮non-24⟯ generally is ⟮melatonin / melatonin-receptor-based
 
 »Dystonia« is a neurological ＿disorder＿ where muscle contractions cause jerking, twitching, and abnormal movements.
 Focal dystonia is dystonia that affects a specific part of the body.
-Benign Essential Blepharospasm is a focal dystonia of the eye muscle.
-Most eyelid twitching is most common idiopathic.
-Rarely, eyelid twitching is a symptom of benign essential blepharospasm or a serious neurological disorder.
 
 ### syndrome
 
@@ -971,53 +708,9 @@ A ⟮syndrome⟯ is ⟮a set of signs and symptoms⟯
 A ⟮syndrome⟯ with ⟮a cause⟯ is (properly) ⟮a disease⟯ 
 Sudden infant death ⟮syndrome⟯ is a ⟮syndrome⟯ ⟮because we know what happens, but not why⟯ 
 
-#### SIDS
-
-⟮Sudden infant death syndrome⟯ is the ⟮sudden unexplained death⟯ of ⟮a child less than one year old⟯. 
-⟮Sudden infant death syndrome⟯ most often occurs ⟮when the infant is asleep⟯ 
-
-#### CFS/ME
-
-⟮Chronic fatigue syndrome⟯ is also called ⟮myalgic encephalomyelitis⟯. 
-⟮CFS⟯ is a syndrome with the main symptom of ⟮strong exaustion⟯ that ⟮becomes worse after any kind of physical or mental activity⟯. 
-⟮CFS⟯ is ⟮severe⟯, with ⟮75%⟯ of people ⟮being unable to work⟯ after onset. 
-Roughly ⟮1⟯% of the population have ⟮CFS⟯, with it occuring somewhat more frequently in ⟮women⟯. 
-
-### pain
-
-#### referred pain
-
-⟮referred pain⟯ is pain ⟮felt somewhere else than the site of the stimulus⟯.
-
-### errors ＆ lies
-
-#### misleading
-
-⟮Dissimulation⟯ is a word meaning  ⟮c+;concealment of one's thoughts, feelings, or character; pretence⟯, but may more specifically mean ⟮hiding an illness to appear healthy (e.g. to be allowed to go on a class trip⟯) 
-⟮Malinger⟯ is ⟮feigning illness⟯ to ⟮achieve a desired outcome⟯ 
-
-### first aid
-
-flex-container:✫sm_csm_bewusstlosigkeit_thema1_8804a8c41d.jpg✫
-Beim Prüfen des Bewusstseins zuerst ⟮deutlich⟯ ⟮Ansprechen⟯, dann ⟮vorsichtig⟯ ⟮an den Schultern rütteln⟯. 
-
 ### external cause
 
 An »external cause« is a reason for the existence of a medical condition which can be associated with a specific object or acute process that was caused by something outside the body. 
-
-#### effects
-
-##### violence
-
-contrary to ⟮what films like you to believe⟯, ⟮a single punch⟯, especially ⟮in the head⟯ can lead to ⟮severe debilitating brain damage⟯ or ⟮death⟯.
-
-##### hypothermia
-
-⟮Extreme hypothermia⟯ may lead to ⟮undressing⟯, because people suddenly ⟮feel hot⟯ (the mechanism is not well understood, but may be because ⟮the brain malfuncitons⟯, or because ⟮the muscles restricting blood flow to the extremities suddenly relax⟯)
-While ⟮alcohol⟯ makes you feel ⟮warmer⟯, it actually ⟮moves blood⟯ to the ⟮outer skin layers⟯, causing you to ⟮cool out more quickly⟯
-It is generally said that ⟮cotton kills⟯ because it ⟮absorbs way more water⟯ and ⟮does not warm when wet⟯.
-During ⟮late-stage hypothermia⟯, ⟮terminal burrowing⟯ = ⟮hide-and-die sydrome⟯ may occur, where people will ⟮enter small, enclosed spaces⟯ (even if ⟮those do not provide more warmth⟯)
-Being ⟮wet⟯ cools you out more than not because (amongst other reasons) ⟮waters⟯ ⟮thermal conductivity⟯ is ⟮~25 times⟯ higher than ⟮airs⟯
 
 # isms
 
@@ -1381,251 +1074,11 @@ The two strategies people use in performing ⟮emotion work/labor (not sure in h
 ⟮emotion work/labor⟯ by ⟮getting into a state where one genuinely feels the emotions⟯ is called ⟮deep acting⟯ 
 ⟮emotion work/labor ⟯ by ⟮pretending, without changing how one actually feels⟯ is called ⟮surface acting⟯ 
 
-# research ＆ learning
-
-## research
-
-### finding works
-
-forwards search is starting with a work W and seeing which other works have cited W.
-backwards search is starting with a work W and seeing which works W has cited. 
-
-#### primary sources
-
-##### internet archive
-
-The ⟮Internet Archive⟯ is a ⟮digital::access modality⟯ ⟮library/archive::what?⟯, which has two main projects, the ⟮Wayback Machine⟯, which ⟮archives copies of websites⟯ and thus ⟮c+;s3;allows preserving and seeing sites as they appeared at a certain date⟯., and ⟮a large collection of all types of media.⟯ 
-
-##### europeana
-
-⟮Europeana⟯ is a ⟮digital::access modality⟯ ⟮library/archive::what?⟯ by the ⟮European Union⟯ with a large collection of ⟮cultural and scientific artefacts⟯, many of them ⟮free to use.⟯ 
-
-##### newspapers.com
-
-⟮newspapers.com⟯ is an ⟮onlinel::access modality⟯ ⟮library/archive⟯ of ⟮ newspapers/newspaper articles⟯ ⟮from the 1700s to the 2000s(now)::time?⟯ 
-
-##### maps
-
-The ⟮David Rumsey⟯ ⟮Historical Map Collection⟯ is one of the world's largest private map collection, dating from the ⟮1550s⟯ to ⟮today⟯, of which ⟮~100k⟯ are available under a ⟮CC⟯ license on ⟮their website⟯. 
-
-#### papers
-
-##### search
-
-⟮Semantic Scholar⟯ is a ⟮search engine⟯ for ⟮academic publications⟯ that uses ⟮AI⟯ and which has features such as that it ⟮auto-embeds abstracts⟯, and not only shows papers that cited the relevant paper, but also ⟮in which way⟯, and ⟮the context.⟯ 
-⟮Google Scholar⟯ is google's ⟮search engine⟯ for ⟮academic literatore.⟯
-
-##### aquisition
-
-table:platform|has|notes
-sci-hub|most papers, no books|needs DOI/PMID
-libgen (.rs, .is, st)|most papers, most books
-
-##### modelling
-
-flex-container:✫share-preview-img.png✫
-⟮connectedpapers.com⟯ is a tool that builds ⟮a graph⟯ of ⟮related papers⟯ for ⟮a given paper⟯, allowing for ⟮finding similar papers⟯. Papers are grouped by ⟮similarity⟯ measured via ⟮s5;⟮co-citation⟯ and ⟮bibliographic coupling.⟯⟯ 
-
-### sources
-
-source|is
-primary source|'raw data'
-secondary source|synthesis of other sources
-tertiary source|compilation of other sources (e.g. enycyclpedia)
-
-In history, primary sources would be works from the historical period under consideration
-In philosophy, primary sources are notable works subject to interpretation
-primary sources are called 「quellen」 in the study of history in german.
-
-## interaction
-
-### citation metrics
-
-#### coupling ＆ co-citation
-
-flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
-
-Bibliographic coupling measures how many of the same works two documents cite. 
-If two documents cite at least one work in common, they are bibliographically coupled. 
-The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
-Co-citation measures how frequently two documents are cited together by other documents. 
-If at least one other document cites two documents in common these documents are said to be co-cited. 
-The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
-
-## writing
-
-### referencing
-
-#### plagiarism
-
-plagiarism is using someone else's intellectual/artistic products without proper attribution.
-
-#### citation
-
-##### content
-
-Reference and citation are most often synonyms.
-Citation is indicating a source of information.
-A »full citation« fully identifies a source, and where in the source the information can be found, if applicable.
-A »short citation« identifies a source in a short way and where in the source the information can be found, if applicable. to resolve a short citation to the actual work, finding the corresponding full citation is normally needed.
-Philosophical works sometimes get an abbreviation such as KrV for use in short citations
-A »complete citation« is the pair of a short citation and a full citation.
-Author-date is a type of short citation where one includes the author and date.
-Author-date citation is also called harvard style.
-
-some citation styles allow using ibid. instead of the page information if the page information is repeated.
-
-##### placement
-
-onion-box:
-citations 
-  in-body citation 
-    note citation
-    in-text citation
-  works cited/references entry
-
-
-Note citations are citations in endnotes/footnotes.
-In-text citations are citations within the flow of text.
-Typically, short citations are also in-body citations, and full citations are reference entries.
-
-##### → in-text short citations
-
-Parenthetical citation is a type of in-text short citation format where the citation is surrounded in parentheses.
-Narrative citation is a type of in-text short citation format where the citation is mentioned in the prose of the text.
-Author-date/harvard style is often realized as narrative or parenthetical citations.
-author-date-narrative-format ::= ‹author› \(‹date›\)
-author-date-parenthetical-format ::= \(‹author› ‹date›[, ‹page-specifier›]\)
-
-when adding page specifiers to author-date narrative citations, the page specifier goes in its own set of parentheses, at the end of the clause.
-
-###### specifying pages
-
-page-specifier ::= p. ‹integer›[f.|ff.|-‹integer›]
-
-f.|this page or the next
-ff.|this page or any following.
-
-##### sections
-
-＿Works Cited＿ and ＿References＿ are synonyms.
-Sometimes the ＿References＿ section is also called 「reference list」
-»Works Cited«/»References« are sections at the end of the work containing ＿full citations＿.
-Properly, a »bibliography« should contain all works consulted, not those merely cited.
-Often, 「bibliography」 is also just used as a synonym for ＿Works Cited＿/＿References＿.
-A bibliography may also be a separate work listing works on a particular topic.
-An annotated bibliography is a bibliography with author's comments on each work.
-「Literaturverzeichnis」 is the german name for ＿Works Cited＿/＿References＿.
-Quellenverzeichnis may be used as a synonym for Literaturverzeichnis, but is more properly a section used in historical science for identifying primary sources.
-
-##### citation style
-
-A citation style is a set of rules of how to structure your citations.
-the APA is the american psychological association.
-the APA publishes a style guide, which is often autohyponymously also called APA.
-Of the APA style guide, the thing that is most well known is its citation style.
-The current APA edition is the 7th, released 2019.
-
-table:citation style|in-body
-APA|author-date
-
-##### multiple authors
-
-et al. is used to abbreviate many authors in an academic setting
-
-#### quotations
-
-quotes are either direct or indirect
-indirect quotation is a synonym for paraphrase
-The primary/secondary and direct/indirect quotation distinctions are completely separate.
-A primary quotation is from the work itself, a secondary quotation is via a third work, trusting that work to have faithfully reproduced the quote in the first place.
-
-##### modifying
-
-Within quotes, square brackets are used to modify quotes.
-
-### structure
-
-1. Title page
-2. table of contents (optional)
-3. abstract
-4. main body
-5. references ＆ attachments
-6. eidestattliche erklärung (germany only)
-
-#### main body
-
-1. introduction
-2. main section
-3. schluss
-
-The introduction often contains a motivation, context on the topic and pre-existing research, a hypothesis, possibly comments on the sources, as well as a short summary of the structure of the paper.
-Der Schluss einer akademischen arbeit enthält normalerweise (wobei oft nicht getrennt) eine ⟮zusammenfassung⟯, ⟮konklusion⟯, und ⟮ausblick⟯.
-
-##### hypothesis
-
-In germany, sometimes a dreischritt is used to make your hypothesis more precise.
-Form eines Dreischritts: ⟮Ich untersuche⟯ ..., ⟮weil ich herausfinden will⟯, ..., ⟮um herauszufinden⟯, .....
-
-### types of works
-
-#### monographs
-
-A monograph is typically a single work on a single subject by a single author.
-
-### techniques
-
-Writing an abstract before the paper itself may help clarify if the paper works when boiled down to its essentials.
-Writing a 'letter to your readers' may help clarify why you are writing the paper and/or why one would want to read it.
-
-## academia
-
-### humanities
-
-#### digital
-
-the ⟮application of computational technologies/digital resources⟯ in ⟮the humanities⟯ is known as ⟮digital humanities⟯ 
-⟮digital history⟯ is ⟮the intersection of history and digital humanities⟯ (While a bunch of theorists have complaints about this definition, I think it's the only sensible one) 
-
-### common
-
-#### year of study
-
-Year of study|Name
-⟮4th year of study⟯|⟮Senior⟯
-⟮3nd year of study⟯|⟮Junior⟯
-⟮2nd year of study⟯|⟮Sophomore⟯
-⟮1st year of study⟯|⟮Freshman⟯
-
-#### 3-number notation
-
-Names such as 'English 101' come from a supposedly common 3-digit notation for university courses.
-While there is a system for 3-digit colledge course numbers, it is rarely followed.
-
-
-digit|means waht
-1st|college year (freshman, sophomore...)
-2nd|subject/department
-3rd|sequence within subject/department
-
-## ways of thinkin
-
-### turns
-
-In academia, a turn is an intellectual project in which a group of scholars critique the status quo and embrace a new paradigm of research.
-The original turn (whence the term) was the linguistic turn in philosophy at the beginning of the 20th century.
-Since the linguistic turn, everyone and their mother have claimed a turn.
-
 # psych
 
-## mental processes
+## memory
 
-### memory
-
-We currently ⟮don't know⟯ much about how ⟮memory⟯ works.
-What we 'know' about ⟮how memory works⟯ is often ⟮quite controversial⟯.
-
-#### types
+### types
 
 table:Name1|Name2|Stores what?
 ⟮c+;s2;Explicit memory::E...⟯|⟮c+;s1:;Declarative memory::D...⟯|⟮facts, concepts⟯
@@ -1634,203 +1087,6 @@ table:Name1|Name2|Stores what?
 
 ⟮Explicit/declarative memory⟯ is the memory that is subject to the ⟮Ebbinghaus forgetting⟯ curve.
 
-#### PAO
-
-##### letters and numbers
-
-table: Digit|Letter
-⟮0⟯|⟮K⟯
-⟮1⟯|⟮A⟯
-⟮2⟯|⟮B⟯
-⟮3⟯|⟮M⟯
-⟮4⟯|⟮D⟯
-⟮5⟯|⟮E⟯
-⟮6⟯|⟮R⟯
-⟮7⟯|⟮G⟯
-⟮8⟯|⟮H⟯
-⟮9⟯|⟮S⟯
-
-##### 1-100
-
-P|A|O|Number|Mnemonics
-⟮c+;s∞;us+3;Kirito Kazuto⟯|⟮c+;s∞;us+2;dual-wielding⟯|⟮c+;s∞;us+;Dual Swords⟯|⟮00⟯
-⟮c+;s∞;us+3;Prof X (X=10⟯)|⟮c+;s∞;us+2;mindreading⟯|⟮c+;s∞;us+;a school⟯|⟮10⟯
-⟮c+;s∞;us+3;Ben Kenobi⟯|⟮c+;s∞;us+2;mourning⟯|⟮c+;s∞;us+;a burned corpse⟯|⟮20⟯
-⟮c+;s∞;us+3;Makise Kurisu⟯|⟮c+;s∞;us+2;tsundereing⟯|⟮c+;s∞;us+;a labcoat⟯|⟮30⟯
-⟮c+;s∞;us+3;Death Knight⟯|⟮c+;s∞;us+2;reanimating⟯|⟮c+;s∞;us+;a ghoul⟯|⟮40⟯
-⟮c+;s∞;us+3;Gilgamesh (Evil Knight⟯)|⟮c+;s∞;us+2;portal-summoning⟯|⟮c+;s∞;us+;a thousand weapons⟯|⟮50⟯
-⟮c+;s∞;us+3;Rook⟯|⟮c+;s∞;us+2;leading⟯|⟮c+;s∞;us+;A caravan of refugees⟯|⟮60⟯
-⟮c+;s∞;us+3;Genghis Khan⟯|⟮c+;s∞;us+2;conquering⟯|⟮c+;s∞;us+;a horse⟯|⟮70⟯
-⟮c+;s∞;us+3;HK-47⟯|⟮c+;s∞;us+2;slaughtering⟯|⟮c+;s∞;us+;some meatbags⟯|⟮80⟯
-⟮c+;s∞;us+3;Shinichi Kudo⟯|⟮c+;s∞;us+2;deducing⟯|⟮c+;s∞;us+;a fishing line⟯|⟮90⟯
-⟮c+;s∞;us+3;B Franklin (The first american⟯)|⟮c+;s∞;us+2;discovering⟯|⟮c+;s∞;us+;A key and a kite⟯|⟮01⟯
-⟮c+;s∞;us+3;Avatar Aang⟯|⟮c+;s∞;us+2;airbending⟯|⟮c+;s∞;us+;A kitestaff⟯|⟮11⟯
-⟮c+;s∞;us+3;Barry Allen⟯|⟮c+;s∞;us+2;outrunning⟯|⟮c+;s∞;us+;death⟯|⟮21⟯
-⟮c+;s∞;us+3;Mikasa Ackerman⟯|⟮c+;s∞;us+2;sacrificing⟯|⟮c+;s∞;us+;AoT Swords⟯|⟮31⟯
-⟮c+;s∞;us+3;Joan d'arc⟯|⟮c+;s∞;us+2;inspiring⟯|⟮c+;s∞;us+;male armor⟯|⟮41⟯
-⟮c+;s∞;us+3;EA⟯|⟮c+;s∞;us+2;selling⟯|⟮c+;s∞;us+;DLCs⟯|⟮51⟯
-⟮c+;s∞;us+3;Rayquaza⟯|⟮c+;s∞;us+2;electrocuting⟯|⟮c+;s∞;us+;a pokeball⟯|⟮61⟯
-⟮c+;s∞;us+3;Garrus⟯|⟮c+;s∞;us+2;wisecracking⟯|⟮c+;s∞;us+;their commanding officer⟯|⟮71⟯
-⟮c+;s∞;us+3;Haibara, Ai⟯|⟮c+;s∞;us+2;fleeing⟯|⟮c+;s∞;us+;a shadowy organization⟯|⟮81⟯
-⟮c+;s∞;us+3;SI7 Agent⟯|⟮c+;s∞;us+2;toasting⟯|⟮c+;s∞;us+;a playing card⟯|⟮91⟯
-⟮c+;s∞;us+3;King Bradley (Wrath⟯)|⟮c+;s∞;us+2;seething⟯|⟮c+;s∞;us+;Philosophers stone⟯|⟮02⟯
-⟮c+;s∞;us+3;Aaron Burr⟯|⟮c+;s∞;us+2;duelling⟯|⟮c+;s∞;us+;A letter⟯|⟮12⟯
-⟮c+;s∞;us+3;Bigby wolf⟯|⟮c+;s∞;us+2;beating ... to a pulp⟯|⟮c+;s∞;us+;a toadman⟯|⟮22⟯
-⟮c+;s∞;us+3;Majin Buu⟯|⟮c+;s∞;us+2;exploding⟯|⟮c+;s∞;us+;sweets⟯|⟮32⟯|✫sm_latest✫
-⟮c+;s∞;us+3;Darth Bane⟯|⟮c+;s∞;us+2;establishing⟯|⟮c+;s∞;us+;the rule of two⟯|⟮42⟯
-⟮c+;s∞;us+3;Emperor Bonaparte⟯|⟮c+;s∞;us+2;invading⟯|⟮c+;s∞;us+;Russia⟯|⟮52⟯
-⟮c+;s∞;us+3;Ramsay Bolton⟯|⟮c+;s∞;us+2;flaying⟯|⟮c+;s∞;us+;someone on a St. Andrews Cross⟯|⟮62⟯|✫sm_latest-2c3d1052220c90edf215328c699d5ba3c7e3af50.jpg✫✫sm_593fd808a09bd743c0ed6a80.jpg✫
-⟮c+;s∞;us+3;Gaius Baltar⟯|⟮c+;s∞;us+2;lying⟯|⟮c+;s∞;us+;a imaginary friend⟯|⟮72⟯
-⟮c+;s∞;us+3;HarBinger⟯|⟮c+;s∞;us+2;assuming direct control of⟯|⟮c+;s∞;us+;a walking insect⟯|⟮82⟯
-⟮c+;s∞;us+3;Símon Bolivar⟯|⟮c+;s∞;us+2;liberating⟯|⟮c+;s∞;us+;South america⟯|⟮92⟯
-⟮c+;s∞;us+3;Kogoro Mouri⟯|⟮c+;s∞;us+2;sleeping⟯|⟮c+;s∞;us+;A bottle of beer⟯|⟮03⟯
-⟮c+;s∞;us+3;Angela Merkel⟯|⟮c+;s∞;us+2;mollifying⟯|⟮c+;s∞;us+;a diamond⟯|⟮13⟯
-⟮c+;s∞;us+3;Batman⟯|⟮c+;s∞;us+2;threatening⟯|⟮c+;s∞;us+;batarangs⟯|⟮23⟯
-⟮c+;s∞;us+3;Madoka Magica⟯|⟮c+;s∞;us+2;erasing⟯|⟮c+;s∞;us+;all witches⟯|⟮33⟯
-⟮c+;s∞;us+3;Darth Maul⟯|⟮c+;s∞;us+2;hating⟯|⟮c+;s∞;us+;a jedi⟯|⟮43⟯
-⟮c+;s∞;us+3;Eminem⟯|⟮c+;s∞;us+2;rapping⟯|⟮c+;s∞;us+;a mixtape⟯|⟮53⟯
-⟮c+;s∞;us+3;Roy Mustang⟯|⟮c+;s∞;us+2;incinerating⟯|⟮c+;s∞;us+;Gloves⟯|⟮63⟯
-⟮c+;s∞;us+3;GM⟯|⟮c+;s∞;us+2;rolling⟯|⟮c+;s∞;us+;5d20⟯|⟮73⟯
-⟮c+;s∞;us+3;Her Majesty (Queen Eliz⟯)|⟮c+;s∞;us+2;scowling at⟯|⟮c+;s∞;us+;the british isles⟯|⟮83⟯
-⟮c+;s∞;us+3;Sade, Marquis de⟯|⟮c+;s∞;us+2;consuming⟯|⟮c+;s∞;us+;a whip⟯|⟮93⟯
-⟮c+;s∞;us+3;Khal Drogo⟯|⟮c+;s∞;us+2;riding⟯|⟮c+;s∞;us+;A loincloth⟯|⟮04⟯
-⟮c+;s∞;us+3;Artoo D2⟯|⟮c+;s∞;us+2;beeping⟯|⟮c+;s∞;us+;A torch⟯|⟮14⟯
-⟮c+;s∞;us+3;Big Daddy⟯|⟮c+;s∞;us+2;protecting⟯|⟮c+;s∞;us+;Little Sisters⟯|⟮24⟯
-⟮c+;s∞;us+3;Monkey D. Luffy⟯|⟮c+;s∞;us+2;stretching⟯|⟮c+;s∞;us+;Strawhat⟯|⟮34⟯
-⟮c+;s∞;us+3;Didier Drogba⟯|⟮c+;s∞;us+2;scoring⟯|⟮c+;s∞;us+;a hattrick⟯|⟮44⟯
-⟮c+;s∞;us+3;Edda⟯|⟮c+;s∞;us+2;dating⟯|⟮c+;s∞;us+;a philosophy paper⟯|⟮54⟯
-⟮c+;s∞;us+3;Rick Deckard⟯|⟮c+;s∞;us+2;understanding⟯|⟮c+;s∞;us+;a leather jacket⟯|⟮64⟯
-⟮c+;s∞;us+3;God⟯|⟮c+;s∞;us+2;creating⟯|⟮c+;s∞;us+;a man and a woman⟯|⟮74⟯
-⟮c+;s∞;us+3;Hamlet (Denmark⟯)|⟮c+;s∞;us+2;soliloquizing⟯|⟮c+;s∞;us+;a skull⟯|⟮84⟯
-⟮c+;s∞;us+3;Satan / The Devil⟯|⟮c+;s∞;us+2;seducing⟯|⟮c+;s∞;us+;a woman⟯|⟮94⟯|✫sm_1200px-022_devil_representation.JPG✫
-⟮c+;s∞;us+3;Katniss Everdeen⟯|⟮c+;s∞;us+2;aiming⟯|⟮c+;s∞;us+;A bow⟯|⟮05⟯
-⟮c+;s∞;us+3;Albert Einstein⟯|⟮c+;s∞;us+2;theorizing about⟯|⟮c+;s∞;us+;the fundamental forces of the universe⟯|⟮15⟯|✫sm_mtkvx3rkucl01.jpg✫
-⟮c+;s∞;us+3;Bernie Sanders⟯|⟮c+;s∞;us+2;preaching⟯|⟮c+;s∞;us+;socialism⟯|⟮25⟯
-⟮c+;s∞;us+3;Menethil, Arthas⟯|⟮c+;s∞;us+2;betraying ⟯|⟮c+;s∞;us+;Frostmorne/his father⟯|⟮35⟯|✫sm_RashEverlastingGoat-size_restricted.gif✫
-⟮c+;s∞;us+3;Death eater⟯|⟮c+;s∞;us+2;sucking⟯|⟮c+;s∞;us+;a soul⟯|⟮45⟯
-⟮c+;s∞;us+3;Edward Elric⟯|⟮c+;s∞;us+2;transmuting⟯|⟮c+;s∞;us+;his dead mother⟯|⟮55⟯
-⟮c+;s∞;us+3;Rem⟯|⟮c+;s∞;us+2;making a last stand with⟯|⟮c+;s∞;us+;a huge flail⟯|⟮65⟯
-⟮c+;s∞;us+3;Genji⟯|⟮c+;s∞;us+2;screaming in⟯|⟮c+;s∞;us+;Japanese⟯|⟮75⟯
-⟮c+;s∞;us+3;Helena (Orphan black⟯)|⟮c+;s∞;us+2;mutilating⟯|⟮c+;s∞;us+;a cage⟯|⟮85⟯|✫sm_WildJampackedHapuku-small.gif✫✫sm_FluidThinBluefish-small.gif✫
-⟮c+;s∞;us+3;World Serpend Jörmungandr⟯|⟮c+;s∞;us+2;devouring⟯|⟮c+;s∞;us+;the world⟯|⟮95⟯
-⟮c+;s∞;us+3;Kylo Ren⟯|⟮c+;s∞;us+2;rampaging⟯|⟮c+;s∞;us+;Crossguard lightsaber⟯|⟮06⟯
-⟮c+;s∞;us+3;Android 16⟯|⟮c+;s∞;us+2;flirting with⟯|⟮c+;s∞;us+;a tiny bald man⟯|⟮16⟯
-⟮c+;s∞;us+3;Broly⟯|⟮c+;s∞;us+2;beating up⟯|⟮c+;s∞;us+;Green Hair⟯|⟮26⟯
-⟮c+;s∞;us+3;Maximilien Robespierre⟯|⟮c+;s∞;us+2;guillotining⟯|⟮c+;s∞;us+;the french king⟯|⟮36⟯|✫sm_paste-e263b2a6eca858f484968c3bdb5a2a50b3908a00.jpg✫
-⟮c+;s∞;us+3;Darth Revan⟯|⟮c+;s∞;us+2;falling to⟯|⟮c+;s∞;us+;the dark side⟯|⟮46⟯
-⟮c+;s∞;us+3;Erasmus⟯|⟮c+;s∞;us+2;slinging mud at⟯|⟮c+;s∞;us+;a bunch of academics⟯|⟮56⟯|⟮h∞;✫sm_Holbein-erasmus.jpg✫⟯
-⟮c+;s∞;us+3;Darth vader (Order 66⟯)|⟮c+;s∞;us+2;choking⟯|⟮c+;s∞;us+;an innocent bystander⟯|⟮66⟯
-⟮c+;s∞;us+3;Jefferson⟯|⟮c+;s∞;us+2;declaring⟯|⟮c+;s∞;us+;slaves⟯|⟮76⟯
-⟮c+;s∞;us+3;Harry Potter⟯|⟮c+;s∞;us+2;hiding under⟯|⟮c+;s∞;us+;a staircase⟯|⟮86⟯
-⟮c+;s∞;us+3;Sukeroku⟯|⟮c+;s∞;us+2;fucking⟯|⟮c+;s∞;us+;his best friends crush⟯|⟮96⟯
-⟮c+;s∞;us+3;King George III⟯|⟮c+;s∞;us+2;loosing⟯|⟮c+;s∞;us+;America⟯|⟮07⟯
-⟮c+;s∞;us+3;Android 17⟯|⟮c+;s∞;us+2;mocking⟯|⟮c+;s∞;us+;Some sick clothes⟯|⟮17⟯
-⟮c+;s∞;us+3;Big Game Hunter⟯|⟮c+;s∞;us+2;eliminating⟯|⟮c+;s∞;us+;a dinosaur⟯|⟮27⟯|✫sm_340✫
-⟮c+;s∞;us+3;Magneto⟯|⟮c+;s∞;us+2;inciting ⟯|⟮c+;s∞;us+;the mutant rebellion⟯|⟮37⟯
-⟮c+;s∞;us+3;Diamond (Gem⟯)|⟮c+;s∞;us+2;caring for⟯|⟮c+;s∞;us+;two arms⟯|⟮47⟯
-⟮c+;s∞;us+3;Saphira (EGg and EraGon⟯)|⟮c+;s∞;us+2;being born from⟯|⟮c+;s∞;us+;an egg⟯|⟮57⟯
-⟮c+;s∞;us+3;Ragnaros⟯|⟮c+;s∞;us+2;magmablasting⟯|⟮c+;s∞;us+;a firesnake⟯|⟮67⟯
-⟮c+;s∞;us+3;Gogeta (SSJ 4⟯)|⟮c+;s∞;us+2;taunting⟯|⟮c+;s∞;us+;a x100 Kamehameha⟯|⟮77⟯
-⟮c+;s∞;us+3;Hermione granger⟯|⟮c+;s∞;us+2;studying with⟯|⟮c+;s∞;us+;a time-turner⟯|⟮87⟯
-⟮c+;s∞;us+3;Son Goku⟯|⟮c+;s∞;us+2;spirit bombing⟯|⟮c+;s∞;us+;a angry kid⟯|⟮97⟯|✫sm_MintyDeficientAtlanticbluetang-size_restricted.gif✫
-⟮c+;s∞;us+3;Kikuhiko⟯|⟮c+;s∞;us+2;regretting⟯|⟮c+;s∞;us+;A fan⟯|⟮08⟯
-⟮c+;s∞;us+3;Alexander Hamilton⟯|⟮c+;s∞;us+2;throwing away ⟯|⟮c+;s∞;us+;his shot⟯|⟮18⟯
-⟮c+;s∞;us+3;Bounty Hunter (Cad Bane⟯)|⟮c+;s∞;us+2;hunting⟯|⟮c+;s∞;us+;Wide-brim hat⟯|⟮28⟯|✫FACadBane.jpg✫
-⟮c+;s∞;us+3;Mata Hari⟯|⟮c+;s∞;us+2;bellydancing⟯|⟮c+;s∞;us+;the first world war⟯|⟮38⟯
-⟮c+;s∞;us+3;David Hume⟯|⟮c+;s∞;us+2;inducing⟯|⟮c+;s∞;us+;causality⟯|⟮48⟯
-⟮c+;s∞;us+3;Emperor Hirohito⟯|⟮c+;s∞;us+2;evading⟯|⟮c+;s∞;us+;an atomic bomb⟯|⟮58⟯
-⟮c+;s∞;us+3;Rubeus Hagrid⟯|⟮c+;s∞;us+2;nurturing⟯|⟮c+;s∞;us+;a dragon⟯|⟮68⟯
-⟮c+;s∞;us+3;Griffth⟯|⟮c+;s∞;us+2;striving⟯|⟮c+;s∞;us+;a red pendant⟯|⟮78⟯
-⟮c+;s∞;us+3;Hitler⟯|⟮c+;s∞;us+2;screaming⟯|⟮c+;s∞;us+;poison gas⟯|⟮88⟯
-⟮c+;s∞;us+3;Sherlock holmes⟯|⟮c+;s∞;us+2;showing off⟯|⟮c+;s∞;us+;their sexy mind⟯|⟮98⟯
-⟮c+;s∞;us+3;Kaelthas Sunstrider⟯|⟮c+;s∞;us+2;conjuring⟯|⟮c+;s∞;us+;Al'ar⟯|⟮09⟯
-⟮c+;s∞;us+3;Anakin Skywalker⟯|⟮c+;s∞;us+2;rebelling against⟯|⟮c+;s∞;us+;sand⟯|⟮19⟯
-⟮c+;s∞;us+3;Belatrix LeStrange⟯|⟮c+;s∞;us+2;splitting⟯|⟮c+;s∞;us+;a houseelf⟯|⟮29⟯
-⟮c+;s∞;us+3;Macbeth of Scotland⟯|⟮c+;s∞;us+2;betraying ⟯|⟮c+;s∞;us+;the former king⟯|⟮39⟯
-⟮c+;s∞;us+3;Darth Sidious⟯|⟮c+;s∞;us+2;electrocuting⟯|⟮c+;s∞;us+;a kid⟯|⟮49⟯
-⟮c+;s∞;us+3;Eddard (Ned) Stark⟯|⟮c+;s∞;us+2;trusting⟯|⟮c+;s∞;us+;his severed head⟯|⟮59⟯
-⟮c+;s∞;us+3;Rob Stark⟯|⟮c+;s∞;us+2;marrying⟯|⟮c+;s∞;us+;a groom's suit⟯|⟮69⟯
-⟮c+;s∞;us+3;Guts⟯|⟮c+;s∞;us+2;confronting⟯|⟮c+;s∞;us+;a demon⟯|⟮79⟯
-⟮c+;s∞;us+3;Han Solo⟯|⟮c+;s∞;us+2;daring⟯|⟮c+;s∞;us+;a blaster⟯|⟮89⟯
-⟮c+;s∞;us+3;Severus Snape ⟯|⟮c+;s∞;us+2;cursing⟯|⟮c+;s∞;us+;an old wizard⟯|⟮99⟯|✫sm_0b29847ef36f830989d150017080a996e6144680_hq.gif✫
-
-
-### fear
-
-#### exposure therapy
-
-##### fear ladder
-
-###### structure
-
-flex-container:✫sm_2021-10-31--17-32-33-screenshot.jpg✫
-
-A ⟮fear ladder⟯ is a technique within ⟮exposure therapy⟯. 
-For any specific ⟮fear/anxiety/phobia⟯, a ⟮fear ladder⟯ consists of ⟮specific situations/steps⟯ and ⟮their associated fear ratings⟯ 
-⟮Fear ratings⟯ for fears on ⟮the fear ladder⟯ generally are on ⟮a scale from 1 to 10⟯ 
-There should roughly be ⟮one situation/action⟯ on ⟮the fear ladder⟯ for ⟮each fear rating from 1 to 10⟯. 
-
-###### application
-
-A ⟮fear ladder⟯ should be applied ⟮regularly⟯ (e.g. ⟮c+;s-;daily, a few times a week⟯) 
-⟮Each session of the application of a fear ladder⟯ should last until ⟮the thing feels less anxiety-provoking::desired outcome?⟯ ( ⟮s_;⟮c+;half⟯ is a good goal to short for⟯ ) 
-During each session of the app
-(often ⟮30min +::length⟯ are necessary, ⟮relaxation excersizes such as breathing⟯ can help) 
-⟮c+;Fear ladders ＆ exposure therapy⟯ work(s) because ⟮your anxiety basically "runs out of gas"⟯. For ⟮a fear ladder⟯, start with ⟮the lower items⟯ on ⟮the fear ladder,⟯ and ⟮work yourself up to the higher items⟯ as they ⟮become less frightening⟯. 
-⇱https://alivecounselling.com/counselling-resources/using-a-fear-ladder-to-help-with-postpartum-anxiety-for-moms/⇲(alivecounselling/), ⇱https://www.anxietycanada.com/articles/plan-exposure-exercises/⇲(Planning exposures), ⇱https://www.anxietycanada.com/articles/build-a-fear-ladder/⇲(Building fear ladder)
-
-### dreams
-
-#### REM sleep ＆ lucid dreaming
-
-REM is short for Rapid Eye Movement
-⟮REM sleep⟯ is the time where ⟮one dreams⟯ ⟮the weird kind of dreams we call dreams⟯. 
-During ⟮REM sleep⟯, ⟮the body⟯ is mostly ⟮paralyzed⟯, except for ⟮the eyes⟯. 
-The fact that ⟮eye movement can be controlled during REM sleep⟯ allows ⟮study participants to communicate with researchers⟯ during ⟮lucid dreaming.⟯ 
-In ⟮dreams⟯, ⟮⁑intentional⁑⟯ behaviour takes ⟮about the same time⟯ ⟮as in RL⟯ 
-
-
-##### Testing if one is dreaming
-
-Activity|How to check?|Positive result if
-⟮jumping⟯|⟮jump up⟯|⟮if you float or levitate⟯
-⟮levitating⟯|⟮try and levitate⟯|⟮if it works⟯
-⟮hands⟯|⟮check them⟯|⟮if you have extra fingers/nails/colors/etc.⟯
-⟮clock⟯|⟮check it⟯|⟮if it shows an illogical time, or it changes rapidly⟯
-⟮text⟯|⟮read some text⟯, ⟮c+;s14;look away⟯, and ⟮c+;s14,19;try and recall the text⟯. ⟮c+;s14,19-20;Look at the same text again⟯.))|⟮if it's changed⟯
-⟮magical powers⟯|⟮try and use them⟯|⟮if it works⟯
-
-
-A ⟮lucid dream⟯ is one in which ⟮one is aware that one is dreaming⟯. 
-⟮Often but not always⟯, ⟮lucid dreams⟯ allow ⟮some control over the events happneing in the dream⟯. 
-Evidence for ⟮lucid dreams existing⟯ is ⟮quite strong.⟯ 
-
-### perception
-
-The rashomon effect is where eyewitnesses give contradictory descriptions of an event.
-
-## neurodiversity
-
-### OCD
-
-OCD|Obsessive-compulsive disorder.
-⟮OCD⟯ (at least using current definitions and stats) affects ⟮about 2%⟯ of people at ⟮some point in their life.⟯ 
-⟮The onset⟯ of ⟮OCD⟯ is most commonly ⟮in late adolescense/early 20s.⟯
-In general, ⟮OCD⟯ mainly consists of ⟮obsessions⟯ and {{c-::compulsions}}
-⟮Obsessions⟯ are ⟮intrusive = non-voluntary⟯, ⟮disturbing/uncomfortable/scary⟯ ⟮thoughts⟯. 
-⟮Compulsions⟯ are ⟮the acts performed⟯ to ⟮soothe the obsessions⟯. 
-People generally carry out their ⟮compulsions⟯ in a ⟮very structured⟯ manner. 
-People suffering from OCD generally ⟮do not want to⟯ ⟮perform the compulsions⟯, ⟮but the discomfort of the compulsion and the need to get relief is often stronger⟯.
-If acute, compulsions may take up ⟮a hour or more⟯ of the day.
-OCD-like thoughts are ⟮common for everyone⟯, the question is ⟮the severity⟯. 
-The ⟮most common type⟯ of ⟮OCD obsession⟯ is ⟮fears related to contamination (e.g. dirt, germs, viruses, chemicals⟯). 
-Sometimes ⟮the obsession will become less important over time⟯, and ⟮the compusion will be carried out more as a habit⟯.
-
-#### Strategy to get people to understand OCD
-
-1. ⟮Ask relevant person to agree with a statement that saying something or thinking something doesn’t mean it will come true, that our thoughts are not magical and can’t make things happen⟯
-2. ⟮c+;s1;Have them write down something terrible happen to a loved one⟯
-3. ⟮c+;s∞;Have them notice the distress they feel at something that will not do anything⟯
 
 ## motivation
 
@@ -1893,147 +1149,3 @@ However, the scapegoat may have an easier time ⟮breaking away from the narciss
 
 In a narcisstic family, the ⟮»neutral sibling/person«⟯ is said to be the sibling/person that ⟮always tries to mediate⟯, but ends up ⟮denying the reality of what's happening⟯. 
 In a narcisstic family, a »⟮flying monkey⟯« is person ⟮used by the narcissist⟯ as ⟮a proxy for their narcissist actions.⟯ 
-
-# lock-picking
-
-## lockpicking tools
-
-In general, the three major types of lockpicking tools are ⟮hooks⟯, ⟮rakes⟯, and ⟮tensioning tools⟯. 
-
-## basic lock model
-
-flex-container:✫sm_Simple-Paper-Lock-Lock-Picking-Theory.gif✫✫sm_Shear-Line-Lock-Picking-Theory.png✫
-We can construct a basic sort of lock with ⟮a pencil⟯ and ⟮two pieces of paper.⟯ 
-The ⟮gap between the two pieces of paper⟯ is ⟮the shear line⟯, and ⟮the pencil⟯ is ⟮the pin⟯. 
-
-## lock externals
-
-flex-container:✫sm_200px-Pin_tumbler_no_key.svg.png✫✫sm_220px-Zylinderset.jpg✫
-
-
-Everything else in a ⟮cylinder lock⟯ is ⟮contained in⟯ ⟮the cylinder(shell/casing/housing/body) ⟯ 
-If we were to ⟮cut apart an average door in europe or the US⟯ and ⟮take the locking mechanism out⟯, we would be seeing ⟮the cylinder (shell/casing/housing/body⟯). 
-⟮The keyway⟯|⟮the slit into which the key is inserted⟯|⟮✫sm_paste-94ce876199a755e05d6628c15b753868dbcb2a15.jpg✫⟯
-⟮The shoulder of a key⟯|⟮what prevents it from being inserted too far⟯|⟮✫sm_schlage-lock-diagram4.jpg✫⟯
-
-
-The ⟮cylinder⟯ of a lock is also called ⟮shell/housing/casing/body⟯. 
-⟮A lock that is contained in a cylinder⟯ is known as ⟮a cylinder lock⟯. 
-⟮Cylinder locks⟯ are i⟮ndependent from the boltwork⟯, and so ⟮allow easy maintenance⟯. 
-⟮Pin tumbler locks⟯ are the most common type of ⟮mechanism⟯ for ⟮cylinder locks⟯. 
-⟮A pin tumbler lock⟯ uses ⟮pins⟯ ⟮contained in a tumbler⟯ to ⟮prevent locks from opening⟯. 
-⟮Pin tumbler locks⟯ are the ones we think of when we think of ⟮locks and lock-picking⟯. 
-
-## image labelling
-
-flex-container:✫sm_200px-Pin_tumbler_half_picked.svg.png✫
-
-
-thing in the image|name
-⟮the blue and red things⟯|⟮the pins⟯
-⟮the blue pins⟯|⟮the driver pins⟯
-⟮the red pins⟯|⟮the key pins⟯
-⟮the plug⟯|⟮yellow in the image⟯
-⟮the casing⟯|⟮green in the image⟯
-
-
-current status|pin
-⟮Overset⟯|⟮pin 4 (from front⟯)
-⟮being picked⟯|⟮pin 5 (from front⟯)
-⟮successfully picked⟯|⟮pin 1 and 3 (from front⟯)
-⟮unpicked⟯|⟮pin 2 (from front⟯)
-
-
-
-## comb picks
-
-flex-container:✫sm_200px-Pin_tumbler_bypass.svg.png✫✫sm_300px-Lockpicking_Comb_Picks.jpg✫
-
-
-Some insecure locks allow us to unlock them by ⟮ pushing both key and driver pins ⟯ ⟮past the shear line⟯ 
-⟮comb picks⟯ ⟮push⟯ ⟮both driver and key pins⟯ ⟮completely into the lock⟯ 
-comb picks might look like ⟮‹image›⟯ 
-What normally ⟮prevents us from just pushing all pins completely above the shear line w/ comb picks⟯ is ⟮that there isn't enough space in the lock⟯ 
-
-## shear line
-
-
-
-flex-container:✫sm_200px-Pin_tumbler_bypass.svg.png✫✫sm_How-a-Lock-Works-Animation.gif✫✫sm_Simple-Paper-Lock-Lock-Picking-Theory.gif✫✫Pin-Tumbler-Lock-Shear-Line.png✫
-
-
-The ⟮shear line⟯ is ⟮the gap between⟯ ⟮the casing⟯ and ⟮the plug⟯ 
-⟮the driver pins⟯ are the pins that ⟮the springs are directly contactin⟯g 
-⟮the key pins⟯ are the pins that ⟮the key will directly contact⟯ and that ⟮thus 'read' the key⟯ 
-To ⟮open a door⟯, ⟮the plug⟯ ⟮must be able to rotate⟯. 
-If a door is ⟮locked⟯, ⟮the pins⟯ are ⟮preventing the plug from rotating⟯. 
-For the ⟮plug to be able to rotate⟯, ⟮the gaps between pins⟯ must ⟮line up with the shear line.⟯ 
-If ⟮the correct key is inserted⟯, it makes ⟮the gaps between pins⟯ ⟮line up with the shear line⟯. 
-To ⟮prevent any old key to be used to open a lock⟯, ⟮the key pins have different lengths⟯ 
-If you ⟮insert the wrong key into a lock⟯, the lock will not open because ⟮gaps between pins not in line with shear line⟯ 
-The part of the lock that we are exploiting to pick is ⟮the shear line⟯ 
-The thing that ⟮keeps the pins down in a lock⟯ are ⟮the springs⟯. 
-⟮✫sm_200px-Pin_tumbler_no_key.svg.png✫⟯|⟮Locked⟯
-⟮✫sm_200px-Pin_tumbler_with_key.svg.png✫⟯|⟮unlocked with a key⟯
-⟮✫sm_200px-Pin_tumbler_bad_key.svg.png✫⟯|⟮wrong key⟯
-
-
-## manufacturing tolerances
-
-
-flex-container:✫sm_images-9ed43522ef2c55350dcd6adefc4db944373d3d89.png✫✫sm_Real-Plug-Lock-Flaws.jpg✫
-
-
-In a general sense, locks would ⟮not be pickable⟯ if not for ⟮manufacturing tolerances⟯. 
-The reason that ⟮not all pins bind⟯ once you ⟮apply rotational tension⟯ is tha⟮t the holes are ever-so-slightly off-center⟯. 
-The pin that will ⟮bind here first⟯ if we ⟮rotate in the upwards direction⟯ is ⟮the second or the fourth pin.⟯ 
-
-## binding pins
-
-flex-container:✫sm_Setting-Standard-Pin-Lock-Picking-Theory-.gif✫✫sm_Lock-Picking-Single-Pin-Picking.gif✫✫sm_Peterson-GSP-Hook-1-Black-Handle.jpg✫
-A ⟮bound⟯ pin is the one that if ⟮rotational tension is being applied⟯ is ⟮hard to move (won't slip⟯) 
-⟮Applying rotational tension⟯ allows ⟮pins⟯ to ⟮bind⟯, and thus ⟮setting them⟯. 
-Pins can only ⟮bind⟯ if ⟮rotational tension is being applied⟯, otherwise ⟮they won't get stuck⟯ and f⟮all right back into the cylinder.⟯ 
-There is ⟮most often (though not always⟯) ⟮only one⟯ ⟮binding pin⟯ at a time. 
-The ⟮binding pin⟯ is ⟮the pin⟯ that ⟮is currently being bound⟯ (or ⟮will be bound once rotational tension is applied⟯), and thus is ⟮the next pin that can be set.⟯
-
-⟮Single pin picking⟯ is ⟮picking the pins one at a time⟯, which looks something like ⟮‹image above›⟯ 
-⟮Single pin picking⟯ uses ⟮hooks⟯ as tools, which look something like ⟮‹image›⟯ 
-Core loop of ⟮single pin picking⟯: ⟮find binding pin⟯ → ⟮set binding pin⟯ 
-To ⟮test if⟯ ⟮sth is a binding pin⟯, you ⟮push it slightly⟯. 
-Compared to ⟮non-binding pins⟯, if we push on ⟮the binding pin⟯, it will feel ⟮slightly stiffer and harder to lift⟯. 
-T⟮o set the binding pin⟯, we ⟮push on the pin⟯ until ⟮we reach the shear line⟯. 
-Once ⟮you've pushed the binding pin to the shear line⟯, if ⟮you've set the pin⟯, ⟮the driver pin will catch⟯ and t⟮he key pin will fall into the plug⟯. 
-Once ⟮you've pushed the binding pin to the shear line⟯, if y⟮ou've set the pin⟯, you probably hear ⟮a slight click⟯ or feel ⟮a slight rotation⟯. 
-However, it is also possible to
-⟮push the binding pin in too far⟯|⟮overset⟯|⟮✫sm_overset_1130.jpg✫⟯
-⟮not push the binding pin in far enough⟯|⟮underset⟯|⟮✫sm_underset_1130.jpg✫⟯
-
-If you ⟮can no longer find a binding pin⟯, you have likely ⟮overset or underset a pin⟯ 
-
-## tensioning
-
-flex-container:✫sm_standard-tension-wrench.jpg✫
-
-
-⟮tensioning tools⟯ are for ⟮applying tension to the lock (to bind the pins⟯) 
-The ⟮tension wrench⟯ is ⟮the most common type of⟯ ⟮tensioning tool.⟯ 
-A tension wrench might look like ⟮‹image›⟯ 
-A ⟮tension wrench⟯ has ⟮a short end⟯ to ⟮place in the keyway⟯ and ⟮a long end⟯ to ⟮act as a lever⟯. 
-You need to apply ⟮very little tension⟯ with ⟮the tension wrench⟯ to bind the pins. 
-⟮Letting go of the tension applied with the tension wrench⟯ ⟮resets the lock⟯. 
-
-## raking
-
-flex-container:✫sm_Lock-Picking-With-A-Bogota-Rake-2.gif✫✫sm_Peterson-GSP-Bogie-2-Black-Handle.jpg✫
-
-
-⟮Raking⟯ is ⟮scrubbing the pins⟯ until we ⟮happen to set all the pins⟯. 
-Raking might look like ⟮‹image›⟯ 
-⟮Raking⟯ has roughly the same motion as ⟮brushing your teeth⟯. 
-In raking, we ⟮add tension⟯ and then ⟮scrub the pins⟯. 
-In raking, while ⟮scrubbing the pins⟯, ⟮vary⟯ things like ⟮speed, tension, angle, height, etc⟯ ⟮slightly⟯. 
-In raking, we ⟮reset the lock⟯ by ⟮removing tension.⟯ 
-In ⟮raking⟯, we often have to ⟮reset the lock a few times⟯ before it works 
-⟮Raking⟯ has the main advantage of ⟮being fast (to open the lock⟯), but the disadvantage of ⟮not working well for more difficult locks⟯. 
-⟮Raking⟯ uses ⟮rakes⟯ as tools, which look like ⟮‹image›⟯

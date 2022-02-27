@@ -11260,6 +11260,80 @@ In ⟮dice notation⟯, you can leave out ⟮the amount of dice to roll⟯, if �
 ⟮4d10+3⟯ is an example of ⟮Dice notation⟯, it means ⟮roll 4 10-sided dice and add 3 to the overall result⟯ 
 the shell command ⟮`roll`⟯ ⟮rolls dice⟯, specified in ⟮dice notation⟯ 
 
+### citation
+
+#### content
+
+Reference and citation are most often synonyms.
+Citation is indicating a source of information.
+A »full citation« fully identifies a source, and where in the source the information can be found, if applicable.
+A »short citation« identifies a source in a short way and where in the source the information can be found, if applicable. to resolve a short citation to the actual work, finding the corresponding full citation is normally needed.
+Philosophical works sometimes get an abbreviation such as KrV for use in short citations
+A »complete citation« is the pair of a short citation and a full citation.
+Author-date is a type of short citation where one includes the author and date.
+Author-date citation is also called harvard style.
+
+some citation styles allow using ibid. instead of the page information if the page information is repeated.
+
+#### placement
+
+onion-box:
+citations 
+  in-body citation 
+    note citation
+    in-text citation
+  works cited/references entry
+
+
+Note citations are citations in endnotes/footnotes.
+In-text citations are citations within the flow of text.
+Typically, short citations are also in-body citations, and full citations are reference entries.
+
+#### → in-text short citations
+
+Parenthetical citation is a type of in-text short citation format where the citation is surrounded in parentheses.
+Narrative citation is a type of in-text short citation format where the citation is mentioned in the prose of the text.
+Author-date/harvard style is often realized as narrative or parenthetical citations.
+author-date-narrative-format ::= ‹author› \(‹date›\)
+author-date-parenthetical-format ::= \(‹author› ‹date›[, ‹page-specifier›]\)
+
+when adding page specifiers to author-date narrative citations, the page specifier goes in its own set of parentheses, at the end of the clause.
+
+##### specifying pages
+
+page-specifier ::= p. ‹integer›[f.|ff.|-‹integer›]
+
+f.|this page or the next
+ff.|this page or any following.
+
+#### sections
+
+＿Works Cited＿ and ＿References＿ are synonyms.
+Sometimes the ＿References＿ section is also called 「reference list」
+»Works Cited«/»References« are sections at the end of the work containing ＿full citations＿.
+Properly, a »bibliography« should contain all works consulted, not those merely cited.
+Often, 「bibliography」 is also just used as a synonym for ＿Works Cited＿/＿References＿.
+A bibliography may also be a separate work listing works on a particular topic.
+An annotated bibliography is a bibliography with author's comments on each work.
+「Literaturverzeichnis」 is the german name for ＿Works Cited＿/＿References＿.
+Quellenverzeichnis may be used as a synonym for Literaturverzeichnis, but is more properly a section used in historical science for identifying primary sources.
+
+#### citation style
+
+A citation style is a set of rules of how to structure your citations.
+the APA is the american psychological association.
+the APA publishes a style guide, which is often autohyponymously also called APA.
+Of the APA style guide, the thing that is most well known is its citation style.
+The current APA edition is the 7th, released 2019.
+
+table:citation style|in-body
+APA|author-date
+
+#### multiple authors
+
+et al. is used to abbreviate many authors in an academic setting
+
+
 ## databases
 
 ### geonames

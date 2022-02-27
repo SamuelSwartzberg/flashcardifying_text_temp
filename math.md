@@ -1140,3 +1140,17 @@ flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.
 
 The ⟮pareto distribution⟯ is a ⟮ (family of) probability distributions⟯ that applies to a large set of ⟮natural⟯ and ⟮social⟯ phenomena. 
 A well-known ⟮s1;pareto distribution⟯ with ⟮a specific parameter⟯ reflects the idea that ⟮80% of outcomes are due to 20% of causes⟯, which has become known as ⟮the pareto principle⟯ (Aka ⟮the law of the vital few⟯, ⟮the principle of factor sparsity⟯). 
+
+
+## citation metrics
+
+#### coupling ＆ co-citation
+
+flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
+
+Bibliographic coupling measures how many of the same works two documents cite. 
+If two documents cite at least one work in common, they are bibliographically coupled. 
+The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
+Co-citation measures how frequently two documents are cited together by other documents. 
+If at least one other document cites two documents in common these documents are said to be co-cited. 
+The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
