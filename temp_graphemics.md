@@ -312,15 +312,22 @@ table:span=2;✫recto_verso.svg✫
 
 ##### left and right
 
-We can divide pages into left and right pages depending on whether they will appear on the left or right first when reading the book in a normal direction.
+Pages are »⟮left and right⟯« pages depending on whether they ⟮will appear⟯ on the ⟮left or right⟯ ⟮c_-;first⟯ when r⟮eading the book in a normal direction⟯.
 In ⟮all books⟯, the ⟮first page⟯ is ⟮the cover⟯.
-in LtR media, the second page will be a left page, and hence the cover is a right page
-in RtL media, the second page will be a right page, and hence the cover is a left page
+in ⟮LtR media⟯, the ⟮second page⟯ will be ⟮a left page⟯
+Since in ⟮LtR media⟯, ⟮the second page will be a left page⟯, ⟮the cover is a right page⟯
+in ⟮RtL media⟯, the ⟮second page⟯ will be ⟮a right page⟯
+Since in ⟮RtL media⟯, ⟮the second page will be a right page⟯, ⟮the cover is a left page⟯
 
-##### twosided
+###### twosided
 
-In latex, to ⟮optimize a document for being two-sided⟯ (e.g. as in a ⟮book⟯), include ⟮twoside⟯ in ⟮the optional argument [] of documentclass⟯
-In latex, to ⟮make chapters etc. always open on a right page⟯  include ⟮openright⟯ in ⟮the options [] of documentclass⟯
+In a book, ⟮left and right pages⟯ are ⟮not formatted identical⟯, but instead ⟮have different e.g. margins⟯ to ⟮account for binding⟯ etc.
+⟮The state of left and right pages not being identical⟯ may be called »⟮two-sided⟯«.
+In latex, to ⟮optimize a document for being two-sided⟯ , include ⟮`twoside`⟯ in ⟮the optional argument [] of documentclass⟯
+
+###### start on...
+
+In latex, to ⟮make chapters etc. always open on a left/right page⟯  include ⟮`openleft/right`⟯ in ⟮the optional argument [] of documentclass⟯
 
 # graphemes ＆ graphs
 
