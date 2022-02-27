@@ -163,13 +163,28 @@ The »⟮ascender/descender line⟯« is ⟮the imaginary line⟯ ⟮defined by�
 ⟮Line spacing⟯ = ⟮leading⟯
 »⟮Line spacing⟯« is ⟮the distance between⟯ ⟮the ＿descender line＿⟯ and ⟮the next ＿ascender line＿⟯ 
 
-##### em square
+##### super/subscript
+
+⟮＿Subscript＿ and ＿superscipt＿⟯ text is usually ⟮smaller than⟯ regular text. 
+»⟮Superscript⟯« text is text whose ⟮＿baseline＿⟯ ⟮sits somewhat above⟯ ⟮c-;the general ＿baseline＿⟯. 
+»⟮Subscript⟯« text may ⟮sit at the general ＿baseline＿⟯ and ⟮just be smaller⟯ or ⟮have a ＿baseline＿⟯ ⟮somewhat below⟯ ⟮c-;the general ＿baseline＿⟯.
+
+
+##### em square ＆ relative sizing
 
 flex-container:✫220px-Metal_type.svg.png✫
 
+The »⟮em square⟯« is ⟮an imaginary square⟯ ⟮around which parts of letters are sized⟯.
+The ⟮＿em square＿⟯ is used in ⟮digital typography⟯.
+The ⟮＿em square＿⟯ is ⟮1em⟯ ⟮wide and high⟯.
+Using ⟮＿the em sqare＿⟯ allows us to ⟮give the size⟯ of ⟮any other part of the font (e.g. ascender height, x-height, cap height, etc. etc.)⟯ ⟮in em⟯.
+The size relationship ⟮between parts of letters⟯ ofc. depends on ⟮the typeface⟯.
 
-In ⟮digital type⟯, letters are ⟮designed around⟯ ⟮an imaginary square⟯ called ⟮the em square⟯. 
-⟮The relationship⟯ of ⟮parts of letters⟯ to ⟮the font size⟯ is determined by ⟮the designer of the font⟯. However, as a very rough guideline, an ⟮"average" font⟯ might have ⟮a cap height⟯ of ⟮0.7 em⟯, and an ⟮x-height⟯ of ⟮0.5 em⟯. 
+###### average relative sizing
+
+table:type property|size
+⟮cap height⟯|⟮0.7em⟯
+⟮x-height⟯|⟮0.5em⟯
 
 #### font properties
 
@@ -189,70 +204,101 @@ A font that is not monospaced is proportional-width.
 
 ## macrotypography
 
-### lines
-
-⟮Subscript⟯ and ⟮superscipt⟯ text is usually ⟮smaller than⟯ regular text. 
-⟮Superscript⟯ text is text that ⟮sits somewhat above the baseline⟯. 
-⟮Subscript⟯ text is text that ⟮appears at or below the baseline⟯. 
-If a ⟮subscript⟯ appears ⟮at the baseline (and not below it⟯), it must be ⟮smaller⟯, or it will not seem to be ⟮subscript⟯. 
-
 ### columns
 
-In typography, a column is one or more vertical blocks of content positioned on a page, separated by gutters.
-Gutters are whitespace between two rows or columns.
+A »⟮column⟯« is ⟮(a) vertical block(s) of content⟯ ⟮positioned on a page⟯.
+⟮＿Columnns＿⟯ and ⟮c_;rows⟯ are ⟮separated by⟯ ⟮＿gutters＿⟯.
+»⟮Gutters⟯« are ⟮whitespace⟯ ⟮between⟯ ⟮two rows or columns⟯.
 
 ### page
+
+#### page layout
+
+##### spacing
+
+###### margins
+
+flex-container:✫220px-Margins.svg.png✫
+
+
+the ⟮margin⟯ is ⟮the area between⟯ ⟮the main content of a page⟯ and ⟮its edges⟯.
+
+###### alignment & indentation
+
+flex-container:✫https://barbarakristaponis.files.wordpress.com/2015/11/dividequote1-e1447790290375.png?w=400✫
+
+
+»⟮x-aligned⟯« text is where ⟮a line⟯ w⟮ill always start⟯ at ⟮the x side (or at a certain offset)⟯
+»⟮A rag⟯« is an ⟮uneven⟯ ⟮margin⟯.
+⟮＿x-aligned＿⟯ text will have ⟮＿rags＿⟯ on ＿the opposite side＿.
+Text being »⟮flush (with) x⟯« is when the text ⟮touches the x side⟯.
+»⟮Indentation⟯« is ⟮empty space⟯ at ⟮the beginning of the line⟯ so ⟮it is no longer flush⟯
+»⟮A hanging indent⟯« is one way in which a paragraph might be ⟮x-aligned⟯ but not ⟮completely flush x⟯.
+Using a ⟮＿hanging indent＿⟯, ⟮the first line⟯ is ⟮flush x⟯ and ⟮c-;subsequented lines⟯ are ⟮indented⟯.
+Using a ⟮＿hanging indent＿⟯ is also called »⟮flush and hang style⟯«.
+
+»⟮Justified⟯« text is ⟮both⟯ ⟮flush left⟯ ⟮c-;and⟯ ⟮right⟯.
+⟮＿Justified＿⟯ text manages to be ⟮both flush left and right⟯ by ⟮squishing and stretching letter-spacing⟯.
+
+###### rivers
+
+»⟮rivers⟯« are ⟮gaps of white space⟯ ⟮running across multiple lines⟯.
+⟮rivers⟯ may happen due to e.g. ⟮＿justification＿⟯.
+
+#### things that may be placed on pages
+
+##### notes
+
+»⟮A note proper⟯« is ⟮a string⟯ placed ⟮in a different place⟯ ⟮than the place it semantically belongs to⟯.
+⟮＿notes proper＿⟯ most commonly include ⟮citation information⟯ or ⟮comments of some kind⟯
+⟮＿Notes proper＿⟯ are generally ⟮gathered⟯ ⟮in a section just for them⟯.
+I will call ⟮the section for notes proper⟯ a »⟮note section⟯«.
+A »⟮note indicator⟯« (my term) is ⟮a string⟯ or ⟮c_;symbol⟯.
+The string/symbol making up ⟮＿a note indicator＿⟯ is most commonly a ⟮supercripted numeral⟯ with or without ⟮square brackets⟯
+^e.g. ⎴n⎴ or ⎴[n]⎴.
+A »⟮in-text note indicator⟯« (my term) is ⟮＿a note indicator＿⟯ placed ⟮＿in-text＿⟯.
+A »⟮note-proper-attached note indicator⟯« (my term) is ⟮＿a note indicator＿⟯ ⟮attached to a note proper⟯.
+A »⟮note indicator pair⟯« (my term) consists of ⟮＿a in-text note indicator＿⟯ and ⟮＿a note-proper-attached-note indicator＿⟯ ⟮using the same string/symbol⟯.
+»⟮A note⟯« consists of ⟮＿the note proper＿⟯ plus ⟮＿a note indicator pair＿⟯.
+The ⟮＿in-text note indicator＿⟯ goes ⟮after⟯ ⟮any punctuation mark⟯.
+The ⟮＿note section＿⟯ may be placed ⟮at the end of the page⟯ or ⟮the end of the chapter/paper/whatever⟯.
+If ⟮the note seciton is placed at the end of the page⟯, ⟮＿the notes＿⟯ are known as »⟮footnotes⟯«.
+If ⟮the note seciton is placed at the end of the chapter/paper/whatever⟯, ⟮＿the notes＿⟯ are known as »⟮endnotes⟯«.
+
+### multiple pages
 
 #### division
 
 ##### pagination
 
-pagination/paging is dividing a given document into discrete pages.
-
-#### page layout
-
-##### margins and indentation
-
-flex-container:✫220px-Margins.svg.png✫
-
-
-In typography, the ⟮margin⟯ is ⟮the area between⟯ ⟮the main content of a page⟯ and ⟮its edges⟯. 
-In typography, if the spacing ⟮is squished or stretched⟯ such that the ⟮text is flush with⟯ ⟮both the left and right margins⟯, it is called ⟮justified⟯. 
-In typography, text ⟮being aligned with⟯ ⟮the left margin⟯ is known as ⟮flush left⟯  / ⟮left-aligned⟯. 
-In typography, text ⟮being aligned with⟯ ⟮the right margin⟯ is known as ⟮flush right⟯ / ⟮right-aligned⟯. 
-⟮Indentation⟯ is ⟮empty space⟯ at ⟮the beginning of the line⟯ (so ⟮it is no longer flush⟯) 
-When, e.g. due to ⟮justification⟯, there are ⟮gaps of white space⟯ ⟮running across multiple lines⟯, these are called ⟮rivers⟯. 
-
-##### features
-
-A note is a string placed in a different place than the place it belongs to.
-notes most commonly include citation information or comments of some kind
-In a wider sense, a note consists of the note proper plus a pair of symbols/strings indicating whence the note, one for the location and one for the note.
-In english, it is common to indicate notes with supercripted numerals as ⎴n⎴ or ⎴[n]⎴.
-The indication of a note goes after any punctuation mark.
-Notes proper are generally gathered in a section just for notes.
-There are generally two kind of notes, footnotes and endnotes, depending in which section they are put.
-In german, you can call the set of all footnotes the 「Fußnotenapparat」
-
-
-footnotes|bottom of the page
-endnotes|end of chapter/volume/work
+⟮pagination⟯ = ⟮paging⟯
+»⟮pagination⟯« is ⟮dividing⟯ ⟮a given document⟯ ⟮c_-;into⟯ ⟮discrete pages⟯.
 
 #### relationships between pages
 
 ##### orphans and widows
 
 flex-container:✫sm_BdflVyb4vu7o0q5hCeBkmu09nMn21opE.jpg✫
-⟮Widows⟯ and ⟮orphans⟯ refer to ⟮stranded things⟯. 
-⟮Widows and orphans⟯ may either refer to ⟮stranded words⟯ at ⟮the beginning/end of paragraphs⟯, or ⟮stranded lines⟯ at ⟮the beginning/end of pages⟯. 
-There is no agreement on whether ⟮widows or orphans⟯ refers to the things occurring at ⟮the beginnings or ends⟯, that is, ⟮one persons orphan⟯ is ⟮another persons widow⟯. 
+
+
+»⟮Widows/orphans⟯« refer to ⟮stranded things⟯ at ⟮the beginning/end of⟯ ⟮other things⟯. 
+
+!»⟮Widows/orphans⟯« may either refer to
+- !stranded ⟮words⟯ at the beginning/end of ⟮c_;paragraphs⟯
+- !stranded ⟮lines⟯ at the beginning/end of ⟮c_;pages⟯. 
+
+There is ⟮no agreement⟯ on ⟮which of widows or orphans⟯ refers to the things occurring at ⟮the beginnings or ends⟯ of other things.
+that is, ⟮one persons orphan⟯ is ⟮another persons widow⟯. 
 
 #### alternating pages
 
 ##### verso and recto
 
-Conceptually, ⟮recto⟯ is ⟮the front of the page⟯, while ⟮verso⟯ is ⟮the back of the page⟯. 
-⟮Recto⟯ is ⟮the front of the page⟯ since ⟮you will see it first if reading the book normally⟯, while ⟮verso⟯ is ⟮the back of the page⟯ since ⟮you will only see it once turning the page if reading the book normally⟯. 
+»⟮verso and recto⟯« refer to ⟮the sides⟯ of ⟮a page⟯
+⟮recto⟯ is ⟮the front⟯ of the page
+⟮verso⟯ is ⟮the back⟯ of the page. 
+⟮Recto⟯ is ⟮the front of the page⟯ since ⟮you will see it first if reading the book normally⟯
+⟮verso⟯ is ⟮the back of the page⟯ since ⟮you will only see it once turning the page if reading the book normally⟯. 
 
 ###### LtR pages
 
@@ -267,7 +313,7 @@ table:span=2;✫recto_verso.svg✫
 ##### left and right
 
 We can divide pages into left and right pages depending on whether they will appear on the left or right first when reading the book in a normal direction.
-In all books, the first page is the cover.
+In ⟮all books⟯, the ⟮first page⟯ is ⟮the cover⟯.
 in LtR media, the second page will be a left page, and hence the cover is a right page
 in RtL media, the second page will be a right page, and hence the cover is a left page
 
