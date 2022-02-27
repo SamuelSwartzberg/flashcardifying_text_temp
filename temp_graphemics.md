@@ -7,101 +7,136 @@
 
 ## types of graphs
 
-### graphs with phonological realization
+typically, ⟮whatevergraph⟯ and ⟮whatevergram⟯ are ⟮synonyms⟯.
 
-logogram/graph ↔ phonogram/graph
-logogram|character represents morpheme/word|Kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs 
-phonogram|character represents one or more phonemes|Latin letters, hangul, kana
+### graphs with phonological realization ≈ representing basic linguistic unit
 
-Different types of logograms: pictograms, ideograms
-Different types of phonographic writing systems: alphabets, syllabaries, abjads, abugidas
-Abjads and abugidas may be considered syllabaries (as there is generally a character per syllable) or not (as the characters do not actually repesent languages)
+#### logograms vs phonograms
 
-A pictogram depicts the thing it represents by resemblance (or once did).
-Examples of pictogram kanji: 日, 月, 山, 木, 口 etc.
-An ideogram represents to a more abstract concept
-Many ideograms are derived from pictograms.
+the two types of ⟮grapheme⟯ ⟮representing a basic linguistic unit⟯ are ⟮＿logograms＿⟯ and ⟮＿phonograms＿⟯
+»⟮a logogram ⟯«is a ⟮graph/grapheme⟯ representing ⟮a morpheme/word⟯
+»⟮a phonogram⟯« is a ⟮graph/grapheme⟯ representing ⟮one or more phonemes⟯
 
-A syllabogram is a character that (ideally) represents a syllable or mora.
-A letter is a character that (ideally) represents a single phoneme.
+#### logograms
 
+Well-known ⟮＿logographic＿⟯ writing systems are ⟮kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs⟯
+Depending on their composition, ⟮＿logograms＿⟯ may be ⟮＿non-compound＿⟯ or ⟮＿compound＿⟯.
+»⟮Compound logograms⟯« are ⟮＿logograms＿⟯ ⟮consisting of multiple other logograms⟯.
+»Non-compound logograms« are ⟮＿logograms＿⟯ ⟮consisting of no other logograms⟯.
 
-writing system|consist of characters called|examples
-syllabary|syllabogram|hiragana, katakana
-alphabet|letters|latin alphabet, greek alphabet
+##### non-compound logograms
+
+⟮＿Non-compound logograms＿⟯ may be ⟮＿pictograms＿⟯ or ⟮＿ideograms＿⟯.
+»⟮A pictogram⟯« ⟮depicts the thing⟯ it ⟮references⟯, or ⟮once did⟯.
+Examples of ⟮＿pictogram＿⟯ kanji: ⟮日, 月, 山, 木, 口 etc.⟯
+»⟮An ideogram⟯« ⟮attempts to visualize⟯ ⟮the abstract concept⟯ it ⟮represents⟯.
+Many ⟮＿ideograms＿⟯ are ⟮derived from⟯ ⟮＿pictograms＿⟯.
+
+##### compound logograms
+
+some ⟮compound logograms⟯ may ⟮function similar to ideograms or pictograms⟯, but are ⟮rarely called such⟯ due to the differences.
+
+#### phonograms
+
+⟮＿phonograpms＿⟯ are divided into ⟮＿syllabograms＿⟯ and ⟮＿letters＿⟯.
+»⟮A syllabogram⟯« is ⟮＿a graph/grapheme＿⟯ that (ideally) ⟮represents a syllable or mora⟯.
+»⟮A letter⟯« is ⟮＿a graph/grapheme＿⟯ that (ideally) ⟮represents a single phoneme⟯.
+A »⟮syllabary⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿syllabograms＿⟯.
+An »⟮alphabet⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿letters＿⟯.
+
+##### hybrids
+
+I will call the ⟮characters of an abugida⟯ ⟮＿abugidogram＿⟯, though ⟮this is a term no one uses⟯.
+»⟮An abugidogram⟯« is ⟮a graph/grapheme⟯ which ⟮represents a consonant⟯, and ⟮c_;vowels⟯ are ⟮added as modifications of the base character⟯.
+
+An »⟮abjad⟯« is ⟮＿a writing system＿⟯ which ⟮primarily deals in consonants⟯.
+A »⟮pure abjad⟯« has ⟮no way of indicating vowels whatsoever⟯.
+An »⟮impure abjad⟯« has ⟮some way of indicating vowels⟯.
+An ⟮＿impure abjad＿⟯ may ⟮indicate vowels⟯ with ⟮diacritics⟯ or ⟮a limited set of vowel letters⟯.
 
 ### graphs without phonological realization
 
-#### typographical symbols
+»⟮blahs⟯« (my term) are ⟮a subset⟯ of ⟮graphemes⟯ ⟮not directly used to represent a basic linguistic unit such as sounds or words⟯.
+⟮＿blahs＿⟯ may be ⟮＿punctuation＿⟯, ⟮＿emoji＿⟯, etc.
 
-##### punctuation
+#### punctuation
 
-Punctuation is a subset of typographical symbols as well as spacing used to indicate something (such as syntax, pragmatics etc.).
-Most logographic systemss as well as japanese do not use whitespace for punctuation.
-In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
+»⟮Punctuation⟯« is ⟮a subset⟯ of ⟮＿blahs＿⟯ ⟮used to indicate some sort of interpretation help for text⟯.
+⟮＿Punctuation＿⟯ may be roughly divided into ⟮＿whitespace＿⟯ and ⟮＿visible punctuation＿⟯.
+A »⟮punctuation mark⟯« is ⟮a single grapheme⟯ ⟮acting as ＿punctuation＿⟯.
 
-###### brackets
+##### visible
 
-thing|name
+###### enclosing punctuation
 
-{{c13::{} }}|⟮curly brackets⟯ (non-us), or ⟮(c:3;curly⟯) ⟮braces⟯ (us, uk)
-⟮c+;‹›⟯|⟮angle brackets⟯ or ⟮chevrons⟯
-⟮( ) ⟯|⟮brackets⟯ (non-us), ⟮round brackets⟯ (non-us) or ⟮parantheses⟯
-⟮[]⟯| ⟮square brackets⟯ (non-us) or ⟮just brackets⟯ (us)
+####### brackets
+
+»⟮Brackets⟯« are ⟮a type of⟯ ⟮punctuation⟯ that exist in ⟮mirrored opening and closing⟯ variants and are meant to ⟮enclose something⟯.
+⟮＿brackets＿⟯ is ⟮the cover term⟯ for ⟮all of ()‹›[]{}⟯.
+
+######## names 
+
+table:thing|name (non-us)|name (us)
+⟮{}⟯|⟮curly brackets⟯|⟮braces⟯ or ⟮curly braces⟯
+⟮‹›⟯|span=2;⟮angle brackets⟯ or ⟮chevrons⟯
+⟮( )⟯|⟮brackets⟯, ⟮round brackets⟯|⟮parantheses⟯
+⟮[]⟯|⟮square brackets⟯|⟮brackets⟯
+
+⟮parentheses⟯ refer to ⟮()⟯ in ⟮the US⟯, and ⟮nothing⟯ ⟮in non-US varieties⟯
+⟮braces⟯ refers to ⟮{}⟯ in ⟮the US⟯, and ⟮nothing⟯ in ⟮non-US varieties⟯
+⟮brackets⟯ may be used ⟮as a cover term⟯ or refer to ⟮[]⟯ in ⟮the us⟯ and ⟮()⟯ in ⟮non-us varieties⟯
+
+Due to ⟮US cultural influence⟯, ⟮the US names⟯ for ()‹›[]{} may be ⟮recognized in other countries⟯.
 
 
-name|referenced entity (US)|referenced entity (not-US)
+###### sentence-ending punctuation
 
-⟮parentheses⟯|⟮(⟯)|⟮may be meaningless (or US meaning⟯)
-⟮brackets⟯|⟮[]⟯, less commonly perhaps ⟮c+;‹›⟯|most commonly ⟮(⟯), also {{c21::cover term for all of ()[]{}‹›}}
-⟮braces⟯|{{c12::{} }}|⟮may be meaningless (or US meaning⟯)
+####### bang
 
-
-###### bangs
-
-Calling the ⟮exclamation point⟯ a ⟮bang⟯ emerged from ⟮printing slang in the 1950s⟯. 
+The ⟮exlamation point⟯ may also be called a ⟮bang⟯.
+Calling the ⟮exclamation point⟯ a ⟮c_;bang⟯ emerged from ⟮printing slang in the 1950s⟯. 
 Off ⟮the slang term bang for !⟯ was coined the ⟮interrobang⟯ and the ⟮shebang⟯ 
-T⟮he combination of exclamation point and question mark⟯ is known as the ⟮interrobang⟯. 
+the »⟮interrobang⟯« is ⟮the combination of exclamation point and question mark⟯.
 ⟮‽⟯ is called the ⟮interrobang⟯. 
 
-###### dashes
+###### intra-sentence punctuation
 
-There are two common ⟮dashes⟯ (though there are more uncommon ones), the ⟮en-dash⟯ and the ⟮em-dash⟯. 
+####### dashes ＆ hyphens
+
+»⟮Dashes⟯« and »⟮hyphens⟯« are both ⟮＿punctuation marks＿⟯ that are ⟮horizontal lines⟯.
 ⟮dashes⟯ are ⟮longer⟯ than ⟮the hyphen/minus sign⟯. 
+There are ⟮two common⟯ ⟮dashes⟯ (though there are more ⟮c-;uncommon⟯ ones),
+The ⟮two common dashes⟯ are the ⟮en-dash⟯ and the ⟮em-dash⟯. 
 
-######## english
+###### other
 
-You use ⟮en dashes⟯ to ⟮list things in a range⟯, and sometimes ⟮for some more unwieldy prefixes (Elvis Presley–style, pre–World War II⟯) 
-You use ⟮hyphens⟯ to ⟮join⟯/⟮separate⟯ words 
-You use ⟮em dashes⟯ to ⟮separate parts of sentences (The new house is said to be beautiful — though if beautiful is the right word, I am not so sure⟯), or ⟮when someone is being interrupted (“Wait! I forgot to tell you—” The door slammed shut between us and I missed whatever she was trying to say.⟯) (and other minor usees) 
+####### prime
 
-###### prime
-
-The ⟮prime⟯ looks similar to ⟮an apostrophe⟯, but ⟮angled to the right⟯. 
+The »⟮prime⟯« is a ⟮＿punctuation mark＿⟯ looks similar to ⟮an apostrophe⟯, but ⟮angled to the right⟯. 
+The »⟮double prime⟯« is ⟮two ＿primes＿⟯ »directly side by side«
 The ⟮prime⟯ is often used to ⟮mark something derived from something⟯. 
-The ⟮prime⟯ and ⟮double prime⟯ can mark ⟮(arc)minutes⟯ and ⟮(arc)seconds⟯ respectively 
+Unit-wise, the ⟮prime⟯ and ⟮double prime⟯ can mark ⟮(arc)minutes⟯ and ⟮(arc)seconds⟯ respectively 
 
-Symbol|Name
+
+table:Symbol|Name
 ⟮′⟯|⟮Prime⟯
 ⟮″⟯|⟮Double prime⟯
 
-###### misc
-
-####### tilde
-
-~|tilde
-
-
 ##### whitespace
 
-whitespace is any character or series of characters that represent horizontal or vertical space.
+»⟮whitespace⟯« is ⟮＿punctuation＿⟯ that consists of ⟮space with no marks⟯.
+⟮＿Whitespace＿⟯ may be ⟮＿horizontal＿⟯ or ⟮＿vertical＿⟯.
 
 ###### horizontal
 
-####### tabs
+»⟮horizontal whitespace⟯« is ⟮＿whitespace＿⟯ that ⟮is horizontal space (duh.)⟯
+⟮＿horizontal whitespace＿⟯ as a category consists of ⟮＿space＿⟯ and ⟮＿horizontal tabs＿⟯.
 
-Multiple spaces used as 'tabs'   Soft tabs
-ASCII tab character   hard tabs
+####### horizontal tabs
+
+horizontal tabs are horizontal whitespace with a width of multiple space characters.
+a hard tab is the ASCII tab character.
+A soft tab is multiple spaces used as 'tabs'.
 In programming, the width of tabs is commonly 2 or 4 spaces.
 
 ###### vertical
@@ -132,7 +167,7 @@ kaomoji ::= ⟮[‹left-arm›]⟯⟮‹head›⟯⟮[‹right-arm›]⟯
 ```
 most common ⟮head delimiters⟯: ⟮(⟯) 
 
-## two or more graphs
+## combinations of graphs
 
 ### digraphs 
 

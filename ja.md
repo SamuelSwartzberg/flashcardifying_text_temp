@@ -11833,6 +11833,11 @@ Requests for honorific verbs that change りー＞い then often use the 命令�
 
 In japanese, reduplication of a kanji is marked with 々.
 
+### punctuation
+
+Most logographic systemss as well as japanese do not use whitespace for punctuation.
+In japanese, using a question mark is optional when ending a sentence with the interrogative particle か.
+
 ## phon
 
 ### phonology
