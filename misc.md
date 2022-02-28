@@ -232,45 +232,25 @@ food ⟮fortification/enrichment⟯ is the process of ⟮adding micronutrients�
 ⟮Minerals⟯ are ⟮passed up the food chain⟯ until ⟮they end up in us humans⟯.
 ⟮What minerals we get⟯ from ⟮a certain plant/animal⟯ depends on ⟮which they can store⟯, but also ⟮what the soil/animals further down the food chain had in them⟯. 
 
-TO HERE
-
 ##### vitamins
 
-⟮Vitamins⟯ are ⟮biosynthesized⟯ by ⟮plants/animals⟯ and then ⟮absorbed by us⟯. 
+⟮Vitamins⟯ are produced by being ⟮＿biosynthesized＿⟯ by ⟮plants/animals⟯.
 ⟮Which vitamins⟯ are ⟮contained in food⟯ depend on ⟮what the relevant vegetable or animal can biosythesize⟯. 
-Theoretically, all ⟮vitamins⟯ are defined to be ⟮essential nutrients⟯, however ⟮Vitamin D⟯ can be synthesized if ⟮exposed to sunlight (specifically UVB rays⟯), and is thus ⟮an exception⟯ 
-Most ⟮vitamins⟯ are not ⟮single molecules⟯, but ⟮groups of related molecules⟯ which are each called ⟮vitamers⟯ 
+Theoretically, all ⟮vitamins⟯ are defined to be ⟮essential nutrients⟯
+⟮Vitamin D⟯ can be synthesized if ⟮exposed to sunlight (specifically UVB rays)⟯
+Since Vitamin D can be synthesized by us, it is ⟮an exception⟯ to the idea that all Vitamins are essential
+⟮vitamers⟯ are related molecules grouped together into one vitamin
+Most ⟮vitamins⟯ are not ⟮single molecules⟯, but vitamers.
 Each ⟮vitamin⟯ is typically used in ⟮multiple reactions⟯, and therefore ⟮most have multiple functions⟯. 
-⟮Vitamin B12⟯ is ⟮the only⟯ vitamin or nutrient ⟮not available from plant sources.⟯ 
+⟮Vitamin B12⟯ is ⟮the only⟯ ⟮vitamin or nutrient⟯ ⟮not available from plant sources.⟯ 
+
+###### water/fat-soluble
+
 ⟮Vitamins⟯ are generally categorized as either ⟮water⟯- or ⟮fat⟯ soluble 
 The ⟮water-soluble vitamins (the 8 B vitamins and vitamin C⟯) are ⟮easily excreted from the body⟯, thus generally ⟮hypervitaminosis (if referring to high storage levels⟯) is not an issue, therefore, however, ⟮consistent consumption is required⟯. 
 Of the ⟮fat-soluble⟯ vitamins, ⟮A⟯ and ⟮D⟯ can ⟮accumulate in the body to a dangerous level⟯, resulting in ⟮hypervitaminosis⟯ 
 ⟮Hypervitaminosis⟯ is a condition of abnormally high ⟮storage levels (most of the time, although some sources also just use it for any overdose⟯) of ⟮vitamins⟯ 
 In general, ⟮excess intake⟯ of vitamins is ⟮unlikely⟯ from ⟮food sources⟯, but possible via ⟮supplements⟯ 
-
-
-
-Common Designation|More Properly
-⟮Vitamin C⟯|⟮Ascorbic acid⟯
-
-###### vitamin B
-
-  
-Vitamin B...|Name or name of vitamers (if it exists)
-
-⟮1⟯|⟮Thiamine⟯
-⟮2⟯|⟮Riboflavin⟯
-⟮3⟯|⟮vitamers w/ names similar to Niacin⟯
-⟮4⟯|⟮Doesn't exist⟯
-⟮5⟯|⟮Pantothenic acid⟯
-⟮6⟯|⟮Consists of vitamers called Pyridox* (ine, amine, al⟯)
-⟮7⟯|⟮Biotin⟯
-⟮8⟯|⟮Doesn't exist⟯
-⟮9⟯|⟮???⟯
-⟮10⟯|⟮doesn't exist⟯
-⟮11⟯|⟮Doesn't exist⟯
-⟮12⟯|⟮Cobalamin⟯
-
 
 ##### minerals
 
@@ -675,43 +655,6 @@ Nodules is a generic term for small firm lumps, usually greater than 1 cm in dia
 Papule is a generic term for a small firm lump smaller than a nodule.
 A cyst is a nodule that is filled with fluid.
 
-## med
-
-### signs and symptoms
-
-flex-container:✫sm_1_lcJqhlhwT274BKCOXwTO2g.png✫
-The difference between ⟮signs⟯ and ⟮symptoms⟯ is  ⟮how they are perceptible⟯ 
-
-⟮sign⟯|⟮observable to others (not just the patient⟯)
-⟮symptom⟯|⟮observable to the patent only⟯
-
-### diseases
-
-A disease is some sort of disruption of regular functions with recgonizable signs and symptoms with a specific, known process in the body which is the cause.
-
-### disorder
-
-A disorder is some sort of disruption of regular functions with recgonizable signs and symptoms with no statement of if we know the cause, if there are multiple causes, etc.
-A disorder might indicate that a specific disease is possible but there is not enough clinical evidence for diagnosis.
-
-#### nervous system
-
-##### dystonia
-
-»Dystonia« is a neurological ＿disorder＿ where muscle contractions cause jerking, twitching, and abnormal movements.
-Focal dystonia is dystonia that affects a specific part of the body.
-
-### syndrome
-
-A syndrome is some sort of disruption of regular functions with recgonizable signs and symptoms that are ⟮correlated with each other = that co-occur⟯, but ⟮for which we don't have a known cause.⟯
-A ⟮syndrome⟯ is ⟮a set of signs and symptoms⟯ 
-A ⟮syndrome⟯ with ⟮a cause⟯ is (properly) ⟮a disease⟯ 
-Sudden infant death ⟮syndrome⟯ is a ⟮syndrome⟯ ⟮because we know what happens, but not why⟯ 
-
-### external cause
-
-An »external cause« is a reason for the existence of a medical condition which can be associated with a specific object or acute process that was caused by something outside the body. 
-
 # isms
 
 ## phenomena
@@ -1073,79 +1016,3 @@ type of work/labor|involves|example
 The two strategies people use in performing ⟮emotion work/labor (not sure in how far it applies to the family of similar concepts⟯ are  ⟮surface acting and deep acting⟯ 
 ⟮emotion work/labor⟯ by ⟮getting into a state where one genuinely feels the emotions⟯ is called ⟮deep acting⟯ 
 ⟮emotion work/labor ⟯ by ⟮pretending, without changing how one actually feels⟯ is called ⟮surface acting⟯ 
-
-# psych
-
-## memory
-
-### types
-
-table:Name1|Name2|Stores what?
-⟮c+;s2;Explicit memory::E...⟯|⟮c+;s1:;Declarative memory::D...⟯|⟮facts, concepts⟯
-⟮c+;s6;Implicit memory::I...⟯|⟮c+;s5;Non-declarative memory::N...⟯|⟮skills, procedures, categories, sensory experiences⟯
-
-
-⟮Explicit/declarative memory⟯ is the memory that is subject to the ⟮Ebbinghaus forgetting⟯ curve.
-
-
-## motivation
-
-### learned helplessness
-
-In aquiring ⟮learned helplessness⟯, agents are exposed to ⟮an averse stimulus⟯ that ⟮they cannot control/avoid⟯ ⟮repeatedly⟯ 
-With ⟮learned helplessness⟯, agents fail to f⟮ail to avoid the thingy⟯ after ⟮being exposed to an unavoidable averse stimulus⟯, even when ⟮they have control again (and this is indicated clearly⟯) 
-In fact, in contrast to the ⟮original idea of learned helplessness⟯, it seems that ⟮passivity is the default reaction⟯ and ⟮'helpfulness' is learned⟯ 
-The ⟮original⟯ ⟮learned helplessness⟯ ⟮experiment⟯ featured ⟮shocking dogs⟯ ⟮without them being able to do anything about it.⟯ 
-In ⟮the original learned helplessness experiment⟯, one needed to ⟮physically show the dogs (by moving their limbs⟯) ⟮how to escape the shocks⟯ ⟮at least twice⟯ so ⟮they would relearn that they had control⟯ 
-The ⟮noise experiment⟯ is related to ⟮learned helplessness⟯ 
-⟮c+;Hiroto, D.S.; Seligman, M.E.P.⟯ ⟮(c:37;1975⟯), subjects were supposed to ⟮do mental tasks⟯ while ⟮a distracting sound played⟯. ⟮hb;⟮One experimental group⟯ ⟮could (or thought they could) turn it off⟯, and ⟮the other⟯ ⟮couldn't⟯. ⟮hb;⟮The ones that could turn of the noise⟯ ⟮did better on the task⟯ ⟮even if they didn't turn it off.⟯⟯⟯ 
-⟮Self-efficacy⟯ is ⟮(The strength of) one's belief⟯ in ⟮one's own ability⟯ to ⟮complete asks in order to reach a goal⟯ 
-⟮Veritasium⟯ argues students/employees will ⟮try their best(based on what they know⟯) when ⟮given a task⟯, but ⟮if they hit a roadblock⟯, they ⟮won't try anything else (but just ask the supervisor⟯) - even though t⟮hey could have probably figured out methods to overcome a roadblock⟯ - reflecting, according to Veritasium, ⟮learned helplessness⟯ 
-Veritasium argues besides the pracitcal reasons of connection and resources etc, ⟮self-efficacy⟯ is part of the reason ⟮children of people with a certain career take up that career.⟯ 
-
-## relationships
-
-### gaslighting
-
-We get the term ⟮gaslighting⟯ from ⟮the 1940s film Gaslight⟯ 
-In the film ⟮Gaslight⟯, the protagonist ⟮claims the gas lights were not dimmed⟯ after ⟮dimming them himself.⟯ 
-⟮The protagonists goal⟯ in the film ⟮gaslight⟯ is ⟮to have his wife declared insane⟯. 
-⟮Gaslighting⟯ is a form of ⟮manipulation⟯. 
-The effect of (successful) ⟮gaslighting⟯ is that the victim ⟮can no longer determine⟯ /⟮is mislead about⟯ ⟮the trut⟯h, or that they ⟮can no longer tell⟯ ⟮right⟯ from ⟮wrong⟯, ⟮beneficial⟯ from ⟮harmful⟯. 
-For example, someone ⟮gaslighting⟯ may deny that ⟮past events⟯ ⟮have happen⟯, and thus ⟮make the gaslit person question if they actually have⟯. 
-For example, someone ⟮gaslighting⟯ may ⟮make fun of someones needs⟯, and thus ⟮make them question if their needs are actually legitimate⟯. 
-⟮Gaslighting⟯ may be ⟮intentional⟯ or ⟮unintentional⟯, and may be more often used by ⟮narcissists / sociopaths⟯. 
-⟮Gaslighting⟯ can occur in ⟮any personal relationship⟯, we may also want to ⟮extend the definition to a societal level⟯. 
-
-### abuse
-
-#### cycle of abuse
-
-The ⟮cycle of abuse⟯ is a ⟮common pattern⟯ for ⟮abusive relationships⟯. 
-The ⟮Cycle of abuse⟯: ⟮Tension building⟯ → ⟮Acute explosion/Incident⟯ → ⟮Honeymoon⟯ (repeat) 
-
-### dark triad
-
-#### narcissism
-
-⟮»Narcissists«⟯ have an overriding desire to ⟮protect/soothe/strengthen⟯ their ⟮self-image.⟯ 
-⟮»Narcisstic supply«⟯ are ⟮the doses of admiration, validation, approval, respect, attention, subservience⟯ that ⟮a narcisst seeks to soothe their self-image.⟯ 
-»⟮Narcisstic injury⟯« is ⟮damage⟯ that a narcisst takes ⟮to their self-image.⟯ 
-
-In ⟮a family with a narcissist⟯, people end up ⟮being forced into roles⟯ - ⟮the whole construct⟯ is called the »⟮narcissistic family⟯«. 
-⟮The narcisstic family⟯'s ⟮roles⟯ are ⟮structural⟯: ⟮The relationships between roles is what creates the structure, and makes it resilient to change.⟯ 
-⟮The narcissistic family⟯ consists of different ⟮roles⟯: ⟮the narcissist⟯, ⟮the golden child⟯ and ⟮the scapegoat⟯ ⟮establish the structure⟯, butressed by ⟮flying monkeys⟯, ⟮neutral siblings/people.⟯ and sometimes also others (e.g. enablers)
-⟮Roles⟯ in a ⟮narcissistic family⟯ may ⟮shift⟯ if ⟮they do not provide the function to the narcissist anymore.⟯ 
-
-In a narcissistic family the ⟮»golden child«⟯ is the person ⟮onto which the narcissist projects⟯ what ⟮they want to believe about themselves.⟯ 
-The ⟮golden child⟯ ⟮strengthens the narcissists self-image⟯ by ⟮projection⟯. 
-The ⟮golden child⟯'s ⟮achievements⟯ are ⟮highly rewarded⟯. 
-
-In a narcissistic family, the »⟮scapegoat⟯« is the person ⟮onto which the narcissist projects⟯ what t⟮hey don't want to believe about themselves.⟯ 
-The ⟮scapegoat⟯ ⟮strengthens the narcissists self-image⟯ by ⟮contrast⟯. 
-The ⟮scapegoat⟯'s ⟮achievements⟯ are ⟮not acknowledged⟯, and may ⟮even surreptitiosuly be punished⟯. 
-Conversely, the ⟮scapegoat⟯'s ⟮failures⟯ may be ⟮rewarded⟯. 
-However, the scapegoat may have an easier time ⟮breaking away from the narcisstic family structure⟯. 
-
-In a narcisstic family, the ⟮»neutral sibling/person«⟯ is said to be the sibling/person that ⟮always tries to mediate⟯, but ends up ⟮denying the reality of what's happening⟯. 
-In a narcisstic family, a »⟮flying monkey⟯« is person ⟮used by the narcissist⟯ as ⟮a proxy for their narcissist actions.⟯ 
