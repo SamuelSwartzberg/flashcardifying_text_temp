@@ -2666,16 +2666,14 @@ Transcription is the represention of spoken language in written form.
 
 A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
-## language geography
+#### sprachraum
 
-Language geography is the study of the geographic distribution of languages.
-
-A language border/boundary is boundary separating two areas where ⟮different (mutually unintelligible) languages are spoken⟯
-Sprachraum   A geographical region where a common L1 is spoken
+»⟮A sprachraum⟯« is⟮ a geographical region⟯ ⟮where a common L1 is spoken⟯
 
 ## linguistic typology
 
-Linguistic typology (or language typology) is a field of linguistics that studies and classifies languages according to their structural features. 
+Linguistic typology = language typology
+Linguistic typology is a field of linguistics that studies and classifies languages according to their structural features. 
 
 ### morphological typology 
 
