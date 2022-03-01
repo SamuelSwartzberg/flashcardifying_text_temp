@@ -1,18 +1,18 @@
-## general
+# general
 
 Basically, when you're not sure which linguistic units you're dealing with (be it phonemes, morphemes etc.) or it is irrelevant to your research, you use the word "segment". 
 Thus, a segment is "any element, at any level of representation, which is described as forming sequences with others" (Matthews 2007).
 
 
-## structuralism
+# structuralism
 
-### history
+## history
 
 ⟮De Sassure⟯ founded ⟮structuralism⟯
 The work that founded structuralism is de Sassure's 1916 work 『Course in General Linguistics』
 structuralism had its heyday in ⟮the 1950s and 1960s⟯ in ⟮France⟯ (but is still influential) 
 
-### the sign
+## the sign
 
 The sign consists of a signfier and a signified.
 
@@ -32,13 +32,13 @@ What?|Where in the image?
 ⟮the wavy areas⟯|⟮the world of signifier and signifieds⟯
 
 
-#### nesting
+### nesting
 
 flex-container:✫sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg✫✫sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg✫
 ⟮Barthes⟯ took ⟮Sassures sign⟯ and ⟮nested it.⟯ 
 ⟮Derrida⟯ then took ⟮Barthes sign⟯ and realized that it ⟮could be nested infinitely⟯ in ⟮both directions⟯, creating ⟮an endless deferrment of meaning⟯ he called ⟮Différance⟯. 
 
-### langue and parole
+## langue and parole
 
 flex-container:✫sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg✫✫sm_planes_of_sound__thought.gif✫
 As regards language, ⟮De Sassure differentiated⟯ between ⟮langue⟯ and ⟮parole⟯. 
@@ -46,7 +46,7 @@ As regards language, ⟮De Sassure differentiated⟯ between ⟮langue⟯ and �
 ⟮Parole⟯ is ⟮any instance of the use of language⟯ 
 In the ⟮langue⟯ of ⟮spoken language⟯, the ⟮signified⟯ (according to sassure) is ⟮the concept⟯, the ⟮signifier⟯ is ⟮(the psychological reality of) the phonological realization⟯. 
 
-### emic and etic units.
+## emic and etic units.
 
 An ⟮emic unit⟯ ⟮reduces⟯ ⟮a large number of variant forms⟯ to ⟮a number of abstract units⟯. 
 ⟮Etic units⟯ are ⟮the large number of variant forms⟯ that ⟮reduce to a certain number of emic units⟯. 
@@ -63,18 +63,13 @@ sememe|seme|alloseme
 
 The seme is the smallest unit of meaning in semantics.
 
-### homo
-
-words that share a spelling but mean something different   homographs
-words that share a pronunciation but mean something different   homophones
-
-## synchronic
+# synchronic/diachronic
 
 The diachronic/synchronic distinction was coined by ferdinand de sussure.
 A »synchronic« viewpoint considers a language at a moment in time without taking its history into account. 
 If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a language.
 
-### grammar
+# grammar
 
 Most broadly, grammar is the sets of rules governing a lect.
 A reference work on the grammar of a language may also be known as a grammar, more precisely as a reference grammar.
@@ -86,35 +81,35 @@ In linguistics, an empty category is an element in the study of syntax that does
 An empty category = something unpronounced is often indicated by ø or ＊e＊
 In linguistics, a string is a sequence of words/sounds that we don't want to put any deeper analytical category on just yet.
 
-#### syntax
+## syntax
 
 Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
 Morphosyntax is where morphology and syntax interset.
 
-##### Information structure
+### Information structure
 
 Information structure is the subfield of linguistics describing how information is organized within a sentence.
 Information structure mainly consists of the three oppoositions of focus/background, topic/comment, and givenness/new
 
-##### Expletives
+### Expletives
 
 An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
 Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
 E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
 
-##### Grammatical relations
+### Grammatical relations
 
 Grammatical relations are subjects and objects, and perhaps others depending on your theory.
 Grammatical relations are different things to different theorists.
 The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
 
-##### labelled bracket
+### labelled bracket
 
 Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
 Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
 leaf ::= #somestring
 
-##### frameworks
+### frameworks
 
 Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
 Generative semantics was a response to generative grammar developed in the 1960s.
@@ -122,7 +117,7 @@ The conflict between propoonents of generative grammar and generative semantics 
 The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
-##### constituents
+### constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
 The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
@@ -151,7 +146,7 @@ Gertrude wasn't interested in art.
 Interested in art, Gertrude wasn't.
 ```
 
-##### phrasees
+### phrasees
 
 a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
 The head of a phrase is the thing everything else in the phrase is about.
@@ -159,7 +154,7 @@ In a phrase, everything that isn't the head is a dependent.
 In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
 head-initial|English (partially)
 
-###### X-bar framework-based
+#### X-bar framework-based
 
 
 The X-bar theory asserts that all phrases have the structure ✫https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png✫, which is called the X-bar schema.
@@ -226,7 +221,7 @@ to test whether a CP is an adjunct or a complement, use a proform test on the Ve
 
 The object is the thing that is the complement of the VP.
 
-####### IPs
+##### IPs
 
 under the IP theory, the sentence is an IP headed by an I.
 The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
@@ -241,7 +236,7 @@ class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
 
 
-####### VP-internal subject hypothesis
+##### VP-internal subject hypothesis
 
 According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
 According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
@@ -260,7 +255,7 @@ class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
 class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
 someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
 
-####### DP hypothesis: 
+##### DP hypothesis: 
 
 The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
 The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
@@ -283,7 +278,7 @@ class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-######## posessive s
+###### posessive s
 
 class=blank-canvas;span=3;class=inner;⟮DP⟯
 class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
@@ -298,7 +293,7 @@ span=1,2;|class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
 
-####### NP hypothesis
+##### NP hypothesis
 
 class=blank-canvas;span=2;class=inner;⟮NP⟯
 class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
@@ -307,20 +302,20 @@ class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-####### IP hypothesis
+##### IP hypothesis
 
 Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
 Multiple auxiliaries are adjoined as Vs to the VP.
 Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
 
-####### early modern english
+##### early modern english
 
 Lexical verbs could move to I, and thus to C, following the HMC.
 In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
 In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
 "What heards't thou?"
 
-####### german sentences
+##### german sentences
 
 The german main clause V2, subordinate clause V-final constituent order is explained as follows:
 In german, VP and IP are head-filnal
@@ -331,12 +326,12 @@ In german subordinate clauses, the V can't move to C, because that is typically 
 If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
 Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
 
-###### types of phrases
+#### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
 
-##### clauses
+### clauses
 
 A clause links a predicand (expressed or not) with a predicate.
 A clause is a type of constituent.
@@ -350,19 +345,19 @@ A subordinate/dependent clause cannot stand alone as a sentence.
 Independent clause = main clause ≈ root clause ≈ matrix clause
 A independent clause can stand alone as a sentence.
 
-###### subordinate clauses
+#### subordinate clauses
 
 An embedded question is a question that is a subordinate clause.
 As CPs generally are, embedded questions are adjuncts of the VP or complements of the verb (in japanese too)
 
-####### relative clause
+##### relative clause
 
 A relative clause is a subordinate clause that describes a DP/NP
 A ⟮relative clause⟯ is a ⟮subordinate clause⟯ which generally ⟮describes the referent of its head⟯.
 I met a furry who was passionate.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
-###### interrogative
+#### interrogative
 
 In syntax, an interrogative clause has a particular type of syntax and/or prosoody, which is typically used to ask question (attach the illocutionary act/force of asking a question).
 Languages may have diffrent types of interrogative clauses (i.e. different syntaxes used to ask different types of questions).
@@ -371,18 +366,18 @@ In many languages, besides syntax/prosody, written exchanges often indicate inte
 
 If syntax is used to indicate an interrogative, it may be in the form of conjugating the verb, changing the word order, adding interrogative words, particles, or other constituents, or often a combination of these.
 
-####### conjugation
+##### conjugation
 
-####### word order
+##### word order
 
-######## I-to-C movement
+###### I-to-C movement
 
 In english, wh-questions and yes/no questions alike are marked by I-to-C movement.
 In english interrogatives that are not subject questions, the sentence becomes a CP.
 In english interrogatives, the newly formed C position is filled by I moving to C.
 In english interrogatives, if there is no I to move to C, I is made pronounced via do-support.
 
-######## wh-movement
+###### wh-movement
 
 A wh-question is a interrogative sentence using a wh-word.
 Wh-questions typically feature wh-movement.
@@ -402,9 +397,9 @@ There are a bunch of islands:
 - No extraction out of adjuncts
 Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible = there must not be a wh-element that would have to move less far.
 
-####### adding constituents
+##### adding constituents
 
-######## tag questsions
+###### tag questsions
 
 A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
 A question tag is an interrogative fragment.
@@ -417,11 +412,11 @@ es|verdad?|no?
 English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
 English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
 
-######## interrogative words ＆ particles
+###### interrogative words ＆ particles
 
 In english, interrogative words start with wh- and are thus known as wh-words.
 
-##### sentences
+### sentences
 
 A sentence consists of one or more clausees.
 A simple sentence consists of one (main/independent) clause.
@@ -436,7 +431,7 @@ A cleft sentence splits a simple sentence up into a complex sentence.
 Cleft seentence typically put the constituent now in the independent clause into focus.
 Syntax of cleft sentences in english: it + conjugated form of to be + X + subordinate clause
 
-##### movement
+### movement
 
 discontinuity is the phenomenon where a constituent is split into two parts ⟮due to the insertion of an element which is not part of it⟯
 Syntactic movement is the means by which some theories of syntax address discontinuities.
@@ -450,34 +445,34 @@ Some of the evidence of traces is that we can't contract over them.
 
 In syntax, something is "in situ" if it doesn't move, although it normally would.
 
-###### head movement 
+#### head movement 
 
 The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
 Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
 The head movement contraint only applies to head movement, obv.
 
-####### prepositions
+##### prepositions
 
 When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
 An entire expression moves, instead of leaving something behind   Pied Piping
 A head moves and leaves behind a preposition   Preposition stranding
 
-#### grammatical feature
+## grammatical feature
 
 A grammatical feature is more rarely called grammatical category.
 A grammatical feature is a property of items within the grammar of a language. 
 Within each grammatical feature there are two or more possible values (sometimes called grammemes), which are normally mutually exclusive.
 
-##### phi-features (noun-related)
+### phi-features (noun-related)
 
 phi-features is a group of grammatical features related to nouns.
 Phi-features include person, number, gender and case
 
-###### noun class
+#### noun class
 
 Grammatical gender is a form of noun-class system.
 
-###### number
+#### number
 
 Grammatical number is a grammatical feature distinguising amounts.
 Grammatical number is most often marked on things present in the DP/NP (Determiners, Nouns, Adjectives) and via verbal agreement.
@@ -494,7 +489,7 @@ Dual|two
 Trial|three
 Paucal|a few
 
-###### case
+#### case
 
 Grammatical case is a grammatical feature marking thematic relation or grammatical relation/morphosyntactic alignment.
 Grammatical case is mostly marked on things within the DP/NP.
@@ -534,32 +529,32 @@ Translative case becoming X, changing to X
 Pertingent case touching x
 Intrative case "amidst"
 
-##### honorific
+### honorific
 
 A honorific is a grammatical feature that encodes social relationships.
 Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
 Honorifics may be encoded via a variety of linguistic devices.
 
-###### T-V
+#### T-V
 
 The T-V distinction is a honorific distinction encoded in pronouns.
 The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
 The T-V distinction is common in many Indo-European languages, but not english.
 The name T-V distinction comes from latin tu/vos.
 
-##### polarity
+### polarity
 
 Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
 Positive polarity = affirmation
 Negative polarity = negation
 
-##### others
+### others
 
 
 
-##### mainly related to verbs
+### mainly related to verbs
 
-###### grammatical person
+#### grammatical person
 
 ⟮Grammatical person⟯ is personal deixis encoded in language.
 It is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
@@ -569,7 +564,7 @@ First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
 
-###### grammatical voice
+#### grammatical voice
 
 Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles over grammatical relations.
 Subject is agent   active voice
@@ -579,7 +574,7 @@ In english, the AGENT of a passive sentence is realized in a by-pp or left out e
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
 
-###### transitivity
+#### transitivity
 
 Valency is the number of argument controlled by a thing, mainly by a verb.
 Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
@@ -600,12 +595,12 @@ ambitransitive|may take an object or not
 Ditransitive verbs take two objects, which in english may be termed the direct and indirect object.
 In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
 
-###### causative
+#### causative
 
 A causative indicates that someone/thing causes someone/thing else to do/be something.
 A causative increases the valency of the verb involved.
 
-###### ergativity
+#### ergativity
 
 an unergative verb is an intransitive verb whose argument is an agent.
 an unaccusative verb is an intransitive verb whose argument is not an agent.
@@ -617,7 +612,7 @@ All languages I speak are nominative-accusative languages.
 In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
 In a ergative-absolutive (or just ergative) language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
 
-###### evidentiality
+#### evidentiality
 
 Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
 A feature that encodes evidentiality is known as an evidential or verificational/validational
@@ -639,13 +634,13 @@ Reportative evidentials indicate that the information was reported to the speake
 
 Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
 
-###### others
+#### others
 
 
 Clusivity is the grammatical feature encoding the difference between inclusive and exclusive first-person plural reference.
 Inclusive first-person plural reference includes the adressee, exclusive first-person plural reference excludes the adressee.
 
-###### tense-aspect-mmod
+#### tense-aspect-mmod
 
 tense, aspect and modality are three grammatical features that are often strongly entangled in a given language and thus hard to separate.
 for something to be a tense, aspect or modality it must be marked on the verb/vp.
@@ -653,7 +648,7 @@ Modality marked on a verb/VP is known as mood, however some authors also treat t
 The marking of tense, aspect and modality is sometimes known as tense-aspect-mood
 tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
 
-####### aspect
+##### aspect
 
 Aspect is tells you how time flows within the process/event itself.
 Aspect may be divided into grammatical aspect, which is aspect indicated through inflection, and lexical aspect, which is inherent in a certain lexeme.
@@ -700,7 +695,7 @@ Telicity is most often considered an aspect.
 Gnomic aspect is an apsect indicating general truths.
 The opposite of gnomic aspect is episodic aspect, truths that are temporally bounded.
 
-####### modality
+##### modality
 
 modality is a grammatical feature used to discuss possible situations. 
 Different forms of modality are sometimes called flavors.
@@ -747,7 +742,7 @@ Conditional|Event depends on another condition
 mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
 Mirative|surprise/unpreparedness in relation to a given thing
 
-#### morphology
+## morphology
 
 ⟮Morphemes⟯ are the ⟮smallest⟯ ⟮unit of language⟯ that ⟮has some sort of meaning⟯. 
 ⟮Morphemes⟯ are studied in the field of ⟮morphology⟯. 
@@ -761,7 +756,7 @@ Alternation is a morpheme exhibiting variation in its phonological realization b
 Alternation (a synchronic morphological phenomenon) needs to be distinguished from sound change (a diachronic phenomenon).
 A null/zero morpheme is a morpheme that has no phonetic form/realization.
 
-##### Word formation
+### Word formation
 
 Word formation is broadly the creation of new words.
 Word formation may either be the creation of variant forms of a lexeme via inflection (e.g. fly-flew), or the creation of new lexemes.
@@ -778,7 +773,7 @@ Examples of blend words are smog (smoke + fog) or brunch (breakfast + lunch)
 
 For example, -t in spanish might be a portmanteu morph of the morph for 3rd person and for singular, took may be considered a portmanteu morph of take + ed.
 
-###### morphological
+#### morphological
 
 In linguistics, clipping, also called truncation or shortening, is word formation by removing some segments of an existing word to create a synonym.
 Clipping: Coronavirus → rona, refridgerator → fridge, influenza → flu
@@ -788,15 +783,15 @@ A hybrid word is a morphological derivation that derives from at least two diffe
 The most common ⟮hybrid words⟯ in ⟮english⟯ consist of ⟮one latin-derived and one greek-derived part⟯
 ⟮asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)⟯ are examples for ⟮hybrid words⟯
 
-###### nonmorphological
+#### nonmorphological
 
-####### abbreviation
+##### abbreviation
 
 An abbreviation is a nonmorphological derivation by shortening a word.
 
 While rareish, there are some abbreviations that use a slash, generally separating two characters representing two morphemes, but not in an 'or' rleationship (e.g. w/o, b/w, w/e, n/a)
 
-######## acronym
+###### acronym
 
 An acronym is a type of abbreviation formed from the first letters of other words.
 Sometimes initialism or alphabetism is sometimes used to refer to an acronym which is pronounced as individual letters.
@@ -806,7 +801,7 @@ A backronym is a word that originally was not an acronym but is turned into one.
 Examples of backgronyms: SAD ("seasonal affective disorder"), SOS ("Save Our Souls")
 More recent examples include the brand name Adidas, named after company founder Adolf "Adi" Dassler but falsely believed to be an acronym for "All Day I Dream About Sport";[15] Wiki, said to stand for "What I Know Is",[16] but in fact derived from the Hawaiian phrase wiki-wiki meaning "fast";[17] or Yahoo!, sometimes claimed to mean "Yet Another Hierarchical Officious Oracle", but in fact chosen because Yahoo's founders liked the word's meaning of "rude, unsophisticated, uncouth" (taken from Jonathan Swift's book Gulliver's Travels).
 
-######## numeronym
+###### numeronym
 
 A numeronym at its most common is a word based on/using numbers.
 Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
@@ -817,7 +812,7 @@ g11n  globalization
 p13n   personalization
 i18n   internationalization
 
-###### Productivity
+#### Productivity
 
 productivity is the degree to which native speakers of a language use a particular grammatical process, especially in word formation.
 The polar ends of productivity are productive and unproductive.
@@ -825,7 +820,7 @@ Word formation processses that are applied very infrequently are likely unproduc
 If a word formation process can be applied to create new words, it is productive.
 In english, using ablauts to create preterite verbs is unproductive, while using -ed to create preterite verbs is productive.
 
-##### Inflection
+### Inflection
 
 Inflection is modifying a lexeme to reflect one or more gramattical features, thus creating a new word.
 Inflection is commonly done via affixation or apophony, but there are also other possible modifications.
@@ -836,11 +831,11 @@ Name|Inflection of|
 ⟮Declension⟯|⟮Nouns or Adjectives⟯
 
 
-###### Agreement
+#### Agreement
 
 Agreement is inflection caused by other words (or similar) in the sentence.
 
-###### Inflectional paradigm
+#### Inflectional paradigm
 
 An »inflectional paradigm« is the complete set of forms that a class of words can assume ⟮when inflecting⟯
 An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
@@ -850,7 +845,7 @@ beware is a verb that is defective, as we can see by the fact that we can't say 
 A verb that follows a pattern of a typical inflectional category is called regular, else irregular.
 Inflectional categories of verb conjugations are called verb clasess.
 
-##### Lexeme
+### Lexeme
 
 A lexeme is the fundamental unit of the lexicon of a language.
 A lexeme is an abstract unit that underlies all its inflectional variants.
@@ -864,20 +859,20 @@ Lexical item and lexical unit are synonyms.
 The lexis of a language is, depending on your definition, either a subset (of words) grouped by a specific linguistic criteria or ⟮the complete set of all possible words in a language⟯
 Lexicon seems to be a synonym of lexis.
 
-##### stem, base, root
+### stem, base, root
 
 The root is the irreducable morphological core of a word, with the core lexical meaning.
 The stem is the root plus any derivational changes (see derivation (word formation))
 The stem is the morpheme that is commonly used as a starting point for inflections.
 A base is any morphological unit to which affixes can be attached.
 
-###### japanese stems
+#### japanese stems
 
 The stem that we most commonly call 'stem' in english is the 
 stem of ru-verb is verb - る
 Stem of u-verb is ‹consonant›u → ‹consonant›i
 
-##### free and bound forms
+### free and bound forms
 
 A free form is one that can stand on its own as a word.
 'cat', 'fire'
@@ -885,7 +880,7 @@ A bound form is a morpheme that onlly appears as part of a larger word.
 '-ment'
 A bound/free morpheme is a bound/free form that is a morpheme.
 
-###### affixes
+#### affixes
 
 Affixes are bound morphemes attached to the stem for word formation.
 prefix|before the word|a- (e.g. atheist)
@@ -899,7 +894,7 @@ Reduplication is the process in which a morpheme is repeated within a single wor
 A ⟮libfix⟯ is a ⟮productive⟯ ⟮bound morpheme affix⟯ created by ⟮back-formation⟯, which still ⟮contains some of the original meaning of the word⟯.
 ⟮-gate, -cation, -tard, -verse⟯ are examples of ⟮libfixes⟯
 
-###### clitics
+#### clitics
 
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
 The thing that a clitic attaches to is its host.
@@ -915,7 +910,7 @@ Enclitic   A clitic that appears after its host
 Mesoclitic   A clitic that appears between the stem of the host and other affixes
 Proclitic   A clitic that appears before its host
 
-##### compounds
+### compounds
 
 In linguistics, a compound is a lexeme that consists of more than one stem.
 The head of a compound is the stem that is the thing that is being modified by the other stem(s) in the compound.
@@ -930,16 +925,16 @@ Japanese forms appositional compounds, which will generally not display 連濁.
 e.g. 　山（やま・さん）　川（かわ・せん） for mountains and rivers = scenery and 　左（さ）　右（ゆう） for left and right = control.
 Japanese endocentric compounds will generally display 連濁 if phonotactically possible.
 
-###### english
+#### english
 
 In english, ⟮compounds⟯ can be ⟮open⟯ = ⟮containing a space⟯, e.g. ⟮real estate⟯, ⟮closed⟯ = ⟮not containing a space⟯, e.g. ⟮waistcoat, bookstore⟯, or ⟮hyphenated⟯ = ⟮containing a hyphen⟯, e.g. ⟮long-term⟯ 
 In english, ⟮compounds⟯ generally ⟮progress from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
 
 An example of ⟮the typical progression of english compounds⟯ is "T⟮c+;o day" → "to-day" → "today"⟯
 
-### types of words
+# types of words
 
-#### numerals
+## numerals
 
 A numeral is a word or phrase that describes a numerical quantity.
 Numerals may be seen as their own part, or as an abstract concept that may be instantiated by different parts of speech.
@@ -956,7 +951,7 @@ Numerals are typically constructed via a counting system.
 Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
 due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
 
-##### japanese
+### japanese
 
 In japanese grammar, measure words are typically called counters.
 In japanese grammar, measure words are required for any numeral and when asking for quantities.
@@ -1003,13 +998,13 @@ Counters
 
 日|か|days|訓 (exception 一日：ついたち)
 
-#### interrogative word
+## interrogative word
 
 An interrogative word or particle is a word used to create a kind of interrogative sentence.
 Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
 An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
 
-#### demonstratives
+## demonstratives
 
 demonstrative determiners usually map onto the spatial/discourse deixis distinction
 Demonstratives usually come in two flavors, demonstrative determiners and demonstrative pronouns, which may or may not be derminers depending on your theory.
@@ -1024,7 +1019,7 @@ distal|aquel, aquellos|aquella, aquellas|aquello
 
 Neuter forms do not change for number.
 
-##### Japanese
+### Japanese
 
 In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
 The japanese deictical morphemes collectively are known as こそあど.
@@ -1039,14 +1034,14 @@ demonstrative pronoun (things)|~れ
 
 the demonstrative determiners この、その… are originally abbreviations of これの、それの….
 
-#### posessive
+## posessive
 
 A posessive is a word or form indicating poession,
 Many languages (of those I speak: en, de, es) indicate a posessive via a set of possessive determiners and pronouns.
 Many languages also have a posessive verb, e.g. en/de have/haben, es tener.
 In japanese, the job of the posessive verb is done by extential verbs/clausees.
 
-### ordination
+# ordination
 
 Coordination/subordination may imply different semantic relationships between the conjuncts.
 illative|presents a consequence
@@ -1063,13 +1058,13 @@ temporal|
 
 In english, coordination/subordination is most often performed by conjunctions.
 
-#### coordination
+## coordination
 
 Coordination is the process of linking two things of the same type.
 The two things linked via coordination are called conjuncts.
 The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
 
-#### subordination
+## subordination
 
 Subordination is linking two things (maincly clauses), where one depends on the other.
 A complement clause is an argument of a predicate.
@@ -1078,7 +1073,7 @@ A complementizer turns a clause into the subject or object of a sentence.
 In english, the complementizer 'that' sometimes is unpronounced
 Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
 
-### parts of speech
+# parts of speech
 
 A part of speech/word class is a category of words with similar grammatical properties.
 Part of speech is synonymous with word class.
@@ -1103,20 +1098,20 @@ lexical category|some sort of semanting content|V, N, A, Adv...
 A word that is a member of a functional category is called a function word.
 A word that is a member of a lexical category is called a content word.
 
-#### particle
+## particle
 
 A particle is a function word (member of a functional category) which cannot be inflected.
 A particle occurring at the end of the sentence is a sentence-final particle.
 Particles do not refer.
 Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
 
-#### Interjections
+## Interjections
 
 An interjection is a lexical item that indicates a reaction. 
 Interjections are pretty separated from the rest of the syntax of the sentence.
 Interjections are a syntactic category, while discourse marker is a pragmatic category.
 
-#### adjective
+## adjective
 
 An adjective (phrase) describes a thing or restricts its referent.
 Adjective phrases in english can exist syyntactically in three ways: an attributive adjective, a predicative adjective and a nominalized adjective.
@@ -1124,32 +1119,32 @@ An attributive adjective phrase is adjoined to an NP.
 A predicative adjective phrase has the adjective phrase as the complement of the verb.
 A nominalized adjective works as the head of an NP.
 
-#### adverb
+## adverb
 
 In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
 Adverbial phrases describes the thing its modifying.
 Adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
 
-#### noun
+## noun
 
 Nouns are heads of NPs.
 NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
 If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
 
-##### attribution
+### attribution
 
 In grammar, something attributive is a phrase within a NP/DP that modifies the head noun. 
 Adnnominal seems to be a synonym for attributive
 In english, relative clauses and attributive adjectives are the main things that act attributively.
 A verb that can be used attributively is known as an attributive verb.
 
-#### det
+## det
 
 A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
 Often, for any given pronoun, there is a similar or identical determiner
 Types of determiners: Articles, Demonstrative determiners, Quantifiers, distributive determiners, interrogative determiners
 
-##### Quantifier
+### Quantifier
 
 Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
 quantifiers are adjoined to the DP/NP to form a larger DP/NP.
@@ -1161,15 +1156,15 @@ Floating quantifier is a quantifier that is not immediately near the NP/DP it qu
 According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
 The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
 
-##### Articles
+### Articles
 
 Examples of Articles in EN: the, an, a
 
-##### posessive determiners
+### posessive determiners
 
 my, your, his, her, its, our, their
 
-#### adpositions
+## adpositions
 
 An adposition may either be a preposition, circumposition or a postposition.
 semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
@@ -1178,11 +1173,11 @@ Intransitive adpositions are often called adverbs, though that's probably an inf
 Intransitive adposition examples: here/everywhere/downstairs/ahead/outside/...
 Transitive adpositions may take other adpositions as complements.
 
-#### conj
+## conj
 
 Conjunctions either perform coordination or subordination.
 
-#### proforms
+## proforms
 
 Proforms are function words that stand in for another constituent.
 DP/NP|Pronouns
@@ -1192,19 +1187,19 @@ Temporal adposition|then
 Spatial adposition|there
 other adposition|none exists
 
-##### pronouns
+### pronouns
 
 Pronouns are proforms that stand for NPs, or DPs if we believe in them, not for nouns themselves.
 
 A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
 Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
 
-###### personal
+#### personal
 
 Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
 
 
-#### copula (and existential verbs)
+## copula (and existential verbs)
 
 A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
 The tree ☞is☜ blue.
@@ -1219,16 +1214,16 @@ ja|だ|ある・いる
 Some languages distinguish different existential verbs for different semantic categories.
 Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
 
-#### verbs
+## verbs
 
-##### dynstat
+### dynstat
 
 Dynamic and static verbs are often contrasted.
 A dynamic verb is a verb that describes an action.
 A stative (unclear relation to stative aspect) verb is a verb that descirbes a state.
 setzen is a dynamic verb while sitzen is a dynamic verb.
 
-##### aux
+### aux
 
 Non auxiliary verbs are called lexical verbs.
 auxiliary verb is frequenly abbreviated auxiliary.
@@ -1241,23 +1236,23 @@ dummy do is do used as an auxiliary verb.
 using dummy do is called do-support
 do-support is used when an axuliary verb is syntactically required but none is present.
 
-#### changing parts of speech
+## changing parts of speech
 
-##### nominalization
+### nominalization
 
 Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
 A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
-### phon
+# phon
 
-#### phonology
+## phonology
 
 Phonology is a branch of linguistics that studies the sound systems of lects = how lects organize their sounds.
 
-##### morphophonolgy
+### morphophonolgy
 
 Morphophonology studies the interaction between morphology and phonology/phonetics.
 
-###### sandhi
+#### sandhi
 
 Sandhi is a cover term for sound changes that happen at morpheme/word boundaries
 Sandhi is a part of morphophonology.
@@ -1265,11 +1260,11 @@ Japanese exhibits two forms of sandhi, 連濁 and 連声.
 連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n‹vowel›/
 てんおう → てんのう is an example of 連声
 
-##### segmental phonology
+### segmental phonology
 
 Segmental phonology is concerned with the analysis of speech into phonemes.
 
-###### phonemic contrast
+#### phonemic contrast
 
 two phones (/etic units)...
 appear in the same phonetic (/emic) environment|don't appear in the same phonetic (/emic) environment
@@ -1289,9 +1284,9 @@ If two phones (/etic units) which normally are contrastive/phonemic occur in a p
 
 Free variation is free in the sense that it does not mark a difference in semantics/grammar, but not free in the sense that variants in free variation may have social significance, making them variants in a sociolinguistic variable.
 
-###### the syllable
+#### the syllable
 
-####### structure
+##### structure
 
 
 table:headerrows=0;style=min-width: 15em;!span=3;⟮σ/syllable⟯
@@ -1323,11 +1318,11 @@ Using spaces in the IPA implies a syllable break, if you want to prevent this, u
 
 The part of the syllable called the rhyme is called that because it's the part that's often used for rhymes.
 
-###### morae
+#### morae
 
 A mora is a unit of equal timing.
 
-##### suprasegmental phonology
+### suprasegmental phonology
 
 suprasegmentals/prosodic features are properties of syllables and larger units of speech.
 suprasegmental = prosodic feature
@@ -1337,19 +1332,19 @@ prosody is also sometimes used in a more narrow sense as a synonym to metre in p
 
 
 
-######  types of prosodic features
+####  types of prosodic features
 
 The main prosodic features are intonation, tone, stress, tempo.
 Many phenomena of prosody have to do with syllables.
 
-####### stress
+##### stress
 
 In linguistics, and particularly phonology, stress or accent is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
 The IPA distinguishes between primary and secondary stress, the symbol follows polish notation in both casees.
 primary stress|ˈ (ˈa; sɐˈbiɐ)
 secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
 
-####### tone & intonation
+##### tone & intonation
 
 Tone is the use of pitch in language to distinguish lexical or grammatical meaning.
 In linguistics, intonation is variation in spoken pitch when used, not for distinguishing words as sememes (a concept known as tone), but, rather, for a range of other functions.
@@ -1371,11 +1366,11 @@ phenomenon|symbol
 Why does it make sense to have a downstep at the end of a word?  ⟮Because any attached morphemes will inherit the downstep⟯
 What does the downstep arrow apply to?  ⟮Everything after it⟯
 
-####### speech tempo
+##### speech tempo
 
-####### rythym
+##### rythym
 
-######## isochrony
+###### isochrony
 
 Isochrony is question of which linguistics units occupy equal time.
 There are three broad ways languages can be isochronically.
@@ -1383,25 +1378,25 @@ The three isochronic types are: syllable-timed, mora-timed, and stress-timed.
 The three isochronic types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
 Isochrony is one of the main ways language's prosody is categorized in linguistic typology.
 
-######### isochronic types
+####### isochronic types
 
 table:unit which occupies equal time|name
 syllable|syllable-timed
 mora|mora-timed
 interval between two stressed syllables|stress-timed
 
-######## feet
+###### feet
 
 The basic rythmic unit of indo-european poetry is a foot.
 
-######### number of feet
+####### number of feet
 
 Meter|Number of feet
 ⟮Trimeter⟯|⟮3⟯
 ⟮Tetrameter⟯|⟮4⟯
 ⟮Pentameter⟯|⟮5⟯
 
-######### type of feet
+####### type of feet
 
 Foot|Pattern|Mnemonic
 ⟮Iamb⟯|⟮daDA⟯
@@ -1418,23 +1413,23 @@ Foot|Pattern|Mnemonic
 ⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
 「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
 
-####### pause
+##### pause
 
 In the IPA, | and ‖ both mark prosodic breaks.
 In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
 In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
 In poetry, often the slash is used to mark line breaks.
 
-####### chunking
+##### chunking
 
 
-###### changes in sounds
+#### changes in sounds
 
 Changes in sounds may be for sound changes (diachronic changes in a sound system), alternation between allomorphs by a speaker, or apophony.
 Apophony is sound change within a word to indicate a grammatical feature ≈ sound change within a word due to inflection.
 Types of changes in sounds (whether for sound change, alternation, or apophony) may amongst others be elision, epenthesis, metasthesis, lenition/fortition, transphonologization or assimilation/dissimilation.
 
-####### Elision
+##### Elision
 
 In linguistics, an elision or deletion is broadly defined as the omission of one or more sounds (such as a vowel, a consonant, or a whole syllable) in a word or phrase. However, it is also used to refer more narrowly to cases where two words are run together by the omission of a final sound.
 Syncope, apocope and apheresis are most commonly of unstressed vowels.
@@ -1444,13 +1439,13 @@ Apocope is a form of elision which is the loss of a sound from the end of a word
 Apheresis is a form of elision which is the loss of a sound from the beginning of a word
 Haplology is a form of elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
 
-####### Epenthesis
+##### Epenthesis
 
 Epenthesis is the addition of a sound to the word.
 prothesis is epenthesis at the beginning of the word.
 paragoge is epenthesis at the end of the word.
 
-####### Metathesis
+##### Metathesis
 
 Metathesis is the transposition/switcharoo of sounds or syllables in a word or sentence:
 
@@ -1459,30 +1454,30 @@ ane☞mone☜ → ane☞nome☜
 Methathesis of non-adjcancent sounds is sometimes known as hyperthesis/long-distance metathesis
 pa☞r☜abo☞l☜a (latin) → pa☞l☜ab☞r☜a
 
-####### Lenition/Fortition
+##### Lenition/Fortition
 
 Lenition moves sounds up the sonority hierarchy (more sonorous)
 Lenition moves sounds down the sonority hierarchy (less sonorous)
 
-####### Transphonologization
+##### Transphonologization
 
 Transphonologization is the change of a phonemic contrast so that the contrast is preserved, but the distinctive feature it is based on changes.
 
 For example, a language contrasting two words */sat/ vs. */san/ may evolve historically so that final consonants are dropped, yet the modern language preserves the contrast through the nature of the vowel, as in a pair /sa/ vs. /sã/. Such a situation would be described by saying that a former contrast between oral and nasal consonants has been transphonologized into a contrast between oral vs. nasal vowels. 
 
-####### Assimilation/Dissimilation
+##### Assimilation/Dissimilation
 
 Assimilation is a sound change in which some sounds change to become more similar to other nearby sounds. 
 Dissimilation is a sound change in which some sounds change to become less similar to other nearby sounds. 
 Example of assimilation: English "handbag" (canonically /ˈhændbæɡ/) is often pronounced /ˈhæmbæɡ/ in rapid speech 
 
 
-###### phonotactics
+#### phonotactics
 
 Phonotactics is a branch of phonology that deals with the permissible combinations of phonemes.
 
 
-#### phonetics
+## phonetics
 
 Phonetics is a branch of linguistics that studies the properties, production and perception of speech sounds, or in the case of sign languages, the equivalent aspects of sign.
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
@@ -1493,7 +1488,7 @@ acoustic phonetics|acoustic effects on speech sounds
 Unit of interest: phones
 
 
-##### distinctive feature
+### distinctive feature
 
 distinctive features are features that describe binary phonetic values.
 Distinctive features are *relevant* for phonemic contrast in phonetics.
@@ -1503,11 +1498,11 @@ Distinctive features are typically grouped into major class features, manner fea
 Major class features are a group of four features that share little in common phonetically, but describe the overall type of a phone.
 The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
 
-###### IPA
+#### IPA
 
 
 
-##### anatomy
+### anatomy
 
 The laryx containes the vocal cords/folds, the gap between which is called the glottis.
 The vocal tract is all the anatomy above the laryx used for speech production.
@@ -1520,7 +1515,7 @@ https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
 The buccal cavity is the space between the teeth and the cheeks.
 The oral cavity aka the mouth is the space between the pharynx and the lips.
 
-##### consonants
+### consonants
 
 The difference between consonants and vowels is that for vowels, the vocal tract is less narrowed than for consonants.
 Whether something is a consonant is described by the major class feature [+/- consonantal]
@@ -1528,7 +1523,7 @@ There exist voiceless nasals, but no extra IPA symbols for them (they must be di
 Whether voiceless approximants exist is controversial
 Consonants are traditionally categorized by their manner and place of articulation as well as their voicing.
 
-###### signeltons and geminates
+#### signeltons and geminates
 
 Singleton and geminate are two types of consonates distinguished by consonant length.
 A geminate consonant is articulated for longer than a singleton.
@@ -1543,7 +1538,7 @@ In japanese, non-phonemic gemination implies emphasis (not in all varieties thou
 In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
 If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
 
-###### Coarticulation
+#### Coarticulation
 
 Co-articulated consonants are consonants produced with two or more simultaneous places of articulation.
 
@@ -1572,17 +1567,17 @@ flex-container:✫sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg✫✫sm_
 
 Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
-###### IPA mnemonics
+#### IPA mnemonics
 
 Progression of voiceless stops (palatal, velar, uvular)?  ckq]
 
-##### mechanics
+### mechanics
 
 Speech production is the process by which thoughts are translated into speech.
 Speech production is not the same as language production since language can also be produced manually by signs. 
 The phonetic part of speech production is divided into three parts, which are sequentially initiation, phonation and articulation.
 
-###### initiation
+#### initiation
 
 Initation is the production of the airstream that will constitute the produced sound.
 The organ generating the airstream in initation is called the initiatior.
@@ -1603,11 +1598,11 @@ Outside of pulmonic consonants, to create an airflow, there needs to be two clos
 
 The combination of the three common initiators plus egressive/ingressive produces six possible combinations. However, lingual/velaric egressive and pulmonic ingressive are not commonly used.
 
-####### pulmonic
+##### pulmonic
 
 Pulmonic egressive initiation is the most common form of initiation, and 75% of languages, including indo-european languages, only feature speech sounds with pulmonic egressive initiation.
 
-####### glottalic
+##### glottalic
 
 In glottalic initiation, the glottis is moved, a closure is produced at the desired place of articulation, the glottis is moved again to create pressure, and then the closure is released.
 For egressive glottalic initiation, the glottis is lowered, the closure is produced at the desired place of articulation, then the glottis is raised, building up pressure, and then the closure is released.
@@ -1619,7 +1614,7 @@ implosives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
 
 Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
 
-####### velaric
+##### velaric
 
 In velaric/lingual (ingressive, egressive does not exist) initiation, a closure is produced at the velum, and then a second one at the desired place of articulation. the tongue's body is lowered, and thus suction is created. the frontmost closure is then released.
 lingual aka velaric ingressive initiation produces sounds known as clicks.
@@ -1635,7 +1630,7 @@ Mnemonics/Rules
 The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
 
 
-###### phonation
+#### phonation
 
 The laryngeal features are features that describe how the larynx is involved in speech production.
 The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
@@ -1674,14 +1669,14 @@ During breathy voice the vocal folds vibrate, but allow more air to escape.
 Breathy voice has [+spread glottis] [+voiced]
 Breathy voice is indicated in the IPA as ［◌̤］.
 
-###### articulation
+#### articulation
 
 Articulation is the shaping of airflow to get a sound.
 An articulator is a feature within the vocal tract that is used for articulation.
 An active articulator moves to create a speech sound, a passive articulator stays put.
 Most often it is the combination of an active and a passive articulatior that performs articulation.
 
-####### Liquids
+##### Liquids
 
 rhotic consonants are r-like consonants.
 Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
@@ -1690,14 +1685,14 @@ Liquid consonants are grouped because they often behave similar phonotactically.
 Which phoneme the japanese liquid is is completely unclear:
 Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
 
-####### Place of articulation
+##### Place of articulation
 
 The place of articulation is where the obstruction between the articulators occurs.
 While the glottis is often seen as a place of articulation, it is involved in phonation at the same time. 
 The place of articulation is described by the place distinctive features.
 The place of articulation is in theory described by two positions, the position of the passive and the active articulator, however, most active/passive combinations have their own names.
 
-######## Passive place of articulation
+###### Passive place of articulation
 
 
 
@@ -1714,7 +1709,7 @@ all uvular voiced sounds have small-caps IPA symbols
 While pharyngeal and epiglottal sounds are sometimes distinguished, there seems to be no clear basis for distinction.
 Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
 
-######## Active place of articulation
+###### Active place of articulation
 
 The active place of articulation is roughly divided into labial, coronal, dorsal, radical and laryngeal consonants.
 Labial consonants are consonants articulated with the lower lip as the active articulator.
@@ -1731,7 +1726,7 @@ marking a given sound as articulated with dental as its place of articulation   
 marking a given sound as laminal   ◌̻ (a square is lame)
 marking a given sound as apical   ［◌̺］
 
-####### mapping
+##### mapping
 
 While the term retroflex implies that the tongue is actually curled back so that it is subapical at the hard palate, in fact it is often merely apical postalveolar.
 palato-alveolar also means the tongue is domed up
@@ -1754,12 +1749,12 @@ Pharynx|class="no";|class=no;|class=no;|class=no; |class=no;|pharyngeal|class=no
 Epiglottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|(ary-)epiglottal
 Glottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|glottal
 
-####### Manner of articulation
+##### Manner of articulation
 
 The manner of articulation is the configuration of articulators when producing a speech sound.
 The manner of articulation is described by the manner distinctive features [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release], plus the major class distinctive features.
 
-######## stops
+###### stops
 
 While stop or occlusive may often refer to merely the oral variety, nore properly they refer to any consonant where the airflow is blocked in the vocal tract, but not necessarily in the nasal tract.
 Oral occlusives/stops are occlusives/stops, but so are nasal stops, implosives, ejectives, click consonants and affricates to a certain extent.
@@ -1768,13 +1763,13 @@ stops build up pressure, which needs to be released.
 The opposite of a stop or occulusive is a continuant.
 Whether something is a stop or continuant is indicated by the distinctive feature [+/- continuant]
 
-######## lateral consonants
+###### lateral consonants
 
 A lateral is a consonant in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
 Whether something is lateral is described by the feature [+/- lateral]
 Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
 
-######## Nasals 
+###### Nasals 
 
 A nasal sound is one where velum is lowered to allow air to escape through the nose.
 Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
@@ -1789,14 +1784,14 @@ While manner of articulation is typically only applied to consonants, the distin
 Speech sounds are either sonorants or obstruents.
 Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
 
-######## Sonorants
+###### Sonorants
 
 A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
 Sonorants that are not voiced are existant but rare.
 Sonorants may be said to be made up of approximants in the wide sense and nasals.
 Sonorants may be said to be made up of approximants in the narrow sense, vowels, and nasals.
 
-######## Approximants
+###### Approximants
 
 An approximant is a distinctive feature that encompasses all sonorants except nasals.
 In a more narrow definition, approximants are speech sounds that involve the articulators approaching each other but not narrowly enough nor with enough articulatory precision to create turbulent airflow. 
@@ -1805,7 +1800,7 @@ Although "semivowel" and "approximant" are sometimes treated as synonymous, most
 Not only are semivowels not syllabic, they are are also closer/a type of approximant.
 
 
-####### vowels
+##### vowels
 
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
 The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
@@ -1817,7 +1812,7 @@ r-colored vowels are uncommon crosslinguistically, but common in two of the most
 rhotatication is indicated ［◌˞］ or by a superscript turned r ［ʴ］
 the vowel written ə is called schwa
 
-######## monopthongs/dipthongs
+###### monopthongs/dipthongs
 
 Monopthong and dipthong are two kinds of vowels often distinguished.
 A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
@@ -1825,7 +1820,7 @@ A dipthong is a vowel sound that changes between two vowels during articulation 
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
 
-######## IPA chart
+###### IPA chart
 
 table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
 type=th;⟮c+;s1:10;Close⟯| ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯ |⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯ |⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
@@ -1874,14 +1869,14 @@ the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
 ɶ is lower in the vowel chart than œ.
 The rounded near-back near-close vowel looks like the ひ kana.
 
-####### obstruents
+##### obstruents
 
 An obstruent is a speech sound that is produced by obstructing airflow.
 For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
 All obstruents are consonants, but consonants may also be sonorants
 Obstruents are either plosives,  fricatives or affricates.
 
-######## oral occlusives
+###### oral occlusives
 
 A plosive/oral occlusive/oral stop is an obstruent consonant in which an occlusion in the vocal tract is formed that stops all airflow.
 Plosives are also called oral occlusives or oral stops.
@@ -1898,21 +1893,21 @@ Oral stops with nasal release release the stop into some sort of lateral consona
 
 
 
-######## fricatives
+###### fricatives
 
 A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
 The turulent airflow produced for the formation of fricatives is called frication.
 Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth, resulting in higher amplitude and pitch, sibilants are a further subset of these.
 Stridency is encoded in the distinctive feature [+/- strident]
 
-######## affricates
+###### affricates
 
 An affricate is an obstruent consonant that begins as a stop and releases as a fricative, generally with the same place of articulation.
 Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
 p͡f, t͡ɕ etc.
 Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
 
-######## consonant IPA
+###### consonant IPA
 
 table:class=yesno;place (active) →|span=4;Labial|span=8;Coronal|span=2;Dorsal|span=2;Dorsal (rarely coronal)|span=2;Dorsal|span=2;Radical/​Ary­epiglottal|span=2;Ary­epiglottal
 Place (active + passive) →|span=2,2;Bi­labial|span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar|span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​epi­glottal|span=2,2;Glottal
@@ -1946,7 +1941,7 @@ Uvular trill and fricative both feature variants of the smallcaps R as their IPA
 phones with a c in their IPA symbol all have a passive place of articulation of palatal, and are voiceless.
 In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
 
-####### relative articulation
+##### relative articulation
 
 In phonetics and phonology, relative articulation is description of the manner and place of articulation of a speech sound relative to some reference point. 
 Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
@@ -1969,305 +1964,37 @@ mid-centralized|［◌̽］
 Advanced Tongue Root   ［◌̘］
 Retracted Tongue Root   ［◌̙］
 
-##### IPA
+### IPA
 
 If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
 For vowels, ［◌ˑ］ indicates a half-length vowel, while ［◌̆］ indicates an extra-short vowel.
 For vowels and consonants both, ［◌ː］ indicates something that is longer, for consonants specifically it indicates gemination
 Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮happy⟯ ［◌̆］
 
-### Semantics
+# Semantics
 
-Semantics is the field of linguistics that studies the meaning of things, esp. those things per se.
-The capacity of something to have many meanings   Polysemy
+Semantics is the field of linguistics that studies sememes.
 
-#### concepts
+## lexemes holding sememes
 
-##### concept hole
+### lexical semantics
 
-A »concept hole« is an uncommon term for the need of certain concept, but there not being a word for it.
+Lexical semantics is concerned with the relationships between lexemes and sememes
 
-#### nouns
+### types
 
-As regards their referents, proper and common nouns are often contrasted.
-A proper nouns is a nouns that refers to a single entity or group of entities considered unique.
-A common noun is a noun that refers to a class of entities or a member of that class.
-In English, proper nouns generally but not always don't take an article, and generally but not always are singular.
-In English, proper nouns are capitalized.
+#### lexicology
 
-### metaphor
+Lexicology is the study of lexemes and lexica (collections of lexemes)
 
-onion-box:
-⟮metaphor (wide sense)⟯
-  ⟮metaphor (narrow sense)⟯
-  ⟮simile⟯
 
-
-⟮Metaphor (in the wide sense⟯) is about ⟮putting a thing in the terms/concepts/world of another⟯, which is ⟮(relevantly) not the same⟯, and thus ⟮invoking a comparison⟯. 
-A ⟮simile⟯ is ⟮a subtype of⟯ ⟮metaphor in the wide sense⟯, with the added stipulation that ⟮the 'putting in the terms of another'⟯ is done by ⟮words such as like, as, etc.⟯ 
-⟮A metaphor in the narrow sense⟯ is ⟮a metaphor in the wide sense⟯ with the restriction that ⟮it does not use comparative words⟯, but instead ⟮directly refers to one thing in terms of another⟯ 
-All the world's a stage is a metaphor in ⟮both the wide and narrow sense.⟯ 
-
-#### figures of speech
-
-A metonym is when something is referred to by the name of something closely associated with that thing.
-Synechdoche is a form of metonymy where a part refers to a whole of something or a whole to one of its parts.
-Pars pro toto is synechdoche where a part refers to a whole.
-Individual body parts are often used to refer to an entire body, constituting a pars pro toto: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
-Totum pro parte is synechdoche where a whole refers to its part.
-An example for a totum pro parte is the word America for the United States.
-
-#### reference
-
-In semantics, a modifier is said to be restrictive if it restricts the reference of its head.
-Relative clauses generally are restrictive.
-
-#### Thematic/Semantic role
-
-Semantic role aka thematic role aka theta role.
-In the grammar taught in school grammatical relations and semantic roles are often conflated, but in fact these are orthogonal to each other.
-
-Agent, patient, theme, instrument ... 
-AGENT|volitional initiator|RAM broke the window with a stone
-INSTRUMENT|Means of action|Ram broke the window with A STONE
-PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
-THEME|undergoes action, does not change state
-
-#### semantic relations
-
-##### hyper hypo
-
-A hyponym is a more specific term than its hypernym.
-A hypernym ⊃ a hyponym 
-[⟮hypernym⟯ [⟮c;hyponym⟯
-“Musical instrument” is a ⟮hyper(o)nym⟯ of “guitar” because a guitar is a musical instrument.
-A hyponym that is the same word as its hypernym is ⟮An autohyponym⟯
-A hypernym meant to be a hypernym for a specific set of terms|a cover term
-A hypernym may also be called an umbrella term or a blanket term.
-
-##### holo mero
-
-A holonym denotes a whole.
-A meronym denotes a part.
-seatbelt is a meronym of (e.g.) car which is its holonym.
-A holonym can be explained by listing its meronyms unless it is a gestalt.
-
-### Pragmatics
-
-Pragmatics is the subfield that studies how context contributes to meaning.
-
-In linguistics, a phatic expression is communication which serves a social function, not a semantic one.
-
-#### backchanneling
-
-In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
-Backchannel responses are often phatic expressions.
-
-Japanese backchannels are called 　相（あい）　槌（づち）.
-　相（あい）　槌（づち） are quite common in japan.
-
-#### Discourse markers
-
-An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
-A discourse marker is not itself a part of speech, rather, other words or phrases, frequently though not always interjections take on the pragmatic form of a discourse marker.
-
-#### Speech acts
-
-Speech act theory is the field studying speech acts.
-A speech act includes everything that happens when a speaker utters a utterance.
-The idea of speech acts was popularized by JL Austin in How to Do Things with Words (1962).
-
-##### Austins orig distinction
-
-The original distincition Austin made before he arrived at speech acts was between ⟮constative and performative utterances⟯ utterances.
-constative utterances (=constatives)|have a truth value, state a fact
-performative utterances (=performatives)|do something else besides state a fact
-In austins original distinction, the hereby criterion was used to determine if something was a performative.
-An utterance is performative according to the hereby-criterion, if inserting the word hereby into the sentence ⟮Basically preserves the meaning⟯
-「I promise to pay you 50$ tomorrow.」 is performative? ⟮c+;「I hereby promise to pay you 50$ tomorrow.」 → works → performative⟯
-「The cat is on the mat.」 is not performative?  「The cat is hereby on the mat.」 → has changed the meaning → not performative (constative)
-Problematically for austins original distinction, a sentence can both performative and constative.
-
-##### Austins later distinction
-
-Later, austin moved to a distinction between locutionary, illocutionary and perlocutionary speech acts.
-According to austin, each utterance has a locutionary and illocutionary act attached to them, even if the illlocutionary act may only be that of asserting.
-locutionary act|comprised of the performance of an utterance in all its phonological, syntactic and semantic aspects
-the illocutionary act is what one does **in** saying something.
-Examples of illocutionary acts: announcing; assuring; authorizing; censuring; committing; complimenting; conceding; confessing;...
-the perlocutionary act is what has done due to the consequences of saying something.
-the perlocutionary act depends of the reaction of the hearers, the illocutionary act does not.
-Examples of perlocutionary ac
-a locutionary, illocutionary or perlocutionary act has a locutionary, illocutionary or perlocutionary force attached.
-Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
-Illocutionary and perlocutionary acts try to achieve some perlocutinary effect.
-
-###### types of illoc acts
-
-Austin distinguished 5 different types of illocutionary acts: verdictive, commissive, exercitive, expositive, behabitives
-Searle critizised austins distinction of 5 different type of illocutionary acts for it being unclear on what the distinction is actually based.
-
-give a judgement   verdictive
-comitting oneself to a course of action   commissive|promising, betting
-exercising power/influence   exercitive|excommunicating, resigning
-explaining the relationship to larger discourse (lines of reasoning)   expositivies|postulating, defining
-regulating social relationships   behabitives|toasting, apologizing
-
-#### implicature
-
-in the linguistic field of pragmatics, an ⟮inference⟯ (generally an ⟮implicature⟯) is said to be ⟮defeasible⟯ or ⟮cancellable⟯ if ⟮it can be made to disappear (e.g. by saying something contradictory⟯.
-
-##### gricean
-
-Implicature is a term introduced by Grice which is whatever a person implied/meant by saying something else.
-According to grice, implicatures may be conventional or nonconventional.
-
-###### conventional
-
-conventional implicatures are what a sentence entails due ot the conventional meaning of the words involved in the sentence, some people have argued these are merely entailments.
-Grice: the conventional implicature of "The die is green and heavy" is "The die is green" (as well as "The die is heavy")
-
-###### nonconventional
-
-A nonconventional implicature is an implicature which is not conventional.
-the type of nonconventional implicatures that Grice elaborates on is conversational implicature.
-
-####### conversational
-
-CP = Cooperative Principle
-Conversational implicatures are generated by the cooperative principle.
-CP: "Make your conversational contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged."
-
-######## generation via the CP
-
-Conversational implicatures are generated when the speaker is presumed to be observing the CP and its maxims, and yet they have said something that seems to be violating the CP.
-The generation of implicatures may take 3 forms:
-1. supposition of implicature makes statement actually consistent with the CP, even though it did not seem so at first.
-2. If the CP wouldn't have been violated by violating the Maxim M1, the maxim M2 would have been. Ergo we may deduce IMPLICATURE and are consistent with the CP
-3. the thing the person is saying could not possibly be consistent with the CP, ergo we can assume something completely different as an implicature and be consistent with the CP again (flouting)
-
-Via grice's definition, violating the CP at the level of what was said is necessary to conversationally implicate.
-However one can also violate the CP but not generate true conv. implicatures: either in a way that indicates one is opting out of the CP completely (= cancellability), or without indicating that one is doing violating it, and thus (since the person still goes through the working-out schema) probably mislead the listener.
-
-######## grice's razor
-
-grice's razor is the motivation for positing conversational implicatures rather than additional senses or different entities.
-Grice's razor: ceteris paribus it is better to postulate conversational implicatures rather than senses (or different entities) because they can be derived from independently motivated psychosocial principles.
-
-######## maxims
-
-To make the conversational contribution such as is required [...], Grice suggests the four Maxims.
-The four maxims (and component submaxims) that Grice presents as governing cooperativeness are the maxims of 
-Quantity (Make your contribution as informative as required), 
-Quality (Try to make your contribution one that is true); Submaxims: 
-  1) Do not say what you believe to be false
-  2) Do not say that for which you lack adequate evidence
-Relation (Be relevant)
-Manner (Be perspicous)
-  1) Avoid obscurity
-  2) Avoid ambiguity
-  3) Be brief
-  4) Be orderly
-Grice does admit that there might be other maxims (e.g. politeness) besides his four at work when talking, but says they are not relevant for generating implicatures to the same extent/in the same way
-⊐⊐ is sometimes used as "is predicted as an implicature by the CP and its maxims"
-⊐ is used e.g. by Davis as "implicates"
-
-######### quantity
-
-A ⟮quantity implicature⟯ is often seen as a synonym with ⟮scalar implicature⟯, but may more properly be ⟮a blanket/umbrella term⟯ for ⟮all implicatures generated using the maxim of quantity⟯, including ⟮clausal implicatures⟯.
-A scalar implicature is where a less informative statement implicates the deinial of a more informative statement.
-Scalar implicatuers are explained by grice via the violation of the maxim of quantity, and thus the supposion of the implicature is necessary to make it consistent with the CP.
-
-########## implicational scale
-
-In the context of ⟮pragmatics⟯, ⟮Implicational scale⟯ has a somewhat different meaning, referring to ⟮the scales⟯ from ⟮weaker to stronger⟯ statements that are used in ⟮quantity implicatures⟯
-```lang=text;
-{all, most, many, some}
-{always, often, sometimes}
-{succeed in, try to, want to}
-{certain, probable, possible}
-```
-
-#### Reference
-
-##### Deixis
-
-What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮deictic⟯
-
-###### vs. indexicality
-
-Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
-Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
-
-###### types of deixis
-
-Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
-
-Would ☞you☜ like to have dinner?|personal deixis
-She was sitting over ☞there☜.|spatial deixis
-It is raining ☞now☜.|temporal deixis
-I enjoy living in ☞this☜ city.|spatial deixis
-☞I☜ am going to the movies.|personal deixis
-
-####### spatial deixis
-
-Spatial deixis often as two or three distances, rdepending on the language.
-A language with two values for spatial deixis has the values proximal and distal.
-For a language with two values for spatial deixis, proximal is close(r) to the speaker and distal is far/further from the speaker.
-A language with three values for spatial deixis has the values proximal, medial, and distal.
-For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
-Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
-
-###### *phora
-
-*phora is about the reference of an expression.
-*phora is a form of deixis.
-
-####### types of *phora
-
-onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
-
-
-table:phora|reference depends on
-Exophora|reference of expression depends on outside of the text
-Endophora|reference of expression deptends on something in the text
-Anaphora|form of endophora where referent depends on something before it
-Cataphora|form of endophora where referent depends on something after it
-
-####### endophora
-
-In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
-Most often, *phora is created by proforms.
-Anaphora is sometimes also used as a synonym to endophora.
-"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
-
-######## binding
-
-In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
-
-#### Hedge
-
-a hedge is a word or phrase used in a sentence to express ambiguity, probability, caution, or indecisiveness about the remainder of the sentence, rather than full accuracy, certainty, confidence, or decisiveness.
-
-### language grouping
-
-Cover term for language, dialect, lect, family, etc|
-
-### lexicography
-
-Lexicography is the study of lexemes and lexica (collections of lexemes)
-
-#### practical lexicography
+#### lexicography
 
 Practical lexicography is compiling, writing and editing dictionaries.
 
 The headword is the word ⟮under which dictionary entries appear⟯
 The form of a lexeme used as a headword is usually its lemma.
 Sometimes lemma and headword are used synonymously.
-
-#### theoretical lexicography
-
-Theoretical lexicography is the study of features of lexemes and lexica.
 
 #### terminology
 
@@ -2309,9 +2036,302 @@ given name (female)|ja|花子
 family name|en|doe
 family name|ja|山田
 
-### Cognitive linguistics
+### semantic relations
 
-#### conceptual metaphor
+lexical relations = semantic relations.
+Semantic relations is concerned with how the sememes expressed by different lexemes relate to eeach other.
+The most common types of semantic relations are those relating to sub/superset, to whole and part, to multiple meanings or to opposite meanings
+
+#### same/opposite meaning (and related concepts)
+
+name|meaning|pronunciation/spelling
+synonyms|same|different
+antonym (wide)|opposite|?
+antonym (narrow)|opposite|different
+auto-antonym|opposite|same
+polyseme|different but related|same
+homonym|different|same
+
+homograph and homophone are hyponyms of homonym, distinguishing spelling and pronunciation.
+Both homograph and homophone themselves exhibit polysemy: either pronunciation/spelling may be different or not, or must be.
+A homograph is a word that means something different but is spelled the same, it may or must (depending on source) be pronounced differently.
+A homophone is a word that means something different but is pronounced the same, it may or must (depending on source) be spelled differently.
+
+A sense of a lexeme is one of the sememes it is associated with.
+Senses of lexemes are related.
+If one encounters two senses of the same lexeme that are unrelated, there are actually two unrelated lexemes which are homonyms.
+Polysemy is the property of a lexeme of having multiple senses.
+
+#### sub/superset
+
+A hyponym is a more specific term than its hypernym.
+A hypernym ⊃ a hyponym 
+[⟮hypernym⟯ [⟮c;hyponym⟯
+“Musical instrument” is a ⟮hyper(o)nym⟯ of “guitar” because a guitar is a musical instrument.
+A hyponym that is the same word as its hypernym is ⟮An autohyponym⟯
+A hypernym meant to be a hypernym for a specific set of terms|a cover term
+A hypernym may also be called an umbrella term or a blanket term.
+
+#### part/whole
+
+A holonym denotes a whole.
+A meronym denotes a part.
+seatbelt is a meronym of (e.g.) car which is its holonym.
+A holonym can be explained by listing its meronyms unless it is a gestalt.
+
+## kinds of sememes
+
+### concepts
+
+#### concept hole
+
+A »concept hole« is an uncommon term for the need of certain concept, but there not being a word for it.
+
+## associations between sememe-containers and sememes
+
+### direct
+
+#### nouns
+
+As regards their referents, proper and common nouns are often contrasted.
+A proper nouns is a nouns that refers to a single entity or group of entities considered unique.
+A common noun is a noun that refers to a class of entities or a member of that class.
+In English, proper nouns generally but not always don't take an article, and generally but not always are singular.
+In English, proper nouns are capitalized.
+
+### indirect
+
+#### metonym
+
+A metonym is when something is referred to by the name of something closely associated with that thing.
+Synechdoche is a form of metonymy where a part refers to a whole of something or a whole to one of its parts.
+Pars pro toto is synechdoche where a part refers to a whole.
+Individual body parts are often used to refer to an entire body, constituting a pars pro toto: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
+Totum pro parte is synechdoche where a whole refers to its part.
+An example for a totum pro parte is the word America for the United States.
+
+## semantic relationships between multiple parts
+
+### restriction
+
+In semantics, a modifier is said to be restrictive if it restricts the reference of its head.
+Relative clauses generally are restrictive.
+
+## semantics and syntax
+
+### Thematic/Semantic role
+
+Semantic role aka thematic role aka theta role.
+In the grammar taught in school grammatical relations and semantic roles are often conflated, but in fact these are orthogonal to each other.
+
+Agent, patient, theme, instrument ... 
+AGENT|volitional initiator|RAM broke the window with a stone
+INSTRUMENT|Means of action|Ram broke the window with A STONE
+PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
+THEME|undergoes action, does not change state
+
+
+# Pragmatics
+
+Pragmatics is the subfield that studies how context contributes to meaning.
+
+In linguistics, a phatic expression is communication which serves a social function, not a semantic one.
+
+## backchanneling
+
+In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
+Backchannel responses are often phatic expressions.
+
+Japanese backchannels are called 　相（あい）　槌（づち）.
+　相（あい）　槌（づち） are quite common in japan.
+
+## Discourse markers
+
+An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
+A discourse marker is not itself a part of speech, rather, other words or phrases, frequently though not always interjections take on the pragmatic form of a discourse marker.
+
+## Speech acts
+
+Speech act theory is the field studying speech acts.
+A speech act includes everything that happens when a speaker utters a utterance.
+The idea of speech acts was popularized by JL Austin in How to Do Things with Words (1962).
+
+### Austins orig distinction
+
+The original distincition Austin made before he arrived at speech acts was between ⟮constative and performative utterances⟯ utterances.
+constative utterances (=constatives)|have a truth value, state a fact
+performative utterances (=performatives)|do something else besides state a fact
+In austins original distinction, the hereby criterion was used to determine if something was a performative.
+An utterance is performative according to the hereby-criterion, if inserting the word hereby into the sentence ⟮Basically preserves the meaning⟯
+「I promise to pay you 50$ tomorrow.」 is performative? ⟮c+;「I hereby promise to pay you 50$ tomorrow.」 → works → performative⟯
+「The cat is on the mat.」 is not performative?  「The cat is hereby on the mat.」 → has changed the meaning → not performative (constative)
+Problematically for austins original distinction, a sentence can both performative and constative.
+
+### Austins later distinction
+
+Later, austin moved to a distinction between locutionary, illocutionary and perlocutionary speech acts.
+According to austin, each utterance has a locutionary and illocutionary act attached to them, even if the illlocutionary act may only be that of asserting.
+locutionary act|comprised of the performance of an utterance in all its phonological, syntactic and semantic aspects
+the illocutionary act is what one does **in** saying something.
+Examples of illocutionary acts: announcing; assuring; authorizing; censuring; committing; complimenting; conceding; confessing;...
+the perlocutionary act is what has done due to the consequences of saying something.
+the perlocutionary act depends of the reaction of the hearers, the illocutionary act does not.
+Examples of perlocutionary ac
+a locutionary, illocutionary or perlocutionary act has a locutionary, illocutionary or perlocutionary force attached.
+Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
+Illocutionary and perlocutionary acts try to achieve some perlocutinary effect.
+
+#### types of illoc acts
+
+Austin distinguished 5 different types of illocutionary acts: verdictive, commissive, exercitive, expositive, behabitives
+Searle critizised austins distinction of 5 different type of illocutionary acts for it being unclear on what the distinction is actually based.
+
+give a judgement   verdictive
+comitting oneself to a course of action   commissive|promising, betting
+exercising power/influence   exercitive|excommunicating, resigning
+explaining the relationship to larger discourse (lines of reasoning)   expositivies|postulating, defining
+regulating social relationships   behabitives|toasting, apologizing
+
+## implicature
+
+in the linguistic field of pragmatics, an ⟮inference⟯ (generally an ⟮implicature⟯) is said to be ⟮defeasible⟯ or ⟮cancellable⟯ if ⟮it can be made to disappear (e.g. by saying something contradictory⟯.
+
+### gricean
+
+Implicature is a term introduced by Grice which is whatever a person implied/meant by saying something else.
+According to grice, implicatures may be conventional or nonconventional.
+
+#### conventional
+
+conventional implicatures are what a sentence entails due ot the conventional meaning of the words involved in the sentence, some people have argued these are merely entailments.
+Grice: the conventional implicature of "The die is green and heavy" is "The die is green" (as well as "The die is heavy")
+
+#### nonconventional
+
+A nonconventional implicature is an implicature which is not conventional.
+the type of nonconventional implicatures that Grice elaborates on is conversational implicature.
+
+##### conversational
+
+CP = Cooperative Principle
+Conversational implicatures are generated by the cooperative principle.
+CP: "Make your conversational contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged."
+
+###### generation via the CP
+
+Conversational implicatures are generated when the speaker is presumed to be observing the CP and its maxims, and yet they have said something that seems to be violating the CP.
+The generation of implicatures may take 3 forms:
+1. supposition of implicature makes statement actually consistent with the CP, even though it did not seem so at first.
+2. If the CP wouldn't have been violated by violating the Maxim M1, the maxim M2 would have been. Ergo we may deduce IMPLICATURE and are consistent with the CP
+3. the thing the person is saying could not possibly be consistent with the CP, ergo we can assume something completely different as an implicature and be consistent with the CP again (flouting)
+
+Via grice's definition, violating the CP at the level of what was said is necessary to conversationally implicate.
+However one can also violate the CP but not generate true conv. implicatures: either in a way that indicates one is opting out of the CP completely (= cancellability), or without indicating that one is doing violating it, and thus (since the person still goes through the working-out schema) probably mislead the listener.
+
+###### grice's razor
+
+grice's razor is the motivation for positing conversational implicatures rather than additional senses or different entities.
+Grice's razor: ceteris paribus it is better to postulate conversational implicatures rather than senses (or different entities) because they can be derived from independently motivated psychosocial principles.
+
+###### maxims
+
+To make the conversational contribution such as is required [...], Grice suggests the four Maxims.
+The four maxims (and component submaxims) that Grice presents as governing cooperativeness are the maxims of 
+Quantity (Make your contribution as informative as required), 
+Quality (Try to make your contribution one that is true); Submaxims: 
+  1) Do not say what you believe to be false
+  2) Do not say that for which you lack adequate evidence
+Relation (Be relevant)
+Manner (Be perspicous)
+  1) Avoid obscurity
+  2) Avoid ambiguity
+  3) Be brief
+  4) Be orderly
+Grice does admit that there might be other maxims (e.g. politeness) besides his four at work when talking, but says they are not relevant for generating implicatures to the same extent/in the same way
+⊐⊐ is sometimes used as "is predicted as an implicature by the CP and its maxims"
+⊐ is used e.g. by Davis as "implicates"
+
+####### quantity
+
+A ⟮quantity implicature⟯ is often seen as a synonym with ⟮scalar implicature⟯, but may more properly be ⟮a blanket/umbrella term⟯ for ⟮all implicatures generated using the maxim of quantity⟯, including ⟮clausal implicatures⟯.
+A scalar implicature is where a less informative statement implicates the deinial of a more informative statement.
+Scalar implicatuers are explained by grice via the violation of the maxim of quantity, and thus the supposion of the implicature is necessary to make it consistent with the CP.
+
+######## implicational scale
+
+In the context of ⟮pragmatics⟯, ⟮Implicational scale⟯ has a somewhat different meaning, referring to ⟮the scales⟯ from ⟮weaker to stronger⟯ statements that are used in ⟮quantity implicatures⟯
+```lang=text;
+{all, most, many, some}
+{always, often, sometimes}
+{succeed in, try to, want to}
+{certain, probable, possible}
+```
+
+## Reference
+
+### Deixis
+
+What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮deictic⟯
+
+#### vs. indexicality
+
+Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
+Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
+
+#### types of deixis
+
+Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
+
+Would ☞you☜ like to have dinner?|personal deixis
+She was sitting over ☞there☜.|spatial deixis
+It is raining ☞now☜.|temporal deixis
+I enjoy living in ☞this☜ city.|spatial deixis
+☞I☜ am going to the movies.|personal deixis
+
+##### spatial deixis
+
+Spatial deixis often as two or three distances, rdepending on the language.
+A language with two values for spatial deixis has the values proximal and distal.
+For a language with two values for spatial deixis, proximal is close(r) to the speaker and distal is far/further from the speaker.
+A language with three values for spatial deixis has the values proximal, medial, and distal.
+For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
+Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
+
+#### *phora
+
+*phora is about the reference of an expression.
+*phora is a form of deixis.
+
+##### types of *phora
+
+onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
+
+
+table:phora|reference depends on
+Exophora|reference of expression depends on outside of the text
+Endophora|reference of expression deptends on something in the text
+Anaphora|form of endophora where referent depends on something before it
+Cataphora|form of endophora where referent depends on something after it
+
+##### endophora
+
+In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
+Most often, *phora is created by proforms.
+Anaphora is sometimes also used as a synonym to endophora.
+"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
+
+###### binding
+
+In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
+
+## Hedge
+
+a hedge is a word or phrase used in a sentence to express ambiguity, probability, caution, or indecisiveness about the remainder of the sentence, rather than full accuracy, certainty, confidence, or decisiveness.
+
+
+# Cognitive linguistics
+
+## conceptual metaphor
 
 The idea of conceptual metaphor was coined by Lakoff ＆ Johnson in their seminal book Metaphors We Live By (1980)
 
@@ -2354,11 +2374,11 @@ One of the metaphors that underlie our conceptual system   A conceptual metaphor
 The thing that is mapped from (the thing that provides the structure)   the source domain
 The thing that is mapped to (the thing that is structured)   the target domain
 
-### Psycholinguistics
+# Psycholinguistics
 
 Psycholinguistics or psychology of language is the study of the interrelation between linguistic factors and psychological aspects.[1] The discipline is mainly concerned with the mechanisms by which language is processed and represented in the mind and brain
 
-#### linguistic relativity
+## linguistic relativity
 
 linguistic relativity exists in a string and a weak version
 linguistic relativity is more commonly but misleadingly called the sapir-whorf hypothesis.
@@ -2366,7 +2386,7 @@ The sapir-whorf hypothesis is misleading because sapir did not endorse it much a
 strong version of linguistic relativity|language determines thought completely|linguistic determinism
 weak version of linguistic relativity|language influences thought to some ectent
 
-### phraseology
+# phraseology
 
 In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 Phraseology is the study of phrasemes and related phenomena.
@@ -2378,17 +2398,17 @@ A ⟮snowclone⟯ is a ⟮cliche⟯ ⟮phrase⟯ with ⟮one or more blanks⟯ t
 A chunk is a sequence of two or more words that cooccur in language with high frequency but ⟮are not idiomatic⟯ (this is more language-learning related terminology, in contrast to collocation)
 
 
-#### idioms
+## idioms
 
 An idiom is a type of phraseme which violates the principle of compositionality to a very high degree.
 Most commonly, idioms are either complement verb or subject complement verb.
 
-## diachronic
+# diachronic
 
 A »diachronic« approach considers the history and evolution of a language.
 Historical linguistics is mainly interested in language change.
 
-### language geneaology
+## language geneaology
 
 * marks a form that is reconstructed (i.e. not attested)
 A Sprachbund is a set of geographically contiguous languages ⟮that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness⟯
@@ -2399,36 +2419,36 @@ euroversal is a feature that exists in (almost) all SAE languages
 Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
 An ⟮areal feature⟯ is an element that is shared by languages in ⟮a geographic area⟯ (but not explainable by ⟮a common ancestor language⟯)
 
-#### cognates
+### cognates
 
 Cognates are 2 or more words that have a common etymological origin.
 Cognates often but not always have a similar meaning and a similar pronunciation.
 False friends are words in different languages that look/sound similar and thus give off the impression of being cognates, but are unrelated.
 Cognates in the same language are called doublets.
 
-#### comparative linguistics
+### comparative linguistics
 
 Comparative linguistics is a branch of historical linguistics that compares language to establish how they are related
 Mutualll intelligibility is whether two speakers of different lects can understand each other ⟮Without prior familiarity / special effort⟯
 The higher th elinguistic distance, the lower the mutual intelligibility.
 
-#### language families
+### language families
 
-##### IE
+#### IE
 
 Indo-European languages descend from Proto-Indo-European (PIE)
 ⟮Indo-European languages⟯ can be most basically divided into ⟮centum languages⟯ and ⟮satem languages⟯.
 The ⟮Germanic languages⟯ are subdivided into ⟮east germanic languages⟯, ⟮north germanic languages⟯, and ⟮west germanic languages⟯.
 
-##### Altaic
+#### Altaic
 
 Most linguists consider altaic to be a sprachbund, some consider it to be a language family.
 The grouping of ⟮Altaic⟯ languages (whether as a sprachbund or a language family) usually includes at least ⟮Turkic⟯, ⟮Mongolic⟯, and ⟮Tongusic⟯ (this smaller grouping is sometimes called '⟮Micro⟯-⟮altaic⟯')
 ⟮Macro⟯-altaic as a ({c4::very fringe}}) hypothesis also includes ⟮japonic⟯ and ⟮koreanic⟯
 
-### language change
+## language change
 
-#### sound change
+### sound change
 
 Sound change is the diachronic change of sounds over time.
 Sound change may be to the distribution of phonemes (phonetic change) or to which speech sounds exist (phonological change).
@@ -2436,13 +2456,13 @@ Sound change may be to the distribution of phonemes (phonetic change) or to whic
 Forms of sound change:
 
 
-#### semantic change
+### semantic change
 
 Semantic change is the diachronic chanage of meanings of a given lexical item over time.
 there are ⟮many different types⟯ of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯ (the exact amount of which depends on ⟮which classification scheme you follow⟯).
 Common types of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ are ⟮semantic narrowing⟯ (also called ⟮specialization⟯), ⟮semantic widening⟯ (also called ⟮generalization⟯), ⟮amelioration/elevation⟯, ⟮pejoration⟯
 
-##### types
+#### types
 
 ⟮pejoration⟯/⟮degeneration⟯ is a form of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯) where ⟮a word becomes more negative in meaning⟯
 ⟮villain⟯ used to mean ⟮serf, peasant⟯ - this is an example of ⟮perjoration/degeneration⟯
@@ -2464,20 +2484,20 @@ Common types of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ are ⟮seman
 
 
 
-#### language contact
+### language contact
 
 Language contact is when two or more languages influence each other.
 The field that studies language contact is contact linguistics.
 Language convergence is a type of linguistic change in which languages come to structurally resemble one another ⟮due to prolonged language contact⟯
 In a language shift, a speech community switches to a different language.
 
-##### dialects
+#### dialects
 
 Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards ⟮(more similarity with) the standard language⟯
 Since the industrial revolution, dialect levelling has been ocurring to most languages.
 an aphorism sometimes applied to indicate that the difference between language and "mere dialect" is the embrace by state power: A language is a dialect with an army and navy
 
-##### borrowing
+#### borrowing
 
 Borrowing is a process within contact linguistics = language contact.
 AN element that seems to be a borrowing but isn't is called a pseudo-loan/pseudo-borrowing/false borrowing.
@@ -2522,7 +2542,7 @@ Types of borrowings
           loan translation, loan rendition
 
 
-#### Language death
+### Language death
 
 A language with at least one native speaker|living language
 A language without any *native* speakers|dead language
@@ -2530,7 +2550,7 @@ A language without *any* speakers|extinct language
 Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
 Causing languages to die out|linguicide
 
-### English
+## English
 
 Old English starts with the anglo-saxon setters/invaders in the 5th century, and ends with the norman conquest 1066 and more seriously by 1150, when middle english begins. 
 Middle english lasts until the begin of the tudor era in the late 15th century, when early modern english begiins.
@@ -2541,15 +2561,15 @@ Early modern english is the language of Shakespeare and the King's BIble.
 William Caxton: 1422 - 1491
 William Caxton introduced the printing press to england.
 
-### etymology
+## etymology
 
-## discourse analysis
+# discourse analysis
 
 ⟮Discourse analysis⟯ is the study of ⟮real language use⟯, in chunks ⟮larger than the sentence⟯
 ⟮Critical discourse analysis⟯ may be thought of ⟮discourse analysis⟯ via / for use of ⟮critical theory (lowercase)⟯
 
 
-## multilingualism
+# multilingualism
 
 A language that a speaker speaks is either a L1, L2, or heritage language.
 
@@ -2562,18 +2582,18 @@ A minority language is a language spoken by a minority of the population of an e
 A target language is a language being learnt or translated into.
 A source language is a langugage from which one is translating.
 
-### multilingualism within speakers
+## multilingualism within speakers
 
 SLA
 
-#### bi/multilingualism
+### bi/multilingualism
 
 ⟮Bilingualism⟯ is ⟮The ability to speak two languages (or the state of being in two langauges)⟯
 ⟮Multilingualism⟯ is ⟮The ability to speak multiple language (or the state of being in multiple langauges)⟯
 Bi/multilingualism from birth   Simultaneous bi/multilingualism
 Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
 
-#### language transfer
+### language transfer
 
 Language transfer is the application of linguistic features from one language to another by ⟮a bilingual or multilingual speaker⟯, or to say it differently, two languages influencing each other within a speaker.
 CLI (crosslinguistic influence) is roughly synonymous to language transfer.
@@ -2582,31 +2602,31 @@ positive language transfer is language transfer that results in easier language 
 While language transfer/cli is two languages influencing each other within a speaker, language contact is two languages themselves influencing each other.
 
 
-#### SLA
+### SLA
 
 
 
-##### Heritage language
+#### Heritage language
 
 A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
 People may have varying degrees of fluency in their heritage language.
 
-##### Interlanguage
+#### Interlanguage
 
 An interlanguage is an idiolect that has been developed by a learner of a second language (or L2) which preserves some features of their first language (or L1) and/or overgeneralizes/misuses some L2 writing and speaking rules. 
 When an interlanguage ceases becoming similar to the L2, it has fossilized.
 
-#### Attrition
+### Attrition
 
 Language attrition is split up into first-language attrition and second-language attrition
 The process of losing language skills in a language   Language attritionThe process of losing language skills in a ⁑second⁑ language  Second-language attrition
 The process of losing language skills in a ⁑native⁑ language  First language attrition
 
-### languages for multilingual situations
+## languages for multilingual situations
 
 A koine is a standard language or lingua franca created by the contact of ⟮c+;Two or more mutually intelligible languages ⟯
 
-#### auxiliary languages
+### auxiliary languages
 
 international auxiliary language and auxiliary language are synonyms.
 IALs are languages meant for communication between people who do not share a first language.
@@ -2618,11 +2638,11 @@ Interlingua is a naturalistic IAL that takes its grammar and vocab mainly from t
 interlingua aims to be comprehensible to romance language native speakers without having learned it.
 Interlingua is enabled in part by the existence of SAE.
 
-#### lingua franca
+### lingua franca
 
 A lingua franca is a  lect that is used to communicate by groups who don't share a native language.
 
-### Language birth
+## Language birth
 
 A pidgin is a grammatically simplified means of communication that develops between two or more groups that do not have a language in common.
 Pidgins often develop in trade situations.
@@ -2634,7 +2654,7 @@ A mixed language is a language combining aspects of two or more languages but �
 
 Relexification is the process of replacing (all or a large number of) the words of one language with the words from another language, while the grammar of the original language remains intact
 
-#### conlangs
+### conlangs
 
 Languages are either natural or constructed.
 A conlang (constructed language) is one which was constructed by humans.
@@ -2643,39 +2663,39 @@ To an overwhelming extent, the languages that are spoken in the 21st century are
 
 Naturalistic conlangs mimic existing real languages.
 
-### multilingual linguistics
+## multilingual linguistics
 
-#### translingualism
+### translingualism
 
 Translingual phenomena are features of language that are relevant in more than one language. 
 The International scientific vocabulary is the set fo science-related words that is  ⟮used translingually⟯
 
-### rendering between representations/languages
+## rendering between representations/languages
 
-#### translation
+### translation
 
 Translation is the rendering of the meaning of a source language text in a target language text.
 
-#### transcription
+### transcription
 
 Transcription is the represention of spoken language in written form.
 
-#### glossing
+### glossing
 
-### misc
+## misc
 
 A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
-#### sprachraum
+### sprachraum
 
 »⟮A sprachraum⟯« is⟮ a geographical region⟯ ⟮where a common L1 is spoken⟯
 
-## linguistic typology
+# linguistic typology
 
 Linguistic typology = language typology
 Linguistic typology is a field of linguistics that studies and classifies languages according to their structural features. 
 
-### morphological typology 
+## morphological typology 
 
 Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
 The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
@@ -2687,13 +2707,13 @@ analytic languages have different morphemes for different inflectional categorie
 highly analytic|chinese, vietnamese
 highly synthetic|japanese, turkish
 
-### word order
+## word order
 
 Word order is how a language orders the syntacic constituents of a language.
 Word order may be a distinguishing characteristic in linguistic typology.
 Even languages which typically allow large amounts of flexibility in word order (e.g. by marking case) generally have a typical word order, where having a different order is considered marked. (see: Japanese)
 
-#### constituent order
+### constituent order
 
 the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
 German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
@@ -2707,31 +2727,31 @@ In V2 word order, the first constituent functions as the topic.
 
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
 
-## corpora ＆ collections
+# corpora ＆ collections
 
 ⟮forvo.com⟯ is ⟮the largest⟯ dictionary/library/archive for ⟮pronunciations⟯, it also has an AAPI
 ⟮Tatoeba⟯ is a ⟮large⟯ ⟮corpus⟯ of ⟮sentences⟯ and their ⟮translations⟯ into ⟮many other languages⟯.
 
-### corpora
+## corpora
 
 A ⟮corpus⟯ is a ⟮set⟯ of ⟮text/language⟯. 
 ⟮Corpora⟯ are generally designed to be ⟮machnine-readable⟯. 
 ⟮Corpus linguistics⟯ studies ⟮language⟯ ⟮via corpora⟯. 
 The ⟮corpus⟯ is a ⟮sample⟯ of the ⟮population (all relevant language⟯) 
 
-#### parallel text
+### parallel text
 
 A ⟮parallel text⟯ is a text ⟮placed alongside⟯ ⟮its translation(s)/transcriptions.⟯ 
 A ⟮corpus⟯ of ⟮parallel texts⟯ is ⟮a parallel corpus⟯ 
 The ⟮rosetta stone was⟯ ⟮a parallel text⟯ with the text ⟮in ancient egyptian⟯ written in both ⟮hieroglyphic⟯ and ⟮demotic⟯ ⟮scripts⟯ as well as in ⟮ancient greek⟯. 
 
-### collocations
+## collocations
 
 A ⟮collocation⟯ is a series of words or terms that ⟮co-occur⟯ ⟮more often than would be expected by chance⟯. 
 ⟮Colligation⟯ is ⟮collocation⟯ with ⟮syntactic categories instead of specific words⟯. 
 ⟮Semantic prosody⟯, also ⟮discourse prosody⟯, describes ⟮seemingly neutral words⟯ ⟮gaining certain associations⟯ through ⟮frequent occurrences with particular collocations⟯. 
 
-### concordances
+## concordances
 
 flex-container:✫KWIC.png✫✫KWOC.png✫✫KWAC.png✫
 
@@ -2746,13 +2766,13 @@ name|description
 ⟮Key word out of context (KWOC⟯)|⟮Keyword⟯ appears ⟮to the left⟯, with ⟮the whole context including the word after it.⟯
 ⟮Key word alongside/and/augmented in context (KWAC⟯)|⟮Keyword⟯ appears ⟮to the left⟯, with ⟮the rest of the context (but not the word after it⟯), may also refer to ⟮adding extra info to the collocation⟯
 
-## theoretical linguistics
+# theoretical linguistics
 
 Theoretical linguistics may just contrast with applied linguistics, or specifically be the area of linguistics that answers fundamental questions about the nature of language
 
-## formal language
+# formal language
 
-### chomsky hierarchy
+## chomsky hierarchy
 
 The chomsky hierarch describes a hierarchy of formal grammars.
 
@@ -2763,7 +2783,7 @@ recursively enumerable
     context-free
       regular
 
-### metalanguage
+## metalanguage
 
 A »metalanguage« is a language used ⟮to describe another language⟯
 The language being described by a metalanguage is an object language.
@@ -2771,7 +2791,7 @@ Metasyntax is the syntax governing a meta-language.
 A placeholder/variable that is not part of a given language, but instead is used in a metalanguage way is known as a metasyntactic variable.
 The most common metasyntactic variables are foo, bar, quuz...
 
-#### BNF
+### BNF
 
 BNF = Backus-Naur-Form
 BNF is a metasyntax for context-free grammars.
@@ -2783,7 +2803,7 @@ terminal (in this case with the name something)   "something" or 'something'
 non-terminal (in this case with the name something)   ‹something›
 concatenation   ␣
 
-##### EBNF
+#### EBNF
 
 EBNF = Extended Backus-Naur-Form
 EBNF is an extension (with some changes) to BNF, but there is no one EBNF, but a bunch of dialects.
@@ -2801,7 +2821,7 @@ barbar|'at least one of'
 
 In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as ‹something›, or both are explicitly indicated
 
-##### ABNF
+#### ABNF
 
 ABNF is standartized in an RFC, and often used for IETF documents.
 in ABNF, rules MAY be surrounded by ‹›.
@@ -2835,7 +2855,7 @@ ALPHA|upper/lowercase ascii char
 DIGIT|deximal digits
 VCHAR|an ascii visible char
 
-#### RFC 2119
+### RFC 2119
 
 RFC 2119 = BCP 14
 RFC 2119 / BCP 14 defines a set of terms to indicate requirement levels.
@@ -2855,25 +2875,25 @@ MAY = OPTIONAL
 MAY/OPTIONAL = truly optional. however, An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides.)
 
 
-## cross-cutting concerns
+# cross-cutting concerns
 
-### quantitiative linguistics
+## quantitiative linguistics
 
 Quantitative linguistics investigates language using quantitative methods.
 A linguistic law is a phenomenon in quantitative linguistics which describes a statistical regularity in the relationship between scales (e.g. of phonemes, syllables, words).
 
-#### brevity law
+### brevity law
 
 Brevity law = zipf's law of abbreviation
 Brevity law is a linguistic law that says the frequency of a words use is inversely proportional to its length: The shorter a word is, the more often it is used; the longer a word is, the less frequently it is used, and vice versa
 Brevity law can be found in all investigated natural languages (currently 1k languages of 80 language families), as well as in some other communication systems, such as that of primates.
 Brevity law was first described in 1945 in corpus work on American English by Ziph.
 
-### linguistic error
+## linguistic error
 
 Linguistic errors may be merely seen as errors, but may also change the accepted spelling, pronunciation, etc. of a word, or even act as word formation patterns.
 
-#### morphological
+### morphological
 
 A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
 
@@ -2885,33 +2905,33 @@ Rebracketing is also sometimes known as resegmentation or metanalysis
 rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
 rebracketing: hamburger as ham + burger instead of hamburg + er
 
-#### etymological
+### etymological
 
 a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
 Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
 
-### implicational scale
+## implicational scale
 
 ⟮Implicational scale⟯ is a term that means if ⟮one feature is present⟯, ⟮all the features⟯ ⟮lower on the scale⟯ ⟮will be as well⟯
 If a thing is on an ⟮implicational scale⟯, and we find that ⟮the e.g. 5th stage is present⟯, we would expect to also find ⟮all four lower stages to be present⟯.
 ⟮Most linguistic areas⟯ have things that can be on an implicational scale
 
-#### examples
+### examples
 
 flex-container:✫mplicational-scale-of-basic-color-terms.png✫✫sm_2021-10-21--08-21-02-screenshot.jpg✫
 
 
 an ⁑implicational scale ⁑(of basic color terms/syntactic figures in irish)
 
-### feature
+## feature
 
 In contemporary linguistics, the term feature is used in several ways. Two main uses can be distinguished:
 
 The term feature is sometimes used for a specific dimension of classification along which a given linguistic item is categorized. The specification of this dimension is then called a value. For example, the English noun bread carries the value '+' for the feature [countability].
 More generally, the term feature is also used as an equivalent of 'property', esp. when used for the classification of linguistic items. For example, the English phoneme /d/ can be said to have the feature [voiced] (i.e. the property of being voiced).
 
-### markedness
+## markedness
 
 According to Haspelmath (2005), markedness has 12 distinctive senses, which makes it pretty hard to use unambiguously.
 Most but not all senses of markedness share a feeling of oddness, and the marked form is generally more rare.
@@ -2919,7 +2939,7 @@ In semantics, a marked term is generally also more specific.
 In a morphosemantic sense, something coded through a zero morpheme is unmarked, something coded by a non-zero morpheme is marked.
 
 
-## semiotics
+# semiotics
 
 Activity/process involving signs is called semiosis
 The study of sign processes (semiosis) is called semiotics
@@ -2927,3 +2947,18 @@ Something being reduced to signification only (which is amplified) (rare word)  
 
 
 MISSING: linguistic item/unit
+
+# -> phrasemics
+
+## metaphor
+
+onion-box:
+⟮metaphor (wide sense)⟯
+  ⟮metaphor (narrow sense)⟯
+  ⟮simile⟯
+
+
+⟮Metaphor (in the wide sense⟯) is about ⟮putting a thing in the terms/concepts/world of another⟯, which is ⟮(relevantly) not the same⟯, and thus ⟮invoking a comparison⟯. 
+A ⟮simile⟯ is ⟮a subtype of⟯ ⟮metaphor in the wide sense⟯, with the added stipulation that ⟮the 'putting in the terms of another'⟯ is done by ⟮words such as like, as, etc.⟯ 
+⟮A metaphor in the narrow sense⟯ is ⟮a metaphor in the wide sense⟯ with the restriction that ⟮it does not use comparative words⟯, but instead ⟮directly refers to one thing in terms of another⟯ 
+All the world's a stage is a metaphor in ⟮both the wide and narrow sense.⟯ 
