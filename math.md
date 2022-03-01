@@ -327,6 +327,7 @@ operation|1st operand|2nd operand|result
 addition|addend/summand|addend/summand|sum
 subtraction|minuend|subtrahend|difference
 multiplication|||product
+division|dividend|divisor|quotient
 
 ### ops on sequences of numbers
 
@@ -339,6 +340,33 @@ The thing on the right of Σ/Π-notation is the element being added/multiplied.
 ### multiplication
 
 A product of a sequence of numbers is denoted by Π.
+
+#### multiple
+
+A multiple is the product of any quantity and an integer.
+I.e. b is a multiple of a if there is an `n ∈ ℤ` such that `b = na`
+a is a submultiple of b means b is a submultiple of a.
+I.e. a is a submultiple of b if there is an `n ∈ ℤ` such that `b/n = a`
+E.g. an inch is a 12-fold submultiple of a.
+
+#### multiplicative inverse
+
+multiplicative inverse = reciprocal
+the reciprocal of a number x is denoted by x⎴-1⎴.
+The reciporocal x⎴-1⎴ is the number that multiplied by x yields the multiplicative identity (1).
+
+### division
+
+#### fraction
+
+A fraction consists of a numerator and a denominator.
+In the most common notation for fractions, the numerator is displayed above the denominator, separated by a bar.
+An algebraic fraction is a fraction whose numerator and/or denominator are expressions.
+the reciprocal of a fraction a/b is b/a.
+
+##### unit fraction
+
+An unit fraction is a rational number written as a fraction where the numerator is one and the denominator is a positive integer.
 
 ### addition
 
@@ -929,6 +957,14 @@ b^-n = 1/(b^{-1})
 
 ### properties
 
+#### identity element
+
+The identity element is an element of a set that a binary operation operates on.
+The identity element is the element of the set that when used with the binary operation will leave every element of the set unchanged.
+The identity element of a certain operation is often called that function's identity (ergo e.g. multiplicative identity).
+The identity element of multiplication performed on real numbers is 1.
+The identity element of addition performed on real numbers is 0.
+
 #### idempotentitcity
 
 A function/operation/etc. is ⟮idempotent⟯ if ⟮it can be applied mulitple times⟯ without ⟮changing the result⟯ ⟮beyond the initial application⟯. 
@@ -1055,83 +1091,120 @@ A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is call
 
 # applied
 
-pure mathematics ↔ applied mathematics 
-pure mathematics: study of mathematical concepts independent from applications
+In some sense, math ⟮may be divided⟯ into ⟮pure mathematics and applied mathematics⟯ 
+»⟮pure mathematics⟯« is ⟮the study of mathematical concepts independent from applications⟯
 
 ## units 
 
-A unit of measurement is a certain magnitude of a given quantity.
+### units
 
-### metric/SI
+⟮Unit of measurement⟯ is often abbreviated ⟮unit⟯.
+A »⟮unit (of measurement)⟯« is ⟮a certain ＿magnitude＿⟯ ⟮of a given ＿quantity＿⟯.
+E.g. the metre is a certain magnitude (the length of the path traveled by light in a vacuum ...) of the quantity length
+⟮＿An unit＿⟯ typically can be ⟮identified by⟯ its ⟮＿unit name＿⟯ and/or ⟮＿unit symbol＿⟯.
+»⟮An unit name⟯« is ⟮a common noun⟯ ⟮identifying⟯ ⟮＿a unit＿⟯.
+»⟮An unit symbol⟯« is a ⟮character⟯, ⟮a few characters⟯ or ⟮a ＿expression＿ containing other ＿unit symbols＿⟯ ⟮identifying⟯ ⟮＿a unit＿⟯
 
-#### organization
+#### non-SI
 
-SI is short for International System of Units
-⟮The International System of Units (SI⟯) is the ⟮nearly universally used⟯ ⟮system of measurements⟯. 
+##### imperial ＆ US customary
 
-
-#### prefixes
-
-##### SI prefix
-
-A metric prefix aka SI prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. 
-All metric prefixes used today are decadic. 
-A metric prefix is a unit prefix that precedes bits/bytes to indicate a multiple or submultiple.
-When contrasted with binary prefixes, metric prefixes may also be known as decimal prefixes.
-Binary prefixes are base-2, most commonly multiples of 1024.
-binary-prefix-symbol ::= ‹metric-prefix-symbol›i
-binary-prefix-name ::= ‹metric-prefix-name-first-2-chars›bi
-Sometimes, metric(=decimal) prefixes are used as binary prefixes, however this is incorrect usage 
-metric/decimal prefixes refer to increases of 1000, even when used on bits or bytes.
-
-b|bit
-B|byte
-
-prefix|10⎴?⎴
-⟮femto⟯|⟮10⎴−15⎴ = 0.000000000000001⟯
-⟮pico⟯|⟮10⎴−12⎴ = 0.000000000001⟯
-⟮nano⟯|⟮10⎴−9⎴ = 0.000000001⟯
-⟮micro⟯|⟮10⎴−6⎴ = 0.000001⟯
-⟮milli⟯|⟮10⎴−3⎴ = 0.001⟯
-⟮centi⟯|⟮10⎴−2⎴ = 0.01⟯
-⟮deci⟯|⟮10⎴−1⎴ = 0.1⟯
-ø|1^0 = 1
-⟮deca⟯|⟮10⎴1⎴ = 10⟯
-⟮hecto⟯|⟮10⎴2⎴ = 100⟯
-⟮kilo⟯|⟮10⎴3⎴ = 1000⟯
-⟮mega⟯|⟮10⎴6⎴ = 1000000⟯
-⟮giga⟯|⟮10⎴9⎴ = 1000000000⟯
-⟮tera⟯|⟮10⎴12⎴ = 1000000000000⟯
-⟮peta⟯|⟮10⎴15⎴ = 1000000000000000⟯
-⟮exa⟯|⟮10⎴18⎴ = 1000000000000000000⟯
-
-#### actual units
-
-##### base units
-
-The ⟮SI⟯ has ⟮7⟯ ⟮base units.⟯ 
-From ⟮the 7 SI base units⟯, ⟮all other SI units can be derived.⟯ 
-
-### non-metric
-
-#### imperial ＆ US customary
-
-The ⟮Units used in the british empire (after 1826)⟯ are known as ⟮Imperial units/system⟯.
-the ⟮ Units used in the US ⟯ are known as ⟮ United States customary units ⟯.
+»⟮Imperial units/system⟯« are the ⟮Units used in the british empire (after 1826)⟯
+»⟮United States customary units⟯« are the ⟮units used in the US⟯.
 However, ⟮imperial units⟯ is often ⟮falsely⟯ used as ⟮a synonym for USC units as well⟯.
-In general, many units are shared between USC and imperial units, but there are also significant differences.
+In general, ⟮many units are shared⟯ between USC and imperial units, ⟮but there are also significant differences⟯.
 
-##### temperature
+###### temperature
 
-Fahrenheit has the unit symbol °F.
-An increase of 1°F corresponds to an increase of 1°
-The distance between water melting and boiling in Fahrenheit is 180 degrees
+⟮Fahrenheit⟯ has the ⟮＿unit symbol＿⟯ ⟮°F⟯.
+An ⟮increase⟯ ⟮of 1 °F⟯ corresponds to an ⟮c_-;increase⟯ ⟮of 5/9 °C⟯
+The ⟮distance between⟯ ⟮water melting⟯ and ⟮c_;boiling⟯ in ⟮Fahrenheit⟯ is ⟮180 degrees⟯
 
 
-Temperature (°F)|Significance
+table:Temperature (°F)|Significance
 32|Water melts
 98|Human body temperatue
 212|Water boils
+
+#### bits & bytes
+
+table:unit symbol|unit name
+b|bit
+B|byte
+
+### unit prefix
+
+»⟮A unit prefix⟯« is ⟮a prefix⟯ ⟮appended to⟯ ⟮＿an unit of measurement＿⟯.
+⟮＿An unit prefix＿⟯ indicates ⟮＿multiples＿⟯ or ⟮c_;＿submultiples＿⟯ of ⟮＿the unit＿⟯.
+⟮＿An unit prefix＿⟯ can be identified by its ⟮＿(unit) prefix name＿⟯ or ⟮c_;＿(unit) prefix symbol＿⟯.
+»⟮An (unit) prefix name⟯« is ⟮a common noun⟯ ⟮identifying⟯ ⟮＿a unit prefix＿⟯.
+»⟮An (unit) prefix symbol⟯« is a ⟮character/few characters⟯ ⟮identifying⟯ ⟮＿a unit prefix＿⟯
+
+#### SI prefix
+
+»⟮A metric prefix⟯« is ⟮＿a unit prefix＿⟯ for ⟮＿the metric system＿⟯.
+⟮All⟯ ⟮＿metric prefixes＿⟯ are ⟮base-10⟯.
+⟮Most⟯ ⟮＿metric prefixes＿⟯ are ⟮multiples/submultiples of 10⎴3⎴⟯.
+»⟮An SI prefix⟯« is ⟮＿a metric prefix＿⟯ that ⟮was standartized within SI⟯.
+ergo »⟮SI prefix symbols/names⟯« are ⟮those ＿unit prefix symbols/names＿⟯ ⟮used for SI⟯
+⟮＿SI prefix symbols＿⟯ are ⟮single⟯ characters (except ⟮the one for deca (da)⟯).
+⟮＿SI prefix symbols＿⟯ are typically ⟮lowercase⟯ for ⟮submultiples⟯.
+⟮＿SI prefix symbols＿⟯ are typically ⟮uppercase⟯ for ⟮multiples⟯.
+As ⟮an exception⟯, the ⟮＿SI prefix symbols＿⟯ for ⟮10, 100 and 1000⟯ are ⟮lowercase⟯.
+The ⟮＿SI prefix symbols＿⟯ are ⟮the first letter of the prefix name⟯, except for ⟮deca (da) and micro (μ)⟯.
+
+##### prefix name
+
+SI prefix name|10⎴?⎴
+⟮exa⟯|⟮10⎴18⎴ = 1000000000000000000⟯
+⟮peta⟯|⟮10⎴15⎴ = 1000000000000000⟯
+⟮tera⟯|⟮10⎴12⎴ = 1000000000000⟯
+⟮giga⟯|⟮10⎴9⎴ = 1000000000⟯
+⟮mega⟯|⟮10⎴6⎴ = 1000000⟯
+⟮kilo⟯|⟮10⎴3⎴ = 1000⟯
+⟮hecto⟯|⟮10⎴2⎴ = 100⟯
+⟮deca⟯|⟮10⎴1⎴ = 10⟯
+ø|1⎴0⎴ = 1
+⟮deci⟯|⟮10⎴−1⎴ = 0.1⟯
+⟮centi⟯|⟮10⎴−2⎴ = 0.01⟯
+⟮milli⟯|⟮10⎴−3⎴ = 0.001⟯
+⟮micro⟯|⟮10⎴−6⎴ = 0.000001⟯
+⟮nano⟯|⟮10⎴−9⎴ = 0.000000001⟯
+⟮pico⟯|⟮10⎴−12⎴ = 0.000000000001⟯
+⟮femto⟯|⟮10⎴−15⎴ = 0.000000000000001⟯
+
+#### for binary numbers
+
+»⟮A binary prefix⟯« is ⟮＿a unit prefix＿⟯ that ⟮is base-2⟯.
+⟮＿Binary prefixes＿⟯ are most commonly ⟮multiples of 2⎴10⎴ = 1024⟯.
+⟮binary-prefix-symbol⟯ ::= ⟮‹metric-prefix-symbol›i⟯
+⟮binary-prefix-name⟯ ::= ⟮‹metric-prefix-name-first-2-chars›bi⟯
+Sometimes, ⟮＿metri prefixes＿⟯ are used as ⟮＿binary prefixes＿⟯, however this is ⟮incorrect usage ⟯
+⟮＿metric/decimal prefixes＿⟯ are ⟮base 10⟯ even when ⟮used on bits or bytes⟯.
+
+### SI
+
+#### history/organization
+
+A ⟮decimal⟯-based ⟮system of measurements⟯ based on ⟮the meter⟯ was first introduced in ⟮france⟯ in ⟮the 1790s⟯.
+⟮＿The metric system＿⟯ ⟮evolved from⟯ ⟮the french decimalised system.⟯
+»⟮SI⟯« is ⟮a organization/standartization⟯ of ⟮＿the metric system＿⟯.
+⟮＿SI＿⟯ is short for ⟮International System of Units⟯
+⟮SI⟯ is the ⟮nearly universally used⟯ ⟮system of measurements⟯. 
+
+#### base & derived units
+
+The ⟮SI⟯ has ⟮7⟯ ⟮base units.⟯ 
+The 7 base units are the units from which the derived units can be derived.
+The 7 base units are defined by saying that seven defining constants have certain exact numerical values when expressed in terms of their SI units.
+e.g. c = 299 792 458 m/s
+The SI has 22 derived units.
+The 22 derived units can be expressed as products of SI base units.
+Fractions are possible with the 22 derived units since a fraction is just multiplication with a thing with negative exponent.
+Within the 22 derived units there are 2 unitless units, derived via unit elimination. 
+e.g. rad = m/m = 1
+From the SI base and derived units, other coherent units can be derived. 
+
 
 ## pareto principle
 
