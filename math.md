@@ -1089,6 +1089,31 @@ A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is call
 ⟮c+;s5:8;reject H⎵0⎵⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
 ⟮c+;s5:8;fail to reject H⎵0⎵⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
 
+
+## statistical laws
+
+### pareto principle
+
+flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.png✫✫Pareto_principle.png✫
+
+
+The ⟮pareto distribution⟯ is a ⟮ (family of) probability distributions⟯ that applies to a large set of ⟮natural⟯ and ⟮social⟯ phenomena. 
+A well-known ⟮s1;pareto distribution⟯ with ⟮a specific parameter⟯ reflects the idea that ⟮80% of outcomes are due to 20% of causes⟯, which has become known as ⟮the pareto principle⟯ (Aka ⟮the law of the vital few⟯, ⟮the principle of factor sparsity⟯). 
+
+
+### citation metrics
+
+#### coupling ＆ co-citation
+
+flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
+
+Bibliographic coupling measures how many of the same works two documents cite. 
+If two documents cite at least one work in common, they are bibliographically coupled. 
+The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
+Co-citation measures how frequently two documents are cited together by other documents. 
+If at least one other document cites two documents in common these documents are said to be co-cited. 
+The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
+
 # applied
 
 In some sense, math ⟮may be divided⟯ into ⟮pure mathematics and applied mathematics⟯ 
@@ -1195,35 +1220,13 @@ A ⟮decimal⟯-based ⟮system of measurements⟯ based on ⟮the meter⟯ was 
 #### base & derived units
 
 The ⟮SI⟯ has ⟮7⟯ ⟮base units.⟯ 
-The 7 base units are the units from which the derived units can be derived.
-The 7 base units are defined by saying that seven defining constants have certain exact numerical values when expressed in terms of their SI units.
+The ⟮7 ＿base units＿⟯ are the units from which ⟮all⟯ ⟮＿derived units＿⟯ ⟮can be derived⟯.
+The ⟮7 ＿base units＿⟯ are defined by using seven ⟮＿defining constants＿⟯.
+the »⟮defining constants⟯« are constants that ⟮have certain exact numerical values⟯ when ⟮expressed in terms of their SI units⟯.
 e.g. c = 299 792 458 m/s
-The SI has 22 derived units.
-The 22 derived units can be expressed as products of SI base units.
-Fractions are possible with the 22 derived units since a fraction is just multiplication with a thing with negative exponent.
-Within the 22 derived units there are 2 unitless units, derived via unit elimination. 
+⟮The SI⟯ has ⟮22⟯ ⟮＿derived units＿⟯.
+»⟮A derived unit⟯« is a unit that ⟮can be expressed as⟯ ⟮a product of ＿base unit(s)＿⟯.
+⟮＿Derived units＿⟯ may contain ⟮fractions⟯ since ⟮c_;a fraction⟯ is ⟮just multiplication with a thing with negative exponent⟯.
+Within ⟮the 22 ＿derived units＿⟯ there are ⟮2 unitless units⟯, derived via ⟮unit elimination⟯. 
 e.g. rad = m/m = 1
-From the SI base and derived units, other coherent units can be derived. 
-
-
-## pareto principle
-
-flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.png✫✫Pareto_principle.png✫
-
-
-The ⟮pareto distribution⟯ is a ⟮ (family of) probability distributions⟯ that applies to a large set of ⟮natural⟯ and ⟮social⟯ phenomena. 
-A well-known ⟮s1;pareto distribution⟯ with ⟮a specific parameter⟯ reflects the idea that ⟮80% of outcomes are due to 20% of causes⟯, which has become known as ⟮the pareto principle⟯ (Aka ⟮the law of the vital few⟯, ⟮the principle of factor sparsity⟯). 
-
-
-## citation metrics
-
-#### coupling ＆ co-citation
-
-flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
-
-Bibliographic coupling measures how many of the same works two documents cite. 
-If two documents cite at least one work in common, they are bibliographically coupled. 
-The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
-Co-citation measures how frequently two documents are cited together by other documents. 
-If at least one other document cites two documents in common these documents are said to be co-cited. 
-The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
+From the ⟮＿base＿⟯ and ⟮c_;＿derived units＿⟯, ⟮other coherent units⟯ ⟮can be derived⟯. 
