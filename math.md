@@ -1024,20 +1024,27 @@ The description "Polish" refers to the nationality of logician Jan Łukasiewicz,
 
 # probability
 
-## dice
+## probability theory
 
-A ⟮natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮roll⟯ that ⟮has a specific number⟯ (most commonly ⟮c+;s4;the highest/lowest of the die⟯ ) ⟮without any modifiers⟯.
+### random variable
 
-## terminology
+#### discrete or continous
 
-A variable may be coninous or discrete.
+A random variable may be coninous or discrete.
 A discrete (numerical/quantitative) variable has either a finite or a countably infinite set of permitted values.
 
-## statistics
+## statisstics
 
-### diagrams
+statistis is the field concerned with data.
 
-#### box diagram
+### descriptive statistics
+
+Descriptive statistics is the field that is concerned with various descriptive statistics.
+A descriptive statistic is a statistic designed to describe features of a collection of information.
+
+#### diagrams
+
+##### box plot
 
       Q1     Q2    Q3
 min    ┏━━━━━┳━━━━━┓    max
@@ -1046,22 +1053,9 @@ min    ┏━━━━━┳━━━━━┓    max
        ┗━━━━━┳━━━━━┛
             IQR
 
-### correlation
+#### summary statistics
 
-All the same: (confound|lurk)(er|ing (variable|factor))
-
-flex-container:✫sm_1000px-Simple_Confounding_Case.svg.jpg✫
-
-am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
-A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
-Correlation is a statistical relationship between two random variables, whether causal or not.
-Correlation is often used for degree of linear correlation.
-
-### statistics
-
-#### summary
-
-summary statistics are used to summarize a set of observations, in order to communicate the largest amount of information as simply as possible
+A summary statistics is a statistic are used to summarize a set of observations, in order to communicate the largest amount of information as simply as possible
 summary statistics = (measures of) {central tendency, dispersion, shape, statistical dependence}
 a central tendency is a central or typical value for a probability distribution
 
@@ -1075,24 +1069,48 @@ Q1|25%
 Q2|50% (median)
 Q3|75%
 
-### populations ＆ samples
+### correlation
+
+Correlation is a statistical relationship between two random variables, whether causal or not.
+Correlation is often used for degree of linear correlation.
+
+#### spurious association
+
+A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
+
+##### confounding variable
+
+All the same: (confound|lurk)(er|ing (variable|factor))
+
+flex-container:✫sm_1000px-Simple_Confounding_Case.svg.jpg✫
+
+am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
+
+### inferential statistics
+
+#### populations ＆ samples
 
 A ⟮parameter⟯ is a ⟮truth⟯ about ⟮the population⟯ 
 a ⟮statistic⟯ is a ⟮truth⟯ about ⟮a sample⟯ 
 A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is called an ⟮estimator⟯. 
 
-### hypothesis testing
+#### hypothesis testing
 
-#### Types of errors
+##### Types of errors
 
 ⟮c+;s5:8;H⎵0⎵ true⟯|⟮c+;s5:8;H⎵0⎵ false⟯
 ⟮c+;s5:8;reject H⎵0⎵⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
 ⟮c+;s5:8;fail to reject H⎵0⎵⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
 
+## applied statistics
 
-## statistical laws
+### dice
 
-### pareto principle
+A ⟮natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮roll⟯ that ⟮has a specific number⟯ (most commonly ⟮c+;s4;the highest/lowest of the die⟯ ) ⟮without any modifiers⟯.
+
+### empirical statistical laws
+
+#### pareto principle
 
 flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.png✫✫Pareto_principle.png✫
 
