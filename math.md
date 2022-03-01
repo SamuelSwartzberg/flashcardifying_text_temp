@@ -1030,17 +1030,17 @@ The description "Polish" refers to the nationality of logician Jan Łukasiewicz,
 
 #### discrete or continous
 
-A random variable may be coninous or discrete.
-A discrete (numerical/quantitative) variable has either a finite or a countably infinite set of permitted values.
+A ⟮＿random variable＿⟯ may be ⟮＿coninous＿⟯ or ⟮＿discrete＿⟯.
+A »⟮discrete random variable⟯« has either ⟮a finite⟯ or ⟮a countably infinite⟯ ⟮set of permitted values⟯.
 
 ## statisstics
 
-statistis is the field concerned with data.
+»⟮statistis⟯« is the field concerned with ⟮data⟯.
 
 ### descriptive statistics
 
-Descriptive statistics is the field that is concerned with various descriptive statistics.
-A descriptive statistic is a statistic designed to describe features of a collection of information.
+»⟮Descriptive statistics⟯« is ⟮the branch of statistics⟯ that is concerned with ⟮various ＿descriptive statistics＿⟯.
+»⟮A descriptive statistic⟯« is a statistic designed to ⟮describe features of a collection of information⟯.
 
 #### diagrams
 
@@ -1055,58 +1055,84 @@ min    ┏━━━━━┳━━━━━┓    max
 
 #### summary statistics
 
-A summary statistics is a statistic are used to summarize a set of observations, in order to communicate the largest amount of information as simply as possible
-summary statistics = (measures of) {central tendency, dispersion, shape, statistical dependence}
-a central tendency is a central or typical value for a probability distribution
+⟮＿Summary statistics＿⟯ are an important part of ⟮descriptive statistics⟯
+»⟮A summary statistic⟯« is ⟮＿a statistic＿⟯ to ⟮summarize a set of data points⟯.
+⟮＿Summary statistics＿⟯ for ⟮a single variable⟯:  (measures of) {⟮central tendency⟯, ⟮dispersion⟯, ⟮shape⟯}
+
+##### central tendency
+
+»⟮a central tendency⟯« as ⟮＿a summary statistic＿⟯ is ⟮a central or typical value⟯ for ⟮a probability distribution⟯
 
 ##### dispersion
 
-dispersion is also called variability, scatter or spread.
+⟮dispersion⟯ is also called ⟮variability⟯, ⟮scatter⟯ or ⟮spread⟯.
+»⟮Dispersion⟯« as ⟮＿a summary statistic＿⟯ is ⟮how spread out⟯ ⟮the values are⟯ ⟮from the central tendency⟯.
+
+###### variance-related
 
 ###### quantile
 
-Q1|25%
-Q2|50% (median)
-Q3|75%
+»⟮A quantile⟯« ⟮divides⟯ something into ⟮intervals with equal probability⟯.
+⟮＿A quantile＿⟯ may divide ⟮a probability distribution⟯ or ⟮a set of observations⟯.
+Importantly, ⟮＿a quantile＿⟯ is ⟮the divider⟯, not ⟮c_;the groups created⟯.
+The groups created by quantiles are known as halves, thirds, quarters...
+A q-quantile divides the thing into q groups of equal sizes. 
+a q-quantile creates q-1 quantiles.
+
+####### various quantiles
+
+table:q-quantile|name
+⟮2⟯|⟮median⟯
+⟮3⟯|⟮ter(t/c)ile⟯
+⟮4⟯|⟮quartile⟯
+⟮100⟯|⟮percentile⟯
+
+####### quartile
+
+The three ⟮quartiles⟯ are termed ⟮Q⎵1⎵, Q⎵2⎵, Q⎵3⎵⟯
+⟮Q⎵2⎵⟯ is also ⟮the median⟯.
+
+######## IQR
+
+The ⟮＿IQR＿⟯ is a ⟮＿disperson＿⟯ ⟮＿summary statistic＿⟯.
+»⟮IQR⟯« = ⟮Q⎵3⎵ - Q⎵1⎵⟯
+
+##### shape
+
+Shape as a summary statistic is how the data values are distributed across the range of values in the sample.
+
+### inferential statistics
+
+»⟮Inferential statistics⟯« is ⟮the branch of statistics⟯ concerned with ⟮＿statistical inferences＿⟯.
+»⟮A statistical inference⟯« is ⟮inferring truths about the population⟯ ⟮from other data⟯.
+
+#### populations ＆ samples
+
+A »⟮parameter⟯« is ⟮a truth⟯ about ⟮the population⟯ 
+a »⟮statistic⟯« is ⟮a truth⟯ about ⟮a sample⟯ 
+An ⟮estimator⟯ is ⟮＿a statistic＿⟯ that ⟮is being used to estimate⟯ ⟮＿a parameter＿⟯.
 
 ### correlation
 
-Correlation is a statistical relationship between two random variables, whether causal or not.
+»⟮Correlation⟯« is ⟮a statistical relationship⟯ ⟮between two ＿random variables＿⟯
+⟮＿Correlation＿⟯ may be ⟮causal⟯ or ⟮c_;not⟯.
 Correlation is often used for degree of linear correlation.
 
 #### spurious association
 
-A spurious association/correlation is a relationship in which two variables are assoicated/correlated but not causally related.
+⟮Spurious association⟯ = ⟮spurious correlation⟯
+»⟮A spurious correlation⟯« when ⟮two ＿random variables＿⟯ are ⟮＿correlated＿⟯ but ⟮not causally related⟯.
 
 ##### confounding variable
 
-All the same: (confound|lurk)(er|ing (variable|factor))
-
 flex-container:✫sm_1000px-Simple_Confounding_Case.svg.jpg✫
 
-am confounding variable is a variable that influences both dependent and independent variable, causing a spurious association.
 
-### inferential statistics
+All the same: ⟮(confound|lurk)⟯(⟮er|ing⟯ ⟮(variable|factor)⟯
 
-#### populations ＆ samples
-
-A ⟮parameter⟯ is a ⟮truth⟯ about ⟮the population⟯ 
-a ⟮statistic⟯ is a ⟮truth⟯ about ⟮a sample⟯ 
-A ⟮statistic⟯ that ⟮is being used to estimate⟯ a ⟮parameter⟯ is called an ⟮estimator⟯. 
-
-#### hypothesis testing
-
-##### Types of errors
-
-⟮c+;s5:8;H⎵0⎵ true⟯|⟮c+;s5:8;H⎵0⎵ false⟯
-⟮c+;s5:8;reject H⎵0⎵⟯|⟮c+;s1:4;Type I error⟯|⟮c+;s1:4;Correct Conclusion⟯
-⟮c+;s5:8;fail to reject H⎵0⎵⟯|⟮c+;s1:4;Correct Conclusion⟯|⟮c+;s1:4;Type II error⟯
+»⟮a confounding variable⟯« is ⟮a variable⟯ that ⟮influences both dependent and independent variable⟯, causing ⟮＿a spurious association＿⟯.
 
 ## applied statistics
-
-### dice
-
-A ⟮natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮roll⟯ that ⟮has a specific number⟯ (most commonly ⟮c+;s4;the highest/lowest of the die⟯ ) ⟮without any modifiers⟯.
 
 ### empirical statistical laws
 
@@ -1115,20 +1141,22 @@ A ⟮natural x⟯ (e.g. ⟮c+;s1,4-6;natural 1, natural 20⟯ ) is a ⟮roll⟯ 
 flex-container:✫320px-Probability_density_function_of_Pareto_distribution.svg.png✫✫Pareto_principle.png✫
 
 
-The ⟮pareto distribution⟯ is a ⟮ (family of) probability distributions⟯ that applies to a large set of ⟮natural⟯ and ⟮social⟯ phenomena. 
-A well-known ⟮s1;pareto distribution⟯ with ⟮a specific parameter⟯ reflects the idea that ⟮80% of outcomes are due to 20% of causes⟯, which has become known as ⟮the pareto principle⟯ (Aka ⟮the law of the vital few⟯, ⟮the principle of factor sparsity⟯). 
-
+The »⟮pareto distribution⟯« is a ⟮family of probability distributions⟯ that ⟮applies to⟯ ⟮a large set of natural and social phenomena⟯. 
+The ⟮＿pareto principle＿⟯ is a ⟮specific⟯ ⟮＿pareto distribution＿⟯.
+»⟮The pareto principle⟯« says that ⟮80% of the coutcomes are due to 20% of causes⟯.
 
 ### citation metrics
 
-#### coupling ＆ co-citation
+#### coupling 
 
 flex-container:✫Visualization_of_co-citation_analysis_methods.png✫
 
-Bibliographic coupling measures how many of the same works two documents cite. 
-If two documents cite at least one work in common, they are bibliographically coupled. 
-The bibliographic coupling strength/index will be 3 if they cite 3 works in common.
-Co-citation measures how frequently two documents are cited together by other documents. 
-If at least one other document cites two documents in common these documents are said to be co-cited. 
-The more co-citations two documents receive, the higher their co-citation strength/index (e.g. co-cited by 3 works → co-citation strength of 3). It is supposed to predict how semantically-related they are.
+»⟮Bibliographic coupling⟯« is about if ⟮two documents⟯ ⟮cite the same works⟯. 
+Two documents are ⟮＿bibliographically coupled＿⟯ if ⟮they cite at least one work in common⟯. 
+The »⟮bibliographic coupling strength/index⟯« is ⟮how many of the same works⟯ ⟮two documents cite⟯.
 
+#### co-citation
+
+»⟮Co-citation⟯« is about if ⟮two documents⟯ ⟮are cited together by⟯ ⟮other documents⟯. 
+Two documents are ⟮＿co-cited＿⟯ if ⟮at least one other document cites two documents in common⟯.
+The »⟮co-citation strength/index⟯« is ⟮how many other documents⟯ ⟮cite two documents together⟯.
