@@ -1046,12 +1046,12 @@ A »⟮discrete random variable⟯« has either ⟮a finite⟯ or ⟮a countably
 
 ##### box plot
 
-      Q1     Q2    Q3
-min    ┏━━━━━┳━━━━━┓    max
+      ⟮Q1⟯     ⟮c_;Q2⟯    ⟮c_;Q3⟯
+⟮min⟯    ┏━━━━━┳━━━━━┓    ⟮c_;max⟯
  ┃━━━━━┃     ┃     ┃━━━━━┃
-  whskr┗━━━━━┻━━━━━┛whskr
+  ⟮whskr⟯┗━━━━━┻━━━━━┛⟮c_;whskr⟯
        ┗━━━━━┳━━━━━┛
-            IQR
+            ⟮IQR⟯
 
 #### summary statistics
 
@@ -1075,9 +1075,9 @@ min    ┏━━━━━┳━━━━━┓    max
 »⟮A quantile⟯« ⟮divides⟯ something into ⟮intervals with equal probability⟯.
 ⟮＿A quantile＿⟯ may divide ⟮a probability distribution⟯ or ⟮a set of observations⟯.
 Importantly, ⟮＿a quantile＿⟯ is ⟮the divider⟯, not ⟮c_;the groups created⟯.
-The groups created by quantiles are known as halves, thirds, quarters...
-A q-quantile divides the thing into q groups of equal sizes. 
-a q-quantile creates q-1 quantiles.
+⟮The groups created⟯ by ⟮＿quantiles＿⟯ are known as ⟮halves, thirds, quarters⟯...
+A »⟮q-quantile⟯« divides the thing ⟮into q groups of equal sizes⟯. 
+a ⟮＿q-quantile＿⟯ creates ⟮q-1⟯ ⟮＿quantiles＿⟯.
 
 ####### various quantiles
 
@@ -1099,7 +1099,7 @@ The ⟮＿IQR＿⟯ is a ⟮＿disperson＿⟯ ⟮＿summary statistic＿⟯.
 
 ##### shape
 
-Shape as a summary statistic is how the data values are distributed across the range of values in the sample.
+»⟮Shape⟯« as ⟮＿a summary statistic＿⟯ is ⟮how the data values are distributed⟯ ⟮across the range of values in the sample⟯.
 
 ### inferential statistics
 
