@@ -59,6 +59,7 @@ emic unit|etic unit|allo-
 ⟮grapheme⟯|⟮c+;s9;glyph⟯|⟮c+;s8;allograph⟯
 phraseme|phrase|allophrase
 sememe|seme|alloseme
+pragmeme|pract|allopract
 
 
 The seme is the smallest unit of meaning in semantics.
@@ -2034,6 +2035,63 @@ Individual body parts are often used to refer to an entire body, constituting a 
 Totum pro parte is synechdoche where a whole refers to its part.
 An example for a totum pro parte is the word America for the United States.
 
+## Reference
+
+### Deixis
+
+What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮deictic⟯
+
+#### vs. indexicality
+
+Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
+Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
+
+#### types of deixis
+
+Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
+
+Would ☞you☜ like to have dinner?|personal deixis
+She was sitting over ☞there☜.|spatial deixis
+It is raining ☞now☜.|temporal deixis
+I enjoy living in ☞this☜ city.|spatial deixis
+☞I☜ am going to the movies.|personal deixis
+
+##### spatial deixis
+
+Spatial deixis often as two or three distances, rdepending on the language.
+A language with two values for spatial deixis has the values proximal and distal.
+For a language with two values for spatial deixis, proximal is close(r) to the speaker and distal is far/further from the speaker.
+A language with three values for spatial deixis has the values proximal, medial, and distal.
+For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
+Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
+
+#### *phora
+
+*phora is about the reference of an expression.
+*phora is a form of deixis.
+
+##### types of *phora
+
+onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
+
+
+table:phora|reference depends on
+Exophora|reference of expression depends on outside of the text
+Endophora|reference of expression deptends on something in the text
+Anaphora|form of endophora where referent depends on something before it
+Cataphora|form of endophora where referent depends on something after it
+
+##### endophora
+
+In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
+Most often, *phora is created by proforms.
+Anaphora is sometimes also used as a synonym to endophora.
+"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
+
+###### binding
+
+In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
+
 ## semantic relationships between multiple parts
 
 ### restriction
@@ -2059,28 +2117,69 @@ THEME|undergoes action, does not change state
 
 Pragmatics is the subfield that studies how context contributes to meaning.
 
-In linguistics, a phatic expression is communication which serves a social function, not a semantic one.
+## speech acts
 
-## backchanneling
+Speech act theory is the field studying speech acts.
+The idea of speech acts was popularized by JL Austin in How to Do Things with Words (1962).
+A speech act consists of locutionary, illocutionary and perlocutionary act.
+The locutionary act is comprised of the expressing of the utterance (with all its phonological, syntactic and semantic aspects)
+the illocutionary act is what one does in saying something.
+the perlocutionary act is what has done due to the consequences of saying something.
+the perlocutionary act depends of the reaction of the hearers, the illocutionary act does not.
+Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
+a locutionary, illocutionary or perlocutionary act has a locutionary, illocutionary or perlocutionary force attached.
 
-In linguistics, backchanneling during a conversation occurs when one participant is speaking and another participant interjects responses to the speaker.
+## pragmeme
+
+A pragmeme is a pragmatic act.
+A pract is the combination of a certain utterance and a context that give rise to the pragmatic act.
+Allopracts are all practs that result in the same pragmatic act.
+Pragmatic act theory studies pragmemes.
+Pragmatic act theory was developed by Mey starting around 2000.
+Pragmatic act theory has become the standard sucessor theory to speech act theory. 
+In relation to speech acts, the pragmatic act subsumes both illocutionary and perlocutionary act.
+^it seems to me the point is that there is no such thing as a properly illocutionary act, since no pract may exist without context
+
+## categorization
+
+Austin distinguished 5 different types of illocutionary acts.
+Austin's distinction of 5 types of illocutionary has been largely adopted by pragmatic act theory.
+The 5 types of illocutionary/pragmatic acts are verdictive, commissive, exercitive, expositive, behabitives.
+
+
+table:name|does|examples
+verdictive|give a judgement
+commissive|comitting oneself to a course of action|promising, betting
+exercitive|exercising power/influence|excommunicating, resigning
+expositivies|explaining the relationship to larger discourse (lines of reasoning)|postulating, defining
+behabitives|regulating social relationships|toasting, apologizing
+
+## lexical items that give rise to certain speech acts
+
+### phatic expression
+
+A phatic expression is a lexical unit devoid of semantic content, but expressing a behabitive pragmatic act.
+
+### Discourse markers
+
+An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
+A discourse marker is a different lexical unit which gives up its usual function to convey an expositive pragmatic act.
+
+### backchanneling
+
+A backchannel is an interjected response while another person is speaking.
 Backchannel responses are often phatic expressions.
 
 Japanese backchannels are called 　相（あい）　槌（づち）.
 　相（あい）　槌（づち） are quite common in japan.
 
-## Discourse markers
+### Hedge
 
-An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
-A discourse marker is not itself a part of speech, rather, other words or phrases, frequently though not always interjections take on the pragmatic form of a discourse marker.
+a hedge is a lexical item used to express the verdictive pragmatic act of expressing uncertainty.
 
-## Speech acts
+## specific theories 
 
-Speech act theory is the field studying speech acts.
-A speech act includes everything that happens when a speaker utters a utterance.
-The idea of speech acts was popularized by JL Austin in How to Do Things with Words (1962).
-
-### Austins orig distinction
+### Austins original constative/performative distinction
 
 The original distincition Austin made before he arrived at speech acts was between ⟮constative and performative utterances⟯ utterances.
 constative utterances (=constatives)|have a truth value, state a fact
@@ -2090,39 +2189,13 @@ An utterance is performative according to the hereby-criterion, if inserting the
 「I promise to pay you 50$ tomorrow.」 is performative? ⟮c+;「I hereby promise to pay you 50$ tomorrow.」 → works → performative⟯
 「The cat is on the mat.」 is not performative?  「The cat is hereby on the mat.」 → has changed the meaning → not performative (constative)
 Problematically for austins original distinction, a sentence can both performative and constative.
-
-### Austins later distinction
-
 Later, austin moved to a distinction between locutionary, illocutionary and perlocutionary speech acts.
-According to austin, each utterance has a locutionary and illocutionary act attached to them, even if the illlocutionary act may only be that of asserting.
-locutionary act|comprised of the performance of an utterance in all its phonological, syntactic and semantic aspects
-the illocutionary act is what one does **in** saying something.
-Examples of illocutionary acts: announcing; assuring; authorizing; censuring; committing; complimenting; conceding; confessing;...
-the perlocutionary act is what has done due to the consequences of saying something.
-the perlocutionary act depends of the reaction of the hearers, the illocutionary act does not.
-Examples of perlocutionary ac
-a locutionary, illocutionary or perlocutionary act has a locutionary, illocutionary or perlocutionary force attached.
-Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
-Illocutionary and perlocutionary acts try to achieve some perlocutinary effect.
 
-#### types of illoc acts
 
-Austin distinguished 5 different types of illocutionary acts: verdictive, commissive, exercitive, expositive, behabitives
-Searle critizised austins distinction of 5 different type of illocutionary acts for it being unclear on what the distinction is actually based.
-
-give a judgement   verdictive
-comitting oneself to a course of action   commissive|promising, betting
-exercising power/influence   exercitive|excommunicating, resigning
-explaining the relationship to larger discourse (lines of reasoning)   expositivies|postulating, defining
-regulating social relationships   behabitives|toasting, apologizing
-
-## implicature
-
-in the linguistic field of pragmatics, an ⟮inference⟯ (generally an ⟮implicature⟯) is said to be ⟮defeasible⟯ or ⟮cancellable⟯ if ⟮it can be made to disappear (e.g. by saying something contradictory⟯.
-
-### gricean
+### gricean implicature
 
 Implicature is a term introduced by Grice which is whatever a person implied/meant by saying something else.
+in the linguistic field of pragmatics, an ⟮inference⟯ (generally an ⟮implicature⟯) is said to be ⟮defeasible⟯ or ⟮cancellable⟯ if ⟮it can be made to disappear (e.g. by saying something contradictory⟯.
 According to grice, implicatures may be conventional or nonconventional.
 
 #### conventional
@@ -2190,67 +2263,6 @@ In the context of ⟮pragmatics⟯, ⟮Implicational scale⟯ has a somewhat dif
 {succeed in, try to, want to}
 {certain, probable, possible}
 ```
-
-## Reference
-
-### Deixis
-
-What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮deictic⟯
-
-#### vs. indexicality
-
-Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
-Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
-
-#### types of deixis
-
-Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
-
-Would ☞you☜ like to have dinner?|personal deixis
-She was sitting over ☞there☜.|spatial deixis
-It is raining ☞now☜.|temporal deixis
-I enjoy living in ☞this☜ city.|spatial deixis
-☞I☜ am going to the movies.|personal deixis
-
-##### spatial deixis
-
-Spatial deixis often as two or three distances, rdepending on the language.
-A language with two values for spatial deixis has the values proximal and distal.
-For a language with two values for spatial deixis, proximal is close(r) to the speaker and distal is far/further from the speaker.
-A language with three values for spatial deixis has the values proximal, medial, and distal.
-For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
-Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
-
-#### *phora
-
-*phora is about the reference of an expression.
-*phora is a form of deixis.
-
-##### types of *phora
-
-onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
-
-
-table:phora|reference depends on
-Exophora|reference of expression depends on outside of the text
-Endophora|reference of expression deptends on something in the text
-Anaphora|form of endophora where referent depends on something before it
-Cataphora|form of endophora where referent depends on something after it
-
-##### endophora
-
-In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
-Most often, *phora is created by proforms.
-Anaphora is sometimes also used as a synonym to endophora.
-"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
-
-###### binding
-
-In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
-
-## Hedge
-
-a hedge is a word or phrase used in a sentence to express ambiguity, probability, caution, or indecisiveness about the remainder of the sentence, rather than full accuracy, certainty, confidence, or decisiveness.
 
 
 # linguistics and the mind
