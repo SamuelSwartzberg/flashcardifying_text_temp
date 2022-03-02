@@ -845,20 +845,6 @@ beware is a verb that is defective, as we can see by the fact that we can't say 
 A verb that follows a pattern of a typical inflectional category is called regular, else irregular.
 Inflectional categories of verb conjugations are called verb clasess.
 
-### Lexeme
-
-A lexeme is the fundamental unit of the lexicon of a language.
-A lexeme is an abstract unit that underlies all its inflectional variants.
-A lexeme can be instantiated in different inflectional variants = words.
-By convention, lexemes are represented in all caps.
-Any lexeme belongs to a particular syntactic category/word class.
-A ⟮lemma⟯ is the form that is chosen by ⟮convention⟯ to represent the ⟮lexeme⟯.
-A lexical item/unit is like a lexeme, but can be ⟮multiple words long⟯
-Lexical item and lexical unit are synonyms.
-
-The lexis of a language is, depending on your definition, either a subset (of words) grouped by a specific linguistic criteria or ⟮the complete set of all possible words in a language⟯
-Lexicon seems to be a synonym of lexis.
-
 ### stem, base, root
 
 The root is the irreducable morphological core of a word, with the core lexical meaning.
@@ -1981,61 +1967,6 @@ Semantics is the field of linguistics that studies sememes.
 
 Lexical semantics is concerned with the relationships between lexemes and sememes
 
-### types
-
-#### lexicology
-
-Lexicology is the study of lexemes and lexica (collections of lexemes)
-
-
-#### lexicography
-
-Practical lexicography is compiling, writing and editing dictionaries.
-
-The headword is the word ⟮under which dictionary entries appear⟯
-The form of a lexeme used as a headword is usually its lemma.
-Sometimes lemma and headword are used synonymously.
-
-#### terminology
-
-##### kinship terminology
-
-###### english
-
-⟮Your parent's siblings⟯ are called ⟮parsib⟯/⟮pibling⟯/⟮auncle⟯. 
-⟮Your siblings children⟯  are called ⟮niblings⟯. 
-
-family term|female|male
-⟮Parsib/pibling/auncle⟯|⟮aunt⟯|⟮uncle⟯
-⟮nibling⟯|⟮niece⟯|⟮nephew⟯
-
-
-#### onomastics
-
-Onomastics is the study of proper names.
-
-##### epithets
-
-an epithet is a word/phrase that accompanies a name ⟮as a matter of course⟯
-Something that replaces a name can sometimes also be called an ⟮epithet⟯
-Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
-
-##### misc.
-
-A necronym may be the name of a person who has died, but more commonly is a substitute name used to refer to a person who has died (instead of the name the person had in life)
-
-##### placeholder names
-
-A placeholder name is a name for something that is purposefully generic.
-
-thing it is placeholding|language|value
-given name (male)|en|john
-given name (female)|en|jane
-given name (male)|ja|太郎
-given name (female)|ja|花子
-family name|en|doe
-family name|ja|山田
-
 ### semantic relations
 
 lexical relations = semantic relations.
@@ -2089,15 +2020,8 @@ A »concept hole« is an uncommon term for the need of certain concept, but ther
 
 ## associations between sememe-containers and sememes
 
-### direct
+In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 
-#### nouns
-
-As regards their referents, proper and common nouns are often contrasted.
-A proper nouns is a nouns that refers to a single entity or group of entities considered unique.
-A common noun is a noun that refers to a class of entities or a member of that class.
-In English, proper nouns generally but not always don't take an article, and generally but not always are singular.
-In English, proper nouns are capitalized.
 
 ### indirect
 
@@ -2367,19 +2291,123 @@ The ⟮weak⟯ version of ⟮＿linguistic relativity＿⟯ says the relationshi
 The ⟮「sapir-whorf hypothesis」⟯ is misleading because ⟮sapir⟯ ⟮did not endorse it much at all⟯, and ⟮c-;whorf⟯ ⟮was not the first to endorse it⟯
 ⟮the strong version of⟯ ⟮＿linguistic relativity＿⟯ is also called ⟮linguistic determinism⟯
 
-# phraseology
+# lexicology
 
-In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
+Lexicology is the study of lexical units.
+Lexical item and lexical unit are synonyms.
+A lexical unit can be a part of a word, word, or chain of words.
+A lexical unit is the fundamental unit of a language's lexicon.
+A lexis is a set of lexical units grouped by some criteria.
+The lexis of a language is the set of all lexical units in a given language.
+A lexicon/lexis is a set of lexical units grouped by some criteria.
+Lexicon may be a synonym of lexis of a language, or may be a type of dictionary on the lexis of a language.
+
+## Lexeme
+
+A lexeme is a lexical unit that is a single word.
+A lexeme itself is an abstract unit.
+A lexeme may have many inflectional variants.
+Each of a lexeme's inflectional variants are words.
+By convention, lexemes are represented in all caps.
+Any lexeme belongs to a particular syntactic category/word class.
+A ⟮lemma⟯ is the form that is chosen by ⟮convention⟯ to represent the ⟮lexeme⟯.
+
+## lexicography
+
+Lexicography is a branch of lexicology.
+Lexicography is compiling, writing and editing dictionaries.
+
+### headword
+
+The headword is the word ⟮under which dictionary entries appear⟯
+The form of a lexeme used as a headword is usually its lemma.
+Sometimes lemma and headword are used synonymously.
+
+## types of lexical units
+
+### nounlikes
+
+#### terms
+
+Terminology as a field is the study of terms.
+Terminology as a grouping is a set of terms.
+A term is a lexical unit with a meaning related to a particular field.
+
+##### kinship terminology
+
+Kinship terminology is the set of terminology related to kinship relationships.
+
+###### english
+
+⟮Your parent's siblings⟯ are called ⟮parsib⟯/⟮pibling⟯/⟮auncle⟯. 
+⟮Your siblings children⟯  are called ⟮niblings⟯. 
+
+family term|female|male
+⟮Parsib/pibling/auncle⟯|⟮aunt⟯|⟮uncle⟯
+⟮nibling⟯|⟮niece⟯|⟮nephew⟯
+
+#### proper and improper
+
+Nouns as lexemes may be proper or common.
+A proper nouns is a nouns that refers to a single entity or group of entities considered unique.
+A common noun is a noun that refers to a class of entities or a member of that class.
+
+##### orthography
+
+###### in english
+
+In English, proper nouns generally but not always don't take an article, and generally but not always are singular.
+In English, proper nouns are capitalized.
+
+##### proper nouns
+
+Onomastics is the study of proper nouns.
+
+###### epithets
+
+an epithet is a word/phrase that accompanies a name ⟮as a matter of course⟯
+Sometimes, an epithet may also be something that replaces a name. 
+Examples of epithets are pallas athena, alfred the great, suleiman the magnificent, richard the lionheart
+
+###### people in certain states
+
+####### necronyms
+
+A necronym is a proper noun which references a person who has died.
+Most commonly, the additional constraint is added to necronym that the necronym is not the same as the person had in life.
+
+##### placeholder names
+
+A placeholder name is proper noun as an purposefully generic identifier.
+
+###### in various languages
+
+table:thing it is placeholding|language|value
+given name (male)|en|john
+given name (female)|en|jane
+given name (male)|ja|太郎
+given name (female)|ja|花子
+family name|en|doe
+family name|ja|山田
+
+## phraseology
+
 Phraseology is the study of phrasemes and related phenomena.
-Phrasemes are multi-word expressions of which their meaning is not completely deducable from their parts, i.e. that violate the principle of compositionality to a greater or lesser degree.
+A phraseme is a multi-word lexical unit which violates the principle of compositionality to some degree (i.e. their meaning is not completely deducable from their parts)
 
-A ⟮snowclone⟯ is a ⟮cliche⟯ ⟮phrase⟯ with ⟮one or more blanks⟯ that ⟮keeps getting⟯ reused.
-⟮c+; In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful⟯ are examples of ⟮snowclones⟯
+### types of phrasemes
 
-A chunk is a sequence of two or more words that cooccur in language with high frequency but ⟮are not idiomatic⟯ (this is more language-learning related terminology, in contrast to collocation)
+#### phrasal templates
 
+A phrasal template is a template with multiple empty slots which allos one to create phraseme-like constructions at will.
+Snowclone is a synonym of phrasal template, though it carries the nuance that the template is very cliche.
+Examples In space, no one can hear you X; X is the new Y; The mother of all X; X-ing while Y; To X or not to X; Have X, will travel; X considered harmful
 
-## idioms
+#### chunk
+
+A chunk is a sequence of two or more words that cooccur with high frequency but don't quite meet the threshold for being a phraseme.
+
+#### idioms
 
 An idiom is a type of phraseme which violates the principle of compositionality to a very high degree.
 Most commonly, idioms are either complement verb or subject complement verb.
@@ -2929,7 +2957,7 @@ Something being reduced to signification only (which is amplified) (rare word)  
 
 MISSING: linguistic item/unit
 
-# -> phrasemics
+# ???
 
 ## metaphor
 
