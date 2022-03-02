@@ -2430,6 +2430,8 @@ Types of borrowings
           loan translation, loan rendition
 
 
+A learned borrowing is a planned, purposeful borrowing, esp. from a classical language.
+
 ### Language death
 
 A language with at least one native speaker|living language
@@ -2614,45 +2616,6 @@ V2 word order is that the verb comes in the second syntactically relevant place 
 In V2 word order, the first constituent functions as the topic.
 
 A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
-
-# corpora ＆ collections
-
-⟮forvo.com⟯ is ⟮the largest⟯ dictionary/library/archive for ⟮pronunciations⟯, it also has an AAPI
-⟮Tatoeba⟯ is a ⟮large⟯ ⟮corpus⟯ of ⟮sentences⟯ and their ⟮translations⟯ into ⟮many other languages⟯.
-
-## corpora
-
-A ⟮corpus⟯ is a ⟮set⟯ of ⟮text/language⟯. 
-⟮Corpora⟯ are generally designed to be ⟮machnine-readable⟯. 
-⟮Corpus linguistics⟯ studies ⟮language⟯ ⟮via corpora⟯. 
-The ⟮corpus⟯ is a ⟮sample⟯ of the ⟮population (all relevant language⟯) 
-
-### parallel text
-
-A ⟮parallel text⟯ is a text ⟮placed alongside⟯ ⟮its translation(s)/transcriptions.⟯ 
-A ⟮corpus⟯ of ⟮parallel texts⟯ is ⟮a parallel corpus⟯ 
-The ⟮rosetta stone was⟯ ⟮a parallel text⟯ with the text ⟮in ancient egyptian⟯ written in both ⟮hieroglyphic⟯ and ⟮demotic⟯ ⟮scripts⟯ as well as in ⟮ancient greek⟯. 
-
-## collocations
-
-A ⟮collocation⟯ is a series of words or terms that ⟮co-occur⟯ ⟮more often than would be expected by chance⟯. 
-⟮Colligation⟯ is ⟮collocation⟯ with ⟮syntactic categories instead of specific words⟯. 
-⟮Semantic prosody⟯, also ⟮discourse prosody⟯, describes ⟮seemingly neutral words⟯ ⟮gaining certain associations⟯ through ⟮frequent occurrences with particular collocations⟯. 
-
-## concordances
-
-flex-container:✫KWIC.png✫✫KWOC.png✫✫KWAC.png✫
-
-
-A ⟮concordance⟯ is ⟮a listing⟯ of ⟮each occurrence⟯ of ⟮a word (or pattern⟯) in ⟮a text or corpus⟯, presented ⟮with the words surrounding it⟯. 
-⟮Key Word In Context⟯ is ⟮the most common⟯ format for ⟮concordances⟯. 
-⟮ptx⟯ is ⟮a shell command⟯ that ⟮produces a KWIC concordance⟯. 
-
-
-name|description
-⟮Key word in context (KWIC⟯)|⟮Keyword⟯ appears ⟮in the middle of concordance context⟯
-⟮Key word out of context (KWOC⟯)|⟮Keyword⟯ appears ⟮to the left⟯, with ⟮the whole context including the word after it.⟯
-⟮Key word alongside/and/augmented in context (KWAC⟯)|⟮Keyword⟯ appears ⟮to the left⟯, with ⟮the rest of the context (but not the word after it⟯), may also refer to ⟮adding extra info to the collocation⟯
 
 # theoretical linguistics
 
