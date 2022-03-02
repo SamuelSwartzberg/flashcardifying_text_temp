@@ -2329,62 +2329,43 @@ In linguistics, binding is the phenomenon in which endophoric elements such as p
 a hedge is a word or phrase used in a sentence to express ambiguity, probability, caution, or indecisiveness about the remainder of the sentence, rather than full accuracy, certainty, confidence, or decisiveness.
 
 
-# Cognitive linguistics
+# linguistics and the mind
 
-## conceptual metaphor
+Cogntivie linguistics is a field that studies how the things we know about the brain/mind generally give rise to human language. 
+Thus cognitive linguistis would reject the claim that language is a separate faculty of the brain.
+Psycholinguistics is a field that studies how the brain allows us to do language-related tasks such as language aquisition, comprehension, production.
+
+## Cognitive linguistics
+
+### conceptual metaphor
 
 The idea of conceptual metaphor was coined by Lakoff ＆ Johnson in their seminal book Metaphors We Live By (1980)
 
-set of correspondences make up what?  a mapping 
-A structural metaphor is one where we structure one concept in therms of another
-argument|Argument is war
-time|time is money / a limited resource / a valuable commodity (all related)
-Conceptual metaphor is said to be systematic because the structure of the source domain carries over into the target domain
-For Lakoff and Johnson, if we had different conceptual metaphors, our thoughts and the world  would be radically different
-For Lakoff and Johnson, if we instead had the conceptual metaphor Argument is a dance, what would be different?  fundamentally, the experiences and outcomes of arguments
-For Lakoff and Johnson, if we visited a world that had radically different conceptual metaphors e.g. for arguing, we would look at them and...  ⟮would not even recognize them as arguing⟯
-For Lakoff and Johnson, of the two things in a conceptual metaphor, ⟮c+;one thing is ⁑understood⁑ in the terms of another⟯
-For a mapping, what does it consist of, internally (waht makes up the thing that ends up being TARGET IS SOURCE)?  ⟮a set of correspondences (the structure)⟯
-For structural metaphors, in how far is one structured in terms of the other?  ⟮only partially⟯
-For structural metaphors, the fact that one thing only partially structures the other means that structural metaphor sneakily does what?  ⟮hides part of the thing being structured⟯
-For structural metaphors, what can one do, beside use the conventional structurings?  ⟮extend the structure more fancifully⟯
-For structural metaphors, what would be the case if one thing would be completely structured in terms of the other?  ⟮they would just be the same⟯
-In Metaphors We Live By, Lakoff and Johnson argue that our ordinary conceptual system is ⟮fundamentally metaphorical⟯
-The argument that Lakoff and Johnson make is based on ⟮linguistic evidence, but is about how we think⟯
-Conceptual metaphors are generally written  in ⟮small caps⟯
-⟮Your claims are idefensible, he attacked every weak point, I won on points, I tried to best to hold my ground, but I lost⟯ are all examples of the fact that argument is structured by the metaphor ⟮Argument is war⟯
-In the metaphor love is is a journey, what might some of the correspondences that make up this mapping be?  ⟮The lovers correspond to travelers, the love relationship corresponds to the vehicle, the lovers common goals correspond to their common destinations on the journey...⟯
-Structural metaphors are structured internally, but they are also structured how?  ⟮in a system with other structureal metaphors (via entailment, etc.)⟯
-The book Metaphors We Live By claims what by saying we live by them?  ⟮Fundamentally, our life is structured by metaphor⟯
-The fact that we can dress ideas up in fancy clothes, but this is not something we would conventionally say, proves that structural metaphors are what?  ⟮extensible⟯
-What does the fact that in an argument we can lose sight of the part of the argument where we're giving a valuable resource show about the structuring of structural metaphor?  ⟮that its only partial (and thus hides things)⟯
-What langauge did Lakoff and Johnson study for Metaphors We Live By?  ⟮english⟯
-for love is a journey, the source domain is ⟮journey⟯, the target domain is love
-```
-I don’t have the time to give you. 
-How do you spend your time these days? 
-That flat tire cost me an hour. 
-I’ve invested a lot of time in her. 
-I don’t have enough time to spare for that. 
-```   
+A conceptual metaphor is a metaphor where one thing is understood in terms of another.
+A structural metaphor is a metaphor that structures one thing in terms of another.
+Conceptual metaphors are structural metaphors.
+A mapping is a single conceptual/structural metaphor.
+A mapping consists of a source domain, a target domain, and a set of correspondences between the domains.
+e.g. Love is the target domain, a journey is the source domain
+The set of correspondences of a mapping represents the structure that structural metaphor is referring to.
+A correspondence is a equivalence between one element of the target domain and one element of the source domain.
+e.g. for LOVE IS A JOURNEY, the lovers are travelers, the relationship is the vehicle, the lovers common goals are destinations on the journey.
+Within a mapping, new correspondences may be created ad hoc, e.g. for stylistic effect.
+A mapping is conventionally indicated as TARGET IS SOURCE.
+The target domain is only partially structured in terms of the source domain.
+The target domain only being partially structured in terms of the source domain means that only some attributes of the source domain carry over to the target domain.
+Since the target domain is only partially structured in terms of the source domain, any conceptual/structural metaphor also hides/obscures things.
+To Lakoff ＆ Johnson, all our conceptual system is based on conceptual metaphor.
 
-time is money / a limited resource / a valuable commodity (all related)
-A single conceptual metaphor   a mapping
-One of the metaphors that underlie our conceptual system   A conceptual metaphor
-The thing that is mapped from (the thing that provides the structure)   the source domain
-The thing that is mapped to (the thing that is structured)   the target domain
+### linguistic relativity
 
-# Psycholinguistics
-
-Psycholinguistics or psychology of language is the study of the interrelation between linguistic factors and psychological aspects.[1] The discipline is mainly concerned with the mechanisms by which language is processed and represented in the mind and brain
-
-## linguistic relativity
-
-linguistic relativity exists in a string and a weak version
-linguistic relativity is more commonly but misleadingly called the sapir-whorf hypothesis.
-The sapir-whorf hypothesis is misleading because sapir did not endorse it much at all, and whorf was not the first to endorse it
-strong version of linguistic relativity|language determines thought completely|linguistic determinism
-weak version of linguistic relativity|language influences thought to some ectent
+»⟮Linguistic relativity⟯« is the idea that ⟮the structure of language⟯ ⟮affects⟯ ⟮the speakers cognition⟯.
+⟮＿linguistic relativity＿⟯ exists in ⟮a strong⟯ and ⟮c_;a weak⟯ ⟮c_;version⟯.
+The ⟮strong⟯ version of ⟮＿linguistic relativity＿⟯ says the relationship between language structure and thought is one of ⟮determination⟯.
+The ⟮weak⟯ version of ⟮＿linguistic relativity＿⟯ says the relationship between language structure and thought is one of ⟮influence⟯.
+⟮＿linguistic relativity＿⟯ is more ⟮commonly⟯ but ⟮c_;misleadingly⟯ called the ⟮「sapir-whorf hypothesis」⟯.
+The ⟮「sapir-whorf hypothesis」⟯ is misleading because ⟮sapir⟯ ⟮did not endorse it much at all⟯, and ⟮c-;whorf⟯ ⟮was not the first to endorse it⟯
+⟮the strong version of⟯ ⟮＿linguistic relativity＿⟯ is also called ⟮linguistic determinism⟯
 
 # phraseology
 
