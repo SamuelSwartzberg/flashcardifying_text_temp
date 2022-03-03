@@ -579,29 +579,41 @@ The number of permutations of n distinct objects is n factorial.
 
 flex-container:✫sm_220px-6n-graf.svg.png✫
 
+### what is a graph
+
 ⟮Graphs⟯ are studied in ⟮graph theory⟯ 
 A ⟮graph⟯ consists of ⟮a pair⟯. 
 In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
 ⟮The pair⟯ that ⟮a graph consists⟯ of itself is made up of ⟮a set of⟯ ⟮vertices⟯, and ⟮a set of⟯ ⟮edges⟯. 
 In terms of comp. sci. a ⟮graph⟯ is ⟮an ADT⟯. 
 
+### edges
+
 ⟮Edges⟯ are described by ⟮a pair of⟯ ⟮vertices⟯ 
 For ⟮an edge {x, y⟯}, ⟮x and y⟯ are ⟮the endpoints⟯. 
 For an ⟮undirected graph⟯, an ⟮edge⟯ is described by ⟮an unordered pair⟯. 
 For an ⟮directed graph⟯, the ⟮edge⟯ is described by ⟮a ordered pair.⟯ 
+
+### types of graphs
 
 ⟮Graphs⟯ may be ⟮directed⟯, that is ⟮an edge has a direction⟯, or ⟮undirected⟯, that is ⟮an edge does not have a direction⟯. 
 ⟮Graphs⟯ may be ⟮simple⟯, where ⟮two vertices may only be connected by a single edge⟯, or ⟮sb; ⟮a multigraph⟯, where ⟮two vertices may be connected by multiple edges⟯.⟯ 
 A ⟮weighted⟯ ⟮graph⟯ is a ⟮graph⟯ in which ⟮a number is assigned⟯ to ⟮each edge⟯. 
 ⟮Weighted graphs⟯ are relevant for ⟮shortest path problems⟯. 
 
+### degree of a vertex
+
 The ⟮degree⟯ of a ⟮vertex⟯ is ⟮the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
 The ⟮maximum/minimum degree⟯ of ⟮a graph⟯ is ⟮the maximum/minimum degree of all its vertices.⟯ 
+
+### connections
 
 A ⟮regular graph⟯ is a graph where ⟮each vertex⟯ ⟮has the same amount of neighbors⟯. 
 Equivalently, a ⟮regular graph⟯ is one where ⟮each vertex⟯ has ⟮the same⟯ ⟮degree⟯. 
 A ⟮complete graph⟯ is a ⟮regular graph⟯ where ⟮each vertex⟯ is ⟮connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
 Equivalently, a ⟮complete graph⟯ is a graph with a ⟮degree⟯ of ⟮amount of vertices n - 1⟯. 
+
+### alternative terminology
 
 flex-container:⟮h∞;✫sm_directed_graph.svg✫⟯⟮ha;✫sm_multigraph.svg✫✫sm_weighted_graph.svg✫⟯
 
@@ -609,7 +621,7 @@ Graph-related thing|alternative names
 ⟮edges⟯|⟮links/lines⟯
 ⟮vertices⟯|⟮nodes/points⟯
 
-
+### image example
 
 flex-container:✫sm_220px-6n-graf.svg.png✫
 
@@ -621,9 +633,12 @@ In the image|name
 ⟮G⟯|⟮the graph⟯
 ⟮V⟯|⟮The set of vertices⟯
 
+### traversal
 
 ⟮Graph traversal⟯ is ⟮visiting all vertices once⟯ 
 ⟮Trees are a type of graph⟯, therefore ⟮tree traversal⟯ is a type of ⟮graph traversal⟯ 
+
+### sequences of vertices and edges
 
 A ⟮walk⟯ is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
 A ⟮trail⟯ is ⟮a walk (an alternating sequence of vertices and edges⟯) ⟮with no repeated edges⟯. 
@@ -634,14 +649,21 @@ A ⟮cycle⟯ is ⟮a circuit (a closed trail⟯) with ⟮no repeated vertex bes
 A ⟮graph⟯ ⟮without cycles⟯ is called ⟮acyclic⟯. 
 The ⟮length⟯ ⟮k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ are counted in ⟮edges⟯. 
 
+### connected
+
 flex-container:⟮h∞;✫Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png✫✫Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png✫⟯
+
 
 ⟮Two vertices⟯ are ⟮connected⟯ if ⟮there is a path between two vertices⟯, else ⟮s110;they are ⟮disconnected⟯.⟯ 
 ⟮A graph⟯ is ⟮connected⟯ if ⟮every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
 
+### subgraph
+
 A ⟮subgraph⟯ is a ⟮graph⟯ made up of ⟮a subset of⟯ ⟮vertices⟯ and ⟮edges⟯ of G. ⟮sb;The ⟮subset of vertices⟯ ⟮must contain⟯ ⟮all endpoints of the edges⟯.⟯ 
 A ⟮subtree⟯ is a ⟮subgraph⟯ of a ⟮tree⟯. 
 A ⟮proper subgraph⟯ is a ⟮subgraph of the graph⟯ that ⟮is not the current graph (and analogously for subtree⟯) 
+
+### adjacent
 
 ⟮Two vertices⟯ are ⟮adjacent⟯ if ⟮they share an edge (an edge exists between them⟯) 
 Equivalently, ⟮two vertices⟯ are ⟮adjacent⟯ if ⟮a path/walk/trail⟯ of ⟮length 1⟯ ⟮exists between them⟯. 
@@ -650,17 +672,26 @@ The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all
 The ⟮closed neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
 The ⟮open neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮containing the vertex v itself⟯ 
 
+#### domination
+
+A dominating set D is a subset of V such that every vertex not in D is adjacent to at least one member of D.
+Ergo a dominating set is the subset of V which ensures that every vertex not in the subset is adjacent to an element of the subset
+
 ### trees
 
-
+#### definiton
 
 A ⟮tree⟯ is an ⟮undirected⟯ ⟮connected⟯ ⟮acyclic⟯ ⟮graph⟯. 
 A ⟮rooted tree⟯ is ⟮a tree⟯ where ⟮one vertex has been designated the root⟯. 
+
+#### direct & movement
 
 In comp. sci., a ⟮tree⟯ is ⟮an ADT (or data structure, if implemented⟯) which is ⟮a rooted tree⟯ with ⟮an implied natural direction of downwards from the root⟯. 
 The ⟮root path⟯ is the ⟮path⟯ ⟮from a vertex to the root vertex⟯. 
 The ⟮depth⟯ of ⟮a vertex⟯ in a tree (comp. sci. ADT) is ⟮the length of the root path⟯. 
 Going ⟮towards⟯ ⟮vertices⟯ with ⟮greater depth⟯ is known as ⟮downward⟯, and going ⟮towarrds⟯ ⟮vertices⟯ with ⟮smaller depth⟯ is known as ⟮upwards⟯. 
+
+#### descendants & ancestors
 
 A ⟮child⟯ of a vertex in a tree (comp. sci. ADT) is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one larger than the current vertex.⟯ 
 In ⟮a tree (comp. sci. ADT⟯) each vertex has ⟮0 - ∞⟯ ⟮child vertices⟯. 
@@ -671,13 +702,24 @@ The ⟮parent of a vertex⟯ in a tree (comp. sci. ADT) is ⟮an adjacent vertex
 In ⟮a tree (comp. sci. ADT⟯) ⟮each vertex⟯ has ⟮one⟯ ⟮parent vertex⟯. 
 ⟮A vertex⟯ ⟮reachable by traversal through parent vertices⟯ is ⟮an ancestor vertex⟯. 
 
+#### dimensions
+
 ⟮The height of a vertex⟯ is ⟮the length⟯ of ⟮the longest downward path to a vertex⟯. 
 ⟮The height of the root vertex⟯ is ⟮the height of the tree⟯ 
-⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
 ⟮The amount of child vertices⟯ in a tree is ⟮the breadth of the tree⟯. 
+
+#### forest
+
+⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
+
+
+#### specialized types
 
 A ⟮tree (comp. sci. ADT⟯) ⟮where any vertex has at most two child vertices⟯ is a ⟮binary tree⟯. 
 A tree (comp. sci. ADT) that ⟮can be used for searching⟯ is ⟮a search tree⟯. 
+
+
+#### tree traversal
 
 ⟮Depth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮children vertices⟯ ⟮before⟯ ⟮sibling vertices⟯ 
 ⟮Breadth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮sibling vertices⟯ ⟮before⟯ ⟮children vertices⟯ 
