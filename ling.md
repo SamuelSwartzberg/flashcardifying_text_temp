@@ -2697,30 +2697,30 @@ MAY/OPTIONAL = truly optional. however, An implementation which does not include
 
 ### emic/etic
 
-An ⟮emic unit⟯ is an abstract unit of a number of variant forms.
-An etic unit is a variant form of an emic unit.
-Various types of emic/etic units exists for different fields/concerns.
-Emic units carry the name of the etic unit, suffixed with -eme.
-Etic units of the same emic units are allo-.
+»⟮An emic unit⟯« is ⟮an abstract unit⟯ of ⟮a number of⟯ ⟮variant forms⟯.
+»⟮An etic unit⟯« is ⟮a variant form⟯ of ⟮＿an emic unit＿⟯.
+⟮Various types of⟯ ⟮＿emic/etic units＿⟯ exists for ⟮different fields/concerns⟯.
+⟮＿Emic units＿⟯ carry ⟮the name of ＿the etic unit＿⟯, ⟮suffixed with -eme⟯.
+⟮＿Etic units＿⟯ of ⟮the same ＿emic units＿⟯ are ⟮allo-⟯.
 
 
 table:emic unit|etic unit-
 ⟮phoneme⟯|⟮phone⟯
 ⟮morpheme⟯|⟮morph⟯
 ⟮grapheme⟯|⟮glyph⟯
-phraseme|phrase
-sememe|seme
-pragmeme|pract
-lingueme|ling
-grammeme|gram
-lexical unit/lexeme|lex
+⟮phraseme⟯|⟮phrase⟯
+⟮sememe⟯|⟮seme⟯
+⟮pragmeme⟯|⟮pract⟯
+⟮lingueme⟯|⟮ling⟯
+⟮grammeme⟯|⟮gram⟯
+⟮lexical unit/lexeme⟯|⟮lex⟯
 
 ### things
 
-A linguistic unit is a generic name for an element which forms a sequence with others of its kind.
-A linguistic unit may be a phoneme, morpheme, phraseme, grapheme... (but isn't necessarily emic)
-A segment is a linguistic unit of which we're not sure which linguistic unit it is, or which it is is irrelevant.
-A lingueme is any linguistic emic unit which can be independently learned and transmitted.
+»⟮A linguistic unit⟯« is ⟮a generic name⟯ for ⟮an element⟯ which ⟮forms a sequence with others of its kind⟯.
+^A linguistic unit may be e.g. phoneme, morpheme, phraseme, grapheme, syllable...
+»⟮A segment⟯« is ⟮＿a linguistic unit＿⟯ of which ⟮we're not sure which linguistic unit it is⟯, or ⟮for which it is irrelevant⟯.
+»⟮A lingueme⟯« is ⟮any linguistic emic unit⟯ which can be independently learned and transmitted.
 A linguistic item is any linguistic thing under analysis
 
 ### feature
@@ -2807,6 +2807,8 @@ The endless nesting of signs creates ⟮an endless deferrment of meaning⟯
 ### langue and parole
 
 flex-container:✫sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg✫✫sm_planes_of_sound__thought.gif✫
+
+
 As regards languoids, ⟮De Sassure⟯ created the distinction between ⟮langue⟯ and ⟮parole⟯. 
 ⟮Langue⟯ is ⟮the structuralist system⟯ of a given languoid 
 ⟮Parole⟯ is ⟮any instance of the use of a languoid⟯ 
@@ -2819,21 +2821,3 @@ As regards languoids, ⟮De Sassure⟯ created the distinction between ⟮langue
 As regards viewpoints, De Sassure created the distinction between synchronic and diachronic.
 A »synchronic« viewpoint considers a languoid at a moment in time without taking its history into account. 
 If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a languoid.
-
-# quantitiative linguistics
-
-»⟮Quantitative linguistics⟯« is the branch of linguistics that investigates language using ⟮quantitative methods⟯.
-
-## linguistic law
-
-⟮＿A linguistic law＿⟯ is a phenomenon in ⟮＿quantitative linguistics＿⟯.
-»⟮A linguistic law⟯« is⟮ a statistical regularity⟯ in ⟮the relationship between scales⟯ of ⟮＿linguistic units＿⟯.
-
-## brevity law
-
-⟮Brevity law⟯ = ⟮zipf's law of abbreviation⟯
-»⟮Brevity law⟯« is ⟮＿a linguistic law＿⟯ that says ⟮the frequency of use⟯ of ⟮a word⟯ is ⟮inversely proportional⟯ to ⟮c-2;the length⟯ of ⟮a word⟯.
-According to ＿brevity law＿: The ⟮shorter a word is⟯, the ⟮more often it is used⟯;
-According to ＿brevity law＿: the ⟮longer a word is⟯, the ⟮less frequently it is used⟯
-⟮＿Brevity law＿⟯ can be found in ⟮all investigated (currently 1k languages of 80 language families)⟯ ⟮natural languages⟯ , as well as ⟮in some other communication systems, such as that of primates.⟯
-⟮＿Brevity law＿⟯ was first described in ⟮1945⟯ in corpus work on American English by ⟮Ziph⟯.
