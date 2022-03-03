@@ -1,78 +1,6 @@
-# general
-
-Basically, when you're not sure which linguistic units you're dealing with (be it phonemes, morphemes etc.) or it is irrelevant to your research, you use the word "segment". 
-Thus, a segment is "any element, at any level of representation, which is described as forming sequences with others" (Matthews 2007).
-
-
-# structuralism
-
-## history
-
-⟮De Sassure⟯ founded ⟮structuralism⟯
-The work that founded structuralism is de Sassure's 1916 work 『Course in General Linguistics』
-structuralism had its heyday in ⟮the 1950s and 1960s⟯ in ⟮France⟯ (but is still influential) 
-
-## the sign
-
-The sign consists of a signfier and a signified.
-
-
-flex-container:✫sm_planes_of_sound__thought.gif✫✫https://miro.medium.com/max/520/1*YI30OcZeMkEqy_aguUZbug.png✫
-
-In ⟮structuralism⟯, ⟮signs, signifiers and signfieds⟯ ⟮are defined/gain their meaning⟯ by ⟮their relations to each other⟯, specifically, each ⟮sign/signfier/signified⟯ is ⟮defined/gains its meaning⟯ by ⟮not being/contrasting with⟯ ⟮any other⟯ ⟮sign/signifier/signified⟯. 
-Since ⟮each sign/signfier/signified is defined/gains its meaning by not being/contrasting with any other sign/signifier/signified⟯, we can say that ⟮structuralism⟯ defines meaning negatively. 
-So, the meaning of the signifier ⟮horse⟯ is {{c16::{¬unicorn, ¬pony, ¬rabbit, ¬plothole, ...} }} 
-In structuralism, the heretofore ⟮amourphous mass⟯ of ⟮signfiers and signifieds⟯ is ⟮carved up into arbitrary divisions⟯. 
-To De Sassure, the ⟮sign⟯ is ⟮arbitrary⟯ because ⟮any signified⟯ ⟮could have been signified by a different signifier⟯. 
-Since the ⟮sign⟯ consists of ⟮the two parts of signifier and signified⟯, the model is often called ⟮dyadic⟯. 
-
-What?|Where in the image?
-⟮a sign⟯|⟮the are between any two dotted lines⟯
-⟮the arbitrary dividing point of sings⟯|⟮the dotted lines⟯
-⟮the wavy areas⟯|⟮the world of signifier and signifieds⟯
-
-
-### nesting
-
-flex-container:✫sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg✫✫sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg✫
-⟮Barthes⟯ took ⟮Sassures sign⟯ and ⟮nested it.⟯ 
-⟮Derrida⟯ then took ⟮Barthes sign⟯ and realized that it ⟮could be nested infinitely⟯ in ⟮both directions⟯, creating ⟮an endless deferrment of meaning⟯ he called ⟮Différance⟯. 
-
-## langue and parole
-
-flex-container:✫sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg✫✫sm_planes_of_sound__thought.gif✫
-As regards language, ⟮De Sassure differentiated⟯ between ⟮langue⟯ and ⟮parole⟯. 
-⟮Langue⟯ is ⟮the structuralist system⟯ of a given language 
-⟮Parole⟯ is ⟮any instance of the use of language⟯ 
-In the ⟮langue⟯ of ⟮spoken language⟯, the ⟮signified⟯ (according to sassure) is ⟮the concept⟯, the ⟮signifier⟯ is ⟮(the psychological reality of) the phonological realization⟯. 
-
-## emic and etic units.
-
-An ⟮emic unit⟯ ⟮reduces⟯ ⟮a large number of variant forms⟯ to ⟮a number of abstract units⟯. 
-⟮Etic units⟯ are ⟮the large number of variant forms⟯ that ⟮reduce to a certain number of emic units⟯. 
-⟮Etic units⟯ ⟮reduced to the same emic unit⟯ are ⟮prefixed with allo-⟯ 
-
-
-emic unit|etic unit|allo-
-|⟮phoneme⟯|⟮c+;s3;phone⟯|⟮c+;s2;allophone⟯
-⟮morpheme⟯|⟮c+;s6;morph⟯|⟮c+;s5;allomorph⟯
-⟮grapheme⟯|⟮c+;s9;glyph⟯|⟮c+;s8;allograph⟯
-phraseme|phrase|allophrase
-sememe|seme|alloseme
-pragmeme|pract|allopract
-
-
-The seme is the smallest unit of meaning in semantics.
-
-# synchronic/diachronic
-
-The diachronic/synchronic distinction was coined by ferdinand de sussure.
-A »synchronic« viewpoint considers a language at a moment in time without taking its history into account. 
-If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a language.
-
 # grammar
 
-Most broadly, grammar is the sets of rules governing a lect.
+Most broadly, grammar is the sets of rules governing a languoid.
 A reference work on the grammar of a language may also be known as a grammar, more precisely as a reference grammar.
 If a string conforms to the grammar of a lect, it is called grammatical.
 A grammaticality judgement is a judgement on the gramatticality of a string by a certain speaker.
@@ -918,6 +846,32 @@ In english, ⟮compounds⟯ can be ⟮open⟯ = ⟮containing a space⟯, e.g. �
 In english, ⟮compounds⟯ generally ⟮progress from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
 
 An example of ⟮the typical progression of english compounds⟯ is "T⟮c+;o day" → "to-day" → "today"⟯
+
+### errors
+
+A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
+
+reanalysis is a form of surface analysis, specifically an analysis of a lexeme into a different morphology than it originally had.
+juncture loss is the form of reananalysis where an article and a noun fuse.
+Juncture loss: al + chemy (from arabic) → alchemy
+
+Rebracketing is also sometimes known as resegmentation or metanalysis
+rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
+rebracketing: hamburger as ham + burger instead of hamburg + er
+
+#### etymological
+
+a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
+Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
+
+## linguistic error
+
+Speech (production) error = mistake
+Mistakes and errors are both unintentional deviation from the grammar of a languoid.
+An error is a deviation from the grammar of a languoid that is caused by lack of knowledge about the grammar of the languoid.
+A mistake is a deviation from the grammar of a languoid that is merely an error in performance, and would ordinarily not have happened.
+Typically, only L2 speakers make errors, while anyone can make mistakes.
+Errors may also lead to language change.
 
 # types of words
 
@@ -2115,19 +2069,19 @@ THEME|undergoes action, does not change state
 
 # Pragmatics
 
-Pragmatics is the subfield that studies how context contributes to meaning.
+»⟮Pragmatics⟯« is the branch of ⟮＿linguistics＿⟯ that studies ⟮meaning⟯ ⟮beyond the literal semantic meaning of lexical units/constituents⟯.
 
 ## speech acts
 
-Speech act theory is the field studying speech acts.
-The idea of speech acts was popularized by JL Austin in How to Do Things with Words (1962).
-A speech act consists of locutionary, illocutionary and perlocutionary act.
-The locutionary act is comprised of the expressing of the utterance (with all its phonological, syntactic and semantic aspects)
-the illocutionary act is what one does in saying something.
-the perlocutionary act is what has done due to the consequences of saying something.
-the perlocutionary act depends of the reaction of the hearers, the illocutionary act does not.
-Frightening is a perlocutionary not an illocutionary act because it depends on the hearer to be frightened.
-a locutionary, illocutionary or perlocutionary act has a locutionary, illocutionary or perlocutionary force attached.
+»⟮Speech act theory⟯« is the branch of ⟮＿pragmatics＿⟯ studying ⟮＿speech acts＿⟯.
+The idea of ⟮＿speech acts＿⟯ was coined by ⟮JL Austin⟯ in 『⟮How to Do Things with Words⟯』 (⟮1962⟯).
+»⟮A speech act⟯« consists of ⟮＿locutionary＿, ＿illocutionary＿ and ＿perlocutionary＿⟯ ⟮act⟯.
+The »⟮locutionary act⟯« is ⟮comprised of the expressing of the utterance (with all its phonological, syntactic and semantic aspects)⟯
+the »⟮illocutionary act⟯« is ⟮what one does⟯ ⟮in saying something⟯.
+the »⟮perlocutionary act⟯« is ⟮what one has done⟯ ⟮due to the consequences of saying something⟯.
+the ⟮＿perlocutionary act＿⟯ ⟮depends of the reaction of the hearers⟯, ⟮c-;＿the illocutionary act＿⟯ ⟮does not⟯.
+⟮Frightening⟯ is a ⟮＿perlocutionary＿⟯, not ⟮c_;＿an illocutionary act＿⟯ because ⟮it depends on the hearer to be frightened⟯.
+a ⟮＿locutionary, illocutionary or perlocutionary＿⟯ ⟮＿act＿⟯ has ⟮c-;＿a locutionary, illocutionary or perlocutionary＿⟯ »⟮force⟯« attached.
 
 ## pragmeme
 
@@ -2148,34 +2102,34 @@ The 5 types of illocutionary/pragmatic acts are verdictive, commissive, exerciti
 
 
 table:name|does|examples
-verdictive|give a judgement
-commissive|comitting oneself to a course of action|promising, betting
-exercitive|exercising power/influence|excommunicating, resigning
-expositivies|explaining the relationship to larger discourse (lines of reasoning)|postulating, defining
-behabitives|regulating social relationships|toasting, apologizing
+»⟮verdictive⟯«|give a judgement
+»⟮commissive⟯«|comitting oneself to a course of action|promising, betting
+»⟮exercitive⟯«|exercising power/influence|excommunicating, resigning
+»⟮expositivies⟯«|manage the flow/structure of discourse|postulating, defining
+»⟮behabitives⟯«|regulating social relationships|toasting, apologizing
 
 ## lexical items that give rise to certain speech acts
 
 ### phatic expression
 
-A phatic expression is a lexical unit devoid of semantic content, but expressing a behabitive pragmatic act.
+»⟮A phatic expression⟯« is ⟮a lexical unit/constituent⟯ ⟮devoid of⟯ ⟮semantic content⟯, but ⟮c-;expressing⟯ ⟮a ＿behabitive＿ ＿pragmatic act＿.⟯
 
 ### Discourse markers
 
-An discourse marker is a lexical unit that plays a role in managing the flow and structure of discourse.
-A discourse marker is a different lexical unit which gives up its usual function to convey an expositive pragmatic act.
+»⟮A discourse marker⟯« is a ⟮different⟯ ⟮＿lexical unit＿⟯ which ⟮gives up its usual function⟯ to ⟮convey an ＿expositive＿ ＿pragmatic act＿ (managing the flow/structure of discourse).⟯
 
 ### backchanneling
 
-A backchannel is an interjected response while another person is speaking.
-Backchannel responses are often phatic expressions.
+»⟮A backchannel⟯« is ⟮an interjected response⟯ ⟮while another person is speaking.⟯
+⟮＿Backchannels＿⟯ are often ⟮＿phatic expressions＿⟯.
+Examples of ⟮＿backchannels＿⟯ in English are e.g. ⟮"yeah", "uh-huh", "hmm", and "right"⟯. 
 
 Japanese backchannels are called 　相（あい）　槌（づち）.
 　相（あい）　槌（づち） are quite common in japan.
 
 ### Hedge
 
-a hedge is a lexical item used to express the verdictive pragmatic act of expressing uncertainty.
+»⟮a hedge⟯« is a lexical item or grammatical feature used to express the verdictive pragmatic act of expressing uncertainty.
 
 ## specific theories 
 
@@ -2467,7 +2421,7 @@ William Caxton introduced the printing press to england.
 
 # discourse analysis
 
-⟮Discourse analysis⟯ is the study of ⟮real language use⟯, in chunks ⟮larger than the sentence⟯
+⟮Discourse analysis⟯ is the study of ⟮real language use⟯, in units ⟮larger than the sentence⟯
 ⟮Critical discourse analysis⟯ may be thought of ⟮discourse analysis⟯ via / for use of ⟮critical theory (lowercase)⟯
 
 
@@ -2737,91 +2691,149 @@ SHOULD NOT/NOT RECOMMENDED = may exist valid reasons where behavior is acceptabl
 MAY = OPTIONAL
 MAY/OPTIONAL = truly optional. however, An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides.)
 
+# fundamental concepts
 
-# cross-cutting concerns
+## units
 
-## quantitiative linguistics
+### emic/etic
 
-Quantitative linguistics investigates language using quantitative methods.
-A linguistic law is a phenomenon in quantitative linguistics which describes a statistical regularity in the relationship between scales (e.g. of phonemes, syllables, words).
-
-### brevity law
-
-Brevity law = zipf's law of abbreviation
-Brevity law is a linguistic law that says the frequency of a words use is inversely proportional to its length: The shorter a word is, the more often it is used; the longer a word is, the less frequently it is used, and vice versa
-Brevity law can be found in all investigated natural languages (currently 1k languages of 80 language families), as well as in some other communication systems, such as that of primates.
-Brevity law was first described in 1945 in corpus work on American English by Ziph.
-
-## linguistic error
-
-Linguistic errors may be merely seen as errors, but may also change the accepted spelling, pronunciation, etc. of a word, or even act as word formation patterns.
-
-### morphological
-
-A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
-
-reanalysis is a form of surface analysis, specifically an analysis of a lexeme into a different morphology than it originally had.
-juncture loss is the form of reananalysis where an article and a noun fuse.
-Juncture loss: al + chemy (from arabic) → alchemy
-
-Rebracketing is also sometimes known as resegmentation or metanalysis
-rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
-rebracketing: hamburger as ham + burger instead of hamburg + er
-
-### etymological
-
-a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
-Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
+An ⟮emic unit⟯ is an abstract unit of a number of variant forms.
+An etic unit is a variant form of an emic unit.
+Various types of emic/etic units exists for different fields/concerns.
+Emic units carry the name of the etic unit, suffixed with -eme.
+Etic units of the same emic units are allo-.
 
 
-## implicational scale
+table:emic unit|etic unit-
+⟮phoneme⟯|⟮phone⟯
+⟮morpheme⟯|⟮morph⟯
+⟮grapheme⟯|⟮glyph⟯
+phraseme|phrase
+sememe|seme
+pragmeme|pract
+lingueme|ling
+grammeme|gram
+lexical unit/lexeme|lex
 
-⟮Implicational scale⟯ is a term that means if ⟮one feature is present⟯, ⟮all the features⟯ ⟮lower on the scale⟯ ⟮will be as well⟯
-If a thing is on an ⟮implicational scale⟯, and we find that ⟮the e.g. 5th stage is present⟯, we would expect to also find ⟮all four lower stages to be present⟯.
-⟮Most linguistic areas⟯ have things that can be on an implicational scale
+### things
 
-### examples
+A linguistic unit is a generic name for an element which forms a sequence with others of its kind.
+A linguistic unit may be a phoneme, morpheme, phraseme, grapheme... (but isn't necessarily emic)
+A segment is a linguistic unit of which we're not sure which linguistic unit it is, or which it is is irrelevant.
+A lingueme is any linguistic emic unit which can be independently learned and transmitted.
+A linguistic item is any linguistic thing under analysis
 
-flex-container:✫mplicational-scale-of-basic-color-terms.png✫✫sm_2021-10-21--08-21-02-screenshot.jpg✫
+### feature
 
+A feature is a binary value.
+A feature is indicated by [‹name›].
+A feature's states are indicated by [+ ‹name›] and [- ‹name›]
+Most commonly, an etic unit can be further analyzed into multiple features.
 
-an ⁑implicational scale ⁑(of basic color terms/syntactic figures in irish)
+### sequences
 
-## feature
+A string is most commonly assumed to be a string of words, but may also be a synonym for sequence.
+A sequence of linguistic units is a series of these linguistic units with no claim as to compositionality.
 
-In contemporary linguistics, the term feature is used in several ways. Two main uses can be distinguished:
+## ways things can exist
 
-The term feature is sometimes used for a specific dimension of classification along which a given linguistic item is categorized. The specification of this dimension is then called a value. For example, the English noun bread carries the value '+' for the feature [countability].
-More generally, the term feature is also used as an equivalent of 'property', esp. when used for the classification of linguistic items. For example, the English phoneme /d/ can be said to have the feature [voiced] (i.e. the property of being voiced).
-
-## markedness
+### markedness
 
 According to Haspelmath (2005), markedness has 12 distinctive senses, which makes it pretty hard to use unambiguously.
 Most but not all senses of markedness share a feeling of oddness, and the marked form is generally more rare.
 In semantics, a marked term is generally also more specific.
 In a morphosemantic sense, something coded through a zero morpheme is unmarked, something coded by a non-zero morpheme is marked.
 
+### implicational scale
 
-# semiotics
-
-Activity/process involving signs is called semiosis
-The study of sign processes (semiosis) is called semiotics
-Something being reduced to signification only (which is amplified) (rare word)   hypersignification
+flex-container:✫mplicational-scale-of-basic-color-terms.png✫✫sm_2021-10-21--08-21-02-screenshot.jpg✫
 
 
-MISSING: linguistic item/unit
+⟮Implicational scale⟯ is a term that means if ⟮one feature is present⟯, ⟮all the features⟯ ⟮lower on the scale⟯ ⟮will be as well⟯
+If a thing is on an ⟮implicational scale⟯, and we find that ⟮the e.g. 5th stage is present⟯, we would expect to also find ⟮all four lower stages to be present⟯.
+⟮Most linguistic areas⟯ have things that can be on an implicational scale
 
-# ???
+## structuralism
 
-## metaphor
+### history
 
-onion-box:
-⟮metaphor (wide sense)⟯
-  ⟮metaphor (narrow sense)⟯
-  ⟮simile⟯
+Course in General Linguistics is a book by de Sassure and was published in 1916
+⟮De Sassure⟯ founded ⟮structuralism⟯ in the book Course in General Linguistics.
+Structuralism lies at the base of emic units and thus of linguistics.
+Outside of linguistics, structuralism had its heyday in ⟮the 1950s and 1960s⟯ in ⟮France⟯ (but is still influential) 
+
+### signs
+
+#### semiotics
+
+semiosis is activity/process involving signs is called 
+semiotics is the study of semiosis
+
+### the sign
+
+The sign consists of the connection between a signfier and a signified.
+I will define sign component as a cover term for either sign, signifer and signified.
+A sign component gains its meaning by contrast with all other of the same type of sign component.
+
+So, the meaning of the signifier ⟮horse⟯ is ¬{x ∈ S⎵signifier⎵ | x ≠ horse}
+In structuralism, the masses of possible signifiers and possible signifieds starts out as an amorphous masses.
+In structuralism, the heretofore ⟮amourphous masses of possible signfiers and possible signifieds⟯ are carved up into a set of possible signifiers and possible signifieds. 
+The ⟮sign⟯ is ⟮arbitrary⟯ because ⟮any signified⟯ ⟮could have been signified by a different signifier⟯. 
+Since the ⟮sign⟯ consists of ⟮the two parts of signifier and signified⟯, the model is often called ⟮dyadic⟯. 
+
+#### image
+
+flex-container:✫sm_planes_of_sound__thought.gif✫✫https://miro.medium.com/max/520/1*YI30OcZeMkEqy_aguUZbug.png✫
 
 
-⟮Metaphor (in the wide sense⟯) is about ⟮putting a thing in the terms/concepts/world of another⟯, which is ⟮(relevantly) not the same⟯, and thus ⟮invoking a comparison⟯. 
-A ⟮simile⟯ is ⟮a subtype of⟯ ⟮metaphor in the wide sense⟯, with the added stipulation that ⟮the 'putting in the terms of another'⟯ is done by ⟮words such as like, as, etc.⟯ 
-⟮A metaphor in the narrow sense⟯ is ⟮a metaphor in the wide sense⟯ with the restriction that ⟮it does not use comparative words⟯, but instead ⟮directly refers to one thing in terms of another⟯ 
-All the world's a stage is a metaphor in ⟮both the wide and narrow sense.⟯ 
+What?|Where in the image?
+⟮a sign⟯|⟮the are between any two dotted lines⟯
+⟮the arbitrary dividing point of sings⟯|⟮the dotted lines⟯
+⟮the wavy areas⟯|⟮the world of signifier and signifieds⟯
+
+
+#### nesting
+
+flex-container:✫sm_paste-4ec4611eb2c01f7a72ccea70f0ba84d090431577.jpg✫✫sm_paste-e61d7b203b885a6825eeb111737b0f16b1bcaf01.jpg✫
+
+
+⟮Barthes⟯ took ⟮Sassures sign⟯ and ⟮nested it.⟯ 
+⟮Derrida⟯ then took ⟮Barthes sign⟯ and realized that it ⟮could be nested infinitely⟯ in ⟮both directions⟯
+The endless nesting of signs creates ⟮an endless deferrment of meaning⟯
+⟮Différance⟯ is the endless deferrment of meaning due to the endless nesting of signs.
+
+## perspective
+
+### langue and parole
+
+flex-container:✫sm_paste-7e1cabd1841b80a2ab4a4d8a0f6746c2d1c4c811.jpg✫✫sm_planes_of_sound__thought.gif✫
+As regards languoids, ⟮De Sassure⟯ created the distinction between ⟮langue⟯ and ⟮parole⟯. 
+⟮Langue⟯ is ⟮the structuralist system⟯ of a given languoid 
+⟮Parole⟯ is ⟮any instance of the use of a languoid⟯ 
+!Sassure claims that in the ⟮langue⟯ of ⟮spoken language⟯
+- !the ⟮signified⟯ is ⟮the concept⟯
+- !the ⟮signifier⟯ is ⟮(the psychological reality of) the phonological realization⟯. 
+
+### synchronic/diachronic
+
+As regards viewpoints, De Sassure created the distinction between synchronic and diachronic.
+A »synchronic« viewpoint considers a languoid at a moment in time without taking its history into account. 
+If we're being structuralist, a synchronic approach specifically consideres the structuralist system of a languoid.
+
+# quantitiative linguistics
+
+»⟮Quantitative linguistics⟯« is the branch of linguistics that investigates language using ⟮quantitative methods⟯.
+
+## linguistic law
+
+⟮＿A linguistic law＿⟯ is a phenomenon in ⟮＿quantitative linguistics＿⟯.
+»⟮A linguistic law⟯« is⟮ a statistical regularity⟯ in ⟮the relationship between scales⟯ of ⟮＿linguistic units＿⟯.
+
+## brevity law
+
+⟮Brevity law⟯ = ⟮zipf's law of abbreviation⟯
+»⟮Brevity law⟯« is ⟮＿a linguistic law＿⟯ that says ⟮the frequency of use⟯ of ⟮a word⟯ is ⟮inversely proportional⟯ to ⟮c-2;the length⟯ of ⟮a word⟯.
+According to ＿brevity law＿: The ⟮shorter a word is⟯, the ⟮more often it is used⟯;
+According to ＿brevity law＿: the ⟮longer a word is⟯, the ⟮less frequently it is used⟯
+⟮＿Brevity law＿⟯ can be found in ⟮all investigated (currently 1k languages of 80 language families)⟯ ⟮natural languages⟯ , as well as ⟮in some other communication systems, such as that of primates.⟯
+⟮＿Brevity law＿⟯ was first described in ⟮1945⟯ in corpus work on American English by ⟮Ziph⟯.
