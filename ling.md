@@ -2574,146 +2574,170 @@ INSTRUMENT|Means of action|Ram broke the window with A STONE
 PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
 THEME|undergoes action, does not change state
 
-# diachronic
+# historical linguistics
 
 Historical linguistics is mainly interested in language change.
 
-## language geneaology
+## creating history
 
-* marks a form that is reconstructed (i.e. not attested)
+reconstruction is the process of establishing languemes of an unattested ancestor languages.
+The comparative method and internal reconstruction are two methods for reconstruction.
+Often, the comparative method and internal reconstruction are combined.
+* marks a form that is reconstructed.
 
-### cognates
+### internal reconstruction
+
+Internal reconstruction uses features within a single language for reconstruction.
+A language reconstructed using internal reconstruction gets the prefix pre-.
+
+### the comparative method
+
+The comparative method uses comparisons of languemes between multiple languages with common descent for reconstruction.
+A language reconstructed using the comparative memory gets the prefix proto-.
+
+#### comparative linguistics
+
+Comparative linguistics is the branch of historical linguistics concerned with using the comparative method.
+
+## language relatedness
+
+### features
+
+#### mutual intelligibility
+
+Mutualll intelligibility is whether two speakers of different languoids can understand each other ⟮without prior familiarity / special effort⟯
+Linguistic distance is the inverse of mutual intelligibility.
+
+### resultant linguistic items
+
+#### cognates
 
 Cognates are 2 or more words that have a common etymological origin.
 Cognates often but not always have a similar meaning and a similar pronunciation.
 False friends are words in different languages that look/sound similar and thus give off the impression of being cognates, but are unrelated.
 Cognates in the same language are called doublets.
 
-### comparative linguistics
-
-Comparative linguistics is a branch of historical linguistics that compares language to establish how they are related
-Mutualll intelligibility is whether two speakers of different lects can understand each other ⟮Without prior familiarity / special effort⟯
-The higher th elinguistic distance, the lower the mutual intelligibility.
-
 ### language families
 
-#### IE
+#### various language families
 
-Indo-European languages descend from Proto-Indo-European (PIE)
-⟮Indo-European languages⟯ can be most basically divided into ⟮centum languages⟯ and ⟮satem languages⟯.
-The ⟮Germanic languages⟯ are subdivided into ⟮east germanic languages⟯, ⟮north germanic languages⟯, and ⟮west germanic languages⟯.
+##### Altaic
 
-#### Altaic
-
-Most linguists consider altaic to be a sprachbund, some consider it to be a language family.
-The grouping of ⟮Altaic⟯ languages (whether as a sprachbund or a language family) usually includes at least ⟮Turkic⟯, ⟮Mongolic⟯, and ⟮Tongusic⟯ (this smaller grouping is sometimes called '⟮Micro⟯-⟮altaic⟯')
-⟮Macro⟯-altaic as a ({c4::very fringe}}) hypothesis also includes ⟮japonic⟯ and ⟮koreanic⟯
+Altaic is either a sprachbund or a language family.
+Altaic comes in two versions, micro-altaic and macro-altaic.
+Micro-altaic = {turkic, mongolic, tongusic}
+Macro-altaic = micro-altic + {japonic, koreanic}
+The mainstream hypothesis about altaic is that only micro-altaic exists, and only as a sprachbund.
+Micro-altaic 
 
 ## language change
 
-### sound change
+Language change is mainly studied in historical linguistics.
+Language change is the change in the linguistic items of a languoid over time.
 
-Sound change is the diachronic change of sounds over time.
-Sound change may be to the distribution of phonemes (phonetic change) or to which speech sounds exist (phonological change).
+### what changes?
 
-Forms of sound change:
+#### sound change
 
+Sound change is language change where the thing that is changing is sounds.
+Sound change may be phonetic or phonemic.
 
-### semantic change
+#### semantic change
 
+Semantic change is the change of sememe of a particular lexical unit.
 Semantic change is the diachronic chanage of meanings of a given lexical item over time.
-there are ⟮many different types⟯ of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯ (the exact amount of which depends on ⟮which classification scheme you follow⟯).
+Semantic change = semantic shift = semantic drift
+
+Common types of semantic changes are narrowing/widening, amelioration/pejoration
 Common types of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ are ⟮semantic narrowing⟯ (also called ⟮specialization⟯), ⟮semantic widening⟯ (also called ⟮generalization⟯), ⟮amelioration/elevation⟯, ⟮pejoration⟯
 
-#### types
+##### widening/narrowing
 
-⟮pejoration⟯/⟮degeneration⟯ is a form of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯) where ⟮a word becomes more negative in meaning⟯
-⟮villain⟯ used to mean ⟮serf, peasant⟯ - this is an example of ⟮perjoration/degeneration⟯
-⟮knave⟯ used to mean ⟮boy, child, servant⟯ - this is an example of ⟮perjoration/degeneration⟯
+Semantic widening/narrowing is commonly abbreviated as widening/narrowing
+Widening/narrowing is also known as generalization/specialization.
+Widening/narrowing is the form of semantic change where a lexical unit takes on the sememe of one of its hyper/hyponym.
+e.g. assassin: specific order of killers -> any killer; starve: die -> die by lack of food; wife: any woman -> woman to whom one is married
 
-⟮amelioration⟯/⟮elevation⟯ is a form of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯) where ⟮a word becomes more positive in meaning⟯
-⟮pretty⟯ used to mean ⟮tricky, crafty, sly⟯ - this is an example of ⟮amelioration/elevation⟯
-⟮Knight⟯ used to mean ⟮boy, servant⟯ (thus cognate with german ⟮knecht⟯)- this is an example of ⟮amelioration/elevation⟯
+##### amelioration/pejoration
 
-⟮Semantic widening⟯ aka ⟮generalization⟯ is a form of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯) where ⟮a word becomes more general/less narrow in its meaning⟯ (often, ⟮it takes on a meaning of one of its hypernyms⟯)
-⟮bird⟯ used to mean ⟮young bird, chick⟯ - this is an example of ⟮semantic widening / generalization⟯
-⟮assassin⟯ used to mean ⟮a member of the assassins chilling in the holy land⟯ - this is an example of ⟮semantic widening / generalization⟯
+amelioration/pejoration is also known as elevation/degenration
+Amelioration/pejoration is the form of semantic change where the sememe of a lexical unit becomes more positive/negative.
+e.g. pretty: sly -> beautiful; knight: servant -> feudal warrior; villain: serf -> evildoer; knave: servant -> rogue
 
-⟮Semantic narrowing⟯ aka ⟮specialization⟯ is a form of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ (= ⟮the change of the meanings of words over time⟯) where ⟮a word becomes less general/more narrow in its meaning⟯ (often, ⟮it takes on a meaning of one of its hyponyms⟯)
-⟮to starve⟯ used to mean ⟮to die⟯ (and thus is cognate with german ⟮sterben⟯) - this is an example of ⟮semantic narrowing / specialization⟯
-⟮Wife⟯ used to primarily mean ⟮woman (of any sort)⟯ - this is an example of ⟮semantic narrowing / specialization⟯
-⟮Meat⟯ used to refer to ⟮any food⟯ - this is an example of ⟮semantic narrowing / specialization⟯
-⟮Deer⟯ used to refer to ⟮all (esp. quadrupedal mammals) animals⟯ (and thus is cognate with german ⟮Tier⟯) - this is an example of ⟮semantic narrowing / specialization⟯
+### why do things change
+
+#### language contact
+
+Language contact is language change due to the influence of languoids.
+Contact linguistics is the field that studies language contact
+
+##### borrowing
+
+Borrowing is a form of language change caused by language contact.
+Borrowing involves a languoid gaining linguemes from another languoid.
+The donor language is the languoid where the borrowed lingueme originates.
+The recipient language is the languoid which gains the linguemes.
+A borrowing is a lingueme aquired due to borrowing.
+A native word is a lexical unit that is not a borrowing.
+Borrowing is split by which kind of lingueme is produced, and what kind of lingueme was taken.
+Sometimes various borrowing-related terminology is used differently.
 
 
+###### results in...
 
-### language contact
+####### sememes
 
-Language contact is when two or more languages influence each other.
-The field that studies language contact is contact linguistics.
-Language convergence is a type of linguistic change in which languages come to structurally resemble one another ⟮due to prolonged language contact⟯
-In a language shift, a speech community switches to a different language.
-
-#### dialects
-
-Dialect levelling is the process of overall reduction in the distinctive features of a dialect towards ⟮(more similarity with) the standard language⟯
-Since the industrial revolution, dialect levelling has been ocurring to most languages.
-an aphorism sometimes applied to indicate that the difference between language and "mere dialect" is the embrace by state power: A language is a dialect with an army and navy
-
-#### borrowing
-
-Borrowing is a process within contact linguistics = language contact.
-AN element that seems to be a borrowing but isn't is called a pseudo-loan/pseudo-borrowing/false borrowing.
-borrowing is the cover term for any kind of loan element.
-narrative word|not a borrwoing
-donor language|the language from which the word was borrowed
-recipient language   the language into which the word was borrowed
-⟮Categorization⟯ of the loan-related terminology is ⟮hard⟯, as ⟮seemingly everyone uses their own, only slightly different categorization system⟯
-While I use ⟮borrowing⟯ to mean ⟮any sort of loaned thing⟯, the term is ⟮not always used in exactly this manner⟯
-A foreign word|A word from another language used in the relevant language, but not integrated, that is, recognizably foregin|Gestalt, Pickelhaube, mutatis mutandis (in english)
-A loanword is a word loaned from another language which is recognizably now part of the recipient language
-
-While a ⟮loan translation⟯ / ⟮calque⟯ ⟮translates all the parts exactly⟯, a ⟮loan rendition/rendering⟯ ⟮only uses approximate translation⟯
-「ça va sans dire」 → 「it goes without saying」 
-⟮A calque (sometimes also loan translation)⟯ is a word or phrase borrowed from another language by literal word-for-word or root-for-root translation.
-While weekend → ⟮Wochenende⟯ is a ⟮loan translation⟯, skyscraper → ⟮Wolkenkratzer⟯ is a ⟮loan rendition/rendering⟯
-
-⟮Loan creation⟯ is a bit of a vague term, but basically means ⟮creation of a word⟯ using ⟮native means⟯, either to ⟮fill a lack in the language which another language does not have⟯ or to ⟮replace a borrowing⟯
-
-⟮Loanblends⟯ can either be formed by ⟮word with some semantic content⟯ + ⟮some functional affix (of the recipient language)⟯ or ⟮fusion of multiple words with semantic content⟯. 
-If loanblends are formed by  ⟮word with some semantic content⟯ + ⟮some functional affix (of the recipient language)⟯, they are seen to be ⟮closer to loan words⟯, if they are formed by ⟮fusion of multiple words with semantic content⟯ they are seen to be ⟮closer to loan translations/renditions (= loan formations)⟯
-
-⟮loan formation⟯ is a term usually used to group ⟮any borrowing that uses foregin structure⟯ (i.e. ⟮loan translations⟯ and ⟮renditions⟯, and depending on how you see them ⟮loan creations⟯ as well), but ⟮by far not by every author⟯
-
-A Semantic loan is when a word exists in two languages, but only has some senses in one language, and then aquires the senses that the other language has.
+A semantic loan is a type of borrowing of a sememe.
+In a semantic loan, a lexical item exists in two languages, but is lacking a sememe in the recipient language, which are then transferred.
 realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
 
+####### lexical items
 
-onion-box:
-Types of borrowings
-  senses are added
-    semantic loan
-  words/morphemes are added
-    words/morphemes are directly borrowed
-      foregin words, loanwords, (loanblends)
-    morphological transformation is done
-      part of the morphemes are native
-        (loanblends)
-      all of the morphemes are native
-        the structure is native|the structure is foreign
-          loan creation
-          loan translation, loan rendition
+Most borrowings are borrowings of lexical unit.
+When a borrowing results in a lexical unit, the donor language may supply the lexical unit, the morphological pattern/tree structure, a morpheme, or a sememe.
+Foreign words and loanwords are borrowings which result in a lexical unit where the donor language supplied a lexical unit.
+The difference between foreign words and loanwords is that foreign words are still recognizably foreign, while loanwords have been completely integrated into the recipient language.
+A loan formation is a borrowing which results in a lexical unit where the donor language supplies the morphological pattern/tree structure of a lexical unit and fills it with native morphemes.
+Loan translations and loan renditions are the two types of loan formations.
+The difference between loan translations and loan renditions is that loan translations translate all segments exactly, while loan renditions only translates the segments roughly.
+While weekend → ⟮Wochenende⟯ is a ⟮loan translation⟯, skyscraper → ⟮Wolkenkratzer⟯ is a ⟮loan rendition/rendering⟯
+Calque is a synonym for loan translation.
+A loanblend is a borrowing which results in a lexical unit where the donor language supplies a morpheme.
+A loan creation is a borrowing which results in a lexical unit where the donor language supplies a sememe.
 
+###### properties
 
-A learned borrowing is a planned, purposeful borrowing, esp. from a classical language.
+####### learned
 
-### Language death
+A learned borrowing is a planned, purposeful borrowing.
+Learned borrowing refers especially to borrowings from a classical language.
 
-A language with at least one native speaker|living language
-A language without any *native* speakers|dead language
-A language without *any* speakers|extinct language
-Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
-Causing languages to die out|linguicide
+####### pseudo
+
+pseudo-borrowing = false borrowing
+A pseudo-borrowing is a lingueme which seems to be a borrowing, but isn't.
+
+### more complex phenomena
+
+#### dialect levelling
+
+Dialect levelling is the reduction of the distinctive linguistic items of a non-standard variety towards more similarity with the standard variety.
+Since the industrial revolution, dialect levelling has been ocurring to most languages.
+
+## changes in the relationship speech community ↔ languoids
+
+### language shift
+
+In a language shift, a speech community switches to a different language.
+
+### statuses of languages
+
+A living language is a languoid with at least one native speaker.
+A dead language is a languoid without any native speakers.
+A extinct language is a languoid without any speakers at all.
+
+language/linguisitic suicide is speakers choosing to abandon a language and it thus dying
+linguicide is causing languages to die out
 
 
 # multilingualism
