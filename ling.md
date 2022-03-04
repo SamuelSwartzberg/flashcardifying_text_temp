@@ -1046,8 +1046,40 @@ What are examples of this?
   </tbody>
 </table>
 
-
 </div>
+
+
+## morphological typology 
+
+Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
+The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
+Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
+Synthetic languages contain a lot of inflection and thus have many morphemes per word.
+Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
+fusional languages merge many different inflectional categories into the same morpheme.
+analytic languages have different morphemes for different inflectional categories and glue those together.
+highly analytic|chinese, vietnamese
+highly synthetic|japanese, turkish
+
+## word order
+
+Word order is how a language orders the syntacic constituents of a language.
+Word order may be a distinguishing characteristic in linguistic typology.
+Even languages which typically allow large amounts of flexibility in word order (e.g. by marking case) generally have a typical word order, where having a different order is considered marked. (see: Japanese)
+
+### constituent order
+
+the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
+German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
+SOV, SVO, etc
+
+Verb-final language place the verb at the end of a clause.
+Completely verb-final: japanese
+
+V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
+In V2 word order, the first constituent functions as the topic.
+
+A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
 
 # types of words
 
@@ -2674,36 +2706,37 @@ Contact linguistics is the field that studies language contact
 ##### borrowing
 
 Borrowing is a form of language change caused by language contact.
-Borrowing involves a languoid gaining linguemes from another languoid.
-The donor language is the languoid where the borrowed lingueme originates.
-The recipient language is the languoid which gains the linguemes.
+Borrowing is a languoid gaining a recipium via a donum.
+Donum and recipium (my terms) are both linguemes.
+The donor language is the languoid whence the donum.
+The recipient language is the languoid wither the recipium.
 A borrowing is a lingueme aquired due to borrowing.
 A native word is a lexical unit that is not a borrowing.
-Borrowing is split by which kind of lingueme is produced, and what kind of lingueme was taken.
+Borrowing is split by what the donum and the recipium are.
 Sometimes various borrowing-related terminology is used differently.
 
 
-###### results in...
+###### recipium
 
 ####### sememes
 
-A semantic loan is a type of borrowing of a sememe.
+A semantic loan is a type of borrowing where the recipium is a sememe.
 In a semantic loan, a lexical item exists in two languages, but is lacking a sememe in the recipient language, which are then transferred.
 realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
 
-####### lexical items
+####### lexical units
 
-Most borrowings are borrowings of lexical unit.
-When a borrowing results in a lexical unit, the donor language may supply the lexical unit, the morphological pattern/tree structure, a morpheme, or a sememe.
-Foreign words and loanwords are borrowings which result in a lexical unit where the donor language supplied a lexical unit.
+Most borrowings are borrowings where the recipium is a lexical unit.
+When a recipium is a lexical unit, the donum may be a lexical unit, the morphological pattern/tree structure, a morpheme, or a sememe.
+Foreign words and loanwords are borrowings where the recipium is a lexical unit and the donum is the same lexical unit.
 The difference between foreign words and loanwords is that foreign words are still recognizably foreign, while loanwords have been completely integrated into the recipient language.
-A loan formation is a borrowing which results in a lexical unit where the donor language supplies the morphological pattern/tree structure of a lexical unit and fills it with native morphemes.
+A loan formation is a borrowing where the recipium is a lexical unit and the donum is a morphological pattern/tree structure of a lexical unit, which is filled with native morphemes.
 Loan translations and loan renditions are the two types of loan formations.
 The difference between loan translations and loan renditions is that loan translations translate all segments exactly, while loan renditions only translates the segments roughly.
 While weekend → ⟮Wochenende⟯ is a ⟮loan translation⟯, skyscraper → ⟮Wolkenkratzer⟯ is a ⟮loan rendition/rendering⟯
 Calque is a synonym for loan translation.
-A loanblend is a borrowing which results in a lexical unit where the donor language supplies a morpheme.
-A loan creation is a borrowing which results in a lexical unit where the donor language supplies a sememe.
+A loanblend is a borrowing where the recipium is a lexical unit and the donum is a morpheme, which is combined with (a) native morpheme(s)
+A loan creation is a borrowing where the recipium is a lexical unit and the donum is a sememe.
 
 ###### properties
 
@@ -2851,52 +2884,9 @@ Translation is the rendering of the meaning of a source language text in a targe
 
 Transcription is the represention of spoken language in written form.
 
-### glossing
-
 ## misc
 
 A pillow dictionary is a romantic partner that teaches you a foreign langauge.
-
-### sprachraum
-
-»⟮A sprachraum⟯« is⟮ a geographical region⟯ ⟮where a common L1 is spoken⟯
-
-# linguistic typology
-
-Linguistic typology = language typology
-Linguistic typology is a field of linguistics that studies and classifies languages according to their structural features. 
-
-## morphological typology 
-
-Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
-The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
-Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
-Synthetic languages contain a lot of inflection and thus have many morphemes per word.
-Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
-fusional languages merge many different inflectional categories into the same morpheme.
-analytic languages have different morphemes for different inflectional categories and glue those together.
-highly analytic|chinese, vietnamese
-highly synthetic|japanese, turkish
-
-## word order
-
-Word order is how a language orders the syntacic constituents of a language.
-Word order may be a distinguishing characteristic in linguistic typology.
-Even languages which typically allow large amounts of flexibility in word order (e.g. by marking case) generally have a typical word order, where having a different order is considered marked. (see: Japanese)
-
-### constituent order
-
-the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
-German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
-SOV, SVO, etc
-
-Verb-final language place the verb at the end of a clause.
-Completely verb-final: japanese
-
-V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
-In V2 word order, the first constituent functions as the topic.
-
-A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
 
 # theoretical linguistics
 
