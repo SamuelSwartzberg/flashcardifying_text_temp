@@ -2455,6 +2455,8 @@ What design feature do the IPA symbols of both the unrounded and rounded open-mi
 # Semantics
 
 Semantics is the field of linguistics that studies sememes.
+A seme may be analyzed into semantic features.
+
 
 ## lexemes holding sememes
 
@@ -2610,24 +2612,24 @@ THEME|undergoes action, does not change state
 
 ## creating history
 
-reconstruction is the process of establishing languemes of an unattested ancestor languages.
-The comparative method and internal reconstruction are two methods for reconstruction.
-Often, the comparative method and internal reconstruction are combined.
-* marks a form that is reconstructed.
+»⟮reconstruction⟯« is the process of ⟮establishing languemes⟯ of an ⟮unattested⟯ ⟮ancestor language⟯.
+The ⟮＿comparative method＿⟯ and ⟮c_;＿internal reconstruction＿⟯ are the two main methods for ⟮＿reconstruction＿⟯.
+Often, ⟮＿the comparative method＿⟯ and ⟮＿internal reconstruction＿⟯ are ⟮combined⟯.
+⟮* as a prefix⟯ marks a langueme that is ⟮reconstructed⟯.
 
 ### internal reconstruction
 
-Internal reconstruction uses features within a single language for reconstruction.
-A language reconstructed using internal reconstruction gets the prefix pre-.
+»⟮Internal reconstruction⟯« ⟮uses features within a single languoid⟯ for ⟮＿reconstruction＿⟯.
+A languoid reconstructed using ⟮＿internal reconstruction＿⟯ gets the prefix ⟮pre-⟯.
 
 ### the comparative method
 
-The comparative method uses comparisons of languemes between multiple languages with common descent for reconstruction.
-A language reconstructed using the comparative memory gets the prefix proto-.
+»⟮The comparative method⟯« uses ⟮comparisons of languemes⟯ ⟮between multiple languoids⟯ ⟮with common descent⟯ for ⟮＿reconstruction＿⟯.
+A languoid reconstructed using ⟮＿the comparative memory＿⟯ gets the prefix ⟮proto-⟯.
 
 #### comparative linguistics
 
-Comparative linguistics is the branch of historical linguistics concerned with using the comparative method.
+»⟮Comparative linguistics⟯« is the branch of ⟮＿historical linguistics＿⟯ concerned with ⟮using the ＿comparative method＿⟯.
 
 ## language relatedness
 
@@ -2661,7 +2663,7 @@ The ⟮mainstream hypothesis⟯ about ⟮＿altaic＿⟯ is that ⟮only ＿micr
 
 ## language change
 
-Language change is mainly studied in historical linguistics.
+⟮＿Language change＿⟯ is mainly studied in ⟮＿historical linguistics＿⟯.
 »⟮Language change⟯« is the ⟮change⟯ in ⟮＿the linguistic items＿⟯ of ⟮＿a languoid＿⟯ ⟮c_-2;over time⟯.
 
 ### what changes?
@@ -2669,27 +2671,26 @@ Language change is mainly studied in historical linguistics.
 #### sound change
 
 »⟮Sound change⟯« is ⟮＿language change＿⟯ where ⟮c_;the thing that is changing⟯ is ⟮sounds⟯.
-Sound change may be phonetic or phonemic.
+⟮＿Sound change＿⟯ may be ⟮phonetic⟯ or ⟮c_;phonemic⟯.
 
 #### semantic change
 
 »⟮Semantic change⟯« is ⟮＿language change＿⟯ of ⟮＿sememe(s)＿⟯ of ⟮a particular ＿lexical unit＿⟯.
 ⟮Semantic change⟯ = ⟮semantic shift⟯ = ⟮semantic drift⟯
 
-Common types of semantic changes are narrowing/widening, amelioration/pejoration
-Common types of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ are ⟮semantic narrowing⟯ (also called ⟮specialization⟯), ⟮semantic widening⟯ (also called ⟮generalization⟯), ⟮amelioration/elevation⟯, ⟮pejoration⟯
+Common types of ⟮＿semantic change＿⟯ are ⟮narrowing/widening⟯, ⟮amelioration/pejoration⟯
 
 ##### widening/narrowing
 
 ⟮Semantic widening/narrowing⟯ is commonly abbreviated as ⟮widening/narrowing⟯
 ⟮Widening/narrowing⟯ is also known as ⟮generalization/specialization⟯.
-»⟮Widening/narrowing⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿a lexical unit＿⟯ takes on ⟮＿the sememe＿⟯ of ⟮one of its ⟮＿hyper/hyponyms＿⟯⟯.
+»⟮Widening/narrowing⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿a lexical unit＿⟯ takes on ⟮＿the sememe＿⟯ of ⟮one of its ＿hyper/hyponyms＿⟯.
 e.g. assassin: specific order of killers -> any killer; starve: die -> die by lack of food; wife: any woman -> woman to whom one is married
 
 ##### amelioration/pejoration
 
 ⟮amelioration/pejoration⟯ is also known as ⟮elevation/degeneration⟯
-»⟮Amelioration/pejoration⟯« is the form of ⟮＿semantic change＿⟯ where the sememe of a lexical unit becomes more positive/negative.
+»⟮Amelioration/pejoration⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿the sememe＿⟯ of ⟮＿a lexical unit＿⟯ ⟮becomes more positive/negative⟯.
 e.g. pretty: sly -> beautiful; knight: servant -> feudal warrior; villain: serf -> evildoer; knave: servant -> rogue
 
 ### why do things change
