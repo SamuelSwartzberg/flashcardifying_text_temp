@@ -3506,6 +3506,37 @@ By default, bootstrap only uses margin-bottom.
 
 ###### components
 
+###### unsorted
+
+{{c3::Chakra UI}}&nbsp; converts {{c2::theme tokens (colors, font sizes, stc)}} to {{c1::CSS variables}}.
+
+{{c1::useColorMode}} is a React {{c2::hook}} that gives you access to {{c3::colorMode}}, {{c3::toggleColorMode}}
+
+{{c1::useColorModeValue}} is a React hook used to {{c2::change any value or style based on the color mode}}. It {{c4::takes 2 arguments}}: {{c3::the value in light mode}}, and {{c3::the value in dark mode}}.
+
+{{c1::baseStyle}}, {{c1::sizes}} and {{c1::variants}} of your {{c2::theme.components}} entry can also take a {{c3::function}} so you can {{c3::generate}} them based on the current {{c4::theme}}, {{c4::colorMode}} or {{c4::colorScheme}}
+
+{{c1::Themera}} is a web app to {{c2::generate chakra UI color schemes}} (there are also many others tho)
+
+{{c1::Color mode}} is chakras way for managing {{c2::light and dark mode}}. It accepts the values {{c3::light}}, {{c3::dark}}, and {{c3::system}}
+
+{{c1::Chakra}}'s {{c3::default}} {{c2::theme}} (and {{c3::any other}} {{c2::theme}}) includes defaults for all the {{c4::System UI Theme Specification scales}}
+
+{{c1::&lt;Container&gt;}}s by default {{c2::constrain the size of the content}} to {{c3::60ch}}, but can take the {{c4::maxW}} prop with the value {{c5::container.&lt;breakpoint&gt;}} to {{c2::constraine the content}} to that breakpoint instead. It can also center its content via the {{c6::centerContent}} property.
+
+{{c1::&lt;ColorModeScript&gt;}} is necessary {{c2::for color mode in chakra to work}}, and needs to be {{c3::one of the first things in the &lt;body&gt;}}
+
+you customize components {{c1::globally}} by editing {{c2::the relevant component}} within <code>{{c3::theme.component}}</code><br/><div class="sub">
+<div class="sub all-b"><pre><code>const theme = extendTheme({
+  components: {
+    Button: {
+      // 1. We can update the base styles
+      baseStyle: {
+        fontWeight: "bold", // Normally, it is "semibold"
+      },
+      // 2. We can add a new button size or extend existing
+      sizes:
+
 ##### tailwind
 
 ⟮Tailwind CSS⟯'s main idea is ⟮using preexisting CSS classes⟯ for styling, instead of ⟮switching to CSS⟯ 
@@ -6123,6 +6154,159 @@ the x in ⟮tex and latex⟯ is pronounced as ⟮a voiceless velar fricative (e.
 texinfo is a set of macros for tex for generating hypertextual documentation
 
 info|read texinfo files
+
+######## unsorted
+
+\{{c1::stackrel}}{{c2::{top}{bot} }} will {{c3::render the top text above the bottom text}}
+In Latex, there are a bunch of commands starting with \text (which I will call \textwhatever) that indicate different fontstyles: \textbf, \textit, \textrm (roman), \texttt (monospace), \textsc (smallcaps)
+If you try to type text in a math env as-is, it will look weird, as latex is formatting it for math.
+To insert text in a math environment, you can use any of \mathwhatever, \textwhatever, or just \text.
+It is generally advised that you use \text or \textwhatever within math environments when you want to write text, and \mathwhatever when you want to write math that just happens to be in roman letters.
+For many but not all \textwhatever font formatting commands, latex has corresponding \mathwhatever fonts (e.g. \mathrm, \math.
+The \mathwhatever fonts only work within a math environment.
+The \textwhatever fonts also work within a math environment.
+Within a math environment, there are some differences between \mathwhatever and \texthatever: 
+\mathwhatever uses the defined math font and \textwhatever uses the defined text font (which may be different)
+\mathwhatever does not preserve spaces within, but \textwhatever does.
+you can nest \textwhatevers but not \mathwhatevers.
+some text styles only exist as \mathwhatevers, e.g. mathfrak (Fraktur), mathbb (Blackboard bold)
+
+In math environments, besides using \textbf or \mathbf, you can bold symbols by using \boldsymbol or \pmb 'poor man's bold' (which however only works by duplicating characters 3 times slightly offset)
+
+frac{a}{b}   fraction (bruch)||<img src="sm_JFBz6.png">
+sqrt[root]{math}   square root (wurzel)
+\sum_lower^upper
+
+There are also commands for math functions that are pure text (e.g. sin, lim), which have the advantage over just typing the characters that proper formatting is guaranteed
+
+For commands (esp. math) that take something lower, it is often indicated {{c1::_{foo}}}
+For commands (esp. math) that take something upper, it is often indicated {{c1::^{foo}}}
+
+\bar{foo}|ad a bar on top of letter
+<div class='c2-f'>
+What does this indicate?
+</div><div class='c1-f'>
+How do we indicate this in latex?
+</div><br/>{{c1::x^{n}}}  <span class="divider">&lt;-&gt;</span> {{c2::x<sup>n</sup>}}<br/><div class="sub">
+<div class="sub c2-f c1-b" >
+for single characters {} are optional
+</div>
+</div>
+<div class='c2-f'>
+What does this command do?
+</div><div class='c1-f'>
+Command for this?
+</div><br/>((h:2;::<img src="sm_403-4037364_6848425-integral-symbol.png">))
+((h:2;::<img src="sm_1200px-Greek_uc_sigma.svg.png">)){{c1::int}}  <span class="divider">&lt;-&gt;</span> {{c2::integral}}
+{{c1::sum}}  <span class="divider">&lt;-&gt;</span> {{c2::render a sum}}
+<div class='c2-f'>
+What does this command do?
+</div><div class='c1-f'>
+Command for this?
+</div><br/>((h:2;::<img src="sm_uNgnp.png">)){{c1::overbrace}}  <span class="divider">&lt;-&gt;</span> {{c2::horizontal curly brace on top}}
+<div class='c2-f'>
+What does this command do?
+</div><div class='c1-f'>
+Command for this?
+</div><br/>((h:2;::<img src="sm_binomial-coefficient-formula.png">)){{c1::binom}}  <span class="divider">&lt;-&gt;</span> {{c2::binomial coefficient}}
+
+To get latex citations etc to work (when compiling), first...  pdf make (<code>pdflatex</code>)
+To get latex citations etc to work, first run the pdf maker (pdflatex), then run the citation processor, then...  run the pdf maker twice
+To get latex citations etc to work, first run the pdf maker, then  run the citation processor
+Latex' convention of naming everything to do with citation bibliography&lt;whatever&gt; reflects what usage of the word bibliography?  the wide sense (synonym to works cited / references)
+\usepackage[style=foo]{biblatex}   (biblatex) set the citation style to foo
+printbibliography   (biblatex) add a works cited/references section
+BibTeX is a {{c1::file format (.bib)}} as well as {{c2::a latex citation processor}}
+Common packages for citation management in latex are {{c1::biblatex}} and {{c2::natbib}}
+Common processors for .bib files for latex are {{c1::BibTeX}} and {{c2::biber}}
+In latex, what generally glues our latex file and our citations (in the .bib file) together?  a certain (citation) processor
+In latex, where do we generally save our citations?  a separate (.bib) file
+The confusing thing about BibTeX being two things is that even if you do what, you still use BibTeX the file format?  use a different processor
+The confusing thing about BibTeX being two things is that even if you use a different processor, you still?  use the .bib format
+biblatex is <b>most commonly </b>used with what as the processing program?  biber
+biblatex requires what as the processing program?  nothing in particular
+natbib requires what as the processing program?  BibTeX
+addbibresource   (biblatex) command to specify the location for your .bib file<div class="sub">
+<div class="sub c1-b c2-f">
+(well, biber does also support other formats)
+<br><img src="sm_tmprbsz3kbb.jpg"><br></div>
+</div>
+<div class="c1-f">
+What's the problem?
+</div>What happens if you try to use e.g. biber with a file with file ending?  it'll not work (try to find files that don't exit)
+biber foo.tex  Call biber without extension (biber foo)
+if you call biber, the argument you call it with has what characteristic?  don't include file extension
+<div class="c2-f">
+What does this command do?
+</div><div class="c1-f">
+Command for this?
+</div>footnote{foo}   create a footnote containing foo<div class="c2-f">
+What does this command do?
+</div><div class="c1-f">
+Command for this?
+</div><br>
+cite{foo}   cite a specific work with label foo
+footcite{foo}   cite a specific work with label foo in as a foot note
+nocite{foo}   add a specific work with label foo into the references/works cited section without referring to it in the text
+parencite{foo}   cite a specific work with label foo in parentheses
+textcite{foo}   cite a specific work with label foo in-text with parenthesees areound <b>a specific part</b>
+<div class="c2-f">
+What does this command do?
+</div><div class="c1-f">
+Command for this?
+</div><br>appendix   generate an appendix
+
+A table in latex is created by the tabular environment.
+
+the tabular environment has a very specific syntax.
+Matrix syntax is similar to  {{c1::tabular syntax}}
+The call to \begin{tabular} takes an additional argument, 
+Defining {{c3::multiple columns}} within a {{c4::tabular}} argument: {{c5::*}} {{c6::{}} {{c1::amount}} {{c6::} }}{{c6::{}} {{c2::type}} {{c6::}&nbsp;}}&nbsp;<br><div class="sub">
+spacing is for anki clozes, not for latex
+</div>
+((h:2;::<img src="sm_147px-Multicolumn.svg.png">))In comparison with normal columns, what do paragraph columns do?  wrap
+\multicolumn{ num_cols }{ alignment }{ contents }
+to wrap text within a table, what kind of columns should you use?  paaragraph columns
+cline{&lt;start&gt;-&lt;end&gt;}   generate a partial horizontal line from start to end
+multicolumn   create a collumn that is broader than one
+paragraph column of width width   p{width}
+tabular   a table<div class="sub">
+<div class="sub c1-f">
+syntax in html is what? (different from this)
+</div>
+<div class="sub all-b">
+the table environment is used for something different
+</div>
+</div>
+<div class="c2-f">
+Latex package for?
+</div><div class="c1-f">
+Latex package for?
+</div>
+<div class="c2-f">
+Environment that delimits what?
+</div><div class="c1-f">
+Is indicated by which environment?
+</div><br>{{c1::longtable}}  <span class="divider">&lt;-&gt;</span> {{c2::allow tables to flow over page boundaries}}<br><div class="sub">
+<div class="sub f">
+package longtable
+</div>
+</div>
+<div class="c2-f">
+Environment that delimits what?
+</div><div class="c1-f">
+Is indicated by which environment?
+</div>
+<div class="c2-f">
+Indicate what?
+</div><div class="c1-f">
+Are indicated how?
+</div><br>((h:2;::<img src="sm_5da95a8e56e67d6b497a09183e429c5d961f7323.svg">)){{c1::matrix (and derivatives, pmatrix, bmatrix...)}}  <span class="divider">&lt;-&gt;</span> {{c2::a matrix&nbsp;}}
+{{c1::the letters in front of the matrix environment (pmatrix, bmatrix...)}}  <span class="divider">&lt;-&gt;</span> {{c2::the braces surrounding a matrix}}<br><div class="sub">
+<div class="sub all-b">
+the table environment is used for something different
+</div>
+</div>
 
 ######## Commands
 
@@ -11342,6 +11526,33 @@ Geonames is the worlds largest databae of geographical features, their locations
 Geonames is updated via crowsourcing.
 Geonames is licensed under CC BA.
 
+## documentation
+
+### RFC 2119 (this is basically done)
+
+＞ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED" "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. 
+
+
+⟮RFC 2119⟯ = ⟮BCP 14⟯
+»⟮RFC 2119 / BCP 14⟯« ⟮defines⟯ ⟮a set of⟯ ⟮＿requirement level terms＿⟯.
+»⟮A requirement level term⟯« is ⟮a term⟯ that ⟮indicates a requirement level⟯.
+⟮＿The requirment level terms＿⟯ that ⟮＿RFC 2119 / BCP 14＿⟯ defines: ⟮required⟯, ⟮must (not)⟯, ⟮should (not)⟯, ⟮(not) recommeded⟯, ⟮may⟯, ⟮optional⟯.
+Requirement level terms are only relevant if the spec is being followed.
+
+⟮＿The requirement level terms＿⟯ that ⟮＿RFC 2119 / BCP 14＿⟯ defines are typically rendered in ⟮allcaps⟯.
+
+#### requirement level terms
+
+⟮MUST⟯ = ⟮REQUIRED⟯ = ⟮SHALL⟯
+⟮MUST NOT⟯ = ⟮SHALL NOT⟯
+⟮MUST/REQUIRED/SHALL⟯ ↔ ⟮c_;MUST NOT/SHALL NOT⟯ = absolute requirement ↔ prohibition
+⟮SHOULD⟯ = ⟮RECOMMENDED⟯
+⟮SHOULD NOT⟯ = ⟮NOT RECOMMENDED⟯
+⟮SHOULD/RECOMMENDED⟯ ↔ ⟮c_;SHOULD NOT/NOT RECOMMENDED⟯ = ⟮may exist valid reasons⟯ to ⟮not do⟯ ↔ ⟮c-;do⟯ the thing, but ⟮full implications should be considered and carefully weighed beforehand⟯
+⟮MAY⟯ = ⟮OPTIONAL⟯
+⟮MAY/OPTIONAL⟯ = ⟮truly optional⟯
+for something foo marked with the requirement level term ⟮OPTIONAL⟯, ⟮any implementation not implementing foo⟯ ⟮MUST be able to interoperate⟯ ⟮c-;with an implementation implementing foo⟯ (and v.v.)
+
 # programming (mostly)
 
 ## Expressions
@@ -15064,6 +15275,328 @@ Svelte works like a front-end framework, but actually compiles in advance.
 
 ##### react 
 
+###### unsorted
+
+{{c4::setState}} may take a value, or a {{c1::callback}} which {{c2::recieves the previous value}} and {{c3::returns the next value}}
+
+{{c4::custom hooks}} are meant for {{c3::reusing logic}}, which you can't just {{c1::do via a normal function}}, since {{c2::normal functions can't call the built-in hooks}}
+
+{{c3::the useState function}} is a {{c2::Hook}} called the {{c1::State}} {{c2::Hook}}
+
+{{c2::outputting}} the {{c3::virtual representation of a component}} into the {{c4::final UI representation}} (most often the {{c4::actual DOM}}) is known as {{c1::mounting}}
+
+{{c1::useEffect}} takes {{c2::a callback}} to specify the side effect
+{{c1::useEffect}} runs {{c2::asynchronously}}, if you need a {{c2::blocking}} version, use {{c3::useLayoutEffect}} instead
+{{c1::useEffect}} is called when? {{c2::after every render}} (by default)
+{{c1::useEffect}} is a {{c2::Hook}} that allows you to do {{c3::side effects}} such as {{c3::changing the DOM}} from a {{c4::function component}}
+
+{{c1::useContext}} is a {{c2::hook}} that {{c3::takes SomeContext}} and {{c3::returns the value for that SomeContext}} (the one determined by {{c4::the nearest SomeContext.Provider}})
+
+{{c1::until which breakpoint on the container will follow the 100% plus padding thing}} is set in react-bootstrap by {{c2::the fluid="breakpoint" prop}}
+
+{{c1::react-devtools}} are specific devtools that should make {{c2::inspecting react a lot easier}}
+
+{{c1::formik}} and {{c2::react-hook-form}} are the most popular {{c3::react form libraries}}
+
+{{c1::Lifting state up}} is putting {{c2::state}} that {{c3::needs to be shared}} in {{c4::the closest common ancestor}}
+When lifting state up, the {{c1::state changes}} are then {{c2::passed back down}} as {{c3::props}}
+To {{c1::lift state up}} in react, {{c2::child components}} {{c4::should not}} depend on {{c3::state}} anymore, but on {{c3::props}}
+If child components have to {{c2::handle events}} when {{c1::lifting state up}}, the {{c3::event handlers}} should be {{c4::passed in}}, so they can {{c5::change the correct state}}
+
+within {{c1::the render function}}&nbsp;≈ {{c2::the main body of a function component}} (≈ outside of&nbsp;{{c2:: useEffect and similar}})&nbsp;respectively, you may not do things {{c3::that cause side effects&nbsp;}}
+
+within {{c1::&lt;SomeContext.}}{{c2::Consumer&gt;}} tags, you can {{c3::specify a function}} that takes {{c4::the value of the closest provider}} and returns {{c5::react elements/JSX to render}}<br/><div class="sub">
+<pre><code>&lt;MyContext.Consumer&gt;
+  {value =&gt; /* render something based on the context value */}
+&lt;/MyContext.Consumer&gt;
+</code></pre>
+</div>
+
+within class components, {{c2::outside of the constructor}}, you can {{c3::only change state}} via {{c1::setState()}}
+
+when we're generalizing over all {{c2::foos}} and {{c2::setFoos}} we might {{c3::get from useState}}, we call them {{c1::state}} and {{c1::setState}}
+
+what would you set to this.state.somekey to have a input type="text" be a controlled component? <span class="divider">-></span> {{c1::value}}
+
+to {{c1::clean up}} useEffect stuff, <b>return</b> {{c2::a callback from it}}
+
+the {{c1::useState}} function returns an {{c2::array of length 2}}, {{c2::[0]}} being {{c3::the current state}}, and {{c2::[1]}} being {{c3::the function to change the state}}
+
+the values of variables that we {{c2::assign the useState() return values to}} are preserved even {{c1::after the function exits}}
+
+the only time we can assign to {{c1::this.state}} is in the the {{c2::constructor}}
+
+the hook {{c1::useState}} takes an argument of {{c2::the inital value}}<br/><div class="sub">
+<div class="sub all-b">both useEffect and useContext take different arguments</div>
+</div>
+
+since you can {{c1::call useEffect multiple times}}, it's recommended to call it based on {{c2::separate concerns}}, not just {{c3::cram everything the component should do into the same useEffect}}
+
+in contrast to {{c2::built-in hooks}}, {{c2::custom hooks}} can {{c1::take any arguments}} and {{c1::return anything}}
+
+if you {{c1::return a callback from}} {{c2::useEffect}}, React will run it {{c3::before any new render (and before finally dismounting)}}
+
+if you want to specify {{c1::an inital state}} that is {{c2::complicated}}, instead of {{c3::passing useState a value}}, you may also {{c3::pass it a callback}}
+
+if you use {{c1::setState}}, but only {{c2::specify some of the keys}}, they will be {{c3::merged in to the previous state object}}
+
+create-react-app&nbsp; Custom Templates are always named in the format {{c1::cra-template-[template-name]}}, however you only need to provide the {{c2::template-name}} to the {{c3::creation command}}.
+
+conventionally, {{c1::the first value returned}} from {{c3::useState}} is called {{c4::e.g. foo}}, and {{c1::the second value}} is then called {{c2::setFoo}}
+
+both {{c2::this}}.{{c1::props}} and {{c2::this}}.{{c1::state}} may be updated {{c3::asynchronously}}, if you want to make sure that {{c4::things are updated in the correct order}}, pass a {{c5::callback}}
+
+a {{c3::custom hook}} is a JS {{c4::function}} whose name {{c2::starts with use}} and which may {{c1::call other hooks}}
+
+You're not limited to putting {{c2::other elements}} within {{c3::the component tags}} to pass it as props.children, you can also {{c1::insert arbitray {someJS} }} in here.
+
+You can only call {{c2::hooks}} {{c3::at the top level,}} that is not in {{c3::loops,}} {{c3::conditions}}, or {{c3::nested functions}}, because React {{c1::relies on the order in which the Hooks are called to determine which state is what}}
+
+You can only call {{c2::hooks}} from React {{c3::function components}} (not {{c3::plain JS functions}}, even if {{c3::called from react components}}), or from {{c1::custom Hooks}}
+
+Within the component class, besides {{c1::lifecycle}} methods, constructors etc., we can add {{c2::custom}} methods
+
+While you can {{c2::pass an empty array}} to useEffect as the second arg, causing it to {{c3::only run once on mount}} (and {{c3::the return value once on unmount}}), it is {{c1::generally discouraged}}
+
+While it's ideomatic to call a {{c1::render prop}} {{c2::<code>render</code>}}, any prop that {{c3::is a function}} and {{c4::another component uses to know what to render}} is a {{c1::render prop}}
+
+When {{c2::specifying the array optional secondary arg}} for useEffect, you need to include {{c1::any states you will use in the array,}} or it will {{c3::use outdated values}}
+
+When React sees an {{c1::element representing a user-defined component}}, it passes JSX {{c2::attributes}} and {{c3::children}} to it as {{c4::a single object}}. We call this object “{{c5::props}}”.
+
+Whatever you {{c2::put in between}}&nbsp; {{c3::JSX component opening&amp;closing tags}} gets {{c4::passed on to the component}} as {{c1::props.children}}
+
+Using JSX with React is... <span class="divider">-&gt;</span> {{c1::optional}}
+
+To {{c3::pass arguments}} to React {{c4::event handlers}}, use {{c1::anonymous functions}} or {{c2::bind}}
+
+To {{c2::conditionally render things}}, use {{c1::native JS constructs such as if, ternary, log-op}}
+
+To make sure react {{c5::event handlers}} {{c1::get the correct <code>this</code>}}, you need to {{c2::<code>bind</code> them in the constructor}}, or use {{c3::public class fields}}/{{c4::arrow functions}} (which have their own downsides)
+
+To instantiate a context provider of context Foo within JSX, use {{c1::&lt;}}{{c2::Foo.Provider}}{{c3:: value={somevalue} }}{{c1::&gt;&nbsp;}}
+
+The {{c1::optional}} {{c2::second argument}} to useEffect is {{c3::an array of states}} - useEffect will only be called if {{c4::one of the values}} in {{c3::the array}} changed,&nbsp;
+
+The steps react recommends to building an react app: {{c1::create a mockup of your site -}}&gt; {{c2::iidentify components}} -&gt; {{c3::build a static verion in react}} -&gt; {{c4::find out all the things that need state}} -&gt; {{c5::find out who should own the state}} -&gt; {{c6::add a way for handling changes}}<br>
+
+SInce in react-bootstrap {{c1::.key-value often becomes key="value"}}, to {{c2::add new key="value" pairs}}, {{c3::add new .key-value classes}}
+
+Normally you can only return {{c1::one element}} as a react component, but you may want to return {{c1::multiple elements}} without {{c2::a wrapper.}} for this, you can use {{c3::&lt;React.Fragment&gt;}}...{{c3::&lt;/React.Fragment&gt;}} or the short syntax {{c4::&lt;&gt;}}...{{c4::&lt;/&gt;}}
+
+In the react {{c2::component constructor}}, we always need to call {{c1::super(props)}} first
+
+In sharing information, react prefers {{c1::composition}} over {{c1::inheritance}}
+
+In react, {{c1::inheritance}}-like behavior is achieved by {{c2::the more general component}} {{c3::recieving props from}} {{c2::the more specific component}}<br/><div class="sub">
+<div class="sub all-b"><pre><code>function FancyBorder(props) {
+  return (
+    &lt;div className={'FancyBorder FancyBorder-' + props.color}&gt;
+      {props.children}
+    &lt;/div&gt;
+  );
+}
+</code></pre></div>
+</div>
+
+In react, you can use {{c2::Context}} to {{c3::store global data}}, but you should {{c1::think if there isn't a better way to do it first}}
+
+In react, to create a Context object, call {{c1::React.}}{{c2::createContext}}{{c3::(defaultValue)}}<br/><div class="sub">
+<pre><code>const ThemeContext = React.createContext('light');
+</code></pre>
+</div>
+
+In react, everything {{c2::nested within}} a {{c1::context provider}} has acces to {{c3::the Context}} with {{c3::the specified value}}
+
+In react, a {{c1::controlled component}} has react as {{c2::the only thing managing its behavior}}, making its content {{c3::reflect the react state}}, and having {{c4::react update it}} based on {{c5::events}} (e.g. {{c5::onchange}})
+
+In react, a component with a {{c1::render prop}} takes a {{c2::function}} that {{c2::returns}} a {{c3::react element}} and {{c3::calls it (the function)}} instead of {{c4::implementing its own render logic}}
+
+In contrast to {{c3::most HTML attributes in react}}, {{c2::aria attributes}} are written in {{c1::kebab-case}}
+
+In React, which <code>{{c1::&lt;option&gt;}}</code> is selected is not specified by {{c2::a <code>selected</code> attr}}&nbsp;on {{c2::the <code>&lt;option&gt;</code>}}, but by {{c3::a <code>value</code> attr}}&nbsp;on {{c3::the <code>&lt;select&gt;</code> tag}}
+
+In React, the content of a {{c1::textarea}} does not live {{c2::between its tags}}, but instead {{c3::in a value attribute}}
+
+How mutable are React elements? <span class="divider">-&gt;</span> {{c1::immutable}}
+
+For easy list generation, it is often idiomatic in react to {{c1::return JSX}} from a {{c2::map function}}
+
+Before {{c2::hooks}}, if you were writing a {{c1::function component}} and needed {{c3::e.g. state}}, we would have to have {{c4::converted it to a class component}}
+
+<pre><code>function Example() {
+  // Declare a new state variable, which we'll call count
+  const {{c1::[count, setCount]}} = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You clicked {count} times&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Click me
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+
+<div class='c1-f'>
+When should the parentheses be here?
+</div><br/><pre><code>const layout = (props) =&gt; {
+  return (
+    &lt;Aux&gt;
+    ...
+    &lt;/Aux&gt;
+  )
+}</code></pre> <span class="divider">-></span> {{c1::if the JSX returned is more than one line}}
+
+<div class='c1-f'>
+What's the problem here?
+</div><br/><pre><code>  
+  if (name !== '') {
+    useEffect(function persistForm() {
+      localStorage.setItem('formData', name);
+    });
+  }</code></pre> <span class="divider">-></span> {{c1::call hooks only at toplevel}}
+
+<div class='c1-f'>
+What's missing here?
+</div><br/><pre><code>render() {
+  return (
+    &lt;ChildA /&gt;
+    &lt;ChildB /&gt;
+    &lt;ChildC /&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::the children should be wrapped in a fragment}}
+
+<div class='c1-f'>
+What would happen if we didn't include the &lt;&gt;...&lt;/&gt;?
+</div><br/><pre><code>render() {
+  return (
+    &lt;&gt;
+      &lt;ChildA /&gt;
+      &lt;ChildB /&gt;
+      &lt;ChildC /&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::it wouldn't work}}
+
+<div class='c1-f'>
+What provides the props.children here?
+</div><br/><pre><code>function FancyBorder(props) {
+  return (
+    &lt;div className={'FancyBorder FancyBorder-' + props.color}&gt;
+      {props.children}
+    &lt;/div&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::html content within &lt;FancyBorder&gt; tags}}
+
+<div class='c1-f'>
+What is setCount doing here, related to state?
+</div><br/><pre><code>function Example() {
+  // Declare a new state variable, which we'll call count
+  const [count, setCount] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You clicked {count} times&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Click me
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::changing it}}
+
+<div class='c1-f'>
+What is count doing here, related to state?
+</div><br/><pre><code>function Example() {
+  // Declare a new state variable, which we'll call count
+  const [count, setCount] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You clicked {count} times&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Click me
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::representing the current state}}
+
+<div class='c1-f'>
+What are we using here to manage state?
+</div><br/><pre><code>function Example() {
+  // Declare a new state variable, which we'll call count
+  const [count, setCount] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;You clicked {count} times&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
+        Click me
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::hooks}}
+
+<div class='c1-f'>
+What are we doing here?
+</div><br/><pre><code>class MouseTracker extends React.Component {
+  render() {
+    return (
+      &lt;div&gt;
+        <mark>&lt;Mouse render={mouse =&gt; (
+          &lt;Cat mouse={mouse} /&gt;
+        )}/&gt;</mark>
+      &lt;/div&gt;
+    );
+  }
+}
+</code></pre> <span class="divider">-></span> {{c1::creating a render prop}}
+
+<div class='c1-f'>
+This is shorthand for?
+</div><br/><pre><code>render() {
+  return (
+    &lt;&gt;
+      &lt;ChildA /&gt;
+      &lt;ChildB /&gt;
+      &lt;ChildC /&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre> <span class="divider">-></span> {{c1::<pre><code>render() {
+  return (
+    &lt;React.Fragment&gt;
+      &lt;ChildA /&gt;
+      &lt;ChildB /&gt;
+      &lt;ChildC /&gt;
+    &lt;/React.Fragment&gt;
+  );
+}
+</code></pre>}}
+
+<div class="c1-f">
+What does the content between &lt;FancyBorder&gt; tags do?
+</div><br><pre><code>function WelcomeDialog() {
+  return (
+    &lt;FancyBorder color=blue&gt;
+      &lt;h1 className=Dialog-title&gt;
+        Welcome
+      &lt;/h1&gt;
+      &lt;p className=Dialog-message&gt;
+        Thank you for visiting our spacecraft!
+      &lt;/p&gt;
+    &lt;/FancyBorder&gt;
+  );
+}
+</code></pre> <span class="divider">-&gt;</span> {{c1::becomes accessible as props.children}}
+
 ###### core react
 
 ####### using JSX
@@ -15310,6 +15843,132 @@ Jekyll Plugins2§
 
 
 ##### next.js
+
+###### unsorted
+
+{{c1::next/head}} contains a component for {{c2::appending things to the &lt;head&gt;}}.
+
+{{c1::getStaticProps}} and {{c1::getStaticPaths}} claim to only run {{c2::during build time}}, but {{c3::actually also can run during runtime}} if using {{c4::Incremental Static Regeneration}}
+
+{{c1::getStaticProps}} and {{c1::getServerSideProps}} will both pass the value {{c4::in the props key}} of {{c5::the return value}} to the {{c2::react component}} {{c3::defining the page}}
+
+{{c1::Next.js}} is a {{c2::framework}} for {{c3::react}}
+
+to {{c1::add custom stylesheets}} you <code>{{c2::import}}</code> them in {{c3::pages/_app.js}} ({{c4::and only there!}}) {{c6::stylesheets from npm modules}} can be {{c2::imported}} {{c5::anywhere}}
+
+to change how next.js {{c1::image optimization}} works, specify {{c2::{images:}} {{c3::{loader:}}
+
+the three functions (which are all a{{c2::sync}}) for {{c1::fetching data}} in next.js are {{c3::getStaticProps}}, {{c4::getStaticPaths}}, {{c5::getServerSideProps}}
+
+the getStatic/ServersSide... functions have {{c1::TS types}} that are {{c2::the same but capitalized (UpperCamelCase)}}
+
+create-next-app supports using {{c1::typescript}} with the {{c2::--ts}}/{{c2::--typescript}} flag
+
+What's the benefit of specifying layouts for individual pages, instead of just also returning this from the main component? <span class="divider">-&gt;</span> {{c1::react will be able to tell what changed and thus enable more SPA-like operation}}
+
+The functions for getting data, getServerSideProps/getStaticPaths/getStaticProps are functions that are {{c1::written}} and {{c2::exported}} by {{c3::you}} for {{c4::any page that needs them}}
+
+Nextjs supports {{c2::modern browsers}} + {{c1::IE11}} by default
+
+Next.js {{c1::auto-optimizes your images}} if you specify them using the {{c2::<code>Image</code> component}}&nbsp;in {{c3::next/image}}
+<div class="c1-f">
+What would we have to do to use this?
+</div><br><pre><code>&lt;Image
+  src="/me.png"
+  alt="Picture of the author"
+  width={500}
+  height={500}
+/&gt;
+</code></pre> <span class="divider">-&gt;</span> {{c1::<pre><code>import Image from 'next/image'
+</code></pre>}}
+<div class="c1-f">
+What is the advantage of specifying images like this in next.js?
+</div><br><pre><code>&lt;Image
+  src="/me.png"
+  alt="Picture of the author"
+  width={500}
+  height={500}
+/&gt;
+</code></pre> <span class="divider">-&gt;</span> {{c1::uses built-in compression, lazy-loading etc}}
+<div class="c1-f">
+Allows us to do what?
+</div><br><pre><code>module.exports = {
+  images: {
+    domains: ['example.com'],
+  },
+}</code></pre> <span class="divider">-&gt;</span> {{c1::use next.js image component with external images}}
+(next.js) For production, it is recommended that you install the npm package <code>{{c1::sharp}}</code> for {{c2::<code>Image</code> component minification}}
+
+Next.js itself is built on top of {{c1::node.js}}
+
+Next.js auto {{c2::inlines}} {{c1::font}} css
+
+In next.js, any {{c1::react component}} {{c3::exported}} from a {{c2::.js}}({{c2::x}}) or {{c2::.ts}}({{c2::x}}) file in {{c4::the pages directory}} is {{c5::a page}}
+
+If you want to have {{c5::different layouts}} for {{c5::different pages}}, you need to attach a <code>{{c1::getLayout}}</code> {{c1::method}} to the {{c2::function implementing your page}}, which takes an argument of {{c3::the page}}, and returns {{c4::the page with whatever modifications}}.
+
+If you want to have some stuff that every page of your next.js website will have, what should you do? <span class="divider">-&gt;</span> {{c1::override the global App component}}
+
+Define a layout for this page specifically<br><pre><code>//... imports
+export default function Page() {
+  //...
+{{c1::Page}}.getLayout = function(page) {
+  return // {page} surrounded by some other stuff
+</code></pre>
+Define a layout for this page specifically<br><pre><code>//... imports
+export default function Page() {
+  //...
+Page.{{c1::getLayout}} = function(page) {
+  return // {page} surrounded by some other stuff
+</code></pre>
+Define a layout for this page specifically<br><pre><code>//... imports
+export default function Page() {
+  //...
+Page.getLayout = function(page) {
+  return // {{c1::{page} surrounded by some other stuff}}
+</code></pre>
+
+Converting {{c2::static HTML websites}} (either from {{c2::SSR}} or {{c2::statically generated}}) into {{c3::dynamic web pages}} via {{c4::client-side JS}} is known as {{c1::hydration}}.
+
+By default, {{c1::next.js}} {{c2::pre-renders}} ({{c2::generates the HTML of in advance}}) {{c3::every page}}
+
+By default, what decides the route of a next.js page? <span class="divider">-&gt;</span> {{c1::the filename}}
+
+By default, next.js only allows images {{c1::in the project itself}} to be used {{c2::for the Image component}}, if you want to use others, specify the {{c3::domain}} in {{c4::{images:}} {{c5::{domains:}} [...
+
+Both {{c1::getServerSideProps}} and {{c1::getStaticProps}} return a {{c2::props object}} that {{c3::the react component}} implementing the page will recieve
+
+Both {{c1::getServerSideProps}} and {{c1::getStaticProps}} recieve {{c2::a single argument}} <code>{{c3::context}}</code>
+
+<div class="c1-f">
+What will every page now have?
+</div><br><pre><code>import Layout from '../components/layout'
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    &lt;Layout&gt;
+      &lt;Component {...pageProps} /&gt;
+    &lt;/Layout&gt;
+  )
+}
+</code></pre> <span class="divider">-&gt;</span> {{c1::the same global layout}}
+
+<div class="c1-f">
+What are we doing here?
+</div><br><pre><code>//... imports
+export default function Page() {
+  //...
+Page.getLayout = function(page) {
+  return // {page} surrounded by some other stuff
+</code></pre> <span class="divider">-&gt;</span> {{c1::defining a layout for this page specifically}}
+
+<div class="c1-f">
+For next.js, what will About become?
+</div><br><pre><code>function About() {
+  return &lt;div&gt;About&lt;/div&gt;
+}
+
+export default About</code></pre> <span class="divider">-&gt;</span> {{c1::a page}}
 
 Each page is defined by a react component.
 
@@ -18242,4 +18901,827 @@ Placeholder images using boring boxes|via.placeholder.com
 via.placeholder.com/⟮width⟯[⟮x⟯⟮height⟯]
 placekitten.com/⟮width⟯⟮/⟯⟮height⟯
 
+## some internet/js stuff
 
+{{c1::web app manifests}} are usually called {{c2::manifest}}.{{c3::webmanifest}}/.{{c3::json}}
+{{c1::Progressive web app}} is not {{c2::an official term}}, but refers to creating {{c3::a flexible, adaptable app}} using {{c4::web technologies}} (though {{c5:: there have been a few technologies that have become very intertwined with it (service workers, web app manifests, etc.)}})
+within a web app manifest,&nbsp; the <code>{{c1::scope}}</code> property manages {{c2::which URLs are considered to be within your app}}
+within a web app manifest, you must provide {{c2::at least one}} of {{c1::<code>short_name</code>}} or {{c1::<code>name</code>}}, which appear {{c3::in the installation screen}} and {{c3::most other places where space is limited}}, respectively
+within a web app manifest, the <code>{{c1::start_url}}</code> property is used to determine {{c2::from where the app starts}}
+within a web app manifest, the <code>{{c1::icons}}</code> property is an {{c2::array}} of {{c2::objects}}, each representing {{c3::an icon for launchers, etc.}}
+within a web app manifest, the <code>{{c1::display}}</code> property is used to determine {{c2::how the apps start (e.g. in fullscreen / back buttons, etc.)}}
+within a web app manifest, the <code>{{c1::background_color}}</code> property is mainly used for {{c2::the startup splash screen}}
+within a web app manifest, for the <code>{{c1::display}}</code> property <code>{{c2::fullscreen}}</code> shows {{c6::no UI}}, <code>{{c3::standalone}}</code> shows {{c6::only the OS UI (works as a normal app would)}}, <code>{{c4::minimal-ui}}</code> {{c7::additionally shows some nav elements (back/reload) but no address bar}}, and <code>{{c5::browser}}</code> {{c7::gives you a standard browser experience}}
+within a web app manifest, each object within the array of&nbsp;<code>{{c1::icons}}</code> property can have the keys {{c2::sizes}}, {{c3::src}}, {{c4::type}}, and {{c5::purpose (esp. used for adapting e.g. to monochrome or maskable icons)}}
+The {{c1::web app manifest}} is a {{c2::JSON}} file that tells the browser about your {{c3::Progressive Web App}} and how it {{c4::should behave}}&nbsp;when {{c5::installed on the user's desktop or mobile device.}}
+
+{{c1::Object.fromEntries}} takes an argument that is an {{c2::iterator}} of {{c3::[key, value]}} and {{c4::transforms it into an object&nbsp;}}
+
+{{c1::CacheStorage (normally as <code>caches</code>).open(somename)}}&nbsp;returns {{c4::a Promise}} that resolves to {{c5::the Cache object}} matching {{c2::the name passed}}, or {{c3::creates it if it does not exist}}
+{{c1::CacheStorage (normally as <code>caches</code>).match(someRequest)}} is a convenience method that looks if {{c2::the someRequest is cached}} in {{c3::any of the caches}}
+the <code>{{c1::Cache}}</code> interface is meant to store <code>{{c2::Request}}</code> / <code>{{c2::Response}}</code> pairs
+since there can be more than one <code>Cache</code>, you {{c1::get a specific <code>Cache</code>}}&nbsp;via the <code>{{c2::CacheStorage}}</code> interface, which can be accessed via {{c3::the global <code>caches</code> property}}
+for the Cache API, the {{c1::retrieval}} functions are {{c2::match}} for a {{c4::single item}} and {{c2::match}}{{c3::All}} for {{c4::an array}}. Arguments are ({{c5::request}}, {{c5::options}})
+for the Cache API, the {{c1::add}}/{{c1::addAll}} methods take a {{c2::request object}}, {{c3::fetch the response}}, and then {{c4::add the response to the cache}}.
+for the Cache API, if something {{c2::returns something}}, it does so in the form of {{c1::a promise}}
+What is the Cache API/interface distinct from? <span class="divider">-></span> {{c1::HTTP caching}}
+By whom is the <code>Cache</code> managed? <span class="divider">-></span> {{c1::primarily by you, the dev}}<br/><div class="sub">
+<div class="sub c1-f c2-b" >
+the one that stores Request / Response object pairs
+</div>
+</div>
+
+what do we pass to process.nextTick() to be executed at the end of the current message? <span class="divider">-></span> {{c1::a callback}}
+
+to define {{c1::app shortcuts}}, use the {{c2::shortcuts}} property in the web manifest
+((h:all;::<img src="F4TsJNfRJNJSt2ZpqVAy.png">))
+
+to create a new thing using a constructor, use what? <span class="divider">-&gt;</span> {{c1::the <code>new</code> keyword}}
+the <code>__proto__</code> property refers to what? <span class="divider">-&gt;</span> {{c1::the prototype of the current object}}
+null sits where, as relates to the prototype chain? <span class="divider">-&gt;</span> {{c1::at the top}}
+if you want to use the constructor of a given object <q>someObject</q>, what do you call? <span class="divider">-&gt;</span> {{c1::<code>new someObject.constructor()</code>}}
+getPrototypeOf() gets what? <span class="divider">-&gt;</span> {{c1::the actual prototype (__proto__)}}
+__proto__ is nice to access the prototype, but is what...? <span class="divider">-&gt;</span> {{c1::non-standard}}
+Why do functions have properties, how is that even possible? <span class="divider">-&gt;</span> {{c1::functions are Objects}}
+Whose <code>prototype</code> property contains the constructor property? <span class="divider">-&gt;</span> {{c1::that of a constructor function}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+but isn't anything that has this property automatically a constructor???????
+</div>
+</div>
+Which JS methods <b>will</b> be inherited by things that are instances of from the relevant thing? <span class="divider">-&gt;</span> {{c1::things defined on the <code>prototype</code> property}}
+Which JS methods <b>will not</b>&nbsp;be inherited by things that instantiate the relevant thing? <span class="divider">-&gt;</span> {{c1::things defined on the thing directly}}
+Where can you find the constructor that was used to create a given object? <span class="divider">-&gt;</span> {{c1::its constructor property (which it is actually on its __proto__, as you would expect)}}
+When will JS walk up the prototype chain to find a method? <span class="divider">-&gt;</span> {{c1::if the relevant Object does not have it}}
+What's the problem of declaring properties on the constructor prototype? <span class="divider">-&gt;</span> {{c1::<code>this</code> will not have the correct scope}}
+What sits at the top of the prototype chain? <span class="divider">-&gt;</span> {{c1::null}}
+What is super confusing abut the <code>prototype</code> property in JS? <span class="divider">-&gt;</span> {{c1::it does not refer to the actual prototype -.-}}
+What does the 2nd-to-top element of the prototype chain have as its prototype? <span class="divider">-&gt;</span> {{c1::<font face="monospace">null}}
+What does the  <code>prototype</code> property of a constructor function definitely contain? <span class="divider">-&gt;</span> {{c1::the constructor property}}
+What are JS functions actually, internally? <span class="divider">-&gt;</span> {{c1::Objects}}
+The whole class syntax is what, related to how JS inheritance and objects actually work? <span class="divider">-&gt;</span> {{c1::syntactic sugar}}
+The methods defined in the <code>prototype</code> property have what characteristic?  <span class="divider">-&gt;</span> {{c1::Will be inherited}}
+The fact that if an object has a property with a certain name, properties with the same name further up the prototype chain will not be visited is known as what? <span class="divider">-&gt;</span> {{c1::prototype shadowing}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+cf name shadowing
+</div>
+</div>
+The <code>prototype</code> does not refer to the prototype of an object, instead, what does? <span class="divider">-&gt;</span> {{c1::the <code>__proto__</code> property}}
+More standard way to access the actual prototype of the Object? <span class="divider">-&gt;</span> {{c1::getPrototypeOf()}}
+If you want to find out what the name of the constructor function that someObject was created with is, what would you do? <span class="divider">-&gt;</span> {{c1::<code>someObject.constructor.name</code>}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+which is obv not defined on someObject itself, but further up the prototype chain
+</div>
+</div>
+If we wanted to delete a method from all instances of something, where would we remove it from? <span class="divider">-&gt;</span> {{c1::the prototype of the constructor function (or the __proto__ of any of the objects, since someObj.__proto__ == constructorOfObj.prototype)}}
+If we wanted all instances of something to gain a method, where would we add it? <span class="divider">-&gt;</span> {{c1::the prototype of the constructor function}}
+If we delete something from the prototype of the constructor, where is it deleted? <span class="divider">-&gt;</span> {{c1::from all instances}}
+If we call a method on something that doesn't have that method, what does JS do? <span class="divider">-&gt;</span> {{c1::walk up the prototype chain until it finds it}}
+If we add something to the prototype of the constructor, who can then access it? <span class="divider">-&gt;</span> {{c1::any instance}}
+<div class="c2-f">
+What does this sometimes also indicate?
+</div><div class="c1-f">
+How is this sometimes indicated, esp in ECMAScript design documents?
+</div><br>{{c1::[[Prototype]]}}  <span class="divider">&lt;-&gt;</span> {{c2::the actual prototype}}
+having prototypes of prototypes in JS establishes what? <span class="divider">-&gt;</span> {{c1::the prototype chain}}
+What is the prototype chain? <span class="divider">-&gt;</span> {{c1::the prototypes of prototypes (__proto__) etc.}}
+The mechanism that handles JS inheritance is what? <span class="divider">-&gt;</span> {{c1::prototype}}
+if bar's <code>prototype</code> property is foo's prototype (__proto__), then... <span class="divider">-&gt;</span> {{c1::foo is an instance of bar}}
+When does a function become a constructor? <span class="divider">-&gt;</span> {{c1::When it is called with the new operator}}
+What is the performance impact of traversing the prototype chain? <span class="divider">-&gt;</span> {{c1::can be signifcant}}
+What do almost all JS objects inherit from? <span class="divider">-&gt;</span> {{c1::Object.prototype}}
+What do all functions inherit from? <span class="divider">-&gt;</span> {{c1::Function.prototype}}
+What are almost all JS objects instances of? <span class="divider">-&gt;</span> {{c1::Object}}
+What are all arrays instances of (directly)? <span class="divider">-&gt;</span> {{c1::Array}}
+The first argument Object.create takes is... <span class="divider">-&gt;</span> {{c1::the prototype (__proto__) it will have&nbsp;}}
+In JS, foo is an instance of bar if bar's what is foo's what? <span class="divider">-&gt;</span> {{c1::bar's <code>prototype</code> property is foo's prototype (__proto__)}}
+Function.prototype has what as it's prototype (__proto__)? <span class="divider">-&gt;</span> {{c1::Object.prototype}}
+For Object.create, the thing to use as prototype (__proto__) goes where? <span class="divider">-&gt;</span> {{c1::first argument}}
+Creating an object and specifying which prototype (__proto__) you want explicitly is done how? <span class="divider">-&gt;</span> {{c1::Object.create}}
+Any function that you call with the new operator is what, in JS? <span class="divider">-&gt;</span> {{c1::a constructor}}
+A constructor is what which you call with the new operator? <span class="divider">-&gt;</span> {{c1::a function}}
+<div class="c2-f">
+Object.prototype method for?
+</div><div class="c1-f">
+Object.prototype method for?
+</div><br>{{c1::hasOwnProperty}}  <span class="divider">&lt;-&gt;</span> {{c2::seeing if the property is not inherited or inherited}}
+<div class="c1-f">
+What will this be?
+</div><br>Object.create(Array.prototype).__proto__
+ <span class="divider">-&gt;</span> {{c1::Array.prototype including methods such as push...}}
+<div class="c1-f">
+What will Array.prototype be to the newly created object?
+</div><br>Object.create(Array.prototype) <span class="divider">-&gt;</span> {{c1::__proto__}}</font>
+Which kind of functions do not have a <code>prototype</code> property? <span class="divider">-&gt;</span> {{c1::arrow functions}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+which is why they can't be used as constructors
+</div>
+</div>
+Which <b>kind of </b>functions <b>can</b> you call with <code>new</code> to create a new instance? <span class="divider">-&gt;</span> {{c1::any function that is not an arrow function}}
+When you create an object with object literal syntax in JS, what is its prototype (__proto__)? <span class="divider">-&gt;</span> {{c1::Object.prototype}}
+When you create an object with object literal syntax in JS, what constructor is used? <span class="divider">-&gt;</span> {{c1::the Object() constructor}}
+When functions are being used as constructors, where will the objects created by them have the things that were defined on constructor.prototype? <span class="divider">-&gt;</span> {{c1::their prototype (__proto__)}}
+When functions are being used as constructors, the prototype of the constructor function becomes what?  <span class="divider">-&gt;</span> {{c1::the prototype (__proto__) of the new object }}
+When functions are being used as constructors, the prototype (__proto__) of the new object will be equal to what? <span class="divider">-&gt;</span> {{c1::the <code>prototype</code> of the constructor function}}
+What sits at the second position of the prototype chain, below null? <span class="divider">-&gt;</span> {{c1::Object.prototype}}
+Object.prototype sits where, as relates to the prototype chain? <span class="divider">-&gt;</span> {{c1::one below the top (below null)}}
+If you don't {{c1::supply a constructor to a <code>class</code> declaration}}, <span class="c4-5-scr">the constructor will be {{c2::an empty constructor}} if it is a {{c3::base class}}</span>, and <span class="c2-3-scr">{{c4::one that just calls the constructor of the parent class}} if it is a {{c5::derived class}}</span>.
+Array.prototype has what as it's prototype (__proto__)? <span class="divider">-&gt;</span> {{c1::Object.prototype}}
+Any given function has what as its prototype  (__proto__)? <span class="divider">-&gt;</span> {{c1::Function.prototype}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+which itself has a __proto__ of Object.prototype
+</div>
+</div>
+Any given array has what as its prototype (__proto__)? <span class="divider">-&gt;</span> {{c1::Array.prototype}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+which itself has a __proto__ of Object.prototype
+</div>
+</div>
+<div class="c1-f">
+Why doesn't this work?
+</div><br><pre><code>let temp = () =&gt; 5;
+new temp;</code></pre> <span class="divider">-&gt;</span> {{c1::arrow functions cannot be used as constructors}}
+The <code>typeof</code> things like <code>Array</code>, <code>Object</code>, <code>Function</code> is what? <span class="divider">-></span> {{c1::function}}<br/><div class="sub">
+<div class="sub c1-b c2-f" >
+they are classes (in a sense) but classes are functions
+</div>
+</div>
+
+to add something to the evenet queue of another runtime, what method can one use? <span class="divider">-></span> {{c1::window.postMessage()}}
+
+the {{c3::deviceorientation}} event contains four values, {{c1::absolute}}, {{c2::alpha}}, {{c4::beta}}, and {{c5::gamma}}
+for the deviceorientation events, the things they can be relative to is the {{c1::screen}} on your mobile device, and the {{c2::keyboard}} on your laptop (generally)
+Why might your laptop have acceleration sensors? <span class="divider">-></span> {{c1::protect HDD when fallign}}
+<div class='c2-f'>
+represents orientation changes where?
+</div><div class='c1-f'>
+Orientation changes around this axis are represented by what?
+</div><br/>((h:all;::<img src="sm_beta2.png">)){{c1::beta (of deviceorientation event)}}  <span class="divider">&lt;-&gt;</span> {{c2::around the x axis&nbsp;}}
+<div class='c2-f'>
+represents orientation changes where?
+</div><div class='c1-f'>
+Orientation changes around this axis are represented by what?
+</div><br/>((h:all;::<img src="sm_alpha.png">)){{c1::alpha (of deviceorientation event)}}  <span class="divider">&lt;-&gt;</span> {{c2::around the z axis}}
+<div class='c2-f'>
+represents orientation changes where?
+</div><div class='c1-f'>
+Orientation changes around this axis are represented by what?
+</div><br/>((h:all;::<img src="gamma.png">)){{c1::gamma (of deviceorientation event)}}  <span class="divider">&lt;-&gt;</span> {{c2::around the y axis&nbsp;}}
+<div class='c2-f'>
+Is an event sent when?
+</div><div class='c1-f'>
+Which event is sent in this case?
+</div><br/>{{c1::deviceorientation}}  <span class="divider">&lt;-&gt;</span> {{c2::Device orientation changes (in alpha, beta, gamma)}}
+<div class='c2-f'>
+Is an event sent when?
+</div><div class='c1-f'>
+Which event is sent in this case?
+</div><br/>{{c1::devicemotion}}  <span class="divider">&lt;-&gt;</span> {{c2::moving your device (accelerometer changes)}}
+
+the {{c1::define()}} method of window.customElements takes the arguments 1) {{c2::what the name of the element will be}}, 2) the {{c3::class}} that will {{c4::define its behavior}}, 3) (optional) an {{c5::object}} {{c6::specifying what it extends}}
+The two types of custom elements are customized built-in elements and... <span class="divider">-&gt;</span> {{c1::autonomous custom elements}}
+The two types of custom elements are autonomous custom elements and... <span class="divider">-&gt;</span> {{c1::customized built-in elements}}
+In general, regardless of what, the class defining a custom element should at least extend something like HTMLElement? <span class="divider">-&gt;</span> {{c1::the extends parameter (3rd arg to define)}}
+In general, regardless of the extends parameter (3rd arg to define), the class defining a custom element should do what? <span class="divider">-&gt;</span> {{c1::(at least) extend something like e.g. HTMLElement}}
+<div class="c2-f">
+You would use these in html how?
+</div><div class="c1-f">
+Custom elements you use like this are what kind of custom elements?
+</div><br>{{c1::customized built in elements, e.g. foo-bar that extends p}}  <span class="divider">&lt;-&gt;</span> {{c2::&lt;p is="foo-bar"&gt;&lt;/p&gt;}}
+<div class="c2-f">
+You would use these in html how?
+</div><div class="c1-f">
+Custom elements you use like this are what kind of custom elements?
+</div><br>{{c1::autonomous custom elements, e.g. foo-bar}}  <span class="divider">&lt;-&gt;</span> {{c2::&lt;foo-bar ...&gt;&lt;/foo-bar&gt;}}
+<div class="c2-f">
+What kind of element are you specifying in this case?
+</div><div class="c1-f">
+what about your call to define() specifies if it is this or not?
+</div><br>{{c1::if you<b>&nbsp;do not</b> specify the 3rd argument to customElements.define (the one with extends)}}  <span class="divider">&lt;-&gt;</span> {{c2::an autonomous custom element}}
+<div class="c2-f">
+What kind of element are you specifying in this case?
+</div><div class="c1-f">
+what about your call to define() specifies if it is this or not?
+</div><br>{{c1::if you specify the 3rd argument to customElements.define (the one with extends)}}  <span class="divider">&lt;-&gt;</span> {{c2::a customized built-in element}}
+<div class="c2-f">
+Function of window.customElements for?
+</div><div class="c1-f">
+Function of window.customElements for?
+</div><br>{{c1::define()}}  <span class="divider">&lt;-&gt;</span> {{c2::definining a new custom element}}
+<div class="c1-f">
+what's the problem with this custom element?
+</div><br>&lt;wordcount&gt; <span class="divider">-&gt;</span> {{c1::must include at least a -&nbsp;}}
+<div class="c1-f">
+have what restriction in their name?
+</div><br>custom elements <span class="divider">-&gt;</span> {{c1::must include at least one -}}
+
+the {{c1::ExtendableEvent}} interface has a method {{c2::waitUntil}}(), which prevents the service worker from being treated as {{c4::successfully installed}} until {{c3::the passed promise resolves successfully}}<br/><div class="sub">
+ This is primarily used to ensure that a service worker is not considered installed until all of the core caches it depends on are populated.
+</div>
+
+the {{c1::ExtendableEvent.waitUntil}}() method is mainly used so that the service worker is not {{c2::considered installed}} until {{c3::all the caches it needs are populated}}.
+
+the promise job/microtask queue (also has other names) is a secondary queue that will run when? <span class="divider">-></span> {{c1::as soon as the current message is processed (or otherwise soon, the specs aren't in agreement/clear)}}
+
+the primary use of the {{c1::activate}} event of service workers is to {{c2::clean up}} from {{c3::a previous service worker}}
+If your service worker has {{c1::previously been installed}}, and then a {{c2::new version}} of the worker is available on {{c3::refresh or page load}}, the new version is {{c4::installed in the background}}, but not {{c5::yet activated}}.
+After a service worker is {{c1::active}} and the user {{c2::navigates to a different page}} or {{c2::refreshes}}, the {{c3::service worker}} will begin to receive {{c4::fetch}} events
+
+the parameters taken by {{c1::fetch()}} and the {{c2::Request constructor}} are {{c3::identical}} (except that you can pass a {{c2::Request}} object to {{c1::fetch}} {{c4::instead of the 'proper' parameters}})
+<div class='c2-f'>
+fetch()/new Request() key for?
+</div><div class='c1-f'>
+fetch()/new Request() key for?
+</div><br/>{{c1::method}}  <span class="divider">&lt;-&gt;</span> {{c2::the HTTP method to use}}
+<div class='c2-f'>
+fetch() options object/new Request() key for?
+</div><div class='c1-f'>
+fetch() options object/new Request() key for?
+</div><br/>{{c1::headers}}  <span class="divider">&lt;-&gt;</span> {{c2::the headers to use}}
+<div class='c2-f'>
+Response (returned via the fetch api) property for?
+</div><div class='c1-f'>
+Response (returned via the fetch api) property for?
+</div><br/>{{c1::Response.status}}  <span class="divider">&lt;-&gt;</span> {{c2::HTTP status code}}
+<div class='c2-f'>
+Response (returned via the fetch api) property for?
+</div><div class='c1-f'>
+Response (returned via the fetch api) property for?
+</div><br/>{{c1::Response.ok}}  <span class="divider">&lt;-&gt;</span> {{c2::whether the status code was ok (200-299)}}
+<div class='c2-f'>
+Response (returned via the fetch api) property for?
+</div><div class='c1-f'>
+Response (returned via the fetch api) property for?
+</div><br/>{{c1::Response.headers}}  <span class="divider">&lt;-&gt;</span> {{c2::The HTTP headers returned}}
+<div class='c2-f'>
+Response (returned via the fetch api) property for?
+</div><div class='c1-f'>
+Response (returned via the fetch api) property for?
+</div><br/>{{c1::Response.body}}  <span class="divider">&lt;-&gt;</span> {{c2::body returned}}
+
+the little secondary queue that will (probably) run after the current function finishes? <span class="divider">-></span> {{c1::Promise job/microtask queue}}
+
+the callback provided to http.createServer (that reacts to request events) is provided two objects when called, a {{c1::http.IncomingMessage}} object, and a {{c2::http.ServerResponse}}
+
+the <code>{{c1::install}}</code> and <code>{{c1::activate}}</code> events of service workers are/conform to the interface <code>{{c2::ExtendableEvent}}</code>
+
+setImmediate() is similar to {{c2::process.nextTick()}} but {{c1::runs later (with lower priority)}}
+
+process.nextTick(callback) adds things to be executed when? <span class="divider">-></span> {{c1::at the end of the current message}}
+
+precedence of <b>nodejs</b> queues: {{c1::process.nextTick}} queue &gt; {{c2::promises microtask}} queue &gt; {{c3::setTimeout (with a timeout of 0)}} queue ≈ {{c4::setImmediate}} queue
+
+often, it makes sense to use templates as what? <span class="divider">-></span> {{c1::the shadow dom of custom elements}}
+attachShadow takes an argument which is what? <span class="divider">-></span> {{c1::an options object}}<br/><div class="sub">
+<div class="sub all-b">
+yes, it doesn't take an argument of a shadow tree to directly attach, you have to do that later
+</div>
+</div>
+attachShadow takes an argument which is an options object with the key(s)? <span class="divider">-></span> {{c1::mode}}
+You can access the {{c3::shadow root}} of an element via {{c2::the shadowRoot property (of any given element)}}, but only if {{c1::its mode = "open"}}
+When rendering, what happens to the shadow tree? <span class="divider">-></span> {{c1::it's attached at the shadow host}}
+What kind of elements already use the shadow DOM in the background? <span class="divider">-></span> {{c1::things like &lt;video&gt; (e.g. its controls)}}
+To what can you attach a shadow root? <span class="divider">-></span> {{c1::any <code>Element</code>}}
+Once you've created a shadow root, how do you add children etc? <span class="divider">-></span> {{c1::just as you would for any normal DOM element}}
+Method of any <code>Element</code> to attach a shadow root? <span class="divider">-></span> {{c1::attachShadow}}
+<div class='c2-f'>
+What would you use?
+</div><div class='c1-f'>
+Allows us to do what?
+</div><br/>{{c1::To encapsulate part of the DOM}}  <span class="divider">&lt;-&gt;</span> {{c2::the shadow DOM}}
+<div class='c2-f'>
+Is known as what?
+</div><div class='c1-f'>
+Is what?
+</div><br/>{{c1::the root node of the shadow DOM}}  <span class="divider">&lt;-&gt;</span> {{c2::a shadow root}}
+<div class='c2-f'>
+Is known as what?
+</div><div class='c1-f'>
+Is what?
+</div><br/>{{c1::the point where the regular DOM ends ant the shadow DOM begins}}  <span class="divider">&lt;-&gt;</span> {{c2::shadow boundary}}
+<div class='c2-f'>
+Is known as what?
+</div><div class='c1-f'>
+Is what?
+</div><br/>{{c1::the dom node that a shadow DOM is attached to}}  <span class="divider">&lt;-&gt;</span> {{c2::a shadow host}}
+<div class='c2-f'>
+Is known as what?
+</div><div class='c1-f'>
+Is what?
+</div><br/>{{c1::the DOM tree inside the shadow DOM}}  <span class="divider">&lt;-&gt;</span> {{c2::the shadow tree}}
+<div class='c2-f'>
+Does what?
+</div><div class='c1-f'>
+How do we do this, for a given shadow root?
+</div><br/>{{c1::the mode option&nbsp;}}  <span class="divider">&lt;-&gt;</span> {{c2::specifies if JS written in the main page can access it}}<br/><div class="sub">
+<div class='sub f'>
+of the options object of attachShadow
+</div>
+</div>
+Why might you want to use web components without the shadow DOM, for example? <span class="divider">-></span> {{c1::e.g. you <i>want</i>&nbsp;styles to propagate}}
+The {{c1::normal DOM}}, when {{c2::in contrast to the shadow DOM}}, is sometimes called {{c3::the light DOM}}?
+During composition, things with {{c1::slot="foo"}} replace {{c3::slots}} with {{c2::name="foo"}} in the {{c4::shadow DOM}}.
+<div class='c2-f'>
+go where?
+</div><div class='c1-f'>
+What things related to slots are here?
+</div><br/>{{c1::&lt;slot&gt; elements}}  <span class="divider">&lt;-&gt;</span> {{c2::somewhere within the shadow DOM}}
+<div class='c2-f'>
+Are problems that what solves?
+</div><div class='c1-f'>
+What are some exampls of problems that this solves?
+</div><br/>{{c1::competing styles, multiple IDs}}  <span class="divider">&lt;-&gt;</span> {{c2::the shadow DOM}}
+If there are multiple elements in light DOM {{c1::with the same slot name}}, they are {{c2::appended into the slot, one after another}}.
+<div class='c2-f'>
+go/are in(to) which DOM?
+</div><div class='c1-f'>
+What things related to slots are here?
+</div><br/>{{c1::elements with slot="something"}}  <span class="divider">&lt;-&gt;</span> {{c2::are in the light DOM}}
+
+no matter what {{c1::optional chaining}} you use, if you {{c2::call}} a thing as {{c2::a method}} that is {{c2::in fact a property}} you will always get {{c3::a TypeError}}
+
+for await of allows you to iterate over an {{c2::async iterable object}}, to use it, insert {{c1::an await between for and the rest of the iteration statement}}
+
+Why will a tab freeze if you run code that takes very long?  because JS is single threaded and thus has to process the message to comopletion
+Why is the timeout we give setTimeout only a minimum time?  because its put at the end of the message queue and thus might take longer
+Why are we guaranteed that the things we are using from our function will not change 'behind our backs' while the function is running?  because we will always finish processing the curreent message (and thus the current stack contents) before we do anything else
+When the event loop processes a message in the message queue, what does it do?  calls the corresponding function
+What runs on JS's single thread hosts the event loop.
+The event loop processes the message queue
+Once the event loop has called the function of a message, when is it done?  when the call stack is empty
+Once the event loop has called the function of a message, what will it do with subsequent function calls within?  new stack frame on the stack
+In JS, stack frames are called execution contexts. 
+Each execution context contains a scope chain, which is a lists of lexical scopes from inner to outer.
+A lexical environment is a structure that holds identifiers and the variables/functions they refer to.
+What does setTimeout do with its function argument? (JS-internal view)  adds a new message with this function at the end of the message queue
+What does each  message in the message queue have associated with it?  a function
+Until the stack is empty, what can't we do?  start processing a new message
+In browsers generally each tab has  its own heap, stack and message queue
+If there's something on the stack, then what are we doing?  processing a message in the message queue
+How is JS threaded?  single-theaded
+Besides the heap and call stack, what does JS also have, as a core part of the implementation?  the message queue
+
+Why can't you misformat something using prettier? <span class="divider">-&gt;</span> {{c1::since it formats your code automatically}}
+Which languages does prettier support? <span class="divider">-&gt;</span> {{c1::a lot of different web-related ones (JS, Angular, Vue, JSX, CSS, SCSS, JSON, YAML etc. etc.)}}
+What does prettier do with the stuff you give it? <span class="divider">-&gt;</span> {{c1::formats it according to its rules}}
+
+What should you definitely do when reacting to the activate event in service workers? <span class="divider">-></span> {{c1::remove old caches}}
+
+What do we do with the content templates in JS, so we can use it elswhere (without fucking the template up)? <span class="divider">-></span> {{c1::call cloneNode on it}}
+
+To {{c1::add something to the microtask queue}}, use {{c2::queueMicrotask()}}.
+
+To do stuff in the service worker once {{c2::it's been installed}}, add an event listener for the {{c1::<code>install</code>}} event.<br/><div class="sub">
+<div class="sub all-b"><pre><code>self.addEventListener('install', function(event) {
+  // Perform install steps
+});</code></pre></div>
+</div>
+
+The {{c1::first contentful paint}} is when the {{c2::first piece of DOM content}} (which elements are exactly considered is more complicated) loaded, relative to {{c3::when the page first started loading}}
+
+The {{c1::Push}} API&nbsp;allows web apps to get messages {{c2::pushed from a server}}, whether or not the web app is {{c3::in the foreground / even currently loaded}}
+
+JSON Schema:
+<pre><code>  ...
+  "type": {{c1::"object"}},
+  {{c2::"properties"}}: {
+    "productId": {
+      "description": "The unique identifier for a product",
+      "type": "integer"
+    }
+  },</code></pre>
+JSON Schema toplevel: 
+<pre><code>{
+  {{c1::"$schema"}}: "https://json-schema.org/draft/2020-12/schema",
+  {{c2::"$id"}}: "https://example.com/product.schema.json",
+  {{c3::"title"}}: "Product",
+  {{c4::"description"}}: "A product in the catalog",
+  {{c5::"type"}}: ...
+}</code></pre>
+
+Internally, a Promise has the properties {{c1::[[PromiseState]]}} and {{c2::[[PromiseResult]]}}
+
+Instead of writing key: function(... for methods, what can you write, in ES6? <span class="divider">-></span> {{c1::key(...}}
+
+If you add a new service worker, what might you do with the <code>Cache</code> used? <span class="divider">-></span> {{c1::use a new <code>Cache</code>}}<br/><div class="sub">
+<div class="sub c1-f" >
+esp. if they are incompatible
+</div>
+</div>
+
+If we take a function, e.g. {{c1::a method}} of {{c1::an object}}, and {{c2::assign it to e.g. a variable}} (or {{c2::pass it as a param}}), and then {{c4::call it later}}, it will use {{c3::whatever <code>this</code> is in scope}}, instead of {{c3::the <code>this</code>}}&nbsp;of {{c1::the object}} or similar
+
+Function to set an attribute (e.g. href) on an <code>Element</code>? <span class="divider">-></span> {{c1::setAttribute}}
+Function to remove an attribute (e.g. href) from an <code>Element</code>? <span class="divider">-></span> {{c1::removeAttribute}}
+Function to get an attribute (e.g. href) from an <code>Element</code>? <span class="divider">-></span> {{c1::getAttribute}}
+
+Function to add things to be executed at the end of the current message? <span class="divider">-&gt;</span> {{c1::process.nextTick(callback)}}
+
+CORS|Cross-Origin Resource Sharing
+
+<div class='c2-f'>
+method for?
+</div><div class='c1-f'>
+does what?
+</div><br/>{{c1::Object.entries(someObj)}}  <span class="divider">&lt;-&gt;</span> {{c2::get array of [key, value] pairs}}
+
+<div class='c2-f'>
+Function of window.customElements for?
+</div><div class='c1-f'>
+Function of window.customElements for?
+</div><br/>{{c1::whenDefined(foo)}}  <span class="divider">&lt;-&gt;</span> {{c2::get a promise that resolves when foo is defined}}
+<div class='c2-f'>
+Function of window.customElements for?
+</div><div class='c1-f'>
+Function of window.customElements for?
+</div><br/>{{c1::get(foo)}}  <span class="divider">&lt;-&gt;</span> {{c2::get the constructor of the custom element named foo}}
+
+<div class='c1-f'>
+Why do round braces prevent this from being treated as a block statement with no return value?
+</div><br/><pre><code>var func = () =&gt; <span class="">({</span> foo: 1 <span class="">})</span>;</code></pre> <span class="divider">-></span> {{c1::Because round braces don't go around block statements, and so the parser concludes it must be an object literal.}}
+
+<div class='c1-f'>
+Is an API for what?
+</div><br/>{{c1::JS api for form validation}}  <span class="divider">&lt;-&gt;</span> {{c2::Constraint validation API}}
+
+<div class='c1-f'>
+How do we react to the service worker being created?
+</div><br/><pre><code> navigator.serviceWorker.register('/example/sw.js')</code></pre> <span class="divider">-></span> {{c1::via a then() (or any other way we can respond to a promise)}}
+
+((h:all;::<img src="appshell.png">))An {{c1::app shell}} is a way to build a {{c2::PWA}} and involves {{c4::aggressively caching}}&nbsp; {{c3::the common UI}} and {{c4::dynamically loading}} {{c3::the content}} using JS
+
+((h:all;::<img src="8mkBdT3O0FZLo0PUppvv.png">))within a web app manifest,&nbsp; the <code>{{c1::theme_color}}</code> property manages {{c2::the color of the bars/notification shade, etc.}}
+
+## various
+
+{{c3::&lt;template&gt;}} contains HTML that won't {{c1::be rendered immediately}}, but {{c2::can be used from JS (often multiple times)}}
+<div class="c2-f">
+pseudo-class that matches what?
+</div><div class="c1-f">
+Are matched how?
+</div><br>{{c1:::part(foo)}}  <span class="divider">&lt;-&gt;</span> {{c2::element within shadow tree that has part="foo"}}
+<div class="c2-f">
+pseudo-class that matches what?
+</div><div class="c1-f">
+Are matched how?
+</div><br>{{c1:::host}}  <span class="divider">&lt;-&gt;</span> {{c2::selects shadow hosts}}<br><div class="sub">
+<div class="sub c2-b c1-f">
+(a regular DOM node that the shadow DOM is attached to.)
+</div>
+</div>
+<div class="c2-f">
+pseudo-class that matches what?
+</div><div class="c1-f">
+Are matched how?
+</div><br>{{c1:::host-context(some-selector)}}  <span class="divider">&lt;-&gt;</span> {{c2::selects shadow host which has a <b>ancestor!!!!</b> some-selector}}<br><div class="sub">
+<div class="sub all-b">
+:host-context(.mine) matches
+<pre><code>&lt;h1 class="mine"&gt;
+  ...
+    &lt;some-shadow-host&gt;</code></pre>
+</div><div class="sub c2-b c1-f">
+(a regular DOM node that the shadow DOM is attached to.)
+</div>
+</div>
+<div class="c2-f">
+pseudo-class that matches what?
+</div><div class="c1-f">
+Are matched how?
+</div><br>{{c1:::host(some-selector)}}  <span class="divider">&lt;-&gt;</span> {{c2::selects shadow host which matches some-selector}}<br><div class="sub">
+<div class="sub all-b">
+:host(.mine) matches &lt;some-shadow-host class="mine"&gt;
+</div><div class="sub c2-b c1-f">
+(a regular DOM node that the shadow DOM is attached to.)
+</div>
+</div>
+<div class="c2-f">
+pseudo-class that matches what?
+</div><div class="c1-f">
+Are matched how?
+</div><br>{{c1:::defined}}  <span class="divider">&lt;-&gt;</span> {{c2::custom elements that are already defined}}<br><div class="sub">
+<div class="sub c2-b c1-f">
+useful for showing placeholder stuff
+</div>
+</div>
+<div class="c2-f">
+is selected how?
+</div><div class="c1-f">
+selects what?
+</div><br>{{c1::part="foo"}}  <span class="divider">&lt;-&gt;</span> {{c2:::part(foo)}}
+<div class="c2-f">
+Solves what problem?
+</div><div class="c1-f">
+Is solved by what?
+</div><br>{{c1::the part property&nbsp;}}  <span class="divider">&lt;-&gt;</span> {{c2::targeting things within shadow DOMs (mostly components}}
+interestingly, what can you do with custom elements before you define them? <span class="divider">-&gt;</span> {{c1::already use them in the html}}
+Within a custom element, what can we have, that makes it particularly useful? <span class="divider">-&gt;</span> {{c1::child elements}}
+Where are the lifecycle callbacks for custom elements defined? <span class="divider">-&gt;</span> {{c1::in the class that defines the custom elements}}
+To what do you most commonly attach a shadow root? <span class="divider">-&gt;</span> {{c1::a custom element}}
+In the constructor for a custom element, what should you do, first thing? <span class="divider">-&gt;</span> {{c1::call super(props) (to make sure that the correct prototype chain is established)}}
+<div class="c2-f">
+are called when?
+</div><div class="c1-f">
+What is called then?
+</div><br>{{c1::lifecycle callbacks}}  <span class="divider">&lt;-&gt;</span> {{c2::when the custom element changes in relation to the DOM (e.g. connected or disconnected from the DOM)}}<br><div class="sub">
+<div class="sub f">
+Fot custom elements
+</div><div class="sub c2-f">
+be a little specific
+</div>
+</div>
+<div class="c2-f">
+Are called when a custom element is?
+</div><div class="c1-f">
+Which lifecycle callbacks are called then?
+</div><br>{{c1::connected/disconnectedCallback}}  <span class="divider">&lt;-&gt;</span> {{c2::connected to/ disconnected from the DOM}}
+<div class="c2-f">
+Are called when a custom element is?
+</div><div class="c1-f">
+Which lifecycle callbacks are called then?
+</div><br>{{c1::adoptedCallback}}  <span class="divider">&lt;-&gt;</span> {{c2::moved to a new document}}
+<b>custom elements</b> have are four {{c1::lifecycle callbacks}}, {{c2::connectedCallback}}, {{c3::disconnectedCallback}}, {{c4::adoptedCallback}}, {{c5::attributeChangedCallback}}
+
+
+3.2.2. Selecting Shadow Hosts from within a Shadow Tree
+A shadow host is outside of the shadow tree it hosts, and so would ordinarily be untargettable by any selectors evaluated in the context of the shadow tree (as selectors are limited to a single tree), but it is sometimes useful to be able to style it from inside the shadow tree context.
+
+For the purpose of Selectors, a shadow host also appears in its shadow tree, with the contents of the shadow tree treated as its children. (In other words, the shadow host is treated as replacing the shadow root node.)
+
+When considered within its own shadow trees, the shadow host is featureless. Only the :host, :host(), and :host-context() pseudo-classes are allowed to match it.
+
+Why is the shadow host so weird?
+The shadow host lives outside the shadow tree, and its markup is in control of the page author, not the component author.
+
+It would not be very good if a component used a particular class name internally in a shadow tree stylesheet, and the page author using the component accidentally also used the same class name and put it on the shadow host. Such a situation would result in accidental styling that is impossible for the component author to predict, and confusing for the page author to debug.
+
+However, there are still some reasonable use-cases for letting a stylesheet in a shadow tree style its shadow host. (For example, the component might want to be laid out as a flexbox, requiring the shadow host to be set to display: flex.) So, to allow this situation but prevent accidental styling, the shadow host appears but is completely featureless and unselectable except through :host and its related functional forms, which make it very explicit when you’re trying to match against markup provided by the page author.
+How can you prevent FOUC with custom elements? <span class="divider">-&gt;</span> {{c1:::defined (and specifically :not(:defined))}}
+{{c1::custom elements}} are HTML elements that have their own {{c2::name}} and {{c3::custom functionality}}.
+The {{c1::Web Components::w...}} suite consists of {{c2::Custom elements}}, {{c3::Shadow DOM}} and {{c4::HTML templates}}
+<div class="c2-f">
+returns something of the type?
+</div><div class="c1-f">
+The most common and relevant element of this type is?
+</div><br>{{c1::window.customElements}}  <span class="divider">&lt;-&gt;</span> {{c2::CustomElementRegistry}}
+<div class="c1-f">
+When can you already use this?
+</div><br><pre><code>&lt;share-buttons&gt;
+  &lt;social-button type="twitter"&gt;&lt;a href="..."&gt;Twitter&lt;/a&gt;&lt;/social-button&gt;
+  &lt;social-button type="fb"&gt;&lt;a href="..."&gt;Facebook&lt;/a&gt;&lt;/social-button&gt;
+  &lt;social-button type="plus"&gt;&lt;a href="..."&gt;G+&lt;/a&gt;&lt;/social-button&gt;
+&lt;/share-buttons&gt;
+</code></pre> <span class="divider">-&gt;</span> {{c1::even before these custom elements are defined}}
+
+to {{c1::only allow unique items in arrays (to make it a set, I guess)}} in json schema, specify <code>{{c2::"uniqueItems": true}}</code>
+to specify that a JSON Schema value {{c1::has children}}, use {{c2::the <code>properties</code> key}}
+the {{c3::top-level}} {{c1::type}} key provides a {{c2::type for the top-level object}}
+the {{c2::top-level object}} in a {{c3::JSON schema document}} has a few {{c1::metadata/general description}} keys
+the JSON schema keys {{c1::min/maxItems}} say {{c2::how many items an item of type array can have}}
+the JSON schema keys <code>{{c2::(exclusive)}}{{c1::m/Minimum}}</code> and <code>{{c2::(exclusive)}}{{c1::m/Maximum}}</code> describe {{c3::the relevant kind of minimum/maximums of the values}}
+the JSON schema key {{c2::type}} tells us {{c1::what datatype the value should be}}
+the JSON schema key {{c2::<code>required</code>}} is an {{c3::array}} saying {{c1::which children must be present}}
+the JSON schema key {{c2::<code>description</code>}} provides {{c1::a short description of the value}}
+
+the {{c1::dependentRequired}} key in json schema takes an {{c2::object}} where for every given {{c2::key}} there is {{c3::an array}} of other propetries which are {{c4::then also required}} if the {{c4::key is specified}}
+To express a more detailed conditional relationship in JSON schema, you can use the {{c1::"if"}}, {{c2::"then"}}, and {{c3::"else"}} keywords
+If {{c1::credit_card is present}}, {{c1::billing_address is also required}} (JSON Schema):
+<pre><code>{
+  "properties": {
+    "name": { "type": "string" },
+    "credit_card": { "type": "number" },
+    "billing_address": { "type": "string" }
+  },
+
+  "required": ["name"],
+
+  {{c2::"dependentRequired"}}: {
+    {{c3::"credit_card"}}: {{c4::["billing_address"]}}
+  }
+}</code></pre>
+
+since GPL forces you to license software built of this with the same rights, it has what attribute? <span class="divider">-></span> {{c1::copyleft}}
+What do you have to do with software using the GPL related to the source code? <span class="divider">-></span> {{c1::include it with it (or otherwise make it publicly available)}}
+What can you do related to redistributing GPL software? <span class="divider">-></span> {{c1::you can redistribute it}}
+What can you do related to changing GPL software? <span class="divider">-></span> {{c1::modify it however you like}}
+I write MyCoolTokenizer with a copyleft-including license. You use MyCoolTokenizer in MyCoolFrequencyAnalyzer. What do you have to do? <span class="divider">-&gt;</span> {{c1::Give the users of MyCoolFrequencyAnalyzer the same freedoms MyCoolTokenizer allows.}}
+How can you sell things licensed with the GPL, if you comply with the license terms? <span class="divider">-></span> {{c1::however you want}}
+If you modify GPL software, what do you have to do with those changes? <span class="divider">-&gt;</span> {{c1::make them available}}<br><div class="sub">
+<div class="sub c1-f">
+Unless only you use the changes
+</div>
+</div>
+
+grep [{{c1::OPTIONS}}] {{c2::PATTERN}} [{{c3::FILE...}}]
+
+for the deterministic finite-state machine's (Σ, S, s0, 𝛿, F), what is 𝛿? <span class="divider">-&gt;</span> {{c1::the state transition function&nbsp;}}<br><div class="sub">
+<div class="sub c1-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+for the deterministic finite-state machine's (Σ, S, s0, 𝛿, F), what is Σ? <span class="divider">-&gt;</span> {{c1::The input alphabet (same as for a formal language)}}<br><div class="sub">
+<div class="sub c1-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+for the deterministic finite-state machine's (Σ, S, s0, 𝛿, F), what is s0? <span class="divider">-&gt;</span> {{c1::the initial state}}<br><div class="sub">
+<div class="sub c1-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+for the deterministic finite-state machine's (Σ, S, s0, 𝛿, F), what is S? <span class="divider">-&gt;</span> {{c1::set of states}}<br><div class="sub">
+<div class="sub c1-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+for the deterministic finite-state machine's (Σ, S, s0, 𝛿, F), what is F? <span class="divider">-&gt;</span> {{c1::the set of final states}}<br><div class="sub">
+<div class="sub c1-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+a finite state machine, if {{c3::it doesn't have a transition for an input}}, is {{c1::either said to fail}}&nbsp; or {{c2::goes to a failure state}}
+What kind of storage does a FSA have? <span class="divider">-&gt;</span> {{c1::no storage}}
+What is a deterministic FSA in relation to its corresponding non-deterministic FSA most often? <span class="divider">-&gt;</span> {{c1::more complex}}
+What can any non-deterministic FSA be transformed into? <span class="divider">-&gt;</span> {{c1::a deterministic FSA}}
+Nonterminals ∩ Terminals =  <span class="divider">-&gt;</span> {{c1::ø}}
+In a finite state machine, each transition merely depends on the {{c1::current state}} and the {{c2::input}}
+In a classic formalization, a formal grammar G consists of the 4-tuple ({{c1::Set of}} {{c2::nonterminals}}, {{c1::set of}} {{c3::terminals}}, {{c1::set of}} {{c4::production rules}}, {{c5::start symbol}})
+A transducer is a FSA that accepts input (like an acceptor) and then... <span class="divider">-&gt;</span> {{c1::generates output}}
+A FSA that accepts input (like an acceptor) but then generates an output is known as what? <span class="divider">-&gt;</span> {{c1::a transducer}}
+<div class="c2-f">
+Rough synonym?
+</div><div class="c1-f">
+Rough synonym?
+</div><br>{{c1::Finite state machine}}  <span class="divider">&lt;-&gt;</span> {{c2::Finite state automaton}}
+<div class="c1-f">
+are the most sophisticated production rules which kind of grammars/languages allow?
+</div><br>A -&gt; aB or A -&gt; Ba <span class="divider">-&gt;</span> {{c1::regular grammars / languages}}
+<div class="c1-f">
+are the most sophisticated production rules which kind of grammars/languages allow?
+</div><br>A -&gt; BbcCdCCBaA... <span class="divider">-&gt;</span> {{c1::context-free grammars / languages}}
+<div class="c1-f">
+Short for?
+</div><br>FSM/FSA <span class="divider">-&gt;</span> {{c1::Finite state machine / automaton}}
+What does a finite-state machine do in response to some inputs? <span class="divider">-&gt;</span> {{c1::transition}}
+The input is a well-formed word if what and the input is over&nbsp;&nbsp;(in a deterministic finite-state machine that is acceptors/detectors/recognizers)? <span class="divider">-&gt;</span> {{c1::we've reached a final state<br>}}
+The input is a well-formed word if we've reached a final state and what (in a deterministic finite-state machine that is a acceptors/detectors/recognizers)? <span class="divider">-&gt;</span> {{c1::the input is over&nbsp;<br><br>}}
+If we've reached a final state and the input is over in a deterministic finite-state machine that is a acceptors/detectors/recognizers, then what is the case?&nbsp; <span class="divider">-&gt;</span> {{c1::the input is contained in the language}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+the input is a well-formed word
+</div>
+</div>
+For a deterministic finite-state acceptor machine, what is the relationship between F (set of final states) and S (set of states)? <span class="divider">-&gt;</span> {{c1::F ⊆ S}}
+For a deterministic finite-state acceptor machine, the state transition function produces what? <span class="divider">-&gt;</span> {{c1::the transitions}}
+Definition of a deterministic finite-state machine = ({{c1::Σ}},  {{c2::S}},  {{c3::s0}},  {{c4::𝛿}},  {{c5::F}}) <sub>technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM</sub>
+At any given time, an automaton is what? <span class="divider">-&gt;</span> {{c1::In a given state}}
+At any given time, an automaton is in how many states? <span class="divider">-&gt;</span> {{c1::exactly one}}
+<div class="c2-f">
+If an automaton is this, then what is true about the transition from one state to another?
+</div><div class="c1-f">
+If for an automaton ___ transition from one state to another, then it is called?
+</div><br>{{c1::non-deterministic}}  <span class="divider">&lt;-&gt;</span> {{c2::there is more than one}}<br><div class="sub">
+<div class="sub c2-b c1-f">
+it is ambiguous
+</div>
+</div>
+<div class="c2-f">
+If an automaton is this, then what is true about the transition from one state to another?
+</div><div class="c1-f">
+If for an automaton ___ transition from one state to another, then it is called?
+</div><br>{{c1::deterministic}}  <span class="divider">&lt;-&gt;</span> {{c2::It is unambiguous (the combination of input + state produces exactly one possible transition)}}
+<img class="c1-f c2-b" src="sm_Turnstile_state_machine_colored.svg"><br>What are the transitions here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::all the arrows}}
+What are the states&nbsp; here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::Locked and unlocked}}
+What are the inputs&nbsp; here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::Push and Coin}}
+What are the arrows here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::transitions}}
+What are Push and Coin here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::Inputs}}
+What are Locked and Unlocked here (this is a finite-state machine)? <span class="divider">-&gt;</span> {{c1::states}}
+<img class="c1-f c2-b" src="sm_220px-DFAexample.svg.png"><br>What is S1 here probably? <span class="divider">-&gt;</span> {{c1::a final state}}
+<div class="c2-f">
+Can recognize which languages?
+</div><div class="c1-f">
+Can be recognized by what?
+</div><br>{{c1::Turing machine}}  <span class="divider">&lt;-&gt;</span> {{c2::recursively enumerable languages}}<br><div class="sub">
+<div class="sub c2-f c1-b">
+needs support in terms of what a turing machine is
+</div>
+</div>
+<div class="c2-f">
+Can recognize which languages?
+</div><div class="c1-f">
+Can be recognized by what?
+</div><br>{{c1::Pushdown automaton}}  <span class="divider">&lt;-&gt;</span> {{c2::Context-free languages}}<br><div class="sub">
+<div class="sub c2-f c1-b">
+needs support in terms of what a pushdown automaton is
+</div>
+</div>
+<div class="c2-f">
+Can recognize which languages?
+</div><div class="c1-f">
+Can be recognized by what?
+</div><br>{{c1::Linear bounded automaton}}  <span class="divider">&lt;-&gt;</span> {{c2::Context-sensitive languages}}<br><div class="sub">
+<div class="sub c2-f c1-b">
+needs support in terms of what a linear bounded automaton is
+</div>
+</div>
+<div class="c2-f">
+Can recognize which languages?
+</div><div class="c1-f">
+Can be recognized by what?
+</div><br>{{c1::Finite state machine}}  <span class="divider">&lt;-&gt;</span> {{c2::Regular languages}}
+<div class="c1-f">
+What does this define?
+</div><br>(Σ,  S,  s0,  𝛿,  F) <span class="divider">-&gt;</span> {{c1::a deterministic finite-state machine}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+technically only for acceptors/detectors/recognizers, although most of it should also hold for other FSM
+</div>
+</div>
+((h:1;::<img src="sm_220px-DFAexample.svg.png">))How are final states in FSM acceptors often designated? <span class="divider">-&gt;</span> {{c1::Double circle}}
+
+foo.{{c3::tagName}} (or .{{c3::nodeName}}) will get the {{c2::name of the html tag}} {{c1::in allcaps}}
+foo.{{c1::tagName}} and foo.{{c1::nodeName}} are the same, except that {{c1::nodeName}} will return {{c2::#text for text nodes}}
+Why have I never heard of the capturing phase until today (19.07.2021)? <span class="divider">-&gt;</span> {{c1::Because by default, events are registered for the bubbling phase}}
+The on&lt;event&gt; prop can't do what, what other methods of adding event handlers can? <span class="divider">-&gt;</span> {{c1::add multiple event handlers}}
+Inverse of addEventListener? <span class="divider">-&gt;</span> {{c1::removeEventListener}}
+Generally, DOM Events have three phases: The {{c1::capturing phase}}, the {{c2::target phase}}, and the {{c3::bubbling phase}}
+Function that allows adding multiple events: element.{{c1::addEventListener}}({{c2::event}}, {{c3::handler}}, {{c4::options}})
+Event delegation only works due to what? <span class="divider">-&gt;</span> {{c1::event bubbling}}
+By default, which events bubble? <span class="divider">-&gt;</span> {{c1::most but not all (e.g. focus)}}
+By default, events become what kind of events? <span class="divider">-&gt;</span> {{c1::events that trigger during the bubbling phase}}
+Behavior pattern for {{c5::event delegation}}: Add {{c3::custom attribute}} to element that {{c4::describes behavior}}, add event listener on {{c1::document (or other high elem)}} that {{c2::tests for attribute}} (and then handles the changes)
+{{c1::If we pass an object/class as an event handler}}  <span class="divider">&lt;-&gt;</span> {{c2::the handleEvent() function}}
+{{c1::stop further event bubbling&nbsp;}}  <span class="divider">&lt;-&gt;</span> {{c2::event.stopPropagation()}}
+{{c1::stop default browser actions for event (e.g. going to link when clicking on it)}}  <span class="divider">&lt;-&gt;</span> {{c2::event.preventDefault()}}
+
+{{c1::make an event trigger during the capturing phase}}  <span class="divider">&lt;-&gt;</span> {{c2::3rd arg of addEventListener {capture: true}}}
+
+flip-flops are a type of what? <span class="divider">-&gt;</span> {{c1::circuit}}
+What is a very simple ciruit for saving one bit? <span class="divider">-&gt;</span> {{c1::An (SR) flip-flop}}
+The most simple type of flip-flop is what flip-flop? <span class="divider">-&gt;</span> {{c1::SR flip-flop}}
+SR/<span style="text-decoration-line: overline;">SR</span>&nbsp;flipflops can be created with two of which or which gates? <span class="divider">-&gt;</span> {{c1::NAND or NOR gates}}
+SR/<span style="text-decoration-line: overline;">SR</span>&nbsp;flipflops can be created with how many NAND or NOR gates? <span class="divider">-&gt;</span> {{c1::two}}
+How much information can a flip-flop store? <span class="divider">-&gt;</span> {{c1::one bit}}
+How many stable states does a flip-flop have? <span class="divider">-&gt;</span> {{c1::two}}
+<div class="c2-f">
+Near-synyonym?
+</div><div class="c1-f">
+Near-synonym?
+</div><br>{{c1::Flip-flop}}  <span class="divider">&lt;-&gt;</span> {{c2::Latch}}<br><div class="sub">
+<div class="sub c2-f">
+L...
+</div>
+</div>
+SR flip-flop <span class="divider">-&gt;</span> {{c1::Set-Reset Flipflop}}
+As what thing is a transistor often used? <span class="divider">-&gt;</span> {{c1::As a switch}}
+
+WebAssembly and JS are meant to... <span class="divider">-></span> {{c1::work together}}
+One of main problematic implications of {{c3::WebAssembly}} is that it allows running code on your computer which is {{c2::not easily inspectable}} because {{c1::compiled}}, thus potentially hiding {{c4::malware}}, preventing {{c5::adblockers etc.}} from applying, and in a notable case, being used for {{c6::crypto mining}}
+JS can access WebAssembly via... <span class="divider">-></span> {{c1::the WebAssembly JavaScript API}}
+
+The type of waiting that can be stopped by getting a signal is what? <span class="divider">-&gt;</span> {{c1::Interruptible waiting}}
+In unix, a process can be {{c1::running/runnable}}, {{c2::waiting}}, {{c3::stopped}}, or {{c4::zombie}}.
+A waiting process can either be what or whatß <span class="divider">-&gt;</span> {{c1::uninterruptible or interruptible}}
+A running process is either {{c1::the current process}} or {{c2::waiting to be assigned to one of the cpus}}
+A process that is either the current process or waiting to be assigned one of the CPUs is known as what? <span class="divider">-&gt;</span> {{c1::running}}
+
+The most common type of {{c5::test doubles}} (arranged alphabetically) are {{c1::dummys}}, {{c2::fakes}}, {{c3::mocks}}, and {{c4::stubs}}
+As test doubles, {{c3::stubs}} use {{c4::predefined answers}} to {{c5::simulate what a method would actually do&nbsp;}}<br/><div class="sub">
+<div class="sub all-b">dummys are passed but never used (dummys are dummys because they don't do anything), fakes have working implementations but use some shortcut (fakes are fakes because they fake a part of the implementation), stubs use predefined answers (stubs are called stubs because they are method stubs), mocks make sure that the method was called on it properly</div>
+</div>
+As test doubles, {{c3::mocks}} make sure that {{c2::the method was actually called}} on {{c1::the mock}}&nbsp;in the way {{c4::it shoud}}<br/><div class="sub">
+dummys are passed but never used (dummys are dummys because they don't do anything), fakes have working implementations but use some shortcut (fakes are fakes because they fake a part of the implementation), stubs use predefined answers (stubs are called stubs because they are method stubs), mocks make sure that the method was called on it properly
+</div>
+As test doubles, {{c3::fakes}} have {{c2::working implementations}} but {{c2::use some kind of shortcut}} (e.g. {{c1::database in memory}})<br/><div class="sub">
+dummys are passed but never used (dummys are dummys because they don't do anything), fakes have working implementations but use some shortcut (fakes are fakes because they fake a part of the implementation), stubs use predefined answers (stubs are called stubs because they are method stubs), mocks make sure that the method was called on it properly
+</div>
+As test doubles, {{c3::dummys}} are {{c2::passed}} but {{c2::never used}} (e.g. {{c1::used to fill param lists}})<br/><div class="sub">
+dummys are passed but never used (dummys are dummys because they don't do anything), fakes have working implementations but use some shortcut (fakes are fakes because they fake a part of the implementation), stubs use predefined answers (stubs are called stubs because they are method stubs), mocks make sure that the method was called on it properly
+</div>
+
+In most contexts, what is the difference between 'program' and 'application'? <span class="divider">-></span> {{c1::They are synonyms}}
+If we're differentiating, a program that is directly used by an user is known as what? <span class="divider">-></span> {{c1::an application}}
+If we're differentiating between program and application, what is the difference (using set operators)? <span class="divider">-></span> {{c1::application ⊊ program}}
+If we're differentiating between program and application, an application is a program that... <span class="divider">-></span> {{c1::is aimed at (interfaced by) an user}}
+
+At its most general, parsing is taking strings and extracting information.
+In programming, parsing is often used for extracting a bit of useful data out of a string.
+In natural and computer languages, parsing takes a series of tokens and transforms them into some kind of data structure.
+In natural and computer languages, parsing is also called syntax/syntactic analysis.
+The data structure that parsing results in dependss on the input data.
+Parsing a CSV file may result in a list of records.
+Parsing natural or programming/markup/whatever languages often results in a tree. This tree is called a parse tree for programming/markup/whatever languages and syntax tree for natural language.
+The tokens for parsing/syntactic analysis in the lexical analysis sense are generated by lexical analysis/tokenization.
+After parsing/syntactic analysis comes semantic analysis.
+a parse tree is the result of {{c1::a derivation}} of a context-free grammar.
+{{c1::a syntax tree}} is a form of parse tree most common in linguistics.
+AST|Abstract syntax tree
+{{c1::}}
+more on ASTs, parse trees
+
+<img src="sm_tmp0ejxsp3b.png">
+1|Untracked
+2|Unmodified
+3|Modified
+4|staged
+5|add the file
+6|edit the file 
+7|stage the file
+8|remove the file
+9|commit

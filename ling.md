@@ -15,6 +15,33 @@ In linguistics, a string is a sequence of words/sounds that we don't want to put
 Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
 Morphosyntax is where morphology and syntax interset.
 
+### branching
+
+<div class="c1-f">
+What feature does this tree exhibit?
+</div>
+<div class="c1-f">
+What feature does this tree exhibit?
+</div>
+<div class="c1-f">
+What feature does this tree exhibit?
+</div>
+<div class="c2-f">
+Languages that are this are also...
+</div><div class="c1-f">
+Languages that are this are also...
+</div><br><img class="c1-f c2-b" src="sm_paste-f8905a83ae65ccc1c0f94347a99ffd017cf2efee.jpg">
+<img class="c1-f c2-b" src="sm_paste-4481fdfb6ba20a69bb29540e2b14cb74632e1211.jpg">
+<img class="c1-f c2-b" src="sm_paste-f407ff4ff31634a63b3dff9684044951e1ae2379.jpg"><br><span class="divider">-&gt;</span> {{c1::(fully) left-branching}}
+<span class="divider">-&gt;</span> {{c1::(fully) right-branching}}
+<span class="divider">-&gt;</span> {{c1::mostly right-branching}}
+An example for what kind of branching is japanese? <span class="divider">-&gt;</span> {{c1::left-branching}}
+In left-branching/ languages, what will happen if we draw a syntax tree? <span class="divider">-&gt;</span> {{c1::It will branch/grow to the left}}
+What is one of the most rigidly left-branching language? <span class="divider">-&gt;</span> {{c1::japanese}}
+What's the problem with saying a language is left-branching/right-branching? <span class="divider">-&gt;</span> {{c1::It is more a tendency than it is a rule, mostly}}
+{{c1::left-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-final}}
+{{c1::right-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-initial}}
+
 ### Information structure
 
 Information structure is the subfield of linguistics describing how information is organized within a sentence.
@@ -82,6 +109,26 @@ The head of a phrase is the thing everything else in the phrase is about.
 In a phrase, everything that isn't the head is a dependent.
 In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
 head-initial|English (partially)
+
+#### unsorted
+
+<pre><code data-codetype="text">*the lady’s a book</code></pre> <span class="divider">-&gt;</span> {{c1::That possessive s is a determiner}}
+<pre><code data-codetype="text">Ann’s car</code></pre><pre><code data-codetype="text">She's car</code></pre> <span class="divider">-&gt;</span> {{c1::Possessor DPs cannot be replaced by pronouns}}
+<pre><code data-codetype="text">Ann’s car</code></pre><pre><code data-codetype="text">She's car</code></pre> <span class="divider">-&gt;</span> {{c1::Replace the posessor DP with a pronoun}}
+<pre><code data-codetype="text">The book's the bookmark.</code></pre> <span class="divider">-&gt;</span> {{c1::Possessive s is followed by NPs, not by DPs}}
+<pre><code data-codetype="text">[the owner of the car]'s mother</code></pre> <span class="divider">-&gt;</span> {{c1::DP}}
+<pre><code data-codetype="text">[the owner of the car]'s mother</code></pre> <span class="divider">-&gt;</span> {{c1::It attaches to DPs}}
+<pre><code data-codetype="text">the city’s destruction</code></pre> <span class="divider">-&gt;</span> {{c1::general ascription}}
+<pre><code data-codetype="text">the man’s hat</code></pre> <span class="divider">-&gt;</span> {{c1::posession&nbsp;}}
+<pre><code data-codetype="text">the owner of the car's mother</code></pre> <span class="divider">-&gt;</span> {{c1::<pre><code data-codetype="text"><mark>the owner of the car</mark>'s mother</code></pre>}}
+How does English possessive s differ from German genitive -s, in where it attaches? <span class="divider">-&gt;</span> {{c1::German genitive -s attaches to nouns, english possessive s to DPs (or NPs, depending on your theory)}}
+Prove that possessive s is a determiner by inserting other determiners! <span class="divider">-&gt;</span> {{c1::*the lady’s a book}}
+What can't posessor DPs do, but most other DPs can? <span class="divider">-&gt;</span> {{c1::Be replaced by a normal pronoun}}
+What does posessive s attach to? <span class="divider">-&gt;</span> {{c1::DPs}}
+What syntactic category does possessive s belong to? <span class="divider">-&gt;</span> {{c1::Determiner}}
+What type of constitutent is the thing after a posessive s? <span class="divider">-&gt;</span> {{c1::A NP (dp theory)}}
+What type of constitutent is the thing before a posessive s? <span class="divider">-&gt;</span> {{c1::A DP}}
+the children’s toys <span class="divider">-&gt;</span> {{c1::the toys of the children}}
 
 #### X-bar framework-based
 
@@ -263,6 +310,24 @@ An XP is a phrase with X as its head.
 ### clauses
 
 A clause links a predicand (expressed or not) with a predicate.
+
+<div class="c1-f">
+Under the more wide definition, what is the predicate here?
+</div>
+<div class="c1-f">
+Under the more narrow definition, what is the predicate here?
+</div>
+<div class="c1-f">
+How are these often called in short?
+</div><br><pre><code data-codetype="text">Bill heard Fred</code></pre> <span class="divider">-&gt;</span> {{c1::heard Fread.}}
+<pre><code data-codetype="text">Bill heard Fred</code></pre> <span class="divider">-&gt;</span> {{c1::heard}}
+In grammar, a predicate either connects the subject to an idea ('what the subject is like'), or is...? <span class="divider">-&gt;</span> {{c1::something that says something about a subject}}
+In grammar, a predicate is either the thing that says something about the subject, or the thing that connects what to what? <span class="divider">-&gt;</span> {{c1::the subject to an idea ('what the subject is like')}}
+In grammar, a predicate is either the thing that says something about the subject, or what, in relation to the the subject and an idea ('what the subject is like')? <span class="divider">-&gt;</span> {{c1::It connects the subject to an idea ('what the subject is like')}}
+In grammar, either (a) something that says something about a subject or (b) something that links something a subject and what that subject is like is called... <span class="divider">-&gt;</span> {{c1::a predicate}}
+In grammar, what is the problem with the term predicate? <span class="divider">-&gt;</span> {{c1::It has two competing definitions}}
+
+
 A clause is a type of constituent.
 
 In linguistic typology, a null-subject language is a language whose grammar permits an independent clause to lack an explicit subject; such a clause is then said to have a null subject.
@@ -379,6 +444,8 @@ In syntax, something is "in situ" if it doesn't move, although it normally would
 The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
 Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
 The head movement contraint only applies to head movement, obv.
+According to the HMC, I can only move to a position that sellects IP as its complement.
+If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first.
 
 ##### prepositions
 
@@ -873,6 +940,115 @@ A mistake is a deviation from the grammar of a languoid that is merely an error 
 Typically, only L2 speakers make errors, while anyone can make mistakes.
 Errors may also lead to language change.
 
+## information structure
+
+What language I speak is a Topic-prominent language? <span class="divider">-></span> {{c1::Japanese}}
+Topic, comment, presupposition,&nbsp; focus etc., are part of which linguistic concept/subarea? <span class="divider">-></span> {{c1::Information structure}}
+The way information is packaged/structured within a sentence is known as what? <span class="divider">-></span> {{c1::Information structure}}
+Information structure as a part of linguistics is about what? <span class="divider">-></span> {{c1::How we structure information (esp. in relation to existing information)}}
+In information structure, the thing that is new or <b>contrastive</b> information is called what? <span class="divider">-></span> {{c1::focus}}
+In information structure, focus is what kind of information? <span class="divider">-></span> {{c1::new or contrastive information}}
+Terms used roughly synonymously: {{c1::comment}}, {{c2::rheme}}
+Semantically, what is the theme? <span class="divider">-></span> {{c1::'The point of departure' = the starting point of the sentence}}<br/><div class="sub">
+<div class="sub c1-f c2-b" >
+not sure if true
+</div>
+</div>
+Semantically, what is the rheme? <span class="divider">-></span> {{c1::'The destination' = the point where the sentence goes beyond the departure point}}<br/><div class="sub">
+<div class="sub c1-f c2-b" >
+not sure if true
+</div>
+</div>
+In information structure, a clause is divided into what? <span class="divider">-></span> {{c1::Theme and rheme (Topic and comment)}}
+How does topic - comment relate to syntactic relations and semantic roles? <span class="divider">-></span> {{c1::Distinct from both}}
+<div class='c2-f'>
+Other name for?
+</div><div class='c1-f'>
+Other name for?
+</div><br/>{{c1::Topic}}  <span class="divider">&lt;-&gt;</span> {{c2::Theme}}
+<div class='c2-f'>
+Is?
+</div><div class='c1-f'>
+Is called?
+</div><br/>{{c1::Topic/Theme}}  <span class="divider">&lt;-&gt;</span> {{c2::What is being talked about}}
+<div class='c2-f'>
+Is?
+</div><div class='c1-f'>
+Is called?
+</div><br/>{{c1::Comment/Rheme}}  <span class="divider">&lt;-&gt;</span> {{c2::What is said about the topic/theme}}
+<div class='c2-f'>
+Is called?
+</div><div class='c1-f'>
+Is?
+</div><br/>{{c1::A language that organizes its syntax so that sentences have a topic - comment (theme - rheme) structure&nbsp;}}  <span class="divider">&lt;-&gt;</span> {{c2::Topic-prominent language}}
+What is the problem with distinguising focus, givenness, topic, rheme, etc.? <span class="divider">-></span> {{c1::Theory-ladenness/controversy}}
+Topicalization is moving something to the front of the sentence and thus doing what? <span class="divider">-></span> {{c1::Marking it as the topic}}
+Topicalization is making something the topic how? <span class="divider">-></span> {{c1::Moving something to the front of the sentence}}
+The opposite of focus is what? <span class="divider">-></span> {{c1::givenness}}
+The movement of a constituent to the front of the clause and concomittantly establishing it as the topic/theme is known as what? <span class="divider">-></span> {{c1::Topicalization}}
+Moving something to the beginning of a sentence is known as what? <span class="divider">-></span> {{c1::fronting}}
+Fronting is doing what (in syntax)? <span class="divider">-></span> {{c1::Moving a constituent to the beginning of the sentence}}
+<div class="c2-f">
+Are examples of?
+</div><div class="c1-f">
+What are examples of this?
+</div><br>{{c1::This is a <em>salad</em> salad; Do you <em>like</em>&nbsp;like him? I talked to him that week, but I didn't talk to him talk to him.}}  <span class="divider">&lt;-&gt;</span> {{c2::Contrastive focus reduplication}}
+
+## interlinear gloss
+
+<br>---<br>
+  §§ A ((c:1;::gloss)) is ((c:2;::a brief explanation)), often ((c:3;::placed near the text)) ((c:2;::it is explaining)) §<br>
+  §§ An ((c:4;::interlinear gloss)) is ((c:5;::a gloss)) that is ((c:6;::placed between lines.)) §<br>
+  §§ In linguistics, ((c:7;::interlinear glossing)) follows the ((c:8;::Leipzig Glossing Rules)). §<br>
+  §§ In linguistics, ((c:9;::interlinear glossing following the Leipzig Glossing Rules)) is ((c:10;::morpheme))-by-((c:10;::morpheme)). §<br>
+  §§ However, since ((c:11;::the exact morphology)) is ((c:12;::not always clear)) or ((c:13;::may be at issue)), ((c:14;::interlinear glossing in linguistics)) is generally ((c:15;::for the readers understanding)), not ((c:16;::to state an analysis)). §<br>
+===<br>
+
+<section class="cloze-group-children hide-if-inactive-children">
+  Interlinear glossing according to ((c:17;::the Leipzig Glossing Rules)):
+  §§ Interlinear glosses are ((c:18;::aligned)) ((c:19;::word-by-word (not morpheme-by-morpheme!))), and in this way ((c:20;::left-aligned)). §<br>
+  §§ ((c:21;::Morphemes within the same word)) are ((c:22;::separated by hyphen)) both ((c:23;::within the object language)) and ((c:24;::in the gloss)). §<br>
+  §§ In Interlinear glosses, ((c:25;::grammatical morphemes)) can be rendered by ((c:26;::abbreviated lables (e.g. LOC))) or&nbsp; §<br>
+  §§ ((c:27;::by a word in the metalanguage (e.g. in))) §<br> In interlienar gloss, ((c:28;::the lables indicating grammatical morphemes)) are ((c:29;::written in caps)), most commonly ((c:30;::in small caps.))
+  §§ In interlinear gloss, the ((c:31;::most common)) of the abbreviated lables may be ((c:32;::further abbreviated)). §<br>
+  §§ ((c:33;::Clitic boundaries)) are marked by ((c:34;::an equals sign)). §<br>
+  §§ In interlinear gloss, if ((c:35;::one element in the object language)) is ((c:36;::rendered by several elements in the metalanguage)), those are ((c:37;::separated in the gloss by periods. (there are also optional further category separations here which use _ \ = ; &gt;)))  §<br>
+  §§ Things that are ((c:38;::contained in the gloss)) that are ((c:39;::not marked in the object language)) may either ((c:40;::be enclosed by [])) in ((c:40;::the metalanguage)), or ((c:41;::be indicated by ø)) in ((c:41;::the object language)) §<br>
+</section>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grammatical Item</th>
+      <th>Abbreviation</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+<tr><td>((c:47;::Article))</td> <td>((c:42;::ART))</td></tr>
+<tr><td>((c:43;::Demonstrative))</td> <td>((c:44;::DET))</td></tr>
+<tr><td>((c:45;::Honorific))</td> <td>((c:46;::HON))</td></tr>
+  </tbody>
+</table>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}</span><br><div class="sub">
+<table class="blank-canvas cloze-group hide-if-inactive" style="text-align: left">
+  <tbody>
+    <tr><td>My</td><td>s</td><td>Marko</td><td>poexa-l-i</td><td>avtobus-om</td><td>v</td><td>Peredelkino.</td></tr>
+    <tr> <td>1PL</td><td>COM</td><td>Marko</td><td>go-PST-PL</td><td>bus-INS</td><td>All</td><td>Peredelkino.</td></tr>
+    <tr><td colspan="7">'Marko and I went to Perdelkino by bus.'</td></tr>
+  </tbody>
+</table>
+
+<table style="text-align: left" class="blank-canvas cloze-group hide-if-inactive">
+  <tbody>
+    <tr> <td>puer</td> <td>or:</td> <td>puer-Ø</td> </tr>
+<tr> <td>boy[NOM.SG]</td> <td></td> <td>boy-NOM.SG</td> </tr>
+<tr> <td>‘boy’</td> <td></td> <td>‘boy’</td> </tr>
+  </tbody>
+</table>
+
+
+</div>
+
 # types of words
 
 ## numerals
@@ -1176,6 +1352,29 @@ have and do may or may not be auxiliary verbs.
 dummy do is do used as an auxiliary verb.
 using dummy do is called do-support
 do-support is used when an axuliary verb is syntactically required but none is present.
+
+
+In english, what are the non-lexical verbs that don't take objects? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+In english, what types of verbs are required to use negation? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+In english, what types of verbs go before the subject DP in question inversion? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+Why does auxiliary being equivalent to auxiliary verb not cause confusion? <span class="divider">-&gt;</span> {{c1::Because there are no other kinds of auxiliary words}}
+auxiliary verbs <span class="divider">-&gt;</span> {{c1::auxiliaries}}
+In the circumstances where do and have aren't auxiliaries (and also aren't lexical), what are they? <span class="divider">-&gt;</span> {{c1::light verbs}}
+Light verbs are different from auxiliary verbs how? <span class="divider">-&gt;</span> {{c1::Can't do the syntactical stuff auxes can}}
+Light verbs are different from lexical verbs how? <span class="divider">-&gt;</span> {{c1::Little semantic content}}
+Verbs that have little semantic content but are not auxiliaries due to syntactic concerns are called what? <span class="divider">-&gt;</span> {{c1::light verbs}}
+Relationship between auxiliaries and modals in set notation? <span class="divider">-&gt;</span> {{c1::modals ⊊ auxiliaries}}
+What property do modal verbs express? <span class="divider">-&gt;</span> {{c1::Modality}}<br><div class="sub">
+<div class="sub c1-f c2-b">
+competing definitions
+</div>
+<div class="sub c1-b c2-f">
+Question inversion, negation etc.
+</div>
+<div class="sub c1-b c2-f">
+auxiliaries ⊋ modals
+</div>
+</div>
 
 ## changing parts of speech
 
@@ -1912,6 +2111,315 @@ For vowels, ［◌ˑ］ indicates a half-length vowel, while ［◌̆］ indicat
 For vowels and consonants both, ［◌ː］ indicates something that is longer, for consonants specifically it indicates gemination
 Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮happy⟯ ［◌̆］
 
+## unsorted
+
+### 1
+
+Which of the lateral sounds is the smallcaps one? <span class="divider">-&gt;</span> {{c1::the voiced velar lateral approximant}}
+What two pharyngeal sounds both feature IPA symbols containing an h/H? <span class="divider">-&gt;</span> {{c1::voiceless pharyngeal trill and fricative}}
+What two IPA symbols both using the glottal stop character are oriented with the head to the right? <span class="divider">-&gt;</span> {{c1::Voiceless pharyngeal and glottal stop/plosive}}
+What two IPA symbols both using the glottal stop character are oriented with the head to the left? <span class="divider">-&gt;</span> {{c1::Voiced pharyngeal trill and fricative}}
+What two IPA symbols both feature a glottal stop crossed out by a bar? <span class="divider">-&gt;</span> {{c1::Pharyngeal voiceless plosive and voiced trill}}
+What sound is the one whose character is supposedly the third one, besides a fricative and an approximant, that is based off the j, but is actually just a turned f? <span class="divider">-&gt;</span> {{c1::voiced palatal plosive}}
+What place of articulation would you expect ɣ to have, but which does it actually have? <span class="divider">-&gt;</span> {{c1::You'd expect it to be uvular (because of χ), but it's actually velar}}
+What is the order of the hooks (front to back) of n-based consonants? <span class="divider">-&gt;</span> {{c1::nɳɲŋ}}
+What is the only place of articulation for consonants that feature small horizontal bars crossing out symbols normally not so crossed?&nbsp; <span class="divider">-&gt;</span> {{c1::Pharyngeal}}<br><div class="sub">
+<div class="sub c1-f c2-b">
+Ignoring the voiced palatal plosive, which theoretically also is barred, but is actually a turned f
+</div>
+</div>
+What is the IPA voiced palatal plosive supposedly? <span class="divider">-&gt;</span> {{c1::a barred dotless j}}
+What is the IPA symbol for the voiced palatal plosive actually? <span class="divider">-&gt;</span> {{c1::an f turned by 180 degrees}}
+What do the symbols c, k, q describe in the IPA? <span class="divider">-&gt;</span> {{c1::a progression of voiceless plosives}}
+The voiced velar approximant kinda looks like a turned ___ combined with a turned ___ <span class="divider">-&gt;</span> {{c1::h, m}}
+The symbol for the palatal voiced fricative is just the symbol for what plus a curl? <span class="divider">-&gt;</span> {{c1::voiced palatal approximant}}
+The symbol for the palatal voiced fricative is just the symbol for the palatal voiced approximant plus a? <span class="divider">-&gt;</span> {{c1::curl}}
+Of the two n-like symbols with left-facing hooks, the one who has it further to the right is also the one... <span class="divider">-&gt;</span> {{c1::further back}}
+Of the two n-like symbols with left-facing hooks, the one who has it further to the left is also the one... <span class="divider">-&gt;</span> {{c1::further front}}
+Of the four pharyngeal/glottal voiced/unvoiced fricative symbols, which is the only one not based on h? <span class="divider">-&gt;</span> {{c1::Voiced pharyngeal fricative}}
+Name a portguese word in which the character for the palatal voiceless fricative is also contained! <span class="divider">-&gt;</span> {{c1::seleçao}}
+In how many aspects do barred consonants differ from their non-barred counterparts? <span class="divider">-&gt;</span> {{c1::exactly one (so voicedness, place, OR manner)}}
+For what manner and voicing are g/G only ever used in the IPA? <span class="divider">-&gt;</span> {{c1::voiced plosives}}
+For what kind of sounds is the l/L only ever used? <span class="divider">-&gt;</span> {{c1::lateral ones}}
+All three sounds (including the one that is actually a turned f) based in their IPA symbols off the j are ___ and ___ <span class="divider">-&gt;</span> {{c1::palatal and voiced}}
+All IPA symbols based of a modified version of the glottal stop are either ___ or ___ <span class="divider">-&gt;</span> {{c1::pharyngeal(epiglottal) or glottal}}
+<span class="hide-5">sounds written with a variant of the small h in the IPA all have what </span><b>manner</b> of articulation? <span class="divider">-&gt;</span> {{c1::fricative}}
+Why is  ɽ (voiced retroflex tap or flap) an exception, in how we would deduce what the alveolar voiced tap or flap is based on it? <span class="divider">-&gt;</span> {{c1::Since it's ɾ, but we would expect it to be r}}
+Which one of the nasals is the one that is spelled with an n, but has no hook? <span class="divider">-&gt;</span> {{c1::voiced alveolar etc. nasal}}
+What reason might one give why the voiced alveolar trill symbol is the one with two 'heads'? <span class="divider">-&gt;</span> {{c1::since the tongue hits multiple times}}
+What number does the voiced postalveolar fricative look kinda similar to? <span class="divider">-&gt;</span> {{c1::3}}
+What might one say the reason is for voiced alveolar etc. tap being the one with one head? <span class="divider">-&gt;</span> {{c1::since the tounge hits only once}}
+What latin letters are all nasal consonant symbols of the IPA similar to? <span class="divider">-&gt;</span> {{c1::m or n}}
+What latin letter are all voiced bilabial sounds besides the nasal similar to? <span class="divider">-&gt;</span> {{c1::b/B}}
+What kind of symbol are 3/5 of the IPA trill letters based on? <span class="divider">-&gt;</span> {{c1::smallcaps letters}}
+What kana does the voiced postalveolar fricative look similar to? <span class="divider">-&gt;</span> {{c1::ろ}}
+What is/are the exceptions for the ipa symbols of retroflex consonants being based on alveolar ones? <span class="divider">-&gt;</span> {{c1::ɽ (voiced retroflex tap or flap)}}
+What is the IPA voiced labiodental fricative v mostly spelled as in German? <span class="divider">-&gt;</span> {{c1::W}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+Wächter, wachs etc.
+</div>
+</div>
+What is the IPA voiced labiodental fricative v mostly spelled as in English? <span class="divider">-&gt;</span> {{c1::v}}
+What is the IPA symbol for the sound that crosslinguistically is often spelled f? <span class="divider">-&gt;</span> {{c1::f}}
+What does the voiced labiodental approximant look kinda similar to (which is also labiodental and voiced)? <span class="divider">-&gt;</span> {{c1::the labiodental fricative v}}
+What do the IPA spellings of the voiced alveolar etc. trill and tap or flap have in common, as regards their Orientation? <span class="divider">-&gt;</span> {{c1::they are both right-side up}}
+What do all symbols for retroflex consonants share in the ipa? <span class="divider">-&gt;</span> {{c1::A right-facing bottom hook such as ɭ or ʈ}}
+What do all IPA spellings of lateral approximants have in common? <span class="divider">-&gt;</span> {{c1::They are all spelled with representations of l (english or greek representations)}}
+What are both bilabilal fricatives written with in the IPA? <span class="divider">-&gt;</span> {{c1::Greek letters}}
+What IPA symbol is the voiced labiodental nasal ɱ based off of? <span class="divider">-&gt;</span> {{c1::the voiced bilabial nasal m}}
+What IPA symbol does the first sound of ふ correspond to? <span class="divider">-&gt;</span> {{c1::ɸ}}
+To which IPA symbol does written letter 'p' in english generally correspond? <span class="divider">-&gt;</span> {{c1::also p (voiceless bilabial plosive)}}
+The voiceless &amp; voiced alveolar fricative IPA symbols are both... <span class="divider">-&gt;</span> {{c1::latin letters}}
+The voiced labiodental nasal uses the same symbol as the voiced bilabial nasal, but with... <span class="divider">-&gt;</span> {{c1::a leftwards hook<br><br>}}
+The symbols for the labiodental fricatives are both? <span class="divider">-&gt;</span> {{c1::Latin leters}}
+The letters used for the retroflex sounds are the same as the ones used for which sounds? <span class="divider">-&gt;</span> {{c1::The alveolar ones}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+with the slight exception of ɽ
+</div>
+</div>
+The IPA spelling of the voiced alveolar etc. lateral fricative is like an l and which IPA sound glued together? <span class="divider">-&gt;</span> {{c1::Like an l-sound and the voiced postalveolar fricative ʒ}}
+The IPA spelling of both the voiceless and the voiced alveolar etc. lateral fricative contain in their 'design' what letter? <span class="divider">-&gt;</span> {{c1::l}}
+Since the voiced&nbsp; alveolar etc. approximant ɹ is turned 180°, the retroflex version... (related to orientation) <span class="divider">-&gt;</span> {{c1::is also turned 180°}}
+IPA symbols including variants of the small l are limited to what place? <span class="divider">-&gt;</span> {{c1::dental/alveolar/postalveolar and retroflex sounds}}
+IPA symbols for the nasals which use the letter m as their basis have which or which place of articulation? <span class="divider">-&gt;</span> {{c1::bilabial and labiodental}}
+How many retroflex consonant symbols have the right-facing hook? <span class="divider">-&gt;</span> {{c1::All of them}}
+How many of the letters for trills in the IPA are smallcaps letters? <span class="divider">-&gt;</span> {{c1::3/5}}
+How does the symbol of the voiced alveolar approximant relate to the symbol for the voiced alveolar trill r? <span class="divider">-&gt;</span> {{c1::it's the symbol for the alveolar trill, but turned 180°:&nbsp; ɹ	}}
+From what language' script is the symbol for the voiced dental fricative derived? <span class="divider">-&gt;</span> {{c1::old english / icelandic}}
+For both the sets of alveolar and postalveolar fricatives, the voiceless sound is spelled (in the IPA) more ___-like and the voiced sound is more ___-like <span class="divider">-&gt;</span> {{c1::the voiceless sound is spelled (in the IPA) more s-like and the voiced sound is more z-like}}
+Besides the voiced alveolar trill r, what other trill does not feature a smallcaps IPA letter? <span class="divider">-&gt;</span> {{c1::The voiced pharyngeal/epiglottal trill ʢ}}
+All sounds spelled with some variant of the small r are either ___ or ___ <span class="divider">-&gt;</span> {{c1::dental/alveolar/postalveolar or retroflex}}
+<div>What greek letter does the voiceless dental fricative use?</div><span class="divider">-&gt;</span> {{c1::theta}}
+<div>The voiceless alveolar lateral fricative is an l with a...</div><span class="divider">-&gt;</span> {{c1::little curl}}
+((h:1;::<img src="sm_Suzuki_Violin_No.580.jpg">))What part of an instrument does the voiceless postalveolar fricative look similar to? <span class="divider">-&gt;</span> {{c1::Those s-like things on a violin (called f-holes)}}
+What symbols are the retroflex right facing lower hooks generally attached to? <span class="divider">-&gt;</span> {{c1::The alveolar consonants}}
+What is the distinctive feature that most epiglottal=pharyngeal consonant symbols share? <span class="divider">-&gt;</span> {{c1::a horizontal bar through}}<table>
+<tbody class="yesno">
+<tr>
+<th>Place (active) →</th>
+<th colspan="4" scope="col">Labial</th>
+<th colspan="8" scope="col">Coronal</th>
+<th colspan="2" scope="col">Dorsal</th>
+<th colspan="2" scope="col">Dorsal (rarely coronal)</th>
+<th colspan="2" scope="col">Dorsal</th>
+<th colspan="2" scope="col">Radical/​Ary­epiglottal</th>
+<th colspan="2" scope="col">Ary­epiglottal</th>
+</tr>
+<tr>
+<th>Place (active + passive) →</th>
+<th colspan="2" rowspan="2" scope="col">Bi­labial</th>
+<th colspan="2" rowspan="2" scope="col">Labio­dental</th>
+<th colspan="6" rowspan="2" scope="col">Dental/​Alveolar/​Post­alveolar</th>
+<th colspan="2" rowspan="2" scope="col">Retro­flex</th>
+<th colspan="2" rowspan="2" scope="col">Palatal</th>
+<th colspan="2" rowspan="2" scope="col">Velar</th>
+<th colspan="2" rowspan="2" scope="col">Uvular</th>
+<th colspan="2" rowspan="2" scope="col">Pharyn­geal/​epi­glottal</th>
+<th colspan="2" rowspan="2" scope="col">Glottal</th>
+</tr>
+  <tr><th>Manner ↓</th>
+  </tr>
+<tr>
+<th scope="row">Plosive</th>
+<td>{{c1::p}}</td>
+<td>{{c2::b}}</td>
+<td></td>
+<td></td>
+<td colspan="3">{{c3::t}}</td>
+<td colspan="3">{{c4::d}}</td>
+<td>{{c5::ʈ}}</td>
+<td>{{c6::ɖ}}</td>
+<td>{{c7::c}}</td>
+<td>{{c8::ɟ}}</td>
+<td>{{c9::k}}</td>
+<td>{{c10::ɡ}}</td>
+<td>{{c11::q}}</td>
+<td>{{c12::ɢ}}</td>
+<td>{{c13::ʡ}}</td>
+<td class="no"></td>
+<td>{{c14::ʔ}}</td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Nasal</th>
+<td></td>
+<td>{{c15::m}}</td>
+<td></td>
+<td>{{c16::ɱ}}</td>
+<td colspan="3"></td>
+<td colspan="3">{{c17::n}}</td>
+<td></td>
+<td>{{c18::ɳ}}</td>
+<td></td>
+<td>{{c19::ɲ}}</td>
+<td></td>
+<td>{{c20::ŋ}}</td>
+<td></td>
+<td>{{c21::ɴ}}</td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Trill</th>
+<td></td>
+<td>{{c22::ʙ}}</td>
+<td></td>
+<td></td>
+<td colspan="3"></td>
+<td colspan="3">{{c23::r}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+<td>{{c24::ʀ}}</td>
+<td>{{c25::ʜ}}</td>
+<td>{{c26::ʢ}}</td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+<tr>
+<th scope="row">Tap/flap</th>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="3"></td>
+<td colspan="3">{{c27::ɾ}}</td>
+<td></td>
+<td>{{c28::ɽ}}</td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+  <tr>
+<th scope="row">Lateral approximant</th>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td colspan="3"></td>
+<td colspan="3">{{c58::l}}</td>
+<td></td>
+<td>{{c59::ɭ}}</td>
+<td></td>
+<td>{{c60::ʎ}}</td>
+<td></td>
+<td>{{c61::ʟ}}</td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>
+  <tr>
+<th scope="row">Lateral fricative</th>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td colspan="3">{{c51::ɬ}}</td>
+<td colspan="3">{{c52::ɮ}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+<td class="no"></td>
+</tr>  
+<tr>
+<th scope="row">Approximant</th>
+<td></td>
+<td></td>
+<td></td>
+<td>{{c53::ʋ}}</td>
+<td colspan="3"></td>
+<td colspan="3">{{c54::ɹ}}</td>
+<td>{{c55::ɻ}}</td>
+<td></td>
+<td>{{c56::j}}</td>
+<td></td>
+<td>{{c57::ɰ}}</td>
+<td></td>
+<td></td>
+<td></td>
+<td class="no"></td>
+<td class="no"></td>
+<td></td>
+</tr>
+  <tr><td colspan="5" class="no"></td>
+      <th colspan="2">Dental</th>
+<th colspan="2">Alveolar</th>
+<th colspan="2">Post­alveolar</th>
+  </tr>
+  <tr>
+<th scope="row">Fricative</th>
+<td>{{c29::ɸ}}</td>
+<td>{{c30::β}}</td>
+<td>{{c31::f}}</td>
+<td>{{c32::v}}</td>
+<td>{{c33::θ}}</td>
+<td>{{c34::ð}}</td>
+<td>{{c35::s}}</td>
+<td>{{c36::z}}</td>
+<td>{{c37::ʃ}}</td>
+<td>{{c38::ʒ}}</td>
+<td>{{c39::ʂ}}</td>
+<td>{{c40::ʐ}}</td>
+<td>{{c41::ç}}</td>
+<td>{{c42::ʝ}}</td>
+<td>{{c43::x}}</td>
+<td>{{c44::ɣ}}</td>
+<td>{{c45::χ}}</td>
+<td>{{c46::ʁ}}</td>
+<td>{{c47::ħ}}</td>
+<td>{{c48::ʕ}}</td>
+<td>{{c49::h}}</td>
+<td>{{c50::ɦ}}</td>
+</tr>  </tbody></table>
+
+### 2
+
+Which two features do both sounds spelled with the IPA with (a variant of) ɑ share? <span class="divider">-&gt;</span> {{c1::open and back}}
+
+
+
+What feature do all vowels share that are written with ligatures in IPA?  They are all front vowels Also either open, near open or open mid
+What do the IPA vowels written with an i/ɪ all have in common, as it relates to height?  They are somewhere between close and near-close
+What do the IPA vowels written with an i/ɪ all have in common, as it relates to front-ness  They are somewhere between front and central (both inclusive)
+What do the IPA symbols for the rounded close-mid and open-mid central vowels have in common?  They are both 'closed' on the outside
+What do all IPA vowels written with a symbol based of an o (barred or not) (not ligatures) have in common? (two things)  they are all three close-mid and rounded
+The IPA symbol for the close central unrounded vowel is what, but barred?  close front unrounded
+The IPA symbol for the close central rounded vowel is what, but barred?  close back rounded
+How is the Symbol of the rounded version of the central open-mid vowel related to the unrounded version's symbol?  it's the same mirrored epsilon, but connected to form a pretzel
+How does the IPA symbol for the close central unrounded vowel relate to the IPA symbol for the close front unrounded vowel?  The same, just barred
+How does the IPA symbol for the close central rounded vowel relate to the IPA symbol for the close back rounded vowel?  The same, just barred
+How are the close&amp;open-mid front unrounded and close&amp;open-mid central unrounded vowels related to each other?  They are mirrored along the y-axis
+From the unrounded close-mid central vowel's symbol, how could you generate the rounded version's symbol?  merely close the 'gap' of the mirrored e
+For the close-mid&amp;open-mid front unrounded and close-mid&amp;open-mid central unrounded vowels, which are mirrored, the <b>IPA symbols</b> of which ones are open to the right?  the front ones
+For the close&amp;open-mid front unrounded and close&amp;open-mid central unrounded vowels, which are mirrored, the <b>IPA symbols</b> of which ones are open to the left?  the central ones
+For the IPA vowel chart, the unroundedversions of vowels are written where (as relates to the pair)?  on the left of the pair
+For the IPA vowel chart, the rounded versions of vowels are written where (as relates to the pair)?  on the right of the pair
+What design feature do the IPA symbols of both the unrounded and rounded open-mid back vowel share?  They are rotated 180° latin letters
+
 # Semantics
 
 Semantics is the field of linguistics that studies sememes.
@@ -2085,38 +2593,39 @@ a ⟮＿locutionary, illocutionary or perlocutionary＿⟯ ⟮＿act＿⟯ has �
 
 ## pragmeme
 
-A pragmeme is a pragmatic act.
-A pract is the combination of a certain utterance and a context that give rise to the pragmatic act.
-Allopracts are all practs that result in the same pragmatic act.
-Pragmatic act theory studies pragmemes.
-Pragmatic act theory was developed by Mey starting around 2000.
-Pragmatic act theory has become the standard sucessor theory to speech act theory. 
-In relation to speech acts, the pragmatic act subsumes both illocutionary and perlocutionary act.
-^it seems to me the point is that there is no such thing as a properly illocutionary act, since no pract may exist without context
+»⟮A pragmeme⟯« is ⟮＿the emic unit＿⟯ which is ⟮＿a pragmatic act＿⟯.
+»⟮A pract⟯« is ⟮the combination of⟯ ⟮a certain utterance⟯ and ⟮a context⟯ that ⟮give rise to a certain ＿pragmatic act＿.⟯
+»⟮Allopracts⟯« are ⟮＿all practs＿⟯ that ⟮result in the same ＿pragmatic act＿.⟯
+»⟮Pragmatic act theory⟯« studies pragmatic acts/pragmemes.
+⟮＿Pragmatic act theory＿⟯ was developed by ⟮Mey⟯ starting around ⟮2000⟯.
+⟮＿Pragmatic act theory＿⟯ has become ⟮the standard sucessor theory⟯ to ⟮＿speech act theory＿⟯. 
+In relation to speech acts, ⟮＿the pragmatic act⟯＿ ⟮subsumes⟯ ⟮both ＿illocutionary＿ and ＿perlocutionary act＿⟯.
+^it seems to me the point is that there is no such thing as a properly illocutionary act in PAT, since no pract may exist without context
+Ergo a »⟮pragmatic act⟯« is roughly ⟮what one does when saying something⟯.
 
 ## categorization
 
-Austin distinguished 5 different types of illocutionary acts.
-Austin's distinction of 5 types of illocutionary has been largely adopted by pragmatic act theory.
-The 5 types of illocutionary/pragmatic acts are verdictive, commissive, exercitive, expositive, behabitives.
+⟮Austin⟯ distinguished ⟮5⟯ different types of ⟮＿illocutionary acts＿⟯.
+⟮＿Pragmatic acts＿⟯ are often also distinguished with ⟮the 5 types of illocutionary acts identified by Austin⟯.
+The ⟮5 types of ＿illocutionary＿/＿pragmatic acts＿⟯ are ⟮verdictive, commissive, exercitive, expositive, behabitives⟯.
 
 
 table:name|does|examples
-»⟮verdictive⟯«|give a judgement
-»⟮commissive⟯«|comitting oneself to a course of action|promising, betting
-»⟮exercitive⟯«|exercising power/influence|excommunicating, resigning
-»⟮expositivies⟯«|manage the flow/structure of discourse|postulating, defining
-»⟮behabitives⟯«|regulating social relationships|toasting, apologizing
+»⟮verdictive⟯«|⟮give a judgement⟯
+»⟮commissive⟯«|⟮comitting oneself to a course of action⟯|⟮c+;sb;promising, betting⟯
+»⟮exercitive⟯«|⟮exercising power/influence⟯|⟮c+;sb;excommunicating, resigning⟯
+»⟮expositivies⟯«|⟮manage the flow/structure of discourse⟯|⟮c+;sb;postulating, defining⟯
+»⟮behabitives⟯«|⟮regulating social relationships⟯|⟮c+;sb;toasting, apologizing⟯
 
 ## lexical items that give rise to certain speech acts
 
 ### phatic expression
 
-»⟮A phatic expression⟯« is ⟮a lexical unit/constituent⟯ ⟮devoid of⟯ ⟮semantic content⟯, but ⟮c-;expressing⟯ ⟮a ＿behabitive＿ ＿pragmatic act＿.⟯
+»⟮A phatic expression⟯« is ⟮＿a linguistic unit＿⟯ ⟮devoid of⟯ ⟮semantic content⟯, but ⟮c-;expressing⟯ ⟮a ＿behabitive＿ ＿pragmatic act＿.⟯
 
 ### Discourse markers
 
-»⟮A discourse marker⟯« is a ⟮different⟯ ⟮＿lexical unit＿⟯ which ⟮gives up its usual function⟯ to ⟮convey an ＿expositive＿ ＿pragmatic act＿ (managing the flow/structure of discourse).⟯
+»⟮A discourse marker⟯« is a ⟮different⟯ ⟮＿linguistic unit＿⟯ which ⟮gives up its usual function⟯ to ⟮convey an ＿expositive＿ ＿pragmatic act＿ (managing the flow/structure of discourse).⟯
 
 ### backchanneling
 
@@ -2129,33 +2638,37 @@ Japanese backchannels are called 　相（あい）　槌（づち）.
 
 ### Hedge
 
-»⟮a hedge⟯« is a lexical item or grammatical feature used to express the verdictive pragmatic act of expressing uncertainty.
+»⟮a hedge⟯« is ⟮＿a lingueme＿⟯ used to express ⟮the ＿verdictive＿ ＿pragmatic act＿⟯ of ⟮expressing uncertainty⟯.
 
 ## specific theories 
 
 ### Austins original constative/performative distinction
 
-The original distincition Austin made before he arrived at speech acts was between ⟮constative and performative utterances⟯ utterances.
-constative utterances (=constatives)|have a truth value, state a fact
-performative utterances (=performatives)|do something else besides state a fact
-In austins original distinction, the hereby criterion was used to determine if something was a performative.
-An utterance is performative according to the hereby-criterion, if inserting the word hereby into the sentence ⟮Basically preserves the meaning⟯
-「I promise to pay you 50$ tomorrow.」 is performative? ⟮c+;「I hereby promise to pay you 50$ tomorrow.」 → works → performative⟯
-「The cat is on the mat.」 is not performative?  「The cat is hereby on the mat.」 → has changed the meaning → not performative (constative)
-Problematically for austins original distinction, a sentence can both performative and constative.
-Later, austin moved to a distinction between locutionary, illocutionary and perlocutionary speech acts.
+The ⟮original distincition⟯ ⟮Austin⟯ made ⟮c_-;before⟯ ⟮he arrived at speech acts with loc, illoc, perloc aspects⟯ was between ⟮＿constative＿ and ＿performative＿ utterances⟯.
+»⟮constative utterances⟯« ⟮have a truth value, state a fact⟯
+»⟮performative utterances⟯« ⟮do something else besides state a fact⟯
+⟮＿Constative/performative utterances＿⟯ may also be abbreviated ⟮constative/performative⟯.
+In ⟮Austins original distinction⟯, ⟮＿the hereby criterion＿⟯ was used to determine if ⟮something was a performative⟯.
+»⟮the hereby-criterion⟯«: ⟮An utterance is ＿performative＿⟯ if ⟮inserting the word hereby into the sentence⟯ ⟮basically preserves the meaning⟯
+^「I promise to pay you 50$ tomorrow.」→ hereby-criterion →「I hereby promise to pay you 50$ tomorrow.」 → works → performative⟯
+^「The cat is on the mat.」→ hereby-criterion →「The cat is hereby on the mat.」 → has changed the meaning → not performative (constative)
+A sentence can be ⟮both ＿performative＿ and ＿constative＿⟯, which ⟮blows up austin's original distinction⟯.
+⟮Later⟯, ⟮austin⟯ ⟮c_-;moved to⟯ ⟮a distinction between ＿locutionary＿, ＿illocutionary＿ and ＿perlocutionary＿ ＿speech acts＿.⟯
 
 
 ### gricean implicature
 
-Implicature is a term introduced by Grice which is whatever a person implied/meant by saying something else.
-in the linguistic field of pragmatics, an ⟮inference⟯ (generally an ⟮implicature⟯) is said to be ⟮defeasible⟯ or ⟮cancellable⟯ if ⟮it can be made to disappear (e.g. by saying something contradictory⟯.
-According to grice, implicatures may be conventional or nonconventional.
+⟮＿Implicature＿⟯ is a term introduced by ⟮Grice⟯.
+»⟮Implicature⟯« is ⟮whatever a person meant⟯ ⟮by saying something else⟯.
+defeasible = cancellable
+An ⟮inference (generally an implicature)⟯ is »⟮defeasible⟯« if ⟮it can be erased⟯, e.g. ⟮by saying something contradictory⟯.
+⟮＿Implicatures＿⟯ may be ⟮＿conventional＿⟯ or ⟮c_;＿nonconventional＿⟯.
 
 #### conventional
 
-conventional implicatures are what a sentence entails due ot the conventional meaning of the words involved in the sentence, some people have argued these are merely entailments.
-Grice: the conventional implicature of "The die is green and heavy" is "The die is green" (as well as "The die is heavy")
+conventional implicatures are what a sentence entails due ot the conventional meaning of the words involved in the sentence.
+Conventional implicatures are more or less the same as entailments.
+The conventional implicature of "The die is green and heavy" is "The die is green" (as well as "The die is heavy")
 
 #### nonconventional
 
@@ -2588,6 +3101,147 @@ Theoretical linguistics may just contrast with applied linguistics, or specifica
 
 # formal language
 
+## formal grammar
+
+a derivation is what (related to formal grammars) to arrive at a string? <span class="divider">-&gt;</span> {{c1::&nbsp;an application of the production rules&nbsp;}}
+a derivation is an application of the production rules of a formal grammar to what? <span class="divider">-&gt;</span> {{c1::arrive at a (well-formed) word}}
+With what tool is the syntax of a formal language often formally&nbsp;defined? <span class="divider">-&gt;</span> {{c1::formal grammar}}
+When have we finished derivation? <span class="divider">-&gt;</span> {{c1::When we've arrived at a string with no more nonterminals}}<br><div class="sub">
+<div class="sub f">
+formal grammar
+</div>
+</div>
+When generating a string using a formal grammar, where do we start? <span class="divider">-&gt;</span> {{c1::at the start symbol}}
+What parts do production rules of formal grammars consist of, fundamentally? <span class="divider">-&gt;</span> {{c1::a left-hand and a right-hand side}}
+What languages do regular grammars generate? <span class="divider">-&gt;</span> {{c1::regular languages}}
+What kind of thing can an alphabet be, in the context of formal languages? <span class="divider">-&gt;</span> {{c1::any set}}
+What is the alphabet of formal languages most of the time? <span class="divider">-&gt;</span> {{c1::a character set of some sort}}
+What does a formal grammar produce in terms of a formal language? <span class="divider">-&gt;</span> {{c1::A formal grammar generates the formal language}}<br><div class="sub">
+<div class="sub c1-b c2-f">
+well, precisely it generates the set of well-formed words that make up the formal language
+</div>
+</div>
+What do we do with nonterminals in the course of derivation? <span class="divider">-&gt;</span> {{c1::replace them with further production rules}}
+The {{c1::syntax}} of {{c2::formal languages}} is said to be {{c4::the structure}} of {{c4::well-formed words}} in a language (however it's not a {{c3::rigurously defined}} term), and contrasted with {{c5::semantics}}. It may be defined via {{c6::a formal grammar}}. The {{c7::grammar}} of a {{c2::formal language}} is {{c8::merely a synonym}} for {{c6::formal grammar}}.
+The syntax governing a meta-language {{c1::metasyntax}}
+The start symbol is a kind of what? <span class="divider">-&gt;</span> {{c1::nonterminal}}
+The semantics of a formal language expresses what? <span class="divider">-&gt;</span> {{c1::What the words mean}}
+The rules that formal grammars consist of are known as what? <span class="divider">-&gt;</span> {{c1::production rules}}
+The production rules of a formal language are made up of {{c1::nonterminal symbols}}, {{c2::terminal symbols}} and {{c3::a start symbol}}
+Something {{c1::well-formed}} {{c4::comforms to}} {{c2::the rules/grammar/syntax}} of a given {{c3::system/<b>formal</b> language}}
+In the production rules of formal languages, what appears on the left side? <span class="divider">-&gt;</span> {{c1::a non-terminal}}<br><div class="sub">
+<div class="sub f">
+Context-free and reuglar only
+</div>
+</div>
+In the production rules for regular grammars, what may appear on the right (right-regular only)? <span class="divider">-&gt;</span> {{c1::terminal nonterminal}}<br><div class="sub">
+<div class="sub c1-f c2-b">
+Both right-regular and left-regular can just have a terminal
+</div>
+</div>
+In the production rules for regular grammars, what may appear on the right (after the -&gt;) (left-regular only)? <span class="divider">-&gt;</span> {{c1::nonterminal terminal}}
+In the production rules for regular grammars, what may always appear on the right (both left- and right regular) ? <span class="divider">-&gt;</span> {{c1::a single terminal}}
+In the production rules for context-free grammars, what may appear on the right? <span class="divider">-&gt;</span> {{c1::any sequence of terminals and nonterminals}}
+In the production rules for context-free grammars, what may appear on the left? <span class="divider">-&gt;</span> {{c1::a single nonterminal}}
+In the case of a finite formal language, how can we theoretically specify the language? <span class="divider">-&gt;</span> {{c1::List all well-formed words}}
+In formal languages, what are well-formed words sometimes further assembled to? <span class="divider">-&gt;</span> {{c1::They are assembled to well-formed expressions}}
+In a formal language, what are words made of? <span class="divider">-&gt;</span> {{c1::characters/elements from its alphabet}}
+How large is the size of the alphabet of a formal language? <span class="divider">-&gt;</span> {{c1::finite}}
+Formal languages are separated by size in... <span class="divider">-&gt;</span> {{c1::finite and infinite langauges}}
+Any well-formed&nbsp;string from the alphabet of a given formal language is called what? <span class="divider">-&gt;</span> {{c1::a well-formed word/formula}}
+Any string from the alphabet of a given formal language is called what? <span class="divider">-&gt;</span> {{c1::a word}}
+A formal language consists of what? <span class="divider">-&gt;</span> {{c1::a set of well-formed words}}
+<div class="c2-f">
+What will be done with these, in the course of derivation?
+</div><div class="c1-f">
+Are called?
+</div><br>{{c1::nonterminal symbol}}  <span class="divider">&lt;-&gt;</span> {{c2::(Things that)&nbsp;will be replaced by further production rules}}<br><div class="sub">
+<div class="sub f">
+formal grammar context
+</div>
+</div>
+<div class="c2-f">
+Synonym?
+</div><div class="c1-f">
+Synonym?
+</div><br>{{c1::syntactic varialble}}  <span class="divider">&lt;-&gt;</span> {{c2::nonterminal}}<br><div class="sub">
+<div class="sub f">
+formal grammar
+</div>
+</div>
+<div class="c2-f">
+Symbolizes?
+</div><div class="c1-f">
+Is symbolized by?
+</div><br>{{c1::Σ}}  <span class="divider">&lt;-&gt;</span> {{c2::The alphabet of a formal language}}<br><div class="sub">
+<div class="sub f">
+In formal languages
+</div>
+</div>
+<div class="c2-f">
+Symbolizes what?
+</div><div class="c1-f">
+Are written how?
+</div><br>{{c1::S}}  <span class="divider">&lt;-&gt;</span> {{c2::the start symbol}}<br><div class="sub">
+<div class="sub f">
+formal grammar context
+</div>
+</div>
+<div class="c2-f">
+Symbolize what?
+</div><div class="c1-f">
+Are written how?
+</div><br>{{c1::lowercase letters}}  <span class="divider">&lt;-&gt;</span> {{c2::terminals}}<br><div class="sub">
+<div class="sub f">
+formal grammar context
+</div>
+</div>
+<div class="c2-f">
+Symbolize what?
+</div><div class="c1-f">
+Are written how?
+</div><br>{{c1::Capital letters}}  <span class="divider">&lt;-&gt;</span> {{c2::nonterminals}}<br><div class="sub">
+<div class="sub f">
+formal grammar context
+</div>
+</div>
+<div class="c2-f">
+Is symbolized by?
+</div><div class="c1-f">
+Symbolizes?
+</div><br>{{c1::Empty word}}  <span class="divider">&lt;-&gt;</span> {{c2::e/ε}}<br><div class="sub">
+<div class="sub f">
+formal grammar
+</div>
+</div>
+<div class="c2-f">
+Are?
+</div><div class="c1-f">
+Are called (besides and more specifically than letter/character/element)?
+</div><br>{{c1::terminal symbols}}  <span class="divider">&lt;-&gt;</span> {{c2::the fundamental elements of the formal language (part of the alphabet)}}<br><div class="sub">
+<div class="sub f">
+formal grammar context
+</div>
+</div>
+<div class="c2-f">
+Are what, in relation to automatons?
+</div><div class="c1-f">
+Are what, in terms of chomsky's hierarchy?
+</div><br>{{c1::context-free languages}}  <span class="divider">&lt;-&gt;</span> {{c2::The languages that can be recognized by a pushdown automaton}}
+<div class="c1-f">
+What is this?
+</div><br>Left -&gt; Right <span class="divider">-&gt;</span> {{c1::a production rule}}<br><div class="sub">
+<div class="sub f">
+formal grammars
+</div>
+</div>
+<div class="c1-f">
+Is?
+</div><br>Something that conforms to the grammar of the formal language of which it is a part <span class="divider">-&gt;</span> {{c1::Something that is well-formed}}
+<div class="c1-f">
+Is called?
+</div><br>An application of the production rules of a formal grammar to arrive at a string <span class="divider">-&gt;</span> {{c1::a derivation}}
+
 ## chomsky hierarchy
 
 The chomsky hierarch describes a hierarchy of formal grammars.
@@ -2671,21 +3325,6 @@ ALPHA|upper/lowercase ascii char
 DIGIT|deximal digits
 VCHAR|an ascii visible char
 
-### RFC 2119
+# -> graphemics
 
-RFC 2119 = BCP 14
-RFC 2119 / BCP 14 defines a set of terms to indicate requirement levels.
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. indicates that RFC 2119 is being followed.
-when using RFC 2119, the words such as must are often allcaps.
-
-MUST = REQUIRED = SHALL
-MUST/REQUIRED/SHALL = absolute requirement of the specification
-MUST NOT = SHALL NOT
-MUST NOT/SHALL NOT = absolute prohibition of the specification
-SHOULD = RECOMMENDED
-SHOULD/RECOMMENDED = may exist valid reasons to ignore the thing, but full implications should be considered and carefully weighed beforehand
-SHOULD NOT = NOT RECOMMENDED
-SHOULD NOT/NOT RECOMMENDED = may exist valid reasons where behavior is acceptable or even useful, but full implications should be considered and carefully weighed beforehand
-MAY = OPTIONAL
-MAY/OPTIONAL = truly optional. however, An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides.)
+The shape that a specific character/grapheme takes in a specific typeface/writing style/writing system is known as a {{c1::letterform}}.

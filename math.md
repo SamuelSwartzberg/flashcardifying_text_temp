@@ -761,6 +761,83 @@ Merkele trees are used in block trees.
 
 ## logic
 
+First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
+the logical form of an argument is called argument form.
+
+Proplog<br/><p class="cloze-group hide-if-inactive"><span class="c1-cloze">Propositional logic</span> may also be called <span class="c2-cloze c3-scr">propositional calculus</span> or, based <span class="c3-cloze c4-scr">on its relationship to 1st order logic</span>, <span class="c4-cloze c3-scr">zeroth-order logic</span> (other rare terms include <span class="c5-cloze c4-scr c3-scr">statement logic, sentential calculus/logic.</span>
+</p>
+
+<p class="cloze-group-children hide-if-inactive-children">
+  <span class="line"><span class="c6-cloze">propositions</span> are the things that <span class="c7-cloze">bear truth value</span>.</span>
+  <span class="line"><span class="c8-cloze">A propositional variable</span> (e.g. <span class="c8-cloze">p, q, r</span>) <span class="c13-cloze">represents</span> <span class="c9-cloze">any possible atomic proposition</span>.</span>
+  <span class="line"><span class="c10-cloze">a propositional formula</span> (e.g. <span class="c10-cloze">p AND q</span>) (also called <span class="c14-cloze c10-scr c11-scr c12-scr">sentence (tho only in proplog)</span>) is a <span class="c11-cloze">well-formed formula</span> that <span class="c12-cloze">consists of elements of the alphabet of a propositional logic</span> (that is <span class="c12-cloze">propositional variables, constants, and logical connectives</span>).</span>
+  <span class="line"><span class="c15-cloze">a proposition</span> <span class="c16-cloze">expressed by</span> <span class="c17-cloze">a propositional constant</span> is <span class="c18-cloze">an atomic proposition</span>.</span>
+  <span class="line"><span class="c19-cloze">a propositional constant</span> <span class="c20-cloze">expresses</span> <span class="c21-cloze">an atomic proposition</span>.</span></p>
+
+  <p class="cloze-group-children hide-if-inactive-children"><span class="line">The <span class="c22-cloze">elements of the alphabet</span> of <span class="c23-cloze">a propositional logic</span> are the <span class="c24-cloze">propositional constants</span>, <span class="c25-cloze">propositional variables</span>, and <span class="c26-cloze">logical connectives</span>. </span>
+    <span class="line"><span class="c27-cloze">propositional constants, variables and formulas all</span> <span class="c28-cloze">express/denote propositions</span>.</span>
+    <span class="line"><span class="c29-cloze">Propositional constants, variables and formulas</span> as well as <span class="c29-cloze">logical connectives</span> are all <span class="c30-cloze">truth-functional.</span></span></p>
+
+    <p class="cloze-group-children hide-if-inactive-children"><span class="line"><span class="c31-cloze">Atomic propositions</span> might be things such as <span class="c32-cloze">"Grass is green"</span></span>&nbsp;<span class="line"><span class="c33-cloze">propositional constants</span> might be things such as&nbsp;</span><span class="line"><span class="c34-cloze"><span class="line">p, q</span></span> <span class="c35-cloze">A propositional formula</span> might look something like <span class="c36-cloze">(p AND NOT q) IMPLIES (p OR q).</span></span></p>
+
+      <p class="cloze-group-children hide-if-inactive-children"><span class="line">If <span class="c37-cloze">"Sam is awesome." and "Sam is cute."</span> are <span class="c38-cloze">atomic propositions</span> <span class="c39-cloze">expressed by e.g. p and q</span>, then <span class="c40-cloze">p ∧ q</span> would be a <span class="c41-cloze">propositional formula</span> expressing the <span class="c42-cloze">non-atomic proposition</span> <span class="c43-cloze">"Sam is awesome and cute."</span>
+        </span><span class="line"><span class="c44-cloze">"Sam is awesome and cute."</span> could be a proposition expressed by <span class="c45-cloze">a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.</span></span>
+        <span class="line">If "Sam is awesome." and "Sam is cute." are <span class="c46-cloze">all possible atomic propositions</span> , <span class="c47-cloze">a propositional varialble</span> would <span class="c48-cloze">range over all of them.</span></span></p>
+
+<table class="cloze-group-children hide-if-inactive-children">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Convention</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody class="cloze-group-children hide-if-inactive-children">
+    <tr>
+      <td><span class="c49-cloze">propositional constants</span></td>
+      <td><span class="c50-cloze">written in lowercase letters starting at p</span></td>
+    </tr>
+        <tr>
+      <td><span class="c51-cloze">propositional variables</span></td>
+      <td><span class="c52-cloze"> written in uppercase letters starting at A</span></td>
+          <td><span class="c53-cloze"> DE</span></td>
+    </tr>
+    <tr>
+      <td><span class="c54-cloze">propositional variables</span></td>
+      <td><span class="c55-cloze"> written in lowercase letters starting at ϕ</span></td>
+      <td><span class="c56-cloze"> EN</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span><br/><div class="sub">
+All only for the most classical of logics
+</div>
+
+For something to be {{c1::truth-functional}} if {{c2::the truth of the resulting formula}} is {{c3::dependent only}} on {{c4::the truth of the constituent parts.}}
+
+<p class="cloze-group hide-if-inactive">A <span class="c1-cloze">logic</span> is a <span class="c2-cloze">formal system.</span>
+</p><div class="cloze-group hide-if-inactive"><span class="c3-cloze">Formal systems</span> have roughly the following structure:
+<pre><code><span class="c4-cloze">A formal language</span>
+<span class="c5-cloze">An inference system</span>
+  <span class="c6-cloze">A set of axioms</span>
+  <span class="c7-cloze">A set of inference rules</span>
+<span class="c8-cloze">A semantics</span></code></pre></div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+
+<div class="cloze-group-children hide-if-inactive-children"><p>A <span class="c1-cloze">rule of inference/inference rule</span> is a <span class="c2-cloze">Schlussregel</span> in german.</p>
+<p>A <span class="c3-cloze">rule of inference/inference rule</span>&nbsp;is something that <span class="c4-cloze c5-scr">takes premises</span> and <span class="c5-cloze c4-scr">returns a conclusion</span>. More generally, it is a function from sets of formulae to other formulae. It is sometimes restricted to valid inference rules, and sometimes not.</p></div>
+The conclusion in a rule of inference/inference rule or argument is often indicated by {{c1::∴}}.
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
+
+<div class="cloze-group hide-if-inactive"><p>If an <span class="c8-cloze">argument</span> is <span class="c2-cloze">valid</span>, <span class="c3-cloze">the conclusion cannot be false</span> <span class="c1-cloze">if the premises are true</span>.</p>
+<p>For an <span class="c7-cloze">argument</span> to be <span class="c4-cloze">sound</span>, it must first <span class="c5-cloze">be valid</span>, in addition, <span class="c6-cloze">the premises must be true</span>.</p>
+  <p>An <span class="c9-cloze">argument</span> consists of <span class="c10-cloze">premises</span> and <span class="c11-cloze">conclusions</span>.</p>
+  <p>In an <span class="c15-cloze">argument</span>, the <span class="c12-cloze">truth of the premises</span> intends to <span class="c13-cloze">determine</span> <span class="c14-cloze">the truth of the conclusion</span>. </p>
+  <p>In a <span class="c16-cloze">deductive argument</span>, the t<span class="c17-cloze">ruth of the premises</span> <span class="c18-cloze"><b>guarantees</b></span>&nbsp;<span class="c19-cloze">the truth of the conclusion</span>.</p>
+<p>An <span class="c25-cloze">argument</span> is the claim that given <span class="c20-cloze">every member of</span> <span class="c21-cloze">a certain premise set</span> <span class="c22-cloze">of formulae</span> is <span class="c23-cloze">true</span>, <span class="c24-cloze">so is the conclusion formula</span>.</p></div>
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+
 ### bitwise 
 
 #### basic operations
