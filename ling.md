@@ -2608,8 +2608,6 @@ THEME|undergoes action, does not change state
 
 # historical linguistics
 
-Historical linguistics is mainly interested in language change.
-
 ## creating history
 
 reconstruction is the process of establishing languemes of an unattested ancestor languages.
@@ -2637,17 +2635,17 @@ Comparative linguistics is the branch of historical linguistics concerned with u
 
 #### mutual intelligibility
 
-Mutualll intelligibility is whether two speakers of different languoids can understand each other ⟮without prior familiarity / special effort⟯
-Linguistic distance is the inverse of mutual intelligibility.
+»⟮Mutual intelligibility⟯« is the degree to which ⟮speakers of different languoids⟯ can ⟮understand each other⟯ ⟮without prior familiarity / special effort⟯
+»⟮Linguistic distance⟯« is ⟮the inverse⟯ of ⟮＿mutual intelligibility＿⟯.
 
 ### resultant linguistic items
 
 #### cognates
 
-Cognates are 2 or more words that have a common etymological origin.
-Cognates often but not always have a similar meaning and a similar pronunciation.
-False friends are words in different languages that look/sound similar and thus give off the impression of being cognates, but are unrelated.
-Cognates in the same language are called doublets.
+»⟮Cognates⟯« are ⟮two or more lexical items⟯ that ⟮have a common etymological origin⟯.
+⟮＿Cognates＿⟯ ⟮often but not always⟯ have a ⟮similar⟯ ⟮meaning⟯ and a ⟮c-;similar⟯ ⟮pronunciation⟯.
+»⟮False friends⟯« are ⟮＿lexical items＿⟯ ⟮in different languoids⟯ that ⟮look/sound similar⟯ and thus ⟮give off the impression of being ＿cognates＿⟯, but ⟮are unrelated⟯.
+»⟮doublets⟯« are ⟮＿cognates＿⟯ ⟮in the same language⟯.
 
 ### language families
 
@@ -2655,64 +2653,62 @@ Cognates in the same language are called doublets.
 
 ##### Altaic
 
-Altaic is either a sprachbund or a language family.
-Altaic comes in two versions, micro-altaic and macro-altaic.
-Micro-altaic = {turkic, mongolic, tongusic}
-Macro-altaic = micro-altic + {japonic, koreanic}
-The mainstream hypothesis about altaic is that only micro-altaic exists, and only as a sprachbund.
-Micro-altaic 
+»⟮Altaic⟯« is either ⟮＿a sprachbund＿⟯ or ⟮＿a language family＿⟯.
+»⟮Altaic⟯« comes in two versions, ⟮＿micro-altaic＿⟯ and ⟮c_;＿macro-altaic＿⟯.
+»⟮Micro-altaic⟯« = {⟮turkic⟯, ⟮mongolic⟯, ⟮tongusic⟯}
+»⟮Macro-altaic⟯« = ⟮micro-altic⟯ + {⟮japonic, koreanic⟯}
+The ⟮mainstream hypothesis⟯ about ⟮＿altaic＿⟯ is that ⟮only ＿micro-altaic＿⟯ exists, and only as ⟮＿a sprachbund＿⟯.
 
 ## language change
 
 Language change is mainly studied in historical linguistics.
-Language change is the change in the linguistic items of a languoid over time.
+»⟮Language change⟯« is the ⟮change⟯ in ⟮＿the linguistic items＿⟯ of ⟮＿a languoid＿⟯ ⟮c_-2;over time⟯.
 
 ### what changes?
 
 #### sound change
 
-Sound change is language change where the thing that is changing is sounds.
+»⟮Sound change⟯« is ⟮＿language change＿⟯ where ⟮c_;the thing that is changing⟯ is ⟮sounds⟯.
 Sound change may be phonetic or phonemic.
 
 #### semantic change
 
-Semantic change is the change of sememe of a particular lexical unit.
-Semantic change is the diachronic chanage of meanings of a given lexical item over time.
-Semantic change = semantic shift = semantic drift
+»⟮Semantic change⟯« is ⟮＿language change＿⟯ of ⟮＿sememe(s)＿⟯ of ⟮a particular ＿lexical unit＿⟯.
+⟮Semantic change⟯ = ⟮semantic shift⟯ = ⟮semantic drift⟯
 
 Common types of semantic changes are narrowing/widening, amelioration/pejoration
 Common types of ⟮Semantic⟯ ⟮change⟯/⟮shift⟯/⟮drift⟯ are ⟮semantic narrowing⟯ (also called ⟮specialization⟯), ⟮semantic widening⟯ (also called ⟮generalization⟯), ⟮amelioration/elevation⟯, ⟮pejoration⟯
 
 ##### widening/narrowing
 
-Semantic widening/narrowing is commonly abbreviated as widening/narrowing
-Widening/narrowing is also known as generalization/specialization.
-Widening/narrowing is the form of semantic change where a lexical unit takes on the sememe of one of its hyper/hyponym.
+⟮Semantic widening/narrowing⟯ is commonly abbreviated as ⟮widening/narrowing⟯
+⟮Widening/narrowing⟯ is also known as ⟮generalization/specialization⟯.
+»⟮Widening/narrowing⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿a lexical unit＿⟯ takes on ⟮＿the sememe＿⟯ of ⟮one of its ⟮＿hyper/hyponyms＿⟯⟯.
 e.g. assassin: specific order of killers -> any killer; starve: die -> die by lack of food; wife: any woman -> woman to whom one is married
 
 ##### amelioration/pejoration
 
-amelioration/pejoration is also known as elevation/degenration
-Amelioration/pejoration is the form of semantic change where the sememe of a lexical unit becomes more positive/negative.
+⟮amelioration/pejoration⟯ is also known as ⟮elevation/degeneration⟯
+»⟮Amelioration/pejoration⟯« is the form of ⟮＿semantic change＿⟯ where the sememe of a lexical unit becomes more positive/negative.
 e.g. pretty: sly -> beautiful; knight: servant -> feudal warrior; villain: serf -> evildoer; knave: servant -> rogue
 
 ### why do things change
 
 #### language contact
 
-Language contact is language change due to the influence of languoids.
-Contact linguistics is the field that studies language contact
+»⟮Language contact⟯« is ⟮＿language change＿⟯ due to ⟮the influence of other languoid(s)⟯.
+»⟮Contact linguistics⟯« is the field that studies ⟮＿language contact＿⟯
 
 ##### borrowing
 
-Borrowing is a form of language change caused by language contact.
-Borrowing is a languoid gaining a recipium via a donum.
-Donum and recipium (my terms) are both linguemes.
-The donor language is the languoid whence the donum.
-The recipient language is the languoid wither the recipium.
-A borrowing is a lingueme aquired due to borrowing.
-A native word is a lexical unit that is not a borrowing.
-Borrowing is split by what the donum and the recipium are.
+»⟮Borrowing⟯« is a ⟮form of⟯ ⟮＿language change＿⟯ ⟮c-;caused by⟯ ⟮＿language contact＿⟯.
+»⟮Borrowing⟯« is ⟮＿a languoid＿⟯ ⟮gaining⟯ ⟮＿a recipium＿⟯ ⟮c-;via⟯ ⟮＿a donum＿⟯.
+⟮＿Donum and recipium＿⟯ (my terms) are both ⟮＿linguemes＿⟯.
+»⟮The donor language⟯« is ⟮＿the languoid＿⟯ ⟮whence⟯ ⟮＿the donum＿⟯.
+»⟮The recipient language⟯« is ⟮＿the languoid＿⟯ ⟮wither⟯ ⟮＿the recipium＿⟯.
+»⟮A borrowing⟯« is ⟮＿a lingueme＿⟯ ⟮aquired via ＿borrowing＿⟯.
+»⟮A native word⟯« is ⟮＿a lexical unit＿⟯ that is ⟮not ＿a borrowing＿⟯.
+⟮＿Borrowing＿⟯ is ⟮categorized by⟯ ⟮what kind of ＿linguistic items＿⟯ ⟮＿the donum＿ and ＿the recipium＿ are⟯.
 Sometimes various borrowing-related terminology is used differently.
 
 
@@ -2720,57 +2716,56 @@ Sometimes various borrowing-related terminology is used differently.
 
 ####### sememes
 
-A semantic loan is a type of borrowing where the recipium is a sememe.
-In a semantic loan, a lexical item exists in two languages, but is lacking a sememe in the recipient language, which are then transferred.
+»⟮A semantic loan⟯« is a type of ⟮＿borrowing＿⟯ where ⟮＿donum＿ and ＿recipium＿⟯ are ⟮＿sememes＿⟯.
+In a »⟮semantic loan⟯«, ⟮＿a lexical item＿⟯ ⟮exists in two languoids⟯, but is ⟮lacking ＿a sememe＿⟯ in ⟮the ＿recipient language＿⟯, which ⟮is then transferred⟯.
 realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
 
 ####### lexical units
 
-Most borrowings are borrowings where the recipium is a lexical unit.
-When a recipium is a lexical unit, the donum may be a lexical unit, the morphological pattern/tree structure, a morpheme, or a sememe.
-Foreign words and loanwords are borrowings where the recipium is a lexical unit and the donum is the same lexical unit.
-The difference between foreign words and loanwords is that foreign words are still recognizably foreign, while loanwords have been completely integrated into the recipient language.
-A loan formation is a borrowing where the recipium is a lexical unit and the donum is a morphological pattern/tree structure of a lexical unit, which is filled with native morphemes.
-Loan translations and loan renditions are the two types of loan formations.
-The difference between loan translations and loan renditions is that loan translations translate all segments exactly, while loan renditions only translates the segments roughly.
-While weekend → ⟮Wochenende⟯ is a ⟮loan translation⟯, skyscraper → ⟮Wolkenkratzer⟯ is a ⟮loan rendition/rendering⟯
-Calque is a synonym for loan translation.
-A loanblend is a borrowing where the recipium is a lexical unit and the donum is a morpheme, which is combined with (a) native morpheme(s)
-A loan creation is a borrowing where the recipium is a lexical unit and the donum is a sememe.
+When ⟮＿a recipium＿⟯ is ⟮＿a lexical unit＿⟯, ⟮c_-;＿the donum＿⟯ may be a ⟮lexical unit⟯, ⟮a morphological pattern/tree structure⟯, ⟮a morpheme⟯, or ⟮a sememe⟯.
+⟮＿Foreign words＿⟯ and ⟮c_;＿loanwords＿⟯ are ⟮＿borrowings＿⟯ where the ⟮＿recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿the same lexical unit＿⟯.
+The difference between them is that »⟮foreign words⟯« ⟮are still recognizably foreign⟯, while »⟮c-;loanwords⟯« ⟮have been completely integrated into the recipient language⟯.
+»⟮A loan formation⟯« is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮a morphological pattern/tree structure of a lexical unit⟯, which ⟮is filled with native morphemes⟯.
+⟮＿Loan translations＿⟯ and ⟮＿loan renditions＿⟯ are the two types of ⟮＿loan formations＿⟯.
+The difference between them is that »⟮loan translations⟯« ⟮translate all segments exactly⟯, while »⟮c-;loan renditions⟯« ⟮only translates the segments roughly⟯.
+While weekend → Wochenende is a ⟮＿loan translation＿⟯, skyscraper → Wolkenkratzer is a ⟮c_;＿loan rendition/rendering＿⟯
+⟮Calque⟯ is a synonym for ⟮loan translation⟯.
+»⟮A loanblen⟯«d is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿a morpheme＿⟯, which is ⟮combined with (a) native morpheme(s)⟯
+»⟮A loan creation⟯« is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿a sememe＿⟯.
 
 ###### properties
 
 ####### learned
 
-A learned borrowing is a planned, purposeful borrowing.
-Learned borrowing refers especially to borrowings from a classical language.
+»⟮A learned borrowing⟯« is a ⟮planned, purposeful⟯ ⟮＿borrowing＿⟯.
+⟮＿Learned borrowing＿⟯ refers ⟮especially⟯ to ⟮＿borrowings＿ from a classical language⟯.
 
 ####### pseudo
 
-pseudo-borrowing = false borrowing
-A pseudo-borrowing is a lingueme which seems to be a borrowing, but isn't.
+⟮pseudo-borrowing⟯ = ⟮false borrowing⟯
+»⟮A pseudo-borrowing⟯« is ⟮＿a lingueme＿⟯ which ⟮seems to be a ＿borrowing＿, but isn't.⟯
 
 ### more complex phenomena
 
 #### dialect levelling
 
-Dialect levelling is the reduction of the distinctive linguistic items of a non-standard variety towards more similarity with the standard variety.
-Since the industrial revolution, dialect levelling has been ocurring to most languages.
+»⟮Dialect levelling⟯« is ⟮the reduction of the distinctive linguistic items⟯ of ⟮a non-standard variety⟯ towards ⟮c-;more similarity with⟯ ⟮the standard variety⟯.
+Since the industrial revolution, ⟮＿dialect levelling＿⟯ has been ocurring to ⟮most languages⟯.
 
 ## changes in the relationship speech community ↔ languoids
 
 ### language shift
 
-In a language shift, a speech community switches to a different language.
+»⟮A language shift⟯« is when ⟮＿a speech community＿⟯ ⟮switches to a different languoid⟯.
 
 ### statuses of languages
 
-A living language is a languoid with at least one native speaker.
-A dead language is a languoid without any native speakers.
-A extinct language is a languoid without any speakers at all.
+»⟮A living languag⟯«e is a languoid ⟮with at least one native speaker⟯.
+»⟮A dead language⟯« is a languoid ⟮without any native speakers⟯.
+»⟮A extinct language⟯« is a languoid ⟮without any speakers at all⟯.
 
-language/linguisitic suicide is speakers choosing to abandon a language and it thus dying
-linguicide is causing languages to die out
+»⟮language/linguisitic suicide⟯« is ⟮speakers choosing to abandon a languoid⟯ and ⟮it thus dying⟯
+»⟮linguicide⟯« is ⟮causing languages to die out⟯
 
 
 # multilingualism
@@ -2887,10 +2882,6 @@ Transcription is the represention of spoken language in written form.
 ## misc
 
 A pillow dictionary is a romantic partner that teaches you a foreign langauge.
-
-# theoretical linguistics
-
-Theoretical linguistics may just contrast with applied linguistics, or specifically be the area of linguistics that answers fundamental questions about the nature of language
 
 # formal language
 
