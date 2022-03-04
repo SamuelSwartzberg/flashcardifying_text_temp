@@ -2574,44 +2574,6 @@ INSTRUMENT|Means of action|Ram broke the window with A STONE
 PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
 THEME|undergoes action, does not change state
 
-# linguistics and the mind
-
-Cogntivie linguistics is a field that studies how the things we know about the brain/mind generally give rise to human language. 
-Thus cognitive linguistis would reject the claim that language is a separate faculty of the brain.
-Psycholinguistics is a field that studies how the brain allows us to do language-related tasks such as language aquisition, comprehension, production.
-
-## Cognitive linguistics
-
-### conceptual metaphor
-
-The idea of conceptual metaphor was coined by Lakoff ＆ Johnson in their seminal book Metaphors We Live By (1980)
-
-A conceptual metaphor is a metaphor where one thing is understood in terms of another.
-A structural metaphor is a metaphor that structures one thing in terms of another.
-Conceptual metaphors are structural metaphors.
-A mapping is a single conceptual/structural metaphor.
-A mapping consists of a source domain, a target domain, and a set of correspondences between the domains.
-e.g. Love is the target domain, a journey is the source domain
-The set of correspondences of a mapping represents the structure that structural metaphor is referring to.
-A correspondence is a equivalence between one element of the target domain and one element of the source domain.
-e.g. for LOVE IS A JOURNEY, the lovers are travelers, the relationship is the vehicle, the lovers common goals are destinations on the journey.
-Within a mapping, new correspondences may be created ad hoc, e.g. for stylistic effect.
-A mapping is conventionally indicated as TARGET IS SOURCE.
-The target domain is only partially structured in terms of the source domain.
-The target domain only being partially structured in terms of the source domain means that only some attributes of the source domain carry over to the target domain.
-Since the target domain is only partially structured in terms of the source domain, any conceptual/structural metaphor also hides/obscures things.
-To Lakoff ＆ Johnson, all our conceptual system is based on conceptual metaphor.
-
-### linguistic relativity
-
-»⟮Linguistic relativity⟯« is the idea that ⟮the structure of language⟯ ⟮affects⟯ ⟮the speakers cognition⟯.
-⟮＿linguistic relativity＿⟯ exists in ⟮a strong⟯ and ⟮c_;a weak⟯ ⟮c_;version⟯.
-The ⟮strong⟯ version of ⟮＿linguistic relativity＿⟯ says the relationship between language structure and thought is one of ⟮determination⟯.
-The ⟮weak⟯ version of ⟮＿linguistic relativity＿⟯ says the relationship between language structure and thought is one of ⟮influence⟯.
-⟮＿linguistic relativity＿⟯ is more ⟮commonly⟯ but ⟮c_;misleadingly⟯ called the ⟮「sapir-whorf hypothesis」⟯.
-The ⟮「sapir-whorf hypothesis」⟯ is misleading because ⟮sapir⟯ ⟮did not endorse it much at all⟯, and ⟮c-;whorf⟯ ⟮was not the first to endorse it⟯
-⟮the strong version of⟯ ⟮＿linguistic relativity＿⟯ is also called ⟮linguistic determinism⟯
-
 # diachronic
 
 Historical linguistics is mainly interested in language change.
@@ -2619,13 +2581,6 @@ Historical linguistics is mainly interested in language change.
 ## language geneaology
 
 * marks a form that is reconstructed (i.e. not attested)
-A Sprachbund is a set of geographically contiguous languages ⟮that are more similar to each other in their structure than would be expected on the basis on their degree of genealogical relatedness⟯
-A sprachbund may also be called a linguistic area.
-The languages in a sprachbund may or may not be related (but if they are related, the similarity must be stronger than the relatedness would predict)
-SAE (Standard Average European) is a sprachbund of extensive common features in europe.
-euroversal is a feature that exists in (almost) all SAE languages
-Germanic, Romance, Baltic, Slavic, Finno-Ugric languages as well as albanian and greek are the languages normally classifed under which group?  SAE
-An ⟮areal feature⟯ is an element that is shared by languages in ⟮a geographic area⟯ (but not explainable by ⟮a common ancestor language⟯)
 
 ### cognates
 
@@ -2759,24 +2714,6 @@ A language without any *native* speakers|dead language
 A language without *any* speakers|extinct language
 Speakers choosing to abandon a language and it thus dying|language/linguisitic suicide
 Causing languages to die out|linguicide
-
-## English
-
-Old English starts with the anglo-saxon setters/invaders in the 5th century, and ends with the norman conquest 1066 and more seriously by 1150, when middle english begins. 
-Middle english lasts until the begin of the tudor era in the late 15th century, when early modern english begiins.
-Early modern english lasts until the late 17th century, until the end of the reign of Charles II.
-Early modern english is the language of Shakespeare and the King's BIble.
-
-
-William Caxton: 1422 - 1491
-William Caxton introduced the printing press to england.
-
-## etymology
-
-# discourse analysis
-
-⟮Discourse analysis⟯ is the study of ⟮real language use⟯, in units ⟮larger than the sentence⟯
-⟮Critical discourse analysis⟯ may be thought of ⟮discourse analysis⟯ via / for use of ⟮critical theory (lowercase)⟯
 
 
 # multilingualism
