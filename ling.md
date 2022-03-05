@@ -1414,6 +1414,7 @@ auxiliaries ⊋ modals
 
 Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
 A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
+
 # phon
 
 ## phonology
@@ -2451,121 +2452,6 @@ For the close&amp;open-mid front unrounded and close&amp;open-mid central unroun
 For the IPA vowel chart, the unroundedversions of vowels are written where (as relates to the pair)?  on the left of the pair
 For the IPA vowel chart, the rounded versions of vowels are written where (as relates to the pair)?  on the right of the pair
 What design feature do the IPA symbols of both the unrounded and rounded open-mid back vowel share?  They are rotated 180° latin letters
-
-# multilingualism
-
-A language that a speaker speaks is either a L1, L2, or heritage language.
-
-L1|first language = native language
-L2|second language
-
-A majority language is a language spoken by the majority of the population of an entity.
-A minority language is a language spoken by a minority of the population of an entity.
-
-A target language is a language being learnt or translated into.
-A source language is a langugage from which one is translating.
-
-## multilingualism within speakers
-
-SLA
-
-### bi/multilingualism
-
-⟮Bilingualism⟯ is ⟮The ability to speak two languages (or the state of being in two langauges)⟯
-⟮Multilingualism⟯ is ⟮The ability to speak multiple language (or the state of being in multiple langauges)⟯
-Bi/multilingualism from birth   Simultaneous bi/multilingualism
-Bi/multilingualism by learning a second language later   Sequential bi/multilingualism
-
-### language transfer
-
-Language transfer is the application of linguistic features from one language to another by ⟮a bilingual or multilingual speaker⟯, or to say it differently, two languages influencing each other within a speaker.
-CLI (crosslinguistic influence) is roughly synonymous to language transfer.
-negative language transfer is language transfer that results in errors
-positive language transfer is language transfer that results in easier language learning.
-While language transfer/cli is two languages influencing each other within a speaker, language contact is two languages themselves influencing each other.
-
-
-### SLA
-
-
-
-#### Heritage language
-
-A heritage language is the former native language of a speaker that ends up being lost or underdeveloped due to another language, generally a majority language, being dominant.
-People may have varying degrees of fluency in their heritage language.
-
-#### Interlanguage
-
-An interlanguage is an idiolect that has been developed by a learner of a second language (or L2) which preserves some features of their first language (or L1) and/or overgeneralizes/misuses some L2 writing and speaking rules. 
-When an interlanguage ceases becoming similar to the L2, it has fossilized.
-
-### Attrition
-
-Language attrition is split up into first-language attrition and second-language attrition
-The process of losing language skills in a language   Language attritionThe process of losing language skills in a ⁑second⁑ language  Second-language attrition
-The process of losing language skills in a ⁑native⁑ language  First language attrition
-
-## languages for multilingual situations
-
-A koine is a standard language or lingua franca created by the contact of ⟮c+;Two or more mutually intelligible languages ⟯
-
-### auxiliary languages
-
-international auxiliary language and auxiliary language are synonyms.
-IALs are languages meant for communication between people who do not share a first language.
-Conlang IALs (which is all IALs unless we include lingua franca) are mainly used to avoide linguistic dominance.
-IALs may also be called auxlangs.
-IALs (international ausiliary languages) may include or exclude natural languages that are lingua franca.
-Besides the case of natural languages that are lingua franca, IALs are constructed languages.
-Interlingua is a naturalistic IAL that takes its grammar and vocab mainly from the romance languages.
-interlingua aims to be comprehensible to romance language native speakers without having learned it.
-Interlingua is enabled in part by the existence of SAE.
-
-### lingua franca
-
-A lingua franca is a  lect that is used to communicate by groups who don't share a native language.
-
-## Language birth
-
-A pidgin is a grammatically simplified means of communication that develops between two or more groups that do not have a language in common.
-Pidgins often develop in trade situations.
-Pidgins usually have a limited vocabulary and low presstige.
-A pidgin is never spoken as a native language. 
-The traditional view (has criticisms) is that a pidgin that is nativized becomes a creole.
-A language gaining native speakers (from 0 to › 0) is known as nativization.
-A mixed language is a language combining aspects of two or more languages but ⟮c+;not clearly deriving primarily from any single language ⟯
-
-Relexification is the process of replacing (all or a large number of) the words of one language with the words from another language, while the grammar of the original language remains intact
-
-### conlangs
-
-Languages are either natural or constructed.
-A conlang (constructed language) is one which was constructed by humans.
-A natural language is one that has evolved naturally through human use.
-To an overwhelming extent, the languages that are spoken in the 21st century are natural languages.
-
-Naturalistic conlangs mimic existing real languages.
-
-## multilingual linguistics
-
-### translingualism
-
-Translingual phenomena are features of language that are relevant in more than one language. 
-The International scientific vocabulary is the set fo science-related words that is  ⟮used translingually⟯
-
-## rendering between representations/languages
-
-### translation
-
-Translation is the rendering of the meaning of a source language text in a target language text.
-
-### transcription
-
-Transcription is the represention of spoken language in written form.
-
-## misc
-
-A pillow dictionary is a romantic partner that teaches you a foreign langauge.
 
 # formal language
 
