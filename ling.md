@@ -2454,57 +2454,63 @@ What design feature do the IPA symbols of both the unrounded and rounded open-mi
 
 # Semantics
 
-Semantics is the field of linguistics that studies sememes.
-A semantic class contains all words that share a semantic feature.
+»⟮Semantics⟯« is the branch of linguistics that studies ⟮＿sememes＿⟯.
+»⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semantic feature＿⟯.
 
-## lexemes holding sememes
+## lexical semantics
 
-### lexical semantics
-
-Lexical semantics is concerned with the relationships between lexemes and sememes
+»⟮Lexical semantics⟯« is concerned with ⟮the relationships between⟯ ⟮＿lexemes＿⟯ and ⟮c_;＿sememes＿⟯
 
 ### semantic relations
 
-lexical relations = semantic relations.
-Semantic relations is concerned with how the sememes expressed by different lexemes relate to each other.
+⟮lexical relation⟯ = ⟮semantic relation⟯.
+»⟮A semantic relation⟯« is ⟮the relationship between⟯ ⟮＿the sememes＿⟯ ⟮expressed by different ＿lexemes＿⟯.
 The most common types of semantic relations are those relating to sub/superset, to whole and part, to multiple meanings or to opposite meanings
+»⟮*nyms⟯« are typically ⟮types of ＿lexical units＿⟯ whose ⟮＿sememes＿⟯ ⟮have certain properties⟯
 
 #### same/opposite meaning (and related concepts)
 
-name|meaning|pronunciation/spelling
-synonyms|same|different
-antonym (wide)|opposite|?
-antonym (narrow)|opposite|different
-auto-antonym|opposite|same
-polyseme|different but related|same
-homonym|different|same
+table:name|meaning|pronunciation/spelling
+»⟮synonyms⟯«|⟮same⟯|⟮different⟯
+»⟮antonym⟯« (⟮wide⟯)|⟮opposite⟯|⟮?⟯
+»⟮antonym⟯« (⟮narrow⟯)|⟮opposite⟯|⟮different⟯
+»⟮auto-antonym⟯«|⟮opposite⟯|⟮same⟯
+»⟮polyseme⟯«|⟮different but related⟯|⟮same⟯
+»⟮homonym⟯«|⟮different⟯|⟮same⟯
 
-homograph and homophone are hyponyms of homonym, distinguishing spelling and pronunciation.
-Both homograph and homophone themselves exhibit polysemy: either pronunciation/spelling may be different or not, or must be.
-A homograph is a word that means something different but is spelled the same, it may or must (depending on source) be pronounced differently.
-A homophone is a word that means something different but is pronounced the same, it may or must (depending on source) be spelled differently.
+##### homonyms
 
-A sense of a lexeme is one of the sememes it is associated with.
-Senses of lexemes are related.
-If one encounters two senses of the same lexeme that are unrelated, there are actually two unrelated lexemes which are homonyms.
-Polysemy is the property of a lexeme of having multiple senses.
+⟮＿A homonym＿⟯ in the ⟮strong⟯ sense ⟮requires⟯ ⟮both pronunciation and spelling⟯ ⟮c_-;to be the same⟯.
+⟮＿A homonym＿⟯ in the ⟮strong⟯ sense is ⟮both a ＿homophone＿ and ＿homograph＿⟯ in the ⟮weak⟯ sense.
+⟮＿A homonym＿⟯ in the ⟮weak⟯ sense ⟮requires⟯ ⟮at least one of pronunciation or spelling⟯ ⟮c_-;to be the same⟯.
+⟮＿A homonym＿⟯ in the ⟮weak⟯ sense may be a ⟮＿homophone＿ or ＿homograph＿⟯, or ⟮both⟯, if ⟮we're using the weak version of these terms⟯.
+Both ＿homograph＿ and ＿homophone＿ have ⟮a weak version⟯, where ⟮＿homographs/phones＿⟯ ⟮may be⟯ ⟮pronounced/spelled differently⟯, and ⟮c-3;a strong version⟯, where ⟮＿homographs/phones＿⟯ ⟮must be⟯ ⟮pronounced/spelled differently⟯.
+»⟮A homograph⟯« is ⟮＿a lexical unit＿⟯ that ⟮means something different⟯ but ⟮is spelled the same⟯, it ⟮may (weak) or must (strong)⟯ be ⟮pronounced differently⟯.
+»⟮A heterophone⟯« is ⟮＿a homograph＿⟯ in ⟮the strong sense⟯.
+Confusingly, ⟮＿heterophones＿⟯ are also sometimes called ⟮heteronyms⟯.
+»⟮A homophone⟯« is ⟮＿a lexical unit＿⟯ that ⟮means something different⟯ but ⟮is pronounced the same⟯, it ⟮may (weak) or must (strong)⟯ be ⟮spelled differently⟯.
+»⟮A heterograph⟯« is ⟮＿a homophone＿⟯ in ⟮the strong sense⟯.
+
+##### senses
+
+»⟮A sense⟯« of ⟮a lexeme⟯ is ⟮one of the ＿sememes＿⟯ ⟮it is associated with⟯.
+⟮＿Senses＿⟯ of lexemes are always ⟮related⟯.
+If one encounters ⟮two ＿senses＿⟯ of ⟮the same ＿lexeme＿⟯ that are ⟮unrelated⟯, there are actually two ⟮different ＿lexemes＿⟯ which are ⟮＿homonyms＿⟯.
+»⟮Polysemy⟯« is the property of ⟮＿a lexeme＿⟯ of ⟮having multiple ＿senses＿⟯.
 
 #### sub/superset
 
-Hypo/hypernyms are types of lexical units.
-A hyponym is a lexical unit whose sememe's associated set is a subset of the set associated with the set of its hypernym.
-S⎵hypernym⎵ ⊃ S⎵hyponym⎵ 
-“Musical instrument” is a ⟮hypernym⟯ of “guitar” because a guitar is a musical instrument.
-An autohyponym is a hyponym that is the same word as its hypernym.
-a cover term is a hypernym meant to be a hypernym for a specific set of terms.
-A hypernym may also be called an umbrella term or a blanket term.
+»⟮A hyponym⟯« is ⟮＿a lexical unit＿⟯ whose ⟮＿sememe＿'s associated set⟯ is ⟮a subset of⟯ ⟮the set associated with the ＿sememe＿⟯ of »⟮its hypernym⟯«.
+“Musical instrument” is a ⟮＿hypernym＿⟯ of “guitar” because a guitar is a musical instrument.
+»⟮An autohyponym⟯« is ⟮＿a hyponym＿⟯ that is ⟮the same ＿lexical unit＿⟯ as ⟮c_-;＿its hypernym＿⟯.
+»⟮a cover term⟯« is ⟮＿a hypernym＿⟯ for ⟮a specific set of lexical units⟯ ⟮created for that purpose⟯.
+⟮＿A hypernym＿⟯ may also be called ⟮an umbrella term⟯ or ⟮a blanket term⟯.
 
 #### part/whole
 
-Holo/meronyms are types of lexical units.
-A meronym's sememe semantically is a part of a holonym's sememe.
-seatbelt is a meronym of (e.g.) car which is its holonym.
-A gestalt is a meronym that can't be adequately explained by listing its holonyms.
+A »⟮meronym⟯«'s ⟮＿sememe＿⟯ semantically ⟮is a part of⟯ a »⟮holonym⟯«'s ⟮c_-2;＿sememe＿⟯.
+seatbelt is a ⟮＿meronym＿⟯ of (e.g.) car which is its ⟮c-;＿holonym＿⟯.
+»⟮A gestalt⟯« is ⟮＿a holonym＿⟯ that ⟮can't be adequately explained by listing its ＿meronyms＿⟯.
 
 ## associations between sememe-containers and sememes
 
@@ -2512,12 +2518,12 @@ A gestalt is a meronym that can't be adequately explained by listing its holonym
 
 #### metonym
 
-A metonym is a lexical unit where the expressed sememe is one closely assoicated with the sememe that is the conventional meaning of the word.
-Synechdoche is a type of metonym where the expressed sememe and conventional sememe have a part ↔ whole relationship.
-Pars pro toto is a type of synechodoche where the conventional sememe is a part and the expressed sememe is a whole.
-Pars pro toto is a type of synechodoche where the conventional sememe is a whole and the expressed sememe is a part.
-Individual body parts are often used to refer to an entire body, constituting a pars pro toto: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
-An example for a totum pro parte is the word America for the United States.
+»⟮A metonym⟯« is ⟮＿a lexical unit＿⟯ where ⟮the 「expressed sememe」⟯ is one c⟮losely associated with⟯ ⟮the sememe that is the conventional meaning of the word⟯ (「⟮conventional sememe⟯」).
+»⟮Synechdoche⟯« is a type of ⟮＿metonym＿⟯ where the ⟮＿expressed sememe＿ and ＿conventional sememe＿⟯ have a ⟮part ↔ whole⟯ relationship.
+»⟮Pars pro toto⟯« is a type of ⟮＿synechodoche＿⟯ where ⟮＿the conventional sememe＿⟯ is a ⟮part⟯ and ⟮c-;＿the expressed sememe＿⟯ is a ⟮whole⟯.
+totum pro parte is a type of ⟮＿synechodoche＿⟯ where ⟮＿the conventional sememe＿⟯ is a ⟮whole⟯ and ⟮c-;＿the expressed sememe＿⟯ is a ⟮part⟯.
+Individual body parts are often used to refer to an entire body, constituting ⟮＿a pars pro toto＿⟯: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
+An example for ⟮＿a totum pro parte＿⟯ is the word America for the United States.
 
 ## types of sememes/meaning
 
@@ -2525,16 +2531,17 @@ An example for a totum pro parte is the word America for the United States.
 
 #### deixis
 
-Deixis is when the reference of a linguistic item depends on the context.
+»⟮Deixis⟯« is when ⟮the reference⟯ of ⟮＿a linguistic item＿⟯ ⟮depends on the context⟯.
 
 ##### vs. indexicality
 
-Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
-Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
+⟮Deixis⟯ and ⟮indexiciality⟯ ⟮refer to the same phenomeno⟯n, unless ⟮a given author distinguishes them⟯.
+⟮Deixis⟯ is generally more commonly used in ⟮linguistics⟯, and ⟮c-;indexicality⟯ in ⟮philosophy⟯.
 
 ##### types of deixis
 
-Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
+Deixis may be distinguished based on what kind of thing the thing deicitically referred to is.
+Distinguishing dexis baseed in the kind of thing deictically referred to gives four types: personal, spatial, temporal, discourse.
 
 Would ☞you☜ like to have dinner?|personal deixis
 She was sitting over ☞there☜.|spatial deixis
@@ -2553,7 +2560,7 @@ Languages I know that have a three-way distinction in spatial deixis are japanes
 
 ##### *phora
 
-*phora are ways of categorizing deixis based on what the reference depends on
+*phora are ways of categorizing deixis based on what context the reference depends on.
 
 ###### types of *phora
 
@@ -2590,14 +2597,15 @@ Relative clauses generally are restrictive.
 
 ### Thematic/Semantic role
 
-Semantic role aka thematic role aka theta role.
-In the grammar taught in school grammatical relations and semantic roles are often conflated, but in fact these are orthogonal to each other.
+⟮Semantic role⟯ aka ⟮thematic role⟯ aka ⟮theta role⟯.
+A thematic role is the semantic relationship a NP/DP has to a governing verb.
 
-Agent, patient, theme, instrument ... 
-AGENT|volitional initiator|RAM broke the window with a stone
-INSTRUMENT|Means of action|Ram broke the window with A STONE
-PATIENT|undergoes action, changes state|Ram broke THE WINDOW with a stone.
-THEME|undergoes action, does not change state
+
+table:thematic roles|meaning|Ram broke the window with a flail
+»⟮agent⟯«|⟮volitional initiator⟯|⟮c+;hb;☞Ram☜ broke the window with a flail⟯
+»⟮instrument⟯«|⟮Means of action⟯|⟮c+;hb;Ram broke the window with ☞a flail☜⟯
+»⟮patient⟯«|⟮undergoes action, changes state⟯|⟮c+;hb;Ram broke ☞the window☜ with a flail.⟯
+»⟮theme⟯«|⟮undergoes action, does not change state⟯
 
 
 
