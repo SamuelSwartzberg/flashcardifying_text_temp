@@ -2466,7 +2466,7 @@ Lexical semantics is concerned with the relationships between lexemes and sememe
 ### semantic relations
 
 lexical relations = semantic relations.
-Semantic relations is concerned with how the sememes expressed by different lexemes relate to eeach other.
+Semantic relations is concerned with how the sememes expressed by different lexemes relate to each other.
 The most common types of semantic relations are those relating to sub/superset, to whole and part, to multiple meanings or to opposite meanings
 
 #### same/opposite meaning (and related concepts)
@@ -2491,57 +2491,48 @@ Polysemy is the property of a lexeme of having multiple senses.
 
 #### sub/superset
 
-A hyponym is a more specific term than its hypernym.
-A hypernym ⊃ a hyponym 
-[⟮hypernym⟯ [⟮c;hyponym⟯
-“Musical instrument” is a ⟮hyper(o)nym⟯ of “guitar” because a guitar is a musical instrument.
-A hyponym that is the same word as its hypernym is ⟮An autohyponym⟯
-A hypernym meant to be a hypernym for a specific set of terms|a cover term
+Hypo/hypernyms are types of lexical units.
+A hyponym is a lexical unit whose sememe's associated set is a subset of the set associated with the set of its hypernym.
+S⎵hypernym⎵ ⊃ S⎵hyponym⎵ 
+“Musical instrument” is a ⟮hypernym⟯ of “guitar” because a guitar is a musical instrument.
+An autohyponym is a hyponym that is the same word as its hypernym.
+a cover term is a hypernym meant to be a hypernym for a specific set of terms.
 A hypernym may also be called an umbrella term or a blanket term.
 
 #### part/whole
 
-A holonym denotes a whole.
-A meronym denotes a part.
+Holo/meronyms are types of lexical units.
+A meronym's sememe semantically is a part of a holonym's sememe.
 seatbelt is a meronym of (e.g.) car which is its holonym.
-A holonym can be explained by listing its meronyms unless it is a gestalt.
-
-## kinds of sememes
-
-### concepts
-
-#### concept hole
-
-A »concept hole« is an uncommon term for the need of certain concept, but there not being a word for it.
+A gestalt is a meronym that can't be adequately explained by listing its holonyms.
 
 ## associations between sememe-containers and sememes
-
-In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
-
 
 ### indirect
 
 #### metonym
 
-A metonym is when something is referred to by the name of something closely associated with that thing.
-Synechdoche is a form of metonymy where a part refers to a whole of something or a whole to one of its parts.
-Pars pro toto is synechdoche where a part refers to a whole.
+A metonym is a lexical unit where the expressed sememe is one closely assoicated with the sememe that is the conventional meaning of the word.
+Synechdoche is a type of metonym where the expressed sememe and conventional sememe have a part ↔ whole relationship.
+Pars pro toto is a type of synechodoche where the conventional sememe is a part and the expressed sememe is a whole.
+Pars pro toto is a type of synechodoche where the conventional sememe is a whole and the expressed sememe is a part.
 Individual body parts are often used to refer to an entire body, constituting a pars pro toto: "skin" or "hide" ("save your skin" or "skin in the game" or "the teacher will have my hide"), "mouth" ("mouth to feed"), "head" ("head count")
-Totum pro parte is synechdoche where a whole refers to its part.
 An example for a totum pro parte is the word America for the United States.
 
-## Reference
+## types of sememes/meaning
 
-### Deixis
+### reference
 
-What is a word/phrase/inflection that depends on its context to be (fully) understood is called  ⟮deictic⟯
+#### deixis
 
-#### vs. indexicality
+Deixis is when the reference of a linguistic item depends on the context.
+
+##### vs. indexicality
 
 Deixis and indexiciality refer to the same phenomenon, unless a given author distinguishes them.
 Deixis is generally more commonly used in linguistics, and indexicality in philosophy.
 
-#### types of deixis
+##### types of deixis
 
 Deixis exixts mainly in three domains: personal deixis (people involved), spatial deixis (locations involved), temporal deixis (the time involved), discourse deixis (parts of the discourse).
 
@@ -2551,7 +2542,7 @@ It is raining ☞now☜.|temporal deixis
 I enjoy living in ☞this☜ city.|spatial deixis
 ☞I☜ am going to the movies.|personal deixis
 
-##### spatial deixis
+###### spatial deixis
 
 Spatial deixis often as two or three distances, rdepending on the language.
 A language with two values for spatial deixis has the values proximal and distal.
@@ -2560,36 +2551,37 @@ A language with three values for spatial deixis has the values proximal, medial,
 For a language with three values for spatial deixis, proximal is close(r) to the speaker, medial is close to the adressee, and distal is far from both
 Languages I know that have a three-way distinction in spatial deixis are japanese and spanish primarily, and english and german only archaically.
 
-#### *phora
+##### *phora
 
-*phora is about the reference of an expression.
-*phora is a form of deixis.
+*phora are ways of categorizing deixis based on what the reference depends on
 
-##### types of *phora
+###### types of *phora
 
-onion-box:[*phora [exophora][endophora [anaphora] [cataphora]]]
+onion-box:
+*phora
+  exophora
+  endophora
+    anaphora
+    cataphora
 
 
-table:phora|reference depends on
-Exophora|reference of expression depends on outside of the text
-Endophora|reference of expression deptends on something in the text
-Anaphora|form of endophora where referent depends on something before it
-Cataphora|form of endophora where referent depends on something after it
+table:phora|reference depends on something
+Exophora|outside of the text
+Endophora|in the text
+Endophora → anaphora|before it
+Endophora  → cataphora|after it
 
-##### endophora
+###### endophora
 
 In anaphora/cataphora, the thing its referent depends on is called an antecedent/postcedent respectively.
-Most often, *phora is created by proforms.
 Anaphora is sometimes also used as a synonym to endophora.
 "She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
 
-###### binding
+####### binding
 
-In linguistics, binding is the phenomenon in which endophoric elements such as pronouns are grammatically associated with their *ecedents.
+Binding is the is the associaton of endophoric elements with their *ecedents.
 
-## semantic relationships between multiple parts
-
-### restriction
+#### restriction
 
 In semantics, a modifier is said to be restrictive if it restricts the reference of its head.
 Relative clauses generally are restrictive.
@@ -2954,3 +2946,7 @@ VCHAR|an ascii visible char
 # -> graphemics
 
 The shape that a specific character/grapheme takes in a specific typeface/writing style/writing system is known as a {{c1::letterform}}.
+
+# -> abstract
+
+In semantics, mathematical logic and related disciplines, the principle of compositionality is the principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
