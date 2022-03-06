@@ -11842,11 +11842,17 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 ### phonology
 
-#### segmental
+#### suprasegmental
 
-##### morphophonology
+##### suprasegmentals
 
-###### sandhi
+###### stress/tone
+
+The pitch of a word rises until it reaches a downstep and then drops abruptly
+
+#### morphophonology
+
+##### sandhi
 
 Japanese exhibits two forms of sandhi, 連濁 and 連声.
 連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n‹vowel›/

@@ -1419,15 +1419,147 @@ A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
 
 ## phonology
 
-Phonology is a branch of linguistics that studies the sound systems of languoids. = how lects organize their sounds.
+Phonology is the branch of linguistics studying sound to convey meaning.
+Phonology is roughly divided into segmental and suprasegmental phonology.
+Phonology used to be only segmental phonology.
+Segmental phonology is the branch of phonology that studies phonemes/phoneme systems.
+suprasegmental phonology/prosody is the branch of phonology concerned with suprasegmentals/prosodic features.
 
-### segmental phonology
+### suprasegmental phonology
 
-Segmental phonology is concerned with the analysis of speech into phonemes.
+suprasegmental = prosodic feature
+A suprasegmental is a property of speech longer than a phoneme that is varied for some sort of effect.
+Suprasegmental phonology is also called prosody.
+prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
 
-#### the syllable
+####  types of prosodic features
 
-##### structure
+The main prosodic features are intonation, tone, stress, tempo.
+
+##### stress
+
+accent = stress
+Stress is the relative emphasis given to a certain segment in a series of segments.
+
+###### what is stressed
+
+Word stress is stress placed on syllables within words.
+Sentence stress is stress placed on words within sentences.
+Word stress may be fixed stress or lexical stress.
+Fixed stress is when word stress always falls on the nth syllable (e.g. the n-1th last in polish)
+Lexical stress is word stress where which syllable will be stressed depends on the word, and is lexically encoded.
+
+###### how is stress conveyed
+
+Stress may be conveyed by loudness, length, tone or vowel articulation, or any combination of these.
+Pitch accent is stress conveyed through pitch alone.
+Quantitative accent is stress conveyed through length alone.
+Dynamic accent is stress conveyed through a combination of properties.
+
+###### levels of stress
+
+Sometimes the levels of stress primary and secondary stress are distinguished.
+the IPA symbols for stress always goes before the stressed element.
+
+
+table:level of stress|IPA
+primary stress|ˈ (sɐˈbiɐ)
+secondary stress|ˌ (ˈfotəˌɡɹæf)
+
+##### tone & intonation
+
+Tone is the use of pitch to distinguish lexemes or inflectional variants.
+Intonation is the use of pitch to distinguish/indicate pragmemes, sentence structure, etc.
+
+###### tone
+
+####### down/upstep
+
+A down/upstep is a shift of tone up/downwards after a syllable boundary.
+down/upstep are indicated in the IPA either by a exlamation point/turned exclamation point or by a left superscript townwards/upwards arrow.
+
+
+table:phenomenon|IPA symbol
+⟮Upstep⟯|⟮ꜛ◌ or ꜞ◌⟯
+⟮Downstep⟯|⟮ꜜ◌ or ꜝ◌⟯
+
+###### intonation
+
+table:phenomenon|IPA symbol
+⟮rise⟯|⟮↗︎◌⟯
+⟮fall)⟯|⟮↘︎◌⟯
+
+
+Why does it make sense to have a downstep at the end of a word?  ⟮Because any attached morphemes will inherit the downstep⟯
+What does the downstep arrow apply to?  ⟮Everything after it⟯
+
+##### speech tempo
+
+Speech tempo is the measure of segments per unit of time.
+
+##### pause
+
+In the IPA, | and ‖ both mark prosodic breaks.
+In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
+In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
+In poetry, often the slash is used to mark line breaks.
+
+#### non-featural prosody
+
+##### rhythm
+
+Rhythm is not typically varied as a prosodic feature
+
+##### isochrony
+
+Isochrony is question of which linguistics units occupy equal time.
+There are three broad ways languages can be isochronically.
+The three isochronic types are: syllable-timed, mora-timed, and stress-timed.
+The three isochronic types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
+Isochrony is one of the main ways language's prosody is categorized in linguistic typology.
+
+###### isochronic types
+
+table:unit which occupies equal time|name
+syllable|syllable-timed
+mora|mora-timed
+interval between two stressed syllables|stress-timed
+
+##### feet
+
+The basic rythmic unit of indo-european poetry is a foot.
+
+###### number of feet
+
+Meter|Number of feet
+⟮Trimeter⟯|⟮3⟯
+⟮Tetrameter⟯|⟮4⟯
+⟮Pentameter⟯|⟮5⟯
+
+###### type of feet
+
+Foot|Pattern|Mnemonic
+⟮Iamb⟯|⟮daDA⟯
+⟮Trochee⟯|⟮DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
+⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
+⟮Anapest⟯|⟮dadaDA⟯|⟮c:∞;Jeder dritte stirbt durch die pest.¶
+ Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte". Ana⁑pest⁑¶
+ Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑⟯
+⟮Dactyl⟯|⟮DAdada⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us ¶
+⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑⟯
+⟮Choriamb⟯|⟮DAdadaDA⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
+⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
+⟮Molossus⟯|⟮DA DA DA⟯|
+⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
+「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
+
+##### chunking
+
+#### units
+
+##### the syllable
+
+###### structure
 
 
 table:headerrows=0;style=min-width: 15em;!span=3;⟮σ/syllable⟯
@@ -1459,109 +1591,9 @@ Using spaces in the IPA implies a syllable break, if you want to prevent this, u
 
 The part of the syllable called the rhyme is called that because it's the part that's often used for rhymes.
 
-#### morae
+##### morae
 
 A mora is a unit of equal timing.
-
-### suprasegmental phonology
-
-suprasegmentals/prosodic features are properties of syllables and larger units of speech.
-suprasegmental = prosodic feature
-suprasegmental phonology/prosody is the branch of phonology concerned with suprasegmentals/prosodic features.
-Suprasegmental phonology is also called prosody.
-prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
-
-
-
-####  types of prosodic features
-
-The main prosodic features are intonation, tone, stress, tempo.
-Many phenomena of prosody have to do with syllables.
-
-##### stress
-
-In linguistics, and particularly phonology, stress or accent is the relative emphasis or prominence given to a certain syllable in a word or to a certain word in a phrase or sentence.
-The IPA distinguishes between primary and secondary stress, the symbol follows polish notation in both casees.
-primary stress|ˈ (ˈa; sɐˈbiɐ)
-secondary stress|ˌ (ˌa; [ˈfotəˌɡɹæf])
-
-##### tone & intonation
-
-Tone is the use of pitch in language to distinguish lexical or grammatical meaning.
-In linguistics, intonation is variation in spoken pitch when used, not for distinguishing words as sememes (a concept known as tone), but, rather, for a range of other functions.
-
-
-phenomenon|symbol
-⟮extra high/top tone (not intonation) (suprasegmental)⟯|⟮［ŋ̋ e̋］ or［e˥］⟯
-⟮high tone (not intonation) (suprasegmental)⟯|⟮[ŋ́ é] or [e˦]⟯
-⟮mid tone (not intonation) (suprasegmental)⟯|⟮［ŋ̄ ē］ or ［e˧］⟯
-⟮low tone (not intonation) (suprasegmental)⟯|⟮[ŋ̀ è] or [e˨]⟯
-⟮extra low/bottom tone (not intonation) (suprasegmental)⟯|⟮[ŋ̏ ȅ] or [e˩]⟯
-⟮global rise (intonation, not tone) (suprasegmental)⟯|⟮↗︎◌⟯
-⟮global fall (intonation, not tone) (suprasegmental)⟯|⟮↘︎◌⟯
-⟮Generic rising tone (not intonation) (suprasegmental)⟯|⟮ŋ̌ ě⟯
-⟮Generic falling tone (not intonation) (suprasegmental)⟯|⟮ŋ̂ ê⟯
-⟮Upstep (not intonation) (suprasegmental)⟯|⟮ꜛ◌ or ꜞ◌⟯
-⟮Downstep (not intonation) (suprasegmental)⟯|⟮ꜜ◌ or ꜝ◌⟯
-
-Why does it make sense to have a downstep at the end of a word?  ⟮Because any attached morphemes will inherit the downstep⟯
-What does the downstep arrow apply to?  ⟮Everything after it⟯
-
-##### speech tempo
-
-##### rythym
-
-###### isochrony
-
-Isochrony is question of which linguistics units occupy equal time.
-There are three broad ways languages can be isochronically.
-The three isochronic types are: syllable-timed, mora-timed, and stress-timed.
-The three isochronic types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
-Isochrony is one of the main ways language's prosody is categorized in linguistic typology.
-
-####### isochronic types
-
-table:unit which occupies equal time|name
-syllable|syllable-timed
-mora|mora-timed
-interval between two stressed syllables|stress-timed
-
-###### feet
-
-The basic rythmic unit of indo-european poetry is a foot.
-
-####### number of feet
-
-Meter|Number of feet
-⟮Trimeter⟯|⟮3⟯
-⟮Tetrameter⟯|⟮4⟯
-⟮Pentameter⟯|⟮5⟯
-
-####### type of feet
-
-Foot|Pattern|Mnemonic
-⟮Iamb⟯|⟮daDA⟯
-⟮Trochee⟯|⟮DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
-⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
-⟮Anapest⟯|⟮dadaDA⟯|⟮c:∞;Jeder dritte stirbt durch die pest.¶
- Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte". Ana⁑pest⁑¶
- Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑⟯
-⟮Dactyl⟯|⟮DAdada⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us ¶
-⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑⟯
-⟮Choriamb⟯|⟮DAdadaDA⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
-⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
-⟮Molossus⟯|⟮DA DA DA⟯|
-⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
-「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
-
-##### pause
-
-In the IPA, | and ‖ both mark prosodic breaks.
-In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
-In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
-In poetry, often the slash is used to mark line breaks.
-
-##### chunking
 
 ### morphophonolgy
 
