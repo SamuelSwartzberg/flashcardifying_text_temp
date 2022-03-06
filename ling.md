@@ -1419,64 +1419,64 @@ A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
 
 ## phonology
 
-Phonology is the branch of linguistics studying sound to convey meaning.
-Phonology is roughly divided into segmental and suprasegmental phonology.
-Phonology used to be only segmental phonology.
-Segmental phonology is the branch of phonology that studies phonemes/phoneme systems.
-suprasegmental phonology/prosody is the branch of phonology (mostly) concerned with suprasegmentals/prosodic features.
+»⟮Phonology⟯« is the branch of linguistics studying ⟮sound⟯ ⟮conveying meaning⟯.
+⟮＿Phonology＿⟯ is roughly divided into ⟮＿segmental＿⟯ and ⟮c_;＿suprasegmental＿⟯ ⟮c_-;＿phonology＿⟯.
+⟮＿Phonology＿⟯ used to be ⟮only⟯ ⟮＿segmental phonology＿⟯.
+»⟮Segmental phonology⟯« is the branch of ＿phonology＿ that studies ⟮phonemes/phoneme systems⟯.
+»⟮suprasegmental phonology⟯« is the branch of ＿phonology＿ that (mostly) studies ⟮＿suprasegmentals/prosodic features＿⟯.
 
 ### suprasegmental phonology
 
-suprasegmental = prosodic feature
-A suprasegmental is a property of speech longer than a phoneme that is varied for some sort of effect.
-Suprasegmental phonology is also called prosody.
-prosody is also sometimes used in a more narrow sense as a synonym to metre in poetry.
+⟮suprasegmental⟯ = ⟮prosodic feature⟯
+»⟮A suprasegmental⟯« is ⟮a property of speech⟯ ⟮longer than a phoneme⟯ that is ⟮varied for some sort of effect⟯.
+⟮Suprasegmental phonology⟯ is also called ⟮prosody⟯.
+⟮prosody⟯ is also sometimes used in a⟮ more narrow⟯ sense as a synonym to ⟮metre in poetry⟯.
 
 ####  types of prosodic features
 
-The main prosodic features are intonation, tone, stress, tempo.
+The main ⟮＿prosodic features＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
 
 ##### stress
 
-accent = stress
-Stress is the relative emphasis given to a certain segment in a series of segments.
+⟮accent⟯ = ⟮stress⟯
+»⟮Stress⟯« is ⟮the relative emphasis⟯ given to ⟮a certain ＿segment＿⟯ in ⟮a series of ＿segments＿⟯.
 
 ###### what is stressed
 
-Word stress is stress placed on syllables within words.
-Sentence stress is stress placed on words within sentences.
-Word stress may be fixed stress or lexical stress.
-Fixed stress is when word stress always falls on the nth syllable (e.g. the n-1th last in polish)
-Lexical stress is word stress where which syllable will be stressed depends on the word, and is lexically encoded.
+»⟮Word stress⟯« is ⟮＿stress＿⟯ placed on ⟮syllables⟯ within ⟮c_;words⟯.
+»⟮Sentence stress⟯« is ⟮＿stress＿⟯ placed on ⟮words⟯ within ⟮c_;sentences⟯.
+⟮＿Word stress＿⟯ may be ⟮＿fixed stress＿⟯ or ⟮＿lexical stress＿⟯.
+»⟮Fixed stress⟯« is ⟮＿word stress＿⟯ where ⟮the stress always falls on the nth syllable (e.g. the n-1th last in polish)⟯
+»⟮Lexical stress⟯« is ⟮＿word stress＿⟯ where ⟮which syllable will be stressed⟯ depends ⟮on the word⟯, and is ⟮lexically encoded⟯.
 
 ###### how is stress conveyed
 
-Stress may be conveyed by loudness, length, tone or vowel articulation, or any combination of these.
-Pitch accent is stress conveyed through pitch alone.
-Quantitative accent is stress conveyed through length alone.
-Dynamic accent is stress conveyed through a combination of properties.
+⟮＿Stress＿⟯ may be conveyed by ⟮loudness⟯, ⟮length⟯, ⟮tone⟯, ⟮vowel articulation⟯, or ⟮any combination of these⟯.
+»⟮Pitch accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through pitch alone⟯.
+»⟮Quantitative accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through length alone⟯.
+»⟮Dynamic accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through a combination of properties⟯.
 
 ###### levels of stress
 
-Sometimes the levels of stress primary and secondary stress are distinguished.
-the IPA symbols for stress always goes before the stressed element.
+Sometimes the »⟮levels of stress⟯« ⟮primary⟯ and ⟮c_;secondary⟯ ⟮c_;stress⟯ are distinguished.
+the IPA symbols for stress always goes ⟮before⟯ ⟮the stressed element⟯.
 
 
 table:level of stress|IPA
-primary stress|ˈ (sɐˈbiɐ)
-secondary stress|ˌ (ˈfotəˌɡɹæf)
+⟮primary stress⟯|⟮ˈ (sɐˈbiɐ)⟯
+⟮secondary stress⟯|⟮ˌ (ˈfotəˌɡɹæf)⟯
 
 ##### tone & intonation
 
-Tone is the use of pitch to distinguish lexemes or inflectional variants.
-Intonation is the use of pitch to distinguish/indicate pragmemes, sentence structure, etc.
+»⟮Tone⟯« is the use of ⟮pitch⟯ to ⟮distinguish⟯ ⟮＿lexemes＿⟯ or ⟮c_;＿inflectional variants＿⟯.
+»⟮Intonation⟯« is the use of ⟮pitch⟯ to ⟮distinguish/indicate⟯ ⟮pragmemes, sentence structure, etc.⟯
 
 ###### tone
 
 ####### down/upstep
 
-A down/upstep is a shift of tone up/downwards after a syllable boundary.
-down/upstep are indicated in the IPA either by a exlamation point/turned exclamation point or by a left superscript townwards/upwards arrow.
+»⟮A down/upstep⟯« is a ⟮shift of⟯ ⟮＿tone＿⟯ ⟮c-;up/downwards⟯ ⟮after ＿a syllable juncture＿⟯.
+⟮＿down/upstep＿⟯ are indicated in the IPA either by ⟮a exlamation point/turned exclamation point⟯ or by a ⟮left⟯ ⟮c_;superscript⟯ ⟮c_;downwards/upwards⟯ ⟮c_;arrow⟯.
 
 
 table:phenomenon|IPA symbol
@@ -1489,27 +1489,23 @@ table:phenomenon|IPA symbol
 ⟮rise⟯|⟮↗︎◌⟯
 ⟮fall)⟯|⟮↘︎◌⟯
 
-
-Why does it make sense to have a downstep at the end of a word?  ⟮Because any attached morphemes will inherit the downstep⟯
-What does the downstep arrow apply to?  ⟮Everything after it⟯
-
 ##### speech tempo
 
-Speech tempo is the measure of segments per unit of time.
+»⟮Speech tempo⟯« is the measure of ⟮＿segments＿⟯ ⟮per unit of time⟯.
 
 #### prosody that isn't prosidc features
 
 ##### rhythm
 
-Rhythm is not typically varied as a prosodic feature, rather it is mainly varied between languages and thus is an important category in linguistic typology.
-Rhythm is mainly determined by isochrony.
+⟮Rhythm⟯ is not typically ⟮varied as ＿a prosodic feature＿⟯, rather it is mainly ⟮varied between languages⟯ and thus is an important category in ⟮＿linguistic typology＿⟯.
+⟮Rhythm⟯ is mainly determined by ⟮＿isochrony＿⟯.
 
 ##### isochrony
 
-Isochrony is the property of which linguistics units occupy equal time.
+»⟮Isochrony⟯« is the property of ⟮which ＿segments＿⟯ ⟮occupy equal time⟯.
 There are three broad ways languages can be isochronically.
-The three isochronic types are: syllable-timed, mora-timed, and stress-timed.
-The three isochronic types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
+The three ＿isochronic＿ types are: ⟮＿syllable-timed＿⟯, ⟮＿mora-timed＿⟯, and ⟮＿stress-timed＿⟯.
+The three ＿isochronic＿ types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
 
 ###### isochronic types
 
@@ -1557,51 +1553,77 @@ An open juncture is a juncture at a word boundary.
 An internal open juncture is an open juncture that is not marked by a pause (and thus does not occur at the beginning/end of an utterance)
 An external open juncture is an open juncture that is marked by a pause (and thus occurs at the beginning/end of an utterance)
 A closed juncure is a juncture that is not at a word boundary, i.e. word-internal.
-chunking
 
-###### pause
+##### chunking
 
-Pauses mark the beginning and end of utterances (in one definition.)
-Junctures may be realized by pauses, however this is more rare than one would naively assumed
-filled pauses
-In the IPA, | and ‖ both mark prosodic breaks.
-In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
-In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
-In poetry, often the slash is used to mark line breaks.
+A chunk is a unit of language marked prosodically. 
+Chunks typically indicate a syntactic grouping.
+
+##### pause
+
+»⟮A pause⟯« is ⟮a break⟯ ⟮in speaking⟯.
+While people assume that ⟮any space⟯ marks ⟮＿a pause＿⟯, ⟮in fact most don't⟯.
+»⟮An utterance⟯« (in one definition) is ⟮a unit of spoken speech⟯ ⟮bounded by ＿pauses＿⟯.
+⟮＿A pause＿⟯ may be ⟮＿filled＿⟯ or ⟮c_;＿unfilled＿⟯.
+»⟮A filled pause⟯« is ⟮＿a pause＿⟯ which contains ⟮some meaning-light speech⟯.
+»⟮A unfilled pause⟯« is ⟮＿a pause＿⟯ which contains ⟮slience⟯.
+
+###### IPA 
+
+In the IPA, ⟮| and ‖⟯ both mark ⟮＿pauses＿⟯.
+In the IPA, ⟮the exact length⟯ of ⟮| and ‖⟯ ⟮depends on context⟯.
+In the IPA, ⟮|⟯ is used to mark a ⟮longer⟯ pause than ⟮c_-;‖⟯.
+
+###### Other notations
+
+⟮The vertical bar |⟯ is used to mark ⟮feet⟯ in ⟮poetry⟯.
+In ⟮poetry⟯, often ⟮the slash⟯ is used to mark ⟮line breaks⟯.
 
 ##### the syllable
 
 ###### structure
 
 
-table:headerrows=0;style=min-width: 15em;!span=3;⟮σ/syllable⟯
-!⟮c+;s4:5;Onset⟯|span=2;⟮c+;s4:5;Rhyme⟯
-!|⟮c+;s2:3;Nucleus⟯|⟮c+;s2:3;Coda⟯
-
 The syllable is typically represented by σ.
-Syllables must at least have a nucleus.
-The nuleus of a sullable is almost always a vowel, except in the case of syllabic consonants.
+The syllable consists of onset, nucleus and coda.
+The onset and coda go before and after the nucleus.
+The nucleus is mandatory, the onset and coda are optional.
+The nucleus is sonorous.
+The onset and coda are less sonorous (than the nucleus).
+Typically, the nucleus is a vowel.
+Typically, the onset and coda are consonants.
+A semivowel is a vowel acting as a coda or onset instead of as a nucleus.
+A syllabic consonant is a consonant acting as a nucleus.
+Syllabic consonants have the distinctive feature [+ syllabic].
+As the nucleus is sonorant, only consonants with [+ sonorant] may be [+ syllabic].
+
+
 When writing syllables, vowels are typically indicated V and consonants C.
-A semivowel is a vowel that forms a syllable boundary and thus not the nucleus.
-A semivowel is indicated by the IPA as ［◌̯］, sadly.
-A semivowel may be called a glide since they often act similar to a dipthong, but this term is ambiguous between any transitional sound.
-A consonant that forms the nucleus of a syllable is known as a syllabic consonant.
-Only consonants are explicitly marked as syllabic with the IPA symbol when necessary, as it is presumed that vowels are also syllable nuclei.
-syllabic consonants are marked by ［◌̩］ or ［◌̍］}} in the IPA
 An open syllable is a syllable without a coda. (CV, V, ...) 
 A closed syllable is a syllable with a coda. (CVC, VC, ...) 
-In japanese most syllables are open syllables, either CV or V.
 
+
+The rhyme is the combination of nucleus and (optional) coda, since it's often used for that.
+
+###### !IPA
+
+A semivowel is indicated as ［◌̯］.
+^Since it's sad.
+A syllabic consonant is indicated ［◌̩］ or ［◌̍］
+
+###### words and syllables
+
+table:name|consists of...
 monosyllable|Word that consists of a single syllable
 dibisyllable|Word that consists of two syllables
 trisyllable|Word that consists of three syllables
 polysyllable|Word that consists of either more than one or more than three syllables
 
-Syllable breaks are explicitly marked in teh IPA by `.` or when that would be too confusing by $
-The stress and secondary stress marks also imply a syllable break.
-Using spaces in the IPA implies a syllable break, if you want to prevent this, use the ‿ symbol.
+###### syllable juncture
 
-The part of the syllable called the rhyme is called that because it's the part that's often used for rhymes.
+In the IPA, spaces as well as the stress/secondary stress symbols imply a syllable juncture.
+In the IPA, ［.］or ［$］expressedly indicate syllable juncture.
+In the IPA, ［‿］is used to imply a space without a syllable juncture.
 
 ##### morae
 
@@ -1618,58 +1640,70 @@ A mora is a unit of equal timing.
 
 ### changes in sounds
 
-Changes in sounds may be for sound changes (diachronic changes in a sound system), alternation between allomorphs by a speaker, or apophony.
-Apophony is sound change within a word to indicate a grammatical feature ≈ sound change within a word due to inflection.
+Changes in sound (my term) is the change of the sounds of a lexical unit for any reason.
+Reasons for changes in sound may be sound change (diachronic change in a sound system), alternation between allomorphs/allolexes, or apophony.
+Apophony is sound change of a lexeme to indicate inflection.
 Types of changes in sounds (whether for sound change, alternation, or apophony) may amongst others be elision, epenthesis, metasthesis, lenition/fortition, transphonologization or assimilation/dissimilation.
 
-#### Elision
 
-In linguistics, an elision or deletion is broadly defined as the omission of one or more sounds (such as a vowel, a consonant, or a whole syllable) in a word or phrase. However, it is also used to refer more narrowly to cases where two words are run together by the omission of a final sound.
-Syncope, apocope and apheresis are most commonly of unstressed vowels.
 
-Syncope is a form of elision which is the loss of a sound from the interior of a word
-Apocope is a form of elision which is the loss of a sound from the end of a word
-Apheresis is a form of elision which is the loss of a sound from the beginning of a word
-Haplology is a form of elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
+#### Elision/Epenthesis
+
+Elision is a change in sound that is the removal/loss of a sound.
+Epenthesis is a change in sound that is the addition of a sound.
+
+##### both
+
+Synaeresis is elision which is the combination of two adjacent vowels into a single syllable.
+Diaresis is the occurrence or epenthesis which is the occurence of two sequential vowels which are part of different syllables.
+
+##### elision
+
+Apheresis is elision from the beginning of a word
+Syncope is elision from the interior of a word
+Apocope is elision from the end of a word
+Haplology is elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
+apheresis, syncope and apocope are most commonly of unstressed vowels.
+Elision may sometimes be more narrowly apocope that results in two words being run together.
 
 #### Epenthesis
 
-Epenthesis is the addition of a sound to the word.
 prothesis is epenthesis at the beginning of the word.
 paragoge is epenthesis at the end of the word.
 
 #### Metathesis
 
-Metathesis is the transposition/switcharoo of sounds or syllables in a word or sentence:
+Metathesis is a change in sound which is the transposition/switcharoo of sounds or syllables in a word or sentence.
+hyperthesis = long-distance metathesis.
+hyperthesis is metathesis of non-adjacent sounds.
 
+```
 fo☞li☜age → **fo☞il☜age
 ane☞mone☜ → ane☞nome☜
-Methathesis of non-adjcancent sounds is sometimes known as hyperthesis/long-distance metathesis
 pa☞r☜abo☞l☜a (latin) → pa☞l☜ab☞r☜a
+```
 
 #### Lenition/Fortition
 
-Lenition moves sounds up the sonority hierarchy (more sonorous)
-Lenition moves sounds down the sonority hierarchy (less sonorous)
+Lenition is a change in sound which moves sounds up the sonority hierarchy (more sonorous)
+Fortition is a change in sound which moves sounds down the sonority hierarchy (less sonorous)
 
 #### Transphonologization
 
-Transphonologization is the change of a phonemic contrast so that the contrast is preserved, but the distinctive feature it is based on changes.
+Transphonologization  is a change in sound which is the change of a phonemic contrast so that the contrast is preserved, but the distinctive feature it is based on changes.
 
 For example, a language contrasting two words */sat/ vs. */san/ may evolve historically so that final consonants are dropped, yet the modern language preserves the contrast through the nature of the vowel, as in a pair /sa/ vs. /sã/. Such a situation would be described by saying that a former contrast between oral and nasal consonants has been transphonologized into a contrast between oral vs. nasal vowels. 
 
 #### Assimilation/Dissimilation
 
-Assimilation is a sound change in which some sounds change to become more similar to other nearby sounds. 
-Dissimilation is a sound change in which some sounds change to become less similar to other nearby sounds. 
+Assimilation is a change in sound in which some sounds become more similar to other nearby sounds. 
+Dissimilation is a change in sound in which some sounds become less similar to other nearby sounds. 
 Example of assimilation: English "handbag" (canonically /ˈhændbæɡ/) is often pronounced /ˈhæmbæɡ/ in rapid speech 
-
 
 ### phonotactics
 
 Phonotactics is a branch of phonology that deals with phonotactic constraints.
 A phonotactic constraint is a rule for the (im)permissible combinations of phonemes.
-
 
 ## phonetics
 

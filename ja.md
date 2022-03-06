@@ -11850,6 +11850,18 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 The pitch of a word rises until it reaches a downstep and then drops abruptly
 
+##### units 
+
+###### syllable
+
+In japanese most syllables are open syllables, either CV or V.
+
+#### changes in sound
+
+##### elision/epenthesis
+
+For example, the Japanese prefix ma- (真〜（ま〜）, pure …, complete …) transforms regularly to ma'- (真っ〜（まっ〜）, (gemination of following consonant)) when followed by a consonant, as in masshiro (真っ白（まっしろ）, pure white)
+
 #### morphophonology
 
 ##### sandhi
