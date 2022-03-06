@@ -1423,7 +1423,7 @@ Phonology is the branch of linguistics studying sound to convey meaning.
 Phonology is roughly divided into segmental and suprasegmental phonology.
 Phonology used to be only segmental phonology.
 Segmental phonology is the branch of phonology that studies phonemes/phoneme systems.
-suprasegmental phonology/prosody is the branch of phonology concerned with suprasegmentals/prosodic features.
+suprasegmental phonology/prosody is the branch of phonology (mostly) concerned with suprasegmentals/prosodic features.
 
 ### suprasegmental phonology
 
@@ -1497,48 +1497,41 @@ What does the downstep arrow apply to?  ⟮Everything after it⟯
 
 Speech tempo is the measure of segments per unit of time.
 
-##### pause
-
-In the IPA, | and ‖ both mark prosodic breaks.
-In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
-In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
-In poetry, often the slash is used to mark line breaks.
-
-#### non-featural prosody
+#### prosody that isn't prosidc features
 
 ##### rhythm
 
-Rhythm is not typically varied as a prosodic feature
+Rhythm is not typically varied as a prosodic feature, rather it is mainly varied between languages and thus is an important category in linguistic typology.
+Rhythm is mainly determined by isochrony.
 
 ##### isochrony
 
-Isochrony is question of which linguistics units occupy equal time.
+Isochrony is the property of which linguistics units occupy equal time.
 There are three broad ways languages can be isochronically.
 The three isochronic types are: syllable-timed, mora-timed, and stress-timed.
 The three isochronic types don't seem to exist as extremes, rather a language makes use of all three types to greater or lesser degrees depending on the language.
-Isochrony is one of the main ways language's prosody is categorized in linguistic typology.
 
 ###### isochronic types
 
-table:unit which occupies equal time|name
-syllable|syllable-timed
-mora|mora-timed
-interval between two stressed syllables|stress-timed
+table:name|unit which occupies equal time
+»⟮syllable-timed⟯«|syllable
+»⟮mora-timed⟯«|mora
+»⟮stress-timed⟯«|interval between two stressed syllables
 
-##### feet
+##### feet (unlear relation to the linguistic category rhythm)
 
-The basic rythmic unit of indo-european poetry is a foot.
+A foot is a rythmic unit defined by where the stress lies.
 
 ###### number of feet
 
-Meter|Number of feet
+table:Meter|Number of feet
 ⟮Trimeter⟯|⟮3⟯
 ⟮Tetrameter⟯|⟮4⟯
 ⟮Pentameter⟯|⟮5⟯
 
 ###### type of feet
 
-Foot|Pattern|Mnemonic
+table:Foot|Pattern|Mnemonic
 ⟮Iamb⟯|⟮daDA⟯
 ⟮Trochee⟯|⟮DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
 ⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
@@ -1553,9 +1546,28 @@ Foot|Pattern|Mnemonic
 ⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
 「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
 
-##### chunking
-
 #### units
+
+##### junctures 
+
+A juncture is any number of phonetic differences that can mark some kind of separation of segments on a higher level.
+Junctures may be realized by pauses, by phonotactic constraints, suprasegmentals, or morphophonological phenomena.
+Junctures may be separting e.g. syllables, words, clauses, sentences.
+An open juncture is a juncture at a word boundary.
+An internal open juncture is an open juncture that is not marked by a pause (and thus does not occur at the beginning/end of an utterance)
+An external open juncture is an open juncture that is marked by a pause (and thus occurs at the beginning/end of an utterance)
+A closed juncure is a juncture that is not at a word boundary, i.e. word-internal.
+chunking
+
+###### pause
+
+Pauses mark the beginning and end of utterances (in one definition.)
+Junctures may be realized by pauses, however this is more rare than one would naively assumed
+filled pauses
+In the IPA, | and ‖ both mark prosodic breaks.
+In the IPA, | is used to mark a longer break than ‖, but how long each of them is depends on the context.
+In a similar sense to how the IPA uses it, the vertical bar | is used to mark feet in poetry.
+In poetry, often the slash is used to mark line breaks.
 
 ##### the syllable
 
@@ -1655,7 +1667,8 @@ Example of assimilation: English "handbag" (canonically /ˈhændbæɡ/) is often
 
 ### phonotactics
 
-Phonotactics is a branch of phonology that deals with the permissible combinations of phonemes.
+Phonotactics is a branch of phonology that deals with phonotactic constraints.
+A phonotactic constraint is a rule for the (im)permissible combinations of phonemes.
 
 
 ## phonetics
