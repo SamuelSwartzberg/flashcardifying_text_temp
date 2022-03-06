@@ -1419,43 +1419,11 @@ A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
 
 ## phonology
 
-Phonology is a branch of linguistics that studies the sound systems of lects = how lects organize their sounds.
-
-### morphophonolgy
-
-Morphophonology studies the interaction between morphology and phonology/phonetics.
-
-#### sandhi
-
-Sandhi is a cover term for sound changes that happen at morpheme/word boundaries
-Sandhi is a part of morphophonology.
-Japanese exhibits two forms of sandhi, 連濁 and 連声.
-連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n‹vowel›/
-てんおう → てんのう is an example of 連声
+Phonology is a branch of linguistics that studies the sound systems of languoids. = how lects organize their sounds.
 
 ### segmental phonology
 
 Segmental phonology is concerned with the analysis of speech into phonemes.
-
-#### phonemic contrast
-
-two phones (/etic units)...
-appear in the same phonetic (/emic) environment|don't appear in the same phonetic (/emic) environment
-free variation|contrastive distribution|complementary distribution
-changing between two phones (/etic units) doesn't change the meaning|changes the meaning|is impossible
-allophones (/alloetic units)|not allophones (/not alloetic units)|possibly allophones (/possibly alloetic units)
-
-Two phones (/etic units) in contrastive distriibution have phonemic (emic) contrast = the difference between phones (/etic units) markes the phones (/etic units) as belonging to different phonemes (/emic units).
-Two phones  (/etic units) in contrastive distribution = with phonemic  (/whateveremic) contrast are said to be contrastive or phonemic (/whateveremic).
-
-A minimal pair is two or more words that only differ in only one distinctive feature, yet are not homophones  (/homoetic units).
-In a minimal pair, the set of phones (/etic units) that has the difference in one distinctive feature is in contrastive distribution (thus marking them as belonging to different phonemes (/emic units))
-
-Two phones wihtout phonemic  (/whateveremic) contrast = never appearing in contrastive distribution = not having a minimal pair may still be part of different phonemes (/emic units) if they are very dissimilar phonetically (/whateveremicaly).
-
-If two phones (/etic units) which normally are contrastive/phonemic occur in a phonemic (/whateveremic) environment where they no longer are contrastive/phonemic(/whateveremic), the phonemic (/whateveremic) contrast is said to have been neutralized.
-
-Free variation is free in the sense that it does not mark a difference in semantics/grammar, but not free in the sense that variants in free variation may have social significance, making them variants in a sociolinguistic variable.
 
 #### the syllable
 
@@ -1595,14 +1563,22 @@ In poetry, often the slash is used to mark line breaks.
 
 ##### chunking
 
+### morphophonolgy
 
-#### changes in sounds
+»⟮Morphophonology⟯« studies ⟮the interaction between⟯ ⟮＿morphology＿⟯ and ⟮c_;＿phonology/phonetics＿⟯.
+
+#### sandhi
+
+»⟮Sandhi⟯« is ⟮＿a cover term＿⟯ for ⟮＿sound changes＿⟯ that happen ⟮at morpheme/word boundaries⟯.
+⟮＿Sandhi＿⟯ is a phenomenon of ⟮＿morphophonology＿⟯.
+
+### changes in sounds
 
 Changes in sounds may be for sound changes (diachronic changes in a sound system), alternation between allomorphs by a speaker, or apophony.
 Apophony is sound change within a word to indicate a grammatical feature ≈ sound change within a word due to inflection.
 Types of changes in sounds (whether for sound change, alternation, or apophony) may amongst others be elision, epenthesis, metasthesis, lenition/fortition, transphonologization or assimilation/dissimilation.
 
-##### Elision
+#### Elision
 
 In linguistics, an elision or deletion is broadly defined as the omission of one or more sounds (such as a vowel, a consonant, or a whole syllable) in a word or phrase. However, it is also used to refer more narrowly to cases where two words are run together by the omission of a final sound.
 Syncope, apocope and apheresis are most commonly of unstressed vowels.
@@ -1612,13 +1588,13 @@ Apocope is a form of elision which is the loss of a sound from the end of a word
 Apheresis is a form of elision which is the loss of a sound from the beginning of a word
 Haplology is a form of elision where an entire syllable is lost, where that syllable was similar to an adjacent syllable
 
-##### Epenthesis
+#### Epenthesis
 
 Epenthesis is the addition of a sound to the word.
 prothesis is epenthesis at the beginning of the word.
 paragoge is epenthesis at the end of the word.
 
-##### Metathesis
+#### Metathesis
 
 Metathesis is the transposition/switcharoo of sounds or syllables in a word or sentence:
 
@@ -1627,25 +1603,25 @@ ane☞mone☜ → ane☞nome☜
 Methathesis of non-adjcancent sounds is sometimes known as hyperthesis/long-distance metathesis
 pa☞r☜abo☞l☜a (latin) → pa☞l☜ab☞r☜a
 
-##### Lenition/Fortition
+#### Lenition/Fortition
 
 Lenition moves sounds up the sonority hierarchy (more sonorous)
 Lenition moves sounds down the sonority hierarchy (less sonorous)
 
-##### Transphonologization
+#### Transphonologization
 
 Transphonologization is the change of a phonemic contrast so that the contrast is preserved, but the distinctive feature it is based on changes.
 
 For example, a language contrasting two words */sat/ vs. */san/ may evolve historically so that final consonants are dropped, yet the modern language preserves the contrast through the nature of the vowel, as in a pair /sa/ vs. /sã/. Such a situation would be described by saying that a former contrast between oral and nasal consonants has been transphonologized into a contrast between oral vs. nasal vowels. 
 
-##### Assimilation/Dissimilation
+#### Assimilation/Dissimilation
 
 Assimilation is a sound change in which some sounds change to become more similar to other nearby sounds. 
 Dissimilation is a sound change in which some sounds change to become less similar to other nearby sounds. 
 Example of assimilation: English "handbag" (canonically /ˈhændbæɡ/) is often pronounced /ˈhæmbæɡ/ in rapid speech 
 
 
-#### phonotactics
+### phonotactics
 
 Phonotactics is a branch of phonology that deals with the permissible combinations of phonemes.
 

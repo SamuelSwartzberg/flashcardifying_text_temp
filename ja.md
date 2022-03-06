@@ -9918,7 +9918,7 @@ In japanese, adjectives can be converted to adverbs via morphological derivation
 i-adjectives|-い+く
 na-adjectives|+に
 
-## writing systems
+## writing systems (unsorted, otherwise should be under graphemics)
 
 万葉仮名 origin|片仮名 today
 ⟮久⟯|⟮ク⟯
@@ -11841,6 +11841,16 @@ In japanese, using a question mark is optional when ending a sentence with the i
 ## phon
 
 ### phonology
+
+#### segmental
+
+##### morphophonology
+
+###### sandhi
+
+Japanese exhibits two forms of sandhi, 連濁 and 連声.
+連声 is the phenomenon that when a morpheme ending in ん and a morpheme beginning with a vowel collide, the second morpheme will instead begin /n‹vowel›/
+てんおう → てんのう is an example of 連声
 
 #### unsorted
 
