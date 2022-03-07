@@ -2229,30 +2229,33 @@ What design feature do the IPA symbols of both the unrounded and rounded open-mi
 »⟮The alphabet⟯« of ⟮＿a formal language＿⟯ is ⟮a set of tokens⟯.
 ⟮＿The alphabet＿⟯ is indicated with ⟮Σ⟯.
 ⟮The syntax of a formal language⟯ is often defined by ⟮a formal grammar⟯.
+»⟮A formal grammar⟯« is ⟮an algorithm for⟯ creating ⟮＿well-formed words＿⟯.
 In other words, a formal grammar generates a formal language.
 
 ### finite and infinite
 
-Formal languages are separated by size into finite and inifinte languages.
-To define a finite formal language, besides specifying its syntax we could just list all well-formed words.
+⟮＿Formal languages＿⟯ are separated by size into ⟮＿finite＿⟯ and ⟮c_;＿inifinte＿⟯ languages.
+To define a ⟮＿finite formal language＿⟯, besides specifying its syntax we could ⟮just list ＿all well-formed words＿⟯.
 
 ### formal grammar
 
 #### production rules
 
-A formal grammar consists of n production rules.
-A production rule consists of a left-hand and right-hand side.
+⟮＿A formal grammar＿⟯ consists of ⟮n ＿production rules＿⟯.
+»⟮A production rule⟯« consists of ⟮a left-hand⟯ and ⟮c_;right-hand side⟯.
 
 #### derivation
 
-A derivation is an application of the production rules of a formal grammar to arrive at a well-formed word.
-Derivation is finished when we've arrived at a string with no more nonterminals.
+»⟮A derivation⟯« is ⟮an application⟯ of ⟮＿the production rules＿⟯ of ⟮＿a formal grammar＿⟯ to ⟮arrive at a ＿well-formed word＿⟯.
 The start symbol is the point we start derivation from.
 Derivation involves replacing all nonterminal symbols with the contents of further production rules until there are no nonterminals left.
-Nonterminals are also called syntactic variables.
-Terminals are elements from the alphabet.
-Terminals are written in lowercase letters, nonterminals are written in uppercase letters.
-The empty word is indicated e or ε.
+Derivation is finished when we've arrived at a string with no more nonterminals.
+⟮Terminals/nonterminals⟯ are technically ⟮called terminal/nonterminal symbols⟯.
+⟮Nonterminals⟯ are also called ⟮syntactic variables⟯.
+Nonterminals are elements that are replaced with the right-hand side of further production rules.
+»⟮Terminals⟯« are ⟮elements from ＿the alphabet＿⟯.
+⟮＿Terminals＿⟯ are written in ⟮lowercase letters⟯, ⟮c-;＿nonterminals＿⟯ are written in ⟮uppercase letters⟯.
+The ⟮empty word⟯ is indicated ⟮e⟯ or ⟮c_;ε⟯.
 
 ##### start symbol
 
