@@ -2230,7 +2230,6 @@ What design feature do the IPA symbols of both the unrounded and rounded open-mi
 ⟮＿The alphabet＿⟯ is indicated with ⟮Σ⟯.
 ⟮The syntax of a formal language⟯ is often defined by ⟮a formal grammar⟯.
 »⟮A formal grammar⟯« is ⟮an algorithm for⟯ creating ⟮＿well-formed words＿⟯.
-In other words, a formal grammar generates a formal language.
 
 ### finite and infinite
 
@@ -2273,8 +2272,6 @@ onion-box:
     ⟮context-free⟯
       ⟮regular⟯
 
-
-
 ### regular
 
 In the production rules of ⟮context-free⟯ and ⟮＿regular grammars＿⟯, ⟮＿the left side＿⟯ ⟮may only contain a single non-terminal⟯.
@@ -2313,47 +2310,63 @@ there is ⟮no one⟯ EBNF, ⟮but a bunch of dialects⟯.
 
 ##### Possible ENBF syntax conventions
 
-[]|optional
-{}|0 or more repetions
-bar|alternation
-= or : or ::=|definition
-; or ø|end of production rule
-()|grouping
-␣ or , or ø|concatenation
-barbar|'at least one of'
+table:construct|meaning
+⟮[]⟯|optional
+⟮{}⟯|0 or more repetions
+⟮bar⟯|alternation
+⟮c+;s∞;us+3:=⟯ or ⟮c+;s∞;us+2::⟯ or ⟮c+;s∞;us+1:::=⟯|⟮definition⟯
+⟮;⟯ or ⟮ø⟯|⟮end of production rule⟯
+⟮()⟯|⟮grouping⟯
+⟮␣⟯ or ⟮,⟯ or ⟮ø⟯|⟮concatenation⟯
+⟮｜｜⟯|⟮'at least one of'⟯
 
-In ENBF dialects, usually either the terminals are quoted and the nonterminals are written as is, the terminals are unquoted and the nonterminals are indicated as ‹something›, or both are explicitly indicated
+!In ⟮＿ENBF＿⟯ ⟮dialects⟯, usually either 
+- !⟮＿the terminals＿⟯ are ⟮quoted⟯ and ⟮c-;＿the nonterminals＿⟯ are ⟮written as is⟯
+- !⟮c-;＿the terminals＿⟯ are ⟮unquoted⟯ and ⟮c-;＿the nonterminals＿⟯ are ⟮indicated as ‹something›⟯
+- !both ⟮c-;＿terminals＿⟯ and ⟮c_;＿nonterminals＿⟯ are ⟮explicitly indicated⟯
 
 #### ABNF
 
-ABNF is standartized in an RFC, and often used for IETF documents.
-in ABNF, rules MAY be surrounded by ‹›.
-in ABNF, rules and terminals are are case-insensitve
-abnf-terminal ::= "{‹characters›}"|‹abnf-terminal-range›|‹abnf-terminal-numeric›
-abnf-terminal-range ::= ‹abnf-base-specifier›‹abnf-character-digits›-‹abnf-character-digits›
-abnf-terminal-numeric ::= ‹abnf-base-specifier›‹abnf-character-digits›{.‹abnf-character-digits›}
-abnf-character-digits ::= ‹digit›{‹digit›}
-abnf-base-specifier ::= %‹base-char›
-base-char ::= b|d|x
+»⟮ABNF⟯« is ⟮＿a metasyntax＿⟯ based on ⟮＿BNF＿⟯, but ⟮with significant differences⟯.
+⟮＿ABNF＿⟯ is standartized in ⟮an RFC⟯.
+⟮＿ABNF＿⟯ is often used for ⟮IETF documents⟯.
 
-abnf-rule ::= rule = ‹definition› [; ‹comment›]‹CRLF›
+##### grammar
 
-‹n›*‹m›‹rule›|repetitions from n to m (where leaving out either is infinity)
-‹n›‹rule›|repetitions of n times
-()|group
-/|alternation
+in ⟮＿ABNF＿⟯, ⟮＿nonterminals＿⟯ ⟮MAY be⟯ ⟮surrounded by ‹›⟯.
+in ⟮＿ABNF＿⟯, ⟮＿nonterminals＿ and ＿terminals＿⟯ are case-⟮insensitve⟯
+abnf-rule ::= ⟮‹nonterminal› = ⟯⟮‹definition› ⟯⟮[; ‹comment›]⟯⟮‹CRLF›⟯
 
-=/|add alternatives to previous rule
-whitespace|concatenation
-; foo| a comment foo
-[]|optional
+###### terminals
 
-for ABNF repetition, leaving out ‹n› or ‹m› implies 0 or infinity as per usual
+```
+!abnf-terminal ::= ⟮"{‹characters›}"⟯|⟮‹abnf-terminal-range›⟯|⟮‹abnf-terminal-numeric›⟯
+!⟮abnf-terminal-range⟯ ::= ⟮‹abnf-base-specifier›⟯⟮‹abnf-character-digits›-‹abnf-character-digits›⟯
+!⟮abnf-terminal-numeric⟯ ::= ⟮‹abnf-base-specifier›⟯⟮‹abnf-character-digits›⟯⟮{.‹abnf-character-digits›}⟯ ⟮h∞;# for a list of numbers (yes, dot-separated)⟯
+!⟮abnf-character-digits⟯ ::= ⟮‹digit›{‹digit›}⟯
+!⟮abnf-base-specifier⟯ ::= ⟮%‹base-char›⟯
+!⟮base-char⟯ ::= ⟮b|d|x⟯
+```
 
-predefined rules
-LWSP = 	*(WSP / CRLF WSP)
-WSP = SP / HTAB	
-DIGIT = a digit 0 - 9
-ALPHA|upper/lowercase ascii char
-DIGIT|deximal digits
-VCHAR|an ascii visible char
+###### constructs
+
+table:construct|meaning
+⟮‹n›*‹m›‹thing›⟯|⟮repetitions from n to m⟯
+⟮‹n›‹thing›⟯|⟮repetitions of n times⟯
+⟮()⟯|⟮group⟯
+⟮/⟯|⟮alternation⟯
+⟮=/⟯|⟮add alternatives to previous rule⟯
+⟮whitespace⟯|⟮concatenation⟯
+⟮[]⟯|⟮optional⟯
+
+
+for ABNF ⟮repetition⟯, ⟮leaving out ‹n› or ‹m›⟯ ⟮implies 0 or infinity⟯ as per usual
+
+##### predefined rules
+
+⟮LWSP⟯ = 	⟮*(WSP / CRLF WSP)⟯
+⟮WSP⟯ = ⟮SP / HTAB	⟯
+⟮DIGIT⟯ = ⟮a digit 0 - 9⟯
+⟮CRLF⟯ = ⟮CR LF⟯
+⟮ALPHA⟯ = ⟮upper/lowercase ascii letter⟯
+⟮VCHAR⟯ = ⟮an ascii visible char⟯
