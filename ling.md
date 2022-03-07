@@ -1417,7 +1417,6 @@ A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
 
 # phon
 
-
 ## phonetics
 
 Phonetics is a branch of linguistics that studies the properties, production and perception of speech sounds, or in the case of sign languages, the equivalent aspects of sign.
@@ -1440,8 +1439,6 @@ Major class features are a group of four features that share little in common ph
 The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
 
 #### IPA
-
-
 
 ### anatomy
 
@@ -2223,148 +2220,48 @@ What design feature do the IPA symbols of both the unrounded and rounded open-mi
 
 # formal language
 
-## formal grammar
+## formal languages
 
-a derivation is what (related to formal grammars) to arrive at a string? <span class="divider">-&gt;</span> {{c1::&nbsp;an application of the production rules&nbsp;}}
-a derivation is an application of the production rules of a formal grammar to what? <span class="divider">-&gt;</span> {{c1::arrive at a (well-formed) word}}
-With what tool is the syntax of a formal language often formally&nbsp;defined? <span class="divider">-&gt;</span> {{c1::formal grammar}}
-When have we finished derivation? <span class="divider">-&gt;</span> {{c1::When we've arrived at a string with no more nonterminals}}<br><div class="sub">
-<div class="sub f">
-formal grammar
-</div>
-</div>
-When generating a string using a formal grammar, where do we start? <span class="divider">-&gt;</span> {{c1::at the start symbol}}
-What parts do production rules of formal grammars consist of, fundamentally? <span class="divider">-&gt;</span> {{c1::a left-hand and a right-hand side}}
-What languages do regular grammars generate? <span class="divider">-&gt;</span> {{c1::regular languages}}
-What kind of thing can an alphabet be, in the context of formal languages? <span class="divider">-&gt;</span> {{c1::any set}}
-What is the alphabet of formal languages most of the time? <span class="divider">-&gt;</span> {{c1::a character set of some sort}}
-What does a formal grammar produce in terms of a formal language? <span class="divider">-&gt;</span> {{c1::A formal grammar generates the formal language}}<br><div class="sub">
-<div class="sub c1-b c2-f">
-well, precisely it generates the set of well-formed words that make up the formal language
-</div>
-</div>
-What do we do with nonterminals in the course of derivation? <span class="divider">-&gt;</span> {{c1::replace them with further production rules}}
-The {{c1::syntax}} of {{c2::formal languages}} is said to be {{c4::the structure}} of {{c4::well-formed words}} in a language (however it's not a {{c3::rigurously defined}} term), and contrasted with {{c5::semantics}}. It may be defined via {{c6::a formal grammar}}. The {{c7::grammar}} of a {{c2::formal language}} is {{c8::merely a synonym}} for {{c6::formal grammar}}.
-The syntax governing a meta-language {{c1::metasyntax}}
-The start symbol is a kind of what? <span class="divider">-&gt;</span> {{c1::nonterminal}}
-The semantics of a formal language expresses what? <span class="divider">-&gt;</span> {{c1::What the words mean}}
-The rules that formal grammars consist of are known as what? <span class="divider">-&gt;</span> {{c1::production rules}}
-The production rules of a formal language are made up of {{c1::nonterminal symbols}}, {{c2::terminal symbols}} and {{c3::a start symbol}}
-Something {{c1::well-formed}} {{c4::comforms to}} {{c2::the rules/grammar/syntax}} of a given {{c3::system/<b>formal</b> language}}
-In the production rules of formal languages, what appears on the left side? <span class="divider">-&gt;</span> {{c1::a non-terminal}}<br><div class="sub">
-<div class="sub f">
-Context-free and reuglar only
-</div>
-</div>
-In the production rules for regular grammars, what may appear on the right (right-regular only)? <span class="divider">-&gt;</span> {{c1::terminal nonterminal}}<br><div class="sub">
-<div class="sub c1-f c2-b">
-Both right-regular and left-regular can just have a terminal
-</div>
-</div>
-In the production rules for regular grammars, what may appear on the right (after the -&gt;) (left-regular only)? <span class="divider">-&gt;</span> {{c1::nonterminal terminal}}
-In the production rules for regular grammars, what may always appear on the right (both left- and right regular) ? <span class="divider">-&gt;</span> {{c1::a single terminal}}
-In the production rules for context-free grammars, what may appear on the right? <span class="divider">-&gt;</span> {{c1::any sequence of terminals and nonterminals}}
-In the production rules for context-free grammars, what may appear on the left? <span class="divider">-&gt;</span> {{c1::a single nonterminal}}
-In the case of a finite formal language, how can we theoretically specify the language? <span class="divider">-&gt;</span> {{c1::List all well-formed words}}
-In formal languages, what are well-formed words sometimes further assembled to? <span class="divider">-&gt;</span> {{c1::They are assembled to well-formed expressions}}
-In a formal language, what are words made of? <span class="divider">-&gt;</span> {{c1::characters/elements from its alphabet}}
-How large is the size of the alphabet of a formal language? <span class="divider">-&gt;</span> {{c1::finite}}
-Formal languages are separated by size in... <span class="divider">-&gt;</span> {{c1::finite and infinite langauges}}
-Any well-formed&nbsp;string from the alphabet of a given formal language is called what? <span class="divider">-&gt;</span> {{c1::a well-formed word/formula}}
-Any string from the alphabet of a given formal language is called what? <span class="divider">-&gt;</span> {{c1::a word}}
-A formal language consists of what? <span class="divider">-&gt;</span> {{c1::a set of well-formed words}}
-<div class="c2-f">
-What will be done with these, in the course of derivation?
-</div><div class="c1-f">
-Are called?
-</div><br>{{c1::nonterminal symbol}}  <span class="divider">&lt;-&gt;</span> {{c2::(Things that)&nbsp;will be replaced by further production rules}}<br><div class="sub">
-<div class="sub f">
-formal grammar context
-</div>
-</div>
-<div class="c2-f">
-Synonym?
-</div><div class="c1-f">
-Synonym?
-</div><br>{{c1::syntactic varialble}}  <span class="divider">&lt;-&gt;</span> {{c2::nonterminal}}<br><div class="sub">
-<div class="sub f">
-formal grammar
-</div>
-</div>
-<div class="c2-f">
-Symbolizes?
-</div><div class="c1-f">
-Is symbolized by?
-</div><br>{{c1::Σ}}  <span class="divider">&lt;-&gt;</span> {{c2::The alphabet of a formal language}}<br><div class="sub">
-<div class="sub f">
-In formal languages
-</div>
-</div>
-<div class="c2-f">
-Symbolizes what?
-</div><div class="c1-f">
-Are written how?
-</div><br>{{c1::S}}  <span class="divider">&lt;-&gt;</span> {{c2::the start symbol}}<br><div class="sub">
-<div class="sub f">
-formal grammar context
-</div>
-</div>
-<div class="c2-f">
-Symbolize what?
-</div><div class="c1-f">
-Are written how?
-</div><br>{{c1::lowercase letters}}  <span class="divider">&lt;-&gt;</span> {{c2::terminals}}<br><div class="sub">
-<div class="sub f">
-formal grammar context
-</div>
-</div>
-<div class="c2-f">
-Symbolize what?
-</div><div class="c1-f">
-Are written how?
-</div><br>{{c1::Capital letters}}  <span class="divider">&lt;-&gt;</span> {{c2::nonterminals}}<br><div class="sub">
-<div class="sub f">
-formal grammar context
-</div>
-</div>
-<div class="c2-f">
-Is symbolized by?
-</div><div class="c1-f">
-Symbolizes?
-</div><br>{{c1::Empty word}}  <span class="divider">&lt;-&gt;</span> {{c2::e/ε}}<br><div class="sub">
-<div class="sub f">
-formal grammar
-</div>
-</div>
-<div class="c2-f">
-Are?
-</div><div class="c1-f">
-Are called (besides and more specifically than letter/character/element)?
-</div><br>{{c1::terminal symbols}}  <span class="divider">&lt;-&gt;</span> {{c2::the fundamental elements of the formal language (part of the alphabet)}}<br><div class="sub">
-<div class="sub f">
-formal grammar context
-</div>
-</div>
-<div class="c2-f">
-Are what, in relation to automatons?
-</div><div class="c1-f">
-Are what, in terms of chomsky's hierarchy?
-</div><br>{{c1::context-free languages}}  <span class="divider">&lt;-&gt;</span> {{c2::The languages that can be recognized by a pushdown automaton}}
-<div class="c1-f">
-What is this?
-</div><br>Left -&gt; Right <span class="divider">-&gt;</span> {{c1::a production rule}}<br><div class="sub">
-<div class="sub f">
-formal grammars
-</div>
-</div>
-<div class="c1-f">
-Is?
-</div><br>Something that conforms to the grammar of the formal language of which it is a part <span class="divider">-&gt;</span> {{c1::Something that is well-formed}}
-<div class="c1-f">
-Is called?
-</div><br>An application of the production rules of a formal grammar to arrive at a string <span class="divider">-&gt;</span> {{c1::a derivation}}
+»⟮A formal language⟯« is a set of ⟮＿well-formed words＿⟯.
+»⟮A well-formed word⟯« is ⟮＿a word＿⟯ that ⟮conforms to⟯ ⟮＿the syntax＿⟯ of ⟮＿the formal language＿⟯ ⟮of which it is a part⟯.
+»⟮The syntax⟯« of ⟮＿a formal language＿⟯ is ⟮the structure⟯ of ⟮＿well-formed words＿⟯.
+»⟮A word⟯« is ⟮any concatenation of tokens⟯ from ⟮＿the alphabet＿⟯ of ⟮a given ＿formal language＿⟯.
+»⟮The alphabet⟯« of ⟮＿a formal language＿⟯ is ⟮a set of tokens⟯.
+⟮＿The alphabet＿⟯ is indicated with ⟮Σ⟯.
+⟮The syntax of a formal language⟯ is often defined by ⟮a formal grammar⟯.
+In other words, a formal grammar generates a formal language.
 
-## chomsky hierarchy
+### finite and infinite
+
+Formal languages are separated by size into finite and inifinte languages.
+To define a finite formal language, besides specifying its syntax we could just list all well-formed words.
+
+### formal grammar
+
+#### production rules
+
+A formal grammar consists of n production rules.
+A production rule consists of a left-hand and right-hand side.
+
+#### derivation
+
+A derivation is an application of the production rules of a formal grammar to arrive at a well-formed word.
+Derivation is finished when we've arrived at a string with no more nonterminals.
+The start symbol is the point we start derivation from.
+Derivation involves replacing all nonterminal symbols with the contents of further production rules until there are no nonterminals left.
+Nonterminals are also called syntactic variables.
+Terminals are elements from the alphabet.
+Terminals are written in lowercase letters, nonterminals are written in uppercase letters.
+The empty word is indicated e or ε.
+
+##### start symbol
+
+The start symbol is a special kind of nonterminal.
+The start symbol is indicated with S.
+
+## types of formal languages
+
+### chomsky hierarchy
 
 The chomsky hierarch describes a hierarchy of formal grammars.
 
@@ -2374,6 +2271,14 @@ recursively enumerable
   context-sensitive
     context-free
       regular
+
+whatever grammars generate whatever languages.
+
+### regular
+
+In the production rules of context-free and regular grammars, the left side may only contain a single non-terminal.
+Regular grammars may be right-regular or left-regular.
+Right sides of production rules in both right-regular/left-regular languages may contain a single terminal, or may contain a nonterminal terminal/terminal nonterminal (depending on if right or left).
 
 ## metalanguage
 
