@@ -2239,6 +2239,8 @@ To define a ⟮＿finite formal language＿⟯, besides specifying its syntax we
 
 ### formal grammar
 
+A ⟮‹whatever› grammar⟯ defines the syntax for a ⟮‹whatever› language⟯.
+
 #### production rules
 
 ⟮＿A formal grammar＿⟯ consists of ⟮n ＿production rules＿⟯.
@@ -2247,68 +2249,69 @@ To define a ⟮＿finite formal language＿⟯, besides specifying its syntax we
 #### derivation
 
 »⟮A derivation⟯« is ⟮an application⟯ of ⟮＿the production rules＿⟯ of ⟮＿a formal grammar＿⟯ to ⟮arrive at a ＿well-formed word＿⟯.
-The start symbol is the point we start derivation from.
-Derivation involves replacing all nonterminal symbols with the contents of further production rules until there are no nonterminals left.
-Derivation is finished when we've arrived at a string with no more nonterminals.
+»⟮The start symbol⟯« is ⟮＿the nonterminal＿⟯ we ⟮start derivation from⟯.
+⟮＿The start symbol＿⟯ is indicated with ⟮S⟯.
+⟮＿Derivation＿⟯ involves ⟮replacing all ＿nonterminals＿⟯ ⟮until there are no ＿nonterminals＿ left⟯.
+⟮＿Derivation＿⟯ is ⟮finished⟯ when ⟮we've arrived at a string with no more ＿nonterminals＿⟯.
 ⟮Terminals/nonterminals⟯ are technically ⟮called terminal/nonterminal symbols⟯.
 ⟮Nonterminals⟯ are also called ⟮syntactic variables⟯.
-Nonterminals are elements that are replaced with the right-hand side of further production rules.
+»⟮Nonterminals⟯« are elements that ⟮are to be replaced⟯ ⟮with the right-hand side of further ＿production rules＿⟯.
 »⟮Terminals⟯« are ⟮elements from ＿the alphabet＿⟯.
 ⟮＿Terminals＿⟯ are written in ⟮lowercase letters⟯, ⟮c-;＿nonterminals＿⟯ are written in ⟮uppercase letters⟯.
 The ⟮empty word⟯ is indicated ⟮e⟯ or ⟮c_;ε⟯.
-
-##### start symbol
-
-The start symbol is a special kind of nonterminal.
-The start symbol is indicated with S.
 
 ## types of formal languages
 
 ### chomsky hierarchy
 
-The chomsky hierarch describes a hierarchy of formal grammars.
+⟮＿The chomsky hierarchy＿⟯ describes a hierarchy of ⟮＿formal grammars＿⟯.
 
 
 onion-box:
-recursively enumerable
-  context-sensitive
-    context-free
-      regular
+⟮recursively enumerable⟯
+  ⟮context-sensitive⟯
+    ⟮context-free⟯
+      ⟮regular⟯
 
-whatever grammars generate whatever languages.
+
 
 ### regular
 
-In the production rules of context-free and regular grammars, the left side may only contain a single non-terminal.
-Regular grammars may be right-regular or left-regular.
-Right sides of production rules in both right-regular/left-regular languages may contain a single terminal, or may contain a nonterminal terminal/terminal nonterminal (depending on if right or left).
+In the production rules of ⟮context-free⟯ and ⟮＿regular grammars＿⟯, ⟮＿the left side＿⟯ ⟮may only contain a single non-terminal⟯.
+Regular grammars may be ⟮＿right-regular＿⟯ or ⟮＿left-regular＿⟯.
+⟮＿Right sides＿⟯ of ⟮＿production rules＿⟯ in ⟮＿regular grammars＿⟯ may contain ⟮a single ＿terminal⟯＿, or may contain ⟮nonterminal terminal/terminal nonterminal⟯ (»⟮right/left-regular⟯«).
 
 ## metalanguage
 
-A »metalanguage« is a language used ⟮to describe another language⟯
-The language being described by a metalanguage is an object language.
-Metasyntax is the syntax governing a meta-language.
-A placeholder/variable that is not part of a given language, but instead is used in a metalanguage way is known as a metasyntactic variable.
+»⟮A metalanguage⟯« is ⟮a language⟯ used ⟮to describe another language⟯
+⟮＿An object language＿⟯ is ⟮the language being described by⟯ ⟮a metalanguage⟯
+»⟮Metasyntax⟯« is ⟮＿the syntax＿⟯ governing ⟮＿a meta-language＿⟯.
+
+### metasyntactic variable
+
+A metasyntactic variable is a placeholder that is not part of a given language, but instead used in a metalanguage way.
 The most common metasyntactic variables are foo, bar, quuz...
 
 ### BNF
 
-BNF = Backus-Naur-Form
-BNF is a metasyntax for context-free grammars.
+⟮BNF⟯ = ⟮Backus-Naur-Form⟯
+»⟮BNF⟯« is ⟮＿a metasyntax＿⟯ for ⟮c_;＿a metalanguage＿⟯ whose ⟮＿object languages＿⟯ are ⟮＿context-free languages＿⟯.
 
-metacharacter/construct|BNF meaning
-definition   ::=
-alternation   |
-terminal (in this case with the name something)   "something" or 'something'
-non-terminal (in this case with the name something)   ‹something›
-concatenation   ␣
+
+table:metacharacter/construct|BNF meaning
+⟮definition(right/lefthand separator)⟯|⟮::=⟯
+⟮alternation/or⟯|⟮｜⟯
+⟮terminal⟯ (in this case with the name something)|⟮"something"⟯ or ⟮c_;'something'⟯
+⟮non-terminal⟯ (in this case with the name something)|⟮‹something›⟯
+⟮concatenation⟯|⟮␣⟯
 
 #### EBNF
 
-EBNF = Extended Backus-Naur-Form
-EBNF is an extension (with some changes) to BNF, but there is no one EBNF, but a bunch of dialects.
+⟮EBNF⟯ = ⟮Extended Backus-Naur-Form⟯
+»⟮EBNF⟯« is ⟮an extension⟯ (with ⟮some changes⟯) to ⟮＿BNF＿⟯
+there is ⟮no one⟯ EBNF, ⟮but a bunch of dialects⟯.
 
-Possible ENBF syntax conventions:
+##### Possible ENBF syntax conventions
 
 []|optional
 {}|0 or more repetions
