@@ -211,7 +211,7 @@ And then there's the breathy-voiced glottal fricative
 
 Creaky voice is indicated in the IPA as ［◌̰］
 
-## articulation
+### articulation
 
 Articulation is the shaping of airflow to get a sound.
 An articulator is a feature within the vocal tract that is used for articulation.
@@ -219,8 +219,87 @@ An active articulator is an articulator that moves.
 A passive articulator is an articulator that cannot move.
 An articulator pair (rare term) is is the combination of an active and a passive articulatior 
 Most often, it is an articulator pair that performs articulation.
+The place of articulation is the place where the articulator pair approach each other.
+The manner of articulation is the type of approaching/contact that the articulator pair make.
+An articulation consists of the place and manner of articulation of an articulatory pair.
 
-### -> articulation/IPA of clicks/glottalic consonants
+#### Place of articulation
+
+The place of articulation depends on what the passive and active articulator are, and where on the active articulator the approaching occurs.
+The place distinctive features specify the the place of the active articulator.
+Most articulations have their own names.
+For any passive place of articulation, there are only a few possible active articulator configuration.
+Most terms that describe the passive place of articulation also describe the entire place of articulation.
+
+##### glottis
+
+The glottis is sometimes considered a articulatory pair of its own, though it is more properly part of phonation.
+
+##### anatomy
+
+https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/35/ds00349_-ds00756_im00110_c7_nasopharynxthu_jpg.jpg
+
+The alveolar ridge is a gum line just behind the teeth
+The pharynx for the purposes of linguistics is the vertical back of the throat wall.
+The trachea is also known as windpipe
+The uvula is the bulb hanging down at the entrance to the throat.
+The epiglottis is a flap that sits on the top of the windpipe
+From the front, the hard palate comes before the soft palate
+
+##### Passive place of articulation
+
+Passive places of articulation from front to back: labial, dental, prealveolar, alveolar, postalveolar, palatal, velar, uvular, pharyngeal, epiglottal, (glottis)
+
+
+table:name|place
+Labial|the upper lip
+Dental|the upper teeth, either on the edge of the teeth or inner surface 
+Prealveolar|before the alveolar ridge
+Alveolar|The alveolar ridge
+Postalveolar|The back of the alveolar ridge
+Palatal|The hard palate
+Velar|The soft palate
+Uvular|The uvula 
+Pharyngeal|The pharynx
+Epiglottal|The walls at the entrance to the trachea
+
+##### Active place of articulation
+
+The four place distinctive features are [labial], [coronal], [dorsal], [radical]
+The four place distinctive features also work as sort of active place of articulation supercategories.
+Ergo, labial sounds are those with [labial], coronal sounds are those with [coronal], etc.
+Labial sounds ([labial]) are articulated with the lower lip as the active articulator.
+Coronal, dorsal and radical sounds are all articulated with the tongue as the active articulator.
+
+###### tongue
+
+####### coronal
+
+Coronal sounds are articulated with tongue as the active articulator, and with the flexible front part of that.
+Coronal sounds are further sudivided into laminal, apical and subapical sounds.
+The tip of the tongue is its absolute tip, just in front of the blade.
+The blade of the tongue is the upper front surface of the tongue just behind the tip.
+Laminal sounds are actively articulated with the blade of the tongue.
+Apical sounds are actively articulated with ⟮＿the tip of the tongue＿⟯.
+Subapical sounds are sounds articulated with the underside of the tip of the tongue.
+
+####### dorsal
+
+Dorsal sounds are sounds articulated with the body of the tongue as the active articulator.
+Radical sounds are sounds articulated with the root/base of of the tongue as the active articulator.
+A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal sounds, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal sounds, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal sounds, with both movements being combined.
+
+marking a given sound as articulated with dental as its place of articulation   ［◌̪］
+marking a given sound as laminal   ◌̻ (a square is lame)
+marking a given sound as apical   ［◌̺］
+
+##### IPA
+
+all uvular voiced sounds have small-caps IPA symbols
+While pharyngeal and epiglottal bsounds are sometimes distinguished, there seems to be no clear basis for distinction.
+Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
+
+##### articulation/IPA of clicks
 
 
 ⟮ʘ⟯|⟮Bilabial⟯
@@ -233,65 +312,7 @@ Mnemonics/Rules
 
 The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
 
-
-implosives are marked by the IPA via a right-facing hook on top, e.g. ［ɓ］ or ［ɗ］
-ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
-Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
-
-
-### Liquids
-
-rhotic consonants are r-like consonants.
-Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
-Liquid consonants are grouped because they often behave similar phonotactically.
-
-Which phoneme the japanese liquid is is completely unclear:
-Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
-
-### Place of articulation
-
-The place of articulation is where the obstruction between the articulators occurs.
-While the glottis is often seen as a place of articulation, it is involved in phonation at the same time. 
-The place of articulation is described by the place distinctive features.
-The place of articulation is in theory described by two positions, the position of the passive and the active articulator, however, most active/passive combinations have their own names.
-
-Whether voiceless approximants exist is controversial
-
-#### Passive place of articulation
-
-
-
-The upper lip
-The upper teeth, either on the edge of the teeth or inner surface 
-The alveolar ridge, the gum line just behind the teeth
-The back of the alveolar ridge
-The hard palate on the roof of the mouth 
-The soft palate further back on the roof of the mouth 
-The uvula hanging down at the entrance to the throat
-The throat itself, a.k.a. the pharynx
-The epiglottis at the entrance to the windpipe, above the voice box
-all uvular voiced sounds have small-caps IPA symbols
-While pharyngeal and epiglottal sounds are sometimes distinguished, there seems to be no clear basis for distinction.
-Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
-
-#### Active place of articulation
-
-The active place of articulation is roughly divided into labial, coronal, dorsal, radical and laryngeal consonants.
-Labial consonants are consonants articulated with the lower lip as the active articulator.
-Coronal consonants are consonants articulated with the flexible front part of the tongue as the active articulator.
-Coronal consonants are further sudivided into laminal, apical and subapical consonants
-Laminal consonants are consonants articulated with the upper front surface of the tongue just behind the tip, called the blade of the tongue.
-Apical consonants are consonants articulated with the absolute tip of the tongue.
-Subapical consonants are consonants articulated with the underside of the tip of the tongue.
-Dorsal consonants are consonants articulated with the body of the tongue as the active articulator.
-Radical consonants are consonants articulated with the root/base of of the tongue as the active articulator.
-A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal consonants, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal consonants, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal consonants, with both movements being combined.
-
-marking a given sound as articulated with dental as its place of articulation   ［◌̪］
-marking a given sound as laminal   ◌̻ (a square is lame)
-marking a given sound as apical   ［◌̺］
-
-### mapping
+#### mapping
 
 While the term retroflex implies that the tongue is actually curled back so that it is subapical at the hard palate, in fact it is often merely apical postalveolar.
 palato-alveolar also means the tongue is domed up
@@ -314,12 +335,21 @@ Pharynx|class="no";|class=no;|class=no;|class=no; |class=no;|pharyngeal|class=no
 Epiglottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|(ary-)epiglottal
 Glottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|glottal
 
-### Manner of articulation
+Whether voiceless approximants exist is controversial
+
+
+#### glottalic consonants
+
+implosives are marked by the IPA via a right-facing hook on top, e.g. ［ɓ］ or ［ɗ］
+ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
+Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
+
+#### Manner of articulation
 
 The manner of articulation is the configuration of articulators when producing a speech sound.
 The manner of articulation is described by the manner distinctive features [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release], plus the major class distinctive features.
 
-#### stops
+##### stops
 
 While stop or occlusive may often refer to merely the oral variety, nore properly they refer to any consonant where the airflow is blocked in the vocal tract, but not necessarily in the nasal tract.
 Oral occlusives/stops are occlusives/stops, but so are nasal stops, implosives, ejectives, click consonants and affricates to a certain extent.
@@ -328,13 +358,13 @@ stops build up pressure, which needs to be released.
 The opposite of a stop or occulusive is a continuant.
 Whether something is a stop or continuant is indicated by the distinctive feature [+/- continuant]
 
-#### lateral consonants
+##### lateral consonants
 
 A lateral is a consonant in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
 Whether something is lateral is described by the feature [+/- lateral]
 Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
 
-#### Nasals 
+##### Nasals 
 
 A nasal sound is one where velum is lowered to allow air to escape through the nose.
 Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
@@ -345,7 +375,7 @@ A nasal is generally though misleadingly used as a term for a nasal stop/nasal o
 There exist voiceless nasals, but no extra IPA symbols for them (they must be diacriticized)
 
 
-#### Approximants
+##### Approximants
 
 An approximant is a distinctive feature that encompasses all sonorants except nasals.
 In a more narrow definition, approximants are speech sounds that involve the articulators approaching each other but not narrowly enough nor with enough articulatory precision to create turbulent airflow. 
@@ -354,7 +384,7 @@ Although "semivowel" and "approximant" are sometimes treated as synonymous, most
 Not only are semivowels not syllabic, they are are also closer/a type of approximant.
 
 
-### vowels
+#### vowels
 
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
 The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
@@ -366,7 +396,7 @@ r-colored vowels are uncommon crosslinguistically, but common in two of the most
 rhotatication is indicated ［◌˞］ or by a superscript turned r ［ʴ］
 the vowel written ə is called schwa
 
-#### monopthongs/dipthongs
+##### monopthongs/dipthongs
 
 Monopthong and dipthong are two kinds of vowels often distinguished.
 A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
@@ -374,7 +404,7 @@ A dipthong is a vowel sound that changes between two vowels during articulation 
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
 
-#### IPA chart
+##### IPA chart
 
 table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
 type=th;⟮c+;s1:10;Close⟯| ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯ |⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯ |⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
@@ -423,14 +453,14 @@ the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
 ɶ is lower in the vowel chart than œ.
 The rounded near-back near-close vowel looks like the ひ kana.
 
-### obstruents
+#### obstruents
 
 An obstruent is a speech sound that is produced by obstructing airflow.
 For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
 All obstruents are consonants, but consonants may also be sonorants
 Obstruents are either plosives,  fricatives or affricates.
 
-#### oral occlusives
+##### oral occlusives
 
 A plosive/oral occlusive/oral stop is an obstruent consonant in which an occlusion in the vocal tract is formed that stops all airflow.
 Plosives are also called oral occlusives or oral stops.
@@ -447,26 +477,25 @@ Oral stops with nasal release release the stop into some sort of lateral consona
 
 
 
-#### fricatives
+##### fricatives
 
 A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
 The turulent airflow produced for the formation of fricatives is called frication.
 Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth, resulting in higher amplitude and pitch, sibilants are a further subset of these.
 Stridency is encoded in the distinctive feature [+/- strident]
 
-#### affricates
+##### affricates
 
 An affricate is an obstruent consonant that begins as a stop and releases as a fricative, generally with the same place of articulation.
 Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
 p͡f, t͡ɕ etc.
 Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
 
-#### consonant IPA
+##### consonant IPA
 
 table:class=yesno;place (active) →|span=4;Labial|span=8;Coronal|span=2;Dorsal|span=2;Dorsal (rarely coronal)|span=2;Dorsal|span=2;Radical/​Ary­epiglottal|span=2;Ary­epiglottal
 Place (active + passive) →|span=2,2;Bi­labial|span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar|span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​epi­glottal|span=2,2;Glottal
 Manner ↓
-
 type=th;Plosive|⟮p⟯|⟮b⟯|||span=3;⟮t⟯|span=3;⟮d⟯|⟮ʈ⟯|⟮ɖ⟯|⟮c⟯|⟮ɟ⟯|⟮k⟯|⟮ɡ⟯|⟮q⟯|⟮ɢ⟯|⟮ʡ⟯|class=no;|⟮ʔ⟯|class=no;
 type=th;Nasal||⟮m⟯||⟮ɱ⟯|span=3;|span=3;⟮n⟯||⟮ɳ⟯||⟮ɲ⟯||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
 type=th;Trill||⟮ʙ⟯|||span=3;|span=3;⟮r⟯|||||class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
@@ -494,6 +523,15 @@ Both the velar and uvular voiceleess fricative are based in their IPA spelling o
 Uvular trill and fricative both feature variants of the smallcaps R as their IPA symbols.
 phones with a c in their IPA symbol all have a passive place of articulation of palatal, and are voiceless.
 In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
+
+#### Liquids
+
+rhotic consonants are r-like consonants.
+Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
+Liquid consonants are grouped because they often behave similar phonotactically.
+
+Which phoneme the japanese liquid is is completely unclear:
+Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
 
 ### relative articulation
 
