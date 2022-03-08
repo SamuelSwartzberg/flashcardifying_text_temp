@@ -140,51 +140,85 @@ ejectives are phones produced by an egressive glottalic airstream mechanism.
 For the velaric/lingual ingressive airstream mechanism, the second closrue point is produced by the velum.
 Clicks are phones produced by a velaric/lingual ingressive airstream mechanism.
 
-## phonation
-
-The laryngeal features are features that describe how the larynx is involved in speech production.
-The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+### phonation
 
 Phonation is any state of the larynx that modifies the airstream.
 Phonation may sometimes more narrowly refer to voicing.
-Voicing is the part of phonation where the vocal cords/folds vibrate (or not).
-Something voiced has the distinctive feature [+voice]
-Something unvoiced or voiceless has the distinctive feature [-voice]
-Something voiced becoming voiceless is known as devoicing.
-Somehthing voiceless becoming voiced is known as voicing.
+The laryngeal distinctive features  describe the main axes of phonation.
+There are three laryngeal distinctive features.
+The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+
+#### anatomy
+
+#### voicing
+
+Voicing is whether the distinctive feature [+/- voice] is present.
+[+/- voice] indicates that the vocal cords/folds are vibrating/not vibrating periodically.
+Devoicing is something [+ voice] → [- voice]
+Voicing is something [- voice] → [+ voice]
+
+##### IPA
+
+table:phenomenon|IPA
 voicing|［◌̬］
 devoicing|［◌̥］
 
-Aspiration is a laryngeal phenomenon where the vocal folds remain open aka spread after a sound is produced.
-For voicelessness, the glottis need to remain open, therefore the feature [+/- spread glottis] is sometimes used for aspirated consonants (and h) as well as voiceless things. Sometimes the distinctive feature of [+/- aspiration] is used instead, and narrowly for aspiration.
+#### spread glottis
+
+The distinctive feature [+ spread glottis] indicates that the vocal folds are wide open/drawn apart.
+All voiceless sounds have [+ spread glottis].
+In addition, aspirated stops and consonants with breathy voice have [+ spread glottis].
+
+##### aspiration
+
+Aspiration when the vocal folds remain open after a sound is produced.
+ergo [+ spread glottis] for the purposes of aspiration means that the vocal folds remain open ⁑after⁑ the articulation.
+Since aspiration works somewhat differently from other [+ spread glottis] features, sometimes [+ aspiration] is used.
 Aspiration is indicated in the ipa via ［◌ʰ］
-Aspiration seems like a little burst of air to the speaker.
+Aspiration feels like a little burst of air to the speaker.
 The burst of air for aspiration can be felt by putting ones hand in front of one's mouth while saying an aspirated thing.
 
-Glottalization is the partial or complete closure or constriction of the glottis.
-Glottalization as partial constriction results in creaky voice
-Glottalization as total constriction produces the glottal stop, or a glottalic consonant if together with a different closure, in this case, it is acting as an initiator.
-Glottalization as a laryngeal distinctive feature may be specified as [+/- glottalization or +/- constricted glottis]
-glottal consonants have the glottis as their articulatior, in a sense.
-There are two manners assoicated with glottal consonants, 'oral' stops and fricatives.
-the glottal stop has [+glottalization] [-voice]
-the voiceless glottal fricative has [-glottalization] [-voice]
-And then there's the breathy-voiced glottal fricative
-
-Creaky voice has [+constricted glottis].
-Creaky voice is indicated in the IPA as ［◌̰］
+##### breathy voice
 
 Breathy voice is also called murmured voice.
-During breathy voice the vocal folds vibrate, but allow more air to escape.
+Breathy voice is when the vocal folds vibrate, but allow more air to escape.
 Breathy voice has [+spread glottis] [+voiced]
 Breathy voice is indicated in the IPA as ［◌̤］.
+
+#### constricted glottis
+
+Glottalization is the partial or complete closure or constriction of the glottis.
+[+constricted glottis] indicates glottalization.
+More rarely, [+ glottalization] can indicate glottalization.
+Glottalization may be partial glottalization or total glottalization.
+A glottalized consonant/vowel is a consonant/vowel produced at the same time as glottalization.
+Stiff voice is very slight glottalization.
+Creaky voice is partial glottalization.
+Glottal stops, glottalized consonants/vowels and obstruents with an glottal articulatory mechanism all feature total glottalization.
+
+##### glottal consonants
+
+Only some glottal consonants are glottalized (since they are distinguished based on glottalization).
+glottal consonants have the glottis as their articulatior, in a sense.
+glottal consonants may have two manners, oral stops and fricatives.
+the glottal stop has [+constricted glottis] [-voice]
+the voiceless glottal fricative has [-constricted glottis] [-voice]
+The voiced glottal fricative is also called the breathy-voiced glottal transition.
+The voiced glottal fricative has [+spread glottis] [-constricted glottis] [+voice]
+And then there's the breathy-voiced glottal fricative
+
+##### IPA
+
+Creaky voice is indicated in the IPA as ［◌̰］
 
 ## articulation
 
 Articulation is the shaping of airflow to get a sound.
 An articulator is a feature within the vocal tract that is used for articulation.
-An active articulator moves to create a speech sound, a passive articulator stays put.
-Most often it is the combination of an active and a passive articulatior that performs articulation.
+An active articulator is an articulator that moves.
+A passive articulator is an articulator that cannot move.
+An articulator pair (rare term) is is the combination of an active and a passive articulatior 
+Most often, it is an articulator pair that performs articulation.
 
 ### -> articulation/IPA of clicks/glottalic consonants
 
