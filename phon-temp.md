@@ -235,7 +235,7 @@ The place of articulation is the place where the articulator pair approach each 
 The manner of articulation is the type of approaching/contact that the articulator pair make.
 An articulation consists of the place and manner of articulation of an articulatory pair.
 
-#### Place of articulation
+#### place of articulation
 
 The place of articulation depends on what the passive and active articulator are, and where on the active articulator the approaching occurs.
 The place distinctive features specify the the place of the active articulator.
@@ -259,7 +259,7 @@ The uvula is the bulb hanging down at the entrance to the throat.
 The epiglottis is a flap that sits on the top of the windpipe
 From the front, the hard palate comes before the soft palate
 
-##### Passive place of articulation
+##### passive place of articulation
 
 Passive places of articulation from front to back: labial, dental, prealveolar, alveolar, postalveolar, palatal, velar, uvular, pharyngeal, epiglottal, (glottis)
 
@@ -277,7 +277,7 @@ Pharyngeal|The pharynx
 Epiglottal|The walls at the entrance to the trachea
 
 
-##### Active place of articulation
+##### active place of articulation
 
 The four place distinctive features are [labial], [coronal], [dorsal], [radical]
 The four place distinctive features (plus pharyngeal, which isn't a distinctive feature) specify the place of the active articulator
@@ -287,7 +287,46 @@ Coronal, dorsal and radical sounds are all articulated with the tongue as the ac
 
 ###### labial
 
-Sounds that are [+ labial] may additionally have the distinctive feature [+/- round]
+Labial sounds may have a specific degree of rounding.
+Rounding is how round the lips are.
+Labial sounds with a high degree of rounding is indicated by the distinctive feature [+ round]
+
+####### types
+
+flex-container:✫sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg✫✫sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg✫
+
+
+There are two forms of rounding, protruded rounding anc compressed rounding.
+In protruded rounding, the lips push out of the face to produce the rounding.
+In compressed rounding, the lip push onto each other and do not push out to produce rounding.
+There are no dedicated IPA diacritics to represent the distinctio between compressed and protruded rounding.
+In absence of a dedicated IPA letter,  ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ are sometimes used for compressed rounding.
+In absence of a dedicated IPA letter, ⟨◌ʷ⟩ are sometimes used for protruded rounding.
+
+####### as secondary articulation
+
+Labialization is secondary articulation that is labial.
+For consonants, labialization if not further specified generally refers to labialization with very little rounding.
+Vowel rounding is just labialization of vowels with a specific degree of rounding.
+labialization is indicated in the IPA as［◌ʷ］.
+Labialization is the most common form of secondary articulation.
+Labialized sounds' places of articulation are often called labio-‹primary-articulation-place›.
+
+######## common labialized consonants
+
+Since labialization is so common, dedicated IPA letters exist for some labialized sounds.
+⟮［ɥ］⟯ is a ⟮voiced⟯ ⟮labio-palatal⟯ ⟮approximant⟯
+
+######### labiovelars
+
+The most common labialized consonants are the labiovelars.
+［⟮ʍ⟯］ is a ⟮voice​less⟯ ⟮labio​velar⟯ ⟮approxi​mant⟯
+［⟮w⟯］ is a ⟮voiced⟯ ⟮labiovelar⟯ ⟮approximant⟯
+
+####### relative articulation
+
+(lips that are) less rounded/labialized (than usual for that sound)   ◌̜
+(lips that are) more rounded/labialized (than usual for that sound)   ［◌̹］
 
 ###### tongue
 
@@ -353,7 +392,7 @@ Dental or denti-alveolar consonants are often not distinguished from alveolar co
 The larger group dental, denti-alveolar, alveolar may also be called alveolar.
 Only alveolar in the larger sense has unique IPA symbols outside of fricatives.
 
-#### Manner of articulation
+#### manner of articulation
 
 The manner of articulation is described by 5 manner distinctive features.
 The 5 manner distinctive features are [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release].
@@ -393,7 +432,7 @@ no audible release|［◌̚］, e.g. ［p̚］
 nasal release|superscript of the relevant nasal stop, e.g. ［◌ⁿ］
 lateral release|［◌ˡ］
 
-##### Nasals 
+##### nasals 
 
 A nasal is one where velum is lowered to allow air to escape through the nose.
 Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
@@ -441,12 +480,30 @@ Sibilants are a further subset of stridents.
 Stridency is encoded in the distinctive feature [+/- strident].
 Sibilancy may sometimes be encoded in the distinctive feature [+/- sibilant]
 
+#### coarticulation
+
+Co-articulated sounds are produced with two or more simultaneous places of articulation.
+Co-articulated sounds may be doubly articulated sounds or sounds with secondary articulation.
+
+##### secondary articulation
+
+A sound with secondary articulation is a co-articulated sound whose second place of artculation has a manner of approximant.
+Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
+Names for secondary articulation take the name of the passive place of articulation and add -ization.
+e.g. labialization:［◌ʷ］, pharyngealization:［◌ˤ］, velarization:［◌ˠ］
+［ɫ］is an exeption, indicating velarization or pharyngialization.
+Although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
+
+##### doubly articulated cononants
+
+Doubly articulated sounds are are co-articulated sounds whose places share the same manner.
+
 #### vowels
 
 TODO
 
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
-The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
+The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- labial/round]/
 The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
 
 ##### rhotacization
@@ -599,39 +656,6 @@ In japanese, non-phonemic gemination implies emphasis (not in all varieties thou
 すごい → すっごい
 In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
 If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
-
-## Coarticulation
-
-Co-articulated consonants are consonants produced with two or more simultaneous places of articulation.
-
-co-articulated consonants
-doubly articulated consonants|consonants with secondary articulation
-
-⟮ʍ⟯|⟮voice​less⟯|⟮labio​velar⟯|⟮approxi​mant⟯
-⟮w ⟯|⟮voiced⟯|⟮labiovelar (labialized velar⟯)|⟮approximant ⟯
-⟮ɥ ⟯|⟮voiced⟯|⟮labio-palatal (=labialized palatal⟯)|⟮approximant ⟯
-
-secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
-Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
-Therefore:
-labialization (AKA rounding) (secondary articulation)|［◌ʷ］
-pharyngealization (secondary articulation)|［◌ˤ］
-velarization (secondary articulation)|［◌ˠ］
-There is one special symbol for secondary articulation which indicates velarization OR pharyngalization, and is not a superscripted approximant symbol: ［◌̴ ］, as in ［ɫ］
-labialization (secondary articulation)|［◌ʷ］
-It's important to realize that although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
-In phonetics, vowel roundedness refers to the amount of rounding in the lips during the articulation of a vowel.
-Vowel roundedness is labialization of a vowel.
-Labialization is a form of secondary articulation involving the lips.
-There are two forms of labialization/rounding, protruded rounding anc compressed rounding.
-In protruded rounding, the lips push out of the face to produce the rounding.
-In compressed rounding, the lip push onto each other and do not push out to produce rounding.
-There are no dedicated IPA diacritics to represent the distinction, but the superscript IPA letter ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ can be used for compression[8] and ⟨◌ʷ⟩ for protrusion. 
-flex-container:✫sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg✫✫sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg✫
-(lips that are) less rounded/labialized (than usual for that sound)   ◌̜
-(lips that are) more rounded/labialized (than usual for that sound)   ［◌̹］
-
-Doubly articulated consonants are consonants with two simultaneous primary places of articulation of the same manner.
 
 # IPA
 
