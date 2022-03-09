@@ -2,6 +2,7 @@
 
 # phonetics
 
+TODO
 Phonetics is a branch of linguistics that studies the properties, production and perception of speech sounds, or in the case of sign languages, the equivalent aspects of sign.
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
 articulatory phonetics|production of speech sounds
@@ -12,20 +13,6 @@ Unit of interest: phones
 
 Language production is the process of production of spoken or written language
 Speech production the form of language production where thoughts are translated into speech.
-
-
-# anatomy
-
-The laryx containes the vocal cords/folds, the gap between which is called the glottis.
-The vocal tract is all the anatomy above the laryx used for speech production.
-The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities, and the articulators contained within.
-Soft palate = velum
-The pharynx is the posterior part of the vocal tract, consisting of a tube of muscles sitting above the larynx.
-The pharynx = pharyngeal cavity.
-the pharynx can be narrowed or closed by the epiglottis, a flap that is usually used to prevent food from entering the larynx.
-https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
-The buccal cavity is the space between the teeth and the cheeks.
-The oral cavity aka the mouth is the space between the pharynx and the lips.
 
 # speech production & distinctive features
 
@@ -162,6 +149,12 @@ The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA sp
 
 #### anatomy
 
+Vocal folds = vocal cords.
+The larynx containes the vocal folds.
+The gap between the vocal folds is called the glottis.
+trachea = windpipe.
+The larynx sits on top of the trachea.
+
 #### voicing
 
 Voicing is whether the distinctive feature [+/- voice] is present.
@@ -248,16 +241,41 @@ Two sounds are homorganic if they share the same place of articulation.
 
 The glottis is sometimes considered a articulatory pair of its own, though it is more properly part of phonation.
 
-##### anatomy
+##### anatomy of the vocal tract
 
 https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/35/ds00349_-ds00756_im00110_c7_nasopharynxthu_jpg.jpg
+https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
+
+The vocal tract is all the cavities above the larynx and the anatomy contained within.
+The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities and everything contained within.
+Articulation occurs completely with parts of the vocal tract.
+The vocal tract is also used in in some airstream mechanisms.
+
+###### buccal cavity
+
+The buccal cavity is the space between the teeth and the cheeks.
+
+###### oral cavity
+
+The oral cavity is the space between the pharynx and the teeth.
+The oral cavity corresponds roughly to what we would ordinarily call the mouth.
+The passive places of articulation from dental to uvular sit within the oral cavity.
 
 The alveolar ridge is a gum line just behind the teeth
-The pharynx for the purposes of linguistics is the vertical back of the throat wall.
-The trachea is also known as windpipe
-The uvula is the bulb hanging down at the entrance to the throat.
-The epiglottis is a flap that sits on the top of the windpipe
+The uvula is the bulb hanging down at the entrance to the pharyngeal cavity.
 From the front, the hard palate comes before the soft palate
+The soft palate is also called velum.
+
+###### nasal cavity
+
+###### pharyngeal cavity
+
+The pharyngeal cavity is defined by the pharynx.
+The pharyngeal cavity is what we would ordinarily call the throat.
+The pharynx is a vertical muscular tube.
+The pharynx sits on top of the larynx and extends up into the nasal cavity.
+The pharynx as a passive place of articulation is the back of the actual pharynx.
+The epiglottis is a flap that sits at the back of the mouth and can seal the epiglottis.
 
 ##### passive place of articulation
 
@@ -325,8 +343,12 @@ The most common labialized consonants are the labiovelars.
 
 ####### relative articulation
 
-(lips that are) less rounded/labialized (than usual for that sound)   ◌̜
-(lips that are) more rounded/labialized (than usual for that sound)   ［◌̹］
+Sounds having a greater/lesser degree of rounding as usual may be indicated in the IPA by a half-circle below the symbol
+
+
+table:rounding|symbol
+less rounding|［◌̜］
+more rounding|［◌̹］
 
 ###### tongue
 
@@ -342,14 +364,20 @@ Subapical sounds are sounds articulated with the underside of the tip of the ton
 Laminal and subapical sounds are identified by the distinctive feature [+ distributed].
 Apical sounds are identified by the distinctive feature [- distributed].
 
-marking a given sound as laminal   ◌̻ (a square is lame)
-marking a given sound as apical   ［◌̺］
+######## ipa
+
+The subdivision of coronal sounds can only be indicated by diacritics.
+
+
+table:coronal articulation|symbol|mnemonic
+laminal|［◌̻］|a square is lame
+apical|［◌̺］
 
 ####### dorsal
 
 Dorsal sounds are sounds articulated with the body of the tongue as the active articulator.
 For consonants, only [+/- dorsal] is generally relevant, however all vowels are [+ dorsal], and therefore specify further distinctive features.
-The further distinctive feature subdivision of [+ dorsal] is [+/- high/mid/low], [+/- back/central/front], []
+The further distinctive feature subdivision of [+ dorsal] is [+/- high/mid/low], [+/- back/central/front]
 
 ####### radical 
 
