@@ -54,10 +54,22 @@ While manner of articulation is typically only applied to consonants, the distin
 Speech sounds are either sonorants or obstruents.
 Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
 
+TODO:
+
 A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
 Sonorants that are not voiced are existant but rare.
 Sonorants may be said to be made up of approximants in the wide sense and nasals.
 Sonorants may be said to be made up of approximants in the narrow sense, vowels, and nasals.
+
+
+#### obstruents
+
+TODO:
+
+An obstruent is a speech sound that is produced by obstructing airflow.
+For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
+All obstruents are consonants, but consonants may also be sonorants
+Obstruents are either plosives,  fricatives or affricates.
 
 ## phonetic production
 
@@ -230,6 +242,7 @@ The place distinctive features specify the the place of the active articulator.
 Most articulations have their own names.
 For any passive place of articulation, there are only a few possible active articulator configuration.
 Most terms that describe the passive place of articulation also describe the entire place of articulation.
+Two sounds are homorganic if they share the same place of articulation.
 
 ##### glottis
 
@@ -263,13 +276,18 @@ Uvular|The uvula
 Pharyngeal|The pharynx
 Epiglottal|The walls at the entrance to the trachea
 
+
 ##### Active place of articulation
 
 The four place distinctive features are [labial], [coronal], [dorsal], [radical]
-The four place distinctive features also work as sort of active place of articulation supercategories.
+The four place distinctive features (plus pharyngeal, which isn't a distinctive feature) specify the place of the active articulator
 Ergo, labial sounds are those with [labial], coronal sounds are those with [coronal], etc.
 Labial sounds ([labial]) are articulated with the lower lip as the active articulator.
 Coronal, dorsal and radical sounds are all articulated with the tongue as the active articulator.
+
+###### labial
+
+Sounds that are [+ labial] may additionally have the distinctive feature [+/- round]
 
 ###### tongue
 
@@ -282,113 +300,159 @@ The blade of the tongue is the upper front surface of the tongue just behind the
 Laminal sounds are actively articulated with the blade of the tongue.
 Apical sounds are actively articulated with ⟮＿the tip of the tongue＿⟯.
 Subapical sounds are sounds articulated with the underside of the tip of the tongue.
+Laminal and subapical sounds are identified by the distinctive feature [+ distributed].
+Apical sounds are identified by the distinctive feature [- distributed].
+
+marking a given sound as laminal   ◌̻ (a square is lame)
+marking a given sound as apical   ［◌̺］
 
 ####### dorsal
 
 Dorsal sounds are sounds articulated with the body of the tongue as the active articulator.
+For consonants, only [+/- dorsal] is generally relevant, however all vowels are [+ dorsal], and therefore specify further distinctive features.
+The further distinctive feature subdivision of [+ dorsal] is [+/- high/mid/low], [+/- back/central/front], []
+
+####### radical 
+
 Radical sounds are sounds articulated with the root/base of of the tongue as the active articulator.
-A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. Some phoneticians distinguish upper pharyngeal sounds, or "high" pharyngeals, pronounced by retracting the root of the tongue in the mid to upper pharynx, from (ary)epiglottal sounds, or "low" pharyngeals, which are articulated with the aryepiglottic folds against the epiglottis in the lower larynx, as well as from epiglotto-pharyngeal sounds, with both movements being combined.
 
-marking a given sound as articulated with dental as its place of articulation   ［◌̪］
-marking a given sound as laminal   ◌̻ (a square is lame)
-marking a given sound as apical   ［◌̺］
+####### pharyngeal
 
-##### IPA
+A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. 
 
-all uvular voiced sounds have small-caps IPA symbols
-While pharyngeal and epiglottal bsounds are sometimes distinguished, there seems to be no clear basis for distinction.
-Sounds that have a h/H as an IPA symbol are either pharyngeal/epiglottal or glottal.
+##### articulator pairs
 
-##### articulation/IPA of clicks
+###### articulation names
 
+table:class=yesno;style=text-align:center;span=1,2;Active articulator →|span=1,3;labial|span=3;coronal                                                                                                 |span=1,3;dorsal |span=1,3;radical|span=1,3;aryepiglottal
+                                                                                        span=1,2;laminal   |span=1,2;apical                                |span=1,2;subapical
+Passive articulator ↓                                                                                                                                                                                                                                                                                    
+Labial                                                                 |bilabial       |span=2;linguolabial|class=no;                                      |class=no;                                  |class=no;       |class=no;
+Dental                                                                 |labiodental    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |class=no;
+Dental                                                                 |class="no";    |span=2;dental      |class=no;                                      |class=no;                                  |class=no;       |class=no;       
+Prealveolar                                                            |class="no";    |denti-alveolar     |class=no;                                      |class=no;                                  |class=no;       |class=no;       |class=no;
+Alveolar                                                               |class="no";    |span=2;alveolar    |class=no;                                      |class=no;                                  |class=no;       |class=no;       
+Postalveolar                                                           |class="no";    |palato-alveolar    |retroflex (more precisely: apical postalveolar)|class=no;                                  |alveolo-palatal |class=no;       |class=no;
+Palatal                                                                |class="no";    |class=no;          |class=no;                                      |retroflex (more precisely: true retroflex) |palatal         |class=no;       |class=no;
+Velar                                                                  |class="no";    |class=no;          |class=no;                                      |subapical velar                            |velar           |class=no;       |class=no;
+Uvular                                                                 |class="no";    |class=no;          |class=no;                                      |class=no;                                  |uvular          |class=no;       |class=no;
+Pharyngial                                                             |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |pharyngeal      |class=no;
+Epiglottal                                                             |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |(ary-)epiglottal
+Glottal                                                                |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |glottal
 
-⟮ʘ⟯|⟮Bilabial⟯
-⟮ǀ⟯|⟮Dental⟯
-⟮ǃ⟯|⟮(Post)alveolar⟯
-⟮ǂ⟯|⟮Palatoalveolar⟯
-⟮ǁ⟯|⟮Alveolar lateral⟯
+###### distinctive features
 
-Mnemonics/Rules
+Coronal sounds that are dental, prealveolar and alveolar are [+ anterior]/[- posterior]
+Coronal sounds that are postalveolar are [- anterior]/[+ posterior]
 
-The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
+###### details
 
-#### mapping
-
-While the term retroflex implies that the tongue is actually curled back so that it is subapical at the hard palate, in fact it is often merely apical postalveolar.
-palato-alveolar also means the tongue is domed up
-Dental or denti-alveolar consonants are often not distinguished from alveolar consonants, as the difference is often not contrastive/phonemic, and this larger group may also be called alveolar.
-The larger grouping of alveolar including dental is what has unique IPA symbols - indicating a dental sound specifically must be diacriticised.
-
-table:class=yesno;style=text-align:center;span=1,2;Active articulator →|span=1,3;Lower lip (Labial)|span=3;Coronal|span=1,3;Tongue body (Dorsal)|span=1,3;Tongue root (Radical)|span=1,3;Aryepiglottic folds.
-span=1,2;Tongue blade (Laminal)|span=1,2;Tongue tip (Apical)|span=1,2;Underside of tongue (Subapical)
-Passive articulator ↓
-Upper lip|bilabial|span=2;linguolabial|class=no; |class=no;|class=no;|class=no;
-Upper teeth|labiodental|class=no;|class=no;|class=no; |class=no;|class=no;|class=no;
-Upper teeth|class="no";|span=2;dental|class=no; |class=no;|class=no;|class=no;
-Upper teeth / alveolar ridge (prealveolar)|class="no";|denti-alveolar|class=no;|class=no; |class=no;|class=no;|class=no;
-Alveolar ridge|class="no";|span=2;alveolar|class=no; |class=no;|class=no;|class=no;
-Back of alveolar ridge (postalveolar)|class="no";|palato-alveolar|retroflex (more precisely: apical postalveolar)|class=no; |alveolo-palatal|class=no;|class=no;
-Hard palate (front)|class="no";|class=no;|class=no;|retroflex (more precisely: true retroflex) |palatal|class=no;|class=no;
-Soft palate / velum|class="no";|class=no;|class=no;|subapical velar |velar|class=no;|class=no;
-Uvula|class="no";|class=no;|class=no;|class=no; |uvular|class=no;|class=no;
-Pharynx|class="no";|class=no;|class=no;|class=no; |class=no;|pharyngeal|class=no;
-Epiglottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|(ary-)epiglottal
-Glottis|class="no";|class=no;|class=no;|class=no; |class=no;|class=no;|glottal
-
-Whether voiceless approximants exist is controversial
-
-
-#### glottalic consonants
-
-implosives are marked by the IPA via a right-facing hook on top, e.g. ［ɓ］ or ［ɗ］
-ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
-Implosives are most often voiced oral stops, occasionally voiceless oral stops. 
+The term retroflex should impliy that the tongue is curled (subapical palatal), in fact it is often merely apical postalveolar.
+palato-alveolar also means the tongue is domed up.
+Dental or denti-alveolar consonants are often not distinguished from alveolar consonants,as the difference is often not contrastive/phonemic
+The larger group dental, denti-alveolar, alveolar may also be called alveolar.
+Only alveolar in the larger sense has unique IPA symbols outside of fricatives.
 
 #### Manner of articulation
 
-The manner of articulation is the configuration of articulators when producing a speech sound.
-The manner of articulation is described by the manner distinctive features [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release], plus the major class distinctive features.
+The manner of articulation is described by 5 manner distinctive features.
+The 5 manner distinctive features are [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release].
 
-##### stops
+##### continuant
 
-While stop or occlusive may often refer to merely the oral variety, nore properly they refer to any consonant where the airflow is blocked in the vocal tract, but not necessarily in the nasal tract.
-Oral occlusives/stops are occlusives/stops, but so are nasal stops, implosives, ejectives, click consonants and affricates to a certain extent.
-In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
-stops build up pressure, which needs to be released.
-The opposite of a stop or occulusive is a continuant.
-Whether something is a stop or continuant is indicated by the distinctive feature [+/- continuant]
+In all cases, stop is a synonym to occlusive.
+A continuant is the opposite of an occlusive.
+Whether something is a continuant or occlusive is indicated by the distinctive feature [+/- continuant].
+An occlusive is a sound that obstructs airflow anywhere but the nose.
+Oral stop/occlusive may be shortened to stop/occlusive, but this is confusing, so I won't.
 
-##### lateral consonants
+###### release
 
-A lateral is a consonant in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
-Whether something is lateral is described by the feature [+/- lateral]
-Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
+The release release (my term) of an occlusive is when the articulators are separated.
+The only-maybe-release (my term) of an occlusive is when the next phone starts, no matter if the articulators don't cease to make contact.
+Release is ambiguous between release release and only-maybe-release
+A sound with a silent release (my term) has a release release that is silent.
+A sound with a no release (my term) has no release release, only a only-maybe-release, instead transitioning without release to the next phone.
+A no release must generally be homorganic.
+No audible release is ambiguous between silent release and no release.
+A lateral release is a no release where the next phone is a lateral sound.
+A nasal release is a no release where the next phone is a nasal sound.
+Any occlusive can be only-maybe-released in a variety of ways.
+
+####### affricate
+
+An affricate is a stop with a release release as a fricative, or equivalently, a no release into a fricative.
+Whether something is an affricate is indicated by the disinctive feature [+/- delayed release]
+Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
+p͡f, t͡ɕ etc.
+
+####### IPA
+
+table:name|symbol
+no audible release|［◌̚］, e.g. ［p̚］
+nasal release|superscript of the relevant nasal stop, e.g. ［◌ⁿ］
+lateral release|［◌ˡ］
 
 ##### Nasals 
 
-A nasal sound is one where velum is lowered to allow air to escape through the nose.
+A nasal is one where velum is lowered to allow air to escape through the nose.
 Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
 To indicate a nasal sound for which there is no dedicated ipa letter, ［◌̃］ is used.
-A nasal stop is a nasal sound where there is an oral occlusion as well.
-Other nasal sounds are nasalized vowels as well as other non-stop nasal consonants.
-A nasal is generally though misleadingly used as a term for a nasal stop/nasal occlusive.
-There exist voiceless nasals, but no extra IPA symbols for them (they must be diacriticized)
 
+##### occlusive + nasal
 
-##### Approximants
+###### oral occlusive
 
-An approximant is a distinctive feature that encompasses all sonorants except nasals.
-In a more narrow definition, approximants are speech sounds that involve the articulators approaching each other but not narrowly enough nor with enough articulatory precision to create turbulent airflow. 
-Therefore, approximants fall between fricatives, which do produce a turbulent airstream, and vowels, which produce no turbulence.
-Although "semivowel" and "approximant" are sometimes treated as synonymous, most authors use the term "semivowel" for a more restricted set; there is no universally agreed-upon definition, and the exact details may vary from author to author.
-Not only are semivowels not syllabic, they are are also closer/a type of approximant.
+An oral occlusive is [- continuant] [- nasal]. (i.e. an oral closure with no lowered velum)
+Oral occlusives may also be called plosives.
+Oral occlusives without an audible release may sometimes be called applosives.
+Oral occlusive may be shortened to stop/occlusive, but this is confusing, so I won't.
 
+####### implosives
+
+Implosives are always oral occlusives.
+Implosives are most often voiced.
+
+###### nasal occlusive
+
+A nasal occlusive is [- continuant] [+ nasal]. (i.e. an oral closure with lowered velum)
+Nasal occlusive may be shortened to nasal, but this is confusing, so I won't.
+
+##### lateral consonants
+
+A lateral is a sound in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
+Whether something is lateral is described by the distinctive feature [+/- lateral]
+Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
+
+##### approximants
+
+Approximants (wide sense) are those sounds that allow a frictionless escape of air.
+Whether something is an approximant in the wise sense is indicated by the distinctive feature [+/- approximant].
+Approximants (narrow sense) are those sounds that have some narrowing but still allow a frictionless escape of air.
+Approximants (narrow) sense fall between fricatives and vowels.
+
+##### fricatives
+
+A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
+The turulent airflow produced for the formation of fricatives is called frication.
+Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth.
+The sound produced by stridents is in higher amplitude and pitch.
+Sibilants are a further subset of stridents.
+Stridency is encoded in the distinctive feature [+/- strident].
+Sibilancy may sometimes be encoded in the distinctive feature [+/- sibilant]
 
 #### vowels
+
+TODO
 
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
 The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- round]/
 The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
+
+##### rhotacization
+
+TODO
+
 r-colored vowel = rhotic vowel = rhotacized vowel
 On a physical level, rhotacization is the lowering of the frenquency of the third formant.
 In american english, rs following vowels frequently only indicate the vowels rhotacization.
@@ -398,142 +462,17 @@ the vowel written ə is called schwa
 
 ##### monopthongs/dipthongs
 
+TODO
+
 Monopthong and dipthong are two kinds of vowels often distinguished.
 A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
 A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
 
-##### IPA chart
+#### relative articulation
 
-table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
-type=th;⟮c+;s1:10;Close⟯| ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯ |⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯ |⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
-⟮c+;s1:10;Near-close⟯|⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯•⟮c+;s∞;us1:10;ʊ⟯
-type=th;⟮c+;s1:10;Close-mid⟯|⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯ |⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯ |⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
-⟮c+;s1:10;Mid⟯| |⟮c+;s∞;us1:10;ə⟯
-type=th;⟮c+;s1:10;Open-mid⟯|⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯|⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯|⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
-⟮c+;s1:10;Near-open⟯|⟮c+;s∞;us1:10;æ⟯•|⟮c+;s∞;us1:10;ɐ⟯
-type=th;⟮c+;s1:10;Open⟯⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯|⟮c+;s∞;us1:10;ä⟯•|⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
-
-Openness|Backness|Roundedness|IPA Symbol
-⟮Close ⟯|⟮Back⟯|⟮Rounded⟯|⟮u⟯
-⟮Close ⟯|⟮Back⟯|⟮Unrounded⟯|⟮ɯ⟯
-⟮Close ⟯|⟮Central⟯|⟮Rounded⟯|⟮ʉ⟯
-⟮Close ⟯|⟮Central⟯|⟮Unrounded⟯|⟮ɨ⟯
-⟮Close ⟯|⟮Front⟯|⟮Rounded⟯|⟮y⟯
-⟮Close-mid⟯|⟮Central⟯|⟮Unrounded⟯|⟮［ɘ］⟯
-⟮Close-mid⟯|⟮Back⟯|⟮Rounded⟯|⟮o⟯
-⟮Close-mid⟯|⟮Back⟯|⟮Unrounded⟯|⟮ɤ⟯
-⟮Close-mid⟯|⟮Central⟯|⟮Rounded⟯|⟮ɵ⟯
-⟮Close-mid⟯|⟮Front⟯|⟮Rounded⟯|⟮ø⟯
-⟮Close-mid⟯|⟮Front⟯|⟮Unrounded⟯|⟮e⟯
-⟮Close⟯|⟮Front⟯|⟮Unrounded⟯|⟮i⟯
-⟮Open-mid⟯|⟮Back⟯|⟮Rounded⟯|⟮ɔ⟯
-⟮Open-mid⟯|⟮Back⟯|⟮Unrounded⟯|⟮ʌ (not ^)⟯
-⟮Open-mid⟯|⟮Central⟯|⟮Rounded⟯|⟮ɞ⟯
-⟮Open-mid⟯|⟮Central⟯|⟮Unrounded⟯|⟮ɜ⟯
-⟮Open-mid⟯|⟮Front⟯|⟮Rounded⟯|⟮œ⟯
-⟮Open-mid⟯|⟮Front⟯|⟮Unrounded⟯|⟮ɛ⟯
-⟮Open⟯|⟮Back⟯|⟮Rounded⟯|⟮ɒ⟯
-⟮Open⟯|⟮Back⟯|⟮Unrounded⟯|⟮ɑ⟯
-⟮Open⟯|⟮Front⟯|⟮Rounded⟯|⟮ɶ⟯
-⟮Open⟯|⟮Front⟯|⟮Unrounded⟯|⟮a⟯
-⟮Mid⟯|⟮central⟯|⟮both unrounded and rounded⟯|⟮ə (=Schwa)⟯
-⟮Near-close⟯|⟮back (or near-back, debate exists)⟯|⟮rounded⟯|⟮ʊ⟯
-⟮Near-close⟯|⟮front (or near-front, debate exists)⟯|⟮rounded ⟯|⟮ʏ⟯
-⟮Near-close⟯|⟮front (or near-front, debate exists)⟯|⟮unrounded⟯|⟮ɪ (sm. cap. i, often w serifs)⟯
-⟮Near-open⟯|⟮central⟯|⟮unrounded or rounded⟯|⟮ɐ⟯
-⟮Near-open⟯|⟮front⟯|⟮unrounded (sometimes also rounded)⟯|⟮æ⟯
-
-
-Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
-For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory.
-The unrounded version of the back closed vowel is double the u compared the rounded version of the back closed vowel.
-the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
-ɶ is lower in the vowel chart than œ.
-The rounded near-back near-close vowel looks like the ひ kana.
-
-#### obstruents
-
-An obstruent is a speech sound that is produced by obstructing airflow.
-For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
-All obstruents are consonants, but consonants may also be sonorants
-Obstruents are either plosives,  fricatives or affricates.
-
-##### oral occlusives
-
-A plosive/oral occlusive/oral stop is an obstruent consonant in which an occlusion in the vocal tract is formed that stops all airflow.
-Plosives are also called oral occlusives or oral stops.
-While oral stop, plosive and oral occlusive are synonyms, the terms have different geneses: "Stop" refers to the airflow that is stopped. "Occlusive" refers to the articulation, which occludes (blocks) the vocal tract. "Plosive" refers to the release burst (plosion) of the consonant.
-The term plosive may be seen as inappropriate for plosives without an audible release, these are soemtimes called appolosives.
-
-Oral stops can be released in different ways:
-no audible release|［◌̚］, e.g. ［p̚］
-nasal release|superscript of the relevant nasal stop, e.g. ［◌ⁿ］
-lateral release|［◌ˡ］
-Oral stops/oral occlusives/plosives with no audible release release their occlusion with no audible burst.
-Oral stops with nasal release release the stop into some sort of nasal stop
-Oral stops with nasal release release the stop into some sort of lateral consonant
-
-
-
-##### fricatives
-
-A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
-The turulent airflow produced for the formation of fricatives is called frication.
-Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth, resulting in higher amplitude and pitch, sibilants are a further subset of these.
-Stridency is encoded in the distinctive feature [+/- strident]
-
-##### affricates
-
-An affricate is an obstruent consonant that begins as a stop and releases as a fricative, generally with the same place of articulation.
-Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
-p͡f, t͡ɕ etc.
-Affricates are distinguised from non-affricates in that they have the disinctive feature [+delayed release]
-
-##### consonant IPA
-
-table:class=yesno;place (active) →|span=4;Labial|span=8;Coronal|span=2;Dorsal|span=2;Dorsal (rarely coronal)|span=2;Dorsal|span=2;Radical/​Ary­epiglottal|span=2;Ary­epiglottal
-Place (active + passive) →|span=2,2;Bi­labial|span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar|span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​epi­glottal|span=2,2;Glottal
-Manner ↓
-type=th;Plosive|⟮p⟯|⟮b⟯|||span=3;⟮t⟯|span=3;⟮d⟯|⟮ʈ⟯|⟮ɖ⟯|⟮c⟯|⟮ɟ⟯|⟮k⟯|⟮ɡ⟯|⟮q⟯|⟮ɢ⟯|⟮ʡ⟯|class=no;|⟮ʔ⟯|class=no;
-type=th;Nasal||⟮m⟯||⟮ɱ⟯|span=3;|span=3;⟮n⟯||⟮ɳ⟯||⟮ɲ⟯||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
-type=th;Trill||⟮ʙ⟯|||span=3;|span=3;⟮r⟯|||||class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
-type=th;Tap/flap|||||span=3;|span=3;⟮ɾ⟯||⟮ɽ⟯|||class=no;|class=no;|||||class=no;|class=no;
-type=th;Lateral approximant|class=no;|class=no;|class=no;|class=no;|span=3;|span=3;⟮l⟯||⟮ɭ⟯||⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
-type=th;Lateral fricative|class=no;|class=no;|class=no;|class=no;|span=3;⟮ɬ⟯|span=3;⟮ɮ⟯|||||||||class=no;|class=no;|class=no;|class=no;
-type=th;Approximant||||⟮ʋ⟯|span=3;|span=3;⟮ɹ⟯|⟮ɻ⟯||⟮j⟯||⟮ɰ⟯||||class=no;|class=no;|
-span=5;class=no;||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar
-type=th;Fricative|⟮ɸ⟯|⟮β⟯|⟮f⟯|⟮v⟯|⟮θ⟯|⟮ð⟯|⟮s⟯|⟮z⟯|⟮ʃ⟯|⟮ʒ⟯|⟮ʂ⟯|⟮ʐ⟯|⟮ç⟯|⟮ʝ⟯|⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
-
-
-⟮ʍ⟯|⟮voice​less⟯|⟮labio​velar⟯|⟮approxi​mant⟯
-⟮w ⟯|⟮voiced⟯|⟮labiovelar (labialized velar⟯)|⟮approximant ⟯
-⟮ɕ⟯|⟮voiceless⟯|⟮aveolo-palatal⟯|⟮fricative⟯
-⟮ɥ ⟯|⟮voiced⟯|⟮labio-palatal (=labialized palatal⟯)|⟮approximant ⟯
-⟮ɺ (the long one⟯)|⟮voiced⟯|⟮alveolar⟯|⟮lateral tap/flap ⟯
-⟮ʑ⟯|⟮voiced⟯|⟮aveolo-palatal⟯|⟮fricative⟯
-
-
-
-all retroflex phones feature a right-facing bottom hook in their IPA symbol
-all phones written with variants of the small h in the IPA are either epiglottal/pharyngeal or glottal, and are fricatives.
-
-Both the velar and uvular voiceleess fricative are based in their IPA spelling on the x.
-Uvular trill and fricative both feature variants of the smallcaps R as their IPA symbols.
-phones with a c in their IPA symbol all have a passive place of articulation of palatal, and are voiceless.
-In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
-
-#### Liquids
-
-rhotic consonants are r-like consonants.
-Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
-Liquid consonants are grouped because they often behave similar phonotactically.
-
-Which phoneme the japanese liquid is is completely unclear:
-Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
-
-### relative articulation
+TODO
 
 In phonetics and phonology, relative articulation is description of the manner and place of articulation of a speech sound relative to some reference point. 
 Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
@@ -555,6 +494,94 @@ centered|［◌̈］
 mid-centralized|［◌̽］
 Advanced Tongue Root   ［◌̘］
 Retracted Tongue Root   ［◌̙］
+
+
+### IPA
+
+#### consonants
+
+##### main table
+
+table:class=yesno;Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
+Manner ↓
+type=th;Plosive                             |⟮p⟯|⟮b⟯               ||                   |span=3;⟮t⟯|span=3;⟮d⟯                                                       |⟮ʈ⟯|⟮ɖ⟯              |⟮c⟯|⟮ɟ⟯           |⟮k⟯|⟮ɡ⟯          |⟮q⟯|⟮ɢ⟯          |⟮ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
+type=th;Nasal                               ||⟮m⟯                ||⟮ɱ⟯                  |span=3;|span=3;⟮n⟯                                                         ||⟮ɳ⟯                ||⟮ɲ⟯             ||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
+type=th;Trill                               ||⟮ʙ⟯                ||                    |span=3;|span=3;⟮r⟯                                                         ||                 ||                |class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
+type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮ɾ⟯                                                         ||⟮ɽ⟯               ||                |class=no;|class=no;|||||class=no;|class=no;
+type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮l⟯                                                         ||⟮ɭ⟯               ||                ⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
+type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮ɬ⟯|span=3;⟮ɮ⟯                                                       ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
+type=th;Approximant                         ||                  ||⟮ʋ⟯                  |span=3;|span=3;⟮ɹ⟯                                                         |⟮ɻ⟯|                |⟮j⟯|             |⟮ɰ⟯||||class=no;|class=no;|
+span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
+type=th;Fricative                           |⟮ɸ⟯|⟮β⟯               |⟮f⟯|⟮v⟯                |⟮θ⟯|⟮ð⟯                 |⟮s⟯|⟮z⟯                  |⟮ʃ⟯|⟮ʒ⟯                       |⟮ʂ⟯|⟮ʐ⟯              |⟮ç⟯|⟮ʝ⟯           |⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
+
+##### extra sounds
+
+table:symbol|voice|place|manner
+⟮ɺ (the long one⟯)|⟮voiced⟯|⟮alveolar⟯|⟮lateral tap/flap ⟯
+⟮ɕ⟯|⟮voiceless⟯|⟮aveolo-palatal⟯|⟮fricative⟯
+⟮ʑ⟯|⟮voiced⟯|⟮aveolo-palatal⟯|⟮fricative⟯
+
+##### clicks
+
+table:symbol|place
+⟮ʘ⟯|⟮Bilabial⟯
+⟮ǀ⟯|⟮Dental⟯
+⟮ǃ⟯|⟮(Post)alveolar⟯
+⟮ǂ⟯|⟮Palatoalveolar⟯
+⟮ǁ⟯|⟮Alveolar lateral⟯
+
+###### mnemonics
+
+The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
+
+
+##### mnemonics
+
+all retroflex phones feature a right-facing bottom hook in their IPA symbol
+all phones written with variants of the h in the IPA are either epiglottal/pharyngeal or glottal, and are fricatives.
+
+Both the velar and uvular voiceleess fricative are based in their IPA spelling on the x.
+Uvular trill and fricative both feature variants of the smallcaps R as their IPA symbols.
+phones with a c in their IPA symbol all have a passive place of articulation of palatal, and are voiceless.
+In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
+all uvular voiced sounds have small-caps IPA symbols
+
+##### glottalic consonants
+
+implosives are marked by the IPA via a right-facing hook on top of the symbol for the relevant equivalent oral occlusive, e.g. ［ɓ］ or ［ɗ］
+ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
+
+#### vowels
+
+table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
+type=th;⟮c+;s1:10;Close⟯| ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯ |⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯ |⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
+⟮c+;s1:10;Near-close⟯|⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯•⟮c+;s∞;us1:10;ʊ⟯
+type=th;⟮c+;s1:10;Close-mid⟯|⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯ |⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯ |⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
+⟮c+;s1:10;Mid⟯| |⟮c+;s∞;us1:10;ə⟯
+type=th;⟮c+;s1:10;Open-mid⟯|⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯|⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯|⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
+⟮c+;s1:10;Near-open⟯|⟮c+;s∞;us1:10;æ⟯•|⟮c+;s∞;us1:10;ɐ⟯
+type=th;⟮c+;s1:10;Open⟯⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯|⟮c+;s∞;us1:10;ä⟯•|⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
+
+Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
+For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory.
+The unrounded version of the back closed vowel is double the u compared the rounded version of the back closed vowel.
+the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
+ɶ is lower in the vowel chart than œ.
+The rounded near-back near-close vowel looks like the ひ kana.
+
+## other categories
+
+### Liquids
+
+rhotic consonants are r-like consonants.
+Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
+Liquid consonants are grouped because they often behave similar phonotactically.
+
+Which phoneme the japanese liquid is is completely unclear:
+Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
+In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
+
+After here: TODO
 
 # beyond distinctive features
 
@@ -579,6 +606,10 @@ Co-articulated consonants are consonants produced with two or more simultaneous 
 
 co-articulated consonants
 doubly articulated consonants|consonants with secondary articulation
+
+⟮ʍ⟯|⟮voice​less⟯|⟮labio​velar⟯|⟮approxi​mant⟯
+⟮w ⟯|⟮voiced⟯|⟮labiovelar (labialized velar⟯)|⟮approximant ⟯
+⟮ɥ ⟯|⟮voiced⟯|⟮labio-palatal (=labialized palatal⟯)|⟮approximant ⟯
 
 secondary articulation is the articulation that happens when a consonant has two or more places of articulation whose manners are different and at least one of which has the manner of approximant.
 Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
@@ -692,207 +723,6 @@ All sounds spelled with some variant of the small r are either ___ or ___ <span 
 ((h:1;::<img src="sm_Suzuki_Violin_No.580.jpg">))What part of an instrument does the voiceless postalveolar fricative look similar to? <span class="divider">-&gt;</span> {{c1::Those s-like things on a violin (called f-holes)}}
 What symbols are the retroflex right facing lower hooks generally attached to? <span class="divider">-&gt;</span> {{c1::The alveolar consonants}}
 What is the distinctive feature that most epiglottal=pharyngeal consonant symbols share? <span class="divider">-&gt;</span> {{c1::a horizontal bar through}}<table>
-<tbody class="yesno">
-<tr>
-<th>Place (active) →</th>
-<th colspan="4" scope="col">Labial</th>
-<th colspan="8" scope="col">Coronal</th>
-<th colspan="2" scope="col">Dorsal</th>
-<th colspan="2" scope="col">Dorsal (rarely coronal)</th>
-<th colspan="2" scope="col">Dorsal</th>
-<th colspan="2" scope="col">Radical/​Ary­epiglottal</th>
-<th colspan="2" scope="col">Ary­epiglottal</th>
-</tr>
-<tr>
-<th>Place (active + passive) →</th>
-<th colspan="2" rowspan="2" scope="col">Bi­labial</th>
-<th colspan="2" rowspan="2" scope="col">Labio­dental</th>
-<th colspan="6" rowspan="2" scope="col">Dental/​Alveolar/​Post­alveolar</th>
-<th colspan="2" rowspan="2" scope="col">Retro­flex</th>
-<th colspan="2" rowspan="2" scope="col">Palatal</th>
-<th colspan="2" rowspan="2" scope="col">Velar</th>
-<th colspan="2" rowspan="2" scope="col">Uvular</th>
-<th colspan="2" rowspan="2" scope="col">Pharyn­geal/​epi­glottal</th>
-<th colspan="2" rowspan="2" scope="col">Glottal</th>
-</tr>
-  <tr><th>Manner ↓</th>
-  </tr>
-<tr>
-<th scope="row">Plosive</th>
-<td>{{c1::p}}</td>
-<td>{{c2::b}}</td>
-<td></td>
-<td></td>
-<td colspan="3">{{c3::t}}</td>
-<td colspan="3">{{c4::d}}</td>
-<td>{{c5::ʈ}}</td>
-<td>{{c6::ɖ}}</td>
-<td>{{c7::c}}</td>
-<td>{{c8::ɟ}}</td>
-<td>{{c9::k}}</td>
-<td>{{c10::ɡ}}</td>
-<td>{{c11::q}}</td>
-<td>{{c12::ɢ}}</td>
-<td>{{c13::ʡ}}</td>
-<td class="no"></td>
-<td>{{c14::ʔ}}</td>
-<td class="no"></td>
-</tr>
-<tr>
-<th scope="row">Nasal</th>
-<td></td>
-<td>{{c15::m}}</td>
-<td></td>
-<td>{{c16::ɱ}}</td>
-<td colspan="3"></td>
-<td colspan="3">{{c17::n}}</td>
-<td></td>
-<td>{{c18::ɳ}}</td>
-<td></td>
-<td>{{c19::ɲ}}</td>
-<td></td>
-<td>{{c20::ŋ}}</td>
-<td></td>
-<td>{{c21::ɴ}}</td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-</tr>
-<tr>
-<th scope="row">Trill</th>
-<td></td>
-<td>{{c22::ʙ}}</td>
-<td></td>
-<td></td>
-<td colspan="3"></td>
-<td colspan="3">{{c23::r}}</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-<td></td>
-<td>{{c24::ʀ}}</td>
-<td>{{c25::ʜ}}</td>
-<td>{{c26::ʢ}}</td>
-<td class="no"></td>
-<td class="no"></td>
-</tr>
-<tr>
-<th scope="row">Tap/flap</th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="3"></td>
-<td colspan="3">{{c27::ɾ}}</td>
-<td></td>
-<td>{{c28::ɽ}}</td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-</tr>
-  <tr>
-<th scope="row">Lateral approximant</th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td colspan="3"></td>
-<td colspan="3">{{c58::l}}</td>
-<td></td>
-<td>{{c59::ɭ}}</td>
-<td></td>
-<td>{{c60::ʎ}}</td>
-<td></td>
-<td>{{c61::ʟ}}</td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-</tr>
-  <tr>
-<th scope="row">Lateral fricative</th>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td colspan="3">{{c51::ɬ}}</td>
-<td colspan="3">{{c52::ɮ}}</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-<td class="no"></td>
-</tr>  
-<tr>
-<th scope="row">Approximant</th>
-<td></td>
-<td></td>
-<td></td>
-<td>{{c53::ʋ}}</td>
-<td colspan="3"></td>
-<td colspan="3">{{c54::ɹ}}</td>
-<td>{{c55::ɻ}}</td>
-<td></td>
-<td>{{c56::j}}</td>
-<td></td>
-<td>{{c57::ɰ}}</td>
-<td></td>
-<td></td>
-<td></td>
-<td class="no"></td>
-<td class="no"></td>
-<td></td>
-</tr>
-  <tr><td colspan="5" class="no"></td>
-      <th colspan="2">Dental</th>
-<th colspan="2">Alveolar</th>
-<th colspan="2">Post­alveolar</th>
-  </tr>
-  <tr>
-<th scope="row">Fricative</th>
-<td>{{c29::ɸ}}</td>
-<td>{{c30::β}}</td>
-<td>{{c31::f}}</td>
-<td>{{c32::v}}</td>
-<td>{{c33::θ}}</td>
-<td>{{c34::ð}}</td>
-<td>{{c35::s}}</td>
-<td>{{c36::z}}</td>
-<td>{{c37::ʃ}}</td>
-<td>{{c38::ʒ}}</td>
-<td>{{c39::ʂ}}</td>
-<td>{{c40::ʐ}}</td>
-<td>{{c41::ç}}</td>
-<td>{{c42::ʝ}}</td>
-<td>{{c43::x}}</td>
-<td>{{c44::ɣ}}</td>
-<td>{{c45::χ}}</td>
-<td>{{c46::ʁ}}</td>
-<td>{{c47::ħ}}</td>
-<td>{{c48::ʕ}}</td>
-<td>{{c49::h}}</td>
-<td>{{c50::ɦ}}</td>
-</tr>  </tbody></table>
 
 ## 2
 
