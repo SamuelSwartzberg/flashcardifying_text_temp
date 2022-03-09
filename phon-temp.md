@@ -2,20 +2,38 @@
 
 # phonetics
 
-TODO
-Phonetics is a branch of linguistics that studies the properties, production and perception of speech sounds, or in the case of sign languages, the equivalent aspects of sign.
+Phonetics is a branch of linguistics that studies phones.
+
+A language is a specific kind of structured communication system.
+Language (ability) is the ability to use (a) language(s) to communicate.
+Language (occurence) is an instance of use of language (ability).
+language modality is by what language (occurence) is produced and percieved.
+There are three common language modalities: oral-auditory, visual-gestural, manual-visual (my term).
+Speech is  language produced/production with the oral-auditory language modality.
+Sign is language produced/production via the visual-gestural language modality.
+Writing is language produced/production via the manual-visual language modality.
+Speech/sign/writing may be a manner of production or the language (occurence) thereby produced.
+A sign/spoken/written language is a languoid designed to be produced via sign/speech/writing. 
+Phones and phonemes may be produced via speech or via sign.
+A sign phone/phoneme (somewhat rare term) is a phone/phoneme produced via sign.
+A speech phone/phoneme (somewhat rare term) is a phone/phoneme produced via speech.
+Sign language & spoken language consists of phones and phonemes.
+Written language consists of glyphs and graphemes.
+
+Language production is the process of production of language (narrow).
+Language production consists of conceptualization, encoding, and expression.
+Speech production the form of language production where expression is done via speech.
+
+Speech sound is a speech phone where the classification into different phones is not at issue.
+
+## branches
+
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
 articulatory phonetics|production of speech sounds
 auditory phonetics|perception of speech sounds
 acoustic phonetics|acoustic effects on speech sounds
 
-Unit of interest: phones
-
-Language production is the process of production of spoken or written language
-Speech production the form of language production where thoughts are translated into speech.
-
-# speech production & distinctive features
-
+# speech production 
 
 ## distinctive features
 
