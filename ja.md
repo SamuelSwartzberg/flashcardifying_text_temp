@@ -11840,6 +11840,18 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 ## phon
 
+### phonetics
+
+#### length
+
+##### gemination
+
+In japanese, gemination is marked by っ.
+In japanese, non-phonemic gemination implies emphasis (not in all varieties though).
+すごい → すっごい
+In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
+If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
+
 ### phonology
 
 #### suprasegmental

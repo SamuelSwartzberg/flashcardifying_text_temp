@@ -13,14 +13,18 @@ A speech sound is a speech phone where the classification into different phones 
 ## branches
 
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
-articulatory phonetics|production of speech sounds
-auditory phonetics|perception of speech sounds
-acoustic phonetics|acoustic effects on speech sounds
+All of the three branches of phonetics are interested in phones in different ways.
+
+table:branch of phonetics|is concerned with what aspect of phones
+articulatory phonetics|production
+auditory phonetics|perception
+acoustic phonetics|acoustic effects
 
 # speech production 
 
 ## distinctive features
 
+Distinctive features are a phonological classification of the phonetic concept of a phone.
 Natural class is a set of phonemes in a language that share certain distinctive features.
 Distinctive features are typically grouped into major class features, manner features, place features, and laryngeal features.
 
@@ -28,37 +32,89 @@ Distinctive features are typically grouped into major class features, manner fea
 
 Major class features are a group of four features that share little in common phonetically, but describe the overall type of a phone.
 The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
+All speech sounds have values for all of the four major class features.
+Ergo, all speech sounds are either syllabic or not, either approximants or not, either consonants or vowels, either sonorants or obstruents.
+
+Continuants contains all sonorants and fricatives.
+Ergo all sonorants are continuants.
+Sonorants contain all approximants (wide sense) and nasals.
+Ergo all approximants are sonorants.
+Approximants contain all syllabic sounds and liquids.
+Ergo all syllabic sounds are approximants.
+Syllabic sounds contain all vowels and the semivowels.
+
+### sonority
+
+Sonority is roughly the relative loudness of a phone.
+Sonority is defined via the sonority hierarchy.
+Sonority mostly depens on the manner.
+The most basic sonority hierarchy is vowels > consonants
+A prototypical sonority hierarchy may be vowels > semivowels > liquids > nasals > voiced fricatives > voiceless fricatives ≈ voiced obstruents > voiceless obstruents.
+
+vocalic: vowels
+syllabic: vowels + semivowels
+approximant: vowels + semivowels + liquids
+sonorant: vowels + semivowels + liquids + nasals
+continuant: vowels + semivowels + liquids + nasals + fricatives
+
+Ergo, vocalic > syllabic > approximant > sonorant > continuant are progressively less strict about sonority.
 
 ### consonants
 
+A consonant has an audible constriction of the vocal tract.
+A vowel does not have an audible constriction of the vocal tract.
+Whether a sound is a consonant or vowel is encoded by the distinctive feature [+/- consonantal/vocalic]
 the distinctive feature [+/- consonantal] is the same as [-/+ vocalic], which one uses is up to preference.
-A sound that is [+ consonantal]/[- vocalic] has a stronger narrowing of the vocal tract than a sound with [- consonantal]/[+ vocalic]
-Consonants is a natural major class of sounds that are [+ consonantal]/[- vocalic].
-Vowels is a natural major class of sounds that are [- consonantal]/[+ vocalic].
 Consonants are traditionally categorized by their manner and place of articulation as well as their voicing.
 
-### Sonorants
+### sonorants & obstruents
 
-While manner of articulation is typically only applied to consonants, the distinction between sonorants or obstruents also applies to vowels, which are sonorants.
 Speech sounds are either sonorants or obstruents.
+A sonorant is a speech sound that is produced via airflow that is not obstructed, or not enough to create turbulence.
+An obstruent is a speech sound that is produced by obstructing airflow completely or to an extent sufficent to create turbulence.
 Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
+Most sonorants are voiced.
+Obstruents are either oral occlusives, fricatives or affricates.
 
-TODO:
+### approximant
 
-A sonorant is a speech sound that is produced with continuous, non-turbulent airflow.
-Sonorants that are not voiced are existant but rare.
-Sonorants may be said to be made up of approximants in the wide sense and nasals.
-Sonorants may be said to be made up of approximants in the narrow sense, vowels, and nasals.
+Approximants (wide sense) are those sounds that allow a (completely/mostly) frictionless escape of air through the mouth.
+Whether something is an approximant in the wide sense is indicated by the distinctive feature [+/- approximant].
+
+#### Liquids
+
+rhotic consonants are r-like consonants.
+Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
+Liquid consonants are grouped because they often behave similar phonotactically.
+
+Which phoneme the japanese liquid is is completely unclear:
+Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
+In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
+
+### syllabic
+
+Syllabic sounds are those which form the nucleus of the syllable.
+Syllabic sounds are indicated by the distinctive feature [+ syllabic]
+
+#### semivowels
+
+Phonologically, a semivowel is a non-syllabic vowel ([- syllabic] [+ vocalic]).
+Ergo a semivowel acts as a coda or onset.
+Phonetically, semivowels may be distinguished from vowels by the fact that they are one step lower on the sonority hierarchy.
+
+#### syllabic consonants
+
+Phonologically, a syllabic consonant is a syllabic consonant ([+ syllabic] [+ consonantal]).
+Ergo a syllabic consonant acts as a nucleus.
+Generally, syllabic consonants are still sonorants, as they still require their onset and coda to be lower on the sonority scale
+
+#### !IPA
+
+⟮＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
+^Since it's sad.
+⟮＿A syllabic consonant＿⟯ is indicated ⟮［◌̩］⟯ or ⟮c_;［◌̍］⟯
 
 
-#### obstruents
-
-TODO:
-
-An obstruent is a speech sound that is produced by obstructing airflow.
-For obstruents, the vocal tract is either completely closed or closed enough to create turbulence.
-All obstruents are consonants, but consonants may also be sonorants
-Obstruents are either plosives,  fricatives or affricates.
 
 ## phonetic production
 
@@ -495,20 +551,21 @@ Manners of consonants that can become lateral are fricatives/affricates, approxi
 
 ##### approximants
 
-Approximants (wide sense) are those sounds that allow a frictionless escape of air.
-Whether something is an approximant in the wise sense is indicated by the distinctive feature [+/- approximant].
-Approximants (narrow sense) are those sounds that have some narrowing but still allow a frictionless escape of air.
+Approximants are those sounds that have some narrowing but still allow a frictionless escape of air.
+
 Approximants (narrow) sense fall between fricatives and vowels.
 
 ##### fricatives
 
-A fricative are obstruent consonants produced by forcing air through a narrow channel made by placing two articulators close together.
-The turulent airflow produced for the formation of fricatives is called frication.
+Fricatives produced by forcing air through a narrow channel made by placing two articulators close together.
+Fricatives are a type of obstruent consonant.
+frication is the turbulent airflow produced for the formation of fricatives.
 Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth.
 The sound produced by stridents is in higher amplitude and pitch.
 Sibilants are a further subset of stridents.
 Stridency is encoded in the distinctive feature [+/- strident].
 Sibilancy may sometimes be encoded in the distinctive feature [+/- sibilant]
+
 
 #### coarticulation
 
@@ -581,7 +638,6 @@ centered|［◌̈］
 mid-centralized|［◌̽］
 Advanced Tongue Root   ［◌̘］
 Retracted Tongue Root   ［◌̙］
-
 
 ### IPA
 
@@ -656,36 +712,21 @@ the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
 ɶ is lower in the vowel chart than œ.
 The rounded near-back near-close vowel looks like the ひ kana.
 
-## other categories
-
-### Liquids
-
-rhotic consonants are r-like consonants.
-Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
-Liquid consonants are grouped because they often behave similar phonotactically.
-
-Which phoneme the japanese liquid is is completely unclear:
-Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
-In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
 
 After here: TODO
 
-# beyond distinctive features
+## length
 
-## signeltons and geminates
+The length of a phone is its extension in time relative to other phones.
 
-Singleton and geminate are two types of consonates distinguished by consonant length.
-A geminate consonant is articulated for longer than a singleton.
-A geminate consonant is also just called geminate.
-The process of a singleton becoming a geminate is called gemination.
+### gemination
+
+Gemination is the lengthening of consonants.
+A geminate is a consonant exhibiting gemination.
+A singleton is not a geminate (i.e. regular length)
 In many alphabets, geminates are written with doubled letters.
-gemination is phonemic/contrastive in japanese but not in english, german or spanish.
-For gemination, lengthened fricatives, nasals, laterals, approximants and trills are simply prolonged. In lengthened stops, the obstruction of the airway is prolonged, which delays release, and the "hold" is lengthened. 
-In japanese, gemination is marked by っ.
-In japanese, non-phonemic gemination implies emphasis (not in all varieties though).
-すごい → すっごい
-In japanese, gemination typically only happens to unvoiced consonants (and vowels), voiced consonants only geminate if part of 外来語.
-If gemination of voiced consonants happens as part of 外来語, they are often devoiced.
+Oral occlusives experience gemination by holding the closure.
+Nasal occlusives and continuants (which contain vowels, though it is rarely called gemination for vowels) experience gemination by lengthening of the sound.
 
 # IPA
 
