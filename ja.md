@@ -11842,6 +11842,13 @@ In japanese, using a question mark is optional when ending a sentence with the i
 
 ### phonetics
 
+#### major class
+
+##### liquids
+
+Which phoneme the japanese liquid is is completely unclear:
+Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
+
 #### length
 
 ##### gemination

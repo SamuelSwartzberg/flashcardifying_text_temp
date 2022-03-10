@@ -2,112 +2,111 @@
 
 # phonetics
 
-Phonetics is a branch of linguistics that studies phones.
+»⟮Phonetics⟯« is a branch of linguistics that studies ⟮＿phones＿⟯.
 
-Phones and phonemes may be produced via speech or via sign.
-A sign phone/phoneme (somewhat rare term) is a phone/phoneme produced via sign.
-A speech phone/phoneme (somewhat rare term) is a phone/phoneme produced via speech.
+⟮＿Phones＿⟯ and ⟮c_;＿phonemes＿⟯ may be produced via ⟮＿speech＿⟯ or via ⟮c_;＿sign＿⟯.
+»⟮A sign phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿sign＿⟯.
+»⟮A speech phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿speech＿⟯.
 
-A speech sound is a speech phone where the classification into different phones is not at issue.
+»⟮A speech sound⟯« is ⟮＿a speech phone or phoneme＿⟯ where ⟮the classification into different phones⟯ is ⟮not at issue⟯.
 
 ## branches
 
-Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
-All of the three branches of phonetics are interested in phones in different ways.
+⟮＿Phonetics＿⟯ is traditionally divided into ⟮＿articulatory＿⟯, ⟮＿acoustic＿⟯ and ⟮＿auditory＿⟯.
+All of ⟮the three branches⟯ of ⟮＿phonetics＿⟯ are ⟮interested in ＿phones＿⟯ in ⟮different ways⟯.
 
 
 table:branch of phonetics|is concerned with what aspect of phones
-articulatory phonetics|production
-auditory phonetics|perception
-acoustic phonetics|acoustic effects
+»⟮articulatory phonetics⟯«|⟮production⟯
+»⟮auditory phonetics⟯«|⟮perception⟯
+»⟮acoustic phonetics⟯«|⟮acoustic effects⟯
 
 # speech production 
 
 ## distinctive features
 
-Distinctive features are a phonological classification of the phonetic concept of a phone.
-Natural class is a set of phonemes in a language that share certain distinctive features.
-Distinctive features are typically grouped into major class features, manner features, place features, and laryngeal features.
+»⟮A natural class⟯« is ⟮a set of ＿phonemes＿⟯ in a language that ⟮share certain ＿distinctive features＿⟯.
+⟮＿Distinctive features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
 
 ## major class features
 
-Major class features are a group of four features that share little in common phonetically, but describe the overall type of a phone.
-The four major class features are [+/- syllabic], [+/- approximant], [+/- consonantal or eqivalently +/- vocalic], [+/- sonorant]
-All speech sounds have values for all of the four major class features.
-Ergo, all speech sounds are either syllabic or not, either approximants or not, either consonants or vowels, either sonorants or obstruents.
+»⟮Major class features⟯« are a group of ⟮four⟯ ⟮＿distinctive features＿⟯ that ⟮share little in common⟯ ⟮＿phonetically＿⟯, but ⟮describe the overall type of a phoneme⟯.
+⟮The four ＿major class features＿⟯ are ⟮[+/- syllabic]⟯, ⟮[+/- approximant]⟯, ⟮[+/- consonantal or eqivalently +/- vocalic]⟯, ⟮[+/- sonorant]⟯
+⟮All ＿speech sounds＿⟯ ⟮have values⟯ for ⟮all of the four ＿major class features＿.⟯
+Ergo, ⟮all ＿speech sounds＿⟯ are either ⟮＿syllabic＿⟯ or ⟮c_;not⟯, either ⟮＿approximants (wide sense)＿⟯ or ⟮c_;not⟯, either ⟮＿consonants＿⟯ or ⟮c_;＿vowels＿⟯, either ⟮＿sonorants＿⟯ or ⟮c_;＿obstruents＿⟯.
 
-Continuants contains all sonorants and fricatives.
-Ergo all sonorants are continuants.
-Sonorants contain all approximants (wide sense) and nasals.
-Ergo all approximants are sonorants.
-Approximants contain all syllabic sounds and liquids.
-Ergo all syllabic sounds are approximants.
-Syllabic sounds contain all vowels and the semivowels.
+⟮＿Continuants＿⟯ contain ⟮all⟯ {⟮＿sonorants＿⟯, ⟮＿fricatives＿⟯}.
+Ergo ⟮all⟯ ⟮＿sonorants＿⟯ are ⟮＿continuants＿⟯.
+⟮＿Sonorants＿⟯ contain ⟮all⟯ {⟮＿approximants (wide sense)＿⟯, ⟮＿nasals＿⟯}.
+Ergo ⟮all⟯ ⟮＿approximants＿⟯ are ⟮＿sonorants＿⟯.
+⟮＿Approximants＿⟯ contain ⟮all⟯ {⟮＿syllabic sounds＿⟯, ⟮＿liquids＿⟯}.
+Ergo ⟮all⟯ ⟮＿syllabic sounds＿⟯ are ⟮＿approximants＿⟯.
+⟮＿Syllabic sounds＿⟯ contain ⟮all⟯ {⟮＿vowels＿⟯, ⟮＿semivowels＿⟯}.
 
 ### sonority
 
-Sonority is roughly the relative loudness of a phone.
-Sonority is defined via the sonority hierarchy.
-Sonority mostly depens on the manner.
-The most basic sonority hierarchy is vowels > consonants
-A prototypical sonority hierarchy may be vowels > semivowels > liquids > nasals > voiced fricatives > voiceless fricatives ≈ voiced obstruents > voiceless obstruents.
+»⟮Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯.
+⟮＿Sonority＿⟯ is defined via ⟮＿the sonority hierarchy＿⟯.
+⟮＿Sonority＿⟯ mostly ⟮depends⟯ on ⟮＿the manner of articulation＿⟯.
+The most basic ⟮＿sonority hierarchy＿⟯ is ⟮＿vowels＿⟯ > ⟮c_;＿consonants＿⟯
+A prototypical »⟮sonority hierarchy⟯« may be ⟮c+;s∞;us_-;vowels⟯ > ⟮c+;s∞;us_-;semivowels⟯ > ⟮c+;s∞;us_-;liquids⟯ > ⟮c+;s∞;us_-;nasals⟯ > ⟮c+;s∞;us_-;voiced fricatives⟯ > ⟮c+;s∞;us_-;voiceless fricatives⟯ ≈ ⟮c+;s∞;us_-;voiced obstruents⟯ > ⟮c+;s∞;us_-;voiceless obstruents⟯.
 
-vocalic: vowels
-syllabic: vowels + semivowels
-approximant: vowels + semivowels + liquids
-sonorant: vowels + semivowels + liquids + nasals
-continuant: vowels + semivowels + liquids + nasals + fricatives
+#### !major classes (+ continuant) sorted by sonority of their contents
 
-Ergo, vocalic > syllabic > approximant > sonorant > continuant are progressively less strict about sonority.
+table:major class|types of sounds contained sorted by sonority
+⟮vocalic⟯|⟮vowels⟯
+⟮syllabic⟯|⟮vowels + semivowels⟯
+⟮approximant⟯|⟮vowels + semivowels + liquids⟯
+⟮sonorant⟯|⟮vowels + semivowels + liquids + nasals⟯
+⟮continuant⟯|⟮vowels + semivowels + liquids + nasals + fricatives⟯
+
+Ergo the distinctive features ⟮c+;s∞;us_-;vocalic⟯ > ⟮c+;s∞;us_-;syllabic⟯ > ⟮c+;s∞;us_-;approximant⟯ > ⟮c+;s∞;us_-;sonorant⟯ > ⟮c+;s∞;us_-;continuant⟯ are progressively less strict about sonority.
 
 ### consonants
 
-A consonant has an audible constriction of the vocal tract.
-A vowel does not have an audible constriction of the vocal tract.
-Whether a sound is a consonant or vowel is encoded by the distinctive feature [+/- consonantal/vocalic]
-the distinctive feature [+/- consonantal] is the same as [-/+ vocalic], which one uses is up to preference.
-Consonants are traditionally categorized by their manner and place of articulation as well as their voicing.
+»⟮A consonant⟯« ⟮has an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
+»⟮A vowel⟯« ⟮does not have an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
+⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the distinctive feature＿ [+/- consonantal/vocalic]⟯
+⟮＿the distinctive feature＿⟯ ⟮[+/- consonantal]⟯ is ⟮c-;the same as⟯ ⟮[-/+ vocalic]⟯, which one uses is ⟮c-;up to preference⟯.
+⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
 
 ### sonorants & obstruents
 
-Speech sounds are either sonorants or obstruents.
-A sonorant is a speech sound that is produced via airflow that is not obstructed, or not enough to create turbulence.
-An obstruent is a speech sound that is produced by obstructing airflow completely or to an extent sufficent to create turbulence.
-Whether something is a sonorant is indicated by the distinctive feature [+son(orant)]
-Most sonorants are voiced.
-Obstruents are either oral occlusives, fricatives or affricates.
+»⟮A sonorant⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮not obstructed⟯ ⟮at all⟯, or ⟮not to an extent sufficent to create turbulence⟯.
+»⟮An obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮obstructed⟯ ⟮completely⟯, or ⟮to an extent sufficent to create turbulence⟯.
+Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the distinctive feature＿ [+sonorant]⟯
+⟮Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
+⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯, ⟮＿fricatives＿⟯ or ⟮＿affricates＿⟯.
 
 ### approximant
 
-Approximants (wide sense) are those sounds that allow a (completely/mostly) frictionless escape of air through the mouth.
-Whether something is an approximant in the wide sense is indicated by the distinctive feature [+/- approximant].
+»⟮Approximants (wide sense)⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
+Whether something is ⟮＿an approximant in the wide sense＿⟯ is indicated by ⟮＿the distinctive feature＿ [+/- approximant]⟯.
 
 #### Liquids
 
-rhotic consonants are r-like consonants.
-Liquid consonants are a grouping of rhotic consonants and voice lateral appoximants.
-Liquid consonants are grouped because they often behave similar phonotactically.
-
-Which phoneme the japanese liquid is is completely unclear:
-Most commonly it is sait to be a  apico-alveolar tap [ɾ] or an alveolar lateral approximant [l], less commonly various combinations of alveolar, postalveolar or retroflex lateral or non-lateral approximant, tap or stop.
-In phonetics, liquids are a class of consonants consisting of voiced lateral approximants like /l/ together with rhotics like /r/
+»⟮rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
+⟮＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
+»⟮Liquids⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯.
+»⟮Liquids⟯« consist of all ⟮＿rhotics＿⟯ and ⟮voiced lateral appoximants⟯.
+⟮＿Liquids＿⟯ are grouped amongst other things because they often behave similar ⟮＿phonotactically＿⟯.
 
 ### syllabic
 
-Syllabic sounds are those which form the nucleus of the syllable.
-Syllabic sounds are indicated by the distinctive feature [+ syllabic]
+»⟮Syllabic sounds⟯« are those which ⟮form ＿the nucleus＿ of ＿the syllable＿⟯.
+⟮＿Syllabic sounds＿⟯ are indicated by ⟮＿the distinctive feature＿ [+syllabic]⟯
 
 #### semivowels
 
-Phonologically, a semivowel is a non-syllabic vowel ([- syllabic] [+ vocalic]).
-Ergo a semivowel acts as a coda or onset.
-Phonetically, semivowels may be distinguished from vowels by the fact that they are one step lower on the sonority hierarchy.
+Phonologically, »⟮a semivowel⟯« is ⟮a ＿non-syllabic＿ ＿vowel＿ ([-syllabic] [+vocalic])⟯.
+Ergo ⟮＿a semivowel＿⟯ acts as ⟮a ＿coda＿ or ＿onset＿⟯.
+Phonetically, ⟮＿semivowels＿⟯ may ⟮be distinguished from⟯ ⟮＿vowels＿⟯ by the fact that ⟮they are one step lower on ＿the sonority hierarchy＿⟯.
 
 #### syllabic consonants
 
-Phonologically, a syllabic consonant is a syllabic consonant ([+ syllabic] [+ consonantal]).
-Ergo a syllabic consonant acts as a nucleus.
-Generally, syllabic consonants are still sonorants, as they still require their onset and coda to be lower on the sonority scale
+Phonologically, »⟮a syllabic consonant⟯« is ⟮a ＿syllabic＿ ＿consonant＿ ([+syllabic] [+consonantal])⟯.
+Ergo ⟮＿a syllabic consonant＿⟯ acts as ⟮＿a nucleus＿⟯.
+Generally, ⟮＿syllabic consonants＿⟯ are still ⟮＿sonorants＿⟯, as ⟮they still require their ＿onset＿ and ＿coda＿ to be lower on ＿the sonority hierarchy＿⟯
 
 #### !IPA
 
@@ -117,34 +116,34 @@ Generally, syllabic consonants are still sonorants, as they still require their 
 
 ## phonetic production
 
-Phonetic production (my coinage) is the final part of speech production, where actual sound is produced.
-Phonetic production occurs in three sequential steps.
-The three sequential steps of phonetic production are initiation, phonation and articulation, which occur sequentially.
-A phone is a sound produced through phonetic production.
-Initiation produces the airstream, which is then shaped via phonation and articulation.
+»⟮Phonetic production⟯« (my coinage) is ⟮the ＿expression＿ stage (cf. fundamental concepts > what is language > language production)⟯ of ⟮＿speech production＿⟯, where ⟮actual sound is produced⟯.
+⟮＿Phonetic production＿⟯ occurs in ⟮three⟯ ⟮sequential⟯ ⟮steps⟯.
+⟮The three sequential steps of ＿phonetic production＿⟯ are ⟮＿initiation＿⟯, ⟮＿phonation＿⟯ and ⟮＿articulation＿⟯.
+For ⟮＿phonetic production＿⟯, ⟮＿initiation＿⟯ ⟮produces the ＿airstream＿⟯, which is then ⟮shaped⟯ via ⟮＿phonation＿⟯ and ⟮＿articulation＿⟯.
 
 ### exceptions
 
-Percussive consonants are consonants produced by two articulators striking each other.
-Percussive consonants don't have initiation or phonation, only articulartion.
+»⟮Percussive consonants⟯« are ⟮＿consonants＿⟯ produced by ⟮two ＿articulators＿ striking each other⟯.
+⟮＿Percussive consonants＿⟯ don't have ⟮＿initiation＿⟯ or ⟮c_;＿phonation＿⟯, only ⟮c_;＿articulartion＿⟯.
 
 ### initiation
 
-Initation is the production of the airstream via an airstream mechanism.
-The initiator is the organ generating the airstream in initation.
-The air direction (somewhat rare term) is the direction of the airstream.
-The airstream mechanism is the combination of initiator and air direction.
+»⟮The airsteam⟯« is ⟮the stream of air⟯ which ⟮eventually becomes the sound⟯.
+»⟮Initation⟯« is ⟮the production of⟯ ⟮＿the airstream＿⟯ via ⟮＿an airstream mechanism＿⟯.
+»⟮The initiator⟯« is ⟮the organ⟯ ⟮generating ＿the airstream＿⟯ in ⟮＿initation＿⟯.
+»⟮The air direction⟯« (somewhat rare term) is ⟮the direction of ＿the airstream＿⟯.
+»⟮The airstream mechanism⟯« is ⟮the combination of⟯ ⟮＿initiator＿⟯ and ⟮＿air direction＿⟯.
 
-#### initiators
+#### !initiators
 
-##### names
+##### !names
 
-table:initiator|name
-diaphragm+ribs+lungs|pulmonic
-glottis|glottalic
-tongue|lingual/velaric
-cheeks|buccal
-esophagus|esophageal
+table:name|initiator
+»⟮pulmonic⟯«|⟮diaphragm+ribs+lungs⟯
+»⟮glottalic⟯«|⟮glottis⟯
+»⟮lingual⟯«|⟮tongue/velaric⟯
+»⟮buccal⟯«|⟮cheeks⟯
+»⟮esophageal⟯«|⟮esophagus⟯
 
 ##### choice
 
@@ -200,7 +199,7 @@ Clicks are phones produced by a velaric/lingual ingressive airstream mechanism.
 
 Phonation is any state of the larynx that modifies the airstream.
 Phonation may sometimes more narrowly refer to voicing.
-The laryngeal distinctive features  describe the main axes of phonation.
+Featurally, the laryngeal distinctive features describe the main axes of phonation.
 There are three laryngeal distinctive features.
 The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
 
@@ -216,8 +215,8 @@ The larynx sits on top of the trachea.
 
 Voicing is whether the distinctive feature [+/- voice] is present.
 [+/- voice] indicates that the vocal cords/folds are vibrating/not vibrating periodically.
-Devoicing is something [+ voice] → [- voice]
-Voicing is something [- voice] → [+ voice]
+Devoicing is something [+voice] → [-voice]
+Voicing is something [-voice] → [+voice]
 
 ##### IPA
 
@@ -227,15 +226,15 @@ devoicing|［◌̥］
 
 #### spread glottis
 
-The distinctive feature [+ spread glottis] indicates that the vocal folds are wide open/drawn apart.
-All voiceless sounds have [+ spread glottis].
-In addition, aspirated stops and consonants with breathy voice have [+ spread glottis].
+The distinctive feature [+spread glottis] indicates that the vocal folds are wide open/drawn apart.
+All voiceless sounds have [+spread glottis].
+In addition, aspirated stops and consonants with breathy voice have [+spread glottis].
 
 ##### aspiration
 
 Aspiration when the vocal folds remain open after a sound is produced.
-ergo [+ spread glottis] for the purposes of aspiration means that the vocal folds remain open ⁑after⁑ the articulation.
-Since aspiration works somewhat differently from other [+ spread glottis] features, sometimes [+ aspiration] is used.
+ergo [+spread glottis] for the purposes of aspiration means that the vocal folds remain open ⁑after⁑ the articulation.
+Since aspiration works somewhat differently from other [+spread glottis] features, sometimes [+aspiration] is used.
 Aspiration is indicated in the ipa via ［◌ʰ］
 Aspiration feels like a little burst of air to the speaker.
 The burst of air for aspiration can be felt by putting ones hand in front of one's mouth while saying an aspirated thing.
@@ -251,7 +250,7 @@ Breathy voice is indicated in the IPA as ［◌̤］.
 
 Glottalization is the partial or complete closure or constriction of the glottis.
 [+constricted glottis] indicates glottalization.
-More rarely, [+ glottalization] can indicate glottalization.
+More rarely, [+glottalization] can indicate glottalization.
 Glottalization may be partial glottalization or total glottalization.
 A glottalized consonant/vowel is a consonant/vowel produced at the same time as glottalization.
 Stiff voice is very slight glottalization.
@@ -288,7 +287,7 @@ An articulation consists of the place and manner of articulation of an articulat
 #### place of articulation
 
 The place of articulation depends on what the passive and active articulator are, and where on the active articulator the approaching occurs.
-The place distinctive features specify the the place of the active articulator.
+Featurally, the place distinctive features are concerned with the place of the active articulator.
 Most articulations have their own names.
 For any passive place of articulation, there are only a few possible active articulator configuration.
 Most terms that describe the passive place of articulation also describe the entire place of articulation.
@@ -364,7 +363,7 @@ Coronal, dorsal and radical sounds are all articulated with the tongue as the ac
 
 Labial sounds may have a specific degree of rounding.
 Rounding is how round the lips are.
-Labial sounds with a high degree of rounding is indicated by the distinctive feature [+ round]
+Labial sounds with a high degree of rounding is indicated by the distinctive feature [+round]
 
 ####### types
 
@@ -418,8 +417,8 @@ The blade of the tongue is the upper front surface of the tongue just behind the
 Laminal sounds are actively articulated with the blade of the tongue.
 Apical sounds are actively articulated with ⟮＿the tip of the tongue＿⟯.
 Subapical sounds are sounds articulated with the underside of the tip of the tongue.
-Laminal and subapical sounds are identified by the distinctive feature [+ distributed].
-Apical sounds are identified by the distinctive feature [- distributed].
+Laminal and subapical sounds are identified by the distinctive feature [+distributed].
+Apical sounds are identified by the distinctive feature [-distributed].
 
 ######## ipa
 
@@ -433,8 +432,8 @@ apical|［◌̺］
 ####### dorsal
 
 Dorsal sounds are sounds articulated with the body of the tongue as the active articulator.
-For consonants, only [+/- dorsal] is generally relevant, however all vowels are [+ dorsal], and therefore specify further distinctive features.
-The further distinctive feature subdivision of [+ dorsal] is [+/- high/mid/low], [+/- back/central/front]
+For consonants, only [+/- dorsal] is generally relevant, however all vowels are [+dorsal], and therefore specify further distinctive features.
+The further distinctive feature subdivision of [+dorsal] is [+/- high/mid/low], [+/- back/central/front]
 
 ####### radical 
 
@@ -466,8 +465,8 @@ Glottal                                                                |class="n
 
 ###### distinctive features
 
-Coronal sounds that are dental, prealveolar and alveolar are [+ anterior]/[- posterior]
-Coronal sounds that are postalveolar are [- anterior]/[+ posterior]
+Coronal sounds that are dental, prealveolar and alveolar are [+anterior]/[-posterior]
+Coronal sounds that are postalveolar are [-anterior]/[+posterior]
 
 ###### details
 
@@ -479,7 +478,7 @@ Only alveolar in the larger sense has unique IPA symbols outside of fricatives.
 
 #### manner of articulation
 
-The manner of articulation is described by 5 manner distinctive features.
+Featurally, the manner of articulation is described by 5 manner distinctive features.
 The 5 manner distinctive features are [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release].
 
 ##### continuant
@@ -527,7 +526,7 @@ To indicate a nasal sound for which there is no dedicated ipa letter, ［◌̃�
 
 ###### oral occlusive
 
-An oral occlusive is [- continuant] [- nasal]. (i.e. an oral closure with no lowered velum)
+An oral occlusive is [-continuant] [-nasal]. (i.e. an oral closure with no lowered velum)
 Oral occlusives may also be called plosives.
 Oral occlusives without an audible release may sometimes be called applosives.
 Oral occlusive may be shortened to stop/occlusive, but this is confusing, so I won't.
@@ -539,7 +538,7 @@ Implosives are most often voiced.
 
 ###### nasal occlusive
 
-A nasal occlusive is [- continuant] [+ nasal]. (i.e. an oral closure with lowered velum)
+A nasal occlusive is [-continuant] [+nasal]. (i.e. an oral closure with lowered velum)
 Nasal occlusive may be shortened to nasal, but this is confusing, so I won't.
 
 ##### lateral consonants
@@ -588,6 +587,8 @@ Doubly articulated sounds are are co-articulated sounds whose places share the s
 
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
 In fact it is not tongue height and tongue backness but formant frequencies what the IPA/distinctive features end up describing.
+the vowel written ə is called schwa
+F1, F2, F3 = first, second, third formant
 
 
 table:IPA classification|distictive feature
@@ -597,12 +598,12 @@ lip rounding|[+/- labial/round]
 
 ##### rhotacization
 
-r-colored vowel = rhotic vowel = rhotacized vowel
-On a physical level, rhotacization is the lowering of the frenquency of the third formant.
-In american english, rs following vowels frequently only indicate the vowels rhotacization.
-r-colored vowels are uncommon crosslinguistically, but common in two of the most widely-spoken languages: american english and mandarin chinese.
-rhotatication is indicated ［◌˞］ or by a superscript turned r ［ʴ］
-the vowel written ə is called schwa
+r-colored vowel = rhotic vowel (amongst other names)
+On a physical level, a rhotic vowel has a lower F3.
+In american english, an r following a vowel frequently only indicates a rhotic vowel.
+rhotic vowels are uncommon crosslinguistically.
+However, rhotic vowels are common in two of the most widely-spoken languages: american english and mandarin chinese.
+rhotic vowels are indicated in the IPA by ［◌˞］ or by a superscript turned r ［ʴ］
 
 ##### monopthongs/dipthongs
 
