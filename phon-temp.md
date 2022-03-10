@@ -15,6 +15,7 @@ A speech sound is a speech phone where the classification into different phones 
 Phonetics is traditionally divided into articulatory, acoustic and auditory phonetics.
 All of the three branches of phonetics are interested in phones in different ways.
 
+
 table:branch of phonetics|is concerned with what aspect of phones
 articulatory phonetics|production
 auditory phonetics|perception
@@ -113,8 +114,6 @@ Generally, syllabic consonants are still sonorants, as they still require their 
 ⟮＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
 ^Since it's sad.
 ⟮＿A syllabic consonant＿⟯ is indicated ⟮［◌̩］⟯ or ⟮c_;［◌̍］⟯
-
-
 
 ## phonetic production
 
@@ -587,15 +586,16 @@ Doubly articulated sounds are are co-articulated sounds whose places share the s
 
 #### vowels
 
-TODO
-
 Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
-The IPA features *may* be encoded as the distinctive features [+/- high], [+/- back], [+/- labial/round]/
-The IPA chart for vowels supposedly shows the height and backness of (the highest point of) the tongue, but this is mostly not true, instead it really shows formant frequencies.
+In fact it is not tongue height and tongue backness but formant frequencies what the IPA/distinctive features end up describing.
+
+
+table:IPA classification|distictive feature
+tongue height|[+/- high/mid/low]
+tongue backness|[+/- front/central/back]
+lip rounding|[+/- labial/round]
 
 ##### rhotacization
-
-TODO
 
 r-colored vowel = rhotic vowel = rhotacized vowel
 On a physical level, rhotacization is the lowering of the frenquency of the third formant.
@@ -606,40 +606,49 @@ the vowel written ə is called schwa
 
 ##### monopthongs/dipthongs
 
-TODO
-
 Monopthong and dipthong are two kinds of vowels often distinguished.
-A monopthong is a vowel sound that stays the same during its articulation = includes one vowel.
-A dipthong is a vowel sound that changes between two vowels during articulation = includes two vowels.
+A monopthong is a vowel sound that stays the same during its articulation.
+A dipthong is a vowel sound that changes between two vowels during articulation.
 A monopthong may be called a pure, a dipthong an impure vowels.
 Since a dipthong changes from one vowel to another, it may also be called a glide.
 
 #### relative articulation
 
-TODO
+Relative articulation is the modification of the articulation of a phone relative to some reference point.
+e.g. advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
 
-In phonetics and phonology, relative articulation is description of the manner and place of articulation of a speech sound relative to some reference point. 
-Dimensions of relative articulation: advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
+##### forms of relative articulation
 
-An advanced or fronted sound is one that is pronounced farther to the front of the vocal tract than some reference point. 
-a retracted or backed sound is one that is pronounced farther to the back of the vocal tract.
-A raised sound is articulated with the active articulator raised higher than some reference point
-A lowered sound is articulated with the active articulator lowered lower than some reference point
+advanced = fronted
+retracted = backed
+An advanced/retracted sound is one that is pronounced farther to the front/back of the vocal tract than some reference point. 
+A raised/lowered sound is articulated with the active articulator raised higher/lower than some reference point
 A centralized vowel is a vowel that is more central (front-back) than some point of reference.
 Mid-centralized vowels are closer to the midpoint of the vowel space than their referent vowels. 
-A sound with advanced or retracted tongue root has the base/root of the tongue move forward/backward, expanding/shringking the pharyngeal cavity.
+A sound with advanced or retracted tongue root has the root of the tongue move forward/backward, expanding/shringking the pharyngeal cavity.
 A sound with retracted tongue root may also be seen as pharyngealized.
 
-advanced|◌̟ or ◌˖
-retracted|◌̠ or ◌˗
-raised|◌̝  or ◌˔
-lowered|◌̞ or ◌˕
+##### IPA
+
+The IPA diacritic for advanced/retracted, raised/lowered, advanced/retracted tongue root generally appears below the IPA symbol.
+The IPA diacritic for advanced/retracted, raised/lowered, advanced/retracted tongue root generally appears to the right of the IPA symbol if there is no more room
+
+
+table:relative articulation|IPA symbol
+advanced|［◌̟］
+retracted|［◌̠］
+raised|［◌̝］ 
+lowered|［◌̞］
 centered|［◌̈］
 mid-centralized|［◌̽］
-Advanced Tongue Root   ［◌̘］
-Retracted Tongue Root   ［◌̙］
+Advanced Tongue Root|［◌̘］
+Retracted Tongue Root|［◌̙］
 
 ### IPA
+
+#### general principles
+
+If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
 
 #### consonants
 
@@ -712,12 +721,12 @@ the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
 ɶ is lower in the vowel chart than œ.
 The rounded near-back near-close vowel looks like the ひ kana.
 
-
-After here: TODO
-
 ## length
 
 The length of a phone is its extension in time relative to other phones.
+［◌ˑ］ indicates something that is half-length.
+［◌̆］ indicates something that is extra-short.
+［◌ː］ indicates something that is longer/lengthened.
 
 ### gemination
 
@@ -726,124 +735,4 @@ A geminate is a consonant exhibiting gemination.
 A singleton is not a geminate (i.e. regular length)
 In many alphabets, geminates are written with doubled letters.
 Oral occlusives experience gemination by holding the closure.
-Nasal occlusives and continuants (which contain vowels, though it is rarely called gemination for vowels) experience gemination by lengthening of the sound.
-
-# IPA
-
-If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
-For vowels, ［◌ˑ］ indicates a half-length vowel, while ［◌̆］ indicates an extra-short vowel.
-For vowels and consonants both, ［◌ː］ indicates something that is longer, for consonants specifically it indicates gemination
-Since they got their own diacritic at the 1989 kiel convention, extra-short vowels are ⟮happy⟯ ［◌̆］
-
-# unsorted
-
-## 1
-
-Which of the lateral sounds is the smallcaps one? <span class="divider">-&gt;</span> {{c1::the voiced velar lateral approximant}}
-What two pharyngeal sounds both feature IPA symbols containing an h/H? <span class="divider">-&gt;</span> {{c1::voiceless pharyngeal trill and fricative}}
-What two IPA symbols both using the glottal stop character are oriented with the head to the right? <span class="divider">-&gt;</span> {{c1::Voiceless pharyngeal and glottal stop/plosive}}
-What two IPA symbols both using the glottal stop character are oriented with the head to the left? <span class="divider">-&gt;</span> {{c1::Voiced pharyngeal trill and fricative}}
-What two IPA symbols both feature a glottal stop crossed out by a bar? <span class="divider">-&gt;</span> {{c1::Pharyngeal voiceless plosive and voiced trill}}
-What sound is the one whose character is supposedly the third one, besides a fricative and an approximant, that is based off the j, but is actually just a turned f? <span class="divider">-&gt;</span> {{c1::voiced palatal plosive}}
-What place of articulation would you expect ɣ to have, but which does it actually have? <span class="divider">-&gt;</span> {{c1::You'd expect it to be uvular (because of χ), but it's actually velar}}
-What is the order of the hooks (front to back) of n-based consonants? <span class="divider">-&gt;</span> {{c1::nɳɲŋ}}
-What is the only place of articulation for consonants that feature small horizontal bars crossing out symbols normally not so crossed?&nbsp; <span class="divider">-&gt;</span> {{c1::Pharyngeal}}<br><div class="sub">
-<div class="sub c1-f c2-b">
-Ignoring the voiced palatal plosive, which theoretically also is barred, but is actually a turned f
-</div>
-</div>
-What is the IPA voiced palatal plosive supposedly? <span class="divider">-&gt;</span> {{c1::a barred dotless j}}
-What is the IPA symbol for the voiced palatal plosive actually? <span class="divider">-&gt;</span> {{c1::an f turned by 180 degrees}}
-What do the symbols c, k, q describe in the IPA? <span class="divider">-&gt;</span> {{c1::a progression of voiceless plosives}}
-The voiced velar approximant kinda looks like a turned ___ combined with a turned ___ <span class="divider">-&gt;</span> {{c1::h, m}}
-The symbol for the palatal voiced fricative is just the symbol for what plus a curl? <span class="divider">-&gt;</span> {{c1::voiced palatal approximant}}
-The symbol for the palatal voiced fricative is just the symbol for the palatal voiced approximant plus a? <span class="divider">-&gt;</span> {{c1::curl}}
-Of the two n-like symbols with left-facing hooks, the one who has it further to the right is also the one... <span class="divider">-&gt;</span> {{c1::further back}}
-Of the two n-like symbols with left-facing hooks, the one who has it further to the left is also the one... <span class="divider">-&gt;</span> {{c1::further front}}
-Of the four pharyngeal/glottal voiced/unvoiced fricative symbols, which is the only one not based on h? <span class="divider">-&gt;</span> {{c1::Voiced pharyngeal fricative}}
-Name a portguese word in which the character for the palatal voiceless fricative is also contained! <span class="divider">-&gt;</span> {{c1::seleçao}}
-In how many aspects do barred consonants differ from their non-barred counterparts? <span class="divider">-&gt;</span> {{c1::exactly one (so voicedness, place, OR manner)}}
-For what manner and voicing are g/G only ever used in the IPA? <span class="divider">-&gt;</span> {{c1::voiced plosives}}
-For what kind of sounds is the l/L only ever used? <span class="divider">-&gt;</span> {{c1::lateral ones}}
-All three sounds (including the one that is actually a turned f) based in their IPA symbols off the j are ___ and ___ <span class="divider">-&gt;</span> {{c1::palatal and voiced}}
-All IPA symbols based of a modified version of the glottal stop are either ___ or ___ <span class="divider">-&gt;</span> {{c1::pharyngeal(epiglottal) or glottal}}
-<span class="hide-5">sounds written with a variant of the small h in the IPA all have what </span><b>manner</b> of articulation? <span class="divider">-&gt;</span> {{c1::fricative}}
-Why is  ɽ (voiced retroflex tap or flap) an exception, in how we would deduce what the alveolar voiced tap or flap is based on it? <span class="divider">-&gt;</span> {{c1::Since it's ɾ, but we would expect it to be r}}
-Which one of the nasals is the one that is spelled with an n, but has no hook? <span class="divider">-&gt;</span> {{c1::voiced alveolar etc. nasal}}
-What reason might one give why the voiced alveolar trill symbol is the one with two 'heads'? <span class="divider">-&gt;</span> {{c1::since the tongue hits multiple times}}
-What number does the voiced postalveolar fricative look kinda similar to? <span class="divider">-&gt;</span> {{c1::3}}
-What might one say the reason is for voiced alveolar etc. tap being the one with one head? <span class="divider">-&gt;</span> {{c1::since the tounge hits only once}}
-What latin letters are all nasal consonant symbols of the IPA similar to? <span class="divider">-&gt;</span> {{c1::m or n}}
-What latin letter are all voiced bilabial sounds besides the nasal similar to? <span class="divider">-&gt;</span> {{c1::b/B}}
-What kind of symbol are 3/5 of the IPA trill letters based on? <span class="divider">-&gt;</span> {{c1::smallcaps letters}}
-What kana does the voiced postalveolar fricative look similar to? <span class="divider">-&gt;</span> {{c1::ろ}}
-What is/are the exceptions for the ipa symbols of retroflex consonants being based on alveolar ones? <span class="divider">-&gt;</span> {{c1::ɽ (voiced retroflex tap or flap)}}
-What is the IPA voiced labiodental fricative v mostly spelled as in German? <span class="divider">-&gt;</span> {{c1::W}}<br><div class="sub">
-<div class="sub c1-b c2-f">
-Wächter, wachs etc.
-</div>
-</div>
-What is the IPA voiced labiodental fricative v mostly spelled as in English? <span class="divider">-&gt;</span> {{c1::v}}
-What is the IPA symbol for the sound that crosslinguistically is often spelled f? <span class="divider">-&gt;</span> {{c1::f}}
-What does the voiced labiodental approximant look kinda similar to (which is also labiodental and voiced)? <span class="divider">-&gt;</span> {{c1::the labiodental fricative v}}
-What do the IPA spellings of the voiced alveolar etc. trill and tap or flap have in common, as regards their Orientation? <span class="divider">-&gt;</span> {{c1::they are both right-side up}}
-What do all symbols for retroflex consonants share in the ipa? <span class="divider">-&gt;</span> {{c1::A right-facing bottom hook such as ɭ or ʈ}}
-What do all IPA spellings of lateral approximants have in common? <span class="divider">-&gt;</span> {{c1::They are all spelled with representations of l (english or greek representations)}}
-What are both bilabilal fricatives written with in the IPA? <span class="divider">-&gt;</span> {{c1::Greek letters}}
-What IPA symbol is the voiced labiodental nasal ɱ based off of? <span class="divider">-&gt;</span> {{c1::the voiced bilabial nasal m}}
-What IPA symbol does the first sound of ふ correspond to? <span class="divider">-&gt;</span> {{c1::ɸ}}
-To which IPA symbol does written letter 'p' in english generally correspond? <span class="divider">-&gt;</span> {{c1::also p (voiceless bilabial plosive)}}
-The voiceless &amp; voiced alveolar fricative IPA symbols are both... <span class="divider">-&gt;</span> {{c1::latin letters}}
-The voiced labiodental nasal uses the same symbol as the voiced bilabial nasal, but with... <span class="divider">-&gt;</span> {{c1::a leftwards hook<br><br>}}
-The symbols for the labiodental fricatives are both? <span class="divider">-&gt;</span> {{c1::Latin leters}}
-The letters used for the retroflex sounds are the same as the ones used for which sounds? <span class="divider">-&gt;</span> {{c1::The alveolar ones}}<br><div class="sub">
-<div class="sub c1-b c2-f">
-with the slight exception of ɽ
-</div>
-</div>
-The IPA spelling of the voiced alveolar etc. lateral fricative is like an l and which IPA sound glued together? <span class="divider">-&gt;</span> {{c1::Like an l-sound and the voiced postalveolar fricative ʒ}}
-The IPA spelling of both the voiceless and the voiced alveolar etc. lateral fricative contain in their 'design' what letter? <span class="divider">-&gt;</span> {{c1::l}}
-Since the voiced&nbsp; alveolar etc. approximant ɹ is turned 180°, the retroflex version... (related to orientation) <span class="divider">-&gt;</span> {{c1::is also turned 180°}}
-IPA symbols including variants of the small l are limited to what place? <span class="divider">-&gt;</span> {{c1::dental/alveolar/postalveolar and retroflex sounds}}
-IPA symbols for the nasals which use the letter m as their basis have which or which place of articulation? <span class="divider">-&gt;</span> {{c1::bilabial and labiodental}}
-How many retroflex consonant symbols have the right-facing hook? <span class="divider">-&gt;</span> {{c1::All of them}}
-How many of the letters for trills in the IPA are smallcaps letters? <span class="divider">-&gt;</span> {{c1::3/5}}
-How does the symbol of the voiced alveolar approximant relate to the symbol for the voiced alveolar trill r? <span class="divider">-&gt;</span> {{c1::it's the symbol for the alveolar trill, but turned 180°:&nbsp; ɹ	}}
-From what language' script is the symbol for the voiced dental fricative derived? <span class="divider">-&gt;</span> {{c1::old english / icelandic}}
-For both the sets of alveolar and postalveolar fricatives, the voiceless sound is spelled (in the IPA) more ___-like and the voiced sound is more ___-like <span class="divider">-&gt;</span> {{c1::the voiceless sound is spelled (in the IPA) more s-like and the voiced sound is more z-like}}
-Besides the voiced alveolar trill r, what other trill does not feature a smallcaps IPA letter? <span class="divider">-&gt;</span> {{c1::The voiced pharyngeal/epiglottal trill ʢ}}
-All sounds spelled with some variant of the small r are either ___ or ___ <span class="divider">-&gt;</span> {{c1::dental/alveolar/postalveolar or retroflex}}
-<div>What greek letter does the voiceless dental fricative use?</div><span class="divider">-&gt;</span> {{c1::theta}}
-<div>The voiceless alveolar lateral fricative is an l with a...</div><span class="divider">-&gt;</span> {{c1::little curl}}
-((h:1;::<img src="sm_Suzuki_Violin_No.580.jpg">))What part of an instrument does the voiceless postalveolar fricative look similar to? <span class="divider">-&gt;</span> {{c1::Those s-like things on a violin (called f-holes)}}
-What symbols are the retroflex right facing lower hooks generally attached to? <span class="divider">-&gt;</span> {{c1::The alveolar consonants}}
-What is the distinctive feature that most epiglottal=pharyngeal consonant symbols share? <span class="divider">-&gt;</span> {{c1::a horizontal bar through}}<table>
-
-## 2
-
-Which two features do both sounds spelled with the IPA with (a variant of) ɑ share? <span class="divider">-&gt;</span> {{c1::open and back}}
-
-
-
-What feature do all vowels share that are written with ligatures in IPA?  They are all front vowels Also either open, near open or open mid
-What do the IPA vowels written with an i/ɪ all have in common, as it relates to height?  They are somewhere between close and near-close
-What do the IPA vowels written with an i/ɪ all have in common, as it relates to front-ness  They are somewhere between front and central (both inclusive)
-What do the IPA symbols for the rounded close-mid and open-mid central vowels have in common?  They are both 'closed' on the outside
-What do all IPA vowels written with a symbol based of an o (barred or not) (not ligatures) have in common? (two things)  they are all three close-mid and rounded
-The IPA symbol for the close central unrounded vowel is what, but barred?  close front unrounded
-The IPA symbol for the close central rounded vowel is what, but barred?  close back rounded
-How is the Symbol of the rounded version of the central open-mid vowel related to the unrounded version's symbol?  it's the same mirrored epsilon, but connected to form a pretzel
-How does the IPA symbol for the close central unrounded vowel relate to the IPA symbol for the close front unrounded vowel?  The same, just barred
-How does the IPA symbol for the close central rounded vowel relate to the IPA symbol for the close back rounded vowel?  The same, just barred
-How are the close&amp;open-mid front unrounded and close&amp;open-mid central unrounded vowels related to each other?  They are mirrored along the y-axis
-From the unrounded close-mid central vowel's symbol, how could you generate the rounded version's symbol?  merely close the 'gap' of the mirrored e
-For the close-mid&amp;open-mid front unrounded and close-mid&amp;open-mid central unrounded vowels, which are mirrored, the <b>IPA symbols</b> of which ones are open to the right?  the front ones
-For the close&amp;open-mid front unrounded and close&amp;open-mid central unrounded vowels, which are mirrored, the <b>IPA symbols</b> of which ones are open to the left?  the central ones
-For the IPA vowel chart, the unroundedversions of vowels are written where (as relates to the pair)?  on the left of the pair
-For the IPA vowel chart, the rounded versions of vowels are written where (as relates to the pair)?  on the right of the pair
-What design feature do the IPA symbols of both the unrounded and rounded open-mid back vowel share?  They are rotated 180° latin letters
-
-
-## IPA mnemonics
-
-Progression of voiceless stops (palatal, velar, uvular)?  ckq]
+Nasal occlusives and continuants (which contain vowels, though it is rarely called gemination for vowels) experience gemination by lengthening of the sound. sss
