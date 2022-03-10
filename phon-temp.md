@@ -132,130 +132,138 @@ For ⟮＿phonetic production＿⟯, ⟮＿initiation＿⟯ ⟮produces the ＿a
 »⟮Initation⟯« is ⟮the production of⟯ ⟮＿the airstream＿⟯ via ⟮＿an airstream mechanism＿⟯.
 »⟮The initiator⟯« is ⟮the organ⟯ ⟮generating ＿the airstream＿⟯ in ⟮＿initation＿⟯.
 »⟮The air direction⟯« (somewhat rare term) is ⟮the direction of ＿the airstream＿⟯.
-»⟮The airstream mechanism⟯« is ⟮the combination of⟯ ⟮＿initiator＿⟯ and ⟮＿air direction＿⟯.
+»⟮The airstream mechanism⟯« is how the airstream is generated.
+»⟮The airstream mechanism⟯« is defined by the choice of ⟮＿initiator＿⟯ and ⟮＿air direction＿⟯.
+The airstream mechanism's initator may be defined by a set of adjectives corresponding to the initiator.
 
 #### !initiators
 
 ##### !names
 
-table:name|initiator
+table:adjective|initiator
 »⟮pulmonic⟯«|⟮diaphragm+ribs+lungs⟯
 »⟮glottalic⟯«|⟮glottis⟯
-»⟮lingual⟯«|⟮tongue/velaric⟯
+»⟮lingual/velaric⟯«|⟮tongue⟯
 »⟮buccal⟯«|⟮cheeks⟯
 »⟮esophageal⟯«|⟮esophagus⟯
 
 ##### choice
 
-In natural human language, the three initiators that may be used are diaphragm+ribs+lungs, glottis, and tongue.
-No natural human languages uses the cheeks as an initiator.
-In the case of a laryngectomy, the esophagus may be used as an initiator.
+The default initiators (my term) are those used in natural languages.
+The default initiators are diaaphragm+ribs+loungs, glottis and tongue.
+The two non-default initiators are only used in disordered speech or other special circumstances.
+The two non-default initators are the cheeks and esophagus.
+The esophagus is used as an initiator in the case of a larygectomy.
 
 #### air direction
 
-Egressive/ingressive are technical terms for outward/inward air direction.
-Air direction may be egressive or ingressive.
-for egressive air direction, air pressure must be increased.
-for ingressive air direction, air pressure must be increased.
-Egressive/ingressive sounds are phones with egressive/ingressive air direction.
+⟮＿Egressive/ingressive＿⟯ are technical terms for ⟮outward/inward⟯ ⟮＿air direction＿⟯.
+»⟮Air direction⟯« may be ⟮＿egressive＿⟯ or ⟮c_;＿ingressive＿⟯.
+for ⟮＿egressive air direction＿⟯, ⟮air pressure⟯ must be ⟮increased⟯.
+for ⟮＿ingressive air direction＿⟯, ⟮air pressure⟯ must be ⟮decreased⟯.
+»⟮Egressive/ingressive sounds⟯« are ⟮＿speech sounds＿⟯ with ⟮＿egressive/ingressive air direction＿⟯.
 
 #### airstream mechanism
 
-There are six possible airstream mechanisms, resulting from the combination of the three common initiators plus two air directions.
-There are in fact only four airstream mechanisms commonly used.
-Lingual/velaric egressive and pulmonic ingressive are airstream mechanisms which are not commonly used.
-Therefore there are four at least somewhat common airstream mechanisms: Pulmonic egressive, glottalic egressive, glottalic ingressive and velaric/lingual ingressive.
-Since pulmonic ingressive sounds don't exist, pulmonic is often used to mean pulmonic egressive.
-Airstream mechanisms are often dividied into pulmonic and non-pulmonic.
-Non-pulmonic airstream mechanisms include glottalic egressive, glottalic ingressive and velaric/lingual ingressive.
+The hypothetical default inititator airstream mechanisms (my term) are those airstream mechanisms that result from the combination of the default initators and air directions.
+There are ⟮six (3*2) ⟯ hypothetical default inititator airstream mechanisms.
+The actual airstream mechanisms are those hypothetical default inititator airstream mechanisms that are actually used.
+There are four actual airstream mechanisms.
+⟮Lingual/velaric egressive⟯ and ⟮pulmonic ingressive⟯ are ⟮＿the hypothetical default inititator airstream mechanisms＿⟯ which are ⟮not used in natural languages⟯.
+pulmonic is commonly used for pulmonic egressive (for obvious reasons, see amobe)
+The actual airstream mechanims are often divided into pulmonic egressive and non-pulmonic.
+⟮＿Non-pulmonic airstream mechanisms＿⟯ are ⟮glottalic egressive⟯, ⟮glottalic ingressive⟯ and ⟮velaric/lingual ingressive⟯.
 
-##### pulmonic
+##### pulmonic egressive
 
-The pulmonic (egressive) airstream mechanism is the most common form of initiation.
-In 75% of languages, the pulmonic (egressive) airstream mechanism is the only one used (!). 
+The ⟮＿pulmonic＿ ＿egressive＿ ＿airstream mechanism＿⟯ is ⟮the most common⟯ ⟮＿airstream mechanism＿⟯.
+In ⟮75⟯% of languages, the ⟮＿pulmonic＿ ＿egressive＿ ＿airstream mechanism＿⟯ is ⟮the only one used (!)⟯. 
 
 ##### non-pulmonic
 
-A closure for initiation consists of two closure points.
-The first closure point of all non-pulmonic airstream mechanisms is always an articulator.
-For non-pulmonic airstream mechanisms, to produce the airflow, there must be a closure, one of whose closure points is then released.
-For non-pulmonic ingressive sounds, between the two closure points something is lowered to create low pressure (suction), and then the second closure points is released.
-For non-pulmonic egressive sounds, between the two closure point something is raised to create hig pressure (suction), and then the first closure point is released.
-Non-pulmonic airstream mechanisms always produce obstruents.
+»⟮A closure⟯« is ⟮a sealed area⟯ in ⟮＿the vocal tract＿⟯.
+⟮＿A closure＿⟯ is created via ⟮two⟯ ⟮closure points⟯.
+»⟮A closure point⟯« is where ⟮features of ＿the vocal tract＿⟯ create ⟮a barrier for air to not pass⟯.
+The ⟮frontmost⟯ ⟮＿closure point＿⟯ of ⟮＿all closures＿⟯ is always ⟮created by ＿(an) articulator(s)＿⟯.
+For ⟮＿non-pulmonic airstream mechanisms＿⟯, to produce ⟮＿the airflow＿⟯, there must be ⟮＿a closure＿⟯, ⟮one of whose ＿closure points＿⟯ is ⟮then released⟯.
+For ⟮＿non-pulmonic＿⟯ ⟮＿ingressive＿⟯ sounds, ⟮between⟯ ⟮＿the two closure points＿⟯ something is ⟮lowered⟯ to ⟮c_;create low pressure (suction)⟯, and then the ⟮second⟯ ⟮c_-2;＿closure point＿⟯ is ⟮released⟯.
+For ⟮＿non-pulmonic＿⟯ ⟮＿egressive＿⟯ sounds, ⟮between⟯ ⟮＿the two closure points＿⟯ something is ⟮raised⟯ to ⟮c_;create high pressure⟯, and then the ⟮first⟯ ⟮c_-2;＿closure point＿⟯ is ⟮released⟯.
+⟮＿Non-pulmonic airstream mechanisms＿⟯ always produce ⟮＿obstruents＿⟯.
 
 ###### glottalic
 
-In glottalic airstream mechanisms, the second closure point is produced by the glottis.
-In glottalic airstream mechanisms, pressure is achieved by the raising/lowwering of the glottis.
-implosive are phones produced by an ingressive glottalic airstream mechanism.
-ejectives are phones produced by an egressive glottalic airstream mechanism.
+In ⟮＿glottalic＿ ＿airstream mechanisms＿⟯, the ⟮second⟯ ⟮＿closure point＿⟯ is produced by ⟮＿the glottis＿⟯.
+In ⟮＿glottalic＿ ＿airstream mechanisms＿⟯, ⟮pressure⟯ is achieved by ⟮the raising/lowering⟯ of ⟮＿the glottis＿⟯.
+»⟮implosives⟯« are ⟮＿speech sounds＿⟯ produced by ⟮an ＿ingressive＿ ＿glottalic＿ ＿airstream mechanism＿⟯.
+»⟮ejectives⟯« are ⟮＿speech sounds＿⟯ produced by ⟮an ＿egressive＿ ＿glottalic＿ ＿airstream mechanism＿⟯.
 
 ###### velaric
 
-For the velaric/lingual ingressive airstream mechanism, the second closrue point is produced by the velum.
-Clicks are phones produced by a velaric/lingual ingressive airstream mechanism.
+For ⟮the ＿velaric/lingual＿ ＿ingressive＿ ＿airstream mechanism＿⟯, the ⟮second⟯ ⟮＿closrue point＿⟯ is produced by ⟮＿the velum＿⟯.
+»⟮Clicks⟯« are ⟮＿speech sounds＿⟯ produced by ⟮a ＿velaric/lingual＿ ＿ingressive＿ ＿airstream mechanism＿⟯.
 
 ### phonation
 
-Phonation is any state of the larynx that modifies the airstream.
-Phonation may sometimes more narrowly refer to voicing.
-Featurally, the laryngeal distinctive features describe the main axes of phonation.
-There are three laryngeal distinctive features.
-The three laryngeal distinctive features are [+/- voiced], [+/- aspirated AKA spread glottis], [+/- glottalized AKA constricted glottis]
+»⟮Phonation⟯« is ⟮any state⟯ of ⟮＿the larynx＿⟯ that ⟮modifies ＿the airstream＿⟯.
+⟮＿Phonation＿⟯ may sometimes more narrowly refer to ⟮＿voicing＿⟯.
+The distinctive features related to ⟮＿phonation＿⟯ are the ⟮＿laryngeal distinctive features＿⟯.
+There are ⟮three⟯ ⟮＿laryngeal distinctive features.＿⟯
+⟮The three ＿laryngeal distinctive features＿⟯ are ⟮[+/- voiced]⟯, ⟮[+/- aspirated AKA spread glottis]⟯, ⟮[+/- glottalized AKA constricted glottis]⟯
 
 #### anatomy
 
-Vocal folds = vocal cords.
-The larynx containes the vocal folds.
-The gap between the vocal folds is called the glottis.
-trachea = windpipe.
-The larynx sits on top of the trachea.
+⟮Vocal folds⟯ = ⟮vocal cords⟯.
+»⟮The larynx⟯« ⟮contains⟯ ⟮＿the vocal folds＿⟯.
+»⟮The glottis⟯« is ⟮the gap between⟯ ⟮＿the vocal folds＿⟯.
+⟮trachea⟯ = ⟮windpipe⟯.
+⟮＿The larynx＿⟯ ⟮sits on top of⟯ ⟮＿the trachea＿⟯.
 
 #### voicing
 
-Voicing is whether the distinctive feature [+/- voice] is present.
-[+/- voice] indicates that the vocal cords/folds are vibrating/not vibrating periodically.
-Devoicing is something [+voice] → [-voice]
-Voicing is something [-voice] → [+voice]
+»⟮Voicing⟯« is whether ⟮＿the vocal cords/folds＿⟯ are ⟮vibrating/not vibrating periodically⟯.
+⟮＿Voicing＿⟯ is indicated by the distinctive feature ⟮[+/- voice]⟯.
+»⟮Devoicing⟯« is something ⟮[+voice] → [-voice]⟯
+»⟮Voicing⟯« is something ⟮[-voice] → [+voice]⟯
+⟮Voiceless⟯ = ⟮unvoiced⟯
 
 ##### IPA
 
 table:phenomenon|IPA
-voicing|［◌̬］
-devoicing|［◌̥］
+⟮voicing⟯|⟮［◌̬］⟯
+⟮devoicing⟯|⟮［◌̥］⟯
 
 #### spread glottis
 
-The distinctive feature [+spread glottis] indicates that the vocal folds are wide open/drawn apart.
-All voiceless sounds have [+spread glottis].
-In addition, aspirated stops and consonants with breathy voice have [+spread glottis].
+＿The distinctive feature＿ ⟮[+spread glottis]⟯ indicates that ⟮＿the vocal folds＿⟯ are ⟮wide open/drawn apart⟯.
+⟮All⟯ ⟮＿voiceless＿⟯ sounds have ⟮[+spread glottis]⟯.
+In addition, ⟮＿aspirated＿⟯ sounds and sounds ⟮with ＿breathy voice＿⟯ have ⟮[+spread glottis]⟯.
 
 ##### aspiration
 
-Aspiration when the vocal folds remain open after a sound is produced.
-ergo [+spread glottis] for the purposes of aspiration means that the vocal folds remain open ⁑after⁑ the articulation.
-Since aspiration works somewhat differently from other [+spread glottis] features, sometimes [+aspiration] is used.
-Aspiration is indicated in the ipa via ［◌ʰ］
-Aspiration feels like a little burst of air to the speaker.
-The burst of air for aspiration can be felt by putting ones hand in front of one's mouth while saying an aspirated thing.
+»⟮Aspiration⟯« when ⟮＿the vocal folds＿⟯ ⟮remain open⟯ ⟮after a sound is produced⟯.
+ergo ⟮[+spread glottis]⟯ for the purposes of ⟮＿aspiration＿⟯ means that ⟮the vocal folds remain open⟯ ⟮⁑after⁑ the articulation⟯.
+Since ⟮aspiration works somewhat differently⟯ from⟮ other [+spread glottis] feature⟯s, sometimes ⟮[+aspiration]⟯ is used.
+⟮＿Aspiration＿⟯ is indicated in the ipa via ⟮［◌ʰ］⟯
+⟮＿Aspiration＿⟯ feels like ⟮a little burst of air⟯ to the speaker.
+⟮The burst of air⟯ for ⟮＿aspiration＿⟯ can be felt by ⟮putting ones hand in front of one's mouth⟯ while saying something.
 
 ##### breathy voice
 
-Breathy voice is also called murmured voice.
-Breathy voice is when the vocal folds vibrate, but allow more air to escape.
-Breathy voice has [+spread glottis] [+voiced]
-Breathy voice is indicated in the IPA as ［◌̤］.
+⟮Breathy voice⟯ is also called ⟮murmured voice.⟯
+»⟮Breathy voice⟯« is when the sound is ⟮＿voiced＿⟯, but ⟮＿the vocal folds＿⟯⟮ allow more air to escape⟯.
+⟮＿Breathy voice＿⟯ has the distinctive features ⟮[+spread glottis] [+voiced]⟯
+⟮＿Breathy voice＿⟯ is indicated in the IPA as ⟮［◌̤］⟯.
 
 #### constricted glottis
 
-Glottalization is the partial or complete closure or constriction of the glottis.
-[+constricted glottis] indicates glottalization.
-More rarely, [+glottalization] can indicate glottalization.
-Glottalization may be partial glottalization or total glottalization.
-A glottalized consonant/vowel is a consonant/vowel produced at the same time as glottalization.
-Stiff voice is very slight glottalization.
-Creaky voice is partial glottalization.
-Glottal stops, glottalized consonants/vowels and obstruents with an glottal articulatory mechanism all feature total glottalization.
+»⟮Glottalization⟯« is ⟮the partial or complete closure or constriction⟯ of ⟮＿the glottis＿⟯.
+The distinctive feature ⟮[+constricted glottis]⟯ indicates ⟮＿glottalization＿⟯.
+More rarely, the distinctive feature ⟮[+glottalization]⟯ can indicate ⟮＿glottalization＿⟯.
+⟮＿Glottalization＿⟯ may be ⟮＿partial glottalization＿⟯ or ⟮＿total glottalization＿⟯.
+»⟮A glottalized consonant/vowel⟯« is ⟮a consonant/vowel⟯ ⟮produced at the same time⟯ as ⟮＿total glottalization＿⟯.
+»⟮Stiff voice⟯« is ⟮very slight⟯ ⟮＿glottalization＿⟯.
+»⟮Creaky voice⟯« is ⟮＿partial glottalization＿⟯.
+⟮Glottal stops⟯, ⟮glottalized consonants/vowels⟯ and ⟮consonants with an ＿glottal＿ ＿initiation mechanism＿⟯ all feature ⟮＿total glottalization＿⟯.
 
 ##### glottal consonants
 
