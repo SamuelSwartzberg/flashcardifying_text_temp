@@ -499,30 +499,29 @@ Whether something is ⟮＿a continuant or occlusive＿⟯ is indicated by the d
 
 ###### release
 
-The release release (my term) of an occlusive is when the articulators are separated.
-The only-maybe-release (my term) of an occlusive is when the next phone starts, no matter if the articulators don't cease to make contact.
-Release is ambiguous between release release and only-maybe-release
-A sound with a silent release (my term) has a release release that is silent.
-A sound with a no release (my term) has no release release, only a only-maybe-release, instead transitioning without release to the next phone.
-A no release must generally be homorganic.
-No audible release is ambiguous between silent release and no release.
-A lateral release is a no release where the next phone is a lateral sound.
-A nasal release is a no release where the next phone is a nasal sound.
-Any occlusive can be only-maybe-released in a variety of ways.
+»⟮The release release⟯« (my term) of ⟮＿an occlusive＿⟯ is ⟮when ＿the articulators＿ are separated⟯.
+A sound with »⟮a silent release⟯« (my term) has ⟮＿a release release＿⟯ that ⟮is silent⟯.
+A sound with »⟮a no release release⟯« (my term) has ⟮no ＿release release＿⟯, ⟮instead transitioning to the next phone⟯.
+⟮＿A no release release＿⟯ must generally be ⟮＿homorganic＿⟯.
+»⟮Release⟯« is ⟮ambiguous between⟯ ⟮＿release release＿⟯ and ⟮＿no release release＿⟯.
+»⟮A only-maybe-release⟯« (my term) is either ⟮⟮＿a release release＿⟯ (including possibly ⟮＿a silent release＿⟯)⟯ or ⟮＿a no-release release.＿⟯
+»⟮No audible release⟯« is ⟮ambiguous between⟯ ⟮＿silent release＿⟯ and ⟮＿no release release＿⟯.
+»⟮A lateral release⟯« is ⟮＿a no release release＿⟯ where ⟮the next ＿speech sound＿⟯ is a ⟮＿lateral＿⟯ sound.
+»⟮A nasal release⟯« is ⟮＿a no release release＿⟯ where ⟮the next ＿speech sound＿⟯ is a ⟮＿nasal＿⟯ sound.
 
 ####### affricate
 
-An affricate is a stop with a release release as a fricative, or equivalently, a no release into a fricative.
-Whether something is an affricate is indicated by the disinctive feature [+/- delayed release]
-Affricates in the IPA are indicated by two symbols united by a tie on top or more rarely at the bottom.
+»⟮An affricate⟯« is ⟮＿an occlusive＿⟯ with ⟮＿a release release＿⟯ ⟮as ＿a fricative＿⟯, or equivalently, ⟮c-;＿a no release release＿⟯ ⟮into ＿a fricative＿⟯.
+Whether something is ⟮＿an affricate＿⟯ is indicated by the disinctive feature ⟮[+/- delayed release]⟯
+⟮＿Affricates＿⟯ are transcribed in the IPA by ⟮uniting⟯ ⟮the ＿occlusive＿ and ＿fricative＿⟯ with ⟮a tie⟯ ⟮on top⟯ or more rarely ⟮c_;at the bottom⟯.
 p͡f, t͡ɕ etc.
 
 ####### IPA
 
 table:name|symbol
-no audible release|［◌̚］, e.g. ［p̚］
-nasal release|superscript of the relevant nasal stop, e.g. ［◌ⁿ］
-lateral release|［◌ˡ］
+⟮no audible release⟯|⟮［◌̚］, e.g. ［p̚］⟯
+⟮nasal release⟯|⟮superscript of the relevant nasal stop, e.g. ［◌ⁿ］⟯
+⟮lateral release⟯|⟮［◌ˡ］⟯
 
 ##### nasals 
 
