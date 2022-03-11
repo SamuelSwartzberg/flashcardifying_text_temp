@@ -495,7 +495,7 @@ In all cases, ⟮stop⟯ is a synonym to ⟮occlusive⟯.
 An occlusive is a sound that obstructs airflow anywhere but the nose.
 ⟮＿A continuant＿⟯ is the opposite of ⟮＿an occlusive＿⟯.
 Whether something is ⟮＿a continuant or occlusive＿⟯ is indicated by the distinctive feature ⟮[+/- continuant]⟯.
-⟮Oral stop/occlusive⟯ may be shortened to ⟮stop/occlusive⟯, but this is confusing, so I won't.
+⟮Oral occlusive⟯ may be shortened to ⟮stop/occlusive⟯, but this is confusing, so I won't.
 
 ###### release
 
@@ -525,52 +525,48 @@ table:name|symbol
 
 ##### nasals 
 
-A nasal is one where velum is lowered to allow air to escape through the nose.
-Whether a sound is nasal is indicated by the distinctive feature [+/-] nasal
-To indicate a nasal sound for which there is no dedicated ipa letter, ［◌̃］ is used.
+A sound is »⟮nasal⟯« if ⟮＿the velum＿⟯ is ⟮lowered⟯ to ⟮allow air to escape through the nose⟯.
+Whether a sound is ⟮＿nasal＿⟯ is indicated by the distinctive feature ⟮[+/- nasal] ⟯
+To indicate a ⟮＿nasal＿⟯ sound for which there is no dedicated ipa letter, ⟮［◌̃］⟯ is used.
 
 ##### occlusive + nasal
 
 ###### oral occlusive
 
-An oral occlusive is [-continuant] [-nasal]. (i.e. an oral closure with no lowered velum)
-Oral occlusives may also be called plosives.
-Oral occlusives without an audible release may sometimes be called applosives.
-Oral occlusive may be shortened to stop/occlusive, but this is confusing, so I won't.
+»⟮An oral occlusive⟯« is ⟮[-continuant] [-nasal]. (i.e. an oral closure with no lowered velum)⟯
+⟮＿Oral occlusives＿⟯ may also be called ⟮plosives⟯.
+»⟮An applosive⟯« is a ⟮＿oral occlusives＿⟯ with ⟮＿a silent release＿⟯
 
 ####### implosives
 
-Implosives are always oral occlusives.
-Implosives are most often voiced.
+⟮＿Implosives＿⟯ are always ⟮＿oral occlusives＿⟯.
+⟮＿Implosives＿⟯ are most often ⟮＿voiced＿⟯.
 
 ###### nasal occlusive
 
-A nasal occlusive is [-continuant] [+nasal]. (i.e. an oral closure with lowered velum)
-Nasal occlusive may be shortened to nasal, but this is confusing, so I won't.
+»⟮A nasal occlusive⟯« is ⟮[-continuant] [+nasal]. (i.e. an oral closure with lowered velum)⟯
+⟮＿Nasal occlusive＿⟯ may be shortened to ⟮nasal⟯, but this is confusing, so I won't.
 
 ##### lateral consonants
 
-A lateral is a sound in which the airstream proceeds along the sides of the tongue, but it is blocked by the tongue from going through the middle of the mouth. 
-Whether something is lateral is described by the distinctive feature [+/- lateral]
-Manners of consonants that can become lateral are fricatives/affricates, approximants, taps/flaps and clicks.
+»⟮A lateral⟯« is a sound in which ⟮＿the airstream＿ proceeds⟯ ⟮along the sides of the tongue⟯ and ⟮is blocked by the tongue from going through the middle of the mouth⟯. 
+Whether something is ⟮＿lateral＿⟯ is described by the distinctive feature ⟮[+/- lateral]⟯
+Manners of consonants that can become ⟮＿lateral＿⟯ are ⟮＿fricatives/affricates＿⟯, ⟮approximants⟯, ⟮taps/flaps⟯ and ⟮clicks⟯.
 
 ##### approximants
 
-Approximants are those sounds that have some narrowing but still allow a frictionless escape of air.
-
-Approximants (narrow) sense fall between fricatives and vowels.
+»⟮Approximants (narrow)⟯« are those sounds that ⟮have some narrowing⟯ but ⟮still allow a mostly frictionless escape of air⟯.
+⟮＿Approximants (narrow)＿⟯ ⟮fall between⟯ ⟮＿fricatives＿⟯ and ⟮c_;＿vowels＿⟯.
 
 ##### fricatives
 
-Fricatives produced by forcing air through a narrow channel made by placing two articulators close together.
-Fricatives are a type of obstruent consonant.
-frication is the turbulent airflow produced for the formation of fricatives.
-Stridents are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth.
+»⟮Fricatives⟯« are produced by forcing air through a narrow channel made by placing two articulators close together.
+»⟮frication⟯« is the turbulent airflow produced for the formation of fricatives.
+»⟮Stridents⟯« are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth.
 The sound produced by stridents is in higher amplitude and pitch.
-Sibilants are a further subset of stridents.
-Stridency is encoded in the distinctive feature [+/- strident].
-Sibilancy may sometimes be encoded in the distinctive feature [+/- sibilant]
-
+»⟮Sibilants⟯« are a further subset of stridents.
+⟮＿Stridency＿⟯ is encoded in the distinctive feature ⟮[+/- strident]⟯.
+⟮＿Sibilancy＿⟯ may sometimes be encoded in the distinctive feature ⟮[+/- sibilant]⟯
 
 #### coarticulation
 
