@@ -325,81 +325,80 @@ https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
 
 »⟮The oral cavity⟯« is ⟮the space between⟯ ⟮the pharynx⟯ and ⟮c_;the teeth⟯.
 ⟮＿The oral cavity＿⟯ ⟮corresponds roughly⟯ to what we would ordinarily call ⟮the mouth⟯.
-The passive places of articulation from dental to uvular sit within the oral cavity.
+⟮＿The passive places of articulation＿⟯ from ⟮＿dental＿⟯ to ⟮c_;＿uvular＿⟯ sit within ⟮＿the oral cavity＿⟯.
 
-The alveolar ridge is a gum line just behind the teeth
-The uvula is the bulb hanging down at the entrance to the pharyngeal cavity.
-From the front, the hard palate comes before the soft palate
-The soft palate is also called velum.
+»⟮The alveolar ridge⟯« is ⟮a gum line⟯ ⟮just behind⟯ ⟮the teeth⟯
+»⟮The uvula⟯« is ⟮the bulb⟯ ⟮hanging down⟯⟮ at the entrance⟯ to ⟮＿the pharyngeal cavity＿⟯.
+From the front, ⟮the hard palate⟯ ⟮comes before⟯ ⟮the soft palate⟯
+⟮The soft palate⟯ is also called ⟮velum⟯.
 
 ###### nasal cavity
 
 ###### pharyngeal cavity
 
-The pharyngeal cavity is defined by the pharynx.
-The pharyngeal cavity is what we would ordinarily call the throat.
-The pharynx is a vertical muscular tube.
-The pharynx sits on top of the larynx and extends up into the nasal cavity.
-The pharynx as a passive place of articulation is the back of the actual pharynx.
-The epiglottis is a flap that sits at the back of the mouth and can seal the epiglottis.
+»⟮The pharyngeal cavity⟯« is ⟮defined by⟯ ⟮＿the pharynx＿⟯.
+⟮＿The pharyngeal cavit＿⟯y is what we would ordinarily call ⟮the throat⟯.
+»⟮The pharynx⟯« is a ⟮vertical⟯ ⟮muscular tube⟯.
+»⟮The pharynx⟯« sits ⟮on top of⟯ ⟮＿the larynx＿⟯ and ⟮extends up into⟯ ⟮＿the nasal cavity＿⟯.
+»⟮The pharynx⟯« as a ⟮＿passive place of articulation＿⟯ is ⟮the back of⟯ ⟮＿the actual pharynx＿⟯.
+»⟮The epiglottis⟯« is ⟮a flap⟯ that sits ⟮at the back of the mouth⟯ and can ⟮seal ＿the epiglottis＿⟯.
 
 ##### passive place of articulation
 
-Passive places of articulation from front to back: labial, dental, prealveolar, alveolar, postalveolar, palatal, velar, uvular, pharyngeal, epiglottal, (glottis)
+⟮＿Passive places of articulation＿⟯ from front to back: ⟮c+;s∞;us_-;labial⟯, ⟮c+;s∞;us_-;dental⟯, ⟮c+;s∞;us_-;prealveolar⟯, ⟮c+;s∞;us_-;alveolar⟯, ⟮c+;s∞;us_-;postalveolar⟯, ⟮c+;s∞;us_-;palatal⟯, ⟮c+;s∞;us_-;velar⟯, ⟮c+;s∞;us_-;uvular⟯, ⟮c+;s∞;us_-;pharyngeal⟯, ⟮c+;s∞;us_-;epiglottal⟯, (⟮c+;s∞;us_-;glottal⟯)
 
 
 table:name|place
-Labial|the upper lip
-Dental|the upper teeth, either on the edge of the teeth or inner surface 
-Prealveolar|before the alveolar ridge
-Alveolar|The alveolar ridge
-Postalveolar|The back of the alveolar ridge
-Palatal|The hard palate
-Velar|The soft palate
-Uvular|The uvula 
-Pharyngeal|The pharynx
-Epiglottal|The walls at the entrance to the trachea
+»⟮Labial⟯«|⟮the upper lip⟯
+»⟮Dental⟯«|⟮the upper teeth, either on the edge of the teeth or inner surface ⟯
+»⟮Prealveolar⟯«|⟮before the alveolar ridge⟯
+»⟮Alveolar⟯«|⟮The alveolar ridge⟯
+»⟮Postalveolar⟯«|⟮The back of the alveolar ridge⟯
+»⟮Palatal⟯«|⟮The hard palate⟯
+»⟮Velar⟯«|⟮The soft palate⟯
+»⟮Uvular⟯«|⟮The uvula⟯ 
+»⟮Pharyngeal⟯«|⟮The pharynx⟯
+»⟮Epiglottal⟯«|⟮The walls at the entrance to the trachea⟯
 
 
-##### active place of articulation
+##### !active place of articulation
 
-There are three active articulator: Lips, tongue, and the pharynx.
-Labial sounds are articulated with the lips as the active articulator.
-The tongue articulator part (my term) is the general part of the tongue that approaches the passive articulator.
-There are three tongue articulator parts: coronal, dorsal, and radical
-Ergo coronal, dorsal and radical sounds are articulated with the tongue as the active articulator.
-The active place of articulation supercategory (my term) is either the active articulator articulator involved (if not tongue), or the tongue articulator parts.
-The specific active place of articulation is the active place of articulation supercategory, further precisefied as necessary (e.g. for coronal)
-The place distinctive features map onto the active place of articulation supercategory, but minus the pharynx.
-The four place distinctive features are [labial], [coronal], [dorsal], [radical]
+There are three ⟮＿active articulator＿⟯: ⟮Lips⟯, ⟮tongue⟯, and ⟮the pharynx⟯.
+»⟮Labial⟯« sounds are articulated with ⟮the lips⟯ as ⟮＿the active articulator＿⟯.
+The »⟮tongue articulator part⟯« (my term) is ⟮the general part of the tongue⟯ that ⟮approaches the ＿passive articulator＿⟯.
+There are three ⟮＿tongue articulator parts＿⟯: ⟮coronal⟯, ⟮dorsal⟯, and ⟮radical⟯
+Ergo ⟮＿coronal＿⟯, ⟮＿dorsal＿⟯ and ⟮＿radical＿⟯ sounds are articulated with ⟮the tongue⟯ as ⟮＿the active articulator＿⟯.
+»⟮The active place of articulation supercategory⟯« (my term) is either ⟮＿the active articulator＿ involved (if not tongue)⟯, or ⟮＿the tongue articulator part＿⟯.
+»⟮The specific active place of articulation⟯« (my term) is ⟮＿the active place of articulation supercategory＿⟯, ⟮further precisefied as necessary (e.g. for coronal)⟯
+⟮＿The place distinctive features＿⟯ ⟮map onto⟯ ⟮＿the active place of articulation supercategory＿⟯, but minus ⟮the pharynx⟯.
+The four »⟮place distinctive features⟯« are ⟮[labial]⟯, ⟮[coronal]⟯, ⟮[dorsal]⟯, ⟮[radical]⟯
 
 ###### labial
 
-Labial sounds are articulated with the lips as the active articulator.
-Labial sounds may have a specific degree of rounding.
-Rounding is how round the lips are.
-Labial sounds with a high degree of rounding is indicated by the distinctive feature [+round]
+⟮＿Labial＿⟯ sounds may have a certain amount of ⟮＿rounding＿⟯.
+»⟮Rounding⟯« is ⟮how round the lips are⟯.
+⟮＿Labial＿⟯ sounds with ⟮a high degree of ＿rounding⟯＿ is indicated by the distinctive feature ⟮[+round]⟯
 
 ####### types
 
 flex-container:✫sm_paste-9d57b921c2367caed7728b4ecc2e08a61fccaafe.jpg✫✫sm_paste-5da6ee49b0be29e64772806d15b710f95be11ec5.jpg✫
 
 
-There are two forms of rounding, protruded rounding anc compressed rounding.
-In protruded rounding, the lips push out of the face to produce the rounding.
-In compressed rounding, the lip push onto each other and do not push out to produce rounding.
-There are no dedicated IPA diacritics to represent the distinctio between compressed and protruded rounding.
-In absence of a dedicated IPA letter,  ⟨◌ᵝ⟩ or ⟨◌ᶹ⟩ are sometimes used for compressed rounding.
-In absence of a dedicated IPA letter, ⟨◌ʷ⟩ are sometimes used for protruded rounding.
+There are two forms of ⟮＿rounding＿⟯, ⟮＿protruded rounding＿⟯ and ⟮＿compressed rounding＿⟯.
+In »⟮protruded rounding⟯«, ⟮the lips⟯ ⟮push⟯ ⟮out of the face⟯ ⟮c_;to produce the ＿rounding＿⟯.
+In »⟮compressed rounding⟯«, ⟮the lips⟯ ⟮push⟯ ⟮onto each other⟯ ⟮c_;and do not push out to produce ＿rounding＿⟯.
+⟮There are no dedicated⟯ ⟮IPA diacritics⟯ to represent the distinction between ⟮＿compressed and protruded rounding＿⟯.
+In absence of a dedicated IPA letter, ⟮［◌ᵝ］⟯ or ⟮［◌ᶹ］⟯ are sometimes used for ⟮＿compressed rounding＿⟯.
+In absence of a dedicated IPA letter, ⟮［◌ʷ］⟯ is sometimes used for ⟮＿protruded rounding＿⟯.
 
 ####### as secondary articulation
 
-Labialization is secondary articulation that is labial.
-For consonants, labialization if not further specified generally refers to labialization with very little rounding.
-Vowel rounding is just labialization of vowels with a specific degree of rounding.
-labialization is indicated in the IPA as［◌ʷ］.
-Labialization is the most common form of secondary articulation.
-Labialized sounds' places of articulation are often called labio-‹primary-articulation-place›.
+»⟮Labialization⟯« is ⟮＿secondary articulation＿⟯ that is ⟮＿labial＿⟯.
+For ⟮＿consonants＿⟯, ⟮＿labialization＿⟯ if ⟮not further specified⟯ generally refers to ⟮c_-;＿labialization＿⟯ ⟮with very little rounding⟯.
+»⟮Vowel rounding⟯« is just ⟮＿labialization＿⟯ of ⟮＿vowels＿⟯ with ⟮a specific degree of ＿rounding＿⟯.
+⟮＿labialization＿⟯ is indicated in the IPA as ⟮［◌ʷ］⟯.
+⟮＿Labialization＿⟯ is ⟮the most common form⟯ of ⟮＿secondary articulation＿⟯.
+⟮＿Labialized＿⟯ sounds' ⟮＿places of articulation＿⟯ are often called ⟮labio-‹primary-articulation-place›⟯.
 
 ######## common labialized consonants
 
@@ -582,12 +581,12 @@ Sibilancy may sometimes be encoded in the distinctive feature [+/- sibilant]
 
 #### coarticulation
 
-Co-articulated sounds are produced with two or more simultaneous places of articulation.
+Co-articulated sounds are produced with two or more simultaneous articulations.
 Co-articulated sounds may be doubly articulated sounds or sounds with secondary articulation.
 
 ##### secondary articulation
 
-A sound with secondary articulation is a co-articulated sound whose second place of artculation has a manner of approximant.
+Secondary articulation is co-articulated sound where the second place of artculation has a manner of approximant.
 Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
 Names for secondary articulation take the name of the passive place of articulation and add -ization.
 e.g. labialization:［◌ʷ］, pharyngealization:［◌ˤ］, velarization:［◌ˠ］
