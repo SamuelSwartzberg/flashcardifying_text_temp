@@ -363,21 +363,24 @@ table:name|place
 
 ##### !active place of articulation
 
-There are three ⟮＿active articulator＿⟯: ⟮Lips⟯, ⟮tongue⟯, and ⟮the pharynx⟯.
-»⟮Labial⟯« sounds are articulated with ⟮the lips⟯ as ⟮＿the active articulator＿⟯.
+There are three ⟮＿active articulators＿⟯: ⟮Lips⟯, ⟮tongue⟯, and ⟮the pharynx⟯.
 The »⟮tongue articulator part⟯« (my term) is ⟮the general part of the tongue⟯ that ⟮approaches the ＿passive articulator＿⟯.
 There are three ⟮＿tongue articulator parts＿⟯: ⟮coronal⟯, ⟮dorsal⟯, and ⟮radical⟯
-Ergo ⟮＿coronal＿⟯, ⟮＿dorsal＿⟯ and ⟮＿radical＿⟯ sounds are articulated with ⟮the tongue⟯ as ⟮＿the active articulator＿⟯.
+Ergo ⟮＿coronal＿⟯, ⟮＿dorsal＿⟯ and ⟮＿radical＿⟯ active places of articulation are articulated with ⟮the tongue⟯ as ⟮＿the active articulator＿⟯.
+»⟮Labial⟯« is an active place of articulation supercategory articulated with ⟮the lips⟯ as ⟮＿the active articulator＿⟯ and thus also the active place of articulation.
+Pharyngeal is an active place of articulation supercategory articulated with the pharynx as the active articulator and thus also the active place of articulation.
+Coronal is an active place of articulation supercategory articulated with the front part of the tongue as the active place of articulation.
+Dorsal is an active place of articulation supercategory articulated with the body of the tongue as the active place of articulation.
+Radical is an active place of articulation supercategory articulated with the root/base of the tongue as the active place of articulation.
 »⟮The active place of articulation supercategory⟯« (my term) is either ⟮＿the active articulator＿ involved (if not tongue)⟯, or ⟮＿the tongue articulator part＿⟯.
-»⟮The specific active place of articulation⟯« (my term) is ⟮＿the active place of articulation supercategory＿⟯, ⟮further precisefied as necessary (e.g. for coronal)⟯
 ⟮＿The place distinctive features＿⟯ ⟮map onto⟯ ⟮＿the active place of articulation supercategory＿⟯, but minus ⟮the pharynx⟯.
 The four »⟮place distinctive features⟯« are ⟮[labial]⟯, ⟮[coronal]⟯, ⟮[dorsal]⟯, ⟮[radical]⟯
 
 ###### labial
 
-⟮＿Labial＿⟯ sounds may have a certain amount of ⟮＿rounding＿⟯.
+⟮＿labial＿⟯ active articulation may have a certain amount of ⟮＿rounding＿⟯.
 »⟮Rounding⟯« is ⟮how round the lips are⟯.
-⟮＿Labial＿⟯ sounds with ⟮a high degree of ＿rounding⟯＿ is indicated by the distinctive feature ⟮[+round]⟯
+⟮＿Labial＿⟯ active articulation with ⟮a high degree of ＿rounding⟯＿ is indicated by the distinctive feature ⟮[+round]⟯
 
 ####### types
 
@@ -402,106 +405,97 @@ For ⟮＿consonants＿⟯, ⟮＿labialization＿⟯ if ⟮not further specifie
 
 ######## common labialized consonants
 
-Since labialization is so common, dedicated IPA letters exist for some labialized sounds.
+Since it is is ⟮so common⟯, ⟮dedicated IPA letters⟯ exist for ⟮some ＿labialized＿ sounds⟯.
 ⟮［ɥ］⟯ is a ⟮voiced⟯ ⟮labio-palatal⟯ ⟮approximant⟯
 
 ######### labiovelars
 
-The most common labialized consonants are the labiovelars.
+The most common ⟮＿labialized＿⟯ consonants are the ⟮labiovelars⟯.
 ［⟮ʍ⟯］ is a ⟮voice​less⟯ ⟮labio​velar⟯ ⟮approxi​mant⟯
 ［⟮w⟯］ is a ⟮voiced⟯ ⟮labiovelar⟯ ⟮approximant⟯
 
 ####### relative articulation
 
-Sounds having a greater/lesser degree of rounding as usual may be indicated in the IPA by a half-circle below the symbol
+labialization having ⟮a greater/lesser degree of ＿rounding＿ than usual⟯ may be indicated in the IPA by ⟮a half-circle below the symbol⟯
 
 
 table:rounding|symbol
-less rounding|［◌̜］
-more rounding|［◌̹］
+⟮less rounding⟯|⟮［◌̜］⟯
+⟮more rounding⟯|⟮［◌̹］⟯
 
 ###### tongue
 
 ####### coronal
 
-Coronal sounds are articulated with tongue as the active articulator, and with the flexible front part of that.
-Coronal sounds are further sudivided into laminal, apical and subapical sounds.
-The tip of the tongue is its absolute tip, just in front of the blade.
-The blade of the tongue is the upper front surface of the tongue just behind the tip.
-Laminal sounds are actively articulated with the blade of the tongue.
-Apical sounds are actively articulated with ⟮＿the tip of the tongue＿⟯.
-Subapical sounds are sounds articulated with the underside of the tip of the tongue.
-Laminal and subapical sounds are identified by the distinctive feature [+distributed].
-Apical sounds are identified by the distinctive feature [-distributed].
+The ⟮＿coronal＿⟯ ⟮＿ tongue articulator part＿⟯ is further sudivided into ⟮＿laminal＿⟯, ⟮＿apical＿⟯ and ⟮＿subapical＿⟯ ⟮＿active places of articulation＿⟯.
+»⟮The tip (of the tongue)⟯« is ⟮its absolute tip⟯, ⟮just in front of⟯ ⟮＿the blade＿⟯.
+»⟮The blade (of the tongue)⟯« it's ⟮the upper front surface⟯ ⟮just behind⟯ ⟮＿the tip＿⟯.
+»⟮Laminal⟯« is ⟮＿an active place of articulation＿⟯ at ⟮＿the blade of the tongue＿⟯.
+»⟮Apical⟯« is ⟮＿an active place of articulation＿⟯ at ⟮＿the tip of the tongue＿⟯.
+»⟮Subapical⟯« is ⟮＿an active place of articulation＿⟯ on ⟮the underside of ＿the tip of the tongue＿⟯.
+⟮＿Laminal＿⟯ and ⟮c_;＿subapical＿⟯ ⟮＿active places of articulation＿⟯ are identified by the distinctive feature ⟮[+distributed]⟯.
+⟮＿Apical＿⟯ ⟮＿active places of articulation＿⟯ are identified by the distinctive feature ⟮[-distributed]⟯.
 
 ######## ipa
 
-The subdivision of coronal sounds can only be indicated by diacritics.
+The subdivision of coronal sounds can ⟮only⟯ be indicated by ⟮c_;diacritics⟯.
 
 
 table:coronal articulation|symbol|mnemonic
-laminal|［◌̻］|a square is lame
-apical|［◌̺］
+⟮laminal⟯|⟮［◌̻］⟯|⟮h∞;a square is lame⟯
+⟮apical⟯|⟮［◌̺］⟯
 
 ####### dorsal
 
-Dorsal sounds are sounds articulated with the body of the tongue as the active articulator.
-For consonants, only [+/- dorsal] is generally relevant, however all vowels are [+dorsal], and therefore specify further distinctive features.
-The further distinctive feature subdivision of [+dorsal] is [+/- high/mid/low], [+/- back/central/front]
-
-####### radical 
-
-Radical sounds are sounds articulated with the root/base of of the tongue as the active articulator.
-
-####### pharyngeal
-
-A pharyngeal consonant is a consonant that is articulated primarily in the pharynx. 
+⟮＿Consonants＿⟯ are typically either ⟮[+dorsal] or [-dorsal]⟯.
+⟮＿All vowels＿⟯ are ⟮[+dorsal]⟯.
+⟮＿Vowels＿⟯ ⟮further subdivide⟯ ⟮[+dorsal]⟯.
+The further distinctive feature subdivision of ⟮[+dorsal]⟯ is ⟮[+/- high/mid/low]⟯, ⟮[+/- back/central/front]⟯
 
 ##### articulator pairs
 
 ###### articulation names
 
-table:class=yesno;style=text-align:center;span=1,2;Active articulator →|span=1,3;labial|span=3;coronal                                                                                                 |span=1,3;dorsal |span=1,3;radical|span=1,3;aryepiglottal
-                                                                                        span=1,2;laminal   |span=1,2;apical                                |span=1,2;subapical
-Passive articulator ↓                                                                                                                                                                                                                                                                                    
-Labial                                                                 |bilabial       |span=2;linguolabial|class=no;                                      |class=no;                                  |class=no;       |class=no;
-Dental                                                                 |labiodental    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |class=no;
-Dental                                                                 |class="no";    |span=2;dental      |class=no;                                      |class=no;                                  |class=no;       |class=no;       
-Prealveolar                                                            |class="no";    |denti-alveolar     |class=no;                                      |class=no;                                  |class=no;       |class=no;       |class=no;
-Alveolar                                                               |class="no";    |span=2;alveolar    |class=no;                                      |class=no;                                  |class=no;       |class=no;       
-Postalveolar                                                           |class="no";    |palato-alveolar    |retroflex (more precisely: apical postalveolar)|class=no;                                  |alveolo-palatal |class=no;       |class=no;
-Palatal                                                                |class="no";    |class=no;          |class=no;                                      |retroflex (more precisely: true retroflex) |palatal         |class=no;       |class=no;
-Velar                                                                  |class="no";    |class=no;          |class=no;                                      |subapical velar                            |velar           |class=no;       |class=no;
-Uvular                                                                 |class="no";    |class=no;          |class=no;                                      |class=no;                                  |uvular          |class=no;       |class=no;
-Pharyngial                                                             |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |pharyngeal      |class=no;
-Epiglottal                                                             |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |(ary-)epiglottal
-Glottal                                                                |class="no";    |class=no;          |class=no;                                      |class=no;                                  |class=no;       |class=no;       |glottal
+table:class=yesno;style=text-align:center;Active place of articulation supercategory→|span=1,3;labial    |span=3;coronal                                                                                                            |span=1,3;dorsal    |span=1,3;radical|span=1,3;aryepiglottal
+!Active place of articulation →                                                                          span=1,2;laminal       |span=1,2;apical                                    |span=1,2;subapical
+!Passive place of articulation ↓                                                                                                                                                                                                                                                                                                 
+!Labial                                                                              |⟮s∞;bilabial⟯       |span=2;⟮s∞;linguolabial⟯                                                    |class=no;                                     |class=no;          |class=no;       |class=no;
+!Dental                                                                              |⟮s∞;labiodental⟯    |span=2;⟮s∞;dental⟯                                                          |class=no;                                     |class=no;          |class=no;       |class=no;  
+!Prealveolar                                                                         |class="no";        |⟮s∞;denti-alveolar⟯     |class=no;                                          |class=no;                                     |class=no;          |class=no;       |class=no;
+!Alveolar                                                                            |class="no";        |span=2;⟮s∞;alveolar⟯                                                        |class=no;                                     |class=no;          |class=no;       |class=no;       
+!Postalveolar                                                                        |class="no";        |⟮s∞;palato-alveolar⟯    |⟮s∞;retroflex (more precisely: apical postalveolar)⟯|class=no;                                     |⟮s∞;alveolo-palatal⟯|class=no;       |class=no;
+!Palatal                                                                             |class="no";        |class=no;              |class=no;                                          |⟮s∞;retroflex (more precisely: true retroflex)⟯|⟮s∞;palatal⟯         |class=no;       |class=no;
+!Velar                                                                               |class="no";        |class=no;              |class=no;                                          |⟮s∞;subapical velar⟯                           |⟮s∞;velar⟯           |class=no;       |class=no;
+!Uvular                                                                              |class="no";        |class=no;              |class=no;                                          |class=no;                                     |⟮s∞;uvular⟯          |class=no;       |class=no;
+!Pharyngial                                                                          |class="no";        |class=no;              |class=no;                                          |class=no;                                     |class=no;          |⟮s∞;pharyngeal⟯   |class=no;
+!Epiglottal                                                                          |class="no";        |class=no;              |class=no;                                          |class=no;                                     |class=no;          |class=no;       |⟮s∞;(ary-)epiglottal⟯
+!Glottal                                                                             |class="no";        |class=no;              |class=no;                                          |class=no;                                     |class=no;          |class=no;       |⟮s∞;glottal⟯
 
 ###### distinctive features
 
-Coronal sounds that are dental, prealveolar and alveolar are [+anterior]/[-posterior]
-Coronal sounds that are postalveolar are [-anterior]/[+posterior]
+Sounds with a ⟮＿coronal＿⟯ ⟮＿active place of articulation supercategory＿⟯ that have ⟮＿a dental, prealveolar or alveolar＿⟯ ⟮＿passive place of articulation＿⟯ have the distinctive feature ⟮[+anterior]/[-posterior]⟯
+Sounds with a ⟮＿coronal＿⟯ ⟮＿active place of articulation supercategory＿⟯ that have a ⟮＿postalveolar＿⟯ ⟮＿passive place of articulation＿⟯ have the distinctive feature ⟮[-anterior]/[+posterior]⟯
 
 ###### details
 
-The term retroflex should impliy that the tongue is curled (subapical palatal), in fact it is often merely apical postalveolar.
-palato-alveolar also means the tongue is domed up.
-Dental or denti-alveolar consonants are often not distinguished from alveolar consonants,as the difference is often not contrastive/phonemic
-The larger group dental, denti-alveolar, alveolar may also be called alveolar.
-Only alveolar in the larger sense has unique IPA symbols outside of fricatives.
+»⟮Retroflex⟯« (strong) is when ⟮the tongue is curled⟯, which generally means ⟮＿subapical＿⟯ and ⟮＿palatal＿ (ggf ＿postalveolar＿)⟯.
+»⟮Retroflex⟯« (weak/technically not) is ⟮＿apical＿⟯ ⟮＿postalveolar＿⟯.
+⟮The difference between⟯ ⟮＿dental＿⟯, ⟮c_;＿denti-alveolar＿⟯ and ⟮c_;＿alveolar＿⟯ ⟮＿places of articulation＿⟯ is generally not ⟮＿phonemic＿⟯
+The larger group ⟮＿dental＿⟯, ⟮c_;＿denti-alveolar＿⟯, ⟮＿alveolar＿⟯ may also be called »⟮alveolar (in the larger sense)⟯«.
+The IPA only has ⟮different symbols for⟯ ⟮＿dental, denti-alveolar and alveolar＿⟯ for ⟮＿fricatives＿⟯
 
 #### manner of articulation
 
-Featurally, the manner of articulation is described by 5 manner distinctive features.
-The 5 manner distinctive features are [+/- continuant], [+/- nasal], [+/- strident], [+/- lateral], [+/- delayed release].
+Featurally, the ⟮＿manner of articulation＿⟯ is described by ⟮5⟯ ⟮＿manner distinctive features＿⟯.
+⟮The 5 ＿manner distinctive features＿⟯ are ⟮[+/- continuant]⟯, ⟮[+/- nasal]⟯, ⟮[+/- strident]⟯, ⟮[+/- lateral]⟯, ⟮[+/- delayed release]⟯.
 
 ##### continuant
 
-In all cases, stop is a synonym to occlusive.
-A continuant is the opposite of an occlusive.
-Whether something is a continuant or occlusive is indicated by the distinctive feature [+/- continuant].
+In all cases, ⟮stop⟯ is a synonym to ⟮occlusive⟯.
 An occlusive is a sound that obstructs airflow anywhere but the nose.
-Oral stop/occlusive may be shortened to stop/occlusive, but this is confusing, so I won't.
+⟮＿A continuant＿⟯ is the opposite of ⟮＿an occlusive＿⟯.
+Whether something is ⟮＿a continuant or occlusive＿⟯ is indicated by the distinctive feature ⟮[+/- continuant]⟯.
+⟮Oral stop/occlusive⟯ may be shortened to ⟮stop/occlusive⟯, but this is confusing, so I won't.
 
 ###### release
 
@@ -720,15 +714,16 @@ ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
 
 #### vowels
 
-table:|⟮c+;s1:10;Front⟯|⟮c+;s1:10;Central⟯|⟮c+;s1:10;Back⟯
-type=th;⟮c+;s1:10;Close⟯| ⟮c+;s∞;us1:10;i⟯•⟮c+;s∞;us1:10;y⟯ |⟮c+;s∞;us1:10;ɨ⟯•⟮c+;s∞;us1:10;ʉ⟯ |⟮c+;s∞;us1:10;ɯ⟯•⟮c+;s∞;us1:10;u⟯
-⟮c+;s1:10;Near-close⟯|⟮c+;s∞;us1:10;ɪ⟯•⟮c+;s∞;us1:10;ʏ⟯•⟮c+;s∞;us1:10;ʊ⟯
-type=th;⟮c+;s1:10;Close-mid⟯|⟮c+;s∞;us1:10;e⟯•⟮c+;s∞;us1:10;ø⟯ |⟮c+;s∞;us1:10;ɘ⟯•⟮c+;s∞;us1:10;ɵ⟯ |⟮c+;s∞;us1:10;ɤ⟯•⟮c+;s∞;us1:10;o⟯
-⟮c+;s1:10;Mid⟯| |⟮c+;s∞;us1:10;ə⟯
-type=th;⟮c+;s1:10;Open-mid⟯|⟮c+;s∞;us1:10;ɛ⟯•⟮c+;s∞;us1:10;œ⟯|⟮c+;s∞;us1:10;ɜ⟯•⟮c+;s∞;us1:10;ɞ⟯|⟮c+;s∞;us1:10;ʌ⟯•⟮c+;s∞;us1:10;ɔ⟯
-⟮c+;s1:10;Near-open⟯|⟮c+;s∞;us1:10;æ⟯•|⟮c+;s∞;us1:10;ɐ⟯
-type=th;⟮c+;s1:10;Open⟯⟮c+;s∞;us1:10;a⟯•⟮c+;s∞;us1:10;ɶ⟯|⟮c+;s∞;us1:10;ä⟯•|⟮c+;s∞;us1:10;ɑ⟯•⟮c+;s∞;us1:10;ɒ⟯
+!table:             |⟮Front⟯|⟮c_;Central⟯|⟮c_;Back⟯
+!type=th;⟮Close⟯     |⟮i⟯•⟮y⟯  |⟮ɨ⟯•⟮ʉ⟯     |⟮ɯ⟯•⟮u⟯
+!type=th;⟮Near-close⟯|⟮ɪ⟯•⟮ʏ⟯  |          |•⟮ʊ⟯
+!type=th;⟮Close-mid⟯ |⟮e⟯•⟮ø⟯  |⟮ɘ⟯•⟮ɵ⟯     |⟮ɤ⟯•⟮o⟯
+!type=th;⟮Mid⟯       |       |⟮ə⟯
+!type=th;⟮Open-mid⟯  |⟮ɛ⟯•⟮œ⟯  |⟮ɜ⟯•⟮ɞ⟯     |⟮ʌ⟯•⟮ɔ⟯
+!type=th;⟮Near-open⟯ |⟮æ⟯•    |⟮ɐ⟯
+!type=th;⟮Open⟯      |⟮a⟯•⟮ɶ⟯  |⟮ä⟯•       |⟮ɑ⟯•⟮ɒ⟯
 
+The near-close are most commonly also only near-back/near-front (instead of fully so like shown in the able)
 Near front near close vowel's IPA symbols are smallcaps versions of the front close ones.
 For the IPA vowel chart, further down more open and further up more closed since it describes tngue height relative to the top of the mouth, at least in theory.
 The unrounded version of the back closed vowel is double the u compared the rounded version of the back closed vowel.
@@ -738,16 +733,16 @@ The rounded near-back near-close vowel looks like the ひ kana.
 
 ## length
 
-The length of a phone is its extension in time relative to other phones.
-［◌ˑ］ indicates something that is half-length.
-［◌̆］ indicates something that is extra-short.
-［◌ː］ indicates something that is longer/lengthened.
+»⟮The length⟯« of a phone is ⟮its extension in time⟯ ⟮relative to⟯ other phones.
+⟮［◌ˑ］⟯ indicates something that is ⟮half-length⟯.
+⟮［◌̆］⟯ indicates something that is ⟮extra-short⟯.
+⟮［◌ː］⟯ indicates something that is ⟮longer/lengthened⟯.
 
 ### gemination
 
-Gemination is the lengthening of consonants.
-A geminate is a consonant exhibiting gemination.
-A singleton is not a geminate (i.e. regular length)
-In many alphabets, geminates are written with doubled letters.
-Oral occlusives experience gemination by holding the closure.
-Nasal occlusives and continuants (which contain vowels, though it is rarely called gemination for vowels) experience gemination by lengthening of the sound. sss
+»⟮Gemination⟯« is ⟮the lengthening⟯ of ⟮＿consonants＿⟯.
+»⟮A geminate⟯« is ⟮＿a consonant＿⟯ ⟮exhibiting gemination⟯.
+»⟮A singleton⟯« is ⟮not ＿a geminate＿ (i.e. regular length)⟯
+In many alphabets, ⟮＿geminates＿⟯ are written with ⟮doubled letters⟯.
+⟮＿Oral occlusives＿⟯ experience ⟮＿gemination＿⟯ by ⟮holding the closure⟯.
+⟮＿Nasal occlusives＿⟯ and ⟮＿continuants (which contain vowels, though it is rarely called ⟮s_+;gemination⟯ for vowels)＿⟯ experience ⟮＿gemination＿⟯ by ⟮lengthening of the sound⟯.
