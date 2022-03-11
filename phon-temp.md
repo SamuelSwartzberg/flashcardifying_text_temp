@@ -1,5 +1,3 @@
-
-
 # phonetics
 
 »⟮Phonetics⟯« is a branch of linguistics that studies ⟮＿phones＿⟯.
@@ -620,73 +618,72 @@ table:IPA classification|distictive feature
 ##### rhotacization
 
 r-colored vowel = rhotic vowel (amongst other names)
-On a physical level, a rhotic vowel has a lower F3.
-In american english, an r following a vowel frequently only indicates a rhotic vowel.
-rhotic vowels are uncommon crosslinguistically.
-However, rhotic vowels are common in two of the most widely-spoken languages: american english and mandarin chinese.
-rhotic vowels are indicated in the IPA by ［◌˞］ or by a superscript turned r ［ʴ］
+»⟮A rhotic vowel⟯« is a vowel with ⟮a lower F3⟯.
+⟮＿A rhotic vowel＿⟯ sounds (to english speakers) like there is ⟮an r present⟯.
+In english orthography for ⟮american english⟯, ⟮a vowel grapheme⟯ + ⟮r grapheme⟯ frequently only indicates ⟮＿a rhotic vowel＿⟯ instead of ⟮an actual rhotic consonant⟯.
+⟮＿rhotic vowels＿⟯ are ⟮uncommon⟯ ⟮crosslinguistically⟯, however they are ⟮c-;common⟯ in ⟮two of the most widely-spoken languages: american english and mandarin chinese⟯.
+⟮＿rhotic vowels＿⟯ are indicated in the IPA by ⟮［◌˞］⟯ or by ⟮a superscript turned r ［ʴ］⟯
 
 ##### monopthongs/dipthongs
 
-Monopthong and dipthong are two kinds of vowels often distinguished.
-A monopthong is a vowel sound that stays the same during its articulation.
-A dipthong is a vowel sound that changes between two vowels during articulation.
-A monopthong may be called a pure, a dipthong an impure vowels.
-Since a dipthong changes from one vowel to another, it may also be called a glide.
+⟮＿Vowels＿⟯ may either be ⟮＿monopthongs＿⟯ or ⟮＿dipthongs＿⟯.
+»⟮A monopthong⟯« is a vowel sound that ⟮stays the same during its articulation⟯.
+»⟮A dipthong⟯« is a vowel sound that ⟮changes between two vowels during articulation⟯.
+⟮＿A monopthong＿⟯ may be called a ⟮pure⟯, ⟮c-;＿a dipthong＿⟯ an ⟮impure⟯ vowels.
+Since ⟮＿a dipthong＿⟯ ⟮changes from one vowel to another⟯, it may also be called ⟮a glide⟯.
 
 #### relative articulation
 
-Relative articulation is the modification of the articulation of a phone relative to some reference point.
+»⟮Relative articulation⟯« is ⟮the modification⟯ of ⟮＿the articulation＿⟯ of a speech sound ⟮relative to some reference point⟯.
 e.g. advanced/retracted, raised/lowered, centralized/mid-centralized and more rarely advanced/retracted tongue root
 
 ##### forms of relative articulation
 
-advanced = fronted
-retracted = backed
-An advanced/retracted sound is one that is pronounced farther to the front/back of the vocal tract than some reference point. 
-A raised/lowered sound is articulated with the active articulator raised higher/lower than some reference point
-A centralized vowel is a vowel that is more central (front-back) than some point of reference.
-Mid-centralized vowels are closer to the midpoint of the vowel space than their referent vowels. 
-A sound with advanced or retracted tongue root has the root of the tongue move forward/backward, expanding/shringking the pharyngeal cavity.
-A sound with retracted tongue root may also be seen as pharyngealized.
+⟮advanced⟯ = ⟮fronted⟯
+⟮retracted⟯ = ⟮backed⟯
+Something »⟮advanced/retracted⟯« is articulated ⟮farther to the front/back of the vocal tract⟯ than ⟮some reference point⟯. 
+Something »⟮raised/lowered⟯« is articulated with ⟮＿the active articulator＿⟯ ⟮raised higher/lower⟯ than ⟮some reference point⟯
+A »⟮centralized⟯« vowel is ⟮more central (front-back)⟯ than ⟮its referent vowel⟯.
+A »⟮mid-centralized⟯« vowel is ⟮closer to the midpoint of the vowel space⟯ than ⟮its referent vowel⟯. 
+»⟮advanced or retracted tongue root⟯« is ⟮the root of the tongue⟯ ⟮moving forward/backward⟯, ⟮expanding/shringking⟯ ⟮＿the pharyngeal cavity＿⟯.
+A sound with ⟮＿retracted tongue root＿⟯ may also be seen as ⟮＿pharyngealized＿⟯.
 
 ##### IPA
 
-The IPA diacritic for advanced/retracted, raised/lowered, advanced/retracted tongue root generally appears below the IPA symbol.
-The IPA diacritic for advanced/retracted, raised/lowered, advanced/retracted tongue root generally appears to the right of the IPA symbol if there is no more room
+The IPA diacritic for ⟮＿advanced/retracted＿⟯, ⟮＿raised/lowered＿⟯, ⟮＿advanced/retracted tongue root＿⟯ generally appears ⟮below⟯ ⟮the IPA symbol⟯, or to the ⟮c-;right⟯ of ⟮the IPA symbol⟯ if ⟮there is no more room⟯
 
 
 table:relative articulation|IPA symbol
-advanced|［◌̟］
-retracted|［◌̠］
-raised|［◌̝］ 
-lowered|［◌̞］
-centered|［◌̈］
-mid-centralized|［◌̽］
-Advanced Tongue Root|［◌̘］
-Retracted Tongue Root|［◌̙］
+⟮advanced⟯|⟮［◌̟］⟯
+⟮retracted⟯|⟮［◌̠］⟯
+⟮raised⟯|⟮［◌̝］⟯
+⟮lowered⟯|⟮［◌̞］⟯
+⟮centered⟯|⟮［◌̈］⟯
+⟮mid-centralized⟯|⟮［◌̽］⟯
+⟮advanced tongue root⟯|⟮［◌̘］⟯
+⟮retracted tongue root⟯|⟮［◌̙］⟯
 
 ### IPA
 
 #### general principles
 
-If there is no 'room' beneath an IPA symbol, you place a diacritic that would normally go there above instead.
+Generally, if ⟮there is no 'room'⟯ ⟮beneath⟯ an IPA symbol, you place a diacritic that would normally go there ⟮above⟯ instead.
 
 #### consonants
 
 ##### main table
 
-table:class=yesno;Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
-Manner ↓
-type=th;Plosive                             |⟮p⟯|⟮b⟯               ||                   |span=3;⟮t⟯|span=3;⟮d⟯                                                       |⟮ʈ⟯|⟮ɖ⟯              |⟮c⟯|⟮ɟ⟯           |⟮k⟯|⟮ɡ⟯          |⟮q⟯|⟮ɢ⟯          |⟮ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
-type=th;Nasal                               ||⟮m⟯                ||⟮ɱ⟯                  |span=3;|span=3;⟮n⟯                                                         ||⟮ɳ⟯                ||⟮ɲ⟯             ||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
-type=th;Trill                               ||⟮ʙ⟯                ||                    |span=3;|span=3;⟮r⟯                                                         ||                 ||                |class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
-type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮ɾ⟯                                                         ||⟮ɽ⟯               ||                |class=no;|class=no;|||||class=no;|class=no;
-type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮l⟯                                                         ||⟮ɭ⟯               ||                ⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
-type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮ɬ⟯|span=3;⟮ɮ⟯                                                       ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
-type=th;Approximant                         ||                  ||⟮ʋ⟯                  |span=3;|span=3;⟮ɹ⟯                                                         |⟮ɻ⟯|                |⟮j⟯|             |⟮ɰ⟯||||class=no;|class=no;|
-span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
-type=th;Fricative                           |⟮ɸ⟯|⟮β⟯               |⟮f⟯|⟮v⟯                |⟮θ⟯|⟮ð⟯                 |⟮s⟯|⟮z⟯                  |⟮ʃ⟯|⟮ʒ⟯                       |⟮ʂ⟯|⟮ʐ⟯              |⟮ç⟯|⟮ʝ⟯           |⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
+table:class=yesno;!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
+!Manner ↓
+!type=th;Plosive                             |⟮p⟯|⟮b⟯               ||                   |span=3;⟮t⟯|span=3;⟮d⟯                                                       |⟮ʈ⟯|⟮ɖ⟯              |⟮c⟯|⟮ɟ⟯           |⟮k⟯|⟮ɡ⟯          |⟮q⟯|⟮ɢ⟯          |⟮ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
+!type=th;Nasal                               ||⟮m⟯                ||⟮ɱ⟯                  |span=3;|span=3;⟮n⟯                                                         ||⟮ɳ⟯                ||⟮ɲ⟯             ||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
+!type=th;Trill                               ||⟮ʙ⟯                ||                    |span=3;|span=3;⟮r⟯                                                         ||                 ||                |class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
+!type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮ɾ⟯                                                         ||⟮ɽ⟯               ||                |class=no;|class=no;|||||class=no;|class=no;
+!type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮l⟯                                                         ||⟮ɭ⟯               ||                ⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
+!type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮ɬ⟯|span=3;⟮ɮ⟯                                                       ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
+!type=th;Approximant                         ||                  ||⟮ʋ⟯                  |span=3;|span=3;⟮ɹ⟯                                                         |⟮ɻ⟯|                |⟮j⟯|             |⟮ɰ⟯||||class=no;|class=no;|
+!span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
+!type=th;Fricative                           |⟮ɸ⟯|⟮β⟯               |⟮f⟯|⟮v⟯                |⟮θ⟯|⟮ð⟯                 |⟮s⟯|⟮z⟯                  |⟮ʃ⟯|⟮ʒ⟯                       |⟮ʂ⟯|⟮ʐ⟯              |⟮ç⟯|⟮ʝ⟯           |⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
 
 ##### extra sounds
 
@@ -703,11 +700,6 @@ table:symbol|place
 ⟮ǃ⟯|⟮(Post)alveolar⟯
 ⟮ǂ⟯|⟮Palatoalveolar⟯
 ⟮ǁ⟯|⟮Alveolar lateral⟯
-
-###### mnemonics
-
-The alveolar click is the only one that uses a punctiation mark as an IPA symbol.
-
 
 ##### mnemonics
 
