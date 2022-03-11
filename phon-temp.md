@@ -560,44 +560,62 @@ Manners of consonants that can become ⟮＿lateral＿⟯ are ⟮＿fricatives/a
 
 ##### fricatives
 
-»⟮Fricatives⟯« are produced by forcing air through a narrow channel made by placing two articulators close together.
-»⟮frication⟯« is the turbulent airflow produced for the formation of fricatives.
-»⟮Stridents⟯« are a subset of fricatives where additionally a stream of air is directed by the tongue towards the teeth.
-The sound produced by stridents is in higher amplitude and pitch.
-»⟮Sibilants⟯« are a further subset of stridents.
+»⟮Fricatives⟯« are those sounds that ⟮produce ＿frication＿⟯.
+»⟮frication⟯« is ⟮turbulent⟯ ⟮＿airflow＿⟯.
+»⟮frication⟯« is produced by ⟮forcing air⟯ ⟮through a narrow channel⟯ made by ⟮placing ＿the articulator pair＿ close together⟯.
+
+###### stridents
+
+»⟮Stridents⟯« are ⟮a subset of⟯ ⟮＿fricatives＿⟯ which contains ⟮＿sibilants＿⟯ as well as ⟮labiodental and uvular fricatives⟯.
+The sound produced by ⟮＿stridents＿⟯ is ⟮higher⟯ in ⟮amplitude⟯ and ⟮c_;pitch⟯.
+
+###### sibilant
+
+»⟮Sibilants⟯« are ⟮a further subset⟯ of ⟮＿stridents＿⟯ where ⟮＿the airstream＿⟯ is ⟮directed by the tongue⟯ ⟮towards the teeth⟯.
+⟮＿Sibilants＿⟯ have a ⟮characteristically intense⟯ sound.
+All ⟮＿sibilants＿⟯ have ⟮＿an active place of articulation supercategory＿⟯ of ⟮＿coronal＿⟯.
+⟮＿Fricatives＿⟯ with ⟮＿an active place of articulation supercategory＿⟯ of ⟮＿coronal＿⟯ are ⟮prototypically⟯ ⟮＿sibilants＿⟯, outside of the ⟮＿dental＿⟯ ones.
+The ⟮IPA symbols⟯ for ⟮the coronal fricatives (outside of dental obv)⟯ imply ⟮＿sibilancy＿⟯.
+⟮Non-sibilant⟯ ⟮coronal fricatives⟯ exist, but ⟮must be diacriticized, e.g. from the dental fricatives⟯
+
+⟮＿Sibilants＿⟯ may be divided into the ⟮＿hissing＿⟯ and the ⟮c_;＿hushing＿⟯ ⟮c-;＿sibilants＿⟯.
+The »⟮hissing⟯« sibilants are ⟮alveolar⟯, the »⟮c-;hushing⟯« sibilants are ⟮postalveolar (or further back)⟯.
+The »⟮hissing⟯« sibilants have an ⟮even higher⟯ ⟮pitch⟯ than the »⟮c_-2;hushing⟯« sibilants.
+
+###### distinctive features
+
 ⟮＿Stridency＿⟯ is encoded in the distinctive feature ⟮[+/- strident]⟯.
 ⟮＿Sibilancy＿⟯ may sometimes be encoded in the distinctive feature ⟮[+/- sibilant]⟯
 
 #### coarticulation
 
-Co-articulated sounds are produced with two or more simultaneous articulations.
-Co-articulated sounds may be doubly articulated sounds or sounds with secondary articulation.
+»⟮Co-articulation⟯« is having ⟮two or more simultaneous⟯ ⟮＿articulations＿⟯.
+⟮＿Co-articulation＿⟯ may be ⟮＿double articulation＿⟯ or ⟮＿secondary articulation＿⟯.
 
 ##### secondary articulation
 
-Secondary articulation is co-articulated sound where the second place of artculation has a manner of approximant.
-Secondary articulation is indicated in the IPA by superscripting the approximant version of the letter, where the place indicated by the superscript is the place which is articulated with the manner of approximant.
-Names for secondary articulation take the name of the passive place of articulation and add -ization.
+»⟮Secondary articulation⟯« is ⟮＿co-articulation＿⟯ where ⟮the second ＿place of artculation＿⟯ has ⟮a manner of approximant⟯.
+⟮＿Secondary articulation＿⟯ is indicated in the IPA by ⟮superscripting⟯ the ⟮approximant version⟯ of ⟮the letter⟯
+⟮Names⟯ for ⟮＿secondary articulation＿⟯ take ⟮the name of ＿the place of articulation＿⟯ and ⟮add -ization⟯.
 e.g. labialization:［◌ʷ］, pharyngealization:［◌ˤ］, velarization:［◌ˠ］
-［ɫ］is an exeption, indicating velarization or pharyngialization.
-Although the superscripting of a letter for secondary articulation seems to imply that it is simlar to the release diacritics which also use superscripts, in fact secondary articulation is simultaneous to the primary articulation.
+⟮［ɫ］⟯is an exeption, indicating ⟮velarization or pharyngialization⟯.
+Although the ⟮superscripting⟯ of a letter for ⟮＿secondary articulation＿⟯ seems to imply that it is simlar to ⟮the release diacritics⟯, in fact ⟮c_-;＿secondary articulation＿⟯ is ⟮simultaneous⟯ to the ⟮c_-2;＿primary articulation＿⟯.
 
-##### doubly articulated cononants
+##### double articulation
 
-Doubly articulated sounds are are co-articulated sounds whose places share the same manner.
+»⟮Double articulation⟯« is ⟮＿co-articulation＿⟯ whose ⟮places⟯ ⟮share the same manner⟯.
 
 #### vowels
 
-Vowels are classified ⟮by the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
-In fact it is not tongue height and tongue backness but formant frequencies what the IPA/distinctive features end up describing.
-the vowel written ə is called schwa
-F1, F2, F3 = first, second, third formant
+⟮＿Vowels＿⟯ are classified in ⟮the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
+In fact it is not ⟮tongue height⟯ and ⟮c_;tongue backness⟯ but ⟮formant frequencies⟯ what the IPA/distinctive features end up describing.
+⟮F1, F2, F3⟯ = ⟮first, second, third formant⟯
 
 
 table:IPA classification|distictive feature
-tongue height|[+/- high/mid/low]
-tongue backness|[+/- front/central/back]
-lip rounding|[+/- labial/round]
+⟮tongue height⟯|⟮[+/- high/mid/low]⟯
+⟮tongue backness⟯|⟮[+/- front/central/back]⟯
+⟮lip rounding⟯|⟮[+/- labial/round]⟯
 
 ##### rhotacization
 
@@ -725,6 +743,7 @@ The unrounded version of the back closed vowel is double the u compared the roun
 the IPA vowels spelled wit oe/E ligatures are both front and both rounded.
 ɶ is lower in the vowel chart than œ.
 The rounded near-back near-close vowel looks like the ひ kana.
+the vowel written ⟮ə⟯ is called ⟮schwa⟯
 
 ## length
 
