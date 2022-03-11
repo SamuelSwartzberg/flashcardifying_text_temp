@@ -267,62 +267,64 @@ More rarely, the distinctive feature ⟮[+glottalization]⟯ can indicate ⟮＿
 
 ##### glottal consonants
 
-Only some glottal consonants are glottalized (since they are distinguished based on glottalization).
-glottal consonants have the glottis as their articulatior, in a sense.
-glottal consonants may have two manners, oral stops and fricatives.
-the glottal stop has [+constricted glottis] [-voice]
-the voiceless glottal fricative has [-constricted glottis] [-voice]
-The voiced glottal fricative is also called the breathy-voiced glottal transition.
-The voiced glottal fricative has [+spread glottis] [-constricted glottis] [+voice]
-And then there's the breathy-voiced glottal fricative
+»⟮glottal consonants⟯« have ⟮＿the glottis＿⟯ as ⟮＿their articulatior＿⟯, in a sense.
+⟮＿glottal consonants＿⟯ may have either of two ⟮＿manners of articulation＿⟯, ⟮＿oral occlusive＿⟯ or ⟮＿fricative＿⟯.
+⟮Only some⟯ ⟮＿glottal consonants＿⟯ are ⟮＿glottalized＿⟯ (since ⟮they are distinguished based on glottalization⟯).
+the ⟮glottal stop⟯ has the distinctive features ⟮[+constricted glottis] [-voice]⟯
+the ⟮voiceless glottal fricative⟯ has the distinctive features ⟮[-constricted glottis] [-voice]⟯
+The ⟮voiced glottal fricative⟯ is also called the ⟮breathy-voiced glottal fricative⟯.
+The ⟮voiced glottal fricative⟯ has the distinctive features ⟮[+spread glottis] [-constricted glottis] [+voice]⟯
 
 ##### IPA
 
-Creaky voice is indicated in the IPA as ［◌̰］
+⟮＿Creaky voice＿⟯ is trasncribed in the IPA as ⟮［◌̰］⟯
 
 ### articulation
 
-Articulation is the shaping of airflow to get a sound.
-An articulator is a feature within the vocal tract that is used for articulation.
-An active articulator is an articulator that moves.
-A passive articulator is an articulator that cannot move.
-An articulator pair (rare term) is is the combination of an active and a passive articulatior 
-Most often, it is an articulator pair that performs articulation.
-The place of articulation is the place where the articulator pair approach each other.
-The manner of articulation is the type of approaching/contact that the articulator pair make.
-An articulation consists of the place and manner of articulation of an articulatory pair.
+»⟮Articulation⟯« is ⟮the shaping⟯ of ⟮＿the airflow＿⟯ to ⟮get a sound⟯.
+»⟮An articulator⟯« is ⟮a feature⟯ ⟮within ＿the vocal tract＿⟯ that is ⟮used for ＿articulation＿⟯.
+»⟮An active articulator⟯« is ⟮＿an articulator＿⟯ that ⟮moves⟯.
+»⟮A passive articulator⟯« is ⟮＿an articulator＿⟯ that ⟮cannot move⟯.
+⟮＿Articulation＿⟯ requires ⟮＿the active＿ and ＿passive articulator＿⟯ to ⟮approach each other⟯.
+»⟮An articulation⟯« is⟮ the place and manner⟯ of ⟮the approach⟯ of ⟮＿an articulator pair＿⟯.
+»⟮An articulator pair⟯« are ⟮＿the active＿ and ＿passive articulator＿⟯ involved in ⟮＿an articulation＿⟯.
+»⟮The place of articulation⟯« is ⟮the place⟯ of ⟮the approach⟯ of ⟮＿the articulatory pair＿⟯ of ⟮＿an articulation＿⟯.
+»⟮The manner of articulation⟯« is ⟮the manner⟯ of ⟮the approach⟯ of ⟮＿the articulatory pair＿⟯ of ⟮＿an articulation＿⟯.
+⟮＿The place of articulation＿⟯ can be divided into ⟮＿active＿ and ＿passive place of articulation＿⟯.
+»⟮The active/passive articulator⟯« is ⟮a specific ＿active/passive articulator＿⟯ involved in ⟮a given ＿articulation＿⟯.
+»⟮The active/passive place of articulation⟯« is ⟮where on⟯ ⟮＿the active/passive articulator＿⟯ ⟮the approach takes place⟯.
 
 #### place of articulation
 
-The place of articulation depends on what the passive and active articulator are, and where on the active articulator the approaching occurs.
-Featurally, the place distinctive features are concerned with the place of the active articulator.
-Most articulations have their own names.
-For any passive place of articulation, there are only a few possible active articulator configuration.
-Most terms that describe the passive place of articulation also describe the entire place of articulation.
-Two sounds are homorganic if they share the same place of articulation.
+»⟮The place distinctive features⟯« are concerned with ⟮the place⟯ of ⟮＿the active articulator＿⟯.
+Most places of articulations have their own names.
+For any ⟮＿passive place of articulation＿⟯, there are ⟮only a few possible⟯ ⟮＿active places of articulation.＿⟯
+Most terms that describe ⟮＿the passive place of articulation＿⟯ ⟮also describe⟯ ⟮the place of articulation⟯.
+Two sounds are »⟮homorganic⟯« if ⟮they share the same⟯ ⟮＿place of articulation＿⟯.
 
 ##### glottis
 
-The glottis is sometimes considered a articulatory pair of its own, though it is more properly part of phonation.
+⟮＿The glottis＿⟯ is sometimes ⟮considered to be⟯ ⟮＿a articulatory pair＿⟯ ⟮c_-;of its own⟯, though it is more properly part of ⟮＿phonation＿⟯.
 
 ##### anatomy of the vocal tract
 
 https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/35/ds00349_-ds00756_im00110_c7_nasopharynxthu_jpg.jpg
 https://upload.wikimedia.org/wikipedia/commons/d/d4/Illu01_head_neck.jpg
 
-The vocal tract is all the cavities above the larynx and the anatomy contained within.
-The vocal tract consists of the buccal, oral, nasal and pharyngeal cavities and everything contained within.
-Articulation occurs completely with parts of the vocal tract.
-The vocal tract is also used in in some airstream mechanisms.
+»⟮The vocal tract⟯« is ⟮＿the vocal cavities＿⟯ and ⟮the anatomy contained within⟯.
+»⟮The vocal cavities⟯« are a set of ⟮four⟯ ⟮cavities⟯ ⟮above⟯ ⟮＿the larynx＿⟯.
+»⟮The vocal cavities⟯« specifically are the ⟮＿buccal＿⟯, ⟮＿oral＿⟯, ⟮＿nasal＿⟯ and ⟮＿pharyngeal cavities＿⟯ 
+⟮＿Articulation＿⟯ is performed with the ⟮＿the vocal tract＿⟯.
+⟮＿The vocal tract＿⟯ is also used for some ⟮＿airstream mechanisms＿⟯.
 
 ###### buccal cavity
 
-The buccal cavity is the space between the teeth and the cheeks.
+»⟮The buccal cavity⟯« is ⟮the space between⟯ ⟮the teeth⟯ and ⟮c_;the cheeks⟯.
 
 ###### oral cavity
 
-The oral cavity is the space between the pharynx and the teeth.
-The oral cavity corresponds roughly to what we would ordinarily call the mouth.
+»⟮The oral cavity⟯« is ⟮the space between⟯ ⟮the pharynx⟯ and ⟮c_;the teeth⟯.
+⟮＿The oral cavity＿⟯ ⟮corresponds roughly⟯ to what we would ordinarily call ⟮the mouth⟯.
 The passive places of articulation from dental to uvular sit within the oral cavity.
 
 The alveolar ridge is a gum line just behind the teeth
@@ -361,14 +363,19 @@ Epiglottal|The walls at the entrance to the trachea
 
 ##### active place of articulation
 
+There are three active articulator: Lips, tongue, and the pharynx.
+Labial sounds are articulated with the lips as the active articulator.
+The tongue articulator part (my term) is the general part of the tongue that approaches the passive articulator.
+There are three tongue articulator parts: coronal, dorsal, and radical
+Ergo coronal, dorsal and radical sounds are articulated with the tongue as the active articulator.
+The active place of articulation supercategory (my term) is either the active articulator articulator involved (if not tongue), or the tongue articulator parts.
+The specific active place of articulation is the active place of articulation supercategory, further precisefied as necessary (e.g. for coronal)
+The place distinctive features map onto the active place of articulation supercategory, but minus the pharynx.
 The four place distinctive features are [labial], [coronal], [dorsal], [radical]
-The four place distinctive features (plus pharyngeal, which isn't a distinctive feature) specify the place of the active articulator
-Ergo, labial sounds are those with [labial], coronal sounds are those with [coronal], etc.
-Labial sounds ([labial]) are articulated with the lower lip as the active articulator.
-Coronal, dorsal and radical sounds are all articulated with the tongue as the active articulator.
 
 ###### labial
 
+Labial sounds are articulated with the lips as the active articulator.
 Labial sounds may have a specific degree of rounding.
 Rounding is how round the lips are.
 Labial sounds with a high degree of rounding is indicated by the distinctive feature [+round]
