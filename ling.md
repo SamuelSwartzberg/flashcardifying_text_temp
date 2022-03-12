@@ -1,4 +1,4 @@
-# grammar
+# grammar (supercategory of all of this)
 
 Most broadly, grammar is the sets of rules governing a languoid.
 A reference work on the grammar of a language may also be known as a grammar, more precisely as a reference grammar.
@@ -10,12 +10,12 @@ In linguistics, an empty category is an element in the study of syntax that does
 An empty category = something unpronounced is often indicated by ø or ＊e＊
 In linguistics, a string is a sequence of words/sounds that we don't want to put any deeper analytical category on just yet.
 
-## syntax
+# syntax
 
 Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
 Morphosyntax is where morphology and syntax interset.
 
-### branching
+## branching
 
 <div class="c1-f">
 What feature does this tree exhibit?
@@ -42,30 +42,30 @@ What's the problem with saying a language is left-branching/right-branching? <sp
 {{c1::left-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-final}}
 {{c1::right-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-initial}}
 
-### Information structure
+## Information structure
 
 Information structure is the subfield of linguistics describing how information is organized within a sentence.
 Information structure mainly consists of the three oppoositions of focus/background, topic/comment, and givenness/new
 
-### Expletives
+## Expletives
 
 An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
 Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
 E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
 
-### Grammatical relations
+## Grammatical relations
 
 Grammatical relations are subjects and objects, and perhaps others depending on your theory.
 Grammatical relations are different things to different theorists.
 The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
 
-### labelled bracket
+## labelled bracket
 
 Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
 Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
 leaf ::= #somestring
 
-### frameworks
+## frameworks
 
 Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
 Generative semantics was a response to generative grammar developed in the 1960s.
@@ -73,7 +73,7 @@ The conflict between propoonents of generative grammar and generative semantics 
 The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
-### constituents
+## constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
 The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
@@ -102,7 +102,7 @@ Gertrude wasn't interested in art.
 Interested in art, Gertrude wasn't.
 ```
 
-### phrasees
+## phrasees
 
 a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
 The head of a phrase is the thing everything else in the phrase is about.
@@ -110,7 +110,7 @@ In a phrase, everything that isn't the head is a dependent.
 In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
 head-initial|English (partially)
 
-#### unsorted
+### unsorted
 
 <pre><code data-codetype="text">*the lady’s a book</code></pre> <span class="divider">-&gt;</span> {{c1::That possessive s is a determiner}}
 <pre><code data-codetype="text">Ann’s car</code></pre><pre><code data-codetype="text">She's car</code></pre> <span class="divider">-&gt;</span> {{c1::Possessor DPs cannot be replaced by pronouns}}
@@ -130,7 +130,7 @@ What type of constitutent is the thing after a posessive s? <span class="divider
 What type of constitutent is the thing before a posessive s? <span class="divider">-&gt;</span> {{c1::A DP}}
 the children’s toys <span class="divider">-&gt;</span> {{c1::the toys of the children}}
 
-#### X-bar framework-based
+### X-bar framework-based
 
 
 The X-bar theory asserts that all phrases have the structure ✫https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png✫, which is called the X-bar schema.
@@ -197,7 +197,7 @@ to test whether a CP is an adjunct or a complement, use a proform test on the Ve
 
 The object is the thing that is the complement of the VP.
 
-##### IPs
+#### IPs
 
 under the IP theory, the sentence is an IP headed by an I.
 The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
@@ -212,7 +212,7 @@ class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
 
 
-##### VP-internal subject hypothesis
+#### VP-internal subject hypothesis
 
 According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
 According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
@@ -231,7 +231,7 @@ class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
 class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
 someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
 
-##### DP hypothesis: 
+#### DP hypothesis: 
 
 The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
 The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
@@ -254,7 +254,7 @@ class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-###### posessive s
+##### posessive s
 
 class=blank-canvas;span=3;class=inner;⟮DP⟯
 class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
@@ -269,7 +269,7 @@ span=1,2;|class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
 
-##### NP hypothesis
+#### NP hypothesis
 
 class=blank-canvas;span=2;class=inner;⟮NP⟯
 class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
@@ -278,20 +278,20 @@ class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-##### IP hypothesis
+#### IP hypothesis
 
 Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
 Multiple auxiliaries are adjoined as Vs to the VP.
 Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
 
-##### early modern english
+#### early modern english
 
 Lexical verbs could move to I, and thus to C, following the HMC.
 In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
 In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
 "What heards't thou?"
 
-##### german sentences
+#### german sentences
 
 The german main clause V2, subordinate clause V-final constituent order is explained as follows:
 In german, VP and IP are head-filnal
@@ -302,12 +302,12 @@ In german subordinate clauses, the V can't move to C, because that is typically 
 If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
 Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
 
-#### types of phrases
+### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
 
-### clauses
+## clauses
 
 A clause links a predicand (expressed or not) with a predicate.
 
@@ -339,19 +339,19 @@ A subordinate/dependent clause cannot stand alone as a sentence.
 Independent clause = main clause ≈ root clause ≈ matrix clause
 A independent clause can stand alone as a sentence.
 
-#### subordinate clauses
+### subordinate clauses
 
 An embedded question is a question that is a subordinate clause.
 As CPs generally are, embedded questions are adjuncts of the VP or complements of the verb (in japanese too)
 
-##### relative clause
+#### relative clause
 
 A relative clause is a subordinate clause that describes a DP/NP
 A ⟮relative clause⟯ is a ⟮subordinate clause⟯ which generally ⟮describes the referent of its head⟯.
 I met a furry who was passionate.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
-#### interrogative
+### interrogative
 
 In syntax, an interrogative clause has a particular type of syntax and/or prosoody, which is typically used to ask question (attach the illocutionary act/force of asking a question).
 Languages may have diffrent types of interrogative clauses (i.e. different syntaxes used to ask different types of questions).
@@ -360,18 +360,18 @@ In many languages, besides syntax/prosody, written exchanges often indicate inte
 
 If syntax is used to indicate an interrogative, it may be in the form of conjugating the verb, changing the word order, adding interrogative words, particles, or other constituents, or often a combination of these.
 
-##### conjugation
+#### conjugation
 
-##### word order
+#### word order
 
-###### I-to-C movement
+##### I-to-C movement
 
 In english, wh-questions and yes/no questions alike are marked by I-to-C movement.
 In english interrogatives that are not subject questions, the sentence becomes a CP.
 In english interrogatives, the newly formed C position is filled by I moving to C.
 In english interrogatives, if there is no I to move to C, I is made pronounced via do-support.
 
-###### wh-movement
+##### wh-movement
 
 A wh-question is a interrogative sentence using a wh-word.
 Wh-questions typically feature wh-movement.
@@ -391,9 +391,9 @@ There are a bunch of islands:
 - No extraction out of adjuncts
 Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible = there must not be a wh-element that would have to move less far.
 
-##### adding constituents
+#### adding constituents
 
-###### tag questsions
+##### tag questsions
 
 A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
 A question tag is an interrogative fragment.
@@ -406,11 +406,44 @@ es|verdad?|no?
 English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
 English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
 
-###### interrogative words ＆ particles
+##### interrogative words ＆ particles
 
 In english, interrogative words start with wh- and are thus known as wh-words.
 
-### sentences
+
+### ordination
+
+Coordination/subordination may imply different semantic relationships between the conjuncts.
+illative|presents a consequence
+cumulative|adds more
+adversative|introduces a contrast
+disjunctive|selfexpl.
+
+causal|presents a reason
+purposive|
+conditional|
+concessional|
+comparative|
+temporal|
+
+In english, coordination/subordination is most often performed by conjunctions.
+
+#### coordination
+
+Coordination is the process of linking two things of the same type.
+The two things linked via coordination are called conjuncts.
+The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
+
+#### subordination
+
+Subordination is linking two things (maincly clauses), where one depends on the other.
+A complement clause is an argument of a predicate.
+A complementizer turns a clause into 
+A complementizer turns a clause into the subject or object of a sentence.
+In english, the complementizer 'that' sometimes is unpronounced
+Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
+
+## sentences
 
 A sentence consists of one or more clausees.
 A simple sentence consists of one (main/independent) clause.
@@ -425,7 +458,7 @@ A cleft sentence splits a simple sentence up into a complex sentence.
 Cleft seentence typically put the constituent now in the independent clause into focus.
 Syntax of cleft sentences in english: it + conjugated form of to be + X + subordinate clause
 
-### movement
+## movement
 
 discontinuity is the phenomenon where a constituent is split into two parts ⟮due to the insertion of an element which is not part of it⟯
 Syntactic movement is the means by which some theories of syntax address discontinuities.
@@ -439,7 +472,7 @@ Some of the evidence of traces is that we can't contract over them.
 
 In syntax, something is "in situ" if it doesn't move, although it normally would.
 
-#### head movement 
+### head movement 
 
 The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
 Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
@@ -447,28 +480,243 @@ The head movement contraint only applies to head movement, obv.
 According to the HMC, I can only move to a position that sellects IP as its complement.
 If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first.
 
-##### prepositions
+#### prepositions
 
 When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
 An entire expression moves, instead of leaving something behind   Pied Piping
 A head moves and leaves behind a preposition   Preposition stranding
 
-## grammatical feature
+
+## parts of speech
+
+A part of speech/word class is a category of words with similar grammatical properties.
+Part of speech is synonymous with word class.
+Part of speech may be synonymous with lexcial category if we don't acknowledge functional categories.
+a closed word class is one that rarely or never accepts new members
+an open word class is one that can be extended without limit/readily accepts new members
+Clear distingction of word classes are difficult across languages.
+Often the things we think of a ertain word class doing is actually what a phrase headed by that thing does.
+
+A|Adjective
+P|Adposition
+Adv|Adverb
+Comp|coordinating conjunction
+D|Determiner
+N|Noun
+V|Verb
+
+esp. in generative grammar, functional and lexical categories are often distinguished.
+functional category|purely grammatical meaning|Det, Conj, Aux...
+lexical category|some sort of semanting content|V, N, A, Adv...
+
+A word that is a member of a functional category is called a function word.
+A word that is a member of a lexical category is called a content word.
+
+### particle
+
+A particle is a function word (member of a functional category) which cannot be inflected.
+A particle occurring at the end of the sentence is a sentence-final particle.
+Particles do not refer.
+Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
+
+### Interjections
+
+An interjection is a lexical item that indicates a reaction. 
+Interjections are pretty separated from the rest of the syntax of the sentence.
+Interjections are a syntactic category, while discourse marker is a pragmatic category.
+
+### adjective
+
+An adjective (phrase) describes a thing or restricts its referent.
+Adjective phrases in english can exist syyntactically in three ways: an attributive adjective, a predicative adjective and a nominalized adjective.
+An attributive adjective phrase is adjoined to an NP.
+A predicative adjective phrase has the adjective phrase as the complement of the verb.
+A nominalized adjective works as the head of an NP.
+
+### adverb
+
+In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
+Adverbial phrases describes the thing its modifying.
+Adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
+
+### noun
+
+Nouns are heads of NPs.
+NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
+If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
+
+#### attribution
+
+In grammar, something attributive is a phrase within a NP/DP that modifies the head noun. 
+Adnnominal seems to be a synonym for attributive
+In english, relative clauses and attributive adjectives are the main things that act attributively.
+A verb that can be used attributively is known as an attributive verb.
+
+### det
+
+A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
+Often, for any given pronoun, there is a similar or identical determiner
+Types of determiners: Articles, Demonstrative determiners, Quantifiers, distributive determiners, interrogative determiners
+
+#### Quantifier
+
+Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
+quantifiers are adjoined to the DP/NP to form a larger DP/NP.
+table:span=2;⟮DP⟯
+⟮Q/D⟯|⟮DP⟯
+all|the students
+
+Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
+According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
+The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
+
+#### Articles
+
+Examples of Articles in EN: the, an, a
+
+#### posessive determiners
+
+my, your, his, her, its, our, their
+
+### adpositions
+
+An adposition may either be a preposition, circumposition or a postposition.
+semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
+Adpositions may be transitive or intransitive.
+Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
+Intransitive adposition examples: here/everywhere/downstairs/ahead/outside/...
+Transitive adpositions may take other adpositions as complements.
+
+### conj
+
+Conjunctions either perform coordination or subordination.
+
+### proforms
+
+Proforms are function words that stand in for another constituent.
+DP/NP|Pronouns
+NP/N'|one
+Verb|do (so)
+Temporal adposition|then
+Spatial adposition|there
+other adposition|none exists
+
+#### pronouns
+
+Pronouns are proforms that stand for NPs, or DPs if we believe in them, not for nouns themselves.
+
+A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
+Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
+
+##### personal
+
+Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
+
+
+### copula (and existential verbs)
+
+A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
+The tree ☞is☜ blue.
+Depending on the language, a copula may or may not be a verb.
+An existential verb indicates the existence of something.
+In some languages the copula and the main existential verb are the same, of those I speak, only english: to be (The chair is green, there is a god)
+In some languages the copula and the main existential verb are different:
+es|ser/estar|haber
+de|sein|geben
+ja|だ|ある・いる
+
+Some languages distinguish different existential verbs for different semantic categories.
+Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
+
+### verbs
+
+#### dynstat
+
+Dynamic and static verbs are often contrasted.
+A dynamic verb is a verb that describes an action.
+A stative (unclear relation to stative aspect) verb is a verb that descirbes a state.
+setzen is a dynamic verb while sitzen is a dynamic verb.
+
+#### aux
+
+Non auxiliary verbs are called lexical verbs.
+auxiliary verb is frequenly abbreviated auxiliary.
+In English, sentences without auxiliars cannot have negation.
+In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
+Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
+In English, auxiliaries go before the subject DP/NP in question inversion.
+have and do may or may not be auxiliary verbs.
+dummy do is do used as an auxiliary verb.
+using dummy do is called do-support
+do-support is used when an axuliary verb is syntactically required but none is present.
+
+
+In english, what are the non-lexical verbs that don't take objects? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+In english, what types of verbs are required to use negation? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+In english, what types of verbs go before the subject DP in question inversion? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
+Why does auxiliary being equivalent to auxiliary verb not cause confusion? <span class="divider">-&gt;</span> {{c1::Because there are no other kinds of auxiliary words}}
+auxiliary verbs <span class="divider">-&gt;</span> {{c1::auxiliaries}}
+In the circumstances where do and have aren't auxiliaries (and also aren't lexical), what are they? <span class="divider">-&gt;</span> {{c1::light verbs}}
+Light verbs are different from auxiliary verbs how? <span class="divider">-&gt;</span> {{c1::Can't do the syntactical stuff auxes can}}
+Light verbs are different from lexical verbs how? <span class="divider">-&gt;</span> {{c1::Little semantic content}}
+Verbs that have little semantic content but are not auxiliaries due to syntactic concerns are called what? <span class="divider">-&gt;</span> {{c1::light verbs}}
+Relationship between auxiliaries and modals in set notation? <span class="divider">-&gt;</span> {{c1::modals ⊊ auxiliaries}}
+What property do modal verbs express? <span class="divider">-&gt;</span> {{c1::Modality}}<br><div class="sub">
+<div class="sub c1-f c2-b">
+competing definitions
+</div>
+<div class="sub c1-b c2-f">
+Question inversion, negation etc.
+</div>
+<div class="sub c1-b c2-f">
+auxiliaries ⊋ modals
+</div>
+</div>
+
+### changing parts of speech
+
+#### nominalization
+
+Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
+A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
+
+## word order
+
+Word order is how a language orders the syntacic constituents of a language.
+Word order may be a distinguishing characteristic in linguistic typology.
+Even languages which typically allow large amounts of flexibility in word order (e.g. by marking case) generally have a typical word order, where having a different order is considered marked. (see: Japanese)
+
+### constituent order
+
+the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
+German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
+SOV, SVO, etc
+
+Verb-final language place the verb at the end of a clause.
+Completely verb-final: japanese
+
+V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
+In V2 word order, the first constituent functions as the topic.
+
+A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
+
+
+# grammatical feature
 
 A grammatical feature is more rarely called grammatical category.
 A grammatical feature is a property of items within the grammar of a language. 
 Within each grammatical feature there are two or more possible values (sometimes called grammemes), which are normally mutually exclusive.
 
-### phi-features (noun-related)
+## phi-features (noun-related)
 
 phi-features is a group of grammatical features related to nouns.
 Phi-features include person, number, gender and case
 
-#### noun class
+### noun class
 
 Grammatical gender is a form of noun-class system.
 
-#### number
+### number
 
 Grammatical number is a grammatical feature distinguising amounts.
 Grammatical number is most often marked on things present in the DP/NP (Determiners, Nouns, Adjectives) and via verbal agreement.
@@ -485,7 +733,7 @@ Dual|two
 Trial|three
 Paucal|a few
 
-#### case
+### case
 
 Grammatical case is a grammatical feature marking thematic relation or grammatical relation/morphosyntactic alignment.
 Grammatical case is mostly marked on things within the DP/NP.
@@ -525,32 +773,32 @@ Translative case becoming X, changing to X
 Pertingent case touching x
 Intrative case "amidst"
 
-### honorific
+## honorific
 
 A honorific is a grammatical feature that encodes social relationships.
 Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
 Honorifics may be encoded via a variety of linguistic devices.
 
-#### T-V
+### T-V
 
 The T-V distinction is a honorific distinction encoded in pronouns.
 The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
 The T-V distinction is common in many Indo-European languages, but not english.
 The name T-V distinction comes from latin tu/vos.
 
-### polarity
+## polarity
 
 Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
 Positive polarity = affirmation
 Negative polarity = negation
 
-### others
+## others
 
 
 
-### mainly related to verbs
+## mainly related to verbs
 
-#### grammatical person
+### grammatical person
 
 ⟮Grammatical person⟯ is personal deixis encoded in language.
 It is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
@@ -560,7 +808,7 @@ First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
 
-#### grammatical voice
+### grammatical voice
 
 Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles over grammatical relations.
 Subject is agent   active voice
@@ -570,7 +818,7 @@ In english, the AGENT of a passive sentence is realized in a by-pp or left out e
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
 
-#### transitivity
+### transitivity
 
 Valency is the number of argument controlled by a thing, mainly by a verb.
 Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
@@ -591,12 +839,12 @@ ambitransitive|may take an object or not
 Ditransitive verbs take two objects, which in english may be termed the direct and indirect object.
 In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
 
-#### causative
+### causative
 
 A causative indicates that someone/thing causes someone/thing else to do/be something.
 A causative increases the valency of the verb involved.
 
-#### ergativity
+### ergativity
 
 an unergative verb is an intransitive verb whose argument is an agent.
 an unaccusative verb is an intransitive verb whose argument is not an agent.
@@ -608,7 +856,7 @@ All languages I speak are nominative-accusative languages.
 In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
 In a ergative-absolutive (or just ergative) language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
 
-#### evidentiality
+### evidentiality
 
 Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
 A feature that encodes evidentiality is known as an evidential or verificational/validational
@@ -630,13 +878,13 @@ Reportative evidentials indicate that the information was reported to the speake
 
 Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
 
-#### others
+### others
 
 
 Clusivity is the grammatical feature encoding the difference between inclusive and exclusive first-person plural reference.
 Inclusive first-person plural reference includes the adressee, exclusive first-person plural reference excludes the adressee.
 
-#### tense-aspect-mmod
+### tense-aspect-mmod
 
 tense, aspect and modality are three grammatical features that are often strongly entangled in a given language and thus hard to separate.
 for something to be a tense, aspect or modality it must be marked on the verb/vp.
@@ -644,7 +892,7 @@ Modality marked on a verb/VP is known as mood, however some authors also treat t
 The marking of tense, aspect and modality is sometimes known as tense-aspect-mood
 tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
 
-##### aspect
+#### aspect
 
 Aspect is tells you how time flows within the process/event itself.
 Aspect may be divided into grammatical aspect, which is aspect indicated through inflection, and lexical aspect, which is inherent in a certain lexeme.
@@ -691,7 +939,7 @@ Telicity is most often considered an aspect.
 Gnomic aspect is an apsect indicating general truths.
 The opposite of gnomic aspect is episodic aspect, truths that are temporally bounded.
 
-##### modality
+#### modality
 
 modality is a grammatical feature used to discuss possible situations. 
 Different forms of modality are sometimes called flavors.
@@ -738,7 +986,7 @@ Conditional|Event depends on another condition
 mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
 Mirative|surprise/unpreparedness in relation to a given thing
 
-## morphology
+# morphology
 
 ⟮Morphemes⟯ are the ⟮smallest⟯ ⟮unit of language⟯ that ⟮has some sort of meaning⟯. 
 ⟮Morphemes⟯ are studied in the field of ⟮morphology⟯. 
@@ -752,7 +1000,7 @@ Alternation is a morpheme exhibiting variation in its phonological realization b
 Alternation (a synchronic morphological phenomenon) needs to be distinguished from sound change (a diachronic phenomenon).
 A null/zero morpheme is a morpheme that has no phonetic form/realization.
 
-### Word formation
+## Word formation
 
 Word formation is broadly the creation of new words.
 Word formation may either be the creation of variant forms of a lexeme via inflection (e.g. fly-flew), or the creation of new lexemes.
@@ -769,7 +1017,7 @@ Examples of blend words are smog (smoke + fog) or brunch (breakfast + lunch)
 
 For example, -t in spanish might be a portmanteu morph of the morph for 3rd person and for singular, took may be considered a portmanteu morph of take + ed.
 
-#### morphological
+### morphological
 
 In linguistics, clipping, also called truncation or shortening, is word formation by removing some segments of an existing word to create a synonym.
 Clipping: Coronavirus → rona, refridgerator → fridge, influenza → flu
@@ -779,15 +1027,15 @@ A hybrid word is a morphological derivation that derives from at least two diffe
 The most common ⟮hybrid words⟯ in ⟮english⟯ consist of ⟮one latin-derived and one greek-derived part⟯
 ⟮asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)⟯ are examples for ⟮hybrid words⟯
 
-#### nonmorphological
+### nonmorphological
 
-##### abbreviation
+#### abbreviation
 
 An abbreviation is a nonmorphological derivation by shortening a word.
 
 While rareish, there are some abbreviations that use a slash, generally separating two characters representing two morphemes, but not in an 'or' rleationship (e.g. w/o, b/w, w/e, n/a)
 
-###### acronym
+##### acronym
 
 An acronym is a type of abbreviation formed from the first letters of other words.
 Sometimes initialism or alphabetism is sometimes used to refer to an acronym which is pronounced as individual letters.
@@ -797,7 +1045,7 @@ A backronym is a word that originally was not an acronym but is turned into one.
 Examples of backgronyms: SAD ("seasonal affective disorder"), SOS ("Save Our Souls")
 More recent examples include the brand name Adidas, named after company founder Adolf "Adi" Dassler but falsely believed to be an acronym for "All Day I Dream About Sport";[15] Wiki, said to stand for "What I Know Is",[16] but in fact derived from the Hawaiian phrase wiki-wiki meaning "fast";[17] or Yahoo!, sometimes claimed to mean "Yet Another Hierarchical Officious Oracle", but in fact chosen because Yahoo's founders liked the word's meaning of "rude, unsophisticated, uncouth" (taken from Jonathan Swift's book Gulliver's Travels).
 
-###### numeronym
+##### numeronym
 
 A numeronym at its most common is a word based on/using numbers.
 Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
@@ -808,7 +1056,7 @@ g11n  globalization
 p13n   personalization
 i18n   internationalization
 
-#### Productivity
+### Productivity
 
 productivity is the degree to which native speakers of a language use a particular grammatical process, especially in word formation.
 The polar ends of productivity are productive and unproductive.
@@ -816,7 +1064,7 @@ Word formation processses that are applied very infrequently are likely unproduc
 If a word formation process can be applied to create new words, it is productive.
 In english, using ablauts to create preterite verbs is unproductive, while using -ed to create preterite verbs is productive.
 
-### Inflection
+## Inflection
 
 Inflection is modifying a lexeme to reflect one or more gramattical features, thus creating a new word.
 Inflection is commonly done via affixation or apophony, but there are also other possible modifications.
@@ -827,11 +1075,11 @@ Name|Inflection of|
 ⟮Declension⟯|⟮Nouns or Adjectives⟯
 
 
-#### Agreement
+### Agreement
 
 Agreement is inflection caused by other words (or similar) in the sentence.
 
-#### Inflectional paradigm
+### Inflectional paradigm
 
 An »inflectional paradigm« is the complete set of forms that a class of words can assume ⟮when inflecting⟯
 An inflectional category is a class of inflection pattern that have a common grammatical category/feature. (i.e. its any realization of a grammatical category/feature as inflection)
@@ -841,20 +1089,20 @@ beware is a verb that is defective, as we can see by the fact that we can't say 
 A verb that follows a pattern of a typical inflectional category is called regular, else irregular.
 Inflectional categories of verb conjugations are called verb clasess.
 
-### stem, base, root
+## stem, base, root
 
 The root is the irreducable morphological core of a word, with the core lexical meaning.
 The stem is the root plus any derivational changes (see derivation (word formation))
 The stem is the morpheme that is commonly used as a starting point for inflections.
 A base is any morphological unit to which affixes can be attached.
 
-#### japanese stems
+### japanese stems
 
 The stem that we most commonly call 'stem' in english is the 
 stem of ru-verb is verb - る
 Stem of u-verb is ‹consonant›u → ‹consonant›i
 
-### free and bound forms
+## free and bound forms
 
 A free form is one that can stand on its own as a word.
 'cat', 'fire'
@@ -862,7 +1110,7 @@ A bound form is a morpheme that onlly appears as part of a larger word.
 '-ment'
 A bound/free morpheme is a bound/free form that is a morpheme.
 
-#### affixes
+### affixes
 
 Affixes are bound morphemes attached to the stem for word formation.
 prefix|before the word|a- (e.g. atheist)
@@ -876,7 +1124,7 @@ Reduplication is the process in which a morpheme is repeated within a single wor
 A ⟮libfix⟯ is a ⟮productive⟯ ⟮bound morpheme affix⟯ created by ⟮back-formation⟯, which still ⟮contains some of the original meaning of the word⟯.
 ⟮-gate, -cation, -tard, -verse⟯ are examples of ⟮libfixes⟯
 
-#### clitics
+### clitics
 
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
 The thing that a clitic attaches to is its host.
@@ -892,7 +1140,7 @@ Enclitic   A clitic that appears after its host
 Mesoclitic   A clitic that appears between the stem of the host and other affixes
 Proclitic   A clitic that appears before its host
 
-### compounds
+## compounds
 
 In linguistics, a compound is a lexeme that consists of more than one stem.
 The head of a compound is the stem that is the thing that is being modified by the other stem(s) in the compound.
@@ -907,14 +1155,14 @@ Japanese forms appositional compounds, which will generally not display 連濁.
 e.g. 　山（やま・さん）　川（かわ・せん） for mountains and rivers = scenery and 　左（さ）　右（ゆう） for left and right = control.
 Japanese endocentric compounds will generally display 連濁 if phonotactically possible.
 
-#### english
+### english
 
 In english, ⟮compounds⟯ can be ⟮open⟯ = ⟮containing a space⟯, e.g. ⟮real estate⟯, ⟮closed⟯ = ⟮not containing a space⟯, e.g. ⟮waistcoat, bookstore⟯, or ⟮hyphenated⟯ = ⟮containing a hyphen⟯, e.g. ⟮long-term⟯ 
 In english, ⟮compounds⟯ generally ⟮progress from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
 
 An example of ⟮the typical progression of english compounds⟯ is "T⟮c+;o day" → "to-day" → "today"⟯
 
-### errors
+## errors
 
 A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
 
@@ -926,21 +1174,24 @@ Rebracketing is also sometimes known as resegmentation or metanalysis
 rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
 rebracketing: hamburger as ham + burger instead of hamburg + er
 
-#### etymological
+### etymological
 
 a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
 Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
-## linguistic error
+## typology
 
-Speech (production) error = mistake
-Mistakes and errors are both unintentional deviation from the grammar of a languoid.
-An error is a deviation from the grammar of a languoid that is caused by lack of knowledge about the grammar of the languoid.
-A mistake is a deviation from the grammar of a languoid that is merely an error in performance, and would ordinarily not have happened.
-Typically, only L2 speakers make errors, while anyone can make mistakes.
-Errors may also lead to language change.
+Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
+The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
+Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
+Synthetic languages contain a lot of inflection and thus have many morphemes per word.
+Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
+fusional languages merge many different inflectional categories into the same morpheme.
+analytic languages have different morphemes for different inflectional categories and glue those together.
+highly analytic|chinese, vietnamese
+highly synthetic|japanese, turkish
 
-## information structure
+# information structure
 
 What language I speak is a Topic-prominent language? <span class="divider">-></span> {{c1::Japanese}}
 Topic, comment, presupposition,&nbsp; focus etc., are part of which linguistic concept/subarea? <span class="divider">-></span> {{c1::Information structure}}
@@ -993,6 +1244,132 @@ Are examples of?
 </div><div class="c1-f">
 What are examples of this?
 </div><br>{{c1::This is a <em>salad</em> salad; Do you <em>like</em>&nbsp;like him? I talked to him that week, but I didn't talk to him talk to him.}}  <span class="divider">&lt;-&gt;</span> {{c2::Contrastive focus reduplication}}
+
+# grammar + other fields
+
+## + pragmatics
+
+### interrogative word
+
+An interrogative word or particle is a word used to create a kind of interrogative sentence.
+Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
+An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
+
+## + semantics
+
+### posessive
+
+A posessive is a word or form indicating poession,
+Many languages (of those I speak: en, de, es) indicate a posessive via a set of possessive determiners and pronouns.
+Many languages also have a posessive verb, e.g. en/de have/haben, es tener.
+In japanese, the job of the posessive verb is done by extential verbs/clausees.
+
+
+### numerals
+
+A numeral is a word or phrase that describes a numerical quantity.
+Numerals may be seen as their own part, or as an abstract concept that may be instantiated by different parts of speech.
+Across languages, numerals seem to be able to act as nouns, pronouns or adverbs.
+Numerals are generally based on one or more counting systems.
+In linguistics, measure words are words (or morphemes) that are used in combination with a numeral to indicate a semantically qualified amount.
+There are different kind of numerals (whether realized as words or phrases): 
+ordinal numerals|position in sequence
+cardinal numerals|amount/quantity
+multipliers|
+distributive numerals|
+collective numerals|
+Numerals are typically constructed via a counting system.
+Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
+due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
+
+#### japanese
+
+In japanese grammar, measure words are typically called counters.
+In japanese grammar, measure words are required for any numeral and when asking for quantities.
+In japanese grammar, numerals, measure words and optional indicators for cardinality form a phrase (which I will call Counter Phrase).
+Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
+
+The japanese counting system:
+rational-number ::= [マイナス]‹positive-rational-number›
+positive-rational-number ::- ‹integer›[　点（てん）‹digit›{‹digit›}]
+integer ::= {‹myriad-unit›}[‹place›][‹place›][‹place›]‹place-when-base-1›
+myriad-unit ::= [‹place›][‹place›][‹place›]‹place-when-base-multiple-of-four›
+place ::= ‹digit›‹base-word›
+place-when-base-1 ::= ‹digit›
+place-when-base-multiple-of-four ::= ‹digit›‹base-multiple-of-four-word›
+
+Japanese digits:
+
+0|零・丸・ゼロ
+
+
+1|一|いち|ひと
+2|二||ふた
+3|三||みっ
+4|四||よ(ん・っ)
+5|五||いつ
+6|六||むっ
+7|七||なな
+8|八||やっ
+9|九||ここの
+
+Japanese bases up to 1000
+
+10|十|じゅう|とお
+100|百|ひゃく|もも
+1000|千|せん|ち
+
+Japanese base when multiple of four words:
+
+10^4|万|まん|よろず
+10^8|億|おく|none
+10^12|兆|ちょう|none
+
+Counters
+
+日|か|days|訓 (exception 一日：ついたち)
+
+
+### demonstratives
+
+demonstrative determiners usually map onto the spatial/discourse deixis distinction
+Demonstratives usually come in two flavors, demonstrative determiners and demonstrative pronouns, which may or may not be derminers depending on your theory.
+
+proximal|this
+medial/distal|that
+distal (rare)|yon(der)
+
+proximal|este, estos|esta, estas|esto
+medial|ese, esos|esa, esas|eso
+distal|aquel, aquellos|aquella, aquellas|aquello
+
+Neuter forms do not change for number.
+
+#### Japanese
+
+In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
+The japanese deictical morphemes collectively are known as こそあど.
+
+proximal|こ
+medial|そ
+distal|あ
+question|ど
+
+demonstrative determiner|~の
+demonstrative pronoun (things)|~れ
+
+the demonstrative determiners この、その… are originally abbreviations of これの、それの….
+
+# further concerns & tools
+
+## linguistic error
+
+Speech (production) error = mistake
+Mistakes and errors are both unintentional deviation from the grammar of a languoid.
+An error is a deviation from the grammar of a languoid that is caused by lack of knowledge about the grammar of the languoid.
+A mistake is a deviation from the grammar of a languoid that is merely an error in performance, and would ordinarily not have happened.
+Typically, only L2 speakers make errors, while anyone can make mistakes.
+Errors may also lead to language change.
 
 ## interlinear gloss
 
@@ -1047,370 +1424,3 @@ What are examples of this?
 </table>
 
 </div>
-
-
-## morphological typology 
-
-Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
-The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
-Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
-Synthetic languages contain a lot of inflection and thus have many morphemes per word.
-Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
-fusional languages merge many different inflectional categories into the same morpheme.
-analytic languages have different morphemes for different inflectional categories and glue those together.
-highly analytic|chinese, vietnamese
-highly synthetic|japanese, turkish
-
-## word order
-
-Word order is how a language orders the syntacic constituents of a language.
-Word order may be a distinguishing characteristic in linguistic typology.
-Even languages which typically allow large amounts of flexibility in word order (e.g. by marking case) generally have a typical word order, where having a different order is considered marked. (see: Japanese)
-
-### constituent order
-
-the constituent order of a clause, namely the relative order of subject, object, and verb, is one way to distinguish word order.
-German has verb-second constituent order in main clauses and verb-final constituent order in subordinate clauses.
-SOV, SVO, etc
-
-Verb-final language place the verb at the end of a clause.
-Completely verb-final: japanese
-
-V2 word order is that the verb comes in the second syntactically relevant place of the sentence, and the first can be filled by a variety of different constituents.
-In V2 word order, the first constituent functions as the topic.
-
-A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
-
-# types of words
-
-## numerals
-
-A numeral is a word or phrase that describes a numerical quantity.
-Numerals may be seen as their own part, or as an abstract concept that may be instantiated by different parts of speech.
-Across languages, numerals seem to be able to act as nouns, pronouns or adverbs.
-Numerals are generally based on one or more counting systems.
-In linguistics, measure words are words (or morphemes) that are used in combination with a numeral to indicate a semantically qualified amount.
-There are different kind of numerals (whether realized as words or phrases): 
-ordinal numerals|position in sequence
-cardinal numerals|amount/quantity
-multipliers|
-distributive numerals|
-collective numerals|
-Numerals are typically constructed via a counting system.
-Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
-due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
-
-### japanese
-
-In japanese grammar, measure words are typically called counters.
-In japanese grammar, measure words are required for any numeral and when asking for quantities.
-In japanese grammar, numerals, measure words and optional indicators for cardinality form a phrase (which I will call Counter Phrase).
-Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
-
-The japanese counting system:
-rational-number ::= [マイナス]‹positive-rational-number›
-positive-rational-number ::- ‹integer›[　点（てん）‹digit›{‹digit›}]
-integer ::= {‹myriad-unit›}[‹place›][‹place›][‹place›]‹place-when-base-1›
-myriad-unit ::= [‹place›][‹place›][‹place›]‹place-when-base-multiple-of-four›
-place ::= ‹digit›‹base-word›
-place-when-base-1 ::= ‹digit›
-place-when-base-multiple-of-four ::= ‹digit›‹base-multiple-of-four-word›
-
-Japanese digits:
-
-0|零・丸・ゼロ
-
-
-1|一|いち|ひと
-2|二||ふた
-3|三||みっ
-4|四||よ(ん・っ)
-5|五||いつ
-6|六||むっ
-7|七||なな
-8|八||やっ
-9|九||ここの
-
-Japanese bases up to 1000
-
-10|十|じゅう|とお
-100|百|ひゃく|もも
-1000|千|せん|ち
-
-Japanese base when multiple of four words:
-
-10^4|万|まん|よろず
-10^8|億|おく|none
-10^12|兆|ちょう|none
-
-Counters
-
-日|か|days|訓 (exception 一日：ついたち)
-
-## interrogative word
-
-An interrogative word or particle is a word used to create a kind of interrogative sentence.
-Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
-An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
-
-## demonstratives
-
-demonstrative determiners usually map onto the spatial/discourse deixis distinction
-Demonstratives usually come in two flavors, demonstrative determiners and demonstrative pronouns, which may or may not be derminers depending on your theory.
-
-proximal|this
-medial/distal|that
-distal (rare)|yon(der)
-
-proximal|este, estos|esta, estas|esto
-medial|ese, esos|esa, esas|eso
-distal|aquel, aquellos|aquella, aquellas|aquello
-
-Neuter forms do not change for number.
-
-### Japanese
-
-In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
-The japanese deictical morphemes collectively are known as こそあど.
-
-proximal|こ
-medial|そ
-distal|あ
-question|ど
-
-demonstrative determiner|~の
-demonstrative pronoun (things)|~れ
-
-the demonstrative determiners この、その… are originally abbreviations of これの、それの….
-
-## posessive
-
-A posessive is a word or form indicating poession,
-Many languages (of those I speak: en, de, es) indicate a posessive via a set of possessive determiners and pronouns.
-Many languages also have a posessive verb, e.g. en/de have/haben, es tener.
-In japanese, the job of the posessive verb is done by extential verbs/clausees.
-
-# ordination
-
-Coordination/subordination may imply different semantic relationships between the conjuncts.
-illative|presents a consequence
-cumulative|adds more
-adversative|introduces a contrast
-disjunctive|selfexpl.
-
-causal|presents a reason
-purposive|
-conditional|
-concessional|
-comparative|
-temporal|
-
-In english, coordination/subordination is most often performed by conjunctions.
-
-## coordination
-
-Coordination is the process of linking two things of the same type.
-The two things linked via coordination are called conjuncts.
-The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
-
-## subordination
-
-Subordination is linking two things (maincly clauses), where one depends on the other.
-A complement clause is an argument of a predicate.
-A complementizer turns a clause into 
-A complementizer turns a clause into the subject or object of a sentence.
-In english, the complementizer 'that' sometimes is unpronounced
-Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
-
-# parts of speech
-
-A part of speech/word class is a category of words with similar grammatical properties.
-Part of speech is synonymous with word class.
-Part of speech may be synonymous with lexcial category if we don't acknowledge functional categories.
-a closed word class is one that rarely or never accepts new members
-an open word class is one that can be extended without limit/readily accepts new members
-Clear distingction of word classes are difficult across languages.
-Often the things we think of a ertain word class doing is actually what a phrase headed by that thing does.
-
-A|Adjective
-P|Adposition
-Adv|Adverb
-Comp|coordinating conjunction
-D|Determiner
-N|Noun
-V|Verb
-
-esp. in generative grammar, functional and lexical categories are often distinguished.
-functional category|purely grammatical meaning|Det, Conj, Aux...
-lexical category|some sort of semanting content|V, N, A, Adv...
-
-A word that is a member of a functional category is called a function word.
-A word that is a member of a lexical category is called a content word.
-
-## particle
-
-A particle is a function word (member of a functional category) which cannot be inflected.
-A particle occurring at the end of the sentence is a sentence-final particle.
-Particles do not refer.
-Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
-
-## Interjections
-
-An interjection is a lexical item that indicates a reaction. 
-Interjections are pretty separated from the rest of the syntax of the sentence.
-Interjections are a syntactic category, while discourse marker is a pragmatic category.
-
-## adjective
-
-An adjective (phrase) describes a thing or restricts its referent.
-Adjective phrases in english can exist syyntactically in three ways: an attributive adjective, a predicative adjective and a nominalized adjective.
-An attributive adjective phrase is adjoined to an NP.
-A predicative adjective phrase has the adjective phrase as the complement of the verb.
-A nominalized adjective works as the head of an NP.
-
-## adverb
-
-In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
-Adverbial phrases describes the thing its modifying.
-Adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
-
-## noun
-
-Nouns are heads of NPs.
-NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
-If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
-
-### attribution
-
-In grammar, something attributive is a phrase within a NP/DP that modifies the head noun. 
-Adnnominal seems to be a synonym for attributive
-In english, relative clauses and attributive adjectives are the main things that act attributively.
-A verb that can be used attributively is known as an attributive verb.
-
-## det
-
-A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
-Often, for any given pronoun, there is a similar or identical determiner
-Types of determiners: Articles, Demonstrative determiners, Quantifiers, distributive determiners, interrogative determiners
-
-### Quantifier
-
-Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
-quantifiers are adjoined to the DP/NP to form a larger DP/NP.
-table:span=2;⟮DP⟯
-⟮Q/D⟯|⟮DP⟯
-all|the students
-
-Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
-According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
-The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
-
-### Articles
-
-Examples of Articles in EN: the, an, a
-
-### posessive determiners
-
-my, your, his, her, its, our, their
-
-## adpositions
-
-An adposition may either be a preposition, circumposition or a postposition.
-semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
-Adpositions may be transitive or intransitive.
-Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
-Intransitive adposition examples: here/everywhere/downstairs/ahead/outside/...
-Transitive adpositions may take other adpositions as complements.
-
-## conj
-
-Conjunctions either perform coordination or subordination.
-
-## proforms
-
-Proforms are function words that stand in for another constituent.
-DP/NP|Pronouns
-NP/N'|one
-Verb|do (so)
-Temporal adposition|then
-Spatial adposition|there
-other adposition|none exists
-
-### pronouns
-
-Pronouns are proforms that stand for NPs, or DPs if we believe in them, not for nouns themselves.
-
-A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
-Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
-
-#### personal
-
-Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
-
-
-## copula (and existential verbs)
-
-A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
-The tree ☞is☜ blue.
-Depending on the language, a copula may or may not be a verb.
-An existential verb indicates the existence of something.
-In some languages the copula and the main existential verb are the same, of those I speak, only english: to be (The chair is green, there is a god)
-In some languages the copula and the main existential verb are different:
-es|ser/estar|haber
-de|sein|geben
-ja|だ|ある・いる
-
-Some languages distinguish different existential verbs for different semantic categories.
-Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
-
-## verbs
-
-### dynstat
-
-Dynamic and static verbs are often contrasted.
-A dynamic verb is a verb that describes an action.
-A stative (unclear relation to stative aspect) verb is a verb that descirbes a state.
-setzen is a dynamic verb while sitzen is a dynamic verb.
-
-### aux
-
-Non auxiliary verbs are called lexical verbs.
-auxiliary verb is frequenly abbreviated auxiliary.
-In English, sentences without auxiliars cannot have negation.
-In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
-Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
-In English, auxiliaries go before the subject DP/NP in question inversion.
-have and do may or may not be auxiliary verbs.
-dummy do is do used as an auxiliary verb.
-using dummy do is called do-support
-do-support is used when an axuliary verb is syntactically required but none is present.
-
-
-In english, what are the non-lexical verbs that don't take objects? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-In english, what types of verbs are required to use negation? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-In english, what types of verbs go before the subject DP in question inversion? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-Why does auxiliary being equivalent to auxiliary verb not cause confusion? <span class="divider">-&gt;</span> {{c1::Because there are no other kinds of auxiliary words}}
-auxiliary verbs <span class="divider">-&gt;</span> {{c1::auxiliaries}}
-In the circumstances where do and have aren't auxiliaries (and also aren't lexical), what are they? <span class="divider">-&gt;</span> {{c1::light verbs}}
-Light verbs are different from auxiliary verbs how? <span class="divider">-&gt;</span> {{c1::Can't do the syntactical stuff auxes can}}
-Light verbs are different from lexical verbs how? <span class="divider">-&gt;</span> {{c1::Little semantic content}}
-Verbs that have little semantic content but are not auxiliaries due to syntactic concerns are called what? <span class="divider">-&gt;</span> {{c1::light verbs}}
-Relationship between auxiliaries and modals in set notation? <span class="divider">-&gt;</span> {{c1::modals ⊊ auxiliaries}}
-What property do modal verbs express? <span class="divider">-&gt;</span> {{c1::Modality}}<br><div class="sub">
-<div class="sub c1-f c2-b">
-competing definitions
-</div>
-<div class="sub c1-b c2-f">
-Question inversion, negation etc.
-</div>
-<div class="sub c1-b c2-f">
-auxiliaries ⊋ modals
-</div>
-</div>
-
-## changing parts of speech
-
-### nominalization
-
-Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
-A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
