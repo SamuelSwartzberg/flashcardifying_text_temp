@@ -704,96 +704,121 @@ A linguistic universal is a pattern that occurs systematically across (most ofte
 # grammatical feature
 
 A grammatical feature is more rarely called grammatical category.
-A grammatical feature is a property of items within the grammar of a language. 
-Within each grammatical feature there are two or more possible values (sometimes called grammemes), which are normally mutually exclusive.
+A grammatical feature feature (my term) is a feature in the general sense that encodes a grammatical distinction.
+A grammatical feature category is a category consisting of an inventory of grams, of which a language may disinguish some grammemes.
+Grammatical feature is ambiguous between gramamtical feature feature and grammatical feature category.
+Some languages may not make any distinction within a grammatical feature.
+Grammemes may be encoded lexically or morphologically.
+Grammemes encode a sememe.
 
 ## phi-features (noun-related)
 
-phi-features is a group of grammatical features related to nouns.
-Phi-features include person, number, gender and case
+phi-features is a group of grammatical feature categories related to nouns which are encoded morphologically as inflectional paradigms.
+Phi-features often force agreement on noun-related things, and sometimes on verbs too.
+Phi-features include number, noun class and case.
 
 ### noun class
 
-Grammatical gender is a form of noun-class system.
+Noun class is a phi-feature encoding a variety of different sememes not covered by number or case.
+Grammatical gender is a form of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
 
 ### number
 
-Grammatical number is a grammatical feature distinguising amounts.
-Grammatical number is most often marked on things present in the DP/NP (Determiners, Nouns, Adjectives) and via verbal agreement.
-As regars grammatical number, most languages have a singular/plural distinction.
-In languages with a singular/plural distinction, the singular refers to one entity, and the plural refers to more than one entity.
-In languages with a singular/plural distinction, most often the singular is the unmarked form, and the plural is marked.
-Some languages have a singulative/collective distinction.
-In languages with a singulative/collective distinction, the collective refers to the item with no distinction into individual entities, and the singulative refers to a specific entity.
-In languages with a singulative/collective distinction, the collective form is generally the unmarked one, while the singulative form is marked.
-English, German and Spanish have grammatical number that distinguishes Singular and Plural, Japanese does not have grammatical number.
+Grammatical number is a phi-feature encoding sememes of distinctions in amounts.
+Grammatical number may distinguish actual amount or grouping.
 
-Other grammatical numbers:
+#### amount
+
+table:name|sememe
+Singular|one
 Dual|two
 Trial|three
 Paucal|a few
+Plural|many (more than one if only singular/plural)
+
+
+If a language distinguishes actual amount via grammatical number, most commonly it only has two grammemes, singular/plural.
+In languages with a singular/plural distinction, most often the singular is the unmarked form,.
+
+##### grouping
+
+Distinguishing grouping via grammatical number is generally realized in a singulative/collective distinction.
+The collective grammatical number is a group with no distinction into individual entities (similar to english mass nouns)
+The singulative grammatical entitity refers to a specific entity.
+In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
+
+#### in languages
+
+English, German and Spanish have grammatical number that distinguishes Singular and Plural, Japanese does not have grammatical number.
 
 ### case
 
-Grammatical case is a grammatical feature marking thematic relation or grammatical relation/morphosyntactic alignment.
-Grammatical case is mostly marked on things within the DP/NP.
+Grammatical case is a phi-feature encoding semantic relationsip or grammatical relation/morphosyntactic alignment.
 
-Accusative   object of a verb
-Nominative   Subject of a verb
+#### encoding morphosyntactic alignment
+
+table:case|grammatical relation
+Accusative|object of a verb
+Nominative|Subject of a verb
 
 Dative case is sometimes said to mark the indirect object, but the indirect object is just an english construct for describing a certain kind of object of a verb. in this sense, many cases mark something that is an object or at least argument of a verb, not just dative.
 Dative indicates recipient or benificiary of an action.
-Lative case indicates a movement to a location.
-Ablative case indicates a movement away from a location.
-Locative case indicates a location.
-benefactive case indicates that something is done for the benefit someone/is intended for someone.
-Benefactive case is often included in the dative case.
-Terminative/terminalis case specifies a limit in space/time and/or the goal/target of an action.
-Genitive   posess⁑or⁑
-Instrumental   A means or tool used or companion present in/while performing an action	
-Abessive/caritive/privative absence of the thing.
-Comitative accompaniment
-Ornative endowed with, supplied with
-In english, the word with performs the function of both comitative and instrumental cases, this case is sometimes called the instrumental-comitative case..
-Prolative/vialis/prosecutive/traversal/mediative by way of, via
-Inessive within
+
+#### encoding semantic relationsip
+
+Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
+
+##### movement
+
+table:case|semantic relationship
+lative|movement to a location.
+ablative|indicates a movement away from a location.
 Illative into
 Elative out of
 In elative "from inside"
-Superessive on top of, on the surface of.
-subessive below
-perlative through, across, along
-Vocative   adressee
 Exessive away from a state
 Egressive beginning of a movement from a location or time ('starting from')
+Prolative/vialis/prosecutive/traversal/mediative by way of, via
+perlative through, across, along
+
+##### location
+
+table:case|semantic relationship
+locative|location
+Inessive within
+Superessive on top of, on the surface of.
+subessive below
+Pertingent case touching x
+Intrative case "amidst"
+
+##### cause, purpose, means, use
+
+table:case|semantic relationship
+benefactive|something is done for the benefit someone/is intended for someone.
+Terminative/terminalis|a limit in space/time and/or the goal/target of an action.
+Instrumental|a means or tool used or companion present in/while performing an action	
+Ornative|endowed with, supplied with
+Vocative   adressee
+
+
+Benefactive case is often included in the dative case.
+
+##### presence, absence
+
+Genitive   posess⁑or⁑
+Abessive/caritive/privative absence of the thing.
+Comitative accompaniment
+
+##### comparison, identity
+
 Identical something is identical to another
 Equative something is the same value as another
 Comparative something is like something (e.g. cold as ice)
 Translative case becoming X, changing to X
-Pertingent case touching x
-Intrative case "amidst"
 
-## honorific
+##### additional information
 
-A honorific is a grammatical feature that encodes social relationships.
-Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
-Honorifics may be encoded via a variety of linguistic devices.
-
-### T-V
-
-The T-V distinction is a honorific distinction encoded in pronouns.
-The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
-The T-V distinction is common in many Indo-European languages, but not english.
-The name T-V distinction comes from latin tu/vos.
-
-## polarity
-
-Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
-Positive polarity = affirmation
-Negative polarity = negation
-
-## others
-
+In english, the word with performs the function of both comitative and instrumental cases, this case is sometimes called the instrumental-comitative case..
 
 
 ## mainly related to verbs
@@ -985,6 +1010,27 @@ Conditional|Event depends on another condition
 
 mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
 Mirative|surprise/unpreparedness in relation to a given thing
+
+## others
+
+### honorific
+
+A honorific is a grammatical feature that encodes social relationships.
+Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
+Honorifics may be encoded via a variety of linguistic devices.
+
+#### T-V
+
+The T-V distinction is a honorific distinction encoded in pronouns.
+The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
+The T-V distinction is common in many Indo-European languages, but not english.
+The name T-V distinction comes from latin tu/vos.
+
+### polarity
+
+Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
+Positive polarity = affirmation
+Negative polarity = negation
 
 # morphology
 
