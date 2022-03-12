@@ -1,118 +1,7 @@
-# phonetics
 
-»⟮Phonetics⟯« is a branch of linguistics that studies ⟮＿phones＿⟯.
+# phonetic production
 
-⟮＿Phones＿⟯ and ⟮c_;＿phonemes＿⟯ may be produced via ⟮＿speech＿⟯ or via ⟮c_;＿sign＿⟯.
-»⟮A sign phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿sign＿⟯.
-»⟮A speech phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿speech＿⟯.
-
-»⟮A speech sound⟯« is ⟮＿a speech phone or phoneme＿⟯ where ⟮the classification into different phones⟯ is ⟮not at issue⟯.
-
-## branches
-
-⟮＿Phonetics＿⟯ is traditionally divided into ⟮＿articulatory＿⟯, ⟮＿acoustic＿⟯ and ⟮＿auditory＿⟯.
-All of ⟮the three branches⟯ of ⟮＿phonetics＿⟯ are ⟮interested in ＿phones＿⟯ in ⟮different ways⟯.
-
-
-table:branch of phonetics|is concerned with what aspect of phones
-»⟮articulatory phonetics⟯«|⟮production⟯
-»⟮auditory phonetics⟯«|⟮perception⟯
-»⟮acoustic phonetics⟯«|⟮acoustic effects⟯
-
-# speech production 
-
-## distinctive features
-
-»⟮A natural class⟯« is ⟮a set of ＿phonemes＿⟯ in a language that ⟮share certain ＿distinctive features＿⟯.
-⟮＿Distinctive features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
-
-## major class features
-
-»⟮Major class features⟯« are a group of ⟮four⟯ ⟮＿distinctive features＿⟯ that ⟮share little in common⟯ ⟮＿phonetically＿⟯, but ⟮describe the overall type of a phoneme⟯.
-⟮The four ＿major class features＿⟯ are ⟮[+/- syllabic]⟯, ⟮[+/- approximant]⟯, ⟮[+/- consonantal or eqivalently +/- vocalic]⟯, ⟮[+/- sonorant]⟯
-⟮All ＿speech sounds＿⟯ ⟮have values⟯ for ⟮all of the four ＿major class features＿.⟯
-Ergo, ⟮all ＿speech sounds＿⟯ are either ⟮＿syllabic＿⟯ or ⟮c_;not⟯, either ⟮＿approximants (wide sense)＿⟯ or ⟮c_;not⟯, either ⟮＿consonants＿⟯ or ⟮c_;＿vowels＿⟯, either ⟮＿sonorants＿⟯ or ⟮c_;＿obstruents＿⟯.
-
-⟮＿Continuants＿⟯ contain ⟮all⟯ {⟮＿sonorants＿⟯, ⟮＿fricatives＿⟯}.
-Ergo ⟮all⟯ ⟮＿sonorants＿⟯ are ⟮＿continuants＿⟯.
-⟮＿Sonorants＿⟯ contain ⟮all⟯ {⟮＿approximants (wide sense)＿⟯, ⟮＿nasals＿⟯}.
-Ergo ⟮all⟯ ⟮＿approximants＿⟯ are ⟮＿sonorants＿⟯.
-⟮＿Approximants＿⟯ contain ⟮all⟯ {⟮＿syllabic sounds＿⟯, ⟮＿liquids＿⟯}.
-Ergo ⟮all⟯ ⟮＿syllabic sounds＿⟯ are ⟮＿approximants＿⟯.
-⟮＿Syllabic sounds＿⟯ contain ⟮all⟯ {⟮＿vowels＿⟯, ⟮＿semivowels＿⟯}.
-
-### sonority
-
-»⟮Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯.
-⟮＿Sonority＿⟯ is defined via ⟮＿the sonority hierarchy＿⟯.
-⟮＿Sonority＿⟯ mostly ⟮depends⟯ on ⟮＿the manner of articulation＿⟯.
-The most basic ⟮＿sonority hierarchy＿⟯ is ⟮＿vowels＿⟯ > ⟮c_;＿consonants＿⟯
-A prototypical »⟮sonority hierarchy⟯« may be ⟮c+;s∞;us_-;vowels⟯ > ⟮c+;s∞;us_-;semivowels⟯ > ⟮c+;s∞;us_-;liquids⟯ > ⟮c+;s∞;us_-;nasals⟯ > ⟮c+;s∞;us_-;voiced fricatives⟯ > ⟮c+;s∞;us_-;voiceless fricatives⟯ ≈ ⟮c+;s∞;us_-;voiced obstruents⟯ > ⟮c+;s∞;us_-;voiceless obstruents⟯.
-
-#### !major classes (+ continuant) sorted by sonority of their contents
-
-table:major class|types of sounds contained sorted by sonority
-⟮vocalic⟯|⟮vowels⟯
-⟮syllabic⟯|⟮vowels + semivowels⟯
-⟮approximant⟯|⟮vowels + semivowels + liquids⟯
-⟮sonorant⟯|⟮vowels + semivowels + liquids + nasals⟯
-⟮continuant⟯|⟮vowels + semivowels + liquids + nasals + fricatives⟯
-
-Ergo the distinctive features ⟮c+;s∞;us_-;vocalic⟯ > ⟮c+;s∞;us_-;syllabic⟯ > ⟮c+;s∞;us_-;approximant⟯ > ⟮c+;s∞;us_-;sonorant⟯ > ⟮c+;s∞;us_-;continuant⟯ are progressively less strict about sonority.
-
-### consonants
-
-»⟮A consonant⟯« ⟮has an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
-»⟮A vowel⟯« ⟮does not have an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
-⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the distinctive feature＿ [+/- consonantal/vocalic]⟯
-⟮＿the distinctive feature＿⟯ ⟮[+/- consonantal]⟯ is ⟮c-;the same as⟯ ⟮[-/+ vocalic]⟯, which one uses is ⟮c-;up to preference⟯.
-⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
-
-### sonorants & obstruents
-
-»⟮A sonorant⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮not obstructed⟯ ⟮at all⟯, or ⟮not to an extent sufficent to create turbulence⟯.
-»⟮An obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮obstructed⟯ ⟮completely⟯, or ⟮to an extent sufficent to create turbulence⟯.
-Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the distinctive feature＿ [+sonorant]⟯
-⟮Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
-⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯, ⟮＿fricatives＿⟯ or ⟮＿affricates＿⟯.
-
-### approximant
-
-»⟮Approximants (wide sense)⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
-Whether something is ⟮＿an approximant in the wide sense＿⟯ is indicated by ⟮＿the distinctive feature＿ [+/- approximant]⟯.
-
-#### Liquids
-
-»⟮rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
-⟮＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
-»⟮Liquids⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯.
-»⟮Liquids⟯« consist of all ⟮＿rhotics＿⟯ and ⟮voiced lateral appoximants⟯.
-⟮＿Liquids＿⟯ are grouped amongst other things because they often behave similar ⟮＿phonotactically＿⟯.
-
-### syllabic
-
-»⟮Syllabic sounds⟯« are those which ⟮form ＿the nucleus＿ of ＿the syllable＿⟯.
-⟮＿Syllabic sounds＿⟯ are indicated by ⟮＿the distinctive feature＿ [+syllabic]⟯
-
-#### semivowels
-
-Phonologically, »⟮a semivowel⟯« is ⟮a ＿non-syllabic＿ ＿vowel＿ ([-syllabic] [+vocalic])⟯.
-Ergo ⟮＿a semivowel＿⟯ acts as ⟮a ＿coda＿ or ＿onset＿⟯.
-Phonetically, ⟮＿semivowels＿⟯ may ⟮be distinguished from⟯ ⟮＿vowels＿⟯ by the fact that ⟮they are one step lower on ＿the sonority hierarchy＿⟯.
-
-#### syllabic consonants
-
-Phonologically, »⟮a syllabic consonant⟯« is ⟮a ＿syllabic＿ ＿consonant＿ ([+syllabic] [+consonantal])⟯.
-Ergo ⟮＿a syllabic consonant＿⟯ acts as ⟮＿a nucleus＿⟯.
-Generally, ⟮＿syllabic consonants＿⟯ are still ⟮＿sonorants＿⟯, as ⟮they still require their ＿onset＿ and ＿coda＿ to be lower on ＿the sonority hierarchy＿⟯
-
-#### !IPA
-
-⟮＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
-^Since it's sad.
-⟮＿A syllabic consonant＿⟯ is indicated ⟮［◌̩］⟯ or ⟮c_;［◌̍］⟯
-
-## phonetic production
+## three steps
 
 »⟮Phonetic production⟯« (my coinage) is ⟮the ＿expression＿ stage (cf. fundamental concepts > what is language > language production)⟯ of ⟮＿speech production＿⟯, where ⟮actual sound is produced⟯.
 ⟮＿Phonetic production＿⟯ occurs in ⟮three⟯ ⟮sequential⟯ ⟮steps⟯.
@@ -147,11 +36,11 @@ table:adjective|initiator
 
 ##### choice
 
-The default initiators (my term) are those used in natural languages.
-The default initiators are diaaphragm+ribs+loungs, glottis and tongue.
-The two non-default initiators are only used in disordered speech or other special circumstances.
-The two non-default initators are the cheeks and esophagus.
-The esophagus is used as an initiator in the case of a larygectomy.
+»⟮The default initiators⟯« (my term) are those ⟮＿initiators＿⟯ used ⟮in ＿natural languages＿⟯.
+⟮＿The default initiators＿⟯ are ⟮diaphragm+ribs+loungs⟯, ⟮glottis⟯ and ⟮tongue⟯.
+The ⟮two⟯ »⟮non-default initiators⟯« are ⟮only used⟯ in ⟮disordered speech⟯ or ⟮other special circumstances⟯.
+The two ⟮＿non-default initators＿⟯ are ⟮the cheeks⟯ and ⟮esophagus⟯.
+⟮The esophagus⟯ is used as ⟮＿an initiator＿⟯ in the case of ⟮a larygectomy⟯.
 
 #### air direction
 
@@ -163,13 +52,13 @@ for ⟮＿ingressive air direction＿⟯, ⟮air pressure⟯ must be ⟮decrease
 
 #### airstream mechanism
 
-The hypothetical default inititator airstream mechanisms (my term) are those airstream mechanisms that result from the combination of the default initators and air directions.
-There are ⟮six (3*2) ⟯ hypothetical default inititator airstream mechanisms.
-The actual airstream mechanisms are those hypothetical default inititator airstream mechanisms that are actually used.
-There are four actual airstream mechanisms.
+The »⟮hypothetical default inititator airstream mechanisms⟯« (my term) are those ⟮＿airstream mechanisms＿⟯ that ⟮result from the combination⟯ of ⟮＿the default initators＿⟯ and ⟮＿air directions＿⟯.
+There are ⟮six (3*2) ⟯ ⟮＿hypothetical default inititator airstream mechanisms＿⟯.
+»⟮The actual airstream mechanisms⟯« are those ⟮＿hypothetical default inititator airstream mechanisms＿⟯ that ⟮are actually used⟯.
+There are ⟮four⟯ ⟮＿actual airstream mechanisms＿⟯.
 ⟮Lingual/velaric egressive⟯ and ⟮pulmonic ingressive⟯ are ⟮＿the hypothetical default inititator airstream mechanisms＿⟯ which are ⟮not used in natural languages⟯.
-pulmonic is commonly used for pulmonic egressive (for obvious reasons, see amobe)
-The actual airstream mechanims are often divided into pulmonic egressive and non-pulmonic.
+⟮pulmonic⟯ is commonly used for ⟮pulmonic egressive⟯ (for obvious reasons, see above)
+⟮＿The actual airstream mechanims＿⟯ are often divided into ⟮pulmonic egressive⟯ and ⟮non-pulmonic⟯.
 ⟮＿Non-pulmonic airstream mechanisms＿⟯ are ⟮glottalic egressive⟯, ⟮glottalic ingressive⟯ and ⟮velaric/lingual ingressive⟯.
 
 ##### pulmonic egressive
@@ -663,15 +552,15 @@ table:relative articulation|IPA symbol
 ⟮advanced tongue root⟯|⟮［◌̘］⟯
 ⟮retracted tongue root⟯|⟮［◌̙］⟯
 
-### IPA
+## IPA
 
-#### general principles
+### general principles
 
 Generally, if ⟮there is no 'room'⟯ ⟮beneath⟯ an IPA symbol, you place a diacritic that would normally go there ⟮above⟯ instead.
 
-#### consonants
+### consonants
 
-##### main table
+#### main table
 
 table:class=yesno;!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
 !Manner ↓
@@ -685,14 +574,14 @@ table:class=yesno;!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;L
 !span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
 !type=th;Fricative                           |⟮ɸ⟯|⟮β⟯               |⟮f⟯|⟮v⟯                |⟮θ⟯|⟮ð⟯                 |⟮s⟯|⟮z⟯                  |⟮ʃ⟯|⟮ʒ⟯                       |⟮ʂ⟯|⟮ʐ⟯              |⟮ç⟯|⟮ʝ⟯           |⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
 
-##### extra sounds
+#### extra sounds
 
 table:symbol|voice|place|manner
 ⟮ɺ (the long one⟯)|⟮voiced⟯|⟮alveolar⟯|⟮lateral tap/flap ⟯
 ⟮ɕ⟯|⟮voiceless⟯|⟮aveolo-palatal⟯|⟮fricative⟯
 ⟮ʑ⟯|⟮voiced⟯|⟮aveolo-palatal⟯|⟮fricative⟯
 
-##### clicks
+#### clicks
 
 table:symbol|place
 ⟮ʘ⟯|⟮Bilabial⟯
@@ -701,7 +590,7 @@ table:symbol|place
 ⟮ǂ⟯|⟮Palatoalveolar⟯
 ⟮ǁ⟯|⟮Alveolar lateral⟯
 
-##### mnemonics
+#### mnemonics
 
 all retroflex phones feature a right-facing bottom hook in their IPA symbol
 all phones written with variants of the h in the IPA are either epiglottal/pharyngeal or glottal, and are fricatives.
@@ -712,12 +601,12 @@ phones with a c in their IPA symbol all have a passive place of articulation of 
 In general, phones with greek IPA symbols are similar to phones with the same letter as a latin letter.
 all uvular voiced sounds have small-caps IPA symbols
 
-##### glottalic consonants
+#### glottalic consonants
 
 implosives are marked by the IPA via a right-facing hook on top of the symbol for the relevant equivalent oral occlusive, e.g. ［ɓ］ or ［ɗ］
 ejectives are marked by the IPA via ［ʼ］, e.g. ［qʼ］
 
-#### vowels
+### vowels
 
 !table:             |⟮Front⟯|⟮c_;Central⟯|⟮c_;Back⟯
 !type=th;⟮Close⟯     |⟮i⟯•⟮y⟯  |⟮ɨ⟯•⟮ʉ⟯     |⟮ɯ⟯•⟮u⟯
