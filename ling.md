@@ -773,23 +773,22 @@ Various possible case grams can overlap, since most languages only realize a han
 table:case|semantic relationship
 lative|movement to a location.
 ablative|indicates a movement away from a location.
-Illative into
-Elative out of
-In elative "from inside"
-Exessive away from a state
-Egressive beginning of a movement from a location or time ('starting from')
-Prolative/vialis/prosecutive/traversal/mediative by way of, via
-perlative through, across, along
+Illative|into
+Elative|out of
+Inelative|"from inside"
+Egressive|beginning of a movement from a location or time ('starting from')
+Prolative/vialis/prosecutive/traversal/mediative|by way of, via
+perlative|through, across, along
 
 ##### location
 
 table:case|semantic relationship
 locative|location
-Inessive within
-Superessive on top of, on the surface of.
-subessive below
-Pertingent case touching x
-Intrative case "amidst"
+Inessive|within
+Superessive|on top of, on the surface of.
+subessive|below
+Pertingent|touching x
+Intrative|"amidst"
 
 ##### cause, purpose, means, use
 
@@ -798,23 +797,26 @@ benefactive|something is done for the benefit someone/is intended for someone.
 Terminative/terminalis|a limit in space/time and/or the goal/target of an action.
 Instrumental|a means or tool used or companion present in/while performing an action	
 Ornative|endowed with, supplied with
-Vocative   adressee
+Vocative|adressee
 
 
 Benefactive case is often included in the dative case.
 
 ##### presence, absence
 
-Genitive   posess⁑or⁑
-Abessive/caritive/privative absence of the thing.
-Comitative accompaniment
+table:case|semantic relationship
+Genitive|posess⁑or⁑
+Abessive/caritive/privative|absence of the thing.
+Comitative|accompaniment
 
 ##### comparison, identity
 
-Identical something is identical to another
-Equative something is the same value as another
-Comparative something is like something (e.g. cold as ice)
-Translative case becoming X, changing to X
+table:case|semantic relationship
+Identical|something is identical to another
+Equative|something is the same value as another
+Comparative|something is like something (e.g. cold as ice)
+Exessive|away from a state
+Translative|becoming X, changing to X
 
 ##### additional information
 
@@ -835,7 +837,7 @@ Third person|neither speaker nor addressee
 
 ### grammatical voice
 
-Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles over grammatical relations.
+Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles related to agency over grammatical relations.
 Subject is agent   active voice
 Subject is patient/theme (= not agent)   passive voice
 In english, when an active sentence is transformed to a passive sentence, the former object becomes the subject.
