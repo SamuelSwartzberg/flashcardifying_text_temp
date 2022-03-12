@@ -28,35 +28,6 @@ For ⟮＿phonetic production＿⟯, ⟮＿initiation＿⟯ ⟮produces the ＿a
 »⟮The active/passive articulator⟯« is ⟮a specific ＿active/passive articulator＿⟯ involved in ⟮a given ＿articulation＿⟯.
 »⟮The active/passive place of articulation⟯« is ⟮where on⟯ ⟮＿the active/passive articulator＿⟯ ⟮the approach takes place⟯.
 
-#### vowels
-
-⟮＿Vowels＿⟯ are classified in ⟮the IPA⟯ by ⟮tongue height⟯, ⟮tongue backness⟯, and ⟮lip rounding⟯.
-In fact it is not ⟮tongue height⟯ and ⟮c_;tongue backness⟯ but ⟮formant frequencies⟯ what the IPA/distinctive features end up describing.
-⟮F1, F2, F3⟯ = ⟮first, second, third formant⟯
-
-
-table:IPA classification|distictive feature
-⟮tongue height⟯|⟮[+/- high/mid/low]⟯
-⟮tongue backness⟯|⟮[+/- front/central/back]⟯
-⟮lip rounding⟯|⟮[+/- labial/round]⟯
-
-##### rhotacization
-
-r-colored vowel = rhotic vowel (amongst other names)
-»⟮A rhotic vowel⟯« is a vowel with ⟮a lower F3⟯.
-⟮＿A rhotic vowel＿⟯ sounds (to english speakers) like there is ⟮an r present⟯.
-In english orthography for ⟮american english⟯, ⟮a vowel grapheme⟯ + ⟮r grapheme⟯ frequently only indicates ⟮＿a rhotic vowel＿⟯ instead of ⟮an actual rhotic consonant⟯.
-⟮＿rhotic vowels＿⟯ are ⟮uncommon⟯ ⟮crosslinguistically⟯, however they are ⟮c-;common⟯ in ⟮two of the most widely-spoken languages: american english and mandarin chinese⟯.
-⟮＿rhotic vowels＿⟯ are indicated in the IPA by ⟮［◌˞］⟯ or by ⟮a superscript turned r ［ʴ］⟯
-
-##### monopthongs/dipthongs
-
-⟮＿Vowels＿⟯ may either be ⟮＿monopthongs＿⟯ or ⟮＿dipthongs＿⟯.
-»⟮A monopthong⟯« is a vowel sound that ⟮stays the same during its articulation⟯.
-»⟮A dipthong⟯« is a vowel sound that ⟮changes between two vowels during articulation⟯.
-⟮＿A monopthong＿⟯ may be called a ⟮pure⟯, ⟮c-;＿a dipthong＿⟯ an ⟮impure⟯ vowels.
-Since ⟮＿a dipthong＿⟯ ⟮changes from one vowel to another⟯, it may also be called ⟮a glide⟯.
-
 ## IPA
 
 ### general principles
