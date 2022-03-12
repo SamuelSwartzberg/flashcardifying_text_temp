@@ -827,15 +827,58 @@ In english, the word with performs the function of both comitative and instrumen
 
 ### grammatical person
 
-⟮Grammatical person⟯ is personal deixis encoded in language.
-It is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
-Most languages distinguish three forms of grammatical person.
+Grammatical person is the grammatical feature category that encodes the sememe(s) of personal deixis.
+Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
+Most languages distinguish three forms of grammatical person, first, second and third person.
 
+
+table:grammatical person|deictically refers to
 First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
 
-### grammatical voice
+#### clusivity
+
+Clusivity is the grammatical feature feature (part of grammatical person) encoding the difference between two kinds of first person plural reference.
+[+inclusive/-exclusive] includes the addressee, [-inclusive/+exclusive] excludes the addressee.
+
+### arguments & morphosyntactic alignment
+
+#### valency
+
+Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
+Transitivity is like valency, but only counts objects (excludes the subject).
+The valency of a verb or similar is one higher than its transitivity.
+Words counting valency are formed with numeral (both latinate and greek are used) + valent
+e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
+Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
+An ambitransitive verb is one with a transitivity of 0 or 1 (may take a verb or not)
+The two objects of a ditransitive/trivalent verb in english may be termed the direct and indirect object.
+
+#### morphosyntactic alignment
+
+Mrphosyntactic alignment (wide) is the grammatical relationship between arguments.
+Morphosyntactic alignment (narrow) is the relationship between the two arguments of transitive verbs, and the single argument of intransitive verbs.
+
+##### types
+
+The most common types of morphosyntactic alignment are nominative-accusative and ergative-absolutive, though there are others.
+All languages I speak are nominative-accusative languages.
+
+Nominative-accusative morphosyntactic alignment is often shortened to accusative morphosyntactic alignment.
+In a nominative-accusative language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
+Ergative-absolutive morphosyntactic alignment is often shortened to ergative morphosyntactic alignment.
+In a ergative-absolutive language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
+
+In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
+
+
+##### ergativity
+
+an unergative verb is an intransitive verb whose argument is an agent.
+an unaccusative verb is an intransitive verb whose argument is not an agent.
+
+#### grammatical voice
 
 Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles related to agency over grammatical relations.
 Subject is agent   active voice
@@ -844,72 +887,6 @@ In english, when an active sentence is transformed to a passive sentence, the fo
 In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
-
-### transitivity
-
-Valency is the number of argument controlled by a thing, mainly by a verb.
-Transitivity is a property of varbs that relates to whether a verb can take objects, and how many.
-Valency is different from transitivity in that it counts arguments, and thus also the subject.
-In general, the valency of a verb or similar is one higher than its transitivity.
-
-0|impersonal/avalent
-1|monovalnet
-2|divalent
-...
-
-intransitive|doesn't take an object
-transitive|takes an object
-ditransitive|takes two objects
-tritransitive|takes three objects
-ambitransitive|may take an object or not
-
-Ditransitive verbs take two objects, which in english may be termed the direct and indirect object.
-In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
-
-### causative
-
-A causative indicates that someone/thing causes someone/thing else to do/be something.
-A causative increases the valency of the verb involved.
-
-### ergativity
-
-an unergative verb is an intransitive verb whose argument is an agent.
-an unaccusative verb is an intransitive verb whose argument is not an agent.
-
-In linguistics, morphosyntactic alignment is the grammatical relationship between arguments.
-Morphosyntactic alignment is more specifically used for the relationship between the two arguments (in English, subject and object) of transitive verbs like the dog chased the cat, and the single argument of intransitive verbs like the cat ran away.
-The most common types of morphosyntactic alignment are nominative-accusative and ergative-absolutive, though there are others.
-All languages I speak are nominative-accusative languages.
-In a nominative-accusative (or just accusative) language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
-In a ergative-absolutive (or just ergative) language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
-
-### evidentiality
-
-Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
-A feature that encodes evidentiality is known as an evidential or verificational/validational
-
-Following the typology of Alexandra Aikhenvald (2004, 2006), there are two broad types of evidential marking:
-
-indirectivity marking ("type I")
-evidential marking ("type II")
-
-The first type (indirectivity) indicates whether evidence exists for a given statement, but does not specify what kind of evidence. The second type (evidentiality proper) specifies the kind of evidence (such as whether the evidence is visual, reported, or inferred).
-
-type II evidentiality contains a bunch of distinctions, which may blend together:
-
-witness/nonwitness: whether the source is direct eyewitnessing or obtained otherwise (secondhand, inferral, logical deduction, etc.)
-firsthand/secondhand/thirdhand: may be orthogonal to witness/nonwitness since information may be firsthand but nonwitness (e.g. own inferral)
-sensory: Which senses does the information stem from
-inferential: Evidence was not personally experienced but inferred from indirect evidence.
-Reportative evidentials indicate that the information was reported to the speaker by another person. A few languages distinguish between hearsay evidentials and quotative evidentials. Hearsay indicates reported information that may or may not be accurate. A quotative indicates the information is accurate and not open to interpretation, i.e., is a direct quotation.
-
-Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
-
-### others
-
-
-Clusivity is the grammatical feature encoding the difference between inclusive and exclusive first-person plural reference.
-Inclusive first-person plural reference includes the adressee, exclusive first-person plural reference excludes the adressee.
 
 ### tense-aspect-mmod
 
@@ -928,6 +905,8 @@ Eventive: Perfective/Imperfective
 Inchoative/Cessative/ø
 Prospective/Retrospective/ø
 Gnomic/anything else
+
+##### eventive
 
 table:span=3;Eventive
 span=1;⟮c+;s1:4;Perfective⟯|span=4;⟮c+;s1:4;Imperfective⟯
@@ -952,19 +931,27 @@ Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
+##### inchoative/cessative
+
 The inchoative/cessative aspect indicates how the state is changing during the specified time.
 Inchoative aspect is aspect indicating that something is beginning (however not that something is about to begin).
 Cessative aspect is aspect indicating that something is ending.
+
+##### prospective/retrospective
 
 The prospective/retrospective aspect indicates when an event takes place relative to the reference time.
 Prospective aspect is aspect indicating that an event occurs subsequent to a reference time.
 Retrospective aspect (commonly but confusingly also called perfect aspect, not to be confused with perfective aspect) is aspect indicating that an event occurs before a reference time.
 
-Telicity (telic/atelic) is the grammatical feature of whether something has a specific endpoint.
-Telicity is most often considered an aspect.
+##### gnomic/episodic
 
 Gnomic aspect is an apsect indicating general truths.
 The opposite of gnomic aspect is episodic aspect, truths that are temporally bounded.
+
+##### telic/atelic
+
+Telicity (telic/atelic) is the grammatical feature of whether something has a specific endpoint.
+Telicity is most often considered an aspect.
 
 #### modality
 
@@ -1012,6 +999,33 @@ Conditional|Event depends on another condition
 
 mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
 Mirative|surprise/unpreparedness in relation to a given thing
+
+##### evidentiality
+
+Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
+A feature that encodes evidentiality is known as an evidential or verificational/validational
+
+Following the typology of Alexandra Aikhenvald (2004, 2006), there are two broad types of evidential marking:
+
+indirectivity marking ("type I")
+evidential marking ("type II")
+
+The first type (indirectivity) indicates whether evidence exists for a given statement, but does not specify what kind of evidence. The second type (evidentiality proper) specifies the kind of evidence (such as whether the evidence is visual, reported, or inferred).
+
+type II evidentiality contains a bunch of distinctions, which may blend together:
+
+witness/nonwitness: whether the source is direct eyewitnessing or obtained otherwise (secondhand, inferral, logical deduction, etc.)
+firsthand/secondhand/thirdhand: may be orthogonal to witness/nonwitness since information may be firsthand but nonwitness (e.g. own inferral)
+sensory: Which senses does the information stem from
+inferential: Evidence was not personally experienced but inferred from indirect evidence.
+Reportative evidentials indicate that the information was reported to the speaker by another person. A few languages distinguish between hearsay evidentials and quotative evidentials. Hearsay indicates reported information that may or may not be accurate. A quotative indicates the information is accurate and not open to interpretation, i.e., is a direct quotation.
+
+Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
+
+##### causative
+
+A causative indicates that someone/thing causes someone/thing else to do/be something.
+A causative increases the valency of the verb involved.
 
 ## others
 
