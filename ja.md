@@ -11795,6 +11795,18 @@ Bonus facts:
 ⟮江戸⟯ is ⟮the old name of 東京⟯. 
 In the 江戸 period, ⟮下町⟯ sometimes referred to ⟮all of 江戸.⟯ 
 
+## morphology
+
+Japanese forms appositional compounds, which will generally not display 連濁.
+e.g. 　山（やま・さん）　川（かわ・せん） for mountains and rivers = scenery and 　左（さ）　右（ゆう） for left and right = control.
+Japanese endocentric compounds will generally display 連濁 if phonotactically possible.
+
+### japanese stems
+
+The stem that we most commonly call 'stem' in english is the 
+stem of ru-verb is verb - る
+Stem of u-verb is ‹consonant›u → ‹consonant›i
+
 ## grammatical features
 
 ### honorifics
