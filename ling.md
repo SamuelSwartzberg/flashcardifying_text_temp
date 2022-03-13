@@ -862,16 +862,22 @@ Morphosyntactic alignment (narrow) is the relationship between the two arguments
 
 ##### types
 
-The most common types of morphosyntactic alignment are nominative-accusative and ergative-absolutive, though there are others.
+The most common types of morphosyntactic alignments (narrow) are nominative-accusative and ergative-absolutive, though there are others.
 All languages I speak are nominative-accusative languages.
 
+###### nom acc
+
 Nominative-accusative morphosyntactic alignment is often shortened to accusative morphosyntactic alignment.
-In a nominative-accusative language, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
+With nominative-accusative morphosyntacitic alignment, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
+e.g. Julius venit → julius brutum vidit
+
+In nominative-accusative languages with case systems, for ditransitive verbs the complement (direct object) will typically get the accusative acase, and the second object will recieve e.g. the dative case.
+
+###### erg abs
+
 Ergative-absolutive morphosyntactic alignment is often shortened to ergative morphosyntactic alignment.
-In a ergative-absolutive language, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
-
-In languages which mark grammatical case, it is common to differentiate the objects of a ditransitive verb using, for example, the accusative case for the direct object, and the dative case for the indirect object. In languages without morphological case (such as English for the most part) the objects are distinguished by word order and/or context. However, there exist differences in morphosyntactic alignment.
-
+With ergative-absolutive morphosyntactic, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
+e.g. fake ergative latin: Julius venit → Julium brutus vidit.
 
 ##### ergativity
 
@@ -880,152 +886,200 @@ an unaccusative verb is an intransitive verb whose argument is not an agent.
 
 #### grammatical voice
 
-Voice is a grammatical feature, mainly of verbs/VPs, that maps semantic roles related to agency over grammatical relations.
-Subject is agent   active voice
-Subject is patient/theme (= not agent)   passive voice
+Voice is a grammatical feature category encoding the mapping semantic roles related to agency over grammatical relations.
+Grammatical voice is generally realized on verbs/VPs.
+The two most common grammatical voices are active and passive.
+In the active voice, the subject is the agent.
+In the passive voice, the subject is not the agent (e.g. patient, them)
+
+##### english
+
 In english, when an active sentence is transformed to a passive sentence, the former object becomes the subject.
 In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
 In english, by-PPs realizing the agent are adjoined to the right of the VP.
-In english, the verb that is used to form passives is be, there is also a odd type of passive formed with get.
+In english, the most common verb that is used to form passives is be
+In english, there is also a odd type of passive formed with get.
 
-### tense-aspect-mmod
+### tense-aspect-mood
 
-tense, aspect and modality are three grammatical features that are often strongly entangled in a given language and thus hard to separate.
-for something to be a tense, aspect or modality it must be marked on the verb/vp.
+tense-aspect-mood is the combination of tense, aspect and mood.
+tense, aspect and mood are all grammatical feature categoriess marked on verbs or VPs.
+tense-aspect-mood exists since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
 Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
-The marking of tense, aspect and modality is sometimes known as tense-aspect-mood
-tense-aspect-mood is most often marked on verbs or via auxiliary verbs.
+
+#### tense
 
 #### aspect
 
-Aspect is tells you how time flows within the process/event itself.
-Aspect may be divided into grammatical aspect, which is aspect indicated through inflection, and lexical aspect, which is inherent in a certain lexeme.
-Aspect encodes different distinctions:
-Eventive: Perfective/Imperfective
-Inchoative/Cessative/ø
-Prospective/Retrospective/ø
-Gnomic/anything else
+Aspect is the grammatical feature category encoding how the event relates to time in general.
+Depending on how the grammemes are encoded, aspect may be divided into grammatical aspect and lexical aspect.
+Grammatical aspect is aspect encoded in inflectional morphology.
+Lexical aspect is aspect encoded in lexical items.
+
+Aspect can be divided into five rough distinctions:
+- eventive
+- howfar
+- spective
+- scope
+- telicity
 
 ##### eventive
 
-table:span=3;Eventive
-span=1;⟮c+;s1:4;Perfective⟯|span=4;⟮c+;s1:4;Imperfective⟯
-|span=2;⟮c+;s1:2;Habitual⟯|span=2;⟮c+;s1:2;Continuous⟯
-|||⟮c+;s3:5;Progressive⟯|⟮c+;s3:5;Stative⟯
+Eventive aspect indicates how time flows within the process/event itself.
+Language may have some subdivisions of eventive aspect as grammemes, but not have others 
+e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
+###### division
 
-Perfective and imperfective aspect together make up the eventive aspect
+Eventive
+  Perfective
+  Imperfective
+    Iterative
+    Frequentative
+    Habitual
+    Continuous
+      Progressive
+      Stative
 
-perfective|event viewed in its entirety ( = without internal complexity)
-Imperfective|event viewed with some sort of internal complexity 
-Continuous|ongoing situation without interruption
-Habitual|habitual, usual, customary action (imperfective but not continuous)
-Progressive|continuous: ongoing and evolving 
-Stative|continuous: ongoing but not evolving
+###### relation
 
-There are other imperfective aspects:
+Eventive aspect may be divided into perfective and imperective aspect.
+perfective aspect is the event viewed in its entirety ( = without internal complexity).
+Imperfective aspect is event viewed with some sort of internal complexity.
+Imperfective aspect may sometimes be divided into iterative, frequentative, habitual and continuous (though there may be others)
+Habitual, iterative and frequentative aspect all indicate that something is repeated.
+Habitual aspect indicates that the action is repeated as one would a habit on different occasions.
+Frequentatie aspect indicates that the action is repeated on different occasions, but not necessarily as one would a habit.
+Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly)) during the same occasion.
+Continuous aspect indicates an ongoing situation/action without interruption.
+Continuous aspect may sometimes be divided into progressive and stative.
+Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
+Stative aspecti is a continuous aspect where the situation/action is not evolving/changing.
 
-Iterative aspect "signals that an action is repeated on a single occasion and differs from frequentative aspect, which both signal the repetition occurred on different occasions" (p. 160). 
+###### realizations in languges
 
 Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
-##### inchoative/cessative
+##### howfar
 
-The inchoative/cessative aspect indicates how the state is changing during the specified time.
-Inchoative aspect is aspect indicating that something is beginning (however not that something is about to begin).
-Cessative aspect is aspect indicating that something is ending.
+howfar aspect (my term) indicates how the state is changing during the specified time.
+howfar aspect may be inchoative, cessative or ø.
+Inchoative aspect is howfar aspect indicating that something is beginning (however not that something is about to begin).
+Cessative aspect is howfar aspect indicating that something is ending.
 
 ##### prospective/retrospective
 
-The prospective/retrospective aspect indicates when an event takes place relative to the reference time.
-Prospective aspect is aspect indicating that an event occurs subsequent to a reference time.
-Retrospective aspect (commonly but confusingly also called perfect aspect, not to be confused with perfective aspect) is aspect indicating that an event occurs before a reference time.
+The spective (my term) aspect indicates when an event takes place relative to the reference time.
+spective aspective may be prospective, retrospective, or ø.
+Prospective aspect is spective aspect indicating that an event occurs subsequent to a reference time.
+Retrospective aspect is spective aspect indicating that an event occurs before a reference time.
+Retrospective aspect is commonly but confusingly also called perfect aspect, not to be confused with perfective aspect.
 
 ##### gnomic/episodic
 
-Gnomic aspect is an apsect indicating general truths.
-The opposite of gnomic aspect is episodic aspect, truths that are temporally bounded.
+The scope aspect (my term) indicates what kind of scope something being the fact has.
+Scope aspect may be gnomic, episodic, or ø.
+Gnomic aspect is the scope apsect indicating general truths.
+Episodic aspect is the scope aspect indicating truths that are temporally bounded.
 
 ##### telic/atelic
 
-Telicity (telic/atelic) is the grammatical feature of whether something has a specific endpoint.
-Telicity is most often considered an aspect.
+Telicity is the grammatical feature (mostly seen as an aspect) of whether something has a specific endpoint.
+Telicity may be telic, atelic, or ø.
 
 #### modality
 
-modality is a grammatical feature used to discuss possible situations. 
+modality is a grammatical feature category encoding possible situations. 
 Different forms of modality are sometimes called flavors.
+
+##### deontic/epistemic, realis/irrealis
+
 Modalities are primarily distingished along two axes: deontic/epistemic and realis/irreals
 Deontic modality is modality that is concerned with how the world ought to be.
-Epistemic modality is modality that is concerned with knowledge, belief or credence.
+Epistemic modality is modality that is concerned with knowledge/belief/credence.
 Realis moods/modalities are a set moods/modalities that indicate that something is the case.
-Irrealisa= moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
-Most languages have a single realis mood/modality called the indicative mood/modality, although some languages have additional realis moods, for example to express different levels of certainty.
+Irrealis moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
 Distinction between different types of modality may not always be clear-cut, since different languages use different analyses.
 
-Non-indicative realis moods are 
-energetic: emphasis or strong belief
-gnomic: general truths or aphorisms
+##### realis epistemic
 
-Types of epistemic irrealis modalities
-Subjunctive modality is a type of epistemic irrealis modality indicating that something is unlikely, this is generally used in subordinate clauses.
-Potential modality is a type of epistemic irrealis modality indicating that something is likely. This may also be called tentative when talking about japanese, as potential means something else.
-Dubitative modality is a type of epistemic irrealis modality indicating that something is dubious/doubtful or uncertain.
-Speculative modality is a type of epistemic irrealis modality indicating that something is mere speculation.
-Hypothetical modality is a type of epistemic irrealis modality indicating that while something did not happen, it could have happened.
-Assumptive modality is a type of epistemic irrealis modality indicating that something is true because it is usually true in similar circumstances.
+Most (but not all) languages have a single realis mood/modality called the indicative mood/modality.
 
-Types of deontic irrealis modalities
+Possible epistemic realis modalitites are energetic, gnomic or the various evidential modalites.
+Energetic is an epistemic realis mood indicating emphasis or strong belief.
+Gnomic is an epistemic realis mood indicating general truths or aphorisms. 
 
-Deontic modality may be roughly dividend into commissive, directive and volitive:
+###### evidentiality
+
+Evidentiality (wide sense) is the grammatical feature category encoding what kind of evidence there is for a given statement.
+Evidentiality (wide sense) is most commonly analyzed as a mood.
+Evidential = verificational = validational
+An evidential is a feature that encodes evidentiality (wide sense).
+
+The typology of evidentiality (wide sense) was mainly created by Alexandra Aikhenvald (2004, 2006).
+There are two kinds of evidentiality (wide sense): indirectivity and evidentiality proper.
+Indirectivity is sometimes called type I, evidentiality type II.
+Indirectivity is the type of evidentiality (wide sense) that encodes whether evidence exists, but not what kind.
+Evidentiality proper is the type of evidentiality (wide sense) that encodes what kind of evidence exists.
+
+####### evidentiality proper
+
+Evidentiality proper contains a certain number of grammatical feature features.
+Most languages build evidentials proper grammemes from a combination of the various grammatical feature features of evidentiality proper.
+The grammatical feature features making up the grammatical feature cateogory evidentiality proper are [+/- witness], [+/- firsthand/secondhand/thirdhand], [+/- sensory], [+/- inferential], [+/- reportative], [+/- assumed].
+The evidentiality proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- visual] or [+/- auditory]
+The reportative proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- hearsay] or [+/- quotativve]
+
+##### irrealis epistemic
+
+The common epistemic irrealis modalities are subjunctive, potential, dubitative, speculative, hypothetical, assumptive
+
+
+table:epistemic irrealis modality|meaning
+Subjunctive|something is unlikely, this is generally used in subordinate clauses.
+Conditional|Something is a dependent on another thing.
+Tentative|something is likely
+Dubitative|something is dubious/doubtful or uncertain.
+Speculative|something is mere speculation.
+Hypothetical|while something did not happen, it could have happened.
+Assumptive|something is true because it is usually true in similar circumstances
+
+
+The tentative mood is more commonly called potential, but this is a different meaning than the potential in japanese 
+
+##### deontic
+
+Deontic modality may be roughly dividend into commissive, directive and volitive.
+
+
+table:type of deontic modality|meaning
 commmissive|commital to something
 directive|commands, requests, etc.
 volitive|wishes, desires etc.
 
-Permissive modality is a type of directive modality indicating that something is permitted
-Imperative modality is a type of directive modality indicating a command.
-Hortative modality is a type of directive modality indicating one is trying to encourage or discourage an action.
-Prohibitive/vetative modality is a type of directive modality indicating that something is prohibited.
-Propositive modality is a type of directive modality indicating a proposal or suggestion.
-Propositive modality is a type of directive modality indicating that something should be brought about.
+###### directive
 
-Desiderative modality is a type of volitive deontic modality indicating that one wants something.
-Optative modality is a type of volitive deontic modality indicating Event is hoped/wished
+table:type of directive modality|meaning
+Permissive|something is permitted
+Imperative|command
+Hortative|encouraging/discouraging an action
+Prohibitive/vetative|that something is prohibited.
+Propositive|proposal or suggestion.
+Propositive|that something should be brought about.
 
-Types of irrealis modalities not clearly epistemic/deontic
-Conditional|Event depends on another condition
+###### volitive
 
-mirativity is an epistemic modality of which it is not clear if it is realis or irrealis.
-Mirative|surprise/unpreparedness in relation to a given thing
+table:type of volitive modality|meaning
+Desiderative|one has a desire for something
+Optative|event is hoped for
 
-##### evidentiality
+##### epistemic
 
-Evidentiality is the grammatical feature encoding what kind of evidence there is for a given statement.
-A feature that encodes evidentiality is known as an evidential or verificational/validational
-
-Following the typology of Alexandra Aikhenvald (2004, 2006), there are two broad types of evidential marking:
-
-indirectivity marking ("type I")
-evidential marking ("type II")
-
-The first type (indirectivity) indicates whether evidence exists for a given statement, but does not specify what kind of evidence. The second type (evidentiality proper) specifies the kind of evidence (such as whether the evidence is visual, reported, or inferred).
-
-type II evidentiality contains a bunch of distinctions, which may blend together:
-
-witness/nonwitness: whether the source is direct eyewitnessing or obtained otherwise (secondhand, inferral, logical deduction, etc.)
-firsthand/secondhand/thirdhand: may be orthogonal to witness/nonwitness since information may be firsthand but nonwitness (e.g. own inferral)
-sensory: Which senses does the information stem from
-inferential: Evidence was not personally experienced but inferred from indirect evidence.
-Reportative evidentials indicate that the information was reported to the speaker by another person. A few languages distinguish between hearsay evidentials and quotative evidentials. Hearsay indicates reported information that may or may not be accurate. A quotative indicates the information is accurate and not open to interpretation, i.e., is a direct quotation.
-
-Often languages form evidentiality systems based on a combination of some of the possible evidentials, e.g. {visual sensory, nonvisual sensory, inferential, reportative}
-
-##### causative
-
-A causative indicates that someone/thing causes someone/thing else to do/be something.
-A causative increases the valency of the verb involved.
+Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing
+Causative is an epistemic modality indicating that someone/thing causes someone/thing else to do/be something.
+Causative modality increases the valency of the verb involved.
 
 ## others
 
@@ -1033,18 +1087,19 @@ A causative increases the valency of the verb involved.
 
 A honorific is a grammatical feature that encodes social relationships.
 Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
-Honorifics may be encoded via a variety of linguistic devices.
+Honorifics may be realized via a variety of linguistic devices.
 
 #### T-V
 
-The T-V distinction is a honorific distinction encoded in pronouns.
-The T-V distinction is sometimes understood more narrowly as a honorific distinction encoded in two different second-person pronouns.
+The T-V distinction (wide) is a honorific distinction realized in pronouns.
+The T-V distinction (narrow) is a honorific distinction realized in two different second-person pronouns.
 The T-V distinction is common in many Indo-European languages, but not english.
 The name T-V distinction comes from latin tu/vos.
 
 ### polarity
 
-Polarity is a grammatical feature that encodes the difference between validity/truth/confirmation (positive polarity) and falsity/denial (negative polarity).
+Polarity is a grammatical feature that encodes the difference between positive and negative polarity.
+Positive polarity may correspond to validity/truth/confirmation and negative polarity may corespond to falsity/denial.
 Positive polarity = affirmation
 Negative polarity = negation
 
