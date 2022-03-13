@@ -12,6 +12,7 @@ In linguistics, a string is a sequence of words/sounds that we don't want to put
 
 # syntax
 
+fronting something is movving it to the front of the sentence
 Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
 Morphosyntax is where morphology and syntax interset.
 
@@ -950,7 +951,7 @@ Imperfective aspect may sometimes be divided into iterative, frequentative, habi
 Habitual, iterative and frequentative aspect all indicate that something is repeated.
 Habitual aspect indicates that the action is repeated as one would a habit on different occasions.
 Frequentatie aspect indicates that the action is repeated on different occasions, but not necessarily as one would a habit.
-Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly)) during the same occasion.
+Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly⟯ during the same occasion.
 Continuous aspect indicates an ongoing situation/action without interruption.
 Continuous aspect may sometimes be divided into progressive and stative.
 Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
@@ -1353,57 +1354,14 @@ highly synthetic|japanese, turkish
 
 # information structure
 
-What language I speak is a Topic-prominent language? <span class="divider">-></span> {{c1::Japanese}}
-Topic, comment, presupposition,&nbsp; focus etc., are part of which linguistic concept/subarea? <span class="divider">-></span> {{c1::Information structure}}
-The way information is packaged/structured within a sentence is known as what? <span class="divider">-></span> {{c1::Information structure}}
-Information structure as a part of linguistics is about what? <span class="divider">-></span> {{c1::How we structure information (esp. in relation to existing information)}}
-In information structure, the thing that is new or <b>contrastive</b> information is called what? <span class="divider">-></span> {{c1::focus}}
-In information structure, focus is what kind of information? <span class="divider">-></span> {{c1::new or contrastive information}}
-Terms used roughly synonymously: {{c1::comment}}, {{c2::rheme}}
-Semantically, what is the theme? <span class="divider">-></span> {{c1::'The point of departure' = the starting point of the sentence}}<br/><div class="sub">
-<div class="sub c1-f c2-b" >
-not sure if true
-</div>
-</div>
-Semantically, what is the rheme? <span class="divider">-></span> {{c1::'The destination' = the point where the sentence goes beyond the departure point}}<br/><div class="sub">
-<div class="sub c1-f c2-b" >
-not sure if true
-</div>
-</div>
-In information structure, a clause is divided into what? <span class="divider">-></span> {{c1::Theme and rheme (Topic and comment)}}
-How does topic - comment relate to syntactic relations and semantic roles? <span class="divider">-></span> {{c1::Distinct from both}}
-<div class='c2-f'>
-Other name for?
-</div><div class='c1-f'>
-Other name for?
-</div><br/>{{c1::Topic}}  <span class="divider">&lt;-&gt;</span> {{c2::Theme}}
-<div class='c2-f'>
-Is?
-</div><div class='c1-f'>
-Is called?
-</div><br/>{{c1::Topic/Theme}}  <span class="divider">&lt;-&gt;</span> {{c2::What is being talked about}}
-<div class='c2-f'>
-Is?
-</div><div class='c1-f'>
-Is called?
-</div><br/>{{c1::Comment/Rheme}}  <span class="divider">&lt;-&gt;</span> {{c2::What is said about the topic/theme}}
-<div class='c2-f'>
-Is called?
-</div><div class='c1-f'>
-Is?
-</div><br/>{{c1::A language that organizes its syntax so that sentences have a topic - comment (theme - rheme) structure&nbsp;}}  <span class="divider">&lt;-&gt;</span> {{c2::Topic-prominent language}}
-What is the problem with distinguising focus, givenness, topic, rheme, etc.? <span class="divider">-></span> {{c1::Theory-ladenness/controversy}}
-Topicalization is moving something to the front of the sentence and thus doing what? <span class="divider">-></span> {{c1::Marking it as the topic}}
-Topicalization is making something the topic how? <span class="divider">-></span> {{c1::Moving something to the front of the sentence}}
-The opposite of focus is what? <span class="divider">-></span> {{c1::givenness}}
-The movement of a constituent to the front of the clause and concomittantly establishing it as the topic/theme is known as what? <span class="divider">-></span> {{c1::Topicalization}}
-Moving something to the beginning of a sentence is known as what? <span class="divider">-></span> {{c1::fronting}}
-Fronting is doing what (in syntax)? <span class="divider">-></span> {{c1::Moving a constituent to the beginning of the sentence}}
-<div class="c2-f">
-Are examples of?
-</div><div class="c1-f">
-What are examples of this?
-</div><br>{{c1::This is a <em>salad</em> salad; Do you <em>like</em>&nbsp;like him? I talked to him that week, but I didn't talk to him talk to him.}}  <span class="divider">&lt;-&gt;</span> {{c2::Contrastive focus reduplication}}
+Information structure is the division of the sentence into theme and rheme.
+A topic-prominent language is one that places encoding information structure in a high priority in the syntax, ofte featuring explicit morphology for marking information structure.
+Japanese, mandarin, korean are all topic-prominent.
+Topic is a synonym for theme.
+The theme is that information that is being talked about.
+Focus and comment are synonyms for rheme.
+The rheme is what is being said about the theme.
+Topicalization is marking something as the theme by fronting it.
 
 # grammar + other fields
 
@@ -1533,54 +1491,32 @@ Errors may also lead to language change.
 
 ## interlinear gloss
 
-<br>---<br>
-  §§ A ((c:1;::gloss)) is ((c:2;::a brief explanation)), often ((c:3;::placed near the text)) ((c:2;::it is explaining)) §<br>
-  §§ An ((c:4;::interlinear gloss)) is ((c:5;::a gloss)) that is ((c:6;::placed between lines.)) §<br>
-  §§ In linguistics, ((c:7;::interlinear glossing)) follows the ((c:8;::Leipzig Glossing Rules)). §<br>
-  §§ In linguistics, ((c:9;::interlinear glossing following the Leipzig Glossing Rules)) is ((c:10;::morpheme))-by-((c:10;::morpheme)). §<br>
-  §§ However, since ((c:11;::the exact morphology)) is ((c:12;::not always clear)) or ((c:13;::may be at issue)), ((c:14;::interlinear glossing in linguistics)) is generally ((c:15;::for the readers understanding)), not ((c:16;::to state an analysis)). §<br>
-===<br>
+A ⟮gloss⟯ is ⟮a brief explanation⟯, often ⟮placed near the text⟯ ⟮it is explaining⟯
+An ⟮interlinear gloss⟯ is ⟮a gloss⟯ that is ⟮placed between lines.⟯
+In linguistics, ⟮interlinear glossing⟯ follows the ⟮Leipzig Glossing Rules⟯.
+In linguistics, ⟮interlinear glossing following the Leipzig Glossing Rules⟯ is ⟮morpheme⟯-by-⟮morpheme⟯.
+However, since ⟮the exact morphology⟯ is ⟮not always clear⟯ or ⟮may be at issue⟯, ⟮interlinear glossing in linguistics⟯ is generally ⟮for the readers understanding⟯, not ⟮to state an analysis⟯.
 
-<section class="cloze-group-children hide-if-inactive-children">
-  Interlinear glossing according to ((c:17;::the Leipzig Glossing Rules)):
-  §§ Interlinear glosses are ((c:18;::aligned)) ((c:19;::word-by-word (not morpheme-by-morpheme!))), and in this way ((c:20;::left-aligned)). §<br>
-  §§ ((c:21;::Morphemes within the same word)) are ((c:22;::separated by hyphen)) both ((c:23;::within the object language)) and ((c:24;::in the gloss)). §<br>
-  §§ In Interlinear glosses, ((c:25;::grammatical morphemes)) can be rendered by ((c:26;::abbreviated lables (e.g. LOC))) or&nbsp; §<br>
-  §§ ((c:27;::by a word in the metalanguage (e.g. in))) §<br> In interlienar gloss, ((c:28;::the lables indicating grammatical morphemes)) are ((c:29;::written in caps)), most commonly ((c:30;::in small caps.))
-  §§ In interlinear gloss, the ((c:31;::most common)) of the abbreviated lables may be ((c:32;::further abbreviated)). §<br>
-  §§ ((c:33;::Clitic boundaries)) are marked by ((c:34;::an equals sign)). §<br>
-  §§ In interlinear gloss, if ((c:35;::one element in the object language)) is ((c:36;::rendered by several elements in the metalanguage)), those are ((c:37;::separated in the gloss by periods. (there are also optional further category separations here which use _ \ = ; &gt;)))  §<br>
-  §§ Things that are ((c:38;::contained in the gloss)) that are ((c:39;::not marked in the object language)) may either ((c:40;::be enclosed by [])) in ((c:40;::the metalanguage)), or ((c:41;::be indicated by ø)) in ((c:41;::the object language)) §<br>
-</section>
+Interlinear glossing according to ⟮the Leipzig Glossing Rules⟯:
+Interlinear glosses are ⟮aligned⟯ ⟮word-by-word (not morpheme-by-morpheme!⟯), and in this way ⟮left-aligned⟯.
+⟮Morphemes within the same word⟯ are ⟮separated by hyphen⟯ both ⟮within the object language⟯ and ⟮in the gloss⟯.
+In Interlinear glosses, ⟮grammatical morphemes⟯ can be rendered by ⟮abbreviated lables (e.g. LOC⟯) or
+⟮by a word in the metalanguage (e.g. in⟯) In interlienar gloss, ⟮the lables indicating grammatical morphemes⟯ are ⟮written in caps⟯, most commonly ⟮in small caps.⟯
+In interlinear gloss, the ⟮most common⟯ of the abbreviated lables may be ⟮further abbreviated⟯.
+⟮Clitic boundaries⟯ are marked by ⟮an equals sign⟯.
+In interlinear gloss, if ⟮one element in the object language⟯ is ⟮rendered by several elements in the metalanguage⟯, those are ⟮separated in the gloss by periods. (there are also optional further category separations here which use _ \ = ; &gt;⟯) 
+Things that are ⟮contained in the gloss⟯ that are ⟮not marked in the object language⟯ may either ⟮be enclosed by []⟯ in ⟮the metalanguage⟯, or ⟮be indicated by ø⟯ in ⟮the object language⟯
 
-<table>
-  <thead>
-    <tr>
-      <th>Grammatical Item</th>
-      <th>Abbreviation</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-<tr><td>((c:47;::Article))</td> <td>((c:42;::ART))</td></tr>
-<tr><td>((c:43;::Demonstrative))</td> <td>((c:44;::DET))</td></tr>
-<tr><td>((c:45;::Honorific))</td> <td>((c:46;::HON))</td></tr>
-  </tbody>
-</table>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}</span><br><div class="sub">
-<table class="blank-canvas cloze-group hide-if-inactive" style="text-align: left">
-  <tbody>
-    <tr><td>My</td><td>s</td><td>Marko</td><td>poexa-l-i</td><td>avtobus-om</td><td>v</td><td>Peredelkino.</td></tr>
-    <tr> <td>1PL</td><td>COM</td><td>Marko</td><td>go-PST-PL</td><td>bus-INS</td><td>All</td><td>Peredelkino.</td></tr>
-    <tr><td colspan="7">'Marko and I went to Perdelkino by bus.'</td></tr>
-  </tbody>
-</table>
+table:Grammatical Item|Abbreviation
+⟮Article⟯|⟮ART⟯
+⟮Demonstrative⟯|⟮DET⟯
+⟮Honorific⟯|⟮HON⟯
 
-<table style="text-align: left" class="blank-canvas cloze-group hide-if-inactive">
-  <tbody>
-    <tr> <td>puer</td> <td>or:</td> <td>puer-Ø</td> </tr>
-<tr> <td>boy[NOM.SG]</td> <td></td> <td>boy-NOM.SG</td> </tr>
-<tr> <td>‘boy’</td> <td></td> <td>‘boy’</td> </tr>
-  </tbody>
-</table>
+poexa-l-i|avtobus-om|v|Peredelkino.
+1PL|COM|Marko|go-PST-PL|bus-INS|All|Peredelkino.
+span=7;'Marko and I went to Perdelkino by bus.'
 
-</div>
+
+puer|or:|puer-Ø
+boy[NOM.SG]||boy-NOM.SG
+‘boy’||‘boy’
