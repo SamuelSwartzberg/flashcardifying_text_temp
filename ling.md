@@ -1316,34 +1316,38 @@ e.g. case, number
 A lexeme is defective if it lacks some of the forms of its inflectional paradigm.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
 A lexeme is regular/irregular if it has/does not have a typical inflectional paradigm.
-A verb class is one of the typical inflectional paradigms for verbs verb.
+A verb class is one of the typical inflectional paradigms for verb.
 
-## errors
 
-A surface analysis is any valid analysis of a words morphology, no matter if etymologically true.
+## analysis
 
-reanalysis is a form of surface analysis, specifically an analysis of a lexeme into a different morphology than it originally had.
-juncture loss is the form of reananalysis where an article and a noun fuse.
+A surface analysis is a valid analysis of a lexeme's morphology no matter if etymologically true.
+Surface analysis and all derivative terms are most frequently used to describe thereby resultant word formation.
+Reanalysis is surface analysis into a different morphology than it originally had.
+Juncture loss is reanalysis where an article and a noun fuse.
 Juncture loss: al + chemy (from arabic) → alchemy
-
 Rebracketing is also sometimes known as resegmentation or metanalysis
-rebracketing is the form of reanalysis that involves analyizing a lexeme/lexical unit into a different set of morphemes 
+rebracketing is reanalysis into a different set of morphemes, but still a set
 rebracketing: hamburger as ham + burger instead of hamburg + er
-
-### etymological
-
-a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation, it may also be in a different sense be used as a synonym to reanalysis
+a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation
+folk etymology may be used as a synonym to reanalysis, but this is confusing, so I won't
 Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
 ## typology
 
-Linguistic typology according to a language's morphological structures and mainly how these languages create words from morphemes is known as morphological typology.
+Morphological typology is linguistic typology according to a language's morphology.
 The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
-Analytic languages contain very little inflection, and thus have very few morphemes per word (often close to one morpheme per word)
+
+### analytic, synthetic
+
+Analytic languages contain very little inflection and thus have very few (often close to 1) morphemes per word 
 Synthetic languages contain a lot of inflection and thus have many morphemes per word.
 Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
 fusional languages merge many different inflectional categories into the same morpheme.
 analytic languages have different morphemes for different inflectional categories and glue those together.
+
+
+table:morphological typology|example languages
 highly analytic|chinese, vietnamese
 highly synthetic|japanese, turkish
 
