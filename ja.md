@@ -11771,6 +11771,11 @@ Meaning|Image|Kanji|Radicals|Details/Mnemonics|Mnemonic Images
 ⟮professional⟯|⟮s265;✫sm_paste-2da03e48948881d3d5cb1c4b3f58c9bed2325f34.jpg✫⟯|⟮者⟯|⟮h∞;[✫sm_dizzy.png✫ (dizzy) , 日 (sun, day)]⟯|⟮h∞;The ⁑professional⁑ SHALL work all ⁑day⁑ until they get ⁑dizzy⁑!⟯|⟮h∞;⟯
 ⟮come/future⟯|⟮s266;✫sm_paste-044bda84757729214d4f484b43e7ae5acc88909e.jpg✫⟯|⟮来⟯|⟮h∞;[米 (rice / America)  , 一 (one/line radical)]⟯|⟮h∞;⁑rice⁑ 〔米) plus a ⁑line⁑, which we'll call a horizontal bolt of ⁑RAIghtning⁑. So you can say . . .In the ⁑future⁑, we'll use ⁑RAIghtning⁑ to cook our ⁑rice⁑! ZAP!!!!⟯|⟮h∞;⟯
 
+## pragmatics
+
+Japanese backchannels are called 　相（あい）　槌（づち）.
+　相（あい）　槌（づち） are quite common in japan.
+
 ## sociolinguistics
 
 ### official language
@@ -11809,7 +11814,73 @@ Stem of u-verb is ‹consonant›u → ‹consonant›i
 
 ## grammatical features
 
-### honorifics
+### by thing encoded
+
+
+#### numerals
+
+In japanese grammar, measure words are typically called counters.
+In japanese grammar, measure words are required for any numeral and when asking for quantities.
+In japanese grammar, numerals, measure words and optional indicators for cardinality form a phrase (which I will call Counter Phrase).
+Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
+
+The japanese counting system:
+rational-number ::= [マイナス]‹positive-rational-number›
+positive-rational-number ::- ‹integer›[　点（てん）‹digit›{‹digit›}]
+integer ::= {‹myriad-unit›}[‹place›][‹place›][‹place›]‹place-when-base-1›
+myriad-unit ::= [‹place›][‹place›][‹place›]‹place-when-base-multiple-of-four›
+place ::= ‹digit›‹base-word›
+place-when-base-1 ::= ‹digit›
+place-when-base-multiple-of-four ::= ‹digit›‹base-multiple-of-four-word›
+
+Japanese digits:
+
+0|零・丸・ゼロ
+
+
+1|一|いち|ひと
+2|二||ふた
+3|三||みっ
+4|四||よ(ん・っ)
+5|五||いつ
+6|六||むっ
+7|七||なな
+8|八||やっ
+9|九||ここの
+
+Japanese bases up to 1000
+
+10|十|じゅう|とお
+100|百|ひゃく|もも
+1000|千|せん|ち
+
+Japanese base when multiple of four words:
+
+10^4|万|まん|よろず
+10^8|億|おく|none
+10^12|兆|ちょう|none
+
+Counters
+
+日|か|days|訓 (exception 一日：ついたち)
+
+
+#### deixis
+
+In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
+The japanese deictical morphemes collectively are known as こそあど.
+
+proximal|こ
+medial|そ
+distal|あ
+question|ど
+
+demonstrative determiner|~の
+demonstrative pronoun (things)|~れ
+
+the demonstrative determiners この、その… are originally abbreviations of これの、それの….
+
+#### honorifics
 
 Japanese has three dimensions of honorifics: politeness, formality, and deference/humility ＆ respect.
 Politeness|relationship to addressee
@@ -11824,7 +11895,7 @@ Any politeness marker in japanese is only allowed at the end of clauses
 Deference/humility ＆ respect are encoded in different verbal conjugations, inflection of objects, and vocabulary choice.
 Formality is encoded in different versions of the copula, as well as in certain word choices.
 
-#### humility/respect
+##### humility/respect
 
 尊敬語|honorific
 謙譲語|humble

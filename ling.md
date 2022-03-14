@@ -1,80 +1,25 @@
 # grammar (supercategory of all of this)
 
 Most broadly, grammar is the sets of rules governing a languoid.
-A reference work on the grammar of a language may also be known as a grammar, more precisely as a reference grammar.
-If a string conforms to the grammar of a lect, it is called grammatical.
+A reference grammar is a work on the grammar of a languoid.
+A string is grammatical if it conforms to the grammar of a languoid.
 A grammaticality judgement is a judgement on the gramatticality of a string by a certain speaker.
 grammaticality judgements are often used as linguistic evidence, generative grammar also aims to predict them.
 * marks a thing that is ungrammatical.
-In linguistics, an empty category is an element in the study of syntax that does not have any phonological content and is therefore unpronounced.
-An empty category = something unpronounced is often indicated by ø or ＊e＊
-In linguistics, a string is a sequence of words/sounds that we don't want to put any deeper analytical category on just yet.
+An empty category is an element that does not have any phonological content and is therefore unpronounced.
+An empty category is often indicated by ø or ＊e＊
+A string is a sequence of words that we don't want to put any deeper analytical category on just yet.
 
 # syntax
 
+Syntax is the study of how words and morphemes form larger units such as phrases and sentences and thus give rise to meaning.
+Syntax indicates sememes and pragmemes via the branching structure it forms.
 fronting something is movving it to the front of the sentence
-Syntax is the study of how words and morphemes form larger units such as phrases and sentences.
-Morphosyntax is where morphology and syntax interset.
-
-## branching
-
-<div class="c1-f">
-What feature does this tree exhibit?
-</div>
-<div class="c1-f">
-What feature does this tree exhibit?
-</div>
-<div class="c1-f">
-What feature does this tree exhibit?
-</div>
-<div class="c2-f">
-Languages that are this are also...
-</div><div class="c1-f">
-Languages that are this are also...
-</div><br><img class="c1-f c2-b" src="sm_paste-f8905a83ae65ccc1c0f94347a99ffd017cf2efee.jpg">
-<img class="c1-f c2-b" src="sm_paste-4481fdfb6ba20a69bb29540e2b14cb74632e1211.jpg">
-<img class="c1-f c2-b" src="sm_paste-f407ff4ff31634a63b3dff9684044951e1ae2379.jpg"><br><span class="divider">-&gt;</span> {{c1::(fully) left-branching}}
-<span class="divider">-&gt;</span> {{c1::(fully) right-branching}}
-<span class="divider">-&gt;</span> {{c1::mostly right-branching}}
-An example for what kind of branching is japanese? <span class="divider">-&gt;</span> {{c1::left-branching}}
-In left-branching/ languages, what will happen if we draw a syntax tree? <span class="divider">-&gt;</span> {{c1::It will branch/grow to the left}}
-What is one of the most rigidly left-branching language? <span class="divider">-&gt;</span> {{c1::japanese}}
-What's the problem with saying a language is left-branching/right-branching? <span class="divider">-&gt;</span> {{c1::It is more a tendency than it is a rule, mostly}}
-{{c1::left-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-final}}
-{{c1::right-branching}}  <span class="divider">&lt;-&gt;</span> {{c2::head-initial}}
-
-## Information structure
-
-Information structure is the subfield of linguistics describing how information is organized within a sentence.
-Information structure mainly consists of the three oppoositions of focus/background, topic/comment, and givenness/new
-
-## Expletives
-
-An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
-Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
-E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
-
-## Grammatical relations
-
-Grammatical relations are subjects and objects, and perhaps others depending on your theory.
-Grammatical relations are different things to different theorists.
-The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
-
-## labelled bracket
-
-Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
-Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
-leaf ::= #somestring
-
-## frameworks
-
-Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
-Generative semantics was a response to generative grammar developed in the 1960s.
-The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
-The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
-Generative semantics held that syntactic structures from meanings, rather than the other way around
+Morphosyntax is where morphology and syntax intersect.
 
 ## constituents
+
+### constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
 The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
@@ -103,7 +48,23 @@ Gertrude wasn't interested in art.
 Interested in art, Gertrude wasn't.
 ```
 
-## phrasees
+### branching
+
+For something to be left/right-branching is for their parse trees to grow to the left/right.
+Things that are left-branching are also head-final.
+Things that are right-branching are also head-initial.
+
+### annotation
+
+#### labelled bracket
+
+Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
+Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
+leaf ::= #somestring
+
+### types of constiutents
+
+#### phrasees
 
 a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
 The head of a phrase is the thing everything else in the phrase is about.
@@ -111,7 +72,7 @@ In a phrase, everything that isn't the head is a dependent.
 In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
 head-initial|English (partially)
 
-### unsorted
+##### unsorted
 
 <pre><code data-codetype="text">*the lady’s a book</code></pre> <span class="divider">-&gt;</span> {{c1::That possessive s is a determiner}}
 <pre><code data-codetype="text">Ann’s car</code></pre><pre><code data-codetype="text">She's car</code></pre> <span class="divider">-&gt;</span> {{c1::Possessor DPs cannot be replaced by pronouns}}
@@ -131,7 +92,7 @@ What type of constitutent is the thing after a posessive s? <span class="divider
 What type of constitutent is the thing before a posessive s? <span class="divider">-&gt;</span> {{c1::A DP}}
 the children’s toys <span class="divider">-&gt;</span> {{c1::the toys of the children}}
 
-### X-bar framework-based
+##### X-bar framework-based
 
 
 The X-bar theory asserts that all phrases have the structure ✫https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png✫, which is called the X-bar schema.
@@ -198,7 +159,7 @@ to test whether a CP is an adjunct or a complement, use a proform test on the Ve
 
 The object is the thing that is the complement of the VP.
 
-#### IPs
+###### IPs
 
 under the IP theory, the sentence is an IP headed by an I.
 The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
@@ -213,7 +174,7 @@ class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
 
 
-#### VP-internal subject hypothesis
+###### VP-internal subject hypothesis
 
 According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
 According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
@@ -232,7 +193,7 @@ class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
 class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
 someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
 
-#### DP hypothesis: 
+###### DP hypothesis: 
 
 The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
 The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
@@ -255,7 +216,7 @@ class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-##### posessive s
+####### posessive s
 
 class=blank-canvas;span=3;class=inner;⟮DP⟯
 class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
@@ -270,7 +231,7 @@ span=1,2;|class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
 class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
 
 
-#### NP hypothesis
+###### NP hypothesis
 
 class=blank-canvas;span=2;class=inner;⟮NP⟯
 class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
@@ -279,20 +240,20 @@ class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
 class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
 
 
-#### IP hypothesis
+###### IP hypothesis
 
 Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
 Multiple auxiliaries are adjoined as Vs to the VP.
 Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
 
-#### early modern english
+###### early modern english
 
 Lexical verbs could move to I, and thus to C, following the HMC.
 In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
 In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
 "What heards't thou?"
 
-#### german sentences
+###### german sentences
 
 The german main clause V2, subordinate clause V-final constituent order is explained as follows:
 In german, VP and IP are head-filnal
@@ -303,12 +264,13 @@ In german subordinate clauses, the V can't move to C, because that is typically 
 If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
 Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
 
-### types of phrases
+##### types of phrases
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
 
-## clauses
+
+#### clauses
 
 A clause links a predicand (expressed or not) with a predicate.
 
@@ -340,19 +302,19 @@ A subordinate/dependent clause cannot stand alone as a sentence.
 Independent clause = main clause ≈ root clause ≈ matrix clause
 A independent clause can stand alone as a sentence.
 
-### subordinate clauses
+##### subordinate clauses
 
 An embedded question is a question that is a subordinate clause.
 As CPs generally are, embedded questions are adjuncts of the VP or complements of the verb (in japanese too)
 
-#### relative clause
+###### relative clause
 
 A relative clause is a subordinate clause that describes a DP/NP
 A ⟮relative clause⟯ is a ⟮subordinate clause⟯ which generally ⟮describes the referent of its head⟯.
 I met a furry who was passionate.
 In indo-european languages, a relative clause is generally introduced by a relative pronoun.
 
-### interrogative
+##### interrogative
 
 In syntax, an interrogative clause has a particular type of syntax and/or prosoody, which is typically used to ask question (attach the illocutionary act/force of asking a question).
 Languages may have diffrent types of interrogative clauses (i.e. different syntaxes used to ask different types of questions).
@@ -361,18 +323,18 @@ In many languages, besides syntax/prosody, written exchanges often indicate inte
 
 If syntax is used to indicate an interrogative, it may be in the form of conjugating the verb, changing the word order, adding interrogative words, particles, or other constituents, or often a combination of these.
 
-#### conjugation
+###### conjugation
 
-#### word order
+###### word order
 
-##### I-to-C movement
+####### I-to-C movement
 
 In english, wh-questions and yes/no questions alike are marked by I-to-C movement.
 In english interrogatives that are not subject questions, the sentence becomes a CP.
 In english interrogatives, the newly formed C position is filled by I moving to C.
 In english interrogatives, if there is no I to move to C, I is made pronounced via do-support.
 
-##### wh-movement
+####### wh-movement
 
 A wh-question is a interrogative sentence using a wh-word.
 Wh-questions typically feature wh-movement.
@@ -392,9 +354,9 @@ There are a bunch of islands:
 - No extraction out of adjuncts
 Besides out of islands, wh-movement will be ungrammatical if it does not comply with the shortest move / minimal link condition: The move must be the shortest possible = there must not be a wh-element that would have to move less far.
 
-#### adding constituents
+###### adding constituents
 
-##### tag questsions
+####### tag questsions
 
 A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
 A question tag is an interrogative fragment.
@@ -407,12 +369,12 @@ es|verdad?|no?
 English as well as some other languages allow  to the end of a declarative clause to turn it into an interrogative clause.
 English as welll as a few other languages have specific grammar for forming more complex tag question fragments, in english: aux + pronoun
 
-##### interrogative words ＆ particles
+####### interrogative words ＆ particles
 
 In english, interrogative words start with wh- and are thus known as wh-words.
 
 
-### ordination
+##### ordination
 
 Coordination/subordination may imply different semantic relationships between the conjuncts.
 illative|presents a consequence
@@ -429,13 +391,13 @@ temporal|
 
 In english, coordination/subordination is most often performed by conjunctions.
 
-#### coordination
+###### coordination
 
 Coordination is the process of linking two things of the same type.
 The two things linked via coordination are called conjuncts.
 The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
 
-#### subordination
+###### subordination
 
 Subordination is linking two things (maincly clauses), where one depends on the other.
 A complement clause is an argument of a predicate.
@@ -444,7 +406,7 @@ A complementizer turns a clause into the subject or object of a sentence.
 In english, the complementizer 'that' sometimes is unpronounced
 Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
 
-## sentences
+##### sentences
 
 A sentence consists of one or more clausees.
 A simple sentence consists of one (main/independent) clause.
@@ -458,6 +420,29 @@ A sentence word (also called a one-word sentence) is a single word that forms a 
 A cleft sentence splits a simple sentence up into a complex sentence. 
 Cleft seentence typically put the constituent now in the independent clause into focus.
 Syntax of cleft sentences in english: it + conjugated form of to be + X + subordinate clause
+
+
+## Expletives
+
+An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
+Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
+E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
+
+## Grammatical relations
+
+Grammatical relations are subjects and objects, and perhaps others depending on your theory.
+Grammatical relations are different things to different theorists.
+The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
+
+
+
+## frameworks
+
+Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
+Generative semantics was a response to generative grammar developed in the 1960s.
+The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
+The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
+Generative semantics held that syntactic structures from meanings, rather than the other way around
 
 ## movement
 
@@ -710,25 +695,27 @@ A grammatical feature category is a category consisting of an inventory of grams
 Grammatical feature is ambiguous between gramamtical feature feature and grammatical feature category.
 Some languages may not make any distinction within a grammatical feature.
 Grammemes may be encoded lexically or morphologically.
-Grammemes encode a sememe.
+Grammemes encode sememes or half of practs/pragmemes.
 
-## phi-features (noun-related)
+## encoded in specfic parts of speech
+
+### phi-features (noun-related)
 
 phi-features is a group of grammatical feature categories related to nouns which are encoded morphologically as inflectional paradigms.
 Phi-features often force agreement on noun-related things, and sometimes on verbs too.
 Phi-features include number, noun class and case.
 
-### noun class
+#### noun class
 
 Noun class is a phi-feature encoding a variety of different sememes not covered by number or case.
 Grammatical gender is a form of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
 
-### number
+#### number
 
 Grammatical number is a phi-feature encoding sememes of distinctions in amounts.
 Grammatical number may distinguish actual amount or grouping.
 
-#### amount
+##### amount
 
 table:name|sememe
 Singular|one
@@ -741,22 +728,22 @@ Plural|many (more than one if only singular/plural)
 If a language distinguishes actual amount via grammatical number, most commonly it only has two grammemes, singular/plural.
 In languages with a singular/plural distinction, most often the singular is the unmarked form,.
 
-##### grouping
+###### grouping
 
 Distinguishing grouping via grammatical number is generally realized in a singulative/collective distinction.
 The collective grammatical number is a group with no distinction into individual entities (similar to english mass nouns)
 The singulative grammatical entitity refers to a specific entity.
 In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
 
-#### in languages
+##### in languages
 
 English, German and Spanish have grammatical number that distinguishes Singular and Plural, Japanese does not have grammatical number.
 
-### case
+#### case
 
 Grammatical case is a phi-feature encoding semantic relationsip or grammatical relation/morphosyntactic alignment.
 
-#### encoding morphosyntactic alignment
+##### encoding morphosyntactic alignment
 
 table:case|grammatical relation
 Accusative|object of a verb
@@ -765,11 +752,11 @@ Nominative|Subject of a verb
 Dative case is sometimes said to mark the indirect object, but the indirect object is just an english construct for describing a certain kind of object of a verb. in this sense, many cases mark something that is an object or at least argument of a verb, not just dative.
 Dative indicates recipient or benificiary of an action.
 
-#### encoding semantic relationsip
+##### encoding semantic relationsip
 
 Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
 
-##### movement
+###### movement
 
 table:case|semantic relationship
 lative|movement to a location.
@@ -781,7 +768,7 @@ Egressive|beginning of a movement from a location or time ('starting from')
 Prolative/vialis/prosecutive/traversal/mediative|by way of, via
 perlative|through, across, along
 
-##### location
+###### location
 
 table:case|semantic relationship
 locative|location
@@ -791,7 +778,7 @@ subessive|below
 Pertingent|touching x
 Intrative|"amidst"
 
-##### cause, purpose, means, use
+###### cause, purpose, means, use
 
 table:case|semantic relationship
 benefactive|something is done for the benefit someone/is intended for someone.
@@ -803,14 +790,14 @@ Vocative|adressee
 
 Benefactive case is often included in the dative case.
 
-##### presence, absence
+###### presence, absence
 
 table:case|semantic relationship
 Genitive|posess⁑or⁑
 Abessive/caritive/privative|absence of the thing.
 Comitative|accompaniment
 
-##### comparison, identity
+###### comparison, identity
 
 table:case|semantic relationship
 Identical|something is identical to another
@@ -819,14 +806,14 @@ Comparative|something is like something (e.g. cold as ice)
 Exessive|away from a state
 Translative|becoming X, changing to X
 
-##### additional information
+###### additional information
 
 In english, the word with performs the function of both comitative and instrumental cases, this case is sometimes called the instrumental-comitative case..
 
 
-## mainly related to verbs
+### mainly related to verbs
 
-### grammatical person
+#### grammatical person
 
 Grammatical person is the grammatical feature category that encodes the sememe(s) of personal deixis.
 Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
@@ -838,14 +825,14 @@ First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
 
-#### clusivity
+##### clusivity
 
 Clusivity is the grammatical feature feature (part of grammatical person) encoding the difference between two kinds of first person plural reference.
 [+inclusive/-exclusive] includes the addressee, [-inclusive/+exclusive] excludes the addressee.
 
-### arguments & morphosyntactic alignment
+#### arguments & morphosyntactic alignment
 
-#### valency
+##### valency
 
 Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
 Transitivity is like valency, but only counts objects (excludes the subject).
@@ -856,17 +843,17 @@ Words counting transitivity are formed with numeral (both latinate and greek are
 An ambitransitive verb is one with a transitivity of 0 or 1 (may take a verb or not)
 The two objects of a ditransitive/trivalent verb in english may be termed the direct and indirect object.
 
-#### morphosyntactic alignment
+##### morphosyntactic alignment
 
 Mrphosyntactic alignment (wide) is the grammatical relationship between arguments.
 Morphosyntactic alignment (narrow) is the relationship between the two arguments of transitive verbs, and the single argument of intransitive verbs.
 
-##### types
+###### types
 
 The most common types of morphosyntactic alignments (narrow) are nominative-accusative and ergative-absolutive, though there are others.
 All languages I speak are nominative-accusative languages.
 
-###### nom acc
+####### nom acc
 
 Nominative-accusative morphosyntactic alignment is often shortened to accusative morphosyntactic alignment.
 With nominative-accusative morphosyntacitic alignment, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
@@ -874,18 +861,18 @@ e.g. Julius venit → julius brutum vidit
 
 In nominative-accusative languages with case systems, for ditransitive verbs the complement (direct object) will typically get the accusative acase, and the second object will recieve e.g. the dative case.
 
-###### erg abs
+####### erg abs
 
 Ergative-absolutive morphosyntactic alignment is often shortened to ergative morphosyntactic alignment.
 With ergative-absolutive morphosyntactic, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
 e.g. fake ergative latin: Julius venit → Julium brutus vidit.
 
-##### ergativity
+###### ergativity
 
 an unergative verb is an intransitive verb whose argument is an agent.
 an unaccusative verb is an intransitive verb whose argument is not an agent.
 
-#### grammatical voice
+##### grammatical voice
 
 Voice is a grammatical feature category encoding the mapping semantic roles related to agency over grammatical relations.
 Grammatical voice is generally realized on verbs/VPs.
@@ -893,7 +880,7 @@ The two most common grammatical voices are active and passive.
 In the active voice, the subject is the agent.
 In the passive voice, the subject is not the agent (e.g. patient, them)
 
-##### english
+###### english
 
 In english, when an active sentence is transformed to a passive sentence, the former object becomes the subject.
 In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
@@ -901,16 +888,16 @@ In english, by-PPs realizing the agent are adjoined to the right of the VP.
 In english, the most common verb that is used to form passives is be
 In english, there is also a odd type of passive formed with get.
 
-### tense-aspect-mood
+#### tense-aspect-mood
 
 tense-aspect-mood is the combination of tense, aspect and mood.
 tense, aspect and mood are all grammatical feature categoriess marked on verbs or VPs.
 tense-aspect-mood exists since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
 Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
 
-#### tense
+##### tense
 
-#### aspect
+##### aspect
 
 Aspect is the grammatical feature category encoding how the event relates to time in general.
 Depending on how the grammemes are encoded, aspect may be divided into grammatical aspect and lexical aspect.
@@ -924,13 +911,13 @@ Aspect can be divided into five rough distinctions:
 - scope
 - telicity
 
-##### eventive
+###### eventive
 
 Eventive aspect indicates how time flows within the process/event itself.
 Language may have some subdivisions of eventive aspect as grammemes, but not have others 
 e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
-###### division
+####### division
 
 Eventive
   Perfective
@@ -942,7 +929,7 @@ Eventive
       Progressive
       Stative
 
-###### relation
+####### relation
 
 Eventive aspect may be divided into perfective and imperective aspect.
 perfective aspect is the event viewed in its entirety ( = without internal complexity).
@@ -957,20 +944,20 @@ Continuous aspect may sometimes be divided into progressive and stative.
 Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
 Stative aspecti is a continuous aspect where the situation/action is not evolving/changing.
 
-###### realizations in languges
+####### realizations in languges
 
 Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
-##### howfar
+###### howfar
 
 howfar aspect (my term) indicates how the state is changing during the specified time.
 howfar aspect may be inchoative, cessative or ø.
 Inchoative aspect is howfar aspect indicating that something is beginning (however not that something is about to begin).
 Cessative aspect is howfar aspect indicating that something is ending.
 
-##### prospective/retrospective
+###### prospective/retrospective
 
 The spective (my term) aspect indicates when an event takes place relative to the reference time.
 spective aspective may be prospective, retrospective, or ø.
@@ -978,24 +965,24 @@ Prospective aspect is spective aspect indicating that an event occurs subsequent
 Retrospective aspect is spective aspect indicating that an event occurs before a reference time.
 Retrospective aspect is commonly but confusingly also called perfect aspect, not to be confused with perfective aspect.
 
-##### gnomic/episodic
+###### gnomic/episodic
 
 The scope aspect (my term) indicates what kind of scope something being the fact has.
 Scope aspect may be gnomic, episodic, or ø.
 Gnomic aspect is the scope apsect indicating general truths.
 Episodic aspect is the scope aspect indicating truths that are temporally bounded.
 
-##### telic/atelic
+###### telic/atelic
 
 Telicity is the grammatical feature (mostly seen as an aspect) of whether something has a specific endpoint.
 Telicity may be telic, atelic, or ø.
 
-#### modality
+##### modality
 
 modality is a grammatical feature category encoding possible situations. 
 Different forms of modality are sometimes called flavors.
 
-##### deontic/epistemic, realis/irrealis
+###### deontic/epistemic, realis/irrealis
 
 Modalities are primarily distingished along two axes: deontic/epistemic and realis/irreals
 Deontic modality is modality that is concerned with how the world ought to be.
@@ -1004,7 +991,7 @@ Realis moods/modalities are a set moods/modalities that indicate that something 
 Irrealis moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
 Distinction between different types of modality may not always be clear-cut, since different languages use different analyses.
 
-##### realis epistemic
+###### realis epistemic
 
 Most (but not all) languages have a single realis mood/modality called the indicative mood/modality.
 
@@ -1012,7 +999,7 @@ Possible epistemic realis modalitites are energetic, gnomic or the various evide
 Energetic is an epistemic realis mood indicating emphasis or strong belief.
 Gnomic is an epistemic realis mood indicating general truths or aphorisms. 
 
-###### evidentiality
+####### evidentiality
 
 Evidentiality (wide sense) is the grammatical feature category encoding what kind of evidence there is for a given statement.
 Evidentiality (wide sense) is most commonly analyzed as a mood.
@@ -1025,7 +1012,7 @@ Indirectivity is sometimes called type I, evidentiality type II.
 Indirectivity is the type of evidentiality (wide sense) that encodes whether evidence exists, but not what kind.
 Evidentiality proper is the type of evidentiality (wide sense) that encodes what kind of evidence exists.
 
-####### evidentiality proper
+######## evidentiality proper
 
 Evidentiality proper contains a certain number of grammatical feature features.
 Most languages build evidentials proper grammemes from a combination of the various grammatical feature features of evidentiality proper.
@@ -1033,7 +1020,7 @@ The grammatical feature features making up the grammatical feature cateogory evi
 The evidentiality proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- visual] or [+/- auditory]
 The reportative proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- hearsay] or [+/- quotativve]
 
-##### irrealis epistemic
+###### irrealis epistemic
 
 The common epistemic irrealis modalities are subjunctive, potential, dubitative, speculative, hypothetical, assumptive
 
@@ -1050,7 +1037,7 @@ Assumptive|something is true because it is usually true in similar circumstances
 
 The tentative mood is more commonly called potential, but this is a different meaning than the potential in japanese 
 
-##### deontic
+###### deontic
 
 Deontic modality may be roughly dividend into commissive, directive and volitive.
 
@@ -1060,7 +1047,7 @@ commmissive|commital to something
 directive|commands, requests, etc.
 volitive|wishes, desires etc.
 
-###### directive
+####### directive
 
 table:type of directive modality|meaning
 Permissive|something is permitted
@@ -1070,39 +1057,102 @@ Prohibitive/vetative|that something is prohibited.
 Propositive|proposal or suggestion.
 Propositive|that something should be brought about.
 
-###### volitive
+####### volitive
 
 table:type of volitive modality|meaning
 Desiderative|one has a desire for something
 Optative|event is hoped for
 
-##### epistemic
+###### epistemic
 
 Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing
 Causative is an epistemic modality indicating that someone/thing causes someone/thing else to do/be something.
 Causative modality increases the valency of the verb involved.
 
-## others
+## by thing encoded
 
-### honorific
+### (half of) practs
 
-A honorific is a grammatical feature that encodes social relationships.
+#### honorific
+
+A honorific is a grammatical feature category that encodes half of practs related to social relationships.
 Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
 Honorifics may be realized via a variety of linguistic devices.
 
-#### T-V
+##### T-V
 
 The T-V distinction (wide) is a honorific distinction realized in pronouns.
 The T-V distinction (narrow) is a honorific distinction realized in two different second-person pronouns.
 The T-V distinction is common in many Indo-European languages, but not english.
 The name T-V distinction comes from latin tu/vos.
 
-### polarity
+#### interrogation
 
-Polarity is a grammatical feature that encodes the difference between positive and negative polarity.
+An interrogative word is a lexeme used to create an interrogative sentence.
+An interrogative particle is an interrogative word that is a particle and converts the sentence into a yes-no question.
+Interrogatives may be instantiated by different parts of speech.
+
+
+### sememes
+
+#### polarity
+
+Polarity is a grammatical feature category & feature feature that encodes the difference between positive and negative polarity.
 Positive polarity may correspond to validity/truth/confirmation and negative polarity may corespond to falsity/denial.
 Positive polarity = affirmation
 Negative polarity = negation
+
+
+#### posessive
+
+A posessive is a grammeme indicating posession.
+Posessives may be instantiated via lexemes or inflectional/derivational morphemes.
+Inflectional morphology instantiating a posessive are genitive/posessive case.
+Lexemes instatiating a posessive are most commonly possessive determiners, pronouns and verbs.
+Examples for posessive verbs are to have, haben, tener.
+In quite a few languages, the job of  a posessive verb is done by existential verbs.
+e.g. 金⁑ある⁑よ, hessian dialectal german: das ist mir.
+
+#### numerals
+
+A numeral is a grammeme that describes a numerical quantity.
+Numerals are instantiated by lexemes, more precisely via derivational morphology.
+Numerals internally often consist of some morpheme(s) indicating the quantity, and some morpheme(s) the type of numeral.
+In most languages, lexemes instantating numerals are either determiners, adverbs or nouns.
+
+##### classifier
+
+A classifier is a morpheme or lexeme that puts a noun into a category based on its referent.
+A measure word is a classifier that appears with a numeral.
+Measure words are margial in indo-european languages.
+An example for an english measure word is piece of x, e.g. three pieces of paper.
+In east asian languages, measure words are often required.
+
+##### kinds of numerals
+
+The type of numeral is what way of looking at the counted things is being chosen.
+The type of numeral may ordinal, cardinal, a multiplier, distributive, collective, partitive...
+
+
+table:type of numeral|indicates|example
+ordinal|position in sequence
+cardinal|amount/quantity
+multipliers|how often should something be multiplied|-fold (e.g. sevenfold), -ce (e.g. thrice)
+distributive numerals|how may times each|-ly (e.g. triply)
+collective numerals|sets of certain sizes|-ad (e.g. triad)
+partivtive|fractions|-th
+
+##### counting systems
+
+Numerals are generally based on one or more counting systems.
+A counting system is the numeral system a language uses.
+Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
+due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
+
+#### deixis
+
+Demonstratives are lexemes encoding spatial/discourse deixis sememes.
+Demonstratives are most frequently determiners or pronouns.
 
 # morphology
 
@@ -1362,121 +1412,6 @@ The theme is that information that is being talked about.
 Focus and comment are synonyms for rheme.
 The rheme is what is being said about the theme.
 Topicalization is marking something as the theme by fronting it.
-
-# grammar + other fields
-
-## + pragmatics
-
-### interrogative word
-
-An interrogative word or particle is a word used to create a kind of interrogative sentence.
-Interrogative words are generally not their own part of speech, but instead fall into the category of other parts of speech.
-An interrogative particle is a type of inerrogative word that converts a statement into a yes-no question.
-
-## + semantics
-
-### posessive
-
-A posessive is a word or form indicating poession,
-Many languages (of those I speak: en, de, es) indicate a posessive via a set of possessive determiners and pronouns.
-Many languages also have a posessive verb, e.g. en/de have/haben, es tener.
-In japanese, the job of the posessive verb is done by extential verbs/clausees.
-
-
-### numerals
-
-A numeral is a word or phrase that describes a numerical quantity.
-Numerals may be seen as their own part, or as an abstract concept that may be instantiated by different parts of speech.
-Across languages, numerals seem to be able to act as nouns, pronouns or adverbs.
-Numerals are generally based on one or more counting systems.
-In linguistics, measure words are words (or morphemes) that are used in combination with a numeral to indicate a semantically qualified amount.
-There are different kind of numerals (whether realized as words or phrases): 
-ordinal numerals|position in sequence
-cardinal numerals|amount/quantity
-multipliers|
-distributive numerals|
-collective numerals|
-Numerals are typically constructed via a counting system.
-Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
-due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
-
-#### japanese
-
-In japanese grammar, measure words are typically called counters.
-In japanese grammar, measure words are required for any numeral and when asking for quantities.
-In japanese grammar, numerals, measure words and optional indicators for cardinality form a phrase (which I will call Counter Phrase).
-Japanese 'counter phrases' can function in various syntactic ways: They can become no-adjectives, be used adverbially or postpositionally.
-
-The japanese counting system:
-rational-number ::= [マイナス]‹positive-rational-number›
-positive-rational-number ::- ‹integer›[　点（てん）‹digit›{‹digit›}]
-integer ::= {‹myriad-unit›}[‹place›][‹place›][‹place›]‹place-when-base-1›
-myriad-unit ::= [‹place›][‹place›][‹place›]‹place-when-base-multiple-of-four›
-place ::= ‹digit›‹base-word›
-place-when-base-1 ::= ‹digit›
-place-when-base-multiple-of-four ::= ‹digit›‹base-multiple-of-four-word›
-
-Japanese digits:
-
-0|零・丸・ゼロ
-
-
-1|一|いち|ひと
-2|二||ふた
-3|三||みっ
-4|四||よ(ん・っ)
-5|五||いつ
-6|六||むっ
-7|七||なな
-8|八||やっ
-9|九||ここの
-
-Japanese bases up to 1000
-
-10|十|じゅう|とお
-100|百|ひゃく|もも
-1000|千|せん|ち
-
-Japanese base when multiple of four words:
-
-10^4|万|まん|よろず
-10^8|億|おく|none
-10^12|兆|ちょう|none
-
-Counters
-
-日|か|days|訓 (exception 一日：ついたち)
-
-
-### demonstratives
-
-demonstrative determiners usually map onto the spatial/discourse deixis distinction
-Demonstratives usually come in two flavors, demonstrative determiners and demonstrative pronouns, which may or may not be derminers depending on your theory.
-
-proximal|this
-medial/distal|that
-distal (rare)|yon(der)
-
-proximal|este, estos|esta, estas|esto
-medial|ese, esos|esa, esas|eso
-distal|aquel, aquellos|aquella, aquellas|aquello
-
-Neuter forms do not change for number.
-
-#### Japanese
-
-In japanese, the deictical distinction comes in form of morphemes, which form a large set of demonstratives with other morphemes.
-The japanese deictical morphemes collectively are known as こそあど.
-
-proximal|こ
-medial|そ
-distal|あ
-question|ど
-
-demonstrative determiner|~の
-demonstrative pronoun (things)|~れ
-
-the demonstrative determiners この、その… are originally abbreviations of これの、それの….
 
 # further concerns & tools
 
