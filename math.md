@@ -677,24 +677,22 @@ A combination is an unordered subset of a given set.
 A permutation is an arrangement of a set in a certain order.
 The number of permutations of n distinct objects is n factorial.
 
-
 ## graphs
-
 
 flex-container:✫sm_220px-6n-graf.svg.png✫
 
 ### what is a graph
 
-⟮Graphs⟯ are studied in ⟮graph theory⟯ 
-A ⟮graph⟯ consists of ⟮a pair⟯. 
-In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
+Graph theory is the branch of discrete mathemathics that studies graphs.
+A ⟮graph⟯ is ⟮a pair⟯.
 ⟮The pair⟯ that ⟮a graph consists⟯ of itself is made up of ⟮a set of⟯ ⟮vertices⟯, and ⟮a set of⟯ ⟮edges⟯. 
+In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
 In terms of comp. sci. a ⟮graph⟯ is ⟮an ADT⟯. 
 
 ### edges
 
-⟮Edges⟯ are described by ⟮a pair of⟯ ⟮vertices⟯ 
-For ⟮an edge {x, y⟯}, ⟮x and y⟯ are ⟮the endpoints⟯. 
+An ⟮edge⟯ is ⟮a pair of⟯ ⟮endpoints⟯.
+Endpoints are vertices that are one half of an edge.
 For an ⟮undirected graph⟯, an ⟮edge⟯ is described by ⟮an unordered pair⟯. 
 For an ⟮directed graph⟯, the ⟮edge⟯ is described by ⟮a ordered pair.⟯ 
 
@@ -705,31 +703,34 @@ For an ⟮directed graph⟯, the ⟮edge⟯ is described by ⟮a ordered pair.�
 A ⟮weighted⟯ ⟮graph⟯ is a ⟮graph⟯ in which ⟮a number is assigned⟯ to ⟮each edge⟯. 
 ⟮Weighted graphs⟯ are relevant for ⟮shortest path problems⟯. 
 
-### degree of a vertex
+### amount of connections
+
+#### degree of a vertex
 
 The ⟮degree⟯ of a ⟮vertex⟯ is ⟮the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
 The ⟮maximum/minimum degree⟯ of ⟮a graph⟯ is ⟮the maximum/minimum degree of all its vertices.⟯ 
+The degree of a graph is the degree of all vertices and only sensibly exists if all vertices have the same.
 
-### connections
+#### regular and complete graphs
 
 A ⟮regular graph⟯ is a graph where ⟮each vertex⟯ ⟮has the same amount of neighbors⟯. 
 Equivalently, a ⟮regular graph⟯ is one where ⟮each vertex⟯ has ⟮the same⟯ ⟮degree⟯. 
 A ⟮complete graph⟯ is a ⟮regular graph⟯ where ⟮each vertex⟯ is ⟮connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
 Equivalently, a ⟮complete graph⟯ is a graph with a ⟮degree⟯ of ⟮amount of vertices n - 1⟯. 
 
-### alternative terminology
+### illustration
 
-flex-container:⟮h∞;✫sm_directed_graph.svg✫⟯⟮ha;✫sm_multigraph.svg✫✫sm_weighted_graph.svg✫⟯
+#### alternative terminology
 
-Graph-related thing|alternative names
+table:Graph-related thing|alternative names
 ⟮edges⟯|⟮links/lines⟯
 ⟮vertices⟯|⟮nodes/points⟯
 
-### image example
+#### image example
 
 flex-container:✫sm_220px-6n-graf.svg.png✫
 
-In the image|name
+table:in the image|name
 ⟮the thing pictured⟯|⟮a graph⟯
 ⟮the lines⟯|⟮edges⟯
 ⟮the circles⟯|⟮vertices⟯
@@ -740,20 +741,12 @@ In the image|name
 ### traversal
 
 ⟮Graph traversal⟯ is ⟮visiting all vertices once⟯ 
+Tree traversal is graph traversal of trees
 ⟮Trees are a type of graph⟯, therefore ⟮tree traversal⟯ is a type of ⟮graph traversal⟯ 
 
-### sequences of vertices and edges
+### connections
 
-A ⟮walk⟯ is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
-A ⟮trail⟯ is ⟮a walk (an alternating sequence of vertices and edges⟯) ⟮with no repeated edges⟯. 
-A ⟮path⟯ is an ⟮open⟯ ⟮trail (an alternating seq of verts and edges w/ no repeated edges⟯) with ⟮no repeated vertices.⟯ 
-⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be ⟮closed⟯ = ⟮the ending vertex is the same vertex as the starting vertex⟯ or ⟮open⟯ = ⟮the opposite⟯. 
-A ⟮circuit⟯ is ⟮a closed trail⟯. 
-A ⟮cycle⟯ is ⟮a circuit (a closed trail⟯) with ⟮no repeated vertex besides the start/end vertex⟯. 
-A ⟮graph⟯ ⟮without cycles⟯ is called ⟮acyclic⟯. 
-The ⟮length⟯ ⟮k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ are counted in ⟮edges⟯. 
-
-### connected
+#### connected
 
 flex-container:⟮h∞;✫Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png✫✫Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png✫⟯
 
@@ -761,81 +754,107 @@ flex-container:⟮h∞;✫Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png✫
 ⟮Two vertices⟯ are ⟮connected⟯ if ⟮there is a path between two vertices⟯, else ⟮s110;they are ⟮disconnected⟯.⟯ 
 ⟮A graph⟯ is ⟮connected⟯ if ⟮every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
 
-### subgraph
+#### sequences of vertices and edges
 
-A ⟮subgraph⟯ is a ⟮graph⟯ made up of ⟮a subset of⟯ ⟮vertices⟯ and ⟮edges⟯ of G. ⟮sb;The ⟮subset of vertices⟯ ⟮must contain⟯ ⟮all endpoints of the edges⟯.⟯ 
-A ⟮subtree⟯ is a ⟮subgraph⟯ of a ⟮tree⟯. 
-A ⟮proper subgraph⟯ is a ⟮subgraph of the graph⟯ that ⟮is not the current graph (and analogously for subtree⟯) 
+A ⟮walk⟯ is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
+A ⟮trail⟯ is ⟮a walk⟯ ⟮with no repeated edges⟯. 
+⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be closed or open
+A walk or trail is closed/open the ending vertex is/is not the same vertex as the starting vertex⟯
+A ⟮path⟯ is an ⟮open⟯ ⟮trail⟯ with ⟮no repeated vertices.⟯ 
+A ⟮circuit⟯ is ⟮a closed trail⟯. 
+A ⟮cycle⟯ is ⟮a circuit⟯ with ⟮no repeated vertex besides the start/end vertex⟯. 
+A ⟮graph⟯ is acyclic if does not contain any cycles.
+The length of a walk/trai/path/circuit/cycle is symbolized by k.
+The ⟮length k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ is counted in ⟮edges⟯. 
 
-### adjacent
+#### adjacent
 
 ⟮Two vertices⟯ are ⟮adjacent⟯ if ⟮they share an edge (an edge exists between them⟯) 
 Equivalently, ⟮two vertices⟯ are ⟮adjacent⟯ if ⟮a path/walk/trail⟯ of ⟮length 1⟯ ⟮exists between them⟯. 
 ⟮Two edges⟯ are ⟮adjacent⟯ if ⟮they share a vertex⟯ 
-The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all adjacent vertices⟯ and ⟮the edges connecting it to those vertices⟯. 
-The ⟮closed neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
-The ⟮open neighborhood of v⟯ is ⟮the neighborhood⟯ ⟮containing the vertex v itself⟯ 
 
-#### domination
+##### neighborhood
+
+The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all adjacent vertices⟯ and ⟮the edges connecting it to those vertices⟯. 
+The ⟮closed neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
+The ⟮open neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮containing the vertex v itself⟯ 
+
+##### domination
 
 A dominating set D is a subset of V such that every vertex not in D is adjacent to at least one member of D.
 Ergo a dominating set is the subset of V which ensures that every vertex not in the subset is adjacent to an element of the subset
+
+### subgraph
+
+A ⟮subgraph⟯ is a ⟮graph⟯ made up of ⟮a subset of⟯ ⟮vertices⟯ and ⟮edges⟯ of G. ⟮sb;The ⟮subset of vertices⟯ ⟮must contain⟯ ⟮all endpoints of the edges⟯.⟯ 
+A ⟮subtree⟯ is a ⟮subgraph⟯ of a ⟮tree⟯. 
+A ⟮proper subgraph⟯ is a ⟮subgraph of the graph⟯ that ⟮is not the current graph⟯ 
 
 ### trees
 
 #### definiton
 
 A ⟮tree⟯ is an ⟮undirected⟯ ⟮connected⟯ ⟮acyclic⟯ ⟮graph⟯. 
-A ⟮rooted tree⟯ is ⟮a tree⟯ where ⟮one vertex has been designated the root⟯. 
+A ⟮rooted tree⟯ is ⟮a tree⟯ with a ⟮root vertex⟯. 
+A root vertex is a vertex which has been arbitrarily designated as the root.
+A compscitree (my term) is an ADT which is ⟮a rooted tree⟯ graph with ⟮an implied natural direction of downwards from the root⟯. 
 
 #### direct & movement
 
-In comp. sci., a ⟮tree⟯ is ⟮an ADT (or data structure, if implemented⟯) which is ⟮a rooted tree⟯ with ⟮an implied natural direction of downwards from the root⟯. 
 The ⟮root path⟯ is the ⟮path⟯ ⟮from a vertex to the root vertex⟯. 
-The ⟮depth⟯ of ⟮a vertex⟯ in a tree (comp. sci. ADT) is ⟮the length of the root path⟯. 
+The ⟮depth⟯ of ⟮a vertex⟯ in a tree (ADT) is ⟮the length of the root path⟯. 
 Going ⟮towards⟯ ⟮vertices⟯ with ⟮greater depth⟯ is known as ⟮downward⟯, and going ⟮towarrds⟯ ⟮vertices⟯ with ⟮smaller depth⟯ is known as ⟮upwards⟯. 
 
 #### descendants & ancestors
 
-A ⟮child⟯ of a vertex in a tree (comp. sci. ADT) is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one larger than the current vertex.⟯ 
-In ⟮a tree (comp. sci. ADT⟯) each vertex has ⟮0 - ∞⟯ ⟮child vertices⟯. 
-A vertex ⟮reachable by traversal through child vertices⟯ is ⟮a descendant vertex⟯. 
-⟮A vertex without any child vertices⟯ is called ⟮external⟯/⟮outer⟯/⟮terminal⟯ vertex or ⟮leaf⟯. 
-⟮A vertex with child vertices⟯ is called ⟮branch⟯/⟮internal⟯/⟮inner⟯ vertex. 
-The ⟮parent of a vertex⟯ in a tree (comp. sci. ADT) is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one less than the current vertex.⟯ 
-In ⟮a tree (comp. sci. ADT⟯) ⟮each vertex⟯ has ⟮one⟯ ⟮parent vertex⟯. 
-⟮A vertex⟯ ⟮reachable by traversal through parent vertices⟯ is ⟮an ancestor vertex⟯. 
+A ⟮child⟯ vertex in a compscitree is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one larger than the current vertex.⟯ 
+A ⟮parent vertex⟯ in a compscitree is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one less than the current vertex.⟯ 
+In ⟮a compscitree⟯ each vertex has ⟮0 - ∞⟯ ⟮child vertices⟯. 
+⟮a descendant vertex⟯ is a vertex ⟮reachable by traversal through child vertices⟯.
+⟮an ancestor vertex⟯ is a vertex ⟮reachable by traversal through parent vertices⟯.
+A leaf is a vertex without any child vertices.
+A leaf may also be called external/outer/terminal vertex.
+An internal vertex is a vertex with child vertices.
+An internal vertex may also be called branch or inner vertex.
+In ⟮a compscitree ⟮each vertex⟯ has ⟮one⟯ ⟮parent vertex⟯. 
 
 #### dimensions
 
 ⟮The height of a vertex⟯ is ⟮the length⟯ of ⟮the longest downward path to a vertex⟯. 
 ⟮The height of the root vertex⟯ is ⟮the height of the tree⟯ 
-⟮The amount of child vertices⟯ in a tree is ⟮the breadth of the tree⟯. 
-
-#### forest
-
-⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
-
-
-#### specialized types
-
-A ⟮tree (comp. sci. ADT⟯) ⟮where any vertex has at most two child vertices⟯ is a ⟮binary tree⟯. 
-A tree (comp. sci. ADT) that ⟮can be used for searching⟯ is ⟮a search tree⟯. 
-
+⟮the breadth of the tree⟯ is ⟮the amount of child vertices⟯ in a tree. 
 
 #### tree traversal
 
 ⟮Depth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮children vertices⟯ ⟮before⟯ ⟮sibling vertices⟯ 
 ⟮Breadth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮sibling vertices⟯ ⟮before⟯ ⟮children vertices⟯ 
-⟮Depth-first search⟯ in the case of ⟮binary trees⟯ is commonly ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
+
+#### specialized types
+
+##### binary tree
+
+a ⟮binary tree⟯ is a ⟮compscitree⟯ ⟮where any vertex has at most two child vertices⟯.
+
+##### search tree
+
+⟮a search tree⟯ is a compscitree that ⟮can be used for searching⟯.
+
+###### traversal
+
+⟮Depth-first search⟯ in the case of ⟮binary trees⟯ is commonly either ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
 
 order|pattern
 ⟮Pre-order⟯|⟮Node - Left - Right⟯
 ⟮Inorder⟯|⟮Left - Node - Right⟯
 ⟮Post-order⟯|⟮Left  - Right - Node⟯
 
+##### forest
 
-#### binary search trees
+⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
+
+#### applications
+
+##### binary search trees
 
 A ⟮binary search tree⟯ is ⟮a binary tree⟯ defined by ⟮the properties⟯ of ⟮the keys⟯ of ⟮the vertices⟯ in ⟮the left and right subtrees⟯. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮larger than⟯ ⟮the key in any vertices in the left subtree⟯. 
@@ -856,9 +875,7 @@ Inserting this number,|where would it go?
 ⟮2⟯|⟮right of 1⟯
 ⟮11-12⟯|⟮left of 13⟯
 
-
-
-#### merkele tree
+##### merkele tree
 
 A merkele/hash tree is a tree where every leaf has a label of a hash of a data block and every non-leaf has a label of the hash of all the labels = hashes of its child nodes.
 Merkele trees are used in block trees.
@@ -868,79 +885,50 @@ Merkele trees are used in block trees.
 First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
 the logical form of an argument is called argument form.
 
-Proplog<br/><p class="cloze-group hide-if-inactive"><span class="c1-cloze">Propositional logic</span> may also be called <span class="c2-cloze c3-scr">propositional calculus</span> or, based <span class="c3-cloze c4-scr">on its relationship to 1st order logic</span>, <span class="c4-cloze c3-scr">zeroth-order logic</span> (other rare terms include <span class="c5-cloze c4-scr c3-scr">statement logic, sentential calculus/logic.</span>
-</p>
+Proplog ⟮Propositional logic⟯ may also be called propositional calculus or, based on its relationship to 1st order logic, zeroth-order logic (other rare terms include statement logic, sentential calculus/logic.
 
-<p class="cloze-group-children hide-if-inactive-children">
-  <span class="line"><span class="c6-cloze">propositions</span> are the things that <span class="c7-cloze">bear truth value</span>.</span>
-  <span class="line"><span class="c8-cloze">A propositional variable</span> (e.g. <span class="c8-cloze">p, q, r</span>) <span class="c13-cloze">represents</span> <span class="c9-cloze">any possible atomic proposition</span>.</span>
-  <span class="line"><span class="c10-cloze">a propositional formula</span> (e.g. <span class="c10-cloze">p AND q</span>) (also called <span class="c14-cloze c10-scr c11-scr c12-scr">sentence (tho only in proplog)</span>) is a <span class="c11-cloze">well-formed formula</span> that <span class="c12-cloze">consists of elements of the alphabet of a propositional logic</span> (that is <span class="c12-cloze">propositional variables, constants, and logical connectives</span>).</span>
-  <span class="line"><span class="c15-cloze">a proposition</span> <span class="c16-cloze">expressed by</span> <span class="c17-cloze">a propositional constant</span> is <span class="c18-cloze">an atomic proposition</span>.</span>
-  <span class="line"><span class="c19-cloze">a propositional constant</span> <span class="c20-cloze">expresses</span> <span class="c21-cloze">an atomic proposition</span>.</span></p>
+⟮propositions⟯ are the things that ⟮bear truth value⟯.
+⟮A propositional variable⟯ (e.g. ⟮p, q, r⟯) ⟮represents⟯ ⟮any possible atomic proposition⟯.
+⟮a propositional formula⟯ (e.g. ⟮p AND q⟯) (also called sentence (tho only in proplog)) is a ⟮well-formed formula⟯ that ⟮consists of elements of the alphabet of a propositional logic⟯ (that is ⟮propositional variables, constants, and logical connectives⟯).
+⟮a proposition⟯ ⟮expressed by⟯ ⟮a propositional constant⟯ is ⟮an atomic proposition⟯.
+⟮a propositional constant⟯ ⟮expresses⟯ ⟮an atomic proposition⟯.
 
-  <p class="cloze-group-children hide-if-inactive-children"><span class="line">The <span class="c22-cloze">elements of the alphabet</span> of <span class="c23-cloze">a propositional logic</span> are the <span class="c24-cloze">propositional constants</span>, <span class="c25-cloze">propositional variables</span>, and <span class="c26-cloze">logical connectives</span>. </span>
-    <span class="line"><span class="c27-cloze">propositional constants, variables and formulas all</span> <span class="c28-cloze">express/denote propositions</span>.</span>
-    <span class="line"><span class="c29-cloze">Propositional constants, variables and formulas</span> as well as <span class="c29-cloze">logical connectives</span> are all <span class="c30-cloze">truth-functional.</span></span></p>
+The ⟮elements of the alphabet⟯ of ⟮a propositional logic⟯ are the ⟮propositional constants⟯, ⟮propositional variables⟯, and ⟮logical connectives⟯. 
+⟮propositional constants, variables and formulas all⟯ ⟮express/denote propositions⟯.
+⟮Propositional constants, variables and formulas⟯ as well as ⟮logical connectives⟯ are all ⟮truth-functional.⟯
 
-    <p class="cloze-group-children hide-if-inactive-children"><span class="line"><span class="c31-cloze">Atomic propositions</span> might be things such as <span class="c32-cloze">"Grass is green"</span></span>&nbsp;<span class="line"><span class="c33-cloze">propositional constants</span> might be things such as&nbsp;</span><span class="line"><span class="c34-cloze"><span class="line">p, q</span></span> <span class="c35-cloze">A propositional formula</span> might look something like <span class="c36-cloze">(p AND NOT q) IMPLIES (p OR q).</span></span></p>
+⟮Atomic propositions⟯ might be things such as ⟮"Grass is green"⟯ ⟮propositional constants⟯ might be things such as ⟮p, q⟯ ⟮A propositional formula⟯ might look something like ⟮(p AND NOT q) IMPLIES (p OR q).⟯
 
-      <p class="cloze-group-children hide-if-inactive-children"><span class="line">If <span class="c37-cloze">"Sam is awesome." and "Sam is cute."</span> are <span class="c38-cloze">atomic propositions</span> <span class="c39-cloze">expressed by e.g. p and q</span>, then <span class="c40-cloze">p ∧ q</span> would be a <span class="c41-cloze">propositional formula</span> expressing the <span class="c42-cloze">non-atomic proposition</span> <span class="c43-cloze">"Sam is awesome and cute."</span>
-        </span><span class="line"><span class="c44-cloze">"Sam is awesome and cute."</span> could be a proposition expressed by <span class="c45-cloze">a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.</span></span>
-        <span class="line">If "Sam is awesome." and "Sam is cute." are <span class="c46-cloze">all possible atomic propositions</span> , <span class="c47-cloze">a propositional varialble</span> would <span class="c48-cloze">range over all of them.</span></span></p>
+If ⟮"Sam is awesome." and "Sam is cute."⟯ are ⟮atomic propositions⟯ ⟮expressed by e.g. p and q⟯, then ⟮p ∧ q⟯ would be a ⟮propositional formula⟯ expressing the ⟮non-atomic proposition⟯ ⟮"Sam is awesome and cute."⟯
+⟮"Sam is awesome and cute."⟯ could be a proposition expressed by ⟮a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.⟯
+If "Sam is awesome." and "Sam is cute." are ⟮all possible atomic propositions⟯ , ⟮a propositional varialble⟯ would ⟮range over all of them.⟯
 
-<table class="cloze-group-children hide-if-inactive-children">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Convention</th>
-      <th>Location</th>
-    </tr>
-  </thead>
-  <tbody class="cloze-group-children hide-if-inactive-children">
-    <tr>
-      <td><span class="c49-cloze">propositional constants</span></td>
-      <td><span class="c50-cloze">written in lowercase letters starting at p</span></td>
-    </tr>
-        <tr>
-      <td><span class="c51-cloze">propositional variables</span></td>
-      <td><span class="c52-cloze"> written in uppercase letters starting at A</span></td>
-          <td><span class="c53-cloze"> DE</span></td>
-    </tr>
-    <tr>
-      <td><span class="c54-cloze">propositional variables</span></td>
-      <td><span class="c55-cloze"> written in lowercase letters starting at ϕ</span></td>
-      <td><span class="c56-cloze"> EN</span></td>
-    </tr>
-  </tbody>
-</table>
-
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span><br/><div class="sub">
-All only for the most classical of logics
-</div>
+Name|Convention|Location
+⟮propositional constants⟯|⟮written in lowercase letters starting at p⟯
+propositional variables⟯|⟮ written in uppercase letters starting at A⟯<|⟮ DE⟯
+⟮propositional variables⟯|⟮ written in lowercase letters starting at ϕ⟯|⟮ EN⟯
 
 For something to be {{c1::truth-functional}} if {{c2::the truth of the resulting formula}} is {{c3::dependent only}} on {{c4::the truth of the constituent parts.}}
 
-<p class="cloze-group hide-if-inactive">A <span class="c1-cloze">logic</span> is a <span class="c2-cloze">formal system.</span>
-</p><div class="cloze-group hide-if-inactive"><span class="c3-cloze">Formal systems</span> have roughly the following structure:
-<pre><code><span class="c4-cloze">A formal language</span>
-<span class="c5-cloze">An inference system</span>
-  <span class="c6-cloze">A set of axioms</span>
-  <span class="c7-cloze">A set of inference rules</span>
-<span class="c8-cloze">A semantics</span></code></pre></div>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}</span>
+A ⟮logic⟯ is a ⟮formal system.⟯
+⟮Formal systems⟯ have roughly the following structure:
 
-<div class="cloze-group-children hide-if-inactive-children"><p>A <span class="c1-cloze">rule of inference/inference rule</span> is a <span class="c2-cloze">Schlussregel</span> in german.</p>
-<p>A <span class="c3-cloze">rule of inference/inference rule</span>&nbsp;is something that <span class="c4-cloze c5-scr">takes premises</span> and <span class="c5-cloze c4-scr">returns a conclusion</span>. More generally, it is a function from sets of formulae to other formulae. It is sometimes restricted to valid inference rules, and sometimes not.</p></div>
+⟮A formal language⟯
+⟮An inference system⟯
+  ⟮A set of axioms⟯
+  ⟮A set of inference rules⟯
+⟮A semantics⟯
+
+A ⟮rule of inference/inference rule⟯ is a ⟮Schlussregel⟯ in german.
+A ⟮rule of inference/inference rule⟯ is something that takes premises and returns a conclusion. More generally, it is a function from sets of formulae to other formulae. It is sometimes restricted to valid inference rules, and sometimes not.
 The conclusion in a rule of inference/inference rule or argument is often indicated by {{c1::∴}}.
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}</span>
 
-<div class="cloze-group hide-if-inactive"><p>If an <span class="c8-cloze">argument</span> is <span class="c2-cloze">valid</span>, <span class="c3-cloze">the conclusion cannot be false</span> <span class="c1-cloze">if the premises are true</span>.</p>
-<p>For an <span class="c7-cloze">argument</span> to be <span class="c4-cloze">sound</span>, it must first <span class="c5-cloze">be valid</span>, in addition, <span class="c6-cloze">the premises must be true</span>.</p>
-  <p>An <span class="c9-cloze">argument</span> consists of <span class="c10-cloze">premises</span> and <span class="c11-cloze">conclusions</span>.</p>
-  <p>In an <span class="c15-cloze">argument</span>, the <span class="c12-cloze">truth of the premises</span> intends to <span class="c13-cloze">determine</span> <span class="c14-cloze">the truth of the conclusion</span>. </p>
-  <p>In a <span class="c16-cloze">deductive argument</span>, the t<span class="c17-cloze">ruth of the premises</span> <span class="c18-cloze"><b>guarantees</b></span>&nbsp;<span class="c19-cloze">the truth of the conclusion</span>.</p>
-<p>An <span class="c25-cloze">argument</span> is the claim that given <span class="c20-cloze">every member of</span> <span class="c21-cloze">a certain premise set</span> <span class="c22-cloze">of formulae</span> is <span class="c23-cloze">true</span>, <span class="c24-cloze">so is the conclusion formula</span>.</p></div>
-<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}</span>
+If an ⟮argument⟯ is ⟮valid⟯, ⟮the conclusion cannot be false⟯ ⟮if the premises are true⟯.
+For an ⟮argument⟯ to be ⟮sound⟯, it must first ⟮be valid⟯, in addition, ⟮the premises must be true⟯.
+An ⟮argument⟯ consists of ⟮premises⟯ and ⟮conclusions⟯.
+In an ⟮argument⟯, the ⟮truth of the premises⟯ intends to ⟮determine⟯ ⟮the truth of the conclusion⟯. 
+In a ⟮deductive argument⟯, the t⟮ruth of the premises⟯ ⁑guarantees⁑ ⟮the truth of the conclusion⟯.
+An ⟮argument⟯ is the claim that given ⟮every member of⟯ ⟮a certain premise set⟯ ⟮of formulae⟯ is ⟮true⟯, ⟮so is the conclusion formula⟯.
 
 ### bitwise 
 
