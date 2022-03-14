@@ -1,6 +1,41 @@
 # notation
 
-## greek letters
+## spoken language
+
+### morphology
+
+#### greek
+
+For the englishified greek numbers from 11 to 19, deca is suffixed
+For the englishified greek number 11, instead of monodeca, it is ⟮hendeca⟯
+
+table:arabic|greek|latin
+1|Mon(o)|uni
+2|Dy-/Duo|bi(n)
+3|Tri|tri
+4|Tessara-/Tetra|quadr
+5|Penta|quinqu
+6|Hexa|sex
+7|Hepta|sept
+8|Octa/o|oct
+9|Ennea|non
+10|Deca|dec
+11|hendeca-
+12|dodeca-
+13|tri(skai)deca-
+14|tetra(skai)deca-
+15|pentadeca-
+16|hexadeca-
+17|heptadeca-
+18|octadeca-
+19|enneadeca-
+20|icosa-
+
+## graphemics
+
+### symbols
+
+#### greek letters
 
 Majuscule|Minuscule|Name (in en)
 ⟮c4,6;s1,5;A⟯|⟮c3,5;s2,6;α⟯|⟮c1,2;s3,4;alpha⟯
@@ -28,75 +63,47 @@ Majuscule|Minuscule|Name (in en)
 ⟮c136,138;s133,137;Ψ⟯|⟮c135,137;s134,138;ψ⟯|⟮c133,134;s135,136;psi⟯
 ⟮c142,144;s139,143;Ω⟯|⟮c141,143;s140,144;ω⟯|⟮c139,140;s141,142;omega⟯
 
-## numerals in en from other languages
+### numeral system 
 
-### greek
+A numeral system is a writing system using numerals to represent numbers.
 
-For the englishified greek numbers from 11 to 19, deca is suffixed
-For the englishified greek number 11, instead of monodeca, it is ⟮hendeca⟯
+#### numbers
 
-table:arabic|greek|latin
-1|Mon(o)|uni
-2|Dy-/Duo|bi(n)
-3|Tri|tri
-4|Tessara-/Tetra|quadr
-5|Penta|quinqu
-6|Hexa|sex
-7|Hepta|sept
-8|Octa/o|oct
-9|Ennea|non
-10|Deca|dec
-11|hendeca-
-12|dodeca-
-13|tri(skai)deca-
-14|tetra(skai)deca-
-15|pentadeca-
-16|hexadeca-
-17|heptadeca-
-18|octadeca-
-19|enneadeca-
-20|icosa-
+A numeral is a set of digits representing a number.
+a digit is a single grapheme representing a numeric value smaller than the base.
 
-## numeral system 
+#### positional
 
-A number consists of n digits.
-a digit is a single symbol.
+A positional numeral system is one where the value of the numeral is the sum of the value of all the digits, and the value of a digit is digit * base⎴index of position⎴
+The index of position in a positional numeral system is 0 for the rightmost position.
+The index of position in a positional numeral system increases by 1 going further to the left.
+Positional notation is writing a number using a positional numeral system.
+Any positional numeral system can display any real numbers, though some have repeating digits (depending on the system)
 
+##### digits
 
-### positional
+There are b-1 unique digits in a positional numeral system with a base b.
+The digits of a positional numeral system form a series such that they increase in value by 1 starting from 0.
 
-A positional numeral system differentiates the contribution of digits to the value of the number based on the index of their position within a number.
-In a positional numeral system, the value of a digit is digitvalue*base^{index of position}
-In a positional numeral system, the rightmost position has an index of 0.
-a given positional numeral system with a base b has b-1 unique digits.
-In a positonal numeral system, the digits are designed such that they increase in value by 1 starting from 0.
-A number written using a positional numeral system is said to be written in positional notation.
+##### operation
+
 In a positional numeral system, once a certain digit has reached its maximum value and one more is added, the digit is reset and one is added to the digit on the left.
 
-name|base
+##### names of positional numeral systems
+
+Different positional numeral systems have different names, depending on their base.
+
+
+table:positional numeral system|base
 Binary|2
 Octal|8
 Decimal|10
 Hexadecimal|16
 Vigesimal|20
 
-Any positional numeral system can display any real numbers, though some have repeating digits (depending on the system)
+##### properties
 
-#### sigfigs
-
-significant figures are a function of a positional numeral system.
-figures ≈ digits
-zero is a digit prone to being insignificant.
-Leading zeroes are always insiginficant.
-trailing zeroes are insignificnat if they are not an indicator of precision.
-
-The most significant digit is the one with the the highest exponent value.
-The least signficcant digit has the one with the lowest exponent value.
-
-In normal positional numeral notation, the leftmost digit is the most significant.
-In normal positional numeral notation, the rightmost digit is the least significant.
-
-#### endianness
+###### endianness
 
 Endianness is the order of most/least significant byte relative to the memory adress.
 least significant byte|byte that represents the lowest value
@@ -109,63 +116,63 @@ If we write memory addresses from left to right, as is usual, then arabic numera
 
 Modern processors are all little endian, the internet is big-endian.
 
-#### largest numbers
+###### largest numbers
 
 the largest possible number in a number of n digits of a given positional numeral system is base^n - 1
-quick referene
+
+
+table:system|largest number
 8-bit binary|255
 
-#### in programming
+##### fractions
 
-in programming, the base of the number is often indicated by a prefix
+###### radix point
 
-0b|binary|pretty much all programming languages
-0|octal|JS (non-strict)
-0o|octal|JS both strict and nonstrict
-
-#### radix point
-
-The radix point is a symbol that separates the point where the value of the exponent signified by the position goes negative.
+The radix point is a symbol that separates the point in a positional numeral system where the index of position (and thus value of the exponent) goes negative.
 The radix point is usually written as a `.` in english.
-the decimal separator is the name for the radix point using decimal notation.
+the decimal separator the radix point when using the decimal positional numeral system.
 
-#### exponent-based notation
+###### repeating numbers
 
-the multiplicative factor in scientific and exponent-based notation is called the significand
-scientific notation and floating-point notation is a variant of positional numeral systems.
-scientific notation and floating-point notation consist of a significand and a part 10^n
-The opposite of floating point notation is fixed-point notation.
+Any positional numeral system has real numbers which it can only display as repeating numbers.
+Which numbers much be displayed as repeating numbers depends on the positional numeral system.
+the 0.1 + 0.2 == 0.30...04 problem (my term) is that certain mathematical operations on fractional numbers on computers may produce surprising results.
+the 0.1 + 0.2 == 0.30...04 problem stems from the fact that binary is used to store the numbers, but decimal is used to write them in source code.
+in the 0.1 + 0.2 == 0.30...04 problem, what the computer sees is 0.00011 0011... + 0.0011... = ...
+in the 0.1 + 0.2 == 0.30...04 problem, the constituent numbers are repeating in binary, so it is not surprsing that they could not be added.
 
-##### difference
+##### exponent-based notation
 
-normalized scientific notation keeps the significand between 1 and 10.
-Instead, floating point notation may have a significand of any size.
+Exponential notation (has variant definitions that I don't care about) is a notation based on positional numeral notation that modifies the behavior of the index of position used as an exponent.
+Exponential notation may either be scientific notation or floating-point notation.
+Fixed-point notation is non-floating point notation.
+Exponential notation splits a numeral into a significand and an exponent factor, connected via multiplication.
+The exponent factor of exponential notation has the form base⎴n⎴.
+In exponential notation, a part of the index of position is extracted into the exponent of the exponent factor.
+In scientific notation, the exponent of the exponent factor is chosen such that the significand is kept between 1 and 10.
+scientific notation may use e‹n› instead of *10^‹n› to render the exponent factor.
+In floating-point notation, the exponent of the exponent factor is chosen such that the significand does not contain a radix point.
 
-##### scientific notation
+###### floating-point
 
-Sometimes, scientific notation uses e‹n› instead of *10^‹n›
-
-##### floating-point
-
+Since in floating-point notation the exponent of the exponent factor is chosen such that the significand does not contain a radix point, equivalently one can say it stores the position of the radix point.
 Floating point is called such since storing the exponent is equivalent to storing the position of the radix point.
 Since the exponent in effect stores the position of the radix point, the significant itself is implicitly an integer.
-Floating point allowing storing a number as two components, exponent and significand, improves storage and processing speed.
-not only can floating point be used to store non-integers, it can also be used to store much larger numbers (since a large part of the size can just be stored as increases in exponent)
-However, floating point notation in computers of course does not use decimal, but binary, so it really is significand * 2 ^ exponent.
-Computers use floating point notation for non-integers (hence floats).
-However, since computers use floats, instead of say storing the fraction itself, computers may have problems related to adding any number whose binary positional numeral representation repeats, leading to the well-known 0.1 + 0.2 != 0.3 problem.
-The confusion with 0.1 + 0.2 != 0.3 comes from that we write numbers as decimal, which has a set of numbers which it can only display as repeating, but the computer uses binary, which has a different set of numbers which it can only display as repeating. If we were forced to write numbers as binary, we would not be able to write 0.1 or 0.1(since they repeat), so we wouldn't expect to get a sensible result.
+Since the base of a floating-point number is implied, it can be stored as merely two numbers, significand and exponent. (with the connection implied)
 
+####### effects
+
+Floating-point must be used to store what would otherwise be numbers with a radix point, but also allows for storing very large numbers (since the size can be stored as increases in exponent).
 floating point operations per second  = FLOPS
 FLOPS is a measure of computing performance
 
-#### systems
+##### various systems
 
-##### binary
+###### binary
 
-###### value of digits
+####### value of digits
 
-nth digit|value
+table:nth digit|value
 1|1
 2|2
 3|4
@@ -175,7 +182,7 @@ nth digit|value
 7|64
 8|128
 
-###### conversion practice
+####### conversion practice
 
 table:binary|decimal
 ⟮0⎵2⎵⟯|⟮0⎵10⎵⟯
@@ -195,56 +202,43 @@ table:binary|decimal
 ⟮11⎵2⎵⟯|⟮3⎵10⎵⟯
 ⟮1⎵2⎵⟯|⟮1⎵10⎵⟯
 
-###### bits and bytes
+####### bits and bytes
 
 ⟮a byte⟯ ⟮traditionally⟯ ⟮contains 8 bits⟯, ⟮though there are rare variant definitions⟯. 
-unambiguously, ⟮8 bits⟯ are called ⟮an octet⟯. 
-⟮4 bits⟯ are called ⟮a nibble⟯ (coined ⟮c+;sb;by analogy to byte⟯). 
-a ⟮16⟯-⟮bit⟯ aggregation ⟮(c:1;2⟯ ⟮bytes⟯, ⟮4⟯ ⟮nibbles⟯) may be called a ⟮c+;s3;hexadectet::h...⟯ (short: ⟮c+;s4;hextet::h...⟯ ) 
-a ⟮16⟯-⟮bit⟯ aggregation ⟮(c:5;2⟯ ⟮bytes⟯, ⟮4⟯ ⟮nibbles⟯) may be called a ⟮c+;s7;quad-nibble::q...⟯ (short: ⟮c+;s8;quibble::q...⟯ ) 
+an octet is 8 bits
+A nibble is 4 bits.
+A hextet is 16 bits.
+hextet is short for hexadectet.
+A quibble is 16 bits.
+Quibble is short for quad-nibble.
 
-###### signed numbers
+###### hex
 
-In computing, at the binary level, negative numbers cannot be represented by prefixing a minus sign, therefore one needs a different way to indicated signedness.
-There are three common ways to indicated signedness: one's complement, two's complement, sign and maginitude representation.
-Today, two's complement is by far the most common way to indicate signedness of integers.
-The problem with using sign bits is that there is both +0 and -0.
-one's complement is the result of performing bitwise NOT on a number.
-the two's complement is the one's complement + 1
-Sign and maginitude representation is using a sign bit to represent signedness.
-A sign bit is an extra bit that says whether a number is positive or negative.
-Generally, the most siginificant bit is used as the sign bit.
-Generally, for negative numbers, the sign bit is set, for positive numbers it is nunset.
+Hexadecimmal is very frequently abbreviated hex.
+Hexadecimal uses the graphemes 1-9 and a-f to represent its digits.
+The value of one hex digit is is equivalent to 4 binary digits
 
-##### hex
+###### conv
 
-In hexadeximal, to represent digits beyond 9, a-f are used.
-A hex digit is equivalent to 4 binary digits
+####### dec-hex
 
-#### conv
-
-##### dec-hex
-
-Decimal number|Hexadecimal number
+table:Decimal number|Hexadecimal number
 ⟮1342⎵10⎵⟯|⟮53E⎵16⎵⟯
 ⟮13⎵10⎵⟯|⟮D⎵16⎵⟯
 ⟮233⎵10⎵⟯|⟮E9⎵16⎵⟯
 
-Decimal digit|Hexadecimal digit
+
+table: =Decimal digit|Hexadecimal digit
 ⟮decimal 10⟯|⟮hexadecimal A⟯
 ⟮decimal 15⟯|⟮hexadecimal F⟯
 ⟮decimal 6⟯|⟮hexadecimal 6⟯
 
+###### in programming
 
-
-
-Parity is the property of being even or odd.
-Something has a parity of even if it is divisible by two, and odd otherwise.
-A number in a positional numeral system will be even if its final digit is even.
-
-
-
-flex-container:✫sm_212px-Coordinate_with_Origin.svg.png✫
+in programming, the positional numeral system used is often indicated by a prefix.
+0b as a prefix pretty much always indicates binary.
+Depending on the programming language  or mode, 0 or 0o as a prefix indicates octal.
+There has been a movement to 0o as a prefix for octal numbers to prefent errors.
 
 # Geometry
 
@@ -255,22 +249,33 @@ analytic geometry is the study of geometry using a coordinate system.
 
 ### coordinate sys
 
-The origin is the point where the axes in a cartesian coordinate system intersect
+A coordinate system is a system uses an n-tuple of coordinates to determine the position of a point.
+A coordinate is a number that specifies (part of) a position relative to a coordinate system.
+
+#### cartesian
+
+flex-container:✫sm_212px-Coordinate_with_Origin.svg.png✫
+A cartesian corrdinate system is a coordinate system where a point is specified by a 2-tuple of cartesian coordinates.
+A point in a cartesian coordnate system is specified by a 2-tuple of cartesian coordiantes.
+A cartesian coordinate is a coordiante specifies the distance from a cartesian axis.
+The two cartesian axes are lines which meet perpendicularly at a point.
+The origin is the point where the cartesian axes meet.
 
 ## angle
 
-https://upload.wikimedia.org/wikipedia/commons/2/21/Two_rays_and_one_vertex.png
+flex-container:✫https://upload.wikimedia.org/wikipedia/commons/2/21/Two_rays_and_one_vertex.png✫
+
 An angle is the figure between two rays sharing a common endpoint.
 The vertex of an angle is the common endpoint of the rays.
-If we look at the two rays forming an angle as being in two planes, then an angle is the the figure formed by the intersection of these two planes.
-A dihedral angle is the angle formed by the intersection of two planes at a line.
+The measure of an angle is defined by the ratio between the length of its circular arc to its radius.
+^To get the circular arc of an angle, one needs to chose an arbitrary point on one of the rays. The distance of that point to the vertex of the angle is the radius, and the circular arc is that arc that maps this point onto the other ray while preserving the radius.
 The measure of an angle is often also called an angle.
-An angle (the measure) is the ratio of the length of the circular arc centered at the vertex that maps one of the rays into the other to the distance between the vertex and the intersection between the circular arc and one of the rays (the radius).
+A dihedral angle is the angle formed by the intersection of two planes at a line.
 
 ### kinds
 
-An obtuse angle is greater than 90° and smaller than 180°
-An acute angle is smaller than 90°
+An obtuse angle is an angle with a measure greater than 90° and smaller than 180°
+An acute angle is an angle with a measure smaller than 90°
 
 ## measure
 
@@ -282,78 +287,84 @@ A measure is the indication of the size of something.
 
 A circular arc is the arc of a circle between a pair of distinct points.
 
-## Area
-
-Man kann sich die Formel des ⟮Flächeninhalts⟯ eines ⟮Parallelogramms, Rhombus, Dreiecks etc.⟯ herleiten ⟮indem man sich überlegt, wie man daraus ein Rechteck konstruieren könnte⟯
-⟮Dreieck⟯|⟮\[A=\frac{a*h_a}{2}=\frac{b*h_b}{2}=\frac{c*h_c}{2}\]⟯|⟮h∞;✫sm_dreieck.gif✫⟯
-⟮Kreis⟯|⟮\[A=r^2π\]⟯|⟮h∞;✫sm_kreis.gif✫⟯
-⟮Parallelogramm⟯|⟮\[A=a*h_a=b*h_b\]⟯|⟮h∞;✫sm_para.gif✫⟯
-⟮Quadrat⟯|⟮\[A=a^2\]⟯|⟮h∞;✫sm_quadrat.gif✫⟯
-⟮Rechteck⟯|⟮\[A=a*b\]⟯|⟮h∞;✫sm_rechteck.gif✫⟯
-⟮Rhombus/Deltoid⟯|⟮\[A=\frac{e*f}{2}\]⟯|⟮h∞;✫sm_deltoid.gif✫⟯
-⟮Trapez⟯|⟮\[A=\frac{(a+c)*h}{2}\]⟯|⟮h∞;✫sm_trapez.gif✫⟯
-⟮Kreissektor⟯|⟮\[A=πr^2*\frac{⍺}{360°}=\frac{b*r}{2}\]⟯|⟮h∞;✫sm_sektor.gif✫⟯
-
-
-
 # number theory
 
 Number theory is the branch of maths concerned with the sudy of integers.
 Number theory was/is often also called arithmetic/higher arithmetic.
 
-## properties
+## properties of integers
 
-In mathematics, the sign of a real number is its property of being either positive, negative, or zero.
+### parity
+
+Parity is the property of being even or odd.
+Something has a parity of even/odd if it is/is not divisible by two.
+A number in a positional numeral system will be even if its final digit is even.
+
+### sign
+
+A number's sign is the property of it being either positive, negative, or zero.
 A signed number is a number which can have its sign specified.
-Therefore, in computing a number is signed if it can take on negative values, and unsigned otehrwise.
-two real numbers are commensurable if their ratio is a rational number.
-all rational numbers are by definition ocommensurable.
+In computing a number is signed/unsigned if it can/cannot take on negative values.
+A number's sign is represented by a sign graphemes.
+The typical sign graphemes are + and -.
 
-## factorization
+#### representation
 
-⟮Integer factorization⟯ is the ⟮decomposition⟯ of an ⟮integer⟯ (specifically ⟮composite number⟯) into ⟮a product of smaller integers⟯.
-a composite number is a natural number that is the product of two smaller natural numers
-any positive integer › 1 is either a composite number or a prime number.
-Prime factorization is a subtype of integer factorization.
-Prime factorization is the decomposition of an integer into a product of prime numbers.
-Generating composite numbers is trivial, but there is no known efficient algorithm for integer factorization.
-Thus, integer factorization is essential to most modern cryptography.
+In computing, a sign grapheme cannot be used to store signed numbers.
+In absence of a sign grapheme, three common ways exist to indicate the sign of binary numbers: one's complement, two's complement and sign and maginitude representation.
+Today, two's complement is by far the most common way to indicate signedness of integers.
+
+##### sign and magnitude represnetation
+
+The problem with using sign bits is that there is both +0 and -0.
+one's complement is the result of performing bitwise NOT on a number.
+the two's complement is the one's complement + 1
+Sign and maginitude representation is using a sign bit to represent signedness.
+A sign bit is an extra bit that says whether a number is positive or negative.
+Generally, the most siginificant bit is used as the sign bit.
+Generally, for negative numbers, the sign bit is set, for positive numbers it is nunset.
 
 ## elementary arithmetic
 
-elementary arithmetic is often just called arithmetic
+elementary arithmetic is often just called arithmetic.
 elementary arithmetic is the set of the operations {addition, subtraction, multiplication, division}
-operation|1st operand|2nd operand|result
-addition|addend/summand|addend/summand|sum
-subtraction|minuend|subtrahend|difference
-multiplication|||product
-division|dividend|divisor|quotient
+Any elementary arithmetic operation has a unique name for the 1st and 2nd operand.
+The commutative elementary arithmetic operations also have names for either operand, as the order does not matter.
+
+### terminology
+
+table:operation|1st operand|2nd operand|both|result
+addition|augend|addend|addend/summand|sum
+subtraction|minuend|subtrahend|ø|difference
+multiplication|multiplier|multiplicand|factor|product
+division|dividend|divisor|ø|quotient
 
 ### ops on sequences of numbers
 
-The index of summation/multiplication is the bound variable used in Σ/Π-notation.
-index of summation/multiplication is also called indexing variable.
+A summation is the sum of a sequence of numbers.
+A productation (my term) is the product of a sequence of numbers.
+For summations and productations there is a special notation using a large Σ/Π, respectively.
+The indexing variable is the bound variable used in Σ/Π-notation.
+The indexing variable is sometimes called the index of summation/multiplication.
 the indexing variable together with its lower bound/limit is denoted as a subscript of Σ/Π-notation.
 the upper bound/limit of the indexing variable is denoted as a superscript of Σ/Π-notation.
 The thing on the right of Σ/Π-notation is the element being added/multiplied.
 
 ### multiplication
 
-A product of a sequence of numbers is denoted by Π.
-
 #### multiple
 
 A multiple is the product of any quantity and an integer.
 I.e. b is a multiple of a if there is an `n ∈ ℤ` such that `b = na`
-a is a submultiple of b means b is a submultiple of a.
+a is a submultiple of b means b is a multiple of a.
 I.e. a is a submultiple of b if there is an `n ∈ ℤ` such that `b/n = a`
-E.g. an inch is a 12-fold submultiple of a.
+E.g. A foot is a 12 fold multiple of an inch, an inch is a 12-fold submultiple of a foot.
 
 #### multiplicative inverse
 
 multiplicative inverse = reciprocal
+The reciprocal of x is the number that multiplied by x yields the multiplicative identity .
 the reciprocal of a number x is denoted by x⎴-1⎴.
-The reciporocal x⎴-1⎴ is the number that multiplied by x yields the multiplicative identity (1).
 
 ### division
 
@@ -368,41 +379,67 @@ the reciprocal of a fraction a/b is b/a.
 
 An unit fraction is a rational number written as a fraction where the numerator is one and the denominator is a positive integer.
 
-### addition
+#### commensurability
 
-A summation is the addition of a sequence of numbers.
-A summation is denoted by Σ.
+two real numbers are commensurable if their quotient is a rational number.
+all rational numbers are by definition commensurable.
+
+### addition
 
 #### digit sum
 
-digit sum = quersumme
-The digit sum is the sum of all the digits of a number.
+The digit sum is the summation of all the digits of a number.
 e.g. digit sum of 9045⎵10⎵ = 9 + 0 + 4 + 5 = 18.
 
 ### algorithms for
 
+#### terminology
+
 Doing elementary aritmetic manually is known as long x or x by hand.
-Doing elementary arithmetic manually is known as schriftlich x in germann
-If while doing subtraction by hand, if the subtrahend is bigger than the minuend in any collumn, you need to borrow one from the left.
+Doing elementary arithmetic manually is known as schriftlich x in german
 
-übertrag = carry
-a borrow is the oposite of a carry.
-A carry is a transfer of a digit with a base b to a position with a base b + 1
-A borrow is a transfer of a digit with a base b to a position with a base b - 1
+#### basics
 
-## prime number
-
-prime factor = primfaktor
-A semiprime/biprime is a product of exactly two prime numbers
-A prime number is a natural number that is only divisible by one and itself (is not a product of two smaller natural numbers)
 In the default algorithm for adding/subtracting by hand, numbers are stacked vertically, right aligned, separated from the result by a horizontal bar
 In the default algorithm for adding/subtracting by hand, addition is done of individual digits from right to left, with carries or borrows as necessary.
 
-### by hand
+#### subtraction
+
+If while doing subtraction by hand, if the subtrahend is bigger than the minuend in any collumn, you need to borrow one from the left.
+
+#### borrows and carries
+
+A carry is a transfer of a digit with a base b to a position with a base b + 1
+A borrow is a transfer of a digit with a base b to a position with a base b - 1
+a borrow is the oposite of a carry.
+
+## integer composition and decomposition
+
+### factorization
+
+⟮Integer factorization⟯ is the ⟮decomposition⟯ of a composite number into ⟮a product of factors⟯.
+Both the composite number and factors are integers.
+The factors of the composite numbers must be smaller than the number.
+a composite number is the product of two or more factors
+any positive integer › 1 is either a composite number or a prime number.
+factor(s) → composite number is trivial
+composite number → factor(s) (integer factorization) has no known efficient algorithm
+Thus, integer factorization is essential to most modern cryptography.
+
+#### prime
+
+Prime factorization is a subtype of integer factorization.
+Prime factorization is the decomposition of an integer into a product of prime numbers.
+Generating composite numbers is trivial, but there is no known efficient algorithm for integer factorization.
+
+### prime number
+
+A prime number is a natural number that is only divisible by one and itself (is not a product of two smaller natural numbers)
+A semiprime/biprime is a product of exactly two prime numbers.
 
 # discrete mathematics
 
-Discrete mathematics is the study of mathematical structures that can be considered "discrete" rather than "continuous".
+Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continous.
 
 ## combinatorics
 
