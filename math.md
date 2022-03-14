@@ -441,80 +441,115 @@ A semiprime/biprime is a product of exactly two prime numbers.
 
 Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continous.
 
-## combinatorics
+## setlikes
 
-the factorial is indicated by !
-Factorials make sense for non-negative integers.
-The factorial is the product of all positive integers less than or equal to n. 
+A setlike (my term) is a well-defined collection of elements.
+Setlikes may amongst others be sequences, tuples, or sets.
 
-## sets
+### types
+
+table:name|finitude|order|repetitions
+sequence|potentially infinte|yes|possible
+tuple|finite|yes|possible
+set|potentially infinite|no|no
+
+#### delimiters
+
+table:construct|delimiter
+set|{}
+tuple/sequence|()
+
+#### derived types
+
+A »singleton« is a setlike with one element.
+An »ordered pair« is a 2-tuple.
+An »unordered pair« is a set of two elements.
+
+### sequences
+
+A »sequence« is setlike that is potentially infinite, has order and allows repetitions.
+The length of a sequence is the amounts of elements within it.
+
+#### tuples
+
+»Tuples« are finite sequences.
+Tuples with a known amount of elements n are often called »n-tuples« (e.g. 7-tuples)
+
+### sets
 
 A set is a well-defined collection of distinct (= no repetitions) objects without order.
 A set consists of n elements AKA members.
 Sets are usually denoted by capital letters.
 Two sets are equal if they contain the same elements.
+
+#### properties
+
+##### cardinality
+
 The »cardinality« of a set is the amount of elements within it.
 The cardinality is indicated with vertical bars as ｜S｜.
 
-### sets, tuples, sequences, pairs
+#### operators ＆ operatons
 
-A »sequence« is a set-like thing that has order and allows repetitions.
-Where a set has cardinality, a sequence has length.
-»Tuples« are finite sequences.
-Tuples with a known amount of elements n are often called »n-tuples« (e.g. 7-tuples)
-An »ordered pair« is a 2-tuple.
-An »unordered pair« is a set of two elements.
-A »singleton« is a set/sequence/tuple with one element.
+##### unary
 
-construct|delimiter
-set|{}
-tuple/sequence|()
+###### absolute complement
 
-### operators ＆ operatons
+flex-container:✫https://upload.wikimedia.org/wikipedia/commons/3/31/Venn1100.svg✫
 
-#### unary
 
 A set's »absolute complement« are all elements not in the set.
 A set's ＿absolute complement＿ is the relative complement of the universe and the set U∖A.
-A set's ＿absolute complement＿  is written A^{c}
-https://upload.wikimedia.org/wikipedia/commons/3/31/Venn1100.svg
+A set's ＿absolute complement＿  is written A⎴c⎴
+
+###### power set
+
 The power set of a set S is the set of all subsets of S.
 
-#### binary 
+##### binary 
 
-'is an element of' is more properly a binary relation between an element and a set called set membership.
-The set membership of x in A is written x ∈ A.
-The negation of the set membership of x in A is written x ∉ A.
+###### set membership
+
+Set membership is a binary relation between an element and a set.
+Set membership is often expressed as 'is an element of'
+set membership of x in A is written x ∈ A.
+»⟮The negation of set membership⟯« of x in A is ¬(x ∈ A)
+⟮＿The negation of set membership＿⟯ of x in A is written as x ∉ A.
+
+###### set difference
+
+flex-container:✫https://upload.wikimedia.org/wikipedia/commons/e/e6/Venn0100.svg✫
+
+
 The set difference of two sets A and B is the set such that for all elements x x∈A ∧ x∉B
-https://upload.wikimedia.org/wikipedia/commons/e/e6/Venn0100.svg
+The set difference is also called the relative complement.
+The set difference of A and B is written A∖B
 
-S_1 ∖ S_2|relative complement/ Set difference
+###### cartesian product
 
 The cartesian product of two sets A and B is the set of all ordered pairs (a, b) such that a ∈ A and b ∈ B.
 The cartesian product of A and B is written A×B.
 
-##### union and intersection
-
+###### union and intersection
 
 The intersection of two sets A and B is the set such that for all elements x x∈A ∧ x∈B
-Two sets are disjoint if their intersection is the empty set.
+The intersection of two sets A and B is written A ∪ B.
 The union of two sets A and B is the set such that for all elements x x∈A ∨ x∈B
+The union of two sets A and B is written A ∩ B.
+Two sets are disjoint if their intersection is the empty set.
 
 
-S_1 ∩ S_2|https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg
-S_1 ∪ S_2|https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg
+table:relation|venn diagram
+A ∩ B|https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg
+A ∪ B|https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg
 
-
-S_1 ∩ S_2|Intersection
-S_1 ∪ S_2|Union
-
-##### sub ＆ supersets
+###### sub ＆ supersets
 
 For two sets A, B, A is the superset of B if for all x if x∈B also x∈A
 For two sets A, B, A is the subset of B if for all x if x∈A also x∈B
 two sets are equal if they are both subsets of each other.
 
-###### empty ＆ universe
+####### empty ＆ universe
 
 The empty set is the set that contains no elements.
 The empty set is written ø.
@@ -525,73 +560,88 @@ Every set has itself and the universe as supersets.
 The empty set is the subset of every set.
 The universe is the superset of every set.
 
-###### proper ＆ symbols
+####### proper
 
 A proper sub/superset of A is a sub/superset that is not equal to A.
-The relation of being a superset may also be called inclusion or containment.
-the (proper) sub/superset operators may be read as 「is a proper sub/superset」, as 「is included in/includes」 or as 「is contained in/contains」
+
+####### symbols
+
 ⊊ and ⊋ always refer to proper sub/superset
 ⊆ and ⊇ always refer to just (not proper) sub/superset
 ⊂ and ⊃ are properly ambiguous between proper sub/superset and just sub/superset.
 
-### building sets
+####### names
+
+The relation of being a superset may also be called inclusion or containment.
+the (proper) sub/superset operators may be read as 「is a proper sub/superset」, as 「is included in/includes」 or as 「is contained in/contains」
+
+#### building sets
+
+The elements of sets may be specified via roster or set-builder notation.
+
+##### roster notation
 
 roster notation = enumeration notation
 Roster notation defines a set extensionally, by listing its members (perhaps with leaving out elements with ...)
-Roster/enumeration notation example: {4, 2, 1, 3}
-set builder notation is a specific notatation to define a set via its intension.
+Roster notation example: {4, 2, 1, 3}
+
+##### set-builder notation
+
+set builder notation defines a set via its intension.
 set-builder-notation ::= \{‹element-definition›[∈‹domain›]\|‹logical-formula›\}
 Set builder notation example: {x ∈ ℝ | x › 0}
 
-### diagrams
+#### !diagrams
 
-#### euler
+##### !euler
 
-https://upload.wikimedia.org/wikipedia/commons/d/d0/EulerDiagram.svg
+flex-container:✫https://upload.wikimedia.org/wikipedia/commons/d/d0/EulerDiagram.svg✫
 
-In an euler diagram, each shape represents a set S.
-In an euler diagram, the area outside of a shape representing set S represents S^C
-In an euler diagram, a shape s1 within another shape s2 indicates s1 ⊂ s2
-In an euler diagram, two shapes s1, s2 not overlapping indicates they are disjoint
-In an euler diagram, two shapes s1, s2 overlapping indicates they have an intersection.
-In an euler diagram, the overlapping area of  s1, s2 indicates their intersection.
 
-#### venn
+each shape represents a set S.
+the area outside of a shape representing set S represents S^C
+a shape s1 within another shape s2 indicates s1 ⊂ s2
+two shapes s1, s2 not overlapping indicates they are disjoint
+two shapes s1, s2 overlapping indicates they have an intersection.
+the overlapping area of  s1, s2 indicates their intersection.
+
+##### !venn
 
 https://upload.wikimedia.org/wikipedia/commons/e/e4/Venn_diagram_gr_la_ru.svg
 
 A venn diagram (in contrast to an euler diagram) shows all possible logical relationship between different sets.
-In a venn diagram, each shape represents a set S.
-In a venn diagram, all possible overlappings of all shapes are present.
-In a venn diagram, an element being within a shape indicates that it is an element of the relevant set, ergo an element being within an overlap indicates that it is in both sets.
-In a venn diagram, if an area of overlap has no elements, it is often blacked-out.
-In a venn diagram, instead of placing elements, it instead can be used to indicated WFF (TODO check if this is the right term) by highlighting the areas which fall under it.
+each shape represents a set S.
+all possible overlappings of all shapes are present, but imply nothing by themselves.
+an element being within a shape indicates that it is an element of the relevant set 
+ergo an element being within an overlap indicates that it is in both sets.
+if an area of overlap has no elements, it is often blacked-out.
+instead of placing elements, venn diagrams instead can be used to indicated WFF (TODO check if this is the right term) by highlighting the areas which fall under it.
 
-### types of sets
+#### types of sets
 
-#### number sets ＆ blackboard bold
+##### number sets ＆ blackboard bold
 
-A »⟮number set⟯« is ⟮a set of numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
+A »⟮number set⟯« is ⟮a set of all numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
 ⟮number sets⟯ are usually written in ⟮bold⟯ or ⟮blackboard bold⟯ letters. 
 ⟮number sets⟯ are called ⟮Zahlenbereiche⟯ in German. 
 
+###### blackboard bold
 
 ⟮Blackboard bold⟯ is a style of font that includes ⟮double⟯ ⟮vertical/near-vertical⟯ ⟮lines⟯ 
 ⟮𝔸, 𝔹, ℂ⟯ are examples for ⟮Blackboard bold⟯ (letters) 
 ⟮Blackboard bold⟯ letters are called ⟮Buchstaben mit Doppelstrich⟯ in German. 
 ⟮Blackboard bold⟯ letters are ⟮called that and look like that⟯ because ⟮drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
 
+###### symbols for number sets 
 
 Symbol|Refers to?
-⟮⁑N⁑/ℕ⟯|⟮Set of all natural numbers⟯
-⟮⁑P⁑/ℙ⟯|⟮Set of all primes⟯
-⟮⁑Q⁑/ℚ⟯|⟮c+;›Set of all rational numbers⟯
-⟮⁑R⁑/ℝ⟯|⟮Set of all real numbers⟯
-⟮⁑Z⁑/ℤ⟯|⟮Set of all integers⟯
+⟮⁑N⁑/ℕ⟯|⟮Number set of natural numbers⟯
+⟮⁑P⁑/ℙ⟯|⟮Number set of primes⟯
+⟮⁑Q⁑/ℚ⟯|⟮Number set of rational numbers⟯
+⟮⁑R⁑/ℝ⟯|⟮Number set of real numbers⟯
+⟮⁑Z⁑/ℤ⟯|⟮Number set of integers⟯
 
-
-⟮Integers⟯ are known as ⟮ganze Zahlen⟯ in German. 
-
+###### relations between number sets
 
 onion-box:
 ⟮c+;s∞;ℝ⟯
@@ -600,12 +650,29 @@ onion-box:
       ⟮c+;s∞;ℕ⟯ 
         ⟮c+;s∞;ℙ⟯
 
+###### naming
 
-### combination
+⟮Integers⟯ are known as ⟮ganze Zahlen⟯ in German. 
+
+#### combinatorics
+
+Combinatorics is the branch of mathematics, most commonly of discrete mathematics, concerned with problems of selection and arragement within finite or discrete systems.
+
+##### factorial
+
+The factorial of n is the product of all positive integers less than or equal to n. 
+the factorial is indicated by !
+Factorials only make sense for non-negative integers.
+
+##### enumerative combinatorics
+
+Enumerative combinatorics is the area/branch of combinatorics concerned with the numbers of ways that certain patterns can be formed.
+
+###### combination
 
 A combination is an unordered subset of a given set.
 
-### permutation
+###### permutation
 
 A permutation is an arrangement of a set in a certain order.
 The number of permutations of n distinct objects is n factorial.
