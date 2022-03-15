@@ -6,30 +6,30 @@
 
 #### greek
 
-For the englishified greek numbers from 11 to 19, deca is suffixed
-For the englishified greek number 11, instead of monodeca, it is ⟮hendeca⟯
+For the englishified greek numbers from ⟮c145;11⟯ to ⟮c_;19⟯, ⟮deca⟯ is suffixed
+For the englishified greek number ⟮11⟯, instead of ⟮monodeca⟯, it is ⟮c_;hendeca⟯
 
 table:arabic|greek|latin
-1|Mon(o)|uni
-2|Dy-/Duo|bi(n)
-3|Tri|tri
-4|Tessara-/Tetra|quadr
-5|Penta|quinqu
-6|Hexa|sex
-7|Hepta|sept
-8|Octa/o|oct
-9|Ennea|non
-10|Deca|dec
-11|hendeca-
-12|dodeca-
-13|tri(skai)deca-
-14|tetra(skai)deca-
-15|pentadeca-
-16|hexadeca-
-17|heptadeca-
-18|octadeca-
-19|enneadeca-
-20|icosa-
+⟮1⟯|⟮c+;s+;mon⟯|⟮c+;s-;un
+⟮2⟯|⟮c+;s+;di/dy/du⟯|⟮c+;s-;bi(n)⟯
+⟮3⟯|⟮c+;s+;tri⟯|⟮c+;s-;tri⟯
+⟮4⟯|⟮c+;s+;tessar-/tetr⟯|⟮c+;s-;quadr⟯
+⟮5⟯|⟮c+;s+;pent⟯|⟮c+;s-;quinqu⟯
+⟮6⟯|⟮c+;s+;hex⟯|⟮c+;s-;sex⟯
+⟮7⟯|⟮c+;s+;hept⟯|⟮c+;s-;sept⟯
+⟮8⟯|⟮c+;s+;oct⟯|⟮c+;s-;oct⟯
+⟮9⟯|⟮c+;s+;ennea⟯|⟮c+;s-;non⟯
+⟮10⟯|⟮c+;s+;dec⟯|⟮c+;s-;dec⟯
+⟮11⟯|⟮hendec⟯
+⟮12⟯|⟮dodec⟯
+⟮13⟯|⟮tri(skai)dec⟯
+⟮14⟯|⟮tetra(skai)dec⟯
+⟮15⟯|⟮pentadec⟯
+⟮16⟯|⟮hexadec⟯
+⟮17⟯|⟮heptadec⟯
+⟮18⟯|⟮octadec⟯
+⟮19⟯|⟮enneadec⟯
+⟮20⟯|⟮icos⟯
 
 ## graphemics
 
@@ -65,72 +65,72 @@ Majuscule|Minuscule|Name (in en)
 
 ### numeral system 
 
-A numeral system is a writing system using numerals to represent numbers.
+»⟮A numeral system⟯« is ⟮＿a writing system＿⟯ using ⟮＿numerals＿⟯ to ⟮represent ＿numbers＿.⟯
 
 #### numbers
 
-A numeral is a set of digits representing a number.
-a digit is a single grapheme representing a numeric value smaller than the base.
+»⟮A numeral⟯« is ⟮a set of ＿digits＿⟯ ⟮representing ＿a number＿⟯.
+»⟮a digit⟯« is a ⟮single⟯ ⟮＿grapheme＿⟯ representing ⟮a numeric value⟯ ⟮smaller than⟯ ⟮＿the base＿⟯.
 
 #### positional
 
-A positional numeral system is one where the value of the numeral is the sum of the value of all the digits, and the value of a digit is digit * base⎴index of position⎴
-The index of position in a positional numeral system is 0 for the rightmost position.
-The index of position in a positional numeral system increases by 1 going further to the left.
-Positional notation is writing a number using a positional numeral system.
-Any positional numeral system can display any real numbers, though some have repeating digits (depending on the system)
+»⟮A positional numeral system⟯« is one where ⟮the value⟯ of ⟮＿the numeral＿⟯ is ⟮the sum of⟯ ⟮the value of all ＿the digits＿⟯, and ⟮c_-3;the value⟯ of ⟮＿a digit＿⟯ is ⟮digit * ⟯⟮base⎴index of position⎴⟯
+⟮＿The index of position＿⟯ is ⟮0⟯ for ⟮the rightmost position.⟯
+⟮＿The index of position＿⟯ ⟮increases by 1⟯ ⟮going further to the left⟯.
+»⟮Positional notation⟯« is ⟮writing ＿a number＿⟯ ⟮using ＿a positional numeral system＿⟯.
+⟮Any⟯ ⟮＿positional numeral system＿⟯ can display ⟮＿any real number＿⟯, though ⟮some will always⟯ have ⟮repeating digits⟯ (depending on the system)
 
 ##### digits
 
-There are b-1 unique digits in a positional numeral system with a base b.
-The digits of a positional numeral system form a series such that they increase in value by 1 starting from 0.
+There are ⟮b-1⟯ ⟮unique digits⟯ in ⟮＿a positional numeral system＿⟯ with ⟮＿a base＿ b⟯.
+The ⟮＿digits＿⟯ of ⟮＿a positional numeral system＿⟯ form ⟮a series⟯ such that ⟮they increase in value by 1⟯ starting ⟮from 0⟯.
 
 ##### operation
 
-In a positional numeral system, once a certain digit has reached its maximum value and one more is added, the digit is reset and one is added to the digit on the left.
+In ⟮＿a positional numeral system＿⟯, once ⟮a certain digit⟯ ⟮has reached its maximum value⟯ and ⟮one more is added⟯, ⟮the digit is reset⟯ and⟮ one is added⟯ ⟮to the digit on the left⟯.
 
 ##### names of positional numeral systems
 
-Different positional numeral systems have different names, depending on their base.
+Different ⟮＿positional numeral systems＿⟯ have ⟮names⟯ depending on their ⟮＿base＿⟯.
 
 
 table:positional numeral system|base
-Binary|2
-Octal|8
-Decimal|10
-Hexadecimal|16
-Vigesimal|20
+»⟮Binary⟯«|⟮2⟯
+»⟮Octal⟯«|⟮8⟯
+»⟮Decimal⟯«|⟮10⟯
+»⟮Hexadecimal⟯«|⟮16⟯
+»⟮Vigesimal⟯«|⟮20⟯
 
 ##### properties
 
 ###### endianness
 
-Endianness is the order of most/least significant byte relative to the memory adress.
-least significant byte|byte that represents the lowest value
-most signifcant byte|byte that represents the highest value
+»⟮Endianness⟯« is ⟮the order⟯ of ⟮＿most/least significant byte＿⟯ relative to ⟮the memory adress⟯.
+⟮＿Endianness＿⟯ may be ⟮＿big＿⟯ or ⟮c_;＿little-endian＿⟯.
 
-big-endian|most significant byte is at smallest memory address
-little-endian|least significant byte is at smallest memory address.
+»the ⟮least/most⟯ ⟮significant byte⟯« is the byte that ⟮has the highest base⟯
+»⟮big/little⟯⟮-endian⟯« is if ＿the ⟮most/least⟯ ⟮significant byte⟯＿ is at ⟮the smallest memory address⟯.
 
 If we write memory addresses from left to right, as is usual, then arabic numerals would be big endian.
 
-Modern processors are all little endian, the internet is big-endian.
+⟮Modern processors⟯ are all ⟮＿little-endian＿⟯
+⟮the internet⟯ is ⟮＿big-endian＿⟯.
 
 ###### largest numbers
 
-the largest possible number in a number of n digits of a given positional numeral system is base^n - 1
+⟮the largest possible number⟯ in a number of ⟮n digits⟯ of ⟮a given positional numeral system⟯ is ⟮base^n - 1⟯
 
 
 table:system|largest number
-8-bit binary|255
+⟮8-bit binary⟯|⟮255⟯
 
 ##### fractions
 
 ###### radix point
 
-The radix point is a symbol that separates the point in a positional numeral system where the index of position (and thus value of the exponent) goes negative.
-The radix point is usually written as a `.` in english.
-the decimal separator the radix point when using the decimal positional numeral system.
+»⟮The radix point⟯« is ⟮＿a grapheme＿⟯ that separates the point in a positional numeral system where ⟮＿the index of position＿ (and thus value of the exponent)⟯ ⟮goes negative⟯.
+⟮＿The radix point＿⟯ is usually written as ⟮a `.`⟯ in ⟮english⟯.
+»⟮the decimal separator⟯« is ⟮＿the radix point＿⟯ when ⟮using the ＿decimal＿ ＿positional numeral system＿.⟯
 
 ###### repeating numbers
 
@@ -173,14 +173,14 @@ FLOPS is a measure of computing performance
 ####### value of digits
 
 table:nth digit|value
-1|1
-2|2
-3|4
-4|8
-5|16
-6|32
-7|64
-8|128
+⟮1⟯|1
+⟮2⟯|2
+⟮3⟯|4
+⟮4⟯|8
+⟮5⟯|16
+⟮6⟯|32
+⟮7⟯|64
+⟮8⟯|128
 
 ####### conversion practice
 
