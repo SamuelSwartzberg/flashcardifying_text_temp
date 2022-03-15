@@ -1097,11 +1097,10 @@ the inverse of a function f is denoted by f⎴-1⎴
 monotonically increasing/decreasing may also be called non-decreasing or weakly increasing/decreasing.
 strictly monotonically increasing/decreasing may also be called strictly increasing/decreasing or just increasing/decreasing.
 
-A function is monotonic if for all x_1, x_2: 
-montonically increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
-strictly montonically increasing|x_1 ‹ x_2 also f(x_1) ‹ f(x_2)
-montonically decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
-strictly montonically increasing||x_1 ‹ x_2 also f(x_1) › f(x_2)
+A function is montonically increasing if ∀(x⎵1⎵, x⎵2⎵) if x⎵1⎵ ≤ x⎵2⎵ also f(x⎵1⎵) ≤ f(x⎵2⎵)
+A function is strictly montonically increasing if ∀(x⎵1⎵, x⎵2⎵) if x⎵1⎵ ‹ x⎵2⎵ also f(x⎵1⎵) ‹ f(x⎵2⎵)
+A function is montonically decreasing if ∀(x⎵1⎵, x⎵2⎵) if x⎵1⎵ ≤ x⎵2⎵ also f(x⎵1⎵) ≥ f(x⎵2⎵)
+A function is strictly montonically increasing if ∀(x⎵1⎵, x⎵2⎵) if |x⎵1⎵ ‹ x⎵2⎵ also f(x⎵1⎵) › f(x⎵2⎵)
 
 a function is monotonic if it is monotonically increasing or monotonically decresing
 a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
@@ -1117,16 +1116,25 @@ Per definition, any zero x has the property f(x)=0
 
 #### floor and ceil
 
-flex-container:✫FloorFunction_1000.gif✫:✫CeilingFunction_1000.gif✫
+##### floor
+
+flex-container:✫FloorFunction_1000.gif✫
 
 
 In math, the ⟮floor⟯ function of x gives the ⟮largest⟯ ⟮integer⟯ that is ⟮≤ x⟯.
 The floor function is written ⟮⌊x⌋⟯.
 ⟮⌊x⌋⟯ is produced in latex by ⟮\lfloor x \rfloor⟯
+^https://mathworld.wolfram.com/FloorFunction.html
+
+##### ceil
+
+flex-container:✫CeilingFunction_1000.gif✫
+
+
 In math, the ⟮ceiling⟯ function of x gives the ⟮smallest⟯ ⟮integer⟯ that is ⟮≥ x⟯.
 The ceil function is written ⟮⌈x⌉⟯.
 ⟮⌈x⌉⟯ is produced in latex by ⟮\lceil x \rceil⟯
-^https://mathworld.wolfram.com/FloorFunction.html, https://mathworld.wolfram.com/CeilingFunction.html
+^https://mathworld.wolfram.com/CeilingFunction.html
 
 ## variable
 
@@ -1136,27 +1144,36 @@ A variable may be free or bound.
 a ⟮free variable⟯ is one ⟮on which the value of an expression/statement⟯ ⟮depends/says something about⟯
 a ⟮bound variable⟯ on the other hand is ⟮a convenience to express something⟯, that does not ⟮stand for a particular thing⟯
 often an expression/statement can be ⟮rephrased⟯ to ⟮eliminate bound variables⟯ (though not always).
-in the expression \({\sum _{k=1}^{10}f(k,n),}\) ⟮c+;k is  a bound variable⟯ and ⟮n is a free variable⟯
-in the expression \({\lim _{h\rightarrow 0}{\frac {f(x+h)-f(x)}{h}},}\) ⟮x is a free variable⟯, ⟮h is a bound variable⟯
-There are a few common ⟮variable-binding⟯ operators, most commonly ⟮c+;sum Σ, product Π, integral ∫, limit lim, existential quantifier ∃, universal quantifier ∀⟯
+Variables such as the indexing variable of summation/productation notation or the input of a limit are bound variables.
+There are a few common ⟮variable-binding⟯ operators, most commonly ⟮sum Σ, product Π, integral ∫, limit lim, existential quantifier ∃, universal quantifier ∀⟯
 
 ### arguments, parameters, coefficients, constants
+
+#### arguments, parameters
 
 A »variable« is a placeholder for something that may change.
 Variables may either be arguments or parameters.
 Often, variable is treated as a synonym for argument (only), but this is incorrect.
 An argument is a variable that is the input of the function, that if varied produces different outcomes.
-A parameter is a variable that is not provided as an input for the function. Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
-By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
-The ⟮arguments⟯ of a function must ⟮be listed in f(...)⟯, the ⟮parameters⟯ of functions must ⟮under no circumstances be⟯.
-⟮Constant⟯ in math is ambiguous: It may refer to ⟮a well-defined and fixed number (e.g. π)⟯, or ⟮is a synonym for ＿parameter＿⟯
-A coefficient is something (may be a variable or something that isn't a variable, e.g. an expression, a number) that is multiplied with something else (that thing may be 1).
-A constant coefficient is not multiplied with any argument, and may be multiplied with 1.
+A parameter is a variable that is not provided as an input for the function. 
+Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
+^By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
+The ⟮arguments⟯ but not the parameters of a function are ⟮listed in f(...)⟯
+
 
 table:thing|indicated by
 arguments|x, y, z...
 parameters|a, b, c...
 
+#### coefficients, constants
+
+A mathematical constant is a non-changing, well-defined mathematical object.
+Examples for mathematical constants: π, e
+⟮Constant⟯ is ambiguous between mathematical constant or parameter
+A coefficient is a factor of a term in some expression.
+A constant coefficient is a coefficient which is a factor of a term where the other factor is 1.
+
+#### example
 
 table:headerrows=2;f(x)=ax^{2}+bx+c
 element in function|is what kind of thing
@@ -1177,8 +1194,9 @@ An equation is ambiguous between expressing a conditional or an identity.
 
 ## terms and expressions
 
-An ⟮expression⟯ in math is ⟮a well-formed combination of mathematical symbols (e.g. numbers, variables, operations, functions, brackets, etc.)⟯ including ⟮at least one operator⟯
-a ⟮term⟯ in math is any part of an ⟮expression⟯ that is by itself ⟮well-formed⟯ and ⟮does not contain an operator⟯.
+An ⟮expression⟯ in math is a combination of symbols that is well-formed and contains at least one operator.
+A term is a combination of symbols that is well-formed and does not contain an operator.
+
 
 table:headerrows=2;2x+3
 element in function|is what kind of thing
