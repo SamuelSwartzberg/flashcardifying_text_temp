@@ -134,30 +134,30 @@ table:system|largest number
 
 ###### repeating numbers
 
-Any positional numeral system has real numbers which it can only display as repeating numbers.
-Which numbers much be displayed as repeating numbers depends on the positional numeral system.
-the 0.1 + 0.2 == 0.30...04 problem (my term) is that certain mathematical operations on fractional numbers on computers may produce surprising results.
-the 0.1 + 0.2 == 0.30...04 problem stems from the fact that binary is used to store the numbers, but decimal is used to write them in source code.
-in the 0.1 + 0.2 == 0.30...04 problem, what the computer sees is 0.00011 0011... + 0.0011... = ...
-in the 0.1 + 0.2 == 0.30...04 problem, the constituent numbers are repeating in binary, so it is not surprsing that they could not be added.
+⟮Any⟯ ⟮＿positional numeral system＿⟯ has real numbers which it can only display as ⟮repeating numbers⟯.
+⟮Which⟯ numbers must be displayed as repeating numbers depends on ⟮the base⟯ of the  positional numeral system.
+»⟮the 0.1 + 0.2 == 0.30...04 problem⟯« (my term) is that certain ⟮fractional numbers⟯ on computers may ⟮produce surprising results⟯.
+⟮＿the 0.1 + 0.2 == 0.30...04 problem＿⟯ stems from the fact that ⟮binary⟯ is used to ⟮store the numbers⟯, but ⟮c-;decimal⟯ is used to ⟮write them in source code⟯.
+in ⟮＿the 0.1 + 0.2 == 0.30...04 problem＿⟯, what ⟮the computer sees⟯ is ⟮0.00011 0011... + 0.0011... = ...⟯
+in ⟮＿the 0.1 + 0.2 == 0.30...04 problem＿⟯, the constituent numbers are ⟮repeating⟯ in ⟮binary⟯, so ⟮it is not surprsing that they could not be added⟯.
 
 ##### exponent-based notation
 
-Exponential notation (has variant definitions that I don't care about) is a notation based on positional numeral notation that modifies the behavior of the index of position used as an exponent.
-Exponential notation may either be scientific notation or floating-point notation.
-Fixed-point notation is non-floating point notation.
-Exponential notation splits a numeral into a significand and an exponent factor, connected via multiplication.
-The exponent factor of exponential notation has the form base⎴n⎴.
-In exponential notation, a part of the index of position is extracted into the exponent of the exponent factor.
-In scientific notation, the exponent of the exponent factor is chosen such that the significand is kept between 1 and 10.
-scientific notation may use e‹n› instead of *10^‹n› to render the exponent factor.
-In floating-point notation, the exponent of the exponent factor is chosen such that the significand does not contain a radix point.
+»⟮Exponential notation⟯« (has variant definitions that I don't care about) is a notation ⟮based on⟯ ⟮＿positional numeral notation＿⟯ that modifies the behavior of ⟮＿the index of position＿⟯ used as ⟮c_;an exponent⟯.
+⟮＿Exponential notation＿⟯ may either be ⟮＿scientific notation＿⟯ or ⟮＿floating-point notation＿⟯.
+»⟮Fixed-point notation⟯« is ⟮non⟯-⟮＿floating point notation＿⟯.
+⟮＿Exponential notation＿⟯ ⟮splits⟯ ⟮＿a numeral＿⟯ into »⟮a significand⟯« and »⟮an exponent factor⟯«, ⟮c-3;connected⟯ via ⟮multiplication⟯.
+⟮＿The exponent factor＿⟯ of ⟮＿exponential notation＿⟯ has the form ⟮base⎴n⎴⟯.
+In ⟮＿exponential notation＿⟯, the way ⟮＿the index of position＿⟯ is modified is that ⟮a part of⟯ ⟮c_-;＿the index of position＿⟯ is ⟮extracted into⟯ ⟮the exponent⟯ of ⟮c_;＿the exponent factor＿⟯.
+In ⟮＿scientific notation＿⟯, ⟮the exponent of ＿the exponent factor＿⟯ is chosen such that ⟮＿the significand＿⟯ ⟮is kept between 1 and 10⟯.
+⟮＿scientific notation＿⟯ may use⟮ e‹n›⟯ instead of ⟮*10^‹n›⟯ to render ⟮＿the exponent factor＿⟯.
+In ⟮＿floating-point notation＿⟯, t⟮he exponent of ＿the exponent factor＿⟯ is chosen such that ⟮＿the significand＿⟯ ⟮does not contain ＿a radix point＿⟯.
 
 ###### floating-point
 
-Since in floating-point notation the exponent of the exponent factor is chosen such that the significand does not contain a radix point, equivalently one can say it stores the position of the radix point.
-Floating point is called such since storing the exponent is equivalent to storing the position of the radix point.
-Since the exponent in effect stores the position of the radix point, the significant itself is implicitly an integer.
+⟮＿Floating-point notation＿⟯ can equivalently be said to store ⟮the position of⟯ ⟮＿the radix point＿⟯, whence ⟮its name⟯.
+Since the exponent in effect ⟮stores the position of ＿the radix point＿⟯, ⟮＿the significant＿⟯ itself is implicitly ⟮an integer⟯.
+TODO, skipped:
 Since the base of a floating-point number is implied, it can be stored as merely two numbers, significand and exponent. (with the connection implied)
 
 ####### effects
@@ -173,14 +173,14 @@ FLOPS is a measure of computing performance
 ####### value of digits
 
 table:nth digit|value
-⟮1⟯|1
-⟮2⟯|2
-⟮3⟯|4
-⟮4⟯|8
-⟮5⟯|16
-⟮6⟯|32
-⟮7⟯|64
-⟮8⟯|128
+⟮1⟯|⟮1⟯
+⟮2⟯|⟮2⟯
+⟮3⟯|⟮4⟯
+⟮4⟯|⟮8⟯
+⟮5⟯|⟮16⟯
+⟮6⟯|⟮32⟯
+⟮7⟯|⟮64⟯
+⟮8⟯|⟮128⟯
 
 ####### conversion practice
 
@@ -204,19 +204,19 @@ table:binary|decimal
 
 ####### bits and bytes
 
-⟮a byte⟯ ⟮traditionally⟯ ⟮contains 8 bits⟯, ⟮though there are rare variant definitions⟯. 
-an octet is 8 bits
-A nibble is 4 bits.
-A hextet is 16 bits.
-hextet is short for hexadectet.
-A quibble is 16 bits.
-Quibble is short for quad-nibble.
+»⟮An octet⟯« is ⟮8⟯ bits
+»⟮A byte⟯« is a synonym of ⟮＿octet＿⟯, ⟮except for rare variant definitions⟯.
+»⟮A nibble⟯« is ⟮4⟯ bits.
+»⟮A hextet⟯« is ⟮16⟯ bits.
+⟮hextet⟯ is short for ⟮hexadectet⟯.
+»⟮A quibble⟯« is ⟮16⟯ bits.
+⟮Quibble⟯ is short for ⟮quad-nibble⟯.
 
 ###### hex
 
-Hexadecimmal is very frequently abbreviated hex.
-Hexadecimal uses the graphemes 1-9 and a-f to represent its digits.
-The value of one hex digit is is equivalent to 4 binary digits
+⟮Hexadecimmal⟯ is very frequently abbreviated ⟮hex⟯.
+⟮Hexadecimal⟯ uses the graphemes ⟮1-9 and a-f⟯ to represent its ⟮＿digits＿⟯.
+The value of ⟮1⟯ ⟮hex⟯ ⟮digit⟯ is equivalent to ⟮c-2;4⟯ ⟮binary⟯ ⟮digits⟯
 
 ###### conv
 
@@ -235,21 +235,20 @@ table: =Decimal digit|Hexadecimal digit
 
 ###### in programming
 
-in programming, the positional numeral system used is often indicated by a prefix.
-0b as a prefix pretty much always indicates binary.
-Depending on the programming language  or mode, 0 or 0o as a prefix indicates octal.
-There has been a movement to 0o as a prefix for octal numbers to prefent errors.
+in programming, ⟮＿the positional numeral system＿⟯ used is often indicated by ⟮a prefix⟯ starting with ⟮0⟯.
+⟮0b⟯ as a prefix pretty much always indicates ⟮binary⟯.
+Depending on the ⟮programming language⟯ or ⟮c_;mode⟯, ⟮0⟯ or ⟮c_;0o⟯ as a prefix indicates ⟮octal⟯.
+There has been a movement to ⟮0o⟯ as a prefix for ⟮octal⟯ numbers to ⟮prevent errors⟯.
 
 # Geometry
 
 ## analytic
 
-analytic geometry = catesian geometry
-analytic geometry is the study of geometry using a coordinate system.
+»⟮analytic geometry⟯« is the study of ⟮＿geometry＿⟯ ⟮using a coordinate system⟯.
 
 ### coordinate sys
 
-A coordinate system is a system uses an n-tuple of coordinates to determine the position of a point.
+»⟮A coordinate system⟯« is a system which allows the use of an n-tuple of coordinates to determine the position of a point.
 A coordinate is a number that specifies (part of) a position relative to a coordinate system.
 
 #### cartesian
@@ -289,61 +288,63 @@ A circular arc is the arc of a circle between a pair of distinct points.
 
 # number theory
 
-Number theory is the branch of maths concerned with the sudy of integers.
-Number theory was/is often also called arithmetic/higher arithmetic.
+»⟮Number theory⟯« is the branch of math concerned with ⟮the study of integers⟯.
+⟮Number theory⟯ was/is often also called ⟮arithmetic/higher arithmetic⟯.
 
 ## properties of integers
 
 ### parity
 
-Parity is the property of being even or odd.
-Something has a parity of even/odd if it is/is not divisible by two.
-A number in a positional numeral system will be even if its final digit is even.
+»⟮Parity⟯« is the property of being ⟮even or odd⟯.
+Something has ⟮＿a parity＿⟯ of ⟮even/odd⟯ if it ⟮is/is not⟯ ⟮divisible by two⟯.
+A number in ⟮＿a positional numeral system＿⟯ will be ⟮even⟯ if ⟮its final digit is even⟯.
 
 ### sign
 
-A number's sign is the property of it being either positive, negative, or zero.
-A signed number is a number which can have its sign specified.
-In computing a number is signed/unsigned if it can/cannot take on negative values.
-A number's sign is represented by a sign graphemes.
-The typical sign graphemes are + and -.
+A number's »⟮sign⟯« is the property of it being ⟮either positive, negative, or zero⟯.
+»⟮A signed number⟯« is ⟮＿a number＿⟯ which ⟮has/can have its ＿sign＿ specified⟯.
+In computing a number is ⟮signed/unsigned⟯ if it is ⟮encoded in such a way⟯ that it ⟮can/cannot⟯ take on ⟮negative values⟯.
+»⟮A sign grapheme⟯« represents a number's ⟮＿sign＿⟯.
+The typical ⟮＿sign graphemes＿⟯ are ⟮+ and -⟯.
 
 #### representation
 
-In computing, a sign grapheme cannot be used to store signed numbers.
-In absence of a sign grapheme, three common ways exist to indicate the sign of binary numbers: one's complement, two's complement and sign and maginitude representation.
-Today, two's complement is by far the most common way to indicate signedness of integers.
+In computing, ⟮＿a sign grapheme＿⟯ ⟮cannot be used⟯ to ⟮store ＿signed numbers＿⟯.
+In absence of ⟮＿a sign grapheme＿⟯, three common ways exist to ⟮indicate ＿the sign＿⟯ of ⟮binary-encoded numbers⟯: ⟮one's complement⟯, ⟮two's complement⟯ and ⟮sign and maginitude representation⟯.
+Today, ⟮two's complement⟯ is by far ⟮the most common way⟯ to ⟮indicate the ＿sign＿ of binary-encoded numbers⟯.
 
 ##### sign and magnitude represnetation
 
-The problem with using sign bits is that there is both +0 and -0.
-one's complement is the result of performing bitwise NOT on a number.
-the two's complement is the one's complement + 1
-Sign and maginitude representation is using a sign bit to represent signedness.
-A sign bit is an extra bit that says whether a number is positive or negative.
-Generally, the most siginificant bit is used as the sign bit.
-Generally, for negative numbers, the sign bit is set, for positive numbers it is nunset.
+»⟮one's complement⟯« is ⟮the result of⟯ ⟮performing bitwise NOT⟯ on a number.
+»⟮two's complement⟯« is ⟮＿the one's complement＿⟯ ⟮+ 1⟯
+»⟮A sign bit⟯« is ⟮an extra bit⟯ that ⟮stores ＿the sign＿⟯.
+»⟮Sign and maginitude representation⟯« is using ⟮＿a sign bit＿⟯ to ⟮represent a number's ＿sign＿⟯.
+The problem with using ⟮sign bits⟯ is that ⟮there is both +0 and -0⟯.
+Generally, the ⟮＿most siginificant bit＿⟯ is used as ⟮＿the sign bit＿⟯.
+Generally, ⟮＿the sign bit＿⟯ is ⟮set/unset⟯ for ⟮negative/positive⟯ numbers.
 
 ## elementary arithmetic
 
-elementary arithmetic is often just called arithmetic.
-elementary arithmetic is the set of the operations {addition, subtraction, multiplication, division}
-Any elementary arithmetic operation has a unique name for the 1st and 2nd operand.
-The commutative elementary arithmetic operations also have names for either operand, as the order does not matter.
+⟮elementary arithmetic⟯ is often ⟮just⟯ called ⟮c_;arithmetic⟯.
+»⟮elementary arithmetic⟯« is ⟮the branch of⟯ ⟮＿number theory＿⟯ that studies ⟮＿the elementary arithmetic operations＿⟯.
+»⟮The elementary arithmetic operations⟯« are {⟮addition⟯, ⟮c_;subtraction⟯, ⟮c_;multiplication⟯, ⟮c_;division⟯}
+⟮Any⟯ ⟮＿elementary arithmetic operation＿⟯ has ⟮unique names⟯ for the ⟮1st and 2nd⟯ ⟮operand⟯ ⟮c_-;each⟯.
+The ⟮commutative⟯ ⟮＿elementary arithmetic operations＿⟯ also have ⟮names⟯ that ⟮refer to either of the operand⟯s, as ⟮the order does not matter⟯.
 
 ### terminology
 
 table:operation|1st operand|2nd operand|both|result
-addition|augend|addend|addend/summand|sum
-subtraction|minuend|subtrahend|ø|difference
-multiplication|multiplier|multiplicand|factor|product
-division|dividend|divisor|ø|quotient
+⟮addition⟯|⟮c+;s∞;augend⟯|⟮c+;s∞;addend⟯|⟮c+;s∞;addend/summand⟯|⟮c+;s∞;sum⟯
+⟮subtraction⟯|⟮c+;s∞;minuend⟯|⟮c+;s∞;subtrahend⟯|⟮c+;s∞;ø⟯|⟮c+;s∞;difference⟯
+⟮multiplication⟯|⟮c+;s∞;multiplier⟯|⟮c+;s∞;multiplicand⟯|⟮c+;s∞;factor⟯|⟮c+;s∞;product⟯
+⟮division⟯|⟮c+;s∞;dividend⟯|⟮c+;s∞;divisor⟯|⟮c+;s∞;ø⟯|⟮c+;s∞;quotient⟯
 
 ### ops on sequences of numbers
 
-A summation is the sum of a sequence of numbers.
-A productation (my term) is the product of a sequence of numbers.
-For summations and productations there is a special notation using a large Σ/Π, respectively.
+»⟮A summation⟯« is ⟮＿the sum＿⟯ of ⟮＿a sequence＿⟯.
+»⟮A productation⟯« (my term) is ⟮＿the product＿⟯ of ⟮＿a sequence＿⟯.
+»⟮Summation/productation notation⟯« is ⟮a special notation⟯ for ⟮writing ＿summation/productation＿⟯
+⟮＿Summation/productation notation＿⟯ uses a ⟮large⟯ ⟮Σ/Π⟯, respectively.
 The indexing variable is the bound variable used in Σ/Π-notation.
 The indexing variable is sometimes called the index of summation/multiplication.
 the indexing variable together with its lower bound/limit is denoted as a subscript of Σ/Π-notation.
