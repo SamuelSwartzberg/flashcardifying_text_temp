@@ -446,13 +446,6 @@ Discrete mathematics is the study of mathematical structures that can be conside
 A setlike (my term) is a well-defined collection of elements.
 Setlikes may amongst others be sequences, tuples, or sets.
 
-### types
-
-table:name|finitude|order|repetitions
-sequence|potentially infinte|yes|possible
-tuple|finite|yes|possible
-set|potentially infinite|no|no
-
 #### delimiters
 
 table:construct|delimiter
@@ -477,7 +470,10 @@ Tuples with a known amount of elements n are often called »n-tuples« (e.g. 7-t
 
 ### sets
 
-A set is a well-defined collection of distinct (= no repetitions) objects without order.
+A set is a setlike that does not allow repetition.
+An unordered set is a set that does not have order.
+An ordered set is a set that has order.
+In practice, set almost always refers to unordered set
 A set consists of n elements AKA members.
 Sets are usually denoted by capital letters.
 Two sets are equal if they contain the same elements.
@@ -686,6 +682,7 @@ flex-container:✫sm_220px-6n-graf.svg.png✫
 Graph theory is the branch of discrete mathemathics that studies graphs.
 A ⟮graph⟯ is ⟮a pair⟯.
 ⟮The pair⟯ that ⟮a graph consists⟯ of itself is made up of ⟮a set of⟯ ⟮vertices⟯, and ⟮a set of⟯ ⟮edges⟯. 
+An element of a graph is a vertex or an edge.
 In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
 In terms of comp. sci. a ⟮graph⟯ is ⟮an ADT⟯. 
 
@@ -737,6 +734,17 @@ table:in the image|name
 ⟮E⟯|⟮The set of edges⟯
 ⟮G⟯|⟮the graph⟯
 ⟮V⟯|⟮The set of vertices⟯
+
+### labels
+
+A label is a thing such as an integer that is assigned to an element of a graph.
+A vertex/edge label is a label assigned to a vertex/edge.
+A graph labeling is a function from elements of the graph to a set of labels.
+A vertex/edge labeling is a function from vertices/edges to a set of vertex/edge labels.
+A vertex/edge-labeled graph is a graph with a vertex/edge labeling.
+A weighted graph is a edge-labeled graph where the edge labels are an ordered set.
+A labeled graph is most commonly a vertex-labeled graph with all labels distinct.
+A graceful labeling is a vetex labeling where the vertex labels are { 0, 1, ..., |E|}
 
 ### traversal
 
@@ -802,7 +810,7 @@ A compscitree (my term) is an ADT which is ⟮a rooted tree⟯ graph with ⟮an 
 #### direct & movement
 
 The ⟮root path⟯ is the ⟮path⟯ ⟮from a vertex to the root vertex⟯. 
-The ⟮depth⟯ of ⟮a vertex⟯ in a tree (ADT) is ⟮the length of the root path⟯. 
+The ⟮depth⟯ of ⟮a vertex⟯ in a compscitree is ⟮the length of the root path⟯. 
 Going ⟮towards⟯ ⟮vertices⟯ with ⟮greater depth⟯ is known as ⟮downward⟯, and going ⟮towarrds⟯ ⟮vertices⟯ with ⟮smaller depth⟯ is known as ⟮upwards⟯. 
 
 #### descendants & ancestors
@@ -843,7 +851,8 @@ a ⟮binary tree⟯ is a ⟮compscitree⟯ ⟮where any vertex has at most two c
 
 ⟮Depth-first search⟯ in the case of ⟮binary trees⟯ is commonly either ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
 
-order|pattern
+
+table:order|pattern
 ⟮Pre-order⟯|⟮Node - Left - Right⟯
 ⟮Inorder⟯|⟮Left - Node - Right⟯
 ⟮Post-order⟯|⟮Left  - Right - Node⟯
@@ -856,9 +865,11 @@ order|pattern
 
 ##### binary search trees
 
-A ⟮binary search tree⟯ is ⟮a binary tree⟯ defined by ⟮the properties⟯ of ⟮the keys⟯ of ⟮the vertices⟯ in ⟮the left and right subtrees⟯. 
+A ⟮binary search tree⟯ is ⟮a binary tree⟯ defined by ⟮special properties that the keys of ⟮the vertices⟯ in ⟮the left and right subtrees⟯ have. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮larger than⟯ ⟮the key in any vertices in the left subtree⟯. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮smaller than⟯ ⟮the key in any vertices in the right subtree⟯. 
+
+###### operations
 
 To ⟮insert a vertex in a binary search tree⟯, we ⟮traverse the tree⟯ as if we were ⟮searching for the vertex⟯, then, ⟮sb;when ⟮we hit a leaf⟯, we ⟮insert it⟯ as ⟮left or right (as the case may be⟯).⟯ 
 
@@ -866,10 +877,12 @@ In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has n
 In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has one child⟯, ⟮set the reference of the parent to that of the child⟯ 
 In deleting ⟮a vertex N⟯ in ⟮a binary search tree⟯, if ⟮the vertex has two children⟯, first take ⟮the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮S's⟯ ⟮value⟯, and ⟮replace⟯ ⟮N's⟯ ⟮value⟯ ⟮with it⟯ and then ⟮delete S⟯ with ⟮the appropriate method for 0/1-child vertices⟯. 
 
-
+###### practice
 
 flex-container:✫sm_bin_search_tree.svg✫
-Inserting this number,|where would it go?
+
+
+table:Inserting this number,|where would it go?
 ⟮9⟯|⟮left of 10⟯
 ⟮5⟯|⟮right of 4⟯
 ⟮2⟯|⟮right of 1⟯
@@ -877,10 +890,15 @@ Inserting this number,|where would it go?
 
 ##### merkele tree
 
-A merkele/hash tree is a tree where every leaf has a label of a hash of a data block and every non-leaf has a label of the hash of all the labels = hashes of its child nodes.
+Merkle tree = hash tree
+A merkle tree is a vertex-labeled tree where the vertex labels are certain hashes.
+In a merkele tree, the vertex label of a leaf is the hash of a data block.
+In a merkele tree, the vertex label of a internal node is the hash of all the labels = hashes of its child nodes.
 Merkele trees are used in block trees.
 
 ## logic
+
+TODO:
 
 First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
 the logical form of an argument is called argument form.
@@ -958,23 +976,28 @@ bitmasking with AND 1⎵2⎵ returns the parity of the number (0 = even, 1 = odd
 
 ## limits
 
-a limit is the value that a function (or sequence) approaches as the input (or index) approaches some value.
+A limit is the value that a function approaches as the input approaches some value.
 lim is an unary operator which gets the limit of an entity.
-the limit of a function f(x) as x goes to a certain value c is indicated by lim_{x→c} f(x)
-the value of a limit  is indicated L.
-Asymptotic analysis is a way of describing limiting behavior by approaching the limit infinitely closely.
-If under asymptotic analysis the limit becomes a certain value, it is said to be asymptotically equivalent (or just asymptotic) to that value.
+the limit of a function f(x) as x goes to a certain value c is indicated by lim⎵x→c⎵ f(x)
+the value of a limit is indicated L.
+
+### asymptotic analysis
+
+Asymptotic analysis is a way of describing limits by approaching the input infinitely closely.
+The limit is asymptotically equivalent to the value it becomes under asymptotic analysis.
 a function f(x) being asymtotically equivalent to a certain limit foo is indicated f(x) ~ foo.
 so, for example for f(x) = x^2 + 3x at values of x close to infinity, 3x becomes irrelevant. hence f(x) ~ n^2
+
+#### asymptote
+
 The asymptote of a curve is a line such that the distance between the curve and the line approaches zero as x andor y approach infinity.
 The asymptote of a curve is also the tangent to the curve at a point in infinity.
-horizontal asymptotes|is horizontal|x tends to infinity
-vertical asymptotes|is vertical|y tends to infinity
+A horizontal/vertical asymptote are created if x/y tends to infinity.
 
+#### notation
 
-big O notation is used to classify algorithms according to how their computational complexity (run time or space requirements) grow as the input size grows
+Big O notation is used to indicate the limit an algorithm's computational complexity is asymptotically equivalent to as the input size tends to infinity.
 Big O notation looks like O(n). 
-Big O notation describes limiting behavior under asymptotic analysis.
 
 ## calculus
 
@@ -982,12 +1005,12 @@ Calculus is the mathematical study of continous change.
 
 ### differential calculus
 
-differential calculus is concerned with rate of change and slopes of curves
+differential calculus is the branch of calculus concerned with rate of change and slopes of curves
 
 #### differentiation
 
+The derivate of a function is the slope/gradient of the tangent line to the graph of the function at a given point.
 A differentiable function is one whose derivative exists at every point of the domain.
-The derivate of a function is the slope/gradient of the tangent line to the graph of the function at that point
 derivative is ableitung in german.
 
 ##### antiderivative
@@ -998,65 +1021,92 @@ Antiderivatives satisfy F' = f.
 
 ### integral calculus
 
-integral calculus is concerned with the accumulation of quantities and the areas under/between curves.
-
-## real analysis
+integral calculus is the branch of calculus concerned with the accumulation of quantities and the areas under/between curves.
 
 # algebra
 
-In mathematics, an algebraic structure consists of a nonempty set A (called the underlying set, carrier set or domain), a collection of operations on A of finite arity (typically binary operations), and a finite set of identities, known as axioms, that these operations must satisfy.
 abstract algebra (occasionally called modern algebra) is the study of algebraic structures.
+
+## algebraic structure
+
+For edification, but not currently study material:
+In mathematics, an algebraic structure consists of a nonempty set A (called the underlying set, carrier set or domain), a collection of operations on A of finite arity (typically binary operations), and a finite set of identities, known as axioms, that these operations must satisfy.
 An algebraic structure may be based on other algebraic structures with operations and axioms involving several structures. 
 
 ## functions
 
-A function in math is a relationship between two sets, the domain and the codomain.
-A function assigns an element of the codomain to each element of the domain. (this however does not imply that each element of the codomain is aassigned to an element of the domain, there may be unassignemd elements)
+A function is a relationship between two sets, the domain and the codomain.
+A function assigns an element of the codomain to each element of the domain. 
+^this however does not imply that each element of the codomain is assigned to an element of the domain, there may be unassignemd elements
+An argument is a value that must be provided to the function to obtain its result.
+A mathematical ⟮function⟯ takes ⟮one or more⟯ ⟮arguments⟯
+
+### notation
+
 functions are most often indicated by the letter f and beyond.
 the value a function yields for a given element of the domain x is often denoted by f(x).
 The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
-The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
-The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
-The ⟮value(s)⟯ that ⟮must be provided⟯ to a ⟮function⟯ to ⟮obtain its result⟯ is/are known as ⟮the/an argument(s)⟯
-A mathematical ⟮function⟯ must take ⟮one or more⟯ ⟮arguments⟯
 
-### notation
+#### pronunciation
 
 f(x) is read 「f of x」 in english
 f(x) is read 「f von x」 in german
 
 ### sets
 
+#### images
+
 the image of a function is the subset of the codomain that represents all values f(x) the function can produce
+The range of a function is ambiguous between the image or the codomain of a function.
 the image of a subset of x is the subset of the codomain that represents all values f(x) (for the subset of x) the function can produce
-the preimage of a function is the subset of the domain that that map onto values that are part of the image.
+Inverse image = preimage
+the preimage of a given image is the subset of the domain that map onto values that are part of the image.
+The preimage of the range of the whole function is the whole domain.
+if the function is 𝑥⎴2⎴, then the preimage of {1,4} for this function is {−2,−1,1,2}
 
-### jective
+#### graph
 
-injective, surjective, bijective function = injection, surjection, byjection
-an injective function maps each x to a distinct f(x), i.e. f(x1) = f(x2) implies x1 = x2.
-a surjective function has at least one mapping that produces y (for every y, there is an x such that f(x) = y.
+The graph of the function is the set of all pairs (x, f(x)) (equivalently: (x,y)).
+The graph of a function ccan be used to draw a diagram of it, often confusingly and somewhat improperly also called graph.
+
+### types of functions
+
+#### jective
+
+injective, surjective, bijective function = injection, surjection, bijection
+an injective function maps each x to a distinct f(x),
+More formally, a function is injective if f(x1) = f(x2) implies x1 = x2.
+a surjective function has at least one mapping that produces y 
+More formally, a function is surjective if ∀y, ∃x such that f(x) = y.
+The image of a surjective function is equivalent to it's codomain.
 a bijective function is a function that is both injective and surjective.
-In other words, a bijective function maps exactly one element of a set to exactly one element of another set.
+In other words, a bijective function maps exactly one element of the domain to exactly one element of the codomain.
 
-### inverse
+### unary operations on functions
+
+#### inverse function
 
 the inverse of a function f is a function that undoes the operation of f
 the inverse of a function f only exists if f is bijective
-the inverse of a function f is denoted by f^{-1}
+the inverse of a function f is denoted by f⎴-1⎴
 
-### monotonic
+### properties of functions
+
+#### monotony
+
+monotonically increasing/decreasing may also be called non-decreasing or weakly increasing/decreasing.
+strictly monotonically increasing/decreasing may also be called strictly increasing/decreasing or just increasing/decreasing.
 
 A function is monotonic if for all x_1, x_2: 
-montonically increasing|non-decreasing, weakly increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
-strictly (montonically) increasing|increasing|x_1 ‹ x_2 also f(x_1) ‹ f(x_2)
-montonically decreasing|non-decreasing, weakly decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
-strictly (montonically) increasing|increasing|x_1 ‹ x_2 also f(x_1) › f(x_2)
+montonically increasing|x_1 ≤ x_2 also f(x_1) ≤ f(x_2)
+strictly montonically increasing|x_1 ‹ x_2 also f(x_1) ‹ f(x_2)
+montonically decreasing|x_1 ≤ x_2 also f(x_1) ≥ f(x_2)
+strictly montonically increasing||x_1 ‹ x_2 also f(x_1) › f(x_2)
 
 a function is monotonic if it is monotonically increasing or monotonically decresing
 a function is strictly monotonic if it is strictly monotonically increasing or stricly monotonically decresing
 
-### zero
+#### zero
 
 Zero = null = root
 Nullstelle = zero/null/root
@@ -1116,11 +1166,14 @@ a, b, c|coefficient(s)
 c|constant coefficent(s)
 x|argument(s)
 
-## Equation
+## equality
 
-f+o+o = b+a+r
-An ⟮equation⟯ is a statement that ⟮asserts the equality⟯ of ⟮two expressions⟯
-An ⟮equation⟯ connects its ⟮two⟯ ⟮expressions⟯ via ⟮an equals sign⟯
+An equality is a relationship between two expressions asserting that the two expressions have the same value or represent the same amthematical object.
+An identity asserts an equality of the two expressions for all values of the variables contained, at least for the domain.
+Conditional = conditional equation
+A conditional asserts an equality of the two expressions produce only for particular values of the variables contained.
+An equation expresses the equality of two expressions by connecting them with the equals sign.
+An equation is ambiguous between expressing a conditional or an identity. 
 
 ## terms and expressions
 
