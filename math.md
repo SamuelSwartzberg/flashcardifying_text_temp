@@ -450,15 +450,16 @@ A semiprime/biprime is a product of exactly two prime numbers.
 ⟮＿Setlikes＿⟯ may be considered on three main axes: [⟮+/-/?⟯ ⟮finite⟯], [⟮c-;+/-/?⟯ ⟮order⟯], [⟮c-;+/-/?⟯ ⟮repetition⟯]
 ⟮＿Setlikes＿⟯ are mainly divided into ⟮＿sequences＿⟯ and ⟮＿sets＿⟯.
 
-#### delimiters
+### delimiters
 
 table:construct|delimiter
 ⟮set⟯|⟮{}⟯
 ⟮tuple/sequence⟯|⟮()⟯
 
-#### derived types
+### derived types
 
 »⟮A singleton⟯« is ⟮＿a setlike＿⟯ ⟮with one element⟯.
+»⟮A pair⟯« is ⟮＿a setlike＿⟯ ⟮with 2 elements⟯.
 »⟮An ordered pair⟯« is ⟮a 2-tuple⟯.
 »⟮An unordered pair⟯« is ⟮＿an unordered set＿⟯ ⟮of two elements⟯.
 
@@ -601,7 +602,7 @@ flex-container:✫https://upload.wikimedia.org/wikipedia/commons/d/d0/EulerDiagr
 
 ⟮each shape⟯ represents ⟮a set S⟯.
 ⟮the area outside⟯ of ⟮a shape representing set S⟯ represents ⟮S⎴C⎴⟯
-a shape s1 within another shape s2 indicates ⟮s1 ⊂ s2⟯
+a shape s1 ⟮within another shape s2⟯ indicates ⟮s1 ⊂ s2⟯
 two shapes s1, s2 ⟮not overlapping⟯ indicates ⟮they are disjoint⟯
 two shapes s1, s2 ⟮overlapping⟯ indicates they ⟮have an intersection⟯.
 the overlapping area of  s1, s2 indicates their intersection.
@@ -610,28 +611,28 @@ the overlapping area of  s1, s2 indicates their intersection.
 
 https://upload.wikimedia.org/wikipedia/commons/e/e4/Venn_diagram_gr_la_ru.svg
 
-A venn diagram (in contrast to an euler diagram) shows all possible logical relationship between different sets.
-each shape represents a set S.
-all possible overlappings of all shapes are present, but imply nothing by themselves.
-an element being within a shape indicates that it is an element of the relevant set 
-ergo an element being within an overlap indicates that it is in both sets.
-if an area of overlap has no elements, it is often blacked-out.
+⟮A venn diagram⟯ (in contrast to ⟮c_;an euler diagram⟯) shows ⟮all possible⟯ ⟮logical relationships⟯ between different sets.
+⟮each shape⟯ represents ⟮a set S⟯.
+⟮all possible overlappings⟯ of ⟮all shapes⟯ ⟮are present⟯, but ⟮imply nothing by themselves⟯.
+an element ⟮being within a shape⟯ indicates that ⟮it is an element of the relevant set ⟯
+ergo an element ⟮being within an overlap⟯ indicates that ⟮it is in both sets⟯.
+if an area of overlap ⟮has no elements⟯, it is often ⟮blacked-out⟯.
 instead of placing elements, venn diagrams instead can be used to indicated WFF (TODO check if this is the right term) by highlighting the areas which fall under it.
 
 #### types of sets
 
 ##### number sets ＆ blackboard bold
 
-A »⟮number set⟯« is ⟮a set of all numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
-⟮number sets⟯ are usually written in ⟮bold⟯ or ⟮blackboard bold⟯ letters. 
+A »⟮number set⟯« is ⟮the set of all numbers⟯ with ⟮certain special properties⟯, e.g. ⟮natural, rational, real etc⟯. 
+⟮number sets⟯ are usually written in ⟮bold⟯ or ⟮c_;blackboard bold⟯ letters. 
 ⟮number sets⟯ are called ⟮Zahlenbereiche⟯ in German. 
 
 ###### blackboard bold
 
-⟮Blackboard bold⟯ is a style of font that includes ⟮double⟯ ⟮vertical/near-vertical⟯ ⟮lines⟯ 
+»⟮⟮Blackboard bold⟯⟯« is a style of font that includes ⟮double⟯ ⟮vertical/near-vertical⟯ ⟮lines⟯ 
 ⟮𝔸, 𝔹, ℂ⟯ are examples for ⟮Blackboard bold⟯ (letters) 
-⟮Blackboard bold⟯ letters are called ⟮Buchstaben mit Doppelstrich⟯ in German. 
-⟮Blackboard bold⟯ letters are ⟮called that and look like that⟯ because ⟮drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
+⟮Blackboard bold⟯ letters are called ⟮buchstaben mit doppelstrich⟯ in German. 
+⟮Blackboard bold⟯ letters are called that and look like that because ⟮drawing true bold letters on a blackboard would have been too time-consuming.⟯ 
 
 ###### symbols for number sets 
 
@@ -657,26 +658,26 @@ onion-box:
 
 #### combinatorics
 
-Combinatorics is the branch of mathematics, most commonly of discrete mathematics, concerned with problems of selection and arragement within finite or discrete systems.
+»⟮Combinatorics⟯« is ⟮the branch of⟯ mathematics, most commonly of ⟮＿discrete mathematics＿⟯, concerned with ⟮problems of selection and arragement within finite or discrete systems⟯.
 
 ##### factorial
 
-The factorial of n is the product of all positive integers less than or equal to n. 
-the factorial is indicated by !
-Factorials only make sense for non-negative integers.
+»⟮The factorial⟯« of n is ⟮`Π⎵i=1⎵⎴n⎴`⟯.
+⟮＿the factorial＿⟯ is indicated by ⟮!⟯
+Factorials only make sense for ⟮non-negative integers⟯.
 
 ##### enumerative combinatorics
 
-Enumerative combinatorics is the area/branch of combinatorics concerned with the numbers of ways that certain patterns can be formed.
+»⟮Enumerative combinatorics⟯« is the area/branch of ⟮combinatorics⟯ concerned with ⟮the numbers of ways that certain patterns can be formed⟯.
 
 ###### combination
 
-A combination is an unordered subset of a given set.
+»⟮A combination⟯« is ⟮a subset⟯ ⟮of a given set⟯.
 
 ###### permutation
 
-A permutation is an arrangement of a set into an ordered set.
-The number of permutations of n distinct objects is n factorial.
+»⟮A permutation⟯« is ⟮an arrangement of a set⟯ into ⟮＿an ordered set＿⟯.
+The number of ⟮＿permutations＿⟯ of a set S with `⟮|S|=n⟯` is `⟮n!⟯`
 
 ## graphs
 
@@ -684,34 +685,33 @@ flex-container:✫sm_220px-6n-graf.svg.png✫
 
 ### what is a graph
 
-Graph theory is the branch of discrete mathemathics that studies graphs.
-A ⟮graph⟯ is ⟮a pair⟯.
-⟮The pair⟯ that ⟮a graph consists⟯ of itself is made up of ⟮a set of⟯ ⟮vertices⟯, and ⟮a set of⟯ ⟮edges⟯. 
-An element of a graph is a vertex or an edge.
+»⟮Graph theory⟯« is ⟮the branch of⟯ ⟮＿discrete mathemathics＿⟯ that studies ⟮graphs⟯.
+A »⟮graph⟯« is ⟮a pair⟯.
+⟮The pair⟯ that ⟮a ＿graph＿ consists⟯ of itself is made up of ⟮a set of⟯ ⟮＿vertices＿⟯, and ⟮c-;a set of⟯ ⟮＿edges＿⟯. 
+An »⟮element of a graph⟯« is ⟮＿a vertex＿ or ＿an edge＿⟯.
 In common language, a ⟮graph⟯ is a structure that contains ⟮a set of objects⟯ and ⟮their relations to each other.⟯ 
-In terms of comp. sci. a ⟮graph⟯ is ⟮an ADT⟯. 
 
 ### edges
 
-An ⟮edge⟯ is ⟮a pair of⟯ ⟮endpoints⟯.
-Endpoints are vertices that are one half of an edge.
-For an ⟮undirected graph⟯, an ⟮edge⟯ is described by ⟮an unordered pair⟯. 
-For an ⟮directed graph⟯, the ⟮edge⟯ is described by ⟮a ordered pair.⟯ 
+An »⟮edge⟯« is ⟮a ＿pair＿ of⟯ ⟮＿endpoints＿⟯.
+»⟮Endpoints⟯« are ⟮＿vertices＿⟯ that are ⟮one half of ＿an edge＿⟯.
 
 ### types of graphs
 
-⟮Graphs⟯ may be ⟮directed⟯, that is ⟮an edge has a direction⟯, or ⟮undirected⟯, that is ⟮an edge does not have a direction⟯. 
-⟮Graphs⟯ may be ⟮simple⟯, where ⟮two vertices may only be connected by a single edge⟯, or ⟮sb; ⟮a multigraph⟯, where ⟮two vertices may be connected by multiple edges⟯.⟯ 
-A ⟮weighted⟯ ⟮graph⟯ is a ⟮graph⟯ in which ⟮a number is assigned⟯ to ⟮each edge⟯. 
-⟮Weighted graphs⟯ are relevant for ⟮shortest path problems⟯. 
+⟮＿Graphs＿⟯ may be ⟮＿directed＿⟯ or ⟮c_;＿undirected＿⟯.
+»⟮A undirected graph⟯« is ⟮＿a graph＿⟯ where ⟮＿an edge＿⟯ is ⟮＿an unordered pair＿⟯. 
+»⟮A directed graph⟯« is ⟮＿a graph＿⟯ where ⟮＿an edge＿⟯ is ⟮＿a ordered pair＿.⟯ 
+⟮＿Graphs＿⟯ may be ⟮＿simple＿⟯ or ⟮＿multigraphs＿⟯.
+»⟮A simple graph⟯« is ⟮＿a graph＿⟯ where ⟮two ＿vertices＿ may be connected⟯ by ⟮a single ＿edge＿ only⟯.
+»⟮A multigraph⟯« is ⟮＿a graph＿⟯ where ⟮two ＿vertices＿ may be connected⟯ by ⟮multiple ＿edges＿⟯.
 
 ### amount of connections
 
 #### degree of a vertex
 
-The ⟮degree⟯ of a ⟮vertex⟯ is ⟮the amount of connected edges (in non-multigraphs equivalently: vertices⟯). 
-The ⟮maximum/minimum degree⟯ of ⟮a graph⟯ is ⟮the maximum/minimum degree of all its vertices.⟯ 
-The degree of a graph is the degree of all vertices and only sensibly exists if all vertices have the same.
+The »⟮degree⟯« of ⟮＿a vertex＿⟯ is ⟮the amount of connected ＿edges＿ (in non-multigraphs equivalently: ＿vertices＿)⟯. 
+»⟮The maximum/minimum degree⟯« of ⟮＿a graph＿⟯ is ⟮the highest/lowest ＿degree＿ of all its ＿vertices＿.⟯ 
+The »⟮degree⟯« of ⟮＿a graph＿⟯ is ⟮the degree of all ＿vertices＿ (and only sensibly exists if all vertices have the same)⟯.
 
 #### regular and complete graphs
 
