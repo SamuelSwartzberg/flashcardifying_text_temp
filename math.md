@@ -1206,45 +1206,50 @@ element in function|is what kind of thing
 
 ## operations
 
-An operation is a function which takes zero or more input values and produces a well-defined output value.
-In an operation, the zero or more input values are known as operands.
+In general, an operation is the same thing as a function, but one which gets its own operator.
+In an operation, the input values are known as operands.
 In an operation, the symbol performing the operation is an operator.
-In 3+4, 3 and 4 are the operands.
-In 3+4, + is the operator.
-We might want to consider a constant to be an operation of arity 0.
+In `3+4`, 3 and 4 are the operands.
+In `3+4`, + is the operator.
+We might want to consider a mathematical constant to be an operation of arity 0.
 
 ### types
 
-#### elementary
-
-#### non-elementary
+#### binary
 
 ##### exponentiation
 
-exponentiation is a mathematical operation which is written as b^n and means \prod_{i=1}^{n}b
-For an exponentiation b^n, b is called the base, and n is called exponent.
+Exponentiation is a binary operation involving two operands, called the base and exponent.
+Exponentiation is often written as `b⎴n⎴`, where b is the base and n is the exponent.
+Exponentiation, written as `b⎴n⎴` means `Π⎵i=1⎵⎴n⎴b` .
 base ≈ radix
+
+###### logarithm
+
 The logarithm is the inverse function to exponentiation.
 The logarithm of a number x is the exponent n that applied to a given base b would yield x.
 If no base is given for a logarithm, it is obvious or doesn't matter.
-The logarithm of x for a base b is denoted as \log_b(x) or \log_{b}x
-log_b(b^n) = n
+The logarithm of x for a base b is denoted as `log⎵b⎵(x)` or `log⎵b⎵x`
+`log⎵b⎵(b⎴n⎴) = n`
 
-log_e = ln
-natural logarithm: log_e
+the natural logarithm is log⎵e⎵.
+the natural logarithm log⎵e⎵ is usually just written ln.
 
-b^1 = b
-b^0 = 1
-b^-n = 1/(b^{-1})
+###### axioms and derivable truths
 
+```
+b⎴1⎴ = b
+b⎴0⎴ = 1
+b⎵-n⎵ = 1/b^⎴-n⎴
+```
 
 ### properties
 
 #### identity element
 
-The identity element is an element of a set that a binary operation operates on.
-The identity element is the element of the set that when used with the binary operation will leave every element of the set unchanged.
-The identity element of a certain operation is often called that function's identity (ergo e.g. multiplicative identity).
+The identity element e of a binary operation  ̇ on a set S is e ∈ S such that ∀(a ∈ S) e  ̇ a = a ∧ a  ̇ e = a.
+The identity element may simply be called an identity.
+The identity element of a certain operation is often called that ‹operation› identity (e.g. multiplicative identity).
 The identity element of multiplication performed on real numbers is 1.
 The identity element of addition performed on real numbers is 0.
 
@@ -1252,9 +1257,6 @@ The identity element of addition performed on real numbers is 0.
 
 A function/operation/etc. is ⟮idempotent⟯ if ⟮it can be applied mulitple times⟯ without ⟮changing the result⟯ ⟮beyond the initial application⟯. 
 Examples for i⟮dempotent functions⟯ include ⟮abs(x), floor(x), ceil(x) etc.⟯ 
-
-flex-container:⟮h∞;uh6:7;✫sm_256-512.png✫⟯⟮h∞;uh6:7;✫sm_paste-5ec314ba1e47e4a2695c13f4e944e7d795e0e314.jpg✫⟯
-the ⟮right image⟯'s button is ⟮idempotent⟯, the ⟮left image⟯'s is ⟮not⟯ 
 
 #### commutative
 
