@@ -899,55 +899,88 @@ Merkele trees are used in block trees.
 
 ## logic
 
-TODO:
+### formal system
 
-First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
-the logical form of an argument is called argument form.
-
-Proplog ⟮Propositional logic⟯ may also be called propositional calculus or, based on its relationship to 1st order logic, zeroth-order logic (other rare terms include statement logic, sentential calculus/logic.
-
-⟮propositions⟯ are the things that ⟮bear truth value⟯.
-⟮A propositional variable⟯ (e.g. ⟮p, q, r⟯) ⟮represents⟯ ⟮any possible atomic proposition⟯.
-⟮a propositional formula⟯ (e.g. ⟮p AND q⟯) (also called sentence (tho only in proplog)) is a ⟮well-formed formula⟯ that ⟮consists of elements of the alphabet of a propositional logic⟯ (that is ⟮propositional variables, constants, and logical connectives⟯).
-⟮a proposition⟯ ⟮expressed by⟯ ⟮a propositional constant⟯ is ⟮an atomic proposition⟯.
-⟮a propositional constant⟯ ⟮expresses⟯ ⟮an atomic proposition⟯.
-
-The ⟮elements of the alphabet⟯ of ⟮a propositional logic⟯ are the ⟮propositional constants⟯, ⟮propositional variables⟯, and ⟮logical connectives⟯. 
-⟮propositional constants, variables and formulas all⟯ ⟮express/denote propositions⟯.
-⟮Propositional constants, variables and formulas⟯ as well as ⟮logical connectives⟯ are all ⟮truth-functional.⟯
-
-⟮Atomic propositions⟯ might be things such as ⟮"Grass is green"⟯ ⟮propositional constants⟯ might be things such as ⟮p, q⟯ ⟮A propositional formula⟯ might look something like ⟮(p AND NOT q) IMPLIES (p OR q).⟯
-
-If ⟮"Sam is awesome." and "Sam is cute."⟯ are ⟮atomic propositions⟯ ⟮expressed by e.g. p and q⟯, then ⟮p ∧ q⟯ would be a ⟮propositional formula⟯ expressing the ⟮non-atomic proposition⟯ ⟮"Sam is awesome and cute."⟯
-⟮"Sam is awesome and cute."⟯ could be a proposition expressed by ⟮a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.⟯
-If "Sam is awesome." and "Sam is cute." are ⟮all possible atomic propositions⟯ , ⟮a propositional varialble⟯ would ⟮range over all of them.⟯
-
-Name|Convention|Location
-⟮propositional constants⟯|⟮written in lowercase letters starting at p⟯
-propositional variables⟯|⟮ written in uppercase letters starting at A⟯<|⟮ DE⟯
-⟮propositional variables⟯|⟮ written in lowercase letters starting at ϕ⟯|⟮ EN⟯
-
-For something to be {{c1::truth-functional}} if {{c2::the truth of the resulting formula}} is {{c3::dependent only}} on {{c4::the truth of the constituent parts.}}
-
-A ⟮logic⟯ is a ⟮formal system.⟯
 ⟮Formal systems⟯ have roughly the following structure:
-
 ⟮A formal language⟯
 ⟮An inference system⟯
   ⟮A set of axioms⟯
   ⟮A set of inference rules⟯
 ⟮A semantics⟯
 
-A ⟮rule of inference/inference rule⟯ is a ⟮Schlussregel⟯ in german.
+### logics
+
+A ⟮logic⟯ is a ⟮formal system.⟯
+
+#### propositional logic
+
+The ⟮elements of the alphabet⟯ of ⟮a propositional logic⟯ are the ⟮propositional constants⟯, ⟮propositional variables⟯, and ⟮logical connectives⟯. 
+
+##### terminology
+
+⟮Propositional logic⟯ may also be called propositional calculus.
+Propositional logic may also be called 0th-order logic, based on its relationship to 1st order logic.
+More rarely, propositional logic is called statement logic or sentential calculus/logic.
+I will shorten propositional logic to proplog.
+
+##### propositions
+
+A proposition is the thing that bears truth value.
+A proposition may be atomic or non-atomic.
+An atomic proposition is a proposition that cannot be further analyzed into constituent propositions (in the given logic).
+A non-atomic proposition is a propositon that can be further analyzed into constituent propositions (in the given logic.)
+
+##### proposition containers
+
+Proposition containers express/denote propositions.
+Proposition containers are either propositional constants, variables and formulas.
+
+###### variables and constants
+
+A propositional variable is a thing that expresses any possible atomic proposition.
+A propositional constant is a thing that expresses exactly one atomic proposition.
+
+####### typographic conventions
+
+propositional constants are written in lowercase letters starting at p.
+In Germany, propositional variables are written in uppercase letters starting at A
+In the anglosphere, propositional variables are written in lowercase letters starting at ϕ.
+
+###### propositional formulas
+
+A propositional formula expresses a proposition which may be atomic or non-atomic.
+A propositional formula is a well-formed formula of elements of the alphabet of propositional logic.
+A propositional formula may only have length 1, therefore all propositional constants and variables are themselves propositional formulae.
+A propositional formula may also be called sentence.
+
+
+⟮Atomic propositions⟯ might be things such as ⟮"Grass is green"⟯ 
+⟮propositional constants⟯ might be things such as ⟮p, q⟯ 
+⟮A propositional formula⟯ might look something like ⟮(p AND NOT q) IMPLIES (p OR q).⟯
+
+If ⟮"Sam is awesome." and "Sam is cute."⟯ are ⟮atomic propositions⟯ ⟮expressed by e.g. p and q⟯, then ⟮p ∧ q⟯ would be a ⟮propositional formula⟯ expressing the ⟮non-atomic proposition⟯ ⟮"Sam is awesome and cute."⟯
+⟮"Sam is awesome and cute."⟯ could be a proposition expressed by ⟮a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.⟯
+If "Sam is awesome." and "Sam is cute." are ⟮all possible atomic propositions⟯ , ⟮a propositional varialble⟯ would ⟮range over all of them.⟯
+
+##### truth-functionality
+
+A formula is truth-functional if its truth depends only on the truth or truth-functionality of the constituent parts.
+
+##### derived things
+
+###### rules of inference
+
 A ⟮rule of inference/inference rule⟯ is something that takes premises and returns a conclusion. More generally, it is a function from sets of formulae to other formulae. It is sometimes restricted to valid inference rules, and sometimes not.
 The conclusion in a rule of inference/inference rule or argument is often indicated by {{c1::∴}}.
 
-If an ⟮argument⟯ is ⟮valid⟯, ⟮the conclusion cannot be false⟯ ⟮if the premises are true⟯.
-For an ⟮argument⟯ to be ⟮sound⟯, it must first ⟮be valid⟯, in addition, ⟮the premises must be true⟯.
-An ⟮argument⟯ consists of ⟮premises⟯ and ⟮conclusions⟯.
-In an ⟮argument⟯, the ⟮truth of the premises⟯ intends to ⟮determine⟯ ⟮the truth of the conclusion⟯. 
-In a ⟮deductive argument⟯, the t⟮ruth of the premises⟯ ⁑guarantees⁑ ⟮the truth of the conclusion⟯.
+###### arguments
+
 An ⟮argument⟯ is the claim that given ⟮every member of⟯ ⟮a certain premise set⟯ ⟮of formulae⟯ is ⟮true⟯, ⟮so is the conclusion formula⟯.
+
+#### first-order logic
+
+First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
+
 
 ### bitwise 
 
@@ -1260,38 +1293,32 @@ Examples for i⟮dempotent functions⟯ include ⟮abs(x), floor(x), ceil(x) etc
 
 #### commutative
 
-A commutative operation is one where changing the order of operands does not change the result.
-Addition and multiplication are commutative, subtraction and dicvision are noncommutative.
+Commutatitivity is if changing the order of operands does not change the result.
+Addition and multiplication are commutative, subtraction and division are noncommutative.
 
 #### associative
 
-An associative operation is one where rearranging parenthesis will not change the result.
+Associativity is rearranging parenthesis will not change the result.
 Addition and multiplication (if not mixed) are associative, subtraction and division are nonassociative.
 
 #### distributive
 
-an operation is distributive if it is both left- and right-distributive
+something is distributive if it is both left- and right-distributive
 left-distributive|ζ * (x+y) = (ζ * x) + (ζ * y)
 right-distributive|(x+y) * ζ = (ζ * x) + (ζ * y)
 
 ### arguments
 
+#### arity
 
 The »arity« of something specifies how many ＿operands＿ or ＿arguments＿ are involved. 
 Arity is a property of operations or functions.
 arity and adicity are rough synonyms
 The arity is specified in latinate numbers
 adicity is specified in greek-derived numbers.
-adicity: monadic, dyadic, triadic, tetradic, pentadic, hexadic...
-there is an adicity for every arity.
-A function with an arity of 1 takes one argument.
-A ternary operator takes 3 operands.
-(arg1, arg2, arg3, arg4)add has an arity of ⟮4⟯
-Something with indefinite arity is called ⟮variadic⟯
+something variadic has an indefinite arity
 
-A n-ary function takes n arguments.
-3+6=9 is a binary operation.
-Arity of...|Name
+table:Arity of...|Name
 ⟮0⟯|⟮nullary⟯
 ⟮1⟯|⟮unary⟯
 ⟮2⟯|⟮binary⟯
@@ -1301,8 +1328,12 @@ Arity of...|Name
 
 #### order
 
+Operations can be written in prefix, postfix or infix notation.
+
+table:notation|description|alias
 prefix notation|operator before operands|polish notation
 postfix notation|operator after operands|reverse polish notation
 infix notation|operator between operands
 
-The description "Polish" refers to the nationality of logician Jan Łukasiewicz, who invented Polish notation in 1924
+
+Trivia: The description "Polish" refers to the nationality of logician Jan Łukasiewicz, who invented Polish notation in 1924
