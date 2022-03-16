@@ -824,41 +824,42 @@ Ergo ⟮＿a dominating set＿⟯ is ⟮the subset of V⟯ which ensures that �
 
 #### descendants & ancestors
 
-A ⟮child⟯ vertex in a compscitree is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one larger than the current vertex.⟯ 
-A ⟮parent vertex⟯ in a compscitree is ⟮an adjacent vertex⟯ with ⟮a depth⟯ ⟮of one less than the current vertex.⟯ 
-In ⟮a compscitree⟯ each vertex has ⟮0 - ∞⟯ ⟮child vertices⟯. 
-⟮a descendant vertex⟯ is a vertex ⟮reachable by traversal through child vertices⟯.
-⟮an ancestor vertex⟯ is a vertex ⟮reachable by traversal through parent vertices⟯.
-A leaf is a vertex without any child vertices.
-A leaf may also be called external/outer/terminal vertex.
-An internal vertex is a vertex with child vertices.
-An internal vertex may also be called branch or inner vertex.
-In ⟮a compscitree ⟮each vertex⟯ has ⟮one⟯ ⟮parent vertex⟯. 
+»⟮A child vertex⟯« in ⟮＿a compscitree＿⟯ is ⟮＿a neighbor＿⟯ with ⟮＿a depth＿⟯ ⟮of one larger than the current vertex.⟯ 
+»⟮A parent vertex⟯« in ⟮＿a compscitree＿⟯ is ⟮＿a neighbor＿⟯ with ⟮＿a depth＿⟯ ⟮of one less than the current vertex.⟯ 
+In ⟮＿a compscitree＿⟯ ⟮each vertex⟯ has ⟮0 - ∞⟯ ⟮＿child vertices＿⟯. 
+»⟮a descendant vertex⟯« is ＿a vertex＿ ⟮reachable by traversal through⟯ ⟮＿child vertices＿⟯.
+»⟮an ancestor vertex⟯« is ＿a vertex＿ ⟮reachable by traversal through⟯ ⟮＿parent vertices＿⟯.
+»⟮A leaf⟯« is ⟮＿a vertex＿⟯ ⟮without any ＿child vertices＿⟯.
+⟮A leaf⟯ may also be called ⟮external⟯/⟮outer⟯/⟮terminal⟯ ⟮vertex⟯.
+»⟮An internal vertex⟯« is ＿a vertex＿ ⟮with ＿child vertices＿⟯.
+⟮An internal vertex ⟯may also be called ⟮branch⟯ or ⟮inner verte⟯x.
+In ⟮＿a compscitree＿⟯ ⟮each vertex⟯ has ⟮one⟯ ⟮＿parent vertex＿⟯. 
 
 #### dimensions
 
-⟮The height of a vertex⟯ is ⟮the length⟯ of ⟮the longest downward path to a vertex⟯. 
-⟮The height of the root vertex⟯ is ⟮the height of the tree⟯ 
-⟮the breadth of the tree⟯ is ⟮the amount of child vertices⟯ in a tree. 
+»⟮The height⟯« of ⟮＿a vertex＿⟯ is ⟮＿the length＿⟯ of ⟮the longest downward ＿path＿ to it. 
+»⟮The height⟯« of ⟮＿the tree＿⟯ is ⟮＿the height＿⟯ of ⟮＿the root vertex＿⟯.
+»⟮the breadth⟯« of ⟮＿the tree＿⟯ is ⟮the amount of child vertices⟯ in it. 
 
 #### tree traversal
 
-⟮Depth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮children vertices⟯ ⟮before⟯ ⟮sibling vertices⟯ 
-⟮Breadth-first search⟯ is ⟮a tree traversal algorithm⟯ that ⟮visits⟯ ⟮sibling vertices⟯ ⟮before⟯ ⟮children vertices⟯ 
+»⟮A tree traversal algorithm⟯« is ⟮＿an algorithm＿⟯ that implements ⟮＿tree traversal＿⟯.
+»⟮Depth-first search⟯« is a type of ⟮＿tree traversal algorithm＿⟯ that ⟮visits⟯ ⟮＿children vertices＿⟯ ⟮c-;before⟯ ⟮＿sibling vertices＿⟯ 
+»⟮Breadth-first search⟯« is a type of ⟮＿tree traversal algorithm＿⟯ that ⟮visits⟯ ⟮＿sibling vertices＿⟯ ⟮c-;before⟯ ⟮＿children vertices＿⟯ 
 
 #### specialized types
 
 ##### binary tree
 
-a ⟮binary tree⟯ is a ⟮compscitree⟯ ⟮where any vertex has at most two child vertices⟯.
+»⟮a binary tree⟯« is ⟮＿a compscitree＿⟯ where ⟮any ＿vertex＿⟯ has ⟮at most two⟯ ⟮＿child vertices＿⟯.
 
 ##### search tree
 
-⟮a search tree⟯ is a compscitree that ⟮can be used for searching⟯.
+»⟮a search tree⟯« is ⟮＿a compscitree＿⟯ that ⟮can be used for searching⟯.
 
 ###### traversal
 
-⟮Depth-first search⟯ in the case of ⟮binary trees⟯ is commonly either ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
+⟮＿Depth-first search＿⟯ in the case of ⟮＿binary trees＿⟯ is commonly either ⟮pre-order⟯, ⟮inorder⟯, or ⟮post-order⟯. 
 
 
 table:order|pattern
@@ -868,13 +869,14 @@ table:order|pattern
 
 ##### forest
 
-⟮A forest⟯ is ⟮a set of unconnected trees⟯. 
+»⟮A forest⟯« is ⟮a set of unconnected trees⟯. 
 
 #### applications
 
 ##### binary search trees
 
-A ⟮binary search tree⟯ is ⟮a binary tree⟯ defined by ⟮special properties that the keys of ⟮the vertices⟯ in ⟮the left and right subtrees⟯ have. 
+TODO:
+⟮A ＿binary＿ ＿search＿ ＿tree＿⟯ allows searching via the ⟮special properties that the keys of ⟮the vertices⟯ in ⟮the left and right subtrees⟯ are defined to have. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮larger than⟯ ⟮the key in any vertices in the left subtree⟯. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮smaller than⟯ ⟮the key in any vertices in the right subtree⟯. 
 
@@ -1079,32 +1081,32 @@ An algebraic structure may be based on other algebraic structures with operation
 
 ## functions
 
-A function is a relationship between two sets, the domain and the codomain.
-A function assigns an element of the codomain to each element of the domain. 
+»⟮A function⟯« is ⟮a relationship between⟯ ⟮two sets⟯, ⟮＿the domain＿⟯ and ⟮c_;＿the codomain＿⟯.
+»⟮A function⟯« ⟮assigns⟯ ⟮an element of⟯ »⟮the codomain⟯« ⟮c-2;to⟯ ⟮each element of⟯ »⟮the domain⟯«. 
 ^this however does not imply that each element of the codomain is assigned to an element of the domain, there may be unassignemd elements
-An argument is a value that must be provided to the function to obtain its result.
-A mathematical ⟮function⟯ takes ⟮one or more⟯ ⟮arguments⟯
+»⟮An argument⟯« is a value that ⟮must be provided⟯ to ⟮＿the function＿⟯ to ⟮obtain its result⟯.
+»⟮A function⟯« takes ⟮one or more⟯ ⟮＿arguments＿⟯
 
 ### notation
 
-functions are most often indicated by the letter f and beyond.
+⟮＿functions＿⟯ are most often indicated by ⟮the letter f and beyond⟯.
 the value a function yields for a given element of the domain x is often denoted by f(x).
 The element of the codomain that a function yields for a specific element of the domain x is often represented by y.
 
 #### pronunciation
 
-f(x) is read 「f of x」 in english
-f(x) is read 「f von x」 in german
+`f(x)` is read 「⟮f of x⟯」 in english
+`f(x)` is read 「⟮f von x⟯」 in german
 
 ### sets
 
 #### images
 
-the image of a function is the subset of the codomain that represents all values f(x) the function can produce
-The range of a function is ambiguous between the image or the codomain of a function.
+»⟮the image⟯« of ⟮＿a function＿⟯ is ⟮＿the subset＿⟯ of ⟮＿the codomain＿⟯ that represents ⟮all values f(x) the function can produce⟯
+»⟮The range⟯« of ⟮＿a function＿⟯ is ⟮ambiguous between⟯ ⟮＿the image＿⟯ or ⟮＿the codomain＿⟯.
 the image of a subset of x is the subset of the codomain that represents all values f(x) (for the subset of x) the function can produce
-Inverse image = preimage
-the preimage of a given image is the subset of the domain that map onto values that are part of the image.
+⟮Inverse image⟯ = ⟮preimage⟯
+»⟮the preimage⟯« of a given image is the subset of the domain that map onto values that are part of the image.
 The preimage of the range of the whole function is the whole domain.
 if the function is 𝑥⎴2⎴, then the preimage of {1,4} for this function is {−2,−1,1,2}
 
