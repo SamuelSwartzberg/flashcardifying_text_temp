@@ -240,7 +240,7 @@ in programming, ⟮＿the positional numeral system＿⟯ used is often indicate
 Depending on the ⟮programming language⟯ or ⟮c_;mode⟯, ⟮0⟯ or ⟮c_;0o⟯ as a prefix indicates ⟮octal⟯.
 There has been a movement to ⟮0o⟯ as a prefix for ⟮octal⟯ numbers to ⟮prevent errors⟯.
 
-# Geometry
+# geometry
 
 ## analytic
 
@@ -440,42 +440,46 @@ A semiprime/biprime is a product of exactly two prime numbers.
 
 # discrete mathematics
 
-Discrete mathematics is the study of mathematical structures that can be considered discrete rather than continous.
+»⟮Discrete mathematics⟯« is the branch of ⟮math⟯ that studies mathematical structures that ⟮can be considered discrete rather than continous⟯.
 
 ## setlikes
 
-A setlike (my term) is a well-defined collection of elements.
-Setlikes may amongst others be sequences, tuples, or sets.
+⟮＿Setlikes＿⟯ are studied in ⟮＿discrete mathematics＿⟯.
+»⟮A setlike⟯« (my term) is ⟮a collection of elements⟯.
+⟮＿A setlike＿⟯ consists of n »⟮elements⟯«.
+⟮＿Setlikes＿⟯ may be considered on three main axes: [⟮+/-/?⟯ ⟮finite⟯], [⟮c-;+/-/?⟯ ⟮order⟯], [⟮c-;+/-/?⟯ ⟮repetition⟯]
+⟮＿Setlikes＿⟯ are mainly divided into ⟮＿sequences＿⟯ and ⟮＿sets＿⟯.
 
 #### delimiters
 
 table:construct|delimiter
-set|{}
-tuple/sequence|()
+⟮set⟯|⟮{}⟯
+⟮tuple/sequence⟯|⟮()⟯
 
 #### derived types
 
-A »singleton« is a setlike with one element.
-An »ordered pair« is a 2-tuple.
-An »unordered pair« is a set of two elements.
+»⟮A singleton⟯« is ⟮＿a setlike＿⟯ ⟮with one element⟯.
+»⟮An ordered pair⟯« is ⟮a 2-tuple⟯.
+»⟮An unordered pair⟯« is ⟮＿an unordered set＿⟯ ⟮of two elements⟯.
 
 ### sequences
 
-A »sequence« is setlike that is potentially infinite, has order and allows repetitions.
-The length of a sequence is the amounts of elements within it.
+A »⟮sequence⟯« is ⟮＿a setlike＿⟯ with [⟮?⟯ ⟮finite⟯], [⟮c-;+⟯ ⟮order⟯], [⟮c-;?⟯ ⟮repetition⟯]
 
-#### tuples
+The »⟮length⟯« of ⟮＿a sequence＿⟯ is ⟮the amounts of elements within it.⟯
 
-»Tuples« are finite sequences.
-Tuples with a known amount of elements n are often called »n-tuples« (e.g. 7-tuples)
+#### finitude
+
+»⟮A tuple⟯« is ⟮＿a sequence＿⟯ with ⟮[+ finite]⟯.
+»⟮An infinite sequence⟯« is ⟮＿a sequence＿⟯ with ⟮[- finite]⟯.
+»⟮A n-tuple⟯« is ⟮＿a tuple＿⟯ with ⟮a known amount of elements n.⟯
 
 ### sets
 
-A set is a setlike that does not allow repetition.
-An unordered set is a set that does not have order.
-An ordered set is a set that has order.
+»⟮A set⟯« is ＿a setlike＿ with [⟮?⟯ ⟮finite⟯], [⟮c-;?⟯ ⟮order⟯], [⟮c_;-⟯ ⟮repetition⟯].
+»⟮A finite/infinite set⟯« is ⟮＿a set＿⟯ with ⟮[+/- finite]⟯.
+»⟮An ordered/unordered set⟯« is ⟮＿a set＿⟯ with ⟮[+/- order]⟯.
 In practice, set almost always refers to unordered set
-A set consists of n elements AKA members.
 Sets are usually denoted by capital letters.
 Two sets are equal if they contain the same elements.
 
@@ -483,8 +487,8 @@ Two sets are equal if they contain the same elements.
 
 ##### cardinality
 
-The »cardinality« of a set is the amount of elements within it.
-The cardinality is indicated with vertical bars as ｜S｜.
+The »⟮cardinality⟯« of ⟮＿a set＿⟯ is ⟮the amount of elements within it⟯.
+The ⟮＿cardinality＿⟯ is indicated ⟮with vertical bars as ｜S｜⟯.
 
 #### operators ＆ operatons
 
@@ -495,97 +499,97 @@ The cardinality is indicated with vertical bars as ｜S｜.
 flex-container:✫https://upload.wikimedia.org/wikipedia/commons/3/31/Venn1100.svg✫
 
 
-A set's »absolute complement« are all elements not in the set.
-A set's ＿absolute complement＿ is the relative complement of the universe and the set U∖A.
-A set's ＿absolute complement＿  is written A⎴c⎴
+A set's »⟮absolute complement⟯« is ⟮the set of⟯ ⟮all elements not in the set⟯.
+A set's ⟮＿absolute complement＿⟯ can be seen as ⟮＿the relative complement＿⟯ of ⟮＿the universe＿ and the set⟯.
+A set A's ⟮＿absolute complement＿⟯  is written ⟮A⎴c⎴⟯
 
 ###### power set
 
-The power set of a set S is the set of all subsets of S.
+»⟮The power set⟯« of a set A is ⟮the set of all subsets of A⟯.
 
 ##### binary 
 
 ###### set membership
 
-Set membership is a binary relation between an element and a set.
-Set membership is often expressed as 'is an element of'
-set membership of x in A is written x ∈ A.
-»⟮The negation of set membership⟯« of x in A is ¬(x ∈ A)
-⟮＿The negation of set membership＿⟯ of x in A is written as x ∉ A.
+»⟮Set membership⟯« is a binary relation between ⟮an element and a set⟯.
+⟮＿Set membership＿⟯ is often expressed as ⟮'is an element of'⟯
+⟮＿set membership＿⟯ of x in A is written ⟮x ∈ A⟯.
+»⟮The negation of set membership⟯« of x in A is ⟮¬(x ∈ A)⟯
+⟮＿The negation of set membership＿⟯ of x in A is written as ⟮x ∉ A⟯.
 
 ###### set difference
 
 flex-container:✫https://upload.wikimedia.org/wikipedia/commons/e/e6/Venn0100.svg✫
 
 
-The set difference of two sets A and B is the set such that for all elements x x∈A ∧ x∉B
-The set difference is also called the relative complement.
-The set difference of A and B is written A∖B
+»⟮The set difference⟯« of two sets A and B is ⟮the set⟯ such that ∀(x) ⟮x∈A⟯ ⟮∧⟯ ⟮x∉B⟯
+⟮＿The set difference＿⟯ is also called the ⟮relative complement⟯.
+⟮＿The set difference＿⟯ of A and B is written ⟮A∖B⟯
 
 ###### cartesian product
 
-The cartesian product of two sets A and B is the set of all ordered pairs (a, b) such that a ∈ A and b ∈ B.
-The cartesian product of A and B is written A×B.
+»⟮The cartesian product⟯« of two sets A and B is ⟮the set⟯ of ⟮all ordered pairs (a, b)⟯ such that ⟮a ∈ A and b ∈ B⟯.
+⟮＿The cartesian product＿⟯ of A and B is written ⟮A×B⟯
 
 ###### union and intersection
 
-The intersection of two sets A and B is the set such that for all elements x x∈A ∧ x∈B
-The intersection of two sets A and B is written A ∪ B.
-The union of two sets A and B is the set such that for all elements x x∈A ∨ x∈B
-The union of two sets A and B is written A ∩ B.
-Two sets are disjoint if their intersection is the empty set.
+»⟮The intersection⟯« of two sets A and B is ⟮the set⟯ such that ∀(x) ⟮x∈A⟯ ⟮∧⟯ ⟮c_-;x∈B⟯
+⟮＿The intersection＿⟯ of two sets A and B is written ⟮A ∪ B⟯.
+»⟮The union⟯« of two sets A and B is the set such that ∀(x) ⟮x∈A⟯ ⟮∨⟯ ⟮c_-;x∈B⟯
+⟮＿The union＿⟯ of two sets A and B is written ⟮A ∩ B⟯.
+Two sets are »⟮disjoint⟯« if ⟮＿their intersection＿⟯ is ⟮＿the empty set＿⟯.
 
 
 table:relation|venn diagram
-A ∩ B|https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg
-A ∪ B|https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg
+⟮A ∩ B⟯|⟮https://upload.wikimedia.org/wikipedia/commons/9/99/Venn0001.svg⟯
+⟮A ∪ B⟯|⟮https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg⟯
 
 ###### sub ＆ supersets
 
-For two sets A, B, A is the superset of B if for all x if x∈B also x∈A
-For two sets A, B, A is the subset of B if for all x if x∈A also x∈B
-two sets are equal if they are both subsets of each other.
+For two sets A, B, A is »⟮the superset⟯« of B if ∀(x) ⟮x∈B⟯ ⟮→⟯ ⟮c_-;x∈A⟯
+For two sets A, B, A is »⟮the subset⟯« of B if ∀(x) ⟮x∈A⟯ ⟮→⟯ ⟮c_-;x∈B⟯
+two sets are »⟮equal⟯« if they are ⟮both⟯ ⟮＿subsets＿⟯ ⟮c_-;of each other⟯.
 
 ####### empty ＆ universe
 
-The empty set is the set that contains no elements.
-The empty set is written ø.
-The universe is the set that contains all elements (under consideration)
-The universe is written U.
-Every set has itself and the empty set as subsets.
-Every set has itself and the universe as supersets.
-The empty set is the subset of every set.
-The universe is the superset of every set.
+»⟮The empty set⟯« is the set that contains no elements.
+⟮＿The empty set＿⟯ is written ø.
+»⟮The universe⟯« is the set that contains all elements (under consideration)
+⟮＿The universe＿⟯ is written U.
+⟮Every set⟯ has ⟮itself⟯ and ⟮＿the empty set＿⟯ as ⟮＿subsets＿⟯.
+⟮Every set⟯ has ⟮itself⟯ and ⟮＿the universe＿⟯ as ⟮＿supersets＿⟯.
+⟮＿The empty set＿⟯ is ⟮＿the subset＿ of⟯ ⟮every set⟯.
+⟮＿The universe＿⟯ is ⟮＿the superset＿ of⟯ ⟮every set⟯.
 
 ####### proper
 
-A proper sub/superset of A is a sub/superset that is not equal to A.
+»⟮A proper sub/superset⟯« of A is ⟮＿a sub/superset＿⟯ that is ⟮not equal to A⟯.
 
 ####### symbols
 
-⊊ and ⊋ always refer to proper sub/superset
-⊆ and ⊇ always refer to just (not proper) sub/superset
-⊂ and ⊃ are properly ambiguous between proper sub/superset and just sub/superset.
+⟮⊊⟯ and ⟮c_;⊋⟯ ⟮always⟯ refer to ⟮＿proper sub/superset＿⟯
+⟮⊆⟯ and ⟮c_;⊇⟯ ⟮always⟯ refer to ⟮just (not proper) ＿sub/superset＿⟯
+⟮⊂⟯ and ⟮c_;⊃⟯ ⟮are properly ambiguous between⟯ ⟮＿proper sub/superset＿⟯ and ⟮c_;just ＿sub/superset＿⟯.
 
 ####### names
 
-The relation of being a superset may also be called inclusion or containment.
-the (proper) sub/superset operators may be read as 「is a proper sub/superset」, as 「is included in/includes」 or as 「is contained in/contains」
+The relation of ⟮being a superset⟯ may also be called ⟮inclusion⟯ or ⟮containment⟯.
+⟮the sub/superset operators⟯ may be read as 「⟮is a (proper) sub/superset⟯」, as 「⟮is included in/includes⟯」 or as 「⟮is contained in/contains⟯」
 
 #### building sets
 
-The elements of sets may be specified via roster or set-builder notation.
+⟮The elements⟯ of sets may be specified via ⟮＿roster＿⟯ or ⟮＿set-builder notation＿⟯.
 
 ##### roster notation
 
-roster notation = enumeration notation
-Roster notation defines a set extensionally, by listing its members (perhaps with leaving out elements with ...)
+⟮roster notation⟯ = ⟮enumeration notation⟯
+⟮＿Roster notation＿⟯ defines a set ⟮extensionally⟯, by ⟮listing its members⟯
 Roster notation example: {4, 2, 1, 3}
 
 ##### set-builder notation
 
-set builder notation defines a set via its intension.
-set-builder-notation ::= \{‹element-definition›[∈‹domain›]\|‹logical-formula›\}
+»⟮set builder notation⟯« defines a set via ⟮its intension⟯.
+⟮set-builder-notation⟯ ::= ⟮{‹element-definition›⟯⟮〖∈‹domain›〗⟯⟮|‹logical-formula›}⟯
 Set builder notation example: {x ∈ ℝ | x › 0}
 
 #### !diagrams
@@ -595,11 +599,11 @@ Set builder notation example: {x ∈ ℝ | x › 0}
 flex-container:✫https://upload.wikimedia.org/wikipedia/commons/d/d0/EulerDiagram.svg✫
 
 
-each shape represents a set S.
-the area outside of a shape representing set S represents S^C
-a shape s1 within another shape s2 indicates s1 ⊂ s2
-two shapes s1, s2 not overlapping indicates they are disjoint
-two shapes s1, s2 overlapping indicates they have an intersection.
+⟮each shape⟯ represents ⟮a set S⟯.
+⟮the area outside⟯ of ⟮a shape representing set S⟯ represents ⟮S⎴C⎴⟯
+a shape s1 within another shape s2 indicates ⟮s1 ⊂ s2⟯
+two shapes s1, s2 ⟮not overlapping⟯ indicates ⟮they are disjoint⟯
+two shapes s1, s2 ⟮overlapping⟯ indicates they ⟮have an intersection⟯.
 the overlapping area of  s1, s2 indicates their intersection.
 
 ##### !venn
@@ -671,7 +675,7 @@ A combination is an unordered subset of a given set.
 
 ###### permutation
 
-A permutation is an arrangement of a set in a certain order.
+A permutation is an arrangement of a set into an ordered set.
 The number of permutations of n distinct objects is n factorial.
 
 ## graphs
@@ -899,6 +903,8 @@ Merkele trees are used in block trees.
 
 ## logic
 
+https://www.codeguage.com/courses/logic/
+
 ### formal system
 
 ⟮Formal systems⟯ have roughly the following structure:
@@ -926,9 +932,9 @@ I will shorten propositional logic to proplog.
 ##### propositions
 
 A proposition is the thing that bears truth value.
-A proposition may be atomic or non-atomic.
+A proposition may be atomic or compound.
 An atomic proposition is a proposition that cannot be further analyzed into constituent propositions (in the given logic).
-A non-atomic proposition is a propositon that can be further analyzed into constituent propositions (in the given logic.)
+A compound proposition is a propositon that can be further analyzed into constituent propositions (in the given logic.)
 
 ##### proposition containers
 
@@ -938,7 +944,7 @@ Proposition containers are either propositional constants, variables and formula
 ###### variables and constants
 
 A propositional variable is a thing that expresses any possible atomic proposition.
-A propositional constant is a thing that expresses exactly one atomic proposition.
+A propositional constant is a thing that expresses a specific atomic proposition.
 
 ####### typographic conventions
 
@@ -948,19 +954,19 @@ In the anglosphere, propositional variables are written in lowercase letters sta
 
 ###### propositional formulas
 
-A propositional formula expresses a proposition which may be atomic or non-atomic.
+A propositional formula expresses a compound proposition (however, perhaps only one that can be analyzed into a single atomic proposition.).
 A propositional formula is a well-formed formula of elements of the alphabet of propositional logic.
 A propositional formula may only have length 1, therefore all propositional constants and variables are themselves propositional formulae.
 A propositional formula may also be called sentence.
 
+###### example
 
-⟮Atomic propositions⟯ might be things such as ⟮"Grass is green"⟯ 
-⟮propositional constants⟯ might be things such as ⟮p, q⟯ 
-⟮A propositional formula⟯ might look something like ⟮(p AND NOT q) IMPLIES (p OR q).⟯
-
-If ⟮"Sam is awesome." and "Sam is cute."⟯ are ⟮atomic propositions⟯ ⟮expressed by e.g. p and q⟯, then ⟮p ∧ q⟯ would be a ⟮propositional formula⟯ expressing the ⟮non-atomic proposition⟯ ⟮"Sam is awesome and cute."⟯
-⟮"Sam is awesome and cute."⟯ could be a proposition expressed by ⟮a propositional variable or a propositional constant, w/o knowing the logic it's impossible to know.⟯
-If "Sam is awesome." and "Sam is cute." are ⟮all possible atomic propositions⟯ , ⟮a propositional varialble⟯ would ⟮range over all of them.⟯
+!Assume an universe in which only the atomic propositions "Sam is awesome" and "Sam is cute" exist.
+"Sam is awesome" and "Sam is cute" is a compound proposition.
+!If we say "Sam is awesome"/"Sam is cute" is represented by the propositonal constants p/q.
+`p`, `p ∨ p`, `q`, `p ∧ q`, `p ∧ q ∧ q ∧ q` is are all propositional formulae.
+`p ∧ p ∨ q` would be a propositional formula expressing the compound proposition `"Sam is awesome" and "Sam is awesome" or "Sam is cute"`
+A propositonal variable ϕ could either be "Sam is awesome" or "Sam is cute".
 
 ##### truth-functionality
 
@@ -968,19 +974,19 @@ A formula is truth-functional if its truth depends only on the truth or truth-fu
 
 ##### derived things
 
-###### rules of inference
+###### inference rule
 
-A ⟮rule of inference/inference rule⟯ is something that takes premises and returns a conclusion. More generally, it is a function from sets of formulae to other formulae. It is sometimes restricted to valid inference rules, and sometimes not.
-The conclusion in a rule of inference/inference rule or argument is often indicated by {{c1::∴}}.
+Rule of inference = inference rule
+A inference rule is a function from sets of formulae to other formulae.
 
 ###### arguments
 
-An ⟮argument⟯ is the claim that given ⟮every member of⟯ ⟮a certain premise set⟯ ⟮of formulae⟯ is ⟮true⟯, ⟮so is the conclusion formula⟯.
+An argument consists of a premise set and a conclusion, and the relation if all members of the premise set are true, so must be the conclusion.
+In propositional logic, the members of the premise set and the conclusion are all propositional formulae.
 
-#### first-order logic
+#### predicate logic
 
-First-order logic—also known as {{c1::predicate logic}}, quantificational logic, and first-order predicate calculus 
-
+Predicate logic is also known as first-order logic.
 
 ### bitwise 
 
