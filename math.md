@@ -715,9 +715,9 @@ The »⟮degree⟯« of ⟮＿a graph＿⟯ is ⟮the degree of all ＿vertices�
 
 #### regular and complete graphs
 
-A ⟮regular graph⟯ is a graph where ⟮each vertex⟯ ⟮has the same amount of neighbors⟯. 
-Equivalently, a ⟮regular graph⟯ is one where ⟮each vertex⟯ has ⟮the same⟯ ⟮degree⟯. 
-A ⟮complete graph⟯ is a ⟮regular graph⟯ where ⟮each vertex⟯ is ⟮connected to each other vertex by a distinct edge. (= is adjacent to each other vertex⟯) 
+A »⟮regular graph⟯« is ⟮＿a graph＿⟯ where ⟮each ＿vertex＿⟯ ⟮has the same amount of ＿neighbors＿⟯. 
+Equivalently, a ⟮＿regular graph＿⟯ is one where ⟮each ＿vertex＿⟯ has ⟮the same⟯ ⟮＿degree＿⟯. 
+A »⟮complete graph⟯« is a ⟮＿regular graph＿⟯ where ⟮each ＿vertex＿⟯ is ⟮is ＿adjacent＿ to each other ＿vertex＿⟯ 
 Equivalently, a ⟮complete graph⟯ is a graph with a ⟮degree⟯ of ⟮amount of vertices n - 1⟯. 
 
 ### illustration
@@ -725,8 +725,8 @@ Equivalently, a ⟮complete graph⟯ is a graph with a ⟮degree⟯ of ⟮amount
 #### alternative terminology
 
 table:Graph-related thing|alternative names
-⟮edges⟯|⟮links/lines⟯
-⟮vertices⟯|⟮nodes/points⟯
+⟮edges⟯|⟮links⟯, ⟮lines⟯
+⟮vertices⟯|⟮nodes⟯, ⟮points⟯
 
 #### image example
 
@@ -742,20 +742,19 @@ table:in the image|name
 
 ### labels
 
-A label is a thing such as an integer that is assigned to an element of a graph.
-A vertex/edge label is a label assigned to a vertex/edge.
-A graph labeling is a function from elements of the graph to a set of labels.
-A vertex/edge labeling is a function from vertices/edges to a set of vertex/edge labels.
-A vertex/edge-labeled graph is a graph with a vertex/edge labeling.
-A weighted graph is a edge-labeled graph where the edge labels are an ordered set.
-A labeled graph is most commonly a vertex-labeled graph with all labels distinct.
-A graceful labeling is a vetex labeling where the vertex labels are { 0, 1, ..., |E|}
+»⟮A label⟯« is ⟮a thing such as an integer⟯ that is ⟮assigned to⟯ ⟮＿an element of a graph＿⟯.
+»⟮A vertex/edge label⟯« is ⟮＿a label＿⟯ assigned to ⟮＿a vertex/edge＿⟯.
+»⟮A graph labeling⟯« is ⟮＿a function＿⟯ from ⟮a set of ＿elements of the graph＿⟯ to ⟮a set of ＿labels＿⟯.
+»⟮A vertex/edge labeling⟯« is ⟮＿a function＿⟯ from ⟮a set of ＿vertices/edges＿⟯ to ⟮a set of ＿vertex/edge labels＿⟯.
+»⟮A vertex/edge-labeled graph⟯« is ⟮＿a graph＿⟯ ⟮with ＿a vertex/edge labeling＿⟯.
+»⟮A weighted graph⟯« is ⟮＿a edge-labeled graph＿⟯ where ⟮＿the edge labels＿⟯ are ⟮＿an ordered set＿⟯.
+»⟮A labeled graph⟯« is most commonly ⟮＿a vertex-labeled graph＿⟯ ⟮with all ＿labels＿ distinct⟯.
+»⟮A graceful labeling⟯« is ⟮＿a vetex labeling＿⟯ where ⟮＿the vertex labels＿⟯ are ⟮{ 0, 1, ..., |E|}⟯
 
 ### traversal
 
-⟮Graph traversal⟯ is ⟮visiting all vertices once⟯ 
-Tree traversal is graph traversal of trees
-⟮Trees are a type of graph⟯, therefore ⟮tree traversal⟯ is a type of ⟮graph traversal⟯ 
+»⟮Graph traversal⟯« is ⟮visiting⟯ ⟮all ＿vertices＿⟯ ⟮(at least) once⟯.
+»⟮Tree traversal⟯« is ⟮＿graph traversal＿⟯ of ⟮＿trees＿⟯
 
 ### connections
 
@@ -763,20 +762,20 @@ Tree traversal is graph traversal of trees
 
 flex-container:⟮h∞;✫Screen%20Shot%202014-02-09%20at%2012.45.13%20AM.png✫✫Screen%20Shot%202014-02-09%20at%2012.56.18%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.04.43%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.08%20AM.png✫✫Screen%20Shot%202014-02-09%20at%201.18.11%20AM.png✫⟯
 
-
-⟮Two vertices⟯ are ⟮connected⟯ if ⟮there is a path between two vertices⟯, else ⟮s110;they are ⟮disconnected⟯.⟯ 
-⟮A graph⟯ is ⟮connected⟯ if ⟮every pair of vertices are connected⟯, ergo ⟮c+;sb;there is a path between any two vertices⟯, else it is ⟮c+;sb;disconnected⟯. 
+⟮Two ＿vertices＿⟯ are »⟮connected/disconnected⟯« if there ⟮is/is no⟯ ⟮＿path＿ between them⟯.
+⟮＿A graph＿⟯ is »⟮connected/disconnected⟯« if ⟮every pair of vertices is ＿connected＿⟯.
+Ergo in ⟮＿a connected graph＿⟯ there is ⟮＿a path＿⟯ ⟮between any two ＿vertices＿⟯.
 
 #### sequences of vertices and edges
 
-A ⟮walk⟯ is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
-A ⟮trail⟯ is ⟮a walk⟯ ⟮with no repeated edges⟯. 
-⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be closed or open
-A walk or trail is closed/open the ending vertex is/is not the same vertex as the starting vertex⟯
-A ⟮path⟯ is an ⟮open⟯ ⟮trail⟯ with ⟮no repeated vertices.⟯ 
-A ⟮circuit⟯ is ⟮a closed trail⟯. 
-A ⟮cycle⟯ is ⟮a circuit⟯ with ⟮no repeated vertex besides the start/end vertex⟯. 
-A ⟮graph⟯ is acyclic if does not contain any cycles.
+»⟮A walk⟯« is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
+»⟮A trail⟯« is ⟮＿a walk＿⟯ ⟮with no repeated edges⟯. 
+⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be closed or open.
+A ⟮walk⟯ or ⟮c_;trail⟯ is »⟮closed/open⟯« if ⟮the ending vertex⟯ ⟮is/is not⟯ ⟮the same vertex⟯ ⟮c_-2;as the starting vertex⟯
+»⟮A path⟯« is an ⟮open⟯ ⟮trail⟯ with ⟮no repeated vertices.⟯ 
+»⟮A circuit⟯« is ⟮a closed trail⟯. 
+»⟮A cycle⟯« is ⟮a circuit⟯ with ⟮no repeated vertex besides the start/end vertex⟯. 
+»⟮A graph⟯« is acyclic if does not contain any cycles.
 The length of a walk/trai/path/circuit/cycle is symbolized by k.
 The ⟮length k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ is counted in ⟮edges⟯. 
 
@@ -788,7 +787,8 @@ Equivalently, ⟮two vertices⟯ are ⟮adjacent⟯ if ⟮a path/walk/trail⟯ o
 
 ##### neighborhood
 
-The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all adjacent vertices⟯ and ⟮the edges connecting it to those vertices⟯. 
+A neighbor is a vertex that is adjacent to a given vertex
+The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all neighbors⟯ and ⟮the edges connecting it to the neighbors⟯. 
 The ⟮closed neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
 The ⟮open neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮containing the vertex v itself⟯ 
 
