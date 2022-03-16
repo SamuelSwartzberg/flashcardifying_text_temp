@@ -768,55 +768,59 @@ Ergo in ⟮＿a connected graph＿⟯ there is ⟮＿a path＿⟯ ⟮between any
 
 #### sequences of vertices and edges
 
-»⟮A walk⟯« is ⟮an alternating sequence⟯ of ⟮vertices and edges⟯. 
+»⟮A walk⟯« is ⟮an alternating sequence⟯ of ⟮＿vertices＿ and ＿edges＿⟯. 
+»⟮A walk subtype⟯« (my term) is ⟮＿a walk＿⟯ ⟮with further constraints specified⟯.
+»⟮A walklike⟯« (my term) is ⟮＿a walk＿⟯ or ⟮＿walk subtype＿⟯
 »⟮A trail⟯« is ⟮＿a walk＿⟯ ⟮with no repeated edges⟯. 
-⟮Walks⟯ and ⟮trails⟯ (but by definition not ⟮paths⟯) may be closed or open.
+⟮＿Walks＿⟯ and ⟮＿trails＿⟯ (but by definition not ⟮＿paths＿⟯) may be ⟮＿closed＿ or ＿open＿⟯.
 A ⟮walk⟯ or ⟮c_;trail⟯ is »⟮closed/open⟯« if ⟮the ending vertex⟯ ⟮is/is not⟯ ⟮the same vertex⟯ ⟮c_-2;as the starting vertex⟯
-»⟮A path⟯« is an ⟮open⟯ ⟮trail⟯ with ⟮no repeated vertices.⟯ 
-»⟮A circuit⟯« is ⟮a closed trail⟯. 
-»⟮A cycle⟯« is ⟮a circuit⟯ with ⟮no repeated vertex besides the start/end vertex⟯. 
-»⟮A graph⟯« is acyclic if does not contain any cycles.
-The length of a walk/trai/path/circuit/cycle is symbolized by k.
-The ⟮length k⟯ of ⟮walks/trails/paths/circuits/cycles⟯ is counted in ⟮edges⟯. 
+»⟮A path⟯« is an ⟮＿open＿ ＿trail＿⟯ with ⟮no repeated vertices.⟯ 
+»⟮A circuit⟯« is ⟮a ＿closed＿ ＿trail＿⟯. 
+»⟮A cycle⟯« is ⟮＿a circuit＿⟯ with ⟮no repeated vertex besides the start/end vertex⟯. 
+⟮＿A graph＿⟯ is »⟮acyclic⟯« if it ⟮does not contain any ＿cycles＿⟯.
+⟮＿The length＿⟯ of ⟮＿a walklike＿⟯ is symbolized by ⟮k⟯.
+The ⟮length k⟯ of ＿a walklike＿ is counted in ⟮edges⟯. 
 
 #### adjacent
 
-⟮Two vertices⟯ are ⟮adjacent⟯ if ⟮they share an edge (an edge exists between them⟯) 
-Equivalently, ⟮two vertices⟯ are ⟮adjacent⟯ if ⟮a path/walk/trail⟯ of ⟮length 1⟯ ⟮exists between them⟯. 
-⟮Two edges⟯ are ⟮adjacent⟯ if ⟮they share a vertex⟯ 
+⟮Two vertices⟯ are »⟮adjacent⟯« if ⟮they share an edge (an edge exists between them)⟯ 
+Equivalently, ⟮two vertices⟯ are »⟮adjacent⟯« if ⟮＿a pathlike＿⟯ of ⟮＿length＿ 1⟯ ⟮exists between them⟯. 
+⟮Two edges⟯ are »⟮adjacent⟯« if ⟮they share a vertex⟯ 
 
 ##### neighborhood
 
-A neighbor is a vertex that is adjacent to a given vertex
-The ⟮neighborhood⟯ of ⟮a vertex⟯ is t⟮he subgraph⟯ ⟮made up of all neighbors⟯ and ⟮the edges connecting it to the neighbors⟯. 
-The ⟮closed neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮⁑not ⁑containing  the vertex v itself⟯ 
-The ⟮open neighborhood of v⟯ is ⟮the neighborhood of v⟯ ⟮containing the vertex v itself⟯ 
+»⟮A neighbor⟯« is ⟮＿a vertex＿⟯ that ⟮is ＿adjacent＿ to a given vertex⟯
+»⟮The neighborhood⟯« of ⟮a vertex⟯ is ⟮＿the subgraph＿⟯ made up of ⟮＿all neighbors＿⟯ and ⟮the edges connecting it to those⟯. 
+»⟮The closed neighborhood⟯« of v is ⟮＿the neighborhood＿⟯ of v ⟮not containing⟯ ⟮the vertex v itself⟯
+»⟮The open neighborhood⟯« of v is ⟮＿the neighborhood＿⟯ of v ⟮containing⟯ ⟮the vertex v itself⟯
 
 ##### domination
 
-A dominating set D is a subset of V such that every vertex not in D is adjacent to at least one member of D.
-Ergo a dominating set is the subset of V which ensures that every vertex not in the subset is adjacent to an element of the subset
+»⟮A dominating set⟯« D is ⟮a subset of V⟯ such that ⟮every vertex not in D⟯ is ⟮adjacent to at least one member of D⟯.
+Ergo ⟮＿a dominating set＿⟯ is ⟮the subset of V⟯ which ensures that ⟮every vertex not in the subset⟯ is ⟮adjacent to an element of the subset⟯
 
 ### subgraph
 
-A ⟮subgraph⟯ is a ⟮graph⟯ made up of ⟮a subset of⟯ ⟮vertices⟯ and ⟮edges⟯ of G. ⟮sb;The ⟮subset of vertices⟯ ⟮must contain⟯ ⟮all endpoints of the edges⟯.⟯ 
-A ⟮subtree⟯ is a ⟮subgraph⟯ of a ⟮tree⟯. 
-A ⟮proper subgraph⟯ is a ⟮subgraph of the graph⟯ that ⟮is not the current graph⟯ 
+»⟮A subgraph⟯« is ⟮＿a graph＿⟯ made up of ⟮a subset of⟯ ⟮vertices and edges of the original grpah)
+^The subset of vertices must contain all endpoints of the edges
+»⟮A proper subgraph⟯« is ⟮＿a subgraph＿⟯ that ⟮is not the current graph⟯ 
+»⟮A subtree⟯« is ⟮＿a subgraph＿⟯ of ⟮＿a tree＿⟯.
 
 ### trees
 
 #### definiton
 
-A ⟮tree⟯ is an ⟮undirected⟯ ⟮connected⟯ ⟮acyclic⟯ ⟮graph⟯. 
-A ⟮rooted tree⟯ is ⟮a tree⟯ with a ⟮root vertex⟯. 
-A root vertex is a vertex which has been arbitrarily designated as the root.
-A compscitree (my term) is an ADT which is ⟮a rooted tree⟯ graph with ⟮an implied natural direction of downwards from the root⟯. 
+»⟮A tree⟯« is an ⟮＿undirected＿⟯ ⟮＿connected＿⟯ ⟮＿acyclic＿⟯ ⟮＿graph＿⟯. 
+»⟮A rooted tree⟯« is ⟮＿a tree＿⟯ with a ⟮＿root vertex＿⟯. 
+»⟮A root vertex⟯« is ⟮＿a vertex＿⟯ which ⟮has been arbitrarily designated as the root⟯.
+⟮The root vertex⟯ is often also just called ⟮the root⟯.
+»⟮A compscitree⟯« (my term) is ⟮＿an ADT＿⟯ which is ⟮＿a rooted tree＿⟯ with ⟮an implied natural direction of downwards from ＿the root vertex＿⟯. 
 
 #### direct & movement
 
-The ⟮root path⟯ is the ⟮path⟯ ⟮from a vertex to the root vertex⟯. 
-The ⟮depth⟯ of ⟮a vertex⟯ in a compscitree is ⟮the length of the root path⟯. 
-Going ⟮towards⟯ ⟮vertices⟯ with ⟮greater depth⟯ is known as ⟮downward⟯, and going ⟮towarrds⟯ ⟮vertices⟯ with ⟮smaller depth⟯ is known as ⟮upwards⟯. 
+»⟮The root path⟯« is ⟮＿the path＿⟯ ⟮from ＿a vertex＿ to ＿the root vertex＿⟯. 
+»⟮The depth⟯« of ⟮＿a vertex＿⟯ in ⟮＿a compscitree＿⟯ is ⟮＿the length＿ of ＿the root path＿⟯. 
+»⟮Downwards/upwards⟯« is ⟮going towards⟯ vertices with ⟮greater/lesser⟯ ⟮＿depth＿⟯.
 
 #### descendants & ancestors
 
