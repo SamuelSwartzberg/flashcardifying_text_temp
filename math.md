@@ -837,55 +837,6 @@ In ⟮＿propositional logic＿⟯, ⟮the members of the premise set⟯ and ⟮
 
 ⟮Predicate logic⟯ is also known as ⟮first-order logic⟯.
 
-# analysis
-
-## limits
-
-»⟮A limit⟯« is ⟮the value⟯ that ⟮a function assumes⟯ as »⟮the input⟯« ⟮approaches some value⟯.
-»⟮lim⟯« is ⟮＿an unary operator＿⟯ which ⟮gets ＿the limit＿⟯ of an entity.
-⟮the limit of a function f(x) as x goes to a certain value c⟯ is indicated by ⟮lim⎵x→c⎵ f(x)⟯
-⟮＿a limit＿⟯ is indicated ⟮L⟯.
-
-### asymptotic analysis
-
-»⟮Asymptotic analysis⟯« is a way of ⟮describing ＿limits＿⟯ by ⟮approaching ＿the input＿ infinitely closely⟯.
-⟮＿The limit＿⟯ is »⟮asymptotically equivalent⟯« to ⟮the value it becomes⟯ ⟮under ＿asymptotic analysis＿⟯.
-a function f(x) being ⟮＿asymtotically equivalent＿⟯ to a certain limit foo is indicated ⟮f(x) ~ foo⟯.
-so, for example for f(x) = x^2 + 3x at values of x close to infinity, 3x becomes irrelevant. hence f(x) ~ n^2
-
-#### asymptote
-
-»⟮The asymptote⟯« of ⟮a curve⟯ is ⟮a line⟯ such that ⟮the distance between the curve and the line⟯ ⟮approaches zero⟯ as ⟮c-;x/y⟯ ⟮approach infinity⟯.
-⟮＿The asymptote＿⟯ of ⟮a curve⟯ is also ⟮the tangent to the curve⟯ ⟮at a point in infinity⟯.
-»⟮A horizontal/vertical asymptote⟯« are asymptotes where ⟮x/y⟯ tends to infinity.
-
-#### notation
-
-»⟮Big O notation⟯« indicates ⟮＿the limit＿⟯ ⟮an algorithm's ＿computational complexity＿⟯ is ⟮＿asymptotically equivalent＿⟯ to
-⟮＿Big O notation＿⟯ looks like ⟮O(n)⟯. 
-
-## calculus
-
-»⟮Calculus⟯« is ⟮the branch of⟯ ⟮＿analysis＿⟯ that studies ⟮continous change⟯.
-
-### differential calculus
-
-»⟮differential calculus⟯« is ⟮the branch of⟯ ⟮＿calculus＿⟯ concerned with ⟮rate of change⟯ and ⟮c_;slopes of curves⟯
-
-#### differentiation
-
-»⟮The derivate⟯« of a function is ⟮the slope/gradient⟯ of ⟮the tangent line⟯ ⟮to the graph of the function⟯ at ⟮a given point⟯.
-»⟮A differentiable function⟯« is one ⟮whose ＿derivative＿ exists⟯ at ⟮every point of ＿the domain＿⟯.
-
-##### antiderivative
-
-⟮antiderivative⟯ = ⟮inverse derivative⟯
-»⟮An antiderivative⟯« of ⟮a function f⟯ is ⟮＿a function F＿⟯ ⟮whose ＿derivative＿⟯ ⟮is equal to⟯ t⟮he original function f⟯.
-Formally, »⟮an antiderivative⟯« of a function f is a function F with `⟮F' = f⟯`.
-
-### integral calculus
-
-»⟮integral calculus⟯« is ⟮the branch of⟯ ⟮＿calculus＿⟯ concerned with ⟮the accumulation of quantities⟯ and ⟮c_;the areas under/between curves⟯.
 
 # algebra
 
