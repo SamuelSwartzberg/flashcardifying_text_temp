@@ -901,11 +901,11 @@ table:Inserting this number,|where would it go?
 
 ##### merkele tree
 
-Merkle tree = hash tree
-A merkle tree is a vertex-labeled tree where the vertex labels are certain hashes.
-In a merkele tree, the vertex label of a leaf is the hash of a data block.
-In a merkele tree, the vertex label of a internal node is the hash of all the labels = hashes of its child nodes.
-Merkele trees are used in block trees.
+⟮Merkle tree⟯ = ⟮hash tree⟯
+»⟮A merkle tree⟯« is a ⟮＿vertex-labeled＿⟯ ⟮＿compscitree＿⟯ where ⟮c+;s-2;＿the vertex labels＿⟯ are ⟮certain hashes⟯.
+In ⟮＿a merkele tree＿⟯, ⟮＿the vertex label＿⟯ of ⟮＿a leaf＿⟯ is ⟮＿the hash＿⟯ of ⟮a data block⟯.
+In ⟮＿a merkele tree＿⟯, ⟮＿the vertex label＿⟯ of ⟮＿a internal node＿⟯ is ⟮＿the hash＿⟯ of ⟮all the labels = hashes of its child nodes⟯.
+⟮＿Merkele trees＿⟯ are used in ⟮＿blockchains＿⟯.
 
 ## logic
 
@@ -914,11 +914,13 @@ https://www.codeguage.com/courses/logic/
 ### formal system
 
 ⟮Formal systems⟯ have roughly the following structure:
+```
 ⟮A formal language⟯
 ⟮An inference system⟯
   ⟮A set of axioms⟯
   ⟮A set of inference rules⟯
 ⟮A semantics⟯
+```
 
 ### logics
 
@@ -982,96 +984,71 @@ A formula is truth-functional if its truth depends only on the truth or truth-fu
 
 ###### inference rule
 
-Rule of inference = inference rule
+⟮Rule of inference⟯ = ⟮inference rule⟯
 A inference rule is a function from sets of formulae to other formulae.
 
 ###### arguments
 
-An argument consists of a premise set and a conclusion, and the relation if all members of the premise set are true, so must be the conclusion.
-In propositional logic, the members of the premise set and the conclusion are all propositional formulae.
+»⟮An argument⟯« consists of a premise set and a conclusion, and the relation if all members of the premise set are true, so must be the conclusion.
+In ⟮＿propositional logic＿⟯, ⟮the members of the premise set⟯ and ⟮c_;the conclusion⟯ of ⟮＿an argument＿⟯ are all ⟮＿propositional formulae＿⟯.
 
 #### predicate logic
 
-Predicate logic is also known as first-order logic.
-
-### bitwise 
-
-#### basic operations
-
-operation|a|b|result
-AND|0|0|0
-AND|1|1|1
-AND|0|1|0
-AND|1|0|0
-OR|0|0|0
-OR|0|1|1
-OR|1|0|1
-OR|1|1|1
-XOR|0|0|0
-XOR|0|1|1
-XOR|1|0|1
-XOR|1|1|0
-
-#### bitmasking
-
-a bitmask is using bitwise operations to get the value of certain bits
-a bitmask using bitwise AND gets a subset of bits
-bitmasking with AND 1⎵2⎵ returns the parity of the number (0 = even, 1 = odd)
+⟮Predicate logic⟯ is also known as ⟮first-order logic⟯.
 
 # analysis
 
 ## limits
 
-A limit is the value that a function approaches as the input approaches some value.
-lim is an unary operator which gets the limit of an entity.
-the limit of a function f(x) as x goes to a certain value c is indicated by lim⎵x→c⎵ f(x)
-the value of a limit is indicated L.
+»⟮A limit⟯« is ⟮the value⟯ that ⟮a function assumes⟯ as »⟮the input⟯« ⟮approaches some value⟯.
+»⟮lim⟯« is ⟮＿an unary operator＿⟯ which ⟮gets ＿the limit＿⟯ of an entity.
+⟮the limit of a function f(x) as x goes to a certain value c⟯ is indicated by ⟮lim⎵x→c⎵ f(x)⟯
+⟮＿a limit＿⟯ is indicated ⟮L⟯.
 
 ### asymptotic analysis
 
-Asymptotic analysis is a way of describing limits by approaching the input infinitely closely.
-The limit is asymptotically equivalent to the value it becomes under asymptotic analysis.
-a function f(x) being asymtotically equivalent to a certain limit foo is indicated f(x) ~ foo.
+»⟮Asymptotic analysis⟯« is a way of ⟮describing ＿limits＿⟯ by ⟮approaching ＿the input＿ infinitely closely⟯.
+⟮＿The limit＿⟯ is »⟮asymptotically equivalent⟯« to ⟮the value it becomes⟯ ⟮under ＿asymptotic analysis＿⟯.
+a function f(x) being ⟮＿asymtotically equivalent＿⟯ to a certain limit foo is indicated ⟮f(x) ~ foo⟯.
 so, for example for f(x) = x^2 + 3x at values of x close to infinity, 3x becomes irrelevant. hence f(x) ~ n^2
 
 #### asymptote
 
-The asymptote of a curve is a line such that the distance between the curve and the line approaches zero as x andor y approach infinity.
-The asymptote of a curve is also the tangent to the curve at a point in infinity.
-A horizontal/vertical asymptote are created if x/y tends to infinity.
+»⟮The asymptote⟯« of ⟮a curve⟯ is ⟮a line⟯ such that ⟮the distance between the curve and the line⟯ ⟮approaches zero⟯ as ⟮c-;x/y⟯ ⟮approach infinity⟯.
+⟮＿The asymptote＿⟯ of ⟮a curve⟯ is also ⟮the tangent to the curve⟯ ⟮at a point in infinity⟯.
+»⟮A horizontal/vertical asymptote⟯« are asymptotes where ⟮x/y⟯ tends to infinity.
 
 #### notation
 
-Big O notation is used to indicate the limit an algorithm's computational complexity is asymptotically equivalent to as the input size tends to infinity.
-Big O notation looks like O(n). 
+»⟮Big O notation⟯« indicates ⟮＿the limit＿⟯ ⟮an algorithm's ＿computational complexity＿⟯ is ⟮＿asymptotically equivalent＿⟯ to
+⟮＿Big O notation＿⟯ looks like ⟮O(n)⟯. 
 
 ## calculus
 
-Calculus is the mathematical study of continous change.
+»⟮Calculus⟯« is ⟮the branch of⟯ ⟮＿analysis＿⟯ that studies ⟮continous change⟯.
 
 ### differential calculus
 
-differential calculus is the branch of calculus concerned with rate of change and slopes of curves
+»⟮differential calculus⟯« is ⟮the branch of⟯ ⟮＿calculus＿⟯ concerned with ⟮rate of change⟯ and ⟮c_;slopes of curves⟯
 
 #### differentiation
 
-The derivate of a function is the slope/gradient of the tangent line to the graph of the function at a given point.
-A differentiable function is one whose derivative exists at every point of the domain.
-derivative is ableitung in german.
+»⟮The derivate⟯« of a function is ⟮the slope/gradient⟯ of ⟮the tangent line⟯ ⟮to the graph of the function⟯ at ⟮a given point⟯.
+»⟮A differentiable function⟯« is one ⟮whose ＿derivative＿ exists⟯ at ⟮every point of ＿the domain＿⟯.
 
 ##### antiderivative
 
-antiderivative = inverse derivative
-An antiderivative is a differential function F whose derivative is equal to the original function f.
-Antiderivatives satisfy F' = f.
+⟮antiderivative⟯ = ⟮inverse derivative⟯
+»⟮An antiderivative⟯« of ⟮a function f⟯ is ⟮＿a function F＿⟯ ⟮whose ＿derivative＿⟯ ⟮is equal to⟯ t⟮he original function f⟯.
+Formally, »⟮an antiderivative⟯« of a function f is a function F with `⟮F' = f⟯`.
 
 ### integral calculus
 
-integral calculus is the branch of calculus concerned with the accumulation of quantities and the areas under/between curves.
+»⟮integral calculus⟯« is ⟮the branch of⟯ ⟮＿calculus＿⟯ concerned with ⟮the accumulation of quantities⟯ and ⟮c_;the areas under/between curves⟯.
 
 # algebra
 
-abstract algebra (occasionally called modern algebra) is the study of algebraic structures.
+»⟮abstract algebra⟯« is ⟮the branch of⟯ ⟮＿algebra＿⟯ concerned with ⟮algebraic structures⟯.
 
 ## algebraic structure
 
@@ -1188,26 +1165,24 @@ flex-container:✫CeilingFunction_1000.gif✫
 ### free and bound
 
 ⟮＿A variable＿⟯ may be ⟮＿free＿⟯ or ⟮c_;＿bound＿⟯.
-»⟮a free variable⟯« is one ⟮on which the value of an expression/statement⟯ ⟮depends/says something about⟯
-»⟮a bound variable⟯« on the other hand is ⟮a convenience to express something⟯, that does not ⟮stand for a particular thing⟯
-often an expression/statement can be ⟮rephrased⟯ to ⟮eliminate bound variables⟯ (though not always).
-Variables such as the indexing variable of summation/productation notation or the input of a limit are bound variables.
+»⟮a free variable⟯« is one ⟮on which the value of an expression⟯ ⟮depends/says something about⟯
+»⟮a bound variable⟯« is ⟮just a convenience to express something⟯
 There are a few common ⟮variable-binding⟯ operators, most commonly ⟮sum Σ, product Π, integral ∫, limit lim, existential quantifier ∃, universal quantifier ∀⟯
 
 ### arguments, parameters, coefficients, constants
 
 #### arguments, parameters
 
-A »variable« is a placeholder for something that may change.
-Variables may either be arguments or parameters.
-Often, variable is treated as a synonym for argument (only), but this is incorrect.
-An argument is a variable that is the input of the function, that if varied produces different outcomes.
-A parameter is a variable that is not provided as an input for the function. 
-Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
+»⟮A variable⟯« is a placeholder for something that may change.
+⟮＿Variables＿⟯ may either be ⟮＿arguments＿⟯ or ⟮c_;＿parameters＿⟯.
+Often, ⟮variable⟯ is treated as a synonym for ⟮argument⟯ (only), ⟮but this is incorrect⟯.
+»⟮An argument⟯« is ⟮＿a variable＿⟯ that is ⟮the input of the function, that if varied produces different outcomes⟯.
+»⟮A parameter⟯« is ⟮＿a variable＿⟯ that is ⟮not provided as an input for the function⟯. 
+Instead, functions with ⟮＿parameters＿⟯ produce ⟮families of functions⟯, where ⟮varying the parameter⟯ ⟮selects a function from⟯ ⟮c_-2 ;the family of functions⟯.
 ^By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
-The ⟮arguments⟯ but not the parameters of a function are ⟮listed in f(...)⟯
-Arguments are typically indicated by letters starting with x.
-Parameters are typically indicated by letters starting with a.
+⟮＿The arguments＿⟯ but not ⟮c_;＿the parameters＿⟯ of a function are ⟮listed in f(...)⟯
+⟮＿Arguments＿⟯ are typically indicated by ⟮letters starting with x⟯.
+⟮＿Parameters＿⟯ are typically indicated by l⟮etters starting with a⟯.
 
 #### coefficients, constants
 
@@ -1221,11 +1196,11 @@ Examples for mathematical constants: π, e
 
 table:headerrows=2;f(x)=ax^{2}+bx+c
 element in function|is what kind of thing
-a, b, c, x|variable(s)
-a, b, c|parameter(s)
-a, b, c|coefficient(s)
-c|constant coefficent(s)
-x|argument(s)
+⟮a, b, c, x⟯|⟮＿variable(s)＿⟯
+⟮a, b, c⟯|⟮＿parameter(s)＿⟯
+⟮a, b, c⟯|⟮＿coefficient(s)＿⟯
+⟮c⟯|⟮＿constant coefficent(s)＿⟯
+⟮x⟯|⟮＿argument(s)＿⟯
 
 ## equality
 

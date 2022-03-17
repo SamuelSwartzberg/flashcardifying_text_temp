@@ -19725,3 +19725,28 @@ more on ASTs, parse trees
 7|stage the file
 8|remove the file
 9|commit
+
+
+### bitwise 
+
+#### basic operations
+
+operation|a|b|result
+AND|0|0|0
+AND|1|1|1
+AND|0|1|0
+AND|1|0|0
+OR|0|0|0
+OR|0|1|1
+OR|1|0|1
+OR|1|1|1
+XOR|0|0|0
+XOR|0|1|1
+XOR|1|0|1
+XOR|1|1|0
+
+#### bitmasking
+
+a bitmask is using bitwise operations to get the value of certain bits
+a bitmask using bitwise AND gets a subset of bits
+bitmasking with AND 1⎵2⎵ returns the parity of the number (0 = even, 1 = odd)
