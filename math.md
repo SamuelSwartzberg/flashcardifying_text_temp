@@ -1313,37 +1313,40 @@ Of the elementary arithmetic operations, ⟮addition and multiplication (if not 
 
 #### distributive
 
-something is distributive if it is both left- and right-distributive
-left-distributive|ζ * (x+y) = (ζ * x) + (ζ * y)
-right-distributive|(x+y) * ζ = (ζ * x) + (ζ * y)
+something is »⟮distributive⟯« if it is ⟮both ＿left-＿ and ＿right-distributive＿⟯
+
+
+table:distributivity|rule
+»⟮left-distributive⟯«|⟮ζ * (x+y)⟯ = ⟮(ζ * x) + (ζ * y)⟯
+»⟮right-distributive⟯«|⟮(x+y) * ζ⟯ = ⟮(ζ * x) + (ζ * y)⟯
 
 ### arguments
 
 #### arity
 
-The »arity« of something specifies how many ＿operands＿ or ＿arguments＿ are involved. 
-Arity is a property of operations or functions.
-arity and adicity are rough synonyms
-The arity is specified in latinate numbers
-adicity is specified in greek-derived numbers.
-something variadic has an indefinite arity
+The »⟮arity⟯« of something is ⟮how many⟯ ⟮＿operands＿ or ＿arguments＿⟯ are involved. 
+⟮＿Arity＿⟯ is a property of ⟮＿operations＿⟯ or ⟮c_;＿functions＿⟯.
+⟮arity⟯ and ⟮adicity⟯ are rough synonyms
+⟮＿arity＿⟯ is specified in ⟮latinate⟯ numbers
+⟮＿adicity＿⟯ is specified in ⟮greek-derived⟯ numbers.
+something »⟮variadic⟯« has ⟮an indefinite ＿arity＿⟯
 
 table:Arity of...|Name
-⟮0⟯|⟮nullary⟯
-⟮1⟯|⟮unary⟯
-⟮2⟯|⟮binary⟯
-⟮3⟯|⟮ternary⟯
-⟮n⟯|⟮n-ary⟯
+⟮0⟯|»⟮nullary⟯«
+⟮1⟯|»⟮unary⟯«
+⟮2⟯|»⟮binary⟯«
+⟮3⟯|»⟮ternary⟯«
+⟮n⟯|»⟮n-ary⟯«
 
 
 #### order
 
-Operations can be written in prefix, postfix or infix notation.
+⟮＿Operations＿⟯ can be written in ⟮＿prefix＿⟯, ⟮c_;＿postfix＿⟯ or ⟮c_;＿infix＿⟯ notation.
 
 table:notation|description|alias
-prefix notation|operator before operands|polish notation
-postfix notation|operator after operands|reverse polish notation
-infix notation|operator between operands
+»⟮prefix notation⟯«|⟮operator before operands⟯|⟮c+;s∞;polish notation⟯
+»⟮postfix notation⟯«|⟮operator after operands⟯|⟮c+;s∞;reverse polish notation⟯
+»⟮infix notation⟯«|⟮operator between operands⟯
 
 
 Trivia: The description "Polish" refers to the nationality of logician Jan Łukasiewicz, who invented Polish notation in 1924
