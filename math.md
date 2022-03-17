@@ -1229,23 +1229,23 @@ x|argument(s)
 
 ## equality
 
-An equality is a relationship between two expressions asserting that the two expressions have the same value or represent the same amthematical object.
-An identity asserts an equality of the two expressions for all values of the variables contained, at least for the domain.
-Conditional = conditional equation
-A conditional asserts an equality of the two expressions produce only for particular values of the variables contained.
-An equation expresses the equality of two expressions by connecting them with the equals sign.
-An equation is ambiguous between expressing a conditional or an identity. 
+»⟮An equality⟯« is ⟮a relationship between⟯ ⟮two ＿expressions＿⟯ asserting that ⟮they have the same value⟯ or ⟮represent the same mathematical object⟯.
+»⟮An identity⟯« asserts ⟮＿an equality＿⟯ ⟮for all values⟯ of ⟮the variables contained, at least for the domain.⟯
+⟮Conditional⟯ = ⟮conditional equation⟯
+»⟮A conditional⟯« asserts ⟮＿an equality＿⟯ ⟮only for particular values⟯ of ⟮the variables contained⟯.
+»⟮An equation⟯« expresses ⟮＿an equality＿⟯ ⟮between two expressions⟯ by ⟮connecting them with the equals sign⟯.
+⟮＿An equation＿⟯ is ⟮ambiguous between⟯ ⟮expressing⟯ ⟮＿a conditional＿⟯ or ⟮c_;＿an identity＿⟯. 
 
 ## terms and expressions
 
-An ⟮expression⟯ in math is a combination of symbols that is well-formed and contains at least one operator.
-A term is a combination of symbols that is well-formed and does not contain an operator.
+»⟮An expression⟯« is ⟮a combination of symbols⟯ that is ⟮well-formed⟯ and ⟮contains at least one ＿operator＿⟯.
+»⟮A term⟯« is ⟮a combination of symbols ⟯that is ⟮well-formed⟯ and ⟮does not contain ＿an operator＿⟯.
 
 
 table:headerrows=2;2x+3
 element in function|is what kind of thing
-2x+3|expression(s)
-2x, 3, 2, x|term(s)
+⟮2x+3⟯|⟮＿expression(s)＿⟯
+⟮2x, 3, 2, x⟯|⟮＿term(s)＿⟯
 
 ## operations
 
