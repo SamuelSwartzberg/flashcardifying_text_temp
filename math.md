@@ -280,158 +280,6 @@ A dihedral angle is the angle formed by the intersection of two planes at a line
 
 »⟮A measure⟯« is ⟮an indication of the size⟯ of something.
 
-# number theory
-
-»⟮Number theory⟯« is the branch of math concerned with ⟮the study of integers⟯.
-⟮Number theory⟯ was/is often also called ⟮arithmetic/higher arithmetic⟯.
-
-## properties of integers
-
-### parity
-
-»⟮Parity⟯« is the property of being ⟮even or odd⟯.
-Something has ⟮＿a parity＿⟯ of ⟮even/odd⟯ if it ⟮is/is not⟯ ⟮divisible by two⟯.
-A number in ⟮＿a positional numeral system＿⟯ will be ⟮even⟯ if ⟮its final digit is even⟯.
-
-### sign
-
-A number's »⟮sign⟯« is the property of it being ⟮either positive, negative, or zero⟯.
-»⟮A signed number⟯« is ⟮＿a number＿⟯ which ⟮has/can have its ＿sign＿ specified⟯.
-In computing a number is ⟮signed/unsigned⟯ if it is ⟮encoded in such a way⟯ that it ⟮can/cannot⟯ take on ⟮negative values⟯.
-»⟮A sign grapheme⟯« represents a number's ⟮＿sign＿⟯.
-The typical ⟮＿sign graphemes＿⟯ are ⟮+ and -⟯.
-
-#### representation
-
-In computing, ⟮＿a sign grapheme＿⟯ ⟮cannot be used⟯ to ⟮store ＿signed numbers＿⟯.
-In absence of ⟮＿a sign grapheme＿⟯, three common ways exist to ⟮indicate ＿the sign＿⟯ of ⟮binary-encoded numbers⟯: ⟮one's complement⟯, ⟮two's complement⟯ and ⟮sign and maginitude representation⟯.
-Today, ⟮two's complement⟯ is by far ⟮the most common way⟯ to ⟮indicate the ＿sign＿ of binary-encoded numbers⟯.
-
-##### sign and magnitude represnetation
-
-»⟮one's complement⟯« is ⟮the result of⟯ ⟮performing bitwise NOT⟯ on a number.
-»⟮two's complement⟯« is ⟮＿the one's complement＿⟯ ⟮+ 1⟯
-»⟮A sign bit⟯« is ⟮an extra bit⟯ that ⟮stores ＿the sign＿⟯.
-»⟮Sign and maginitude representation⟯« is using ⟮＿a sign bit＿⟯ to ⟮represent a number's ＿sign＿⟯.
-The problem with using ⟮sign bits⟯ is that ⟮there is both +0 and -0⟯.
-Generally, the ⟮＿most siginificant bit＿⟯ is used as ⟮＿the sign bit＿⟯.
-Generally, ⟮＿the sign bit＿⟯ is ⟮set/unset⟯ for ⟮negative/positive⟯ numbers.
-
-## elementary arithmetic
-
-⟮elementary arithmetic⟯ is often ⟮just⟯ called ⟮c_;arithmetic⟯.
-»⟮elementary arithmetic⟯« is ⟮the branch of⟯ ⟮＿number theory＿⟯ that studies ⟮＿the elementary arithmetic operations＿⟯.
-»⟮The elementary arithmetic operations⟯« are {⟮addition⟯, ⟮c_;subtraction⟯, ⟮c_;multiplication⟯, ⟮c_;division⟯}
-⟮Any⟯ ⟮＿elementary arithmetic operation＿⟯ has ⟮unique names⟯ for the ⟮1st and 2nd⟯ ⟮operand⟯ ⟮c_-;each⟯.
-The ⟮commutative⟯ ⟮＿elementary arithmetic operations＿⟯ also have ⟮names⟯ that ⟮refer to either of the operand⟯s, as ⟮the order does not matter⟯.
-
-### terminology
-
-table:operation|1st operand|2nd operand|both|result
-⟮addition⟯|⟮c+;s∞;augend⟯|⟮c+;s∞;addend⟯|⟮c+;s∞;addend/summand⟯|⟮c+;s∞;sum⟯
-⟮subtraction⟯|⟮c+;s∞;minuend⟯|⟮c+;s∞;subtrahend⟯|⟮c+;s∞;ø⟯|⟮c+;s∞;difference⟯
-⟮multiplication⟯|⟮c+;s∞;multiplier⟯|⟮c+;s∞;multiplicand⟯|⟮c+;s∞;factor⟯|⟮c+;s∞;product⟯
-⟮division⟯|⟮c+;s∞;dividend⟯|⟮c+;s∞;divisor⟯|⟮c+;s∞;ø⟯|⟮c+;s∞;quotient⟯
-
-### ops on sequences of numbers
-
-»⟮A summation⟯« is ⟮＿the sum＿⟯ of ⟮＿a sequence＿⟯.
-»⟮A productation⟯« (my term) is ⟮＿the product＿⟯ of ⟮＿a sequence＿⟯.
-»⟮Summation/productation notation⟯« is ⟮a special notation⟯ for ⟮writing ＿summation/productation＿⟯
-⟮＿Summation/productation notation＿⟯ uses a ⟮large⟯ ⟮Σ/Π⟯, respectively.
-The indexing variable is the bound variable used in Σ/Π-notation.
-The indexing variable is sometimes called the index of summation/multiplication.
-the indexing variable together with its lower bound/limit is denoted as a subscript of Σ/Π-notation.
-the upper bound/limit of the indexing variable is denoted as a superscript of Σ/Π-notation.
-The thing on the right of Σ/Π-notation is the element being added/multiplied.
-
-### multiplication
-
-#### multiple
-
-A multiple is the product of any quantity and an integer.
-I.e. b is a multiple of a if there is an `n ∈ ℤ` such that `b = na`
-a is a submultiple of b means b is a multiple of a.
-I.e. a is a submultiple of b if there is an `n ∈ ℤ` such that `b/n = a`
-E.g. A foot is a 12 fold multiple of an inch, an inch is a 12-fold submultiple of a foot.
-
-#### multiplicative inverse
-
-multiplicative inverse = reciprocal
-The reciprocal of x is the number that multiplied by x yields the multiplicative identity .
-the reciprocal of a number x is denoted by x⎴-1⎴.
-
-### division
-
-#### fraction
-
-A fraction consists of a numerator and a denominator.
-In the most common notation for fractions, the numerator is displayed above the denominator, separated by a bar.
-An algebraic fraction is a fraction whose numerator and/or denominator are expressions.
-the reciprocal of a fraction a/b is b/a.
-
-##### unit fraction
-
-An unit fraction is a rational number written as a fraction where the numerator is one and the denominator is a positive integer.
-
-#### commensurability
-
-two real numbers are commensurable if their quotient is a rational number.
-all rational numbers are by definition commensurable.
-
-### addition
-
-#### digit sum
-
-The digit sum is the summation of all the digits of a number.
-e.g. digit sum of 9045⎵10⎵ = 9 + 0 + 4 + 5 = 18.
-
-### algorithms for
-
-#### terminology
-
-Doing elementary aritmetic manually is known as long x or x by hand.
-Doing elementary arithmetic manually is known as schriftlich x in german
-
-#### basics
-
-In the default algorithm for adding/subtracting by hand, numbers are stacked vertically, right aligned, separated from the result by a horizontal bar
-In the default algorithm for adding/subtracting by hand, addition is done of individual digits from right to left, with carries or borrows as necessary.
-
-#### subtraction
-
-If while doing subtraction by hand, if the subtrahend is bigger than the minuend in any collumn, you need to borrow one from the left.
-
-#### borrows and carries
-
-A carry is a transfer of a digit with a base b to a position with a base b + 1
-A borrow is a transfer of a digit with a base b to a position with a base b - 1
-a borrow is the oposite of a carry.
-
-## integer composition and decomposition
-
-### factorization
-
-⟮Integer factorization⟯ is the ⟮decomposition⟯ of a composite number into ⟮a product of factors⟯.
-Both the composite number and factors are integers.
-The factors of the composite numbers must be smaller than the number.
-a composite number is the product of two or more factors
-any positive integer › 1 is either a composite number or a prime number.
-factor(s) → composite number is trivial
-composite number → factor(s) (integer factorization) has no known efficient algorithm
-Thus, integer factorization is essential to most modern cryptography.
-
-#### prime
-
-Prime factorization is a subtype of integer factorization.
-Prime factorization is the decomposition of an integer into a product of prime numbers.
-Generating composite numbers is trivial, but there is no known efficient algorithm for integer factorization.
-
-### prime number
-
-A prime number is a natural number that is only divisible by one and itself (is not a product of two smaller natural numbers)
-A semiprime/biprime is a product of exactly two prime numbers.
-
 # discrete mathematics
 
 »⟮Discrete mathematics⟯« is the branch of ⟮math⟯ that studies mathematical structures that ⟮can be considered discrete rather than continous⟯.
@@ -916,11 +764,11 @@ https://www.codeguage.com/courses/logic/
 
 ### logics
 
-A ⟮logic⟯ is a ⟮formal system.⟯
+A ⟮logic⟯ is ⟮a ＿formal system＿.⟯
 
 #### propositional logic
 
-The ⟮elements of ＿the alphabet＿⟯ of ⟮＿a propositional logic⟯＿ are the ⟮＿propositional constants＿⟯, ⟮＿propositional variables＿⟯, and ⟮＿logical connectives＿⟯. 
+The ⟮elements of ＿the alphabet＿⟯ of ⟮＿a propositional logic⟯＿ are the ⟮＿propositional variables＿⟯ and ⟮＿logical connectives＿⟯. 
 
 ##### terminology
 
@@ -939,35 +787,35 @@ I will shorten ⟮propositional logic⟯ to ⟮proplog⟯.
 ##### proposition containers
 
 »⟮Proposition containers⟯« ⟮express/denote propositions⟯.
-»⟮Proposition containers⟯« are either ⟮＿propositional constants＿⟯, ⟮c_;＿variables＿⟯ and ⟮c_;＿formulas＿⟯.
-
-###### variables and constants
-
-»⟮A propositional variable⟯« is a thing that expresses ⟮any possible⟯ ⟮＿atomic proposition＿⟯.
-»⟮A propositional constant⟯« is a thing that expresses ⟮a specific⟯ ⟮＿atomic proposition＿⟯.
-
-####### typographic conventions
-
-⟮＿propositional constants＿⟯ are written in ⟮lowercase letters starting at p⟯.
-In Germany, ⟮＿propositional variables＿⟯ are written in ⟮uppercase letters starting at A⟯
-In the anglosphere, ⟮＿propositional variables＿⟯ are written in ⟮lowercase letters starting at ϕ⟯.
+»⟮Proposition containers⟯« are either ⟮＿propositional variables＿⟯ and ⟮c_;＿formulae＿⟯.
+⟮＿A propositional variable＿⟯ expresses ⟮＿an atomic proposition＿⟯.
+⟮＿A propositional formula＿⟯ expresses ⟮＿a compound proposition＿⟯.
 
 ###### propositional formulas
 
 »⟮A propositional formula⟯« is ⟮a well-formed formula⟯ of ⟮elements of ＿the alphabet＿ of the ＿propositional logic＿⟯.
 ⟮＿A propositional formula＿⟯ expresses ⟮＿a compound proposition＿ (however, perhaps only one that can be analyzed into a single atomic proposition.)⟯.
-⟮＿A propositional formula＿⟯ may have ⟮length 1⟯, therefore ⟮all ＿propositional constants＿ and ＿variables＿⟯ are ⟮themselves propositional formulae⟯.
+⟮＿A propositional formula＿⟯ may have ⟮length 1⟯, therefore ⟮all ＿propositional variables＿⟯ are ⟮themselves propositional formulae⟯.
 ⟮A propositional formula⟯ may also be called ⟮sentence⟯.
 ⟮Propositional formula⟯ is often shortened to ⟮formula⟯.
+
+###### metavariables
+
+»⟮A metavariable⟯« expresses ⟮＿a propositional formula＿⟯.
+
+###### typographic conventions
+
+⟮＿propositional variables＿⟯ are written in ⟮lowercase letters starting at p⟯.
+In Germany, ⟮＿metavariables＿⟯ are written in ⟮uppercase letters starting at A⟯
+In the anglosphere, ⟮＿metavariables＿⟯ are written in ⟮lowercase letters starting at ϕ⟯.
 
 ###### example
 
 !Assume an universe in which only the atomic propositions "Sam is awesome" and "Sam is cute" exist.
 `"Sam is awesome" and "Sam is cute"` is ⟮＿a compound proposition＿⟯.
-!If we say "Sam is awesome"/"Sam is cute" is represented by the propositonal constants p/q.
 `p`, `p ∨ p`, `q`, `p ∧ q`, `p ∧ q ∧ q ∧ q` are all ⟮＿propositional formulae＿⟯.
 `p ∧ p ∨ q` would be ⟮＿a propositional formula＿⟯ expressing ⟮＿the compound proposition＿⟯ `"Sam is awesome" and "Sam is awesome" or "Sam is cute"`
-⟮＿A propositonal variable＿⟯ ϕ could either be "Sam is awesome" or "Sam is cute".
+⟮＿A propositonal variable＿ p, q⟯ could either be "Sam is awesome" or "Sam is cute".
 
 ##### truth-functionality
 
