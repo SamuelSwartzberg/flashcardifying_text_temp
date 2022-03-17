@@ -273,18 +273,12 @@ A dihedral angle is the angle formed by the intersection of two planes at a line
 
 ### kinds
 
-An obtuse angle is an angle with a measure greater than 90° and smaller than 180°
-An acute angle is an angle with a measure smaller than 90°
+»⟮An obtuse angle⟯« is an angle with ⟮＿a measure＿⟯ ⟮greater than 90° and smaller than 180°⟯
+»⟮An acute angle⟯« is an angle with ⟮＿a measure＿⟯ ⟮smaller than 90°⟯
 
 ## measure
 
-A measure is the indication of the size of something.
-
-## shapes
-
-### circle
-
-A circular arc is the arc of a circle between a pair of distinct points.
+»⟮A measure⟯« is ⟮an indication of the size⟯ of something.
 
 # number theory
 
@@ -617,7 +611,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/e4/Venn_diagram_gr_la_ru.svg
 an element ⟮being within a shape⟯ indicates that ⟮it is an element of the relevant set ⟯
 ergo an element ⟮being within an overlap⟯ indicates that ⟮it is in both sets⟯.
 if an area of overlap ⟮has no elements⟯, it is often ⟮blacked-out⟯.
-instead of placing elements, venn diagrams instead can be used to indicated WFF (TODO check if this is the right term) by highlighting the areas which fall under it.
+instead of placing elements, venn diagrams instead can be used to indicate ⟮＿propositional formulae＿⟯ by ⟮highlighting the areas which fall under it⟯.
 
 #### types of sets
 
@@ -875,15 +869,13 @@ table:order|pattern
 
 ##### binary search trees
 
-TODO:
-⟮A ＿binary＿ ＿search＿ ＿tree＿⟯ allows searching via the ⟮special properties that the keys of ⟮the vertices⟯ in ⟮the left and right subtrees⟯ are defined to have. 
+⟮A ＿binary＿ ＿search＿ ＿tree＿⟯ allows searching via ⟮the special properties⟯ that ⟮the keys⟯ are defined to have. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮larger than⟯ ⟮the key in any vertices in the left subtree⟯. 
 In a ⟮binary search tree⟯, ⟮the key in the current vertex⟯ is ⟮smaller than⟯ ⟮the key in any vertices in the right subtree⟯. 
 
 ###### operations
 
 To ⟮insert a vertex in a binary search tree⟯, we ⟮traverse the tree⟯ as if we were ⟮searching for the vertex⟯, then, ⟮sb;when ⟮we hit a leaf⟯, we ⟮insert it⟯ as ⟮left or right (as the case may be⟯).⟯ 
-
 In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has no children⟯, ⟮simply delete the vertex⟯ 
 In ⟮deleting a vertex⟯ in ⟮a binary search tree⟯, if ⟮the vertex has one child⟯, ⟮set the reference of the parent to that of the child⟯ 
 In deleting ⟮a vertex N⟯ in ⟮a binary search tree⟯, if ⟮the vertex has two children⟯, first take ⟮the rightmost vertex of the left tree (or vice versa⟯), S. Take ⟮S's⟯ ⟮value⟯, and ⟮replace⟯ ⟮N's⟯ ⟮value⟯ ⟮with it⟯ and then ⟮delete S⟯ with ⟮the appropriate method for 0/1-child vertices⟯. 
@@ -928,64 +920,65 @@ A ⟮logic⟯ is a ⟮formal system.⟯
 
 #### propositional logic
 
-The ⟮elements of the alphabet⟯ of ⟮a propositional logic⟯ are the ⟮propositional constants⟯, ⟮propositional variables⟯, and ⟮logical connectives⟯. 
+The ⟮elements of ＿the alphabet＿⟯ of ⟮＿a propositional logic⟯＿ are the ⟮＿propositional constants＿⟯, ⟮＿propositional variables＿⟯, and ⟮＿logical connectives＿⟯. 
 
 ##### terminology
 
-⟮Propositional logic⟯ may also be called propositional calculus.
-Propositional logic may also be called 0th-order logic, based on its relationship to 1st order logic.
-More rarely, propositional logic is called statement logic or sentential calculus/logic.
-I will shorten propositional logic to proplog.
+⟮Propositional logic⟯ may also be called ⟮propositional calculus⟯.
+⟮Propositional logic⟯ may also be called ⟮0th-order logic⟯ based on ⟮its relationship to 1st order logic⟯.
+More rarely, ⟮propositional logic⟯ is called ⟮statement logic⟯ or ⟮sentential calculus/logic⟯.
+I will shorten ⟮propositional logic⟯ to ⟮proplog⟯.
 
 ##### propositions
 
-A proposition is the thing that bears truth value.
-A proposition may be atomic or compound.
-An atomic proposition is a proposition that cannot be further analyzed into constituent propositions (in the given logic).
-A compound proposition is a propositon that can be further analyzed into constituent propositions (in the given logic.)
+»⟮The proposition⟯« is the thing that ⟮bears truth value⟯.
+⟮＿A proposition＿⟯ may be ⟮＿atomic＿⟯ or ⟮c_;＿compound＿⟯.
+»⟮An atomic proposition⟯« is ⟮＿a proposition＿⟯ that ⟮cannot be⟯ ⟮further analyzed into constituent propositions (in the given logic)⟯.
+»⟮A compound proposition⟯« is ⟮＿a propositon＿⟯ that ⟮can be⟯ ⟮further analyzed into constituent propositions (in the given logic.)⟯
 
 ##### proposition containers
 
-Proposition containers express/denote propositions.
-Proposition containers are either propositional constants, variables and formulas.
+»⟮Proposition containers⟯« ⟮express/denote propositions⟯.
+»⟮Proposition containers⟯« are either ⟮＿propositional constants＿⟯, ⟮c_;＿variables＿⟯ and ⟮c_;＿formulas＿⟯.
 
 ###### variables and constants
 
-A propositional variable is a thing that expresses any possible atomic proposition.
-A propositional constant is a thing that expresses a specific atomic proposition.
+»⟮A propositional variable⟯« is a thing that expresses ⟮any possible⟯ ⟮＿atomic proposition＿⟯.
+»⟮A propositional constant⟯« is a thing that expresses ⟮a specific⟯ ⟮＿atomic proposition＿⟯.
 
 ####### typographic conventions
 
-propositional constants are written in lowercase letters starting at p.
-In Germany, propositional variables are written in uppercase letters starting at A
-In the anglosphere, propositional variables are written in lowercase letters starting at ϕ.
+⟮＿propositional constants＿⟯ are written in ⟮lowercase letters starting at p⟯.
+In Germany, ⟮＿propositional variables＿⟯ are written in ⟮uppercase letters starting at A⟯
+In the anglosphere, ⟮＿propositional variables＿⟯ are written in ⟮lowercase letters starting at ϕ⟯.
 
 ###### propositional formulas
 
-A propositional formula expresses a compound proposition (however, perhaps only one that can be analyzed into a single atomic proposition.).
-A propositional formula is a well-formed formula of elements of the alphabet of propositional logic.
-A propositional formula may only have length 1, therefore all propositional constants and variables are themselves propositional formulae.
-A propositional formula may also be called sentence.
+»⟮A propositional formula⟯« is ⟮a well-formed formula⟯ of ⟮elements of ＿the alphabet＿ of the ＿propositional logic＿⟯.
+⟮＿A propositional formula＿⟯ expresses ⟮＿a compound proposition＿ (however, perhaps only one that can be analyzed into a single atomic proposition.)⟯.
+⟮＿A propositional formula＿⟯ may have ⟮length 1⟯, therefore ⟮all ＿propositional constants＿ and ＿variables＿⟯ are ⟮themselves propositional formulae⟯.
+⟮A propositional formula⟯ may also be called ⟮sentence⟯.
+⟮Propositional formula⟯ is often shortened to ⟮formula⟯.
 
 ###### example
 
 !Assume an universe in which only the atomic propositions "Sam is awesome" and "Sam is cute" exist.
-"Sam is awesome" and "Sam is cute" is a compound proposition.
+`"Sam is awesome" and "Sam is cute"` is ⟮＿a compound proposition＿⟯.
 !If we say "Sam is awesome"/"Sam is cute" is represented by the propositonal constants p/q.
-`p`, `p ∨ p`, `q`, `p ∧ q`, `p ∧ q ∧ q ∧ q` is are all propositional formulae.
-`p ∧ p ∨ q` would be a propositional formula expressing the compound proposition `"Sam is awesome" and "Sam is awesome" or "Sam is cute"`
-A propositonal variable ϕ could either be "Sam is awesome" or "Sam is cute".
+`p`, `p ∨ p`, `q`, `p ∧ q`, `p ∧ q ∧ q ∧ q` are all ⟮＿propositional formulae＿⟯.
+`p ∧ p ∨ q` would be ⟮＿a propositional formula＿⟯ expressing ⟮＿the compound proposition＿⟯ `"Sam is awesome" and "Sam is awesome" or "Sam is cute"`
+⟮＿A propositonal variable＿⟯ ϕ could either be "Sam is awesome" or "Sam is cute".
 
 ##### truth-functionality
 
-A formula is truth-functional if its truth depends only on the truth or truth-functionality of the constituent parts.
+A formula is »⟮truth-functional⟯« if ⟮its truth⟯ ⟮depends only⟯ on ⟮the truth⟯ or ⟮c_;＿truth-functionality＿⟯ of ⟮its constituent parts⟯.
 
 ##### derived things
 
 ###### inference rule
 
 ⟮Rule of inference⟯ = ⟮inference rule⟯
-A inference rule is a function from sets of formulae to other formulae.
+»⟮An inference rule⟯« is ⟮a function⟯ from ⟮sets of formulae⟯ to ⟮other formulae⟯.
 
 ###### arguments
 
