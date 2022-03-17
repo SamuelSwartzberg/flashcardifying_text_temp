@@ -1206,19 +1206,16 @@ A parameter is a variable that is not provided as an input for the function.
 Instead, functions with parameters produce families of functions, where varying the parameter selects a function from the family of functions.
 ^By analogy: The speed of a bike depends on how fast one pedals - this is an argument. The speed of a bike also depends on the shape, weight, etc. of the bike - but varying those, you now have a different bike - this is a parameter. Leaving parameters for shape, weight, etc. of a bike undefined defines all possible relations between pedal speed and speed of the bike.
 The ⟮arguments⟯ but not the parameters of a function are ⟮listed in f(...)⟯
-
-
-table:thing|indicated by
-arguments|x, y, z...
-parameters|a, b, c...
+Arguments are typically indicated by letters starting with x.
+Parameters are typically indicated by letters starting with a.
 
 #### coefficients, constants
 
-A mathematical constant is a non-changing, well-defined mathematical object.
+»⟮A mathematical constant⟯« is a ⟮non-changing⟯ ⟮well-defined mathematical object⟯.
 Examples for mathematical constants: π, e
-⟮Constant⟯ is ambiguous between mathematical constant or parameter
-A coefficient is a factor of a term in some expression.
-A constant coefficient is a coefficient which is a factor of a term where the other factor is 1.
+⟮Constant⟯ is ambiguous between ⟮＿mathematical constant＿⟯ and ⟮＿parameter＿⟯
+»⟮A coefficient⟯« is ⟮＿a factor＿⟯ of ⟮＿a term＿⟯.
+»⟮A constant coefficient⟯« is ⟮＿a coefficient＿⟯ where ⟮the other ＿factor＿ in ＿the term＿⟯ is ⟮1⟯.
 
 #### example
 
@@ -1252,11 +1249,11 @@ element in function|is what kind of thing
 
 ## operations
 
-In general, an operation is the same thing as a function, but one which gets its own operator.
-In an operation, the input values are known as operands.
-In an operation, the symbol performing the operation is an operator.
-In `3+4`, 3 and 4 are the operands.
-In `3+4`, + is the operator.
+»⟮an operation⟯« is the same thing as ⟮＿a function＿⟯, but one which ⟮gets its own ＿operator＿⟯.
+»⟮Operands⟯« are ⟮the input values⟯ of ⟮＿operations＿⟯.
+»⟮An operator⟯« is ⟮the symbol signifing⟯ ⟮＿the operation＿⟯.
+In `3+4`, ⟮3 and 4⟯ are ⟮＿the operands＿⟯.
+In `3+4`, ⟮+⟯ is ⟮＿the operator＿⟯.
 We might want to consider a mathematical constant to be an operation of arity 0.
 
 ### types
@@ -1265,54 +1262,54 @@ We might want to consider a mathematical constant to be an operation of arity 0.
 
 ##### exponentiation
 
-Exponentiation is a binary operation involving two operands, called the base and exponent.
-Exponentiation is often written as `b⎴n⎴`, where b is the base and n is the exponent.
-Exponentiation, written as `b⎴n⎴` means `Π⎵i=1⎵⎴n⎴b` .
-base ≈ radix
+»⟮Exponentiation⟯« is ⟮＿a binary operation＿⟯ involving the two operands ⟮＿base＿⟯ and ⟮c_;＿exponent＿⟯.
+⟮＿Exponentiation＿⟯ is often written as `⟮b⎴n⎴⟯`, where ⟮b⟯ is ⟮＿the base＿⟯ and ⟮c-;n⟯ is ⟮＿the exponent＿⟯.
+⟮＿Exponentiation＿⟯, written as `⟮b⎴n⎴⟯` means `⟮Π⟯⟮⎵i=1⎵⎴n⎴b⟯` .
+⟮base⟯ ≈ ⟮radix⟯
 
 ###### logarithm
 
-The logarithm is the inverse function to exponentiation.
-The logarithm of a number x is the exponent n that applied to a given base b would yield x.
-If no base is given for a logarithm, it is obvious or doesn't matter.
-The logarithm of x for a base b is denoted as `log⎵b⎵(x)` or `log⎵b⎵x`
-`log⎵b⎵(b⎴n⎴) = n`
+»⟮The logarithm⟯« is ⟮＿the inverse function＿⟯ to ⟮＿exponentiation＿⟯.
+»⟮The logarithm⟯« of a number x is ⟮the exponent n⟯ that ⟮applied to a given base b⟯ ⟮would yield x⟯.
+⟮If no base is given⟯ for a logarithm, it is ⟮obvious⟯ or ⟮c_;doesn't matter⟯.
+⟮The logarithm of x for a base b⟯ is denoted as `⟮log⎵b⎵(x)⟯` or `⟮c_;log⎵b⎵x⟯`
+`⟮log⎵b⎵⟯⟮(b⎴n⎴)⟯ = ⟮n⟯`
 
-the natural logarithm is log⎵e⎵.
-the natural logarithm log⎵e⎵ is usually just written ln.
+»⟮the natural logarithm⟯« is ⟮log⎵e⎵⟯.
+⟮＿the natural logarithm log⎵e⎵＿⟯ is usually just written ⟮ln⟯.
 
 ###### axioms and derivable truths
 
 ```
-b⎴1⎴ = b
-b⎴0⎴ = 1
-b⎵-n⎵ = 1/b^⎴-n⎴
+b⎴⟮1⟯⎴ = ⟮b⟯
+b⎴⟮0⟯⎴ = ⟮1⟯
+b⎵⟮-n⟯⎵ = ⟮1/b^⎴-n⎴⟯
 ```
 
 ### properties
 
 #### identity element
 
-The identity element e of a binary operation  ̇ on a set S is e ∈ S such that ∀(a ∈ S) e  ̇ a = a ∧ a  ̇ e = a.
-The identity element may simply be called an identity.
-The identity element of a certain operation is often called that ‹operation› identity (e.g. multiplicative identity).
-The identity element of multiplication performed on real numbers is 1.
-The identity element of addition performed on real numbers is 0.
+»⟮The identity element⟯« e of a binary operation  ̇ on a set S is ⟮e ∈ S⟯ such that ∀(⟮a ∈ S⟯) ⟮e  ̇ a = a⟯ ⟮∧⟯ ⟮c_-;a  ̇ e = a⟯.
+⟮The identity element⟯ may simply be called ⟮an identity⟯.
+⟮＿The identity element＿⟯ ⟮of a certain operation⟯ is often called ⟮‹operation› identity (e.g. multiplicative identity)⟯.
+⟮＿The identity element＿⟯ of ⟮＿multiplication＿⟯ performed on real numbers is ⟮1⟯.
+⟮＿The identity element＿⟯ of ⟮＿addition＿⟯ performed on real numbers is ⟮0⟯.
 
 #### idempotentitcity
 
-A function/operation/etc. is ⟮idempotent⟯ if ⟮it can be applied mulitple times⟯ without ⟮changing the result⟯ ⟮beyond the initial application⟯. 
-Examples for i⟮dempotent functions⟯ include ⟮abs(x), floor(x), ceil(x) etc.⟯ 
+A function/operation/etc. is »⟮idempotent⟯« if ⟮it can be applied mulitple times⟯ without ⟮changing the result⟯ ⟮beyond the initial application⟯. 
+Examples for ⟮＿idempotent functions＿⟯ include ⟮abs(x), floor(x), ceil(x) etc.⟯ 
 
 #### commutative
 
-Commutatitivity is if changing the order of operands does not change the result.
-Addition and multiplication are commutative, subtraction and division are noncommutative.
+»⟮Commutatitivity⟯« is ⟮if changing the order of operands⟯ ⟮does not change the result⟯.
+Of the elementary arithmetic operations, ⟮addition and multiplication⟯ are ⟮commutative⟯, ⟮c-;subtraction and division⟯ are ⟮noncommutative⟯.
 
 #### associative
 
-Associativity is rearranging parenthesis will not change the result.
-Addition and multiplication (if not mixed) are associative, subtraction and division are nonassociative.
+»⟮Associativity⟯« is ⟮if rearranging parentheses⟯ ⟮does not change the result⟯.
+Of the elementary arithmetic operations, ⟮addition and multiplication (if not mixed)⟯ are ⟮associative⟯, ⟮c-;subtraction and division⟯ are ⟮nonassociative⟯.
 
 #### distributive
 
