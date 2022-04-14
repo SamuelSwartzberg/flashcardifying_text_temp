@@ -12,6 +12,13 @@ Some languages may not make any distinction within a grammatical feature.
 Grammemes may be encoded lexically, morphologically or syntactically.
 Grammemes encode sememes or half of practs/pragmemes.
 
+## encoded by
+
+### nothing
+
+An empty category is an element that does not have any phonological content and is therefore unpronounced.
+An empty category is often indicated by ø or ＊e＊
+
 ## encoded in specfic parts of speech
 
 ### phi-features (noun-related)
