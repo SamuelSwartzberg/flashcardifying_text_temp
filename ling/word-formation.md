@@ -5,6 +5,7 @@
 ## what is created
 
 ⟮＿Word formation＿⟯ may either be ⟮＿lexcreation＿⟯ or ⟮＿inflection＿⟯.
+Ergo, ⟮＿word formation＿⟯ may be used to ⟮express⟯ ⟮c_;＿lexemes＿⟯, ⟮c_;＿grammemes＿⟯ or ⟮c_;a combination of both⟯.
 
 ### lexcreation
 
@@ -20,6 +21,9 @@
 
 »⟮Morphological derivation⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮adding or removing ＿affixes＿⟯.
 »⟮A derivate⟯« is ⟮＿a lexeme＿⟯ ⟮created via derivation⟯.
+⟮＿Morphological derivation＿⟯ may change the ⟮word class⟯, ⟮c_;sememe⟯, or ⟮c_;both⟯.
+»⟮A derivational affix⟯« is ⟮＿an affix＿⟯ ⟮used in ＿morphological derivation＿⟯.
+»⟮A derivational paradigm⟯« is the set of words that share a stem but have different derivational affixes.
 
 ##### hybrid words
 
@@ -74,103 +78,107 @@ Sometimes ⟮initialism⟯ is ⟮just a synonym for⟯ ⟮acronym⟯.
 
 ####### backronym
 
-A backronym is a word that originally was not an acronym but is turned into one.
+»⟮A backronym⟯« is a word that ⟮originally was not⟯ ⟮＿an acronym＿⟯ but ⟮c_-;is turned into one⟯.
 Examples of backgronyms: SAD ("seasonal affective disorder"), SOS ("Save Our Souls")
 More recent examples include the brand name Adidas, named after company founder Adolf "Adi" Dassler but falsely believed to be an acronym for "All Day I Dream About Sport"; Wiki, said to stand for "What I Know Is", but in fact derived from the Hawaiian phrase wiki-wiki meaning "fast"; or Yahoo!, sometimes claimed to mean "Yet Another Hierarchical Officious Oracle", but in fact chosen because Yahoo's founders liked the word's meaning of "rude, unsophisticated, uncouth" (taken from Jonathan Swift's book Gulliver's Travels).
 
 ###### numeronym
 
-A numeronym is a word based on/using numbers.
-Most commonly, a numeronym (a number based on/using numbers) is an abbreviation.
-Numeronyms as abbreviations frequently either count the amount of letters in a word, have the numbers stand for words thus forming a weird abbreviation, or use the number metonymically.
+»⟮A numeronym (broad)⟯« is a word ⟮based on/using numbers⟯.
+»⟮A numeronym (narrow)⟯« is ⟮＿a numeronym (broad)＿⟯ which is ⟮＿an abbreviation＿⟯.
+⟮＿Numeronyms (narrow)＿⟯ frequently either c⟮c_;ount the amount of letters in a word⟯, ⟮c_;have the numbers stand for words thus forming a weird abbreviation⟯, or ⟮c_;use the number metonymically⟯.
 Examples for numeronums: 9/11 (date metonym), i18n (letter count), 4649 (weird syllablecronym)
 
 ####### instances
 
 table:numeronym|meaning
-a11y|accessibility
-g11n|globalization
-p13n|personalization
-i18n|internationalization
+⟮a11y⟯|⟮accessibility⟯
+⟮g11n⟯|⟮globalization⟯
+⟮p13n⟯|⟮personalization⟯
+⟮i18n⟯|⟮internationalization⟯
 
 #### both/either-or
 
 ##### portmanteus
 
-A splinter is a part of a lexeme that is not a morph.
+»⟮A splinter⟯« is ⟮a part of ＿a lexeme＿⟯ that ⟮is not ＿a morph＿⟯.
 e.g. both 'm' (from 'motor(ist)') and 'otel' (from 'hotel') in motel are splinters.
-The terms portmanteu and blends are mixed to the point of confusion, ergo I will use neither.
-A portmanteu word is a lexcreation where parts of multiple words are combined into a new word/morph.
-A blend word is a portmanteu word where at least one part is a splinter.
-A portmanteu morph is the merging of multiple morphs into one morph.
-For example, -t in spanish might be a portmanteu morph of the morph for 3rd person and for singular.
-took may be considered a portmanteu morph of take + ed.
+The terms ⟮portmanteu⟯ and ⟮blend⟯ are ⟮mixed to the point of confusion⟯, ergo I will use neither (defining more specific ones instead).
+»⟮A portmanteu word⟯« is ⟮＿a lexcreation＿⟯ where ⟮parts of multiple words⟯ are ⟮combined into a new word/＿morph＿⟯.
+»⟮A blend word⟯« is ⟮＿a portmanteu word＿⟯ where ⟮at least one part⟯ is ⟮＿a splinter＿⟯.
+»⟮A portmanteu morph⟯« is ⟮the merging of multiple ＿morphs＿⟯ into ⟮one ＿morph＿⟯.
+For example, ⟮-t⟯ in spanish might be ⟮＿a portmanteu morph＿⟯ of ⟮the ＿morphs＿ for⟯ ⟮3rd person⟯ and for ⟮c_;singular⟯.
+⟮took⟯ may be considered ⟮＿a portmanteu morph＿⟯ of ⟮take + ed⟯.
 
 ##### clipping
 
-Clipping may also be called truncation or shortening.
-Clipping is lexcreation by removing some segments (be those syllables, morphs, phones...) of a lexeme, but retaining the original meaning.
+⟮Clipping⟯ may also be called ⟮truncation⟯ or ⟮shortening⟯.
+»⟮Clipping⟯« is ⟮＿lexcreation＿⟯ by ⟮removing⟯ some ⟮＿segments＿ (be those syllables, morphs, phones...)⟯ of a lexeme, but ⟮retaining the original meaning⟯.
 e.g. Coronavirus → rona, refridgerator → fridge, influenza → flu
-Clipping is different from back-formation in that other things than morphemes can be clipped away and that back-formation may change the sense and/or word class.
-Clipping is also different from back-formation, which proceeds by (pseudo-)morpheme rather than segment, and where the new word may differ in sense and word class from its source.
+⟮＿Clipping＿⟯ is also different from ⟮＿back-formation＿⟯, which proceeds by ⟮＿(pseudo-)morpheme＿⟯ rather than ⟮c_;＿segment＿⟯, and where the new word ⟮may differ⟯ in ⟮sense⟯ and/or ⟮c_;word class⟯ from its source.
 
 #### productivity
 
-productivity is the degree to which native speakers of a language use a particular process in lexcreation.
-The polar ends of productivity are productive and unproductive.
-Lexcreation processses that are applied very infrequently are likely unproductive.
-In english, using ablauts to create preterite verbs is unproductive, while using -ed to create preterite verbs is productive.
+»⟮productivity⟯« is ⟮the degree to which⟯ ⟮native speakers of a language⟯ ⟮use a particular process⟯ in ⟮＿lexcreation＿⟯.
+The polar ends of ⟮＿productivity＿⟯ are ⟮productive⟯ and ⟮c_;unproductive⟯.
+Lexcreation processses that are applied ⟮very infrequently⟯ are likely ⟮＿unproductive＿⟯.
+In english, using ⟮ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿unproductive＿⟯, while using ⟮c-2;-ed⟯ to ⟮create preterite verbs⟯ is ⟮＿productive＿⟯.
 
 ### inflection
 
-Inflection is word formation via the use of inflectional morphemes.
-An inflectional morpheme modifies a lexeme.
-An inflectional morpheme indicates one or more grammemes.
+»⟮Inflection⟯« is ⟮＿word formation＿⟯ via ⟮the use of ＿inflectional morphemes＿⟯, ergo to indicate ⟮＿grammemes＿⟯.
+»⟮An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
+»⟮An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
 The stem is the morpheme that is commonly used as a starting point for inflections.
-An invariable/invariant word is a word that cannot be inflected.
+»⟮An invariable/invariant word⟯« is a word that ⟮cannot be ＿inflected＿⟯.
+An inflectional category is a grammatical feature (typically) indicated via inflection.
 
 #### declension and conjugation
 
-Inflection can be subdivided into ⟮declension and conjugation⟯
-⟮Conjugation⟯ is inflection of ⟮verbs⟯
-⟮Declension⟯ is inflection of ⟮nouns or adjectives⟯
+»⟮Inflection⟯« can be subdivided into ⟮＿declension＿ and ＿conjugation＿⟯
+»⟮Conjugation⟯« is ⟮＿inflection＿⟯ of ⟮verbs⟯
+»⟮Declension⟯« is ⟮＿inflection＿⟯ of ⟮nouns or adjectives⟯
 
 #### agreement
 
-Agreement is inflection caused by other words (or similar) in the sentence.
+»⟮Agreement⟯« is ⟮＿inflection＿⟯ caused by ⟮constraints imposed⟯ by ⟮other words/constituents in the sentence⟯
 
 #### Inflectional paradigm
 
-An »inflectional paradigm« is the complete set of forms that a class of words can assume ⟮when inflecting⟯
-A »⟮typical inflectional paradigm⟯« (my term) is an inflectional paradigm that is used by a set of words selected by a well-defined criterion (e.g. based on how it ends)
-An inflectional category is the subset of elements of a inflection paradigms that all realize a common grammatical feature category.
-The inflectional category set (my term) is the set of inflectional categories that exist realizing a common grammatical feature category.
+»⟮An inflectional paradigm⟯« is ⟮the complete set of forms=words⟯ that ⟮＿a lexeme＿⟯ ⟮can assume⟯ ⟮when ＿inflecting＿⟯
+Sometimes, ⟮inflectional paradigm⟯ is (kinda falsely) used as ⟮a synonym⟯ of ⟮inflectional class⟯.
+»⟮An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ that unite a number of lexemes and inflectional paradigms because the inflectional paradigm of the lexeme can be deduced by knowing the lexeme, the inflectional class it belongs to, and the inflectional morpheme pattern of the inflectional class
+A »⟮typical inflectional class⟯« (my term) is an inflectional class that is used by a set of lexemes selected by a well-defined criterion (e.g. based on how it ends)
+»⟮An inflectional category⟯« is the subset of elements of a inflectional class that all realize a common grammatical feature category.
+»⟮The inflectional category set⟯« (my term) is the set of inflectional categories that exist realizing a common grammatical feature category.
 e.g. case, number
-A lexeme is defective if it lacks some of the forms of its inflectional paradigm.
+⟮＿A lexeme＿⟯ is »⟮defective⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮lacks some of the forms⟯ of ⟮＿its inflectional class＿⟯.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
-A lexeme is regular/irregular if it has/does not have a typical inflectional paradigm.
-A verb class is one of the typical inflectional paradigms for verb.
+
+A lexeme is »⟮regular/irregular⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮does/does not conform to⟯ ⟮＿a typical inflectional class＿⟯.
+»⟮A verb class⟯« is ⟮one of⟯ ⟮＿the typical inflectional classes＿⟯ for ⟮verb⟯.
 
 ## morphology
 
-Morphemes combine to form words.
-^Ergo, all what morphology does is word formation.
-
-### things
-
-#### basics 
-
 Morphology is the branch of grammar that studies morphemes and morheme combinations.
 A morpheme is the smallest unit of language that corresponds to a sememe or grammeme.
-Morphs as etic units are various phonological realization of the morphemes.
-⟮Morphology⟯ generally deals with the ⟮phonology⟯ and not ⟮orthography⟯ of morphs/morphemes, as s⟮peech is more basic to language than writing⟯. 
+Morphemes combine to form words.
+Ergo, all what morphology does is word formation.
+
+### morphs/morphemes 
+
+Morphs are the various phonological realizations of morphemes.
+^Morphology generally deals with the phonology and not orthography of morphs/morphemes, as speech is more basic to language than writing⟯. 
 The word ⟮unbreakable⟯ consists of the morpheme ⟮un, break, able.⟯ 
 ⟮Morphs⟯ and ⟮morphemes⟯ are generally written in ⟮curly braces {⟯}. 
 {/ s /}, {/ z /}, and {/ iz /}}} are all ⟮allomorphs⟯ of {{c19::the morpheme {s} (plural s)
+
+#### special types
+
 A null/zero morpheme is a morpheme that has no phonetic form/realization.
 The root is the irreducable morphological core of a lexeme.
 
-#### free and bound forms
+#### free and bound morphemes
 
 A free morpheme is one that can stand on its own as a word.
 A bound morpheme is one that only appears as part of a larger word.
