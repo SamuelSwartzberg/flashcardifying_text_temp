@@ -154,6 +154,11 @@ Clusivity is the grammatical feature feature (part of grammatical person) encodi
 
 #### arguments & morphosyntactic alignment
 
+##### grammatical relations 
+
+Grammatical relations are subjects and objects, and perhaps others depending on your theory.
+The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
+
 ##### valency
 
 Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
