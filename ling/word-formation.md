@@ -1,76 +1,76 @@
 # word formation
 
-Word formation is the creation of new words.
+»⟮Word formation⟯« is ⟮the creation of new words⟯.
 
 ## what is created
 
-Word formation may either be lexcreation or inflection.
+⟮＿Word formation＿⟯ may either be ⟮＿lexcreation＿⟯ or ⟮＿inflection＿⟯.
 
 ### lexcreation
 
-Lexcreation (my term) is word formation as the creation of new lexemes.
-Lexcreation may be morphological or not.
+»⟮Lexcreation⟯« (my term) is ⟮＿word formation＿⟯ as the creation of ⟮new ＿lexemes＿⟯.
+⟮＿Lexcreation＿⟯ may be ⟮＿morphological＿⟯ or ⟮c_;not⟯.
 
 #### morphological
 
-Morphological lexcreation is lexcreation via morphology.
-Morphological lexcreation may be compounding or morphological derivation
+»⟮Morphological lexcreation⟯« is ⟮＿lexcreation＿⟯ via ⟮＿morphology＿⟯.
+⟮＿Morphological lexcreation＿⟯ may be ⟮＿compounding＿⟯ or ⟮＿morphological derivation＿⟯
 
 ##### morphological derivation
 
-Morphological derivation is morphological lexcreation by adding or removing affixes.
-A derivate is a word created via derivation.
+»⟮Morphological derivation⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮adding or removing ＿affixes＿⟯.
+»⟮A derivate⟯« is ⟮＿a lexeme＿⟯ ⟮created via derivation⟯.
 
 ##### hybrid words
 
-A hybrid word is a morphological derivation that derives from at least two different languages. 
-The most common ⟮hybrid words⟯ in ⟮english⟯ consist of ⟮one latin-derived and one greek-derived part⟯
+»⟮A hybrid word⟯« is ⟮＿a morphological derivation＿⟯ that ⟮derives from at least two different languoids⟯. 
+The most common ⟮＿hybrid words＿⟯ in ⟮english⟯ consist of ⟮one latin-derived and one greek-derived part⟯
 e.g. asexual (greek a- and latin sexus), democide (greek demos and latin -cida), automobile (greek autos and latin mobilis)
 
 ##### compounds
 
-Compounding is morphological lexcreation by creating compounds.
-A compound is a lexeme that consists of more than one compound parts.
-A compound part (my term) is a former lexeme that becomes a part of a compound.
+»⟮Compounding⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮creating ＿compounds＿⟯.
+⟮»A compound«⟯ is ⟮＿a lexeme＿⟯ that ⟮consists of⟯ ⟮more than one⟯ ⟮＿compound part＿⟯.
+»⟮A compound part⟯« (my term) is ⟮a former ＿lexeme＿⟯ that ⟮becomes a part of ＿a compound＿⟯.
 
-###### finding the maning
+###### finding the meaning
 
-The head of a compound is the lexeme that is being modified by the other lexemes in the compound.
-An endocentric compound is one where the head indicates basic type of thing, all other compound parts describe the head
-An exocentric compound is one where the compound parts all describe aspects some sort of unexpressed thing
-A copulative compound is one where the sememe is the intersection of the sememes compound parts (or roughly so).
+»⟮The head of a compound⟯« (when it exists) is ⟮＿the compound part＿⟯ that is ⟮being modified by⟯ ⟮the other ＿compound parts＿ in the compound⟯.
+»⟮An endocentric compound⟯« is one where ⟮＿the head＿⟯ ⟮indicates basic type of ＿sememe＿⟯, ⟮hb;⟮all other ＿compound parts＿⟯ ⟮describe ＿the head＿⟯⟯
+»⟮An exocentric compound⟯« is one where ⟮＿the compound parts＿⟯ all ⟮describe aspects of⟯ ⟮some sort of unexpressed ＿sememe＿⟯
+»⟮A copulative compound⟯« is one where ⟮＿the sememe＿⟯ is ⟮c_;the intersection of⟯ ⟮＿the sememes＿ of ＿the compound parts＿⟯ (or roughly so).
 An appositional compound is supposedly different from a copulative compound, but I don't see it.
-A dvandva is another name for a copulative/appositional compound.
+»⟮A dvandva⟯« is ⟮another name for⟯ ⟮＿a copulative/appositional compound＿⟯.
 If the english word for siblings was a copulative compound and we believed in the gender binary, it would be brothersister.
 
 
 table:name|example
-endocentric|smalltalk
-exocentric|white-collar, scarecrow
-copulative|bittersweet, sleepwalk
+⟮endocentric⟯|⟮smalltalk⟯
+⟮exocentric⟯|⟮white-collar, scarecrow⟯
+⟮copulative⟯|⟮bittersweet, sleepwalk⟯
 
 ###### english
 
-In english, ⟮compounds⟯ can be open, closed or hyphenated.
-An open/closed compound is a compound containing/not containing a spacce.
-In english, ⟮compounds⟯ generally ⟮progress from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
+In ⟮english⟯, ⟮＿compounds＿⟯ can be ⟮open⟯, ⟮c_;closed⟯ or ⟮c_;hyphenated⟯.
+»⟮An open/closed compound⟯« is ＿a compound＿ ⟮containing/not containing⟯ ⟮a space⟯.
+In ⟮english⟯, ⟮＿compounds＿⟯ generally ⟮progress⟯ ⟮from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
 e.g. "To day" → "to-day" → "today"
 
 #### nonmorphological
 
-Nonmorphological lexcreation is derivation that does not directly/completely use morphology.
+»⟮Nonmorphological lexcreation⟯« is ⟮＿lexcreation＿⟯ that ⟮does not⟯ ⟮directly/completely⟯ ⟮c_-;use morphology⟯.
 
 ##### abbreviation
 
-An abbreviation is nonmorphological lexcreation by shortening a word.
+»⟮Abbreviation⟯« is ⟮＿nonmorphological lexcreation＿⟯ by ⟮shortening a word⟯.
 
 ###### acronym
 
-An acronym is a type of abbreviation formed from the first letters of other words.
+»⟮An acronym⟯« is a type of ⟮＿abbreviation＿⟯ formed from ⟮the first letters of other words⟯.
 e.g. ATM = automated teller machine; SIA = singapore international airlines
-Initialism = alphabetism
-An initialism is an acronym which is pronounced as individual letters.
-Sometimes initialism is just a synonym for acronym.
+⟮Initialism⟯ =syn= ⟮alphabetism⟯
+»⟮An initialism⟯« is ⟮＿an acronym＿⟯ which is p⟮ronounced as individual letters⟯.
+Sometimes ⟮initialism⟯ is ⟮just a synonym for⟯ ⟮acronym⟯.
 
 ####### backronym
 
@@ -156,9 +156,9 @@ A verb class is one of the typical inflectional paradigms for verb.
 Morphemes combine to form words.
 ^Ergo, all what morphology does is word formation.
 
-## things
+### things
 
-### basics 
+#### basics 
 
 Morphology is the branch of grammar that studies morphemes and morheme combinations.
 A morpheme is the smallest unit of language that corresponds to a sememe or grammeme.
@@ -170,31 +170,31 @@ The word ⟮unbreakable⟯ consists of the morpheme ⟮un, break, able.⟯
 A null/zero morpheme is a morpheme that has no phonetic form/realization.
 The root is the irreducable morphological core of a lexeme.
 
-### free and bound forms
+#### free and bound forms
 
 A free morpheme is one that can stand on its own as a word.
 A bound morpheme is one that only appears as part of a larger word.
 
-## processes
+### processes
 
-### reduplication
+#### reduplication
 
 Reduplication is the process in which a morpheme is repeated within a single word
 
-### attaching stuff
+#### attaching stuff
 
-#### affixes
+##### affixes
 
 Affixes are bound morphemes attached to the stem for word formation.
 A base is any morphological unit to which affixes can be attached.
 
-##### use
+###### use
 
 Depending on what they're used for, affixes may be inflectional or derivational.
 Inflectional affixes are those attached for inflection.
 Derivational affixes are those attached for morphological derivation.
 
-##### position
+###### position
 
 Depending on their position, affixes may be an adfix, infix or circumfix (and less common ones too).
 An adfix is an affix that goes before or after the stem.
@@ -202,12 +202,12 @@ An adfix may be a prefix or suffix.
 A circumfix is an affix that goes before and after the stem.
 An infix is an affix inserted into the stem.
 
-##### genesis.
+###### genesis.
 
 A ⟮libfix⟯ is a ⟮productive⟯ ⟮bound morpheme affix⟯ created by ⟮back-formation⟯, which still ⟮contains some of the original meaning of the word⟯.
 ⟮-gate, -cation, -tard, -verse⟯ are examples of ⟮libfixes⟯
 
-#### clitics
+##### clitics
 
 Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
 The thing that a clitic attaches to is its host.
@@ -223,7 +223,7 @@ Enclitic   A clitic that appears after its host
 Mesoclitic   A clitic that appears between the stem of the host and other affixes
 Proclitic   A clitic that appears before its host
 
-## analysis
+### analysis
 
 A surface analysis is a valid analysis of a lexeme's morphology no matter if etymologically true.
 Surface analysis and all derivative terms are most frequently used to describe thereby resultant word formation.
@@ -237,12 +237,12 @@ a folk etymology (or similar) is an etymology that is based on an common-sense/o
 folk etymology may be used as a synonym to reanalysis, but this is confusing, so I won't
 Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
-## typology
+### typology
 
 Morphological typology is linguistic typology according to a language's morphology.
 The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
 
-### analytic, synthetic
+#### analytic, synthetic
 
 Analytic languages contain very little inflection and thus have very few (often close to 1) morphemes per word 
 Synthetic languages contain a lot of inflection and thus have many morphemes per word.
@@ -255,9 +255,9 @@ table:morphological typology|example languages
 highly analytic|chinese, vietnamese
 highly synthetic|japanese, turkish
 
-## tools
+### tools
 
-### interlinear gloss
+#### interlinear gloss
 
 A ⟮gloss⟯ is ⟮a brief explanation⟯, often ⟮placed near the text⟯ ⟮it is explaining⟯
 An ⟮interlinear gloss⟯ is ⟮a gloss⟯ that is ⟮placed between lines.⟯
