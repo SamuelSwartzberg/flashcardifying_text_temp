@@ -58,7 +58,21 @@ table:name|example
 In ⟮english⟯, ⟮＿compounds＿⟯ can be ⟮open⟯, ⟮c_;closed⟯ or ⟮c_;hyphenated⟯.
 »⟮An open/closed compound⟯« is ＿a compound＿ ⟮containing/not containing⟯ ⟮a space⟯.
 In ⟮english⟯, ⟮＿compounds＿⟯ generally ⟮progress⟯ ⟮from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
-e.g. "To day" → "to-day" → "today"
+e.g. "To day" → "to-day" → "today"]
+
+##### analysis
+
+»⟮A surface analysis⟯« is ⟮a valid analysis⟯ of ⟮a lexeme's morphology⟯ ⟮no matter if etymologically true⟯.
+⟮＿Surface analysis＿⟯ and ⟮c_;all derivative terms⟯ are most frequently used to describe ⟮thereby resultant ＿word formation＿⟯.
+»⟮Reanalysis⟯« is ⟮＿surface analysis＿⟯ ⟮into a different morphology than it originally had⟯.
+»⟮Juncture loss⟯« is ⟮＿reanalysis＿⟯ where ⟮an article and a noun fuse⟯.
+⟮＿Juncture loss＿⟯: al + chemy (from arabic) → alchemy
+⟮Rebracketing⟯ is also sometimes known as ⟮resegmentation⟯ or ⟮metanalysis⟯
+»⟮rebracketing⟯« is ⟮＿reanalysis＿⟯ ⟮into a different set of morphemes⟯, but ⟮still a set⟯
+⟮＿rebracketing＿⟯: hamburger as ham + burger instead of hamburg + er
+»⟮a folk etymology⟯« (or similar) is ⟮an etymology⟯ that ⟮is based on an common-sense/obvious (but false) interpretation⟯
+⟮folk etymology⟯ may be used ⟮as a synonym to⟯ ⟮reanalysis⟯, but this is confusing, so I won't
+Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
 
 #### nonmorphological
 
@@ -216,51 +230,35 @@ A ⟮libfix⟯ is a ⟮productive⟯ ⟮bound morpheme affix⟯ created by ⟮ba
 
 ##### clitics
 
-Clitics are bound morphemes that acts like a word in certain syntactic properties, and like an affix in that it can't stand on its own, though the boudnaries are somewhat fuzzy.
-The thing that a clitic attaches to is its host.
-When something is being attached as a clitic, it is ⟮cliticising⟯
-```lang=text;
-It☞'s☜ a boy!
-I☞'m☜ terribly sorry.
-The queen☞'s☜ balls.
-I haven☞'t☜ the faintest.
-Senatus Populus☞que☜ Romanus
-``` 
-Enclitic   A clitic that appears after its host
-Mesoclitic   A clitic that appears between the stem of the host and other affixes
-Proclitic   A clitic that appears before its host
+»⟮Clitics⟯« are ⟮＿bound morphemes＿⟯ that ⟮act like words⟯ regarding ⟮certain syntactic properties⟯.
+E.g. It☞'s☜ a boy!, I☞'m☜ terribly sorry., Senatus Populus☞que☜ Romanus
+»⟮The host⟯« is ⟮the thing a clitic attaches to⟯.
+»⟮Cliticising⟯« is ⟮attaching as a clitic⟯.
 
-### analysis
+###### types
 
-A surface analysis is a valid analysis of a lexeme's morphology no matter if etymologically true.
-Surface analysis and all derivative terms are most frequently used to describe thereby resultant word formation.
-Reanalysis is surface analysis into a different morphology than it originally had.
-Juncture loss is reanalysis where an article and a noun fuse.
-Juncture loss: al + chemy (from arabic) → alchemy
-Rebracketing is also sometimes known as resegmentation or metanalysis
-rebracketing is reanalysis into a different set of morphemes, but still a set
-rebracketing: hamburger as ham + burger instead of hamburg + er
-a folk etymology (or similar) is an etymology that is based on an common-sense/obvious (but false) interpretation
-folk etymology may be used as a synonym to reanalysis, but this is confusing, so I won't
-Synonyms: folk etymology, fake etymology, false etymology, pseudoetymology
+table:name|clitic that appears...
+»⟮Enclitic⟯«|⟮after its host⟯
+»⟮Mesoclitic⟯«|⟮between the stem of the host and other affixes⟯
+»⟮Proclitic⟯«|⟮before its host⟯
 
 ### typology
 
-Morphological typology is linguistic typology according to a language's morphology.
-The main distinction within morphological typology is the spectrum between analytic languages and synthetic languages.
+»⟮Morphological typology⟯« is ⟮＿linguistic typology＿⟯ according to⟮ a language's morphology⟯.
+The main distinction within ⟮＿morphological typology＿⟯ is ⟮the spectrum between ＿analytic languages＿ and ＿synthetic languages＿⟯.
 
 #### analytic, synthetic
 
-Analytic languages contain very little inflection and thus have very few (often close to 1) morphemes per word 
-Synthetic languages contain a lot of inflection and thus have many morphemes per word.
-Synthetic languages can be subdivided into (among others) agglutinative and fusional languages.
-fusional languages merge many different inflectional categories into the same morpheme.
-analytic languages have different morphemes for different inflectional categories and glue those together.
+»⟮Analytic languages⟯« have ⟮few morphemes per word⟯.
+»⟮Synthetic languages⟯« have ⟮many morphemes per word⟯.
+⟮＿Synthetic languages＿⟯ can be subdivided into (among others) ⟮＿agglutinative＿⟯ and ⟮＿fusional languages＿⟯.
+»⟮fusional languages⟯« ⟮merge⟯ ⟮many different ＿grammatical feature categories＿⟯ ⟮c_-;into the same morpheme⟯.
+»⟮analytic languages⟯« have ⟮different morphemes⟯ for ⟮＿different grammatical feature categories＿⟯ and ⟮glue those together⟯.
 
 
 table:morphological typology|example languages
-highly analytic|chinese, vietnamese
-highly synthetic|japanese, turkish
+⟮highly analytic⟯|⟮chinese, vietnamese⟯
+⟮highly synthetic⟯|⟮japanese, turkish⟯
 
 ### tools
 
