@@ -23,7 +23,7 @@ Ergo, ⟮＿word formation＿⟯ may be used to ⟮express⟯ ⟮c_;＿lexemes�
 »⟮A derivate⟯« is ⟮＿a lexeme＿⟯ ⟮created via derivation⟯.
 ⟮＿Morphological derivation＿⟯ may change the ⟮word class⟯, ⟮c_;sememe⟯, or ⟮c_;both⟯.
 »⟮A derivational affix⟯« is ⟮＿an affix＿⟯ ⟮used in ＿morphological derivation＿⟯.
-»⟮A derivational paradigm⟯« is the set of words that share a stem but have different derivational affixes.
+»⟮A derivational paradigm⟯« is ⟮the set of words⟯ that ⟮share ＿a stem＿⟯ but ⟮have different ＿derivational affixes＿⟯.
 
 ##### hybrid words
 
@@ -147,10 +147,10 @@ An inflectional category is a grammatical feature (typically) indicated via infl
 
 »⟮An inflectional paradigm⟯« is ⟮the complete set of forms=words⟯ that ⟮＿a lexeme＿⟯ ⟮can assume⟯ ⟮when ＿inflecting＿⟯
 Sometimes, ⟮inflectional paradigm⟯ is (kinda falsely) used as ⟮a synonym⟯ of ⟮inflectional class⟯.
-»⟮An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ that unite a number of lexemes and inflectional paradigms because the inflectional paradigm of the lexeme can be deduced by knowing the lexeme, the inflectional class it belongs to, and the inflectional morpheme pattern of the inflectional class
-A »⟮typical inflectional class⟯« (my term) is an inflectional class that is used by a set of lexemes selected by a well-defined criterion (e.g. based on how it ends)
-»⟮An inflectional category⟯« is the subset of elements of a inflectional class that all realize a common grammatical feature category.
-»⟮The inflectional category set⟯« (my term) is the set of inflectional categories that exist realizing a common grammatical feature category.
+»⟮An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ such that ⟮one could generate⟯ ⟮＿the inflectional paradigm＿⟯ of ⟮lexemes falling under ⟮h-4;＿the inflectional class＿⟯⟯ ⟮using only⟯ ⟮the selfsame and the lexeme⟯.
+A »⟮typical inflectional class⟯« (my term) is ⟮＿an inflectional class＿⟯ that ⟮unites the ＿inflectional paradigms＿⟯ of ⟮a set of lexemes⟯ ⟮selected by a well-defined criterion (e.g. based on how it ends)⟯
+»⟮An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿grammatical feature category＿⟯.
+»⟮The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿grammatical feature category＿⟯.
 e.g. case, number
 ⟮＿A lexeme＿⟯ is »⟮defective⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮lacks some of the forms⟯ of ⟮＿its inflectional class＿⟯.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
@@ -160,28 +160,27 @@ A lexeme is »⟮regular/irregular⟯« if ⟮＿its inflectional paradigm＿⟯
 
 ## morphology
 
-Morphology is the branch of grammar that studies morphemes and morheme combinations.
-A morpheme is the smallest unit of language that corresponds to a sememe or grammeme.
-Morphemes combine to form words.
-Ergo, all what morphology does is word formation.
+»⟮A morpheme⟯« is ⟮the smallest⟯ ⟮＿segment＿⟯ that ⟮corresponds to ＿a sememe＿ or ＿grammeme＿⟯.
+⟮One or more⟯ ⟮＿morphemes＿⟯ ⟮form a word⟯.
+Ergo, ⟮all of⟯ what ⟮＿morphology＿⟯ does is ⟮＿word formation＿⟯.
 
 ### morphs/morphemes 
 
-Morphs are the various phonological realizations of morphemes.
+»⟮Morphs⟯« are ⟮the various phonological realizations⟯ of ⟮＿morphemes＿⟯.
 ^Morphology generally deals with the phonology and not orthography of morphs/morphemes, as speech is more basic to language than writing⟯. 
-The word ⟮unbreakable⟯ consists of the morpheme ⟮un, break, able.⟯ 
-⟮Morphs⟯ and ⟮morphemes⟯ are generally written in ⟮curly braces {⟯}. 
-{/ s /}, {/ z /}, and {/ iz /}}} are all ⟮allomorphs⟯ of {{c19::the morpheme {s} (plural s)
+The word ⟮unbreakable⟯ consists of ⟮＿the morphemes＿⟯ ⟮un, break, able.⟯ 
+⟮＿Morphs＿⟯ and ⟮c_;＿morphemes＿⟯ are generally written in ⟮curly braces {}⟯. 
+{/ s /}, {/ z /}, and {/ iz /} are all allomorphs of the morpheme {s} (plural s)
 
 #### special types
 
-A null/zero morpheme is a morpheme that has no phonetic form/realization.
-The root is the irreducable morphological core of a lexeme.
+»⟮A null/zero morpheme⟯« is ⟮＿a morpheme＿⟯ that ⟮has no phonetic form/realization⟯.
+»⟮The root⟯« is ⟮the irreducable morphological core⟯ ⟮of ＿a lexeme＿⟯.
 
 #### free and bound morphemes
 
-A free morpheme is one that can stand on its own as a word.
-A bound morpheme is one that only appears as part of a larger word.
+»⟮A free morpheme⟯« is one that ⟮can stand on its own as a word⟯.
+»⟮A bound morpheme⟯« is one that ⟮only appears as part of a larger word⟯.
 
 ### processes
 
@@ -267,33 +266,39 @@ highly synthetic|japanese, turkish
 
 #### interlinear gloss
 
-A ⟮gloss⟯ is ⟮a brief explanation⟯, often ⟮placed near the text⟯ ⟮it is explaining⟯
-An ⟮interlinear gloss⟯ is ⟮a gloss⟯ that is ⟮placed between lines.⟯
-In linguistics, ⟮interlinear glossing⟯ follows the ⟮Leipzig Glossing Rules⟯.
-In linguistics, ⟮interlinear glossing following the Leipzig Glossing Rules⟯ is ⟮morpheme⟯-by-⟮morpheme⟯.
-In linguistics, interlinear glossing is for the purpose of showing the syntax and morphology of the sentence.
-However, since ⟮the exact morphology⟯ is ⟮not always clear⟯ or ⟮may be at issue⟯, ⟮interlinear glossing in linguistics⟯ is generally ⟮for the readers understanding⟯, not ⟮to state an analysis⟯.
+»⟮A gloss⟯« is ⟮a brief explanation⟯
+⟮＿A gloss＿⟯ is most often ⟮placed near the text⟯ ⟮it is explaining⟯
+»⟮An interlinear gloss⟯« is ⟮＿a gloss＿⟯ that is ⟮placed between lines.⟯
+»⟮A morphological interlinear gloss⟯« (my term) is ⟮＿a interlinear gloss＿⟯ to ⟮show the morphology of the string⟯.
+»⟮the Leipzig Glossing Rules⟯« are ⟮the (most common set of) rules⟯ for ⟮＿morphological interlinear glossing＿⟯.
+Since ⟮the exact morphology⟯ is ⟮not always clear⟯ or ⟮c_;may be at issue⟯, ⟮＿morphological interlinear glossing＿⟯ is generally ⟮for the readers understanding⟯, not ⟮c_;to state an analysis⟯.
 
-Interlinear glossing according to ⟮the Leipzig Glossing Rules⟯:
-Interlinear glosses are ⟮aligned⟯ ⟮word-by-word (not morpheme-by-morpheme!⟯), and in this way ⟮left-aligned⟯.
+##### !leipzig rules
+
+⟮＿Morphological interlinear glosses＿⟯ are ⟮left-aligned⟯ ⟮word-by-word (not morpheme-by-morpheme!⟯
 ⟮Morphemes within the same word⟯ are ⟮separated by hyphen⟯ both ⟮within the object language⟯ and ⟮in the gloss⟯.
-In Interlinear glosses, ⟮grammatical morphemes⟯ can be rendered by ⟮abbreviated lables (e.g. LOC⟯) or
-⟮by a word in the metalanguage (e.g. in⟯) In interlienar gloss, ⟮the lables indicating grammatical morphemes⟯ are ⟮written in caps⟯, most commonly ⟮in small caps.⟯
-In interlinear gloss, the ⟮most common⟯ of the abbreviated lables may be ⟮further abbreviated⟯.
+⟮＿Grammatical category labels＿⟯ are ⟮abbreviated labels⟯ for ⟮＿grammatical features＿⟯ rendered in ⟮all caps⟯.
+⟮grammatical morphemes⟯ can be rendered by ⟮＿grammatical category labels＿⟯ or ⟮by a word in the metalanguage (e.g. in)⟯ 
+the ⟮most common⟯ ⟮＿grammatical category labels＿⟯ may be ⟮further abbreviated⟯.
 ⟮Clitic boundaries⟯ are marked by ⟮an equals sign⟯.
-In interlinear gloss, if ⟮one element in the object language⟯ is ⟮rendered by several elements in the metalanguage⟯, those are ⟮separated in the gloss by periods. (there are also optional further category separations here which use _ \ = ; &gt;⟯) 
-Things that are ⟮contained in the gloss⟯ that are ⟮not marked in the object language⟯ may either ⟮be enclosed by []⟯ in ⟮the metalanguage⟯, or ⟮be indicated by ø⟯ in ⟮the object language⟯
+if ⟮one element in the object language⟯ is ⟮rendered by several elements in the metalanguage⟯, those are ⟮separated by periods⟯ in ⟮the gloss⟯
+^there are also optional further category separations here which use _ \ = ; &gt;
+Things that are ⟮contained in the gloss⟯ that are ⟮not marked in the object language⟯ may either ⟮be enclosed by []⟯ in ⟮c_;the metalanguage⟯, or ⟮be indicated by ø⟯ in ⟮c_;the object language⟯
 
-table:Grammatical Item|Abbreviation
-⟮Article⟯|⟮ART⟯
-⟮Demonstrative⟯|⟮DET⟯
-⟮Honorific⟯|⟮HON⟯
+###### examples
 
-poexa-l-i|avtobus-om|v|Peredelkino.
+table:poexa-l-i|avtobus-om|v|Peredelkino.
 1PL|COM|Marko|go-PST-PL|bus-INS|All|Peredelkino.
 span=7;'Marko and I went to Perdelkino by bus.'
 
 
-puer|or:|puer-Ø
+table:puer|or:|puer-Ø
 boy[NOM.SG]||boy-NOM.SG
 ‘boy’||‘boy’
+
+###### various gramattical category labels
+
+table:grammatical item|grammatical category label
+⟮Article⟯|⟮ART⟯
+⟮Demonstrative⟯|⟮DET⟯
+⟮Honorific⟯|⟮HON⟯
