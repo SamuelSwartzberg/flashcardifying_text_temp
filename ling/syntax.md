@@ -2,178 +2,151 @@
 # syntax
 
 Syntax is the study of how words and morphemes form larger units such as phrases and sentences and thus give rise to meaning.
-To me, syntax is one way of indicating grammemes.
-Syntax indicates sememes and pragmemes via the branching structure it forms.
-fronting something is movving it to the front of the sentence
-Morphosyntax is where morphology and syntax intersect.
 
 ## basic structure
 
-## constituents
+### constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
 The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
-Phrases are constituents, but not all constituents are phrases.
 
-### constituenty tests
+#### constituenty tests
 
 Constituents are identified by using constituent tests.
-There are many constituent tests in english, among which are: proform substitution
+There are many constituent tests in english, among which are: proform, cleft, question, and movement
+
+##### proform
+
 proform test: Substitute the relevant proform, perform a grammaticality judgement
 ```lang=text;
 The lady running the group handed in her resignation at noon.
 The lady running the group did so at noon.
 ```
+
+##### cleft
+
 cleft test: Move the string into the main clause of a cleft sentence (It was/is x that...)
 ```lang=text;
 The guests from overseas visited the best parts of the city on Monday
 It was the best parts of the city that the guests from overseas visited on Monday.
 ```
+
+##### question
+
 question test: Ask for the string in question with a wh-question.
 ```lang=text;
 The lady running the group handed in her resignation at noon.
 What did the lady running the group hand in at noon?
 Her resignation.
 ```
+
+##### movement
+
 Movement test: move string to different position in sentence.
 ```lang=text;
 Gertrude wasn't interested in art.
 Interested in art, Gertrude wasn't.
 ```
 
-### phrases
+#### phrases
 
-a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
-The head of a phrase is the thing everything else in the phrase is about.
+a phrase is a constituent which has a head which defines its type and acts in a certain way based on its type.
+The head of a phrase is the word everything else in the phrase is about.
 In a phrase, everything that isn't the head is a dependent.
-In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
-head-initial|English (partially)
+An XP is a phrase with X as its head.
+A phrasal category is the type of XP a phrase is.
+A word class gives rise to a relevant phrasal category.
 
-## trees
+### trees
 
-### branching
+#### direction
 
-For something to be left/right-branching is for their parse trees to grow to the left/right.
-Things that are left-branching are also head-final.
-Things that are right-branching are also head-initial.
+Something is head-inital/head-final if the head comes at the beginning/end, respectively.
+Something is left/right-branching if their parse trees grow to the left/right.
+Things that are left/right-branching are also head-inital/final.
 
-### annotation
+#### annotation
 
-#### labelled bracket
+##### labelled bracket
 
-Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
-Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
+Labeled bracketing notation is a notation to generate an arbitrary tree.
+Labeled bracketing notati is mostly used to generate syntax trees.
+Labeled bracketing notation: tree ::= [‹nodename› ｛‹tree›|‹leaf›｝]
 leaf ::= #somestring
-
-## expletives
-
-An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. 
-Expletitives are generally lexemes with other usual functions which are drained of their semantic contents for the purpose of acting as an expletive.
-^E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
 
 ## frameworks
 
 Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
+
+### generative semantics
+
 Generative semantics was a response to generative grammar developed in the 1960s.
-The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
-The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
+the linguistics wars was the conflict between propoonents of generative grammar and generative semantics.
+The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, 
+george lakoff was arguably the most famous horseman of the apocalypse.
 Generative semantics held that syntactic structures from meanings, rather than the other way around
 
-## movement
+### chomskyan
 
-A discontinuity is when two parts of a constituent are separated by an element that is not part of the constituent.
-Syntactic movement is the explanation of discontinuities via movement within the posited syntax tree.
-Syntactic movement is only used by some grammatical theories, and remains controversial.
+#### dependents
 
-### traces
-
-In chomskyian theories, movement leaves behind an empty category called a trace.
-Traces are indicated by t and subscripted with a letter or  number indicating what moved, this is known as coindexing.
-Some of the evidence of traces is that we can't contract over them.
-
-In syntax, something is "in situ" if it doesn't move, although it normally would.
-
-### types of movement
-
-Two types of movement often distinguished are phrasal and head movement.
-
-#### phrasal movement
-
-phrasal movement is syntactic movement of a phrase.
-
-#### head movement
-
-Head movement is the syntactic movement of a head.
-Head movement will leave behind any dependents as-is.
-Whatever-stranding is head movement that leaves behind a dependent whatever.
-Pied-piping is phrasal movement instead of head movement to prevent a dependent being left behind.
-
-##### head movement constraint
-
-The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
-The HMC is a proposed rule in generative grammar.
-Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
-The head movement contraint only applies to head movement, obv.
-According to the HMC, I can only move to a position that sellects IP as its complement.
-
-# unsorted
-
-### types of constiutents
-
-#### phrasees
-
-a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
-The head of a phrase is the thing everything else in the phrase is about.
-In a phrase, everything that isn't the head is a dependent.
-In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
-head-initial|English (partially)
-
-##### unsorted
-
-Posessive s is a determiner
-Posessor DP cannot be replaced by pronoun
-Posessive s is followed by NPs not DPs
-Posessive s attaches to DPs
-English posessive s is a clitic, german genitive s is an inflectional affix.
-
-##### X-bar framework-based
-
-
-The X-bar theory asserts that all phrases have the structure ✫https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/X-bar_schema_%28basic%29.png/300px-X-bar_schema_%28basic%29.png✫, which is called the X-bar schema.
-In the X-bar theory, each node is binary, i.e. has two children.
-In the X-bar theory, each phrase has a head.
-in the X-bar schema, there are four types of components in each schema.
-In the X-bar schema, arguments are necessary but may be empty.
-In the X-bar schema, the two types of arguments are complements and specifiers
-The difference between complements and specifiers is that the complement is a sister node to X, while the specifier is a sister node to X'.
-In the X-bar schema, anything that is not a head or an argument is an adjunct.
-Adjuncts may also be called modifiers.
-Adjuncts are optional, and adjoining them creates a phrase of the same type as it originally was.
+Dependents may be arguments or modifiers.
+Arguments/modifiers are necessary/optional for the phrase to be grammatical
+Arguments may be complements or specifiers.
+Complements appear closer (in the tree) to the head than the specifier.
+modifier =syn= adjunct.
+Adjoining adjuncts creates a phrase of the same type as it originally was.
 Ergo adjoining something to a YP results in a larger YP.
 Adjunction can be recursive.
-An adjunct can be any type of phrase.
+
+#### X-bar theory
+
+flex-container:✫x-bar-schema-basic.jpg✫
+
+
+The X-bar theory claims that all phrases follow the X-bar schema.
+
+##### !In the X-bar schema...
+
+each node is binary, i.e. has two children.
+each phrase has a head.
+arguments are necessary but may be empty.
+arguments are necessary but may be empty.
+The difference between complements and specifiers is that the complement is a sister node to X, while the specifier is a sister node to X'.
+
+##### layout
 
 flex-container:✫sm_Screenshot%202020-10-13%20at%2000.10.05.png✫
 
-table:class=blank-canvas;style=table-layout: fixed;
-span=4;class=inner;⟮XP⟯
-class=inner;⟮ZP⟯||span=3;class=inner;⟮X'⟯span=2;|class=inner;⟮X⟯||class=inner;⟮YP⟯
 
+table:class=blank-canvas;style=table-layout: fixed;headerrows=0,,,span=4;class=inner;⟮XP⟯
+class=inner;⟮ZP⟯||span=3;class=inner;⟮X'⟯
+span=2;|class=inner;⟮X⟯||class=inner;⟮YP⟯
 
+##### image example
 
 flex-container:✫sm_Screenshot 2020-10-13 at 00.28.29.png✫
+
+
+table:in image|is
 X|the head
 YP|the complement
 ZP|the specifier
 
-X|the minimum projection of X
-X'|neither the minimum nor the maximum projection of X
-X''/XP|the maximum projection of X
+##### in terms of projections
 
 In the X-bar schema, XP is theoretically X''.
 In the X-bar schema, X' and X'' (XP) are projections of X.
 
-In the X-bar schema, to indicate that foo is both a head and a complete phrase (both the minimal and the maximal projection), you can
+
+table:symbol|projection description
+X|the minimum projection of X
+X'|neither the minimum nor the maximum projection of X
+X''/XP|the maximum projection of X
+
+##### drawing
+
+###### heads that are both the minimal and maximal projection
 
 X/XP
 foo
@@ -193,9 +166,61 @@ XP
 X
 foo
 
-In the X-bar framework, a phrase consists
 
-CP
+## phenomena
+
+### expletives
+
+An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. 
+Expletitives are generally lexemes with other usual functions which are drained of their semantic contents for the purpose of acting as an expletive.
+^E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
+
+### movement
+
+A discontinuity is when two parts of a constituent are separated by an element that is not part of the constituent.
+Syntactic movement is the explanation of discontinuities via movement within the posited syntax tree.
+Syntactic movement is only used by some grammatical theories, and remains controversial.
+Something is "in situ" if it doesn't move, although it normally would.
+
+#### fronting
+
+Fronting something is moving it to the front of the sentence
+
+#### traces
+
+In chomskyian theories, movement leaves behind an empty category called a trace.
+Traces are symbolized by `t`.
+Co-indexing is marking the trace and the thing that moved with a subscript index/letter.
+Amongst the evidence for the existence of traces is that we can't contract over them.
+
+#### types of movement
+
+Two types of movement often distinguished are phrasal and head movement.
+
+##### phrasal movement
+
+phrasal movement is syntactic movement of a phrase.
+
+##### head movement
+
+Head movement is the syntactic movement of a head.
+Head movement will leave behind any dependents as-is.
+Whatever-stranding is head movement that leaves behind a dependent whatever.
+Pied-piping is phrasal movement instead of head movement to prevent a dependent being left behind.
+
+###### head movement constraint
+
+The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
+The HMC is a proposed rule in generative grammar.
+Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
+The head movement contraint only applies to head movement, obv.
+According to the HMC, I can only move to a position that sellects IP as its complement.
+
+
+# unsorted
+
+
+###### CP
 
 [CP [C] [IP]]
 CP may either be complement or adjunct to verb/VP
@@ -203,12 +228,10 @@ to test whether a CP is an adjunct or a complement, use a proform test on the Ve
 
 A complement clause is a CP that is a clause. (I think this is all CPs, but not sure)
 A complementizer is the POS that is the head of a CP.
-In english, the complementizer 'that' sometimes is unpronounced
-Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
 
 The object is the thing that is the complement of the VP.
 
-###### IPs
+###### IP theory
 
 under the IP theory, the sentence is an IP headed by an I.
 The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
@@ -222,100 +245,33 @@ class=inner;|class=inner;⟮I⟯|class=inner;⟮VP⟯
 class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
 
+Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
+Multiple auxiliaries are adjoined as Vs to the VP.
+Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
 
-###### VP-internal subject hypothesis
+#### certain hypotheses
+
+##### VP-internal subject hypothesis
 
 According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
 According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
+
+###### motivation
+
 The VP-internal subject hypothesis is desirable because it makes the VP consistent with the X-bar schema.
 The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
 The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
 Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
 
-flex-container:✫sm_Screenshot%202020-10-20%20at%2010.44.18.png✫
-
-
-table;class=blank-canvas;class=inner;span=3;⟮IP⟯
-class=inner;⟮DP⟯|span=3;class=inner;⟮I′⟯
-class=inner;|class=inner;⟮I⟯|span=3;class=inner;⟮VP⟯
-class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
-class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
-someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
-
-###### DP hypothesis: 
+##### DP hypothesis: 
 
 The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
 The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
 Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
+
+###### motivation
+
 Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
-The DP hypothesis is still a controversial hypothesis
+The DP hypothesis is still a controversial hypothesis.
 The DP hypothesis often correlates with the idea that pronouns are determiners.
 In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
-
-class=blank-canvas;span=2;class=inner;⟮DP⟯
-class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
-|class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
-||class=inner;⟮N⟯|class=inner;⟮PP⟯
-
-
-class=blank-canvas;span=2;class=inner;⟮DP⟯
-class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
-|class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
-||class=inner;⟮N⟯|class=inner;⟮PP⟯
-class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
-
-
-####### posessive s
-
-class=blank-canvas;span=3;class=inner;⟮DP⟯
-class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
-|class=inner;⟮D⟯|class=inner;⟮NP⟯
-class=leaf;[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
-
-
-class=blank-canvas;span=3;class=inner;⟮DP⟯
-class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
-span=1,2;|class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
-|class=inner;⟮N⟯|class=inner;⟮PP⟯
-class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
-
-
-###### NP hypothesis
-
-class=blank-canvas;span=2;class=inner;⟮NP⟯
-class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
-|class=inner;⟮AP⟯|span=2;class=inner;⟮N'⟯
-||class=inner;⟮N⟯|class=inner;⟮PP⟯
-class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
-
-
-###### IP hypothesis
-
-Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
-Multiple auxiliaries are adjoined as Vs to the VP.
-Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
-
-###### early modern english
-
-Lexical verbs could move to I, and thus to C, following the HMC.
-In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
-In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
-"What heards't thou?"
-
-###### german sentences
-
-The german main clause V2, subordinate clause V-final constituent order is explained as follows:
-In german, VP and IP are head-filnal
-All german clauses are CPs with pronouced Cs.
-Subordinate german clauses have their C positions filled by a complementizer as usual.
-If C is not filled by a complementizer (mostly main clauses), then V moves to I and then to C.
-In german subordinate clauses, the V can't move to C, because that is typically already filled by a real complementizer.
-If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
-Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
-
-##### types of phrases
-
-The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
-An XP is a phrase with X as its head.
-
-

@@ -107,3 +107,86 @@ other adposition|none exists
 
 
 If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first (due to the HMC)
+
+
+##### possessive s
+
+Posessive s is a determiner
+Posessor DP cannot be replaced by pronoun
+Posessive s is followed by NPs not DPs
+Posessive s attaches to DPs
+English posessive s is a clitic, german genitive s is an inflectional affix.
+
+## syntrees
+
+
+class=blank-canvas;span=2;class=inner;⟮DP⟯
+class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
+|class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
+||class=inner;⟮N⟯|class=inner;⟮PP⟯
+
+
+class=blank-canvas;span=2;class=inner;⟮DP⟯
+class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
+|class=inner;⟮AP⟯|span=2;class=inner;⟮NP⟯
+||class=inner;⟮N⟯|class=inner;⟮PP⟯
+class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
+
+
+####### posessive s
+
+class=blank-canvas;span=3;class=inner;⟮DP⟯
+class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
+|class=inner;⟮D⟯|class=inner;⟮NP⟯
+class=leaf;[Possessor]|class=leaf;'s|class=leaf;[Possessed entity]
+
+
+class=blank-canvas;span=3;class=inner;⟮DP⟯
+class=inner;⟮DP⟯|span=2;class=inner;⟮D'⟯
+span=1,2;|class=inner;⟮D⟯|span=2;class=inner;⟮NP⟯
+|class=inner;⟮N⟯|class=inner;⟮PP⟯
+class=leaf;that woman|class=leaf;'s|class=leaf;books|class=leaf;on physics
+
+
+###### NP hypothesis
+
+class=blank-canvas;span=2;class=inner;⟮NP⟯
+class=inner;⟮D⟯|span=2;class=inner;⟮N'⟯
+|class=inner;⟮AP⟯|span=2;class=inner;⟮N'⟯
+||class=inner;⟮N⟯|class=inner;⟮PP⟯
+class=leaf;the|class=leaf;best|class=leaf;student|class=leaf;of physics
+
+## vpint
+
+flex-container:✫sm_Screenshot%202020-10-20%20at%2010.44.18.png✫
+
+
+table;class=blank-canvas;class=inner;span=3;⟮IP⟯
+class=inner;⟮DP⟯|span=3;class=inner;⟮I′⟯
+class=inner;|class=inner;⟮I⟯|span=3;class=inner;⟮VP⟯
+class=inner;span=2;|class=inner;⟮DP⟯|span=3;class=inner;⟮V′⟯
+class=inner;span=3;|class=inner;⟮V⟯|class=inner;|class=inner;⟮DP⟯
+someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
+
+###### early modern english
+
+Lexical verbs could move to I, and thus to C, following the HMC.
+In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
+In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
+"What heards't thou?"
+
+###### german sentences
+
+The german main clause V2, subordinate clause V-final constituent order is explained as follows:
+In german, VP and IP are head-filnal
+All german clauses are CPs with pronouced Cs.
+Subordinate german clauses have their C positions filled by a complementizer as usual.
+If C is not filled by a complementizer (mostly main clauses), then V moves to I and then to C.
+In german subordinate clauses, the V can't move to C, because that is typically already filled by a real complementizer.
+If in german the V position is occupied by a compound verb, if the V moves (via I to C), what moves is the root, leaving the affix behind.
+Main clauses in german have the specifier of C filled by an arbitrary constituent moving there.
+
+
+
+In english, the complementizer 'that' sometimes is unpronounced
+Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
