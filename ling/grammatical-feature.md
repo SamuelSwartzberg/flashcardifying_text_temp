@@ -53,7 +53,7 @@ In languages with a singular/plural distinction, most often the singular is the 
 ###### grouping
 
 Distinguishing grouping via grammatical number is generally realized in a singulative/collective distinction.
-The collective grammatical number is a group with no distinction into individual entities (similar to english mass nouns)
+The collective grammatical number indicates a collective semantic referent.
 The singulative grammatical entitity refers to a specific entity.
 In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
 
@@ -455,6 +455,8 @@ A measure word is a classifier that appears with a numeral.
 Measure words are margial in indo-european languages.
 An example for an english measure word is piece of x, e.g. three pieces of paper.
 In east asian languages, measure words are often required.
+
+TODO: Better integration, also include:  The number together with its numeral classifier is called a numeral quantifier in the literature. (JP), http://web.mit.edu/norvin/www/24.902/numq.html
 
 ##### kinds of numerals
 

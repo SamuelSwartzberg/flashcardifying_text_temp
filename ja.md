@@ -1,6 +1,10 @@
 
 ## needs to be sorted in
 
+
+Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
+
+
 ### history, culture, etc
 
 

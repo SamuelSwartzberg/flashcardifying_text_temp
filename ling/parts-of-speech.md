@@ -1,13 +1,13 @@
-## parts of speech
+# parts of speech
 
-A part of speech/word class is a category of words with similar grammatical properties.
+A part of speech/word class is a category of words with similar syntactic, word-formation and sometimes semantic properties.
 Part of speech is synonymous with word class.
-Part of speech may be synonymous with lexcial category if we don't acknowledge functional categories.
-a closed word class is one that rarely or never accepts new members
-an open word class is one that can be extended without limit/readily accepts new members
-Clear distingction of word classes are difficult across languages.
+Clear distingction of word classes are difficult interlinguistically.
 Often the things we think of a ertain word class doing is actually what a phrase headed by that thing does.
 
+## abbreviations
+
+table:abbr|name
 A|Adjective
 P|Adposition
 Adv|Adverb
@@ -16,177 +16,183 @@ D|Determiner
 N|Noun
 V|Verb
 
-esp. in generative grammar, functional and lexical categories are often distinguished.
-functional category|purely grammatical meaning|Det, Conj, Aux...
-lexical category|some sort of semanting content|V, N, A, Adv...
+## closed vs open
 
+a closed word class is one that rarely or never accepts new members
+an open word class is one that can be extended without limit/readily accepts new members
+
+## categories
+
+A part of speech may be a functional, lexical or practical category.
+
+### functional categories
+
+A functional category is a part of speech that purely encodes grammemes (however, those can be semantic roles, thus also encoding semantics).
 A word that is a member of a functional category is called a function word.
-A word that is a member of a lexical category is called a content word.
 
-### particle
+#### particle
 
-A particle is a function word (member of a functional category) which cannot be inflected.
-A particle occurring at the end of the sentence is a sentence-final particle.
-Particles do not refer.
+A particle is a function word which cannot be inflected.
+A sentence-final particle is a particle occurring at the end of the sentence.
 Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
 
-### Interjections
+#### adpositions
 
-An interjection is a lexical item that indicates a reaction. 
+Types of adpositions: {post, pre, circum, ambi}
+An ambipositon is an adposition that may be either a pre- or postposition depending on other factors.
+
+##### semantics
+
+semantically, adpositions may indicate time, space, various semantic roles, or something else.
+
+##### transitivity
+
+Adpositions may be transitive or intransitive.
+A transitive/intransitive takes/does not take a complement.
+Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
+Transitive adpositions most commonly take NPs/DPs or other adpositional phrases as complements.
+
+### pragmatic categories
+
+A pragmatic category (my term) is a part of speech that mainly encodes (half of) practs.
+
+#### interjections
+
+Interjection is a pragmatic category that indicates a reaction. 
 Interjections are pretty separated from the rest of the syntax of the sentence.
-Interjections are a syntactic category, while discourse marker is a pragmatic category.
+Interjection and discourse marker are often used interchangeably, but interjection refers to the syntactic/morphological class, while discourse marker refers to the pragmatic class.
 
-### adjective
+### lexical category
 
-An adjective (phrase) describes a thing or restricts its referent.
-Adjective phrases in english can exist syyntactically in three ways: an attributive adjective, a predicative adjective and a nominalized adjective.
+A lexical category is a part of speech that (also) encodes sememes.
+A word that is a member of a lexical category is called a content word.
+Sometimes lexical category is used as a synonym for part of speech/word class (but I don't like this).
+
+#### ad
+
+##### adjective
+
+An adjective can act as the head of an AP, or become the head of an NP.
+A nominalized adjective is an adjective that has become the N head of an NP.
+
+###### AP
+
+An adjective phrase prototypically describes/restricts the semantics of its head.
+An adjective phrase may be attributive or predicative.
 An attributive adjective phrase is adjoined to an NP.
-A predicative adjective phrase has the adjective phrase as the complement of the verb.
-A nominalized adjective works as the head of an NP.
+A predicative adjective phrase is the complement of the NP.
 
-### adverb
+##### adverb
 
-In english at least, adverb(ial) phrases (and thus adverbs) act as a modifier/adjunct for any number of phrases, but not NPs (which is instead handled by APs).
-Adverbial phrases describes the thing its modifying.
-Adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
+An adverb is the head of an adverbial phrase.
+Adverb(ial) phrases modify any number of things that are not NPs/DPs.
+In some sense, adverb and adverb phrase have become a sort of catch-all category.
+Semantically, adverbial phrases describe/restrict the thing they're modifying.
+In most languages, adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
 
-### noun
+#### noun-related
+
+##### noun
 
 Nouns are heads of NPs.
-NPs (no DP theory) matter because they are the things that can be subjects or objects of verbs or prepositions.
-If we believe in the DP theory, NPs matter because they are the complements of Ds, and DPs are the things that can be subjects or objects of verbs or prepositions.
+NPs/DPs are the things that most commonly become subjects/objects. 
 
-#### attribution
+###### attribution
 
-In grammar, something attributive is a phrase within a NP/DP that modifies the head noun. 
-Adnnominal seems to be a synonym for attributive
-In english, relative clauses and attributive adjectives are the main things that act attributively.
-A verb that can be used attributively is known as an attributive verb.
+Something attributive is a phrase within a NP/DP that modifies the head noun. 
+Adnnominal =syn= attributive
+An attributive verb is a verb that can be used attributively.
 
-### det
+##### det
 
-A determiner is a word/affix that occurs that occurs together with a NP and expresses something about the reference of the noun phrase.
-Often, for any given pronoun, there is a similar or identical determiner
-Types of determiners: Articles, Demonstrative determiners, Quantifiers, distributive determiners, interrogative determiners
+A determiner is a lexical unit that occurs that occurs together with a NP (DP theory) and expresses something about the reference of the NP.
+Types of determiners: Articles, quantifiers, posessive determiners, demonstrative determiners, interrogative determiners
 
-#### Quantifier
+##### Quantifier
 
-Quantifiers are a type of determiner/pronoun (which may depending on your analysis may be a quantifier too).
-quantifiers are adjoined to the DP/NP to form a larger DP/NP.
-table:span=2;⟮DP⟯
-⟮Q/D⟯|⟮DP⟯
-all|the students
+A quantifier is a determiner that indicates quantity.
 
-Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
-According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
-The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
+###### Articles
 
-#### Articles
+An article is a determiner that typically encodes definiteness, and in many languages also gender, number, and/or case.
 
-Examples of Articles in EN: the, an, a
+###### posessive determiners
 
-#### posessive determiners
+A posessive determiner is a determiner instantiating a posessive.
 
-my, your, his, her, its, our, their
+## verbs
 
-### adpositions
+### copulas and existential verbs
 
-An adposition may either be a preposition, circumposition or a postposition.
-semantically, adpositions may be temporal adpositions, spatial adpositions, or adpositions that mark a different semantic/thematic role.
-Adpositions may be transitive or intransitive.
-Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
-Intransitive adposition examples: here/everywhere/downstairs/ahead/outside/...
-Transitive adpositions may take other adpositions as complements.
+#### copulas
 
-### conj
-
-Conjunctions either perform coordination or subordination.
-
-### proforms
-
-Proforms are function words that stand in for another constituent.
-DP/NP|Pronouns
-NP/N'|one
-Verb|do (so)
-Temporal adposition|then
-Spatial adposition|there
-other adposition|none exists
-
-#### pronouns
-
-Pronouns are proforms that stand for NPs, or DPs if we believe in them, not for nouns themselves.
-
-A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
-Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
-
-##### personal
-
-Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
-
-
-### copula (and existential verbs)
-
-A copula is a word or phrase that links the subject of a sentence to its complement/predicate.
+A copula is a constituent that connects subject with complement=predicate.
 The tree ☞is☜ blue.
-Depending on the language, a copula may or may not be a verb.
+Copulas are most commonly verbs, but not always.
+A pseudocopula/semicopula is a constituent that does similar things as a copula, but is grammatically or syntactically more restricted.
+
+#### existential verbs
+
 An existential verb indicates the existence of something.
-In some languages the copula and the main existential verb are the same, of those I speak, only english: to be (The chair is green, there is a god)
-In some languages the copula and the main existential verb are different:
+Some languages distinguish different existential verbs for different semantic categories or grammatical situations.
+Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
+
+#### in languages
+
+The existential verb and the copula may be the same lexical unit, or a different lexical unit.
+
+table:lang|copula|existential verb
+en|be|be
 es|ser/estar|haber
 de|sein|geben
 ja|だ|ある・いる
 
-Some languages distinguish different existential verbs for different semantic categories.
-Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
+### aux
 
-### verbs
-
-#### dynstat
-
-Dynamic and static verbs are often contrasted.
-A dynamic verb is a verb that describes an action.
-A stative (unclear relation to stative aspect) verb is a verb that descirbes a state.
-setzen is a dynamic verb while sitzen is a dynamic verb.
-
-#### aux
-
+Auxiliary verbs are function words most commonly indicating verb-related grammemes and/or allowing for more complex syntactic constructions.
 Non auxiliary verbs are called lexical verbs.
 auxiliary verb is frequenly abbreviated auxiliary.
-In English, sentences without auxiliars cannot have negation.
-In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
-Auxiliary verbs are members of the functional category, while lexical verbs are members of the lexical category.
-In English, auxiliaries go before the subject DP/NP in question inversion.
-have and do may or may not be auxiliary verbs.
-dummy do is do used as an auxiliary verb.
-using dummy do is called do-support
-do-support is used when an axuliary verb is syntactically required but none is present.
+modal verbs are a subset of auxiliary verbs that are used to express modality.
 
+#### light verbs
 
-In english, what are the non-lexical verbs that don't take objects? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-In english, what types of verbs are required to use negation? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-In english, what types of verbs go before the subject DP in question inversion? <span class="divider">-&gt;</span> {{c1::auxiliary verbs}}
-Why does auxiliary being equivalent to auxiliary verb not cause confusion? <span class="divider">-&gt;</span> {{c1::Because there are no other kinds of auxiliary words}}
-auxiliary verbs <span class="divider">-&gt;</span> {{c1::auxiliaries}}
-In the circumstances where do and have aren't auxiliaries (and also aren't lexical), what are they? <span class="divider">-&gt;</span> {{c1::light verbs}}
-Light verbs are different from auxiliary verbs how? <span class="divider">-&gt;</span> {{c1::Can't do the syntactical stuff auxes can}}
-Light verbs are different from lexical verbs how? <span class="divider">-&gt;</span> {{c1::Little semantic content}}
-Verbs that have little semantic content but are not auxiliaries due to syntactic concerns are called what? <span class="divider">-&gt;</span> {{c1::light verbs}}
-Relationship between auxiliaries and modals in set notation? <span class="divider">-&gt;</span> {{c1::modals ⊊ auxiliaries}}
-What property do modal verbs express? <span class="divider">-&gt;</span> {{c1::Modality}}<br><div class="sub">
-<div class="sub c1-f c2-b">
-competing definitions
-</div>
-<div class="sub c1-b c2-f">
-Question inversion, negation etc.
-</div>
-<div class="sub c1-b c2-f">
-auxiliaries ⊋ modals
-</div>
-</div>
+Light verbs are verbs with little semantic content and often used in certain syntactic constructions, but which do not act like auxiliary verbs syntactically.
+
+### lexical
+
+Lexical verbs are verbs that are content words.
+
+#### semantics
+
+##### dynstat
+
+Semantically, lexical verbs can be divided into dynamic and static verbs.
+A dynamic verb is a verb that describes an action.
+A stative verb is a verb that descirbes a state.
+^setzen is a dynamic verb while sitzen is a dynamic verb.
+
+## proforms
+
+Proforms are function words or constitutents that stand in for another constituent.
+
+### pronouns
+
+Pronouns are proforms that stand for NPs/DPs.
+Often, for any given pronoun, there is a similar or identical determiner
+
+#### pro-drop
+
+A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
+Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
+
+#### personal
+
+Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
 
 ### changing parts of speech
 
 #### nominalization
 
 Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
-A nominalizer is a thing, usually a bound morpheme, that nominalizes a thing.
+A nominalizer is a thing that nominalizes a thing.
+Nominalizers are usually bound morphemes.

@@ -68,3 +68,42 @@ A complement clause is an argument of a predicate.
 A complementizer turns a clause into the subject or object of a sentence.
 In english, the complementizer 'that' sometimes is unpronounced
 Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
+
+
+In english, relative clauses and attributive adjectives are the main things that act attributively.
+
+## floating quant
+
+quantifiers are adjoined to the DP/NP to form a larger DP/NP.
+table:span=2;⟮DP⟯
+⟮Q/D⟯|⟮DP⟯
+all|the students
+
+Floating quantifier is a quantifier that is not immediately near the NP/DP it quantifies.
+According to the VP-int-subj-hyp, floating quantifiers happen because of the two DPs that could move to the subject position in the specifier position of the IP, the smaller DP moves, leaving the quantifier behind.
+The existence of floating quantifiers provides evidence for the VP-internal subject hypothesis by explainin why the quantifier is in this position.
+
+## aux in en
+
+In English, sentences without auxiliars cannot use negation.
+In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
+In English, auxiliaries go before the subject DP/NP in question inversion.
+have and do may or may not be auxiliary verbs.
+dummy do is do used as an auxiliary verb.
+using dummy do is called do-support
+do-support is used when an axuliary verb is syntactically required but none is present.
+In Question inversion, auxiliary verbs go before the subject DP.
+
+## english proforms
+
+
+DP/NP|Pronouns
+NP/N'|one
+Verb|do (so)
+Temporal adposition|then
+Spatial adposition|there
+other adposition|none exists
+
+
+
+If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first (due to the HMC)

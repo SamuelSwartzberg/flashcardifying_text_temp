@@ -7,13 +7,16 @@ Syntax indicates sememes and pragmemes via the branching structure it forms.
 fronting something is movving it to the front of the sentence
 Morphosyntax is where morphology and syntax intersect.
 
-## constituents
+## basic structure
 
-### constituents
+## constituents
 
 A constituent is a word or group of words that functions together as a single unit and has hierarchical structure.
 The assembly of constitutents into larger constituents allows the generation the infinite variety of possible sentences that language is famous for.
 Phrases are constituents, but not all constituents are phrases.
+
+### constituenty tests
+
 Constituents are identified by using constituent tests.
 There are many constituent tests in english, among which are: proform substitution
 proform test: Substitute the relevant proform, perform a grammaticality judgement
@@ -38,6 +41,16 @@ Gertrude wasn't interested in art.
 Interested in art, Gertrude wasn't.
 ```
 
+### phrases
+
+a phrase is a constituent which acts a certain way related to other constituents and has a certain internal structure relative to its type.
+The head of a phrase is the thing everything else in the phrase is about.
+In a phrase, everything that isn't the head is a dependent.
+In head-inital/head-final languages, the head comes at the beginning/end of the phrase, respectively
+head-initial|English (partially)
+
+## trees
+
 ### branching
 
 For something to be left/right-branching is for their parse trees to grow to the left/right.
@@ -51,6 +64,59 @@ Things that are right-branching are also head-initial.
 Labeled bracketing notation can generate an arbitrary tree, but is mostly used to generate syntax trees.
 Labeled bracketing notation: tree ::= \[‹nodename {‹tree›|‹leaf›}
 leaf ::= #somestring
+
+## expletives
+
+An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. 
+Expletitives are generally lexemes with other usual functions which are drained of their semantic contents for the purpose of acting as an expletive.
+^E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
+
+## frameworks
+
+Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
+Generative semantics was a response to generative grammar developed in the 1960s.
+The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
+The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
+Generative semantics held that syntactic structures from meanings, rather than the other way around
+
+## movement
+
+A discontinuity is when two parts of a constituent are separated by an element that is not part of the constituent.
+Syntactic movement is the explanation of discontinuities via movement within the posited syntax tree.
+Syntactic movement is only used by some grammatical theories, and remains controversial.
+
+### traces
+
+In chomskyian theories, movement leaves behind an empty category called a trace.
+Traces are indicated by t and subscripted with a letter or  number indicating what moved, this is known as coindexing.
+Some of the evidence of traces is that we can't contract over them.
+
+In syntax, something is "in situ" if it doesn't move, although it normally would.
+
+### types of movement
+
+Two types of movement often distinguished are phrasal and head movement.
+
+#### phrasal movement
+
+phrasal movement is syntactic movement of a phrase.
+
+#### head movement
+
+Head movement is the syntactic movement of a head.
+Head movement will leave behind any dependents as-is.
+Whatever-stranding is head movement that leaves behind a dependent whatever.
+Pied-piping is phrasal movement instead of head movement to prevent a dependent being left behind.
+
+##### head movement constraint
+
+The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
+The HMC is a proposed rule in generative grammar.
+Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
+The head movement contraint only applies to head movement, obv.
+According to the HMC, I can only move to a position that sellects IP as its complement.
+
+# unsorted
 
 ### types of constiutents
 
@@ -68,14 +134,7 @@ Posessive s is a determiner
 Posessor DP cannot be replaced by pronoun
 Posessive s is followed by NPs not DPs
 Posessive s attaches to DPs
-How does English possessive s differ from German genitive -s, in where it attaches? <span class="divider">-&gt;</span> {{c1::German genitive -s attaches to nouns, english possessive s to DPs (or NPs, depending on your theory)}}
-Prove that possessive s is a determiner by inserting other determiners! <span class="divider">-&gt;</span> {{c1::*the lady’s a book}}
-What can't posessor DPs do, but most other DPs can? <span class="divider">-&gt;</span> {{c1::Be replaced by a normal pronoun}}
-What does posessive s attach to? <span class="divider">-&gt;</span> {{c1::DPs}}
-What syntactic category does possessive s belong to? <span class="divider">-&gt;</span> {{c1::Determiner}}
-What type of constitutent is the thing after a posessive s? <span class="divider">-&gt;</span> {{c1::A NP (dp theory)}}
-What type of constitutent is the thing before a posessive s? <span class="divider">-&gt;</span> {{c1::A DP}}
-the children’s toys <span class="divider">-&gt;</span> {{c1::the toys of the children}}
+English posessive s is a clitic, german genitive s is an inflectional affix.
 
 ##### X-bar framework-based
 
@@ -258,50 +317,5 @@ Main clauses in german have the specifier of C filled by an arbitrary constituen
 
 The type of phrase a phrase is (AdvP, VP, NP...) is called phrasal category.
 An XP is a phrase with X as its head.
-
-
-
-
-## Expletives
-
-An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. (Can also mean profanity, of course)
-Often words used as expletives also have other functions with more semantic content, however this semantic content is discarded when used as an expletive.
-E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
-
-## frameworks
-
-Syntax is a field where there are a bunch of frameworks or theories of how it works, but not much agreement.
-Generative semantics was a response to generative grammar developed in the 1960s.
-The conflict between propoonents of generative grammar and generative semantics was known as the linguistics wars.
-The proponents of generative semantics in the linguistics wars called themselves ⟮the four horsemen of the apocalypse⟯, amongst which was george lakoff
-Generative semantics held that syntactic structures from meanings, rather than the other way around
-
-## movement
-
-discontinuity is the phenomenon where a constituent is split into two parts ⟮due to the insertion of an element which is not part of it⟯
-Syntactic movement is the means by which some theories of syntax address discontinuities.
-Two types of movement often distinguished are phrasal and head movement.
-In phrasal movement, an entire phrase moves.
-In head movement is when only a head of a phrase moves, leaving its dependents behind.
-
-In chomskyian theories, movement leaves behind an empty category called a trace.
-Traces are indicated by t and subscripted with a letter or  number indicating what moved, this is known as coindexing.
-Some of the evidence of traces is that we can't contract over them.
-
-In syntax, something is "in situ" if it doesn't move, although it normally would.
-
-### head movement 
-
-The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
-Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
-The head movement contraint only applies to head movement, obv.
-According to the HMC, I can only move to a position that sellects IP as its complement.
-If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first.
-
-#### prepositions
-
-When the object of a transitive preposition moves, what may happen to the prepostion is either preposition stranding or pied piping.
-An entire expression moves, instead of leaving something behind   Pied Piping
-A head moves and leaves behind a preposition   Preposition stranding
 
 

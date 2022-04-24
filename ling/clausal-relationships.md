@@ -143,7 +143,8 @@ Syntax of cleft sentences in english: it + conjugated form of to be + X + subord
 
 # connection
 
-Two constituents or clauses may be linked via coordination or subordination. 
+Two (or more) constituents or clauses may be connected via coordination or subordination. 
+A conjunction is a thing that connects constitutents or clauses
 
 ## coordination
 
