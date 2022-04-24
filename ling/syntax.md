@@ -142,6 +142,11 @@ CP
 CP may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
 
+A complement clause is a CP that is a clause. (I think this is all CPs, but not sure)
+A complementizer is the POS that is the head of a CP.
+In english, the complementizer 'that' sometimes is unpronounced
+Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
+
 The object is the thing that is the complement of the VP.
 
 ###### IPs

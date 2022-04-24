@@ -425,7 +425,8 @@ Interrogatives may be instantiated by different parts of speech.
 #### polarity
 
 Polarity is a grammatical feature category & feature feature that encodes the difference between positive and negative polarity.
-Positive polarity may correspond to validity/truth/confirmation and negative polarity may corespond to falsity/denial.
+Positive/negative polarity may encode truth/falsity and/or confirmation/denial.
+There may be separate polarity grammemes for truth/falsity and confirmation/denial grammemes, or grammemes may be ambiguous between them.
 Positive polarity = affirmation
 Negative polarity = negation
 
