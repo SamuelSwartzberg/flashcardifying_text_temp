@@ -67,8 +67,10 @@ Japanese does not have grammatical number.
 
 Grammatical case is a phi-feature encoding semantic relationsip and/or grammatical relation/morphosyntactic alignment.
 Grammatical case may be semantic grammatical case or grammatical grammatical case.
+Grammatical grammatical case encodes the relationships of arguments to the verb.
+^and thus which exist depend on the morphosyntactic alignment of the language.
 
-##### encoding semantic relationsip
+##### semantic grammatical case
 
 Semantic grammatical case (my term) is grammatical case encoding semantic relationships.
 Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
@@ -126,7 +128,7 @@ Translative|becoming X, changing to X
 ###### additional information
 
 The instrumental-comitative case is the common case combining instrumental and commitative cases.
-^e.g. english with
+^e.g. english with, though that's obv not a case.
 
 ### mainly related to verbs
 
@@ -152,11 +154,40 @@ Clusivity encodes the difference between two kinds of first person plural refere
 #### tense-aspect-mood
 
 tense-aspect-mood is the combination of tense, aspect and mood.
-tense, aspect and mood are all grammatical feature categoriess marked on verbs or VPs.
-tense-aspect-mood exists since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
-Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
+tense, aspect and mood are grammatical feature categoriess marked on verbs or VPs.
+tense-aspect-mood exists as a grouping since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
 
 ##### tense
+
+Tense may be split into absolute and strict relative tense (though this is complicated, as discussed below).
+
+###### absolute tense
+
+Absolute tense is the time of the action relative to the present.
+The possible absolute tenses are past, present and future.
+Some languages only distinguish two absolute tenses.
+Languages which only distinguish two absolute tenses have either past/nonpast or future/nonfuture.
+There are some languages which lack absolute tense completely, though this is rather are.
+
+###### relative tense
+
+strict relative tense is the time of the action relative to a specific point in time. 
+strict relative tense can also be analyzed as spective aspect.
+anterior tense (strict relative tense) = retrospective aspect (spective aspect)
+posterior tense (strict relative tense) = prospective aspect (spective aspect)
+
+###### combinations
+
+Absolute relative tense is the combination of absolute tense and strict relative tense.
+relative tense is ambiguous between strict relative tense and absolute relative tense.
+
+pluperfect =short= plusquamperfct
+pluperfect =syn= past perfect
+past perfect = past absolute tense + retrospective aspect
+future perfect = future absolute tense + retrospective aspect
+future in the past = past absolute tense + prospective aspect
+future in the future (??? - doesn't seem to exit) = future absolute tense + prospective aspect
+
 
 ##### aspect
 
@@ -165,42 +196,50 @@ Depending on how the grammemes are encoded, aspect may be divided into grammatic
 Grammatical aspect is aspect encoded in inflectional morphology.
 Lexical aspect is aspect encoded in lexical items.
 
-Aspect can be divided into five rough distinctions:
-- eventive
-- howfar
-- spective
-- scope
-- telicity
+!Regarding meaning encoded, aspect can be divided into
+- !eventive
+- !howfar
+- !spective
+- !scope
+- !telicity
 
 ###### eventive
 
 Eventive aspect indicates how time flows within the process/event itself.
-Language may have some subdivisions of eventive aspect as grammemes, but not have others 
+While eventive aspects can be ordered hierarchically, languages may have some aspects deep into the tree while not having others.
 e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
-####### division
+####### outline
 
-Eventive
-  Perfective
-  Imperfective
-    Iterative
-    Frequentative
-    Habitual
-    Continuous
-      Progressive
-      Stative
+```
+!Eventive
+!  Perfective
+!  Imperfective
+!    Iterative
+!    Frequentative
+!    Habitual
+!    Continuous
+!      Progressive
+!      Stative
+```
 
 ####### relation
 
 Eventive aspect may be divided into perfective and imperective aspect.
 perfective aspect is the event viewed in its entirety ( = without internal complexity).
 Imperfective aspect is event viewed with some sort of internal complexity.
+
+######## imperfect
+
 Imperfective aspect may sometimes be divided into iterative, frequentative, habitual and continuous (though there may be others)
 Habitual, iterative and frequentative aspect all indicate that something is repeated.
 Habitual aspect indicates that the action is repeated as one would a habit on different occasions.
-Frequentatie aspect indicates that the action is repeated on different occasions, but not necessarily as one would a habit.
+Frequentative aspect indicates that the action is repeated on different occasions, but not necessarily as one would a habit.
 Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly⟯ during the same occasion.
 Continuous aspect indicates an ongoing situation/action without interruption.
+
+######### continuous
+
 Continuous aspect may sometimes be divided into progressive and stative.
 Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
 Stative aspecti is a continuous aspect where the situation/action is not evolving/changing.
@@ -215,32 +254,35 @@ In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their n
 
 howfar aspect (my term) indicates how the state is changing during the specified time.
 howfar aspect may be inchoative, cessative or ø.
-Inchoative aspect is howfar aspect indicating that something is beginning (however not that something is about to begin).
-Cessative aspect is howfar aspect indicating that something is ending.
+Inchoative aspect is a howfar aspect indicating that something is beginning (however not that something is about to begin).
+Cessative aspect is a howfar aspect indicating that something is ending.
 
 ###### prospective/retrospective
 
-The spective (my term) aspect indicates when an event takes place relative to the reference time.
+spective aspect (my term) indicates when an event takes place relative to the reference time.
 spective aspective may be prospective, retrospective, or ø.
-Prospective aspect is spective aspect indicating that an event occurs subsequent to a reference time.
-Retrospective aspect is spective aspect indicating that an event occurs before a reference time.
-Retrospective aspect is commonly but confusingly also called perfect aspect, not to be confused with perfective aspect.
+Prospective aspect is a spective aspect indicating that an event occurs subsequent to a reference time.
+Retrospective aspect is a spective aspect indicating that an event occurs before a reference time.
+Retrospective aspect is commonly but confusingly also called perfect aspect.
+^not to be confused with perfective aspect
 
 ###### gnomic/episodic
 
-The scope aspect (my term) indicates what kind of scope something being the fact has.
+scope aspect (my term) indicates what kind of scope something being the fact has.
 Scope aspect may be gnomic, episodic, or ø.
-Gnomic aspect is the scope apsect indicating general truths.
-Episodic aspect is the scope aspect indicating truths that are temporally bounded.
+Gnomic aspect is a scope aspect indicating general truths.
+Episodic aspect is a scope aspect indicating truths that are temporally bounded.
 
 ###### telic/atelic
 
-Telicity is the grammatical feature (mostly seen as an aspect) of whether something has a specific endpoint.
+Telicity is the aspect of whether something has a specific endpoint.
+Telicity is sometimes also analyzed as something else than a aspect.
 Telicity may be telic, atelic, or ø.
 
 ##### modality
 
 modality is a grammatical feature category encoding possible situations. 
+Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
 Different forms of modality are sometimes called flavors.
 
 ###### deontic/epistemic, realis/irrealis
@@ -564,22 +606,33 @@ an unaccusative verb is an intransitive verb whose argument is not an agent.
 ## voice
 
 Voice is a grammatical feature category which changes the valency of a verb and thus semantic roles of the arguments.
-Demoting an argument is dropping it or realizing it in some less central way
+Grammatical voice is either active or passivelike.
+The active voice is the default, unmarked voice.
 Passivelike voices are voices which decrease the valency by demoting an argument.
-The passive voice is the passivelike voice for nominative-accusative languages which demotes A1 and A2->A1 (thus C2->C1)
-The antipassive voice is the passivelike voice for ergative-absolutive languages which demotes A2 and A1->A1 (thus C2->C1)
+Demoting an argument is dropping it or realizing it in some less central way.
+
+### passivelike voices
+
+#### valency > 1
+
+##### passive and antipassive.
+
+The passive voice is the passivelike voice for nominative-accusative languages.
+The antipassive voice is the passivelike voice for ergative-absolutive languages.
+The passive voice demotes A1 and A2 -> A1.
+The antipassive voice demotes A2 and A1 -> A1.
+Both the passive and antipassive voice result in C2 -> C1.
 For both the passive and antipassive voice, the item that is not demoted keeps its thematic role.
 Thus, the passive voice can also be said to make the subject into a patient.
+
+##### middle
+
 The middle voice is a passivelike voice where A1 is both the agent and the patient.
-
-encoding the mapping semantic roles related to agency over grammatical relations.
 Grammatical voice is generally realized on verbs/VPs.
-The two most common grammatical voices are active and passive.
-In the active voice, the subject is the agent.
-In the passive voice, the subject is not the agent (e.g. patient, them)
 The mediopassive voice is a grammatical voice that merges the middle voice and the passive voice.
-The impersonal passive voice reduces the valency of an intransitive verb to zero.
 
+#### valency = 1
 
-
-The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
+The impersonal passive voice is the only passivelike voice which applies to monovalent verbs.
+The impersonal passive voice reduces the valency of an monovalent verb to zero.
+Some languages may achieve an effect similar to the impersonal passive voice by inserting a dummy element.

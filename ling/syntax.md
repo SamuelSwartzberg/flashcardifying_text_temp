@@ -98,6 +98,7 @@ modifier =syn= adjunct.
 Adjoining adjuncts creates a phrase of the same type as it originally was.
 Ergo adjoining something to a YP results in a larger YP.
 Adjunction can be recursive.
+The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
 
 #### X-bar theory
 
