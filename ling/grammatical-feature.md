@@ -292,7 +292,9 @@ Deontic modality is modality that is concerned with how the world ought to be.
 Epistemic modality is modality that is concerned with knowledge/belief/credence.
 Realis moods/modalities are a set moods/modalities that indicate that something is the case.
 Irrealis moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
-Distinction between different types of modality may not always be clear-cut, since different languages use different analyses.
+Some modalities are ambiguous between being realis/irrealis and/or deontic/epistemic.
+Distinction between different types of modality may not always be clear-cut.
+
 
 ###### realis epistemic
 
@@ -305,8 +307,8 @@ Gnomic is an epistemic realis mood indicating general truths or aphorisms.
 ####### evidentiality
 
 Evidentiality (wide sense) is the grammatical feature category encoding what kind of evidence there is for a given statement.
-Evidentiality (wide sense) is most commonly analyzed as a mood.
-Evidential = verificational = validational
+Evidentiality (wide sense) is most commonly analyzed as a realis epistemic modiality.
+Evidential =syn= verificational =syn= validational
 An evidential is a feature that encodes evidentiality (wide sense).
 
 The typology of evidentiality (wide sense) was mainly created by Alexandra Aikhenvald (2004, 2006).
@@ -357,8 +359,7 @@ Permissive|something is permitted
 Imperative|command
 Hortative|encouraging/discouraging an action
 Prohibitive/vetative|that something is prohibited.
-Propositive|proposal or suggestion.
-Propositive|that something should be brought about.
+Propositive|proposal or suggestion
 
 ####### volitive
 
@@ -368,7 +369,7 @@ Optative|event is hoped for
 
 ###### epistemic
 
-Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing
+Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing.
 Causative is an epistemic modality indicating that someone/thing causes someone/thing else to do/be something.
 Causative modality increases the valency of the verb involved.
 
@@ -389,29 +390,22 @@ The T-V distinction (narrow) is a honorific distinction realized in two differen
 The T-V distinction is common in many Indo-European languages, but not english.
 The name T-V distinction comes from latin tu/vos.
 
-#### interrogation
-
-An interrogative word is a lexeme used to create an interrogative sentence.
-An interrogative particle is an interrogative word that is a particle and converts the sentence into a yes-no question.
-Interrogatives may be instantiated by different parts of speech.
-
-
 ### sememes
 
 #### polarity
 
-Polarity is a grammatical feature category & feature feature that encodes the difference between positive and negative polarity.
-Positive/negative polarity may encode truth/falsity and/or confirmation/denial.
+Polarity is a grammatical feature category ＆ feature feature that encodes the difference between positive and negative polarity.
+Positive/negative polarity may be truth/falsity and/or confirmation/denial.
 There may be separate polarity grammemes for truth/falsity and confirmation/denial grammemes, or grammemes may be ambiguous between them.
-Positive polarity = affirmation
-Negative polarity = negation
+Positive polarity =syn= affirmation
+Negative polarity =syn= negation
 
 
 #### posessive
 
 A posessive is a grammeme indicating posession.
 Posessives may be instantiated via lexemes or inflectional/derivational morphemes.
-Inflectional morphology instantiating a posessive are genitive/posessive case.
+Inflectional morphology instantiating a posessive is genitive/posessive case.
 Lexemes instatiating a posessive are most commonly possessive determiners, pronouns and verbs.
 Examples for posessive verbs are to have, haben, tener.
 In quite a few languages, the job of  a posessive verb is done by existential verbs.
@@ -426,19 +420,23 @@ In most languages, lexemes instantating numerals are either determiners, adverbs
 
 ##### classifier
 
-A classifier is a morpheme or lexeme that puts a noun into a category based on its referent.
+A classifier is a morpheme or lexeme that co-occurs with another element based on that element being part of a certain semantic class.
 A measure word is a classifier that appears with a numeral.
-Measure words are margial in indo-european languages.
+^perhaps there are no other classifiers than measure words, in which case they would be synonymous
+A numeral quantifier is the combination of a numeral and a measure word.
+
+###### in languages
+
+in indo-european languages, measure words are uncommon.
 An example for an english measure word is piece of x, e.g. three pieces of paper.
 In east asian languages, measure words are often required.
 
-TODO: Better integration, also include:  The number together with its numeral classifier is called a numeral quantifier in the literature. (JP), http://web.mit.edu/norvin/www/24.902/numq.html
-
 ##### kinds of numerals
 
-The type of numeral is what way of looking at the counted things is being chosen.
-The type of numeral may ordinal, cardinal, a multiplier, distributive, collective, partitive...
-
+A numeral may be divided into the numeric value and the type of numeral.
+The type of numeral is the wway of looking at the numeric value.
+The type of numeral may be ordinal, cardinal, a multiplier, distributive, collective, partitive.
+The type of numeral may be indicated morphologically or in some other way.
 
 table:type of numeral|indicates|example
 ordinal|position in sequence
@@ -450,189 +448,15 @@ partivtive|fractions|-th
 
 ##### counting systems
 
-Numerals are generally based on one or more counting systems.
+The numeric value of a numeral is generally based on one or more counting systems.
 A counting system is the numeral system a language uses.
-Counting systems across languages may have different bases, and stop counting every power of 10 at different numbers: most commonly at 1000 or at 10 000 (myriad)
-due to the practice of wrapping at 10 000, 10 000 is used in many sinosphere languages to mean a lot, and most commonly 10k years = a long life.
+Counting systems across languages may have different bases.
+The reuse point (my term) is at which powers of the base a counting system starts reusing terms for bases.
+In indo-european languages, the reuse point is 10⎴3⎴.
+In east asian languages, the reuse point is 10⎴4⎴.
+Because the reuse point in east asian languages is 10⎴4⎴ = 10000, 10000 is used to mean 'a lot'.
 
 #### deixis
 
 Demonstratives are lexemes encoding spatial/discourse deixis sememes.
 Demonstratives are most frequently determiners or pronouns.
-
-
-# information structure
-
-Information structure is the grammeme indicating the relationship of the current thing to larger discourse.
-A topic-prominent language is one that places encoding information structure in a high priority in the syntax, ofte featuring explicit morphology for marking information structure.
-Japanese, mandarin, korean are all topic-prominent.
-Topic is a synonym for theme.
-The theme is that information that is being talked about.
-The rheme is what is being said about the theme.
-Topicalization is marking something as the theme by fronting it.
-// subjects are generally topics in unmarked languages, so subject drop is also topic drop (Song, 2017) (which also seems like a good introduction on information structure -> this here is incomplete, see there for more)
-
-
-# arguments
-
-## counting arguments
-
-Verbs have 0 or more arguments.
-Valency is the amount of arguments a verb has.
-Transitivity is the amount of non-subject arguments a verb has.
-Valency = Transitivity + 1 
-An ambitransitive verb is one with a transitivity of 0 or 1 (may take an argument or not)
-
-### terminology
-
-Words counting valency are formed with numeral (both latinate and greek are used) + valent
-e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
-Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
-
-## morphosyntactic alignment
-
-Morphosyntactic alignment is concerned with the distribution of case (incl. word order, but only if it is case-marking) over different valencies.
-Morphosyntactic alignment typically varies by language, not within a language.
-For the purpose of morphosyntactical alignment, we will consider valencies 1-3 and thus max. three arguments A1, A2, A3
-A1, A2, A3 for the purposes of morphosyntactic alignment do not need to be ordered in that way in word order, though they may often have some kind of typical word order.
-
-### A1 A2
-
-Consider verbs with a valency of 1 or 2 and thus 1-2 arguments A1, A2.
-
-
-valency|nominative-accusative|ergative-absolutive|direct|tripartite|transitive
-1|A1=C1|A1=C1|A1=C1|A1=C1|A1=C1
-2|A1=C1, A2=C2|A1=C2, A2=C1|A1=C1, A2=C1|A1=C2, A2=C3|A1=C2, A2=C2
-
-Typically, A1 is the agent (sometimes called experiencer in the case of intransitive verbs) while A2 is the patient, though languages often allow deviating from that.
-No language can be fully direct or transitive in its alignment, as languages need some way to tell A1 and A2 of a verb with valency = 2 apart.
-
-#### case 
-
-##### ergative-absolutive
-
-table:Case number|case name
-C1|absolutive case
-C2|ergative case
-
-
-Because C2 marks A1 of divalent verbs in ergative-absolutive languages and A1 of divalent verbs most often is the agent, it is often said that C2 marks the agent of divalent verbs.
-ergative-absolutive is often shortened to ergative.
-
-##### nominative-accusative
-
-table:case number|case name
-C1|nominative case
-C2|accusative case
-
-
-In nominative-accusative languages, typically the nominative case is unmarked.
-A marked nominative morphsynalign is a nominative-accusative morphsynalign where the nominative case is marked and the accusative case is unmarked.
-nominative-accusative is often shortened to accusative.
-
-##### direct
-
-table:case number|case name
-C1|direct
-
-##### tripartie
-
-table:case number|case name
-C1|intransitive case
-C2|ergative case
-C3|accusative case
-
-##### transitive
-
-table:case number|case name
-C1|intransitive case
-C2|transitive case
-
-#### more complex
-
-##### split
-
-A language with split morphosyntactic alignment has different morphosyntactic alignments under different circumstances (syntactic, grammatical, morphological, etc.)
-Split ergative alignment is split morphosyntactic alignment between nominative-accusative and ergative-absolutive.
-
-##### active
-
-Active alignment has two cases C1, C2 for A1, A2, of v=2 and A1 of v=1 sometimes gets C1 and sometimes C2.
-Typically, active alignment decides whether A2 of v=1 gets C1 or C2 based on the agenthood of A1.
-There are two types of languages with active alignment, split-S and fluid-S.
-split-S and fluid-S are named that way because what I usually call A1 of v=1 is more commonly called S.
-Split-S languages have the presumed agenthood of A1 of v=1 calcified into two classes of verbs, which require C1 or C2 respectively.
-Fluid-S languages allow speaker choice as to the choice of case of A1 to indicate agenthood.
-
-### A2 A3
-
-alignment|v=2|v=3
-dative|A2=CI|A2=CII, A3=CI
-dechticaetiative|A2=CI|A2=CI, A3=CII
-
-If v=3, typically A2 is the patient, and A3 is the theme.
-
-#### cases
-
-for both dative and dechticaetiative, CI is whatever the case of A2 was for v=2 (see other level of alignments).
-CII is dative for languages with dative morphosyntactic alignment.
-CII is dechticaetative for languages with dechticaetative morphosyntactic alignment.
-In the case of dative morphsynalign, A2 is called direct and A3 indirect object.
-In the case of dechticaetative morphsynalign, A2 is called primary and A3 secondary object.
-dative morphsynalign=indirective morphsynalign
-dechticaetiative morphsynalign=secundative morphsynalign
-Primarily dative langauges often still feature some dechticaetiative behavior.
-
-### merging
-
-oblique case =syn= objective case
-The oblique case is an argument-marking case that is not C1 (e.g. nominative or absolutive).
-Thus, for nom-accus dative morphsynalign the oblique case can be said to merge dative and accusative cases.
-English features an oblique case.
-
-### realization
-
-The most common types of morphosyntactic alignments (narrow) are nominative-accusative followed by ergative-absolutive.
-Dative morphsynalign is more common than dechticaetiative.
-All languages I speak are nominative-accusative languages.
-
-## semantic roles in monovalent verbs
-
-an unergative verb is an intransitive verb whose argument is an agent 
-^the most common case
-an unaccusative verb is an intransitive verb whose argument is not an agent.
-
-## voice
-
-Voice is a grammatical feature category which changes the valency of a verb and thus semantic roles of the arguments.
-Grammatical voice is either active or passivelike.
-The active voice is the default, unmarked voice.
-Passivelike voices are voices which decrease the valency by demoting an argument.
-Demoting an argument is dropping it or realizing it in some less central way.
-
-### passivelike voices
-
-#### valency > 1
-
-##### passive and antipassive.
-
-The passive voice is the passivelike voice for nominative-accusative languages.
-The antipassive voice is the passivelike voice for ergative-absolutive languages.
-The passive voice demotes A1 and A2 -> A1.
-The antipassive voice demotes A2 and A1 -> A1.
-Both the passive and antipassive voice result in C2 -> C1.
-For both the passive and antipassive voice, the item that is not demoted keeps its thematic role.
-Thus, the passive voice can also be said to make the subject into a patient.
-
-##### middle
-
-The middle voice is a passivelike voice where A1 is both the agent and the patient.
-Grammatical voice is generally realized on verbs/VPs.
-The mediopassive voice is a grammatical voice that merges the middle voice and the passive voice.
-
-#### valency = 1
-
-The impersonal passive voice is the only passivelike voice which applies to monovalent verbs.
-The impersonal passive voice reduces the valency of an monovalent verb to zero.
-Some languages may achieve an effect similar to the impersonal passive voice by inserting a dummy element.

@@ -21,8 +21,14 @@ Bill heard Fred -> heard (narrow); heard Fred (wide)
 
 An interrogative clause is a clause with the pragmatic effect of asking a question.
 Interrogative clauses are created using a variety of devices: verbal inflection, word order changes, addition of constituents or lexical unit, phonotactic changes or a combination.
-An interrogative is a lexical unit used in the process of creating an interrogative clause.
 Often, interrogative clauses are indicated graphemically via special punctuation. 
+
+##### interrogatives
+
+Interrogative word = interrogative
+An interrogative is a lexical unit used in the process of creating an interrogative clause.
+An interrogative particle is an interrogative that is a particle and converts the sentence into a yes-no question.
+Interrogatives may be instantiated by different parts of speech.
 
 ##### question (here instead of in → pragmatics for now)
 

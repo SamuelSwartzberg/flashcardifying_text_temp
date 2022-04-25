@@ -4,6 +4,16 @@
 
 Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
 
+Grammatically, counter words can appear either before or after the noun they count. They generally occur after the noun (following particles), and if used before the noun, they emphasize the quantity; this is a common mistake in English learners of Japanese. For example, to say "[I] drank two bottles of beer", the order is ビールを二本飲んだ bīru o nihon nonda (lit. "beer OBJECT two-long-thin-count drank"). In contrast, 二本のビールを飲んだ nihon no bīru o nonda (lit. "two-long-thin-count POSSESSIVE beer OBJECT drank") would only be appropriate when emphasizing the number as in responding with "[I] drank two bottles of beer" to "How many beers did you drink?". 
+
+cf also: https://en.wikipedia.org/wiki/Japanese_counter_word
+
+Japanese has a morphological device to signify causation. Many verbs undergo internal change in various semiregular patterns between intransitive forms and causative transitive forms:
+
+    agaru "to go up, to rise" → ageru "to raise"
+    magaru "to turn" → mageru "to bend"
+
+In the context of an intransitive verb, the syntax of Japanese causatives allows a two-way distinction in the causee's willingness to perform the action. If the new object is marked in the accusative case (o), it suggests that the causee did the action willingly, suggesting the agent allowed or requested the action rather than forcing or demanding it. However, if the object is marked in the dative case (ni), it expresses the idea that the causee was forced to perform the action. (This is not possible with a transitive verb as a clause cannot contain two noun phrases marked as accusative.)
 
 ### history, culture, etc
 
