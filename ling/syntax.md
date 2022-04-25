@@ -166,6 +166,68 @@ XP
 X
 foo
 
+#### certain phrases/hypotheses
+
+##### CP
+
+C = Complementizer
+[CP [C] [IP]]
+
+A complement clause is a CP that is a clause. (I think this is all CPs, but not sure)
+Interrogative sentences are often seen as CPs.
+
+###### role in sentence
+
+CP may either be complement or adjunct to verb/VP
+to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
+
+##### IP theory
+
+I as a head is short for inflection.
+under the IP theory, the sentence is an IP headed by an I.
+The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
+under the IP theory, the subject is the thing that is in the specifier of the IP.
+under the IP theory, the complement of I is the VP.
+
+###### illustration
+
+class=blank-canvas;span=3;class=inner;⟮IP⟯
+class=inner;⟮NP⟯|span=2;class=inner;⟮I'⟯
+class=inner;|class=inner;⟮I⟯|class=inner;⟮VP⟯
+class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
+
+###### auxiliaries
+
+In the IP theory, generally auxiliaries (at least in english) are treated as if they live in the I position.
+However, assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
+So, auxiliaries probably all start out as V heads.
+The top auxiliary (in the tree) moves from V to I.
+Multiple auxiliaries are adjoined as Vs to the VP.
+
+##### VP-internal subject hypothesis
+
+According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
+According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
+
+###### motivation
+
+The VP-internal subject hypothesis is desirable because it makes the VP consistent with the X-bar schema.
+The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
+The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
+Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
+
+##### DP hypothesis: 
+
+The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
+The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
+Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
+
+###### motivation
+
+Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
+The DP hypothesis is still a controversial hypothesis.
+The DP hypothesis often correlates with the idea that pronouns are determiners.
+In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
 
 ## phenomena
 
@@ -214,64 +276,5 @@ The Head Movement Constraint (HMC) is the rule that a head H can only move to a 
 The HMC is a proposed rule in generative grammar.
 Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
 The head movement contraint only applies to head movement, obv.
-According to the HMC, I can only move to a position that sellects IP as its complement.
+According to the HMC, I can only move to a position that selects IP as its complement.
 
-
-# unsorted
-
-
-###### CP
-
-[CP [C] [IP]]
-CP may either be complement or adjunct to verb/VP
-to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
-
-A complement clause is a CP that is a clause. (I think this is all CPs, but not sure)
-A complementizer is the POS that is the head of a CP.
-
-The object is the thing that is the complement of the VP.
-
-###### IP theory
-
-under the IP theory, the sentence is an IP headed by an I.
-The argument for I as the head of the sentence goes something like: It makes sense for a sentence to be a type of phrase and has a head, inflectional information is core to a sentence, so it makes sense for that to be the head.
-in the IP theory, I stands for inflection.
-under the IP theory, the subject is the thing that is in the specifier of the IP.
-under the IP theory, the complement of I is the VP.
-
-class=blank-canvas;span=3;class=inner;⟮IP⟯
-class=inner;⟮NP⟯|span=2;class=inner;⟮I'⟯
-class=inner;|class=inner;⟮I⟯|class=inner;⟮VP⟯
-class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
-
-
-Auxiliaries actually start out as V, and then the top one (in the tree) moves to I.
-Multiple auxiliaries are adjoined as Vs to the VP.
-Assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
-
-#### certain hypotheses
-
-##### VP-internal subject hypothesis
-
-According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
-According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
-
-###### motivation
-
-The VP-internal subject hypothesis is desirable because it makes the VP consistent with the X-bar schema.
-The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
-The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
-Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
-
-##### DP hypothesis: 
-
-The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
-The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
-Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
-
-###### motivation
-
-Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
-The DP hypothesis is still a controversial hypothesis.
-The DP hypothesis often correlates with the idea that pronouns are determiners.
-In the DP hypothesis, a determinerless noun has a silent/unpronounced D.

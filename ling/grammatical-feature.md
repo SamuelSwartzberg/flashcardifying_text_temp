@@ -1,14 +1,11 @@
-
-A linguistic universal is a pattern that occurs systematically across (most often all) natural languages.
-
-
 # grammatical feature
 
 A grammatical feature is more rarely called grammatical category.
 A grammatical feature feature (my term) is a feature in the general sense that encodes a grammatical distinction.
 A grammatical feature category is a category consisting of an inventory of grams, of which a language may disinguish some grammemes.
 Grammatical feature is ambiguous between gramamtical feature feature and grammatical feature category.
-Some languages may not make any distinction within a grammatical feature.
+Some languages may not make any distinction within a grammatical feature. 
+^i.e., not have it
 Grammemes may be encoded lexically, morphologically or syntactically.
 Grammemes encode sememes or half of practs/pragmemes.
 
@@ -29,17 +26,20 @@ Phi-features include number, noun class and case.
 
 #### noun class
 
-Noun class is a phi-feature encoding a variety of different sememes not covered by number or case.
-Grammatical gender is a form of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
+Noun class is a phi-feature encoding a variety of different semantic distinctions.
+Grammatical gender is a type of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
 
 #### number
 
 Grammatical number is a phi-feature encoding sememes of distinctions in amounts.
-Grammatical number may distinguish actual amount or grouping.
+Grammatical number may be amount number or grouping number
 
 ##### amount
 
-table:name|sememe
+Amount number (my term) is grammatical number distinguishing amount.
+
+
+table:name|amount
 Singular|one
 Dual|two
 Trial|three
@@ -47,35 +47,30 @@ Paucal|a few
 Plural|many (more than one if only singular/plural)
 
 
-If a language distinguishes actual amount via grammatical number, most commonly it only has two grammemes, singular/plural.
-In languages with a singular/plural distinction, most often the singular is the unmarked form,.
+If a language has amount number, most commonly it only has two grammemes, singular/plural.
+In languages with a singular/plural distinction, most often the singular is the unmarked form.
 
 ###### grouping
 
-Distinguishing grouping via grammatical number is generally realized in a singulative/collective distinction.
+Grouping number (my term) is grammatical number distininguishing distributivity.
+The grammemes of grouping number are most commonly singulative and collective.
 The collective grammatical number indicates a collective semantic referent.
 The singulative grammatical entitity refers to a specific entity.
 In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
 
 ##### in languages
 
-English, German and Spanish have grammatical number that distinguishes Singular and Plural, Japanese does not have grammatical number.
+English, German and Spanish have amount number distinguishing singular/plural.
+Japanese does not have grammatical number.
 
 #### case
 
-Grammatical case is a phi-feature encoding semantic relationsip or grammatical relation/morphosyntactic alignment.
-
-##### encoding morphosyntactic alignment
-
-table:case|grammatical relation
-Accusative|object of a verb
-Nominative|Subject of a verb
-
-Dative case is sometimes said to mark the indirect object, but the indirect object is just an english construct for describing a certain kind of object of a verb. in this sense, many cases mark something that is an object or at least argument of a verb, not just dative.
-Dative indicates recipient or benificiary of an action.
+Grammatical case is a phi-feature encoding semantic relationsip and/or grammatical relation/morphosyntactic alignment.
+Grammatical case may be semantic grammatical case or grammatical grammatical case.
 
 ##### encoding semantic relationsip
 
+Semantic grammatical case (my term) is grammatical case encoding semantic relationships.
 Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
 
 ###### movement
@@ -130,16 +125,17 @@ Translative|becoming X, changing to X
 
 ###### additional information
 
-In english, the word with performs the function of both comitative and instrumental cases, this case is sometimes called the instrumental-comitative case..
-
+The instrumental-comitative case is the common case combining instrumental and commitative cases.
+^e.g. english with
 
 ### mainly related to verbs
 
 #### grammatical person
 
 Grammatical person is the grammatical feature category that encodes the sememe(s) of personal deixis.
-Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯ (but sometimes also in other places).
-Most languages distinguish three forms of grammatical person, first, second and third person.
+Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯, but sometimes also in other places.
+Most languages distinguish three forms of grammatical person.
+The three values for grammatical person most commonly distinguished are first, second and third person.
 
 
 table:grammatical person|deictically refers to
@@ -149,71 +145,9 @@ Third person|neither speaker nor addressee
 
 ##### clusivity
 
-Clusivity is the grammatical feature feature (part of grammatical person) encoding the difference between two kinds of first person plural reference.
+Clusivity is a grammatical feature feature which is a subfeature of grammatical person.
+Clusivity encodes the difference between two kinds of first person plural reference.
 [+inclusive/-exclusive] includes the addressee, [-inclusive/+exclusive] excludes the addressee.
-
-#### arguments & morphosyntactic alignment
-
-##### grammatical relations 
-
-Grammatical relations are subjects and objects, and perhaps others depending on your theory.
-The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.
-
-##### valency
-
-Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
-Transitivity is like valency, but only counts objects (excludes the subject).
-The valency of a verb or similar is one higher than its transitivity.
-Words counting valency are formed with numeral (both latinate and greek are used) + valent
-e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
-Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
-An ambitransitive verb is one with a transitivity of 0 or 1 (may take a verb or not)
-The two objects of a ditransitive/trivalent verb in english may be termed the direct and indirect object.
-
-##### morphosyntactic alignment
-
-Mrphosyntactic alignment (wide) is the grammatical relationship between arguments.
-Morphosyntactic alignment (narrow) is the relationship between the two arguments of transitive verbs, and the single argument of intransitive verbs.
-
-###### types
-
-The most common types of morphosyntactic alignments (narrow) are nominative-accusative and ergative-absolutive, though there are others.
-All languages I speak are nominative-accusative languages.
-
-####### nom acc
-
-Nominative-accusative morphosyntactic alignment is often shortened to accusative morphosyntactic alignment.
-With nominative-accusative morphosyntacitic alignment, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
-e.g. Julius venit → julius brutum vidit
-
-In nominative-accusative languages with case systems, for ditransitive verbs the complement (direct object) will typically get the accusative acase, and the second object will recieve e.g. the dative case.
-
-####### erg abs
-
-Ergative-absolutive morphosyntactic alignment is often shortened to ergative morphosyntactic alignment.
-With ergative-absolutive morphosyntactic, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
-e.g. fake ergative latin: Julius venit → Julium brutus vidit.
-
-###### ergativity
-
-an unergative verb is an intransitive verb whose argument is an agent.
-an unaccusative verb is an intransitive verb whose argument is not an agent.
-
-##### grammatical voice
-
-Voice is a grammatical feature category encoding the mapping semantic roles related to agency over grammatical relations.
-Grammatical voice is generally realized on verbs/VPs.
-The two most common grammatical voices are active and passive.
-In the active voice, the subject is the agent.
-In the passive voice, the subject is not the agent (e.g. patient, them)
-
-###### english
-
-In english, when an active sentence is transformed to a passive sentence, the former object becomes the subject.
-In english, the AGENT of a passive sentence is realized in a by-pp or left out entirely.
-In english, by-PPs realizing the agent are adjoined to the right of the VP.
-In english, the most common verb that is used to form passives is be
-In english, there is also a odd type of passive formed with get.
 
 #### tense-aspect-mood
 
@@ -495,3 +429,156 @@ The theme is that information that is being talked about.
 The rheme is what is being said about the theme.
 Topicalization is marking something as the theme by fronting it.
 // subjects are generally topics in unmarked languages, so subject drop is also topic drop (Song, 2017) (which also seems like a good introduction on information structure -> this here is incomplete, see there for more)
+
+
+# arguments
+
+Verbs have 0 or more arguments.
+Valency is the amount of arguments a verb has.
+Transitivity is the amount of non-subject arguments a verb has.
+
+## morphosyntactic alignment
+
+Morphosyntactic alignment is concerned with the distribution of case over different valencies.
+Morphosyntactic alignment typically varies by language, not within a language.
+For the purpose of morphosyntactical alignment, we will consider valencies 1-3 and thus max. three arguments A1, A2, A3
+A1, A2, A3 for the purposes of morphosyntactic alignment do not need to be ordered in that way in word order, though they may often have some kind of typical word order.
+
+### A1 A2
+
+Consider verbs with a valency of 1 or 2 and thus 1-2 arguments A1, A2.
+
+
+valency|nominative-accusative|ergative-absolutive|direct|tripartite|transitive
+1|A1=C1|A1=C1|A1=C1|A1=C1|A1=C1
+2|A1=C1, A2=C2|A1=C2, A2=C1|A1=C1, A2=C1|A1=C2, A2=C3|A1=C2, A2=C2
+
+Typically, A1 is the agent (sometimes called experiencer in the case of intransitive verbs) while A2 is the patient, though languages often allow deviating from that.
+
+#### case 
+
+##### ergative-absolutive
+
+table:Case number|case name
+C1|absolutive case
+C2|ergative case
+
+
+Because C2 marks A1 of divalent verbs in ergative-absolutive languages and A1 of divalent verbs most often is the agent, it is often said that C2 marks the agent of divalent verbs.
+
+##### nominative-accusative
+
+table:case number|case name
+C1|nominative case
+C2|accusative case
+
+##### direct
+
+table:case number|case name
+C1|direct
+
+##### tripartie
+
+table:case number|case name
+C1|intransitive case
+C2|ergative case
+C3|accusative case
+
+##### transitive
+
+table:case number|case name
+C1|intransitive case
+C2|transitive case
+
+#### split ergative
+
+split ergative morphosyntactic alignment is also known as fluid.
+Under split ergative, some verbs are treated as nominative-accusative and some as ergative-absolutive
+
+### A1 A2 A3
+
+## grammatical relations
+
+Grammatical relations are the relationships arguments have to their verb.
+For my purposes, grammatical relation i
+
+##### grammatical relations 
+
+Grammatical relations are subjects and objects, and perhaps others depending on your theory.
+
+
+##### valency
+
+Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
+Transitivity is like valency, but only counts objects (excludes the subject).
+The valency of a verb or similar is one higher than its transitivity.
+Words counting valency are formed with numeral (both latinate and greek are used) + valent
+e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
+Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
+An ambitransitive verb is one with a transitivity of 0 or 1 (may take a verb or not)
+The two objects of a ditransitive/trivalent verb in english may be termed the direct and indirect object.
+
+##### morphosyntactic alignment
+
+Mrphosyntactic alignment (wide) is the grammatical relationship between arguments.
+Morphosyntactic alignment (narrow) is the relationship between the two arguments of transitive verbs, and the single argument of intransitive verbs.
+
+##### encoding morphosyntactic alignment
+
+Grammatical grammatical case (my term) is grammatical case encoding grammatical relation/morphosyntactic alignment.
+For details, see other section.
+
+###### cases
+
+
+
+table:case|grammatical relation
+Accusative|object of a verb
+Nominative|Subject of a verb
+
+
+Dative case marks a second argument of a verb that also indicates recipient or beneficiary of an action.
+
+###### types
+
+The most common types of morphosyntactic alignments (narrow) are nominative-accusative and ergative-absolutive, though there are others.
+All languages I speak are nominative-accusative languages.
+
+####### nom acc
+
+Nominative-accusative morphosyntactic alignment is often shortened to accusative morphosyntactic alignment.
+With nominative-accusative morphosyntacitic alignment, the specifier of an intransitive verb is treated like the specifier of a transitive verb grammatically, while the complement of a transitive verb is treated differently.
+e.g. Julius venit → julius brutum vidit
+
+In nominative-accusative languages with case systems, for ditransitive verbs the complement (direct object) will typically get the accusative acase, and the second object will recieve e.g. the dative case.
+
+####### erg abs
+
+Ergative-absolutive morphosyntactic alignment is often shortened to ergative morphosyntactic alignment.
+With ergative-absolutive morphosyntactic, the specifier of an intransitive argument is treated like the complement of a transitive verb grammatically, while the specifier of a transitive verb acts differently,
+e.g. fake ergative latin: Julius venit → Julium brutus vidit.
+
+###### ergativity
+
+an unergative verb is an intransitive verb whose argument is an agent.
+an unaccusative verb is an intransitive verb whose argument is not an agent.
+
+## voice
+
+Voice is a grammatical feature category which changes the valency of a verb, and thus also the semantic roles of the arguments.
+
+Passivelike voices are voices which transform A2 -> A1, while dropping A1 or realizing it in some less central way.
+The passive voice is the passivelike voice for nominative-accusative languages.
+The antipassive voice is the passivelike voice for ergative-absolutive languages.
+
+encoding the mapping semantic roles related to agency over grammatical relations.
+Grammatical voice is generally realized on verbs/VPs.
+The two most common grammatical voices are active and passive.
+In the active voice, the subject is the agent.
+In the passive voice, the subject is not the agent (e.g. patient, them)
+The mediopassive voice is a grammatical voice that merges the middle voice and the passive voice.
+The impersonal passive voice reduces the valency of an intransitive verb to zero.
+
+
+
+The generative grammar/chomskyan approach is to see an object as the DP complement of a verb.

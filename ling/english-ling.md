@@ -190,3 +190,5 @@ Main clauses in german have the specifier of C filled by an arbitrary constituen
 
 In english, the complementizer 'that' sometimes is unpronounced
 Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
+
+In the passive voice, the subject is not the agent (e.g. patient, them)
