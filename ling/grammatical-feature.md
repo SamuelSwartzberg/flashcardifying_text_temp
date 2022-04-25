@@ -433,9 +433,19 @@ Topicalization is marking something as the theme by fronting it.
 
 # arguments
 
+## counting arguments
+
 Verbs have 0 or more arguments.
 Valency is the amount of arguments a verb has.
 Transitivity is the amount of non-subject arguments a verb has.
+Valency = Transitivity + 1 
+An ambitransitive verb is one with a transitivity of 0 or 1 (may take an argument or not)
+
+### terminology
+
+Words counting valency are formed with numeral (both latinate and greek are used) + valent
+e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
+Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
 
 ## morphosyntactic alignment
 
@@ -523,11 +533,14 @@ If v=3, typically A2 is the patient, and A3 is the theme.
 
 #### cases
 
-for both dative and dechticaeative, CI is whatever the case of A2 was for v=2 (see other level of alignments).
+for both dative and dechticaetiative, CI is whatever the case of A2 was for v=2 (see other level of alignments).
 CII is dative for languages with dative morphosyntactic alignment.
 CII is dechticaetative for languages with dechticaetative morphosyntactic alignment.
 In the case of dative morphsynalign, A2 is called direct and A3 indirect object.
 In the case of dechticaetative morphsynalign, A2 is called primary and A3 secondary object.
+dative morphsynalign=indirective morphsynalign
+dechticaetiative morphsynalign=secundative morphsynalign
+Primarily dative langauges often still feature some dechticaetiative behavior.
 
 ### merging
 
@@ -536,25 +549,16 @@ The oblique case is an argument-marking case that is not C1 (e.g. nominative or 
 Thus, for nom-accus dative morphsynalign the oblique case can be said to merge dative and accusative cases.
 English features an oblique case.
 
-##### valency
+### realization
 
-Valency is the grammatical feature category encoding the number of arguments controlled by a thing, mainly by a verb.
-Transitivity is like valency, but only counts objects (excludes the subject).
-The valency of a verb or similar is one higher than its transitivity.
-Words counting valency are formed with numeral (both latinate and greek are used) + valent
-e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
-Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
-An ambitransitive verb is one with a transitivity of 0 or 1 (may take a verb or not)
-The two objects of a ditransitive/trivalent verb in english may be termed the direct and indirect object.
-
-###### types
-
-The most common types of morphosyntactic alignments (narrow) are nominative-accusative and ergative-absolutive, though there are others.
+The most common types of morphosyntactic alignments (narrow) are nominative-accusative followed by ergative-absolutive.
+Dative morphsynalign is more common than dechticaetiative.
 All languages I speak are nominative-accusative languages.
 
-###### ergativity
+## semantic roles in monovalent verbs
 
-an unergative verb is an intransitive verb whose argument is an agent.
+an unergative verb is an intransitive verb whose argument is an agent 
+^the most common case
 an unaccusative verb is an intransitive verb whose argument is not an agent.
 
 ## voice
