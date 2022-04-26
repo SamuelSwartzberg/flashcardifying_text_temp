@@ -10,7 +10,7 @@
 ### noun class
 
 »⟮Noun class⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮a variety of different semantic distinctions⟯.
-Grammatical gender is a type of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
+»⟮Grammatical gender⟯« is a type of ⟮＿noun-class system＿⟯ where ⟮＿the grammemes＿ distinguished⟯ are ⟮male, female, and possibly neuter⟯.
 
 ### number
 
@@ -247,7 +247,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 ##### prospective/retrospective
 
 »⟮spective aspect⟯« (my term) indicates ⟮when an event takes place⟯ ⟮relative to the reference time⟯.
-spective aspective may be prospective, retrospective, or ø.
+⟮＿spective aspect＿⟯ may be ⟮＿prospective＿⟯, ⟮c_;＿retrospective＿⟯, or ⟮c_;ø⟯.
 »⟮Prospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮subsequent⟯ to a reference time.
 »⟮Retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮before⟯ a reference time.
 ⟮Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
@@ -258,6 +258,7 @@ spective aspective may be prospective, retrospective, or ø.
 »⟮scope aspect⟯« (my term) indicates what ⟮kind of scope⟯ ⟮something being the fact has⟯.
 ⟮＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
 »⟮Gnomic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮general truths⟯.
+^sometimes also analzyed as a modality
 »⟮Episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths that are temporally bounded⟯.
 
 ##### telic/atelic
@@ -274,89 +275,94 @@ spective aspective may be prospective, retrospective, or ø.
 
 ##### deontic/epistemic, realis/irrealis
 
-⟮＿Modalities＿⟯ are primarily categorized along two axes: deontic/epistemic and realis/irreals
-»⟮Deontic modalities⟯« are modalities concerned with how the world ought to be.
-»⟮Epistemic modality⟯« are modalities concerned with knowledge/belief/credence.
-»⟮Realis modalities⟯« are modalities that indicate that something is the case.
-»⟮Irrealis modalities⟯« are modalities that indicate that something is somehow not the case.
-Some modalities are ambiguous between being realis/irrealis and/or deontic/epistemic.
-Distinction between different types of modality may not always be clear-cut.
+⟮＿Modalities＿⟯ are ⟮c_;primarily categorized⟯ with two binaries: ⟮＿deontic/epistemic＿⟯ and ⟮＿realis/irreals＿⟯
+»⟮Deontic modalities⟯« are ＿modalities＿ concerned with ⟮how the world ought to be⟯.
+»⟮Epistemic modality⟯« are ＿modalities＿ concerned with ⟮knowledge/belief/credence⟯.
+»⟮Realis modalities⟯« are ＿modalities＿ that indicate that ⟮something is the case⟯.
+»⟮Irrealis modalities⟯« are ＿modalities＿ that indicate that ⟮something is somehow not the case⟯.
+⟮Some ＿modalities＿⟯ are ⟮ambiguous between⟯ being ⟮＿realis/irrealis＿ and/or ＿deontic/epistemic＿⟯.
+The distinction between different types of modality may not always be ⟮clear-cut⟯.
 
 
 ##### realis epistemic
 
-Most (but not all) languages have a single realis mood/modality called the indicative mood/modality.
+⟮Most (but not all)⟯ languoids have ⟮a single⟯ ⟮＿realis modality＿⟯ called ⟮＿the indicative modality＿⟯.
 
-Possible epistemic realis modalitites are energetic, gnomic or the various evidential modalites.
-Energetic is an epistemic realis mood indicating emphasis or strong belief.
-Gnomic is an epistemic realis mood indicating general truths or aphorisms. 
+Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ are ⟮＿energetic＿⟯ or ⟮the various ＿evidential modalites＿⟯.
+»⟮the energetic modality⟯« is an ⟮＿epistemic realis＿⟯ ＿modality＿ indicating ⟮emphasis or strong belief⟯.
 
 ###### evidentiality
 
-Evidentiality (wide sense) is the grammatical feature category encoding what kind of evidence there is for a given statement.
-Evidentiality (wide sense) is most commonly analyzed as a realis epistemic modiality.
-Evidential =syn= verificational =syn= validational
-An evidential is a feature that encodes evidentiality (wide sense).
+»⟮Evidentiality (wide sense)⟯« is ⟮＿the grammatical feature category＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
+⟮＿Evidentiality (wide sense)＿⟯ is most commonly analyzed as a ⟮＿realis epistemic＿⟯ ⟮＿modiality＿⟯.
+⟮Evidential⟯ =syn= ⟮verificational⟯ =syn= ⟮validational⟯
+»⟮An evidential⟯« is ⟮＿a grammeme＿⟯ that encodes ⟮＿evidentiality (wide sense)＿⟯.
 
-The typology of evidentiality (wide sense) was mainly created by Alexandra Aikhenvald (2004, 2006).
-There are two kinds of evidentiality (wide sense): indirectivity and evidentiality proper.
-Indirectivity is sometimes called type I, evidentiality type II.
-Indirectivity is the type of evidentiality (wide sense) that encodes whether evidence exists, but not what kind.
-Evidentiality proper is the type of evidentiality (wide sense) that encodes what kind of evidence exists.
+⟮The most common typology⟯ of ⟮＿evidentiality (wide sense)＿⟯ was mainly created by ⟮Alexandra Aikhenvald (2004, 2006)⟯.
+There are two kinds of ⟮＿evidentiality (wide sense)＿⟯: ⟮＿indirectivity＿⟯ and ⟮＿evidentiality proper＿⟯.
+⟮＿Indirectivity＿⟯ is sometimes called »⟮type I evidentiality⟯«, ⟮c-;＿evidentiality proper＿⟯ »⟮type II evidentiality⟯«.
+⟮＿Indirectivity＿⟯ is the type of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮whether evidence exists, but not what kind⟯.
+⟮＿Evidentiality proper＿⟯ is the type of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
 
 ####### evidentiality proper
 
-Evidentiality proper contains a certain number of grammatical feature features.
-Most languages build evidentials proper grammemes from a combination of the various grammatical feature features of evidentiality proper.
-The grammatical feature features making up the grammatical feature cateogory evidentiality proper are [+/- witness], [+/- firsthand/secondhand/thirdhand], [+/- sensory], [+/- inferential], [+/- reportative], [+/- assumed].
-The evidentiality proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- visual] or [+/- auditory]
-The reportative proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- hearsay] or [+/- quotativve]
+⟮＿Evidentiality proper＿⟯ contains ⟮a certain number of⟯ ⟮＿grammatical feature feature＿⟯s.
+Most languages (that have it) build ⟮＿evidentials proper＿⟯ ⟮＿grammemes＿⟯ from ⟮a combination of⟯ ⟮the various ＿grammatical feature features＿⟯ of ⟮c_-3;＿evidentiality proper＿⟯.
+⟮＿The grammatical feature features＿⟯ making up ＿the grammatical feature cateogory＿ ⟮＿evidentiality proper＿⟯ are ⟮[+/- witness]⟯, ⟮[+/- firsthand/secondhand/thirdhand]⟯, ⟮[+/- sensory]⟯, ⟮[+/- inferential]⟯, ⟮[+/- reportative]⟯, ⟮[+/- assumed]⟯.
+The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- sensory]⟯ may sometimes contain subfeatures ⟮[+/- visual]⟯ and/or ⟮[+/- auditory]⟯
+The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- reportative]⟯ may sometimes contain subfeatures ⟮[+/- hearsay]⟯ and/or ⟮[+/- quotative]⟯
 
 ##### irrealis epistemic
 
-The common epistemic irrealis modalities are subjunctive, potential, dubitative, speculative, hypothetical, assumptive
+The common ⟮＿epistemic irrealis＿⟯ ＿modalities＿ are ⟮＿subjunctive＿⟯, ⟮＿potential＿⟯, ⟮＿dubitative＿⟯, ⟮＿speculative＿⟯, ⟮＿hypothetical＿⟯, ⟮＿assumptive＿⟯
 
 
 table:epistemic irrealis modality|meaning
-Subjunctive|something is unlikely, this is generally used in subordinate clauses.
-Conditional|Something is a dependent on another thing.
-Tentative|something is likely
-Dubitative|something is dubious/doubtful or uncertain.
-Speculative|something is mere speculation.
-Hypothetical|while something did not happen, it could have happened.
-Assumptive|something is true because it is usually true in similar circumstances
+»⟮tentative⟯«|⟮likely⟯
+»⟮dubitative⟯«|⟮dubious/doubtful or uncertain⟯
+»⟮subjunctive⟯«|⟮unlikely⟯ (generally used in ⟮subordinate clauses⟯)
+»⟮speculative⟯«|⟮mere speculation⟯
+»⟮hypothetical⟯«|⟮while something did not happen, it could have happened⟯
+»⟮assumptive⟯«|⟮something is true because it is usually true in similar circumstances⟯ (could be realis too imo)
+»⟮conditional⟯«|⟮dependent on another thing⟯
 
 
-The tentative mood is more commonly called potential, but this is a different meaning than the potential in japanese 
+The ⟮＿tentative mood＿⟯ is more commonly called ⟮potential⟯, but this ⟮is a different meaning⟯ than the ⟮c_-;potential⟯ in ⟮japanese⟯ 
 
 ##### deontic
 
-Deontic modality may be roughly dividend into commissive, directive and volitive.
+⟮＿Deontic modality＿⟯ may be roughly divided into ⟮＿commissive＿⟯, ⟮＿directive＿⟯ and ⟮＿volitive＿⟯.
 
 
 table:type of deontic modality|meaning
-commmissive|commital to something
-directive|commands, requests, etc.
-volitive|wishes, desires etc.
+»⟮commmissive⟯«|⟮commital to something⟯
+»⟮directive⟯«|⟮commands, requests, etc.⟯
+»⟮volitive⟯«|⟮wishes, desires etc.⟯
 
 ###### directive
 
+⟮＿Directive modality＿⟯ may be roughly divided into ⟮＿permissive＿⟯, ⟮＿imperative＿⟯, ⟮＿hortative＿⟯, ⟮＿prohibitive＿⟯, ⟮＿propositive＿⟯.
+
+
 table:type of directive modality|meaning
-Permissive|something is permitted
-Imperative|command
-Hortative|encouraging/discouraging an action
-Prohibitive/vetative|that something is prohibited.
-Propositive|proposal or suggestion
+»⟮permissive⟯«|⟮something is permitted⟯
+»⟮imperative⟯«|⟮command⟯
+»⟮hortative⟯«|⟮encouraging/discouraging an action⟯
+»⟮prohibitive⟯«/vetative|⟮something is prohibited⟯
+»⟮propositive⟯«|⟮proposal or suggestion⟯
 
 ###### volitive
 
+⟮＿Volitive modality＿⟯ may be roughly divided into ⟮＿desiderative＿⟯ and ⟮＿optative＿⟯
+
+
 table:type of volitive modality|meaning
-Desiderative|one has a desire for something
-Optative|event is hoped for
+»⟮desiderative⟯«|⟮one has a desire for something⟯
+»⟮optative⟯«|⟮event is hoped for⟯
 
 ##### epistemic
 
-Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing.
-Causative is an epistemic modality indicating that someone/thing causes someone/thing else to do/be something.
-Causative modality increases the valency of the verb involved.
+»⟮Mirative⟯« is an ⟮＿epistemic＿⟯ ⟮＿modality＿⟯ indicating ⟮surprise/unpreparedness in relation to a given thing⟯.
+»⟮Causative⟯« is an ⟮＿epistemic＿⟯ ⟮＿modality＿⟯ indicating that ⟮someone/thing causes someone/thing else to do/be something⟯.
+⟮＿Causative modality＿⟯ ⟮increases⟯ ⟮＿the valency＿⟯ ⟮c_-;of the verb involved⟯.
 
