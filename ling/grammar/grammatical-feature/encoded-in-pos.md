@@ -246,16 +246,16 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 
 ##### prospective/retrospective
 
-»⟮spective aspect⟯« (my term) indicates when an event takes place relative to the reference time.
+»⟮spective aspect⟯« (my term) indicates ⟮when an event takes place⟯ ⟮relative to the reference time⟯.
 spective aspective may be prospective, retrospective, or ø.
-»⟮Prospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs subsequent to a reference time.
-»⟮Retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs before a reference time.
+»⟮Prospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮subsequent⟯ to a reference time.
+»⟮Retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮before⟯ a reference time.
 ⟮Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
 ^not to be confused with perfect⁑ive⁑ aspect
 
 ##### gnomic/episodic
 
-»⟮scope aspect⟯« (my term) indicates what kind of scope something being the fact has.
+»⟮scope aspect⟯« (my term) indicates what ⟮kind of scope⟯ ⟮something being the fact has⟯.
 ⟮＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
 »⟮Gnomic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮general truths⟯.
 »⟮Episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths that are temporally bounded⟯.
