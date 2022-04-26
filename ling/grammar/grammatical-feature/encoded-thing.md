@@ -4,32 +4,33 @@
 
 #### honorific
 
-A honorific is a grammatical feature category that encodes half of practs related to social relationships.
-Honorifics may encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
-Honorifics may be realized via a variety of linguistic devices.
+Honorifity (my term) is a grammatical feature category that encodes half of practs related to social relationships.
+A honorific is a grammeme/gram from the honorifity grammatical feature category.
+Honorifics may specifically encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
+The honorific target (my term) is the relationship with whom the honorific is targeting.
+No matter the honorific target, the second party in the relationship the honorific is saying something about is usually
+There are four common honorific targets: addressee, referent, bystander, situation.
 
 ##### T-V
 
-The T-V distinction (wide) is a honorific distinction realized in pronouns.
-The T-V distinction (narrow) is a honorific distinction realized in two different second-person pronouns.
-The T-V distinction is common in many Indo-European languages, but not english.
-The name T-V distinction comes from latin tu/vos.
+»⟮The T-V distinction (wide)⟯« is realizing ⟮＿honorifity＿⟯ using ⟮＿pronouns＿⟯.
+»⟮The T-V distinction (narrow)⟯« is realizing ⟮＿honorifity＿⟯ using ⟮two different⟯ ⟮＿second-person＿ ＿pronouns＿⟯.
+⟮＿The T-V distinction (wide, narrow)＿⟯ exists in ⟮many⟯ ⟮Indo-European languages⟯, but not ⟮c_;english⟯.
+The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ### sememes
 
 #### polarity
 
-Polarity is a grammatical feature category ＆ feature feature that encodes the difference between positive and negative polarity.
-Positive/negative polarity may be truth/falsity and/or confirmation/denial.
-There may be separate polarity grammemes for truth/falsity and confirmation/denial grammemes, or grammemes may be ambiguous between them.
-Positive polarity =syn= affirmation
-Negative polarity =syn= negation
-
+»⟮Polarity⟯« is ⟮＿a grammatical feature category＿⟯ that encodes ⟮the distinction between positive and negative⟯.
+»⟮True/false polarity⟯« (my term) is ⟮＿polarity＿⟯ encoding the distinction between ⟮true and false⟯.
+»⟮aff/neg polarity⟯« (my term) is ⟮＿polarity＿⟯ encoding the distinction between ⟮affirmation and negation⟯.
+Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿aff/neg polarity＿⟯, or ⟮c_-;be ambiguous between them⟯.
 
 #### posessive
 
-A posessive is a grammeme indicating posession.
-Posessives may be instantiated via lexemes or inflectional/derivational morphemes.
+»⟮A posessive⟯« is ⟮＿a grammeme＿⟯ indicating ⟮posession⟯.
+Posessives may be encoded via lexemes or inflectional/derivational morphemes.
 Inflectional morphology instantiating a posessive is genitive/posessive case.
 Lexemes instatiating a posessive are most commonly possessive determiners, pronouns and verbs.
 Examples for posessive verbs are to have, haben, tener.
@@ -38,10 +39,9 @@ e.g. 金⁑ある⁑よ, hessian dialectal german: das ist mir.
 
 #### numerals
 
-A numeral is a grammeme that describes a numerical quantity.
-Numerals are instantiated by lexemes, more precisely via derivational morphology.
-Numerals internally often consist of some morpheme(s) indicating the quantity, and some morpheme(s) the type of numeral.
-In most languages, lexemes instantating numerals are either determiners, adverbs or nouns.
+»⟮A numeral⟯« is ⟮＿a grammeme＿⟯ encoding ⟮＿the semantic (feature) category＿ ＿quantity＿⟯ via ⟮lexemes and/or derivational morphology⟯.
+⟮＿Numerals＿⟯ internally often consist of ⟮some morpheme(s)⟯ indicating ⟮the quantity⟯, and ⟮c-;some morpheme(s)⟯ the ⟮type of numeral⟯.
+In most languages, lexemes instantating ⟮＿numerals＿⟯ are either ⟮＿determiners＿⟯, ⟮＿adverbs＿⟯ or ⟮＿nouns＿⟯.
 
 ##### classifier
 
