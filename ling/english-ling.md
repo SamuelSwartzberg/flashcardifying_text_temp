@@ -192,3 +192,47 @@ In english, the complementizer 'that' sometimes is unpronounced
 Akane thought that Lilly was a いい子. ⇒ Akane thought Lilly was a いい子. 
 
 In the passive voice, the subject is not the agent (e.g. patient, them)
+
+
+### en constituentcy tests
+
+There are many constituency tests in english, among which are: proform, cleft, question, and movement
+
+
+##### proform
+
+proform test: Substitute the relevant proform, perform a grammaticality judgement
+```lang=text;k
+The lady running the group handed in her resignation at noon.
+The lady running the group did so at noon.
+```
+
+##### cleft
+
+cleft test: Move the string into the main clause of a cleft sentence (It was/is x that...)
+```lang=text;
+The guests from overseas visited the best parts of the city on Monday
+It was the best parts of the city that the guests from overseas visited on Monday.
+```
+
+##### question
+
+question test: Ask for the string in question with a wh-question.
+```lang=text;
+The lady running the group handed in her resignation at noon.
+What did the lady running the group hand in at noon?
+Her resignation.
+```
+
+##### movement
+
+Movement test: move string to different position in sentence.
+```lang=text;
+Gertrude wasn't interested in art.
+Interested in art, Gertrude wasn't.
+```
+
+### CP role in sentence
+
+CPs may either be complement or adjunct to verb/VP
+to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.

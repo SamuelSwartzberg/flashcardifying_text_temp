@@ -1,63 +1,64 @@
-## encoded in specfic parts of speech
+# encoded in specfic parts of speech
 
-### phi-features (noun-related)
+## phi-features (noun-related)
 
-phi-features is a group of grammatical feature categories related to nouns which are encoded morphologically as inflectional paradigms.
-Phi-features often force agreement on noun-related things, and sometimes on verbs too.
-Phi-features include number, noun class and case.
+»⟮the phi-features⟯« are ⟮a group of⟯ ⟮＿grammatical feature categories＿⟯ ⟮related to ＿nouns＿⟯ which are encoded ⟮＿inflectionally＿⟯.
+»⟮A phi-feature⟯« is ⟮＿a grammatical feature＿⟯ that is ⟮one of ＿the phi-features＿⟯.
+⟮＿The phi-features＿⟯ ⟮often force⟯ ⟮＿agreement＿⟯ on ⟮noun-related things⟯, and sometimes on ⟮c_;verbs⟯ too.
+⟮＿The phi-features＿⟯ include ⟮＿number＿⟯, ⟮＿noun class＿⟯ and ⟮＿case＿⟯.
 
-#### noun class
+### noun class
 
-Noun class is a phi-feature encoding a variety of different semantic distinctions.
+»⟮Noun class⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮a variety of different semantic distinctions⟯.
 Grammatical gender is a type of noun-class system where the grammemes distinguished are male, female, and possibly neuter.
 
-#### number
+### number
 
-Grammatical number is a phi-feature encoding sememes of distinctions in amounts.
-Grammatical number may be amount number or grouping number
+»⟮Grammatical number⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮＿sememes/semantic features＿⟯ of ⟮c_;＿the semantic (feature)＿ category⟯ ⟮setlike⟯
+⟮＿Grammatical number＿⟯ may be ⟮＿amount number＿⟯ or ⟮＿grouping number＿⟯
 
-##### amount
+#### amount
 
-Amount number (my term) is grammatical number distinguishing amount.
+»⟮Amount number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮＿amount＿ ＿semantic features＿⟯.
 
 
 table:name|amount
-Singular|one
-Dual|two
-Trial|three
-Paucal|a few
-Plural|many (more than one if only singular/plural)
+»⟮Singular⟯«|⟮one⟯
+»⟮Dual⟯«|⟮two⟯
+»⟮Trial⟯«|⟮three⟯
+»⟮Paucal⟯«|⟮a few⟯
+»⟮Plural⟯«|⟮more than any of the other numbers available in the language⟯
 
 
 If a language has amount number, most commonly it only has two grammemes, singular/plural.
 In languages with a singular/plural distinction, most often the singular is the unmarked form.
 
-###### grouping
+##### grouping
 
-Grouping number (my term) is grammatical number distininguishing distributivity.
+Grouping number (my term) is grammatical number encoding the distributivity semantic feature.
 The grammemes of grouping number are most commonly singulative and collective.
 The collective grammatical number indicates a collective semantic referent.
 The singulative grammatical entitity refers to a specific entity.
 In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
 
-##### in languages
+#### in languages
 
 English, German and Spanish have amount number distinguishing singular/plural.
 Japanese does not have grammatical number.
 
-#### case
+### case
 
 Grammatical case is a phi-feature encoding semantic relationsip and/or grammatical relation/morphosyntactic alignment.
 Grammatical case may be semantic grammatical case or grammatical grammatical case.
 Grammatical grammatical case encodes the relationships of arguments to the verb.
 ^and thus which exist depend on the morphosyntactic alignment of the language.
 
-##### semantic grammatical case
+#### semantic grammatical case
 
 Semantic grammatical case (my term) is grammatical case encoding semantic relationships.
 Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
 
-###### movement
+##### movement
 
 table:case|semantic relationship
 lative|movement to a location.
@@ -69,7 +70,7 @@ Egressive|beginning of a movement from a location or time ('starting from')
 Prolative/vialis/prosecutive/traversal/mediative|by way of, via
 perlative|through, across, along
 
-###### location
+##### location
 
 table:case|semantic relationship
 locative|location
@@ -79,7 +80,7 @@ subessive|below
 Pertingent|touching x
 Intrative|"amidst"
 
-###### cause, purpose, means, use
+##### cause, purpose, means, use
 
 table:case|semantic relationship
 benefactive|something is done for the benefit someone/is intended for someone.
@@ -91,14 +92,14 @@ Vocative|adressee
 
 Benefactive case is often included in the dative case.
 
-###### presence, absence
+##### presence, absence
 
 table:case|semantic relationship
 Genitive|posess⁑or⁑
 Abessive/caritive/privative|absence of the thing.
 Comitative|accompaniment
 
-###### comparison, identity
+##### comparison, identity
 
 table:case|semantic relationship
 Identical|something is identical to another
@@ -107,14 +108,14 @@ Comparative|something is like something (e.g. cold as ice)
 Exessive|away from a state
 Translative|becoming X, changing to X
 
-###### additional information
+##### additional information
 
 The instrumental-comitative case is the common case combining instrumental and commitative cases.
 ^e.g. english with, though that's obv not a case.
 
-### mainly related to verbs
+## mainly related to verbs
 
-#### grammatical person
+### grammatical person
 
 Grammatical person is the grammatical feature category that encodes the sememe(s) of personal deixis.
 Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯, but sometimes also in other places.
@@ -127,23 +128,23 @@ First person|The speaker
 Second person|The addressee
 Third person|neither speaker nor addressee
 
-##### clusivity
+#### clusivity
 
 Clusivity is a grammatical feature feature which is a subfeature of grammatical person.
 Clusivity encodes the difference between two kinds of first person plural reference.
 [+inclusive/-exclusive] includes the addressee, [-inclusive/+exclusive] excludes the addressee.
 
-#### tense-aspect-mood
+### tense-aspect-mood
 
 tense-aspect-mood is the combination of tense, aspect and mood.
 tense, aspect and mood are grammatical feature categoriess marked on verbs or VPs.
 tense-aspect-mood exists as a grouping since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
 
-##### tense
+#### tense
 
 Tense may be split into absolute and strict relative tense (though this is complicated, as discussed below).
 
-###### absolute tense
+##### absolute tense
 
 Absolute tense is the time of the action relative to the present.
 The possible absolute tenses are past, present and future.
@@ -151,14 +152,14 @@ Some languages only distinguish two absolute tenses.
 Languages which only distinguish two absolute tenses have either past/nonpast or future/nonfuture.
 There are some languages which lack absolute tense completely, though this is rather are.
 
-###### relative tense
+##### relative tense
 
 strict relative tense is the time of the action relative to a specific point in time. 
 strict relative tense can also be analyzed as spective aspect.
 anterior tense (strict relative tense) = retrospective aspect (spective aspect)
 posterior tense (strict relative tense) = prospective aspect (spective aspect)
 
-###### combinations
+##### combinations
 
 Absolute relative tense is the combination of absolute tense and strict relative tense.
 relative tense is ambiguous between strict relative tense and absolute relative tense.
@@ -171,7 +172,7 @@ future in the past = past absolute tense + prospective aspect
 future in the future (??? - doesn't seem to exit) = future absolute tense + prospective aspect
 
 
-##### aspect
+#### aspect
 
 Aspect is the grammatical feature category encoding how the event relates to time in general.
 Depending on how the grammemes are encoded, aspect may be divided into grammatical aspect and lexical aspect.
@@ -185,13 +186,13 @@ Lexical aspect is aspect encoded in lexical items.
 - !scope
 - !telicity
 
-###### eventive
+##### eventive
 
 Eventive aspect indicates how time flows within the process/event itself.
 While eventive aspects can be ordered hierarchically, languages may have some aspects deep into the tree while not having others.
 e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
-####### outline
+###### outline
 
 ```
 !Eventive
@@ -205,13 +206,13 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 !      Stative
 ```
 
-####### relation
+###### relation
 
 Eventive aspect may be divided into perfective and imperective aspect.
 perfective aspect is the event viewed in its entirety ( = without internal complexity).
 Imperfective aspect is event viewed with some sort of internal complexity.
 
-######## imperfect
+####### imperfect
 
 Imperfective aspect may sometimes be divided into iterative, frequentative, habitual and continuous (though there may be others)
 Habitual, iterative and frequentative aspect all indicate that something is repeated.
@@ -220,26 +221,26 @@ Frequentative aspect indicates that the action is repeated on different occasion
 Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly⟯ during the same occasion.
 Continuous aspect indicates an ongoing situation/action without interruption.
 
-######### continuous
+######## continuous
 
 Continuous aspect may sometimes be divided into progressive and stative.
 Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
 Stative aspecti is a continuous aspect where the situation/action is not evolving/changing.
 
-####### realizations in languges
+###### realizations in languges
 
 Habitual be is a feature of AAVE indicating habitual aspect.
 Spanish distinguishes imperfective and perfective verbs in the preterite tense.
 In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
 
-###### howfar
+##### howfar
 
 howfar aspect (my term) indicates how the state is changing during the specified time.
 howfar aspect may be inchoative, cessative or ø.
 Inchoative aspect is a howfar aspect indicating that something is beginning (however not that something is about to begin).
 Cessative aspect is a howfar aspect indicating that something is ending.
 
-###### prospective/retrospective
+##### prospective/retrospective
 
 spective aspect (my term) indicates when an event takes place relative to the reference time.
 spective aspective may be prospective, retrospective, or ø.
@@ -248,26 +249,26 @@ Retrospective aspect is a spective aspect indicating that an event occurs before
 Retrospective aspect is commonly but confusingly also called perfect aspect.
 ^not to be confused with perfective aspect
 
-###### gnomic/episodic
+##### gnomic/episodic
 
 scope aspect (my term) indicates what kind of scope something being the fact has.
 Scope aspect may be gnomic, episodic, or ø.
 Gnomic aspect is a scope aspect indicating general truths.
 Episodic aspect is a scope aspect indicating truths that are temporally bounded.
 
-###### telic/atelic
+##### telic/atelic
 
 Telicity is the aspect of whether something has a specific endpoint.
 Telicity is sometimes also analyzed as something else than a aspect.
 Telicity may be telic, atelic, or ø.
 
-##### modality
+#### modality
 
 modality is a grammatical feature category encoding possible situations. 
 Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
 Different forms of modality are sometimes called flavors.
 
-###### deontic/epistemic, realis/irrealis
+##### deontic/epistemic, realis/irrealis
 
 Modalities are primarily distingished along two axes: deontic/epistemic and realis/irreals
 Deontic modality is modality that is concerned with how the world ought to be.
@@ -278,7 +279,7 @@ Some modalities are ambiguous between being realis/irrealis and/or deontic/epist
 Distinction between different types of modality may not always be clear-cut.
 
 
-###### realis epistemic
+##### realis epistemic
 
 Most (but not all) languages have a single realis mood/modality called the indicative mood/modality.
 
@@ -286,7 +287,7 @@ Possible epistemic realis modalitites are energetic, gnomic or the various evide
 Energetic is an epistemic realis mood indicating emphasis or strong belief.
 Gnomic is an epistemic realis mood indicating general truths or aphorisms. 
 
-####### evidentiality
+###### evidentiality
 
 Evidentiality (wide sense) is the grammatical feature category encoding what kind of evidence there is for a given statement.
 Evidentiality (wide sense) is most commonly analyzed as a realis epistemic modiality.
@@ -299,7 +300,7 @@ Indirectivity is sometimes called type I, evidentiality type II.
 Indirectivity is the type of evidentiality (wide sense) that encodes whether evidence exists, but not what kind.
 Evidentiality proper is the type of evidentiality (wide sense) that encodes what kind of evidence exists.
 
-######## evidentiality proper
+####### evidentiality proper
 
 Evidentiality proper contains a certain number of grammatical feature features.
 Most languages build evidentials proper grammemes from a combination of the various grammatical feature features of evidentiality proper.
@@ -307,7 +308,7 @@ The grammatical feature features making up the grammatical feature cateogory evi
 The evidentiality proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- visual] or [+/- auditory]
 The reportative proper grammatical feature feature [+/- sensory] may sometimes contain subfeatures [+/- hearsay] or [+/- quotativve]
 
-###### irrealis epistemic
+##### irrealis epistemic
 
 The common epistemic irrealis modalities are subjunctive, potential, dubitative, speculative, hypothetical, assumptive
 
@@ -324,7 +325,7 @@ Assumptive|something is true because it is usually true in similar circumstances
 
 The tentative mood is more commonly called potential, but this is a different meaning than the potential in japanese 
 
-###### deontic
+##### deontic
 
 Deontic modality may be roughly dividend into commissive, directive and volitive.
 
@@ -334,7 +335,7 @@ commmissive|commital to something
 directive|commands, requests, etc.
 volitive|wishes, desires etc.
 
-####### directive
+###### directive
 
 table:type of directive modality|meaning
 Permissive|something is permitted
@@ -343,13 +344,13 @@ Hortative|encouraging/discouraging an action
 Prohibitive/vetative|that something is prohibited.
 Propositive|proposal or suggestion
 
-####### volitive
+###### volitive
 
 table:type of volitive modality|meaning
 Desiderative|one has a desire for something
 Optative|event is hoped for
 
-###### epistemic
+##### epistemic
 
 Mirative is an epistemic modality indicating surprise/unpreparedness in relation to a given thing.
 Causative is an epistemic modality indicating that someone/thing causes someone/thing else to do/be something.
