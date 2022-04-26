@@ -30,251 +30,255 @@ table:name|amount
 »⟮Plural⟯«|⟮more than any of the other numbers available in the language⟯
 
 
-If a language has amount number, most commonly it only has two grammemes, singular/plural.
-In languages with a singular/plural distinction, most often the singular is the unmarked form.
+If a languoid has ⟮＿amount number＿⟯, ⟮most commonly⟯ it ⟮only has⟯ t⟮he two ＿grammemes＿ ＿singular/plural＿⟯.
+In languoids with ⟮a ＿singular/plural＿ distinction⟯, most often ⟮＿the singular＿⟯ is ⟮the ＿unmarked＿ form⟯.
 
 ##### grouping
 
-Grouping number (my term) is grammatical number encoding the distributivity semantic feature.
-The grammemes of grouping number are most commonly singulative and collective.
-The collective grammatical number indicates a collective semantic referent.
-The singulative grammatical entitity refers to a specific entity.
-In languages with a singulative/collective distinction, the collective form is generally the unmarked one.
+»⟮Grouping number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮the ＿distributivity＿ ＿semantic feature＿⟯.
+The grammemes of ⟮＿grouping number＿⟯ are most commonly ⟮＿singulative＿⟯ and ⟮c_;＿collective＿⟯.
+The »⟮collective⟯« ⟮＿grouping number＿⟯ encodes ⟮[+collective] [+group]⟯.
+The »⟮singulative⟯« ⟮＿grouping number＿⟯ encodes ⟮[-collective] [-group]⟯.
+In languages with a singulative/collective distinction, the ⟮＿collective＿⟯ form is generally ⟮the ＿unmarked＿ one⟯.
 
-#### in languages
+#### !in languages I speak
 
-English, German and Spanish have amount number distinguishing singular/plural.
-Japanese does not have grammatical number.
+⟮English⟯, ⟮c_;German⟯ and ⟮c_;Spanish⟯ have ⟮＿amount number＿⟯ distinguishing ⟮＿singular/plural＿⟯.
+⟮Japanese⟯ ⟮does not have⟯ ⟮＿grammatical number＿⟯.
 
 ### case
 
-Grammatical case is a phi-feature encoding semantic relationsip and/or grammatical relation/morphosyntactic alignment.
-Grammatical case may be semantic grammatical case or grammatical grammatical case.
-Grammatical grammatical case encodes the relationships of arguments to the verb.
+»⟮Grammatical case⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮＿semantic relationship＿⟯ and/or ⟮＿argument relationships＿⟯.
+⟮＿Grammatical case＿⟯ may be ⟮＿semantic grammatical case＿⟯ or ⟮＿argument grammatical case＿⟯.
+»⟮Argument grammatical case⟯« is ⟮＿grammatical case＿⟯ encoding ⟮＿argument relationships＿⟯.
 ^and thus which exist depend on the morphosyntactic alignment of the language.
 
 #### semantic grammatical case
 
-Semantic grammatical case (my term) is grammatical case encoding semantic relationships.
-Various possible case grams can overlap, since most languages only realize a handful of them per language as grammemes.
+»⟮Semantic grammatical case⟯« (my term) is ⟮＿grammatical case＿⟯ encoding ⟮＿semantic relationships＿⟯.
+⟮Various possible case ＿grams＿⟯ can ⟮overlap⟯, since ⟮most languages only realize a handful of them per language as ＿grammemes＿⟯.
 
 ##### movement
 
 table:case|semantic relationship
-lative|movement to a location.
-ablative|indicates a movement away from a location.
-Illative|into
-Elative|out of
-Inelative|"from inside"
-Egressive|beginning of a movement from a location or time ('starting from')
-Prolative/vialis/prosecutive/traversal/mediative|by way of, via
-perlative|through, across, along
+»⟮lative⟯«|⟮to⟯
+»⟮ablative⟯«|⟮away from⟯
+»⟮illative⟯«|⟮into⟯
+»⟮elative⟯«|⟮out of⟯
+»⟮inelative⟯«|⟮from inside⟯
+»⟮egressive⟯«|⟮starting from⟯
+»⟮prolative⟯«/»⟮vialis⟯«/»⟮prosecutive⟯«/»⟮traversal⟯«/»⟮mediative⟯«|⟮by way of, via⟯
+»⟮perlative⟯«|⟮through, across, along⟯
 
 ##### location
 
 table:case|semantic relationship
-locative|location
-Inessive|within
-Superessive|on top of, on the surface of.
-subessive|below
-Pertingent|touching x
-Intrative|"amidst"
+»⟮locative⟯«|⟮location⟯
+»⟮inessive⟯«|⟮within⟯
+»⟮superessive⟯«|⟮on top of, on the surface of⟯
+»⟮subessive⟯«|⟮below⟯
+»⟮pertingent⟯«|⟮touching⟯
+»⟮intrative⟯«|⟮amidst⟯
 
 ##### cause, purpose, means, use
 
 table:case|semantic relationship
-benefactive|something is done for the benefit someone/is intended for someone.
-Terminative/terminalis|a limit in space/time and/or the goal/target of an action.
-Instrumental|a means or tool used or companion present in/while performing an action	
-Ornative|endowed with, supplied with
-Vocative|adressee
+»⟮benefactive⟯«|⟮something is done for the benefit someone/is intended for someone⟯
+»⟮terminative/terminalis⟯«|⟮a limit in space/time and/or the goal/target of an action⟯
+»⟮instrumental⟯«|⟮a means or tool used or companion present in/while performing an action⟯	
+»⟮ornative⟯«|⟮endowed with, supplied with⟯
+»⟮vocative⟯«|⟮adressee⟯
 
 
-Benefactive case is often included in the dative case.
+The ⟮＿benefactive case＿⟯ is often included in ⟮＿the dative case＿⟯.
 
 ##### presence, absence
 
 table:case|semantic relationship
-Genitive|posess⁑or⁑
-Abessive/caritive/privative|absence of the thing.
-Comitative|accompaniment
+»⟮genitive⟯«|⟮posess⁑or⁑⟯
+»⟮abessive⟯«/»⟮caritive⟯«/»⟮privative⟯«|⟮absence of the thing⟯
+»⟮comitative⟯«|⟮accompaniment⟯
 
 ##### comparison, identity
 
 table:case|semantic relationship
-Identical|something is identical to another
-Equative|something is the same value as another
-Comparative|something is like something (e.g. cold as ice)
-Exessive|away from a state
-Translative|becoming X, changing to X
+»⟮identical⟯«|⟮something is identical to another⟯
+»⟮equative⟯«|⟮something is the same value as another⟯
+»⟮comparative⟯«|⟮something is like something (e.g. cold as ice)⟯
+»⟮exessive⟯«|⟮away from a state⟯
+»⟮translative⟯«|⟮becoming X, changing to X⟯
 
 ##### additional information
 
-The instrumental-comitative case is the common case combining instrumental and commitative cases.
+»⟮The instrumental-comitative case⟯« is the case ⟮combining ＿instrumental＿ and ＿commitative＿ cases⟯.
 ^e.g. english with, though that's obv not a case.
 
 ## mainly related to verbs
 
 ### grammatical person
 
-Grammatical person is the grammatical feature category that encodes the sememe(s) of personal deixis.
-Grammatical person is frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯, but sometimes also in other places.
-Most languages distinguish three forms of grammatical person.
-The three values for grammatical person most commonly distinguished are first, second and third person.
+»⟮Grammatical person⟯« is ⟮＿the grammatical feature category＿⟯ that encodes various sememe(s)/semantic features related to ⟮＿personal deixis＿⟯.
+⟮＿Grammatical person＿⟯ is most frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯
+^but sometimes also in other places
+⟮Most languages⟯ distinguish ⟮three⟯ ⟮＿grammatical person＿⟯ ⟮＿grammemes＿⟯.
+The three ＿grammemes＿ for ＿grammatical person＿ most commonly distinguished are ⟮first⟯, ⟮c_;second⟯ and ⟮c_;third⟯ ⟮c_;person⟯.
 
 
 table:grammatical person|deictically refers to
-First person|The speaker
-Second person|The addressee
-Third person|neither speaker nor addressee
+»⟮First person⟯«|⟮The speaker⟯
+»⟮Second person⟯«|⟮The addressee⟯
+»⟮Third person⟯«|⟮neither speaker nor addressee⟯
 
 #### clusivity
 
-Clusivity is a grammatical feature feature which is a subfeature of grammatical person.
-Clusivity encodes the difference between two kinds of first person plural reference.
-[+inclusive/-exclusive] includes the addressee, [-inclusive/+exclusive] excludes the addressee.
+»⟮Clusivity⟯« is ⟮＿a grammatical feature feature＿⟯ which is ⟮a subfeature of⟯ ⟮＿grammatical person＿⟯.
+⟮＿Clusivity＿⟯ encodes ⟮the difference between two kinds of⟯ ⟮first person plural reference⟯.
+⟮[+inclusive/-exclusive]⟯ ⟮includes the addressee⟯, ⟮c-;[-inclusive/+exclusive]⟯ ⟮excludes the addressee⟯.
 
 ### tense-aspect-mood
 
-tense-aspect-mood is the combination of tense, aspect and mood.
-tense, aspect and mood are grammatical feature categoriess marked on verbs or VPs.
-tense-aspect-mood exists as a grouping since the three grammatical feature categories are often strongly entangled in a given language and thus hard to separate.
+»⟮tense-aspect-mood⟯« is ⟮the combination of⟯ ⟮＿tense＿, ＿aspect＿ and ＿mood＿⟯.
+⟮＿tense＿⟯, ⟮c_;＿aspect＿⟯ and ⟮c_;＿mood＿⟯ are all ⟮＿grammatical feature categories＿⟯ and all ⟮marked on verbs or VPs⟯.
+⟮＿tense-aspect-mood＿⟯ ⟮exists as a grouping⟯ since ⟮those three ＿grammatical feature categories＿ are often strongly entangled in a given language and thus hard to separate.⟯
 
 #### tense
 
-Tense may be split into absolute and strict relative tense (though this is complicated, as discussed below).
+»⟮Tense⟯« is ⟮＿the grammatical feature category＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
+⟮＿Tense＿⟯ may be split into ⟮＿absolute tense＿⟯ and ⟮＿strict relative tense＿⟯ (though this is complicated, as discussed below).
 
 ##### absolute tense
 
-Absolute tense is the time of the action relative to the present.
-The possible absolute tenses are past, present and future.
-Some languages only distinguish two absolute tenses.
-Languages which only distinguish two absolute tenses have either past/nonpast or future/nonfuture.
-There are some languages which lack absolute tense completely, though this is rather are.
+»⟮Absolute tense⟯« is ⟮＿the tense＿⟯ encoding ⟮the time of the action⟯ ⟮relative to the present⟯.
+The ⟮possible⟯ ⟮＿absolute tenses＿⟯ are ⟮past⟯, ⟮c_;present⟯ and ⟮c_;future⟯.
+»⟮Three-tense languages⟯« have ⟮all three⟯ ⟮＿absolute tenses＿⟯ ⟮as ＿grammemes＿⟯.
+»⟮Two-tense languages⟯« have ⟮two⟯ ⟮＿absolute tense＿⟯ ⟮＿grammemes＿⟯.
+In ⟮＿two-tense languages＿⟯, ⟮one of the ＿grammemes＿⟯ ⟮unites two ＿absoulte tense＿ ＿grams＿⟯.
+⟮＿Two-tense languages＿⟯ have either past/nonpast or future/nonfuture grammemes.
+»⟮Tenseless languages⟯« only have one absolute tense grammeme = no tense.
 
 ##### relative tense
 
-strict relative tense is the time of the action relative to a specific point in time. 
-strict relative tense can also be analyzed as spective aspect.
-anterior tense (strict relative tense) = retrospective aspect (spective aspect)
-posterior tense (strict relative tense) = prospective aspect (spective aspect)
+»⟮strict relative tense⟯« is ⟮the time of the action⟯ ⟮relative to⟯ ⟮a specific point in time⟯. 
+⟮＿strict relative tense＿⟯ ⟮can also be analyzed as⟯ ⟮＿spective aspect＿⟯.
+⟮＿anterior tense＿⟯ (⟮c_;＿strict relative tense＿⟯) = ⟮＿retrospective aspect＿⟯ (⟮c_;＿spective aspect＿⟯)
+⟮＿posterior tense＿⟯ (⟮c_;＿strict relative tense＿⟯) = ⟮＿prospective aspect＿⟯ (⟮c_;＿spective aspect＿⟯)
 
 ##### combinations
 
-Absolute relative tense is the combination of absolute tense and strict relative tense.
-relative tense is ambiguous between strict relative tense and absolute relative tense.
+»⟮Absolute relative tense⟯« is ⟮the combination of⟯ ⟮＿absolute tense＿⟯ and ⟮＿strict relative tense/spective aspect＿⟯.
+»⟮relative tense⟯« is ⟮ambiguous between⟯ ⟮＿strict relative tense＿⟯ and ⟮＿absolute relative tense＿⟯.
 
-pluperfect =short= plusquamperfct
-pluperfect =syn= past perfect
-past perfect = past absolute tense + retrospective aspect
-future perfect = future absolute tense + retrospective aspect
-future in the past = past absolute tense + prospective aspect
-future in the future (??? - doesn't seem to exit) = future absolute tense + prospective aspect
+⟮pluperfect⟯ =short= ⟮plusquamperfct⟯
+⟮pluperfect⟯ =syn= ⟮past perfect⟯
+»⟮past perfect⟯« = ⟮＿past absolute tense＿⟯ + ⟮＿retrospective aspect＿⟯
+»⟮future perfect⟯« = ⟮＿future absolute tense＿⟯ + ⟮＿retrospective aspect＿⟯
+»⟮future in the past⟯« = ⟮＿past absolute tense＿⟯ + ⟮＿prospective aspect＿⟯
+»⟮future in the future⟯« (??? - doesn't seem to exit) = ⟮＿future absolute tense＿⟯ + ⟮＿prospective aspect＿⟯
 
 
 #### aspect
 
-Aspect is the grammatical feature category encoding how the event relates to time in general.
-Depending on how the grammemes are encoded, aspect may be divided into grammatical aspect and lexical aspect.
-Grammatical aspect is aspect encoded in inflectional morphology.
-Lexical aspect is aspect encoded in lexical items.
+»⟮Aspect⟯« is ⟮＿the grammatical feature category＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
+Depending on ⟮how ＿the grammemes＿ are encoded⟯, aspect may be divided into ⟮＿grammatical aspect＿⟯ and ⟮＿lexical aspect＿⟯.
+»⟮Grammatical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿inflectional morphology＿⟯.
+»⟮Lexical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿lexical items＿⟯.
 
-!Regarding meaning encoded, aspect can be divided into
-- !eventive
-- !howfar
-- !spective
-- !scope
-- !telicity
+!Regarding meaning encoded, ⟮＿aspect＿⟯ can be divided into
+- !⟮＿eventive＿⟯
+- !⟮＿howfar＿⟯
+- !⟮＿spective＿⟯
+- !⟮＿scope＿⟯
+- !⟮＿telicity＿⟯
 
 ##### eventive
 
-Eventive aspect indicates how time flows within the process/event itself.
-While eventive aspects can be ordered hierarchically, languages may have some aspects deep into the tree while not having others.
+»⟮Eventive aspect⟯« is aspect indicating ⟮how time flows⟯ ⟮within the process/event itself⟯.
+While eventive aspects can be ordered hierarchically, languages may ⟮have some aspects deep into the tree while not having others⟯.
 e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
 ###### outline
 
 ```
-!Eventive
-!  Perfective
-!  Imperfective
-!    Iterative
-!    Frequentative
-!    Habitual
-!    Continuous
-!      Progressive
-!      Stative
+!⟮Eventive⟯
+!  ⟮Perfective⟯
+!  ⟮Imperfective⟯
+!    ⟮Iterative⟯
+!    ⟮Frequentative⟯
+!    ⟮Habitual⟯
+!    ⟮Continuous⟯
+!      ⟮Progressive⟯
+!      ⟮Stative⟯
 ```
 
 ###### relation
 
-Eventive aspect may be divided into perfective and imperective aspect.
-perfective aspect is the event viewed in its entirety ( = without internal complexity).
-Imperfective aspect is event viewed with some sort of internal complexity.
+⟮＿Eventive aspect＿⟯ may be divided into ⟮＿perfective aspect＿⟯ and ⟮＿imperective aspect＿⟯.
+»⟮perfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed in its entirety ( = without internal complexity)⟯.
+»⟮Imperfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed with some sort of internal complexity⟯.
 
 ####### imperfect
 
-Imperfective aspect may sometimes be divided into iterative, frequentative, habitual and continuous (though there may be others)
-Habitual, iterative and frequentative aspect all indicate that something is repeated.
-Habitual aspect indicates that the action is repeated as one would a habit on different occasions.
-Frequentative aspect indicates that the action is repeated on different occasions, but not necessarily as one would a habit.
-Iterative aspect indicates that the action is repeated multiple subsequent times (e.g.knocking (repeatedly), kissing (repeatedly⟯ during the same occasion.
-Continuous aspect indicates an ongoing situation/action without interruption.
+⟮＿Imperfective aspect＿⟯ may (sometimes) be divided into ⟮＿iterative＿⟯, ⟮＿frequentative＿⟯, ⟮＿habitual＿⟯ and ⟮＿continuous aspect＿⟯ (though there may be others)
+⟮＿Habitual＿⟯, ⟮c_;＿iterative＿⟯ and ⟮c_;＿frequentative aspect＿⟯ all indicate that ⟮something is repeated⟯.
+»⟮Habitual aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮as one would a habit⟯ ⟮on different occasions⟯.
+»⟮Frequentative aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮on different occasions⟯, but ⟮not necessarily as one would a habit⟯.
+»⟮Iterative aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮during the same occasion⟯.
+^e.g.knocking (repeatedly), kissing (repeatedly)
+»⟮Continuous aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates ⟮an ongoing situation/action⟯ ⟮without interruption⟯.
 
 ######## continuous
 
-Continuous aspect may sometimes be divided into progressive and stative.
-Progressive aspect is a continuous aspect where the situation/action is evolving/changing.
-Stative aspecti is a continuous aspect where the situation/action is not evolving/changing.
+⟮＿Continuous aspect＿⟯ may sometimes be divided into ⟮＿progressive＿⟯ and ⟮＿stative aspect＿⟯.
+»⟮Progressive aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is evolving/changing⟯.
+»⟮Stative aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is not evolving/changing⟯.
 
 ###### realizations in languges
 
-Habitual be is a feature of AAVE indicating habitual aspect.
-Spanish distinguishes imperfective and perfective verbs in the preterite tense.
-In german, 'imperfekt' and 'perfekt' indicate tense, not aspect, despite their names!
+»⟮Habitual be⟯« is a feature of ⟮＿AAVE＿⟯ indicating ⟮＿habitual aspect＿⟯.
+⟮Spanish⟯ distinguishes ⟮＿imperfective＿⟯ and ⟮c_;＿perfective aspect＿⟯ as ⟮imperfect/preterite：name⟯ the past tense.
 
 ##### howfar
 
-howfar aspect (my term) indicates how the state is changing during the specified time.
-howfar aspect may be inchoative, cessative or ø.
-Inchoative aspect is a howfar aspect indicating that something is beginning (however not that something is about to begin).
-Cessative aspect is a howfar aspect indicating that something is ending.
+»⟮howfar aspect⟯« (my term) indicates how ⟮the state is changing⟯ ⟮during the specified time⟯.
+⟮＿howfar aspect＿⟯ may be ⟮＿inchoative＿⟯, ⟮c_;＿cessative＿⟯ or ⟮c_;ø⟯.
+»⟮Inchoative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is beginning (however not that something is about to begin)⟯.
+»⟮Cessative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is ending⟯.
 
 ##### prospective/retrospective
 
-spective aspect (my term) indicates when an event takes place relative to the reference time.
+»⟮spective aspect⟯« (my term) indicates when an event takes place relative to the reference time.
 spective aspective may be prospective, retrospective, or ø.
-Prospective aspect is a spective aspect indicating that an event occurs subsequent to a reference time.
-Retrospective aspect is a spective aspect indicating that an event occurs before a reference time.
-Retrospective aspect is commonly but confusingly also called perfect aspect.
-^not to be confused with perfective aspect
+»⟮Prospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs subsequent to a reference time.
+»⟮Retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs before a reference time.
+⟮Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
+^not to be confused with perfect⁑ive⁑ aspect
 
 ##### gnomic/episodic
 
-scope aspect (my term) indicates what kind of scope something being the fact has.
-Scope aspect may be gnomic, episodic, or ø.
-Gnomic aspect is a scope aspect indicating general truths.
-Episodic aspect is a scope aspect indicating truths that are temporally bounded.
+»⟮scope aspect⟯« (my term) indicates what kind of scope something being the fact has.
+⟮＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
+»⟮Gnomic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮general truths⟯.
+»⟮Episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths that are temporally bounded⟯.
 
 ##### telic/atelic
 
-Telicity is the aspect of whether something has a specific endpoint.
-Telicity is sometimes also analyzed as something else than a aspect.
-Telicity may be telic, atelic, or ø.
+»⟮Telicity⟯« is ⟮＿the aspect＿⟯ of ⟮whether something has a specific endpoint⟯.
+⟮＿Telicity＿⟯ is ⟮sometimes also⟯ ⟮analyzed as something else than a aspect⟯.
+⟮＿Telicity＿⟯ may be ⟮＿telic＿⟯, ⟮c_;＿atelic＿⟯, or ⟮c_;ø⟯.
 
 #### modality
 
-modality is a grammatical feature category encoding possible situations. 
-Modality marked on a verb/VP is known as mood, however some authors also treat them as synonyms.
-Different forms of modality are sometimes called flavors.
+»⟮modality⟯« is ⟮＿a grammatical feature category＿⟯ encoding ⟮possible situations⟯. 
+»⟮Mood⟯« is ⟮＿modality＿⟯ ⟮marked on a verb/VP⟯, however ⟮some authors also treat them as synonyms⟯.
+⟮Different forms of⟯ ⟮＿modality＿⟯ are ⟮sometimes called flavors⟯.
 
 ##### deontic/epistemic, realis/irrealis
 
-Modalities are primarily distingished along two axes: deontic/epistemic and realis/irreals
-Deontic modality is modality that is concerned with how the world ought to be.
-Epistemic modality is modality that is concerned with knowledge/belief/credence.
-Realis moods/modalities are a set moods/modalities that indicate that something is the case.
-Irrealis moods/modalities are a set moods/modalities that indicate that something is somehow not the case.
+⟮＿Modalities＿⟯ are primarily categorized along two axes: deontic/epistemic and realis/irreals
+»⟮Deontic modalities⟯« are modalities concerned with how the world ought to be.
+»⟮Epistemic modality⟯« are modalities concerned with knowledge/belief/credence.
+»⟮Realis modalities⟯« are modalities that indicate that something is the case.
+»⟮Irrealis modalities⟯« are modalities that indicate that something is somehow not the case.
 Some modalities are ambiguous between being realis/irrealis and/or deontic/epistemic.
 Distinction between different types of modality may not always be clear-cut.
 

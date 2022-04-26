@@ -1,5 +1,7 @@
 # arguments
 
+»⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿arguments＿⟯ ⟮c-;can have⟯ ⟮to their verb⟯.
+
 ## counting arguments
 
 Verbs have 0 or more arguments.
