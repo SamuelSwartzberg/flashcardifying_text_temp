@@ -1,25 +1,25 @@
 # parts of speech
 
-A part of speech/word class is a category of words with similar syntactic, word-formation and sometimes semantic properties.
-Part of speech is synonymous with word class.
-Clear distingction of word classes are difficult interlinguistically.
-Often the things we think of a ertain word class doing is actually what a phrase headed by that thing does.
+»⟮A part of speech/word class⟯« is ⟮a category of words⟯ with similar ⟮＿syntactic＿⟯,⟮＿ word-formation＿⟯ and sometimes ⟮＿semantic properties＿⟯.
+⟮Part of speech⟯ =syn= ⟮word class⟯.
+⟮Clear distingction⟯ of ⟮＿word classes＿⟯ are ⟮difficult⟯ ⟮＿interlinguistically＿⟯.
+Often ⟮the things we think⟯ ⟮a certain ＿word class＿ does⟯ ⟮c_-;is actually⟯ ⟮what a phrase headed by that thing does⟯.
 
 ## abbreviations
 
 table:abbr|name
-A|Adjective
-P|Adposition
-Adv|Adverb
-Comp|coordinating conjunction
-D|Determiner
-N|Noun
-V|Verb
+⟮A⟯|⟮Adjective⟯
+⟮P⟯|⟮Adposition (from preposition)⟯
+⟮Adv⟯|⟮Adverb⟯
+⟮C⟯|⟮Complementizer⟯
+⟮D⟯|⟮Determiner⟯
+⟮N⟯|⟮Noun⟯
+⟮V⟯|⟮Verb⟯
 
 ## closed vs open
 
-a closed word class is one that rarely or never accepts new members
-an open word class is one that can be extended without limit/readily accepts new members
+»⟮a closed word class⟯« is a word class that ⟮rarely or never accepts new members⟯
+»⟮an open word class⟯« is a worrd class that ⟮can be extended without limit/readily accepts new members⟯
 
 ## categories
 
@@ -27,68 +27,72 @@ A part of speech may be a functional, lexical or practical category.
 
 ### functional categories
 
-A functional category is a part of speech that purely encodes grammemes (however, those can be semantic roles, thus also encoding semantics).
-A word that is a member of a functional category is called a function word.
+»⟮A functional category⟯« is ⟮＿a word class＿⟯ that ⟮purely encodes ＿grammemes＿ (however, those can be semantic roles, thus also encoding semantics)⟯.
+»⟮a function word⟯« is ⟮＿a lexical unit＿⟯ that ⟮is a member of ＿a functional category＿⟯.
 
 #### particle
 
-A particle is a function word which cannot be inflected.
-A sentence-final particle is a particle occurring at the end of the sentence.
-Sentence-final particles in particular generally indicate modality, register or other pragmatic effects.
+»⟮A particle⟯« is ⟮＿a function word＿⟯ which ⟮cannot be inflected⟯.
+»⟮A sentence-final particle⟯« is ⟮＿a particle＿⟯ ⟮occurring at the end of the sentence⟯.
+⟮＿Sentence-final particles＿⟯ in particular generally indicate ⟮modality⟯ or ⟮various pragmatic effects⟯.
 
 #### adpositions
 
-Types of adpositions: {post, pre, circum, ambi}
-An ambipositon is an adposition that may be either a pre- or postposition depending on other factors.
+Types of ⟮＿adpositions＿⟯: {⟮＿post＿⟯, ⟮＿pre＿⟯, ⟮＿circum＿⟯, ⟮＿ambi＿⟯}
+»⟮An ambipositon⟯« is an adposition that may be either a pre- or postposition depending on other factors.
 
 ##### semantics
 
-semantically, adpositions may indicate time, space, various semantic roles, or something else.
+semantically, ⟮＿adpositions＿⟯ may indicate ⟮time⟯, ⟮space⟯, ⟮various semantic roles⟯, or ⟮something else⟯.
 
 ##### transitivity
 
-Adpositions may be transitive or intransitive.
-A transitive/intransitive takes/does not take a complement.
-Intransitive adpositions are often called adverbs, though that's probably an inferior analysis.
-Transitive adpositions most commonly take NPs/DPs or other adpositional phrases as complements.
+⟮＿Adpositions＿⟯ may be ⟮＿transitive＿⟯ or ⟮＿intransitive adpositions＿⟯.
+»⟮A transitive/intransitive adposition⟯« is ＿an adposition＿ that ⟮takes/does not take ＿a complement＿⟯.
+⟮＿Intransitive adpositions＿⟯ are often called ⟮＿adverbs＿⟯, though ⟮that's probably an inferior analysis⟯.
+⟮＿Transitive adpositions＿⟯ most commonly take ⟮NPs/DPs⟯ or ⟮other adpositional phrases⟯ as ⟮＿complements＿⟯.
 
 ### pragmatic categories
 
-A pragmatic category (my term) is a part of speech that mainly encodes (half of) practs.
+»⟮A pragmatic category⟯« (my term) is ⟮＿a word class＿⟯ that mainly encodes ⟮(half of) ＿practs＿⟯.
 
 #### interjections
 
-Interjection is a pragmatic category that indicates a reaction. 
-Interjections are pretty separated from the rest of the syntax of the sentence.
-Interjection and discourse marker are often used interchangeably, but interjection refers to the syntactic/morphological class, while discourse marker refers to the pragmatic class.
+»⟮Interjection⟯« is ⟮＿a pragmatic category＿⟯ that ⟮indicates a reaction⟯. 
+⟮＿Interjections＿⟯ are ⟮pretty separated⟯ from ⟮the rest of the syntax of the sentence⟯.
+⟮＿Interjection＿⟯ and ⟮c_;＿discourse marker＿⟯ are often used interchangeably, but ⟮c_;＿interjection＿⟯ refers to ⟮the syntactic/morphological class⟯, while ⟮c-;＿discourse marker＿⟯ refers to ⟮the pragmatic class⟯.
 
 ### lexical category
 
-A lexical category is a part of speech that (also) encodes sememes.
-A word that is a member of a lexical category is called a content word.
+»⟮A lexical category⟯« is ⟮＿a word class＿⟯ that (also) encodes ⟮＿sememes＿⟯.
+»⟮A content word⟯« is ⟮＿a lexical unit＿⟯ that is ⟮a member of ＿a lexical category＿⟯.
 Sometimes lexical category is used as a synonym for part of speech/word class (but I don't like this).
 
 #### ad
 
+An ad phrase (my term) is a phrase that acts as a modifier for another head and thus semantically describes/restricts that head.
+Ad phrases may be attributive adjective phrases or adverb phrases.
+Attributive adjective phrases are ad phrases that modify things that are not NPs/DPs.
+Adverb phrases are ad phrases that modify things that are not NPs/DPs.
+
 ##### adjective
 
-An adjective can act as the head of an AP, or become the head of an NP.
+An adjective is a lexical unit that can act as the head of an AP, or become the head of an NP.
 A nominalized adjective is an adjective that has become the N head of an NP.
 
 ###### AP
 
-An adjective phrase prototypically describes/restricts the semantics of its head.
 An adjective phrase may be attributive or predicative.
-An attributive adjective phrase is adjoined to an NP.
-A predicative adjective phrase is the complement of the NP.
+A predicative adjective phrase is the complement of the VP.
 
 ##### adverb
 
-An adverb is the head of an adverbial phrase.
-Adverb(ial) phrases modify any number of things that are not NPs/DPs.
-In some sense, adverb and adverb phrase have become a sort of catch-all category.
-Semantically, adverbial phrases describe/restrict the thing they're modifying.
-In most languages, adverbs/adverbial phrases are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
+Adverb phrase = adverbial phrase.
+»⟮An adverb⟯« is ⟮＿the head＿⟯ of ⟮＿an adverbial phrase＿⟯.
+»⟮Adverb(ial) phrases⟯« ⟮are ＿modifiers＿ for⟯ ⟮any number of things⟯ that ⟮are not NPs/DPs⟯.
+^bit of a catch-all category
+Semantically, ⟮＿adverbial phrases＿⟯ ⟮describe/restrict the thing they're ＿modifying＿⟯.
+In most languages, ⟮＿adverbs/adverbial phrases＿⟯ are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
 
 #### noun-related
 
@@ -99,13 +103,13 @@ NPs/DPs are the things that most commonly become subjects/objects.
 
 ###### attribution
 
-Something attributive is a phrase within a NP/DP that modifies the head noun. 
-Adnnominal =syn= attributive
-An attributive verb is a verb that can be used attributively.
+Something »⟮attributive⟯« is ⟮＿a phrase＿⟯ ⟮within a NP/DP⟯ that ⟮modifies the head noun⟯. 
+⟮Adnnominal⟯ =syn= ⟮attributive⟯
+»⟮An attributive verb⟯« is ⟮a verb⟯ that ⟮can be used ＿attributively＿⟯.
 
 ##### det
 
-A determiner is a lexical unit that occurs that occurs together with a NP (DP theory) and expresses something about the reference of the NP.
+»⟮A determiner⟯« is a lexical unit that occurs that occurs together with a NP (DP theory) and expresses something about the reference of the NP.
 Types of determiners: Articles, quantifiers, posessive determiners, demonstrative determiners, interrogative determiners
 
 ##### Quantifier

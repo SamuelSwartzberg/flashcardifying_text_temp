@@ -72,11 +72,11 @@ Most languages have ⟮multiple different⟯ question tags.
 ⟮All⟯ dependent clauses ⟮c_;are⟯ subordinate clauses, ⟮c_;but not the reverse⟯.
 ⟮＿A clause＿⟯ is ⟮＿embedded＿⟯ in ⟮c_-;another ＿clause＿⟯ if ⟮it is part of it⟯.
 »⟮A subordinate clause⟯« is ⟮＿a clause＿⟯ which is ⟮＿embedded in＿⟯ and thus ⟮in a relationship of ＿subordination＿ with⟯ ⟮another ＿clause＿⟯.
-A superordinate clause is a clause containing a given subordinate clause.
-An embedded clause is a subordinate clause which surrounded by its subordinate clause.
+»⟮A superordinate clause⟯« is ⟮＿a clause＿⟯ ⟮containing a given ＿subordinate clause＿⟯.
+»⟮An embedded clause⟯« is ⟮＿a subordinate clause＿⟯ which ⟮is surrounded by its ＿subordinate clause＿⟯.
 ^ergo one that isn't at the beginning or end of the sentence.
 »⟮A matrix clause⟯« is ⟮＿the clause＿⟯ ⟮in which ＿an embedded clause＿ is ＿embedded＿⟯.
-»⟮The main clause⟯« is ⟮the part of ＿the superordinate clause＿⟯ which is not the subordinate clause.
+»⟮The main clause⟯« is ⟮the part of ＿the superordinate clause＿⟯ which ⟮is not ＿the subordinate clause＿⟯.
 !^this is a rare definition, but a useful one, and endorsed by Martin Haspelmath
 »⟮The root clause⟯« is ⟮the uppermost (tree-wise)⟯ ⟮＿matrix clause＿⟯ ⟮c_-;in the sentence⟯.
 
