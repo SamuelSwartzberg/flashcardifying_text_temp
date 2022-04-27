@@ -146,7 +146,6 @@ Complementizer is a POS and thus gives rise to its own phrase, CP.
 
 ###### narrow
 
-A complement clause is a clause that is a verbal argument.
 a complementizer (traditional definition) is a head that transforms a clause into a complement clause (may not always be necessary).
 
 ###### broad

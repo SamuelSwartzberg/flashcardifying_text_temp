@@ -71,9 +71,14 @@ Most languages have ⟮multiple different⟯ question tags.
 »⟮A dependent clause⟯« is ⟮＿a clause＿⟯ that ⟮could not be a sentence on its own⟯.
 ⟮All⟯ dependent clauses ⟮c_;are⟯ subordinate clauses, ⟮c_;but not the reverse⟯.
 ⟮＿A clause＿⟯ is ⟮＿embedded＿⟯ in ⟮c_-;another ＿clause＿⟯ if ⟮it is part of it⟯.
-A subordinate clause is a clause which is embedded in and thus in a relationship of subordination with another clause.
-»⟮A matrix clause⟯« is the clause in which a subordinate clause is embedded.
-»⟮The main/root clause⟯« is the uppermost (tree-wise) matrix clause in the sentence.
+»⟮A subordinate clause⟯« is ⟮＿a clause＿⟯ which is ⟮＿embedded in＿⟯ and thus ⟮in a relationship of ＿subordination＿ with⟯ ⟮another ＿clause＿⟯.
+A superordinate clause is a clause containing a given subordinate clause.
+An embedded clause is a subordinate clause which surrounded by its subordinate clause.
+^ergo one that isn't at the beginning or end of the sentence.
+»⟮A matrix clause⟯« is ⟮＿the clause＿⟯ ⟮in which ＿an embedded clause＿ is ＿embedded＿⟯.
+»⟮The main clause⟯« is ⟮the part of ＿the superordinate clause＿⟯ which is not the subordinate clause.
+!^this is a rare definition, but a useful one, and endorsed by Martin Haspelmath
+»⟮The root clause⟯« is ⟮the uppermost (tree-wise)⟯ ⟮＿matrix clause＿⟯ ⟮c_-;in the sentence⟯.
 
 #### independent clause
 
@@ -85,14 +90,15 @@ Languages I speak that are ＿⟮null-subject⟯ languages＿ are ⟮spanish⟯ 
 
 #### subordinate clauses
 
-Subordinate clauses correspond to CPs in syntax. (I think, so don't study yet)
-^Thus, they may be adjuncts of the VP or complements of the verb, including in japanese
+##### syntactic relationships
 
-##### embedded questions
+»⟮A complement clause⟯« is ⟮＿a subordinate clause＿⟯ that ⟮is ＿a verbal argument＿⟯.
+
+##### semantic contents
 
 »⟮An embedded question⟯« is ⟮＿a question＿⟯ that is ⟮＿a subordinate clause＿⟯.
 
-##### relative clause
+##### both, I think
 
 »⟮A relative clause⟯« is ⟮＿a subordinate clause＿⟯ which ⟮describes ＿the referent＿ of its head⟯.
 »⟮A relative pronoun⟯« is ⟮＿a pronoun＿⟯ that ⟮introduces ＿a relative clause＿⟯.
@@ -100,59 +106,67 @@ e.g. I met a furry who was passionate.
 
 ### semantic
 
-The semantic clausal relationship (my term) is the semantic relationship between two clauses (no matter if coordination or subordination).
+»⟮The semantic clausal relationship⟯« (my term) is ⟮the semantic relationship⟯ ⟮between two ＿clauses＿ (no matter if coordination or subordination)⟯.
 
 
 table:name|meaning
-illative|presents a consequence
-cumulative|adds more
-adversative|introduces a contrast
-disjunctive|selfexpl.
-causal|presents a reason
-purposive|in order to
-conditional|introduce a condition
-concessional|admitting, conceding
-comparative|comparing
-temporal|temporal ordering
+»⟮illative⟯«|⟮presents a consequence⟯
+»⟮cumulative⟯«|⟮adds more⟯
+»⟮adversative⟯«|⟮introduces a contrast⟯
+»⟮disjunctive⟯«|⟮introduces a disjunction⟯
+»⟮causal⟯«|⟮presents a reason⟯
+»⟮purposive⟯«|⟮in order to⟯
+»⟮conditional⟯«|⟮introduce a condition⟯
+»⟮concessional⟯«|⟮admitting, conceding⟯
+»⟮comparative⟯«|⟮comparing⟯
+»⟮temporal⟯«|⟮temporal ordering⟯
 
 ### result: sentences
 
-In syntax, a sentence is the largest constituent and the root of all other constituents.
-A sentence consists of one or more clausees.
-A one-word sentence is a setence only consisting of a sentence word.
-A sentence word is a single lexical unit that makes up a one-word sentence.
+»⟮a sentence⟯« is ⟮the largest⟯ ⟮＿constituent＿⟯ and ⟮the root of⟯ ⟮all other ＿constituents＿⟯.
+⟮＿A sentence＿⟯ ⟮consists of⟯ ⟮one or more⟯ ⟮＿clauses＿⟯.
+»⟮A one-word sentence⟯« is ⟮＿a sentence＿⟯ consisting of ⟮＿a sentence word＿⟯.
+»⟮A sentence word⟯« is ⟮a single ＿lexical unit＿⟯ that ⟮makes up ＿a one-word sentence＿⟯.
 ^No. Yessir! Ouch!
 
 #### simple/complex 
 
-A simple sentence consists of one clause.
-A complex sentence consists of more than one clause.
+»⟮A simple sentence⟯« consists of ⟮one ＿clause＿⟯.
+»⟮A complex sentence⟯« consists of ⟮more than one ＿clause＿⟯.
 
 #### major/minor
 
-A major sentence we might consider a 'normal sentence' following the usual syntactic rules etc.
-A minor sentence is a sentence without the usual subject-predicate/constituent structure.
-Minor sentences generally do not allow substitution of items of the same word class: Merry Christmas!; *Merry Birthday!
+»⟮A major sentence⟯« is a sentence which ⟮we might consider a 'normal sentence' following the usual syntactic rules etc⟯.
+»⟮A minor sentence⟯« is a sentence⟮ without the usual subject-predicate structure⟯.
+⟮＿Minor sentences＿⟯ are generally quite ⟮＿phrasemic＿⟯.
 
 #### transformation
 
 ##### cleft sentence
 
-A cleft sentence splits a simple sentence up into a complex sentence. 
-Cleft seentence typically put the constituent now in the independent clause into focus.
-Syntax of cleft sentences in english: it + conjugated form of to be + X + subordinate clause
+»⟮A cleft sentence⟯« ⟮splits⟯ ⟮＿a simple sentence＿⟯ ⟮c-;up into⟯ ⟮＿a complex sentence＿⟯. 
+⟮＿A cleft sentence＿⟯ typically puts ⟮＿the constituent＿ now in ＿the main clause＿⟯ into ⟮＿focus＿⟯.
+Syntax of ⟮＿cleft sentences＿⟯ in english: ⟮it⟯ + ⟮conjugated form of to be⟯ + ⟮X⟯ + ⟮＿subordinate clause＿⟯
 
 # connection
 
-Two (or more) constituents or clauses may be connected via coordination or subordination. 
-A conjunction is a thing that connects constitutents or clauses
+⟮＿Syntactic connection＿⟯ (rare term) is ⟮combining two or more⟯ ⟮separate ＿constituents＿⟯.
+⟮＿Syntactic connection＿⟯ may be ⟮＿phrasal＿⟯ or ⟮＿clausal syntactic connection＿⟯.
+⟮＿Syntactic connection＿⟯ may be ⟮＿subordination＿⟯ or ⟮c_;＿coordiantion＿⟯.
+⟮＿Phrasal/clausal syntactic connection＿⟯ is syntactic connection of ⟮phrases/clauses⟯.
+
+## conjunctions
+
+»⟮A conjunction⟯« is ⟮＿a linguistic item＿⟯ that ⟮does ＿syntactic connection＿⟯.
+»⟮A phrasal/clausal conjunction⟯« is ⟮＿a conjunction＿⟯ that does ⟮＿phrasal/clausal syntactic connection＿⟯.
+»⟮A coordinating/subordinating conjunction⟯« is ⟮＿a conjunction＿⟯ that does ⟮＿coordination/subordination＿⟯.
 
 ## coordination
 
-Coordination is linking two constituents/clauses of the same type.
-The two things linked via coordination are called conjuncts.
-The totality of coordinator(s) and conjuncts forming an instance of coordination is called a coordinate structure.
+»⟮Coordination⟯« is ⟮＿syntactic connection＿⟯ between ⟮constituents of the same type⟯.
+»⟮A conjunct⟯« is ⟮＿a linguistic unit＿⟯ ⟮in ＿coordination＿⟯.
+»⟮A coordinate structure⟯« is ⟮the totality of ＿coordinating conjunction＿ and ＿conjuncts＿⟯.
 
 ## subordination
 
-Subordination is linking two constituents/clauses, where one depends on the other.
+»⟮Subordination⟯« is ⟮＿syntactic connection＿⟯ between ⟮constituents, where one depends on the other⟯.
