@@ -23,9 +23,16 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 #### polarity
 
 »⟮Polarity⟯« is ⟮＿a grammatical feature category＿⟯ that encodes ⟮the distinction between positive and negative⟯.
+A polarity-expressing thing (my term) is a thing which expresses polarity.
+A polar context (my term) is a context that has a certain polarity.
 »⟮True/false polarity⟯« (my term) is ⟮＿polarity＿⟯ encoding the distinction between ⟮true and false⟯.
 »⟮aff/neg polarity⟯« (my term) is ⟮＿polarity＿⟯ encoding the distinction between ⟮affirmation and negation⟯.
 Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿aff/neg polarity＿⟯, or ⟮c_-;be ambiguous between them⟯.
+
+##### polarity item
+
+A polarity item is a lexical item that can only appear in an environment with a specific polarity.
+A positive/negative polarity item is a polarity item that can only appear in positive/negative polar contexts.
 
 #### posessive
 

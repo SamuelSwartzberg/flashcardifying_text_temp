@@ -3,15 +3,15 @@
 
 ## what is a clause
 
-A clause is a type of constituent one level higher than phrases.
-A clause links a predicand (expressed or not) with a predicate (wide sense). 
+»⟮A clause⟯« is ⟮a type of ＿constituent＿⟯ ⟮one (conceptual) level higher⟯ than ⟮＿phrases＿⟯.
+»⟮A clause⟯« ⟮links⟯ ⟮＿the subject＿ (expressed or not)⟯ with ⟮＿a predicate (wide sense)＿⟯. 
 !^this may not hold in non PIE languages, but I don't have a better definition atm.
 
 ### predicate
 
-A predicate (narrow sense) connects the subject to an idea.
-A predicate (wide sense) is all of the clause that says something about the subject.
-Bill heard Fred -> heard (narrow); heard Fred (wide)
+»⟮A predicate (narrow sense)⟯« is ⟮the thing that⟯ ⟮connects ＿the subject＿ to an idea⟯.
+»⟮A predicate (wide sense)⟯« is ⟮all of the clause⟯ that ⟮says something about ＿the subject＿⟯.
+^e.g. Bill heard Fred -> heard (narrow); heard Fred (wide)
 
 ## typology
 
@@ -19,28 +19,28 @@ Bill heard Fred -> heard (narrow); heard Fred (wide)
 
 #### interrogative
 
-An interrogative clause is a clause with the pragmatic effect of asking a question.
-Interrogative clauses are created using a variety of devices: verbal inflection, word order changes, addition of constituents or lexical unit, phonotactic changes or a combination.
-Often, interrogative clauses are indicated graphemically via special punctuation. 
+»⟮An interrogative clause⟯« is ⟮＿a clause＿⟯ with ⟮＿the pragmatic effect＿⟯ of ⟮＿a question＿⟯.
+⟮＿Interrogative clauses＿⟯ ⟮are created⟯ using a variety of devices: ⟮＿inflection＿⟯, ⟮word order/syntactic changes⟯, ⟮addition of ＿constituent(s)＿ or ＿lexical unit(s)＿⟯, ⟮＿phonotactic＿ changes⟯ or a combination.
+Often, ⟮＿interrogative clauses＿⟯ are indicated ⟮＿graphemically＿⟯ via ⟮special ＿punctuation＿⟯. 
 
 ##### interrogatives
 
-Interrogative word = interrogative
-An interrogative is a lexical unit used in the process of creating an interrogative clause.
-An interrogative particle is an interrogative that is a particle and converts the sentence into a yes-no question.
-Interrogatives may be instantiated by different parts of speech.
+⟮Interrogative word⟯ =syn= ⟮interrogative⟯
+»⟮An interrogative⟯« is ⟮＿a lexical unit＿⟯ used ⟮in creating ＿an interrogative clause＿⟯.
+»⟮An interrogative particle⟯« is ⟮＿an interrogative＿⟯ that is ⟮＿a particle＿⟯.
+⟮＿Interrogatives＿⟯ may be instantiated by ⟮different ＿parts of speech＿⟯.
 
 ##### question (here instead of in → pragmatics for now)
 
-A question is a kind of pragmatic effect.
-A question may be a polar question, an alternative question, or an open question.
-A polar question is a question which expects a confirmation or negation.
-An alternative question is a question which expects a choice of given alternatives, or a negation.
-An open question is a question which allows for any number of possible answers (including a negation).
+»⟮A question⟯« is a kind of ⟮＿pragmatic effect＿⟯.
+⟮＿A question＿⟯ may be ⟮＿a polar question＿⟯, ⟮＿an alternative question＿⟯, or ⟮＿an open question＿⟯.
+»⟮A polar question⟯« is ⟮＿a question＿⟯ which expects a confirmation or negation.
+»⟮An alternative question⟯« is ⟮＿a question＿⟯ which expects a choice of given alternatives, or a negation.
+»⟮An open question⟯« is ⟮＿a question＿⟯ which allows for any number of possible answers (including a negation).
 
 ###### polar question
 
-Polar questions themselves may have positive or negative polarity, changing the polarity of the presumed response.
+The polar question polarity (my term) is the polarity of the polar question, which changes the polarity of the presumed response.
 Languages may have either two, three or four types of lexical units/constituents to answer polar questions.
 If a language has 2/4 types of lexical units/constituents to answer polar questions, these do not/do distinguish between truth/falsity and confirmation/negation.
 A language with 3 types of lexical units/constituents to answer polar questions distinguishes between truth/falsity and confirmation/negation when answering negative polar questions (the hard case).
@@ -52,7 +52,7 @@ A language I speak with 3 types of lexical units/constituents to answer polar qu
 
 ####### tag questsions
 
-A tag question is an interrogative clause which is formed from a declarative clause plus a question tag.
+»⟮A tag question⟯« is ⟮＿an interrogative clause＿⟯ which is formed from ⟮＿a declarative clause＿⟯ plus ⟮＿a question tag＿⟯.
 Tag questions express polar questions.
 A question tag is a constitent required for creating a tag question.
 A question tag may be a question tag simple lexical unit, or a question tag complex constituent.
