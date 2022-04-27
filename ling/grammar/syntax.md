@@ -140,12 +140,20 @@ table:symbol|projection description
 
 ##### CP
 
-⟮C⟯ = ⟮Complementizer⟯
+Complementizer is ambigous between complementizer (traditional definition) and complementizer (wide).
+Complementizer is a POS and thus gives rise to its own phrase, CP.
 [»⟮CP⟯« ⟮[C]⟯ ⟮[IP]⟯]
 
-»⟮A complement clause⟯« is ⟮＿a CP＿⟯ that is ⟮＿a clause＿⟯. 
-^I think this is all CPs, but not sure
-⟮＿Interrogative clauses＿⟯ are often seen as ⟮＿CPs＿⟯.
+###### narrow
+
+A complement clause is a clause that is a verbal argument.
+a complementizer (traditional definition) is a head that transforms a clause into a complement clause (may not always be necessary).
+
+###### broad
+
+A complementizer (wide) is a head that relates its clause to a larger context (the sentence or the discourse).
+Under complementizer (wide), many subordinate clauses and all interrogative clauses are typically analyzed as CPs.
+There are some arguments that all clauses are in fact CPs.
 
 ##### IP theory
 

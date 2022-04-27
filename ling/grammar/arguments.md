@@ -1,8 +1,9 @@
 # arguments
 
-»⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿arguments＿⟯ ⟮c-;can have⟯ ⟮to their verb⟯.
-I will call the ⟮max. three⟯ ⟮＿arguments＿⟯ of verbs with ⟮c_;＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
-In my notation for ＿arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that⟮ does not have to be⟯ ⟮realized in word order⟯.
+»⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿verbal arguments＿⟯ ⟮c-;can have⟯ ⟮to their verb⟯.
+»⟮A verbal argument⟯« is ⟮＿an argument＿⟯ ⟮of a verb⟯.
+I will call the ⟮max. three⟯ ⟮＿verbal arguments＿⟯ of verbs with ⟮c_;＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
+In my notation for ＿verbal arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that⟮ does not have to be⟯ ⟮realized in word order⟯.
 »⟮The subject⟯« is ⟮A1 of any verb⟯.
 »⟮The object(s)⟯« are ⟮A2 - An of any verb⟯.
 
@@ -13,11 +14,11 @@ In cases of ⟮＿intransitive verbs＿⟯, ⟮A1⟯ ⟮may also frequently⟯ b
 Typically, ⟮A2 (if extant)⟯ is ⟮＿the patient＿⟯.
 Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
-## counting arguments
+## counting verbal arguments
 
-⟮＿Verbs＿⟯ have ⟮0 or more：number⟯ ⟮＿arguments＿⟯.
-»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿arguments＿ a ＿verb＿ has⟯.
-»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject arguments a verb has⟯.
+⟮＿Verbs＿⟯ have ⟮0 or more：number⟯ ⟮＿verbal arguments＿⟯.
+»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿verbal arguments＿ a ＿verb＿ has⟯.
+»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject verbal arguments a verb has⟯.
 ⟮Valency⟯ = ⟮Transitivity⟯ ⟮+ 1⟯
 »⟮An ambitransitive verb⟯« is a verb with ⟮＿a transitivity＿ of 0 or 1⟯
 ⟮Both greek and latinate⟯ numerals are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
@@ -133,20 +134,20 @@ All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dat
 
 ## semantic roles in monovalent verbs
 
-»⟮an unergative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿argument＿ is ＿an agent＿ ⟯
+»⟮an unergative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿verbal argument＿ is ＿an agent＿ ⟯
 ^the most common case
-»⟮an unaccusative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿argument＿ is not ＿an agent＿⟯.
+»⟮an unaccusative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿verbal argument＿ is not ＿an agent＿⟯.
 
 ## voice
 
-»⟮Grammatical voice⟯« is ⟮＿a grammatical feature category＿⟯ which ⟮changes the ＿valency＿ of a verb⟯ and thus ⟮＿semantic roles＿ of ＿the arguments＿⟯.
+»⟮Grammatical voice⟯« is ⟮＿a grammatical feature category＿⟯ which ⟮changes the ＿valency＿ of a verb⟯ and thus ⟮＿semantic roles＿ of ＿the verbal arguments＿⟯.
 ⟮＿Grammatical voice＿⟯ is generally realized on ⟮verbs/VPs⟯.
 ⟮Grammatical voice⟯ =short=> ⟮voice⟯
 ⟮＿Grammatical voice＿⟯ is either ⟮＿the active voice＿⟯ or ⟮＿the passivelike voice＿⟯.
 »⟮The active voice⟯« is ⟮the default⟯ voice and thus typically ⟮＿unmarked＿⟯.
-»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an argument＿⟯.
-»⟮Demoting⟯« ⟮＿an argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verb⟯.
-For ⟮＿passivelike voices＿⟯, ⟮the item that is not ＿demoted＿⟯ ⟮keeps its ＿thematic role＿⟯, even though ⟮it is now a different ＿argument＿⟯.
+»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an verbal argument＿⟯.
+»⟮Demoting⟯« ⟮＿an verbal argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verb⟯.
+For ⟮＿passivelike voices＿⟯, ⟮the item that is not ＿demoted＿⟯ ⟮keeps its ＿thematic role＿⟯, even though ⟮it is now a different ＿verbal argument＿⟯.
 
 ### passivelike voices
 
@@ -169,5 +170,5 @@ Both ⟮＿the passive＿⟯ and ⟮c_;＿antipassive voice＿⟯ result in ⟮C
 #### valency = 1
 
 »⟮The impersonal passive voice⟯« is ⟮the only ＿passivelike voice＿⟯ which applies to ⟮＿monovalent verbs＿⟯.
-»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿argument＿ of ＿monovalent verbs＿⟯.
+»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿verbal argument＿ of ＿monovalent verbs＿⟯.
 Languoids often achieve an effect similar to ⟮＿the impersonal passive voice＿⟯ by ⟮inserting a ＿dummy element＿⟯.

@@ -4,8 +4,8 @@
 ## what is a clause
 
 »⟮A clause⟯« is ⟮a type of ＿constituent＿⟯ ⟮one (conceptual) level higher⟯ than ⟮＿phrases＿⟯.
-»⟮A clause⟯« ⟮links⟯ ⟮＿the subject＿ (expressed or not)⟯ with ⟮＿a predicate (wide sense)＿⟯. 
-!^this may not hold in non PIE languages, but I don't have a better definition atm.
+»⟮A clause⟯« ⟮links⟯ ⟮＿the subject＿⟯ with ⟮＿a predicate (wide sense)＿⟯. 
+Clauses which seem to not have a subject have a null subject.
 
 ### predicate
 
@@ -34,17 +34,18 @@ Often, ⟮＿interrogative clauses＿⟯ are indicated ⟮＿graphemically＿⟯
 
 »⟮A question⟯« is a kind of ⟮＿pragmatic effect＿⟯.
 ⟮＿A question＿⟯ may be ⟮＿a polar question＿⟯, ⟮＿an alternative question＿⟯, or ⟮＿an open question＿⟯.
-»⟮A polar question⟯« is ⟮＿a question＿⟯ which expects a confirmation or negation.
+»⟮A polar question⟯« is ⟮＿a question＿⟯ which expects a  or negation.
 »⟮An alternative question⟯« is ⟮＿a question＿⟯ which expects a choice of given alternatives, or a negation.
 »⟮An open question⟯« is ⟮＿a question＿⟯ which allows for any number of possible answers (including a negation).
 
 ###### polar question
 
-The polar question polarity (my term) is the polarity of the polar question, which changes the polarity of the presumed response.
-Languages may have either two, three or four types of lexical units/constituents to answer polar questions.
-If a language has 2/4 types of lexical units/constituents to answer polar questions, these do not/do distinguish between truth/falsity and confirmation/negation.
-A language with 3 types of lexical units/constituents to answer polar questions distinguishes between truth/falsity and confirmation/negation when answering negative polar questions (the hard case).
-A language I speak with 3 types of lexical units/constituents to answer polar questions is German.
+»⟮The polar question polarity⟯« (my term) is ⟮＿the polarity＿ of ＿the polar question＿⟯ itself, which ⟮changes ＿the polarity of the presumed response＿⟯.
+»⟮The polarity of the presumed response⟯« (my term) is ⟮which⟯ ⟮＿truth/falsity polarity＿⟯ ⟮c_-;of the response⟯ ⟮counts as confirmation/negation of the question⟯.
+Languoids may have ⟮either two, three or four⟯ types of ⟮＿polarity-expressing things＿⟯ that ⟮answer ＿polar questions＿⟯.
+If a languoid has ⟮2/4⟯ ⟮types of ＿polarity-expressing things＿ to answer polar questions⟯, these ⟮do not/do⟯ ⟮distinguish between truth/falsity and confirmation/negation⟯.
+A languoid with ⟮3⟯ ⟮types of ＿polarity-expressing things＿ to answer polar questions⟯ ⟮distinguishes between truth/falsity and confirmation/negation⟯ ⟮only when answering negative polar questions (the hard case)⟯.
+A language I speak with ⟮3⟯ types of ＿polarity-expressing things＿ to answer polar questions is ⟮German⟯.
 
 ##### creation
 
@@ -53,54 +54,48 @@ A language I speak with 3 types of lexical units/constituents to answer polar qu
 ####### tag questsions
 
 »⟮A tag question⟯« is ⟮＿an interrogative clause＿⟯ which is formed from ⟮＿a declarative clause＿⟯ plus ⟮＿a question tag＿⟯.
-Tag questions express polar questions.
-A question tag is a constitent required for creating a tag question.
-A question tag may be a question tag simple lexical unit, or a question tag complex constituent.
-a question tag simple lexical unit is a question tag which is a single lexical unit.
-a question tag complex constituent is a question tag which is a constituent with more complex internal structure.
-In a tag question, both the declarative clause and the question tag can (possibly) have positive/negative polarity.
-The four possible polarity combinations in a tag question may create various combinations of polarity of the expected answer and pragmatic effects.
-Most languages have multiple different question tags.
-
-Examples of question tags:
-en|right?|no?, or no?
-de|stimmts?, gell?, wa?, ne?|nicht wahr?, oder nicht?
-es|verdad?|no?
+⟮＿Tag questions＿⟯ express ⟮＿polar questions＿⟯.
+»⟮A question tag⟯« is ⟮＿a constituent＿⟯ required for ⟮creating ＿a tag question＿⟯.
+⟮＿A question tag＿⟯ may be ⟮＿a question tag simple lexical unit＿⟯, or ⟮＿a question tag complex constituent＿⟯.
+»⟮a question tag simple lexical unit⟯« is ⟮＿a question tag＿⟯ which is ⟮a single ＿lexical unit＿⟯.
+»⟮a question tag complex constituent⟯« is ⟮＿a question tag＿⟯ which is ⟮＿a constituent＿ with more complex internal structure⟯.
+In ⟮＿a tag question＿⟯, ⟮both ＿the declarative clause＿ and ＿the question tag＿⟯ ⟮can (possibly) have ＿positive/negative polarity＿⟯.
+The ⟮four (2*2)⟯ ⟮possible ＿polarity＿ combinations⟯ in ＿a tag question＿ may create ⟮various combinations of⟯ ⟮＿polarity of the expected answer＿⟯ and ⟮＿pragmatic effects＿⟯.
+Most languages have ⟮multiple different⟯ question tags.
 
 ## (clausal) relationshps
 
 ### syntactic
 
-Subordinate clause =syn= dependent clause
-A subordinate/dependent clause cannot stand alone as a sentence.
-Independent clause =syn= main clause
-root clause =syn= matrix clause
-Independent/main clause ≈syn≈ root/matrix clause
-A independent clause can stand alone as a sentence.
+»⟮A independent clause⟯« is ⟮＿a clause＿⟯ that ⟮could be a sentence on its own⟯.
+»⟮A dependent clause⟯« is ⟮＿a clause＿⟯ that ⟮could not be a sentence on its own⟯.
+⟮All⟯ dependent clauses ⟮c_;are⟯ subordinate clauses, ⟮c_;but not the reverse⟯.
+⟮＿A clause＿⟯ is ⟮＿embedded＿⟯ in ⟮c_-;another ＿clause＿⟯ if ⟮it is part of it⟯.
+A subordinate clause is a clause which is embedded in and thus in a relationship of subordination with another clause.
+»⟮A matrix clause⟯« is the clause in which a subordinate clause is embedded.
+»⟮The main/root clause⟯« is the uppermost (tree-wise) matrix clause in the sentence.
 
 #### independent clause
 
 ##### (null) subjects
 
-A null subject is a unpronounced/elided subject.
-A null-subject language is a language which permits null subjects in independent clauses.
-An independent clause always features a subject or has a null subject.
-Languages I speak that are null-subject languages are spanish and japanese.
+»⟮A null subject⟯« is a ⟮＿unpronounced＿⟯ ⟮c_;＿subject＿⟯.
+»⟮A null-subject language⟯« is ⟮＿a languoid＿⟯ which ⟮permits ＿null subjects＿⟯ ⟮in ＿independent clauses＿⟯.
+Languages I speak that are ＿⟮null-subject⟯ languages＿ are ⟮spanish⟯ and ⟮c_;japanese⟯.
 
 #### subordinate clauses
 
-A subordinate clause is a clause that is in a relationship of subordination.
 Subordinate clauses correspond to CPs in syntax. (I think, so don't study yet)
 ^Thus, they may be adjuncts of the VP or complements of the verb, including in japanese
 
 ##### embedded questions
 
-An embedded question is a question that is a subordinate clause.
+»⟮An embedded question⟯« is ⟮＿a question＿⟯ that is ⟮＿a subordinate clause＿⟯.
 
 ##### relative clause
 
-A ⟮relative clause⟯ is a ⟮subordinate clause⟯ which ⟮describes the referent of its head⟯.
-In indo-european languages, a relative clause is generally introduced by a relative pronoun.
+»⟮A relative clause⟯« is ⟮＿a subordinate clause＿⟯ which ⟮describes ＿the referent＿ of its head⟯.
+»⟮A relative pronoun⟯« is ⟮＿a pronoun＿⟯ that ⟮introduces ＿a relative clause＿⟯.
 e.g. I met a furry who was passionate.
 
 ### semantic
@@ -130,8 +125,8 @@ A sentence word is a single lexical unit that makes up a one-word sentence.
 
 #### simple/complex 
 
-A simple sentence consists of one (main/independent) clause.
-A complex sentence consists of at least one main/independent clause and at least one dependent clause.
+A simple sentence consists of one clause.
+A complex sentence consists of more than one clause.
 
 #### major/minor
 
