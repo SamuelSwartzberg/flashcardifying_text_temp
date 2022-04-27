@@ -94,7 +94,7 @@ table:case number|case name
 »⟮Active alignment⟯« has ⟮A1=C1 and A2=C2⟯ for v=2 and ⟮A1 = sometimes C1, sometimes C2⟯ for v=1.
 Typically, ⟮＿active alignment＿⟯ decides ⟮whether A1 of v=1 gets C1 or C2⟯ based on ⟮the agenthood of A1⟯.
 There are two types of ⟮＿active alignment＿⟯, ⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯.
-split-S and fluid-S are named that way because what I usually call A1 of v=1 is more commonly called S.
+⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯ are named that way because what I usually call ⟮A1 of v=1⟯ is more commonly called ⟮S⟯.
 »⟮Split-S⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the presumed agenthood of A1 of v=1⟯ ⟮has calcified into two classes of verbs⟯, ⟮which require C1 or C2 respectively⟯.
 »⟮Fluid-S⟯« alignment is ⟮＿active alignment＿⟯ which ⟮allow the speaker to choose⟯ ⟮the case of A1⟯ and thus ⟮imply agenthood (or not)⟯.
 
@@ -109,41 +109,44 @@ alignment|v=2|v=3
 
 #### cases
 
-for both dative and dechticaetiative, CI is whatever the case of A2 was for v=2 (see other level of alignments).
-CII is dative for languages with dative morphosyntactic alignment.
-CII is dechticaetative for languages with dechticaetative morphosyntactic alignment.
-In the case of dative morphsynalign, A2 is called direct and A3 indirect object.
-In the case of dechticaetative morphsynalign, A2 is called primary and A3 secondary object.
-dative morphsynalign=indirective morphsynalign
-dechticaetiative morphsynalign=secundative morphsynalign
-Primarily dative langauges often still feature some dechticaetiative behavior.
+For ⟮＿A2A3 morphosyntactic alignment＿⟯, ⟮CI⟯ is ⟮whatever the case of A2 is⟯ for ⟮the given ＿A1A2 morphosyntactic alignment＿⟯.
+under ⟮＿dative morphosyntactic alignment＿⟯, ⟮CII⟯ is called »⟮dative⟯«.
+under ⟮＿dechticaetative morphosyntactic alignment＿⟯, ⟮CII⟯ is called »⟮dechticaetative⟯«.
+Under ⟮＿dative morphosyntactic alignment＿⟯, ⟮A2⟯ is called »⟮direct object⟯« and ⟮c-;A3⟯ »⟮indirect object⟯«.
+Under ⟮＿dechticaetative morphosyntactic alignment＿⟯, ⟮A2⟯ is called »⟮primary object⟯« and ⟮c-;A3⟯ »⟮secondary object⟯«.
+⟮dative morphsynalign⟯ =syn= ⟮indirective morphsynalign⟯
+⟮dechticaetiative morphsynalign⟯ =syn= ⟮secundative morphsynalign⟯
+Languoids with ⟮primarily ＿dative morphosyntactic alignment＿⟯ ⟮often still feature⟯ ⟮some ＿dechticaetiative morphosyntactic alignment＿⟯.
 
 ### merging
 
-oblique case =syn= objective case
-The oblique case is an argument-marking case that is not C1 (e.g. nominative or absolutive).
-Thus, for nom-accus dative morphsynalign the oblique case can be said to merge dative and accusative cases.
-English features an oblique case.
+⟮oblique case⟯ =syn= ⟮objective case⟯
+»⟮The oblique case⟯« is ⟮＿an argument grammatical case＿⟯ that ⟮is not C1 (e.g. nominative or absolutive)⟯.
+Thus, for ⟮＿nominative-accusative＿⟯ & ⟮c_;＿dative＿⟯ ⟮＿morphosyntactic alignment＿⟯ ⟮＿the oblique case＿⟯ can be said to ⟮merge ＿dative＿ and ＿accusative cases＿⟯.
+⟮English⟯ features an oblique case.
 
 ### realization
 
-The most common types of morphosyntactic alignments (narrow) are nominative-accusative followed by ergative-absolutive.
-Dative morphsynalign is more common than dechticaetiative.
-All languages I speak are nominative-accusative languages.
+The ⟮most common⟯ types of A1A2 morphosyntactic alignments are ⟮＿nominative-accusative＿⟯ followed by ⟮＿ergative-absolutive＿⟯.
+For A2A3 morphosyntactic alignments, ⟮＿dative＿⟯ is more common than ⟮＿dechticaetiative＿⟯.
+All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dative＿⟯ morphosyntactic alignment.
 
 ## semantic roles in monovalent verbs
 
-an unergative verb is an intransitive verb whose argument is an agent 
+»⟮an unergative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿argument＿ is ＿an agent＿ ⟯
 ^the most common case
-an unaccusative verb is an intransitive verb whose argument is not an agent.
+»⟮an unaccusative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿argument＿ is not ＿an agent＿⟯.
 
 ## voice
 
-Voice is a grammatical feature category which changes the valency of a verb and thus semantic roles of the arguments.
-Grammatical voice is either active or passivelike.
-The active voice is the default, unmarked voice.
-Passivelike voices are voices which decrease the valency by demoting an argument.
-Demoting an argument is dropping it or realizing it in some less central way.
+»⟮Grammatical voice⟯« is ⟮＿a grammatical feature category＿⟯ which ⟮changes the ＿valency＿ of a verb⟯ and thus ⟮＿semantic roles＿ of ＿the arguments＿⟯.
+⟮＿Grammatical voice＿⟯ is generally realized on ⟮verbs/VPs⟯.
+⟮Grammatical voice⟯ =short=> ⟮voice⟯
+⟮＿Grammatical voice＿⟯ is either ⟮＿the active voice＿⟯ or ⟮＿the passivelike voice＿⟯.
+»⟮The active voice⟯« is ⟮the default⟯ voice and thus typically ⟮＿unmarked＿⟯.
+»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an argument＿⟯.
+»⟮Demoting⟯« ⟮＿an argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verb⟯.
+For ⟮＿passivelike voices＿⟯, ⟮the item that is not ＿demoted＿⟯ ⟮keeps its ＿thematic role＿⟯, even though ⟮it is now a different ＿argument＿⟯.
 
 ### passivelike voices
 
@@ -151,22 +154,20 @@ Demoting an argument is dropping it or realizing it in some less central way.
 
 ##### passive and antipassive.
 
-The passive voice is the passivelike voice for nominative-accusative languages.
-The antipassive voice is the passivelike voice for ergative-absolutive languages.
-The passive voice demotes A1 and A2 -> A1.
-The antipassive voice demotes A2 and A1 -> A1.
-Both the passive and antipassive voice result in C2 -> C1.
-For both the passive and antipassive voice, the item that is not demoted keeps its thematic role.
-Thus, the passive voice can also be said to make the subject into a patient.
+»⟮The passive voice⟯« is ⟮＿the passivelike voice＿⟯ for ⟮＿nominative-accusative＿⟯ morphosyntactic alignments.
+»⟮The antipassive voice⟯« is ⟮＿the passivelike voice＿⟯ for ⟮＿ergative-absolutive＿⟯ morphosyntactic alignments.
+»⟮The passive voice⟯« ⟮＿demotes＿ A1⟯ and ⟮A2 → A1⟯.
+»⟮The antipassive voice⟯« ⟮＿demotes＿ A2⟯ and ⟮A1 → A1⟯.
+Both ⟮＿the passive＿⟯ and ⟮c_;＿antipassive voice＿⟯ result in ⟮C2⟯ → ⟮c_;C1⟯.
+⟮＿The passive voice＿⟯ can equivalently be said to make ⟮＿the subject＿⟯ into ⟮＿a patient＿⟯.
 
 ##### middle
 
-The middle voice is a passivelike voice where A1 is both the agent and the patient.
-Grammatical voice is generally realized on verbs/VPs.
-The mediopassive voice is a grammatical voice that merges the middle voice and the passive voice.
+»⟮The middle voice⟯« is ⟮＿a passivelike voice＿⟯ where ⟮A1⟯ is ⟮both ＿the agent＿ and ＿the patient＿⟯.
+»⟮The mediopassive voice⟯« is ⟮＿a grammatical voice＿⟯ that ⟮merges ＿the middle voice＿ and ＿the passive voice＿⟯.
 
 #### valency = 1
 
-The impersonal passive voice is the only passivelike voice which applies to monovalent verbs.
-The impersonal passive voice reduces the valency of an monovalent verb to zero.
-Some languages may achieve an effect similar to the impersonal passive voice by inserting a dummy element.
+»⟮The impersonal passive voice⟯« is ⟮the only ＿passivelike voice＿⟯ which applies to ⟮＿monovalent verbs＿⟯.
+»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿argument＿ of ＿monovalent verbs＿⟯.
+Languoids often achieve an effect similar to ⟮＿the impersonal passive voice＿⟯ by ⟮inserting a ＿dummy element＿⟯.
