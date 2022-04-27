@@ -1,104 +1,111 @@
 # arguments
 
 »⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿arguments＿⟯ ⟮c-;can have⟯ ⟮to their verb⟯.
+I will call the ⟮max. three⟯ ⟮＿arguments＿⟯ of verbs with ⟮c_;＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
+In my notation for ＿arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that⟮ does not have to be⟯ ⟮realized in word order⟯.
+»⟮The subject⟯« is ⟮A1 of any verb⟯.
+»⟮The object(s)⟯« are ⟮A2 - An of any verb⟯.
+
+## !thematic roles (under the active voice)
+
+Typically ⟮A1 (and thus ＿the subject＿)⟯ is ⟮＿the agent＿⟯.
+In cases of ⟮＿intransitive verbs＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
+Typically, ⟮A2 (if extant)⟯ is ⟮＿the patient＿⟯.
+Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
 ## counting arguments
 
-Verbs have 0 or more arguments.
-Valency is the amount of arguments a verb has.
-Transitivity is the amount of non-subject arguments a verb has.
-Valency = Transitivity + 1 
-An ambitransitive verb is one with a transitivity of 0 or 1 (may take an argument or not)
-
-### terminology
-
-Words counting valency are formed with numeral (both latinate and greek are used) + valent
-e.g. mono/univalent, divalent, trivalent, tetra/quadrivalent...
-Words counting transitivity are formed with numeral (both latinate and greek are used) + transitive
+⟮＿Verbs＿⟯ have ⟮0 or more：number⟯ ⟮＿arguments＿⟯.
+»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿arguments＿ a ＿verb＿ has⟯.
+»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject arguments a verb has⟯.
+⟮Valency⟯ = ⟮Transitivity⟯ ⟮+ 1⟯
+»⟮An ambitransitive verb⟯« is a verb with ⟮＿a transitivity＿ of 0 or 1⟯
+⟮Both greek and latinate⟯ numerals are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
 
 ## morphosyntactic alignment
 
-Morphosyntactic alignment is concerned with the distribution of case (incl. word order, but only if it is case-marking) over different valencies.
-Morphosyntactic alignment typically varies by language, not within a language.
-For the purpose of morphosyntactical alignment, we will consider valencies 1-3 and thus max. three arguments A1, A2, A3
-A1, A2, A3 for the purposes of morphosyntactic alignment do not need to be ordered in that way in word order, though they may often have some kind of typical word order.
+»⟮Morphosyntactic alignment⟯« is ⟮the distribution⟯ of ⟮＿case＿ (incl. word order, but only if it is case-marking)⟯ ⟮c_-;over⟯ ⟮different ＿valencies＿⟯.
+⟮＿Morphosyntactic alignment＿⟯ typically varies by ⟮language⟯, not ⟮c_;within a language⟯.
 
-### A1 A2
+### A1A2 morphosyntactic alignment
 
-Consider verbs with a valency of 1 or 2 and thus 1-2 arguments A1, A2.
+»⟮A1A2 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with verbs with ⟮＿valencies＿ of 1 and 2⟯.
 
 
-valency|nominative-accusative|ergative-absolutive|direct|tripartite|transitive
-1|A1=C1|A1=C1|A1=C1|A1=C1|A1=C1
-2|A1=C1, A2=C2|A1=C2, A2=C1|A1=C1, A2=C1|A1=C2, A2=C3|A1=C2, A2=C2
+table:n↓\v→|1|2
+»⟮nominative-accusative⟯«|⟮A1=C1⟯|⟮A1=C1, A2=C2⟯
+»⟮ergative-absolutive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C1⟯
+»⟮direct⟯«|⟮A1=C1⟯|⟮A1=C1, A2=C1⟯
+»⟮tripartite⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C3⟯
+»⟮transitive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C2⟯
 
-Typically, A1 is the agent (sometimes called experiencer in the case of intransitive verbs) while A2 is the patient, though languages often allow deviating from that.
-No language can be fully direct or transitive in its alignment, as languages need some way to tell A1 and A2 of a verb with valency = 2 apart.
+Languoids ⟮can't be fully⟯ ⟮＿direct＿⟯ or ⟮＿transitive＿⟯ in their ＿A1A2 alignment＿, as languoids ⟮need some way⟯ to ⟮tell A1 and A2 of a verb with valency = 2 apart⟯.
 
 #### case 
 
-##### ergative-absolutive
+##### !⟮s+5:+15;ergative-absolutive⟯
 
 table:Case number|case name
-C1|absolutive case
-C2|ergative case
+⟮C1⟯|»⟮absolutive case⟯«
+⟮C2⟯|»⟮ergative case⟯«
 
 
-Because C2 marks A1 of divalent verbs in ergative-absolutive languages and A1 of divalent verbs most often is the agent, it is often said that C2 marks the agent of divalent verbs.
-ergative-absolutive is often shortened to ergative.
+In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of ＿divalent verbs＿⟯ and ⟮c_;A1 of ＿divalent verbs＿⟯ most often is ⟮＿the agent＿⟯, it is often said that ⟮c_-2;C2⟯ ⟮marks ＿the agent＿ of ＿divalent verbs＿⟯.
+⟮ergative-absolutive⟯ =short=> ⟮ergative⟯.
 
-##### nominative-accusative
-
-table:case number|case name
-C1|nominative case
-C2|accusative case
-
-
-In nominative-accusative languages, typically the nominative case is unmarked.
-A marked nominative morphsynalign is a nominative-accusative morphsynalign where the nominative case is marked and the accusative case is unmarked.
-nominative-accusative is often shortened to accusative.
-
-##### direct
+##### !⟮s+5:+15;nominative-accusative⟯
 
 table:case number|case name
-C1|direct
+⟮C1⟯|»⟮nominative case⟯«
+⟮C2⟯|»⟮accusative case⟯«
 
-##### tripartie
+
+In nominative-accusative languages, typically ⟮＿the nominative case＿⟯ is ⟮＿unmarked＿⟯.
+A »⟮marked nominative⟯« ＿morphosyntactic alignment＿ is a ⟮＿nominative-accusative morphosyntactic alignment＿⟯ where ⟮＿the nominative case＿⟯ is ⟮＿marked＿⟯ and ⟮c-;＿the accusative case＿⟯ is ⟮＿unmarked＿⟯.
+⟮nominative-accusative⟯ =short=> ⟮accusative⟯.
+
+##### !direct
 
 table:case number|case name
-C1|intransitive case
-C2|ergative case
-C3|accusative case
+⟮C1⟯|»⟮direct⟯«
 
-##### transitive
+##### !tripartie
 
 table:case number|case name
-C1|intransitive case
-C2|transitive case
+⟮C1⟯|»⟮intransitive case⟯«
+⟮C2⟯|»⟮ergative case⟯«
+⟮C3⟯|»⟮accusative case⟯«
+
+##### !transitive
+
+table:case number|case name
+⟮C1⟯|»⟮intransitive case⟯«
+⟮C2⟯|»⟮transitive case⟯«
 
 #### more complex
 
 ##### split
 
-A language with split morphosyntactic alignment has different morphosyntactic alignments under different circumstances (syntactic, grammatical, morphological, etc.)
-Split ergative alignment is split morphosyntactic alignment between nominative-accusative and ergative-absolutive.
+»⟮Split morphosyntactic alignment⟯« is ⟮having different ＿morphosyntactic alignments＿ under different circumstances (syntactic, grammatical, morphological, etc.)⟯
+»⟮Split ergative alignment⟯« is ⟮＿split morphosyntactic alignment＿⟯ ⟮between ＿nominative-accusative＿ and ＿ergative-absolutive＿⟯.
 
 ##### active
 
-Active alignment has two cases C1, C2 for A1, A2, of v=2 and A1 of v=1 sometimes gets C1 and sometimes C2.
-Typically, active alignment decides whether A2 of v=1 gets C1 or C2 based on the agenthood of A1.
-There are two types of languages with active alignment, split-S and fluid-S.
+»⟮Active alignment⟯« has ⟮A1=C1 and A2=C2⟯ for v=2 and ⟮A1 = sometimes C1, sometimes C2⟯ for v=1.
+Typically, ⟮＿active alignment＿⟯ decides ⟮whether A1 of v=1 gets C1 or C2⟯ based on ⟮the agenthood of A1⟯.
+There are two types of ⟮＿active alignment＿⟯, ⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯.
 split-S and fluid-S are named that way because what I usually call A1 of v=1 is more commonly called S.
-Split-S languages have the presumed agenthood of A1 of v=1 calcified into two classes of verbs, which require C1 or C2 respectively.
-Fluid-S languages allow speaker choice as to the choice of case of A1 to indicate agenthood.
+»⟮Split-S⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the presumed agenthood of A1 of v=1⟯ ⟮has calcified into two classes of verbs⟯, ⟮which require C1 or C2 respectively⟯.
+»⟮Fluid-S⟯« alignment is ⟮＿active alignment＿⟯ which ⟮allow the speaker to choose⟯ ⟮the case of A1⟯ and thus ⟮imply agenthood (or not)⟯.
 
-### A2 A3
+### A2A3 morphosyntacitic alignment
+
+»⟮A2A3 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntacitc alignment＿⟯ concerned with verbs with ⟮＿valencies＿ of 2 and 3⟯
+
 
 alignment|v=2|v=3
-dative|A2=CI|A2=CII, A3=CI
-dechticaetiative|A2=CI|A2=CI, A3=CII
-
-If v=3, typically A2 is the patient, and A3 is the theme.
+»⟮dative⟯«|⟮A2=CI⟯|⟮A2=CII, A3=CI⟯
+»⟮dechticaetiative⟯«|⟮A2=CI⟯|⟮A2=CI, A3=CII⟯
 
 #### cases
 

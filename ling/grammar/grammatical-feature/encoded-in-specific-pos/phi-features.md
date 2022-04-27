@@ -47,6 +47,8 @@ In languages with a singulative/collective distinction, the ⟮＿collective＿�
 ## case
 
 »⟮Grammatical case⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮＿semantic relationship＿⟯ and/or ⟮＿argument relationships＿⟯.
+⟮＿Grammatical case＿⟯ is (typically, see below) encoded ⟮＿morphologically＿⟯.
+⟮Some definitions of⟯ ⟮＿grammatical case＿⟯ allow for esp. ⟮c+;s-;＿argument grammatical case＿⟯ to be encoded via ⟮word order/syntax⟯.
 ⟮＿Grammatical case＿⟯ may be ⟮＿semantic grammatical case＿⟯ or ⟮＿argument grammatical case＿⟯.
 »⟮Argument grammatical case⟯« is ⟮＿grammatical case＿⟯ encoding ⟮＿argument relationships＿⟯.
 ^and thus which exist depend on the morphosyntactic alignment of the language.
