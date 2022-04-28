@@ -60,15 +60,15 @@ In most languages, lexemes instantating ⟮＿numerals＿⟯ are either ⟮＿de
 ##### classifier
 
 A classifier is a morpheme or lexeme that co-occurs with another element based on that element being part of a certain semantic class.
-A measure word is a classifier that appears with a numeral.
+»⟮A measure word⟯« is ⟮＿a classifier＿⟯ ⟮of ＿a numeral＿⟯.
 ^perhaps there are no other classifiers than measure words, in which case they would be synonymous
-A numeral quantifier is the combination of a numeral and a measure word.
+»⟮A numeral quantifier⟯« is ⟮the combination of⟯ ⟮＿a numeral＿⟯ and ⟮c_;＿a measure word＿⟯.
 
 ###### in languages
 
-in indo-european languages, measure words are uncommon.
+in indo-european languages, measure words are ⟮uncommon⟯.
 An example for an english measure word is piece of x, e.g. three pieces of paper.
-In east asian languages, measure words are often required.
+In east asian languages, measure words are ⟮often required⟯.
 
 ##### kinds of numerals
 
@@ -97,5 +97,5 @@ Because the reuse point in east asian languages is 10⎴4⎴ = 10000, 10000 is u
 
 #### deixis
 
-Demonstratives are lexemes encoding spatial/discourse deixis sememes.
-Demonstratives are most frequently determiners or pronouns.
+»⟮A demonstrative⟯« is ⟮＿a lexical unit＿⟯ encoding ⟮spatial/discourse deixis sememes⟯.
+⟮＿Demonstratives＿⟯ are ⟮most frequently⟯ ⟮＿determiners＿⟯ or ⟮＿pronouns＿⟯.
