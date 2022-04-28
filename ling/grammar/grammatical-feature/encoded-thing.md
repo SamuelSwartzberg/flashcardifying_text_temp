@@ -36,6 +36,7 @@ A positive/negative polarity item is a polarity item that can only appear in pos
 
 #### posessive
 
+Posession is a grammatical feature category encoding posession.
 »⟮A posessive⟯« is ⟮＿a grammeme＿⟯ indicating ⟮posession⟯.
 Posessives may be encoded via lexemes or inflectional/derivational morphemes.
 Inflectional morphology instantiating a posessive is genitive/posessive case.
@@ -43,6 +44,12 @@ Lexemes instatiating a posessive are most commonly possessive determiners, prono
 Examples for posessive verbs are to have, haben, tener.
 In quite a few languages, the job of  a posessive verb is done by existential verbs.
 e.g. 金⁑ある⁑よ, hessian dialectal german: das ist mir.
+
+##### posessive determiners
+
+»⟮A posessive determiner⟯« is ⟮＿a determiner＿⟯ encoding ⟮＿posession＿⟯.
+A posessive pronoun is a pronoun encoding possession.
+Possessive determiners and pronouns typically reflect grammatical person, number and sometimes other grammatical feature categories to indicate the posessor.
 
 #### numerals
 

@@ -23,7 +23,7 @@ table:abbr|name
 
 ## categories
 
-A part of speech may be a functional, lexical or practical category.
+⟮＿A word class＿⟯ may be a ⟮＿functional＿⟯, ⟮c_;＿lexical＿⟯ or ⟮c_;＿practical category＿⟯.
 
 ### functional categories
 
@@ -77,13 +77,12 @@ Sometimes ⟮lexical category⟯ is used ⟮as a synonym for⟯ ⟮part of speec
 
 ##### adjective
 
-An adjective is a lexical unit that can act as the head of an AP, or become the head of an NP.
-A nominalized adjective is an adjective that has become the N head of an NP.
+»⟮An adjective⟯« is ⟮＿a lexical unit＿⟯ that typically ⟮heads an AP⟯ but also ⟮may head an NP⟯.
+»⟮A nominalized adjective⟯« is ⟮＿an adjective＿⟯ that ⟮heads an NP⟯.
 
 ###### AP
 
 ⟮＿An adjective phrase＿⟯ may be ⟮＿attributive＿⟯ or ⟮＿predicative＿⟯.
-»⟮A predicative adjective phrase⟯« is the predicate (narrow).
 
 ##### adverb
 
@@ -100,32 +99,30 @@ Something »⟮attributive⟯« is ⟮＿a phrase＿⟯ ⟮within a NP/DP⟯ tha
 
 ##### det
 
-»⟮A determiner⟯« is a lexical unit that occurs that occurs together with a NP (DP theory) and expresses something about the reference of the NP.
-Types of determiners: Articles, quantifiers, posessive determiners, demonstrative determiners, interrogative determiners
+»⟮A determiner⟯« is ⟮＿a lexical unit＿⟯ that ⟮occurs together with a NP (DP theory)⟯ and ⟮expresses something about the reference of the NP⟯.
+Types of ⟮＿determiners＿⟯: ⟮＿Articles＿⟯, ⟮＿quantifiers＿⟯, ⟮＿posessive determiners＿⟯, ⟮＿demonstrative determiners＿⟯, ⟮＿interrogative determiners＿⟯
 
 ##### Quantifier
 
-A quantifier is a determiner that indicates quantity.
+»⟮A quantifier⟯« is a determiner encoding ⟮＿the semantic (feature) category＿ ＿setlike＿⟯.
 
 ###### Articles
 
-An article is a determiner that typically encodes definiteness, and in many languages also gender, number, and/or case.
-
-###### posessive determiners
-
-A posessive determiner is a determiner instantiating a posessive.
+»⟮An article⟯« is ⟮＿a determiner＿⟯ that ⟮typically encodes ＿definiteness＿⟯.
+⟮＿Articles＿⟯ typically ⟮agree with their nouns⟯ ⟮on (some/all) ＿phi-features＿⟯.
 
 ## verbs
 
-Verbs can be divided into lexical verbs and functional verbs.
+⟮Verbs⟯ can be divided into ⟮＿lexical verbs＿⟯ and ⟮＿functional verbs＿⟯.
 
 ### func
 
-A functional verb (my term) is a verb that acts as primarily as a function word, i.e. having little semantic content and most commonly indicating verb-related grammemes and/or allowing for more complex syntactic constructions.
-Auxiliary verbs is are functional verbs that form a class with very specific syntactic properties in a given language.
-Light verbs are functional verbs which are not auxiliary verbs (= do not form a class with very specific syntactic properites)
-auxiliary verb =short=> auxiliary.
-modal verbs are a subset of auxiliary verbs that are used to express modality.
+»⟮A functional verb⟯« (my term) is ⟮a verb⟯ that ⟮acts as primarily as⟯ ⟮＿a function word＿⟯,
+Specifically, ⟮＿function verbs＿⟯ have ⟮little semantic content⟯ and most commonly indicate ⟮verb-related ＿grammemes＿⟯ and/or ⟮allow for more complex syntactic constructions⟯.
+»⟮Auxiliary verbs⟯« are ⟮＿functional verbs＿⟯ that ⟮form a class⟯ with ⟮very specific syntactic properties (in a given languoid)⟯.
+»⟮Light verbs⟯« are ⟮＿functional verbs＿⟯ which ⟮are not ＿auxiliary verbs＿ (= do not form a class with very specific syntactic properites)⟯
+⟮auxiliary verb⟯ =short=> ⟮auxiliary⟯.
+»⟮A modal verb⟯« is ⟮＿an auxiliary verbs＿⟯ encoding ⟮＿modality＿⟯.
 
 ### lexical
 

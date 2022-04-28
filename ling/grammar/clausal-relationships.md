@@ -19,6 +19,10 @@ A copula-based predicate (wide/narrow) consists of a copula (wide/narrow) and a 
 Subject complement =syn= predicative expression
 Predicative expression =short=> predicative
 
+#### predicatives
+
+»⟮A predicative adjective phrase⟯« is an adjective phrase that acts as a predicative expression.
+
 #### special verblikes
 
 ##### copulas
