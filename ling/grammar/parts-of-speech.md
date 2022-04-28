@@ -66,14 +66,14 @@ semantically, ⟮＿adpositions＿⟯ may indicate ⟮time⟯, ⟮space⟯, ⟮v
 
 »⟮A lexical category⟯« is ⟮＿a word class＿⟯ that (also) encodes ⟮＿sememes＿⟯.
 »⟮A content word⟯« is ⟮＿a lexical unit＿⟯ that is ⟮a member of ＿a lexical category＿⟯.
-Sometimes lexical category is used as a synonym for part of speech/word class (but I don't like this).
+Sometimes ⟮lexical category⟯ is used ⟮as a synonym for⟯ ⟮part of speech/word class⟯ (but I don't like this).
 
 #### ad
 
-An ad phrase (my term) is a phrase that acts as a modifier for another head and thus semantically describes/restricts that head.
-Ad phrases may be attributive adjective phrases or adverb phrases.
-Attributive adjective phrases are ad phrases that modify things that are not NPs/DPs.
-Adverb phrases are ad phrases that modify things that are not NPs/DPs.
+»⟮An ad phrase⟯« (my term) is ⟮＿a phrase＿⟯ that ⟮acts as ＿a modifier＿⟯ for another head and thus ⟮semantically describes/＿restricts＿ that head⟯.
+⟮＿Ad phrases＿⟯ may be ⟮＿attributive adjective phrases＿⟯ or ⟮＿adverb phrases＿⟯.
+»⟮Attributive adjective phrases⟯« are ⟮＿ad phrases＿⟯ that act as a modifier for ⟮＿phrases＿ that are not NPs/DPs⟯.
+»⟮Adverb phrases⟯« are ⟮＿ad phrases＿⟯ that act as modifier for ⟮＿phrases＿ that are not NPs/DPs⟯.
 
 ##### adjective
 
@@ -82,26 +82,17 @@ A nominalized adjective is an adjective that has become the N head of an NP.
 
 ###### AP
 
-An adjective phrase may be attributive or predicative.
-A predicative adjective phrase is the complement of the VP.
+⟮＿An adjective phrase＿⟯ may be ⟮＿attributive＿⟯ or ⟮＿predicative＿⟯.
+»⟮A predicative adjective phrase⟯« is the predicate (narrow).
 
 ##### adverb
 
-Adverb phrase = adverbial phrase.
-»⟮An adverb⟯« is ⟮＿the head＿⟯ of ⟮＿an adverbial phrase＿⟯.
-»⟮Adverb(ial) phrases⟯« ⟮are ＿modifiers＿ for⟯ ⟮any number of things⟯ that ⟮are not NPs/DPs⟯.
-^bit of a catch-all category
-Semantically, ⟮＿adverbial phrases＿⟯ ⟮describe/restrict the thing they're ＿modifying＿⟯.
-In most languages, ⟮＿adverbs/adverbial phrases＿⟯ are at least able to modify other AdvPs, APs, DPs, PPs, VPs, and IPs.
+⟮Adverb phrase⟯ = ⟮adverbial phrase.⟯
+In most languages, ⟮＿adverbs/adverbial phrases＿⟯ are at least able to modify ⟮other AdvPs⟯, ⟮APs⟯, ⟮DPs⟯, ⟮PPs⟯, ⟮VPs⟯, and ⟮sentences (so IPs/CPs/whatever)⟯.
 
 #### noun-related
 
-##### noun
-
-Nouns are heads of NPs.
-NPs/DPs are the things that most commonly become subjects/objects. 
-
-###### attribution
+##### attribution
 
 Something »⟮attributive⟯« is ⟮＿a phrase＿⟯ ⟮within a NP/DP⟯ that ⟮modifies the head noun⟯. 
 ⟮Adnnominal⟯ =syn= ⟮attributive⟯
@@ -126,77 +117,43 @@ A posessive determiner is a determiner instantiating a posessive.
 
 ## verbs
 
-### copulas and existential verbs
+Verbs can be divided into lexical verbs and functional verbs.
 
-#### copulas
+### func
 
-A copula is a constituent that connects subject with complement=predicate.
-The tree ☞is☜ blue.
-Copulas are most commonly verbs, but not always.
-A pseudocopula/semicopula is a constituent that does similar things as a copula, but is grammatically or syntactically more restricted.
-
-#### existential verbs
-
-An existential verb indicates the existence of something.
-Some languages distinguish different existential verbs for different semantic categories or grammatical situations.
-Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
-
-#### in languages
-
-The existential verb and the copula may be the same lexical unit, or a different lexical unit.
-
-table:lang|copula|existential verb
-en|be|be
-es|ser/estar|haber
-de|sein|geben
-ja|だ|ある・いる
-
-### aux
-
-Auxiliary verbs are function words most commonly indicating verb-related grammemes and/or allowing for more complex syntactic constructions.
-Non auxiliary verbs are called lexical verbs.
-auxiliary verb is frequenly abbreviated auxiliary.
+A functional verb (my term) is a verb that acts as primarily as a function word, i.e. having little semantic content and most commonly indicating verb-related grammemes and/or allowing for more complex syntactic constructions.
+Auxiliary verbs is are functional verbs that form a class with very specific syntactic properties in a given language.
+Light verbs are functional verbs which are not auxiliary verbs (= do not form a class with very specific syntactic properites)
+auxiliary verb =short=> auxiliary.
 modal verbs are a subset of auxiliary verbs that are used to express modality.
-
-#### light verbs
-
-Light verbs are verbs with little semantic content and often used in certain syntactic constructions, but which do not act like auxiliary verbs syntactically.
 
 ### lexical
 
-Lexical verbs are verbs that are content words.
-
-#### semantics
-
-##### dynstat
-
-Semantically, lexical verbs can be divided into dynamic and static verbs.
-A dynamic verb is a verb that describes an action.
-A stative verb is a verb that descirbes a state.
-^setzen is a dynamic verb while sitzen is a dynamic verb.
+»⟮Lexical verbs⟯« are ⟮verbs⟯ that are ⟮＿content words＿⟯.
 
 ## proforms
 
-Proforms are function words or constitutents that stand in for another constituent.
+»⟮Proforms⟯« are ⟮＿constitutents＿⟯ that ⟮stand in for another ＿constituent＿⟯.
 
 ### pronouns
 
-Pronouns are proforms that stand for NPs/DPs.
-Often, for any given pronoun, there is a similar or identical determiner
+»⟮Pronouns⟯« are ⟮＿proforms＿⟯ that stand for ⟮NPs/DPs⟯.
+Often, for any given ⟮＿pronoun＿⟯, there is ⟮a similar or identical⟯ ⟮＿determiner＿⟯
 
 #### pro-drop
 
-A pro-drop language is a language where certain classes of pronouns may be omitted when they are pragmatically or grammatically inferable. 
-Japanese and Spanish are pro-drop, German and English are, with rare exceptions, not.
+»⟮pro-drop⟯« is when ⟮certain ＿pronouns＿⟯ ⟮in certain circumstances⟯ may be ⟮omitted⟯ due to being ⟮＿grammatically＿⟯ or ⟮c_;＿pragmatically＿⟯ ⟮inferrable⟯. 
+»⟮A pro-drop language⟯« is ⟮＿a languoid＿⟯ which ⟮features ＿pro-drop＿ behavior prominently⟯.
+Pro-drop languages I speak: ⟮Japanese⟯, ⟮Spanish⟯
 
 #### personal
 
-Personal pronouns are pronouns that are associated primarily with a particular grammatical person.
+»⟮Personal pronouns⟯« are ⟮＿pronouns＿⟯ that stand for entities ⟮corresponding to a particular ＿grammatical person＿⟯ and depending ⟮on the languoid⟯, ⟮other ＿grammemes＿ of ＿grammatical feature categories＿⟯. 
 
 ### changing parts of speech
 
 #### nominalization
 
-Nominalization is the process of treating / transforming something which is not a noun as / into a noun / head of an NP.
-A nominalizer is a thing that nominalizes a thing.
-Nominalizers are usually bound morphemes.
+»⟮Nominalization⟯« is ⟮making⟯ ⟮＿a POS＿ which is not a noun⟯ ⟮c-;into⟯ ⟮the head of an NP⟯.
+»⟮A nominalizer⟯« is ⟮＿a linguistic item＿⟯ that ⟮＿nominalizes＿⟯.
+⟮＿Nominalizers＿⟯ are usually ⟮＿bound morphemes＿⟯.

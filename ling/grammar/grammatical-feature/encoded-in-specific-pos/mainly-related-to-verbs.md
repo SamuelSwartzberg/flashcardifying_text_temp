@@ -1,4 +1,3 @@
-# encoded in specfic parts of speech
 # mainly related to verbs
 
 ## grammatical person
@@ -65,9 +64,20 @@ In ⟮＿two-tense languages＿⟯, ⟮one of the ＿grammemes＿⟯ ⟮unites t
 ### aspect
 
 »⟮Aspect⟯« is ⟮＿the grammatical feature category＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
+
+#### how encoded
+
 Depending on ⟮how ＿the grammemes＿ are encoded⟯, aspect may be divided into ⟮＿grammatical aspect＿⟯ and ⟮＿lexical aspect＿⟯.
 »⟮Grammatical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿inflectional morphology＿⟯.
 »⟮Lexical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿lexical items＿⟯.
+
+##### specific POS
+
+»⟮A stative verb⟯« is ⟮＿a lexical verb＿⟯ with ⟮＿lexical aspect＿⟯ of ⟮＿eventive aspect＿=＿stative＿⟯
+⟮＿A dynamic verb＿⟯ is ⟮＿a lexical verb＿⟯ which is ⟮not a ＿stative verb＿⟯.
+^setzen is a dynamic verb while sitzen is a static verb.
+
+#### meaning encoded
 
 !Regarding meaning encoded, ⟮＿aspect＿⟯ can be divided into
 - !⟮＿eventive＿⟯
@@ -76,13 +86,13 @@ Depending on ⟮how ＿the grammemes＿ are encoded⟯, aspect may be divided in
 - !⟮＿scope＿⟯
 - !⟮＿telicity＿⟯
 
-#### eventive
+##### eventive
 
 »⟮Eventive aspect⟯« is aspect indicating ⟮how time flows⟯ ⟮within the process/event itself⟯.
 While eventive aspects can be ordered hierarchically, languages may ⟮have some aspects deep into the tree while not having others⟯.
 e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
-##### outline
+###### outline
 
 ```
 !⟮Eventive⟯
@@ -96,13 +106,13 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 !      ⟮Stative⟯
 ```
 
-##### relation
+###### relation
 
 ⟮＿Eventive aspect＿⟯ may be divided into ⟮＿perfective aspect＿⟯ and ⟮＿imperective aspect＿⟯.
 »⟮perfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed in its entirety ( = without internal complexity)⟯.
 »⟮Imperfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed with some sort of internal complexity⟯.
 
-###### imperfect
+####### imperfect
 
 ⟮＿Imperfective aspect＿⟯ may (sometimes) be divided into ⟮＿iterative＿⟯, ⟮＿frequentative＿⟯, ⟮＿habitual＿⟯ and ⟮＿continuous aspect＿⟯ (though there may be others)
 ⟮＿Habitual＿⟯, ⟮c_;＿iterative＿⟯ and ⟮c_;＿frequentative aspect＿⟯ all indicate that ⟮something is repeated⟯.
@@ -112,25 +122,25 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 ^e.g.knocking (repeatedly), kissing (repeatedly)
 »⟮Continuous aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates ⟮an ongoing situation/action⟯ ⟮without interruption⟯.
 
-####### continuous
+######## continuous
 
 ⟮＿Continuous aspect＿⟯ may sometimes be divided into ⟮＿progressive＿⟯ and ⟮＿stative aspect＿⟯.
 »⟮Progressive aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is evolving/changing⟯.
 »⟮Stative aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is not evolving/changing⟯.
 
-##### realizations in languges
+###### realizations in languges
 
 »⟮Habitual be⟯« is a feature of ⟮＿AAVE＿⟯ indicating ⟮＿habitual aspect＿⟯.
 ⟮Spanish⟯ distinguishes ⟮＿imperfective＿⟯ and ⟮c_;＿perfective aspect＿⟯ as ⟮imperfect/preterite：name⟯ the past tense.
 
-#### howfar
+##### howfar
 
 »⟮howfar aspect⟯« (my term) indicates how ⟮the state is changing⟯ ⟮during the specified time⟯.
 ⟮＿howfar aspect＿⟯ may be ⟮＿inchoative＿⟯, ⟮c_;＿cessative＿⟯ or ⟮c_;ø⟯.
 »⟮Inchoative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is beginning (however not that something is about to begin)⟯.
 »⟮Cessative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is ending⟯.
 
-#### prospective/retrospective
+##### prospective/retrospective
 
 »⟮spective aspect⟯« (my term) indicates ⟮when an event takes place⟯ ⟮relative to the reference time⟯.
 ⟮＿spective aspect＿⟯ may be ⟮＿prospective＿⟯, ⟮c_;＿retrospective＿⟯, or ⟮c_;ø⟯.
@@ -139,7 +149,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 ⟮Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
 ^not to be confused with perfect⁑ive⁑ aspect
 
-#### gnomic/episodic
+##### gnomic/episodic
 
 »⟮scope aspect⟯« (my term) indicates what ⟮kind of scope⟯ ⟮something being the fact has⟯.
 ⟮＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
@@ -147,7 +157,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 ^sometimes also analzyed as a modality
 »⟮Episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths that are temporally bounded⟯.
 
-#### telic/atelic
+##### telic/atelic
 
 »⟮Telicity⟯« is ⟮＿the aspect＿⟯ of ⟮whether something has a specific endpoint⟯.
 ⟮＿Telicity＿⟯ is ⟮sometimes also⟯ ⟮analyzed as something else than a aspect⟯.
@@ -159,7 +169,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 »⟮Mood⟯« is ⟮＿modality＿⟯ ⟮marked on a verb/VP⟯, however ⟮some authors also treat them as synonyms⟯.
 ⟮Different forms of⟯ ⟮＿modality＿⟯ are ⟮sometimes called flavors⟯.
 
-#### deontic/epistemic, realis/irrealis
+##### deontic/epistemic, realis/irrealis
 
 ⟮＿Modalities＿⟯ are ⟮c_;primarily categorized⟯ with two binaries: ⟮＿deontic/epistemic＿⟯ and ⟮＿realis/irreals＿⟯
 »⟮Deontic modalities⟯« are ＿modalities＿ concerned with ⟮how the world ought to be⟯.
@@ -170,14 +180,14 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 The distinction between different types of modality may not always be ⟮clear-cut⟯.
 
 
-#### realis epistemic
+##### realis epistemic
 
 ⟮Most (but not all)⟯ languoids have ⟮a single⟯ ⟮＿realis modality＿⟯ called ⟮＿the indicative modality＿⟯.
 
 Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ are ⟮＿energetic＿⟯ or ⟮the various ＿evidential modalites＿⟯.
 »⟮the energetic modality⟯« is an ⟮＿epistemic realis＿⟯ ＿modality＿ indicating ⟮emphasis or strong belief⟯.
 
-##### evidentiality
+###### evidentiality
 
 »⟮Evidentiality (wide sense)⟯« is ⟮＿the grammatical feature category＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
 ⟮＿Evidentiality (wide sense)＿⟯ is most commonly analyzed as a ⟮＿realis epistemic＿⟯ ⟮＿modiality＿⟯.
@@ -190,7 +200,7 @@ There are two kinds of ⟮＿evidentiality (wide sense)＿⟯: ⟮＿indirectivi
 ⟮＿Indirectivity＿⟯ is the type of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮whether evidence exists, but not what kind⟯.
 ⟮＿Evidentiality proper＿⟯ is the type of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
 
-###### evidentiality proper
+####### evidentiality proper
 
 ⟮＿Evidentiality proper＿⟯ contains ⟮a certain number of⟯ ⟮＿grammatical feature feature＿⟯s.
 Most languages (that have it) build ⟮＿evidentials proper＿⟯ ⟮＿grammemes＿⟯ from ⟮a combination of⟯ ⟮the various ＿grammatical feature features＿⟯ of ⟮c_-3;＿evidentiality proper＿⟯.
@@ -198,7 +208,7 @@ Most languages (that have it) build ⟮＿evidentials proper＿⟯ ⟮＿grammem
 The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- sensory]⟯ may sometimes contain subfeatures ⟮[+/- visual]⟯ and/or ⟮[+/- auditory]⟯
 The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- reportative]⟯ may sometimes contain subfeatures ⟮[+/- hearsay]⟯ and/or ⟮[+/- quotative]⟯
 
-#### irrealis epistemic
+##### irrealis epistemic
 
 The common ⟮＿epistemic irrealis＿⟯ ＿modalities＿ are ⟮＿subjunctive＿⟯, ⟮＿potential＿⟯, ⟮＿dubitative＿⟯, ⟮＿speculative＿⟯, ⟮＿hypothetical＿⟯, ⟮＿assumptive＿⟯
 
@@ -215,7 +225,7 @@ table:epistemic irrealis modality|meaning
 
 The ⟮＿tentative mood＿⟯ is more commonly called ⟮potential⟯, but this ⟮is a different meaning⟯ than the ⟮c_-;potential⟯ in ⟮japanese⟯ 
 
-#### deontic
+##### deontic
 
 ⟮＿Deontic modality＿⟯ may be roughly divided into ⟮＿commissive＿⟯, ⟮＿directive＿⟯ and ⟮＿volitive＿⟯.
 
@@ -225,7 +235,7 @@ table:type of deontic modality|meaning
 »⟮directive⟯«|⟮commands, requests, etc.⟯
 »⟮volitive⟯«|⟮wishes, desires etc.⟯
 
-##### directive
+###### directive
 
 ⟮＿Directive modality＿⟯ may be roughly divided into ⟮＿permissive＿⟯, ⟮＿imperative＿⟯, ⟮＿hortative＿⟯, ⟮＿prohibitive＿⟯, ⟮＿propositive＿⟯.
 
@@ -237,7 +247,7 @@ table:type of directive modality|meaning
 »⟮prohibitive⟯«/vetative|⟮something is prohibited⟯
 »⟮propositive⟯«|⟮proposal or suggestion⟯
 
-##### volitive
+###### volitive
 
 ⟮＿Volitive modality＿⟯ may be roughly divided into ⟮＿desiderative＿⟯ and ⟮＿optative＿⟯
 
@@ -246,7 +256,7 @@ table:type of volitive modality|meaning
 »⟮desiderative⟯«|⟮one has a desire for something⟯
 »⟮optative⟯«|⟮event is hoped for⟯
 
-#### epistemic
+##### epistemic
 
 »⟮Mirative⟯« is an ⟮＿epistemic＿⟯ ⟮＿modality＿⟯ indicating ⟮surprise/unpreparedness in relation to a given thing⟯.
 »⟮Causative⟯« is an ⟮＿epistemic＿⟯ ⟮＿modality＿⟯ indicating that ⟮someone/thing causes someone/thing else to do/be something⟯.

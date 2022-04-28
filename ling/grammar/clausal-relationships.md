@@ -9,9 +9,44 @@ Clauses which seem to not have a subject have a null subject.
 
 ### predicate
 
-»⟮A predicate (narrow sense)⟯« is ⟮the thing that⟯ ⟮connects ＿the subject＿ to an idea⟯.
-»⟮A predicate (wide sense)⟯« is ⟮all of the clause⟯ that ⟮says something about ＿the subject＿⟯.
-^e.g. Bill heard Fred -> heard (narrow); heard Fred (wide)
+»⟮A predicate (wide)⟯« is ⟮everything in the clause⟯ ⟮besides ＿the subject＿⟯ which thus says something about the subject.
+A predicate (narrow) is the main verblike of the clause, of which all other parts are arguments.
+A predicate (wide) always contains a predicate (narrow).
+^I think, though I suspect this depends on if you believe in zero copulas or similar.
+A copula-based predicate (wide/narrow) (my term) is a predicate (chomskyan/wide) where the predicate (narrow) is a copula (wide/narrow).
+A copula-based predicate (wide/narrow) consists of a copula (wide/narrow) and a predicative expression.
+»⟮A predicative expression⟯« is ⟮the part of the copula-based predicate⟯ that ⟮says something about ＿the subject＿⟯.
+Subject complement =syn= predicative expression
+Predicative expression =short=> predicative
+
+#### special verblikes
+
+##### copulas
+
+A copula (wide) is a verblike whose main function (and semantic content) is to connect the subject to the predicative expression in a copula-based predicate.
+A copula (narrow) is a copula (wide) which is semantically and grammatically a pure copula.
+A pseudocopula is a copula (wide) which has more semantic content or grammatical constraints than a copula (narrow)
+pseudocopula =syn= semicopula 
+Linking verb is a vague term, but generally means copula (wide) which is a verb.
+A copular verb is a verb that is currently acting as a copula (wide).
+A zero copula is a copula (wide) which is unpronounced.
+
+##### existential 
+
+An existential is a verblike which asserts the existence of its sole argument.
+An existential verb is an existential which is a verb.
+An existential predicate is a predicate (wide) which consists of an existential (plus modifiers).
+Languages may differentiate different existentials for various semantic/grammatical/pragmatic/whatever purposes.
+
+##### both
+
+In many languages, copula and existential are instantiated by the same lexical unit.
+
+table:lang|copula|existential verb
+en|be|be
+es|ser/estar|haber
+de|sein|geben
+ja|だ|ある・いる
 
 ## typology
 

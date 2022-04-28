@@ -1,26 +1,28 @@
 # arguments
 
-»⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿verbal arguments＿⟯ ⟮c-;can have⟯ ⟮to their verb⟯.
-»⟮A verbal argument⟯« is ⟮＿an argument＿⟯ ⟮of a verb⟯.
-I will call the ⟮max. three⟯ ⟮＿verbal arguments＿⟯ of verbs with ⟮c_;＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
-In my notation for ＿verbal arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that⟮ does not have to be⟯ ⟮realized in word order⟯.
-»⟮The subject⟯« is ⟮A1 of any verb⟯.
-»⟮The object(s)⟯« are ⟮A2 - An of any verb⟯.
+»⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿verblikeal arguments＿⟯ ⟮c-;can have⟯ ⟮to their verblike⟯.
+A verblike (my definition) is something that takes verblikeal arguments in the typical ways and (thus?) can become a predicate (narrow).
+»⟮A verblikeal argument⟯« is ⟮＿an argument＿⟯ ⟮of a verblike⟯.
+⟮＿verblikeal arguments＿⟯ are ⟮most commonly⟯ ⟮DPs/NPs⟯ or ⟮＿complement clauses＿⟯.
+I will call the ⟮max. three⟯ ⟮＿verblikeal arguments＿⟯ of verblikes with ⟮c_;＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
+In my notation for ＿verblikeal arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that⟮ does not have to be⟯ ⟮realized in word order⟯.
+»⟮The subject⟯« is ⟮A1 of any verblike⟯.
+»⟮The object(s)⟯« are ⟮A2 - An of any verblike⟯.
 
 ## !thematic roles (under the active voice)
 
 Typically ⟮A1 (and thus ＿the subject＿)⟯ is ⟮＿the agent＿⟯.
-In cases of ⟮＿intransitive verbs＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
+In cases of ⟮＿intransitive verblikes＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
 Typically, ⟮A2 (if extant)⟯ is ⟮＿the patient＿⟯.
 Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
-## counting verbal arguments
+## counting verblikeal arguments
 
-⟮＿Verbs＿⟯ have ⟮0 or more：number⟯ ⟮＿verbal arguments＿⟯.
-»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿verbal arguments＿ a ＿verb＿ has⟯.
-»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject verbal arguments a verb has⟯.
+⟮＿verblikes＿⟯ have ⟮0 or more：number⟯ ⟮＿verblikeal arguments＿⟯.
+»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿verblikeal arguments＿ a ＿verblike＿ has⟯.
+»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject verblikeal arguments a verblike has⟯.
 ⟮Valency⟯ = ⟮Transitivity⟯ ⟮+ 1⟯
-»⟮An ambitransitive verb⟯« is a verb with ⟮＿a transitivity＿ of 0 or 1⟯
+»⟮An ambitransitive verblike⟯« is a verblike with ⟮＿a transitivity＿ of 0 or 1⟯
 ⟮Both greek and latinate⟯ numerals are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
 
 ## morphosyntactic alignment
@@ -30,7 +32,7 @@ Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
 ### A1A2 morphosyntactic alignment
 
-»⟮A1A2 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with verbs with ⟮＿valencies＿ of 1 and 2⟯.
+»⟮A1A2 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with verblikes with ⟮＿valencies＿ of 1 and 2⟯.
 
 
 table:n↓\v→|1|2
@@ -40,7 +42,7 @@ table:n↓\v→|1|2
 »⟮tripartite⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C3⟯
 »⟮transitive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C2⟯
 
-Languoids ⟮can't be fully⟯ ⟮＿direct＿⟯ or ⟮＿transitive＿⟯ in their ＿A1A2 alignment＿, as languoids ⟮need some way⟯ to ⟮tell A1 and A2 of a verb with valency = 2 apart⟯.
+Languoids ⟮can't be fully⟯ ⟮＿direct＿⟯ or ⟮＿transitive＿⟯ in their ＿A1A2 alignment＿, as languoids ⟮need some way⟯ to ⟮tell A1 and A2 of a verblike with valency = 2 apart⟯.
 
 #### case 
 
@@ -51,7 +53,7 @@ table:Case number|case name
 ⟮C2⟯|»⟮ergative case⟯«
 
 
-In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of ＿divalent verbs＿⟯ and ⟮c_;A1 of ＿divalent verbs＿⟯ most often is ⟮＿the agent＿⟯, it is often said that ⟮c_-2;C2⟯ ⟮marks ＿the agent＿ of ＿divalent verbs＿⟯.
+In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of ＿divalent verblikes＿⟯ and ⟮c_;A1 of ＿divalent verblikes＿⟯ most often is ⟮＿the agent＿⟯, it is often said that ⟮c_-2;C2⟯ ⟮marks ＿the agent＿ of ＿divalent verblikes＿⟯.
 ⟮ergative-absolutive⟯ =short=> ⟮ergative⟯.
 
 ##### !⟮s+5:+15;nominative-accusative⟯
@@ -96,12 +98,12 @@ table:case number|case name
 Typically, ⟮＿active alignment＿⟯ decides ⟮whether A1 of v=1 gets C1 or C2⟯ based on ⟮the agenthood of A1⟯.
 There are two types of ⟮＿active alignment＿⟯, ⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯.
 ⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯ are named that way because what I usually call ⟮A1 of v=1⟯ is more commonly called ⟮S⟯.
-»⟮Split-S⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the presumed agenthood of A1 of v=1⟯ ⟮has calcified into two classes of verbs⟯, ⟮which require C1 or C2 respectively⟯.
+»⟮Split-S⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the presumed agenthood of A1 of v=1⟯ ⟮has calcified into two classes of verblikes⟯, ⟮which require C1 or C2 respectively⟯.
 »⟮Fluid-S⟯« alignment is ⟮＿active alignment＿⟯ which ⟮allow the speaker to choose⟯ ⟮the case of A1⟯ and thus ⟮imply agenthood (or not)⟯.
 
 ### A2A3 morphosyntacitic alignment
 
-»⟮A2A3 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntacitc alignment＿⟯ concerned with verbs with ⟮＿valencies＿ of 2 and 3⟯
+»⟮A2A3 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntacitc alignment＿⟯ concerned with verblikes with ⟮＿valencies＿ of 2 and 3⟯
 
 
 alignment|v=2|v=3
@@ -132,22 +134,22 @@ The ⟮most common⟯ types of A1A2 morphosyntactic alignments are ⟮＿nominat
 For A2A3 morphosyntactic alignments, ⟮＿dative＿⟯ is more common than ⟮＿dechticaetiative＿⟯.
 All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dative＿⟯ morphosyntactic alignment.
 
-## semantic roles in monovalent verbs
+## semantic roles in monovalent verblikes
 
-»⟮an unergative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿verbal argument＿ is ＿an agent＿ ⟯
+»⟮an unergative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿verblikeal argument＿ is ＿an agent＿ ⟯
 ^the most common case
-»⟮an unaccusative verb⟯« is ⟮＿an intransitive verb＿⟯ ⟮whose ＿verbal argument＿ is not ＿an agent＿⟯.
+»⟮an unaccusative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿verblikeal argument＿ is not ＿an agent＿⟯.
 
 ## voice
 
-»⟮Grammatical voice⟯« is ⟮＿a grammatical feature category＿⟯ which ⟮changes the ＿valency＿ of a verb⟯ and thus ⟮＿semantic roles＿ of ＿the verbal arguments＿⟯.
-⟮＿Grammatical voice＿⟯ is generally realized on ⟮verbs/VPs⟯.
+»⟮Grammatical voice⟯« is ⟮＿a grammatical feature category＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and thus ⟮＿semantic roles＿ of ＿the verblikeal arguments＿⟯.
+⟮＿Grammatical voice＿⟯ is generally realized on ⟮verblikes/VPs⟯.
 ⟮Grammatical voice⟯ =short=> ⟮voice⟯
 ⟮＿Grammatical voice＿⟯ is either ⟮＿the active voice＿⟯ or ⟮＿the passivelike voice＿⟯.
 »⟮The active voice⟯« is ⟮the default⟯ voice and thus typically ⟮＿unmarked＿⟯.
-»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an verbal argument＿⟯.
-»⟮Demoting⟯« ⟮＿an verbal argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verb⟯.
-For ⟮＿passivelike voices＿⟯, ⟮the item that is not ＿demoted＿⟯ ⟮keeps its ＿thematic role＿⟯, even though ⟮it is now a different ＿verbal argument＿⟯.
+»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an verblikeal argument＿⟯.
+»⟮Demoting⟯« ⟮＿an verblikeal argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verblike⟯.
+For ⟮＿passivelike voices＿⟯, ⟮the item that is not ＿demoted＿⟯ ⟮keeps its ＿thematic role＿⟯, even though ⟮it is now a different ＿verblikeal argument＿⟯.
 
 ### passivelike voices
 
@@ -169,6 +171,6 @@ Both ⟮＿the passive＿⟯ and ⟮c_;＿antipassive voice＿⟯ result in ⟮C
 
 #### valency = 1
 
-»⟮The impersonal passive voice⟯« is ⟮the only ＿passivelike voice＿⟯ which applies to ⟮＿monovalent verbs＿⟯.
-»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿verbal argument＿ of ＿monovalent verbs＿⟯.
+»⟮The impersonal passive voice⟯« is ⟮the only ＿passivelike voice＿⟯ which applies to ⟮＿monovalent verblikes＿⟯.
+»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿verblikeal argument＿ of ＿monovalent verblikes＿⟯.
 Languoids often achieve an effect similar to ⟮＿the impersonal passive voice＿⟯ by ⟮inserting a ＿dummy element＿⟯.
