@@ -138,22 +138,6 @@ table:symbol|projection description
 
 #### certain phrases/hypotheses
 
-##### CP
-
-Complementizer is ambigous between complementizer (traditional definition) and complementizer (wide).
-Complementizer is a POS and thus gives rise to its own phrase, CP.
-[»⟮CP⟯« ⟮[C]⟯ ⟮[IP]⟯]
-
-###### narrow
-
-a complementizer (traditional definition) is a head that transforms a clause into a complement clause (may not always be necessary).
-
-###### broad
-
-A complementizer (wide) is a head that relates its clause to a larger context (the sentence or the discourse).
-Under complementizer (wide), many subordinate clauses and all interrogative clauses are typically analyzed as CPs.
-There are some arguments that all clauses are in fact CPs.
-
 ##### IP theory
 
 ⟮I⟯ as a head is short for ⟮inflection⟯.
@@ -169,87 +153,95 @@ table:headerrows=0,,,!class=blank-canvas;span=3;class=inner;⟮IP⟯
 !class=inner;       |class=inner;⟮I⟯     |class=inner;⟮VP⟯
 !class=leaf;somethin|class=leaf;somethin|class=leaf;somethin
 
-###### auxiliaries
+###### !auxiliaries in the IP theory
 
-In the IP theory, generally auxiliaries (at least in english) are treated as if they live in the I position.
+In the basic ⟮＿IP theory＿⟯, generally ⟮＿auxiliaries＿⟯ (at least in english) are treated as if ⟮they live in the I position⟯.
 However, assuming multiple auxiliaries as part of one I head does not work, as we can insert things such as adverbs between them.
-So, auxiliaries probably all start out as V heads.
-The top auxiliary (in the tree) moves from V to I.
-Multiple auxiliaries are adjoined as Vs to the VP.
+So, ⟮＿auxiliaries＿⟯ probably all ⟮start out⟯ as ⟮V heads⟯ ⟮＿adjoined＿⟯ to ⟮the main VP⟯.
+The ⟮top auxiliary (in the tree)⟯ ⟮moves from V to I⟯.
 
 ##### VP-internal subject hypothesis
 
-According to the VP-internal subject hypothesis, the subject DP starts out in the VP, and them moves to the specifier of the IP later.
-According to the VP-internal subject hypothesis, the subject DP will not move from the specifier of the VP to the specifier of the IP if the specifier of the IP is already filled by an expletive subject.
+»⟮The VP-internal subject hypothesis⟯« is that ⟮the subject DP⟯ ⟮starts out in the VP⟯, and ⟮then moves to the specifier of the IP later⟯.
+According to the ⟮＿VP-internal subject hypothesis＿⟯, ⟮the subject DP⟯ ⟮will not move from the specifier of the VP to the specifier of the IP⟯ if ⟮the specifier of the IP is already filled by an expletive subject⟯.
 
 ###### motivation
 
-The VP-internal subject hypothesis is desirable because it makes the VP consistent with the X-bar schema.
-The VP-internal subject hypothesis is desirable because it makes the subject which is semantically an argument of the V also grammatically an argument of the V.
-The VP-internal subject hypothesis is desirable because it lets us address some discontinuities, especially in relation to adverbs.
-Evidence: The subject is an argument of the V, but it appears outside of the VP, closer to I than to V.
+⟮＿The VP-internal subject hypothesis＿⟯ is desirable because ⟮it makes the VP consistent⟯ with ⟮＿the X-bar schema＿⟯.
+⟮＿The VP-internal subject hypothesis＿⟯ is desirable because it makes ⟮＿the subject＿⟯, which ⟮is semantically an argument of the V⟯, ⟮also grammatically an argument of the V⟯.
+⟮＿The VP-internal subject hypothesis＿⟯ is desirable because it lets us address some ⟮＿discontinuities＿⟯, especially in relation to adverbs.
 
 ##### DP hypothesis: 
 
-The DP hypothesis claims that what are commonly assumed to be NPs are actuall DPs headed by a D.
-The DP hypothesis argues that D can be seen as the head of a DP since the D picks out the referent, and everything, including the noun, then merely describes the D.
-Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
+»⟮The DP hypothesis⟯« claims that ⟮what are commonly assumed to be NPs⟯ are ⟮actually DPs headed by a D⟯.
+The DP hypothesis is still ⟮controversial⟯.
 
-###### motivation
+###### details
 
-Part of the motivation for the DP hypothesis is that pronouns seem to be NPs without an actual N head.
-The DP hypothesis is still a controversial hypothesis.
-The DP hypothesis often correlates with the idea that pronouns are determiners.
-In the DP hypothesis, a determinerless noun has a silent/unpronounced D.
+In ⟮＿the DP hypothesis＿⟯, a ⟮determinerless⟯ noun ⟮has an unpronounced D⟯.
+⟮＿The DP hypothesis＿⟯ often ⟮implies⟯ ⟮＿the pronouns-are-determiners hypothesis＿⟯
+
+###### justification
+
+Under ⟮＿the DP hypothesis＿⟯, semantically ⟮D⟯ is ⟮picking out the referent⟯, and ⟮everything else, including the noun,⟯ is ⟮describing that referent⟯.
+^Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
+
+###### !motivation
+
+⟮＿Pronouns＿⟯ seem to be ⟮NPs⟯ ⟮without an actual N head⟯.
 
 ## phenomena
 
 ### expletives
 
-An ⟮expletive⟯ is a ⟮meaningless⟯ element put in some position to ⟮fulfil a grammatical requirement⟯. 
-Expletitives are generally lexemes with other usual functions which are drained of their semantic contents for the purpose of acting as an expletive.
+»⟮An expletive⟯« is ⟮＿a constituent＿⟯ that is ⟮semantically vacuous⟯.
+»⟮A syntactic expletive⟯« is ⟮＿an expletive＿⟯ that is there to ⟮fill a position⟯.
 ^E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
+»⟮Expletification⟯« (my term) is ⟮the draining of meaning from⟯ ⟮＿lexical units＿⟯ to ⟮make them expletives⟯. 
 
 ### movement
 
-A discontinuity is when two parts of a constituent are separated by an element that is not part of the constituent.
-Syntactic movement is the explanation of discontinuities via movement within the posited syntax tree.
-Syntactic movement is only used by some grammatical theories, and remains controversial.
-Something is "in situ" if it doesn't move, although it normally would.
+»⟮A discontinuity⟯« is ⟮two parts⟯ of ⟮＿a constituent＿⟯ ⟮being separated⟯ by ⟮an element that is not part of ＿the constituent＿⟯.
+»⟮Syntactic movement⟯« is ⟮the movement of ＿a constituent＿⟯ ⟮c_;from⟯ ⟮their original place in the syntax tree⟯ ⟮c_-;to⟯ ⟮other places⟯.
+⟮＿Syntactic movement＿⟯ aims to ⟮explain/predict⟯ ⟮＿discontinuities＿⟯.
+^Syntactic movement is only used by some grammatical theories, and remains controversial.
+Something »⟮in situ⟯« ⟮doesn't move, although it normally would.⟯
 
 #### fronting
 
-Fronting something is moving it to the front of the sentence
+»⟮Fronting⟯« is ⟮＿syntactic movement＿⟯ ⟮to the front of the sentence⟯.
 
 #### traces
 
-In chomskyian theories, movement leaves behind an empty category called a trace.
-Traces are symbolized by `t`.
-Co-indexing is marking the trace and the thing that moved with a subscript index/letter.
-Amongst the evidence for the existence of traces is that we can't contract over them.
+»⟮A trace⟯« is ⟮＿an empty category＿⟯ ⟮left behind by ＿syntactic movement＿⟯.
+In chomskyian theories, ⟮＿syntactic movement＿⟯ ⟮always⟯ ⟮leaves ＿a trace＿⟯.
+⟮＿Traces＿⟯ are symbolized by ⟮`t`⟯.
+»⟮Co-indexing⟯« is ⟮marking⟯ ⟮＿the trace＿⟯ and ⟮c_;the thing that moved⟯ ⟮with a subscript index/letter⟯.
+
+##### evidence
+
+we can't contract over traces.
 
 #### types of movement
 
-Two types of movement often distinguished are phrasal and head movement.
+⟮＿Syntactic movement＿⟯ may be ⟮＿phrasal movement＿⟯ or ⟮＿head movement＿⟯.
 
 ##### phrasal movement
 
-phrasal movement is syntactic movement of a phrase.
+»⟮phrasal movement⟯« is ⟮＿syntactic movement＿⟯ of ⟮＿a phrase＿⟯.
 
 ##### head movement
 
-Head movement is the syntactic movement of a head.
-Head movement will leave behind any dependents as-is.
-Whatever-stranding is head movement that leaves behind a dependent whatever.
-Pied-piping is phrasal movement instead of head movement to prevent a dependent being left behind.
+»⟮Head movement⟯« is ⟮＿syntactic movement＿⟯ of ⟮＿a head＿⟯.
+»⟮dependent stranding⟯« (my term) is ⟮＿head movement＿⟯ that ⟮leaves behind a dependent⟯.
+⟮＿Head movement＿⟯ will ⟮always⟯ ⟮result in ＿dependent stranding＿⟯ if ⟮c_-;there are any dependents⟯
+»⟮Pied-piping⟯« is ⟮＿phrasal movement＿ instead of ＿head movement＿⟯ to ⟮prevent ＿dependent stranding＿⟯.
 
 ###### head movement constraint
 
-The Head Movement Constraint (HMC) is the rule that a head H can only move to a position occupied by the head which selects HP as its complement.
-The HMC is a proposed rule in generative grammar.
-Due to the HMC, the only way a constiutent can move to a position that isn't selecting HP as its complement is via stepwise movement.
-The head movement contraint only applies to head movement, obv.
-According to the HMC, I can only move to a position that selects IP as its complement.
+»⟮The Head Movement Constraint⟯« is the rule that ⟮＿a head＿ H⟯ ⟮can only move to⟯ a position which ⟮selects HP as its complement⟯.
+Under ⟮＿the HMC＿⟯, the only way ⟮c_;＿the HMC＿⟯ can be '⟮skirted⟯' is via ⟮stepwise movement⟯.
+⟮＿The head movement contraint＿⟯ ⟮only applies⟯ to ⟮＿head movement＿⟯, obv.
 
 ### having/not having content
 
