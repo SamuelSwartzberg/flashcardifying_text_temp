@@ -2,16 +2,22 @@
 
 ### (half of) practs
 
-#### honorific
+#### honorifity
 
-Honorifity (my term) is a grammatical feature category that encodes half of practs related to social relationships.
-A honorific is a grammeme/gram from the honorifity grammatical feature category.
-Honorifics may specifically encode formality, social distance, politeness, humillity, deference, or respect, depending on the language.
+»⟮Honorifity⟯« (my term) is ⟮＿a grammatical feature category＿⟯ that encodes half of practs related to social relationships.
+Honorifity consists of the feature classes formality, social distance, politeness, humillity, deference, or respect.
+
+##### honorific target
+
 The honorific target (my term) is the relationship with whom the honorific is targeting.
 No matter the honorific target, the second party in the relationship the honorific is saying something about is usually
 There are four common honorific targets: addressee, referent, bystander, situation.
 
-##### T-V
+##### realizations
+
+»⟮A honorific⟯« is a linguistic item encoding honorifity.
+
+###### T-V
 
 »⟮The T-V distinction (wide)⟯« is realizing ⟮＿honorifity＿⟯ using ⟮＿pronouns＿⟯.
 »⟮The T-V distinction (narrow)⟯« is realizing ⟮＿honorifity＿⟯ using ⟮two different⟯ ⟮＿second-person＿ ＿pronouns＿⟯.
@@ -37,23 +43,71 @@ A positive/negative polarity item is a polarity item that can only appear in pos
 #### posessive
 
 Posession is a grammatical feature category encoding posession.
-»⟮A posessive⟯« is ⟮＿a grammeme＿⟯ indicating ⟮posession⟯.
-Posessives may be encoded via lexemes or inflectional/derivational morphemes.
+
+##### realizations
+
+»⟮A posessive⟯« is a linguistic item encoding ⟮posession⟯.
+Posession may be encoded via lexemes or inflectional/derivational morphemes.
+
+###### inflectional
+
 Inflectional morphology instantiating a posessive is genitive/posessive case.
-Lexemes instatiating a posessive are most commonly possessive determiners, pronouns and verbs.
-Examples for posessive verbs are to have, haben, tener.
-In quite a few languages, the job of  a posessive verb is done by existential verbs.
+
+###### lexical
+
+A posessive lexeme is a possessive which is a lexical unit.
+Posessive lexemes generally may be posessive verbs, lexemes or pronouns.
+A posessive verb/determiner/pronoun is a posessive lexeme which is a verb/determiner/pronoun.
+
+####### verbs
+
+In quite a few languages, the job of a posessive verb is done by existential verbs.
 e.g. 金⁑ある⁑よ, hessian dialectal german: das ist mir.
 
-##### posessive determiners
+####### determiners
 
-»⟮A posessive determiner⟯« is ⟮＿a determiner＿⟯ encoding ⟮＿posession＿⟯.
-A posessive pronoun is a pronoun encoding possession.
 Possessive determiners and pronouns typically reflect grammatical person, number and sometimes other grammatical feature categories to indicate the posessor.
 
-#### numerals
+#### numerality
 
-»⟮A numeral⟯« is ⟮＿a grammeme＿⟯ encoding ⟮＿the semantic (feature) category＿ ＿quantity＿⟯ via ⟮lexemes and/or derivational morphology⟯.
+Numerality is a grammatical feature category encoding the semantic ⟮＿the semantic (feature) category＿ ＿setlike＿⟯, but not in nouns.
+Numerality may be divided into numerality amount and numerality type.
+
+##### subdivision
+
+###### counting systems
+
+The numerality amount encodes the setlike amount semantic feature category via on one or more counting systems.
+In mathematical terms, a counting system is the numeral system a language uses.
+Counting systems across languages may have different bases.
+
+####### reuse point
+
+The reuse point (my term) is at which powers of the base a counting system starts reusing terms for bases.
+In indo-european languages, the reuse point is 10⎴3⎴.
+In east asian languages, the reuse point is 10⎴4⎴.
+Because the reuse point in east asian languages is 10⎴4⎴ = 10000, 10000 is used to mean 'a lot'.
+
+###### numerality type
+
+The numerality type roughly encodes the setlike viewpoint and setlike grouping semantic feature category.
+The numerality type may be ordinal, cardinal, a multiplier, distributive, collective, partitive.
+
+table:numerality perspective|indicates|example
+ordinal|position in sequence
+cardinal|amount/quantity
+multiplier|how often should something be multiplied|-fold (e.g. sevenfold), -ce (e.g. thrice)
+distributive numerals|how may times each|-ly (e.g. triply)
+collective numerals|sets of certain sizes|-ad (e.g. triad)
+partivtive|fractions|-th
+
+##### realizations
+
+###### numerals
+
+A numeral is a lexical unit or morpheme encoding numerality.
+^not other linguistic items, as encoding quantity is also handled via grammatical number.
+Typically, numerals consist of a morpheme encoding numerality amount, and optionally some morpheme(s) encoding numerality type.
 ⟮＿Numerals＿⟯ internally often consist of ⟮some morpheme(s)⟯ indicating ⟮the quantity⟯, and ⟮c-;some morpheme(s)⟯ the ⟮type of numeral⟯.
 In most languages, lexemes instantating ⟮＿numerals＿⟯ are either ⟮＿determiners＿⟯, ⟮＿adverbs＿⟯ or ⟮＿nouns＿⟯.
 
@@ -70,30 +124,7 @@ in indo-european languages, measure words are ⟮uncommon⟯.
 An example for an english measure word is piece of x, e.g. three pieces of paper.
 In east asian languages, measure words are ⟮often required⟯.
 
-##### kinds of numerals
 
-A numeral may be divided into the numeric value and the type of numeral.
-The type of numeral is the wway of looking at the numeric value.
-The type of numeral may be ordinal, cardinal, a multiplier, distributive, collective, partitive.
-The type of numeral may be indicated morphologically or in some other way.
-
-table:type of numeral|indicates|example
-ordinal|position in sequence
-cardinal|amount/quantity
-multipliers|how often should something be multiplied|-fold (e.g. sevenfold), -ce (e.g. thrice)
-distributive numerals|how may times each|-ly (e.g. triply)
-collective numerals|sets of certain sizes|-ad (e.g. triad)
-partivtive|fractions|-th
-
-##### counting systems
-
-The numeric value of a numeral is generally based on one or more counting systems.
-A counting system is the numeral system a language uses.
-Counting systems across languages may have different bases.
-The reuse point (my term) is at which powers of the base a counting system starts reusing terms for bases.
-In indo-european languages, the reuse point is 10⎴3⎴.
-In east asian languages, the reuse point is 10⎴4⎴.
-Because the reuse point in east asian languages is 10⎴4⎴ = 10000, 10000 is used to mean 'a lot'.
 
 #### deixis
 

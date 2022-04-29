@@ -8,7 +8,15 @@
 ## noun class
 
 »⟮Noun class⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮a variety of different semantic distinctions⟯.
+Typically, if a languages has them, ⟮any given noun⟯ has a ⟮fixed⟯ ⟮＿noun class＿⟯ ⟮associated with it⟯.
 »⟮Grammatical gender⟯« is a type of ⟮＿noun-class system＿⟯ where ⟮＿the grammemes＿ distinguished⟯ are ⟮male, female, and possibly neuter⟯.
+
+### classifier
+
+»⟮A classifier⟯« is ⟮a morpheme or lexeme⟯ that ⟮fulfills a function similar to ＿noun class＿⟯.
+»⟮A measure word⟯« is ⟮＿a classifier＿⟯ ⟮that 'targets' a ＿numeral＿⟯.
+^perhaps there are no other classifiers than measure words, in which case they would be synonymous
+»⟮A numeral quantifier⟯« is ⟮the combination of⟯ ⟮＿a numeral＿⟯ and ⟮c_;＿a measure word＿⟯.
 
 ## number
 
