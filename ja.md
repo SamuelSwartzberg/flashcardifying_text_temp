@@ -1,6 +1,8 @@
 
 ## needs to be sorted in
 
+japanese sometimes does adj + det + noun instead of det + adj + noun.
+人気のあの子
 
 Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
 
