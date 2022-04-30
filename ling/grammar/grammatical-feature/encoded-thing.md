@@ -30,11 +30,11 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 #### polarity
 
 »⟮Polarity⟯« is ⟮＿a top-level grammatical feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
-Polarity consists of the two grammatical feature categories true/false polarity and aff/neg polarity.
+⟮＿Polarity＿⟯ consists of the two ⟮＿grammatical feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
 »⟮A polarity-expressing thing⟯« (my term) is ⟮＿a linguistic item＿⟯ which ⟮expresses ＿polarity＿⟯.
 »⟮A polar context⟯« (my term) is ⟮a context⟯ that ⟮has a certain ＿polarity＿⟯.
-»⟮True/false polarity⟯« (my term) is the grammatical gramatical feature class encoding the grammatical features [+/-true] and [+/-false]
-»⟮aff/neg polarity⟯« (my term) isis the grammatical gramatical feature class encoding the grammatical features [+/-affirmation] and [+/-negation]
+»⟮True/false polarity⟯« (my term) is the grammatical gramatical feature class/category encoding the grammatical features ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
+»⟮aff/neg polarity⟯« (my term) isis the grammatical gramatical feature class/category encoding the grammatical features ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
 Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿aff/neg polarity＿⟯, or ⟮c_-;be ambiguous between them⟯.
 
 ##### polarity item
