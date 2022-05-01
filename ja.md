@@ -17,6 +17,9 @@ Japanese has a morphological device to signify causation. Many verbs undergo int
 
 In the context of an intransitive verb, the syntax of Japanese causatives allows a two-way distinction in the causee's willingness to perform the action. If the new object is marked in the accusative case (o), it suggests that the causee did the action willingly, suggesting the agent allowed or requested the action rather than forcing or demanding it. However, if the object is marked in the dative case (ni), it expresses the idea that the causee was forced to perform the action. (This is not possible with a transitive verb as a clause cannot contain two noun phrases marked as accusative.)
 
+https://anime.stackexchange.com/questions/29072/what-are-these-type-of-eyes-called-see-red-hair-girl-on-the-left-in-image
+https://danbooru.donmai.us/wiki_pages/jitome
+
 ### history, culture, etc
 
 
