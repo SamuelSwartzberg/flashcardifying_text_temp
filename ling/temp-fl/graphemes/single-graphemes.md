@@ -6,65 +6,116 @@ Glyphs may roughly be divided into simple encoding glyphs and non-simple encodin
 
 A simple encoding glyph (my term) is a glyph that (most of the time) has a single graphemically encoded item.
 the two types of simple encoding glyph are ⟮＿logograms＿⟯ and ⟮＿phonograms＿⟯
-»⟮a logogram ⟯«is a simple encoding glyph encoding ⟮a morpheme/word⟯
-»⟮a phonogram⟯« is a simple encoding glyph encoding ⟮a one or more phonemes⟯
+»⟮a logogram ⟯«is a simple encoding glyph encoding ⟮a morphemelike segment⟯
+»⟮a phonogram⟯« is a simple encoding glyph encoding ⟮a sound linguistic unit⟯
 
 ### logograms
 
-Well-known ⟮＿logographic＿⟯ writing systems are ⟮kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs⟯
+#### composition
+
 Depending on their composition, ⟮＿logograms＿⟯ may be ⟮＿non-compound＿⟯ or ⟮＿compound＿⟯.
-»⟮Compound logograms⟯« are ⟮＿logograms＿⟯ ⟮consisting of multiple other logograms⟯.
+
+
+»⟮Compound logograms⟯« are ⟮＿logograms＿⟯ ⟮consisting of multiople component radicals⟯.
 »Non-compound logograms« are ⟮＿logograms＿⟯ ⟮consisting of no other logograms⟯.
 
-#### non-compound logograms
+##### non-compound logograms
 
-⟮＿Non-compound logograms＿⟯ may be ⟮＿pictograms＿⟯ or ⟮＿ideograms＿⟯.
-»⟮A pictogram⟯« ⟮depicts the thing⟯ it ⟮references⟯, or ⟮once did⟯.
-Examples of ⟮＿pictogram＿⟯ kanji: ⟮日, 月, 山, 木, 口 etc.⟯
-»⟮An ideogram⟯« ⟮attempts to visualize⟯ ⟮the abstract concept⟯ it ⟮represents⟯.
+⟮＿Non-compound logograms＿⟯ may be ⟮＿pictograms＿⟯, ⟮＿ideograms＿⟯ or phonetic logograms.
+A picto∨ideogram (my term) is a pictogram or an ideogram.
+»⟮A pictogram⟯« is a non-compound logogram which ⟮depicts the thing⟯ it ⟮references⟯, or ⟮once did⟯.
+^Examples of pictogram kanji: 日, 月, 山, 木, 口 etc.
+»⟮An ideogram⟯« is a non-compound logogram which ⟮attempts to visualize⟯ ⟮the abstract concept⟯ it ⟮represents⟯.
 Many ⟮＿ideograms＿⟯ are ⟮derived from⟯ ⟮＿pictograms＿⟯.
 
-#### compound logograms
+##### mixed
 
-some ⟮compound logograms⟯ may ⟮function similar to ideograms or pictograms⟯, but are ⟮rarely called such⟯ due to the differences.
+A phonetic logogram (my term) is a logogram used for the phonetic value of the associated morphemelike segment.
+
+##### compound logograms
+
+###### composition
+
+A component radical (my term) is a logogram making up part of a compound logogram.
+The dictionary radical (my term) is the component radical used for indexing in the dictionary.
+A determinative is a picto∨ideogram which is used as a component radical and thus marks the semantic category of the compound logogram. 
+A phonetic radical is a phonetic logogram which is used as a component radical and thus fixes the pronunciation of the compound logogram.
+^sometimes the pronunciation of compounds may differ somewhat
+
+###### compound types
+
+A phono-semantic compound is a compound logogram made up of one or more determinative(s) and one or more phonetic radical(s).
+A semantic-semantic compound is a compound logogram made up of two or more determinative(s).
+
+##### processes beyond compounding
+
+A rebus logogram is a character that is used for an unrelated but similarly-pronounced morphemelike segment.
+A rebus logogram calcifies (my term) when it loses its association with the original term.
+
+##### logosyllabary, logoconsonantal
+
+A logosyllabary is a logographic writing system where phonetic logograms are syllables and are commonly used.
+A logoconsonantal script is a logographic writing system where phonetic logograms are consonants and are commonly used.
+
+#### instances
+
+Well-known ⟮＿logographic＿⟯ writing systems are ⟮kanji/hanzi/hanja/han tu (though there are exceptions); hieroglyphs⟯
 
 ### phonograms
 
-⟮＿phonograpms＿⟯ are divided into ⟮＿syllabograms＿⟯ and ⟮＿letters＿⟯.
-»⟮A syllabogram⟯« is ⟮＿a graph/grapheme＿⟯ that (ideally) ⟮represents a syllable or mora⟯.
-»⟮A letter⟯« is ⟮＿a graph/grapheme＿⟯ that (ideally) ⟮represents a single phoneme⟯.
+⟮＿phonograms＿⟯ are divided into ⟮＿multiphonogram＿⟯, ⟮＿letters＿⟯ and ⟮＿abjad characters＿⟯.
+
+#### multiphonograms
+
+»⟮A multiphonogram⟯« (my term) is ⟮＿a phonogram＿⟯ that typically ⟮stands for more than one phone/phoneme⟯.
+Common types of ⟮＿multiphonogram＿⟯ are ⟮＿syllabograms＿⟯ and ⟮＿abugidograms＿⟯. 
+
+##### syllabogram
+
+»⟮A syllabogram⟯« is ⟮＿a multiphonogram＿⟯ that (ideally) ⟮represents a syllable or mora⟯.
 A »⟮syllabary⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿syllabograms＿⟯.
-An »⟮alphabet⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿letters＿⟯.
 
-#### hybrids
+##### abugidogram
 
-»⟮An abugidogram⟯« is ⟮a graph/grapheme⟯ which ⟮represents a consonant⟯, and ⟮c_;vowels⟯ are ⟮added as modifications of the base character⟯.
+»⟮An abugidogram⟯« (my term) is ⟮＿a multiphonogram＿⟯ which ⟮represents ＿a consonant＿⟯, and ⟮c_;vowels⟯ are ⟮added as modifications of the base character⟯.
 »⟮An abugida⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿abugidograms＿⟯.
 
+#### abjad characters
+
+»⟮An abjad character⟯« is ⟮＿a phonogram＿⟯ of ⟮＿an abjad＿⟯.
 An »⟮abjad⟯« is ⟮＿a writing system＿⟯ which ⟮primarily deals in consonants⟯.
 A »⟮pure abjad⟯« has ⟮no way of indicating vowels whatsoever⟯.
 An »⟮impure abjad⟯« has ⟮some way of indicating vowels⟯.
 An ⟮＿impure abjad＿⟯ may ⟮indicate vowels⟯ with ⟮diacritics⟯ or ⟮a limited set of vowel letters⟯.
 
+#### letters
+
+»⟮A letter⟯« is ⟮＿a phonogram＿⟯ that (ideally) ⟮represents a single phoneme⟯.
+An »⟮alphabet⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿letters＿⟯.
+
 ## graphs without phonological realization
 
-»⟮blahs⟯« (my term) are ⟮a subset⟯ of ⟮graphemes⟯ ⟮not directly used to represent a basic linguistic unit such as sounds or words⟯.
-⟮＿blahs＿⟯ may be ⟮＿punctuation＿⟯, ⟮＿emoji＿⟯, etc.
+»⟮A non-simple encoding glyph⟯« (my term) is ⟮＿a glyph＿⟯ without ⟮a constant single⟯ ⟮＿graphemically encoded item＿⟯.
+⟮＿A non-simple encoding glyph＿⟯ may be ⟮＿a punctuation mark＿⟯, ⟮＿an emoji＿⟯, or perhaps something else.
 
 ### punctuation
 
-»⟮Punctuation⟯« is ⟮a subset⟯ of ⟮＿blahs＿⟯ ⟮used to indicate some sort of interpretation help for text⟯.
-⟮＿Punctuation＿⟯ may be roughly divided into ⟮＿whitespace＿⟯ and ⟮＿visible punctuation＿⟯.
-A »⟮punctuation mark⟯« is ⟮a single grapheme⟯ ⟮acting as ＿punctuation＿⟯.
+»⟮A punctuation mark⟯« is ⟮＿a non-simple encoding glyph＿⟯ ⟮indicating a wide variety of things⟯.
+⟮＿Punctuation marks＿⟯ may be roughly divided into ⟮＿whitespace＿⟯ and ⟮＿visible punctuation＿⟯.
+»⟮Punctuation⟯« is ⟮＿punctuation marks ＿collectively⟯.
 
 #### visible
 
+»⟮A visible punctuation mark⟯« (my term) is a punctuation mark that has one or more marks.
+
 ##### enclosing punctuation
+
+An enclosing punctuation mark (my term) is a visible punctuation mark meant to enclose some amount of text.
+An enclosing punctuation mark typically exists as a opening and closing variant, which are mirrored.
 
 ###### brackets
 
-»⟮Brackets⟯« are ⟮a type of⟯ ⟮punctuation⟯ that exist in ⟮mirrored opening and closing⟯ variants and are meant to ⟮enclose something⟯.
-⟮＿brackets＿⟯ is ⟮the cover term⟯ for ⟮all of ()‹›[]{}⟯.
+»⟮A bracket⟯« is an enclosing punctuation mark that is one of ⟮()‹›[]{}⟯.
 
 ####### names 
 
@@ -83,6 +134,8 @@ Due to ⟮US cultural influence⟯, ⟮the US names⟯ for ()‹›[]{} may be �
 
 ##### sentence-ending punctuation
 
+A sentence-ending punctuation mark is a punctuation mark typically ending a sentence.
+
 ###### bang
 
 The ⟮exlamation point⟯ may also be called a ⟮bang⟯.
@@ -92,6 +145,8 @@ the »⟮interrobang⟯« is ⟮the combination of exclamation point and questio
 ⟮‽⟯ is called the ⟮interrobang⟯. 
 
 ##### intra-sentence punctuation
+
+A intra-sentece punctuation mark is a punctuation mark typically infixed within the sentence.
 
 ###### dashes ＆ hyphens
 
@@ -135,16 +190,18 @@ In programming, the ⟮width of tabs⟯ is commonly ⟮2 or 4 spaces⟯.
 
 A ⟮blank line⟯ is two ⟮newlines⟯.
 
-### emoji, emoticons
+### textual facelike
+
+»⟮A textual facelike⟯« (my term) is ⟮one or more⟯ ⟮＿non-simple encoding glyph(s)＿⟯ ⟮representing a face or other thing⟯.
 
 #### emoticons
 
-An »⟮emoticon⟯« is ⟮a face⟯ represented using ⟮multiple⟯ ⟮non-face⟯ ⟮graphemes⟯ 
+An »⟮emoticon⟯« is ⟮＿a textual facelike＿⟯ consisting of ⟮more than one⟯ ⟮non-purpose-made⟯ glyph.
 There are two main kinds of ⟮＿emoticons＿⟯, ⟮western⟯ and ⟮　顔文字（顔文字）⟯
 
 ##### western
 
-»⟮western emoticons⟯« are ⟮＿emoticons＿⟯ that have ⟮faces⟯ that are oriented ⟮left-to-right⟯ 
+»⟮A western emoticon⟯« (rare-ish term) is a ⟮＿emoticons＿⟯ whose faces are oriented ⟮left-to-right⟯ 
 
 ###### eyes 
 
@@ -158,7 +215,7 @@ table:emoticon eyes|meaning
 
 ##### kaomoji
 
-»⟮　顔文字（顔文字）⟯« are ⟮＿emoticons＿⟯ that have ⟮faces⟯ oriented ⟮top-to-bottom⟯ 
+A »⟮　顔文字（顔文字）⟯« is a ⟮＿emoticons＿⟯ that whose faces are oriented ⟮top-to-bottom⟯ 
 most common ⟮head delimiters⟯ for 　顔文字（顔文字）: ⟮()⟯ 
 
 ###### General pattern for kaomoji
@@ -169,6 +226,11 @@ most common ⟮head delimiters⟯ for 　顔文字（顔文字）: ⟮()⟯
 !⟮hb;⟮face⟯ ::= ⟮[‹left-cheek›]⟯⟮‹eye›[‹nose›]‹eye›⟯⟮c-;[‹right-cheek›]⟯⟯
 ```
 
+#### emoji
+
+»⟮A conceptual emoji⟯« (my term) is ⟮＿a textual facelike＿⟯ consisting of a ⟮single⟯ ⟮purpose-made⟯ glyph.
+⟮＿A conceptual emoji＿⟯ is similar to ⟮＿a logogram＿⟯.
+»⟮An encoded emoji⟯« (my term) is ⟮＿a conceptual emoji＿⟯ ⟮encoded as a specific character⟯.
 
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}{{c169::}}{{c170::}}{{c171::}}{{c172::}}{{c173::}}{{c174::}}{{c175::}}{{c176::}}{{c177::}}{{c178::}}{{c179::}}{{c180::}}{{c181::}}{{c182::}}{{c183::}}{{c184::}}{{c185::}}{{c186::}}{{c187::}}{{c188::}}{{c189::}}{{c190::}}{{c191::}}{{c192::}}{{c193::}}{{c194::}}{{c195::}}{{c196::}}{{c197::}}{{c198::}}{{c199::}}{{c200::}}{{c201::}}{{c202::}}{{c203::}}{{c204::}}{{c205::}}{{c206::}}{{c207::}}{{c208::}}{{c209::}}{{c210::}}{{c211::}}{{c212::}}{{c213::}}{{c214::}}{{c215::}}{{c216::}}{{c217::}}{{c218::}}{{c219::}}{{c220::}}{{c221::}}{{c222::}}{{c223::}}{{c224::}}{{c225::}}{{c226::}}{{c227::}}{{c228::}}{{c229::}}{{c230::}}{{c231::}}{{c232::}}{{c233::}}{{c234::}}{{c235::}}{{c236::}}{{c237::}}{{c238::}}{{c239::}}{{c240::}}{{c241::}}{{c242::}}{{c243::}}{{c244::}}{{c245::}}{{c246::}}{{c247::}}{{c248::}}{{c249::}}{{c250::}}{{c251::}}{{c252::}}{{c253::}}{{c254::}}</span>
