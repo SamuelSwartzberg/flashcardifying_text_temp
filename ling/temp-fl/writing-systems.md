@@ -1,7 +1,6 @@
 # writing systems
 
 »⟮A writing system⟯« is ⟮a set of graphemes⟯ and⟮ possible combinations⟯ used to ⟮represent linguistic units⟯ ⟮visually⟯.
-The graphemically encoded item (my term) is the linguistic unit that a grapheme is encoding.
 ⟮＿Writing system＿⟯ =syn= ⟮script⟯.
 
 ## writing systems and languages
