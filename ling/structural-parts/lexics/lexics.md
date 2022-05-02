@@ -1,11 +1,9 @@
 # lexicology
 
 »⟮Lexicology⟯« is the study of ⟮＿lexical units＿⟯.
-⟮Lexical item⟯ and ⟮lexical unit⟯ are synonyms.
 ⟮＿A lexical unit＿⟯ can be ⟮a part of a word⟯, ⟮c_;word⟯, or ⟮c_;chain of words⟯.
-»⟮A lexeme⟯« is ⟮＿a lexical unit＿⟯ that ⟮is a single word⟯.
+»⟮A lexeme⟯« is ⟮＿a lexeme unit＿⟯ that ⟮is a single word⟯.
 Most commonly, ⟮the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lexical unit＿⟯ is ⟮not at issue⟯.
-»⟮A lexical unit/lexeme⟯« is ⟮the fundamental unit⟯ of ⟮a language's lexicon⟯.
 »⟮A lex⟯« is ⟮＿an inflectional variant＿⟯.
 
 ## lexis
@@ -16,7 +14,6 @@ Most commonly, ⟮the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lex
 
 ## Lexeme
 
-By convention, ⟮＿lexical units/lexemes＿⟯ are represented in ⟮all caps⟯.
 Any ⟮＿lexeme＿⟯ belongs to ⟮a particular ⟮＿syntactic category/word class＿⟯⟯.
 A »⟮lemma⟯« is ⟮＿the inflectional variant＿⟯ that is chosen by ⟮convention⟯ to ⟮represent⟯ the ⟮lexeme⟯.
 
@@ -102,7 +99,6 @@ table:thing it is placeholding|language|value
 
 ## phraseology
 
-»⟮Phraseology⟯« is the study of ⟮＿phrasemes＿ and related phenomena⟯.
 »⟮A phraseme⟯« is a ⟮multi-word⟯ ⟮＿lexical unit＿⟯ which ⟮violates the ＿principle of compositionality＿ to some degree (i.e. their meaning is not completely deducable from their parts)⟯
 
 ### types of phrasemes
