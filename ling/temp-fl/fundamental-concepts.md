@@ -59,12 +59,12 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 
 #### inventory & system
 
-A whateveremic inventory is the set of whateveremes that are contrastive.
+An emic inventory is the set of emic units that are contrastive.
 ^e.g. phonemic inventory, graphemic inventory
-A whateveremic system is the combination of the whateveremic inventory and whateveremic rule set.
-^e.g. phonemic system, morphemic system
+An emic system is the combination of an emic inventory and an emic rule set.
 In graphemics, the graphemic system is actually called a writing sytem.
-The whateveremic rule set is the set of rules governing the whateveremic inventory in the languoid.
+^e.g. phonemic system, morphemic system
+An emic rule set is the set of rules governing the emic inventory in the languoid.
 ^e.g. phonemic rule set
 
 #### study
@@ -89,6 +89,10 @@ whateveremic/whateveric are used to refer to looking at something from the persp
 
 #### other levels
 
+An emic unit »⟮encodes⟯« one or more emic units from another emic system.
+An emic unit may be encoded by on
+A higher emic system is an emic system es1 that encodes another emic system es2.
+A lower emic system is an emic system es1 that is encoded by another emic system es2.
 The whateveremically encoded item (rare term in most cases) is the linguistic unit(s) encoded by the whatevereme.
 ^e.g. graphemically encoded item
 
