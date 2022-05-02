@@ -90,9 +90,12 @@ whateveremic/whateveric are used to refer to looking at something from the persp
 #### other levels
 
 An emic unit »⟮encodes⟯« one or more emic units from another emic system.
-An emic unit may be encoded by on
+An emic unit may be encoded by a lower emic system or by a physical medium.
+The encoding emic unit(s) is/are the higher emic unit encoding the current emic unit. 
+The encoded emic unit(s) is/are the lower emic unit encoding the current emic unit. 
 A higher emic system is an emic system es1 that encodes another emic system es2.
 A lower emic system is an emic system es1 that is encoded by another emic system es2.
+A higher/lower emic unit is a emic unit of a higher/lower emic system.
 The whateveremically encoded item (rare term in most cases) is the linguistic unit(s) encoded by the whatevereme.
 ^e.g. graphemically encoded item
 
