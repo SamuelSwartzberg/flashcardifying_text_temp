@@ -50,6 +50,8 @@ The sign universe topic/cake/divider/component/component set is all of the sign/
 
 #### further notes
 
+If one just says sign/signifier/signified, most commonly sign/signifier/signified component is meant.
+One can say a sign signifies/is signified by its signified/signifier component
 Since the ⟮＿sign＿⟯ consists of ⟮the two parts of ＿signifier＿ and ＿signified＿⟯, the model is often called ⟮dyadic⟯. 
 
 #### image

@@ -22,9 +22,14 @@ Something whateveremic is the something of a whatevereme.
 For a given whatever, something whateveremic is called whatevername+emic
 For a given whatever, whatevereme always has the name whatevername+me
 
-### signifier/signifieds
+### other levels
 
-The emic units signifier component
+An emic unit may signify a higher emic unit or 'meaning'.
+An emic unit may be signified by a lower emic unit or a physical medium.
+A higher/lower emic cake is the emic cake whose signifer/signified is the current emic cake.
+A higher/lower emic unit(s) is an emic unit of a higher/lower emic cake.
+The emically signified item (rare term in most cases) is the signified of the emic unit.
+For a given whatever, an emically signified item is called whatevername+emically signified item.
 
 ## systems
 
@@ -127,45 +132,17 @@ An expr is an instance of production of something from the emic unit's signifier
 Alternatively, an expr is one of the infinite set of things that are grouped into an etic unit.
 ^e.g. saying a sound, writing a glyph....
 
-### study
+## related things
 
-Whateveremics is the study of whatever from an emic perspective.
-^e.g. graphemics
-Whateveretics is the study of whatever from an etic perspective.
-Whateverics (my term) is the study of whatever.
-
-
-### perspective
-
-whateveremic/whateveric are used to refer to looking at something from the perspective of emic/etic units.
-
-### other levels
-
-An emic unit »⟮encodes⟯« one or more emic units from another emic system.
-An emic unit may be encoded by a lower emic system or by a physical medium.
-The encoding emic unit(s) is/are the higher emic unit encoding the current emic unit. 
-The encoded emic unit(s) is/are the lower emic unit encoding the current emic unit. 
-A higher emic system is an emic system es1 that encodes another emic system es2.
-A lower emic system is an emic system es1 that is encoded by another emic system es2.
-A higher/lower emic unit is a emic unit of a higher/lower emic system.
-The whateveremically encoded item (rare term in most cases) is the linguistic unit(s) encoded by the whatevereme.
-^e.g. graphemically encoded item
-
-## things
-
-»⟮A linguistic unit⟯« is ⟮a generic name⟯ for ⟮an element⟯ which ⟮may form a sequence with others of its kind⟯.
-A speech linguistic unit is a linguistic unit produced in speech,
+»⟮A linguistic item⟯« is ⟮any linguistic thing under analysis⟯.
+»⟮A linguistic unit⟯« is a linguistic item which may form a sequence with others of its kind.
+A linguistic unit sequence is a series of the same kind of linguistic unit with no claim as to compositionality.
+A speech linguistic unit is a linguistic unit produced in speech.
 Speech linguistic units are phonemes, phones, syllables, consonants, vowels.
 ^A linguistic unit may be e.g. phoneme, morpheme, phraseme, grapheme, syllable...
-»⟮A segment⟯« is ⟮＿a linguistic unit＿⟯ of which ⟮we're not sure which linguistic unit it is⟯, or ⟮for which it is irrelevant⟯.
-»⟮A lingueme⟯« is ⟮any whatevereme⟯ which ⟮can be independently learned and transmitted⟯.
-»⟮A linguistic item⟯« is ⟮any linguistic thing under analysis⟯.
-
-
-## sequences
-
-»⟮A string⟯« is most commonly assumed to be ⟮a string of words⟯, but may also be a synonym for ⟮sequence of any linguistic unit⟯.
-»⟮A sequence of linguistic units⟯« is ⟮a series of these linguistic units⟯ with ⟮no claim as to compositionality⟯.
+»⟮A segment⟯« is ⟮＿a linguistic unit＿⟯ where we want to emphasize that forming sequences is what matters, not the precise type.
+»⟮A lingueme⟯« is ⟮a whatevereme⟯ which ⟮can be independently learned and transmitted⟯.
+»⟮A string⟯« is a linguistic unit sequence, most commonly of words.
 
 ## combination
 
