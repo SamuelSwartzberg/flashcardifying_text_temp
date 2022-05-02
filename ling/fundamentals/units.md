@@ -144,12 +144,9 @@ Speech linguistic units are phonemes, phones, syllables, consonants, vowels.
 »⟮A lingueme⟯« is ⟮a whatevereme⟯ which ⟮can be independently learned and transmitted⟯.
 »⟮A string⟯« is a linguistic unit sequence, most commonly of words.
 
-## combination
-
-The »⟮principle of compositionality⟯« is that ⟮the meaning⟯ of ⟮an expression⟯ can ⟮be determined by⟯ ⟮c_-2;the meaning⟯ of ⟮its constituent parts⟯ and ⟮rules to combine them⟯.
-
-
 ## instances
+
+### emic/etic units
 
 table:whatevername|whatevereme|whatevere
 phon|⟮phoneme⟯|⟮phone⟯
@@ -170,27 +167,52 @@ Often, the morpheme {gram} is actually used as a synonym for {graph} instead of 
 What I call lexeme unit is more commonly called lexical unit.
 lexical item =syn=lexical unit.
 
+#### meaning details
+
+»⟮A lexeme⟯« is ⟮＿a lexeme unit＿⟯ that ⟮is a single word⟯.
+Most commonly, ⟮the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lexical unit＿⟯ is ⟮not at issue⟯.
+
 #### representation
 
 table:e units|representation
 lexeme, lexeme unit|all caps (EXAMPLE)
 
+#### equivalence
+
+table:etic/emic unit|equivalent
+lex|inflectional variant
+
 #### derived units
 
-A sememopragmeme is a sememe or a pragmeme.
-A semopract is a seme or a pract.
+A sememeorpragmeme is a sememe or a pragmeme.
+A semeorpract is a seme or a pract.
+A semememorgrammeme is a sememe or a grammeme.
+A semeorgram is a seme or a gram.
+
+### signifiers & signfied
+
+table:whatevereme|signifier|signified
+phoneme|speech|language modality segments
+lexeme|word|sememe
+lexemic unit|word(s)|sememe
+phraseme|words|sememes|(is a type of lexemic unit)
+morpheme|language modality segments|semememogrammeme(s)
+sememe|meaning|meaning, but in the world
 
 
-#### variant names
+### details
+
+#### emic inventory, system
 
 The lexemic unit inventory is more commonly called the lexis.
 The graphemic system is more commonly called a writing system.
 
-#### variant names
+#### study
 
 The study of phonemes is typically called phonology, not phonemics.
 The study of phrasemes is typically called phraseology, not phrasemics.
-Semantics is ambiguous between semics and sememics.
+Semantics is the more common term for semics.
+Lexicology is the more common term for lexics.
 
 ### features
 
@@ -199,31 +221,45 @@ table:emic unit|analyzable into...
 ⟮phoneme⟯|⟮distinctive feature⟯
 grammeme|grammatical feature
 
-# what is language?
-
-## language
-
-»⟮A language⟯« is a ⟮specific kind⟯ of ⟮structured⟯ ⟮communication system⟯.
-»⟮Language⟯« (⟮ability⟯) is the ability to ⟮use (a) language(s) to communicate⟯.
-»⟮Language⟯« (⟮occurence⟯) is ⟮an instance of⟯ use of ⟮language (ability)⟯.
-
 ## language modality
 
-»⟮language modality⟯« is by what ⟮＿language (occurence)＿⟯ is ⟮produced⟯ and ⟮c_;percieved⟯.
-There are three common ⟮＿language modalities＿⟯: ⟮＿oral-auditory＿⟯, ⟮＿visual-gestural＿⟯, ⟮＿manual-visual＿⟯ (my term).
-»⟮Speech⟯« is  ⟮＿language produced/production＿⟯ with the ⟮＿oral-auditory＿⟯ ⟮＿language modality＿⟯.
-»⟮Sign⟯« is ⟮＿language produced/production＿⟯ via the ⟮＿visual-gestural＿⟯ ⟮＿language modality＿⟯.
-»⟮Writing⟯« is ⟮＿language produced/production＿⟯ via the ⟮＿manual-visual＿⟯ ⟮＿language modality＿⟯.
+A language modality is the combination of a producing language modality and a recieving language modality.
+A blah is an arbitrary amount of language in any language modality.
+
+### producing and recieving
+
+A producing language modality is by which medium a blah is produced.
+A recieving language modality is by which medium a blah is recieved.
+The three producing language modalities are oral, gestural and manual.
+The two recieving language modalities are auditory and visual.
+
+### producing + recieving
+
+Speech is the language modality with producing: oral and recieving: auditory.
+Sign is the language modality with producing: gestural and recieving: visual.
+Writing is the language modality with producing: manual and recieving: visual.
+
+### derived terms
+
 ⟮＿Speech/sign/writing＿⟯ may be ⟮a manner of production⟯ or ⟮the ＿language (occurence)＿ thereby produced⟯.
 »⟮A sign/spoken/written language⟯« is ⟮＿a languoid＿⟯ ⟮designed to be⟯ ⟮produced via ＿sign/speech/writing＿⟯. 
-⟮＿Sign＿ ＆ ＿speech＿⟯ consist(s) of ⟮phones⟯ and ⟮c_;phonemes⟯.
-⟮＿Writing＿⟯ consist(s) of ⟮glyphs⟯ and ⟮c_;graphemes⟯.
 
-## language porduction.
+### language modality segments
+
+A language modality segment is the smallest segment in that language modality.
+A sign phone/phoneme is the language modality segment of sign.
+A speech phone/phoneme is the language modality segment of speech.
+A graph/grapheme is the language modality segment of writing.
+
+### language production.
 
 »⟮Language production⟯« is ⟮the process⟯ of ⟮c_;production⟯ of ⟮＿language (occurence)＿⟯.
 ⟮＿Language production＿⟯ consists of ⟮＿conceptualization＿⟯, ⟮＿encoding＿⟯, and ⟮＿expression＿⟯.
-»⟮Speech production⟯« is the form of ⟮＿language production＿⟯ where ⟮＿expression＿⟯ is done via ⟮＿speech＿⟯.
+»⟮Speech production⟯« is the form of ⟮＿language production＿⟯ where the producing modality is oral.
+
+## combination
+
+The »⟮principle of compositionality⟯« is that ⟮the meaning⟯ of ⟮an expression⟯ can ⟮be determined by⟯ ⟮c_-2;the meaning⟯ of ⟮its constituent parts⟯ and ⟮rules to combine them⟯.
 
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}</span>
