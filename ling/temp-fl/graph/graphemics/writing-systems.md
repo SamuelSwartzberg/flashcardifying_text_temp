@@ -18,10 +18,6 @@ Bigraphia (rare-ish term) is n-graphia where n=2.
 Digraphia is often used merely as a synonym for 2+graphia.
 Multigraphia is both rare and ambiguous between 2+/3+graphia.
 
-### graphotatics
-
-
-
 ## writing systems and other linguistic units
 
 ### ortographic depth
