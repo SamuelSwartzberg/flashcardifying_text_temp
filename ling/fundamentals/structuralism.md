@@ -17,14 +17,39 @@ Outside of ⟮linguistics⟯, ⟮structuralism⟯ had ⟮its heyday⟯ in ⟮the
 
 ### the sign
 
-»⟮A sign⟯« consists of ⟮the connection between⟯ ⟮＿a signfier＿ and ＿a signified＿⟯.
-I will define »⟮sign component⟯« as ⟮＿a cover term＿⟯ for ⟮either ＿sign＿, ＿signifer＿ or ＿signified＿⟯.
-»⟮The sign compnent type⟯« is ⟮either sign, signifier or signified.⟯
-The »⟮sign component type set⟯« is ⟮the set of⟯ ⟮＿all sign components＿⟯ of ⟮＿the sign component type＿⟯.
-A ⟮＿sign component＿⟯ ⟮gains its meaning⟯ by⟮ contrast with⟯ ⟮all other members of the ＿sign component type set＿⟯.
-The ⟮＿sign component type set＿⟯ ⟮starts out as⟯ ⟮an undifferentiated mass⟯, ⟮c-;which is then⟯ ⟮divided into⟯ ⟮a finite number of ＿sign components＿⟯.
-So, the meaning of a signifier ⟮horse⟯ is ⟮¬{x ∈ S⎵signifier⎵⟯} | ⟮x ≠ horse}⟯
-The ⟮＿sign＿⟯ is ⟮arbitrary⟯ because ⟮any ＿signified＿⟯ ⟮could have been signified by a different ＿signifier＿⟯. 
+#### semiotic cake
+
+A semiotic topic is what the semiotic layer is 'about'.
+A semiotic cake is a undifferentiated mass of everything about the semiotic topic.
+A semiotic divider is an arbitrary boundary separating a semiotic cake into semiotic divisions
+A semiotic division is a part of a semiotic cake, no matter if it is a semiotic component or not yet.
+A semiotic component is a semiotic division that we will take as a fundamental unit of semiotic cake.
+The semiotic component meaning is the semiotic component's meaning, which is ¬ all other semiotic components.
+// something something contrastive/negative meaning
+A semiotic component set is the set of semiotic components of a given semiotic cake.
+
+#### signifiers and signifieds
+
+The signifier and signified cakes are two specific semiotic cakes arbitrarily chosen.
+The signifier and signified cakes give rise to signifier/signified dividiers, components and component sets.
+
+#### the sign
+
+A sign is the arbitrary linking of a signifier and a signified.
+A divided semiotic topic/cake/divider/component/component set is a semiotic topic/cake/divider/component/component set that was created by dividing up a semiotic cake.
+The signifier/signified topic/cake/divider/component/component set is a divided semiotic topic/cake/divider/component/component set.
+An emergent semiotic topic/cake/divider/component/component set is a semiotic topic/cake/divider/component/component set that was created by merging semiotic components.
+By joining signs, we give rise to a new sign topic/cake/divider/component/component set.
+The sign topic/cake/divider/component/component set is an emergent semiotic topic/cake/divider/component/component set.
+
+#### whole universe
+
+The sign/signifier/sigified whole is everything about the relevant sign/signifier/signified.
+The sign universe whole is everthing about the relevant sign/signified/signifier whole in total.
+The sign universe topic/cake/divider/component/component set is all of the sign/signifier/signifieds topic/cake/divider/component/component set. 
+
+#### further notes
+
 Since the ⟮＿sign＿⟯ consists of ⟮the two parts of ＿signifier＿ and ＿signified＿⟯, the model is often called ⟮dyadic⟯. 
 
 #### image
@@ -34,8 +59,8 @@ flex-container:✫planes-sound-thought.png✫✫sign-dyadic.png✫
 
 table:What?|Where in the image?
 ⟮a sign⟯|⟮the are between any two dotted lines⟯
-⟮the arbitrary dividing point of sings⟯|⟮the dotted lines⟯
-⟮the masses of signifier and signifieds⟯|⟮the wavy areas⟯
+⟮a semiotic divider⟯|⟮the dotted lines⟯
+⟮the signifier/signified cake⟯|⟮the wavy areas⟯
 
 
 #### nesting
