@@ -13,6 +13,7 @@
 »⟮Alternation⟯« is ⟮the fact of⟯ ⟮＿alternants＿⟯ ⟮c_-;existing⟯.
 ⟮Two ＿alternants＿⟯ of ⟮the same ＿emic unit＿⟯ are »⟮allowhatevers⟯«.
 
+#### various units
 
 table:emic unit|etic unit-
 ⟮phoneme⟯|⟮phone⟯
@@ -23,11 +24,15 @@ table:emic unit|etic unit-
 ⟮pragmeme⟯|⟮pract⟯
 ⟮lingueme⟯|⟮ling⟯
 ⟮grammeme⟯|⟮gram⟯
-⟮lexical unit/lexeme⟯|⟮lex⟯
+⟮lexeme⟯|⟮lex⟯
+lexeme unit|lex unit
 ⟮kineme⟯|⟮kine⟯|(body language)
 
+##### name details & polysemy
 
-Often, the morpheme {gram} is actually used as a synonym for {graph} instead of for grammeme-related things
+Often, the morpheme {gram} is actually used as a synonym for {graph} instead of for grammeme-related things.
+What I call lexeme unit is more commonly called lexical unit.
+lexical item =syn=lexical unit.
 
 #### exprs
 
@@ -61,8 +66,9 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 
 An emic inventory is the set of emic units that are contrastive.
 ^e.g. phonemic inventory, graphemic inventory
+The lexemic unit inventory is more commonly called the lexis.
 An emic system is the combination of an emic inventory and an emic rule set.
-In graphemics, the graphemic system is actually called a writing sytem.
+The graphemic system is more commonly called a writing system.
 ^e.g. phonemic system, morphemic system
 An emic rule set is the set of rules governing the emic inventory in the languoid.
 ^e.g. phonemic rule set
