@@ -236,3 +236,21 @@ Interested in art, Gertrude wasn't.
 
 CPs may either be complement or adjunct to verb/VP
 to test whether a CP is an adjunct or a complement, use a proform test on the Verb/VP without the CP.
+
+
+###### proper nouns in english
+
+In English, proper nouns generally but not always ⟮don't take an article⟯
+In English, proper nouns generally but not always are ⟮singular⟯.
+In English, proper nouns are ⟮capitalized⟯.
+
+
+###### kinship terminology in english
+
+⟮Your parent's siblings⟯ are called ⟮parsib⟯/⟮pibling⟯/⟮auncle⟯. 
+⟮Your siblings children⟯  are called ⟮niblings⟯. 
+
+
+table:family term|female|male
+⟮Parsib/pibling/auncle⟯|⟮aunt⟯|⟮uncle⟯
+⟮nibling⟯|⟮niece⟯|⟮nephew⟯

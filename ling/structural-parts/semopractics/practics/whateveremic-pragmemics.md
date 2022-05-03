@@ -2,7 +2,7 @@
 
 ## pragmatic-only
 
-A pragmatic-only linguistic item (my term) is a lexical item that (almost) exclusively serves a pragmatic function.
+»⟮A pragmatic-only linguistic item⟯« (my term) is ⟮＿a linguistic item＿⟯ that ⟮(almost) exclusively expresses ＿(a) pragmeme(s)＿⟯.
 »⟮A pragmatic-only lexemic unit⟯« is ⟮＿a pragmatic-only linguistic item＿⟯ which ⟮is ＿a lexemic unit＿⟯.
 
 ### phatic expression
@@ -17,7 +17,7 @@ A pragmatic-only linguistic item (my term) is a lexical item that (almost) exclu
 
 ### backchanneling
 
-»⟮A backchannel⟯« is ⟮an interjection⟯ ⟮during another conversation participants turn⟯ expressing a expositive pragmatic act.
+»⟮A backchannel⟯« is ⟮an interjection⟯ ⟮during another conversation participants turn⟯ expressing ⟮a ＿expositive＿ ＿pragmatic act＿⟯.
 Examples of ⟮＿backchannels＿⟯ in English are e.g. ⟮"yeah", "uh-huh", "hmm", and "right"⟯. 
 
 ### hedge

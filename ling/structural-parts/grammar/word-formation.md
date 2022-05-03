@@ -161,15 +161,25 @@ In english, using ⟮c195;ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿un
 
 »⟮c229;An inflectional paradigm⟯« is ⟮the complete set of forms=words⟯ that ⟮＿a lexeme＿⟯ ⟮can assume⟯ ⟮when ＿inflecting＿⟯
 Sometimes, ⟮c234;inflectional paradigm⟯ is (kinda falsely) used as ⟮a synonym⟯ of ⟮inflectional class⟯.
+An inflectional variant is an element of the inflectional paradigm.
 »⟮c237;An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ such that ⟮one could generate⟯ ⟮＿the inflectional paradigm＿⟯ of ⟮lexemes falling under ⟮h-4;＿the inflectional class＿⟯⟯ ⟮using only⟯ ⟮the selfsame and the lexeme⟯.
 A »⟮c244;typical inflectional class⟯« (my term) is ⟮＿an inflectional class＿⟯ that ⟮unites the ＿inflectional paradigms＿⟯ of ⟮a set of lexemes⟯ ⟮selected by a well-defined criterion (e.g. based on how it ends)⟯
 »⟮c249;An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿grammatical feature category＿⟯.
 »⟮c253;The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿grammatical feature category＿⟯.
 e.g. case, number
+An inflectional form (has polysemy) is a set of grammatical features that yield a single inflectional variant when applied to an inflectional class.
+
+The citation form (has polysemy) is the inflectional form that produces the lemma.
+
+##### defectiveness & regularity
+
 ⟮c256;＿A lexeme＿⟯ is »⟮defective⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮lacks some of the forms⟯ of ⟮＿its inflectional class＿⟯.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
 
 A lexeme is »⟮c261;regular/irregular⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮does/does not conform to⟯ ⟮＿a typical inflectional class＿⟯.
+
+##### for word classes
+
 »⟮c265;A verb class⟯« is ⟮one of⟯ ⟮＿the typical inflectional classes＿⟯ for ⟮verb⟯.
 
 ## morphology

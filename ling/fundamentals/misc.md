@@ -52,4 +52,3 @@ If a thing is on an ⟮＿implicational scale＿⟯, and we find that ⟮the e.g
 
 
 
-A pragmatic-only linguistic item (my term) is a lexical item that (almost) exclusively serves a pragmatic function.
