@@ -20,6 +20,12 @@ In the context of an intransitive verb, the syntax of Japanese causatives allows
 https://anime.stackexchange.com/questions/29072/what-are-these-type-of-eyes-called-see-red-hair-girl-on-the-left-in-image
 https://danbooru.donmai.us/wiki_pages/jitome
 
+placeholder names:
+
+⟮given name (male)⟯|⟮ja⟯|⟮太郎⟯
+⟮given name (female)⟯|⟮ja⟯|⟮花子⟯
+⟮family name⟯|⟮ja⟯|⟮山田⟯
+
 ### history, culture, etc
 
 

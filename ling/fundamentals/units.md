@@ -205,8 +205,8 @@ A semopractogram is a seme, a pract or a gram.
 table:whatevereme|signifier|signified
 phoneme|speech/sign|language modality segments
 grapheme|writing|language modality segments
-lexeme|word|sememe
-lexemic unit|word(s)|sememe
+lexeme|word|sememe(s)
+lexemic unit|word(s)|sememe(s)
 phraseme|words|sememes|(is a type of lexemic unit)
 morpheme|language modality segments|sememopragmemogrammeme(s)
 sememe|meaning|meaning, but in the world

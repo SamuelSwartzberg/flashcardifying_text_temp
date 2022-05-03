@@ -254,3 +254,11 @@ In English, proper nouns are ⟮capitalized⟯.
 table:family term|female|male
 ⟮Parsib/pibling/auncle⟯|⟮aunt⟯|⟮uncle⟯
 ⟮nibling⟯|⟮niece⟯|⟮nephew⟯
+
+### placeholder names
+
+
+table:thing it is placeholding|language|value
+⟮given name (male)⟯|⟮en⟯|⟮john⟯
+⟮given name (female)⟯|⟮en⟯|⟮jane⟯
+⟮family name⟯|⟮en⟯|⟮doe⟯

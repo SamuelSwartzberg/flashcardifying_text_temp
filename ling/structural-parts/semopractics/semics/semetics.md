@@ -7,6 +7,10 @@
 
 ⟮[+definite]⟯ is ⟮＿the semantic feature＿⟯ of ⟮referring to a specific element of a group⟯ as opposed to ⟮any old element of a group⟯.
 
+## unique
+
+⟮[+unique]⟯ is ⟮＿the semantic feature＿⟯ of ⟮referring to an unique entity⟯.
+
 # setlikes
 
 »⟮Setlike⟯« (my term) is ⟮＿the semantic feature class＿⟯ related to ⟮features that setlikes might have⟯.
