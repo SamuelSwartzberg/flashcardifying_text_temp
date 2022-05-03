@@ -1,4 +1,6 @@
-# combinations of graphs
+# combination glyphs
+
+Combination glyphs may be n-graphs or ligatures.
 
 ## n:1 graph:graphemically signified item 
 
@@ -18,7 +20,7 @@ flex-container:✫ligature.svg✫✫typographic-ligature-st.png✫✫ligature-th
 »⟮A ligature⟯« is ⟮＿a grapheme＿⟯ ⟮made up of two or more ＿graphemes＿⟯ that ⟮have become fused⟯.
 »⟮A former ligature⟯« (my term) is ⟮＿a grapheme＿⟯ that ⟮was originally ＿a ligature＿⟯ but ⟮now has become accepted as a basic ＿grapheme＿.⟯
 
-### ligatures
+### examples
 
 table:character|ligature of
 ⟮＆⟯|⟮et⟯

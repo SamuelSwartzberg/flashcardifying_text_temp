@@ -1,64 +1,46 @@
 # writing systems
 
-## writing systems and languages
+## emic inventory
 
+### camerality
 
+Camerality is the property of (how many) different feature values for letter case a writing system contrasts.
+An n-cameral writing system is a writing system with a camerality of n.
+Uni/bicameral = 1/2-cameral
+Typical values for letter case in a 2-cameral system = uppercase, lowercase
+⟮uppercase grapheme⟯ =syn= ⟮captial letter⟯ =syn= ⟮majuscle⟯ 
+⟮lowercase grapheme⟯ =syn= ⟮minuscle⟯  
 
-## writing systems and other linguistic units
+## emic rule set
 
-### ortographic depth
+### capitalization
 
-»⟮Orthographic correspondence⟯« (my term) is the correspondence between one grapheme and one graphemically encoded item.
-»⟮Orthographic depth⟯« is ⟮the degree of deviation⟯ from ⟮＿orthographic correspondence＿⟯.
-»A phonemic orthography« is the special case of ⟮＿an alphabet＿ specifically⟯ ⟮having no or little orthographic depth⟯.
+»⟮the rules of capitalization⟯« are the subset of the graphemic rule set that applies to letter case.
+Capitalization is an application of the rules of capitalization.
+First-character capitalization (my term) is capitalization specifically in relation to the first character of a word.
 
-#### !of languages I know
-
-table:orthographic depth|language
-⟮ortographically deep⟯|⟮English⟯
-⟮ortographically shallow⟯|⟮spanish, japanese (kana)⟯
-
-## properties of writing systems
-
-### letter case
-
-»⟮Letter case⟯« is ⟮the distinction between⟯ ⟮uppercase and lowercase letters⟯. 
-⟮uppercase letter⟯ = ⟮captial letter⟯ = ⟮majuscle⟯ 
-⟮lowercase letter⟯ = ⟮minuscle⟯  
-⟮uppercase letters⟯ are ⟮generally larger than⟯ ⟮the lowercase letters⟯. 
-
-#### writing systems
-
-Regarding letter case, writing systems may be ⟮＿bicameral＿⟯ or ⟮c_;＿unicameral＿⟯.
-»⟮bicameral⟯« writing systems are those that ⟮have a letter case distinction⟯.
-»⟮unicameral⟯« writing systems are those that that ⟮don't have a letter case distinction⟯.
-
-#### capitalization
-
-»⟮capitalization⟯« is ⟮which letters⟯ in a word ⟮are uppercase⟯ and ⟮c-;which⟯ ⟮are lowercase⟯.
-The »⟮rules of capitalization⟯« say ⟮which capitalization to apply⟯ in ⟮which case⟯.
-In natural language, typically the only question is ⟮whether the first character is uppercase or lowercase⟯, in this case ⟮＿capitalization＿⟯ may refer to this property specifically
-
-##### interesting capitalizations
+#### interesting capitalizations
 
 table:Name|Features
-⟮Snake case⟯|⟮lowercase text⟯ ⟮separated by underscores _⟯
-⟮kebab case⟯|⟮lowercase text⟯ ⟮separated by hyphens -⟯
-⟮screaming snake case⟯|⟮all caps⟯ ⟮separated by underscores⟯
-⟮alternating caps⟯|⟮rAndDOMLy DisTrIBUting CApitAL LEtteRS⟯
-⟮camel case⟯|⟮words glued together⟯ with ⟮each initial letter capitalized⟯; the ⟮initial letter of the word⟯ ⟮lowercase⟯
-⟮upper camel case⟯|⟮words glued together⟯ with ⟮each initial letter capitalized⟯; the ⟮initial letter of the word⟯ ⟮also uppercase⟯
+»⟮snake case⟯«|⟮lowercase text⟯ ⟮separated by underscores _⟯
+»⟮kebab case⟯«|⟮lowercase text⟯ ⟮separated by hyphens -⟯
+»⟮screaming snake case⟯«|⟮all caps⟯ ⟮separated by underscores⟯
+»⟮alternating caps⟯«|⟮rAndDOMLy DisTrIBUting CApitAL LEtteRS⟯
+»⟮camel case⟯«|⟮words glued together⟯ with ⟮each initial letter capitalized⟯; the ⟮initial letter of the word⟯ ⟮lowercase⟯
+»⟮upper camel case⟯«|⟮words glued together⟯ with ⟮each initial letter capitalized⟯; the ⟮initial letter of the word⟯ ⟮also uppercase⟯
 
-⟮upper camel case⟯ = ⟮pascal case⟯
-⟮alternating caps⟯ = ⟮studly caps⟯ = ⟮SpongeBob caps/case⟯
+##### alternative names
 
-##### rules of capitalization
+⟮upper camel case⟯ =syn= ⟮pascal case⟯
+⟮alternating caps⟯ =syn= ⟮studly caps⟯ =syn= ⟮SpongeBob caps/case⟯
 
-###### title case
+### rules of capitalization
 
-⟮Title case⟯ = ⟮headline case⟯
+#### title case
 
-»⟮Title case⟯« is a ⟮set of ＿rules of capitalization＿⟯ used for ⟮titles of things⟯ in ⟮English⟯. 
+⟮Title case⟯ =syn= ⟮headline case⟯
+
+»⟮Title case⟯« is a ⟮subset of ＿rules of capitalization＿⟯ used for ⟮titles of things⟯ mainly in ⟮English⟯. 
 In ⟮＿title case＿⟯, ⟮major words⟯ and ⟮the first and last word of the title⟯ are ⟮capitalized⟯. 
 ⟮Exact rules of capitalization⟯ in ⟮title case⟯ ⟮vary⟯. 
 Most commonly, ⟮most words⟯ are considered ⟮major words (for the purposes of title case)⟯ exept for ⟮articles⟯, ⟮conjunctions⟯ and ⟮preposititons⟯.

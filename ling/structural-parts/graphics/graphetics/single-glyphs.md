@@ -2,7 +2,7 @@
 
 Glyphs may roughly be divided into ⟮＿simple encoding glyphs＿⟯ and ⟮＿non-simple encoding glyphs＿⟯.
 
-## glyphs with phonological realization ≈ representing basic linguistic unit
+## simple encoding glyphs
 
 »⟮A simple encoding glyph⟯« (my term) is a glyph that (most of the time) has ⟮a single⟯ ⟮＿graphemically encoded item＿⟯.
 the two types of ⟮＿simple encoding glyph＿⟯ are ⟮＿logograms＿⟯ and ⟮＿phonograms＿⟯
@@ -91,7 +91,7 @@ An ⟮＿impure abjad＿⟯ may ⟮indicate vowels⟯ with ⟮diacritics⟯ or �
 »⟮A letter⟯« is ⟮＿a phonogram＿⟯ that (ideally) ⟮represents a single phoneme⟯.
 An »⟮alphabet⟯« is ⟮＿a writing system＿⟯ that consists of ⟮＿letters＿⟯.
 
-## graphs without phonological realization
+## non-simple encoding glyphs
 
 »⟮A non-simple encoding glyph⟯« (my term) is ⟮＿a glyph＿⟯ without ⟮a constant single⟯ ⟮＿graphemically encoded item＿⟯.
 ⟮＿A non-simple encoding glyph＿⟯ may be ⟮＿a punctuation mark＿⟯, ⟮＿an emoji＿⟯, or perhaps something else.

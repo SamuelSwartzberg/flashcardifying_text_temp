@@ -36,6 +36,10 @@ For a given whatever, an emically signified item is called whatevername+emically
 An emic system is the combination of an emic inventory and an emic rule set.
 An emic rule set is the set of rules governing the emic inventory in the languoid.
 For a given whatever, an emic system/rule set is called a whatevername+emic system/rule set.
+Emic correspondence (my term) is the correspondence between the signifier and signified of an emic unit.
+Emic deviation (my term) is the regular divergence of emic correspondence in a certain context as prescribed by the emic rule set.
+^e.g. lexemic deviation: deviation between a word its the usual meaning
+Emic depth (my termish) is the degree of emic deviation.
 
 ### emictactics
 
@@ -91,7 +95,10 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 
 
 »⟮A feature⟯« is a ⟮binary⟯ ⟮value⟯.
+An emic feature is a feature that is contrastive in the given language.
+An etic feature is a feature regardless if it is contrastive or not
 Featural is looking at a thing from the perspective of features.
+For a given whatever, an ø/emic/etic feature is called a whatevername+ø/emic/etic feature.
 
 #### emic units
 
@@ -109,6 +116,7 @@ Featural is looking at a thing from the perspective of features.
 A feature class is a set of features, feature categories or feature classes that are expressing a common thing.
 A top-level feature class (my term) is a feature class that is not part of a larger feature class.
 A feature category (rare term) is a feature that can take on multiple values.
+A feature value is a value of a feature category.
 Alternatively, we can analyze a feature category as a set of features that together give rise to multiple values.
 ^The difference between a feature class and a feature category is that a emic unit can have multiple features from a feature class, while a feature category is mutually exclusive.
 
@@ -204,7 +212,7 @@ A semopractogram is a seme, a pract or a gram.
 
 table:whatevereme|signifier|signified
 phoneme|speech/sign|language modality segments
-grapheme|writing|language modality segments
+grapheme|writing|morpheme or sound linguistic unit
 lexeme|word|sememe(s)
 lexemic unit|word(s)|sememe(s)
 phraseme|words|sememes|(is a type of lexemic unit)
@@ -229,6 +237,8 @@ The lexis may also be a subset of a lexemic unit inventory grouped by some crite
 The graphemic system is more commonly called a writing system.
 writing system =syn= script
 The graphemic rule set is more commonly called an orthography.
+Graphemic depth is more commonly called orthographic depth.
+»A phonemic orthography« is the special case of ⟮＿an alphabet＿ specifically⟯ ⟮having no or little orthographic depth⟯.
 
 #### study
 
@@ -243,10 +253,9 @@ Lemma is the only emma for which the term actually already exists.
 
 ### features
 
-table:emic unit|analyzable into...
-⟮sememe⟯|⟮semantic feature⟯
-⟮phoneme⟯|⟮distinctive feature⟯
-grammeme|grammatical feature
+distinctive feature = phonemic feature
+semantic feature = ambiguous between semic and sememic feature
+grammatical feature = ambiguous between grammic and grammemic feature
 
 ## language modality
 

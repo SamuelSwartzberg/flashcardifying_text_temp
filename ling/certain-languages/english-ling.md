@@ -262,3 +262,11 @@ table:thing it is placeholding|language|value
 ⟮given name (male)⟯|⟮en⟯|⟮john⟯
 ⟮given name (female)⟯|⟮en⟯|⟮jane⟯
 ⟮family name⟯|⟮en⟯|⟮doe⟯
+
+
+
+#### !of languages I know
+
+table:orthographic depth|language
+⟮ortographically deep⟯|⟮English⟯
+⟮ortographically shallow⟯|⟮spanish, japanese (kana)⟯
