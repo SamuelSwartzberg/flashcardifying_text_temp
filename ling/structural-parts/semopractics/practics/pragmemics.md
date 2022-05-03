@@ -2,23 +2,24 @@
 
 ## things
 
-»⟮The whatevertheory prag act⟯« (my term) is ⟮the main unit⟯ in ⟮＿a pragmatic theory＿⟯
+»⟮The whatevertheory prag act⟯« (my term) is ⟮the main act⟯ in ⟮＿a pragmatic theory＿⟯
 ⟮＿The whatevertheory prag act＿⟯ is ⟮＿a speech act＿⟯ in ⟮＿speech act theory＿⟯ and ⟮c-;＿a pragmatic act＿⟯ in ⟮＿pragmatic act theory＿⟯.
 »⟮The typeable act⟯« is ⟮any element⟯ of ⟮＿a pragmatic theory＿⟯ that ⟮can have ＿an act type＿⟯.
 ⟮＿The typeable act＿⟯ is ⟮＿the speech act pragmatic act＿⟯ in ⟮＿speech act theory＿⟯, and ⟮c-;＿a prag＿⟯ in ⟮＿pragmatic act theory＿⟯.
+»⟮A prag⟯« is ⟮＿a pract/pragmeme/pragmatic act＿⟯.
 
 ### speech acts
 
 »⟮A speech act⟯« is the sum of ⟮＿locutionary＿, ＿illocutionary＿ and ＿perlocutionary＿⟯ ⟮act⟯.
 a ⟮＿locutionary, illocutionary or perlocutionary＿⟯ ⟮＿act＿⟯ has ⟮c-;＿a locutionary, illocutionary or perlocutionary＿⟯ »⟮force⟯« attached.
-An act is any of locutionary, illocutionary or perlocutionary acts.
-»⟮A speech act pragmatic act⟯« is any act in speech act theory that can have an act type.
+»⟮An act⟯« is ⟮any of⟯ ⟮＿locutionary＿, ＿illocutionary＿ or ＿perlocutionary acts＿⟯.
+»⟮A speech act pragmatic act⟯« is ⟮any ＿act＿⟯ in ⟮＿speech act theory＿⟯ that ⟮can have ＿an act type＿⟯.
 ⟮＿A speech act pragmatic act＿⟯ is either ⟮＿a speech act＿⟯, ⟮c_;＿illocutionary act＿⟯ or ⟮c_;＿perlocutionary act＿⟯.
 
 #### relations to other concepts
 
 In relation to speech acts, ⟮＿the pragmatic act⟯＿ ⟮subsumes⟯ ⟮both ＿illocutionary＿ and ＿perlocutionary act＿⟯.
-In terms of the loc/ill/perl distinction, the pragmatic act subsumes illocutionary and perlocutionary parts and are only rarely distinguished
+In terms of ⟮＿the loc/ill/perl distinction＿⟯, ⟮＿the pragmatic act＿⟯ subsumes illocutionary and perlocutionary parts and are only rarely distinguished
 ^it seems to me the point is that there is no such thing as a properly illocutionary part in PAT, since no pract may exist without context
 
 ## categorization

@@ -47,3 +47,9 @@ If a thing is on an ⟮＿implicational scale＿⟯, and we find that ⟮the e.g
 »⟮A language⟯« is a ⟮specific kind⟯ of ⟮structured⟯ ⟮communication system⟯.
 »⟮Language⟯« (⟮ability⟯) is the ability to ⟮use (a) language(s) to communicate⟯.
 »⟮Language⟯« (⟮occurence⟯) is ⟮an instance of⟯ use of ⟮language (ability)⟯.
+
+
+
+
+
+A pragmatic-only linguistic item (my term) is a lexical item that (almost) exclusively serves a pragmatic function.
