@@ -2,8 +2,8 @@
 
 ## n:1 graph:graphemically signified item 
 
-»⟮An n-graph⎵trivial⎵⟯« is ⟮n graphs⟯.
-»⟮A 2+/3+graph⎵trivial⎵⟯« (my term) is ⟮2+/3+ graphs⟯.
+»⟮An n-graph⎵trivial⎵⟯« is ⟮n glyphs⟯.
+»⟮A 2+/3+graph⎵trivial⎵⟯« (my term) is ⟮2+/3+ glyphs⟯.
 »⟮A n-/2+/3+graph⎵proper⎵⟯« is ⟮＿a n-/2+/3+graph⎵trivial⎵＿⟯ ⟮signifying 1 ＿graphemically signfied item＿⟯.
 »⟮A n-/2+/3+graph⟯« is ⟮ambiguous between⟯ ⟮⎵trivial⎵ and ⎵proper⎵⟯.
 »⟮A digraph⟯« is ⟮＿an n-graph＿⟯ where ⟮n=2⟯.

@@ -1,22 +1,8 @@
 # writing systems
 
-»⟮A writing system⟯« is ⟮a set of graphemes⟯ and⟮ possible combinations⟯ used to ⟮represent linguistic units⟯ ⟮visually⟯.
-⟮＿Writing system＿⟯ =syn= ⟮script⟯.
-
 ## writing systems and languages
 
-### orthography
 
-»⟮An orthography⟯« is ⟮a set of rules⟯ for ⟮writing a languoid⟯.
-
-### 1:1, 1:n, n:m
-
-n-graphia is having exactly n writing systems for a languoid.
-»⟮c1;2+/3+graphia⟯« (my term) is having 2/3 or more ＿writing systems＿ for a single languoid.
-Bigraphia (rare-ish term) is n-graphia where n=2.
-»⟮Digraphia⟯« (more useful but not universal definition) is 2+graphia where the writing systems are hierarchical.
-Digraphia is often used merely as a synonym for 2+graphia.
-Multigraphia is both rare and ambiguous between 2+/3+graphia.
 
 ## writing systems and other linguistic units
 

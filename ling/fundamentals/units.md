@@ -227,6 +227,8 @@ The lexemic unit inventory is more commonly called the lexis.
 The lexis may also be a subset of a lexemic unit inventory grouped by some criterion.
 
 The graphemic system is more commonly called a writing system.
+writing system =syn= script
+The graphemic rule set is more commonly called an orthography.
 
 #### study
 
