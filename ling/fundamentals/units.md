@@ -110,13 +110,15 @@ A feature category (rare term) is a feature that can take on multiple values.
 Alternatively, we can analyze a feature category as a set of features that together give rise to multiple values.
 ^The difference between a feature class and a feature category is that a emic unit can have multiple features from a feature class, while a feature category is mutually exclusive.
 
+##### seemingly sui generis
 
+»⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semantic feature＿⟯.
 
 ### polysemy
 
 In a more vague sense, »⟮a feature⟯« may also be ⟮any linguistically salient property⟯ of ⟮a languoid⟯.
 
-## study
+## study & interrelation
 
 emics/etics is the study of e in terms of emic/etic units.
 For a given whatever, emics/etics is called whatevername+emics/etics
@@ -124,6 +126,9 @@ For a given whatever, emics/etics is called whatevername+emics/etics
 es is the study of e.
 Ergo, es is the conver term of emics and etics.
 For a given whatever, es is called whatevername+s.
+emic emics is the study of the relation between an emic unit and its signifier emic unit.
+For a given whatever, whatever2, emic emics is called whatevername+emic whatevername2+emics.
+^e.g. lexemic sememics (more commonly: lexical semantics)
 
 ## exprs
 
@@ -164,7 +169,7 @@ kin|⟮kineme⟯|⟮kine⟯|(body language)
 #### name details & polysemy
 
 Often, the morpheme {gram} is actually used as a synonym for {graph} instead of for grammeme-related things.
-What I call lexeme unit is more commonly called lexical unit.
+Things related to lexemes are more commonly called lexical whatever.
 lexical item =syn=lexical unit.
 
 #### meaning details
@@ -184,15 +189,18 @@ lex|inflectional variant
 
 #### derived units
 
-A sememeorpragmeme is a sememe or a pragmeme.
-A semeorpract is a seme or a pract.
-A semememorgrammeme is a sememe or a grammeme.
-A semeorgram is a seme or a gram.
+A sememopragmeme is a sememe or a pragmeme.
+A semopract is a seme or a pract.
+Semopractics is semics and/or practics.
+Semopractics is the world of meaning that can be expressed.
+A sememogrammeme is a sememe or a grammeme.
+A semogram is a seme or a gram.
 
 ### signifiers & signfied
 
 table:whatevereme|signifier|signified
-phoneme|speech|language modality segments
+phoneme|speech/sign|language modality segments
+grapheme|writing|language modality segments
 lexeme|word|sememe
 lexemic unit|word(s)|sememe
 phraseme|words|sememes|(is a type of lexemic unit)
@@ -211,8 +219,8 @@ The graphemic system is more commonly called a writing system.
 
 The study of phonemes is typically called phonology, not phonemics.
 The study of phrasemes is typically called phraseology, not phrasemics.
-Semantics is the more common term for semics.
-Lexicology is the more common term for lexics.
+Semantics is the more common term for sememics or semics.
+Lexicology is the more common term for lexemics or lexics.
 
 ### features
 
