@@ -5,8 +5,8 @@ In terms of graphics, typography can be seen to be concerned mainly with exprs a
 ⟮＿Typography＿⟯ is divided into ⟮＿microtypography＿⟯ and ⟮c_;＿macrotypography＿⟯.
 
 »⟮Microtypography⟯« is typography on the level of ⟮letters/words⟯
-Examples of ⟮＿microtypographic＿⟯ properties/concerns are ⟮letter spacing, word spacing, ligatures, features of letters⟯
+^e.g. letter spacing, word spacing, ligatures, features of letters
 »⟮Macrotypography⟯« is typography on the level of ⟮the collumn/grid/page⟯
-Examples of ⟮＿macrotypographic＿⟯ properties/concerns are ⟮Typographic hierarchy, typographic grid, page layout⟯
+^e.g. Typographic hierarchy, typographic grid, page layout
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}</span>
