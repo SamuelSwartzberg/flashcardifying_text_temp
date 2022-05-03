@@ -24,22 +24,42 @@ For a given whatever, whatevereme always has the name whatevername+me
 
 ### other levels
 
-An emic unit may signify a higher emic unit or 'meaning'.
-An emic unit may be signified by a lower emic unit or a physical medium.
-A higher/lower emic cake is the emic cake whose signifer/signified is the current emic cake.
+An emic unit may signify another emic unit or 'meaning'.
+An emic unit may be signified by another emic unit or a physical medium.
+A higher/lower emic cake is the emic cake reachable by traversing signifiers/signifieds.
 A higher/lower emic unit(s) is an emic unit of a higher/lower emic cake.
 The emically signified item (rare term in most cases) is the signified of the emic unit.
 For a given whatever, an emically signified item is called whatevername+emically signified item.
 
 ## systems
 
-An emic system is the combination of an emic inventory and an emic rule set.
+An emic system is the combination of an emic inventory and an emic rule set plus suprasegmentals.
 An emic rule set is the set of rules governing the emic inventory in the languoid.
 For a given whatever, an emic system/rule set is called a whatevername+emic system/rule set.
+
+### emic correspondence
+
 Emic correspondence (my term) is the correspondence between the signifier and signified of an emic unit.
 Emic deviation (my term) is the regular divergence of emic correspondence in a certain context as prescribed by the emic rule set.
 ^e.g. lexemic deviation: deviation between a word its the usual meaning
 Emic depth (my termish) is the degree of emic deviation.
+
+### suprasegmentals
+
+Linearity is the presumtion that e/emic/etic units occur sequentially with 1-to-1 correspondence.
+Linearity is probably untenable for most e/emic/etic units in most cases.
+A suprasegmental is a property of an emic system transgressing e/etic/emic unit dividers.
+Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
+Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
+// emic/etic suprasegmental features
+// other section, but emic units may be disloged from their typical signifiers via suprasegmentals
+
+#### juncture
+
+A juncture is a suprasegmental marking a separation of higher emic units.
+^e.g. word boundaries in phonology
+For a given whatever, a juncture is called whatevername juncture.
+A chunk is the segments between a juncture.
 
 ### emictactics
 
@@ -139,6 +159,8 @@ For a given whatever, es is called whatevername+s.
 emic emics is the study of the relation between an emic unit and its signifier emic unit.
 For a given whatever, whatever2, emic emics is called whatevername+emic whatevername2+emics.
 ^e.g. lexemic sememics (more commonly: lexical semantics)
+suprasegmental emics is the study of the suprasegmentals of an emic unit.
+segmental emics is not suprasegmental emics.
 
 ## exprs
 
@@ -239,6 +261,10 @@ writing system =syn= script
 The graphemic rule set is more commonly called an orthography.
 Graphemic depth is more commonly called orthographic depth.
 »A phonemic orthography« is the special case of ⟮＿an alphabet＿ specifically⟯ ⟮having no or little orthographic depth⟯.
+Suprasegmental phonology is also called prosody.
+suprasegmental phonic feature is also called prosodic feature.
+⟮prosody⟯ is also sometimes used in a⟮ more narrow⟯ sense as a synonym to ⟮metre in poetry⟯.
+
 
 #### study
 
