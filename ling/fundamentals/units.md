@@ -55,6 +55,8 @@ An etic unit is a division of an emic unit's signifier component into a number o
 From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of variant forms.
 A whatevere is the etic unit of whatever.
 For a given whatever, a etic unit is called a whatevername+(ø or e)
+An emma is an etic unit chosen arbitrarily to represent the emic unit.
+For a given whatever, an emma is called a whatevername-final consonant if extant+mmma.
 
 #### alternants
 
@@ -215,20 +217,27 @@ pragmeme|pragmatic act|non-semantic meaning
 A pragmatic act is what one does when saying something.
 As different from our usual definitions, »⟮a pract⟯« is ⟮the combination of⟯ ⟮a certain utterance⟯ and ⟮a context⟯ that ⟮give rise to a certain ＿pragmatic act＿.⟯
 As different from our usual definitions, »⟮allopracts⟯« are ⟮＿all practs＿⟯ that ⟮result in the same ＿pragmatic act＿.⟯
+A phraseme has the additional constraint that it violates the principle of compositionality to a certain degree.
 
 ### details
 
 #### emic inventory, system
 
 The lexemic unit inventory is more commonly called the lexis.
+The lexis may also be a subset of a lexemic unit inventory grouped by some criterion.
+
 The graphemic system is more commonly called a writing system.
 
 #### study
 
 The study of phonemes is typically called phonology, not phonemics.
 The study of phrasemes is typically called phraseology, not phrasemics.
-Semantics is the more common term for sememics or semics.
-Lexicology is the more common term for lexemics or lexics.
+Semantics is the study of semics and related phenomena.
+Lexicology is the study of lexics and related phenomena.
+
+#### other
+
+Lemma is the only emma for which the term actually already exists.
 
 ### features
 

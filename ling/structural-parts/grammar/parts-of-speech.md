@@ -4,6 +4,7 @@
 ⟮Part of speech⟯ =syn= ⟮word class⟯.
 ⟮Clear distingction⟯ of ⟮＿word classes＿⟯ are ⟮difficult⟯ ⟮＿interlinguistically＿⟯.
 Often ⟮the things we think⟯ ⟮a certain ＿word class＿ does⟯ ⟮c_-;is actually⟯ ⟮what a phrase headed by that thing does⟯.
+Any ⟮＿lexeme＿⟯ belongs to ⟮a particular⟯ ⟮＿syntactic category/word class＿⟯.
 
 ## abbreviations
 

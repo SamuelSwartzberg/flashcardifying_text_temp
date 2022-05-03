@@ -1,29 +1,4 @@
-# lexicology
-
-»⟮Lexicology⟯« is the study of ⟮＿lexical units＿⟯.
-⟮＿A lexical unit＿⟯ can be ⟮a part of a word⟯, ⟮c_;word⟯, or ⟮c_;chain of words⟯.
-
-## lexis
-
-»⟮A lexis⟯« is ⟮a set of⟯ ⟮＿lexical units＿⟯ g⟮rouped by some criteria.⟯
-»⟮The lexis (of a languoid)⟯« is ⟮the set of all lexical units⟯ ⟮in a given languoid⟯.
-»⟮Lexicon⟯« may be ⟮a synonym of⟯ ⟮＿lexis (of a languoid)＿⟯, or may be ⟮a type of dictionary⟯ on ⟮＿the lexis (of a languoid)＿⟯.
-
-## Lexeme
-
-Any ⟮＿lexeme＿⟯ belongs to ⟮a particular ⟮＿syntactic category/word class＿⟯⟯.
-A »⟮lemma⟯« is ⟮＿the inflectional variant＿⟯ that is chosen by ⟮convention⟯ to ⟮represent⟯ the ⟮lexeme⟯.
-
-## lexicography
-
-⟮＿Lexicography＿⟯ is a branch of ⟮＿lexicology＿⟯.
-»⟮Lexicography⟯« is concerned with ⟮dictionaries⟯.
-
-### headword
-
-»⟮The headword⟯« is ⟮the word⟯ ⟮under which dictionary entries appear⟯
-⟮＿The inflectional variant＿ of⟮＿a lexeme＿⟯ used as ⟮＿a headword＿⟯ is usually ⟮＿its lemma＿⟯.
-Sometimes ⟮＿lemma＿⟯ and ⟮＿headword＿⟯ are used synonymously.
+# lexemics
 
 ## types of lexical units
 
@@ -32,7 +7,7 @@ Sometimes ⟮＿lemma＿⟯ and ⟮＿headword＿⟯ are used synonymously.
 #### terms
 
 »⟮Terminology⟯« as a field is ⟮the study of ＿terms＿⟯.
-»⟮Terminology⟯« as a grouping is ⟮a set of ⟮＿terms＿⟯⟯.
+»⟮Terminology⟯« as a grouping is ⟮a set of⟯ ⟮＿terms＿⟯.
 »⟮A term⟯« is ⟮＿a lexical unit＿⟯ with ⟮a meaning⟯ ⟮related to a particular field⟯.
 
 ##### kinship terminology

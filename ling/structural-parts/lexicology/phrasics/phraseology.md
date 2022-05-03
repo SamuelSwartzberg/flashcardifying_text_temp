@@ -1,7 +1,5 @@
 # phraseology
 
-»⟮A phraseme⟯« is a ⟮multi-word⟯ ⟮＿lexemic unit＿⟯ which ⟮violates the ＿principle of compositionality＿ to some degree (i.e. their meaning is not completely deducable from their parts)⟯
-
 ## types of phrasemes
 
 ### phrasal templates
