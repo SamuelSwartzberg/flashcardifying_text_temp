@@ -195,6 +195,8 @@ Semopractics is semics and/or practics.
 Semopractics is the world of meaning that can be expressed.
 A sememogrammeme is a sememe or a grammeme.
 A semogram is a seme or a gram.
+A sememopragmemogrammeme is a sememe, a pragmeme or a grammeme.
+A semopractogram is a seme, a pract or a gram.
 
 ### signifiers & signfied
 
@@ -204,9 +206,15 @@ grapheme|writing|language modality segments
 lexeme|word|sememe
 lexemic unit|word(s)|sememe
 phraseme|words|sememes|(is a type of lexemic unit)
-morpheme|language modality segments|semememogrammeme(s)
+morpheme|language modality segments|sememopragmemogrammeme(s)
 sememe|meaning|meaning, but in the world
+pragmeme|pragmatic act|non-semantic meaning
 
+#### meaning details
+
+A pragmatic act is what one does when saying something.
+As different from our usual definitions, »⟮a pract⟯« is ⟮the combination of⟯ ⟮a certain utterance⟯ and ⟮a context⟯ that ⟮give rise to a certain ＿pragmatic act＿.⟯
+As different from our usual definitions, »⟮allopracts⟯« are ⟮＿all practs＿⟯ that ⟮result in the same ＿pragmatic act＿.⟯
 
 ### details
 

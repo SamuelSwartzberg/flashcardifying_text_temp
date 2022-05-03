@@ -3,23 +3,6 @@
 
 Reference is the semantic feature class related to reference.
 
-
-
-#### endophora
-
-»⟮antecedent/postcedent⟯« is ⟮the thing⟯ ⟮the referent⟯ of ⟮＿an ana/cataphora＿⟯ ⟮c_-2;depends on⟯ (respectively).
-⟮Anaphora⟯ is sometimes also used as a synonym to ⟮endophora⟯.
-"She's the nobel prize winner, y'know." - If I say that and gesture to somone, "She" is exaphora.
-
-##### binding
-
-»⟮Binding⟯« is the is ⟮the associaton⟯ of ⟮＿endophoric elements＿⟯ with ⟮their *ecedents⟯.
-
-## restriction
-
-⟮＿A modifier＿⟯ is »⟮restrictive⟯« if it ⟮restricts the reference⟯ of ⟮＿its head＿⟯.
-⟮＿Relative clauses＿⟯ generally are ⟮＿restrictive＿⟯.
-
 ## definiteness
 
 ⟮[+definite]⟯ is ⟮＿the semantic feature＿⟯ of ⟮referring to a specific element of a group⟯ as opposed to ⟮any old element of a group⟯.
