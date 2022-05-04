@@ -47,6 +47,10 @@ Intonational phrase =syn= full intonational phrase
 phonological phrase =syn= major phrase =syn= intermediate intonational phrase
 accentual phrase =syn= minor phrase
 
+### IPA 
+
+| and ‖ mark two pausas of phonic suprasegmental units lower and higher on the phonological hierarchy.
+
 ### units in detail
 
 #### the syllable
@@ -83,14 +87,9 @@ In the IPA, ⟮spaces⟯ as well as ⟮the stress/secondary stress symbols⟯ im
 In the IPA, ⟮［.］⟯ or ⟮［$］⟯ expressedly indicate a ⟮syllable ＿juncture＿⟯.
 In the IPA, ⟮［‿］⟯ is used to imply ⟮a space⟯ ⟮without a syllable ＿juncture＿⟯.
 
-#### misc
+## distinctive suprasegmental features
 
-A <greek number>meter is a
-
-
-## phonemic suprasegmental features
-
-The main ⟮＿phonemic suprasegmental features/feature classes/feature categories＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
+The main ⟮＿distinctive suprasegmental features/feature classes/feature categories＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
 
 ### stress
 
@@ -130,7 +129,7 @@ table:level of stress|IPA
 ⟮primary stress⟯|⟮ˈ (sɐˈbiɐ)⟯
 ⟮secondary stress⟯|⟮ˌ (ˈfotəˌɡɹæf)⟯
 
-### tone &amp; intonation
+### pitch
 
 »⟮Tone⟯« is the use of ⟮pitch⟯ for phonemic contrast.
 »⟮Intonation⟯« is the use of ⟮pitch⟯ for other things besides phonemic contrast.
@@ -164,32 +163,16 @@ table:phenomenon|IPA symbol
 »⟮An external open juncture⟯« is ⟮＿an open juncture＿⟯ that is ⟮marked⟯ by ⟮＿a pause＿⟯ (and thus ⟮c-;occurs⟯ at ⟮the beginning/end of an utterance⟯)
 »⟮A closed juncture⟯« is ⟮＿a phon juncture＿⟯ ⟮that is not at a word boundary, i.e. word-internal⟯.
 
-#### pause
-
-»⟮A pause⟯« is ⟮a long⟯ ⟮phon juncture⟯.
-While people assume that ⟮any space⟯ marks ⟮＿a pause＿⟯, ⟮in fact most don't⟯.
-»⟮An utterance⟯« (in one definition) is ⟮a unit of spoken speech⟯ ⟮bounded by ＿pauses＿⟯.
-⟮＿A pause＿⟯ may be ⟮＿filled＿⟯ or ⟮c_;＿unfilled＿⟯.
-»⟮A filled pause⟯« is ⟮＿a pause＿⟯ which contains ⟮some meaning-light speech⟯.
-»⟮A unfilled pause⟯« is ⟮＿a pause＿⟯ which contains ⟮slience⟯.
-
-##### IPA 
-
-In the IPA, ⟮| and ‖⟯ both mark ⟮＿pauses＿⟯.
-In the IPA, ⟮the exact length⟯ of ⟮| and ‖⟯ ⟮depends on context⟯.
-In the IPA, ⟮|⟯ is used to mark a ⟮longer⟯ pause than ⟮c_-;‖⟯.
-
 ##### Other notations
 
-⟮The vertical bar |⟯ is used to mark ⟮feet⟯ in ⟮poetry⟯.
-In ⟮poetry⟯, often ⟮the slash⟯ is used to mark ⟮line breaks⟯.
 
 
-## phonetic-only suprasegmental feature
+
+## non-distinctive suprasegmental feature
 
 ### rhythm
 
-⟮Rhythm⟯ is a (typically) phonetic-only (but typologically relevant) suprasegmental feature indicating the timing of suprasegmental units
+⟮Rhythm⟯ is a (typically) non-distinctive (but typologically relevant) suprasegmental feature indicating the timing of suprasegmental units
 
 ### isochrony
 
@@ -213,12 +196,16 @@ A scansion representation system (my term) is a system used to represent a scans
 Foot-based metre is metre based on stanzas, lines and feet.
 A stanza is a metrical suprasegmental unit consisting of n lines.
 A line is a metrical suprasegmental unit consisting of n feet.
-A <greek number>metre is a metre where the lines are <number>feet long
+A <greek number>metre is a metre where the lines are <number>feet long.
 
 #### scansion representation
 
 table:system|stress|no stress
 slash & x | / | x
+
+
+⟮The vertical bar |⟯ is used to mark ⟮feet⟯ in ⟮scansion⟯.
+⟮the slash⟯ is used to mark ⟮line breaks⟯ in scansion.
 
 #### type of feet
 

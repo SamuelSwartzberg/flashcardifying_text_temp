@@ -1,14 +1,7 @@
 # phonology
 
 
-## morphophonolgy
 
-»⟮Morphophonology⟯« studies ⟮the interaction between⟯ ⟮＿morphology＿⟯ and ⟮c_;＿phonology/phonetics＿⟯.
-
-### sandhi
-
-»⟮Sandhi⟯« is ⟮＿a cover term＿⟯ for ⟮＿sound changes＿⟯ that happen ⟮at morpheme/word boundaries⟯.
-⟮＿Sandhi＿⟯ is a phenomenon of ⟮＿morphophonology＿⟯.
 
 ## changes in sounds
 

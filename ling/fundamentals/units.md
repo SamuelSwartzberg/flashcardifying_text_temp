@@ -44,30 +44,40 @@ Emic deviation (my term) is the regular divergence of emic correspondence in a c
 ^e.g. lexemic deviation: deviation between a word its the usual meaning
 Emic depth (my termish) is the degree of emic deviation.
 
-### suprasegmentals
+### beyond single segments
 
-Linearity is the presumtion that e/emic/etic units occur sequentially with 1-to-1 correspondence.
+An e/emic/etic unit boundary is the spot between two e/mic/etic units.
+Linearity is the presumtion that e/emic/etic units occur sequentially with 1-to-1 emic-etic correspondence.
 Linearity is probably untenable for most e/emic/etic units in most cases.
-A suprasegmental is a property of an emic system transgressing e/etic/emic unit dividers.
+Conditioning is the combination of etic segmental conditioning and suprasegmental conditioning.
+
+#### suprasegmentals
+
+A suprasegmental is a property of an emic system transgressing e/etic/emic unit boundariess.
+The suprasegmental motivator is the higher emic unit that motivates the a suprasegmental.
 Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
 A suprasegmental unit is a suprasegmental of which we don't want to say whether it's emic or etic.
 Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
-// emic/etic suprasegmental features
-// other section, but emic units may be disloged from their typical signifiers via suprasegmentals
+A pausa is the conceptual start/end of a suprasegmental unit.
+The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given emic/etic unit.
+Segmental conditioning is the influencing of alternant selection by the suprasegmental environment.
 
-#### juncture
+##### juncture
 
-A juncture is a suprasegmental marking a separation of higher emic units.
-^e.g. word boundaries in phonology
+A juncture is an emic unit posited that does the job of suprasegmentals but is part of the sequental flow of emic units.
 For a given whatever, a juncture is called whatevername juncture.
 A chunk is the segments between a juncture.
 
-### emictactics
+#### cross-segmental
 
+Something cross-segmental concerns multiple segments, but isn't a suprasegmental.
 emictactics (lol) is the part of an emic rule set dealing with emictactic constraints.
 A emictactic constraint is a rule for the permissible combination of emic units.
 For a given whatever, an emictactic constraint is called a whatevername+tactic constraint
 ^e.g. phonotactic constraint
+The segmental environment is the set of etic/emic units before and after an etic/emic unit.
+The etic/emic segmental environment is the set of etic/emic units before and after an etic/emic unit.
+Etic segmental conditioning is the influincing of alternant selection by the etic segmental environment.
 
 ## analyses
 
@@ -89,6 +99,7 @@ For a given whatever, an emma is called a whatevername-final consonant if extant
 ^However, alternant is often only used for allomorphs
 »⟮Alternation⟯« is ⟮the fact of⟯ ⟮＿alternants＿⟯ ⟮c_-;existing⟯.
 »⟮An alloetic unit⟯« is an alternant of the same etic unit.
+Alternant selection is choosing an alternant for an emic unit.
 For a given etic unit, an alloetic unit is called allo + etic unit name.
 
 #### distribution
@@ -112,12 +123,18 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 ⟮＿Emic contrast＿⟯ has been »⟮neutralized⟯« when ⟮two ＿etic units＿⟯ appear i⟮n an ＿etic environment＿⟯ in which ⟮they are no longer ＿contrastive＿⟯.
 ⟮Two ＿etic units＿⟯ in ⟮＿free variation＿⟯ may still be ⟮＿variants＿ of a ＿sociolinguistic variable＿⟯.
 
+#### surface and underlying
+
+The surface representation/form is the etic unit of a given segment.
+The underlying representation/form is the emic unit of a given segment.
+Realization is the relationship between surface form and underlying form.
+
 ### features
 
 
 »⟮A feature⟯« is a ⟮binary⟯ ⟮value⟯.
-An emic feature is a feature that is contrastive in the given language.
-An etic feature is a feature regardless if it is contrastive or not
+A distinctive feature is a feature that is contrastive in the given language or at least in some languages.
+A non-distinctive feature is a feature that is not contrastive in a given language or ever.
 Featural is looking at a thing from the perspective of features.
 For a given whatever, an ø/emic/etic feature is called a whatevername+ø/emic/etic feature.
 
@@ -242,6 +259,7 @@ phraseme|words|sememes|(is a type of lexemic unit)
 morpheme|language modality segments|sememopragmemogrammeme(s)
 sememe|meaning|meaning, but in the world
 pragmeme|pragmatic act|non-semantic meaning
+morphophoneme|speech/sign|sememopragmemogrammeme(s)
 
 #### meaning details
 
@@ -249,6 +267,7 @@ A pragmatic act is what one does when saying something.
 As different from our usual definitions, »⟮a pract⟯« is ⟮the combination of⟯ ⟮a certain utterance⟯ and ⟮a context⟯ that ⟮give rise to a certain ＿pragmatic act＿.⟯
 As different from our usual definitions, »⟮allopracts⟯« are ⟮＿all practs＿⟯ that ⟮result in the same ＿pragmatic act＿.⟯
 A phraseme has the additional constraint that it violates the principle of compositionality to a certain degree.
+A morphophoneme can basically be seen to fuse phoneme and morpheme, directly signifying meaning via phones as alternants.
 
 ### details
 
@@ -265,11 +284,12 @@ Graphemic depth is more commonly called orthographic depth.
 Suprasegmental phonology is also called prosody.
 suprasegmental phonic feature is also called prosodic feature.
 ⟮prosody⟯ is also sometimes used in a⟮ more narrow⟯ sense as a synonym to ⟮metre in poetry⟯.
-
+A phonic suprasegmental unit is more commonly called prosodic unit.
 
 #### study
 
 The study of phonemes is typically called phonology, not phonemics.
+The study of morphophonemes is typically called morphophonology, not morphophonemics.
 The study of phrasemes is typically called phraseology, not phrasemics.
 Semantics is the study of semics and related phenomena.
 Lexicology is the study of lexics and related phenomena.
@@ -280,7 +300,7 @@ Lemma is the only emma for which the term actually already exists.
 
 ### features
 
-distinctive feature = phonemic feature
+distinctive feature = phonemic feature TODO: no, distinctive feature has to do with being distinctive, also create non-distinctive feature
 semantic feature = ambiguous between semic and sememic feature
 grammatical feature = ambiguous between grammic and grammemic feature
 

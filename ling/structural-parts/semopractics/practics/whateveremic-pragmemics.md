@@ -23,3 +23,7 @@ Examples of ⟮＿backchannels＿⟯ in English are e.g. ⟮"yeah", "uh-huh", "h
 ### hedge
 
 »⟮a hedge⟯« is ⟮＿a linguistic item＿⟯ used to express ⟮the ＿verdictive＿ ＿pragmatic act＿⟯ of ⟮expressing uncertainty⟯.
+
+### a hesitation marker
+
+A hesitation marker is a linguistic item expressing the expositive pragmatic act that that they are pausing to think but are not finished speaking.
