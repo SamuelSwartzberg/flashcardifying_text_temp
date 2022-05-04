@@ -50,6 +50,7 @@ Linearity is the presumtion that e/emic/etic units occur sequentially with 1-to-
 Linearity is probably untenable for most e/emic/etic units in most cases.
 A suprasegmental is a property of an emic system transgressing e/etic/emic unit dividers.
 Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
+A suprasegmental unit is a suprasegmental of which we don't want to say whether it's emic or etic.
 Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
 // emic/etic suprasegmental features
 // other section, but emic units may be disloged from their typical signifiers via suprasegmentals

@@ -1,5 +1,93 @@
 # suprasegmental phonology
 
+## suprasegmental units
+
+### the phonological hierarchy
+
+The phonological hierarchy is the ordering of phonic suprasegmental units from largetst to smallest.
+The prosodic hierarchy is the subset of the phonological hierarchy from the mora upwards.
+
+#### common phonological hierarchy
+
+1. Utterance
+2. Intonation phrase
+3. Phonological phrase
+4. Accentual phrase
+5. Clitic group
+6. Phonological word
+7. Foot
+8. Syllable
+9. Mora
+10. Phoneme
+11. Feature
+
+### units
+
+table:phonic suprasegmental unit|consists of|raison d' etre
+phonological word||phonological representation of lexemes
+foot|syllables
+mora||equal timing
+
+### symbols
+
+table:phonic suprasegmental unit|symbol
+utterance|U
+intonational phrase|I-phrase or ι
+phonological phrase|P-phrase or Φ
+clitic group|C
+phonological word|P-word or ω
+foot|F, Φ or Σ
+syllable|σ
+mora|μ
+
+### alternative names
+
+Phonological word =syn= prosodic word
+Intonational phrase =syn= full intonational phrase
+phonological phrase =syn= major phrase =syn= intermediate intonational phrase
+accentual phrase =syn= minor phrase
+
+### units in detail
+
+#### the syllable
+
+##### structure
+
+»⟮The syllable⟯« ⟮consists of⟯ ⟮＿onset＿⟯, ⟮＿nucleus＿⟯ and ⟮＿coda＿⟯.
+The ⟮＿onset＿⟯ and ⟮c_;＿coda＿⟯ go ⟮before⟯ and ⟮c_;after⟯ ⟮＿the nucleus＿⟯.
+⟮＿The nucleus＿⟯ is ⟮mandatory⟯, ⟮c-;＿the onset＿⟯ and ⟮c_;＿coda＿⟯ are ⟮optional⟯.
+⟮＿The nucleus＿⟯ is ⟮more ＿sonorous＿⟯ than the onset and coda.
+⟮＿The onset＿⟯ and ⟮c_;＿coda＿⟯ are ⟮less ＿sonorous＿ (than the nucleus)⟯.
+Typically, ⟮＿the nucleus＿⟯ is ⟮＿a vowel＿⟯.
+Typically, ⟮＿the onset and coda＿⟯ are ⟮＿consonants＿⟯.
+
+
+When writing syllables, ⟮＿vowels＿⟯ are typically indicated ⟮V⟯ and ⟮c-;＿consonants＿⟯ ⟮C⟯.
+»⟮An open syllable⟯« is a ＿syllable＿ ⟮without a ＿coda＿. (CV, V, ...)⟯ 
+»⟮A closed syllable⟯« is a ＿syllable＿ ⟮with a ＿coda＿. (CVC, VC, ...) ⟯
+
+
+»⟮The rhyme⟯« is ⟮the combination of ＿nucleus＿ and (optional) ＿coda＿⟯, since ⟮it's often used for that.⟯
+
+##### words and syllables
+
+table:name|consists of...
+»⟮monosyllable⟯«|⟮Word that consists of a single syllable⟯
+»⟮dibisyllable⟯«|⟮Word that consists of two syllables⟯
+»⟮trisyllable⟯«|⟮Word that consists of three syllables⟯
+»⟮polysyllable⟯«|⟮Word that consists of either more than one or more than three syllables⟯
+
+##### syllable juncture
+
+In the IPA, ⟮spaces⟯ as well as ⟮the stress/secondary stress symbols⟯ imply ⟮a syllable ＿juncture＿⟯.
+In the IPA, ⟮［.］⟯ or ⟮［$］⟯ expressedly indicate a ⟮syllable ＿juncture＿⟯.
+In the IPA, ⟮［‿］⟯ is used to imply ⟮a space⟯ ⟮without a syllable ＿juncture＿⟯.
+
+#### misc
+
+A <greek number>meter is a
+
+
 ## phonemic suprasegmental features
 
 The main ⟮＿phonemic suprasegmental features/feature classes/feature categories＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
@@ -7,30 +95,34 @@ The main ⟮＿phonemic suprasegmental features/feature classes/feature categori
 ### stress
 
 ⟮accent⟯ =syn= ⟮stress⟯
-»⟮Stress⟯« is the feature of the ⟮the relative emphasis⟯ given to ⟮a certain ＿segment＿⟯
+»⟮Stress⟯« is the feature of the ⟮the relative emphasis⟯ given to a phonic suprasegmental unit within a stress unit.
+A stress unit is a grouping of phonic suprasegmental unit into a larger phonic suprasegmental unit.
 
-#### what is stressed
+#### special cases
 
-The stressed 
-»⟮Word stress⟯« is ⟮＿stress＿⟯ placed on ⟮syllables⟯ within ⟮c_;words⟯.
-»⟮Sentence stress⟯« is ⟮＿stress＿⟯ placed on ⟮words⟯ within ⟮c_;sentences⟯.
-⟮＿Word stress＿⟯ may be ⟮＿fixed stress＿⟯ or ⟮＿lexical stress＿⟯.
-»⟮Fixed stress⟯« is ⟮＿word stress＿⟯ where ⟮the stress always falls on the nth syllable (e.g. the n-1th last in polish)⟯
-»⟮Lexical stress⟯« is ⟮＿word stress＿⟯ where ⟮which syllable will be stressed⟯ depends ⟮on the word⟯, and is ⟮lexically encoded⟯.
+Fixed stress is stress where the stress always falls on the nth unit within a stress unit.
+Word stress =syn= prosodic word stress.
+Sentence stress =syn= utterance stress.
+Lexical stress is prosodic word stress which is lexicalized.
 
 #### how is stress conveyed
 
-Stress can be conveyed by one or more of the feature categories loudness, length, tone, vowel articulation.
+The stress encoder (my term) is a feature class indicating what feature categories are used to encode stress.
+The stress encoder may be one or more of the feature categories loudness, length, tone, vowel articulation.
+»⟮Dynamic accent⟯« is ⟮＿stress＿⟯ encoded by a combination of stress encoder feature categories.
 
-##### names
 
-»⟮Pitch accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through pitch alone⟯.
-»⟮Quantitative accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through length alone⟯.
-»⟮Dynamic accent⟯« is ⟮＿stress＿⟯ ⟮conveyed through a combination of properties⟯.
+table:name|stress encoder
+»⟮pitch accent⟯«|pitch
+»⟮quantitative accent⟯«|length
 
 #### levels of stress
 
-Sometimes the »⟮levels of stress⟯« ⟮primary⟯ and ⟮c_;secondary⟯ ⟮c_;stress⟯ are distinguished.
+The level of stress is the feature category indicating relative strength of the stress.
+The level of stress typically has the values primary, secondary.
+
+##### IPA
+
 the IPA symbols for stress always goes ⟮before⟯ ⟮the stressed element⟯.
 
 
@@ -97,87 +189,61 @@ In ⟮poetry⟯, often ⟮the slash⟯ is used to mark ⟮line breaks⟯.
 
 ### rhythm
 
-⟮Rhythm⟯ is a (typically) phonetic-only suprasegmental feature 
+⟮Rhythm⟯ is a (typically) phonetic-only (but typologically relevant) suprasegmental feature indicating the timing of suprasegmental units
 
 ### isochrony
 
-»⟮Isochrony⟯« is the feature category rhythm indicating ⟮which ＿segments＿⟯ ⟮occupy equal time⟯.
-Isochrony may take on the feature values syllable, mora or stress.
+»⟮Isochrony⟯« is the feature category of rhythm indicating ⟮which ＿suprasegmental units＿⟯ ⟮occupy equal time⟯.
+Isochrony takes on feature values of the relevant suprasegmental unit.
+Most commonly isochrony may take on the feature values syllable, mora or foot.
 A whatever-timed languoid is a languoid with [isochrony: whatever].
 Phonetically, isochrony seems to only be a tendency.
-For [isochrony: stress], which unit occupies equal time is actually the interval between two stressed syllables.
+Foot-timed =syn= stress-timed
+Foot/stress-timing, which unit occupies equal time is actually the interval between two stressed syllables.
 
-### feet (unlear relation to the linguistic category rhythm)
+## metre
 
-»⟮A foot⟯« is ⟮a rythmic unit⟯ defined by ⟮on which syllable the stress lies.⟯
+Metre is a system taking advantage of/arising from the suprasegmental phonology of a given languoid.
+A metrical suprasegmental unit (my term) is a suprasegmental unit created for/used in metre.
+Scansion is determining the metre of something.
+A scansion representation system (my term) is a system used to represent a scansion visually.
 
-#### number of feet
+### foot-based
 
-table:Meter|Number of feet
-⟮Trimeter⟯|⟮3⟯
-⟮Tetrameter⟯|⟮4⟯
-⟮Pentameter⟯|⟮5⟯
+Foot-based metre is metre based on stanzas, lines and feet.
+A stanza is a metrical suprasegmental unit consisting of n lines.
+A line is a metrical suprasegmental unit consisting of n feet.
+A <greek number>metre is a metre where the lines are <number>feet long
+
+#### scansion representation
+
+table:system|stress|no stress
+slash & x | / | x
 
 #### type of feet
 
+##### 2σ
+
 table:Foot|Pattern|Mnemonic
-⟮Iamb⟯|⟮daDA⟯
-⟮Trochee⟯|⟮DAda⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
+⟮Iamb⟯|⟮x/⟯
+⟮Trochee⟯|⟮/x⟯|⟮c:∞;⁑Tro⁑chees; ⁑tro⁑phies¶
 ⁑Dou⁑ble, ⁑dou⁑ble, ⁑toil⁑ and ⁑trou⁑ble;⁑Fi⁑re ⁑burn⁑ and ⁑cauld⁑ron ⁑bubb⁑le.⟯
-⟮Anapest⟯|⟮dadaDA⟯|⟮c:∞;Jeder dritte stirbt durch die pest.¶
+
+##### 3σ
+
+table:Foot|Pattern|Mnemonic
+⟮Anapest⟯|⟮xx/⟯|⟮c:∞;Jeder dritte stirbt durch die pest.¶
  Die pest gewann den dritten platz auf der rangliste "Größte tragödien der Menschheitsgeschichte". Ana⁑pest⁑¶
  Twas the ⁑night⁑ before ⁑Christ⁑mas and ⁑all⁑ through the ⁑house⁑⟯
-⟮Dactyl⟯|⟮DAdada⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us ¶
+⟮Dactyl⟯|⟮/xx⟯|⟮c:∞;⁑Just⁑ for a ⁑hand⁑ful of ⁑sil⁑ver he ⁑left⁑ us ¶
 ⁑Just⁑ for a ⁑rib⁑and to ⁑stick⁑ in his ⁑coat⁑⟯
-⟮Choriamb⟯|⟮DAdadaDA⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
-⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
-⟮Molossus⟯|⟮DA DA DA⟯|
-⟮Amphibrach⟯|⟮da DA da⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
+⟮Molossus⟯|⟮///⟯|
+⟮Amphibrach⟯|⟮x/x⟯|⟮c:∞;If amphibrach was an amphibrach, it would have a stressed 21st greek letter (phi)¶
 「There ⁑once⁑ was / a ⁑girl⁑ from / Nan⁑tuc⁑ket.」⟯
 
-## units
+##### 4σ
 
+table:Foot|Pattern|Mnemonic
+⟮Choriamb⟯|⟮/xx/⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
+⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
 
-
-
-
-
-### the syllable
-
-#### structure
-
-»⟮The syllable⟯« is ⟮the next higher linguistic unit⟯ for ⟮＿phonemes＿⟯.
-⟮＿The syllable＿⟯ is typically represented by ⟮σ⟯.
-»⟮The syllable⟯« ⟮consists of⟯ ⟮＿onset＿⟯, ⟮＿nucleus＿⟯ and ⟮＿coda＿⟯.
-The ⟮＿onset＿⟯ and ⟮c_;＿coda＿⟯ go ⟮before⟯ and ⟮c_;after⟯ ⟮＿the nucleus＿⟯.
-⟮＿The nucleus＿⟯ is ⟮mandatory⟯, ⟮c-;＿the onset＿⟯ and ⟮c_;＿coda＿⟯ are ⟮optional⟯.
-⟮＿The nucleus＿⟯ is ⟮more ＿sonorous＿⟯ than the onset and coda.
-⟮＿The onset＿⟯ and ⟮c_;＿coda＿⟯ are ⟮less ＿sonorous＿ (than the nucleus)⟯.
-Typically, ⟮＿the nucleus＿⟯ is ⟮＿a vowel＿⟯.
-Typically, ⟮＿the onset and coda＿⟯ are ⟮＿consonants＿⟯.
-
-
-When writing syllables, ⟮＿vowels＿⟯ are typically indicated ⟮V⟯ and ⟮c-;＿consonants＿⟯ ⟮C⟯.
-»⟮An open syllable⟯« is a ＿syllable＿ ⟮without a ＿coda＿. (CV, V, ...)⟯ 
-»⟮A closed syllable⟯« is a ＿syllable＿ ⟮with a ＿coda＿. (CVC, VC, ...) ⟯
-
-
-»⟮The rhyme⟯« is ⟮the combination of ＿nucleus＿ and (optional) ＿coda＿⟯, since ⟮it's often used for that.⟯
-
-#### words and syllables
-
-table:name|consists of...
-»⟮monosyllable⟯«|⟮Word that consists of a single syllable⟯
-»⟮dibisyllable⟯«|⟮Word that consists of two syllables⟯
-»⟮trisyllable⟯«|⟮Word that consists of three syllables⟯
-»⟮polysyllable⟯«|⟮Word that consists of either more than one or more than three syllables⟯
-
-#### syllable juncture
-
-In the IPA, ⟮spaces⟯ as well as ⟮the stress/secondary stress symbols⟯ imply ⟮a syllable ＿juncture＿⟯.
-In the IPA, ⟮［.］⟯ or ⟮［$］⟯ expressedly indicate a ⟮syllable ＿juncture＿⟯.
-In the IPA, ⟮［‿］⟯ is used to imply ⟮a space⟯ ⟮without a syllable ＿juncture＿⟯.
-
-### morae
-
-»⟮A mora⟯« is a unit of ⟮equal timing⟯.
