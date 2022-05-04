@@ -160,7 +160,7 @@ Alternatively, we can analyze a feature category as a set of features that toget
 
 ##### seemingly sui generis
 
-»⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semantic feature＿⟯.
+»⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
 ### polysemy
 
@@ -300,7 +300,6 @@ Lemma is the only emma for which the term actually already exists.
 
 ### features
 
-distinctive feature = phonemic feature TODO: no, distinctive feature has to do with being distinctive, also create non-distinctive feature
 semantic feature = ambiguous between semic and sememic feature
 grammatical feature = ambiguous between grammic and grammemic feature
 

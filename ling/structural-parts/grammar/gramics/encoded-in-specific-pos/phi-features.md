@@ -20,12 +20,12 @@ Typically, if a languages has them, ⟮any given noun⟯ has a ⟮fixed⟯ ⟮�
 
 ## number
 
-»⟮Grammatical number⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮＿sememes/semantic features＿⟯ of ⟮c_;＿the semantic (feature)＿ category⟯ ⟮setlike⟯
+»⟮Grammatical number⟯« is ⟮＿a phi-feature＿⟯ encoding ⟮＿sememes/semic features＿⟯ of ⟮c_;＿the semantic (feature)＿ category⟯ ⟮setlike⟯
 ⟮＿Grammatical number＿⟯ may be ⟮＿amount number＿⟯ or ⟮＿grouping number＿⟯
 
 ### amount
 
-»⟮Amount number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮＿amount＿ ＿semantic features＿⟯.
+»⟮Amount number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮＿amount＿ ＿semic features＿⟯.
 
 
 table:name|amount
@@ -41,7 +41,7 @@ In languoids with ⟮a ＿singular/plural＿ distinction⟯, most often ⟮＿th
 
 #### grouping
 
-»⟮Grouping number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮the ＿distributivity＿ ＿semantic feature＿⟯.
+»⟮Grouping number⟯« (my term) is ⟮＿grammatical number＿⟯ encoding ⟮the ＿distributivity＿ ＿semic feature＿⟯.
 The grammemes of ⟮＿grouping number＿⟯ are most commonly ⟮＿singulative＿⟯ and ⟮c_;＿collective＿⟯.
 The »⟮collective⟯« ⟮＿grouping number＿⟯ encodes ⟮[+collective] [+group]⟯.
 The »⟮singulative⟯« ⟮＿grouping number＿⟯ encodes ⟮[-collective] [-group]⟯.

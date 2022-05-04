@@ -114,7 +114,7 @@ In most languages, lexemes instantating ⟮＿numerals＿⟯ are either ⟮＿de
 
 ## deixis
 
-»⟮Deixis⟯« is the semantic feature class signifying context-dependent reference. 
+»⟮Deixis⟯« is the semic feature class signifying context-dependent reference. 
 Deixis consists of deicitic reference type and deictic reference basis.
 
 ### vs. indexicality
@@ -124,7 +124,7 @@ Deixis consists of deicitic reference type and deictic reference basis.
 
 ### deictic reference type
 
-Deictic reference type (my term) is the semantic feature class expressing what kind of item is being referenced.
+Deictic reference type (my term) is the semic feature class expressing what kind of item is being referenced.
 Deictic reference type may be personal, spatial, temporal or discourse.
 
 

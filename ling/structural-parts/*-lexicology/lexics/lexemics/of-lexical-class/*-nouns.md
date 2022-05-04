@@ -3,7 +3,7 @@
 
 ## uniqueness
 
-related to ⟮＿the semantic feature＿ unique⟯, ⟮＿nouns＿⟯ may be ⟮proper nouns⟯ or ⟮c_;common nouns⟯.
+related to ⟮＿the semic feature＿ unique⟯, ⟮＿nouns＿⟯ may be ⟮proper nouns⟯ or ⟮c_;common nouns⟯.
 »⟮A proper nouns⟯« is ⟮＿a noun＿⟯ with [+unique].
 »⟮A common noun⟯« is ⟮＿a noun＿⟯ with [-unique].
 

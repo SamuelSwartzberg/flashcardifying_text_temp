@@ -2,7 +2,7 @@
 
 ## grammatical person
 
-»⟮Grammatical person⟯« is ⟮＿the top-level grammatical feature category＿⟯ that encodes various sememe(s)/semantic features related to ⟮＿personal deixis＿⟯.
+»⟮Grammatical person⟯« is ⟮＿the top-level grammatical feature category＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
 ⟮＿Grammatical person＿⟯ is most frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯
 ^but sometimes also in other places
 ⟮Most languages⟯ distinguish ⟮three⟯ ⟮＿grammatical person＿⟯ ⟮＿grammemes＿⟯.
