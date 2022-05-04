@@ -1,32 +1,52 @@
-# distinctive features
+# phonic features
 
-»⟮A natural class⟯« is ⟮a set of ＿phonemes＿⟯ in a language that ⟮share certain ＿distinctive features＿⟯.
-⟮＿Distinctive features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
+»⟮A natural class⟯« is ⟮a set of ＿phonemes＿⟯ in a language that ⟮share certain ＿phonic features＿⟯.
+⟮＿phonic features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
 
-# major class features
+## major class features
 
-»⟮Major class features⟯« are a group of ⟮four⟯ ⟮＿distinctive features＿⟯ that ⟮share little in common⟯ ⟮＿phonetically＿⟯, but ⟮describe the overall type of a phoneme⟯.
-⟮The four ＿major class features＿⟯ are ⟮[+/- syllabic]⟯, ⟮[+/- approximant]⟯, ⟮[+/- consonantal or eqivalently +/- vocalic]⟯, ⟮[+/- sonorant]⟯
+»⟮Major class features⟯« are a group of ⟮four⟯ ⟮＿phonic features＿⟯ that ⟮share little in common⟯ ⟮＿phonetically＿⟯, but ⟮describe the overall type of a phone/phoneme⟯.
+⟮The four ＿major class features＿⟯ are ⟮[+/- consonantal or eqivalently +/- vocalic]⟯, ⟮[+/- sonorant]⟯, ⟮[+/- approximant]⟯, ⟮[+/- syllabic]⟯
 ⟮All ＿speech sounds＿⟯ ⟮have values⟯ for ⟮all of the four ＿major class features＿.⟯
 Ergo, ⟮all ＿speech sounds＿⟯ are either ⟮＿syllabic＿⟯ or ⟮c_;not⟯, either ⟮＿approximants (wide sense)＿⟯ or ⟮c_;not⟯, either ⟮＿consonants＿⟯ or ⟮c_;＿vowels＿⟯, either ⟮＿sonorants＿⟯ or ⟮c_;＿obstruents＿⟯.
 
-⟮＿Continuants＿⟯ contain ⟮all⟯ {⟮＿sonorants＿⟯, ⟮＿fricatives＿⟯}.
-Ergo ⟮all⟯ ⟮＿sonorants＿⟯ are ⟮＿continuants＿⟯.
-⟮＿Sonorants＿⟯ contain ⟮all⟯ {⟮＿approximants (wide sense)＿⟯, ⟮＿nasals＿⟯}.
-Ergo ⟮all⟯ ⟮＿approximants＿⟯ are ⟮＿sonorants＿⟯.
-⟮＿Approximants＿⟯ contain ⟮all⟯ {⟮＿syllabic sounds＿⟯, ⟮＿liquids＿⟯}.
-Ergo ⟮all⟯ ⟮＿syllabic sounds＿⟯ are ⟮＿approximants＿⟯.
-⟮＿Syllabic sounds＿⟯ contain ⟮all⟯ {⟮＿vowels＿⟯, ⟮＿semivowels＿⟯}.
+### relationships of major class features (and some others)
 
-## sonority
+```
+!⟮c+;s∞;us+,+2;Occlusive⟯
+!⟮c+;s∞;us+,+2;Continuant⟯
+!  ⟮c+;s∞;us+,+2;Fricative⟯
+!  ⟮c+;s∞;us+,+2;Sonorant⟯
+!    ⟮c+;s∞;us+,+2;Nasals⟯
+!    ⟮c+;s∞;us+,+2;Approximant⟯ (wide sense)
+!      ⟮c+;s∞;us+,+2;Liquids⟯
+!      ⟮c+;s∞;us+,+2;Syllabic sounds⟯
+!        ⟮c+;s∞;us+,+2;Vowels⟯ 
+!        ⟮c+;s∞;us+,+2;Semivowels⟯
+```
 
-»⟮Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯.
-⟮＿Sonority＿⟯ is defined via ⟮＿the sonority hierarchy＿⟯.
+### sonority
+
+»⟮Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯ ceteris paribus.
+»⟮The sonority hierarchy⟯« ⟮ranks sounds⟯ by ⟮＿their sonority＿⟯.
 ⟮＿Sonority＿⟯ mostly ⟮depends⟯ on ⟮＿the manner of articulation＿⟯.
-The most basic ⟮＿sonority hierarchy＿⟯ is ⟮＿vowels＿⟯ &gt; ⟮c_;＿consonants＿⟯
-A prototypical »⟮sonority hierarchy⟯« may be ⟮c+;s∞;us_-;vowels⟯ &gt; ⟮c+;s∞;us_-;semivowels⟯ &gt; ⟮c+;s∞;us_-;liquids⟯ &gt; ⟮c+;s∞;us_-;nasals⟯ &gt; ⟮c+;s∞;us_-;voiced fricatives⟯ &gt; ⟮c+;s∞;us_-;voiceless fricatives⟯ ≈ ⟮c+;s∞;us_-;voiced obstruents⟯ &gt; ⟮c+;s∞;us_-;voiceless obstruents⟯.
 
-### !major classes (+ continuant) sorted by sonority of their contents
+#### !most basic ⟮＿sonority hierarchy＿⟯
+
+!- ⟮＿vowels＿⟯
+!- ⟮c_;＿consonants＿⟯
+
+#### !prototypical »⟮sonority hierarchy⟯«
+
+!-  ⟮c+;s∞;us_-;vowels⟯ 
+!-  ⟮c+;s∞;us_-;semivowels⟯ 
+!-  ⟮c+;s∞;us_-;liquids⟯ 
+!-  ⟮c+;s∞;us_-;nasals⟯ 
+!-  ⟮c+;s∞;us_-;voiced fricatives⟯ 
+!-  ⟮c+;s∞;us_-;voiceless fricatives⟯ ≈ ⟮c+;s∞;us_-;voiced obstruents⟯ 
+!-  ⟮c+;s∞;us_-;voiceless obstruents⟯.
+
+#### !major classes (+ continuant) sorted by sonority of their contents
 
 table:major class|types of sounds contained sorted by sonority
 ⟮vocalic⟯|⟮vowels⟯
@@ -35,55 +55,60 @@ table:major class|types of sounds contained sorted by sonority
 ⟮sonorant⟯|⟮vowels + semivowels + liquids + nasals⟯
 ⟮continuant⟯|⟮vowels + semivowels + liquids + nasals + fricatives⟯
 
-Ergo the distinctive features ⟮c+;s∞;us_-;vocalic⟯ &gt; ⟮c+;s∞;us_-;syllabic⟯ &gt; ⟮c+;s∞;us_-;approximant⟯ &gt; ⟮c+;s∞;us_-;sonorant⟯ &gt; ⟮c+;s∞;us_-;continuant⟯ are progressively less strict about sonority.
+Ergo the phonic features ⟮c+;s∞;us_-;vocalic⟯ 
+!-  ⟮c+;s∞;us_-;syllabic⟯ 
+!-  ⟮c+;s∞;us_-;approximant⟯ 
+!-  ⟮c+;s∞;us_-;sonorant⟯ 
+!-  ⟮c+;s∞;us_-;continuant⟯ are progressively less strict about sonority.
 
-## consonants
+### major class features
 
-»⟮A consonant⟯« ⟮has an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
-»⟮A vowel⟯« ⟮does not have an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
-⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the distinctive feature＿ [+/- consonantal/vocalic]⟯
-⟮＿the distinctive feature＿⟯ ⟮[+/- consonantal]⟯ is ⟮c-;the same as⟯ ⟮[-/+ vocalic]⟯, which one uses is ⟮c-;up to preference⟯.
+#### consonants
+
+»⟮A consonant/vowel⟯« ⟮has/does not have⟯ ⟮an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
+⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the phonic feature＿ [+/- consonantal/vocalic]⟯
+⟮[+/- consonantal]⟯ ≙ ⟮[-/+ vocalic]⟯
 ⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
 
-## sonorants &amp; obstruents
+#### sonorants &amp; obstruents
 
-»⟮A sonorant⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮not obstructed⟯ ⟮at all⟯, or ⟮not to an extent sufficent to create turbulence⟯.
-»⟮An obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮obstructed⟯ ⟮completely⟯, or ⟮to an extent sufficent to create turbulence⟯.
-Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the distinctive feature＿ [+sonorant]⟯
+»⟮A sonorant/obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is [not obsturcted, no turbulence]/[turbulence, completely obstructed]
+^interval notation
+Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the phonic feature＿ [+sonorant]⟯
 ⟮Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
 ⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯, ⟮＿fricatives＿⟯ or ⟮＿affricates＿⟯.
 
-## approximant
+#### approximant
 
-»⟮Approximants (wide sense)⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
-Whether something is ⟮＿an approximant in the wide sense＿⟯ is indicated by ⟮＿the distinctive feature＿ [+/- approximant]⟯.
+»⟮Approximants⎵wide⎵⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
+Whether something is ⟮＿an approximant⎵wide⎵＿⟯ is indicated by ⟮＿the phonic feature＿ [+/- approximant]⟯.
 
-### Liquids
+##### Liquids
 
-»⟮rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
-⟮＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
 »⟮Liquids⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯.
 »⟮Liquids⟯« consist of all ⟮＿rhotics＿⟯ and ⟮voiced lateral appoximants⟯.
 ⟮＿Liquids＿⟯ are grouped amongst other things because they often behave similar ⟮＿phonotactically＿⟯.
+»⟮rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
+⟮＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
 
-## syllabic
+#### syllabic
 
 »⟮Syllabic sounds⟯« are those which ⟮form ＿the nucleus＿ of ＿the syllable＿⟯.
-⟮＿Syllabic sounds＿⟯ are indicated by ⟮＿the distinctive feature＿ [+syllabic]⟯
+⟮＿Syllabic sounds＿⟯ are indicated by ⟮＿the phonic feature＿ [+syllabic]⟯
 
-### semivowels
+##### semivowels
 
 Phonologically, »⟮a semivowel⟯« is ⟮a ＿non-syllabic＿ ＿vowel＿ ([-syllabic] [+vocalic])⟯.
 Ergo ⟮＿a semivowel＿⟯ acts as ⟮a ＿coda＿ or ＿onset＿⟯.
 Phonetically, ⟮＿semivowels＿⟯ may ⟮be distinguished from⟯ ⟮＿vowels＿⟯ by the fact that ⟮they are one step lower on ＿the sonority hierarchy＿⟯.
 
-### syllabic consonants
+##### syllabic consonants
 
 Phonologically, »⟮a syllabic consonant⟯« is ⟮a ＿syllabic＿ ＿consonant＿ ([+syllabic] [+consonantal])⟯.
 Ergo ⟮＿a syllabic consonant＿⟯ acts as ⟮＿a nucleus＿⟯.
 Generally, ⟮＿syllabic consonants＿⟯ are still ⟮＿sonorants＿⟯, as ⟮they still require their ＿onset＿ and ＿coda＿ to be lower on ＿the sonority hierarchy＿⟯
 
-### !IPA
+##### !IPA
 
 ⟮＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
 ^Since it's sad.
