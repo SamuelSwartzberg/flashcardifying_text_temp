@@ -332,6 +332,8 @@ Writing is the language modality with producing: manual and recieving: visual.
 A language modality segment is the smallest segment in that language modality.
 A sign phone/phoneme is the language modality segment of sign.
 A speech phone/phoneme is the language modality segment of speech.
+A phone/phoneme is a sign phone/phoneme or speech phone/phoneme.
+A speech sound is ambigous between speech phone and speech phoneme.
 A graph/grapheme is the language modality segment of writing.
 
 ### language production.

@@ -163,11 +163,6 @@ table:phenomenon|IPA symbol
 »⟮An external open juncture⟯« is ⟮＿an open juncture＿⟯ that is ⟮marked⟯ by ⟮＿a pause＿⟯ (and thus ⟮c-;occurs⟯ at ⟮the beginning/end of an utterance⟯)
 »⟮A closed juncture⟯« is ⟮＿a phon juncture＿⟯ ⟮that is not at a word boundary, i.e. word-internal⟯.
 
-##### Other notations
-
-
-
-
 ## non-distinctive suprasegmental feature
 
 ### rhythm

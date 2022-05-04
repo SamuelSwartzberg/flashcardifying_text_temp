@@ -1,17 +1,8 @@
 # phonetics
 
-»⟮Phonetics⟯« is a branch of linguistics that studies ⟮＿phones＿⟯.
-
-⟮＿Phones＿⟯ and ⟮c_;＿phonemes＿⟯ may be produced via ⟮＿speech＿⟯ or via ⟮c_;＿sign＿⟯.
-»⟮A sign phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿sign＿⟯.
-»⟮A speech phone/phoneme⟯« (somewhat rare term) is ⟮＿a phone/phoneme＿⟯ ⟮produced via ＿speech＿⟯.
-
-»⟮A speech sound⟯« is ⟮＿a speech phone or phoneme＿⟯ where ⟮the classification into different phones⟯ is ⟮not at issue⟯.
-
 ## branches
 
-⟮＿Phonetics＿⟯ is traditionally divided into ⟮＿articulatory＿⟯, ⟮＿acoustic＿⟯ and ⟮＿auditory＿⟯.
-All of ⟮the three branches⟯ of ⟮＿phonetics＿⟯ are ⟮interested in ＿phones＿⟯ in ⟮different ways⟯.
+⟮＿Phonetics＿⟯ is traditionally divided into ⟮＿articulatory phonetics＿⟯, ⟮＿acoustic phonetics＿⟯ and ⟮＿auditory phonetics＿⟯.
 
 
 table:branch of phonetics|is concerned with what aspect of phones
