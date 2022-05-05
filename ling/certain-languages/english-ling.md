@@ -270,3 +270,9 @@ table:thing it is placeholding|language|value
 table:orthographic depth|language
 ⟮ortographically deep⟯|⟮English⟯
 ⟮ortographically shallow⟯|⟮spanish, japanese (kana)⟯
+
+
+
+
+
+In english orthography for ⟮american english⟯, ⟮a vowel grapheme⟯ + ⟮r grapheme⟯ frequently only indicates ⟮＿a rhotic vowel＿⟯ instead of ⟮an actual rhotic consonant⟯.
