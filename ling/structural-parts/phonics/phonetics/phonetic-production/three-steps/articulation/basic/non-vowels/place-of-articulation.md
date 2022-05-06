@@ -1,15 +1,5 @@
 # place of articulation
 
-»⟮The place distinctive features⟯« are concerned with ⟮the place⟯ of ⟮＿the active articulator＿⟯.
-⟮Most⟯ ⟮＿places of articulations＿⟯ have ⟮their own⟯ ⟮names⟯ ⟮c_-;separate⟯ from ⟮the combination of⟯ ⟮c_-2;the name⟯ of ⟮＿the active and passive place of articulation＿⟯.
-⟮Most⟯ ⟮＿places of articulation＿⟯ take ⟮their name⟯ from their ⟮＿passive place of articulation＿⟯. (reason: see below)
-For any ⟮＿passive place of articulation＿⟯, there are ⟮only a few possible⟯ ⟮＿active places of articulation.＿⟯
-Two sounds are »⟮homorganic⟯« if ⟮they share the same⟯ ⟮＿place of articulation＿⟯.
-
-## glottis
-
-⟮＿The glottis＿⟯ is sometimes ⟮considered to be⟯ ⟮＿a articulatory pair＿⟯ ⟮c_-;of its own⟯, though it is more properly part of ⟮＿phonation＿⟯.
-
 ## anatomy of the vocal tract
 
 flex-container:✫nasopharynx.jpg✫✫vocal-tract.jpg✫
@@ -37,7 +27,13 @@ From the front, ⟮the hard palate⟯ ⟮comes before⟯ ⟮the soft palate⟯
 
 #### tongue
 
-Tongue root
+The tongue is divided into three tongue parts.
+The tongue parts are: coronum, dorsum and radix.
+Something coronal/dorsal/radical involves the coronum/dorsum/radix of the tongue.
+The coronum is divided into three coronal parts.
+The coronal parts are: subapex, apex, and lamina
+laminum =syn= blade
+bottom → absolute tip → just behind the tip = subapex → apex → lamina
 
 ### nasal cavity
 
@@ -50,7 +46,18 @@ Tongue root
 »⟮The pharynx⟯« as a ⟮＿passive place of articulation＿⟯ is ⟮the back of⟯ ⟮＿the actual pharynx＿⟯.
 »⟮The epiglottis⟯« is ⟮a flap⟯ that sits ⟮at the back of the mouth⟯ and can ⟮seal ＿the epiglottis＿⟯.
 
-## passive place of articulation
+## place of articulation
+
+Two sounds are »⟮homorganic⟯« if ⟮they share the same⟯ ⟮＿place of articulation＿⟯.
+
+### naming
+
+The active/passive place of articulation name is the name of the active/passive place of articulation.
+The place of articulation name is the distinct name of a place of articulation.
+The place of articulation name is often the same as the passive place of articulation name.
+^given that there is often only one place of articulation performed with a given passive place of articulation
+
+### passive place of articulation
 
 ⟮＿Passive places of articulation＿⟯ from front to back: ⟮c+;s∞;us_-;labial⟯, ⟮c+;s∞;us_-;dental⟯, ⟮c+;s∞;us_-;prealveolar⟯, ⟮c+;s∞;us_-;alveolar⟯, ⟮c+;s∞;us_-;postalveolar⟯, ⟮c+;s∞;us_-;palatal⟯, ⟮c+;s∞;us_-;velar⟯, ⟮c+;s∞;us_-;uvular⟯, ⟮c+;s∞;us_-;pharyngeal⟯, ⟮c+;s∞;us_-;epiglottal⟯, (⟮c+;s∞;us_-;glottal⟯)
 
@@ -68,28 +75,19 @@ table:name|place
 »⟮Epiglottal⟯«|⟮The walls at the entrance to the trachea⟯
 
 
-## !active place of articulation
+### !active place of articulation
+
+#### active place of articulation supercategory
 
 There are three ⟮＿active articulators＿⟯: ⟮Lips⟯, ⟮tongue⟯, and ⟮the pharynx⟯.
-The »⟮tongue articulator part⟯« (my term) is ⟮the general part of the tongue⟯ that ⟮approaches the ＿passive articulator＿⟯.
-There are three ⟮＿tongue articulator parts＿⟯: ⟮coronal⟯, ⟮dorsal⟯, and ⟮radical⟯
-Ergo ⟮＿coronal＿⟯, ⟮＿dorsal＿⟯ and ⟮＿radical＿⟯ active places of articulation are articulated with ⟮the tongue⟯ as ⟮＿the active articulator＿⟯.
-»⟮Labial⟯« is ⟮＿an active place of articulation supercategory＿⟯ articulated with ⟮the lips⟯ as ⟮＿the active articulator＿⟯ and thus also the active place of articulation.
-»⟮Pharyngeal⟯« is ⟮＿an active place of articulation supercategory＿⟯ articulated with the pharynx as the active articulator and thus also the active place of articulation.
-»⟮Coronal⟯« is ⟮＿an active place of articulation supercategory＿⟯ articulated with ⟮the front part of the tongue⟯ as ⟮＿the active place of articulation＿⟯.
-»⟮Dorsal⟯« is ⟮＿an active place of articulation supercategory＿⟯ articulated with ⟮the body of the tongue⟯ as ⟮＿the active place of articulation＿⟯.
-»⟮Radical⟯« is ⟮＿an active place of articulation supercategory＿⟯ articulated with ⟮the root/base of the tongue⟯ as ⟮＿the active place of articulation＿⟯.
+The »⟮tongue articulator part⟯« (my term) is the tongue part involved in articulation.
 »⟮The active place of articulation supercategory⟯« (my term) is either ⟮＿the active articulator＿ involved (if not tongue)⟯, or ⟮＿the tongue articulator part＿⟯.
-⟮＿The place distinctive features＿⟯ ⟮map onto⟯ ⟮＿the active place of articulation supercategory＿⟯, but minus ⟮the pharynx⟯.
-The four »⟮place distinctive features⟯« are ⟮[labial]⟯, ⟮[coronal]⟯, ⟮[dorsal]⟯, ⟮[radical]⟯
+The coronal place of articulation subcategory is the coronal part involved in articulation.
+The active place of articulation is either the active place of articulation supercategory or the coronal place of articulation.
 
-### labial
+#### details
 
-⟮＿labial＿⟯ active articulation may have a certain amount of ⟮＿rounding＿⟯.
-»⟮Rounding⟯« is ⟮how round the lips are⟯.
-⟮＿Labial＿⟯ active articulation with ⟮a high degree of ＿rounding⟯＿ is indicated by the distinctive feature ⟮[+round]⟯
-
-#### types
+##### protruded/compressed rounding
 
 flex-container:✫compressed-lip-rounding.jpg✫✫protruded-lip-rouding.jpg✫
 
@@ -97,71 +95,50 @@ flex-container:✫compressed-lip-rounding.jpg✫✫protruded-lip-rouding.jpg✫
 There are two forms of ⟮＿rounding＿⟯, ⟮＿protruded rounding＿⟯ and ⟮＿compressed rounding＿⟯.
 In »⟮protruded rounding⟯«, ⟮the lips⟯ ⟮push⟯ ⟮out of the face⟯ ⟮c_;to produce the ＿rounding＿⟯.
 In »⟮compressed rounding⟯«, ⟮the lips⟯ ⟮push⟯ ⟮onto each other⟯ ⟮c_;and do not push out to produce ＿rounding＿⟯.
-⟮There are no dedicated⟯ ⟮IPA diacritics⟯ to represent the distinction between ⟮＿compressed and protruded rounding＿⟯.
-In absence of a dedicated IPA letter, ⟮［◌ᵝ］⟯ or ⟮［◌ᶹ］⟯ are sometimes used for ⟮＿compressed rounding＿⟯.
-In absence of a dedicated IPA letter, ⟮［◌ʷ］⟯ is sometimes used for ⟮＿protruded rounding＿⟯.
-
-#### as secondary articulation
-
-»⟮Labialization⟯« is ⟮＿secondary articulation＿⟯ that is ⟮＿labial＿⟯.
-For ⟮＿consonants＿⟯, ⟮＿labialization＿⟯ if ⟮not further specified⟯ generally refers to ⟮c_-;＿labialization＿⟯ ⟮with very little rounding⟯.
-»⟮Vowel rounding⟯« is just ⟮＿labialization＿⟯ of ⟮＿vowels＿⟯ with ⟮a specific degree of ＿rounding＿⟯.
-⟮＿labialization＿⟯ is indicated in the IPA as ⟮［◌ʷ］⟯.
-⟮＿Labialization＿⟯ is ⟮the most common form⟯ of ⟮＿secondary articulation＿⟯.
-⟮＿Labialized＿⟯ sounds' ⟮＿places of articulation＿⟯ are often called ⟮labio-‹primary-articulation-place›⟯.
-
-##### common labialized consonants
-
-Since it is is ⟮so common⟯, ⟮dedicated IPA letters⟯ exist for ⟮some ＿labialized＿ sounds⟯.
-⟮［ɥ］⟯ is a ⟮voiced⟯ ⟮labio-palatal⟯ ⟮approximant⟯
-
-###### labiovelars
-
-The most common ⟮＿labialized＿⟯ consonants are the ⟮labiovelars⟯.
-［⟮ʍ⟯］ is a ⟮voice​less⟯ ⟮labio​velar⟯ ⟮approxi​mant⟯
-［⟮w⟯］ is a ⟮voiced⟯ ⟮labiovelar⟯ ⟮approximant⟯
-
-#### relative articulation
-
-labialization having ⟮a greater/lesser degree of ＿rounding＿ than usual⟯ may be indicated in the IPA by ⟮a half-circle below the symbol⟯
 
 
-table:rounding|symbol
-⟮less rounding⟯|⟮［◌̜］⟯
-⟮more rounding⟯|⟮［◌̹］⟯
+#### corollaries
 
-### tongue
+⟮＿Consonants＿⟯ are typically either ⟮[+dorsal] or [-dorsal]⟯.
+⟮＿All vowels＿⟯ are ⟮[+dorsal]⟯.
 
-#### coronal
+#### features
 
-The ⟮＿coronal＿⟯ ⟮＿ tongue articulator part＿⟯ is further sudivided into ⟮＿laminal＿⟯, ⟮＿apical＿⟯ and ⟮＿subapical＿⟯ ⟮＿active places of articulation＿⟯.
-»⟮The tip (of the tongue)⟯« is ⟮its absolute tip⟯, ⟮just in front of⟯ ⟮＿the blade＿⟯.
-»⟮The blade (of the tongue)⟯« it's ⟮the upper front surface⟯ ⟮just behind⟯ ⟮＿the tip＿⟯.
-»⟮Laminal⟯« is ⟮＿an active place of articulation＿⟯ at ⟮＿the blade of the tongue＿⟯.
-»⟮Apical⟯« is ⟮＿an active place of articulation＿⟯ at ⟮＿the tip of the tongue＿⟯.
-»⟮Subapical⟯« is ⟮＿an active place of articulation＿⟯ on ⟮the underside of ＿the tip of the tongue＿⟯.
+##### place
+
+»⟮The place features⟯« describe ⟮the place⟯ of ⟮＿an active articulator＿⟯.
+⟮＿The place features＿⟯ ⟮map onto⟯ ⟮＿the active place of articulation supercategory＿⟯, but minus ⟮the pharynx⟯.
+The four »⟮place features⟯« are ⟮[labial]⟯, ⟮[coronal]⟯, ⟮[dorsal]⟯, ⟮[radical]⟯
+Sounds that are [+ labial] may further be [+/- round].
+
+##### others
+
 ⟮＿Laminal＿⟯ and ⟮c_;＿subapical＿⟯ ⟮＿active places of articulation＿⟯ are identified by the distinctive feature ⟮[+distributed]⟯.
 ⟮＿Apical＿⟯ ⟮＿active places of articulation＿⟯ are identified by the distinctive feature ⟮[-distributed]⟯.
 
-##### ipa
+#### ipa
 
 The subdivision of coronal sounds can ⟮only⟯ be indicated by ⟮c_;diacritics⟯.
+⟮＿labialization＿⟯ is indicated in the IPA as ⟮［◌ʷ］⟯.
 
 
 table:coronal articulation|symbol|mnemonic
 ⟮laminal⟯|⟮［◌̻］⟯|⟮h∞;a square is lame⟯
 ⟮apical⟯|⟮［◌̺］⟯
 
-#### dorsal
+##### rounding
 
-⟮＿Consonants＿⟯ are typically either ⟮[+dorsal] or [-dorsal]⟯.
-⟮＿All vowels＿⟯ are ⟮[+dorsal]⟯.
-⟮＿Vowels＿⟯ ⟮further subdivide⟯ ⟮[+dorsal]⟯.
-The further distinctive feature subdivision of ⟮[+dorsal]⟯ is ⟮[+/- high/mid/low]⟯, ⟮[+/- back/central/front]⟯
+⟮There are no dedicated⟯ ⟮IPA diacritics⟯ to represent the distinction between ⟮＿compressed and protruded rounding＿⟯.
+In absence of a dedicated IPA letter, ⟮［◌ᵝ］⟯ or ⟮［◌ᶹ］⟯ are sometimes used for ⟮＿compressed rounding＿⟯.
+In absence of a dedicated IPA letter, ⟮［◌ʷ］⟯ is sometimes used for ⟮＿protruded rounding＿⟯.
 
-## articulator pairs
+### place of articulation
 
-### articulation names
+#### glottis
+
+⟮＿The glottis＿⟯ is sometimes ⟮considered to be⟯ ⟮＿a articulatory pair＿⟯ ⟮c_-;of its own⟯, though it is more properly part of ⟮＿phonation＿⟯.
+
+#### place of articulation names
 
 table:class=yesno;style=text-align:center;Active place of articulation supercategory→|span=1,3;labial    |span=3;coronal                                                                                                            |span=1,3;dorsal    |span=1,3;radical|span=1,3;aryepiglottal
 !Active place of articulation →                                                                          span=1,2;laminal       |span=1,2;apical                                    |span=1,2;subapical
@@ -178,12 +155,12 @@ table:class=yesno;style=text-align:center;Active place of articulation supercate
 !Epiglottal                                                                          |class="no";        |class=no;              |class=no;                                          |class=no;                                     |class=no;          |class=no;       |⟮s∞;(ary-)epiglottal⟯
 !Glottal                                                                             |class="no";        |class=no;              |class=no;                                          |class=no;                                     |class=no;          |class=no;       |⟮s∞;glottal⟯
 
-### distinctive features
+#### distinctive features
 
 Sounds with a ⟮＿coronal＿⟯ ⟮＿active place of articulation supercategory＿⟯ that have ⟮＿a dental, prealveolar or alveolar＿⟯ ⟮＿passive place of articulation＿⟯ have the distinctive feature ⟮[+anterior]/[-posterior]⟯
 Sounds with a ⟮＿coronal＿⟯ ⟮＿active place of articulation supercategory＿⟯ that have a ⟮＿postalveolar＿⟯ ⟮＿passive place of articulation＿⟯ have the distinctive feature ⟮[-anterior]/[+posterior]⟯
 
-### details
+#### details
 
 »⟮Retroflex⟯« (strong) is when ⟮the tongue is curled⟯, which generally means ⟮＿subapical＿⟯ and ⟮＿palatal＿ (ggf ＿postalveolar＿)⟯.
 »⟮Retroflex⟯« (weak/technically not) is ⟮＿apical＿⟯ ⟮＿postalveolar＿⟯.

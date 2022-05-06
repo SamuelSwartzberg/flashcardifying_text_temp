@@ -8,12 +8,30 @@
 
 »⟮c10;Secondary articulation⟯« is ⟮＿co-articulation＿⟯ where ⟮the second ＿place of articulation＿⟯ has ⟮a ＿manner＿ of ＿approximant＿⟯.
 
+### specific forms
+
+#### labialization
+
+Labialization is typically [- round] for consonants.
+⟮＿Labialized＿⟯ sounds' ⟮＿places of articulation＿⟯ are often called ⟮labio-‹primary-articulation-place›⟯.
+The most common ⟮＿labialized＿⟯ consonants are the ⟮labiovelars⟯.
+
 ### IPA
 
 ⟮c14;＿Secondary articulation＿⟯ is indicated in the IPA by ⟮superscripting⟯ the ⟮relevant ＿approximant＿ character⟯.
 ^e.g. labialization:［◌ʷ］, pharyngealization:［◌ˤ］, velarization:［◌ˠ］
 ⟮c17;［ɫ］⟯ is an exeption, indicating ⟮velarization or pharyngialization⟯.
 Despite ⟮c19;superscripting⟯ being shared between ⟮＿release＿⟯ and ⟮c_;＿secondary articulation＿⟯ notation, the former is ⟮sequential⟯ while the latter is ⟮c_;simultaneous⟯.
+
+#### specific characters
+
+Since it is is ⟮so common⟯, ⟮dedicated IPA letters⟯ exist for ⟮some ＿labialized＿ sounds⟯.
+
+
+table:IPA|description
+［⟮ɥ⟯］|⟮voiced⟯ ⟮labio-palatal⟯ ⟮approximant⟯
+［⟮ʍ⟯］|⟮voice​less⟯ ⟮labio​velar⟯ ⟮approxi​mant⟯
+［⟮w⟯］|⟮voiced⟯ ⟮labiovelar⟯ ⟮approximant⟯
 
 ### naming
 

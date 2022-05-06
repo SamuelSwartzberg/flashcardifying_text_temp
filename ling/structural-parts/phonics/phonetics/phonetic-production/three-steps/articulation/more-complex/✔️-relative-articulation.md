@@ -2,7 +2,7 @@
 
 »⟮c1;Relative articulation⟯« is the description of ⟮＿the place/manner of articulation＿⟯ ⟮relative to some reference point⟯.
 »⟮c4;vowel relative articulation⟯« (my term) is ⟮＿relative articulation＿⟯ ⟮mainly applied to vowels⟯.
-The main forms of ⟮c7;＿relative articulation＿⟯ are ⟮＿advanced/retracted＿⟯, ⟮＿raised/lowered＿⟯, and ⟮＿advanced/retracted tongue root＿⟯.
+The main forms of ⟮c7;＿relative articulation＿⟯ are ⟮＿advanced/retracted＿⟯, ⟮＿raised/lowered＿⟯, ⟮＿advanced/retracted tongue root＿⟯ and ⟮c49;more/less rounding⟯
 The main forms of ⟮c11;＿vowel relative articulation＿⟯ are ⟮＿centralized＿⟯ and ⟮＿mid-centralized＿⟯.
 
 ## forms of relative articulation
@@ -13,6 +13,7 @@ table:relative articulation name|description
 »⟮c14;advanced/retracted⟯«|⟮farther to the front/back of the vocal tract⟯
 »⟮c16;raised/lowered⟯«|⟮＿the active articulator＿⟯ ⟮raised higher/lower⟯
 »⟮c19;advanced or retracted tongue root⟯«|⟮＿the tongue root＿⟯ ⟮moving forward/backward⟯, ⟮expanding/shringking⟯ ⟮＿the pharyngeal cavity＿⟯.
+»⟮c16;more/less rounding⟯«|⟮TODO⟯
 
 
 ⟮c24;advanced/retracted⟯ =syn= ⟮fronted/backed⟯
@@ -33,6 +34,7 @@ table:relative articulation|IPA symbol
 ⟮c38;advanced/retracted⟯|⟮［◌̟］/［◌̠］⟯
 ⟮c40;raised/lowered⟯|⟮［◌̝］/［◌̞］⟯
 ⟮c42;advanced/retracted tongue root⟯|⟮［◌̘］/［◌̙］⟯
+⟮c48;more/less rounding⟯|⟮［◌̹］⟯/⟮［◌̜］⟯
 ⟮c44;centered⟯|⟮［◌̈］⟯
 ⟮c46;mid-centralized⟯|⟮［◌̽］⟯
 

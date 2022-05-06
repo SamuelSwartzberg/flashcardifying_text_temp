@@ -2,17 +2,23 @@
 
 The vowel quality feature categories are phonic potentially distinctive features for vowels.
 Vowel quality is defined by the vowel quality feature catergories.
-The vowel quality feature categories are (tongue) height, (tongue) backness, and (lip) rouding
+The vowel quality feature categories are the dorsal feature categories and labialization/rounding.
 
-## vowel quality features
+## dorsal feature categories
 
-table:vowel feature category|feature values
-⟮tongue height⟯|close/close-mid/mid/open-mid/open
-⟮tongue backness⟯|front/central/back
-⟮lip rounding⟯|labial/round
+### basics
 
+The dorsal feature categories ⟮further subdivide⟯ ⟮[+dorsal]⟯.
+The dorsal feature categories are height and backness.
+Height/backness are of the dorsum of the tongue.
 
-Many theories of vowel quality feature categories posit less than the maximum amount of feature values, instead deriving them from other features.
+### values
+
+table:dorsal feature category|feature values
+⟮height⟯|close/close-mid/mid/open-mid/open
+⟮backness⟯|front/central/back
+
+Many theories of vowel quality feature categories posit less than the maximum amount of dorsal feature values, instead deriving them from other features.
 ⟮close/open⟯ =syn= ⟮high/low⟯
 
 ## formants
