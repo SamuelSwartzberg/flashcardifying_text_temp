@@ -69,6 +69,7 @@ Ergo the phonic features ⟮c+;s∞;us_-;vocalic⟯
 ⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the phonic feature＿ [+/- consonantal/vocalic]⟯
 ⟮[+/- consonantal]⟯ ≙ ⟮[-/+ vocalic]⟯
 ⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
+⟮All ＿consonants＿⟯ are ⟮[+dorsal] or [-dorsal]⟯, all ⟮c-;＿vowels＿⟯ are ⟮[+dorsal]⟯.
 
 #### sonorants &amp; obstruents
 

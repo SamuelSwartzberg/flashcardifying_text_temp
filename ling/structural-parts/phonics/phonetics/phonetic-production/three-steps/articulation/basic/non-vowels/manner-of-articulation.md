@@ -1,14 +1,14 @@
 # manner of articulation
 
-Featurally, the ⟮＿manner of articulation＿⟯ is described by ⟮5⟯ ⟮＿manner distinctive features＿⟯.
+A manner feature is a phonic feature describing the manner of articulation.
 ⟮The 5 ＿manner distinctive features＿⟯ are ⟮[+/- continuant]⟯, ⟮[+/- nasal]⟯, ⟮[+/- strident]⟯, ⟮[+/- lateral]⟯, ⟮[+/- delayed release]⟯.
 
 ## continuant
 
-In all cases, ⟮stop⟯ is a synonym to ⟮occlusive⟯.
+⟮stop⟯ =syn= ⟮occlusive⟯.
 An »⟮occlusive⟯« is a sound that ⟮obstructs airflow⟯ ⟮anywhere but the nose⟯.
 ⟮＿A continuant＿⟯ is the opposite of ⟮＿an occlusive＿⟯.
-Whether something is ⟮＿a continuant or occlusive＿⟯ is indicated by the distinctive feature ⟮[+/- continuant]⟯.
+⟮＿a continuant or occlusive＿⟯ is indicated by the distinctive feature ⟮[+/- continuant]⟯.
 ⟮Oral occlusive⟯ may be shortened to ⟮stop/occlusive⟯, but this is confusing, so I won't.
 
 ### release

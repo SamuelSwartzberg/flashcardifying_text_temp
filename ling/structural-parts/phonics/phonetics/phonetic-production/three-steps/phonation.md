@@ -2,25 +2,17 @@
 
 »⟮Phonation⟯« is ⟮any state⟯ of ⟮＿the larynx＿⟯ that ⟮modifies ＿the airstream＿⟯.
 ⟮＿Phonation＿⟯ may sometimes more narrowly refer to ⟮＿voicing＿⟯.
-The distinctive features related to ⟮＿phonation＿⟯ are the ⟮＿laryngeal distinctive features＿⟯.
-There are ⟮three⟯ ⟮＿laryngeal distinctive features.＿⟯
-⟮The three ＿laryngeal distinctive features＿⟯ are ⟮[+/- voiced]⟯, ⟮[+/- aspirated AKA spread glottis]⟯, ⟮[+/- glottalized AKA constricted glottis]⟯
+The laryngeal features are the phonic features related to the state of the glottis and thus to phonation.
+There are ⟮three⟯ ⟮＿laryngeal features.＿⟯
+⟮The three ＿laryngeal features＿⟯ are ⟮[+/- voiced]⟯, ⟮[+/- aspirated AKA spread glottis]⟯, ⟮[+/- glottalized AKA constricted glottis]⟯
 
-## anatomy
-
-⟮Vocal folds⟯ = ⟮vocal cords⟯.
-»⟮The larynx⟯« ⟮contains⟯ ⟮＿the vocal folds＿⟯.
-»⟮The glottis⟯« is ⟮the gap between⟯ ⟮＿the vocal folds＿⟯.
-⟮trachea⟯ = ⟮windpipe⟯.
-⟮＿The larynx＿⟯ ⟮sits on top of⟯ ⟮＿the trachea＿⟯.
 
 ## voicing
 
 »⟮Voicing⟯« is whether ⟮＿the vocal cords/folds＿⟯ are ⟮vibrating/not vibrating periodically⟯.
-⟮＿Voicing＿⟯ is indicated by the distinctive feature ⟮[+/- voice]⟯.
-»⟮Devoicing⟯« is something ⟮[+voice] → [-voice]⟯
-»⟮Voicing⟯« is something ⟮[-voice] → [+voice]⟯
-⟮Voiceless⟯ = ⟮unvoiced⟯
+⟮＿Voicing＿⟯ =feat=> ⟮[+/- voice]⟯.
+»⟮Devoicing/Voicing⟯« is something ⟮[+voice] →\← [-voice]⟯
+⟮Voiceless⟯ =syn= ⟮unvoiced⟯
 
 ### IPA
 
@@ -30,41 +22,54 @@ table:phenomenon|IPA
 
 ## spread glottis
 
-＿The distinctive feature＿ ⟮[+spread glottis]⟯ indicates that ⟮＿the vocal folds＿⟯ are ⟮wide open/drawn apart⟯.
-⟮All⟯ ⟮＿voiceless＿⟯ sounds have ⟮[+spread glottis]⟯.
-In addition, ⟮＿aspirated＿⟯ sounds and sounds ⟮with ＿breathy voice＿⟯ have ⟮[+spread glottis]⟯.
+＿The phonic feature＿ ⟮[+spread glottis]⟯ indicates that ⟮＿the vocal folds＿⟯ are ⟮wide open/drawn apart⟯.
+[-voice] implies ⟮[+spread glottis]⟯.
+No matter the voicing, ⟮＿aspirated＿⟯ sounds and sounds ⟮with ＿breathy voice＿⟯ have ⟮[+spread glottis]⟯.
 
 ### aspiration
 
-»⟮Aspiration⟯« when ⟮＿the vocal folds＿⟯ ⟮remain open⟯ ⟮after a sound is produced⟯.
-ergo ⟮[+spread glottis]⟯ for the purposes of ⟮＿aspiration＿⟯ means that ⟮the vocal folds remain open⟯ ⟮⁑after⁑ the articulation⟯.
-Since ⟮aspiration works somewhat differently⟯ from⟮ other [+spread glottis] feature⟯s, sometimes ⟮[+aspiration]⟯ is used.
+Aspiration is unarticulated voiceless air escaping before or after the main production.
+Aspiration may be pre- or postaspiration.
+Pre/postaspiration is aspiration before/after the main production.
+Aspiration is frequently used to mean postaspiration.
+Aspiration is either encoded as [+/- aspiration] or as one thing causing [+/- spread glottis].
 ⟮＿Aspiration＿⟯ is indicated in the ipa via ⟮［◌ʰ］⟯
+
+#### the mouthfeel
+
 ⟮＿Aspiration＿⟯ feels like ⟮a little burst of air⟯ to the speaker.
 ⟮The burst of air⟯ for ⟮＿aspiration＿⟯ can be felt by ⟮putting ones hand in front of one's mouth⟯ while saying something.
 
 ### breathy voice
 
-⟮Breathy voice⟯ is also called ⟮murmured voice.⟯
-»⟮Breathy voice⟯« is when the sound is ⟮＿voiced＿⟯, but ⟮＿the vocal folds＿⟯⟮ allow more air to escape⟯.
-⟮＿Breathy voice＿⟯ has the distinctive features ⟮[+spread glottis] [+voiced]⟯
+⟮Breathy voice⟯ =syn= ⟮murmured voice.⟯
+»⟮Breathy voice⟯« is when the sound is ⟮＿voiced＿⟯, but ⟮＿the vocal folds＿⟯ ⟮allow more air to escape⟯.
+⟮＿Breathy voice＿⟯ has the distinctive features ⟮[+spread glottis] [+voice]⟯
 ⟮＿Breathy voice＿⟯ is indicated in the IPA as ⟮［◌̤］⟯.
 
 ## constricted glottis
 
 »⟮Glottalization⟯« is ⟮the partial or complete closure or constriction⟯ of ⟮＿the glottis＿⟯.
-The distinctive feature ⟮[+constricted glottis]⟯ indicates ⟮＿glottalization＿⟯.
-More rarely, the distinctive feature ⟮[+glottalization]⟯ can indicate ⟮＿glottalization＿⟯.
+⟮＿glottalization＿⟯ =feat=> (⟮[+constricted glottis]⟯ =syn=  ⟮[+glottalization]⟯)
+
+### degree
+
 ⟮＿Glottalization＿⟯ may be ⟮＿partial glottalization＿⟯ or ⟮＿total glottalization＿⟯.
-»⟮A glottalized consonant/vowel⟯« is ⟮a consonant/vowel⟯ ⟮produced at the same time⟯ as ⟮＿total glottalization＿⟯.
+
+#### partial
+
 »⟮Stiff voice⟯« is ⟮very slight⟯ ⟮＿glottalization＿⟯.
 »⟮Creaky voice⟯« is ⟮＿partial glottalization＿⟯.
+
+#### total
+
+»⟮A glottalized consonant/vowel⟯« is ⟮a consonant/vowel⟯ ⟮produced at the same time⟯ as ⟮＿total glottalization＿⟯.
 ⟮Glottal stops⟯, ⟮glottalized consonants/vowels⟯ and ⟮consonants with an ＿glottal＿ ＿initiation mechanism＿⟯ all feature ⟮＿total glottalization＿⟯.
 
 ### glottal consonants
 
-»⟮glottal consonants⟯« have ⟮＿the glottis＿⟯ as ⟮＿their articulatior＿⟯, in a sense.
-⟮＿glottal consonants＿⟯ may have either of two ⟮＿manners of articulation＿⟯, ⟮＿oral occlusive＿⟯ or ⟮＿fricative＿⟯.
+»⟮A glottal consonant⟯« is a consonant with ⟮＿the glottis＿⟯ as ⟮＿their articulatior＿⟯, in a sense.
+⟮＿A glottal consonants＿⟯ may have the ⟮＿manners of articulation＿⟯ ⟮＿oral occlusive＿⟯ or ⟮＿fricative＿⟯.
 ⟮Only some⟯ ⟮＿glottal consonants＿⟯ are ⟮＿glottalized＿⟯ (since ⟮they are distinguished based on glottalization⟯).
 the ⟮glottal stop⟯ has the distinctive features ⟮[+constricted glottis] [-voice]⟯
 the ⟮voiceless glottal fricative⟯ has the distinctive features ⟮[-constricted glottis] [-voice]⟯
