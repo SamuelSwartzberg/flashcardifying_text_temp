@@ -35,6 +35,10 @@ flex-container:✫nasopharynx.jpg✫✫vocal-tract.jpg✫
 From the front, ⟮the hard palate⟯ ⟮comes before⟯ ⟮the soft palate⟯
 ⟮The soft palate⟯ is also called ⟮velum⟯.
 
+#### tongue
+
+Tongue root
+
 ### nasal cavity
 
 ### pharyngeal cavity
