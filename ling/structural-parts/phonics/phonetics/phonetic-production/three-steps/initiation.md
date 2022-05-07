@@ -1,14 +1,31 @@
 # initiation
 
-»⟮The airsteam⟯« is ⟮the stream of air⟯ which ⟮eventually becomes the sound⟯.
+## basics
+
+### initiation
+
 »⟮Initation⟯« is ⟮the production of⟯ ⟮＿the airstream＿⟯ via ⟮＿an airstream mechanism＿⟯.
-»⟮The initiator⟯« is ⟮the organ⟯ ⟮generating ＿the airstream＿⟯ in ⟮＿initation＿⟯.
-»⟮The air direction⟯« (somewhat rare term) is ⟮the direction of ＿the airstream＿⟯.
-»⟮The airstream mechanism⟯« is how the airstream is generated.
-»⟮The airstream mechanism⟯« is defined by the choice of ⟮＿initiator＿⟯ and ⟮＿air direction＿⟯.
+»⟮The airsteam⟯« is ⟮the stream of air⟯ which ⟮eventually becomes the sound⟯.
+»⟮The airstream mechanism⟯« is ⟮how ＿the airstream＿ is generated⟯.
 The airstream mechanism's initator may be defined by a set of adjectives corresponding to the initiator.
 
+### defining the airstream mechanism
+
+»⟮The airstream mechanism⟯« is defined by the ⟮＿initiator＿⟯ and ⟮＿air direction＿⟯.
+»⟮The initiator⟯« is ⟮the organ⟯ ⟮generating ＿the airstream＿⟯ in ⟮＿initation＿⟯.
+»⟮The air direction⟯« (somewhat rare term) is ⟮the direction of ＿the airstream＿⟯.
+
 ## !initiators
+
+⟮＿The initiator＿⟯ may be ⟮＿a default initiator＿⟯ or ⟮＿a non-default initiator＿⟯.
+
+### choice
+
+»⟮A default initiator⟯« (my term) is ⟮＿an initiator＿⟯ used ⟮by default in ＿natural languages＿⟯.
+⟮＿The default initiators＿⟯ are ⟮diaphragm+ribs+lungs⟯, ⟮glottis⟯ and ⟮tongue⟯.
+»⟮A non-default initiator⟯« (my term) is ⟮＿an initiator＿⟯ used ⟮only in disordered speech or other special circumstances⟯.
+The two ⟮＿non-default initators＿⟯ are ⟮the cheeks⟯ and ⟮esophagus⟯.
+⟮The esophagus⟯ is used as ⟮＿an initiator＿⟯ in the case of ⟮a larygectomy⟯.
 
 ### !names
 
@@ -19,57 +36,78 @@ table:adjective|initiator
 »⟮buccal⟯«|⟮cheeks⟯
 »⟮esophageal⟯«|⟮esophagus⟯
 
-### choice
-
-»⟮The default initiators⟯« (my term) are those ⟮＿initiators＿⟯ used ⟮in ＿natural languages＿⟯.
-⟮＿The default initiators＿⟯ are ⟮diaphragm+ribs+loungs⟯, ⟮glottis⟯ and ⟮tongue⟯.
-The ⟮two⟯ »⟮non-default initiators⟯« are ⟮only used⟯ in ⟮disordered speech⟯ or ⟮other special circumstances⟯.
-The two ⟮＿non-default initators＿⟯ are ⟮the cheeks⟯ and ⟮esophagus⟯.
-⟮The esophagus⟯ is used as ⟮＿an initiator＿⟯ in the case of ⟮a larygectomy⟯.
-
 ## air direction
 
-⟮＿Egressive/ingressive＿⟯ are technical terms for ⟮outward/inward⟯ ⟮＿air direction＿⟯.
 »⟮Air direction⟯« may be ⟮＿egressive＿⟯ or ⟮c_;＿ingressive＿⟯.
-for ⟮＿egressive air direction＿⟯, ⟮air pressure⟯ must be ⟮increased⟯.
-for ⟮＿ingressive air direction＿⟯, ⟮air pressure⟯ must be ⟮decreased⟯.
-»⟮Egressive/ingressive sounds⟯« are ⟮＿speech sounds＿⟯ with ⟮＿egressive/ingressive air direction＿⟯.
+Egressive/ingressive air direction is air flowing outward/inward
+for ⟮＿egressive/ingressive air direction＿⟯, ⟮air pressure⟯ must be ⟮increased/decreased⟯.
+»⟮An egressive/ingressive sound⟯« is a ⟮＿speech sound＿⟯ with ⟮＿egressive/ingressive air direction＿⟯.
 
 ## airstream mechanism
 
-The »⟮hypothetical default inititator airstream mechanisms⟯« (my term) are those ⟮＿airstream mechanisms＿⟯ that ⟮result from the combination⟯ of ⟮＿the default initators＿⟯ and ⟮＿air directions＿⟯.
-There are ⟮six (3*2) ⟯ ⟮＿hypothetical default inititator airstream mechanisms＿⟯.
-»⟮The actual airstream mechanisms⟯« are those ⟮＿hypothetical default inititator airstream mechanisms＿⟯ that ⟮are actually used⟯.
-There are ⟮four⟯ ⟮＿actual airstream mechanisms＿⟯.
-⟮Lingual/velaric egressive⟯ and ⟮pulmonic ingressive⟯ are ⟮＿the hypothetical default inititator airstream mechanisms＿⟯ which are ⟮not used in natural languages⟯.
-⟮pulmonic⟯ is commonly used for ⟮pulmonic egressive⟯ (for obvious reasons, see above)
-⟮＿The actual airstream mechanims＿⟯ are often divided into ⟮pulmonic egressive⟯ and ⟮non-pulmonic⟯.
-⟮＿Non-pulmonic airstream mechanisms＿⟯ are ⟮glottalic egressive⟯, ⟮glottalic ingressive⟯ and ⟮velaric/lingual ingressive⟯.
+### hypothetical
 
-### pulmonic egressive
+»⟮A hypothetical default inititator airstream mechanism⟯« (my term) is a ⟮＿airstream mechanism＿⟯ that ⟮results from the combination⟯ of ⟮＿a default initator＿⟯ and ⟮c_;＿air directions＿⟯.
+There are ⟮six (3*2) ⟯ ⟮＿hypothetical default inititator airstream mechanisms＿⟯.
+
+### actual
+
+»⟮An actual airstream mechanism⟯« is ⟮＿a hypothetical default inititator airstream mechanism＿⟯ that ⟮is actually used⟯.
+There are ⟮four⟯ ⟮＿actual airstream mechanisms＿⟯.
+⟮＿actual airstream mechanism＿⟯ = ⟮＿a hypothetical default inititator airstream mechanism＿⟯ ∖ {⟮Lingual/velaric egressive⟯, ⟮pulmonic ingressive⟯}
+⟮pulmonic egressive⟯ =short=> ⟮pulmonic⟯
+⟮＿The actual airstream mechanims＿⟯ are often divided into ⟮pulmonic egressive⟯ and ⟮non-pulmonic⟯.
+
+#### pulmonic egressive
 
 The ⟮＿pulmonic＿ ＿egressive＿ ＿airstream mechanism＿⟯ is ⟮the most common⟯ ⟮＿airstream mechanism＿⟯.
 In ⟮75⟯% of languages, the ⟮＿pulmonic＿ ＿egressive＿ ＿airstream mechanism＿⟯ is ⟮the only one used (!)⟯. 
 
-### non-pulmonic
+#### non-pulmonic
 
-»⟮A closure⟯« is ⟮a sealed area⟯ in ⟮＿the vocal tract＿⟯.
-⟮＿A closure＿⟯ is created via ⟮two⟯ ⟮closure points⟯.
-»⟮A closure point⟯« is where ⟮features of ＿the vocal tract＿⟯ create ⟮a barrier for air to not pass⟯.
-The ⟮frontmost⟯ ⟮＿closure point＿⟯ of ⟮＿all closures＿⟯ is always ⟮created by ＿(an) articulator(s)＿⟯.
-For ⟮＿non-pulmonic airstream mechanisms＿⟯, to produce ⟮＿the airflow＿⟯, there must be ⟮＿a closure＿⟯, ⟮one of whose ＿closure points＿⟯ is ⟮then released⟯.
-For ⟮＿non-pulmonic＿⟯ ⟮＿ingressive＿⟯ sounds, ⟮between⟯ ⟮＿the two closure points＿⟯ something is ⟮lowered⟯ to ⟮c_;create low pressure (suction)⟯, and then the ⟮second⟯ ⟮c_-2;＿closure point＿⟯ is ⟮released⟯.
-For ⟮＿non-pulmonic＿⟯ ⟮＿egressive＿⟯ sounds, ⟮between⟯ ⟮＿the two closure points＿⟯ something is ⟮raised⟯ to ⟮c_;create high pressure⟯, and then the ⟮first⟯ ⟮c_-2;＿closure point＿⟯ is ⟮released⟯.
+⟮＿Non-pulmonic airstream mechanisms＿⟯ = { ⟮glottalic egressive⟯, ⟮glottalic ingressive⟯, ⟮velaric/lingual ingressive⟯ }
 ⟮＿Non-pulmonic airstream mechanisms＿⟯ always produce ⟮＿obstruents＿⟯.
 
-#### glottalic
+##### closures
+
+»⟮A closure⟯« is ⟮a sealed area⟯ in ⟮＿the vocal tract＿⟯.
+⟮＿A closure＿⟯ is created via ⟮two⟯ ⟮＿closure points＿⟯.
+»⟮A closure point⟯« is ⟮a barrier for air to not pass⟯ created by ⟮features of ＿the vocal tract＿⟯.
+The closure piston (my term) is the part of the vocal contract between the two closure points that changes the pressure within the closure.
+The »⟮front/back closure point⟯« is ⟮＿the closure point＿⟯ ⟮further front/back in ＿the vocal tract＿⟯.
+The ⟮＿front closure point＿⟯ of ⟮＿all closures＿⟯ is always ⟮created by ＿(an) articulator(s)＿⟯.
+
+##### production
+
+###### general
+
+!⟮＿non-pulmonic airstream mechanisms＿⟯:
+!1. ⟮produce ＿closure＿⟯
+!2. do something with ⟮＿closure piston＿⟯
+!3. ⟮release a ＿closure point＿⟯
+
+###### ingressive
+
+!⟮＿non-pulmonic＿⟯ ⟮＿ingressive＿⟯ sounds:
+!1. ⟮produce ＿closure＿⟯
+!2. ⟮lower⟯ ⟮＿closure piston＿⟯ to ⟮c_;create low pressure⟯
+!3. release ⟮＿back closure point＿⟯
+
+###### egressive
+
+!⟮＿non-pulmonic＿⟯ ⟮＿egressive＿⟯ sounds:
+!1. ⟮produce ＿closure＿⟯
+!2. ⟮raise⟯ ⟮＿closure piston＿⟯ to ⟮c_;create high pressure⟯
+!3. release ⟮＿front closure point＿⟯
+
+##### glottalic
 
 In ⟮＿glottalic＿ ＿airstream mechanisms＿⟯, the ⟮second⟯ ⟮＿closure point＿⟯ is produced by ⟮＿the glottis＿⟯.
 In ⟮＿glottalic＿ ＿airstream mechanisms＿⟯, ⟮pressure⟯ is achieved by ⟮the raising/lowering⟯ of ⟮＿the glottis＿⟯.
 »⟮implosives⟯« are ⟮＿speech sounds＿⟯ produced by ⟮an ＿ingressive＿ ＿glottalic＿ ＿airstream mechanism＿⟯.
 »⟮ejectives⟯« are ⟮＿speech sounds＿⟯ produced by ⟮an ＿egressive＿ ＿glottalic＿ ＿airstream mechanism＿⟯.
 
-#### velaric
+##### velaric
 
 For ⟮the ＿velaric/lingual＿ ＿ingressive＿ ＿airstream mechanism＿⟯, the ⟮second⟯ ⟮＿closrue point＿⟯ is produced by ⟮＿the velum＿⟯.
 »⟮Clicks⟯« are ⟮＿speech sounds＿⟯ produced by ⟮a ＿velaric/lingual＿ ＿ingressive＿ ＿airstream mechanism＿⟯.
