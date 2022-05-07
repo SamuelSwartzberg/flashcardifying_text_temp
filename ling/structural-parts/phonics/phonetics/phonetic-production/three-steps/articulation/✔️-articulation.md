@@ -2,10 +2,10 @@
 
 ## articulation
 
-»⟮c1;An approach⟯« (my term) is ⟮a narrowing (however slight)⟯ of ⟮＿the vocal tract＿⟯.
-»⟮c4;The airflow modification⟯« (my term) is the ⟮modification of ＿the airflow＿⟯ by ⟮＿an approach＿⟯.
+»⟮c1;An constriction⟯« (my term) is ⟮a narrowing (however slight)⟯ of ⟮＿the vocal tract＿⟯.
+»⟮c4;The airflow modification⟯« (my term) is the ⟮modification of ＿the airflow＿⟯ by ⟮＿a constriction＿⟯.
 »⟮c7;The articulatory effect⟯« (my term) is ⟮the change in produced sound⟯ produced by ⟮＿the airflow modification＿⟯.
-»⟮c10;An articulation⟯« is ⟮＿an approach＿⟯ produced by ⟮＿an articulator pair＿⟯.
+»⟮c10;An articulation⟯« is ⟮＿a constriction＿⟯ produced by ⟮＿an articulator pair＿⟯.
 »⟮c13;Articulation⟯« is ⟮＿airflow modification＿⟯ via ⟮＿an articulation＿⟯.
 
 ## articulators

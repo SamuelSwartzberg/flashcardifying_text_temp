@@ -18,7 +18,7 @@ Ergo, ⟮all ＿speech sounds＿⟯ are either ⟮＿syllabic＿⟯ or ⟮c_;not
 !  ⟮c+;s∞;us+,+2;Fricative⟯
 !  ⟮c+;s∞;us+,+2;Sonorant⟯
 !    ⟮c+;s∞;us+,+2;Nasals⟯
-!    ⟮c+;s∞;us+,+2;Approximant⟯ (wide sense)
+!    ⟮c+;s∞;us+,+2;Approximant⎵wide⎵⟯ 
 !      ⟮c+;s∞;us+,+2;Liquids⟯
 !      ⟮c+;s∞;us+,+2;Syllabic sounds⟯
 !        ⟮c+;s∞;us+,+2;Vowels⟯ 
@@ -55,17 +55,18 @@ table:major class|types of sounds contained sorted by sonority
 ⟮sonorant⟯|⟮vowels + semivowels + liquids + nasals⟯
 ⟮continuant⟯|⟮vowels + semivowels + liquids + nasals + fricatives⟯
 
-Ergo the phonic features ⟮c+;s∞;us_-;vocalic⟯ 
-!-  ⟮c+;s∞;us_-;syllabic⟯ 
-!-  ⟮c+;s∞;us_-;approximant⟯ 
-!-  ⟮c+;s∞;us_-;sonorant⟯ 
-!-  ⟮c+;s∞;us_-;continuant⟯ are progressively less strict about sonority.
+Ergo the major class features are progressively less strict about sonority in this order:
+!- ⟮c+;s∞;us_-;vocalic⟯ 
+!- ⟮c+;s∞;us_-;syllabic⟯ 
+!- ⟮c+;s∞;us_-;approximant⟯ 
+!- ⟮c+;s∞;us_-;sonorant⟯ 
+!- ⟮c+;s∞;us_-;continuant⟯ 
 
 ### major class features
 
 #### consonants
 
-»⟮A consonant/vowel⟯« ⟮has/does not have⟯ ⟮an audible constriction⟯ of ⟮＿the vocal tract＿⟯.
+»⟮A consonant/vowel⟯« ⟮has/does not have⟯ ⟮an audible ＿constriction＿⟯ of ⟮＿the vocal tract＿⟯.
 ⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the phonic feature＿ [+/- consonantal/vocalic]⟯
 ⟮[+/- consonantal]⟯ ≙ ⟮[-/+ vocalic]⟯
 ⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
@@ -77,7 +78,7 @@ Ergo the phonic features ⟮c+;s∞;us_-;vocalic⟯
 ^interval notation
 Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the phonic feature＿ [+sonorant]⟯
 ⟮Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
-⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯, ⟮＿fricatives＿⟯ or ⟮＿affricates＿⟯.
+⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯ or ⟮＿fricatives＿⟯ or thus ⟮＿affricates＿⟯.
 
 #### approximant
 
