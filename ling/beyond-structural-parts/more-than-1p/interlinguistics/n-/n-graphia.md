@@ -1,4 +1,6 @@
-## 1:1, 1:n, n:m
+# writing systems
+
+## n-graphia
 
 n-graphia is having exactly n writing systems for a languoid.
 »⟮c1;2+/3+graphia⟯« (my term) is having 2/3 or more ＿writing systems＿ for a single languoid.
