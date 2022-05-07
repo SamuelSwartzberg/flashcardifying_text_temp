@@ -114,21 +114,6 @@ A »⟮focused speech community⟯« is one where ⟮there is agreement⟯ about
 A »⟮diffuse speech community⟯« is one where ⟮there is less/little agreement⟯ about ⟮the shared languoid's features⟯
 ⟮Each person⟯ belongs to ⟮many⟯ ⟮＿speech communities＿⟯.
 
-## diglossia 
-
-»⟮Diglossia⟯« is the situation where ⟮a speech community⟯ uses ⟮two (or more)⟯ ⟮＿languoids＿⟯ ⟮for separate purposes⟯.
-⟮vernacular variety⟯ = ⟮L variety⟯
-⟮high/formal/literary variety⟯ = ⟮H variety⟯
-For ⟮＿diglossia＿⟯ usually ⟮a L variety⟯ and ⟮a H variety⟯ exist
-
-
-table:variety|used in|native speakers
-⟮L⟯|⟮everyday situations⟯|⟮native speakers⟯
-⟮H⟯|⟮formal situations, literature⟯|⟮no native speakers⟯
-
-
-⟮　文語（ぶんご） (classical japanese)⟯ was ⟮a H variety⟯ during ⟮＿diglossia＿⟯.
-
 # the sociolinguistic situation of certain groups
 
 ## language and gender
