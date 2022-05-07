@@ -8,7 +8,7 @@
 
 #### koine
 
-»⟮A koine⟯« is ⟮＿a lingua franca＿⟯ which is a languoid of ⟮two mutually intelligible languages⟯.
+»⟮A koine⟯« is ⟮＿a lingua franca＿⟯ created from ⟮2+ mutually intelligible languoids⟯.
 
 #### auxiliary languages
 
@@ -19,24 +19,22 @@ An »⟮IAL⟯« is ⟮＿a lingua franca＿⟯ which is ⟮＿a conlang＿⟯ t
 
 ##### interlingua
 
-»⟮Interlingua⟯« is a ⟮＿naturalistic＿⟯ ⟮＿conlang＿⟯ ⟮＿IAL＿⟯ that takes ⟮＿its languemes＿⟯ mainly ⟮from the romance languages⟯.
-⟮＿interlingua＿⟯ aims to be ⟮comprehensible⟯ to ⟮romance language native speakers⟯ ⟮without having learned it⟯.
+»⟮Interlingua⟯« is a ⟮＿naturalistic＿⟯ ⟮＿IAL＿⟯ that takes ⟮＿its linguistic items＿⟯ mainly ⟮from the romance languages⟯.
 ⟮＿Interlingua＿⟯ is enabled in part by the existence of ⟮＿SAE＿⟯.
 
-##### pidgins and creoles
+#### pidgins and creoles
 
-»⟮A pidgin⟯« is a lingua franca which is ⟮grammatically simplified⟯ and develops when ⟮two communicating groups do not have a language in common⟯.
+»⟮A pidgin⟯« is ⟮＿a lingua franca＿⟯ which is ⟮grammatically simplified⟯ and develops when ⟮two communicating groups do not have a languoid in common⟯.
 
-###### pidgins
+##### pidgins
 
 ⟮＿Pidgins＿⟯ often develop in ⟮trade⟯ situations.
-⟮＿Pidgins＿⟯ usually have a ⟮limited⟯ ＿lexis＿ and ⟮low⟯ ＿presstige＿.
+⟮＿Pidgins＿⟯ usually have a ⟮limited⟯ set of ⟮＿linguistic items＿⟯ and ⟮c-;low⟯ ⟮＿prestige＿⟯.
 ⟮＿A pidgin＿⟯ is ⟮never⟯ spoken as ⟮a L1⟯. 
 
 ###### creoles
 
 The ⟮traditional view (has criticisms)⟯ is that »⟮a creole⟯« is ⟮＿a pidgin＿⟯ that has ⟮been nativized⟯.
-»⟮A mixed language⟯« is a language ⟮combining aspects of two or more languages⟯ but not ⟮clearly deriving primarily from any single language⟯
 
 ## language lifecycle
 
@@ -54,5 +52,11 @@ Languages are either ⟮＿natural languages＿⟯ or ⟮c_;＿constructed langu
 
 ### nativization
 
-»⟮nativization⟯« is a language ⟮gaining L1 speakers (from 0 to › 0)⟯.
+»⟮nativization⟯« is a languoid ⟮gaining L1 speakers (from 0 to › 0)⟯.
+
+## misc
+
+### mixed language
+
+»⟮A mixed language⟯« is a language ⟮combining aspects of two or more languages⟯ but not ⟮clearly deriving primarily from any single language⟯
 
