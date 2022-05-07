@@ -13,20 +13,28 @@ An »⟮occlusive⟯« is a sound that ⟮obstructs airflow⟯ ⟮anywhere but t
 
 ### release
 
-»⟮The release release⟯« (my term) of ⟮＿an occlusive＿⟯ is ⟮when ＿the articulators＿ are separated⟯.
-A sound with »⟮a silent release⟯« (my term) has ⟮＿a release release＿⟯ that ⟮is silent⟯.
-A sound with »⟮a no release release⟯« (my term) has ⟮no ＿release release＿⟯, ⟮instead transitioning to the next phone⟯.
+#### basics
+
+A release is how an occlusive ends.
+A release is either a release release or no release release.
+»⟮A release release⟯« (my term) is a release where ⟮＿the articulators＿ separatee⟯.
+»⟮a no release release⟯« (my term) is a release where the articulators do not separate, instead transitioning to another phone.
 ⟮＿A no release release＿⟯ must generally be ⟮＿homorganic＿⟯.
-»⟮Release⟯« is ⟮ambiguous between⟯ ⟮＿release release＿⟯ and ⟮＿no release release＿⟯.
-»⟮A only-maybe-release⟯« (my term) is either ⟮⟮＿a release release＿⟯ (including possibly ⟮＿a silent release＿⟯)⟯ or ⟮＿a no-release release.＿⟯
+
+#### silence
+
+»⟮A silent release⟯« (my term) is ⟮＿a release release＿⟯ that ⟮is silent⟯.
 »⟮No audible release⟯« is ⟮ambiguous between⟯ ⟮＿silent release＿⟯ and ⟮＿no release release＿⟯.
+
+#### no-release relaease
+
 »⟮A lateral release⟯« is ⟮＿a no release release＿⟯ where ⟮the next ＿speech sound＿⟯ is a ⟮＿lateral＿⟯ sound.
 »⟮A nasal release⟯« is ⟮＿a no release release＿⟯ where ⟮the next ＿speech sound＿⟯ is a ⟮＿nasal＿⟯ sound.
 
 #### affricate
 
 »⟮An affricate⟯« is ⟮＿an occlusive＿⟯ with ⟮＿a release release＿⟯ ⟮as ＿a fricative＿⟯, or equivalently, ⟮c-;＿a no release release＿⟯ ⟮into ＿a fricative＿⟯.
-Whether something is ⟮＿an affricate＿⟯ is indicated by the disinctive feature ⟮[+/- delayed release]⟯
+⟮＿an affricate＿⟯ =feat=> ⟮[+/- delayed release]⟯
 ⟮＿Affricates＿⟯ are transcribed in the IPA by ⟮uniting⟯ ⟮the ＿occlusive＿ and ＿fricative＿⟯ with ⟮a tie⟯ ⟮on top⟯ or more rarely ⟮c_;at the bottom⟯.
 p͡f, t͡ɕ etc.
 
