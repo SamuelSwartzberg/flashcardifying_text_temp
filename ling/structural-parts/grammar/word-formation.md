@@ -141,6 +141,7 @@ In english, using ⟮c195;ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿un
 ### inflection
 
 »⟮c198;Inflection⟯« is ⟮＿word formation＿⟯ via ⟮the use of ＿inflectional morphemes＿⟯, ergo to indicate ⟮＿grammemes＿⟯.
+»⟮Apophony⟯« is ⟮＿a change in sound＿⟯ to indicate ⟮＿inflection＿⟯.
 »⟮c202;An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
 »⟮c205;An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
 »⟮c208;The stem⟯« is ⟮＿the morpheme＿⟯ that is ⟮commonly used⟯ as ⟮a starting point for ＿inflection＿⟯.
