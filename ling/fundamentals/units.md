@@ -5,6 +5,7 @@ A whatever is a given e.
 An e unit refers to an abstract sign universe component.
 A whatever unit is a given e unit.
 The whatevername is the name we give to a whatever.
+The e world is everything relating to an e unit, including everything relating to emic/etic units, systems, etc. etc.
 
 ## emic 
 
@@ -86,8 +87,8 @@ While emic units vary based on the languoid, etic units and features are cross-l
 
 ### etic
 
-An etic unit is a division of an emic unit's signifier component into a number of variant forms.
-From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of variant forms.
+An etic unit is a division of an emic unit's signifier component into a number of alternants.
+From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of alternants.
 A whatevere is the etic unit of whatever.
 For a given whatever, a etic unit is called a whatevername+(ø or e)
 An emma is an etic unit chosen arbitrarily to represent the emic unit.

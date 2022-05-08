@@ -1,77 +1,75 @@
 # sociolinguistics as a discipline
 
 »⟮Socioloinguistics⟯« is the study of ⟮the interaction between⟯ ⟮society and language⟯.
-⟮＿dialectology＿⟯ is ⟮a subfield of⟯ ⟮sociolinguistics⟯.
-»⟮Dialectology⟯« is the study of ⟮varieties⟯.
+»⟮Dialectology⟯« is the branch of ⟮sociolinguistics⟯ studying ⟮varieties⟯.
 
 # variation
 
-A »⟮variant⟯« is ⟮a different ＿lingueme＿⟯ expressing ⟮the same ＿sememe＿/＿pragmeme＿⟯. 
+A »⟮variant⟯« is ⟮＿an alloetic unit＿⟯ that differs only in social meaning.
 A »⟮sociolinguistic variable⟯« is ⟮the set of⟯ ⟮＿variants＿⟯ that ⟮mean the same thing⟯.
 »⟮Variation⟯« is ⟮the fact of⟯ ⟮multiple variants existing (either in general, or for a specific situation)⟯
-⟮Exchanging⟯ ⟮a ＿variant＿⟯ ⟮c-;for another⟯ of ⟮the same ＿sociolinguistic variable⟯＿ ⟮changes⟯ ⟮the social meaning⟯, but ⟮c-;not⟯ ⟮the meaning meaning⟯.
 
-⟮variationist sociolinguistics⟯ is ⟮the subfield of⟯ ⟮sociolinguistics⟯ that ⟮studies sociolinguistiv variables specifically⟯.
+»⟮variationist sociolinguistics⟯« is the branch of ⟮＿sociolinguistics＿⟯ that ⟮studies ＿sociolinguistic variables＿ specifically⟯.
 
 # varieties
 
-⟮Lect⟯ = ⟮variety⟯
-A »⟮variety⟯« is ⟮a version of⟯ ⟮a language⟯.
-A ⟮＿variety＿⟯ ⟮limits⟯ ⟮the ＿variants＿ of ＿sociolinguistic variables＿⟯.
-^though it's not like any variant has exactly one variant for any sociolinguistic variable.
+⟮Lect⟯ =syn= ⟮variety⟯
+A »⟮variety⟯« is ⟮a version of⟯ ⟮a language⟯ constraining the variants of sociolinguistic variables.
 
 ## language
 
-⟮Language⟯ in common discourse means ⟮standard variety⟯.
-⟮Language⟯ in sociolinguistics means something like ⟮set of all relevant varietie⟯s.
+»⟮Language⟯« is ambiguous between ⟮＿language⎵casual definition⎵＿⟯ and ⟮c_;＿language⎵socling⎵＿⟯.
+⟮Language⎵casual definition⎵⟯ =syn= ⟮standard variety⟯.
+⟮Language⎵socling⎵⟯ is ⟮the set of all relevant varietie⟯s.
 
-## Languoid
+## languoid
 
-»⟮Languoid⟯« is ⟮a cover term⟯ for ⟮language⟯ and ⟮＿variety＿⟯.
+»⟮Languoid⟯« is ⟮＿a cover term＿⟯ for ⟮＿language＿⟯ and ⟮＿variety＿⟯.
 
 ## speech communities and varieties
 
-A ⟮＿variety＿⟯ is generally spoken by ⟮a certain ＿speech community＿⟯.
-There are ⟮specific terms⟯ for ⟮＿varieties＿⟯ ⟮spoken by ＿certain speech communities＿⟯.
+The variety scope is the type of speech community that defines a variety.
+The variety scope may be a  ethnolect, regio/geo/topolect, sociolect, register/style, or idiolect.
 
+### variety scopes
 
 table:type of variety|spoken by speech community defined by
+»⟮ethnolect⟯«|⟮ethnic group⟯
+»⟮c+;s∞;us+3;regiolect⟯«, »⟮c+;s∞;us+2;geolect⟯«, »⟮c+;s∞;us+;topolect⟯«|⟮a specific area⟯
+»⟮sociolect⟯«|⟮a social group⟯
 »⟮register/style⟯«|⟮particular communicative setting⟯
 »⟮ideolect⟯«|⟮a specific person⟯
-»⟮sociolect⟯«|⟮a social group⟯
-»⟮c+;s∞;us+3;regiolect⟯«, »⟮c+;s∞;us+2;geolect⟯«, »⟮c+;s∞;us+;topolect⟯«|⟮a specific area⟯
-»⟮ethnolect⟯«|⟮ethnic group⟯
 
 
-⟮register⟯ and ⟮style⟯ are synonyms.
-Since ⟮＿registers/style＿⟯s are ⟮defined by a situation⟯, not ⟮c_;a specific group⟯, these are also known as ⟮functional varieties⟯.
+⟮register⟯ =syn= ⟮style⟯
+Since ⟮＿registers/styles＿⟯ are ⟮defined by a situation⟯, not ⟮c_;a specific group⟯, these are also known as »⟮functional varieties⟯«.
 
-## specific varieties
+### in detail
 
-### slang, jargon, cant, argot ...
+#### registers
 
-⟮slang⟯, ⟮jargon⟯, ⟮cant⟯, and ⟮argots⟯ are all ⟮varieties⟯.
-⟮slang, jargon, cant, and argots⟯ are all defined mainly by ⟮word choice⟯ ⟮＿variants＿⟯.
-⟮The variants⟯ that make up ⟮a certain⟯ ⟮slang, jargon, cant or argot register⟯ are words that have in common that ⟮they are othwerise not in common usage⟯.
-It is hard to distinguish ⟮slang, jargon, argot, cant, etc.⟯ because they are ⟮often used interchangeably⟯
-»⟮Slang⟯« is typically a ⟮＿register＿⟯ that is ⟮informal⟯ and used in ⟮an in-group setting⟯.
-»⟮Jargon⟯« is typically the ⟮＿register＿⟯ of ⟮a certain field⟯.
-⟮Cant⟯ ≈ ⟮argot⟯
-»⟮Cant/argot⟯« is ⟮＿jargon＿⟯ with the purpose to ⟮exclude or mislead people outside the field.⟯
+A highly in-group register (my term) is a register that uses etic units that are extremely rare otherwise and thus strongly separate the in-group from the outgropu.
+A highly in-group register may be slang or jargon.
+»⟮Slang⟯« is ⟮＿a highly in-group register＿⟯ that is ⟮highly informal⟯.
+»⟮Jargon⟯« is ⟮＿a highly in-group register＿⟯ of ⟮a certain field⟯.
+⟮Cant⟯ ≈syn≈ ⟮argot⟯
+»⟮Cant/argot⟯« is ⟮＿jargon＿⟯ with the explicit purpose to ⟮exclude or mislead people outside the field⟯.
 
-### AAVE
+#### ethnolects
 
-⟮AAVE⟯ = ⟮African American Vernacular English⟯
+##### AAVE
+
+⟮African American Vernacular English⟯ =short=> ⟮AAVE⟯
 
 # what is being varied?
 
-⟮Pretty much any feature⟯ can be ⟮＿varied＿⟯ to ⟮c_;create ＿variants＿⟯ of ⟮c_;a ＿sociolinguistic variable＿⟯.
+The variation e topic is the e topic being used for a certain socialinguistic variable.
 
 ## pronunciation
 
 ### accent
 
-An »⟮accent⟯« is ⟮pronunciation⟯ ⟮as a ＿sociolinguistic variable＿⟯.
+An »⟮accent⟯« is a set of variants of the variant emic topic phonics.
 
 ## ways of speaking
 
