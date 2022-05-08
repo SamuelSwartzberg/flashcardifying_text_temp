@@ -4,99 +4,62 @@
 
 ### foundation
 
-### segmental
+A level is a rough grouping 
+The level topic is the the general topic of the level.
+The level name is the name to scope something to that particular level.
+\$LEVELNAME is a given level name.
+The study of a level is called \$LEVELNAMEs.
+A level consists of a segmental emic system, a suprasegmental emic system and the segmental-suprasegmental interface.
+S*egmental refers to either segmental or suprasegmental.
 
-### suprasegmental
+### either seg/supraseg
 
-### combination
+A s*egmental emic system consists of the emic whole and the emic rules.
 
-E refers to an abstract sign universe whole.
-A whatever is a given e.
-An e unit refers to an abstract sign universe component.
-A whatever unit is a given e unit.
-The whatevername is the name we give to a whatever.
+#### e?ic
 
-// perhaps we want to restructure this to focus on the topic first, then separate out a segmental and suprasegmental view, and then define features, emic and etic units in relation to either level
+e?ic is purposefully ambiguous between emic and etic.
+E?ic unit =syn= e?ic component.
+The e?ic inventory is the set of e?ic units.
+An e?ic unit boundary is the spot between two e/mic/etic units.
+Linearity is the presumtion that e?ic units occur sequentially with 1-to-1 emic-etic correspondence.
+Linearity is probably untenable for most e?ic units in most cases.
 
-## emic 
+##### environment
 
-Emic refers to e's sign whole.
-The emic topic is e's sign topic.
-An emic cake is the sign cake of a given emic topic.
-An emic inventory is a sign component set of a given emic cake.
-An emic unit is a sign component from a given emic inventory.
-Sometimes, it very much feels like emic (and related concepts) all only refer to the signifier.
+The e?ic environment is the set of e?ic units before and after an e?ic unit.
+e?ic conditioning is the influincing of alternant selection by the e?ic environment.
 
-### naming
+#### emic
 
-A whatevereme is the emic unit of a whatever.
-Something whateveremic is the something of a whatevereme.
-For a given whatever, something whateveremic is called whatevername+emic
-For a given whatever, whatevereme always has the name whatevername+me
+An emic whole is the sign universe for the relevant level topic.
 
-### other levels
-
-An emic unit may signify another emic unit or 'meaning'.
-An emic unit may be signified by another emic unit or a physical medium.
-A higher/lower emic cake is the emic cake reachable by traversing signifiers/signifieds.
-A higher/lower emic unit(s) is an emic unit of a higher/lower emic cake.
-The emically signified item (rare term in most cases) is the signified of the emic unit.
-For a given whatever, an emically signified item is called whatevername+emically signified item.
-
-## systems
-
-An emic system is the combination of an emic inventory and an emic rule set plus suprasegmentals.
-An emic rule set is the set of rules governing the emic inventory in the languoid.
-For a given whatever, an emic system/rule set is called a whatevername+emic system/rule set.
-
-### emic correspondence
+##### emic correspondence
 
 Emic correspondence (my term) is the correspondence between the signifier and signified of an emic unit.
 Emic deviation (my term) is the regular divergence of emic correspondence in a certain context as prescribed by the emic rule set.
 ^e.g. lexemic deviation: deviation between a word its the usual meaning
 Emic depth (my termish) is the degree of emic deviation.
 
-### beyond single segments
+##### other levels
 
-An e/emic/etic unit boundary is the spot between two e/mic/etic units.
-Linearity is the presumtion that e/emic/etic units occur sequentially with 1-to-1 emic-etic correspondence.
-Linearity is probably untenable for most e/emic/etic units in most cases.
-Conditioning is the combination of etic segmental conditioning and suprasegmental conditioning.
+An emic unit may signify another emic unit or 'meaning'.
+An emic unit may be signified by another emic unit or a physical medium.
+A higher/lower emic cake is the emic cake reachable by traversing signifiers/signifieds.
+A higher/lower emic unit(s) is an emic unit of a higher/lower emic cake.
+The emically signified item (rare term in most cases) is the signified of the emic unit.
 
-#### suprasegmentals
+#### naming
 
-A suprasegmental is a property of an emic system transgressing e/etic/emic unit boundariess.
-The suprasegmental motivator is the higher emic unit that motivates the a suprasegmental.
-Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
-A suprasegmental unit is a suprasegmental of which we don't want to say whether it's emic or etic.
-Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
-A pausa is the conceptual start/end of a suprasegmental unit.
-The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given emic/etic unit.
-Segmental conditioning is the influencing of alternant selection by the suprasegmental environment.
+emic/etic unit for a given level: ((supra)segmental) \$LEVELNAME+(eme/e)
+being related to emic/etic units for a given level: ((supra)segmental) \$LEVELNAME+(emic/etic)
 
-##### juncture
-
-A juncture is an emic unit posited that does the job of suprasegmentals but is part of the sequental flow of emic units.
-For a given whatever, a juncture is called whatevername juncture.
-A chunk is the segments between a juncture.
-
-#### cross-segmental
-
-Something cross-segmental concerns multiple segments, but isn't a suprasegmental.
-emictactics (lol) is the part of an emic rule set dealing with emictactic constraints.
-A emictactic constraint is a rule for the permissible combination of emic units.
-For a given whatever, an emictactic constraint is called a whatevername+tactic constraint
-^e.g. phonotactic constraint
-The segmental environment is the set of etic/emic units before and after an etic/emic unit.
-The etic/emic segmental environment is the set of etic/emic units before and after an etic/emic unit.
-Etic segmental conditioning is the influincing of alternant selection by the etic segmental environment.
-
-## analyses
+#### emic analyses
 
 Emic units can be analyzed into either etic units or features.
 While emic units vary based on the languoid, etic units and features are cross-linguistic elements.
 
-### etic
+##### etic
 
 An etic unit is a division of an emic unit's signifier component into a number of alternants.
 From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of alternants.
@@ -105,7 +68,7 @@ For a given whatever, a etic unit is called a whatevername+(ø or e)
 An emma is an etic unit chosen arbitrarily to represent the emic unit.
 For a given whatever, an emma is called a whatevername-final consonant if extant+mmma.
 
-#### alternants
+###### alternants
 
 »⟮An alternant⟯« is a ⟮different⟯ ⟮＿etic unit＿⟯ ⟮of ＿the same emic unit＿⟯.
 ^However, alternant is often only used for allomorphs
@@ -114,7 +77,7 @@ For a given whatever, an emma is called a whatevername-final consonant if extant
 Alternant selection is choosing an alternant for an emic unit.
 For a given etic unit, an alloetic unit is called allo + etic unit name.
 
-#### distribution
+###### distribution
 
 »⟮The etic environment⟯« is ⟮the set of ＿etic units＿⟯ ⟮before and after the target ＿etic unit＿⟯.
 ⟮＿free variation＿⟯ and ⟮＿contrastive distribution＿⟯ are the states ⟮two ＿etic units＿⟯ can be in if ⟮they appear in the same ＿etic environment＿⟯.
@@ -135,13 +98,13 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 ⟮＿Emic contrast＿⟯ has been »⟮neutralized⟯« when ⟮two ＿etic units＿⟯ appear i⟮n an ＿etic environment＿⟯ in which ⟮they are no longer ＿contrastive＿⟯.
 ⟮Two ＿etic units＿⟯ in ⟮＿free variation＿⟯ may still be ⟮＿variants＿ of a ＿sociolinguistic variable＿⟯.
 
-#### surface and underlying
+###### surface and underlying
 
 The surface representation/form is the etic unit of a given segment.
 The underlying representation/form is the emic unit of a given segment.
 Realization is the relationship between surface form and underlying form.
 
-### features
+##### features
 
 
 »⟮A feature⟯« is a ⟮binary⟯ ⟮value⟯.
@@ -150,18 +113,18 @@ A non-distinctive feature is a feature that is not contrastive in a given langua
 Featural is looking at a thing from the perspective of features.
 For a given whatever, an ø/emic/etic feature is called a whatevername+ø/emic/etic feature.
 
-#### emic units
+###### emic units
 
 ⟮＿An emic unit＿⟯ can be ⟮analyzed⟯ ⟮into multiple ＿features＿⟯, instead of ⟮into ＿etic units＿⟯.
 »⟮An emic unit⟯« is (under a certain analysis) ⟮an unique combination of⟯ ⟮＿features＿⟯.
 »⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
 
-#### notation
+###### notation
 
 ⟮＿A feature＿⟯ is indicated by ⟮[‹name›]⟯.
 ⟮＿A feature＿⟯'s ⟮states⟯ are indicated by ⟮[+ ‹name›]⟯ and ⟮c_;[- ‹name›]⟯
 
-#### grouping
+###### grouping
 
 A feature class is a set of features, feature categories or feature classes that are expressing a common thing.
 A top-level feature class (my term) is a feature class that is not part of a larger feature class.
@@ -170,21 +133,83 @@ A feature value is a value of a feature category.
 Alternatively, we can analyze a feature category as a set of features that together give rise to multiple values.
 ^The difference between a feature class and a feature category is that a emic unit can have multiple features from a feature class, while a feature category is mutually exclusive.
 
-##### seemingly sui generis
+####### seemingly sui generis
 
 »⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
-### polysemy
+##### polysemy
 
 In a more vague sense, »⟮a feature⟯« may also be ⟮any linguistically salient property⟯ of ⟮a languoid⟯.
 
+#### exprs
+
+Importantly, etic units are still in some sense abstract, they are not exprs.
+An expr is an instance of production of something from the emic unit's signifier topic/cake.
+Alternatively, an expr is one of the infinite set of things that are grouped into an etic unit.
+^e.g. saying a sound, writing a glyph....
+
+### segmental
+
+#### cross-segmental
+
+Something cross-segmental concerns multiple segments, but isn't a suprasegmental.
+emictactics (lol) is the part of an emic rule set dealing with emictactic constraints.
+A emictactic constraint is a rule for the permissible combination of emic units.
+For a given whatever, an emictactic constraint is called a whatevername+tactic constraint
+^e.g. phonotactic constraint
+
+### suprasegmental
+
+The suprasegmental motivator is the higher emic unit that motivates the a suprasegmental.
+pausa =syn= suprasegmental e?ic unit boundary.
+
+### combination
+
+The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given segmental e?ic unit.
+Segmental conditioning is the influencing of segmental emic unit alternant selection by the suprasegmental environment.
+
+## emic 
+
+The emic topic is e's sign topic.
+An emic cake is the sign cake of a given emic topic.
+An emic inventory is a sign component set of a given emic cake.
+Sometimes, it very much feels like emic (and related concepts) all only refer to the signifier.
+
+### other levels
+
+
+
+## systems
+
+An emic system is the combination of an emic inventory and an emic rule set plus suprasegmentals.
+An emic rule set is the set of rules governing the emic inventory in the languoid.
+For a given whatever, an emic system/rule set is called a whatevername+emic system/rule set.
+
+### beyond single segments
+
+
+Conditioning is the combination of etic segmental conditioning and suprasegmental conditioning.
+
+#### suprasegmentals
+
+A suprasegmental is a property of an emic system transgressing e/etic/emic unit boundariess.
+Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
+A suprasegmental unit is a suprasegmental of which we don't want to say whether it's emic or etic.
+Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
+A pausa is the conceptual start/end of a suprasegmental unit.
+
+##### juncture
+
+A juncture is an emic unit posited that does the job of suprasegmentals but is part of the sequental flow of emic units.
+For a given whatever, a juncture is called whatevername juncture.
+A chunk is the segments between a juncture.
+
+
 ## study & interrelation
 
-emics/etics is the study of e in terms of emic/etic units.
+e?ics is the study of e?ic units.
 For a given whatever, emics/etics is called whatevername+emics/etics
 ^e.g. graphemics, phonetics
-es is the study of e.
-Ergo, es is the conver term of emics and etics.
 For a given whatever, es is called whatevername+s.
 emic emics is the study of the relation between an emic unit and its signifier emic unit.
 For a given whatever, whatever2, emic emics is called whatevername+emic whatevername2+emics.
@@ -192,12 +217,7 @@ For a given whatever, whatever2, emic emics is called whatevername+emic whatever
 suprasegmental emics is the study of the suprasegmentals of an emic unit.
 segmental emics is not suprasegmental emics.
 
-## exprs
 
-Importantly, etic units are still in some sense abstract, they are not exprs.
-An expr is an instance of production of something from the emic unit's signifier topic/cake.
-Alternatively, an expr is one of the infinite set of things that are grouped into an etic unit.
-^e.g. saying a sound, writing a glyph....
 
 ## related things
 
