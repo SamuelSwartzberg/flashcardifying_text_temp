@@ -26,6 +26,37 @@ placeholder names:
 ⟮given name (female)⟯|⟮ja⟯|⟮花子⟯
 ⟮family name⟯|⟮ja⟯|⟮山田⟯
 
+
+In the Japanese encoding system JIS X 0208, there are a few kanji encoded that are not found in any kanji dictionary. These are commonly known as “ghost characters” (yuurei moji 幽霊文字).
+The standard acknowledged the sources for these characters, but later people were unable to find these characters in the original sources. Later it was found that the encoded forms were wrong, and the forms that were supposed to be taken, were not encoded. Despite this, one character remains truly elusive, 55-27 彁 (U+5F41), its sources were not acknowledged and no results were found after extensive research. The character 彁 has since then become an internet phenomenon.
+171
+محمد جعفر /Jafar
+محمد جعفر /Jafar
+1 day ago
+So what happened with the characters that were wrongly encoded? And what happened to the charcters that were not encoded?
+6
+Ognižar «Ogniã» Gordov
+Ognižar «Ogniã» Gordov
+1 day ago (edited)
+The wrong characters are still there, because once a character is encoded, you can’t remove it. The correct characters were added later to different JIS code pages.
+The most famous of such characters is 54-12 妛，which was a mistake for 𡚴。The source, when preparing the script for print, stuck two pieces of paper together for the 山 and 女 parts, but the gap in the paper created a mark in the print, and this was mistakenly spread as a vertical line in the middle. The right form 𡚴 was encoded in JIS X 0213.
+Likewise, 52-63 壥 is believed to be a mistake of 㕓, but the correct form is still not in JIS X 0213.
+For a more extreme case, 61-73 汢 was encoded for a place name, but the source character was wrong, and it should have had 冫instead of 氵。This character is still not even in Unicode. In 2002, the place that used this character officially changed their name to the form with 汢 for convenience.
+42
+RaymondHng
+RaymondHng
+1 day ago
+ @Ognižar «Ogniã» Gordov  彁 is composed of the 弓 radical for bow (weapon) and 哥 for older brother.
+4
+Ognižar «Ogniã» Gordov
+Ognižar «Ogniã» Gordov
+20 hours ago (edited)
+ @RaymondHng  An Asahi Shimbun commentator claimed that he found 彁 in a paper from 1923, in the term「埼玉自彁會」，but it was picked up wrongly by the digitization program, and was supposed to be 彊 (see 自彊術). Now for sorting and convenience, the character 彁 is arbitrarily assigned the reading “ka” (from 哥) or “sei”. 
+
+ https://jisho.org/word/%E3%83%81%E3%83%83%E3%82%AF-2
+
+ https://jisho.org/word/%E3%82%81%E3%81%A3
+
 ### history, culture, etc
 
 
