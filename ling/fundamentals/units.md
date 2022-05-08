@@ -1,11 +1,22 @@
 # units
 
+## basics
+
+### foundation
+
+### segmental
+
+### suprasegmental
+
+### combination
+
 E refers to an abstract sign universe whole.
 A whatever is a given e.
 An e unit refers to an abstract sign universe component.
 A whatever unit is a given e unit.
 The whatevername is the name we give to a whatever.
-The e world is everything relating to an e unit, including everything relating to emic/etic units, systems, etc. etc.
+
+// perhaps we want to restructure this to focus on the topic first, then separate out a segmental and suprasegmental view, and then define features, emic and etic units in relation to either level
 
 ## emic 
 
