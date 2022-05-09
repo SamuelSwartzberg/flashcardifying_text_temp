@@ -53,19 +53,59 @@ Euler's number =symb=> e
 e ≈ 2.718
 e = ∑⎵n=0⎵⎴∞⎴1/(n!)
 
+# exponentiation
+
+Exponentiation is nonassociative and noncommutative.
+The order of operations for serial exponentiation is typically top-down.
+
+## properties/identities
+
+(for integer exponents)
+
+### exponent rules
+
+The exponent rules is a set of identities that hold for all integer exponents on all non-zero bases 
+b⎴n⎴b⎴m⎴ = b⎴n+m⎴
+(b⎴n⎴)⎴m⎴ = b⎴nm⎴
+(bc)⎴n⎴ = b⎴n⎴c⎴n⎴
+
 # square root
 
-The nth root of a number x is a number r such that r^n = x (n ∈ N)
-A square/cube root is the nth root where n=2/3.
+The nth root of a radicand x is a number r such that r^n = x (n ∈ N)
+The degree of a root is the n of the nth root
+A square/cube root is a root with a degree of 2/3.
 Root extraction is the computation of a nth root.
+A surd is an unresolved root.
+
+## real roots
+
 A real root is a root which is a real number.
 Any number may have 0 - 2 real roots.
 There are 2 nth real roots for any even n.
 The nth real root of 0 is 0.
 A negative number has no real roots.
+
+### properties
+
+For non-negative real radicands a, b:
+nthRoot(n, a⎴m⎴) = (a⎴m⎴)⎴1/n⎴ = a⎴m/n⎴
+nthRoot(n, ab) = nthRoot(n, a)*nthRoot(n, b)
+nthRoot(n, a/b) = nthRoot(n, a)/nthRoot(n, b)
+
+### imaginary unit
+
+The imaginary unit is a non-real number satisfying x⎴2⎴+1=0.
+imaginary unit =symb=> i
+
+## notation
+
 The radical symbol is the symbol √ with a line continuing on top indicating a root.
-The n of a nth root is placed on the top left of the radical symbol.
-The radical symbol without an n generally refers to the square root.
+The degree of a root is placed on the top left of the radical symbol.
+The radical symbol without an explicit degree generally refers to the square root.
+
+## in terms of exponentiation
+
+nthRoot(degree, radicand) = radicand⎴1/degree⎴
 
 # equations
 
