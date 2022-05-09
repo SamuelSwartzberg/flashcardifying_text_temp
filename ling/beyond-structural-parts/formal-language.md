@@ -2,19 +2,20 @@
 
 ## formal languages
 
-»⟮A formal language⟯« is a set of ⟮＿well-formed words＿⟯.
-»⟮A well-formed word⟯« is ⟮＿a word＿⟯ that ⟮conforms to⟯ ⟮＿the syntax＿⟯ of ⟮＿the formal language＿⟯ ⟮of which it is a part⟯.
-»⟮The syntax⟯« of ⟮＿a formal language＿⟯ is ⟮the structure⟯ of ⟮＿well-formed words＿⟯.
+well-formed formula =syn= well-formed word
+»⟮A formal language⟯« is a set of ⟮＿well-formed formulae＿⟯.
+»⟮A well-formed formula⟯« is ⟮＿a word＿⟯ that ⟮conforms to⟯ ⟮＿the syntax＿⟯ of ⟮＿the formal language＿⟯ ⟮of which it is a part⟯.
+»⟮The syntax⟯« of ⟮＿a formal language＿⟯ is ⟮the structure⟯ of ⟮＿well-formed formulae＿⟯.
 »⟮A word⟯« is ⟮any concatenation of tokens⟯ from ⟮＿the alphabet＿⟯ of ⟮a given ＿formal language＿⟯.
 »⟮The alphabet⟯« of ⟮＿a formal language＿⟯ is ⟮a set of tokens⟯.
 ⟮＿The alphabet＿⟯ is indicated with ⟮Σ⟯.
 ⟮The syntax of a formal language⟯ is often defined by ⟮a formal grammar⟯.
-»⟮A formal grammar⟯« is ⟮an algorithm for⟯ creating ⟮＿well-formed words＿⟯.
+»⟮A formal grammar⟯« is ⟮an algorithm for⟯ creating ⟮＿well-formed formulae＿⟯.
 
 ### finite and infinite
 
 ⟮＿Formal languages＿⟯ are separated by size into ⟮＿finite＿⟯ and ⟮c_;＿inifinte＿⟯ languages.
-To define a ⟮＿finite formal language＿⟯, besides specifying its syntax we could ⟮just list ＿all well-formed words＿⟯.
+To define a ⟮＿finite formal language＿⟯, besides specifying its syntax we could ⟮just list ＿all well-formed formulae＿⟯.
 
 ### formal grammar
 
@@ -27,7 +28,7 @@ A ⟮‹whatever› grammar⟯ defines the syntax for a ⟮‹whatever› langua
 
 #### derivation
 
-»⟮A derivation⟯« is ⟮an application⟯ of ⟮＿the production rules＿⟯ of ⟮＿a formal grammar＿⟯ to ⟮arrive at a ＿well-formed word＿⟯.
+»⟮A derivation⟯« is ⟮an application⟯ of ⟮＿the production rules＿⟯ of ⟮＿a formal grammar＿⟯ to ⟮arrive at a ＿well-formed formula＿⟯.
 »⟮The start symbol⟯« is ⟮＿the nonterminal＿⟯ we ⟮start derivation from⟯.
 ⟮＿The start symbol＿⟯ is indicated with ⟮S⟯.
 ⟮＿Derivation＿⟯ involves ⟮replacing all ＿nonterminals＿⟯ ⟮until there are no ＿nonterminals＿ left⟯.
