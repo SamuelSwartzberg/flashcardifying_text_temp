@@ -15,15 +15,26 @@ A closed-form expression is an expression whose parts are all finite.
 
 ## polynomial
 
-A polynomial expression is expression that allows only integer constants/coefficients, addition, subtraction and multiplication, indeterminates and non-negative interger exponents.
+A polynomial expression is expression that allows only constants/coefficients, addition, subtraction and multiplication, indeterminates and non-negative interger exponents.
 A polynomial is an abstract expression that can be instantiated by a polynomial expression.
 Two polynomials define the same polynomial if they can be transformed into each other by use of commutativity, associativity and distributivity (TODO: need cover term).
 A polynomial function is a function where 
 The standard form of a polynomial is ∑⎵k=0⎵⎴n⎴a⎵k⎵x⎴k⎴.
-A polynomial term (rare term) is a term in the standard form of a polynomial.
+A polynomial term (rare term) is a term of a polynomial.
 The degree⎵indeterminate⎵ is the exponent value of an indeterminate.
 The degree⎵polynomial term⎵ is the sum of the degres of the indeterminates in the polynomial term.
 The degree⎵polynomial⎵ is the highest degree of a polynomial term in a polynomial.
+A constant polynomial is a polynomial with degree 0 ≙ no indeterminates.
+A linear/quadratic/cubic polynomial/polynomial term is a polynomial/polynomial term with degree 1/2/3.
+The zero polynomial is the polynomial `0`.
+The zero polynomial has a degree of undefined, -1 or -∞.
+A non-zero polynomial is a polynomial that is not a zero polynomial.
+A homogeneous polynomial of degree n is a polynomial where all polynomial terms have degree n.
+A complex/real/integer polynomial is a polynomial with complex/real/integer coefficients.
+A uni/bi/multivariate polynomial is a polynomial with 1/2/2+ indeterminates.
+Polynomial evaluation is substitution of a numeric value for each indeterminate.
+Polynomial terms are typically sorted by degree.
+The factor form of a polynomial is a polynomial represented as factors.
 
 ### notation
 
@@ -32,37 +43,81 @@ A polynomial function =sym=> P(x)
 
 # algebraic number
 
+An algebraic number is a zero of a non-zero univariate integer polynomial.
+All rational numbers and roots of integers are algebraic numbers.
 A transcendental number is a number that is not an algebraic number.
 e.g. e, π
 
 
 Euler's number =symb=> e
+e ≈ 2.718
+e = ∑⎵n=0⎵⎴∞⎴1/(n!)
 
 # square root
+
+The nth root of a number x is a number r such that r^n = x (n ∈ N)
+A square/cube root is the nth root where n=2/3.
+Root extraction is the computation of a nth root.
+A real root is a root which is a real number.
+Any number may have 0 - 2 real roots.
+There are 2 nth real roots for any even n.
+The nth real root of 0 is 0.
+A negative number has no real roots.
+The radical symbol is the symbol √ with a line continuing on top indicating a root.
+The n of a nth root is placed on the top left of the radical symbol.
+The radical symbol without an n generally refers to the square root.
 
 # equations
 
 A contradiction is an equation with no solution.
 A unknown is a variable for which a solution is desired.
 A solution is a value for an unknown which makes a conditional equation true.
+A solution may be a numeric solution or a symbolic solution.
+A numeric solution is a solution which is a number.
+A symbolic solution is a solution which is an expressional wff.
 The solution set is the set of all solutions.
 Solving an equation is determining the solution set.
 The left/right-hand side are the expressional wffs (TODO change in flashcards) on the left/right-hand side of an equation.
+A parametric equation is an equation that contains at least one parameter.
+
+## systems
+
+A equation set is a set of equations.
+A system of equations is an equation set involving the same variables.
+A solution to a system of equations is a solution to each equation in the equation set.
+A linear/quadratic/cubic system is a system of equations where the equations in the equation set are linear/quadratic/cubic equations.
 
 ## types
 
-### linear
+### polynomial
 
-### quadratic equation
+Algebraic equation =syn= polynomial equation.
+A cartesian equation is an polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
+A polynomial equation is an equation that can be rearranged to P = 0.
+A linear/quadratic/cubic equation is an equation that can be rearranged to linear/quadratic/cubic polynomial in standard form = 0.
+A linear/quadratic/cubic cartesian equation (my term) is a linear/quadratic/cubic equation which is a cartesian equation.
 
-A quadratic equation is any equation that can be rearranged in quadratic equation standard from.
-Quadratic equation standard form ::= polynomial with degree 2 = 0
+#### linear
+
+A linear cartesian equation produces a line.
+linear algebra is concerned with linear equations.
+
+#### quadratic
+
+A quadratic cartesian equation produces a parabola.
+The quadratic formula is the formula that produces the zeroes for a quadratic cartesian equation.
+The quadratic formula is x = (-b ± sqrt(b⎴2⎴4ac))/2a
 
 # misc
+
+## var
 
 A variable⎵wide⎵ is a variable⎵narrow⎵ or an indeterminate.
 an indeterminate is a variable-like symbol that only stands for itself and is only used as a placeholder for explaining something.
 A constant term is a term with no variable⎵wide⎵.
+
+## fininfin
+
 finite/infinite sum/product = summation/productation that is finite/infinite
 finite/infinite series =syn= finite/infinite sum
 
@@ -70,6 +125,9 @@ finite/infinite series =syn= finite/infinite sum
 
 infinite series is often just called series
 Any ordered finite/infinite sequence can produce a finite/infinite series.
+A partial sum is the n first terms of an infinite series.
+An infinite series' sum is the value of the limit of the its partial sum as n tends to infinity.
+A infinite series is convergent/divergent if its sum does/does not exist.
 
 ## continued fraction
 
@@ -84,3 +142,14 @@ Abbreviated continued fraction notation is representing a number as the sequence
 ## fields
 
 a field is an algebraic structure which is a set on which addition, subtraction, multiplication, and division are defined and behave as the corresponding operations on rational and real numbers do.
+
+## gcd
+
+greatest common divisor =short=> GCD
+Synonms: (greatest|highest) common (divisor|factor)
+The greatest common divisor of two or more integers is the largest integer that divides each of the integers.
+
+## division by zero
+
+Division by zero is division where the divisor is 0.
+In ordinary arithmetic, division by 0 is undefined.
