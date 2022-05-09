@@ -36,6 +36,36 @@ Polynomial evaluation is substitution of a numeric value for each indeterminate.
 Polynomial terms are typically sorted by degree.
 The factor form of a polynomial is a polynomial represented as factors.
 
+### binomial
+
+#### binomial coeficient
+
+The binomial coefficients are the positive integers that occur as coefficients in the binomial theorem.
+A binomial coefficient is the amount of k-combinations of n
+^i.e. the amount of subsets of size k of a set with size n.
+
+##### notation
+
+The binomial coefficient can be written using combination notation, or ettingshausen's notation.
+Ettingshausen's notation is n placed vertically over k in large parentheses.
+
+#### binomial theorem
+
+(a+b)⎴n⎴ = ∑⎵k=0⎵⎴n⎴C(n,k)a⎴k⎴b⎴n-k⎴
+
+##### n=2
+
+(a+b)⎴2⎴ = a⎴2⎴+2ab+b⎴2⎴
+(a-b)⎴2⎴ = a⎴2⎴-2ab+b⎴2⎴
+(a+b)(a-b) = a⎴2⎴-b⎴2⎴
+
+#### pascals triangle
+
+Pascal's triangle is a triangle of the values of the binomial coefficient.
+Pascal's triangle is read as rows and columns starting at 0.
+In pascals's triangle, C(n, k) is the element at row n and column k.
+
+
 ### notation
 
 An arbitrary polynomial =sym=> P
@@ -125,28 +155,53 @@ A parametric equation is an equation that contains at least one parameter.
 A equation set is a set of equations.
 A system of equations is an equation set involving the same variables.
 A solution to a system of equations is a solution to each equation in the equation set.
-A linear/quadratic/cubic system is a system of equations where the equations in the equation set are linear/quadratic/cubic equations.
+A linear/quadratic/cubic/polynomial system is a system of equations where the equations in the equation set are linear/quadratic/cubic/polynomial equations.
 
 ## types
 
 ### polynomial
 
 Algebraic equation =syn= polynomial equation.
-A cartesian equation is an polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
+A cartesian equation is a polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
 A polynomial equation is an equation that can be rearranged to P = 0.
-A linear/quadratic/cubic equation is an equation that can be rearranged to linear/quadratic/cubic polynomial in standard form = 0.
-A linear/quadratic/cubic cartesian equation (my term) is a linear/quadratic/cubic equation which is a cartesian equation.
+A linear/quadratic/cubic equation is an univariate equation that can be rearranged to linear/quadratic/cubic polynomial in standard form = 0.
+A linear/quadratic/cubic cartesian equation (my term) is a linear/quadratic/cubic equation, but = y.
+An algebraic solution is a symbolic solution for a polynomial equation which is a closed-form expression.
+There exists algebraic solutions for all polynomic equations with a degree ≤ 4, but not for all > 4
 
 #### linear
 
-A linear cartesian equation produces a line.
+A linear equation produces a line.
 linear algebra is concerned with linear equations.
 
 #### quadratic
 
-A quadratic cartesian equation produces a parabola.
+ax⎴2⎴+bx+c 
+A quadratic equation produces a parabola.
+
+##### parabolae
+
+The parabola's vertex is the point at which it intersects its axis of symmetry.
+
+The graphing form (my term) of a quadratic equation is y=a(x-h)⎴2⎴+k, where the vertex is the point (h, k).
+In the graphing form, if a is positive/negative, the parabola opens upwards/downwards.
+What I call graphing form is confusingly often called standard form
+
+##### solving
+
+###### quadratic formula
+
 The quadratic formula is the formula that produces the zeroes for a quadratic cartesian equation.
 The quadratic formula is x = (-b ± sqrt(b⎴2⎴4ac))/2a
+
+###### factor form
+
+The factor form of a quadratic equation is = a(x-s⎵1⎵)(x-s⎵2⎵).
+s⎵1⎵, s⎵2⎵ in the factor form are the solutions.
+
+## recurrence
+
+A recurrence relation is an equation expressing the value of the nth term of a sequence as a function of the previous terms.
 
 # misc
 
@@ -193,3 +248,6 @@ The greatest common divisor of two or more integers is the largest integer that 
 
 Division by zero is division where the divisor is 0.
 In ordinary arithmetic, division by 0 is undefined.
+
+
+https://en.wikipedia.org/wiki/Inverse_element
