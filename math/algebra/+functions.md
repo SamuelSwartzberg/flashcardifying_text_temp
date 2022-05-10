@@ -1,6 +1,6 @@
 # functions
 
-»⟮A function⟯« is ⟮a relationship between⟯ ⟮two sets⟯, ⟮＿the domain＿⟯ and ⟮c_;＿the codomain＿⟯.
+»⟮A function⟯« is ⟮＿a binary relation＿⟯ where the sets involved are ⟮＿the domain＿⟯ and ⟮c_;＿the codomain＿⟯.
 »⟮A function⟯« ⟮assigns⟯ ⟮an element of⟯ »⟮the codomain⟯« ⟮c-2;to⟯ ⟮each element of⟯ »⟮the domain⟯«. 
 ^this however does not imply that each element of the codomain is assigned to an element of the domain, there may be unassignemd elements
 »⟮An argument⟯« is a value that ⟮must be provided⟯ to ⟮＿the function＿⟯ to ⟮obtain its result⟯.

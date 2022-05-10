@@ -75,8 +75,8 @@ A uni/bi/multivariate polynomial is a polynomial with 1/2/2+ indeterminates.
 #### equation, formulae
 
 ⟮Algebraic equation⟯ =syn= ⟮polynomial equation⟯.
-A polynomial function is a function f(x)=P.
-A polynomial equation is an equation P = 0.
+»⟮A polynomial function⟯« is ⟮＿a function＿ f(x)=P⟯.
+»⟮A polynomial equation⟯« is ⟮＿an equation＿ P = 0⟯.
 ^alternatively, a polynomial function where y = 0.
 »⟮A linear/quadratic/cubic equation/function⟯« is a polynomial equation/function which is univariate and whose polynomial is linear/quadratic/cubic.
 »⟮A cartesian equation⟯« is a polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
@@ -160,21 +160,21 @@ A binomial coefficient is the amount of k-combinations of n
 
 ###### notation
 
-The binomial coefficient can be written using combination notation, or ettingshausen's notation.
-Ettingshausen's notation is n placed vertically over k in large parentheses.
+⟮＿The binomial coefficient＿⟯ can be written using ⟮combination notation⟯, or ⟮＿ettingshausen's notation＿⟯.
+»⟮Ettingshausen's notation⟯« is ⟮n placed vertically over k⟯ in ⟮large parentheses⟯.
 
 ##### binomial theorem
 
-(a+b)⎴n⎴ = ∑⎵k=0⎵⎴n⎴C(n,k)a⎴k⎴b⎴n-k⎴
+⟮(a+b)⎴n⎴⟯ = ⟮∑⎵k=0⎵⎴n⎴⟯⟮C(n,k)⟯⟮a⎴k⎴b⎴n-k⎴⟯
 
 ###### n=2
 
-(a+b)⎴2⎴ = a⎴2⎴+2ab+b⎴2⎴
-(a-b)⎴2⎴ = a⎴2⎴-2ab+b⎴2⎴
-(a+b)(a-b) = a⎴2⎴-b⎴2⎴
+⟮(a+b)⎴2⎴⟯ = ⟮a⎴2⎴+2ab+b⎴2⎴⟯
+⟮(a-b)⎴2⎴⟯ = ⟮a⎴2⎴-2ab+b⎴2⎴⟯
+⟮(a+b)(a-b)⟯ = ⟮a⎴2⎴-b⎴2⎴⟯
 
 ##### pascals triangle
 
-Pascal's triangle is a triangle of the values of the binomial coefficient.
-Pascal's triangle is read as rows and columns starting at 0.
-In pascals's triangle, C(n, k) is the element at row n and column k.
+»⟮Pascal's triangle⟯« is ⟮a triangle⟯ of ⟮the values of ＿the binomial coefficient＿⟯.
+⟮＿Pascal's triangle＿⟯ is read as ⟮rows⟯ and ⟮c_;columns⟯ starting at ⟮0⟯.
+In ⟮＿pascals's triangle＿⟯, ⟮C(n, k)⟯ is ⟮the element at row n and column k⟯.

@@ -16,7 +16,7 @@ We might want to consider a mathematical constant to be an operation of arity 0.
 ⟮＿Exponentiation＿⟯ `⟮b⎴n⎴⟯` means `⟮Π⟯⟮⎵i=1⎵⎴n⎴b⟯` .
 ⟮base⟯ =syn= ⟮radix⟯
 ⟮＿Exponentiation＿⟯ is ⟮＿nonassociative＿⟯ and ⟮＿noncommutative＿⟯.
-The order of operations for multiple exponentiation is typically top-down.
+The order of operations for multiple ⟮＿exponentiation＿⟯ is typically ⟮top-down⟯.
 
 ##### root
 
@@ -151,7 +151,7 @@ table:distributivity|rule
 ### arity
 
 The »⟮arity⟯« of something is ⟮how many⟯ ⟮＿operands＿ or ＿arguments＿⟯ are involved. 
-⟮＿Arity＿⟯ is a property of ⟮＿operations＿⟯ or ⟮c_;＿functions＿⟯.
+⟮＿Arity＿⟯ is a property of ⟮＿operations＿/＿functions＿/＿relations＿⟯.
 ⟮arity⟯ and ⟮adicity⟯ are rough synonyms
 ⟮＿arity＿⟯ is specified in ⟮latinate⟯ numbers
 ⟮＿adicity＿⟯ is specified in ⟮greek-derived⟯ numbers.
