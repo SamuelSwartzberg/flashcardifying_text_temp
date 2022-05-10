@@ -1,9 +1,9 @@
 
 # terms and expressions
 
+»⟮An expressional well-formed formula⟯« (my term, kinda) is ⟮＿a term＿⟯ or ⟮c_;＿an expression＿⟯.
 »⟮An expression⟯« is ⟮a combination of symbols⟯ that is ⟮well-formed⟯ and ⟮contains at least one ＿operator＿⟯.
 »⟮A term⟯« is ⟮a combination of symbols⟯ that is ⟮well-formed⟯ and ⟮does not contain ＿an operator＿⟯.
-»⟮An expressional well-formed formula⟯« (my term, kinda) is ⟮＿a term＿⟯ or ⟮c_;＿an expression＿⟯.
 
 ## example
 
@@ -12,65 +12,65 @@ element in function|is what kind of thing
 ⟮2x+3⟯|⟮＿expression(s)＿⟯
 ⟮2x, 3, 2, x⟯|⟮＿term(s)＿⟯
 
-## expressions
+## closed-form expressions
 
-A closed-form expression is an expression whose parts are all finite.
+»⟮A closed-form expression⟯« is ⟮＿an expression＿⟯ ⟮whose parts are all finite⟯.
 
 ### algebraic
 
-An algebraic expression is a closed-form expression that allows only integer constants/coefficents, variables, and the arithmetic operations.
-An algebraic fraction is a fraction whose numerator and denominator are algebraic expressions.
+»⟮An algebraic expression⟯« is ⟮＿a closed-form expression＿⟯ that allows only ⟮integer constants/coefficents⟯, ⟮＿variables＿⟯, and ⟮＿the arithmetic operations＿⟯.
+»⟮An algebraic fraction⟯« is ⟮＿a fraction＿⟯ whose ⟮＿numerator＿⟯ and ⟮c_;＿denominator＿⟯ are ⟮＿algebraic expressions＿⟯.
 
 #### arithmetic
 
-An arithmetic expression is a algebraic expression that allows only integer constants/coefficients and the elementary arithmetic operations.
+»⟮An arithmetic expression⟯« is ⟮＿an algebraic expression＿⟯ that allows only ⟮integer constants/coefficients⟯ and ⟮＿the elementary arithmetic operations＿⟯.
 
 ### polynomial
 
 #### basics
 
-A polynomial expression is expression that allows only constants/coefficients, addition, subtraction and multiplication, indeterminates and non-negative interger exponents.
-A polynomial is an abstract expression that can be instantiated by a polynomial expression.
-Two polynomials define the same polynomial if they can be transformed into each other by use of the comeassdir properties.
-Polynomial evaluation is substitution of a numeric value for each indeterminate.
+»⟮A polynomial expression⟯« is ⟮＿a closed-form expression＿⟯ that allows only ⟮constants/coefficients⟯, ⟮＿addition＿, ＿subtraction＿ and ＿⟮multiplication⟯＿⟯, ⟮＿indeterminates＿⟯ and ⟮non-negative interger exponents⟯.
+»⟮A polynomial⟯« is ⟮an abstract expression⟯ that can be instantiated by ⟮＿a polynomial expression＿⟯.
+⟮Two ＿polynomial expressions＿⟯ ⟮define the same ＿polynomial＿⟯ if they can be ⟮transformed into each other by use of the ＿comeassdir＿ properties⟯.
+»⟮Polynomial evaluation⟯« is ⟮substitution of a numeric value⟯ ⟮for each ＿indeterminate＿⟯.
 
 #### notation
 
-An arbitrary polynomial =sym=&gt; P
-A polynomial function =sym=&gt; P(x)
+⟮An arbitrary ＿polynomial＿⟯ =sym=&gt; ⟮P⟯
+⟮＿A polynomial function＿⟯ =sym=&gt; ⟮P(x)⟯
 
 #### properties
 
 ##### form &amp; terms
 
-The general/standard form of a polynomial is ∑⎵k=0⎵⎴n⎴a⎵k⎵x⎴k⎴.
-The factor form of a polynomial is a polynomial represented as factors.
-A polynomial term (rare term) is a term of a polynomial.
-Polynomial terms are typically ordered by degree.
+»⟮The general/standard form⟯« of ⟮＿a polynomial＿⟯ is ⟮∑⎵k=0⎵⎴n⎴⟯⟮a⎵k⎵x⎴k⎴⟯.
+»⟮The factor form⟯« of ⟮＿a polynomial＿⟯ is ⟮＿a polynomial＿ represented as ＿factors＿⟯.
+»⟮A polynomial term⟯« (rare term) is ⟮＿a term＿ of ＿a polynomial＿⟯.
+⟮＿Polynomial terms＿⟯ are typically ⟮ordered⟯ by ⟮＿degree＿⟯.
 
 ##### degree
 
 ###### degrees
 
-The degree⎵indeterminate⎵ is the exponent value of an indeterminate.
-The degree⎵polynomial term⎵ is the sum of the degres of the indeterminates in the polynomial term.
-The degree⎵polynomial⎵ is the highest degree of a polynomial term in a polynomial.
+»⟮The degree⎵indeterminate⎵⟯« is ⟮the exponent value⟯ of ⟮＿an indeterminate＿⟯.
+»⟮The degree⎵polynomial term⎵⟯« is ⟮the sum⟯ of ⟮＿the degrees⎵indeterminate⎵＿⟯ in ⟮＿the polynomial term＿⟯.
+»⟮The degree⎵polynomial⎵⟯« is ⟮the highest ＿degree⎵polynomial term⎵＿⟯ in ⟮＿a polynomial＿⟯.
 
 ###### increasing degrees
 
-The zero polynomial is the polynomial `0`.
-The zero polynomial has a degree of undefined, -1 or -∞.
-A non-zero polynomial is a polynomial that is not a zero polynomial.
-A constant polynomial is a polynomial with degree 0 ≙ no indeterminates.
-A linear/quadratic/cubic polynomial/polynomial term is a polynomial/polynomial term with degree 1/2/3.
+»⟮The zero polynomial⟯« is ⟮＿the polynomial＿ `0`⟯.
+⟮＿The zero polynomial＿⟯ has ⟮＿a degree＿⟯ of ⟮undefined⟯, ⟮c_;-1⟯ or ⟮c_;-∞⟯.
+»⟮A non-zero polynomial⟯« is ⟮＿a polynomial＿⟯ that is ⟮not ＿a zero polynomial＿⟯.
+»⟮A constant polynomial⟯« is ⟮＿a polynomial＿⟯ with ⟮＿degree＿ 0 ≙ no indeterminates⟯.
+»⟮A linear/quadratic/cubic polynomial/polynomial term⟯« is ⟮＿a polynomial/polynomial term＿⟯ with ⟮＿degree＿ 1/2/3⟯.
 
 ###### homogeneous
 
-A homogeneous polynomial of degree n is a polynomial where all polynomial terms have degree n.
+»⟮A homogeneous polynomial⟯« of ⟮＿degree＿ n⟯ is ⟮＿a polynomial＿⟯ where ⟮all ＿polynomial terms＿ have ＿degree＿ n⟯.
 
 ##### indeterminates
 
-A uni/bi/multivariate polynomial is a polynomial with 1/2/2+ indeterminates.
+»⟮A uni/bi/multivariate polynomial⟯« is ⟮＿a polynomial＿⟯ with ⟮1/2/2+ ＿indeterminates＿⟯.
 
 #### equation, formulae
 
@@ -78,20 +78,20 @@ A uni/bi/multivariate polynomial is a polynomial with 1/2/2+ indeterminates.
 »⟮A polynomial function⟯« is ⟮＿a function＿ f(x)=P⟯.
 »⟮A polynomial equation⟯« is ⟮＿an equation＿ P = 0⟯.
 ^alternatively, a polynomial function where y = 0.
-»⟮A linear/quadratic/cubic equation/function⟯« is a polynomial equation/function which is univariate and whose polynomial is linear/quadratic/cubic.
-»⟮A cartesian equation⟯« is a polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
+»⟮A linear/quadratic/cubic equation/function⟯« is a ⟮＿polynomial equation/function＿⟯ which is ⟮＿univariate＿⟯ and whose ⟮＿polynomial＿ is ＿linear/quadratic/cubic＿⟯.
+»⟮A cartesian equation⟯« is ⟮＿a polynomial equation＿⟯ containing ⟮two unknowns⟯ whose ＿solutions＿ are ⟮interpreted as ＿cartesian coordinates＿⟯.
 
 ##### by degree
 
 table:degree|standard/general form (function)|graph shape
-zero polynomial|f(x)=0|line (the x-axis)
-0|f(x)=a|horizontal line
-1|f(x)=mx+t|line
-2|f(x)=ax⎴2⎴+bx+c|parabola
-3|f(x)=ax⎴3⎴+bx⎴2⎴+cx+d|cubic curve
+⟮＿zero polynomial＿⟯|f(x)=⟮0⟯|⟮line (the x-axis)⟯
+⟮0⟯|f(x)=⟮a⟯|⟮horizontal line⟯
+⟮1⟯|f(x)=⟮mx+t⟯|⟮line⟯
+⟮2⟯|f(x)=⟮ax⎴2⎴+bx+c⟯|⟮parabola⟯
+⟮3⟯|f(x)=⟮ax⎴3⎴+bx⎴2⎴+cx+d⟯|⟮cubic curve⟯
 
 
-The graph of any polynomial with a degree ≥ 2 is continuous and non-linear.
+The graph of any polynomial with ⟮＿a degree＿ ≥ 2⟯ is ⟮＿continuous＿⟯ and ¨.
 
 ##### derived fields
 
@@ -106,17 +106,17 @@ There exists ⟮＿algebraic solutions＿⟯ ⟮for all⟯ polynomic equations w
 
 ###### parabolae
 
-The parabola's vertex is the point at which it intersects its axis of symmetry.
+⟮＿The parabola＿⟯'s »⟮vertex⟯« is ⟮the point at which it intersects its axis of symmetry⟯.
 
-The graphing form (my term) of a quadratic equation is y=a(x-h)⎴2⎴+k, where the vertex is the point (h, k).
-In the graphing form, if a is positive/negative, the parabola opens upwards/downwards.
-What I call graphing form is confusingly often called standard form
+»⟮The graphing form⟯« (my term) of ⟮＿a quadratic equation＿⟯ is f(x)=⟮a(x-⟯⟮h)⎴2⎴+k⟯, where ⟮＿the vertex＿⟯ is ⟮the point (h, k)⟯.
+In ⟮＿the graphing form＿⟯, if ⟮a⟯ is ⟮positive/negative⟯, the parabola ⟮opens upwards/downwards⟯.
+What I call ⟮＿graphing form＿⟯ is confusingly often called ⟮standard form⟯
 
 ###### solving
 
 ####### quadratic formula
 
-The quadratic formula is the formula that produces the zeroes for a quadratic cartesian equation.
+»⟮The quadratic formula⟯« is the formula that produces the zeroes for a quadratic cartesian equation.
 The quadratic formula is x = (-b ± sqrt(b⎴2⎴4ac))/2a
 
 ####### factor form
