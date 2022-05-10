@@ -15,8 +15,8 @@ We might want to consider a mathematical constant to be an operation of arity 0.
 ⟮＿Exponentiation＿⟯ is often written as `⟮b⎴n⎴⟯`, where ⟮b⟯ is ⟮＿the base＿⟯ and ⟮c-;n⟯ is ⟮＿the exponent＿⟯.
 ⟮＿Exponentiation＿⟯ `⟮b⎴n⎴⟯` means `⟮Π⟯⟮⎵i=1⎵⎴n⎴b⟯` .
 ⟮base⟯ =syn= ⟮radix⟯
-Exponentiation is nonassociative and noncommutative.
-The order of operations for serial exponentiation is typically top-down.
+⟮＿Exponentiation＿⟯ is ⟮＿nonassociative＿⟯ and ⟮＿noncommutative＿⟯.
+The order of operations for multiple exponentiation is typically top-down.
 
 ##### root
 
@@ -30,8 +30,8 @@ The order of operations for serial exponentiation is typically top-down.
 ###### real roots
 
 »⟮A real root⟯« is ⟮＿a root＿⟯ which is ⟮＿a real number＿⟯.
-Any number may have 0 - 2 real roots.
-There are 2 nth real roots for if the degree of the root is even.
+⟮Any number⟯ may have ⟮0 - 2⟯ ⟮＿real roots＿⟯.
+There are ⟮2⟯ ⟮＿nth real roots＿⟯ if ⟮＿the degree＿⟯ of the root is ⟮even⟯.
 
 ####### special cases
 
@@ -49,19 +49,19 @@ There are 2 nth real roots for if the degree of the root is even.
 
 ###### imaginary unit
 
-The imaginary unit is a non-real number satisfying x⎴2⎴+1=0.
-imaginary unit =symb=&gt; i
+»⟮The imaginary unit⟯« is a ⟮non-real⟯ number satisfying ⟮x⎴2⎴+1=0⟯.
+⟮imaginary unit⟯ =symb=&gt; ⟮i⟯
 
 ###### notation
 
-The radical symbol is the symbol √.
-Radical notation is the radical symbol with a line continuing on top indicating a root.
-The degree of a root is placed on the top left of the radical symbol.
-The radical symbol without an explicit degree generally refers to the square root.
+»⟮The radical symbol⟯« is the symbol ⟮√⟯.
+»⟮Radical notation⟯« is using⟮＿ the radical symbol＿⟯ with ⟮a line continuing on top⟯ to ⟮indicate ＿a root＿⟯.
+⟮＿The degree＿ of ＿a root＿⟯ is ⟮placed on the top left⟯ of ⟮＿the radical symbol＿⟯.
+⟮＿The radical symbol＿⟯ ⟮without an explicit ＿degree＿⟯ generally refers to ⟮＿the square root＿⟯.
 
 ###### in terms of exponentiation
 
-nthrt(degree, radicand) = radicand⎴1/degree⎴
+⟮nthrt(degree, radicand)⟯ = ⟮radicand⎴1/degree⎴⟯
 
 ##### logarithm
 
@@ -84,11 +84,11 @@ b⎴⟮-n⟯⎴ = ⟮1/b⎴n⎴⟯
 
 ##### exponent rules
 
-The exponent rules is a set of identities that hold for all integer exponents on all non-zero bases (for rational exponents)
+»⟮The exponent rules⟯« are ⟮a set of ＿identities＿⟯ that hold for ⟮all rational exponents⟯ 
 ```
-b⎴n⎴b⎴m⎴ = b⎴n+m⎴
-(b⎴n⎴)⎴m⎴ = b⎴nm⎴
-(bc)⎴n⎴ = b⎴n⎴c⎴n⎴
+⟮b⎴n⎴b⎴m⎴⟯ = ⟮b⎴n+m⎴⟯
+⟮(b⎴n⎴)⎴m⎴⟯ = ⟮b⎴nm⎴⟯
+⟮(bc)⎴n⎴⟯ = ⟮b⎴n⎴c⎴n⎴⟯
 ```
 
 ## properties
@@ -104,14 +104,14 @@ b⎴n⎴b⎴m⎴ = b⎴n+m⎴
 
 #### inverse
 
-given a binary operation ⋅ and an identity element e, if x*y = e, x is the left-inverse of y and y is the right-inverse of x.
-An element is the inverse element of another element if it can be both its right- and left inverse
+given a binary operation ⋅ and ⟮＿an identity element e＿⟯, if ⟮x*y = e⟯, ⟮x⟯ is »⟮the left-inverse⟯« of ⟮c-;y⟯ and ⟮c_;y⟯ is »⟮the right-inverse⟯« of ⟮c_-;x⟯.
+An element is »⟮the inverse element⟯« of another element if it can be both its right- and left inverse
 ⟮＿The inverse＿⟯ ⟮of a certain operation⟯ is often called ⟮‹operation› inverse (e.g. multiplicative inverse)⟯.
 
 ##### nomenclature
 
 ⟮＿the inverse＿⟯ of a number x is denoted by ⟮x⎴-1⎴⟯.
-additive inverse =syn= opposite
+⟮additive inverse⟯ =syn= ⟮opposite⟯
 ⟮multiplicative inverse⟯ =syn= ⟮reciprocal⟯
 
 #### certain cases
@@ -125,7 +125,7 @@ Examples for ⟮＿idempotent functions＿⟯ include ⟮abs(x), floor(x), ceil(
 
 ### comeassdir
 
-Comeassdir is the three properties commutativity, associativity, and distributivity.
+»⟮Comeassdir⟯« is the three properties ⟮＿commutativity＿⟯, ⟮＿associativity＿⟯, and ⟮＿distributivity＿⟯.
 
 #### commutative
 
