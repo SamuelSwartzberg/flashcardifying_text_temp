@@ -41,7 +41,6 @@ pragmeme|pragmatic act|non-semantic meaning
 morphophoneme|speech/sign|sememopragmemogrammeme(s)
 kineme|body positioning|pragmemes|probably
 grammeme|?|?
-lingueme|?|?
 
 ### equivalence
 
