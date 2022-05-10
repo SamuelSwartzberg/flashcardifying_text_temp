@@ -3,8 +3,6 @@
 »⟮an operation⟯« is the same thing as ⟮＿a function＿⟯, but one which ⟮gets its own ＿operator＿⟯.
 »⟮Operands⟯« are ⟮the input values⟯ of ⟮＿operations＿⟯.
 »⟮An operator⟯« is ⟮the symbol signifing⟯ ⟮＿the operation＿⟯.
-In `3+4`, ⟮3 and 4⟯ are ⟮＿the operands＿⟯.
-In `3+4`, ⟮+⟯ is ⟮＿the operator＿⟯.
 We might want to consider a mathematical constant to be an operation of arity 0.
 
 ## types
@@ -15,37 +13,39 @@ We might want to consider a mathematical constant to be an operation of arity 0.
 
 »⟮Exponentiation⟯« is ⟮＿a binary operation＿⟯ involving the two operands ⟮＿base＿⟯ and ⟮c_;＿exponent＿⟯.
 ⟮＿Exponentiation＿⟯ is often written as `⟮b⎴n⎴⟯`, where ⟮b⟯ is ⟮＿the base＿⟯ and ⟮c-;n⟯ is ⟮＿the exponent＿⟯.
-⟮＿Exponentiation＿⟯, written as `⟮b⎴n⎴⟯` means `⟮Π⟯⟮⎵i=1⎵⎴n⎴b⟯` .
+⟮＿Exponentiation＿⟯ `⟮b⎴n⎴⟯` means `⟮Π⟯⟮⎵i=1⎵⎴n⎴b⟯` .
 ⟮base⟯ =syn= ⟮radix⟯
 Exponentiation is nonassociative and noncommutative.
 The order of operations for serial exponentiation is typically top-down.
 
 ##### root
 
-The root is ambiguous between any nth root.
-The nth root of a radicand x is a number r such that r^n = x (n ∈ N).
-The degree of a root is the n of the nth root.
-A square/cube root is a root with a degree of 2/3.
-A surd is an unresolved root.
-Root extraction is the computation of a nth root.
+»⟮The root⟯« is ⟮ambiguous between⟯ ⟮any ＿nth root＿⟯.
+»⟮The nth root⟯« of »⟮a radicand⟯« x is ⟮a number⟯ r such that ⟮r^n = x⟯ (n ∈ N).
+»⟮The degree⟯« of a root is ⟮the n of ＿the nth root＿⟯.
+»⟮A square/cube root⟯« is ⟮＿a root＿⟯ with ⟮＿a degree＿ of 2/3⟯.
+»⟮A surd⟯« is ⟮an unresolved ＿root＿⟯.
+»⟮Root extraction⟯« is ⟮the computation of ＿a root＿⟯.
 
 ###### real roots
 
-A real root is a root which is a real number.
+»⟮A real root⟯« is ⟮＿a root＿⟯ which is ⟮＿a real number＿⟯.
 Any number may have 0 - 2 real roots.
 There are 2 nth real roots for if the degree of the root is even.
 
 ####### special cases
 
-real root of 0 is 0 no matter the degree.
-A negative number has no real roots.
+⟮＿the real root＿⟯ of ⟮0⟯ is ⟮0⟯ no matter ⟮the ＿degree＿⟯.
+⟮A negative number⟯ has ⟮no⟯ ⟮＿real roots＿⟯.
 
 ####### properties
 
-For non-negative real radicands a, b:
-nthRoot(n, a⎴m⎴) = (a⎴m⎴)⎴1/n⎴ = a⎴m/n⎴
-nthRoot(n, ab) = nthRoot(n, a)*nthRoot(n, b)
-nthRoot(n, a/b) = nthRoot(n, a)/nthRoot(n, b)
+!For ⟮non-negative⟯ ⟮real⟯ ⟮＿radicands＿⟯ a, b:
+```
+⟮nthrt(n, a⎴m⎴)⟯ = ⟮(a⎴m⎴)⎴1/n⎴⟯ = ⟮a⎴m/n⎴⟯
+⟮nthrt(n, ab)⟯ = ⟮nthrt(n, a)⟯⟮c_;*⟯⟮c_;nthrt(n, b)⟯
+⟮nthrt(n, a/b)⟯ = ⟮nthrt(n, a)⟯⟮c_;/⟯⟮c_;nthrt(n, b)⟯
+```
 
 ###### imaginary unit
 
@@ -61,7 +61,7 @@ The radical symbol without an explicit degree generally refers to the square roo
 
 ###### in terms of exponentiation
 
-nthRoot(degree, radicand) = radicand⎴1/degree⎴
+nthrt(degree, radicand) = radicand⎴1/degree⎴
 
 ##### logarithm
 

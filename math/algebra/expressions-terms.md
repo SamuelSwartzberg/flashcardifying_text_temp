@@ -39,22 +39,24 @@ Polynomial evaluation is substitution of a numeric value for each indeterminate.
 An arbitrary polynomial =sym=&gt; P
 A polynomial function =sym=&gt; P(x)
 
-#### form &amp; terms
+#### properties
 
-The standard form of a polynomial is ∑⎵k=0⎵⎴n⎴a⎵k⎵x⎴k⎴.
+##### form &amp; terms
+
+The general/standard form of a polynomial is ∑⎵k=0⎵⎴n⎴a⎵k⎵x⎴k⎴.
 The factor form of a polynomial is a polynomial represented as factors.
 A polynomial term (rare term) is a term of a polynomial.
 Polynomial terms are typically ordered by degree.
 
-#### degree
+##### degree
 
-##### degrees
+###### degrees
 
 The degree⎵indeterminate⎵ is the exponent value of an indeterminate.
 The degree⎵polynomial term⎵ is the sum of the degres of the indeterminates in the polynomial term.
 The degree⎵polynomial⎵ is the highest degree of a polynomial term in a polynomial.
 
-##### increasing degrees
+###### increasing degrees
 
 The zero polynomial is the polynomial `0`.
 The zero polynomial has a degree of undefined, -1 or -∞.
@@ -62,13 +64,65 @@ A non-zero polynomial is a polynomial that is not a zero polynomial.
 A constant polynomial is a polynomial with degree 0 ≙ no indeterminates.
 A linear/quadratic/cubic polynomial/polynomial term is a polynomial/polynomial term with degree 1/2/3.
 
-##### homogeneous
+###### homogeneous
 
 A homogeneous polynomial of degree n is a polynomial where all polynomial terms have degree n.
 
-#### indeterminates
+##### indeterminates
 
 A uni/bi/multivariate polynomial is a polynomial with 1/2/2+ indeterminates.
+
+#### equation, formulae
+
+⟮Algebraic equation⟯ =syn= ⟮polynomial equation⟯.
+A polynomial function is a function f(x)=P.
+A polynomial equation is an equation P = 0.
+^alternatively, a polynomial function where y = 0.
+»⟮A linear/quadratic/cubic equation/function⟯« is a polynomial equation/function which is univariate and whose polynomial is linear/quadratic/cubic.
+»⟮A cartesian equation⟯« is a polynomial equation containing two unknowns whose solutions are interpreted as cartesian coordinates.
+
+##### by degree
+
+table:degree|standard/general form (function)|graph shape
+zero polynomial|f(x)=0|line (the x-axis)
+0|f(x)=a|horizontal line
+1|f(x)=mx+t|line
+2|f(x)=ax⎴2⎴+bx+c|parabola
+3|f(x)=ax⎴3⎴+bx⎴2⎴+cx+d|cubic curve
+
+
+The graph of any polynomial with a degree ≥ 2 is continuous and non-linear.
+
+##### derived fields
+
+»⟮linear algebra⟯« is the branch of algebra concerned with ⟮＿linear equations＿⟯.
+
+##### algebraic solutions
+
+»⟮An algebraic solution⟯« is ⟮＿a symbolic solution＿⟯ for ⟮＿a polynomial equation＿⟯ which is ⟮＿a closed-form expression＿⟯.
+There exists ⟮＿algebraic solutions＿⟯ ⟮for all⟯ polynomic equations with ⟮a ＿degree＿ ≤ 4⟯, but ⟮c-;not for all⟯ ⟮&gt; 4⟯
+
+##### quadratic
+
+###### parabolae
+
+The parabola's vertex is the point at which it intersects its axis of symmetry.
+
+The graphing form (my term) of a quadratic equation is y=a(x-h)⎴2⎴+k, where the vertex is the point (h, k).
+In the graphing form, if a is positive/negative, the parabola opens upwards/downwards.
+What I call graphing form is confusingly often called standard form
+
+###### solving
+
+####### quadratic formula
+
+The quadratic formula is the formula that produces the zeroes for a quadratic cartesian equation.
+The quadratic formula is x = (-b ± sqrt(b⎴2⎴4ac))/2a
+
+####### factor form
+
+The factor form of a quadratic equation is a(x-s⎵1⎵)(x-s⎵2⎵) = 0.
+s⎵1⎵, s⎵2⎵ in the factor form are the solutions.
 
 #### derived things
 

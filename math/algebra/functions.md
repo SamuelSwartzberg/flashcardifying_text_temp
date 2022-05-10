@@ -32,6 +32,7 @@ if the function is `f(x)=x⎴2⎴`, then ⟮＿the preimage＿⟯ of {1,4} for t
 ### graph
 
 »⟮The graph⟯« of the function is ⟮the set of⟯ ⟮all pairs (x, f(x)) (equivalently: (x,y))⟯.
+The graph shape is the shape of the graph.
 
 ## types of functions
 
