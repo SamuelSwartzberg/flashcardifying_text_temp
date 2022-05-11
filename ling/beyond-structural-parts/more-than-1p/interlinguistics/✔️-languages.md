@@ -1,6 +1,6 @@
-# interlingual-languages
+# languages
 
-## language function
+## interlingual languages
 
 ### lingua franca
 
@@ -36,28 +36,18 @@ An »⟮c7;IAL⟯« is ⟮＿a lingua franca＿⟯ which is ⟮＿a conlang＿�
 
 The ⟮c36;traditional view (has criticisms)⟯ is that »⟮a creole⟯« is ⟮＿a pidgin＿⟯ that has ⟮been nativized⟯.
 
-## language lifecycle
-
-### creation
-
-Languages are either ⟮c40;＿natural languages＿⟯ or ⟮c_;＿constructed languages＿⟯.
-⟮c41;constructed language⟯ =short=&gt; ⟮conlang⟯.
-⟮c43;natural language⟯ =short=&gt; ⟮natlang⟯.
-»⟮c45;A constructed language⟯« is one ⟮which was constructed by humans⟯.
-»⟮c47;A natural language⟯« is one ⟮that has evolved naturally through human use⟯.
-
-#### conlangs
-
-»⟮c49;Naturalistic⟯« ⟮＿conlangs＿⟯ are ⟮c_;＿conlangs＿⟯ that ⟮mimic existing real languages⟯.
-
-### nativization
-
-»⟮c52;nativization⟯« is a languoid ⟮gaining L1 speakers (from 0 to › 0)⟯.
-
-## misc
-
 ### mixed language
 
-»⟮c54;A mixed language⟯« is a language ⟮combining aspects of two or more languages⟯ but not ⟮clearly deriving primarily from any single language⟯
+»⟮c40;A mixed language⟯« is a language ⟮combining aspects of two or more languages⟯ but not ⟮clearly deriving primarily from any single language⟯
 
-<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}</span>
+## language relationships
+
+### linguistic closeness/distance
+
+»⟮c43;Linguistic closeness/distance⟯« is how ⟮similar/different⟯ ⟮two ＿languoids＿⟯ are, which may be measured ⟮in different ways⟯.
+
+#### mutual intelligibility
+
+»⟮c47;Mutual (un)intelligibility⟯« is the degree to which ⟮speakers of different ＿languoids＿⟯ ⟮can (not)⟯ ⟮understand each other⟯ ⟮without prior familiarity / special effort⟯
+
+<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}</span>
