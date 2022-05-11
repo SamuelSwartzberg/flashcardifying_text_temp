@@ -49,6 +49,13 @@
 »⟮Language attrition⟯« is ⟮decreasing language proficiency in a languoid⟯.
 ⟮＿Language attrition＿⟯ can be either ⟮L1⟯ or ⟮c_;L2⟯.
 
+### language dominance
+
+»⟮Language dominance⟯« is ambiguous between language dominance⎵use⎵ and language dominance⎵proficiency⎵.
+Language dominance⎵use⎵ is the more ready use of one languoid over another.
+Language dominance⎵proficiency⎵ is higher proficiency in a certain languoid.
+⟮＿Language dominance＿⟯ may either be ⟮within a given speaker⟯ or ⟮within a ＿speech community＿⟯.
+
 ## consequences
 
 ### language transfer

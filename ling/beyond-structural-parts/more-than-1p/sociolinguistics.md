@@ -112,6 +112,10 @@ Style-shifting is code-switching between registers.
 !A »⟮standard variety⟯« is ⟮a certain ＿variety＿⟯ of a language with two properties:
 - !⟮standartized to a certain extent⟯
 - !⟮thought to be/promoted as correct⟯
+A non-standard variety is not a standard variety.
+A standard/non-standard variant is a variant from a standard/non-standard variety
+
+###### centricity
 
 »⟮A monocentric/pluricentric language⟯« is a language with ⟮1/>1⟯ ⟮＿standard varieties＿⟯ 
 ^e.g. monocentric: Japanese, pluricentric: English (AE, BE, Aus...), German (DE, CH, AT, ...), Spanish (ES, MX, ...)
@@ -124,42 +128,27 @@ E.g. ⟮baviarian⟯ is ⟮＿heteronomous＿⟯ in relation to ⟮standard germ
 
 ##### prestige
 
-»⟮Prestige⟯« is ⟮the level of regard given⟯ within ⟮a given ＿speech community＿⟯
-⟮＿Prestige＿⟯ can apply to ⟮＿variants＿⟯ or ⟮＿varieties＿⟯.
+»⟮Prestige⟯« is ⟮the level of regard given⟯ to ⟮＿a variety/variant＿⟯ within ⟮a given ＿speech community＿⟯.
 »⟮A prestige variety⟯« is a ⟮＿variety＿⟯ with ⟮high ＿prestige＿⟯.
-Most commonly, ⟮＿standard varieties＿⟯ are ⟮＿prestige varieties＿⟯.
-»⟮Covert prestige⟯« is the situation in which ⟮a non-standard variety⟯ ⟮has high prestige⟯.
+»⟮overt/covert prestige⟯« is ⟮＿the prestige＿⟯ of ⟮＿standard/non-standard＿⟯ variants/varieties.
+Overt prestige is more common and less-context dependent than covert prestige.
 
 ##### linguistic prescriptivism
 
-»⟮Linguistic prescription⟯« is ⟮establishing rules⟯ for ⟮the correct or good use⟯ of a language.
+»⟮Linguistic prescription⟯« is ⟮establishing rules⟯ for ⟮the correct or good use⟯ of a languoid.
 
 ###### language academies
 
-»⟮Language academies⟯« are institutions ⟮regulating⟯ ⟮standard varieties⟯
-⟮Language academies⟯ generally follow ⟮linguistic prescriptivism⟯ 
-⟮RAE⟯ is short for ⟮Real Academia Española⟯
-The »⟮RAE⟯« is the ⟮spanish⟯ ⟮language academy⟯, generally ⟮quite conservative⟯ in outlook 
+»⟮Language academies⟯« are institutions ⟮regulating ＿standard varieties＿⟯.
+»⟮A prescriptive language academy⟯« is ⟮＿a language academy＿⟯ following ⟮＿linguistic prescriptivism＿⟯.
 
 ###### dialect
 
-⟮Dialect⟯ as a term often ⟮implies negative value ('mere dialect')⟯.
-People very confused may use ⟮dialect⟯ to mean ⟮＿accent＿⟯.
-In regions such as I⟮taly, France and the Philippines⟯ ⟮separate⟯ but ⟮c_;non-standard⟯ ⟮sister languages⟯ to the standard variety are ⟮called⟯ and ⟮c_;(falsely) considered to be⟯ ⟮dialects⟯.
-In ⟮an academic setting⟯, a ⟮dialect⟯ is ⟮a synonym⟯ of either ⟮variety⟯ or ⟮regiolect⟯.
-
-##### language dominance
-
-»⟮Language dominance⟯« is either ⟮the more frequent/ready use of⟯ or ⟮proficiency in⟯ ⟮one language more than another⟯.
-⟮＿Language dominance＿⟯ may either be ⟮within a given speaker⟯ or ⟮within a ＿speech community＿⟯.
+»⟮Dialect⟯« is generally ⟮pejorative⟯ but ⟮ambiguous between⟯ ⟮＿accent＿⟯, ⟮＿non-standard variety＿⟯, ⟮＿regiolect＿⟯, or ⟮＿sister language＿ seen as mere ＿variety＿⟯.
 
 ##### power
 
-»⟮Linguistic hegemony⟯« is when ⟮a dominant group⟯ has ⟮created a certain idea⟯ about ⟮their language norms⟯.
-Under ⟮linguistic hegemony⟯, ⟮the dominant grous's language norms⟯ are ⟮seen as correct⟯.
-Under ⟮linguistic hegemonic⟯, speech that⟮ doesn't conform to the language norms of the dominant group⟯ is ⟮a failure (being wrong)⟯.
-
-In a critical view, ⟮english⟯ as ⟮c_;the standard language⟯ in science may be an example of ⟮linguistic hegemony⟯
+»⟮Linguistic hegemony⟯« is when ⟮a dominant group⟯ has ⟮created the  idea⟯ that ⟮their language norms⟯ are ⟮good/correc⟯t and ⟮non-conforming speech⟯ is ⟮a failure to live up to these norms⟯.
 
 ## the sociolinguistic situation of certain groups
 
@@ -169,42 +158,32 @@ In a critical view, ⟮english⟯ as ⟮c_;the standard language⟯ in science m
 
 The study of ⟮language and gender⟯ is said to ⟮have stared with⟯ 『⟮Language and Women's Place⟯』
 『⟮Language and Women's Place⟯』 was written by ⟮Robin Lakoff⟯ in ⟮1973 or 1975, its unclear to me⟯.
-⟮Robin Lakoff⟯ was ⟮married to⟯ ⟮the (arguably) more famous Lakoff (of Metaphors We Live By fame)⟯
 ⟮Deborah Tannen⟯ was ⟮a student of⟯ ⟮Robin Lakoff⟯ 
 ⟮Deborah Tannen⟯ wrote 『⟮You Just Don't Understand⟯』 in ⟮1990⟯.
 『⟮You Just Don't Understand⟯』 ⟮initiated the difference approach⟯ to language and gender.
 
 #### approaches
 
-There are broadly ⟮three⟯ approaches to ⟮explain differences between⟯ ⟮male and female language⟯.
-⟮The three approaches to explain the differences between male and female language⟯ are the ⟮＿dominance＿⟯, ⟮＿deficit＿⟯ and ⟮＿difference＿⟯ approach.
-The ⟮＿deficit＿⟯ and ⟮c_;＿dominance＿⟯ approach ⟮have in common⟯ that they ⟮assert that women's language is weaker than men's language⟯.
-The »⟮deficit approach⟯« argues that ⟮women's language being weaker⟯ ⟮causes/perpetuates⟯ ⟮women's oppression⟯.
-The »⟮dominance approach⟯« argues that ⟮women's language being weaker⟯ ⟮is a reflection of⟯ ⟮women's oppression⟯.
-The »⟮difference approach⟯« asserts that ⟮women's language⟯ ⟮is not weaker or worse⟯, instead ⟮c_;just different from⟯ ⟮c-;men's language⟯.
-
-#### gender in words
-
-⟮Words may have gender⟯ in roughly ⟮four⟯ ways.
-⟮The four ways in which words may have gender⟯ are ⟮lexical gender⟯, ⟮grammatical gender⟯, ⟮referential gender⟯, ⟮social gender⟯.
-⟮lexical, grammatical, referential and social gender⟯ may ⟮contradict⟯ each other.
-
-»⟮lexical gender⟯« is gender ⟮as inherent in the reference of words⟯.
-⟮＿lexical gender＿⟯ is ⟮most common⟯ in ⟮kinship terms⟯
-Examples for ⟮＿lexically gendered＿⟯ words: ⟮Mother, aunt, son, father⟯
-»⟮social gender⟯« is words being gendered ⟮via their gender connotations⟯
-Examples for ⟮＿social gendered＿⟯ words: ⟮surgeon, lawyer is pronominalized by he even when gender is unknown⟯
-»⟮referential gender⟯« is words being gendered ⟮via the gender of their deictic referent⟯
-
-##### Mädchen für alles
-
-!If a male person is called a "Mädchen für alles", Mädchen has...
+A gender language difference approach (my term) aims to explain how/what kind of gender differences exist in language usage.
+The three default gender language difference explanations are the deficit approach, the dominance approach and the difference approach.
 
 
-table:gender|value
-⟮lexical gender⟯|⟮female (girl)⟯
-⟮grammatical gender⟯|⟮neuter (das Mädchen)⟯
-⟮referential gender⟯|⟮male (the deictic referent.)⟯
+table:gender language difference approach|relationship women's/men's language|relationship language/oppression
+»⟮deficit approach⟯«|⟮weaker⟯|⟮language → oppression⟯
+»⟮dominance approach⟯«|⟮weaker⟯|⟮oppression → language⟯
+»⟮difference approach⟯«|⟮just different⟯|⟮?⟯
+
+#### word gender
+
+Word gender (my term) is the gender a word can somehow acquire.
+Word gender consists of ⟮lexical gender⟯, ⟮grammatical gender⟯, ⟮referential gender⟯ and ⟮social gender⟯.
+
+##### table
+
+table:word gender|whence
+»⟮lexical gender⟯«|⟮inherent in reference⟯.
+»⟮social gender⟯«|⟮gender connotations⟯
+»⟮referential gender⟯«|⟮deictic referent⟯
 
 ## misc
 
