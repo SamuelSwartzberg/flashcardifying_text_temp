@@ -13,69 +13,32 @@
 
 ### semantic change
 
-»⟮Semantic change⟯« is ⟮＿language change＿⟯ of ⟮＿sememe(s)＿⟯ of ⟮a particular ＿lexical unit＿⟯.
-⟮Semantic change⟯ = ⟮semantic shift⟯ = ⟮semantic drift⟯
+»⟮Semantic change⟯« is ⟮＿language change＿⟯ of ⟮＿sememe(s)＿⟯ of ⟮a particular ＿lexemic unit＿⟯.
+⟮Semantic change⟯ =syn= ⟮semantic shift⟯ =syn= ⟮semantic drift⟯
 
 Common types of ⟮＿semantic change＿⟯ are ⟮narrowing/widening⟯, ⟮amelioration/pejoration⟯
 
 #### widening/narrowing
 
-⟮Semantic widening/narrowing⟯ is commonly abbreviated as ⟮widening/narrowing⟯
-⟮Widening/narrowing⟯ is also known as ⟮generalization/specialization⟯.
-»⟮Widening/narrowing⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿a lexical unit＿⟯ takes on ⟮＿the sememe＿⟯ of ⟮one of its ＿hyper/hyponyms＿⟯.
+⟮Semantic widening/narrowing⟯ =short=> ⟮widening/narrowing⟯
+⟮Widening/narrowing⟯ =syn= ⟮generalization/specialization⟯.
+»⟮Widening/narrowing⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿a lexemic unit＿⟯ takes on ⟮＿the sememe＿⟯ of ⟮one of its ＿hyper/hyponyms＿⟯.
 e.g. assassin: specific order of killers -&gt; any killer; starve: die -&gt; die by lack of food; wife: any woman -&gt; woman to whom one is married
 
 #### amelioration/pejoration
 
-⟮amelioration/pejoration⟯ is also known as ⟮elevation/degeneration⟯
-»⟮Amelioration/pejoration⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿the sememe＿⟯ of ⟮＿a lexical unit＿⟯ ⟮becomes more positive/negative⟯.
+⟮amelioration/pejoration⟯ =syn= ⟮elevation/degeneration⟯
+»⟮Amelioration/pejoration⟯« is the form of ⟮＿semantic change＿⟯ where ⟮＿the sememe＿⟯ of ⟮＿a lexemic unit＿⟯ ⟮becomes more positive/negative⟯.
 e.g. pretty: sly -&gt; beautiful; knight: servant -&gt; feudal warrior; villain: serf -&gt; evildoer; knave: servant -&gt; rogue
 
 ### lexis
 
+»⟮lexical change⟯« is ⟮＿language change＿⟯ of ⟮＿the lexis＿ of a languoid⟯.
+
 #### relexification
 
-»⟮Relexification⟯« is replacing ⟮most/all⟯ of ⟮＿the lexis＿⟯ ⟮of one languoid with that of another languoid⟯ while ⟮leaving the grammar intact⟯
-
-## why do things change
-
-### language contact
-
-»⟮Language contact⟯« is ⟮＿language change＿⟯ due to ⟮the influence of other languoid(s)⟯.
-»⟮Contact linguistics⟯« is the field that studies ⟮＿language contact＿⟯
-
-#### borrowing
-
-»⟮Borrowing⟯« is a ⟮form of⟯ ⟮＿language change＿⟯ ⟮c-;caused by⟯ ⟮＿language contact＿⟯.
-»⟮Borrowing⟯« is ⟮＿a languoid＿⟯ ⟮gaining⟯ ⟮＿a recipium＿⟯ ⟮c-;via⟯ ⟮＿a donum＿⟯.
-⟮＿Donum and recipium＿⟯ (my terms) are both ⟮＿linguemes＿⟯.
-»⟮The donor language⟯« is ⟮＿the languoid＿⟯ ⟮whence⟯ ⟮＿the donum＿⟯.
-»⟮The recipient language⟯« is ⟮＿the languoid＿⟯ ⟮wither⟯ ⟮＿the recipium＿⟯.
-»⟮A borrowing⟯« is ⟮＿a lingueme＿⟯ ⟮aquired via ＿borrowing＿⟯.
-»⟮A native word⟯« is ⟮＿a lexical unit＿⟯ that is ⟮not ＿a borrowing＿⟯.
-⟮＿Borrowing＿⟯ is ⟮categorized by⟯ ⟮what kind of ＿linguistic items＿⟯ ⟮＿the donum＿ and ＿the recipium＿ are⟯.
-Sometimes various borrowing-related terminology is used differently.
-
-##### recipium
-
-###### sememes
-
-»⟮A semantic loan⟯« is a type of ⟮＿borrowing＿⟯ where ⟮＿donum＿ and ＿recipium＿⟯ are ⟮＿sememes＿⟯.
-In a »⟮semantic loan⟯«, ⟮＿a lexical item＿⟯ ⟮exists in two languoids⟯, but is ⟮lacking ＿a sememe＿⟯ in ⟮the ＿recipient language＿⟯, which ⟮is then transferred⟯.
-realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
-
-###### lexical units
-
-When ⟮＿a recipium＿⟯ is ⟮＿a lexical unit＿⟯, ⟮c_-;＿the donum＿⟯ may be a ⟮lexical unit⟯, ⟮a morphological pattern/tree structure⟯, ⟮a morpheme⟯, or ⟮a sememe⟯.
-⟮＿Foreign words＿⟯ and ⟮c_;＿loanwords＿⟯ are ⟮＿borrowings＿⟯ where the ⟮＿recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿the same lexical unit＿⟯.
-The difference between them is that »⟮foreign words⟯« ⟮are still recognizably foreign⟯, while »⟮c-;loanwords⟯« ⟮have been completely integrated into the recipient language⟯.
-»⟮A loan formation⟯« is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮a morphological pattern/tree structure of a lexical unit⟯, which ⟮is filled with native morphemes⟯.
-⟮＿Loan translations＿⟯ and ⟮＿loan renditions＿⟯ are the two types of ⟮＿loan formations＿⟯.
-The difference between them is that »⟮loan translations⟯« ⟮translate all segments exactly⟯, while »⟮c-;loan renditions⟯« ⟮only translates the segments roughly⟯.
-While weekend → Wochenende is a ⟮＿loan translation＿⟯, skyscraper → Wolkenkratzer is a ⟮c_;＿loan rendition/rendering＿⟯
-⟮Calque⟯ is a synonym for ⟮loan translation⟯.
-»⟮A loanblen⟯«d is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿a morpheme＿⟯, which is ⟮combined with (a) native morpheme(s)⟯
-»⟮A loan creation⟯« is ⟮＿a borrowing＿⟯ where ⟮＿the recipium＿⟯ is ⟮＿a lexical unit＿⟯ and ⟮c-;＿the donum＿⟯ is ⟮＿a sememe＿⟯.
+»⟮Relexification⟯« is ⟮＿lexical change＿⟯ that is replacing ⟮most/all⟯ of ⟮＿the lexis＿⟯ ⟮of one languoid with that of another languoid⟯.
+^while changing nothing else
 
 ##### properties
 
@@ -89,9 +52,52 @@ While weekend → Wochenende is a ⟮＿loan translation＿⟯, skyscraper → W
 ⟮pseudo-borrowing⟯ = ⟮false borrowing⟯
 »⟮A pseudo-borrowing⟯« is ⟮＿a lingueme＿⟯ which ⟮seems to be a ＿borrowing＿, but isn't.⟯
 
+## why do things change
+
+### language contact
+
+»⟮Language contact⟯« is ⟮＿language change＿⟯ due to ⟮the influence of other languoid(s)⟯.
+»⟮Contact linguistics⟯« is the field that studies ⟮＿language contact＿⟯
+
+#### borrowing
+
+»⟮Borrowing⟯« is ⟮＿a languoid＿⟯ ⟮gaining⟯ ⟮＿a recipium＿⟯ ⟮c-;via⟯ ⟮＿a donum＿⟯ ⟮via⟯ ⟮＿language contact＿⟯.
+A donum/recipium is a linguistic item from the donor/recipient languoid.
+»⟮The donor/recipient language⟯« is ⟮＿the languoid＿⟯ ⟮whence/wither⟯ ⟮＿the donum＿/＿the recipium＿⟯.
+The borrowing carriers (my term) are the things that already exists in both languoids and thus stay the same in a borrowing.
+The borrowing constant (my term) is the thing that is transferred in a borrowing.
+
+##### categorizing items
+
+»⟮A borrowing⟯« is ⟮＿a linguistic item＿⟯ ⟮aquired via ＿borrowing＿⟯.
+»⟮A native item⟯« is ⟮＿a linguistic item＿⟯ that is ⟮not ＿a borrowing＿⟯.
+
+##### borrowing constants
+
+A sememic/morphemic/lexemic... borrowing is a borrowing where the borrowing constants are sememes/morphemes/lexemes.
+
+###### sememes
+
+»⟮A semantic loan⟯« is a sememic borrowing where the borrowing carriers are lorphemes.
+realize (make happen, become aware of) / realisieren (make happen) → realize (make happen, become aware of) / realisieren (make happen, become aware of)
+A loan creation is a sememic borrowing where the borrowing carriers are lorphemes, but the lorpheme in the recipient language is newly created for this purpose.
+
+###### lexemic units
+
+A lexemic unit borrowing may result in a foreign word or a loanword.
+A foreign word/loanword is a lexemic unit borrowing where the borrowing carriers are sememes and which has not/has been assimilated phonologically/morphologically/graphemically.
+
+###### morphemes
+
+A loan formation is a borrowing where the borrowing constant is a sequence of morpheme signifieds and the borrowing carriers are sets of actual morphemes.
+A loan translation/rendition is a loan formation where the morpheme signifieds are realized by strict/rough translations.
+^weekend → Wochenende is a ＿loan translation＿, skyscraper → Wolkenkratzer is a ＿loan rendition/rendering＿
+⟮Calque⟯ =syn= ⟮loan translation⟯.
+A loanblend is a lexemic unit formed using a morpheme borrowing.
+
 ## more complex phenomena
 
 ### dialect levelling
 
-»⟮Dialect levelling⟯« is ⟮the reduction of the distinctive linguistic items⟯ of ⟮a non-standard variety⟯ towards ⟮c-;more similarity with⟯ ⟮the standard variety⟯.
-Since the industrial revolution, ⟮＿dialect levelling＿⟯ has been ocurring to ⟮most languages⟯.
+»⟮Dialect levelling⟯« is ⟮the reduction of ＿linguistic distance＿⟯ of ⟮＿a non-standard variety＿⟯ towards ⟮more similarity with⟯ ⟮c_-;＿the standard variety＿⟯.
+Since the industrial revolution, ⟮＿dialect levelling＿⟯ has been ocurring to ⟮most languoids⟯.

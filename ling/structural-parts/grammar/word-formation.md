@@ -194,6 +194,7 @@ Ergo, ⟮c276;all of⟯ what ⟮＿morphology＿⟯ does is ⟮＿word formation
 A single-morpheme word is a word which consists of a single free morpheme.
 A morphemelike segment (my term) is a morpheme or single-morpheme word.
 A worpheme (my term) is a morpheme or a word.
+A lorpheme is a morpheme or lexemic unit.
 
 ### morphs/morphemes 
 

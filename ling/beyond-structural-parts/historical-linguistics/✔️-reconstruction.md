@@ -3,7 +3,7 @@
 »⟮reconstruction⟯« is the process of ⟮establishing ＿linguistic items＿⟯ of an ⟮unattested⟯ ⟮ancestor language⟯.
 The ⟮＿comparative method＿⟯ and ⟮c_;＿internal reconstruction＿⟯ are the two main methods for ⟮＿reconstruction＿⟯.
 Often, ⟮＿the comparative method＿⟯ and ⟮＿internal reconstruction＿⟯ are ⟮combined⟯.
-⟮* as a prefix⟯ marks a langueme that is ⟮＿reconstructed＿⟯.
+⟮* as a prefix⟯ marks a linguistic item that is ⟮＿reconstructed＿⟯.
 
 ## comparisone
 

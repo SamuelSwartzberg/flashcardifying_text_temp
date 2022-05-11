@@ -56,6 +56,7 @@ Ognižar «Ogniã» Gordov
  https://jisho.org/word/%E3%83%81%E3%83%83%E3%82%AF-2
 
  https://jisho.org/word/%E3%82%81%E3%81%A3
+ https://linguistics.stackexchange.com/a/628/31440
 
 ### history, culture, etc
 
