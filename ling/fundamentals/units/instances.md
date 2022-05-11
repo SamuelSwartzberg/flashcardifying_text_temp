@@ -10,6 +10,7 @@ the etic unit of graphics is more commonly glyph than graph
 the emic unit of practics is a pragmeme rather than a practeme
 the \$LEVELNAME is more rarely semant rather than sem
 the \$LEVELNAME is more rarely grammat rather than gram
+Sound may be used to refer to phone/phoneme abstractly.
 
 ### name details & polysemy
 
