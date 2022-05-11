@@ -195,7 +195,7 @@ A etactic constraint is a rule for the permissible cross-segmental combination o
 
 ## suprasegmental
 
-Sometimes, suprasegmentals are not analyzed as their own emic system, but only as features passed down.
+Sometimes, suprasegmentals are not analyzed as their own emic system, but only as features passed down onto emic/etic units.
 The suprasegmental motivator is a higher emic unit that motivates the a suprasegmental.
 pausa =syn= suprasegmental e?ic unit boundary.
 
@@ -208,10 +208,3 @@ A chunk is the segments between a juncture.
 
 The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given segmental e?ic unit.
 Segmental conditioning is the influencing of segmental emic unit alternant selection by the suprasegmental environment.
-
-### suprasegmentals
-
-Suprasegmentals may be analyzed as their own suprasegmental e/emic/etic units or as suprasegmental features.
-A suprasegmental unit is a suprasegmental of which we don't want to say whether it's emic or etic.
-Suprasegmental features (if we use them) are additional features 'added to' those already making up the e/emic/etic unit.
-A pausa is the conceptual start/end of a suprasegmental unit.
