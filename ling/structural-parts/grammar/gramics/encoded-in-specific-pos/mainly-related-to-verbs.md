@@ -1,19 +1,5 @@
 # mainly related to verbs
 
-## grammatical person
-
-»⟮Grammatical person⟯« is ⟮＿the sm grammic fcategory＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
-⟮＿Grammatical person＿⟯ is most frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯
-^but sometimes also in other places
-⟮Most languages⟯ distinguish ⟮three⟯ ⟮＿grammatical person＿⟯ ⟮＿grammemes＿⟯.
-The three ＿grammemes＿ for ＿grammatical person＿ most commonly distinguished are ⟮first⟯, ⟮c_;second⟯ and ⟮c_;third⟯ ⟮c_;person⟯.
-
-
-table:grammatical person|deictically refers to
-»⟮First person⟯«|⟮The speaker⟯
-»⟮Second person⟯«|⟮The addressee⟯
-»⟮Third person⟯«|⟮neither speaker nor addressee⟯
-
 ### clusivity
 
 »⟮Clusivity⟯« is ⟮＿a sm grammic feature＿⟯ which is ⟮a subfeature of⟯ ⟮＿grammatical person＿⟯.
