@@ -1,20 +1,12 @@
-# mainly related to verbs
-
-### clusivity
-
-»⟮Clusivity⟯« is ⟮＿a sm grammic feature＿⟯ which is ⟮a subfeature of⟯ ⟮＿grammatical person＿⟯.
-⟮＿Clusivity＿⟯ encodes ⟮the difference between two kinds of⟯ ⟮first person plural reference⟯.
-⟮[+inclusive/-exclusive]⟯ ⟮includes the addressee⟯, ⟮c-;[-inclusive/+exclusive]⟯ ⟮excludes the addressee⟯.
-
 ## tense-aspect-mood
 
 »⟮tense-aspect-mood⟯« is ⟮the grouping of⟯ ⟮＿tense＿, ＿aspect＿ and ＿mood＿⟯.
-⟮＿tense＿⟯, ⟮c_;＿aspect＿⟯ and ⟮c_;＿mood＿⟯ are all ⟮＿sm grammic feature categories＿⟯ and all ⟮marked on verbs or VPs⟯.
+⟮＿tense＿⟯, ⟮c_;＿aspect＿⟯ and ⟮c_;＿mood＿⟯ are all ⟮＿sm grammic feature categories＿⟯ and all ⟮may be marked on verbs or VPs⟯.
 ⟮＿tense-aspect-mood＿⟯ ⟮exists as a grouping⟯ since ⟮those three ＿sm grammic feature categories＿ are often strongly entangled in a given language and thus hard to separate.⟯
 
 ### tense
 
-»⟮Tense⟯« is ⟮＿the sm grammic fcategory＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
+Tense is temporal deixis encoded inflectionally.
 ⟮＿Tense＿⟯ may be split into ⟮＿absolute tense＿⟯ and ⟮＿strict relative tense＿⟯ (though this is complicated, as discussed below).
 
 #### absolute tense
@@ -45,7 +37,6 @@ In ⟮＿two-tense languages＿⟯, ⟮one of the ＿grammemes＿⟯ ⟮unites t
 »⟮future perfect⟯« = ⟮＿future absolute tense＿⟯ + ⟮＿retrospective aspect＿⟯
 »⟮future in the past⟯« = ⟮＿past absolute tense＿⟯ + ⟮＿prospective aspect＿⟯
 »⟮future in the future⟯« (??? - doesn't seem to exit) = ⟮＿future absolute tense＿⟯ + ⟮＿prospective aspect＿⟯
-
 
 ### aspect
 
