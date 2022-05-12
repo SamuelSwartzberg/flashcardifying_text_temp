@@ -41,7 +41,7 @@ sememe|meaning|meaning, but in the world
 pragmeme|pragmatic act|non-semantic meaning
 morphophoneme|speech/sign|sememopragmemogrammeme(s)
 kineme|body positioning|pragmemes|probably
-grammeme|?|?
+grammeme|morphemes/lexemic units/syntax|sememeopragmemes
 
 ### equivalence
 
@@ -96,3 +96,4 @@ Lexicology is the study of lexics and related phenomena.
 ### other
 
 Lemma is the only emma for which the term actually already exists.
+Gramamtical category is vagely the same thing as grammic feature category/class.

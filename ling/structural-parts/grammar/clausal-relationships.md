@@ -82,10 +82,10 @@ Often, ⟮＿interrogative clauses＿⟯ are indicated ⟮＿graphemically＿⟯
 
 »⟮The polar question polarity⟯« (my term) is ⟮＿the polarity＿ of ＿the polar question＿⟯ itself, which ⟮changes ＿the polarity of the presumed response＿⟯.
 »⟮The polarity of the presumed response⟯« (my term) is ⟮which⟯ ⟮＿truth/falsity polarity＿⟯ ⟮c_-;of the response⟯ ⟮counts as confirmation/negation of the question⟯.
-Languoids may have ⟮either two, three or four⟯ types of ⟮＿polarity-expressing things＿⟯ that ⟮answer ＿polar questions＿⟯.
-If a languoid has ⟮2/4⟯ ⟮types of ＿polarity-expressing things＿ to answer polar questions⟯, these ⟮do not/do⟯ ⟮distinguish between truth/falsity and confirmation/negation⟯.
-A languoid with ⟮3⟯ ⟮types of ＿polarity-expressing things＿ to answer polar questions⟯ ⟮distinguishes between truth/falsity and confirmation/negation⟯ ⟮only when answering negative polar questions (the hard case)⟯.
-A language I speak with ⟮3⟯ types of ＿polarity-expressing things＿ to answer polar questions is ⟮German⟯.
+Languoids may have ⟮either two, three or four⟯ types of ⟮＿polarics＿⟯ that ⟮answer ＿polar questions＿⟯.
+If a languoid has ⟮2/4⟯ ⟮types of ＿polarics＿ to answer polar questions⟯, these ⟮do not/do⟯ ⟮distinguish between truth/falsity and confirmation/negation⟯.
+A languoid with ⟮3⟯ ⟮types of ＿polarics＿ to answer polar questions⟯ ⟮distinguishes between truth/falsity and confirmation/negation⟯ ⟮only when answering negative polar questions (the hard case)⟯.
+A language I speak with ⟮3⟯ types of ＿polarics＿ to answer polar questions is ⟮German⟯.
 
 ##### creation
 

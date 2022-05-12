@@ -146,7 +146,7 @@ In english, using ⟮c195;ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿un
 »⟮c205;An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
 »⟮c208;The stem⟯« is ⟮＿the morpheme＿⟯ that is ⟮commonly used⟯ as ⟮a starting point for ＿inflection＿⟯.
 »⟮c212;An invariable/invariant word⟯« is a word that ⟮cannot be ＿inflected＿⟯.
-»⟮c214;An inflectional category⟯« is ⟮＿a sm grammatical feature＿⟯ (typically) ⟮indicated via ＿inflection＿⟯.
+»⟮c214;An inflectional category⟯« is ⟮＿a sm grammic feature＿⟯ (typically) ⟮indicated via ＿inflection＿⟯.
 
 #### declension and conjugation
 
@@ -165,10 +165,10 @@ Sometimes, ⟮c234;inflectional paradigm⟯ is (kinda falsely) used as ⟮a syno
 An inflectional variant is an element of the inflectional paradigm.
 »⟮c237;An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ such that ⟮one could generate⟯ ⟮＿the inflectional paradigm＿⟯ of ⟮lexemes falling under ⟮h-4;＿the inflectional class＿⟯⟯ ⟮using only⟯ ⟮the selfsame and the lexeme⟯.
 A »⟮c244;typical inflectional class⟯« (my term) is ⟮＿an inflectional class＿⟯ that ⟮unites the ＿inflectional paradigms＿⟯ of ⟮a set of lexemes⟯ ⟮selected by a well-defined criterion (e.g. based on how it ends)⟯
-»⟮c249;An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿sm grammatical feature category＿⟯.
-»⟮c253;The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿sm grammatical feature category＿⟯.
+»⟮c249;An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿sm grammic feature category＿⟯.
+»⟮c253;The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿sm grammic feature category＿⟯.
 e.g. case, number
-An inflectional form (has polysemy) is a set of sm grammatical features that yield a single inflectional variant when applied to an inflectional class.
+An inflectional form (has polysemy) is a set of sm grammic features that yield a single inflectional variant when applied to an inflectional class.
 
 The citation form (has polysemy) is the inflectional form that produces the lemma.
 
@@ -270,8 +270,8 @@ The main distinction within ⟮c352;＿morphological typology＿⟯ is ⟮the sp
 »⟮c354;Analytic languages⟯« have ⟮few morphemes per word⟯.
 »⟮c356;Synthetic languages⟯« have ⟮many morphemes per word⟯.
 ⟮c358;＿Synthetic languages＿⟯ can be subdivided into (among others) ⟮＿agglutinative＿⟯ and ⟮＿fusional languages＿⟯.
-»⟮c361;fusional languages⟯« ⟮merge⟯ ⟮many different ＿sm grammatical feature categories＿⟯ ⟮c_-;into the same morpheme⟯.
-»⟮c364;analytic languages⟯« have ⟮different morphemes⟯ for ⟮＿different sm grammatical feature categories＿⟯ and ⟮glue those together⟯.
+»⟮c361;fusional languages⟯« ⟮merge⟯ ⟮many different ＿sm grammic feature categories＿⟯ ⟮c_-;into the same morpheme⟯.
+»⟮c364;analytic languages⟯« have ⟮different morphemes⟯ for ⟮＿different sm grammic feature categories＿⟯ and ⟮glue those together⟯.
 
 
 table:morphological typology|example languages
@@ -293,7 +293,7 @@ Since ⟮c386;the exact morphology⟯ is ⟮not always clear⟯ or ⟮c_;may be 
 
 ⟮c390;＿Morphological interlinear glosses＿⟯ are ⟮left-aligned⟯ ⟮word-by-word (not morpheme-by-morpheme!⟯
 ⟮c393;Morphemes within the same word⟯ are ⟮separated by hyphen⟯ both ⟮within the object language⟯ and ⟮in the gloss⟯.
-⟮c397;＿Grammatical category labels＿⟯ are ⟮abbreviated labels⟯ for ⟮＿sm grammatical features＿⟯ rendered in ⟮all caps⟯.
+⟮c397;＿Grammatical category labels＿⟯ are ⟮abbreviated labels⟯ for ⟮＿sm grammic features＿⟯ rendered in ⟮all caps⟯.
 ⟮c401;grammatical morphemes⟯ can be rendered by ⟮＿grammatical category labels＿⟯ or ⟮by a word in the metalanguage (e.g. in)⟯ 
 the ⟮c404;most common⟯ ⟮＿grammatical category labels＿⟯ may be ⟮further abbreviated⟯.
 ⟮c407;Clitic boundaries⟯ are marked by ⟮an equals sign⟯.

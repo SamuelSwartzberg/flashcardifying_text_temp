@@ -2,15 +2,15 @@
 
 ## honorifity
 
-»⟮Honorifity⟯« (my term) is ⟮＿a sm grammatical feature class＿⟯ that encodes ⟮half of practs related to social relationships⟯.
-⟮＿Honorifity＿⟯ consists of ⟮＿the honorifity target＿⟯ and ⟮＿the honorifity expressed＿⟯.
-»⟮The honorifity expressed⟯« is ⟮＿a gramatical feature class＿⟯ of ⟮＿the feature categories＿⟯ ⟮formality⟯, ⟮social distance⟯, ⟮politeness⟯, ⟮humillity⟯, ⟮deference⟯, or ⟮respect⟯.
+»⟮Honorifity⟯« (my term) is ⟮＿a sm grammic feature class＿⟯ that encodes ⟮half of practs related to social relationships⟯.
+⟮＿Honorifity＿⟯ consists of ⟮＿the 2 honorifity targets＿⟯ and ⟮＿the honorifity expressed＿⟯.
+»⟮The honorifity expressed⟯« is ⟮＿a grammic feature class＿⟯ of ⟮＿the feature categories＿⟯ ⟮formality⟯, ⟮social distance⟯, ⟮politeness⟯, ⟮humillity⟯, ⟮deference⟯, or ⟮respect⟯.
 
 ### honorifity target
 
-»⟮The honorifity target⟯« (my term) is ⟮＿the sm grammatical feature class＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
-⟮No matter⟯ ⟮＿the honorifity target＿⟯, ⟮the second party of the honorifity⟯ is ⟮c_-2;usually⟯ ⟮the speaker⟯.
-There are four common values for ⟮＿the honorifity target＿⟯: ⟮addressee⟯, ⟮referent⟯, ⟮bystander⟯, ⟮situation⟯.
+»⟮A honorifity target⟯« (my term) is ⟮＿the sm grammic feature class＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
+There are 5 common values for ⟮＿the honorifity target＿⟯: ⟮speaker⟯, ⟮addressee⟯, ⟮referent⟯, ⟮bystander⟯, ⟮situation⟯.
+Of ⟮＿the 2 honorifity targets＿⟯ involved in ⟮c_;＿honorifity＿⟯, one is usually ⟮the speaker⟯.
 
 ### realizations
 
@@ -25,22 +25,21 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ## polarity
 
-»⟮Polarity⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
-⟮＿Polarity＿⟯ consists of the two ⟮＿sm grammatical feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
-»⟮A polarity-expressing thing⟯« (my term) is ⟮＿a linguistic item＿⟯ which ⟮expresses ＿polarity＿⟯.
+»⟮Polarity⟯« is ⟮＿a sm grammic feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
+⟮＿Polarity＿⟯ consists of the two ⟮＿sm grammic feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
+»⟮A polaric⟯« (my term) is ⟮＿a linguistic item＿⟯ which ⟮expresses ＿polarity＿⟯.
 »⟮A polar context⟯« (my term) is ⟮a context⟯ that ⟮has a certain ＿polarity＿⟯.
-»⟮True/false polarity⟯« (my term) is the grammatical gramatical feature class/category encoding the sm grammatical features ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
-»⟮aff/neg polarity⟯« (my term) isis the grammatical gramatical feature class/category encoding the sm grammatical features ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
-Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿aff/neg polarity＿⟯, or ⟮c_-;be ambiguous between them⟯.
+»⟮True/false polarity⟯« (my term) is ⟮＿the sm grammic feature class/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
+»⟮aff/neg polarity⟯« (my term) is ⟮＿the sm grammic feature class/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
 
 ### polarity item
 
-»⟮A polarity item⟯« is ⟮＿a lexical item＿⟯ that ⟮can only appear⟯ in ⟮a certain ＿polarity context＿⟯.
+»⟮A polarity item⟯« is ⟮＿a linguistic item＿⟯ that ⟮can only appear⟯ in ⟮a certain ＿polarity context＿⟯.
 »⟮A positive/negative polarity item⟯« is ⟮＿a polarity item＿⟯ that can only appear in ⟮positive/negative ＿polar contexts＿⟯.
 
 ## posessive
 
-»⟮Posession⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding ⟮posession⟯.
+»⟮Posession⟯« is ⟮＿a sm grammic feature class＿⟯ encoding ⟮posession⟯.
 
 ### realizations
 
@@ -64,34 +63,40 @@ Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿
 
 ##### determiners & pronouns
 
-⟮＿Possessive determiners＿⟯ and ⟮c_;＿posessive pronouns＿⟯ typically reflect ⟮＿grammatical person＿⟯, ⟮＿number＿⟯ and sometimes ⟮other ＿top-level sm grammatical feature categories＿⟯ to ⟮indicate the posessor⟯.
+⟮＿Possessive determiners＿⟯ and ⟮c_;＿posessive pronouns＿⟯ typically reflect ⟮＿grammatical person＿⟯, ⟮＿number＿⟯ and sometimes ⟮other ＿sm grammic feature categories＿⟯ to ⟮indicate the posessor⟯.
 
 ## numerality
 
-»⟮Numerality⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding the semantic ⟮＿the semantic (feature) class＿ ＿setlike＿⟯, but not in nouns.
+»⟮Numerality⟯« (my term) is ⟮＿a sm grammic feature class＿⟯ encoding the semantic ⟮＿the semantic feature class＿ ＿setlike＿⟯, but not in nouns.
 ⟮＿Numerality＿⟯ may be divided into  ⟮＿numerality amount＿⟯ and ⟮＿numerality type＿⟯.
 
 ### subdivision
 
 #### counting systems
 
-»⟮The numerality amount⟯« is ⟮＿the sm grammatical feature category＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic gramatical feature class＿⟯ via ⟮one or more ＿counting systems＿⟯.
-In mathematical terms, »⟮a counting system⟯« is ⟮＿a numeral system＿⟯ ⟮a languoid uses⟯.
-⟮＿Counting systems＿⟯ in ⟮different⟯ ⟮＿languoids＿⟯ or ⟮c-;different⟯ ⟮contexts⟯ may ⟮have different bases⟯.
+»⟮The numerality amount⟯« (my term) is ⟮＿the sm grammic feature category＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic grammic feature class＿⟯ via ⟮one or more ＿counting systems＿⟯.
+»⟮A counting system⟯« is ⟮＿a numeral system＿⟯ ⟮a languoid uses⟯.
+»⟮The counting system base⟯« is ⟮＿the base＿⟯ of ⟮＿the counting system＿⟯.
 
 ##### reuse point
 
 »⟮The reuse point⟯« (my term) is ⟮＿the multiple of powers of the base＿⟯ at which ⟮＿a counting system＿⟯ ⟮starts reusing terms for bases⟯.
+
+###### in certain language families
+
 In ⟮indo-european⟯ languages, ⟮＿the reuse point＿⟯ is ⟮10⎴3⎴⟯.
 In ⟮east asian⟯ languages, ⟮＿the reuse point＿⟯ is ⟮10⎴4⎴⟯.
-»⟮A myriad (literal)⟯« is ⟮10 000⟯.
-»⟮A myriad (linguistics)⟯« is ⟮the literal ＿lexical unit＿ for 10 000⟯ when ⟮it is used to mean 'a lot'⟯, as is common in ⟮east asian languages⟯.
+
+###### myriad
+
+»⟮A myriad⎵literal⎵⟯« is ⟮10 000⟯.
+»⟮A myriad⎵linguistics⎵⟯« is ⟮the literal ＿lexical unit＿ for 10 000⟯ when ⟮it is used to mean 'a lot'⟯, as is common in ⟮east asian languages⟯.
 
 #### numerality type
 
-»⟮The numerality type⟯« is ⟮＿the gramatical feature class＿⟯ that roughly encodes ⟮the ＿setlike viewpoint＿ and ＿setlike grouping＿ ＿semantic gramatical feature classes＿⟯.
-^gramatical feature class since numerality type can be multiple at once: "三回目 = the third time"
-⟮＿The numerality type＿⟯ consists of the features ⟮[+/-ordinal]⟯, ⟮[+/-cardinal]⟯, ⟮[+/-multiplier]⟯, ⟮[+/-distributive]⟯, ⟮[+/-collective]⟯, ⟮[+/-partitive]⟯.
+»⟮The numerality type⟯« is ⟮＿the grammic feature class＿⟯ that roughly encodes ⟮the ＿setlike viewpoint＿ and ＿setlike grouping＿ ＿semantic grammic feature classes＿⟯.
+^grammic feature class since numerality type can be multiple at once: "三回目 = the third time"
+⟮＿The numerality type＿⟯ consists of the ffeatures ⟮[+/-ordinal]⟯, ⟮[+/-cardinal]⟯, ⟮[+/-multiplier]⟯, ⟮[+/-distributive]⟯, ⟮[+/-collective]⟯, ⟮[+/-partitive]⟯.
 
 
 table:numerality type|indicates|example in en
@@ -178,7 +183,7 @@ Endophora → »⟮cataphora⟯«|⟮after it⟯
 
 ### demonstrativity
 
-»⟮Demonstrativity⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
+»⟮Demonstrativity⟯« is ⟮＿a sm grammic feature class＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
 »⟮A demonstrative⟯« is ⟮＿a linguistic item＿⟯ encoding ⟮＿demonstrativity＿⟯.
 ⟮＿Demonstratives＿⟯ are ⟮most frequently⟯ ⟮＿determiners＿⟯, ⟮＿pronouns＿⟯ or ⟮＿morphemes＿⟯.
 

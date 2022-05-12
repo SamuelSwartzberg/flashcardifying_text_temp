@@ -11869,7 +11869,7 @@ The stem that we most commonly call 'stem' in english is the
 stem of ru-verb is verb - る
 Stem of u-verb is ‹consonant›u → ‹consonant›i
 
-## sm grammatical features
+## sm grammic features
 
 ### by thing encoded
 
@@ -11957,9 +11957,9 @@ Formality is encoded in different versions of the copula, as well as in certain 
 尊敬語|honorific
 謙譲語|humble
 
-To be polite, one uses honorific sm grammatical features for the actions of others andor one's 外, and humble sm grammatical features for oneself andor one's 内.
-To be rude, one may use humble sm grammatical features for the actions of others.
-To be arrogant, one may use honorific sm grammatical features for oneself.
+To be polite, one uses honorific sm grammic features for the actions of others andor one's 外, and humble sm grammic features for oneself andor one's 内.
+To be rude, one may use humble sm grammic features for the actions of others.
+To be arrogant, one may use honorific sm grammic features for oneself.
 
 尊敬語 conjugation: お連用形になる
 謙譲語 conjugation: お連用形する
@@ -12194,7 +12194,7 @@ In japanese relative clauses are merely normal clauses placed attributively.
 In japanese embeded questions are marked by the interrogative particle か.
 In japanese, embedded questions may be suffixed by どうか or the alternative itself to indicate "whether or not".
 
-### sm grammatical features
+### sm grammic features
 
 #### phi-features
 

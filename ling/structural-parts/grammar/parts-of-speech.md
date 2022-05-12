@@ -146,7 +146,7 @@ Pro-drop languages I speak: ⟮Japanese⟯, ⟮Spanish⟯
 
 #### personal
 
-»⟮Personal pronouns⟯« are ⟮＿pronouns＿⟯ that stand for entities ⟮corresponding to a particular ＿grammatical person＿⟯ and depending ⟮on the languoid⟯, ⟮other ＿grammemes＿ of ＿sm grammatical feature categories＿⟯. 
+»⟮Personal pronouns⟯« are ⟮＿pronouns＿⟯ that stand for entities ⟮corresponding to a particular ＿grammatical person＿⟯ and depending ⟮on the languoid⟯, ⟮other ＿grammemes＿ of ＿sm grammic feature categories＿⟯. 
 
 ### changing parts of speech
 
