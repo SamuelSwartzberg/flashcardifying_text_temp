@@ -134,7 +134,7 @@ Featural is looking at a thing from the perspective of features.
 
 »⟮A ffeature⟯« (my term) is a ⟮binary⟯ ⟮value⟯.
 A fcategory (rare term) is a feature that can take on multiple values.
-A feature value is a value of a fcategory.
+A fvalue is a value of a fcategory.
 Alternatively, we can analyze a fcategory as a set of features that together give rise to multiple values.
 
 ##### distinctive feature

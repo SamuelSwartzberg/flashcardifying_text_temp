@@ -14,11 +14,11 @@ Height/backness are of the dorsum of the tongue.
 
 ### values
 
-table:dorsal fcategory|feature values
+table:dorsal fcategory|fvalues
 ⟮height⟯|close/close-mid/mid/open-mid/open
 ⟮backness⟯|front/central/back
 
-Many theories of vowel quality feature categories posit less than the maximum amount of dorsal feature values, instead deriving them from other features.
+Many theories of vowel quality feature categories posit less than the maximum amount of dorsal fvalues, instead deriving them from other features.
 ⟮close/open⟯ =syn= ⟮high/low⟯
 
 ## formants

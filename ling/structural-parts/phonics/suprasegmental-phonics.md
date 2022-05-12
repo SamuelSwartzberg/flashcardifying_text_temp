@@ -172,8 +172,8 @@ table:phenomenon|IPA symbol
 ### isochrony
 
 »⟮Isochrony⟯« is the fcategory of rhythm indicating ⟮which ＿suprasegmental units＿⟯ ⟮occupy equal time⟯.
-Isochrony takes on feature values of the relevant suprasegmental unit.
-Most commonly isochrony may take on the feature values syllable, mora or foot.
+Isochrony takes on fvalues of the relevant suprasegmental unit.
+Most commonly isochrony may take on the fvalues syllable, mora or foot.
 A whatever-timed languoid is a languoid with [isochrony: whatever].
 Phonetically, isochrony seems to only be a tendency.
 Foot-timed =syn= stress-timed
