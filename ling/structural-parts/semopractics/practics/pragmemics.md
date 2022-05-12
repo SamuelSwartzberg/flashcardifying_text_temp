@@ -18,7 +18,6 @@ a ⟮＿locutionary, illocutionary or perlocutionary＿⟯ ⟮＿act＿⟯ has �
 
 #### relations to other concepts
 
-In relation to speech acts, ⟮＿the pragmatic act⟯＿ ⟮subsumes⟯ ⟮both ＿illocutionary＿ and ＿perlocutionary act＿⟯.
 In terms of ⟮＿the loc/ill/perl distinction＿⟯, ⟮＿the pragmatic act＿⟯ subsumes illocutionary and perlocutionary parts and are only rarely distinguished
 ^it seems to me the point is that there is no such thing as a properly illocutionary part in PAT, since no pract may exist without context
 
@@ -26,11 +25,11 @@ In terms of ⟮＿the loc/ill/perl distinction＿⟯, ⟮＿the pragmatic act＿
 
 ### loc/ill/perl distinction
 
-The loc/ill/perl distinction is the distinction between locutionary, illocutionary and perlocutionary part.
+»⟮The loc/ill/perl distinction⟯« is the distinction between ⟮＿locutionary＿, ＿illocutionary＿ and ＿perlocutionary part＿⟯.
 The »⟮locutionary part⟯« is ⟮comprised of the expressing of the utterance (with all its phonological, syntactic and semantic aspects)⟯
 the »⟮illocutionary part⟯« is ⟮what one does⟯ ⟮in saying something⟯.
 the »⟮perlocutionary part⟯« is ⟮what one has done⟯ ⟮due to the consequences of saying something⟯.
-The locationary/illocutionary/perlocutionary act is the locutionary/illocutionary/perlocutionary part seen as a speech act.
+»⟮The locationary/illocutionary/perlocutionary act⟯« is t⟮＿he locutionary/illocutionary/perlocutionary part＿⟯ ⟮seen as ＿a speech act.＿⟯
 ^This part/act distinction is mine alone.
 
 #### perl/ill distinction
