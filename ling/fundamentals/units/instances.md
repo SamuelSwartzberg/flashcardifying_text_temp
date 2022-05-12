@@ -96,4 +96,4 @@ Lexicology is the study of lexics and related phenomena.
 ### other
 
 Lemma is the only emma for which the term actually already exists.
-Gramamtical category is vagely the same thing as grammic feature category/class.
+Gramamtical category is vagely the same thing as grammic fcategory/class.

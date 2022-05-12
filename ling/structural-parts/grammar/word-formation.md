@@ -165,8 +165,8 @@ Sometimes, ⟮c234;inflectional paradigm⟯ is (kinda falsely) used as ⟮a syno
 An inflectional variant is an element of the inflectional paradigm.
 »⟮c237;An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ such that ⟮one could generate⟯ ⟮＿the inflectional paradigm＿⟯ of ⟮lexemes falling under ⟮h-4;＿the inflectional class＿⟯⟯ ⟮using only⟯ ⟮the selfsame and the lexeme⟯.
 A »⟮c244;typical inflectional class⟯« (my term) is ⟮＿an inflectional class＿⟯ that ⟮unites the ＿inflectional paradigms＿⟯ of ⟮a set of lexemes⟯ ⟮selected by a well-defined criterion (e.g. based on how it ends)⟯
-»⟮c249;An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿sm grammic feature category＿⟯.
-»⟮c253;The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿sm grammic feature category＿⟯.
+»⟮c249;An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿sm grammic fcategory＿⟯.
+»⟮c253;The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿sm grammic fcategory＿⟯.
 e.g. case, number
 An inflectional form (has polysemy) is a set of sm grammic features that yield a single inflectional variant when applied to an inflectional class.
 

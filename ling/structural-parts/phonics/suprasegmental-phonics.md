@@ -89,7 +89,7 @@ In the IPA, ⟮［‿］⟯ is used to imply ⟮a space⟯ ⟮without a syllable
 
 ## distinctive suprasegmental features
 
-The main ⟮＿distinctive suprasegmental features/feature classes/feature categories＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
+The main ⟮＿distinctive suprasegmental features/fclasses/feature categories＿⟯ are ⟮＿intonation＿⟯, ⟮＿tone＿⟯, ⟮＿stress＿⟯, ⟮＿tempo＿⟯.
 
 ### stress
 
@@ -106,7 +106,7 @@ Lexical stress is prosodic word stress which is lexicalized.
 
 #### how is stress conveyed
 
-The stress encoder (my term) is a feature class indicating what feature categories are used to encode stress.
+The stress encoder (my term) is a fclass indicating what feature categories are used to encode stress.
 The stress encoder may be one or more of the feature categories loudness, length, tone, vowel articulation.
 »⟮Dynamic accent⟯« is ⟮＿stress＿⟯ encoded by a combination of stress encoder feature categories.
 
@@ -117,7 +117,7 @@ table:name|stress encoder
 
 #### levels of stress
 
-The level of stress is the feature category indicating relative strength of the stress.
+The level of stress is the fcategory indicating relative strength of the stress.
 The level of stress typically has the values primary, secondary.
 
 ##### IPA
@@ -154,7 +154,7 @@ table:phenomenon|IPA symbol
 
 ### speech tempo
 
-»⟮Speech tempo⟯« is the suprasegmental feature category of ⟮＿segments＿⟯ ⟮per unit of time⟯.
+»⟮Speech tempo⟯« is the suprasegmental fcategory of ⟮＿segments＿⟯ ⟮per unit of time⟯.
 
 ### junctures 
 
@@ -171,7 +171,7 @@ table:phenomenon|IPA symbol
 
 ### isochrony
 
-»⟮Isochrony⟯« is the feature category of rhythm indicating ⟮which ＿suprasegmental units＿⟯ ⟮occupy equal time⟯.
+»⟮Isochrony⟯« is the fcategory of rhythm indicating ⟮which ＿suprasegmental units＿⟯ ⟮occupy equal time⟯.
 Isochrony takes on feature values of the relevant suprasegmental unit.
 Most commonly isochrony may take on the feature values syllable, mora or foot.
 A whatever-timed languoid is a languoid with [isochrony: whatever].

@@ -145,7 +145,7 @@ All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dat
 
 ### voice
 
-»⟮Grammatical voice⟯« is ⟮＿a sm grammic feature category＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and thus ⟮＿semantic roles＿ of ＿the verblikeal arguments＿⟯.
+»⟮Grammatical voice⟯« is ⟮＿a sm grammic fcategory＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and thus ⟮＿semantic roles＿ of ＿the verblikeal arguments＿⟯.
 ⟮＿Grammatical voice＿⟯ is generally realized on ⟮verblikes/VPs⟯.
 ⟮Grammatical voice⟯ =short=> ⟮voice⟯
 ⟮＿Grammatical voice＿⟯ is either ⟮＿the active voice＿⟯ or ⟮＿the passivelike voice＿⟯.

@@ -1,7 +1,7 @@
 # phi-features (noun-related)
 
 »⟮the phi-features⟯« are ⟮a group of⟯ ⟮＿sm grammic feature categories＿⟯ ⟮related to ＿nouns＿⟯ which are encoded ⟮＿inflectionally＿⟯.
-»⟮A phi-feature⟯« is ⟮＿a sm grammic feature category＿⟯ that is ⟮one of ＿the phi-features＿⟯.
+»⟮A phi-feature⟯« is ⟮＿a sm grammic fcategory＿⟯ that is ⟮one of ＿the phi-features＿⟯.
 ⟮＿The phi-features＿⟯ ⟮often force⟯ ⟮＿agreement＿⟯ on ⟮noun-related things⟯, and sometimes on ⟮c_;verbs⟯ too.
 ⟮＿The phi-features＿⟯ include ⟮＿number＿⟯, ⟮＿noun class＿⟯ and ⟮＿case＿⟯.
 

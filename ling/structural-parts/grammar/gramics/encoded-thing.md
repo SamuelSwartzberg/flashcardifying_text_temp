@@ -2,13 +2,13 @@
 
 ## honorifity
 
-»⟮Honorifity⟯« (my term) is ⟮＿a sm grammic feature class＿⟯ that encodes ⟮half of practs related to social relationships⟯.
+»⟮Honorifity⟯« (my term) is ⟮＿a sm grammic fclass＿⟯ that encodes ⟮half of practs related to social relationships⟯.
 ⟮＿Honorifity＿⟯ consists of ⟮＿the 2 honorifity targets＿⟯ and ⟮＿the honorifity expressed＿⟯.
-»⟮The honorifity expressed⟯« is ⟮＿a grammic feature class＿⟯ of ⟮＿the feature categories＿⟯ ⟮formality⟯, ⟮social distance⟯, ⟮politeness⟯, ⟮humillity⟯, ⟮deference⟯, or ⟮respect⟯.
+»⟮The honorifity expressed⟯« is ⟮＿a grammic fclass＿⟯ of ⟮＿the feature categories＿⟯ ⟮formality⟯, ⟮social distance⟯, ⟮politeness⟯, ⟮humillity⟯, ⟮deference⟯, or ⟮respect⟯.
 
 ### honorifity target
 
-»⟮A honorifity target⟯« (my term) is ⟮＿the sm grammic feature class＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
+»⟮A honorifity target⟯« (my term) is ⟮＿the sm grammic fclass＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
 There are 5 common values for ⟮＿the honorifity target＿⟯: ⟮speaker⟯, ⟮addressee⟯, ⟮referent⟯, ⟮bystander⟯, ⟮situation⟯.
 Of ⟮＿the 2 honorifity targets＿⟯ involved in ⟮c_;＿honorifity＿⟯, one is usually ⟮the speaker⟯.
 
@@ -25,12 +25,12 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ## polarity
 
-»⟮Polarity⟯« is ⟮＿a sm grammic feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
+»⟮Polarity⟯« is ⟮＿a sm grammic fclass＿⟯ that encodes ⟮the distinction between positive and negative⟯.
 ⟮＿Polarity＿⟯ consists of the two ⟮＿sm grammic feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
 »⟮A polaric⟯« (my term) is ⟮＿a linguistic item＿⟯ which ⟮expresses ＿polarity＿⟯.
 »⟮A polar context⟯« (my term) is ⟮a context⟯ that ⟮has a certain ＿polarity＿⟯.
-»⟮True/false polarity⟯« (my term) is ⟮＿the sm grammic feature class/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
-»⟮aff/neg polarity⟯« (my term) is ⟮＿the sm grammic feature class/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
+»⟮True/false polarity⟯« (my term) is ⟮＿the sm grammic fclass/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
+»⟮aff/neg polarity⟯« (my term) is ⟮＿the sm grammic fclass/category＿⟯ encoding the ⟮c_;＿sm grammatical ffeatures＿⟯ ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
 
 ### polarity item
 
@@ -39,7 +39,7 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ## posessive
 
-»⟮Posession⟯« is ⟮＿a sm grammic feature class＿⟯ encoding ⟮posession⟯.
+»⟮Posession⟯« is ⟮＿a sm grammic fclass＿⟯ encoding ⟮posession⟯.
 
 ### realizations
 
@@ -67,14 +67,14 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ## numerality
 
-»⟮Numerality⟯« (my term) is ⟮＿a sm grammic feature class＿⟯ encoding the semantic ⟮＿the semantic feature class＿ ＿setlike＿⟯, but not in nouns.
+»⟮Numerality⟯« (my term) is ⟮＿a sm grammic fclass＿⟯ encoding the semantic ⟮＿the semantic fclass＿ ＿setlike＿⟯, but not in nouns.
 ⟮＿Numerality＿⟯ may be divided into  ⟮＿numerality amount＿⟯ and ⟮＿numerality type＿⟯.
 
 ### subdivision
 
 #### counting systems
 
-»⟮The numerality amount⟯« (my term) is ⟮＿the sm grammic feature category＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic grammic feature class＿⟯ via ⟮one or more ＿counting systems＿⟯.
+»⟮The numerality amount⟯« (my term) is ⟮＿the sm grammic fcategory＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic grammic fclass＿⟯ via ⟮one or more ＿counting systems＿⟯.
 »⟮A counting system⟯« is ⟮＿a numeral system＿⟯ ⟮a languoid uses⟯.
 »⟮The counting system base⟯« is ⟮＿the base＿⟯ of ⟮＿the counting system＿⟯.
 
@@ -94,8 +94,8 @@ In ⟮east asian⟯ languages, ⟮＿the reuse point＿⟯ is ⟮10⎴4⎴⟯.
 
 #### numerality type
 
-»⟮The numerality type⟯« is ⟮＿the grammic feature class＿⟯ that roughly encodes ⟮the ＿setlike viewpoint＿ and ＿setlike grouping＿ ＿semantic grammic feature classes＿⟯.
-^grammic feature class since numerality type can be multiple at once: "三回目 = the third time"
+»⟮The numerality type⟯« is ⟮＿the grammic fclass＿⟯ that roughly encodes ⟮the ＿setlike viewpoint＿ and ＿setlike grouping＿ ＿semantic grammic fclasses＿⟯.
+^grammic fclass since numerality type can be multiple at once: "三回目 = the third time"
 ⟮＿The numerality type＿⟯ consists of the ffeatures ⟮[+/-ordinal]⟯, ⟮[+/-cardinal]⟯, ⟮[+/-multiplier]⟯, ⟮[+/-distributive]⟯, ⟮[+/-collective]⟯, ⟮[+/-partitive]⟯.
 
 
@@ -119,8 +119,8 @@ In most languages, lexemes instantating ⟮＿numerals＿⟯ are either ⟮＿de
 
 ## deixis
 
-»⟮Deixis⟯« is the semic feature class signifying context-dependent reference. 
-Deixis consists of deicitic reference type and deictic reference basis.
+»⟮Deixis⟯« is ⟮＿the grammaic fclass＿⟯ encoding ⟮context-dependent reference⟯. 
+⟮＿Deixis＿⟯ consists of ⟮＿deicitic reference type＿⟯ and ⟮＿deictic reference basis＿⟯.
 
 ### vs. indexicality
 
@@ -129,7 +129,7 @@ Deixis consists of deicitic reference type and deictic reference basis.
 
 ### deictic reference type
 
-Deictic reference type (my term) is the semic feature class expressing what kind of item is being referenced.
+Deictic reference type (my term) is the semic fclass expressing what kind of item is being referenced.
 Deictic reference type may be personal, spatial, temporal or discourse.
 
 
@@ -183,7 +183,7 @@ Endophora → »⟮cataphora⟯«|⟮after it⟯
 
 ### demonstrativity
 
-»⟮Demonstrativity⟯« is ⟮＿a sm grammic feature class＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
+»⟮Demonstrativity⟯« is ⟮＿a sm grammic fclass＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
 »⟮A demonstrative⟯« is ⟮＿a linguistic item＿⟯ encoding ⟮＿demonstrativity＿⟯.
 ⟮＿Demonstratives＿⟯ are ⟮most frequently⟯ ⟮＿determiners＿⟯, ⟮＿pronouns＿⟯ or ⟮＿morphemes＿⟯.
 

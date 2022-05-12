@@ -126,16 +126,16 @@ Realization is the relationship between surface form and underlying form.
 
 #### features
 
-Feature is ambiguous between ffeature and feature category.
+Feature is ambiguous between ffeature and fcategory.
 Featural is looking at a thing from the perspective of features.
 »⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
 
 ##### types
 
 »⟮A ffeature⟯« (my term) is a ⟮binary⟯ ⟮value⟯.
-A feature category (rare term) is a feature that can take on multiple values.
-A feature value is a value of a feature category.
-Alternatively, we can analyze a feature category as a set of features that together give rise to multiple values.
+A fcategory (rare term) is a feature that can take on multiple values.
+A feature value is a value of a fcategory.
+Alternatively, we can analyze a fcategory as a set of features that together give rise to multiple values.
 
 ##### distinctive feature
 
@@ -150,9 +150,9 @@ A emic/etic feature ≈syn≈ distinctive/non-distinctive feature.
 
 ##### grouping
 
-A feature class is a set of features, feature categories or feature classes that are expressing a common thing.
-A top-level feature class (my term) is a feature class that is not part of a larger feature class.
-^The difference between a feature class and a feature category is that a emic unit can have multiple features from a feature class, while a feature category is mutually exclusive.
+A fclass is a set of features, feature categories or fclasses that are expressing a common thing.
+A top-level fclass (my term) is a fclass that is not part of a larger fclass.
+^The difference between a fclass and a fcategory is that a emic unit can have multiple features from a fclass, while a fcategory is mutually exclusive.
 
 ###### seemingly sui generis
 

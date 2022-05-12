@@ -14,7 +14,7 @@ Height/backness are of the dorsum of the tongue.
 
 ### values
 
-table:dorsal feature category|feature values
+table:dorsal fcategory|feature values
 ⟮height⟯|close/close-mid/mid/open-mid/open
 ⟮backness⟯|front/central/back
 

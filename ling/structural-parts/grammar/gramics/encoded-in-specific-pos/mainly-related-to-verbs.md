@@ -2,7 +2,7 @@
 
 ## grammatical person
 
-»⟮Grammatical person⟯« is ⟮＿the sm grammic feature category＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
+»⟮Grammatical person⟯« is ⟮＿the sm grammic fcategory＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
 ⟮＿Grammatical person＿⟯ is most frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯
 ^but sometimes also in other places
 ⟮Most languages⟯ distinguish ⟮three⟯ ⟮＿grammatical person＿⟯ ⟮＿grammemes＿⟯.
@@ -28,7 +28,7 @@ table:grammatical person|deictically refers to
 
 ### tense
 
-»⟮Tense⟯« is ⟮＿the sm grammic feature category＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
+»⟮Tense⟯« is ⟮＿the sm grammic fcategory＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
 ⟮＿Tense＿⟯ may be split into ⟮＿absolute tense＿⟯ and ⟮＿strict relative tense＿⟯ (though this is complicated, as discussed below).
 
 #### absolute tense
@@ -63,7 +63,7 @@ In ⟮＿two-tense languages＿⟯, ⟮one of the ＿grammemes＿⟯ ⟮unites t
 
 ### aspect
 
-»⟮Aspect⟯« is ⟮＿the sm grammic feature category＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
+»⟮Aspect⟯« is ⟮＿the sm grammic fcategory＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
 
 #### how encoded
 
@@ -165,7 +165,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 
 ### modality
 
-»⟮modality⟯« is ⟮＿the sm grammic feature category＿⟯ encoding ⟮possible situations⟯. 
+»⟮modality⟯« is ⟮＿the sm grammic fcategory＿⟯ encoding ⟮possible situations⟯. 
 »⟮Mood⟯« is ⟮＿modality＿⟯ ⟮marked on a verb/VP⟯, however ⟮some authors also treat them as synonyms⟯.
 ⟮Different forms of⟯ ⟮＿modality＿⟯ are ⟮sometimes called flavors⟯.
 
@@ -189,7 +189,7 @@ Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ a
 
 ###### evidentiality
 
-»⟮Evidentiality (wide sense)⟯« is ⟮＿the sm grammic feature category＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
+»⟮Evidentiality (wide sense)⟯« is ⟮＿the sm grammic fcategory＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
 ⟮＿Evidentiality (wide sense)＿⟯ is most commonly analyzed as a ⟮＿realis epistemic＿⟯ ⟮＿modiality＿⟯.
 ⟮Evidential⟯ =syn= ⟮verificational⟯ =syn= ⟮validational⟯
 »⟮An evidential⟯« is ⟮＿a grammeme＿⟯ that encodes ⟮＿evidentiality (wide sense)＿⟯.
@@ -198,7 +198,7 @@ Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ a
 There are two kinds of ⟮＿evidentiality (wide sense)＿⟯: ⟮＿indirectivity＿⟯ and ⟮＿evidentiality proper＿⟯.
 ⟮＿Indirectivity＿⟯ is sometimes called »⟮type I evidentiality⟯«, ⟮c-;＿evidentiality proper＿⟯ »⟮type II evidentiality⟯«.
 ⟮＿Indirectivity＿⟯ is ⟮＿the sm grammic feature＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮whether evidence exists, but not what kind⟯.
-⟮＿Evidentiality proper＿⟯ is ⟮＿the sm grammic feature category＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
+⟮＿Evidentiality proper＿⟯ is ⟮＿the sm grammic fcategory＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
 
 ####### evidentiality proper
 
