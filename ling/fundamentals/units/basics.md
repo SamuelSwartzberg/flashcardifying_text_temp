@@ -13,6 +13,7 @@ A level consists of a segmental emic system, a suprasegmental emic system and th
 S*egmental refers to either segmental or suprasegmental.
 The segmental emic system deals with smaller units than the suprasegmental emic system.
 s*egmental unit = s*egmental e?ic unit
+sm/ssm =short=> segmental/suprasegmental
 
 ### suprasegmental caveats
 

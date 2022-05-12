@@ -2,7 +2,7 @@
 
 ## grammatical person
 
-»⟮Grammatical person⟯« is ⟮＿the top-level grammatical feature category＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
+»⟮Grammatical person⟯« is ⟮＿the top-level sm grammatical feature category＿⟯ that encodes various sememe(s)/semic features related to ⟮＿personal deixis＿⟯.
 ⟮＿Grammatical person＿⟯ is most frequently realized in ⟮personal pronouns⟯ and ⟮verbs⟯
 ^but sometimes also in other places
 ⟮Most languages⟯ distinguish ⟮three⟯ ⟮＿grammatical person＿⟯ ⟮＿grammemes＿⟯.
@@ -16,19 +16,19 @@ table:grammatical person|deictically refers to
 
 ### clusivity
 
-»⟮Clusivity⟯« is ⟮＿a grammatical feature＿⟯ which is ⟮a subfeature of⟯ ⟮＿grammatical person＿⟯.
+»⟮Clusivity⟯« is ⟮＿a sm grammatical feature＿⟯ which is ⟮a subfeature of⟯ ⟮＿grammatical person＿⟯.
 ⟮＿Clusivity＿⟯ encodes ⟮the difference between two kinds of⟯ ⟮first person plural reference⟯.
 ⟮[+inclusive/-exclusive]⟯ ⟮includes the addressee⟯, ⟮c-;[-inclusive/+exclusive]⟯ ⟮excludes the addressee⟯.
 
 ## tense-aspect-mood
 
 »⟮tense-aspect-mood⟯« is ⟮the grouping of⟯ ⟮＿tense＿, ＿aspect＿ and ＿mood＿⟯.
-⟮＿tense＿⟯, ⟮c_;＿aspect＿⟯ and ⟮c_;＿mood＿⟯ are all ⟮＿grammatical feature categories＿⟯ and all ⟮marked on verbs or VPs⟯.
-⟮＿tense-aspect-mood＿⟯ ⟮exists as a grouping⟯ since ⟮those three ＿grammatical feature categories＿ are often strongly entangled in a given language and thus hard to separate.⟯
+⟮＿tense＿⟯, ⟮c_;＿aspect＿⟯ and ⟮c_;＿mood＿⟯ are all ⟮＿sm grammatical feature categories＿⟯ and all ⟮marked on verbs or VPs⟯.
+⟮＿tense-aspect-mood＿⟯ ⟮exists as a grouping⟯ since ⟮those three ＿sm grammatical feature categories＿ are often strongly entangled in a given language and thus hard to separate.⟯
 
 ### tense
 
-»⟮Tense⟯« is ⟮＿the top-level grammatical feature category＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
+»⟮Tense⟯« is ⟮＿the top-level sm grammatical feature category＿⟯ concerned with ⟮the relation of the time of the event to a point in time.⟯
 ⟮＿Tense＿⟯ may be split into ⟮＿absolute tense＿⟯ and ⟮＿strict relative tense＿⟯ (though this is complicated, as discussed below).
 
 #### absolute tense
@@ -63,7 +63,7 @@ In ⟮＿two-tense languages＿⟯, ⟮one of the ＿grammemes＿⟯ ⟮unites t
 
 ### aspect
 
-»⟮Aspect⟯« is ⟮＿the top-level grammatical feature category＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
+»⟮Aspect⟯« is ⟮＿the top-level sm grammatical feature category＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
 
 #### how encoded
 
@@ -165,7 +165,7 @@ e.g. a language might have perfective, imperfective and stative eventive aspect,
 
 ### modality
 
-»⟮modality⟯« is ⟮＿the top-level grammatical feature category＿⟯ encoding ⟮possible situations⟯. 
+»⟮modality⟯« is ⟮＿the top-level sm grammatical feature category＿⟯ encoding ⟮possible situations⟯. 
 »⟮Mood⟯« is ⟮＿modality＿⟯ ⟮marked on a verb/VP⟯, however ⟮some authors also treat them as synonyms⟯.
 ⟮Different forms of⟯ ⟮＿modality＿⟯ are ⟮sometimes called flavors⟯.
 
@@ -189,7 +189,7 @@ Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ a
 
 ###### evidentiality
 
-»⟮Evidentiality (wide sense)⟯« is ⟮＿the grammatical feature category＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
+»⟮Evidentiality (wide sense)⟯« is ⟮＿the sm grammatical feature category＿⟯ encoding ⟮what kind of evidence there is for a given statement⟯.
 ⟮＿Evidentiality (wide sense)＿⟯ is most commonly analyzed as a ⟮＿realis epistemic＿⟯ ⟮＿modiality＿⟯.
 ⟮Evidential⟯ =syn= ⟮verificational⟯ =syn= ⟮validational⟯
 »⟮An evidential⟯« is ⟮＿a grammeme＿⟯ that encodes ⟮＿evidentiality (wide sense)＿⟯.
@@ -197,15 +197,15 @@ Possible ⟮＿epistemic realis modalitites＿⟯ ⟮besides the indicative⟯ a
 ⟮The most common typology⟯ of ⟮＿evidentiality (wide sense)＿⟯ was mainly created by ⟮Alexandra Aikhenvald (2004, 2006)⟯.
 There are two kinds of ⟮＿evidentiality (wide sense)＿⟯: ⟮＿indirectivity＿⟯ and ⟮＿evidentiality proper＿⟯.
 ⟮＿Indirectivity＿⟯ is sometimes called »⟮type I evidentiality⟯«, ⟮c-;＿evidentiality proper＿⟯ »⟮type II evidentiality⟯«.
-⟮＿Indirectivity＿⟯ is ⟮＿the grammatical feature＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮whether evidence exists, but not what kind⟯.
-⟮＿Evidentiality proper＿⟯ is ⟮＿the grammatical feature category＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
+⟮＿Indirectivity＿⟯ is ⟮＿the sm grammatical feature＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮whether evidence exists, but not what kind⟯.
+⟮＿Evidentiality proper＿⟯ is ⟮＿the sm grammatical feature category＿⟯ of ⟮＿evidentiality (wide sense)＿⟯ that encodes ⟮what kind of evidence exists⟯.
 
 ####### evidentiality proper
 
-⟮＿The grammatical features＿⟯ making up ＿the grammatical feature cateogory＿ ⟮＿evidentiality proper＿⟯ are ⟮[+/- witness]⟯, ⟮[+/- firsthand/secondhand/thirdhand]⟯, ⟮[+/- sensory]⟯, ⟮[+/- inferential]⟯, ⟮[+/- reportative]⟯, ⟮[+/- assumed]⟯.
-Most languages (that have it) build ⟮＿evidentials proper＿⟯ ⟮＿grammemes＿⟯ from ⟮a combination of⟯ ⟮the various ＿grammatical features＿⟯ of ⟮c_-3;＿evidentiality proper＿⟯.
-The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- sensory]⟯ may sometimes contain subfeatures ⟮[+/- visual]⟯ and/or ⟮[+/- auditory]⟯
-The ＿evidentiality proper＿ ＿grammatical feature feature＿ ⟮[+/- reportative]⟯ may sometimes contain subfeatures ⟮[+/- hearsay]⟯ and/or ⟮[+/- quotative]⟯
+⟮＿The sm grammatical features＿⟯ making up ＿the sm grammatical feature cateogory＿ ⟮＿evidentiality proper＿⟯ are ⟮[+/- witness]⟯, ⟮[+/- firsthand/secondhand/thirdhand]⟯, ⟮[+/- sensory]⟯, ⟮[+/- inferential]⟯, ⟮[+/- reportative]⟯, ⟮[+/- assumed]⟯.
+Most languages (that have it) build ⟮＿evidentials proper＿⟯ ⟮＿grammemes＿⟯ from ⟮a combination of⟯ ⟮the various ＿sm grammatical features＿⟯ of ⟮c_-3;＿evidentiality proper＿⟯.
+The ＿evidentiality proper＿ ＿sm grammatical feature feature＿ ⟮[+/- sensory]⟯ may sometimes contain subfeatures ⟮[+/- visual]⟯ and/or ⟮[+/- auditory]⟯
+The ＿evidentiality proper＿ ＿sm grammatical feature feature＿ ⟮[+/- reportative]⟯ may sometimes contain subfeatures ⟮[+/- hearsay]⟯ and/or ⟮[+/- quotative]⟯
 
 ##### irrealis epistemic
 

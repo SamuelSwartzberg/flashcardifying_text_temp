@@ -2,13 +2,13 @@
 
 ## honorifity
 
-»⟮Honorifity⟯« (my term) is ⟮＿a grammatical feature class＿⟯ that encodes ⟮half of practs related to social relationships⟯.
+»⟮Honorifity⟯« (my term) is ⟮＿a sm grammatical feature class＿⟯ that encodes ⟮half of practs related to social relationships⟯.
 ⟮＿Honorifity＿⟯ consists of ⟮＿the honorifity target＿⟯ and ⟮＿the honorifity expressed＿⟯.
 »⟮The honorifity expressed⟯« is ⟮＿a gramatical feature class＿⟯ of ⟮＿the feature categories＿⟯ ⟮formality⟯, ⟮social distance⟯, ⟮politeness⟯, ⟮humillity⟯, ⟮deference⟯, or ⟮respect⟯.
 
 ### honorifity target
 
-»⟮The honorifity target⟯« (my term) is ⟮＿the grammatical feature class＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
+»⟮The honorifity target⟯« (my term) is ⟮＿the sm grammatical feature class＿⟯ encoding ⟮the relationship with whom ＿the honorifity＿ is targeting⟯.
 ⟮No matter⟯ ⟮＿the honorifity target＿⟯, ⟮the second party of the honorifity⟯ is ⟮c_-2;usually⟯ ⟮the speaker⟯.
 There are four common values for ⟮＿the honorifity target＿⟯: ⟮addressee⟯, ⟮referent⟯, ⟮bystander⟯, ⟮situation⟯.
 
@@ -25,12 +25,12 @@ The name T-V distinction comes from ⟮latin tu/vos⟯.
 
 ## polarity
 
-»⟮Polarity⟯« is ⟮＿a top-level grammatical feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
-⟮＿Polarity＿⟯ consists of the two ⟮＿grammatical feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
+»⟮Polarity⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ that encodes ⟮the distinction between positive and negative⟯.
+⟮＿Polarity＿⟯ consists of the two ⟮＿sm grammatical feature categories＿⟯ ⟮＿true/false polarity＿⟯ and ⟮＿aff/neg polarity＿⟯.
 »⟮A polarity-expressing thing⟯« (my term) is ⟮＿a linguistic item＿⟯ which ⟮expresses ＿polarity＿⟯.
 »⟮A polar context⟯« (my term) is ⟮a context⟯ that ⟮has a certain ＿polarity＿⟯.
-»⟮True/false polarity⟯« (my term) is the grammatical gramatical feature class/category encoding the grammatical features ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
-»⟮aff/neg polarity⟯« (my term) isis the grammatical gramatical feature class/category encoding the grammatical features ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
+»⟮True/false polarity⟯« (my term) is the grammatical gramatical feature class/category encoding the sm grammatical features ⟮[+/-true]⟯ and ⟮c_;[+/-false]⟯
+»⟮aff/neg polarity⟯« (my term) isis the grammatical gramatical feature class/category encoding the sm grammatical features ⟮[+/-affirmation]⟯ and ⟮c_;[+/-negation]⟯
 Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿aff/neg polarity＿⟯, or ⟮c_-;be ambiguous between them⟯.
 
 ### polarity item
@@ -40,7 +40,7 @@ Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿
 
 ## posessive
 
-»⟮Posession⟯« is ⟮＿a top-level grammatical feature class＿⟯ encoding ⟮posession⟯.
+»⟮Posession⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding ⟮posession⟯.
 
 ### realizations
 
@@ -64,18 +64,18 @@ Various items ⟮may distinguish between⟯ ⟮＿true/false polarity＿ and ＿
 
 ##### determiners & pronouns
 
-⟮＿Possessive determiners＿⟯ and ⟮c_;＿posessive pronouns＿⟯ typically reflect ⟮＿grammatical person＿⟯, ⟮＿number＿⟯ and sometimes ⟮other ＿top-level grammatical feature categories＿⟯ to ⟮indicate the posessor⟯.
+⟮＿Possessive determiners＿⟯ and ⟮c_;＿posessive pronouns＿⟯ typically reflect ⟮＿grammatical person＿⟯, ⟮＿number＿⟯ and sometimes ⟮other ＿top-level sm grammatical feature categories＿⟯ to ⟮indicate the posessor⟯.
 
 ## numerality
 
-»⟮Numerality⟯« is ⟮＿a top-level grammatical feature class＿⟯ encoding the semantic ⟮＿the semantic (feature) class＿ ＿setlike＿⟯, but not in nouns.
+»⟮Numerality⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding the semantic ⟮＿the semantic (feature) class＿ ＿setlike＿⟯, but not in nouns.
 ⟮＿Numerality＿⟯ may be divided into  ⟮＿numerality amount＿⟯ and ⟮＿numerality type＿⟯.
 
 ### subdivision
 
 #### counting systems
 
-»⟮The numerality amount⟯« is ⟮＿the grammatical feature category＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic gramatical feature class＿⟯ via ⟮one or more ＿counting systems＿⟯.
+»⟮The numerality amount⟯« is ⟮＿the sm grammatical feature category＿⟯ that encodes ⟮the ＿setlike amount＿ ＿semantic gramatical feature class＿⟯ via ⟮one or more ＿counting systems＿⟯.
 In mathematical terms, »⟮a counting system⟯« is ⟮＿a numeral system＿⟯ ⟮a languoid uses⟯.
 ⟮＿Counting systems＿⟯ in ⟮different⟯ ⟮＿languoids＿⟯ or ⟮c-;different⟯ ⟮contexts⟯ may ⟮have different bases⟯.
 
@@ -178,7 +178,7 @@ Endophora → »⟮cataphora⟯«|⟮after it⟯
 
 ### demonstrativity
 
-»⟮Demonstrativity⟯« is ⟮＿a top-level grammatical feature class＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
+»⟮Demonstrativity⟯« is ⟮＿a top-level sm grammatical feature class＿⟯ encoding ⟮＿spatial/discourse deixis＿ sememes⟯
 »⟮A demonstrative⟯« is ⟮＿a linguistic item＿⟯ encoding ⟮＿demonstrativity＿⟯.
 ⟮＿Demonstratives＿⟯ are ⟮most frequently⟯ ⟮＿determiners＿⟯, ⟮＿pronouns＿⟯ or ⟮＿morphemes＿⟯.
 
