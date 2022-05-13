@@ -1,101 +1,78 @@
 # aspect
 
-»⟮Aspect⟯« is ⟮＿the sm grammic fcategory＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
+»⟮c1;Aspect⟯« is ⟮＿the sm grammic fcategory＿⟯ encoding ⟮how the event relates⟯ to ⟮time in general⟯.
 
 ## how encoded
 
-Depending on ⟮how ＿the grammemes＿ are encoded⟯, aspect may be divided into ⟮＿grammatical aspect＿⟯ and ⟮＿lexical aspect＿⟯.
-»⟮Grammatical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿inflectional morphology＿⟯.
-»⟮Lexical aspect⟯« is ⟮＿aspect＿⟯ ⟮encoded in ＿lexical items＿⟯.
+»⟮c5;The aspect encoder⟯« (my term) is ⟮the type of ＿linguistic item＿⟯ ⟮encoding ＿aspect＿⟯.
+Common ⟮c8;＿aspect encoders＿⟯ are ⟮＿lexemic items＿⟯, ⟮c_;＿inflectional morphemes＿⟯, ⟮c_;＿derivational morphemes＿⟯
+Aspect with ⟮c10;a specific ＿aspect encoder＿⟯ is typically called ⟮<aspect encoder> aspect⟯.
 
 ### specific POS
 
-»⟮A stative verb⟯« is ⟮＿a lexical verb＿⟯ with ⟮＿lexical aspect＿⟯ of ⟮＿eventive aspect＿=＿stative＿⟯
-⟮＿A dynamic verb＿⟯ is ⟮＿a lexical verb＿⟯ which is ⟮not a ＿stative verb＿⟯.
+»⟮c12;A stative verb⟯« is ⟮＿a lexical verb＿⟯ with ⟮＿lexical aspect＿⟯ of ⟮＿eventive aspect＿=＿stative＿⟯
+»⟮c16;A dynamic verb⟯« is ⟮＿a lexical verb＿⟯ which is ⟮not a ＿stative verb＿⟯.
 ^setzen is a dynamic verb while sitzen is a static verb.
 
 ## meaning encoded
 
-!Regarding meaning encoded, ⟮＿aspect＿⟯ can be divided into
-- !⟮＿eventive＿⟯
-- !⟮＿howfar＿⟯
-- !⟮＿spective＿⟯
-- !⟮＿scope＿⟯
-- !⟮＿telicity＿⟯
+!Regarding meaning encoded, ⟮c19;＿aspect＿⟯ can be divided into
+- !⟮c20;＿eventive＿⟯
+- !⟮c21;＿howfar＿⟯
+- !⟮c22;＿spective＿⟯
+- !⟮c23;＿scope＿⟯
+- !⟮c24;＿telicity＿⟯
 
 ### eventive
-
-»⟮Eventive aspect⟯« is aspect indicating ⟮how time flows⟯ ⟮within the process/event itself⟯.
-While eventive aspects can be ordered hierarchically, languages may ⟮have some aspects deep into the tree while not having others⟯.
-e.g. a language might have perfective, imperfective and stative eventive aspect, but not any of the others
 
 #### outline
 
 ```
-!⟮Eventive⟯
-!  ⟮Perfective⟯
-!  ⟮Imperfective⟯
-!    ⟮Iterative⟯
-!    ⟮Frequentative⟯
-!    ⟮Habitual⟯
-!    ⟮Continuous⟯
-!      ⟮Progressive⟯
-!      ⟮Stative⟯
+!⟮c25;c+;s∞;us+,+2;Eventive⟯
+!  ⟮c26;c+;s∞;us+,+2;Perfective⟯
+!  ⟮c27;c+;s∞;us+,+2;Imperfective⟯
+!    ⟮c28;c+;s∞;us+,+2;Repetitive/Iterative/Frequentative/Habitual⟯
+!    ⟮c29;c+;s∞;us+,+2;Continuous⟯
+!      ⟮c30;c+;s∞;us+,+2;Progressive⟯
+!      ⟮c31;c+;s∞;us+,+2;Stative⟯
 ```
 
-#### relation
+#### table
 
-⟮＿Eventive aspect＿⟯ may be divided into ⟮＿perfective aspect＿⟯ and ⟮＿imperective aspect＿⟯.
-»⟮perfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed in its entirety ( = without internal complexity)⟯.
-»⟮Imperfective aspect⟯« is ⟮＿eventive aspect＿⟯ where the event is ⟮viewed with some sort of internal complexity⟯.
-
-##### imperfect
-
-⟮＿Imperfective aspect＿⟯ may (sometimes) be divided into ⟮＿iterative＿⟯, ⟮＿frequentative＿⟯, ⟮＿habitual＿⟯ and ⟮＿continuous aspect＿⟯ (though there may be others)
-⟮＿Habitual＿⟯, ⟮c_;＿iterative＿⟯ and ⟮c_;＿frequentative aspect＿⟯ all indicate that ⟮something is repeated⟯.
-»⟮Habitual aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮as one would a habit⟯ ⟮on different occasions⟯.
-»⟮Frequentative aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮on different occasions⟯, but ⟮not necessarily as one would a habit⟯.
-»⟮Iterative aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates that the action is repeated ⟮during the same occasion⟯.
-^e.g.knocking (repeatedly), kissing (repeatedly)
-»⟮Continuous aspect⟯« is ⟮＿imperfective aspect＿⟯ which indicates ⟮an ongoing situation/action⟯ ⟮without interruption⟯.
-
-###### continuous
-
-⟮＿Continuous aspect＿⟯ may sometimes be divided into ⟮＿progressive＿⟯ and ⟮＿stative aspect＿⟯.
-»⟮Progressive aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is evolving/changing⟯.
-»⟮Stative aspect⟯« is ⟮＿a continuous aspect＿⟯ where ⟮the situation/action is not evolving/changing⟯.
-
-#### realizations in languges
-
-»⟮Habitual be⟯« is a feature of ⟮＿AAVE＿⟯ indicating ⟮＿habitual aspect＿⟯.
-⟮Spanish⟯ distinguishes ⟮＿imperfective＿⟯ and ⟮c_;＿perfective aspect＿⟯ as ⟮imperfect/preterite：name⟯ the past tense.
+table:aspect|meaning
+»⟮c32;eventive⟯«|⟮how time flows within the process/event itself⟯
+  »⟮c34;perfective⟯«|⟮event viewed w/o internal complexity/in its entirety⟯
+  »⟮c36;imperfective⟯«|⟮viewed with some sort of internal complexity⟯
+    »⟮c38;repetitive/iterative/frequentative/habitual⟯«|⟮＿repetitive/iterative/frequentative/habitual＿⟯ ⟮＿setlike viewpoint semic fclass＿⟯
+    »⟮c41;continuous⟯«|⟮ongoing situation without interruption⟯
+      »⟮c43;progressive⟯«|⟮sitation is evolving/changing⟯
+      »⟮c45;stative⟯«|⟮situation is not evolving/changing⟯
 
 ### howfar
 
-»⟮howfar aspect⟯« (my term) indicates how ⟮the state is changing⟯ ⟮during the specified time⟯.
-⟮＿howfar aspect＿⟯ may be ⟮＿inchoative＿⟯, ⟮c_;＿cessative＿⟯ or ⟮c_;ø⟯.
-»⟮Inchoative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is beginning (however not that something is about to begin)⟯.
-»⟮Cessative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is ending⟯.
+»⟮c47;howfar aspect⟯« (my term) indicates how ⟮the state is changing⟯ ⟮during the specified time⟯.
+⟮c50;＿howfar aspect＿⟯ may be ⟮＿inchoative＿⟯, ⟮c_;＿cessative＿⟯ or ⟮c_;ø⟯.
+»⟮c52;Inchoative/cessative aspect⟯« is ⟮＿a howfar aspect＿⟯ indicating ⟮that something is beginning/ending (however not that something is about to begin/end)⟯.
 
 ### prospective/retrospective
 
-»⟮spective aspect⟯« (my term) indicates ⟮when an event takes place⟯ ⟮relative to the reference time⟯.
-⟮＿spective aspect＿⟯ may be ⟮＿prospective＿⟯, ⟮c_;＿retrospective＿⟯, or ⟮c_;ø⟯.
-»⟮Prospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮subsequent⟯ to a reference time.
-»⟮Retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮before⟯ a reference time.
-⟮Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
+»⟮c55;spective aspect⟯« (my term) indicates ⟮when an event takes place⟯ ⟮relative to the reference time⟯.
+⟮c58;＿spective aspect＿⟯ may be ⟮＿prospective＿⟯, ⟮c_;＿retrospective＿⟯, or ⟮c_;ø⟯.
+»⟮c60;Prospective/retrospective aspect⟯« is ⟮＿a spective aspect＿⟯ indicating that an event occurs ⟮after/before⟯ to a reference time.
+⟮c63;Retrospective aspect⟯ is commonly but confusingly ⟮also called⟯ ⟮perfect aspect⟯.
 ^not to be confused with perfect⁑ive⁑ aspect
 
 ### gnomic/episodic
 
-»⟮scope aspect⟯« (my term) indicates what ⟮kind of scope⟯ ⟮something being the fact has⟯.
-⟮＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
-»⟮Gnomic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮general truths⟯.
+»⟮c66;scope aspect⟯« (my term) indicates what ⟮kind of scope⟯ ⟮something being the fact has⟯.
+⟮c69;＿Scope aspect＿⟯ may be ⟮＿gnomic＿⟯, ⟮c_;＿episodic＿⟯, or ⟮c_;ø⟯.
+»⟮c71;Gnomic/episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths⟯ that are ⟮general/temporally bounded⟯.
 ^sometimes also analzyed as a modality
-»⟮Episodic aspect⟯« is ⟮＿a scope aspect＿⟯ indicating ⟮truths that are temporally bounded⟯.
 
 ### telic/atelic
 
-»⟮Telicity⟯« is ⟮＿the aspect＿⟯ of ⟮whether something has a specific endpoint⟯.
-⟮＿Telicity＿⟯ is ⟮sometimes also⟯ ⟮analyzed as something else than a aspect⟯.
-⟮＿Telicity＿⟯ may be ⟮＿telic＿⟯, ⟮c_;＿atelic＿⟯, or ⟮c_;ø⟯.
+»⟮c75;Telicity⟯« is ⟮＿the aspect＿⟯ of ⟮whether something has a specific endpoint⟯.
+⟮c78;＿Telicity＿⟯ is ⟮sometimes also⟯ ⟮analyzed as something else than a aspect⟯.
+⟮c81;＿Telicity＿⟯ may be ⟮＿telic＿⟯, ⟮c_;＿atelic＿⟯, or ⟮c_;ø⟯.
+
+<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}</span>

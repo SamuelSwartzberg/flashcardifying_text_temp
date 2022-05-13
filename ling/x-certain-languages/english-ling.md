@@ -276,3 +276,7 @@ table:orthographic depth|language
 
 
 In english orthography for ⟮american english⟯, ⟮a vowel grapheme⟯ + ⟮r grapheme⟯ frequently only indicates ⟮＿a rhotic vowel＿⟯ instead of ⟮an actual rhotic consonant⟯.
+
+
+
+»⟮Habitual be⟯« is a feature of ⟮＿AAVE＿⟯ indicating ⟮＿habitual aspect＿⟯.
