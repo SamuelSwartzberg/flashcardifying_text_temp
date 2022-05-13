@@ -1,6 +1,6 @@
 # inflection
 
-»⟮Inflection⟯« is ⟮＿word formation＿⟯ via ⟮the use of ＿inflectional morphemes＿⟯, ergo to indicate ⟮＿grammemes＿⟯.
+Inflection  ⟮the use of ＿inflectional morphemes＿⟯, ergo to indicate ⟮＿grammemes＿⟯.
 »⟮Apophony⟯« is ⟮＿a change in sound＿⟯ to indicate ⟮＿inflection＿⟯.
 »⟮An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
 »⟮An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.

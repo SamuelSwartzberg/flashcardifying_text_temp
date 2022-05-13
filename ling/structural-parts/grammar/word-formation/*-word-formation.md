@@ -5,4 +5,6 @@
 ## what is created
 
 ⟮＿Word formation＿⟯ may either be ⟮＿lexcreation＿⟯ or ⟮＿inflection＿⟯.
+»⟮Lexcreation⟯« (my term) is ⟮＿word formation＿⟯ as the creation of ⟮new ＿lexemes＿⟯.
+»⟮Inflection⟯« is ⟮＿word formation＿⟯ that doesn't create new lexemes.
 Ergo, ⟮＿word formation＿⟯ may be used to ⟮express⟯ ⟮c_;＿lexemes＿⟯, ⟮c_;＿grammemes＿⟯ or ⟮c_;a combination of both⟯.

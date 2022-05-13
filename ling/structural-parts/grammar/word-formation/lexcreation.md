@@ -2,7 +2,6 @@
 
 # lexcreation
 
-»⟮Lexcreation⟯« (my term) is ⟮＿word formation＿⟯ as the creation of ⟮new ＿lexemes＿⟯.
 ⟮＿Lexcreation＿⟯ may be ⟮＿morphological＿⟯ or ⟮c_;not⟯.
 
 ## morphological

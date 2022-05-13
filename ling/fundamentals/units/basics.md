@@ -186,6 +186,7 @@ s*egmental {\$LEVELNAME+o}\$LEVELNAME+e = s*egmental etic unit 1 ∨ segmental e
 ## segmental
 
 Segment = segmental e?ic unit
+Reduplication is the repetition of one or more segments within a larger unit to produce some effect.
 
 ### cross-segmental
 
