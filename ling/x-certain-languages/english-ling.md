@@ -294,3 +294,10 @@ e.g. "To day" → "to-day" → "today"]
 
 
 In english, using ⟮ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿unproductive＿⟯, while using ⟮c-2;-ed⟯ to ⟮create preterite verbs⟯ is ⟮＿productive＿⟯.
+
+
+table:lang|copula|existential verb
+en|be|be
+es|ser/estar|haber
+de|sein|geben
+ja|だ|ある・いる
