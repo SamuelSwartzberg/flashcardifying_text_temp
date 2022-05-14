@@ -30,28 +30,7 @@ morphological derivation =short=> derivation
 
 »⟮Compounding⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮creating ＿compounds＿⟯.
 »⟮A compound⟯« is ⟮＿a lexeme＿⟯ that ⟮consists of⟯ ⟮more than one⟯ ⟮＿compound part＿⟯.
-»⟮A compound part⟯« (my term) is ⟮a former ＿lexeme＿⟯ that ⟮becomes a part of ＿a compound＿⟯.
-
-##### head of the compound
-
-The head of the compound is ambiguous between semantic head, syntactic head, and morphological head.
-The semantic head of the compound is the compound part of which the compound is a hyponym of, if any.
-The syntactic head of the compound is the compound part that determines the word class of the compound.
-The morphological head of the compound is the compound part on which inflection is marked.
-
-##### whence the meaning
-
-##### endocentric
-
-An endocentric compound is a compound that has a head.
-
-##### exocentric
-
-An exocentric compound is a compound that does not have a head.
-An exocentric compound may be a metonymical compound or a copulative compound.
-A metonymical compound is a compound where the compound parts identify a sememe metonymically.
-A copulative compound is a compound where ⟮＿the sememe＿⟯ is ⟮c_;the intersection of⟯ ⟮＿the sememes＿ of ＿the compound parts＿⟯ (or roughly so).
-dvandva =syn= appositional compound =syn= copulative compound.
+»⟮A compound part⟯« (my term) is ⟮a former ＿lexeme＿ (and thus a set of morphemes)⟯ that ⟮becomes a part of ＿a compound＿⟯.
 
 ### cause of morphological lexcreation
 
@@ -132,12 +111,62 @@ Partially morphological lexcreation is lexcreation that partially or sometimes u
 
 »⟮A splinter⟯« is ⟮a part of ＿a lexeme＿⟯ that ⟮is not ＿a morph＿⟯.
 »⟮A blend⟯« is ⟮＿a partially morphological lexcreation＿⟯ where ⟮at least one part⟯ is ⟮＿a splinter＿⟯.
+A blend part (my term) is a part of a blend, whether splinter or morpheme.
 blend =syn= portmanteu
+
+#### classification by blend part type
+
+A total/partial blend is a blend where all/only some parts are blends (and the others are morphemes/words).
+
+##### total blends
+
+A beginning-end/end-end/beginning-beginning blend is a total blend where the splinters are taken from the beginning&end/end&end/beginningbeginning.
+
+##### partial blends
+
+A morpheme-splinter/splinter-morpheme blend is a partial blend where the morpheme/splinter comes first. 
+
+##### more complex
+
+A intercalated blend is one where a blend part forms a substrate, and (an) other blend part(s) is layered on top, mostly via phonological similarity.
+^e.g. adorable + dork = adorkable
+
+#### classification by blend part interaction
+
+Overlapping/non-overlapping blends are blends where one or more sm or ssm graphemes/phonemes overlap/don't overlap.
+graphemically/phonologically/graphemophonologically overlapping blends are overlapping blends where one or more sm or ssm graphemes/phonemes/both overlap.
 
 ### clipping
 
 »⟮Clipping⟯« is ⟮＿partially morphological lexcreation＿⟯ by ⟮removing some ＿segments＿ of ＿a lexeme＿⟯, but ⟮retaining⟯ ⟮the meaning⟯ and ⟮c_;＿word class＿⟯.
 ^e.g. Coronavirus → rona, refridgerator → fridge, influenza → flu
+
+## overlapping phenomena
+
+### compends
+
+»⟮A compend⟯« (my term) is ⟮＿a compound＿⟯ or ⟮c_;＿a blend＿⟯.
+
+#### head of the compend
+
+The head of the compend is ambiguous between semantic head, syntactic head, and morphological head.
+The semantic head of the compend is the compend part of which the compend is a hyponym of, if any.
+The syntactic head of the compend is the compend part that determines the word class of the compend.
+The morphological head of the compend is the compend part on which inflection is marked.
+
+#### whence the meaning
+
+#### endocentric
+
+An endocentric compend is a compend that has a head.
+
+#### exocentric
+
+An exocentric compend is a compend that does not have a head.
+An exocentric compend may be a metonymical compend or a copulative compend.
+A metonymical compend is a compend where the compend parts identify a sememe metonymically.
+A copulative compend is a compend where ⟮＿the sememe＿⟯ is ⟮c_;the intersection of⟯ ⟮＿the sememes＿ of ＿the compend parts＿⟯ (or roughly so).
+dvandva =syn= appositional compend =syn= copulative compend.
 
 ## productivity
 
