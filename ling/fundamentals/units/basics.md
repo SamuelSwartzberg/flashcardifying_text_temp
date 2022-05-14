@@ -113,7 +113,7 @@ Ergo ⟮two ＿etic units＿⟯ ⟮without ＿emic contrast＿⟯ may still ⟮b
 
 ###### minimal pair
 
-»⟮A minimal pair⟯« is ⟮two or more ＿lexical units＿⟯ that are ⟮the same⟯ ⟮except for one positio⟯n, which is in ⟮＿contrastive distribution＿⟯.
+»⟮A minimal pair⟯« is ⟮two or more ＿lexemic units＿⟯ that are ⟮the same⟯ ⟮except for one positio⟯n, which is in ⟮＿contrastive distribution＿⟯.
 Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿ involved⟯ are ⟮part of different ＿emic units＿⟯.
 ⟮＿Emic contrast＿⟯ has been »⟮neutralized⟯« when ⟮two ＿etic units＿⟯ appear i⟮n an ＿etic environment＿⟯ in which ⟮they are no longer ＿contrastive＿⟯.
 ⟮Two ＿etic units＿⟯ in ⟮＿free variation＿⟯ may still be ⟮＿variants＿ of a ＿sociolinguistic variable＿⟯.
@@ -156,7 +156,7 @@ A top-level fclass (my term) is a fclass that is not part of a larger fclass.
 
 ###### seemingly sui generis
 
-»⟮A semantic class⟯« contains ⟮＿all lexical units＿⟯ that ⟮share a ＿semic feature＿⟯.
+»⟮A semantic class⟯« contains ⟮＿all lexemic units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
 ##### polysemy
 

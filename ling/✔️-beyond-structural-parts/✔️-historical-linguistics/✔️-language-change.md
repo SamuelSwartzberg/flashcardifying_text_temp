@@ -31,7 +31,7 @@ e.g. pretty: sly -&gt; beautiful; knight: servant -&gt; feudal warrior; villain:
 
 #### relexification
 
-»⟮c37;Relexification⟯« is ⟮＿lexical change＿⟯ that is replacing ⟮most/all⟯ of ⟮＿the lexis＿⟯ ⟮of one languoid with that of another languoid⟯.
+»⟮c37;Relexification⟯« is ⟮＿lexemic change＿⟯ that is replacing ⟮most/all⟯ of ⟮＿the lexis＿⟯ ⟮of one languoid with that of another languoid⟯.
 ^while changing nothing else
 
 ## why do things change

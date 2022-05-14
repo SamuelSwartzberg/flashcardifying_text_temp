@@ -10,10 +10,10 @@
 
 ###### tag questions
 
-question tag simple lexical units: right?, no?, huh?
+question tag simple lexemic units: right?, no?, huh?
 question tag complex constituent: AUX + PRON
 
-In english, question tag simple lexical units always produce a question of the same polarity as the declarative clause.
+In english, question tag simple lexemic units always produce a question of the same polarity as the declarative clause.
 In english, POS declarative clause + POS question tag complex constituent = sarcastic, theoretically POS non-question.
 ^You know the answer, do you?
 In english, POS declarative clause + NEG question tag complex constituent = POS question.
@@ -86,7 +86,7 @@ The existence of floating quantifiers provides evidence for the VP-internal subj
 ## aux in en
 
 In English, sentences without auxiliars cannot use negation.
-In English, auxiliaries cannot take an object (complement of the VP), while lexical verbs can.
+In English, auxiliaries cannot take an object (complement of the VP), while lexemic verbs can.
 In English, auxiliaries go before the subject DP/NP in question inversion.
 have and do may or may not be auxiliary verbs.
 dummy do is do used as an auxiliary verb.
@@ -106,7 +106,7 @@ other adposition|none exists
 
 
 
-If english lexical verbs wanted to move to C in y/n questions, it would have to move to I first (due to the HMC)
+If english lexemic verbs wanted to move to C in y/n questions, it would have to move to I first (due to the HMC)
 
 
 ##### possessive s
@@ -170,7 +170,7 @@ someone⎵＊i＊⎵|is|t⎵＊i＊⎵|following|us
 
 ###### early modern english
 
-Lexical verbs could move to I, and thus to C, following the HMC.
+lexemic verbs could move to I, and thus to C, following the HMC.
 In current english, wh-questions need do-support since something needs to fill the C position, and the verb can't, since it can't move to I.
 In early modern english, wh-questions did not need do-support since the V could move to I and thus to C.
 "What heards't thou?"

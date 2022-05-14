@@ -9,8 +9,8 @@
 
 ## semantic relations
 
-»⟮A lexical relation⟯« (has polysemy) is ⟮a relationship between⟯ two lexemic units l1, l2 characterized by a semantic relation between their sememes.
-A lexical relatant (my term) is a lexemic unit in a semantic relation.
+»⟮A lexemic relation⟯« (has polysemy) is ⟮a relationship between⟯ two lexemic units l1, l2 characterized by a semantic relation between their sememes.
+A lexemic relatant (my term) is a lexemic unit in a semantic relation.
 A semantic relation (uncommon definition) is the relationship between two sememes.
 »⟮A *nym⟯« is a ⟮＿lexemic unit＿⟯ which has a certain semantic relation with another given lexemic unit.
 
@@ -55,7 +55,7 @@ An auto-antonym⎵strong/weak⎵ is an auto-antonym⎵general⎵ where both/at l
 
 ### hynyms
 
-A hynym (my term) is a lexical relatant where the semantic relation is sub/superset-related.
+A hynym (my term) is a lexemic relatant where the semantic relation is sub/superset-related.
 A hyponym is a hynym where the semantic relation is subset.
 A hypernym is a hynym where the semantic relation is superset.
 An autohyponym is a hyponym where l1 = l2.
@@ -68,7 +68,7 @@ I will define ⊂⎵h⎵ and ⊃⎵h⎵ as operators for hyponym and hypernym
 
 ### partonyms
 
-A partonym (my term) a lexical relatant where the semantic relation is part/whole-related.
+A partonym (my term) a lexemic relatant where the semantic relation is part/whole-related.
 A meronym is a partonym where the semantic relation is part.
 A holonym is a partonym where the semantic relation is whole.
 

@@ -23,14 +23,14 @@ Statistically, ⟮c9;＿the corpus＿⟯ is ⟮a sample⟯ of ⟮c_;the populati
 
 ###### types
 
-»⟮c15;collocation (narrow)⟯« is ⟮＿a collocation (wide)＿⟯ ⟮of ＿lexical units＿⟯.
+»⟮c15;collocation (narrow)⟯« is ⟮＿a collocation (wide)＿⟯ ⟮of ＿lexemic units＿⟯.
 »⟮c18;Colligation⟯« is ⟮＿colocation＿⟯ ⟮of ⟮＿syntactic categories＿⟯⟯.
 
 ###### semantic prosody
 
 ⟮c22;Semantic prosody⟯ =syn= ⟮discourse prosody⟯.
 »⟮c24;Semantic prosody (process)⟯« is that ⟮＿semantic prosody (thing)＿ comes to be⟯ through ⟮frequent ＿collocation＿⟯. 
-»⟮c27;The semantic prosody (thing)⟯« is ⟮the set of assocations⟯ of a ⟮seemingly neutral ＿lexical item＿⟯.
+»⟮c27;The semantic prosody (thing)⟯« is ⟮the set of assocations⟯ of a ⟮seemingly neutral ＿lexemic item＿⟯.
 
 ##### concordance
 
@@ -40,7 +40,7 @@ Statistically, ⟮c9;＿the corpus＿⟯ is ⟮a sample⟯ of ⟮c_;the populati
 
 »⟮c33;A concordance line⟯« consists of ⟮＿a keyword＿⟯ and ⟮＿its context＿⟯.
 »⟮c36;The context⟯« are ⟮the words surrounding ＿the keyword＿ (in the original text)⟯.
-»⟮c38;A keyword⟯« is ⟮a single ＿lexical unit＿⟯ that ⟮matches the lexical unit or pattern provided.⟯ 
+»⟮c38;A keyword⟯« is ⟮a single ＿lexemic unit＿⟯ that ⟮matches the lexemic unit or pattern provided.⟯ 
 
 ###### concordance line formats
 

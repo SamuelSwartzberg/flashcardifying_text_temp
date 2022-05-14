@@ -14,7 +14,7 @@
 #### cognates
 
 ⟮c20;＿Cognates＿⟯ ⟮often but not always⟯ have a ⟮similar⟯ ⟮meaning⟯ and a ⟮c-;similar⟯ ⟮pronunciation⟯.
-»⟮c24;False friends⟯« are ⟮＿lexical items＿⟯ ⟮in different languoids⟯ that ⟮look/sound similar⟯ and thus ⟮give off the impression of being ＿cognates＿⟯, but ⟮are unrelated⟯.
+»⟮c24;False friends⟯« are ⟮＿lexemic items＿⟯ ⟮in different languoids⟯ that ⟮look/sound similar⟯ and thus ⟮give off the impression of being ＿cognates＿⟯, but ⟮are unrelated⟯.
 »⟮c30;doublets⟯« are ⟮＿cognates＿⟯ ⟮in the same ＿languoid＿⟯.
 
 ## languoids

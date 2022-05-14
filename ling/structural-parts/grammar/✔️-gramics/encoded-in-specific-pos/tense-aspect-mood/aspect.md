@@ -10,8 +10,8 @@ Aspect with ⟮c10;a specific ＿aspect encoder＿⟯ is typically called ⟮<as
 
 ### specific POS
 
-»⟮c12;A stative verb⟯« is ⟮＿a lexical verb＿⟯ with ⟮＿lexical aspect＿⟯ of ⟮＿eventive aspect＿=＿stative＿⟯
-»⟮c16;A dynamic verb⟯« is ⟮＿a lexical verb＿⟯ which is ⟮not a ＿stative verb＿⟯.
+»⟮c12;A stative verb⟯« is ⟮＿a lexemic verb＿⟯ with ⟮＿lexemic aspect＿⟯ of ⟮＿eventive aspect＿=＿stative＿⟯
+»⟮c16;A dynamic verb⟯« is ⟮＿a lexemic verb＿⟯ which is ⟮not a ＿stative verb＿⟯.
 ^setzen is a dynamic verb while sitzen is a static verb.
 
 ## meaning encoded

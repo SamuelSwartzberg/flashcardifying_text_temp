@@ -44,7 +44,7 @@
 
 ##### both
 
-In many languages, ⟮＿copula＿⟯ and ⟮＿existential＿⟯ are ⟮instantiated by the same ＿lexical unit＿⟯.
+In many languages, ⟮＿copula＿⟯ and ⟮＿existential＿⟯ are ⟮instantiated by the same ＿lexemic unit＿⟯.
 
 
 table:lang|copula|existential verb
@@ -60,13 +60,13 @@ ja|だ|ある・いる
 #### interrogative
 
 »⟮An interrogative clause⟯« is ⟮＿a clause＿⟯ with ⟮＿the pragmatic effect＿⟯ of ⟮＿a question＿⟯.
-⟮＿Interrogative clauses＿⟯ ⟮are created⟯ using a variety of devices: ⟮＿inflection＿⟯, ⟮word order/syntactic changes⟯, ⟮addition of ＿constituent(s)＿ or ＿lexical unit(s)＿⟯, ⟮＿phonotactic＿ changes⟯ or a combination.
+⟮＿Interrogative clauses＿⟯ ⟮are created⟯ using a variety of devices: ⟮＿inflection＿⟯, ⟮word order/syntactic changes⟯, ⟮addition of ＿constituent(s)＿ or ＿lexemic unit(s)＿⟯, ⟮＿phonotactic＿ changes⟯ or a combination.
 Often, ⟮＿interrogative clauses＿⟯ are indicated ⟮＿graphemically＿⟯ via ⟮special ＿punctuation＿⟯. 
 
 ##### interrogatives
 
 ⟮Interrogative word⟯ =syn= ⟮interrogative⟯
-»⟮An interrogative⟯« is ⟮＿a lexical unit＿⟯ used ⟮in creating ＿an interrogative clause＿⟯.
+»⟮An interrogative⟯« is ⟮＿a lexemic unit＿⟯ used ⟮in creating ＿an interrogative clause＿⟯.
 »⟮An interrogative particle⟯« is ⟮＿an interrogative＿⟯ that is ⟮＿a particle＿⟯.
 ⟮＿Interrogatives＿⟯ may be instantiated by ⟮different ＿parts of speech＿⟯.
 
@@ -96,8 +96,8 @@ A language I speak with ⟮3⟯ types of ＿polarics＿ to answer polar question
 »⟮A tag question⟯« is ⟮＿an interrogative clause＿⟯ which is formed from ⟮＿a declarative clause＿⟯ plus ⟮＿a question tag＿⟯.
 ⟮＿Tag questions＿⟯ express ⟮＿polar questions＿⟯.
 »⟮A question tag⟯« is ⟮＿a constituent＿⟯ required for ⟮creating ＿a tag question＿⟯.
-⟮＿A question tag＿⟯ may be ⟮＿a question tag simple lexical unit＿⟯, or ⟮＿a question tag complex constituent＿⟯.
-»⟮a question tag simple lexical unit⟯« is ⟮＿a question tag＿⟯ which is ⟮a single ＿lexical unit＿⟯.
+⟮＿A question tag＿⟯ may be ⟮＿a question tag simple lexemic unit＿⟯, or ⟮＿a question tag complex constituent＿⟯.
+»⟮a question tag simple lexemic unit⟯« is ⟮＿a question tag＿⟯ which is ⟮a single ＿lexemic unit＿⟯.
 »⟮a question tag complex constituent⟯« is ⟮＿a question tag＿⟯ which is ⟮＿a constituent＿ with more complex internal structure⟯.
 In ⟮＿a tag question＿⟯, ⟮both ＿the declarative clause＿ and ＿the question tag＿⟯ ⟮can (possibly) have ＿positive/negative polarity＿⟯.
 The ⟮four (2*2)⟯ ⟮possible ＿polarity＿ combinations⟯ in ＿a tag question＿ may create ⟮various combinations of⟯ ⟮＿polarity of the expected answer＿⟯ and ⟮＿pragmatic effects＿⟯.
@@ -166,7 +166,7 @@ table:name|meaning
 »⟮a sentence⟯« is ⟮the largest⟯ ⟮＿constituent＿⟯ and ⟮the root of⟯ ⟮all other ＿constituents＿⟯.
 ⟮＿A sentence＿⟯ ⟮consists of⟯ ⟮one or more⟯ ⟮＿clauses＿⟯.
 »⟮A one-word sentence⟯« is ⟮＿a sentence＿⟯ consisting of ⟮＿a sentence word＿⟯.
-»⟮A sentence word⟯« is ⟮a single ＿lexical unit＿⟯ that ⟮makes up ＿a one-word sentence＿⟯.
+»⟮A sentence word⟯« is ⟮a single ＿lexemic unit＿⟯ that ⟮makes up ＿a one-word sentence＿⟯.
 ^No. Yessir! Ouch!
 
 #### simple/complex 

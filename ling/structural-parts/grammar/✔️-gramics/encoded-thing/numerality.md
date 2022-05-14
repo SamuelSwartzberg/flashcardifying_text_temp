@@ -23,7 +23,7 @@ In ⟮east asian⟯ languages, ⟮＿the reuse point＿⟯ is ⟮10⎴4⎴⟯.
 ##### myriad
 
 »⟮A myriad⎵literal⎵⟯« is ⟮10 000⟯.
-»⟮A myriad⎵linguistics⎵⟯« is ⟮the literal ＿lexical unit＿ for 10 000⟯ when ⟮it is used to mean 'a lot'⟯, as is common in ⟮east asian languages⟯.
+»⟮A myriad⎵linguistics⎵⟯« is ⟮the literal ＿lexemic unit＿ for 10 000⟯ when ⟮it is used to mean 'a lot'⟯, as is common in ⟮east asian languages⟯.
 
 ### numerality type
 
@@ -34,7 +34,7 @@ In ⟮east asian⟯ languages, ⟮＿the reuse point＿⟯ is ⟮10⎴4⎴⟯.
 
 ### numerals
 
-»⟮A numeral⟯« is ⟮＿a lexical unit＿⟯ or ⟮＿morpheme＿⟯ encoding ⟮＿numerality＿⟯.
+»⟮A numeral⟯« is ⟮＿a lexemic unit＿⟯ or ⟮＿morpheme＿⟯ encoding ⟮＿numerality＿⟯.
 ^not other linguistic items, as encoding quantity is also handled via grammatical number.
 Typically, ⟮＿a numeral＿⟯ consists of ⟮a morpheme⟯ encoding ⟮＿numerality amount＿⟯, and ⟮optionally⟯ ⟮c_-2;some⟯ morpheme(s) encoding ⟮c_-2;＿numerality type＿⟯.
 ⟮＿Numerals＿⟯ internally often consist of ⟮some morpheme(s)⟯ indicating ⟮the quantity⟯, and ⟮c-;some morpheme(s)⟯ the ⟮type of numeral⟯.

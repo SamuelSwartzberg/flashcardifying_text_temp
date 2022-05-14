@@ -53,7 +53,7 @@ lex|inflectional variant
 #### lex
 
 »⟮A lexeme⟯« is ⟮＿a lexeme unit＿⟯ that ⟮is a single word⟯.
-Most commonly, ⟮the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lexical unit＿⟯ is ⟮not at issue⟯.
+Most commonly, ⟮the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lexemic unit＿⟯ is ⟮not at issue⟯.
 
 #### pract
 

@@ -5,7 +5,7 @@
 »⟮An expletive⟯« is ⟮＿a constituent＿⟯ that is ⟮semantically vacuous⟯.
 »⟮A syntactic expletive⟯« is ⟮＿an expletive＿⟯ that is there to ⟮fill a position⟯.
 ^E.g. ⁑There⁑ is someone helping us here. ⁑It⁑ was raining, wasn't ⁑it⁑?
-»⟮Expletification⟯« (my term) is ⟮the draining of meaning from⟯ ⟮＿lexical units＿⟯ to ⟮make them expletives⟯. 
+»⟮Expletification⟯« (my term) is ⟮the draining of meaning from⟯ ⟮＿lexemic units＿⟯ to ⟮make them expletives⟯. 
 
 ## movement
 

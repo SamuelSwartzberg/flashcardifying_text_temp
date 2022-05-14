@@ -1,6 +1,6 @@
 # parts of speech
 
-»⟮A part of speech/word class⟯« is ⟮a category of words⟯ with similar ⟮＿syntactic＿⟯,⟮＿ word-formation＿⟯ and sometimes ⟮＿semantic properties＿⟯.
+»⟮A part of speech/word class⟯« is ⟮a category of words⟯ with similar ⟮＿syntactic＿⟯, ⟮＿word-formation＿⟯ and sometimes ⟮＿semantic properties＿⟯.
 ⟮Part of speech⟯ =syn= ⟮word class⟯.
 ⟮Clear distingction⟯ of ⟮＿word classes＿⟯ are ⟮difficult⟯ ⟮＿interlinguistically＿⟯.
 Often ⟮the things we think⟯ ⟮a certain ＿word class＿ does⟯ ⟮c_-;is actually⟯ ⟮what a phrase headed by that thing does⟯.
@@ -19,32 +19,34 @@ table:abbr|name
 
 ## closed vs open
 
-»⟮a closed word class⟯« is a word class that ⟮rarely or never accepts new members⟯
-»⟮an open word class⟯« is a worrd class that ⟮can be extended without limit/readily accepts new members⟯
+»⟮a closed/open word class⟯« is a word class that ⟮rarely-never/readily accepts new members⟯
 
 ## categories
 
-⟮＿A word class＿⟯ may be a ⟮＿functional＿⟯, ⟮c_;＿lexical＿⟯ or ⟮c_;＿practical category＿⟯.
+⟮＿A word class＿⟯ may be a ⟮＿functional＿⟯, ⟮c_;＿lexemic＿⟯ or ⟮c_;＿practical category＿⟯.
 
 ### functional categories
 
-»⟮A functional category⟯« is ⟮＿a word class＿⟯ that ⟮purely encodes ＿grammemes＿ (however, those can be semantic roles, thus also encoding semantics)⟯.
-»⟮a function word⟯« is ⟮＿a lexical unit＿⟯ that ⟮is a member of ＿a functional category＿⟯.
+»⟮A functional category⟯« is ⟮＿a word class＿⟯ that ⟮mainly encodes ＿grammemes＿ (however, those can be semantic roles, thus also encoding semantics)⟯.
+»⟮a function word⟯« is ⟮＿a lexemic unit＿⟯ that ⟮is a member of ＿a functional category＿⟯.
 
 #### particle
 
 »⟮A particle⟯« is ⟮＿a function word＿⟯ which ⟮cannot be inflected⟯.
+
+##### SFPs
+
 »⟮A sentence-final particle⟯« is ⟮＿a particle＿⟯ ⟮occurring at the end of the sentence⟯.
-⟮＿Sentence-final particles＿⟯ in particular generally indicate ⟮modality⟯ or ⟮various pragmatic effects⟯.
+⟮＿Sentence-final particles＿⟯ in particular generally indicate ⟮＿modality＿⟯ or ⟮various ＿practs＿⟯.
 
 #### adpositions
 
 Types of ⟮＿adpositions＿⟯: {⟮＿post＿⟯, ⟮＿pre＿⟯, ⟮＿circum＿⟯, ⟮＿ambi＿⟯}
-»⟮An ambipositon⟯« is an adposition that may be either a pre- or postposition depending on other factors.
+»⟮An ambipositon⟯« is an ⟮＿adposition＿⟯ that ⟮may be either a ＿pre＿- or ＿postposition＿⟯ ⟮depending on other factors⟯.
 
 ##### semantics
 
-semantically, ⟮＿adpositions＿⟯ may indicate ⟮time⟯, ⟮space⟯, ⟮various semantic roles⟯, or ⟮something else⟯.
+semantically, ⟮＿adpositions＿⟯ may be ⟮＿temporal adpositions＿⟯, ⟮＿spatial adpositions＿⟯, ⟮＿thematic (role) adpositions＿⟯ or ⟮＿other adpositions＿⟯. indicate ⟮time⟯, ⟮space⟯, ⟮various semantic roles⟯, or ⟮something else⟯.
 
 ##### transitivity
 
@@ -59,15 +61,13 @@ semantically, ⟮＿adpositions＿⟯ may indicate ⟮time⟯, ⟮space⟯, ⟮v
 
 #### interjections
 
-»⟮Interjection⟯« is ⟮＿a pragmatic category＿⟯ that ⟮indicates a reaction⟯. 
-⟮＿Interjections＿⟯ are ⟮pretty separated⟯ from ⟮the rest of the syntax of the sentence⟯.
-⟮＿Interjection＿⟯ and ⟮c_;＿discourse marker＿⟯ are often used interchangeably, but ⟮c_;＿interjection＿⟯ refers to ⟮the syntactic/morphological class⟯, while ⟮c-;＿discourse marker＿⟯ refers to ⟮the pragmatic class⟯.
+»⟮Interjection⟯« is ⟮＿a pragmatic category＿⟯ that ⟮indicates a reaction⟯ and ⟮exhibits distinct syntactic behavior (namely, being mainly unaffected by it)⟯.
 
-### lexical category
+### lexemic category
 
-»⟮A lexical category⟯« is ⟮＿a word class＿⟯ that (also) encodes ⟮＿sememes＿⟯.
-»⟮A content word⟯« is ⟮＿a lexical unit＿⟯ that is ⟮a member of ＿a lexical category＿⟯.
-Sometimes ⟮lexical category⟯ is used ⟮as a synonym for⟯ ⟮part of speech/word class⟯ (but I don't like this).
+»⟮A lexemic category⟯« is ⟮＿a word class＿⟯ that (also) encodes ⟮＿sememes＿⟯.
+»⟮A content word⟯« is ⟮＿a lexemic unit＿⟯ that is ⟮a member of ＿a lexemic category＿⟯.
+Sometimes ⟮lexemic category⟯ is used ⟮as a synonym for⟯ ⟮part of speech/word class⟯ (but I don't like this).
 
 #### ad
 
@@ -78,7 +78,7 @@ Sometimes ⟮lexical category⟯ is used ⟮as a synonym for⟯ ⟮part of speec
 
 ##### adjective
 
-»⟮An adjective⟯« is ⟮＿a lexical unit＿⟯ that typically ⟮heads an AP⟯ but also ⟮may head an NP⟯.
+»⟮An adjective⟯« is ⟮＿a lexemic unit＿⟯ that typically ⟮heads an AP⟯ but also ⟮may head an NP⟯.
 »⟮A nominalized adjective⟯« is ⟮＿an adjective＿⟯ that ⟮heads an NP⟯.
 
 ###### AP
@@ -100,7 +100,7 @@ Something »⟮attributive⟯« is ⟮＿a phrase＿⟯ ⟮within a NP/DP⟯ tha
 
 ##### det
 
-»⟮A determiner⟯« is ⟮＿a lexical unit＿⟯ that ⟮occurs together with a NP (DP theory)⟯ and ⟮expresses something about the reference of the NP⟯.
+»⟮A determiner⟯« is ⟮＿a lexemic unit＿⟯ that ⟮occurs together with a NP (DP theory)⟯ and ⟮expresses something about the reference of the NP⟯.
 Types of ⟮＿determiners＿⟯: ⟮＿Articles＿⟯, ⟮＿quantifiers＿⟯, ⟮＿posessive determiners＿⟯, ⟮＿demonstrative determiners＿⟯, ⟮＿interrogative determiners＿⟯
 
 ##### Quantifier
@@ -114,7 +114,7 @@ Types of ⟮＿determiners＿⟯: ⟮＿Articles＿⟯, ⟮＿quantifiers＿⟯,
 
 ## verbs
 
-⟮Verbs⟯ can be divided into ⟮＿lexical verbs＿⟯ and ⟮＿functional verbs＿⟯.
+⟮Verbs⟯ can be divided into ⟮＿lexemic verbs＿⟯ and ⟮＿functional verbs＿⟯.
 
 ### func
 
@@ -125,9 +125,9 @@ Specifically, ⟮＿function verbs＿⟯ have ⟮little semantic content⟯ and 
 ⟮auxiliary verb⟯ =short=> ⟮auxiliary⟯.
 »⟮A modal verb⟯« is ⟮＿an auxiliary verbs＿⟯ encoding ⟮＿modality＿⟯.
 
-### lexical
+### lexemic
 
-»⟮Lexical verbs⟯« are ⟮verbs⟯ that are ⟮＿content words＿⟯.
+»⟮lexemic verbs⟯« are ⟮verbs⟯ that are ⟮＿content words＿⟯.
 
 ## proforms
 

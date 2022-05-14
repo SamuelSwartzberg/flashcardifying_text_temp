@@ -11,9 +11,9 @@
 
 ⟮c11;＿genitive/posessive case＿⟯ is the ⟮＿inflectional morphology＿⟯ most commonly instantiating ⟮＿a posessive＿⟯.
 
-### lexical
+### lexemic
 
-»⟮c14;A posessive lexeme⟯« is ⟮＿a possessive＿⟯ which is ⟮＿a lexical unit＿⟯.
+»⟮c14;A posessive lexeme⟯« is ⟮＿a possessive＿⟯ which is ⟮＿a lexemic unit＿⟯.
 ⟮c17;＿Posessive lexemes＿⟯ generally may be ⟮＿posessive verbs＿⟯, ⟮c_;＿posessive determiners＿⟯ or ⟮c_;＿posessive pronouns＿⟯.
 »⟮c19;A posessive verb/determiner/pronoun⟯« is ⟮＿a posessive lexeme＿⟯ which ⟮is a verb/determiner/pronoun⟯.
 

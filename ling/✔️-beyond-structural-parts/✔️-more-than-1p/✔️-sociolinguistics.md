@@ -174,12 +174,12 @@ table:gender language difference approach|relationship women's/men's language|re
 #### word gender
 
 »⟮c209;Word gender⟯« (my term) is ⟮the gender a word can somehow acquire⟯.
-⟮c211;＿Word gender＿⟯ consists of ⟮lexical gender⟯, ⟮grammatical gender⟯, ⟮referential gender⟯ and ⟮social gender⟯.
+⟮c211;＿Word gender＿⟯ consists of ⟮lexemic gender⟯, ⟮grammatical gender⟯, ⟮referential gender⟯ and ⟮social gender⟯.
 
 ##### table
 
 table:word gender|whence
-»⟮c216;lexical gender⟯«|⟮inherent in reference⟯.
+»⟮c216;lexemic gender⟯«|⟮inherent in reference⟯.
 »⟮c218;social gender⟯«|⟮gender connotations⟯
 »⟮c220;referential gender⟯«|⟮deictic referent⟯
 

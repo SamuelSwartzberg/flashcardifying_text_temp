@@ -18,7 +18,7 @@ An ⟮XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.
 
 #### heads & non-heads
 
-»⟮The head⟯« of ⟮＿a phrase＿⟯ is ⟮＿the lexical unit＿⟯ ⟮everything else in the phrase is about⟯.
+»⟮The head⟯« of ⟮＿a phrase＿⟯ is ⟮＿the lexemic unit＿⟯ ⟮everything else in the phrase is about⟯.
 »⟮A dependent⟯« is ⟮any element of ＿a phrase＿⟯ that ⟮isn't ＿the head＿⟯.
 
 #### phrasal category

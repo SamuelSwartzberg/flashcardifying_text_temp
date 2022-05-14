@@ -102,7 +102,7 @@ A stress unit is a grouping of phonic suprasegmental unit into a larger phonic s
 Fixed stress is stress where the stress always falls on the nth unit within a stress unit.
 Word stress =syn= prosodic word stress.
 Sentence stress =syn= utterance stress.
-Lexical stress is prosodic word stress which is lexicalized.
+lexemic stress is prosodic word stress which is lexemicized.
 
 #### how is stress conveyed
 
