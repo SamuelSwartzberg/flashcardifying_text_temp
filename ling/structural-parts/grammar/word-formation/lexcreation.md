@@ -128,28 +128,17 @@ A numeronym⎵narrow⎵ may be a count numeronym, a symbolic numeronym, or a met
 
 Partially morphological lexcreation is lexcreation that partially or sometimes uses morphemes, and sometimes others/not.
 
-### portmanteus
+### blends
 
 »⟮A splinter⟯« is ⟮a part of ＿a lexeme＿⟯ that ⟮is not ＿a morph＿⟯.
-e.g. both 'm' (from 'motor(ist)') and 'otel' (from 'hotel') in motel are splinters.
-The terms ⟮portmanteu⟯ and ⟮blend⟯ are ⟮mixed to the point of confusion⟯, ergo I will use neither (defining more specific ones instead).
-»⟮A portmanteu word⟯« is ⟮＿a lexcreation＿⟯ where ⟮parts of multiple words⟯ are ⟮combined into a new word/＿morph＿⟯.
-»⟮A blend word⟯« is ⟮＿a portmanteu word＿⟯ where ⟮at least one part⟯ is ⟮＿a splinter＿⟯.
-»⟮A portmanteu morph⟯« is ⟮the merging of multiple ＿morphs＿⟯ into ⟮one ＿morph＿⟯.
-For example, ⟮-t⟯ in spanish might be ⟮＿a portmanteu morph＿⟯ of ⟮the ＿morphs＿ for⟯ ⟮3rd person⟯ and for ⟮c_;singular⟯.
-⟮took⟯ may be considered ⟮＿a portmanteu morph＿⟯ of ⟮take + ed⟯.
+»⟮A blend⟯« is ⟮＿a partially morphological lexcreation＿⟯ where ⟮at least one part⟯ is ⟮＿a splinter＿⟯.
+blend =syn= portmanteu
 
 ### clipping
 
-⟮Clipping⟯ may also be called ⟮truncation⟯ or ⟮shortening⟯.
-»⟮Clipping⟯« is ⟮＿lexcreation＿⟯ by ⟮removing⟯ some ⟮＿segments＿ (be those syllables, morphs, phones...)⟯ of a lexeme, but ⟮retaining the original meaning⟯.
-e.g. Coronavirus → rona, refridgerator → fridge, influenza → flu
-⟮＿Clipping＿⟯ is also different from ⟮＿back-formation＿⟯, which proceeds by ⟮＿(pseudo-)morpheme＿⟯ rather than ⟮c_;＿segment＿⟯, and where the new word ⟮may differ⟯ in ⟮sense⟯ and/or ⟮c_;word class⟯ from its source.
+»⟮Clipping⟯« is ⟮＿partially morphological lexcreation＿⟯ by ⟮removing some ＿segments＿ of ＿a lexeme＿⟯, but ⟮retaining⟯ ⟮the meaning⟯ and ⟮c_;＿word class＿⟯.
+^e.g. Coronavirus → rona, refridgerator → fridge, influenza → flu
 
 ## productivity
 
-»⟮productivity⟯« is ⟮the degree to which⟯ ⟮native speakers of a language⟯ ⟮use a particular process⟯ in ⟮＿lexcreation＿⟯.
-The polar ends of ⟮＿productivity＿⟯ are ⟮productive⟯ and ⟮c_;unproductive⟯.
-Lexcreation processses that are applied ⟮very infrequently⟯ are likely ⟮＿unproductive＿⟯.
-In english, using ⟮ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿unproductive＿⟯, while using ⟮c-2;-ed⟯ to ⟮create preterite verbs⟯ is ⟮＿productive＿⟯.
-
+»⟮productivity (productive/unproductive)⟯« is ⟮the degree to which⟯ ⟮native speakers of a language⟯ ⟮use a particular process⟯ in ⟮＿lexcreation＿⟯.

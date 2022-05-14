@@ -41,7 +41,9 @@ An inflectional value is a sm grammic fvalue/ffeature from the inflectional cate
 
 ### combined inflectional category
 
-A combined inflectional category (my term) is the combination of multiple inflectional categories because they are realized by a single morphological mechanism.
+A combined inflectional category (my term) is the combination of one or more inflectional categories because they are realized by a single morphological mechanism.
+A passthrough combined inflectional category (my term) is a combined inflectional category combining only a single inflectional category.
+^is part of combined inflectional category for terminological simplicity.
 A combined inflectional value (my term) is a value of a combined inflectional category.
 An inflectional form (has polysemy) is the combination of combined inflectional category and combined inflectional value.
 The citation form (has polysemy) is the inflectional form that produces the lemma.
@@ -50,6 +52,8 @@ The citation form (has polysemy) is the inflectional form that produces the lemm
 
 A realizing morpheme set (my term) is a set of inflectional morphemes (plus how to apply them) realizing a combined inflectional category(often, only for a certain type of lexeme).
 ^e.g. -o, -es, e, -emos, -éis, en realizing the combination of tense+number+personal deixis+mood+aspect.
+A realizing morpheme is a morpheme from a realizing morpheme set.
+A portmanteu morpheme is a realizing morpheme where the combined inflectional category is not a passthrough combined inflectional category.
 A realizing paradigm (my term) is the inflectional paradigm of a combined inflectional categoryfor a given lexeme.
 The realizable category collection (my term) is the set of morphologically realizable categories that a word class has (unless it is defective).
 A realizing morpheme set collection is a set of with one realizing morpheme set for each morphologicallly realizable category in the realizable category collection.

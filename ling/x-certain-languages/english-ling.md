@@ -288,3 +288,9 @@ In ⟮english⟯, ⟮＿compounds＿⟯ can be ⟮open⟯, ⟮c_;closed⟯ or �
 »⟮An open/closed compound⟯« is ＿a compound＿ ⟮containing/not containing⟯ ⟮a space⟯.
 In ⟮english⟯, ⟮＿compounds＿⟯ generally ⟮progress⟯ ⟮from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
 e.g. "To day" → "to-day" → "today"]
+
+
+
+
+
+In english, using ⟮ablauts⟯ to ⟮create preterite verbs⟯ is ⟮＿unproductive＿⟯, while using ⟮c-2;-ed⟯ to ⟮create preterite verbs⟯ is ⟮＿productive＿⟯.
