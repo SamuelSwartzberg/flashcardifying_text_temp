@@ -280,3 +280,11 @@ In english orthography for ⟮american english⟯, ⟮a vowel grapheme⟯ + ⟮r
 
 
 »⟮Habitual be⟯« is a feature of ⟮＿AAVE＿⟯ indicating ⟮＿habitual aspect＿⟯.
+
+
+#### english
+
+In ⟮english⟯, ⟮＿compounds＿⟯ can be ⟮open⟯, ⟮c_;closed⟯ or ⟮c_;hyphenated⟯.
+»⟮An open/closed compound⟯« is ＿a compound＿ ⟮containing/not containing⟯ ⟮a space⟯.
+In ⟮english⟯, ⟮＿compounds＿⟯ generally ⟮progress⟯ ⟮from open to closed⟯, sometimes ⟮with a hyphenated form as an interim phase.⟯ 
+e.g. "To day" → "to-day" → "today"]
