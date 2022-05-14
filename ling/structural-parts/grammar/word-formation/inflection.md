@@ -1,44 +1,78 @@
 # inflection
 
-Inflection  ⟮the use of ＿inflectional morphemes＿⟯, ergo to indicate ⟮＿grammemes＿⟯.
-»⟮Apophony⟯« is ⟮＿a change in sound＿⟯ to indicate ⟮＿inflection＿⟯.
-»⟮An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
-»⟮An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
-»⟮The stem⟯« is ⟮＿the morpheme＿⟯ that is ⟮commonly used⟯ as ⟮a starting point for ＿inflection＿⟯.
-»⟮An invariable/invariant word⟯« is a word that ⟮cannot be ＿inflected＿⟯.
-»⟮An inflectional category⟯« is ⟮＿a sm grammic feature＿⟯ (typically) ⟮indicated via ＿inflection＿⟯.
+## creation of inflectional morphemes
 
-## declension and conjugation
+### apophony
+
+»⟮Apophony⟯« is ⟮＿a change in sound＿⟯ to indicate ⟮＿inflection＿⟯.
+A apophonic morpheme is a inflectional morpheme created via apophony.
+
+## what is inflected
+
+### declension and conjugation
 
 »⟮Inflection⟯« can be subdivided into ⟮＿declension＿ and ＿conjugation＿⟯
 »⟮Conjugation⟯« is ⟮＿inflection＿⟯ of ⟮verbs⟯
 »⟮Declension⟯« is ⟮＿inflection＿⟯ of ⟮nouns or adjectives⟯
 
-## agreement
+## inflectional motivation
+
+### agreement
 
 »⟮Agreement⟯« is ⟮＿inflection＿⟯ caused by ⟮constraints imposed⟯ by ⟮other words/constituents in the sentence⟯
 
-## Inflectional paradigm
+## inflectional morphemes
 
-»⟮An inflectional paradigm⟯« is ⟮the complete set of forms=words⟯ that ⟮＿a lexeme＿⟯ ⟮can assume⟯ ⟮when ＿inflecting＿⟯
-Sometimes, ⟮inflectional paradigm⟯ is (kinda falsely) used as ⟮a synonym⟯ of ⟮inflectional class⟯.
-An inflectional variant is an element of the inflectional paradigm.
-»⟮An inflectional class⟯« is ⟮the set of ＿inflectional morphemes＿⟯ such that ⟮one could generate⟯ ⟮＿the inflectional paradigm＿⟯ of ⟮lexemes falling under ⟮h-4;＿the inflectional class＿⟯⟯ ⟮using only⟯ ⟮the selfsame and the lexeme⟯.
-A »⟮typical inflectional class⟯« (my term) is ⟮＿an inflectional class＿⟯ that ⟮unites the ＿inflectional paradigms＿⟯ of ⟮a set of lexemes⟯ ⟮selected by a well-defined criterion (e.g. based on how it ends)⟯
-»⟮An inflectional category⟯« is ⟮the subset of elements⟯ of ⟮＿a inflectional class＿⟯ that all ⟮realize a common ＿sm grammic fcategory＿⟯.
-»⟮The inflectional category set⟯« (my term) is ⟮the set of all ＿inflectional categories＿⟯ that ⟮realize a certain ＿sm grammic fcategory＿⟯.
-e.g. case, number
-An inflectional form (has polysemy) is a set of sm grammic features that yield a single inflectional variant when applied to an inflectional class.
+Inflection works by using ⟮＿inflectional morphemes＿⟯.
+»⟮An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
+»⟮An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
+»⟮The stem⟯« is ⟮＿the morpheme＿⟯ that is ⟮commonly used⟯ as ⟮a starting point for ＿inflection＿⟯.
 
+### inflectional paradigm
+
+»⟮A inflectional paradigm⟯« is a set of inflectional variants.
+An inflectional variant is an element of an inflectional paradigm.
+A complete inflectional paradigm is the set of all inflectional variants for a lexeme.
+
+### inflectional categories
+
+An inflectional category is a sm grammic fcategory that allows a set of inflectional values.
+An inflectional value is a sm grammic fvalue/ffeature from the inflectional category's grammic fcategory.
+
+### combined inflectional category
+
+A combined inflectional category (my term) is the combination of multiple inflectional categories because they are realized by a single morphological mechanism.
+A combined inflectional value (my term) is a value of a combined inflectional category.
+An inflectional form (has polysemy) is the combination of combined inflectional category and combined inflectional value.
 The citation form (has polysemy) is the inflectional form that produces the lemma.
 
-### defectiveness & regularity
+### realizing
+
+A realizing morpheme set (my term) is a set of inflectional morphemes (plus how to apply them) realizing a combined inflectional category(often, only for a certain type of lexeme).
+^e.g. -o, -es, e, -emos, -éis, en realizing the combination of tense+number+personal deixis+mood+aspect.
+A realizing paradigm (my term) is the inflectional paradigm of a combined inflectional categoryfor a given lexeme.
+The realizable category collection (my term) is the set of morphologically realizable categories that a word class has (unless it is defective).
+A realizing morpheme set collection is a set of with one realizing morpheme set for each morphologicallly realizable category in the realizable category collection.
+
+### inflectional class
+
+»⟮An inflectional class⟯« is the combination of a realizing morpheme set and an inflectional class selector.
+An inflectional class selector (my term) is the set of criteria that determine if the inflectional class will apply.
+A well-defined inflectional class selector (my term) is an inflectional class selector where its criteria are well-defined phonological, morphological, sememeic... features.
+An inflectional class's morpheme set is the set of all morphemes that it contains.
+A typical inflectional class (my term) is an inflectional class with a well-defined inflectional class selector.
+
+#### defectiveness & regularity
 
 ⟮＿A lexeme＿⟯ is »⟮defective⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮lacks some of the forms⟯ of ⟮＿its inflectional class＿⟯.
 beware is a verb that is defective, as we can see by the fact that we can't say she bewares (of) the dog.
 
 A lexeme is »⟮regular/irregular⟯« if ⟮＿its inflectional paradigm＿⟯ ⟮does/does not conform to⟯ ⟮＿a typical inflectional class＿⟯.
 
-### for word classes
+#### for word classes
 
 »⟮A verb class⟯« is ⟮one of⟯ ⟮＿the typical inflectional classes＿⟯ for ⟮verb⟯.
+
+#### polysemy
+
+Sometimes, ⟮inflectional paradigm⟯ is (kinda falsely) used as ⟮a synonym⟯ of ⟮inflectional class⟯.
