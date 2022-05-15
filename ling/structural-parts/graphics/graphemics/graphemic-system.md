@@ -1,4 +1,4 @@
-# writing systems
+# graphemic system
 
 ## emic inventory
 
