@@ -2,18 +2,18 @@
 
 ## constituents
 
-A wstring (my term) is a sequence of 1+ words.
-»⟮A constituent⟯« is ⟮a wstring⟯ that ⟮functions as a single unit⟯ and has ⟮tree structure⟯.
-Constituent nesting is the joining of constituents into larger constituents.
+»⟮A wstring⟯« (my term) is ⟮＿a string＿ of 1+ words⟯.
+»⟮A constituent⟯« is ⟮＿a wstring＿⟯ that ⟮functions as a single unit⟯ and has ⟮tree structure⟯.
+»⟮Constituent nesting⟯« is ⟮the joining of ＿constituents＿ into larger ＿constituents＿⟯.
 
 ### constituenty tests
 
 »⟮A constituency test⟯« is ⟮a test⟯ that ⟮identifies ＿constituents＿⟯.
-The constituency test scope is the set/characterstics of languages in which it works.
+»⟮The constituency test scope⟯« is ⟮the set⟯/⟮c_;characterstics⟯ of ⟮＿languoids＿⟯ in which ⟮it works⟯.
 
 ### phrases
 
-»⟮a phrase⟯« is ⟮＿a constituent＿⟯ which behaves in a certain way which is defined by ⟮＿its head＿⟯.
+»⟮a phrase⟯« is ⟮＿a constituent＿⟯ which ⟮behaves in a certain way⟯ which is defined by ⟮＿its head＿⟯.
 An ⟮XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.
 
 #### heads & non-heads
@@ -23,7 +23,7 @@ An ⟮XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.
 
 #### phrasal category
 
-»⟮A phrasal category⟯« defines the way a phrase behaves and arises from ⟮＿the word class＿⟯ of ⟮＿the head＿⟯.
+»⟮A phrasal category⟯« defines ⟮the way ＿a phrase＿ behaves⟯ and ⟮arises from⟯ ⟮＿the word class＿⟯ of ⟮＿the head＿⟯.
 
 ## trees
 

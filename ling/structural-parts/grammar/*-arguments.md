@@ -144,7 +144,7 @@ Thus, for ⟮＿nominative-accusative＿⟯ & ⟮c_;＿dative＿⟯ ⟮＿morpho
 
 #### realization
 
-The ⟮most common⟯ types of ＿A1A2 morphosyntactic alignments＿ are ⟮＿nominative-accusative＿⟯ followed by ⟮＿ergative-absolutive＿⟯.
+The ⟮most common⟯ types of ⟮＿A1A2 morphosyntactic alignments＿⟯ are ⟮＿nominative-accusative＿⟯ followed by ⟮＿ergative-absolutive＿⟯.
 For ⟮＿A2A3 morphosyntactic alignments＿⟯, ⟮＿dative＿⟯ is more common than ⟮c_;＿dechticaetiative＿⟯.
 All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dative＿⟯ ＿morphosyntactic alignment＿.
 
@@ -169,7 +169,7 @@ All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dat
 
 »⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an verblikeal argument＿⟯.
 »⟮Demoting⟯« ⟮＿an verblikeal argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verblike⟯.
-In demoting a verblikeal argument, the remaining argument(s) keep(s) its/their thematic role, and may or may not change case.
+In ⟮＿demoting＿ ＿a verblikeal argument＿⟯, the ⟮remaining argument(s)⟯ k⟮eep(s) its/their ＿thematic role＿⟯, and ⟮may or may not⟯ ⟮change ＿case＿⟯.
 
 ##### valency > 1
 
