@@ -71,6 +71,7 @@ table:in image|is
 
 In the X-bar schema, ⟮XP⟯ is theoretically ⟮X''⟯.
 In the X-bar schema, ⟮X'⟯ and ⟮c_;X'' (XP)⟯ are »⟮projections⟯« of ⟮X⟯.
+X is the head of the minimum projection of X, X, thus all words are heads.
 
 
 table:symbol|projection description

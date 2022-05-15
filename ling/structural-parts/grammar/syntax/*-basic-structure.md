@@ -27,6 +27,10 @@ An ⟮XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.
 
 ## trees
 
+### position
+
+»⟮A position⟯« is ⟮＿a vertex＿⟯ in ⟮＿a syntax tree＿⟯ that ⟮can be occupied⟯ by ⟮＿a word/head＿⟯ or ⟮c_;＿a phrase＿⟯.
+
 ### direction
 
 Something is »⟮head-inital/head-final⟯« if ⟮＿the head＿⟯ ⟮comes at the beginning/end, respectively⟯.
