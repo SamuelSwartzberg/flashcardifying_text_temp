@@ -19,18 +19,23 @@
 
 »⟮An interrogative particle⟯« is ⟮＿an interrogative lexemic unit＿⟯ that is ⟮＿a particle＿⟯.
 
-#### creation
-
-##### adding constituents
-
-###### tag questsions
+##### tag questsions
 
 »⟮A tag question⟯« is ⟮＿an interrogative clause＿⟯ which is formed from ⟮＿a declarative clause＿⟯ plus ⟮＿a question tag＿⟯.
 ⟮＿Tag questions＿⟯ express ⟮＿polar questions＿⟯.
+
+###### question tag
+
 »⟮A question tag⟯« is ⟮＿a constituent＿⟯ required for ⟮creating ＿a tag question＿⟯.
+Most languages have ⟮multiple different⟯ ＿question tags＿.
+
+####### types
+
 ⟮＿A question tag＿⟯ may be ⟮＿a question tag simple lexemic unit＿⟯, or ⟮＿a question tag complex constituent＿⟯.
 »⟮a question tag simple lexemic unit⟯« is ⟮＿a question tag＿⟯ which is ⟮a single ＿lexemic unit＿⟯.
 »⟮a question tag complex constituent⟯« is ⟮＿a question tag＿⟯ which is ⟮＿a constituent＿ with more complex internal structure⟯.
+
+###### polarity
+
 In ⟮＿a tag question＿⟯, ⟮both ＿the declarative clause＿ and ＿the question tag＿⟯ ⟮can (possibly) have ＿positive/negative polarity＿⟯.
 The ⟮four (2*2)⟯ ⟮possible ＿polarity＿ combinations⟯ in ＿a tag question＿ may create ⟮various combinations of⟯ ⟮＿polarity of the expected answer＿⟯ and ⟮＿pragmatic effects＿⟯.
-Most languages have ⟮multiple different⟯ question tags.
