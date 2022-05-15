@@ -2,26 +2,31 @@
 
 ## syntactic
 
+### terminology
+
+#### independent & dependent
+
 »⟮A independent clause⟯« is ⟮＿a clause＿⟯ that ⟮could be a sentence on its own⟯.
 »⟮A dependent clause⟯« is ⟮＿a clause＿⟯ that ⟮could not be a sentence on its own⟯.
 ⟮All⟯ dependent clauses ⟮c_;are⟯ subordinate clauses, ⟮c_;but not the reverse⟯.
-⟮＿A clause＿⟯ is ⟮＿embedded＿⟯ in ⟮c_-;another ＿clause＿⟯ if ⟮it is part of it⟯.
-»⟮A subordinate clause⟯« is ⟮＿a clause＿⟯ which is ⟮＿embedded in＿⟯ and thus ⟮in a relationship of ＿subordination＿ with⟯ ⟮another ＿clause＿⟯.
+
+#### subordinate & superordinate
+
+⟮＿A clause＿⟯ is ⟮＿contained＿⟯ in ⟮c_-;another ＿clause＿⟯ if ⟮it is part of it⟯.
+»⟮A subordinate clause⟯« is ⟮＿a clause＿⟯ which is ⟮＿contained in＿⟯ and thus ⟮in a relationship of ＿subordination＿ with⟯ ⟮another ＿clause＿⟯.
 »⟮A superordinate clause⟯« is ⟮＿a clause＿⟯ ⟮containing a given ＿subordinate clause＿⟯.
-»⟮An embedded clause⟯« is ⟮＿a subordinate clause＿⟯ which ⟮is surrounded by its ＿subordinate clause＿⟯.
-^ergo one that isn't at the beginning or end of the sentence.
-»⟮A matrix clause⟯« is ⟮＿the clause＿⟯ ⟮in which ＿an embedded clause＿ is ＿embedded＿⟯.
 »⟮The main clause⟯« is ⟮the part of ＿the superordinate clause＿⟯ which ⟮is not ＿the subordinate clause＿⟯.
 !^this is a rare definition, but a useful one, and endorsed by Martin Haspelmath
-»⟮The root clause⟯« is ⟮the uppermost (tree-wise)⟯ ⟮＿matrix clause＿⟯ ⟮c_-;in the sentence⟯.
 
-### independent clause
+#### embedded & matrix
 
-#### (null) subjects
+»⟮An embedded clause⟯« is ⟮＿a subordinate clause＿⟯ which ⟮is surrounded by its ＿subordinate clause＿⟯.
+^ergo one that isn't at the beginning or end of the sentence.
+»⟮A matrix clause⟯« is ⟮＿the clause＿⟯ ⟮in which ＿an embedded clause＿ is ＿contained＿⟯.
 
-»⟮A null subject⟯« is a ⟮＿unpronounced＿⟯ ⟮c_;＿subject＿⟯.
-»⟮A null-subject language⟯« is ⟮＿a languoid＿⟯ which ⟮permits ＿null subjects＿⟯ ⟮in ＿independent clauses＿⟯.
-Languages I speak that are ＿⟮null-subject⟯ languages＿ are ⟮spanish⟯ and ⟮c_;japanese⟯.
+#### root
+
+»⟮The root clause⟯« is ⟮the uppermost (tree-wise)⟯ ⟮＿clause＿⟯ ⟮c_-;in the sentence⟯.
 
 ### subordinate clauses
 
@@ -60,6 +65,9 @@ table:name|meaning
 
 »⟮a sentence⟯« is ⟮the largest⟯ ⟮＿constituent＿⟯ and ⟮the root of⟯ ⟮all other ＿constituents＿⟯.
 ⟮＿A sentence＿⟯ ⟮consists of⟯ ⟮one or more⟯ ⟮＿clauses＿⟯.
+
+### one-word
+
 »⟮A one-word sentence⟯« is ⟮＿a sentence＿⟯ consisting of ⟮＿a sentence word＿⟯.
 »⟮A sentence word⟯« is ⟮a single ＿lexemic unit＿⟯ that ⟮makes up ＿a one-word sentence＿⟯.
 ^No. Yessir! Ouch!
@@ -71,8 +79,8 @@ table:name|meaning
 
 ### major/minor
 
-»⟮A major sentence⟯« is a sentence which ⟮we might consider a 'normal sentence' following the usual syntactic rules etc⟯.
-»⟮A minor sentence⟯« is a sentence⟮ without the usual subject-predicate structure⟯.
+»⟮A major sentence⟯« is a ＿sentence＿ which ⟮we might consider a 'normal sentence' following the usual syntactic rules etc⟯.
+»⟮A minor sentence⟯« is a ＿sentence＿ ⟮without the usual subject-predicate structure⟯.
 ⟮＿Minor sentences＿⟯ are generally quite ⟮＿phrasemic＿⟯.
 
 ### transformation
@@ -81,4 +89,3 @@ table:name|meaning
 
 »⟮A cleft sentence⟯« ⟮splits⟯ ⟮＿a simple sentence＿⟯ ⟮c-;up into⟯ ⟮＿a complex sentence＿⟯. 
 ⟮＿A cleft sentence＿⟯ typically puts ⟮＿the constituent＿ now in ＿the main clause＿⟯ into ⟮＿focus＿⟯.
-Syntax of ⟮＿cleft sentences＿⟯ in english: ⟮it⟯ + ⟮conjugated form of to be⟯ + ⟮X⟯ + ⟮＿subordinate clause＿⟯

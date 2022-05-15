@@ -58,6 +58,10 @@ Ognižar «Ogniã» Gordov
  https://jisho.org/word/%E3%82%81%E3%81%A3
  https://linguistics.stackexchange.com/a/628/31440
 
+
+ Languages I speak that are ＿⟮null-subject⟯ languages＿ are ⟮spanish⟯ and ⟮c_;japanese⟯.
+
+
 ### history, culture, etc
 
 

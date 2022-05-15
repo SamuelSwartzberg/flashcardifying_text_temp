@@ -301,3 +301,5 @@ en|be|be
 es|ser/estar|haber
 de|sein|geben
 ja|だ|ある・いる
+
+Syntax of ⟮＿cleft sentences＿⟯ in english: ⟮it⟯ + ⟮conjugated form of to be⟯ + ⟮X⟯ + ⟮＿subordinate clause＿⟯
