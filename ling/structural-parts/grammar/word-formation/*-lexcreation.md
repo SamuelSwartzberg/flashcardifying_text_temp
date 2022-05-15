@@ -15,7 +15,7 @@
 
 »⟮Morphological derivation⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮adding or removing ＿derivational affixes＿⟯.
 ⟮＿Morphological derivation＿⟯ may change the ⟮word class⟯, ⟮c_;sememe⟯, or ⟮c_;both⟯.
-morphological derivation =short=> derivation
+⟮morphological derivation⟯ =short=> ⟮derivation⟯
 
 ##### derivational affixes
 
@@ -24,7 +24,7 @@ morphological derivation =short=> derivation
 
 ##### derivates
 
-»⟮A derivate⟯« is ⟮＿a lexeme＿⟯ ⟮created via derivation⟯.
+»⟮A derivate⟯« is ⟮＿a lexeme＿⟯ ⟮created via ＿derivation＿⟯.
 
 #### compounds
 
@@ -39,16 +39,16 @@ morphological derivation =short=> derivation
 ##### surface analysis
 
 »⟮A surface analysis⎵process⎵⟯« is ⟮a valid analysis⟯ of ⟮a lexeme's morphology⟯ ⟮no matter if etymologically true⟯.
-»⟮A surface analysis⎵lexeme⎵⟯« is a lexeme created due to surface analysis⎵process⎵.
-Surface analysis is ambiguous between surface analysis⎵process⎵ and surface analysis⎵lexeme⎵.
+»⟮A surface analysis⎵lexeme⎵⟯« is ⟮＿a lexeme＿⟯ ⟮created due to ＿surface analysis⎵process⎵＿⟯.
+»⟮Surface analysis⟯« is ambiguous between ⟮＿surface analysis⎵process⎵＿⟯ and ⟮c_;＿surface analysis⎵lexeme⎵＿⟯.
 
 ###### reanalysis
 
 »⟮Reanalysis⎵process/lexeme⎵⟯« is ⟮＿surface analysis⎵process/lexeme⎵＿⟯ ⟮into a different morphology than it originally had⟯.
 »⟮Juncture loss⟯« is ⟮＿reanalysis＿⟯ where ⟮an article and a noun fuse⟯.
 ⟮Rebracketing⟯ is also sometimes known as ⟮resegmentation⟯ or ⟮metanalysis⟯
-»⟮rebracketing⟯« is ⟮＿reanalysis＿⟯ which moves a morpheme boundary.
-Misdivision (has polysemy) is rebracketing where the morpheme boundary is a word boundary.
+»⟮rebracketing⟯« is ⟮＿reanalysis＿⟯ which ⟮moves ＿a morpheme boundary＿⟯.
+»⟮Misdivision⟯« (has polysemy) is ⟮＿rebracketing＿⟯ where ⟮＿the morpheme boundary＿ is ＿a word boundary＿⟯.
 
 ##### folk etymology 
 
@@ -66,7 +66,7 @@ e.g. asexual (greek a- and latin sexus), democide (greek demos and latin -cida),
 
 ## nonmorphological
 
-»⟮Nonmorphological lexcreation⟯« (my term) is ⟮＿lexcreation＿⟯ that does not consider morphemes.
+»⟮Nonmorphological lexcreation⟯« (my term) is ⟮＿lexcreation＿⟯ that ⟮does not consider ＿morphemes＿⟯.
 
 ### abbreviation
 
@@ -80,7 +80,7 @@ e.g. ATM = automated teller machine; SIA = singapore international airlines
 ##### initialism
 
 ⟮Initialism⟯ =syn= ⟮alphabetism⟯
-»⟮An initialism⟯« is ⟮＿an acronym＿⟯ which is p⟮ronounced as individual letters⟯.
+»⟮An initialism⟯« is ⟮＿an acronym＿⟯ which is ⟮pronounced as individual ＿graphemes＿⟯.
 Sometimes ⟮initialism⟯ is ⟮just a synonym for⟯ ⟮acronym⟯.
 
 ##### backronym
@@ -92,49 +92,49 @@ Sometimes ⟮initialism⟯ is ⟮just a synonym for⟯ ⟮acronym⟯.
 
 »⟮A numeronym⎵broad⎵⟯« is a word ⟮based on/using numbers⟯.
 »⟮A numeronym⎵narrow⎵⟯« is ⟮＿a numeronym (broad)＿⟯ which is ⟮＿an abbreviation＿⟯.
-A numeronym⎵narrow⎵ may be a count numeronym, a symbolic numeronym, or a metonym numeronym.
+⟮＿A numeronym⎵narrow⎵＿⟯ may be ⟮＿a count numeronym＿⟯, ⟮＿a symbolic numeronym＿⟯, or ⟮＿a metonym numeronym＿⟯.
 
 ##### types
 
-»⟮A count numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which uses the first and last letters and the length of the remaining characters in the middle as a number.
+»⟮A count numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which ⟮uses the first and last letters⟯ and ⟮the length of the remaining characters in the middle as a number⟯.
 ^e.g. a11y = accessibility, g11n = globalization, p13n = personalization, i18n = internationalization
-»⟮A symbolic numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which symbolizes each of its segments with a number.
+»⟮A symbolic numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which ⟮symbolizes each of its ＿segments＿ with a number⟯.
 ^e.g. 4649 = よろしく  
-»⟮A metonym numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which refers metonymically.
+»⟮A metonym numeronym⟯« (my term) is ⟮＿a numeronym⎵narrow⎵＿⟯ which ⟮refers ＿metonymically＿⟯.
 ^e.g. 3.11
 
 ## partially morphological lexcreation
 
-Partially morphological lexcreation is lexcreation that partially or sometimes uses morphemes, and sometimes others/not.
+»⟮Partially morphological lexcreation⟯« is ⟮＿lexcreation＿⟯ that ⟮partially or sometimes uses ＿morphemes＿, and sometimes others/not.⟯
 
 ### blends
 
 »⟮A splinter⟯« is ⟮a part of ＿a lexeme＿⟯ that ⟮is not ＿a morph＿⟯.
 »⟮A blend⟯« is ⟮＿a partially morphological lexcreation＿⟯ where ⟮at least one part⟯ is ⟮＿a splinter＿⟯.
-A blend part (my term) is a part of a blend, whether splinter or morpheme.
+»⟮A blend part⟯« (my term) is ⟮a part of ＿a blend＿, whether ＿splinter＿ or ＿morpheme＿⟯.
 blend =syn= portmanteu
 
 #### classification by blend part type
 
-A total/partial blend is a blend where all/only some parts are blends (and the others are morphemes/words).
+»⟮A total/partial blend⟯« is ⟮＿a blend＿⟯ where ⟮all/only some parts⟯ are ⟮＿blends＿⟯ (and ⟮c-;the others⟯ are ⟮＿morphemes＿/words⟯).
 
 ##### total blends
 
-A beginning-end/end-end/beginning-beginning blend is a total blend where the splinters are taken from the beginning&end/end&end/beginningbeginning.
+»⟮A beginning-end/end-end/beginning-beginning blend⟯« is ⟮＿a total blend＿⟯ where ⟮＿the splinters＿⟯ are ⟮taken from⟯ ⟮the beginning&end/end&end/beginning&beginning⟯.
 
 ##### partial blends
 
-A morpheme-splinter/splinter-morpheme blend is a partial blend where the morpheme/splinter comes first. 
+»⟮A morpheme-splinter/splinter-morpheme blend⟯« is ⟮＿a partial blend＿⟯ where ⟮＿the morpheme＿/＿splinter＿⟯ ⟮comes first⟯. 
 
 ##### more complex
 
-A intercalated blend is one where a blend part forms a substrate, and (an) other blend part(s) is layered on top, mostly via phonological similarity.
+»⟮A intercalated blend⟯« is one where ⟮＿a blend part＿⟯ ⟮forms a substrate⟯, and ⟮c-;(an) other ＿blend part＿(s)⟯ ⟮is layered on top⟯, mostly via ⟮＿phonological＿ similarity⟯.
 ^e.g. adorable + dork = adorkable
 
 #### classification by blend part interaction
 
-Overlapping/non-overlapping blends are blends where one or more sm or ssm graphemes/phonemes overlap/don't overlap.
-graphemically/phonologically/graphemophonologically overlapping blends are overlapping blends where one or more sm or ssm graphemes/phonemes/both overlap.
+»⟮Overlapping/non-overlapping blends⟯« are ⟮＿blends＿⟯ where ⟮one or more⟯ ⟮sm or ssm ＿graphemes＿/＿phonemes＿⟯ ⟮overlap/don't overlap⟯.
+»⟮graphemically/phonologically/graphemophonologically overlapping blends⟯« are ⟮＿overlapping blends＿⟯ where ⟮one or more⟯ sm or ssm ⟮graphemes/phonemes/both⟯ ⟮overlap⟯.
 
 ### clipping
 
@@ -146,27 +146,28 @@ graphemically/phonologically/graphemophonologically overlapping blends are overl
 ### compends
 
 »⟮A compend⟯« (my term) is ⟮＿a compound＿⟯ or ⟮c_;＿a blend＿⟯.
+»⟮A compend part⟯« is ⟮a part of ＿a compend＿⟯.
 
 #### head of the compend
 
-The head of the compend is ambiguous between semantic head, syntactic head, and morphological head.
-The semantic head of the compend is the compend part of which the compend is a hyponym of, if any.
-The syntactic head of the compend is the compend part that determines the word class of the compend.
-The morphological head of the compend is the compend part on which inflection is marked.
+»⟮The compend head⟯« is ⟮a compend part⟯ that is ambiguous between semantic head, syntactic head, and morphological head.
+»⟮The semantic head⟯« is ⟮the compend part⟯ ⟮of which ＿the compend＿ is ＿a hyponym＿ of, if any⟯.
+»⟮The syntactic head⟯« is ⟮the compend part⟯ that ⟮determines ＿the word class＿ of ＿the compend＿⟯.
+»⟮The morphological/inflectional head⟯« is ⟮the compend part⟯ on ⟮which ＿inflection＿ is marked⟯.
 
 #### whence the meaning
 
 #### endocentric
 
-An endocentric compend is a compend that has a head.
+»⟮An endocentric compend⟯« is ⟮＿a compend＿⟯ that ⟮has ＿a semantic head＿⟯.
 
 #### exocentric
 
-An exocentric compend is a compend that does not have a head.
-An exocentric compend may be a metonymical compend or a copulative compend.
-A metonymical compend is a compend where the compend parts identify a sememe metonymically.
-A copulative compend is a compend where ⟮＿the sememe＿⟯ is ⟮c_;the intersection of⟯ ⟮＿the sememes＿ of ＿the compend parts＿⟯ (or roughly so).
-dvandva =syn= appositional compend =syn= copulative compend.
+»⟮An exocentric compend⟯« is ⟮＿a compend＿⟯ that ⟮does not have ＿a semantic head＿⟯.
+⟮＿An exocentric compend＿⟯ may be ⟮＿a metonymical compend＿⟯ or ⟮c_;＿a copulative compend＿⟯.
+»⟮A metonymical compend ⟯«is ⟮＿a compend＿⟯ where ⟮＿the compend parts＿⟯ ⟮identify ＿a sememe＿ ＿metonymically＿⟯.
+»⟮A copulative compend⟯« is ⟮＿a compend＿⟯ where ⟮＿the sememe＿⟯ is ⟮c_;the intersection of⟯ ⟮＿the sememes＿ of ＿the compend parts＿⟯ (or roughly so).
+⟮dvandva⟯ =syn= ⟮appositional compend⟯ =syn= ⟮copulative compend⟯.
 
 ## productivity
 

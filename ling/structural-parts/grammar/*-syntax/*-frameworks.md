@@ -30,9 +30,9 @@
 #### modifiers
 
 ⟮modifier⟯ =syn= ⟮adjunct⟯.
-⟮Adjoining adjuncts⟯ creates ⟮＿a phrase＿⟯ of ⟮the same ＿phrasal category＿ as it originally was⟯.
+⟮＿Adjoining＿ ＿adjuncts＿⟯ creates ⟮＿a phrase＿⟯ of ⟮the same ＿phrasal category＿ as it originally was⟯.
 ^Ergo adjoining something to a YP results in a larger YP.
-⟮Adjunction⟯ can be ⟮recursive⟯.
+⟮＿Recursive adjunction＿⟯ is ⟮＿adjunction＿ that is recursive⟯.
 ⟮The generative grammar/chomskyan approach⟯ is to see ⟮＿the object＿⟯ as ⟮the DP ＿complement＿ of a verb⟯.
 
 ### X-bar theory
@@ -69,9 +69,9 @@ table:in image|is
 
 #### in terms of projections
 
-In the X-bar schema, ⟮XP⟯ is theoretically ⟮X''⟯.
-In the X-bar schema, ⟮X'⟯ and ⟮c_;X'' (XP)⟯ are »⟮projections⟯« of ⟮X⟯.
-X is the head of the minimum projection of X, X, thus all words are heads.
+In ＿the X-bar schema＿, ⟮XP⟯ is theoretically ⟮X''⟯.
+In ＿the X-bar schema＿, ⟮X⟯, ⟮c_;X'⟯ and ⟮c_;X'' (XP)⟯ are »⟮projections⟯« of ⟮X⟯.
+X is ⟮＿the head＿⟯ of ⟮＿the minimum projection＿ of X = X⟯, thus ⟮all words are ＿heads＿⟯.
 
 
 table:symbol|projection description
@@ -153,7 +153,3 @@ In ⟮＿the DP hypothesis＿⟯, a ⟮determinerless⟯ noun ⟮has an unpronou
 
 Under ⟮＿the DP hypothesis＿⟯, semantically ⟮D⟯ is ⟮picking out the referent⟯, and ⟮everything else, including the noun,⟯ is ⟮describing that referent⟯.
 ^Intuitively, the head of "the best student of physics" seems to be "student", but the DP hypothesis claims its "the".
-
-##### !motivation
-
-⟮＿Pronouns＿⟯ seem to be ⟮NPs⟯ ⟮without an actual N head⟯.
