@@ -8,17 +8,17 @@ Generally, if ⟮there is no 'room'⟯ ⟮beneath⟯ an IPA symbol, you place a 
 
 ### main table
 
-table:class=yesno;!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
+table:class=yesno,,,!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
 !Manner ↓
-!type=th;Plosive                             |⟮p⟯|⟮b⟯               ||                   |span=3;⟮t⟯|span=3;⟮d⟯                                                       |⟮ʈ⟯|⟮ɖ⟯              |⟮c⟯|⟮ɟ⟯           |⟮k⟯|⟮ɡ⟯          |⟮q⟯|⟮ɢ⟯          |⟮ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
-!type=th;Nasal                               ||⟮m⟯                ||⟮ɱ⟯                  |span=3;|span=3;⟮n⟯                                                         ||⟮ɳ⟯                ||⟮ɲ⟯             ||⟮ŋ⟯||⟮ɴ⟯|class=no;|class=no;|class=no;|class=no;
-!type=th;Trill                               ||⟮ʙ⟯                ||                    |span=3;|span=3;⟮r⟯                                                         ||                 ||                |class=no;|class=no;||⟮ʀ⟯|⟮ʜ⟯|⟮ʢ⟯|class=no;|class=no;
-!type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮ɾ⟯                                                         ||⟮ɽ⟯               ||                |class=no;|class=no;|||||class=no;|class=no;
-!type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮l⟯                                                         ||⟮ɭ⟯               ||                ⟮ʎ⟯||⟮ʟ⟯|||class=no;|class=no;|class=no;|class=no;
-!type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮ɬ⟯|span=3;⟮ɮ⟯                                                       ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
-!type=th;Approximant                         ||                  ||⟮ʋ⟯                  |span=3;|span=3;⟮ɹ⟯                                                         |⟮ɻ⟯|                |⟮j⟯|             |⟮ɰ⟯||||class=no;|class=no;|
+!type=th;Plosive                             |⟮c+;s∞;p⟯ |⟮c+;s∞;b⟯ ||                     |span=3;⟮c+;s∞;t⟯|span=3;⟮c+;s∞;d⟯                                            |⟮c+;s∞;ʈ⟯|⟮c+;s∞;ɖ⟯ |⟮c+;s∞;c⟯|⟮c+;s∞;ɟ⟯|⟮c+;s∞;k⟯|⟮c+;s∞;ɡ⟯|⟮c+;s∞;q⟯|⟮c+;s∞;ɢ⟯ |⟮c+;s∞;ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
+!type=th;Nasal                               ||⟮c+;s∞;m⟯          ||⟮c+;s∞;ɱ⟯            |span=3;|span=3;⟮c+;s∞;n⟯                                                   ||⟮c+;s∞;ɳ⟯          ||⟮c+;s∞;ɲ⟯       ||⟮c+;s∞;ŋ⟯||⟮c+;s∞;ɴ⟯|class=no;|class=no;|class=no;|class=no;
+!type=th;Trill                               ||⟮c+;s∞;ʙ⟯          ||                    |span=3;|span=3;⟮c+;s∞;r⟯                                                   ||                 ||                |class=no;|class=no;||⟮c+;s∞;ʀ⟯|⟮c+;s∞;ʜ⟯|⟮c+;s∞;ʢ⟯|class=no;|class=no;
+!type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮c+;s∞;ɾ⟯                                                   ||⟮c+;s∞;ɽ⟯         ||                |class=no;|class=no;|||||class=no;|class=no;
+!type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮c+;s∞;l⟯                                                   ||⟮c+;s∞;ɭ⟯         ||                ⟮c+;s∞;ʎ⟯||⟮c+;s∞;ʟ⟯|||class=no;|class=no;|class=no;|class=no;
+!type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮c+;s∞;ɬ⟯|span=3;⟮c+;s∞;ɮ⟯                                                 ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
+!type=th;Approximant                         ||                  ||⟮c+;s∞;ʋ⟯            |span=3;|span=3;⟮c+;s∞;ɹ⟯                                                   |⟮c+;s∞;ɻ⟯|                |⟮c+;s∞;j⟯|             |⟮c+;s∞;ɰ⟯||||class=no;|class=no;|
 !span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
-!type=th;Fricative                           |⟮ɸ⟯|⟮β⟯               |⟮f⟯|⟮v⟯                |⟮θ⟯|⟮ð⟯                 |⟮s⟯|⟮z⟯                  |⟮ʃ⟯|⟮ʒ⟯                       |⟮ʂ⟯|⟮ʐ⟯              |⟮ç⟯|⟮ʝ⟯           |⟮x⟯|⟮ɣ⟯|⟮χ⟯|⟮ʁ⟯|⟮ħ⟯|⟮ʕ⟯|⟮h⟯|⟮ɦ⟯
+!type=th;Fricative                           |⟮c+;s∞;ɸ⟯|⟮c+;s∞;β⟯         |⟮c+;s∞;f⟯|⟮c+;s∞;v⟯          |⟮c+;s∞;θ⟯|⟮c+;s∞;ð⟯           |⟮c+;s∞;s⟯|⟮c+;s∞;z⟯            |⟮c+;s∞;ʃ⟯|⟮c+;s∞;ʒ⟯                 |⟮c+;s∞;ʂ⟯|⟮c+;s∞;ʐ⟯        |⟮c+;s∞;ç⟯|⟮c+;s∞;ʝ⟯     |⟮c+;s∞;x⟯|⟮c+;s∞;ɣ⟯|⟮c+;s∞;χ⟯|⟮c+;s∞;ʁ⟯|⟮c+;s∞;ħ⟯|⟮c+;s∞;ʕ⟯|⟮c+;s∞;h⟯|⟮c+;s∞;ɦ⟯
 
 ### extra sounds
 
@@ -27,14 +27,14 @@ table:symbol|voice|place|manner
 ⟮ɕ⟯|⟮voiceless⟯|⟮aveolo-palatal⟯|⟮fricative⟯
 ⟮ʑ⟯|⟮voiced⟯|⟮aveolo-palatal⟯|⟮fricative⟯
 
-### clicks
+### !clicks
 
 table:symbol|place
 ⟮ʘ⟯|⟮Bilabial⟯
 ⟮ǀ⟯|⟮Dental⟯
 ⟮ǃ⟯|⟮(Post)alveolar⟯
 ⟮ǂ⟯|⟮Palatoalveolar⟯
-⟮ǁ⟯|⟮Alveolar lateral⟯m
+⟮ǁ⟯|⟮Alveolar lateral⟯
 
 ### mnemonics
 
@@ -55,14 +55,14 @@ e.g. ［ɓ］ or ［ɗ］
 
 ## vowels
 
-!table:             |⟮Front⟯|⟮c_;Central⟯|⟮c_;Back⟯
-!type=th;⟮Close⟯     |⟮i⟯•⟮y⟯  |⟮ɨ⟯•⟮ʉ⟯     |⟮ɯ⟯•⟮u⟯
-!type=th;⟮Near-close⟯|⟮ɪ⟯•⟮ʏ⟯  |          |•⟮ʊ⟯
-!type=th;⟮Close-mid⟯ |⟮e⟯•⟮ø⟯  |⟮ɘ⟯•⟮ɵ⟯     |⟮ɤ⟯•⟮o⟯
-!type=th;⟮Mid⟯       |       |⟮ə⟯
-!type=th;⟮Open-mid⟯  |⟮ɛ⟯•⟮œ⟯  |⟮ɜ⟯•⟮ɞ⟯     |⟮ʌ⟯•⟮ɔ⟯
-!type=th;⟮Near-open⟯ |⟮æ⟯•    |⟮ɐ⟯
-!type=th;⟮Open⟯      |⟮a⟯•⟮ɶ⟯  |⟮ä⟯•       |⟮ɑ⟯•⟮ɒ⟯
+!table:             |⟮Front⟯    |⟮c_;Central⟯ |⟮c_;Back⟯
+!type=th;⟮Close⟯           |⟮i⟯•⟮y⟯      |⟮ɨ⟯•⟮ʉ⟯      |⟮ɯ⟯•⟮u⟯
+!type=th;⟮Near-close⟯      |⟮ɪ⟯•⟮ʏ⟯      |           |•⟮ʊ⟯
+!type=th;⟮Close-mid⟯       |⟮e⟯•⟮ø⟯      |⟮ɘ⟯•⟮ɵ⟯      |⟮ɤ⟯•⟮o⟯
+!type=th;⟮Mid⟯             |           |⟮ə⟯ 
+!type=th;⟮Open-mid⟯        |⟮ɛ⟯•⟮œ⟯      |⟮ɜ⟯•⟮ɞ⟯      |⟮ʌ⟯•⟮ɔ⟯
+!type=th;⟮Near-open⟯       |⟮æ⟯•        |⟮ɐ⟯ 
+!type=th;⟮Open⟯            |⟮a⟯•⟮ɶ⟯      |⟮ä⟯•         |⟮ɑ⟯•⟮ɒ⟯
 
 ### explanation
 

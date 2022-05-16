@@ -14,7 +14,7 @@ Two sounds are »⟮homorganic⟯« if ⟮they share the same⟯ ⟮＿place of 
 ⟮＿Passive places of articulation＿⟯ from front to back: ⟮c+;s∞;us_-;labial⟯, ⟮c+;s∞;us_-;dental⟯, ⟮c+;s∞;us_-;prealveolar⟯, ⟮c+;s∞;us_-;alveolar⟯, ⟮c+;s∞;us_-;postalveolar⟯, ⟮c+;s∞;us_-;palatal⟯, ⟮c+;s∞;us_-;velar⟯, ⟮c+;s∞;us_-;uvular⟯, ⟮c+;s∞;us_-;pharyngeal⟯, ⟮c+;s∞;us_-;epiglottal⟯, (⟮c+;s∞;us_-;glottal⟯)
 
 
-table:name|place
+table:passive place of articulation|description
 »⟮Labial⟯«|⟮the upper lip⟯
 »⟮Dental⟯«|⟮the upper teeth, either on the edge of the teeth or inner surface ⟯
 »⟮Prealveolar⟯«|⟮before the alveolar ridge⟯
@@ -23,7 +23,7 @@ table:name|place
 »⟮Palatal⟯«|⟮The hard palate⟯
 »⟮Velar⟯«|⟮The soft palate⟯
 »⟮Uvular⟯«|⟮The uvula⟯ 
-»⟮Pharyngeal⟯«|⟮The oropharynx⟯
+»⟮Pharyngeal⟯«|⟮The back of the oropharynx⟯
 »⟮Epiglottal⟯«|⟮The aryepiglottal folds⟯
 
 
