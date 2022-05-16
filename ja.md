@@ -61,6 +61,13 @@ Ognižar «Ogniã» Gordov
 
  Languages I speak that are ＿⟮null-subject⟯ languages＿ are ⟮spanish⟯ and ⟮c_;japanese⟯.
 
+unsolved-questions:
+  ja:
+    - Is トムだのだ。grammatically correct? (It's tom, explanatory.)
+    - When your sentence ends in an I-adjectove, is it illegat to leave it unconjugated and add a form of the copula (eg. 私わかわいいでした。) Probably yes, because conjuating nouns and adjectives is infact just gluing on a copula, right?
+    - 昨日、時間が___。
+    - Are 食べるばかりじゃない andor 食べなかったばかり wrong?
+    - https://hinative.com/en-US/questions/15154271 for future consideration
 
 ### history, culture, etc
 

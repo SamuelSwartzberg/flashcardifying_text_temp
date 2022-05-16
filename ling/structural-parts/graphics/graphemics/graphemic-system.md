@@ -4,12 +4,9 @@
 
 ### camerality
 
-Camerality is the property of (how many) different fvalues for letter case a writing system contrasts.
-An n-cameral writing system is a writing system with a camerality of n.
-Uni/bicameral = 1/2-cameral
-Typical values for letter case in a 2-cameral system = uppercase, lowercase
-⟮uppercase grapheme⟯ =syn= ⟮captial letter⟯ =syn= ⟮majuscle⟯ 
-⟮lowercase grapheme⟯ =syn= ⟮minuscle⟯  
+»⟮Camerality⟯« is the property of ⟮(how many) different⟯ ⟮＿fvalues＿⟯ for ⟮c_;＿letter case＿⟯ a ⟮＿graphemic system＿⟯ ⟮contrasts⟯.
+»⟮An n-cameral writing system⟯« is ⟮＿a graphemic system＿⟯ with ⟮＿a camerality＿ of n⟯.
+Uni/bi/tri...cameral = 1/2/3...-cameral
 
 ## emic rule set
 
