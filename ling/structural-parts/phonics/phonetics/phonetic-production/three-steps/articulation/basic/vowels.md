@@ -1,18 +1,22 @@
 # vowels
 
+## vowel quality
+
 The vowel quality feature categories are phonic potentially distinctive features for vowels.
 Vowel quality is defined by the vowel quality feature catergories.
 The vowel quality feature categories are the dorsal feature categories and labialization/rounding.
 
-## dorsal feature categories
+### vowel quality features
 
-### basics
+#### dorsal feature categories
+
+##### basics
 
 The dorsal feature categories ⟮further subdivide⟯ ⟮[+dorsal]⟯.
 The dorsal feature categories are height and backness.
 Height/backness are of the dorsum of the tongue.
 
-### values
+##### values
 
 table:dorsal fcategory|fvalues
 ⟮height⟯|close/close-mid/mid/open-mid/open
@@ -21,10 +25,14 @@ table:dorsal fcategory|fvalues
 Many theories of vowel quality feature categories posit less than the maximum amount of dorsal fvalues, instead deriving them from other features.
 ⟮close/open⟯ =syn= ⟮high/low⟯
 
-## formants
+### as articulation
 
-In fact, vowel quality features height/backness don't describe the tongue at all, but formant frequencies.
-⟮F1, F2, F3⟯ = ⟮first, second, third formant⟯
+»⟮The vowel quality as articulation assumption⟯« is that ⟮＿vowel quality＿⟯ is determined by ⟮certain articulatory features⟯, and is ⟮at best a severe approximation⟯.
+
+### as formants
+
+»⟮The vowel quality as formants assumption⟯« is that ⟮＿vowel quality＿⟯ is determined by ⟮its three formant frequencies⟯, and ⟮is acousically correct⟯.
+⟮first, second, third formant⟯ =symb=> ⟮F1, F2, F3⟯ 
 
 ## special types
 
@@ -40,8 +48,8 @@ r-colored vowel =syn= rhotic vowel (amongst other names)
 
 ### monopthongs/dipthongs
 
-The feature [+/- dipthong] indicates that a vowel sound does/does not change between two vowels during articulation.
-A dipthong/monopthong is a vowel with [+/- dipthong].
+The sm phonic feature [+/- dipthong] indicates that a vowel sound does/does not change between two vowels during articulation.
+»⟮A dipthong/monopthong⟯« is ⟮＿a vowel＿⟯ with ⟮＿[+/- dipthong]＿⟯.
 ⟮monopthong/dipthong⟯ =syn= ⟮pure/impure vowel⟯ = ⟮non-glide/glide vowel⟯.
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}</span>
