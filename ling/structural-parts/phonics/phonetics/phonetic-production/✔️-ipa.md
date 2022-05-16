@@ -1,0 +1,77 @@
+# IPA
+
+## general principles
+
+Generally, if ⟮c1;there is no 'room'⟯ ⟮beneath⟯ an IPA symbol, you place a diacritic that would normally go there ⟮above⟯ instead.
+
+## consonants
+
+### main table
+
+table:class=yesno,,,!Place (active + passive) →|span=2,2;Bi­labial  |span=2,2;Labio­dental|span=6,2;Dental / Alveolar / Post­alveolar                                 |span=2,2;Retro­flex|span=2,2;Palatal|span=2,2;Velar|span=2,2;Uvular|span=2,2;Pharyn­geal/​(ary-)epi­glottal|span=2,2;Glottal
+!Manner ↓
+!type=th;Plosive                             |⟮c4;s∞;p⟯ |⟮c+;s∞;b⟯ ||                     |span=3;⟮c+;s∞;t⟯|span=3;⟮c+;s∞;d⟯                                            |⟮c+;s∞;ʈ⟯|⟮c+;s∞;ɖ⟯ |⟮c+;s∞;c⟯|⟮c+;s∞;ɟ⟯|⟮c+;s∞;k⟯|⟮c+;s∞;ɡ⟯|⟮c+;s∞;q⟯|⟮c+;s∞;ɢ⟯ |⟮c+;s∞;ʡ⟯|class=no;                        |⟮ʔ⟯|class=no;
+!type=th;Nasal                               ||⟮c+;s∞;m⟯          ||⟮c+;s∞;ɱ⟯            |span=3;|span=3;⟮c+;s∞;n⟯                                                   ||⟮c+;s∞;ɳ⟯          ||⟮c+;s∞;ɲ⟯       ||⟮c+;s∞;ŋ⟯||⟮c+;s∞;ɴ⟯|class=no;|class=no;|class=no;|class=no;
+!type=th;Trill                               ||⟮c+;s∞;ʙ⟯          ||                    |span=3;|span=3;⟮c+;s∞;r⟯                                                   ||                 ||                |class=no;|class=no;||⟮c+;s∞;ʀ⟯|⟮c+;s∞;ʜ⟯|⟮c+;s∞;ʢ⟯|class=no;|class=no;
+!type=th;Tap/flap                            ||                  ||                    |span=3;|span=3;⟮c+;s∞;ɾ⟯                                                   ||⟮c+;s∞;ɽ⟯         ||                |class=no;|class=no;|||||class=no;|class=no;
+!type=th;Lateral approximant                 |class=no;|class=no;|class=no;|class=no;  |span=3;|span=3;⟮c+;s∞;l⟯                                                   ||⟮c+;s∞;ɭ⟯         ||                ⟮c+;s∞;ʎ⟯||⟮c+;s∞;ʟ⟯|||class=no;|class=no;|class=no;|class=no;
+!type=th;Lateral fricative                   |class=no;|class=no;|class=no;|class=no;  |span=3;⟮c+;s∞;ɬ⟯|span=3;⟮c+;s∞;ɮ⟯                                                 ||                 ||                |||||class=no;|class=no;|class=no;|class=no;
+!type=th;Approximant                         ||                  ||⟮c+;s∞;ʋ⟯            |span=3;|span=3;⟮c+;s∞;ɹ⟯                                                   |⟮c+;s∞;ɻ⟯|                |⟮c+;s∞;j⟯|             |⟮c+;s∞;ɰ⟯||||class=no;|class=no;|
+!span=5;class=no;                                                                     ||type=th;span=2;Dental|type=th;span=2;Alveolar|type=th;span=2;Post­alveolar                          
+!type=th;Fricative                           |⟮c+;s∞;ɸ⟯|⟮c+;s∞;β⟯         |⟮c+;s∞;f⟯|⟮c+;s∞;v⟯          |⟮c+;s∞;θ⟯|⟮c+;s∞;ð⟯           |⟮c+;s∞;s⟯|⟮c+;s∞;z⟯            |⟮c+;s∞;ʃ⟯|⟮c+;s∞;ʒ⟯                 |⟮c+;s∞;ʂ⟯|⟮c+;s∞;ʐ⟯        |⟮c+;s∞;ç⟯|⟮c+;s∞;ʝ⟯     |⟮c+;s∞;x⟯|⟮c+;s∞;ɣ⟯|⟮c+;s∞;χ⟯|⟮c+;s∞;ʁ⟯|⟮c+;s∞;ħ⟯|⟮c+;s∞;ʕ⟯|⟮c+;s∞;h⟯|⟮c+;s∞;ɦ⟯
+
+### extra sounds
+
+table:symbol|voice|place|manner
+⟮c65;ɺ (the long one⟯)|⟮voiced⟯|⟮alveolar⟯|⟮lateral tap/flap ⟯
+⟮c69;ɕ⟯|⟮voiceless⟯|⟮aveolo-palatal⟯|⟮fricative⟯
+⟮c73;ʑ⟯|⟮voiced⟯|⟮aveolo-palatal⟯|⟮fricative⟯
+
+### !clicks
+
+table:symbol|place
+⟮c77;ʘ⟯|⟮Bilabial⟯
+⟮c79;ǀ⟯|⟮Dental⟯
+⟮c81;ǃ⟯|⟮(Post)alveolar⟯
+⟮c83;ǂ⟯|⟮Palatoalveolar⟯
+⟮c85;ǁ⟯|⟮Alveolar lateral⟯
+
+### mnemonics
+
+table:applies to|commonality
+⟮c87;place:retroflex⟯|⟮right-facing bottom hook⟯
+⟮c89;velar and uvular fricative⟯|⟮based on the latin x⟯
+⟮c91;voiceless palatal⟯|⟮contain a latin c⟯
+⟮c93;place:uvular⟯|⟮small-caps⟯
+
+
+In general, phones with ⟮c95;greek⟯ IPA symbols ⟮are similar to⟯ phones ⟮with the same letter as a latin letter⟯.
+
+### glottalic consonants
+
+⟮c98;＿implosives＿⟯ are marked by the IPA via ⟮a right-facing hook⟯ ⟮on top⟯ of the symbol for the relevant ⟮equivalent oral occlusive⟯
+e.g. ［ɓ］ or ［ɗ］
+⟮c102;＿ejectives＿⟯ are marked by the IPA via ⟮［ʼ］, e.g. ［qʼ］⟯
+
+## vowels
+
+!table:            |Front    |Central  |Back
+!type=th;Close     |⟮c104;s∞;i⟯•⟮c+;s∞;y⟯|⟮c+;s∞;ɨ⟯•⟮c+;s∞;ʉ⟯|⟮c+;s∞;ɯ⟯•⟮c+;s∞;u⟯
+!type=th;Near-close|⟮c+;s∞;ɪ⟯•⟮c+;s∞;ʏ⟯  |                 |•⟮c+;s∞;ʊ⟯ 
+!type=th;Close-mid |⟮c+;s∞;e⟯•⟮c+;s∞;ø⟯  |⟮c+;s∞;ɘ⟯•⟮c+;s∞;ɵ⟯|⟮c+;s∞;ɤ⟯•⟮c+;s∞;o⟯
+!type=th;Mid       |                   |⟮c+;s∞;ə⟯ 
+!type=th;Open-mid  |⟮c+;s∞;ɛ⟯•⟮c+;s∞;œ⟯  |⟮c+;s∞;ɜ⟯•⟮c+;s∞;ɞ⟯|⟮c+;s∞;ʌ⟯•⟮c+;s∞;ɔ⟯
+!type=th;Near-open |⟮c+;s∞;æ⟯•          |⟮c+;s∞;ɐ⟯ 
+!type=th;Open      |⟮c+;s∞;a⟯•⟮c+;s∞;ɶ⟯  |⟮c+;s∞;ä⟯•         |⟮c+;s∞;ɑ⟯•⟮c+;s∞;ɒ⟯
+
+### explanation
+
+The ⟮c133;near-close⟯ vowels are ⟮most commonly but not always⟯ also ⟮only near-back/near-front (instead of fully so like shown in the table)⟯
+For the IPA vowel chart, ⟮c136;further down⟯ is ⟮more open⟯ and ⟮c-;further up⟯ is ⟮more closed⟯ since it describes ⟮tngue height relative to the top of the mouth, at least in theory.⟯
+
+### misc
+
+⟮c139;front near close⟯ vowel's IPA symbols are ⟮smallcaps versions⟯ of ⟮the front close ones⟯.
+the vowel written ⟮c142;ə⟯ is called ⟮schwa⟯
+
+<span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}</span>
