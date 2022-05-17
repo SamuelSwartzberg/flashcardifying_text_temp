@@ -129,12 +129,13 @@ Realization is the relationship between surface form and underlying form.
 Feature is ambiguous between ffeature and fcategory.
 Featural is looking at a thing from the perspective of features.
 »⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
+»⟮A natural class⟯« is ⟮a set of ＿emic units＿⟯ in a language that ⟮share certain ＿sm distinctive features＿⟯.
 
 ##### types
 
 »⟮A ffeature⟯« (my term) is a ⟮binary⟯ ⟮value⟯.
-A fcategory (rare term) is a feature that can take on multiple values.
-A fvalue is a value of a fcategory.
+A fcategory (rare term) is a feature that can take on multiple fvalues.
+A fvalue is a value of a fcategory. // or of a ffeature
 Alternatively, we can analyze a fcategory as a set of features that together give rise to multiple values.
 
 ##### distinctive feature
