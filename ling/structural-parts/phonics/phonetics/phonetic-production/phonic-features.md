@@ -10,18 +10,18 @@
 
 ### !most basic ⟮＿sonority hierarchy＿⟯
 
-!- ⟮＿vowels＿⟯
-!- ⟮c_;＿consonants＿⟯
+- !⟮＿vowels＿⟯
+- !⟮c_;＿consonants＿⟯
 
 ### !prototypical »⟮sonority hierarchy⟯«
 
-!-  ⟮c+;s∞;us_-;＿vowels＿⟯ 
-!-  ⟮c+;s∞;us_-;＿semivowels＿⟯ 
-!-  ⟮c+;s∞;us_-;＿liquids＿⟯ 
-!-  ⟮c+;s∞;us_-;＿nasals＿⟯ 
-!-  ⟮c+;s∞;us_-;＿voiced fricatives＿⟯ 
-!-  ⟮c+;s∞;us_-;＿voiceless fricatives＿⟯ ≈ ⟮c+;s∞;us_-;＿voiced obstruents＿⟯ 
-!-  ⟮c+;s∞;us_-;＿voiceless obstruents＿⟯.
+- !⟮c+;s∞;us_-;＿vowels＿⟯ 
+- !⟮c+;s∞;us_-;＿semivowels＿⟯ 
+- !⟮c+;s∞;us_-;＿liquids＿⟯ 
+- !⟮c+;s∞;us_-;＿nasals＿⟯ 
+- !⟮c+;s∞;us_-;＿voiced fricatives＿⟯ 
+- !⟮c+;s∞;us_-;＿voiceless fricatives＿⟯ ≈ ⟮c+;s∞;us_-;＿voiced obstruents＿⟯ 
+- !⟮c+;s∞;us_-;＿voiceless obstruents＿⟯.
 
 ## major class features
 
@@ -57,11 +57,11 @@ table:major class|types of sounds contained sorted by sonority
 
 
 !Ergo the extended major class features are ⟮progressively less strict⟯ about ⟮＿sonority＿⟯ in this order:
-!- ⟮c+;s∞;us_-;＿vocalic＿⟯ 
-!- ⟮c+;s∞;us_-;＿syllabic＿⟯ 
-!- ⟮c+;s∞;us_-;＿approximant＿⟯ 
-!- ⟮c+;s∞;us_-;＿sonorant＿⟯ 
-!- ⟮c+;s∞;us_-;＿continuant＿⟯ 
+- !⟮c+;s∞;us_-;＿vocalic＿⟯ 
+- !⟮c+;s∞;us_-;＿syllabic＿⟯ 
+- !⟮c+;s∞;us_-;＿approximant＿⟯ 
+- !⟮c+;s∞;us_-;＿sonorant＿⟯ 
+- !⟮c+;s∞;us_-;＿continuant＿⟯ 
 
 ## individual major class features
 

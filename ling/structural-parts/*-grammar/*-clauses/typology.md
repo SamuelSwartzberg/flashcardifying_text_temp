@@ -9,11 +9,11 @@
 
 #### !types of possible ⟮＿interrogatives＿⟯
 
-!- ⟮＿interrogative inflection＿⟯
-!- ⟮＿interrogative word order/syntax＿⟯
-!- ⟮＿interrogative constituent/lexemic unit(s)＿⟯
-!- ⟮＿interrogative phonic changes＿⟯
-!- ⟮＿interrogative grapheme＿⟯
+- !⟮＿interrogative inflection＿⟯
+- !⟮＿interrogative word order/syntax＿⟯
+- !⟮＿interrogative constituent/lexemic unit(s)＿⟯
+- !⟮＿interrogative phonic changes＿⟯
+- !⟮＿interrogative grapheme＿⟯
 
 #### interrogative lexemic units
 

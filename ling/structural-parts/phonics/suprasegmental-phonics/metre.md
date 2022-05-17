@@ -47,4 +47,3 @@ table:Foot|Pattern|Mnemonic
 table:Foot|Pattern|Mnemonic
 ⟮Choriamb⟯|⟮/xx/⟯|⟮c:∞;A choriamb is an iamb that has been held up a mirror.¶
 ⁑Who⁑ hath not ⁑seen⁑ thee oft amid thy store? ⁑Some⁑times who⁑ev⁑er seeks abroad may find⟯
-

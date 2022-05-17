@@ -2,48 +2,47 @@
 
 ## the phonological hierarchy
 
-The phonological hierarchy is the ordering of phonic suprasegmental units from largetst to smallest.
-The prosodic hierarchy is the subset of the phonological hierarchy from the mora upwards.
+»⟮The phonological hierarchy⟯« is the ordering of ⟮＿phonic ssm units＿⟯ from ⟮largest⟯ to ⟮c_;smallest⟯.
+»⟮The prosodic hierarchy⟯« is ⟮the subset of⟯ ⟮＿the phonological hierarchy＿⟯ ⟮from the ＿mora＿ upwards⟯.
 
-### common phonological hierarchy
+### !common phonological hierarchy
 
-1. Utterance
-2. Intonation phrase
-3. Phonological phrase
-4. Accentual phrase
-5. Clitic group
-6. Phonological word
-7. Foot
-8. Syllable
-9. Mora
-10. Phoneme
-11. Feature
+1. !⟮＿Utterance＿⟯
+2. !⟮＿Intonation phrase＿⟯
+3. !⟮＿Phonological phrase＿⟯
+4. !⟮＿Accentual phrase＿⟯
+5. !⟮＿Clitic group＿⟯
+6. !⟮＿Phonological word＿⟯
+7. !⟮＿Foot＿⟯
+8. !⟮＿Syllable＿⟯
+9. !⟮＿Mora＿⟯
+10. !⟮＿Phoneme＿⟯
+11. !⟮＿Feature＿⟯
 
 ## units
 
-table:phonic suprasegmental unit|consists of|raison d' etre
-phonological word||phonological representation of lexemes
-foot|syllables
-mora||equal timing
+table:phonic suprasegmental unit|unit of
+»⟮phonological word⟯«|⟮phonological representation of lexemes⟯
+»⟮foot⟯«|⟮rythym⟯
+»⟮mora⟯«|⟮equal timing⟯
 
 ## symbols
 
-table:phonic suprasegmental unit|symbol
-utterance|U
-intonational phrase|I-phrase or ι
-phonological phrase|P-phrase or Φ
-clitic group|C
-phonological word|P-word or ω
-foot|F, Φ or Σ
-syllable|σ
-mora|μ
+table:phonic suprasegmental unit|symbol|short name
+⟮utterance⟯|⟮U⟯
+⟮intonational phrase⟯|⟮ι⟯|⟮I(-phrase)⟯
+⟮phonological phrase⟯|⟮Φ⟯|⟮P(-phrase)⟯
+⟮clitic group⟯||⟮C(-group)⟯
+⟮phonological word⟯|⟮ω⟯|⟮(P-word))⟯
+⟮foot⟯|⟮Σ⟯|⟮F⟯
+⟮syllable⟯|⟮σ⟯
+⟮mora⟯|⟮μ⟯
 
 ## alternative names
 
-Phonological word =syn= prosodic word
-Intonational phrase =syn= full intonational phrase
-phonological phrase =syn= major phrase =syn= intermediate intonational phrase
-accentual phrase =syn= minor phrase
+⟮Phonological word⟯ =syn= ⟮prosodic word⟯
+⟮Intonational phrase/phonological phrase⟯ =syn= ⟮full intonational phrase/intermediate intonational phrase⟯
+⟮phonological phrase/accentual phrase⟯ =syn= ⟮major phrase/minor phrase⟯
 
 ## IPA 
 
@@ -73,11 +72,7 @@ When writing syllables, ⟮＿vowels＿⟯ are typically indicated ⟮V⟯ and �
 
 #### words and syllables
 
-table:name|consists of...
-»⟮monosyllable⟯«|⟮Word that consists of a single syllable⟯
-»⟮dibisyllable⟯«|⟮Word that consists of two syllables⟯
-»⟮trisyllable⟯«|⟮Word that consists of three syllables⟯
-»⟮polysyllable⟯«|⟮Word that consists of either more than one or more than three syllables⟯
+mono/di/tri...syllable = word that consists of 1/2/3... syllables
 
 #### syllable juncture
 

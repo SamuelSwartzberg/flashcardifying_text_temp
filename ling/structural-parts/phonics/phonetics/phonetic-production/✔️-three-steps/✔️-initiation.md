@@ -81,23 +81,23 @@ In ⟮c81;75⟯% of languages, the ⟮＿pulmonic＿ ＿egressive＿ ＿airstrea
 ###### general
 
 !⟮c109;＿non-pulmonic airstream mechanisms＿⟯:
-!1. ⟮c110;produce ＿closure＿⟯
-!2. do something with ⟮c111;＿closure piston＿⟯
-!3. ⟮c112;release a ＿closure point＿⟯
+1. !⟮c110;produce ＿closure＿⟯
+2. !do something with ⟮c111;＿closure piston＿⟯
+3. !⟮c112;release a ＿closure point＿⟯
 
 ###### ingressive
 
 !⟮c113;＿non-pulmonic＿⟯ ⟮＿ingressive＿⟯ sounds:
-!1. ⟮c115;produce ＿closure＿⟯
-!2. ⟮c116;lower⟯ ⟮＿closure piston＿⟯ to ⟮c_;create low pressure⟯
-!3. release ⟮c118;＿back closure point＿⟯
+1. !⟮c115;produce ＿closure＿⟯
+2. !⟮c116;lower⟯ ⟮＿closure piston＿⟯ to ⟮c_;create low pressure⟯
+3. !release ⟮c118;＿back closure point＿⟯
 
 ###### egressive
 
 !⟮c119;＿non-pulmonic＿⟯ ⟮＿egressive＿⟯ sounds:
-!1. ⟮c121;produce ＿closure＿⟯
-!2. ⟮c122;raise⟯ ⟮＿closure piston＿⟯ to ⟮c_;create high pressure⟯
-!3. release ⟮c124;＿front closure point＿⟯
+1. !⟮c121;produce ＿closure＿⟯
+2. !⟮c122;raise⟯ ⟮＿closure piston＿⟯ to ⟮c_;create high pressure⟯
+3. !release ⟮c124;＿front closure point＿⟯
 
 ##### glottalic
 
