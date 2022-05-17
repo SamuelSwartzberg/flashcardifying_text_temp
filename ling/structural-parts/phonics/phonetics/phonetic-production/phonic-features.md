@@ -96,20 +96,7 @@ Whether something is ⟮＿an approximant⎵wide⎵＿⟯ is indicated by ⟮＿
 
 ### syllabic
 
-»⟮Syllabic sounds⟯« are those which ⟮form ＿the nucleus＿ of ＿the syllable＿⟯.
-⟮＿Syllabic sounds＿⟯ are indicated by ⟮＿the sm phonic feature＿ [+syllabic]⟯
-
-#### semivowels
-
-Phonologically, »⟮a semivowel⟯« is ⟮a ＿non-syllabic＿ ＿vowel＿ ([-syllabic] [+vocalic])⟯.
-Ergo, in relation to the syllable ⟮＿a semivowel＿⟯ is ＿a vowel＿ that acts as ⟮a ＿coda＿ or ＿onset＿⟯.
-Phonetically, ⟮＿semivowels＿⟯ may ⟮be distinguished from⟯ ⟮＿vowels＿⟯ by the fact that ⟮they are one step lower on ＿the sonority hierarchy＿⟯.
-
-#### syllabic consonants
-
-Phonologically, »⟮a syllabic consonant⟯« is ⟮a ＿syllabic＿ ＿consonant＿ ([+syllabic] [+consonantal])⟯.
-Ergo, in relation to a syllable ⟮＿a syllabic consonant＿⟯ is ＿a consonant＿ that acts as ⟮＿a nucleus＿⟯.
-Generally, ⟮＿syllabic consonants＿⟯ are still ⟮＿sonorants＿⟯, as ⟮they still require their ＿onset＿ and ＿coda＿ to be lower on ＿the sonority hierarchy＿⟯
+(see suprasegmental units)
 
 #### !IPA
 
