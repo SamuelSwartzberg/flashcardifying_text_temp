@@ -72,15 +72,15 @@ The pharyx is divided into nasopharynx, oropharynx, and laryngopharynx.
 The laryngeal inlet sits at the front of the laryngopharynx, below the oral cavity.
 »⟮The epiglottis⟯« is ⟮a flap⟯ that ⟮sits on top of⟯ and ⟮c_;can seal⟯ ⟮＿the laryngeal inlet＿⟯.
 the aryepiglottal folds are the part of laryingeal inlet that the epiglottis touches if it is closed.
-The laryngeal inlet is the tube between epiglottis and larynx.
+The laryngeal inlet is the upper part of the larynx.
 
 ## larynx
 
 ⟮Vocal folds⟯ =syn= ⟮vocal cords⟯.
-»⟮The larynx⟯« ⟮contains⟯ ⟮＿the vocal folds＿⟯.
+»⟮The larynx⟯« is a tube full of various features that sits below the epiglottis and on top of the trachea.
+The vocal folds are two muscular folds that can constrict the larynx.
 »⟮The glottis⟯« is ⟮the gap between⟯ ⟮＿the vocal folds＿⟯.
 ⟮trachea⟯ =syn= ⟮windpipe⟯.
-⟮＿The larynx＿⟯ ⟮sits on top of⟯ ⟮＿the trachea＿⟯.
 
 ## openings
 
