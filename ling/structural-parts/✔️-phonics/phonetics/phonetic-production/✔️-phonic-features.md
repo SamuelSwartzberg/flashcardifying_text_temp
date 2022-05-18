@@ -1,21 +1,21 @@
 # phonic features
 
-⟮＿phonic features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
+⟮c1;＿phonic features＿⟯ are typically grouped into ⟮＿major class features＿⟯, ⟮＿manner features＿⟯, ⟮＿place features＿⟯, and ⟮＿laryngeal features＿⟯.
 
 ## sonority
 
-»⟮Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯ ceteris paribus.
-»⟮The sonority hierarchy⟯« ⟮ranks sounds⟯ by ⟮＿their sonority＿⟯.
-⟮＿Sonority＿⟯ mostly ⟮depends⟯ on ⟮＿the manner of articulation＿⟯.
+»⟮c6;Sonority⟯« is roughly ⟮the relative loudness⟯ of ⟮＿a phone＿⟯ ceteris paribus.
+»⟮c9;The sonority hierarchy⟯« ⟮ranks sounds⟯ by ⟮＿their sonority＿⟯.
+⟮c12;＿Sonority＿⟯ mostly ⟮depends⟯ on ⟮＿the manner of articulation＿⟯.
 
-### !most basic ⟮＿sonority hierarchy＿⟯
+### !most basic ⟮c15;＿sonority hierarchy＿⟯
 
-- !⟮＿vowels＿⟯
+- !⟮c16;＿vowels＿⟯
 - !⟮c_;＿consonants＿⟯
 
-### !prototypical »⟮sonority hierarchy⟯«
+### !prototypical »⟮c17;sonority hierarchy⟯«
 
-- !⟮c+;s∞;us_-;＿vowels＿⟯ 
+- !⟮c18;s∞;us_-;＿vowels＿⟯ 
 - !⟮c+;s∞;us_-;＿semivowels＿⟯ 
 - !⟮c+;s∞;us_-;＿liquids＿⟯ 
 - !⟮c+;s∞;us_-;＿nasals＿⟯ 
@@ -49,15 +49,15 @@ Ergo, ⟮all ＿speech sounds＿⟯ are either ⟮＿syllabic＿⟯ or ⟮c_;not
 ### !major classes (+ continuant) sorted by sonority of their contents
 
 table:major class|types of sounds contained sorted by sonority
-⟮＿vocalic＿⟯|⟮＿vowels＿⟯
-⟮＿syllabic＿⟯|⟮＿vowels＿ + ＿semivowels＿⟯
-⟮＿approximant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿⟯
-⟮＿sonorant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿ + ＿nasals＿⟯
-⟮＿continuant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿ + ＿nasals＿ + ＿fricatives＿⟯
+⟮c58;＿vocalic＿⟯|⟮＿vowels＿⟯
+⟮c60;＿syllabic＿⟯|⟮＿vowels＿ + ＿semivowels＿⟯
+⟮c62;＿approximant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿⟯
+⟮c64;＿sonorant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿ + ＿nasals＿⟯
+⟮c66;＿continuant＿⟯|⟮＿vowels＿ + ＿semivowels＿ + ＿liquids＿ + ＿nasals＿ + ＿fricatives＿⟯
 
 
-!Ergo the extended major class features are ⟮progressively less strict⟯ about ⟮＿sonority＿⟯ in this order:
-- !⟮c+;s∞;us_-;＿vocalic＿⟯ 
+!Ergo the extended major class features are ⟮c68;progressively less strict⟯ about ⟮＿sonority＿⟯ in this order:
+- !⟮c70;s∞;us_-;＿vocalic＿⟯ 
 - !⟮c+;s∞;us_-;＿syllabic＿⟯ 
 - !⟮c+;s∞;us_-;＿approximant＿⟯ 
 - !⟮c+;s∞;us_-;＿sonorant＿⟯ 
@@ -67,32 +67,32 @@ table:major class|types of sounds contained sorted by sonority
 
 ### consonants
 
-»⟮A consonant/vowel⟯« ⟮has/does not have⟯ ⟮an audible ＿constriction＿⟯ of ⟮＿the vocal tract＿⟯.
-⟮Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the sm phonic feature＿ [+/- consonantal/vocalic]⟯
-⟮[+/- consonantal]⟯ ≙ ⟮[-/+ vocalic]⟯
-⟮＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
-⟮All ＿consonants＿⟯ are ⟮[+dorsal] or [-dorsal]⟯, all ⟮c-;＿vowels＿⟯ are ⟮[+dorsal]⟯.
+»⟮c75;A consonant/vowel⟯« ⟮has/does not have⟯ ⟮an audible ＿constriction＿⟯ of ⟮＿the vocal tract＿⟯.
+⟮c79;Whether a speech sound is a ＿consonant＿ or ＿vowel＿⟯ is encoded by ⟮＿the sm phonic feature＿ [+/- consonantal/vocalic]⟯
+⟮c81;[+/- consonantal]⟯ ≙ ⟮[-/+ vocalic]⟯
+⟮c83;＿Consonants＿⟯ are categorized in the IPA by their ⟮＿manner＿⟯ and ⟮c_;＿place＿⟯ of ⟮c_;＿articulation＿⟯ as well as their ⟮＿voicing＿⟯.
+⟮c86;All ＿consonants＿⟯ are ⟮[+dorsal] or [-dorsal]⟯, all ⟮c-;＿vowels＿⟯ are ⟮[+dorsal]⟯.
 
 ### sonorants &amp; obstruents
 
-»⟮A sonorant/obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮[not obsturcted, no turbulence]⟯/⟮[turbulence, completely obstructed]⟯
+»⟮c88;A sonorant/obstruent⟯« is ⟮＿a speech sound＿⟯ that is produced via ⟮＿airflow＿⟯ that is ⟮[not obsturcted, no turbulence]⟯/⟮[turbulence, completely obstructed]⟯
 ^interval notation
-Whether something ⟮is a ＿sonorant＿⟯ is encoded by ⟮＿the sm phonic feature＿ [+/- sonorant]⟯
-⟮Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
-⟮＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯ or ⟮＿fricatives＿⟯ or thus ⟮＿affricates＿⟯.
+Whether something ⟮c93;is a ＿sonorant＿⟯ is encoded by ⟮＿the sm phonic feature＿ [+/- sonorant]⟯
+⟮c95;Most⟯ ⟮＿sonorants＿⟯ are ⟮＿voiced＿⟯.
+⟮c98;＿Obstruents＿⟯ are either ⟮＿oral occlusives＿⟯ or ⟮＿fricatives＿⟯ or thus ⟮＿affricates＿⟯.
 
 ### approximant
 
-»⟮Approximants⎵wide⎵⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
-Whether something is ⟮＿an approximant⎵wide⎵＿⟯ is indicated by ⟮＿the sm phonic feature＿ [+/- approximant]⟯.
+»⟮c102;Approximants⎵wide⎵⟯« are those ⟮＿speech sounds＿⟯ that allow ⟮a (completely/mostly) frictionless airstream⟯ ⟮through the mouth⟯.
+Whether something is ⟮c106;＿an approximant⎵wide⎵＿⟯ is indicated by ⟮＿the sm phonic feature＿ [+/- approximant]⟯.
 
 #### Liquids
 
-»⟮Liquids⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯.
-»⟮Liquids⟯« consist of all ⟮＿rhotics＿⟯ and ⟮voiced lateral appoximants⟯.
-⟮＿Liquids＿⟯ are grouped amongst other things because they often behave similar ⟮＿phonotactically＿⟯.
-»⟮rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
-⟮＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
+»⟮c108;Liquids⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯.
+»⟮c111;Liquids⟯« consist of all ⟮＿rhotics＿⟯ and ⟮voiced lateral appoximants⟯.
+⟮c114;＿Liquids＿⟯ are grouped amongst other things because they often behave similar ⟮＿phonotactically＿⟯.
+»⟮c116;rhotics⟯« are ⟮a class of⟯ ⟮＿consonants＿⟯ that are ⟮r-like (a quality notoriously difficult to define further)⟯.
+⟮c120;＿Rhotics＿⟯ are transcribed in the IPA with ⟮variants of the roman letter r⟯.
 
 ### syllabic
 
@@ -100,8 +100,8 @@ Whether something is ⟮＿an approximant⎵wide⎵＿⟯ is indicated by ⟮＿
 
 #### !IPA
 
-⟮＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
+⟮c122;＿A semivowel＿⟯ is indicated ⟮［◌̯］⟯.
 ^Since it's sad.
-⟮＿A syllabic consonant＿⟯ is indicated ⟮［◌̩］⟯ or ⟮c_;［◌̍］⟯
+⟮c124;＿A syllabic consonant＿⟯ is indicated ⟮［◌̩］⟯ or ⟮c_;［◌̍］⟯
 
 <span class="cloze-dump">{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}{{c65::}}{{c66::}}{{c67::}}{{c68::}}{{c69::}}{{c70::}}{{c71::}}{{c72::}}{{c73::}}{{c74::}}{{c75::}}{{c76::}}{{c77::}}{{c78::}}{{c79::}}{{c80::}}{{c81::}}{{c82::}}{{c83::}}{{c84::}}{{c85::}}{{c86::}}{{c87::}}{{c88::}}{{c89::}}{{c90::}}{{c91::}}{{c92::}}{{c93::}}{{c94::}}{{c95::}}{{c96::}}{{c97::}}{{c98::}}{{c99::}}{{c100::}}{{c101::}}{{c102::}}{{c103::}}{{c104::}}{{c105::}}{{c106::}}{{c107::}}{{c108::}}{{c109::}}{{c110::}}{{c111::}}{{c112::}}{{c113::}}{{c114::}}{{c115::}}{{c116::}}{{c117::}}{{c118::}}{{c119::}}{{c120::}}{{c121::}}{{c122::}}{{c123::}}{{c124::}}{{c125::}}{{c126::}}{{c127::}}{{c128::}}{{c129::}}{{c130::}}{{c131::}}{{c132::}}{{c133::}}{{c134::}}{{c135::}}{{c136::}}{{c137::}}{{c138::}}{{c139::}}{{c140::}}{{c141::}}{{c142::}}{{c143::}}{{c144::}}{{c145::}}{{c146::}}{{c147::}}{{c148::}}{{c149::}}{{c150::}}{{c151::}}{{c152::}}{{c153::}}{{c154::}}{{c155::}}{{c156::}}{{c157::}}{{c158::}}{{c159::}}{{c160::}}{{c161::}}{{c162::}}{{c163::}}{{c164::}}{{c165::}}{{c166::}}{{c167::}}{{c168::}}</span>
