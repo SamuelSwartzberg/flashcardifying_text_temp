@@ -4,46 +4,44 @@
 
 ## foundation
 
-A level is a rough grouping.
-The level topic is the the general topic of the level.
-The level name is the name to scope something to that particular level.
-\$LEVELNAME is a given level name.
-The study of a level is called \$LEVELNAMEs.
-A level consists of a segmental emic system, a suprasegmental emic system and the segmental-suprasegmental interface.
-S*egmental refers to either segmental or suprasegmental.
-The segmental emic system deals with smaller units than the suprasegmental emic system.
-s*egmental unit = s*egmental e?ic unit
-sm/ssm =short=> segmental/suprasegmental
+»⟮A level⟯« is ⟮a grouping of things⟯ ⟮related to ＿the level topic＿⟯.
+»⟮The level topic⟯« is ⟮the general topic of ＿the level＿⟯.
+»⟮The level name⟯« is the name to ⟮scope something to that particular ＿level＿⟯.
+»⟮\$LEVELNAME⟯« is ⟮a given ＿level name＿⟯.
+⟮The study of ＿a level＿⟯ is called ⟮\$LEVELNAMEs⟯.
+⟮＿A level＿⟯ consists of ⟮＿a segmental emic system＿⟯, ⟮＿a suprasegmental emic system＿⟯ and ⟮＿the segmental-suprasegmental interface＿⟯.
+»⟮S*egmental⟯« is ⟮either ＿segmental＿ or ＿suprasegmental＿⟯.
+»⟮The segmental emic system⟯« ⟮deals with smaller units⟯ than »⟮the suprasegmental emic system⟯«.
+»⟮s*egmental unit⟯« =short for=> ⟮s*egmental e?ic unit⟯
+»⟮sm/ssm⟯« =short for=> ⟮＿segmental/suprasegmental＿⟯
 
 ### suprasegmental caveats
 
-If suprasegmentals are analyzed only as features passed down, then the differentiation into segmental/suprasegmental e?ic whatevers becomes unnecessary.
+If ⟮＿suprasegmentals＿⟯ are analyzed only as ⟮features passed down⟯, then ⟮the differentiation into segmental/suprasegmental e?ic whatevers becomes unnecessary⟯.
 e?ic unit should be short for s*egmental e?ic unit, but in practice often merely refers to a segmental e?ic unit
 
 ## either seg/supraseg
 
-A s*egmental emic system consists of the emic whole and the emic rule set.
-Conditioning is the combination of the segmental e?ic conditioning and suprasegmental conditioning.
+»⟮A s*egmental emic system⟯« consists of ⟮＿the emic whole＿⟯ and ⟮＿the emic rule set＿⟯.
 
 ### e?ic
 
-e?ic is purposefully ambiguous between emic and etic.
-E?ic unit =syn= e?ic component.
-The e?ic inventory is the set of e?ic units.
-An e?ic unit boundary is the spot between two e/mic/etic units.
-e?ics is the study of e?ic units.
-An e?ic inventory is the component set of the e?ic whole.
-linguistic unit =syn= e?ic unit
+»⟮e?ic⟯« is purposefully ambiguous between ⟮＿emic＿⟯ and ⟮c_;＿etic＿⟯.
+⟮E?ic unit⟯ =syn= ⟮e?ic component⟯.
+»⟮An e?ic unit boundary⟯« is ⟮the spot between two⟯ ⟮＿e?ic units＿⟯.
+»⟮e?ics⟯« is ⟮the study of⟯ ⟮＿e?ic units＿⟯.
+»⟮The e?ic inventory⟯« is ⟮＿the component set＿⟯ of ⟮＿the e?ic whole＿⟯. OR »⟮The e?ic inventory⟯« is ⟮the set of⟯ ⟮＿e?ic units＿⟯. // TODO decide
+»⟮linguistic unit⟯« =syn= ⟮＿e?ic unit＿⟯
 
 #### linearity
 
-Linearity is the presumtion that e?ic units occur sequentially with 1-to-1 emic-etic correspondence.
-Linearity is probably untenable for most e?ic units in most cases.
+»⟮Linearity⟯« is the presumtion that ⟮＿e?ic units＿⟯ ⟮occur sequentially⟯ with ⟮1-to-1 emic-etic correspondence⟯.
+⟮＿Linearity＿⟯ is ⟮probably untenable⟯ for ⟮most⟯ e?ic units in ⟮c_;most⟯ cases.
 
 #### environment
 
-The e?ic environment is the set of e?ic units before and after an e?ic unit.
-e?ic conditioning is the influincing of alternant selection by the e?ic environment.
+»⟮The e?ic environment⟯« is ⟮the set of ＿e?ic units＿⟯ ⟮before and after ＿an e?ic unit＿⟯.
+»⟮e?ic conditioning⟯« is ⟮the influincing⟯ of ⟮＿alternant selection＿⟯ by ⟮＿the e?ic environment＿⟯.
 
 ### emic
 
@@ -207,7 +205,8 @@ pausa =syn= suprasegmental e?ic unit boundary.
 A juncture is a segmental emic unit posited that does the job of suprasegmentals but is part of the sequental flow of emic units.
 A chunk is the segments between a juncture.
 
-## combination
+## segmental-suprasegmental interface
 
 The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given segmental e?ic unit.
-Segmental conditioning is the influencing of segmental emic unit alternant selection by the suprasegmental environment.
+Suprasegmental-segmental conditioning is the influencing of segmental emic unit alternant selection by the suprasegmental environment.
+»⟮Conditioning⟯« is the combination of the segmental e?ic conditioning and suprasegmental-segmental conditioning.

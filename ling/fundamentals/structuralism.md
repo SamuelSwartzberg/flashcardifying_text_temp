@@ -1,23 +1,23 @@
 
-## structuralism
+# structuralism
 
-### history
+## history
 
 『⟮Course in General Linguistics⟯』 is a book by ⟮de Sassure⟯ and was published in ⟮1916⟯
 ⟮De Sassure⟯ founded ⟮structuralism⟯ in the book 『⟮Course in General Linguistics⟯』.
 ⟮Structuralism⟯ lies at the base of ⟮emic units⟯ and thus of ⟮linguistics⟯.
 Outside of ⟮linguistics⟯, ⟮structuralism⟯ had ⟮its heyday⟯ in ⟮the 1950s and 1960s⟯ in ⟮France⟯ (but is still influential) 
 
-### signs
+## signs
 
-#### semiotics
+### semiotics
 
 »⟮semiosis⟯« is ⟮activity/process involving signs⟯ 
 »⟮semiotics⟯« is the study of ⟮＿semiosis＿⟯
 
-### the sign
+## the sign
 
-#### semiotic cake
+### semiotic cake
 
 A semiotic topic is what the semiotic layer is 'about'.
 A semiotic cake is a undifferentiated mass of everything about the semiotic topic.
@@ -28,12 +28,12 @@ The semiotic component meaning is the semiotic component's meaning, which is ¬ 
 // something something contrastive/negative meaning
 A semiotic component set is the set of semiotic components of a given semiotic cake.
 
-#### signifiers and signifieds
+### signifiers and signifieds
 
 The signifier and signified cakes are two specific semiotic cakes arbitrarily chosen.
 The signifier and signified cakes give rise to signifier/signified dividiers, components and component sets.
 
-#### the sign
+### the sign
 
 A sign is the arbitrary linking of a signifier and a signified.
 A divided semiotic topic/cake/divider/component/component set is a semiotic topic/cake/divider/component/component set that was created by dividing up a semiotic cake.
@@ -42,19 +42,19 @@ An emergent semiotic topic/cake/divider/component/component set is a semiotic to
 By joining signs, we give rise to a new sign topic/cake/divider/component/component set.
 The sign topic/cake/divider/component/component set is an emergent semiotic topic/cake/divider/component/component set.
 
-#### whole universe
+### whole universe
 
 The sign/signifier/sigified whole is everything about the relevant sign/signifier/signified.
 The sign universe whole is everthing about the relevant sign/signified/signifier whole in total.
 The sign universe topic/cake/divider/component/component set is all of the sign/signifier/signifieds topic/cake/divider/component/component set. 
 
-#### further notes
+### further notes
 
 If one just says sign/signifier/signified, most commonly sign/signifier/signified component is meant.
 One can say a sign signifies/is signified by its signified/signifier component
 Since the ⟮＿sign＿⟯ consists of ⟮the two parts of ＿signifier＿ and ＿signified＿⟯, the model is often called ⟮dyadic⟯. 
 
-#### image
+### image
 
 flex-container:✫planes-sound-thought.png✫✫sign-dyadic.png✫
 
@@ -65,7 +65,7 @@ table:What?|Where in the image?
 ⟮the signifier/signified cake⟯|⟮the wavy areas⟯
 
 
-#### nesting
+### nesting
 
 flex-container:✫infinitely-nested-sign.jpg✫✫nested-sign.jpg✫
 
