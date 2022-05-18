@@ -23,8 +23,8 @@ An epithet may be epithet⎵accompanying⎵ or epithet⎵replacing⎵.
 
 ##### necronyms
 
-»⟮A necronym⟯« is ⟮＿a proper noun＿⟯ which ⟮references a person who has died⟯.
-A necronym⎵replacing⎵ is a necronym that is ⟮not the same as the person had in life⟯.
+»⟮A necronym⎵wide⎵⟯« is ⟮＿a proper noun＿⟯ which ⟮references a person who has died⟯.
+»⟮A necronym⎵replacing⎵⟯« is ⟮＿a necronym⎵wide⎵＿⟯ that is ⟮not the same as the person had in life⟯.
 
 ### placeholder names
 
