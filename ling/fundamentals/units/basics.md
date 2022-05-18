@@ -10,19 +10,24 @@
 »⟮\$LEVELNAME⟯« is ⟮a given ＿level name＿⟯.
 ⟮The study of ＿a level＿⟯ is called ⟮\$LEVELNAMEs⟯.
 ⟮＿A level＿⟯ consists of ⟮＿a segmental emic system＿⟯, ⟮＿a suprasegmental emic system＿⟯ and ⟮＿the segmental-suprasegmental interface＿⟯.
-»⟮S*egmental⟯« is ⟮either ＿segmental＿ or ＿suprasegmental＿⟯.
 »⟮The segmental emic system⟯« ⟮deals with smaller units⟯ than »⟮the suprasegmental emic system⟯«.
+
+### abbreviations
+
+»⟮S*egmental⟯« is ⟮either ＿segmental＿ or ＿suprasegmental＿⟯.
+s*egmental = segmental ∨ suprasegmental
 »⟮s*egmental unit⟯« =short for=> ⟮s*egmental e?ic unit⟯
 »⟮sm/ssm⟯« =short for=> ⟮＿segmental/suprasegmental＿⟯
+s*m = sm ∨ ssm
 
 ### suprasegmental caveats
 
 If ⟮＿suprasegmentals＿⟯ are analyzed only as ⟮features passed down⟯, then ⟮the differentiation into segmental/suprasegmental e?ic whatevers becomes unnecessary⟯.
-e?ic unit should be short for s*egmental e?ic unit, but in practice often merely refers to a segmental e?ic unit
+e?ic unit should be short for s*m e?ic unit, but in practice often merely refers to a segmental e?ic unit
 
 ## either seg/supraseg
 
-»⟮A s*egmental emic system⟯« consists of ⟮＿the emic whole＿⟯ and ⟮＿the emic rule set＿⟯.
+»⟮A s*m emic system⟯« consists of ⟮＿the emic whole＿⟯ and ⟮＿the emic rule set＿⟯.
 
 ### e?ic
 
@@ -77,6 +82,8 @@ being related to emic/etic units for a given level: ((supra)segmental) \$LEVELNA
 ### analyses
 
 ⟮＿Emic units＿⟯ can be analyzed via ⟮＿the etic analysis＿⟯ or ⟮＿the featural analysis＿⟯.
+Etic units can also be analyzed into featues.
+»⟮A emic/etic feature⟯« is a feature characterizing an emic/etic unit.
 
 #### subemic elements
 
@@ -86,85 +93,85 @@ The main ⟮＿subemic elements＿⟯ are ⟮＿etic units＿⟯ and ⟮＿featu
 #### contrastiveness
 
 Something being »⟮contrastive⟯« means that ⟮changing it⟯ ⟮would produce a different ＿emic unit＿⟯.
+A contrast being neutralized is appearing in an etic environment as alternants where they normally would be contrastive
 
 #### etic
 
-»⟮The etic analysis⟯« (my term) is that ⟮＿an emic unit＿⟯ is ⟮an abstract form⟯ of ⟮n ＿etic units＿⟯.
-An etic unit is a division of an emic unit's signifier component into a number of alternants.
-From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of alternants.
-An emma is an etic unit chosen arbitrarily to represent the emic unit.
+»⟮The etic analysis⟯« (my term) is seeing ⟮＿an emic unit＿⟯ as ⟮an abstract form⟯ of ⟮n ＿etic units＿⟯.
+»⟮An etic unit⟯« is a division of an emic unit's signifier component into a number of alternants.
+»⟮An emma⟯« is ⟮＿an etic unit＿⟯ ⟮chosen arbitrarily⟯ to ⟮represent ＿the emic unit＿⟯.
 
 ##### alternants
 
 »⟮An alternant⟯« is a ⟮different⟯ ⟮＿etic unit＿⟯ ⟮of ＿the same emic unit＿⟯.
 »⟮Alternation⟯« is ⟮the fact of⟯ ⟮＿alternants＿⟯ ⟮c_-;existing⟯.
-»⟮An alloetic unit⟯« is an alternant of the same etic unit.
-Alternant selection is choosing an alternant for an emic unit.
-For a given etic unit, an alloetic unit is called allo + etic unit name.
+»⟮An alloetic unit⟯« is ⟮＿an alternant＿⟯ ⟮of ＿the same etic unit＿⟯.
+»⟮Alternant selection⟯« is ⟮choosing ＿an alternant＿⟯ ⟮for ＿an emic unit＿⟯.
 
 ##### distribution
 
-The etic relationship (my term) is the relationship two etic units can have related to their emic contrast and etic environemnt.
-The three etic relationships are free variation, contrastive distribution, and complimentary distribution.
+»⟮The etic relationship⟯« (my term) is ⟮the relationship⟯ ⟮two ＿etic units＿ can have⟯ related to ⟮their ＿emic contrast＿ and ＿etic environemnt＿⟯.
+»⟮The three etic relationships⟯« are ⟮＿free variation＿⟯, ⟮＿contrastive distribution＿⟯, and ⟮＿complimentary distribution＿⟯.
 
 ###### mapping
 
 table:etic relationship|etic environment|contrast|alloetic units
-free variation|same|no|yes
-contrastive distribution|same|yes|no
-complimentary distribution|different|not the same etic environment, thus impossible|if similar etically/featurally
+»⟮free variation⟯«|⟮same⟯|⟮no⟯|⟮yes⟯
+»⟮contrastive distribution⟯«|⟮same⟯|⟮yes⟯|⟮no⟯
+»⟮complimentary distribution⟯«|⟮different⟯|⟮not the same etic environment, thus impossible⟯|⟮if similar etically/featurally⟯
 
 
 Ergo ⟮two ＿etic units＿⟯ ⟮without ＿emic contrast＿⟯ may still ⟮be part of different ＿emic units＿⟯ if they are ⟮very dissibilar etically⟯.
 
 ###### minimal pair
 
-»⟮A minimal pair⟯« is ⟮two or more ＿lexemic units＿⟯ that are ⟮the same⟯ ⟮except for one positio⟯n, which is in ⟮＿contrastive distribution＿⟯.
+»⟮A minimal pair⟯« is ⟮two or more ＿lexemic units＿⟯ that are ⟮the same⟯ ⟮except for one ＿segment＿⟯, which is in ⟮＿contrastive distribution＿⟯.
 Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿ involved⟯ are ⟮part of different ＿emic units＿⟯.
-⟮＿Emic contrast＿⟯ has been »⟮neutralized⟯« when ⟮two ＿etic units＿⟯ appear i⟮n an ＿etic environment＿⟯ in which ⟮they are no longer ＿contrastive＿⟯.
 ⟮Two ＿etic units＿⟯ in ⟮＿free variation＿⟯ may still be ⟮＿variants＿ of a ＿sociolinguistic variable＿⟯.
 
 ##### surface and underlying
 
-The surface representation/form is the etic unit of a given segment.
-The underlying representation/form is the emic unit of a given segment.
-Realization is the relationship between surface form and underlying form.
+»⟮The surface representation/form⟯« is ⟮＿the etic unit＿⟯ of ⟮a given ＿segment＿⟯.
+»⟮The underlying representation/form⟯« is ⟮＿the emic unit＿⟯ of ⟮a given ＿segment＿⟯.
+»⟮Realization⟯« is ⟮the relationship between⟯ ⟮＿surface form＿⟯ and ⟮c_;＿underlying form＿⟯.
 
 #### features
 
-The featural analysis (repurposed term) is that an emic unit is a combination of features.
-Feature is ambiguous between ffeature and fcategory.
+»⟮The featural analysis⟯« (repurposed term) seeing an emic unit as a combination of features.
+»⟮A feature⟯« is either ⟮＿a ffeature＿⟯ or ⟮c_;＿a fcategory＿⟯.
 Featural is looking at a thing from the perspective of features.
-»⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
-»⟮A natural class⟯« is ⟮a set of ＿emic units＿⟯ in a language that ⟮share certain ＿sm distinctive features＿⟯.
 
 ##### types
 
-»⟮A ffeature⟯« (my term) is a ⟮binary⟯ ⟮value⟯.
-A fcategory (rare term) is a feature that can take on multiple fvalues.
-A fvalue is a value of a fcategory. // or of a ffeature
-Alternatively, we can analyze a fcategory as a set of features that together give rise to multiple values.
+»⟮A ffeature⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮a binary value⟯.
+»⟮A fcategory⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮multiple ＿fvalues＿⟯.
+»⟮A fvalue⟯« is ⟮a value of ＿a feature＿⟯.
 
-##### distinctive feature
+##### as emic units
 
-A distinctive feature is a feature that is contrastive in the given language or at least in some languages.
-A non-distinctive feature is a feature that is not contrastive in a given language or ever.
-A emic/etic feature ≈syn≈ distinctive/non-distinctive feature.
+»⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
+
+###### distinctive feature
+
+A distinctive/non-distinctive feature is a distinctive/non-distinctive feature⎵weak⎵ or a distinctive/non-distinctive feature⎵strong⎵.
+A distinctive/non-distinctive feature⎵weak⎵ is a feature that is contrastive/not contrastive in the given language or at least in some languages.
+A distinctive/non-distinctive feature⎵strong⎵ is a feature that is contrastive/not contrastive in any language.
+
+###### grouping emic units
+
+»⟮A natural class⟯« is ⟮a set of ＿emic units＿⟯ in a language that ⟮share certain ＿sm distinctive features＿⟯.
+»⟮A semantic class⟯« contains ⟮＿all lexemic units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
 ##### notation
 
 ⟮＿A feature＿⟯ is indicated by ⟮[‹name›]⟯.
 ⟮＿A feature＿⟯'s ⟮states⟯ are indicated by ⟮[+ ‹name›]⟯ and ⟮c_;[- ‹name›]⟯
 
-##### grouping
+##### grouping features
 
 A fclass is a set of features, feature categories or fclasses that are expressing a common thing.
 A top-level fclass (my term) is a fclass that is not part of a larger fclass.
 ^The difference between a fclass and a fcategory is that a emic unit can have multiple features from a fclass, while a fcategory is mutually exclusive.
-
-###### seemingly sui generis
-
-»⟮A semantic class⟯« contains ⟮＿all lexemic units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
 ##### polysemy
 
@@ -186,36 +193,41 @@ Speech linguistic units are phonemes, phones, syllables, consonants, vowels.
 
 ### derived units
 
-A ling/lingueme is an etic/emic unit that can be individually taught/transmitted.
-s*egmental {\$LEVELNAME+emo}\$LEVELNAME+eme = s*egmental emic unit 1 ∨ segmental emic unit 2 ∨ ...
-s*egmental {\$LEVELNAME+o}\$LEVELNAME+e = s*egmental etic unit 1 ∨ segmental etic unit 2 ∨ ...
+»⟮A ling/lingueme⟯« is ⟮＿an etic/emic unit＿⟯ that ⟮can be individually taught/transmitted⟯.
+s*m {\$LEVELNAME+emo}\$LEVELNAME+eme = s*m emic unit 1 ∨ s*m emic unit 2 ∨ ...
+s*m {\$LEVELNAME+o}\$LEVELNAME+e = s*m etic unit 1 ∨ s*m etic unit 2 ∨ ...
 ^and so on
 
 ## segmental
 
-Segment = segmental e?ic unit
-Reduplication is the repetition of one or more segments within a larger unit to produce some effect.
+»⟮segment⟯« =short for=> ⟮＿segmental e?ic unit＿⟯
 
 ### cross-segmental
 
-Something cross-segmental concerns multiple segments, but isn't a suprasegmental.
-etactics (lol) is the part of an segmental emic rule set dealing with etactic constraints.
-A etactic constraint is a rule for the permissible cross-segmental combination of segmental emic units.
+Something »⟮cross-segmental⟯« ⟮concerns multiple ＿segments＿⟯, but ⟮isn't a suprasegmental⟯.
+
+#### etactic constraints
+
+»⟮etactics⟯« (lol) is ⟮the part of⟯ a ⟮＿segmental emic rule set＿⟯ dealing with ⟮＿etactic constraints＿⟯.
+»⟮A etactic constraint⟯« is ⟮a rule for⟯ the ⟮permissible⟯ ⟮＿cross-segmental＿⟯ ⟮c_-;combination⟯ of ⟮＿segmental emic units＿⟯.
 ^e.g. phonotactic constraint
+
+### misc
+
+»⟮Reduplication⟯« is ⟮the repetition of⟯ ⟮one or more ＿segments＿⟯ within a larger unit to ⟮produce some effect⟯.
 
 ## suprasegmental
 
-Sometimes, suprasegmentals are not analyzed as their own emic system, but only as features passed down onto emic/etic units.
-The suprasegmental motivator is a higher emic unit that motivates the a suprasegmental.
-pausa =syn= suprasegmental e?ic unit boundary.
+Sometimes, ⟮＿suprasegmentals＿⟯ are ⟮not analyzed as⟯ ⟮＿a suprasegmental emic system＿⟯, but only as ⟮＿features＿ passed down onto ＿segments＿⟯.
+»⟮The suprasegmental motivator⟯« is ⟮＿a higher emic unit＿⟯ that ⟮motivates the existence of ＿a suprasegmental unit＿⟯.
+»⟮pausa⟯« =syn= ⟮＿suprasegmental＿ ＿e?ic unit boundary＿⟯.
 
 ### juncture
 
-A juncture is a segmental emic unit posited that does the job of suprasegmentals but is part of the sequental flow of emic units.
-A chunk is the segments between a juncture.
+»⟮A juncture⟯« is ⟮＿a segment＿⟯ posited to ⟮do the job of ＿suprasegmentals＿⟯.
 
 ## segmental-suprasegmental interface
 
-The suprasegmental environment is the set of suprasegmentals and pausas that apply to a given segmental e?ic unit.
-Suprasegmental-segmental conditioning is the influencing of segmental emic unit alternant selection by the suprasegmental environment.
-»⟮Conditioning⟯« is the combination of the segmental e?ic conditioning and suprasegmental-segmental conditioning.
+»⟮The suprasegmental environment⟯« is ⟮the set of⟯ ⟮＿suprasegmentals＿ and ＿pausas＿⟯ that ⟮apply to a given ＿segment＿⟯.
+»⟮Suprasegmental-segmental conditioning⟯« is ⟮the influencing⟯ of ⟮＿sm alternant selection＿⟯ by ⟮＿the suprasegmental environment＿⟯.
+»⟮Conditioning⟯« is the combination of ⟮＿the segmental e?ic conditioning＿⟯ and ⟮c_;＿suprasegmental-segmental conditioning＿⟯.
