@@ -45,27 +45,27 @@ e?ic unit should be short for s*egmental e?ic unit, but in practice often merely
 
 ### emic
 
-An emic whole is the sign universe for the relevant level topic.
-The emic cake/divider/component/component set is the selfsame of the emic whole.
-An emic rule set is the set of rules governing the emic inventory in the languoid.
+»⟮An emic whole⟯« is ⟮＿the sign universe＿⟯ for the relevant level topic.
+»⟮The emic cake/divider/component/component set⟯« is the selfsame of the emic whole.
+»⟮An emic rule set⟯« is the set of rules governing the emic inventory in the languoid.
 Sometimes, it very much feels like emic (and related concepts) all only refer to the signifier.
-emics is more frequently called eology.
+»⟮eology⟯« =syn= ⟮＿emics＿⟯
 
 #### emic correspondence
 
-Emic correspondence (my term) is the correspondence between the signifier and signified of an emic unit.
-Emic deviation (my term) is the regular divergence of emic correspondence in a certain context as prescribed by the emic rule set.
+»⟮Emic correspondence⟯« (my term) is the correspondence between the signifier and signified of an emic unit.
+»⟮Emic deviation⟯« (my term) is the regular divergence of emic correspondence in a certain context as prescribed by the emic rule set.
 ^e.g. lexemic deviation: deviation between a word its the usual meaning
-Emic depth (my termish) is the degree of emic deviation.
+»⟮Emic depth⟯« (my termish) is the degree of emic deviation.
 
 #### other levels
 
 An emic unit may signify another emic unit or 'meaning'.
 An emic unit may be signified by another emic unit or a language modality.
-A higher/lower emic cake is the emic cake reachable by traversing signifiers/signifieds.
-A higher/lower emic unit(s) is an emic unit of a higher/lower emic cake.
-The emically signified item (rare term in most cases) is the signified of the emic unit.
-emic emics is the study of the relation between an emic unit and its signifier emic unit.
+»⟮A higher/lower emic cake⟯« (my term) is the emic cake reachable by traversing signifiers/signifieds.
+»⟮A higher/lower emic unit(s)⟯« (my term) is an emic unit of a higher/lower emic cake.
+»⟮The emically signified item⟯« (rare term in most cases) is the signified of the emic unit.
+»⟮emic emics⟯« is the study of the relation between an emic unit and its signifier emic unit.
 ^e.g. lexemic sememics (more commonly: lexical semantics)
 
 ### naming
@@ -74,14 +74,22 @@ emic/etic unit for a given level: ((supra)segmental) \$LEVELNAME+(eme/(e|ø))
 emma for a given level: ((supra)segmental) \$LEVELNAME-final consonants + mma
 being related to emic/etic units for a given level: ((supra)segmental) \$LEVELNAME+(emic/etic)
 
-### emic analyses
+### analyses
 
-Emic units can be analyzed as an abstract form of etic units or a combination of features.
-While emic units vary based on the languoid, etic units and features are cross-linguistic elements.
-Something bein contrastive means that changing it would produce a different emic unit.
+⟮＿Emic units＿⟯ can be analyzed via ⟮＿the etic analysis＿⟯ or ⟮＿the featural analysis＿⟯.
+
+#### subemic elements
+
+»⟮A subemic element⟯« is ⟮＿a cross-linguistic element＿⟯ of which ⟮some combination⟯ ⟮gives rise to ＿an emic unit＿⟯.
+The main ⟮＿subemic elements＿⟯ are ⟮＿etic units＿⟯ and ⟮＿features＿⟯.
+
+#### contrastiveness
+
+Something being »⟮contrastive⟯« means that ⟮changing it⟯ ⟮would produce a different ＿emic unit＿⟯.
 
 #### etic
 
+»⟮The etic analysis⟯« (my term) is that ⟮＿an emic unit＿⟯ is ⟮an abstract form⟯ of ⟮n ＿etic units＿⟯.
 An etic unit is a division of an emic unit's signifier component into a number of alternants.
 From the perspective of the etic unit, an emic unit is in fact an abstract unit of a number of alternants.
 An emma is an etic unit chosen arbitrarily to represent the emic unit.
@@ -124,6 +132,7 @@ Realization is the relationship between surface form and underlying form.
 
 #### features
 
+The featural analysis (repurposed term) is that an emic unit is a combination of features.
 Feature is ambiguous between ffeature and fcategory.
 Featural is looking at a thing from the perspective of features.
 »⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
