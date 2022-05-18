@@ -52,3 +52,6 @@ If a thing is on an ⟮＿implicational scale＿⟯, and we find that ⟮the e.g
 
 
 
+# combination
+
+The »⟮principle of compositionality⟯« is that ⟮the meaning⟯ of ⟮an expression⟯ can ⟮be determined by⟯ ⟮c_-2;the meaning⟯ of ⟮its constituent parts⟯ and ⟮rules to combine them⟯.
