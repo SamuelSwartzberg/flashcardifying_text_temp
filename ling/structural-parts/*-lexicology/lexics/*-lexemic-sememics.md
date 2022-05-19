@@ -9,9 +9,9 @@
 
 ## semantic relations
 
-»⟮A lexemic relation⟯« (has polysemy) is ⟮a relationship between⟯ two lexemic units l1, l2 characterized by a semantic relation between their sememes.
-»⟮A lexemic relatant⟯« (my term) is a lexemic unit in a lexemic relation.
-»⟮A semantic relatio⟯«n (uncommon definition) is the relationship between two sememes.
+»⟮A lexemic relation⟯« (has polysemy) is ⟮a relationship between⟯ ⟮two ＿lexemic units＿ l1, l2⟯ characterized by ⟮＿a semantic relation＿⟯ between ⟮c_;their ＿sememes＿⟯.
+»⟮A lexemic relatant⟯« (my term) is ⟮＿a lexemic unit＿⟯ ⟮in ＿a lexemic relation＿⟯.
+»⟮A semantic relation⟯« (uncommon definition) is the relationship between two sememes.
 »⟮A *nym⟯« is a ⟮＿lexemic unit＿⟯ which has a certain semantic relation with another given lexemic unit.
 
 ### same meaning/pronunciation/spelling
@@ -48,10 +48,10 @@ Confusingly, ⟮＿heterophones＿⟯ are also sometimes called ⟮heteronyms⟯
 
 »⟮An antonym⟯« is ⟮＿a lexemic unit l1＿⟯ with ⟮＿a sememe＿⟯ with ⟮c_;the opposite meaning⟯ to ⟮c-;＿a lexemic unit l2＿⟯'s ⟮＿sememe＿⟯.
 ⟮＿An antonym＿⟯ may be ⟮＿an antonym⎵distinct general⎵＿⟯ or ⟮＿an auto-antonym⎵general⎵＿⟯.
-»⟮An antonym⎵distinct general⎵⟯« is an antonym where the two lexemic units do not share a pronunciation/spelling. 
-»⟮An auto-antonym⎵general⎵⟯« is an antonym where the two lexemic units do not share a pronunciation/spelling. 
-»⟮An antonym⎵distinct strong/weak⎵⟯« is an antonym⎵distinct general⎵ where both/at least one of the pronunication/spelling are different.
-»⟮An auto-antonym⎵strong/weak⎵⟯« is an auto-antonym⎵general⎵ where both/at least one of the pronunication/spelling are the same.
+»⟮An antonym⎵distinct general⎵⟯« is ⟮＿an antonym＿⟯ where ⟮the two ＿lexemic units＿⟯ ⟮do not share⟯ ⟮a pronunciation/spelling⟯. 
+»⟮An auto-antonym⎵general⎵⟯« is ⟮＿an antonym＿⟯ where ⟮the two ＿lexemic units＿⟯ ⟮share⟯ ⟮a pronunciation/spelling⟯. 
+»⟮An antonym⎵distinct strong/weak⎵⟯« is ⟮＿an antonym⎵distinct general⎵＿⟯ where ⟮both/at least one⟯ of ⟮the pronunication/spelling⟯ are ⟮different⟯.
+»⟮An auto-antonym⎵strong/weak⎵⟯« is ⟮＿an auto-antonym⎵general⎵＿⟯ where ⟮both/at least one⟯ of ⟮the pronunication/spelling⟯ are ⟮the same⟯.
 
 ### hynyms
 
@@ -74,12 +74,12 @@ I will define ⟮⊂⎵h⎵⟯ and ⟮c_;⊃⎵h⎵⟯ as ⟮operators⟯ for �
 
 #### metonym
 
-A literal sense is a sense that is properly part of the lexemic unit.
-A conventional sense is a sense that becomes associated with a lexemic unit.
-A metonym is a lexemic unit with a conventional sense derived from its literal sense.
+»⟮A literal sense⟯« is ⟮＿a sense＿⟯ that is ⟮properly part of⟯ ⟮＿the lexemic unit＿⟯.
+»⟮A conventional sense⟯« is ⟮＿a sense＿⟯ that ⟮becomes associated with⟯ ⟮＿a lexemic unit＿⟯.
+»⟮A metonym⟯« is ⟮＿a lexemic unit＿⟯ with ⟮＿a conventional sense＿⟯ ⟮derived from⟯ ⟮c_-;its ＿literal sense＿⟯.
 
 ##### synechdoche
 
-»⟮A synechodoche⟯« is ⟮＿a metonym＿⟯ where the senses have a semantic relation of part/whole.
-A pars pro toto/totum pro parte is a synechdoche where the literal/conventional sense is a part → whole/whole → part.
+»⟮A synechodoche⟯« is ⟮＿a metonym＿⟯ where ⟮the ＿literal＿ and ＿conventional senses＿⟯ have ⟮＿a semantic relation＿⟯ of ⟮part ↔ whole⟯.
+»⟮A pars pro toto/totum pro parte⟯« is ⟮＿a synechdoche＿⟯ where ＿the semantic realtion＿ between ⟮＿literal＿ → ＿conventional sense＿⟯ is ⟮part → whole/whole → part⟯.
 ^e.g. America for the US
