@@ -1,5 +1,12 @@
+# other fundamental concepts
 
-## perspective
+## giving rise to meaning
+
+### compositionality
+
+The »⟮principle of compositionality⟯« is that ⟮the meaning⟯ of ⟮an expression⟯ can ⟮be determined by⟯ ⟮c_-2;the meaning⟯ of ⟮its constituent parts⟯ and ⟮rules to combine them⟯.
+
+## views on language
 
 ### langue and parole
 
@@ -39,19 +46,3 @@ flex-container:✫implicational-scale-color-terms.png✫✫implicational-scale-g
 ⟮Implicational scale⟯ = ⟮implicational hierarchy⟯
 If a thing exsists »⟮implicational scale⟯«, if ⟮one thing is present⟯, ⟮all the things⟯ ⟮lower on the scale⟯ ⟮will be as well⟯
 If a thing is on an ⟮＿implicational scale＿⟯, and we find that ⟮the e.g. 5th stage is present⟯, we would expect to also find ⟮all four lower stages to be present⟯.
-
-# what is language?
-
-## language
-
-»⟮A language⟯« is a ⟮specific kind⟯ of ⟮structured⟯ ⟮communication system⟯.
-»⟮Language⟯« (⟮ability⟯) is the ability to ⟮use (a) language(s) to communicate⟯.
-»⟮Language⟯« (⟮occurence⟯) is ⟮an instance of⟯ use of ⟮language (ability)⟯.
-
-
-
-
-
-# combination
-
-The »⟮principle of compositionality⟯« is that ⟮the meaning⟯ of ⟮an expression⟯ can ⟮be determined by⟯ ⟮c_-2;the meaning⟯ of ⟮its constituent parts⟯ and ⟮rules to combine them⟯.
