@@ -34,8 +34,7 @@ the »⟮perlocutionary part⟯« is ⟮what one has done⟯ ⟮due to the conse
 
 #### perl/ill distinction
 
-the ⟮＿perlocutionary part＿⟯ ⟮depends of the reaction of the hearers⟯, ⟮c-;＿the illocutionary part＿⟯ ⟮does not⟯.
-⟮Frightening⟯ is a ⟮＿perlocutionary＿⟯, not ⟮c_;＿an illocutionary part＿⟯ because ⟮it depends on the hearer to be frightened⟯.
+the ⟮＿perlocutionary/illocutionary part＿⟯ ⟮does/does not⟯ ⟮depends of the reaction of the hearers⟯.
 
 ### act type
 
