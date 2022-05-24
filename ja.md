@@ -4,6 +4,8 @@
 japanese sometimes does adj + det + noun instead of det + adj + noun.
 人気のあの子
 
+っち as diminutive
+
 Japanese distinguishes its existential verbs ある・いる along a inanimate/animate distinction.
 
 Grammatically, counter words can appear either before or after the noun they count. They generally occur after the noun (following particles), and if used before the noun, they emphasize the quantity; this is a common mistake in English learners of Japanese. For example, to say "[I] drank two bottles of beer", the order is ビールを二本飲んだ bīru o nihon nonda (lit. "beer OBJECT two-long-thin-count drank"). In contrast, 二本のビールを飲んだ nihon no bīru o nonda (lit. "two-long-thin-count POSSESSIVE beer OBJECT drank") would only be appropriate when emphasizing the number as in responding with "[I] drank two bottles of beer" to "How many beers did you drink?". 
