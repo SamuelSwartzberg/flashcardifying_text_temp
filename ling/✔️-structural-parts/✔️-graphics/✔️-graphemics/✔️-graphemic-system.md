@@ -12,6 +12,8 @@
 
 ### capitalization
 
+#### basics
+
 »⟮c11;the rules of capitalization⟯« is ⟮the subset⟯ of ⟮＿the graphemic rule set＿⟯ that ⟮applies to ＿letter case＿⟯.
 »⟮c15;Capitalization⟯« is ⟮an application of ＿the rules of capitalization＿⟯.
 »⟮c17;First-grapheme capitalization⟯« (my term) is ⟮＿capitalization＿⟯ specifically in relation to ⟮the first grapheme of a word⟯.
