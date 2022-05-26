@@ -1,19 +1,21 @@
-# sememes
+# lexemics
 
-## whence
+## sememes
 
-### terms
+### whence
+
+#### terms
 
 »⟮c1;A term⟯« is ⟮＿a lexemic unit＿⟯ with ⟮a precise meaning⟯ in ⟮a certain field or context⟯.
 
-#### terminology
+##### terminology
 
 »⟮c5;Terminology⎵field⎵⟯« is ⟮the study of ＿terms＿⟯.
 »⟮c7;Terminology⎵grouping⎵⟯« is ⟮a set of⟯ ⟮＿terms＿⟯.
 
-#### types of terms/terminology
+##### types of terms/terminology
 
-##### kinship terminology
+###### kinship terminology
 
 »⟮c10;Kinship terminology⟯« is ⟮＿the terminology＿⟯ ⟮related to kinship relationships⟯.
 

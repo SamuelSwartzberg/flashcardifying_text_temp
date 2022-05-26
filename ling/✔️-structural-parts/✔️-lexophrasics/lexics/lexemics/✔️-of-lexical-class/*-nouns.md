@@ -1,4 +1,3 @@
-
 # nouns
 
 ## uniqueness
@@ -9,9 +8,13 @@ related to ⟮c1;＿the semic feature＿ [unique]⟯, ⟮＿nouns＿⟯ may be �
 
 ### proper nouns
 
+#### onomasitics
+
 »⟮c10;Onomastics⟯« is the study of ⟮＿proper nouns＿⟯.
 
-#### epithets
+#### types
+
+##### epithets
 
 »⟮c12;An epithet⟯« is ⟮＿a lexemic unit＿⟯ that ⟮is strongly related to ＿a proper noun＿⟯.
 ⟮c15;＿An epithet＿⟯ may be ⟮＿epithet⎵accompanying⎵＿⟯ or ⟮c_;＿epithet⎵replacing⎵＿⟯.
@@ -19,9 +22,9 @@ related to ⟮c1;＿the semic feature＿ [unique]⟯, ⟮＿nouns＿⟯ may be �
 ^☞pallas☜ athena, alfred ☞the great☜, suleiman ☞the magnificent☜, richard ☞the lionheart☜
 »⟮c20;an epithet⎵replacing⎵⟯« is ⟮＿a epithet＿⟯ that ⟮replaces ＿the proper noun＿⟯.
 
-#### people in certain states
+##### people in certain states
 
-##### necronyms
+###### necronyms
 
 »⟮c23;A necronym⎵wide⎵⟯« is ⟮＿a proper noun＿⟯ which ⟮references a person who has died⟯.
 »⟮c26;A necronym⎵replacing⎵⟯« is ⟮＿a necronym⎵wide⎵＿⟯ that is ⟮not the same as the person had in life⟯.
