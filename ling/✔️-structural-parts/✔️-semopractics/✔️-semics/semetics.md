@@ -1,32 +1,33 @@
+## semetics
 
-# reference
+## reference
 
 »⟮c1;Reference⟯« is ⟮＿the semic fclass＿⟯ related to ⟮reference⟯.
 
-## definiteness
+### definiteness
 
 ⟮c4;[+definite]⟯ is ⟮＿the semic feature＿⟯ of ⟮referring to a specific element of a group⟯ as opposed to ⟮any old element of a group⟯.
 
-## unique
+### unique
 
 ⟮c8;[+unique]⟯ is ⟮＿the semic feature＿⟯ of ⟮referring to an unique entity⟯.
 
-# setlikes
+## setlikes
 
 »⟮c11;Setlike⟯« (my term) is ⟮＿the semic fclass＿⟯ related to ⟮features that setlikes might have⟯.
 ⟮c14;＿Setlike＿⟯ as ⟮＿a semic fclass＿⟯ may be divided into ⟮＿setlike amount＿⟯, ⟮＿setlike grouping＿⟯ and ⟮＿setlike viewpoint＿⟯.
 
-## amount
+### amount
 
 »⟮c19;Setlike amount⟯« (my term) is ⟮＿the semic fclass＿⟯ related to ⟮absolute size of things⟯.
 
-## grouping
+### grouping
 
 »⟮c22;Setlike grouping⟯« (my term) is ⟮＿the semic fclass＿⟯ encoding ⟮how we are grouping the things in the set⟯.
 ⟮c25;[+distributive]⟯ is ⟮＿the semic feature＿⟯ of ⟮referring to each element of a group individually⟯ or ⟮counting elements of groups⟯.
 ⟮c29;[+collective]⟯ is ⟮＿the semic feature＿⟯ of ⟮referring to a group as a whole⟯ or ⟮size of a group⟯.
 
-## viewpoint
+### viewpoint
 
 »⟮c33;Setlike viewpoint⟯« (my term) is ⟮＿the semic fclass＿⟯ related to ⟮what kind of thing we are counting⟯.
 
