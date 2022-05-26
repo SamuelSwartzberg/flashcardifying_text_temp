@@ -1,5 +1,7 @@
 # discourse analysis
 
+## definition
+
 »⟮c1;Discourse analysis⟯« is the study of ⟮real language use⟯, in units ⟮larger than the sentence⟯
 
 ## critical

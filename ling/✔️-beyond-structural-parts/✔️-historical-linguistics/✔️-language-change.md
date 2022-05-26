@@ -1,16 +1,29 @@
-
 # language change
 
+## field
+
 ⟮c1;＿Language change＿⟯ is mainly studied in ⟮＿historical linguistics＿⟯.
+
+## definition
+
 »⟮c3;Language change⟯« is the ⟮change⟯ in ⟮＿the linguistic items＿⟯ of ⟮＿a languoid＿⟯ ⟮c_-2;over time⟯.
 
-## what changes?
+## e?ic change
+
+### definition
 
 »⟮c7;e?ic change⟯« is ⟮＿language change＿⟯ where the thing that is changing is ⟮a given ＿e?ic unit＿⟯.
+
+### nuances
+
 »⟮c10;e?ic shift⟯« is ⟮＿e?ic change＿⟯, most often with the additional constraint that it is ⟮a systematic change in the structural system⟯.
 »⟮c13;e?ic drift⟯« is ⟮＿e?ic change＿⟯ that is ⟮unconscious/gradual⟯, ⟮pervasive⟯, and ⟮continuous⟯.
 
+## which e?ic units change?
+
 ### semantic change
+
+#### listing
 
 Common types of ⟮c18;＿semantic change＿⟯ are ⟮narrowing/widening⟯, ⟮amelioration/pejoration⟯
 
@@ -38,10 +51,17 @@ e.g. pretty: sly -&gt; beautiful; knight: servant -&gt; feudal warrior; villain:
 
 ### language contact
 
+#### definition
+
 »⟮c42;Language contact⟯« is ⟮＿language change＿⟯ due to ⟮the influence of other languoid(s)⟯.
+
+#### field
+
 »⟮c45;Contact linguistics⟯« is the field that studies ⟮＿language contact＿⟯
 
 #### borrowing
+
+##### definitions
 
 »⟮c47;Borrowing⟯« is ⟮＿a languoid＿⟯ ⟮gaining⟯ ⟮＿a recipium＿⟯ ⟮c-;via⟯ ⟮＿a donum＿⟯ ⟮via⟯ ⟮＿language contact＿⟯.
 »⟮c53;The donor/recipient language⟯« is ⟮＿the languoid＿⟯ ⟮whence/wither⟯ ⟮＿the borrowed element(s)＿⟯.

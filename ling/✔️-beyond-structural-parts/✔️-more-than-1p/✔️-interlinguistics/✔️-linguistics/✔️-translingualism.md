@@ -1,5 +1,7 @@
 # translingualism
 
+## definition
+
 »⟮c1;translingual⟯« is ⟮existing in more than one ＿languoid＿⟯. 
 
 ## linguistic universal
@@ -19,7 +21,7 @@ In ⟮c13;what they claim⟯, ⟮＿linguistic universals＿⟯ may be ⟮＿imp
 »⟮c19;implicational⟯« ⟮＿linguistic universals＿⟯ are truths that ⟮apply for all languoids where the antecedent is true⟯.
 ^e.g. if a language has trial grammatical number, it must always have dual grammatical number.
 
-## various translingual phenomena
+## translingual phenomena
 
 ### ISV
 

@@ -18,7 +18,7 @@
 
 ### diglossia 
 
-For ⟮c23;＿diglossia＿⟯ usually ⟮a L variety⟯ and ⟮c_;a H variety⟯ exist
+For ⟮c23;＿diglossia＿⟯ usually ⟮(a) L variety/ies⟯ and ⟮c_;(a) H variety/ies⟯ exist
 ⟮c25;high/low variety⟯ =syn= ⟮formal ∨ literary/vernacular variety⟯
 ⟮c27;high/low variety⟯ =short=> ⟮H/L variety⟯
 

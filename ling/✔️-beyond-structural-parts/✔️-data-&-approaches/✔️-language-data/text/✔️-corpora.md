@@ -1,5 +1,7 @@
 # corpora
 
+## definition
+
 A »⟮c1;corpus⟯« is ⟮a set of⟯ ⟮text/language⟯. 
 
 ## corpus linguistics
@@ -13,7 +15,9 @@ Statistically, ⟮c9;＿the corpus＿⟯ is ⟮a sample⟯ of ⟮c_;the populati
 
 ## features of corpora
 
-### collocations
+### collocation
+
+#### collcation
 
 »⟮c11;collocation (wide)⟯« is ⟮the co-occuring of⟯ ⟮two linguemes⟯ ⟮more often than would be expected by chance⟯.
 
@@ -30,6 +34,8 @@ Statistically, ⟮c9;＿the corpus＿⟯ is ⟮a sample⟯ of ⟮c_;the populati
 
 ### concordance
 
+#### concordance
+
 »⟮c30;A concordance⟯« is ⟮a list of⟯ ⟮＿concordance lines＿⟯.
 
 #### constituents
@@ -40,12 +46,14 @@ Statistically, ⟮c9;＿the corpus＿⟯ is ⟮a sample⟯ of ⟮c_;the populati
 
 #### concordance line formats
 
+##### definitions
+
 The »⟮c41;concordance line format⟯« is how precisesly ⟮＿the keyword＿ and ＿context＿⟯ ⟮are ordered⟯.
 There are three ⟮c44;＿concordance line formats＿⟯: ⟮KWIC, KWAC, or KWOC⟯
 »KWIC/KWAC/KWOC« = ⟮c46;Key Word in/alongside/out of context⟯
 ⟮c47;`ptx`⟯ is ⟮a shell command⟯ that ⟮produces a KWIC concordance⟯.
 
-##### description
+##### details
 
 flex-container:✫KWIC.png✫✫KWOC.png✫✫KWAC.png✫
 

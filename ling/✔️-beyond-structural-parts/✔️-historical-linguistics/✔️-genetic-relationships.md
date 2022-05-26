@@ -1,5 +1,7 @@
 # genetic relationships
 
+## definition
+
 »⟮c1;A genetic relationship⟯« is a ⟮relationship between ＿languoids＿⟯ related through ⟮＿a language family tree＿⟯.
 »⟮c4;A language family tree⟯« is ⟮＿a compscitree＿⟯ for ⟮＿genetic relationships＿⟯ analogous to ⟮a family tree⟯.
 
@@ -7,11 +9,15 @@
 
 ### etymology
 
+#### things
+
+##### general definitions
+
 »⟮c8;An etymon⟯« is ⟮＿a morpheme＿ or ＿lexemic unit＿⟯ in ⟮＿a parent language＿⟯ ⟮whence ＿a derivate＿⟯.
 »⟮c12;A derivate⟯« is ⟮＿a morpheme＿ or ＿lexemic unit＿⟯ in ⟮＿a child language＿⟯ ⟮coming from ＿an etymon＿⟯.
 »⟮c16;Cognates⟯« are ⟮two or more⟯ ⟮＿morphemes＿ or ＿lexemic units＿⟯ that are ⟮＿derivates＿ of a common ＿etymon＿⟯.
 
-#### cognates
+##### cognates
 
 ⟮c20;＿Cognates＿⟯ ⟮often but not always⟯ have a ⟮similar⟯ ⟮meaning⟯ and a ⟮c-;similar⟯ ⟮pronunciation⟯.
 »⟮c24;False friends⟯« are ⟮＿lexemic items＿⟯ ⟮in different languoids⟯ that ⟮look/sound similar⟯ and thus ⟮give off the impression of being ＿cognates＿⟯, but ⟮are unrelated⟯.
@@ -21,7 +27,7 @@
 
 ### specific language families
 
-#### Altaic
+#### altaic
 
 »⟮c33;Altaic⟯« is either ⟮＿a sprachbund＿⟯ or ⟮＿a language family＿⟯.
 »⟮c36;Altaic⟯« comes in two versions, ⟮＿micro-altaic＿⟯ and ⟮c_;＿macro-altaic＿⟯.

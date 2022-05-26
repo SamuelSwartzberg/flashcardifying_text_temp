@@ -4,30 +4,33 @@
 
 ### lingua franca
 
+#### definition
+
 »⟮c1;A lingua franca⟯« is ⟮＿a languoid＿⟯ that is used to communicate by groups who ⟮don't share a L1⟯.
 
-#### koine
+#### types
+
+##### koine
 
 »⟮c4;A koine⟯« is ⟮＿a lingua franca＿⟯ created from ⟮2+ mutually intelligible languoids⟯.
 
-#### auxiliary languages
+##### auxiliary languages
 
 An »⟮c7;IAL⟯« is ⟮＿a lingua franca＿⟯ which is ⟮＿a conlang＿⟯ that strives to avoid ⟮＿linguistc dominance＿⟯.
 ⟮c11;international auxiliary language⟯ =shortish=&gt; ⟮auxiliary language⟯
 ⟮c13;international axuiliary language⟯ =short=&gt; ⟮auxlangs⟯
 ⟮c15;international axuiliary language⟯ =abbr=&gt; ⟮IAL⟯
 
-##### interlingua
+###### interlingua
 
 »⟮c17;Interlingua⟯« is a ⟮＿naturalistic＿⟯ ⟮＿IAL＿⟯ that takes ⟮＿its linguistic items＿⟯ mainly ⟮from the romance languages⟯.
 ⟮c22;＿Interlingua＿⟯ is enabled in part by the existence of ⟮＿SAE＿⟯.
 
-#### pidgins and creoles
+##### pidgins and creoles
+
+###### pidgins
 
 »⟮c24;A pidgin⟯« is ⟮＿a lingua franca＿⟯ which is ⟮grammatically simplified⟯ and develops when ⟮two communicating groups do not have a languoid in common⟯.
-
-##### pidgins
-
 ⟮c28;＿Pidgins＿⟯ often develop in ⟮trade⟯ situations.
 ⟮c30;＿Pidgins＿⟯ usually have a ⟮limited⟯ set of ⟮＿linguistic items＿⟯ and ⟮c-;low⟯ ⟮＿prestige＿⟯.
 ⟮c33;＿A pidgin＿⟯ is ⟮never⟯ spoken as ⟮a L1⟯. 
@@ -46,7 +49,7 @@ The ⟮c36;traditional view (has criticisms)⟯ is that »⟮a creole⟯« is �
 
 »⟮c43;Linguistic closeness/distance⟯« is how ⟮similar/different⟯ ⟮two ＿languoids＿⟯ are, which may be measured ⟮in different ways⟯.
 
-#### mutual intelligibility
+### mutual intelligibility
 
 »⟮c47;Mutual (un)intelligibility⟯« is the degree to which ⟮speakers of different ＿languoids＿⟯ ⟮can (not)⟯ ⟮understand each other⟯ ⟮without prior familiarity / special effort⟯
 

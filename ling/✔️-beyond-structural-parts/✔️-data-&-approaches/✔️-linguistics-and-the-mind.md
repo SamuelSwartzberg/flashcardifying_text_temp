@@ -1,21 +1,29 @@
 # linguistics and the mind
 
-## csognitive linguistics
+## cognitive linguistics
+
+### definition
 
 »⟮c1;Cognitive linguistics⟯« is the branch of linguistics that studies how ⟮the things we know about the brain/mind generally⟯ ⟮give rise to human language⟯. 
 Thus ⟮c4;＿cognitive linguistics＿⟯ would ⟮reject⟯ the claim that ⟮language is a separate faculty of the brain⟯.
 
-### conceptual metaphor
+### topics
+
+#### conceptual metaphor
+
+##### origin
 
 The idea of ⟮c7;＿conceptual metaphor＿⟯ was coined by ⟮Lakoff ＆ Johnson⟯ in their seminal book 『⟮Metaphors We Live By⟯』 (⟮1980⟯)
 
-#### conceptual and structural metaphor
+##### conceptual and structural metaphor
 
 »⟮c11;A conceptual metaphor⟯« is ⟮a metaphor⟯ where ⟮one thing is understood in terms of another⟯.
 »⟮c14;A structural metaphor⟯« is ⟮a metaphor⟯ that ⟮structures one thing in terms of another⟯.
 ⟮c17;＿Conceptual metaphors＿⟯ are ⟮＿structural metaphors＿⟯.
 
-#### mappings
+##### mappings
+
+###### definitions
 
 »⟮c19;A mapping⟯« is ⟮a single⟯ ⟮＿conceptual/structural metaphor＿⟯.
 »⟮c22;A mapping⟯« consists of ⟮＿a source domain＿⟯, ⟮c_;＿a target domain＿⟯, and ⟮＿the structure＿⟯.
@@ -24,40 +32,44 @@ The »⟮c25;source/target domain⟯« is ⟮a concept⟯.
 »⟮c27;A source/target element⟯« is ⟮an element of⟯ ⟮＿the source/target domain＿⟯.
 ⟮c30;＿A mapping＿⟯ is conventionally indicated as ⟮TARGET IS SOURCE⟯.
 
-##### correspondence
+###### correspondence
 
 »⟮c32;The structure⟯« of is ⟮＿the set of correspondences＿⟯ of ⟮＿the mapping＿⟯.
 »⟮c35;A correspondence⟯« is ⟮a equivalence between⟯ ⟮one element⟯ ⟮of ＿the target domain＿⟯ and ⟮c-;one element⟯ ⟮of ＿the source domain＿⟯.
 e.g. for LOVE IS A JOURNEY, the lovers are travelers, the relationship is the vehicle, the lovers common goals are destinations on the journey.
 Within ⟮c39;＿a mapping＿⟯, ⟮new ＿correspondences＿⟯ may be ⟮created ad hoc, e.g. for stylistic effect.⟯
 
-##### partial structuring
+###### partial structuring
 
 ⟮c42;＿Structural metaphors＿⟯ exhibit ⟮＿partial structuring＿⟯.
 »⟮c44;Partial structuring⟯« is the fact that there are ⟮(source element, target element) pairs⟯ that are ⟮not part of ＿the structure＿⟯.
 ⟮c47;＿Partial structuring＿⟯ means that ⟮any ＿conceptual/structural metaphor＿⟯ also ⟮hides/obscures things⟯.
 
-#### implcations
+##### implications
 
 To Lakoff ＆ Johnson, all of ⟮c50;our conceptual system⟯ is ⟮based on ＿conceptual metaphor＿⟯.
 
-### linguistic relativity
+#### linguistic relativity
+
+##### definition
 
 »⟮c52;Linguistic relativity⟯« is the idea that ⟮the structure of language⟯ ⟮affects⟯ ⟮the speakers cognition⟯.
 
-#### strong & weak
+##### strong & weak
 
 ⟮c56;＿linguistic relativity＿⟯ is ambiguous between ⟮＿linguistic relativity⎵strong⎵＿⟯ and  ⟮c_;＿linguistic relativity⎵weak⎵＿⟯ .
 ⟮c58;＿linguistic relativity⎵strong⎵＿⟯ says the relationship between language structure and thought is one of ⟮determination⟯.
 ⟮c60;＿linguistic relativity⎵weak⎵＿⟯ says the relationship between language structure and thought is one of ⟮influence⟯.
 
-#### nomenclature
+##### nomenclature
 
 ⟮c62;＿linguistic relativity＿⟯ is more ⟮commonly⟯ but ⟮c_;misleadingly⟯ called the ⟮「sapir-whorf hypothesis」⟯.
 The ⟮c65;「sapir-whorf hypothesis」⟯ is misleading because ⟮sapir⟯ ⟮did not endorse it much at all⟯, and ⟮c-;whorf⟯ ⟮was not the first to endorse it⟯
 ⟮c68;＿linguistic relativity⎵strong⎵＿⟯ =syn= »⟮linguistic determinism⟯«
 
 ## psycholinguistics
+
+### definition
 
 »⟮c70;Psycholinguistics⟯« is the branch of linguistics that studies ⟮how the brain allows us⟯ to ⟮do language-related tasks such as language aquisition, comprehension, production⟯.
 

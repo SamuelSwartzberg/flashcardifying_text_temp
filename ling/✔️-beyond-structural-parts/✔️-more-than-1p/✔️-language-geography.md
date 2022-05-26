@@ -1,8 +1,12 @@
 # language geography
 
+## definition
+
 »⟮c1;Language geography⟯« is the study of ⟮the interaction of language and place/region⟯.
 
 ## geography of languages
+
+### definition
 
 ⟮c3;＿The geography of languages＿⟯ is ⟮a branch of⟯ ⟮＿language geography＿⟯.
 »⟮c6;The geography of languages⟯« is the study of ⟮the distribution of languoids⟯ in ⟮space and time⟯.
@@ -22,6 +26,8 @@ An »⟮c18;areal feature⟯« is ⟮＿a linguistic item＿⟯ that is ⟮share
 ⟮c24;＿An areal feature＿⟯ is »⟮genetically unexplainable⟯« (my term) if ⟮the relevant ＿languoids＿ are unrelated⟯, or if ⟮c_-2;＿the areal feature＿⟯ would ⟮not be predicted merely by ＿the genetic relationship＿⟯.
 
 ### sprachbund
+
+#### definition
 
 ⟮c28;Sprachbund⟯ =syn= ⟮linguistic area⟯
 »⟮c30;A sprachbund⟯« is ⟮a set of languoids⟯ that ⟮share a fair amount of⟯ ⟮＿areal features＿⟯.

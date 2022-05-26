@@ -1,6 +1,10 @@
 
 # transrendering
 
+## definition
+
+»⟮c14;Transrendering⟯« (my term) is ⟮the transformation⟯ of ⟮＿the transrendering constant＿⟯ ⟮c-;from⟯ the ⟮＿source medium＿⟯ ⟮c-;to⟯ ⟮＿the target medium＿⟯.
+
 ## source and target
 
 »⟮c1;The source⟯« is ⟮the original material⟯ of ⟮＿a transrendering＿⟯.
@@ -9,9 +13,7 @@
 »⟮c11;The target/source medium⟯« is ⟮the medium⟯ of ⟮＿the target/source＿⟯.
 ^e.g. the target language is the target medium of translation.
 
-## trans
-
-»⟮c14;Transrendering⟯« (my term) is ⟮the transformation⟯ of ⟮＿the transrendering constant＿⟯ ⟮c-;from⟯ the ⟮＿source medium＿⟯ ⟮c-;to⟯ ⟮＿the target medium＿⟯.
+## types
 
 ### translation
 
