@@ -2,6 +2,8 @@
 
 ## constituents
 
+### basics
+
 »⟮c1;A wstring⟯« (my term) is ⟮＿a string＿ of 1+ words⟯.
 »⟮c3;A constituent⟯« is ⟮＿a wstring＿⟯ that ⟮functions as a single unit⟯ and has ⟮tree structure⟯.
 »⟮c7;Constituent nesting⟯« is ⟮the joining of ＿constituents＿ into larger ＿constituents＿⟯.
@@ -12,6 +14,8 @@
 »⟮c12;The constituency test scope⟯« is ⟮the set⟯/⟮c_;characterstics⟯ of ⟮＿languoids＿⟯ in which ⟮it works⟯.
 
 ### phrases
+
+#### basics
 
 »⟮c16;a phrase⟯« is ⟮＿a constituent＿⟯ which ⟮behaves in a certain way⟯ which is defined by ⟮＿its head＿⟯.
 An ⟮c20;XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.

@@ -2,6 +2,8 @@
 
 ## expletives
 
+### definition
+
 »⟮c1;An expletive⟯« is ⟮＿a constituent＿⟯ that is ⟮semantically vacuous⟯.
 
 ### syntactic expletive
@@ -57,6 +59,8 @@ Something »⟮c38;in situ⟯« ⟮doesn't experience ＿syntactic movement＿�
 »⟮c44;phrasal movement⟯« is ⟮＿syntactic movement＿⟯ of ⟮＿a phrase＿⟯.
 
 ##### head movement
+
+###### definition
 
 »⟮c47;Head movement⟯« is ⟮＿syntactic movement＿⟯ of ⟮＿a head＿⟯.
 
