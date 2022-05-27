@@ -2,9 +2,13 @@
 
 # lexcreation
 
-⟮c1;＿Lexcreation＿⟯ may be ⟮＿morphological＿⟯ or ⟮c_;＿nonmorphological＿⟯.
+## morphological vs nonmorphological
+
+⟮c1;＿Lexcreation＿⟯ may be ⟮＿morphological＿⟯, ⟮c_;＿nonmorphological＿⟯ or ⟮c_;＿partially morphological＿⟯.
 
 ## morphological
+
+### basics
 
 »⟮c3;Morphological lexcreation⟯« is ⟮＿lexcreation＿⟯ via ⟮＿morphology＿⟯.
 ⟮c6;＿Morphological lexcreation＿⟯ may be ⟮＿compounding＿⟯ or ⟮＿morphological derivation＿⟯
@@ -12,6 +16,8 @@
 ### process of morphological lexcreation
 
 #### morphological derivation
+
+##### basics
 
 »⟮c9;Morphological derivation⟯« is ⟮＿morphological lexcreation＿⟯ by ⟮adding or removing ＿derivational affixes＿⟯.
 ⟮c12;＿Morphological derivation＿⟯ may change the ⟮word class⟯, ⟮c_;sememe⟯, or ⟮c_;both⟯.

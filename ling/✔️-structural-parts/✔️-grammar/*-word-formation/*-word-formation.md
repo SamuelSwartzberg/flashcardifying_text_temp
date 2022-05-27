@@ -1,5 +1,7 @@
 # word formation
 
+## definition
+
 »⟮c1;Word formation⟯« is ⟮the creation of new words⟯.
 
 ## what is created

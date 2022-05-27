@@ -1,6 +1,8 @@
 
 # morphology
 
+## basics
+
 »⟮c1;A morpheme⟯« is ⟮the smallest⟯ ⟮＿segment＿⟯ that ⟮corresponds to ＿a sememe＿ or ＿grammeme＿⟯.
 ⟮c5;One or more⟯ ⟮＿morphemes＿⟯ ⟮form a word⟯.
 Ergo, ⟮c8;all of⟯ what ⟮＿morphology＿⟯ does is ⟮＿word formation＿⟯.

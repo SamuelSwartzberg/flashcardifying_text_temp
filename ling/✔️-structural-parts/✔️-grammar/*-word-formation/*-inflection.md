@@ -23,6 +23,8 @@
 
 ## inflectional morphemes
 
+### basics
+
 ⟮c19;＿Inflection＿⟯ works by using ⟮＿inflectional morphemes＿⟯.
 »⟮c21;An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
 »⟮c24;An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
@@ -59,6 +61,8 @@
 »⟮c77;A realizing morpheme set collection⟯« is ⟮a set⟯ of with ⟮one ＿realizing morpheme set＿⟯ for ⟮each ＿morphologicallly realizable category＿⟯ in ⟮＿the realizable category collection＿⟯.
 
 ### inflectional class
+
+#### general
 
 »⟮c82;An inflectional class⟯« is the combination of ⟮＿a realizing morpheme set＿⟯ and ⟮＿an inflectional class selector＿⟯.
 »⟮c85;An inflectional class selector⟯« (my term) is ⟮the set of criteria⟯ that ⟮determine if ＿the inflectional class＿ will apply⟯.
