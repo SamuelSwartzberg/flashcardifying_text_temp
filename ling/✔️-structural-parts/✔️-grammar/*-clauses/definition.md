@@ -1,4 +1,6 @@
-# what is a clause
+# clauses
+
+## definition
 
 »⟮c1;A clause⟯« is ⟮a type of ＿constituent＿⟯ ⟮one (conceptual) level higher⟯ than ⟮＿phrases＿⟯.
 »⟮c5;A clause⟯« ⟮links⟯ ⟮＿the subject＿⟯ with ⟮＿a predicate⎵wide⎵＿⟯. 
@@ -6,9 +8,13 @@
 
 ## predicate
 
+### definition
+
 »⟮c12;A predicate⎵wide⎵⟯« is ⟮everything in the clause⟯ ⟮besides ＿the subject＿⟯ which thus ⟮says something about ＿the subject＿⟯.
 
 ### predicate⎵narrow⎵
+
+#### definition
 
 »⟮c16;A predicate⎵narrow⎵⟯« is ⟮the main⟯ ⟮＿verblike＿⟯ ⟮c_-;of the clause⟯, of which ⟮all other parts are arguments⟯.
 ⟮c20;＿A predicate⎵wide⎵＿⟯ ⟮always contains⟯ ⟮＿a predicate⎵narrow⎵＿⟯.
@@ -32,6 +38,8 @@
 ### special verblikes
 
 #### copulas
+
+##### basics
 
 »⟮c40;A copula⎵wide⎵⟯« is ⟮＿a verblike＿⟯ whose ⟮main function (and semantic content)⟯ is to ⟮connect ＿the subject＿ to ＿the predicative expression＿⟯ in ⟮＿a copula-based predicate＿⟯.
 »⟮c45;A copula⎵narrow⎵⟯« is ⟮＿a copula⎵wide⎵＿⟯ which ⟮has no semic/grammic content besides being a copula⟯.

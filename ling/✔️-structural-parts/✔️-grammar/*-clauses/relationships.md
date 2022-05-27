@@ -63,6 +63,8 @@ table:name|meaning
 
 ## result: sentences
 
+### definition
+
 »⟮c66;a sentence⟯« is ⟮the largest⟯ ⟮＿constituent＿⟯ and ⟮the root of⟯ ⟮all other ＿constituents＿⟯.
 ⟮c71;＿A sentence＿⟯ ⟮consists of⟯ ⟮one or more⟯ ⟮＿clauses＿⟯.
 

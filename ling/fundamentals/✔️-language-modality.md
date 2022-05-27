@@ -25,10 +25,22 @@ The two ⟮c13;＿recieving language modalities＿⟯ are ⟮auditory and visual
 »⟮c46;A speech sound⟯« is ambigous between ⟮＿speech phone＿⟯ and ⟮c_;＿speech phoneme＿⟯.
 »⟮c48;A graph/grapheme⟯« is ⟮＿the language modality segment＿⟯ of ⟮＿writing＿⟯.
 
-## language production.
+## language production
+
+### definition
 
 »⟮c51;Language production⟯« is ⟮the process⟯ of ⟮c_;production⟯ of ⟮＿language (occurence)＿⟯.
-⟮c54;＿Language production＿⟯ consists of ⟮＿conceptualization＿⟯, ⟮＿encoding＿⟯, and ⟮＿expression＿⟯.
-»⟮c58;Speech production⟯« is the form of ⟮＿language production＿⟯ where ⟮＿the producing language modality＿⟯ is ⟮oral⟯.
 
-<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}</span>
+### parts
+
+⟮c54;＿Language production＿⟯ consists of ⟮＿conceptualization＿⟯, ⟮＿encoding＿⟯, and ⟮＿expression＿⟯.
+
+### types
+
+»⟮c58;The language production type⟯« is ⟮the type of ＿language production＿⟯ which is ⟮given rise by⟯ ⟮＿the producing language modality＿⟯ used.
+
+
+table:＿language production type＿|＿producing language modality＿|＿expression stage＿
+»⟮c62;speech production⟯«|⟮oral⟯|»⟮phonetic production⟯«
+
+<span class='cloze-dump'>{{c1::}}{{c2::}}{{c3::}}{{c4::}}{{c5::}}{{c6::}}{{c7::}}{{c8::}}{{c9::}}{{c10::}}{{c11::}}{{c12::}}{{c13::}}{{c14::}}{{c15::}}{{c16::}}{{c17::}}{{c18::}}{{c19::}}{{c20::}}{{c21::}}{{c22::}}{{c23::}}{{c24::}}{{c25::}}{{c26::}}{{c27::}}{{c28::}}{{c29::}}{{c30::}}{{c31::}}{{c32::}}{{c33::}}{{c34::}}{{c35::}}{{c36::}}{{c37::}}{{c38::}}{{c39::}}{{c40::}}{{c41::}}{{c42::}}{{c43::}}{{c44::}}{{c45::}}{{c46::}}{{c47::}}{{c48::}}{{c49::}}{{c50::}}{{c51::}}{{c52::}}{{c53::}}{{c54::}}{{c55::}}{{c56::}}{{c57::}}{{c58::}}{{c59::}}{{c60::}}{{c61::}}{{c62::}}{{c63::}}{{c64::}}</span>
