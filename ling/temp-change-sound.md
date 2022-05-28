@@ -64,7 +64,8 @@ For example, a language contrasting two words */sat/ vs. */san/ may evolve histo
 
 ### change of phonic e?ic units
 
-A phonic e?ic unit change is a change in sound where one or more phonic e?ic units change.
+Alternation⎵change in sound⎵ is a change in sound where one or more phonic e?ic units change.
+Gradation is alternation⎵change in sound⎵ where there are fixed grades.
 
 #### type of change
 
@@ -115,7 +116,8 @@ Progressive/regressive assimilation/dissimilation is assimilation/dissimilation 
 
 ####### vowel harmony
 
-vowel harmony⎵weak⎵ is assimilation which is phonetic mutation of vowels,
+vowel harmony⎵weak⎵ is assimilation which is phonetic mutation of vowels, making them share certain sm phonic features.
+Backness/Round/Height/Tongue root harmony is vowel harmony where the feature being shared is [back]/[round]/[height]/[root] // TODO check if the feature names are right
 vowel harmony⎵strong⎵ is vowel harmony⎵weak⎵ that is long-distance.
 
 ####### metaphony
@@ -125,10 +127,10 @@ umlaut =syn= metaphony
 I-mutation is umlaut where the sound is fronted or raised (made more similar to [i]) when followed by [i] or [j].
 Vowel harmony is metaphony
 
-#### 
+#### what changes
 
-##### vowels
-
+Vowel/consonant/segmental alternation/gradation is alternation⎵change in sound⎵/gradation where what changes is vowels/consonants/segments.
+prosodic/suprasegmental alternation is alternation⎵change in sound⎵ where what changes is (a) ssm phonic feature(s).
 
 
 ## where is the change

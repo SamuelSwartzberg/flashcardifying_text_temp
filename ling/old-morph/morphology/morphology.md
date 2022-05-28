@@ -1,3 +1,6 @@
+The root carries no derivational affixes
+
+
 # processes 
 
 ## kinds of morphemes
@@ -73,17 +76,27 @@ The null process (my term) is the process of adding a null morpheme.
 
 ### discatenative
 
+disfix = morpheme that is subtraction modification
 
 
 ### modification
 
-modification =types= {apophony, suppletion }
+modification =types= {apophony⎵morphology⎵, suppletion }
 
-disfix = morpheme that is subtraction modification
+#### apophony
+
+apophony⎵morphology⎵ is modification where the change is a change in sound.
+A simulfix is the change via apophony⎵morphology⎵, specifically segmental alternation, but seen as an affix.
+A suprafix is the change via apophony⎵morphology⎵, specifically suprasegmental alternation, but seen as an affix.
+
+#### suppletion
+
 suppletion =def= substitution of the entire morpheme
 
 ## disambiguation
 
 ### apophony
 
-apophony is ambiguous between apophonymorphology, a synonym to vowel whatever, maybe others
+apophony is ambiguous between apophony⎵morphology⎵, a synonym to vowel whatever, maybe others.
+Ablaut⎵general⎵ is apophony⎵morphology⎵ where the change in sound is vowel gradation.
+Ablaut⎵IE⎵ is ablaut⎵general⎵ but in indo-european.

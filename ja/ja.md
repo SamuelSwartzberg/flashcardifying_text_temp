@@ -71,6 +71,8 @@ unsolved-questions:
     - Are 食べるばかりじゃない andor 食べなかったばかり wrong?
     - https://hinative.com/en-US/questions/15154271 for future consideration
 
+rendaku is morphosyntactic mutation of consonants.
+
 ### history, culture, etc
 
 
