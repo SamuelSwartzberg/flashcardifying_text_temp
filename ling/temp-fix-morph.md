@@ -1,6 +1,7 @@
+A 
+
 Morphology:
 
-Modification =def= change of stem(inflection)/base(derivation)
 
 
 

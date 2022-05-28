@@ -20,6 +20,13 @@ Modification =def= change of existing morphemes
 
 ### concatenative
 
+concatenative process =types= {
+  affixation,
+  cliticization,
+  compounding,
+  null process
+}
+
 #### affixes
 
 Affixation =def= g: concatenative morphological process; d: attaching of affixes.
@@ -45,10 +52,6 @@ Depending on ⟮its position⟯, an affix may be an ⟮＿adfix＿⟯, ⟮＿inf
 ⟮-gate, -cation, -tard, -verse⟯ are examples of ⟮＿libfixes＿⟯
 »⟮A duplfix⟯« is ⟮＿an affix＿⟯ produced by ⟮＿reduplication＿⟯.
 
-##### contents
-
-»⟮A null/zero morpheme⟯« is ⟮＿a morpheme＿⟯ that ⟮has no phonetic form/realization⟯.
-
 #### clitics
 
 »⟮Clitics⟯« are ⟮＿bound morphemes＿⟯ that ⟮act like words⟯ regarding ⟮certain syntactic properties⟯.
@@ -63,18 +66,24 @@ table:name|clitic that appears...
 »⟮Mesoclitic⟯«|⟮between the stem (or base? not sure) of ＿the host＿ and other affixes⟯
 »⟮Proclitic⟯«|⟮before its ＿host＿⟯
 
+#### null 
+
+The null process (my term) is the process of adding a null morpheme.
+»⟮A null/zero morpheme⟯« is ⟮＿a morpheme＿⟯ that ⟮has no phonetic form/realization⟯.
+
 ### discatenative
 
 
 
 ### modification
 
-// this could also be sound change. Do we just define one in terms of the other? share the two?
-modification =types= { phonic s*m unit modification, suppletion }
-phonic s*m unit modification =def= change of one or more phonic s*m units within the morpheme
-phonic s*m unit modification =types= {addition modification, subtraction modification, apophony}
-addition/subtraction modification =def= addition/subtraction of one or more phonic s*m units from the morpheme
+modification =types= {apophony, suppletion }
+
 disfix = morpheme that is subtraction modification
 suppletion =def= substitution of the entire morpheme
-apophony =def= replacing one or more s*m units
-apophony =types= {vowel modification, consonant modification}
+
+## disambiguation
+
+### apophony
+
+apophony is ambiguous between apophonymorphology, a synonym to vowel whatever, maybe others
