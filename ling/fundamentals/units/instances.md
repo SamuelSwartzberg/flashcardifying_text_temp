@@ -50,6 +50,12 @@ table:whatevereme|signifier|signified
 »⟮c61;A lexeme⟯« is ⟮＿a lexemic unit＿⟯ that ⟮is a single word⟯.
 ⟮c64;＿Lex＿⟯ ≙ ⟮＿inflectional variant＿⟯
 Most commonly, ⟮c66;the distinction between⟯ ⟮＿lexeme＿⟯ and ⟮c_;＿lexemic unit＿⟯ is ⟮not at issue⟯.
+»⟮A single-morpheme word⟯« is ⟮a word⟯ which ⟮consists of a single⟯ ⟮＿free sm morpheme＿⟯.
+»⟮A morphemelike segment⟯« (my term) is ⟮＿a sm morpheme＿ or ＿single-morpheme word＿⟯.
+»⟮A worpheme⟯« (my term) is ⟮＿a sm morpheme＿ or a word⟯.
+»⟮A lorpheme⟯« is ⟮＿a sm morpheme＿ or ＿sm lexemic unit＿⟯.
+»⟮A morpheme⟯« is ⟮the smallest⟯ ⟮＿segment＿⟯ that ⟮corresponds to ＿a sememopragmogrammeme＿⟯.
+⟮One or more⟯ ⟮＿morphemes＿⟯ ⟮form a word⟯.
 
 #### pract
 
