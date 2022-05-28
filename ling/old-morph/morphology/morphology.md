@@ -41,26 +41,11 @@ Affixation =def= g: concatenative morphological process; d: attaching of affixes
 Depending on ⟮what they're used for⟯, ⟮＿affixes＿⟯ may be ⟮＿inflectional＿⟯ or ⟮c_;＿derivational＿⟯. // move to process generally
 »⟮Inflectional/derivational affixes⟯« are those attached for ⟮＿inflection/(morphological) derivation＿⟯. // move to process generally
 
-##### position
-
-Depending on ⟮its position⟯, an affix may be an ⟮＿adfix＿⟯, ⟮＿infix＿⟯ or ⟮＿circumfix＿⟯ (and less common ones too).
-»⟮An adfix⟯« is ⟮＿an affix＿⟯ that ⟮goes before ＊or＊ after the base⟯.
-»⟮An adfix⟯« is either a ⟮＿a prefix＿⟯ or ⟮c_;＿suffix＿⟯.
-»⟮A circumfix⟯« is ⟮＿an affix＿⟯ that ⟮goes before ＊and＊ after the base⟯.
-»⟮An infix⟯« is ⟮＿an affix＿⟯ ⟮inserted into the base⟯.
-
 ##### genesis
 
 »⟮A libfix⟯« is a ⟮productive⟯ ⟮＿affix＿⟯ created by ⟮＿back-formation＿⟯, which still ⟮contains some of the original meaning of the word⟯.
 ⟮-gate, -cation, -tard, -verse⟯ are examples of ⟮＿libfixes＿⟯
 »⟮A duplfix⟯« is ⟮＿an affix＿⟯ produced by ⟮＿reduplication＿⟯.
-
-#### clitics
-
-»⟮Clitics⟯« are ⟮＿bound morphemes＿⟯ that ⟮act like words⟯ regarding ⟮certain syntactic properties⟯.
-E.g. It☞'s☜ a boy!, I☞'m☜ terribly sorry., Senatus Populus☞que☜ Romanus
-»⟮The host⟯« is ⟮the thing a clitic attaches to⟯.
-»⟮Cliticising⟯« is ⟮attaching as a clitic⟯.
 
 ##### types
 
