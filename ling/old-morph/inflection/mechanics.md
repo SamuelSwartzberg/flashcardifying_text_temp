@@ -23,8 +23,8 @@
 
 ### inflectional morpheme
 
-»⟮An inflectional morpheme⟯« ⟮modifies⟯ ⟮＿a lexeme＿⟯.
-»⟮An inflectional morpheme⟯« ⟮indicates⟯ ⟮one or more ＿grammemes＿⟯.
+An inflectional change is the application of one or more word formation mechanisms.
+An inflectional morpheme is a morpheme used in inflectional change.
 
 ### the stem
 
