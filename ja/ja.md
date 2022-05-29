@@ -73,6 +73,8 @@ unsolved-questions:
 
 rendaku is morphosyntactic mutation of consonants.
 
+略語
+
 ### history, culture, etc
 
 

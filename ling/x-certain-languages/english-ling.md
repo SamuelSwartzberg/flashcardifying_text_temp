@@ -306,3 +306,5 @@ Syntax of ⟮＿cleft sentences＿⟯ in english: ⟮it⟯ + ⟮conjugated form 
 
 ⟮English⟯ features an oblique case.
 
+
+The most common ⟮＿hybrid word＿⟯ in ⟮english⟯ consist of ⟮one latin-derived and one greek-derived morpheme⟯
