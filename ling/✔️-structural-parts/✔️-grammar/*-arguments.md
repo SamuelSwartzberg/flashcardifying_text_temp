@@ -1,29 +1,28 @@
 # arguments
 
+## argument relationships
+
 »⟮Argument relationships⟯« (my term) is ⟮the relationships⟯ ⟮＿verblikeal arguments＿⟯ ⟮c-;can have⟯ ⟮to their verblike⟯.
-»⟮A verblike⟯« (my definition) is something that ⟮takes ＿verblikeal arguments＿⟯ in ⟮＿the typical ways＿⟯ and (thus?) ⟮can become ＿a predicate (narrow)＿⟯.
+
+## verblikes
+
+»⟮A verblike⟯« (my definition) is something that takes ⟮0 or more⟯ ⟮＿verblikeal arguments＿⟯ in ⟮＿the typical ways＿⟯ and (thus?) ⟮can become ＿a predicate⎵narrow⎵＿⟯.
 »⟮A verblikeal argument⟯« is ⟮＿an argument＿⟯ ⟮of a verblike⟯.
 ⟮＿verblikeal arguments＿⟯ are ⟮most commonly⟯ ⟮DPs/NPs⟯ or ⟮＿complement clauses＿⟯.
 
 ## distribution
 
-I will call the ⟮max. three⟯ ⟮＿verblikeal arguments＿⟯ of verblikes with ⟮＿valencies＿⟯ ⟮c_-;1-3⟯ ⟮A1, A2, A3⟯.
-In my notation for ＿verblikeal arguments＿, ⟮A1 - A3⟯ is ⟮a logical/conceptual ordering⟯ that ⟮does not have to be⟯ ⟮realized in word order⟯.
-»⟮The subject⟯« is ⟮A1 of any ＿verblike＿⟯.
-»⟮The object(s)⟯« are ⟮A2 - An of any ＿verblike＿⟯.
+A1/A2/.../An (my terms) is the nth logical/conceptual(!) verblikeal argument of a verblike, thought this does have to be realized in word order.
+»⟮A subject/object⟯« is ⟮A1/A2 - An of any ＿verblike＿⟯.
 
 ### !thematic roles (under the active voice)
 
-Typically ⟮A1 (and thus ＿the subject＿)⟯ is ⟮＿the agent＿⟯.
+Typically, ⟮A1/A2/A3 (if extant)⟯ is ⟮the agent/＿patient＿/＿theme＿⟯.
 In cases of ⟮＿intransitive verblikes＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
-Typically, ⟮A2 (if extant)⟯ is ⟮＿the patient＿⟯.
-Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
 ### counting verblikeal arguments
 
-⟮＿verblikes＿⟯ have ⟮0 or more：number⟯ ⟮＿verblikeal arguments＿⟯.
-»⟮Valency⟯« is ⟮the amount of⟯ ⟮＿verblikeal arguments＿ a ＿verblike＿ has⟯.
-»⟮Transitivity⟯« is ⟮the amount of⟯ ⟮non-subject ＿verblikeal arguments＿ a ＿verblike＿ has⟯.
+»⟮Valency/transitivity⟯« is ⟮the amount of⟯ any/non-subject ⟮＿verblikeal arguments＿ a ＿verblike＿ has⟯.
 ⟮Valency⟯ = ⟮Transitivity⟯ ⟮+ 1⟯
 »⟮An ambitransitive verblike⟯« is ＿a verblike＿ with ⟮＿a transitivity＿ of 0 or 1⟯
 ⟮Both greek and latinate⟯ numeral words are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
@@ -39,6 +38,7 @@ Typically, ⟮A3 (if extant)⟯ is ⟮＿the theme＿⟯.
 
 »⟮A1A2 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with ＿verblikes＿ with ⟮＿valencies＿ of 1 and 2⟯.
 ⟮＿A1A2 morphosyntactic alignment＿⟯ may be ⟮＿nominative-accusative＿⟯, ⟮＿ergative-absolutive＿⟯, ⟮＿direct＿⟯, ⟮＿tripartite＿⟯, or ⟮＿transitive＿⟯.
+Per definition, the only argument A1 of an intransitive verb has a single case C1 (outside of active alignment)
 
 ##### mapping
 
@@ -48,6 +48,7 @@ table:n↓\v→|1|2
 »⟮direct⟯«|⟮A1=C1⟯|⟮A1=C1, A2=C1⟯
 »⟮tripartite⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C3⟯
 »⟮transitive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C2⟯
+active|A1 = sometimes C1, sometimes C2 based on agenthood of A1|A1=C1, A2=C2
 
 ##### caveats
 
@@ -84,12 +85,8 @@ In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of �
 
 ###### active
 
-»⟮Active alignment⟯« has ⟮A1=C1 and A2=C2⟯ for v=2 and ⟮A1 = sometimes C1, sometimes C2⟯ for v=1.
-Typically, ⟮＿active alignment＿⟯ decides ⟮whether A1 of v=1 gets C1 or C2⟯ based on ⟮the agenthood of A1⟯.
-There are two types of ⟮＿active alignment＿⟯, ⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯.
-⟮＿split-S＿⟯ and ⟮＿fluid-S＿⟯ are named that way because what I usually call ⟮A1 of v=1⟯ is more commonly called ⟮S⟯.
-»⟮Split-S⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the presumed agenthood of A1 of v=1⟯ ⟮has calcified into two classes of ＿verblikes＿⟯, ⟮which require C1 or C2 respectively⟯.
-»⟮Fluid-S⟯« alignment is ⟮＿active alignment＿⟯ which ⟮allow the speaker to choose⟯ ⟮the case of A1⟯ and thus ⟮imply agenthood (or not)⟯.
+⟮＿active alignment＿⟯ may be ⟮＿split-S＿⟯ or ⟮c_;＿fluid-S＿⟯ 
+»⟮Split-S/Fluid⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the agenthood of A1 of v=1⟯ ⟮has calcified into two classes of ＿verblikes＿⟯/⟮can be chosen by the speaker for effect⟯
 
 #### A2A3 morphosyntacitic alignment
 
