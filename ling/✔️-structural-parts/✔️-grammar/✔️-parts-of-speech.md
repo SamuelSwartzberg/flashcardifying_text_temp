@@ -22,7 +22,7 @@ Often ⟮the things we think⟯ ⟮a certain ＿word class＿ does⟯ ⟮c_-;is 
 ## categories
 
 ⟮＿A word class＿⟯ may be a ⟮＿functional＿⟯, ⟮c_;＿lexemic＿⟯ or ⟮c_;＿practical category＿⟯.
-»⟮A functional/pragmatic/lexical category⟯« is ⟮＿a word class＿⟯ that mainly encodes ⟮＿grammemes＿/＿pragmemes＿/＿sememes＿⟯.
+»⟮A functional/pragmatic/lexemic category⟯« is ⟮＿a word class＿⟯ that mainly encodes ⟮＿grammemes＿/＿pragmemes＿/＿sememes＿⟯.
 A function/pragmatic/content word is a lexemic unit that ⟮is a member of ＿a functional/pragmatic/lexemic category＿⟯
 
 ### verbs
@@ -63,20 +63,16 @@ semantically, ⟮＿adpositions＿⟯ may be ⟮＿temporal adpositions＿⟯, �
 
 ### lexemic category
 
-»⟮A lexemic category⟯« is ⟮＿a word class＿⟯ that (also) encodes ⟮＿sememes＿⟯.
-»⟮A content word⟯« is ⟮＿a lexemic unit＿⟯ that is ⟮a member of ＿a lexemic category＿⟯.
-
 #### ad
 
 »⟮An ad phrase⟯« (my term) is ⟮＿a phrase＿⟯ that ⟮acts as ＿a modifier＿⟯ for another head and thus ⟮semantically describes/＿restricts＿ that head⟯.
-⟮＿Ad phrases＿⟯ may be ⟮＿attributive adjective phrases＿⟯ or ⟮＿adverb(ial) phrases＿⟯.
-»⟮Attributive adjective phrases⟯« are ⟮＿ad phrases＿⟯ that act as a modifier for ⟮＿phrases＿ that are not NPs/DPs⟯.
-»⟮Adverb(ial) phrases⟯« are ⟮＿ad phrases＿⟯ that act as modifier for ⟮＿phrases＿ that are not NPs/DPs⟯.
+⟮＿Ad phrases＿⟯ may be ⟮＿attributive adjective phrases＿⟯ or ⟮c_;＿adverb(ial) phrases＿⟯.
+»⟮Attributive adjective phrases⟯«/»⟮adverb(ial) phrases⟯« are ⟮＿ad phrases＿⟯ that ⟮＿modify＿⟯ ⟮＿phrases＿⟯ that ⟮are/are not⟯ ⟮c-;NPs/DPs⟯.
 
 ##### adjective
 
 »⟮An adjective⟯« is ⟮＿a lexemic unit＿⟯ that typically ⟮heads an AP⟯ but also ⟮may head an NP⟯.
-»⟮A nominalized adjective⟯« is ⟮＿an adjective＿⟯ that ⟮heads an NP⟯.
+»⟮A nominalized/non-nominalized adjective⟯« is ⟮＿an adjective＿⟯ that ⟮heads an NP/AP⟯.
 
 ###### AP
 
