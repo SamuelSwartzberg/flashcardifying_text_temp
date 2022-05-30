@@ -165,16 +165,13 @@ Finding ⟮c219;a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic uni
 »⟮c235;The featural analysis⟯« (repurposed term) seeing ⟮＿an emic unit＿⟯ as ⟮a combination of ＿features＿⟯.
 »⟮c238;A feature⟯« is either ⟮＿a ffeature＿⟯ or ⟮c_;＿a fcategory＿⟯.
 »⟮c240;Featural⟯« is ⟮looking at a thing⟯ from ⟮the perspective of ＿features＿⟯.
+»⟮c251;A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿e?ic unit＿⟯.
 
 ###### types
 
 »⟮c243;A ffeature⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮a binary value⟯.
 »⟮c246;A fcategory⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮multiple ＿fvalues＿⟯.
 »⟮c249;A fvalue⟯« is ⟮a value of ＿a feature＿⟯.
-
-###### as emic units
-
-»⟮c251;A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿emic unit＿⟯.
 
 ####### distinctive feature
 
