@@ -1,10 +1,17 @@
 # posessive
 
+## definition
+
 »⟮c1;Posession⟯« is ⟮＿a sm grammic fclass＿⟯ encoding ⟮posession⟯.
+
+## a posessive
+
+»⟮c4;A posessive⟯« is ⟮＿a linguistic item＿⟯ encoding ⟮＿posession＿⟯.
 
 ## realizations
 
-»⟮c4;A posessive⟯« is ⟮＿a linguistic item＿⟯ encoding ⟮＿posession＿⟯.
+### differentiation
+
 ⟮c7;＿Posession＿⟯ may be encoded via ⟮＿lexemes＿⟯, ⟮＿bound morphemes/clitics＿⟯ or ⟮＿inflectional morphology＿⟯.
 
 ### inflectional
@@ -13,7 +20,12 @@
 
 ### lexemic
 
+#### definition
+
 »⟮c14;A posessive lexeme⟯« is ⟮＿a possessive＿⟯ which is ⟮＿a lexemic unit＿⟯.
+
+#### differentiation
+
 ⟮c17;＿Posessive lexemes＿⟯ generally may be ⟮＿posessive verbs＿⟯, ⟮c_;＿posessive determiners＿⟯ or ⟮c_;＿posessive pronouns＿⟯.
 »⟮c19;A posessive verb/determiner/pronoun⟯« is ⟮＿a posessive lexeme＿⟯ which ⟮is a verb/determiner/pronoun⟯.
 
