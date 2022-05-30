@@ -44,10 +44,9 @@ A phrasal part (my term) is a part that makes up a phrase
 ###### arguments
 
 ⟮＿Arguments＿⟯ may be ⟮＿complements＿⟯ or ⟮＿specifiers＿⟯.
-⟮The complement⟯ is ⟮＿the argument＿⟯ that ⟮appears closest (in the tree)⟯ to ⟮＿the head＿⟯.
-»⟮Specifiers⟯«  are ⟮all ＿arguments＿⟯ that ⟮aren't ＿complements＿⟯.
-^generally only a term in x-bar theory, but I'll use it here anyway
-Transitivity (casual sense) is how many complements something has
+In chomskyan theories, the complement/the specifiers is/are the argument(s) that appear/don't appear closest to the head.
+Transitivity⎵nonverblikeal⎵ is if something takes a complement.
+Things that can be transitive⎵nonverblikeal⎵ are adpositions, (others?)
 
 #### phrasal category
 
