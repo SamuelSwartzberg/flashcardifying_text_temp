@@ -50,7 +50,6 @@ pertingent case is a location⎵narrow⎵ case meaning 'touching'
 »⟮intrative case⟯« is a location⎵narrow⎵ case meaning amidtst
 »⟮terminative case⟯« is a target case marking the end of something.
 
-
 #### relation case
 
 ##### basics

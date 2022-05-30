@@ -1,73 +1,44 @@
 # changes in sounds
 
-»⟮A change in sound⟯« (my term) is ⟮the change of anything ＿phonic＿⟯ for ⟮any reason⟯.
-Types of ＿changes in sounds＿ based on the type of change are amongst others ⟮＿amount modification＿⟯, ⟮＿metasthesis＿⟯, ⟮＿forging＿⟯, ⟮＿transphonologization＿⟯ or ⟮＿similation＿⟯.
+»⟮A change in sound⟯« (my term) is a phonic change of e?ic units.
 
-## diachronic/synchronic change
+## types
 
-»⟮Diachronic/synchronic change in sound⟯« is ⟮＿change in sound＿⟯ ⟮for ＿diachronic＿/＿synchronic＿ reasons/functions⟯.
-
-## change in sound type
-
-### amount modification
-
-#### definition
-
-»⟮change in amount⟯« (my term)  is ⟮＿a change in sound＿⟯ that is the addition or removal of (a) sound(s).
-»⟮Elision/Epenthesis⟯« is ⟮＿amount modification＿⟯ that is ⟮removal/addition⟯.
-
-#### both
-
-»⟮Synaeresis⟯« is ⟮＿elision＿⟯ which is ⟮the combination of two adjacent vowels⟯ ⟮into a single syllable.⟯
-»⟮Diaresis⟯« is ⟮the occurrence⟯ or ⟮＿epenthesis＿⟯ of/to ⟮two sequential vowels⟯ which are ⟮part of different syllables⟯.
+### change in amount
 
 #### elision
 
-##### positional elision
-
-»⟮Positional elision⟯« (my term) is ⟮＿elision＿⟯ based on ⟮where it happens⟯.
-»⟮Apheresis⟯« is ⟮＿positional elision＿⟯ from ⟮the beginning of a word⟯
-»⟮Syncope⟯« is ⟮＿positional elision＿⟯ from ⟮the interior of a word⟯
-»⟮Apocope⟯« is ⟮＿positional elision＿⟯ from ⟮the end of a word⟯
-
-##### details
-
-»⟮Haplology⟯« is ⟮＿elision＿⟯ where ⟮an entire syllable is lost⟯, where ⟮c_;that syllable⟯ was ⟮similar to an adjacent syllable⟯
-»⟮Unstressed vowel positional elision/apheresis/syncope/apocope⟯« is ⟮＿positional elision＿/＿apheresis＿/＿syncope＿/＿apocope＿⟯ of ⟮＿unstressed＿ ＿vowels＿⟯, the ⟮most common type⟯.
-⟮＿Elision⎵super narrow⎵＿⟯ is ⟮＿apocope＿⟯ that results in ⟮two words being run together⟯.
+»⟮Synaeresis⟯« is ⟮＿phonic elision＿⟯ which is ⟮the combination of two adjacent vowels⟯ ⟮into a single syllable.⟯
+»⟮Unstressed vowel elision/apheresis/syncope/apocope⟯« is ⟮＿elision＿/＿apheresis＿/＿syncope＿/＿apocope＿⟯ of ⟮＿unstressed＿ ＿vowels＿⟯, the ⟮most common type⟯.
+⟮＿Elision⎵super narrow⎵＿⟯ is ⟮＿phonic apocope＿⟯ that results in ⟮two words being run together⟯.
+»⟮Haplology⟯« is ⟮＿phonic elision＿⟯ where ⟮an entire syllable is lost⟯, where ⟮c_;that syllable⟯ was ⟮similar to an adjacent syllable⟯
 
 #### epenthesis
 
-»⟮prothesis⟯« is ⟮＿epenthesis＿⟯ at ⟮the beginning of the word⟯.
-»⟮paragoge⟯« is ⟮＿epenthesis＿⟯ at ⟮the end of the word⟯.
+»⟮Diaresis⎵occurrence/epenthesis⎵⟯« is ⟮the occurrence/＿epenthesis＿⟯ of/to ⟮two sequential vowels⟯ which are ⟮part of different syllables⟯.
 
-### change in order
+### change in e?ic unit
 
-#### metathesis
+Alternation⎵change in sound⎵ is phonic change in e?ic unit.
 
-»⟮Metathesis⟯« is ⟮＿a change in sound＿⟯ which is ⟮the transposition/switcharoo⟯ of ⟮segments⟯ in ⟮c_;a series of segments⟯
-»⟮hyperthesis⟯« is ⟮＿metathesis＿⟯ of ⟮non-adjacent sounds⟯.
+#### what changes
 
-```
-fo☞li☜age → **fo☞il☜age
-ane☞mone☜ → ane☞nome☜
-pa☞r☜abo☞l☜a (latin) → pa☞l☜ab☞r☜a
-```
+Vowel/consonant alternation/gradation is alternation⎵change in sound⎵/gradation where what changes is vowels/consonants.
 
-### change of contrast
+#### similation
 
-#### transphonologization
+##### vowel harmony
 
-»⟮Transphonologization⟯«  is ⟮＿a change in sound＿⟯ which is the change of ⟮＿a phonemic contrast＿⟯ so that ⟮the contrast is preserved⟯, but ⟮the phonic feature it is based on changes⟯.
+vowel harmony⎵weak⎵ is assimilation which is phonetic mutation of vowels, making them share certain sm phonic features.
+Backness/Round/Height/Tongue root harmony is vowel harmony where the feature being shared is [back]/[round]/[height]/[root] // TODO check if the feature names are right
+vowel harmony⎵strong⎵ is vowel harmony⎵weak⎵ that is long-distance.
 
-For example, a language contrasting two words */sat/ vs. */san/ may evolve historically so that final consonants are dropped, yet the modern language preserves the contrast through the nature of the vowel, as in a pair /sa/ vs. /sã/. Such a situation would be described by saying that a former contrast between oral and nasal consonants has been transphonologized into a contrast between oral vs. nasal vowels. 
+##### metaphony
 
-### change of phonic e?ic units
-
-Alternation⎵change in sound⎵ is a change in sound where one or more phonic e?ic units change.
-Gradation is alternation⎵change in sound⎵ where there are fixed grades.
-
-#### type of change
+metaphony is assimilation which is phonetic mutation of vowels.
+umlaut =syn= metaphony
+I-mutation is umlaut where the sound is fronted or raised (made more similar to [i]) when followed by [i] or [j].
+Vowel harmony is metaphony
 
 ##### lenition ＆ fortition
 
@@ -75,62 +46,9 @@ Gradation is alternation⎵change in sound⎵ where there are fixed grades.
 »⟮Lenition/Fortition⟯« is ⟮＿forging＿⟯ which ⟮moves sounds up/down the sonority hierarchy (more/less sonorous)⟯
 ^yes, that's the right order.
 
-#### reason
 
-##### environment
+#### type of change
 
-###### mutation
-
-Mutation⎵wide⎵ is ⟮＿a change in sound＿⟯ due to its s*m e?ic environment of some kind.
-
-###### reason
-
-The reason for mutation is the kind of environment that induces the mutation
-
-####### basics
-
-The reason for mutation may be morphosyntactic mutation or phonetic mutation.
-
-####### morphosyntactic
-
-Morphosyntactic mutation (rare term) is where the reason for mutation is the morphosyntactic environment
-
-####### phonetic 
-
-Phonetic mutation (rare term) is where the reason for mutation is the phonic environement.
-
-###### process
-
-####### similation
-
-//todo reformulate to use mutationwide
-»⟮Similation⟯« is ⟮＿mu＿⟯ in which a phone/phoneme becomes ⟮more/less similar⟯ to ⟮its phonic environment⟯.
-»⟮Assimilation/Dissimilation⟯« is ⟮＿similation＿⟯ in which the phone/phoneme becomes ⟮more/less similar⟯ to ⟮its phonic environment⟯. 
-^e.g. (assimilation): English "handbag" (canonically /ˈhændbæɡ/) is often pronounced /ˈhæmbæɡ/ in rapid speech 
-
-######## progressive/regressive
-
-Progressive/regressive assimilation/dissimilation is assimilation/dissimilation where something earlier/later influences something later/earlier.
-
-###### combination
-
-####### vowel harmony
-
-vowel harmony⎵weak⎵ is assimilation which is phonetic mutation of vowels, making them share certain sm phonic features.
-Backness/Round/Height/Tongue root harmony is vowel harmony where the feature being shared is [back]/[round]/[height]/[root] // TODO check if the feature names are right
-vowel harmony⎵strong⎵ is vowel harmony⎵weak⎵ that is long-distance.
-
-####### metaphony
-
-metaphony is assimilation which is phonetic mutation of vowels.
-umlaut =syn= metaphony
-I-mutation is umlaut where the sound is fronted or raised (made more similar to [i]) when followed by [i] or [j].
-Vowel harmony is metaphony
-
-#### what changes
-
-Vowel/consonant/segmental alternation/gradation is alternation⎵change in sound⎵/gradation where what changes is vowels/consonants/segments.
-prosodic/suprasegmental alternation is alternation⎵change in sound⎵ where what changes is (a) ssm phonic feature(s).
 
 
 ## where is the change
@@ -140,6 +58,11 @@ prosodic/suprasegmental alternation is alternation⎵change in sound⎵ where wh
 #### sandhi
 
 »⟮Sandhi⟯« is ⟮＿a sound change＿⟯ ⟮at ＿a morpheme boundary＿⟯.
+
+
+
+
+
 
 ## empty cards
 
