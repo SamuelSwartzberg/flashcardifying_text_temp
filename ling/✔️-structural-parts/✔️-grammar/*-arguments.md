@@ -17,7 +17,7 @@ A1/A2/.../An (my terms) is the nth logical/conceptual(!) verblikeal argument of 
 
 ### !thematic roles (under the active voice)
 
-Typically, ⟮A1/A2/A3 (if extant)⟯ is ⟮the agent/＿patient＿/＿theme＿⟯.
+Typically, ⟮A1/A2/A3 (if extant)⟯ is ⟮＿the agent＿/＿patient＿/＿theme＿⟯.
 In cases of ⟮＿intransitive verblikes＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
 
 ### counting verblikeal arguments
@@ -148,26 +148,20 @@ All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dat
 
 #### passivelike voices
 
+##### definition
+
 »⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an verblikeal argument＿⟯.
+
+##### demoting
+
 »⟮Demoting⟯« ⟮＿an verblikeal argument＿⟯ is ⟮dropping it⟯ or ⟮realizing it in some less central way⟯, thus ⟮decreasing ＿the valency＿ of the verblike⟯.
-In ⟮＿demoting＿ ＿a verblikeal argument＿⟯, the ⟮remaining argument(s)⟯ k⟮eep(s) its/their ＿thematic role＿⟯, and ⟮may or may not⟯ ⟮change ＿case＿⟯.
+In ⟮＿demoting＿ ＿a verblikeal argument＿⟯, the ⟮remaining argument(s)⟯ ⟮keep(s) its/their ＿thematic role＿⟯, and ⟮may or may not⟯ ⟮change ＿case＿⟯.
 
 ##### valency > 1
 
 ###### passive and antipassive.
 
-Both ⟮＿the passive＿⟯ and ⟮c_;＿antipassive voice＿⟯ result in ⟮C2⟯ → ⟮c_;C1⟯.
-
-####### passive
-
-»⟮The passive voice⟯« is ⟮＿the passivelike voice＿⟯ for ⟮＿nominative-accusative＿⟯ morphosyntactic alignments.
-»⟮The passive voice⟯« ⟮＿demotes＿ A1⟯ and ⟮A2 → A1⟯.
-⟮＿The passive voice＿⟯ can equivalently be said to make ⟮＿the subject＿⟯ into ⟮＿a patient＿⟯.
-
-####### antipassive
-
-»⟮The antipassive voice⟯« is ⟮＿the passivelike voice＿⟯ for ⟮＿ergative-absolutive＿⟯ morphosyntactic alignments.
-»⟮The antipassive voice⟯« ⟮＿demotes＿ A2⟯ and ⟮A1 → A1⟯.
+The passive/antipassive voice is a passivelike voice which demotes A1/A2, as a result does A2/A1 → A1 and thus make sure that A1 has C1, thus also making A1 a patient/an agent.
 
 ###### middle
 
@@ -176,8 +170,7 @@ Both ⟮＿the passive＿⟯ and ⟮c_;＿antipassive voice＿⟯ result in ⟮C
 
 ##### valency = 1
 
-»⟮The impersonal passive voice⟯« is ⟮the only ＿passivelike voice＿⟯ which applies to ⟮＿monovalent verblikes＿⟯.
-»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿verblikeal argument＿ of ＿monovalent verblikes＿⟯.
+»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿verblikeal argument＿⟯ of ⟮＿monovalent verblikes＿.
 Languoids often achieve an effect similar to ⟮＿the impersonal passive voice＿⟯ by ⟮inserting a ＿dummy element＿⟯.
 
 ## thematic/semantic role

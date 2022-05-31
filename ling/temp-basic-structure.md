@@ -17,7 +17,7 @@
 
 #### basics
 
-»⟮a phrase⟯« is ⟮＿a constituent＿⟯ which ⟮behaves in a certain way⟯ which is defined by ⟮＿its head＿⟯.
+»⟮a phrase⟯« is ⟮＿a constituent＿⟯ which ⟮behaves in a certain way⟯ which is defined by ⟮＿its phrasal category＿⟯.
 An ⟮XP⟯ is ⟮＿a phrase＿⟯ with ⟮X as ＿its head＿⟯.
 
 #### phrasal parts
@@ -38,8 +38,8 @@ A phrasal part (my term) is a part that makes up a phrase
 
 ###### division
 
-⟮＿Dependents＿⟯ may be ⟮＿arguments＿⟯ or ⟮＿modifiers＿⟯.
-⟮＿Arguments＿/＿modifiers＿⟯ are ⟮necessary/optional⟯ for ⟮＿the phrase＿⟯ to be ⟮＿grammatical＿⟯
+⟮＿Dependents＿⟯ may be ⟮＿arguments＿⟯ or ⟮＿grammatical modifiers＿⟯.
+»⟮Arguments/grammatical modifiers⟯« are dependents that are ⟮necessary/optional⟯ for ⟮＿the phrase＿⟯ to be ⟮＿grammatical＿⟯
 
 ###### arguments
 
@@ -48,9 +48,19 @@ In chomskyan theories, the complement/the specifiers is/are the argument(s) that
 Transitivity⎵nonverblikeal⎵ is if something takes a complement.
 Things that can be transitive⎵nonverblikeal⎵ are adpositions, (others?)
 
+###### modifiers
+
+A semantic modifier (my term) is anything that increases the semantic information we have on a head.
+A restrictive/non-restrictive semantic/grammatical modifier is one that increases the informaiton by restricting the reference of a head/adding descriptive contents to the head.
+A grammatical modifier is also a semantic modifier.
+
 #### phrasal category
 
 »⟮A phrasal category⟯« defines ⟮the way ＿a phrase＿ behaves⟯ and ⟮arises from⟯ ⟮＿the word class＿⟯ of ⟮＿the head＿⟯.
+
+### pro-forms
+
+»⟮Proforms⟯« are ⟮＿constitutents＿⟯ that ⟮stand in for another ＿constituent＿⟯.
 
 ## trees
 
