@@ -1,6 +1,6 @@
 # changes in sounds
 
-»⟮A change in sound⟯« (my term) is a phonic change of e?ic units.
+»⟮A change in sound⟯« (my term) is a ⟮＿phonic＿⟯ ⟮c_;＿change of e?ic units＿⟯.
 
 ## types
 
@@ -9,9 +9,9 @@
 #### elision
 
 »⟮Synaeresis⟯« is ⟮＿phonic elision＿⟯ which is ⟮the combination of two adjacent vowels⟯ ⟮into a single syllable.⟯
-»⟮Unstressed vowel elision/apheresis/syncope/apocope⟯« is ⟮＿elision＿/＿apheresis＿/＿syncope＿/＿apocope＿⟯ of ⟮＿unstressed＿ ＿vowels＿⟯, the ⟮most common type⟯.
+»⟮Unstressed vowel elision/apheresis/syncope/apocope⟯« is ⟮＿phonic＿ ＿elision＿/＿apheresis＿/＿syncope＿/＿apocope＿⟯ of ⟮＿unstressed＿ ＿vowels＿⟯, the ⟮most common type⟯.
 ⟮＿Elision⎵super narrow⎵＿⟯ is ⟮＿phonic apocope＿⟯ that results in ⟮two words being run together⟯.
-»⟮Haplology⟯« is ⟮＿phonic elision＿⟯ where ⟮an entire syllable is lost⟯, where ⟮c_;that syllable⟯ was ⟮similar to an adjacent syllable⟯
+»⟮Haplology⟯« is ⟮＿phonic elision＿⟯ where ⟮an entire ＿syllable＿ is lost⟯, where ⟮c_;that ＿syllable＿⟯ was ⟮similar to an adjacent syllable⟯
 
 #### epenthesis
 
@@ -19,26 +19,31 @@
 
 ### change in e?ic unit
 
-Alternation⎵change in sound⎵ is phonic change in e?ic unit.
+»⟮Alternation⎵change in sound⎵⟯« is ⟮＿phonic＿⟯ ⟮＿change in e?ic unit＿⟯.
 
 #### what changes
 
-Vowel/consonant alternation/gradation is alternation⎵change in sound⎵/gradation where what changes is vowels/consonants.
+»⟮Vowel/consonant alternation/gradation⟯« is ⟮＿alternation⎵change in sound⎵＿/＿gradation＿⟯ where what changes is ⟮＿vowels＿/＿consonants＿⟯.
 
 #### similation
 
-##### vowel harmony
-
-vowel harmony⎵weak⎵ is assimilation which is phonetic mutation of vowels, making them share certain sm phonic features.
-Backness/Round/Height/Tongue root harmony is vowel harmony where the feature being shared is [back]/[round]/[height]/[root] // TODO check if the feature names are right
-vowel harmony⎵strong⎵ is vowel harmony⎵weak⎵ that is long-distance.
-
 ##### metaphony
 
-metaphony is assimilation which is phonetic mutation of vowels.
-umlaut =syn= metaphony
-I-mutation is umlaut where the sound is fronted or raised (made more similar to [i]) when followed by [i] or [j].
-Vowel harmony is metaphony
+###### definition
+
+»⟮metaphony⟯« is ⟮＿phonic＿⟯ ⟮＿assimilation＿⟯ which is ⟮＿phonetic＿⟯ ⟮＿mutation＿⟯ of ⟮＿vowels＿⟯.
+»⟮umlaut⟯« =syn= ⟮＿metaphony＿⟯
+
+###### I-mutation
+
+»⟮I-mutation⟯« is ⟮＿metaphony＿⟯ where the sound is ⟮＿fronted＿⟯ or ⟮c_;＿raised＿⟯ when followed by ⟮[i]⟯ or ⟮c_;＿[j]＿⟯.
+^i.e. made more similar to [i]
+
+###### vowel harmony
+
+»⟮vowel harmony⎵weak⎵⟯« is ⟮＿metaphony＿⟯ to make them ⟮share certain＿ sm phonic features＿⟯.
+»⟮Backness/Round/Height/Tongue root harmony⟯« is ⟮＿vowel harmony＿⟯ where ＿the sm phonic feature＿ being shared is ⟮[backness]/[round]/[height]/[radical]⟯
+»⟮vowel harmony⎵strong⎵⟯« is ⟮＿vowel harmony⎵weak⎵＿⟯ that is ⟮long-distance⟯.
 
 ##### lenition ＆ fortition
 
@@ -51,7 +56,7 @@ Vowel harmony is metaphony
 
 #### sandhi
 
-»⟮Sandhi⟯« is ⟮＿a change in sound＿⟯ ⟮at ＿a morpheme boundary＿⟯.
+»⟮Sandhi⟯« is ⟮＿a change in sound＿⟯ at ⟮＿a morpheme boundary＿⟯.
 
 ## empty cards
 

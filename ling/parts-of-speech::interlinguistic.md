@@ -31,6 +31,7 @@
 #### basics
 
 Something »⟮attributive/adverbial⟯« acts as ⟮＿a modifier＿⟯ to something that ⟮is/is not⟯ ⟮＿a NP(DP)＿⟯.
+⟮Adnominal⟯ =syn= ⟮attributive⟯
 
 #### things 
 
