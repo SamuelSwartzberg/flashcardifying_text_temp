@@ -2,15 +2,15 @@
 
 ## basics
 
-A npdor is an abstract word class that can be realized as a morpheme, determiner or pronoun.
+»⟮A npdor⟯« is ⟮an abstract word class⟯ that can be realized as ⟮＿a morpheme＿⟯, ⟮c_;＿determiner＿⟯ or ⟮c_;＿pronoun＿⟯.
 ^noun-part-descriptor-or-realizer
 The npdor semantic information is the semantic information common within an npdor.
 
 ## grammar
 
-A determiner is an npdor which is attributive.
+»⟮A determiner⟯« is ⟮＿an npdor＿⟯ which is ⟮＿attributive＿⟯.
 »⟮The determiner agreement features⟯« (my term) are ⟮＿the phi-features＿⟯ for which ⟮＿determiners＿⟯ ⟮exhibit agreement⟯.
-A pronoun is an npdor which replaces a whole NP/DP.
+»⟮A pronoun⟯« is ⟮＿an npdor＿⟯ which ⟮replaces a whole NP/DP⟯.
 
 ## semantics
 
@@ -20,21 +20,21 @@ The npdor type is the type of npdor based on what semantic information it convey
 
 ### deixis
 
-A deictic npdor is an npdor which conveys deictic information, possibly amongst others.
-deictic determiner/pronoun/morpheme =def= deictic npdor that is a determiner/pronoun/morpheme
+»⟮A deictic npdor⟯« is ⟮＿an npdor＿⟯ which ⟮conveys ＿deictic＿ information⟯, possibly ⟮amongst other things⟯.
+»⟮deictic determiner/pronoun/morphem⟯«e =def= ⟮＿deictic npdor＿⟯ that is ⟮＿a determiner/pronoun/morpheme＿⟯
 
 ### mapping
 
 table:npdor type|expresses
-posessive|personal deixis + posession
-demonstrative|proximity deixis
-personal|personal deixis
-relative|discourse deixis
-temporal|temporal deixis
-directional|proximity deixis + direction
-reflexive|personal deixis + self-reference
-quantifier|＿the semic fcategory＿ ＿setlike＿ 
-article|the semic fcategory definiteness
+»⟮posessive⟯«|⟮＿personal deixis＿ + ＿posession＿⟯
+»⟮demonstrative⟯«|⟮＿proximity deixis＿⟯
+»⟮personal⟯«|⟮＿personal deixis＿⟯
+»⟮relative⟯«|⟮＿discourse deixis＿⟯
+»⟮temporal⟯«|⟮＿temporal deixis＿⟯
+»⟮directional⟯«|⟮＿proximity deixis＿ + ＿direction＿⟯
+»⟮reflexive⟯«|⟮＿personal deixis＿ + self-reference⟯
+»⟮quantifier⟯«|⟮＿the semic fcategory＿ ＿setlike＿ ⟯
+»⟮article⟯«|⟮＿the semic fcategory＿ ＿definiteness＿⟯
 
 ## related concepts
 
