@@ -20,11 +20,6 @@
 »⟮c27;sm/ssm⟯« =short for=> ⟮＿segmental/suprasegmental＿⟯
 ⟮c29;s*m⟯ = ⟮＿sm＿ ∨ ＿ssm＿⟯
 
-### suprasegmental caveats
-
-If ⟮c31;＿suprasegmentals＿⟯ are analyzed only as ⟮features passed down⟯, then ⟮the differentiation into segmental/suprasegmental e?ic whatevers becomes unnecessary⟯.
-If something is ⟮c34;not specified as⟯ ⟮＿suprasegmental＿⟯, it is ⟮often assumed to be⟯ ⟮c_-;＿segmental＿⟯.
-
 ## either seg/supraseg
 
 »⟮c37;A s*m emic system⟯« consists of ⟮＿the emic whole＿⟯ and ⟮＿the emic rule set＿⟯.
