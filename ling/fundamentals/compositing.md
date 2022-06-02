@@ -1,4 +1,4 @@
-# composite element
+# compositing
 
 ## basics
 
@@ -7,11 +7,11 @@ A composite element (my term) is an element created by compositing.
 
 ## compositing mechanisms
 
-»⟮A compositing mechanism⟯« is ⟮the combination of⟯ ⟮n ＿compositing ingredients＿⟯ and ⟮＿a compositing  pprocess＿⟯.
-The compositing  mechanism result is the item produced by a compositing  mechanism.
-A complex compositing  mechanism is the application of one or more compositing  mechanisms recursively.
+»⟮A compositing mechanism⟯« is ⟮the combination of⟯ ⟮n ＿compositing ingredients＿⟯ and ⟮＿a compositing pprocess＿⟯.
+The compositing mechanism result is the item produced by a compositing mechanism.
+A complex compositing mechanism is the application of one or more compositing mechanisms recursively.
 
-## ingredients
+## compositing ingredients
 
 A compositing ingredient (my term) is a part of a composite element ≈ a thing used in a compositing mechanism.
 A heart is a compositing ingredient that is somehow fundamental.
@@ -40,6 +40,7 @@ A null=zero concatenative/discatenative item is a concatenative/discatenative it
 ##### position
 
 The catenative position is where a catenative item is attached/removed relative to the heart.
+A catenative position identifier is a name for a certain catenative positon.
 
 #### compending
 
@@ -70,21 +71,23 @@ The modification/replacement compositing pprocess is changing/replacing the hear
 
 A paradigm is the set of composite elements that share a heart.
 
-## positional element
+## specific compositing mechanisms
 
-### basics
+### concatenating
 
-»⟮A positional element⟯« is a catenative item in a certain catenative compositing pprocess.
-⟮＿positional element＿⟯ = {⟮＿affix＿⟯, ⟮＿adposition＿⟯, ⟮＿clitic＿⟯}
+#### basics
 
-### ptype
+possible ⟮＿concatenative items＿⟯ = {⟮＿affix＿⟯, ⟮＿adposition＿⟯, ⟮＿clitic＿⟯}
 
-The ptype is where a positional element goes relative to its heart.
-The ptype identifier is a morpheme identifying a ptype
+#### typical catenative position morpheme 
 
-### mapping
+##### definition
 
-table:position|ptype identifier|non-conforming names
+The typical catenative position morpheme is the morpheme shared by most catenative position identifiers
+
+##### mapping
+
+table:catenative position|typical catenative position morpheme|non-conforming names
 before heart|pre-|proclitic
 after heart|post-|enclitic, sometimes suffix
 before or after heart|ambi-|sometimes adfix
