@@ -1,28 +1,31 @@
-# realization
+# npdor
 
-## determiners
+## basics
 
-»⟮A determiner⟯« is function word that is attributive.
-A determiner may be an article or a deictic determiner.
+A npdor is an abstract word class that can be realized as a morpheme, determiner or pronoun.
+^noun-part-descriptor-or-realizer
+The npdor semantic information is the semantic information common within an npdor.
 
-## deictic words
+## grammar
+
+A determiner is an npdor which is attributive.
+»⟮The determiner agreement features⟯« (my term) are ⟮＿the phi-features＿⟯ for which ⟮＿determiners＿⟯ ⟮exhibit agreement⟯.
+A pronoun is an npdor which replaces a whole NP/DP.
+
+## semantics
 
 ### definition
 
-A deictic worpheme is a worpheme that expresses deixis, possibly among other things.
-Types of deictic worphemes: quantifier, posessive, demonstrative, interrogative, personal deictic worphemes
-Deictic worphemes may have to agree on some or all phi-features
+The npdor type is the type of npdor based on what semantic information it conveys.
 
-### grammar
+### deixis
 
-A pronoun is a deictic worpheme that heads an NP/DP.
-A deictic determiner (my term) is a deictic worpheme that acts as a modifier for a NP/DP.
-A deictic morpheme is a morpheme that is a deictic worpheme.
-deictic worpheme = type + value + 
+A deictic npdor is an npdor which conveys deictic information, possibly amongst others.
+deictic determiner/pronoun/morpheme =def= deictic npdor that is a determiner/pronoun/morpheme
 
-### types
+### mapping
 
-type|expresses
+table:npdor type|expresses
 posessive|personal deixis + posession
 demonstrative|proximity deixis
 personal|personal deixis
@@ -30,25 +33,10 @@ relative|discourse deixis
 temporal|temporal deixis
 directional|proximity deixis + direction
 reflexive|personal deixis + self-reference
-
-### interrogative
-
-interrogative is special, seems to be asking about any of the others
-
-
-quantifier|＿the semic fcategory＿ ＿setlike＿ // troubling category
-
-
-### personal
-
-⟮c68;＿Personal deixis＿⟯ also in verbs ⟮verbs⟯
+quantifier|＿the semic fcategory＿ ＿setlike＿ 
+article|the semic fcategory definiteness
 
 ## related concepts
-
-### article
-
-»⟮An article⟯« is ⟮＿a determiner＿⟯ that ⟮typically encodes ＿the semic fcategory＿ ＿definiteness＿⟯.
-»⟮The article agreement features⟯« (my term) are ⟮＿the phi-features＿⟯ for which ⟮＿articles＿⟯ ⟮exhibit agreement⟯.
 
 ### pro-drop
 
