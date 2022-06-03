@@ -1,80 +1,87 @@
 # arguments
 
-## verblikeal arguments
+## vlikeのarguments
 
 ### basics
 
-»⟮A verblikeal argument⟯« is ⟮＿an argument＿⟯ ⟮of a verblike⟯.
-⟮＿verblikeal arguments＿⟯ are ⟮most commonly⟯ ⟮DPs/NPs⟯ or ⟮＿complement clauses＿⟯.
+»⟮A vlikeのargument⟯« is ⟮＿an argument＿⟯ ⟮of a verblike⟯.
+⟮＿vlikeのarguments＿⟯ are ⟮most commonly⟯ ⟮DPs/NPs⟯ or ⟮＿complement clauses＿⟯.
 
 ### verblikes
 
-»⟮A verblike⟯« (my definition) is something that takes ⟮0 or more⟯ ⟮＿verblikeal arguments＿⟯ in ⟮＿the typical ways＿⟯ and (thus?) ⟮can become ＿a predicate⎵narrow⎵＿⟯.
+»⟮A verblike⟯« (my definition) is something that takes ⟮0 or more⟯ ⟮＿vlikeのarguments＿⟯ in ⟮＿the typical ways＿⟯ and (thus?) ⟮can become ＿a predicate⎵narrow⎵＿⟯.
+
+### valency
+
+»⟮Valency/transitivity⟯« is ⟮the amount of⟯ ⟮any/non-＿subject＿⟯ ⟮＿vlikeのarguments＿ a ＿verblike＿ has⟯.
+»⟮An ambitransitive verblike⟯« is ＿a verblike＿ with ⟮＿a transitivity＿ of 0 or 1⟯
+⟮Both greek and latinate⟯ numeral words are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
 
 ## thematic/semantic role
 
 ⟮Semantic⟯ =syn= ⟮thematic⟯ =syn= ⟮theta⟯ role/relationship.
 Semantic/thematic/theta ⟮role⟯ =syn= semantic/thematic/theta ⟮relationship⟯.
-»⟮A thematic role⟯« is ⟮the semantic relationship⟯ ⟮＿a verblikeal argument＿⟯ has to ⟮＿its verblike＿⟯.
+»⟮A thematic role⟯« is ⟮the semantic relationship⟯ ⟮＿a vlikeのargument＿⟯ has to ⟮＿its verblike＿⟯.
 
 ### table
 
 table:thematic roles|meaning|Ram broke the window with a flail
-»⟮agent⟯«|⟮volitional initiator⟯|⟮c+;hb;☞Ram☜ broke the window with a flail⟯
+»⟮agent⟯«|⟮volitional initiator⟯|⟮hb;☞Ram☜ broke the window with a flail⟯
 »⟮experiencer⟯«|⟮the entity that receives sensory or emotional input⟯
-»⟮instrument⟯«|⟮Means of action⟯|⟮c+;hb;Ram broke the window with ☞a flail☜⟯
-»⟮patient⟯«|⟮undergoes action, changes state⟯|⟮c+;hb;Ram broke ☞the window☜ with a flail.⟯
+»⟮instrument⟯«|⟮Means of action⟯|⟮hb;Ram broke the window with ☞a flail☜⟯
+»⟮patient⟯«|⟮undergoes action, changes state⟯|⟮hb;Ram broke ☞the window☜ with a flail.⟯
 »⟮theme⟯«|⟮undergoes action, does not change state⟯
 
 ## argument slots ＆ logical arguments
 
 ### basics
 
-An argument slot is a place that a verblikeal argument can occupy. 
-A logical argument is a verblikeal argument typically occupying an argument slot with a certain argument slot index.
+»⟮An argument slot⟯« is ⟮a place⟯ that ⟮＿a logical argument＿⟯ can ⟮c_-;occupy⟯. 
+»⟮A logical argument⟯« is an ⟮abstract⟯ ⟮＿vlikeのargument＿⟯ ⟮typically⟯ ⟮occupying⟯ a ⟮c-;certain⟯ ⟮＿fully specified argument slot＿⟯
 
 ### derived concepts
 
-The argument slot/logical argument sequence is the sequence of argument slots/logical arguments that a verblike has.
-The argument slot/logical argument index is the index of the argument slot/logical argument.
-A1/A2/.../An:L1/L2/.../Ln is the argument slot/logical argument with argument slot/logical argument index of 1/2/.../n
-
-### valency
-
-»⟮Valency/transitivity⟯« is ⟮the amount of⟯ any/non-subject ⟮＿verblikeal arguments＿ a ＿verblike＿ has⟯.
+»⟮The argument slot/logical argument sequence⟯« is ⟮the sequence⟯ of ⟮c_;＿argument slots/logical arguments＿⟯ that ⟮＿a verblike＿⟯ with a given ⟮c_;＿valency＿⟯ has.
+»⟮The argument slot/logical argument index⟯« is the index of ⟮＿the argument slot/logical argument＿⟯.
+»⟮A1, A2,..., An/L1, L2,..., Ln⟯« is ⟮＿the argument slot/logical argument＿⟯ with ⟮＿argument slot/logical argument index＿⟯ of ⟮c_;1, 2,..., n⟯
+»⟮A fully specified argument slot/logical argument⟯« is one with a ⟮certain⟯ ⟮＿index＿⟯ of ⟮c_;＿a verblike＿⟯ with a ⟮c-;certain⟯ ⟮＿valency＿⟯ 
 
 ### subject/object
 
 »⟮A subject/object⟯« is ⟮A1/A2 - An of any ＿verblike＿⟯.
 
-### case
+### interface with other concepts
 
-The argument slot case is the abstract case a certain argument slot of a certain valency has attached.
-The logical argument thematic role is the thematic role a certain logical argument of a certain valency has attached.
-Morphosyntactic alignment assigns argument slot case to argument slots.
+#### basics
+
+»⟮The argument slot case⟯«/»⟮The logical argument thematic role⟯« is ⟮＿the abstract case＿⟯/⟮c_;＿the thematic role＿⟯ of ⟮＿a fully specified argument slot/logical argument＿⟯;
+
+#### argument slots → case
+
+»⟮Morphosyntactic alignment⟯« assigns ⟮＿argument slot case＿⟯ to ⟮＿fully specified argument slots＿⟯.
 ⟮＿Morphosyntactic alignment＿⟯ typically varies by ⟮＿languoid＿⟯, not ⟮c_;within ＿a languoid＿⟯.
 
-### distribution
+#### logical arguments → thematic roles
 
-#### !thematic roles (under the active voice)
+Typically, ⟮L1/L2/L3 (if extant)⟯ is ⟮＿the agent＿/＿patient＿/＿theme＿⟯.
+In cases of ⟮＿intransitive verblikes＿⟯, ⟮L1⟯ may also frequently be ⟮＿the experiencer＿⟯.
 
-Typically, ⟮A1/A2/A3 (if extant)⟯ is ⟮＿the agent＿/＿patient＿/＿theme＿⟯.
-In cases of ⟮＿intransitive verblikes＿⟯, ⟮A1⟯ ⟮may also frequently⟯ be ⟮＿the experiencer＿⟯.
+### argument slots ↔ logical arguments
 
-#### counting verblikeal arguments
+#### default
 
-»⟮An ambitransitive verblike⟯« is ＿a verblike＿ with ⟮＿a transitivity＿ of 0 or 1⟯
-⟮Both greek and latinate⟯ numeral words are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
+By default ⟮＿Ln＿⟯ occupies the slot ⟮＿An＿⟯.
+Thus by default the argument case of An of a given valency corresponds with the thematic role of Ln occupying An.
 
-## semantic roles in monovalent verblikes
+#### voice
 
-»⟮an unergative/unaccusative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿verblikeal argument＿⟯ is/is not ⟮＿an agent＿⟯ 
-
-## voice
-
-»⟮Grammatical voice⟯« is ⟮＿a sm grammic fcategory＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and may thus place logical arguments in different argument slots.
+»⟮Grammatical voice⟯« is ⟮＿a sm grammic fcategory＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and may thus place Ln somewhere else but An.
+Ergo, under passivelike grammatical voices the argument case of An of a given valency may no longer correspond with the thematic role of Ln occupying An
 ⟮＿Grammatical voice＿⟯ is generally realized on ⟮verblikes/VPs⟯.
 ⟮Grammatical voice⟯ =short=> ⟮voice⟯
+
+
+
 
 
 
