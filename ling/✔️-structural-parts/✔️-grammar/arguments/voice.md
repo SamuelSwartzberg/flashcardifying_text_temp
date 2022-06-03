@@ -10,12 +10,12 @@
 
 ### definition
 
-»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an vlikeのargument＿⟯ and may move logical arguments to different argument slots.
+»⟮A passivelike voice⟯« is ⟮＿a grammatical voice＿⟯ which ⟮＿demotes＿ ＿an vlikeのargument＿⟯.
 
 ### demoting
 
-»⟮Demoting⟯« ⟮＿an vlikeのargument＿⟯ is ⟮dropping it⟯ or ⟮realizing it as a modifier⟯, thus ⟮decreasing ＿the valency＿ of the verblike⟯.
-In ⟮＿demoting＿ ＿a vlikeのargument＿⟯, the ⟮remaining argument(s)⟯ ⟮keep(s) its/their ＿thematic role＿⟯, and ⟮may or may not⟯ ⟮change ＿case＿⟯.
+»⟮Demoting⟯« ⟮＿an vlikeのargument＿⟯ is ⟮dropping it⟯ or ⟮realizing it as a modifier⟯, thus ⟮decreasing ＿the valency＿ of ＿the verblike＿⟯.
+In ⟮＿demoting＿ ＿a vlikeのargument＿⟯, ⟮＿logical arguments＿⟯ will ⟮move⟯ to ⟮now empty⟯ ⟮c_-;＿argument slots＿⟯, if any.
 
 ### valency > 1
 
@@ -23,19 +23,14 @@ In ⟮＿demoting＿ ＿a vlikeのargument＿⟯, the ⟮remaining argument(s)�
 
 ##### basics
 
-The passive/antipassive voice is a passivelike voice which demotes L(1)/L(2), as a result does L(2)/L(1) → A(1) and thus make sure that A(1) has C1, thus also making A(1) a patient/an agent.
+»⟮The passive/antipassive voice⟯« is ⟮＿a passivelike voice＿⟯ which ⟮＿demotes＿⟯ ⟮L(1)/L(2)⟯, as a result does ⟮c_;L(2)/L(1) → A(1)⟯ and thus make sure that ⟮A(1)⟯ has ⟮C1⟯, making ⟮A(1)⟯ ⟮＿a patient/an agent＿⟯.
 
 ##### unaccusative/unergative
 
-»⟮an unergative/unaccusative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿vlikeのargument＿⟯ is/is not ⟮＿an agent＿⟯ 
-Unaccusative verbs are typically analyzed as working similar to passive verbs with no L(1), where the single vlikeのargument L(2) starts out in A(2) but moves to A(1).
+»⟮an unergative/unaccusative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿vlikeのargument＿⟯ ⟮is/is not⟯ ⟮＿an agent＿⟯ 
+⟮＿Unaccusative verbs＿⟯ are typically analyzed as working similar to ⟮＿passive verbs＿⟯ with ⟮no L(1)⟯, where ⟮the single ＿vlikeのargument＿ L(2)⟯ ⟮starts out in A(2)⟯ but ⟮moves to A(1⟯).
 
 #### middle
 
-»⟮The middle voice⟯« is ⟮＿a passivelike voice＿⟯ where ⟮A(1)⟯ is ⟮both ＿the agent＿ and ＿the patient＿⟯.
+»⟮The middle voice⟯« is ⟮＿a passivelike voice＿⟯ where conceptually ⟮L1⟯ and ⟮c_;L2⟯, which ⟮are the same entity⟯, both move to ⟮A(1)⟯, which is thus ⟮both ＿the agent＿ and ＿the patient＿⟯.
 »⟮The mediopassive voice⟯« is ⟮＿a grammatical voice＿⟯ that ⟮merges ＿the middle voice＿ and ＿the passive voice＿⟯.
-
-### valency = 1
-
-»⟮The impersonal passive voice⟯« ⟮＿demotes＿⟯ ⟮the only remaining ＿vlikeのargument＿⟯ of ⟮＿monovalent verblikes＿.
-Languoids often achieve an effect similar to ⟮＿the impersonal passive voice＿⟯ by ⟮inserting a ＿dummy element＿⟯.
