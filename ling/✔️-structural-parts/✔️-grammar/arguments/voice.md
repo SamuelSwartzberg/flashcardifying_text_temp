@@ -23,16 +23,16 @@ In ⟮＿demoting＿ ＿a vlikeのargument＿⟯, the ⟮remaining argument(s)�
 
 ##### basics
 
-The passive/antipassive voice is a passivelike voice which demotes L1/L2, as a result does L2/L1 → A1 and thus make sure that A1 has C1, thus also making A1 a patient/an agent.
+The passive/antipassive voice is a passivelike voice which demotes L(1)/L(2), as a result does L(2)/L(1) → A(1) and thus make sure that A(1) has C1, thus also making A(1) a patient/an agent.
 
 ##### unaccusative/unergative
 
 »⟮an unergative/unaccusative verblike⟯« is ⟮＿an intransitive verblike＿⟯ ⟮whose ＿vlikeのargument＿⟯ is/is not ⟮＿an agent＿⟯ 
-Unaccusative verbs are typically analyzed as working similar to passive verbs with no L1, where the single vlikeのargument L2 starts out in A2 but moves to A1.
+Unaccusative verbs are typically analyzed as working similar to passive verbs with no L(1), where the single vlikeのargument L(2) starts out in A(2) but moves to A(1).
 
 #### middle
 
-»⟮The middle voice⟯« is ⟮＿a passivelike voice＿⟯ where ⟮A1⟯ is ⟮both ＿the agent＿ and ＿the patient＿⟯.
+»⟮The middle voice⟯« is ⟮＿a passivelike voice＿⟯ where ⟮A(1)⟯ is ⟮both ＿the agent＿ and ＿the patient＿⟯.
 »⟮The mediopassive voice⟯« is ⟮＿a grammatical voice＿⟯ that ⟮merges ＿the middle voice＿ and ＿the passive voice＿⟯.
 
 ### valency = 1

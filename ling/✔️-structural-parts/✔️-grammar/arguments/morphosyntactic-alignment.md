@@ -1,33 +1,35 @@
 
 # morphosyntactic alignment
 
-## A1A2 morphosyntactic alignment
+## types
+
+»⟮A(1)A(2)/⟮A(2)A(3) morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with ＿verblikes＿ with ⟮＿valencies＿⟯ of ⟮1 and 2/2 and 3⟯.
+
+## A(1)A(2) morphosyntactic alignment
 
 ### basics
 
-»⟮A1A2 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntactic alignment＿⟯ concerned with ＿verblikes＿ with ⟮＿valencies＿ of 1 and 2⟯.
-⟮＿A1A2 morphosyntactic alignment＿⟯ may be ⟮＿nominative-accusative＿⟯, ⟮＿ergative-absolutive＿⟯, ⟮＿direct＿⟯, ⟮＿tripartite＿⟯, or ⟮＿transitive＿⟯.
-Per definition, the only argument A1 of an intransitive verb has a single case C1 (outside of active alignment)
+⟮＿A(1)A(2) morphosyntactic alignment＿⟯ may be ⟮＿nominative-accusative＿⟯, ⟮＿ergative-absolutive＿⟯, ⟮＿direct＿⟯, ⟮＿tripartite＿⟯, or ⟮＿transitive＿⟯.
 
 ### mapping
 
-table:n↓\v→|1|2
-»⟮nominative-accusative⟯«|⟮A1=C1⟯|⟮A1=C1, A2=C2⟯
-»⟮ergative-absolutive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C1⟯
-»⟮direct⟯«|⟮A1=C1⟯|⟮A1=C1, A2=C1⟯
-»⟮tripartite⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C3⟯
-»⟮transitive⟯«|⟮A1=C1⟯|⟮A1=C2, A2=C2⟯
-active|A1 = sometimes C1, sometimes C2 based on agenthood of A1|A1=C1, A2=C2
+table:name↓\v→          |1                                                            |2
+»⟮nominative-accusative⟯«|span=1,5;⟮A(1)=C1⟯                                            |⟮A(1)=C1, A(2)=C2⟯
+»⟮ergative-absolutive⟯«                                                                |⟮A(1)=C2, A(2)=C1⟯
+»⟮direct⟯«                                                                             |⟮A(1)=C1, A(2)=C1⟯
+»⟮tripartite⟯«                                                                         |⟮A(1)=C2, A(2)=C3⟯
+»⟮transitive⟯«                                                                         |⟮A(1)=C2, A(2)=C2⟯
+»⟮active⟯«               |A(1) = sometimes C1, sometimes C2 based on agenthood of A(1) |A(1)=C1, A(2)=C2
 
 ### caveats
 
-Languoids ⟮can't be fully⟯ ⟮＿direct＿⟯ or ⟮＿transitive＿⟯ in their ＿A1A2 alignment＿, as ＿languoids＿ ⟮need some way⟯ to ⟮tell A1 and A2 of a verblike with valency = 2 apart⟯.
+Languoids ⟮can't be fully⟯ ⟮＿direct＿⟯ or ⟮＿transitive＿⟯ in their ＿A(1)A(2) alignment＿, as ＿languoids＿ ⟮need some way⟯ to ⟮tell A(1) and A(2) of a verblike with valency = 2 apart⟯.
 
 ### case 
 
 #### mapping
 
-table:A1A2 morphosyntactic alignment|case
+table:A(1)A(2) morphosyntactic alignment|case
 ⟮＿ergative-absolutive＿⟯|C1/C2 = »⟮absolutive/ergative case⟯«
 ⟮＿nominative-accusative＿⟯|C1/C2 = »⟮nominative/accusative case⟯«
 ⟮＿direct＿⟯|C1 = »⟮direct case⟯«
@@ -43,7 +45,7 @@ table:A1A2 morphosyntactic alignment|case
 
 In nominative-accusative languages, typically ⟮＿the nominative case＿⟯ is ⟮＿unmarked＿⟯.
 A »⟮marked nominative⟯« ＿morphosyntactic alignment＿ is a ⟮＿nominative-accusative morphosyntactic alignment＿⟯ where ⟮＿the nominative case＿⟯ is ⟮＿marked＿⟯ and ⟮c-;＿the accusative case＿⟯ is ⟮＿unmarked＿⟯.
-In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of ＿divalent verblikes＿⟯ and ⟮c_;A1 of ＿divalent verblikes＿⟯ most often is ⟮＿the agent＿⟯, it is often said that ⟮c_-2;C2⟯ ⟮marks ＿the agent＿ of ＿divalent verblikes＿⟯.
+In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A(1) of ＿divalent verblikes＿⟯ and ⟮c_;A(1) of ＿divalent verblikes＿⟯ most often is ⟮＿the agent＿⟯, it is often said that ⟮c_-2;C2⟯ ⟮marks ＿the agent＿ of ＿divalent verblikes＿⟯.
 
 ### more complex
 
@@ -55,14 +57,13 @@ In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of �
 #### active
 
 ⟮＿active alignment＿⟯ may be ⟮＿split-S＿⟯ or ⟮c_;＿fluid-S＿⟯ 
-»⟮Split-S/Fluid⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the agenthood of A1 of v=1⟯ ⟮has calcified into two classes of ＿verblikes＿⟯/⟮can be chosen by the speaker for effect⟯
+»⟮Split-S/Fluid⟯« alignment is ⟮＿active aligment＿⟯ where ⟮the agenthood of A(1) of v=1⟯ ⟮has calcified into two classes of ＿verblikes＿⟯/⟮can be chosen by the speaker for effect⟯
 
-## A2A3 morphosyntacitic alignment
+## A(2)A(3) morphosyntacitic alignment
 
 ### basics
 
-»⟮A2A3 morphosyntactic alignment⟯« (my term) is ⟮＿morphosyntacitc alignment＿⟯ concerned with ＿verblikes＿ with ⟮＿valencies＿ of 2 and 3⟯
-⟮＿A2A3 morphosyntactic alignment＿⟯ may be ⟮＿dative＿⟯ or ⟮＿dechticaetiative＿⟯.
+⟮＿A(2)A(3) morphosyntactic alignment＿⟯ may be ⟮＿dative＿⟯ or ⟮＿dechticaetiative＿⟯.
 
 ### syn
 
@@ -71,18 +72,18 @@ In ⟮＿ergative-absolutive languages＿⟯, because ⟮C2⟯ marks ⟮A1 of �
 
 ### mapping
 
-alignment|v=2|v=3
-»⟮dative⟯«|⟮A2=CI⟯|⟮A2=CII, A3=CI⟯
-»⟮dechticaetiative⟯«|⟮A2=CI⟯|⟮A2=CI, A3=CII⟯
+alignment          |v=2              |v=3
+»⟮dative⟯«          |span=1,2;⟮A(2)=CI⟯|⟮A(2)=CII, A(3)=CI⟯
+»⟮dechticaetiative⟯«|                 |⟮A(2)=CI, A(3)=CII⟯
 
 ### case names
 
-For ⟮＿A2A3 morphosyntactic alignment＿⟯, ⟮CI⟯ is ⟮whatever the case of A2 is⟯ for ⟮the given ＿A1A2 morphosyntactic alignment＿⟯.
+For ⟮＿A(2)A(3) morphosyntactic alignment＿⟯, ⟮CI⟯ is ⟮whatever the case of A(2) is⟯ for ⟮the given ＿A(1)A(2) morphosyntactic alignment＿⟯.
 under ⟮＿dative/dechticaetative morphosyntactic alignment＿⟯, ⟮CII⟯ is called »⟮dative/dechticaetative⟯«.
 
 ### objects
 
-Under ⟮＿dative/dechticaetative morphosyntactic alignment＿⟯, ⟮A2・A3⟯ is called »⟮direct・indirect object⟯«/»⟮primary/secondary object⟯«.
+Under ⟮＿dative/dechticaetative morphosyntactic alignment＿⟯, ⟮A(2)・A(3)⟯ is called »⟮direct・indirect object⟯«/»⟮primary/secondary object⟯«.
 
 ### complications
 
@@ -96,6 +97,6 @@ Thus, for ⟮＿nominative-accusative＿⟯ & ⟮c_;＿dative＿⟯ ⟮＿morpho
 
 ## realization
 
-The ⟮most common⟯ types of ⟮＿A1A2 morphosyntactic alignments＿⟯ are ⟮＿nominative-accusative＿⟯ followed by ⟮＿ergative-absolutive＿⟯.
-For ⟮＿A2A3 morphosyntactic alignments＿⟯, ⟮＿dative＿⟯ is more common than ⟮c_;＿dechticaetiative＿⟯.
+The ⟮most common⟯ types of ⟮＿A(1)A(2) morphosyntactic alignments＿⟯ are ⟮＿nominative-accusative＿⟯ followed by ⟮＿ergative-absolutive＿⟯.
+For ⟮＿A(2)A(3) morphosyntactic alignments＿⟯, ⟮＿dative＿⟯ is more common than ⟮c_;＿dechticaetiative＿⟯.
 All languages I speak have primarily ⟮＿nominative-accusative＿⟯ ⟮＿dative＿⟯ ＿morphosyntactic alignment＿.

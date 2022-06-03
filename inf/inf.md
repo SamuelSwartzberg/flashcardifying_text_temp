@@ -4336,7 +4336,7 @@ Despite being called '⟮Dock⟯', it's just ⟮macOs⟯'s version of a ⟮taskb
 
 ###### navigation bar
 
-flex-container:✫8f922968919629.5b6dba4c75e8b.png✫✫Dahsboard+Sidebar+Menu.webp✫✫rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA1B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png✫✫NavigationBar_Standard.png✫
+flex-container:✫8f922968919629.5b6dba4c75e8b.png✫✫Dahsboard+Sidebar+Menu.webp✫✫rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA(1)B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png✫✫NavigationBar_Standard.png✫
 A navigation bar/menu/navbar is a bar/strip, generally placed at any edge of the window, that contains links/shortcuts for navigation through a thing (program, app, website, whatever)
 On iOS specifically, a navigation bar appears at the top of the screen, often containing a back button on the left, and a few controls on the right, sometimes a title in the middle
 On android specifically, a navigation bar is the bar at the bottom of the screen that generally houses the three navigation controls: back, home, and overview.

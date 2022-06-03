@@ -14,6 +14,7 @@
 ### valency
 
 »⟮Valency/transitivity⟯« is ⟮the amount of⟯ ⟮any/non-＿subject＿⟯ ⟮＿vlikeのarguments＿ a ＿verblike＿ has⟯.
+⟮＿valency＿⟯ =symb=> ⟮v⟯
 »⟮An ambitransitive verblike⟯« is ＿a verblike＿ with ⟮＿a transitivity＿ of 0 or 1⟯
 ⟮Both greek and latinate⟯ numeral words are used in words counting ⟮＿valency＿ and ＿transitivity＿⟯.
 
@@ -43,12 +44,13 @@ table:thematic roles|meaning|Ram broke the window with a flail
 
 »⟮The argument slot/logical argument sequence⟯« is ⟮the sequence⟯ of ⟮c_;＿argument slots/logical arguments＿⟯ that ⟮＿a verblike＿⟯ with a given ⟮c_;＿valency＿⟯ has.
 »⟮The argument slot/logical argument index⟯« is the index of ⟮＿the argument slot/logical argument＿⟯.
-»⟮A1, A2,..., An/L1, L2,..., Ln⟯« is ⟮＿the argument slot/logical argument＿⟯ with ⟮＿argument slot/logical argument index＿⟯ of ⟮c_;1, 2,..., n⟯
+»⟮A/L(n)⟯« is ⟮＿the argument slot/logical argument＿⟯ with ⟮＿argument slot/logical argument index＿⟯ of ⟮c_;n⟯
+A/L(n,v) is A/L(n) of a verblike with valency v.
 »⟮A fully specified argument slot/logical argument⟯« is one with a ⟮certain⟯ ⟮＿index＿⟯ of ⟮c_;＿a verblike＿⟯ with a ⟮c-;certain⟯ ⟮＿valency＿⟯ 
 
 ### subject/object
 
-»⟮A subject/object⟯« is ⟮A1/A2 - An of any ＿verblike＿⟯.
+»⟮A subject/object⟯« is ⟮A(1)/A(>1) of any ＿verblike＿⟯.
 
 ### interface with other concepts
 
@@ -63,20 +65,20 @@ table:thematic roles|meaning|Ram broke the window with a flail
 
 #### logical arguments → thematic roles
 
-Typically, ⟮L1/L2/L3 (if extant)⟯ is ⟮＿the agent＿/＿patient＿/＿theme＿⟯.
-In cases of ⟮＿intransitive verblikes＿⟯, ⟮L1⟯ may also frequently be ⟮＿the experiencer＿⟯.
+Typically, ⟮＿the logical argument thematic role＿⟯ of ⟮L(1)/L(2)/L(3) (if extant)⟯ is ⟮＿the agent＿/＿patient＿/＿theme＿⟯.
+In cases of ⟮＿intransitive verblikes＿⟯, ⟮L(1)⟯ may also frequently be ⟮＿the experiencer＿⟯.
 
 ### argument slots ↔ logical arguments
 
 #### default
 
-By default ⟮＿Ln＿⟯ occupies the slot ⟮＿An＿⟯.
-Thus by default the argument case of An of a given valency corresponds with the thematic role of Ln occupying An.
+By default A(n,v) contains L(n,v).
+Thus by default: argument case of A(n,v) ≙ thematic role of L(n,v)
+under passivelike grammatical voices: argument case of A(n,v) possibly ≙̸ thematic role of L(n,v)
 
 #### voice
 
-»⟮Grammatical voice⟯« is ⟮＿a sm grammic fcategory＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and may thus place Ln somewhere else but An.
-Ergo, under passivelike grammatical voices the argument case of An of a given valency may no longer correspond with the thematic role of Ln occupying An
+»⟮Grammatical voice⟯« is ⟮＿a sm grammic fcategory＿⟯ which ⟮changes the ＿valency＿ of a verblike⟯ and may thus place L(n) somewhere else but A(n).
 ⟮＿Grammatical voice＿⟯ is generally realized on ⟮verblikes/VPs⟯.
 ⟮Grammatical voice⟯ =short=> ⟮voice⟯
 
