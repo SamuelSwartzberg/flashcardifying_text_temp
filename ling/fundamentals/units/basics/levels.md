@@ -14,3 +14,4 @@
 ## constituents
 
 ⟮＿A level＿⟯ consists of ⟮＿a segmental emic system＿⟯, ⟮＿a suprasegmental emic system＿⟯ and ⟮＿the segmental-suprasegmental interface＿⟯.
+»⟮The segmental emic system⟯« ⟮deals with smaller units⟯ than »⟮the suprasegmental emic system⟯«.
