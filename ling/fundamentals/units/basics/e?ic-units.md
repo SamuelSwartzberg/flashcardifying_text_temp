@@ -4,9 +4,24 @@
 
 »⟮e?ic⟯« = ⟮＿emic＿ ∨ ＿etic＿⟯.
 
-## boundaries
+## as a sequence
+
+### sequences
+
+»⟮A sequence⎵ling units⎵⟯« is ⟮＿a sequence＿ of⟯ ⟮the same kind of ＿e?ic unit＿⟯ with ⟮no claim as to compositionality⟯.
+»⟮A string⟯« is ⟮a ＿sm＿ ＿sequence＿⟯, most commonly of ⟮＿words＿⟯.
+
+### boundaries
 
 »⟮An e?ic unit boundary⟯« is ⟮the spot between two⟯ ⟮＿e?ic units＿⟯.
+
+### cross-segmental
+
+Something »⟮cross-segmental⟯« ⟮concerns multiple sequential ＿e?ic units＿⟯.
+
+### environment
+
+»⟮The e?ic environment⟯« is ⟮the set of ＿e?ic units＿⟯ ⟮before and after ＿an e?ic unit＿⟯.
 
 ## features
 
@@ -30,13 +45,12 @@ An e?ic unit can be be analyzed into a feature matrix.
 ##### distinctive feature
 
 »⟮A distinctive/non-distinctive feature⟯« is ⟮＿a distinctive/non-distinctive feature⎵local⎵＿⟯ or ⟮c_;＿a distinctive/non-distinctive feature⎵universal⎵＿⟯.
-»⟮A distinctive/non-distinctive feature⎵local⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in the given language.
-»⟮A distinctive/non-distinctive feature⎵universal⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in ⟮some/any language(s)⟯.
+»⟮A distinctive/non-distinctive feature⎵local/universal⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in ⟮the given language⟯/ ⟮some/any language(s)⟯.
+»⟮A distinctive/non-distinctive feature⎵⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in .
 
 ##### grouping emic units
 
 »⟮A natural class⟯« is ⟮the set of ＿emic units＿⟯ in a language that ⟮share one or more ＿sm distinctive features＿⟯, thus ⟮behaving similarly in certain situations⟯.
-»⟮A semantic class⟯« contains ⟮＿all lexemic units＿⟯ that ⟮share a ＿semic feature＿⟯.
 
 #### notation
 
@@ -55,7 +69,8 @@ An e?ic unit can be be analyzed into a feature matrix.
 
 ## derived units
 
-»⟮A ling/lingueme⟯« is ⟮＿an etic/emic unit＿⟯ that ⟮can be individually taught/transmitted⟯.
+»⟮A ling/lingueme⟯« is ⟮＿an e?ic unit＿⟯ that ⟮can be individually taught/transmitted⟯.
 ⟮s*m⟯ ⟮{\$LEVELNAME+emo}⟯⟮\$LEVELNAME+eme⟯ = ⟮s*m emic unit 1 ∨ s*m emic unit 2 ∨⟯ ...
 ⟮s*m⟯ ⟮{\$LEVELNAME+o}⟯⟮\$LEVELNAME+e⟯ = ⟮s*m etic unit 1 ∨ s*m etic unit 2 ∨⟯ ...
 ^and so on
+
