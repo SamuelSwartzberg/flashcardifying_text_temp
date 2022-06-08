@@ -1,6 +1,6 @@
 # emic rule set
 
-»⟮An emic rule set⟯« is ⟮the set of rules⟯ governing ⟮＿the emic inventory＿⟯ in ＿the languoid＿.
+»⟮An emic rule set⟯« is ⟮the set of rules⟯ governing ⟮＿the emic whole＿⟯ in ＿the languoid＿.
 
 ## rules related to the e?ic environment
 
@@ -17,7 +17,7 @@
 
 ### linearity
 
-»⟮Linearity⟯« is the presumtion that ⟮＿e?ic units＿⟯ ⟮occur sequentially⟯ with ⟮emic correspondence⟯.
+»⟮Linearity⟯« is the (not always tenable) presumtion that ⟮＿e?ic units＿⟯ ⟮occur sequentially⟯ with ⟮emic-etic correspondence⟯.
 
 ### emic deviation
 

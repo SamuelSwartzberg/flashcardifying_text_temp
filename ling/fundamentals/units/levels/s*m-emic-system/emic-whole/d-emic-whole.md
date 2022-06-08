@@ -1,8 +1,6 @@
 
 
-# emic units
-
-»⟮The e?ic inventory⟯« is ⟮＿the component set＿⟯ of ⟮＿the e?ic whole＿⟯. 
+# e?ic whole
 
 ## structuralism
 
@@ -10,6 +8,10 @@
 
 »⟮An emic whole⟯« is ⟮＿the sign universe＿⟯ for the relevant ⟮＿level topic＿⟯.
 »⟮The emic cake/divider/component/component set⟯« is ⟮the selfsame⟯ of ⟮＿the emic whole＿⟯.
+
+### etic
+
+»⟮An etic whole/cake/divider/component set⟯« is ⟮＿the signifier whole/cake/divider/component set＿⟯ of ⟮＿the emic whole＿⟯
 
 ### caveats
 
@@ -40,15 +42,6 @@ Sometimes, it very much feels like emic (and related concepts) all only refer to
 »⟮emic emics⟯« is the study of ⟮the relation between⟯ ⟮＿an emic unit＿⟯ and ⟮its ＿signifier＿ ＿emic unit＿⟯.
 ^e.g. lexemic sememics (more commonly: lexical semantics)
 
+## e?ic inventory
 
-
-
-
-
-
-
-
-
-
-
-»⟮Reduplication⟯« is ⟮the repetition of⟯ ⟮one or more ＿segments＿⟯ within a larger unit to ⟮produce some effect⟯.
+»⟮The e?ic inventory⟯« is ⟮＿the component set＿⟯ of ⟮＿the e?ic whole＿⟯. 
