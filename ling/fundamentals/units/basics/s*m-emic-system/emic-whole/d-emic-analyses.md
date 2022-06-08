@@ -7,8 +7,6 @@
 »⟮A subemic element⟯« is ⟮＿a cross-linguistic element＿⟯ of which ⟮some combination⟯ ⟮gives rise to the abstract concept of an ＿an emic unit＿⟯.
 The main ⟮＿subemic elements＿⟯ are ⟮＿etic units＿⟯ and ⟮＿features＿⟯.
 
-
-
 ## etic
 
 »⟮The etic analysis⟯« (my term) is seeing »⟮an emic unit⟯« as ⟮an abstract form⟯ of ⟮n ＿etic units＿⟯.
@@ -61,3 +59,16 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 ## features
 
 »⟮The featural analysis⟯« (repurposed term) is seeing »⟮an emic unit⟯« as ⟮a combination of ＿features＿⟯.
+
+## exprs
+
+### etic analysis
+
+!Under a etic analysis,  »⟮an expr⟯« (my term) is either:
+1. !⟮ha;⟮an instance of production⟯ of ⟮something from the ＿emic unit＿'s ＿signifier topic/cake＿⟯⟯.
+2. !⟮h-:_;⟮one of the infinite set of things⟯ that ⟮are grouped into ＿an etic unit＿⟯.⟯
+
+### feature analysis
+
+Under a featural analysis, an expr is a unit with e?ic and expr features specified.
+Expr features end up being those that can only be set in an actual production of an etic unit.
