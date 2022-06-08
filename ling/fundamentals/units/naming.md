@@ -1,13 +1,12 @@
 # abbreviatons
 
 »⟮s*egmental⟯« = ⟮＿segmental＿ ∨ ＿suprasegmental＿⟯
-»⟮s*egmental unit⟯« =short for=> ⟮s*egmental e?ic unit⟯
 »⟮s*egment⟯« =short for=> ⟮＿s*egmental e?ic unit＿⟯
-»⟮sm/ssm⟯« =short for=> ⟮＿segmental/suprasegmental＿⟯
-⟮s*m⟯ = ⟮＿sm＿ ∨ ＿ssm＿⟯
+»⟮sm/ssm/s*m⟯« =short for=> ⟮＿segmental/suprasegmental/s*egmental＿⟯
 
 ## e?ic
 
+»⟮e?ic⟯« = ⟮＿emic＿ ∨ ＿etic＿⟯.
 ⟮E?ic unit⟯ =syn= ⟮e?ic component⟯.
 »⟮e?ics⟯« is ⟮the study of⟯ ⟮＿e?ic units＿⟯.
 »⟮eology⟯« =syn= ⟮＿emics＿⟯
