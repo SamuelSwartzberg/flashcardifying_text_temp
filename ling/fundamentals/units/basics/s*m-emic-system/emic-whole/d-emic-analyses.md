@@ -7,10 +7,7 @@
 »⟮A subemic element⟯« is ⟮＿a cross-linguistic element＿⟯ of which ⟮some combination⟯ ⟮gives rise to the abstract concept of an ＿an emic unit＿⟯.
 The main ⟮＿subemic elements＿⟯ are ⟮＿etic units＿⟯ and ⟮＿features＿⟯.
 
-## contrastiveness
 
-Something being »⟮contrastive⟯« means that ⟮changing it⟯ ⟮would produce a different ＿emic unit＿⟯.
-⟮＿A contrast＿⟯ being »⟮neutralized⟯« is appearing ⟮in ＿an etic environment＿⟯ as ⟮＿alternants＿⟯ where ⟮they normally would be⟯ ⟮c_-4;contrastive⟯
 
 ## etic
 

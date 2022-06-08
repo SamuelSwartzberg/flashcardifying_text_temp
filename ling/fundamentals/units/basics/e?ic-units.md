@@ -4,6 +4,11 @@
 
 »⟮e?ic⟯« = ⟮＿emic＿ ∨ ＿etic＿⟯.
 
+## contrastiveness
+
+Something being »⟮contrastive⟯« means that ⟮changing it⟯ ⟮would produce a different ＿emic unit＿⟯.
+⟮＿A contrast＿⟯ being »⟮neutralized⟯« is appearing ⟮in ＿an etic environment＿⟯ as ⟮＿alternants＿⟯ where ⟮they normally would be⟯ ⟮c_-4;contrastive⟯
+
 ## as a sequence
 
 ### sequences
@@ -23,49 +28,7 @@ Something »⟮cross-segmental⟯« ⟮concerns multiple sequential ＿e?ic unit
 
 »⟮The e?ic environment⟯« is ⟮the set of ＿e?ic units＿⟯ ⟮before and after ＿an e?ic unit＿⟯.
 
-## features
 
-### and e?ic units
-
-»⟮A feature matrix⟯« is ⟮the set of ＿features＿⟯ that ⟮characterize a particular ＿e?ic unit＿⟯.
-An e?ic unit can be be analyzed into a feature matrix.
-»⟮A e?ic feature⟯« is ⟮＿a feature＿⟯ characterizing ⟮＿an e?ic unit＿⟯.
-
-### features
-
-»⟮A feature⟯« is either ⟮＿a ffeature＿⟯ or ⟮c_;＿a fcategory＿⟯.
-»⟮Featural⟯« is ⟮looking at a thing⟯ from ⟮the perspective of ＿features＿⟯.
-
-#### types
-
-»⟮A ffeature⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮a binary value⟯.
-»⟮A fcategory⟯« (my term) is ⟮＿a feature＿⟯ that takes ⟮multiple ＿fvalues＿⟯.
-»⟮A fvalue⟯« is ⟮a value of ＿a feature＿⟯.
-
-##### distinctive feature
-
-»⟮A distinctive/non-distinctive feature⟯« is ⟮＿a distinctive/non-distinctive feature⎵local⎵＿⟯ or ⟮c_;＿a distinctive/non-distinctive feature⎵universal⎵＿⟯.
-»⟮A distinctive/non-distinctive feature⎵local/universal⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in ⟮the given language⟯/ ⟮some/any language(s)⟯.
-»⟮A distinctive/non-distinctive feature⎵⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in .
-
-##### grouping emic units
-
-»⟮A natural class⟯« is ⟮the set of ＿emic units＿⟯ in a language that ⟮share one or more ＿sm distinctive features＿⟯, thus ⟮behaving similarly in certain situations⟯.
-
-#### notation
-
-⟮＿A feature＿⟯ is indicated by ⟮[‹name›]⟯.
-⟮＿A feature＿⟯'s ⟮states⟯ are indicated by ⟮[+ ‹name›]⟯ and ⟮c_;[- ‹name›]⟯
-
-#### grouping features
-
-»⟮A fclass⟯« is ⟮a set of⟯ ⟮＿features＿⟯, ⟮c_;＿feature categories＿⟯ or ⟮c_;＿fclasses＿⟯ that ⟮are expressing a common thing⟯.
-»⟮A top-level fclass⟯« (my term) is ⟮＿a fclass＿⟯ that is ⟮not part of a larger ＿fclass＿⟯.
-^The difference between a fclass and a fcategory is that a emic unit can have multiple features from a fclass, while a fcategory is mutually exclusive.
-
-#### polysemy
-
-»⟮a feature⎵alternative context⎵⟯« may also be ⟮any linguistically salient property⟯ of ⟮a languoid⟯.
 
 ## derived units
 
@@ -74,3 +37,22 @@ An e?ic unit can be be analyzed into a feature matrix.
 ⟮s*m⟯ ⟮{\$LEVELNAME+o}⟯⟮\$LEVELNAME+e⟯ = ⟮s*m etic unit 1 ∨ s*m etic unit 2 ∨⟯ ...
 ^and so on
 
+## exprs
+
+Importantly, ⟮＿etic units＿⟯ are still in some sense ⟮abstract⟯, they are not ⟮c_-;＿exprs＿⟯.
+»⟮An expr⟯« is ⟮an instance of production⟯ of ⟮something from the ＿emic unit＿'s ＿signifier topic/cake＿⟯.
+Alternatively, »⟮an expr⟯« is ⟮one of the infinite set of things⟯ that ⟮are grouped into ＿an etic unit＿⟯.
+^e.g. saying a sound, writing a glyph....
+
+### and e?ic units
+
+»⟮An e?ic unit⟯« can be be analyzed into a feature matrix.
+»⟮A e?ic feature⟯« is ⟮＿a feature＿⟯ characterizing ⟮＿an e?ic unit＿⟯.
+
+##### distinctive feature
+
+»⟮A distinctive/non-distinctive feature⎵local/universal⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in ⟮the given language⟯/ ⟮some/any language(s)⟯.
+
+##### grouping emic units
+
+»⟮A natural class⟯« is ⟮the set of ＿emic units＿⟯ in a language that ⟮share one or more ＿sm distinctive features＿⟯, thus ⟮behaving similarly in certain situations⟯.

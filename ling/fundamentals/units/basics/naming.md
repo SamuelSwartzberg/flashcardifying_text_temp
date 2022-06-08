@@ -10,6 +10,8 @@
 
 ⟮E?ic unit⟯ =syn= ⟮e?ic component⟯.
 »⟮e?ics⟯« is ⟮the study of⟯ ⟮＿e?ic units＿⟯.
+»⟮eology⟯« =syn= ⟮＿emics＿⟯
+
 
 ### naming
 
