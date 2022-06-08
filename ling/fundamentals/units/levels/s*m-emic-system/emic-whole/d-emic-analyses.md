@@ -13,6 +13,12 @@ The main ⟮＿subemic elements＿⟯ are ⟮＿etic units＿⟯ and ⟮＿featu
 »⟮An etic unit⟯« is ⟮a division⟯ of ⟮＿an emic unit＿⟯'s ⟮＿signifier component＿⟯ into ⟮a number of ＿alternants＿⟯.
 »⟮An emma⟯« is ⟮＿an etic unit＿⟯ ⟮chosen arbitrarily⟯ to ⟮represent ＿the emic unit＿⟯.
 
+### contrastiveness
+
+Something being »⟮contrastive⟯« means that ⟮changing it⟯ ⟮would produce a different ＿emic unit＿⟯.
+»⟮A distinctive/non-distinctive feature⎵local/universal⎵⟯« is ⟮＿a feature＿⟯ that is ⟮＿contrastive/not contrastive＿⟯ in ⟮the given language⟯/ ⟮some/any language(s)⟯.
+⟮＿A contrast＿⟯ being »⟮neutralized⟯« is appearing ⟮in ＿an etic environment＿⟯ as ⟮＿alternants＿⟯ where ⟮they normally would be⟯ ⟮c_-4;contrastive⟯
+
 ### alternants
 
 »⟮An alternant⟯« is a ⟮different⟯ ⟮＿etic unit＿⟯ ⟮of ＿the same emic unit＿⟯.
@@ -62,10 +68,12 @@ Finding ⟮a ＿minimal pair＿⟯ ⟮proves⟯ that ⟮the two ＿etic units＿
 
 ## exprs
 
+an expr is an actual production of an emic unit.
+
 ### etic analysis
 
-!Under a etic analysis,  »⟮an expr⟯« (my term) is either:
-1. !⟮ha;⟮an instance of production⟯ of ⟮something from the ＿emic unit＿'s ＿signifier topic/cake＿⟯⟯.
+Under a etic analysis,  ⟮＿an expr＿⟯ (my term) may be thought of as either:
+1. !⟮ha;⟮something from⟯ ⟮the ＿emic unit＿'s ＿signifier topic/cake＿⟯⟯.
 2. !⟮h-:_;⟮one of the infinite set of things⟯ that ⟮are grouped into ＿an etic unit＿⟯.⟯
 
 ### feature analysis
