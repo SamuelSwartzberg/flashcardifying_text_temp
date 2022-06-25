@@ -75,6 +75,10 @@ rendaku is morphosyntactic mutation of consonants.
 
 略語
 
+⟮　文語（ぶんご） (classical japanese)⟯ was ⟮a H variety⟯ during ⟮＿diglossia＿⟯.
+
+besides a left-out verb, を at the end of clauses may express a wish
+
 ### history, culture, etc
 
 
