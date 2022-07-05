@@ -79,6 +79,15 @@ rendaku is morphosyntactic mutation of consonants.
 
 besides a left-out verb, を at the end of clauses may express a wish
 
+http://www.front-sci.com/journal/article?doi=10.32629/jher.v3i2.735
+Abstract: 
+
+In the process of language evolution, some te-verb forms in Japanese have been converted into adverbial modifiers or complete adverbs for modifying predicates. The conversion from the verb to the adverbial modifier or to the adverb is a gradual process. On the basis of the previous researches, this paper takes「敢えて」,「極めて」,「初めて」,「改めて」,「好んで」and「目立って」as the research objects, and through the investigation of corpus to explore the evolution of te-verb forms to adverbial modifiers or adverbs in diachronic process from recent period to modern one. With the observation of the frequency and semantic changes, the degrees of adverbization of the research objects have been improved or reduced, and the conversion of word classes is a process of dynamic change.
+
+https://www.taylorfrancis.com/books/mono/10.4324/9781003178842/practical-guide-scholarly-reading-japanese-fumiko-nazikian-keiko-ono-naofumi-tatsumi
+
+https://en.wikipedia.org/wiki/Nominalization#Japanese
+
 ### history, culture, etc
 
 
