@@ -88,6 +88,8 @@ https://www.taylorfrancis.com/books/mono/10.4324/9781003178842/practical-guide-s
 
 https://en.wikipedia.org/wiki/Nominalization#Japanese
 
+https://jisho.org/word/%E3%82%BA
+
 ### history, culture, etc
 
 
