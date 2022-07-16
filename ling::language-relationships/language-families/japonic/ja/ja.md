@@ -90,6 +90,14 @@ https://en.wikipedia.org/wiki/Nominalization#Japanese
 
 https://jisho.org/word/%E3%82%BA
 
+https://www.reddit.com/r/linguistics/comments/vv8fjf/how_does_japanese_have_double_consonants_if_it/
+
+ていく・てくる marking aspect?
+
+当+on'yomi = this x, the precise x (though the meaning seams to vary a little, e.g. 当時 = at that time, in those days)
+
+Japanese from a structural metaphor perspective, search for existing papers perhaps
+
 ### history, culture, etc
 
 
