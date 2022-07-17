@@ -98,6 +98,10 @@ https://www.reddit.com/r/linguistics/comments/vv8fjf/how_does_japanese_have_doub
 
 Japanese from a structural metaphor perspective, search for existing papers perhaps
 
+https://en.wikipedia.org/wiki/Contraction_(grammar)#Japanese
+
+見せパン
+
 ### history, culture, etc
 
 
