@@ -102,6 +102,10 @@ https://en.wikipedia.org/wiki/Contraction_(grammar)#Japanese
 
 見せパン
 
+sound change in borrowing: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.992.5269&rep=rep1&type=pdf, https://journals.sagepub.com/doi/full/10.1177/0023830920930042
+
+https://www.reddit.com/r/linguistics/comments/e7n9tp/leftbranching_headfinal_languages_with/
+
 ### history, culture, etc
 
 
