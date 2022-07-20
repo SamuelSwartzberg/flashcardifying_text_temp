@@ -106,6 +106,8 @@ sound change in borrowing: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10
 
 https://www.reddit.com/r/linguistics/comments/e7n9tp/leftbranching_headfinal_languages_with/
 
+頼んだよ = past tense as command? something else?
+
 ### history, culture, etc
 
 
