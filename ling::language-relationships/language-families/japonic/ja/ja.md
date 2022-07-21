@@ -108,6 +108,10 @@ https://www.reddit.com/r/linguistics/comments/e7n9tp/leftbranching_headfinal_lan
 
 頼んだよ = past tense as command? something else?
 
+たいな~
+
+https://en.wikipedia.org/wiki/Cleft_sentence#Japanese
+
 ### history, culture, etc
 
 
