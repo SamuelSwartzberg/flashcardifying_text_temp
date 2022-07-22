@@ -18,3 +18,12 @@ If ‹dfn› has a `title`, its contents may be something else then the name of 
 The ‹del› HTML element represents text that has been deleted from a document.
 The ‹ins› HTML element represents text that has been added to the document.
 The ‹del› and ‹ins› elements are often used for purposes such as tracking changes or source code diffs.
+
+## ruby 
+
+ruby text/characters are small annotative glosses placed on the top or to the right of characters.
+Ruby text/characters is called furigana in japanese.
+In HTML, ruby text is delimited by the ‹ruby› tag
+In HTML ruby annotation, the syntax is ‹ruby›lowertext‹rt›uppertext‹/rt›‹/ruby›
+In HTML, one may designate fallback delimiters for the upper text. 
+Ruby fallback delimiters are enclosed in ‹rp› tags, and go before and after the ‹rt› delimited uppertext.

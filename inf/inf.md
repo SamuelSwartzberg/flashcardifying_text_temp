@@ -1,271 +1,4 @@
-
-# body
-
-
-
-
-
-## Headings
-
-‹h1› to ‹h6› define headings.
-It is an antipattern to skip heading levels between ‹h1› and ‹h6›
-Skipping heading levels between ‹h1› and ‹h6› results in bad accessibility and SEO heading levels
-‹h1›
-There may only be one ‹h1› per page, which should describe the overall purpose of the page.
-Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
-There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
-
-## progress and meter
-
-A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
-In HTML, a progress bar can be indicated by ‹progress›
-In HTML, meter generally displays as a bar of varying fullness.
-In HTML, meter supposedly represents a scalar value within a known range.
-In HTML, progress only accepts max and value as attributes, reflecting the semantics of the completion of a task.
-The min and max attributes specify the minimum/maximum value and are allowed on certain types of ‹input›s as well as ‹meter› and max also on ‹progress›
-The low, high and optimum attributes may only be specified on ‹meter›
-In HTML both progress and meter support a fallback text value within their tags.
-
-## tables
-
-table › tbody/thead/tfoot (optional level, but if used, any tr must be within it)
-tbody/thead/tfoot › tr
-tr › th/td
-
-caption  optional child of table
-
-to make a td/th occupy multiple columns/rows, use colspan/rowspan="‹integer›"
-HTML tables are for tabular data, not for layout
-
-The ‹colgroup› HTML element defines a group of columns within a table, e.g. for styling.
-The ‹colgroup› is made up of ‹col› elements
-The ‹col› element takes a span attribute indicating how many columns are being targeted.
-The ‹colgroup› element must be the first child of ‹table› (besides ‹caption›, if it is present)
-
-## canvas
-
-The ‹canvas› element allows drawing graphics and animations via the canvas scripting API or the WebGL API
-Sizing the canvas using CSS versus HTML
-
-The displayed size of the canvas can be changed using CSS, but if you do this the image is scaled during rendering to fit the styled size, which can make the final graphics rendering end up being distorted.
-
-It is better to specify your canvas dimensions by setting the width and height attributes directly on the ‹canvas› elements, either directly in the HTML or by using JavaScript.
-
-## map
-
-‹map› defines an image map, within which ‹area› defines clickable areas.
-‹map› takes a shape attribute with the possible values circle, poly, rect.
-The shape of a map with a given shape attribute is specified by the coords attribute
-You refer to a map via its name attribute included in an ‹img› usemap attribute prefixed by #
-
-## links
-
-The content between the tags should be descriptive of what the link does.
-
-The ‹link› HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
-
-The rel attribute defines the relationship between a linked resource and the current document. Valid on ‹link›, ‹a›, ‹area›, and ‹form›, the supported values depend on the element on which the attribute is found.
-
-rel=opener/noopener create a top-level browsing context that is/is not a auxiliary browsing context if the hyperlink would create either of those, to begin with (i.e., has an appropriatetargetattribute value).
-rel=nofollow indicates that the current document's original author or publisher does not endorse the referenced document, and thus doesn't confer some of your sites reputation onto the linked sites reputation.
-Comment sections may have rel=nofollow by default
-rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
-
-### ‹link›
-
-rel="icon"|specifies an icon representing the current document
-rel="stylesheet"|indicates a stylesheet for the document
-
-If rel="icon", the sizes attribute of link specifies which sizes are applicable.
-link-sizes-values ::= any|(‹size-spec›{ ‹size-spec›})
-size-spec ::= ‹width›(x|X)‹height›
-
-the type attribute of ‹link› specifies the mime type of the resource; however this is generally omitted except for rel="icon"
-
-rel="alternate" indicates that the link is to an alternate version of your site, e.g. in a different language.
-if rel="alternate" is linking to a version in a different language, it should have a hreflang of whatever BCP 47 lang code
-rel="alternate" indicates a canonical URL for a page, useful if you have multiple urls for the same page and want crawlers etc. to use a specific one.
-
-### hyperlinks
-
-The two elements that create hyperlinks are ‹area› and ‹a›.
-use the attribute href for ‹area› and ‹a› to specify an URL of the links target.
-The target attribute of ‹area›/‹a› specifies in which browsing context to open the link.
-_self|current browsing context
-_blank|new window/tab
-_parent|parent browsing context
-_top|root node browsing context
-for ‹form›, the target attribute represents where to display the response after submitting the form  
-
-#### a
-
-the download attribute of ‹a› Prompts the user to save the linked URL instead of navigating to it. 
-the download attribute of ‹a› Can be used with or without a value.
-the download attribute of ‹a› used without a value will prompt the browser to suggest a file type.
-the download attribute of ‹a› used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
-
-## forms
-
-
-Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing ‹form› element or the element whose id is specified in the form attribute.
-
-‹button›
-‹fieldset›
-‹input›
-‹keygen›
-‹label›
-‹meter›
-‹object›
-‹output›
-‹progress›
-‹select›
-‹textarea›
-
-Form-associated content does not necessarily always have to be within a form.
-
-This category contains several sub-categories:
-
-listed
-Elements that are listed in the form.elements and fieldset.elements IDL collections. Contains ‹button›, ‹fieldset›, ‹input›, ‹keygen›, ‹object›, ‹output›, ‹select›, and ‹textarea›.
-
-labelable
-Elements that can be associated with ‹label› elements. Contains ‹button›, ‹input›, ‹keygen›, ‹meter›, ‹output›, ‹progress›, ‹select›, and ‹textarea›.
-
-submittable
-Elements that can be used for constructing the form data set when the form is submitted. Contains ‹button›, ‹input›, ‹keygen›, ‹object›, ‹select›, and ‹textarea›.
-
-resettable
-Elements that can be affected when a form is reset. Contains ‹input›, ‹keygen›, ‹output›,‹select›, and ‹textarea›.
-
-### form itself
-
-A ‹form› element represents a form.
-the method attribute of form accepts post|get|dialog.
-post/get|use the POST/GET methods
-// for dialog see ‹dialog›
-The action attribute for form specifies the URL to which the form should be submitted.
-Forms may not be nested.
-
-### fieldset
-
-A ‹fieldset› is an HTML element used to group multiple inputs (and their labels)
-The first child of a fieldset may be a ‹legend› (this is the only place it may appear), which captions its parent fieldset
-
-### button
-
-The ‹button› HTML element represents a clickable button
-the type attribute for ‹button› represents the default functionality
-submit|submit form data to server
-reset|reset form data
-button|no default behavior, must manually be implemented
-
-A button should have text content, or if not, it needs to be specified by aria-label
-
-### textarea
-
-textarea represents a multiline text input field
-textarea is not an empty element, and in fact the content can be used to provide a default value.
-
-### label
-
-A ‹label› provides a caption/label for a thing, most commonly an ‹input›
-There are two ways of associating an ‹input› with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
-Any input should have exactly one ‹label›, or alternatively a non ‹label› referred to by aria-labelledby
-
-### input
-
-specifying the value property of an input element in HTML sets its initial value.
-As the state of ‹input›s changes, the value property in JS is updated.
-The validation states of an input are contained in the ValidationState API and corresponding property./
-
-#### types
-
-type="color" for colors
-type="hidden" does not show the control, but still submits the data.
-
-##### radio ＆ checkbox
-
-A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
-In HTML, a radio button is realized by ‹input type="radio"›
-In HTML, multiple radio buttons are linked by assigning them the same number.
-radio and checkbox input accept the attribute checked to specfiy if they are checked
-
-
-Bootstrap:
-
-.form-check # set of radio buttons
-.form-check-label   define a label for a checkbox/radio button
-.form-check-input   define a checkbox/radio button
-
-##### text
-
-‹input type="text"› is single-line only
-There are a set of input types that act similarly text, but force a certain type of validation and change the soft keyboard/add input helpers, similar to inputmode:
-time-related: date, datetime-local, month, time, week
-number: number
-other: email, password, tel, search, url
-On any text-like input which is not time-related and not 'number' as well as on textarea, you may specify the minlength and maxlength attributes to contstrain the amount of UTF-16 code units.
-On any non-time-related, non-number text-like input, you may specify the attribute `pattern`, providing a regex against which to match the input.
-most text-only input fields may have the readonly attribute specfied, which shows the inital value but doesn't allow the user to modify it
-the time-related and number text-like inputs plus range accept a step argument.
-
-##### file
-
-inputs of type file accept an attribute accept (lol) which takes a CSL of unique file type specifiers
-an unique file type specfier is either a filename extension starting with a period, or a valid MIME type.
-valid for the file input type only, the capture attribute defines which media—microphone, video, or camera—should be used to capture a new file for upload with file upload control in supporting scenarios.
-input type file return a `FileList`, which is a linear collection of `File`s
-
-##### image
-
-Input type image supports the attributes ‹img› supports, in addition to the usual ones of input.
-When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
-The coordinates of an input type="image" will be submitted as ‹name›.x=‹coord›＆name.y=‹coord›
-
-##### submit
-
-#### attributes
-
-the boolean multiple attribute may be set on input type email/file and ‹select› elements.
-When the multiple attribute is set for input type email, emails are separated with the comma.
-Any input may have a form attribute to associate it with the id of its form owner.
-The list attribute of most text-like input types plus range and color accepts an id of a ‹datalist›, which represents a list of predefined values.
-The ‹datalist› HTML element contains a set of ‹option› to indicate a predefined value each.
-For most input types, the value attribute merely indicates an initial default, for input type radio/checkbox/image, the value attribute specicifies the value that will be sent if that thing is checked
-A checkbox or radio button with no value property will be sent as name=on.
-Radio buttons/checkbox inputs are only sent if they are checked.
-In a form, the name attribute becomes the key that the value being sent is associated with
-If the name of a thing in a form is not specified, the value is not sent.
-autofocus
-A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the ‹dialog› containing the element has been displayed).
-
-## select, option
-
-The ‹select› HTML element represents a control that provides a menu of options:
-The ‹option› HTML element is used to define an item contained in a ‹select›, an ‹optgroup›, or a ‹datalist› element. 
-The ‹optgroup› HTML element creates a grouping of options within a ‹select› element.
-to set the default option, specify the selected attribute on the option.
-
-By default, ⟮html `‹select›`⟯s will usually ⟮display as as a dropwdown⟯, and only ⟮become a list box⟯ if `⟮multiple⟯` (⟮allowing multiple selection::purpose⟯) or `⟮size⟯` (⟮specifying how many items to show at once::purpose⟯) is specified‹/span›
-
-## output
-
-The ‹output› HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
-‹output› are often used within forms, however tehy are not submitted with the form.
-
-## script
-
-to include an external script, set the src attribute of the ‹script› element to its URL
-the ‹noscript› tag is for displaying content if the browser does not support JS
-
-## Ruby 
-
-ruby text/characters are small annotative glosses placed on the top or to the right of characters.
-Ruby text/characters is called furigana in japanese.
-In HTML, ruby text is delimited by the ‹ruby› tag
-In HTML ruby annotation, the syntax is ‹ruby›lowertext‹rt›uppertext‹/rt›‹/ruby›
-In HTML, one may designate fallback delimiters for the upper text. 
-Ruby fallback delimiters are enclosed in ‹rp› tags, and go before and after the ‹rt› delimited uppertext.
+# general UI elements for some reason
 
 ## aside
 
@@ -319,12 +52,6 @@ If you have ⟮a table (tabular⟯) where you want to make sure it ⟮flows well
 ⟮the optional argument []⟯ to ⟮\caption⟯ takes ⟮a short title⟯ for use ⟮in the listoftables/figures⟯ 
 to ⟮\label⟯ a ⟮table/figure⟯, the ⟮\label⟯ must go ⟮directly after \caption⟯ 
 
-
-## data
-
-‹data› represents things that have a machine-readable translation
-‹time› represents a time/date/duration.
-
 ## Lists
 
 In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
@@ -342,131 +69,20 @@ In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols�
 it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯ they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
 ⟮unordered list items⟯ are started by ⟮-⟯, ⟮*⟯ or ⟮+⟯, which can be ⟮mixed and matched⟯. 
 
-## containers
 
-div and span are 'pure' container without any semantics.
-the difference between div and span is that div is by default block-level (display: block flow) and that span is by default inline (display: inline flow)
+## data
 
-### semantic containers
+‹data› represents things that have a machine-readable translation
+‹time› represents a time/date/duration.
 
-Some HTML elements are functionally just containers with extra semantics attached (part of semantic html)
-HTML element|semantic container for
-header|heading-related content
-footer|footer
-main|
-section|generic, but semantically meaningful section
-article|self-contained information which could be independently reused
-aside|content only indirectly related to main content
-address|contact information|may not contain heading/sectioning content
-nav|navigation section
 
-## inline nonhtml
 
-‹style› allows including CSS inline, by including it as content
-‹script› allows including JS or other scripting languages inline, by including it as content
 
-## deprecated elements
 
-‹menu› was supposed to be a semantic alternative to ‹ul› for menus, but is now deprecated
-‹menuitem› was meant to be a child of ‹menu› if ‹menu› was a context menu, but is now deprecated.
-‹dir› was supposed to be a semantic alternative to ‹ul› for directories of files and folders, but is now deprecated.
-‹keygen› was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
-‹font› was an element to style text, but is now deprecated.
 
-# content categories
 
-Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
 
-Flow content
-Flow content is a broad category that encompasses most elements that can go inside the ‹body› element.
 
-Heading content is a subset of flow content that includes h1-h6, and theoretically though not relevantly the never-implemented the-spec-is-lying-about-it hgroup
-Sectoning content is a subset of flow content that was supposed to be relevant for the outline algorithm that was never implemented, and so is a somewhat-irrelevant category.
-
-Phrasing content is a subset of flow content that defines the text and the markup it contains, and can be used everywhere flow content is expected. 
-
-Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
-
-## embedded content
-
-Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
-
-embedded cotnetn cotnains the media elements video and audio, image-related elements img, picture, and svg, math, frames, canvas, object, embed plus the obsolete elements applet
-
-‹applet› was used to embed java applets, but is now obsolete.
-The ‹object› HTML element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
-The ‹param› HTML element defines parameters for an ‹object› element.
-The ‹embed› HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
-
-‹math› and ‹svg› embed content in HTML from MathML and SVG respectively
-
-# Common attributes
-
-the `datetime` attribute specifies the date and time associated with the element
-`datetime` is an attribute taken by ‹del›, ‹ins›, and ‹time›
-
-The `cite` attribute provides an URI that points to the source of a quote or change.
-The `cite` attribute can be used on ‹blockquote›, ‹q›, ‹ins›, ‹del›
-
-The HTML autocomplete attribute lets web developers specify what if any permission the user agent has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field.
-The autocomplete attribute can be used on inputs that take a text-like value, textarea elements, select elements and form elements.
-The Boolean disabled attribute, when present, makes the element not mutable, focusable, or even submitted (if in a form).
-The disabled attribute is supported by ‹button›, ‹command›, ‹fieldset›, ‹keygen›, ‹optgroup›, ‹option›, ‹select›, ‹textarea› and ‹input›.
-The value attribute specifies the value of a thing.
-If the value attribute of an element is pre-filled, it generally appears as a default.
-
-content within ‹video›/‹audio›/‹canvas› is shown as a fallback for browsers that don't support the element.
-
-## Global attributes
-
-Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.
-Kinds of global attributes:
-aria-*
-the onevent event handlers
-xml:lang/xml:base — these are inherited from the XHTML specifications and deprecated, but kept for compatibility purposes.
-
-class, id
-HTML Microdata properties: item* (including on ‹meta›)
-translate: an enumerated attribute whether the element should be translated, e.g. by tools such as google translate.
-
-tabindex:
-The tabindex attriubte indicates if and how an element can be focused by the keyboard.
- ⟮tabindex⟯⟮=0⟯ indicates that ⟮an element can be focused⟯ (e.g. ⟮by the tab key⟯)
- ⟮tabindex⟯⟮=-1⟯ indicates that ⟮c+;an element can ⁑not ⁑be focused⟯ (e.g. by ⟮the tab key⟯)
-Values of tabindex larger than 0 specify the order in which things can be tabbed, use of this is highly discouraged.
-CSS inline styling with style.
-part and slot for the shadow DOM.
-`is` for custom elements.
-nonce
-lang
-hidden semantically indicates that the element is not relevant at the moment.
-hidden in fact just sets display to none.
-draggable is an enumerated attriubte w/ "true" and "false" which indicates whether the element can be dragged using the Drag and Drop API
-data-* 
-dir: enumerated attriubte ltr/rtl/auto
-contenteditable|makes the content editable
-the title attribute is *generally* shown as a tooltip, unless the element implements title differently.
-
-### text editing only
-
-spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
-there are three places where text can be inputed in HTML: ‹input type="text"›, ‹textarea› and anything w/ contenteditable
-spellcheck: an enumerated attribute w/ "true" and "false" whether to check the spelling of the thing
-inputmode: specify the kind of text input that is required, thus allowing mobile devices to show appropriate soft keyboards
-inputmode is different from ‹input type="..."› in that it does not enforce any kind of validation, users *can* still input anything they want.
-inputmode value|shows|equivalent ‹input› type, if extant
-none|no virtual keyboard
-text|default virtual keyboard
-decimal|keyboard with digits and decimal separtors, perhaps a -
-numeric|keyboard with digits only, perhaps a -
-tel|a telephone keyboard: 0-9, *, and #|type="tel"
-search|return key may be labelled search, perhaps other changes|type="search"
-email|optimized for email entry, contains @ prominently|type="email"
-url|optimized for url entry|type="url"
-
-autofocus
-autocapitalize: capitalization of user input
-enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
 # environment ≈ Web APIs
 
@@ -3462,28 +3078,21 @@ GUI|graphical user interface
 TUI|Text-based user interface
 CLI|Command-line interface
 
-## CLI
+## properties
 
-A command-line shell/interface is a type of shell (in the wide sense, it is decidedly not a type of shell in the sense of the interpreter such as bash, csh) where actions are accomplished by entering commands.
-The shell living within the terminal is interacted with via a CLI, but so does e.g. vim, or various cheat consoles in games.
+### diagesis
 
-### syntax
+Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
+Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
+Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic music⟯. 
+⟮An UI⟯ that ⟮is part of a game world itself⟯ would be ⟮an (intra)diegetic UI⟯ 
 
-There seem to be roughly two kinds of CLIs, ones that do most of their stuff via --arguments, and ones that do most of their stuff with a sentence-like syntax.
-CLIs that have a sentence-like syntax have (after the command that indicates this is what we're interfacing with, perhaps roughly equivalent to a vocative) a syntax consisting of ‹verb(s)› and ‹object(s)›
-The most common forms a sentence-like cli syntax takes on is either a ‹addressee› ‹object› ‹verb› {‹objects›} syntax or a ‹addressee› ‹verb› ‹object› {‹objects›} syntax
-topic-object-verb-object CLIs
-gh|github|gh issue view 12
-nmcli|NetworkManager|nmcli con add type ethernet ...
-⟮c1;⟯
+flex-container:✫sm_Dead_Space_gameplay.jpg✫
+Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
 
 ## GUI
 
-A graphical shell/grapical user interface is a type of shell (in the wide sense) that allows accomplishing commands via interaction through visual elements.
-
-WIMP = Windows, icons, menus, pointer
-
-### core concepts
+### viewport
 
 ⟮ha;✫sm_220px-Webdesign_Viewport_Window_Screen.svg.png✫⟯
 The viewport is the area (often rectangular) of a given thing that is currenty visible
@@ -3494,19 +3103,6 @@ flex-container:✫sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg✫
 
 A ⟮c+;s2;theme⟯ or ⟮c+;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
-
-### appearance
-
-#### skeuomorphs and skeuomorphicism
-
-A skeuomorph is a design inspired by a original design which retains elements from the original element that are no longer necessary in the new design, e.g. because it is funcionally different or in a new medium.
-Skeuomorphicism is a UI design approach that uses skeuomorphs that imitate real-life objects (though that would no longer be necessary on a digital devices).
-
-### widgeting toolkits
-
-### elements
-
-A UI element that enters a mode that blocks interaction with the main program and only allows interaction with the UI element, while it is visible is called modal, else it is modeless.
 
 #### menu
 
@@ -3638,10 +3234,7 @@ A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
 In bootstrap, breadcrumbs are created by .breadcrumb › .breadcrumb-item*n
 
-#### sidebars
 
-flex-container:⟮h∞;✫440eb7ec02550be3045c969dc02dc7f2.png✫✫162vsE7VWrMgBdBTF8MCKXw.jpeg✫✫ditch-sidebar-2016-2-fox.jpg✫✫ditch-sidebar-2016-4-washington.jpg✫✫sidebars.png✫⟯
-A ⟮sidebar⟯ is an UI element that is displayed ⟮to the side of⟯ ⟮the main content⟯ or ⟮of the screen⟯. ⟮hb;Sidebars may be ⟮navigation bars⟯, contain ⟮tools⟯ or contain ⟮further content⟯. ⟮hb;Sidebars are generally ⟮reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 #### disclosure widgets
 
@@ -3657,7 +3250,13 @@ flex-container:✫disc.png✫✫kfw-disclosure.jpg✫⟮h2;✫sm_FAQ-Content-Sty
 
 #### containers
 
+TODO: definition container
 A lightbox is a box/container that displays images/videos by filling the screen and dimming out the rest of the page/UI.
+
+##### sidebars
+
+flex-container:⟮h∞;✫440eb7ec02550be3045c969dc02dc7f2.png✫✫162vsE7VWrMgBdBTF8MCKXw.jpeg✫✫ditch-sidebar-2016-2-fox.jpg✫✫ditch-sidebar-2016-4-washington.jpg✫✫sidebars.png✫⟯
+A ⟮sidebar⟯ is an UI element that is displayed ⟮to the side of⟯ ⟮the main content⟯ or ⟮of the screen⟯. ⟮hb;Sidebars may be ⟮navigation bars⟯, contain ⟮tools⟯ or contain ⟮further content⟯. ⟮hb;Sidebars are generally ⟮reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
 ##### drawer
 
@@ -3669,7 +3268,9 @@ drawers on android can typically also be opened with a swiping gesture.
 
 ##### windows
 
-###### dialog box
+###### windowlets
+
+####### dialog box
 
 A dialog box is a small window that appears in front of the main window due to some event or action and requires some sort of response.
 An alert box is a dialog box which contains important information and only accepts the response of ;close'.
@@ -3681,7 +3282,7 @@ The dialog element rerpesents a dialog box container semantically.
 The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
 ‹form› elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
-#### tooltips ＆ popovers
+####### tooltips ＆ popovers
 
 flex-container:⟮h∞;✫sm_13gJ2VKho0yW4vEovAMtrjg.jpg✫⟯⟮ha;✫sm_220px-Mobile_URL_tooltip.png✫⟯]]][[[⟮ha;✫sm_1sGOKl17J48qhDRMx-foqOw.gif✫⟯⟮ha;✫sm_2021-06-24--02-37-46-screenshot.png✫⟯
 ⟮Tooltips⟯ and ⟮popovers⟯ are similar in that ⟮they both appear close to the thing that triggered them⟯. 
@@ -3695,11 +3296,6 @@ flex-container:✫1-final-listbox-matrix✫✫List_example.PNG✫✫ctrl-list-bo
 
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
-#### corners
-
-##### hot corners
-
-⟮hot corners⟯ are a feature of ⟮mac⟯ and some ⟮DEs on linux⟯ where ⟮moving your mouse into a corner⟯ will ⟮perform a certain action⟯ 
 
 #### dropdown list/menu
 
@@ -3708,91 +3304,12 @@ flex-container:✫1y2NriILZC8ujowKW4TWb2Q.png✫✫dropdown-example.jpg✫✫3-f
 dropdown is short for dropdown list/menu
 A dropwdown is a UI element that consists of ⟮a box⟯ and ⟮a downward arrow⟯ that ⟮one can interact with⟯ to ⟮show a list of options⟯, ⟮exactly one of which⟯ can be ⟮selected⟯. Often, larger ones will ⟮scroll⟯.
 
-#### buttons
-
-##### app shortcuts
-
-App shortcuts is the webdev name for the set of actions that are shown e.g. when you long press on a launcher icon on android
-
-##### FAB
-
-flex-container:⟮ha;✫sm_fab.jpg✫⟯⟮ha;✫sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png✫⟯
-A ⟮FAB⟯ ⟮(c:2;floating action button⟯) is ⟮a button⟯ that ⟮is always visible⟯ and contains ⟮the primary action for the application/view⟯. 
-A ⟮FAB⟯ is typically located ⟮in the bottom right⟯, is fairly ⟮large⟯ and ⟮round⟯. 
-A ⟮FAB⟯ may ⟮contain more actions⟯ when ⟮pressed⟯. 
-
-#### icons
-
-##### icon fonts
-
-Icon fonts map unicode characters from the private use areas to vectors/images
-Icon fonts are most often applied via css classes.
-the most common icon font is font awesome.
-
-##### icon packs
-
-An icon pack is a set of aesthetically united icons.
-octicons|icons used on github
-bootstrap-icons|Icons by/for bootstrap
-
-### actions
-
-#### window snapping
-
-Window snapping is making windows take up an exact area of the screen (most commonly halves, thirds, corners)
-Window snapping is most commonly performed by dragging them to edges/corners, via keyboard shortcuts or other buttons/automatic dialogs.
-Windows has had window snapping as of windows 7.
-Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now deprecated) or Rectangle
-
-### platforms
-
-flex-container:✫view_demonstrator.svg✫
 
 
-In ⟮mobile/app⟯ development, a ⟮view⟯ is ⟮the basic building block of UI⟯. They can be ⟮nested⟯, it is views ⟮all the way down⟯.
 
-## properties
-
-### diagesis
-
-Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
-Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
-Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic music⟯. 
-⟮An UI⟯ that ⟮is part of a game world itself⟯ would be ⟮an (intra)diegetic UI⟯ 
-
-flex-container:✫sm_Dead_Space_gameplay.jpg✫
-Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
-
-# user experience
-
-user experience is (the design of) the experience of an user interacting with something.
-
-## waiting
-
-Waiting is less frustrating when there is an indication of progress and transparancy of how the progress relates to the whole (e.g. Kayak.com showing cheaper prices trundling in).
-Jason Farman (Delayed Response) argues that what really matters about if we leave a waiting situation satisified is if we waited less than we expected, rather than the whole wait time.
-The fact that our expectations are the thing that determines our assesment of waiting and progress bars has given rise to the progress bar that starts out slow and then speeds up towards the end (no matter if this is a correct interpretation)
-
-# usability
-
-Something that has high usability is usable safely, effectively, easily.
-Usability engingeering is a field that is concerned with the usability of things, especially with human-computer interfaces.
-Perhaps the most well-known advocate/export for usability is Nielsen.
-A think-aloud protocol has users do a certain task and say whatever comes to mind as they are doing them.
-
-## responsive design
-
-responsive (web) design is (esp. web) design that adjusts to work ⟮on a variety of different devices⟯
-progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮then building on top of that for other targets⟯
-Graceful degradation is the (esp. web) design philosophy that emphasizes building for ones ideal targets but ⟮falls back on a good-enough experience⟯
-progressive enhancement ↔ graceful degradation
-Mobile first is building the mobile site first (and expanding on that for desktop users)
 
 # computer graphcis
 
-## FOUC
-
-A ⟮FOUC (Flash of unstyled content)⟯ is when a ⟮page (or some content)⟯ is briefly visible with ⟮no styling/browser default styling⟯
 
 ## geometry
 
@@ -3923,41 +3440,13 @@ candles|1500-2000K
 ⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫⟯
 
 
-## blending
 
-Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
-Blend modes typically use values from 0 to 1 for the channels for the math.
-When describing blend modes, t denotes the top layer and b the bottom layer
-In general, when channel is specified, assume it is done to each channel.
-normal|use alpha compositing
-multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
-screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
 ## image rendering
 
 Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
 The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
 
-## refresh rates
-
-⟮FPS⟯ (computing context) is short for ⟮frames per second⟯ 
-The most common ⟮display refresh rate⟯ as of 2020 is ⟮60fps/hz⟯ 
-Traditionally, it is said that ⟮20-30 fps⟯ is ⟮the minimum⟯ to see ⟮smooth movement and not just a series of images⟯. 
-⟮1⟯ FPS = ⟮1⟯ Hz 
-medium|FPS
-⟮video (traditional⟯)|⟮30fps⟯
-⟮film⟯|⟮24fps⟯
-
-
-## transparency ＆ opacity
-
-The ⟮inverse of⟯ ⟮transparency⟯ is ⟮opacity⟯ 
-
-transparency/opacity|visibility
-⟮0% transparency / 100% opacity⟯|⟮completely visible⟯
-⟮100% transparency / 0% opacity⟯|⟮completely invisible⟯
-⟮30% transparency /70% opacity⟯|⟮70% visible⟯
-⟮55% transparency /45% opacity⟯|⟮45% visible⟯
 
 
 
