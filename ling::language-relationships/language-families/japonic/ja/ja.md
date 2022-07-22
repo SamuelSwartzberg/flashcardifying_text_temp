@@ -112,6 +112,10 @@ https://www.reddit.com/r/linguistics/comments/e7n9tp/leftbranching_headfinal_lan
 
 https://en.wikipedia.org/wiki/Cleft_sentence#Japanese
 
+https://japanese.stackexchange.com/questions/82922/%e3%82%80-verbs-and-corresponding-%e3%81%be%e3%81%97%e3%81%84-adjectives/82923#82923 (currently many parts too difficult)
+
+明日へのな (shingeki no bahamut: genesis ep. 5) - seems to be particle + nominalizing の, which is weird, I wouldn't have thought that's possible
+
 ### history, culture, etc
 
 
